@@ -149,9 +149,18 @@ foreach( $menu as $module )
       <div>
       <form action="" method="post">
         <div><select name="mirror">
-        <!-- current: $GLOBALS['HTTP_HOST'] -->
-          <option value="www.videolan.org">Main site (VIA)</option>
-          <option value="www.fr.videolan.org">Mirror site (Zoy)</option>
+          <?php
+          $web_mirrors = array("videolan.org" => "Main site (VIA)",
+                               "fr.videolan.org" => "Mirror site (Zoy)");
+          foreach($web_mirrors as $web_mirror_addr => $web_mirror_desc){
+            echo "<option value=\"www.$web_mirror_addr\" ";
+            if($_SERVER["HTTP_HOST"] == $web_mirror_addr ||
+               $_SERVER["HTTP_HOST"] == "www.$web_mirror_addr"){
+              echo "selected=\"selected\"";
+            }
+            echo " >$web_mirror_desc</option>";
+          }
+          ?>
         </select></div>
         <div><input type="submit" value="Select Mirror" /></div>
       </form>

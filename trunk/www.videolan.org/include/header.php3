@@ -57,11 +57,10 @@ function starthtml($title) { ?>
    <img src="/images/cone-soppera1-mini.png" alt="Logo VideoLAN" />
   </td>
 
- <td style="width=90%">
-  <table>
+ <td style="width=80%">
+  <table style="width=100%">
   <tr>
-
-   <td style="width:90%">
+   <td>
 
      <table width="100%" cellspacing="3" cellpadding="0">
      <tr>
@@ -73,11 +72,13 @@ function starthtml($title) { ?>
      <td style="background-color: #afa; width: 17%; vertical-align: middle;" align="center"><b><a href="http://developers.videolan.org/">Developers</a></b></td>
      </tr>
      </table>
+
    </td>
-
   </tr>
-  <tr>
+  </table>
 
+  <table style="width=100%">
+  <tr>
    <td>
 
     <table width="100%" cellspacing="2" cellpadding="0">
@@ -93,7 +94,6 @@ function starthtml($title) { ?>
     </table>
 
    </td>
-
   </tr>
   </table>
 

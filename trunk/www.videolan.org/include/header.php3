@@ -57,8 +57,7 @@ function DrawMenu( $file, $mod )
       $l = rtrim( $l );
       if( $l == "sep" )
       {
-        ?><td><div class="sep"></div></td>
-        <?
+        echo '<td><div class="sep"></div></td>';
       }
       else
       {
@@ -66,39 +65,25 @@ function DrawMenu( $file, $mod )
             split( "[\t;]+", $l );
         if( $name == $mod )
         {
-          ?><td class="button-down" onclick="document.location='<? 
-          echo $link;
-          ?>'">
-          <?
+          echo '<td class="button-down">';
         }
         else
         {
-          ?><td class="button" <?     
-          ?>onmouseout="this.className='button'" <?
-          ?>onmouseover="this.className='button-up'" <?
-          ?>onmousedown="this.className='button-down'" <?
-          ?>onclick="document.location='<? echo $link ?>'">
-          <?
+          echo '<td class="button" onmouseout="this.className=\'button\'"'.
+               ' onmouseover="this.className=\'button-up\'"'.
+	       ' onmousedown="this.className=\'button-down\'">';
         }
-        ?><table cellpadding="1" cellspacing="0" style="margin: 0px;">
-        <tr><?
+	echo '<table cellpadding="1" cellspacing="0" style="margin: 0px;">'.
+	     '<tr>';
         if( $icon != "" )
         {
-          ?><td>
-          <img class="button" src="/images/menu/<?
-          echo $icon;
-          ?>" alt="<?
-          echo $name;
-          ?>" width="<?
-          echo $width;
-          ?>" height="<?
-          echo $height;
-          ?>"/></td><?
+          echo "<td><a href=\"$link\">".
+	       "<img class=\"button\" src=\"/images/menu/$icon\"".
+	       " alt=\"$name\" width=\"$width\" height=\"$height\"/>".
+	       '</a></td>';
         }
-        ?><td class="button-text"><?
-        echo $text;
-        ?></td></tr></table></td><?
-
+        echo "<td class=\"button-text\"><a href=\"$link\">$text</a></td>";
+	echo '</tr></table></td>';
       }
     }
   }

@@ -250,25 +250,52 @@ end of the playlist and started.</para>
 <para>The playlist window shows all the streams in the playlist.
 Double-click one to have it played.</para>
 
-<para>The <emphasis>Manage</emphasis> menu allows you to append an item at the
-end of the playlist (but its playback won't start immediately), to save
-the playlist as a M3U or PLS file, or to import a playlist file.</para>
+<para>In the wxWindows interface, the <emphasis>Manage</emphasis> menu allows 
+you to append an item at the nd of the playlist (but its playback won't start 
+immediately), to save the playlist as a M3U or PLS file, or to import a 
+playlist file.</para>
 
-<para>The <emphasis>Sort</emphasis> allows you to sort the playlist according to
-several criteria, or to shuffle it.</para>
+<para>In the MacOS X interface, saving a playlist can be done using the 
+<emphasis>Save Playlist...</emphasis> function in the <emphasis>File</emphasis> menu. To import a playlist file, open it the same way as any other media file, 
+using the <emphasis>Quick Open File...</emphasis> menu item.</para>
 
-<para>The toolbar contains three playlist mode buttons to enable
-random mode, repeat of all the playlist and repeat of one item of the
-playlist.</para>
+<para>In the wxWindows interface, the <emphasis>Sort</emphasis> allows you to 
+sort the playlist according to several criteria, or to shuffle it.</para>
+
+<para>In the MacOS X interface, sorting can be done by clicking the header of 
+the column matching the criteria you want to use for sorting.</para>
+
+<para>In the wxWindows interface, the toolbar contains three playlist mode 
+buttons to enable random mode, repeat of all the playlist and repeat of one 
+item of the playlist.</para>
+
+<para>In the MacOS X interface, random mode can be enabled by selecting the <emphasis>Random</emphasis> box. A drop down menu allows you to enable playlist and item repeat modes.</para>
 
 <para>You also have a search tool. Enter a search string and hit search.
 The next item to match the string will be hilighted. Keep hitting Search
 to cycle between all matching items.</para>
 
-<para>The <emphasis>Up</emphasis> and <emphasis>Down</emphasis> buttons
-at the bottom of the playlist window allow you to move an item. Select
-an item and use these buttons to move it.</para>
+<para>In the wxWindows interface, the <emphasis>Up</emphasis> and <emphasis>Down
+</emphasis> buttons at the bottom of the playlist window allow you to move an 
+item. Select an item and use these buttons to move it.</para>
 
+<para>In the MacOS X interface, you can move an item with the mouse, easily 
+using a <emphasis>Drag'n'Drop</emphasis>.</para>
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/play-howto/intf-wx-playlist.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>The Playlist - wxWindows interface</para></textobject>
+  <caption><para>The Playlist - wxWindows interface</para></caption>
+</mediaobject>
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/play-howto/intf-osx-playlist.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>The Playlist - MacOS X interface</para></textobject>
+  <caption><para>The Playlist - MacOS X interface</para></caption>
+</mediaobject>
 </sect1>
 
 <sect1><title>Hotkeys</title>

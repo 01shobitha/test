@@ -14,6 +14,15 @@ Packages upto vlc version 0.4.4 support <b>familiar version 0.5</b>. <br />
 Packages from vlc version 0.4.5 onwards support <b>familiar version 0.6</b>.
 </p>
 
+<? h2("Upgrading from v0.5.0 or v0.5.1_test"); ?>
+<p>
+If upgrading from vlc (vlc, gpe-vlc and opie-vlc) version 0.5.0 or from any test packages leading up to version 0.5.1, then you'll have to uninstall the additional package called ffmpeg. The package is renamed to libffmpeg, because it only provides libraries from the ffmpeg tree. 
+</p>
+<p><ul>
+<li>Uninstall ffmpeg with: ipkg remove ffmpeg</li>
+<li>Install libffmpeg with: ipkg install libffmpeg</li>
+</ul></p>
+
 <? h2("Familiar Linux Gtk+/GPE"); ?>
 
 <p>
@@ -21,24 +30,25 @@ Latest vlc versions for Familiar Linux v0.6 are: <br />
 </p>
 <p>Interface and Codecs</p>
 The interface and codecs come in the same package.
-<ul><li>Gtk+ interface: <a href="/pub/videolan/vlc/ipkg-feed/armv4l/vlc_0.5.0_arm.ipk">vlc_0.5.0_arm.ipk</a></li>
-<li>GPE interface:  <a href="/pub/videolan/vlc/ipkg-feed/armv4l/gpe-vlc_0.5.0_arm.ipk">gpe-vlc_0.5.0_arm.ipk</a></li>
+<ul><li>Gtk+ interface: <a href="/pub/videolan/vlc/ipkg-feed/armv4l/v0.5.1/x11/vlc_0.5.1_arm.ipk">vlc_0.5.1_arm.ipk</a></li>
+<li>GPE interface:  <a href="/pub/videolan/vlc/ipkg-feed/armv4l/v0.5.1/gpe/gpe-vlc_0.5.1_arm.ipk">gpe-vlc_0.5.1_arm.ipk</a></li>
 </ul>
 
 <p>Libraries</p>
 Additional libraries needed:
-<ul><li><a href="/pub/videolan/vlc/ipkg-feed/armv4l/ffmpeg_0.4.6_20030201_arm.ipk">ffmpeg_0.4.6_20030201_arm.ipk</a></li></ul>
+<ul><li><a href="/pub/videolan/vlc/ipkg-feed/armv4l/v0.5.1/libffmpeg_0.4.6_20030201_arm.ipk">libffmpeg_0.4.6_20030201_arm.ipk</a></li></ul>
 
 <? h2("Familiar Linux Opie"); ?>
-<p>Latest version for Familiar Opie is 0.4.6</p>
+<p>Latest version for Familiar Opie is 0.5.1</p>
 
 <p>Interface</p>
-<ul><li>Commandline interface:<a href="/pub/videolan/vlc/ipkg-feed/armv4l/opie-vlc_0.4.6_pre2_arm.ipk">opie-vlc_0.4.6_pre2_arm.ipk</a></li></ul>
+<ul><li>Commandline interface:<a href="/pub/videolan/vlc/ipkg-feed/armv4l/v0.5.1/opie/opie-vlc_0.5.1_arm.ipk">opie-vlc_0.5.1_arm.ipk</a></li></ul>
 
-<!-- <p>Libraries</p>
+<p>Libraries</p>
 Additional libraries needed:
-<ul><li><a href="/pub/videolan/vlc/ipkg-feed/armv4l/ffmpeg_0.4.6_20030201_arm.ipk">ffmpeg_0.4.6_20030201_arm.ipk</a></li>
--->
+<ul><li><a href="/pub/videolan/vlc/ipkg-feed/armv4l/v0.5.1/libffmpeg_0.4.6_20030201_arm.ipk">libffmpeg_0.4.6_20030201_arm.ipk</a></li>
+<li><a href="/pub/videolan/vlc/ipkg-feed/armv4l/v0.5.1/opie/opie-sdl_1.2.5_arm.ipk">opie-sdl_1.2.5_arm.ipk</a></li></ul>
+
 <h2>Older versions</h2>
 <p>
 Older version for your iPaq configuration:
@@ -48,4 +58,4 @@ Older version for your iPaq configuration:
 </ul>
 
 
-<? footer('$Id: download-familiar.html,v 1.13 2003/02/03 20:06:39 jpsaman Exp $'); ?>
+<? footer('$Id: download-familiar.html,v 1.14 2003/02/17 21:51:36 jpsaman Exp $'); ?>

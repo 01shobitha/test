@@ -139,7 +139,7 @@ foreach( $menu as $module )
     </td>
     <td valign="middle">
       <div>Mirror&nbsp;:
-      <form action="#" method="GET">
+      <form action="#" method="get">
         <div><select name="mirror"
                onchange="window.location='http://'+this.value+'/<?php
                  echo preg_replace('/\.php$/', '.html', $_SERVER['PHP_SELF']);

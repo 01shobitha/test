@@ -101,17 +101,27 @@ nombres entiers, ce qui permet de l'utiliser sur les PDAs</span>
 <sect2><title>ogt</title>
 &enabled;
 <para>
-ogt handles the VCD subtitles (Philips Overlay
-Graphics Text or OGT) and subtitles used by Chaoji VCDs (also known
-as CVD).
-</para></sect2>
+<span xml:lang="en">OGT handles the SVCD subtitles (Philips Overlay
+Graphics Text or OGT) and subtitles used by Chaoji VCDs (also known as
+CVD).</span></para>
+
+<para>A description of the format for these kinds of subtitles can be
+found in the vlc source
+in <filename>doc/subtitles/svcd-subtitles.txt</filename> and
+<filename>doc/subtitles/cvd-subtitles.txt</filename>.
+</span></para></sect2>
 
 <sect2><title>spudec</title>
 &enabled;
 <para>
-spudec handles the DVD subtitles. At present
-full color subtitles and transparency are not handled.
+<span xml:lang="en">spudec handles the DVD subtitles. At present
+full color subtitles and transparency are not handled.</span>
 </para>
+
+<para>
+<span xml:lang="en">For a description of the format for these kinds of
+subtitles see
+<ulink url="http://sam.zoy.org/writings/dvd/subtitles">http://sam.zoy.org/writings/dvd/subtitles</ulink></span></para>
 </sect2>
 
 <sect2><title>tarkin</title>

@@ -15,10 +15,21 @@ Don't put any of the non released test binaries or cvs-compiles on software site
 <ul>
 <li>Install de Mac OSX developer tools from the Developer Tools CD, or get them <a href="http://developer.apple.com/tools/macosxtools.html">online</a>.</li>
 <li><a href="http://www.videolan.org/pub/videolan/devtools/macosx-usr-local.tar.bz2">Download</a> the usr/local/ archive from Christophe Massiot. You will need to install all these files in your own /usr/local archive. Uncompress them and use the terminal and sudo to copy them to that location. If you are already lost, then you probably have no business compiling VLC, i.e. you are not a developer or not a good tester.</li> 
-<li>Modify your .cshrc and add the line:<br /><code>set path = ( /usr/local/bin $path )</code></li><li>If you have fink, either disable it by commenting the line<code>#source /sw/bin/init.csh</code>or modify the /sw/bin/init.csh to add /sw/bin path AFTER $path</li><li>Use ranlib on every new library by executing the following line in the Terminal:<br /><code>find /usr/local/lib -name "lib*.a" -exec ranlib {} \;</code>
-<li>Download the source code (use cvs or download the archive)</li><li>Type the command:<br /><code>limit stacksize 20000</code></li><li>cd to the source directory</li><li>run ./bootstrap</li><li>run ./configure. The following is suggested:<br /><code>./configure --disable-x11 --disable-xvideo --disable-gtk --disable-sdl --enable-ffmpeg --enable-mad --enable-libdvbpsi --enable-a52 --enable-dvdplay --enable-faad --enable-vorbis --enable-ogg --with-included-gettext --enable-debug</code></li><li>make</li>
+<li>Modify your .cshrc and add the line:<br />
+<code>set path = ( /usr/local/bin $path )</code></li>
+<li>If you have fink, either disable it by commenting the line
+<code>#source /sw/bin/init.csh</code>
+or modify the /sw/bin/init.csh to add /sw/bin path AFTER $path</li>
+<li>Use ranlib on every new library by executing the following line in the Terminal:<br />
+<code>find /usr/local/lib -name "lib*.a" -exec ranlib {} \;</code>
+<li>Download the source code (use cvs or download the archive)</li>
+<li>Type the command:<br /><code>limit stacksize 20000</code></li>
+<li>cd to the source directory</li>
+<li>run ./bootstrap</li>
+<li>run ./configure. The following is suggested:<br /><code>./configure --disable-x11 --disable-xvideo --disable-gtk --disable-sdl --enable-ffmpeg --enable-mad --enable-libdvbpsi --enable-a52 --enable-dvdplay --enable-faad --enable-vorbis --enable-ogg --enable-theora --enable-faac --with-included-gettext --enable-debug</code></li>
+<li>make</li>
 </ul>
 
 <p>
 <b>Written by Jean-Alexis Montignies and Derk-Jan Hartman <a href="mailto:thedj@users.sourceforge.net">thedj@users.sourceforge.net</a>, for the VideoLAN Team.</b>
-</p>
+</p>

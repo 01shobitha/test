@@ -30,7 +30,7 @@ $(LANG:%=$(DOC)-%.html): %.html: %.xml
 	zip $(basename $@)-html.zip $@ images/*.jpg
 	mkdir -p $(basename $@) 
 	mv *.html $(basename $@)
-	ln -sf $(DOC)-en/index.html index.html
+	ln -sf $(DOC)-en/index.html $(DOC)-en.html
 
 $(LANG:%=$(DOC)-%.ps): %.ps: %.xml
 	/bin/cp ../common/magic-eps.xml ../common/magic.xml

@@ -446,11 +446,11 @@ msgid ""
 "The text of the license can be found in the appendix.\n"
 "<xref linkend=\"gpl\" endterm=\"tgpl\"/>."
 msgstr ""
-"la permission de copier, distribuer et/ou modifier ce document est garantie\n"
-" sous le terme du GNU General Public License comme publiée par la Free \n"
-"software foundation;selon la version 2 de la License ou\n"
-" toute version plus récente.\n"
-"le texte de la License peut etre trouvé dans l'appendice.\n"
+"Les permissions de copier, de distribuer et/ou de modifier ce document\n"
+"sont accordées selon les termes de la licence GNU General Public License\n"
+"telle qu'elle est publiée par la Free Software Foundation; soit la\n"
+"version 2 de cette licence ou toute version plus récente.\n"
+"Le texte de la licence peut etre trouvé dans l'appendice.\n"
 "<xref linkend=\"gpl\" endterm=\"tgpl\"/>."
 
 # type: Content of: <book><bookinfo><keywordset><keyword>
@@ -525,7 +525,10 @@ msgstr "DivX"
 msgid ""
 "\n"
 "This document is the complete user guide for the client aspects of VLC.\n"
-msgstr "Ce document est un guide complet pour les aspects client de VLC.\n"
+msgstr ""
+"\n"
+"Ce document est un guide de l'utilisateur complet concernant les aspects"
+"clients de VLC.\n"
 
 # type: Content of: <appendix><sect1>
 #: en/play-howto.xml:81 en/play-howto.xml:84 en/basic-use.xml:241
@@ -579,7 +582,7 @@ msgid ""
 "Basic use of VLC\n"
 msgstr ""
 "\n"
-"Utilisation de base de VLC\n"
+"Utilisation simple de VLC\n"
 
 # type: Content of: <chapter><sect1><title>
 #: en/basic-use.xml:6
@@ -595,9 +598,9 @@ msgid ""
 "Windows and GNU/Linux, called wxWindows, a MacOS X native interface and\n"
 "a skinnable interface for Windows and GNU/Linux."
 msgstr ""
-"VLC a differentes interfaces: une interface multi-plateformes, pour\n"
+"VLC a plusieurs interfaces : une interface multi-plateforme, pour\n"
 "Windows et GNU/Linux, appellée wxWindows, une interface pour MacOS X et\n"
-"une interface skimnable pour Windows and GNU/Linux."
+"une interface skinnable pour Windows et GNU/Linux."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/basic-use.xml:12
@@ -613,9 +616,9 @@ msgid ""
 "screenshot is done on GNU/Linux, but it would look quite the same on\n"
 "Windows."
 msgstr ""
-"C'est l'interface par default sur Windows et GNU/Linux (la\n"
-"capture d'écran  est fait sur GNU/Linux, mais ça donne la meme chose sous\n"
-" windows."
+"C'est l'interface par défaut sur Windows et GNU/Linux (la\n"
+"capture d'écran a été effectuée suos GNU/Linux, mais l'allure est similaire\n"
+"sous Windows."
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:22 en/basic-use.xml:23
@@ -627,7 +630,7 @@ msgstr "L'interface wxWindows"
 #: en/basic-use.xml:26
 #, no-wrap
 msgid "This interface also features an <emphasis>Extended GUI</emphasis> which contains many additional features. To display or hide it, go to the <emphasis>Settings</emphasis> menu and click <emphasis>Extended GUI</emphasis>."
-msgstr "Cette interface comporte aussi une <emphasis>Interface étendue</emphasis> qui contient plusieurs fonctionalités suplémentaires. Pour la désactiver ou la cacher, allez dans le menu <emphasis>Paramètres</emphasis> et cliquez sur <emphasis>Interface étendue</emphasis>. "
+msgstr "Cette interface comporte aussi une <emphasis>Interface graphique utilisateur étendue</emphasis> qui inclut de nombreuses fonctionalités supplémentaires. Pour l'afficher ou la cacher, allez dans le menu <emphasis>Paramètres</emphasis> et cliquez sur <emphasis>Interface étendue</emphasis>. "
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:32 en/basic-use.xml:33
@@ -656,10 +659,10 @@ msgid ""
 "box will appear. Select the file you want to open, \n"
 "and select Open. VLC will start playing the selected file. \n"
 msgstr ""
-"Pour ouvrir un fichier,ouvrez le menu <emphasis>Fichier</emphasis>, et sélectionez \n"
-"le menu <emphasis>Ouvrir un fichier</emphasis>. Une fenêtre de dialogue \n"
-"apparaitra. Selectionnez le fichier que vous voulez ouvrir et \n"
-"cliquez sur Ouvrir. VLC commencera la lecture du fichier selectionné. \n"
+"Pour ouvrir un fichier, ouvrez le menu <emphasis>Fichier</emphasis>, et sélectionnez \n"
+"le l'élément <emphasis>Ouvrir un fichier</emphasis>. Une boîte de dialogue \n"
+"devrait apparaître. Sélectionnez le fichier que vous voulez lire puis\n"
+"cliquez sur Ouvrir. VLC commencera la lecture du fichier indiqué. \n"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:49
@@ -668,33 +671,33 @@ msgid ""
 "An alternative is to Drag'n'Drop your file on the VLC main interface or \n"
 "playlist window from the file explorer (Finder on MacOS X)."
 msgstr ""
-"Une alternative est de trainer votre fichier sur l'interface principale de\n"
-"VLC ou sur la liste de lecture depuis l'explorateur de fichier\n"
-"(Finder sur MacOS X)"
+"Une alternative est de glisser-déplacer votre fichier sur l'interface principale\n"
+"de VLC ou sur la liste de lecture depuis l'explorateur de fichier\n"
+"(ou le Finder sous MacOS X)"
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:56 en/basic-use.xml:57
 #, no-wrap
 msgid "The File menu - wxWindows interface"
-msgstr "Le menu Fichier de l'interface wxWindows"
+msgstr "Le menu Fichier - interface wxWindows"
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:64 en/basic-use.xml:65
 #, no-wrap
 msgid "The File menu - MacOS X interface"
-msgstr "Le menu Fichier de l'interface de MacOS X"
+msgstr "Le menu Fichier - interface de MacOS X"
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:72 en/basic-use.xml:73
 #, no-wrap
 msgid "The Open file dialog - wxWindows interface"
-msgstr "La boite de dialogue Ouvrir un fichier de l'interface wxWindows"
+msgstr "La boîte de dialogue Ouvrir un fichier - interface wxWindows"
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:80 en/basic-use.xml:81
 #, no-wrap
 msgid "The Open file dialog - MacOS X interface"
-msgstr "La boite de dialogue Ouvrir un fichier de l'interface MacOS X"
+msgstr "La boîte de dialogue Ouvrir un fichier - interface MacOS X"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/basic-use.xml:85
@@ -716,12 +719,12 @@ msgid ""
 msgstr ""
 "\n"
 "Pour lire un CD, VCD ou un DVD, ouvrez le menu <emphasis>Fichier</emphasis>\n"
-"et sélectionnez le menu <emphasis>Ouvrir un disque</emphasis>. Dans la \n"
-"fenêtre de dialogue 'Ouvrir un disque', choisissez le type de media (DVD,\n"
-"VCD ou CD Audio). Lors de la lecture d'un DVD, vous pouvez utilisez\n"
-"le menu DVD en choisissant <emphasis>DVD (menus)</emphasis>\n"
+"et sélectionnez l'option <emphasis>Ouvrir un disque</emphasis>. Dans la\n"
+"boîte de dialogue <emphasis>Ouvrir un disque</emphasis>, choisissez le type de\n"
+"média (DVD, VCD ou CD Audio). Lors de la lecture d'un DVD, vous pouvez activer\n"
+"le menu DVD en sélectionnant <emphasis>DVD (menus)</emphasis>\n"
 "comme type de disque dans l'interface wxWindows. Pour l'interface MacOS X,\n"
-"cela peut être fait en choisissant la fenêtre de dialogue \"Use DVD menus\".\n"
+"cela peut être fait en choisissant la boîte de dialogue \"Use DVD menus\".\n"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:94

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<sect1><title>
+<span xml:lang="en">Demuxers</span>
+<span xml:lang="fr">Démultiplexeurs</span></title>
+
+<para>
+<span xml:lang="en">In a video stream, the video signal and the audio
+one are always into "containers" formats. Demuxers extract the streams
+from it and pass it to the decoders.</span>
+<span xml:lang="fr">Dans un flux, les signaux vidéo et audio sont
+toujours inclus dans un format "conteneur". Les démultiplexeurs
+extraient les flux de ce conteneur et les envoient aux décodeurs</span>
+.</para>
+
+<para>
+<span xml:lang="en"> For example, an AVI file can contain a MPEG-4
+video, or an uncompressed video. AVI is only a storing format, not a
+compression format</span>
+<span xml:lang="fr">Par exemple, un fichier AVI peut contenir une vidéo
+encodée en MPEG-4, ou une vidéo non compressée. AVI est seulement un
+format de stockage, pas un format de compression</span>
+.</para>
+
+<sect2><title>avi</title>
+&always;
+<para>
+<span xml:lang="en">This module allows you to read
+<filename>.avi</filename> files</span>
+<span xml:lang="fr">Ce module vous permet de lire les fichiers
+<filename>.avi</filename></span>.</para>
+&options-st;
+<itemizedlist>
+ <listitem>
+  <para> --avi-interleaved, --no-avi-interleaved:
+   <span xml:lang="en">Enables or disables interlacing mode (default is disabled)</span>
+   <span xml:lang="fr">Active ou désactive le mode entrelacé (desactivé par défaut)</span>
+  </para>
+ </listitem>
+ <listitem>
+  <para> --avi-index, --no-avi-index:
+   <span xml:lang="en">Forces an index to be created. This can help for
+    buggy streams (default is disabled)</span>
+   <span xml:lang="fr">Force la création d'un index, ce qui peut aider
+     la lecture de flux buggés (désactivé par défaut)</span>
+  </para>
+ </listitem>
+</itemizedlist>
+</sect2>
+
+<sect2><title>asf</title>
+&always;
+<para>
+<span xml:lang="en">This module allows you to read
+<filename>.asf</filename> files</span>
+<span xml:lang="fr">Ce module vous permet de lire les fichiers
+<filename>.asf</filename></span>
+</para></sect2>
+
+<sect2><title>aac</title>
+&always;
+<para>
+<span xml:lang="en">This module allows you to read 
+AAC files</span>
+<span xml:lang="fr">Ce module vous permet de lire les fichiers
+ AAC</span>
+</para></sect2>
+
+<sect2><title>ogg</title>
+&enabled;
+<para>
+<span xml:lang="en">This module allows you to read
+<filename>.ogg</filename> files</span>
+<span xml:lang="fr">Ce module vous permet de lire les fichiers
+<filename>.ogg</filename></span>
+</para></sect2>
+
+<sect2><title>rawdv</title>
+&always;
+<para>
+<span xml:lang="en">This module allows you to read
+DV files</span>
+<span xml:lang="fr">Ce module vous permet de lire les fichiers
+ DV</span>
+</para></sect2>
+
+<sect2><title>dvbpsi</title>
+&enabled;
+<para>
+<span xml:lang="en">This module allows to demux streams from a satellite
+card.</span>
+<span xml:lang="fr">Ce module vous permet de lire les flux d'une carte
+satellite.</span>
+</para></sect2>
+
+<sect2><title>mp4</title>
+&always;
+<para>
+<span xml:lang="en">This module allows you to read
+<filename>.mp4</filename> files</span>
+<span xml:lang="fr">Ce module vous permet de lire les fichiers
+<filename>.mp4</filename></span>
+</para></sect2>
+
+<sect2><title>mkv</title>
+&enabled;
+<para>
+<span xml:lang="en">This module allows you to read files that use the
+Matroska format</span>
+<span xml:lang="fr">Ce module permet de lire les fichiers utilisant le
+format Matroska</span>
+.</para>
+&options-st;  
+<itemizedlist>
+<listitem>
+<para><emphasis>--mkv-seek-percent, --no-mkv-seek-percent</emphasis>:
+   <span xml:lang="en"> When this option is enabled (this is the default 
+	behaviour), seek is based on percentage and not on time</span>
+   <span xml:lang="fr">Avec cette option (activée par défaut), le 
+        déplacement dans le fichier se fait selon le pourcentage et non suivant le temps
+   </span></para>
+ </listitem>
+</itemizedlist>
+</sect2>
+
+<sect2><title>ps,ts</title>
+&always;
+<para>
+<span xml:lang="en">These modules allow you to read MPEG2 Program Stream
+or Transport Tream files</span>
+<span xml:lang="fr">Ces modules vous permettent de lire les flux
+encapsulés en MPEG2-Program Stream ou Transport Stream</span>
+.</para>
+&options-st;  
+<itemizedlist>
+<listitem>
+<para><emphasis>--vls-backward-compat, --no-vls-backward-compat (ts module)</emphasis>:
+   <span xml:lang="en"> Enable this option if you want to read VLS &lt; 0.4 MPEG 2 streams.</span>
+   <span xml:lang="fr"> Activez cette option pour pouvoir lire des flux diffusés par des VLS antérieurs 0.4</span>
+  </para></listitem>
+  <listitem><para>--buggy-psi, --no-buggy-psi (ts module)
+   <span xml:lang="en"> Enable this option to help handling of files
+     with buggy PSI.</span>
+   <span xml:lang="fr"> Activez cette option pour améliorer la 
+     prise en charge des flux ayant des PSI bugguées.</span>
+  </para>
+ </listitem>
+</itemizedlist>
+</sect2>
+
+<sect2><title>id3,m3u</title>
+&always;
+<para>
+<span xml:lang="en">These modules allow you to read M3U, B4S, PLS, and
+ASX playlists, and ID3 tags</span>
+<span xml:lang="fr">Ces modules vous permettent de lire les playlists
+M3U, B4S, PLS, et ASX, ainsi que les tags ID3</span>
+.</para></sect2>
+
+</sect1>

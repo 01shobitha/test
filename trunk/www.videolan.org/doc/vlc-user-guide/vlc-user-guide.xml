@@ -23,7 +23,16 @@
   <!ENTITY options-st SYSTEM "options-st.xml">
 <!-- End dirty -->
 
+<!-- The module types -->
 
+  <!ENTITY vout SYSTEM "modules/vout.xml">
+  <!ENTITY vfilter SYSTEM "modules/vfilter.xml">
+  <!ENTITY aout SYSTEM "modules/aout.xml">
+  <!ENTITY access SYSTEM "modules/access.xml">
+  <!ENTITY demux SYSTEM "modules/demux.xml">
+  <!ENTITY intf SYSTEM "modules/intf.xml">
+  <!ENTITY codec SYSTEM "modules/codec.xml">
+  <!ENTITY misc SYSTEM "modules/misc.xml">
 ]>
 
 <book id="vlc-user-guide">

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<sect1><title>
+<span xml:lang="en">Access modules</span>
+<span xml:lang="fr">Modules d'entrée</span>
+</title>
+
+<para>
+<span xml:lang="en">These modules allow VLC to read its streams from
+different sources. VLC tries to guess the most suitable module at runtime. If you want to force an input module lauch VLC with:</span>
+<span xml:lang="fr">Ces modules permettent à
+VLC de lire depuis différentes sources. VLC essaie de choisir le module le plus adapté au moment de la lecture. Si vous voulez forcer un module particulier, lancez VLC avec l'option :</span>
+--input modulename</para>
+
+<sect2><title>dvdplay</title>
+&enabled;
+<para>
+<span xml:lang="en">This is the regular DVD input module. It will need
+<emphasis>libdvdcss</emphasis> for DVD decryption (see the <ulink
+url="http://developers.videolan.org/libdvdcss/">libdvdcss page</ulink>)
+and <emphasis>libdvdplay</emphasis> for DVD navigation (see the <ulink
+url="http://developers.videolan.org/libdvdplay/">libdvdplay</ulink>
+page)</span>
+<span xml:lang="fr">Ceci est le module de lecture de DVD standard. Vous
+aurez besoin de <emphasis>libdvdcss</emphasis> pour décrypter les DVD
+(voir <ulink url="http://developers.videolan.org/libdvdcss/">la page
+libdvdcss</ulink>), et de <emphasis>libdvdplay</emphasis> pour les menus
+DVD (voir <ulink url="http://developers.videolan.org/libdvdplay/">la
+page libdvdplay</ulink></span>
+.</para></sect2>
+
+<sect2><title>vcd</title>
+&enabled;
+<para><span xml:lang="en">This is the VideoCD input</span>
+<span xml:lang="fr">Module de lecture de VideoCD</span>
+.</para></sect2>
+
+<sect2><title>cdda</title>
+&enabled;
+<para><span xml:lang="en">This is the Audio CD input</span>
+<span xml:lang="fr">Module de lecture de CDs audio</span>
+.</para></sect2>
+
+<sect2><title>http,ftp,udp,file,directory,mms</title>
+&always;
+<para>
+<span xml:lang="en">These are standard input modules.
+The HTTP input can be used for Video On Demand</span>
+<span xml:lang="fr">Ces module sont les modules d'entrée standards.
+Le module HTTP peut être utilisé pour la vidéo à la demande (VOD)</span>
+.</para></sect2>
+
+<sect2><title>satellite</title>
+&disabled;
+<para>
+<span xml:lang="en">This is an input module that allows
+to read directly from a Hauppauge WinTV Nova card under
+GNU/Linux. It requires drivers 0.9.4 available from <ulink
+url="http://www.linuxtv.org/">linuxtv.org</ulink></span>
+<span xml:lang="fr">Ce modulee d'entrée permet de lire
+depuis une carte Hauppauge WinTV Nova sous GNU/Linux. Vous
+aurez besoin des drivers, v0.9.4, disponibles sur <ulink
+url="http://www.linuxtv.org/">linuxtv.org</ulink></span>
+.</para></sect2>
+
+<sect2><title>v4l</title>
+&disabled;
+<para><emphasis>
+<span xml:lang="en">For GNU/Linux only</span>
+<span xml:lang="fr">Seulement pour GNU/Linux</span>
+</emphasis></para>
+<para>
+<span xml:lang="en">This module allows to get Video4Linux streams</span>
+<span xml:lang="fr">Ce module vous permet de lire des flux Video4Linux</span>
+.</para></sect2>
+
+
+<sect2><title>dvb</title>
+&disabled;
+<para><emphasis>
+<span xml:lang="en">For GNU/Linux only</span>
+<span xml:lang="fr">Seulement pour GNU/Linux</span>
+</emphasis></para>
+<para>
+<span xml:lang="en">This module allows to read from DVB-S, DVB-T,
+and DBC-C satellite, digital terrestrial, or cable cards. It uses
+the Video4Linux 2 API, that is only available in kernel 2.5.X and
+2.6.X</span>
+<span xml:lang="fr">Ce module permet de lire depuis des cartes DVB-S,
+DVB-T et DVB-C, de satellite, télévision numérique terrestre ou cable.
+Il utilise l'API Video4Linux 2, qui n'existe que dans les versions 2.5
+et 2.6 du noyau Linux</span>
+.</para></sect2>
+
+<sect2><title>pvr</title>
+&disabled;
+<para><emphasis>
+<span xml:lang="en">For GNU/Linux only</span>
+<span xml:lang="fr">Seulement pour GNU/Linux</span>
+</emphasis></para>
+<para>
+<span xml:lang="en">This module allows to read from Hauppauge PVR cards</span>
+<span xml:lang="fr">Ce module permet de lire depuis les cartes Hauppauge PVR
+</span>.</para></sect2>
+
+
+
+<sect2><title>slp</title>
+&enabled;
+<para>
+<span xml:lang="en">This module allows to get the names and addresses
+for streams announced using the SLP protocol</span>
+<span xml:lang="fr">Ce module vous permet de récupérer les noms et
+addresses pour les flux annoncés à l'aide du protocole SLP</span>
+</para></sect2>
+
+<sect2><title>dvd</title>
+&enabled;
+<para>
+<span xml:lang="en">This is the old DVD input module. It uses
+<emphasis>libdvdcss</emphasis> for DVD decryption (see the
+<ulink url="http://developers.videolan.org/libdvdcss/">libdvdcss
+page</ulink>)</span>
+<span xml:lang="fr">Ceci est l'ancien module de lecture de DVD. Vous
+aurez besoin de <emphasis>libdvdcss</emphasis> pour décrypter les DVD
+(voir <ulink url="http://developers.videolan.org/libdvdcss/">la page
+libdvdcss</ulink>)</span>
+.</para></sect2>
+
+<sect2><title>dvdread</title>
+&disabled;
+<para>
+<span xml:lang="en">This is an alternative to the previous ones. It uses
+<emphasis>libdvdread</emphasis> for DVD reading (see the <ulink
+url="http://www.dtek.chalmers.se/groups/dvd/downloads.shtml">Ogle
+download page</ulink>) and <emphasis>libdvdcss</emphasis>
+for DVD decryption (see the <ulink
+url="http://developers.videolan.org/libdvdcss/">libdvdcss
+page</ulink>).</span>
+<span xml:lang="fr">Ce module, alternative au précédent, utilise
+<emphasis>libdvdread</emphasis> pour lire les DVDs (voir la <ulink
+url="http://www.dtek.chalmers.se/groups/dvd/downloads.shtml">page
+de téléchargement d'Ogle</ulink>) et
+<emphasis>libdvdcss</emphasis> pour décrypter les DVD (voir
+<ulink url="http://developers.videolan.org/libdvdcss/">la page
+libdvdcss</ulink>).</span> </para>
+</sect2>
+
+</sect1>

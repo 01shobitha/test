@@ -257,6 +257,7 @@ msgid ""
 "\n"
 "  "
 msgstr "\n"
+" "
 
 # type: Content of: <appendix><sect1><sect2><table><tgroup><tbody><row>
 #: en/play-howto.xml:24 en/play-howto.xml:25 en/play-howto.xml:28
@@ -281,6 +282,7 @@ msgid ""
 "\n"
 "    "
 msgstr "\n"
+"    "
 
 # type: Content of: <book><bookinfo><authorgroup><author><firstname>
 #: en/play-howto.xml:25
@@ -429,6 +431,7 @@ msgid ""
 msgstr ""
 "\n"
 "     das VideoLAN Projekt\n"
+"     "
 
 # type: Content of: <book><bookinfo><legalnotice><para>
 #: en/play-howto.xml:51

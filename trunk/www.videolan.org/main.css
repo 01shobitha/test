@@ -150,13 +150,13 @@ td.no {
 td.type {
   color: black;
   background-image: none;
-/*  background-color: #eaa; */
+  background-color: #eef;
   vertical-align: middle;
 }
 td.category {
   color: black;
   background-image: none;
-/*  background-color: #eaa; */
+  background-color: #aaf;
   vertical-align: middle;
 }
 th.os {

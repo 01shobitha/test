@@ -154,7 +154,7 @@ function second_bar_support() { ?>
 
 function second_bar_home() { ?>
 <td class="secondbarhome"><a href="/news.html">News</a></td>
-<td class="secondbarhome"><a href="/events.html">Events</a></td>
+<td class="secondbarhome"><a href="/events/index.html">Events</a></td>
 <td class="secondbarhome"><a href="/team/index.html">Team</a></td>
 <td class="secondbarhome"><a href="/partners.html">Partners</a></td>
 <td class="secondbarhome"><a href="/contribute.html">Contribute</a></td>

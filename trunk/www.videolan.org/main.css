@@ -186,6 +186,7 @@ blockquote.center,p.center,td.center,h2.center { text-align: center; }
 blockquote.right, p.right, td.right  { text-align: right; }
 
 td.black  { color: black; background-image: none; background-color: black; }
+td.gray   { color: black; background-image: none; background-color: #888; }
 td.blue   { color: black; background-image: none; background-color: #9bf; }
 td.green  { color: black; background-image: none; background-color: #afa; }
 td.orange { color: black; background-image: none; background-color: #ec8; }

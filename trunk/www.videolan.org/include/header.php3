@@ -83,14 +83,14 @@ function starthtml($title) { ?>
  <td style="width: 100%; text-align: center; vertical-align: top;">
 
   <table style="width: 100%; text-align: center;" cellspacing="1" cellpadding="0">
-  <tr>
-     <? get_first_bar_item ( 6 , "home" , "Home" , "/" , $modules[1] ) ?>
-     <? get_first_bar_item ( 6 , "vlc" , "VLC" , "/vlc/" , $modules[1] ) ?>
-     <? get_first_bar_item ( 6 , "streaming" , "Streaming" , "/streaming/" , $modules[1] ) ?>
-     <? get_first_bar_item ( 6 , "doc" , "Documentation" , "/doc/" , $modules[1] ) ?>
-     <? get_first_bar_item ( 6 , "support" , "Support" , "/support/" , $modules[1] ) ?>
-     <? get_first_bar_item ( 6 , "developers" , "Developers" , "http://developers.videolan.org" , $modules[1] ) ?>
-  </tr>
+  <tr><?
+    get_first_bar_item(6, "home", "Home", "/", $modules[1]);
+    get_first_bar_item(6, "vlc", "VLC", "/vlc/", $modules[1]);
+    get_first_bar_item(6, "streaming", "Streaming", "/streaming/", $modules[1]);
+    get_first_bar_item(6, "doc", "Documentation", "/doc/", $modules[1]);
+    get_first_bar_item(6, "support", "Support", "/support/", $modules[1]);
+    get_first_bar_item(6, "developers", "Developers", "http://developers.videolan.org/", $modules[1]);
+  ?></tr>
   </table>
   <table style="width: 100%; text-align: center;" cellspacing="1" cellpadding="0">
   <tr>
@@ -122,9 +122,9 @@ function starthtml($title) { ?>
 }
 
 /* Give an entire cell html code for the first menubar */
-function get_first_bar_item ( $number , $module , $text , $url , $current_module ) {
-  $size = floor ( 100 / $number );
-  if ( $current_module == $module )
+function get_first_bar_item($number, $module, $text, $url, $current_module) {
+  $size = floor(100 / $number);
+  if($current_module == $module)
   {
      ?><td class="firstbarselected" style="width: <? echo $size; ?>%"><? echo $text; ?></td>
      <?
@@ -137,9 +137,9 @@ function get_first_bar_item ( $number , $module , $text , $url , $current_module
 }
 
 /* Give an entire cell html code for the second menubar */
-function get_second_bar_item ( $number , $module , $text , $url , $current_module ) {
-  $size = floor ( 100 / $number );
-  if ( $current_module == $module )
+function get_second_bar_item($number, $module, $text, $url, $current_module) {
+  $size = floor(100 / $number);
+  if($current_module == $module)
   {
      ?><td class="secondbarselected" style="width: <? echo $size; ?>%"><? echo $text; ?></td>
      <?
@@ -153,43 +153,41 @@ function get_second_bar_item ( $number , $module , $text , $url , $current_modul
 
 /* Second bar for vlc */
 
-function second_bar_vlc($module) { ?>
-<? get_second_bar_item ( 3 , "index.html" , "Download" , "/vlc/" , $module ) ?>
-<? get_second_bar_item ( 3 , "features.html" , "Features" , "/vlc/features.html" , $module ) ?>
-<? get_second_bar_item ( 3 , "screenshots.html" , "Screenshots" , "/vlc/screenshots.html" , $module ) ?>
-<? }
+function second_bar_vlc($module) {
+  get_second_bar_item(3, "index.html", "Download", "/vlc/", $module);
+  get_second_bar_item(3, "features.html", "Features", "/vlc/features.html", $module);
+  get_second_bar_item(3, "screenshots.html", "Screenshots", "/vlc/screenshots.html", $module);
+}
 
 /* Second bar for streaming */
 
-function second_bar_stream($module) { ?>
-<? get_second_bar_item ( 3 , "index.html" , "Overview" , "/streaming/" , $module ) ?>
-<? get_second_bar_item ( 3 , "features.html" , "Features" , "/streaming/features.html" , $module ) ?>
-<? get_second_bar_item ( 3 , "download.html" , "Download" , "/streaming/download.html" , $module ) ?>
-<? }
+function second_bar_stream($module) {
+  get_second_bar_item (3, "index.html", "Overview", "/streaming/", $module);
+  get_second_bar_item (3, "features.html", "Features", "/streaming/features.html", $module);
+  get_second_bar_item (3, "download.html", "Download", "/streaming/download.html", $module);
+}
 
 /* Second bar for support */
 
-function second_bar_support($module) { ?>
-<? get_second_bar_item ( 4 , "index.html" , "Overview" , "/support/" , $module ) ?>
-<? get_second_bar_item ( 4 , "bug" , "Bugzilla" , "http://bugzilla.videolan.org" , $module ) ?>
-<? get_second_bar_item ( 4 , "lists.html" , "Mailing-lists" , "/support/lists.html" , $module ) ?>
-<? get_second_bar_item ( 4 , "irc" , "IRCWeb" , "/cgi-bin/irc/irc.cgi" , $module ) ?>
-<? }
-
-
+function second_bar_support($module) {
+  get_second_bar_item(4, "index.html", "Overview", "/support/", $module);
+  get_second_bar_item(4, "bug", "Bugzilla", "http://bugzilla.videolan.org", $module);
+  get_second_bar_item(4, "lists.html", "Mailing-lists", "/support/lists.html", $module);
+  get_second_bar_item(4, "irc", "IRCWeb", "/cgi-bin/irc/irc.cgi", $module);
+}
 
 /* Second bar for home */
 
-function second_bar_home($module) { ?>
-<? get_second_bar_item ( 8 , "index.html" , "Overview" , "/index.html" , $module ) ?>
-<? get_second_bar_item ( 8 , "news.html" , "News" , "/news.html" , $module ) ?>
-<? get_second_bar_item ( 8 , "events" , "Events" , "/events/" , $module ) ?>
-<? get_second_bar_item ( 8 , "team" , "Team" , "/team/" , $module ) ?>
-<? get_second_bar_item ( 8 , "partners.html" , "Partners" , "/partners.html" , $module ) ?>
-<? get_second_bar_item ( 8 , "contribute.html" , "Contribute" , "/contribute.html" , $module ) ?>
-<? get_second_bar_item ( 8 , "contact.html" , "Contact" , "/contact.html" , $module ) ?>
-<? get_second_bar_item ( 8 , "links.html" , "Links" , "/links.html" , $module ) ?>
-<? }
+function second_bar_home($module) {
+  get_second_bar_item(8, "index.html", "Overview", "/index.html", $module);
+  get_second_bar_item(8, "news.html", "News", "/news.html", $module);
+  get_second_bar_item(8, "events", "Events", "/events/", $module);
+  get_second_bar_item(8, "team", "Team", "/team/", $module);
+  get_second_bar_item(8, "partners.html", "Partners", "/partners.html", $module);
+  get_second_bar_item(8, "contribute.html", "Contribute", "/contribute.html", $module);
+  get_second_bar_item(8, "contact.html", "Contact", "/contact.html", $module);
+  get_second_bar_item(8, "links.html", "Links", "/links.html", $module);
+}
 
 
    /*

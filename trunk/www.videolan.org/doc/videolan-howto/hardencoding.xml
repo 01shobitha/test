@@ -26,12 +26,10 @@ API (Video 4 Linux version 2). The patch is available on the <ulink
 url="http://bytesex.org/v4l/">Video4Linux HQ</ulink>.</para>
 
 <para>Once your kernel is ready, install the CVS version of the Linux
-drivers of the Hauppauge WinTV-PVR-250. They are hosted on <ulink
+drivers for the Hauppauge WinTV-PVR-250. They are hosted on <ulink
 url="http://ivtv.sourceforge.net/">ivtv.sourceforge.net</ulink>. Then,
-you will have to create the device, load the modules and setup the card
-with the <command>ptune.pl</command> and <command>test_ioctl</command>
-programs. Please, refer to the documentation that come with the
-drivers.</para>
+you will have to create the device and load the modules; for this,
+please refer to the documentation shipped with the drivers.</para>
 
 </sect2>
 
@@ -98,6 +96,12 @@ able to cross 11 routers).</para></listitem>
 
 <para>There is no command line interface for this input for
 the moment, so you will have to use the configuration file.</para>
+
+<para>You cannot set-up the parameters of the drivers (norm, size,
+frequency, bitrate, etc...) with VLS: for that, you will have to use the
+program <command>ptune.pl</command> that come with the drivers. Please
+refer to the documentation shipped with the drivers to learn how to use
+this program.</para>
 
 <para>Here is a typical configuration file <filename>vls.cfg</filename>
 to run VLS with a Hauppauge WinTV-PVR-250 encoding card:</para>

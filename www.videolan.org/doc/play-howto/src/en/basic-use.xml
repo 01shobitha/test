@@ -337,7 +337,9 @@ easily using a <emphasis>Drag'n'Drop</emphasis>.</para>
 access to a number of functions (play the item, disable it, delete it,
 or get info on it).</para>
 
-<para>If you ask for info, an item info dialog box will appear.</para>
+<para>If you ask for info, an <emphasis>item info</emphasis> dialog box will 
+appear. This dialog box also allows you to change the name, the author and the 
+location of the item to play.</para>
 
 <mediaobject>
   <imageobject>
@@ -346,6 +348,14 @@ or get info on it).</para>
   <textobject><para>Item Info Dialog - wx Interface</para></textobject>
   <caption><para>Item Info Dialog - wx Interface</para></caption>
 </mediaobject>
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/play-howto/intf-osx-iteminfo.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>Item Info Dialog - wx Interface</para></textobject>
+  <caption><para>Item Info Dialog - wx Interface</para></caption>
+</mediaobject>
+
 
 </sect3>
 

@@ -2,6 +2,14 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+|7 March 2004| VideoLAN Wiki back | After a long time down, the VideoLAN
+wiki (ie, a website that everyone can change) is back up, at
+<a href="http://wiki.videolan.org">http://wiki.videolan.org</a>. Its
+goal is to document what is not in the official documentation: the tips
+for each O.S, the graphical interfaces, ... We hope that the
+contribution of VideoLAN users will help us keep a documentation
+as up-to-date as possible.
+
 |02 Mar 2004| Release: VLC 0.7.1| This new release of VLC media
 player is a bit more than a bug-fix release as it does in fact include many
 new features. IGMPv3 support (Linux and WinXP), software DTS audio decoding,

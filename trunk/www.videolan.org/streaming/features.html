@@ -93,9 +93,20 @@
 
 
 <tr>
-<td class="category" rowspan="2"><b>Misc</b></td>
+<td class="category" rowspan="3"><b>Misc</b></td>
+<td class="type">Transcoding</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
 
-<td class="type">DVD subtitles</td>
+</tr>
+
+<tr>
+
+<td class="type">Send DVD subtitles</td>
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="no">No</td>
@@ -164,7 +175,7 @@
 </tr>
 
 <tr>
-<td class="category">OGG</td>
+<td class="category">Ogg</td>
 <td class="no">No</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -186,7 +197,7 @@
 <td class="matrixhead">AVI</td>
 <td class="matrixhead">PS</td>
 <td class="matrixhead">TS</td>
-<td class="matrixhead">OGG</td>
+<td class="matrixhead">Ogg</td>
 <td class="matrixhead">ES</td>
 </tr>
 
@@ -223,7 +234,7 @@
 <td class="yes">Yes</td>
 <td class="yes">Yes [1]</td>
 <td class="yes">Yes [1]</td>
-<td class="no">No</td>
+<td class="yes">Yes</td>
 <td class="no">No</td>
 </tr>
 
@@ -296,7 +307,7 @@ interoperable).</p>
 <table border="0">
 
 <tr>
-<td class="category" rowspan="6"><b>Video formats</b></td>
+<td class="category" rowspan="7"><b>Video formats</b></td>
 <td class="type">MPEG-1 video</td>
 <td class="yes">Yes</td>
 </tr>
@@ -327,6 +338,12 @@ interoperable).</p>
 </tr>
 
 <tr>
+<td class="type">MJPEG</td>
+<td class="yes">Yes</td>
+</tr>
+
+
+<tr>
 <td class="category" rowspan="5"><b>Audio formats</b></td>
 <td class="type">MPEG Layer 2 audio</td>
 <td class="yes">Yes</td>
@@ -334,7 +351,7 @@ interoperable).</p>
 
 <tr>
 <td class="type">MPEG Layer 3 audio</td>
-<td class="no">No</td>
+<td class="yes">Yes [2]</td>
 </tr>
 
 
@@ -354,6 +371,8 @@ interoperable).</p>
 </tr>
 
 </table>
+
+<p>[2] For this, you have to compile ffmpeg with <i>libmp3lame</i> support.</p>
 
 <p></p>
 
@@ -503,16 +522,8 @@ interoperable).</p>
 
 <tr>
 
-<td class="type">DVD subtitles</td>
+<td class="type">Send DVD subtitles</td>
 <td class="yes">Yes</td>
-<td class="no">No</td>
-
-</tr>
-
-<tr>
-
-<td class="type">Transcoding</td>
-<td class="no">No</td>
 <td class="no">No</td>
 
 </tr>
@@ -525,8 +536,16 @@ interoperable).</p>
 
 </tr>
 
+<tr>
+
+<td class="type">Transcoding</td>
+<td class="no">No</td>
+<td class="no">No</td>
+
+</tr>
+
 
 </table>
 
 
-<? footer('$Id: features.html,v 1.42 2003/07/06 02:14:36 alexis Exp $'); ?>
+<? footer('$Id: features.html,v 1.43 2003/07/06 12:36:48 alexis Exp $'); ?>

@@ -2,6 +2,12 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+|20 Sept 2003| VLC awarded by MacGeneration| During Apple Expo
+Paris 2003, VLC won the trophy for developers support ! For more
+details about the MacGeneration 2003 Trophies, please see <a
+href="http://www.macgeneration.com/mgnews/depeche.php?aIdDepeche=103478"
+>this news</a> (in French only).
+
 |14 Aug 2003| Release: VLC 0.6.2| This new release of VLC follows
 the previous one very closely because it mainly fixes a regression in
 VLC 0.6.1 which made some streams unplayable. VLC 0.6.2 also features

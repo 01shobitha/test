@@ -876,7 +876,7 @@ transcoding it.</para>
 etc) on top of the video.</para>
 
 <para>List of available <emphasis>subpicture filters</emphasis> can be
-found on the <ulink url="/streaming/features.html">streaming features
+found on the <ulink url="http://www.videolan.org/streaming/features.html">streaming features
 page</ulink>. The Item options of this modules can be found using the following command line:</para>
 
 <screen>

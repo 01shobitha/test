@@ -161,7 +161,7 @@ zugänglich ist.</para>
 <span xml:lang="en">On the client side</span>
 <span xml:lang="fr">Du côté client</span>
 <span xml:lang="es">De cara al cliente</span>
-<span xml:lang="de">Auf der Client-Seite</span>
+<span xml:lang="de">Auf der Clientseite</span>
 </title>
 
 <span xml:lang="en">
@@ -179,6 +179,12 @@ zugänglich ist.</para>
 <span xml:lang="es">
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv http://servidorlocal/lserver/video1.mpg</userinput>
+</screen>
+</span>
+
+<span xml:lang="de">
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv http://lokalerserver/lserver/video1.mpg</userinput>
 </screen>
 </span>
 

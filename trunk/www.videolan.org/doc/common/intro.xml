@@ -630,7 +630,12 @@ Programme automatisch ihrer Wiedergabeliste hinzu.</span>
 <span xml:lang="de">Wie benutze ich VideoLAN?</span>
 </title>
 
-<sect2><title>Documentation</title>
+<sect2><title>
+<span xml:lang="en>Documentation</span>
+<span xml:lang="fr">Documentation</span>
+<span xml:lang="es">Documentación</span>
+<span xml:lang="de">Dokumentation</span>
+</title>
 
 <para>
 <span xml:lang="en">The user documentation of VideoLAN is made up of 4 documents :</span>
@@ -717,36 +722,6 @@ Die neueste Version dieser Dokumente kann auf der
 <ulink url="http://www.videolan.org/doc/">Dokumentationseite</ulink>
 </span>
 .</para>
-
-<para>
-<span xml:lang="en">
-You can also have a look at the <ulink
-url="http://wiki.videolan.org">VideoLAN Wiki</ulink>. This is a website
-that everyone can change. We use it to document everything that is not
-in the "official" documentation: the tips and tricks for each O.S., the
-graphical interfaces, etc...
-</span>
-<span xml:lang="fr">
-Vous pouvez également regarder le <ulink
-url="http://wiki.videolan.org">Wiki VideoLAN</ulink>. Il s'agit d'un site
-web que tout le monde peut modifier. Nous l'utilisons pour documenter tout
-ce qui ne se trouve pas dans la documenation "officiele": astuces pour chaque 
-plateforme, les interfaces graphiques, ...
-</span>
-<span xml:lang="es">
-También puede echar un vistazo al VideoLAN Wiki <ulink
-url="http://wiki.videolan.org"></ulink>. Este es un sitio web que todo el mundo puede modificar.
-Lo usamos para documentar todo lo que no es documentación "oficial": los consejos y trucos para 
-cada S.O., las interfaces gráficas, etc...
-</span>
-<span xml:lang="de">
-Sie können außerdem einen Blick auf das <ulink url="http://wiki.videolan.org">
-VideoLAN Wiki</ulink> werfen. Dies ist eine Website, die jeder verändern kann.
-Wir benutzen es zur Dokumentation von allem, was nicht in der "offiziellen"
-Dokumentation enthalten ist: die Tipps und Tricks für jedes System, die
-grafischen Oberflächen...
-</span>
-</para>
 
 </sect2>
 

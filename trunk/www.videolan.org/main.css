@@ -1,0 +1,138 @@
+/* CSS for the VideoLAN website
+ * Stolen from the Gnumeric website by Sam :-) */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  background: white;
+  color: black;
+  margin: 5px 5px;
+  width: 99%;
+}
+
+code {
+  font-family: Courier, fixed, monospace;
+}
+
+img {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+p {
+  font-size: 10pt;
+  font-family: arial, helvetica, sans-serif;
+  text-indent: 0px;
+  background: inherit;
+  color: black;
+}
+
+td {
+  font-size: 10pt;
+  font-family: arial, helvetica, sans-serif;
+  background: inherit;
+  color: black;
+}
+
+h1 {
+  font-size: 14pt;
+  font-family: arial, helvetica, sans-serif;
+  font-weight: 600;
+  background: inherit;
+  color: black;
+  padding: 0;
+  margin: 0% 25% 0% 0%;
+  border-style: solid;
+  border-bottom-color: #a43;
+  border-bottom-width: 2px;
+  border-top-color: #fff;
+  border-top-width: 0px;
+  border-left-color: #fff;
+  border-left-width: 0px;
+  border-right-color: #fff;
+  border-right-width: 0px;
+}
+
+h2 {
+  font-size: 12pt;
+  font-family: arial, helvetica, sans-serif;
+  font-weight: 600;
+  background: inherit;
+  color: black;
+  padding: 0;
+  text-decoration: underline;
+}
+
+a:link {
+  background: inherit;
+  font-family: arial, helvetica, sans-serif;
+  color: #b32;
+  text-decoration: underline;
+}
+
+a:visited {
+  background: inherit;
+  font-family: arial, helvetica, sans-serif;
+  color: #700;
+}
+
+a:hover {
+  background: #fb9;
+  font-family: arial, helvetica, sans-serif;
+  color: #a00;
+}
+
+ol, ul, ul.small {
+  font-size: 10pt;
+  font-family: arial, helvetica, sans-serif;
+  text-indent: 0px;
+  background: inherit;
+  color: black;
+}
+
+ul.big {
+  font-size: 12pt;
+  font-family: arial, helvetica, sans-serif;
+  background: inherit;
+  color: black;
+}
+
+dl {
+  font-size: 10pt;
+  font-family: arial, helvetica, sans-serif;
+}
+
+dt {
+  font-size: 10pt;
+  font-family: arial, helvetica, sans-serif;
+  font-weight: 600;
+  background: inherit;
+  color: black;
+  padding: 0;
+  border-bottom-color: #000080;
+  border-bottom-width: 1px;
+  border-top-color: #fff;
+  border-top-width: 0px;
+  border-left-color: #fff;
+  border-left-width: 0px;
+  border-right-color: #fff;
+  border-right-width: 0px;
+}
+
+dd {
+  font-size: 10pt;
+  font-family: arial, helvetica, sans-serif;
+}
+
+blockquote.center,p.center,td.center,h2.center { text-align: center; }
+blockquote.right, p.right, td.right  { text-align: right; }
+
+td        { vertical-align: top; }
+table.fill,td.fill { width: 100%; }
+td.nowrap { white-space: nowrap; }
+td.black  { color: black; background-image: none; background-color: black; }
+td.blue   { color: black; background-image: none; background-color: #aae; }
+td.green  { color: black; background-image: none; background-color: #aea; }
+td.orange { color: black; background-image: none; background-color: #ec8; }
+td.red    { color: black; background-image: none; background-color: #eaa; }
+

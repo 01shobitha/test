@@ -146,9 +146,9 @@ libraries and build them yourself:</p>
 
       <h2>Documentation</h2>
 
-<p></p>
+<p>See the <a href="/doc/">documentation page</a>.</p>
 
-<table border="0">
+<!-- <table border="0">
 
 <tr>
   <td  class="type"><b>Document</b></td>
@@ -176,7 +176,7 @@ libraries and build them yourself:</p>
      <a href="/doc/faq/it/videolan-faq-it.html">Italian</a>
      <a href="/doc/faq/es/videolan-faq-es.html">Spanish</a>
    </td>
-</tr>
+</tr> -->
 
 </table>
     </td><td>

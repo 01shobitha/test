@@ -2,6 +2,22 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+|3 November 2004| Release: VLC 0.8.0| It has been a long wait, but it is finally there.
+A plethora of new features for everyones enjoyment. They include:
+faster and more flexible input layer, improved transcoding, a plugins cache
+to speedup VLC startup time, vastly improved subtitles, OSD and DVD support,
+Windows Media Video 3 support under Windows, Multipart JPEG webcam support,
+and audio equalizer and so much, much more.
+Look <a href="http://developers.videolan.org/vlc/NEWS">here</a> for a complete
+list of changes. To download the sources or the binary package of this
+new version, go to the <a href="http://www.videolan.org/vlc/">VLC
+download page</a> and click on your OS logo!<br /> Only source, Win32
+and MacOS X package are available at the moment, others will follow
+soon.<br />
+<b>NOTE:</b> This release doesn't include DTS audio decoding support.
+DTS Inc. claims that distributing this software with DTS decoding capabilities is a violation of their patent EP 864 146. At DTS Inc. request, we decided, as a precautionary measure, to provisionally suspend the distribution of VLC with DTS decoding capabilities while reviewing DTS Inc. claim. This is not an acknowledgement of the validity of the claim.
+
+
 |23 October 2004| Server upgrade| We will be upgrading our Web server
 today. A few minutes downtime will occur near 13:00 GMT.
 Sorry for the inconvenience.

@@ -50,7 +50,7 @@ function starthtml($title) { ?>
 ?>
 
 <form action="index.html" method="get">
-<table width="100%" cellspacing="0" cellpadding="0">
+<table width="100%" cellspacing="0" style="padding: 10px">
 
 <tr>
 
@@ -58,7 +58,8 @@ function starthtml($title) { ?>
    <img src="/images/cone-soppera1-mini.png" alt="Logo VideoLAN" />
   </td>
 
- <td style="width: 80%">
+ <td style="width: 100%">
+
   <table style="width: 100%; text-align: center; vertical-align: middle;">
   <tr>
      <td style="background-color: <?echo($color_home);?>; width: 17%; vertical-align: middle;" align="center"><b><a href="/">Home</a></b></td>
@@ -69,7 +70,6 @@ function starthtml($title) { ?>
      <td style="background-color: #afa; width: 17%; vertical-align: middle;" align="center"><b><a href="http://developers.videolan.org/">Developers</a></b></td>
   </tr>
   </table>
-  <br/>
   <table style="width: 100%">
   <tr>
     <? switch($modules[1]) {

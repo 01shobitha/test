@@ -2,5 +2,12 @@
 
 
 <para>
-Euh, it's the end...
+
+VideoLAN can do much more than what is explained in this Quickstart. For
+example, vls can stream from a Satellite DVB card or an MPEG encoding
+card. VideoLAN can also stream multiple channels on a
+non-multicast-capable network. And vlc can be used to create an image-wall !
+</para>
+<para>
+To know about the full possibilities of VideoLAN, please read the <ulink url="http://www.videolan.org/network/doc/videolan-howto.html">VideoLAN HOWTO</ulink>.
 </para>

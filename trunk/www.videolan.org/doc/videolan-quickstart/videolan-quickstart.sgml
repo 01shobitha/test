@@ -36,7 +36,7 @@
 </authorgroup>
 
 <copyright>
-    <year>2002</year>
+    <year>2003</year>
     <holder>the VideoLAN project</holder>
 </copyright>
 
@@ -60,6 +60,8 @@ url="http://www.gnu.org/copyleft/fdl.html">http://www.gnu.org/copyleft/fdl.html<
     <keyword>Quickstart</keyword>
     <keyword>vlc</keyword>
     <keyword>vls</keyword>
+    <keyword>vod</keyword>
+    <keyword>vlcs</keyword>
     <keyword>stream</keyword>
     <keyword>multicast</keyword>
     <keyword>MPEG 1</keyword>

@@ -252,14 +252,15 @@ function second_bar_support($module) {
 /* Second bar for home */
 
 function second_bar_home($module) {
-  get_second_bar_item(8, "index.html", "Overview", "/index.html", $module);
-  get_second_bar_item(8, "news.html", "News", "/news.html", $module);
-  get_second_bar_item(8, "events", "Events", "/events/", $module);
-  get_second_bar_item(8, "team", "Team", "/team/", $module);
-  get_second_bar_item(8, "partners.html", "Partners", "/partners.html", $module);
-  get_second_bar_item(8, "contribute.html", "Contribute", "/contribute.html", $module);
-  get_second_bar_item(8, "contact.html", "Contact", "/contact.html", $module);
-  get_second_bar_item(8, "links.html", "Links", "/links.html", $module);
+  get_second_bar_item(9, "index.html", "Overview", "/index.html", $module);
+  get_second_bar_item(9, "news.html", "News", "/news.html", $module);
+  get_second_bar_item(9, "events", "Events", "/events/", $module);
+  get_second_bar_item(9, "team", "Team", "/team/", $module);
+  get_second_bar_item(9, "partners.html", "Partners", "/partners.html", $module);
+  get_second_bar_item(9, "contribute.html", "Contribute", "/contribute.html", $module);
+  get_second_bar_item(9, "contact.html", "Contact", "/contact.html", $module);
+  get_second_bar_item(9, "links.html", "Links", "/links.html", $module);
+  get_second_bar_item(9, "goodies.html", "Goodies", "/goodies.html", $module);
 }
 
 

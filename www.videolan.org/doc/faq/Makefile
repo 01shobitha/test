@@ -6,7 +6,9 @@
 DOC := videolan-faq
 
 # XML declaration
-XML_DECL := /usr/lib/sgml/declaration/xml.decl
+XML_DECL1 = /usr/lib/sgml/declaration/xml.decl
+XML_DECL2 = /usr/share/sgml/declaration/xml.decl
+XML_DECL := `test -f $(XML_DECL1) && echo $(XML_DECL1) || echo $(XML_DECL2)`
 
 # Default language (English)
 LANG = en
@@ -20,7 +22,8 @@ ALL_LANG = en fr es de it
 all: $(LANG)/$(DOC)-$(LANG).html $(LANG)/$(DOC)-$(LANG).pdf $(LANG)/$(DOC)-$(LANG).rtf $(LANG)/$(DOC)-$(LANG).txt
 
 init-$(LANG):
-	cp -R ../../images/documentation $(LANG)/images
+	mkdir -p $(LANG)/
+	ln -sf ../../images/documentation $(LANG)/images
 	cp screen.css $(LANG)
 	cp ../common/htaccess $(LANG)/.htaccess
 

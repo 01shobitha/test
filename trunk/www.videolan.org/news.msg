@@ -7,10 +7,12 @@
 |3 Feb 2003| Release: vlc 0.5.0 | This is a major release
 of VLC with a a lot of great new features : see the <a
 href="http://developers.videolan.org/vlc/NEWS">list of changes between
-0.4.6 and 0.5.0</a>. A new VLC user guide has been released (it replaces
-the VLC HOWTO) and the VideoLAN Quickstart has been updated to explain
-the new streaming capacity of VLC (with VLC's new stream output) : see
-the <a href="/doc/">documentation page</a>.
+0.4.6 and 0.5.0</a> and go to the <a href="/vlc/">VLC section</a>
+of the website to download the binaires for your OS or the sources.
+A new VLC user guide has been released (it replaces the VLC HOWTO)
+and the VideoLAN Quickstart has been updated to explain the new
+streaming capacity of VLC (with VLC's new stream output) : see the <a
+href="/doc/">documentation page</a>.
 
 |3 Feb 2003| Release: libdvdplay 1.0.0 | This is the first release
 of libdvdplay, a DVD navigation library. This library is based on a

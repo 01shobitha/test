@@ -29,4 +29,4 @@ rtf:
 	zip vlc-user-guide-rtf.zip vlc-user-guide.rtf *.jpg
 
 clean:
-	rm -f *.zip *.html *.pdf *.ps
+	rm -f *.zip *.html *.pdf *.ps *.jpg

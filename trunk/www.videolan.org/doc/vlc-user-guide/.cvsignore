@@ -1,0 +1,10 @@
+*.html
+*.pdf
+*.zip
+*.ps
+*.jpg
+*.jpeg
+*.png
+~*
+*~
+.*

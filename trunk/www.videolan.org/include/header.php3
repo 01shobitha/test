@@ -71,7 +71,7 @@ global $HTTP_GET_VARS;
 
 ?>
 
-<? if($HTTP_GET_VARS['poukram']) { ?>
+<? if(not $HTTP_GET_VARS['poukram']) { ?>
 <form action="index.html" method="get">
 <table width="100%" cellspacing="0" cellpadding="5">
 

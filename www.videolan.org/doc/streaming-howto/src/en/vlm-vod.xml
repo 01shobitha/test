@@ -8,10 +8,10 @@ VLM - Multiple streaming and Video on demand
 info concerning vlm : /trunk/doc/vlm.txt
 
 TODO:
- * put some general examples
+ * put some VOD examples
 -->
 
-<sect1><title>VLM</title></sect1>
+<sect1><title>VLM</title>
 
 <para><emphasis>VideoLAN Manager</emphasis> is a small media manager
 designed to control multiple streams with <emphasis>only one instance of
@@ -19,9 +19,9 @@ VLC</emphasis>. It allows multiple streaming and video on demand (VoD).
 This manager being a new feature, it can only be controlled by the telnet
 interface or the http interface.</para>
 
-<sect2><title>Interfaces</title></sect2>
+<sect2><title>Interfaces</title>
 
-<sect3><title>Telnet interface</title></sect3>
+<sect3><title>Telnet interface</title>
 
 <para>You can launch the telnet interface as a common interface using
 the command line :</para>
@@ -54,7 +54,9 @@ in the preferences panel when using the wxWindows interface in the
 telnet</emphasis> section (check the <emphasis>Advanced
 options</emphasis> checkbox).</para>
 
-<sect3><title>HTTP interface</title></sect3>
+</sect3>
+
+<sect3><title>HTTP interface</title>
 
 <para>Launching the HTTP interface is described in the <ulink
 url="http://www.videolan.org/doc/">Play-with-VLC Howto.</ulink></para>
@@ -62,9 +64,11 @@ url="http://www.videolan.org/doc/">Play-with-VLC Howto.</ulink></para>
 <para>To access the vlm section of the http interface, use the following
 URL: <emphasis> http://host:port/vlm/</emphasis>.</para>
 
-<sect2><title>VLM Elements</title></sect2>
+</sect3></sect2>
 
-<sect3><title>Medias</title></sect3>
+<sect2><title>VLM Elements</title>
+
+<sect3><title>Medias</title>
 
 <para>A <emphasis>Media</emphasis> is composed with a list of inputs (the video and audio
 streams you want to stream), an output (how and where you want to stream
@@ -85,15 +89,19 @@ no control over this media.</para></listitem>
 
 </itemizedlist>
 
-<sect3><title>Schedules</title></sect3>
+</sect3>
+
+<sect3><title>Schedules</title>
 
 <para>A <emphasis>Schedule</emphasis> is a script with a date. When the
 schedule date is reached, the script is launched. There are several
 options available like a period or a number of repetitions.</para>
 
-<sect2><title>Command line syntax</title></sect2>
+</sect3></sect2>
 
-<sect3><title>Command lines</title></sect3>
+<sect2><title>Command line syntax</title>
+
+<sect3><title>Command lines</title>
 
 <itemizedlist>
 
@@ -149,8 +157,9 @@ for more info.</para></listitem>
 
 </itemizedlist>
 
+</sect3>
 
-<sect3 id="vlmprop"><title id="tvlmprop">Media Properties</title></sect3>
+<sect3 id="vlmprop"><title id="tvlmprop">Media Properties</title>
 
 <note><para>Except the "append" property, all properties can be followed
 by another one.</para></note>
@@ -187,8 +196,9 @@ media types.</para></note></para></listitem>
 
 </itemizedlist>
 
+</sect3>
 
-<sect3><title>Schedule Properties</title></sect3>
+<sect3><title>Schedule Properties</title>
 
 <itemizedlist>
 
@@ -228,8 +238,9 @@ launched 12 times.</para></listitem>
 
 </itemizedlist>
 
+</sect3>
 
-<sect3 id="vlmctrl"><title id="tvlmctrl">Control Commands</title></sect3>
+<sect3 id="vlmctrl"><title id="tvlmctrl">Control Commands</title>
 
 <itemizedlist>
 
@@ -248,8 +259,9 @@ current playing item of the input list.</para></listitem>
 
 </itemizedlist>
 
+</sect3></sect2>
 
-<sect2 id="vlmconf"><title id="tvlmconf">Configuration Files </title></sect2>
+<sect2 id="vlmconf"><title id="tvlmconf">Configuration Files </title>
 
 <para>A VLM configuration file is a list of command lines : one line
 corresponds to one command line.</para>
@@ -262,13 +274,15 @@ recursive inclusion of the same file and result in VLC's crash.</para>
 <para>As of versions > 0.8.1, any line where the first non white space
 character is a # is considered as a comment.</para>
 
-<sect1><title>Examples</title></sect1>
+</sect2></sect1>
+
+<sect1><title>Examples</title>
 
 <para>This section provides several small vlm configuration files.</para>
 
-<sect2><title>Multiple streaming</title></sect2>
+<sect2><title>Multiple streaming</title>
 
-<sect3><title>Simple broadcasting</title></sect3>
+<sect3><title>Simple broadcasting</title>
 
 <programlisting>
 new channel1 broadcast enabled
@@ -283,7 +297,9 @@ control channel1 play
 control channel2 play
 </programlisting>
 
-<sect3><title>Scheduled broadcasting</title></sect3>
+</sect3>
+
+<sect3><title>Scheduled broadcasting</title>
 
 <programlisting>
 new my_media broadcast enabled
@@ -295,6 +311,10 @@ setup my_sched date 2012/12/12-12:12:12
 setup my_sched append control my_media play
 </programlisting>
 
+</sect3></sect2>
+
 <sect2><title>Video On Demand</title></sect2>
+
+</sect1>
 
 </chapter>

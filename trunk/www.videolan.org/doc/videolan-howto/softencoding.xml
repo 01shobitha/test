@@ -117,14 +117,10 @@ able to cross 11 routers).</para></listitem>
 
 <sect1><title>Stream with VLS</title>
 
-<para>This feature used to work in the CVS, but it is currently broken.
-We hope that the VLS developers will fix it one day... !</para>
-
-<!--
 
 <note><para>You need the CVS version of VLS. When you compile
-it, you must do a <command>./configure -XXXX-enable-v4l
--XXXX-with-ffmpeg=PATH</command> (where <emphasis>PATH</emphasis> si the
+it, you must do a <command>./configure --enable-v4l
+--with-ffmpeg=PATH</command> (where <emphasis>PATH</emphasis> si the
 absolute path to the directory where you compiled ffmpeg, and not the
 relative path !).</para></note>
 
@@ -230,6 +226,5 @@ END
 <prompt>% </prompt><userinput>vls -vv -f vls.cfg</userinput>
 </screen>
 
--->
 </sect1>
 </chapter>

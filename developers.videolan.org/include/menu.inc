@@ -24,7 +24,7 @@
 <p class=menu><a class="menu"
 href="http://bugzilla.videolan.org/">Bugzilla</a></p>
 <p class=menu><a class="menu"
-href="http://developers.videolan.org/cgi-bin/viewcvs.cgi/?cvsroot=VideoLAN">ViewCVS</a></p>
+href="http://developers.videolan.org/cgi-bin/viewcvs.cgi/">ViewCVS</a></p>
 <p class=menu><a class="menu"
 href="http://www.videolan.org/cgi-bin/irc/irc.cgi">IRCWeb</a></p>
 </td></tr>

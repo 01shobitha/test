@@ -98,7 +98,7 @@ function starthtml($title) { ?>
 function get_first_bar_item ( $number , $module , $text , $url , $current_module ) {
   if ( $current_module == $module )
   {
-     ?><td class="firstbarselected" style="width: <? trunc(echo 100/$number); ?>%"><? echo $text; ?></td><?
+     ?><td class="firstbarselected" style="width: <? int(echo 100/$number); ?>%"><? echo $text; ?></td><?
   }
   else
   {

@@ -9,7 +9,7 @@ edition is organised with networking associations from more than
 a dozen French engineering schools and universities. There will
 be a presentation of VideoLAN in French at 9:00 a.m. and a small
 demonstration from 13:30 to 15:30. If you are interested, please visit
-<a href="http://federez.net/journees/">http://federez;net/journees/</a>.
+<a href="http://federez.net/journees/">http://federez.net/journees/</a>.
 
 |26-27 Feb 2005| VideoLAN at FOSDEM | The VideoLAN team will have a
 booth at <a href="http://www.fosdem.org/2005">FOSDEM</a> in Brussels. A

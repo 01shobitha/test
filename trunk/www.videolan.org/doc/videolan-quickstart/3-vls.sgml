@@ -1,98 +1,145 @@
 <chapter id="vls"><title id="tvls">The VideoLAN Server</title>
 
 
-<sect1><title>Installing the VideoLAN server</title>
+<sect1><title>Installing the VideoLAN Server</title>
 
 &install-vls;
+
 </sect1>
+
 <sect1><title>Running the VideoLAN Server</title>
 
-<sect2><title>Unicast to a VLC</title>
+<sect2><title>Unicast an MPEG file</title>
 
-<sect3><title></title>
+<simplesect><title>Start vls</title>
 
-<para>You are going to send the stream to a client with vlc installed. In this example, you will unicast from vls (IP address 10.0.0.1) to vlc (IP address 10.0.0.2).</para>
+<itemizedlist>
 
-<para>There are two ways to have a VideoLAN Server working: you can use its configuration file <filename>vls.cfg</filename>, and manage it through an administration interface (Telnet or Web, for example), or you can use command line arguments</para>
+<listitem><para>under Windows, open a command shell, go to the directory
+where you installed vls and type :</para>
 
-<para>In this QuickStart, we will only talk about controlling the VideoLAN Server through its command line. For more informations, please read the VideoLAN HOWTO</para>
+<screen>
+<prompt>&gt; </prompt><userinput>vls -d udp:10.0.0.2 file:C:\films\movie.mpg</userinput>
+</screen>
 
-<para>If you want  to read a DVD,  First, make sure that  you have write
-access to  the device  corresponding to  your DVD  drive. </para>
+<para>where <filename>C:\films\movie.mpg</filename> is the MPEG 1 or
+MPEG 2 file you want to stream and <emphasis>10.0.0.2</emphasis> is the
+IP address of the machine you want to stream to.</para>
 
-<para>For that,  under Linux you  should be in  the disk or  cdrom group
-(look at the permissions in /dev).</para>
+<listitem><para>under Linux :</para>
 
-<para>As root, do :</para>
+<screen>
+<prompt>% </prompt><userinput>vls -d udp:10.0.0.2 file:/mnt/films/movie.mpg</userinput>
+</screen>
 
-<screen><prompt>#</prompt><userinput> adduser my_login disk_or_cdrom</userinput></screen>
+<para>where <filename>/mnt/films/movie.mpg</filename> is the MPEG 1 or
+MPEG 2 file you want to stream and <emphasis>10.0.0.2</emphasis> is the
+IP address of the machine you want to stream to.</para>
 
-<para>and then close your user session and open it again.</para>
+</itemizedlist>
 
-<para>If you  are under  Windows 2000 or  XP, you need  to need  to have
-administrator rights on the system.</para>
-  </sect3>
-  <sect3>
-   <title>Start the VideoLAN Server</title>
-   <para>The syntax you have to use is</para>
-   <screen><prompt>%</prompt><userinput>vls [options] target</userinput></screen>
-   <para>Target is the place where the stream you want to see is stored</para>
-   <para>It looks like: <filename>file:path_to_your_file</filename> or <filename>dvd:path_to_your_drive</filename></para>
-   <para>You will have to use the <filename> -d</filename> (destination) option. In our example, it would be <filename>udp:10.0.0.2</filename></para>
-   <para>Your command line could be this under Windows</para>
-   <screen><prompt>%</prompt><userinput>vls -d udp:10.0.0.2 file:C:\movies\my_movie.mpg</userinput></screen>
-   <para>or this under Linux</para>
-   <screen><prompt>%</prompt><userinput>vls -d udp:10.0.0.2 file:/mnt/films/my_movie.mpg</userinput></screen>
-  </sect3>
-  <sect3><title>Open the stream with the VideoLAN Client</title>
-   <para>On the client, run the VLC.</para>
-   <para>If you use the command line interface, type</para>
-   <screen><prompt>%</prompt><userinput>vlc udp:</userinput></screen>
-   <para>Or, in the graphical interface, click on Net and select UDP</para>
-  </sect3>
- </sect2>
- <sect2>
-  <title>Broadcast to several VLC's</title>
-<para>Broadcasting means  sending the stream  to all the  computers that
-are on you subnet. Please note that every computers will get the stream,
-even if you aren't using VideoLAN on them.</para>
-  <para>To  broadcast with  the  VideoLAN Server,  simply  replace the  IP
-address  (for example  10.0.0.2) on  the command  line by  the broadcast
-address of your subnet (for example, 10.255.255.255).</para>
- </sect2>
- <sect2><title>Multicast to several VLC's</title>
+<simplesect><title>Start vlc</title>
 
-<sect3><title>What is multicast ?</title>
+<para>Launch vlc on the machine which receives the stream, then click on
+the <emphasis>net</emphasis> button or select <emphasis>File / Network
+stream</emphasis>, select <emphasis>UDP</emphasis>, keep the default
+port and click on <emphasis>OK</emphasis>.</para>
 
-<para>Multicasting is a more complex way to send streams to several VLC's.  Please note that your network hardware must support Multicast forwarding in order to use these functions</para>
+<sect2><title>Unicast a DVD</title>
 
-<para>VideoLAN also provides "multicasting" for networks with hardware which don't support it. Please see the <ulink url=" http://www.videolan.org/network/doc/videolan-howto.html">VideoLAN Howto</ulink></para>
+<simplesect><title>Start vls</title>
 
-<para>With  this  technology,  the  VideoLAN Server  streams  to  an  IP
-address, which is  the address of the "Multicast group".  When you start
-the VideoLAN  Client, it  requests its subscription  to this  group, and
-then begins to receive the stream. When the VLC quits, he sends a "Leave
-Group" request.  By using this, only  the computers that really  need it
-get the streaming, but the VideoLAN Server only sends it once</para>
+<note><para>For the moment, the Windows port of vls doesn't support DVD
+streaming.</para></note>
 
-</sect3>
+<para>
 
-<sect3><title>Set up the VideoLAN Server</title>
-<para>To use multicasting, simply replace the IP address by a valid multicast IP address (they start with 238.X.X.X or 239.X.X.X). The VideoLAN Server will automatically detect that you want to multicast.</para>
+You must have write access to the device
+corresponding to your DVD drive. For that, you should be in the
+<emphasis>disk</emphasis> or <emphasis>cdrom</emphasis> group (look
+at the permissions in <filename>/dev</filename>). If you're not, add
+yourself to the group :
 
-</sect3>
+</para>
 
-<sect3><title>Set up the VideoLAN Client</title>
+<screen>
+<prompt># </prompt><userinput>adduser your_login disk_or_cdrom</userinput>
+</screen>
 
-<para>On the VLC, you must choose, in the Net dialog, the UDP Multicast option and enter the address of the multicast group.</para>
+<para>and then restart your session.</para>
 
-<para>If you use the command line, enter:</para>
+<para>Then run vls using the following command line :</para>
 
-<screen><prompt>%</prompt><userinput>vlc udp:IP_Address</userinput></screen>
+<screen>
+<prompt>% </prompt><userinput>vls -d udp:10.0.0.2 dvd:/dev/dvd</userinput>
+</screen>
 
-<para>If you want to avoid to type the IP Address, you must use the VideoLAN Channel Server. Please see the next chapter</para>
+<para>where <filename>/dev/dvd</filename> is the device corresponding to
+your DVD drive and <emphasis>10.0.0.2</emphasis> is the IP address of
+the vlc you want to stream to.</para>
 
-</sect3>
+
+<simplesect><title>Start vlc</title>
+
+<para>Use the same procedure as in the previous section.</para>
+
+<sect2><title>Multicast to several VLC's</title>
+
+<simplesect><title>What is multicast ?</title>
+
+<para>Multicast is a norm implemented in all modern network hardware
+(switches, routers, ...). It provides an intelligent manner to send a
+stream to a dynamic group of machines. If you want to use multicast,
+make sure that all your network hardware support it.</para>
+
+<para>In multicast streaming, the stream is sent to a multicast IP
+address (the IP addresses reserved for this purpose are from 224.0.0.0
+to 239.255.255.255). Then, any machine on the network can join the
+multicast group by sending a request on the network, and it will
+automatically receive the stream. When it sends a request to leave the
+group, it will automatically stop receiving the stream. The advantage of
+multicast streaming is that only the machines that want to receive the
+stream actually receive it, and the vls only sends one stream even if
+there are multiple clients receiving it.</para>
+
+<simplesect><title>Start vls</title>
+
+<itemizedlist>
+
+<listitem><para>under Windows, open a command shell, go to the directory
+where you installed vls and type :</para>
+
+<screen>
+<prompt>&gt; </prompt><userinput>vls -d udp:239.255.12.42 file:C:\films\movie.mpg</userinput>
+</screen>
+
+<para>where <filename>C:\films\movie.mpg</filename> is the MPEG 1 or
+MPEG 2 file you want to stream and <emphasis>239.255.12.42</emphasis> is the
+multicast IP address you have chosen.</para>
+
+<listitem><para>under Linux :</para>
+
+<screen>
+<prompt>% </prompt><userinput>vls -d udp:239.255.12.42 file:/mnt/films/movie.mpg</userinput>
+</screen>
+
+<para>where <filename>/mnt/films/movie.mpg</filename> is the MPEG 1 or
+MPEG 2 file you want to stream and <emphasis>239.255.12.42</emphasis> is the
+multicast IP address you have chosen.</para>
+
+</itemizedlist>
+
+<note><para>You can also multicast a DVD if vls is running under
+Linux : replace <emphasis>file:/mnt/films/movie.mpg</emphasis> by
+<command>dvd:/dev/dvd</command> where <filename>/dev/dvd</filename> is
+the device corresponding to your DVD drive.</para></note>
+
+<simplesect><title>Start vlc(s)</title>
+
+<para>Launch vlc, then click on the <emphasis>net</emphasis> button or
+select in the menu <emphasis>File / Network stream</emphasis>, select
+<emphasis>UDP Multicast</emphasis>, type the multicast IP address and
+click on <emphasis>OK</emphasis>.</para>
 
 </sect2>
 

@@ -1,93 +1,87 @@
 <sect2><title>Under Windows</title>
 
 <para>
-Warning : The Windows version of videolan server can only stream MPEG files stored
-on a hard drive. It cannot stream DVDs, satellite channels or real-time
-MPEG encoded videos.
-</para>
-
-<para>
 Download the Zip file for Windows from the <ulink
-url="http://www.videolan.org/vls/download.html">videolan server download
-page.</ulink>
+url="http://www.videolan.org/vls/download.html">vls download
+page</ulink> and unzip-it in a directory.
 </para>
 
-<para>
-Unzip the file in a directory.
-</para>
+<note><para>
+
+The Windows version of vls can only stream MPEG
+files stored on a hard drive. It cannot stream DVDs, satellite channels
+or real-time MPEG encoded videos.
+
+</para></note>
 
 <sect2><title>Under Linux Debian</title>
 
 <para>
-This will only work on Woody or Sid versions, because libdvdread2 is not
-present in Potato version.
+Edit <filename>/etc/apt/sources.list</filename> and add the following line :
 </para>
 
-<para>
-Edit /etc/apt/sources.list and add the following line :
-</para>
-<para>
-<screen><userinput>
-	deb http://www.videolan.org/pub/videolan/debian $(ARCH)/
-	deb-src http://www.videolan.org/pub/videolan/debian sources/
-</userinput></screen>
-</para>
+<programlisting>
+deb http://www.videolan.org/pub/videolan/debian $(ARCH)/
+deb-src http://www.videolan.org/pub/videolan/debian sources/
+</programlisting>
 
 <para>
-Then type as root :
+Then install the packages :
 </para>
 
-<para>
-<screen><userinput>
-	apt-get update
-	apt-get install libdvdcss2 libdvdread2 libdvbpsi1 vls vls-dvd
-</userinput></screen>
-</para>
+<screen>
+<prompt># </prompt><userinput>apt-get update</userinput>
+<prompt># </prompt><userinput>apt-get install libdvdcss2 vls-dvd</userinput>
+</screen>
 
 <para>
 If you don't want to stream DVDs, type instead :
 </para>
 
-<para>
-<screen><userinput>
-	apt-get update
-	apt-get install libdvbpsi1 vls
-</userinput></screen>
-</para>
+<screen>
+<prompt># </prompt><userinput>apt-get update</userinput>
+<prompt># </prompt><userinput>apt-get install vls</userinput>
+</screen>
 
 </sect2>
 
 <sect2><title>Under Linux RedHat, Mandrake or SuSE</title>
+
 <para>
-Download the RPM package of libdvdcss from <ulink
-url="http://www.videolan.org/pub/videolan/libdvdcss/1.2.2/">
-http://www.videolan.org/pub/videolan/libdvdcss/1.2.2/</ulink> and install it.
+Download the RPM package of libdvdcss from the <ulink
+url="http://www.videolan.org/libdvdcss/download.html">libdvdcss download page</ulink>.
 </para>
 
 <para>
-Download the RPM package of libdvbpsi from <ulink url="http://www.videolan.org/libdvbpsi/download.htm">libdvbpsi
-download page</ulink> and install it.
+Download the RPM package of libdvbpsi from the <ulink url="http://www.videolan.org/libdvbpsi/download.htm">libdvbpsi
+download page</ulink>.
 </para>
 
 <para>
 Download the RPM package of libdvdread from <ulink
-url="http://www.dtek.chalmers.se/groups/dvd/redhat.shtm">http://www.dtek.chalmers.se/groups/dvd/redhat.shtml</ulink> and install it.
+url="http://www.dtek.chalmers.se/groups/dvd/redhat.shtm">Ogle's download page</ulink>.
 </para>
 
 <para>
-Download the RPM packages vls and vls-dvd from the <ulink url="http://www.videolan.org/vls/download.html">vls download page </ulink>and install them.
+Download the RPM packages <filename>vls</filename> and <filename>vls-dvd</filename> from the <ulink url="http://www.videolan.org/vls/download.html">vls download page</ulink>.
 </para>
+
+<para>
+Then install the RPM packages you have downloaded :
+</para>
+
+<screen>
+<prompt># </prompt><userinput>rpm -Uhv vls-version.i586.rpm vls-dvd-version.i586.rpm libdvdcss2-version.i586.rpm libdvbpsi1-version.i586.rpm libdvdread-version.i386.rpm</userinput>
+</screen>
+
 
 </sect2>
 
 <sect2><title>Under Linux or Unix</title>
 
-<para>
-The method below is for any Unix or Linux supported by the videolan
-server. We are going
-to compile and install the librairies and then the videoaln server.
-Install the librairies
-</para>
+<para>The method below is for any Unix or Linux supported by the
+Videolan Server. It explains how to compile and install vls and the
+needed librairies from sources.</para>
 
 <sect3><title>Install the librairies</title>
 
@@ -96,17 +90,17 @@ Many librairies are needed for particular uses :
 </para>
 
 <itemizedlist>
-<listitem><para>Libdvdcss if you want to read encrypted DVDs,</para></listitem>
-<listitem><para>Libdvbpsi,</para></listitem>
-<listitem><para>Libdvdread if you want to stream DVDs.</para></listitem>
+<listitem><para><emphasis>libdvbpsi</emphasis> (always needed)</para></listitem>
+<listitem><para><emphasis>libdvdcss</emphasis> if you want to be able to access encrypted DVDs,</para></listitem>
+<listitem><para><emphasis>libdvdread</emphasis> if you want to be able to stream DVDs.</para></listitem>
 </itemizedlist>
 
 <para>
-Download the librairies : take the latest version of libdvdcss from the
-<ulink url="http://www.videolan.org/libdvdcss/download.html">libdvdcss download page</ulink>, the latest version of libdvbpsi from the
-<ulink url="http://www.videolan.org/libdvbpsi/download.html">libdvbpsi download page</ulink>, and the latest version of libdvdread from
-<ulink
-url="http://www.dtek.chalmers.se/groups/dvd/downloads.shtml.">http://www.dtek.chalmers.se/groups/dvd/downloads.shtml</ulink>
+
+Download the libraries from <ulink
+url="http://www.videolan.org/pub/videolan/vls/"></ulink> in the directory
+<filename>version/contrib</filename>.
+
 </para>
 
 <para>
@@ -115,114 +109,112 @@ For each librairie, uncompress, configure, compile and install :
 
 <para>
 <screen>
-	<prompt>%</prompt><userinput> tar xvzf librairy.tar.gz</userinput>
-	<prompt>%</prompt><userinput> cd librairie</userinput>
-	<prompt>%</prompt><userinput> ./configure</userinput>
-	<prompt>%</prompt><userinput> make</userinput>
-	<prompt>%</prompt><userinput> su</userinput>
-	<userinput> [enter root password]</userinput>
-	<userinput># make install</userinput>
+<prompt>% </prompt><userinput>tar xvzf library.tar.gz</userinput>
+<prompt>% </prompt><userinput>cd library</userinput>
+<prompt>% </prompt><userinput>./configure --enable-shared</userinput>
+<prompt>% </prompt><userinput>make</userinput>
+<prompt># </prompt><userinput>make install</userinput>
 </screen>
 </para>
 
 <para>
-Check that the configuration file /etc/ld.so.conf contains the line :
+
+Check that the configuration file <filename>/etc/ld.so.conf</filename>
+contains the following line :
+
 </para>
 
-<para>
-<screen><userinput>	/usr/local/lib</userinput></screen>
-</para>
+<programlisting>
+/usr/local/lib
+</programlisting>
 
-<para>
-If it is not present, as root, add the line and then run ldconfig.
-</para>
+<para>If the line is not present, add-it and then run :</para>
+
+<screen>
+<prompt># </prompt><userinput>ldconfig</userinput>
+</screen>
 
 </sect3>
 
-<sect3><title>Install the videolan server</title>
+<sect3><title>Install the VideoLAN Server</title>
 
 <para>
 Download the sources of the latest release : get the file
-vls-version.tar.gz from the vls download page. Uncompress :
+<filename>vls-version.tar.gz</filename> from the <ulink url="http://www.videolan.org/vls/download.html">vls download page</ulink>. Uncompress-it :
 </para>
 
-<para>
 <screen>
-       <prompt>%</prompt><userinput> tar xvzf vls-version.tar.gz</userinput>
-       <prompt>%</prompt><userinput> cd vls-version</userinput>
+<prompt>% </prompt><userinput>tar xvzf vls-version.tar.gz</userinput>
+<prompt>% </prompt><userinput>cd vls-version</userinput>
 </screen>
-</para>
 
 <para>
-To get the most recent version of the videolan server, not yet released, you must
-use the VideoLAN public CVS:
+
+To get the most recent version of the videolan server, not yet released,
+you must use the VideoLAN public CVS :
+
 </para>
 
-<para>
 <screen>
-	<prompt>%</prompt><userinput> cvs -d:pserver:anonymous@cvs:/cvs/videolan login</userinput>
+<prompt>% </prompt><userinput>cvs -d:pserver:anonymous@cvs:/cvs/videolan login</userinput>
 </screen>
-</para>
 
 <para>
-There is no password. Type enter, then:
+There is no password. Type enter, then :
 </para>
 
-<para>
 <screen>
-	<prompt>%</prompt><userinput> cvs -d:pserver:anonymous@cvs:/cvs/videolan checkout -P -r v0_X_X vls</userinput>
+<prompt>% </prompt><userinput>cvs -d:pserver:anonymous@cvs:/cvs/videolan checkout -P -r v0_4_5 vls</userinput>
 </screen>
-v0_X_X is the version.
-</para>
-
 
 <para>
 To get the list of configuration options, do :
 </para>
 
-<para>
 <screen>
-       <prompt>%</prompt><userinput> ./configure --help</userinput>
+<prompt>% </prompt><userinput>./configure --help</userinput>
 </screen>
-</para>
 
 <para>
-Configure the videolan server. For example :
+Then configure vls :
 </para>
+
 <itemizedlist>
+
 <listitem><para>if you want a basic vls without DVD support, do :
 </para>
 
-<para>
 <screen>
-       <prompt>%</prompt><userinput> ./configure --disable-dvd</userinput>
-</screen></para></listitem>
-<listitem><para>if you want a full videolan server with libdvdcss and DVD support,
-you need the libdvdcss librairy,  do :
+<prompt>% </prompt><userinput>./configure --disable-dvd</userinput>
+</screen>
+
+</listitem>
+
+<listitem><para>if you want a full vls with DVD support, do :
 </para>
 
-<para>
 <screen>
-       <prompt>%</prompt><userinput> ./configure</userinput>
-</screen></para></listitem>
+<prompt>% </prompt><userinput>./configure</userinput>
+</screen>
+
+</listitem>
+
 </itemizedlist>
+
 <para>
 Then, compile and install :
-
 </para>
 
-<para>
 <screen>
-	<prompt>%</prompt><userinput> make</userinput>
-	<prompt>%</prompt><userinput> su</userinput>
-	<userinput> [enter root password]</userinput>
-	<userinput># make install</userinput>
+<prompt>% </prompt><userinput>make</userinput>
+<prompt># </prompt><userinput>make install</userinput>
 </screen>
-</para>
 
 <para>
-You can also do a make uninstall, make clean or make distclean as
-needed.
+
+You can also do a <command>make uninstall</command>, <command>make
+clean</command> or <command>make distclean</command> as needed.
+
 </para>
 
 </sect3>

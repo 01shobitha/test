@@ -1,4 +1,4 @@
-<? if( !isset($mirror) || !isset($file) ) { die; } ?>
+<?// if( !isset($mirror) || !isset($file) ) { die; } ?>
 <html>
  <head>
   <title>VideoLAN - Download from mirror</title>
@@ -7,4 +7,59 @@
  <body>
   <p>Click <a href="<? echo $mirror.$file ?>">here</a> if your download doesn't start</p>
 </html>
-  
+
+<?php
+
+    $sfile = $_SERVER["DOCUMENT_ROOT"]."/mirrors_stats";
+    
+    /* Load saved data */
+    $file_id = fopen( $sfile, "r");
+    $all = fread( $file_id, filesize( $sfile ) );
+    fclose( $file_id );
+    $stats = explode( "\n", $all );
+
+    array_pop($stats);
+
+    $stats_array = array();
+
+    foreach( $stats as $stat )
+    {
+	$elems = explode( " ", $stat );
+	array_push( $stats_array, $elems );
+    }
+
+    $done = 0;
+    for( $i = 0; $i < count( $stats_array ) ; $i++ )
+    {
+	$stat = $stats_array[$i];
+	if( strstr($stat[0],$mirror) != FALSE && strstr($stat[1],$file) != FALSE )
+	{
+	    $stat[2]++;
+	    echo $stat[2]."\n";
+	    $done = 1;
+	    $stats_array[$i] = $stat;
+	    break;
+	}
+    }
+
+
+    if( $done == 0 )
+    {
+	$stat = array();
+	array_push( $stat, $mirror );
+	array_push( $stat, $file );
+	array_push( $stat, "1" );
+	array_push( $stats_array,$stat);
+    }
+
+    print_r( $stats_array );
+
+    /* Save data */
+    $file_id = fopen( $sfile, "w");
+    foreach( $stats_array as $stat )
+    {
+	fwrite( $file_id, $stat[0]." ".$stat[1]." ".$stat[2]."\n");
+    }
+    fclose( $file_id );
+
+?>

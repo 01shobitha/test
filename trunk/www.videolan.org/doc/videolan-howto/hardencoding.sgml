@@ -17,7 +17,6 @@ encoding card</title>
 cheaper than the Visiontech Kfir.</para>
 
 
-
 <sect1><title>Stream with the Hauppauge WinTV-PVR-250 card</title>
 
 <sect2><title>Install the drivers</title>
@@ -28,8 +27,11 @@ url="http://bytesex.org/v4l/">Video4Linux HQ</ulink>.</para>
 
 <para>Once your kernel is ready, install the CVS version of the Linux
 drivers of the Hauppauge WinTV-PVR-250. They are hosted on <ulink
-url="http://ivtv.sourceforge.net/">ivtv.sourceforge.net</ulink>. Please,
-follow the instructions that come with the drivers.</para>
+url="http://ivtv.sourceforge.net/">ivtv.sourceforge.net</ulink>. Then,
+you will have to create the device, load the modules and setup the card
+with the <command>ptune.pl</command> and <command>test_ioctl</command>
+programs. Please, refer to the documentation that come with the
+drivers.</para>
 
 <sect2><title>Stream with VLC</title>
 

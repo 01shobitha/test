@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<chapter id="install"><title id="tinstall">
+<span xml:lang="en">Install the required software and hardware</span>
+<span xml:lang="fr">Installation des logiciels requis</span>
+<span xml:lang="es">Instalación del software y hardware requeridos</span>
+<span xml:lang="de">Installation der benötigten Hard- und Software</span>
+</title>
+
+<sect1><title>
+<span xml:lang="en">Install VLC</span>
+<span xml:lang="fr">Installez VLC</span>
+<span xml:lang="es">Instalación de VLC</span>
+<span xml:lang="de">Installation von VLC</span>
+</title>
+
+  &install-vlc;
+
+</sect1>
+
+<sect1><title>
+<span xml:lang="en">Install VLS</span>
+<span xml:lang="fr">Installez VLS</span>
+<span xml:lang="es">Instalación de VLS</span>
+<span xml:lang="de">Installation von VLS</span>
+</title>
+
+  &install-vls;
+
+</sect1>
+
+</chapter>

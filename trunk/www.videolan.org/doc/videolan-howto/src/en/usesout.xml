@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<chapter id="usesout"><title id="tusesout">
+<span xml:lang="en">Advanced use of VLC's stream output
+(transcoding, multiple streaming, etc...)</span>
+<span xml:lang="fr">Utilisation avancée du stream output de VLC
+(transcodage, diffusion multiple, ...)</span>
+<span xml:lang="es">Utilización avanzada de la salida de transmisión de VLC
+(transcodificación, múltiples transmisiones, etc...)</span>
+<span xml:lang="de">Fortgeschrittene Nutzung der Stream-Ausgabe von VLC
+(Umkodierung, multiples Streaming, etc.)</span>
+</title>
+
+<sect1><title>
+<span xml:lang="en">The syntax</span>
+<span xml:lang="fr">La syntaxe</span>
+<span xml:lang="es">La sintaxis</span>
+<span xml:lang="de">Die Syntax</span>
+</title>
+
+<para>
+<span xml:lang="en">Please refer to the <emphasis>command line
+interface</emphasis> chapter of the VLC user guide to learn the syntax
+of VLC's stream output. You can find the VLC user guide on the <ulink
+url="http://www.videolan.org/doc/">documentation page</ulink></span>
+<span xml:lang="fr">Merci de vous référer au chapitre <emphasis>Ligne
+de commande</emphasis> du guide de l'utilisateur de VLC,
+pour apprendre la syntaxe du stream output du VLC. Vous
+pouvez trouver le guide de l'utilisateur de VLC sur la <ulink
+url="http://www.videolan.org/doc/">page documentation</ulink></span>
+<span xml:lang="es">Por favor consulte el capítulo <emphasis>interfaz de línea de comandos</emphasis> de la guía de usuario de VLC para aprender
+la sintaxis de la salida de transmisión de VLC. Puedes encontrar la guía de usuario de VLC en la página de documentación<ulink
+url="http://www.videolan.org/doc/"></ulink></span>
+<span xml:lang="de">Bitte benutzen Sie das <emphasis>
+Command-Line-Interface</emphasis>-Kapitel des VLC-Userguides, um die
+Syntax von VLCs Streamausgabe. Sie finden den VLC-Userguide auf der 
+<ulink url="http://www.videolan.org/doc/">Dokumentationsseite</ulink></span>
+.</para>
+
+</sect1>
+
+<sect1><title>
+<span xml:lang="en">Examples</span>
+<span xml:lang="fr">Exemples</span>
+<span xml:lang="es">Ejemplos</span>
+<span xml:lang="de">Beispiele</span>
+</title>
+
+<sect2><title>
+<span xml:lang="en">Transcoding</span>
+<span xml:lang="fr">Transcodage</span>
+<span xml:lang="es">Transcodificación</span>
+<span xml:lang="de">Umkodierung</span>
+</title>
+
+<para>
+<span xml:lang="en">Transcode the input stream and send it to a
+multicast IP address with the associated SAP announce</span>
+<span xml:lang="fr">Transcodez le flux d'entrée et envoyez le vers une
+adresse IP multicast, avec l'annonce SAP associée</span>
+<span xml:lang="es">Transcodifica el flujo de entrada y lo envía a una
+dirección IP multicast con el correspondiente anuncio asociado SAP</span>
+<span xml:lang="de">Umkodieren des Input-Streams und senden an eine
+Multicast-IP-Adresse mit der zugehörigen SAP-Ankündigung</span>
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128,deinterlace}:
+standard{access=udp,mux=ts,url=239.255.12.42,sap=TestStream}'</userinput>
+</screen>
+
+<para>
+<span xml:lang="en"> Display the input stream, transcode it and send it
+to a multicast IP address with the associated SAP announce</span>
+<span xml:lang="fr">Affichez le flux d'entrée, transcodez le, et envoyez
+le sur une adresse IP multicast, avec l'annonce SAP associée</span>
+<span xml:lang="es"> Muestra el flujo de entrada, lo transcodifica y lo envía
+a la dirección multicast con el correspondiente anuncio asociado SAP</span>
+<span xml:lang="de"> Den Input-Stream anzeigen, umkodieren und an eine
+Multicast-IP-Adresse mit der zugehörigen SAP-Ankündigung senden</span>
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#duplicate{dst=display,dst=
+"transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128,deinterlace}:
+standard{access=udp,mux=ts,url=239.255.12.42,sap=TestStream}"}'</userinput>
+</screen>
+
+<para>
+<span xml:lang="en">Transcode the input stream, display the transcoded
+stream and send it to a multicast IP address with the associated SAP
+announce</span>
+<span xml:lang="fr">Transcodez le flux d'entrée, affichez le flux
+transcodé, et envoyez le sur une adresse IP multicast, avec l'annonce
+SAP associée</span>
+<span xml:lang="es">Transcodifica el flujo de entrada, muestra el flujo transcodificado
+y lo envía a la dirección IP multicast con el correspondiente anuncio asociado SAP</span>
+<span xml:lang="de">Umkodieren des Input-Streams, Anzeige des umkodierten
+Streams und Senden an eine Multicast-IP-Adresse mit der zugehörigen
+SAP-Ankündigung</span>
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128,deinterlace}:
+duplicate{dst=display,dst=standard{access=udp,mux=ts,url=239.255.12.42,sap=TestStream}}'</userinput>
+</screen>
+
+</sect2>
+
+<sect2><title>
+<span xml:lang="en">Multiple streaming</span>
+<span xml:lang="fr">Diffusion multiple</span>
+<span xml:lang="es">Transmisión múltiple</span>
+<span xml:lang="de">Multiples Streaming</span>
+</title>
+
+<para>
+<span xml:lang="en">Send a stream to a multicast IP address and a
+unicast IP address</span>
+<span xml:lang="fr">Envoyez un flux sur une adresse IP multicast et une
+adresse IP unicast</span>
+<span xml:lang="es">Enviar un flujo a una dirección IP multicast y a una
+dirección IP unicast</span>
+<span xml:lang="de">Senden eines Streams an eine Multicast-IP-Adresse und
+eine Unicast-IP-Adresse</span>
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#duplicate{dst=
+standard{access=udp,mux=ts,url=239.255.12.42,sap=TestStream},
+dst=standard{access=udp,mux=ts,url=192.168.1.2}}'</userinput>
+</screen>
+
+<para>
+<span xml:lang="en">Display the stream and send it to two unicast IP
+addresses</span>
+<span xml:lang="fr">Affichez le flux, et envoyez le sur deux adresses IP
+unicast</span>
+<span xml:lang="es">Muestra el flujo y lo envíaa dos direcciones IP 
+unicast</span>
+<span xml:lang="de">Anzeige des Streams und Senden an zwei
+Unicast-IP-Adressen</span>
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#duplicate{dst=display,dst=
+standard{access=udp,mux=ts,url=192.168.1.12},
+dst=standard{access=udp,mux=ts,url=192.168.1.42}}'</userinput>
+</screen>
+
+</sect2>
+
+<sect2><title>
+
+<span xml:lang="en">Transcoding and multiple streaming</span>
+<span xml:lang="fr">Transcodage et diffusion multiple</span>
+<span xml:lang="es">Transcodificación y transmisión múltiple</span>
+<span xml:lang="de"> Umkodieren und multiples Streaming</span>
+</title>
+
+<para>
+<span xml:lang="en">Transcode the input stream, display the transcoded
+stream and send it to a multicast IP address with the associated SAP
+announce and an unicast IP address</span>
+<span xml:lang="fr">Transcodez le flux d'entrée, affichez le flux
+transcodé, envoyez le sur une adresse IP multicast avec l'annonce SAP
+aossiciée, et sur une adresse IP unicast</span>
+<span xml:lang="es">Transcodifica el flujo de entrada, muestra el flujo
+transcodificado y lo envía a una dirección IP multicast con el correspondiente anuncio SAP asociado y a una dirección IP unicast</span>
+<span xml:lang="de">Umkodieren des Input-Streams, Anzeige des umkodierten
+Streams und senden dessen an eine Multicast-IP-Adresse mit der zugehörigen
+SAP-Ankündigung und an eine Unicast-IP-Adresse</span>
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128,deinterlace}:
+duplicate{dst=display,dst=standard{access=udp,mux=ts,url=239.255.12.42,sap=TestStream},
+dst=standard{access=udp,mux=ts,url=192.168.1.2}}'</userinput>
+</screen>
+
+<para>
+<span xml:lang="en">Display the input stream, transcode it and send it
+to two unicast IP addresses</span>
+<span xml:lang="fr">Affichez le flux d'entrée, transcodez-le, et
+envoyez-le sur deux adresses IP unicast</span>
+<span xml:lang="es">Muestra el flujo de entrada, lo transcodifica y lo envía
+a dos direcciones IP unicast</span>
+<span xml:lang="de">Anzeige des Input-Streams, Umkodierung dessen und
+senden dessen an zwei Unicast-IP-Adressen</span>
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#duplicate{dst=display,
+dst="transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128}:
+duplicate{dst=standard{access=udp,mux=ts,url=192.168.1.2},
+dst=standard{access=udp,mux=ts,url=192.168.1.12}"}'</userinput>
+</screen>
+
+<para>
+<span xml:lang="en">Send the input stream to a multicast IP address
+and the transcoded stream to another multicast IP address with the
+associated SAP announces</span>
+<span xml:lang="fr">Envoyez le flux d'entrée sur une adresse IP
+multicast et le flux transcodé sur une autre adresse IP multicast, avec
+les annonces SAP associées</span>
+<span xml:lang="es">Envía el flujo de entrada a una dirección IP multicast
+y el flujo transcodificado a otra dirección IP multicast con los
+correspondientes anuncios SAP asociados</span>
+<span xml:lang="de">Senden des Input-Streams an eine Multicast-IP-Adresse
+und des umkodierten Streams an eine andere Multicast-IP-Adresse mit der
+zugehörigen SAP-Ankündigung</span>
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#duplicate{dst=
+standard{access=udp,mux=ts,url=239.255.1.2,sap=OriginalStream},
+dst="transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128}:
+standard{access=udp,mux=ts,url=239.255.1.3,sap=TranscodedStream}"}'</userinput>
+</screen>
+
+</sect2>
+
+<sect2><title>
+<span xml:lang="en">HTTP streaming</span>
+<span xml:lang="fr">Diffusion HTTP</span>
+<span xml:lang="es">Transmisión HTTP</span>
+<span xml:lang="de">HTTP-Streaming</span>
+</title>
+
+<para>
+<span xml:lang="en">Stream in HTTP</span>
+<span xml:lang="fr">Diffusez en HTTP</span>
+<span xml:lang="es">Transmitir en HTTP</span>
+<span xml:lang="de">Streamen per HTTP</span>
+:</para>
+
+<itemizedlist>
+
+<listitem><para>
+<span xml:lang="en">on the server, run</span>
+<span xml:lang="fr">sur le serveur, lancez</span>
+<span xml:lang="es">en el servidor, ejecuta</span>
+<span xml:lang="de">Führen Sie auf dem Server aus</span>
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#standard{access=http,mux=ogg,url=server.example.org:8080}'</userinput>
+</screen>
+
+</listitem>
+
+<listitem><para>
+<span xml:lang="en">on the client(s), run</span>
+<span xml:lang="fr">sur le(s) client(s), lancez</span>
+<span xml:lang="es">oen el/los cliente(s), ejecuta</span>
+<span xml:lang="de">Führen Sie bei den Clients aus</span>
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc http://server.example.org:8080</userinput>
+</screen>
+
+</listitem>
+
+</itemizedlist>
+
+<para>
+<span xml:lang="en">Transcode and stream in HTTP</span>
+<span xml:lang="fr">Transcodez et envoyez en HTTP</span>
+<span xml:lang="es">Transcodificación y transmisión en HTTP</span>
+<span xml:lang="de">Umkodieren und Streamen per HTTP</span>
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128}:
+standard{access=http,mux=ogg,url=server.example.org:8080}'</userinput>
+</screen>
+
+<para>
+<span xml:lang="en">For example, if you want to stream an audio CD in
+Ogg/Vorbis over HTTP</span>
+<span xml:lang="fr">Par exemple, si vous désirez diffuser un CD audio en
+Ogg/Vorbis sur HTTP</span>
+<span xml:lang="es">Por ejemplo, si tu quieres transmitir un CD de audio en
+Ogg/Vorbis sobre HTTP</span>
+<span xml:lang="de">Beispielsweise wenn Sie eine Audio-CD in Ogg/Vorbis
+per HTTP streamen möchten</span>
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv cdda:/dev/cdrom --sout '#transcode{acodec=vorb,ab=128}:
+standard{access=http,mux=ogg,url=server.example.org:8080}'</userinput>
+</screen>
+
+</sect2>
+
+<sect2><title>
+<span xml:lang="en">RTP streaming</span>
+<span xml:lang="fr">Diffusion RTP</span>
+<span xml:lang="es">Transmisión RTP</span>
+<span xml:lang="de">RTP-Streaming</span>
+</title>
+
+<para>
+<span xml:lang="en">Stream in RTP</span>
+<span xml:lang="fr">Diffusez en RTP</span>
+<span xml:lang="es">Transmitir en RTP</span>
+<span xml:lang="de">Streamen per RTP</span>
+:</para>
+
+<itemizedlist>
+
+<listitem><para>
+<span xml:lang="en">on the server, run</span>
+<span xml:lang="fr">sur le serveur, lancez</span>
+<span xml:lang="es">en el servidor, ejecuta</span>
+<span xml:lang="de">Führen Sie auf dem Server aus</span>
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#rtp{dst=192.168.0.12,port=1234,sdp=http://server.example.org:8080/test.sdp}'</userinput>
+</screen>
+
+</listitem>
+
+<listitem><para>
+<span xml:lang="en">on the client(s), run</span>
+<span xml:lang="fr">sur le(s) client(s), lancez</span>
+<span xml:lang="es">en el/los cliente(s), ejecuta</span>
+<span xml:lang="de">Führen Sie bei den Clients aus</span>
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc http://server.example.org:8080/test.sdp</userinput>
+</screen>
+
+</listitem>
+
+</itemizedlist>
+
+</sect2>
+
+
+<sect2><title>
+<span xml:lang="en">Use the <emphasis>es</emphasis> module</span>
+<span xml:lang="fr">Utilisation du module <emphasis>es</emphasis></span>
+<span xml:lang="es">Utilización del módulo <emphasis>es</emphasis></span>
+<span xml:lang="de">Benutzung des <emphasis>es</emphasis>-Moduls</span>
+</title>
+
+<para>
+<span xml:lang="en">Separate audio and video in two PS files</span>
+<span xml:lang="fr">Séparez l'audio et la vidéo en deux fichiers PS</span>
+<span xml:lang="es">Separa el audio y el vídeoen dos fichero PS</span>
+<span xml:lang="de">Teilen von Bild und Ton in zwei PS-Dateien</span>
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv input_stream --sout
+'#es{access=file,mux=ps,url_audio=audio-%c.%m,url_video=video-%c.%m}'</userinput>
+</screen>
+
+<para>
+<span xml:lang="en">Extract the audio track of the input stream to a TS
+file</span>
+<span xml:lang="fr">Extrayez la piste audio d'un flux, vers un fichier
+TS</span>
+<span xml:lang="es">Extrae la pista de sonido del flujo de entrada a un fichero TS</span>
+<span xml:lang="de">Extrahieren der Tonspur des Input-Streams in eine
+TS-Datei</span>
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#es{access_audio=file,mux_audio=ts,url_audio=audio-%c.%m}'</userinput>
+</screen>
+
+<para>
+<span xml:lang="en"> Stream in unicast the audio track on a port and the
+video track on another port</span>
+<span xml:lang="fr">Diffusez, en unicast, la piste audio sur un port et
+la piste vidéo sur un autre</span>
+<span xml:lang="es"> Transmite en unicast la pista de sonido en un puerto y el
+vídeo en otro puerto</span>
+<span xml:lang="de"> Streamen der Tonspur über einen Port und der Bildspur
+über einen anderen Port per Unicast</span>
+:</para>
+
+<itemizedlist>
+
+<listitem><para>
+<span xml:lang="en">on the server side</span>
+<span xml:lang="fr">Côté serveur</span>
+<span xml:lang="es">en la parte servidor</span>
+<span xml:lang="de">Auf der Serverseite</span>
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv input_stream --sout
+'#es{access=rtp,mux=ts,url_audio=192.168.1.2:1212,url_video=192.168.1.2:1213}'</userinput>
+</screen>
+
+</listitem>
+
+<listitem><para>
+<span xml:lang="en">on the client side: to receive the audio</span>
+<span xml:lang="fr">côté client: pour recevoir l'audio</span>
+<span xml:lang="es">: en la parte cliente: para recibir el audio</span>
+<span xml:lang="de">auf der Clientseite: Zum Empfangen des Tons</span>
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc udp:@:1212</userinput>
+</screen>
+
+
+<para>
+<span xml:lang="en">to receive the video</span>
+<span xml:lang="fr">pour recevoir la vidéo</span>
+<span xml:lang="es">para recibir el vídeo</span>
+<span xml:lang="de">Zum Empfangen des Bildes</span>
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc udp:@:1213</userinput>
+</screen>
+
+</listitem>
+
+</itemizedlist>
+
+<para>
+<span xml:lang="en">Stream in multicast the video and dump the audio in
+a file</span>
+<span xml:lang="fr">Diffusez la vidéo en multicast et envoyez l'audio
+dans un fichier</span>
+<span xml:lang="es">Transmite el vídeo en multicast y envía el audio a
+un fichero</span>
+<span xml:lang="de">Streamen des Bildes per Multicast und speichern des Tons
+in einer Datei</span>
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#es{access_video=udp,mux_video=ts,url_video=239.255.12.42,
+access_audio=file,mux_audio=ps,url_audio=audio-%c.%m}'</userinput>
+</screen>
+
+<note><para>
+<span xml:lang="en">You can also combine the <emphasis>es</emphasis>
+module with the other modules to set-up even more complex
+solution</span>
+<span xml:lang="fr">Vous pouvez également combiner le module
+<emphasis>es</emphasis> avec les autres modules pour élaborer des
+solutions encore plus complexes</span>
+<span xml:lang="es">Puedes también combinar el módulo <emphasis>es</emphasis> 
+con otros módulos para configurar soluciones incluso más complicadas</span>
+<span xml:lang="de">Sie können auch das <emphasis>es</emphasis>-Modul
+mit den anderen Modulen kombinieren, um noch komplexere Lösungen
+aufzusetzen</span>
+.</para></note>
+
+</sect2>
+</sect1>
+</chapter>

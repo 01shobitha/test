@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<chapter id="vod"><title id="tvod">
+<span xml:lang="en">Video On Demand</span>
+<span xml:lang="fr">Video à la demande</span>
+<span xml:lang="es">Vídeo Bajo Demanda</span>
+<span xml:lang="de">Video On Demand</span>
+</title>
+	
+<sect1><title>
+<span xml:lang="en">Overview</span>
+<span xml:lang="fr">Apercu</span>
+<span xml:lang="es">Visión General</span>
+<span xml:lang="de">Überblick</span>
+</title>
+
+<span xml:lang="en">
+<para>With Video On Demand (VOD), the user can start the video when he
+wants, make pauses, go forward and back in the video. It is of course
+the best in video streaming and the dream for every user.</para>
+
+<para>VOD is a very big consumer of resources for the server and the
+network. VOD is unicast, not multicast : this means that the network
+and server resources needed are directly proportional to the number of
+clients.</para>
+
+<para>The design of VideoLAN's VOD solution is very simple. The idea
+is to do HTTP streaming, i.e. stream an MPEG video encapsulated in
+HTTP. The regulation of the bitrate between the client and the server
+is done automatically by TCP. With HTTP version 1.1, there is the
+possibility to seek in a file downloaded, that's what we use to seek in
+the video.</para>
+
+</span>
+
+<span xml:lang="fr">
+
+<para>A l'aide de la Vidéo à la Demande (VOD, Video On Demand),
+l'utilisateur peut démarrer la vidéo, mettre en pause, avancer et
+reculer, ... Il est évident qu'il s'agit d'un must pour la diffusion
+vidéo et le rêve de chaque utilisateur.</para>
+
+<para>La VOD nécessite d'importantes ressources système sur le serveur
+et sur le réseau. La VOD fonctionne en unicast, pas en multicast: cela
+signifie que le les ressources nécessaires sur le serveur et sur le
+réseau sont directement proportionnelles au nombre de clients</para>
+
+<para>Le principe de la solution de VOD VideoLAN est extrèmement simple.
+L'idée est de faire du streaming HTTP, c'est à dire diffuser un flux
+vidéo MPEG encapsulé dans de l'HTTP. La régulation du débit entre le
+client et le serveur se fait automatiquement par le protocole TCP. Avec
+le protocole HTTP 1.1, il est possible de se déplacer dans un fichier
+téléchargé, et c'est ce que nous utilisons pour permettre le déplacement
+dans la vidéo.</para>
+
+</span>
+
+<span xml:lang="es">
+<para>El vídeo bajo demanda (VOD) permite al usuario visualizar el vídeo,
+cuando el quiera, hacer pausas y rebobinar. Esta es la principal ventaja de la difusión de vídeo
+mediante flujo de datos, en pocas palabras: el sueño de cualquier usuario.</para>
+<para>VOD es una de las principales fuentes de consumo de recursos
+tanto de la red como del servidor. VOD es unicast, no multicast : esto significa que los recursos
+de la red y del servidor necesarios, son directamente proporcionales al número de clientes.</para>
+<para>La solución que VideoLAN's VOD propone es muy simple. La idea es hacer una 
+difusión HTTP, por ejemplo: encapsular el flujo de datos de vídeo (MPEG) en HTTP.
+El control del flujo de datos entre el cliente y el servidor se hace automaticamente 
+mediante TCP. Con HTTP versión  1.1, existe la posibilidad de buscar en un fichero descargado,	
+que es lo que nosotros hacemos para buscar el video</para></span>
+
+<span xml:lang="de">
+<para>Mit Video On Demand (VOD) kann der Nutzer das Video starten, 
+wann er will, pausen machen, sowie vorwärts und zurück im Video gehen. 
+Es ist natürlich das Beste des Videostreamens und der Traum für jeden
+Nutzer.</para>
+
+<para>VOD ist ein starker Benutzer der Ressourcen des Servers und des
+Netzwerks. VOD ist Unicast, nicht Multicast: dies bedeutet, das die benötigten
+Netzwerk- und Serverressourcen direkt proportional zur Anzahl von Clients
+sind.</para>
+
+<para>Das Design der VOD-Lösung von VideoLAN ist sehr einfach. Die Idee ist
+HTTP-Streaming zu machen, d.h. ein MPEG-Video zu streamen, welches
+in HTTP verkapselt ist. Die Regulierung der Bitrate zwischen Client und dem Server
+erfolgt automatisch durch TCP. Mit HTTP-Version 1.1 gibt es die Möglichkeit, in 
+einer ladenden Datei zu suchen, was wir benutzen, um im Video zu suchen.</para>
+
+</span>
+
+</sect1>
+
+<sect1><title>
+<span xml:lang="en">On the server side</span>
+<span xml:lang="fr">Sur le serveur</span>
+<span xml:lang="es">De cara al servidor</span>
+<span xml:lang="de">Auf der Server-Seite</span>
+</title>
+
+<span xml:lang="en">
+<para>On the VOD server, you need a running Web server. For example,
+you can use a Linux server running Apache. Other operating systems
+and other Web servers should work too, but we have never tested.</para>
+
+<para>Make your MPEG-1, MPEG-2 or MPEG-4 / DivX files available to the
+clients on the Web server.</para>
+
+<para>For example, we have a Web server whose DNS name
+is <emphasis>localserver</emphasis>. On this server,
+we put an MPEG file <filename>video1.mpg</filename>
+which will be available to the clients at the URL
+<filename>http://localserver/video1.mpg</filename>.</para>
+</span>
+
+<span xml:lang="fr">
+
+<para>Sur le serveur de VOD, vous avez besoin d'un serveur Web. Vous
+pouvez par exemple utiliser un serveur Linux utilisant le serveur
+Apache. D'autres systèmes d'exploitations et d'autres serveurs Web
+devraient marcher, mais n'ont jamais été testés.</para>
+
+<para>Rendez vos fichier MPEG-1, MPEG-2 ou MPEG-4 / DivX disponibles
+pour les clients sur le serveur web.</para>
+
+<para>Par exemple, si vous avez un serveur web dont le nom DNS est
+<emphasis>serveurlocal</emphasis>; sur ce serveur, nous mettons un fichier MPEG <filename>video1.mpg</filename>, qui sera disponible pour les clients à l'URL
+<filename>http://serveurlocal/video1.mpg</filename>.</para>
+</span>
+
+<span xml:lang="es">
+<para>En un servidor de VOD, se necesita  de un servidor Web. 			
+Por ejemplo, se podría usar el Servidor de Linux Apache. Otros sistemas operativos
+ y servidores web deberían funcionar también, pero esto no se ha comprobado. </para>
+
+<para>Esto hace que los ficheros MPEG-1, MPEG-2 or MPEG-4 / DivX
+esten disponibles para los clientes.</para>
+
+<para>Por ejemplo, nosotros tenemos un servidor Web con cuyos DNS
+son <emphasis>servidorlocal</emphasis>. En este servidor se puede poner el 
+fichero MPEG <filename>video1.mpg</filename> y hacer que este disponible para los clientes
+en la URL<filename>http://localserver/video1.mpg</filename>.</para>
+</span>
+
+<span xml:lang="de">
+<para>Auf dem VOD-Server benötigten Sie einen laufenden Webserver.
+Beispielsweise können Sie einen Linux-Server mit Apache benutzen.
+Andere Betriebssysteme und Webserver sollten auch funktionieren, aber
+dies haben wir nie getestet.</para>
+
+<para>Machen Sie Ihre MPEG-1, MPEG-2 oder MPEG-4 / DivX - Dateien 
+den Clients auf dem Webserver zugänglich.</para>
+
+<para>Beispielsweise haben wir einen Webserver, dessen DNS-Name
+<emphasis>localserver</emphasis> ist. Auf diesen Server legen wir eine
+MPEG-Datei <filename>video1.mpg</filename>, die den Clients
+unter der URL <filename>http://localserver/video1.mpg</filename>
+zugänglich ist.</para>
+</span>
+
+</sect1>
+
+<sect1><title>
+<span xml:lang="en">On the client side</span>
+<span xml:lang="fr">Du côté client</span>
+<span xml:lang="es">De cara al cliente</span>
+<span xml:lang="de">Auf der Clientseite</span>
+</title>
+
+<span xml:lang="en">
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv http://localserver/video1.mpg</userinput>
+</screen>
+</span>
+
+<span xml:lang="fr">
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv http://serveurlocal/video1.mpg</userinput>
+</screen>
+</span>
+
+<span xml:lang="es">
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv http://servidorlocal/lserver/video1.mpg</userinput>
+</screen>
+</span>
+
+<span xml:lang="de">
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv http://lokalerserver/lserver/video1.mpg</userinput>
+</screen>
+</span>
+
+<span xml:lang="en">
+<para>VLC starts to read the stream nearly immediately and you can
+seek in the stream, make pauses, etc... as if the stream was a local
+file.</para>
+</span>
+
+<span xml:lang="fr">
+<para>VLC commence à lire le flux presque immédiatement, et vous pouvez
+vous déplacer dans le flux, faire des pauses, ... comme si le flux était
+un fichier local.</para>
+</span>
+
+<span xml:lang="es">
+<para>VLC empieza a leer el flujo de datos casi inmediatamente, y además le permite 
+hacer busquedas, pausas etc...como si el flujo de datos fuera un fichero local </para>
+</span>
+
+<span xml:lang="de">
+<para>VLC startet fast sofort den Stream und Sie können in diesem Suchen, Pausen machen,
+etc. als wäre es eine lokale Datei.</para>
+</span>
+</sect1>
+</chapter>

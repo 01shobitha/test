@@ -8,7 +8,7 @@
 
 <h1> Events </h1>
 
-<h2>1/2/3 February 2005 - VideoLAN at Solutions Linux
+<h2>1/2/3 February 2005 - VideoLAN at Solutions Linux</h2>
 <p>Like every year, the VideoLAN team had a booth at Solutions Linux Paris
 with colorful demos and a lot of visitors !</p>
 <p><a href="20050201/index.html">Pictures of the booth</a>

@@ -16,14 +16,14 @@ the graphical user interfaces: wxwindows for Windows and GNU/Linux,
 the skinnable Windows and GNU/Linux interface or the MacOS X native
 interface.</para>
 
-<sect1><title>Use the wizard</title></sect1>
+<sect1><title>Streaming using the Wizard</title></sect1>
 
 <para>The <emphasis>Streaming/Transcoding Wizard</emphasis> leads you
 step by step through the process of streaming your media on a network or
 saving it to your hard drive. This <emphasis>Wizard</emphasis> offers
 easy to use menus but provides a restricted set of options.</para>
 
-<note><para>The wizard is only available for the wxWindows
+<note><para>The wizard is only available on the wxWindows
 interface.</para></note>
 
 <sect2><title>Launching the wizard</title></sect2>
@@ -41,7 +41,7 @@ open the "File" menu, and select the Wizard menu item.</para>
 
 <sect2><title>Wizard dialog</title></sect2>
 
-<para>First select the general action you want to acheive.</para>
+<para>First select the type of task:</para>
 
 <itemizedlist>
 
@@ -49,8 +49,7 @@ open the "File" menu, and select the Wizard menu item.</para>
 option if you want to stream media on network.</para></listitem>
 
 <listitem><para><emphasis>Transcode/Save to file</emphasis>: Choose
-this option if you want to change a file's audio codec and/or video codec
-and/or encapsulation method.</para></listitem>
+this option if you want to change a file's audio codec and/or video codec, its bitrate, and/or encapsulation method.</para></listitem>
 
 </itemizedlist>
 
@@ -64,13 +63,14 @@ and/or encapsulation method.</para></listitem>
 
 <sect2><title>Input selection</title></sect2>
 
-<para>Select any stream (such as a file, a UDP network stream, a disc
-...) by using the "Open File" dialog or an item in your playlist.</para>
+<para>Select a stream (such as a file, a network stream, a disk, a
+capture device ...) by selectig the <emphasis>Choose...</emphasis>
+dialog or an existing item in your playlist, using the <emphasis>Existing playlist item</emphasis> option.</para>
 
 <para><emphasis>Partial Extract</emphasis>: To read only part of the
 stream, check the "Enable" checkbox and choose a start and end date (in
 seconds). This option should only be used with streams you can control
-such as files or discs but not UDP network streams.</para>
+such as files or discs but not network streams or capture devices.</para>
 
 <mediaobject>
   <imageobject>
@@ -90,23 +90,29 @@ such as files or discs but not UDP network streams.</para>
 
 <sect2><title>Streaming methods</title></sect2>
 
-<para>If you chose to <emphasis>Stream to network</emphasis> you can
+<para>If you chose <emphasis>Stream to network</emphasis> option, you can
 now specify the streaming method. Available methods are:</para>
 
 <itemizedlist>
 
 <listitem><para><emphasis>UDP Unicast</emphasis>: Stream to a
-single computer. Enter the computer's IP address (in the 0.0.0.0 -
+single computer. Enter the client's IP address (in the 0.0.0.0 -
 223.255.255.255 range).</para></listitem>
 
 <listitem><para><emphasis>UDP Multicast</emphasis>: Stream to multiple
-computers by multicast. Enter the multicast IP address (in the 224.0.0.0
-239.255.255.255 range).</para></listitem>
+computers using multicast. Enter the IP address of the multicast group
+(in the 224.0.0.0 239.255.255.255 range).</para></listitem>
 
 <listitem><para><emphasis>HTTP</emphasis>: Stream by using the HTTP
-protocol. If you leave the "Destination" text box empty, VLC will listen
-on all your IP addresses on port 8080. Specify the address and port on
-which to listen using the following syntax ip[:port].</para></listitem>
+protocol. If you leave the <emphasis>Destination</emphasis> text box
+empty, VLC will listen on all the network interfaces of the server on
+port 8080. Specify an address, port and path on which to listen using
+the following syntax [ip][:port][/path].</para>
+
+<para>For instance, <emphasis>192.168.0.1:80/stream</emphasis>
+will make VLC listen on the interface carrying the 192.168.0.1
+IP address, on the 80 TCP port, in the /stream <emphasis>virtual
+file</emphasis>.</para></listitem>
 
 </itemizedlist>
 
@@ -120,8 +126,9 @@ which to listen using the following syntax ip[:port].</para></listitem>
 
 <sect2><title>Transcoding options</title></sect2>
 
-<para>If you chose <emphasis>Transcode/Save to file</emphasis> you
-can now specify the new audio and video codecs and bitrates.</para>
+<para>If you chose the <emphasis>Transcode/Save to file</emphasis>
+option, you can now specify the new audio and video codecs and bitrates
+you want you input converted to.</para>
 
 <para>(See <xref linkend="smc" endterm="tsmc" />)</para>
 
@@ -133,12 +140,12 @@ can now specify the new audio and video codecs and bitrates.</para>
   <caption><para>Wizard transcode</para></caption>
 </mediaobject>
 
-<sect2><title>Encapsulation formats</title></sect2>
+<sect2><title>Encapsulation method</title></sect2>
 
-<para>Choose the encapsulation format. The UDP streaming methods require
-MPEG TS encapsulation. The HTTP streaming method requires MPEG PS, MPEG
-TS, MPEG 1, OGG, RAW or ASF encapsulation. Saving to a file can use any
-encapsulation format.</para>
+<para>Choose the method format. The UDP streaming methods require MPEG
+TS encapsulation. The HTTP streaming method can be used with the MPEG
+PS, MPEG TS, MPEG 1, OGG, RAW or ASF encapsulation. Saving to a file can
+be done using any encapsulation format compatible with the chosen codecs.</para>
 
 <para> (See <xref linkend="smc" endterm="tsmc" />)</para>
 
@@ -157,14 +164,19 @@ now specify several options.</para>
 
 <itemizedlist>
 
-<listitem><para><emphasis>Time To Live (TTL)</emphasis> This sets
-the numbers of routers your stream can go through. If you do not know
-what this means, you should leave the default value of "1". For more
-information, contact your network administrator.</para></listitem>
+<listitem><para><emphasis>Time To Live (TTL)</emphasis> This sets the
+numbers of routers your stream can go through, for UDP uniicast and
+unicast access methods. If you do not know what this means, you should
+leave the default value.</para>
+
+<note><para>With UDP multicast, the default TTL is set to 1, meaning
+that your stream won't get accross any router. You may want to increase
+it if you want to route your multicast stream.</para></note></listitem>
 
 <listitem><para><emphasis>SAP Announce</emphasis> To advertise your
-stream when using the UDP streaming method, enter an SAP announce
-and check the checkbox. This is NOT available for the HTTP streaming
+stream over the network when using the UDP streaming method, using
+the SAP protocol, enter the name of the stream in the text input and
+check the checkbox. This is NOT available for the HTTP streaming
 method.</para></listitem>
 
 </itemizedlist>
@@ -179,7 +191,8 @@ method.</para></listitem>
 
 <sect2><title>Save to file destination</title></sect2>
 
-<para>If you chose <emphasis>Transcode/Save to file</emphasis> you can now specify the destination file you want to save to.</para>
+<para>If you chose <emphasis>Transcode/Save to file</emphasis> you can
+now specify the file you want to save the stream to.</para>
 
 <mediaobject>
   <imageobject>
@@ -189,13 +202,22 @@ method.</para></listitem>
   <caption><para>Wizard save file - wxWindows interface</para></caption>
 </mediaobject>
 
-<sect1><title>Use the GUI</title></sect1>
+<para>You can now select the <emphasis>Finish</emphasis> button to start streaming/converting the source.</para>
+
+<sect1><title>Streaming using the GUI</title></sect1>
 
 <sect2><title>Introduction</title></sect2>
 
-<para>Streaming methods and options used 99% of time are available in the wxWindows (Windows / GNU Linux), skinnable (Windows / GNU Linux) and Mac OS X interfaces.</para>
+<para>A second way to set up a streaming instance using VLC
+is using <empahsis>Stream Output</empahsis> panel in the
+<emphasis>Open...</emphasis> dialog of the wxWindows (Windows / GNU
+Linux), skinnable (Windows / GNU Linux) and MacOS X interfaces.
+Streaming methods and options used 99% of time should be available in
+this panel.</para>
 
-<para>To stream media, check the "Stream output" checkbox in the "Open File/Disc/Network Stream/Capture Device" dialog and click on the "Settings" button.</para>
+<para>To stream the opened media, check the "Stream output" checkbox in
+the "Open File/Disc/Network Stream/Capture Device" dialog and click on
+the "Settings" button.</para>
 
 <mediaobject>
   <imageobject>
@@ -203,6 +225,14 @@ method.</para></listitem>
   </imageobject>
   <textobject><para>Open file dialog - wxWindows interface</para></textobject>
   <caption><para>Open file dialog - wxWindows interface</para></caption>
+</mediaobject>
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/streaming-howto/intf-osx-open-file.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>Open file dialog - MacOS X interface</para></textobject>
+  <caption><para>Open file dialog - MacOS X interface</para></caption>
 </mediaobject>
 
 <sect2><title>The Stream Output dialog</title></sect2>
@@ -215,33 +245,56 @@ method.</para></listitem>
   <caption><para>Stream output dialog - wxWindows interface</para></caption>
 </mediaobject>
 
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/streaming-howto/intf-osx-stream-output.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>Stream output dialog - wxWindows interface</para></textobject>
+  <caption><para>Stream output dialog - wxWindows interface</para></caption>
+</mediaobject>
+
 <sect3><title>Stream Output MRL</title></sect3>
 
-<para>Displays the <emphasis>Stream Output MRL</emphasis> (Media Ressource Locator). This is updated as you change options in the Stream output dialog. For more information on how to edit the <emphasis>Stream Output MRL</emphasis> read <xref linkend="cmdline" endterm="tcmdline" />.</para>
+<para>On the wxWindows interface, a text box displays the
+<emphasis>Stream Output MRL</emphasis> (Media Ressource Locator). This
+is updated as you change options in the Stream output dialog. For more
+information on how to edit the <emphasis>Stream Output MRL</emphasis>
+read <xref linkend="cmdline" endterm="tcmdline" />.</para>
 
 <sect3><title>Output methods</title></sect3>
 
 <itemizedlist>
 
 <listitem><para>
-<emphasis>Play localy</emphasis>: Play the stream on your screen.
+<emphasis>Play localy</emphasis>: display the stream on your screen. This allows to display the stream you are actually streaming. Effects of transcoding, rescaling, etc... can be monitored locally using this function.
+</para></listitem>
+
+<listitem><para><emphasis>File</emphasis>: Save the stream to a
+file. The <emphasis>Dump raw input</emphasis> options allows to
+save the input stream as it read by VLC, without any processing.
 </para></listitem>
 
 <listitem><para>
-<emphasis>File</emphasis>: Save the stream to a file.
+<emphasis>HTTP</emphasis>: Use the HTTP streaming method. Specify the IP address and TCP port number on which to listen.
 </para></listitem>
 
 <listitem><para>
-<emphasis>HTTP</emphasis>: Use the HTTP streaming method. Specify the ip address and the tcp port number on which to listen.
-</para></listitem>
+<emphasis>MMSH</emphasis>: This access method allows to stream to Microsoft Windows Media Player. Specify the IP address and TCP port number on which to listen.
+</para>
 
-<listitem><para>
-<emphasis>MMSH</emphasis>: TODO
-</para></listitem>
+<note><para>This will only work with the <emphasis>ASF</emphasis>
+enacpsulation method.</para></note>
+
+</listitem>
 
 <listitem><para>
 <emphasis>UDP</emphasis>: Stream in unicast by providing an address in the 0.0.0.0 - 223.255.255.255 range or in multicast by providing an address in the 224.0.0.0 - 239.255.255.255 range. It is also possible to stream to IPv6 addresses.
-</para></listitem>
+</para>
+
+<note><para>This will only work with the <emphasis>TS</emphasis>
+enacpsulation method.</para></note>
+
+</listitem>
 
 <listitem><para>
 <emphasis>RTP</emphasis>: Use the Real-Time Transfer Protocol. Like UDP, it can use both unicast and multicast addresses.
@@ -249,11 +302,15 @@ method.</para></listitem>
 
 </itemizedlist>
 
+<note><para>UDP, HTTP, MMSH and RTP methods require to select the <emphasis>Stream</emphasis> option on the MacOS X interface</para></note>
+
 <para>(See <xref linkend="smc" endterm="tsmc" />)</para>
 
 <sect3><title>Encapsulation method</title></sect3>
 
-<para>Select the adapted encapsulation method among MPEG TS, MPEG PS, MPEG 1, OGG, Raw, ASF, AVI, MP4 and MOV. (See <xref linkend="smc" endterm="tsmc" />)</para>
+<para>Select an encapsulation method that fits the codecs and access
+method of your stream, among MPEG TS, MPEG PS, MPEG 1, OGG, Raw, ASF,
+AVI, MP4 and MOV. (See <xref linkend="smc" endterm="tsmc" />)</para>
 
 <sect3><title>Transcoding options</title></sect3>
 
@@ -263,6 +320,13 @@ method.</para></listitem>
 
 <sect3><title>Miscellaneous options</title></sect3>
 
-<para>Select methods to announce your stream. You can use SAP (Service Announce Protocol) or SLP (Service Location Protocol). You must also specify a channel name.  (See <xref linkend="announce" endterm="tannounce" />)</para>
+<para>Select methods to announce your stream. You can use SAP
+(Service Announce Protocol) or SLP (Service Location Protocol). You
+must also specify a channel name. (See <xref linkend="announce"
+endterm="tannounce" />). The MacOS X interface also allows you to export
+the description (SDP) file of a RTP session using the internal HTTP or
+RTSP server of VLC, or as a file. this can be done using the according
+checkboxes. The <emphasis>SDP URL</emphasis> text box allows to give the
+url or destination where the SDP file will be available.</para>
 
 </chapter>

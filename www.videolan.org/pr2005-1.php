@@ -7,7 +7,7 @@
 ?>
 
 <h1>
-         The VideoLAN project investigates alleged violation
+         The VideoLAN project investigates possible violation
                   of their intellectual property
 </h1>
 
@@ -19,9 +19,9 @@ streaming solution.
 <p>
 Following announcement by Cinema On the Web (COW) and DivXNetworks
 of the new COW video on demand service, the VideoLAN project team
-members were brought knowledge of a possible violation of VLC media
-player's license. The VideoLAN project which owns copyrights to the VLC,
-distributes the VLC as free software exclusively under the terms of the
+members were informed of a possible violation of VLC media
+player's license. The VideoLAN project, which owns copyrights to VLC,
+distributes VLC as free software exclusively under the terms of the
 GNU General Public License (GPL).
 </p>
 
@@ -50,7 +50,7 @@ and denying our users' rights.
 </p>
 
 <p>
-The VideoLAN project will do every thing it can to ensure that its
+The VideoLAN project will do everything it can to ensure that its
 rights and our users' rights are not denied.
 </p>
 

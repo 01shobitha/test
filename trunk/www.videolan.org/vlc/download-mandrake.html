@@ -8,90 +8,44 @@
 
 <? function pkgitem($version,$name,$comment) { ?><li><a href="/pub/videolan/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a> <? echo $comment; ?> </li><? } ?>
 
-<h1> VLC for Linux Mandrake i386</h1>
+<h1>VLC for Linux Mandrake x86</h1>
 
-<p><b>Note:</b> We have new VLC packages for Mandrake built by Götz Waschk.</p>
+<p>Thanks to Götz Waschk who made these packages !</p>
 
-<h2>Install VLC with urpmi</h2>
+<h2>Mandrake 9.1</h2>
 
-<p>There are VLC packages for Mandrake 9.1 and cooker.</p>
-
-<p>To install them, configure the package sources with <a
+<p>To install the VLC packages, configure the package sources with <a
 href="http://plf.zarb.org/~nanardon/">Easy urpmi</a> (you need at least
-to add main, contrib and plf sources).</p>
+to add <i>main</i>, <i>contrib</i> and <i>plf</i> sources).</p>
 
-<p>If you are running cooker, you don't need to configure anything else, as VLC packages are part of the contrib section.</p>
+<p>Then add the VideoLAN package source:</p>
 
-<p>If you are running Mandrake 9.1, add the VideoLAN package source:</p>
-
-<p><code>urpmi.addmedia vlc http://www.videolan.org/pub/videolan/vlc/0.6.0/rpm/mdk/ with hdlist.cz</code></p>
+<pre>
+   # urpmi.addmedia vlc http://www.videolan.org/pub/videolan/vlc/0.6.2/rpm/mandrake-9.1/ with hdlist.cz
+</pre>
 
 <p>Eventually, install the packages with <i>urpmi</i>:</p>
 
-<p><code>urpmi libdvdcss2 libdvdplay0 wxvlc vlc-plugin-a52 vlc-plugin-ogg vlc-plugin-mad</code></p>
+<pre>
+   # urpmi libdvdcss2 libdvdplay0 wxvlc vlc-plugin-a52 vlc-plugin-ogg vlc-plugin-mad
+</pre>
 
-<h2>Mandrake packages for i386</h2>
+<h2>Mandrake Cooker</h2>
 
-<p> Latest RPM x86 packages for Mandrake 9.1 (0.6.0): </p>
+<p>To install the VLC packages, configure the package sources with <a
+href="http://plf.zarb.org/~nanardon/">Easy urpmi</a> (you need at least
+to add <i>main</i>, <i>contrib</i> and <i>plf</i> sources).</p>
 
-<ul><?
-    pkgitem("vlc/0.6.0/rpm/mdk","vlc-0.6.0-5mdk.i586.rpm","(VLC base package)");
-?></ul>
-<p> Mozilla plugin: </p>
-<ul><?
-    pkgitem("vlc/0.6.0/rpm/mdk","mozilla-plugin-vlc-0.6.0-5mdk.i586.rpm","");
-?></ul>
-<p> Codec plugins: </p>
-<ul><?
-    pkgitem("vlc/0.6.0/rpm/mdk","vlc-plugin-mad-0.6.0-5mdk.i586.rpm","(MP3 audio decoder)");
-    pkgitem("vlc/0.6.0/rpm/mdk","vlc-plugin-a52-0.6.0-5mdk.i586.rpm","(A52 - also known as AC3 - audio decoder)");
-    pkgitem("vlc/0.6.0/rpm/mdk","vlc-plugin-ogg-0.6.0-5mdk.i586.rpm","(Ogg Vorbis audio decoder)");
-    pkgitem("vlc/0.6.0/rpm/mdk","vlc-plugin-flac-0.6.0-5mdk.i586.rpm","(FLAC audio decoder)");
-    pkgitem("vlc/0.6.0/rpm/mdk","vlc-plugin-dv-0.6.0-5mdk.i586.rpm","(Raw DV decoder)");
-?></ul>
-<p> Interface plugins: </p>
-<ul><?
-    pkgitem("vlc/0.6.0/rpm/mdk","wxvlc-0.6.0-5mdk.i586.rpm","(wxWindows interface)");
-    pkgitem("vlc/0.6.0/rpm/mdk","gnome-vlc-0.6.0-5mdk.i586.rpm","(Gnome interface)");
-    pkgitem("vlc/0.6.0/rpm/mdk","gvlc-0.6.0-5mdk.i586.rpm","(GTK+ interface)");
-    pkgitem("vlc/0.6.0/rpm/mdk","kvlc-0.6.0-5mdk.i586.rpm","(KDE interface)");
-    pkgitem("vlc/0.6.0/rpm/mdk","vlc-plugin-ncurses-0.6.0-5mdk.i586.rpm","(Ncurses interface)");
-?></ul>
-<p>Required libraries:</p>
-<ul><?
-    pkgitem("libdvdcss/1.2.5/rpm","libdvdcss2-1.2.5-1.i586.rpm","(DVD decryption library)");
-    pkgitem("libdvdplay/1.0.1/rpm/mdk","libdvdplay0-1.0.1-2mdk.i586.rpm","(DVD menus navigation library)");
-    pkgitem("libdvbpsi/0.1.2/rpm/mdk","libdvbpsi1-0.1.2-3mdk.i586.rpm","(MPEG TS and DVB PSI tables library)");
-    pkgitem("vlc/0.6.0/rpm/mdk","libtar-1.2.11-1mdk.i586.rpm","(for skin support)");
-    pkgitem("vlc/0.6.0/rpm/mdk","libdvdread3-0.9.4-2mdk.i586.rpm","(DVD reading library)");
-?></ul>
-<p> Additional video plugins: </p>
-<ul><?
-    pkgitem("vlc/0.6.0/rpm/mdk","vlc-plugin-aa-0.6.0-5mdk.i586.rpm","(Video to Text video output)");
-    pkgitem("vlc/0.6.0/rpm/mdk","vlc-plugin-sdl-0.6.0-5mdk.i586.rpm","(SDL audio and video outputs)");
-    pkgitem("vlc/0.6.0/rpm/mdk","vlc-plugin-ggi-0.6.0-5mdk.i586.rpm","(GGI video output)");
-?></ul>
-<p> Additional audio plugins: </p>
-<ul><?
-    pkgitem("vlc/0.6.0/rpm/mdk","vlc-plugin-alsa-0.6.0-5mdk.i586.rpm","(ALSA audio output)");
-    pkgitem("vlc/0.6.0/rpm/mdk","vlc-plugin-arts-0.6.0-5mdk.i586.rpm","(Arts audio output)");
-    pkgitem("vlc/0.6.0/rpm/mdk","vlc-plugin-esd-0.6.0-5mdk.i586.rpm","(ESD audio output)");
-?></ul>
-<p> Misc plugins: </p>
-<ul><?
-    pkgitem("vlc/0.6.0/rpm/mdk","vlc-plugin-dvb-0.6.0-5mdk.i586.rpm","(DVB support)");
-    pkgitem("vlc/0.6.0/rpm/mdk","vlc-plugin-slp-0.6.0-5mdk.i586.rpm","(SLP support)");
-    pkgitem("vlc/0.6.0/rpm/mdk","vlc-plugin-lirc-0.6.0-5mdk.i586.rpm","(Remote control support)");
-    pkgitem("vlc/0.6.0/rpm/mdk","vlc-plugin-xosd-0.6.0-5mdk.i586.rpm","(X on-screen display support)");
-?></ul>
+<p>VLC packages are part of the <i>contrib</i> section; so you can
+install the packages directly with <i>urpmi</i>:</p>
 
-<p>For the development packages, browse the directory <a
-href="/pub/vlc/0.6.0/rpm/mdk/">/pub/vlc/0.6.0/rpm/mdk/</a> of our
-FTP site.</p>
+<pre>
+   # urpmi libdvdcss2 libdvdplay0 wxvlc vlc-plugin-a52 vlc-plugin-ogg vlc-plugin-mad
+</pre>
 
 <h2>Older versions</h2>
 
 <p> Older versions can be found by <a href="/pub/vlc/">browsing</a> our
 FTP site. </p>
 
-<? footer('$Id: download-mandrake.html,v 1.16 2003/08/11 13:17:10 alexis Exp $'); ?>
+<? footer('$Id: download-mandrake.html,v 1.17 2003/08/17 20:36:03 alexis Exp $'); ?>

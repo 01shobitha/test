@@ -154,7 +154,7 @@ la page de la distribution testing</ulink>
 <span xml:lang="en">
 There are VLC packages for Mandrake 9.1 and cooker.
 </span><span xml:lang="fr">
-Il existe des paquetages pour Mandrake 0.1 et "cooker"</span></para>
+Il existe des paquetages pour Mandrake 9.1 et "cooker"</span></para>
 
 <span xml:lang="en">
 <para>
@@ -173,14 +173,14 @@ source:</para>
 Pour les installer, configurez les sources de paquetage, à l'aide d'
 <ulink url="http://plf.zarb.org/~nanardon/">Easy urpmi</ulink>. (vous
 avez au moins besoin des sources main, contrib et plf)</para>
-<para>Si vous utilisez "cooker", vous n'avez rien besoin de configurer, 
+<para>Si vous utilisez "cooker", vous n'avez rien besoin de configurer,
 car les paquetages de VLC font partie de la section contrib</para>
 <para>Si vous utilisez Mandrake 9.1, ajoutez la source de paquetages
 VideoLAN:</para>
 </span>
 
 <screen>
-<prompt># </prompt><userinput>urpmi.addmedia vlc http://www.videolan.org/pub/videolan/vlc/0.6.0/rpm/mdk/ with hdlist.cz</userinput>
+<prompt># </prompt><userinput>urpmi.addmedia vlc http://www.videolan.org/pub/videolan/vlc/0.6.2/rpm/mandrake-9.1/ with hdlist.cz</userinput>
 </screen>
 
 <para><span xml:lang="en">

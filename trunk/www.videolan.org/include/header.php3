@@ -39,6 +39,7 @@ function starthtml($title) { ?>
    $color_support = "#aaf";
 
    switch($modules[1]) {
+      case "404.html": case "403.html": break;
       case "vlc": $color_vlc = "inherit"; break;
       case "streaming": $color_streaming = "inherit"; break;
       case "doc": $color_doc = "inherit"; break;

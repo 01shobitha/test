@@ -26,7 +26,6 @@
 <ul>
 <?php pkgitem("0.8.1/macosx","vlc-0.8.1.dmg","vlc"); ?>
 </ul>
-<br />
 <p>(Last version for Mac OS X 10.1)</p>
 <ul>  
 <?php pkgitem("0.7.0/macosx","vlc-0.7.0.dmg","vlc"); ?>

@@ -5,11 +5,12 @@
     */
 
 function h2($title) {
+global $HTTP_GET_VARS;
 ?>
 <table class="h2" cellspacing="0" cellpadding="0">
 <tr class="h2">
 <td class="h2">
-<h2>
+<? if($HTTP_GET_VARS['poukram']) { ?><h2 class="h2poukram"><? } else { ?><h2><? } ?>
 <? echo $title; ?>
 </h2>
 </td>

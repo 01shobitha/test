@@ -77,7 +77,8 @@
     if( $valid ) {
 
         $header = "From: ecartis@via.ecp.fr\n";
-        $message .= "-- \nSent via http://www.videolan.org/lists.html\n";
+        $message .= "-- \n";
+        $message .= "Sent via http://www.videolan.org/support/lists.html\n";
 
         mail("listar@videolan.org", "(no subject)", $message, $header);
 

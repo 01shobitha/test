@@ -486,8 +486,11 @@ the subtitles against the video if they are not in sync. If they are
 not at the same speed, you might also want to adjust the subtitles
 framerate.</para>
 
-<para>Encoding, alignment and size won't have any effect for vobsub
+<note><para>For Vobsub subtitles, you need to select the
+<code>.idx</code> file, not the <code>.sub</code> file</para>
+<para>Encoding, alignment and size won't have any effect for Vobsub
 subtitles.</para>
+</note>
 
 <para>Font can be changed as explained in the previous section.</para>
 
@@ -497,7 +500,8 @@ subtitles.</para>
 
 <sect1><title>Video and audio filters</title>
 
-<para>VLC includes a system of <emphasis>filters</emphasis> that allow you to modify th e audio and video.</para>
+<para>VLC includes a system of <emphasis>filters</emphasis> that allow
+you to modify the audio and video.</para>
 
 <sect2><title>Video filters</title>
 
@@ -573,7 +577,7 @@ names of the filters to enable, separated by commas. Valid names are
 "equalizer", "normvol" and "headphone".</para>
 
 <para>If you want to tune the behavior of these filters, go to
-<emphasis>Modulesaudio_filter</emphasis>. The equalizer and headphone
+<emphasis>Modules/audio_filter</emphasis>. The equalizer and headphone
 filters can be tuned.</para>
 
 </sect3>

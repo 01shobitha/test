@@ -33,22 +33,53 @@ window to the place where you want to install it (it should be
 
 </sect2>
 
-<sect2><title>Under Linux Debian</title>
+<sect2><title>Under Debian GNU/Linux</title>
 
-<para>Edit as root <filename>/etc/apt/sources.list</filename> and add
-the following lines :</para>
+<simplesect><title>Debian stable (woody)</title>
+
+<para>Add the following lines to your
+<filename>/etc/apt/sources.list</filename>:</para>
 
 <programlisting>
 deb http://www.videolan.org/pub/videolan/debian $(ARCH)/
 deb-src http://www.videolan.org/pub/videolan/debian sources/
 </programlisting>
 
-<para>Then install the packages :</para>
+<para>Then, for a normal install, do:</para>
 
 <screen>
 <prompt># </prompt><userinput>apt-get update</userinput>
 <prompt># </prompt><userinput>apt-get install gnome-vlc libdvdcss2</userinput>
 </screen>
+
+</simplesect>
+
+<simplesect><title>Debian unstable (sid)</title>
+
+<para>Add the following lines to your
+<filename>/etc/apt/sources.list</filename>:</para>
+
+<programlisting>
+deb http://www.videolan.org/pub/videolan/debian $(ARCH)/
+deb-src http://www.videolan.org/pub/videolan/debian sources/
+</programlisting>
+
+<para>Then, for a normal install, do:</para>
+
+<screen>
+<prompt># </prompt><userinput>apt-get update</userinput>
+<prompt># </prompt><userinput>apt-get install wxvlc libdvdcss2</userinput>
+</screen>
+
+</simplesect>
+
+<simplesect><title>Debian testing (sarge)</title>
+
+<para>You should not be using Debian testing unless you perfectly know
+what you are doing. It is almost impossible to support Debian testing
+and there are no plans to do it.</para>
+
+</simplesect>
 
 </sect2>
 
@@ -104,7 +135,7 @@ which there is no packages available. It explains how to compile and
 install VLC and the needed libraries from their source code.</para>
 
 <para>You can also compile the VLC under Linux this way if you want to
-modify the default supported modules</para>
+modify the default supported modules.</para>
 
 <sect3><title>Install the libraries</title>
 

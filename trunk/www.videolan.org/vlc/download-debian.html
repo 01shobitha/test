@@ -8,9 +8,9 @@
 
 <? function pkgitem($version,$name,$comment) { ?><li><a href="/pub/videolan/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a> <? echo $comment; ?> </li><? } ?>
 
-<h1> VLC for Debian GNU/Linux stable (woody) </h1>
+<h1> VLC for Debian GNU/Linux</h1>
 
-<h2>Install VLC with apt-get</h2>
+<h2> Debian stable (woody) </h2>
 
 <p> Add the following lines to your <b>/etc/apt/sources.list</b>:</p>
 
@@ -26,7 +26,7 @@
    # apt-get install gnome-vlc libdvdcss2
 </pre>
 
-<h1> VLC for Debian GNU/Linux unstable (sid) </h1>
+<h2> Debian unstable (sid) </h2>
 
 <p> VLC's latest packaged version is always in the official Debian unstable
 branch. However you should still use our apt-get line if you need libdvdcss in
@@ -37,7 +37,15 @@ its latest version: </p>
    deb-src ftp://ftp.videolan.org/pub/videolan/debian sources/
 </pre>
 
-<h1> VLC for Debian GNU/Linux testing (sarge) </h1>
+<p> For a normal install, do:</p>
+
+<pre>
+   # apt-get update
+   # apt-get install wxvlc libdvdcss2
+</pre>
+
+
+<h2> Debian testing (sarge) </h2>
 
 <p> You should not be using Debian testing unless you perfectly know what you
 are doing. It is almost impossible to support Debian testing and there are no
@@ -48,4 +56,4 @@ plans to do it. </p>
 <p> Older versions can be found by <a href="/pub/vlc/">browsing</a> our
 FTP site. </p>
 
-<? footer('$Id: download-debian.html,v 1.17 2003/07/05 13:29:37 sam Exp $'); ?>
+<? footer('$Id: download-debian.html,v 1.18 2003/07/05 14:29:03 alexis Exp $'); ?>

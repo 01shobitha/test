@@ -1,11 +1,170 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>
 
 <chapter id="vlm"><title id="tvlm">
-Multiple streaming and Video on demand
+VLM - Multiple streaming and Video on demand
 </title>
 
-<sect1><title>Multiple streaming</title></sect1>
+<!--
+info concerning vlm : /trunk/doc/vlm.txt
 
-<sect1><title>Video On Demand</title></sect1>
+TODO:
+ * finish command overview
+ * put some general examples
+-->
+
+<sect1><title>VLM</title></sect1>
+
+<para><emphasis>VideoLAN Manager</emphasis> is a small media manager
+designed to control multiple streams with <emphasis>only one instance of
+VLC</emphasis>. It allows multiple streaming and video on demand (VoD).
+This manager being a new feature, it can only be controled by the telnet
+interface or the http interface.</para>
+
+<sect2><title>Interfaces</title></sect2>
+
+<sect3><title>Telnet interface</title></sect3>
+
+<para>You can launch the telnet interface as a common interface using
+the command line :</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc --intf telnet</userinput>
+</screen>
+
+<screen>
+<prompt>% </prompt><userinput>vlc --extraintf telnet</userinput>
+</screen>
+
+<para>The telnet interface can also be launched in the wxWindows
+interface :</para>
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/streaming-howto/intf-wx-extraintf-telnet.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>Launching the Telnet interface - wxWindows interface</para></textobject>
+  <caption><para>Launching the Telnet interface - wxWindows interface</para></caption>
+</mediaobject>
+
+<para>The default port is 4212. The default password is
+"admin". These can be changed using <command>--telnet-port
+&lt;integer></command> and <command>--telnet-password
+&lt;string></command> command line options. They can also be changed
+in the preferences panel when using the wxWindows interface in the
+<emphasis>Modules</emphasis>-><emphasis>interface</emphasis>-><emphasis>
+telnet</emphasis> section (check the <emphasis>Advanced
+options</emphasis> checkbox).</para>
+
+<sect3><title>HTTP interface</title></sect3>
+
+<para>Launching the HTTP interface is described in the <ulink
+url="http://www.videolan.org/doc/">Play-with-VLC Howto.</ulink></para>
+
+<para>To access the vlm section of the http interface, use the following
+URL: <emphasis> http://host:port/vlm/</emphasis>.</para>
+
+<sect2><title>VLM Elements</title></sect2>
+
+<sect3><title>Medias</title></sect3>
+
+<para>A <emphasis>Media</emphasis> is composed with a list of inputs (the video and audio
+streams you want to stream), an output (how and where you want to stream
+them) and some options.</para>
+
+<para>There are two types of medias:</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>vod</emphasis>: A vod media is commonly used
+for Video on Demand. It will be launched only if a vod client asks for
+it.</para></listitem>
+
+<listitem><para><emphasis>broadcast</emphasis>: A broadcast media is
+very close to a TV program or channel. It is launched, stopped or paused
+by the administrator and may be repeated several times. The client has
+no coutrol over this media.</para></listitem>
+
+</itemizedlist>
+
+<sect3><title>Schedules</title></sect3>
+
+<para>A <emphasis>Schedule</emphasis> is a script with a date. When the schedule date is reached, the script is launched. There are several options available like a period or a number of repetitions.</para>
+
+<sect2><title>Command line syntax</title></sect2>
+
+<sect3><title>Command lines</title></sect3>
+
+<itemizedlist>
+
+<listitem><para><command>new (name) vod|broadcast|schedule [properties]</command> : </para></listitem>
+
+<listitem><para><command>setup (name) (properties)</command> : </para></listitem>
+
+<listitem><para><command>show [(name)|media|schedule]</command> : </para></listitem>
+
+<listitem><para><command>del (name)|all|media|schedule</command> : </para></listitem>
+
+<listitem><para><command>control (name) [instance_name] (command)</command> : </para></listitem>
+
+<listitem><para><command>save (config_file)</command> : </para></listitem>
+
+<listitem><para><command>load (config_file)</command> : </para></listitem>
+
+</itemizedlist>
+
+
+<sect3><title>Media Properties</title></sect3>
+
+<itemizedlist>
+
+<listitem><para><command>input (input_name)</command> : </para></listitem>
+
+<listitem><para><command>output (output_name)</command> : </para></listitem>
+
+<listitem><para><command>enabled|disabled</command> : </para></listitem>
+
+<listitem><para><command>loop|unloop (broadcast only)</command> : </para></listitem>
+
+<listitem><para><command>mux (mux_name)</command> : </para></listitem>
+
+</itemizedlist>
+
+
+<sect3><title>Schedule Properties</title></sect3>
+
+<itemizedlist>
+
+<listitem><para><command>enabled|disabled</command> : </para></listitem>
+
+<listitem><para><command>append (command_until_rest_of_the_line)</command> : </para></listitem>
+
+<listitem><para><command>date (year)/(month)/(day)-(hour):(minutes):(seconds)|now</command> : </para></listitem>
+
+<listitem><para><command>period (years_aka_12_months)/(months_aka_30_days)/(days)-(hours):(minutes):(seconds)</command> : </para></listitem>
+
+<listitem><para><command>repeat (number_of_repetitions)</command> : </para></listitem>
+
+</itemizedlist>
+
+
+<sect3><title>Control Commands</title></sect3>
+
+<itemizedlist>
+
+<listitem><para><command>play</command> : </para></listitem>
+<listitem><para><command>pause</command> : </para></listitem>
+<listitem><para><command>stop</command> : </para></listitem>
+<listitem><para><command>seek (percentage)</command> : </para></listitem>
+
+</itemizedlist>
+
+
+<sect2><title>Configuration Files </title></sect2>
+
+<sect1><title>Examples</title></sect1>
+
+<sect2><title>Multiple streaming</title></sect2>
+
+<sect2><title>Video On Demand</title></sect2>
 
 </chapter>

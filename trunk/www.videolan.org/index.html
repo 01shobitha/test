@@ -62,9 +62,12 @@ page</a> for more information.</p>
 <td style="width: 25%; white-space: nowrap; vertical-align: top;">
 
   <div style="left-margin: 10px; right-margin: 10px;">
-    <?startbox("News headlines","gray"); ?>
-      <? shownews("title",5); ?>
-    <?stopbox();?>
+    <table style="width: 100%;" cellspacing="0" cellpadding="0" border="0">
+      <tr><td class="firstbarselected">Latest news</td></tr>
+      <tr><td>
+        <? shownews("title",5); ?>
+      </td></tr>
+    </table>
   </div>
 
   <br />
@@ -106,4 +109,4 @@ page</a> for more information.</p>
   </tr>
 </table>
 
-<? footer('$Id: index.html,v 1.57 2003/01/22 17:15:04 sam Exp $'); ?>
+<? footer('$Id: index.html,v 1.58 2003/01/23 09:27:33 sam Exp $'); ?>

@@ -1,11 +1,5 @@
 <?
 
-function startbox($title,$color) { ?>
-<table style="width: 100%;" cellspacing="0" cellpadding="0" border="0"><tr>
-  <td class="<? echo $color; ?>"><? echo $title; ?></td></tr><tr><td><? }
-
-function stopbox() { ?></td></tr></table><? }
-
    /*
     *  starthtml: beginning of the page
     */

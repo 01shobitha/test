@@ -130,7 +130,7 @@ with the VideoLAN Howto.
 Paris 2003, VLC won the trophy for developers support ! For more
 details about the MacGeneration 2003 Trophies, please see <a
 href="http://www.macgeneration.com/mgnews/depeche.php?aIdDepeche=103478"
->this news</a> (French, see <a href="http://babelfish.altavista.com/babelfish/urlload?url=http%3A%2F%2Fwww.macgeneration.com%2Fmgnews%2Fdepeche.php%3FaIdDepeche%3D103478&lp=fr_en&tt=url">BabelFish</a> for an English translation).
+>this news</a> (French, see <a href="http://babelfish.altavista.com/babelfish/urlload?url=http%3A%2F%2Fwww.macgeneration.com%2Fmgnews%2Fdepeche.php%3FaIdDepeche%3D103478&amp;lp=fr_en&amp;tt=url">BabelFish</a> for an English translation).
 
 |14 Aug 2003| Release: VLC 0.6.2| This new release of VLC follows
 the previous one very closely because it mainly fixes a regression in
@@ -159,7 +159,7 @@ download page</a> and click on your OS logo! WARNING: the first version
 of the Mac OS X package was broken... so if you have problems under Mac
 OS X, download the package again!
 
-|29 July 2003| Release: libdvdcss 1.2.8 & libdvbpsi 0.1.3| Libdvdcss
+|29 July 2003| Release: libdvdcss 1.2.8 &amp; libdvbpsi 0.1.3| Libdvdcss
 1.2.8 is a bug-fix release with a fix for encrypted DVDs on Windows
 and a workaround for strange discs that report read errors seemingly
 at random. Libdvbpsi 0.1.3 features new DVB descriptors decoders and

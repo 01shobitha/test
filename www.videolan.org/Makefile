@@ -46,8 +46,8 @@ clean: clean-recursive
 	@echo "Preprocessing $@ ..."
 	@rm -f $@.tmp
 	@if ! DOCUMENT_ROOT=$(ROOT) $(PHPCGI) $< > $@.tmp; then \
-	cat $@.tmp | tail -1 ; \
-	exit 1 ; \
+		cat $@.tmp | tail -1 ; \
+		exit 1 ; \
 	fi
 	@$(STRIP_HEADERS) < $@.tmp > $@
 	@rm -f $@.tmp

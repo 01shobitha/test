@@ -38,14 +38,6 @@
 (define %footer-margin%
   2pi)
 
-; I want small icons for "notes", "warnings", "caution" & "important"
-;(define %admon-graphics%
-;  #t)
-
-; Path for the icons
-;(define %admon-graphics-path%
-;  "/usr/share/sgml/docbook/stylesheet/dsssl/modular/images/")
-
 </style-specification-body>
 </style-specification>
 <external-specification id="docbook" document="dbstyle">

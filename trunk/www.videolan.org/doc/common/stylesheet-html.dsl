@@ -44,9 +44,10 @@
 ; I want small icons for "notes", "warnings", "caution" & "important"
 (define %admon-graphics%
   #t)
+
 ; Path for the icons
 (define %admon-graphics-path%
-  "../common/")
+  "images/")
 
 ; Use ID attributes as name for component HTML files
 (define %use-id-as-filename%

@@ -18,6 +18,7 @@ clean:
 # Specific rules for each extension
 $(LANG:%=$(DOC)-%.xml): $(DOC).xml
 	xsltproc --stringparam lang $(shell echo $(basename $@) | sed -e 's/.*-//') ../common/multilanguage.xsl $^ | sed -e 's/id="$(DOC)"/id="$(basename $@)"/' > $@
+	cp -R ../../images/documentation images
 
 $(LANG:%=$(DOC)-%.html): %.html: %.xml
 	jade -t sgml -d ../common/stylesheet-html.dsl $(XML_DECL) $^

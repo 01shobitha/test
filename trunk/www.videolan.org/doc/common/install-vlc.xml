@@ -85,7 +85,7 @@ and there are no plans to do it.</para>
 
 <sect2><title>Under Linux Mandrake</title>
 
-<para>>There are VLC packages for Mandrake 9.1 and cooker.</para>
+<para>There are VLC packages for Mandrake 9.1 and cooker.</para>
 
 <para>To install them, configure the package sources with <ulink
 url="http://plf.zarb.org/~nanardon/">Easy urpmi</ulink> (you need at

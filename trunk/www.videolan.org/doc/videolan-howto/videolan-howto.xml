@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso8859-1" ?>
-<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.1//EN" "/usr/share/sgml/docbook/dtd/xml/4.1/docbookx.dtd"
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.1//EN" "/usr/share/sgml/docbook/dtd/xml/4.1/docbookx.dtd">
 
 [
   <!ENTITY intro SYSTEM "../common/intro.xml">
@@ -91,6 +91,7 @@ VideoLAN streaming solution.</span>
 streaming VideoLAN. </span>
 <span xml:lang="es"> Este documento describe la utilización de la solución
 de streaming VideoLan. </span>
+<span xml:lang="de"> Dieses Dokument beschreibt die Benutzung der kompletten VideoLAN-Streaming-Lösung.</span>
 </para>
 
 </abstract>

@@ -4,6 +4,7 @@
 <span xml:lang="en">Stream a DVD</span>
 <span xml:lang="fr">Diffusez un DVD</span>
 <span xml:lang="es">Transmisión de un DVD</span>
+<span xml:lang="de">Eine DVD streamen</span>
 </title>
 
 <note><para>
@@ -21,22 +22,31 @@ ou <emphasis>cdrom</emphasis> (regardez les permissions dans
 <filename>/dev</filename>). Si vous n'y êtes pas, ajoutez-vous y</span>
 <span xml:lang="es">Bajo Unix/Linux, debes tener permiso de escritura en el dispositivo que corresponda a tu DVD. 
 Para eso, deberías estar en el grupo del disco o cdrom (mira
-los permisos en <filename>/dev</filename>). Si no lo estás, añádete al grupo </span> 
+los permisos en <filename>/dev</filename>). Si no lo estás, añádete al grupo </span>
+<span xml:lang="de">
+Unter Unix/Linux müssen Sie schreibzugriff auf das Device haben, das Ihrem
+DVD-Laufwerk entspricht. Dazu sollte Sie in der <emphasis>disk</emphasis>
+or <emphasis>cdrom</emphasis> Gruppe sein (schauen auf die Rechte in
+<filename>/dev</filename>). Wenn Sie dies nicht sind, fügen Sie sichselbst
+der Gruppe hinzu</span>
 :</para>
 
 <screen>
-<prompt># </prompt><userinput>adduser <span xml:lang="en">your_login disk_or_cdrom</span><span xml:lang="fr">votre_ogin disk_ou_cdrom</span><span xml:lang="es">tu_login disco_o_cdrom</span></userinput>
+<prompt># </prompt><userinput>adduser <span xml:lang="en">your_login disk_or_cdrom</span><span xml:lang="fr">votre_ogin disk_ou_cdrom</span><span xml:lang="es">tu_login disco_o_cdrom</span><span xml:lang="de">Ihre_login disk_oder_cdrom</span></userinput>
 </screen>
 
 <para>
 <span xml:lang="en">and then restart your session</span>
-<span xml:lang="fr">et relancez votre session</span>.</para></note>
+<span xml:lang="fr">et relancez votre session</span>
 <span xml:lang="es">y entonces reinicia tu sesión</span>
+<span xml:lang="de">und starten Sie dann Ihre Session neu</span>
+.</para></note>
 
 <sect1><title>
 <span xml:lang="en">Stream a DVD with VLC</span>
 <span xml:lang="fr">Diffusez un DVD avec VLC</span>
 <span xml:lang="es">Transmitir un DVD con VLC</span>
+<span xml:lang="de">Eine DVD mit VLC streamen</span>
 </title>
 
 <screen>
@@ -47,6 +57,7 @@ los permisos en <filename>/dev</filename>). Si no lo estás, añádete al grupo </s
 <span xml:lang="en">where </span>
 <span xml:lang="fr">où </span>
 <span xml:lang="es">donde </span>
+<span xml:lang="de">wobei </span>
 :</para>
 
 <itemizedlist>
@@ -62,12 +73,17 @@ lecteur) ou le dossier où vous avez copié votre DVD</span>
 <span xml:lang="es">es el nombre de tu dispositivo DVD (pon
 <filename>D:</filename> bajo Windows si <filename>D</filename> es
 la letra de tu dispositivo DVD) o el directorio donde copiaste tu DVD</span>
+<span xml:lang="de">ist der Name Ihres DVD-Laufwerkes (nehmen Sie
+<filename>D:</filename> unter Windows, wenn <filename>D</filename> der
+Buchstabe Ihres DVD-Laufwerkes ist) oder das Verzeichnis, in das Sie Ihre DVD
+kopiert haben</span>
 ,</para></listitem>
 
 <listitem><para><emphasis>192.168.0.42</emphasis>
 <span xml:lang="en"> is either </span>
 <span xml:lang="fr"> est soit </span>
 <span xml:lang="es"> es o bien </span>
+<span xml:lang="de"> ist entweder </span>
 :</para>
 
 <itemizedlist>
@@ -78,6 +94,8 @@ to</span>
 <span xml:lang="fr">l'adresse IP de la machine vers laquelle vous
 désirez diffuser en unicast</span>
 <span xml:lang="es">la dirección IP de la máquina a la que quieres hacer unicast</span>
+<span xml:lang="de">die IP-Adresse des Rechners, den Sie via Unicast erreichen
+möchten</span>
 ;</para></listitem>
 
 <listitem><para>
@@ -86,12 +104,15 @@ to</span>
 <span xml:lang="fr">le nom DNS de la machine vers laquelle vous désirez
 envoyer en unicast</span>
 <span xml:lang="es">o el nombre DNS de la máquina a la que quieres hacer unicast</span>
+<span xml:lang="de">oder der DNS-Name des Rechners, den Sie via Unicast
+erreichen möchten</span>
 ;</para></listitem>
 
 <listitem><para>
 <span xml:lang="en">or a multicast IP address</span>
 <span xml:lang="fr">une adresse IP multicast</span>
 <span xml:lang="es">o una dirección IP multicast</span>
+<span xml:lang="de">oder eine Multicast-IP-Adresse</span>
 .</para></listitem>
 
 </itemizedlist>
@@ -106,6 +127,8 @@ able to cross 11 routers)</span>
 IP (cela signifie qu'ils pourront traverser 11 routeurs)</span>
 <span xml:lang="es"> es el valor del TTL (Time To
 Live) de tus paquetes IP (lo que significa que el flujo será capaz de pasar a través de 11 routers)</span>
+<span xml:lang="de"> ist der Wert der TTL (Time To Live) Ihrer IP-Pakete (was
+bedeutet, dass der Stream in der Lage sein wird, 11 Router zu überqueren)</span>
 .</para></listitem>
 </itemizedlist>
 
@@ -117,6 +140,8 @@ Live) de tus paquetes IP (lo que significa que el flujo será capaz de pasar a tr
 l'option <emphasis>--loop</emphasis></span>
 <span xml:lang="es">Si quieres transmitir un DVD de forma ininterrumpida, añade la opción
 <emphasis>--loop</emphasis></span>
+<span xml:lang="de">Wenn Sie die DVD fortlaufend streamen möchten, fügen
+Sie die Option <emphasis>--loop</emphasis hinzu</span>
 .</para>
 
 
@@ -124,13 +149,16 @@ l'option <emphasis>--loop</emphasis></span>
 
 <sect1><title>
 <span xml:lang="en">Stream a DVD with VLS</span>
-<span xml:lang="fr">Diffusez un DVD avec VLS</span></title>
+<span xml:lang="fr">Diffusez un DVD avec VLS</span>
 <span xml:lang="es">Transmitir un DVD con VLS</span>
+<span xml:lang="de">Eine DVD mit VLS streamen</span>
+</title>
 
 <note><para>
 <span xml:lang="en">This is possible under GNU/Linux only</span>
 <span xml:lang="fr">Ceci n'est possible que sous GNU/Linux</span>
 <span xml:lang="es">Esto sólo es posible bajo GNU/Linux</span>
+<span xml:lang="de">Dies ist nur unter GNU/Linux möglich</span>
 .</para></note>
 
 <screen>
@@ -138,27 +166,33 @@ l'option <emphasis>--loop</emphasis></span>
 </screen>
 
 <para><span xml:lang="en">where</span>
-<span xml:lang="fr">où</span><span xml:lang="es">donde</span> :</para>
+<span xml:lang="fr">où</span>
+<span xml:lang="es">donde</span>
+<span xml:lang="de">wobei</span>
+:</para>
 
 
 <itemizedlist>
 
 <listitem><para><filename>/dev/dvd</filename>
 <span xml:lang="en">is the name of your DVD drive
- or the directory where you copied your
-DVD</span>
+ or the directory where you copied your DVD</span>
 
 <span xml:lang="fr">est le nom de votre lecteur de DVD
  ou le dossier où vous avez copié votre DVD</span>
 
 <span xml:lang="es">es el nombre de tu dispositivo DVD
  o el directorio donde copiaste tu DVD</span>
+ 
+<span xml:lang="de">der Name Ihres DVD-Laufwerkes oder des Verzeichnisses
+ist, in das Sie Ihre DVD kopiert haben</span>
 ,</para></listitem>
 
 <listitem><para><emphasis>192.168.0.42</emphasis>
 <span xml:lang="en"> is either </span>
 <span xml:lang="fr"> est soit </span>
 <span xml:lang="fr"> es o bien </span>
+<span xml:lang="de"> ist entweder </span>
 :</para>
 
 <itemizedlist>
@@ -168,6 +202,7 @@ to</span>
 <span xml:lang="fr">l'adresse IP de la machine vers laquelle vous
 désirez diffuser en unicast</span>
 <span xml:lang="es">la dirección IP de la máquina a la que quieres hacer unicast</span>
+<span xml:lang="de">die IP-Adresse des Rechners, den Sie via Unicast erreichen möchten</span>
 ;</para></listitem>
 
 <listitem><para>
@@ -176,12 +211,15 @@ to</span>
 <span xml:lang="fr">le nom DNS de la machine vers laquelle vous désirez
 envoyer en unicast</span>
 <span xml:lang="es">o el nombre DNS de la máquina a la que quieres hacer unicast</span>
+<span xml:lang="de">oder der DNS-Name des Rechners, den Sie via Unicast
+erreichen möchten</span>
 ;</para></listitem>
 
 <listitem><para>
 <span xml:lang="en">or a multicast IP address</span>
 <span xml:lang="fr">une adresse IP multicast</span>
 <span xml:lang="es">o una dirección IP multicast</span>
+<span xml:lang="de">oder eine Multicast-IP-Adresse</span>
 .</para></listitem>
 
 
@@ -197,6 +235,8 @@ able to cross 11 routers)</span>
 IP (cela signifie qu'ils pourront traverser 11 routeurs)</span>
 <span xml:lang="es"> es el valor del TTL (Time To
 Live) de tus paquetes (lo que significa que que el flujo será capaz de pasar a través de 11 routers)</span>
+<span xml:lang="de"> ist der Wert der TTL (Time To Live) Ihrer IP-Pakete (was
+bedeutet, dass der Stream in der Lage sein wird, 11 Router zu überqueren)</span>
 .</para></listitem>
 
 </itemizedlist>
@@ -208,6 +248,8 @@ Live) de tus paquetes (lo que significa que que el flujo será capaz de pasar a t
 l'option <emphasis>--loop</emphasis></span>
 <span xml:lang="es">Si quieres transmitir un DVD de forma ininterrumpida, añade la opción
 <emphasis>--loop</emphasis></span>
+<span xml:lang="de">Wenn Sie die DVD fortlaufend streamen möchten, fügen Sie
+die Option <emphasis>--loop</emphasis> hinzu</span>
 .</para>
 
 </sect1>

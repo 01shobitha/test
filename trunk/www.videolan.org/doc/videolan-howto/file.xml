@@ -4,12 +4,14 @@
 <span xml:lang="en">Stream a file</span>
 <span xml:lang="fr">Diffusez un fichier</span>
 <span xml:lang="es">Transmitir un fichero</span>
+<span xml:lang="de">Eine Datei streamen</span>
 </title>
 
 <sect1><title>
 <span xml:lang="en">Stream a file with VLC</span>
 <span xml:lang="fr">Diffusez un fichier avec VLC</span>
 <span xml:lang="es">Transmitir un fichero con VLC</span>
+<span xml:lang="de">Eine Datei mit VLC streamen</span>
 </title>
 
 <screen>
@@ -20,6 +22,7 @@
 <span xml:lang="en">where </span>
 <span xml:lang="fr">où </span>
 <span xml:lang="es">donde </span>
+<span xml:lang="de">wobei </span>
 :</para>
 
 <itemizedlist>
@@ -28,12 +31,14 @@
 <span xml:lang="en"> is the file you want to stream</span>
 <span xml:lang="fr"> est le fichier que vous désirez diffuser</span>
 <span xml:lang="es"> es el fichero que se quiere transmitir</span>
+<span xml:lang="de"> die Datei ist, die Sie streamen möchten</span>
 ,</para></listitem>
 
 <listitem><para><emphasis>192.168.0.42</emphasis>
 <span xml:lang="en"> is either </span>
 <span xml:lang="fr"> est soit </span>
 <span xml:lang="es"> es </span>
+<span xml:lang="de"> ist entweder </span>
 :</para>
 
 <itemizedlist>
@@ -45,6 +50,8 @@ to</span>
 désirez diffuser en unicast</span>
 <span xml:lang="es">la dirección IP de la máquina a la que quieres
 transmitir en unicast</span>
+<span xml:lang="de">die IP-Adresse des Rechners ist, den Sie via Unicast
+erreichen möchten</span>
 ;</para></listitem>
 
 <listitem><para>
@@ -54,12 +61,15 @@ to</span>
 envoyer en unicast</span>
 <span xml:lang="es">o el nombre DNS de la máquina a la que quieres enviar
 en unicast</span>
+<span xml:lang="de">oder der DNS-Name des Rechners ist, den Sie via Unicast
+erreichen möchten</span>
 ;</para></listitem>
 
 <listitem><para>
 <span xml:lang="en">or a multicast IP address</span>
 <span xml:lang="fr">une adresse IP multicast</span>
 <span xml:lang="es">o una dirección IP multicast</span>
+<span xml:lang="de">oder eine Multicast-IP-Adresse</span>
 .</para></listitem>
 
 </itemizedlist>
@@ -74,6 +84,9 @@ able to cross 11 routers)</span>
 IP (cela signifie qu'ils pourront traverser 11 routeurs)</span>
 <span xml:lang="es"> es el valor de TTL (Time To Live) de los
 paquetes IP (lo que significa que el flujo atravesará 11 routers)</span>
+<span xml:lang="de"> ist der Wert der TTL (Time To Live) Ihrer
+Paket (was bedeutet, dass der Stream in der Lage sein wird, 11 Router zu
+überqueren)</span>
 .</para></listitem>
 </itemizedlist>
 
@@ -84,6 +97,8 @@ paquetes IP (lo que significa que el flujo atravesará 11 routers)</span>
 l'option <emphasis>--loop</emphasis></span>
 <span xml:lang="es">Si quieres transmitir el fichero de manera continua,
  añade la opción <emphasis>--loop</emphasis></span>
+<span xml:lang="de">Wenn Sie die Datei fortlaufend streamen möchten,
+fügen Sie die <emphasis>--loop</emphasis>-Option hinzu</span>
 .</para>
 
 </sect1>
@@ -91,6 +106,7 @@ l'option <emphasis>--loop</emphasis></span>
 <sect1><title>
 <span xml:lang="en">Stream a file with VLS</span>
 <span xml:lang="es">Transmitir un fichero con VLS</span>
+<span xml:lang="de">Eine Datei mit VLS streamen</span>
 </title>
 
 <screen>
@@ -100,6 +116,7 @@ l'option <emphasis>--loop</emphasis></span>
 <para><span xml:lang="en">where</span>
 <span xml:lang="fr">où</span>
 <span xml:lang="es">donde</span>
+<span xml:lang="de">wobei</span>
  :</para>
 
 
@@ -109,12 +126,14 @@ l'option <emphasis>--loop</emphasis></span>
 <span xml:lang="en"> is the file you want to stream</span>
 <span xml:lang="fr"> est le fichier que vous désirez diffuser</span>
 <span xml:lang="es"> es el fichero que se quiere transmitir</span>
+<span xml:lang="de"> ist die Datei, die Sie streamen möchten</span>
 ,</para></listitem>
 
 <listitem><para><emphasis>192.168.0.42</emphasis>
 <span xml:lang="en"> is either </span>
 <span xml:lang="fr"> est soit </span>
 <span xml:lang="es"> es </span>
+<span xml:lang="de"> ist entweder </span>
 :</para>
 
 <itemizedlist>
@@ -125,6 +144,8 @@ to</span>
 désirez diffuser en unicast</span>
 <span xml:lang="es">la dirección IP de la máquina a la que quieres
 transmitir en unicast</span>
+<span xml:lang="de">die IP-Adresse des Rechners, den Sie via Unicast erreichen
+möchten</span>
 ;</para></listitem>
 
 <listitem><para>
@@ -134,12 +155,15 @@ to</span>
 envoyer en unicast</span>
 <span xml:lang="es">o el nombre de la máquina a la que quieres enviar
 en unicast</span>
+<span xml:lang="de">oder der DNS-Name des Rechners, den Sie via Unicast
+erreichen möchten</span>
 ;</para></listitem>
 
 <listitem><para>
 <span xml:lang="en">or a multicast IP address</span>
 <span xml:lang="fr">une adresse IP multicast</span>
 <span xml:lang="es">o una dirección IP multicast</span>
+<span xml:lang="de">oder eine Multicast-IP-Adresse</span>
 .</para></listitem>
 
 
@@ -155,6 +179,9 @@ able to cross 11 routers)</span>
 IP (cela signifie qu'ils pourront traverser 11 routeurs)</span>
 <span xml:lang="es"> es el valor de TTL (Time To Live) de vuestros
 paquetes IP (lo que significa que el flujo atravesará 11 routers)</span>
+<span xml:lang="de"> ist der Wert der TTL (Time To Live) Ihrer IP-Pakete
+(was bedeutet, dass der Stream in der Lage sein wird, 11 Router zu
+überqueren)</span>
 .</para></listitem>
 
 </itemizedlist>
@@ -165,6 +192,8 @@ paquetes IP (lo que significa que el flujo atravesará 11 routers)</span>
 <span xml:lang="en">When you want to stop VLS, use the key combination</span>
 <span xml:lang="fr">Quand vous désirez stopper VLS, faites :</span>
 <span xml:lang="es">Cuando quieras parar VLS, usa la siguiente combinación de teclas</span>
+<span xml:lang="de">Wenn Sie VLS anhalten möchten, nutzen Sie die
+Tastenkombination</span>
 <keycombo><keycap>Ctrl</keycap><keycap>c</keycap></keycombo>.</para>
 
 <para>
@@ -174,6 +203,8 @@ paquetes IP (lo que significa que el flujo atravesará 11 routers)</span>
 l'option <emphasis>--loop</emphasis></span>
 <span xml:lang="es">Si quieres transmitir de forma continua, añade la
 opción <emphasis>--loop</emphasis></span>
+<span xml:lang="de">Wenn Sie die Datei fortlaufend streamen möchten, fügen
+Sie die Option <emphasis>--loop</emphasis> hinzu</span>
 .</para>
 
 

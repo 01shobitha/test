@@ -2,11 +2,13 @@
 <chapter id="vod"><title id="tvod">
 <span xml:lang="en">Video On Demand</span>
 <span xml:lang="fr">Video à la demande</span>
+<span xml:lang="de">Video On Demand</span>
 </title>
 
 <sect1><title>
 <span xml:lang="en">Overview</span>
 <span xml:lang="fr">Apercu</span>
+<span xml:lang="de">Überblick</span>
 
 </title>
 <span xml:lang="en">
@@ -50,11 +52,31 @@ dans la vidéo.</para>
 
 </span>
 
+<span xml:lang="de">
+<para>Mit Video On Demand (VOD) kann der Nutzer das Video starten, 
+wann er will, pausen machen, sowie vorwärts und zurück im Video gehen. 
+Es ist natürlich das Beste des Videostreamens und der Traum für jeden
+Nutzer.</para>
+
+<para>VOD ist ein starker Benutzer der Ressourcen des Servers und des
+Netzwerks. VOD ist Unicast, nicht Multicast: dies bedeutet, das die benötigten
+Netzwerk- und Serverressourcen direkt proportional zur Anzahl von Clients
+sind.</para>
+
+<para>Das Design der VOD-Lösung von VideoLAN ist sehr einfach. Die Idee ist
+HTTP-Streaming zu machen, d.h. ein MPEG-Video zu streamen, welches
+in HTTP verkapselt ist. Die Regulierung der Bitrate zwischen Client und dem Server
+erfolgt automatisch durch TCP. Mit HTTP-Version 1.1 gibt es die Möglichkeit, in 
+einer ladenden Datei zu suchen, was wir benutzen, um im Video zu suchen.</para>
+
+</span>
+
 </sect1>
 
 <sect1><title>
 <span xml:lang="en">On the server side</span>
 <span xml:lang="fr">Sur le serveur</span>
+<span xml:lang="de">Auf der Server-Seite</span>
 </title>
 
 <span xml:lang="en">
@@ -87,11 +109,28 @@ pour les clients sur le serveur web.</para>
 <filename>http://serveurlocal/video1.mpg</filename>.</para>
 </span>
 
+<span xml:lang="de">
+<para>Auf dem VOD-Server benötigten Sie einen laufenden Webserver.
+Beispielsweise können Sie einen Linux-Server mit Apache benutzen.
+Andere Betriebssysteme und Webserver sollten auch funktionieren, aber
+dies haben wir nie getestet.</para>
+
+<para>Machen Sie Ihre MPEG-1, MPEG-2 oder MPEG-4 / DivX - Dateien 
+den Clients auf dem Webserver zugänglich.</para>
+
+<para>Beispielsweise haben wir einen Webserver, dessen DNS-Name
+<emphasis>localserver</emphasis> ist. Auf diesen Server legen wir eine
+MPEG-Datei <filename>video1.mpg</filename>, die den Clients
+unter der URL <filename>http://localserver/video1.mpg</filename>
+zugänglich ist.</para>
+</span>
+
 </sect1>
 
 <sect1><title>
 <span xml:lang="en">On the client side</span>
 <span xml:lang="fr">Du côté client</span>
+<span xml:lang="de">Auf der Client-Seite</span>
 </title>
 
 <span xml:lang="en">
@@ -115,8 +154,14 @@ file.</para>
 <span xml:lang="fr">
 <para>VLC commence à lire le flux presque immédiatement, et vous pouvez
 vous déplacer dans le flux, faire des pauses, ... comme si le flux était
-un fichier local .</para>
+un fichier local.</para>
 </span>
+
+<span xml:lang="de">
+<para>VLC startet fast sofort den Stream und Sie können in diesem Suchen, Pausen machen,
+etc. als wäre es eine lokale Datei.</para>
+</span>
+
 
 </sect1>
 </chapter>

@@ -1,54 +1,104 @@
-<chapter id="ipv6"><title id="tipv6">Stream in IPv6</title>
+<?xml version="1.0" encoding="iso-8859-1" ?>
 
-<sect1><title>Stream in IPv6</title>
+<chapter id="ipv6"><title id="tipv6">
+<span xml:lang="en">Stream in IPv6</span>
+<span xml:lang="fr">Diffusez en IPv6</span>
+</title>
 
-<note><para>You will need an IPv6-aware operating system, like Linux
-2.4.21 with the <emphasis>ipv6</emphasis> module loaded, Windows XP
-Service Pack 1 or Mac OS X version 10.2 or higher. Please look at the
+<sect1><title>
+<span xml:lang="en">Stream in IPv6</span>
+<span xml:lang="fr">Diffusez en IPv6</span>
+</title>
+
+<note><para>
+<span xml:lang="en">You will need an IPv6-aware operating system, like
+Linux 2.4.21 with the <emphasis>ipv6</emphasis> module loaded, Windows
+XP Service Pack 1 or Mac OS X version 10.2 or higher. Please look at the
 features pages on the <ulink url="http://www.videolan.org">VideoLAN web
 site</ulink> to know about the status of IPv6 in VLC and VLS for each
-O.S.</para></note>
+O.S</span>
+<span xml:lang="fr">Vous devez avoir un système d'exploitation
+compatible IPv6, comme, par exemple, Linux 2.4.21 avec le module
+<emphasis>ipv6</emphasis> chargé, Windows XP Service Pack 1, ou
+Mac OS X version 10.2 ou plus. Veuillez vous référer au <ulink
+url="http://www.videolan.org">site web VideoLAN</ulink> pour connaître
+le status de l'IPv6 dans VLC et VLS pour chaque système</span>
+.</para></note>
 
-<warning><para>If you are using VMware under Linux, you will have to
-stop VMware and unload the VMware kernel modules, because we noticed it
-prevented IPv6 streaming !</para></warning>
+<warning><para>
+<span xml:lang="en">If you are using VMware under Linux, you will have
+to stop VMware and unload the VMware kernel modules, because we noticed
+it prevented IPv6 streaming</span>
+<span xml:lang="fr">Si vous utilisez VMWare sous Linux, vous devrez
+l'arrêter et décharger les modules noyau de VMWare, car nous avons
+constaté qu'ils empêchent la diffusion IPv6</span>
+!</para></warning>
 
 
-<sect2><title>Stream with VLC</title>
+<sect2><title>
+<span xml:lang="en">Stream with VLC</span>
+<span xml:lang="fr">Diffusez avec VLC</span>
+</title>
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv video1.xyz --ipv6 --sout udp:[ff08::1] --ttl 12</userinput>
 </screen>
 
-<para>where :</para>
+<para>
+<span xml:lang="en">where</span>
+<span xml:lang="fr">où</span>
+ :</para>
 
 <itemizedlist>
 
-<listitem><para><filename>video1.xyz</filename> is the file you want to
-stream (you can also put <command>dvdold:/dev/dvd</command> to stream a
-DVD or any other input configuration),</para></listitem>
+<listitem><para><filename>video1.xyz</filename>
+<span xml:lang="en"> is the file you want to stream (you can also put
+<command>dvdold:/dev/dvd</command> to stream a DVD or any other input
+configuration)</span>
+<span xml:lang="fr"> est le fichier que vous désirez diffuser (vous
+pouvez par exemple, utiliser <command>dvdold:/dev/dvd</command>, pour
+diffuser un DVD, ....)</span>
+,</para></listitem>
 
-<listitem><para><emphasis>ff08::1</emphasis> is either :</para>
+<listitem><para><emphasis>ff08::1</emphasis> 
+<span xml:lang="en">is either </span>
+<span xml:lang="fr">est soit</span>
+:</para>
 
 <itemizedlist>
 
-<listitem><para>the IPv6 address of the machine you want to unicast to
+<listitem><para>
+<span xml:lang="en">the IPv6 address of the machine you want to unicast
+to</span>
+<span xml:lang="fr">l'adresse IPv6 de la machine vers laquelle vous
+désirez diffuser en unicast</span>
 ;</para></listitem>
 
-<listitem><para>or the multicast IPv6 address.</para></listitem>
+<listitem><para>
+<span xml:lang="en">or the multicast IPv6 address</span>
+<span xml:lang="fr">l'adresse IPv6 multicast</span>
+.</para></listitem>
 
 </itemizedlist>
 
 </listitem>
 
-<listitem><para><emphasis>12</emphasis> is the value of the TTL (Time To
+<listitem><para><emphasis>12</emphasis>
+<span xml:lang="en"> is the value of the TTL (Time To
 Live) of your IP packets (which means that the stream will be
-able to cross 11 routers).</para></listitem>
+able to cross 11 routers)</span>
+<span xml:lang="fr"> est la valeur du TTL (Time To Live) de vos paquets
+IP (cela signifie qu'ils pourront traverser 11 routeurs)</span>
+.</para></listitem>
 
 </itemizedlist>
 
-<note><para>Under Unix/Linux, you may have to protect the square brackets
-around the IPv6 address :</para>
+<note><para>
+<span xml:lang="en">Under Unix/Linux, you may have to protect the square
+brackets around the IPv6 address</span>
+<span xml:lang="fr">Sous Unix ou GNU/Linux, il est possible que vous
+deviez "protéger" les crochets autour de l'adresse IPv6</span>
+:</para>
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv video1.xyz --ipv6 --sout udp:\[ff08::1\] --ttl 12</userinput>
@@ -56,35 +106,62 @@ around the IPv6 address :</para>
 
 </note>
 
-<note><para>You may have to specify the output network interface :</para>
+<note><para>
+<span xml:lang="en">You may have to specify the output network
+interface</span>
+<span xml:lang="fr">Il est possible que vous deviez spécifier
+l'interface réseau de sortie</span>
+ :</para>
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv video1.xyz --ipv6 --sout udp:[ff08::1%eth0] --ttl 12</userinput>
 </screen>
 
-<para>where <emphasis>eth0</emphasis> is the name of the
+<para>
+<span xml:lang="en">where <emphasis>eth0</emphasis> is the name of the
 network interface (under Linux the network interfaces
 are named <emphasis>ethX</emphasis>, under Mac OS X it's
 <emphasis>enX</emphasis> and under Windows it's <emphasis>X</emphasis>,
-where <emphasis>X</emphasis> is the appropriate number).</para>
+where <emphasis>X</emphasis> is the appropriate number)</span>
+<span xml:lang="fr">où <emphasis>eth0</emphasis> est
+le nom de l'interface réseau (sous Linux, elles sont
+nommées <emphasis>ethX</emphasis>, sous Mac OS X, c'est
+<emphasis>enX</emphasis>, et <emphasis>X</emphasis> sous Windows, avec
+<emphasis>X</emphasis> le numéro approprié)</span>
+.</para>
 
 </note>
 
 </sect2>
 
-<sect2><title>Stream with VLS</title>
+<sect2><title>
+<span xml:lang="en">Stream with VLS</span>
+<span xml:lang="fr">Diffusez avec VLS</span>
+</title>
 
-<para>You will need to use the configuration file
-<filename>vls.cfg</filename>. Please, see the <ulink
-url="http://www.videolan.org/doc/">VLS user guide</ulink> to know how
-to write one for IPv6 streaming in unicast or multicast.</para>
+<para>
+<span xml:lang="en">You will need to use the configuration
+file <filename>vls.cfg</filename>. Please, see the <ulink
+url="http://www.videolan.org/doc/">VLS user guide</ulink> to know how to
+write one for IPv6 streaming in unicast or multicast</span>
+<span xml:lang="fr">Vous devez utiliser le fichier de configuration
+<filename>vls.cfg</filename>. Merci de voir le <ulink
+url="http://www.videolan.org/doc/">guide de l'utilisateur de VLS</ulink>
+pour plus de détails</span>
+.</para>
 
 </sect2>
 </sect1>
 
-<sect1><title>Receive in IPv6</title>
+<sect1><title>
+<span xml:lang="en">Receive in IPv6</span>
+<span xml:lang="fr">Recevez en IPv6</span>
+</title>
 
-<sect2><title>Receive an unicast stream</title>
+<sect2><title>
+<span xml:lang="en">Receive an unicast stream</span>
+<span xml:lang="fr">Recevez un flux unicast</span>
+</title>
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv --ipv6 udp:</userinput>
@@ -92,18 +169,22 @@ to write one for IPv6 streaming in unicast or multicast.</para>
 
 </sect2>
 
-<sect2><title>Receive a multicast stream</title>
+<sect2><title>
+<span xml:lang="en">Receive a multicast stream</span>
+<span xml:lang="fr">Recevez un flux multicast</span>
+</title>
+
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv --ipv6 udp:@[ff08::1]</userinput>
 </screen>
 
-<para>where <emphasis>ff08::1</emphasis> is the multicast IPv6 address
-you want to receive.</para>
-
-
-<note><para>Under Unix/Linux, you may have to protect the square brackets
-around the IPv6 address :</para>
+<note><para>
+<span xml:lang="en">Under Unix/Linux, you may have to protect the square
+brackets around the IPv6 address</span>
+<span xml:lang="fr">Sous Unix ou GNU/Linux, il est possible que vous
+deviez "protéger" les crochets autour de l'adresse IPv6</span>
+:</para>
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv --ipv6 udp:@\[ff08::1\]</userinput>
@@ -111,19 +192,33 @@ around the IPv6 address :</para>
 
 </note>
 
-<note><para>You may have to specify the input network interface :</para>
+<note><para>
+<span xml:lang="en">You may have to specify the output network
+interface</span>
+<span xml:lang="fr">Il est possible que vous deviez spécifier
+l'interface réseau de sortie</span>
+ :</para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv --ipv6 udp:@[ff08::1%eth0]</userinput>
+<prompt>% </prompt><userinput>vlc -vvv video1.xyz --ipv6 --sout udp:[ff08::1%eth0] --ttl 12</userinput>
 </screen>
 
-<para>where <emphasis>eth0</emphasis> is the name of the
+<para>
+<span xml:lang="en">where <emphasis>eth0</emphasis> is the name of the
 network interface (under Linux the network interfaces
 are named <emphasis>ethX</emphasis>, under Mac OS X it's
 <emphasis>enX</emphasis> and under Windows it's <emphasis>X</emphasis>,
-where <emphasis>X</emphasis> is the appropriate number).</para>
+where <emphasis>X</emphasis> is the appropriate number)</span>
+<span xml:lang="fr">où <emphasis>eth0</emphasis> est
+le nom de l'interface réseau (sous Linux, elles sont
+nommées <emphasis>ethX</emphasis>, sous Mac OS X, c'est
+<emphasis>enX</emphasis>, et <emphasis>X</emphasis> sous Windows, avec
+<emphasis>X</emphasis> le numéro approprié)</span>
+.</para>
 
 </note>
+
+
 
 </sect2>
 

@@ -1,42 +1,75 @@
-<sect2><title>Under Windows</title>
+<?xml version="1.0" encoding="iso-8859-1" ?>
 
-<para>Download the ZIP file from the <ulink
+<sect2><title>Windows</title>
+
+<para>
+<span xml:lang="en">Download the ZIP file from the <ulink
 url="http://www.videolan.org/streaming/download-vls-windows.html">VLS
 Windows download page</ulink>, unzip-it and run
-<filename>setup.exe</filename>.</para>
+<filename>setup.exe</filename></span>
+<span xml:lang="fr">Téléchargez le fichier Zip depuis <ulink
+url="http://www.videolan.org/streaming/download-vls-windows.html">la
+page de téléchargement de VLS pour Windows</ulink>, décompressez-le, et
+lancez <filename>setup.exe</filename></span>
+.</para>
 
 </sect2>
 
-<sect2><title>Under Linux and Mac OS X</title>
+<sect2><title>GNULinux &amp; Mac OS X</title>
 
-<simplesect><title>Install the libraries</title>
+<simplesect><title>
+<span xml:lang="en">Install the libraries</span>
+<span xml:lang="fr">Installez les librairies</span>
+</title>
 
-<para>Many libraries are needed for particular uses:</para>
+<para>
+<span xml:lang="en">Many libraries are needed for particular uses</span>
+<span xml:lang="fr">Plusieurs librairies sont requises:</span>
+</para>
 
 <itemizedlist>
 
-<listitem><para><emphasis>libdvbpsi</emphasis> (always
-needed)</para></listitem>
+<listitem><para><emphasis>libdvbpsi</emphasis> 
+<span xml:lang="en">(always needed)</span>
+<span xml:lang="fr">(obligatoire)</span>
+</para></listitem>
 
-<listitem><para><emphasis>libdvdcss</emphasis> if you want to be able to
-access encrypted DVDs,</para></listitem>
+<listitem><para><emphasis>libdvdcss</emphasis>
+<span xml:lang="en">if you want to be able to access encrypted DVDs</span>
+<span xml:lang="fr">pour lire des DVDs encryptés</span>
+,</para></listitem>
 
-<listitem><para><emphasis>libdvdread</emphasis> if you want to be able
-to stream DVDs,</para></listitem>
+<listitem><para><emphasis>libdvdread</emphasis>
+<span xml:lang="en">if you want to be able to stream DVDs</span>
+<span xml:lang="fr">pour diffuser des DVDs</span>
+,</para></listitem>
 
-<listitem><para><emphasis>libdvb</emphasis> if you want to be able to
-stream from a DVB card (a satellite card or a digital terrestial TV
-card).</para></listitem>
+<listitem><para><emphasis>libdvb</emphasis>
+<span xml:lang="en"> if you want to be able to stream from a DVB card (a
+satellite card or a digital terrestial TV card)</span>
+<span xml:lang="fr">pour pouvoir diffuser depuis une carte DVB
+(satellite ou télévision numérique terrestre)</span>
+.</para></listitem>
 
 </itemizedlist>
 
-<para>Download the libraries from the <ulink
+<para>
+<span xml:lang="en">Download the libraries from the <ulink
 url="http://www.videolan.org/streaming/download-vls-sources.html">VLS
-sources download page</ulink>.</para>
+sources download page</ulink></span>
+<span xml:lang="fr">Téléchargez les librairies depuis la <ulink
+url="http://www.videolan.org/streaming/download-vls-sources.html">page
+des sources de VLS</ulink></span>
+.</para>
 
-<para>For each library, uncompress, configure (unless
-for <emphasis>libdvb</emphasis> which doesn't have a
-<emphasis>./configure</emphasis>), compile and install :</para>
+<para>
+<span xml:lang="en">For each library, uncompress, configure
+(unless for <emphasis>libdvb</emphasis> which doesn't have a
+<emphasis>./configure</emphasis>), compile and install </span>
+<span xml:lang="fr">Pour chaque librairie, décompressez,
+configurez (sauf pour <emphasis>libdvb</emphasis> qui n'a pas de
+<emphasis>./configure</emphasis>), compilez et installez</span>
+:</para>
 
 <screen>
 <prompt>% </prompt><userinput>tar xvzf library.tar.gz</userinput>
@@ -46,14 +79,20 @@ for <emphasis>libdvb</emphasis> which doesn't have a
 <prompt># </prompt><userinput>make install</userinput>
 </screen>
 
-<para>Check that the configuration file <filename>/etc/ld.so.conf</filename>
-contains the following line :</para>
-
+<para>
+<span xml:lang="en">Check that the configuration file
+<filename>/etc/ld.so.conf</filename> contains the following line</span>
+<span xml:lang="fr">Vérifiez que le fichier de configuration
+<filename>/etc/ld.so.conf</filename> contient la ligne</span>
+ :</para>
 <programlisting>
 /usr/local/lib
 </programlisting>
 
-<para>If the line is not present, add-it and then run :</para>
+<para>
+<span xml:lang="en">If the line is not present, add-it and then run</span>
+<span xml:lang="fr">Dans le cas contraire, ajoutez-la, et lancez</span>
+ :</para>
 
 <screen>
 <prompt># </prompt><userinput>ldconfig</userinput>
@@ -61,13 +100,23 @@ contains the following line :</para>
 
 </simplesect>
 
-<simplesect><title>Install VLS</title>
+<simplesect><title>
+<span xml:lang="en">Install VLS</span>
+<span xml:lang="fr">Installez VLS</span>
+</title>
 
-<para>Download the sources of the latest release : get the
-file <filename>vls-version.tar.gz</filename> from the <ulink
+<para>
+<span xml:lang="en">Download the sources of the latest release : get
+the file <filename>vls-version.tar.gz</filename> from the <ulink
 url="http://www.videolan.org/streaming/download-vls-sources.html">VLS
 sources download page</ulink>. Uncompress-it and generate
-<emphasis>./configure</emphasis> :</para>
+<emphasis>./configure</emphasis> </span>
+<span xml:lang="fr">Téléchargez les sources de la dernière version :
+récupérez le fichier <filename>vls-version.tar.gz</filename>de la <ulink
+url="http://www.videolan.org/streaming/download-vls-sources.html">page
+des sources de VLS</ulink>. Décompressez-la et générez
+<emphasis>./configure</emphasis> </span>
+:</para>
 
 <screen>
 <prompt>% </prompt><userinput>tar xvzf vls-version.tar.gz</userinput>
@@ -75,18 +124,26 @@ sources download page</ulink>. Uncompress-it and generate
 <prompt>% </prompt><userinput>autoconf</userinput>
 </screen>
 
-<para>To get the list of configuration options, do :</para>
+<para>
+<span xml:lang="en">To get the list of configuration options, do</span>
+<span xml:lang="fr">Pour avoir la liste des options, faites :</span>
+</para>
 
 <screen>
 <prompt>% </prompt><userinput>./configure --help</userinput>
 </screen>
 
-<para>Then configure vls :</para>
+<para>
+<span xml:lang="en">Then configure vls </span>
+<span xml:lang="fr">Configurez ensuite vls</span>
+:</para>
 
 <itemizedlist>
 
-<listitem><para>if you want a basic VLS without DVD support, do :
-</para>
+<listitem><para>
+<span xml:lang="en">if you want a basic VLS without DVD support, do</span>
+<span xml:lang="fr">pour un VLS simple, sans support de DVD, faites</span>
+:</para>
 
 <screen>
 <prompt>% </prompt><userinput>./configure --disable-dvd</userinput>
@@ -94,7 +151,10 @@ sources download page</ulink>. Uncompress-it and generate
 
 </listitem>
 
-<listitem><para>if you want a VLS with DVD support, do :</para>
+<listitem><para>
+<span xml:lang="en">if you want a VLS with DVD support, do</span>
+<span xml:lang="fr">pour un VLS avec support du DVD, faites</span>
+ :</para>
 
 <screen>
 <prompt>% </prompt><userinput>./configure</userinput>
@@ -102,7 +162,10 @@ sources download page</ulink>. Uncompress-it and generate
 
 </listitem>
 
-<listitem><para>if you want a VLS with DVB support, do :</para>
+<listitem><para>
+<span xml:lang="en">if you want a VLS with DVB support, do </span>
+<span xml:lang="fr">pour un VLS avec support du DVB, faites</span>
+:</para>
 
 <screen>
 <prompt>% </prompt><userinput>./configure --enable-dvb</userinput>
@@ -112,15 +175,24 @@ sources download page</ulink>. Uncompress-it and generate
 
 </itemizedlist>
 
-<para>Then, compile and install :</para>
+<para>
+<span xml:lang="en">Then, compile and install</span>
+<span xml:lang="fr">Puis, compilez et installez</span>
+ :</para>
 
 <screen>
 <prompt>% </prompt><userinput>make</userinput>
 <prompt># </prompt><userinput>make install</userinput>
 </screen>
 
-<para>You can also do a <command>make uninstall</command>, <command>make
-clean</command> or <command>make distclean</command> as needed.</para>
+<para>
+<span xml:lang="en">You can also do a <command>make uninstall</command>,
+<command>make clean</command> or <command>make distclean</command> as
+needed</span>
+<span xml:lang="fr">Vous pouvez également faire <command>make
+uninstall</command>, <command>make clean</command> ou <command>make
+distclean</command></span>
+.</para>
 
 </simplesect>
 

@@ -1,99 +1,183 @@
-<chapter id="dvd"><title id="tdvd">Stream a DVD</title>
+<?xml version="1.0" encoding="iso-8859-1" ?>
 
-<note><para>Under Unix/Linux, you must have write access to the device
+<chapter id="dvd"><title id="tdvd">
+<span xml:lang="en">Stream a DVD</span>
+<span xml:lang="fr">Diffusez un DVD</span>
+</title>
+
+<note><para>
+
+<span xml:lang="en">
+Under Unix/Linux, you must have write access to the device
 corresponding to your DVD drive. For that, you should be in the
 <emphasis>disk</emphasis> or <emphasis>cdrom</emphasis> group (look
 at the permissions in <filename>/dev</filename>). If you're not, add
-yourself to the group :</para>
+yourself to the group </span>
+<span xml:lang="fr">Sous Unix et GNU/Linux, vous devez avoir un accès
+en écriture sur le périphérique correspondant à votre lecteur de DVD.
+Pour cela, vous devez être dans le groupe <emphasis>disk</emphasis>
+ou <emphasis>cdrom</emphasis> (regardez les permissions dans
+<filename>/dev</filename>). Si vous n'y êtes pas, ajoutez-vous y</span>
+:</para>
 
 <screen>
-<prompt># </prompt><userinput>adduser your_login disk_or_cdrom</userinput>
+<prompt># </prompt><userinput>adduser <span xml:lang="en">your_login disk_or_cdrom</span><span xml:lang="fr">votre_ogin disk_ou_cdrom</span></userinput>
 </screen>
 
-<para>and then restart your session.</para></note>
+<para>
+<span xml:lang="en">and then restart your session</span>
+<span xml:lang="fr">et relancez votre session</span>.</para></note>
 
-<sect1><title>Stream a DVD with VLC</title>
+<sect1><title>
+<span xml:lang="en">Stream a DVD with VLC</span>
+<span xml:lang="fr">Diffusez un DVD avec VLC</span>
+</title>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv dvdold:/dev/dvd --sout udp://192.168.0.12 --ttl 12</userinput>
+<prompt>% </prompt><userinput>vlc -vvv dvdold:/dev/dvd --sout udp://192.168.0.42 --ttl 12</userinput>
 </screen>
 
-<para>where :</para>
+<para>
+<span xml:lang="en">where </span>
+<span xml:lang="fr">où </span>
+:</para>
 
 <itemizedlist>
 
-<listitem><para><filename>/dev/dvd</filename> is the name of
-your DVD drive (put <filename>D:</filename> under Windows if
-<filename>D</filename> is the letter of your DVD drive) or the directory
-where you copied your DVD,</para></listitem>
+<listitem><para><filename>/dev/dvd</filename> 
+<span xml:lang="en">is the name of your DVD drive (put
+<filename>D:</filename> under Windows if <filename>D</filename> is
+the letter of your DVD drive) or the directory where you copied your
+DVD</span>
+<span xml:lang="fr">est le nom de votre lecteur de DVD (mettez
+<filename>D:</filename> sous Windows, si c'est la lettre de votre
+lecteur) ou le dossier où vous avez copié votre DVD</span>
+,</para></listitem>
 
-<listitem><para><emphasis>192.168.0.12</emphasis> is either :</para>
+<listitem><para><emphasis>192.168.0.42</emphasis>
+<span xml:lang="en"> is either </span>
+<span xml:lang="fr"> est soit </span>
+:</para>
 
 <itemizedlist>
 
-<listitem><para>the IP address of the machine you want to unicast to
+<listitem><para>
+<span xml:lang="en">the IP address of the machine you want to unicast
+to</span>
+<span xml:lang="fr">l'adresse IP de la machine vers laquelle vous
+désirez diffuser en unicast</span>
 ;</para></listitem>
 
-<listitem><para>or the DNS name the machine you want to unicast to
+<listitem><para>
+<span xml:lang="en">or the DNS name the machine you want to unicast
+to</span>
+<span xml:lang="fr">le nom DNS de la machine vers laquelle vous désirez
+envoyer en unicast</span>
 ;</para></listitem>
 
-<listitem><para>or the multicast IP address.</para></listitem>
+<listitem><para>
+<span xml:lang="en">or a multicast IP address</span>
+<span xml:lang="fr">une adresse IP multicast</span>
+.</para></listitem>
 
 </itemizedlist>
 
 </listitem>
 
-<listitem><para><emphasis>12</emphasis> is the value of the TTL (Time To
+<listitem><para><emphasis>12</emphasis>
+<span xml:lang="en"> is the value of the TTL (Time To
 Live) of your IP packets (which means that the stream will be
-able to cross 11 routers).</para></listitem>
-
+able to cross 11 routers)</span>
+<span xml:lang="fr"> est la valeur du TTL (Time To Live) de vos paquets
+IP (cela signifie qu'ils pourront traverser 11 routeurs)</span>
+.</para></listitem>
 </itemizedlist>
 
-<para>If you want to stream the DVD continuously, add the
-<emphasis>--loop</emphasis> option.</para>
+
+<para>
+<span xml:lang="en">If you want to stream the DVD continuously, add the
+<emphasis>--loop</emphasis> option</span>
+<span xml:lang="fr">Si vous désirez diffuser un continu, ajoutez
+l'option <emphasis>--loop</emphasis></span>
+.</para>
+
 
 </sect1>
 
-<sect1><title>Stream a DVD with VLS</title>
+<sect1><title>
+<span xml:lang="en">Stream a DVD with VLS</span>
+<span xml:lang="fr">Diffusez un DVD avec VLS</span></title>
 
-<note><para>This is possible under Linux only.</para></note>
+<note><para>
+<span xml:lang="en">This is possible under GNU/Linux only</span>
+<span xml:lang="fr">Ceci n'est possible que sous GNU/Linux</span>
+.</para></note>
 
 <screen>
-<prompt>% </prompt><userinput>vls -vv -d udp:192.168.0.12 dvd:/dev/dvd --ttl 12</userinput>
+<prompt>% </prompt><userinput>vls -vv -d udp:192.168.0.42 dvd:/dev/dvd --ttl 12</userinput>
 </screen>
 
-<para>where :</para>
+<para><span xml:lang="en">where</span>
+<span xml:lang="fr">où</span> :</para>
+
 
 <itemizedlist>
 
-<listitem><para><filename>/dev/dvd</filename> is the device
-corresponding to your DVD drive or the directory where you copied your
-DVD,</para></listitem>
+<listitem><para><filename>/dev/dvd</filename>
+<span xml:lang="en">is the name of your DVD drive
+ or the directory where you copied your
+DVD</span>
 
-<listitem><para><emphasis>192.168.0.12</emphasis> is either :</para>
+<span xml:lang="fr">est le nom de votre lecteur de DVD
+ ou le dossier où vous avez copié votre DVD</span>
+,</para></listitem>
+
+<listitem><para><emphasis>192.168.0.42</emphasis>
+<span xml:lang="en"> is either </span>
+<span xml:lang="fr"> est soit </span>
+:</para>
 
 <itemizedlist>
-
-<listitem><para>the IP address of the machine you want to unicast to
+<listitem><para>
+<span xml:lang="en">the IP address of the machine you want to unicast
+to</span>
+<span xml:lang="fr">l'adresse IP de la machine vers laquelle vous
+désirez diffuser en unicast</span>
 ;</para></listitem>
 
-<listitem><para>or the DNS name the machine you want to unicast to
+<listitem><para>
+<span xml:lang="en">or the DNS name the machine you want to unicast
+to</span>
+<span xml:lang="fr">le nom DNS de la machine vers laquelle vous désirez
+envoyer en unicast</span>
 ;</para></listitem>
 
-<listitem><para>or the multicast IP address.</para></listitem>
+<listitem><para>
+<span xml:lang="en">or a multicast IP address</span>
+<span xml:lang="fr">une adresse IP multicast</span>
+.</para></listitem>
+
 
 </itemizedlist>
 
 </listitem>
 
-<listitem><para><emphasis>12</emphasis> is the value of the TTL (Time To
+<listitem><para><emphasis>12</emphasis>
+<span xml:lang="en"> is the value of the TTL (Time To
 Live) of your IP packets (which means that the stream will be
-able to cross 11 routers).</para></listitem>
+able to cross 11 routers)</span>
+<span xml:lang="fr"> est la valeur du TTL (Time To Live) de vos paquets
+IP (cela signifie qu'ils pourront traverser 11 routeurs)</span>
+.</para></listitem>
 
 </itemizedlist>
 
-<para>If you want to stream the DVD continuously, add the
-<emphasis>--loop</emphasis> option.</para>
+<para>
+<span xml:lang="en">If you want to stream the DVD continuously, add the
+<emphasis>--loop</emphasis> option</span>
+<span xml:lang="fr">Si vous désirez diffuser un continu, ajoutez
+l'option <emphasis>--loop</emphasis></span>
+.</para>
 
 </sect1>
 

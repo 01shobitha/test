@@ -1,8 +1,19 @@
-<chapter id="receive"><title id="treceive">Receive and save a stream</title>
+<?xml version="1.0" encoding="iso-8859-1" ?>
 
-<sect1><title>Receive a stream with VLC</title>
+<chapter id="receive"><title id="treceive">
+<span xml:lang="en">Receive and save a stream</span>
+<span xml:lang="fr">Recevez et sauvegardez un flux</span>
+</title>
 
-<sect2><title>Receive an unicast stream</title>
+<sect1><title>
+<span xml:lang="en">Receive a stream with VLC</span>
+<span xml:lang="fr">Recevez un flux avec VLC</span>
+</title>
+
+<sect2><title>
+<span xml:lang="en">Receive an unicast stream</span>
+<span xml:lang="fr">Recevez un flux unicast</span>
+</title>
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv udp:</userinput>
@@ -10,42 +21,64 @@
 
 </sect2>
 
-<sect2><title>Receive a multicast stream</title>
+<sect2><title>
+<span xml:lang="en">Receive a multicast stream</span>
+<span xml:lang="fr">Recevez un flux multicast</span>
+</title>
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv udp:@239.255.12.42</userinput>
 </screen>
 
-<para>where <emphasis>239.255.12.42</emphasis> is the multicast IP
-address you want to join.</para>
+<para>
+<span xml:lang="en"> where <emphasis>239.255.12.42</emphasis> is the
+multicast IP address you want to join</span>
+<span xml:lang="fr">où <emphasis>239.255.12.42</emphasis> est l'adresse
+IP multicast du flux</span>
+.</para>
 
 </sect2>
 
-<sect2><title>Receive an HTTP/FTP/MMS stream</title>
+<sect2><title>
+<span xml:lang="en">Receive an HTTP/FTP/MMS stream</span>
+<span xml:lang="fr">Recevez un flux HTTP/FTP/MMS</span>
+</title>
 
-<para>Use one of the following command lines :</para>
+<para>
+<span xml:lang="en">Use one of the following command lines</span>
+<span xml:lang="fr">Utilisez l'une de ces lignes de commande</span>
+ :</para>
 
 <itemizedlist>
 
 <listitem>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv http://localserver/stream.xyz</userinput>
+<prompt>% </prompt><userinput>vlc -vvv http://example/stream.xyz</userinput>
 </screen>
 
-<para>where <emphasis>http://localserver/stream.xyz</emphasis> is
-the HTTP address of the stream ;</para>
+<para>
+<span xml:lang="en">where <emphasis>http://example/stream.xyz</emphasis>
+is the HTTP address of the stream</span>
+<span xml:lang="fr">où <emphasis>http://example/stream.xyz</emphasis>
+est l'adresse HTTP du flux</span>
+ ;</para>
 
 </listitem>
 
 <listitem>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv ftp://localserver/stream.xyz</userinput>
+<prompt>% </prompt><userinput>vlc -vvv ftp://example/stream.xyz</userinput>
 </screen>
 
-<para>where <emphasis>ftp://localserver/stream.xyz</emphasis> is
-the FTP address of the stream ;</para>
+<para>
+<span xml:lang="en">where <emphasis>ftp://example/stream.xyz</emphasis>
+is the FTP address of the stream</span>
+<span xml:lang="fr">où <emphasis>ftp://example/stream.xyz</emphasis>
+est l'adresse FTP du flux</span>
+ ;</para>
+
 
 </listitem>
 
@@ -55,9 +88,14 @@ the FTP address of the stream ;</para>
 <prompt>% </prompt><userinput>vlc -vvv mms://viptvr.yacast.fr/encoderfranceinfo</userinput>
 </screen>
 
-<para>where
+<para>
+<span xml:lang="en">where
 <emphasis>mms://viptvr.yacast.fr/encoderfranceinfo</emphasis> is the MMS
-address of the stream.</para>
+address of the stream</span>
+<span xml:lang="fr">où
+<emphasis>mms://viptvr.yacast.fr/encoderfranceinfo</emphasis> est
+l'adresse MMS du flux</span>
+.</para>
 
 </listitem>
 
@@ -66,57 +104,101 @@ address of the stream.</para>
 </sect2>
 </sect1>
 
-<sect1><title>Save a stream with VLC</title>
+<sect1><title>
+<span xml:lang="en">Save a stream with VLC</span>
+<span xml:lang="fr">Enregistrez un flux avec VLC</span>
+</title>
 
-<para>VLC can save the stream to the disk, but it can't display it
-and save it to the disk at the same time (this should come in future
-versions). In order to save the file to the disk, use the Stream Output
-of VLC : you can do it via the graphical interface, or you can add to
-the command line the following argument :</para>
+<para>
+<span xml:lang="en">VLC can save the stream to the disk. In order
+to do this, use the Stream Output of VLC : you can do it via the
+graphical interface, or you can add to the command line the following
+argument</span>
+<span xml:lang="fr">VLC peut sauvegarder le flux vers le disque. Pour
+celà, utilisez le Stream Output de VLC : vous pouvez faire ceci via
+l'interface graphique, ou en utilisant cet argument de la ligne de
+commande</span>
+ :</para>
 
 <screen>
 <userinput>--sout file/muxer:stream.xyz</userinput>
 </screen>
 
-<para>where :</para>
+<para>
+<span xml:lang="en">where </span>
+<span xml:lang="fr">où</span>
+:</para>
 
 <itemizedlist>
 
-<listitem><para><emphasis>muxer</emphasis> is one of the formats
-supported by VLC's stream output, i.e. :</para>
+<listitem><para><emphasis>muxer</emphasis> 
+<span xml:lang="en">is one of the formats supported by VLC's stream
+output, i.e. </span>
+<span xml:lang="fr">est l'un des formats supportés par le stream output
+de VLC, càd</span>
+:</para>
 
 <itemizedlist>
 
-<listitem><para><emphasis>avi</emphasis> for AVI format,</para></listitem>
+<listitem><para><emphasis>avi</emphasis>
+ <span xml:lang="en"> for AVI format</span>
+ <span xml:lang="fr"> pour le format AVI</span>
+,</para></listitem>
 
-<listitem><para><emphasis>ogg</emphasis> for OGG format,</para></listitem>
+<listitem><para><emphasis>ogg</emphasis>
+ <span xml:lang="en"> for OGG format</span>
+ <span xml:lang="fr"> pour le format OGG</span>
+,</para></listitem>
 
-<listitem><para><emphasis>ps</emphasis> for MPEG2-PS format,</para></listitem>
+<listitem><para><emphasis>ps</emphasis> 
+ <span xml:lang="en"> for MPEG2-PS format</span>
+  <span xml:lang="fr"> pour le format MPEG2-PS</span>
+,</para></listitem>
 
 <listitem><para><emphasis>ts</emphasis> or
-<emphasis>ts_dvbpsi</emphasis> for MPEG2-TS format (the latter uses
-<emphasis>libdvbpsi</emphasis> for the task).</para></listitem>
+<emphasis>ts_dvbpsi</emphasis> 
+ <span xml:lang="en"> for MPEG2-PS format (the latter uses
+<emphasis>libdvbpsi</emphasis> for the task)</span>
+  <span xml:lang="fr"> pour le format MPEG2-PS (le second utilise
+<emphasis>libdvbpsi</emphasis>)</span>
+.</para></listitem>
 
 </itemizedlist>
 
 </listitem>
 
-<listitem><para>and <filename>stream.xyz</filename> is the name
-of the file you want to save the stream to, with the right
-extension.</para></listitem>
+<listitem><para>
+<span xml:lang="en">and <filename>stream.xyz</filename> is the name of
+the file you want to save the stream to, with the right extension</span>
+<span xml:lang="fr">et <filename>stream.xyz</filename> est le nom du
+fichier sous lequel vous désirez sauvegarder le flux, avec la bonne
+extension</span>
+.</para></listitem>
 
 </itemizedlist>
 
 </sect1>
 
-<sect1><title>Receive a stream with a set-top-box</title>
+<sect1><title>
+<span xml:lang="en">Receive a stream with a set-top-box</span>
+<span xml:lang="fr">Recevez un flux avec un set-top-box</span>
+</title>
 
-<para>Some set-top-boxes with Ethernet cards can receive MPEG2-TS
-streams over UDP and support multicast. This is the case of
-the <ulink url="http://www.pace.co.uk">Pace</ulink> and <ulink
+<para>
+<span xml:lang="en">Some set-top-boxes with Ethernet cards can receive
+MPEG2-TS streams over UDP and support multicast. This is the case
+of the <ulink url="http://www.pace.co.uk">Pace</ulink> and <ulink
 url="http://www.aminocom.com">Aminocom</ulink> set top boxes. We have
-tested the <emphasis>AmiNET 100</emphasis> set-top-box from Aminocom:
-it is nice and small, and it works very well with VideoLAN.</para>
+tested the <emphasis>AmiNET 100</emphasis> set-top-box from Aminocom: it
+is nice and small, and it works very well with VideoLAN</span>
+<span xml:lang="fr">Certaines set-top-boxs, possédant une
+carte Ethernet, sont capables de recevoir des flux MPEG2-TS
+par UDP, et supportent le Multicast. C'st le cas de <ulink
+url="http://www.pace.co.uk">Pace</ulink> et d' <ulink
+url="http://www.aminocom.com">Aminocom</ulink>. Nous avons testé
+l'<emphasis>AmiNET 100</emphasis> d'Aminocom: elle est petite, et
+fonctionne très bien avec VideoLAN</span>
+.</para>
 
 </sect1>
 </chapter>

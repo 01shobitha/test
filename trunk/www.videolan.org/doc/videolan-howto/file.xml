@@ -1,86 +1,151 @@
-<chapter id="file"><title id="tfile">Stream a file</title>
+<?xml version="1.0" encoding="iso-8859-1" ?>
 
-<sect1><title>Stream a file with VLC</title>
+<chapter id="file"><title id="tfile">
+<span xml:lang="en">Stream a file</span>
+<span xml:lang="fr">Diffusez un fichier</span>
+</title>
+
+<sect1><title>
+<span xml:lang="en">Stream a file with VLC</span>
+<span xml:lang="fr">Diffusez un fichier avec VLC</span>
+</title>
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv video1.xyz --sout udp://192.168.0.42 --ttl 12</userinput>
 </screen>
 
-<para>where :</para>
+<para>
+<span xml:lang="en">where </span>
+<span xml:lang="fr">où </span>
+:</para>
 
 <itemizedlist>
 
-<listitem><para><filename>video1.xyz</filename> is the file you want to
-stream,</para></listitem>
+<listitem><para><filename>video1.xyz</filename>
+<span xml:lang="en"> is the file you want to stream</span>
+<span xml:lang="fr"> est le fichier que vous désirez diffuser</span>
+,</para></listitem>
 
-<listitem><para><emphasis>192.168.0.42</emphasis> is either :</para>
+<listitem><para><emphasis>192.168.0.42</emphasis>
+<span xml:lang="en"> is either </span>
+<span xml:lang="fr"> est soit </span>
+:</para>
 
 <itemizedlist>
 
-<listitem><para>the IP address of the machine you want to unicast to
+<listitem><para>
+<span xml:lang="en">the IP address of the machine you want to unicast
+to</span>
+<span xml:lang="fr">l'adresse IP de la machine vers laquelle vous
+désirez diffuser en unicast</span>
 ;</para></listitem>
 
-<listitem><para>or the DNS name the machine you want to unicast to
+<listitem><para>
+<span xml:lang="en">or the DNS name the machine you want to unicast
+to</span>
+<span xml:lang="fr">le nom DNS de la machine vers laquelle vous désirez
+envoyer en unicast</span>
 ;</para></listitem>
 
-<listitem><para>or the multicast IP address.</para></listitem>
+<listitem><para>
+<span xml:lang="en">or a multicast IP address</span>
+<span xml:lang="fr">une adresse IP multicast</span>
+.</para></listitem>
 
 </itemizedlist>
 
 </listitem>
 
-<listitem><para><emphasis>12</emphasis> is the value of the TTL (Time To
+<listitem><para><emphasis>12</emphasis>
+<span xml:lang="en"> is the value of the TTL (Time To
 Live) of your IP packets (which means that the stream will be
-able to cross 11 routers).</para></listitem>
-
+able to cross 11 routers)</span>
+<span xml:lang="fr"> est la valeur du TTL (Time To Live) de vos paquets
+IP (cela signifie qu'ils pourront traverser 11 routeurs)</span>
+.</para></listitem>
 </itemizedlist>
 
-<para>If you want to stream the file continuously, add the
-<emphasis>--loop</emphasis> option.</para>
+<para>
+<span xml:lang="en">If you want to stream the file continuously, add the
+<emphasis>--loop</emphasis> option</span>
+<span xml:lang="fr">Si vous désirez diffuser un continu, ajoutez
+l'option <emphasis>--loop</emphasis></span>
+.</para>
 
 </sect1>
 
-<sect1><title>Stream a file with VLS</title>
+<sect1><title>
+<span xml:lang="en">Stream a file with VLS</span>
+</title>
 
 <screen>
 <prompt>% </prompt><userinput>vls -vv -d udp:192.168.0.42 file:video1.xyz --ttl 12</userinput>
 </screen>
 
-<para>where :</para>
+<para><span xml:lang="en">where</span>
+<span xml:lang="fr">où</span> :</para>
 
 <itemizedlist>
 
-<listitem><para><filename>video1.xyz</filename> is the file
-you want to stream,</para></listitem>
+<listitem><para><filename>video1.xyz</filename>
+<span xml:lang="en"> is the file you want to stream</span>
+<span xml:lang="fr"> est le fichier que vous désirez diffuser</span>
+,</para></listitem>
 
-<listitem><para><emphasis>192.168.0.42</emphasis> is either :</para>
+<listitem><para><emphasis>192.168.0.42</emphasis>
+<span xml:lang="en"> is either </span>
+<span xml:lang="fr"> est soit </span>
+:</para>
 
 <itemizedlist>
-
-<listitem><para>the IP address of the machine you want to unicast to
+<listitem><para>
+<span xml:lang="en">the IP address of the machine you want to unicast
+to</span>
+<span xml:lang="fr">l'adresse IP de la machine vers laquelle vous
+désirez diffuser en unicast</span>
 ;</para></listitem>
 
-<listitem><para>or the DNS name the machine you want to unicast to
+<listitem><para>
+<span xml:lang="en">or the DNS name the machine you want to unicast
+to</span>
+<span xml:lang="fr">le nom DNS de la machine vers laquelle vous désirez
+envoyer en unicast</span>
 ;</para></listitem>
 
-<listitem><para>or the multicast IP address.</para></listitem>
+<listitem><para>
+<span xml:lang="en">or a multicast IP address</span>
+<span xml:lang="fr">une adresse IP multicast</span>
+.</para></listitem>
+
 
 </itemizedlist>
 
 </listitem>
 
-<listitem><para><emphasis>12</emphasis> is the value of the TTL (Time To
+<listitem><para><emphasis>12</emphasis>
+<span xml:lang="en"> is the value of the TTL (Time To
 Live) of your IP packets (which means that the stream will be
-able to cross 11 routers).</para></listitem>
+able to cross 11 routers)</span>
+<span xml:lang="fr"> est la valeur du TTL (Time To Live) de vos paquets
+IP (cela signifie qu'ils pourront traverser 11 routeurs)</span>
+.</para></listitem>
 
 </itemizedlist>
 
 
-<para>When you want to stop VLS, use the key combination
+<para>
+
+<span xml:lang="en">When you want to stop VLS, use the key combination</span>
+<span xml:lang="fr">Quand vous désirez stopper VLS, faites :</span>
 <keycombo><keycap>Ctrl</keycap><keycap>c</keycap></keycombo>.</para>
 
-<para>If you want to stream the file continuously, add the
-<emphasis>--loop</emphasis> option.</para>
+<para>
+<span xml:lang="en">If you want to stream the file continuously, add the
+<emphasis>--loop</emphasis> option</span>
+<span xml:lang="fr">Si vous désirez diffuser un continu, ajoutez
+l'option <emphasis>--loop</emphasis></span>
+.</para>
+
 
 <note>
 &streamable-mpeg-file;

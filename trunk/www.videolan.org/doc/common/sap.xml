@@ -1,4 +1,8 @@
-<chapter id="sap"><title id="tsap">Add a channel information service</title>
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<chapter id="sap"><title id="tsap">
+<span xml:lang="en">Add a channel information service</span>
+<span xml:lang="fr">Ajoutez un système d'information</span></title>
 
 <span xml:lang="en">
 <para>Typing multicast addresses is not very fun... that's why you need
@@ -12,7 +16,7 @@ the programs announced to their playlist.</para>
 
 <span xml:lang="fr">
 <para>Taper des adresses multicast n'est certainement pas très amusant,
-... et c'est tout l'interêt d'un système d'information ! La solutio
+... et c'est tout l'interêt d'un système d'information ! La solution
 VideoLAN implémente un service d'information basé sur le protocole
 SAP/SDP. Les annonces SAP sont envoyées sur l'adresse multicast
 <emphasis>224.2.127.254</emphasis>, réservée à cet usage). Côté client,

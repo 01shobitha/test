@@ -85,8 +85,12 @@ Back-Cover Texts. The text of the license can be found in the appendix
 
 <abstract>
 
-<para>This document describes how to use the complete VideoLAN streaming
-solution.</para>
+<para>
+<span xml:lang="en"> This document describes how to use the complete
+VideoLAN streaming solution.</span>
+<span xml:lang="fr"> Ce document décrit l'utilisaton de la solution de
+streaming VideoLAN. </span>
+</para>
 
 </abstract>
 

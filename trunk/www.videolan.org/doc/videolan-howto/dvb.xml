@@ -1,63 +1,123 @@
-<chapter id="dvb"><title id="tdvb">Stream a DVB channel (satellite or
-digital terrestial TV)</title>
+<?xml version="1.0" encoding="iso-8859-1" ?>
 
-<note><para>This is possible under Linux only.</para></note>
 
-<sect1><title>Install the DVB drivers</title>
+<chapter id="dvb"><title id="tdvb">
+<span xml:lang="en">Stream a DVB channel (satellite or digital
+terrestial TV)</span>
+<span xml:lang="fr">Diffusez un flux DVD (satellite ou télévision
+numérique terrestre)</span>
+</title>
 
-<para>If you want to be able to stream from a DVB card (a satellite
-card or a digital terrestial TV card), you need to install the DVB
-drivers. Download the latest release of the DVB drivers from the
+<note><para>
+<span xml:lang="en">This is possible under GNU/Linux only</span>
+<span xml:lang="fr">Ceci n'est possible que sous GNU/Linux</span>
+.</para></note>
+
+<sect1><title>
+<span xml:lang="en">Install the DVB drivers</span>
+<span xml:lang="fr">Installez les drivers DVB</span>
+</title>
+
+<para>
+<span xml:lang="en">If you want to be able to stream from a DVB card (a
+satellite card or a digital terrestial TV card), you need to install the
+DVB drivers. Download the latest release of the DVB drivers from the
 <ulink url="http://www.linuxtv.org/download/dvb/">DVB drivers download
 page</ulink> of the <ulink url="http://www.linuxtv.org/">LinuxTV</ulink>
-Project.</para>
+Project</span>
+<span xml:lang="fr">Si vous désirez diffuser depuis une carte
+DVB ( satellite ou télévision numérique terrestre), vous devez
+installer les drivers DVB. Téléchargez la dernière version
+depuis la <ulink url="http://www.linuxtv.org/download/dvb/">page
+de téléchargement des drivers DVB</ulink> du projet <ulink
+url="http://www.linuxtv.org/">LinuxTV</ulink></span>
+.</para>
 
-<para>Uncompress the tarball and follow the instructions written in
-the <filename>INSTALL</filename> file to compile and install the
-drivers.</para>
+<para>
+<span xml:lang="en">Uncompress the tarball and follow the instructions
+written in the <filename>INSTALL</filename> file to compile and install
+the drivers</span>
+<span xml:lang="fr">Décompressez le fichier et suivez les instructions
+du fichier <filename>INSTALL</filename> pour compiler et installer les
+drivers</span>
+.</para>
 
 </sect1>
 
-<sect1><title>Stream with VLS</title>
+<sect1><title>
+<span xml:lang="en">Stream with VLS</span>
+<span xml:lang="fr">Diffusez avec VLS</span>
+</title>
 
-<para>Put a <filename>.dvbrc</filename> file containing the DVB channels
-(satellite or digital terrestial TV channels) you want to stream in your
-home directory (some are provided in the <emphasis>libdvb</emphasis>
-tarball for the satellite channels).</para>
+<para>
+<span xml:lang="en">Put a <filename>.dvbrc</filename> file containing
+the DVB channels (satellite or digital terrestial TV channels) you
+want to stream in your home directory (some are provided in the
+<emphasis>libdvb</emphasis> tarball for the satellite channels)</span>
+<span xml:lang="fr">Mettez un fichier <filename>.dvbrc</filename>
+contenant les chaînes DVB que vous désirez diffuser dans
+votre répertoire utilisateur (certains sont fournis dans
+<emphasis>libdvb</emphasis> pour les chaînes satellites)</span>
+.</para>
 
-<para>Run VLS with the following command line :</para>
+<para>
+<span xml:lang="en">Run VLS with the following command line</span>
+<span xml:lang="fr">Lancez VLS avec cette ligne de commande</span>
+ :</para>
 
 <screen>
 <prompt>% </prompt><userinput>vls -vv -d udp:192.168.0.42 dvb:"EUROSPORT" --ttl 12</userinput>
 </screen>
 
-<para>where :</para>
+<para><span xml:lang="en">where</span>
+<span xml:lang="fr">où</span> :</para>
 
 <itemizedlist>
 
-<listitem><para><emphasis>"EUROSPORT"</emphasis> is the channel you
-want to stream as written in your <filename>~/.dvbrc</filename>
-file,</para></listitem>
+<listitem><para><emphasis>"EUROSPORT"</emphasis>
+<span xml:lang="en"> is the channel you want to stream as written in
+your <filename>~/.dvbrc</filename> file</span>
+<span xml:lang="fr">est la chaîne que vous désirez diffuser, comme
+décrit dans votre fichier <filename>~/.dvbrc</filename></span>
+,</para></listitem>
 
-<listitem><para><emphasis>192.168.0.42</emphasis> is either :</para>
+<listitem><para><emphasis>192.168.0.42</emphasis>
+<span xml:lang="en"> is either </span>
+<span xml:lang="fr"> est soit </span>
+:</para>
 
 <itemizedlist>
-
-<listitem><para>the IP address of the machine you want to unicast to
+<listitem><para>
+<span xml:lang="en">the IP address of the machine you want to unicast
+to</span>
+<span xml:lang="fr">l'adresse IP de la machine vers laquelle vous
+désirez diffuser en unicast</span>
 ;</para></listitem>
 
-<listitem><para>or the DNS name the machine you want to unicast to
+<listitem><para>
+<span xml:lang="en">or the DNS name the machine you want to unicast
+to</span>
+<span xml:lang="fr">le nom DNS de la machine vers laquelle vous désirez
+envoyer en unicast</span>
 ;</para></listitem>
 
-<listitem><para>or the multicast IP address.</para></listitem>
+<listitem><para>
+<span xml:lang="en">or a multicast IP address</span>
+<span xml:lang="fr">une adresse IP multicast</span>
+.</para></listitem>
+
 
 </itemizedlist>
 
 </listitem>
 
-<listitem><para><emphasis>12</emphasis> is the value of the TTL (Time To
+<listitem><para><emphasis>12</emphasis>
+<span xml:lang="en"> is the value of the TTL (Time To
 Live) of your IP packets (which means that the stream will be
-able to cross 11 routers).</para></listitem>
+able to cross 11 routers)</span>
+<span xml:lang="fr"> est la valeur du TTL (Time To Live) de vos paquets
+IP (cela signifie qu'ils pourront traverser 11 routeurs)</span>
+.</para></listitem>
 
 </itemizedlist>
 

@@ -26,6 +26,8 @@ easy to use menus but provides a restricted set of options.</para>
 <note><para>The wizard is only available for the wxWindows
 interface.</para></note>
 
+<sect2><title>Launching the wizard</title></sect2>
+
 <para>To launch the <emphasis>Streaming/Transcoding Wizard</emphasis>,
 open the "File" menu, and select the Wizard menu item.</para>
 
@@ -37,14 +39,16 @@ open the "File" menu, and select the Wizard menu item.</para>
   <caption><para>Launching the wizard</para></caption>
 </mediaobject>
 
+<sect2><title>Wizard dialog</title></sect2>
+
 <para>First select the general action you want to acheive.</para>
 
 <itemizedlist>
 
-<listitem><para><emphasize>Stream to network</emphasize>: Choose this
+<listitem><para><emphasis>Stream to network</emphasis>: Choose this
 option if you want to stream media on network.</para></listitem>
 
-<listitem><para><emphasize>Transcode/Save to file</emphasize>: Choose
+<listitem><para><emphasis>Transcode/Save to file</emphasis>: Choose
 this option if you want to change a file's audi codec and/or video codec
 and/or encapsulation method.</para></listitem>
 
@@ -58,10 +62,12 @@ and/or encapsulation method.</para></listitem>
   <caption><para>The Wizard Dialog</para></caption>
 </mediaobject>
 
+<sect2><title>Input selection</title></sect2>
+
 <para>Select any stream (such as a file, a UDP network stream, a disc
 ...) by using the "Open File" dialog or an item in your playlist.</para>
 
-<para><emphasize>Partial Extract</emphasize>: To read only part of the
+<para><emphasis>Partial Extract</emphasis>: To read only part of the
 stream, check the "Enable" checkbox and choose a start and end date (in
 seconds). This option should only be used with streams you can control
 such as files or discs but not UDP network streams.</para>
@@ -82,20 +88,22 @@ such as files or discs but not UDP network streams.</para>
   <caption><para>Wizard input selection from playlist</para></caption>
 </mediaobject>
 
-<para>If you choosed to <emphasize>Stream to network</emphasize> you can
+<sect2><title>Streaming methods</title></sect2>
+
+<para>If you choosed to <emphasis>Stream to network</emphasis> you can
 now specify the streaming method. Available methods are:</para>
 
 <itemizedlist>
 
-<listitem><para><emphasize>UDP Unicast</emphasize>: Stream to a
+<listitem><para><emphasis>UDP Unicast</emphasis>: Stream to a
 single computer. Enter the computer's IP address (in the 0.0.0.0 -
 223.255.255.255 range).</para></listitem>
 
-<listitem><para><emphasize>UDP Multicast</emphasize>: Stream to multiple
+<listitem><para><emphasis>UDP Multicast</emphasis>: Stream to multiple
 computers by multicast. Enter the multicast IP address (in the 224.0.0.0
 239.255.255.255 range).</para></listitem>
 
-<listitem><para><emphasize>HTTP</emphasize>: Stream by using the HTTP
+<listitem><para><emphasis>HTTP</emphasis>: Stream by using the HTTP
 protocol. If you leave the "Destination" text box empty, VLC will listen
 on all your IP addresses on port 8080. Specify the address and port on
 which to listen using the following syntax ip[:port].</para></listitem>
@@ -110,7 +118,9 @@ which to listen using the following syntax ip[:port].</para></listitem>
   <caption><para>Wizard streaming method</para></caption>
 </mediaobject>
 
-<para>If you choosed <emphasize>Transcode/Save to file</emphasize> you
+<sect2><title>Transcoding options</title></sect2>
+
+<para>If you choosed <emphasis>Transcode/Save to file</emphasis> you
 can now specify the new audio and video codecs and bitrates.</para>
 
 <para>TODO : give usual codec/bitrates combinations</para>
@@ -122,6 +132,8 @@ can now specify the new audio and video codecs and bitrates.</para>
   <textobject><para>Wizard transcode</para></textobject>
   <caption><para>Wizard transcode</para></caption>
 </mediaobject>
+
+<sect2><title>Encapsulation formats</title></sect2>
 
 <para>Choose the encapsulation format. The UDP streaming methods require
 MPEG TS encapsulation. The HTTP streaming method requires MPEG PS, MPEG
@@ -136,17 +148,19 @@ encapsulation format.</para>
   <caption><para>Wizard encapsulation method</para></caption>
 </mediaobject>
 
-<para>If you choosed to <emphasize>Stream to network</emphasize> you can
+<sect2><title>Streaming options</title></sect2>
+
+<para>If you choosed to <emphasis>Stream to network</emphasis> you can
 now specify several options.</para>
 
 <itemizedlist>
 
-<listitem><para><emphasize>Time To Live (TTL)</emphasize> This sets
+<listitem><para><emphasis>Time To Live (TTL)</emphasis> This sets
 the numbers of routers your stream can go through. If you do not know
 what this means, you should leave the default value of "1". For more
 information, contact your network administrator.</para></listitem>
 
-<listitem><para><emphasize>SAP Announce</emphasize> To advertise your
+<listitem><para><emphasis>SAP Announce</emphasis> To advertise your
 stream when using the UDP streaming method, enter an SAP announce
 and check the checkbox. This is NOT available for the HTTP streaming
 method.</para></listitem>
@@ -161,7 +175,9 @@ method.</para></listitem>
   <caption><para>Wizard streaming options</para></caption>
 </mediaobject>
 
-<para>If you choosed <emphasize>Transcode/Save to file</emphasize> you can now specify the destination file you want to save to.</para>
+<sect2><title>Save to file destination</title></sect2>
+
+<para>If you choosed <emphasis>Transcode/Save to file</emphasis> you can now specify the destination file you want to save to.</para>
 
 <mediaobject>
   <imageobject>

@@ -7,7 +7,7 @@
 <title>VideoLAN FAQ</title>
 
 <copyright>
-<year>2002, 2003</year>
+<year>2002 - 2004</year>
 <holder>
 das VideoLAN Projekt
 </holder>
@@ -33,7 +33,7 @@ gefunden werden.
 <!-- Starting the Q & A -->
 
 <qandaset><title>VideoLAN FAQ</title>
-<qandadiv><title>VLC Media Player</title><qandaentry><question><para>Wo kann ich VLC für Mac OS 9 herunterladen?</para></question>
+<qandadiv><title>VLC media player</title><qandaentry><question><para>Wo kann ich VLC für Mac OS 9 herunterladen?</para></question>
 
 <answer>
 
@@ -241,7 +241,27 @@ hinzu.
 
 </itemizedlist>
 
-</answer></qandaentry></qandadiv>
+</answer></qandaentry>
+
+<qandaentry><question><para>
+Meine Datei scheint nicht zu funktionieren!
+</para></question>
+
+<answer>
+
+<para>
+Sind Sie sicher, dass VLC die Datei unterstützt? Versuchen Sie, dies auf der <ulink url="http://www.videolan.org/vlc/features.html">Features</ulink> Seite zu überprüfen. Wenn sie unterstützt wird und Sie VLC selbst kompiliert haben, überprüfen Sie, ob Sie alle Codecs heruntergeladen und korrekt installiert haben. Wenn Ihre Datei nicht unterstützt ist, haben Sie derzeit keine Möglichkeit sie mit VLC wiederzugeben.
+</para>
+
+<note><para>
+Derzeit werden insbesondere keine WMV3, die meisten Real Player und Indeo Video ("IV50", etc.) - Dateien unterstützt und werden es in naher Zukunft auch nicht.
+</para></note>
+
+</answer></qandaentry>
+
+</qandadiv>
+
+
 <qandadiv><title>VideoLAN Streaming-Lösung</title>
 
 <qandaentry><question><para>

@@ -8,7 +8,7 @@
 <title>VideoLAN FAQ</title>
 
 <copyright>
-<year>2002, 2003</year>
+<year>2002 - 2004</year>
 <holder>
 the VideoLAN project
 </holder>
@@ -40,7 +40,7 @@ website</ulink>.
 
 
 
-<qandadiv><title>VLC Media Player</title>
+<qandadiv><title>VLC media player</title>
 
 
 <qandaentry><question><para>
@@ -328,9 +328,25 @@ option to the command line.
 
 </answer></qandaentry>
 
+<qandaentry><question><para>
+My file doesn't seem to work!
+</para></question>
+
+<answer>
+
+<para>
+Are you sure VLC supports the file? Try checking the <ulink
+url="http://www.videolan.org/vlc/features.html">features page</ulink>. If it supported and you compiled VLC yourself, check if you have downloaded and installed all the codecs correctly. If it is not supported, then you are out of luck for now.
+</para>
+
+<note><para>
+At present, especially WMV3, the most Real Player, and the most Indeo Video ("IV50", etc.) files are not supported by VLC and are not going to be in the near future.
+</para></note>
+
+</answer></qandaentry>
+
 
 </qandadiv>
-
 
 
 <qandadiv><title>

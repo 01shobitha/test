@@ -89,7 +89,7 @@ global $HTTP_GET_VARS;
   <tr>
     <td class="topleft" style="width: 8%">&nbsp;</td><?
     get_first_bar_item_poukram(6, "home", "Home", "/", $modules[1]);
-    get_first_bar_item_poukram(6, "vlc", "VLC", "/vlc/", $modules[1]);
+    get_first_bar_item_poukram(6, "vlc", "VLC media player", "/vlc/", $modules[1]);
     get_first_bar_item_poukram(6, "streaming", "Streaming", "/streaming/", $modules[1]);
     get_first_bar_item_poukram(6, "doc", "Documentation", "/doc/", $modules[1]);
     get_first_bar_item_poukram(6, "support", "Support", "/support/", $modules[1]);
@@ -141,7 +141,7 @@ global $HTTP_GET_VARS;
   <table style="width: 100%;" cellspacing="0" cellpadding="0">
   <tr><?
     get_first_bar_item(6, "home", "Home", "/", $modules[1]);
-    get_first_bar_item(6, "vlc", "VLC", "/vlc/", $modules[1]);
+    get_first_bar_item(6, "vlc", "VLC media player", "/vlc/", $modules[1]);
     get_first_bar_item(6, "streaming", "Streaming", "/streaming/", $modules[1]);
     get_first_bar_item(6, "doc", "Documentation", "/doc/", $modules[1]);
     get_first_bar_item(6, "support", "Support", "/support/", $modules[1]);

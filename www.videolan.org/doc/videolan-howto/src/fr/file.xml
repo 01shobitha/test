@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="iso8859-1"?>
 <chapter id="file"><title id="tfile">
-Stream a file
+
+Diffusez un fichier
+
+
 </title>
 
 <sect1><title>
-Stream a file with VLC
 
+Diffusez un fichier avec VLC
 
 
 </title>
@@ -15,8 +18,8 @@ Stream a file with VLC
 </screen>
 
 <para>
-where 
 
+où 
 
 
 :</para>
@@ -24,15 +27,15 @@ where
 <itemizedlist>
 
 <listitem><para><filename>video1.xyz</filename>
- is the file you want to stream
 
+ est le fichier que vous désirez diffuser
 
 
 ,</para></listitem>
 
 <listitem><para><emphasis>192.168.0.42</emphasis>
- is either 
 
+ est soit 
 
 
 :</para>
@@ -40,24 +43,24 @@ where
 <itemizedlist>
 
 <listitem><para>
-the IP address of the machine you want to unicast
-to
 
-
-
-;</para></listitem>
-
-<listitem><para>
-or the DNS name the machine you want to unicast
-to
-
+l'adresse IP de la machine vers laquelle vous
+désirez diffuser en unicast
 
 
 ;</para></listitem>
 
 <listitem><para>
-or a multicast IP address
 
+le nom DNS de la machine vers laquelle vous désirez
+envoyer en unicast
+
+
+;</para></listitem>
+
+<listitem><para>
+
+une adresse IP multicast
 
 
 .</para></listitem>
@@ -67,19 +70,18 @@ or a multicast IP address
 </listitem>
 
 <listitem><para><emphasis>12</emphasis>
- is the value of the TTL (Time To
-Live) of your IP packets (which means that the stream will be
-able to cross 11 routers)
 
+ est la valeur du TTL (Time To Live) de vos paquets
+IP (cela signifie qu'ils pourront traverser 11 routeurs)
 
 
 .</para></listitem>
 </itemizedlist>
 
 <para>
-If you want to stream the file continuously, add the
-<emphasis>--loop</emphasis> option
 
+Si vous désirez diffuser un continu, ajoutez
+l'option <emphasis>--loop</emphasis>
 
 
 .</para>
@@ -87,8 +89,8 @@ If you want to stream the file continuously, add the
 </sect1>
 
 <sect1><title>
-Stream a file with VLS
 
+Diffusez un fichier avec VLS
 
 
 </title>
@@ -97,8 +99,8 @@ Stream a file with VLS
 <prompt>% </prompt><userinput>vls -vv -d udp:192.168.0.42 file:video1.xyz --ttl 12</userinput>
 </screen>
 
-<para>where
-
+<para>
+où
 
 
  :</para>
@@ -107,39 +109,39 @@ Stream a file with VLS
 <itemizedlist>
 
 <listitem><para><filename>video1.xyz</filename>
- is the file you want to stream
 
+ est le fichier que vous désirez diffuser
 
 
 ,</para></listitem>
 
 <listitem><para><emphasis>192.168.0.42</emphasis>
- is either 
 
+ est soit 
 
 
 :</para>
 
 <itemizedlist>
 <listitem><para>
-the IP address of the machine you want to unicast
-to
 
-
-
-;</para></listitem>
-
-<listitem><para>
-or the DNS name the machine you want to unicast
-to
-
+l'adresse IP de la machine vers laquelle vous
+désirez diffuser en unicast
 
 
 ;</para></listitem>
 
 <listitem><para>
-or a multicast IP address
 
+le nom DNS de la machine vers laquelle vous désirez
+envoyer en unicast
+
+
+;</para></listitem>
+
+<listitem><para>
+
+une adresse IP multicast
 
 
 .</para></listitem>
@@ -150,10 +152,9 @@ or a multicast IP address
 </listitem>
 
 <listitem><para><emphasis>12</emphasis>
- is the value of the TTL (Time To
-Live) of your IP packets (which means that the stream will be
-able to cross 11 routers)
 
+ est la valeur du TTL (Time To Live) de vos paquets
+IP (cela signifie qu'ils pourront traverser 11 routeurs)
 
 
 .</para></listitem>
@@ -163,16 +164,16 @@ able to cross 11 routers)
 
 <para>
 
-When you want to stop VLS, use the key combination
 
+Quand vous désirez stopper VLS, faites :
 
 
 <keycombo><keycap>Ctrl</keycap><keycap>c</keycap></keycombo>.</para>
 
 <para>
-If you want to stream the file continuously, add the
-<emphasis>--loop</emphasis> option
 
+Si vous désirez diffuser un continu, ajoutez
+l'option <emphasis>--loop</emphasis>
 
 
 .</para>

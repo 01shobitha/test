@@ -1,35 +1,31 @@
 <?xml version="1.0" encoding="iso8859-1"?>
 <chapter id="hardencoding"><title id="thardencoding">
-
-Stream from an MPEG encoding card
-
-
-
+Streaming der Daten einer MPEG-Kodierungskarte
 </title>
 
 <note><para>
-This is possible under GNU/Linux only
 
 
 
+Dies ist nur unter GNU/Linux möglich
 .</para></note>
 
 
 <para>
-VideoLAN supports two kinds of MPEG-2 encoding cards
 
 
- 
+
+VideoLAn unterstützt zwei Arten von MPEG-2-Kodierungskarten
  :</para>
 
 <itemizedlist>
 
 <listitem><para>
 
-Hauppauge WinTV-PVR-250 and WinTV-PVR-350,
 
 
 
+Hauppauge WinTV-PVR-250 und WinTV-PVR-350,
 
 </para></listitem>
 
@@ -38,64 +34,64 @@ Hauppauge WinTV-PVR-250 and WinTV-PVR-350,
 </itemizedlist>
 
 <para>
-The Hauppauge WinTV-PVR-250/350 gives much better
-results and is cheaper than the Visiontech Kfir
 
 
 
+Die Hauppauge WinTV-PVR-250/350 erzielt bessere Ergebnisse
+und is günstiger als die Visiontech Kfir
 .</para>
 
 
 <sect1><title>
-Stream with the Hauppauge WinTV-PVR-250/350 card
 
 
 
+Streaming mit der Hauppauge WinTV-PVR-250/350 - Karte
 </title>
 
 <sect2><title>
-Install the drivers
 
 
 
+Installation der Treiber
 </title>
 
 <para>
-First, you will have to patch your kernel to support
-the v4l2 API (Video 4 Linux version 2). The patch is available on the
+
+
+
+Zuerst müssen Sie Ihren Kernel patchen, sodass er das 
+v4l2 API (Video 4 Linux version 2) unterstützt. Der Patch ist verfügbar bei
 <ulink url="http://bytesex.org/v4l/">Video4Linux HQ</ulink>
-
-
-
 .</para>
 
 <para>
-Once your kernel is ready, install the CVS version
-of the Linux drivers for the Hauppauge WinTV-PVR-250/350. They are hosted on
-<ulink url="http://ivtv.sourceforge.net/">ivtv.sourceforge.net</ulink>.
-Then, you will have to create the device and load the modules; for this,
-please refer to the documentation shipped with the drivers
 
 
+
+Wenn Ihr Kernel fertig ist, installieren Sie die 
+CVS-Version der Linux-Treiber für die Hauppauge WinTV-PVR-250/350. Sie sind verfügbar 
+auf <ulink url="http://ivtv.sourceforge.net">ivtv.sourceforge.net</ulink>.  Danach 
+müssen Sie das Device erzeugen und die Module laden. Beachten Sie dafür bitte
+die den Treibern beiliegende Dokumentation
 
 .</para>
 
 </sect2>
 
 <sect2><title>
-Stream with VLC
 
 
 
+Streaming mit VLC
 </title>
 
 <note><para>
-You must add <command>--enable-pvr</command>
-to <command>./configure</command> to use this
-feature.
 
 
 
+Sie müssen <command>--enable-pvr</command> zu
+<command>./configure</command> dafür hinzufügen.
 </para></note>
 
 <screen>
@@ -104,87 +100,86 @@ bitrate=3000000:maxbitrate=4000000 --sout udp:192.168.0.42 --ttl 12 --cr-average
 </screen>
 
 <para>
-where
+
 
  
-
+wobei
 :</para>
 
 <itemizedlist>
 
 <listitem><para><emphasis>/dev/video0</emphasis> 
-is the device corresponding to the encoding card
 
 
 
+ist das Device, welches der Kodierungskarte entspricht
 ,</para></listitem>
 
 <listitem><para><emphasis>norm=secam</emphasis>
- is name of the standard of the analogic signal
-(possible values are pal, secam, and ntsc)
 
 
 
+ ist der Name des analogen Signalstandards 
+(mögliche Werte sind pal, secam und ntsc)
 ,</para></listitem>
 
 <listitem><para><emphasis>size=720x576</emphasis>
-is the size of the video you want to stream
 
 
 
+ist die Größe des Videos, das Sie streamen möchten
 ,</para></listitem>
 
 <listitem><para><emphasis>frequency=567250</emphasis>
- is the frequency in kHz of the channel you want to
-stream
 
 
 
+ist die Frequenz des Kanals in kHz, den Sie streamen möchten
 ,</para></listitem>
 
 <listitem><para><emphasis>bitrate=3000000</emphasis> 
-is the average bitrate of the stream
 
 
 
+ist die durchschnittliche Bitrate des Streams
 ,</para></listitem>
 
 <listitem><para><emphasis>maxbitrate=4000000</emphasis>
-is the maximum bitrate of the stream
 
 
 
+ist die maximale Bitrate des Streams
 ,</para></listitem>
 
 <listitem><para><emphasis>192.168.0.42</emphasis>
- is either 
 
 
 
+ ist entweder 
 :</para>
 
 <itemizedlist>
 <listitem><para>
-the IP address of the machine you want to unicast
-to
 
 
 
+die IP-Adresse des Rechners, den Sie via unicast 
+erreichen möchten
 ;</para></listitem>
 
 <listitem><para>
-or the DNS name the machine you want to unicast
-to
 
 
 
+oder der DNS-Name des Rechners, den Sie via
+unicast erreichen möchten
 ;</para></listitem>
 
 <listitem><para>
-or a multicast IP address
 
 
 
+oder eine Multicast-IP-Adresse
 .</para></listitem>
 
 </itemizedlist>
@@ -192,19 +187,19 @@ or a multicast IP address
 </listitem>
 
 <listitem><para><emphasis>12</emphasis>
- is the value of the TTL (Time To
-Live) of your IP packets (which means that the stream will be
-able to cross 11 routers)
 
 
 
+ ist der Wert der TTK (Time To Live) 
+Ihrer IP-Pakete (was heißt, dass der Stream in der Lage sein wird, 
+11 Router zu überqueren)
 .</para></listitem>
 
 <listitem><para><emphasis>1000</emphasis>
- is a secret value to work around a bug of the card
 
 
 
+ ist ein geheimer Wert, um einen Fehler der Karte zu umgehen
 .</para></listitem>
 
 
@@ -213,34 +208,34 @@ able to cross 11 routers)
 </sect2>
 
 <sect2><title>
-Stream with VLS
 
 
 
+Streaming mit VLS
 </title>
 
 <para>
-You must use the CVS version of VLS
 
 
 
+Sie müssen die CVS-Version von VLS benutzen
 .</para>
 
 <para>
-There is no command line interface for this input
-for the moment, so you will have to use the configuration file
 
 
 
+Es gibt derzeit keine Befehlszeilenoberfläche für diesen
+Input, sodass Sie die Konfigurationsdatei benutzen müssen
 .</para>
 
 <para>
-Here is a typical configuration file
-<filename>vls.cfg</filename>to run VLS with a Hauppauge WinTV-PVR-250/350
-encoding card
 
 
 
+Hier ist eine typische Konfigurationsdatei
+<filename>vlc.cfg</filename> zur Benutzung von VLS mit einer Hauppauge 
+WinTV-PVR-250/350-Kodierungskarte
 :</para>
 
 <programlisting>
@@ -329,11 +324,11 @@ end
 </programlisting>
 
 <para>
-Once you have adapted the configuration file above,
-run VLS
 
 
 
+Wenn Sie die obere Konfigurationsdatei adaptiert haben,
+starten Sie VLS
 :</para>
 
 <screen>
@@ -344,106 +339,105 @@ run VLS
 </sect1>
 
 <sect1><title>
-Stream with the Visiontech Kfir card
 
 
 
+Streaming mit der Visiontech Kfir-Karte
 </title>
 
 <sect2><title>
-Install the drivers
 
 
 
+Installation der Treiber
 </title>
 
 <para>
-If you want to be able to stream from a
-Visiontech Kfir card, you need to install its Linux drivers.
-Download the latest release of the drivers from the <ulink url="http://www.linuxtv.org/download/mpeg2/">drivers download
-page</ulink> of the <ulink url="http://www.linuxtv.org/">LinuxTV web
-site</ulink>
 
 
 
+Wenn Sie von einer Visiontech Kfir Karte 
+streamen möchten, müssen Sie deren Linux-Treiber installieren.
+Laden Sie die neueste Version der Treiber von der <ulink url="http://www.linuxtv.org/download/mpeg2/"> Treiber-Downloadseite </ulink>
+der <ulink url="http://www.linuxtv.org/">LinuxTV Website </ulink> herunter
 .</para>
 
 
 <para>
-Uncompress the tarball and follow the instructions
-written in the <filename>INSTALL</filename> file to compile and install
-the drivers
 
 
 
+Dekomprimieren Sie das Archiv und befolgen Sie die 
+Anweisungen in der Datei <filename>INSTALL</filename> zur Kompilierung 
+und Installation der Treiber
 .</para>
 
 <note><para>
-If you have a VIA chipset, you need to disable USB
-in the BIOS
 
 
 
+Wenn Sie einen VIA Chipsatz haben, müssen Sie USB
+im BIOS deaktivieren
 .</para></note>
 
 </sect2>
 
 <sect2><title>
 
-Stream with VLC
 
 
 
+Streaming mit VLC
 </title>
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv kfir:/dev/video --sout udp:192.168.0.42 --ttl 12</userinput>
 </screen>
 
-<para>where
+<para>
 
 
-
+wobei
  :</para>
 
 <itemizedlist>
 
 <listitem><para><filename>/dev/video</filename>
-is the device corresponding to the Kfir card
 
 
 
+ist das Device, welches mit der Kfir-Karte korrespondiert
 ,</para></listitem>
 
 <listitem><para><emphasis>192.168.0.42</emphasis>
- is either 
 
 
 
+ist entweder
 :</para>
 
 <itemizedlist>
 <listitem><para>
-the IP address of the machine you want to unicast
-to
 
 
 
+die IP-Adresse des Rechners, den Sie via Unicast
+erreichen möchten
 ;</para></listitem>
 
 <listitem><para>
-or the DNS name the machine you want to unicast
-to
 
 
 
+oder der DNS-Name des Rechners, den Sie via Unicast
+erreichen möchten
 ;</para></listitem>
 
 <listitem><para>
-or a multicast IP address
 
 
 
+oder eine Multicast-IP-Adresse
 .</para></listitem>
 
 </itemizedlist>
@@ -451,12 +445,12 @@ or a multicast IP address
 </listitem>
 
 <listitem><para><emphasis>12</emphasis>
- is the value of the TTL (Time To
-Live) of your IP packets (which means that the stream will be
-able to cross 11 routers)
 
 
 
+ ist der Wert der TTL (Time To Live) 
+Ihrer IP-Pakete (was bedeutet, das der Stream in der Lage sein 
+wird, 11 Router zu überqueren)
 .</para></listitem>
 
 </itemizedlist>
@@ -464,27 +458,27 @@ able to cross 11 routers)
 </sect2>
 
 <sect2><title>
-Stream with VLS
 
-
-
+Diffusez avec VLS
+Streaming con VLS
+Streaming mit VLS
 </title>
 
 <para>
-There is no command line interface for this input
-for the moment, so you will have to use the configuration file
 
 
 
+Es gibt derzeit keine Befehlszeilenoberfläche für diesen
+Input, sodass Sie die Konfigurationsdatei benutzen werden müssen
 .</para>
 
 <para>
-Here is a typical configuration file
-<filename>vls.cfg</filename>to run VLS with a VisionTech Kfir
-encoding card
 
 
 
+Hier ist eine typische Konfigurationsdatei
+<filename>vls.cfg</filename> zur Benutzung von VLS mit einer 
+VisionTech Kfir - Kodierungskarte
 :</para>
 
 
@@ -538,11 +532,11 @@ END
 </programlisting>
 
 <para>
-Once you have adapted the configuration file above,
-run VLS
 
 
 
+Wenn Sie die obere Konfigurationsdatei adaptiert haben,
+starten Sie VLS
 :</para>
 
 <screen>

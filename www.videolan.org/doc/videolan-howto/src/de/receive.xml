@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="iso8859-1"?>
 <chapter id="receive"><title id="treceive">
-Receive and save a stream
+
+
+
+Einen Stream empfangen und speichern
 </title>
 
 <sect1><title>
-Receive a stream with VLC
 
 
 
+Einen Stream mit VLC empfangen
 </title>
 
 <sect2><title>
-Receive an unicast stream
 
 
 
+Einen Unicast-Stream empfangen
 </title>
 
 <screen>
@@ -24,10 +27,10 @@ Receive an unicast stream
 </sect2>
 
 <sect2><title>
-Receive a multicast stream
 
 
 
+Einen Multicast-Stream empfangen
 </title>
 
 <screen>
@@ -35,27 +38,27 @@ Receive a multicast stream
 </screen>
 
 <para>
- where <emphasis>239.255.12.42</emphasis> is the
-multicast IP address you want to join
 
 
 
+wobei <emphasis>239.255.12.42</emphasis> die
+Multicast-IP-Adresse ist, an der Sie teilnehmen möchten
 .</para>
 
 </sect2>
 
 <sect2><title>
-Receive an HTTP/FTP/MMS stream
 
 
 
+Einen HTTP/FTP/MMS-Stream empfangen
 </title>
 
 <para>
-Use one of the following command lines
 
 
 
+Nutzen Sie eine der folgenden Befehlszeilen
  :</para>
 
 <itemizedlist>
@@ -67,11 +70,11 @@ Use one of the following command lines
 </screen>
 
 <para>
-where <emphasis>http://example/stream.xyz</emphasis>
-is the HTTP address of the stream
 
 
 
+wobei <emphasis>http://example/stream.xyz
+</emphasis> die HTTP-Adresse des Streams ist
  ;</para>
 
 </listitem>
@@ -83,11 +86,11 @@ is the HTTP address of the stream
 </screen>
 
 <para>
-where <emphasis>ftp://example/stream.xyz</emphasis>
-is the FTP address of the stream
 
 
 
+wobei <emphasis>ftp://example/stream.xyz</emphasis>
+die FTP-Adresse des Streams ist
  ;</para>
 
 
@@ -100,12 +103,12 @@ is the FTP address of the stream
 </screen>
 
 <para>
-where
-<emphasis>mms://viptvr.yacast.fr/encoderfranceinfo</emphasis> is the MMS
-address of the stream
 
 
 
+wobei
+<emphasis>mms://viptvr.yacast.fr/encoderfranceinfo</emphasis> die
+MMS-Adresse des Streams ist
 .</para>
 
 </listitem>
@@ -114,10 +117,10 @@ address of the stream
 </sect2>
 
 <sect2><title>
-Receive a RTP stream available through RTSP
 
 
 
+Erhalten eines RTP-Streams, der per RTSP verfügbar ist 
 </title>
 
 <screen>
@@ -125,19 +128,19 @@ Receive a RTP stream available through RTSP
 </screen>
 
 <para>
- where <emphasis>rtsp://www.hardradio.com/tonbeme.mov</emphasis> is the address of the stream
 
 
 
+wobei <emphasis>rtsp://www.hardradio.com/tonbeme.mov</emphasis> die Adresse des Streams ist
 .</para>
 
 </sect2>
 
 <sect2><title>
-Receive a stream described by an SDP file
 
 
 
+Erhalten eines per SDP-Datei beschriebenen Streams
 </title>
 
 <screen>
@@ -148,20 +151,20 @@ Receive a stream described by an SDP file
 </sect1>
 
 <sect1><title>
-Save a stream with VLC
 
 
 
+Einen Stream mit VLC speichern
 </title>
 
 <para>
-VLC can save the stream to the disk. In order
-to do this, use the Stream Output of VLC : you can do it via the
-graphical interface, or you can add to the command line the following
-argument
 
 
 
+VLC kann den Stream auf der Festplatte speichern. Um dies
+zu tun, benutzen Sie die Stream-Ausgabe von VLC: Sie können dies über die
+grafische Oberfläche tun oder der Befehlszeile das folgende Argument 
+hinzufügen
  :</para>
 
 <screen>
@@ -169,52 +172,52 @@ argument
 </screen>
 
 <para>
-where 
 
 
 
+wobei
 :</para>
 
 <itemizedlist>
 
 <listitem><para><emphasis>muxer</emphasis> 
-is one of the formats supported by VLC's stream
-output, i.e. 
 
 
 
+ein von VLC's Stream-Ausgabe benutztes Format ist,
+z.B.
 :</para>
 
 <itemizedlist>
 
 <listitem><para><emphasis>avi</emphasis>
-  for AVI format
  
  
  
+  für das AVI-Format
 ,</para></listitem>
 
 <listitem><para><emphasis>ogg</emphasis>
-  for OGG format
  
  
  
+  für das OGG-Format
 ,</para></listitem>
 
 <listitem><para><emphasis>ps</emphasis> 
-  for MPEG2-PS format
  
  
  
+  für das MPEG2-PS-Format
 ,</para></listitem>
 
 <listitem><para><emphasis>ts</emphasis> or
 <emphasis>ts_dvbpsi</emphasis> 
-  for MPEG2-PS format (the latter uses
-<emphasis>libdvbpsi</emphasis> for the task)
-  
  
   
+ 
+   für das MPEG2-PS-Format (der zweite nutzt
+<emphasis>libdvbpsi</emphasis>)
 .</para></listitem>
 
 </itemizedlist>
@@ -222,11 +225,11 @@ output, i.e.
 </listitem>
 
 <listitem><para>
-and <filename>stream.xyz</filename> is the name of
-the file you want to save the stream to, with the right extension
 
 
 
+und <filename>stream.xyz</filename> ist der Name der
+Datei mit dem richtigen Suffix, in der Sie den Stream speichern möchten
 .</para></listitem>
 
 </itemizedlist>
@@ -234,21 +237,23 @@ the file you want to save the stream to, with the right extension
 </sect1>
 
 <sect1><title>
-Receive a stream with a set-top-box
 
 
 
+Einen Stream mit einer Set-Top-Box empfangen
 </title>
 
 <para>
-Some set-top-boxes with Ethernet cards can receive
-MPEG2-TS streams over UDP and support multicast. This is the case
-of the <ulink url="http://www.pace.co.uk">Pace</ulink> and <ulink url="http://www.aminocom.com">Aminocom</ulink> set top boxes. We have
-tested the <emphasis>AmiNET 100</emphasis> set-top-box from Aminocom: it
-is nice and small, and it works very well with VideoLAN
 
 
 
+Einige Set-Top-Boxen mit Ethernet-Karten können
+MPEG2-TS-Streams über UDP empfangen und unterstützen Multicast.
+Dies ist der Fall bei den <ulink url="http://www.pace.co.uk">Pace</ulink>
+und <ulink url="http://www.aminocom.com">Aminocom</ulink> - 
+Set-Top-Boxen. Wir haben die <emphasis>AmiNET 100</emphasis> 
+Set-Top-Box von Aminocom getestet: sie ist schön und klein und arbeitet
+sehr gut mit VideoLAN
 .</para>
 
 </sect1>

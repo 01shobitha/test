@@ -1,49 +1,48 @@
 <?xml version="1.0" encoding="iso8859-1"?>
 <chapter id="usesout"><title id="tusesout">
-Advanced use of VLC's stream output
-(transcoding, multiple streaming, etc...)
 
 
+Utilización avanzada de la salida de transmisión de VLC
+(transcodificación, múltiples transmisiones, etc...)
 
 </title>
 
 <sect1><title>
-The syntax
 
 
+La sintaxis
 
 </title>
 
 <para>
-Please refer to the <emphasis>command line
-interface</emphasis> chapter of the VLC user guide to learn the syntax
-of VLC's stream output. You can find the VLC user guide on the <ulink url="http://www.videolan.org/doc/">documentation page</ulink>
 
 
+Por favor consulte el capítulo <emphasis>interfaz de línea de comandos</emphasis> de la guía de usuario de VLC para aprender
+la sintaxis de la salida de transmisión de VLC. Puedes encontrar la guía de usuario de VLC en la página de documentación <ulink url="http://www.videolan.org/doc/"/>
 
 .</para>
 
 </sect1>
 
 <sect1><title>
-Examples
 
 
+Ejemplos
 
 </title>
 
 <sect2><title>
-Transcoding
 
 
+Transcodificación
 
 </title>
 
 <para>
-Transcode the input stream and send it to a
-multicast IP address with the associated SAP announce
 
 
+Transcodificar el flujo de entrada y enviarlo a una
+dirección IP multicast con el correspondiente anuncio SAP asociado
 
 :</para>
 
@@ -53,10 +52,10 @@ standard{access=udp,mux=ts,url=239.255.12.42,sap=TestStream}'</userinput>
 </screen>
 
 <para>
- Display the input stream, transcode it and send it
-to a multicast IP address with the associated SAP announce
 
 
+ Mostrar el flujo de entrada, transcodificarlo y enviarlo
+a la dirección multicast con el correspondiente anuncio SAP asociado
 
 :</para>
 
@@ -67,11 +66,10 @@ standard{access=udp,mux=ts,url=239.255.12.42,sap=TestStream}"}'</userinput>
 </screen>
 
 <para>
-Transcode the input stream, display the transcoded
-stream and send it to a multicast IP address with the associated SAP
-announce
 
 
+Transcodificar el flujo de entrada, mostrar el flujo transcodificado
+y enviarlo a la dirección IP multicast con el correspondiente anuncio SAP asociado
 
 :</para>
 
@@ -83,17 +81,17 @@ duplicate{dst=display,dst=standard{access=udp,mux=ts,url=239.255.12.42,sap=TestS
 </sect2>
 
 <sect2><title>
-Multiple streaming
 
 
+Transmisión múltiple
 
 </title>
 
 <para>
-Send a stream to a multicast IP address and a
-unicast IP address
 
 
+Enviar un flujo a una dirección IP multicast y a una
+dirección IP unicast
 
 :</para>
 
@@ -104,10 +102,10 @@ dst=standard{access=udp,mux=ts,url=192.168.1.2}}'</userinput>
 </screen>
 
 <para>
-Display the stream and send it to two unicast IP
-addresses
 
 
+Mostrar el flujo y enviarlo a dos direcciones IP 
+unicast
 
 :</para>
 
@@ -121,18 +119,18 @@ dst=standard{access=udp,mux=ts,url=192.168.1.42}}'</userinput>
 
 <sect2><title>
 
-Transcoding and multiple streaming
 
 
+Transcodificación y transmisión múltiple
 
 </title>
 
 <para>
-Transcode the input stream, display the transcoded
-stream and send it to a multicast IP address with the associated SAP
-announce and an unicast IP address
 
 
+Transcodificar el flujo de entrada, mostrar el flujo
+transcodificado y enviarlo a una dirección IP multicast con el correspondiente
+anuncio SAP asociado y a una dirección IP unicast
 
 :</para>
 
@@ -143,10 +141,10 @@ dst=standard{access=udp,mux=ts,url=192.168.1.2}}'</userinput>
 </screen>
 
 <para>
-Display the input stream, transcode it and send it
-to two unicast IP addresses
 
 
+Mostrar el flujo de entrada, transcodificarlo y enviarlo
+a dos direcciones IP unicast
 
 :</para>
 
@@ -158,11 +156,11 @@ dst=standard{access=udp,mux=ts,url=192.168.1.12}"}'</userinput>
 </screen>
 
 <para>
-Send the input stream to a multicast IP address
-and the transcoded stream to another multicast IP address with the
-associated SAP announces
 
 
+Enviar el flujo de entrada a una dirección IP multicast
+y el flujo transcodificado a otra dirección IP multicast con los
+correspondientes anuncios SAP asociados
 
 :</para>
 
@@ -176,25 +174,25 @@ standard{access=udp,mux=ts,url=239.255.1.3,sap=TranscodedStream}"}'</userinput>
 </sect2>
 
 <sect2><title>
-HTTP streaming
 
 
+Transmisión HTTP
 
 </title>
 
 <para>
-Stream in HTTP
 
 
+Transmitir en HTTP
 
 :</para>
 
 <itemizedlist>
 
 <listitem><para>
-on the server, run
 
 
+en el servidor, ejecuta
 
 :</para>
 
@@ -205,9 +203,9 @@ on the server, run
 </listitem>
 
 <listitem><para>
-on the client(s), run
 
 
+en el/los cliente(s), ejecuta
 
 :</para>
 
@@ -220,9 +218,9 @@ on the client(s), run
 </itemizedlist>
 
 <para>
-Transcode and stream in HTTP
 
 
+Transcodificación y transmisión en HTTP
 
 :</para>
 
@@ -232,10 +230,10 @@ standard{access=http,mux=ogg,url=server.example.org:8080}'</userinput>
 </screen>
 
 <para>
-For example, if you want to stream an audio CD in
-Ogg/Vorbis over HTTP
 
 
+Por ejemplo, si se quiere transmitir un CD de audio en
+Ogg/Vorbis sobre HTTP
 
 :</para>
 
@@ -247,25 +245,25 @@ standard{access=http,mux=ogg,url=server.example.org:8080}'</userinput>
 </sect2>
 
 <sect2><title>
-RTP streaming
 
 
+Transmisión RTP
 
 </title>
 
 <para>
-Stream in RTP
 
 
+Transmitir en RTP/RTSP
 
 :</para>
 
 <itemizedlist>
 
 <listitem><para>
-on the server, run
 
 
+en el servidor, ejecuta
 
 :</para>
 
@@ -273,18 +271,38 @@ on the server, run
 <prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#rtp{dst=192.168.0.12,port=1234,sdp=http://server.example.org:8080/test.sdp}'</userinput>
 </screen>
 
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#rtp{dst=192.168.0.12,port=1234,sdp=rtsp://server.example.org:8080/test.sdp}'</userinput>
+</screen>
+
 </listitem>
 
 <listitem><para>
-on the client(s), run
 
 
+en el/los cliente(s), ejecuta
 
 :</para>
 
 <screen>
 <prompt>% </prompt><userinput>vlc http://server.example.org:8080/test.sdp</userinput>
 </screen>
+
+
+<screen>
+<prompt>% </prompt><userinput>vlc rtsp://server.example.org:8080/test.sdp</userinput>
+</screen>
+
+<note><para>
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#rtp{port=1234,sdp=rtsp://server.example.org:8080/test.sdp}'</userinput>
+</screen>
+
+
+FIXME
+
+.</para></note>
 
 </listitem>
 
@@ -294,16 +312,16 @@ on the client(s), run
 
 
 <sect2><title>
-Use the <emphasis>es</emphasis> module
 
 
+Utilización del módulo <emphasis>es</emphasis>
 
 </title>
 
 <para>
-Separate audio and video in two PS files
 
 
+Separa el audio y el vídeo en dos fichero PS
 
 :</para>
 
@@ -313,10 +331,9 @@ Separate audio and video in two PS files
 </screen>
 
 <para>
-Extract the audio track of the input stream to a TS
-file
 
 
+Extrae la pista de sonido del flujo de entrada a un fichero TS
 
 :</para>
 
@@ -325,19 +342,19 @@ file
 </screen>
 
 <para>
- Stream in unicast the audio track on a port and the
-video track on another port
 
 
+ Transmite en unicast la pista de sonido en un puerto y el
+vídeo en otro
 
 :</para>
 
 <itemizedlist>
 
 <listitem><para>
-on the server side
 
 
+en la parte servidor
 
 :</para>
 
@@ -349,9 +366,9 @@ on the server side
 </listitem>
 
 <listitem><para>
-on the client side: to receive the audio
 
 
+en la parte cliente: para recibir el audio
 
 :</para>
 
@@ -361,9 +378,9 @@ on the client side: to receive the audio
 
 
 <para>
-to receive the video
 
 
+para recibir el vídeo
 
 :</para>
 
@@ -376,10 +393,10 @@ to receive the video
 </itemizedlist>
 
 <para>
-Stream in multicast the video and dump the audio in
-a file
 
 
+Transmite el vídeo en multicast y envía el audio a
+un fichero
 
 :</para>
 
@@ -389,11 +406,10 @@ access_audio=file,mux_audio=ps,url_audio=audio-%c.%m}'</userinput>
 </screen>
 
 <note><para>
-You can also combine the <emphasis>es</emphasis>
-module with the other modules to set-up even more complex
-solution
 
 
+Se puede combinar también el módulo <emphasis>es</emphasis> 
+con otros módulos para elaborar soluciones incluso más complicadas
 
 .</para></note>
 

@@ -1,11 +1,16 @@
-<?xml version="1.0" encoding="iso-8859-1" ?>
-
+<?xml version="1.0" encoding="iso8859-1"?>
 <chapter id="install"><title id="tinstall">
-Install the required software and hardware
+
+
+Instalación del software y hardware requeridos
+
 </title>
 
 <sect1><title>
-Install VLC
+
+
+Instalación de VLC
+
 </title>
 
   &install-vlc;
@@ -13,7 +18,10 @@ Install VLC
 </sect1>
 
 <sect1><title>
-Install VLS
+
+
+Instalación de VLS
+
 </title>
 
   &install-vls;

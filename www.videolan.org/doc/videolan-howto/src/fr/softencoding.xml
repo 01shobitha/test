@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="iso8859-1"?>
 <chapter id="softencoding"><title id="tsoftencoding">
-Stream from an acquisition card or a webcam
 
+Diffusez depuis une carte d'acquisition ou 
+une webcam
 
 
 </title>
 
 <note><para>
-This is possible under GNU/Linux only
 
+Ceci n'est possible que sous GNU/Linux
 
 
 .</para></note>
@@ -16,38 +17,41 @@ This is possible under GNU/Linux only
 
 <sect1><title>
 
-Install the Video for Linux drivers
 
+Installez les drivers Video for Linux
 
 
 
 </title>
 
 <para>
-If you want to stream from an acquisition card
-or a webcam, a video4linux driver must be available for it. You can
-find more information about video4linux and supported devices <ulink url="http://www.exploits.org/v4l">here</ulink>
 
-
-
-
-.</para>
-
-<para>
-Compile the right module for your device, and insert
-it into your kernel (Some video4linux modules are shipped with the 2.4.x
-Linux kernels). You can test your device by using any of the listed
-programs in the <emphasis>Video: TV and PVR/DVR</emphasis> section of
-<ulink url="http://www.exploits.org/v4l/">this page</ulink>
-
+Si vous désirez diffuser depuis une carte
+d'acquisition ou une webcam, un driver video4linux doit
+être disponible. Vous pouvez trouver plus d'informations
+sur video4linux et les périphériques supportés <ulink url="http://www.exploits.org/v4l">ici</ulink>
 
 
 
 .</para>
 
 <para>
-Note that v4l2 modules will also work with VLC
 
+Compilez le bon module pour votre périphérique,
+et insérez le dans le noyau (certains modules video4linux sont livrés
+avec les noyaux Linux 2.4.x). Vous pouvez tester votre périphérique,
+en utilisant l'un des programmes de la section <emphasis>Video: TV and
+PVR/DVR</emphasis> de <ulink url="http://www.exploits.org/v4l/">cette
+page</ulink>
+
+
+
+.</para>
+
+<para>
+
+Remarque: les modules v4l2 fonctionneront
+également
 
 
 
@@ -56,17 +60,17 @@ Note that v4l2 modules will also work with VLC
 </sect1>
 
 <sect1><title>
-Stream with VLC
 
+Diffusez avec VLC
 
 
 
 </title>
 
 <note><para>
-You must add <command>--enable-v4l</command> to
-<command>./configure</command> to use this feature
 
+Vous devez ajouter <command>--enable-v4l</command> à
+<command>./configure</command> pour celà
 
 
 
@@ -78,8 +82,8 @@ You must add <command>--enable-v4l</command> to
 --sout '#transcode{vcodec=mp4v,acodec=mpga,vb=3000,ab=256,vt=800000,keyint=80,deinterlace}:std{access=udp,mux=ts,url=239.255.12.13}' --ttl 12</userinput>
 </screen>
 
-<para>where
- 
+<para>
+où 
 
 
 :</para>
@@ -88,72 +92,72 @@ You must add <command>--enable-v4l</command> to
 <itemizedlist>
 
 <listitem><para><filename>/dev/video</filename>
- is the device corresponding to your acquisition
-card or your webcam
 
+est l'adresse correspondant à votre carte
+d'acquisition ou à votre webcam
 
 
 ,</para></listitem>
 
 <listitem><para><emphasis>norm=secam</emphasis>
- is name of the standard of the analogic signal
-(possible values are pal, secam, and ntsc)
 
+est le nom du standard du signal analogique (celà
+peut être pal, secam ou ntsc
 
 
 
 ,</para></listitem>
 
 <listitem><para><emphasis>frequency=543250</emphasis>
- is the frequency of the channel in kHz
-(<emphasis>Warning :</emphasis> for VLC &lt; 0.6.1, Frequency is channel
-frequency in MHz multiplied by 16)
 
+est la fréquence en kHz de la
+chaîne(<emphasis>Attention:</emphasis>avec VLC &lt; 0.6.1, la fréquence
+est la fréquence du canal en MHz, multipliée par 16)
 
 
 ,</para></listitem>
 
 <listitem><para>
-<emphasis>size=640x480</emphasis>
-is the size of the video you want (you can also put the
-standard size like <emphasis>subqcif</emphasis> (128x96),
+
+<emphasis>size=640x480</emphasis> est la taille
+de la vidéo que vous désirez diffuser (vous pouvez également indiquer
+une taille standard, telle que <emphasis>subqcif</emphasis> (128x96),
 <emphasis>qsif</emphasis> (160x120), <emphasis>qcif</emphasis>
 (176x144), <emphasis>sif</emphasis> (320x240), <emphasis>cif</emphasis>
-(352x288) or <emphasis>vga</emphasis> (640x480))
-
+(352x288) ou <emphasis>vga</emphasis> (640x480))
 
 
 ,</para></listitem>
 
 <listitem><para><emphasis>channel=0</emphasis> 
-is the number of the channel (usually 0 is for
-tuner, 1 for composite and 2 for svideo)
 
+est le numéro du canal (généralement, 0 pour le
+tuner, 1 pour le composite, et 2 pour Svidéo)
 
 
 
 ,</para></listitem>
 
 <listitem><para><emphasis>adev=/dev/dsp</emphasis>
-is the audio device
 
+est le périphérique audio
 
 
 ,</para></listitem>
 
 <listitem><para><emphasis>audio=1</emphasis> 
-is the number of the audio
-channel (usually 0 is for mono and 1 for stereo)
 
+est le numéro du canal audio (généralement, 0 pour
+mono et 1 pour stéréo)
 
 
 ,</para></listitem>
 
 <listitem><para><emphasis>vcodec=mp4v</emphasis> 
-is the video format you want to encode in
-(<emphasis>mp4v</emphasis> is MPEG-4, <emphasis>mpgv</emphasis> is
-MPEG-1, and there is also
 
+est le format d'encodage vidéo
+(<emphasis>mp4v</emphasis> pour MPEG-4, <emphasis>mpgv</emphasis> pour
+MPEG-1, mais aussi
 
 
 <emphasis>h263</emphasis>, <emphasis>DIV1</emphasis>,
@@ -163,54 +167,54 @@ MPEG-1, and there is also
 <emphasis>YUY2</emphasis>),</para></listitem>
 
 <listitem><para><emphasis>acodec=mpga</emphasis> 
-is the audio format you want to encode
-in (<emphasis>mpga</emphasis> is MPEG audio layer 2,
-<emphasis>a52</emphasis> is A52 i.e. AC3 sound)
 
+est le format audio d'encodage
+(<emphasis>mpga</emphasis> pour MPEG audio layer 2,
+<emphasis>a52</emphasis> pour A52 / AC3)
 
 
 ,</para></listitem>
 
 <listitem><para><emphasis>vb=3000</emphasis>
- is the video bitrate in Kbit/s
 
- es el bitrate de vídeo en Kbit/s
+ est le taux de compression vidéo en Kbps
+
 
 ,</para></listitem>
 
 <listitem><para><emphasis>ab=256</emphasis>
- is the audio bitrate in Kbit/s
 
+ est le taux de compression audio en Kbps
 
 
 </para></listitem>
 
 <listitem><para><emphasis>vt=800000</emphasis>
- is the video bitrate tolerance in bit/s
 
+ est la tolérance sur le bitrate vidéo en bps
 
 
 ,</para></listitem>
 
 <listitem><para><emphasis>keyint=80</emphasis>
- is the maximum interval between two "I" images in
-number of images
 
+est le nombre maximal d'image entre deux images
+"I"
 
 
 
 ,</para></listitem>
 
 <listitem><para><emphasis>deinterlace</emphasis>
-tells VLC to deinterlace the video on the fly
 
+pour désentrelacer le flux à la volée
 
 
 ,</para></listitem>
 
 <listitem><para><emphasis>192.168.0.42</emphasis>
- is either 
 
+ est soit 
 
 
 
@@ -218,25 +222,25 @@ tells VLC to deinterlace the video on the fly
 
 <itemizedlist>
 <listitem><para>
-the IP address of the machine you want to unicast
-to
+
+l'adresse IP de la machine vers laquelle vous
+désirez diffuser en unicast
+
+
+;</para></listitem>
+
+<listitem><para>
+
+le nom DNS de la machine vers laquelle vous désirez
+envoyer en unicast
 
 
 
 ;</para></listitem>
 
 <listitem><para>
-or the DNS name the machine you want to unicast
-to
 
-
-
-
-;</para></listitem>
-
-<listitem><para>
-or a multicast IP address
-
+une adresse IP multicast
 
 
 .</para></listitem>
@@ -246,10 +250,9 @@ or a multicast IP address
 </listitem>
 
 <listitem><para><emphasis>12</emphasis>
- is the value of the TTL (Time To
-Live) of your IP packets (which means that the stream will be
-able to cross 11 routers)
 
+ est la valeur du TTL (Time To Live) de vos paquets
+IP (cela signifie qu'ils pourront traverser 11 routeurs)
 
 
 .</para></listitem>
@@ -259,37 +262,38 @@ able to cross 11 routers)
 </sect1>
 
 <sect1><title>
-Stream with VLS
 
+Diffusez avec VLS
 
 
 </title>
 
 <note><para>
-You need the CVS version of VLS. When you
-compile it, you must do a <command>./bootstrap</command> and
- <command>./configure --enable-v4l
---with-ffmpeg=PATH</command> (where <emphasis>PATH</emphasis> is the
-absolute path to the directory where you compiled ffmpeg, and not the
-relative path !)
 
+Vous devez avoir la version CVS de VLS. Quand vous
+la compilez, vous devez utiliser <command>./bootstrap</command> puis
+ <command>./configure --enable-v4l
+--with-ffmpeg=PATH</command> (avec <emphasis>PATH</emphasis> le chemin
+absolu vers le répertoire où vous avez compilé ffmpeg, et non pas le
+chemin relatif !)
 
 
 
 .</para></note>
 
 <para>
-There is no command line interface for this input
-for the moment, so you will have to use the configuration file
 
+Il n'existe pas de ligne de commande pour ce
+type d'entrée pour l'instant, vous devez utiliser le fichier de
+configuration
 
 
 .</para>
 
 <para>
-Here is a typical configuration file
-<filename>vls.cfg</filename>to run VLS with a v4l device
 
+Voici un fichier <filename>vls.cfg</filename>typique
+pour faire marcher VLS avec un périphérique v4l
 
 
 :</para>
@@ -385,9 +389,9 @@ END
 </programlisting>
 
 <para>
-Once you have adapted the configuration file above,
-run VLS
 
+Une fois que vous avez adapté ce fichier de
+configuration, lancez VLS
 
 
 :</para>

@@ -48,7 +48,7 @@ for($i=0;$i<count($langs) -1;$i++ )
   list($lang,$po,$maint,$mail) = explode('|',$langs[$i]);
 
   echo "<tr><td class=\"category\">$lang</td>
-            <td><a href=\"$mail\">$maint</a></td></tr>\n";
+            <td><a href=\"mailto:$mail\">$maint</a></td></tr>\n";
 }
 
 ?>

@@ -59,7 +59,7 @@ function DrawMenu( $file, $mod )
       }
       else
       {
-        list( $name, $text, $link, $icon ) = split( "[\t;]+", $l );
+        list( $name, $text, $link, $icon, $width, $height ) = split( "[\t;]+", $l );
         if( $name == $mod )
         {
           ?><td class="button-down" onclick="document.location='<? 
@@ -85,6 +85,10 @@ function DrawMenu( $file, $mod )
           echo $icon;
           ?>" alt="<?
           echo $name;
+          ?>" width="<?
+          echo $width;
+          ?>" height="<?
+          echo $height;
           ?>"/></td><?
         }
         ?><td class="button-text"><?

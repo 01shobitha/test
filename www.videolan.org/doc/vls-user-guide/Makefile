@@ -16,7 +16,7 @@ LANG = en
 XSL= ../common/videolan-doc.xsl
 
 # All available languages (used in 'make clean')
-ALL_LANG = en fr de
+ALL_LANG = en fr de es
 
 # Build HTML, PDF, RTF and TXT outputs (for the web site)
 all: $(LANG)/$(DOC)-$(LANG).html $(LANG)/$(DOC)-$(LANG).pdf $(LANG)/$(DOC)-$(LANG).rtf $(LANG)/$(DOC)-$(LANG).txt

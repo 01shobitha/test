@@ -135,7 +135,7 @@ MMS-Adresse des Streams ist</span>
 <sect2><title>
 <span xml:lang="en">Receive a RTP stream available through RTSP</span>
 <span xml:lang="fr">Recevez un flux RTP disponible par RTSP</span>
-<span xml:lang="es"> </span>
+<span xml:lang="es">Recibir un flujo RTP disponible por RTSP </span>
 <span xml:lang="de">Erhalten eines RTP-Streams, der per RTSP verfügbar ist </span>
 </title>
 
@@ -156,7 +156,7 @@ dirección del flujo RTSP</span>
 <sect2><title>
 <span xml:lang="en">Receive a stream described by an SDP file</span>
 <span xml:lang="fr">Recevez un flux décrit par un fichier SDP</span>
-<span xml:lang="es">Recibir [...]</span>
+<span xml:lang="es">Recibir un flujo representado por un fichero SDP</span>
 <span xml:lang="de">Erhalten eines per SDP-Datei beschriebenen Streams</span>
 </title>
 

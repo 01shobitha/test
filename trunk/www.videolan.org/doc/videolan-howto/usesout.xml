@@ -326,7 +326,7 @@ standard{access=http,mux=ogg,url=server.example.org:8080}'</userinput>
 <listitem><para>
 <span xml:lang="en">on the client(s), run</span>
 <span xml:lang="fr">sur le(s) client(s), lancez</span>
-<span xml:lang="es">oen el/los cliente(s), ejecuta</span>
+<span xml:lang="es">en el/los cliente(s), ejecuta</span>
 <span xml:lang="de">Führen Sie bei den Clients aus</span>
 :</para>
 

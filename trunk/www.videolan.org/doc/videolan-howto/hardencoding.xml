@@ -120,7 +120,7 @@ to <command>./configure</command> to use this
 feature.</span>
 <span xml:lang="fr">Vous devez ajouter <command>--enable-pvr</command>
 à <command>./configure</command> our cela.</span>
-<span xml:lang="es">Debe añadir <command>--enable-pvr</command>
+<span xml:lang="es">Se debe añadir <command>--enable-pvr</command>
 a <command>./configure</command> para poder usar esta característica.</span>
 <span xml:lang="de">Sie müssen <command>--enable-pvr</command> zu
 <command>./configure</command> dafür hinzufügen.</span>
@@ -247,7 +247,7 @@ Ihrer IP-Pakete (was heißt, dass der Stream in der Lage sein wird,
 <listitem><para><emphasis>1000</emphasis>
 <span xml:lang="en"> is a secret value to work around a bug of the card</span>
 <span xml:lang="fr"> est un paramètre secret qui permet de contourner un bug de la carte</span>
-<span xml:lang="es"> </span>
+<span xml:lang="es"> es una parámetro secreto que permite evitar un bug de la tarjeta</span>
 <span xml:lang="de"> ist ein geheimer Wert, um einen Fehler der Karte zu umgehen</span>
 .</para></listitem>
 

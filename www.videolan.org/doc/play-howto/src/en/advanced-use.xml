@@ -227,7 +227,7 @@ disables audio output.
 forces VLC to treat the stream in mono audio.
 </para></listitem>
 <listitem><para><emphasis>--volume  &lt;integer&gt;</emphasis> 
-sets the level of audio output (between 0 and 200)
+sets the level of audio output (between 0 and 1024)
 </para></listitem>
 <listitem><para><emphasis>--aout-rate &lt;integer&gt;</emphasis> sets
 the audio output frequency (Hz). By default, VLC will try to autodetect
@@ -284,9 +284,9 @@ forces source aspect ratio. Modes are 4x3, 16x9, ...
 forces SPU subtitles postion.
 </para></listitem>
 
-<listitem><para><emphasis>--filter &lt;string&gt;</emphasis> Adds video
+<listitem><para><emphasis>--filter &lt;string&gt;</emphasis> adds video
 filters to the processing chain. You can add several filters, separated
-by semi-commas</para></listitem>
+by commas</para></listitem>
 
 </itemizedlist>
 
@@ -307,10 +307,10 @@ loops playlist on end.
 </para></listitem>
 
 <listitem><para><emphasis>--repeat</emphasis>
-Repeats the current item until another item is forced
+repeats the current item until another item is forced
 </para></listitem>
 
-<listitem><para><emphasis>--play-and-stop</emphasis> Stops the playlist after
+<listitem><para><emphasis>--play-and-stop</emphasis> stops the playlist after
 each played item.</para></listitem>
 
 </itemizedlist>
@@ -405,7 +405,7 @@ specifies interface default search path.
 specifies plugin search path.
 </para></listitem>
 
-<listitem><para><emphasis>--no-plugins-cache</emphasis> Disables the
+<listitem><para><emphasis>--no-plugins-cache</emphasis> disables the
 plugin cache (plugins cache speeds up startup)</para></listitem>
 
 <listitem><para><emphasis>--dvd  &lt;string&gt;</emphasis> 
@@ -421,9 +421,7 @@ specifies program (SID) (for streams with several programs, like satellite ones)
 </para></listitem>
 
 <listitem><para><emphasis>--audio-type  &lt;integer&gt;</emphasis>
-specifies the default audio type to use with dvds
-
-.</para></listitem>
+specifies the default audio type to use with dvds.</para></listitem>
 
 <listitem><para><emphasis>--audio-channel  &lt;integer&gt;</emphasis>
 specifies the default audio channel to use with dvds.
@@ -506,7 +504,7 @@ To start VLC with the HTTP interface, use:
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -I http (--http-src /directory/ --http-host host:port)</userinput>
+<prompt>% </prompt><userinput>vlc -I http [--http-src /directory/ --http-host host:port]</userinput>
 </screen>
 
 <para>If you want to have both the "normal" interface and the HTTP
@@ -524,7 +522,7 @@ The HTTP interface will start listening at host:port
 be taken to the main page</para>
 
 <para>
-VLC is shipped with a set of files that should be.
+VLC is shipped with a set of files that should be
 enough for generic needs. It is also possible to customize pages. See <xref linkend="http" />.
 </para>
 
@@ -547,7 +545,7 @@ can be protected, see <xref linkend="http" /> for more details).</para></listite
 <listitem><para><emphasis>/vlm/</emphasis>. This folder allows you to
 control the VideoLAN manager (VLM). The VLM allows you to stream several
 input streams with only one VLC instance. For more information about
-VLM, please look at the Streaming Howto.</para></listitem>
+VLM, please look at the <ulink url="http://www.videolan.org/doc/streaming-howto/en">Streaming Howto</ulink>.</para></listitem>
 
 </itemizedlist>
 
@@ -566,14 +564,28 @@ command line.</para>
 <sect2><title>Hotkeys</title>
 
 <para>This module allows you to control VLC and playback via hotkeys. It
-is always enabled by default. For user details on hotkeys, See FIXME</para>
+is always enabled by default. You can use hotkeys in the video output window.
+</para>
+<para>Hotkeys can be hacked by <prompt>% </prompt><userinput>vlc
+--key-&lt;function&gt; '&lt;code&gt;'</userinput>.</para>
+
+<para> Code is composed by modifiers keys (Alt, Shift, Ctrl, Meta,
+Command) separated by a dash (-) and terminated by a key (a...z, +,
+=, -, ',', +, &lt;, &gt;, `, /, ;, ', \, [, ], *, Left, Right, Up,
+Down, Space, Enter, F1...F12, Home, End, Menu, Esc, Page Up, Page
+Down, Tab, Backspace, Mouse Wheel Up and Mouse Wheel Down). Main
+controls are available from hotkeys, such as : fullscreen, play-pause,
+faster, slower, next, prev, stop, quit, vol-up, etc. (run <prompt>%
+</prompt><userinput>vlc --longhelp</userinput> for full list of
+functions). For example, for binding fullscreen to Ctrl-f, run <prompt>%
+</prompt><userinput>vlc --key-fullscreen 'Ctrl-f'</userinput></para>
 
 </sect2>
 
 <sect2><title>RC and RTCI</title>
 
 <para>These two interfaces allow you to control VLC from a command shell
-(possibly using a remote connexion or a Unix socket</para>
+(possibly using a remote connexion or a Unix socket.</para>
 
 <para>Start VLC with <emphasis>-I rc</emphasis> or <emphasis>--extraintf
 rc</emphasis>. When you get the <code>Remote control interface
@@ -596,7 +608,37 @@ section).</para>
 </sect2>
 
 <sect2><title>Ncurses</title>
-<para>Todo</para>
+
+<para>This is a text interface, using ncurses library.</para>
+
+<para>Start VLC with <emphasis>-I ncurses</emphasis> or <emphasis>--extraintf ncurses</emphasis>. You will then get something like that:</para>
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/play-howto/intf-ncurses-playlist.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>The ncurses interface</para></textobject>
+  <caption><para>The ncurses interface</para></caption>
+</mediaobject>
+
+<para>Press h to get the list of all available commands, with a short description.</para>
+
+<para>There is also a filebrowser available for the ncurses interface in order to add playlist items. Press 'B' to use it.</para> 
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/play-howto/intf-ncurses-filebrowser.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>The ncurses filebrowser</para></textobject>
+  <caption><para>The ncurses filebrowser</para></caption>
+</mediaobject>
+
+<para>You can set the filebrowser starting point by lauching vlc with the <emphasis>--browse-dir</emphasis> option:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -I ncurses --browse-dir /filebrowser/starting/point/</userinput>
+</screen>
+
 </sect2>
 
 <sect2><title>Gestures</title>

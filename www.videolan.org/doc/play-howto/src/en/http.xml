@@ -40,7 +40,7 @@ The file &lt;dir&gt;/index.html will be exported as
 
 <para>
 The MIME type is set by looking at the file
-extension and cannot be specified nor modified for a specifi file.
+extension and cannot be specified nor modified for a specific file.
 Unknown extensions will have "application/octet-stream" as MIME
 type.
 </para>

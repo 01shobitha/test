@@ -128,9 +128,10 @@ Stream" menu item.</para>
 (it is 1234 for streams sent by a VLC or VLS server).
 </para></listitem>
 <listitem><para>
-To open a UDP multicast stream, select <emphasis>UDP/RTP multicast</emphasis>. 
-Give the address of the multicast group in the "Address" text input, a
-nd select the appropriate UDP port.</para></listitem>
+To open a UDP multicast stream, select <emphasis>UDP/RTP
+multicast</emphasis>. Give the address of the multicast group
+in the "Address" text input, and select the appropriate UDP
+port.</para></listitem>
 <listitem><para>
 To open a stream sent over http (Webradios, WebTVs, Shoutcast, Icecast...), 
 ftp, or mms (Microsoft Media Server), select "HTTP/FTP/MMS", and 
@@ -248,13 +249,13 @@ settings, such as the size of the encoded video (in pixels), its framerate
 
 <para>VLC can of course store a list several files to play one after the other, 
 using its playlist system. To access the playlist, click on the 
-<emphasis>Playlist</emphasis>button on the main interface 
+<emphasis>Playlist</emphasis> button on the main interface 
 (see <xref linkend="desc" endterm="tdesc"/>).</para>
 
 <para>Each time you use the Open dialog box, the stream you select is
 appended at the end of the playlist and started.</para>
 
-<para>The playlist window shows all the streams availablein the playlist.
+<para>The playlist window shows all the streams available in the playlist.
 Double-click one to have it played.</para>
 
 
@@ -359,8 +360,8 @@ location of the item to play.</para>
   <imageobject>
     <imagedata fileref="images/play-howto/intf-osx-iteminfo.jpg" format="JPG" />
   </imageobject>
-  <textobject><para>Item Info Dialog - wx Interface</para></textobject>
-  <caption><para>Item Info Dialog - wx Interface</para></caption>
+  <textobject><para>Item Info Dialog - MacOS X interface</para></textobject>
+  <caption><para>Item Info Dialog - MacOS X interface</para></caption>
 </mediaobject>
 
 
@@ -454,7 +455,7 @@ section, <emphasis>text renderer</emphasis> subsection, open the
 <emphasis>freetype</emphasis> page. You can then set the font and its
 size. For the font, you have to select a font file. Under Windows, they
 can be found in <emphasis>C:\Windows\Fonts</emphasis>. Under MacOS X,
-they are in <emphasis>/System/Library/Fonts</emphasis> <!-- FIXME: Linux
+they are in <emphasis>/System/Library/Fonts</emphasis><!-- FIXME: Linux
 -->. Size can be set either relatively or as a number of pixels.</para>
 
 <para>You need to restart your stream for the font modifications to take
@@ -670,7 +671,7 @@ valuable.</para>
 
 <para>A very common thing is a bogus preferences file. Don't hesitate to
 delete it if problems appear suddendly. You will find in the FAQ details
-on how to delete your preferences file.</para>
+on <ulink url="http://www.videolan.org/doc/faq/en/index.html#id2470084">how to delete your preferences file</ulink>.</para>
 
 </sect2>
 

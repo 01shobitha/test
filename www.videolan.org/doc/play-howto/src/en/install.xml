@@ -197,7 +197,9 @@ icon that was created during installation</para>
 <sect2><title>Mac OS X</title>
 
 <para>
-Drag the VLC application to your trash can.
+Drag the VLC application to your trash can. You can also
+remove the configuration file and the cache files in
+<filename>~/Library/Preferences/VLC/</filename>.
 </para>
 
 </sect2>

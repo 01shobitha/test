@@ -16,7 +16,7 @@ $(LANG): %: $(foreach ext, $(EXT), $(DOC)-%.$(ext))
 # Get the images from the /images/documentation directory
 img:
 	rm -rf images
-#	cp -R ../../images/documentation images
+	cp -R ../../images/documentation images
 
 $(LANG:%=$(DOC)-%.xml): $(DOC).xml
 	xsltproc --stringparam lang $(shell echo $(basename $@) | sed -e 's/.*-//') ../common/multilanguage.xsl $^ | sed -e 's/id="$(DOC)"/id="$(basename $@)"/' > $@

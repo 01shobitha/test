@@ -2,8 +2,8 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
-|3 Jan 2004| Release: VLC 0.7.0| This major release of VLC, codenamed
-"Bond" media player features major core enhancements, support
+|3 Jan 2004| Release: VLC 0.7.0| This major release of VLC Media
+Player, codenamed "Bond", features major core enhancements, support
 for RTP/RTSP, new audio visual effects, supports for new formats
 (Speex, MPEG2 4/2/2, AAC+SBR, ...), many interfaces and playlist
 enhancements, a new interface for MacOS X, a DirectShowinput on

@@ -6,7 +6,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 
-<? function pkgitem($version,$name,$comment) { ?><li><a href="http://gwyneth.videolan.org/pub/videolan/vlc/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a> <? echo $comment; ?> </li><? } ?>
+<? function pkgitem($version,$name,$comment) { ?><li><a href="http://www.videolan.org/pub/videolan/vlc/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a> <? echo $comment; ?> </li><? } ?>
 
 <h1> VLC source code </h1>
 
@@ -18,7 +18,7 @@
   <?
      pkgitem("0.6.2","vlc-0.6.2.tar.gz","");
   ?>
-  <li><a href="http://gwyneth.videolan.org/pub/videolan/vlc/0.6.2/"><i>browse the list</i></a></li>
+  <li><a href="http://www.videolan.org/pub/videolan/vlc/0.6.2/"><i>browse the list</i></a></li>
 </ul>
 
 <p> Latest required libraries: </p>
@@ -50,7 +50,7 @@
      pkgitem("0.6.2/contrib","zlib-1.1.4.tar.gz","(A losless data-compression library)");
      pkgitem("0.6.2/contrib","libpng-1.2.5.tar.bz2","(PNG library)");
   ?>
-  <li><a href="http://gwyneth.videolan.org/pub/videolan/vlc/0.6.2/contrib"><i>browse the list</i></a></li>
+  <li><a href="http://www.videolan.org/pub/videolan/vlc/0.6.2/contrib"><i>browse the list</i></a></li>
 </ul>
 
 <h2>CVS</h2>
@@ -60,7 +60,7 @@ href="http://developers.videolan.org/">developers website</a>. </p>
 
 <h2>Older versions</h2>
 
-<p> Older versions can be found by <a href="http://gwyneth.videolan.org/pub/vlc/">browsing</a> our
+<p> Older versions can be found by <a href="http://www.videolan.org/pub/vlc/">browsing</a> our
 FTP site. </p>
 
-<? footer('$Id: download-sources.html,v 1.21 2003/10/30 15:17:53 sam Exp $'); ?>
+<? footer('$Id: download-sources.html,v 1.22 2003/10/30 22:00:33 anil Exp $'); ?>

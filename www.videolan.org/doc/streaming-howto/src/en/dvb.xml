@@ -121,7 +121,7 @@ it with <command>./configure --enable-dvb</command> This feature should
 still be considered as experimental. You can find it in the official release since the version 0.7.2.</para></note>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv --color --ttl 12  --ts-es-id-pid --programs 8508,8505 dvb: --dvb-adapter=0 --dvb-frequency=11739000 --dvb-srate=27500000 --dvb-voltage=13 --dvb-fec=3 --dvb-budget-mode --sout '#duplicate{dst=std{access=udp,mux=ts,url=adress:3001},select="program=8508",dst=std{access=udp,mux=ts,url=adress:3002},select="program=8505"}'</userinput>
+<prompt>% </prompt><userinput>vlc -vvv --color --ttl 12  --ts-es-id-pid --programs 8508,8505 dvb: --dvb-adapter=0 --dvb-frequency=11739000 --dvb-srate=27500000 --dvb-voltage=13 --dvb-fec=3 --dvb-budget-mode --sout '#duplicate{dst=std{access=udp,mux=ts,url=address:3001},select="program=8508",dst=std{access=udp,mux=ts,url=address:3002},select="program=8505"}'</userinput>
 </screen>
 
 <para>
@@ -158,7 +158,7 @@ symbolrate in Hz</para></listitem>
 <listitem><para>
 <filename>dvb-budget-mode</filename> if your card support this mode</para></listitem>
 
-<listitem><para><emphasis>adress</emphasis>
+<listitem><para><emphasis>address</emphasis>
  is either:</para>
 
 <itemizedlist>

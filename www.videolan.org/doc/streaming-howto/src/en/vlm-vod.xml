@@ -317,9 +317,44 @@ setup my_sched append control my_media play
 
 <sect2><title>Video On Demand</title>
 
-<programlisting>
+<sect3><title>Basic example</title>
 
+<para>First launch the vlc</para>
+<screen><prompt>% </prompt><userinput>vlc --ttl 12 -vvv --color -I telnet --telnet-password videolan --rtsp-host 0.0.0.0:5554</userinput></screen>
+<para>where:</para>
+<itemizedlist>
+<listitem><para><emphasis>12</emphasis>
+ is the value of the TTL (Time To
+Live) of your IP packets (which means that the stream will be
+able to cross 11 routers).
+</para></listitem>
+<listitem><para><emphasis>telnet</emphasis>
+ launches the telnet interface of the vlc.
+</para></listitem>
+<listitem><para><emphasis>videolan</emphasis>
+ is the password to connect to the telnet interface.
+</para></listitem>
+<listitem><para><emphasis>0.0.0.0</emphasis>
+ is the host address. 
+</para></listitem>
+<listitem><para><emphasis>5554</emphasis>
+ is the port on which you stream.
+</para></listitem>
+</itemizedlist>
+
+<para>Then you connect to the vlc telnet interface and create the vod object</para>
+<programlisting>
+new Test vod enabled
+setup Test input my_video.mpg
 </programlisting>
+<para>You can access to the stream with:</para>
+<screen>
+<prompt>% </prompt><userinput>vlc rtsp://server:5554/Test</userinput>
+</screen>
+<para>where:</para>
+<itemizedlist><listitem><para><emphasis>server</emphasis> is the address of the streaming server (IP or DNS)</para></listitem></itemizedlist>
+
+</sect3>
 
 </sect2>
 

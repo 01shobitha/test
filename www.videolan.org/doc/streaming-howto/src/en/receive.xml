@@ -143,19 +143,14 @@ output, i.e. :
 
 <itemizedlist>
 
-<listitem><para><emphasis>avi</emphasis>
-  for AVI format,</para></listitem>
-
 <listitem><para><emphasis>ogg</emphasis>
   for OGG format,</para></listitem>
 
 <listitem><para><emphasis>ps</emphasis> 
   for MPEG2-PS format,</para></listitem>
 
-<listitem><para><emphasis>ts</emphasis> or
-<emphasis>ts_dvbpsi</emphasis> 
-  for MPEG2-PS format (the latter uses
-<emphasis>libdvbpsi</emphasis> for the task).</para></listitem>
+<listitem><para><emphasis>ts</emphasis>
+  for MPEG2-PS format.</para></listitem>
 
 </itemizedlist>
 

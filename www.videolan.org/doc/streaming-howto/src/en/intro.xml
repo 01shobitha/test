@@ -19,7 +19,7 @@ Streaming, Muxers and Codecs</title>
 <para>Here is an illustration of the complete VideoLAN solution:</para>
 <mediaobject>
   <imageobject>
-    <imagedata fileref="images/global-diagram/global-diagram.sxd" format="JPG" />
+    <imagedata fileref="images/global-diagram.jpg" format="JPG" />
   </imageobject>
   <textobject><para>Global VideoLAN solution</para></textobject>
   <caption><para>Global VideoLAN solution</para></caption>

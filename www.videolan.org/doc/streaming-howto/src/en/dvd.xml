@@ -30,7 +30,7 @@ Stream a DVD with VLC
 </title>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv dvdsimple:/dev/dvd --sout udp:192.168.0.12 --ttl 12</userinput>
+<prompt>% </prompt><userinput>vlc -vvv --color dvdsimple:/dev/dvd --sout udp:192.168.0.12 --ttl 12 --sout-all</userinput>
 </screen>
 
 <para>
@@ -80,9 +80,14 @@ or a multicast IP address.
  is the value of the TTL (Time To
 Live) of your IP packets (which means that the stream will be
 able to cross 11 routers).
-
 </para></listitem>
+
+<listitem><para><emphasis>sout-all</emphasis>
+allows you to stream all soundtracks and subtitles
+</para></listitem>
+
 </itemizedlist>
+
 <para>
 If you want to stream the DVD continuously, add the
 <emphasis>--loop</emphasis> option.

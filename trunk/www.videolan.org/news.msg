@@ -2,6 +2,14 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+|10 Feb 2004| First release of dtsdec |
+<a href="http://www.videolan.org/dtsdec.html">dtsdec</a> is a free
+DTS Coherent Acoustics decoder. DTS is a high quality multi-channel (5.1)
+digital audio format in use in DVD's and DTS audio CD's. While the code is
+still in early development stage, it is already quite useable.<br />
+<a href="http://www.videolan.org/vlc/">VLC media player</a> becomes the
+first Open Source application able to play DTS audio.
+
 |3-5 Feb 2004| VideoLAN at Solutions Linux Paris | VideoLAN will have
 a booth at <a href="http://www.solutionslinux.fr/en/">Solutions Linux
 Paris 2004</a>, which will take place at the CNIT, Paris La Defense. The

@@ -96,6 +96,16 @@ Then configure vls :
 
 </listitem>
 
+<listitem><para>if you want a VLS with DVB support, do :
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>./configure --enable-dvb</userinput>
+</screen>
+
+</listitem>
+
+
 </itemizedlist>
 
 <para>

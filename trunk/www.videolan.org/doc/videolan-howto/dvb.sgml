@@ -8,7 +8,7 @@ card or a digital terrestial TV card), you need to install the DVB
 drivers. Download the latest release of the DVB drivers from the
 <ulink url="http://www.linuxtv.org/download/dvb/">DVB drivers download
 page</ulink> of the <ulink url="http://www.linuxtv.org/">LinuxTV</ulink>
-PROject.</para>
+Project.</para>
 
 <para>Uncompress the tarball and follow the instructions written in
 the <filename>INSTALL</filename> file to compile and install the
@@ -17,10 +17,10 @@ drivers.</para>
 
 <sect1><title>Stream with VLS</title>
 
-<para>Put a <filename>.dvbrc</filename> file containing the DVB
-channels (satellite or digital terrestial TV) you want to stream in
-your home directory (some are provided in the libdvb tarball for the
-satellite).</para>
+<para>Put a <filename>.dvbrc</filename> file containing the DVB channels
+(satellite or digital terrestial TV channels) you want to stream in your
+home directory (some are provided in the <emphasis>libdvb</emphasis>
+tarball for the satellite channels).</para>
 
 <para>Run VLS with the following command line :</para>
 

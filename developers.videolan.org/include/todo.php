@@ -8,6 +8,7 @@
 	    echo "<h2 class=\"task\">".$this->description."</h2>\n";
 	    echo "<p><i>Difficulty</i>: ".$this->difficulty;
 	    echo " <i>Urgency</i>: ".$this->urgency;
+	    echo " <i>Platform</i>:" $this->platform;
 	    echo "<br />\n".$this->longdescr;
 	    echo "</p>\n";
             echo "<p style=\"text-align:right;\">".$this->status."</p></div>\n";
@@ -58,6 +59,8 @@ $bgcolor = "white";
 	    }
             echo "<td style=\"background-color:$bgcolor;border:1pt black solid;color:$fgcolor;text-align:center;\">".$this->urgency."</td>";
 	
+            echo "<td style=\"text-align:center;border:1pt black solid;\">".$this->platform."</td>\n";
+
 	    if( stristr( $this->status, "todo" ) )
 	    {
 		$bgcolor = "red";
@@ -72,6 +75,7 @@ $bgcolor = "white";
 	var $description;
 	var $difficulty;
 	var $urgency;
+	var $platform;
 	var $longdescr;
 	var $status;
         var $id;
@@ -106,6 +110,10 @@ $bgcolor = "white";
 		{
 		    $task->description = $regs[1];
 		}
+		else if( ereg( "^[pP]latform[\ ]*:[\ ]*(.*)$",$line,$regs) )
+		{
+	            $task->platform = $regs[1];
+	        }
 		else if( ereg( "^[dD]ifficulty[\ ]*:[\ ]*(.*)$",$line,$regs) )
 		{
 	            $task->difficulty = $regs[1];
@@ -146,7 +154,7 @@ $bgcolor = "white";
 	function table($page)
 	{
 	   echo "<table style=\"width:100%;\">";
-           echo "<tr><th>Task name</th><th>Difficulty</th><th>Urgency</th><th>Status</th></tr>";
+           echo "<tr><th>Task name</th><th>Difficulty</th><th>Urgency</th><th>Platform</th><th>Status</th></tr>";
 	   foreach( $this->array as $task )
            {
                 $task->table($page);

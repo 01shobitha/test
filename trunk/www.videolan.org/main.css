@@ -2,7 +2,7 @@
  * Stolen from the Gnumeric website by Sam :-)
  * Hardly modified by karibu :(
  *
- * $Id: main.css,v 1.88 2003/08/23 13:49:13 lool Exp $ */
+ * $Id: main.css,v 1.89 2003/08/23 13:53:44 lool Exp $ */
 
 body {
   font-family: sans-serif, Helvetica, Arial;
@@ -367,7 +367,7 @@ td.news
 table.menu
 {
   text-align: center;
-  margin: 0px 0px 0px 0px;
+  margin: 8px 0px 0px 0px;
   background-color: #E0E0F0;
   border-width: 0px 1px 1px 1px;
   border-style: solid;
@@ -377,7 +377,7 @@ table.menu
 table.menu-back
 {
   width: 100%;
-  margin: 8px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
   padding: 0px 0px 5px 0px;
   background-color: #D8D8F8;
   border-width: 0px 1px 1px 1px;

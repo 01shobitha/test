@@ -23,7 +23,6 @@ $(LANG:%=$(DOC)-%.xml): $(DOC).xml
 
 
 $(LANG:%=$(DOC)-%.html): %.html: %.xml
-	/bin/cp ../common/magic-jpg.xml ../common/magic.xml
 	jade -t sgml -d ../common/stylesheet-html.dsl $(XML_DECL) $^
 	ln -sf $@ index.html
 	rm -f $(basename $@)-html.zip
@@ -34,6 +33,8 @@ $(LANG:%=$(DOC)-%.html): %.html: %.xml
 	rm -f $(DOC)-*.xml
 	make $(DOC)-$(LANG).xml
 
+<<<<<<< Makefile
+=======
 	# English is the default language
 $(LANG:%=$(DOC)-%.ps): %.ps: %.xml 
 	/bin/cp ../common/magic-eps.xml ../common/magic.xml
@@ -47,9 +48,9 @@ $(LANG:%=$(DOC)-%.ps): %.ps: %.xml
 	zip $(basename $@)-ps.zip $@ images/*.jpg
 	rm -f $(DOC)-*.xml
 	make $(DOC)-$(LANG).xml
+>>>>>>> 1.12
 
 $(LANG:%=$(DOC)-%.pdf): %.pdf: %.xml
-	/bin/cp ../common/magic-jpg.xml ../common/magic.xml
 	jade -t tex -d ../common/stylesheet-print-noicones.dsl -o $(basename $@).tex $(XML_DECL) $^
 	pdfjadetex $(basename $@).tex
 	pdfjadetex $(basename $@).tex
@@ -60,7 +61,6 @@ $(LANG:%=$(DOC)-%.pdf): %.pdf: %.xml
 	make $(DOC)-$(LANG).xml
 
 $(LANG:%=$(DOC)-%.rtf): %.rtf: %.xml
-	/bin/cp ../common/magic-jpg.xml ../common/magic.xml
 	jade -t rtf -d ../common/stylesheet-print-noicones.dsl -o $@ $(XML_DECL) $^
 	rm -f $(basename $@)-rtf.zip
 	zip $(basename $@)-rtf.zip $@ images/*.jpg
@@ -68,7 +68,6 @@ $(LANG:%=$(DOC)-%.rtf): %.rtf: %.xml
 	make $(DOC)-$(LANG).xml
 
 $(LANG:%=$(DOC)-%.txt): %.txt: %.xml
-	/bin/cp ../common/magic-jpg.xml ../common/magic.xml
 	jade -t sgml -d ../common/stylesheet-txt.dsl -V nochunks $(XML_DECL) $^ > $^.html
 #       w3m -dump $^.html > $@
 	lynx -force_html -dump $^.html > $@

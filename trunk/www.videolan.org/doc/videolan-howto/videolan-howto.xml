@@ -2,9 +2,6 @@
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.1//EN" "/usr/share/sgml/docbook/dtd/xml/4.1/docbookx.dtd"
 
 [
-  <!ENTITY % magic-entities SYSTEM "../common/magic.xml">
-    %magic-entities;
-
   <!ENTITY intro SYSTEM "../common/intro.xml">
   <!ENTITY install SYSTEM "install.xml">
   <!ENTITY receive SYSTEM "receive.xml">

@@ -76,7 +76,7 @@ systems.</para></listitem>
 <figure><title>Global VideoLAN solution</title>
 <mediaobject>
   <imageobject>
-    <imagedata fileref="images/global-diagram.&magic1;" format="&magic2;" scalefit="1" scale="60" />
+    <imagedata fileref="images/global-diagram.jpg" format="JPG" scalefit="1" scale="60" />
   </imageobject>
 </mediaobject>
 </figure>
@@ -418,7 +418,7 @@ under Windows 95 / 98 / ME.</para></listitem>
 <figure><title>Windows terminal</title>
 <mediaobject>
   <imageobject>
-    <imagedata fileref="images/terminal-windows.&magic1;" format="&magic2;" scalefit="1" scale="60" />
+    <imagedata fileref="images/terminal-windows.jpg" format="JPG" scalefit="1" scale="60" />
   </imageobject>
 </mediaobject>
 </figure>
@@ -435,7 +435,7 @@ program is installed to run it.</para></note>
 <figure><title>Linux terminal</title>
 <mediaobject>
   <imageobject>
-    <imagedata fileref="images/terminal-linux.&magic1;" format="&magic2;" scalefit="1" scale="60" />
+    <imagedata fileref="images/terminal-linux.jpg" format="JPG" scalefit="1" scale="60" />
   </imageobject>
 </mediaobject>
 </figure>
@@ -476,7 +476,7 @@ folder <emphasis>Utilities</emphasis> and double-click on
 <figure><title>Mac OS X terminal</title>
 <mediaobject>
   <imageobject>
-    <imagedata fileref="images/terminal-macosx.&magic1;" format="&magic2;" scalefit="1" scale="60" />
+    <imagedata fileref="images/terminal-macosx.jpg" format="JPG" scalefit="1" scale="60" />
   </imageobject>
 </mediaobject>
 </figure>
@@ -495,7 +495,7 @@ the program is installed to run it, and start the command with
 <figure><title>BeOS terminal</title>
 <mediaobject>
   <imageobject>
-    <imagedata fileref="images/terminal-beos.&magic1;" format="&magic2;" scalefit="1" scale="60" />
+    <imagedata fileref="images/terminal-beos.jpg" format="JPG" scalefit="1" scale="60" />
   </imageobject>
 </mediaobject>
 </figure>

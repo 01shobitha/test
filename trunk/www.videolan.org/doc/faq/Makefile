@@ -20,23 +20,11 @@ $(LANG:%=$(DOC)-%.xml): $(DOC).xml
 	xsltproc --stringparam lang $(shell echo $(basename $@) | sed -e 's/.*-//') ../common/multilanguage.xsl $^ | sed -e 's/id="$(DOC)"/id="$(basename $@)"/' > $@
 
 $(LANG:%=$(DOC)-%.html): %.html: %.xml
-	cp ../common/magic-jpg.xml ../common/magic.xml
 	jade -t sgml -d ../common/stylesheet-html.dsl $(XML_DECL) $^
 	ln -sf $@ index.html
 	zip $(basename $@)-html.zip $@
 
-$(LANG:%=$(DOC)-%.ps): %.ps: %.xml
-	cp ../common/magic-eps.xml ../common/magic.xml
-	jade -t tex -d ../common/stylesheet-print.dsl -o $(basename $@).tex $(XML_DECL) $^
-	jadetex $(basename $@).tex
-	jadetex $(basename $@).tex
-	jadetex $(basename $@).tex
-	rm -f *.tex *.out *.aux *.log
-	dvips -o $@ $(basename $@).dvi
-	zip $(basename $@)-ps.zip $@
-
 $(LANG:%=$(DOC)-%.pdf): %.pdf: %.xml
-	cp ../common/magic-jpg.xml ../common/magic.xml
 	jade -t tex -d ../common/stylesheet-print-noicones.dsl -o $(basename $@).tex $(XML_DEC) $^
 	pdfjadetex $(basename $@).tex
 	pdfjadetex $(basename $@).tex
@@ -45,12 +33,10 @@ $(LANG:%=$(DOC)-%.pdf): %.pdf: %.xml
 	zip $(basename $@)-pdf.zip $@
 
 $(LANG:%=$(DOC)-%.rtf): %.rtf: %.xml
-	cp ../common/magic-jpg.xml ../common/magic.xml
 	jade -t rtf -d ../common/stylesheet-print-noicones.dsl -o $@ $(XML_DECL) $^
 	zip $(basename $@)-rtf.zip $@
 
 $(LANG:%=$(DOC)-%.txt): %.txt: %.xml
-	cp ../common/magic-jpg.xml ../common/magic.xml
 	jade -t sgml -d ../common/stylesheet-txt.dsl -V nochunks $(XML_DECL) $^ > $^.html
 #	w3m -dump $^.html > $@
 	lynx -force_html -dump $^.html > $@

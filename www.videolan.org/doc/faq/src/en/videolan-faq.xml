@@ -68,7 +68,8 @@ Does VLC support DVDs from all regions?
 <para>
 VLC uses <emphasis>libdvdcss</emphasis> to read all
 DVDs, disregarding their zone. All regions are supported without any
-constraint.
+constraint. It doesn't work 100% of the time and can take a long
+while before it starts the DVD.
 </para>
 
 </answer></qandaentry>
@@ -95,7 +96,7 @@ running:
 <filename>$(HOME)/.vlc/vlcrc</filename></para></listitem>
 
 <listitem><para>Mac OS X:
-<filename>/Library/Preferences/VLC</filename></para></listitem>
+<filename>HOME/Library/Preferences/VLC</filename></para></listitem>
 
 <listitem><para>Windows 95/98/ME: <filename>C:\Windows\Application
 Data\vlc\vlcrc</filename></para></listitem>
@@ -119,7 +120,8 @@ VLC has a strange behavior...
 <answer>
 
 <para>
-The first thing to do is to delete VLC's
+The first thing to do is to reset the VLC preferences in the preferences
+dialog of the application and restart VLC. If VLC doesn't even start anymore, delete VLC's
 configuration file (see the previous question to know about its
 location). Then restart VLC. If it does not get any better, read the
 following questions!
@@ -142,7 +144,7 @@ Here are a few things to check:
 
 <listitem><para>
 
-Did you install the <emphasis>libdvdcss</emphasis>
+If you are on Linux, did you install the <emphasis>libdvdcss</emphasis>
 package?
 
 </para></listitem>
@@ -316,12 +318,17 @@ by VLC:
 
 <listitem><para>
 Under XFree, add the <command>-V x11</command>
-option to the command line.
+option to the command line. You'll have to find a X11 screenshot utility somewhere.
 </para></listitem>
 
 <listitem><para>
 Under Windows, add the <command>--nooverlay</command>
-option to the command line.
+option to the command line and use Prt Sc button to put a screenshot on your pasteboard.
+You can then paste this picture in a picture editor or a Word document or something.
+</para></listitem>
+
+<listitem><para>
+On Mac OS X just press command-option-3.
 </para></listitem>
 
 </itemizedlist>
@@ -481,7 +488,7 @@ a very basic telnet interface, which was used as a server;
 </para></listitem>
 
 <listitem><para>
-VLC, a multi-plateform program written in C, that
+VLC, a multi-platform program written in C, that
 implements demuxers, codecs, video and audio outputs and graphical
 interfaces, which was used as a client only.
 </para></listitem>

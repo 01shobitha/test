@@ -3,6 +3,7 @@
 User-agent: *
 Disallow: /pub
 Disallow: /removed
+Disallow: /doc/logs
 
 # Do not crawl CVS and .svn directories
 User-agent: *

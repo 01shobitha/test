@@ -14,7 +14,7 @@ function DownloadSize($file) {
 function pkgitem($version,$name,$top)
 { ?>
   <li><code><? echo $name; ?></code> (<? echo DownloadSize("{$_SERVER["DOCUMENT_ROOT"]}pub/videolan/$top/$version/$name"); ?>) :
-<br/>Select a mirror:i
+<br/>Select a mirror :
 <ul><li><a href="http://download.videolan.org/pub/videolan/<? echo $top."/".$version."/".$name; ?>">VIA, Ecole Centrale Paris (France)</a></li>
 <? 
     $file = $_SERVER["DOCUMENT_ROOT"]."/include/mirrors";
@@ -30,7 +30,7 @@ function pkgitem($version,$name,$top)
 	$esp = strpos( $mirror, " " );
 	$url = substr( $mirror, 0, $esp );
 	$mirror_name = substr( $mirror, $esp+1, strlen( $mirror ) - $esp -1 );
-	echo " <li>[<a href=\"http://www.videolan.org/mirror.html?mirror=$url&file=$top/$version/$name\">$mirror_name</a>]</li>\n "; 
+	echo " <li><a href=\"http://www.videolan.org/mirror.html?mirror=$url&file=$top/$version/$name\">$mirror_name</a></li>\n "; 
     }
 ?>
 </ul></li><?

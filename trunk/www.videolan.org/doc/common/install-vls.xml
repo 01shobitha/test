@@ -74,7 +74,7 @@ configurez (sauf pour <emphasis>libdvb</emphasis> qui n'a pas de
 <screen>
 <prompt>% </prompt><userinput>tar xvzf library.tar.gz</userinput>
 <prompt>% </prompt><userinput>cd library</userinput>
-<prompt>% </prompt><userinput>./configure --enable-shared</userinput>
+<prompt>% </prompt><userinput>./configure</userinput>
 <prompt>% </prompt><userinput>make</userinput>
 <prompt># </prompt><userinput>make install</userinput>
 </screen>
@@ -121,7 +121,6 @@ des sources de VLS</ulink>. Décompressez-la et générez
 <screen>
 <prompt>% </prompt><userinput>tar xvzf vls-version.tar.gz</userinput>
 <prompt>% </prompt><userinput>cd vls-version</userinput>
-<prompt>% </prompt><userinput>autoconf</userinput>
 </screen>
 
 <para>
@@ -168,7 +167,7 @@ des sources de VLS</ulink>. Décompressez-la et générez
 :</para>
 
 <screen>
-<prompt>% </prompt><userinput>./configure --enable-dvb</userinput>
+<prompt>% </prompt><userinput>./configure --enable-dvb --with-dvb=PATH_TO_DVB_DRIVERS --with-libdvb=PATH_TO_LIBDVB</userinput>
 </screen>
 
 </listitem>

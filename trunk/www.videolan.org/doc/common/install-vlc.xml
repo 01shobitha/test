@@ -329,7 +329,7 @@ page de téléchargement des sources du VLC</ulink></span></para>
 
 <screen>
 <prompt>% </prompt><userinput>cd library</userinput>
-<prompt>% </prompt><userinput>./configure --enable-shared</userinput>
+<prompt>% </prompt><userinput>./configure</userinput>
 </screen>
 
 </listitem>

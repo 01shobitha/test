@@ -79,7 +79,7 @@ function starthtml($title) { ?>
 
  <td style="width: 100%; text-align: center; vertical-align: top;">
 
-  <table style="width: 100%; text-align: center;" cellspacing="1" cellpadding="0">
+  <table style="width: 100%; text-align: center;" cellspacing="0" cellpadding="0">
   <tr><?
     get_first_bar_item(6, "home", "Home", "/", $modules[1]);
     get_first_bar_item(6, "vlc", "VLC", "/vlc/", $modules[1]);
@@ -89,7 +89,7 @@ function starthtml($title) { ?>
     get_first_bar_item(6, "developers", "Developers", "http://developers.videolan.org/", $modules[1]);
   ?></tr>
   </table>
-  <table style="width: 100%; text-align: center;" cellspacing="1" cellpadding="0">
+  <table style="width: 100%; text-align: center;" cellspacing="0" cellpadding="0">
   <tr>
     <? switch($modules[1]) {
       case "vlc": second_bar_vlc($modules[2]); break;

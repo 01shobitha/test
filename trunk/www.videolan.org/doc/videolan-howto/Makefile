@@ -34,6 +34,8 @@ $(LANG)/$(DOC)-$(LANG).html: $(LANG)/$(DOC)-$(LANG).xml ../common/stylesheet-htm
 $(LANG)/$(DOC)-$(LANG).pdf: $(LANG)/$(DOC)-$(LANG).xml ../common/stylesheet-print-noicones.dsl
 	jade -t tex -d ../common/stylesheet-print-noicones.dsl -o $(LANG)/$(DOC)-$(LANG).tex $(XML_DECL) $(LANG)/$(DOC)-$(LANG).xml
 	cd $(LANG) && pdfjadetex $(DOC)-$(LANG).tex
+	cd $(LANG) && pdfjadetex $(DOC)-$(LANG).tex
+	cd $(LANG) && pdfjadetex $(DOC)-$(LANG).tex
 	cd $(LANG) && rm -f *.tex *.out *.aux *.log
 	cd $(LANG) && zip $(DOC)-$(LANG)-pdf.zip $(DOC)-$(LANG).pdf
 

@@ -22,6 +22,7 @@ numérique terrestre)</span>
 <span xml:lang="en">If you want to be able to stream from a DVB card (a
 satellite card or a digital terrestial TV card), you need to install the
 DVB drivers:</span>
+<span xml:lang="fr">Pour pouvoir streamer depuis une carte DVB (une carte satélite ou de télévision numérique terrestre), il est nécessire d'installer préalablement les drivers DVB :</span>
 
 </para>
 
@@ -161,16 +162,21 @@ still be considered as experimental.</para></note>
 
 <itemizedlist>
 
-<listitem><para><filename>8211</filename> is the PID of the DVB channel
-you would like to stream ??? ;</para></listitem>
+<listitem><para><filename>8211</filename> is the PID of the DVB
+channel you would like to stream, expressed as a decimal number
+;</para></listitem>
 
-<listitem><para><filename>12597000</filename> is ???? ;</para></listitem>
+<listitem><para><filename>12597000</filename> is the frequency of the
+transponder you want to stream from in Hz;</para></listitem>
 
-<listitem><para><filename>0</filename> is ???? ;</para></listitem>
+<listitem><para><filename>0</filename> is the polarization (0 for
+vertical, 1 for horizontal) ;</para></listitem>
 
-<listitem><para><filename>3</filename> is ???? ;</para></listitem>
+<listitem><para><filename>3</filename> is the FEC (3 for 3/4, 9 for
+auto) ;</para></listitem>
 
-<listitem><para><filename>27500000</filename> is ???? ;</para></listitem>
+<listitem><para><filename>27500000</filename> is the transponder symbol
+rate in Hz ;</para></listitem>
 
 <listitem><para><emphasis>192.168.0.12</emphasis> is either :</para>
 

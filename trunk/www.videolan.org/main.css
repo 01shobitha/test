@@ -1,7 +1,7 @@
 /* CSS for the VideoLAN website
  * Stolen from the Gnumeric website by Sam :-)
  *
- * $Id: main.css,v 1.66 2003/01/31 17:47:44 sam Exp $ */
+ * $Id: main.css,v 1.67 2003/02/02 19:04:22 anil Exp $ */
 
 body {
   font-family: sans-serif, Helvetica, Arial;
@@ -343,8 +343,7 @@ td.topbar {
 
   text-align: center;
   font-weight: bold;
-  font-size: 10em
-
+  font-size: 10em;
   padding-top: 2px;
   padding-left: 5px;
   padding-right: 5px;

@@ -30,18 +30,29 @@ function starthtml($title) { ?>
     * The cool navigation bar, including mirror drop-down menu
     */
 
-echo "self: ".$GLOBALS['PHP_SELF']."<br>";
-$module = split("/", $GLOBALS['PHP_SELF']);
-$module = $module[1];
-echo "module: ".$module."<br>";
+   $modules = split("/", $GLOBALS['PHP_SELF']);
+
+   $color_home = "#aaf";
+   $color_vlc = "#aaf";
+   $color_doc = "#aaf";
+   $color_streaming = "#aaf";
+   $color_support = "#aaf";
+
+   switch($modules[1]) {
+      case "vlc": $color_vlc = "inherit"; break;
+      case "streaming": $color_streaming = "inherit"; break;
+      case "doc": $color_doc = "inherit"; break;
+      case "support": $color_support = "inherit"; break;
+      default: $color_home = "inherit"; break;
+   }
 
 ?><form action="index.html" method="get">
   <table width="100%" cellspacing="3" cellpadding="0"><tr>
-    <td style="background-color: inherit; width: 17%; vertical-align: middle;" align="center"><a href="/">Home</a></td>
-    <td style="background-color: #aaaaff; width: 16%; vertical-align: middle;" align="center"><a href="/vlc/">VLC Media Player</a></td>
-    <td style="background-color: #aaaaff; width: 17%; vertical-align: middle;" align="center"><a href="/streaming/">Streaming</a></td>
-    <td style="background-color: #aaaaff; width: 17%; vertical-align: middle;" align="center"><a href="/doc/">Documentation</a></td>
-    <td style="background-color: #aaaaff; width: 16%; vertical-align: middle;" align="center"><a href="/support/">Support</a></td>
+    <td style="background-color: <?=$color_home?>; width: 17%; vertical-align: middle;" align="center"><a href="/">Home</a></td>
+    <td style="background-color: <?=$color_vlc?>; width: 16%; vertical-align: middle;" align="center"><a href="/vlc/">VLC Media Player</a></td>
+    <td style="background-color: <?=$color_streaming?>; width: 17%; vertical-align: middle;" align="center"><a href="/streaming/">Streaming</a></td>
+    <td style="background-color: <?=$color_doc?>; width: 17%; vertical-align: middle;" align="center"><a href="/doc/">Documentation</a></td>
+    <td style="background-color: <?=$color_support?>; width: 16%; vertical-align: middle;" align="center"><a href="/support/">Support</a></td>
     <td style="background-color: #aaffaa; width: 17%; vertical-align: middle;" align="center"><a href="http://developers.videolan.org/">Developers</a></td>
     <td class="nowrap">
       <select name="mirror">

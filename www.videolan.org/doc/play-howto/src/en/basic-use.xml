@@ -513,6 +513,23 @@ subtitles.</para>
 <para>VLC includes a system of <emphasis>filters</emphasis> that allow
 you to modify the audio and video.</para>
 
+<sect2><title>Deinterlacement and Post Processing</title>
+
+<para>VLC is able to deinterlace a video stream using different deinterlacement 
+methods. Deinterlacement can be enabled in the <emphasis>Video</emphasis> menu, 
+<emphasis>Deinterlacement</emphasis> menu item. The <emphasis>Blend</emphasis> 
+methods gives the best results in most cases. The <emphasis>discard</emphasis> 
+method is a less ressource consuming alternative.</para>
+
+<para>On some particular streams (MPEG 4, DIVX, XVID, Sorenson, ...), some 
+additional image filtering can be applied to the video before display, 
+improving its quality in some cases. This can be enabled in the <emphasis>Video
+</emphasis> menu, <emphasis>Post processing</emphasis> menu item. Different 
+levels of post processing can be chosen here. A higher level means more 
+filtering.</para>
+
+</sect2>
+
 <sect2><title>Video filters</title>
 
 <para>VLC features several filters able to change the video (distortion,

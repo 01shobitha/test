@@ -4,9 +4,10 @@
    $date = "16 April 2001";
    $menu = array( "vlc", "download" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
-?>
 
-<? function pkgitem($version,$name) { ?><li><a href="http://download.videolan.org/pub/videolan/vlc/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
+   include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
+
+?>
 
 <? function pkgitemdev($version,$name) { ?><li><a href="http://download.videolan.org/pub/testing/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
 
@@ -20,7 +21,7 @@
 There is not, and won't be, a version for Mac OS 9.</p>
 
 <ul>
-  <? pkgitem("0.7.1/macosx","vlc-0.7.1a.dmg"); ?>
+  <? pkgitem("0.7.1/macosx","vlc-0.7.1a.dmg","vlc"); ?>
 </ul>
 
 <p> VLC for Mac OS X is distributed as a disk image. Download the

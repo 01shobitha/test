@@ -4,16 +4,16 @@
    $date = "16 April 2001";
    $menu = array( "vlc", "download" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
-?>
+   include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
 
-<? function pkgitem($version,$name) { ?><li><a href="http://download.videolan.org/pub/videolan/vlc/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
+?>
 
 <h1> VLC for BeOS </h1>
 
 <h2>Latest BeOS package (0.7.1)</h2>
 
 <ul>
-  <? pkgitem("0.7.1/beos","vlc-0.7.1-BeOS.zip"); ?>
+  <? pkgitem("0.7.1/beos","vlc-0.7.1-BeOS.zip","vlc"); ?>
 </ul>
 
 <h2>Older versions</h2>

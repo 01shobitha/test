@@ -24,16 +24,10 @@
       <? echo $text; ?>
     </td></tr>
     <? if(strlen($zip)>2) { ?><tr> 
-    <?  CSSButton( "document.location='/vlc/skins/$zip'", 
-                   "skins-download", "skins-download-over",
-                   "skins-download-down" );
-        echo "Download ZIP file"; ?>
+<td><a class="skins-download" href="/vlc/skins/<? echo "$zip"; ?>">Download ZIP file</a>
     </td></tr> <? } ?>
     <? if(strlen($vlt)>2) { ?><tr>
-    <?   CSSButton( "document.location='/vlc/skins/$vlt'",
-                   "skins-download", "skins-download-over",
-                   "skins-download-down" );
-        echo "Download VLT file"; ?>
+<td><a class="skins-download" href="/vlc/skins/<? echo "$vlt"; ?>">Download VLT file</a>
     </td></tr> <? } ?>
    </table>
   </td>

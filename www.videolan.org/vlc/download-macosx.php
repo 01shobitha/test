@@ -22,11 +22,14 @@
 
 <p><b>Note:</b> There is not, and there will never be, a version for Mac OS 9.</p>
 
+<p>(Requires Mac OS X 10.2 or 10.3)</p>
 <ul>
-<?php pkgitem("0.8.1/macosx","vlc-0.8.1.dmg","vlc"); ?> (Requires Mac OS X 10.2 or 10.3)
+<?php pkgitem("0.8.1/macosx","vlc-0.8.1.dmg","vlc"); ?>
 </ul>
+<br />
+<p>(Last version for Mac OS X 10.1)</p>
 <ul>  
-<?php pkgitem("0.7.0/macosx","vlc-0.7.0.dmg","vlc"); ?> (Last version for Mac OS X 10.1)
+<?php pkgitem("0.7.0/macosx","vlc-0.7.0.dmg","vlc"); ?>
 </ul>
 
 <p> VLC for Mac OS X is distributed as a disk image. Download the

@@ -6,7 +6,7 @@ DOC := videolan-faq
 # TODO : no more redundancy between the 2 languages
 
 # The FAQ is available in english and spanish
-all: en es
+all: en es fr
 
 clean:
 	rm -f *.zip *.html *.pdf *.ps *.txt *.rtf *.dvi *.out *.aux *.log
@@ -101,4 +101,51 @@ $(DOC)-es.txt: $(DOC)-es.xml
 #	w3m -dump dump-es.html > $(DOC)-es.txt
 	lynx -force_html -dump dump-es.html > $(DOC)-es.txt
 	rm -f dump-es.html
+
+# FRENCH
+
+fr: $(DOC)-fr.html $(DOC)-fr.ps $(DOC)-fr.pdf $(DOC)-fr.rtf $(DOC)-fr.txt
+
+$(DOC)-fr.xml: $(DOC).xml
+	xsltproc --stringparam lang fr ../common/multilanguage.xsl $(DOC).xml > $(DOC)-fr.xml.tmp
+	sed -e 's/id=\"videolan-faq\"/id=\"videolan-faq-fr\"/' $(DOC)-fr.xml.tmp > $(DOC)-fr.xml
+	rm -f $(DOC)-fr.xml.tmp
+
+$(DOC)-fr.html: $(DOC)-fr.xml
+	/bin/cp ../common/magic-jpg.xml ../common/magic.xml
+	jade -t sgml -d ../common/stylesheet-html.dsl $(DOC)-fr.xml
+	ln -sf $(DOC)-fr.html index.html
+	zip $(DOC)-fr-html.zip $(DOC)-fr.html
+
+$(DOC)-fr.ps: $(DOC)-fr.xml
+	/bin/cp ../common/magic-eps.xml ../common/magic.xml
+	jade -t tex -d ../common/stylesheet-print.dsl -o $(DOC)-fr.tex $(DOC)-fr.xml
+	jadetex $(DOC)-fr.tex
+	jadetex $(DOC)-fr.tex
+	jadetex $(DOC)-fr.tex
+	rm -f *.tex *.out *.aux *.log
+	dvips -o $(DOC)-fr.ps $(DOC)-fr.dvi
+	zip $(DOC)-fr-ps.zip $(DOC)-fr.ps
+
+$(DOC)-fr.pdf: $(DOC)-fr.xml
+	/bin/cp ../common/magic-jpg.xml ../common/magic.xml
+	jade -t tex -d ../common/stylesheet-print-noicones.dsl -o $(DOC)-fr.tex $(DOC)-fr.xml
+	pdfjadetex $(DOC)-fr.tex
+	pdfjadetex $(DOC)-fr.tex
+	pdfjadetex $(DOC)-fr.tex
+	rm -f *.tex *.out *.aux *.log
+	zip $(DOC)-fr-pdf.zip $(DOC)-fr.pdf
+
+$(DOC)-fr.rtf: $(DOC)-fr.xml
+	/bin/cp ../common/magic-jpg.xml ../common/magic.xml
+	jade -t rtf -d ../common/stylesheet-print-noicones.dsl -o $(DOC)-fr.rtf $(DOC)-fr.xml
+	zip $(DOC)-fr-rtf.zip $(DOC)-fr.rtf
+
+$(DOC)-fr.txt: $(DOC)-fr.xml
+	/bin/cp ../common/magic-jpg.xml ../common/magic.xml
+	jade -t sgml -d ../common/stylesheet-txt.dsl -V nochunks $(DOC)-fr.xml > dump-fr.html
+#	w3m -dump dump-fr.html > $(DOC)-fr.txt
+	lynx -force_html -dump dump-fr.html > $(DOC)-fr.txt
+	rm -f dump-fr.html
+
 

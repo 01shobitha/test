@@ -130,11 +130,11 @@ StartHtml( ereg_replace( "<[^>]*>" , "" , $title ) );
 Patent banner code 
 -->
   <tr align="center">
-    <td valign="top" colspan="2" style="background-color:white;">
-      <p style="color: red; font-size:18px;" >
+    <td valign="top" colspan="2" style="background-color:white; border: 4px solid red;">
+      <p style="color: red; font-size:28px; align:center;" >
 	Beware: VideoLAN might disappear due to patent legislation.
       </p>
-      <p>
+      <p style="align: center">
         <a href="/patents.html">Click here for more information on what you can do to stop patents and help VideoLAN.</a>
     </td>
   </tr>

@@ -1,7 +1,7 @@
 <?php
 function mirrordir($dir)
 { ?>
-  <li>Select a mirror :
+  <li>Choose a downloadlocation :
 <ul>
 <!--<li><a href="http://download.videolan.org/pub/videolan/<?php echo $dir ?>">VIA, Ecole Centrale Paris (France)</a></li>-->
 <?php

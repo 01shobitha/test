@@ -32,9 +32,10 @@ RewriteRule ^vlc/solaris.html$ /vlc/features.html [R=permanent,L]
 RewriteRule ^vlc/todo.html$ /vlc/features.html [R=permanent,L]
 RewriteRule ^vlc/windows.html$ /vlc/features.html [R=permanent,L]
 RewriteRule ^vls/sat/index.html$ /streaming/index.html [R=permanent,L]
-RewriteRule ^vls/download.html$ /streaming/download.html [R=permanent,L]
+RewriteRule ^vls/download.html$ /streaming/index.html [R=permanent,L]
+RewriteRule ^vls/$ /streaming/index.html [R=permanent,L]
 RewriteRule ^vls/doc.html$ /streaming/index.html [R=permanent,L]
-RewriteRule ^vls/doc/(.*)$ /streaming/doc/vls-old/doc/$1 [R=permanent,L]
+RewriteRule ^vls/doc/(.*)$ /doc/vls-old/doc/$1 [R=permanent,L]
 
 RewriteRule ^streaming/download.html$ /streaming/index.html [R=permanent,L]
 RewriteRule ^streaming/download-linux.html$ /streaming/download-vls-sources.html [R=permanent,L]
@@ -66,6 +67,7 @@ RewriteRule ^libdvdplay.* http://developers.videolan.org/libdvdplay/index.html [
 # Redirects for moved stuff -- fallbacks
 #
 RewriteRule ^vls/(.*)$ /streaming/index.html [R=permanent,L]
+RewriteRule ^vls(.*)$ /streaming/index.html [R=permanent,L]
 RewriteRule ^vlms/(.*)$ /streaming/index.html [R=permanent,L]
 RewriteRule ^network/(.*)$ /streaming/index.html [R=permanent,L]
 

@@ -2,6 +2,11 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+|1-3 Feb 2005| VideoLAN at Solutions Linux Paris | VideoLAN will have
+a booth at <a href="http://www.solutionslinux.fr/en/">Solutions Linux
+Paris 2005</a>, which will take place at the CNIT, Paris La Defense. The
+VideoLAN team will welcome you at the booth.
+
 |23 January 2005| New: VLC Streaming HOWTO| VLC's documentation rewrite
 is finished ! The <a href="/doc">complete user guide for the server
 aspects of VLC</a> is now available.

@@ -32,4 +32,4 @@ txt:
 	sgmltools -b txt vlc-user-guide.sgml
 
 clean:
-	rm -f *.zip *.html *.pdf *.ps *.jpg *.txt
+	rm -f *.zip *.html *.pdf *.ps *.jpg *.txt *.rtf

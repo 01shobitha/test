@@ -12,7 +12,6 @@
 
 
   <!ENTITY install-vlc SYSTEM "../common/install-vlc.sgml">
-  <!ENTITY install-vlcs SYSTEM "../common/install-vlcs.sgml">
   <!ENTITY fdl SYSTEM "../common/fdl.sgml">
 
 

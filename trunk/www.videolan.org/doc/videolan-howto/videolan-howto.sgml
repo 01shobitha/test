@@ -4,12 +4,13 @@
     %magic-entities;
 
   <!ENTITY intro SYSTEM "../common/intro.sgml">
-  <!ENTITY overview SYSTEM "overview.sgml">
+  <!ENTITY vlc SYSTEM "vlc.sgml">
+  <!ENTITY vlc-streamoutput SYSTEM "vlc-streamoutput.sgml">
   <!ENTITY vls SYSTEM "vls.sgml">
-  <!ENTITY vlcs SYSTEM "vlcs.sgml">
-  <!ENTITY vod SYSTEM "vod.sgml">
-  <!ENTITY faq SYSTEM "faq.sgml">
+  <!ENTITY vod SYSTEM "../videolan-quickstart/vod.sgml">
+  <!ENTITY vlcs SYSTEM "../videolan-quickstart/vlcs.sgml">
 
+  <!ENTITY install-vlc SYSTEM "../common/install-vlc.sgml">
   <!ENTITY install-vls SYSTEM "../common/install-vls.sgml">
   <!ENTITY uninstall-vls SYSTEM "../common/uninstall-vls.sgml">
   <!ENTITY fdl SYSTEM "../common/fdl.sgml">
@@ -92,10 +93,10 @@ solution.</para>
 <toc></toc>
 
 &intro;
-&overview;
+&vlc;
+&vlc-streamoutput;
 &vls;
-&vlcs;
 &vod;
-&faq;
+&vlcs;
 &fdl;
 </book>

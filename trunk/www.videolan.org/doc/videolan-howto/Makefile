@@ -31,4 +31,4 @@ txt:
 	sgmltools -b txt videolan-howto.sgml
 
 clean:
-	rm -f *.zip *.html *.pdf *.ps *.txt
+	rm -f *.zip *.html *.pdf *.ps *.txt *.rtf

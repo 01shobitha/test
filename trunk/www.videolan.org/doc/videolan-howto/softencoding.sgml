@@ -19,15 +19,15 @@ url="http://www.exploits.org/v4l/">this page</ulink>.</para>
 
 <sect1><title>Stream with VLC</title>
 
-<note><para>This feature is not available in vlc 0.5.3, but it is in
-CVS.</para></note>
-
-<note><para>If you're building VLC from sources, you must specify
-<command>--enable-v4l</command> to <command>./configure</command> to use
-this feature.</para></note>
+<note><para>For the moment, you need the CVS version of VLC,
+and you must specify <command>--enable-v4l</command> to
+<command>./configure</command> to use this feature.</para></note>
 
 <screen>
-<prompt>% </prompt><userinput>vlc v4l:/dev/video:norm=secam:frequency=8692:size=640x480:channel=0:adev=/dev/dsp:audio=0 --sout '#transcode{vcodec=mp4v,ab=256,vb=3000,vt=800000,keyint=80,acodec=mpga}:std{access=udp,mux=ts,url=239.255.12.13}' --ttl 12</userinput>
+<!-- We cut the lines when they are too long, so that it looks OK in PDF format ! -->
+<prompt>% </prompt><userinput>vlc v4l:/dev/video:norm=secam:frequency=8692:size=640x480:channel=0:adev=/dev/dsp:audio=0
+--sout '#transcode{vcodec=mp4v,ab=256,vb=3000,vt=800000,keyint=80,acodec=mpga}
+:std{access=udp,mux=ts,url=239.255.12.13}' --ttl 12</userinput>
 </screen>
 
 <para>where :</para>

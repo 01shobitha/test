@@ -6,7 +6,14 @@
   {
     $fd = fopen( "$page.html", "r" );
     $line = fgets( $fd, 1023 );
-    if( ereg( "<?", $line, $regs ) )
+    if( ereg( "<HTML", $line, $regs ) )
+    {
+      /* on laisse telles quelles les pages html toutes faites
+         (e.g. les docs développeur) */
+      include( "$page.html" );
+      exit;
+    }
+    else if( ereg( "<?", $line, $regs ) )
     {
       $line = fgets( $fd, 1023 );
       eval( $line ); // get $title

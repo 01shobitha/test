@@ -4,9 +4,10 @@
    $date = "16 April 2001";
    $menu = array( "vlc", "windows" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
-?>
 
-<? function pkgitem($version,$name) { ?><li><a href="http://download.videolan.org/pub/videolan/vlc/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
+   include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
+
+?>
 
 <? function pkgitemdev($version,$name) { ?><li><a href="http://download.videolan.org/pub/testing/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
 
@@ -17,13 +18,13 @@
 <p> Windows self-extracting package: </p>
 
 <ul>
-  <? pkgitem("0.7.1/win32","vlc-0.7.1-win32.exe"); ?>
+  <? pkgitem("0.7.1/win32","vlc-0.7.1-win32.exe","vlc"); ?>
 </ul>
 
 <p> Windows zip package (identical to the above but without the installer): </p>
 
 <ul>
-  <? pkgitem("0.7.1/win32","vlc-0.7.1-win32.zip"); ?>
+  <? pkgitem("0.7.1/win32","vlc-0.7.1-win32.zip","vlc"); ?>
 </ul>
 
 <p> <span style="color: red;"><b>Virus warning</b></span>: we have had several

@@ -30,7 +30,7 @@ de charger son fichier de configuration (<filename>vls.cfg</filename>)
 depuis le répertoire courant, et si il ne l'y trouve pas, depuis
 <filename>SYSCONF_DIR/etc/videolan</filename> (voir la section <xref
 linkend="config" endterm="tconfig"/>)</span>
-<span xml:lang="de">Wenn Sie die Telnet-Oberfläche benutzen, ist das starten
+<span xml:lang="de">Wenn Sie die Telnet-Oberfläche benutzen, ist das Starten
 von VLS sehr einfach: geben Sie einfach <command>vls</command> in eine
 Shellconsole ein. Das ist alles. Das Starten von <command>vlsd</command>
 wird VLS als Daemon starten und sich aus der startenden Shell ausklinken. 
@@ -50,7 +50,7 @@ you will see something like</span>
 l'accès en écriture au répertoire courant, ou vous verrez quelque chose
 comme</span>
 <span xml:lang="de">Wenn Ihre Log-Datei <filename>vls.log</filename> wie
-im Beispiel ist, benötigt VLS schreibzugriff auf das aktuelle Verzeichnis oder Sie
+im Beispiel ist, benötigt VLS Schreibzugriff auf das aktuelle Verzeichnis oder Sie
 werden etwas vergleichbares mit dem Folgenden sehen.</span>
 :</para>
 
@@ -77,7 +77,7 @@ wenn Sie die "Interface"-Option in <filename>vls.cfg</filename> benutzen</span>
 <span xml:lang="en">If everything is right, you will see something like</span>
 <span xml:lang="fr">Si tout se passe bien, vous verrez quelque chose comme
 </span>
-<span xml:lang="de">Wenn alles in Ordnung ist, werden SIe ähnliches wie das Folgende
+<span xml:lang="de">Wenn alles in Ordnung ist, werden Sie ähnliches wie das Folgende
 sehen</span>
 :</para>
 
@@ -243,7 +243,7 @@ specified input. Each program is given with its status</span>
 <span xml:lang="fr">Sans argument, la commande liste les programmes
 des entrées. Avec un argument, elle donne les programmes de l'entrée
 spécifiée. Le status de chaque programme est donnée</span>
-<span xml:lang="de">Mit einem Argument aufgerufen, gibt "browse" alle
+<span xml:lang="de">Ohne Argument aufgerufen, gibt "browse" alle
 Programme der Inputs aus. Mit einem Argument aufgerufen, gibt es nur
 die Programme des angegeben Inputs an. Jedes Programm wird mit dessen
 Status angezeigt</span>
@@ -276,8 +276,8 @@ le protocole RTP, défini dans les RFC 1889 et 2250</span>
 <span xml:lang="de">"start" startet das angegebene Programm des angegebenen
 Inputs und gibt es über den angebenen Channel aus. Durch die "--loop"-Option
 wird das Programm unendlich wiederholt. Durch die "--rtp"-Option werden
-die TS-Pakete über das RTP-Protokoll, wie es in RFC 1889 und 2250 festgelegt wurde,
-gesendet.</span>
+die TS-Pakete über das RTP-Protokoll gesendet, wie es in RFC 1889 und 2250 festgelegt ist
+</span>
 .</para>
 
 </simplesect>
@@ -291,7 +291,7 @@ gesendet.</span>
 <para>
 <span xml:lang="en">"stop" ends the broadcast of the specified channel</span>
 <span xml:lang="fr">"stop" arrête la diffusion sur la sortie spécifiée</span>
-<span xml:lang="de">"stop" beendet das Broadcasting des angebenen Channels</span>
+<span xml:lang="de">"stop" beendet das Senden des angebenen Channels</span>
 .</para>
 </simplesect>
 
@@ -310,7 +310,7 @@ encoding card, a DVB card or an acquisition card</span>
 <span xml:lang="fr">Avance dans la sortie donnée à la vitesse
 donnée. Ceci ne fonctionne pas lors de la lecture depuis une carte
 d'acquisition, d'encodage, ou une carte DVB</span>
-<span xml:lang="de">"forward" beschleunigt Channel um die angegebene Geschwindigkeit.
+<span xml:lang="de">"forward" beschleunigt den Channel um die angegebene Geschwindigkeit.
 Dies funktioniert nicht, wenn direkt aus einem Gerät, wie einer MPEG-Kodierungskarte,
 einer DVB-Karte oder einer Eingangskarte, gelesen wird</span>
 .</para>

@@ -243,8 +243,8 @@ die gesendeten Streams. Durch eine <emphasis>Administrationsoberfläche
 Programme zu starten, stoppen, anzuhalten, wiederaufzunehmen, zu
 beschleunigen oder zu verlangsamen. Sie können auch eine Liste aller
 Programme erhalten. Der Manager liest diese aus der VLS-Konfigurationsdatei
-(<filename>vls.cfg</filename>), wodurch diese nicht geändert werden
-kann, nachdem VLS gestartet wurde. Derzeit können Sie den Manager nicht
+(<filename>vls.cfg</filename>), weshalb diese nicht geändert werden
+darf, nachdem VLS gestartet wurde. Derzeit können Sie den Manager nicht
 fragen, ob ein angebener Stream gesendet wird. Sie erhalten aber eine
 Fehlermeldung, wenn Sie versuchen einen Stream anzuhalten, der nicht
 gesendet wird</span>

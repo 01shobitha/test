@@ -253,7 +253,7 @@ utilisateurs peuvent exécuter command1,command2, ... Les commandes
 disponibles sont: browse, start, suspend, resume, forward, rewind, stop,
 shutdown, logout</span>
 <span xml:lang="de">Diese fügt eine Gruppe "groupname" hinzu, deren
-Nutzer erlaubt ist, command1, command2 usw. auszuführen. Derzeit sind die
+Nutzern erlaubt ist, command1, command2 usw. auszuführen. Derzeit sind die
 verfügbaren Befehle help, browse, start, suspend, resume, forward, rewind, stop,
 shutdown und logout</span>
 .</para>
@@ -542,9 +542,9 @@ section "pvr". La syntaxe de ces sections dépend du type de l'entrée
 correspondante</span>
 <span xml:lang="de">Für jeden Input, der in der "Inputs"-Sektion deklariert
 wurde, müssen Sie, abgesehen von "local"-Inputs, eine Sektion mit dem gleichen
-Namen hinzufügen. Wenn Sie beispielsweise Input "pvr" deklariert haben, sollte
-es auch eine Sektion namens "pvr" geben. Die Syntax solcher Sektionen hängt
-vom Typus des Inputs ab</span>
+Namen hinzufügen. Wenn Sie beispielsweise den Input "pvr" deklariert haben,
+sollte es auch eine Sektion namens "pvr" geben. Die Syntax solcher Sektionen
+hängt vom Typus des Inputs ab</span>
 .</para>
 
 <para>
@@ -632,7 +632,7 @@ END
 following format</span>
 <span xml:lang="fr">Pour configurer une entrée dvb, ajoutez une section
 du type suivant</span>
-<span xml:lang="de">Im einen DVB-Input zukonfigurieren, fügen Sie eine
+<span xml:lang="de">Um einen DVB-Input zu konfigurieren, fügen Sie eine
 Sektion im folgenden Format hinzu</span>
 :</para>
 
@@ -998,7 +998,7 @@ Pour cela, vous devez ajouter une section "Input" dans votre fichier
 <filename>vls.cfg</filename>. Chaque section Input doit avoir la syntaxe
 suivante</span>
 <span xml:lang="de">Wie bereits erklärt, müssen Sie die Programme definieren.
-Jeder ist ein MPEG-Stream (eine Datei beispielsweise). Um dies zu tun, müssen
+Jedes ist ein MPEG-Stream (eine Datei beispielsweise). Um dies zu tun, müssen
 Sie eine "Input"-Sektion Ihrer <filename>vls.cfg</filename>-Datei hinzufügen.
 Jede "Input"-Sektion muss die folgende Syntax haben</span>
 :</para>
@@ -1044,12 +1044,12 @@ END
 
 <listitem><para>
 <span xml:lang="en">"number" is the program number: the first program
-has number 1, the second number 2, and so on</span>
+has number 1, the second number 2, and so on.</span>
 <span xml:lang="fr">"number" est le numéro de programme: le premier est
 1, le second 2, ...</span>
 <span xml:lang="de">"number" ist die Programm-Nummer: das erste Programm
 hat die Nummer 1, das Zweite die Nummer 2, usw.</span>
-.</para></listitem>
+</para></listitem>
 
 <listitem><para>
 <span xml:lang="en">"name" is the program name, by which you will tell
@@ -1071,8 +1071,8 @@ ou "DVD". Si votre flux est stocké dans un fichier MPEG (*.mpeg,
 Mpeg2-PS</span>
 <span xml:lang="de">"type" kann "Mpeg1-PS", "Mpeg2-PS", "Mpeg2-TS",
 oder "DVD" sein. Wenn Ihr Stream in einer MPEG-Datei (*.mpeg, *.mpg, *.vob,
-usw.) gespeichert ist, ist es wahrscheinlich im Mpeg1-PS oder
-Mpeg2-PS - Format</span>
+usw.) gespeichert ist, wird es wahrscheinlich im Mpeg1-PS oder
+Mpeg2-PS - Format sein</span>
 .</para></listitem>
 
 <listitem><para>
@@ -1104,7 +1104,7 @@ l'endroit où les fichiers .vob sont stockés ("/mnt/data/VIDEO_TS", par
 exemple)</span>
 <span xml:lang="de">Falls "type" "DVD" ist, wird die Variable "Device"
 anstatt von "FileName" benutzt werden (die Variable "FilesPath" wird nicht
-auf den Devicenamen [angewendet]!). Die Variable "Device" ist das Device
+auf den Devicenamen angewendet!). Die Variable "Device" ist das Device
 Ihres DVD-Laufwerkes (beispielsweise "/dev/hdc" oder "/dev/cdrom"). Sie
 können auch eine auf eine Festplatte kopierte DVD wiedergeben. Dann ist
 "Device" das Verzeichnis, in dem die .vob-Dateien gespeichert sind
@@ -1125,7 +1125,7 @@ device</span>
 avec le support des DVD, qui utilise libdvdread et libdvdcss. Vous devez
 avoir l'accès en lecture <emphasis>et</emphasis> en écriture à votre
 lecteur de DVD</span>
-<span xml:lang="de">Um DVD wiedergeben zu können, müssen Sie VLS mit
+<span xml:lang="de">Um DVDs wiedergeben zu können, müssen Sie VLS mit
 DVD-Unterstützung, die libdvdread und libdvdcss benutzt, kompilieren. Sie
 werden Lese- <emphasis>und</emphasis> Schreibzugriff auf das DVD-Device
 benötigen</span>

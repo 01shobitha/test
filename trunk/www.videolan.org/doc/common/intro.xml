@@ -340,7 +340,7 @@ gesendet von VLS oder VLCs Streamausgabe.</para></listitem>
 <emphasis>unicast</emphasis>,</para></listitem>
 </span>
 <span xml:lang="de">
-<listitem><para>ein Rechner (d.h. an eine IP-Adresse): dies wird
+<listitem><para>einen Rechner (d.h. an eine IP-Adresse): dies wird
 <emphasis>Unicast</emphasis> genannt,</para></listitem>
 </span>
 
@@ -450,7 +450,7 @@ television card (DVB-T)</span>
 digital terrestre (DVB-T)</span>
 <span xml:lang="fr">une carte satellite (DVB-S) ou une carte de télévision
 numérique terrestre (DVB-T)</span>
-<span xml:lang="de">eine Satellitenkarte (DVB-S) oder eine digitale terrestrische
+<span xml:lang="de">Daten einer Satellitenkarte (DVB-S) oder einer digitalen terrestrischen
 TV-Karte (DVB-T)</span>
 ,</para></listitem>
 
@@ -458,7 +458,7 @@ TV-Karte (DVB-T)</span>
 <span xml:lang="en">an MPEG encoding card</span>
 <span xml:lang="fr">une carte d'encodage MPEG</span>
 <span xml:lang="es">una tarjeta codificadora MPEG</span>
-<span xml:lang="de">eine MPEG-Kodierungskarte</span>
+<span xml:lang="de">Daten einer MPEG-Kodierungskarte</span>
  ;</para></listitem>
 
 </itemizedlist>
@@ -539,7 +539,7 @@ flujo a la red. Cuando se transmiten muchos vídeos almacenados en un disco duro,
 no es el procesador sino el disco duro y la conexión de red.</para>
 </span>
 <span xml:lang="de">
-<para>Ein Rechner mit einem Pentium mit 100 MHz und 32 MB Arbeitsspeicher
+<para>Ein Rechner mit einem Pentium-Prozessor mit 100 MHz und 32 MB Arbeitsspeicher
 sollte ausreichend sein, um einen Stream über das Netzwerk zu versenden. Wenn
 viele auf einer Festplatte gespeicherte Videos gestreamt werden, ist die wirkliche
 Beschränkung nicht der Prozessor, sondern die Festplatte und die 
@@ -906,7 +906,7 @@ inside a terminal.</span>
 doivent être tapées dans un terminal</span>
 <span xml:lang="es">
 Todos los comandos que se describen en este documento deben ser tecleados dentro de un terminal</span>
-<span xml:lang="de">Alle Befehl, die in diesem Dokument auftauchen, sollten
+<span xml:lang="de">Alle Befehle, die in diesem Dokument auftauchen, sollten
 in ein Terminal eingeben werden.</span>
 .</para>
 

@@ -13,7 +13,7 @@ comprender la diferencia entre un <emphasis>codec</emphasis> y un
 <emphasis>formato contenedor</emphasis></span>
 <span xml:lang="de">Um die VideoLAN Lösung komplett zu verstehen, müssen
 Sie den Unterschied zwischen einem <emphasis>Codec</emphasis> und einem
-<emphasis>Container-Format</emphasis> verstehen.</span>
+<emphasis>Container-Format</emphasis> kennen.</span>
 </para>
 
 <itemizedlist>
@@ -99,7 +99,7 @@ matemático para descomprimir los flujos</span>
 VLC ihn erst. Das bedeutet, dass es das Containerformat liest und Ton, Bild und Untertitel
 trennt, wenn welche vorhanden sind. Danach wird jeder davon durch 
 <emphasis>Dekoder</emphasis> geleitet, die die mathematischen Vorgänge zur
-Dekomprimierung ausüben</span>
+Dekomprimierung ausführen</span>
 .</para>
 
 

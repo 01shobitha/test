@@ -99,7 +99,7 @@ For example, to transcode a stream and send it, use:
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc input_stream --sout '#transcode{options}:#standard{options}'</userinput>
+<prompt>% </prompt><userinput>vlc input_stream --sout '#transcode{options}:standard{options}'</userinput>
 </screen>
 
 </sect1>

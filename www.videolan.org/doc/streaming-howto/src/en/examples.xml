@@ -214,6 +214,13 @@ on the client(s), run:
 
 </sect1>
 
+<sect1><title>RTSP
+</title>
+
+<para>See <xref linkend="vlm" endterm="tvlm" /></para>
+
+</sect1>
+
 <sect1><title>
 Use the <emphasis>es</emphasis> module
 </title>

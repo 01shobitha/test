@@ -20,6 +20,20 @@ url="http://liba52.sourceforge.net/">liba52 web site</ulink></span>
 url="http://liba52.sourceforge.net/">site liba52</ulink></span>
 ).</para></sect2>
 
+<sect2><title>cinepak</title>
+&enabled;
+<para>
+<span xml:lang="en">This codec decodes the Cinepak format</span>
+<span xml:lang="fr">Ce décodeur lit le format Cinepak</span>
+.</para></sect2>
+
+<sect2><title>faad</title>
+&disabled;
+<para>
+<span xml:lang="en">Faad is an MPEG-4 audio decoder</span>
+<span xml:lang="fr">Faas est un décodeur audio MPEG-4</span>
+.</para></sect2>
+
 <sect2><title>ffmpeg</title>
 &enabled;
 <para>
@@ -66,6 +80,70 @@ erreurs sur les flux, entre -1 et 99 (-1 désactive toute correction d'erreur)</s
 </itemizedlist>
 </sect2>
 
+<sect2><title>libmpeg2</title>
+&enabled;
+<para>
+<span xml:lang="en">This codec allows to read MPEG2 files</span>
+<span xml:lang="fr">Ceci permet de lire les fichiers MPEG2</span>
+.</para></sect2>
+
+<sect2><title>mad</title>
+&enabled;
+<para>
+<span xml:lang="en">This codec is a very smart MP3 decoder, that only
+uses integers. This allows its use for CPU which don't handle floating
+point numbers (on PDA, for example)</span>
+<span xml:lang="fr">Ce décodeur décode les MP3 en n'utilisant que des
+nombres entiers, ce qui permet de l'utiliser sur les PDAs</span>
+.</para>
+</sect2>
+
+<sect2><title>ogt</title>
+&enabled;
+<para>
+<span xml:lang="en">ogt handles the VCD subtitles (Philips Overlay
+Graphics Text or OGT) and subtitles used by Chaoji VCDs (also known
+as CVD).</span>.
+
+<sect2><title>spudec</title>
+&enabled;
+<para>
+<span xml:lang="en">spudec handles the DVD subtitles. At present
+full color subtitles and transparency are not handled.</span>.
+
+<sect2><title>tarkin</title>
+&disabled;
+<para>
+<span xml:lang="en">tarkin is a new codec (experimental) by the Ogg
+Project (see the <ulink url="http://www.vorbis.com">Ogg Vorbis web
+site</ulink>)</span>
+<span xml:lang="fr">tarkin est décodeur expréimental du projet Ogg (voir
+<ulink url="http://www.vorbis.com">le site Ogg/Vorbis</ulink>)</span>
+.</para></sect2>
+
+<sect2><title>theora</title>
+&disabled;
+<para>
+<span xml:lang="en">theora is a new codec (experimental) by the Ogg
+Project (see the <ulink url="http://www.vorbis.com">Ogg Vorbis web
+site</ulink>)</span>
+<span xml:lang="fr">theora est décodeur expréimental du projet Ogg (voir
+<ulink url="http://www.vorbis.com">le site Ogg/Vorbis</ulink>)</span>
+.</para></sect2>
+
+<sect2><title>tremor</title>
+&disabled;
+<para>
+<span xml:lang="en">This is an Ogg/Vorbis codec that only makes
+integer calculus, which allow its use on CPU which don't have floating
+point support (see the <ulink url="http://www.vorbis.com">Ogg Vorbis
+web</ulink></span>
+<span xml:lang="fr">Ce codec Ogg/Vorbis ne fait que des calculs entiers,
+ce qui permet de l'utiliser sur des CPUs qui ne supportent pas la
+virgule flottante (voir le <ulink url="http://www.vorbis.com">le site
+Ogg/Vorbis</ulink>)</span>
+.</para></sect2>
+
 <sect2><title>vorbis</title>
 &enabled;
 <para>
@@ -83,70 +161,4 @@ with Xvid via the xvidcore library (see <ulink url="http://www.xvid.org/">Xvid w
 <span xml:lang="fr">Ce décodeur vous permet de décoder les fichiers Xvid grâce à la librairie xvidcore.
 (voir le <ulink url="http://www.xvid.org/">site Xvid</ulink>)</span>
 .</para></sect2> 
-
-<sect2><title>mad</title>
-&enabled;
-<para>
-<span xml:lang="en">This codec is a very smart MP3 decoder, that only
-uses integers. This allows its use for CPU which don't handle floating
-point numbers (on PDA, for example)</span>
-<span xml:lang="fr">Ce décodeur décode les MP3 en n'utilisant que des
-nombres entiers, ce qui permet de l'utiliser sur les PDAs</span>
-.</para>
-</sect2>
-
-<sect2><title>libmpeg2</title>
-&enabled;
-<para>
-<span xml:lang="en">This codec allows to read MPEG2 files</span>
-<span xml:lang="fr">Ceci permet de lire les fichiers MPEG2</span>
-.</para></sect2>
-
-<sect2><title>faad</title>
-&disabled;
-<para>
-<span xml:lang="en">Faad is an MPEG-4 audio decoder</span>
-<span xml:lang="fr">Faas est un décodeur audio MPEG-4</span>
-.</para></sect2>
-
-<sect2><title>tarkin</title>
-&disabled;
-<para>
-<span xml:lang="en">tarkin is a new codec (experimental) by the Ogg
-Project (see the <ulink url="http://www.vorbis.com">Ogg Vorbis web
-site</ulink>)</span>
-<span xml:lang="fr">tarkin est décodeur expréimental du projet Ogg (voir
-<ulink url="http://www.vorbis.com">le site Ogg/Vorbis</ulink>)</span>
-.</para></sect2>
-
-
-<sect2><title>theora</title>
-&disabled;
-<para>
-<span xml:lang="en">theora is a new codec (experimental) by the Ogg
-Project (see the <ulink url="http://www.vorbis.com">Ogg Vorbis web
-site</ulink>)</span>
-<span xml:lang="fr">theora est décodeur expréimental du projet Ogg (voir
-<ulink url="http://www.vorbis.com">le site Ogg/Vorbis</ulink>)</span>
-.</para></sect2>
-
-<sect2><title>cinepak</title>
-&enabled;
-<para>
-<span xml:lang="en">This codec decodes the Cinepak format</span>
-<span xml:lang="fr">Ce décodeur lit le format Cinepak</span>
-.</para></sect2>
-
-<sect2><title>tremor</title>
-&disabled;
-<para>
-<span xml:lang="en">This is an Ogg/Vorbis codec that only makes
-integer calculus, which allow its use on CPU which don't have floating
-point support (see the <ulink url="http://www.vorbis.com">Ogg Vorbis
-web</ulink></span>
-<span xml:lang="fr">Ce codec Ogg/Vorbis ne fait que des calculs entiers,
-ce qui permet de l'utiliser sur des CPUs qui ne supportent pas la
-virgule flottante (voir le <ulink url="http://www.vorbis.com">le site
-Ogg/Vorbis</ulink>)</span>
-.</para></sect2>
 </sect1>

@@ -52,107 +52,7 @@ function starthtml($title) { ?>
 </tr></table>
 <? }
 
-function menu_vlc() { ?>
-    <a href="/">back to VideoLAN</a><br />
-  <h2>VideoLAN&nbsp;Client</h2>
-    <a href="/vlc/index.html">overview</a><br />
-    <a href="/vlc/screenshots.html">screenshots</a><br />
-    <a href="/vlc/download.html">download</a><br />
-    <a href="/vlc/doc.html">user&nbsp;doc</a><br />
-  <h2>Development</h2>
-    <a href="/vlc/todo.html">TODO&nbsp;list</a><br />
-    <a href="/vlc/changelog.html">ChangeLog</a><br />
-    <a href="/cvs.html">CVS</a><br />
-    <a href="/vlc/developers.html">devel&nbsp;doc</a><br />
-  <h2>Ports</h2>
-    <a href="/vlc/beos.html">BeOS</a><br />
-    <a href="/vlc/bsd.html">BSD</a><br />
-    <a href="/vlc/familiar.html">iPAQ Familiar Linux</a><br />
-    <a href="/vlc/linux.html">Linux</a><br />
-    <a href="/vlc/macosx.html">MacOS&nbsp;X</a><br />
-    <a href="/vlc/qnx.html">QNX&nbsp;RTOS</a><br />
-    <a href="/vlc/solaris.html">Solaris</a><br />
-    <a href="/vlc/windows.html">Windows</a><br />
-<? }
-
-function menu_vls() { ?>
-    <a href="/">back to VideoLAN</a><br />
-  <h2>VideoLAN&nbsp;Server</h2>
-    <a href="/vls/index.html">overview</a><br />
-    <a href="/vls/download.html">download</a><br />
-    <a href="/vls/admin/index.html">admin&nbsp;tools</a><br />
-    <a href="/vls/sat/index.html">satellite</a><br />
-    <a href="/vls/doc.html">user&nbsp;doc</a><br />
-  <h2>Development</h2>
-    <a href="/vls/todo.html">TODO&nbsp;list</a><br />
-    <a href="/vls/changelog.html">ChangeLog</a><br />
-    <a href="/cvs.html">CVS</a><br />
-    <a href="/vls/developers.html">devel&nbsp;doc</a><br />
-<? }
-
-function menu_vlms() { ?>
-    <a href="/">back to VideoLAN</a><br />
-  <h2>VideoLAN&nbsp;MiniServer</h2>
-    <a href="/vlms/index.html">overview</a><br />
-    <a href="/vlms/download.html">download</a><br />
-  <h2>Development</h2>
-    <a href="/vlms/changelog.html">ChangeLog</a><br />
-<? }
-
-function menu_network() { ?>
-    <a href="/">back to VideoLAN</a><br />
-  <h2>Network&nbsp;Tools</h2>
-    <a href="/network/">overview</a><br />
-    <a href="/network/download.html">download</a><br />
-    <a href="/network/doc.html">doc</a><br />
-  <h2>Development</h2>
-    <a href="/network/changelog.html">ChangeLog</a><br />
-<? }
-
-function menu_libdvdcss() { ?>
-    <a href="/">back to VideoLAN</a><br />
-  <h2>libdvdcss</h2>
-    <a href="/libdvdcss/index.html">overview</a><br />
-    <a href="/libdvdcss/download.html">download</a><br />
-  <h2>Development</h2>
-    <a href="/libdvdcss/doc/">Documentation</a><br />
-    <a href="/libdvdcss/changelog.html">ChangeLog</a><br />
-<? }
-
-function menu_libdvbpsi() { ?>
-    <a href="/">back to VideoLAN</a><br />
-  <h2>libdvbpsi</h2>
-    <a href="/libdvbpsi/index.html">overview</a><br />
-    <a href="/libdvbpsi/download.html">download</a><br />
-  <h2>Development</h2>
-    <a href="/libdvbpsi/doc/">Documentation</a><br />
-    <a href="/libdvbpsi/changelog.html">ChangeLog</a><br />
-<? }
-
 function menu_videolan() { ?>
-  <h2><a href="/">Home</a></h2>
-    <a href="/news.html">news</a><br />
-    <a href="/events/index.html">events</a><br />
-    <a href="/partners.html">partners</a><br />
-    <a href="/contribute.html">contribute</a><br />
-    <!--<a href="/lists.html">mailing-lists</a><br />
-    <a href="/intro.html">overview</a><br />-->
-  <h2><a href="/vlc/">VLC Media Player</a></h2>
-    <a href="/vlc/">overview</a><br />
-    <a href="/vlc/">features</a><br />
-    <a href="/vlc/">downloads</a><br />
-    <a href="/vlc/">screenshots</a><br />
-    <a href="/vlc/">FAQ</a><br />
-  <h2>Streaming</h2>
-    <a href="/streaming/">overview</a><br />
-    <a href="/streaming/">features</a><br />
-    <a href="/streaming/">downloads</a><br />
-    <a href="/streaming/">FAQ</a><br />
-  <h2><a href="/doc/">Documentation</a></h2>
-  <h2>Support</h2>
-    <a href="/doc/">documentation</a><br />
-    <a href="/lists.html">mailing-lists</a><br />
-    <a href="/cgi-bin/irc/irc.cgi">IRC</a><br />
 <? }
 
    /*
@@ -163,7 +63,7 @@ function startmenu($title) {
   global $page, $dir; $pre = "/";
   $module = split("/", $dir); $module = $module[1]; ?>
 <!-- main table -->
-<table border="0" cellspacing="0" cellpadding="10">
+<table border="0" cellspacing="0" cellpadding="0">
   <tr>
 
     <td>
@@ -177,20 +77,41 @@ function startmenu($title) {
         </tr>
       </table>
 
-
       <!-- Ze meniou -->
-      <? switch($module) { /*
-           case "vlc": menu_vlc(); break;
-           case "vls": menu_vls(); break;
-           case "vlms": menu_vlms(); break;
-           case "network": menu_network(); break;
-           case "libdvdcss": menu_libdvdcss(); break;
-           case "libdvbpsi": menu_libdvbpsi(); break; */
-           default: menu_videolan(); break;
+      <? switch($module) {
+           case "vlc": ?>
+  <h2><a href="/vlc/">VLC Media Player</a></h2>
+    <a href="/vlc/">overview</a><br />
+    <a href="/vlc/">features</a><br />
+    <a href="/vlc/">downloads</a><br />
+    <a href="/vlc/">screenshots</a><br />
+    <a href="/vlc/">FAQ</a><br /> <?
+             break;
+           case "streaming": ?>
+  <h2>Streaming</h2>
+    <a href="/streaming/">overview</a><br />
+    <a href="/streaming/">features</a><br />
+    <a href="/streaming/">downloads</a><br />
+    <a href="/streaming/">FAQ</a><br /> <?
+             break;
+           case "doc": ?>
+  <h2><a href="/doc/">Documentation</a></h2> <?
+             break;
+           case "support": ?>
+  <h2>Support</h2>
+    <a href="/doc/">documentation</a><br />
+    <a href="/lists.html">mailing-lists</a><br />
+    <a href="/cgi-bin/irc/irc.cgi">IRC</a><br /> <?
+           default: ?>
+  <h2><a href="/">Home</a></h2>
+    <a href="/news.html">news</a><br />
+    <a href="/events/index.html">events</a><br />
+    <a href="/partners.html">partners</a><br />
+    <a href="/contribute.html">contribute</a><br /> <?
+             break;
          } ?>
 
     </td>
-
 
     <td class="fill">
 <? }

@@ -88,10 +88,15 @@ function starthtml($title) { ?>
 </table>
 </form>
 
-<div style="margin: 10px;"><?
+<div style="margin: 10px;">
 
    /* This is where the real user page stands */
-
+<p>
+<? echo $modules[1]; ?>
+<? echo $modules[2]; ?>
+<? echo $modules[3]; ?>
+</p>
+<?
 }
 
 /* Give an entire cell html code for the first menubar */

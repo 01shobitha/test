@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<para>
+Afin de bien comprendre le fonctionnement
+de la solution VideoLAN, vous devez connaître la différence
+entre un <emphasis>codec</emphasis> et un <emphasis>format
+conteneur</emphasis>
+</para>
+
+<itemizedlist>
+
+<listitem><para>
+Un <emphasis>codec</emphasis> est un algorithme de
+compression, utilisé afin de réduire la taille du flux. Il existe des
+codecs audio et vidéo. MPEG-1, MPEG-2, MPEG-4, Vorbis, DivX, ... sont
+des codecs
+</para></listitem>
+
+<listitem><para>
+Un <emphasis>format conteneur</emphasis> contient
+un ou plusieurs flux déjà encodés. Très souvent, il y a un flux audio
+et un flux vidéo. AVI, Ogg, MOV, ASF,... sont des formats conteneurs.
+Les flux contenus peuvent utiliser différents codecs. Si tout était
+parfait, n'importe quel codec pourrait être mis dans n'importe quel
+format conteneur, mais il existe des incompatibilités. Vous trouverez
+une matrice des codecs et formats conteneurs possible sur la <ulink
+url="http://www.videolan.org/streaming/features.html"> page des
+fonctionnalités</ulink>
+
+</para></listitem>
+</itemizedlist>
+
+<para>
+Pour décoder un flux, VLC commence par le
+<emphasis>démultiplexer</emphasis>. Celà signifie qu'il lit le
+format conteneur, et sépare l'audio, la vidéo, et éventuellement
+les sous-titres. Ensuite, chacun de ces flux séparés est envoyé
+aux <emphasis>décodeurs</emphasis> qui vont effectuer le processus
+mathématique de décompression
+.</para>
+
+
+<para>
+MPEG est un cas particulier:
+</para>
+
+<itemizedlist>
+
+<listitem><para>
+MPEG est un codec. Il en existe plusieurs versions,
+appelées MPEG-1, MPEG-2, MPEG-4, ...
+</para></listitem>
+
+<listitem>
+
+<para>MPEG est également un format de conteneur,
+parfois appellé <emphasis>MPEG System</emphasis>. Il en existe plusieurs
+types: ES, PS, et TS</para>
+<para>Quand vous jouez une vidéo MPEG depuis un DVD, par exemple,
+le flux MPEG est en fait composé de plusieurs flux (appelés flux
+élémentaires, ES): un flux vidéo, un flux audio, les sous-titres, ...
+Tous ces flux sont multiplexés dans nu seul flux Program Stream (PS).
+Ainsi, les fichiers .VOB du DVD sont en fait des fichiers MPEG-PS. Mais
+ce format PS n'est pas adapté pour la diffusion sur un réseau ou par un
+satellite, par exemple. Un autre format, appelé Transport Stream, ou TS,
+fut conçu pour la diffusion de vidéo MPEG.</para>
+
+</listitem>
+</itemizedlist>

@@ -2,15 +2,17 @@
 <chapter id="vod"><title id="tvod">
 <span xml:lang="en">Video On Demand</span>
 <span xml:lang="fr">Video à la demande</span>
+<span xml:lang="es">Vídeo Bajo Demanda</span>
 <span xml:lang="de">Video On Demand</span>
 </title>
-
+	
 <sect1><title>
 <span xml:lang="en">Overview</span>
 <span xml:lang="fr">Apercu</span>
+<span xml:lang="es">Visión General</span>
 <span xml:lang="de">Überblick</span>
-
 </title>
+
 <span xml:lang="en">
 <para>With Video On Demand (VOD), the user can start the video when he
 wants, make pauses, go forward and back in the video. It is of course
@@ -52,6 +54,19 @@ dans la vidéo.</para>
 
 </span>
 
+<span xml:lang="es">
+<para>El vídeo bajo demanda (VOD) permite al usuario visualizar el vídeo,
+cuando el quiera, hacer pausas y rebobinar. Esta es la principal ventaja de la difusión de vídeo
+mediante flujo de datos, en pocas palabras: el sueño de cualquier usuario.</para>
+<para>VOD es una de las principales fuentes de consumo de recursos
+tanto de la red como del servidor. VOD es unicast, no multicast : esto significa que los recursos
+de la red y del servidor necesarios, son directamente proporcionales al número de clientes.</para>
+<para>La solución que VideoLAN's VOD propone es muy simple. La idea es hacer una 
+difusión HTTP, por ejemplo: encapsular el flujo de datos de vídeo (MPEG) en HTTP.
+El control del flujo de datos entre el cliente y el servidor se hace automaticamente 
+mediante TCP. Con HTTP versión  1.1, existe la posibilidad de buscar en un fichero descargado,	
+que es lo que nosotros hacemos para buscar el video</para></span>
+
 <span xml:lang="de">
 <para>Mit Video On Demand (VOD) kann der Nutzer das Video starten, 
 wann er will, pausen machen, sowie vorwärts und zurück im Video gehen. 
@@ -76,6 +91,7 @@ einer ladenden Datei zu suchen, was wir benutzen, um im Video zu suchen.</para>
 <sect1><title>
 <span xml:lang="en">On the server side</span>
 <span xml:lang="fr">Sur le serveur</span>
+<span xml:lang="es">De cara al servidor</span>
 <span xml:lang="de">Auf der Server-Seite</span>
 </title>
 
@@ -109,6 +125,20 @@ pour les clients sur le serveur web.</para>
 <filename>http://serveurlocal/video1.mpg</filename>.</para>
 </span>
 
+<span xml:lang="es">
+<para>En un servidor de VOD, se necesita  de un servidor Web. 			
+Por ejemplo, se podría usar el Servidor de Linux Apache. Otros sistemas operativos
+ y servidores web deberían funcionar también, pero esto no se ha comprobado. </para>
+
+<para>Esto hace que los ficheros MPEG-1, MPEG-2 or MPEG-4 / DivX
+esten disponibles para los clientes.</para>
+
+<para>Por ejemplo, nosotros tenemos un servidor Web con cuyos DNS
+son <emphasis>servidorlocal</emphasis>. En este servidor se puede poner el 
+fichero MPEG <filename>video1.mpg</filename> y hacer que este disponible para los clientes
+en la URL<filename>http://localserver/video1.mpg</filename>.</para>
+</span>
+
 <span xml:lang="de">
 <para>Auf dem VOD-Server benötigten Sie einen laufenden Webserver.
 Beispielsweise können Sie einen Linux-Server mit Apache benutzen.
@@ -130,6 +160,7 @@ zugänglich ist.</para>
 <sect1><title>
 <span xml:lang="en">On the client side</span>
 <span xml:lang="fr">Du côté client</span>
+<span xml:lang="es">De cara al cliente</span>
 <span xml:lang="de">Auf der Client-Seite</span>
 </title>
 
@@ -145,6 +176,12 @@ zugänglich ist.</para>
 </screen>
 </span>
 
+<span xml:lang="es">
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv http://servidorlocal/lserver/video1.mpg</userinput>
+</screen>
+</span>
+
 <span xml:lang="en">
 <para>VLC starts to read the stream nearly immediately and you can
 seek in the stream, make pauses, etc... as if the stream was a local
@@ -157,12 +194,14 @@ vous déplacer dans le flux, faire des pauses, ... comme si le flux était
 un fichier local.</para>
 </span>
 
+<span xml:lang="es">
+<para>VLC empieza a leer el flujo de datos casi inmediatamente, y además le permite 
+hacer busquedas, pausas etc...como si el flujo de datos fuera un fichero local </para>
+</span>
+
 <span xml:lang="de">
 <para>VLC startet fast sofort den Stream und Sie können in diesem Suchen, Pausen machen,
 etc. als wäre es eine lokale Datei.</para>
 </span>
-
-
 </sect1>
 </chapter>
-

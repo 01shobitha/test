@@ -136,11 +136,11 @@ und der SAP-Ankündigungen.</para>
 <emphasis>sap_ipv=6</emphasis> option:</span>
 <span xml:lang="fr">Pour envoyer les annonces SAP en IPv6, ajoutez
 l'option <emphasis>sap_ipv=6</emphasis></span>
+<span xml:lang="es">Para enviar anuncios SAP sobre IPv6, añade la
+opción <emphasis>sap_ipv=6</emphasis>:</span>
 <span xml:lang="de">Um SAP-Ankündigungen in IPv6 zu machen, fügen Sie
 einfach die <emphasis>sap_ipv=6</emphasis>-Option hinzu:</span>
 </para>
-<span xml:lang="es">Para enviar anuncios SAP en Ipv6, añade la
-opción <emphasis>sap_ipv=6</emphasis>:</span>
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#standard{access=udp,url=239.255.12.42,sap="Test Stream",sap_ipv=6}' --ttl 12</userinput>

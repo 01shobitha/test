@@ -72,8 +72,8 @@ function starthtml($title) { ?>
 
   <? switch($modules[1]) {
       case "vlc": second_bar_vlc(); break;
-      case "streaming": second_bar_break;
-      case "doc": second_bar_doc(); break;
+      case "streaming": second_bar_stream; break;
+      case "doc": break;
       case "support": second_bar_support(); break;
       default: second_bar_home(); break;
    } ?>
@@ -91,25 +91,41 @@ function starthtml($title) { ?>
 }
 
 /* Second bar for vlc */
-function second_bar_vlc() { ?>
 
+function second_bar_vlc() { ?>
 <td class="secondbarvlc"><a href="/vlc/index.html">Overview</a></td>
 <td class="secondbarvlc"><a href="/vlc/features.html">Features</a></td>
 <td class="secondbarvlc"><a href="/vlc/download.html">Download</a></td>
 <td class="secondbarvlc"><a href="/vlc/screenshots.html">Screenshots</a></td>
-
 <? }
 
-/* Second bar for vlc */
-function second_bar_home() { ?>
+/* Second bar for streaming */
 
+function second_bar_stream() { ?>
+<td class="secondbarstream"><a href="/streaming/index.html">Overview</a></td>
+<td class="secondbarstream"><a href="/streaming/features.html">Features</a></td>
+<td class="secondbarstream"><a href="/streaming/download.html">Download</a></td>
+<? }
+
+/* Second bar for support */
+
+function second_bar_support() { ?>
+<td class="secondbarsupport"><a href="http://bugzilla.videolan.org">Bugzilla</a></td>
+<td class="secondbarsupport"><a href="/support/lists.html">Mailing-lists</a></td>
+<td class="secondbarsupport"><a href="/support/irc.html">IRCWeb</a></td>
+<? }
+
+
+
+/* Second bar for home */
+
+function second_bar_home() { ?>
 <td class="secondbarhome"><a href="/news.html">News</a></td>
 <td class="secondbarhome"><a href="/events.html">Events</a></td>
 <td class="secondbarhome"><a href="/partners.html">Partners</a></td>
 <td class="secondbarhome"><a href="/contribute.html">Contribute</a></td>
 <td class="secondbarhome"><a href="/contact.html">Contact</a></td>
 <td class="secondbarhome"><a href="/links.html">Links</a></td>
-
 <? }
 
 

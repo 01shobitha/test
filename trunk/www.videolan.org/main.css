@@ -192,3 +192,17 @@ td.secondbarvlc {
   width: 25%;
   text-align: center;
 }
+td.secondbarstream {
+  background-image: none;
+  background-color: #ffa;
+  vertical-align: middle;
+  width: 25%;
+  text-align: center;
+}
+td.secondbarsupport {
+  background-image: none;
+  background-color: #ffa;
+  vertical-align: middle;
+  width: 25%;
+  text-align: center;
+}

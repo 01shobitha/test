@@ -34,6 +34,7 @@
 <head>
   <title><? echo $title ?></title>
   <link type="text/css" href="/main.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 </head>
 <body bgcolor="#ffffff">
 <table width="100%" cellspacing=0 cellpadding=10>

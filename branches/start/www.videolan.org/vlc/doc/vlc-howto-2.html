@@ -1,0 +1,144 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+ <META NAME="GENERATOR" CONTENT="LinuxDoc-Tools 0.9.21">
+ <TITLE>VLC HOWTO: Quick start</TITLE>
+ <LINK HREF="vlc-howto-3.html" REL=next>
+ <LINK HREF="vlc-howto-1.html" REL=previous>
+ <LINK HREF="vlc-howto.html#toc2" REL=contents>
+</HEAD>
+<BODY>
+<A HREF="vlc-howto-3.html">Next</A>
+<A HREF="vlc-howto-1.html">Previous</A>
+<A HREF="vlc-howto.html#toc2">Contents</A>
+<HR>
+<H2><A NAME="s2">2.</A> <A HREF="vlc-howto.html#toc2">Quick start</A></H2>
+
+<P> This section will help you get, install and use vlc without giving you
+much details.</P>
+<H2><A NAME="ss2.1">2.1</A> <A HREF="vlc-howto.html#toc2.1">Get and install vlc from binary packages</A>
+</H2>
+
+<P>The first thing to do is to get an archive, on our web site 
+<A HREF="http://www.videolan.org/download.html">http://www.videolan.org/download.html</A></P>
+<H3>Which package to chose ?</H3>
+
+<P>There are different packages because vlc has "plugins" which provide 
+features but also enlarge the executable and require external libraries. </P>
+<P>SDL is a lib which allows you to have an accelerated video output.
+You will need libsdl > 1.1.6</P>
+<P>If you're using the enlightened sound daemon, you may want to try 
+the esd-aware vlc.</P>
+<P>Generally, when you don't know what a module name is, you don't 
+need/use it :-)</P>
+<H3>Debian package</H3>
+
+<P>Just use dpkg :
+<PRE>
+     dpkg -i vlc-x.x.x.deb
+    
+</PRE>
+</P>
+<P>Depending on the package you have downloaded, you may have dependency
+problems. You have to solve them, by installing the required libraries.</P>
+<H3>RPM package</H3>
+
+<P>Install vlc just as you would install any RPM package : 
+<PRE>
+     rpm -i vlc-x.x.x.rpm
+    
+</PRE>
+</P>
+<P>You may have to install external libraries to meet dependencies, depending on
+the package you downloaded (gnome, gtk, esd, ...).</P>
+<H3>BeOS users</H3>
+
+<P>Double-click on the archive. It should open your favorite archive extracter.
+You can then execute the vlc from there, or extract the archive to a 
+directory and run it from there.</P>
+<H3>Mac OS X users</H3>
+
+<P>Double-click on the archive, and copy the vlc file to your Applications
+folder.</P>
+<H3>Windows users</H3>
+
+<P>Launch the installer by double-clicking on it, and follow the installation
+instructions. Please note that in most cases you will need administrator
+rights to install it under Windows NT, 2000 and XP.</P>
+<H2><A NAME="ss2.2">2.2</A> <A HREF="vlc-howto.html#toc2.2">Get libdvdcss</A>
+</H2>
+
+<P>In order to read CSSsrambled DVDs, you will need libdvdcss. 
+You can find binary
+packages for your distribution here : 
+<A HREF="http://www.videolan.org/libdvdcss/download.html">http://www.videolan.org/libdvdcss/download.html</A></P>
+<P>For Windows, BeOS and Mac OS X users, libdvdcss is statically linked in the 
+Windows binary, so you don't have to install it.</P>
+<H2><A NAME="ss2.3">2.3</A> <A HREF="vlc-howto.html#toc2.3">Use the vlc for DVD reading</A>
+</H2>
+
+<P>Launch the application simply by typing vlc in a terminal (or by 
+double-clicking on its icon in a graphical shell). You should see
+the graphical interface appear.</P>
+<P> 
+For reading a DVD (or a VCD), click on the "Disc" button. The new window 
+you must then enter the path to your DVD or VCD drive :</P>
+
+<H3>Linux users</H3>
+
+<P>Usually, your dvd device is /dev/hd? (if you have an ide drive).
+For instance, if you DVD player is master on the second IDE device,
+it will be /dev/hdc.</P>
+<P>It is very useful to create a symlink to this file, called /dev/dvd. 
+To do this, as root, type (if your dvd device is /dev/hdc for example) :
+<PRE>
+      ln -s /dev/hdc /dev/dvd
+     
+</PRE>
+
+Also make sure you have read AND write permission to the device 
+(otherwise dvd decryption won't work).</P>
+<H3>Windows users</H3>
+
+<P>The path to your DVD drive usually is D:\ or E:\. You may have a look
+in "My Computer" and look to which letter your DVD drive is assigned.</P>
+<H3>BeOS users</H3>
+
+<P>Under BeOS, the dvd device looks like 
+"/dev/disk/ide/atapi/1/slave/0/raw" for example, if your dvd device is 
+slave on your first (not sure) ide device.</P>
+<H3>Other OS</H3>
+
+<P>To do ...</P>
+<H2><A NAME="ss2.4">2.4</A> <A HREF="vlc-howto.html#toc2.4">Use the vlc for network streaming</A>
+</H2>
+
+<P>This is the vlc original usage. </P>
+<P>Launch the vlc as you would have for DVD reading. Then click on the 
+"Network" button. </P>
+<H3>If using a VideoLAN Channel Server</H3>
+
+<P>The only thing you have to do is to check the "Channel server" box
+and to enter the IP address and port 
+of this channel
+server. Ask your administrator if you don't have it. Then click on OK.</P>
+<P>You will see a new "Channel" field in the interface. You may now
+enter the selected channel and click on OK. After a few seconds,
+if a program is being sent in this channel, you should see the program
+start.</P>
+<P>If nothing appears and you are sure that a program is streamed in
+this channel, you may try once again, because a problem of communication
+with the channel server could have occurred (if you launched vlc from
+a terminal, you should see "Network error: no answer from vlcs").</P>
+<H3>Without VideoLAN Channel Server</H3>
+
+<P>Simply clicking on the network button, then on ok should be 
+sufficient in most cases.</P>
+<P>After clicking on OK, and if a program is being sent, you should see
+a window open with your program.</P>
+<HR>
+<A HREF="vlc-howto-3.html">Next</A>
+<A HREF="vlc-howto-1.html">Previous</A>
+<A HREF="vlc-howto.html#toc2">Contents</A>
+</BODY>
+</HTML>

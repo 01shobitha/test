@@ -1,0 +1,141 @@
+<?
+   $title = "the VideoLAN team";
+   $lang = "en";
+   $date = "7 April 2002";
+?>
+
+<h1>the VideoLAN team</h1>
+
+<p> The VideoLAN team is made up of students of the <a
+href="http://www.ecp.fr">Ecole Centrale Paris</a> and developers
+from all over the world.</p>
+
+<h2>The project leader</h2>
+
+<a href="mailto:simon.latapie@videolan.org">Simon Latapie</a>
+
+<h2>The teachers</h2>
+
+<p>Two teachers of the Ecole Centrale Paris supervise the project :</p>
+<ul>
+<li>Mr Jean-Philippe Rey, responsible for the Information Technologies at the school,</li>
+<li>Mr Dimitri Dagot, director of the <a href="http://www.etudes.ecp.fr/option-it/">Computer-science and Telecom option</a> of the school.</li>
+</ul>
+
+
+<h2>The developers</h2>
+
+<p>There is a description of what they worked on, so that you can spot cool
+dudes. Note that dudes with a CVS account are very cool dudes. </p>
+
+<?
+   /* Return the next line */
+   function nextline()
+   {
+      global $count, $file;
+      if( $count >= count($file) ) return('');
+
+      $line = ereg_replace("\n", '',$file[$count]);
+      $count++;
+
+      if( ereg('^[ #]+', $line) ) return('');
+
+      return htmlspecialchars($line);
+   }
+
+   /* Return the next dude */
+   function nextdude()
+   {
+      global $count, $file;
+
+      /* Find a non-empty line */
+      do {
+         if( $count >= count($file) ) return('');
+         $line = nextline();
+      } while( $line == '' );
+
+      /* Fill stuff until we find an empty line */
+      do {
+
+         $item = $line[0];
+         $line = substr($line,3);
+
+         switch( $item )
+         {
+            case 'N': $dude = $line; break;
+            case 'E': $email = $line; break;
+            case 'C': $cvs = $line; break;
+            default: $job[] = $line; break;
+         }
+
+         if( $count >= count($file) ) break;
+         $line = nextline();
+
+      } while( $line != '' );
+
+      /* Format stuff */
+      if( !$dude ) return'';
+      if( $email ) $dude = '<a href="mailto:'.$email.'">'.$dude.'</a>';
+      if( $cvs ) $dude .= " (CVS login: <code>$cvs</code>)";
+      if( !$job ) return $dude;
+      while (list ($key, $val) = each ($job)) {
+         $dude .= "<br /> - $val";
+      }
+      
+      $dude .= $description;
+
+      return($dude);
+   }
+
+   /* Parse a dude list */
+   function parselist($module) {
+      global $count, $file;
+
+      if(!file_exists('AUTHORS.'.$module)) return;
+
+      echo "<h3>the $module team</h3>";
+      $file = file('AUTHORS.'.$module);
+      $count = 0;
+
+      while($count < count($file))
+      {
+          ?><p><?
+          echo nextdude();
+          ?></p><?
+      }
+   }
+
+   $handle=opendir('.'); 
+   while (false!=($f = readdir($handle))) { 
+      if(ereg("AUTHORS",$f)) {
+         parselist(substr($f,8));
+      } 
+   }
+   closedir($handle); 
+
+?>
+
+<h2>The law sector</h2>
+
+<a href="mailto:arnaud.meltz@videolan.org">Arnaud Meltz</a> and <a
+href="mailto:nicolas.derotalier@videolan.org">Nicolas de Rotalier</a> are
+working on the law issues facing VideoLAN.
+
+<h2>The communication sector</h2>
+
+<a href="mailto:simon.latapie@videolan.org">Simon Latapie</a> takes
+care of the relations with <a href="../partners.html">the partners of
+VideoLAN</a>.
+
+<h2>Supreme counsellor and mascot of the project</h2>
+
+<a href="mailto:ali@videolan.org">Aliénor Salin</a>, alias <b>ali</b>.
+
+<h2>The Treasurer</h2>
+
+<a href="mailto:treasurer@videolan.org">Alexis de Lattre</a>
+
+<h2>Second year students members of the project</h2>
+
+<p>Laurent Aimar, Nicolas de Rotalier, Zhe Han, Simon Latapie, Julien
+Leproust, Arnaud Meltz, Loïc Minier, Eric Petit and Arnaud Schauly.</p>

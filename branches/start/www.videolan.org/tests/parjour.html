@@ -1,0 +1,31 @@
+<? include("authentication.php3");
+?>
+
+<? 
+$id = pg_connect("zen.via.ecp.fr.","5432","","","videolan");
+
+$res = pg_Exec( $id, "SELECT * FROM pourlestests ORDER BY jour, heure, minutes, channel;");
+
+$count = pg_numrows($res);
+
+?>
+        <table cellspacing="0" cellpadding="3" border="1">
+          <tr>
+            <td><b>Jour</b></td>
+            <td><b>Heure</b></td>
+            <td><b>Minutes</b></td>
+            <td><b>Programme</b></td>
+            <td><b>Channel</b></td>
+	    </tr>
+<?
+for ($i=0; $i < $count; $i++)
+{
+  echo "<tr>";
+  $array = pg_fetch_array($res, $i);
+  for ($j=0; $j<5; $j++) echo "<td>".$array[$j]."</td>";
+  echo "</tr>";
+}
+pg_close($id);
+?>
+</table>
+

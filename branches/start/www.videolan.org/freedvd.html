@@ -1,0 +1,218 @@
+<?
+   $title = "VideoLAN - list of CSS-free DVDs";
+   $lang = "en";
+   $date = "14 February 2001";
+?>
+
+<h1>List of CSS-free DVDs</h1>
+
+<?
+
+function parse_result($result)
+{
+    
+    $num = pg_numrows($result);
+    
+    if ( $num > 0 )
+    { ?>
+        <table cellspacing="0" cellpadding="3" border="1">
+          <tr>
+            <td><b>Title</b></td>
+            <td><b>Director</b></td>
+            <td><b>Year</b></td>
+            <td><b>Region</b></td>
+          </tr> <?
+    
+        for ($i=0; $i<$num;$i++ )
+        {
+          $result_array = pg_fetch_array ( $result, $i); ?>
+          <tr>
+            <? for($k=0;$k<=2;$k++) {
+              ?><td><?echo htmlspecialchars($result_array[$k]);?></td><?
+            } ?>
+            <td align="right"><?
+              if ( $result_array[3] == 0 )
+                echo "free";
+              else
+              {
+                $count=5; $z=$result_array[3];
+                $zone="";
+                while ( $z > 0 )
+                {
+                  $j = pow(2,$count);
+                  if ( $z >= $j )
+                  {
+                    $z=$z-$j;
+                    $zone=($count+1)." ".$zone;
+                  }
+                  $count--;
+                }
+                echo $zone;
+              } ?>
+            </td>
+          </tr> <?
+        } ?>
+        </table> <?
+    }
+    else
+    {
+        ?>
+        No DVD currently in this section
+        <?
+    }
+    
+}
+
+function dvd_connect()
+{
+    global $base;
+    $base = pg_connect("krishna.via.ecp.fr.","5432","","videolan");
+
+    if ( ! $base )
+    {
+        ?>Unable to connect to the database. Please inform 
+        <a href="mailto:webmaster@videolan.org">the webmaster</a>.
+        <?
+        exit(1); 
+    }
+}
+
+/* Gestion d'un submit' */
+
+dvd_connect();
+
+if (isset($dvdtitle)||isset($dvdyear)||isset($dvddirector)||isset($zone0)
+    ||isset($zone1)||isset($zone2)||isset($zone3)||isset($zone4)||isset($zone5) )
+{    
+    if (($dvdtitle!="")&&($dvdyear!="")&&($dvddirector!="")&&(isset($zone0)
+        ||isset($zone1)||isset($zone2)||isset($zone3)||isset($zone4)||isset($zone5)) )
+    {
+            $dvdzone=0;
+        settype($dvdyear,integer);
+        if(!$zone0)
+        {
+                if($zone1)
+                $dvdzone+=1;
+            if($zone2)
+                $dvdzone+=2;
+            if($zone3)
+                $dvdzone+=4;
+            if($zone4)
+                $dvdzone+=8;
+            if($zone5)
+                $dvdzone+=16; 
+        }
+        if ( ! $dvdyear )
+        {
+                ?>
+                <img src="images/arrow.png" alt="" align="center">&nbsp; &nbsp; <b>Error</b> : 
+                the year was not properly specified. Please enter a 4-digits year.
+                <?
+        }
+        else
+        {
+	        $check = pg_Exec($base,"SELECT lower(title) FROM freedvd WHERE title~*'$dvdtitle';");
+		$numcheck = pg_numrows($check);
+		if( $numcheck )
+		{
+		for ($i=0; $i<$numcheck;$i++ )
+	        {
+	            $result_array = pg_fetch_array ( $check, $i);
+		    $result_array[0]=ereg_replace(" ","",$result_array[0]);
+		    $dvdtitle=ereg_replace(" ","",$dvdtitle);
+		    if( !strcmp($result_array[0],strtolower($dvdtitle)) )
+		    {
+		?>
+		    <img src="images/arrow.png" alt="" align="center">&nbsp; &nbsp; 
+		    The DVD you are submitting already is in our base. Please 
+		    <b>do not</b> submit twice the same DVD, it is totally 
+		    useless and gives us more work.
+		<?   
+		    $refused=1;
+		    break;
+		    }
+		}
+		}
+		if( ! $refused )
+		{
+                    $insert = pg_Exec($base,"INSERT INTO freedvd VALUES ( '$dvdtitle', '$dvddirector', $dvdyear, $dvdzone, 1);");
+                    if ( ! $insert )
+                    {
+                    ?>
+                    <img src="images/arrow.png" alt="" align="center">&nbsp; &nbsp; Unable to proceed. Please inform 
+                    <a href="mailto:webmaster@videolan.org">the webmaster</a>.
+                    <?
+                     }
+		}
+        }
+        
+    }
+    else
+    {
+        ?>
+        <br /><br />
+        <img src="images/arrow.png" alt="" align="center">&nbsp; &nbsp;
+        <b>At least one field is missing.</b> Please fill <b>ALL</b> the fields before submitting.
+        <?
+    }
+}
+
+/* Corps de la page */
+
+?>
+
+<h2>Introduction</h2>
+
+<p> Some (most of, actually) DVDs are encrypted. While this is not a
+problem for <code>vlc</code> on most architectures, a few operating
+systems still don't provide the necessary interface to decrypt DVDs.
+Moreover, an old program called DeCSS has been declared illegal to
+use in the United States. Note that <code>vlc</code> <i>does not use
+DeCSS</i> but a different implementation which does not use the famous
+cracked Xing decoder key. </p>
+
+<p> For people worried about decrypting DVDs, a few of them are not
+encrypted. We would like to give here a list of those DVDs. </p>
+
+<p> See also the <a href="http://www.opendvd.org/">OpenDVD</a>
+website for much more stuff related to this subject. Tom Vogt's <a
+href="http://www.lemuria.org/DeCSS/">DeCSS central</a> has also lots of
+interesting resources. </p>
+
+<h2>List of CSS-free DVDs</h2>
+
+<?
+   $result = pg_Exec( $base, 'SELECT * FROM freedvd WHERE confirmed=0 ORDER BY title ');
+   parse_result($result);
+?>
+
+<h2>Unchecked entries</h2>
+
+<?
+   $result = pg_Exec( $base, 'SELECT * FROM freedvd WHERE confirmed > 0 ORDER BY title ');
+   parse_result($result);
+?>
+
+<h2>Submitting news DVD</h2>
+
+<p> <b>First check if the DVD you want to submit is not already
+present</b>. Please don't forget to fill in all fields. Your entry will
+be added to the first list when we are able to confirm. </p>
+
+<form action="freedvd.html" method="post"> 
+<table> <tr><td>Title</td><td><input type="text" name="dvdtitle" /></td></tr> 
+        <tr><td>Director</td><td><input type="text" name="dvddirector" /></td></tr> 
+        <tr><td>Year</td><td><input type="text" name="dvdyear" /></td></tr> 
+        <tr><td>Region</td><td>1 <input type="checkbox" name="zone1" value="1" />&nbsp; &nbsp;
+                             2 <input type="checkbox" name="zone2" value="1" />&nbsp; &nbsp;
+                             3 <input type="checkbox" name="zone3" value="1" />&nbsp; &nbsp;
+                             4 <input type="checkbox" name="zone4" value="1" />&nbsp; &nbsp;
+                             5 <input type="checkbox" name="zone5" value="1" />&nbsp; &nbsp;
+                             Region-free <input type="checkbox" name="zone0" value="1" />
+                             </td></tr> 
+        <tr><td></td><td><input type="submit" value="submit" /></td></tr> 
+</table></form>
+
+<?
+pg_close ($base);
+?>

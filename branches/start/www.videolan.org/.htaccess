@@ -1,0 +1,33 @@
+
+ErrorDocument 403 /403.html
+ErrorDocument 404 /404.html
+
+RewriteEngine on
+
+#
+# Redirects for moved pages
+#
+# Commented the line below because there are other docs than vlc HOWTO now
+# -- Alexis 6/4/2002
+#RewriteRule ^doc(.*)$ /vlc/doc$1 [R=permanent,L]
+RewriteRule ^vlcs(.*)$ /network$1 [R=permanent,L]
+RewriteRule ^download.html /vlc/download.html [R=permanent,L]
+RewriteRule ^packages(.*)$ /pub/vlc$1 [R=permanent,L]
+RewriteRule ^screenshots(.*)$ /vlc/screenshots$1 [R=permanent,L]
+RewriteRule ^team.html /team/index.html [R=permanent,L]
+
+#
+# The core engine
+# 
+# directory/ -> directory/index.html
+RewriteRule ^(.*)/$ /include/rewrite.php3?dir=$1&page=index&%{QUERY_STRING} [L]
+# toto.html -> include/rewrite.php3?page=toto
+RewriteRule ^([^/]+)\.html$ /include/rewrite.php3?page=$1&%{QUERY_STRING} [L]
+# directory/toto.html -> include/rewrite.php3?dir=directory&page=toto
+RewriteRule ^(.*)/([^/]+)\.html$ /include/rewrite.php3?dir=$1&page=$2&%{QUERY_STRING} [L]
+
+#
+# MIME Types
+AddType application/octet-stream .dmg
+AddType application/octet-stream .rpm
+

@@ -62,9 +62,8 @@ able to cross 11 routers).</para>
 <itemizedlist>
 
 <listitem><para><filename>/dev/dvd</filename> is the device
-corresponding to your DVD drive (put <filename>D:</filename> under
-Windows if <filename>D</filename> is the letter of your DVD drive) or
-the directory where you copied your DVD,</para>
+corresponding to your DVD drive or the directory where you copied your
+DVD,</para>
 
 <listitem><para><emphasis>192.168.0.12</emphasis> is either :
 

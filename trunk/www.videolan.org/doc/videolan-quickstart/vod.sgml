@@ -29,14 +29,14 @@ clients on the Web server. </para>
 
 <para>For example, we have a Web server whose DNS name
 is <emphasis>localserver</emphasis>. On this server,
-we put an MPEG file <filename>video1.mpg</filename>
+we put an MPEG file <filename>video1.xyz</filename>
 which will be available to the clients at the URL
-<filename>http://localserver/test/video1.mpg</filename>.</para>
+<filename>http://localserver/video1.xyz</filename>.</para>
 
 <sect1><title>On the client side</title>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv http://localserver/test/video1.mpg</userinput>
+<prompt>% </prompt><userinput>vlc -vvv http://localserver/test/video1.xyz</userinput>
 </screen>
 
 <para>VLC starts to read the stream nearly immediately and you can

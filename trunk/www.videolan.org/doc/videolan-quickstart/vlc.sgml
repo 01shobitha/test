@@ -11,10 +11,10 @@
 <sect2><title>Read a File</title>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv video.avi</userinput>
+<prompt>% </prompt><userinput>vlc -vvv video1.xyz</userinput>
 </screen>
 
-<para>where <filename>video.avi</filename> is the name of the file you
+<para>where <filename>video1.xyz</filename> is the name of the file you
 want to play.</para>
 
 </sect2>

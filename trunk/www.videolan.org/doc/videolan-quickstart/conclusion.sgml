@@ -4,11 +4,12 @@
 <para>
 
 VideoLAN can do much more than what is explained in this Quickstart.
-For example, you can use VLS to stream digital satellite channels,
-digital terrestial television channels and live videos. To know about
-the full streaming possibilities of VideoLAN, please read the <ulink
-url="http://www.videolan.org/doc/videolan-howto-old/videolan-howto.html"
->VideoLAN HOWTO</ulink>.
+For example, you can use VLC to stream live from a camera or a
+webcam under Linux, or you can use VLS to stream digital satellite
+channels and digital terrestial TV channels. To know about the
+full streaming possibilities of VideoLAN, please read the <ulink
+url="http://www.videolan.org/doc/videolan-howto-old/" >VideoLAN
+HOWTO</ulink>.
 
 </para>
 

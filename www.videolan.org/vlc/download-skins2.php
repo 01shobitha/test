@@ -115,7 +115,7 @@ graphics software might ease the job, though :-)</p>
 <h2>Solar skin</h2>
 <?php AddSkin(
    "solar.png",
-   "Skin made by scahoo",
+   "Skin made by Piers Cornwell, icons by Jakub Steiner",
    "solar.vlt" );
 ?>
 

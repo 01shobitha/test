@@ -100,7 +100,7 @@ ou
 
 <!-- Do not wrap me -->
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv vcd://[peripherique][@[titre][,chapitre]]</userinput>
+<prompt>% </prompt><userinput>vlc -vvv vcd://[peripherique][@{E|P|S|T}[titre]]</userinput>
 </screen>
 
 <para>
@@ -111,7 +111,7 @@ ou
 
 <!-- Do not wrap me -->
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv cdda://[peripherique][@[titre]]</userinput>
+<prompt>% </prompt><userinput>vlc -vvv cdda://[peripherique][@[piste]]</userinput>
 </screen>
 
 

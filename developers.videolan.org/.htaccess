@@ -1,12 +1,7 @@
-Deny from all
-ErrorDocument 403 "Down for maintenance. Sorry for the inconvenience
-
 # Big nasty kludge
-AddType application/x-httpd-php .html
+AddType application/x-httpd-php .html .php3
 
-RewriteEngine on
-
-AddType text/html .html
+RewriteEngine off
 
 # répertoire/ -> répertoire/index.html
 RewriteRule ^(.*)/$ include/rewrite.php3?dir=$1&page=index

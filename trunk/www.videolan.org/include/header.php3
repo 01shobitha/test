@@ -72,7 +72,7 @@ function starthtml($title) { ?>
 
   <? switch($modules[1]) {
       case "vlc": second_bar_vlc(); break;
-      case "streaming": second_bar_stream; break;
+      case "streaming": second_bar_stream(); break;
       case "doc": break;
       case "support": second_bar_support(); break;
       default: second_bar_home(); break;
@@ -112,7 +112,7 @@ function second_bar_stream() { ?>
 function second_bar_support() { ?>
 <td class="secondbarsupport"><a href="http://bugzilla.videolan.org">Bugzilla</a></td>
 <td class="secondbarsupport"><a href="/support/lists.html">Mailing-lists</a></td>
-<td class="secondbarsupport"><a href="/support/irc.html">IRCWeb</a></td>
+<td class="secondbarsupport"><a href="/cgi-bin/irc/irc.cgi">IRCWeb</a></td>
 <? }
 
 

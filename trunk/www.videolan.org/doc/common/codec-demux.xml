@@ -11,6 +11,9 @@ conteneur</emphasis></span>
 <span xml:lang="es">Para entender bien la solución VideoLAN, debe
 comprender la diferencia entre un <emphasis>codec</emphasis> y un
 <emphasis>formato contenedor</emphasis></span>
+<span xml:lang="de">Um die VideoLAN Lösung komplett zu verstehen, müssen
+Sie den Unterschied zwischen einem <emphasis>Codec</emphasis> und einem
+<emphasis>Container-Format</emphasis> verstehen.</span>
 </para>
 
 <itemizedlist>
@@ -28,6 +31,10 @@ des codecs</span>
 compresión, utilizado para reducir el tamaño de un flujo. Existen codecs de audio
 y codecs de vídeo. MPEG-1, MPEG-2, MPEG-4, Vorbis, DivX, ... son
 codecs</span>
+<span xml:lang="de">Ein <emphasis>Codec</emphasis> ist ein 
+Kompressionsalgorithmus, der zur Reduzierung der Größe eines Streams benutzt
+wird. Es gibt Ton- und Bildcodecs. MPEG-1, MPEG-2, MPEG-4, DivX, usw. sind
+Codecs.</span>
 </para></listitem>
 
 <listitem><para>
@@ -60,6 +67,13 @@ Desafortunadamente, existen algunas incompatibilidades. Puede encontrar
 una matriz de posibles codecs y formatos contenedor en la <ulink
 url="http://www.videolan.org/streaming/features.html">página de funcionalidades</ulink>
 </span>
+<span xml:lang="de">Ein <emphasis>Container-Format</emphasis> enthält einen
+oder mehrere Streams, die bereits von einem Codec kodiert worden sind. Sehr oft
+gibt es einen Bild- und einen Tonstream. AVI, Ogg, MOV, ASF, usw. sind Container-Formate.
+Die enthaltenen Streams können mit unterschiedlichen Codecs kodiert worden sein.
+In einer perfekten Welt könnten Sie jeden Codec in jedes Container-Format legen. Leider gibt
+es einige Inkompatiblitäten. Sie können eine Matrix von möglichen Codecs und Containerformaten
+auf der <ulink url="http://www.videolan.org/streaming/features.html">Featuresseite</ulink> finden.
 </para></listitem>
 </itemizedlist>
 
@@ -80,6 +94,11 @@ mathématique de décompression</span>
 y separa audio, vídeo, y subtítulos si hay. Entonces, cada uno de estos flujos
 son enviados a sus <emphasis>descodificadores</emphasis> que realizan un procesamiento
 matemático para descomprimir los flujos</span>
+<span xml:lang="de">Um einen Stream zu dekodieren, <emphasis>demultiplext</emphasis>
+VLC ihn erst. Das bedeutet, dass es das Containerformat liest und Ton, Bild und Untertitel
+trennt, wenn welche vorhanden sind. Danach wird jeder davon durch 
+<emphasis>Dekoder</emphasis> geleitet, die die mathematischen Vorgänge zur
+Dekomprimierung ausüben</span>
 .</para>
 
 
@@ -87,6 +106,7 @@ matemático para descomprimir los flujos</span>
 <span xml:lang="en">There is a particular thing about MPEG:</span>
 <span xml:lang="fr">MPEG est un cas particulier:</span>
 <span xml:lang="es">Existe un caso particular en MPEG:</span>
+<span xml:lang="de">MPEG ist ein spezieller Fall:</span>
 </para>
 
 <itemizedlist>
@@ -98,6 +118,8 @@ several versions of it, called MPEG-1, MPEG-2, MPEG-4, ...</span>
 appelées MPEG-1, MPEG-2, MPEG-4, ...</span>
 <span xml:lang="es">MPEG es un <emphasis>codec</emphasis>. Existen varias
 versiones, llamadas MPEG-1, MPEG-2, MPEG-4, ...</span>
+<span xml:lang="de">MPEG ist ein <emphasis>Codec</emphasis>. Es gibt
+mehrere Versionen davon, genannt MPEG-1, MPEG-2, MPEG-4...</span>
 </para></listitem>
 
 <listitem>
@@ -139,6 +161,18 @@ realmente ficheros MPEG-PS. Pero este formato PS no está adaptado para la difusi
 de vídeo a través de una red o por satélite, por ejemplo. Así que, otro
 formato llamado Transport Stream (TS) fue diseñado para la difusión de vídeos MPEG
 a través de estos escenarios.</para></span>
+
+<span xml:lang="de"><para>MPEG ist außerdem ein Containerformat, manchmal
+bezeichnet als <emphasis>MPEG System</emphasis>. Es gibt mehrere Typen von MPEG:
+ES, PS und TS</para>
+<para>Wenn Sie ein MPEG-Video beispielsweise von einer DVD abspielen, besteht der
+MPEG-Stream aus mehreren Streams ('Elementare Streams'/'ES' genannt): es gibt einen
+für Bild, einen für Ton, einen weiteren für Untertitel, usw. Diese unterschiedlichen Streams
+sind in einen einzelnen 'Program Stream' (PS) zusammengemischt. Die
+.VOB-Dateien, die Sie auf einer DVD finden, sind tatsächlich MPEG-PS-Dateien. Aber dieses
+PS-Format ist nicht für das Streamen von Videos bespielsweise über ein Netzwerk oder Satellit
+ausgelegt, sodass ein anderes Format, namens 'Transport Stream' (TS) für das Streamen von
+MPEG-Videos über solche Kanäle designed wurde.</para></span>
 
 </listitem>
 </itemizedlist>

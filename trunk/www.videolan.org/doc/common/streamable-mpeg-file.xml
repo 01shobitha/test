@@ -3,7 +3,10 @@
 <para>
 <span xml:lang="en">VLS can stream MPEG files that meet two critera</span>
 <span xml:lang="fr">VLS peut diffuser des fichiers MPEG suivant deux 
-critères</span>:</para>
+critères</span>
+<span xml:lang="de">VLS kann MPEG-Dateien streamen, die zwei Kriterien
+entsprechen</span>
+:</para>
 
 <itemizedlist>
 
@@ -18,26 +21,38 @@ or video</span>
 contiennent la vidéo et l'audio multiplexés. VLS ne peut pas treamer
 des fichiers MPEG <emphasis>ES</emphasis> (Elementary Stream), càd, un
 fichier avec seulement l'audio ou la vidéo</span>
+<span xml:lang="de">Die Datei muss entweder MPEG
+<emphasis>PS</emphasis> (Program Stream) oder MPEG
+<emphasis>TS</emphasis> (Transport Stream) sein, das gemultiplextes Bild
+und Ton enthält.VLS kann kein MPEG <emphasis>ES</emphasis>
+(Elementary Stream), d.h. eine Datei mit nur Ton oder Bild, streamen.</span>
 .</para>
 
 <para>
 <span xml:lang="en">In order to know if an MPEG file is MPEG
 <emphasis>PS</emphasis>, MPEG <emphasis>TS</emphasis> or MPEG
 <emphasis>ES</emphasis>, read the file with VLC and look at the messages
-(select in the menu <emphasis>View / Messages</emphasis>, or use the
+(in the messageswindow or use the
 command line <command>vlc -vvv</command>)</span>
 <span xml:lang="fr">Pour savoir si votre fichier MPEG est du
 MPEG<emphasis>PS</emphasis>, MPEG <emphasis>TS</emphasis> or MPEG
 <emphasis>ES</emphasis>, lisez le fichier avec VLC et regardez les
 messages (regardez dans la fenêtre de messages, ou utilisez la ligne de
 commande <command>vlc -vvv</command>)</span>
+<span xml:lang="de">Um zu erfahren, ob eine MPEG-Datei MPEG
+<emphasis>PS</emphasis>, MPEG <emphasis>TS</emphasis> oder MPEG
+<emphasis>ES</emphasis>, lesen Sie die Datei mit VLC und schauen Sie auf
+die Meldungen (im Meldungenfenster oder benutzen Sie die Befehlszeile
+<command>vlc -vvv</command>)</span>
 .</para>
 
 <itemizedlist>
 
 <listitem><para>
 <span xml:lang="en">If you see a line</span>
-<span xml:lang="fr">Si vous voyez</span>:</para>
+<span xml:lang="fr">Si vous voyez</span>
+<span xml:lang="de">Wenn Sie sehen</span>
+:</para>
 
 <programlisting>
 [00000107] main module debug: using demux module "ts_dvbpsi"
@@ -46,12 +61,15 @@ commande <command>vlc -vvv</command>)</span>
 <para>
 <span xml:lang="en">it means the file is MPEG TS</span>
 <span xml:lang="fr">alors, le fichier est du MPEG TS</span>
+<span xml:lang="de">ist die Datei MPEG TS</span>
 .</para></listitem>
 
 
 <listitem><para>
 <span xml:lang="en">If you see a line</span>
-<span xml:lang="fr">Si vous voyez</span>:</para>
+<span xml:lang="fr">Si vous voyez</span>
+<span xml:lang="de">Wenn Sie sehen</span>
+:</para>
 
 <programlisting>
 [00000109] main module debug: using demux module "ps"
@@ -60,20 +78,24 @@ commande <command>vlc -vvv</command>)</span>
 <para>
 <span xml:lang="en">it means the file is MPEG PS</span>
 <span xml:lang="fr">alors, le fichier est du MPEG PS</span>
+<span xml:lang="de">ist die Datei MPEG PS</span>
 .</para></listitem>
 
 <listitem><para>
 <span xml:lang="en">If you see a line</span>
-<span xml:lang="fr">Si vous voyez</span>:</para>
+<span xml:lang="fr">Si vous voyez</span>
+<span xml:lang="de">Wenn Sie sehen</span>
+:</para>
 
 <programlisting>
 [00000109] main module debug: using demux module "es"
 </programlisting>
 
 <para>
-<span xml:lang="en">it means the file is MPEG ES, VLS can't stream it.</span>
+<span xml:lang="en">it means the file is MPEG ES, VLS can't stream it</span>
 <span xml:lang="fr">alors, le fichier est du MPEG ES, VLS ne peut pas
  le diffuser</span>
+<span xml:lang="de">ist die Datei MPEG ES, was VLS nicht streamen kann</span>
 .</para></listitem>
 
 
@@ -87,7 +109,7 @@ regularly, which is often the case with MPEG-2, but very rare with
 MPEG-1. There is no easy way to know if the sequence header is repeated
 regularly. Files with a <emphasis>.vob</emphasis> extension are
 normally MPEG-2 files and files with <emphasis>.mpg</emphasis> or
-<emphasis>.mpeg</emphasis> extension or usually MPEG-1 files</span>
+<emphasis>.mpeg</emphasis> extension are usually MPEG-1 files</span>
 <span xml:lang="fr">l'en-tête de séquence de la vidéo doit se répéter
 périodiquement. Ceci est très fréquent avec le MPEG-2, mais rare avec
 le MPEG-1. Il n'est pas facile de savoir si l'en-tête de séquence se
@@ -95,6 +117,12 @@ répète. Les fichiers avec une extension <emphasis>.vob</emphasis>
 sont normalement des fichiers MPEG-2, et les fichiers avec une
 extension <emphasis>.mpg</emphasis> ou <emphasis>.mpeg</emphasis> sont
 généralement MPEG-1</span>
+<span xml:lang="de">Der Sequenz-Header des Videos muss sich selbst regelmäßig
+wiederholen, was bei MPEG-2 oft der Fall ist, jedoch selten bei MPEG-1. Es gibt keinen
+einfachen Weg zu erfahren, ob der Sequenz-Header regelmäßig wiederholt wird.
+Datei mit einem <emphasis>.vob</emphasis>-Suffix sind normalerweise
+MPEG-2 - Dateien und Datein mit dem <emphasis>.mpg.</emphasis> oder
+<emphasis>.mpeg</emphasis>-Suffix sind üblicherweise MPEG-1 - Dateien</span>
 .</para>
 
 </listitem>
@@ -107,5 +135,8 @@ streamable MPEG-2 PS file for your tests : <ulink
 url="ftp://ftp.videolan.org/pub/videolan/streams/presentation/presentation_short.vob">presentation_short.vob</ulink></span>
 <span xml:lang="fr"> Vous pouvez téléchargez ce
 fichier MPEG-PS diffusable pour vos tests :<ulink
+url="ftp://ftp.videolan.org/pub/videolan/streams/presentation/presentation_short.vob">presentation_short.vob</ulink></span>
+<span xml:lang="de">Sie können diese streambare MPEG-2 PS - Datei für Ihre
+Tests herunterladen: <ulink 
 url="ftp://ftp.videolan.org/pub/videolan/streams/presentation/presentation_short.vob">presentation_short.vob</ulink></span>
 .</para>

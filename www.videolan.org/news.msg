@@ -2,6 +2,13 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+|4 December 2004| Scheduled downtime| VideoLAN's main website will be
+down for several hours on December 4th 2004, between 13:00 and 17:00 GMT,
+because of a major work at our power supplier. Subversion source code
+repositories, online forums, mailing lists, their archives and email
+accounts will also be affected by the cut.<br />Sorry for the
+inconvenience.
+
 |15 November 2004| Release: VLC 0.8.1| This is mainly a bug fix release.<br />
 Look <a href="http://developers.videolan.org/vlc/NEWS">here</a> for the
 list of changes. To download the sources or the binary package of this

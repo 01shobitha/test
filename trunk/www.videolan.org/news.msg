@@ -14,8 +14,8 @@ the booth and invites you to its <a href="http://www.linuxsolutions.fr/EN/home/i
 completely rewritten. See the <a href="/doc/">documentation page</a>.
 
 |19 Jan 2003| New web site | Welcome to our new web site:
-it is designed to be more simple and comprehensive for the
-users. There is a separate site for the developers: <a
+it was designed to be simpler and more comprehensive for
+end-users. There is a separate site for developers: <a
 href="http://developers.videolan.org/">developers.videolan.org</a>.
 If you find errors, please write to <a
 href="mailto:webmaster@videolan.org">webmaster@videolan.org</a>.

@@ -107,7 +107,7 @@ verfügbar</span>
 
 <!-- Do not wrap me -->
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv dvd:<span xml:lang="en">[device][@raw_device][@[title][,[chapter][,angle]]]</span><span xml:lang="fr">[peripherique][@peripherique_raw][@[titre][,[chapitre][,angle]]]</span><span xml:lang="de">[Gerät][@Gerät_raw][@[Titel][,[Kapitel][,Winkel]]]</span>
+<prompt>% </prompt><userinput>vlc -vvv dvd://<span xml:lang="en">[device][@raw_device][@[title][,[chapter][,angle]]]</span><span xml:lang="fr">[peripherique][@peripherique_raw][@[titre][,[chapitre][,angle]]]</span><span xml:lang="de">[Gerät][@Gerät_raw][@[Titel][,[Kapitel][,Winkel]]]</span>
 </userinput>
 </screen>
 
@@ -119,7 +119,7 @@ verfügbar</span>
 
 <!-- Do not wrap me -->
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv vcd:<span xml:lang="en">[device][@[title][,[chapter]</span><span xml:lang="fr">[peripherique][@[titre][,chapitre]]</span><span xml:lang="de">[Gerät][@[Titel][,Kapitel]]</span></userinput>
+<prompt>% </prompt><userinput>vlc -vvv vcd://<span xml:lang="en">[device][@[title][,[chapter]</span><span xml:lang="fr">[peripherique][@[titre][,chapitre]]</span><span xml:lang="de">[Gerät][@[Titel][,Kapitel]]</span></userinput>
 </screen>
 
 <para>
@@ -130,7 +130,7 @@ verfügbar</span>
 
 <!-- Do not wrap me -->
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv cdda:<span xml:lang="en">[device][@[title]]</span><span xml:lang="fr">[peripherique][@[titre]]</span><span xml:lang="de">[Gerät][@[Titel]]</span></userinput>
+<prompt>% </prompt><userinput>vlc -vvv cdda://<span xml:lang="en">[device][@[title]]</span><span xml:lang="fr">[peripherique][@[titre]]</span><span xml:lang="de">[Gerät][@[Titel]]</span></userinput>
 </screen>
 
 

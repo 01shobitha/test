@@ -6,6 +6,10 @@
    require($_SERVER["DOCUMENT_ROOT"]."include/header.php3");
 ?>
 
+<p><span style="font-weight: bold;">Update :</span> Following our
+request, Cinema On Web has removed the download from their web site. We
+would like to thank them for their quick response.</p>
+
 <h1>
          The VideoLAN project investigates possible violation
                   of their intellectual property

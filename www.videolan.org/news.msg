@@ -3,8 +3,11 @@
 #
 
 |19 January 2005| The VideoLAN project investigates possible
-violation of their intellectual property| See the press release <a
-href="http://www.videolan.org/pr2005-1.html">here</a>.
+violation of their intellectual property| See the press release
+<a href="http://www.videolan.org/pr2005-1.html">here</a>. <span
+style="font-weight: bold;">Update :</span> Following our request, Cinema
+On Web has removed the download from their web site. We would like to
+thank them for their quick response.
 
 |12 December 2004| New: VLC Play HOWTO| VLC's documentation
 rewrite is nearing completion. We are proud to bring you the <a

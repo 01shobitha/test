@@ -67,7 +67,7 @@ else, as VLC packages are part of the contrib section.</para>
 source:</para>
 
 <screen>
-<prompt># </prompt><userinput>urpmi.addmedia vlc http://www.videolan.org/pub/videolan/vlc/0.6.0/rpm/mdk/</userinput>
+<prompt># </prompt><userinput>urpmi.addmedia vlc http://www.videolan.org/pub/videolan/vlc/0.6.0/rpm/mdk/ with hdlist.cz</userinput>
 </screen>
 
 <para>Eventually, install the packages with <command>urpmi</command>:</para>

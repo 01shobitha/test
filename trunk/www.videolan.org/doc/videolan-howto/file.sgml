@@ -4,7 +4,7 @@
 <sect1><title>Stream a file with VLC</title>
 
 <screen>
-<prompt>% </prompt><userinput>vlc /media/video/video1.avi --sout udp://192.168.0.42 --ttl 12</userinput>
+<prompt>% </prompt><userinput>vlc -vvv /media/video/video1.avi --sout udp://192.168.0.42 --ttl 12</userinput>
 </screen>
 
 <para>where :</para>
@@ -29,14 +29,8 @@ able to cross 11 routers).</para>
 
 </itemizedlist>
 
-
-
 <para>If you want to stream the file continuously, add the
 <emphasis>--loop</emphasis> option.</para>
-
-<note><para>Under Windows, make sure that you are in the same directory
-as the VLC install directory.</para></note>
-
 
 
 <sect1><title>Stream a file with VLS</title>

@@ -5,10 +5,8 @@
 
 <simplesect><title>Start VLC on the server</title>
 
-<para>Open a terminal and type :</para>
-
 <screen>
-<prompt>% </prompt><userinput>vlc /media/video/video1.avi --sout udp://client.example.org</userinput>
+<prompt>% </prompt><userinput>vlc -vvv /media/video/video1.avi --sout udp://client.example.org</userinput>
 </screen>
 
 <para>where <filename>/media/video/video1.avi</filename> is the file
@@ -16,32 +14,25 @@ you want to stream and <emphasis>client.example.org</emphasis> is the
 DNS name of the client you want to stream to (you can put an IP address
 instead).</para>
 
-<note><para>Under Windows, make sure that you are in the same directory
-as the VLC install directory.</para></note>
-
 <simplesect><title>Start VLC on the client</title>
 
-<para>Launch VLC on the machine which receives the stream and click on
-the <emphasis>Net</emphasis> button. Then select <emphasis>UDP</emphasis>,
-keep the default port and click on <emphasis>OK</emphasis>.</para>
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv udp:</userinput>
+</screen>
 
 <sect1><title>Unicast a DVD</title>
 
 <simplesect><title>Start VLC on the server</title>
 
-<para>Open a terminal and type :</para>
-
 <screen>
-<prompt>% </prompt><userinput>vlc dvdold:/dev/dvd --sout udp://client.example.org</userinput>
+<prompt>% </prompt><userinput>vlc -vvv dvdold:/dev/dvd --sout udp://client.example.org</userinput>
 </screen>
 
-<para>where <filename>/dev/dvd</filename> is the device corresponding
-to your DVD drive (put <filename>D:</filename> under Windows if
-<filename>D</filename> is the letter of your DVD drive) or the directory
-where you copied your DVD, and <emphasis>client.example.org</emphasis>
-is the DNS name of the client you want to stream to (you can put an IP
-address instead).</para>
-
+<para>where <filename>/dev/dvd</filename> is the name of your DVD drive
+(put <filename>D:</filename> under Windows if <filename>D</filename> is
+the letter of your DVD drive) or the directory where you copied your
+DVD, and <emphasis>client.example.org</emphasis> is the DNS name of the
+client you want to stream to (you can put an IP address instead).</para>
 
 <note>
 <para>
@@ -64,7 +55,9 @@ yourself to the group :
 
 <simplesect><title>Start VLC on the client</title>
 
-<para>Use the same procedure as in the previous section.</para>
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv udp:</userinput>
+</screen>
 
 <sect1><title>Multicast to several VLC's</title>
 
@@ -87,10 +80,8 @@ stream even if there are multiple clients receiving it.</para>
 
 <simplesect><title>Start VLC on the server</title>
 
-<para>Open a terminal and type :</para>
-
 <screen>
-<prompt>% </prompt><userinput>vlc /media/video/video1.avi --sout udp://239.255.12.42 --ttl 12</userinput>
+<prompt>% </prompt><userinput>vlc -vvv /media/video/video1.avi --sout udp://239.255.12.42 --ttl 12</userinput>
 </screen>
 
 <para>where <filename>/media/video/video1.avi</filename> is the file you
@@ -102,12 +93,10 @@ value of the TTL (Time To Live) of your IP packets (which means that the
 multicast stream will be able to cross 11 routers).</para>
 
 
+<simplesect><title>Start VLC(s) on the client(s)</title>
 
-<simplesect><title>Start VLC(s) on the clients</title>
-
-<para>Launch VLC and click on the <emphasis>Net</emphasis>
-button. Then select <emphasis>UDP Multicast</emphasis>, type
-the multicast IP address, keep the default port and click on
-<emphasis>OK</emphasis>.</para>
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv udp:@239.255.12.42</userinput>
+</screen>
 
 </sect1>

@@ -10,32 +10,24 @@
 
 <sect2><title>Read a File</title>
 
-<para>
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv video.avi</userinput>
+</screen>
 
-Start VLC : under Windows, Mac OS X or BeOS, double-clic on the icone and under Unix or Linux, use the command <command>vlc</command>.
-
-</para>
-
-<para>
-
-To read an MPEG-1 MPEG-2 or MPEG-4 / DivX file stored on a hard drive
-or a CD-ROM, click on the <emphasis>File</emphasis> icon or select in the
-menu <emphasis>File / Open file</emphasis> and select the file you want
-to play.
-
-</para>
+<para>where <filename>video.avi</filename> is the name of the file you
+want to play.</para>
 
 </sect2>
 
-<sect2><title>Read a DVD</title>
+<sect2><title>Read a DVD or a VCD</title>
 
-<para>
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv dvd:/dev/dvd</userinput>
+</screen>
 
-To read a DVD or a VCD, click on the <emphasis>disc</emphasis> icon or
-select in the menu <emphasis>File / Open disk</emphasis> and enter the
-device name of your DVD drive.
-
-</para>
+<para>where <filename>/dev/dvd</filename> is the name of your drive (put
+<filename>D:</filename> under Windows if <filename>D</filename> is the
+letter of your DVD drive).</para>
 
 <note><para>
 
@@ -59,9 +51,8 @@ yourself to the group :
 
 <sect2><title>Troubleshooting</title>
 
-<para>If VLC doesn't work for you, open the message window from the menu
-<emphasis>View / Messages</emphasis> and try to spot an error message
-that could explain your problem.</para>
+<para>If VLC doesn't work for you, try to spot an error message
+in the logs that are printed in the terminal.</para>
 
 <para>Then, read the <ulink
 url="http://www.videolan.org/doc/faq-vlc/faq/">vlc FAQ</ulink> and have a

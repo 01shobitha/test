@@ -23,7 +23,7 @@ BIOS.</para></note>
 <sect1><title>Stream with VLC</title>
 
 <screen>
-<prompt>% </prompt><userinput>vlc kfir:/dev/video --sout udp:192.168.0.42 --ttl 12</userinput>
+<prompt>% </prompt><userinput>vlc -vvv kfir:/dev/video --sout udp:192.168.0.42 --ttl 12</userinput>
 </screen>
 
 <para>where :</para>

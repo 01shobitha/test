@@ -3,10 +3,10 @@
 DOC := videolan-quickstart
 
 # We build HTML, PS, PDF, RTF and  TXT for the Web site
-all: images html ps pdf rtf txt
+all: img html ps pdf rtf txt
 
 # Get the images from the /images/documentation directory
-images:
+img:
 	rm -rf images
 	cp -R ../../images/documentation images
 

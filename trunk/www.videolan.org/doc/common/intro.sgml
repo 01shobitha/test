@@ -267,14 +267,7 @@ under Windows 95 / 98 / ME.</para>
 </figure>
 
 <note><para>Under Windows, you need to be in the directory where the
-program is installed to run it ; for this use the <command>cd</command>
-instruction, for example :</para>
-
-<screen>
-<prompt>% </prompt><userinput>cd C:\Program Files\VLC</userinput>
-</screen>
-
-</note>
+program is installed to run it.</para></note>
 
 <simplesect><title>under Linux or Unix</title>
 
@@ -323,17 +316,23 @@ folder <emphasis>Utilities</emphasis> and double-click on
 </mediaobject>
 </figure>
 
-<note><para>Under Mac OS X, you need to be in the directory where the
-program is installed to run it ; for this use the <command>cd</command>
-instruction, for example :</para>
-
-<screen>
-<prompt>% </prompt><userinput>cd /Applications/VLC.app/Contents/MacOS/VLC</userinput>
-</screen>
-
-</note>
+<note><para>Under Mac OS X, you need to be in the directory where
+the program is installed to run it, and start the command with
+<command>./</command> .</para></note>
 
 <simplesect><title>under BeOS</title>
 
-<para>[TODO]</para>
+<para>In the deskbar, go to <emphasis>Application</emphasis> and then
+<emphasis>Terminal</emphasis> :</para>
 
+<figure><title>BeOS terminal</title>
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/terminal-beos.&magic;" format="&magic;" scalefit="1" scale="60">
+  </imageobject>
+</mediaobject>
+</figure>
+
+<note><para>Under BeOS, you need to be in the directory where
+the program is installed to run it, and start the command with
+<command>./</command>.</para></note>

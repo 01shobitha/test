@@ -54,9 +54,7 @@ your config file is <filename>/etc/sap.cfg</filename>.</para>
 
 </sect1>
 
-<sect1><title>Configure VLC(s) to listen to the SAP announces</title>
-
-<para>Start VLC with the following command line:</para>
+<sect1><title>Start VLC(s) on the client(s)</title>
 
 <screen>
 <prompt>% </prompt><userinput>vlc --extraintf sap</userinput>

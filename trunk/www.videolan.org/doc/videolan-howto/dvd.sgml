@@ -21,17 +21,17 @@ yourself to the group :
 <sect1><title>Stream a DVD with VLC</title>
 
 <screen>
-<prompt>% </prompt><userinput>vlc dvdold:/dev/dvd --sout udp://192.168.0.12 --ttl 12</userinput>
+<prompt>% </prompt><userinput>vlc -vvv dvdold:/dev/dvd --sout udp://192.168.0.12 --ttl 12</userinput>
 </screen>
 
 <para>where :</para>
 
 <itemizedlist>
 
-<listitem><para><filename>/dev/dvd</filename> is the device
-corresponding to your DVD drive (put <filename>D:</filename> under
-Windows if <filename>D</filename> is the letter of your DVD drive) or
-the directory where you copied your DVD,</para>
+<listitem><para><filename>/dev/dvd</filename> is the name of
+your DVD drive (put <filename>D:</filename> under Windows if
+<filename>D</filename> is the letter of your DVD drive) or the directory
+where you copied your DVD,</para>
 
 <listitem><para><emphasis>192.168.0.12</emphasis> is either :
 

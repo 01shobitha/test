@@ -25,7 +25,7 @@ and you must specify <command>--enable-v4l</command> to
 
 <screen>
 <!-- We cut the lines when they are too long, so that it looks OK in PDF format ! -->
-<prompt>% </prompt><userinput>vlc v4l:/dev/video:norm=secam:frequency=8692:size=640x480:channel=0:adev=/dev/dsp:audio=0
+<prompt>% </prompt><userinput>vlc -vvv v4l:/dev/video:norm=secam:frequency=8692:size=640x480:channel=0:adev=/dev/dsp:audio=0
 --sout '#transcode{vcodec=mp4v,ab=256,vb=3000,vt=800000,keyint=80,acodec=mpga}
 :std{access=udp,mux=ts,url=239.255.12.13}' --ttl 12</userinput>
 </screen>

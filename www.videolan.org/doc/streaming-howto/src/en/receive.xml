@@ -173,12 +173,19 @@ Receive a stream with a set-top-box
 
 <para>
 Some set-top-boxes with Ethernet cards can receive
-MPEG2-TS streams over UDP and support multicast. This is the case
-of the <ulink url="http://www.pace.co.uk">Pace</ulink> and <ulink url="http://www.aminocom.com">Aminocom</ulink> set top boxes. We have
-tested the <emphasis>AmiNET 100</emphasis> set-top-box from Aminocom: it
-is nice and small, and it works very well with VideoLAN.
-
+MPEG2-TS streams over UDP and support multicast.
 </para>
+
+<para>
+Set-top-boxes known to work with VLC are :
+</para>
+
+<itemizedlist>
+<listitem><para><ulink url="http://www.pace.co.uk">Pace</ulink> set top boxes. (Pace Micro DSL 4000)</para></listitem>
+<listitem><para><ulink url="http://www.aminocom.com">Aminocom</ulink> set top boxes. (all the models with mpeg2)</para></listitem>
+<listitem><para>tuxia / gct-allwell (mpeg4 and mpeg2) sigma designs8174 chipset</para></listitem>
+<listitem><para>i3micro mood200 (mpeg4 and mpeg2 in transport streams)</para></listitem>
+</itemizedlist>
 
 </sect1>
 </chapter>

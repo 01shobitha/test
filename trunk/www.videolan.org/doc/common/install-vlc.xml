@@ -85,8 +85,8 @@ vous désirez l'installer (ce devrait être:
 <filename>/etc/apt/sources.list</filename>:</para>
 
 <programlisting>
-deb http://www.videolan.org/pub/videolan/debian $(ARCH)/
-deb-src http://www.videolan.org/pub/videolan/debian sources/
+     deb http://download.videolan.org/pub/videolan/debian woody main
+     deb-src http://download.videolan.org/pub/videolan/debian woody main
 </programlisting>
 
 <para><span xml:lang="en">
@@ -96,7 +96,7 @@ Then, for a normal install, do:</span>
 
 <screen>
 <prompt># </prompt><userinput>apt-get update</userinput>
-<prompt># </prompt><userinput>apt-get install gnome-vlc libdvdcss2</userinput>
+<prompt># </prompt><userinput>apt-get install wxvlc libdvdcss2</userinput>
 </screen>
 
 </simplesect>
@@ -108,9 +108,8 @@ Then, for a normal install, do:</span>
 <filename>/etc/apt/sources.list</filename>:</para>
 
 <programlisting>
-deb http://www.videolan.org/pub/videolan/debian $(ARCH)/
-deb-src http://www.videolan.org/pub/videolan/debian sources/
-</programlisting>
+     deb http://download.videolan.org/pub/videolan/debian sid main
+     deb-src http://download.videolan.org/pub/videolan/debian sid main</programlisting>
 
 <para><span xml:lang="en">
 Then, for a normal install, do:</span>

@@ -116,6 +116,8 @@ function footer($tag) {
  * the real code
  */
 
+$mirror = $_POST["mirror"];
+
 if($mirror)
 {
     /* FIXME: mirror code is broken */

@@ -1,5 +1,5 @@
 #! /bin/sh
-
+# $Id: build,v 1.2 2004/02/07 17:57:27 rocky Exp $
 # Build script for VideoLAN documentation
 # Written by Clément Stenac <zorglub@via.ecp.fr>
 
@@ -7,7 +7,7 @@ DOC="vlc-user-guide"
 ALL_LANG="en fr"
 DEFAULT_LANG="en"
 
-if test $1 == help
+if test "$1" = help
 then
  echo "./build TARGET [LANG]"
  echo "LANG can be: $ALL_LANG. Default is $DEFAULT_LANG"
@@ -17,10 +17,10 @@ fi
 
 echo "+ Finding for which langage we are building"
 
-if test $2 
+if test -n "$2"
 then
 
- if test $2 == all
+ if test "$2" = all
  then
   for lang in `echo $ALL_LANG`
   do
@@ -34,13 +34,13 @@ then
  
  for lang in `echo $ALL_LANG`
  do
-  if test $2 == $lang
+  if test $2 = $lang
   then
    build_lang=$lang
   fi
  done
    
- if [ $build_lang == "" ]
+ if [ $build_lang = "" ]
  then
   echo "- Lang $2 not found"
   build_lang=$DEFAULT_LANG

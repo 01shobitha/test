@@ -29,7 +29,7 @@ pour apprendre la syntaxe du stream output du VLC. Vous
 pouvez trouver le guide de l'utilisateur de VLC sur la <ulink
 url="http://www.videolan.org/doc/">page documentation</ulink></span>
 <span xml:lang="es">Por favor consulte el capítulo <emphasis>interfaz de línea de comandos</emphasis> de la guía de usuario de VLC para aprender
-la sintaxis de la salida de transmisión de VLC. Puedes encontrar la guía de usuario de VLC en la página de documentación<ulink
+la sintaxis de la salida de transmisión de VLC. Puedes encontrar la guía de usuario de VLC en la página de documentación <ulink
 url="http://www.videolan.org/doc/"></ulink></span>
 <span xml:lang="de">Bitte benutzen Sie das <emphasis>
 Command-Line-Interface</emphasis>-Kapitel des VLC-Userguides, um die
@@ -58,8 +58,8 @@ Syntax von VLCs Streamausgabe. Sie finden den VLC-Userguide auf der
 multicast IP address with the associated SAP announce</span>
 <span xml:lang="fr">Transcodez le flux d'entrée et envoyez le vers une
 adresse IP multicast, avec l'annonce SAP associée</span>
-<span xml:lang="es">Transcodifica el flujo de entrada y lo envía a una
-dirección IP multicast con el correspondiente anuncio asociado SAP</span>
+<span xml:lang="es">Transcodificar el flujo de entrada y enviarlo a una
+dirección IP multicast con el correspondiente anuncio SAP asociado</span>
 <span xml:lang="de">Umkodieren des Input-Streams und senden an eine
 Multicast-IP-Adresse mit der zugehörigen SAP-Ankündigung</span>
 :</para>
@@ -74,8 +74,8 @@ standard{access=udp,mux=ts,url=239.255.12.42,sap=TestStream}'</userinput>
 to a multicast IP address with the associated SAP announce</span>
 <span xml:lang="fr">Affichez le flux d'entrée, transcodez le, et envoyez
 le sur une adresse IP multicast, avec l'annonce SAP associée</span>
-<span xml:lang="es"> Muestra el flujo de entrada, lo transcodifica y lo envía
-a la dirección multicast con el correspondiente anuncio asociado SAP</span>
+<span xml:lang="es"> Mostrar el flujo de entrada, transcodificarlo y enviarlo
+a la dirección multicast con el correspondiente anuncio SAP asociado</span>
 <span xml:lang="de"> Den Input-Stream anzeigen, umkodieren und an eine
 Multicast-IP-Adresse mit der zugehörigen SAP-Ankündigung senden</span>
 :</para>
@@ -93,8 +93,8 @@ announce</span>
 <span xml:lang="fr">Transcodez le flux d'entrée, affichez le flux
 transcodé, et envoyez le sur une adresse IP multicast, avec l'annonce
 SAP associée</span>
-<span xml:lang="es">Transcodifica el flujo de entrada, muestra el flujo transcodificado
-y lo envía a la dirección IP multicast con el correspondiente anuncio asociado SAP</span>
+<span xml:lang="es">Transcodificar el flujo de entrada, mostrar el flujo transcodificado
+y enviarlo a la dirección IP multicast con el correspondiente anuncio SAP asociado</span>
 <span xml:lang="de">Umkodieren des Input-Streams, Anzeige des umkodierten
 Streams und Senden an eine Multicast-IP-Adresse mit der zugehörigen
 SAP-Ankündigung</span>
@@ -136,7 +136,7 @@ dst=standard{access=udp,mux=ts,url=192.168.1.2}}'</userinput>
 addresses</span>
 <span xml:lang="fr">Affichez le flux, et envoyez le sur deux adresses IP
 unicast</span>
-<span xml:lang="es">Muestra el flujo y lo envíaa dos direcciones IP 
+<span xml:lang="es">Mostrar el flujo y enviarlo a dos direcciones IP 
 unicast</span>
 <span xml:lang="de">Anzeige des Streams und Senden an zwei
 Unicast-IP-Adressen</span>
@@ -165,8 +165,9 @@ announce and an unicast IP address</span>
 <span xml:lang="fr">Transcodez le flux d'entrée, affichez le flux
 transcodé, envoyez le sur une adresse IP multicast avec l'annonce SAP
 aossiciée, et sur une adresse IP unicast</span>
-<span xml:lang="es">Transcodifica el flujo de entrada, muestra el flujo
-transcodificado y lo envía a una dirección IP multicast con el correspondiente anuncio SAP asociado y a una dirección IP unicast</span>
+<span xml:lang="es">Transcodificar el flujo de entrada, mostrar el flujo
+transcodificado y enviarlo a una dirección IP multicast con el correspondiente
+anuncio SAP asociado y a una dirección IP unicast</span>
 <span xml:lang="de">Umkodieren des Input-Streams, Anzeige des umkodierten
 Streams und senden dessen an eine Multicast-IP-Adresse mit der zugehörigen
 SAP-Ankündigung und an eine Unicast-IP-Adresse</span>
@@ -183,7 +184,7 @@ dst=standard{access=udp,mux=ts,url=192.168.1.2}}'</userinput>
 to two unicast IP addresses</span>
 <span xml:lang="fr">Affichez le flux d'entrée, transcodez-le, et
 envoyez-le sur deux adresses IP unicast</span>
-<span xml:lang="es">Muestra el flujo de entrada, lo transcodifica y lo envía
+<span xml:lang="es">Mostrar el flujo de entrada, transcodificarlo y enviarlo
 a dos direcciones IP unicast</span>
 <span xml:lang="de">Anzeige des Input-Streams, Umkodierung dessen und
 senden dessen an zwei Unicast-IP-Adressen</span>
@@ -203,7 +204,7 @@ associated SAP announces</span>
 <span xml:lang="fr">Envoyez le flux d'entrée sur une adresse IP
 multicast et le flux transcodé sur une autre adresse IP multicast, avec
 les annonces SAP associées</span>
-<span xml:lang="es">Envía el flujo de entrada a una dirección IP multicast
+<span xml:lang="es">Enviar el flujo de entrada a una dirección IP multicast
 y el flujo transcodificado a otra dirección IP multicast con los
 correspondientes anuncios SAP asociados</span>
 <span xml:lang="de">Senden des Input-Streams an eine Multicast-IP-Adresse
@@ -252,7 +253,7 @@ standard{access=udp,mux=ts,url=239.255.1.3,sap=TranscodedStream}"}'</userinput>
 <listitem><para>
 <span xml:lang="en">on the client(s), run</span>
 <span xml:lang="fr">sur le(s) client(s), lancez</span>
-<span xml:lang="es">oen el/los cliente(s), ejecuta</span>
+<span xml:lang="es">en el/los cliente(s), ejecuta</span>
 <span xml:lang="de">Führen Sie bei den Clients aus</span>
 :</para>
 
@@ -281,7 +282,7 @@ standard{access=http,mux=ogg,url=server.example.org:8080}'</userinput>
 Ogg/Vorbis over HTTP</span>
 <span xml:lang="fr">Par exemple, si vous désirez diffuser un CD audio en
 Ogg/Vorbis sur HTTP</span>
-<span xml:lang="es">Por ejemplo, si tu quieres transmitir un CD de audio en
+<span xml:lang="es">Por ejemplo, si se quiere transmitir un CD de audio en
 Ogg/Vorbis sobre HTTP</span>
 <span xml:lang="de">Beispielsweise wenn Sie eine Audio-CD in Ogg/Vorbis
 per HTTP streamen möchten</span>
@@ -351,7 +352,7 @@ standard{access=http,mux=ogg,url=server.example.org:8080}'</userinput>
 <para>
 <span xml:lang="en">Separate audio and video in two PS files</span>
 <span xml:lang="fr">Séparez l'audio et la vidéo en deux fichiers PS</span>
-<span xml:lang="es">Separa el audio y el vídeoen dos fichero PS</span>
+<span xml:lang="es">Separa el audio y el vídeo en dos fichero PS</span>
 <span xml:lang="de">Teilen von Bild und Ton in zwei PS-Dateien</span>
 :</para>
 
@@ -380,7 +381,7 @@ video track on another port</span>
 <span xml:lang="fr">Diffusez, en unicast, la piste audio sur un port et
 la piste vidéo sur un autre</span>
 <span xml:lang="es"> Transmite en unicast la pista de sonido en un puerto y el
-vídeo en otro puerto</span>
+vídeo en otro</span>
 <span xml:lang="de"> Streamen der Tonspur über einen Port und der Bildspur
 über einen anderen Port per Unicast</span>
 :</para>
@@ -404,7 +405,7 @@ vídeo en otro puerto</span>
 <listitem><para>
 <span xml:lang="en">on the client side: to receive the audio</span>
 <span xml:lang="fr">côté client: pour recevoir l'audio</span>
-<span xml:lang="es">: en la parte cliente: para recibir el audio</span>
+<span xml:lang="es">en la parte cliente: para recibir el audio</span>
 <span xml:lang="de">auf der Clientseite: Zum Empfangen des Tons</span>
 :</para>
 
@@ -435,7 +436,7 @@ a file</span>
 dans un fichier</span>
 <span xml:lang="es">Transmite el vídeo en multicast y envía el audio a
 un fichero</span>
-<span xml:lang="de">Streamen des Bildes per Multicast und speichern des Tons
+<span xml:lang="de">Streamen des Bildes per Multicast und speichern des Tonsfile:///usr/share/doc/mozilla-browser/localstart.html
 in einer Datei</span>
 :</para>
 
@@ -451,8 +452,8 @@ solution</span>
 <span xml:lang="fr">Vous pouvez également combiner le module
 <emphasis>es</emphasis> avec les autres modules pour élaborer des
 solutions encore plus complexes</span>
-<span xml:lang="es">Puedes también combinar el módulo <emphasis>es</emphasis> 
-con otros módulos para configurar soluciones incluso más complicadas</span>
+<span xml:lang="es">Se puede combinar también el módulo <emphasis>es</emphasis> 
+con otros módulos para elaborar soluciones incluso más complicadas</span>
 <span xml:lang="de">Sie können auch das <emphasis>es</emphasis>-Modul
 mit den anderen Modulen kombinieren, um noch komplexere Lösungen
 aufzusetzen</span>

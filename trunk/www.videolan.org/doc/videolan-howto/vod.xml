@@ -56,11 +56,13 @@ dans la vidéo.</para>
 
 <span xml:lang="es">
 <para>El vídeo bajo demanda (VOD) permite al usuario visualizar el vídeo,
-cuando el quiera, hacer pausas y rebobinar. Esta es la principal ventaja de la difusión de vídeo
+cuando el quiera, hacer pausas y rebobinar. Ésta es la principal ventaja de la difusión de vídeo
 mediante flujo de datos, en pocas palabras: el sueño de cualquier usuario.</para>
+
 <para>VOD es una de las principales fuentes de consumo de recursos
 tanto de la red como del servidor. VOD es unicast, no multicast : esto significa que los recursos
 de la red y del servidor necesarios, son directamente proporcionales al número de clientes.</para>
+
 <para>La solución que VideoLAN's VOD propone es muy simple. La idea es hacer una 
 difusión HTTP, por ejemplo: encapsular el flujo de datos de vídeo (MPEG) en HTTP.
 El control del flujo de datos entre el cliente y el servidor se hace automaticamente 
@@ -91,7 +93,7 @@ einer ladenden Datei zu suchen, was wir benutzen, um im Video zu suchen.</para>
 <sect1><title>
 <span xml:lang="en">On the server side</span>
 <span xml:lang="fr">Sur le serveur</span>
-<span xml:lang="es">De cara al servidor</span>
+<span xml:lang="es">Parte servidor</span>
 <span xml:lang="de">Auf der Server-Seite</span>
 </title>
 
@@ -126,9 +128,9 @@ pour les clients sur le serveur web.</para>
 </span>
 
 <span xml:lang="es">
-<para>En un servidor de VOD, se necesita  de un servidor Web. 			
+<para>En un servidor de VOD se necesita un servidor Web. 			
 Por ejemplo, se podría usar el Servidor de Linux Apache. Otros sistemas operativos
- y servidores web deberían funcionar también, pero esto no se ha comprobado. </para>
+y servidores web deberían funcionar también, pero no se ha comprobado.</para>
 
 <para>Esto hace que los ficheros MPEG-1, MPEG-2 or MPEG-4 / DivX
 esten disponibles para los clientes.</para>
@@ -136,7 +138,7 @@ esten disponibles para los clientes.</para>
 <para>Por ejemplo, nosotros tenemos un servidor Web con cuyos DNS
 son <emphasis>servidorlocal</emphasis>. En este servidor se puede poner el 
 fichero MPEG <filename>video1.mpg</filename> y hacer que este disponible para los clientes
-en la URL<filename>http://localserver/video1.mpg</filename>.</para>
+en la URL <filename>http://localserver/video1.mpg</filename>.</para>
 </span>
 
 <span xml:lang="de">
@@ -160,7 +162,7 @@ zugänglich ist.</para>
 <sect1><title>
 <span xml:lang="en">On the client side</span>
 <span xml:lang="fr">Du côté client</span>
-<span xml:lang="es">De cara al cliente</span>
+<span xml:lang="es">Parte cliente</span>
 <span xml:lang="de">Auf der Clientseite</span>
 </title>
 
@@ -178,13 +180,13 @@ zugänglich ist.</para>
 
 <span xml:lang="es">
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv http://servidorlocal/lserver/video1.mpg</userinput>
+<prompt>% </prompt><userinput>vlc -vvv http://servidorlocal/video1.mpg</userinput>
 </screen>
 </span>
 
 <span xml:lang="de">
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv http://lokalerserver/lserver/video1.mpg</userinput>
+<prompt>% </prompt><userinput>vlc -vvv http://lokalerserver/video1.mpg</userinput>
 </screen>
 </span>
 
@@ -202,7 +204,7 @@ un fichier local.</para>
 
 <span xml:lang="es">
 <para>VLC empieza a leer el flujo de datos casi inmediatamente, y además le permite 
-hacer busquedas, pausas etc...como si el flujo de datos fuera un fichero local </para>
+hacer búsquedas, pausas etc...como si el flujo de datos fuera un fichero local </para>
 </span>
 
 <span xml:lang="de">

@@ -3,7 +3,7 @@
 <chapter id="sap"><title id="tsap">
 <span xml:lang="en">Add a channel information service</span>
 <span xml:lang="fr">Ajoutez un système d'information</span>
-<span xml:lang="es">Agrege un sistema de información</span>
+<span xml:lang="es">Añadir un sistema de información</span>
 <span xml:lang="de">Einen Kanalinformationsdienst hinzufügen</span>
 </title>
 
@@ -33,7 +33,7 @@ necesita un sistema de información! VideoLan ha implementado un
 sistema de información basado en el protocolo SAP/SDP. Los anuncios SAP
 de los programas son enviados a la red (a través de la dirección multicast 
 <emphasis>224.2.127.254</emphasis> reservada para este propósito).
-En la parte del cliente, VLC recive estos anuncios y automáticamente
+En la parte del cliente, VLC recibe estos anuncios y automáticamente
 añade los programas anunciados a su playlist.</para>
 </span>
 

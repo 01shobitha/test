@@ -76,4 +76,4 @@ $(LANG:%=$(DOC)-%.txt): %.txt: %.xml
 	make $(DOC)-$(LANG).xml
 
 clean:
-	rm -f *.zip *.html *.pdf *.ps *.rtf *.txt *.dvi *.tex *.out *.aux *.log *.tmp $(DOC)-*.xml
+	rm -rf *.zip *.html *.pdf *.rtf *.txt *.dvi *.tex *.out *.aux *.log *.tmp $(DOC)-*.xml $(foreach lang, $(LANG), $(DOC)-$(lang))

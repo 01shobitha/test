@@ -29,7 +29,7 @@
 
 <? h2("Debian GNU/Linux i386"); ?>
 
-<p> Latest Debian x86 package (0.4.6) are below. You may also
+<p> Latest Debian x86 packages (0.4.6) are below. You may also
 add the following lines to your <b>/etc/apt/sources.list</b>:</p>
 
 <code>
@@ -72,6 +72,15 @@ add the following lines to your <b>/etc/apt/sources.list</b>:</p>
 
 <? h2("Debian GNU/Linux PowerPC"); ?>
 
+<p> Latest Debian PowerPC packages (0.4.5a) are below. You may also
+add the following lines to your <b>/etc/apt/sources.list</b>:</p>
+
+<code>
+  deb ftp://ftp.videolan.org/pub/videolan/debian $(ARCH)/<br />
+  deb-src ftp://ftp.videolan.org/pub/videolan/debian sources/<br />
+</code>
+
+
 <ul><?
      pkgitem("vlc/0.4.5/deb","vlc_0.4.5a-1_powerpc.deb");
 ?></ul>
@@ -106,8 +115,7 @@ add the following lines to your <b>/etc/apt/sources.list</b>:</p>
 
 <? h2("RPMs"); ?>
 
-<p> Latest RPM x86 packages for Mandrake and RedHat (0.4.6) (needs <a
-href="/libdvdcss/download.html">libdvdcss</a>) </p>
+<p> Latest RPM x86 packages for Mandrake and RedHat (0.4.6): </p>
 
 <ul><?
     pkgitem("vlc/0.4.6/rpm","vlc-0.4.6-1.i586.rpm");
@@ -146,12 +154,6 @@ href="/libdvdcss/download.html">libdvdcss</a>) </p>
     pkgitem("libdvbpsi/0.1.2/rpm","libdvbpsi-0.1.2-1.src.rpm");
 ?></ul>
 
-<!--
-Red Hat 7.2 users may experience dependancies problems with these packages.
-Jean-Paul Saman has created a shell script to patch the distribution.
-It is available <a href="/pub/videolan/vlc/0.3.0/rpm/patch72.sh">here</a>.
--->
-
 <p> Since there are many RPM-based distributions, you may get a better
 package by rebuilding it yourself. Download the SRPM and run for
 instance <code>rpm --rebuild vlc-0.4.6-1.src.rpm</code>. The RPMs can
@@ -162,4 +164,4 @@ then be found in <code>/usr/src/RPM/RPMS/</code>. </p>
 <p> Older versions can be found by <a href="/pub/vlc/">browsing</a> our
 FTP site. </p>
 
-<? footer('$Id: download-linux.html,v 1.17 2003/02/01 18:01:52 alexis Exp $'); ?>
+<? footer('$Id: download-linux.html,v 1.18 2003/02/01 18:05:25 alexis Exp $'); ?>

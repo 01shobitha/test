@@ -2,7 +2,7 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
-|7-8 July 2003| Scheduled downtime| Due to scheduled power downtimes,
+|7-8 August 2003| Scheduled downtime| Due to scheduled power downtimes,
 the VideoLAN servers hosting FTP, Web, CVS and the mailing-lists will be
 down July 7th from 8 a.m. to 7 p.m. and July 8th from 1 p.m. to 7 p.m.
 (Paris time).

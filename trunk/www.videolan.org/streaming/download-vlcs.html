@@ -3,7 +3,7 @@
    $lang = "en";
    $date = "14 January 2003";
    $menu = array( "streaming", "" );
-   require("header.php3");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 
 <? function pkgitem($version,$name) { ?><li><a href="/pub/videolan/vlcs/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
@@ -18,4 +18,4 @@
   <li><a href="/pub/videolan/vlcs/0.2.0/"><i>browse the list</i></a></li>
 </ul>
 
-<? footer('$Id: download-vlcs.html,v 1.7 2003/04/25 22:30:07 alexis Exp $'); ?>
+<? footer('$Id: download-vlcs.html,v 1.8 2003/09/29 23:27:55 sam Exp $'); ?>

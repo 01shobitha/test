@@ -3,7 +3,7 @@
    $lang = "en";
    $date = "9 October 2001";
    $menu = array( "streaming", "" );
-   require("header.php3");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 
 <? function pkgitem($version,$name) { ?><li><a href="/pub/videolan/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
@@ -55,4 +55,4 @@
 <p>Older versions can be found by <a
 href="http://www.videolan.org/pub/vls/">browsing</a> our FTP site.</p>
 
-<? footer('$Id: download-vls-debian.html,v 1.8 2003/05/12 12:33:10 alexis Exp $'); ?>
+<? footer('$Id: download-vls-debian.html,v 1.9 2003/09/29 23:27:55 sam Exp $'); ?>

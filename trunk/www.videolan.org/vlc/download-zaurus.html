@@ -3,7 +3,7 @@
    $lang = "en";
    $date = "18 August 2003";
    $menu = array( "vlc", "download" );
-   require("header.php3");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 
 <? function pkgitem($version,$name) { ?><li><a href="/pub/videolan/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
@@ -56,4 +56,4 @@
 # ldconfig
 </pre>
 
-<? footer('$Id: download-zaurus.html,v 1.5 2003/09/25 22:03:15 jpsaman Exp $'); ?>
+<? footer('$Id: download-zaurus.html,v 1.6 2003/09/29 23:27:55 sam Exp $'); ?>

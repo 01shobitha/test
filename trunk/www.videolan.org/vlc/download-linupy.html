@@ -3,7 +3,7 @@
    $lang = "en";
    $date = "11 February 2003";
    $menu = array( "vlc", "download" );
-   require("header.php3");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 
 <? function pkgitem($version,$name) { ?><li><a href="/pub/videolan/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
@@ -76,4 +76,4 @@ here:</p>
 </td></tr>
 </table>
 
-<? footer('$Id: download-linupy.html,v 1.14 2003/08/22 14:30:50 lool Exp $'); ?>
+<? footer('$Id: download-linupy.html,v 1.15 2003/09/29 23:27:55 sam Exp $'); ?>

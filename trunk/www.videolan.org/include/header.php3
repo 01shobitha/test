@@ -66,7 +66,6 @@ function starthtml($title) { ?>
 
 </tr>
 </table>
-</form>
 
 <table width="100%" cellspacing="3" cellpadding="0">
 <tr>
@@ -83,6 +82,7 @@ function starthtml($title) { ?>
 </tr>
 
 </table>
+</form>
 
 <div style="margin: 10px;"><?
 

@@ -98,13 +98,11 @@ function starthtml($title) { ?>
 
  </td>
  <td>
-   <form action="index.html" method="get">
      <select name="mirror">
      <!-- current: $GLOBALS['HTTP_HOST'] -->
      <option value="www.videolan.org">Châtenay, France (main)</option>
      <option value="www.fr.videolan.org">Paris, France</option>
      </select><input type="submit" value="Select Mirror" />
-   </form>
  </td>
 </tr>
 </table>

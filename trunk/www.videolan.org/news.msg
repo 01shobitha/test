@@ -4,6 +4,10 @@
 # Et pour les nouvelles importantes, c'est pas un | , c'est un §
 #
 
+|26 May 2003| Release: mini-SAP-server 0.2.0 | This new release of the
+mini-SAP-server produces packets that should be conform to the RFC and
+adds a "port" option. Only the CVS version of VLC accepts its announces.
+
 |25 May 2003| VLC FAQ becomes VideoLAN FAQ | The new VideoLAN FAQ is
 available in multiple formats on the <a href="/doc/">documentation
 page</a>. If you have remarks about it or would like new questions to be

@@ -402,6 +402,19 @@ téléchargement des sources de VLC</ulink>. Décompressez-le :</span>
 </screen>
 
 <!-- bootstrap is already done is the tarballs -->
+<para>
+<span xml:lang="en">If you use sources from CVS, you need to run :</span>
+<span xml:lang="fr">Si vous utilisez des sources venant de CVS et non d'un tarball, vous devez d'abord executer :</span>
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>./bootstrap</userinput>
+</screen>
+
+<para>
+<span xml:lang="en">Tarballs are already bootstrapped</span>
+<span xml:lang="fr">Les tarballs sont déjà 'bootstrappés'</span>
+</para>
 
 <para>
 <span xml:lang="en">

@@ -1,5 +1,7 @@
 /* CSS for the VideoLAN website
- * Stolen from the Gnumeric website by Sam :-) */
+ * Stolen from the Gnumeric website by Sam :-)
+ *
+ * $Id: main.css,v 1.63 2003/01/30 21:29:27 sam Exp $ */
 
 body {
   font-family: sans-serif, Helvetica, Arial;
@@ -185,12 +187,7 @@ dd {
 blockquote.center,p.center,td.center,h2.center { text-align: center; }
 blockquote.right, p.right, td.right  { text-align: right; }
 
-td.black  { color: black; background-image: none; background-color: black; }
-td.gray   { color: black; background-image: none; background-color: #888; }
-td.blue   { color: black; background-image: none; background-color: #9bf; }
-td.green  { color: black; background-image: none; background-color: #afa; }
-td.orange { color: black; background-image: none; background-color: #ec8; }
-td.red    { color: black; background-image: none; background-color: #faa; }
+/* Styles used for the features tables */
 td.yes {
   color: black;
   background-image: none;
@@ -237,6 +234,8 @@ th.os {
 /*  background-color: #eaa; */
   vertical-align: middle;
 }
+
+/* Styles used for the navigation bar */
 td.firstbar {
   vertical-align: middle;
   text-align: center;
@@ -299,6 +298,10 @@ td.secondbarselected {
   font-weight: bold;
   font-size: 1em;
 }
+
+/*
+ * Below is sam's stuff.
+ */
 
 /* Styles used for the upper navigation bar */
 td.topleft {

@@ -2,6 +2,10 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+|23 October 2004| Server upgrade| We will be upgrading our Web server
+today. A few minutes downtime will occur near 13:00 GMT.
+Sorry for the inconvenience.
+
 |23 July 2004| Release: miniSAPserver 0.2.4| This release fixes a 
 major problem with miniSAPserver where it was always announcing mp3
 streams instead of mpeg-ts (vls produced) streams. It also fixes the

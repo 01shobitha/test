@@ -186,7 +186,7 @@
 
 </td>
 </tr>
-
+<!--
 <tr>
 <td class="category"><b>VLC user guide</b></td>
 <td>Complete guide of VLC</td>
@@ -217,7 +217,7 @@
 <a href="/doc/vlc-user-guide/de/vlc-user-guide-de.txt">DE</a>
 </td>
 </tr>
-
+-->
 <tr>
 <td class="category"><b>VLC streaming</b></td>
 <td>Streaming with wxwindows interface</td>
@@ -235,7 +235,7 @@
 </td>
 
 </tr>
-
+<!--
 <tr>
 <td class="category"><b>VideoLAN HOWTO</b></td>
 <td>Complete guide of the VideoLAN streaming solution</td>
@@ -273,7 +273,7 @@
 
 
 </tr>
-
+-->
 
 </table>
 

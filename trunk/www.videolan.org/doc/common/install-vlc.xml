@@ -292,12 +292,12 @@ vous désirez modifier les modules supportés par défaut.</para>
 </itemizedlist>
 
 <para>
-<span xml:lang="en">Download the libraries from the <ulink
+<span xml:lang="en">You can either download the libraries from the <ulink
 url="http://www.videolan.org/vlc/download-sources.html">VLC sources
-download page</ulink>.</span>
-<span xml:lang="fr">Téléchargez les librairies depuis
+download page</ulink> and compile them as described in the next paragraph or get the libraries and the respective development headers from your favorite distributor (via .deb and .rpm packages for exemple). However only tarballs from our website are officially supported</span>
+<span xml:lang="fr">Vous pouvez téléchargez les librairies depuis
 <ulink url="http://www.videolan.org/vlc/download-sources.html"> la 
-page de téléchargement des sources du VLC</ulink></span></para>
+page de téléchargement des sources du VLC</ulink> et les compiler comme décrits par la suite, ou installer ces librairies et les headers de développement correpondant via votre distibuteur favory (par des packages .deb ou .rpm par exemple). Toutefois seuls les tarballs fournis sur notre site web sont officiellement supportés.</span></para>
 
 <para>
 <span xml:lang="en">For each library :</span>
@@ -331,6 +331,11 @@ page de téléchargement des sources du VLC</ulink></span></para>
 <prompt>% </prompt><userinput>cd library</userinput>
 <prompt>% </prompt><userinput>./configure</userinput>
 </screen>
+
+<para>
+<span xml:lang="en">Note: ffmpeg needs to be configured with --enable-pp</span>
+<span xml:lang="fr">Note : Rajoutez l'option de configuration --enable-pp lors de la configuration d'ffmpeg</span>
+</para>
 
 </listitem>
 

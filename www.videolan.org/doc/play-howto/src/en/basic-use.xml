@@ -115,21 +115,28 @@ chapter instead of from the begining, you can set it in the "Title" and
 <para>
 To open a network stream, open the "File" menu and select the "Open Network 
 Stream" menu item.</para>
-<para>To open a UDP unicast stream, select "UDP/RTP", and set the appropriate 
+
+<itemizedlist>
+<listitem><para>To open a UDP unicast stream, select "UDP/RTP", and set the appropriate 
 UDP port in the selector (it is 1234 for streams sent by a VLC or VLS server).
-</para>
-<para>
+</para></listitem>
+<listitem><para>
 To open a UDP multicast stream, select "UDP/RTP multicast". Give the address 
 of the multicast group in the "Address" text input, and select the appropriate 
-UDP port.</para>
-<para>To open a stream sent over http (Shoutcast, Icecast...), ftp, or mms 
+UDP port.</para></listitem>
+<listitem><para>
+To open a stream sent over http (Shoutcast, Icecast...), ftp, or mms 
 (Microsoft Media Server), select "HTTP/FTP/MMS", and give the corresponding 
 complete URL, (such as http://live.stream.org:8080/live or 
 mms://live.ms.stream.net:8080/live.asf) in the corresponding text input. 
-This also the way to open a RTSP stream with the MacOS X interface.</para>
-<para>To open a RTSP stream (sent by Darwin Streamming Server, VLC, etc), 
+This also the way to open a RTSP stream with the MacOS X interface.
+</para></listitem>
+<listitem><para>
+To open a RTSP stream (sent by Darwin Streamming Server, VLC, etc), 
 in the wxWindows interface, select "RTSP" and give the URL in the text input.
-</para>
+</para></listitem>
+</itemizedlist>
+
 <para>You can start playback by selecting the "Ok" button.
 </para>
 <para>If you get some stuttering during playback, you can try to increase the 
@@ -158,7 +165,9 @@ box, by selecting the "Caching" box. You can then choose the amount time
 <sect2><title>Play from an acquisition card</title>
 <para>This currently only possible on Linux and Windows. Open the File menu, 
 and select "Open Capture Device..."</para>
-<para>On Windows, supported cards include webcams, TV cards, acquisition 
+
+<para>
+On Windows, supported cards include webcams, TV cards, acquisition 
 cards... provided they come with directshow compatible drivers. You can 
 choose the device to use for video and audio capture using the "Video device 
 name" and "Audio device name" selectors. If your device doesn't appear in the 
@@ -183,11 +192,15 @@ encoded) and the size of the input buffer.
 
 <para>On Linux, supported cards include webcams, TV cards, acquisition cards, provided they are supported by the Video4Linux architecture. Haupaugge PVR 250/350 cards are also supported, using the  <ulink 
 url="http://ivtv.sourceforge.net/">IVTV drivers </ulink>.</para>
-<para>For Video'Linux devices, you can set the name of the video and audio 
+
+<itemizedlist>
+<listitem><para>
+For Video'Linux devices, you can set the name of the video and audio 
 devices using the "Video device name" and "Audio device name" text inputs. 
 The "Advanced options..." button allows to select some further settings usefull
 in some rare cases, such as the chroma of the input (the way colors are
-encoded) and the size of the input buffer.</para>
+encoded) and the size of the input buffer.</para></listitem>
+</itemizedlist>
 
 <mediaobject>
   <imageobject>
@@ -197,9 +210,18 @@ encoded) and the size of the input buffer.</para>
   <caption><para>The Open Video4Linux dialog - wxWindows interface</para></caption>
 </mediaobject>
 
+<itemizedlist>
+<listitem><para>
+To use a Hauppauge PVR card, select the PVR tab in the "Open" dialog box. 
+Use the "Device" text input to set the device of the card you want to use. 
+You can set the Norm of the tuner (PAL, SECAM or NTSC) by using the "Norm" 
+Drop Down. The Frequency selector allows you to set the frequency of the tuner 
+(in kHz), the bitrate selector to set the bitrate of the resulting encoded 
+stream (in bit/s). The "Advanced Options button allows to set some more 
+settings, such as the size of the encoded video (in pixels), its framerate 
+(in frame per second), the interval between 2 key frames, etc.</para></listitem>
+</itemizedlist>
 
-<para>To use a Hauppauge PVR card, select the PVR tab in the "Open" dialog box. 
-Use the "Device" text input to set the device of the card you want to use. You can set the Norm of the tuner (PAL, SECAM or NTSC) by using the "Norm" Drop Down. The Frequency selector allows you to set the frequency of the tuner (in kHz), the bitrate selector to set the bitrate of the resulting encoded stream (in bit/s). The "Advanced Options button allows to set some more settings, such as the size of the encoded video (in pixels), its framerate (in frame per second), the interval between 2 key frames, etc.</para>
 <para>After having set all the required parametters, you can start the capture by selecting the "Ok" button.</para>
 
 <mediaobject>

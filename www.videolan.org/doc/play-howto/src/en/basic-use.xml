@@ -40,17 +40,177 @@ Windows.</para>
 <sect1><title>Simple play</title>
 
 <sect2><title>Play a file</title>
-<para></para>
+<para>To open a file, open the "File" menu, and select the Quick Open File menu 
+item. An Open File dialog box will appear. Select the file you want to open, 
+and select Open. VLC will start playing the selected file. 
+</para>
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/play-howto/intf-wx-file-menu.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>The File menu - wxWindows interface</para></textobject>
+  <caption><para>The File menu - wxWindows interface</para></caption>
+</mediaobject>
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/play-howto/intf-osx-file-menu.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>The File menu - MacOS X interface</para></textobject>
+  <caption><para>The File menu - MacOS X interface</para></caption>
+</mediaobject>
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/play-howto/intf-wx-open-file.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>The Open file dialog - wxWindows interface</para></textobject>
+  <caption><para>The Open file dialog - wxWindows interface</para></caption>
+</mediaobject>
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/play-howto/intf-osx-open-file.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>The Open file dialog - MacOS X interface</para></textobject>
+  <caption><para>The Open file dialog - MacOS X interface</para></caption>
+</mediaobject>
+
 </sect2>
 <sect2><title>Play a CD/DVD/VCD</title>
-<para></para>
+<para>
+To Play a CD, VCD or a DVD, open the "File" menu, and select the "Open Disc..."
+ menu item. In the Open Disk Dialog Box, select the type of media (DVD, VCD or 
+Audio CD). When reading a DVD, you can enable DVD menus by selecting the 
+"DVD (menus)" Disc type in the wxWindows Interface. In the MacOS X interface, 
+this can be done by selecting the "Use DVD menus" dialog box.
+</para>
+<para>You can select the drive from which the media should be read by giving 
+the appropriate drive letter or device name in the "Device Name" text input. 
+This should be autodeteced on MacOS X.</para>
+<para>If you want to start the DVD or VCD playback from a given title and 
+chapter instead of from the begining, you can set it in the "Title" and 
+"Chapter" selectors.</para>
+<para>You can start playback by selecting the "Ok" button.</para> 
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/play-howto/intf-wx-open-disk.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>The Open disk dialog - wxWindows interface</para></textobject>
+  <caption><para>The Open disk dialog - wxWindows interface</para></caption>
+</mediaobject>
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/play-howto/intf-osx-open-disk.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>The Open disk dialog - MacOS X interface</para></textobject>
+  <caption><para>The Open disk dialog - MacOS X interface</para></caption>
+</mediaobject>
+
 </sect2>
 <sect2><title>Play a network stream (WebRadio, WebTV, ...)</title>
-<para></para>
-</sect2>
+<para>
+To open a network stream, open the "File" menu and select the "Open Network 
+Stream" menu item.</para>
+<para>To open a UDP unicast stream, select "UDP/RTP", and set the appropriate 
+UDP port in the selector (it is 1234 for streams sent by a VLC or VLS server).
+</para>
+<para>
+To open a UDP multicast stream, select "UDP/RTP multicast". Give the address 
+of the multicast group in the "Address" text input, and select the appropriate 
+UDP port.</para>
+<para>To open a stream sent over http (Shoutcast, Icecast...), ftp, or mms 
+(Microsoft Media Server), select "HTTP/FTP/MMS", and give the corresponding 
+complete URL, (such as http://live.stream.org:8080/live or 
+mms://live.ms.stream.net:8080/live.asf) in the corresponding text input. 
+This also the way to open a RTSP stream with the MacOS X interface.</para>
+<para>To open a RTSP stream (sent by Darwin Streamming Server, VLC, etc), 
+in the wxWindows interface, select "RTSP" and give the URL in the text input.
+</para>
+<para>You can start playback by selecting the "Ok" button.
+</para>
+<para>If you get some stuttering during playback, you can try to increase the 
+size of the read buffer. This can be done in the "Open Network Stream" dialog 
+box, by selecting the "Caching" box. You can then choose the amount time 
+(in milliseconds) VLC should store data in its buffer before starting playback.
+</para>
 
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/play-howto/intf-wx-open-net.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>The Open network dialog - wxWindows interface</para></textobject>
+  <caption><para>The Open network dialog - wxWindows interface</para></caption>
+</mediaobject>
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/play-howto/intf-osx-open-net.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>The Open network dialog - MacOS X interface</para></textobject>
+  <caption><para>The Open network dialog - MacOS X interface</para></caption>
+</mediaobject>
+
+</sect2>
 <sect2><title>Play from an acquisition card</title>
-<para></para>
+<para>This currently only possible on Linux and Windows. Open the File menu, 
+and select "Open Capture Device..."</para>
+<para>On Windows, supported cards include webcams, TV cards, acquisition 
+cards... provided they come with directshow compatible drivers. You can 
+choose the device to use for video and audio capture using the "Video device 
+name" and "Audio device name" selectors. If your device doesn't appear in the 
+list, try to select the "Refresh list" button. You can access the settings of 
+your acquisition device by selectig the "configure" button. Options here 
+depend on the driver of the device. You can select the "Device Proprieties" 
+box if you want the configuration dialog box of every device to be displayed 
+after having pressed the "Ok" button. Select the "Tuner proprieties" box to be 
+prompted for tuner settings (standard, frequency...) for TV cards. The 
+"Advanced options..." button allows to select some further settings usefull 
+in some rare cases, such as the chroma of the input (the way colors are 
+encoded) and the size of the input buffer.
+</para>
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/play-howto/intf-wx-open-capture.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>The Open Capture device dialog and a device configuration windows- wxWindows interface</para></textobject>
+  <caption><para>The Open Capture device dialog and a device configuration windows - wxWindows interface</para></caption>
+</mediaobject>
+
+<para>On Linux, supported cards include webcams, TV cards, acquisition cards, provided they are supported by the Video4Linux architecture. Haupaugge PVR 250/350 cards are also supported, using the  <ulink 
+url="http://ivtv.sourceforge.net/">IVTV drivers </ulink>.</para>
+<para>For Video'Linux devices, you can set the name of the video and audio 
+devices using the "Video device name" and "Audio device name" text inputs. 
+The "Advanced options..." button allows to select some further settings usefull
+in some rare cases, such as the chroma of the input (the way colors are
+encoded) and the size of the input buffer.</para>
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/play-howto/intf-wx-open-v4l.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>The Open Video4Linux dialog- wxWindows interface</para></textobject>
+  <caption><para>The Open Video4Linux dialog - wxWindows interface</para></caption>
+</mediaobject>
+
+
+<para>To use a Hauppauge PVR card, select the PVR tab in the "Open" dialog box. 
+Use the "Device" text input to set the device of the card you want to use. You can set the Norm of the tuner (PAL, SECAM or NTSC) by using the "Norm" Drop Down. The Frequency selector allows you to set the frequency of the tuner (in kHz), the bitrate selector to set the bitrate of the resulting encoded stream (in bit/s). The "Advanced Options button allows to set some more settings, such as the size of the encoded video (in pixels), its framerate (in frame per second), the interval between 2 key frames, etc.</para>
+<para>After having set all the required parametters, you can start the capture by selecting the "Ok" button.</para>
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/play-howto/intf-wx-open-pvr.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>The Open PVR dialog- wxWindows interface</para></textobject>
+  <caption><para>The Open PVR dialog - wxWindows interface</para></caption>
+</mediaobject>
+
+
 </sect2>
 
 </sect1>
@@ -86,6 +246,26 @@ to cycle between all matching items.</para>
 <para>The <emphasis>Up</emphasis> and <emphasis>Down</emphasis> buttons
 at the bottom of the playlist window allow you to move an item. Select
 an item and use these buttons to move it.</para>
+
+</sect1>
+
+<sect1><title>Hotkeys</title>
+
+<para>Most of the functions of VLC are controllable through hotkeys</para>
+
+<para>The list of the available hotkeys and their binding can be retrieved 
+and altered in the preferences panel of the player. In the wxWindows interface, 
+preferences are available in the "Settings" menu, "Preferences" menu item. 
+In the MacOS X interface, open the "VLC" menu, and select "Preferences". 
+Select the "Hot keys" panel in the dialog. For each  function of VLC, you 
+get the bound hotkey in the dropdown in the right part of the panel. Several 
+boxes gives the list of modifiers for the hotkey. To trigger an action using 
+ a hotkey, you need to press at the same time the keys corresponding to 
+the different selected modifiers as well as the key set in the dropdown.</para>
+
+<para>To change the binding of a hotkey, select or unselect boxes corresponding 
+to the different modifiers, and change the key by using the dropdown. Select 
+the "Save" button to apply the changes.</para>
 
 </sect1>
 

@@ -21,7 +21,7 @@ img {
 
 p {
   font-size: 10pt;
-  font-family: sans-serif, Helvetica, Arial;
+  font-family: inherit;
   text-indent: 0px;
   background: inherit;
   color: black;
@@ -29,14 +29,14 @@ p {
 
 td {
   font-size: 10pt;
-  font-family: sans-serif, Helvetica, Arial;
+  font-family: inherit;
   background: inherit;
   color: black;
 }
 
 h1 {
   font-size: 14pt;
-  font-family: sans-serif, Helvetica, Arial;
+  font-family: inherit;
   font-weight: 600;
   background: inherit;
   color: black;
@@ -55,7 +55,7 @@ h1 {
 
 h2 {
   font-size: 12pt;
-  font-family: sans-serif, Helvetica, Arial;
+  font-family: inherit;
   font-weight: 600;
   background: inherit;
   color: black;
@@ -65,26 +65,26 @@ h2 {
 
 a:link {
   background: inherit;
-  font-family: sans-serif, Helvetica, Arial;
+  font-family: inherit;
   color: #b32;
   text-decoration: underline;
 }
 
 a:visited {
   background: inherit;
-  font-family: sans-serif, Helvetica, Arial;
+  font-family: inherit;
   color: #700;
 }
 
 a:hover {
   background: #fb9;
-  font-family: sans-serif, Helvetica, Arial;
+  font-family: inherit;
   color: #a00;
 }
 
 ol, ul, ul.small {
   font-size: 10pt;
-  font-family: sans-serif, Helvetica, Arial;
+  font-family: inherit;
   text-indent: 0px;
   background: inherit;
   color: black;
@@ -92,19 +92,19 @@ ol, ul, ul.small {
 
 ul.big {
   font-size: 12pt;
-  font-family: sans-serif, Helvetica, Arial;
+  font-family: inherit;
   background: inherit;
   color: black;
 }
 
 dl {
   font-size: 10pt;
-  font-family: sans-serif, Helvetica, Arial;
+  font-family: inherit;
 }
 
 dt {
   font-size: 10pt;
-  font-family: sans-serif, Helvetica, Arial;
+  font-family: inherit;
   font-weight: 600;
   background: inherit;
   color: black;
@@ -121,7 +121,7 @@ dt {
 
 dd {
   font-size: 10pt;
-  font-family: sans-serif, Helvetica, Arial;
+  font-family: inherit;
 }
 
 blockquote.center,p.center,td.center,h2.center { text-align: center; }

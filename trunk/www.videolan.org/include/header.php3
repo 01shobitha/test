@@ -119,7 +119,7 @@ function footer($tag) {
     <td align="left">
       <a href="/">VideoLAN</a> &nbsp;-&nbsp;
       See the
-     <a href="http://brahma.via.ecp.fr/videolan/">statistics</a>
+     <a href="http://www.videolan.org/stats">statistics</a>
      &nbsp;-&nbsp; <? echo $tag; ?>
     </td>
     <td align="right" style="white-space: nowrap;">

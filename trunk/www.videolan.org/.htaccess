@@ -16,6 +16,7 @@ RewriteRule ^screenshots(.*)$ /vlc/screenshots$1 [R=permanent,L]
 RewriteRule ^team.html$ /team/index.html [R=permanent,L]
 
 RewriteRule ^lists.html$ /support/lists.html [R=permanent,L]
+RewriteRule ^intro.html$ /streaming/index.html [R=permanent,L]
 RewriteRule ^irc(.*)$ /support/irc$1 [R=permanent,L]
 RewriteRule ^download.html$ /vlc/index.html [R=permanent,L]
 RewriteRule ^vlc/doc.html$ /vlc/index.html [R=permanent,L]
@@ -26,6 +27,9 @@ RewriteRule ^libdvbpsi/download.html$ /vlc/download-unix.html [R=permanent,L]
 RewriteRule ^libdvbpsi/(.*)$ /vlc/index.html [R=permanent,L]
 RewriteRule ^vlms/(.*)$ /streaming/index.html [R=permanent,L]
 RewriteRule ^network/(.*)$ /streaming/index.html [R=permanent,L]
+
+# Vers le site développeurs
+RewriteRule ^/vlc/changelog.html$ http://developers.videolan.org/vlc/ChangeLog [R=permanent,L]
 
 #
 # MIME Types

@@ -2,12 +2,12 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
-|14 August 2003| VLC 0.6.2| This new release of VLC follows the previous
-one very closely because it mainly fixes a regression in VLC 0.6.1
-which made some streams unplayable. VLC 0.6.2 also features an improved
-MPEG TS muxer, proper PTS/DTS generation in the transcoding module,
-support for DVB-S/C/T cards using V4L2 API, DVD menus navigation in
-the wxWindows interface and fixes to the VCD navigation. Look <a
+|14 Aug 2003| Release: VLC 0.6.2| This new release of VLC follows
+the previous one very closely because it mainly fixes a regression in
+VLC 0.6.1 which made some streams unplayable. VLC 0.6.2 also features
+an improved MPEG TS muxer, proper PTS/DTS generation in the transcoding
+module, support for DVB-S/C/T cards using V4L2 API, DVD menus navigation
+in the wxWindows interface and fixes to the VCD navigation. Look <a
 href="http://developers.videolan.org/vlc/NEWS">here</a> for a complete
 list of changes. To download the sources or the binary packages of
 this new version, go to the <a href="http://www.videolan.org/vlc/">VLC

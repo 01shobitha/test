@@ -2,6 +2,11 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+|29-30 Dec 2003| Scheduled downtime| Due to a power audit, major
+disruptions are expected. A rescue line will be set up during the
+downtime, but due to a very narrow bandwidth, only the main website 
+will be (partially) up. Sorry for the inconvenience.
+
 |13 Dec 2003| Release: miniSAPserver 0.2.3| This new release
 fixes an IPv6 bug, adds support for HTTP streams and for the
 SLP announcing protocol. It also uses the recent playlist group

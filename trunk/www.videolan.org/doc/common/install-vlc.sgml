@@ -94,30 +94,20 @@ gnome-vlc (or vlc-gtk) RPMs from this page and all the plugins you want.
 
 <sect2><title>Under Linux Redhat</title>
 
-<para>First, install the packages <emphasis>liba52</emphasis> and
-<emphasis>libmad0</emphasis> that should be packaged in your
-distribution. If they are not, try to find the RPMs on <ulink
-url="http://www.rpmfind.net/linux/RPM/">RPMfind.net</ulink> or search
-the Internet.</para>
+<para>Download the RPM packages from the <ulink
+url="http://www.videolan.org/vlc/download-redhat.html">VLC Red Hat
+download page</ulink> all to the same directory. Only the package
+<emphasis>vlc</emphasis> and the packages listed in <emphasis>required
+librairies</emphasis> will be needed, the rest are just optional.</para>
 
-<para>
-
-Download the RPM packages of <emphasis>libdvdcss2</emphasis>,
-<emphasis>libdvdpsi1</emphasis>, <emphasis>vlc</emphasis>
-<emphasis>gnome-vlc</emphasis>, <emphasis>vlc-plugin-mad</emphasis>, <emphasis>vlc-plugin-ogg</emphasis>, <emphasis>vlc-plugin-a52</emphasis> from the
-<ulink url="http://www.videolan.org/vlc/download-redhat.html">VLC Linux Red Hat
-download page</ulink>.
-
-</para>
-
-<para>
-Then install the RPM packages you have downloaded:
-</para>
+<para>Then install the RPM packages you have downloaded:</para>
 
 <screen>
-<prompt># </prompt><userinput>rpm -Uhv vlc-version.i586.rpm gnome-vlc-version.i586.rpm vlc-plugin-mad-version.i586.rpm
-vlc-plugin-ogg-version.i586.rpm vlc-plugin-a52-version.i586.rpm libdvdcss2-version.i586.rpm libdvdpsi1-version.i586.rpm</userinput>
+<prompt># </prompt><userinput>rpm -U *.rpm</userinput>
 </screen>
+
+<para>If you have not installed all the RPM packages included with your
+distribution, you may be asked to install a few of them first.</para>
 
 </sect2>
 

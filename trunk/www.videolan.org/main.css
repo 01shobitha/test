@@ -189,6 +189,10 @@ th.os {
   font-weight: bold;
   font-size: 1.1em;
 }
+.firstbar:hover {
+  background-color: inherit;
+  color: #ff0;
+}
 .firstbarselected {
   vertical-align: middle;
   text-align: center;

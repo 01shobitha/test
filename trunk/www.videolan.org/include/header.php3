@@ -40,7 +40,7 @@ function starthtml($title) { ?>
 
    switch($modules[1]) {
       case "404.html": case "403.html": break;
-      case "vlc": $color_vlc = "#ffa"; break;
+      case "vlc": $module[1]="vlc"; $color_vlc = "#ffa"; break;
       case "streaming": $color_streaming = "#ffa"; break;
       case "doc": $color_doc = "#ffa"; break;
       case "support": $color_support = "#ffa"; break;
@@ -108,7 +108,7 @@ function get_first_bar_item ( $number , $module , $text , $url , $current_module
   }
   else
   {
-     ?><td class="firstbar"><a href="<? echo $url; ?>"><? echo $text; ?></a></td><?
+     ?><td class="firstbar"><a class="firstbar" href="<? echo $url; ?>"><? echo $text; ?></a></td><?
   }
 }
 

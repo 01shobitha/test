@@ -35,7 +35,6 @@
 	if( strstr($stat[0],$mirror) != FALSE && strstr($stat[1],$file) != FALSE )
 	{
 	    $stat[2]++;
-	    echo $stat[2]."\n";
 	    $done = 1;
 	    $stats_array[$i] = $stat;
 	    break;
@@ -51,8 +50,6 @@
 	array_push( $stat, "1" );
 	array_push( $stats_array,$stat);
     }
-
-    print_r( $stats_array );
 
     /* Save data */
     $file_id = fopen( $sfile, "w");

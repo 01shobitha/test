@@ -2,6 +2,10 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+|11 March 2004| Scheduled downtime| Due to maintainance operations, 
+a network downtime of about one hour will occur this day at about 
+11AM. Sorry for the inconvenience.
+
 |7 March 2004| VideoLAN Wiki back | After a long time down, the VideoLAN
 wiki (ie, a website that everyone can change) is back up, at
 <a href="http://wiki.videolan.org">http://wiki.videolan.org</a>. Its

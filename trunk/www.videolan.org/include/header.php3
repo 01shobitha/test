@@ -52,8 +52,6 @@ function starthtml($title) { ?>
 
 <tr>
 
-<td><img src="/images/cone-soppera1.png" alt="VideoLAN logo" /></td>
-
 <td>
 
 <table width="100%" cellspacing="3" cellpadding="0">
@@ -66,6 +64,22 @@ function starthtml($title) { ?>
     <td style="background-color: #afa; width: 17%; vertical-align: middle;" align="center"><a href="http://developers.videolan.org/">Developers</a></td>
 </tr>
 </table>
+</td>
+
+
+    <td style="white-space: nowrap;">
+      <select name="mirror">
+        <!-- current: $GLOBALS['HTTP_HOST'] -->
+        <option value="www.videolan.org">Châtenay, France (main)</option>
+        <option value="www.fr.videolan.org">Paris, France</option>
+      </select><input type="submit" value="Select Mirror" />
+    </td>
+
+
+</tr>
+
+<tr>
+<td>
 
 <table width="100%" cellspacing="3" cellpadding="0">
 <tr>
@@ -83,17 +97,9 @@ function starthtml($title) { ?>
 </table>
 
 </td>
-
-
-    <td style="white-space: nowrap;">
-      <select name="mirror">
-        <!-- current: $GLOBALS['HTTP_HOST'] -->
-        <option value="www.videolan.org">Châtenay, France (main)</option>
-        <option value="www.fr.videolan.org">Paris, France</option>
-      </select><input type="submit" value="Select Mirror" />
-    </td>
-
+<td></td>
 </tr>
+
 </table>
 
 </form>

@@ -38,7 +38,7 @@ function starthtml($title) { ?>
       case "streaming": break;
       case "doc": break;
       case "support": break;
-      default: $modules[1]="home"; break;
+      default: $modules[2]=$modules[1]; $modules[1]="home"; break;
    }
 
 ?>
@@ -71,7 +71,7 @@ function starthtml($title) { ?>
       case "streaming": second_bar_stream($modules[2]); break;
       case "doc": break;
       case "support": second_bar_support($modules[2]); break;
-      case "home": second_bar_home($modules[1]); break;
+      case "home": second_bar_home($modules[2]); break;
     } ?>
   </tr>
   </table>

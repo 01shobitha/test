@@ -7,7 +7,8 @@ about to make its very first T-shirts in world history ! Unfortunately,
 we lack any good design proposal. Hence, we'd like to ask all of our
 users with some drawing skills to come up with design proposals. The
 winning design will of course be used on millions of T-shirts ! (and the
-author might even get one for free ...)
+author might even get one for free ...)<br />
+<a href="http://wiki.videolan.org/index.php/T-Shirt_Design_Contest">Some more info here</a>
 
 |1-3 Feb 2005| VideoLAN at Solutions Linux Paris | VideoLAN will have
 a booth at <a href="http://www.solutionslinux.fr/en/">Solutions Linux

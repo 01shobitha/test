@@ -50,13 +50,11 @@ a simple script with the following syntax :</p>
     fading effect if selected.</td>
   </tr>
   <tr>
-    <td class="skins-att" rowspan="2">VLC_HIDE</td>
+    <td class="skins-att">VLC_HIDE</td>
     <td class="skins-att">Close all windows of the interface with a 
-    fading effect if selected.</td>
-  </tr>
-  <tr>
-    <td class="skins-att">An EVENT to execute when all windows have been closed.
-    </td>
+    fading effect if selected.
+    <ol class="skins-att"><li>An EVENT to execute when all windows have been
+    closed.</li></ol></td>
   </tr>
   <tr>
     <td class="skins-att">VLC_QUIT</td>
@@ -123,18 +121,14 @@ a simple script with the following syntax :</p>
     <td class="skins-att">Not supported yet.</td>
   </tr>
   <tr>
-    <td class="skins-att" rowspan="3">VLC_VOLUME_CHANGE</td>
-    <td class="skins-att">Change sound volume.</td>
-  </tr>
-  <tr>
-    <td class="skins-att">VLC_VOLUME_MUTE: switch to mute mode.<br/>
-        VLC_VOLUME_UP: raise sounds volume.<br/>
-        VLC_VOLUME_DOWN:<br/>
-        VLC_VOLUME_SET: set sound volume to second parameter.</td>
-  </tr>
-  <tr>
-    <td class="skins-att">If first parameter is VLC_VOLUME_SET only, an integer 
-    between 0 and 100.</td>
+    <td class="skins-att">VLC_VOLUME_CHANGE</td>
+    <td class="skins-att">Change sound volume.
+    <ol class="skins-att"><li>VLC_VOLUME_MUTE: switch to mute mode.<br/>
+    VLC_VOLUME_UP: raise sounds volume.<br/>
+    VLC_VOLUME_DOWN:<br/>
+    VLC_VOLUME_SET: set sound volume to second parameter.</li>
+    <li>If first parameter is VLC_VOLUME_SET only, an integer 
+    between 0 and 100.</li></ol></td>
   </tr>
   <tr>
     <td class="skins-att">VLC_PLAYLIST_ADD_FILE</td>
@@ -142,38 +136,28 @@ a simple script with the following syntax :</p>
     files to playlist.</td>
   </tr>
   <tr>
-    <td class="skins-att" rowspan="2">VLC_WINDOW_MOVE</td>
-    <td class="skins-att">Initiate manual window movement.</td>
+    <td class="skins-att">VLC_WINDOW_MOVE</td>
+    <td class="skins-att">Initiate manual window movement.
+    <ol class="skins-att"><li>Must match the ID of a window. It should be used
+    with image controls.</li></ol></td>
   </tr>
   <tr>
-    <td class="skins-att">Must match the ID of a window. It should be used with 
-    image controls.</td>
-  </tr>
-  <tr>
-    <td class="skins-att" rowspan="3">VLC_WINDOW_OPEN</td>
+    <td class="skins-att">VLC_WINDOW_OPEN</td>
     <td class="skins-att">Open a window with a fading effect if
-    selected.</td>
-  </tr>
-  <tr>
-    <td class="skins-att">ID of the window to open.</td>
-  </tr>
-  <tr>
-    <td class="skins-att">Describe what to do. Nothing is opening. 'TRUE' is the
+    selected.
+    <ol class="skins-att"><li>ID of the window to open.</li>
+    <li>Describe what to do. Nothing is opening. 'TRUE' is the
     same. 'FALSE' is closing window. 'CHANGE' is switching between this to
-    state.</td>
+    state.</li></ol></td>
   </tr>
   <tr>
-    <td class="skins-att" rowspan="3">VLC_WINDOW_CLOSE</td>
+    <td class="skins-att">VLC_WINDOW_CLOSE</td>
     <td class="skins-att">Close a window with a fading effect if
-    selected.</td>
-  </tr>
-  <tr>
-    <td class="skins-att">ID of the window to close.</td>
-  </tr>
-  <tr>
-    <td class="skins-att">Describe what to do. Nothing is closing. 'TRUE' is the
+    selected.
+    <ol class="skins-att"><li>ID of the window to close.</li>
+    <li>Describe what to do. Nothing is closing. 'TRUE' is the
     same. 'FALSE' is opening window. 'CHANGE' is switching between this to 
-    state.</td>
+    state.</li></ol></td>
   </tr>
   <tr>
     <td class="skins-att">CTRL_SET_SLIDER</td>
@@ -184,40 +168,28 @@ a simple script with the following syntax :</p>
     <td class="skins-att">Not supported yet.</td>
   </tr>
   <tr>
-    <td class="skins-att" rowspan="3">CTRL_ID_VISIBLE</td>
-    <td class="skins-att">Hide/show a control.</td>
-  </tr>
-  <tr>
-    <td class="skins-att">ID of the control to hide/show.</td>
-  </tr>
-  <tr>
-    <td class="skins-att">Describe what to do. Nothing is showing control. 
+    <td class="skins-att">CTRL_ID_VISIBLE</td>
+    <td class="skins-att">Hide/show a control.
+    <ol class="skins-att"><li>ID of the control to hide/show.</li>
+    <li>Describe what to do. Nothing is showing control. 
     'TRUE' is the same. 'FALSE' is hiding control. 'CHANGE' is switching between
-    this to state.</td>
+    this to state.</li></ol></td>
   </tr>
   <tr>
     <td class="skins-att">CTRL_ID_ENABLED</td>
     <td class="skins-att">Not supported yet.</td>
   </tr>
   <tr>
-    <td class="skins-att" rowspan="4">CTRL_ID_MOVE</td>
-    <td class="skins-att">Moves a control.</td>
+    <td class="skins-att">CTRL_ID_MOVE</td>
+    <td class="skins-att">Moves a control.
+    <ol class="skins-att"><li>ID of the control to move.</li>
+    <li>Horizontal offset of movement.</li>
+    <li>Vertical offset of movement.</li></ol></td>
   </tr>
   <tr>
-    <td class="skins-att">ID of the control to move.</td>
-  </tr>
-  <tr>
-    <td class="skins-att">Horizontal offset of movement.</td>
-  </tr>
-  <tr>
-    <td class="skins-att">Vertical offset of movement.</td>
-  </tr>
-  <tr>
-    <td class="skins-att" rowspan="2">PLAYLIST_ID_DEL</td>
-    <td class="skins-att">Remove items from playlist.</td>
-  </tr>
-  <tr>
-    <td class="skins-att">ID of the playlist.</td>
+    <td class="skins-att">PLAYLIST_ID_DEL</td>
+    <td class="skins-att">Remove items from playlist.
+    <ol class="skins-att"><li>ID of the playlist.</li></ol></td>
   </tr>
 </table>
 
@@ -325,4 +297,4 @@ and shortcut.</p>
   </tr>
 </table>
 
-<? footer('$Id: skins-event.html,v 1.1 2003/04/10 21:19:16 karibu Exp $'); ?>
+<? footer('$Id: skins-event.html,v 1.2 2003/04/10 21:47:24 karibu Exp $'); ?>

@@ -16,6 +16,7 @@
 <span xml:lang="es">el proyecto VideoLAN</span>
 <span xml:lang="fr">le projet VideoLAN</span>
 <span xml:lang="de">the VideoLAN project</span>
+<span xml:lang="it">il progetto VideoLAN</span>
 
 </holder>
 </copyright>
@@ -28,6 +29,7 @@
 <span xml:lang="es">Preguntas Más Frecuentes sobre VideoLAN.</span>
 <span xml:lang="fr">Questions Fréquentes à propos de VideoLAN.</span>
 <span xml:lang="de">Oft gestellte Fragen über VideoLAN.</span>
+<span xml:lang="it">Le domande ricorrenti (FAQ) su VideoLAN.</span>
 
 </para>
 
@@ -50,6 +52,7 @@
 <span xml:lang="es">¿Dónde puedo descargar VLC para Mac OS 9?</span>
 <span xml:lang="fr">Où puis-je télécharger VLC pour MacOS 9 ?</span>
 <span xml:lang="de">Wo kann ich VLC für Mac OS 9 herunterladen?</span>
+<span xml:lang="it">Dove posso scaricare VLC per Mac OS 9?</span>
 
 </para></question>
 
@@ -70,6 +73,8 @@ n'y a pas, et n'y aura jamais de version pour MacOS 9.</span>
 gibt? Es gibt derzeit keine Version und wird wahrscheinlich nie eine
 geben.</span>
 
+<span xml:lang="it">Dov'è che avete letto che esiste un VLC per Mac OS 9? Non esiste, né mai esisterà, una versione per Mac OS 9.</span>
+
 </para>
 
 </answer></qandaentry>
@@ -81,6 +86,7 @@ geben.</span>
 <span xml:lang="es">¿VLC soporta DVDs de todas las regiones?</span>
 <span xml:lang="fr">Est-ce que VLC supporte les DVD de toutes les régions ?</span>
 <span xml:lang="de">Unterstützt VLC DVDs aus allen Regionen?</span>
+<span xml:lang="it">VLC supporta i DVD di tutte le zone?</span>
 
 </para></question>
 
@@ -104,6 +110,10 @@ sont donc supportées sans aucune contrainte.</span>
 DVDs zu lesen, wobei die Zone ignoriert wird. Alle Regionen werden ohne
 Einschränkung unterstützt.</span>
 
+<span xml:lang="it">VLC utilizza la <emphasis>libdvdcss</emphasis> per
+leggere tutti i DVD, indipendentemente dalla zona. Tutte le zone sono
+quindi supportate, senza vincoli.</span>
+
 </para>
 
 </answer></qandaentry>
@@ -115,6 +125,7 @@ Einschränkung unterstützt.</span>
 <span xml:lang="es">¿Dónde guarda VLC su archivo de configuración?</span>
 <span xml:lang="fr">Où VLC sauvegarde-t-il son fichier de configuration ?</span>
 <span xml:lang="de">Wo speichert VLC seine Voreinstellungsdatei?</span>
+<span xml:lang="it">Dove si trova il file di configurazione di VLC?</span>
 
 </para></question>
 
@@ -149,6 +160,12 @@ in VLC ändern und die neue Konfiguration speichern wird eine neue
 Voreinstellungsdatei im Ihrem Benutzerordner erstellt. Der genaue Ort
 hängt von dem Betriebssystem ab, das Sie benutzen:</span>
 
+<span xml:lang="it">Attualmente, un file di configurazione viene
+creato per ogni utilizzatore (non esiste un file globale). Quando le
+opzioni disponibili vengono modificate e salvate, VLC crea un file di
+configurazione nella directory personale dell'utilizzatore. Lindirizzo
+esatto del file dipende dal sistema operativo in uso:</span>
+
 </para>
 
 <itemizedlist>
@@ -180,6 +197,7 @@ Data\vlc\vlcrc</filename></para></listitem>
 <span xml:lang="es">VLC se comporta raro...</span>
 <span xml:lang="fr">VLC a un comportement étrange...</span>
 <span xml:lang="de">VLC hat ein merkwürdiges Verhalten...</span>
+<span xml:lang="it">VLC si comporta in modo strano...</span>
 
 </para></question>
 
@@ -207,6 +225,11 @@ VLC löschen (siehe vorherige Frage, um den Ort zu erfahren). Starten
 Sie dann VLC neu. Falls es nicht besser wird, lesen Sie die folgenden
 Fragen!</span>
 
+<span xml:lang="it">La prima cosa da fare è cancellare il file di
+configurazione di VLC (vedi domanda precedente per trovarlo) e
+riavviare VLC; se non ci sono miglioramenti, leggere le domande che
+seguono!</span>
+
 </para>
 
 </answer></qandaentry>
@@ -218,6 +241,7 @@ Fragen!</span>
 <span xml:lang="es">¡ No puedo ver DVDs !</span>
 <span xml:lang="fr">Je ne peux pas lire les DVD !</span>
 <span xml:lang="de">Ich kann keine DVDs. lesen.. !</span>
+<span xml:lang="it">Non riesco a leggere i DVD!</span>
 
 </para></question>
 
@@ -229,6 +253,7 @@ Fragen!</span>
 <span xml:lang="es">Aquí hay un par de cosillas que ver:</span>
 <span xml:lang="fr">Vérifiez ces quelques points :</span>
 <span xml:lang="de">Hier sind einige wenige Sachen zum Überprüfen:</span>
+<span xml:lang="it">Verifica innanzitutto quanto segue:</span>
 
 </para>
 
@@ -248,6 +273,8 @@ package?</span>
 <span xml:lang="de">Haben Sie das <emphasis>libdvdcss</emphasis>-Paket
 installiert?</span>
 
+<span xml:lang="it">Hai installato il package <emphasis>libdvdcss</emphasis>?</span>
+
 </para></listitem>
 
 <listitem><para>
@@ -263,6 +290,9 @@ DVD ? Par exemple, sous Unix :</span>
 
 <span xml:lang="de">Haben Sie Schreibzugriff auf Ihr DVD-Device? Zum
 Beispiel unter Unix:</span>
+
+<span xml:lang="it">Hai accesso in scrittura al lettore DVD? Per
+esempio, sotto Unix:</span>
 
 </para>
 
@@ -284,6 +314,9 @@ correspondant à votre lecteur DVD.</span>
 <span xml:lang="de"><filename>/dev/dvd</filename> ist das Device für Ihr
 DVD-Laufwerk.</span>
 
+<span xml:lang="it">dove <filename>/dev/dvd</filename> è il device
+corrispondente al lettore DVD.</span>
+
 </para>
 
 </listitem>
@@ -299,6 +332,7 @@ DVD-Laufwerk.</span>
 <span xml:lang="es">El vídeo se ve pero la imagen está distorsionada.</span>
 <span xml:lang="fr">La vidéo démarre mais l'image est déformée.</span>
 <span xml:lang="de">Das Video läuft, aber das Bild ist verzerrt.</span>
+<span xml:lang="it">L'immagine video appare, ma è distorta.</span>
 
 </para></question>
 
@@ -323,6 +357,10 @@ Premièrement, essayez avec un autre module de sortie vidéo, par exemple
 <span xml:lang="de">Es gibt wahrscheinlich ein Problem mit dem
 Ausgabe-Layer. Es gibt mehrere Behebungsmöglichkeiten. Zuerst probieren
 Sie ein anderes Ausgabe-Plugin, Zum Beispiel:</span>
+
+<span xml:lang="it">Si tratta probabilmente di un problema con il modulo
+di uscita video (output layer). Ci sono diverse soluzioni. Innanzitutto,
+prova un altro modulo di output:</span>
 
 </para>
 
@@ -349,6 +387,10 @@ sous Unix, jetez un oeil sur votre pilote vidéo XFree86.</span>
 Dies hilft oft. Falls Sie Unix benutzen, überprüfen Sie letztlich Ihren
 XFree86 Video-Treiber.</span>
 
+<span xml:lang="it">Secondo, cambia la profondità o la risoluzione dello
+schermo, spesso serve. Alla fine, se in ambiente Unix, controlla il
+driver video XFree86.</span>
+
 </para>
 
 </answer></qandaentry>
@@ -360,6 +402,7 @@ XFree86 Video-Treiber.</span>
 <span xml:lang="es">El vídeo se ve entrecortado.</span>
 <span xml:lang="fr">La vidéo est saccadée.</span>
 <span xml:lang="de">Das Bild ruckelt.</span>
+<span xml lang="it">L'immagine non è fluida.</span>
 
 </para></question>
 
@@ -390,6 +433,12 @@ Es kann auch sein, dass das Subsystem schlecht konfiguriert ist. Dies
 passiert zum Beispiel unter RedHat Linux. Hier sind einige Elemente, um
 die Geschwindigkeit zu verbessern:</span>
 
+<span xml:lang="it">Il tuo sistema è troppo lento per decodificare tutte
+le immagini. Forse il processore non è abbastanza rapido, semplicemente.
+Oppure il sistema è mal configurato o non aggiornato, per esempio
+capita con RedHat Linux. Ecco qualche consiglio per migliorare la
+velocità:</span>
+
 </para>
 
 <itemizedlist>
@@ -400,6 +449,7 @@ die Geschwindigkeit zu verbessern:</span>
 <span xml:lang="es">Activa DMA en tu aparato DVD, por ejemplo :</span>
 <span xml:lang="fr">Activez le DMA pour votre lecteur de DVD, par exemple :</span>
 <span xml:lang="de">Aktivieren Sie DMA an Ihrem DVD-Laufwerk, zum Beispiel:</span>
+<span xml:lang="it">Attiva DMA sul tuo lettore DVD, per esempio:</span>
 
 </para>
 
@@ -411,6 +461,7 @@ die Geschwindigkeit zu verbessern:</span>
 <span xml:lang="es">Bajo Linux :</span>
 <span xml:lang="fr">Sous Linux :</span>
 <span xml:lang="de">unter Linux:</span>
+<span xml:lang="it">Sotto Linux:</span>
 
 </para>
 
@@ -452,6 +503,14 @@ separater Reiter und manchmal müssen und manchmal müssen Sie den
 auf Ihren DVD-Player und aktivieren Sie die <emphasis>DMA</emphasis>
 Box.</span>
 
+<span xml:lang="it">Sotto Windows, vai nella sezione
+<emphasis>Sistema</emphasis> del <emphasis>Pannello di
+Controllo</emphasis>, apri la <emphasis>Gestione delle
+Periferiche</emphasis> (si trova talvolta in un'altra sezione,
+oppure nella sezione <emphasis>Opzioni avanzate</emphasis>).
+Dopodiché clicca due volte sul lettore DVD e attiva l'opzione
+<emphasis>DMA</emphasis>.</span>
+
 </para></listitem>
 
 </itemizedlist>
@@ -463,6 +522,7 @@ Box.</span>
 <span xml:lang="es">Actualiza el controlador de tu tarjeta de vídeo.</span>
 <span xml:lang="fr">Mettez à jour le pilote de votre carte graphique.</span>
 <span xml:lang="de">Aktualisieren Ihren Grafikkarten-Treiber.</span>
+<span xml:lang="it">Aggiornate i diver della scheda video alla versione più recente.</span>
 
 </para>
 
@@ -484,6 +544,10 @@ vérifiez que le plug-in xvideo est utilisé avec :</span>
 XFree86 Version aktualisieren; wenn unterstützt, überprüfen Sie, ob das
 xvideo PlugIn effektiv benutzt wird:</span>
 
+<span xml:lang="it">Se usi Linux, puoi anche provare ad aggiornare
+XFree86; se stai usando la versione più recente, verifica che il plug-in
+xvideo è in uso, con:</span>
+
 </para>
 
 <screen><prompt>% </prompt><userinput>vlc -vvvv</userinput></screen>
@@ -496,6 +560,7 @@ xvideo PlugIn effektiv benutzt wird:</span>
 <span xml:lang="es">Para otras aplicaciones ejecutándose en segundo plano...</span>
 <span xml:lang="fr">Arrêtez les autres programmes en marche...</span>
 <span xml:lang="de">Beenden Sie andere Programme...</span>
+<span xml:lang="it">Chiudi gli altri programmi eseguiti in background...</span>
 
 </para></listitem>
 
@@ -510,6 +575,7 @@ xvideo PlugIn effektiv benutzt wird:</span>
 <span xml:lang="es">El audio y el vídeo no están sincronizados.</span>
 <span xml:lang="fr">La vidéo et le son ne sont pas synchronisés.</span>
 <span xml:lang="de">Bild und Ton sind nicht synchron</span>
+<span xml:lang="it">Audio e video non sono sincronizzati</span>
 
 </para></question>
 
@@ -532,6 +598,10 @@ sortie audio et, sous Unix, arrêtez <emphasis>esd</emphasis> ou
 <span xml:lang="de">Versuchen Sie ein anderes Tonausgabe-Plugin oder
 beenden Sie unter Unix esd oder artsd, falls sie laufen.</span>
 
+<span xml:lang="it">Prova ad utilizzare un altro modulo di output e,
+sotto Unix, chiudi <emphasis>esd</emphasis> o <emphasis>artsd</emphasis>
+se sono in esecuzione.</span>
+
 </para>
 
 </answer></qandaentry>
@@ -543,6 +613,7 @@ beenden Sie unter Unix esd oder artsd, falls sie laufen.</span>
 <span xml:lang="es">VLC se cuelga.</span>
 <span xml:lang="fr">VLC plante.</span>
 <span xml:lang="de">VLC stürzt ab.</span>
+<span xml:lang="it">VLC pianta.</span>
 
 </para></question>
 
@@ -570,6 +641,11 @@ in den Voreinstellungen oder mit der <command>-vvvv</command>
 Befehlszeilensteuerungsoption) und schauen Sie auf die Debug-Nachrichten
 (im Terminal oder im Nachrichten-Fenster).</span>
 
+<span xml:lang="it">Aumenta il livello di verbosità (tra le preferenze,
+oppure utilizzando l'opzione <command>-vvvv</command> in linea di
+comando) e controlla i messaggi di debug (in console o nella finestra
+Messaggi).</span>
+
 </para>
 
 <para>
@@ -594,6 +670,11 @@ es ein Fehler in VLC ist, schauen Sie auf <ulink
 url="http://www.videolan.org/support/bug-reporting.html">Fehler-Meldungs
 seite</ulink>.</span>
 
+<span xml:lang="it">Se sei convinto che si tratta
+di un bug di VLC, dai una occhiata alla <ulink
+url="http://www.videolan.org/support/bug-reporting.html">pagina di
+segnalazione dei bug</ulink>.</span>
+
 </para>
 
 </answer></qandaentry>
@@ -604,6 +685,7 @@ seite</ulink>.</span>
 <span xml:lang="es">¿ Cómo capturo pantallas ?</span>
 <span xml:lang="fr">Comment puis-je faire des captures d'écran ?</span>
 <span xml:lang="de">Wie kann ich Bildschirmfotos machen?</span>
+<span xml:lang="it">Come si fanno gli screenshot?</span>
 
 </para></question>
 
@@ -623,6 +705,9 @@ par VLC :</span>
 <span xml:lang="de">Um normale Bildschirmfotos des von VLC abgespielten
 Videos zu machen:</span>
 
+<span xml:lang="it">Per fare uno screenshot dell'immagine video di
+VLC:</span>
+
 </para>
 
 <itemizedlist>
@@ -641,6 +726,8 @@ x11</command> a la línea de comandos ;</span>
 <span xml:lang="de">unter XFree fügen Sie die <command>--vout
 x11</command> Option in der Befehlszeile hinzu;</span>
 
+<span xml:lang="de">Sotto XFree aggiungi l'opzione <command>--vout
+x11</command> alla linea di comando.</span>
 </para></listitem>
 
 <listitem><para>
@@ -657,6 +744,9 @@ option to the command line.</span>
 <span xml:lang="de">unter Windows fügen Sie die
 <command>--nooverlay</command> Option in der DOS-Eingabeaufforderung
 hinzu.</span>
+
+<span xml:lang="it">Sotto Windows, usa l'opzione <command>--nooverlay
+</command> in linea di comando.</span>
 
 </para></listitem>
 
@@ -675,6 +765,7 @@ hinzu.</span>
 <span xml:lang="es">VideoLAN solución de volcado (streaming)</span>
 <span xml:lang="fr">Solutions de streaming VideoLAN</span>
 <span xml:lang="de">VideoLAN Streaming-Lösung</span>
+<span xml:lang="it">Soluzioni di streaming VideoLAN</span>
 
 </title>
 
@@ -735,6 +826,7 @@ possible, so you will probably get only the audio track and no video.
 <span xml:lang="es">VLC contra VLS</span>
 <span xml:lang="fr">VLC vs. VLS</span>
 <span xml:lang="de">VLC vs. VLS</span>
+<span xml:lang="it">VLC contro VLS</span>
 
 </para></question>
 
@@ -774,6 +866,13 @@ url="http://www.videolan.org/streaming/features.html">streaming
 features</ulink> - Seite beschrieben. (Beide Seiten sind auf
 Englisch.)</span>
 
+<span xml:lang="it">Si, tutti e due i programmi possono essere
+utilizzati per lo streaming video, come spiegato nel <ulink
+url="http://www.videolan.org/doc/">VideoLAN HOWTO</ulink>. Le
+caratteristiche di streaming di ciascun programma sono illustrate nella
+<ulink url="http://www.videolan.org/streaming/features.html">pagina
+delle caratteristiche di streaming</ulink>.</span>
+
 </para>
 
 <para>
@@ -782,6 +881,7 @@ Englisch.)</span>
 <span xml:lang="es">Básicamente, por el momento :</span>
 <span xml:lang="fr">Techniquement, il y a une différence importante:</span>
 <span xml:lang="de">Grundlegendes für den Moment:</span>
+<span xml:lang="it">Tecnicamente, c'è una importante differenza:</span>
 
 </para>
 
@@ -818,6 +918,16 @@ unterschiedlichen Verkapslungsmethoden (mpg, vob, mp3, avi, mov, ogg,
 mp4...) zu streamen. Es hat eine schöne graphische Oberfläche und hat
 einfache Umkodierungsmöglichkeiten.</span>
 
+<span xml:lang="it">VLC apre tutti i layer di sistema del flusso in
+entrata, li rigenera tutti e poi ritrasmette il risultato in rete oppure
+lo scrive in un file. Per cui VLC è adatto a trasmettere delle sorgenti
+audio e/o video poco affidabili, come i file video trovati su Internet
+o prodotti da software non professionali. VLC implementa numerosi
+muxers/demuxers (ps, ts, avi, ogg, mp4...) e numerosi codecs, cosa
+che permette di convertire i formati o anche fare transcoding diretto
+dello stream in ingresso. VLC ha anche delle gradevoli interfacce
+grafiche.</span>
+
 </para></listitem>
 
 <listitem><para>
@@ -849,6 +959,16 @@ transcoding et n'a pas d'interface graphique.</span>
 <span xml:lang="de">VLS ist gut darin DVDs, Satelliten-Kanäle und
 digitale, terrestische TV-Kanäle zu streamen, unterstützt jedoch keine
 Umkodierungen.</span>
+
+<span xml:lang="it">VLS apre soltanto i layer più alti dello stream
+in ingresso e dispone soltanto di demuxer PS e TS, per cui è adatto a
+diffondere video e/o audio affidabili in formato PS o TS, prodotti da
+hardware o software professionali come i DVD o i canali DVB (satellite
+e televisione digitale via etere). VLS si limita a rigenerare i layer
+di sistema strettamente necessari, e nient'altro. VLS è specialmente
+concepito per la diffusione di stream TS multiplexati, per esempio un
+transponder satellite DVB intero. VLS ha solo un muxer TS, non transcoda
+e non ha interfaccia grafica.</span>
 
 </para></listitem>
 
@@ -882,6 +1002,13 @@ Einige VLC Entwickler arbeiten an einer neuen Version des VLC-Input,
 bekannt unter dem Namen "Input 4", welche dieses Problem beheben
 wird.</span>
 
+<span xml:lang="it">Per essere un vero server di streaming, VLC dovrebbe
+essere in grado di leggere più di una sorgente input alla volta. VLS
+sa farlo fin dall'inizio del suo sviluppo, VLC per il momento no.
+Alcuni sviluppatori di VLC stanno lavorando ad una nuova versione
+dell'input di VLC, nota come "Input 4", che dovrebbe eliminare questa
+limitazione.</span>
+
 </para>
 
 </answer></qandaentry>
@@ -894,6 +1021,7 @@ wird.</span>
 <span xml:lang="es">¿ No es una pérdida de tiempo desarrollar ambos ?</span>
 <span xml:lang="fr">N'est-ce pas une perte de temps de développer les deux ?</span>
 <span xml:lang="de">Ist es nicht Zeitverschwendung, beide zu entwickeln?</span>
+<span xml:lang="it">Sviluppare entrambi i programmi non è una perdita di tempo.</span>
 
 </para></question>
 
@@ -917,6 +1045,10 @@ nous avions deux programmes très différents :</span>
 Geschichte von VideoLAN berücksichtigen. Bevor VLC die Stream-Ausgabe
 unterstützte, hatten wir zwei sehr unterschiedliche Programme:</span>
 
+<span xml:lang="it">Per capire questa situazione, bisogna considerare
+la storia di VideoLAN. Prima dello stream output di VLC, c'erano due
+programmi molto diversi tra loro:</span>
+
 </para>
 
 <itemizedlist>
@@ -939,6 +1071,10 @@ streaming, avec une interface très basique utilisant Telnet.</span>
 geschrieben in C++, welches hauptsächlich eine MPEG-Streaming-Engine mit
 einer einfachen Telnet-Oberfläche ist.</span>
 
+<span xml:lang="it">VLS, un programma scritto in C++ per Linux e
+Windows, nient'altro che un motore di streaming MPEG TS, con una
+ridottissima interfaccia telnet, utilizzato come server.</span>
+
 </para></listitem>
 
 <listitem><para>
@@ -958,6 +1094,10 @@ interfaces graphiques.</span>
 <span xml:lang="de">VLC, ein Programm, das auf vielen Plattformen läuft,
 geschrieben in C, das Demuxer, Codecs, Ton- und Bildausgabe unterstützt
 und eine graphische Oberfläche hat.</span>
+
+<span xml:lang="it">VLC, un programma multipiattaforma scritto in C, che
+implementa demuxers, codecs, output audio e video, interfacce grafiche,
+usato solo come client.</span>
 
 </para></listitem>
 
@@ -983,7 +1123,7 @@ algo de transcodificación.</span>
 <span xml:lang="fr">En Septembre 2002, certains développeurs de VLC
 ont eu l'idée de tirer partie des multiples codecs intégrés à VLC
 afin de créer un Module de Streaming dont le but était de permettre
-le transcoding. Ils ont donc écrits ce module pour VLC, qui sortit en
+le transcoding. Ils ont donc écrit ce module pour VLC, qui sortit en
 Janvier 2003 avec VLC 0.5.0.</span>
 
 <span xml:lang="de">Im September 2002 hatten einige VLC Entwickler
@@ -992,6 +1132,13 @@ Stream-Ausgabe zu realisieren, die als finales Ziel auch Umkodierungen
 unterstützen soll. Sie schrieben eine Stream-Ausgabe für VLC, die Ende
 Januar 2003 mit VLC 0.5.0 veröffentlicht wurde. VLC's Stream-Ausgabe
 fängt jetzt an, auch Umkodierungen zu unterstützen.</span>
+
+<span xml:lang="it">In Settembre 2002 alcuni sviluppatori di VLC ebbero
+l'idea di sfruttare i codecs integrati a VLC per creare un modulo di
+streaming il cui scopo era in origine il transcoding. Il modulo di
+stream output per VLC fu scritto e pubblicato con la release 0.5.0
+nel gennaio del 2003. Stream Output comincia adesso a fare un po' di
+transcoding.</span>
 
 </para>
 
@@ -1021,6 +1168,11 @@ die Software entwickeln, die sie vorziehen! So läuft nunmal freie
 Software-Entwicklung und es hat sich in der Vergangenheit gezeigt, dass
 dies ein guter Antrieb für Innovationen und Erweiterungen ist.</span>
 
+<span xml:lang="it">Ma la cosa più importante è che gli sviluppatori di
+VLS e VLC non sono gli stessi, e che sono liberi di scrivere il software
+che preferiscono! Il software libero funziona cosi', e ha mostrato in
+passato che è un ottimo motore per l'innovazione.</span>
+
 </para>
 
 </answer></qandaentry>
@@ -1034,6 +1186,7 @@ dies ein guter Antrieb für Innovationen und Erweiterungen ist.</span>
 <span xml:lang="es">Cuestiones legales</span>
 <span xml:lang="fr">Questions juridiques</span>
 <span xml:lang="de">Rechtliche Belange</span>
+<span xml:lang="it">Questioni giuridiche</span>
 
 </title>
 
@@ -1043,6 +1196,7 @@ dies ein guter Antrieb für Innovationen und Erweiterungen ist.</span>
 <span xml:lang="es">¿ Puedo usar el logo de VideoLAN ?</span>
 <span xml:lang="fr">Puis-je utiliser le logo VideoLAN ?</span>
 <span xml:lang="de">Darf ich das VideoLAN-Logo benutzen?</span>
+<span xml:lang="it">Posso usare il logo di VideoLAN?</span>
 
 </para></question>
 
@@ -1061,6 +1215,9 @@ suivant le copyright suivant :</span>
 
 <span xml:lang="de">Sie können das Logo benutzen, wenn Sie das folgende
 Copyright benutzen:</span>
+
+<span xml:lang="it">Puoi usare liberamente il logo di VideoLAN,
+utilizzando il copyright seguente:</span>
 
 </para>
 
@@ -1094,6 +1251,13 @@ Copyright benutzen:</span>
    endorsement by the project.
 </span>
 
+<span xml:lang="it">
+   Copyright (c) 1996-2003 VideoLAN. Questo logo o una sua versione
+   modificata possono essere utilizzati o modificati da chiunque si
+   riferisca al progetto VideoLAN o ai prodotti sviluppati dal team
+   VideoLAN, ma non indica implicazione da parte del progetto.
+</span>
+
 </emphasis></para>
 
 </answer></qandaentry>
@@ -1104,6 +1268,7 @@ Copyright benutzen:</span>
 <span xml:lang="es">¿ Puedo redistribuir un programa VideoLAN ?</span>
 <span xml:lang="fr">Puis-je redistribuer un logiciel de VideoLAN ?</span>
 <span xml:lang="de">Darf ich die VideoLAN-Software weitergeben?</span>
+<span xml:lang="it">Posso distribuire un programma VideoLAN?</span>
 
 </para></question>
 
@@ -1165,6 +1330,20 @@ distribuieren, sollten Sie auch alle Dateien einschließen, die auf der
 <ulink url="http://www.videolan.org/vlc/download-sources.html">VLC
 source code page</ulink> aufgelistet sind.</span>
 
+<span xml:lang="it">Puoi distribuire la versione originale o una
+versione modificata di un software VideoLAN se e solo se rispetti le
+clausole della sua licenza. Questa licenza à la GNU General Public
+License Version 2 (nel seguito: "GPL"), che puoi trovare nel file
+COPYING dei nostri prodotti. Il modo più semplice per essere conformi
+alla licenza GPL è di distribuire il prodotto insieme al suo codice
+sorgente. Per esempio, se vuoi distribuire i più recenti eseguibili
+di VLC, devi includere anche tutti i file elencati nella <ulink
+url="http://www.videolan.org/vlc/download-sources.html">pagina del
+codice sorgente di VLC</ulink>. Non sei tenuto a spiegare da dove i
+sorgenti vengano, ma devono essere esattamente quelli dell'eseguibile
+distribuito. Ci sono altri modi di adeguarsi alla GPL, ma questo è il
+più semplice poiché non richiede un contratto scritto.</span>
+
 </para>
 
 <note><para>
@@ -1181,6 +1360,9 @@ l'équipe VideoLAN pour faire cela !</span>
 <span xml:lang="de">Sie müssen das VideoLAN-Team nicht nach einer
 Erlaubnis fragen, um das zu tun!</span>
 
+<span xml:lang="it">Non devi nemmeno chiedere il permesso al team
+VideoLAN per farlo!</span>
+
 </para></note>
 
 </answer></qandaentry>
@@ -1191,6 +1373,8 @@ Erlaubnis fragen, um das zu tun!</span>
 <span xml:lang="es">¿ Es libdvdcss legal ?</span>
 <span xml:lang="fr">La libdvdcss est-elle légale ?</span>
 <span xml:lang="de">Ist libdvdcss legal?</span>
+<span xml:lang="it">La libdvdcss è legale?</span>
+
 
 </para></question>
 
@@ -1224,6 +1408,12 @@ Vereinigten Staaten, kontrovers, auf Grund eines Gesetzes namens DMCA
 der Benutzung und Weitergabe dieser Bibliothek in Ihrem Land sind,
 konsultieren Sie bitte Ihren Anwalt.</span>
 
+<span xml:lang="it">L'uso e la distribuzione della libreria libdvdcss
+sono controversi in alcuni paesi come gli Stati Uniti a causa di una
+legge chiamata DMCA (Digital Millennium Copyright Act). Se non sei
+sicuro della legittimità d'uso e distribuzione della libdvdcss nel tuo
+paese, informati presso il tuo avvocato.</span>
+
 </para>
 
 </answer></qandaentry>
@@ -1238,6 +1428,7 @@ konsultieren Sie bitte Ihren Anwalt.</span>
 <span xml:lang="es">Miscelánea</span>
 <span xml:lang="fr">Divers</span>
 <span xml:lang="de">Verschiedenes</span>
+<span xml:lang="it">Varie</span>
 
 </title>
 
@@ -1249,6 +1440,7 @@ konsultieren Sie bitte Ihren Anwalt.</span>
 <span xml:lang="es">¿ Cómo puedo ayudar a VideoLAN ?</span>
 <span xml:lang="fr">Comment puis-je aider VideoLAN ?</span>
 <span xml:lang="de">Wie kann ich Ihrem Projekt helfen?</span>
+<span xml:lang="it">Come posso aiutare VideoLAN?</span>
 
 </para></question>
 
@@ -1278,6 +1470,13 @@ Alle Informationen dazu finden Sie auf der <ulink
 url="http://www.videolan.org/contribute.html">contribute
 page</ulink>.</span>
 
+<span xml:lang="it">Puoi contribuire fornendo tempo,
+materiale o denaro. Abbiamo anche bisogno di traduttori.
+Puoi trovare tutte le informazioni necessarie sulla <ulink
+url="http://www.videolan.org/contribute.html">pagina dei
+contributi</ulink>.</span>
+
+
 </para></answer></qandaentry>
 
 
@@ -1294,6 +1493,9 @@ en anglais ?</span>
 
 <span xml:lang="de">Warum sind Ihre Mailing-Listen und Ihre Website auf
 Englisch?</span>
+
+<span xml:lang="it">Perché il vostro sito e le vostre mailing list sono
+in inglese?</span>
 
 </para></question>
 
@@ -1325,6 +1527,12 @@ sich mit einander zu verständigen. Obwohl der Übersetzung von VLC in
 viele Sprachen viel Beachtung geschenkt wird, würde die Instandhaltung
 der Übersetzungen von unserer Dokumentation und unserer Website mehr
 Zeit kosten, als wir uns leisten können.</span>
+
+<span xml:lang="it">Gli sviluppatori di VideoLAN vengono da tutto il
+mondo e l'inglese è la sola lingua che permette loro di comunicare tutti
+insieme. Benché una grande attenzione sia data alla traduzione del VLC
+in varie lingue, mantenere una traduzione del sito web in più lingue ci
+costerebbe molto più tempo di quanto non ne possiamo impiegare.</span>
 
 </para>
 

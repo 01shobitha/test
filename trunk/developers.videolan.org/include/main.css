@@ -1,16 +1,18 @@
 body            { margin-left: 0; margin-top: 0; margin-right:0;
                   margin-bottom: 0; }
-p,td,th,body,h1 { font-family: Verdana,Arial,Helvetica,sans-serif; }
-p,td,body       { font-size: 8pt; }
+p, td, th, body, h1 { font-family: Verdana,Arial,Helvetica,sans-serif; }
+p, td, body       { font-size: 8pt; }
 th              { font-weight:bold; font-size: 10pt;}
-th.menu         { font-size: 10pt; background-color: #FF8C00;
-                  color: #FFFFFF; font-weight: bold; }
-td.menu         { border-left: 1px solid #FF8C00; border-right: 1px
-                  solid #FF8C00; border-top: 1px solid #FF8C00;
-                  border-bottom: 3px solid #FF8C00; }
-.background     { background-color: #FFE9CE; }
+th.menu         { font-size: 10pt; background-color: #A43000;
+                  color: #FFDD44; font-weight: bold; }
+td.menu         { border-left: 1px solid #A43000; border-right: 1px
+                  solid #A43000; border-top: 1px solid #A43000;
+                  border-bottom: 3px solid #A43000; background-color: #808080}
+.background     { background-color: #FFFFFF;
+                  color: #A43000; }
 p               { margin-left: 5pt; margin-right: 5pt; }
 p.menu          { margin-top: 5pt; margin-bottom: 5pt; }
-a:link          { color: #E07900; text-decoration: none; }
-a:visited       { color: #E07900; text-decoration: none; }
-a:hover         { color: #E07900; text-decoration: underline; }
+a:link          { color: #FFFFFF; text-decoration: none; }
+a:visited       { color: #FFFFFF; text-decoration: none; }
+a:hover         { color: #FFDD44; text-decoration: underline; font-weight:bold}
+a.th:hover      { color: #FFDD44; text-decoration: underline; font-weight:bold}

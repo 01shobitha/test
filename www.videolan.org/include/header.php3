@@ -125,7 +125,7 @@ if($mirror)
 }
 
 /* default language and date */
-if( $lang == "" ) { $lang = "en"; }
+if( $language == "" ) { $language = "en"; }
 
 /* render the page */
 

@@ -135,7 +135,7 @@ a:visited {
 }
 
 a:hover {
-  background: #888;
+  background: #ccc;
   font-family: inherit;
   color: #00a;
 }

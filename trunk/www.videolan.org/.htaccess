@@ -89,8 +89,7 @@ owto/fr
 Redirect permanent /doc/fr/vls-user-guide http://www.videolan.org/doc/vls-user-guide/fr
 
 Redirect permanent /doc/en/vlc-user-guide http://www.videolan.org/doc/vlc-user-guide/en
-Redirect permanent /doc/en/videolan-howto http://www.videolan.org/doc/videolan-h
-owto/en
+Redirect permanent /doc/en/videolan-howto http://www.videolan.org/doc/videolan-howto/en
 Redirect permanent /doc/en/vls-user-guide http://www.videolan.org/doc/vls-user-guide/en
 
 #

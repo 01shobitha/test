@@ -3,7 +3,7 @@
 
 body {
   font-family: sans-serif, Helvetica, Arial;
-  font-size: 10pt;
+  font-size: 1em;
   background: white;
   color: black;
   margin: 0px 0px;
@@ -20,7 +20,7 @@ img {
 }
 
 p {
-  font-size: 10pt;
+  font-size: 1em;
   font-family: inherit;
   text-indent: 0px;
   background: inherit;
@@ -28,14 +28,14 @@ p {
 }
 
 td {
-  font-size: 10pt;
+  font-size: 1em;
   font-family: inherit;
   background: inherit;
   color: inherit;
 }
 
 h1 {
-  font-size: 14pt;
+  font-size: 1.4em;
   font-family: inherit;
   font-weight: 600;
   background: inherit;
@@ -54,7 +54,7 @@ h1 {
 }
 
 h2 {
-  font-size: 12pt;
+  font-size: 1.2em;
   font-family: inherit;
   font-weight: 600;
   background: inherit;
@@ -86,7 +86,7 @@ a:hover {
 }
 
 ol, ul, ul.small {
-  font-size: 10pt;
+  font-size: 1em;
   font-family: inherit;
   text-indent: 0px;
   background: inherit;
@@ -94,19 +94,19 @@ ol, ul, ul.small {
 }
 
 ul.big {
-  font-size: 12pt;
+  font-size: 1.2em;
   font-family: inherit;
   background: inherit;
   color: inherit;
 }
 
 dl {
-  font-size: 10pt;
+  font-size: 1em;
   font-family: inherit;
 }
 
 dt {
-  font-size: 10pt;
+  font-size: 1em;
   font-family: inherit;
   font-weight: 600;
   background: inherit;
@@ -123,7 +123,7 @@ dt {
 }
 
 dd {
-  font-size: 10pt;
+  font-size: 1em;
   font-family: inherit;
 }
 

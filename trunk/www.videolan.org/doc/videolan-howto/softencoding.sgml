@@ -81,7 +81,7 @@ between two "I" images in number of images,</para>
 
 
 <listitem><para><emphasis>acodec=mpga</emphasis> is the audio format
-you want to encode in (<emphasis>mpag</emphasis> is MPEG audio layer 2,
+you want to encode in (<emphasis>mpga</emphasis> is MPEG audio layer 2,
 <emphasis>a52</emphasis> is A52 i.e. AC3 sound),</para>
 
 <listitem><para><emphasis>url=192.168.0.42</emphasis> is either :</para>

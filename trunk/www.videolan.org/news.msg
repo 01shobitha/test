@@ -4,6 +4,11 @@
 # Et pour les nouvelles importantes, c'est pas un | , c'est un §
 #
 
+|21 May 2003| Release: VLS 0.5.2 | This releases fixes a bug with Nova-t
+cards and a bug in the configure script. To download this new version,
+go to the <a href="http://www.videolan.org/streaming/">streaming
+page</a>.
+
 |16 May 2003| Release: VLS 0.5.1 | VLS for Windows is back ! The Windows
 port of VLS has been fixed. This new version also features the loop
 on broken PS files and setting the TTL under Windows. To download the

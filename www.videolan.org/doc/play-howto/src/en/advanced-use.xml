@@ -18,7 +18,12 @@ However, some complex operations can only be done from the command line
 and there are situations in which you don't need or want a GUI. Here is
 the complete description of VLC's command line and how to use it</para>
 
-<para>You need to be quite comfortable with command line usage to use this.</para>
+<para>You need to be quite comfortable with command line usage to use
+this.</para>
+
+<note><para>Windows users have to use the
+<emphasis>--option-name="value"</emphasis> syntax instead of the
+<emphasis>--option-name value</emphasis> syntax.</para></note>
 
 <sect2><title>Getting help</title>
 
@@ -764,19 +769,23 @@ command line.</para>
 <para>This module allows you to control VLC and playback via hotkeys. It
 is always enabled by default. You can use hotkeys in the video output window.
 </para>
-<para>Hotkeys can be hacked by <prompt>% </prompt><userinput>vlc
---key-&lt;function&gt; '&lt;code&gt;'</userinput>.</para>
+<para>Hotkeys can be hacked by : </para>
+<screen>
+<prompt>% </prompt><userinput>vlc --key-&lt;function&gt; '&lt;code&gt;'</userinput></screen>
 
 <para> Code is composed by modifiers keys (Alt, Shift, Ctrl, Meta,
-Command) separated by a dash (-) and terminated by a key (a...z, +,
-=, -, ',', +, &lt;, &gt;, `, /, ;, ', \, [, ], *, Left, Right, Up,
-Down, Space, Enter, F1...F12, Home, End, Menu, Esc, Page Up, Page
-Down, Tab, Backspace, Mouse Wheel Up and Mouse Wheel Down). Main
-controls are available from hotkeys, such as : fullscreen, play-pause,
-faster, slower, next, prev, stop, quit, vol-up, etc. (run <prompt>%
-</prompt><userinput>vlc --longhelp</userinput> for full list of
-functions). For example, for binding fullscreen to Ctrl-f, run <prompt>%
-</prompt><userinput>vlc --key-fullscreen 'Ctrl-f'</userinput></para>
+Command) separated by a dash (-) and terminated by a key (a...z,
++, =, -, ',', +, &lt;, &gt;, `, /, ;, ', \, [, ], *, Left, Right,
+Up, Down, Space, Enter, F1...F12, Home, End, Menu, Esc, Page Up,
+Page Down, Tab, Backspace, Mouse Wheel Up and Mouse Wheel Down).
+Main controls are available from hotkeys, such as : fullscreen,
+play-pause, faster, slower, next, prev, stop, quit, vol-up, etc. (use
+the <emphasis>--longhelp</emphasis> option for full list of functions).
+For example, for binding fullscreen to Ctrl-f, run :</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc --key-fullscreen 'Ctrl-f'</userinput>
+</screen>
 
 </sect2>
 

@@ -113,7 +113,7 @@ This module saves the stream to a file or sends it over a network, after
 having muxed it.
 </para>
 
-<para>The available choices are:</para>
+<para>The available options are:</para>
 
 <sect3><title>access=</title>
 
@@ -339,67 +339,111 @@ or <emphasis>slp</emphasis> option has been enabled.</para></note>
 
 <sect2><title>display</title>
 
-<para>
-Displays the stream.
-</para>
+<para> This module can be used to display the stream. This is
+particularly useful in a <emphasis>duplicate</emphasis> chain, in order
+to monitor a stream while it is being saved or streamed. </para>
 
-<para>
-Options:
-</para>
+<para>available options are:</para>
 
-<itemizedlist>
+<sect3><title>novideo</title>
 
-<listitem><para><emphasis>noaudio</emphasis>:
-Ignore audio.
-</para></listitem>
+<para>You can use this option to disable video in the displayed stream.</para>
 
-<listitem><para><emphasis>novideo</emphasis>:
-Ignore video.
-</para></listitem>
+</sect3>
 
-</itemizedlist>
+<sect3><title>noaudio</title>
+
+<para>You can use this option to disable audio in the displayed stream.</para>
+
+</sect3>
+
+<sect3><title>delay=</title>
+
+<para>You can use this option to introduce a delay in the display of the stream. Delay has to be given in ms.</para>
+
+</sect3>
 
 </sect2>
 
 <sect2><title>duplicate</title>
 
-<para>
-Duplicates the stream to a new stream output chain.
-</para>
+<para>This module can be used to duplicate the stream, and so process it
+through several different chains.</para>
 
-<para>
-Options:
-</para>
+<para>Available options are:</para>
+
+<sect3><title>dst=</title>
+
+<para>This options allows to give the chain through which the duplicated stream should be processed.</para>
+
+<note><para>Several <emphasis>dst=</emphasis> options have to be used in the same duplicate block to actually duplicate the stream.</para>
+<para>Any of the stream output module described earlier can be used as parameter of this option.</para></note>
+
+</sect3>
+
+<sect3><title>select=</title>
+
+<para>This options can be used to duplicate only a part
+<emphasis>elementary streams</emphasis> of a complete stream.</para>
+
+<para>Several criteria can be given, by separating each of them with a
+comma.</para>
+
+<para>For criteria that need a parameter, such as
+<emphasis>es</emphasis> and <emphasis>program</emphasis>,
+you can also specify a range, using the syntax
+<emphasis>criteria=num_start-num_end</emphasis>.</para>
+
+Available parameters are:
 
 <itemizedlist>
 
-<listitem><para><emphasis>dst</emphasis>: 
-A new stream output chain of modules, as described
-earlier.
-</para></listitem>
+<listitem><para><emphasis>program=</emphasis>: duplicate only
+<emphasis>elementary streams</emphasis> belonging to the
+selected program (or PID). This option only works with MPEG2/TS
+streams.</para></listitem>
 
-<listitem><para><emphasis>select</emphasis>:
-This option allows you to specify which programs or es you wish to
-stream for the previous dst, if the input stream has several ones.</para>
+<listitem><para><emphasis>noprogram=</emphasis>: do not duplicate
+<emphasis>elementary streams</emphasis> belonging to the
+selected program (or PID). This option only works with MPEG2/TS
+streams.</para></listitem>
 
-<para>
+<listitem><para><emphasis>es=</emphasis>: duplicate only the
+<emphasis>elementary stream</emphasis> with the selected
+id.</para></listitem>
 
-Format is "program=<emphasis>program_id</emphasis>" or es="<emphasis>es_id</emphasis>".
+<listitem><para><emphasis>noes=</emphasis>: do not duplicate
+the <emphasis>elementary stream</emphasis> with the selected
+id.</para></listitem>
 
-You can also use ranges, like "program=<emphasis>start_program-end_program</emphasis>". 
+<listitem><para><emphasis>video</emphasis>: duplicate only video
+<emphasis>elementary streams</emphasis>.</para></listitem>
 
-You can select only es of a given type, with :</para>
+<listitem><para><emphasis>novideo</emphasis>: do not duplicate video
+<emphasis>elementary streams</emphasis>.</para></listitem>
 
-<itemizedlist>
-<listitem><para>no-audio, noaudio, audio</para></listitem>
-<listitem><para>no-video, novideo, video</para></listitem>
-<listitem><para>no-spu,   nospu,   spu</para></listitem>
+<listitem><para><emphasis>audio</emphasis>: duplicate only audio
+<emphasis>elementary streams</emphasis>.</para></listitem>
+
+<listitem><para><emphasis>noaudio</emphasis>: do not duplicate audio
+<emphasis>elementary streams</emphasis>.</para></listitem>
+
+<listitem><para><emphasis>spu</emphasis>: duplicate only subtitle
+<emphasis>elementary streams</emphasis>.</para></listitem>
+
+<listitem><para><emphasis>nospu</emphasis>: do not duplicate subtitle
+<emphasis>elementary streams</emphasis>.</para></listitem>
+
 </itemizedlist>
 
-<para>You may use several selectors, comma-separated</para></listitem>
+<para>Example:</para>
+<screen><para>#duplicate{dst=std{...},select="program=100-200,novideo"}</para></screen>
 
-</itemizedlist>
+<para>This <emphasis>duplicate</emphasis> chain will only output the non
+video <emphasis>elementary streams</emphasis> belonging to the programs
+which PID are between 100 and 200.</para>
 
+</sect3>
 </sect2>
 
 <sect2><title>transcode</title>

@@ -15,7 +15,7 @@
 <span xml:lang="en">the VideoLAN project</span>
 <span xml:lang="es">el proyecto VideoLAN</span>
 <span xml:lang="fr">le projet VideoLAN</span>
-<span xml:lang="de">the VideoLAN project</span>
+<span xml:lang="de">das VideoLAN Projekt</span>
 <span xml:lang="it">il progetto VideoLAN</span>
 
 </holder>
@@ -268,7 +268,7 @@ seguono!</span>
 <span xml:lang="en">Here are a few things to check:</span>
 <span xml:lang="es">Aquí hay un par de cosillas que ver:</span>
 <span xml:lang="fr">Vérifiez ces quelques points :</span>
-<span xml:lang="de">Hier sind einige wenige Sachen zum Überprüfen:</span>
+<span xml:lang="de">Hier sind einige Sachen zum Überprüfen:</span>
 <span xml:lang="it">Verifica innanzitutto quanto segue:</span>
 
 </para>
@@ -652,7 +652,7 @@ les préférences, soit avec l'option de la ligne de commande
 <command>-vvvv</command>) et regardez les messages de déboguage (dans la
 console ou dans la fenêtre Messages).</span>
 
-<span xml:lang="de"> Erhöhen Sie das Verbosity-Niveau (entweder
+<span xml:lang="de"> Erhöhen Sie das Verbosity-Level (entweder
 in den Voreinstellungen oder mit der <command>-vvvv</command>
 Befehlszeilensteuerungsoption) und schauen Sie auf die Debug-Nachrichten
 (im Terminal oder im Nachrichten-Fenster).</span>
@@ -682,7 +682,7 @@ url="http://www.videolan.org/support/bug-reporting.html">signalement
 d'un bug</ulink>.</span>
 
 <span xml:lang="de">Wenn Sie überzeugt sind, dass
-es ein Fehler in VLC ist, schauen Sie auf <ulink
+es ein Fehler in VLC ist, schauen Sie auf die <ulink
 url="http://www.videolan.org/support/bug-reporting.html">Fehler-Meldungs
 seite</ulink>.</span>
 
@@ -957,7 +957,7 @@ delle caratteristiche di streaming</ulink>.</span>
 <span xml:lang="en">Technically, there is an important difference:</span>
 <span xml:lang="es">Básicamente, por el momento :</span>
 <span xml:lang="fr">Techniquement, il y a une différence importante :</span>
-<span xml:lang="de">Grundlegendes für den Moment:</span>
+<span xml:lang="de">Technisch gibt es einen wichtigen Unterschied:</span>
 <span xml:lang="it">Tecnicamente, c'è una importante differenza:</span>
 
 </para>
@@ -990,10 +990,7 @@ et de nombreux codecs, ce qui lui permet de faire de la conversion de
 format et/ou de transcoder à la volée le flux d'entrée ! VLC est également
 doté de jolies interfaces graphiques.</span>
 
-<span xml:lang="de">VLC ist gut darin, diverse MPEG-Dateien in
-unterschiedlichen Verkapslungsmethoden (mpg, vob, mp3, avi, mov, ogg,
-mp4...) zu streamen. Es hat eine schöne graphische Oberfläche und hat
-einfache Umkodierungsmöglichkeiten.</span>
+<span xml:lang="de">VLc öffnet alle System-Layer des Input-Streams, dekodiert sie alle und streamt dann das Ergebnis über das Netzwerk oder speichert es in einer Datei. Dadurch ist VLC gut im Streamen von unzuverlässigen Bild und/oder Tonquellen, wie die im Internet zu findenden und/oder von unprofessioneller Software erstellten Video-Dateien. VLC enthält viele Muxer/Demuxer (ps, ts, avi, ogg, mp4...) und viele Codecs, welche die Konvertierung von Verkapselungsformaten und/oder Umkodierung eines Input-Streams "on-the-fly" erlauben. VLC hat außerdem schöne graphische Oberflächen.</span>
 
 <span xml:lang="it">VLC apre tutti i layer di sistema del flusso in
 entrata, li rigenera tutti e poi ritrasmette il risultato in rete oppure
@@ -1010,7 +1007,7 @@ grafiche.</span>
 <listitem><para>
 
 <span xml:lang="en">VLS only opens the highest system layers of the
-input stream and only has PS and TS demxuers. So VLS is good at
+input stream and only has PS and TS demuxers. So VLS is good at
 streaming from trusted video and/or audio sources in PS or TS format
 produced by professional software or hardware like DVDs and DVB channels
 (satellite or digital terrestial TV) because it only regenerate the
@@ -1033,9 +1030,7 @@ bien conçu pour diffuser des flux TS multiplexés, comme par exemple un
 transpondeur satellite entier. VLS n'a qu'un muxer TS, ne fait pas de
 transcodage et n'a pas d'interface graphique.</span>
 
-<span xml:lang="de">VLS ist gut darin DVDs, Satelliten-Kanäle und
-digitale, terrestische TV-Kanäle zu streamen, unterstützt jedoch keine
-Umkodierungen.</span>
+<span xml:lang="de">VLS öffnet nur die höchsten System-Layer des Input-Streams und hat nur PS- und TS-Demuxer. Dadurch ist VLS gut im Streamen von zuverlässigen Bild- und/oder Tonquellen im PS- oder TS-Format, wie sie von professioneller Software oder Hardware, wie DVDs und DVB-Kanäle (Satellit oder digitales terrestrisches Fernsehen), produziert werden, da es nur die System-Layer dekodiert, die dekodiert werden müssen und nicht mehr. VLS ist insbesondere auf das Streamen von gemultiplexten TS-Streams, zum Beispiel einem ganzen DVB-Transponder, auslegt. VLS hat nur einen TS-Muxer, macht kein Umkodieren und hat keine graphischen Oberflächen.</span>
 
 <span xml:lang="it">VLS apre soltanto i layer più alti dello stream
 in ingresso e dispone soltanto di demuxer PS e TS, per cui è adatto a
@@ -1144,9 +1139,9 @@ Transport Stream engine), con una interfaz muy básica de telnet ;</span>
 sous Linux et Windows, qui est en fait un simple moteur de lecture de
 streaming, avec une interface très basique utilisant Telnet.</span>
 
-<span xml:lang="de">VLS, ein nur unter Linux laufendes Programm,
+<span xml:lang="de">VLS, ein nur unter Linux und Windows laufendes Programm,
 geschrieben in C++, welches hauptsächlich eine MPEG-Streaming-Engine mit
-einer einfachen Telnet-Oberfläche ist.</span>
+einer sehr einfachen Telnet-Oberfläche ist, die als Server benutzt wird.</span>
 
 <span xml:lang="it">VLS, un programma scritto in C++ per Linux e
 Windows, nient'altro che un motore di streaming MPEG TS, con una
@@ -1169,8 +1164,8 @@ qui utilise des codecs, des sorties audio et vidéo, et propose des
 interfaces graphiques.</span>
 
 <span xml:lang="de">VLC, ein Programm, das auf vielen Plattformen läuft,
-geschrieben in C, das Demuxer, Codecs, Ton- und Bildausgabe unterstützt
-und eine graphische Oberfläche hat.</span>
+geschrieben in C, das Demuxer, Codecs, Ton- und Bildausgabe enthält
+und eine graphische Oberfläche hat, sowie nur als Client benutzt wird.</span>
 
 <span xml:lang="it">VLC, un programma multipiattaforma scritto in C, che
 implementa demuxers, codecs, output audio e video, interfacce grafiche,
@@ -1323,9 +1318,9 @@ utilizzando il copyright seguente:</span>
 
 <span xml:lang="de">
    Copyright (c) 1996-2003 VideoLAN. This logo or a modified version
-   may be used or modified by anyone to refer to the VideoLAN project
-   or any product developed by the VideoLAN team, but does not indicate
-   endorsement by the project.
+  may be used or modified by anyone to refer to the VideoLAN project
+  or any product developed by the VideoLAN team, but does not indicate
+  endorsement by the project.
 </span>
 
 <span xml:lang="it">
@@ -1480,9 +1475,8 @@ avocat.</span>
 
 <span xml:lang="de">Die Benutzung und die Weitergabe der
 libdvdcss-Bibliothek ist in einigen Ländern, wie zum Beispiel den
-Vereinigten Staaten, kontrovers, auf Grund eines Gesetzes namens DMCA
-(Digital Millennium Copyright Act). Wenn Sie unsicher über die Legalität
-der Benutzung und Weitergabe dieser Bibliothek in Ihrem Land sind,
+Vereinigten Staaten, auf Grund eines Gesetzes namens DMCA
+(Digital Millennium Copyright Act) kontrovers. Wenn Sie unsicher über die Legalität der Benutzung und Weitergabe dieser Bibliothek in Ihrem Land sind,
 konsultieren Sie bitte Ihren Anwalt.</span>
 
 <span xml:lang="it">L'uso e la distribuzione della libreria libdvdcss
@@ -1543,7 +1537,7 @@ Contribution</ulink>.</span>
 
 <span xml:lang="de">Sie können entweder Zeit, Material oder
 Geld beisteuern. Wir brauchen immer einige Übersetzer.
-Alle Informationen dazu finden Sie auf der <ulink
+Alle benötigten Informationen dazu finden Sie auf der <ulink
 url="http://www.videolan.org/contribute.html">contribute
 page</ulink>.</span>
 

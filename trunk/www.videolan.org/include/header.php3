@@ -93,7 +93,13 @@ global $HTTP_GET_VARS;
     get_first_bar_item_poukram(6, "doc", "Documentation", "/doc/", $modules[1]);
     get_first_bar_item_poukram(6, "support", "Support", "/support/", $modules[1]);
     get_first_bar_item_poukram(6, "developers", "Developers", "http://developers.videolan.org/", $modules[1]); ?>
-    <td class="topbar" style="width: 8%">&nbsp;</td>
+    <td class="topbar" style="width: 8%">
+     <select name="mirror">
+     <!-- current: $GLOBALS['HTTP_HOST'] -->
+     <option value="www.videolan.org">Main site (VIA)</option>
+     <option value="www.fr.videolan.org">Mirror site (Zoy)</option>
+     </select><input type="submit" value="Select Mirror" />
+    </td>
   </tr>
   </table>
   <table style="width: 100%;" cellspacing="0" cellpadding="0">
@@ -110,13 +116,6 @@ global $HTTP_GET_VARS;
   </tr>
   </table>
 
- </td>
- <td style="text-align: center; vertical-align: middle">
-     <select name="mirror">
-     <!-- current: $GLOBALS['HTTP_HOST'] -->
-     <option value="www.videolan.org">Main site (VIA)</option>
-     <option value="www.fr.videolan.org">Mirror site (Zoy)</option>
-     </select><br/><input type="submit" value="Select Mirror" />
  </td>
 </tr>
 </table>

@@ -27,7 +27,7 @@ function starthtml($title) { ?>
 <body><?
 
    /*
-    * The cool navigation bar
+    * The cool navigation bar, including mirror drop-down menu
     */
 
 ?><form action="index.html" method="get">
@@ -38,7 +38,8 @@ function starthtml($title) { ?>
     <td style="background-color: #ffaaaa; width: 17%; vertical-align: middle;" align="center"><a href="/doc/">Documentation</a></td>
     <td style="background-color: #ffaaaa; width: 16%; vertical-align: middle;" align="center"><a href="/support/">Support</a></td>
     <td style="background-color: #aaffaa; width: 17%; vertical-align: middle;" align="center"><a href="http://developers.videolan.org/">Developers</a></td>
-    <td style="width: 20%; white-space: nowrap">
+    <!--<td style="width: 20%; white-space: nowrap;">-->
+    <td class="nowrap">
       Mirror:
       <select name="mirror">
         <option value="www.videolan.org">Châtenay, France (main)</option>
@@ -64,22 +65,27 @@ function startmenu($title) {
    /*
     * the main table
     */
+
 ?><table border="0" cellspacing="0" cellpadding="0">
   <tr>
+    <td><?
 
-    <td>
+        /*
+         * the cone logo
+         */
 
-      <!-- Ze cone -->
-      <table class="fill">
+      ?><table class="fill">
         <tr>
           <td class="center">
             <a href="/"><img src="/images/cone.png" width="78" height="100" alt="Logo" style="border: 0;" /></a>
           </td>
         </tr>
-      </table>
+      </table><?
 
-      <!-- Ze meniou -->
-      <? switch($module) {
+        /*
+         * the side menu
+         */
+          switch($module) {
            case "vlc": ?>
   <h2><a href="/vlc/">VLC Media Player</a></h2>
     <a href="/vlc/">overview</a><br />
@@ -118,49 +124,40 @@ function startmenu($title) {
 <? }
 
    /*
-    *  bottom: bottom of the page
+    *  footer: bottom of the page
     */
 
-   function bottom($title,$language,$date) { ?>
+   function footer($title,$language,$date) { ?>
       <hr />
 <table cellspacing="0" cellpadding="2" class="fill" border="0">
   <tr>
-
     <td align="left">
       <a href="/">VideoLAN</a> &nbsp;-&nbsp;
       Paris, France &nbsp;-&nbsp; <? echo $date; ?>
     </td>
-
-
     <td align="right" class="nowrap">
     <? if($language=="fr") { } else { ?>valid<? } ?>
     <a href="http://validator.w3.org/check/referer">XHTML 1.0 Strict</a>
     &amp; <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>
     <? if($language=="fr") { ?>valides<? } else { } ?>
     </td>
-
   </tr>
-</table>
-<? }
+</table><?
 
-   /*
-    *  stopmenu
-    */
+    /*
+     * end of the page table
+     */
 
-function stopmenu() { ?>
-    </td>
+    ?></td>
   </tr>
-</table>
-<? }
+</table><?
 
-   /*
-    *  stophtml: end of the page
-    */
+    /*
+     * end of the body
+     */
 
-   function stophtml() { ?>
-</body>
-</html>
-<? }
+?></body></html><? }
+
 
 /*
  * the real code

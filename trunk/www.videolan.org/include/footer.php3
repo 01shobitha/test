@@ -6,7 +6,5 @@
    }
 
    /* bottom of the page */
-   bottom($title, $lang, $date);
-   stopmenu($title);
-   stophtml();
+   footer($title, $lang, $date);
 ?>

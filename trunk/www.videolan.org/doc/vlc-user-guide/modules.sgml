@@ -666,9 +666,8 @@ of the categories described before.</para>
 <para>Stream Output is a new feature  of VLC that allows
 it to stream an MPEG-1, MPEG-2 or MPEG-4/DivX file or a DVD.</para>
 
-<para>For more details, please have a look at the <xref linkend="gui"
-endterm="tgui"> or <xref linkend="cmdline" endterm="tcmdline">
-sections.</para>
+<para>For more details, please have a look at the <xref
+linkend="cmdline" endterm="tcmdline"> section.</para>
 
 </sect2>
 

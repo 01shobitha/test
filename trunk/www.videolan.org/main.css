@@ -1,7 +1,7 @@
 /* CSS for the VideoLAN website
  * Stolen from the Gnumeric website by Sam :-)
  *
- * $Id: main.css,v 1.76 2003/02/03 12:14:31 videolan Exp $ */
+ * $Id: main.css,v 1.77 2003/02/03 16:00:00 sam Exp $ */
 
 body {
   font-family: sans-serif, Helvetica, Arial;
@@ -239,46 +239,62 @@ th.os {
 td.firstbar {
   vertical-align: middle;
   text-align: center;
-  background-color: #fff;
-  color: #00f;
+  background-color: #a43;
+  color: #fff;
   font-weight: bold;
   font-size: 1.1em;
-
-  border-style: solid;
-  border-color: #aaa;
-  border-bottom-width: 0px;
-  border-top-width: 0px;
-  border-left-width: 1px;
-  border-right-width: 1px;
+}
+a.firstbar:link {
+  background-color: #a43;
+  color: #fff;
+  font-size: inherit;
+}
+a.firstbar:visited {
+  background-color: #a43;
+  color: #fff;
+  font-size: inherit;
+}
+a.firstbar:hover {
+  background-color: #a43;
+  color: #ffdd44;
+  font-size: inherit;
 }
 td.firstbarselected {
   vertical-align: middle;
   text-align: center;
-  background-color: #ccc;
-  color: #a43;
+  background-color: #888;
+  color: #ffdd44;
   font-weight: bold;
   font-size: 1.1em;
-
-  border-style: solid;
-  border-color: #aaa;
-  border-bottom-width: 1px;
-  border-top-width: 0px;
-  border-left-width: 0px;
-  border-right-width: 0px;
 }
 td.secondbar {
   vertical-align: middle;
   text-align: center;
-  background-color: #ccc;
-  color: #00f;
+  background-color: #888;
+  color: #fff;
   font-weight: bold;
   font-size: 1em;
+}
+a.secondbar:link {
+  background-color: #888;
+  color: #fff;
+  font-size: inherit;
+}
+a.secondbar:visited {
+  background-color: #888;
+  color: #fff;
+  font-size: inherit;
+}
+a.secondbar:hover {
+  background-color: #888;
+  color: #ffdd44;
+  font-size: inherit;
 }
 td.secondbarselected {
   vertical-align: middle;
   text-align: center;
-  background-color: #ccc;
-  color: #a43;
+  background-color: #888;
+  color: #ffdd44;
   font-weight: bold;
   font-size: 1em;
 }

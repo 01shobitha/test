@@ -126,6 +126,21 @@ StartHtml( ereg_replace( "<[^>]*>" , "" , $title ) );
 
 
 ?><table class="menu-back" cellspacing="0" cellpadding="0">
+<!--
+Patent banner code 
+-->
+  <tr align="center">
+    <td valign="top" colspan="2" style="background-color:white;">
+      <p style="color: red; font-size:18px;" >
+	Beware: VideoLAN might disappear due to patent legislation.
+      </p>
+      <p>
+        <a href="/patents.html">Click here for more information on what you can do to stop patents and help VideoLAN.</a>
+    </td>
+  </tr>
+<!--
+End of Patent banner code 
+-->
   <tr align="center">
     <td valign="top">
 <?php

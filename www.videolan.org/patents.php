@@ -18,7 +18,8 @@
 	multimedia players, which include
 	<a href="http://mplayerhq.hu/">MPlayer</a>,
 	<a href="http://xinehq.de/">xine</a>,
-	<a href="http://videolan.org/vlc/">VLC</a>,
+	<a href="http://www.freevo.org/">Freevo</a>,
+	<a href="http://www.mythtv.org/">MythTV</a>,
 	<a href="http://gstreamer.net/">gstreamer</a>.
 </strong>
 </p>

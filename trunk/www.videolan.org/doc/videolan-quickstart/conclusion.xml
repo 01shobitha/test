@@ -1,5 +1,8 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
 <chapter id="conclusion"><title id="tconclusion">Conclusion</title>
 
+<span xml:lang="en">
 <para>VideoLAN can do much more than what is explained in this
 Quickstart. For example, you can use VLC to stream live from a
 camera or a webcam under Linux, or you can use VLS to stream digital
@@ -14,4 +17,28 @@ in this Quickstart. For example, VLC can be used to do image walls
 <ulink url="http://www.videolan.org/doc/vlc-user-guide/">VLC user
 guide</ulink>.</para>
 
+</span>
+
+<span xml:lang="fr">
+
+<para>VideoLAN est capable de faire beaucoup plus que ce qui est
+évoqué dans ce manuel de démarrage. Par exemple, vous pouvez
+utiliser VLC pour envoyer des flux en direct depuis une caméra
+ou une webcam sous Linux, ou bien vous pouvez utiliser VLS
+pour diffuser des flux satellites numériques et des chaînes de
+télévision numérique terrestre. Pour en savoir plus sur toutes les
+possibilités de diffusion de Videolan, veuillez lire le <ulink
+url="http://www.videolan.org/doc/videolan-howto/" >VideoLAN
+HOWTO</ulink>.</para>
+
+<para>VLC possède également de nombreuses autres caractéristiques
+interessantes non détaillées dans ce manuel de démarrage. Par
+exemple, vous pouvez l'utiliser pour faire des murs d'image !
+Pour connaître toutes les possibilités de VLC, veuillez lire le
+<ulink url="http://www.videolan.org/doc/vlc-user-guide/">"VLC user
+guide"</ulink>.</para>
+
+</span>
+
 </chapter>
+

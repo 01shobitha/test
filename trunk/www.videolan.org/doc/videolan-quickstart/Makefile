@@ -5,51 +5,64 @@ DOC := videolan-quickstart
 
 XML_DECL := /usr/lib/sgml/declaration/xml.decl
 
+EXT = html ps pdf rtf txt
+LANG = en fr
+
 # We build HTML, PS, PDF, RTF and TXT for the Web site
-all: img html ps pdf rtf txt
+all: img $(LANG)
+
+$(LANG): %: $(foreach ext, $(EXT), $(DOC)-%.$(ext))
 
 # Get the images from the /images/documentation directory
 img:
 	rm -rf images
 	cp -R ../../images/documentation images
 
-html:
-	/bin/cp ../common/magic-jpg.xml ../common/magic.xml
-	jade -t sgml -d ../common/stylesheet-html.dsl $(XML_DECL) $(DOC).xml > $(DOC)-en.html
-	ln -sf $(DOC)-en.html index.html
-	rm -f $(DOC)-en-html.zip
-	zip $(DOC)-en-html.zip *.html images/*.jpg
+$(LANG:%=$(DOC)-%.xml): $(DOC).xml
+	xsltproc --stringparam lang $(shell echo $(basename $@) | sed -e 's/.*-//') ../common/multilanguage.xsl $^ | sed -e 's/id="$(DOC)"/id="$(basename $@)"/' > $@
 
-ps:
+
+$(LANG:%=$(DOC)-%.html): %.html: %.xml
+	/bin/cp ../common/magic-jpg.xml ../common/magic.xml
+	jade -t sgml -d ../common/stylesheet-html.dsl $(XML_DECL) $^
+	ln -sf $@ index.html
+	rm -f $(basename $@)-html.zip
+	zip $(basename $@)-html.zip $@ images/*.jpg
+	mkdir -p $(basename $@) 
+	mv *.html $(basename $@)
+	ln -sf $(DOC)-en/index.html index.html
+
+$(LANG:%=$(DOC)-%.ps): %.ps: %.xml
 	/bin/cp ../common/magic-eps.xml ../common/magic.xml
-	jade -t tex -o $(DOC)-en.tex -d ../common/stylesheet-print.dsl $(XML_DECL) $(DOC).xml
-	jadetex $(DOC)-en.tex
-	jadetex $(DOC)-en.tex
-	jadetex $(DOC)-en.tex
+	jade -t tex -d ../common/stylesheet-print.dsl -o $(basename $@).tex $(XML_DECL) $^
+	jadetex $(basename $@).tex
+	jadetex $(basename $@).tex
+	jadetex $(basename $@).tex
 	rm -f *.tex *.out *.aux *.log
-	dvips  -o $(DOC)-en.ps $(DOC)-en.dvi
-	zip $(DOC)-en-ps.zip $(DOC)-en.ps
+	dvips -o $@ $(basename $@).dvi
+	zip $(basename $@)-ps.zip $@ images/*.jpg
 
-pdf:
+$(LANG:%=$(DOC)-%.pdf): %.pdf: %.xml
 	/bin/cp ../common/magic-jpg.xml ../common/magic.xml
-	jade -t tex -o $(DOC)-en.tex -d ../common/stylesheet-print-noicones.dsl $(XML_DECL) $(DOC).xml
-	pdfjadetex $(DOC)-en.tex
-	pdfjadetex $(DOC)-en.tex
-	pdfjadetex $(DOC)-en.tex
+	jade -t tex -d ../common/stylesheet-print-noicones.dsl -o $(basename $@).tex $(XML_DECL) $^
+	pdfjadetex $(basename $@).tex
+	pdfjadetex $(basename $@).tex
+	pdfjadetex $(basename $@).tex
 	rm -f *.tex *.out *.aux *.log
-	zip $(DOC)-en-pdf.zip $(DOC)-en.pdf
+	zip $(basename $@)-pdf.zip $@ images/*.jpg
 
-rtf:
+$(LANG:%=$(DOC)-%.rtf): %.rtf: %.xml
 	/bin/cp ../common/magic-jpg.xml ../common/magic.xml
-	jade -t rtf -o $(DOC)-en.rtf -d ../common/stylesheet-print-noicones.dsl $(XML_DECL) $(DOC).xml
-	rm -f $(DOC)-en-rtf.zip
-	zip $(DOC)-en-rtf.zip $(DOC)-en.rtf images/*.jpg
+	jade -t rtf -d ../common/stylesheet-print-noicones.dsl -o $@ $(XML_DECL) $^
+	rm -f $(basename $@)-rtf.zip
+	zip $(basename $@)-rtf.zip $@ images/*.jpg
 
-txt:
+$(LANG:%=$(DOC)-%.txt): %.txt: %.xml
 	/bin/cp ../common/magic-jpg.xml ../common/magic.xml
-	jade -t sgml -V nochunks -d ../common/stylesheet-txt.dsl $(XML_DECL) $(DOC).xml > dump-en.html
-	lynx -force_html -dump dump-en.html > $(DOC)-en.txt
-	rm -f dump-en.html
+	jade -t sgml -d ../common/stylesheet-txt.dsl -V nochunks $(XML_DECL) $^ > $^.html
+#       w3m -dump $^.html > $@
+	lynx -force_html -dump $^.html > $@
+	rm -f $^.html
 
 clean:
-	rm -f *.zip *.html *.pdf *.ps *.rtf *.txt *.dvi *.tex *.out *.aux *.log
+	rm -f *.zip *.html *.pdf *.ps *.rtf *.txt *.dvi *.tex *.out *.aux *.log *.tmp $(DOC)-*.xml

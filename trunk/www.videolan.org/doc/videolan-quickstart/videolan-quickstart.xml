@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="iso8859-1" ?>
 
+
+
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.1//EN" "/usr/share/sgml/docbook/dtd/xml/4.1/docbookx.dtd"
+
 [
   <!ENTITY % magic-entities SYSTEM "../common/magic.xml">
     %magic-entities;
@@ -15,7 +18,7 @@
 
 ]>
 
-<book id="videolan-quickstart-en">
+<book id="videolan-quickstart">
 
 <bookinfo>
 
@@ -46,7 +49,10 @@
 
 <copyright>
     <year>2002, 2003</year>
-    <holder>the VideoLAN project</holder>
+    <holder>
+      <span xml:lang="en">the VideoLAN project</span>
+      <span xml:lang="fr">Le projet VideoLAN</span>
+    </holder>
 </copyright>
 
 <legalnotice>
@@ -80,7 +86,10 @@ Back-Cover Texts. The text of the license can be found in the appendix
 
 <abstract>
 
-<para>This document describes how to start using VideoLAN quickly.</para>
+<para>
+ <span xml:lang="en">This document describes how to start using VideoLAN quickly.</span>
+ <span xml:lang="fr">Ce document explique brièvement les bases de l'utilisation de VideoLAN</span>
+</para>
 
 </abstract>
 
@@ -99,3 +108,4 @@ Back-Cover Texts. The text of the license can be found in the appendix
 &fdl;
 
 </book>
+

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="iso8859-1" ?>
 
-<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook V4.1//EN" "/usr/share/sgml/docbook/dtd/xml/4.1.2/docbookx.dtd" >
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook V4.1//EN" "/usr/share/sgml/docbook/dtd/xml/4.1.2/docbookx.dtd">
+
 
 <article id="videolan-faq">
 
@@ -11,7 +12,6 @@
 <copyright>
 <year>2002, 2003</year>
 <holder>
-
 <span xml:lang="en">the VideoLAN project</span>
 <span xml:lang="es">el proyecto VideoLAN</span>
 <span xml:lang="fr">le projet VideoLAN</span>

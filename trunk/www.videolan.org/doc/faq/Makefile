@@ -5,6 +5,7 @@
 DOC = videolan-faq
 LANG = es fr en
 EXT = html ps pdf rtf txt
+XML_DECL := /usr/lib/sgml/declaration/xml.decl
 
 # The generic rule: build all extensions for all languages
 all: $(LANG)
@@ -20,13 +21,13 @@ $(LANG:%=$(DOC)-%.xml): $(DOC).xml
 
 $(LANG:%=$(DOC)-%.html): %.html: %.xml
 	cp ../common/magic-jpg.xml ../common/magic.xml
-	jade -t sgml -d ../common/stylesheet-html.dsl $^
+	jade -t sgml -d ../common/stylesheet-html.dsl $(XML_DECL) $^
 	ln -sf $@ index.html
 	zip $(basename $@)-html.zip $@
 
 $(LANG:%=$(DOC)-%.ps): %.ps: %.xml
 	cp ../common/magic-eps.xml ../common/magic.xml
-	jade -t tex -d ../common/stylesheet-print.dsl -o $(basename $@).tex $^
+	jade -t tex -d ../common/stylesheet-print.dsl -o $(basename $@).tex $(XML_DECL) $^
 	jadetex $(basename $@).tex
 	jadetex $(basename $@).tex
 	jadetex $(basename $@).tex
@@ -45,12 +46,12 @@ $(LANG:%=$(DOC)-%.pdf): %.pdf: %.xml
 
 $(LANG:%=$(DOC)-%.rtf): %.rtf: %.xml
 	cp ../common/magic-jpg.xml ../common/magic.xml
-	jade -t rtf -d ../common/stylesheet-print-noicones.dsl -o $@ $^
+	jade -t rtf -d ../common/stylesheet-print-noicones.dsl -o $@ $(XML_DECL) $^
 	zip $(basename $@)-rtf.zip $@
 
 $(LANG:%=$(DOC)-%.txt): %.txt: %.xml
 	cp ../common/magic-jpg.xml ../common/magic.xml
-	jade -t sgml -d ../common/stylesheet-txt.dsl -V nochunks $^ > $^.html
+	jade -t sgml -d ../common/stylesheet-txt.dsl -V nochunks $(XML_DECL) $^ > $^.html
 #	w3m -dump $^.html > $@
 	lynx -force_html -dump $^.html > $@
 	rm -f $^.html

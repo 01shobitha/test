@@ -7,7 +7,7 @@
 
 <xsl:output method="xml"
             encoding="iso8859-1"
-            doctype-public="-//OASIS//DTD DocBook V4.1//EN"
+            doctype-public="-//OASIS//DTD DocBook XML V4.1//EN"
             doctype-system="/usr/share/sgml/docbook/dtd/xml/4.1.2/docbookx.dtd"
             indent="yes"
 />

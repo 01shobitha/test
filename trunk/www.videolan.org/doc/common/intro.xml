@@ -1,9 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
 <chapter id="intro"><title id="tintro">Introduction</title>
 
-<sect1><title>What is the VideoLAN project ?</title>
+<sect1><title>
+<span xml:lang="en">What is the VideoLAN project ?</span>
+<span xml:lang="fr">Qu'est ce que le projet VideoLAN ?</span>
+</title>
 
-<sect2><title>Overview</title>
+<sect2><title>
+<span xml:lang="en">Overview</span>
+<span xml:lang="fr">Aperçu</span>
+</title>
 
+<span xml:lang="en">
 <para>VideoLAN is a complete software solution for video streaming, developed
 by students of the <ulink url="http://www.ecp.fr">Ecole Centrale
 Paris</ulink> and developers from all over the world, under the
@@ -13,22 +21,56 @@ bandwidth networks.</para>
 
 <para>The VideoLAN solution includes :</para>
 
+</span>
+
+<span xml:lang="en">
+<para>VideoLAN est une solution logicielle complète de diffusion vidéo, développée
+par des étudiants de l'<ulink url="http://www.ecp.fr">Ecole Centrale
+Paris</ulink> et des développeurs du monde entier, sous licnese
+<ulink url="http://www.gnu.org/copyleft/gpl.html">GNU General Public
+License</ulink> (GPL). VideoLAN est conçu pour diffuser des vidéos MPEG
+sur des réseauxhaut déit.</para>
+
+<para>La solution VideoLAN comprends :</para>
+
+</span>
+
+
 <itemizedlist>
 
+<span xml:lang="en">
 <listitem><para>VLS (VideoLAN Server), which can stream MPEG-1, MPEG-2
 and MPEG-4 files, DVDs, digital satellite channels, digital terrestial
 television channels and live videos on the network in unicast or
 multicast,</para></listitem>
+</span>
 
+<span xml:lang="fr">
+<listitem><para>VLS (VideoLAN Server), qui est capable de diffuser des fichiers MPEG-1, MPEG-2 et MPEG-4, des DVDs, des canaux satellite numériques, des chaînes de télévision numérique terrestre, et de la vidéo en temps réel sur un réseau en unicast ou multicast,</para></listitem>
+</span>
+
+<span xml:lang="en">
 <listitem><para>VLC (initialy VideoLAN Client), which can be used as
 a server to stream MPEG-1, MPEG-2 and MPEG-4 files, DVDs and live
 videos on the network in unicast or multicast ; or used as a client
 to receive, decode and display MPEG streams under multiple operating
 systems.</para></listitem>
+</span>
+
+<span xml:lang="fr">
+<listitem><para>VLC (à l'origine, VideoLAN Client), qui peut être utilisé en tant que serveur, pour diffuser des fichiers MPEG-1, MPEG-2 et MPEG-4, des DVDs, ou de la vidéo en temps réel sur un réseau en unicast ou multicast ; ou utilisé en temps que client pour recevoir, décoder et afficher des flux vidéo sous de nombreux systèmes d'exploitation
+.</para></listitem>
+</span>
 
 </itemizedlist>
 
+<span xml:lang="en">
 <para>Here is an illustration of the complete VideoLAN solution :</para>
+</span>
+
+<span xml:lang="fr">
+<para>Voici le schéma global de la solution VideoLAN complète :</para>
+</span>
 
 <figure><title>Global VideoLAN solution</title>
 <mediaobject>
@@ -38,58 +80,130 @@ systems.</para></listitem>
 </mediaobject>
 </figure>
 
+<span xml:lang="en">
 <para>More details about the project can be found on the <ulink
 url="http://www.videolan.org/">VideoLAN Web site</ulink>.</para>
-
+</span>
+<span xml:lang="en">
+<para>De plus amples détails sur le projet peuvent être trouvés sur le  <ulink
+url="http://www.videolan.org/">Site web de VideoLAN</ulink>.</para>
+</span>
 </sect2>
 
-<sect2><title>VideoLAN software</title>
+<sect2><title>
+<span xml:lang="en">VideoLAN software</span>
+<span xml:lang="fr">Logiciels VideoLAN</span>
+</title>
 
 <simplesect><title>VLC</title>
 
+<span xml:lang="en">
 <para>VLC works on many platforms : Linux, Windows, Mac OS X, BeOS,
 *BSD, Solaris, Familiar Linux, Yopy/Linupy and QNX. It can read :</para>
+</span>
+
+<span xml:lang="fr">
+<para>VLC fonctionne sur de nombreuses plateformes : Linux, Windows, Mac OS X, BeOS,
+*BSD, Solaris, Familiar Linux, Yopy/Linupy et QNX. Il est capable de lire :</para>
+</span>
 
 <itemizedlist>
 
-<listitem><para>MPEG-1, MPEG-2 and MPEG-4 / DivX files from a hard disk
-or a CD-ROM drive,</para></listitem>
+<span xml:lang="en">
+<listitem><para>MPEG-1, MPEG-2 and MPEG-4 / DivX files from a hard disk, 
+a CD-ROM drive, ...</para></listitem>
+</span>
+<span xml:lang="fr">
+<listitem><para>Des fichiers MPEG-1, MPEG-2 et MPEG-4 / DivX 
+depuis un disque dur, un lecteur de CD-ROM, ...</para></listitem>
+</span>
 
+<span xml:lang="en">
 <listitem><para>DVDs and VCDs,</para></listitem>
+</span>
+<span xml:lang="fr">
+<listitem><para>Des DVDs et VCDs,</para></listitem>
+</span>
 
+<span xml:lang="en">
 <listitem><para>from a satellite card (DVB-S),</para></listitem>
+</span>
+<span xml:lang="fr">
+<listitem><para>depuis une carte satellite (DVB-S),</para></listitem>
+</span>
 
+<span xml:lang="en">
 <listitem><para>MPEG-1, MPEG-2 and MPEG-4 streams from the
 network sent by VLS or VLC's stream output.</para></listitem>
+</span>
+<span xml:lang="fr">
+<listitem><para>Des flux MPEG-1, MPEG-2 et MPEG-4 envoyés sur le réseau 
+par un VLS ou un VLC.</para></listitem>
+</span>
 
 </itemizedlist>
 
-<para>VLC can also be used as a server to stream :</para>
+<para>
+<span xml:lang="en">VLC can also be used as a server to stream :</span>
+<span xml:lang="en">VLC peut également être employé en tant que serveur
+ pour diffuser:</span>
+</para>
 
 <itemizedlist>
 
+<span xml:lang="en">
 <listitem><para>MPEG-1, MPEG-2 and MPEG-4 / DivX files,</para></listitem>
+</span>
+<span xml:lang="fr">
+<listitem><para>Des fichiers MPEG-1, MPEG-2 et MPEG-4 / DivX ,</para></listitem>
+</span>
 
+<span xml:lang="en">
 <listitem><para>DVDs,</para></listitem>
+</span>
+<span xml:lang="fr">
+<listitem><para>des DVDs,</para></listitem>
+</span>
 
+<span xml:lang="en">
 <listitem><para>from an MPEG encoding card,</para></listitem>
+</span>
+<span xml:lang="fr">
+<listitem><para>depuis une carte d'encodage MPEG,</para></listitem>
+</span>
 
 </itemizedlist>
 
-<para>to :</para>
+<para>
+ <span xml:lang="en">to :</span>
+ <span xml:lang="en">vers :</span></para>
 
 <itemizedlist>
 
+<span xml:lang="en">
 <listitem><para>one machine (i.e. to one IP address) : this is called
 <emphasis>unicast</emphasis>,</para></listitem>
+</span>
+<span xml:lang="fr">
+<listitem><para>une machine (c'est à dire à une addresse IP) :
+ ceci est appelé  <emphasis>unicast</emphasis>,</para></listitem>
+</span>
 
+<span xml:lang="en">
 <listitem><para>a dynamic group of machines that the clients can
 join or leave (i.e. to a multicast IP address) : this is called
 <emphasis>multicast</emphasis>,</para></listitem>
+</span>
+<span xml:lang="fr">
+<listitem><para>Un groupe dynamique de machines que les clients
+rejoignent ou quittent (une addresse IP multicast): ceci est appelé
+<emphasis>multicast</emphasis>,</para></listitem>
+</span>
 
 </itemizedlist>
 
-<para>in IPv4 or IPv6.</para>
+<para><span xml:lang="en">in IPv4 or IPv6</span>
+      <span xml:lang="fr">en IPv4 ou en IPv6</span>.</para>
 
 <para>To get the complete list of VLC's possibilities
 on each plateform supported, see the <ulink
@@ -149,11 +263,19 @@ page</ulink>.</para>
 
 <simplesect><title>Mini-SAP-server</title>
 
-<para>You can add a channel information service based on the SAP/SDP
+<para>
+<span xml:lang="en">You can add a channel information service based on the SAP/SDP
 standard to the VideoLAN solution. The mini-SAP-server sends announces
 about the multicast programs on the network in IPv4 or IPv6, and VLCs
 receive these annouces and automatically add the programs announced to
-their playlist.</para>
+their playlist.</span>
+<span xml:lang="fr">Vous pouvez ajouter un service de découverte de
+services utilisant le standard SAP/SDP sur la solution VideoLAN. Le
+mini-SAP-server envoie des annonces indiquant les programmes multicast
+sur le réseau en IPv4 ou en IPv6 et les VLCs reçoivent ces annonces
+et ajoutent automatiquement les programmes annoncés à leur liste de
+lecture.</span>
+</para>
 
 <para>The mini-SAP-server works under Linux and Mac OS X.</para>
 
@@ -234,18 +356,36 @@ page</ulink>.</para>
 </sect2>
 </sect1>
 
-<sect1><title>Command line usage</title>
+<sect1><title>
+<span xml:lang="en">Command line usage</span>
+<span xml:lang="fr">Utilisation de la ligne de commande</span>
+</title>
 
 <itemizedlist>
 
-<listitem><para>VLC has many different graphical interfaces, that
+
+<listitem><para>
+<span xml:lang="en">
+VLC has many different graphical interfaces, that
 are organized quite differently in order to be in harmony with the
 guidelines of each operating system supported. Documenting the use
 of each graphical interface is too long, and some features are only
 available via the command line interface. Therefore we decided to
 document only the command line interface, but in many cases it shoud
 be easy to guess how to use the graphical interface for the same use
-!</para></listitem>
+!
+</span>
+<span xml:lang="fr">
+VLC possède un certain nombre d'interfaces graphiques différentes, qui
+sont organisées de façon assez diverses, de façon à s'harmoniser avec
+le style de chaque système d'exploitation. Documenter l'utilisation de
+chaque interface graphique serait très long et certaines fonctionnalités
+ne sont accessibles que depuis l'interface en ligne de commande. C'est
+pourquoi nous avons décidé de ne documenter que l'interface en ligne de
+commande, mais dans la plupart des cas, il devrait être assez facile
+de deviner comment utiliser l'interface graphique pour le même usage
+!</span>
+</para></listitem>
 
 <listitem><para>VLS has a command line and a telnet interface, but no
 graphical interface !</para></listitem>

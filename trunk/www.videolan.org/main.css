@@ -138,7 +138,7 @@ td.red    { color: black; background-image: none; background-color: #eaa; }
 td.yes {
   color: black;
   background-image: none;
-  background-color: #eaa;
+  background-color: #aea;
   vertical-align: middle;
 }
 td.no {
@@ -150,18 +150,18 @@ td.no {
 td.type {
   color: black;
   background-image: none;
-  background-color: #eaa;
+/*  background-color: #eaa; */
   vertical-align: middle;
 }
 td.category {
   color: black;
   background-image: none;
-  background-color: #eaa;
+/*  background-color: #eaa; */
   vertical-align: middle;
 }
 th.os {
   color: black;
   background-image: none;
-  background-color: #eaa;
+/*  background-color: #eaa; */
   vertical-align: middle;
 }

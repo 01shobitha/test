@@ -8,8 +8,7 @@
   <!ENTITY receive SYSTEM "receive.sgml">
   <!ENTITY file SYSTEM "file.sgml">
   <!ENTITY dvd SYSTEM "dvd.sgml">
-  <!ENTITY dvbs SYSTEM "dvbs.sgml">
-  <!ENTITY dvbt SYSTEM "dvbt.sgml">
+  <!ENTITY dvb SYSTEM "dvb.sgml">
   <!ENTITY hardencoding SYSTEM "hardencoding.sgml">
   <!ENTITY softencoding SYSTEM "softencoding.sgml">
   <!ENTITY vod SYSTEM "../videolan-quickstart/vod.sgml">
@@ -101,8 +100,7 @@ solution.</para>
 &receive;
 &file;
 &dvd;
-&dvbs;
-&dvbt;
+&dvb;
 &hardencoding;
 &softencoding;
 &vod;

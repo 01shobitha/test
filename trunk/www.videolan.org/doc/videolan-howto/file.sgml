@@ -4,7 +4,7 @@
 <sect1><title>Stream a file with VLC</title>
 
 <screen>
-<prompt>% </prompt><userinput>vlc /media/video/video1.avi --sout udp://192.168.0.12 --ttl 12</userinput>
+<prompt>% </prompt><userinput>vlc /media/video/video1.avi --sout udp://192.168.0.42 --ttl 12</userinput>
 </screen>
 
 <para>where :</para>
@@ -14,7 +14,7 @@
 <listitem><para><filename>/media/video/video1.avi</filename> is the file
 you want to stream,</para>
 
-<listitem><para><emphasis>192.168.0.12</emphasis> is either :
+<listitem><para><emphasis>192.168.0.42</emphasis> is either :
 
 <itemizedlist>
 <listitem><para>the IP address of the machine you want to unicast to ;</para>
@@ -43,7 +43,7 @@ as the VLC install directory.</para></note>
 
 
 <screen>
-<prompt>% </prompt><userinput>vls -vv -d udp:192.168.0.12 file:/media/video/video1.vob --ttl 12</userinput>
+<prompt>% </prompt><userinput>vls -vv -d udp:192.168.0.42 file:/media/video/video1.vob --ttl 12</userinput>
 </screen>
 
 <para>where :</para>
@@ -53,7 +53,7 @@ as the VLC install directory.</para></note>
 <listitem><para><filename>/media/video/video1.vob</filename> is the file
 you want to stream,</para>
 
-<listitem><para><emphasis>192.168.0.12</emphasis> is either :
+<listitem><para><emphasis>192.168.0.42</emphasis> is either :
 
 <itemizedlist>
 <listitem><para>the IP address of the machine you want to unicast to ;</para>

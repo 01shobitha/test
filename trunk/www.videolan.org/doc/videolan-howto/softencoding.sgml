@@ -27,7 +27,7 @@ CVS.</para></note>
 this feature.</para></note>
 
 <screen>
-<prompt>% </prompt><userinput>vlc v4l:/dev/video:channel=0:frequency=8052:norm=secam:size=vga --sout udp:192.168.0.12 --ttl 12</userinput>
+<prompt>% </prompt><userinput>vlc v4l:/dev/video:channel=0:frequency=8052:norm=secam:size=vga --sout udp:192.168.0.42 --ttl 12</userinput>
 </screen>
 
 <para>where :</para>
@@ -40,7 +40,7 @@ corresponding to your acquisition card,</para>
 <listitem><para><emphasis>frequency, norm and size</emphasis> are
 parameters passed to your card,</para>
 
-<listitem><para><emphasis>192.168.0.12</emphasis> is either :</para>
+<listitem><para><emphasis>192.168.0.42</emphasis> is either :</para>
 
 <itemizedlist>
 <listitem><para>the IP address of the machine you want to unicast to ;</para>
@@ -95,7 +95,7 @@ BEGIN "webcam"
   # Size possibilities: can be either:
   # - empty string : default size
   # - width x height
-  # - subQCIF(128x96), QSIF(160x120), QCIF(176x144), SIF(320x240),
+  # - subQCIF(128x96), QSIF(160.120), QCIF(176x144), SIF(320x240),
   #   CIF(352x288), VGA (640x480)
   Size          = ""
 

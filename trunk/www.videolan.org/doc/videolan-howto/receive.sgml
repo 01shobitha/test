@@ -86,6 +86,9 @@ address of the stream.</para>
 
 <sect1><title>Receive a stream with a Set Top Box</title>
 
-<para>[TODO]</para>
+<para>Some <ulink url="http://www.pace.co.uk">Pace</ulink> and <ulink
+url="http://www.aminocom.com">Aminocom</ulink> set top boxes have
+Ethernet cards and can read MPEG2-TS over UDP streams. We had some
+reports that they work with the VideoLAN streamers.</para>
 
 </chapter>

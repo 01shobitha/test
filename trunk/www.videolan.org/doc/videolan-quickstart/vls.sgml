@@ -1,0 +1,146 @@
+<chapter id="vls"><title id="tvls">The VideoLAN Server</title>
+
+
+<sect1><title>Installing the VideoLAN Server</title>
+
+&install-vls;
+
+</sect1>
+
+<sect1><title>Running the VideoLAN Server</title>
+
+<sect2><title>Unicast an MPEG file</title>
+
+<simplesect><title>Start vls</title>
+
+<itemizedlist>
+
+<listitem><para>under Windows, open a command shell, go to the directory
+where you installed vls and type :</para>
+
+<screen>
+<prompt>&gt; </prompt><userinput>vls -d udp:10.0.0.2 file:C:\films\movie.mpg</userinput>
+</screen>
+
+<para>where <filename>C:\films\movie.mpg</filename> is the MPEG 1 or
+MPEG 2 file you want to stream and <emphasis>10.0.0.2</emphasis> is the
+IP address of the machine you want to stream to.</para>
+
+<listitem><para>under Linux :</para>
+
+<screen>
+<prompt>% </prompt><userinput>vls -d udp:10.0.0.2 file:/mnt/films/movie.mpg</userinput>
+</screen>
+
+<para>where <filename>/mnt/films/movie.mpg</filename> is the MPEG 1 or
+MPEG 2 file you want to stream and <emphasis>10.0.0.2</emphasis> is the
+IP address of the machine you want to stream to.</para>
+
+</itemizedlist>
+
+<simplesect><title>Start vlc</title>
+
+<para>Launch vlc on the machine which receives the stream, then click on
+the <emphasis>net</emphasis> button or select <emphasis>File / Network
+stream</emphasis>, select <emphasis>UDP</emphasis>, keep the default
+port and click on <emphasis>OK</emphasis>.</para>
+
+<sect2><title>Unicast a DVD</title>
+
+<simplesect><title>Start vls</title>
+
+<note><para>For the moment, the Windows port of vls doesn't support DVD
+streaming.</para></note>
+
+<para>
+
+You must have write access to the device
+corresponding to your DVD drive. For that, you should be in the
+<emphasis>disk</emphasis> or <emphasis>cdrom</emphasis> group (look
+at the permissions in <filename>/dev</filename>). If you're not, add
+yourself to the group :
+
+</para>
+
+<screen>
+<prompt># </prompt><userinput>adduser your_login disk_or_cdrom</userinput>
+</screen>
+
+<para>and then restart your session.</para>
+
+<para>Then run vls using the following command line :</para>
+
+<screen>
+<prompt>% </prompt><userinput>vls -d udp:10.0.0.2 dvd:/dev/dvd</userinput>
+</screen>
+
+<para>where <filename>/dev/dvd</filename> is the device corresponding to
+your DVD drive and <emphasis>10.0.0.2</emphasis> is the IP address of
+the vlc you want to stream to.</para>
+
+
+<simplesect><title>Start vlc</title>
+
+<para>Use the same procedure as in the previous section.</para>
+
+<sect2><title>Multicast to several VLC's</title>
+
+<simplesect><title>What is multicast ?</title>
+
+<para>Multicast is a norm implemented in all modern network hardware
+(switches, routers, ...). It provides an intelligent manner to send a
+stream to a dynamic group of machines. If you want to use multicast,
+make sure that all your network hardware support it.</para>
+
+<para>In multicast streaming, the stream is sent to a multicast IP
+address (the IP addresses reserved for this purpose are from 224.0.0.0
+to 239.255.255.255). Then, any machine on the network can join the
+multicast group by sending a request on the network, and it will
+automatically receive the stream. When it sends a request to leave the
+group, it will automatically stop receiving the stream. The advantage of
+multicast streaming is that only the machines that want to receive the
+stream actually receive it, and the vls only sends one stream even if
+there are multiple clients receiving it.</para>
+
+<simplesect><title>Start vls</title>
+
+<itemizedlist>
+
+<listitem><para>under Windows, open a command shell, go to the directory
+where you installed vls and type :</para>
+
+<screen>
+<prompt>&gt; </prompt><userinput>vls -d udp:239.255.12.42 file:C:\films\movie.mpg</userinput>
+</screen>
+
+<para>where <filename>C:\films\movie.mpg</filename> is the MPEG 1 or
+MPEG 2 file you want to stream and <emphasis>239.255.12.42</emphasis> is the
+multicast IP address you have chosen.</para>
+
+<listitem><para>under Linux :</para>
+
+<screen>
+<prompt>% </prompt><userinput>vls -d udp:239.255.12.42 file:/mnt/films/movie.mpg</userinput>
+</screen>
+
+<para>where <filename>/mnt/films/movie.mpg</filename> is the MPEG 1 or
+MPEG 2 file you want to stream and <emphasis>239.255.12.42</emphasis> is the
+multicast IP address you have chosen.</para>
+
+</itemizedlist>
+
+<note><para>You can also multicast a DVD if vls is running under
+Linux : replace <emphasis>file:/mnt/films/movie.mpg</emphasis> by
+<command>dvd:/dev/dvd</command> where <filename>/dev/dvd</filename> is
+the device corresponding to your DVD drive.</para></note>
+
+<simplesect><title>Start vlc(s)</title>
+
+<para>Launch vlc, then click on the <emphasis>net</emphasis> button or
+select in the menu <emphasis>File / Network stream</emphasis>, select
+<emphasis>UDP Multicast</emphasis>, type the multicast IP address and
+click on <emphasis>OK</emphasis>.</para>
+
+</sect2>
+
+</sect1>

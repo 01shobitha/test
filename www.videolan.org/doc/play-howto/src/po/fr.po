@@ -3345,7 +3345,7 @@ msgid ""
 " VLC can also be embedded in a web browser ! At\n"
 "the moment, this function is only available with <ulink\n"
 "url=\"http://www.mozilla.org/\">Mozilla</ulink> or <ulink url=\"http://www.mozilla.org/products/firefox/\">Firefox</ulink>.\n"
-msgstr "VLC peut aussi être embarqué dans un navigateur web! Pour l'instant, cette fonctionalité n'est disponible que sur <ilink url=\"http://www.mozilla.org/\">Mozilla</ulink> ou <ulink url=\"http://www.mozilla.org/products/firefox/\">Firefox</ulink>.\n"
+msgstr "VLC peut aussi Ãªtre embarquÃ© dans un navigateur web! Pour l'instant, cette fonctionalitÃ© n'est disponible que sur <ilink url=\"http://www.mozilla.org/\">Mozilla</ulink> ou <ulink url=\"http://www.mozilla.org/products/firefox/\">Firefox</ulink>.\n"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/advanced-use.xml:870
@@ -3367,7 +3367,7 @@ msgid ""
 "You should already have the following lines in your\n"
 msgstr ""
 "\n"
-"Vous devriez déjà avoir ces quelques lignes dans votre fichier\n"
+"Vous devriez dÃ©jÃ  avoir ces quelques lignes dans votre fichier\n"
 
 # type: Content of: <chapter><sect1><sect2><simplesect><para><filename>
 #: en/advanced-use.xml:876 en/install.xml:66 en/install.xml:88
@@ -3382,7 +3382,7 @@ msgid ""
 "\n"
 " file, if you run Debian Woody:\n"
 msgstr ""
-", si vous êtes sous Bebian Woody:\n"
+", si vous Ãªtes sous Bebian Woody:\n"
 
 # type: Content of: <chapter><sect1><sect2><simplesect><programlisting>
 #: en/advanced-use.xml:880 en/install.xml:68
@@ -3404,7 +3404,7 @@ msgid ""
 " VLC's latest packaged version is always in the official Debian unstable branch. However you should still use our apt-get line if you need libdvdcss in its latest version:\n"
 msgstr ""
 "\n"
-" La dernière version des packages de VLC est toujours disponible pour la version unstable de la Debian. Néammoins, vous devez toujours utiliser apt-get si vous voulez libdvdcss dans sa dernière version:\n"
+" La derniÃ¨re version des packages de VLC est toujours disponible pour la version unstable de la Debian. NÃ©ammoins, vous devez toujours utiliser apt-get si vous voulez libdvdcss dans sa derniÃ¨re version:\n"
 
 # type: Content of: <chapter><sect1><sect2><sect3><programlisting>
 #: en/advanced-use.xml:889
@@ -3464,13 +3464,13 @@ msgid ""
 "Files\\Mozilla\\plugins</emphasis> or <emphasis>C:\\Program Files\\Mozilla\n"
 "Firefox\\plugins</emphasis>)."
 msgstr ""
-"Copiez les 2 fichiers situés dans <emphasis>Répertoire_d_installation_de_VLC\\mozilla</emphasis> (habituellement <emphasis>C:\\Progam Files\\VideoLAN\\VLC\\mozilla</emphasis>) vers le répertoire des plugins de Mozilla (habituellement <emphasis>C/\\Progam Files\\Mozilla\\plugins</emphasis> ou <emphasis>C:\\Program Files\\Mozilla\\Firefox\\plugins</emphasis>)."
+"Copiez les 2 fichiers situÃ©s dans <emphasis>RÃ©pertoire_d_installation_de_VLC\\mozilla</emphasis> (habituellement <emphasis>C:\\Progam Files\\VideoLAN\\VLC\\mozilla</emphasis>) vers le rÃ©pertoire des plugins de Mozilla (habituellement <emphasis>C/\\Progam Files\\Mozilla\\plugins</emphasis> ou <emphasis>C:\\Program Files\\Mozilla\\Firefox\\plugins</emphasis>)."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/advanced-use.xml:916
 #, no-wrap
 msgid "Restart Firefox or Mozilla"
-msgstr "Redémarrez Mozilla ou Firefox"
+msgstr "RedÃ©marrez Mozilla ou Firefox"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/advanced-use.xml:920
@@ -3480,7 +3480,7 @@ msgid ""
 "Compile the sources yourself\n"
 msgstr ""
 "\n"
-"Pour compiler vous-même les sources\n"
+"Pour compiler vous-mÃªme les sources\n"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/advanced-use.xml:924
@@ -3490,7 +3490,7 @@ msgid ""
 "url=\"http://developers.videolan.org\">developers page</ulink> for\n"
 "information on how to do this. "
 msgstr ""
-"Allez voir la <ulink url=\"http://developpers.videolan.org\">developers page</ulink> pour plus d'informations sur la foçon de faire ceci."
+"Allez voir la <ulink url=\"http://developpers.videolan.org\">developers page</ulink> pour plus d'informations sur la foÃ§on de faire ceci."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/advanced-use.xml:931
@@ -3507,7 +3507,7 @@ msgid ""
 "or a page with an embedded video, the plugin should open and read the\n"
 "video."
 msgstr ""
-"Si vous cliquez sur un lien vers une vidéo supportée par le plugin VLC (pour obtenir la liste des formats supportés, allez voir <userinput>about:plugins</userinput>) ou une page contenant une vidéo, le plugin devrait ouvrir et lire la vidéo."
+"Si vous cliquez sur un lien vers une vidÃ©o supportÃ©e par le plugin VLC (pour obtenir la liste des formats supportÃ©s, allez voir <userinput>about:plugins</userinput>) ou une page contenant une vidÃ©o, le plugin devrait ouvrir et lire la vidÃ©o."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/advanced-use.xml:940
@@ -3528,7 +3528,7 @@ msgid ""
 "Javascript functions to control playback or extract information from the\n"
 "plugin."
 msgstr ""
-"En plus d'inclure des vidéos sur vos pages, vous pouvez construire des pages qui utilisent les fonctionalités avancées du plugin, grâce à des fonctions Javascript pour contrôler la lecture ou récupérer des informations du plugin."
+"En plus d'inclure des vidÃ©os sur vos pages, vous pouvez construire des pages qui utilisent les fonctionalitÃ©s avancÃ©es du plugin, grÃ¢ce Ã  des fonctions Javascript pour contrÃ´ler la lecture ou rÃ©cupÃ©rer des informations du plugin."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/advanced-use.xml:949
@@ -3540,7 +3540,7 @@ msgstr "Le plugin VLC supporte les fonctions suivantes:"
 #: en/advanced-use.xml:952
 #, no-wrap
 msgid "<command>play()</command> : Start playing media in the plugin."
-msgstr "<command>play()</command> : Démarre la lecture d'un média avec le plugin."
+msgstr "<command>play()</command> : DÃ©marre la lecture d'un mÃ©dia avec le plugin."
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/advanced-use.xml:953
@@ -3558,13 +3558,13 @@ msgstr "<command>stop()</command> : Stoppe la lecture"
 #: en/advanced-use.xml:955
 #, no-wrap
 msgid "<command>fullscreen()</command> : Switch the video to full screen."
-msgstr "<command>fullscreen()</command> : Bascule la vidéo en plein écran"
+msgstr "<command>fullscreen()</command> : Bascule la vidÃ©o en plein Ã©cran"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/advanced-use.xml:956
 #, no-wrap
 msgid "<command>set_volume(vol)</command> : Set the volume. <emphasis>vol</emphasis> has to be an int in the 0-200 range."
-msgstr "<command>set_volume(vol)</command> : Définit le volume. <emphasis>vol</emphasis> doit être un entier entre 0 et 200."
+msgstr "<command>set_volume(vol)</command> : DÃ©finit le volume. <emphasis>vol</emphasis> doit Ãªtre un entier entre 0 et 200."
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/advanced-use.xml:957
@@ -3624,7 +3624,7 @@ msgstr "<command>clear_playlist()</command> : Vide la playlist."
 #: en/advanced-use.xml:966
 #, no-wrap
 msgid "<command>add_item(mrl>)</command> : Append an item whose location is given by the Media Resource Locator to the playlist."
-msgstr "<command>add_item(mrl>)</command> : Ajoute à la playlist un élément dont l'adresse est donnée par Media Resource Locator."
+msgstr "<command>add_item(mrl>)</command> : Ajoute Ã  la playlist un Ã©lÃ©ment dont l'adresse est donnÃ©e par Media Resource Locator."
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/advanced-use.xml:967
@@ -3648,7 +3648,7 @@ msgstr "<command>isplaying()</command> : revoie vrai si si le plugin lit quelque
 #: en/advanced-use.xml:970
 #, no-wrap
 msgid "<command>get_length()</command> : Get the media's length in seconds."
-msgstr "<command>get_lenght()</command> : Renvoie la longueur du média en secondes"
+msgstr "<command>get_lenght()</command> : Renvoie la longueur du mÃ©dia en secondes"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/advanced-use.xml:971
@@ -3666,7 +3666,7 @@ msgstr "<command>get_time()</command> : Renvoie la position du curseur de lectur
 #: en/advanced-use.xml:973
 #, no-wrap
 msgid "<command>seek(seconds,is_relative)</command> : If is_relative is true, seek relatively to current time, else seek from beginning of the stream. Seek time is specified in seconds."
-msgstr "<command>seek(seconds,is_relative)</command> : Si is_relative est vrai, déplace le curseur de lecture par rapport à la position actuelle, sinon, à partir du début du média. La longueur du déplacement est spécifiée en secondes."
+msgstr "<command>seek(seconds,is_relative)</command> : Si is_relative est vrai, dÃ©place le curseur de lecture par rapport Ã  la position actuelle, sinon, Ã  partir du dÃ©but du mÃ©dia. La longueur du dÃ©placement est spÃ©cifiÃ©e en secondes."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/advanced-use.xml:976
@@ -3677,7 +3677,7 @@ msgid ""
 "Mozilla plugin.\n"
 msgstr ""
 "\n"
-"Ci-après quelques exemples de pages HTML utilisant le plugin Mozilla.\n"
+"Ci-aprÃ¨s quelques exemples de pages HTML utilisant le plugin Mozilla.\n"
 
 # type: Content of: <chapter><sect1><sect2><simplesect><title>
 #: en/advanced-use.xml:981
@@ -3698,7 +3698,7 @@ msgid ""
 "inside the web page. If the user goes fullscreen, he will have to press\n"
 msgstr ""
 "\n"
-"Dans cet exemple, le plugin va lire un flux HTTP à l'intérieur même de la page. Si l'utilisateur lit en plein écran, il doit taper\n"
+"Dans cet exemple, le plugin va lire un flux HTTP Ã  l'intÃ©rieur mÃªme de la page. Si l'utilisateur lit en plein Ã©cran, il doit taper\n"
 
 # type: Content of: <chapter><sect1><sect2><simplesect><para><keycap>
 #: en/advanced-use.xml:988
@@ -3761,7 +3761,7 @@ msgid ""
 " In this example, the plugin will read a\n"
 "multicast UDP stream in a dedicated video output window.\n"
 msgstr ""
-" Dans cet exemple, le plugin va lire un flux UDP multicast dans une fenêtre dédiée.\n"
+" Dans cet exemple, le plugin va lire un flux UDP multicast dans une fenÃªtre dÃ©diÃ©e.\n"
 
 # type: Content of: <chapter><sect1><sect2><simplesect><programlisting>
 #: en/advanced-use.xml:1024
@@ -3796,7 +3796,7 @@ msgid ""
 "Introduction to VLC"
 msgstr ""
 "\n"
-"Introduction à VLC"
+"Introduction Ã  VLC"
 
 # type: Content of: <book><bookinfo><copyright><holder>
 #: en/intro.xml:5
@@ -3819,7 +3819,7 @@ msgid ""
 "License</ulink> (GPL). VideoLAN is designed to stream MPEG videos on high\n"
 "bandwidth networks."
 msgstr ""
-"VideoLAN est une solution complète pour la lecture et la diffusion de vdéo par réseau, développée par des étudiants de l'<ulink url=\"http://www.ecp.fr\">Ecole Centrale Paris</ulink> et des développeurs du monde entier, sous licence <ulink url=\"http://www.gnu.org/copyleft/gpl.html>GNU General Public License</ulink> (GPL). VideoLAN est concu pour diffuser des vidéos MPEG sur des réseaux haut débit."
+"VideoLAN est une solution complÃ¨te pour la lecture et la diffusion de vdÃ©o par rÃ©seau, dÃ©veloppÃ©e par des Ã©tudiants de l'<ulink url=\"http://www.ecp.fr\">Ecole Centrale Paris</ulink> et des dÃ©veloppeurs du monde entier, sous licence <ulink url=\"http://www.gnu.org/copyleft/gpl.html>GNU General Public License</ulink> (GPL). VideoLAN est concu pour diffuser des vidÃ©os MPEG sur des rÃ©seaux haut dÃ©bit."
 
 # type: Content of: <chapter><sect1><para>
 #: en/intro.xml:16
@@ -3829,7 +3829,7 @@ msgid ""
 "but VideoLAN's main software, VLC media player has evolved to become a\n"
 "full-featured cross-platform media player."
 msgstr ""
-"VideoLAN a été historiquement concu pour la diffusion sur réseau, mais le principal logiciel du projet, VLC media player, est devenu un lecteur multimédia tout-en-un multi-plateformes."
+"VideoLAN a Ã©tÃ© historiquement concu pour la diffusion sur rÃ©seau, mais le principal logiciel du projet, VLC media player, est devenu un lecteur multimÃ©dia tout-en-un multi-plateformes."
 
 # type: Content of: <chapter><sect1><para>
 #: en/intro.xml:20
@@ -3838,13 +3838,13 @@ msgid ""
 "More details about the project can be found on the <ulink\n"
 "url=\"http://www.videolan.org/\">VideoLAN Web site</ulink>."
 msgstr ""
-"Plus de détails concernant le projet peuvent être trouvés sur le site web de <ulink url=\"http://www.videolan.org/\">VideoLAN</ulink>."
+"Plus de dÃ©tails concernant le projet peuvent Ãªtre trouvÃ©s sur le site web de <ulink url=\"http://www.videolan.org/\">VideoLAN</ulink>."
 
 # type: Content of: <chapter><sect1><para>
 #: en/intro.xml:27
 #, no-wrap
 msgid "Originally called VideoLAN Client, VLC media player is the main software of the VideoLAN solution."
-msgstr "Historiquement appellé VideoLAN Client, VLC media player est le principal logiciel de la solution VideoLAN."
+msgstr "Historiquement appellÃ© VideoLAN Client, VLC media player est le principal logiciel de la solution VideoLAN."
 
 # type: Content of: <chapter><sect1><para>
 #: en/intro.xml:29
@@ -3883,7 +3883,7 @@ msgid ""
 "Several types of network stream : UDP Unicast,\n"
 "UDP Multicast (MPEG-TS), HTTP, RTP/RTSP, MMS, etc ."
 msgstr ""
-"De nombreux types de flux réseau: UDP Unicast, UDP Multicast (MPEG-TS), HTTP, RTP/RSTP, MMS, etc ."
+"De nombreux types de flux rÃ©seau: UDP Unicast, UDP Multicast (MPEG-TS), HTTP, RTP/RSTP, MMS, etc ."
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/intro.xml:41
@@ -3903,7 +3903,7 @@ msgid ""
 "url=\"http://www.videolan.org/doc/streaming-howto\">Streaming\n"
 "Howto</ulink>"
 msgstr ""
-"VLC peut également être utilisé comme serveur de streaming. Ces fonctionalités sont détaillées dans le <ulink url=\"http://www.videolan.org/doc/streaming-howto\">Streaming Howto</ulink>"
+"VLC peut Ã©galement Ãªtre utilisÃ© comme serveur de streaming. Ces fonctionalitÃ©s sont dÃ©taillÃ©es dans le <ulink url=\"http://www.videolan.org/doc/streaming-howto\">Streaming Howto</ulink>"
 
 # type: Content of: <chapter><sect1><para>
 #: en/intro.xml:51
@@ -3912,7 +3912,7 @@ msgid ""
 "The present guide describes all the client (playback) aspects of\n"
 "VLC"
 msgstr ""
-"Ce guide décrit toutes les fonctionalités de lecture de VLC" 
+"Ce guide dÃ©crit toutes les fonctionalitÃ©s de lecture de VLC" 
 
 # type: Content of: <chapter><sect1><title>
 #: en/intro.xml:56
@@ -3938,7 +3938,7 @@ msgid ""
 "The user documentation of VideoLAN is made up of 4 documents:\n"
 msgstr ""
 "\n"
-"La documentation de VideoLAN est composée de 4 documents:\n"
+"La documentation de VideoLAN est composÃ©e de 4 documents:\n"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/intro.xml:68
@@ -3960,7 +3960,7 @@ msgid ""
 "streaming solution.\n"
 msgstr ""
 "\n"
-"le <emphasis>Streaming Howto</emphasis>. Ce document est le guide exhaustif de VLC en tant que serveur de diffusion. Il vous donnera des exemples concrets pour établir votre solution de diffusion.\n"
+"le <emphasis>Streaming Howto</emphasis>. Ce document est le guide exhaustif de VLC en tant que serveur de diffusion. Il vous donnera des exemples concrets pour Ã©tablir votre solution de diffusion.\n"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/intro.xml:76
@@ -3971,7 +3971,7 @@ msgid ""
 "is the complete guide for VLS (VideoLAN's legacy streaming server)\n"
 msgstr ""
 "\n"
-"le <emphasis>VLS user guide</emphasis>. Ce document est le guide exhaustif de VLS (Le serveur de diffusion dédié à VideoLAN)\n"
+"le <emphasis>VLS user guide</emphasis>. Ce document est le guide exhaustif de VLS (Le serveur de diffusion dÃ©diÃ© Ã  VideoLAN)\n"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/intro.xml:80
@@ -3983,7 +3983,7 @@ msgid ""
 "VideoLAN.\n"
 msgstr ""
 "\n"
-"La <emphasis>FAQ de VideoLAN</emphasis>. Ce document contient le questions fréquement posées concernant VideoLAN.\n"
+"La <emphasis>FAQ de VideoLAN</emphasis>. Ce document contient le questions frÃ©quement posÃ©es concernant VideoLAN.\n"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/intro.xml:88
@@ -3992,7 +3992,7 @@ msgid ""
 " The latest version of these documents can be found on the <ulink\n"
 "url=\"http://www.videolan.org/doc/\">documentation page</ulink>."
 msgstr ""
-" La dernière version de ces documents peut être obtenue sur la <ulink url=\"http://www.videolan.org/doc/\">page des documentations</ulink>."
+" La derniÃ¨re version de ces documents peut Ãªtre obtenue sur la <ulink url=\"http://www.videolan.org/doc/\">page des documentations</ulink>."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/intro.xml:93
@@ -4012,7 +4012,7 @@ msgid ""
 "For more details, please visit our <ulink\n"
 "url=\"http://www.videolan.org/support/\">Support page</ulink>."
 msgstr ""
-"Il y a diverses méthodes pour obtenir de l'aide de l'équipe VideoLAN. Pour plus de détails regardez la <ulink url=\"http://www.videolan.org/support/\">page du support</ulink>."
+"Il y a diverses mÃ©thodes pour obtenir de l'aide de l'Ã©quipe VideoLAN. Pour plus de dÃ©tails regardez la <ulink url=\"http://www.videolan.org/support/\">page du support</ulink>."
 
 # type: Content of: <chapter><sect1><title>
 #: en/install.xml:3 en/install.xml:7
@@ -4037,7 +4037,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"Il y a des binaires VLC disponibles pour de nombreux OSs, mais pas pour tous ceux supportés. S'il n'y a pas de binaires disponibles pour le votre, ou si vous voulez changer les paramètres par défaut, vous pouvez compiler VLC vous-même à partir des sources.\n"
+"Il y a des binaires VLC disponibles pour de nombreux OSs, mais pas pour tous ceux supportÃ©s. S'il n'y a pas de binaires disponibles pour le votre, ou si vous voulez changer les paramÃ¨tres par dÃ©faut, vous pouvez compiler VLC vous-mÃªme Ã  partir des sources.\n"
 "\n"
 
 # type: Content of: <chapter><sect1><sect2><para>
@@ -4054,7 +4054,7 @@ msgstr ""
 "\n"
 "\n"
 "VLC est disponible pour Windows 95/98/ME/2000/XP.\n"
-"Téléchargez le programme d'installation depuis la page <ulink url=\"http:/www.videolan.org/vlc/download-windows.html\">VLC Windows download page</ulink>. Lancez le "
+"TÃ©lÃ©chargez le programme d'installation depuis la page <ulink url=\"http:/www.videolan.org/vlc/download-windows.html\">VLC Windows download page</ulink>. Lancez le "
 
 # type: Content of: <chapter><sect1><sect2><para><filename>
 #: en/install.xml:26
@@ -4095,7 +4095,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"Téléchargez le package pour Mac OS X depuis la page <ulink url=\"http://ww.videolan.org/vlc/download-macosx.html\">VLC Mas OS X download page</ulink>. Double-cliquez sur l'icone du package : une nouvelle icone apparaitra sur votre bureau, juste sous votre (vos) disque(s). Ouvrez-la et déplacez l'application ainsi ouverte vers l'endroit où vous voulez l'installer (ce devrait être\n"
+"TÃ©lÃ©chargez le package pour Mac OS X depuis la page <ulink url=\"http://ww.videolan.org/vlc/download-macosx.html\">VLC Mas OS X download page</ulink>. Double-cliquez sur l'icone du package : une nouvelle icone apparaitra sur votre bureau, juste sous votre (vos) disque(s). Ouvrez-la et dÃ©placez l'application ainsi ouverte vers l'endroit oÃ¹ vous voulez l'installer (ce devrait Ãªtre\n"
 
 # type: Content of: <chapter><sect1><sect2><para><filename>
 #: en/install.xml:43
@@ -4128,7 +4128,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"Téléchargez l'archive Zip depuis la page <ulink url=\"http://www.videolan.org/vlc/download-beos.html\">VLC BeOS download page</ulink>. Désarchivez le fichier dans un répertoire pour installer VLC.\n"
+"TÃ©lÃ©chargez l'archive Zip depuis la page <ulink url=\"http://www.videolan.org/vlc/download-beos.html\">VLC BeOS download page</ulink>. DÃ©sarchivez le fichier dans un rÃ©pertoire pour installer VLC.\n"
 "\n"
 
 # type: Content of: <chapter><sect1><sect2><title>
@@ -4151,7 +4151,7 @@ msgid ""
 "Add the following lines to your \n"
 msgstr ""
 "\n"
-"Ajoutez les lignes suivantes à votre \n"
+"Ajoutez les lignes suivantes Ã  votre \n"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/install.xml:66 en/install.xml:88
@@ -4232,7 +4232,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"Vous ne devriez pas utiliser la version test de la Debian sans savoir parfaitement ce que vous faites. Il est en effet quasi-impossible de faire un support pour la version test, et il n'est pas prévu d'en faire.\n"
+"Vous ne devriez pas utiliser la version test de la Debian sans savoir parfaitement ce que vous faites. Il est en effet quasi-impossible de faire un support pour la version test, et il n'est pas prÃ©vu d'en faire.\n"
 "Pour plus d'informations concernant la version test de la Debian, allez voir:\n"
 "<ulink url=\"http://www.debian.org/devel/testing\">testing page</ulink>\n"
 "\n"
@@ -4269,7 +4269,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"Pour les installer, ajoutez les sources suivantes pour la Mandrake 9.1 ou la Cooker (vous pouvez utiliser pour ce faire <ulink url=\"http://plf.zarb.org/~nanardon/\">Easy urpmi</ulink>): <emphasis>contrib</emphasis> depuis la distribution elle-même et <emphasis>plf</emphasis> (Penguin Liberation Front) depuis des modules externes.\n"
+"Pour les installer, ajoutez les sources suivantes pour la Mandrake 9.1 ou la Cooker (vous pouvez utiliser pour ce faire <ulink url=\"http://plf.zarb.org/~nanardon/\">Easy urpmi</ulink>): <emphasis>contrib</emphasis> depuis la distribution elle-mÃªme et <emphasis>plf</emphasis> (Penguin Liberation Front) depuis des modules externes.\n"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/install.xml:138
@@ -4280,7 +4280,7 @@ msgid ""
 "<command>urpmi</command>:"
 msgstr ""
 "\n"
-"Ensuite installez les packages nécessaires avec\n"
+"Ensuite installez les packages nÃ©cessaires avec\n"
 "<command>urpmi</command>:"
 
 # type: Content of: <chapter><sect1><sect2><screen>
@@ -4311,13 +4311,13 @@ msgid ""
 "download page</ulink> and put them all into the same directory."
 msgstr ""
 "\n"
-"Téléchargez les packages RPM <emphasis>vlc</emphasis> et les packages listés dans la section <emphasis>required libraries and codecs</emphasis> (les autres packages sont optionnels) de la page <ulink url=\"http://www.videolan.org/vlc/download-redhat.html\">VLC RedHat download page</ulink> et placez les tous dans le même répertoire."
+"TÃ©lÃ©chargez les packages RPM <emphasis>vlc</emphasis> et les packages listÃ©s dans la section <emphasis>required libraries and codecs</emphasis> (les autres packages sont optionnels) de la page <ulink url=\"http://www.videolan.org/vlc/download-redhat.html\">VLC RedHat download page</ulink> et placez les tous dans le mÃªme rÃ©pertoire."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/install.xml:157
 #, no-wrap
 msgid "Then install the RPM packages you have downloaded:"
-msgstr "Ensuite installez les packages RPM que vous venez de télécharger:"
+msgstr "Ensuite installez les packages RPM que vous venez de tÃ©lÃ©charger:"
 
 # type: Content of: <chapter><sect1><sect2><screen>
 #: en/install.xml:160
@@ -4340,7 +4340,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"Si vous n'avez pas installé tous les packages RPM fournis avec votre disrtibution, il vous sera peut-être demandé d'en installer certains auparavant.\n"
+"Si vous n'avez pas installÃ© tous les packages RPM fournis avec votre disrtibution, il vous sera peut-Ãªtre demandÃ© d'en installer certains auparavant.\n"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/install.xml:172
@@ -4352,13 +4352,13 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"  Compilez-vous même les sources (pour tous OS)\n"
+"  Compilez-vous mÃªme les sources (pour tous OS)\n"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/install.xml:178
 #, no-wrap
 msgid "For more detailed information on compiling VLC by yourself, please have a look at the documentation on our <ulink url=\"http://developers.videolan.org\">developers website</ulink>."
-msgstr "Pour plus d'informations sur la facon de compiler vous-même VLC, regardez la documentation sur le <ulink url=\"http://developers.videolan.org\">site web des développeurs</ulink>."
+msgstr "Pour plus d'informations sur la facon de compiler vous-mÃªme VLC, regardez la documentation sur le <ulink url=\"http://developers.videolan.org\">site web des dÃ©veloppeurs</ulink>."
 
 # type: Content of: <chapter><sect1><title>
 #: en/install.xml:185
@@ -4368,7 +4368,7 @@ msgid ""
 "Uninstalling VLC\n"
 msgstr ""
 "\n"
-"Désinstaller VLC\n"
+"DÃ©sinstaller VLC\n"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/install.xml:191
@@ -4379,7 +4379,7 @@ msgid ""
 "icon that was created during installation"
 msgstr ""
 "\n"
-" Cliquez sur l'icone <emphasis>Désinstaller VLC</emphasis> qui a été crée pendant l'installation."
+" Cliquez sur l'icone <emphasis>DÃ©sinstaller VLC</emphasis> qui a Ã©tÃ© crÃ©e pendant l'installation."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/install.xml:199
@@ -4390,7 +4390,7 @@ msgid ""
 "remove the configuration file and the cache files in\n"
 msgstr ""
 "\n"
-"Déplacez en maintenant le bouton enfoncé l'application VLC vers la corbeille. Vous pouvez aussi supprimer le fichier de configuration et les fichiers temporaires siués dans\n"
+"DÃ©placez en maintenant le bouton enfoncÃ© l'application VLC vers la corbeille. Vous pouvez aussi supprimer le fichier de configuration et les fichiers temporaires siuÃ©s dans\n"
 
 # type: Content of: <chapter><sect1><sect2><para><filename>
 #: en/install.xml:202
@@ -4412,7 +4412,7 @@ msgid ""
 "Delete the "
 msgstr ""
 "\n"
-"Supprimez le répertoire "
+"Supprimez le rÃ©pertoire "
 
 # type: Content of: <chapter><sect1><sect2><para><filename>
 #: en/install.xml:211
@@ -4444,7 +4444,7 @@ msgid ""
 "Remove the packages that you installed:\n"
 msgstr ""
 "\n"
-"Supprimez les packages que vous avez installés:\n"
+"Supprimez les packages que vous avez installÃ©s:\n"
 
 # type: Content of: <chapter><sect1><sect2><screen>
 #: en/install.xml:224
@@ -4470,7 +4470,7 @@ msgid ""
 "Uninstall the RPM packages that you installed:\n"
 msgstr ""
 "\n"
-"Désinstallez les packages RPM que vous avez installés:\n"
+"DÃ©sinstallez les packages RPM que vous avez installÃ©s:\n"
 
 # type: Content of: <chapter><sect1><sect2><screen>
 #: en/install.xml:236
@@ -4491,7 +4491,7 @@ msgid ""
 "If you compiled VLC from sources\n"
 msgstr ""
 "\n"
-"Si vous avez compilé VLC à partir des sources\n"
+"Si vous avez compilÃ© VLC Ã  partir des sources\n"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/install.xml:247
@@ -4502,7 +4502,7 @@ msgid ""
 "execute"
 msgstr ""
 "\n"
-"Allez dans le répertoire contenant les sources de VLC et exécutez"
+"Allez dans le rÃ©pertoire contenant les sources de VLC et exÃ©cutez"
 
 # type: Content of: <chapter><sect1><sect2><screen>
 #: en/install.xml:250
@@ -4518,7 +4518,7 @@ msgstr ""
 #: en/install.xml:254
 #, no-wrap
 msgid "You can then remove the VLC sources."
-msgstr "Vous pouvez par la suite supprimer le répertoire contenant les sources."
+msgstr "Vous pouvez par la suite supprimer le rÃ©pertoire contenant les sources."
 
 # type: Content of: <appendix><appendixinfo>
 #: en/http.xml:3
@@ -4550,7 +4550,7 @@ msgid ""
 "This appendix describes the language used for writing dynamic web pages for the HTTP interface."
 msgstr ""
 "\n"
-"Cette annexe décrit le language utilisé pour écrire des pages web dynamiques pour l'interface HTTP."
+"Cette annexe dÃ©crit le language utilisÃ© pour Ã©crire des pages web dynamiques pour l'interface HTTP."
 
 # type: Content of: <appendix><sect1><para>
 #: en/http.xml:13
@@ -4561,7 +4561,7 @@ msgid ""
 "/usr/local/share/vlc/share/http (or wherever vlc's shared files are\n"
 "installed)"
 msgstr ""
-"Les pages doivent être placées dans le répertoire share/http soit dans le répertoire de VLC (Windows, Mac), soit dans /usr/share/vlc/share/http, soit dans /usr/local/share/http (soit encore dans n'importe quel endroit contenant des fichiers partagés de vlc)."  
+"Les pages doivent Ãªtre placÃ©es dans le rÃ©pertoire share/http soit dans le rÃ©pertoire de VLC (Windows, Mac), soit dans /usr/share/vlc/share/http, soit dans /usr/local/share/http (soit encore dans n'importe quel endroit contenant des fichiers partagÃ©s de vlc)."  
 
 # type: Content of: <appendix><sect1><para>
 #: en/http.xml:19
@@ -4570,7 +4570,7 @@ msgid ""
 "Some files are handled a bit specially\n"
 ":"
 msgstr ""
-"Certains fichiers sont traités à part\n"
+"Certains fichiers sont traitÃ©s Ã  part\n"
 ":"
 
 # type: Content of: <appendix><sect1><itemizedlist><listitem><para>
@@ -4581,7 +4581,7 @@ msgid ""
 "Files beginning with '.' are not exported.\n"
 msgstr ""
 "\n"
-"Les fichiers commencant par '.' ne sont pas exportés.\n"
+"Les fichiers commencant par '.' ne sont pas exportÃ©s.\n"
 
 # type: Content of: <appendix><sect1><itemizedlist><listitem><para>
 #: en/http.xml:27
@@ -4595,7 +4595,7 @@ msgid ""
 "directory will be protected. (sub-directories won't be protected.)\n"
 msgstr ""
 "\n"
-"Un fichier '.access' ne sera pas ouvert et l'interface http s'attendra à trouver à la première ligne un login/password (sous la forme login:password). Ce login/password sera utilisé pour restreindre l'accès des fichiers dans le répertoire. Attention: seuls les fichiers situés dans le répertoire seront protégés (les sous-répertoires ne sont pas protégés).\n"
+"Un fichier '.access' ne sera pas ouvert et l'interface http s'attendra Ã  trouver Ã  la premiÃ¨re ligne un login/password (sous la forme login:password). Ce login/password sera utilisÃ© pour restreindre l'accÃ¨s des fichiers dans le rÃ©pertoire. Attention: seuls les fichiers situÃ©s dans le rÃ©pertoire seront protÃ©gÃ©s (les sous-rÃ©pertoires ne sont pas protÃ©gÃ©s).\n"
 
 # type: Content of: <appendix><sect1><itemizedlist><listitem><para>
 #: en/http.xml:34
@@ -4606,7 +4606,7 @@ msgid ""
 "&lt;dir&gt; and &lt;dir&gt;/ and not as index.html.\n"
 msgstr ""
 "\n"
-"Le fichier &lt;dir&gt;/index.html sera exporté comme &lt;dir&gt; et &lt;dir&gt;/ mais pas comme index.html.\n"
+"Le fichier &lt;dir&gt;/index.html sera exportÃ© comme &lt;dir&gt; et &lt;dir&gt;/ mais pas comme index.html.\n"
 
 # type: Content of: <appendix><sect1><para>
 #: en/http.xml:41
@@ -4619,7 +4619,7 @@ msgid ""
 "type.\n"
 msgstr ""
 "\n"
-"Le type MIME est défini par l'extension du fichier et ne peut pas être spécifié ou modifié pour un fichier donné. Les extensions inconnues auront un type MIME \"application/octet-stream\".\n"
+"Le type MIME est dÃ©fini par l'extension du fichier et ne peut pas Ãªtre spÃ©cifiÃ© ou modifiÃ© pour un fichier donnÃ©. Les extensions inconnues auront un type MIME \"application/octet-stream\".\n"
 
 # type: Content of: <appendix><sect1><para>
 #: en/http.xml:48
@@ -4631,7 +4631,7 @@ msgid ""
 "please be careful.\n"
 msgstr ""
 "\n"
-"Vous devriez éviter d'exporter de gros fichiers. En effet chaque fichier est d'abord chargé en mémoire avant d'être envoyé au client, donc attention.\n"
+"Vous devriez Ã©viter d'exporter de gros fichiers. En effet chaque fichier est d'abord chargÃ© en mÃ©moire avant d'Ãªtre envoyÃ© au client, donc attention.\n"
 
 # type: Content of: <appendix><sect1><title>
 #: en/http.xml:56
@@ -4657,7 +4657,7 @@ msgid ""
 "\n"
 " ."
 msgstr ""
-" Chaque fois qu'une page .html/.htm est demandée, elle est vérifiée par VLC avant d'être envoyée. Le vérificateur cherche des macros VLC et les exécute ou les substitue. Les arguments URL reçus par la méthode GET peuvent également être interprétés\n"
+" Chaque fois qu'une page .html/.htm est demandÃ©e, elle est vÃ©rifiÃ©e par VLC avant d'Ãªtre envoyÃ©e. Le vÃ©rificateur cherche des macros VLC et les exÃ©cute ou les substitue. Les arguments URL reÃ§us par la mÃ©thode GET peuvent Ã©galement Ãªtre interprÃ©tÃ©s\n"
 "\n"
 "\n"
 "\n"
@@ -4674,7 +4674,7 @@ msgid ""
 "param2=\"macro-parameters2\" /&gt;</emphasis>.\n"
 msgstr ""
 "\n"
-"Une macro VLC ressemble à:\n"
+"Une macro VLC ressemble Ã :\n"
 "<emphasis>&lt;vlc id=\"macro-name\" param1=\"macro-parameters1\" param2=\"macro-parameters2\" /&gt;</emphasis>.\n"
 
 # type: Content of: <appendix><sect1><para>
@@ -4686,7 +4686,7 @@ msgid ""
 "may or may not be present and depend on the value of \"id\".\n"
 msgstr ""
 "\n"
-" \"id\" est le seul champ nécessaire, param1 et param2 sont facultatifs, et dépendent de la valeur de \"id\".\n"
+" \"id\" est le seul champ nÃ©cessaire, param1 et param2 sont facultatifs, et dÃ©pendent de la valeur de \"id\".\n"
 
 # type: Content of: <appendix><sect1><para>
 #: en/http.xml:78
@@ -4698,7 +4698,7 @@ msgid ""
 "crashes).\n"
 msgstr ""
 "\n"
-" Vous devez prêter attention à cette syntaxe, VLC n'apprécie pas pas les synataxes invalides (elles peuvent souvent être à la base de plantages).\n"
+" Vous devez prÃªter attention Ã  cette syntaxe, VLC n'apprÃ©cie pas pas les synataxes invalides (elles peuvent souvent Ãªtre Ã  la base de plantages).\n"
 
 # type: Content of: <appendix><sect1><para>
 #: en/http.xml:84
@@ -4738,7 +4738,7 @@ msgid ""
 "<emphasis>&lt;vlc id=value param1=\"version\" /&gt;</emphasis> (missing \"\" )\n"
 "\n"
 msgstr ""
-"Incorrect: <emphasis>&lt;vlc id=\"value\" param1=\"version\" &gt; </emphasis> (il manque le dernier paramètre), <emphasis>&lt;vlc id=value param1=\"version\" /&gt;</emphasis> (il manque ici \"\" )\n"
+"Incorrect: <emphasis>&lt;vlc id=\"value\" param1=\"version\" &gt; </emphasis> (il manque le dernier paramÃ¨tre), <emphasis>&lt;vlc id=value param1=\"version\" /&gt;</emphasis> (il manque ici \"\" )\n"
 "\n"
 
 # type: Content of: <appendix><sect1><para>
@@ -4759,7 +4759,7 @@ msgid ""
 "<emphasis>control</emphasis> (1 optional parameter)\n"
 msgstr ""
 "\n"
-"<emphasis>control</emphasis> (1 paramètre optionnel)\n"
+"<emphasis>control</emphasis> (1 paramÃ¨tre optionnel)\n"
 
 # type: Content of: <appendix><sect1><itemizedlist><listitem><para>
 #: en/http.xml:113
@@ -4769,7 +4769,7 @@ msgid ""
 "<emphasis>get</emphasis> (2 parameters)\n"
 msgstr ""
 "\n"
-"<emphasis>get</emphasis> (2 paramètres)\n"
+"<emphasis>get</emphasis> (2 paramÃ¨tres)\n"
 
 # type: Content of: <appendix><sect1><itemizedlist><listitem><para>
 #: en/http.xml:118
@@ -4779,7 +4779,7 @@ msgid ""
 "<emphasis>set</emphasis> (2 parameters)\n"
 msgstr ""
 "\n"
-"<emphasis>set</emphasis> (2 paramètres>\n"
+"<emphasis>set</emphasis> (2 paramÃ¨tres>\n"
 
 # type: Content of: <appendix><sect1><itemizedlist><listitem><para>
 #: en/http.xml:123
@@ -4789,7 +4789,7 @@ msgid ""
 "<emphasis>rpn</emphasis> (1 parameter)\n"
 msgstr ""
 "\n"
-"<emphasis>rpn</emphasis> (1 paramètre)\n"
+"<emphasis>rpn</emphasis> (1 paramÃ¨tre)\n"
 
 # type: Content of: <appendix><sect1><itemizedlist><listitem><para>
 #: en/http.xml:128
@@ -4799,7 +4799,7 @@ msgid ""
 "<emphasis>if</emphasis> (1 optional parameter)\n"
 msgstr ""
 "\n"
-"<emphasis>if</emphasis> (1 paramètre optionnel)\n"
+"<emphasis>if</emphasis> (1 paramÃ¨tre optionnel)\n"
 
 # type: Content of: <appendix><sect1><itemizedlist><listitem><para>
 #: en/http.xml:133
@@ -4809,7 +4809,7 @@ msgid ""
 "<emphasis>else</emphasis> (no parameter)\n"
 msgstr ""
 "\n"
-"<emphasis>else</emphasis> (sans paramètre)\n"
+"<emphasis>else</emphasis> (sans paramÃ¨tre)\n"
 
 # type: Content of: <appendix><sect1><itemizedlist><listitem><para>
 #: en/http.xml:138
@@ -4819,7 +4819,7 @@ msgid ""
 "<emphasis>end</emphasis> (no parameter)\n"
 msgstr ""
 "\n"
-"<emphasis>end</emphasis> (sans paramètre)\n"
+"<emphasis>end</emphasis> (sans paramÃ¨tre)\n"
 
 # type: Content of: <appendix><sect1><itemizedlist><listitem><para>
 #: en/http.xml:142
@@ -4829,7 +4829,7 @@ msgid ""
 "<emphasis>value</emphasis> (1 optional parameter)\n"
 msgstr ""
 "\n"
-"<emphasis>value</emphasis> (1 paramètre optionnel)\n"
+"<emphasis>value</emphasis> (1 paramÃ¨tre optionnel)\n"
 
 # type: Content of: <appendix><sect1><itemizedlist><listitem><para>
 #: en/http.xml:147
@@ -4839,7 +4839,7 @@ msgid ""
 "<emphasis>foreach</emphasis> (2 parameters)\n"
 msgstr ""
 "\n"
-"<emphasis>foreach</emphasis> (2 paramètres)\n"
+"<emphasis>foreach</emphasis> (2 paramÃ¨tres)\n"
 
 # type: Content of: <appendix><sect1><para>
 #: en/http.xml:154
@@ -4865,7 +4865,7 @@ msgid ""
 "RPN Evaluator (see part 2)\n"
 msgstr ""
 "\n"
-"L'évaluateur RPN (voir partie II)\n"
+"L'Ã©valuateur RPN (voir partie II)\n"
 
 # type: Content of: <appendix><sect1><itemizedlist><listitem><para>
 #: en/http.xml:166
@@ -4877,7 +4877,7 @@ msgid ""
 "RPN evaluator.\n"
 msgstr ""
 "\n"
-"Les piles: Une pile est un endroit où il est possible d'empiler des nombres et des chaînes des caractères, puis de les récupérer. C'est souvent utilisé avec l'évaluateur RPN.\n"
+"Les piles: Une pile est un endroit oÃ¹ il est possible d'empiler des nombres et des chaÃ®nes des caractÃ¨res, puis de les rÃ©cupÃ©rer. C'est souvent utilisÃ© avec l'Ã©valuateur RPN.\n"
 
 # type: Content of: <appendix><sect1><itemizedlist><listitem><para>
 #: en/http.xml:171
@@ -4890,7 +4890,7 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Les variables locales: Il est possible de créer dynamiquement de nouvelles variables et de changer leurs valeurs. Quelques variables locales sont prédéfinies:\n" 
+"Les variables locales: Il est possible de crÃ©er dynamiquement de nouvelles variables et de changer leurs valeurs. Quelques variables locales sont prÃ©dÃ©finies:\n" 
 "\n"
 # type: Content of: <appendix><sect1><itemizedlist><listitem><para><itemizedlist><listitem><para>
 #: en/http.xml:178
@@ -4902,7 +4902,7 @@ msgid ""
 msgstr ""
 "\n"
 "<emphasis>url_value</emphasis>\n"
-": paramètre de l'URL\n"
+": paramÃ¨tre de l'URL\n"
 
 # type: Content of: <appendix><sect1><itemizedlist><listitem><para><itemizedlist><listitem><para>
 #: en/http.xml:183
@@ -4949,7 +4949,7 @@ msgid ""
 "reseted before the page is executed.\n"
 msgstr ""
 "\n"
-"Remarque: Les piles et les variables locales sont réinitialisées avant l'exécutionde la page.\n"
+"Remarque: Les piles et les variables locales sont rÃ©initialisÃ©es avant l'exÃ©cutionde la page.\n"
 
 # type: Content of: <appendix><sect1><title>
 #: en/http.xml:211
@@ -4959,7 +4959,7 @@ msgid ""
 "The RPN evaluator\n"
 msgstr ""
 "\n"
-"L'évaluateur RPN\n"
+"L'Ã©valuateur RPN\n"
 
 # type: Content of: <appendix><sect1><para>
 #: en/http.xml:215
@@ -4969,7 +4969,7 @@ msgid ""
 "RPN means Reverse Polish Notation\n"
 msgstr ""
 "\n"
-"RPN sont les initiales de Reverse Polish Notation (Notation Polonaise Inversée)\n"
+"RPN sont les initiales de Reverse Polish Notation (Notation Polonaise InversÃ©e)\n"
 
 # type: Content of: <appendix><sect1><sect2><title>
 #: en/http.xml:219
@@ -4990,7 +4990,7 @@ msgid ""
 "to write expressions. It also avoids the use of ( and ).\n"
 msgstr ""
 "\n"
-"RPN peut paraître étrange, mais c'est un moyen simple et rapide d'écrire des expressions. Cela évite également l'usage de (and).\n"
+"RPN peut paraÃ®tre Ã©trange, mais c'est un moyen simple et rapide d'Ã©crire des expressions. Cela Ã©vite Ã©galement l'usage de (and).\n"
 
 # type: Content of: <appendix><sect1><sect2><para>
 #: en/http.xml:228
@@ -5001,7 +5001,7 @@ msgid ""
 "5 *.\n"
 msgstr ""
 "\n"
-"Au lieu d'écrire ( 1 + 2 ) * 5 , il suffit d'écrire 1 2 + 5 * .\n"
+"Au lieu d'Ã©crire ( 1 + 2 ) * 5 , il suffit d'Ã©crire 1 2 + 5 * .\n"
 
 # type: Content of: <appendix><sect1><sect2><para>
 #: en/http.xml:233
@@ -5015,7 +5015,7 @@ msgid ""
 "on the top of the stack.\n"
 msgstr ""
 "\n"
-"L'idée sous-jacente est: S'il s'agit d'un nombre ou une chaîne de caractères (utilisant ''), il est placé sur la pile. Si c'est un opérateur (+ par exemple), les arguments sont récupérés sur la pile, l'opération est exécutée, et le résultat est placé sur la pile. Le résultat final de la séquence RPN est la valeur au sommet de la pile.\n" 
+"L'idÃ©e sous-jacente est: S'il s'agit d'un nombre ou une chaÃ®ne de caractÃ¨res (utilisant ''), il est placÃ© sur la pile. Si c'est un opÃ©rateur (+ par exemple), les arguments sont rÃ©cupÃ©rÃ©s sur la pile, l'opÃ©ration est exÃ©cutÃ©e, et le rÃ©sultat est placÃ© sur la pile. Le rÃ©sultat final de la sÃ©quence RPN est la valeur au sommet de la pile.\n" 
 
 # type: Content of: <appendix><sect1><sect2><para><programlisting>
 #: en/http.xml:242
@@ -5031,13 +5031,13 @@ msgid ""
 " 15                             &lt;- result\n"
 msgstr ""
 "\n"
-" pile:       Expression entrée\n"
-" vide       1                     1 est placé sur la pile\n"
-" 1          2                     2 est placé sur la pile\n"
+" pile:       Expression entrÃ©e\n"
+" vide       1                     1 est placÃ© sur la pile\n"
+" 1          2                     2 est placÃ© sur la pile\n"
 " 1 | 2      +                     +: remplace 1 et 2 par 3 au sommet de la pile\n"
-" 3          5                     5 est placé au sommet de la pile\n"
+" 3          5                     5 est placÃ© au sommet de la pile\n"
 " 3 | 5      *                     *: remplace 3 et 5 par 15 au sommet de la pile\n"
-"15                                &lt;- résutat\n"
+"15                                &lt;- rÃ©sutat\n"
 
 # type: Content of: <appendix><sect1><sect2><title>
 #: en/http.xml:255
@@ -5047,7 +5047,7 @@ msgid ""
 "Operators\n"
 msgstr ""
 "\n"
-"Opérateurs\n"
+"OpÃ©rateurs\n"
 
 # type: Content of: <appendix><sect1><sect2><para>
 #: en/http.xml:259
@@ -5056,7 +5056,7 @@ msgid ""
 " Notation: ST(1) means the first stack\n"
 "element, ST(2) the second one ... and op the operator. \n"
 msgstr ""
-"Notation: ST(1) désigne l'élément situé au sommet de la pile, ST(2) le deuxième,... op est un opérateur.\n"
+"Notation: ST(1) dÃ©signe l'Ã©lÃ©ment situÃ© au sommet de la pile, ST(2) le deuxiÃ¨me,... op est un opÃ©rateur.\n"
 
 # type: Content of: <appendix><sect1><sect2><para>
 #: en/http.xml:263
@@ -5084,8 +5084,8 @@ msgid ""
 "these ones push the result of ST(1) op ST(2) to the stack\n"
 msgstr ""
 "\n"
-"Les opérateurs mathématiques standards: +, -, *, /, %:\n"
-"ils placent le résultat de ST(1) op ST(2) au sommet de la pile\n"
+"Les opÃ©rateurs mathÃ©matiques standards: +, -, *, /, %:\n"
+"ils placent le rÃ©sultat de ST(1) op ST(2) au sommet de la pile\n"
 
 # type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para>
 #: en/http.xml:276
@@ -5096,7 +5096,7 @@ msgid ""
 "the result ST(1) op ST(2)\n"
 msgstr ""
 "\n"
-"Les opérateurs binaires: ! (renvoie !ST(1)); ^, &amp;, |: renvoient le résultat de ST(1) op ST(2)\n"
+"Les opÃ©rateurs binaires: ! (renvoie !ST(1)); ^, &amp;, |: renvoient le rÃ©sultat de ST(1) op ST(2)\n"
 
 # type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para>
 #: en/http.xml:281
@@ -5107,7 +5107,7 @@ msgid ""
 "ST(2) and push -1 if true else 0\n"
 msgstr ""
 "\n"
-"Les tests: =, &lt;, &lt;=, &gt;=: exécute ST(1) op ST(2) et renvoie -1 si vrai, 0 sinon\n"
+"Les tests: =, &lt;, &lt;=, &gt;=: exÃ©cute ST(1) op ST(2) et renvoie -1 si vrai, 0 sinon\n"
 
 # type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para>
 #: en/http.xml:287
@@ -5119,7 +5119,7 @@ msgid ""
 "equal, 1 else, strlen pushes the length of ST(1).\n"
 msgstr ""
 "\n"
-"Les opérateurs de chaînes de caractères: strcat renvoie 'ST(1)ST(2)', strcmp compare ST(1) et ST(2), et renvoie -1 si ST(1)&lt;ST(2), 0 si les deux chaînes sont identiques, 1 sinon, strlen renvoie la taille de ST(1).\n" 
+"Les opÃ©rateurs de chaÃ®nes de caractÃ¨res: strcat renvoie 'ST(1)ST(2)', strcmp compare ST(1) et ST(2), et renvoie -1 si ST(1)&lt;ST(2), 0 si les deux chaÃ®nes sont identiques, 1 sinon, strlen renvoie la taille de ST(1).\n" 
 
 # type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para>
 #: en/http.xml:294
@@ -5131,7 +5131,7 @@ msgid ""
 "stack.\n"
 msgstr ""
 "\n"
-"Les opérations sur la pile: dup réplique ST(1), drop supprime ST(1), swap échange ST(1) et ST(2), et flush vide la pile.\n"
+"Les opÃ©rations sur la pile: dup rÃ©plique ST(1), drop supprime ST(1), swap Ã©change ST(1) et ST(2), et flush vide la pile.\n"
 
 # type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para>
 #: en/http.xml:301
@@ -5144,7 +5144,7 @@ msgid ""
 "parameters.\n"
 msgstr ""
 "\n"
-"Opérations sur les variables: store affecte ST(2) dans une variable locale appelée ST(1), value place sur la pile la valeur de la variable locale nommée ST(1), url_extract place sur la pile la valeur de la partie des paramètres de l'url définis par ST(1).\n"
+"OpÃ©rations sur les variables: store affecte ST(2) dans une variable locale appelÃ©e ST(1), value place sur la pile la valeur de la variable locale nommÃ©e ST(1), url_extract place sur la pile la valeur de la partie des paramÃ¨tres de l'url dÃ©finis par ST(1).\n"
 
 # type: Content of: <appendix><sect1><title>
 #: en/http.xml:313
@@ -5179,7 +5179,7 @@ msgid ""
 "all commands will be permitted.\n"
 msgstr ""
 "\n"
-"Lorsqu'une page est appelée, des arguments peuvent lui être passés à travers l'URL. (par ex: en utilisant &lt;form&gt;). Ex: http://host:port/page.html?var=value&amp;var2=value2&amp;.. The \"control\" macro demande à la page de vérifier ces arguments et d'exécuter ceux qui sont autorisés. Le paramètre param1 de cette macro spécifie les commandes autorisées, s'il est vide, toutes les commandes seront permises.\n"
+"Lorsqu'une page est appelÃ©e, des arguments peuvent lui Ãªtre passÃ©s Ã  travers l'URL. (par ex: en utilisant &lt;form&gt;). Ex: http://host:port/page.html?var=value&amp;var2=value2&amp;.. The \"control\" macro demande Ã  la page de vÃ©rifier ces arguments et d'exÃ©cuter ceux qui sont autorisÃ©s. Le paramÃ¨tre param1 de cette macro spÃ©cifie les commandes autorisÃ©es, s'il est vide, toutes les commandes seront permises.\n"
 
 # type: Content of: <appendix><sect1><sect2><para>
 #: en/http.xml:329
@@ -5190,7 +5190,7 @@ msgid ""
 "passed in the URL too.\n"
 msgstr ""
 "\n"
-"Certaines commandes requièrent un argument qui doit également être spécifié dans l'URL.\n"
+"Certaines commandes requiÃ¨rent un argument qui doit Ã©galement Ãªtre spÃ©cifiÃ© dans l'URL.\n"
 
 # type: Content of: <appendix><sect1><sect2><table><title>
 #: en/http.xml:334
@@ -5278,7 +5278,7 @@ msgid ""
 " "
 msgstr ""
 "\n"
-"    Lit l'élément spécifié de la playlist\n"
+"    Lit l'Ã©lÃ©ment spÃ©cifiÃ© de la playlist\n"
 "    \n"
 "    \n"
 " "
@@ -5334,7 +5334,7 @@ msgid ""
 " "
 msgstr ""
 "\n"
-"    Avance jusqu'au prochain élément de la playlist\n"
+"    Avance jusqu'au prochain Ã©lÃ©ment de la playlist\n"
 "    \n"
 "    \n"
 " "
@@ -5356,7 +5356,7 @@ msgid ""
 " "
 msgstr ""
 "\n"
-"    Recule à l'élément précédent de la playlist\n"
+"    Recule Ã  l'Ã©lÃ©ment prÃ©cÃ©dent de la playlist\n"
 "    \n"
 "    \n"
 " "
@@ -5378,7 +5378,7 @@ msgid ""
 " "
 msgstr ""
 "\n"
-"    mrl (chaîne de caractères)\n"
+"    mrl (chaÃ®ne de caractÃ¨res)\n"
 "    \n"
 "    \n"
 " "
@@ -5394,7 +5394,7 @@ msgid ""
 " "
 msgstr ""
 "\n"
-"    Ajoute un MRL (Ressource de Localistion de Média) à la playlist\n"
+"    Ajoute un MRL (Ressource de Localistion de MÃ©dia) Ã  la playlist\n"
 "    \n"
 "    \n"
 " "
@@ -5416,7 +5416,7 @@ msgid ""
 " "
 msgstr ""
 "\n"
-"    Supprime l'élément de playlist spécifié, ou la list d'éléments de la playlist\n"
+"    Supprime l'Ã©lÃ©ment de playlist spÃ©cifiÃ©, ou la list d'Ã©lÃ©ments de la playlist\n"
 "    \n"
 "    \n"
 " "
@@ -5476,7 +5476,7 @@ msgid ""
 " "
 msgstr ""
 "\n"
-"    Ferme une connection spécifique\n"
+"    Ferme une connection spÃ©cifique\n"
 "    \n"
 "    \n"
 " "
@@ -5514,7 +5514,7 @@ msgid ""
 "unprotected pages.\n"
 msgstr ""
 "\n"
-"Par exemple, vous pouvez restreindre l'exécution de la commande <command>shutdown</command> à une page protégée (par un fichier <emphasis>.acces</emphasis>), tout en utilisant la macro control dans toutes les pages non protégées.\n"
+"Par exemple, vous pouvez restreindre l'exÃ©cution de la commande <command>shutdown</command> Ã  une page protÃ©gÃ©e (par un fichier <emphasis>.acces</emphasis>), tout en utilisant la macro control dans toutes les pages non protÃ©gÃ©es.\n"
 
 # type: Content of: <appendix><sect1><sect2><title>
 #: en/http.xml:458
@@ -5536,7 +5536,7 @@ msgid ""
 "given by param2.\n"
 msgstr ""
 "\n"
-"Cette macro sera remplacée par la valeur de la variable de configuration dont le nom est stocké dans param1 et dont le type ets donné par param2.\n"
+"Cette macro sera remplacÃ©e par la valeur de la variable de configuration dont le nom est stockÃ© dans param1 et dont le type ets donnÃ© par param2.\n"
 
 # type: Content of: <appendix><sect1><sect2><para>
 #: en/http.xml:468
@@ -5551,7 +5551,7 @@ msgid ""
 " \n"
 msgstr ""
 "\n"
-"param1 doit être le nom d'une variable de configuration existante. param2 doit être le type réel de la variable. Il devra être choisi parmi <emphasis>int</emphasis>, <emphasis>float</emphasis>, ou <emphasisstring</emphasis>.\n" 
+"param1 doit Ãªtre le nom d'une variable de configuration existante. param2 doit Ãªtre le type rÃ©el de la variable. Il devra Ãªtre choisi parmi <emphasis>int</emphasis>, <emphasis>float</emphasis>, ou <emphasisstring</emphasis>.\n" 
 
 # type: Content of: <appendix><sect1><sect2><para>
 #: en/http.xml:477
@@ -5563,7 +5563,7 @@ msgid ""
 "of sout.\n"
 msgstr ""
 "\n"
-"Exemple: &lt;vlc id=\"get\" param1=\"sout\" param2=\"string\" /&gt; sera remplacé par la valeur de sout dans la page.\n"
+"Exemple: &lt;vlc id=\"get\" param1=\"sout\" param2=\"string\" /&gt; sera remplacÃ© par la valeur de sout dans la page.\n"
 
 # type: Content of: <appendix><sect1><sect2><title>
 #: en/http.xml:484
@@ -5586,7 +5586,7 @@ msgid ""
 "name given in param1.\n"
 msgstr ""
 "\n"
-"Cette macro permet de définir la valeur d'une variable de configuration. Le nom est donné par param1 et le type par param2 (comme pour get). La valeur est définie à partir de l'URL en utilisant le nom donné dans param1.\n"
+"Cette macro permet de dÃ©finir la valeur d'une variable de configuration. Le nom est donnÃ© par param1 et le type par param2 (comme pour get). La valeur est dÃ©finie Ã  partir de l'URL en utilisant le nom donnÃ© dans param1.\n"
 
 # type: Content of: <appendix><sect1><sect2><para>
 #: en/http.xml:495
@@ -5600,7 +5600,7 @@ msgid ""
 "sout, nothing will be done.\n"
 msgstr ""
 "\n"
-"Par exemple, si player.html contient &lt;vlc id=\"set\" param1=\"sout\" param2=\"string\" /&gt;, et si est demandée la page <emphasis> http://host:ip/player.html?sout=sout_value</emphasis>, la variable sout sera égale à \"sout_value\". Si l'URL ne contient pas sout, rien ne sera fait.\n"
+"Par exemple, si player.html contient &lt;vlc id=\"set\" param1=\"sout\" param2=\"string\" /&gt;, et si est demandÃ©e la page <emphasis> http://host:ip/player.html?sout=sout_value</emphasis>, la variable sout sera Ã©gale Ã  \"sout_value\". Si l'URL ne contient pas sout, rien ne sera fait.\n"
 
 # type: Content of: <appendix><sect1><sect2><title>
 #: en/http.xml:504
@@ -5621,7 +5621,7 @@ msgid ""
 "(See II).\n"
 msgstr ""
 "\n"
-"Cette macro vous permet d'interpréter les commandes RPN.\n"
+"Cette macro vous permet d'interprÃ©ter les commandes RPN.\n"
 "(Voir II).\n"
 
 # type: Content of: <appendix><sect1><sect2><title>
@@ -5643,7 +5643,7 @@ msgid ""
 "HTML page.\n"
 msgstr ""
 "\n"
-"Cette macro vous permet de controler la validité de la\n"
+"Cette macro vous permet de controler la validitÃ© de la\n"
 "page HTML.\n"
 
 # type: Content of: <appendix><sect1><sect2><para>
@@ -5655,8 +5655,8 @@ msgid ""
 "RPN evaluator. If the first element from the stack is not 0, the test\n"
 "value is true, else false..\n"
 msgstr ""
-"Si param1 n'est pas vide, elle est la première exécutée avec\n"
-"l'évaluateur RPN. Si le premier élément de la liste n'est pas 0, le résultat\n"
+"Si param1 n'est pas vide, elle est la premiÃ¨re exÃ©cutÃ©e avec\n"
+"l'Ã©valuateur RPN. Si le premier Ã©lÃ©ment de la liste n'est pas 0, le rÃ©sultat\n"
 "du test est vrai, faux sinon...\n"
 
 # type: Content of: <appendix><sect1><sect2><para><programlisting>
@@ -5700,9 +5700,9 @@ msgid ""
 "of the stack.\n"
 msgstr ""
 "\n"
-"Si param1 n'est pas vide, elle est la première exécutée\n"
-"avec l'évaluateur RPN. La macro est remplacée par la valeur du premier\n"
-"élément de la pile.\n"
+"Si param1 n'est pas vide, elle est la premiÃ¨re exÃ©cutÃ©e\n"
+"avec l'Ã©valuateur RPN. La macro est remplacÃ©e par la valeur du premier\n"
+"Ã©lÃ©ment de la pile.\n"
 
 # type: Content of: <appendix><sect1><sect2><para>
 #: en/http.xml:555
@@ -5712,8 +5712,8 @@ msgid ""
 "Note: If the element is the name of a local\n"
 "variable, its value will be displayed instead of its name.\n"
 msgstr ""
-"Remarque: Si l'élément est le nom d'une variable locale, sa valeur\n"
-"sera affichée à la place de son nom.\n"
+"Remarque: Si l'Ã©lÃ©ment est le nom d'une variable locale, sa valeur\n"
+"sera affichÃ©e Ã  la place de son nom.\n"
 
 # type: Content of: <appendix><sect1><sect2><title>
 #: en/http.xml:562
@@ -5736,7 +5736,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"param1 est le nom de la varible utilisée pour la boucle. param2 est le nom de l'ensemble construit:\n"
+"param1 est le nom de la varible utilisÃ©e pour la boucle. param2 est le nom de l'ensemble construit:\n"
 
 # type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para>
 #: en/http.xml:573
@@ -5750,7 +5750,7 @@ msgid ""
 "1:5:2,6:8:1 will be expanded into 1,3,5,6,7,8)\n"
 msgstr ""
 "\n"
-"<emphasis>integer</emphasis>: prenez le premier élément de la pile pour construire une suite d'entiers. L'élément pile devra être une chaîne de caractères de caractères de la forme: <emphasis>premier:dernier[:pas][,premier2:dernier2[:pas2][,...]</emphasis> (Ex: 1:5:2,6:8:1 sera interprété comme 1,3,5,6,7,8)\n"
+"<emphasis>integer</emphasis>: prenez le premier Ã©lÃ©ment de la pile pour construire une suite d'entiers. L'Ã©lÃ©ment pile devra Ãªtre une chaÃ®ne de caractÃ¨res de caractÃ¨res de la forme: <emphasis>premier:dernier[:pas][,premier2:dernier2[:pas2][,...]</emphasis> (Ex: 1:5:2,6:8:1 sera interprÃ©tÃ© comme 1,3,5,6,7,8)\n"
 
 # type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para>
 #: en/http.xml:581
@@ -5763,7 +5763,7 @@ msgid ""
 "fields:\n"
 msgstr ""
 "\n"
-"<emphasis>directory</emphasis>: prenez le premier élément de la pile comme répertoire de base et construisez un ensemble intrisèque de noms de fichiers. Chaque élément possède les champs suivants:\n"
+"<emphasis>directory</emphasis>: prenez le premier Ã©lÃ©ment de la pile comme rÃ©pertoire de base et construisez un ensemble intrisÃ¨que de noms de fichiers. Chaque Ã©lÃ©ment possÃ¨de les champs suivants:\n"
 
 # type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/http.xml:590
@@ -5773,7 +5773,7 @@ msgid ""
 "name: file/directory name\n"
 msgstr ""
 "\n"
-"name: fichier/nom de répertoire\n"
+"name: fichier/nom de rÃ©pertoire\n"
 
 # type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/http.xml:594
@@ -5816,7 +5816,7 @@ msgid ""
 "name of the item.\n"
 msgstr ""
 "\n"
-"playlist: ensemble basé sur la playlist avec les champs suivants: current est égal à 1 si l'élément est actuellement sélectionné, 0 sinon. index est la valeur d'indexation, qui peut être utilisée par les commandes lecture ou supprimer. name est le nom de l'élément.\n"
+"playlist: ensemble basÃ© sur la playlist avec les champs suivants: current est Ã©gal Ã  1 si l'Ã©lÃ©ment est actuellement sÃ©lectionnÃ©, 0 sinon. index est la valeur d'indexation, qui peut Ãªtre utilisÃ©e par les commandes lecture ou supprimer. name est le nom de l'Ã©lÃ©ment.\n"
 
 # type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para>
 #: en/http.xml:617
@@ -5829,7 +5829,7 @@ msgid ""
 "info are name and value).\n"
 msgstr ""
 "\n"
-"\"informations\": Crée des informations concernant le flux diffusé. name est le nom de la catégorie, value est sa valeur, info est un nouvel ensemble qui peut être rempli à chaque fois (les champs secondaires de info sont name et value\n"
+"\"informations\": CrÃ©e des informations concernant le flux diffusÃ©. name est le nom de la catÃ©gorie, value est sa valeur, info est un nouvel ensemble qui peut Ãªtre rempli Ã  chaque fois (les champs secondaires de info sont name et value\n"
 
 # type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para>
 #: en/http.xml:624
@@ -5840,7 +5840,7 @@ msgid ""
 "Contains the \"id\" (opaque id), host, ip and port fields.\n"
 msgstr ""
 "\n"
-"\"hosts\": Crée une liste des serveurs écoutés.\n"
+"\"hosts\": CrÃ©e une liste des serveurs Ã©coutÃ©s.\n"
 "Contient les champs \"id\" (id opaque), host, ip et port.\n"
 
 # type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para>
@@ -5854,7 +5854,7 @@ msgid ""
 "?).\n"
 msgstr ""
 "\n"
-"\"urls\": Crée la liste des urls actuellemnt disponibles. Les champs sont id, stream (1 si un flux est diffusé, 0 sinon), url, mime, protected (1 si protégé, 0 sinon, used (est-il actuellement utilisé ?).\n"
+"\"urls\": CrÃ©e la liste des urls actuellemnt disponibles. Les champs sont id, stream (1 si un flux est diffusÃ©, 0 sinon), url, mime, protected (1 si protÃ©gÃ©, 0 sinon, used (est-il actuellement utilisÃ© ?).\n"
 
 # type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para>
 #: en/http.xml:636
@@ -5866,7 +5866,7 @@ msgid ""
 "command, ip, url, and status (HTTP error code).\n"
 msgstr ""
 "\n"
-"\"connections\": Crée la liste des connexions actuelles. Les champs sont: id, une id opaque qui peut être utilisée par la commande close, ip, url, et statut (code d'erreur HTTP).\n" 
+"\"connections\": CrÃ©e la liste des connexions actuelles. Les champs sont: id, une id opaque qui peut Ãªtre utilisÃ©e par la commande close, ip, url, et statut (code d'erreur HTTP).\n" 
 
 # type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para>
 #: en/http.xml:642
@@ -5905,8 +5905,8 @@ msgid ""
 "For more details, have a look at the share/http\n"
 "directory of the VLC source tree...\n"
 msgstr ""
-"Pour plus de détails, regardez le répertoire\n"
-"share/http situé à la racine de l'arboresence de VLC...\n"
+"Pour plus de dÃ©tails, regardez le rÃ©pertoire\n"
+"share/http situÃ© Ã  la racine de l'arboresence de VLC...\n"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #~ msgid "."

@@ -19,17 +19,18 @@
 <ul>
 <li>CAVLC/CABAC</li>
 <li>Multi-references</li>
-<li>Intra: all modes (4x4 and 16x16 with all predictions)</li>
+<li>Intra: all macroblock types (16x16 and 4x4 with all predictions)</li>
 <li>Inter P: all partitions (from 16x16 down to 4x4)</li>
 <li>Inter B: partitions from 16x16 down to 8x8 (including SKIP/DIRECT)</li>
 <li>Ratecontrol: constant quantizer, constant bitrate, or multipass ABR</li>
 <li>Scene cut detection</li>
+<li>Adaptive B-frame placement</li>
+<li>B-frames as references / arbitrary frame order</li>
 </ul>
 
 <p>Encoder limitations</p>
 <ul>
 <li>No real RD</li>
-<li>Naive B-frame placement</li>
 </ul>
 
 <h2>Getting x264</h2>
@@ -38,11 +39,13 @@
 
 <p># svn co svn://svn.videolan.org/x264/trunk x264</p>
 
+<p>Unofficial builds of the VfW frontend are available from <a href="http://x264.nl/">Jarod</a> or <a href="http://www.aziendeassociate.it/cd.asp?dir=/x264">Celtic Druid</a>.
+
 <h2>Support</h2>
 
 <p>For support information, have a look <a href="http://www.videolan.org/support/">here</a>.</p>
 
-<p>A <a href="http://developers.videolan.org/lists.html">x264-devel</a> mailing list is also available.</p>
+<p>A mailing list (<a href="http://developers.videolan.org/lists.html">x264-devel</a>), a forum (<a href="http://forum.doom9.org/forumdisplay.php?s=&forumid=54">Doom9</a>), and IRC (<a href="irc://irc.freenode.net/x264">#x264@freenode</a>) are also available.</p>
 
 <h2>Projects using x264</h2>
 

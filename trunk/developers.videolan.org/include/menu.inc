@@ -4,38 +4,8 @@ is a cone" /></a>
 <br />
 
 <table width="100%" cellspacing=0 cellpadding=0>
-<tr><th class=menu>VideoLAN Client</th></tr>
-<tr><td class=menu>
-<p class=menu><a href="/vlc/ChangeLog">Changelog</a></p>
-<p class=menu><a href="/vlc/devel_doc.html">Developer doc</a></p>
-</td></tr>
-</table>
-<br>
-
-<table width="100%" cellspacing=0 cellpadding=0>
-<tr><th class=menu>VideoLAN Server</th></tr>
-<tr><td class=menu>
-<p class=menu><a href="/vls/ChangeLog">Changelog</a></p>
-<p class=menu><a href="/vls/devel_doc.html">Developer doc</a></p>
-</td></tr>
-</table>
-<br>
-
-<table width="100%" cellspacing=0 cellpadding=0>
-<tr><th class=menu>libdvdcss</th></tr>
-<tr><td class=menu>
-<p class=menu><a href="/libdvdcss/ChangeLog">Changelog</a></p>
-<p class=menu><a href="/libdvdcss/devel_doc.html">Developer doc</a></p>
-</td></tr>
-</table>
-<br>
-
-<table width="100%" cellspacing=0 cellpadding=0>
-<tr><th class=menu>libdvbpsi</th></tr>
-<tr><td class=menu>
-<p class=menu><a href="/libdvbpsi/ChangeLog">Changelog</a></p>
-<p class=menu><a href="/libdvbpsi/devel_doc.html">Developer doc</a></p>
-</td></tr>
+<tr><th class=menu><a href="http://www.videolan.org/">User
+site</a></th></tr>
 </table>
 <br>
 
@@ -50,7 +20,28 @@ href="http://bugzilla.videolan.org/">Bugzilla</a></p>
 href="http://www.videolan.org/cgi-bin/cvsweb/">CVSWeb</a></p>
 <p class=menu><a
 href="http://www.videolan.org/cgi-bin/irc/irc.cgi">IRCWeb</a></p>
-<p class=menu><a href="http://www.videolan.org/">User site</a></p>
+</td></tr>
+</table>
+<br>
+
+<table width="100%" cellspacing=0 cellpadding=0>
+<tr><th class=menu>Developer doc</th></tr>
+<tr><td class=menu>
+<p class=menu><a href="/vlc/devel_doc.html">vlc</a></p>
+<p class=menu><a href="/vls/devel_doc.html">vls</a></p>
+<p class=menu><a href="/libdvdcss/devel_doc.html">libdvdcss</a></p>
+<p class=menu><a href="/libdvbpsi/devel_doc.html">libdvbpsi</a></p>
+</td></tr>
+</table>
+<br>
+
+<table width="100%" cellspacing=0 cellpadding=0>
+<tr><th class=menu>ChangeLog</th></tr>
+<tr><td class=menu>
+<p class=menu><a href="/vlc/ChangeLog">vlc</a></p>
+<p class=menu><a href="/vls/ChangeLog">vls</a></p>
+<p class=menu><a href="/libdvdcss/ChangeLog">libdvdcss</a></p>
+<p class=menu><a href="/libdvbpsi/ChangeLog">libdvbpsi</a></p>
 </td></tr>
 </table>
 <br>

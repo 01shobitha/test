@@ -100,10 +100,6 @@ allows you to select the video output module.</para></listitem>
 allows you to add a video filter module.</para></listitem>
 <listitem><para><emphasis>--memcpy  &lt;module&gt;</emphasis>
 allows you to choose a memory copy module.</para></listitem>
-<listitem><para><emphasis>--access  &lt;module&gt;</emphasis>
-allows you to force the access module.</para></listitem>
-<listitem><para><emphasis>--demux  &lt;module&gt;</emphasis>
-allows you to force the demux module.</para></listitem>
 </itemizedlist>
 
 </sect1>

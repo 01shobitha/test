@@ -135,4 +135,33 @@ td.blue   { color: black; background-image: none; background-color: #aae; }
 td.green  { color: black; background-image: none; background-color: #aea; }
 td.orange { color: black; background-image: none; background-color: #ec8; }
 td.red    { color: black; background-image: none; background-color: #eaa; }
-
+td.yes {
+  color: black;
+  background-image: none;
+  background-color: #eaa;
+  vertical-align: middle;
+}
+td.no {
+  color: black;
+  background-image: none;
+  background-color: #eaa;
+  vertical-align: middle;
+}
+td.type {
+  color: black;
+  background-image: none;
+  background-color: #eaa;
+  vertical-align: middle;
+}
+td.category {
+  color: black;
+  background-image: none;
+  background-color: #eaa;
+  vertical-align: middle;
+}
+th.os {
+  color: black;
+  background-image: none;
+  background-color: #eaa;
+  vertical-align: middle;
+}

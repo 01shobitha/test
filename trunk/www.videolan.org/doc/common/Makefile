@@ -2,17 +2,8 @@
 # Written by Alexis de Lattre <alexis@videolan.org>
 # To build another language than the default one, do 'make LANG=foo'
 
-# Document name
-DOC := videolan-quickstart
-
 # XML declaration
 XML_DECL := /usr/lib/sgml/declaration/xml.decl
-
-# Default language (English)
-LANG = en
-
-# All available languages (used in 'make clean')
-ALL_LANG = en fr
 
 # Build HTML, PDF, RTF and TXT outputs (for the web site)
 all: $(LANG)/$(DOC)-$(LANG).html $(LANG)/$(DOC)-$(LANG).pdf $(LANG)/$(DOC)-$(LANG).rtf $(LANG)/$(DOC)-$(LANG).txt

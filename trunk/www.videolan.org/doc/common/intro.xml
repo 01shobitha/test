@@ -248,30 +248,55 @@ or on a CD,</span>
 <span xml:lang="fr">des fichiers MPEG-1, MPEG-2 ou MPEG-4 stockés sur un disque dur, un CD, ...,</span>
 </para></listitem>
 
-<listitem><para>a DVD located in a local DVD drive or copied on a hard
-disk,</para></listitem>
+<listitem><para>
+<span xml:lang="en">a DVD located in a local DVD drive or copied on a hard
+disk,</span>
+<span xml:lang="fr">un DVD dans un lecteur local ou copié sur un disque
+dur,</span>
+</para></listitem>
 
-<listitem><para>a satellite card (DVB-S) or a digital terrestial
-television card (DVB-T),</para></listitem>
+<listitem><para>
+<span xml:lang="en">a satellite card (DVB-S) or a digital terrestial
+television card (DVB-T)</span>
+<span xml:lang="fr">une carte satellite (DVB-S) ou une carte de télévision
+numérique terrestre (DVB-T)</span>
+,</para></listitem>
 
-<listitem><para>an MPEG encoding card ;</para></listitem>
+<listitem><para>
+<span xml:lang="en">an MPEG encoding card</span>
+<span xml:lang="fr">une carte d'encodage MPEG</span>
+ ;</para></listitem>
 
 </itemizedlist>
 
-<para>to :</para>
+<para><span xml:lang="en">to</span><span xml:lang="fr">vers</span>:</para>
 
 <itemizedlist>
 
+<span xml:lang="en">
 <listitem><para>one machine (i.e. to one IP address) : this is called
 <emphasis>unicast</emphasis>,</para></listitem>
+</span>
+<span xml:lang="fr">
+<listitem><para>une machine (c'est à dire à une addresse IP) :
+ ceci est appelé  <emphasis>unicast</emphasis>,</para></listitem>
+</span>
 
-<listitem><para>a dynamic group of machines that the clients can join or leave
-(i.e. to a multicast IP address) : this is called
+<span xml:lang="en">
+<listitem><para>a dynamic group of machines that the clients can
+join or leave (i.e. to a multicast IP address) : this is called
 <emphasis>multicast</emphasis>,</para></listitem>
+</span>
+<span xml:lang="fr">
+<listitem><para>Un groupe dynamique de machines que les clients
+rejoignent ou quittent (une addresse IP multicast): ceci est appelé
+<emphasis>multicast</emphasis>,</para></listitem>
+</span>
 
 </itemizedlist>
 
-<para>in IPv4 or IPv6.</para>
+<para><span xml:lang="en">in IPv4 or IPv6</span>
+      <span xml:lang="fr">en IPv4 ou en IPv6</span>.</para>
 
 <span xml:lang="en">
 <para>A Pentium 100 MHz with 32 MB of memory should be enough to send one
@@ -287,10 +312,20 @@ vient pas du processeur mais du disque dur et de la connexion réseau.
 </para>
 </span>
 
+<span xml:lang="en">
 <para>VLS works under Linux and Windows. To get the complete
 list of VLS's possibilities on each plateform supported, see the <ulink
 url="http://www.videolan.org/streaming/features.html">streaming features
 page</ulink>.</para>
+</span>
+
+<span xml:lang="fr">
+<para>VLS fonctionne sous Linux et Windows. Pour la liste complète des 
+possibilités de VLS sur chaque plateforme, référez-vous à la <ulink
+url="http://www.videolan.org/streaming/features.html">page des fonctionnalités
+de diffusion</ulink>.</para>
+</span>
+
 
 </simplesect>
 
@@ -311,81 +346,168 @@ lecture.</span>
 </para>
 
 <para>
- The mini-SAP-server works under Linux and Mac OS X.</para>
+<span xml:lang="en">The mini-SAP-server works under Linux and Mac OS X.</span>
+<span xml:lang="fr">Le mini-SAP-server fonctionne sous Linux et Mac OS X.</span>
+</para>
 
 </simplesect>
 </sect2>
 </sect1>
 
-<sect1><title>How can I use VideoLAN ?</title>
+<sect1><title>
+<span xml:lang="en">How can I use VideoLAN ?</span>
+<span xml:lang="fr">Utilisation de VideoLAN ?</span>
+</title>
 
-<sect2><title>The documentation</title>
+<sect2><title>Documentation</title>
 
-<para>The user documentation of VideoLAN is made up of 4 documents :</para>
+<para>
+<span xml:lang="en">The user documentation of VideoLAN is made up of 4 documents :</span>
+<span xml:lang="fr">La documentation utilisateur de VideoLAN comporte 4 documents :</span>
+
+</para>
 
 <itemizedlist>
 
-<listitem><para>the <emphasis>VideoLAN Quickstart</emphasis>. This
+<listitem><para>
+<span xml:lang="en">the <emphasis>VideoLAN Quickstart</emphasis>. This
 document will give you a quick overview of of VLC, VLC's stream output,
 the Video On Demand solution and the channel information service
-system.</para></listitem>
+system.</span>
+<span xml:lang="fr">Le <emphasis>VideoLAN Quickstart</emphasis>. CE
+document offre un rapide apercu de VLC, du stream output, de la Vidéo
+à la demande et des services d'information</span>
+</para></listitem>
 
-<listitem><para>the <emphasis>VideoLAN HOWTO</emphasis>. This
+<listitem><para>
+<span xml:lang="en">the <emphasis>VideoLAN HOWTO</emphasis>. This
 document is the complete guide of the VideoLAN streaming
-solution.</para></listitem>
+solution.</span>
+<span xml:lang="fr">le  <emphasis>VideoLAN HOWTO</emphasis>. Ce 
+document est le guide complet de la solution de streaming VideoLAN.</span>
+</para></listitem>
 
-<listitem><para>the <emphasis>VLC user guide</emphasis>. This document
-is the complete guide for VLC.</para></listitem>
+<listitem><para>
+<span xml:lang="en">the <emphasis>VLC user guide</emphasis>. This document
+is the complete guide for VLC.</span>
+<span xml:lang="fr">Le <emphasis>VLC user guide</emphasis>. Ce document 
+est le guide complet de VLC</span>
+</para></listitem>
 
-<listitem><para>the <emphasis>VLS user guide</emphasis>. This document
-is the complete guide for VLS.</para></listitem>
+<listitem><para>
+<span xml:lang="en">the <emphasis>VLS user guide</emphasis>. This document
+is the complete guide for VLS.</span>
+<span xml:lang="fr">Le <emphasis>VLS user guide</emphasis>. Ce document 
+est le guide complet de VLS</span>
+</para></listitem>
 
-<listitem><para>the <emphasis>VideoLAN FAQ</emphasis>.
+<listitem><para>
+<span xml:lang="en">the <emphasis>VideoLAN FAQ</emphasis>.
 This document contains Frequently Asked Questions about
-VideoLAN.</para></listitem>
+VideoLAN.</span>
+<span xml:lang="fr">La <emphasis>FAQ de VideoLAN</emphasis>.
+Ce document contient la Foire Aux Questions de VideoLAN</span>
+</para></listitem>
 
 </itemizedlist>
 
-<para>The latest version of these documents can be found on the <ulink
-url="http://www.videolan.org/doc/">documentation page</ulink>.</para>
+<para>
+<span xml:lang="en">
+The latest version of these documents can be found on the <ulink
+url="http://www.videolan.org/doc/">documentation page</ulink>
+</span>
+<span xml:lang="fr">
+La denière version de ces documents se trouve sur la <ulink
+url="http://www.videolan.org/doc/">page documentation</ulink>
+</span>.</para>
 
-<para>You can also have a look at the <ulink
+<para>
+<span xml:lang="en">
+You can also have a look at the <ulink
 url="http://wiki.videolan.org">VideoLAN Wiki</ulink>. This is a website
 that everyone can change. We use it to document everything that is not
 in the "official" documentation: the tips and tricks for each O.S., the
-graphical interfaces, etc...</para>
+graphical interfaces, etc...
+</span>
+<span xml:lang="fr">
+Vous pouvez également regarder le <ulink
+url="http://wiki.videolan.org">Wiki VideoLAN</ulink>. Il s'agit d'un site
+web que tout le monde peut modifier. Nous l'utilisons pour documenter tout
+ce qui ne se trouve pas dans la documenation "officiele": astuces pour chaque 
+plateforme, les interfaces graphiques, ...
+</span>
+</para>
 
 </sect2>
 
-<sect2><title>User support</title>
+<sect2><title>
+<span xml:lang="en">User support</span>
+<span xml:lang="fr">Support aux utilisateurs</span>
+</title>
 
-<para>If you have problems using VideoLAN, and if you don't find the
+<para>
+<span xml:lang="en">
+If you have problems using VideoLAN, and if you don't find the
 answer to your problems in the documentation, please look at the <ulink
 url="http://www.via.ecp.fr/via/ml/videolan/index-en.html">online
 archive of the mailing-lists</ulink>. There are two English-speaking
-mailing-lists for the users :</para>
+mailing-lists for the users :
+</span>
+<span xml:lang="fr">
+Si vous éprouvez des difficultés pour utiliser VideoLAN et que vous ne 
+trouvez pas la réponse à vos problèmes dans la documentation, merci de 
+regarder dans l'<ulink url="http://www.via.ecp.fr/via/ml/videolan/index-en.html">
+archive en-ligne des mailing-lists</ulink>. Il existe deux listes anglophones
+pour les utilisateurs :</span>
+</para>
 
 <itemizedlist>
 
-<listitem><para><emphasis>vlc@videolan.org</emphasis> for the questions
-on VLC,</para></listitem>
+<listitem><para><emphasis>vlc@videolan.org</emphasis>
+ <span xml:lang="en">for the questions on VLC</span>
+ <span xml:lang="fr">pour les questions relatives à VLC</span>
+,</para></listitem>
 
-<listitem><para><emphasis>streaming@videolan.org</emphasis> for the questions
-on VLS, mini-SAP-server and the network.</para></listitem>
+<listitem><para><emphasis>streaming@videolan.org</emphasis> 
+ <span xml:lang="en">for the questions on VLS, mini-SAP-server
+    and the network</span>
+ <span xml:lang="fr">pour les questions relatives à VLS, au mini-SAP-server,
+  et au réseau</span>
+.</para></listitem>
 
 </itemizedlist>
 
-<para>If you want to subscribe or unsubscribe to the mailing-lists,
+<para>
+<span xml:lang="en">
+If you want to subscribe or unsubscribe to the mailing-lists,
 please go to the <ulink url="http://www.videolan.org/support/lists.html">
-mailing-list page</ulink>.</para>
+mailing-list page</ulink>.
+</span>
+<span xml:lang="fr">
+Pour vous inscrire ou vous désinscrire de ces mailing-lists,
+merci de voir la <ulink url="http://www.videolan.org/support/lists.html">
+page mailing-lists</ulink>.
+</span>
+</para>
 
-<para>You can also talk with VideoLAN users and developers on IRC :
+<para>
+<span xml:lang="en">You can also talk with VideoLAN users and developers on IRC :
 server <emphasis>irc.freenode.net</emphasis>, channel
-<emphasis>#videolan</emphasis>.</para>
+<emphasis>#videolan</emphasis></span>
+<span xml:lang="fr">Vous pouvez également parler aux utilisateurs et développeurs
+VideoLAN sur IRC, sur le serveur <emphasis>irc.freenode.net</emphasis>, et le
+channel <emphasis>#videolan</emphasis></span>
+.</para>
 
-<para>If you find a bug, please follow the instructions on the <ulink
-url="http://www.videolan.org/support/bug-reporting.html">bug reporting
-page</ulink>.</para>
+<para>
+<span xml:lang="en">If you find a bug, please follow the instructions on 
+the <ulink url="http://www.videolan.org/support/bug-reporting.html">
+bug reporting page</ulink></span>
+<span xml:lang="fr">Si vous découvrez un bug, merci de bien vouloir suivre
+les instructions de la page 
+<ulink url="http://www.videolan.org/support/bug-reporting.html">report de bug
+</ulink></span>
+.</para>
 
 </sect2>
 </sect1>
@@ -421,32 +543,50 @@ de deviner comment utiliser l'interface graphique pour le même usage
 !</span>
 </para></listitem>
 
-<listitem><para>VLS has a command line and a telnet interface, but no
-graphical interface !</para></listitem>
+<listitem><para>
+<span xml:lang="en">VLS has a command line and a telnet interface, but no
+graphical interface !</span>
+<span xml:lang="fr">VLS est doté d'une interface en ligne de commande, et 
+d'une interface Telnet, mais n'a pas d'interface graphique !</span>
+</para></listitem>
 
 </itemizedlist>
 
-<para>All the commands that show up in this document should be typed
-inside a terminal.</para>
+<para>
+<span xml:lang="en">
+All the commands that show up in this document should be typed
+inside a terminal.</span>
+<span xml:lang="fr">Toutes les commandes que vous voyez dans ce document
+doivent être tapées dans un terminal</span>.</para>
 
-<sect2><title>Open a terminal</title>
+<sect2><title>
+<span xml:lang="en">Open a terminal</span>
+<span xml:lang="fr">Ouvrez un terminal</span>
+</title>
 
-<simplesect><title>under Windows</title>
+<simplesect><title>Windows</title>
 
-<para>Click on <emphasis>Start</emphasis>, <emphasis>Run</emphasis> and
-type :</para>
+<para>
+<span xml:lang="en">Click on <emphasis>Start</emphasis>,
+<emphasis>Run</emphasis> and type :</span>
+<span xml:lang="fr">Cliquez sur <emphasis>Démarrer</emphasis>,
+<emphasis>Exécuter</emphasis> and tapez :</span>
+</para>
 
 <itemizedlist>
 
-<listitem><para><command>cmd</command> then <keycap>Enter</keycap> under
-Windows 2000 / XP,</para></listitem>
+<listitem><para><command>cmd</command> <keycap>Enter</keycap>
+(Windows 2000 / XP),</para></listitem>
 
-<listitem><para><command>command</command> then <keycap>Enter</keycap>
-under Windows 95 / 98 / ME.</para></listitem>
+<listitem><para><command>command</command> <keycap>Enter</keycap>
+(Windows 95 / 98 / ME).</para></listitem>
 
 </itemizedlist>
 
-<para>The terminal appears :</para>
+<para>
+<span xml:lang="en">The terminal appears</span>
+<span xml:lang="en">Le terminal apparait</span>
+</para>
 
 <figure><title>Windows terminal</title>
 <mediaobject>
@@ -456,16 +596,22 @@ under Windows 95 / 98 / ME.</para></listitem>
 </mediaobject>
 </figure>
 
-<note><para>Under Windows, you need to be in the directory where the
-program is installed to run it.</para></note>
+<note><para>
+<span xml:lang="en">Under Windows, you need to be in the directory where the
+program is installed to run it.</span>
+<span xml:lang="fr">Sous Windows, vous devez vous situer dans le dossier où 
+le programme est installé pour le lancer</span></para></note>
 
 </simplesect>
 
-<simplesect><title>under Linux or Unix</title>
+<simplesect><title>Linux / Unix</title>
 
-<para>Under X, open a terminal :</para>
+<para>
+<span xml:lang="en">Open a terminal</span>
+<span xml:lang="fr">Ouvrez un terminal</span>
+ :</para>
 
-<figure><title>Linux terminal</title>
+<figure><title>Linux X terminal</title>
 <mediaobject>
   <imageobject>
     <imagedata fileref="images/terminal-linux.jpg" format="JPG" scalefit="1" scale="60" />
@@ -473,25 +619,37 @@ program is installed to run it.</para></note>
 </mediaobject>
 </figure>
 
-<para>In the documentation, we adopt the following conventions for the
-Unix commands :</para>
+<para>
+<span xml:lang="en">In the documentation, we adopt the following 
+conventions for the Unix commands :</span>
+<span xml:lang="fr">Dans la documentation, nous adoptons les conventions
+suivantes pour les commandes Unix :</span>
+</para>
 
 <itemizedlist>
 
-<listitem><para>commands that should be typed as
-<emphasis>root</emphasis> have a <command>#</command> prompt :</para>
+<listitem><para>
+<span xml:lang="en">commands that should be typed as
+<emphasis>root</emphasis> have a <command>#</command> prompt :</span>
+<span xml:lang="fr">Les commandes devant être lancées en tant que 
+<emphasis>root</emphasis> commencent par un <command>#</command> :</span>
+</para>
 
 <screen>
-<prompt># </prompt><userinput>command_to_be_typed_as_root</userinput>
+<prompt># </prompt><userinput><span xml:lang="en">command_to_be_typed_as_root</span><span xml:lang="fr">commande_a_lancer_en_root</span></userinput>
 </screen>
 
 </listitem>
 
-<listitem><para>commands that should be typed as a regular user have a
-<command>%</command> prompt :</para>
+<listitem><para>
+<span xml:lang="en">commands that should be typed as a regular user have a
+<command>%</command> prompt :</span>
+<span xml:lang="fr">Les commandes devant être lancées en tant qu'utilisateur
+normal commencent par un <command>%</command> :</span>
+</para>
 
 <screen>
-<prompt>% </prompt><userinput>command_to_be_typed_as_regular_user</userinput>
+<prompt>% </prompt><userinput><span xml:lang="en">command_to_be_typed_as_regular_user</span><span xml:lang="fr">commande_a_lancer_en_tant_qu_utilisateur</span></userinput>
 </screen>
 
 </listitem>
@@ -500,11 +658,17 @@ Unix commands :</para>
 
 </simplesect>
 
-<simplesect><title>under Mac OS X</title>
+<simplesect><title>Mac OS X</title>
 
-<para>Go to <emphasis>Applications</emphasis>, open the
+<para>
+
+<span xml:lang="en">Go to <emphasis>Applications</emphasis>, open the
 folder <emphasis>Utilities</emphasis> and double-click on
-<emphasis>Terminal</emphasis> :</para>
+<emphasis>Terminal</emphasis></span>
+<span xml:lang="fr">Allez dans <emphasis>Applications</emphasis>, ouvrez le
+dossier  <emphasis>Utilitaires</emphasis> et double-cliquez sur
+<emphasis>Terminal</emphasis></span>
+ :</para>
 
 <figure><title>Mac OS X terminal</title>
 <mediaobject>
@@ -514,16 +678,24 @@ folder <emphasis>Utilities</emphasis> and double-click on
 </mediaobject>
 </figure>
 
-<note><para>Under Mac OS X, you need to be in the directory where
+<note><para>
+<span xml:lang="en">Under Mac OS X, you need to be in the directory where
 the program is installed to run it, and start the command with
-<command>./</command> .</para></note>
+<command>./</command> </span>
+<span xml:lang="fr">Sous Max OS X, vous devez vous situer dans le dossier où 
+le programme est installé pour le lancer, et le lancer avec 
+<command>./</command> </span>
+.</para></note>
 
 </simplesect>
 
-<simplesect><title>under BeOS</title>
+<simplesect><title>BeOS</title>
 
-<para>In the deskbar, go to <emphasis>Application</emphasis> and then
-<emphasis>Terminal</emphasis> :</para>
+<para>
+<span xml:lang="en">In the deskbar, go to <emphasis>Application</emphasis> and then
+<emphasis>Terminal</emphasis> :</span>
+<span xml:lang="fr">Dans la barre de bureau, allez à <emphasis>Application</emphasis>
+et sur <emphasis>Terminal</emphasis> :</span></para>
 
 <figure><title>BeOS terminal</title>
 <mediaobject>
@@ -533,9 +705,14 @@ the program is installed to run it, and start the command with
 </mediaobject>
 </figure>
 
-<note><para>Under BeOS, you need to be in the directory where
+<note><para>
+<span xml:lang="en">Under BeOS, you need to be in the directory where
 the program is installed to run it, and start the command with
-<command>./</command>.</para></note>
+<command>./</command></span>
+<span xml:lang="fr">Sous BeOS, vous devez vous situer dans le dossier où 
+le programme est installé pour le lancer, et le lancer avec
+<command>./</command></span>
+.</para></note>
 
 </simplesect>
 </sect2>

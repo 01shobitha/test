@@ -1,5 +1,6 @@
 <chapter id="sap"><title id="tsap">Add a channel information service</title>
 
+<span xml:lang="en">
 <para>Typing multicast addresses is not very fun... that's why you need
 a channel information service ! VideoLAN has implemented a channel
 information service based on the SAP/SDP standard. The SAP announces
@@ -7,30 +8,71 @@ about the multicast programs are sent on the network (via the multicast
 address <emphasis>224.2.127.254</emphasis> reserved for this purpose).
 On the client side, VLCs receive these annouces and automatically add
 the programs announced to their playlist.</para>
+</span>
 
+<span xml:lang="fr">
+<para>Taper des adresses multicast n'est certainement pas très amusant,
+... et c'est tout l'interêt d'un système d'information ! La solutio
+VideoLAN implémente un service d'information basé sur le protocole
+SAP/SDP. Les annonces SAP sont envoyées sur l'adresse multicast
+<emphasis>224.2.127.254</emphasis>, réservée à cet usage). Côté client,
+VLC reçoit ces annonces et ajoute automatiquement les programmes
+concernés à la liste de lecture</para>
+</span>
+
+<span xml:lang="en">
 <para>VLC can send the SAP announces associated with the programs
 it is streaming. VLS can't do that, but an independant program, the
 mini-SAP-server, can send the announces for the programs sent by
 VLS.</para>
+</span>
 
-<sect1><title>Send announces when streaming with VLC</title>
+<span xml:lang="fr">
+<para>VLC est capable d'envoyer des annonces SAP correspondant aux
+programmes qu'il diffuse. VLS en est incapable, mais un programe
+indépendant, le mini-SAP-server, peut envoyer les annonces pour les
+programmes diffusés par VLS</para>
+</span>
 
-<para>To send announces with VLC, you need to use the complex syntax of
-VLC's stream output, like this:</para>
+<sect1><title>
+<span xml:lang="en">Send announces when streaming with VLC</span>
+<span xml:lang="fr">Envoyer des annonces pendant la diffusion avec VLC</span>
+</title>
+
+<para>
+<span xml:lang="en">To send announces with VLC, you need to use the complex syntax of
+VLC's stream output, like this:</span>
+<span xml:lang="fr">Pour envoyer des annonces avec VLC, vous devez utiliser la syntaxe
+complexe du stream output, ce qui donne, par exemple:</span>
+</para>
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#standard{access=udp,url=239.255.12.42,sap="Test Stream"}' --ttl 12</userinput>
 </screen>
 
+<span xml:lang="en">
 <para>where <filename>video1.xyz</filename> is the file you want
 to stream, <emphasis>239.255.12.42</emphasis> is the multicast IP
 address you want to stream on, <emphasis>Test Stream</emphasis> is
 the name that will be used for this program in the SAP announces and
 <emphasis>12</emphasis> is the value of the TTL (Time To Live) of the
 stream and of the SAP announces.</para>
+</span>
 
-<para>To do the SAP announces in IPv6, just add the
-<emphasis>sap_ipv=6</emphasis> option:</para>
+<span xml:lang="fr">
+<para>où <filename>video1.xyz</filename> est le fichier que vous désirez
+diffuser, vers l'adresse multicast <emphasis>239.255.12.42</emphasis>.
+<emphasis>Test Stream</emphasis> est le nom qui sera utilisé pour ce
+programme, dans l'annonce SAP. <emphasis>12</emphasis> est la valeur du
+TTL du flux et de l'annonce SAP</para>
+</span>
+
+<para>
+<span xml:lang="en">To do the SAP announces in IPv6, just add the
+<emphasis>sap_ipv=6</emphasis> option:</span>
+<span xml:lang="fr">Pour envoyer les annonces SAP en IPv6, ajoutez
+l'option <emphasis>sap_ipv=6</emphasis></span>
+</para>
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#standard{access=udp,url=239.255.12.42,sap="Test Stream",sap_ipv=6}' --ttl 12</userinput>
@@ -38,30 +80,50 @@ stream and of the SAP announces.</para>
 
 </sect1>
 
-<sect1><title>Send announces for the programs streamed by VLS with the
-mini-SAP-server</title>
+<sect1><title>
+<span xml:lang="en">Send announces for the programs streamed by VLS with the
+mini-SAP-server</span>
+<span xml:lang="fr">Envoyer des annonces pour les flux diffusés par VLS, 
+à l'aide du mini-SAP-server</span>
+</title>
 
-<note><para>The mini-SAP-server is only available for Linux and Mac OS
-X.</para></note>
 
-<simplesect><title>Install the mini-SAP-server</title>
+<note><para>
+<span xml:lang="en">The mini-SAP-server is only available for Linux and Mac OSX.
+</span><span xml:lang="fr">
+Le mini-SAP-server ne fonctionne que sous Linux et MacOSX</span>
+</para></note>
 
-<para>Download the latest version of the mini-SAP-server from the <ulink
-url="http://www.videolan.org/streaming/">streaming download
-page</ulink>.</para>
+<simplesect><title>
+<span xml:lang="en">Install the mini-SAP-server</span>
+<span xml:lang="fr">Installez le mini-SAP-server</span></title>
 
-<para>Install-it:</para>
+
+<para>
+<span xml:lang="en">Download the latest version of the mini-SAP-server from the <ulink
+url="http://www.videolan.org/streaming/">streaming download page</ulink>.</span>
+<span xml:lang="fr">Téléchargez la dernière version du mini-SAP-server, depuis la <ulink url="http://www.videolan.org/streaming/">page streaming</ulink>.</span>
+</para>
+
+<para>
+<span xml:lang="en">Install-it:</span>
+<span xml:lang="fr">Installez-le:</span>
+</para>
 
 <screen>
 <prompt>% </prompt><userinput>tar xvzf miniSAPserver-version.tar.gz</userinput>
 <prompt>% </prompt><userinput>cd miniSAPserver-version</userinput>
+<prompt>% </prompt><userinput>./configure (if version >= 0.2.3)</userinput>
 <prompt>% </prompt><userinput>make</userinput>
 </screen>
 
 </simplesect>
 
-<simplesect><title>Configure the mini-SAP-server</title>
+<simplesect><title>
+<span xml:lang="en">Configure the mini-SAP-server</span>
+<span xml:lang="fr">Configurez le mini-SAP-server</span></title>
 
+<span xml:lang="en">
 <para>Edit the configuration file <filename>sap.cfg</filename> shipped
 with the tarball. It should contain a global section with the Time To
 Live (TTL) and the IP version (IPv4 or IPv6) used for the SAP announces
@@ -70,35 +132,68 @@ parameter.</para>
 
 <para>The Time To Live option indicates the maximum number of routers
 that the SAP announce packets can cross before being dropped.</para>
+</span>
+
+<span xml:lang="fr">
+<para>Editez le fichier de configuration <filename>sap.cfg</filename>
+livré avec le mini-SAP-server. Il contient une section [global] avec le
+TTL et la version d'IP utiliséee pour les annonces, ainsi qu'un section
+pour chaque programme. Utilisez les commentaires pour comprendre chaque
+paramètre</para>
+<para>L'option TTL indique le nombre maximal de routeurs que l'annonce
+peut traverser avant d'être détruite</para>
+</span>
 
 </simplesect>
 
-<simplesect><title>Run the mini-SAP-server</title>
+<simplesect><title>
+<span xml:lang="en">Run the mini-SAP-server</span>
+<span xml:lang="fr">Lancez le mini-SAP-server</span>
+</title>
 
-<para>Start the mini-SAP-server:</para>
+<para>
+<span xml:lang="en">Start the mini-SAP-server:</span>
+<span xml:lang="fr">Lancer le the mini-SAP-server:</span>
+</para>
 
 <screen>
 <prompt>% </prompt><userinput>./sapserver -c sap.cfg</userinput>
 </screen>
 
-<para>If you want to run the mini-SAP-server in the background, use the
-<command>-d</command> command line switch. For instance:</para>
+<para>
+<span xml:lang="en">If you want to run the mini-SAP-server in the
+background, use the <command>-d</command> command line switch. For
+instance:</span>
+<span xml:lang="fr">Si vous désirez lancer le mini-SAP-server en tâche
+de fond, utilisez l'option <command>-d</command>: </span>
+</para>
 
 <screen>
 <prompt>% </prompt><userinput>./sapserver -d -c sap.cfg</userinput>
 </screen>
 
-<para>You can also omit the <command>-c</command> command line switch if
-your config file is <filename>/etc/sap.cfg</filename>.</para>
+<para>
+<span xml:lang="en">You can also omit the <command>-c</command> 
+command line switch if your config file is <filename>/etc/sap.cfg</filename>.
+</span><span xml:lang="fr">
+Vous pouvez ommettre l'option <command>-c</command> si votre fichier 
+de configuration est <filename>/etc/sap.cfg</filename>.</span>
+</para>
 
 </simplesect>
 </sect1>
 
-<sect1><title>Start VLC(s) on the client(s)</title>
+<sect1><title>
+<span xml:lang="en">Start VLC(s) on the client(s)</span>
+<span xml:lang="fr">Lancer VLC sur le(s) client(s)</span>
+</title>
 
 <itemizedlist>
 
-<listitem><para>If the announces are sent in IPv4 :</para>
+<listitem><para>
+<span xml:lang="en">If the announces are sent in IPv4 :</span>
+<span xml:lang="fr">Si les annonces sont envoyés en IPv4 :</span>
+</para>
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv --extraintf sap</userinput>
@@ -106,7 +201,10 @@ your config file is <filename>/etc/sap.cfg</filename>.</para>
 
 </listitem>
 
-<listitem><para>If the announces are sent in IPv6 :</para>
+<listitem><para>
+<span xml:lang="en">If the announces are sent in IPv6 :</span>
+<span xml:lang="fr">Si les annonces sont envoyés en IPv6 :</span>
+</para>
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv --extraintf sap --sap-ipv6</userinput>
@@ -116,9 +214,19 @@ your config file is <filename>/etc/sap.cfg</filename>.</para>
 
 </itemizedlist>
 
-<para>Then open the playlist : you should see the names of the programs
-announced. When you double-click on the name of a program, VLC will
-subscribe to the multicast address and start to play the stream !</para>
+<span xml:lang="en">
+<para>Then open the playlist: you should see the names of the programs
+announced in SAP. When you double-click on the name of a program,
+VLC will subscribe to the multicast address and start to play the stream
+!</para>
+</span>
+
+<span xml:lang="fr">
+<para>Ouvrez ensuite la lecture. Vous devriez voir les noms des
+programmes annoncés en SAP. Quand vous double-cliquez sur le nom d'un
+programme, VLC s'abonne à l'adresse multicast et commence à lire le
+flux</para>
+</span>
 
 </sect1>
 </chapter>

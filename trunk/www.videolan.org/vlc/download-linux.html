@@ -131,30 +131,32 @@ add the following lines to your <b>/etc/apt/sources.list</b>:</p>
 
 <? h2("Mandrake i386"); ?>
 
-<p> Firstly, VLC is included in MandrakeLinux distribution, thus if 
-your are running cooker, just get it from you preferred cooker mirror. </p>
+<p> First, VLC is included in the <a
+href="http://www.mandrakelinux.com/">Mandrake Linux</a> distribution,
+thus if your are running <i>cooker</i>, just get it from you preferred cooker
+mirror. </p>
 
-<p> As it is not possible to update softwares in a previous distrib,
-you have to install the rpms by "hand".
-The simplest way is using urpmi (command line interface)
-or rpmdrake (you will find in the Mandrake Control Center).
-General instrctutions about urpmi can be found here:
-http://www.urpmi.org (both in french and english).
-urpmi-setup will make easier to setup urpmi to your needs:
-http://plf.zarb.org/~nanardon/ .
+<p> As it is not possible to update softwares in a previous
+distributions, you have to install the RPMs "by hand" if you don't use
+<i>cooker</i>. The simplest way is to use <i>urpmi</i> (command
+line interface) or <i>rpmdrake</i> (you will find in the Mandrake
+Control Center). General instrctutions about <i>urpmi</i> can be
+found on <a href="http://www.urpmi.org">http://www.urpmi.org</a>
+(both in french and english). <i>urpmi-setup</i> will
+make it easier to setup <i>urpmi</i> to your needs: see <a
+href="http://plf.zarb.org/~nanardon/">http://plf.zarb.org/~nanardon/</a>.
 You need at least to add main, contrib and plf sources. </p>
 
 <ul>
+
 <li> get libdvdplay, vlc, vlc-plugin-mad, vlc-plugin-a52, gnome-vlc
-  (or vlc-gtk) rpm from VideoLAN site and all the plugins you want. </li>
-<li> install them with: urpmi libdvdplay*rpm *vlc*rpm</li>
+  (or vlc-gtk) RPMs from this page and all the plugins you want. </li>
+
+<li> install them with: <code>urpmi libdvdplay*rpm *vlc*rpm</code>
+(urpmi will complete all the dependencies.)</li>
+
 </ul>
 
-<p> urpmi will complete all the dependencies. </p>
-
-If you want to do all by hand, get all the required rpm from a mirror:
-http://www.mandrakelinux.com/fr/ftpurl.php3
-but you should really use urpmi !
 
 <p> Latest RPM x86 packages for Mandrake (0.5.0): </p>
 
@@ -212,11 +214,6 @@ but you should really use urpmi !
 ?></ul>
 
 <? h2("Red Hat 8.0 i386"); ?>
-
-<p> Since there are many RPM-based distributions, you may get a better
-package by rebuilding it yourself. Download the SRPM and run for
-instance <code>rpm --rebuild vlc-0.5.0-1.src.rpm</code>. The RPMs can
-then be found in <code>/usr/src/RPM/RPMS/</code>. </p>
 
 <p> Latest RPM x86 packages for Red Hat (0.5.0): </p>
 
@@ -276,9 +273,15 @@ then be found in <code>/usr/src/RPM/RPMS/</code>. </p>
     pkgitem("vlc/0.5.0/rpm/redhat","ffmpeg-0.4.6-1.src.rpm");
 ?></ul>
 
+<? h2("Other RPM-based distributions"); ?>
+
+<p>For the other RPM-based Linux distributions, download the SRPM and run for
+instance <code>rpm --rebuild vlc-0.5.0-1.src.rpm</code>. The RPMs can
+then be found in <code>/usr/src/RPM/RPMS/</code>. </p>
+
 <? h2("Older versions"); ?>
 
 <p> Older versions can be found by <a href="/pub/vlc/">browsing</a> our
 FTP site. </p>
 
-<? footer('$Id: download-linux.html,v 1.27 2003/02/06 16:07:04 massiot Exp $'); ?>
+<? footer('$Id: download-linux.html,v 1.28 2003/02/06 19:49:02 alexis Exp $'); ?>

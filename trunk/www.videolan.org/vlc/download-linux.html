@@ -1,0 +1,44 @@
+<?
+   $title = "VLC for Linux";
+   $lang = "en";
+   $date = "16 April 2001";
+   require("header.php3");
+?>
+
+<? function pkgitem($version,$name) { ?><li><a href="/pub/videolan/vlc/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
+
+<h1> VLC for Linux </h1>
+
+<? h2("Select your Linux distribution"); ?>
+
+<table cellspacing="10">
+<tr>
+<td>
+  <a href="download-debian.html"><img src="/images/icons/debian.gif"
+      style="vertical-align: middle; border-width: 1px;"
+      alt="Linux Debian" /></a>&nbsp;Linux Debian
+</td><td>
+   <a href="download-mandrake.html"><img src="/images/icons/mandrake.gif"
+      style="vertical-align: middle; border-width: 1px;"
+      alt="Linux Mandrake" /></a>&nbsp;Linux Mandrake
+</td><td>
+   <a href="download-redhat.html"><img src="/images/icons/redhat.gif"
+      style="vertical-align: middle; border-width: 1px;"
+      alt="Linux Red Hat" /></a>&nbsp;Linux Red Hat
+</td>
+</tr>
+</table>
+
+<? h2("My Linux distribution is not listed"); ?>
+
+<p>This mean that we don't have binaires available for your
+distribution. You will have to get the source code for VLC and its
+required libraries and build them yourseft:</p>
+
+<p>
+<a href="download-sources.html"><img src="/images/icons/source.gif"
+      style="vertical-align: middle; border-width: 1px;"
+      alt="VLC Sources" /></a>
+</p>
+
+<? footer('$Id: download-linux.html,v 1.34 2003/02/17 20:26:42 alexis Exp $'); ?>

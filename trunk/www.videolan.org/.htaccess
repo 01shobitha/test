@@ -35,11 +35,11 @@ RewriteRule ^libdvbpsi/(.*)$ /vlc/index.html [R=permanent,L]
 RewriteRule ^vlms/(.*)$ /streaming/index.html [R=permanent,L]
 RewriteRule ^network/(.*)$ /streaming/index.html [R=permanent,L]
 
-Redirect /vlc/changelog.html http://developers.videolan.org/vlc/ChangeLog
-Redirect /vls/changelog.html http://developers.videolan.org/vls/ChangeLog
-Redirect /cvs.html http://developers.videolan.org/cvs.html
-Redirect /vlc/developers.html http://developers.videolan.org/vlc/devel_doc.html
-Redirect /vls/developers.html http://developers.videolan.org/vls/devel_doc.html
+Redirect permanent /vlc/changelog.html http://developers.videolan.org/vlc/ChangeLog
+Redirect permanent /vls/changelog.html http://developers.videolan.org/vls/ChangeLog
+Redirect permanent /cvs.html http://developers.videolan.org/cvs.html
+Redirect permanent /vlc/developers.html http://developers.videolan.org/vlc/devel_doc.html
+Redirect permanent /vls/developers.html http://developers.videolan.org/vls/devel_doc.html
 
 #
 # MIME Types

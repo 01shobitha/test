@@ -6,10 +6,10 @@
 and formats. Here is a description of nearly all the VLC
 modules. If you installed VLC through a binary file, you will get
 the default modules. If, however, you want to customize VLC to your
-needs, you will have to compile the VLC from sources.</para>
+needs, you will have to compile VLC from sources.</para>
 
-<para><emphasis>If you don't intend to compile the VLC and
-want only the regular functions, reading this part is not very
+<para><emphasis>If you don't intend to compile VLC and want
+only the regular functions, reading this part is not very
 useful</emphasis>.</para>
 
 <para> The compilation itself is explained in the next chapter.</para>

@@ -1,6 +1,7 @@
 # Les commentaires commencent par un # en premier position 
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
+|3/4 April 2004| VideoLAN at HackIT:04| We will participate to the italian hackmeeting in Genova (see <a href="http://www.hackmeeting.org/">http://www.hackmeeting.org/</a>). We will hold a conference about video streaming and make demos on saturday and sunday.
 
 |18 March 2004| Scheduled downtime| Due to maintainance operations, 
 a network downtime of about one hour will occur this day at about 

@@ -8,6 +8,8 @@
 
 <? function pkgitem($version,$name) { ?><li><a href="http://download.videolan.org/pub/videolan/vlc/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
 
+<? function pkgitemdev($version,$name) { ?><li><a href="http://download.videolan.org/pub/testing/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
+
 <h1> VLC for Mac OS X </h1>
 
 <h2>Latest Mac OS X package (0.7.1a)</h2>
@@ -25,6 +27,12 @@ There is not, and won't be, a version for Mac OS 9.</p>
 <code>.dmg</code> file, open it, and copy it to your hard drive
 (for instance the <code>/Applications</code> folder). Open VLC by
 double-clicking on it. </p>
+
+<h2>Mac OS X beta package (0.7.2-test2)</h2>
+
+<ul>
+  <? pkgitemdev("vlc-0.7.2-test2/macosx","vlc-0.7.2-test2.dmg"); ?>
+</ul>
 
 <h2>Older versions</h2>
 

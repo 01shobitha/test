@@ -3,9 +3,10 @@
 #
 
 |7-8 August 2003| Scheduled downtime| Due to scheduled power downtimes,
-the VideoLAN servers hosting FTP, Web, CVS and the mailing-lists will be
-down August 7th from 8 a.m. to 7 p.m. and August 8th from 1 p.m. to 7 p.m.
-(Paris time, i.e. GMT+2).
+the VideoLAN main site hosting Web, FTP, CVS and the mailing-lists
+will be down August 7th from 8:00 to 19:00 CEST and August 8th from
+13:00 CEST to 19:00 CEST. Please use the Web and FTP miroir site <a
+href="http://www.fr.videolan.org">www.fr.videolan.org</a>.
 
 |31 July 2003| Release: VLC 0.6.1| This new release of VLC media
 player features: vorbis and mp3 audio support for the transcoding

@@ -32,11 +32,11 @@ function starthtml($title) { ?>
 
    $modules = split("/", $GLOBALS['PHP_SELF']);
 
-   $color_home = "#aaf";
-   $color_vlc = "#aaf";
-   $color_doc = "#aaf";
-   $color_streaming = "#aaf";
-   $color_support = "#aaf";
+   $color_home = "#9bf";
+   $color_vlc = "#9bf";
+   $color_doc = "#9bf";
+   $color_streaming = "#9bf";
+   $color_support = "#9bf";
 
    switch($modules[1]) {
       case "404.html": case "403.html": break;
@@ -54,7 +54,7 @@ function starthtml($title) { ?>
     <td style="background-color: <?echo($color_streaming);?>; width: 17%; vertical-align: middle;" align="center"><a href="/streaming/">Streaming</a></td>
     <td style="background-color: <?echo($color_doc);?>; width: 17%; vertical-align: middle;" align="center"><a href="/doc/">Documentation</a></td>
     <td style="background-color: <?echo($color_support);?>; width: 16%; vertical-align: middle;" align="center"><a href="/support/">Support</a></td>
-    <td style="background-color: #aaffaa; width: 17%; vertical-align: middle;" align="center"><a href="http://developers.videolan.org/">Developers</a></td>
+    <td style="background-color: #afa; width: 17%; vertical-align: middle;" align="center"><a href="http://developers.videolan.org/">Developers</a></td>
     <td style="white-space: nowrap;">
       <select name="mirror">
         <!-- current: $GLOBALS['HTTP_HOST'] -->

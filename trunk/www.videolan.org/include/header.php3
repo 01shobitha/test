@@ -193,7 +193,7 @@ foreach( $menu as $module )
 against software patents in the European Union</p>
 
 <p style="font-weight: bold;">The VideoLAN team encourage the European
-congress-men to vote against software patents on September 22nd, 2003.
+congress-men to vote against software patents on September 23rd, 2003.
 The majority of the VideoLAN developers are EU citizens, and the
 adoption of software patents in Europe would be a real threat to
 the project and to software development in general. Please see <a

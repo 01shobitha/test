@@ -2601,13 +2601,13 @@ msgstr ""
 #: en/advanced-use.xml:496
 #, no-wrap
 msgid "Advanced use of filters"
-msgstr ""
+msgstr "Usage avancé des filtres"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/advanced-use.xml:498
 #, no-wrap
 msgid "Filters"
-msgstr ""
+msgstr "Les filtres"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/advanced-use.xml:500
@@ -2616,18 +2616,19 @@ msgid ""
 "These are the old style VLC filters. They only apply to on screen\n"
 "display and thus cannot be streamed."
 msgstr ""
+"Ces filtres sont les anciens filtes de VLC. Ils ne peuvent s'appliquer qu'à l'affichge à l'écran et ne peuvent servir à la diffusion."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/advanced-use.xml:503
 #, no-wrap
 msgid "Deinterlacing video filter"
-msgstr ""
+msgstr "Filtre de désentrelacement de vidéo"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/advanced-use.xml:505
 #, no-wrap
 msgid "Module name : <emphasis>deinterlace</emphasis>"
-msgstr ""
+msgstr "Nom du module : <emphasis>deinterlace</emphasis>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:508
@@ -2637,29 +2638,31 @@ msgid ""
 "choose a deinterlacing mode."
 msgstr ""
 
+"<emphasis>--deinterlace-mode {discard,blend,mean,bob,linear}</emphasis>\n"
+"choisissez un mode de désentrelacement."
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/advanced-use.xml:514
 #, no-wrap
 msgid "Invert video filter"
-msgstr ""
+msgstr "Filtre d'inversion de vidéo"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/advanced-use.xml:516
 #, no-wrap
 msgid "Module name : <emphasis>invert</emphasis>"
-msgstr ""
+msgstr "Nom du module : <emphasis>invert</emphasis>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/advanced-use.xml:520
 #, no-wrap
 msgid "Image properties filter"
-msgstr ""
+msgstr "Filtre de propriétés de l'image"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/advanced-use.xml:522
 #, no-wrap
 msgid "Module name : <emphasis>adjust</emphasis>"
-msgstr ""
+msgstr "Nom du module : <emphasis>adjust</emphasis>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:525
@@ -2669,6 +2672,8 @@ msgid ""
 "Image contrast in the 0-2 range."
 msgstr ""
 
+"<emphasis>--contrast &lt;float&gt;</emphasis>\n"
+"Contraste de l'image compris entre 0 et 2."
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:527
 #, no-wrap
@@ -2677,6 +2682,8 @@ msgid ""
 "Image brightness in the 0-2 range."
 msgstr ""
 
+"<emphasis>--brightness &lt;float&gt;</emphasis>\n"
+"Luminosité de l'image comprise entre 0 et 2."
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:529
 #, no-wrap
@@ -2685,6 +2692,8 @@ msgid ""
 "Image hue in the 0-360 range"
 msgstr ""
 
+"<emphasis>--hue &lt;integer&gt;</emphasis>\n"
+"Teinte de l'image comprise entre 0 et 360"
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:531
 #, no-wrap
@@ -2693,6 +2702,8 @@ msgid ""
 "Image saturation in the 0-3 range."
 msgstr ""
 
+"<emphasis>--saturation &lt;float&gt;</emphasis>\n"
+"Saturation de l'image comprise entre 0 et 3."
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:533
 #, no-wrap
@@ -2700,24 +2711,25 @@ msgid ""
 "<emphasis>--gamma &lt;float&gt;</emphasis>\n"
 "Image gamma in the 0-10 range."
 msgstr ""
-
+"<emphasis>--gamma &lt;float&gt;</emphasis>\n"
+"Gamma de l'image compris entre 0 et 10"
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/advanced-use.xml:539
 #, no-wrap
 msgid "Wall video filter"
-msgstr ""
+msgstr "Filtre wall video"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/advanced-use.xml:541
 #, no-wrap
 msgid "Module name : <emphasis>wall</emphasis>"
-msgstr ""
+msgstr "Nom du module : <emphasis>wall</emphasis>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/advanced-use.xml:543
 #, no-wrap
 msgid "This filter splits the output in several windows."
-msgstr ""
+msgstr "Ce filtre divise la sortie en plusieurs fenêtres"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:546
@@ -2726,7 +2738,8 @@ msgid ""
 "<emphasis>--wall-cols &lt;integer&gt;</emphasis>\n"
 "Number of columns."
 msgstr ""
-
+"<emphasis>--wall-cols &lt;integer&gt;</emphasis>\n"
+"Nombre de colonnes."
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:548
 #, no-wrap
@@ -2734,6 +2747,8 @@ msgid ""
 "<emphasis>--wall-rows &lt;integer&gt;</emphasis>\n"
 "Number of rows."
 msgstr ""
+"<emphasis>--wall-rows &lt;integer&gt;</emphasis>\n"
+"Nombre de lignes"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:550
@@ -2744,18 +2759,19 @@ msgid ""
 "would write --wall-active 2,4 . When this option isn't specified, all\n"
 "windows are displayed."
 msgstr ""
-
+"<emphasis>--wall-active &lt;string&gt;</emphasis>\n"
+"Sélectionnez les fenêtres que vous voulez afficher. Pour sélectionner les fenêtres 2 et 4, vous écrirez --wall-active 2,4 . Si rien n'est spécifié, toutes les fenêtres seront affichées."
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/advanced-use.xml:558
 #, no-wrap
 msgid "Video transformation filter"
-msgstr ""
+msgstr "Filtre de transformation vidéo"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/advanced-use.xml:560
 #, no-wrap
 msgid "Module name : <emphasis>transform</emphasis>"
-msgstr ""
+msgstr "Nom du module : <emphasis>transform</emphasis>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:563
@@ -2764,36 +2780,37 @@ msgid ""
 "<emphasis>--transform-type {90,180,270,hflip,vflip}</emphasis>\n"
 "Select rotation angle or symmetry."
 msgstr ""
-
+"<emphasis>--transform-type {90,180,270,hflip,vflip}</emphasis>\n"
+"Spécifiez l'angle de rotation ou de symétrie"
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/advanced-use.xml:569
 #, no-wrap
 msgid "Distort video filter"
-msgstr ""
+msgstr "Filtre de distorsion vidéo"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/advanced-use.xml:571
 #, no-wrap
 msgid "Module name : <emphasis>distort</emphasis>"
-msgstr ""
+msgstr "Nom du module : <emphasis>distort</emphasis>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/advanced-use.xml:575
 #, no-wrap
 msgid "Clone video filter"
-msgstr ""
+msgstr "Filtre de clonage"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/advanced-use.xml:577
 #, no-wrap
 msgid "This filter clones the output window."
-msgstr ""
+msgstr "Ce filtre duplique la fenêtre de sortie."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/advanced-use.xml:579
 #, no-wrap
 msgid "Module name : <emphasis>clone</emphasis>"
-msgstr ""
+msgstr "Nom du module : <emphasis>clone</emphasis>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:582
@@ -2802,6 +2819,8 @@ msgid ""
 "<emphasis>--clone-count &lt;integer&gt;</emphasis>\n"
 "Number of clones."
 msgstr ""
+"<emphasis>--clone-count &lt;integer&gt;</emphasis>\n"
+"Nombre de duplications"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:584
@@ -2810,18 +2829,19 @@ msgid ""
 "<emphasis>--clone-vout-list &lt;string&gt;</emphasis>\n"
 "Comma separated string of video output modules."
 msgstr ""
-
+"<emphasis>--clone-vout-list &lt;string&gt;</emphasis>\n"
+"La virgule sépare la châne de caractères des modules de sortie vidéo."
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/advanced-use.xml:590
 #, no-wrap
 msgid "Crop video filter"
-msgstr ""
+msgstr "Filtre de recadrage de vidéo"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/advanced-use.xml:592
 #, no-wrap
 msgid "Module name : <emphasis>crop</emphasis>"
-msgstr ""
+msgstr "Nom du module : <emphasis>crop</emphasis>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:595
@@ -2831,7 +2851,8 @@ msgid ""
 "Set the geometry of the zone to crop. This is set as &lt;width&gt; x\n"
 "&lt;height&gt; + &lt;left offset&gt; + &lt;top offset&gt;."
 msgstr ""
-
+"<emphasis>--crop-geometry &lt;string&gt;</emphasis>\n"
+"Définit la zone à conserver pour le recadrage. C'est définit par &lt;largeur&gt; x &lt;hauteur&gt; + &lt;marge gauche&gt; + &lt;marge haute&gt;."
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:599
 #, no-wrap
@@ -2839,18 +2860,19 @@ msgid ""
 "<emphasis>--autocrop</emphasis>\n"
 "Enable automatic black border cropping."
 msgstr ""
-
+"<emphasis>--autocrop</emphasis>\n"
+"Active la suppression automatique des bandes noires"
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/advanced-use.xml:605
 #, no-wrap
 msgid "Motion blur filter"
-msgstr ""
+msgstr "Filtre de suppression des défauts"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/advanced-use.xml:607
 #, no-wrap
 msgid "Module name : <emphasis>motionblur</emphasis>"
-msgstr ""
+msgstr "Nom du module : <empahsis>motionblur</emphasis>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:610
@@ -2859,54 +2881,55 @@ msgid ""
 "<emphasis>--blur-factor &lt;integer&gt;</emphasis>\n"
 "Blur factor in the 1-127 range."
 msgstr ""
-
+"<emphasis>--blur-factor &lt;integer&gt;</emphasis>\n"
+"Facteur de défaut compris entre 1 et 127."
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/advanced-use.xml:616
 #, no-wrap
 msgid "Video pictures blending"
-msgstr ""
+msgstr "Fusion de vidéos"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/advanced-use.xml:618
 #, no-wrap
 msgid "Module name : <emphasis>blend</emphasis>"
-msgstr ""
+msgstr "Nom du module : <emphasis>blend</emphasis>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/advanced-use.xml:622
 #, no-wrap
 msgid "Video scaling filter"
-msgstr ""
+msgstr "Filtre de redimmensionnement de vidéo"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/advanced-use.xml:624
 #, no-wrap
 msgid "Module name : <emphasis>scale</emphasis>"
-msgstr ""
+msgstr "Nom du module : <emphasis>scale</emphasis>"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/advanced-use.xml:630
 #, no-wrap
 msgid "Subpictures Filters"
-msgstr ""
+msgstr "Filtres d'insertion"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/advanced-use.xml:632
 #, no-wrap
 msgid "These are the new VLC filters. They can be streamed."
-msgstr ""
+msgstr "Ce sont les nouveaux filtes de VLC. Ils peuvent être diffusés."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/advanced-use.xml:634
 #, no-wrap
 msgid "Time display sub filter"
-msgstr ""
+msgstr "Filtre d'insertion de l'heure"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/advanced-use.xml:636
 #, no-wrap
 msgid "Module name : <emphasis>time</emphasis>"
-msgstr ""
+msgstr "Nom du module : <empahsis>time</emphasis>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:639
@@ -2916,7 +2939,8 @@ msgid ""
 "Time format string. You can use the following special characters %Y = year,\n"
 "%m = month, %d = day, %H = hour, %M = minute, %S = second."
 msgstr ""
-
+"<emphasis>--time-format &lt;string&gt;</emphasis>\n"
+"String définit le format d'affichage de l'heure. Les caractères suivants sont utilisables %Y = année, %m = mois, %d = jour, %H = heure, %M = minute, %S = seconde."
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:643
 #, no-wrap
@@ -2924,7 +2948,8 @@ msgid ""
 "<emphasis>--time-x &lt;integer&gt;</emphasis>\n"
 "X offset from the left in pixels."
 msgstr ""
-
+"<emphasis>--time-x &lt;integer&gt;</emphasis>\n"
+"X est la marge depuis la gauche en pixels."
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:645
 #, no-wrap
@@ -2932,18 +2957,19 @@ msgid ""
 "<emphasis>--time-y &lt;integer&gt;</emphasis>\n"
 "Y offset from the top in pixels."
 msgstr ""
-
+"<emphasis>--time-y &lt;integer&gt;</emphasis>\n"
+"Y est la marge depuis le haut en pixels."
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/advanced-use.xml:651
 #, no-wrap
 msgid "Marque display sub filter"
-msgstr ""
+msgstr "Filtre d'insertion de texte"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/advanced-use.xml:653
 #, no-wrap
 msgid "Module name : <emphasis>marq</emphasis>"
-msgstr ""
+msgstr "Nom du module : <emphasis>marq</emphasis>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:656
@@ -2952,7 +2978,8 @@ msgid ""
 "<emphasis>--marq-marquee &lt;string&gt;</emphasis>\n"
 "Marquee text to display."
 msgstr ""
-
+"<emphasis>--marq-marquee &lt;string&gt;</emphasis>\n"
+"string définit le texte à afficher."
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:658
 #, no-wrap
@@ -2960,6 +2987,8 @@ msgid ""
 "<emphasis>--marq-x &lt;integer&gt;</emphasis>\n"
 "X offset from the left in pixels."
 msgstr ""
+"<emphasis>--marq-x &lt;integer&gt;</emphasis>\n"
+"X est la marge depuis la gauche en pixels."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:660
@@ -2968,6 +2997,8 @@ msgid ""
 "<emphasis>--marq-y &lt;integer&gt;</emphasis>\n"
 "Y offset from the top in pixels."
 msgstr ""
+"<emphasis>--marq-y &lt;integer&gt;</emphasis>\n"
+"Y est la marge depuis le haut en pixels."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:662
@@ -2977,18 +3008,20 @@ msgid ""
 "Defines the time the marquee must remain displayed in milliseconds.\n"
 "Default value is 0 (remain forever)."
 msgstr ""
-
+"<emphasis>--marq-timeout &lt;timeout&gt;</emphasis>\n"
+"Définit le temps d'affichage du texte en milisecondes.\n"
+"La valeur par défaut est 0 (toujours affiché)."
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/advanced-use.xml:669
 #, no-wrap
 msgid "Logo video filter"
-msgstr ""
+msgstr "Filtre d'insertion de logo"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/advanced-use.xml:671
 #, no-wrap
 msgid "Module name : <emphasis>logo</emphasis>"
-msgstr ""
+msgstr "Nom du module : <emphasis>logo</emphasis>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/advanced-use.xml:673
@@ -2997,6 +3030,7 @@ msgid ""
 "This filter can be used both as an old style filter or a\n"
 "subpictures filter."
 msgstr ""
+"Ce filtre peut être utilisé soit comme un ancien filtre soit comme un filtre d'insertion."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:677
@@ -3006,6 +3040,8 @@ msgid ""
 "Full path of the PNG file to use."
 msgstr ""
 
+"<emphasis>--logo-file &lt;string&gt;</emphasis>\n"
+"Chemin d'accès complet au fichier PNG à utiliser."
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:679
 #, no-wrap
@@ -3013,7 +3049,8 @@ msgid ""
 "<emphasis>--logo-x &lt;integer&gt;</emphasis>\n"
 "X offset from the left in pixels."
 msgstr ""
-
+"<emphasis>--logo-x &lt;integer&gt;</emphasis>\n"
+"X définit la marge depuis la gauche en pixels."
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:681
 #, no-wrap
@@ -3021,7 +3058,8 @@ msgid ""
 "<emphasis>--logo-y &lt;integer&gt;</emphasis>\n"
 "Y offset from the top in pixels."
 msgstr ""
-
+"<emphasis>--logo-y &lt;integer&gt;</emphasis>\n"
+"Y définit la marge depuis le haut en pixels."
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:683
 #, no-wrap
@@ -3030,18 +3068,19 @@ msgid ""
 "You can set the logo transparency value here (from 0 for full\n"
 "transparency to 255 for full opacity)."
 msgstr ""
-
+"<emphasis>--logo-transparency &lt;integer&gt;</emphasis>\n"
+"Vous pouvez ici défir la transparence du logo (entre 0 pour complètement transparent jusqu'à 255 pour complètement opaque)."
 # type: Content of: <chapter><sect1><sect2><sect3><note><para>
 #: en/advanced-use.xml:688
 #, no-wrap
 msgid "You can move the logo by left-clicking on it."
-msgstr ""
+msgstr "Vous pouvez déplacer le logo en le déplacant avec le bouton gauche."
 
 # type: Content of: <chapter><sect1><title>
 #: en/advanced-use.xml:697
 #, no-wrap
 msgid "The HTTP interface"
-msgstr ""
+msgstr "L'inteface HTTP"
 
 # type: Content of: <chapter><sect1><para>
 #: en/advanced-use.xml:699
@@ -3052,7 +3091,7 @@ msgid ""
 "It is used both to stream using HTTP, and for the HTTP remote control\n"
 "interface.\n"
 msgstr ""
-
+"VLC est fourni avec un mini-serveur HTTP intégré. C'est utilisé pour diffuser en HTTP et pour l'interface de contôle HTTP à distance."
 # type: Content of: <chapter><sect1><para>
 #: en/advanced-use.xml:705
 #, no-wrap
@@ -3060,6 +3099,7 @@ msgid ""
 "\n"
 "To start VLC with the HTTP interface, use:\n"
 msgstr ""
+"Pour démarrer VLC avec l'interface HTTP, faites:"
 
 # type: Content of: <chapter><sect1><screen>
 #: en/advanced-use.xml:709
@@ -3069,6 +3109,7 @@ msgid ""
 "<prompt>% </prompt><userinput>vlc -I http [--http-src /directory/ --http-host host:port]</userinput>\n"
 msgstr ""
 
+"<prompt>% </prompt><userinput>vlc -I http [--http-src /directory/ --http-host host:port]</userinput>\n"
 # type: Content of: <chapter><sect1><para>
 #: en/advanced-use.xml:713
 #, no-wrap
@@ -3076,7 +3117,7 @@ msgid ""
 "If you want to have both the \"normal\" interface and the HTTP\n"
 "interface, use <userinput>vlc --extraintf http</userinput>."
 msgstr ""
-
+"Si vous voulez utiliser à la fois l'interface HTTP et l'interface \"normale\", faites <userinput>vlc --extraintf http</userinput>."
 # type: Content of: <chapter><sect1><para>
 #: en/advanced-use.xml:716
 #, no-wrap
@@ -3087,6 +3128,7 @@ msgid ""
 "/directory at http://host:port/ ( vlc_source_path/share/http if omitted\n"
 ").\n"
 msgstr ""
+"L'interface HTTP écoutera alors sur host:port (&lt;host&gt;:8080 par défaut), et renverra la structure de /directory sur http://host:port/ (répertoire_source_vlc/share/http par défaut)."
 
 # type: Content of: <chapter><sect1><para>
 #: en/advanced-use.xml:724
@@ -3095,6 +3137,7 @@ msgid ""
 "Use a browser to go to http://your_host_machine:port. You should\n"
 "be taken to the main page"
 msgstr ""
+"Utilisez alors un navigateur pointant sur http://votre_machine:port. Vous devriez voir la page principale."
 
 # type: Content of: <chapter><sect1><para>
 #: en/advanced-use.xml:727
@@ -3104,12 +3147,12 @@ msgid ""
 "VLC is shipped with a set of files that should be\n"
 "enough for generic needs. It is also possible to customize pages. See <xref linkend=\"http\" />.\n"
 msgstr ""
-
+"VLC est fourni avec un ensemble de fichiers suffisant pour un usage basique. Il est néanmoins possible de personnaliser les pages. Voyez <xref linkend=\"http\" />."
 # type: Content of: <chapter><sect1><para>
 #: en/advanced-use.xml:733
 #, no-wrap
 msgid "Available pages are : "
-msgstr ""
+msgstr "Les pages disponibles sont : "
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/advanced-use.xml:737
@@ -3119,6 +3162,7 @@ msgid ""
 "the playlist, allows you to add or delete items and to control\n"
 "playback."
 msgstr ""
+"<empahsis>/index.html</emphasis> donne accès à la playlist, permet l'ajout et la suppression déléments et contrôle la lecture."
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/advanced-use.xml:740
@@ -3127,7 +3171,7 @@ msgid ""
 "<emphasis>/info.html</emphasis> gives you statistics\n"
 "and data about the usage of the server."
 msgstr ""
-
+"<emphasis>/info.html</emphais> donne des inforamtions concernant l'utilisation du serveur."
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/advanced-use.xml:742
 #, no-wrap
@@ -3139,6 +3183,7 @@ msgid ""
 "<emphasis>VLC_directory/share/http/admin</emphasis> folder. (Each folder\n"
 "can be protected, see <xref linkend=\"http\" /> for more details)."
 msgstr ""
+"<emphasis>/admin/</emphasis>. Ce répertoire donne accès à des fonctionnalités plus avancées et est donc protégé par login/mot de passe, par défaut admin/admin. Les mots de passe et les utilisateurs peuvent être changés dans le fichier <empahsis>.access</empahsis> du répertoire <empahsis>VLC_directory/share/http/admin</emphasis>. Chaque répertoire peut être protége de la sorte, voyez <xref linkend=\"http\" /> pour plus de détails);"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/advanced-use.xml:748
@@ -3149,12 +3194,13 @@ msgid ""
 "input streams with only one VLC instance. For more information about\n"
 "VLM, please look at the <ulink url=\"http://www.videolan.org/doc/streaming-howto/en\">Streaming Howto</ulink>."
 msgstr ""
+"<emphasis>/vlm/</emphasis>. Ce répertoire vous permet de contrôler VideoLAN manager (VLM). VLM permet de diffuser plusieurs flux avec une seule entité de VLC. Plour plus d'informations concernant VLM, voyez donc le <ulink url=\"http://www.videolan.org/doc/streaming-howto/en\">Streaming Howto</ulink>."
 
 # type: Content of: <chapter><sect1><title>
 #: en/advanced-use.xml:758
 #, no-wrap
 msgid "Other control interfaces"
-msgstr ""
+msgstr "Autres interfaces de contrôle"
 
 # type: Content of: <chapter><sect1><para>
 #: en/advanced-use.xml:760
@@ -3166,6 +3212,7 @@ msgid ""
 "Preferences, in General/Interface, or using -I or --extraintf on the\n"
 "command line."
 msgstr ""
+"VLC comprend de nombreuses pseudo-interfaces qui permettent de contrôler VLC. Elles sont activées en les définissant comme interfaces ou extra-interfaces, soit dans les préférences dnas General/Interface, ou en uitilsant -I ou --extraintf en ligne de commande."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/advanced-use.xml:769
@@ -3174,12 +3221,13 @@ msgid ""
 "This module allows you to control VLC and playback via hotkeys. It\n"
 "is always enabled by default. You can use hotkeys in the video output window.\n"
 msgstr ""
+"Ce module permet de contrôler VCL et la lecture avec des touches prédéfinies. Il est toujours activé par défaut. Vous pouvez utiliser les touches prédéfinies dans la fenêtre de sortie vidéo."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/advanced-use.xml:772
 #, no-wrap
 msgid "Hotkeys can be hacked by : "
-msgstr ""
+msgstr "Les touches prédéfinies peuvent être définies par : "
 
 # type: Content of: <chapter><sect1><sect2><screen>
 #: en/advanced-use.xml:773
@@ -3189,6 +3237,7 @@ msgid ""
 "<prompt>% </prompt><userinput>vlc --key-&lt;function&gt; '&lt;code&gt;'</userinput>"
 msgstr ""
 
+"<prompt>% </prompt><userinput>vlc --key-&lt;function&gt; '&lt;code&gt;'</userinput>"
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/advanced-use.xml:776
 #, no-wrap
@@ -3203,6 +3252,15 @@ msgid ""
 "the <emphasis>--longhelp</emphasis> option for full list of functions).\n"
 "For example, for binding fullscreen to Ctrl-f, run :"
 msgstr ""
+" Code comprend une touche spéciale (Alt, Shift, Ctrl, Meta,\n"
+"Command) séparée par un moins (-) et terminée par un caractère (a...z,\n"
+"+, =, -, ',', +, &lt;, &gt;, `, /, ;, ', \\, [, ], *, Left, Right,\n"
+"Up, Down, Space, Enter, F1...F12, Home, End, Menu, Esc, Page Up,\n"
+"Page Down, Tab, Backspace, Mouse Wheel Up and Mouse Wheel Down).\n"
+"Les principales fonctions sont disponibles via les touches prédéfinies : fullscreen,\n"
+"play-pause, faster, slower, next, prev, stop, quit, vol-up, etc. (faites\n"
+"l'option <emphasis>--longhelp</emphasis> pour la liste complète des fonctions).\n"
+"Par exemple, pour affecter le plein écran à Ctrl-f, faites :"
 
 # type: Content of: <chapter><sect1><sect2><screen>
 #: en/advanced-use.xml:786
@@ -3216,7 +3274,7 @@ msgstr ""
 #: en/advanced-use.xml:792
 #, no-wrap
 msgid "RC and RTCI"
-msgstr ""
+msgstr "RC et RTCI"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/advanced-use.xml:794
@@ -3225,6 +3283,7 @@ msgid ""
 "These two interfaces allow you to control VLC from a command shell\n"
 "(possibly using a remote connexion or a Unix socket."
 msgstr ""
+"Ces deux interfaces permettent de commander VLC depuis une fenêtre de terminal (éventuellemnt depuis une connexion distante ou un socket Unix)."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/advanced-use.xml:797
@@ -3235,7 +3294,7 @@ msgid ""
 "initialized, `h' for help</userinput> message, press h and Enter to get help\n"
 "about available commands."
 msgstr ""
-
+"Démarrez VLC avec <emphasis>-I rc</emphasis> ou <emphasis>--extraintf rc</emphasis>. Lorrsque s'affiche le message <userinput>Remote control interface initialized, 'h' for help</userinput>, tapez h pour obtenir l'aide sur les commandes disponibles."
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/advanced-use.xml:802
 #, no-wrap
@@ -3245,6 +3304,7 @@ msgid ""
 "your_host:port</emphasis>. Then, by connecting (using telnet or netcat)\n"
 "to the host on the given port, you will get the command shell."
 msgstr ""
+"Pour pouvoir vous connecter à distance à VLC en utilisant un socket TCP (connexion telnet), utilsez <emphasis>--rc-host votre_machine:port</empahsis>. Ensuite, vous obtiendrez le shell de commande en vous connectant à la machine sur le port défini."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/advanced-use.xml:807
@@ -3254,6 +3314,7 @@ msgid ""
 "Windows), use <emphasis>--rc-unix /path/to/socket</emphasis>. Commands\n"
 "can then be passed using this UNIX socket."
 msgstr ""
+"Pour utiliser un socket UNIX (socket local, ne marche aps sous Windows), faites <empahsis>--rc-unix /chemin/du/sicket</emphasis>. Les commandes peuvent par la suite être passées au socket UNIX."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/advanced-use.xml:811
@@ -3263,24 +3324,25 @@ msgid ""
 "as marquee control for the marquee subpicture filter (See filter\n"
 "section)."
 msgstr ""
+"L'interface RTCI permet des contrôles plus avancés, telles le contrôle d'insertion, pour l'insertion sur vidéo (Voir la section concernant les filtres)."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/advanced-use.xml:817
 #, no-wrap
 msgid "Ncurses"
-msgstr ""
+msgstr "Ncurses"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/advanced-use.xml:819
 #, no-wrap
 msgid "This is a text interface, using ncurses library."
-msgstr ""
+msgstr "C'est une interface texte qui utilise la librairie ncurses"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/advanced-use.xml:821
 #, no-wrap
 msgid "Start VLC with <emphasis>-I ncurses</emphasis> or <emphasis>--extraintf ncurses</emphasis>. You will then get something like that:"
-msgstr ""
+msgstr "Démarrez VLC avec <emphasis>-I ncurses</emphasis> ou <emphasis>--extraintf ncurses</emphasis>. Vous obtiendrez quelque chose ressemblant à:"
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/advanced-use.xml:827 en/advanced-use.xml:828
@@ -3304,13 +3366,13 @@ msgstr ""
 #: en/advanced-use.xml:839 en/advanced-use.xml:840
 #, no-wrap
 msgid "The ncurses filebrowser"
-msgstr ""
+msgstr "Le gestionnaire de fichiers ncurses"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/advanced-use.xml:843
 #, no-wrap
 msgid "You can set the filebrowser starting point by launching vlc with the <emphasis>--browse-dir</emphasis> option:"
-msgstr ""
+msgstr "Vous pouvez définir le point de départ du gestionnaire de fichiers en démarrant VLC avec l'otion <empahsis>--browse-dir</empahsis>:"
 
 # type: Content of: <chapter><sect1><sect2><screen>
 #: en/advanced-use.xml:845
@@ -3324,13 +3386,13 @@ msgstr ""
 #: en/advanced-use.xml:851
 #, no-wrap
 msgid "Gestures"
-msgstr ""
+msgstr "Gestures"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/advanced-use.xml:852
 #, no-wrap
 msgid "Gestures provide a simple mouse gestures control. TODO"
-msgstr ""
+msgstr "Gestures fournit une interface simple de contrôle avec la souris. A FAIRE"
 
 # type: Content of: <chapter><sect1><title>
 #: en/advanced-use.xml:863

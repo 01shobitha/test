@@ -50,7 +50,7 @@ function starthtml($title) { ?>
 ?>
 
 <form action="index.html" method="get">
-<table width="100%" cellspacing="0" style="padding: 10px">
+<table width="100%" cellspacing="0" cellpadding="10">
 
 <tr>
 

@@ -33,7 +33,7 @@
 <html>
 <head>
   <title><? echo $title ?></title>
-  <link type="text/css" href="/include/main.css" rel="stylesheet">
+  <link type="text/css" href="/main.css" rel="stylesheet">
 </head>
 <body bgcolor="#ffffff">
 <table width="100%" cellspacing=0 cellpadding=10>

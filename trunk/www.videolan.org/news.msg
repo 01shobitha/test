@@ -4,6 +4,12 @@
 # Et pour les nouvelles importantes, c'est pas un | , c'est un §
 #
 
+|29 Jan 2003| VideoLAN at Linux Expo Paris | VideoLAN will have a booth
+at <a href="http://www.linuxsolutions.fr">Linux Expo Paris 2003</a>
+(4-5-6 February 2003 at the CNIT). The VideoLAN team will welcome you at
+the booth and invites you to its <a href="http://www.linuxsolutions.fr/EN/home/index.php?site=conferences_programme">conference</a> (Conference n°5, February
+5th afternoon).
+
 |19 Jan 2003| New VideoLAN Quickstart | The VideoLAN Quickstart has been
 completely rewritten. See the <a href="/doc/">documentation page</a>.
 

@@ -14,7 +14,7 @@ www.videolan.org. </p>
 <p> <code>VLC</code> is available through <a href="/svn.html">Subversion</a> or by
 browsing the <a href="http://www.videolan.org/pub/vlc/">releases</a>. </p>
 
-<p> You can also see the <a href="http://www.videolan.org/news.html">release
+<p> You can also see the <a href="http://developers.videolan.org/vlc/NEWS">release
     notes</a> and the
     <a href="http://developers.videolan.org/cgi-bin/viewcvs.cgi/*checkout*/vlc/ChangeLog?rev=HEAD&amp;cvsroot=VideoLAN">ChangeLog</a>.</p>
 
@@ -25,7 +25,7 @@ browsing the <a href="http://www.videolan.org/pub/vlc/">releases</a>. </p>
 <p>New code can be submitted to the vlc-devel mailinglist and will be evaluated for inclusion to the SVN tree. You should put <code>[PATCH]</code> in your subject header. All patches need to be against the HEAD <a href="/svn.html">SVN tree</a>. You can create them by running <code>svn diff</code> in the VLC source directory.</p>
 <p>Before you start be sure to read the HACKING file in the main VLC source directory, some of the documentation listed below,  as well the <a href="tabletodo.html">VLC media player Todo list</a>.</p>
 
-<h2>Documentation</h2>
+<h2>Developer Documentation</h2>
 
 <p></p>
 
@@ -70,6 +70,19 @@ href="mailto:sam@videolan.org">Samuel Hocevar</a>
 </tr>
 
 <tr>
+  <td class="category">*nix Compile HOWTO</td>
+  <td class="yes">
+     Up-to-date
+  </td>
+   <td>
+     <a href="nix-compile.html">HTML</a>
+   </td>
+   <td>
+     <a href="mailto:hartman_@_videolan_dot_org">Derk-Jan Hartman</a>
+   </td>
+</tr>
+
+<tr>
   <td class="category">Win32 Compile HOWTO</td>
    <td class="yes">
      Up-to-date
@@ -93,7 +106,7 @@ href="mailto:sam@videolan.org">Samuel Hocevar</a>
      <a href="osx-compile.html">HTML</a>
    </td>
    <td>
-     <a href="mailto:thedj@users.sourceforge.net">Derk-Jan Hartman</a>
+     <a href="mailto:hartman_@_videolan_dot_org">Derk-Jan Hartman</a>
    </td>
 </tr>
 
@@ -119,7 +132,7 @@ href="mailto:sam@videolan.org">Samuel Hocevar</a>
      <a href="vlc/doc/translations.txt">TXT</a>
    </td>
    <td>
-     <a href="mailto:hartman@videolan.org">Derk-Jan Hartman</a>
+     <a href="mailto:hartman_@_videolan_dot_org">Derk-Jan Hartman</a>
    </td>
 </tr>
 
@@ -132,7 +145,7 @@ href="mailto:sam@videolan.org">Samuel Hocevar</a>
      <a href="vlc/doc/strings.txt">TXT</a>
    </td>
    <td>
-     <a href="mailto:hartman@videolan.org">Derk-Jan Hartman</a>
+     <a href="mailto:hartman_@_videolan_dot_org">Derk-Jan Hartman</a>
    </td>
 </tr>
 
@@ -152,7 +165,13 @@ start.</p>
 
 <p><a href="tabletodo.html">VLC media player Todo</a></p>
 
+<h2>Bugs</h2>
+
+<p>We would very much appreciate if you inform us of any bugs you run into. We would be even happierif you would also fix them.</p>
+When making bugreports please beware of our bugreport <a href="http://www.videolan.org/support/bug-reporting.html">policy</a>. When you are an experienced user/developer and you are positive that it is a real bug that we are not yet aware of, please file it in <a href="bugzilla.videolan.org">Bugzilla</a>.
+
 <h2>Third party libraries used by VLC</h2>
+<a name="3rdparty">
 
 <b>Audio/Video codecs</b>
 
@@ -229,8 +248,8 @@ video framebuffer<br />
 <a href="http://developers.videolan.org/libdvdcss/">libdvdcss</a> - a library
 for accessing encrypted DVDs<br />
 
-<a href="http://developers.videolan.org/libdvdplay">libdvdplay</a> - a library
-for DVD navigation (depends on libdvdread)<br />
+<a href="http://dvd.sf.net">libdvdnav</a> - a library
+for DVD navigation<br />
 
 <a href="http://www.dtek.chalmers.se/groups/dvd/development.shtml">libdvdread
 </a> - a library for reading DVD-Video images<br />

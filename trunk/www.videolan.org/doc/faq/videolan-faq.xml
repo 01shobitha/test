@@ -100,7 +100,7 @@ geben.</span>
 
 <span xml:lang="en">Does VLC support DVDs from all regions?</span>
 <span xml:lang="es">¿VLC soporta DVDs de todas las regiones?</span>
-<span xml:lang="fr">Est-ce que VLC supporte les DVD de toutes les régions ?</span>
+<span xml:lang="fr">Est-ce que VLC supporte les DVD de toutes les zones ?</span>
 <span xml:lang="de">Unterstützt VLC DVDs aus allen Regionen?</span>
 <span xml:lang="it">VLC supporta i DVD di tutte le zone?</span>
 
@@ -119,7 +119,7 @@ todos los DVDs, sin importar su zona. Todas las regiones se soportan sin
 ninguna restricción.</span>
 
 <span xml:lang="fr">VLC utilise la <emphasis>libdvdcss</emphasis> pour
-lire tous les DVD, sans tenir compte de leur zone. Toutes les régions
+lire tous les DVD, sans tenir compte de leur zone. Toutes les zones
 sont donc supportées sans aucune contrainte.</span>
 
 <span xml:lang="de">VLC benutzt <emphasis>libdvdcss</emphasis> um alle
@@ -255,7 +255,7 @@ seguono!</span>
 
 <span xml:lang="en">I cannot read DVDs!</span>
 <span xml:lang="es">¡ No puedo ver DVDs !</span>
-<span xml:lang="fr">Je ne peux pas lire les DVD !</span>
+<span xml:lang="fr">Je ne peux pas lire de DVD !</span>
 <span xml:lang="de">Ich kann keine DVDs. lesen.. !</span>
 <span xml:lang="it">Non riesco a leggere i DVD!</span>
 
@@ -283,7 +283,7 @@ package?</span>
 <span xml:lang="es">¿ Instalaste el paquete de
 <emphasis>libdvdcss</emphasis> ?</span>
 
-<span xml:lang="fr">Avez-vous installé le package
+<span xml:lang="fr">Avez-vous installé le paquet
 <emphasis>libdvdcss</emphasis> ?</span>
 
 <span xml:lang="de">Haben Sie das <emphasis>libdvdcss</emphasis>-Paket
@@ -381,8 +381,8 @@ prova un altro modulo di output:</span>
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc --vout sdl</userinput>
-<prompt>% </prompt><userinput>vlc --vout x11</userinput>
+<prompt>% </prompt><userinput>vlc -V sdl</userinput>
+<prompt>% </prompt><userinput>vlc -V x11</userinput>
 </screen>
 
 <para>
@@ -439,9 +439,9 @@ Aquí hay algunos elementos para mejorar la velocidad :</span>
 
 <span xml:lang="fr">Votre système est trop lent pour décoder toutes les
 images. Peut-être que votre processeur n'est tout simplement pas assez
-rapide. Mais cela peut être aussi du à un système mal configuré ou qui
+rapide. Mais cela peut être aussi dû à un système mal configuré ou qui
 n'est pas à jour, cela arrive par exemple sous RedHat Linux. Voici donc
-quelques astuces pour augmenter la vitesse de lecture : </span>
+quelques astuces pour améliorer la vitesse de lecture : </span>
 
 <span xml:lang="de">Ihr System ist zu langsam, um alle Bilder zu
 dekodieren. Vielleicht ist Ihr Prozessor einfach nicht schnell genug.
@@ -730,19 +730,19 @@ VLC:</span>
 
 <listitem><para>
 
-<span xml:lang="en">Under XFree, add the <command>--vout x11</command>
+<span xml:lang="en">Under XFree, add the <command>-V x11</command>
 option to the command line.</span>
 
-<span xml:lang="es">bajo XFree, añade la opción <command>--vout
+<span xml:lang="es">bajo XFree, añade la opción <command>-V
 x11</command> a la línea de comandos ;</span>
 
 <span xml:lang="fr">Sous XFree, ajoutez l'option
-<command>--vout x11</command> à la ligne de commande.</span>
+<command>-V x11</command> à la ligne de commande.</span>
 
-<span xml:lang="de">unter XFree fügen Sie die <command>--vout
+<span xml:lang="de">unter XFree fügen Sie die <command>-V
 x11</command> Option in der Befehlszeile hinzu;</span>
 
-<span xml:lang="de">Sotto XFree aggiungi l'opzione <command>--vout
+<span xml:lang="de">Sotto XFree aggiungi l'opzione <command>-V
 x11</command> alla linea di comando.</span>
 </para></listitem>
 
@@ -804,7 +804,7 @@ Video On Demand (VOD) in which each client asks for its own stream.</span>
 
 <span xml:lang="fr">Il existe en fait deux sortes de diffusion: la
 diffusion passive, dans laquelle un film est envoyé par un serveur et
-visualisé par un ou plusieurs clients, et la Vidéo à la Demande (VOD)
+visualisé par un ou plusieurs clients, et la vidéo à la demande (VOD)
 pour laquelle chaque client demande son propre flux.</span>
 
 <span xml:lang="de">Nun ja, es gibt de facto zwei Arten des Streamings:
@@ -861,16 +861,17 @@ possible, so you will probably get only the audio track and no video.
 <span xml:lang="fr">Pour la Vidéo à la Demande, aucun serveur de
 diffusion spécifique n'est requis, mais le client doit être capable
 de voir le flux en temps réel au lieu de le télécharger intégralement
-avant de commencer à le regarder. Un protocole simple, tel qu'HTTP est
+avant de commencer à le regarder. Un protocole simple tel qu'HTTP est
 suffisant pour la Vidéo à la Demande, de sorte que vous pouvez vous
 contenter de mettre votre vidéo sur un serveur web, et d'utiliser un
-client intelligent, capable de le visualiser en temps réel, VLC par
+client intelligent capable de le visualiser en temps réel, VLC par
 exemple ;-). De plus, bien sûr, si votre réseau est trop lent, c'est
-pourquoi vous DEVEZ vous assurer que la bande passante moyenne de votre
-lien réseau est supéreure à la bande passante moyenne de votre film
-(taille / durée). Si ce n'est pas le cas, VLC essaiera de rester en
-temps réel autant que faire se peut, c'est pourquoi il est probable que
-vous n'ayiez que l'audio et pas la vidéo.</span>
+pourquoi vous <emphasis>devez</emphasis> vous assurer que la bande
+passante moyenne de votre lien réseau est supéreure à la bande passante
+moyenne de votre film (taille / durée). Si ce n'est pas le cas, VLC
+essaiera de rester en temps réel autant que faire se peut, c'est
+pourquoi il est probable que vous n'ayez que l'audio et pas la
+vidéo.</span>
 
 <span xml:lang="de">Bei "Video On Demand" wird kein spezieller
 "Streaming-Server" benötigt. Der Client muss aber in der Lage sein, den
@@ -900,7 +901,7 @@ nur den Ton und kein Bild erhalten werden.</span>
 
 <span xml:lang="en">VLC vs. VLS</span>
 <span xml:lang="es">VLC contra VLS</span>
-<span xml:lang="fr">VLC vs. VLS</span>
+<span xml:lang="fr">VLC <emphasis>vs</emphasis> VLS</span>
 <span xml:lang="de">VLC vs. VLS</span>
 <span xml:lang="it">VLC contro VLS</span>
 
@@ -929,7 +930,7 @@ features</ulink>.</span>
 <span xml:lang="fr">Oui, ces deux programmes peuvent être
 utilisés pour diffuser de la vidéo, comme expliqué dans le <ulink
 url="http://www.videolan.org/doc/">VideoLAN
-HOWTO</ulink>. Les fonctionnalités streaming de
+HOWTO</ulink>. Les fonctions streaming de
 chaque programme sont décrites sur la page des <ulink
 url="http://www.videolan.org/streaming/features.html">caractéristiques
 de streaming</ulink>.</span>
@@ -955,7 +956,7 @@ delle caratteristiche di streaming</ulink>.</span>
 
 <span xml:lang="en">Technically, there is an important difference:</span>
 <span xml:lang="es">Básicamente, por el momento :</span>
-<span xml:lang="fr">Techniquement, il y a une différence importante:</span>
+<span xml:lang="fr">Techniquement, il y a une différence importante :</span>
 <span xml:lang="de">Grundlegendes für den Moment:</span>
 <span xml:lang="it">Tecnicamente, c'è una importante differenza:</span>
 
@@ -981,13 +982,13 @@ traspaso de codes (transcoding) ;</span>
 
 <span xml:lang="fr">VLC ouvre toutes les couches système du flux
 d'entrée, les regénère toutes puis diffuse le résultat sur le réseau ou
-l'écrit dans un fichier. Donc VLC est bon pour la diffusion depuis des
-sources video et/ou audio non fiables, comme les fichiers vidéo trouvés
+l'écrit dans un fichier. Donc VLC est adapté à la diffusion depuis des
+sources vidéo et/ou audio non fiables, comme les fichiers vidéo trouvés
 sur Internet et/ou produits par des logiciels non professionnels. VLC
 implémente de nombreux muxers/demuxers (ps, ts, avi, ogg, mp4, ...)
 et de nombreux codecs, ce qui lui permet de faire de la conversion de
 format et/ou de transcoder à la volée le flux d'entrée ! VLC est également
-dotés de jolies interfaces graphiques.</span>
+doté de jolies interfaces graphiques.</span>
 
 <span xml:lang="de">VLC ist gut darin, diverse MPEG-Dateien in
 unterschiedlichen Verkapslungsmethoden (mpg, vob, mp3, avi, mov, ogg,
@@ -1022,15 +1023,15 @@ have graphical interfaces.</span>
 satélite y terrestres digitales de TV, pero no hace transcoding.</span>
 
 <span xml:lang="fr">VLS ouvre seulement les couches systèmes les plus
-élevées du flux d'entrée and n'a que des démuxers PS et TS. Donc VLS es
-bon pour diffuser depuis des sources video et/ou audio fiables au format
-PS ou TS produites par du matériel ou des logiciels professionnels
-comme les DVDs ou les chaînes DVB (chaînes satellites ou chaînes de
+élevées du flux d'entrée et n'a que des démuxers PS et TS. Donc VLS est
+adapté à la diffusion depuis des sources video et/ou audio fiables au
+format PS ou TS produites par du matériel ou des logiciels professionnels
+comme les DVD ou les chaînes DVB (chaînes satellites ou chaînes de
 la télévision numérique terrestre) car il ne regénère que les couches
-systèmes qui doivent être regénérées, sans plus. VLS est particulièrement
+système qui doivent être regénérées, sans plus. VLS est particulièrement
 bien conçu pour diffuser des flux TS multiplexés, comme par exemple un
 transpondeur satellite entier. VLS n'a qu'un muxer TS, ne fait pas de
-transcoding et n'a pas d'interface graphique.</span>
+transcodage et n'a pas d'interface graphique.</span>
 
 <span xml:lang="de">VLS ist gut darin DVDs, Satelliten-Kanäle und
 digitale, terrestische TV-Kanäle zu streamen, unterstützt jedoch keine
@@ -1066,10 +1067,10 @@ la entrada VLC (input) conocido como "Input 4", lo que debería dirigir
 este problema.</span>
 
 <span xml:lang="fr">Pour être un vrai "streamer", VLC devrait pouvoir
-lire plusieurs sources à la fois. VLS peut le faire depuis l'origine,
+lire plusieurs sources à la fois. VLS peut le faire depuis ses débuts,
 alors que VLC ne peut pas pour le moment. Certains développeurs de VLC
 travaillent sur une nouvelle version de l'input, connue sous le nom de
-"Input 4", qui supportera cette fonctionnalité.</span>
+"Input 4", qui supportera cette fonction.</span>
 
 <span xml:lang="de">Um ein "richtiges" Streaming-Programm zu sein,
 müsste VLC in der Lage sein, mehrere Quellen gleichzeitig lesen zu
@@ -1197,9 +1198,9 @@ Enero del 2003. La salida de volcado de VLC ahora está empezando a hacer
 algo de transcodificación.</span>
 
 <span xml:lang="fr">En Septembre 2002, certains développeurs de VLC
-ont eu l'idée de tirer partie des multiples codecs intégrés à VLC
-afin de créer un Module de Streaming dont le but était de permettre
-le transcoding. Ils ont donc écrit ce module pour VLC, qui sortit en
+ont eu l'idée de tirer parti des multiples codecs intégrés à VLC
+afin de créer un module de streaming dont le but était de permettre
+le transcodage. Ils ont donc écrit ce module pour VLC, qui sortit en
 Janvier 2003 avec VLC 0.5.0.</span>
 
 <span xml:lang="de">Im September 2002 hatten einige VLC Entwickler
@@ -1315,9 +1316,9 @@ utilizzando il copyright seguente:</span>
 
 <span xml:lang="fr">
    Copyright (c) 1996-2003 VideoLAN. Ce logo ou une version modifiée de ce
-   logo peut être utilisé ou modifier par quiconque pour faire référence au
-   projet VideoLAN ou n'importe quel logiciel développé par l'équipe VideoLAN,
-   mais il ne signifie pas l'adhésion du projet.
+   logo peuvent être utilisés ou modifiés par quiconque pour faire référence
+   au projet VideoLAN ou n'importe quel logiciel développé par l'équipe
+   VideoLAN, mais il ne signifie pas l'adhésion du projet.
 </span>
 
 <span xml:lang="de">
@@ -1381,8 +1382,8 @@ ser el más simple porque no cuenta con contrato.</span>
 
 <span xml:lang="fr">Vous pouvez distribuer la version originale ou une
 version modifiée d'un logiciel VideoLAN tant que vous vous conformez à
-sa licence. Cette licence est la GNU General Public License Version 2
-(souvent appelée GPL) que vous trouverez dans le fichier nommé COPYING
+sa licence. Cette licence est la Licence Publique Générale Version 2 de
+GNU (souvent appelée GPL) que vous trouverez dans le fichier nommé COPYING
 de nos produits. La manière la plus simple de se conformer à la GPL
 est d'accompagner le produit que vous voulez distribuer de son code
 source. Par exemple, si vous voulez distribuer les derniers binaires
@@ -1390,7 +1391,7 @@ de VLC, vous devrez également inclure tous les fichiers listés sur la
 <ulink url="http://www.videolan.org/vlc/download-sources.html">page du
 code source de VLC</ulink>. Vous n'avez pas besoin de vous ennuyer à
 expliquer d'où viennent les sources, mais ces sources doivent bien être
-celles du produit distibué. Il y a d'autres façons de se conformer à
+celles du produit distribué. Il y a d'autres façons de se conformer à
 la GPL, mais celle-là est la plus simple car elle ne recourt pas à un
 contrat.</span>
 
@@ -1471,8 +1472,8 @@ segura la legalidad de usar y distribuir esta librería en tu país, por
 favor consulta a su abogado.</span>
 
 <span xml:lang="fr">L'utilisation et la distribution de la librairie
-libdvdcss sont controversées dans certains pays tels que les Etats-Unis
-à cause d'une loi appelée DMCA (Digital Millennium Copyright Act).
+libdvdcss sont controversées dans certains pays tels que les États-Unis
+en raison d'une loi appelée DMCA (Digital Millennium Copyright Act).
 Si vous n'êtes pas sûr de la légalité de l'utilisation et de la
 distribution de la libdvdcss dans votre pays, contactez votre
 avocat.</span>
@@ -1534,7 +1535,7 @@ Encontrarás toda la información que necesitas en la <ulink
 url="http://www.videolan.org/contribute.html">página
 contribute</ulink>.</span>
 
-<span xml:lang="fr">Vous pouvez contribuer soit en donnant de votre
+<span xml:lang="fr">Vous pouvez contribuer en donnant soit de votre
 temps, du matériel ou de l'argent. Nous avons également toujours besoin
 de traducteurs. Vous trouverez toutes les informations dont vous avez
 besoin sur la <ulink url="http://www.videolan.org/contribute.html">page
@@ -1594,8 +1595,9 @@ del que tenemos.</span>
 <span xml:lang="fr">Les développeurs de VideoLAN sont originaires du
 monde entier, et l'anglais est la seule langue leur permettant de
 communiquer ensemble. Bien qu'une grande attention soit apportée à la
-traduction de VLC dans différents languages, maintenir une traduction de
-notre site coûte bien plus de temps que nous pouvons en offrir.</span>
+traduction de VLC dans différentes langues, nous ne possédones pas les
+ressources nécessaires à la maintenance d'une traduction de notre
+site.</span>
 
 <span xml:lang="de">Die Entwickler von VideoLAN kommen von der ganzen
 Welt und Englisch ist die einzige Sprache, die sie benutzen können, um

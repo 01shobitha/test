@@ -2,7 +2,7 @@
  * Stolen from the Gnumeric website by Sam :-)
  * Hardly modified by karibu :(
  *
- * $Id: main.css,v 1.92 2004/03/20 18:58:06 anil Exp $ */
+ * $Id: main.css,v 1.93 2004/03/20 20:04:39 anil Exp $ */
 
 body {
   font-family: sans-serif, Helvetica, Arial;
@@ -367,6 +367,11 @@ td.news
 }
 
 span.date
+{
+display: none;
+}
+
+span.description
 {
 display: none;
 }

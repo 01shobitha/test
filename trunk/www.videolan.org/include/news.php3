@@ -31,7 +31,7 @@
                     if( $style == "full" )
                     {
 			echo ("<div class=\"item\">\n");
-                        $date = "<a id=\"NEWS$max\"><span class=\"date\">".date("Y-m-d", strtotime( $date) )."</span>".$date."</a>";
+                        $date = "<a class=\"link\" href=\"http://www.videolan.org/news.html#NEWS$max\" /><a id=\"NEWS$max\"><span class=\"date\">".date("Y-m-d", strtotime( $date) )."</span>".$date."</a>";
                         echo ("<p><b><span class=\"title\">".$title."</span></b> (".$date.")\n");
                         echo ("<span class=\"description\">".$text."</span>\n");
                         echo ("</p></div>\n");

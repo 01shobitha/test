@@ -1,5 +1,5 @@
 <?
-   $title = "VideoLAN - news";
+   $title = "VideoLAN - News";
    $lang = "en";
    $date = "14 February 2001";
    $menu = array( "home", "news" );
@@ -8,9 +8,11 @@
 
 <h1> News archive </h1>
 
+<span class="description"><a href="http://www.videolan.org/">VideoLAN</a> is a Free Software and Open Source multi-platform video streaming solution. It also features a cross-plaform multimedia player, <a href="http://www.videolan.org/vlc/">VLC</a>, which can be used to read the stream from the network or display video read locally on the computer</span>
+
 <?
    include($_SERVER["DOCUMENT_ROOT"]."include/news.php3");
    shownews("full",0);
 ?>
 
-<? footer('$Id: news.html,v 1.9 2004/03/20 17:40:05 anil Exp $'); ?>
+<? footer('$Id: news.html,v 1.10 2004/03/20 20:04:39 anil Exp $'); ?>

@@ -126,9 +126,8 @@ function starthtml($title) { ?>
 /* Second bar for vlc */
 
 function second_bar_vlc() { ?>
-<td class="secondbarvlc"><a href="/vlc/index.html">Overview</a></td>
+<td class="secondbarvlc"><a href="/vlc/index.html">Download</a></td>
 <td class="secondbarvlc"><a href="/vlc/features.html">Features</a></td>
-<td class="secondbarvlc"><a href="/vlc/download.html">Download</a></td>
 <td class="secondbarvlc"><a href="/vlc/screenshots.html">Screenshots</a></td>
 <? }
 

@@ -4,7 +4,6 @@
 a:link          {color: blue; text-decoration: underline}
 a:active        {color: red; text-decoration: underline}
 a:visited       {color: darkblue; text-decoration: underline}
-a:hover         {color: red; text-decoration: underline}
 
 body            {font-family: "Verdana", Georgia, Times; font-size: 1em; color: #000000; background-color: #FFFFFF; margin: 1em 1em 1em 1em;}
 h1              {font-size: 1.4em; margin: 0em 0em 0em 0em;}

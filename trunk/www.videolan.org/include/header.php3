@@ -71,7 +71,7 @@ function starthtml($title) { ?>
       case "streaming": second_bar_stream(); break;
       case "doc": break;
       case "support": second_bar_support(); break;
-      default: second_bar_home(); break;
+      case "home": second_bar_home(); break;
     } ?>
   </tr>
   </table>
@@ -112,9 +112,9 @@ function get_first_bar_item ( $number , $module , $text , $url , $current_module
 /* Second bar for vlc */
 
 function second_bar_vlc() { ?>
-<td class="secondbarvlc"><a href="/vlc/index.html">Download</a></td>
-<td class="secondbarvlc"><a href="/vlc/features.html">Features</a></td>
-<td class="secondbarvlc"><a href="/vlc/screenshots.html">Screenshots</a></td>
+<? get_first_bar_item ( 3 , "index.html" , "Download" , "/vlc/index.html" , $modules[2] ) ?>
+<? get_first_bar_item ( 3 , "features.html" , "Features" , "/vlc/features.html" , $modules[2] ) ?>
+<? get_first_bar_item ( 3 , "screenshots.html" , "Screenshots" , "/vlc/screenshots.html" , $modules[2] ) ?>
 <? }
 
 /* Second bar for streaming */

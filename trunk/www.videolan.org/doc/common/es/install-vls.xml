@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<sect2><title>Windows</title>
+
+<para>
+Descárgese el fichero ZIP de la <ulink
+url="http://www.videolan.org/streaming/download-vls-windows.html">página de
+decargas de VLS para Windows</ulink>, descomprímalo y ejecute
+<filename>setup.exe</filename>
+.</para>
+
+</sect2>
+
+<sect2><title>GNULinux &amp; Mac OS X</title>
+
+<simplesect><title>
+Instalar las librerías
+</title>
+
+<para>
+Son necesarias varias librerías
+:</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>libdvbpsi</emphasis> 
+(obligatoria)
+</para></listitem>
+
+<listitem><para><emphasis>libdvdcss</emphasis>
+para poder leer DVDs encriptados
+,</para></listitem>
+
+<listitem><para><emphasis>libdvdread</emphasis>
+para transmitir DVDs
+,</para></listitem>
+
+<listitem><para><emphasis>libdvb</emphasis>
+ para poder transmitir desde una tarjeta DVB
+(satélite o digital terrestre)
+.</para></listitem>
+
+</itemizedlist>
+
+<para>
+Descárguese las librerías de la <ulink
+url="http://www.videolan.org/streaming/download-vls-sources.html">página del
+código fuente de VLS</ulink>
+.</para>
+
+<para>
+Para cada librería, descomprima, configure, 
+(menos para <emphasis>libdvb</emphasis> que no tiene
+<emphasis>./configure</emphasis>), compile e instale
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>tar xvzf library.tar.gz</userinput>
+<prompt>% </prompt><userinput>cd library</userinput>
+<prompt>% </prompt><userinput>./configure</userinput>
+<prompt>% </prompt><userinput>make</userinput>
+<prompt># </prompt><userinput>make install</userinput>
+</screen>
+
+<para>
+Verifique que el fichero de configuración
+<filename>/etc/ld.so.conf</filename> contiene la siguiente línea
+ :</para>
+<programlisting>
+/usr/local/lib
+</programlisting>
+
+<para>
+Si la línea no está presente, añádela y ejecute
+starten Sie dann
+ :</para>
+
+<screen>
+<prompt># </prompt><userinput>ldconfig</userinput>
+</screen>
+
+<para>
+En Mac OS X, ejecute
+:</para>
+<screen>
+<prompt># </prompt><userinput>ranlib /usr/local/lib/*.a</userinput>
+</screen>
+
+
+</simplesect>
+
+<simplesect><title>
+Instalar VLS
+</title>
+
+<para>
+Descárguese el código fuente de la última versión : consiga
+el fichero <filename>vls-version.tar.gz</filename> de la <ulink
+url="http://www.videolan.org/streaming/download-vls-sources.html">página
+del código fuente de VLS</ulink>. Descomprímalo y ejecute
+<emphasis>./configure</emphasis> 
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>tar xvzf vls-version.tar.gz</userinput>
+<prompt>% </prompt><userinput>cd vls-version</userinput>
+</screen>
+
+<para>
+Para conseguir la lista de opciones de configuración, haga
+folgendes
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>./configure --help</userinput>
+</screen>
+
+<para>
+Después configure VLS 
+:</para>
+
+<itemizedlist>
+
+<listitem><para>
+para un VLS simple, sin soporte para DVD, haga
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>./configure --disable-dvd</userinput>
+</screen>
+
+</listitem>
+
+<listitem><para>
+para un VLS con soporte para DVD, haga
+ :</para>
+
+<screen>
+<prompt>% </prompt><userinput>./configure</userinput>
+</screen>
+
+</listitem>
+
+<listitem><para>
+para un VLS con soporte para DVB, haga
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>./configure --enable-dvb --with-dvb=PATH_TO_DVB_DRIVERS --with-libdvb=PATH_TO_LIBDVB</userinput>
+</screen>
+
+</listitem>
+
+</itemizedlist>
+
+<para>
+Después, compile e instale
+ :</para>
+
+<screen>
+<prompt>% </prompt><userinput>make</userinput>
+<prompt># </prompt><userinput>make install</userinput>
+</screen>
+
+<para>
+Puede ejecutar <command>make uninstall</command>,
+<command>make clean</command> o <command>make distclean</command> siempre
+que lo necesite
+.</para>
+
+</simplesect>
+
+</sect2>

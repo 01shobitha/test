@@ -53,7 +53,7 @@ deb-src http://www.videolan.org/pub/videolan/debian sources/
 
 <screen>
 <prompt># </prompt><userinput>apt-get update</userinput>
-<prompt># </prompt><userinput>apt-get install gnome-vlc vlc-plugin-a52 vlc-plugin-mad vlc-plugin-ogg libdvdcss2</userinput>
+<prompt># </prompt><userinput>apt-get install gnome-vlc vlc-plugin-mad vlc-plugin-ogg libdvdcss2</userinput>
 </screen>
 </sect2>
 

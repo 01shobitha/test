@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso8859-1"?>
 <chapter id="cmdline"><title id="tcmdline">
 
-Die Befehlszeilenoberfläche
+Das Befehlszeileninterface
 </title>
 <sect1>
 <title>
@@ -136,7 +136,7 @@ Auswahl der Module
 </title>
 <para>
 
-VLC versucht die am Besten passende Oberfläche und
+VLC versucht das am Besten passende Interface und die entsprechenden
 Input- und Ausgabemodule unter den auf Ihrem System verfügbaren für den
 zu lesenden Stream zu wählen. Trotzdem möchten Sie eventuell die Benutzung
 eines bestimmten Moduls mit den folgenden Optionen erzwingen (Schauen Sie
@@ -145,13 +145,13 @@ für die komplette Liste von Modulen in die <xref linkend="modules" endterm="tmod
 <itemizedlist>
 <listitem><para><emphasis>--intf  &lt;module&gt;</emphasis>
 
-erlaubt Ihnen das Oberflächenmodul zu wählen.
+erlaubt Ihnen das Interface-Modul zu wählen.
 
 </para></listitem>
 <listitem><para><emphasis>--extraintf  &lt;module&gt;</emphasis>
 
-Erlaubt Ihnen zusätzliche Oberflächenmodul auszuwählen,
-die zusätzlich zur Hauptoberfläche gestartet werden.
+Erlaubt Ihnen zusätzliche Interface-Module auszuwählen,
+die zusätzlich zum Hauptinterface gestartet werden.
 
 </para></listitem>
 <listitem><para><emphasis>--aout  &lt;module&gt;</emphasis>
@@ -379,7 +379,7 @@ Diverse Optionen
 </para></listitem>
 <listitem><para><emphasis>--search-path  &lt;Zeichenkette&gt;</emphasis>
 
-Legt den standardmäßigen Oberflächensuchpfad fest.
+Legt den standardmäßigen Interface-Suchpfad fest.
 
 </para></listitem>
 <listitem><para><emphasis>--plugin-path  &lt;Zeichenkette&gt;</emphasis>

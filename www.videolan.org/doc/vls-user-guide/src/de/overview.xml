@@ -137,7 +137,7 @@ Der Manager
 <para>
 
 Der <emphasis>Manager</emphasis> kontrolliert
-die gesendeten Streams. Durch eine <emphasis>Administrationsoberfläche
+die gesendeten Streams. Durch ein <emphasis>Administrationsinterface
 </emphasis> können Sie dem Manager mitteilen, die verschiedenen
 Programme zu starten, stoppen, anzuhalten, wiederaufzunehmen, zu
 beschleunigen oder zu verlangsamen. Sie können auch eine Liste aller
@@ -156,7 +156,7 @@ gesendet wird
 
 <sect1><title>
 
-Die Administrationsoberfläche
+Das Administrationsinterface
 </title>
 
 <para>
@@ -175,7 +175,7 @@ benutzen, um Argumente beim Start zu übergeben
 
 <listitem><para>
 
-oder Sie können die <emphasis>Telnet-Oberfläche</emphasis>
+oder Sie können das <emphasis>Telnet-Interface</emphasis>
 benutzen, um das Streamen zu starten/anzuhalten/zu pausieren wann immer Sie
 möchten.
 
@@ -185,7 +185,7 @@ möchten.
 
 <para>
 
-Wenn Sie die Telnet-Oberfläche benutzen, müssen
+Wenn Sie das Telnet-Interface benutzen, müssen
 Sie sich authentifizieren, bevor sie einen Befehl angeben, weil nicht jedem
 Benutzer erlaubt werden darf, einen Befehl auszuführen (dies kann in der
 Konfigurationsdatei <filename>vls.cfg</filename> eingestellt werden).

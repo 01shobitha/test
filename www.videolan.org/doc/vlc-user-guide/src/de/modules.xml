@@ -57,11 +57,8 @@ sie zu sehen, benutzen sie folgendes:
 <screen> <prompt>% </prompt><userinput>vlc --advanced -p Modul_Name</userinput></screen>
 
 <para>
-
-
-oder benutzen Sie das Einstellungsfenster Ihrer
-bevorzugten graphischen Oberfläche.
-
+oder benutzen Sie das Einstellungsfenster Ihres
+bevorzugten graphischen Interfaces.
 </para>
 
 </sect1>

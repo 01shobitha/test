@@ -362,8 +362,8 @@ wenn Sie ein einfaches VLC möchten, machen Sie folgendes: </para>
 </listitem>
 
 <listitem><para>
-wenn Sie die Gnome-Oberfläche anstatt der
-GTK-Oberfläche möchten (Sie benötigen die Development-Pakete von Gnome):
+wenn Sie das Gnome-Interface anstatt des
+GTK-Interface möchten (Sie benötigen die Development-Pakete von Gnome):
 </para>
 
 <screen>

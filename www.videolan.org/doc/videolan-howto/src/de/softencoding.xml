@@ -183,7 +183,7 @@ ffmpeg kompiliert haben und nicht der relative Pfad!
 </para></note>
 
 <para>
-Es gibt derzeit keine Befehlszeilenoberfläche für diesen Input,
+Es gibt derzeit kein Befehlszeileninterface für diesen Input,
 weshalb Sie die Konfigurationsdatei benutzen müssen.
 </para>
 

@@ -214,7 +214,7 @@ Sektion "Users"
 
 
 Diese Sektion enthält eine Liste von Benutzern, denen
-es gestattet ist, VLS durch eine Administrationsoberfläche zu kontrollieren.
+es gestattet ist, VLS durch ein Administrationsinterface zu steuern.
 Fügen Sie für jeden Benutzer eine Zeile im folgenden Format hinzu:</para>
 
 <programlisting>
@@ -273,8 +273,8 @@ Sektion "Telnet"
 <para>
 
 
-In dieser Sektion können Sie die
-Telnetadministrationsoberfläche einstellen.
+In dieser Sektion können Sie das
+Telnetadministrationsinterface einstellen.
 
 </para>
 

@@ -358,18 +358,18 @@ Befehlszeilenbenutzung
 
 <listitem><para>
 
-VLC hat viele unterschiedliche grafische Oberflächen, die sehr unterschiedlich
+VLC hat viele unterschiedliche grafische Interfaces, die sehr unterschiedlich
 aufgebaut sind, um mit den Richtlinien des jeweiligen System zu entsprechen.
-Die Funktionalität jeder Oberfläche zu dokumentieren, wäre zu aufwendig und
+Die Funktionalität jedes Interfaces zu dokumentieren, wäre zu aufwendig und
 einige Features sind nur über die Befehlszeile verfügbar. Deshalb haben wir
-uns entschieden, nur die Befehlszeilenoberfläche zu dokumentieren, aber
-in vielen Fällen sollte es einfach zu erraten sein, wie die grafische Oberfläche
+uns entschieden, nur das Befehlszeileninterface zu dokumentieren, aber
+in vielen Fällen sollte es einfach zu erraten sein, wie das grafische Interface
 entsprechend zu benutzen ist!
 
 </para></listitem>
 
 <listitem><para>
-VLS hat eine Befehlszeilen- und eine Telnet-Oberfläche,
+VLS hat ein Befehlszeilen- und ein Telnet-Interface,
 aber keine grafische!
 </para></listitem>
 

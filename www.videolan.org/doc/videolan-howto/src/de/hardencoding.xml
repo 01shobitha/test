@@ -132,7 +132,7 @@ Sie müssen die SVN-Version von VLS benutzen.
 </para>
 
 <para>
-Es gibt derzeit keine Befehlszeilenoberfläche für diesen
+Es gibt derzeit kein Befehlszeileninterface für diesen
 Input, weshalb Sie die Konfigurationsdatei benutzen müssen.
 </para>
 
@@ -314,14 +314,11 @@ wird, 11 Router zu überqueren).
 </sect2>
 
 <sect2><title>
-
-Diffusez avec VLS
-Streaming con VLS
 Streaming mit VLS
 </title>
 
 <para>
-Es gibt derzeit keine Befehlszeilenoberfläche für diesen
+Es gibt derzeit kein Befehlszeileninterface für diesen
 Input, sodass Sie die Konfigurationsdatei benutzen werden müssen.
 </para>
 

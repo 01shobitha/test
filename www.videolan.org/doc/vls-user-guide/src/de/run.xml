@@ -10,7 +10,7 @@ VLS starten
 <para>
 
 
-Wenn Sie die Telnet-Oberfläche benutzen, ist das Starten
+Wenn Sie das Telnet-Interface benutzen, ist das Starten
 von VLS sehr einfach: geben Sie einfach <command>vls</command> in eine
 Shellconsole ein. Das ist alles. Das Starten von <command>vlsd</command>
 wird VLS als Daemon starten und sich aus der startenden Shell ausklinken. 
@@ -84,7 +84,7 @@ dazu benutzen).
 <para>
 
 
-Wenn Sie aber die Befehlszeilenoberfläche benutzen
+Wenn Sie aber das Befehlszeileninterface benutzen
 möchten, schauen Sie bitte in das Dokument <ulink url="http://www.videolan.org/doc/">VideoLAN HOWTO</ulink>.
 
 </para>
@@ -94,7 +94,7 @@ möchten, schauen Sie bitte in das Dokument <ulink url="http://www.videolan.org/d
 <sect1><title>
 
 
-Benutzung der Telnet-Oberfläche
+Benutzung des Telnet-Interfaces
 </title>
 
 <para>
@@ -154,7 +154,7 @@ nach der Telnet-Eingabeaufforderung ein.
 <sect1><title>
 
 
-Oberflächenbefehle
+Interfacebefehle
 </title>
 
 <simplesect><title>help</title>

@@ -320,10 +320,10 @@ Englisch verfügbar.)
 
 <itemizedlist>
 
-<listitem><para>VLc öffnet alle System-Layer des Input-Streams, dekodiert sie alle und streamt dann das Ergebnis über das Netzwerk oder speichert es in einer Datei. Dadurch ist VLC gut im Streamen von unzuverlässigen Bild und/oder Tonquellen, wie die im Internet zu findenden und/oder von unprofessioneller Software erstellten Video-Dateien. VLC enthält viele Muxer/Demuxer (ps, ts, avi, ogg, mp4...) und viele Codecs, welche die Konvertierung von Verkapselungsformaten und/oder Umkodierung eines Input-Streams "on-the-fly" erlauben. VLC hat außerdem schöne graphische Oberflächen.
+<listitem><para>VLc öffnet alle System-Layer des Input-Streams, dekodiert sie alle und streamt dann das Ergebnis über das Netzwerk oder speichert es in einer Datei. Dadurch ist VLC gut im Streamen von unzuverlässigen Bild und/oder Tonquellen, wie die im Internet zu findenden und/oder von unprofessioneller Software erstellten Video-Dateien. VLC enthält viele Muxer/Demuxer (ps, ts, avi, ogg, mp4...) und viele Codecs, welche die Konvertierung von Verkapselungsformaten und/oder Umkodierung eines Input-Streams "on-the-fly" erlauben. VLC hat außerdem schöne graphische Interfaces.
 </para></listitem>
 
-<listitem><para>VLS öffnet nur die höchsten System-Layer des Input-Streams und hat nur PS- und TS-Demuxer. Dadurch ist VLS gut im Streamen von zuverlässigen Bild- und/oder Tonquellen im PS- oder TS-Format, wie sie von professioneller Software oder Hardware, wie DVDs und DVB-Kanäle (Satellit oder digitales terrestrisches Fernsehen), produziert werden, da es nur die System-Layer dekodiert, die dekodiert werden müssen und nicht mehr. VLS ist insbesondere auf das Streamen von gemultiplexten TS-Streams, zum Beispiel einem ganzen DVB-Transponder, auslegt. VLS hat nur einen TS-Muxer, macht kein Umkodieren und hat keine graphischen Oberflächen.
+<listitem><para>VLS öffnet nur die höchsten System-Layer des Input-Streams und hat nur PS- und TS-Demuxer. Dadurch ist VLS gut im Streamen von zuverlässigen Bild- und/oder Tonquellen im PS- oder TS-Format, wie sie von professioneller Software oder Hardware, wie DVDs und DVB-Kanäle (Satellit oder digitales terrestrisches Fernsehen), produziert werden, da es nur die System-Layer dekodiert, die dekodiert werden müssen und nicht mehr. VLS ist insbesondere auf das Streamen von gemultiplexten TS-Streams, zum Beispiel einem ganzen DVB-Transponder, auslegt. VLS hat nur einen TS-Muxer, macht kein Umkodieren und hat keine graphischen Interfaces.
 </para></listitem>
 
 </itemizedlist>
@@ -350,12 +350,12 @@ unterstützte, hatten wir zwei sehr unterschiedliche Programme:
 
 <listitem><para>VLS, ein nur unter Linux und Windows laufendes Programm,
 geschrieben in C++, welches hauptsächlich eine MPEG-Streaming-Engine mit
-einer sehr einfachen Telnet-Oberfläche ist, die als Server benutzt wird.
+einem sehr einfachen Telnet-Interface ist, die als Server benutzt wird.
 </para></listitem>
 
 <listitem><para>VLC, ein Programm, das auf vielen Plattformen läuft,
 geschrieben in C, das Demuxer, Codecs, Ton- und Bildausgabe enthält
-und eine graphische Oberfläche hat, sowie nur als Client benutzt wird.
+und ein graphische Interface hat, sowie nur als Client benutzt wird.
 </para></listitem>
 
 </itemizedlist>
@@ -399,13 +399,13 @@ Copyright benutzen:
 
 <answer>
 
-<para>Sie dürfen orginale oder veränderte Versionen
+<para>Sie dürfen originale oder veränderte Versionen
 einer VideoLAN-Software weitergeben, solange Sie den Lizenzbedingungen
 zustimmen. Dabei handelt es sich um die GNU General Public License
-Version 2 (im folgenden als GPL bezeichnet) und diese befindet sich in
+Version 2 (im folgenden als GPL bezeichnet). Diese befindet sich in
 der Datei COPYING, die jedem unserer Produkte beliegt. Der einfachste
 Weg, sich konform zur GPL zu verhalten, ist, dass Sie mit dem Produkt,
-dass Sie weitergeben wollen, auch dessen Quellcode mit liefern. Zum
+dass Sie weitergeben wollen, auch dessen Quellcode mitliefern. Zum
 Beispiel: Wenn Sie planen, die neueste binäre Version von VLC zu
 distribuieren, sollten Sie auch alle Dateien einschließen, die auf der
 <ulink url="http://www.videolan.org/vlc/download-sources.html">VLC

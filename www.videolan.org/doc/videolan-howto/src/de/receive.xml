@@ -165,8 +165,8 @@ Einen Stream mit VLC speichern
 
 
 VLC kann den Stream auf der Festplatte speichern. Um dies
-zu tun, benutzen Sie die Stream-Ausgabe von VLC: Sie können dies über die
-grafische Oberfläche tun oder der Befehlszeile das folgende Argument 
+zu tun, benutzen Sie die Stream-Ausgabe von VLC: Sie können dies über das
+grafische Interface tun oder der Befehlszeile das folgende Argument 
 hinzufügen
  :</para>
 

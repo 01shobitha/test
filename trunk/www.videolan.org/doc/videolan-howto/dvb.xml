@@ -6,7 +6,7 @@
 terrestial TV)</span>
 <span xml:lang="fr">Diffusez un flux DVB (satellite ou télévision
 numérique terrestre)</span>
-<span xml:lang="es">Difusión de un canal DVB (satélite o televisión digital
+<span xml:lang="es">Transmisión de un canal DVB (satélite o televisión digital
 terrestre)</span>
 <span xml:lang="de">Einen DVB-Kanal (Satellit oder digitales terrestrisches
 TV) streamen</span>
@@ -15,7 +15,7 @@ TV) streamen</span>
 <note><para>
 <span xml:lang="en">This is possible under GNU/Linux only</span>
 <span xml:lang="fr">Ceci n'est possible que sous GNU/Linux</span>
-<span xml:lang="es">Esto es posible solo bajo GNU/Linux</span>
+<span xml:lang="es">Esto sólo es posible bajo GNU/Linux</span>
 <span xml:lang="de">Dies ist nur unter GNU/Linux möglich</span>
 
 .</para></note>
@@ -32,7 +32,7 @@ TV) streamen</span>
 satellite card or a digital terrestial TV card), you need to install the
 DVB drivers:</span>
 <span xml:lang="fr">Pour pouvoir streamer depuis une carte DVB (une carte satélite ou de télévision numérique terrestre), il est nécessire d'installer préalablement les drivers DVB :</span>
-<span xml:lang="es">Si se quiere ser capaz de transmitir desde una tarjete DVB (tarjeta de satélite o de TV digital terrestre), se necesita instalar los drivers DVB:</span>
+<span xml:lang="es">Si se quiere transmitir desde una tarjeta DVB (tarjeta de satélite o de TV digital terrestre), se necesita instalar los drivers DVB:</span>
 <span xml:lang="de">Wenn Sie von einer DVB-Karte (eine Satelliten- oder eine
 digitale terrestrische TV-Karte) streamen möchten, müssen Sie die DVB-Treiber
 installieren:</span>
@@ -49,7 +49,7 @@ compile the right modules ;</span>
 <span xml:lang="fr">si vous utilisez un noyau Linux 2.6.x, il vous suffit de
 compiler les bons modules ;</span>
 
-<span xml:lang="es">si se utilizar un kernel Linux 2.6.x, solo se necesita compilar los modulos adecuados;</span>
+<span xml:lang="es">si se utiliza un kernel Linux 2.6.x, sólo se necesita compilar los módulos adecuados;</span>
 
 <span xml:lang="de">Wenn Sie einen Linux 2.6.x Kernel benutzen, müssen Sie
 nur die richtigen Module komplieren,</span>
@@ -71,7 +71,7 @@ téléchargement des drivers DVB</ulink> du projet <ulink
 url="http://www.linuxtv.org/">LinuxTV</ulink>.</span>
 
 <span xml:lang="es">si se está usando un kernel Linux 2.4.x, 
-se debe descargar la última versión de los drivers DVB desde <ulink
+se debe descargar la última versión de los drivers DVB desde la <ulink
 url="http://www.linuxtv.org/download/dvb/">página de descarga de drivers DVB
 </ulink> del proyecto <ulink url="http://www.linuxtv.org/">LinuxTV</ulink>
 Project.</span>
@@ -122,7 +122,7 @@ contenant les chaînes DVB que vous désirez diffuser dans
 votre répertoire utilisateur (certains sont fournis dans
 <emphasis>libdvb</emphasis> pour les chaînes satellites)</span>
 <span xml:lang="es">Crear un fichero <filename>.dvbrc</filename> que contenga 
-los canales DVB (canales de satellite o de televisión digital terrestre) que se 
+los canales DVB (canales de satélite o de televisión digital terrestre) que se 
 quieren transmitir en el directorio raiz (algunos de ellos se proporcionan en el
 tarball <emphasis>libdvb</emphasis> para canales de satélite)</span>
 <span xml:lang="de">Legen Sie eine <filename>.dvbrc</filename>-Datei, die
@@ -135,7 +135,7 @@ mitgeliefert)</span>
 <para>
 <span xml:lang="en">Run VLS with the following command line</span>
 <span xml:lang="fr">Lancez VLS avec cette ligne de commande</span>
-<span xml:lang="es">Ejecutar VLS con la siguiente linea de comando</span>
+<span xml:lang="es">Ejecutar VLS con la siguiente línea de comandos</span>
 <span xml:lang="de">Starten Sie VLS mit der folgenden Befehlszeile</span>
 
  :</para>
@@ -158,7 +158,7 @@ mitgeliefert)</span>
 your <filename>~/.dvbrc</filename> file</span>
 <span xml:lang="fr">est la chaîne que vous désirez diffuser, comme
 décrit dans votre fichier <filename>~/.dvbrc</filename></span>
-<span xml:lang="es"> es el canal en el que se quiere transmitir como se ha escrito en el fichero
+<span xml:lang="es"> es el canal que se quiere transmitir, como se ha descrito en el fichero
 <filename>~/.dvbrc</filename></span>
 <span xml:lang="de">der Kanal ist, den Sie streamen möchten, wie Sie es in Ihre
 <filename>~/.dvbrc</filename>-Datei geschrieben haben</span>
@@ -167,7 +167,7 @@ décrit dans votre fichier <filename>~/.dvbrc</filename></span>
 <listitem><para><emphasis>192.168.0.42</emphasis>
 <span xml:lang="en"> is either </span>
 <span xml:lang="fr"> est soit </span>
-<span xml:lang="es"> es cualquiera </span>
+<span xml:lang="es"> es </span>
 <span xml:lang="de"> ist entweder </span>
 :</para>
 
@@ -177,7 +177,7 @@ décrit dans votre fichier <filename>~/.dvbrc</filename></span>
 to</span>
 <span xml:lang="fr">l'adresse IP de la machine vers laquelle vous
 désirez diffuser en unicast</span>
-<span xml:lang="es">la dirección IP de la máquina en la que se quiere hacer unicast
+<span xml:lang="es">la dirección IP de la máquina a la que se quiere hacer unicast
 </span>
 <span xml:lang="de">die IP-Adresse des Rechners, den Sie via Unicast erreichen
 möchten</span>
@@ -188,7 +188,7 @@ möchten</span>
 to</span>
 <span xml:lang="fr">le nom DNS de la machine vers laquelle vous désirez
 envoyer en unicast</span>
-<span xml:lang="es">o el DNS de la máquina donde se quiere hacer unicast
+<span xml:lang="es">o el DNS de la máquina a la que se quiere hacer unicast
 </span>
 <span xml:lang="de">oder der DNS-Name des Rechners, den Sie via Unicast
 erreichen möchten</span>
@@ -229,7 +229,7 @@ bedeutet, dass der Stream in der Lage sein wird, 11 Router zu
 <sect1><title>
 <span xml:lang="en">Stream with VLC</span>
 <span xml:lang="fr">Diffusez avec VLC</span>
-<span xml:lang="es">Transmisión con VLS</span>
+<span xml:lang="es">Transmisión con VLC</span>
 <span xml:lang="de">Streaming mit VLC</span>
 </title>
 
@@ -237,7 +237,7 @@ bedeutet, dass der Stream in der Lage sein wird, 11 Router zu
 <span xml:lang="en">For this, you must use the CVS version of VLC and compile
 it with <command>./configure --enable-dvb</command> This feature should
 still be considered as experimental.</span>
-<span xml:lang="es">Para esto, debería utilizar la versión CVS de VLC y compilarla
+<span xml:lang="es">Para esto, se debería utilizar la versión CVS de VLC y compilarla
 con <command>./configure --enable-dvb</command> Esta característica debería
 ser considerada todavía como experimental.</span>
 <span xml:lang="de">Dazu benötigen Sie die CVS-Version von VLC und sie mit
@@ -272,7 +272,7 @@ den Sie streamen möchten, ausgedrückt als Dezimalzahl</span>
 <span xml:lang="en"><filename>12597000</filename> is the frequency of the
 transponder you want to stream from in Hz</span>
 <span xml:lang="es"><filename>12597000</filename> es la frecuencia del
-transpondedor que quieres transmitir, en Hz</span>
+transpondedor que se quiere transmitir, en Hz</span>
 <span xml:lang="de"><filename>12597000</filename> ist die Frequenz des
 Transponders, den Sie streamen möchten, in Hz</span>
 ;</para></listitem>
@@ -306,7 +306,7 @@ Transpondersymbolrate in Hz</span>
 
 <listitem><para><emphasis>192.168.0.12</emphasis>
 <span xml:lang="en"> is either </span>
-<span xml:lang="es"> puede ser </span>
+<span xml:lang="es"> es </span>
 <span xml:lang="de"> ist entweder </span>
 :</para>
 
@@ -315,7 +315,7 @@ Transpondersymbolrate in Hz</span>
 <listitem><para>
 <span xml:lang="en">the IP address of the machine you want to unicast to
 </span>
-<span xml:lang="es">la dirección IP de la máquina a la que quieres transmitir en unicast
+<span xml:lang="es">la dirección IP de la máquina a la que se quiere transmitir en unicast
 </span>
 <span xml:lang="de">die IP-Adresse des Rechners, den Sie via Unicast erreichen
 möchten</span>
@@ -324,7 +324,7 @@ möchten</span>
 <listitem><para>
 <span xml:lang="en">or the DNS name the machine you want to unicast to
 </span>
-<span xml:lang="es">o el nombre DNS de la máquina a la que quieres transmitir en unicast
+<span xml:lang="es">o el nombre DNS de la máquina a la que se quiere transmitir en unicast
 </span>
 <span xml:lang="de">oder der DNS-Name des Rechners, den Sie via Unicast
 erreichen möchten</span>

@@ -243,13 +243,16 @@ th.os {
 /* Styles used for the navigation bar */
 table.firstbar {
   width: 100%;
-  text-align: center;
   font-weight: bold;
   font-size: 10pt;
 }
 
 td.firstbar {
   vertical-align: middle;
+
+  text-align: center;
+  font-weight: inherit;
+  font-size: inherit;
 
   border-style: solid;
   border-color: #a43;
@@ -264,6 +267,10 @@ td.firstbarselected {
   background-color: #aaa;
   color: #a43;
 
+  text-align: center;
+  font-weight: inherit;
+  font-size: inherit;
+
   border-style: solid;
   border-color: #a43;
   border-bottom-width: 0px;
@@ -275,7 +282,6 @@ td.firstbarselected {
 table.secondbar {
   width: 100%;
 
-  text-align: center;
   font-weight: bold;
   font-size: 11pt;
 
@@ -292,6 +298,10 @@ td.secondbar {
   background-color: #aaa;
   color: #fff;
 
+  text-align: center;
+  font-weight: inherit;
+  font-size: inherit;
+
   border-style: solid;
   border-color: #a43;
   border-bottom-width: 1px;
@@ -304,6 +314,10 @@ td.secondbarselected {
   vertical-align: middle;
   background-color: #aaa;
   color: #a43;
+
+  text-align: center;
+  font-weight: inherit;
+  font-size: inherit;
 
   border-style: solid;
   border-color: #a43;

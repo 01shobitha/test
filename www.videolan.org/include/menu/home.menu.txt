@@ -8,3 +8,4 @@ contact;Contact;/contact.html
 links;Links;/links.html
 goodies;Goodies;/goodies.html
 dtsdec;DTSdec;/dtsdec.html
+x264;x264;/x264.html

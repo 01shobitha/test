@@ -10,12 +10,17 @@
 
 <h1> VLC for Debian GNU/Linux </h1>
 
+<? h2("Note"); ?>
+
+<p>VLC is now part of the Debian unstable distribution (sid), simply
+use your usual Debian mirror to download the last packages of VLC!</p>
+
 <? h2("Install VLC with apt-get"); ?>
 
 <p> Add the following lines to your <b>/etc/apt/sources.list</b>:</p>
 
 <pre>
-   deb ftp://ftp.videolan.org/pub/videolan/debian $(ARCH)/
+   deb     ftp://ftp.videolan.org/pub/videolan/debian $(ARCH)/
    deb-src ftp://ftp.videolan.org/pub/videolan/debian sources/
 </pre>
 
@@ -106,4 +111,4 @@
 <p> Older versions can be found by <a href="/pub/vlc/">browsing</a> our
 FTP site. </p>
 
-<? footer('$Id: download-debian.html,v 1.10 2003/04/10 12:38:00 alexis Exp $'); ?>
+<? footer('$Id: download-debian.html,v 1.11 2003/04/22 18:36:52 lool Exp $'); ?>

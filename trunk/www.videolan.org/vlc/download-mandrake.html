@@ -6,7 +6,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 
-<? function pkgitem($version,$name,$comment) { ?><li><a href="http://www.videolan.org/pub/videolan/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a> <? echo $comment; ?> </li><? } ?>
+<? function pkgitem($version,$name,$comment) { ?><li><a href="http://download.videolan.org/pub/videolan/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a> <? echo $comment; ?> </li><? } ?>
 
 <h1>VLC for Linux Mandrake x86</h1>
 
@@ -30,4 +30,4 @@ that):</p>
    # urpmi libdvdcss2 libdvdplay0 wxvlc vlc-plugin-a52 vlc-plugin-ogg vlc-plugin-mad
 </pre>
 
-<? footer('$Id: download-mandrake.html,v 1.25 2003/10/30 22:00:33 anil Exp $'); ?>
+<? footer('$Id: download-mandrake.html,v 1.26 2003/12/27 18:45:01 zorglub Exp $'); ?>

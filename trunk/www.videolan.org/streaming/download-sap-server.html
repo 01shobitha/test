@@ -6,7 +6,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 
-<? function pkgitem($version,$name) { ?><li><a href="http://www.videolan.org/pub/videolan/miniSAPserver/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
+<? function pkgitem($version,$name) { ?><li><a href="http://download.videolan.org/pub/videolan/miniSAPserver/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
 
 <h1> Mini-SAP-server for Linux and Mac OS X</h1>
 
@@ -17,4 +17,4 @@
   <? pkgitem("0.2.3","miniSAPserver-0.2.3.tar.gz"); ?>
 </ul>
 
-<? footer('$Id: download-sap-server.html,v 1.12 2003/12/13 22:36:09 zorglub Exp $'); ?>
+<? footer('$Id: download-sap-server.html,v 1.13 2003/12/27 18:45:01 zorglub Exp $'); ?>

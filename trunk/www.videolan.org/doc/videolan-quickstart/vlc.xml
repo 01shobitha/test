@@ -73,10 +73,11 @@ exemple).</para></span>
 
 </title>
 
-<span xml:lang="en"><para>If VLC doesn't work for you, try to spot an error message in the logs that are printed in the terminal.</para>
+<span xml:lang="en"><para>If VLC doesn't work for you, try to spot an
+error message in the logs that are printed in the terminal.</para>
 
 <para>Then, read the <ulink
-url="http://www.videolan.org/doc/faq/">vlc FAQ</ulink> and have a
+url="http://www.videolan.org/doc/">VideoLAN FAQ</ulink> and have a
 look at the <ulink url="http://bugzilla.videolan.org/">Bugzilla</ulink>
 to see if it is a known issue.</para>
 
@@ -90,7 +91,7 @@ le message d'erreur en regardant les messages affichés dans votre
 fenêtre de terminal.</para>
 
 <para>Lisez ensuite la <ulink
-url="http://www.videolan.org/doc/faq/">FAQ</ulink> et regardez sur
+url="http://www.videolan.org/doc/">FAQ</ulink> et regardez sur
 <ulink url="http://bugzilla.videolan.org/">Bugzilla</ulink>
 afin de voir s'il s'agit d'un problème connu.</para>
 

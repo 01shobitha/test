@@ -196,8 +196,8 @@ function second_bar_home($module) { ?>
     *  footer: bottom of the page
     */
 
-function footer($title,$language,$date) { ?>
-
+function footer($tag) {
+   global $language; ?>
 <hr />
 <table cellspacing="0" cellpadding="2" style="width: 100%;" border="0">
   <tr>
@@ -205,7 +205,7 @@ function footer($title,$language,$date) { ?>
       <a href="/">VideoLAN</a> &nbsp;-&nbsp;
       See the
      <a href="http://brahma.via.ecp.fr/videolan/">statistics</a>
-     &nbsp;-&nbsp; <? echo $date; ?>
+     &nbsp;-&nbsp; <? echo $tag; ?>
     </td>
     <td align="right" style="white-space: nowrap;">
     <? if($language=="fr") { } else { ?>valid<? } ?>

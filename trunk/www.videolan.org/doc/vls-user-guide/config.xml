@@ -21,7 +21,7 @@ vous avez utilisé le package Debian</span>
 <filename>SYSCONF_DIR/videolan/vls</filename> sein sollte (wobei
 <emphasis>SYSCONF_DIR</emphasis> <filename>/usr/local/etc</filename>,
 wenn Sie VLS von Hand erstellt und installiert haben, oder <filename>/etc</filename>
-ist, wenn Sie das binäre Debianpaket installiert haben.)<span>
+ist, wenn Sie das binäre Debianpaket installiert haben.)</span>
 .</para>
 
 <para>

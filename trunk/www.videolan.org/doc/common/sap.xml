@@ -196,7 +196,7 @@ url="http://www.videolan.org/streaming/">Streaming Downloadseite</ulink> herunte
 <screen>
 <prompt>% </prompt><userinput>tar xvzf miniSAPserver-version.tar.gz</userinput>
 <prompt>% </prompt><userinput>cd miniSAPserver-version</userinput>
-<prompt>% </prompt><userinput>./configure (if version >= 0.2.3)</userinput>
+<prompt>% </prompt><userinput>./configure</userinput>
 <prompt>% </prompt><userinput>make</userinput>
 </screen>
 

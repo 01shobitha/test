@@ -109,7 +109,7 @@ Services and stop the IPv6 firewalling service.</span>
 dans la liste des services Windows et arrêtez le service de parre-feu
 IPv6.</span>
 
-<span xml:lang="en">Bajo Windows XP, puede tener problemas debido a un
+<span xml:lang="es">Bajo Windows XP, puede tener problemas debido a un
 firewall IPv6 oculto. Para solucionar el problema, vaya a la lista de los
 Servicios de Windows y pare el servicio de firewall para IPv6.</span>
 
@@ -159,15 +159,15 @@ haben, das es IPv6-Streaming verhindert!</span>
 
 <listitem><para><filename>video1.xyz</filename>
 <span xml:lang="en"> is the file you want to stream (you can also put
-<command>dvdold:/dev/dvd</command> to stream a DVD or any other input
+<command>dvdsimple:/dev/dvd</command> to stream a DVD or any other input
 configuration)</span>
 <span xml:lang="fr"> est le fichier que vous désirez diffuser (vous
-pouvez par exemple, utiliser <command>dvdold:/dev/dvd</command>, pour
+pouvez par exemple, utiliser <command>dvdsimple:/dev/dvd</command>, pour
 diffuser un DVD, ....)</span>
 <span xml:lang="es"> es el fichero que quiere transmitir (también puede poner 
-<command>dvdold:/dev/dvd</command> para transmitir un DVD, ...)</span>
+<command>dvdsimple:/dev/dvd</command> para transmitir un DVD, ...)</span>
 <span xml:lang="de"> ist die Datei, die Sie streamen möchten (Sie können auch
-<command>dvdold:/dev/dvd</command> zum Streamen einer DVD
+<command>dvdsimple:/dev/dvd</command> zum Streamen einer DVD
 benutzen)</span>
 ,</para></listitem>
 

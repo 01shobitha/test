@@ -132,7 +132,7 @@ elements</listitem></itemizedlist></para></listitem>
 <listitem><para><command>control (name) [instance_name]
 (command)</command> : Change the state of the (instance_name) instance
 of the (name) media. If (instance_name) isn't specifeid, the control
-command affects the default instance. See <xref linkref="vlmctrl"
+command affects the default instance. See <xref linkend="vlmctrl"
 endterm="tvlmctrl" /> for available control commands.</para></listitem>
 
 <listitem><para><command>save (config_file)</command> : Save all media

@@ -16,7 +16,7 @@ TODO:
 <para><emphasis>VideoLAN Manager</emphasis> is a small media manager
 designed to control multiple streams with <emphasis>only one instance of
 VLC</emphasis>. It allows multiple streaming and video on demand (VoD).
-This manager being a new feature, it can only be controled by the telnet
+This manager being a new feature, it can only be controlled by the telnet
 interface or the http interface.</para>
 
 <sect2><title>Interfaces</title></sect2>
@@ -81,7 +81,7 @@ it.</para></listitem>
 <listitem><para><emphasis>broadcast</emphasis>: A broadcast media is
 very close to a TV program or channel. It is launched, stopped or paused
 by the administrator and may be repeated several times. The client has
-no coutrol over this media.</para></listitem>
+no control over this media.</para></listitem>
 
 </itemizedlist>
 
@@ -113,7 +113,7 @@ an elements property. See <xref linkend="vlmprop" endterm="tvlmprop"
 <listitem><para><command>show [(name)|media|schedule]</command>
 : Display current element states and configurations.
 <itemizedlist><listitem><command>show (name)</command> - Specify
-an element's name to show all information conerning this
+an element's name to show all information concerning this
 element.</listitem><listitem><command>show media</command> displays
 a summary of media states.</listitem><listitem><command>show
 schedule</command> displays a summary of schedule
@@ -131,7 +131,7 @@ elements</listitem></itemizedlist></para></listitem>
 
 <listitem><para><command>control (name) [instance_name]
 (command)</command> : Change the state of the (instance_name) instance
-of the (name) media. If (instance_name) isn't specifeid, the control
+of the (name) media. If (instance_name) isn't specified, the control
 command affects the default instance. See <xref linkend="vlmctrl"
 endterm="tvlmctrl" /> for available control commands.</para></listitem>
 
@@ -197,7 +197,7 @@ schedule will never be launched.</para></listitem>
 
 <listitem><para><command>append
 (command_until_rest_of_the_line)</command> : Add a command to the
-command line lit. The command line can be evey command VLM can
+command line lit. The command line can be every command VLM can
 understand.<note><para>The rest of the line will be considered as
 part of the command line. You cannot put another option after the
 <command>append</command> one.</para></note></para></listitem>
@@ -223,7 +223,7 @@ endlessly.</para></listitem>
 
 <listitem><para><command>repeat (number_of_repetitions)</command> :
 Specify the number of times the schedule will be launched again. For
-example, if a schedule hast <command>repeat 11</command>, it will be
+example, if a schedule has <command>repeat 11</command>, it will be
 launched 12 times.</para></listitem>
 
 </itemizedlist>
@@ -235,7 +235,7 @@ launched 12 times.</para></listitem>
 
 <listitem><para><command>play</command> : Stat a broadcast media. The
 media begins to launch the first item of the input list, then launches
-the next one and so n. (like a play list)</para></listitem>
+the next one and so on. (like a play list)</para></listitem>
 
 <listitem><para><command>pause</command> : Put the broadcast media in
 paused status.</para></listitem>

@@ -64,7 +64,7 @@ this option if you want to change a file's audio codec and/or video codec, its b
 <sect2><title>Input selection</title></sect2>
 
 <para>Select a stream (such as a file, a network stream, a disk, a
-capture device ...) by selectig the <emphasis>Choose...</emphasis>
+capture device ...) by selecting the <emphasis>Choose...</emphasis>
 dialog or an existing item in your playlist, using the <emphasis>Existing playlist item</emphasis> option.</para>
 
 <para><emphasis>Partial Extract</emphasis>: To read only part of the
@@ -101,7 +101,7 @@ single computer. Enter the client's IP address (in the 0.0.0.0 -
 
 <listitem><para><emphasis>UDP Multicast</emphasis>: Stream to multiple
 computers using multicast. Enter the IP address of the multicast group
-(in the 224.0.0.0 239.255.255.255 range).</para></listitem>
+(in the 224.0.0.0 to 239.255.255.255 range).</para></listitem>
 
 <listitem><para><emphasis>HTTP</emphasis>: Stream by using the HTTP
 protocol. If you leave the <emphasis>Destination</emphasis> text box
@@ -165,7 +165,7 @@ now specify several options.</para>
 <itemizedlist>
 
 <listitem><para><emphasis>Time To Live (TTL)</emphasis> This sets the
-numbers of routers your stream can go through, for UDP uniicast and
+numbers of routers your stream can go through, for UDP unicast and
 unicast access methods. If you do not know what this means, you should
 leave the default value.</para>
 
@@ -209,7 +209,7 @@ now specify the file you want to save the stream to.</para>
 <sect2><title>Introduction</title></sect2>
 
 <para>A second way to set up a streaming instance using VLC
-is using <empahsis>Stream Output</empahsis> panel in the
+is using <emphasis>Stream Output</emphasis> panel in the
 <emphasis>Open...</emphasis> dialog of the wxWindows (Windows / GNU
 Linux), skinnable (Windows / GNU Linux) and MacOS X interfaces.
 Streaming methods and options used 99% of time should be available in
@@ -231,8 +231,8 @@ the "Settings" button.</para>
   <imageobject>
     <imagedata fileref="images/streaming-howto/intf-osx-open-file.jpg" format="JPG" />
   </imageobject>
-  <textobject><para>Open file dialog - MacOS X interface</para></textobject>
-  <caption><para>Open file dialog - MacOS X interface</para></caption>
+  <textobject><para>Open file dialog - Mac OS X interface</para></textobject>
+  <caption><para>Open file dialog - Mac OS X interface</para></caption>
 </mediaobject>
 
 <sect2><title>The Stream Output dialog</title></sect2>
@@ -270,7 +270,7 @@ read <xref linkend="cmdline" endterm="tcmdline" />.</para>
 </para></listitem>
 
 <listitem><para><emphasis>File</emphasis>: Save the stream to a
-file. The <emphasis>Dump raw input</emphasis> options allows to
+file. The <emphasis>Dump raw input</emphasis> option allows to
 save the input stream as it read by VLC, without any processing.
 </para></listitem>
 
@@ -292,7 +292,7 @@ enacpsulation method.</para></note>
 </para>
 
 <note><para>This will only work with the <emphasis>TS</emphasis>
-enacpsulation method.</para></note>
+encapsulation method.</para></note>
 
 </listitem>
 
@@ -323,7 +323,7 @@ AVI, MP4 and MOV. (See <xref linkend="smc" endterm="tsmc" />)</para>
 <para>Select methods to announce your stream. You can use SAP
 (Service Announce Protocol) or SLP (Service Location Protocol). You
 must also specify a channel name. (See <xref linkend="announce"
-endterm="tannounce" />). The MacOS X interface also allows you to export
+endterm="tannounce" />). The Mac OS X interface also allows you to export
 the description (SDP) file of a RTP session using the internal HTTP or
 RTSP server of VLC, or as a file. This can be done using the according
 checkboxes. The <emphasis>SDP URL</emphasis> text box allows to give the

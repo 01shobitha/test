@@ -1,0 +1,27 @@
+<?
+   $title = "VideoLAN Client - download";
+   $lang = "en";
+   $date = "16 April 2001";
+   require("header.php3");
+?>
+
+<? function pkgitem($version,$name) { ?><li><a href="/pub/videolan/vlc/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
+
+<h1>Download vlc for Mac OS X</h1>
+
+<p><b>Note:</b> this version does not support Mac OS 9.
+There is not, and won't be, a version for Mac OS 9.</p>
+
+<p> Latest Mac OS X package (0.4.4): </p>
+
+<ul>
+  <? pkgitem("0.4.4/macosx","vlc-0.4.4.dmg"); ?>
+</ul>
+
+<h2>Older versions</h2>
+
+<p> Older versions can be found by <a href="/pub/vlc/">browsing</a> our
+FTP site. </p>
+
+
+<? require("footer.php3"); ?>

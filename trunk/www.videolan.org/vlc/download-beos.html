@@ -1,0 +1,26 @@
+<?
+   $title = "VideoLAN Client - download";
+   $lang = "en";
+   $date = "16 April 2001";
+   require("header.php3");
+?>
+
+<? function pkgitem($version,$name) { ?><li><a href="/pub/videolan/vlc/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
+
+<h1>Download vlc for BeOS</h1>
+
+<p> Latest BeOS and Dano packages (0.4.6): </p>
+
+<ul>
+  <? pkgitem("0.4.6/beos","vlc-0.4.6a-BeOS-x86.zip"); ?>
+  <? pkgitem("0.4.1/beos","vlc-0.4.1-BeOS-Dano-x86.zip"); ?>
+</ul>
+
+<p> The Dano package includes partial network support. </p>
+
+<h2>Older versions</h2>
+
+<p> Older versions can be found by <a href="/pub/vlc/">browsing</a> our
+FTP site. </p>
+
+<? require("footer.php3"); ?>

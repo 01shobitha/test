@@ -35,13 +35,14 @@ it to /boot/home/config/.</li>
 
 <p>Now you can compile vlc:</p>
 <ul>
-<li>download the source code (use CVS or download the archive)</li>
+<li>download the source code (use <a href="/svn.html">Subversion</a> or download the archive)</li>
 <li>cd to the source directory</li>
-<li>if you are using CVS, run <code>./bootstrap</code></li>
+<li>if you are using SVN , run <code>./bootstrap</code></li>
 <li>run ./configure. The following is suggested:<br>
 Development: <code>./configure --enable-debug --enable-flac --enable-faad</code><br>
 Packaging: <code>./configure --enable-release --disable-plugins --enable-flac --enable-faad</code>
 </li>
+
 <li>run <code>make</code></li>
 <li>to make a package, run <code>make package-beos</code></li>
 </ul>

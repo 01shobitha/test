@@ -11,4 +11,5 @@ RewriteRule ^(.*)/([^/]+)\.html$ include/rewrite.php3?dir=$1&page=$2
 
 # changelog
 RewriteRule ^(.*)/ChangeLog$ include/rewrite.php3?dir=$1&changelog=1
+RewriteRule ^(.*)/devel_doc.html$ /$1/
 

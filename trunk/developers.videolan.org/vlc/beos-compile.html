@@ -16,37 +16,15 @@ developpement tools.</li>
 <li><a href="http://www.bebits.com/app/1610">CVS 1.11</a>.
 
 <li>This <a
-href="http://www.videolan.org/pub/videolan/devtools/beos-vlc-tools-20030614.zip">archive</a> includes the following tools, which are needed for the
-build process. Unzip it to /boot/home/config/.
-
-  <ul>
-  <li>autoconf 2.57</li>
-  <li>automake 1.7.5</li>
-  <li>libtool 1.5</li>
-  <li>libiconv 1.9.1</li>
-  <li>gettext 0.11.5</li>
-  </ul>
+href="http://videolan.org/pub/videolan/devtools/beos-vlc-tools.zip">
+archive</a> includes the tools needed for the build process. Unzip it to
+/boot/home/config/.</li>
 
 <li>This <a
-href="http://www.videolan.org/pub/videolan/devtools/beos-vlc-libraries-20030803.zip">archive</a> includes the following libraries, which are needed for the
-build process. Unzip it to /boot/home/config/.
+href="http://videolan.org/pub/videolan/devtools/beos-vlc-libraries.zip">
+archive</a> includes the libraries needed for the build process. Unzip
+it to /boot/home/config/.</li>
 
-  <ul>
-  <li>liba52 0.7.4</li>
-  <li>libavcodec CVS-20030725</li>
-  <li>libdvbpsi 0.1.3</li>
-  <li>libdvdplay 1.0.1</li>
-  <li>libdvdread 0.9.4</li>
-  <li>libdvdcss 1.2.8</li>
-  <li>libfaad2 CVS-20030612</li>
-  <li>libFLAC 1.1.0</li>
-  <li>libmpeg2 CVS-20030612</li>
-  <li>libogg CVS-20030612</li>
-  <li>libvorbis 1.0</li>
-  <li>libmad 0.15.0b</li>
-  <li>libfreetype 2.1.4</li>
-  </ul>
-</li>
 <li>In order to use these libraries, add the following lines to your
 /boot/home/.profile:<br>
 <code>export C_INCLUDE_PATH="${C_INCLUDE_PATH}:/boot/home/config/include"</code><br>
@@ -61,7 +39,9 @@ build process. Unzip it to /boot/home/config/.
 <li>cd to the source directory</li>
 <li>if you are using CVS, run <code>./bootstrap</code></li>
 <li>run ./configure. The following is suggested:<br>
-<code>./configure --enable-debug --disable-plugins --enable-flac --enable-faad</code></li>
+Development: <code>./configure --enable-debug --enable-flac --enable-faad</code><br>
+Packaging: <code>./configure --enable-release --disable-plugins --enable-flac --enable-faad</code>
+</li>
 <li>run <code>make</code></li>
 <li>to make a package, run <code>make package-beos</code></li>
 </ul>

@@ -70,7 +70,7 @@
                     }
                     elseif( $style == "title" )
                     {
-                        echo "<b><a href=\"#".$anchor."\">".$title."</a></b> (".$date.")";
+                        echo "$date: <b><a href=\"#$anchor\">$title</a></b>\n";
                         if( $max > 1 ) echo "<br />\n";
                     }
              

@@ -1,7 +1,7 @@
 /* CSS for the VideoLAN website
  * Stolen from the Gnumeric website by Sam :-)
  *
- * $Id: main.css,v 1.74 2003/02/03 04:33:15 sam Exp $ */
+ * $Id: main.css,v 1.75 2003/02/03 05:18:49 sam Exp $ */
 
 body {
   font-family: sans-serif, Helvetica, Arial;
@@ -359,7 +359,7 @@ td.topbar {
 td.topbarselected {
   vertical-align: middle;
   background-color: #fea;
-  color: #d83;
+  color: #653;
 
   text-align: center;
   font-weight: bold;
@@ -428,7 +428,7 @@ td.bottombar {
 td.bottombarselected {
   vertical-align: middle;
   background-color: #fea;
-  color: #d83;
+  color: #653;
 
   text-align: center;
   font-weight: bold;
@@ -445,7 +445,7 @@ td.bottombarselected {
 }
 
 h2.h2poukram {
-  color: #d83;
+  color: #653;
   background-color: #fea;
   margin: 0;
   text-decoration: none;

@@ -15,3 +15,45 @@ p.menu          { margin-top: 5pt; margin-bottom: 5pt; }
 a.menu:link     { color: #FFFFFF; text-decoration: none; }
 a.menu:visited  { color: #FFFFFF; text-decoration: none; }
 a.menu:hover    { color: #FFDD44; text-decoration: underline; font-weight:bold}
+
+/* Styles used for the features tables */
+td.yes {
+  color: black;
+  background-image: none;
+  background-color: #cfc;
+  vertical-align: middle;
+  text-align: center;
+}
+td.no {
+  color: black;
+  background-image: none;
+  background-color: #fcc;
+  vertical-align: middle;
+  text-align: center;
+}
+td.partial {
+  color: black;
+  background-image: none;
+  background-color: #ffa;
+  vertical-align: middle;
+  text-align: center;
+}
+td.none {
+  color: black;
+  background-image: none;
+  background-color: #fff;
+  vertical-align: middle;
+  text-align: center;
+}
+td.type {
+  color: black;
+  background-image: none;
+  background-color: #eef;
+  vertical-align: middle;
+}
+td.category {
+  color: black;
+  background-image: none;
+  background-color: #ccf;
+  vertical-align: middle;
+}

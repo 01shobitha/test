@@ -2,7 +2,7 @@ all: clean html ps pdf rtf txt
 
 html:
 	/bin/cp ../common/magic-jpg.sgml ../common/magic.sgml
-	/bin/cp ../../images/plan-videolan-640.eps .
+	/bin/cp ../../images/plan-videolan-640.jpg .
 	sgmltools -b html -s ../common/stylesheet-html.dsl videolan-howto.sgml
 	mv videolan-howto/*.html .
 	rmdir videolan-howto

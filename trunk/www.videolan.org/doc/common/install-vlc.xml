@@ -54,33 +54,30 @@ deb-src http://www.videolan.org/pub/videolan/debian sources/
 
 <sect2><title>Under Linux Mandrake</title>
 
-<para> First, VLC is included in the <ulink
-url="http://www.mandrakelinux.com/">Mandrake Linux</ulink> distribution,
-thus if your are running <emphasis>cooker</emphasis>, just get it from
-you preferred cooker mirror. </para>
+<para>First, VLC is included in the contrib section of Mandrake cooker.
+So if you are running cooker, just get it from you preferred cooker
+mirror.</para>
 
-<para> As it is not possible to update softwares in a previous
-distributions, you have to install the RPMs "by hand" if
-you don't use <emphasis>cooker</emphasis>. The simplest way
-is to use <emphasis>urpmi</emphasis> (command line interface)
-or <emphasis>rpmdrake</emphasis> (you will find in the Mandrake Control
-Center). General instrctutions about <emphasis>urpmi</emphasis> can be found
-on <ulink url="http://www.urpmi.org">http://www.urpmi.org</ulink>
-(both in french and english). <emphasis>urpmi-setup</emphasis> will make
-it easier to setup <emphasis>urpmi</emphasis> to your needs: see <ulink
-url="http://plf.zarb.org/~nanardon/">http://plf.zarb.org/~nanardon/</ulink>
-. You need at least to add main, contrib and plf sources. </para>
+<para>As it is not possible to update packages in a previous distribution,
+you have to install the RPMs "by hand" if you are running Mandrake 9.1
+instead of cooker. The simplest way is to use <command>urpmi</command>:</para>
 
 <itemizedlist>
 
-<listitem><para>get libdvdplay, vlc, vlc-plugin-mad, vlc-plugin-a52,
-gnome-vlc (or vlc-gtk) RPMs from this page and all the plugins you want.
-</para></listitem>
+<listitem><para>configure the package sources with <ulink
+url="http://plf.zarb.org/~nanardon/">Easy urpmi</ulink> (you need at least
+to add main, contrib and plf sources) ;</para></listitem>
+
+<listitem><para>get libdvdplay, libdvbpsi, vlc, vlc-plugin-mad,
+vlc-plugin-a52, vlc-plugin-ogg and wxvlc (or gnome-vlc) RPMs from the
+<ulink url="http://www.videolan.org/vlc/download-mandrake.html">VLC Mandrake
+download page</ulink> and all the other packages you want
+;</para></listitem>
 
 <listitem><para>install them with:</para>
 
 <screen>
-<prompt># </prompt><userinput>urpmi libdvdplay*rpm *vlc*rpm</userinput>
+<prompt># </prompt><userinput>urpmi libdvdcss2 libdvdplay*rpm *vlc*rpm</userinput>
 </screen>
 
 <para>(urpmi will complete all the dependencies)</para></listitem>

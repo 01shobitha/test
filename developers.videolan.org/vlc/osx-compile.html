@@ -8,15 +8,15 @@
 
 <p>Compiling VLC on Mac OS X is different from normal linux compiling and OS X compiling. We do not use Project Builder to compile, but a simple ./configure and then make isn't enough either. The instructions below are always for the current release.<p>
 
-<p>If you compile from CVS then please remember that CVS can often be in an unstable state. If you wish to develop or test please join the <a href="http://www.videolan.org/support/lists.html">vlc-devel mailinglist.</a>.<br />
-Don't put any of the non released test binaries or cvs-compiles on software sites or on userforums. We have had bad experiences with this before and we do not appreciate it.</p>
+<p>If you compile from Subversion then please remember that Subversion can often be in an unstable state. If you wish to develop or test please join the <a href="http://www.videolan.org/support/lists.html">vlc-devel mailinglist</a>.<br />
+Don't put any of the non released test binaries or svn-compiles on software sites or on userforums. We have had bad experiences with this before and we do not appreciate it.</p>
 
 <p>Please follow these steps for compiling:</p>
 <ul>
 <li>Install de Mac OSX developer tools from the Developer Tools CD, or get them <a href="http://developer.apple.com/tools/macosxtools.html">online</a>.</li>
 <li>Download the source code (use <a href="/svn.html">subversion</a>)</li>
 <li>cd to the source directory</li>
-<li>Read the file README located in vlc/extras/contrib and choose wether to compile contrib from source or binary.</li> 
+<li>Read the file README located in vlc/extras/contrib and choose whether to compile contrib from source or binary.</li> 
 <li>If you have fink, either disable it by commenting the line
 <code>#source /sw/bin/init.csh</code>
 or modify the /sw/bin/init.csh to add /sw/bin path AFTER $path</li>

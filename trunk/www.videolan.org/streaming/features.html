@@ -28,7 +28,7 @@
 
 <tr>
 
-<td class="category" rowspan="10"><b>Stream Output</b></td>
+<td class="category" rowspan="13"><b>Stream Output</b></td>
 <td class="type">File</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -41,7 +41,7 @@
 
 <tr>
 
-<td class="type">Unicast</td>
+<td class="type">Unicast UDP / RTP</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -53,7 +53,7 @@
 
 <tr>
 
-<td class="type">Multicast</td>
+<td class="type">Multicast UDP / RTP</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -89,7 +89,7 @@
 
 <tr>
 
-<td class="type">MPEG 1 / 2 / 4 video</td>
+<td class="type">MPEG-1 video</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -101,7 +101,43 @@
 
 <tr>
 
-<td class="type">MPEG audio</td>
+<td class="type">MPEG-2 video</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">MPEG-4 video</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">MPEG Layer 1, 2 and 3 audio</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">MPEG-4 audio</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -169,12 +205,22 @@
 
 <tr>
 
-<td class="category" rowspan="6"><b>Inputs</b></td>
-<td class="type">File</td>
-<td class="yes">MPEG 1 and 2</td>
-<td class="yes">MPEG 1 and 2</td>
+<td class="category" rowspan="7"><b>Inputs</b></td>
+<td class="type">MPEG-1 File</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
 
 </tr>
+
+<tr>
+
+<td class="type">MPEG-2 File</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+
 
 <tr>
 
@@ -186,24 +232,24 @@
 
 <tr>
 
-<td class="type">DVB-S</td>
-<td class="yes">Hauppauge Nova / Nexus</td>
+<td class="type">DVB-S (Hauppauge Nova / Nexus)</td>
+<td class="yes">Yes</td>
 <td class="no">No</td>
 
 </tr>
 
 <tr>
 
-<td class="type">DVB-T</td>
-<td class="yes">Hauppauge card</td>
+<td class="type">DVB-T (Hauppauge Nova-t)</td>
+<td class="yes">Yes</td>
 <td class="no">No</td>
 
 </tr>
 
 <tr>
 
-<td class="type">MPEG encoding card</td>
-<td class="yes">Kfir</td>
+<td class="type">MPEG encoding card (Kfir)</td>
+<td class="yes">Yes</td>
 <td class="no">No</td>
 
 </tr>
@@ -219,25 +265,25 @@
 <tr>
 
 <td class="category" rowspan="3"><b>Output</b></td>
-<td class="type">Unicast</td>
-<td class="yes">UDP / RTP</td>
-<td class="yes">UDP / RTP</td>
+<td class="type">Unicast UDP / RTP</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
 
 </tr>
 
 <tr>
 
-<td class="type">Multicast</td>
-<td class="yes">UDP / RTP</td>
-<td class="yes">UDP / RTP</td>
+<td class="type">Multicast UDP / RTP</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
 
 </tr>
 
 <tr>
 
-<td class="type">File</td>
-<td class="yes">MPEG TS</td>
-<td class="yes">MPEG TS</td>
+<td class="type">MPEG TS file</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
 
 </tr>
 
@@ -278,4 +324,4 @@
 
 </table>
 
-<? footer('$Id: features.html,v 1.13 2003/02/03 22:26:31 marcari Exp $'); ?>
+<? footer('$Id: features.html,v 1.14 2003/02/16 13:55:14 alexis Exp $'); ?>

@@ -1,7 +1,7 @@
 <chapter id="vlc-streamoutput"><title id="tvlc-streamoutput">Stream with VLC</title>
 
 
-<sect1><title>Unicast an MPEG 1, 2, or 4 file</title>
+<sect1><title>Unicast an MPEG-1, MPEG-2, or MPEG-4 file</title>
 
 <simplesect><title>Start VLC on the server</title>
 
@@ -11,12 +11,12 @@
 output</emphasis> in the menu, check <emphasis>UDP</emphasis> and type
 the IP address or the DNS name of the machine you want to stream to in the
 <emphasis>Address</emphasis> box and click on <emphasis>OK</emphasis>.
-Then click on <emphasis>File</emphasis> and select the MPEG 1, MPEG 2,
-MPEG 4 or DivX file you want to stream.</para>
+Then click on <emphasis>File</emphasis> and select the MPEG-1, MPEG-2,
+MPEG-4 or DivX file you want to stream.</para>
 
 <listitem><para>under Linux/Unix : start VLC, click on
 <emphasis>File</emphasis>, then click on the <emphasis>Browse</emphasis>
-button and select the MPEG 1, MPEG 2, MPEG 4 or DivX file you want to
+button and select the MPEG-1, MPEG-2, MPEG-4 or DivX file you want to
 stream. Then check <emphasis>Stream output</emphasis> and click on
 <emphasis>Settings</emphasis>. Check <emphasis>UDP</emphasis> and type
 the IP address or the DNS name of the machine you want to stream to in the

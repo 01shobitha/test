@@ -23,14 +23,15 @@ The VideoLAN solution includes :
 
 <itemizedlist>
 
-<listitem><para>the VideoLAN Server (VLS), which can stream MPEG 1 and 2
-files, DVDs, digital satellite channels, digital terrestial television
-channels and live videos on the network in unicast or multicast,</para>
+<listitem><para>the VideoLAN Server (VLS), which can stream MPEG-1 and
+MPEG-2 files, DVDs, digital satellite channels, digital terrestial
+television channels and live videos on the network in unicast or
+multicast,</para>
 
 <listitem><para>the VideoLAN Client (VLC), which can be used as a server
-to stream MPEG 1, 2 and 4 files and DVDs on the network in unicast or
-multicast ; or used as a client to receive, decode and display MPEG streams
-under multiple operating systems.</para>
+to stream MPEG-1, MPEG-2 and MPEG-4 files and DVDs on the network in
+unicast or multicast ; or used as a client to receive, decode and
+display MPEG streams under multiple operating systems.</para>
 
 </itemizedlist>
 
@@ -68,14 +69,14 @@ OS X, BeOS, *BSD, Solaris, Familiar Linux and QNX. It can read :
 
 <itemizedlist>
 
-<listitem><para>MPEG 1, MPEG 2 and MPEG 4 / DivX files from a hard disk
+<listitem><para>MPEG-1, MPEG-2 and MPEG-4 / DivX files from a hard disk
 or a CD-ROM drive,</para>
 
 <listitem><para>DVDs and VCDs,</para>
 
 <listitem><para>from a satellite card,</para>
 
-<listitem><para>MPEG 1, MPEG 2 and MPEG 4 streams from the
+<listitem><para>MPEG-1, MPEG-2 and MPEG-4 streams from the
 network sent by VLS or VLC's stream output.</para>
 
 </itemizedlist>
@@ -84,7 +85,7 @@ network sent by VLS or VLC's stream output.</para>
 
 <itemizedlist>
 
-<listitem><para>MPEG 1, MPEG 2 and MPEG 4 / DivX files,</para>
+<listitem><para>MPEG-1, MPEG-2 and MPEG-4 / DivX files,</para>
 
 <listitem><para>and DVDs,</para>
 
@@ -116,13 +117,14 @@ The VideoLAN Server (VLS) can stream :
 
 <itemizedlist>
 
-<listitem><para>an MPEG 1 or MPEG 2 file stored on a hard drive or on a
+<listitem><para>an MPEG-1 or MPEG-2 file stored on a hard drive or on a
 CD,</para>
 
 <listitem><para>a DVD located in a local DVD drive or copied on a hard
 disk,</para>
 
-<listitem><para>a satellite card or a digital terrestial television card,</para>
+<listitem><para>a satellite card or a digital terrestial television
+card,</para>
 
 <listitem><para>an MPEG encoding card ;</para>
 

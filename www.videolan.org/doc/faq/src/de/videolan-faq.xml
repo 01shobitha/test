@@ -454,8 +454,15 @@ Einige der Codecs, die mit VLC vertrieben werden, sind patentiert, weshalb Sie T
 
 <para>
 
-Bei vielen Produkten bezahlt der Produzent den Lizenzeigentümer (in diesem Fall <a 
-href="http://www.mpegla.com">MPEG LA</a>), sodass sich der Benutzer (kommerziell oder persönlich) sich nicht darum kümmern muss. VLC (und ffmpeg und libmpeg2, welche in den meisten Fällen benutzt werden) kann dies nicht, da es eine freie und quelloffene Implementation dieser Codecs ist. Die Software wird nicht verkauft, weshalb der Endnutzer dafür verantwortlich ist den Lizenz- und Tantiemenbedingungen zu entsprechen. Sie müssen den Lizenzeigentümer kontaktieren, um zu erfahren, wie sie diese Lizenzen erfüllen können.
+Bei vielen Produkten bezahlt der Produzent den Lizenzeigentümer (in diesem
+Fall <ulink url="http://www.mpegla.com">MPEG LA</ulink>), sodass sich der
+Benutzer (kommerziell oder persönlich) sich nicht darum kümmern muss. VLC (und
+ffmpeg und libmpeg2, welche in den meisten Fällen benutzt werden) kann dies
+nicht, da es eine freie und quelloffene Implementation dieser Codecs ist.
+Die Software wird nicht verkauft, weshalb der Endnutzer dafür verantwortlich
+ist den Lizenz- und Tantiemenbedingungen zu entsprechen. Sie müssen den
+Lizenzeigentümer kontaktieren, um zu erfahren, wie sie diese Lizenzen erfüllen
+können.
 
 </para>
 

@@ -6,7 +6,7 @@
 
 <h1>Compiling VLC on *nix systems</h1>
 
-<p>Compiling VLC from scratch on the various linux and *nix platforms can be a tedious job. This is because unlink similar programs like Xine and MPlayer, VLC doesn't import the sources of other projects into it's own tree, but rather makes use of dynamic or static linking to the external libraries.<p>
+<p>Compiling VLC from scratch on the various linux and *nix platforms can be a tedious job. This is because unlike similar programs like Xine and MPlayer, VLC doesn't import the sources of other projects into it's own tree, but rather makes use of dynamic or static linking to the external libraries.<p>
 
 <p>If you are developing then we advise you to compile from Subversion. Of course if you are just a user that wants to compile from source then you can also use the .tar.gz releases. Remember that Subversion will often be in an unstable state. If you wish to develop or test please join the <a href="http://www.videolan.org/support/lists.html">vlc-devel mailinglist</a>.</p>
 
@@ -14,7 +14,7 @@
 <ul>
 <li>VLC uses gcc, automake, autoconf and friends for compilation. Make sure they are up to date.</li>
 <li>Download the source code (use <a href="/svn.html">subversion</a>)</li>
-<li>If you downloaded from subversion you will need to first run the <code>./bootstrap</code> script from the top level of the source directory. This will do some checks, run autoconf and automake, create the <code>./configure</code> script etc etc.</li>
+<li>If you downloaded from subversion you will need to first run the <code>./bootstrap</code> script from the top level of the source directory. This will do some checks, run autoconf and automake, create the <code>./configure</code> script etc etc. You do not have to run this if you are compiling from a .tar.gz source tarball.</li>
 <li>Now you can start to configure VLC. Remember to first take a look at <code>./configure --help</code>. Take a good look at that enormous list of options. It is very important that you install and enable all the <a href="index.html#3rdparty">3rd party libraries</a> that you will be needing and let me tell you that that are a lot. If you don't install them you will end up with an application that well..... essentially doesn't do a thing.</li>
 <li>There are some very important dependancies. gettext (nls) for international support (required), libdvbpsi for mpeg files and streams support, libmad for mp3 decoding, libmpeg2 for mpeg 1 and 2 video support, ffmpeg for support of mpeg4 and many other types of video, liba52 for dolby (AC3) sound, alsa for proper audio output, xvideo for proper video output, wxWidgets (wxGTK) for proper GUI support and libdvd* for DVD support.</li>
 <li>Some of the libraries are better not to be installed (at all, beware of old installations) and should be linked to directly. These are mostly ffmpeg and liveMedia. Use <code>--with-ffmpeg-tree=path/to/ffmpeg/source/tree</code> and <code>--with-livedotcom-path=path/to/livemedia/source/tree</code> icw. <code>--enable-ffmpeg</code> and <code>--enable-livedotcom</code></li>
@@ -24,7 +24,7 @@
 --enable-xvideo --disable-gtk --enable-sdl --enable-ffmpeg --with-ffmpeg-mp3lame
  --enable-mad --enable-libdvbpsi --enable-a52 --enable-dts --enable-libmpeg2 --enable-dvdnav --enable-faad --enable-vorbis --enable-ogg --enable-theora --enable-faac --enable-mkv --enable-freetype --enable-fribidi --enable-speex --enable-flac --enable-livedotcom --with-livedotcom-tree=/usr/lib/live --enable-caca --enable-skins --enable-skins2 --enable-alsa --disable-kde --disable-qt --enable-wxwindows --enable-ncurses --enable-release</code></li>
 <li>After you have properly configured VLC, it's finally time to start building it. Type <code>make</code> and get yourself a nice cup of coffee. Relax a bit. (My Mac G4-400 takes about 1 hour now to finish).</li>
-<li>Hopefully you will now have a working copy of VLC with all the functionatily you need. Most likely you won't however. Usually this is caused by incorrect configuring, 3rd party libraries that are outdated or to new to work with the VLC version you are building or a bug in the current developement tree. Don't dispair. VLC is a complicated program and not for the whiners among us. Don't give up. Try the <a href="http://forum.videolan.org">forums</a> or the <a href="/lists.html">mailinglist</a>.</li>
+<li>Hopefully you will now have a working copy of VLC with all the functionatily you need. Most likely you won't however. Usually this is caused by incorrect configuring, 3rd party libraries that are outdated or too new to work with the VLC version you are building or a bug in the current developement tree. Don't dispair. VLC is a complicated program and not for the whiners among us. Don't give up. Try the <a href="http://forum.videolan.org">forums</a> or the <a href="/lists.html">mailinglist</a>.</li>
 </ul>
 
 <p>

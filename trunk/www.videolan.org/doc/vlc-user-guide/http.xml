@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<chapter id="http"><title id="thttp">
+<span xml:lang="en">The HTTP interface</span>
+<span xml:lang="fr">L'interface de contrôle HTTP</span>
+</title>
+
+<sect1><title>Introduction</title>
+
+<para><emphasis>This page is incomplete</emphasis></para>
+
+<sect2><title>
+<span xml:lang="en">Presentation</span>
+<span xml:lang="fr">Présentation</span>
+</title>
+
+<para>
+<span xml:lang="en">VLC ships with a little HTTP server integrated.
+It is used both to stream using HTTP, and for the HTTP remote control
+interface</span>
+<span xml:lang="fr">VLC inclut un petit serveur HTTP, qui lui permet 
+de diffuser en HTTP, mais également de proposer une interface de contrôle
+à distance utilisant HTTP</span>
+.</para>
+
+<para>
+<span xml:lang="en">To start VLC with the HTTP interface, use :</span>
+<span xml:lang="fr">Pour démarrer VLC avec l'interface HTTP, faites :</span>
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -I http (--http-src /directory/ --http-host host:port)</userinput>
+</screen>
+
+<para>
+<span xml:lang="en">The HTTP interface will start listening at host:port
+(localhost:8080 if omitted), and will reproduce the structure of
+/directory at http://host:port/ ( vlc_source_path/share/http if omitted
+)</span>
+<span xml:lang="fr">L'interface HTTP se mettra en écoute sur host:port
+(localhost:8080 par défaut), et reproduira la structure de /directory
+sur http://host:port/ ( rép_source_vlc/share/http par défaut)</span>
+</para>
+
+<para>
+<span xml:lang="en">VLC is shipped with a set of files that should be
+enough for generic needs. The rest of this chapter will cover the ways
+to customize these pages</span>
+<span xml:lang="fr">VLC est fourni avec un certain nombre de fichiers
+qui devraient suffire pour des besoins génériques. La suite de ce
+chapitre explique comment personnaliser ces pages</span>
+.</para>
+
+<para>
+<span xml:lang="en">Some files are handled a bit specially:</span>
+<span xml:lang="fr">Certains fichiers sont traités spécialement :</span>
+</para>
+
+<itemizedlist>
+
+<listitem><para>
+<span xml:lang="en">Files beginning with '.' are not exported</span>
+<span xml:lang="fr">Les fichiers commençant par '.' ne sont pas exportés</span>
+.</para></listitem>
+
+
+<listitem><para>
+<span xml:lang="en">A '.access' file will be opened and the http
+interface will expect to find at the first line a login/password
+(written as login:password). This login/password will be used to
+protect all files in this directory. Be careful that only files in this
+directory will be protected. (sub-directories won't be protected.</span>
+<span xml:lang="fr">Le fichier '.access' sera ouvert. L'interface HTTP
+va chercher dans la première ligne un login/mot de passe (écrit sous la
+forme login:mot_de_passe). Ce couple sera utilisé pour protéger tous les
+fichiers de ce répertoire. Attention: seuls les fichiers du répertoire
+seront protégés (les fichiers des sous-répertoires ne le seront pas.)</span>
+.</para></listitem>
+
+
+<listitem><para>
+<span xml:lang="en">File &lt;dir&gt;/index.html will be exported ad
+&lt;dir&gt; and &lt;dir&gt;/ and not as index.html</span>
+<span xml:lang="fr">Le fichier &lt;rép&gt; sera exporté en tant que
+&lt;rep&gt; et &lt;rep&gt;/ mais pas en tant que index.html</span>
+.</para></listitem>
+
+</itemizedlist>
+
+<para>
+<span xml:lang="en">The MIME type is set by looking at the file
+extension and cannot be specified nor modified for a specifi file.
+Unknown extensions will have "application/octet-stream" as MIME
+type</span>
+<span xml:lang="fr">Le type MIME est choisi selon l'extension du fichier
+et ne peut pas être forcé ou modifié pour un fichier particulier.
+Les fichiers d'extension inconnue seront servis avec le type MIME
+"application/octet-stream"</span>
+</para>
+
+<para>
+<span xml:lang="en">You should avoid exporting big files. Each file is
+indeed first loaded into the memory before being sent to the client, so
+please be careful</span>
+<span xml:lang="fr">Essayez d'éviter l'export de gros fichiers. En
+effet, chaque page est tout d'abord chargée en mémoire avant l'envoi,
+donc soyez prudents...</span>
+</para>
+
+</sect2>
+
+
+<sect2><title>
+<span xml:lang="en">VLC macros</span>
+<span xml:lang="fr">Macros VLC</span>
+</title>
+
+
+<para> <span xml:lang="en">Each type a .html/.htm page is requested,
+it is parsed by vlc before being sent. The parser searchs for the vlc
+macros, and executes or substitutes them. Moreover, URL arguments
+received by the GET method can be interpreted</span>
+
+<span xml:lang="fr">Tous les fichiers .html/.htm sont lus par vlc avant
+d'être envoyés. Les macros vlc sont alors exécutées ou substituées.
+De plus, les arguments de l'URL, obtenus par un GET, peuvent être
+interprétés</span> .</para>
+
+<para>
+<span xml:lang="en">A VLC macro looks like :
+<emphasis>&lt;vlc id="macro-name" param1="macro-parameters1"
+param2="macro-parameters2" /&gt;</emphasis>.</span>
+<span xml:lang="fr">Une macro VLC est de la forme :
+<emphasis>&lt;vlc id="nom" param1="parametre1" param2="parametre2" /&gt;
+</emphasis>.</span>
+</para>
+
+
+<para>
+<span xml:lang="en"> "id" is the only mandatory field, param1 and param2
+may or may not be present and depend on the value of "id".</span>
+<span xml:lang="fr"> Seul le champ "id" est obligatoire, param1 et
+param2 peuvent ne pas être présent selon la valeur de "id".</span>
+</para>
+
+<para>
+<span xml:lang="en"> You should take care that you _have to_ respect
+this syntax, VLC won't like invalid syntax. (It could easily leads to
+crashs)</span>
+<span xml:lang="fr"> Veuillez faire attention de bien respecter cette
+syntaxe, car VLC n'aime pas les syntaxes invalides. (Il pourrait crasher
+facilement)</span>
+.</para>
+
+<para>
+<span xml:lang="en">Examples:</span>
+<span xml:lang="fr">Exemples :</span>
+</para>
+
+
+<para>
+<span xml:lang="en">Correct: <emphasis>&lt;vlc id="value"
+param1="version" /&gt; </emphasis></span>
+<span xml:lang="fr">Correct :<emphasis>&lt;vlc id="value"
+param1="version" /&gt; </emphasis>
+</span>
+</para>
+
+<para>
+<span xml:lang="en">Incorrect: <emphasis>&lt;vlc id="value"
+param1="version" &gt; </emphasis> (missing tag ending),
+<emphasis>&lt;vlc id=value param1="version" /&gt;</emphasis> (missing "" )
+</span>
+<span xml:lang="fr">Incorrect :<emphasis>&lt;vlc id="value"
+param1="version" &gt; </emphasis>(mauvaise fin de tag),
+<emphasis>&lt;vlc id=value param1="version" /&gt;</emphasis> ("" manquants)
+</span>
+</para>
+
+<para>
+<span xml:lang="en">Valid macros are:</span>
+<span xml:lang="fr">Les macros valides sont :</span>
+</para>
+
+<itemizedlist>
+
+<listitem><para>
+<span xml:lang="en"><emphasis>control</emphasis> (1 optional parameter)</span>
+<span xml:lang="fr"><emphasis>control</emphasis> (1 paramètre facultatif)</span>
+</para>
+</listitem>
+
+<listitem><para>
+<span xml:lang="en"><emphasis>get</emphasis> (2 parameters)</span>
+<span xml:lang="fr"><emphasis>get</emphasis> (2 paramètres)</span>
+</para>
+</listitem>
+
+<listitem><para>
+<span xml:lang="en"><emphasis>set</emphasis> (2 parameters)</span>
+<span xml:lang="fr"><emphasis>set</emphasis> (2 paramètres)</span>
+</para>
+</listitem>
+
+<listitem><para>
+<span xml:lang="en"><emphasis>rpn</emphasis> (1 parameter)</span>
+<span xml:lang="fr"><emphasis>rpn</emphasis> (1 paramètre)</span>
+</para>
+</listitem>
+
+<listitem><para>
+<span xml:lang="en"><emphasis>if</emphasis> (1 optional parameter)</span>
+<span xml:lang="fr"><emphasis>if</emphasis> (1 paramètre facultatif)</span>
+</para>
+</listitem>
+
+<listitem><para>
+<span xml:lang="en"><emphasis>else</emphasis> (no parameter)</span>
+<span xml:lang="fr"><emphasis>else</emphasis> (pas de paramètre)</span>
+</para>
+</listitem>
+
+<listitem><para>
+<span xml:lang="en"><emphasis>end</emphasis> (no parameter)</span>
+<span xml:lang="fr"><emphasis>end</emphasis> (pas de paramètre)</span>
+</para>
+</listitem>
+
+
+<listitem><para>
+<span xml:lang="en"><emphasis>value</emphasis> (1 optional parameter)</span>
+<span xml:lang="fr"><emphasis>value</emphasis> (1 paramètre facultatif)</span>
+</para>
+</listitem>
+
+<listitem><para>
+<span xml:lang="en"><emphasis>foreach</emphasis> (2 parameters)</span>
+<span xml:lang="fr"><emphasis>foreach</emphasis> (2 paramètres)</span>
+</para>
+</listitem>
+
+</itemizedlist>
+
+<para>
+<span xml:lang="en">For powerful macros, you may use these tools</span>
+<span xml:lang="fr">Pour des utilisations avancées, ces outils sont à votre disposition:</span>
+</para>
+
+<itemizedlist>
+
+<listitem><para>
+<span xml:lang="en">RPN Evaluator (see part 2)</span>
+<span xml:lang="fr">Evaluateur RPN (voir la partie 2)</span>
+</para></listitem>
+
+<listitem><para>
+<span xml:lang="en">Stacks: The stack is a place where you can push
+numbers and strings, and then pop them backs. It's used with the little
+RPN evaluator.</span>
+<span xml:lang="fr">Piles: La pile est un endroit dans lequel vous
+pouvez mettre des nombres et des chaînes de caractère et les récupérer.
+Elle est utilisée en conjonction de l'évaluateur RPN.</span>
+</para></listitem>
+
+
+<listitem><para>
+<span xml:lang="en">Local variables: You can dynamically create
+new variables and changes their values. Some local variables are
+predefined:</span>
+<span xml:lang="fr">Variables locales: Vous pouvez créer dynamiquement
+de nouvelles variables et modifier leurs valeurs. Un certain nombre de
+variables locales sont prédéfinies&nbsp;:</span>
+
+<itemizedlist>
+
+<listitem><para>
+<emphasis>url_value</emphasis>
+<span xml:lang="en">: parameter of the URL</span>
+<span xml:lang="fr">&nbsp;: paramètre de l'URL</span>
+</para></listitem>
+
+<listitem><para>
+<emphasis>url_param</emphasis>
+<span xml:lang="en">: 1 if url_value isn't empty else 0</span>
+<span xml:lang="fr">&nbsp;: 1 si url_value n'est pas vide, 0 sinon</span>
+</para></listitem>
+
+<listitem><para>
+<emphasis>version</emphasis>
+<span xml:lang="en">: the VLC version</span>
+<span xml:lang="fr">&nbsp;: la version de VLC</span>
+</para></listitem>
+
+<listitem><para>
+<emphasis>copyright</emphasis>
+<span xml:lang="en">: the VLC copyright</span>
+<span xml:lang="fr">&nbsp;: Copyright de VLC</span>
+</para></listitem>
+
+</itemizedlist>
+
+</para></listitem>
+
+</itemizedlist>
+
+<para>
+<span xml:lang="en">Remark : The stacks, and local variables context is
+resetted before the page is executed</span>
+<span xml:lang="fr">Remarque: les piles et les variables locales sont
+remises à zéro avant l'exécution de la page</span>
+.</para>
+
+</sect2>
+
+</sect1>
+
+<sect1><title>
+<span xml:lang="en">The RPN evaluator</span>
+<span xml:lang="fr">L'évaluateur RPN</span>
+</title>
+
+<para>
+<span xml:lang="en">RPN means Reverse Polish Notation</span>
+<span xml:lang="fr">RPN signifie Notation Polonaise Inversée (Reverse
+Polish Notation)</span>
+</para>
+
+<sect2><title>
+<span xml:lang="en">Introduction</span>
+<span xml:lang="fr">Introduction</span>
+</title>
+
+<para>
+<span xml:lang="en"> RPN could look strange but it's a fast and easy way
+to write expressions. It also avoids the use of ( and ).</span>
+<span xml:lang="fr"> RPN peut sembler assez étrange au premier abord,
+mais c'est en fait un moyen simple et rapide d'écrire des expressions.
+Il permet également d'éviter l'utilisation des parenthèses.</span>
+</para>
+
+<para>
+<span xml:lang="en">Instead of writing ( 1 + 2 ) * 5 you just use 1 2 +
+5 *.</span>
+<span xml:lang="fr">Au lieu d'écrire ( 1 + 2 ) * 5, vous devrez écrire 1
+2 + 5 *.</span>
+</para>
+
+<para>
+<span xml:lang="en">The idea beyond it is : if we have a number or a
+string (using ''), push it on the stack. If it is an operator (like +),
+pop the arguments from the stack, execute the operators and then push
+the result onto the stack. The result of the RPN sequence is the value
+on the top of the stack</span>
+<span xml:lang="fr">L'idée derrière cela est : si on a un nombre ou une
+chaine de caractères, on l'empile. Si on a un opérateur (tel que +), on
+prend les arguments sur la pile, on exécute l'opérateur, et on remet le
+résultat sur la pile. Le résultat du calcul RPN est la valeur sur le sommet
+de la pile</span>
+.</para>
+
+<para>
+<programlisting>
+ stack:      Word processed
+ empty      1                   1 is pushed on the stack
+ 1          2                   2 same things
+ 1 | 2      +                   + : remove 1 and 2 and write 3 on the stack
+ 3          5                   5 is pushed on the stack
+ 3 | 5      *                   * : remove 3 and 5 and write 15
+ 15                             &lt;- result
+</programlisting>
+</para>
+
+</sect2>
+
+<sect2><title>
+<span xml:lang="en">Operators</span>
+<span xml:lang="fr">Les opérateurs</span>
+</title>
+
+<para> <span xml:lang="en">Notation : ST(1) means the first stack
+element, ST(2) the second one ... and op the operator. </span>
+<span xml:lang="fr">Notation : ST(1) signifie le premier élément de la
+pile, ST(2) le second, ... et op l'opérateur. </span>
+</para>
+
+<para>
+<span xml:lang="en">You have access to :</span>
+<span xml:lang="fr">Vous avez accès à :</span>
+</para>
+
+<itemizedlist>
+
+<listitem><para>
+<span xml:lang="en">Standard arithmetics operators: +, -, *, /, % :
+these ones push the result of ST(1) op ST(2)</span>
+<span xml:lang="fr">Les opérateurs arithmétiques standards: +, -, *, /,
+% : ils mettent le résultat de ST(1) op ST(2) sur la pile</span>
+</para></listitem>
+
+<listitem><para>
+<span xml:lang="en">Binary operators: ! (push !ST(1)); ^, &amp;, | : push
+the result ST(1) op ST(2)</span>
+<span xml:lang="fr">Opérateur binaires: ! (place !ST(1)); ^, &amp;, | :
+place le résultat de ST(1) op ST(2)</span>
+</para></listitem>
+
+<listitem><para>
+<span xml:lang="en">test: =, &lt;, &lt;=, &gt;, &gt;= : execute ST(1) op
+ST(2) and push -1 if true else 0</span>
+<span xml:lang="fr">tests: =, &lt;, &lt;=, &gt;, &gt;= : exécute ST(1) op
+ST(2), place -1 si vrai, 0 sinon</span>
+</para>
+</listitem>
+
+<listitem><para>
+<span xml:lang="en">string: strcat pushes the result of 'ST(1)ST(2)',
+strcmp compares ST(1) and ST(2), pushes -1 if ST(1)&lt;ST(2), 0 if
+equal, 1 else, strlen pushes the length of ST(1)</span>
+<span xml:lang="fr">chaines de caractères: strcat place le résultat de
+'ST(1)ST(2)', strcmp compare ST(1) et ST(2), place -1 si ST(1)&lt;ST(2),
+0 en cas d'égalité et 1 sinon, strlen place la taille de ST(1)</span>
+</para>
+</listitem>
+
+<listitem><para>
+<span xml:lang="en">stack manipulation: dup duplicates ST(1), drop
+removes ST(1), swap exchanges ST(1) and ST(2), and flush empties the
+stack.</span>
+<span xml:lang="fr">manipulation de la pile: dup duplique ST(1), drop
+enlève ST(1) de la pile, swap échange ST(1) et ST(2), et flush vide la
+pile.</span>
+</para>
+</listitem>
+
+<listitem><para>
+<span xml:lang="en">variables manipulation: store stores ST(2) in a
+local variable named ST(1), value pushes the value of the local variable
+named ST(1), url_extract pushes the value of the ST(1) part of the url
+parameters.</span>
+<span xml:lang="fr">manipulation de variables: store stocke ST(2) dans
+une variable locale dont le nom est la valeur de ST(1), values place la
+valeur de la variable dont le nom est ST(1), et url_extract place la
+valeur de la partie contenue de ST(1) des paramètres d'URL</span>
+</para></listitem>
+
+</itemizedlist>
+
+</sect2>
+
+</sect1>
+
+
+<sect1><title>
+<span xml:lang="en">The macros</span>
+<span xml:lang="fr">Les macros</span>
+</title>
+
+<sect2><title>
+<span xml:lang="en">The <emphasis>control</emphasis> macro</span>
+<span xml:lang="fr">La macro <emphasis>control</emphasis></span>
+</title>
+
+<para>
+<span xml:lang="en">When asking for a page, you can pass
+arguments to it through the url. (eg using a &lt;form&gt;). Ex:
+http://host:port/page.html?var=value&amp;var2=value2&amp;... The "control" macro
+tells a page to parse these arguments and to execute the ones that are
+allowed. param1 of this macro says which commands are allowed. If empty,
+all commands will be permitted.</span>
+<span xml:lang="fr">Lors de la requête d'une page,
+vous pouvez lui passer des arguments à travers l'URL.
+(par exemple, en utilisant un &lt;form&gt;). Exemple:
+http://host:port/page.html?var=value&amp;var2=value2&amp;... La macro "control"
+dit à la page de lire ces arguments, et d'exécuter les commandes
+autorisées qu'ils contiennent. Le param1 contient la liste des commandes
+autorisées. S'il est vide, toutes les commandes sont autorisées.</span>
+</para>
+<para>
+<span xml:lang="en">Some commands require an argument that must be
+passed in the URL too</span>
+<span xml:lang="fr">Certaines commandes requièrent des arguments qui
+doivent être passés dans l'URL</span>
+.</para>
+
+
+<table frame="all">
+<title><span xml:lang="en">URL commands</span>
+<span xml:lang="fr">Commandes d'URL</span></title>
+
+<tgroup cols="3">
+<thead>
+<row>
+ <entry>Name</entry><entry>Argument</entry><entry>Description</entry>
+</row>
+</thead>
+<tbody>
+<row>
+ <entry>play</entry><entry>item (integer)</entry>
+ <entry>Play the specified playlist item</entry>
+</row>
+<row>
+ <entry>stop</entry><entry></entry>
+ <entry>Stop</entry>
+</row>
+<row>
+ <entry>pause</entry><entry></entry>
+ <entry>Pause</entry>
+</row>
+<row>
+ <entry>next</entry><entry></entry>
+ <entry>Go to next playlist item</entry>
+</row>
+<row>
+ <entry>previous</entry><entry></entry>
+ <entry>Go to previous playlist item</entry>
+</row>
+<row>
+ <entry>add</entry><entry>mrl (string)</entry>
+ <entry>Add a MRL (Media Resource Locator) to the playlist</entry>
+</row>
+<row>
+ <entry>del</entry><entry>item (integer)</entry>
+ <entry>Delete the specified playlist item</entry>
+</row>
+<row>
+ <entry>empty</entry><entry></entry>
+ <entry>Empty the playlist</entry>
+</row>
+<row>
+ <entry>close</entry><entry>id (hexa)</entry>
+ <entry>Close a specific connection</entry>
+</row>
+<row>
+ <entry>shutdown</entry><entry></entry>
+ <entry>Quit VLC</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<para>
+<span xml:lang="en">For example, you can restrict execution of the
+<command>shutdown</command> command to protected page (through a
+<emphasis>.access</emphasis> file), using the control macro in all
+unprotected pages.</span>
+<span xml:lang="fr">Vous pouvez par exemple restreindre l'exécution de
+la commande <command>shutdown</command> à une page protégée (par un
+fichier <emphasis>.access</emphasis>) en utilisant la macro control dans
+toutes les pages non protégées</span>
+</para>
+
+
+</sect2>
+
+
+<sect2><title>
+<span xml:lang="en">The <emphasis>get</emphasis> macro</span>
+<span xml:lang="fr">La macro <emphasis>get</emphasis></span>
+</title>
+
+<para>
+<span xml:lang="en">This macro will be replaced by the value of the
+configuration variable which name is stored in param1 and which type is
+given by param2.</span>
+<span xml:lang="fr">Cette macro sera remplacÃe par la variable de
+configuration dont le nom est donnÃ©en param1 et dont le type es
+donnÃ en param2.</span>
+</para>
+
+<para>
+<span xml:lang="en">param1 must be the name of an existing configuration
+variable. param2 must be the right type of the variable. It can be
+one of <emphasis>int</emphasis>, <emphasis>float</emphasis>, or
+<emphasis>string</emphasis>.</span>
+<span xml:lang="fr">param1 doit Ãtre le nom d'une variable de
+configuration existente, et param2 doit Ãtre son type, qui peut
+Ãtre <emphasis>int</emphasis>, <emphasis>float</emphasis>, ou
+<emphasis>string</emphasis>.</span>
+</para>
+
+<para>
+<span xml:lang="en">Example: &lt;vlc id="get" param1="sout"
+param2="string" /&gt; will be replaced in the output page by the value
+of sout.</span>
+<span xml:lang="fr">Exemple: lt;vlc id="get" param1="sout"
+param2="string" /&gt; sera remplacée dans la page de sortie par la
+valeur de sout. </span>
+</para>
+
+</sect2>
+
+
+<sect2><title>
+<span xml:lang="en">The <emphasis>set</emphasis> macro</span>
+<span xml:lang="fr">La macro <emphasis>set</emphasis></span>
+</title>
+
+<para>
+<span xml:lang="en">This macro allows to set the value of a
+configuration variable. The name is given by param1 and the type by
+param2 (like for get). The value is retrieved from the url using the
+name given in param1.</span>
+<span xml:lang="fr">Cette macro permet de rÃgler la valeur d'une
+variable de configuration. Le nom est donnÃ©par param1 et le type par
+param2, comme pour get. La valeur est recopiÃe depuis l'URL en utilisant
+le nom donnÃ©en param1.</span>
+</para>
+
+<para>
+<span xml:lang="en">For example, if player.html contains &lt;vlc
+id="set" param1="sout" param2="string" /&gt;, and if you browse at
+<emphasis> http://host:ip/player.html?sout=sout_value</emphasis>, the
+sout variable will be set to "sout_value". If the URL doesn't contain
+sout, nothing will be done.</span>
+<span xml:lang="fr">Par exemple, si player.html contient
+&lt;vlc id="set" param1="sout" param2="string" /&gt; et
+si vous allez à l'adresse <emphasis> http://host:ip/pl
+ayer.html?sout=sout_value</emphasis>, la variable sout prendra
+comme valeur sout_value. Si l'URL ne contient pas sout, rien ne se
+passera.</span>
+</para>
+
+</sect2>
+
+
+<sect2><title>
+<span xml:lang="en">The <emphasis>rpn</emphasis> macro</span>
+<span xml:lang="fr">La macro <emphasis>rpn</emphasis></span>
+</title>
+<para>
+<span xml:lang="en">This macro allows you to interpret RPN commands.
+(See II).</span>
+<span xml:lang="fr">Cette macro vous permet d'interpréter des commandes
+RPN (voir II).</span>
+</para>
+</sect2>
+
+<sect2><title>
+<span xml:lang="en">The <emphasis>if,else,end</emphasis> macro</span>
+<span xml:lang="fr">La macro <emphasis>if,else,end</emphasis></span>
+</title>
+
+<para>
+<span xml:lang="en">This macro allows you to control the parsing of the
+HTML page.</span>
+<span xml:lang="fr">Cette macro vous permet de controler la lecture de
+la page HTML.</span>
+</para>
+
+<para>
+<span xml:lang="en">If param1 isn't empty, it is first executed with the
+RPN evaluator. If the first element from the stack is not 0, the test
+value is true, else false.</span>
+<span xml:lang="fr">Si param1 n'est pas vide, il est exécuté par
+l'évaluateur RPN. Si le premier élément de la pile n'est pas nul, la
+valeur du test est vraie, sinon, elle est fausse</span>
+.</para>
+
+<para>
+<span xml:lang="en">
+<programlisting> &lt;vlc id="if" param1="1 2 =" /&gt;
+    &lt;!-- Never reached --&gt;
+ &lt;vlc id="else" /&gt;
+    &lt;p&gt; Test succeed: 1 isn't equal to 2 &lt;/p&gt;
+ &lt;vlc id="end" /&gt;
+</programlisting>
+</span>
+<span xml:lang="fr">
+<programlisting> &lt;vlc id="if" param1="1 2 =" /&gt;
+    &lt;!-- Jamais atteint --&gt;
+ &lt;vlc id="else" /&gt;
+    &lt;p&gt; Le test à réussi: 1 n'est pas égal à 2 &lt;/p&gt;
+ &lt;vlc id="end" /&gt;
+</programlisting>
+</span>
+</para>
+
+<para>
+<span xml:lang="en">You can also just use "if" and "end".</span>
+<span xml:lang="fr">Vous pouvez aussi utiliser "if" et "end" seulement.
+</span>
+</para>
+
+</sect2>
+
+<sect2><title>
+<span xml:lang="en">The <emphasis>value</emphasis> macro</span>
+<span xml:lang="fr">La macro <emphasis>value</emphasis></span>
+</title>
+
+<para>
+<span xml:lang="en">If param1 isn't empty, it is first executed with the
+RPN evaluator. The macro is replaced with the value of the first element
+of the stack.</span>
+<span xml:lang="fr">Si param1 n'est pas vide, il est exécuté par
+l'évaluateur RPN. La macro est ensuite remplacée par la valeur du
+premier élément de la pile</span>
+</para>
+
+<para>
+<span xml:lang="en">Note: If the element is the name of a local
+variable, its value will be displayed instead of its name.</span>
+<span xml:lang="fr">Si l'élément est le nom d'une variable locale, la
+valeur sera affichée et non le nom</span>
+</para>
+
+</sect2>
+
+<sect2><title>
+<span xml:lang="en">The <emphasis>foreach,end</emphasis> macro</span>
+<span xml:lang="fr">La macro <emphasis>foreach,end</emphasis></span>
+</title>
+
+<para>
+
+<span xml:lang="en">param1 is the name of the variable that will be used for the loop. param2 is the name of the set to be built:</span>
+
+<span xml:lang="fr">param1 est le nom de la variable utilisée pour la boucle, param2 est le nom de la plage de valeurs à utiliser :</span>
+
+</para>
+
+
+<itemizedlist>
+
+<listitem><para>
+<span xml:lang="en"><emphasis>integer</emphasis>: take
+the first element from the stack to construct a set of
+integer. The stack element should be a string like:
+<emphasis>first:last[:step][,first2:last2[:step2][,...]</emphasis> (Ex:
+1:5:2,6:8:1 will be expanded into 1,3,5,6,7,8)</span>
+<span xml:lang="fr"><emphasis>integer</emphasis> : prend
+le premier élément de la pile pour construire une plage
+d'entiers. L'élément doit etre une chaine de caractères du type:
+<emphasis>premier:dernier[:pas][,premier2:dernier2[:pas2]][,...]</emphasis> (Exemple: 1:5:2 ,6:8:1 deviendra 1,3,5,6,7,8)</span>
+</para></listitem>
+
+<listitem><para>
+<span xml:lang="en"><emphasis>directory</emphasis>: take the first
+element of the stack as the base directory and construct a set
+of filename and directly in it. Each element has the following
+fields:</span>
+<span xml:lang="fr"><emphasis>directory</emphasis> : prend le premier
+élément de la pile comme répertoire et construit un ensemble de noms de
+fichiers contenus dans ce répertoire. Chaque élément comporte les champs
+suivants:</span>
+</para>
+
+<itemizedlist>
+
+<listitem><para>
+<span xml:lang="en">name : file/directory name</span>
+<span xml:lang="fr">name : nom du fichier/répertoire</span>
+</para></listitem>
+
+<listitem><para>
+<span xml:lang="en">type : "directory" or "file" or "unknown"</span>
+<span xml:lang="fr">type : "directory" ou "file" ou "unknown"</span>
+</para></listitem>
+
+<listitem><para>
+<span xml:lang="en">size : size of the file</span>
+<span xml:lang="fr">size : taille du fichier</span>
+</para></listitem>
+
+<listitem><para>
+<span xml:lang="en">date</span>
+<span xml:lang="fr">date</span>
+</para></listitem>
+
+</itemizedlist>
+
+</listitem>
+
+<listitem><para>
+<span xml:lang="en">playlist: set based on the playlist with fields:
+current is 1 if item is currently selected, 0 else. index is the index
+value, that can be used by the play or del control command. name is the
+name of the item</span>
+<span xml:lang="fr">Construit un ensemble basé sur la liste de lecture.
+Les champs sont: current qui vaut 1 si l'élément est sélectionné, 0
+sinon. index est la valeur de l'index à utiliser dans les commandes del
+ou play. name est le nom de l'élément</span>
+.</para></listitem>
+
+<listitem><para>
+<span xml:lang="en">"informations" : Create informations for the current
+playing stream. name is the name of the category, value is its value,
+info is a new st that can be parsed with a new foreach (subfields of
+info are name and value)</span>
+<span xml:lang="fr">"informations" : crée des informations sur la
+lecture en cours. name est le nom de la catégorie, value est sa valeur,
+info est un nouvel ensemble sur lequel vous pouvez à nouveau appliquer
+foreach, et qui contient deux champs name et value)</span>
+.</para></listitem>
+
+<listitem><para>
+<span xml:lang="en">"hosts" : Create the list of host we are listening.
+Contains the "id" (opaque id), host, ip and port fields.</span>
+<span xml:lang="fr">"hosts" : Crée une liste des hotes en écoute.
+Contient les champs "id" (identifiant interne), host, ip et port.</span>
+</para></listitem>
+
+<listitem><para>
+<span xml:lang="en">"urls" : Create the list of urls currently
+available. Fields are id, stream (1 if we have a stream, 0 else), url,
+mime, protected (1 if protected, 0 else), used (is it currently used
+?)</span>
+<span xml:lang="fr">"urls" : Crée une liste des urls disponibles.
+Les champs sont id, stream (1 si c'est un flux, 0 sinon), url, mime,
+protected (1 si le fichier est protégé, 0 sinon), utilisé (1 si utilisé
+actuellement).</span>
+</para></listitem>
+
+<listitem><para>
+<span xml:lang="en">"connections" : Create the list of current
+connections. Fields are: id, an opaque id that can be used in the close
+command, ip, url, and status (HTTP error code).</span>
+<span xml:lang="fr">"connections" : Crée la liste des connections en
+cours. Les champs sont: id, un identifiant utilisé par la commande
+close, ip, url et status (Code de retour HTTP).</span>
+</para></listitem>
+
+<listitem><para>
+<span xml:lang="en">the name of a foreach variable if it's a set of set
+of value.</span>
+<span xml:lang="fr">Le nom d'une variable de foreach, si c'est un
+sous-ensemble</span>
+</para>
+
+<programlisting>;&lt;vlc id="foreach" param1="cat" param2="informations" /&gt;
+                &lt;p&gt; &lt;vlc id="value" param1="cat.name" /&gt;
+                &lt;ul&gt;
+                &lt;vlc id="foreach" param1="info" param2="cat.info" /&gt;
+                    &lt;li&gt;
+                    &lt;vlc id="value" param1="info.name" /&gt; :
+                            &lt;vlc id="value" param1="info.value" /&gt;
+                    &lt;/li&gt;
+                &lt;vlc id="end" /&gt;
+                &lt;/ul&gt;
+            &lt;vlc id="end" /&gt;
+</programlisting>
+
+</listitem>
+
+</itemizedlist>
+
+<para><span xml:lang="en">For more details, have a look at the share/http
+directory of the VLC source tree...</span>
+<span xml:lang="fr">Pour plus de détails, voyez le répertoire share/http
+des sources de VLC...</span>
+</para>
+
+</sect2>
+</sect1>
+
+</chapter>

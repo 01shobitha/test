@@ -2,8 +2,9 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
-|31 July 2003| VLC 0.6.1 package removed| The VLC 0.6.1 package has been
-temporarily removed. A new one should be available soon.
+|31 July 2003| VLC 0.6.1 for Mac OS X package removed| The VLC 0.6.1
+package for Mac OS X has been temporarily removed. A new one should be
+available soon.
 
 |31 July 2003| Release: VLC 0.6.1| This new release of VLC media
 player features: vorbis and mp3 audio support for the transcoding

@@ -1,27 +1,44 @@
-<sect2><title>Under Windows</title>
+<?xml version="1.0" encoding="iso-8859-1" ?>
 
-<para>Click on the <emphasis>Uninstall VLC</emphasis> icon that was
-created during installation.</para>
+<sect2><title>Windows</title>
+
+<para>
+<span xml:lang="en"> Click on the <emphasis>Uninstall VLC</emphasis>
+icon that was created during installation</span>
+<span xml:lang="fr">Cliquez sur l'icone <emphasis>Uninstall
+VLC</emphasis> créée pendant l'installation</span>
+.</para>
 
 </sect2>
 
-<sect2><title>Under BeOS</title>
+<sect2><title>BeOS</title>
 
-<para>Delete the <filename>vlc-version</filename>
+<para>
+<span xml:lang="en">Delete the <filename>vlc-version</filename>
 directory. You can also remove the configuration file
-<filename>/boot/home/config/settings/vlcrc</filename>.</para>
+<filename>/boot/home/config/settings/vlcrc</filename></span>
+<span xml:lang="fr">Effacez le dossier <filename>vlc-version</filename>.
+Vous pouvez également effacer le fichier de configuration
+<filename>/boot/home/config/settings/vlcrc</filename></span>
+.</para>
 
 </sect2>
 
-<sect2><title>Under Mac OS X</title>
+<sect2><title>Mac OS X</title>
 
-<para>Drag the VLC application to your trash can.</para>
+<para>
+<span xml:lang="en">Drag the VLC application to your trash can</span>
+<span xml:lang="fr">Faites glisser l'application VLC sur la Corbeille</span>
+.</para>
 
 </sect2>
 
-<sect2><title>Under Linux Debian</title>
+<sect2><title>Debian GNU/Linux</title>
 
-<para>Remove the packages that you installed :</para>
+<para>
+<span xml:lang="en">Remove the packages that you installed</span>
+<span xml:lang="fr">Enlevez les paquets que vous avez installé</span>
+ :</para>
 
 <screen>
 <prompt># </prompt><userinput>apt-get remove --purge vlc-gnome vlc-mad libdvdcss2 libdvbpsi1</userinput>
@@ -29,9 +46,12 @@ directory. You can also remove the configuration file
 
 </sect2>
 
-<sect2><title>Under Linux Redhat, Mandrake and SuSE</title>
+<sect2><title>GNU/Linux Redhat, Mandrake and SuSE</title>
 
-<para>Uninstall the RPM packages that you installed :</para>
+<para>
+<span xml:lang="en">Uninstall the RPM packages that you installed</span>
+<span xml:lang="fr">Désinstallez les RPM que vous avez installé</span>
+ :</para>
 
 <screen>
 <prompt># </prompt><userinput>rpm -e vlc-version vlc-mad-version vlc-gnome-version
@@ -40,14 +60,25 @@ libdvdcss2-version libdvdpsi1-version</userinput>
 
 </sect2>
 
-<sect2><title>If you compiled VLC from sources</title>
+<sect2><title>
+<span xml:lang="en">If you compiled VLC from sources</span>
+<span xml:lang="fr">Si vous avez compilé le VLC depuis les sources</span>
+</title>
 
-<para>Go to the directory containing VLC sources and execute :</para>
+<para>
+<span xml:lang="en">Go to the directory containing VLC sources and
+execute</span>
+<span xml:lang="fr">Allez au répertoire contenant les sources de VLC et
+exécutez</span>
+ :</para>
 
 <screen>
 <prompt># </prompt><userinput>make uninstall</userinput>
 </screen>
 
-<para>Then you can remove the VLC sources.</para>
+<para>
+<span xml:lang="en">Then you can remove the VLC sources</span>
+<span xml:lang="fr">Vous pouvez alors retirer les sources de VLC</span>
+.</para>
 
 </sect2>

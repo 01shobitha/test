@@ -12,7 +12,7 @@ all: $(LANG)/$(DOC)-$(LANG).html $(LANG)/$(DOC)-$(LANG).pdf $(LANG)/$(DOC)-$(LAN
 $(LANG)/$(DOC)-$(LANG).xml: *.xml ../common/*.xml ../common/multilanguage.xsl
 	mkdir -p $(LANG)
 	xsltproc --stringparam lang $(LANG) ../common/multilanguage.xsl $(DOC).xml | sed -e 's/id="$(DOC)"/id="$(DOC)-$(LANG)" lang="$(LANG)"/' > $@
-#	cp -R ../../images/documentation $(LANG)/images
+	cp -R ../../images/documentation $(LANG)/images
 
 # HTML output
 $(LANG)/$(DOC)-$(LANG).html: $(LANG)/$(DOC)-$(LANG).xml ../common/stylesheet-html.dsl

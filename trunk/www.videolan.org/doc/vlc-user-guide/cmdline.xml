@@ -1,75 +1,151 @@
-<chapter id="cmdline"><title id="tcmdline">The command line interface</title>
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<chapter id="cmdline"><title id="tcmdline">
+<span xml:lang="en">The command line interface</span>
+<span xml:lang="fr">Utilisation de la ligne de commande</span>
+</title>
 
 <sect1><title>Introduction</title>
 
-<para>Many options are only available through command line. They are
-detailed here.</para>
+<para>
+<span xml:lang="en">Many options are only available through command
+line. They are detailed here</span>
+<span xml:lang="fr">Un certain nombre d'options ne sont disponibles
+qu'en utilisant la ligne de commande. Elles sont détaillées ici</span>
+.</para>
 
 </sect1>
 
-<sect1><title>Opening streams</title>
+<sect1><title>
+<span xml:lang="en">Opening streams</span>
+<span xml:lang="fr">Ouvrir un flux</span>
+</title>
 
-<para>The following commands start VLC and add the first element to the
-playlist.</para>
+<para>
+<span xml:lang="en">The following commands start VLC and add the first
+element to the playlist</span>
+<span xml:lang="fr">Les commandes suivantes lancent VLC et ajoutent un
+élément à la liste de lecture</span>
+.</para>
 
-<sect2><title>Opening a file</title>
+<sect2><title>
+<span xml:lang="en">Opening a file</span>
+<span xml:lang="fr">Ouvrir un fichier</span>
+</title>
 
-<para>Start VLC with :</para>
+<para>
+<span xml:lang="en">Start VLC with </span>
+<span xml:lang="fr">Démarrez VLC </span>
+:</para>
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv my_file.mpg</userinput>
 </screen>
 
-<para>Although VLC should be able to recognize the file
+<para>
+<span xml:lang="en">Although VLC should be able to recognize the file
 type, you may tell VLC what codec to use with the
 <emphasis>--codec</emphasis> option. For example to play
-my_file.mpg using ffmpeg audo/video decoder do :</para>
+my_file.mpg using ffmpeg audo/video decoder do </span>
+<span xml:lang="fr">Dans la grande majorité des cas, VLC
+reconnaitra automatiquement le type de fichier, mais vous pouvez
+également lui spécifier quel codec utiliser, avec l'option
+<emphasis>--codec</emphasis>. Par exemple, pour lire my_file.mpg à
+l'aide du codec audio/vidéo "ffmpeg", utilisez </span>
+:</para>
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv --codec ffmpeg my_file.mpg</userinput> 
 </screen>
 
-<para>A list of all video and audio codecs supported by VLC is available
-on the <ulink url="http://www.videolan.org/vlc/features.html">VLC
-features list</ulink></para>
+<para>
+<span xml:lang="en"> A list of all video and audio
+codecs supported by VLC is available on the <ulink
+url="http://www.videolan.org/vlc/features.html">VLC features
+list</ulink></span>
+<span xml:lang="fr"> Une liste de tous les codecs audio
+et vidéo supportés par VLC est disponible sur la <ulink
+url="http://www.videolan.org/vlc/features.html">page des fonctionnalités
+de VLC</ulink></span>
+.</para>
 
 </sect2>
 
-<sect2><title>Opening a DVD or VCD</title>
+<sect2><title>
+<span xml:lang="en">Opening a DVD or VCD, or an audio CD</span>
+<span xml:lang="fr">Ouvrir un DVD, un VCD, ou un CD audio</span>
+</title>
 
-<para>Start VLC with :</para>
+<para>
+<span xml:lang="en">Start VLC with </span>
+<span xml:lang="fr">Lancez VLC :</span></para>
 
+<!-- Do not wrap me -->
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv dvd:[device][@raw_device][@[title][,[chapter][,angle]]]</userinput>
+<prompt>% </prompt><userinput>vlc -vvv dvd:<span xml:lang="en">[device][@raw_device][@[title][,[chapter][,angle]]]</span><span xml:lang="fr">[peripherique][@peripherique_raw][@[titre][,[chapitre][,angle]]]</span>
+</userinput>
 </screen>
 
-<para>or :</para>
+<para>
+<span xml:lang="en">or</span>
+<span xml:lang="fr">ou</span> (VCD):</para>
 
+<!-- Do not wrap me -->
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv vcd:[device][@[title][,[chapter]</userinput>
+<prompt>% </prompt><userinput>vlc -vvv vcd:<span xml:lang="en">[device][@[title][,[chapter]</span><span xml:lang="en">[peripherique][@[titre][,chapitre]]</span></userinput>
 </screen>
 
-<para>where device is the complete path to your DVD or CD-ROM drive.</para>
+<para>
+<span xml:lang="en">or</span>
+<span xml:lang="fr">ou</span> (Audio CD):</para>
+
+<!-- Do not wrap me -->
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv cdda:<span xml:lang="en">[device][@[title]]</span><span xml:lang="en">[peripherique][@[titre]]</span></userinput>
+</screen>
+
+
+<para>
+<span xml:lang="en">where device is the complete path to your DVD or
+CD-ROM drive</span>
+<span xml:lang="fr">où périphérique est le chemin complet à votre
+lecteur de DVD ou de CD</span>
+.</para>
 
 </sect2>
 
-<sect2><title>Start a network stream</title>
+<sect2><title>
+<span xml:lang="en">Start a network stream</span>
+<span xml:lang="fr">Recevoir un flux réseau</span>
+</title>
 
-<para>To receive an unicast UDP stream (sent by VLS or VLC's stream
-output), start VLC with :</para>
+<para>
+<span xml:lang="en">To receive an unicast UDP stream (sent by VLS or
+VLC's stream output), start VLC with </span>
+<span xml:lang="fr">Pour recevoir un flux unicast UDP (envoyé par VLC ou
+par le stream output de VLC), lancez VLC avec</span>
+:</para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv udp:[@:server_port]</userinput>
+<prompt>% </prompt><userinput>vlc -vvv udp:[@:<span xml:lang="en">server_port</span><span xml:lang="fr">port_UDP</span>]</userinput>
 </screen>
 
-<para>To receive a multicast UDP stream (sent by VLS or VLC's
-stream output), start VLC with :</para>
+<para>
+<span xml:lang="en">To receive an multicast UDP stream (sent by VLS or
+VLC's stream output), start VLC with </span>
+<span xml:lang="fr">Pour recevoir un flux multicast UDP (envoyé par VLC
+ou par le stream output de VLC), lancez VLC avec</span>
+ :</para>
+
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv udp:@multicast_address[:server_port]</userinput>
+<prompt>% </prompt><userinput>vlc -vvv udp:@multicast_address[:<span xml:lang="en">server_port</span><span xml:lang="fr">port_UDP</span>]</userinput>
 </screen>
 
-<para>To receive a HTTP stream, start VLC with :</para>
+<para>
+<span xml:lang="en">To receive a HTTP stream, start VLC with</span>
+<span xml:lang="fr">Pour recevoir un flux HTTP, lancez VLC avec</span>
+ :</para>
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv http://www.example.org/your_file.mpg</userinput>
@@ -78,28 +154,54 @@ stream output), start VLC with :</para>
 </sect2>
 </sect1>
 
-<sect1><title>Modules selection</title>
+<sect1><title>
+<span xml:lang="en">Modules selection</span>
+<span xml:lang="fr">Sélection des modules</span>
+</title>
 
-<para>VLC tries to select the most appropriate interface, input and
-output modules, among the ones available on the system, according to the
-stream it is given to read. However, you may wish to force the use of
-a specific module with the following options (for the complete list of
-modules, see the <xref linkend="modules" endterm="tmodules"/> section)
+<para>
+<span xml:lang="en"> VLC tries to select the most appropriate interface,
+input and output modules, among the ones available on the system,
+according to the stream it is given to read. However, you may wish
+to force the use of a specific module with the following options
+(for the complete list of modules, see the <xref linkend="modules"
+endterm="tmodules"/> section)</span>
+<span xml:lang="fr">VLC essaie de sélectionner l'interface, et les
+modules d'entrée/sortie les plus adaptés parmi ceux qui sont disponibles
+sur votre système, selon le flux à lire. Toutefois, vous pouvez
+également forcer l'utilisation d'un module particulier, avec les
+options suivantes (pour une liste complète des modules, voir la <xref
+linkend="modules" endterm="tmodules"/> section modules)</span>)
 :</para>
 
 <itemizedlist>
 <listitem><para><emphasis>--intf  &lt;module&gt;</emphasis>
-allows you to select the interface module.</para></listitem>
+<span xml:lang="en">allows you to select the interface module</span>
+<span xml:lang="fr">vous permet de choisir le module d'interface</span>
+.</para></listitem>
 <listitem><para><emphasis>--extraintf  &lt;module&gt;</emphasis>
-allows you to select extra interface modules that will be launched in addition to the main one.</para></listitem>
+<span xml:lang="en">allows you to select extra interface modules that
+will be launched in addition to the main one</span>
+<span xml:lang="fr">vous permet de sélectionner des interfaces
+supplémentaires qui seront lancées en plus de l'interface
+principale</span>
+.</para></listitem>
 <listitem><para><emphasis>--aout  &lt;module&gt;</emphasis>
-allows you to select the audio output module.</para></listitem>
+<span xml:lang="en">allows you to select the audio output module</span>
+<span xml:lang="fr">vous permet de choisir la sortie audio</span>
+.</para></listitem>
 <listitem><para><emphasis>--vout  &lt;module&gt;</emphasis>
-allows you to select the video output module.</para></listitem>
+<span xml:lang="en">allows you to select the video output module</span>
+<span xml:lang="fr">vous permet de choisir la sortie vidéo</span>
+.</para></listitem>
 <listitem><para><emphasis>--filter  &lt;module&gt;</emphasis>
-allows you to add a video filter module.</para></listitem>
+<span xml:lang="en">allows you to add a video filter module</span>
+<span xml:lang="fr">vous permet d'ajouter un filtre vidéo</span>
+.</para></listitem>
 <listitem><para><emphasis>--memcpy  &lt;module&gt;</emphasis>
-allows you to choose a memory copy module.</para></listitem>
+<span xml:lang="en">allows you to choose a memory copy module</span>
+<span xml:lang="fr">vous permet de choisir un module de copie de mémoire
+</span>.</para></listitem>
 </itemizedlist>
 
 </sect1>
@@ -110,182 +212,298 @@ allows you to choose a memory copy module.</para></listitem>
 
 </sect1>
 
-<sect1><title>Other Options</title>
+<sect1><title>
+<span xml:lang="en">Other Options</span>
+<span xml:lang="fr">Autres options</span></title>
 
-<sect2><title>Audio options</title>
+<sect2><title>
+<span xml:lang="en">Audio options</span>
+<span xml:lang="fr">Options audio</span></title>
 
 <itemizedlist>
-<listitem><para><emphasis>--noaudio</emphasis> disables audio
-output.</para></listitem>
-<listitem><para><emphasis>--mono</emphasis> forces VLC to treat the
-stream in mono audio.</para></listitem>
-<listitem><para><emphasis>--volume  &lt;integer&gt;</emphasis> sets the
-level of audio output.</para></listitem>
-<listitem><para><emphasis>--aout-rate  &lt;integer&gt;</emphasis> sets
-the audio output frequency (Hz).</para></listitem>
-<listitem><para><emphasis>--desync  &lt;integer&gt;</emphasis>
-compensates desynchronization of audio (ms).</para></listitem>
-<listitem><para><emphasis>--headphone</emphasis> activates headphone
-virtual spatialization effect.</para></listitem>
-<listitem><para><emphasis>--headphone-dim</emphasis> sets headphone
-characteristic dimension.</para></listitem>
+<listitem><para><emphasis>--noaudio</emphasis> 
+<span xml:lang="en">disables audio output</span>
+<span xml:lang="fr">désactive le son</span>
+.</para></listitem>
+<listitem><para><emphasis>--mono</emphasis>
+<span xml:lang="en">forces VLC to treat the stream in mono audio</span>
+<span xml:lang="fr">force le mode audio mono</span>
+.</para></listitem>
+<listitem><para><emphasis>--volume  &lt;<span xml:lang="en">integer</span><span xml:lang="fr">entier</span>&gt;</emphasis> 
+<span xml:lang="en">sets the level of audio output</span>
+<span xml:lang="fr">règle le volume audio</span>
+.</para></listitem>
+<listitem><para><emphasis>--aout-rate  &lt;<span xml:lang="en">integer</span><span xml:lang="fr">entier</span>&gt;</emphasis>
+<span xml:lang="en">sets the audio output frequency (Hz)</span>
+<span xml:lang="fr">règle la fréquence de la sortie audio en Hz</span>
+.</para></listitem>
+<listitem><para><emphasis>--desync  &lt;<span xml:lang="en">integer</span><span xml:lang="fr">entier</span>&gt;</emphasis>
+<span xml:lang="en">compensates desynchronization of audio (ms)</span>
+<span xml:lang="fr">compense la désynchronisation audio (ms)</span>
+.</para></listitem>
+<listitem><para><emphasis>--headphone</emphasis>
+<span xml:lang="en"> activates headphone virtual spatialization effect
+</span><span xml:lang="fr">active l'effet de spatialisation virtuelle
+du casque</span>.</para></listitem>
+<listitem><para><emphasis>--headphone-dim</emphasis>
+<span xml:lang="en"> sets headphone characteristic dimension</span>
+<span xml:lang="fr"> règle la dimension caractéristique du casque</span>
+.</para></listitem>
 </itemizedlist>
 
 </sect2>
 
-<sect2><title>Video options</title>
+<sect2><title>
+<span xml:lang="en">Video options</span>
+<span xml:lang="fr">Options vidéo</span>
+</title>
 
 <itemizedlist>
 
-<listitem><para><emphasis>--novideo</emphasis> disables video
-output.</para></listitem>
+<listitem><para><emphasis>--novideo</emphasis> 
+<span xml:lang="en">disables video output</span>
+<span xml:lang="fr">désactive la vidéo</span>
+.</para></listitem>
 
-<listitem><para><emphasis>--greyscale</emphasis> turns video output into
-greyscale mode.</para></listitem>
+<listitem><para><emphasis>--greyscale</emphasis>
+<span xml:lang="en">turns video output into greyscale mode</span>
+<span xml:lang="fr">passe en nuances de gris la vidéo</span>
+.</para></listitem>
 
-<listitem><para><emphasis>--fullscreen</emphasis> sets fullscreen
-video.</para></listitem>
+<listitem><para><emphasis>--fullscreen</emphasis>
+<span xml:lang="en">sets fullscreen video</span>
+<span xml:lang="fr">active le mode plein écran</span>
+.</para></listitem>
 
-<listitem><para><emphasis>--nooverlay</emphasis> disables hardware
-acceleration for the video output.</para></listitem>
+<listitem><para><emphasis>--nooverlay</emphasis>
+<span xml:lang="en">disables hardware acceleration for the video output
+</span><span xml:lang="fr">désactive l'accélération matérielle de la 
+sortie vidéo</span>
+.</para></listitem>
 
-<listitem><para><emphasis>--width, --height &lt;integer&gt;</emphasis>
-sets the video window dimensions.</para></listitem>
+<listitem><para><emphasis>--width, --height &lt;<span xml:lang="en">integer</span><span xml:lang="fr">entier</span>&gt;</emphasis>
+<span xml:lang="en">sets the video window dimensions</span>
+<span xml:lang="fr">règle la taille de la fenêtre vidéo</span>
+.</para></listitem>
 
-<listitem><para><emphasis>--zoom &lt;float&gt;</emphasis> adds a zoom
-factor.</para></listitem>
+<listitem><para><emphasis>--zoom &lt;<span xml:lang="en">float</span><span xml:lang="fr">nombre flottant</span>&gt;</emphasis>
+<span xml:lang="en">adds a zoom factor</span>
+<span xml:lang="fr">ajoute un facteur de zoom</span>
+.</para></listitem>
 
-<listitem><para><emphasis>--aspect-ratio &lt;mode&gt;</emphasis> forces
-source aspect ratio.</para></listitem>
+<listitem><para><emphasis>--aspect-ratio &lt;mode&gt;</emphasis>
+<span xml:lang="en">forces source aspect ratio</span>
+<span xml:lang="fr">force le ratio d'aspect</span>.</para></listitem>
 
-<listitem><para><emphasis>--spumargin  &lt;integer&gt;</emphasis> forces
-SPU subtitles postion.</para></listitem>
-
-</itemizedlist>
-
-</sect2>
-
-<sect2><title>Playlist options</title>
-
-<itemizedlist>
-
-<listitem><para><emphasis>--playlist</emphasis> launches playlist on
-startup.</para></listitem>
-
-<listitem><para><emphasis>--random</emphasis> plays files randomly
-forever.</para></listitem>
-
-<listitem><para><emphasis>--enqueue</emphasis> enqueues items in
-playlist.</para></listitem>
-
-<listitem><para><emphasis>--loop</emphasis> loops playlist on
-end.</para></listitem>
-
-</itemizedlist>
-
-</sect2>
-
-<sect2><title>Network options</title>
-
-<itemizedlist>
-
-<listitem><para><emphasis>--server-port  &lt;integer&gt;</emphasis> sets
-server port.</para></listitem>
-
-<listitem><para><emphasis>--iface  &lt;string&gt;</emphasis> specifies
-the network interface to use.</para></listitem>
-
-<listitem><para><emphasis>--iface-addr  &lt;string&gt;</emphasis>
-specifies your network interface IP address.</para></listitem>
-
-<listitem><para><emphasis>--mtu  &lt;integer&gt;</emphasis> specifies
-the MTU of the network interface.</para></listitem>
-
-<listitem><para><emphasis>--ipv6</emphasis> forces IPv6.</para></listitem>
-
-<listitem><para><emphasis>--ipv4</emphasis> forces IPv4.</para></listitem>
+<listitem><para><emphasis>--spumargin  &lt;<span xml:lang="en">integer</span><span xml:lang="fr">entier</span>&gt;</emphasis> 
+<span xml:lang="en">forces SPU subtitles postion</span>
+<span xml:lang="fr">force la position des sous-titres</span>
+.</para></listitem>
 
 </itemizedlist>
 
 </sect2>
 
-<sect2><title>CPU options</title>
+<sect2><title>
+<span xml:lang="en">Playlist options</span>
+<span xml:lang="fr">Options de liste de lecture</span>
+</title>
 
 <itemizedlist>
 
-<listitem><para><emphasis>--nommx</emphasis> disables the use of MMX CPU
-extensions.</para></listitem>
+<listitem><para><emphasis>--playlist</emphasis>
+<span xml:lang="en">launches playlist on startup</span>
+<span xml:lang="fr">lance la liste de lecture au démarrage</span>
+.</para></listitem>
 
-<listitem><para><emphasis>--no3dn</emphasis> disables the use of 3D Now!
-CPU extensions.</para></listitem>
+<listitem><para><emphasis>--random</emphasis>
+<span xml:lang="en">plays files randomly forever</span>
+<span xml:lang="fr">les fichiers sont lus indéfiniment et aléatoirement</span>
+.</para></listitem>
 
-<listitem><para><emphasis>--nommxext</emphasis> disables the use of MMX
-ext CPU extensions.</para></listitem>
+<listitem><para><emphasis>--enqueue</emphasis>
+<span xml:lang="en">enqueues items in playlist</span>
+<span xml:lang="fr">met les items à la queue</span>
+.</para></listitem>
 
-<listitem><para><emphasis>--nosse</emphasis> disables the use of SSE
-CPU extensions.</para></listitem>
+<listitem><para><emphasis>--loop</emphasis>
+<span xml:lang="en">loops playlist on end</span>
+<span xml:lang="fr">la liste de lecture boucle</span>
+.</para></listitem>
 
 </itemizedlist>
 
 </sect2>
 
-<sect2><title>Miscellaneous options</title>
+<sect2><title>
+<span xml:lang="en">Network options</span>
+<span xml:lang="fr">Options réseaux</span>
+</title>
 
 <itemizedlist>
 
-<listitem><para><emphasis>--quiet</emphasis> be quiet.</para></listitem>
+<listitem><para><emphasis>--server-port  &lt;<span xml:lang="en">integer</span><span xml:lang="fr">entier</span>&gt;</emphasis>
+<span xml:lang="en">sets server port</span>
+<span xml:lang="fr">règle le port UDP</span>
+.</para></listitem>
 
-<listitem><para><emphasis>--color</emphasis> displays color messages.</para></listitem>
+<listitem><para><emphasis>--iface  &lt;<span xml:lang="en">string</span><span xml:lang="fr">chaîne</span>&gt;</emphasis> 
+<span xml:lang="en">specifies the network interface to use</span>
+<span xml:lang="fr">spécifie l'interface réseau à utiliser</span>
+.</para></listitem>
 
-<listitem><para><emphasis>--search-path  &lt;string&gt;</emphasis>
-specifies interface default search path.</para></listitem>
+<listitem><para><emphasis>--iface-addr  &lt;<span xml:lang="en">string</span><span xml:lang="fr">chaîne</span>&gt;</emphasis>
+<span xml:lang="en">specifies your network interface IP address</span>
+<span xml:lang="fr">spécifie l'adresse IP de l'interface réseau</span>
+.</para></listitem>
 
-<listitem><para><emphasis>--plugin-path  &lt;string&gt;</emphasis>
-specifies plugin search path.</para></listitem>
+<listitem><para><emphasis>--mtu  &lt;<span xml:lang="en">integer</span><span xml:lang="fr">entier</span>&gt;</emphasis>
+<span xml:lang="en">specifies the MTU of the network interface</span>
+<span xml:lang="fr">spécifie le MTU de l'interface réseau</span>
+.</para></listitem>
 
-<listitem><para><emphasis>--dvd  &lt;string&gt;</emphasis> 
-specifies the default dvd device.</para></listitem>
+<listitem><para><emphasis>--ipv6</emphasis>
+<span xml:lang="en">forces IPv6</span>
+<span xml:lang="fr">force l'utilisation d'IPv6</span>
+.</para></listitem>
 
-<listitem><para><emphasis>--vcd  &lt;string&gt;</emphasis>
-specifies the default vcd device.</para></listitem>
-
-<listitem><para><emphasis>--program  &lt;integer&gt;</emphasis> specifies
-program (SID) (for streams with several programs, like satellite ones).</para></listitem>
-
-<listitem><para><emphasis>--audio-type  &lt;integer&gt;</emphasis>
-specifies the default audio type to use with dvds.</para></listitem>
-
-<listitem><para><emphasis>--audio-channel  &lt;integer&gt;</emphasis>
-specifies the default audio channel to use with dvds.</para></listitem>
-
-<listitem><para><emphasis>--spu-channel  &lt;integer&gt;</emphasis>
-specifies the default subtitle channel to use with dvds.</para></listitem>
+<listitem><para><emphasis>--ipv4</emphasis>
+<span xml:lang="en">forces IPv4</span>
+<span xml:lang="fr">force l'utilisation d'IPv4</span>
+.</para></listitem>
 
 </itemizedlist>
 
 </sect2>
 
-<sect2><title>Help options</title>
+<sect2><title>
+<span xml:lang="en">CPU options</span>
+<span xml:lang="fr">Options de processeur</span>
+</title>
 
 <itemizedlist>
 
-<listitem><para><emphasis>--verbose  &lt;verbosity&gt;</emphasis>
-specifies verbosity level.</para></listitem>
+<listitem><para><emphasis>--nommx</emphasis>
+<span xml:lang="en">disables the use of MMX CPU extensions</span>
+<span xml:lang="fr">empêche l'utilisation des extensions MMX du CPU</span>
+.</para></listitem>
 
-<listitem><para><emphasis>--help</emphasis> gives you all available
-options.</para></listitem>
+<listitem><para><emphasis>--no3dn</emphasis>
+<span xml:lang="en">disables the use of 3D Now! CPU extensions</span>
+<span xml:lang="fr">empêche l'utilisation des extensions 3D Now! du CPU</span>
+.</para></listitem>
 
-<listitem><para><emphasis>--longhelp</emphasis> gives you a detailled
-version of the available options.</para></listitem>
+<listitem><para><emphasis>--nommxext</emphasis>
+<span xml:lang="en">disables the use of MMX Ext CPU extensions</span>
+<span xml:lang="fr">empêche l'utilisation des extensions MMX Ext du CPU</span>
+.</para></listitem>
 
-<listitem><para><emphasis>--version</emphasis> gives you information
-about the current VLC version.</para></listitem>
+<listitem><para><emphasis>--nosse</emphasis> 
+<span xml:lang="en">disables the use of SSE CPU extensions</span>
+<span xml:lang="fr">empêche l'utilisation des extensions SSE du CPU</span>
+.</para></listitem>
 
-<listitem><para><emphasis>--list</emphasis> displays a list of available
-plugins.</para></listitem>
+</itemizedlist>
 
-<listitem><para><emphasis>--module  &lt;module&gt;</emphasis> displays
-help about specified module.</para></listitem>
+</sect2>
+
+<sect2><title>
+<span xml:lang="en">Miscellaneous options</span>
+<span xml:lang="fr">Options diverses</span>
+</title>
+
+<itemizedlist>
+
+<listitem><para><emphasis>--quiet</emphasis>
+<span xml:lang="en"> be quiet</span>
+<span xml:lang="fr"> pas de messages dans la console</span>
+.</para></listitem>
+
+<listitem><para><emphasis>--color</emphasis>
+<span xml:lang="en"> displays color messages</span>
+<span xml:lang="fr"> affiche des messages en couleur</span>
+.</para></listitem>
+
+<listitem><para><emphasis>--search-path  &lt;<span xml:lang="en">string</span><span xml:lang="fr">chaîne</span>&gt;</emphasis>
+<span xml:lang="en">specifies interface default search path</span>
+<span xml:lang="fr">spécifie le chemin de recherche</span>
+.</para></listitem>
+
+<listitem><para><emphasis>--plugin-path  &lt;<span xml:lang="en">string</span><span xml:lang="fr">chaîne</span>&gt;</emphasis>
+<span xml:lang="en">specifies plugin search path</span>
+<span xml:lang="fr">spécifie le chemin de recherche des plugins</span>
+.</para></listitem>
+
+<listitem><para><emphasis>--dvd  &lt;<span xml:lang="en">string</span><span xml:lang="fr">chaîne</span>&gt;</emphasis> 
+<span xml:lang="en">specifies the default VCD device</span>
+<span xml:lang="fr">spécifie le périphérique DVD par défaut</span>
+.</para></listitem>
+
+<listitem><para><emphasis>--vcd  &lt;<span xml:lang="en">string</span><span xml:lang="fr">chaîne</span>&gt;</emphasis>
+<span xml:lang="en">specifies the default VCD device</span>
+<span xml:lang="fr">spécifie le périphérique VCD par défaut</span>
+.</para></listitem>
+
+<listitem><para><emphasis>--program  &lt;;<span xml:lang="en">integer</span><span xml:lang="fr">entier</span>&gt;</emphasis>
+<span xml:lang="en">specifies program (SID) (for streams with several programs, like satellite ones)</span>
+<span xml:lang="fr">spécifie le programme (SID) (pour les flux multi-programmes, tels les flux satellites)</span>
+.</para></listitem>
+
+<listitem><para><emphasis>--audio-type  &lt;<span xml:lang="en">integer</span><span xml:lang="fr">entier</span>&gt;</emphasis>
+<span xml:lang="en">specifies the default audio type to use with dvds</span>
+<span xml:lang="fr">spécifie le type audio par défaut pour les DVDs</span>
+.</para></listitem>
+
+<listitem><para><emphasis>--audio-channel  &lt;<span xml:lang="en">integer</span><span xml:lang="fr">entier</span>&gt;</emphasis>
+<span xml:lang="en">specifies the default audio channel to use with dvds</span>
+<span xml:lang="fr">spécifie le canal audio par défaut pour les DVDs</span>
+.</para></listitem>
+
+<listitem><para><emphasis>--spu-channel  &lt;<span xml:lang="en">integer</span><span xml:lang="fr">entier</span>&gt;</emphasis>
+<span xml:lang="en">specifies the default subtitle channel to use with dvds</span>
+<span xml:lang="fr">spécifie le canal de sous-titre par défaut pour les DVDs</span>
+.</para></listitem>
+
+</itemizedlist>
+
+</sect2>
+
+<sect2><title>
+<span xml:lang="en">Help options</span>
+<span xml:lang="fr">Options d'aide</span>
+</title>
+
+<itemizedlist>
+
+<listitem><para><emphasis>--verbose  &lt;<span xml:lang="en">verbosity</span><span xml:lang="fr">verbosité</span>&gt;</emphasis>
+<span xml:lang="en">specifies verbosity level</span>
+<span xml:lang="fr">spécifie le niveau de verbosité</span>
+.</para></listitem>
+
+<listitem><para><emphasis>--help</emphasis>
+<span xml:lang="en">gives you all available options</span>
+<span xml:lang="fr">vous donne toutes les options disponibles</span>
+.</para></listitem>
+
+<listitem><para><emphasis>--longhelp</emphasis> 
+<span xml:lang="en">gives you a detailled version of the available 
+options</span>
+<span xml:lang="fr">affiche l'aide détaillée</span>.</para></listitem>
+
+<listitem><para><emphasis>--version</emphasis> 
+<span xml:lang="en">gives you information about the current VLC version</span>
+<span xml:lang="fr">affiche les informations de version du VLC</span>
+.</para></listitem>
+
+<listitem><para><emphasis>--list</emphasis> 
+<span xml:lang="en">displays a list of available plugins</span>
+<span xml:lang="fr">affiche la liste des modules disponibles</span>
+.</para></listitem>
+
+<listitem><para><emphasis>--module  &lt;module&gt;</emphasis> 
+<span xml:lang="en">displays help about specified module</span>
+<span xml:lang="fr">affiche l'aide du module spécifié</span>
+.</para></listitem>
 
 </itemizedlist>
 

@@ -1,23 +1,41 @@
-<chapter id="webbrowser-plugin"><title id="twebbrowser-plugin">The
-Mozilla plugin</title>
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<chapter id="webbrowser-plugin"><title id="twebbrowser-plugin">
+<span xml:lang="en">The Mozilla plugin</span>
+<span xml:lang="fr">Le plugin Mozilla</span>
+</title>
 
-<para>VLC can also be embeded in a web browser ! For
-the moment, this function is only available with <ulink
-url="http://www.mozilla.org/">Mozilla</ulink> under Linux.</para>
+<para>
+<span xml:lang="en">VLC can also be embeded in a web browser
+! For the moment, this function is only available with <ulink
+url="http://www.mozilla.org/">Mozilla</ulink> under GNU/Linux</span>
+<span xml:lang="fr">VLC peut également être utilisé en tant que plugin
+de navigateur web. Pour le moment, cette fonction n'est disponible que
+pour le navigateur<ulink url="http://www.mozilla.org/">Mozilla</ulink>
+sous GNU/Linux</span>.</para>
 
-<sect1><title>Install the plugin</title>
+<sect1><title>
+<span xml:lang="en">Install the plugin</span>
+<span xml:lang="fr">Installez le plugin</span></title>
 
-<sect2><title>Under Linux Debian</title>
+<sect2><title>GNU/Linux Debian</title>
 
-<para>You should already have the following lines in your
-<filename>/etc/apt/sources.list</filename> file :</para>
+<para>
+<span xml:lang="en">You should already have the following lines in your</span>
+<span xml:lang="fr">Vous devriez déjà avoir, dans votre fichier </span>
+<filename>/etc/apt/sources.list</filename>
+<span xml:lang="en"> file :</span>
+<span xml:lang="fr">, les lignes :</span></para>
 
 <programlisting>
 deb http://www.videolan.org/pub/videolan/debian $(ARCH)/
 deb-src http://www.videolan.org/pub/videolan/debian sources/
 </programlisting>
 
-<para>Install the <emphasis>mozilla-plugin-vlc</emphasis> package :</para>
+<para>
+<span xml:lang="en">Install the</span>
+<span xml:lang="fr">Installez le paquet </span>
+<emphasis>mozilla-plugin-vlc</emphasis> <span
+xml:lang="en">package</span> :</para>
 
 <screen>
 <prompt># </prompt><userinput>apt-get update</userinput>
@@ -26,19 +44,37 @@ deb-src http://www.videolan.org/pub/videolan/debian sources/
 
 </sect2>
 
-<sect2><title>Compile the sources yourself</title>
+<sect2><title>
+<span xml:lang="en">Compile the sources yourself</span>
+<span xml:lang="fr">Compilez vous-même les sources</span>
+</title>
 
-<para>Install the Mozilla development package
-(<emphasis>mozilla-dev</emphasis> under Debian).</para>
+<para> <span xml:lang="en">Install the Mozilla development package
+(<emphasis>mozilla-dev</emphasis> under Debian)</span>
+<span xml:lang="fr">Installez le paquet de développement de Mozilla
+(<emphasis>mozilla-dev</emphasis> sous Debian)</span>.</para>
 
-<para>Install the required librairies like for a normal VLC install
+<para>
+<span xml:lang="en">
+Install the required librairies like for a normal VLC install
 (from the sources, or from the packages with the development
-packages).</para>
+packages)</span><span xml:lang="fr">
+Installez les librairies requises, comme pour une installation
+classique de VLC (depuis les sources, ou depuis les paquets, avec les
+paquets de développement</span>.</para>
 
-<para>Download the sources of the lastest release : get the
+<para>
+<span xml:lang="en">
+Download the sources of the lastest release : get the
 file <filename>vlc-version.tar.gz</filename> from the <ulink
 url="http://www.videolan.org/vlc/download-sources.html">VLC sources
 download page</ulink>. Uncompress-it, configure-it, compile and install
+</span>
+<span xml:lang="en"> Téléchargez les sources de la dernière version :
+récupérez le fichier <filename>vlc-version.tar.gz</filename> depuis la
+<ulink url="http://www.videolan.org/vlc/download-sources.html">page
+de téléchargement des sources de VLC</ulink>. Décompressez-le,
+configurez-le, compilez et installez</span>
 :</para>
 
 <screen>
@@ -54,15 +90,30 @@ download page</ulink>. Uncompress-it, configure-it, compile and install
 </sect2>
 </sect1>
 
-<sect1><title>Build HTML pages that use the plugin</title>
+<sect1><title>
+<span xml:lang="en">Build HTML pages that use the plugin</span>
+<span xml:lang="fr">Ecrivez des pages HTML utilisant le plugin</span>
+</title>
 
-<para>Here are a few examples of HTML pages that use the Mozilla plugin.</para>
+<para>
+<span xml:lang="en">Here are a few examples of HTML pages that use the
+Mozilla plugin</span>
+<span xml:lang="fr">Voici quelques exemples de pages HTML utilisant le 
+plugin Mozilla</span>
+.</para>
 
-<simplesect><title>Example 1</title>
+<simplesect><title>Ex<span xml:lang="en">a</span><span
+xml:lang="fr">e</span>mple 1</title>
 
-<para>In this example, the plugin will read an HTTP stream inside
-the web page. If the user goes fullscreen, he will have to press
-<keycap>f</keycap> to go back in normal view.</para>
+<para>
+<span xml:lang="en">In this example, the plugin will read an HTTP stream
+inside the web page. If the user goes fullscreen, he will have to press
+<keycap>f</keycap> to go back in normal view</span>
+<span xml:lang="fr">Dans cet exemple, le plugin va lire un flux HTTP
+depuis la page web. Si l'utilisateur active le mode plein-écran,
+il devra presser la touche <keycap>f</keycap> pour revenir en mode
+normal</span>
+.</para>
 
 <programlisting>
 &lt;html&gt;
@@ -88,11 +139,13 @@ the web page. If the user goes fullscreen, he will have to press
 
 </simplesect>
 
-<simplesect><title>Example 2</title>
+<simplesect><title>Ex<span
+xml:lang="en">a</span><span xml:lang="fr">e</span>mple 2</title>
 
-<para>In this example, the plugin will read a multicast UDP stream in a
-dedicated video output window.</para>
-
+<para> <span xml:lang="en"> In this example, the plugin will read a
+multicast UDP stream in a dedicated video output window</span>
+<span xml:lang="fr">Dans cet exemple, le plugin va lire un flux UDP
+multicast, dans une fenêtre vidéo dédiée</span>.</para>
 
 <programlisting>
 &lt;html&gt;

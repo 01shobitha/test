@@ -5,37 +5,10 @@
 <h1>CVS repository</h1>
 
 <p>
-<b>Important:</b> VideoLAN is switching from CVS to <a href="
-http://subversion.tigris.org">Subversion</a>. Read more about it on our <a href="
-svn.html">SVN page</a>.
-Only the the anonymous server is still working, it is being kept in sync with SVN.
-<b>AT THE MOMENT CVS IS NOT IN SYNC WITH SVN AND IT IS PARTIALLY BROKEN.</b>
+<b>Important:</b> VideoLAN switched from CVS to <a href="
+http://subversion.tigris.org">Subversion</a> (SVN).
+Read more about it on our <a href="svn.html">SVN page</a>.
+The anonymous CVS server was kept for some time.
+<b>CVS IS NO LONGER SUPPORTED.</b>
 </p>
-
-<h2>Basic information</h2>
-
-<p> The anonymous CVS server is called
-<code>anoncvs.videolan.org</code>. You can log in as user anonymous,
-with an empty password. For instance, to retrieve the <code>vlc</code>
-source: </p>
-
-<pre>cvs -d :pserver:anonymous@anoncvs.videolan.org:/var/cvs/videolan login
-cvs -d :pserver:anonymous@anoncvs.videolan.org:/var/cvs/videolan -z3 checkout -P vlc</pre>
-
-<p> In case you do not have access to CVS (due to strange corporate policies which resulted in firewalls),
-CVS tarball snapshots are available (see below). </p>
-
-<h2>Available modules</h2>
-
-<ul>
-  <li><b>vlc</b>: VideoLAN Client; </li>
-  <li><b>vls</b>: VideoLAN Server; </li>
-  <li><b>vlms</b>: VideoLAN MiniServer; </li>
-  <li><b>network</b>: network tools (MiniSAPServer, VLAN-Server and VLAN-Bridge). </li>
-  <li><b>libdvdcss</b>: library for decrypting DVDs, used by VLC and VLS. </li>
-  <li><b>libdvdplay</b>: library for DVD navigation, used by VLC. </li>
-  <li><b>libdvbpsi</b>: library for parsing Program Specific Information
-from MPEG and DVB streams, used by VLC and VLS. </li>
-</ul>
-
 

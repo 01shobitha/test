@@ -51,6 +51,11 @@
 (define %use-id-as-filename%
   #t)
 
+(define %section-autolabel%
+  ;; Are sections enumerated?
+  #t)
+
+
 </style-specification-body>
 </style-specification>
 <external-specification id="docbook" document="dbstyle">

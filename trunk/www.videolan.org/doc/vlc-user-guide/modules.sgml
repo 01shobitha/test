@@ -18,240 +18,234 @@ you have to launch the configure script with </para>
 <sect2><title>x11</title>
 
 <para><emphasis>default : enabled</emphasis></para>
-
+<para><emphasis>For Unix with X11 servers only</emphasis></para>
 <para>This is the basic x11 video output. It only requires a working X11 server. You will need xlibs headers to compile it (xlibs-dev package on Debian systems).</para>
 
 </sect2><sect2><title>xvideo</title>
 
 <para><emphasis>default : enabled</emphasis></para>
-
+<para><emphasis>For Linux only</emphasis></para>
 <para>It requires an xvideo compliant graphic card (it is the case for nearly all the modern card). It uses hardware acceleration for yuv transformation and for rescaling.</para>
 
 </sect2>
-<sect2><title>TODO</title>
+<sect2><title>sdl</title>
+<para><emphasis>default : enabled</emphasis>
+
+<para>This video output uses sdl libraries. You need at least version 1.1.6 of this libraries.</para>
 <para>
-sdl
-
-default : enabled
-
-This video output uses sdl libraries. You need at least version 1.1.6 of this libraries.
-
 You may indicate the path to the sdl-config program with the
-
- --with-sdl-config-path=PATH 
-
-option given to the
-
-    configure
-
-script.
-
-directx
-
-default: enabled on win32
-
-This video output uses Microsoft Direct X libraries. It is recommended for the win32 port.
-
-You may indicate the path to directx libraries and headers with the
-
---with-directx=PATH
-
-option.
-
-fb
-
-default: enabled on Linux
-
-This is the frame buffer video output. It requires that your kernel was compiled with frame buffer support.
-glide
-
-default: disabled
-
-This video output uses Glide libraries (hardware acceleration for 3Dfx cards).
-
-You may indicate the path to the library with the
-
---with-glide=PATH
-
-compilation option.
-
-mga
-
-default: disabled
-
-It provides hardware acceleration for Matrox cards on Linux.
-ggi
-
-default: disabled
-aa
-
-default: disabled
-
-This video output uses the aalib library to display video through ASCII art. It requires aalib headers (aalib1-dev under Debian) to compile.
-6.2 Video filters modules
-deinterlace
-
-default: enabled
-
-This filter deinterlaces video. It is useful with streams coming from a satellite broadcast.
-wall
-
-default: enabled
-
-This filter allows you to have the video cut in pieces in several windows, which you can order as you wish. It can be used to generate image walls with several sources. Start it with
-
- --filter wall:XxY
-
-in order to have the video cut in X rows and Y columns
-
-distort
-
-default: enable
-
-This filter adds a distortion effect to the video. Who said it was useless ;-) ?
-transform
-
-default: enable
-
-This filter rotates the video window of 90 degrees.
-invert
-
-default: enabled
-
-This filter inverses colors.
-6.3 Sound outputs
-dsp
-
-default: enabled on Linux
-
-This is the Linux /dev/dsp output. It requires that your kernel was compiled with support for your sound card.
-alsa
-
-default: disabled
-
-This is the sound output for Advanced Linux Sound Architecture. It requires that you installed the alsa drivers and libraries.
-esd
-
-default: disabled
-
-This sound output has Enlightened Sound Daemon support (usually used with Gnome). You must have the daemon and its libraries installed.
-arts
-
-default: disabled
-
-This sound output has aRts (KDE's sound server) support. You must have the daemon and its libraries installed.
-waveout
-
-default: enabled on win32
-
-This is the Wave output, which is used by the win32 port.
-6.4 Input modules
-dvd
-
-default: enabled
-
-This is the DVD input module. It will need libdvdcss, which can be found http://www.videolan.org/libdvdcss/.
-dvdread
-
-default: disabled
-
-This is an alternative to the previous one, it uses libdvdread (which also needs libdvdcss).
-vcd
-
-default: enabled
-
-This is the VideoCD input.
-http
-
-default: enabled
-
-This is the http input. You can use it for Video On Demand.
-satellite
-
-default: disabled
-
-This is an input module that allows to read directly from a Hauppauge WinTV Nova card under Linux. It requires drivers 0.9.4 available from linuxtv.org.
-avi
-
-default: enabled
-
-This input module allows to read .avi files.
-6.5 Interface modules
-gtk
-
-default: enabled
-
-This is the GTK+ interface. It needs gtk libraries (libgtk1.2 package on Debian) and headers files if you are compiling it (libgtk1.2-dev package on Debian). Note that it can be used under Windows.
-gnome
-
-default: disabled
-
-This is the Gnome interface. It needs gnome libraries (libgnome32 under Debian) and headers (libgnome-dev) if you wish to compile it.
-intfwin
-
-default: enabled on win32
-
-This is the Windows native interface. It requires Borland C++ builder to compile. You may use
-
---with-bc-builder=PATH
-
-option to specify the path to this application.
-
-qt
-
-default: disabled
-
-This is the QT libraries interface module. You will need the libraries (libqt2 package on Debian) and headers (libqt-dev) if you wish to compile it.
-kde
-
-default: disabled
-
-This is the KDE interface module. You will need the libraries (kdelib package on Debian) and headers (kde-devel) if you wish to compile it.
-rc
-
-default: enable
-
-This is the Remote Control interface module. With this one, vlc is controled by sending him commands, such as play, stop, ... so that you may control vlc through a script.
-ncurses
-
-default: disabled
-
-This is a text interface, using ncurses library. You will need ncurses headers if you want to compile it (libncurses5-dev on Debian).
-lirc
-
-default: disabled
-
-This interface module allows you to control vlc through a remote. A lircrc example is provided to help you configure it to your remote (see doc/lirc/example.lircrc).
-6.6 Codec modules
-
-The following modules add codec support.
-a52
-
-default: disabled
-
-This is a better AC3/A52 decoder than the built-in one, based on liba52 : liba52.
-ffmpeg
-
-default: disabled
-
-This is a free MPEG-4/DivX/OpenDivX codec : ffmpeg.
-6.7 OS support modules
-
-The following modules add support or different OSs.
-macosx
-
-default: enabled on MacOS X
-
-This is the MacOS X support module, including a native interface.
-qnx
-
-default: enabled on qnx
-
-This is the QNX RTOS support module.
-
+<command> --with-sdl-config-path=PATH </command> switch, when running the configre script
 </para>
+<para>
+</sect2>
+
+<sect2><title>directx</title>
+<para><emphasis>default: enabled on win32</emphasis></para>
+<para><emphasis>For Windows only</emphasis></para>
+<para>This video output uses Microsoft Direct X libraries. It is recommended for the win32 port.</para>
+<para>You may indicate the path to directX libraries and headers with the
+<command>--with-directx=PATH</command> switch, when running the configure script
+</para>
+</sect2>
+
+<sect2><title>fb</title>
+<para><emphasis>default: enabled on Linux</emphasis></para>
+<para><emphasis>For Linux only</emphasis></para>
+<para>This is the frame buffer video output. It requires that your kernel was compiled with frame buffer support.</para>
+</sect2>
+
+<sect2><title>glide</title>
+<para><emphasis>default: disabled</emphasis></para>
+<para>This video output uses Glide libraries (hardware acceleration for 3Dfx cards).</para>
+<para>You may indicate the path to the library with the <command>--with-glide=PATH</command> configure option.
+</para></sect2>
+
+<sect2><title>mga</title>
+
+<para><emphasis>default: disabled</emphasis>
+<para><emphasis>For Linux only</emphasis></para>
+<para>
+This module provides hardware acceleration for Matrox cards under Linux.</para>
+</sect2>
+<sect2><title>ggi</title>
+
+<para><emphasis>default: disabled</emphasis>
+</sect2>
+<sect2><title>aa</title>
+
+<para><emphasis>default: disabled</emphasis></para>
+
+<para>This is the Ascii Art Video Output. This video output uses the aalib library to display video through ASCII art. It requires aalib headers (aalib1-dev package under Debian) to compile.</para>
 </sect2>
 </sect1>
 
+<sect1><title>Video filters modules</title>
 
+
+<sect2><title>deinterlace</title>
+
+<para><emphasis>default: enabled</emphasis></para>
+
+<para>This filter deinterlaces video. It is useful with streams coming from a satellite broadcast.</para>
+</sect2>
+
+<sect2><title>wall</title>
+
+<para><emphasis>default: enabled</emphasis></para>
+
+<para>This filter allows you to have the video cut in pieces in several windows, which you can order as you wish. It can be used to generate image walls with several sources. Start it with</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc --filter wall:XxY ....</userinput>
+</screen>
+
+<para>in order to have the video cut in X rows and Y columns</para>
+
+</sect2><sect2><title>distort</title>
+<para><emphasis>default: enabled</emphasis></para>
+<para>This filter adds a distortion effect to the video. Who said it was useless ;-) ?</para>
+
+</sect2><sect2><title>transform</title>
+<para><emphasis>default: enable</emphasis></para>
+<para>This filter rotates the video window of 90 degrees.</para>
+
+</sect2><sect2><title>invert</title>
+<para><emphasis>default: enabled</emphasis></para>
+<para>This filter inverses colors.</para>
+</sect2>
+
+</sect1>
+
+<sect1><title>Sound outputs</title>
+
+<sect2><title>dsp</title>
+<para><emphasis>default: enabled on Linux</emphasis></para>
+<para><emphasis>For Linux only</emphasis></para>
+<para>This is the Linux /dev/dsp output. It requires that your kernel was compiled with support for your sound card.</para>
+
+</sect2><sect2><title>alsa</title>
+<para><emphasis>default: disabled</emphasis></para>
+<para><emphasis>For Linux only</emphasis></para>
+<para>This is the sound output for ALSA (Advanced Linux Sound Architecture). It only works under Linux, and it requires that you installed the alsa drivers and libraries.</para>
+
+</sect2><sect2><title>esd</title>
+<para><emphasis>default: disabled</emphasis></para>
+<para><emphasis>For Linux only</emphasis></para>
+<para>This sound output has Enlightened Sound Daemon support (usually used with Gnome). You must have the daemon and its libraries installed.</para>
+
+</sect2><sect2><title>arts</title>
+<para><emphasis>default: disabled</emphasis></para>
+<para><emphasis>For Linux only</emphasis></para>
+<para>This sound output has aRts (KDE's sound server) support. You must have the daemon and its libraries installed.</para>
+
+</sect2><sect2><title>waveout</title>
+<para><emphasis>default: enabled on win32</emphasis></para>
+<para>This is the Wave output, which is used by the win32 port.</para>
+</sect2>
+
+</sect1>
+
+<sect1><title>Input modules</title>
+
+<sect2><title>dvd</title>
+<para><emphasis>default: enabled</emphasis></para>
+<para>This is the DVD input module. It will need libdvdcss, which can be found in our <ulink url="http://www.videolan.org/libdvdcss/">libdvdcss section</ulink>.</para>
+
+</sect2><sect2><title>dvdread</title>
+<para><emphasis>default: disabled</emphasis></para>
+<para>This is an alternative to the previous one, it uses libdvdread (which also needs libdvdcss).</para>
+
+</sect2><sect2><title>vcd</title>
+<para><emphasis>default: enabled</emphasis></para>
+<para>This is the VideoCD input.</para>
+
+</sect2><sect2><title>http</title>
+<para><emphasis>default: enabled</emphasis></para>
+<para>This is the http input. You can use it for Video On Demand.</para>
+
+
+</sect2><sect2><title>satellite</title>
+<para><emphasis>default: disabled</emphasis></para>
+<para>This is an input module that allows to read directly from a Hauppauge WinTV Nova card under Linux. It requires drivers 0.9.4 available from linuxtv.org.
+</para>
+
+</sect2><sect2><title>avi</title>
+<para><emphasis>default: enabled</emphasis></para>
+<para>This input module allows to read .avi files.</para>
+</sect2>
+</sect1>
+
+<sect1><title>Interface modules</title>
+
+<sect2><title>Gtk</title>
+<para><emphasis>default: enabled</emphasis></para>
+<para>This is the GTK+ interface. It needs gtk libraries (libgtk1.2 package on Debian) and headers files if you are compiling it (libgtk1.2-dev package on Debian). Note that it can be used under Windows.</para>
+
+</sect2><sect2><title>gnome</title>
+<para><emphasis>default: disabled</emphasis></para>
+<para><emphasis>For Linux only</emphasis></para>
+<para>This is the Gnome interface. It needs gnome libraries (libgnome32 under Debian) and headers (libgnome-dev) if you wish to compile it.</para>
+
+</sect2><sect2><title>intfwin</title>
+<para><emphasis>default: enabled on win32</emphasis></para>
+<para><emphasis>For Windows only</emphasis></para>
+<para>This is the Windows native interface. It requires Borland C++ builder to compile. You may use the <command>--with-bc-builder=PATH</command> option to specify the path to this application.</para>
+
+
+</sect2><sect2><title>qt</title>
+<para><emphasis>default: disabled</emphasis></para>
+<para>
+This is the QT libraries interface module. You will need the libraries (libqt2 package on Debian) and headers (libqt-dev) if you wish to compile it.</para>
+
+</sect2><sect2><title>kde</title>
+<para><emphasis>default: disabled</emphasis></para>
+<para>This is the KDE interface module. You will need the libraries (kdelib package on Debian) and headers (kde-devel) if you wish to compile it.</para>
+
+</sect2><sect2><title>rc</title>
+<para><emphasis>default: enabled</emphasis></para>
+<para>This is the Remote Control interface module. With this one, vlc is controled by sending him commands, such as play, stop, ... so that you may control vlc through a script.</para>
+
+</sect2><sect2><title>ncurses</title>
+<para><emphasis>default: disabled</emphasis></para>
+<para>This is a text interface, using ncurses library. You will need ncurses headers if you want to compile it (libncurses5-dev on Debian).</para>
+
+</sect2><sect2><title>lirc</title>
+<para><emphasis>default: disabled</emphasis></para>
+<para>
+This interface module allows you to control vlc through a remote. A lircrc example is provided to help you configure it to your remote (see doc/lirc/example.lircrc).</para>
+</sect2>
+
+</sect1>
+
+<sect1><title>Codec modules</title>
+<para>The following modules add codec support.</para>
+<sect2><title>a52</title>
+<para><emphasis>default: disabled</emphasis></para>
+<para>This is a better AC3/A52 decoder than the built-in one, based on liba52 : liba52.<para>
+</sect2>
+
+<sect2><title>ffmpeg</title>
+<para><emphasis>default: disabled</emphasis></para>
+<para>This is a free MPEG-4/DivX/OpenDivX codec : ffmpeg.</para>
+</sect2>
+
+</sect1>
+
+<sect1><title>OS support modules</title>
+
+<para>The following modules add support or different OSs.</para>
+
+<sect2><title>macosx</title>
+<para><emphasis>default: enabled on MacOS X</emphasis></para>
+<para><emphasis>For MacOS X only</emphasis></para>
+<para>This is the MacOS X support module, including a native interface.</para>
+</sect2>
+
+<sect2><title>qnx</title>
+<para><emphasis>default: enabled on qnx</emphasis></para>
+<para><emphasis>For QNX only</emphasis></para>
+<para>This is the QNX RTOS support module.</para>
+</sect2>
+
+</sect1>
 </chapter>

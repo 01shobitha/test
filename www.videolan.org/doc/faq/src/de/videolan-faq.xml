@@ -37,9 +37,7 @@ gefunden werden.
 
 <answer>
 
-<para>Wo haben Sie gelesen, dass es VLC für Mac OS 9
-gibt? Es gibt derzeit keine Version und wird wahrscheinlich nie eine
-geben.
+<para>Wo haben Sie gelesen, dass es VLC für Mac OS 9 gibt? Es gibt derzeit keine Version und wird nie eine geben.
 </para>
 
 </answer></qandaentry><qandaentry><question><para>Unterstützt VLC DVDs aus allen Regionen?</para></question>
@@ -48,7 +46,7 @@ geben.
 
 <para>VLC benutzt <emphasis>libdvdcss</emphasis> um alle
 DVDs zu lesen, wobei die Zone ignoriert wird. Alle Regionen werden ohne
-Einschränkung unterstützt.
+Einschränkung unterstützt. Dies funktioniert nicht immer einhundertprozentig sicher und kann einige Zeit brauchen, bis die DVD startet.
 </para>
 
 </answer></qandaentry><qandaentry><question><para>Wo speichert VLC seine Voreinstellungsdatei?</para></question>
@@ -68,7 +66,7 @@ hängt von dem Betriebssystem ab, das Sie benutzen:
 <filename moreinfo="none">$(HOME)/.vlc/vlcrc</filename></para></listitem>
 
 <listitem><para>Mac OS X:
-<filename moreinfo="none">/Library/Preferences/VLC</filename></para></listitem>
+<filename moreinfo="none">HOME/Library/Preferences/VLC</filename></para></listitem>
 
 <listitem><para>Windows 95/98/ME: <filename moreinfo="none">C:\Windows\Application
 Data\vlc\vlcrc</filename></para></listitem>
@@ -86,10 +84,9 @@ Data\vlc\vlcrc</filename></para></listitem>
 
 <answer>
 
-<para>Als erstes sollten Sie die Voreinstellungsdatei von
-VLC löschen (siehe vorherige Frage, um den Ort zu erfahren). Starten
-Sie dann VLC neu. Falls es nicht besser wird, lesen Sie die folgenden
-Fragen!
+<para>Als erstes sollten Sie die Einstellungen im Einstellungsfenster von
+VLC zurücksetzen und es neustarten. Wenn VLC nicht einmal mehr startet,
+löschen Sie die Voreinstellungsdatei von VLC (siehe vorherige Frage, um den Ort zu erfahren). Starten Sie dann VLC neu. Wenn es nicht besser wird, lesen Sie die folgenden Fragen!
 </para>
 
 </answer></qandaentry><qandaentry><question><para>Ich kann keine DVDs. lesen.. !</para></question>
@@ -100,7 +97,7 @@ Fragen!
 
 <itemizedlist>
 
-<listitem><para>Haben Sie das <emphasis>libdvdcss</emphasis>-Paket
+<listitem><para>Wenn Sie Linux benutzen: Haben Sie das <emphasis>libdvdcss</emphasis>-Paket
 installiert?
 </para></listitem>
 
@@ -204,7 +201,7 @@ beenden Sie unter Unix esd oder artsd, falls sie laufen.
 
 <answer>
 
-<para> Erhöhen Sie das Verbosity-Level (entweder
+<para> Erhöhen Sie das Verbosity-Niveau (entweder
 in den Voreinstellungen oder mit der <command moreinfo="none">-vvvv</command>
 Befehlszeilensteuerungsoption) und schauen Sie auf die Debug-Nachrichten
 (im Terminal oder im Nachrichten-Fenster).
@@ -227,16 +224,21 @@ Videos zu machen:
 
 <itemizedlist>
 
-<listitem><para>unter XFree fügen Sie die <command moreinfo="none">-V
-x11</command> Option in der Befehlszeile hinzu;
-
-Sotto XFree aggiungi l'opzione <command moreinfo="none">-V
-x11</command> alla linea di comando.
+<listitem><para>Unter XFree fügen Sie die <command moreinfo="none">-V
+x11</command> Option der Befehlszeile hinzu. Sie müssen ein
+X11-Bildschirmfoto-Utility irgendwo finden.
 </para></listitem>
 
-<listitem><para>unter Windows fügen Sie die
+<listitem><para>Unter Windows fügen Sie die
 <command moreinfo="none">--nooverlay</command> Option in der DOS-Eingabeaufforderung
-hinzu.
+hinzu und benutzen Sie die "Bildschirm drucken"-Taste, um ein Bildschirmfoto in Ihre 
+Zwischenablage zu kopieren.
+Danach können Sie dieses Bild ein Bildbearbeitungsprogramm, ein Worddokument oder 
+ähnliches einsetzen.
+</para></listitem>
+
+<listitem><para>
+Drücken Sie unter Mac OS X ein Befehl-Option-3.
 </para></listitem>
 
 </itemizedlist>
@@ -320,7 +322,7 @@ Englisch verfügbar.)
 
 <itemizedlist>
 
-<listitem><para>VLc öffnet alle System-Layer des Input-Streams, dekodiert sie alle und streamt dann das Ergebnis über das Netzwerk oder speichert es in einer Datei. Dadurch ist VLC gut im Streamen von unzuverlässigen Bild und/oder Tonquellen, wie die im Internet zu findenden und/oder von unprofessioneller Software erstellten Video-Dateien. VLC enthält viele Muxer/Demuxer (ps, ts, avi, ogg, mp4...) und viele Codecs, welche die Konvertierung von Verkapselungsformaten und/oder Umkodierung eines Input-Streams "on-the-fly" erlauben. VLC hat außerdem schöne graphische Interfaces.
+<listitem><para>VLC öffnet alle System-Layer des Input-Streams, dekodiert sie alle und streamt dann das Ergebnis über das Netzwerk oder speichert es in einer Datei. Dadurch ist VLC gut im Streamen von unzuverlässigen Bild und/oder Tonquellen, wie die im Internet zu findenden und/oder von unprofessioneller Software erstellten Video-Dateien. VLC enthält viele Muxer/Demuxer (ps, ts, avi, ogg, mp4...) und viele Codecs, welche die Konvertierung von Verkapselungsformaten und/oder Umkodierung eines Input-Streams "on-the-fly" erlauben. VLC hat außerdem schöne graphische Interfaces.
 </para></listitem>
 
 <listitem><para>VLS öffnet nur die höchsten System-Layer des Input-Streams und hat nur PS- und TS-Demuxer. Dadurch ist VLS gut im Streamen von zuverlässigen Bild- und/oder Tonquellen im PS- oder TS-Format, wie sie von professioneller Software oder Hardware, wie DVDs und DVB-Kanäle (Satellit oder digitales terrestrisches Fernsehen), produziert werden, da es nur die System-Layer dekodiert, die dekodiert werden müssen und nicht mehr. VLS ist insbesondere auf das Streamen von gemultiplexten TS-Streams, zum Beispiel einem ganzen DVB-Transponder, auslegt. VLS hat nur einen TS-Muxer, macht kein Umkodieren und hat keine graphischen Interfaces.
@@ -430,9 +432,43 @@ Vereinigten Staaten, auf Grund eines Gesetzes namens DMCA
 konsultieren Sie bitte Ihren Anwalt.
 </para>
 
+<note><para>
+Vorsicht: Die binären Pakete vom VLC media player, sprich die fertig kompilierten Programm, werden mit der libdvdcss-Bibliothek ausgeliefert.
+</para></note>
+
 </answer></qandaentry>
 
 </qandadiv>
+
+<qandaentry><question><para>
+Wie sieht es mit persönlicher/kommerzieller Benutzung aus?
+</para></question>
+
+<answer>
+
+<para>
+
+Einige der Codecs, die mit VLC vertrieben werden, sind patentiert, weshalb Sie Tantiemen an ihre Lizenzgeber zahlen müssen. Dies sind überwiegend die MPEG-Codecs.
+
+</para>
+
+<para>
+
+Bei vielen Produkten bezahlt der Produzent den Lizenzeigentümer (in diesem Fall <a 
+href="http://www.mpegla.com">MPEG LA</a>), sodass sich der Benutzer (kommerziell oder persönlich) sich nicht darum kümmern muss. VLC (und ffmpeg und libmpeg2, welche in den meisten Fällen benutzt werden) kann dies nicht, da es eine freie und quelloffene Implementation dieser Codecs ist. Die Software wird nicht verkauft, weshalb der Endnutzer dafür verantwortlich ist den Lizenz- und Tantiemenbedingungen zu entsprechen. Sie müssen den Lizenzeigentümer kontaktieren, um zu erfahren, wie sie diese Lizenzen erfüllen können.
+
+</para>
+
+<para>
+
+Dies gilt sowohl für die Wiedergabe einer DVD mit VLC für Ihr privates Vergnügen (2,50$ als einmalige Zahlung an MPEG LA), als auch für das Streaming eines Live-Events mit VLC in MPEG-4 über das Internet.
+
+</para>
+
+</answer></qandaentry>
+
+</qandadiv>
+
 <qandadiv><title>Verschiedenes</title>
 
 <qandaentry>

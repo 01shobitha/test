@@ -71,7 +71,7 @@ DVDs, disregarding their zone. All regions are supported without any
 constraint. It doesn't work 100% of the time and can take a long
 while before it starts the DVD.
 </para>
-<para><note><emphasis>libdvdcss</emphasis> is currently unable to work-around the regional codec setting on DVD drives used in newer Macintoshs. You are only able to play DVDs with the same region code as your drive is set to. That's a known issue and won't be fixed in the upcoming time.</note></para>
+<note><para><emphasis>libdvdcss</emphasis>is currently unable to work-around the regional codec setting on DVD drives used in newer Macintoshs. You are only able to play DVDs with the same region code as your drive is set to. That's a known issue and won't be fixed in the upcoming time.</para></note>
 
 </answer></qandaentry>
 

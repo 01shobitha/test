@@ -3,7 +3,7 @@
 DOC := videolan-faq
 
 # We build HTML, PS, PDF, RTF and  TXT for the Web site
-all: img html ps pdf rtf txt
+all: html ps pdf rtf txt
 
 # Get the images from the /images/documentation directory
 

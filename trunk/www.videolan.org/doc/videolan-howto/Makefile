@@ -5,58 +5,37 @@ DOC := videolan-howto
 
 XML_DECL := /usr/lib/sgml/declaration/xml.decl
 
-EXT = html pdf rtf txt
 LANG = en
 
-# We build HTML, PS, PDF, RTF and TXT for the Web site
-all: img $(LANG)
+# We build HTML, PDF, RTF and TXT for the Web site
+all: $(LANG)/$(DOC)-$(LANG).html $(LANG)/$(DOC)-$(LANG).pdf $(LANG)/$(DOC)-$(LANG).rtf $(LANG)/$(DOC)-$(LANG).txt
 
-$(LANG): %: $(foreach ext, $(EXT), $(DOC)-%.$(ext))
+$(LANG)/$(DOC)-$(LANG).xml: $(DOC).xml
+	mkdir -p $(LANG)
+	xsltproc --stringparam lang $(LANG) ../common/multilanguage.xsl $^ | sed -e 's/id="$(DOC)"/id="$(DOC)-$(LANG)"/' > $@
+	cp -R ../../images/documentation $(LANG)/images
 
-# Get the images from the /images/documentation directory
-img:
-	rm -rf images
-	cp -R ../../images/documentation images
-
-$(LANG:%=$(DOC)-%.xml): $(DOC).xml
-	xsltproc --stringparam lang $(shell echo $(basename $@) | sed -e 's/.*-//') ../common/multilanguage.xsl $^ | sed -e 's/id="$(DOC)"/id="$(basename $@)"/' > $@
-
-
-$(LANG:%=$(DOC)-%.html): %.html: %.xml
+$(LANG)/$(DOC)-$(LANG).html: $(LANG)/$(DOC)-$(LANG).xml
 	jade -t sgml -d ../common/stylesheet-html.dsl $(XML_DECL) $^
-	ln -sf $@ index.html
-	rm -f $(basename $@)-html.zip
-	zip $(basename $@)-html.zip $@ images/*.jpg
-	mkdir -p $(basename $@) 
-	mv *.html $(basename $@)
-	ln -sf $(DOC)-en/index.html $(DOC)-en.html
-	rm -f $(DOC)-*.xml
-	make $(DOC)-$(LANG).xml
+	mv *.html $(LANG)
+	rm -f $(LANG)/$(DOC)-$(LANG)-html.zip
+	cd $(LANG) && zip $(DOC)-$(LANG)-html.zip *.html images/*.jpg
 
-$(LANG:%=$(DOC)-%.pdf): %.pdf: %.xml
+$(LANG)/$(DOC)-$(LANG).pdf: $(LANG)/$(DOC)-$(LANG).xml
 	jade -t tex -d ../common/stylesheet-print-noicones.dsl -o $(basename $@).tex $(XML_DECL) $^
-	pdfjadetex $(basename $@).tex
-	pdfjadetex $(basename $@).tex
-	pdfjadetex $(basename $@).tex
-	rm -f *.tex *.out *.aux *.log
-	zip $(basename $@)-pdf.zip $@ images/*.jpg
-	rm -f $(DOC)-*.xml
-	make $(DOC)-$(LANG).xml
+	cd $(LANG) && pdfjadetex $(DOC)-$(LANG).tex
+	cd $(LANG) && rm -f *.tex *.out *.aux *.log
+	cd $(LANG) && zip $(DOC)-$(LANG)-pdf.zip $(DOC)-$(LANG).pdf
 
-$(LANG:%=$(DOC)-%.rtf): %.rtf: %.xml
+$(LANG)/$(DOC)-$(LANG).rtf: $(LANG)/$(DOC)-$(LANG).xml
 	jade -t rtf -d ../common/stylesheet-print-noicones.dsl -o $@ $(XML_DECL) $^
-	rm -f $(basename $@)-rtf.zip
-	zip $(basename $@)-rtf.zip $@ images/*.jpg
-	rm -f $(DOC)-*.xml
-	make $(DOC)-$(LANG).xml
+	rm -f $(LANG)/$(DOC)-$(LANG)-rtf.zip
+	cd $(LANG) && zip $(DOC)-$(LANG)-rtf.zip $(DOC)-$(LANG).rtf images/*.jpg
 
-$(LANG:%=$(DOC)-%.txt): %.txt: %.xml
+$(LANG)/$(DOC)-$(LANG).txt: $(LANG)/$(DOC)-$(LANG).xml
 	jade -t sgml -d ../common/stylesheet-txt.dsl -V nochunks $(XML_DECL) $^ > $^.html
-#       w3m -dump $^.html > $@
-	lynx -force_html -dump $^.html > $@
+	lynx -force_html -dump $^.html > $(LANG)/$(DOC)-$(LANG).txt
 	rm -f $^.html
-	rm -f $(DOC)-*.xml
-	make $(DOC)-$(LANG).xml
 
 clean:
-	rm -rf *.zip *.html *.pdf  *.rtf *.txt *.dvi *.tex *.out *.aux *.log *.tmp $(DOC)-*.xml $(foreach lang, $(LANG), $(DOC)-$(lang))
+	rm -rf *.zip *.html *.pdf  *.rtf *.txt *.dvi *.tex *.out *.aux *.log *.tmp $(LANG)

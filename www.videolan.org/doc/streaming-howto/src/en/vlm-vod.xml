@@ -164,7 +164,8 @@ the end of the media's input list.</para></listitem>
 media's output. The syntax is the same as the vlc ":sout=..." vlc
 option but you do not have to put the ":sout=..." string. See <xref
 linkend="cmdline" endtemr="tcmdline" /> for more information concerning
-stream outputs (sout).</para></listitem>
+stream outputs (sout).<note><para>You do not have to specify an output
+for vod elements.</para></note></para></listitem>
 
 <listitem><para><command>enabled|disabled</command> : Enable or Disable
 the media. If a media is disabled, it cannot be streamed, paused,
@@ -258,7 +259,8 @@ a list of VLM commands. Beware of recursive calls: you an put a
 <command>load (file)</command> in a configuration file which can lead to
 recursive inclusion of the same file and result in VLC's crash.</para>
 
-<note><para>Commentary system has not been implemented yet.</para></note>
+<para>As of versions > 0.8.1, any line where the first non white space
+character is a # is considered as a comment.</para>
 
 <sect1><title>Examples</title></sect1>
 

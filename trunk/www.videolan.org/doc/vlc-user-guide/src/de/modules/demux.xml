@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<sect1><title>
+Demuxer
+</title>
+
+<para>
+In einem Videostream sind das Bild- und das 
+Tonsignal immer in "Container"-Formaten. Demuxer extrahieren die
+Streams aus diesen und leiten sie durch die Dekoder
+.</para>
+
+<para>
+Beispielsweise kann eine AVI-Datei ein MPEG-4-Video
+oder ein unkomprimiertes Video enthalten. AVI ist nur eine Speicherform,
+kein Kompressionsformat
+.</para>
+
+<sect2><title>avi</title>
+&always;
+<para>
+Dieses Modul erlaubt Ihnen
+<filename>.avi</filename>-Datei zu lesen
+.</para>
+&options-st;
+<itemizedlist>
+ <listitem>
+  <para><emphasis>--avi-interleaved, --no-avi-interleaved </emphasis>:
+   Aktiviert oder deaktiviert den Verschachtelungsmodus
+   (standardmäßig deaktiviert)
+  </para>
+ </listitem>
+ <listitem>
+  <para><emphasis>--avi-index, --no-avi-index </emphasis>:
+   Erzwingt die Erzeugung eines Indexes. Dies kann
+   bei fehlerhaften Streams helfen (standardmäßig deaktiviert)
+  </para>
+ </listitem>
+</itemizedlist>
+</sect2>
+
+<sect2><title>asf</title>
+&always;
+<para>
+Dieses Modul erlaubt Ihnen
+<filename>.asf</filename>-Dateien zu lesen
+</para></sect2>
+
+<sect2><title>aac</title>
+&always;
+<para>
+ Dieses Modul erlaubt Ihnen AAC-Dateien zu lesen
+</para></sect2>
+
+<sect2><title>ogg</title>
+&enabled;
+<para>
+Dieses Modul erlaubt Ihnen
+<filename>.ogg</filename>-Dateien zu lesen
+</para></sect2>
+
+<sect2><title>rawdv</title>
+&always;
+<para>
+ Dieses Modul erlaubt Ihnen DV-Dateien zu lesen
+</para></sect2>
+
+<sect2><title>dvbpsi</title>
+&enabled;
+<para>
+Dieses Modul erlaubt Ihnen das Demuxing von Streams
+einer Satellitenkarte.
+</para></sect2>
+
+<sect2><title>mp4</title>
+&always;
+<para>
+Dieses Modul erlaubt Ihnen
+<filename>.mp4</filename>-Dateien zu lesen
+</para></sect2>
+
+<sect2><title>mkv</title>
+&enabled;
+<para>
+Dieses Modul erlaubt Ihnen Dateien im Matroskaformat
+zu lesen
+.</para>
+&options-st;  
+<itemizedlist>
+<listitem>
+<para><emphasis>--mkv-seek-percent, --no-mkv-seek-percent</emphasis> :
+   Wenn diese Option aktiviert ist (dies ist standardmäßig so),
+   basiert die Suche auf dem prozentualen Anteil und nicht auf der Zeit
+</para>
+</listitem>
+</itemizedlist>
+</sect2>
+
+<sect2><title>ps,ts</title>
+&always;
+<para>
+Ces modules vous permettent de lire les flux
+encapsulés en MPEG2-Program Stream ou Transport Stream
+.</para>
+&options-st;  
+<itemizedlist>
+<listitem>
+<para><emphasis>--vls-backward-compat, --no-vls-backward-compat</emphasis> :
+    Aktivieren Sie diese Option, wenn Sie MPEG 2 TS - Streams, die von
+   VLS &lt; 0.4 gesendet werden, lesen möchten.
+  </para></listitem>
+  <listitem><para><emphasis>--buggy-psi, --no-buggy-psi (ts module) </emphasis>:
+    Aktivieren Sie diese Option um den Umgang mit Dateien mit
+     fehlerhaftem PSI zu verbessern.
+  </para>
+ </listitem>
+</itemizedlist>
+</sect2>
+
+<sect2><title>id3,m3u</title>
+&always;
+<para>
+Diese Module erlauben Ihnen M3U, B4S, PLS und
+ASX Wiedergabelisten, sowie ID3 Tags zu lesen
+.</para></sect2>
+
+</sect1>

@@ -4,7 +4,7 @@
 
 <para>
  Click on the <emphasis>Uninstall VLC</emphasis>
-icon that was created during installation
+icon that was created during installation</para>
 </sect2>
 
 <sect2><title>BeOS</title>
@@ -61,8 +61,7 @@ execute
 <prompt># </prompt><userinput>make uninstall</userinput>
 </screen>
 
-<para>
-Then you can remove the VLC sources
+<para>Then you can remove the VLC sources</para>
 .</para>
 
 </sect2>

@@ -387,13 +387,12 @@ the same url, use this option instead of the two above
 <note><para>
 In the <emphasis>url</emphasis> options, if you use
 the <emphasis>file</emphasis> access, you can use the following macros
-in the filename:
-</para>
+in the filename:</para>
 
 <itemizedlist>
 
 <listitem><para><emphasis>%n</emphasis> = 
-stream number
+stream number</para></listitem>
 <listitem><para><emphasis>%c</emphasis> = FOURCC ;</para></listitem>
 <listitem><para><emphasis>%m</emphasis> =
 muxer

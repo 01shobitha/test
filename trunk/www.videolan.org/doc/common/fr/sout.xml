@@ -382,8 +382,7 @@ macros dans le nom de fichier:
 numéro de flux
 ;</para></listitem>
 <listitem><para><emphasis>%c</emphasis> = FOURCC ;</para></listitem>
-<listitem><para><emphasis>%m</emphasis> =
-format
+<listitem><para><emphasis>%m</emphasis> = format</para></listitem>
 <listitem><para><emphasis>%a</emphasis> = access.</para></listitem>
 
 </itemizedlist>

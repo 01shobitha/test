@@ -226,7 +226,7 @@ for WMA audio files. This muxer can be used with the file and HTTP
 output methods. Supported codecs are MPEG 4, MJPEG, WMV 1/2 for video,
 MPEG audio, a52 for audio streams.</para>
 
-<para>Item options are: <emphasis>title=&lt;title&gt;</emphasis>,
+<para>Item options are: 
 <emphasis>title=&lt;title&gt;</emphasis>,
 <emphasis>autor=&lt;author&gt;</emphasis>,
 <emphasis>copyright=&lt;copyright message&gt;</emphasis>,

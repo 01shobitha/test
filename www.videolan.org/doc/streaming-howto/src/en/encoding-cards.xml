@@ -267,8 +267,10 @@ You must add <command>--enable-v4l</command> to
 <screen>
 <!-- We cut the lines when they are too long, so that it looks OK in PDF format ! -->
 <prompt>% </prompt><userinput>vlc -vvv --color v4l:/dev/video:norm=secam:frequency=543250:size=640x480:channel=0:adev=/dev/dsp:audio=0
---sout '#transcode{vcodec=mp4v,acodec=mpga,vb=3000,ab=256,vt=800000,keyint=80,deinterlace}:std{access=udp,mux=ts,url=239.255.12.13}' --ttl 12</userinput>
+--sout '#transcode{vcodec=mp4v,acodec=mpga,vb=3000,ab=256,venc=ffmpeg{keyint=80,hurry-up,vt=800000},deinterlace}:std{access=udp,mux=ts,url=239.255.12.13}' --ttl 12</userinput>
 </screen>
+
+<note><para>You can find all transcode options on <ulink url="http://www.videolan.org/doc/streaming-howto/en/ch03.html">this page</ulink></para></note>
 
 <para>where:
 </para><itemizedlist>
@@ -338,15 +340,14 @@ in (<emphasis>mpga</emphasis> is MPEG audio layer 2,
  is the audio bitrate in Kbit/s
 </para></listitem>
 
-<listitem><para><emphasis>vt=800000</emphasis>
- is the video bitrate tolerance in bit/s,
-</para></listitem>
-
-<listitem><para><emphasis>keyint=80</emphasis>
- is the maximum interval between two "I" images in
-number of images,
-
-</para></listitem>
+<listitem><para><emphasis>venc=ffmpeg</emphasis>
+ allows to set the encoder to use, where: </para>
+<itemizedlist>
+<listitem><para><emphasis>keyint=80</emphasis> is the maximal amount of frames between two key frames</para></listitem>
+<listitem><para><emphasis>hurry-up</emphasis> allows the encoder to decrease the quality of the stream if the CPU can't keep up with the encoding rate</para></listitem>
+<listitem><para><emphasis>vt=800000</emphasis> is the tolerance in kbit/s for the bitrate of the outputted video</para></listitem>
+</itemizedlist>
+</listitem>
 
 <listitem><para><emphasis>deinterlace</emphasis>
 tells VLC to deinterlace the video on the fly,

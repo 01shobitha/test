@@ -64,7 +64,7 @@ Streaming, Muxers and Codecs</title>
 <para>A <emphasis>codec</emphasis> is a compression algorithm, used to reduce the size of a stream. There are audio codecs and video codecs. MPEG-1, MPEG-2, MPEG-4, Vorbis, DivX, ... are codecs</para>
 </sect2>
 <sect2><title>What is a container format ?</title>
-<para>To start off, think of a <emphasis>container format</emphasis> as a standard shipping box. You get a box in the mail and you think, "Cool! What's inside." You don't really care about the box itself, you care about what's in that box. The poblem? You can't see into the box. So what do you do? You get a knife and cut it open.</para>
+<para>To start off, think of a <emphasis>container format</emphasis> as a standard shipping box. You get a box in the mail and you think, "Cool! What's inside." You don't really care about the box itself, you care about what's in that box. The problem? You can't see into the box. So what do you do? You get a knife and cut it open.</para>
 <para>A <emphasis>container format</emphasis> follows this same basic idea. It contains one or several streams already encoded by codecs. Very often, there is an audio stream and a video one. AVI, Ogg, MOV, ASF, MP4 ... are container formats. The streams contained can be encoded using different codecs. In a perfect world, you could put any codec in any container format. Unfortunately, there are some incompatibilities. You can find a matrix of possible codecs and container formats on the <ulink url="http://www.videolan.org/streaming/features.html">features page</ulink></para>
 </sect2>
 <sect2><title>Encoding a video</title>

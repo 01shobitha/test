@@ -83,7 +83,7 @@ the command line the following argument :</para>
 <itemizedlist>
 
 <listitem><para><emphasis>muxer</emphasis> is one of the formats
-supported by VLC's stream output, i.e. :</para>
+supported by VLC's stream output, i.e. :</para></listitem>
 
 <itemizedlist>
 

@@ -3,6 +3,8 @@
    $lang = "en";
    $date = "06 April 2002";
    require("header.php3");
+
+   include("news.php3");
 ?>
 
 <table border="0" cellspacing="0" cellpadding="0">
@@ -67,8 +69,6 @@ contribute time (developpement, documentation, tests, user support, ...),
 material or even money. See the <a href="contribute.html">contribution
 page</a> for more information.</p>
 
-  <? include("news.php3"); ?>
-
 <? h2("News"); ?>
 
   <? shownews("full",5); ?>
@@ -113,4 +113,4 @@ page</a> for more information.</p>
   </tr>
 </table>
 
-<? footer('$Id: index.html,v 1.64 2003/02/03 04:13:52 sam Exp $'); ?>
+<? footer('$Id: index.html,v 1.65 2003/02/03 04:15:12 sam Exp $'); ?>

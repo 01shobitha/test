@@ -8,6 +8,8 @@
 
 <? function pkgitem($version,$name) { ?><li><a href="http://download.videolan.org/pub/videolan/vlc/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
 
+<? function pkgitem-dev($version,$name) { ?><li><a href="http://download.videolan.org/pub/testing/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
+
 <h1> VLC for Windows </h1>
 
 <h2>Latest packages (0.7.1)</h2>
@@ -29,6 +31,20 @@ reports of trojaned VLC binaries (Sophos detected Troj/Momma-B, and Panda
 detected Bck/Optix). These are <b>false positives</b>, our packages are <b>not
 trojaned</b>. The Windows version is compiled on a Linux box, it is highly
 unlikely that a Windows virus would end there. </p>
+
+<h2>Latest beta packages (0.7.2-test2)</h2>
+
+<p> Windows self-extracting package: </p>
+
+<ul>
+  <? pkgitem("0.7.2-test2/win32","vlc-0.7.2-test2-win32.exe"); ?>
+</ul>
+
+<p> Windows zip package (identical to the above but without the installer): </p>
+
+<ul>
+  <? pkgitem("0.7.2-test2/win32","vlc-0.7.2-test2-win32.zip"); ?>
+</ul>
 
 <h2>Older versions</h2>
 

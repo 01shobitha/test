@@ -11,7 +11,7 @@ visit <a href="http://www.via.ecp.fr/via/journeevia2004.html">this
 page</a>. To receive an invitation, send a mail to <a
 href="mailto:journee2004@via.ecp.fr">journee2004@via.ecp.fr</a>.
 
-|3/4 April 2004| VideoLAN at HackIT:04| We will
+|3-4 April 2004| VideoLAN at HackIT:04| We will
 participate to the italian hackmeeting in Genova (see <a
 href="http://www.hackmeeting.org/">http://www.hackmeeting.org/</a>). We
 will hold a conference about video streaming and make demos on saturday
@@ -42,7 +42,7 @@ for each O.S, the graphical interfaces, ... We hope that the
 contribution of VideoLAN users will help us keep a documentation
 as up-to-date as possible.
 
-|02 Mar 2004| Release: VLC 0.7.1| This new release of VLC media
+|2 Mar 2004| Release: VLC 0.7.1| This new release of VLC media
 player is a bit more than a bug-fix release as it does in fact include many
 new features. IGMPv3 support (Linux and WinXP), software DTS audio decoding,
 MOD audio support, a few new demuxers, an OpenGL video output plugin for OSX

@@ -51,12 +51,12 @@
 
 <tr>
 
-<td class="category" rowspan="4"><b>Output</b></td>
-<td class="type">Unicast UDP / RTP</td>
+<td class="category" rowspan="5"><b>Output</b></td>
+<td class="type">UDP Unicast / Multicast</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
-<td class="yes">Yes</td>
+<td class="partial">unicast only</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 
@@ -64,11 +64,11 @@
 
 <tr>
 
-<td class="type">Multicast UDP / RTP</td>
+<td class="type">RTP Unicast / Multicast</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
-<td class="none">-</td>
+<td class="partial">unicast only</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 
@@ -98,6 +98,17 @@
 
 </tr>
 
+<tr>
+
+<td class="type">MMSH</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
+</tr>
 
 <tr>
 <td class="category" rowspan="3"><b>Misc</b></td>
@@ -155,13 +166,15 @@
 
 <tr>
 <td></td>
-<td class="matrixhead">UDP/RTP</td>
+<td class="matrixhead">UDP</td>
+<td class="matrixhead">RTP</td>
 <td class="matrixhead">HTTP</td>
 <td class="matrixhead">File</td>
 </tr>
 
 <tr>
 <td class="category">PS</td>
+<td class="no">No</td>
 <td class="no">No</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -170,6 +183,7 @@
 <tr>
 <td class="category">TS</td>
 <td class="yes">Yes</td>
+<td class="no">No</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 </tr>
@@ -177,12 +191,14 @@
 <tr>
 <td class="category">Ogg</td>
 <td class="no">No</td>
+<td class="no">No</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 </tr>
 
 <tr>
 <td class="category">ASF</td>
+<td class="no">No</td>
 <td class="no">No</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -192,6 +208,7 @@
 <td class="category">MP4</td>
 <td class="no">No</td>
 <td class="no">No</td>
+<td class="no">No</td>
 <td class="yes">Yes</td>
 </tr>
 
@@ -199,11 +216,13 @@
 <td class="category">AVI</td>
 <td class="no">No</td>
 <td class="no">No</td>
+<td class="no">No</td>
 <td class="yes">Yes</td>
 </tr>
 
 <tr>
 <td class="category">Raw</td>
+<td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -535,16 +554,8 @@ interoperable).</p>
 
 <tr>
 
-<td class="category" rowspan="3"><b>Output</b></td>
-<td class="type">Unicast UDP / RTP</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="type">Multicast UDP / RTP</td>
+<td class="category" rowspan="2"><b>Output</b></td>
+<td class="type">UDP Unicast / Multicast</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 
@@ -641,4 +652,4 @@ interoperable).</p>
 <p>[4] VLS supports two kinds MPEG-2 encoding cards: Hauppauge          
 WinTV-PVR-250/350 and Visiontech Kfir.</p>                              
 
-<? footer('$Id: features.html,v 1.60 2003/12/16 20:00:21 gbazin Exp $'); ?>
+<? footer('$Id: features.html,v 1.61 2004/01/11 19:17:35 alexis Exp $'); ?>

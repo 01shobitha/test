@@ -30,9 +30,11 @@ function starthtml($title) { ?>
     * The cool navigation bar, including mirror drop-down menu
     */
 
+echo "host: &lt;$HTTP_HOST&gt;<br>";
+echo "host: &lt;$HTTP_REQUEST>&gt;<br>";
 ?><form action="index.html" method="get">
   <table width="100%" cellspacing="3" cellpadding="0"><tr>
-    <td style="background-color: #ccccff; width: 17%; vertical-align: middle;" align="center"><a href="/">Home</a></td>
+    <td style="background-color: inherit; width: 17%; vertical-align: middle;" align="center"><a href="/">Home</a></td>
     <td style="background-color: #aaaaff; width: 16%; vertical-align: middle;" align="center"><a href="/vlc/">VLC Media Player</a></td>
     <td style="background-color: #aaaaff; width: 17%; vertical-align: middle;" align="center"><a href="/streaming/">Streaming</a></td>
     <td style="background-color: #aaaaff; width: 17%; vertical-align: middle;" align="center"><a href="/doc/">Documentation</a></td>

@@ -41,19 +41,21 @@ keep the default port and click on <emphasis>OK</emphasis>.</para>
 <itemizedlist>
 
 <listitem><para>under Windows : click on <emphasis>File / Stream
-output</emphasis> in the menu, check <emphasis>UDP</emphasis> and type
-the IP address or the DNS name of the machine you want to stream to in the
-<emphasis>Address</emphasis> box and click on <emphasis>OK</emphasis>.
-Then click on <emphasis>Disc</emphasis>, type the device name corresponding to your DVD drive and click on <emphasis>OK</emphasis>.</para>
+output</emphasis> in the menu, check <emphasis>UDP</emphasis> and
+type the IP address or the DNS name of the machine you want to
+stream to in the <emphasis>Address</emphasis> box and click on
+<emphasis>OK</emphasis>. Then click on <emphasis>Disc</emphasis>,
+type the device name corresponding to your DVD drive, uncheck
+<emphasis>Menus</emphasis> and click on <emphasis>OK</emphasis>.</para>
 
 <listitem><para>under Linux/Unix : start VLC, click on
-<emphasis>Disc</emphasis> and type the device name corresponding
-to your DVD drive in the <emphasis>Device name</emphasis> box.
-Then check <emphasis>Stream output</emphasis> and click on
-<emphasis>Settings</emphasis>. Check <emphasis>UDP</emphasis> and type
-the IP address or the DNS name of the machine you want to stream to in the
-<emphasis>Address</emphasis> box. Click on <emphasis>OK</emphasis>
-twice.</para>
+<emphasis>Disc</emphasis>, type the device name corresponding to your
+DVD drive in the <emphasis>Device name</emphasis> box and uncheck
+<emphasis>Use DVD menus</emphasis>. Then check <emphasis>Stream
+output</emphasis> and click on <emphasis>Settings</emphasis>. Check
+<emphasis>UDP</emphasis> and type the IP address or the DNS name of the
+machine you want to stream to in the <emphasis>Address</emphasis> box.
+Click on <emphasis>OK</emphasis> twice.</para>
 
 <listitem><para>under Mac OS X, the procedure should be very similar to
 Linux.</para>

@@ -191,8 +191,6 @@ td.blue   { color: black; background-image: none; background-color: #9bf; }
 td.green  { color: black; background-image: none; background-color: #afa; }
 td.orange { color: black; background-image: none; background-color: #ec8; }
 td.red    { color: black; background-image: none; background-color: #faa; }
-
-/* Styles used for the features tables */
 td.yes {
   color: black;
   background-image: none;
@@ -238,6 +236,68 @@ th.os {
   background-image: none;
 /*  background-color: #eaa; */
   vertical-align: middle;
+}
+td.firstbar {
+  vertical-align: middle;
+  text-align: center;
+  background-color: #a43;
+  color: #fff;
+  font-weight: bold;
+  font-size: 11pt;
+}
+a.firstbar:link {
+  background-color: #a43;
+  color: #fff;
+  font-size: inherit;
+}
+a.firstbar:visited {
+  background-color: #a43;
+  color: #fff;
+  font-size: inherit;
+}
+a.firstbar:hover {
+  background-color: #a43;
+  color: #ffdd44;
+  font-size: inherit;
+}
+td.firstbarselected {
+  vertical-align: middle;
+  text-align: center;
+  background-color: #888;
+  color: #ffdd44;
+  font-weight: bold;
+  font-size: 11pt;
+}
+td.secondbar {
+  vertical-align: middle;
+  text-align: center;
+  background-color: #888;
+  color: #fff;
+  font-weight: bold;
+  font-size: 10pt;
+}
+a.secondbar:link {
+  background-color: #888;
+  color: #fff;
+  font-size: inherit;
+}
+a.secondbar:visited {
+  background-color: #888;
+  color: #fff;
+  font-size: inherit;
+}
+a.secondbar:hover {
+  background-color: #888;
+  color: #ffdd44;
+  font-size: inherit;
+}
+td.secondbarselected {
+  vertical-align: middle;
+  text-align: center;
+  background-color: #888;
+  color: #ffdd44;
+  font-weight: bold;
+  font-size: 10pt;
 }
 
 /* Styles used for the upper navigation bar */

@@ -90,15 +90,13 @@ function starthtml($title) { ?>
     get_first_bar_item_poukram(6, "support", "Support", "/support/", $modules[1]);
     get_first_bar_item_poukram(6, "developers", "Developers", "http://developers.videolan.org/", $modules[1]); ?>
     <td class="topbar" style="width: 8%">&nbsp;</td>
-<? } else { ?>
-    <td class="topleft" style="width: 8%">&nbsp;</td><?
+<? } else {
     get_first_bar_item(6, "home", "Home", "/", $modules[1]);
     get_first_bar_item(6, "vlc", "VLC", "/vlc/", $modules[1]);
     get_first_bar_item(6, "streaming", "Streaming", "/streaming/", $modules[1]);
     get_first_bar_item(6, "doc", "Documentation", "/doc/", $modules[1]);
     get_first_bar_item(6, "support", "Support", "/support/", $modules[1]);
     get_first_bar_item(6, "developers", "Developers", "http://developers.videolan.org/", $modules[1]); ?>
-    <td class="topbar" style="width: 8%">&nbsp;</td>
 <? } ?>
   </tr>
   </table>

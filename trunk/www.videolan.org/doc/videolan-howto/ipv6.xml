@@ -43,7 +43,9 @@ Windows 2000 con la pila IPv6, Windows XP Service Pack 1 o
 Mac OS X version 10.2 o superior. Por favor, visita la página
 del <ulink url="http://www.videolan.org">sitio web de VideoLAN</ulink> 
 para conocer el estado de IPv6 en VLC y VLS para cada sistema operativo</span>
-.</para></note>
+.</para>
+
+<para>
 
 <span xml:lang="de">Sie benötigen eine IPv6 kompatibles Betriebssystem, wie
 Linux 2.4 oder 2.6 mit geladenem <emphasis>ipv6</emphasis> Modul, 

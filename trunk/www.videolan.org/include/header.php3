@@ -81,19 +81,32 @@ function starthtml($title) { ?>
 
   <table style="width: 100%;" cellspacing="0" cellpadding="0">
   <tr>
+<? if($_GET['poukram']) { ?>
+    <td class="topleft" style="width: 8%">&nbsp;</td><?
+    get_first_bar_item_poukram(6, "home", "Home", "/", $modules[1]);
+    get_first_bar_item_poukram(6, "vlc", "VLC", "/vlc/", $modules[1]);
+    get_first_bar_item_poukram(6, "streaming", "Streaming", "/streaming/", $modules[1]);
+    get_first_bar_item_poukram(6, "doc", "Documentation", "/doc/", $modules[1]);
+    get_first_bar_item_poukram(6, "support", "Support", "/support/", $modules[1]);
+    get_first_bar_item_poukram(6, "developers", "Developers", "http://developers.videolan.org/", $modules[1]); ?>
+    <td class="topbar" style="width: 8%">&nbsp;</td>
+<? } else { ?>
     <td class="topleft" style="width: 8%">&nbsp;</td><?
     get_first_bar_item(6, "home", "Home", "/", $modules[1]);
     get_first_bar_item(6, "vlc", "VLC", "/vlc/", $modules[1]);
     get_first_bar_item(6, "streaming", "Streaming", "/streaming/", $modules[1]);
     get_first_bar_item(6, "doc", "Documentation", "/doc/", $modules[1]);
     get_first_bar_item(6, "support", "Support", "/support/", $modules[1]);
-    get_first_bar_item(6, "developers", "Developers", "http://developers.videolan.org/", $modules[1]);
-    ?><td class="topbar" style="width: 8%">&nbsp;</td>
+    get_first_bar_item(6, "developers", "Developers", "http://developers.videolan.org/", $modules[1]); ?>
+    <td class="topbar" style="width: 8%">&nbsp;</td>
+<? } ?>
   </tr>
   </table>
   <table style="width: 100%;" cellspacing="0" cellpadding="0">
   <tr>
+<? if($_GET['poukram']) { ?>
     <td class="bottomleft">&nbsp;</td>
+<? } ?>
     <? switch($modules[1]) {
       case "vlc": second_bar_vlc($modules[2]); break;
       case "streaming": second_bar_stream($modules[2]); break;
@@ -101,7 +114,9 @@ function starthtml($title) { ?>
       case "support": second_bar_support($modules[2]); break;
       case "home": second_bar_home($modules[2]); break;
     } ?>
+<? if($_GET['poukram']) { ?>
     <td class="bottomright">&nbsp;</td>
+<? } ?>
   </tr>
   </table>
 
@@ -123,7 +138,7 @@ function starthtml($title) { ?>
 }
 
 /* Give an entire cell html code for the first menubar */
-function get_first_bar_item($number, $module, $text, $url, $current_module) {
+function get_first_bar_item_poukram($number, $module, $text, $url, $current_module) {
   $size = floor((100-16) / $number);
   if($current_module == $module)
   {
@@ -137,17 +152,32 @@ function get_first_bar_item($number, $module, $text, $url, $current_module) {
   }
 }
 
+/* Give an entire cell html code for the first menubar */
+function get_first_bar_item($number, $module, $text, $url, $current_module) {
+  $size = floor((100) / $number);
+  if($current_module == $module)
+  {
+     ?><td class="firstbarselected" style="width: <? echo $size; ?>%"><? echo $text; ?></td>
+     <?
+  }
+  else
+  {
+     ?><td class="firstbar" style="width: <? echo $size; ?>%"><a class="firstbar" href="<? echo $url; ?>"><? echo $text; ?></a></td>
+     <?
+  }
+}
+
 /* Give an entire cell html code for the second menubar */
 function get_second_bar_item($number, $module, $text, $url, $current_module) {
   $size = floor(100 / $number);
   if($current_module == $module)
   {
-     ?><td class="bottombarselected" style="width: <? echo $size; ?>%"><? echo $text; ?></td>
+     ?><td class="<? if($_GET['poukram']) { echo "bottom"; } else { echo "second"; } ?>barselected" style="width: <? echo $size; ?>%"><? echo $text; ?></td>
      <?
   }
   else
   {
-     ?><td class="bottombar" style="width: <? echo $size; ?>%"><a class="bottombar" href="<? echo $url; ?>"><? echo $text; ?></a></td>
+     ?><td class="<? if($_GET['poukram']) { echo "bottom"; } else { echo "second"; } ?>bar" style="width: <? echo $size; ?>%"><a class="<? if($_GET['poukram']) { echo "bottom"; } else { echo "second"; } ?>bar" href="<? echo $url; ?>"><? echo $text; ?></a></td>
      <?
   }
 }

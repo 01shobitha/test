@@ -4,7 +4,9 @@
 
 <sect1><title>Install the Video for Linux drivers</title>
 
-<para>If you want to stream from an acquisition card, a video4linux driver must be available for it. You can find more information about video4linux and supported devices <ulink url="http://www.exploits.org/v4l">here</ulink>. Compile the right module for your device, and insert it into your kernel (Some video4linux modules are shipped with linux 2.4.20). You can test your device by using any of the listed programs in the Video: TV and PVR/DVR section of <ulink url="http://www.exploits.org/v4l/">this page</ulink></para>
+<para>If you want to stream from an acquisition card, a video4linux driver must be available for it. You can find more information about video4linux and supported devices <ulink url="http://www.exploits.org/v4l">here</ulink>.</para>
+<para>Compile the right module for your device, and insert it into your kernel (Some video4linux modules are shipped with linux 2.4.20). You can test your device by using any of the listed programs in the Video: TV and PVR/DVR section of <ulink url="http://www.exploits.org/v4l/">this page</ulink></para>
+<para>Note that v4l2 modules will also work with VLC</para>
 
 <sect1><title>Stream with VLC</title>
 

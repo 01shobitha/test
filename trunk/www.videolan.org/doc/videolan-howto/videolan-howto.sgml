@@ -4,14 +4,6 @@
     %magic-entities;
 
   <!ENTITY intro SYSTEM "../common/intro.sgml">
-<<<<<<< videolan-howto.sgml
-  <!ENTITY overview SYSTEM "overview.sgml">
-  <!ENTITY vls SYSTEM "vls.sgml">
-  <!ENTITY channel SYSTEM "channel.sgml">
-  <!ENTITY vod SYSTEM "vod.sgml">
-  <!ENTITY faq SYSTEM "faq.sgml">
-
-=======
   <!ENTITY install SYSTEM "install.sgml">
   <!ENTITY receive SYSTEM "receive.sgml">
   <!ENTITY file SYSTEM "file.sgml">
@@ -22,7 +14,6 @@
   <!ENTITY vod SYSTEM "../videolan-quickstart/vod.sgml">
   <!ENTITY sap SYSTEM "../common/sap.sgml">
   <!ENTITY install-vlc SYSTEM "../common/install-vlc.sgml">
->>>>>>> 1.6
   <!ENTITY install-vls SYSTEM "../common/install-vls.sgml">
   <!ENTITY uninstall-vls SYSTEM "../common/uninstall-vls.sgml">
   <!ENTITY fdl SYSTEM "../common/fdl.sgml">
@@ -44,6 +35,15 @@
     <firstname>Marc</firstname>
     <surname>Ariberti</surname>
   </author>
+  <author>
+    <firstname>Anil</firstname>
+    <surname>Daoud</surname>
+  </author>
+  <author>
+    <firstname>Clément</firstname>
+    <surname>Stenac</surname>
+  </author>
+
 </authorgroup>
 
 <copyright>
@@ -96,10 +96,6 @@ solution.</para>
 <toc></toc>
 
 &intro;
-<<<<<<< videolan-howto.sgml
-&overview;
-&vls;
-=======
 &install;
 &receive;
 &file;
@@ -107,13 +103,7 @@ solution.</para>
 &dvb;
 &hardencoding;
 &softencoding;
->>>>>>> 1.6
 &vod;
-<<<<<<< videolan-howto.sgml
-&channel;
-&faq;
-=======
 &sap;
->>>>>>> 1.6
 &fdl;
 </book>

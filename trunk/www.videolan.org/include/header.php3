@@ -19,7 +19,7 @@ function starthtml($title) { ?>
    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
    <meta name="GENERATOR" content="vim [GNU/Linux], GNU Emacs" />
    <meta name="Author" content="videolan@videolan.org (VideoLAN team)" />
-   <meta name="Keywords" content="DVD, MPEG, MPEG2, VideoLAN, Linux, Unix, BeOS, BSD, MacOS, MacOS X, OSX, QNX, Familiar Linux, iPAQ" />
+   <meta name="Keywords" content="DVD, MPEG, MPEG2, VideoLAN, VLC, VLS, Linux, Unix, BeOS, BSD, MacOS, MacOS X, OSX, QNX, Familiar Linux, iPAQ" />
    <meta name="Description" content="<? echo $title; ?>" />
    <title><? echo $title; ?></title>
    <link rel="stylesheet" type="text/css" href="/main.css" />
@@ -88,7 +88,7 @@ function starthtml($title) { ?>
         /*
          * the side menu
          */
-          switch($module) {
+          switch($modules[1]) {
            case "vlc": ?>
   <h2><a href="/vlc/">VLC Media Player</a></h2>
     <a href="/vlc/">overview</a><br />

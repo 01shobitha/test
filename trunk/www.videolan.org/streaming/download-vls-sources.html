@@ -6,7 +6,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 
-<? function pkgitem($version,$name,$comment) { ?><li><a href="/pub/videolan/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a> <? echo $comment; ?> </li><? } ?>
+<? function pkgitem($version,$name,$comment) { ?><li><a href="http://gwyneth.videolan.org/pub/videolan/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a> <? echo $comment; ?> </li><? } ?>
 
 <h1> VLS source code </h1>
 
@@ -18,7 +18,7 @@
   <?
      pkgitem("vls/0.5.3","vls-0.5.3.tar.gz","");
   ?>
-  <li><a href="/pub/videolan/vls/0.5.3/"><i>browse the list</i></a></li>
+  <li><a href="http://gwyneth.videolan.org/pub/videolan/vls/0.5.3/"><i>browse the list</i></a></li>
 </ul>
 
 <p> Latest required libraries: </p>
@@ -31,7 +31,7 @@
      pkgitem("vls/0.5.3/contrib","libdvb-0.2.2.tar.gz","(DVB library)");
   ?>
 
-  <li><a href="/pub/videolan/vls/0.5.3/contrib"><i>browse the list</i></a></li>
+  <li><a href="http://gwyneth.videolan.org/pub/videolan/vls/0.5.3/contrib"><i>browse the list</i></a></li>
 </ul>
 
 <h2>CVS</h2>
@@ -44,4 +44,4 @@ href="http://developers.videolan.org/">developers website</a>. </p>
 <p>Older versions can be found by <a
 href="http://www.videolan.org/pub/vls/">browsing</a> our FTP site.</p>
 
-<? footer('$Id: download-vls-sources.html,v 1.10 2003/09/29 23:27:55 sam Exp $'); ?>
+<? footer('$Id: download-vls-sources.html,v 1.11 2003/10/30 15:17:52 sam Exp $'); ?>

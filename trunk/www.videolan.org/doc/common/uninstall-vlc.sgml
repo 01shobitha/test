@@ -1,0 +1,62 @@
+<para>The VideoLAN  Client is  a multi-OS  software. There  are binaries
+versions available  for the main ones,  but for some other  OS, you will
+have to compile  the source code by yourself. Anyway,  you can compilate
+the VLC for  every OS, if you  want to change the  default settings, for
+exemple</para>
+
+
+<sect2><title>Under Windows</title>
+
+<para>Simply click on the <command>Uninstall vlc</command> icon that was
+created during installation.</para>
+
+</sect2>
+
+<sect2><title>Under BeOS</title>
+
+<para>
+[FIXME]
+</para>
+
+</sect2>
+
+<sect2><title>Under Mac OS X</title>
+
+<para>
+
+[FIXME]
+</para>
+
+</sect2>
+
+<sect2><title>Under Linux Debian</title>
+<para>Simply remove the packages that you installed</para>
+<para> As root, type</para>
+
+<screen>
+<prompt># </prompt><userinput>apt-get remove vlc-gnome vlc-mad libdvdcss2 --purge</userinput>
+</screen>
+</sect2>
+
+<sect2><title>Under Linux Redhat, Mandrake and SuSE</title>
+
+<para>
+Uninstall the RPM packages you had previously installed :
+</para>
+
+<screen>
+<prompt># </prompt><userinput>[FIXME]rpm -Uhv vlc-version.i586.rpm vlc-mad-version.i586.rpm vlc-gnome-version.i586.rpm
+libdvdcss2-version.i586.rpm libdvdpsi1-version.i586.rpm</userinput>
+</screen>
+
+</sect2>
+
+<sect2><title>If you compiled the sources by yourself</title>
+
+
+<para> To uninstall the VLC, you can execute <command>make
+uninstall</command>, <command>make clean</command> or <command>make
+distclean</command> as needed, from where you compiled the VLC.
+</para>
+
+</sect2>

@@ -66,7 +66,7 @@ $(DOC)-es.xml: $(DOC).xml
 $(DOC)-es.html: $(DOC)-es.xml
 	/bin/cp ../common/magic-jpg.xml ../common/magic.xml
 	jade -t sgml -d ../common/stylesheet-html.dsl $(DOC)-es.xml
-	mv $(DOC).html $(DOC)-en.html
+	mv $(DOC).html $(DOC)-es.html
 	zip $(DOC)-es-html.zip $(DOC)-es.html
 
 $(DOC)-es.ps: $(DOC)-es.xml

@@ -53,18 +53,15 @@ function starthtml($title) { ?>
 
 <tr>
 
- <td style="vertical-align: middle;" align="center">
+ <td style="vertical-align: middle;width=35" align="center">
    <img src="/images/cone-soppera1-mini.png" alt="Logo VideoLAN" />
   </td>
 
- <td>
-
-  <form action="index.html" method="get">
-  <table width="100%" cellspacing="0" cellpadding="0">
+ <td style="width=90%">
 
   <tr>
 
-   <td>
+   <td style="width:90%">
 
      <table width="100%" cellspacing="3" cellpadding="0">
      <tr>
@@ -76,19 +73,10 @@ function starthtml($title) { ?>
      <td style="background-color: #afa; width: 17%; vertical-align: middle;" align="center"><b><a href="http://developers.videolan.org/">Developers</a></b></td>
      </tr>
      </table>
-    </td>
+   </td>
 
-
-    <td style="white-space: nowrap;">
-      <select name="mirror">
-        <!-- current: $GLOBALS['HTTP_HOST'] -->
-        <option value="www.videolan.org">Châtenay, France (main)</option>
-        <option value="www.fr.videolan.org">Paris, France</option>
-      </select><input type="submit" value="Select Mirror" />
-    </td>
-
-    </tr>
-    <tr>
+  </tr>
+  <tr>
 
    <td>
 
@@ -106,13 +94,17 @@ function starthtml($title) { ?>
 
    </td>
 
-   <td></td>
-
   </tr>
 
-  </table>
-  </form>
-
+ </td>
+ <td>
+   <form action="index.html" method="get">
+     <select name="mirror">
+     <!-- current: $GLOBALS['HTTP_HOST'] -->
+     <option value="www.videolan.org">Châtenay, France (main)</option>
+     <option value="www.fr.videolan.org">Paris, France</option>
+     </select><input type="submit" value="Select Mirror" />
+   </form>
  </td>
 </tr>
 </table>

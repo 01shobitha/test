@@ -35,9 +35,9 @@ please refer to the documentation shipped with the drivers.</para>
 
 <sect2><title>Stream with VLC</title>
 
-<note><para>You should use the CVS version of VLC and you must add
-<command>--enable-pvr</command> to <command>./configure</command>
-to use this feature. You may want to change the value of
+<note><para>You must add <command>--enable-pvr</command>
+to <command>./configure</command> to use this
+feature. You may want to change the value of
 <emphasis>CR_MAX_AVERAGE_COUNTER</emphasis> to <emphasis>1000</emphasis>
 in <filename>src/input/input_clock.c</filename> to work around a problem
 with the card.</para></note>

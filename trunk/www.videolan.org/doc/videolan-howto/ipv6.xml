@@ -40,8 +40,8 @@ chaque système.</span>
 <span xml:lang="es">Se necesita un sistema operativo compatible con IPv6,
 como por ejemplo Linux 2.4 ó 2.6 con el módulo <emphasis>ipv6</emphasis> cargado, 
 Windows 2000 con la pila IPv6, Windows XP Service Pack 1 o
-Mac OS X version 10.2 o superior. Por favor, visita la página
-del <ulink url="http://www.videolan.org">sitio web de VideoLAN</ulink> 
+Mac OS X versión 10.2 o superior. Por favor, visite la página
+de <ulink url="http://www.videolan.org">VideoLAN</ulink> 
 para conocer el estado de IPv6 en VLC y VLS para cada sistema operativo</span>
 .</para>
 
@@ -89,7 +89,7 @@ if</command>.</span>
 
 <span xml:lang="es">donde el último número (<emphasis>4</emphasis> en
 este ejemplo) es el número de su interfaz IPv6. Para ver la lista
-de sus interfaces IPv6, ejecuta <command>ipv6 if</command>.</span>
+de sus interfaces IPv6, ejecute <command>ipv6 if</command>.</span>
 
 <span xml:lang="de">wobei die letzte Nummer (<emphasis>4</emphasis> in
 diesem Beispiel) die Nummer Ihres echtes IPv6-Interfaces ist. Um eine Liste Ihrer
@@ -262,7 +262,7 @@ nommées <emphasis>ethX</emphasis>, sous Mac OS X, c'est
 <span xml:lang="es">donde <emphasis>eth0</emphasis> es el nombre de la
 interfaz de red (bajo Linux, las interfaces de red
 son llamadas <emphasis>ethX</emphasis>, bajo Mac OS X se llaman
-<emphasis>enX</emphasis> y bajo Windows <emphasis>X</emphasis>,
+<emphasis>enX</emphasis> y bajo Windows, <emphasis>X</emphasis>,
 donde <emphasis>X</emphasis> es el número apropiado)</span>
 <span xml:lang="de">wobei <emphasis>eth0</emphasis> der Name des
 Netzwerkinterfaces ist (unter Linux werden die Netzwerk-Interface'
@@ -342,7 +342,7 @@ schreiben</span>
 brackets around the IPv6 address</span>
 <span xml:lang="fr">Sous Unix ou GNU/Linux, il est possible que vous
 deviez "protéger" les crochets autour de l'adresse IPv6</span>
-<span xml:lang="es">Bajo Linux, es posible que tengas que "proteger"
+<span xml:lang="es">Bajo Linux, es posible que tenga que "proteger"
 los corchetes que rodean la dirección IPv6</span>
 <span xml:lang="de">Unter Unix/Linux kann es notwendig sein, dass Sie die
 Klammern um die IPv6-Adresse "beschützen" müssen</span>
@@ -383,7 +383,7 @@ nommées <emphasis>ethX</emphasis>, sous Mac OS X, c'est
 <span xml:lang="es">donde <emphasis>eth0</emphasis> es el nombre de la
 interfaz de red (bajo Linux, las interfaces de red
 son llamadas <emphasis>ethX</emphasis>, bajo Mac OS X se llaman
-<emphasis>enX</emphasis> y bajo Windows <emphasis>X</emphasis>,
+<emphasis>enX</emphasis> y bajo Windows, <emphasis>X</emphasis>,
 donde <emphasis>X</emphasis> el el número apropiado)</span>
 <span xml:lang="de">wobei <emphasis>eth0</emphasis> der Name des
 Netzwerkinterfaces ist (unter Linux werden die Netzwerk-Interface'

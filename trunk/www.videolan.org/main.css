@@ -45,11 +45,11 @@ h1 {
   border-style: solid;
   border-bottom-color: #a43;
   border-bottom-width: 2px;
-  border-top-color: #fff;
+  border-top-color: #fff; /* white */
   border-top-width: 0px;
-  border-left-color: #fff;
+  border-left-color: #fff; /* white */
   border-left-width: 0px;
-  border-right-color: #fff;
+  border-right-color: #fff; /* white */
   border-right-width: 0px;
 }
 
@@ -66,20 +66,20 @@ h2 {
 a:link {
   background: inherit;
   font-family: inherit;
-  color: #b32;
+  color: #23b;
   text-decoration: underline;
 }
 
 a:visited {
   background: inherit;
   font-family: inherit;
-  color: #700;
+  color: #007;
 }
 
 a:hover {
-  background: #fb9;
+  background: #9bf;
   font-family: inherit;
-  color: #a00;
+  color: #00a;
 }
 
 ol, ul, ul.small {

@@ -35,6 +35,15 @@ RewriteRule ^libdvbpsi/(.*)$ /vlc/index.html [R=permanent,L]
 RewriteRule ^vlms/(.*)$ /streaming/index.html [R=permanent,L]
 RewriteRule ^network/(.*)$ /streaming/index.html [R=permanent,L]
 
+#
+# Redirects for removed stuff
+#
+RewriteRule ^vlc/(.*).tgz$ /removed/$1.tgz [R=permanent,L]
+RewriteRule ^vlc/(.*).bz2$ /removed/$1.bz2 [R=permanent,L]
+
+#
+# Redirects for stuff moved to developers site
+#
 Redirect permanent /vlc/changelog.html http://developers.videolan.org/vlc/ChangeLog
 Redirect permanent /vls/changelog.html http://developers.videolan.org/vls/ChangeLog
 Redirect permanent /cvs.html http://developers.videolan.org/cvs.html

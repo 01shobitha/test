@@ -9,7 +9,7 @@ RewriteEngine on
 # yet another kludge to hide .svn directories
 RewriteRule \.svn /404.html [L]
 
-# répertoire/ -> répertoire/index.html
+# directory/ -> directory/index.html
 RewriteRule ^(.*)/$ $1/index.html
 RewriteRule ^$ index.html
 
@@ -24,4 +24,3 @@ RewriteRule ^(.*)/([^/]+)\.html$ include/rewrite.php3?dir=$1&page=$2
 
 # changelog
 RewriteRule ^(.*)/ChangeLog$ include/rewrite.php3?dir=$1&changelog=1
-RewriteRule ^(.*)/devel_doc.html$ /$1/

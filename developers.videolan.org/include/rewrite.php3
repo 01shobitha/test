@@ -1,6 +1,7 @@
 <?php
   $path = '/var/www/local/developers.videolan.org/';
   $dir = $_GET['dir'];
+  $isindex = false;
 
   chdir ($path);
 
@@ -16,10 +17,16 @@
     if (preg_match("/[^a-zA-Z0-9\.\-]/", $page))
       $page = '403';
     else
+    {
+      if ($page == 'index')
+        $isindex = true;
       $page = "$dir/$page";
+    }
   }
   else
     $page = '403';
+
+  $title = "developers.videolan.org";
 
   if( file_exists( "$page.html" ) )
   {
@@ -37,21 +44,13 @@
       $line = fgets( $fd, 1023 );
       eval( $line ); // get $title
     }
-    else
-    {
-      $title = "developers.videolan.org";
-    }
-  }
-  else
-  {
-    $title = "developers.videolan.org";
   }
 ?>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-  <title><?php echo $title ?></title>
+  <title><?php echo $title; ?></title>
   <link type="text/css" href="/main.css" rel="stylesheet">
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 </head>
@@ -71,7 +70,7 @@
   {
     include( "$page.html" );
   }
-  else if( $changelog )
+  else if( $_GET['changelog'] )
   {
     $changelogfile = file( 'ChangeLog' );
     while( list( $line_number, $line ) = each( $changelogfile ) )
@@ -81,9 +80,10 @@
     }
   }
   else
+  if( $isindex )
   {
     $listing = array();
-    $handle = opendir( '.' );
+    $handle = opendir( $dir );
     while( $file = htmlentities( readdir( $handle ) ) )
     {
       if( $file != "." && $file != "..")
@@ -101,6 +101,8 @@
       next($listing);
     }
   }
+  else
+    include( '404.html' );
 ?>
 
 <br><br>

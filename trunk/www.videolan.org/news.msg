@@ -4,9 +4,9 @@
 # Et pour les nouvelles importantes, c'est pas un | , c'est un §
 #
 
-|21 May 2003| Release: VLS 0.5.2 | This releases fixes a bug
-with multiple Nova-t cards and a bug in the configure script
-with DVB drivers. To download this new version, go to the <a
+|21 May 2003| Release: VLS 0.5.2 | This releases fixes a bug when
+trying to stream multiple DVB channels and a bug in the configure
+script with DVB drivers. To download this new version, go to the <a
 href="http://www.videolan.org/streaming/">streaming page</a>.
 
 |16 May 2003| Release: VLS 0.5.1 | VLS for Windows is back ! The Windows

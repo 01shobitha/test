@@ -24,21 +24,19 @@ page</ulink>.</para>
 <prompt>% </prompt><userinput>make</userinput>
 </screen>
 
-<para>Edit the configuration file <filename>sap.cfg</filename>. It
-should contain a global section with the Time To Live of the SAP
-announces and a section per program announced. Use the comments to
-understand each parameter.</para>
+<para>Edit the configuration file <filename>sap.cfg</filename> shipped
+with the tarball. It should contain a global section with the Time To
+Live of the SAP announces and a section per program announced. Use the
+comments to understand each parameter.</para>
 
 <para>The Time To Live option indicates the maximum number of routers
-that the SAP announce packet can cross before being dropped.</para>
+that the SAP announce packets can cross before being dropped.</para>
 
-</sect1>	
+</sect1>
 
 <sect1><title>Run the mini-SAP-server</title>
 
 <para>Start the mini-SAP-server :</para>
-
-<note><para>A typical sap.cfg configuration file is shipped with mini-SAP-server.</para></note>
 
 <screen>
 <prompt>% </prompt><userinput>./sapserver -c sap.cfg</userinput>

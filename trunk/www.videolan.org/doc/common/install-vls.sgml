@@ -1,3 +1,10 @@
+<para>Full-featured VLS is currently only available for
+Linux. VLS can also be built on computers running Mac OS
+X, and is <emphasis>not</emphasis> available for
+Windows any more. Please visit the <ulink
+url="http://www/videolan.org/streaming/features.html">streaming features
+page</ulink> for more information.</para>
+
 <simplesect><title>Install the librairies</title>
 
 <para>
@@ -53,8 +60,6 @@ contains the following line :
 </simplesect>
 
 <simplesect><title>Install VLS</title>
-
-<para> Full-featured VLS is currently only available for linux. VLS can also be built on computers running Mac OS X, and is _not_ available any more for Microsoft Windows operating systems. Please visit <ulink url="http://www/videolan.org/streaming/features.html">VLS features page</ulink> for more information</para>
 
 <para> Download the sources of the latest release : get the
 file <filename>vls-version.tar.gz</filename> from the <ulink

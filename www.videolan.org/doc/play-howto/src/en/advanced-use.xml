@@ -613,7 +613,7 @@ provides control of VLC using a joystick. TODO </para> </sect2>
 
 <para> VLC can also be embedded in a web browser ! At
 the moment, this function is only available with <ulink
-url="http://www.mozilla.org/">Mozilla</ulink> or Firefox.
+url="http://www.mozilla.org/">Mozilla</ulink> or <ulink url="http://www.mozilla.org/products/firefox/">Firefox</ulink>.
 </para>
 
 <sect2><title>Install the plugin</title>
@@ -695,12 +695,37 @@ custom pages that will use the advanced features of the plugin, using
 Javascript functions to control playback or extract information from the
 plugin.</para>
 
+<para>The vlc plugin supports the following function calls:</para>
+
+<itemizedlist>
+<listitem><para><command>play()</command> : Start playing media in the plugin.</para></listitem>
+<listitem><para><command>pause()</command> : Pause playback.</para></listitem>
+<listitem><para><command>stop()</command> : Stop media playback.</para></listitem>
+<listitem><para><command>fullscreen()</command> : Switch the video to full screen.</para></listitem>
+<listitem><para><command>set_volume(vol)</command> : Set the volume. <emphasis>vol</emphasis> has to be an int in the 0-200 range.</para></listitem>
+<listitem><para><command>get_volume()</command> : Get the current volume setting.</para></listitem>
+<listitem><para><command>mute()</command> : Toggle volume muting.</para></listitem>
+<listitem><para><command>set_int_variable(var_name, value)</command> : </para></listitem>
+<listitem><para><command>set_bool_variable(var_name, value)</command> : </para></listitem>
+<listitem><para><command>set_str_variable(var_name, value)</command> : </para></listitem>
+<listitem><para><command>get_int_variable(var_name)</command> : </para></listitem>
+<listitem><para><command>get_bool_variable(var_name)</command> : </para></listitem>
+<listitem><para><command>get_str_variable(var_name)</command> : </para></listitem>
+<listitem><para><command>clear_playlist()</command> : Clear the playlist.</para></listitem>
+<listitem><para><command>add_item(mrl>)</command> : Append an item whose location is given by the Media Ressource Locator to the playlist.</para></listitem>
+<listitem><para><command>next()</command></para></listitem>
+<listitem><para><command>previous()</command></para></listitem>
+<listitem><para><command>isplaying()</command> : return true if the plugin is playing something.</para></listitem>
+<listitem><para><command>get_length()</command> : Get the media's length in seconds.</para></listitem>
+<listitem><para><command>get_position()</command> : Get the current position in the media in bytes(???).</para></listitem>
+<listitem><para><command>get_time()</command> :Get the current position in the media in seconds. </para></listitem>
+<listitem><para><command>seek(seconds,is_relative)</command> : If is_relative is true, seek relatively to current time, else seek from begining of the stream. Seek time is specified in seconds.</para></listitem>
+</itemizedlist>
+
 <para>
 Here are a few examples of HTML pages that use the
 Mozilla plugin.
 </para>
-
-<note><para>This paragraph is vastly outdated. Many additionnal features have been added...</para></note>
 
 <simplesect><title>
 Example 1

@@ -40,6 +40,7 @@ RewriteRule ^network/(.*)$ /streaming/index.html [R=permanent,L]
 #
 RewriteRule ^vlc/(.*).tgz$ /removed/$1.tgz [R=permanent,L]
 RewriteRule ^vlc/(.*).bz2$ /removed/$1.bz2 [R=permanent,L]
+RewriteRule ^freedvd.html$ /removed/freedvd.html [R=permanent,L]
 
 #
 # Redirects for stuff moved to developers site

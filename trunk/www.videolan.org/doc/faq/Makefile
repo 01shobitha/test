@@ -16,12 +16,13 @@ clean:
 en: $(DOC)-en.html $(DOC)-en.ps $(DOC)-en.pdf $(DOC)-en.rtf $(DOC)-en.txt
 
 $(DOC)-en.xml: $(DOC).xml
-	xsltproc --stringparam lang en ../common/multilanguage.xsl $(DOC).xml > $(DOC)-en.xml
+	xsltproc --stringparam lang en ../common/multilanguage.xsl $(DOC).xml > $(DOC)-en.xml.tmp
+	sed -e 's/id=\"videolan-faq\"/id=\"videolan-faq-en\"/' $(DOC)-en.xml.tmp > $(DOC)-en.xml
+	rm -f $(DOC)-en.xml.tmp
 
 $(DOC)-en.html: $(DOC)-en.xml
 	/bin/cp ../common/magic-jpg.xml ../common/magic.xml
 	jade -t sgml -d ../common/stylesheet-html.dsl $(DOC)-en.xml
-	mv $(DOC).html $(DOC)-en.html
 	ln -sf $(DOC)-en.html index.html
 	zip $(DOC)-en-html.zip $(DOC)-en.html
 
@@ -61,12 +62,13 @@ $(DOC)-en.txt: $(DOC)-en.xml
 es: $(DOC)-es.html $(DOC)-es.ps $(DOC)-es.pdf $(DOC)-es.rtf $(DOC)-es.txt
 
 $(DOC)-es.xml: $(DOC).xml
-	xsltproc --stringparam lang es ../common/multilanguage.xsl $(DOC).xml > $(DOC)-es.xml
+	xsltproc --stringparam lang es ../common/multilanguage.xsl $(DOC).xml > $(DOC)-es.xml.tmp
+	sed -e 's/id=\"videolan-faq\"/id=\"videolan-faq-es\"/' $(DOC)-es.xml.tmp > $(DOC)-es.xml
+	rm -f $(DOC)-es.xml.tmp
 
 $(DOC)-es.html: $(DOC)-es.xml
 	/bin/cp ../common/magic-jpg.xml ../common/magic.xml
 	jade -t sgml -d ../common/stylesheet-html.dsl $(DOC)-es.xml
-	mv $(DOC).html $(DOC)-es.html
 	zip $(DOC)-es-html.zip $(DOC)-es.html
 
 $(DOC)-es.ps: $(DOC)-es.xml

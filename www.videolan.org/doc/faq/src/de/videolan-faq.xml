@@ -485,12 +485,12 @@ Dies gilt sowohl für die Wiedergabe einer DVD mit VLC für Ihr privates Vergnügen
 <answer><para>Sie können entweder Zeit, Material oder
 Geld beisteuern. Wir brauchen immer einige Übersetzer.
 Alle benötigten Informationen dazu finden Sie auf der <ulink url="http://www.videolan.org/contribute.html">contribute
-page</ulink>.</para></answer></qandaentry><qandaentry><question><para>Warum sind Ihre Mailing-Listen und Ihre Website auf
-Englisch?
+page</ulink>.</para></answer></qandaentry>
+
+<qandaentry><question><para>Warum sind Ihre Mailing-Listen, das Forum und Ihre Website auf Englisch?
 </para></question>
 
 <answer>
-
 <para>Die Entwickler von VideoLAN kommen von der ganzen
 Welt und Englisch ist die einzige Sprache, die sie benutzen können, um
 sich mit einander zu verständigen. Obwohl der Übersetzung von VLC in
@@ -498,7 +498,14 @@ viele Sprachen viel Beachtung geschenkt wird, würde die Instandhaltung
 der Übersetzungen von unserer Dokumentation und unserer Website mehr
 Zeit kosten, als wir uns leisten können.
 </para>
+</answer></qandaentry>
 
+<qandaentry><question><para>Was kann ich tun, wenn ich hier keine Antwort auf meine Frage finde?</para></question>
+
+<answer>
+<para>Schauen Sie in das <ulink url="http://wiki.videolan.org/">Wiki</ulink>. Dort befindet sich ein weiteres FAQ, welches beispielsweise andere Fragen zur Bedienung und Kompilierung von VideoLAN-Programmen beantwortet. Technische Begriffe in Zusammenhang mit Streaming und Multimedia werden auch besprochen.</para>
+<para>Durchsuchen Sie die <ulink url="http://forum.videolan.org/">Foren</ulink> auf Ihre Frage hin. Dort finden sich viele Lösungen zu Anwendungsproblemen.</para>
+<para>Wenn Ihre Frage immer noch nicht beantwortet wurde, stellen Sie sie ins Forum oder wenden Sie sich an eine passende <ulink url="http://www.videolan.org/support/lists.html">Mailing-Liste</ulink>. Weitere Informationen über Unterstützung, die vom Projekt oder Beraterfirmen angeboten wird, finden Sie auf <ulink url="http://www.videolan.org/support/index.html>Support-Seite</ulink>.</para>
 </answer></qandaentry>
 
 </qandadiv></qandaset>

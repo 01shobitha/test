@@ -255,7 +255,7 @@
 </tr>
 
 <tr>
-<td class="type">MPEG-4/DivX 5/XviD</td>
+<td class="type">MPEG-4/DivX 5/XviD/3ivX D4</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -266,7 +266,7 @@
 
 
 <tr>
-<td class="type">SVQ 1</td>
+<td class="type">Sorenson(SVQ) 1</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -392,6 +392,19 @@
 
 </tr>
 
+<tr>^M
+^M
+<td class="type">Vplayer</td>^M
+<td class="yes">Yes</td>^M
+<td class="yes">Yes</td>^M
+<td class="yes">Yes</td>^M
+<td class="yes">Yes</td>^M
+<td class="yes">Yes</td>^M
+<td class="none">-</td>^M
+^M
+</tr>^M
+
+
 <tr>
 
 <td class="category" rowspan="6"><b>Video Filters</b></td>
@@ -473,18 +486,42 @@
 <td class="type">Native</td>
 <td class="yes">DirectX<br />GDI</td>
 <td class="yes">QuickTime</td>
-<td class="yes">X11<br />Xvideo</td>
 <td class="yes">Yes</td>
-<td class="yes">X11<br />Xvideo</td>
-<td class="yes">X11<br />Qte</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Qte</td>
 
 </tr>
+
+<tr>^M
+^M
+<td class="type">X11</td>^M
+<td class="none">-</td>^M
+<td class="partial">Source Only</td>^M
+<td class="yes">Yes</td>^M
+<td class="none">-</td>^M
+<td class="yes">Yes</td>^M
+<td class="yes">Yes</td>^M
+^M
+</tr>^M
+
+<tr>^M
+^M
+<td class="type">Xvideo</td>^M
+<td class="none">-</td>^M
+<td class="nono">-</td>^M
+<td class="yes">Yes</td>^M
+<td class="none">-</td>^M
+<td class="yes">Yes</td>^M
+<td class="none">-</td>^M
+^M
+</tr>^M
 
 <tr>
 
 <td class="type">SDL</td>
 <td class="yes">Yes</td>
-<td class="partial">Untested</td>
+<td class="no">No</td>
 <td class="yes">Yes</td>
 <td class="partial">Untested</td>
 <td class="yes">Yes</td>
@@ -706,7 +743,7 @@
 
 <td class="type">SDL</td>
 <td class="yes">Yes</td>
-<td class="partial">Untested</td>
+<td class="partial">Source Only</td>
 <td class="yes">Yes</td>
 <td class="partial">Untested</td>
 <td class="yes">Yes</td>
@@ -822,7 +859,7 @@
 
 <td class="type">WxWindows</td>
 <td class="yes">Yes</td>
-<td class="yes">Yes</td>
+<td class="partial">Source Only</td>
 <td class="yes">Yes</td>
 <td class="none">-</td>
 <td class="yes">Yes</td>
@@ -896,7 +933,7 @@
 
 <td class="type">Infrared</td>
 <td class="no">No</td>
-<td class="partial">CVS only</td>
+<td class="partial">Source only</td>
 <td class="yes">Yes</td>
 <td class="no">No</td>
 <td class="no">No</td>
@@ -997,4 +1034,4 @@ processors, and AltiVec on G4 processors.
 [4] the OpenBSD 2.9 default assembler does not support MMX.
 </p>
 
-<? footer('$Id: features.html,v 1.49 2003/03/13 11:27:00 marcari Exp $'); ?>
+<? footer('$Id: features.html,v 1.50 2003/03/17 23:44:26 hartman Exp $'); ?>

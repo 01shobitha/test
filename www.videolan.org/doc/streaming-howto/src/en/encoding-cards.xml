@@ -393,19 +393,18 @@ able to cross 11 routers).</para></listitem>
 <para>You need to install your peripherals under Windows with the appropriate drivers. Nothing else is necessary.</para>
 </sect2>
 <sect2><title>Stream with VLC in command line</title>
-<para><screen><prompt>% </prompt><userinput>C:\Program Files\VideoLAN\VLC\vlc.exe -vvv -I rc --loop --ttl 12 dshow:/vdev="webcam":adev="sound":size="640x480" --sout=#std{mux=ts,access=udp,url=239.255.42.12}</userinput></screen>
+<para><screen><prompt>% </prompt><userinput>C:\Program Files\VideoLAN\VLC\vlc.exe -vvv -I rc --ttl 12 dshow:// vdev="VGA USB Camera" adev="USB Camera" size="640x480" --sout=#std{mux=ts,access=udp,url=239.255.42.12}</userinput></screen>
 <itemizedlist>
 <note>
 <para>You need to precise the complete path to find vlc program or to launch the command from the correct directory.</para>
 </note>
 <listitem><para><emphasis>vvv</emphasis> is to activate the verbose mode</listitem>
 <listitem><para><emphasis>rc</emphasis> is to activate the remote control interface (MS/DOS console)</listitem>
-<listitem><para><emphasis>loop</emphasis> is to stream continuously</listitem>
 <listitem><para><emphasis>12</emphasis> is the value of the TTL (Time To Live) of your IP packets (which means that the stream will be able to cross 11 routers),
 </para></listitem>
-<listitem><para><emphasis>vdev="webcam"</emphasis> is the name of the video peripheral that DirectShow will use,
+<listitem><para><emphasis>vdev="VGA USB Camera"</emphasis> is the name of the video peripheral that DirectShow will use (this is only an exemple),
 </para></listitem>
-<listitem><para><emphasis>adev="sound"</emphasis> is the name of the audio peripheral,
+<listitem><para><emphasis>adev="USB Camera"</emphasis> is the name of the audio peripheral,
 </para></listitem>
 <listitem><para><emphasis>size="640x480"</emphasis> is the resolution (you can also put the standard size like <emphasis>subqcif</emphasis> (128x96),
 <emphasis>qsif</emphasis> (160x120), <emphasis>qcif</emphasis>
@@ -418,12 +417,10 @@ able to cross 11 routers).</para></listitem>
 </para>
 <itemizedlist>
 <listitem><para>
-the IP address of the machine you want to unicast
-to
+the IP address of the machine you want to unicast to
 </para></listitem>
 <listitem><para>
-or the DNS name the machine you want to unicast
-to
+or the DNS name the machine you want to unicast to
 </para></listitem>
 <listitem><para>
 or a multicast IP address.</para></listitem>

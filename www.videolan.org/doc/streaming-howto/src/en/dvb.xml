@@ -134,7 +134,7 @@ where:
 <filename>ts-es-id-pid</filename> is necessary to duplicate</para></listitem>
 
 <listitem><para>
-<filename>28006</filename> is the PID of the DVB
+<filename>8508</filename> is the SID of the DVB
 channel you would like to stream, expressed as a decimal number
 </para></listitem>
 
@@ -154,6 +154,9 @@ symbolrate in Hz</para></listitem>
 
 <listitem><para>
 <filename>3</filename> is the FEC (3 for 3/4), if you don't put the option it will auto-detect the value</para></listitem>
+
+<listitem><para>
+<filename>dvb-budget-mode</filename> if your card support this mode</para></listitem>
 
 <listitem><para><emphasis>adress</emphasis>
  is either:</para>

@@ -221,6 +221,17 @@ on the client(s), run:
 
 </sect1>
 
+<sect1><title>MMS / MMSH streaming to Windows Media Player
+</title>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#transcode{vcodec=DIV3,vb=256,scale=1,acodec=mp3,ab=32,channels=2}:std{access=mmsh,mux=asfh,url=:8080}'</userinput>
+</screen>
+
+<para>VLC media player can connect to this by using the following url : mmsh://server_ip_address:8080 .</para>
+<para>Windows Media Player can connect to this by using the following url : mms://server_ip_address:8080 .</para>
+</sect1>
+
 <sect1><title>
 Use the <emphasis>es</emphasis> module
 </title>

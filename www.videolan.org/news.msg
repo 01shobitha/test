@@ -2,6 +2,20 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+|21 May 2004| Release: VLC 0.7.2| This new release of VLC media
+player features improved interfaces with support for embedded
+video outputs, new formats support (H261, CMML, H264, Theora
+alpha3, ...), an improved DVB input, subtitles improvements, major
+stream output improvements, a VideoLAN manager to manage several
+streams with only one instance of VLC, and much more. Look <a
+href="http://developers.videolan.org/vlc/NEWS">here</a> for a complete
+list of changes. To download the sources or the binary package of this
+new version, go to the <a href="http://www.videolan.org/vlc/">VLC
+download page</a> and click on your OS logo!<br /> Only source, Win32
+and MacOS X package are available at the moment, others will follow 
+soon.
+
+
 |8 April 2004| VIA and VideoLAN annual presentation day| The VIA
 and VideoLAN teams are pleased to invite you to their annual
 presentation day at the Ecole Centrale Paris (Châtenay-Malabry,
@@ -10,6 +24,7 @@ France). There will be a presentation of VideoLAN in French at
 visit <a href="http://www.via.ecp.fr/via/journeevia2004.html">this
 page</a>. To receive an invitation, send a mail to <a
 href="mailto:journee2004@via.ecp.fr">journee2004@via.ecp.fr</a>.
+
 
 |3-4 April 2004| VideoLAN at HackIT:04| We will
 participate to the italian hackmeeting in Genova (see <a

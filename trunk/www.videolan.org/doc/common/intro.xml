@@ -9,7 +9,7 @@
 <sect1><title>
 <span xml:lang="en">What is the VideoLAN project ?</span>
 <span xml:lang="fr">Qu'est ce que le projet VideoLAN ?</span>
-<span xml:lang="es">¿ Qué es el projecto VideoLAN ?</span>
+<span xml:lang="es">¿Qué es el projecto VideoLAN?</span>
 <span xml:lang="de">Was ist das VideoLAN Projekt?</span>
 </title>
 
@@ -46,12 +46,12 @@ sur des réseauxhaut déit.</para>
 </span>
 
 <span xml:lang="es">
-<para>VideoLAN es una solución de software completa para streaming de vídeo, desarrollada
+<para>VideoLAN es una solución de software completa para transmisión de vídeo, desarrollada
 por estudiantes de <ulink url="http://www.ecp.fr">Ecole Centrale
 Paris</ulink> y desarrolladores de todo el mundo, dentro de
 <ulink url="http://www.gnu.org/copyleft/gpl.html">GNU General Public
-License</ulink> (GPL). VideoLAN está diseñado para transmitir vídeos MPEG en red de gran
-ancho de banda.</para>
+License</ulink> (GPL). VideoLAN está diseñado para transmitir vídeo MPEG en redes con
+gran capacidad de ancho de banda.</para>
 
 <para>La solución VideoLAN incluye :</para>
 
@@ -112,8 +112,8 @@ systems.</para></listitem>
 <span xml:lang="es">
 <listitem><para>VLC (inicialmente cliente VideoLAN), el cual puede ser usado como 
 servidor para transmitir archivos MPEG-1, MPEG-2 y MPEG-4, DVDs y vídeo en vivo
-sobre la red en unicast o multicast ; o usado como cliente para recibir, decodificar y visualizar
-flujos MPEG sobre  systemas multioperación.</para></listitem>
+sobre la red en unicast o multicast; o usado como cliente para recibir, decodificar y visualizar
+flujos MPEG sobre varios sistemas operativos.</para></listitem>
 </span>
 
 <span xml:lang="de">
@@ -135,7 +135,7 @@ benutzt werden kann.</para></listitem>
 </span>
 
 <span xml:lang="es">
-<para>Aquí está una ilustración de la solución VideoLAN completa :</para>
+<para>A continuación se muestra una ilustración de la solución VideoLAN completa :</para>
 </span>
 
 <span xml:lang="de">
@@ -165,7 +165,7 @@ url="http://www.videolan.org/">VideoLAN Web site</ulink>.</para>
 url="http://www.videolan.org/">Site web de VideoLAN</ulink>.</para>
 </span>
 <span xml:lang="es">
-<para>Más detalles sobre el projecto pueden ser encontrado en el sitio web de VideoLAN <ulink
+<para>Más detalles sobre el proyecto se pueden encontrar en la web de VideoLAN <ulink
 url="http://www.videolan.org/"></ulink>.</para>
 </span>
 <span xml:lang="de">
@@ -177,7 +177,7 @@ url="http://www.videolan.org/">VideoLAN Website</ulink> gefunden werden.
 <sect2><title>
 <span xml:lang="en">VideoLAN software</span>
 <span xml:lang="fr">Logiciels VideoLAN</span>
-<span xml:lang="es">software VideoLAN</span>
+<span xml:lang="es">Software VideoLAN</span>
 <span xml:lang="de">VideoLAN Software</span>
 </title>
 
@@ -194,7 +194,7 @@ url="http://www.videolan.org/">VideoLAN Website</ulink> gefunden werden.
 </span>
 
 <span xml:lang="es">
-<para>VLC trabja sobre muchas plataformas : Linux, Windows, Mac OS X, BeOS,
+<para>VLC trabaja sobre muchas plataformas : Linux, Windows, Mac OS X, BeOS,
 *BSD, Solaris, Familiar Linux, Yopy/Linupy y QNX. Puede leer :</para>
 </span>
 
@@ -242,7 +242,7 @@ Festplatte, einem CD-ROM-Laufwerk,...</para></listitem>
 <listitem><para>depuis une carte satellite (DVB-S),</para></listitem>
 </span>
 <span xml:lang="es">
-<listitem><para>desde un tarjeta de satélite (DVB-S),</para></listitem>
+<listitem><para>desde un tarjeta receptora de satélite (DVB-S),</para></listitem>
 </span>
 <span xml:lang="de">
 <listitem><para>von einer Satellitenkarte (DVB-S),</para></listitem>
@@ -271,7 +271,7 @@ gesendet von VLS oder VLCs Streamausgabe.</para></listitem>
 <span xml:lang="en">VLC can also be used as a server to stream :</span>
 <span xml:lang="fr">VLC peut également être employé en tant que serveur
  pour diffuser:</span>
-<span xml:lang="es">VLC puede también ser usado como servidor para transmitir :</span>
+<span xml:lang="es">VLC también puede ser usado como servidor para transmitir :</span>
 <span xml:lang="de">VLC kann auch als Streaming-Server benutzt werden:</span>
 </para>
 
@@ -321,7 +321,7 @@ gesendet von VLS oder VLCs Streamausgabe.</para></listitem>
 <para>
  <span xml:lang="en">to :</span>
  <span xml:lang="fr">vers :</span>
- <span xml:lang="es">hasta :</span>
+ <span xml:lang="es">a :</span>
  <span xml:lang="de">an:</span>
 </para>
 
@@ -336,7 +336,7 @@ gesendet von VLS oder VLCs Streamausgabe.</para></listitem>
  ceci est appelé  <emphasis>unicast</emphasis>,</para></listitem>
 </span>
 <span xml:lang="es">
-<listitem><para>una maquina (p.e. a una dirección IP) : esto es lo que se llama
+<listitem><para>una máquina (p.e. a una dirección IP) : esto es lo que se llama
 <emphasis>unicast</emphasis>,</para></listitem>
 </span>
 <span xml:lang="de">
@@ -355,7 +355,7 @@ rejoignent ou quittent (une addresse IP multicast): ceci est appelé
 <emphasis>multicast</emphasis>,</para></listitem>
 </span>
 <span xml:lang="es">
-<listitem><para>un grupo dinámico de máquina a las que el cliente puede
+<listitem><para>un grupo dinámico de máquinas a las que el cliente puede
 conectarse o desconectarse (p.e. a una dirección IP multicast) : esto es lo que se llama
 <emphasis>multicast</emphasis>,</para></listitem>
 </span>
@@ -387,8 +387,8 @@ url="http://www.videolan.org/vlc/features.html">page des fonctionnalités
 </span>
 
 <span xml:lang="es">
-<para>Para conseguir la lista completa de las posibilidades del VLC en cada plataforma, ver la página de 
-características del VLC <ulink url="http://www.videolan.org/vlc/features.html"></ulink>.</para>
+<para>Para conseguir la lista completa de las funcionalidades de VLC en cada plataforma, vea la página de 
+características de VLC <ulink url="http://www.videolan.org/vlc/features.html"></ulink>.</para>
 </span>
 
 <span xml:lang="de">
@@ -404,7 +404,7 @@ Plattform zu erhalten, schauen Sie auf die
 probably never do.</span>
 <span xml:lang="fr">VLC ne fonctionna pas sous Mac OS 9, et ne 
 fonctionnera probablement jamais sur cette plateforme.</span>
-<span xml:lang="es">VLC no trabaja en Mac OS 9, y probablemente nunca lo hará.</span>
+<span xml:lang="es">VLC no trabaja en Mac OS 9, y probablemente no lo hará nunca.</span>
 <span xml:lang="de">VLC läuft nicht unter Mac OS 9 und wird es wahrscheinlich
 nie tun.</span>
 </para></note>
@@ -446,7 +446,7 @@ eine Festplatte,</span>
 <listitem><para>
 <span xml:lang="en">a satellite card (DVB-S) or a digital terrestial
 television card (DVB-T)</span>
-<span xml:lang="es">una tarjeta de satélite (DVB-S) o una tarjeta de televisión
+<span xml:lang="es">una tarjeta receptora de satélite (DVB-S) o una tarjeta de televisión
 digital terrestre (DVB-T)</span>
 <span xml:lang="fr">une carte satellite (DVB-S) ou une carte de télévision
 numérique terrestre (DVB-T)</span>
@@ -500,7 +500,7 @@ rejoignent ou quittent (une addresse IP multicast): ceci est appelé
 <emphasis>multicast</emphasis>,</para></listitem>
 </span>
 <span xml:lang="es">
-<listitem><para>un grupo dinámico de máquina a las que el cliente puede
+<listitem><para>un grupo dinámico de máquinas a las que el cliente puede
 conectarse o desconectarse (p.e. a una dirección IP multicast) : esto es lo que se llama
 <emphasis>multicast</emphasis>,</para></listitem>
 </span>
@@ -534,8 +534,8 @@ vient pas du processeur mais du disque dur et de la connexion réseau.
 </para>
 </span>
 <span xml:lang="es">
-<para>Un Pentium a 100 MHz con 32 MB de memory debería ser suficiente para enviar un
-stream a la red. Cuando se transmiten muchos vídeos almacenados en un disco duro, la actual limitación 
+<para>Un Pentium a 100 MHz con 32 MB de memoria debería ser suficiente para enviar un
+flujo a la red. Cuando se transmiten muchos vídeos almacenados en un disco duro, la limitación 
 no es el procesador sino el disco duro y la conexión de red.</para>
 </span>
 <span xml:lang="de">
@@ -562,8 +562,8 @@ de diffusion</ulink>.</para>
 </span>
 
 <span xml:lang="es">
-<para>VLS trabaja bajo Linux y Windows. Para conseguir la lista completa de la posibilidades
-del VLS en cada plataforma, ver la página de características de transmisión  <ulink
+<para>VLS trabaja bajo Linux y Windows. Para conseguir la lista completa de las funcionalidades
+de VLS en cada plataforma, vea la página de características de transmisión  <ulink
 url="http://www.videolan.org/streaming/features.html"></ulink>.</para>
 </span>
 
@@ -592,7 +592,7 @@ et ajoutent automatiquement les programmes annoncés à leur liste de
 lecture.</span>
 <span xml:lang="es">Se puede añadir información de servicio a un canal basado en el estándar SAP/SDP
 para la solución VideoLAN. El mini-servidor-SAP envía anuncios acerca de los programas multicast en la red
-en IPv4 o IPv6, y el VLC recibe estos anuncios y automáticamente añade los anuncios de programas a su
+en IPv4 o IPv6, y VLC recibe estos anuncios y automáticamente añade los anuncios de programas a su
 lista de reproducción.</span>
 <span xml:lang="de">Sie können einen Kanal-Informationsdienst, basierend auf
 dem SAP/SDP-Standard, der VideoLAN-Lösung hinzufügen. Der mini-SAP-Server
@@ -615,7 +615,7 @@ Programme automatisch ihrer Wiedergabeliste hinzu.</span>
 <sect1><title>
 <span xml:lang="en">What is a codec ?</span>
 <span xml:lang="fr">Qu'est-ce qu'un codec ?</span>
-<span xml:lang="es">¿Qué es un codec ?</span>
+<span xml:lang="es">¿Qué es un codec?</span>
 <span xml:lang="de">Was ist ein Codec?</span>
 </title>
 
@@ -626,12 +626,12 @@ Programme automatisch ihrer Wiedergabeliste hinzu.</span>
 <sect1><title>
 <span xml:lang="en">How can I use VideoLAN ?</span>
 <span xml:lang="fr">Utilisation de VideoLAN ?</span>
-<span xml:lang="es">¿Cómo se usa VideoLAN ?</span>
+<span xml:lang="es">¿Cómo se usa VideoLAN?</span>
 <span xml:lang="de">Wie benutze ich VideoLAN?</span>
 </title>
 
 <sect2><title>
-<span xml:lang="en>Documentation</span>
+<span xml:lang="en">Documentation</span>
 <span xml:lang="fr">Documentation</span>
 <span xml:lang="es">Documentación</span>
 <span xml:lang="de">Dokumentation</span>
@@ -658,9 +658,9 @@ document est le guide complet de la solution de streaming VideoLAN.
 Ses exemples concrets vous aideront à mettre en place votre solution de 
 diffusion.</span>
 
-<span xml:lang="es">el <emphasis>VideoLAN
+<span xml:lang="es"><emphasis>VideoLAN
 HOWTO</emphasis>. Este documento es la guía completa de la solución de streaming VideoLAN.
-Le mostrará ejemplos prácticos para la instalación de su solución de streaming </span>
+Le mostrará ejemplos prácticos para la instalación de su solución de streaming.</span>
 
 <span xml:lang="de">Das <emphasis>VideoLAN HOWTO</emphasis>-Dokument
 ist das komplette Handbuch über die VideoLAN-Streaming-Lösung. Es enthält
@@ -673,7 +673,7 @@ praktische Beispiele zur Aufsetzung Ihrer Streaming-Lösung.</span>
 is the complete guide for VLC.</span>
 <span xml:lang="fr">Le <emphasis>VLC user guide</emphasis>. Ce document 
 est le guide complet de VLC</span>
-<span xml:lang="es">La <emphasis>VLC user guide</emphasis>. Este documento es la guía completa
+<span xml:lang="es"><emphasis>VLC user guide</emphasis>. Este documento es la guía completa
 para VLC.</span>
 <span xml:lang="de">Der <emphasis>VLC user guide</emphasis>. Dieses 
 Dokument ist das komplette Handbuch für VLC.</span>
@@ -684,7 +684,7 @@ Dokument ist das komplette Handbuch für VLC.</span>
 is the complete guide for VLS.</span>
 <span xml:lang="fr">Le <emphasis>VLS user guide</emphasis>. Ce document 
 est le guide complet de VLS.</span>
-<span xml:lang="es">La <emphasis>VLS user guide</emphasis>. Este documentos es la guía completa
+<span xml:lang="es"><emphasis>VLS user guide</emphasis>. Este documentos es la guía completa
 para VLS.</span>
 <span xml:lang="de">Der <emphasis>VLS user guide</emphasis>. Dieses Dokument
 ist das komplette Handbuch für VLS.</span>
@@ -696,7 +696,7 @@ This document contains Frequently Asked Questions about
 VideoLAN.</span>
 <span xml:lang="fr">La <emphasis>FAQ de VideoLAN</emphasis>.
 Ce document contient la Foire Aux Questions de VideoLAN</span>
-<span xml:lang="es">El <emphasis>VideoLAN FAQ</emphasis>.
+<span xml:lang="es"><emphasis>VideoLAN FAQ</emphasis>.
 Este documento contiene preguntas frecuentes sobre VideoLAN.</span>
 <span xml:lang="de">Die <emphasis>VideoLAN-FAQ</emphasis>. Dieses Dokument
 enthält oft gestellte Fragen über VideoLAN.</span>
@@ -747,8 +747,8 @@ regarder dans l'<ulink url="http://www.via.ecp.fr/via/ml/videolan/index-en.html"
 archive en-ligne des mailing-lists</ulink>. Il existe deux listes anglophones
 pour les utilisateurs :</span>
 <span xml:lang="es">
-Si tiene problemas usando VideoLAN, y no encuentra la respuesta a sus problemas
-en la documentación, por favor mire el archivo online de las listas de correo <ulink
+Si tiene problemas usando VideoLAN, y no encuentra la respuesta a esos problemas
+en la documentación, por favor mire la documentación online de las listas de correo <ulink
 url="http://www.via.ecp.fr/via/ml/videolan/index-en.html"></ulink>. Hay dos listas de correo en inglés
 para los usuarios :
 </span>
@@ -774,7 +774,7 @@ für die Benutzer:</span>
     and the network</span>
  <span xml:lang="fr">pour les questions relatives à VLS, au mini-SAP-server,
   et au réseau</span>
- <span xml:lang="es">para las question sobre VLs, el mini-servidor-SAP y la red</span>
+ <span xml:lang="es">para las preguntas sobre VLS, el mini-servidor-SAP y la red</span>
  <span xml:lang="de">für die Fragen über VLS, mini-SAP-Server und
   das Netzwerk</span>
 .</para></listitem>
@@ -793,7 +793,7 @@ merci de voir la <ulink url="http://www.videolan.org/support/lists.html">
 page mailing-lists</ulink>.
 </span>
 <span xml:lang="es">
-Si usted quiere subscribirse o darse de baja en las listas de correo, por favor vaya a la página de 
+Si desea subscribirse o darse de baja en las listas de correo, por favor vaya a la página de 
 listas de correo <ulink url="http://www.videolan.org/support/lists.html"></ulink>.
 </span>
 <span xml:lang="de">
@@ -868,11 +868,11 @@ commande, mais dans la plupart des cas, il devrait être assez facile
 de deviner comment utiliser l'interface graphique pour le même usage
 !</span>
 <span xml:lang="es">
-VLC tiene muchas interfaces gráficas diferentes, que están organizadas de forma diferente
+VLC tiene varias interfaces gráficas, que están organizadas de forma diferente
 con el fin de estar en harmonía con las líneas generales de cada sistema operativo. Documentar el
-uso de cada interfaz gráfica es demasiado largo, y algunas características son sólo disponibles vía la
+uso de cada interfaz gráfica es demasiado largo, y algunas características son sólo disponibles a través de la
 interfaz de línea de comandos. Por lo tanto decidimos documentar sólo la interfaz de línea de comandos, 
-pero en muchos casos debería ser fácil averiguar como usar la interfaz gráfica con el mismo propósito!
+¡pero en muchos casos debería ser fácil averiguar cómo usar la interfaz gráfica con el mismo propósito!
 </span>
 <span xml:lang="de">
 VLC hat viele unterschiedliche grafische Oberflächen, die sehr unterschiedlich
@@ -890,7 +890,7 @@ entsprechend zu benutzen ist!
 graphical interface !</span>
 <span xml:lang="fr">VLS est doté d'une interface en ligne de commande, et 
 d'une interface Telnet, mais n'a pas d'interface graphique !</span>
-<span xml:lang="es">VLS tiene una línea de comandos y una interfaz telnet, pero no una interfaz gráfica!
+<span xml:lang="es">VLS tiene una línea de comandos y una interfaz telnet, ¡pero no una interfaz gráfica!
 </span>
 <span xml:lang="de">VLS hat eine Befehlszeilen- und eine Telnet-Oberfläche,
 aber keine grafische!</span>
@@ -905,7 +905,7 @@ inside a terminal.</span>
 <span xml:lang="fr">Toutes les commandes que vous voyez dans ce document
 doivent être tapées dans un terminal</span>
 <span xml:lang="es">
-Todos los comandos que se describen en este documento deben ser tecleados dentro de un terminal.</span>
+Todos los comandos que se describen en este documento deben ser tecleados dentro de un terminal</span>
 <span xml:lang="de">Alle Befehl, die in diesem Dokument auftauchen, sollten
 in ein Terminal eingeben werden.</span>
 .</para>
@@ -913,7 +913,7 @@ in ein Terminal eingeben werden.</span>
 <sect2><title>
 <span xml:lang="en">Open a terminal</span>
 <span xml:lang="fr">Ouvrez un terminal</span>
-<span xml:lang="en">Abrir un terminal</span>
+<span xml:lang="es">Abrir un terminal</span>
 <span xml:lang="de">Öffnen Sie ein Terminal</span>
 </title>
 
@@ -925,7 +925,7 @@ in ein Terminal eingeben werden.</span>
 <span xml:lang="fr">Cliquez sur <emphasis>Démarrer</emphasis>,
 <emphasis>Exécuter</emphasis> and tapez :</span>
 <span xml:lang="es">Pinchar en <emphasis>Inicio</emphasis>,
-<emphasis>Ejecutar</emphasis> and teclear :</span>
+<emphasis>Ejecutar</emphasis> y teclear :</span>
 <span xml:lang="de">Klicken Sie auf <emphasis>Start</emphasis>,
 <emphasis>Ausführen</emphasis> und geben Sie ein:</span>
 </para>
@@ -943,7 +943,7 @@ in ein Terminal eingeben werden.</span>
 <para>
 <span xml:lang="en">The terminal appears</span>
 <span xml:lang="fr">Le terminal apparait</span>
-<span xml:lang="es">El terminal aparece</span>
+<span xml:lang="es">En el terminal aparece</span>
 <span xml:lang="de">Das Terminal erscheint</span>
 </para>
 
@@ -1026,7 +1026,7 @@ sollten, beginnen mit einem <command>#</command>:</span>
 <command>%</command> prompt :</span>
 <span xml:lang="fr">Les commandes devant être lancées en tant qu'utilisateur
 normal commencent par un <command>%</command> :</span>
-<span xml:lang="es">comandos que deben ser tecleados como un usuario normal tienen un
+<span xml:lang="es">los comandos que deben ser tecleados como un usuario normal tienen un
 <command>%</command> prompt :</span>
 <span xml:lang="de">Befehle, die als normaler Benutzer eingeben werden sollten,
 beginnen mit einem <command>%</command>:</span>
@@ -1058,8 +1058,8 @@ folder <emphasis>Utilities</emphasis> and double-click on
 <span xml:lang="fr">Allez dans <emphasis>Applications</emphasis>, ouvrez le
 dossier  <emphasis>Utilitaires</emphasis> et double-cliquez sur
 <emphasis>Terminal</emphasis></span>
-<span xml:lang="es">Ir a <emphasis>Applicaciones</emphasis>, abrir la carpeta
-<emphasis>Utilities</emphasis> y hacer doble-click en
+<span xml:lang="es">Ir a <emphasis>Aplicaciones</emphasis>, abrir la carpeta
+<emphasis>Utilidades</emphasis> y hacer doble-click en
 <emphasis>Terminal</emphasis></span>
 <span xml:lang="de">Gehen Sie in den Ordner <emphasis>Programme</emphasis>,
 öffnen Sie den Ordner <emphasis>Dienstprogramme</emphasis> und doppelklicken Sie
@@ -1097,6 +1097,8 @@ installiert wurde, um es auszuführen und der Befehl muss mit
 <emphasis>Terminal</emphasis> :</span>
 <span xml:lang="fr">Dans la barre de bureau, allez à <emphasis>Application</emphasis>
 et sur <emphasis>Terminal</emphasis> :</span>
+<span xml:lang="es">En la barra de herramientas, vaya a <emphasis>Aplicaciones</emphasis> y después a
+<emphasis>Terminal</emphasis> :</span>
 <span xml:lang="de">In der Schreibtischleiste gehen Sie auf <emphasis>Application</emphasis>
 und dann auf <emphasis>Terminal</emphasis>:</span>
 </para>

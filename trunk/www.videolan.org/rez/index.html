@@ -12,12 +12,13 @@
 
 <p> Tu es probablement GPA et tu viens d'arriver sur la rez, il y a peu
 de chances pour que tu aies déjà eu l'occasion d'utiliser VideoLAN.
-En bref : VideoLAN est un ensemble de logiciels libres développés par des
-centraliens et par toute une communauté de développeurs extérieurs à l'Ecole,
-qui permet de diffuser de la vidéo haute-qualité sur un réseau informatique.
-En pratique, cela signifie que chaque étudiant, depuis sa chambre,
-peut regarder tout ce que est diffusé à ce moment par les serveurs de
-VideoLAN (NX, des chaînes hertziennes, des chaînes satellites,...). </p>
+En bref : VideoLAN est un ensemble de logiciels libres développés par
+des centraliens et par toute une communauté de développeurs extérieurs
+à l'Ecole, qui permet de diffuser de la vidéo haute-qualité sur un
+réseau informatique. En pratique, cela signifie que chaque étudiant,
+depuis sa chambre, peut regarder tout ce que est diffusé à ce moment
+par les serveurs de VideoLAN (NX, des chaînes hertziennes, des chaînes
+satellites,...). </p>
 
 <h2>Personne n'est parfait</h2>
 
@@ -59,7 +60,7 @@ VLC (VideoLAN Client). VLC est capable de lire :</p>
 
 <h2>Installer et lancer VLC</h2>
 
-<h3>sous Windows</h3>
+<h3>Sous Windows</h3>
 
 <p>Assure-toi que ta version de DirectX est supérieure ou égale à 7.
 Si tu as une version trop vieille, installe la dernière version de
@@ -81,7 +82,7 @@ la machine. Nous te conseillons d'installer une version plus robuste
 de Windows, comme Windows 2000 ou XP Pro (tu peux en obtenir une
 gratuitement en étant membre de VIA).</p>
 
-<h3>sous Mac OS X</h3>
+<h3>Sous Mac OS X</h3>
 
 <p>Télécharge le package Mac OS X depuis <a
 href="/vlc/download-macosx.html">la page de téléchargement du VLC pour
@@ -90,7 +91,7 @@ par exemple dans le répertoire <code>/Applications</code>.</p>
 
 <p>Pour le lancer, il suffit de double-cliquer sur le cône !</p>
 
-<h3>sous Linux Debian</h3>
+<h3>Sous Linux Debian</h3>
 
 <p>Edite en root le fichier <b>/etc/apt/sources.list</b> et rajoute la
 ligne suivante :</p>
@@ -109,14 +110,14 @@ ligne suivante :</p>
 
 <p>Pour le lancer, il suffit de taper <b>vlc</b>.</p>
 
-<h3>sous Unix / Linux</h3>
+<h3>Sous Unix / Linux</h3>
 
 <p> Réfère-toi au <a href="/doc/videolan-quickstart/">VideoLAN
 Quickstart</a>, section 2.1. </p>
 
 <h2>Comment se servir du client VideoLAN ?</h2>
 
-<p>La procédure est la même quel que soir le système d'exploitation.</p>
+<p>La procédure est la même quel que soit le système d'exploitation.</p>
 
 <p>Lance VLC :</p>
 
@@ -127,14 +128,22 @@ Quickstart</a>, section 2.1. </p>
 <li><p>sous Linux et Mac OS X, lance la ligne de commande suivante :</p>
 
 <pre>
-  % vlc --extraintf sap
+  % vlc
 </pre>
 
 </li>
 
 </ul>
 
-Pour que la liste des canaux disponibles s'affiche dans la playlist, va dans le menu "Paramètres, Préférences...". Sélectionne "Interface', coche la case "Option avancées", puis écris "sap" dans la zone "Module d'interface supplémentaire". <b>Attention, ne sélectionne pas "Interface SAP" dans "Module d'interface". le VLC ne démarrerait plus correctement.</b>
+<p>Pour que la liste des canaux disponibles s'affiche dans la playlist,
+va dans le menu "Paramètres, Préférences...". Sélectionne "Interface',
+coche la case "Option avancées", puis écris "sap" dans la zone
+"Module d'interface supplémentaire". <b>Attention, ne sélectionne pas
+"Interface SAP" dans "Module d'interface". le VLC ne démarrerait plus
+correctement.</b></p>
+
+<p>Clique ensuite sur <b>Enregistrer</b> pour ne plus avoir à faire
+cette manipulation à chaque fois que tu lances VLC</p>
 
 <img src="/images/videolan_sap.jpg" alt="Préférences"/>
 
@@ -163,7 +172,7 @@ des coupures de courant dans le local VideoLAN
 
 
 <li>Si rien ne s'affiche, c'est peut-être que le diffusion a été
-temporairement interrompue sur ce canal. Essaies-en un autre !</li>
+temporairement interrompue sur ce canal. Essaie en un autre !</li>
 
 <li>Vérifie que tu n'as pas un firewall logiciel installé sur ta machine
 qui bloquerait le flux ou les requêtes d'abonnement à ce dernier (IGMP).
@@ -199,8 +208,8 @@ version plus robuste de Windows comme 2000 ou XP pro.</li>
 compilé le support du Multicast dans ton noyau. Cette option se trouve
 dans le menu "Networking Options" et s'appelle "IP: Multicasting".
 Pour plus d'informations sur la compilation d'un noyau, lis la <a
-href="http://www.via.ecp.fr/~alexis/formation-linux/config-noyau.html">Formation
-Linux</a>.</li>
+href="http://www.via.ecp.fr/~alexis/formation-linux/config-noyau.html">F
+ormation Linux</a>.</li>
 
 </ul>
 
@@ -224,4 +233,4 @@ Les messages en rouge, plus particulièrement, signalent habituellement
 des erreurs.</li>
 
 </ul>
-<? footer('$Id: index.html,v 1.11 2003/09/07 00:04:27 bigben Exp $'); ?>
+<? footer('$Id: index.html,v 1.12 2003/09/07 06:59:16 zorglub Exp $'); ?>

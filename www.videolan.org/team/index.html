@@ -1,4 +1,4 @@
-<?
+<?php
    $title = "the VideoLAN team";
    $lang = "en";
    $date = "7 April 2002";
@@ -44,7 +44,7 @@ cool dudes. Note that dudes with a SVN account are very cool dudes. If
 you want to email a dude you will need to replace the '-replacewith@-'
 part with '@'. </p>
 
-<?
+<?php
    /* Return the next line */
    function nextline()
    {
@@ -116,9 +116,9 @@ part with '@'. </p>
 
       while($count < count($file))
       {
-          ?><p><?
+          ?><p><?php
           echo nextdude();
-          ?></p><?
+          ?></p><?php
       }
    }
 
@@ -152,4 +152,4 @@ working on the law issues which VideoLAN is facing.</p>
 Julien Lafaix, Julien Marx and Pierre-Antoine Rappenne.
 </p>
 
-<? footer('$Id$'); ?>
+<?php footer('$Id$'); ?>

@@ -1,4 +1,4 @@
-<?
+<?php
    $title = "VLC media player - Download Skins";
    $lang = "en";
    $date = "28 March 2003";
@@ -6,34 +6,34 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 
-<?
+<?php
   function AddSkin( $img, $text, $vlt, $zip )
   {
 ?>
 <table class="skins-download">
  <tr>
   <td>
-   <a href="/vlc/skins/<? echo $img; ?>">
-   <img width="200" src="/vlc/skins/<? echo $img; ?>"
+   <a href="/vlc/skins/<?php echo $img; ?>">
+   <img width="200" src="/vlc/skins/<?php echo $img; ?>"
      class="skins-screenshot" alt="screenshot"/>
    </a>
   </td>
   <td>
    <table>
     <tr><td class="skins-comment">
-      <? echo $text; ?>
+      <?php echo $text; ?>
     </td></tr>
-    <? if(strlen($zip)>2) { ?><tr>
-<td><a class="skins-download" href="/vlc/skins/<? echo "$zip"; ?>">Download ZIP file</a>
-    </td></tr> <? } ?>
-    <? if(strlen($vlt)>2) { ?><tr>
-<td><a class="skins-download" href="/vlc/skins/<? echo "$vlt"; ?>">Download VLT file</a>
-    </td></tr> <? } ?>
+    <?php if(strlen($zip)>2) { ?><tr>
+<td><a class="skins-download" href="/vlc/skins/<?php echo "$zip"; ?>">Download ZIP file</a>
+    </td></tr> <?php } ?>
+    <?php if(strlen($vlt)>2) { ?><tr>
+<td><a class="skins-download" href="/vlc/skins/<?php echo "$vlt"; ?>">Download VLT file</a>
+    </td></tr> <?php } ?>
    </table>
   </td>
  </tr>
 </table>
-<?
+<?php
   }
 ?>
 
@@ -69,7 +69,7 @@ a downloaded skin.</p>
 
 <h2>Basic skin</h2>
 
-<? AddSkin(
+<?php AddSkin(
    "default.jpg",
    "This is the basic skin, it is available by default on releases.",
    "default.vlt",
@@ -78,7 +78,7 @@ a downloaded skin.</p>
 
 <h2>iTunes skin</h2>
 
-<? AddSkin(
+<?php AddSkin(
    "itunes.jpg",
    "Skin adapted from iTunes by mdi.",
    "itunes.vlt",
@@ -87,7 +87,7 @@ a downloaded skin.</p>
 
 <h2>Phoenix skin</h2>
 
-<? AddSkin(
+<?php AddSkin(
    "phoenix.jpg",
    "Skin adapted from the MusicMatch Phoenix Omega skin by Immij.",
    "phoenix.vlt",
@@ -95,7 +95,7 @@ a downloaded skin.</p>
 ?>
 
 <h2>Winamp5 skin</h2>
-<? AddSkin(
+<?php AddSkin(
    "winamp5.jpg",
    "This is a Winamp5-like skin, made by kty0ne and improved by Jérôme Guilbaud.",
    "winamp5.vlt",
@@ -103,7 +103,7 @@ a downloaded skin.</p>
 ?>
 
 <h2>Hifi skin</h2>
-<? AddSkin( 
+<?php AddSkin( 
    "skin-hifi.jpg",
    "This skin was made by Good old KroKoFox.",
    "",
@@ -111,7 +111,7 @@ a downloaded skin.</p>
 ?>
 
 <h2>Aquax skin</h2>
-<? AddSkin(
+<?php AddSkin(
    "aquax.jpg",
    "This skin was originally made for zinf by Andreas Koslowski.<br />
    Skin adapted to VLC by Laurent Aimar",
@@ -120,7 +120,7 @@ a downloaded skin.</p>
 ?>
 
 <h2>KiND skin</h2>
-<? AddSkin(
+<?php AddSkin(
    "KiND.jpg",
    "This skin was made by Karim Nassar.",
    "KiND.vlt",
@@ -128,7 +128,7 @@ a downloaded skin.</p>
 ?>
 
 <h2>Orange skin</h2>
-<? AddSkin(
+<?php AddSkin(
    "orange.jpg",
    "This skin was made by Ralf Niedling.",
    "orange.vlt",
@@ -136,7 +136,7 @@ a downloaded skin.</p>
 ?>
 
 <h2>BSPlayer skin</h2>
-<? AddSkin(
+<?php AddSkin(
    "bsplayer.jpg",
    "This is an imitation of BSPlayer, made by Pierre Patoureaux.",
    "BSPlayer.vlt",
@@ -144,11 +144,11 @@ a downloaded skin.</p>
 ?>
 
 <h2>Skull Head skin</h2>
-<? AddSkin(
+<?php AddSkin(
    "crane.jpg",
    "This skin has been made by Pierre Patoureaux.",
    "crane.vlt",
    "crane.zip" );
 ?>
 
-<? footer('$Id$'); ?>
+<?php footer('$Id$'); ?>

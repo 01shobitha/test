@@ -1,4 +1,4 @@
-<?
+<?php
    $title = "VLC media player for Windows";
    $lang = "en";
    $date = "16 April 2001";
@@ -9,7 +9,7 @@
 
 ?>
 
-<? function pkgitemdev($version,$name) { ?><li><a href="http://download.videolan.org/pub/testing/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
+<?php function pkgitemdev($version,$name) { ?><li><a href="http://download.videolan.org/pub/testing/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a></li><?php } ?>
 
 <h1> VLC media player for Windows </h1>
 
@@ -18,13 +18,13 @@
 <p> Windows self-extracting package: </p>
 
 <ul>
-  <? pkgitem("0.7.2/win32","vlc-0.7.2-win32.exe","vlc"); ?>
+  <?php pkgitem("0.7.2/win32","vlc-0.7.2-win32.exe","vlc"); ?>
 </ul>
 
 <p> Windows zip package (identical to the above but without the installer): </p>
 
 <ul>
-  <? pkgitem("0.7.2/win32","vlc-0.7.2-win32.zip","vlc"); ?>
+  <?php pkgitem("0.7.2/win32","vlc-0.7.2-win32.zip","vlc"); ?>
 </ul>
 
 <p> <span style="color: red;"><b>Virus warning</b></span>: we have had several
@@ -40,14 +40,14 @@ unlikely that a Windows virus would end there. </p>
 <p>Windows self-extracting package:</p>
 
 <ul>
-<? pkgitemdev("vlc-0.8.0-test2/win32", "vlc-0.8.0-test2-win32.exe"); ?>
+<?php pkgitemdev("vlc-0.8.0-test2/win32", "vlc-0.8.0-test2-win32.exe"); ?>
 </ul>
 
 <p> Windows zip package (identical to the above but without the installer): </p>
   	 
   	
 <ul>
-  <? pkgitemdev("vlc-0.8.0-test2/win32","vlc-0.8.0-test2-win32.zip"); ?>
+  <?php pkgitemdev("vlc-0.8.0-test2/win32","vlc-0.8.0-test2-win32.zip"); ?>
 </ul>
 
 <h2>Older versions</h2>
@@ -59,4 +59,4 @@ FTP site. </p>
 
 <p>If you want, you can download the <a href="download-sources.html">sourcecode</a> of VLC media player.</p>
 
-<? footer('$Id$'); ?>
+<?php footer('$Id$'); ?>

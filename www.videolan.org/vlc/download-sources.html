@@ -1,4 +1,4 @@
-<?
+<?php
    $title = "VLC media player source code";
    $lang = "en";
    $date = "03 January 2004";
@@ -6,7 +6,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 
-<? function pkgitem($version,$name,$comment) { ?><li><a href="http://download.videolan.org/pub/videolan/vlc/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a> <? echo $comment; ?> </li><? } ?>
+<?php function pkgitem($version,$name,$comment) { ?><li><a href="http://download.videolan.org/pub/videolan/vlc/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a> <?php echo $comment; ?> </li><?php } ?>
 
 <h1> VLC media player source code </h1>
 
@@ -15,7 +15,7 @@
 <p> Latest VLC source code tarball (0.7.2): </p>
 
 <ul>
-  <?
+  <?php
      pkgitem("0.7.2","vlc-0.7.2.tar.gz","");
   ?>
   <li><a href="http://download.videolan.org/pub/videolan/vlc/0.7.2/"><i>browse the list</i></a></li>
@@ -24,7 +24,7 @@
 <p> Latest required libraries: </p>
 
 <ul>
-  <?
+  <?php
      pkgitem("0.7.2/contrib","libdvdcss-1.2.8.tar.gz","(DVD decryption library)");
      pkgitem("0.7.2/contrib","libdvdplay-1.0.1.tar.gz","(DVD menus navigation library)");
      pkgitem("0.7.2/contrib","libdvdread-20030812.tar.bz2","(DVD reading library)");
@@ -67,4 +67,4 @@ href="http://developers.videolan.org/">developers website</a>. </p>
 <p> Older versions can be found by <a href="http://download.videolan.org/pub/vlc/">browsing</a> our
 FTP site. </p>
 
-<? footer('$Id$'); ?>
+<?php footer('$Id$'); ?>

@@ -1,4 +1,4 @@
-<?
+<?php
    $title = "VideoLAN - mailing-lists subscription";
    $lang = "en";
    $date = "30 March 2001";
@@ -8,7 +8,7 @@
 
 <h1> User mailing-lists subscription </h1>
 
-<?
+<?php
     $valid = 0;
     $message = "";
     $ok = 0;
@@ -78,17 +78,17 @@
 
         ?><p> The following request has been sent to <a
         href="mailto:listar@videolan.org">listar@videolan.org</a>:
-        </p> <pre><? echo $header."\n".$message; ?></pre> <p> You
+        </p> <pre><?php echo $header."\n".$message; ?></pre> <p> You
         should receive a confirmation request within the next few
         minutes. Reply to this email to confirm you subscription or
-        unsubscription.</p> <?
+        unsubscription.</p> <?php
 
     } else {
 
         ?><p> We are afraid your subscription failed for the following
-        reason: <b><? echo $error; ?></b>. </p> <?
+        reason: <b><?php echo $error; ?></b>. </p> <?php
 
     }
 ?>
 
-<? footer('$Id$'); ?>
+<?php footer('$Id$'); ?>

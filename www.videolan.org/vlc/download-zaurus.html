@@ -1,4 +1,4 @@
-<?
+<?php
    $title = "VLC media player for Zaurus";
    $lang = "en";
    $date = "18 August 2003";
@@ -6,7 +6,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 
-<? function pkgitem($version,$name) { ?><li><a href="http://download.videolan.org/pub/videolan/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
+<?php function pkgitem($version,$name) { ?><li><a href="http://download.videolan.org/pub/videolan/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a></li><?php } ?>
 
 <h1>VLC media player for Zaurus</h1>
                                                                                                              
@@ -22,7 +22,7 @@
 <p>The latest release for Zaurus is version v0.5.3. It can be downloaded with the link below. Do not forget to also install the additional libraries that are listed on this page. VLC for zaurus will not function without them.</p>
 
 <ul>
-<?
+<?php
     pkgitem("vlc/ipkg-feed/armv4l/v0.5.3/zaurus", "zaurus-vlc_0.5.3_arm.ipk");
 ?>
 </ul>
@@ -36,7 +36,7 @@
 <p>Zaurus vlc needs the following packages installed:</p>
 
 <ul>
-<?
+<?php
      pkgitem("vlc/ipkg-feed/armv4l/v0.5.3/zaurus", "zaurus-libsdl_1.2.5_arm.ipk");
      pkgitem("vlc/ipkg-feed/armv4l/v0.5.3", "libffmpeg_0.4.6_20030304_arm.ipk");
 ?>
@@ -46,7 +46,7 @@
 
 <p>The Zaurus comes with a tailored down libc installation. VLC depends on one extra library that is not provided by default. Here it is:</p>
 <ul>
-<?
+<?php
      pkgitem("vlc/ipkg-feed/armv4l/v0.5.3/zaurus", "librt_2.1.3_arm.ipk");
 ?>
 </ul>
@@ -62,4 +62,4 @@
 # ipkg install zaurus-vlc_0.5.4_arm.ipk
 </pre>
 
-<? footer('$Id$'); ?>
+<?php footer('$Id$'); ?>

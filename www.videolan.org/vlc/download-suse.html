@@ -1,4 +1,4 @@
-<?
+<?php
    $title = "VLC media player for Linux SUSE";
    $lang = "en";
    $date = "14 February 2003";
@@ -6,7 +6,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 
-<? function pkgitem($version,$name,$comment) { ?><li><a href="http://download.videolan.org/pub/videolan/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a> <? echo $comment; ?> </li><? } ?>
+<?php function pkgitem($version,$name,$comment) { ?><li><a href="http://download.videolan.org/pub/videolan/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a> <?php echo $comment; ?> </li><?php } ?>
 
 <h1>VLC media player for SUSE Linux x86</h1>
 <h2>Looking for SUSE package maintainer</h2>
@@ -23,4 +23,4 @@ In the mean time, you could try this unofficial and by VideoLAN unsupported SuSE
 <p>
 <a href="http://forum.videolan.org/viewtopic.php?t=1092">Forum post</a> with possibly useful information.</p>
 
-<? footer('$Id$'); ?>
+<?php footer('$Id$'); ?>

@@ -1,4 +1,4 @@
-<?
+<?php
    $title = "VLC media player for Red Hat Linux";
    $lang = "en";
    $date = "21 June 2004";
@@ -6,7 +6,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 
-<? function pkgitem($version,$name,$comment) { ?><li><a href="http://download.videolan.org/pub/videolan/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a> <? echo $comment; ?> </li><? } ?>
+<?php function pkgitem($version,$name,$comment) { ?><li><a href="http://download.videolan.org/pub/videolan/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a> <?php echo $comment; ?> </li><?php } ?>
 
 <h1>VLC media player for Red Hat Linux</h1>
 
@@ -22,4 +22,4 @@
 <p> Older versions can be found by <a href="http://download.videolan.org/pub/vlc/">browsing</a> our
 FTP site. </p>
 
-<? footer('$Id$'); ?>
+<?php footer('$Id$'); ?>

@@ -1,8 +1,8 @@
 <?php
 
-   /*
-    *  starthtml: beginning of the page
-    */
+/*
+*  starthtml: beginning of the page
+*/
 
 function StartHtml( $title ) {
 
@@ -21,8 +21,8 @@ echo "<?xml version=\"1.0\" encoding=\"iso-8859-1\" ?>\n";
    <meta name="Keywords" content="DVD, MPEG, MPEG2, MPEG4, DivX, VideoLAN,
      VLC, VLS, Linux, Unix, BeOS, BSD, MacOS, MacOS X, OSX, QNX,
      Familiar Linux, iPAQ, multicast, IPv6" />
-   <meta name="Description" content="<? echo $title; ?>" />
-   <title><? echo $title; ?></title>
+   <meta name="Description" content="<?php echo $title; ?>" />
+   <title><?php echo $title; ?></title>
    <link rel="alternate" type="application/rss+xml" title="RSS - News" href="/videolan-news.rss" />
    <link rel="stylesheet" type="text/css" href="/main.css" />
    <link rel="shortcut icon" type="image/x-icon"

@@ -1,4 +1,4 @@
-<?
+<?php
    $title = "VLC media player - Download Skins";
    $lang = "en";
    $date = "28 March 2003";
@@ -6,31 +6,31 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 
-<?
+<?php
   function AddSkin( $img, $text, $vlt )
   {
 ?>
 <table class="skins-download">
  <tr>
   <td>
-   <a href="/vlc/skins2/<? echo $img; ?>">
-   <img width="200" src="/vlc/skins2/<? echo $img; ?>"
+   <a href="/vlc/skins2/<?php echo $img; ?>">
+   <img width="200" src="/vlc/skins2/<?php echo $img; ?>"
      class="skins-screenshot" alt="screenshot"/>
    </a>
   </td>
   <td>
    <table>
     <tr><td class="skins-comment">
-      <? echo $text; ?>
+      <?php echo $text; ?>
     </td></tr>
-    <? if(strlen($vlt) > 2) { ?><tr>
-<td><a class="skins-download" href="/vlc/skins2/<? echo "$vlt"; ?>">Download VLT file</a>
-    </td></tr> <? } ?>
+    <?php if(strlen($vlt) > 2) { ?><tr>
+<td><a class="skins-download" href="/vlc/skins2/<?php echo "$vlt"; ?>">Download VLT file</a>
+    </td></tr> <?php } ?>
    </table>
   </td>
  </tr>
 </table>
-<?
+<?php
   }
 ?>
 
@@ -81,7 +81,7 @@ graphics software might ease the job, though :-)</p>
 
 
 <h2>Winamp5 skin</h2>
-<? AddSkin(
+<?php AddSkin(
    "winamp5.jpg",
    "Skin made by kty0ne, improved by Jérôme Guilbaud and ported<br/>
     to skins2 by Olivier Teulière ",
@@ -89,7 +89,7 @@ graphics software might ease the job, though :-)</p>
 ?>
 
 <h2>Chaos skin</h2>
-<? AddSkin(
+<?php AddSkin(
    "chaos.jpg",
    "Based on the xmms Chaos skin by Omar Hussain, ported by Cyril<br/>
     Deguet<br/> ",
@@ -97,11 +97,11 @@ graphics software might ease the job, though :-)</p>
 ?>
 
 <h2>Void skin</h2>
-<? AddSkin(
+<?php AddSkin(
    "void.jpg",
    "By Black",
    "void.vlt" );
 ?>
 
 
-<? footer('$Id: download-skins.html 2517 2004-05-23 17:11:06Z ipkiss $'); ?>
+<?php footer('$Id: download-skins.html 2517 2004-05-23 17:11:06Z ipkiss $'); ?>

@@ -1,4 +1,4 @@
-<?
+<?php
    $title = "VLC media player for Fedora";
    $lang = "en";
    $date = "21 June 2004";
@@ -6,7 +6,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 
-<? function pkgitem($version,$name,$comment) { ?><li><a href="http://download.videolan.org/pub/videolan/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a> <? echo $comment; ?> </li><? } ?>
+<?php function pkgitem($version,$name,$comment) { ?><li><a href="http://download.videolan.org/pub/videolan/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a> <?php echo $comment; ?> </li><?php } ?>
 
 <h1>VLC media player for Fedora Core 2</h1>
 
@@ -31,13 +31,13 @@ uncompress them in the same directory :</p>
 <p>Latest RPM x86 packages tarballs for Fedora Core Beta2: </p>
 
 <ul>
-<? pkgitem("vlc/0.7.2/rpm/fedora/fc2","vlc-binary.tar.gz","(VLC Binaries packages)");
+<?php pkgitem("vlc/0.7.2/rpm/fedora/fc2","vlc-binary.tar.gz","(VLC Binaries packages)");
    pkgitem("vlc/0.7.2/rpm/redhat/rh9","redhat9-updates.tar.gz","(Updates required to run VLC on Red Hat 9)");
    pkgitem("vlc/0.7.2/rpm/fedora/fc1","fedora1-updates.tar.gz","(Updates required to run VLC on Fedora Core)"); ?></ul>
 
 <p>Optional components:</p>
 
-<ul><?
+<ul><?php
     pkgitem("vlc/0.7.2/rpm/fedora/fc2","vlc-devel.tar.gz","(VLC Development headers)");
     pkgitem("vlc/0.7.2/rpm/fedora/fc2","vlc-source.tar.gz","(VLC Source Code)");
 ?></ul>
@@ -53,4 +53,4 @@ vlc/0.7.2/rpm/fedora/fc2/vlc/</a> of our FTP site.</p>
 <p> Older versions can be found by <a href="http://download.videolan.org/pub/vlc/">browsing</a> our
 FTP site. </p>
 
-<? footer('$Id$'); ?>
+<?php footer('$Id$'); ?>

@@ -1,4 +1,4 @@
-<?
+<?php
    $title = "VLC media player for Mac OS X";
    $lang = "en";
    $date = "16 April 2001";
@@ -9,7 +9,7 @@
 
 ?>
 
-<? function pkgitemdev($version,$name) { ?><li><a href="http://download.videolan.org/pub/testing/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
+<?php function pkgitemdev($version,$name) { ?><li><a href="http://download.videolan.org/pub/testing/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a></li><?php } ?>
 
 <h1> VLC media player for Mac OS X </h1>
 
@@ -21,10 +21,10 @@
 <p><b>Note:</b> There is not, and there will never be, a version for Mac OS 9.</p>
 
 <ul>
-<? pkgitem("0.7.2/macosx","vlc-0.7.2.dmg","vlc"); ?> (Requires Mac OS X 10.2 or 10.3)
+<?php pkgitem("0.7.2/macosx","vlc-0.7.2.dmg","vlc"); ?> (Requires Mac OS X 10.2 or 10.3)
 </ul>
 <ul>  
-<? pkgitem("0.7.0/macosx","vlc-0.7.0.dmg","vlc"); ?> (Last version for Mac OS X 10.1)
+<?php pkgitem("0.7.0/macosx","vlc-0.7.0.dmg","vlc"); ?> (Last version for Mac OS X 10.1)
 </ul>
 
 <p> VLC for Mac OS X is distributed as a disk image. Download the
@@ -37,7 +37,7 @@ double-clicking on it. </p>
 <p>This is the beta package for the next version: 0.8.0</p>
 
 <ul>
- <? pkgitemdev( "vlc-0.8.0-test2/macosx" , "vlc-0.8.0-test2.dmg"); ?>
+ <?php pkgitemdev( "vlc-0.8.0-test2/macosx" , "vlc-0.8.0-test2.dmg"); ?>
 </ul>
 
 <h2>Older versions</h2>
@@ -49,4 +49,4 @@ FTP site. </p>
 
 <p>If you want, you can download the <a href="download-sources.html">sourcecode</a> of VLC media player.</p>
 
-<? footer('$Id$'); ?>
+<?php footer('$Id$'); ?>

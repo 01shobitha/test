@@ -1,4 +1,5 @@
-<chapter id="softencoding"><title id="tsoftencoding">Stream from an acquisition card</title>
+<chapter id="softencoding"><title id="tsoftencoding">Stream from an
+acquisition card</title>
 
 <note><para>This is possible under Linux only.</para></note>
 
@@ -26,8 +27,7 @@ and you must specify <command>--enable-v4l</command> to
 <screen>
 <!-- We cut the lines when they are too long, so that it looks OK in PDF format ! -->
 <prompt>% </prompt><userinput>vlc -vvv v4l:/dev/video:norm=secam:frequency=8692:size=640x480:channel=0:adev=/dev/dsp:audio=0
---sout '#transcode{vcodec=mp4v,ab=256,vb=3000,vt=800000,keyint=80,acodec=mpga}
-:std{access=udp,mux=ts,url=239.255.12.13}' --ttl 12</userinput>
+--sout '#transcode{vcodec=mp4v,acodec=mpga,vb=3000,ab=256,vt=800000,keyint=80,deinterlace}:std{access=udp,mux=ts,url=239.255.12.13}' --ttl 12</userinput>
 </screen>
 
 <para>where :</para>
@@ -67,10 +67,14 @@ also <emphasis>h263</emphasis>, <emphasis>DIV1</emphasis>,
 <emphasis>I444</emphasis>, <emphasis>RV24</emphasis>,
 <emphasis>YUY2</emphasis>),</para>
 
-<listitem><para><emphasis>ab=256</emphasis> is the audio bitrate in
-Kbit/s,</para>
+<listitem><para><emphasis>acodec=mpga</emphasis> is the audio format
+you want to encode in (<emphasis>mpga</emphasis> is MPEG audio layer 2,
+<emphasis>a52</emphasis> is A52 i.e. AC3 sound),</para>
 
 <listitem><para><emphasis>vb=3000</emphasis> is the video bitrate in
+Kbit/s,</para>
+
+<listitem><para><emphasis>ab=256</emphasis> is the audio bitrate in
 Kbit/s,</para>
 
 <listitem><para><emphasis>vt=800000</emphasis> is the video bitrate
@@ -79,10 +83,8 @@ tolerance in bit/s,</para>
 <listitem><para><emphasis>keyint=80</emphasis> is the maximum interval
 between two "I" images in number of images,</para>
 
-
-<listitem><para><emphasis>acodec=mpga</emphasis> is the audio format
-you want to encode in (<emphasis>mpga</emphasis> is MPEG audio layer 2,
-<emphasis>a52</emphasis> is A52 i.e. AC3 sound),</para>
+<listitem><para><emphasis>deinterlace</emphasis> tells VLC to
+deinterlace the video on the fly,</para>
 
 <listitem><para><emphasis>url=192.168.0.42</emphasis> is either :</para>
 

@@ -19,6 +19,7 @@ function CSSButton( $event, $normal, $over, $down )
 function StartHtml( $title ) {
 
 global $HTTP_GET_VARS;
+echo "<?xml version=\"1.0\" encoding=\"iso-8859-1\" ?>\n";
 
  ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"

@@ -7,7 +7,7 @@ exemple</para>
 
 <sect2><title>Under Windows</title>
 
-<para>Simply click on the <command>Uninstall vlc</command> icon that was
+<para>Simply click on the <command>Uninstall VLC</command> icon that was
 created during installation.</para>
 
 </sect2>
@@ -22,7 +22,7 @@ in 0.4.x, 'vlcrc' in 0.5+).</para>
 
 <sect2><title>Under Mac OS X</title>
 
-<para>Simply drag the vlc application to your trash can</para>
+<para>Simply drag the VLC application to your trash can.</para>
 
 </sect2>
 
@@ -31,7 +31,7 @@ in 0.4.x, 'vlcrc' in 0.5+).</para>
 <para> As root, type</para>
 
 <screen>
-<prompt># </prompt><userinput>apt-get remove vlc-gnome vlc-mad libdvdcss2 --purge</userinput>
+<prompt># </prompt><userinput>apt-get remove --purge vlc-gnome vlc-mad libdvdcss2 libdvbpsi1</userinput>
 </screen>
 </sect2>
 
@@ -51,7 +51,7 @@ libdvdcss2-version.i586.rpm libdvdpsi1-version.i586.rpm</userinput>
 <sect2><title>If you compiled the sources by yourself</title>
 
 
-<para> To uninstall the VLC, you can execute <command>make
+<para>To uninstall the VLC, you can execute <command>make
 uninstall</command>, <command>make clean</command> or <command>make
 distclean</command> as needed, from where you compiled the VLC.
 </para>

@@ -1,19 +1,19 @@
 <chapter id="vlcs"><title id="tvlcs">Add a channel information service</title>
 
 <para>Typing multicast addresses and URLs is not very fun... and that's
-where a small program, the mini VideoLAN Channel Server (mini-vlcs),
+where a small program, the mini VideoLAN Channel Server (mini-VLCS),
 is very useful. The mini VideoLAN Channel Server associate URLs or
 multicast addresses to channels, like on a TV.</para>
 
 <sect1><title>Installing the mini VideoLAN Channel Server</title>
 
-<note><para>The mini-vlcs is only available for Linux.</para></note>
+<note><para>The mini-VLCS is only available for Linux.</para></note>
 
 <para>You don't have to change anything to vls or the Web server.
-Mini-vlcs is independant from them, but is can be installed on the same
+Mini-VLCS is independant from them, but is can be installed on the same
 machine as vls or the Web server.</para>
 
-<para>Download the latest version of mini-vlcs from the <ulink
+<para>Download the latest version of mini-VLCS from the <ulink
 url="http://www.videolan.org/network/download.html">network download
 page</ulink>.</para>
 
@@ -45,7 +45,7 @@ and sent directly to the client (for example,
 <emphasis>udp:@239.255.12.42</emphasis>),<para></listitem>
 
 <listitem><para>lines beginning by <emphasis>I:</emphasis> are "dummy"
-channel programs that tell vlc there is nothing in this channel (which
+channel programs that tell VLC there is nothing in this channel (which
 should be the case of channel 0).</para></listitem>
 
 </itemizedlist>
@@ -66,7 +66,7 @@ http://vod.videolan.org/test/video2.mpg
 
 <sect1><title>Running the mini Videolan Channel Server</title>
 
-<para>Start mini-vlcs :</para>
+<para>Start mini-VLCS :</para>
 
 <screen>
 <prompt>% </prompt><userinput>./vlcs</userinput>
@@ -81,12 +81,12 @@ you can detach-it and reattach-it:</para>
 
 </sect1>
 
-<sect1><title>Configure vlc(s) to use the channel information service</title>
+<sect1><title>Configure VLC(s) to use the channel information service</title>
 
-<para>Launch vlc, click on the <emphasis>net</emphasis> button or
+<para>Launch VLC, click on the <emphasis>net</emphasis> button or
 select in the menu <emphasis>File / Network stream</emphasis>, select
 <emphasis>Channel Server</emphasis>, enter the DNS name or the IP
-address of the machine hosting mini-vlcs and click on
+address of the machine hosting mini-VLCS and click on
 <emphasis>OK</emphasis>.</para>
 
 <para>Then, you see a new section <emphasis>Network Channel</emphasis>

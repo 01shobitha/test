@@ -46,7 +46,7 @@ which will be available to the clients at the URL
 
 <para>
 
-Launch vlc, then click on the <emphasis>net</emphasis>
+Launch VLC, then click on the <emphasis>Net</emphasis>
 button or select in the menu <emphasis>File / Network
 stream</emphasis>, select <emphasis>HTTP</emphasis> and type the URL
 <filename>http://vod.videolan.org/test/video1.mpg</filename>.
@@ -55,7 +55,7 @@ stream</emphasis>, select <emphasis>HTTP</emphasis> and type the URL
 
 <para>
 
-Vlc starts to read the stream nearly immediately and you can seek in the
+VLC starts to read the stream nearly immediately and you can seek in the
 stream, make pauses, etc... as if the stream was a local file.
 
 </para>

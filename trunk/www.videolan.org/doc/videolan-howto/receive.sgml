@@ -1,4 +1,4 @@
-<chapter id="receive"><title id="treceive">Receive a stream</title>
+<chapter id="receive"><title id="treceive">Receive and save a stream</title>
 
 <sect1><title>Receive a stream with VLC</title>
 
@@ -81,6 +81,42 @@ address of the stream.</para>
 </itemizedlist>
 
 </sect2>
+
+<sect1><title>Save a stream with VLC</title>
+
+<para>VLC can save the stream to the disk, but it can't display it
+and save it to the disk at the same time (this should come in future
+versions). In order to save the file to the disk, use the Stream Output
+of VLC : you can do it via the graphical interface, or you can add to
+the command line the following argument :</para>
+
+<screen>
+<userinput>--sout file/muxer://stream.ext</userinput>
+</screen>
+
+<para>where :</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>muxer</emphasis> is one of the formats supported by VLC's stream output, i.e. :</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>avi</emphasis> for AVI format,</para></listitem>
+<listitem><para><emphasis>ogg</emphasis> for OGG format,</para></listitem>
+<listitem><para><emphasis>ps</emphasis> for MPEG2-PS format,</para></listitem>
+<listitem><para><emphasis>ts</emphasis> or
+<emphasis>ts_dvbpsi</emphasis> for MPEG2-TS format (the latter uses
+<emphasis>libdvbpsi</emphasis> for the task).</para></listitem>
+
+
+</itemizedlist>
+
+</listitem>
+
+<listitem><para>and <filename>stream.ext</filename> is the name of the file you want to save the stream to, with the right extension.</para></listitem>
+
+</itemizedlist>
 
 </sect1>
 

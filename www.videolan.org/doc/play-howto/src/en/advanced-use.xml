@@ -632,7 +632,7 @@ Blur factor in the 1-127 range.</para></listitem>
 
 <itemizedlist>
 <listitem><para><emphasis>--time-format &lt;string&gt;</emphasis>
-Time format string. Can the following special characters %Y = year,
+Time format string. You can use the following special characters %Y = year,
 %m = month, %d = day, %H = hour, %M = minute, %S = second.</para>
 </listitem>
 <listitem><para><emphasis>--time-x &lt;integer&gt;</emphasis>

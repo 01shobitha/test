@@ -10,6 +10,10 @@ function stopbox() { ?></td></tr></table><? }
     *  starthtml: beginning of the page
     */
 
+function h2($title) {
+?><table class="h2"><tr><td><? echo $title; ?></td></tr></table> <?
+}
+
 function starthtml($title) { ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">

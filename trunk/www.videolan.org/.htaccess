@@ -84,8 +84,7 @@ Redirect permanent /doc/videolan-quickstart http://www.videolan.org/doc/
 # Some dumb people link to us with doc//$LANG/document
 #
 Redirect permanent /doc/fr/vlc-user-guide http://www.videolan.org/doc/vlc-user-guide/fr
-Redirect permanent /doc/fr/videolan-howto http://www.videolan.org/doc/videolan-h
-owto/fr
+Redirect permanent /doc/fr/videolan-howto http://www.videolan.org/doc/videolan-howto/fr
 Redirect permanent /doc/fr/vls-user-guide http://www.videolan.org/doc/vls-user-guide/fr
 
 Redirect permanent /doc/en/vlc-user-guide http://www.videolan.org/doc/vlc-user-guide/en

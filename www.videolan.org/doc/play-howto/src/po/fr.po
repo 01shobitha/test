@@ -466,7 +466,7 @@ msgstr "Client"
 
 # type: Content of: <chapter><sect1><title>
 #: en/play-howto.xml:64 en/intro.xml:25
-#, no-wrap
+#, no-wrp
 msgid "VLC media player"
 msgstr "VLC media player"
 
@@ -1578,13 +1578,13 @@ msgstr ""
 msgid ""
 "Presets are available in the Audio menu in wxWindows, or in the\n"
 "Equalizer window in the MacOS X interface"
-msgstr ""
+msgstr "Fenêtre d'équalizer dans l'interface MacOS"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/basic-use.xml:606
 #, no-wrap
 msgid "Other audio filters"
-msgstr ""
+msgstr "Autres filtres audio"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/basic-use.xml:608
@@ -1595,6 +1595,10 @@ msgid ""
 "They can be enabled in the Audio tab of the extended GUI for the\n"
 "wxWindows interface."
 msgstr ""
+       "à l'heure actuelle, VLC comporte deux autres filtres audio:  un volume \n"
+       "normalisateur et un filtre fournissant au son spatial un casque. \n" 
+       "Ils peuvent être activés  dans l'étiquette audio du GUI prolongé pour l'interface de wxWindows.\n"
+       ""       
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/basic-use.xml:613
@@ -1607,6 +1611,11 @@ msgid ""
 "names of the filters to enable, separated by commas. Valid names are\n"
 "\"equalizer\", \"normvol\" and \"headphone\"."
 msgstr ""
+        "sous MacOS X, ou pour une meilleure commande, vous avez besoin d'aller aux préférences. \n"
+	"Pour choisir les filtres à activer, va dans le menu < Settings</emphasis emphasis>General >, puis \n" 
+	"< emphasis>Audio</emphasis >.  Dans la boîte \"filtres de audio"\ , entre  les noms des filtres \n"
+	"à activer en les séparant par des virgules. Les noms valides sont \n"
+	" \"equalizer \", \"normvol \ "et \"headphone \"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/basic-use.xml:620
@@ -1615,25 +1624,27 @@ msgid ""
 "If you want to tune the behavior of these filters, go to\n"
 "<emphasis>Modules/audio_filter</emphasis>. The equalizer and headphone\n"
 "filters can be tuned."
-msgstr ""
-
+msgstr ""                                                                                                             
+       "si vous voulez accorder le comportement de ces filtres, vous allez dans\n" 
+       "< emphasis>Modules/audio_filter</emphasis >. \n"
+       "Les filtres d'égaliseur et d'écoute peuvent alors être accordés."
 # type: Content of: <chapter><sect1><title>
 #: en/basic-use.xml:638
 #, no-wrap
 msgid "Basic troubleshooting"
-msgstr ""
-
+msgstr "dépannage de base"
+       
 # type: Content of: <chapter><sect1><note><para>
 #: en/basic-use.xml:640
 #, no-wrap
 msgid "This is very incomplete"
-msgstr ""
+msgstr "Ceci est très complet"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/basic-use.xml:642
 #, no-wrap
 msgid "File does not play, only sound or only video"
-msgstr ""
+msgstr "Le fichier ne peut pas être lu, seul le son ou seul la vidéo marche""
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:644
@@ -1645,7 +1656,11 @@ msgid ""
 "to read, it won't be supported. (There is an exception, under Windows,\n"
 "for codecs that use the DirectShow framework)."
 msgstr ""
-
+        "Peut-être le dossier que vous essayez de lire n'est pas compatible. \n"
+	"VLC n'emploie pas les paquets de codec que vous pourriez avoir installés. \n"
+	"Il vient avec ses propres codecs.  S'il n'y a aucun décodeur open-source pour le format \n"
+	"que vous êtes de lire, il ne sera pas accepté.  (il y a une exception, sous Windows, \n "
+	" pour les codecs qui emploient le cadre de DirectShow)."
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:650
 #, no-wrap
@@ -1653,12 +1668,16 @@ msgid ""
 "To find out, open the Messages Window (View menu) and restart your\n"
 "stream. Look for error messages (red messages)"
 msgstr ""
-
+    "Pour trouver, ouvrez la fenêtre de messages (menu Ouvrir) et relancez votre flux. \n"
+    "Recherchez les messages d'erreur (messages rouges)"
+    
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:657 en/basic-use.xml:658
 #, no-wrap
 msgid "The wxWindows messages window"
 msgstr ""
+       "la fenêtre de messages de wxWindows"
+       
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:661
@@ -1667,7 +1686,8 @@ msgid ""
 "In this example, the file contains a IV41 video stream, a codec\n"
 "that is not supported by VLC."
 msgstr ""
-
+       "Dans cet exemple, le dossier contient flux video IV41 , un codec\n" 
+       "qui n'est pas accepté par VLC."
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:664
 #, no-wrap
@@ -1676,13 +1696,15 @@ msgid ""
 "mailing list or in the forum, please include such a log, it is very\n"
 "valuable."
 msgstr ""
-
+       "Vous pouvez naturellement avoir d'autres messages.  Si vous postez à la mailing-list \n"
+       "VideoLAN ou dans le forum, veuillez inclure une telle remarque, c'est très important"
+       
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/basic-use.xml:670
 #, no-wrap
 msgid "Weird VLC behavior (\"stopped working\")"
 msgstr ""
-
+       "Le comportement étrange de VLC (\"Panne \")"
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:672
 #, no-wrap
@@ -1691,12 +1713,15 @@ msgid ""
 "delete it if problems appear suddenly. You will find in the FAQ details\n"
 "on <ulink url=\"http://www.videolan.org/doc/faq/en/index.html#id2470084\">how to delete your preferences file</ulink>."
 msgstr ""
-
+       "Une chose très pratique est le faux dossier préférences.  N'hésitez  de l'effacer \n "
+       "si les problèmes apparaissent soudainement.  Vous trouverez dans les details du FAQ "
+       " sur le lien url < url=\"http://www.videolan.org/doc/faq/en/index.html#id2470084\"> \n"
+       "Pour  supprimer dossier de vos préférencese, allez dans le lien url."
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/basic-use.xml:678
 #, no-wrap
 msgid "Computer crashes / Video is corrupted"
-msgstr ""
+msgstr "L'orrdinateur plante / la Vidéo ne marche pas"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:680
@@ -1705,7 +1730,9 @@ msgid ""
 "Another common problem is buggy video drivers. Try upgrading them\n"
 "from the website of your video card's manufacturer."
 msgstr ""
-
+       "Un autre problème courant est la défaillance des lecteurs vidéos. \n"
+       "Essayez de les améliorer à partir du site web du fabricant de votre carte vidéo."
+      
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:683
 #, no-wrap
@@ -1713,7 +1740,9 @@ msgid ""
 "Also, you can try disabling Overlay (Preferences/General/Video,\n"
 "untick \"Overlay video output\")"
 msgstr ""
-
+       "en outre, vous pouvez essayer de neutraliser le recouvrement (Preference/General/Video, \n" 
+       "désactive \"Overlay video output\")"
+       
 # type: Content of: <chapter><title>
 #: en/advanced-use.xml:2
 #, no-wrap
@@ -1721,12 +1750,14 @@ msgid ""
 "\n"
 "Advanced use of VLC\n"
 msgstr ""
+       " Utilisation avancée de VLC \n"
 
 # type: Content of: <chapter><sect1><title>
 #: en/advanced-use.xml:12
 #, no-wrap
 msgid "Use the command line"
 msgstr ""
+       "Utilisez la ligne de commande"
 
 # type: Content of: <chapter><sect1><para>
 #: en/advanced-use.xml:16
@@ -1737,6 +1768,9 @@ msgid ""
 "and there are situations in which you don't need or want a GUI. Here is\n"
 "the complete description of VLC's command line and how to use it"
 msgstr ""
+       "Toutes les opérations standard de VLC devraient être fournies par le GUI.\n" 
+       "cependant, quelques opérations complexes peuvent seulement être faites à \n"
+       "partir  de la  ligne de commande et il y a des situations dans lesquelles vous n'avez pas besoin ou ne voulez pas d'un GUI.  Voilà la description complète de la ligne de la commande de VLC et comment l'utiliser"
 
 # type: Content of: <chapter><sect1><para>
 #: en/advanced-use.xml:21
@@ -1745,6 +1779,8 @@ msgid ""
 "You need to be quite comfortable with command line usage to use\n"
 "this."
 msgstr ""
+       "vous devez être tout à fait confortable avec l'utilisation de la \n"
+       "ligne de commande pour employer ceci."
 
 # type: Content of: <chapter><sect1><note><para>
 #: en/advanced-use.xml:24
@@ -1754,13 +1790,18 @@ msgid ""
 "<emphasis>--option-name=\"value\"</emphasis> syntax instead of the\n"
 "<emphasis>--option-name value</emphasis> syntax."
 msgstr ""
+       "Les utilisateurs de Windows doivent utiliser la syntaxe \n"
+       "<emphasis>--option-name=\"value\"</emphasis> au lieu de \n"
+       "<emphasis>--option-name value</emphasis> "
 
+       
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/advanced-use.xml:28
 #, no-wrap
 msgid "Getting help"
 msgstr ""
-
+      "Besoin d'aide"
+      
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/advanced-use.xml:30
 #, no-wrap
@@ -1770,7 +1811,10 @@ msgid ""
 "modules. There are input modules, demultiplexers, decoders, video output\n"
 "modules, ..."
 msgstr ""
-
+       "VLC emploie une structure modulaire.  Le noyau contrôle  principalement \n"
+       "la communication  entre les modules.  Tout le traitement de multimédia  \n"
+       "est fait par des modules.  Il y a des modules d'entrée,des  démultiplexeurs, \n"
+       "des décodeurs, des  modules de rendement visuels... "
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/advanced-use.xml:35
 #, no-wrap
@@ -1779,6 +1823,10 @@ msgid ""
 "core options. Each module adds new options. For example, the HTTP input\n"
 "module will add options for caching, proxy, authentication, ..."
 msgstr ""
+       "Ce chapitre décrira seulement les options \"générales\", c'est a dire \n"
+       "les options de noyau.  Chaque module ajoute de nouvelles options. \n"
+       "Par exemple, le module d'entrée de HTTP ajoutera des options de cache, \n"
+       "procuration, authentification... "
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/advanced-use.xml:39
@@ -1790,7 +1838,14 @@ msgid ""
 "options\" (for advanced users). So <userinput>vlc --longhelp --advanced</userinput>\n"
 "will give you all options."
 msgstr ""
-
+       "En utilisant la commande < userinput>vlc -- help</userinput >,vous \n"
+       "obtiendrez le  noyau de base. <userinput>vlc -- longhelp</userinput >  \n"
+       "donnera toutes les options de base (noyau + modules). La commande  \n"
+       "< userinput> -- advanced</userinput > donnera les options avançées  \n"
+       "(pour les utilisateurs avançés).  Ainsi \n"
+       "< l'userinput>vlc -- longhelp -- advanced</userinput>\n 
+       "vous donnera toutes les options."
+       
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/advanced-use.xml:45
 #, no-wrap
@@ -1800,12 +1855,19 @@ msgid ""
 "lower severity messages). If your console supports it, you can add\n"
 "<userinput>--color</userinput> to get messages in color."
 msgstr ""
+       "En outre, vous pourriez vouloir obtenir des informations corrigées. \n"
+       "Pour faire ceci, employez < userinput>-v</userinput > ou  \n"
+       "< userinput>-vv</userinput > (ceci montrera les messages inférieurs \n"
+       "de sévérité).  Si votre console la soutient, vous pouvez ajouter \n"
+       "< userinput> -- color</userinput > pour recevoir des messages en couleurs." 
+      
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/advanced-use.xml:52
 #, no-wrap
 msgid "Opening streams"
 msgstr ""
+       "Flux d'ouverture"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/advanced-use.xml:54
@@ -1814,7 +1876,8 @@ msgid ""
 "The following commands start VLC and start reading the given\n"
 "element(s)"
 msgstr ""
-
+       "les commandes suivantes démarre VLC et commencent à lire \n"
+       "le(s) element(s) donnés"
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/advanced-use.xml:57
 #, no-wrap
@@ -1822,6 +1885,7 @@ msgid ""
 "\n"
 "Opening a file\n"
 msgstr ""
+       "Ouvrir d'un fichier"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/advanced-use.xml:61 en/advanced-use.xml:83
@@ -1830,6 +1894,7 @@ msgid ""
 "\n"
 "Start VLC with:\n"
 msgstr ""
+       "Démarrer VLC ave \n"
 
 # type: Content of: <chapter><sect1><sect2><sect3><screen>
 #: en/advanced-use.xml:65
@@ -1838,7 +1903,9 @@ msgid ""
 "\n"
 "<prompt>% </prompt><userinput>vlc my_file</userinput>\n"
 msgstr ""
-
+       "\n"
+       "<prompt>% </prompt><userinput>vlc my_file</userinput>\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/advanced-use.xml:69
 #, no-wrap
@@ -1846,7 +1913,10 @@ msgid ""
 "VLC should be able to recognize the file type. If it does not, you\n"
 "can force demultiplexer and decoder (see below)."
 msgstr ""
-
+       "VLC devrait pouvoir identifier le type de dossier.  S'il n'y \n"
+       "arrive pas , vous pouvez forcer le démultiplexeur et le \n"
+       "décodeur (voir ci-dessous)."
+       
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/advanced-use.xml:72
 #, no-wrap
@@ -1856,6 +1926,10 @@ msgid ""
 "url=\"http://www.videolan.org/vlc/features.html\">VLC features\n"
 "list</ulink>. "
 msgstr ""
+       "Une liste de tous les codecs vidéo et audio que supporte VLC \n"
+       " est disponible dans le lien url \n"
+       ""url=\"http://www.videolan.org/vlc/features.html\"
+
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/advanced-use.xml:79
@@ -1864,13 +1938,15 @@ msgid ""
 "\n"
 "Opening a DVD or VCD, or an audio CD\n"
 msgstr ""
-
+	"\n"
+	"Ouvrir un DVD ou un VCD, on un CD audio \n"
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/advanced-use.xml:87
 #, no-wrap
 msgid "For a DVD with menus :"
 msgstr ""
-
+       "Pour un DVD avec menus \n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><screen>
 #: en/advanced-use.xml:90
 #, no-wrap
@@ -1878,13 +1954,16 @@ msgid ""
 "\n"
 "<prompt>% </prompt><userinput>vlc dvd://[device][@raw_device][@[title][,[chapter][,angle]]]</userinput>\n"
 msgstr ""
+	"\n"
+	"<prompt>% </prompt><userinput>vlc dvd://[device][@raw_device][@[title][,[chapter][,angle]]]</userinput>\n"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/advanced-use.xml:94
 #, no-wrap
 msgid "In most cases, <userinput>vlc dvd://</userinput> or <userinput>vlc dvd://[device]</userinput> will do. [device] is for example <userinput>/dev/dvd</userinput> on GNU/Linux or <userinput>D:</userinput> on Windows (complete path to your DVD drive)."
 msgstr ""
-
+	"Dans la plupart des cas  <userinput>vlc dvd://</userinput> ou <userinput>vlc dvd://[device]</userinput> le font. [Le dispositif] est par exemple  < userinput>/dev/dvd</userinput > sur GNU/Linux ou < userinput>D:</userinput > sur Windows (le chemin complet à votre commande de DVD)."  
+	
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/advanced-use.xml:96
 #, no-wrap
@@ -1895,7 +1974,11 @@ msgid ""
 "\n"
 "(DVD without menus) :"
 msgstr ""
-
+       "\n"
+       "ou \n"
+       "\n"
+       "\n"
+	
 # type: Content of: <chapter><sect1><sect2><sect3><screen>
 #: en/advanced-use.xml:102
 #, no-wrap
@@ -1903,6 +1986,8 @@ msgid ""
 "\n"
 "<prompt>% </prompt><userinput>vlc dvdsimple://[device][@raw_device][@[title][,[chapter][,angle]]]</userinput>\n"
 msgstr ""
+       "\n"
+       "<prompt>% </prompt><userinput>vlc dvdsimple://[device][@raw_device][@[title][,[chapter][,angle]]]</userinput>\n"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/advanced-use.xml:106
@@ -1913,7 +1998,11 @@ msgid ""
 "\n"
 "(VCD):"
 msgstr ""
-
+       "\n"
+       "ou \n"
+       "\n"
+       "(VCD):"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><screen>
 #: en/advanced-use.xml:112
 #, no-wrap
@@ -1921,7 +2010,9 @@ msgid ""
 "\n"
 "<prompt>% </prompt><userinput>vlc vcd://[device][@{E|P|E|T|S}[number]]</userinput>\n"
 msgstr ""
-
+       "\n"
+       "<prompt>% </prompt><userinput>vlc vcd://[device][@{E|P|E|T|S}[number]]</userinput>\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/advanced-use.xml:116
 #, no-wrap
@@ -1932,7 +2023,12 @@ msgid ""
 "\n"
 "(Audio CD):"
 msgstr ""
-
+       "\n"
+       "ou \n"
+       "\n"
+       "\n"
+       "(Audio CD):"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><screen>
 #: en/advanced-use.xml:123
 #, no-wrap
@@ -1940,7 +2036,9 @@ msgid ""
 "\n"
 "<prompt>% </prompt><userinput>vlc cdda://[device][@[track]]</userinput>\n"
 msgstr ""
-
+      "\n"
+      "<prompt>% </prompt><userinput>vlc cdda://[device][@[track]]</userinput>\n"
+             
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/advanced-use.xml:128
 #, no-wrap
@@ -1957,7 +2055,10 @@ msgid ""
 "To receive an unicast UDP stream (sent by VLS or\n"
 "VLC's stream output), start VLC with:\n"
 msgstr ""
-
+       "\n"
+       "Pour recevoir un flux unicast UDP(envoyé par VLS ou \n"
+       "la sortie du flux VLC), démarrez VLC avec:\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><screen>
 #: en/advanced-use.xml:137
 #, no-wrap
@@ -1965,13 +2066,15 @@ msgid ""
 "\n"
 "<prompt>% </prompt><userinput>vlc  udp:[@:server_port]</userinput>\n"
 msgstr ""
-
+       "\n"
+       "<prompt>% </prompt><userinput>vlc  udp:[@:server_port]</userinput>\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/advanced-use.xml:141
 #, no-wrap
 msgid "If you use the default port (1234), <userinput>vlc udp:</userinput> will do. For more information, look at the Streaming Howto"
 msgstr ""
-
+       "Si vous employez le port de défaut (1234), la commande < userinput>vlc udp:</userinput > suffira.  Pour plus d'information, regardez le Howto coulant "
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/advanced-use.xml:143
 #, no-wrap
@@ -1980,6 +2083,10 @@ msgid ""
 "To receive an multicast UDP stream (sent by VLS or\n"
 "VLC's stream output), start VLC with:\n"
 msgstr ""
+       "\n"
+       "Pour recevoir un flux multicast UDP(envoyé par VLS ou\n"
+       "par le flux de sortie VLC), démarrer VLC avec :\n"
+
 
 # type: Content of: <chapter><sect1><sect2><sect3><screen>
 #: en/advanced-use.xml:147
@@ -1988,13 +2095,15 @@ msgid ""
 "\n"
 "<prompt>% </prompt><userinput>vlc udp:@multicast_address[:server_port]</userinput>\n"
 msgstr ""
-
+       "\n"
+       "<prompt>% </prompt><userinput>vlc udp:@multicast_address[:server_port]</userinput>\n"
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/advanced-use.xml:151
 #, no-wrap
 msgid "To receive a SSM (source specific multicast) stream, you can use:"
 msgstr ""
-
+       "pour recevoir un flux MSS (multicast spécifique de source), vous pouvez utiliser:"
+       
 # type: Content of: outside any tag (error?)
 #: en/advanced-use.xml:151
 #, fuzzy, no-wrap
@@ -2008,13 +2117,17 @@ msgid ""
 "\n"
 "<prompt>% </prompt><userinput>vlc udp:server_address@multicast_address[:server_port]</userinput>\n"
 msgstr ""
-
+       "\n"
+       "<prompt>% </prompt><userinput>vlc udp:server_address@multicast_address[:server_port]</userinput>\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/advanced-use.xml:156
 #, no-wrap
 msgid "This only works on OSs that support SSM (Windows XP and recent Linux kernels)"
 msgstr ""
-
+       "Cela ne marche seulement que sur un OS qui supporte un MSS\n"
+       "(Windows XP et les recents noyaux linux)"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/advanced-use.xml:158
 #, no-wrap
@@ -2025,7 +2138,12 @@ msgid ""
 "\n"
 " :"
 msgstr ""
-
+     "\n"
+     "Pour recevoir un flux HTTP, démarrer VLC avec\n"
+     "\n"
+     "\n"
+     " :"
+     
 # type: Content of: <chapter><sect1><sect2><sect3><screen>
 #: en/advanced-use.xml:164
 #, no-wrap
@@ -2033,7 +2151,9 @@ msgid ""
 "\n"
 "<prompt>% </prompt><userinput>vlc http://www.example.org/your_file.mpg</userinput>\n"
 msgstr ""
-
+       "\n"
+       "<prompt>% </prompt><userinput>vlc http://www.example.org/your_file.mpg</userinput>\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/advanced-use.xml:168
 #, no-wrap
@@ -2041,7 +2161,9 @@ msgid ""
 "\n"
 "To receive a RTSP stream, start VLC with:"
 msgstr ""
-
+       "\n"
+       "Pour recevoir un flux RTSM, démarrer VLC avec:"
+       
 # type: Content of: <chapter><sect1><sect2><sect3>
 #: en/advanced-use.xml:169
 #, no-wrap
@@ -2049,7 +2171,9 @@ msgid ""
 "\n"
 "                                                                                \n"
 msgstr ""
-
+       "\n"
+       "  
+       
 # type: Content of: <chapter><sect1><sect2><sect3><screen>
 #: en/advanced-use.xml:171
 #, no-wrap
@@ -2057,13 +2181,16 @@ msgid ""
 "\n"
 "<prompt>% </prompt><userinput>vlc rtsp://www.example.org/your_stream</userinput>\n"
 msgstr ""
-
+       "\n"
+       "<prompt>% </prompt><userinput>vlc rtsp://www.example.org/your_stream</userinput>\n"
+       
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/advanced-use.xml:178
 #, no-wrap
 msgid "Modules selection"
 msgstr ""
-
+       "Sélection de modules"
+       
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/advanced-use.xml:180
 #, no-wrap
@@ -2073,7 +2200,11 @@ msgid ""
 "according to the stream it is given to read. However, you may wish\n"
 "to force the use of a specific module with the following options.\n"
 msgstr ""
-
+       "VLC essaie toujours de choisir l'interface la plus appropriée,\n"
+       "des modules d'entrée sortie, parmi ceux disponibles dans le système,\n"
+       "selon le flux qu'on lui demande de lire. Cependant,vous pouvez souhaiter \n"
+       "forcer l'utilisation d'un module spécifique avec les options suivantes.\n"
+       
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/advanced-use.xml:187
 #, no-wrap
@@ -2081,7 +2212,9 @@ msgid ""
 "<emphasis>--intf  &lt;module&gt;</emphasis>\n"
 "allows you to select the interface module.\n"
 msgstr ""
-
+       "<emphasis>--intf  &lt;module&gt;</emphasis>\n"
+       "vous permet de chosir module d'interface.\n"
+       
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/advanced-use.xml:190
 #, no-wrap
@@ -2090,6 +2223,11 @@ msgid ""
 "allows you to select extra interface modules that\n"
 "will be launched in addition to the main one. This is mainly useful for special <emphasis>control</emphasis> interfaces, like HTTP, RC (Remote Control), ... (see below)\n"
 msgstr ""
+       "<emphasis>--extraintf  &lt;module&gt;</emphasis>\n"
+       "vous permet de choisir les modules d'interface supplémentaires qui seront \n"
+       "lancés en plus des principaux.  C'est très utile pour les interfaces spéciales \n"
+       "< emphasis>control</emphasis >, comme le HTTP, le RC (télécommande)... \n"
+       "(voir ci-dessous)"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/advanced-use.xml:194
@@ -2098,7 +2236,9 @@ msgid ""
 "<emphasis>--aout  &lt;module&gt;</emphasis>\n"
 "allows you to select the audio output module.\n"
 msgstr ""
-
+       "<emphasis>--aout  &lt;module&gt;</emphasis>\n"
+       "Vous permet de choisir le module de sortie audio.\n"
+       
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/advanced-use.xml:197
 #, no-wrap
@@ -2106,7 +2246,9 @@ msgid ""
 "<emphasis>--vout  &lt;module&gt;</emphasis>\n"
 "allows you to select the video output module.\n"
 msgstr ""
-
+       "<emphasis>--vout  &lt;module&gt;</emphasis>\n"
+        "Vous permet de choisir le module de sortie vidéo.\n"
+	
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/advanced-use.xml:200
 #, no-wrap
@@ -2114,7 +2256,10 @@ msgid ""
 "<emphasis>--memcpy  &lt;module&gt;</emphasis>\n"
 "allows you to choose a memory copy module. You should probably never touch that.\n"
 msgstr ""
-
+       "<emphasis>--memcpy  &lt;module&gt;</emphasis>\n"
+       "vous permet de choisir un module de copie de mémoire.  Vous devriez ne \n"
+       "probablement jamais toucher cela."
+       
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/advanced-use.xml:206
 #, no-wrap
@@ -2122,7 +2267,10 @@ msgid ""
 "You can get a listing of the available modules by using <userinput>vlc\n"
 "-l</userinput>"
 msgstr ""
-
+       Vous pouvez obtenir une liste des modules disponibles en utilisant \n"
+       "< userinput>vlc\n "
+       " -l</userinput >"
+       
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/advanced-use.xml:211
 #, no-wrap
@@ -2130,7 +2278,9 @@ msgid ""
 "\n"
 "Stream Output\n"
 msgstr ""
-
+       "\n"
+       "flux de sortie\n"
+       
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/advanced-use.xml:215
 #, no-wrap
@@ -2138,7 +2288,8 @@ msgid ""
 "The Stream output system allows vlc to become a streaming\n"
 "server."
 msgstr ""
-
+       "Le système de flux de sortie permet à vlc de devenir un serveur de flux."
+       
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/advanced-use.xml:218
 #, no-wrap
@@ -2146,19 +2297,23 @@ msgid ""
 "For more details on the stream output system, please have a look\n"
 "at the Streaming Howto."
 msgstr ""
-
+       "Pour plus d'information sur le système de flux de sortie, veuillez consulter \n"
+       "la documentation du Streaming Howto."
+       
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/advanced-use.xml:223
 #, no-wrap
 msgid "Other Options"
 msgstr ""
-
+       "D'autres options"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/advanced-use.xml:225
 #, no-wrap
 msgid "Audio options"
 msgstr ""
-
+       "Options audio"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:228
 #, no-wrap
@@ -2166,7 +2321,9 @@ msgid ""
 "<emphasis>--noaudio</emphasis> \n"
 "disables audio output.\n"
 msgstr ""
-
+       "<emphasis>--noaudio</emphasis> \n"
+       "désactive la sortie audio.\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:231
 #, no-wrap
@@ -2174,7 +2331,9 @@ msgid ""
 "<emphasis>--mono</emphasis>\n"
 "forces VLC to treat the stream in mono audio.\n"
 msgstr ""
-
+       "<emphasis>--mono</emphasis>\n"
+       "Force VLC à traiter le flux en mono audio.\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:234
 #, no-wrap
@@ -2182,7 +2341,9 @@ msgid ""
 "<emphasis>--volume  &lt;integer&gt;</emphasis> \n"
 "sets the level of audio output (between 0 and 1024)\n"
 msgstr ""
-
+       "<emphasis>--volume  &lt;integer&gt;</emphasis> \n"
+       "place le niveau du rendement audio (entre 0 et 1024)\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:237
 #, no-wrap
@@ -2191,7 +2352,10 @@ msgid ""
 "the audio output frequency (Hz). By default, VLC will try to autodetect\n"
 "this. "
 msgstr ""
-
+       "<emphasis>--aout-rate &lt;integer&gt;</emphasis> place\n"
+       "la fréquence audio de sortie (hertz).  Par défaut, VLC essayera de "
+       "le détecter automatiquement."
+ 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:240
 #, no-wrap
@@ -2200,7 +2364,10 @@ msgid ""
 "compensates desynchronization of audio (ms). (If audio and video streams\n"
 "are not synchronized, use this setting to delay the audio stream)\n"
 msgstr ""
-
+       "<emphasis>--desync &lt;integer&gt;</emphasis>\n"
+       "compense la désynchronisation du son.  (Si des flux audio et vidéo \n"
+       "ne sont pas synchronisés, utilisez ce  arrangement à retarde le jet audio)
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:244
 #, no-wrap
@@ -2211,7 +2378,12 @@ msgid ""
 "headphone (virtual headphone spatialization) and normalizer (volume\n"
 "normalizer)"
 msgstr ""
-
+       "<emphasis>--audio-filter &lt;string&gt;</emphasis>\n" 
+       "ajoute les filtres audio à la chaîne de traitement.  Les filtres disponibles \n"
+       "sont visuels (visualiseur avec l'analyseur et l'oscilloscope de spectre), \n"
+       "écouteur (spatialisation de l' écouteur virtuelle) et normalisateur \n"
+       "(normalisateur de volume)"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/advanced-use.xml:254
 #, no-wrap
@@ -2219,7 +2391,9 @@ msgid ""
 "\n"
 "Video options\n"
 msgstr ""
-
+       "\n"
+       "Options vidéo\n
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:260
 #, no-wrap
@@ -2227,7 +2401,9 @@ msgid ""
 "<emphasis>--novideo</emphasis> \n"
 "disables video output.\n"
 msgstr ""
-
+       "<emphasis>--novideo</emphasis> \n"
+       "désactive la sortie vidéo.\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:264
 #, no-wrap
@@ -2235,7 +2411,9 @@ msgid ""
 "<emphasis>--greyscale</emphasis>\n"
 "turns video output into grayscale mode.\n"
 msgstr ""
-
+       "<emphasis>--greyscale</emphasis>\n"
+       "transforme la sortie video en mode grayscale.\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:268
 #, no-wrap
@@ -2243,7 +2421,9 @@ msgid ""
 "<emphasis>--fullscreen</emphasis>\n"
 "( or <emphasis>-f</emphasis>) sets fullscreen video.\n"
 msgstr ""
-
+       "<emphasis>--fullscreen</emphasis>\n"
+       "( ou <emphasis>-f</emphasis>) remet la vidéo en plein écran.\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:272
 #, no-wrap
@@ -2251,7 +2431,9 @@ msgid ""
 "<emphasis>--nooverlay</emphasis>\n"
 "disables hardware acceleration for the video output.\n"
 msgstr ""
-
+       "<emphasis>--nooverlay</emphasis>\n"
+       "désactive l'accélération du matériel pour la sortie vidéo.\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:276
 #, no-wrap
@@ -2259,7 +2441,10 @@ msgid ""
 "<emphasis>--width, --height &lt;integer&gt;</emphasis>\n"
 "sets the video window dimensions. By default, the video window size will be adjusted to match the video dimensions.\n"
 msgstr ""
-
+       "<emphasis>--width, --height &lt;integer&gt;</emphasis>\n"
+       "Règle les dimensions de la fenêtre vidéo. Par défaut, la taille de la fenêtre "
+       "vidéo sera ajustée pour être assorti avec les dimensions de la vidéo.\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:280
 #, no-wrap
@@ -2267,7 +2452,9 @@ msgid ""
 "<emphasis>--zoom &lt;float&gt;</emphasis>\n"
 "adds a zoom factor.\n"
 msgstr ""
-
+       "<emphasis>--zoom &lt;float&gt;</emphasis>\n"
+       "ajoute une option de zoom.\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:284
 #, no-wrap
@@ -2275,7 +2462,9 @@ msgid ""
 "<emphasis>--aspect-ratio &lt;mode&gt;</emphasis>\n"
 "forces source aspect ratio. Modes are 4x3, 16x9, ...\n"
 msgstr ""
-
+       "<emphasis>--aspect-ratio &lt;mode&gt;</emphasis>\n"
+       "force le rapport  source aspect.Les modes sont 4x3, 16x9, ...\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:288
 #, no-wrap
@@ -2283,7 +2472,9 @@ msgid ""
 "<emphasis>--spumargin  &lt;integer&gt;</emphasis> \n"
 "forces SPU subtitles postion.\n"
 msgstr ""
-
+       "<emphasis>--spumargin  &lt;integer&gt;</emphasis> \n"
+       "force la position des sous titres SPU .\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:292
 #, no-wrap
@@ -2292,7 +2483,10 @@ msgid ""
 "filters to the processing chain. You can add several filters, separated\n"
 "by commas"
 msgstr ""
-
+       "<emphasis>--filter &lt;string&gt;</emphasis> adds video\n"
+       "filtre la chaîne de traitement. Vous pouvez ajouter plusieurs filtres,\n"
+       "séparatés par des virgules\n"
+             
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:296
 #, no-wrap
@@ -2301,7 +2495,10 @@ msgid ""
 "&lt;string&gt;</emphasis> adds video subpictures filter to the\n"
 "processing chain."
 msgstr ""
-
+       "<emphasis>--sout-transcode-sfilter\n"
+       "&lt;string&gt;</emphasis> ajoute le filtre de sous-titres vidéo à la \n"
+       "chaîne de traitement."
+       
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/advanced-use.xml:304
 #, no-wrap
@@ -2309,7 +2506,9 @@ msgid ""
 "\n"
 "Playlist options\n"
 msgstr ""
-
+       "\n"
+       "Options de la playlist\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:310
 #, no-wrap
@@ -2317,7 +2516,9 @@ msgid ""
 "<emphasis>--random</emphasis>\n"
 "plays files randomly forever.\n"
 msgstr ""
-
+       "<emphasis>--random</emphasis>\n"
+       "lit toujours les fichiers aléatoirement.\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:314
 #, no-wrap
@@ -2325,7 +2526,9 @@ msgid ""
 "<emphasis>--loop</emphasis>\n"
 "loops playlist on end.\n"
 msgstr ""
-
+       "<emphasis>--loop</emphasis>\n"
+       "boucle à la fin de la playlist.\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:318
 #, no-wrap
@@ -2333,7 +2536,9 @@ msgid ""
 "<emphasis>--repeat</emphasis>\n"
 "repeats the current item until another item is forced\n"
 msgstr ""
-
+       "<emphasis>--repeat</emphasis>\n"
+       "répète le flux courant jusqu'à ce qu'un autre flux arrive\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:322
 #, no-wrap
@@ -2341,7 +2546,9 @@ msgid ""
 "<emphasis>--play-and-stop</emphasis> stops the playlist after\n"
 "each played item."
 msgstr ""
-
+       "<emphasis>--play-and-stop</emphasis> arrête la playlist après \n"
+       "chaque flux diffusé."
+       
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/advanced-use.xml:329
 #, no-wrap
@@ -2349,7 +2556,9 @@ msgid ""
 "\n"
 "Network options\n"
 msgstr ""
-
+       "\n"
+       "Options réseaux\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:335
 #, no-wrap
@@ -2357,7 +2566,9 @@ msgid ""
 "<emphasis>--server-port  &lt;integer&gt;</emphasis>\n"
 "sets server port.\n"
 msgstr ""
-
+       "<emphasis>--server-port  &lt;integer&gt;</emphasis>\n"
+       "met en place le port du serveur.\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:339
 #, no-wrap
@@ -2365,7 +2576,9 @@ msgid ""
 "<emphasis>--iface  &lt;string&gt;</emphasis> \n"
 "specifies the network interface to use.\n"
 msgstr ""
-
+       "<emphasis>--iface  &lt;string&gt;</emphasis> \n"
+       "indique l'interface du réseau à utiliser.\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:343
 #, no-wrap
@@ -2373,7 +2586,9 @@ msgid ""
 "<emphasis>--iface-addr  &lt;string&gt;</emphasis>\n"
 "specifies your network interface IP address.\n"
 msgstr ""
-
+       "<emphasis>--iface-addr  &lt;string&gt;</emphasis>\n"
+       "indique l'interface réseau de votre adresse IP.\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:347
 #, no-wrap
@@ -2381,7 +2596,9 @@ msgid ""
 "<emphasis>--mtu  &lt;integer&gt;</emphasis>\n"
 "specifies the MTU of the network interface.\n"
 msgstr ""
-
+       "<emphasis>--mtu  &lt;integer&gt;</emphasis>\n"
+       "il indique le MTU de l'interface de réseau."
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:351
 #, no-wrap
@@ -2389,7 +2606,9 @@ msgid ""
 "<emphasis>--ipv6</emphasis>\n"
 "forces IPv6.\n"
 msgstr ""
-
+       "<emphasis>--ipv6</emphasis>\n"
+       "force IPv6.\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:355
 #, no-wrap
@@ -2397,7 +2616,9 @@ msgid ""
 "<emphasis>--ipv4</emphasis>\n"
 "forces IPv4.\n"
 msgstr ""
-
+       "<emphasis>--ipv4</emphasis>\n"
+       "force IPv4.\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/advanced-use.xml:363
 #, no-wrap
@@ -2405,6 +2626,8 @@ msgid ""
 "\n"
 "CPU options\n"
 msgstr ""
+       "\n"
+       "Les options CPU \n" 
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/advanced-use.xml:367
@@ -2413,7 +2636,9 @@ msgid ""
 "You should probably not touch these options unless you know what\n"
 "you are doing."
 msgstr ""
-
+       "Vous ne  devez probablement pas toucher à ces options à moins que vous \n"
+       "sachiez ce que vous faites."
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:372
 #, no-wrap
@@ -2421,7 +2646,9 @@ msgid ""
 "<emphasis>--nommx</emphasis>\n"
 "disables the use of MMX CPU extensions.\n"
 msgstr ""
-
+       "<emphasis>--nommx</emphasis>\n"
+       "désactive l'utilisation des extension CPU du  MMX.\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:376
 #, no-wrap
@@ -2429,6 +2656,8 @@ msgid ""
 "<emphasis>--no3dn</emphasis>\n"
 "disables the use of 3D Now! CPU extensions.\n"
 msgstr ""
+       "<emphasis>--no3dn</emphasis>\n"
+       "désactive l'utilisation des extensions CPU du 3D NOW.\n"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:380
@@ -2437,7 +2666,9 @@ msgid ""
 "<emphasis>--nommxext</emphasis>\n"
 "disables the use of MMX Ext CPU extensions.\n"
 msgstr ""
-
+       "<emphasis>--nommxext</emphasis>\n"
+       "désactive l'utilisation des extensions CPU du MMX Ext.\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:384
 #, no-wrap
@@ -2445,7 +2676,9 @@ msgid ""
 "<emphasis>--nosse</emphasis> \n"
 "disables the use of SSE CPU extensions.\n"
 msgstr ""
-
+       "<emphasis>--nosse</emphasis> \n"
+       "désactive l'utilisation des extensions CPU du SSE.\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:388
 #, no-wrap
@@ -2453,7 +2686,9 @@ msgid ""
 "<emphasis>--noaltivec</emphasis>\n"
 "disables the use of Altivec CPU extensions.\n"
 msgstr ""
-
+       "<emphasis>--noaltivec</emphasis>\n"
+       "désactive l'utilisation des extensions CPU de l'Altivec.\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/advanced-use.xml:395
 #, no-wrap
@@ -2461,7 +2696,9 @@ msgid ""
 "\n"
 "Miscellaneous options\n"
 msgstr ""
-
+       "\n"
+       "Options diverses\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:401
 #, no-wrap
@@ -2469,7 +2706,9 @@ msgid ""
 "<emphasis>--quiet</emphasis>\n"
 " deactivates all console messages.\n"
 msgstr ""
-
+       "<emphasis>--quiet</emphasis>\n"
+       " désactive tous les messages du console.\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:405
 #, no-wrap
@@ -2477,7 +2716,9 @@ msgid ""
 "<emphasis>--color</emphasis>\n"
 " displays color messages.\n"
 msgstr ""
-
+       "<emphasis>--color</emphasis>\n"
+       "affiche les messages en couleurs.\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:409
 #, no-wrap
@@ -2485,7 +2726,9 @@ msgid ""
 "<emphasis>--search-path  &lt;string&gt;</emphasis>\n"
 "specifies interface default search path.\n"
 msgstr ""
-
+       "<emphasis>--search-path  &lt;string&gt;</emphasis>\n"
+       "indique le chemin de recherche par défaut de l'interface.\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:413
 #, no-wrap
@@ -2493,7 +2736,9 @@ msgid ""
 "<emphasis>--plugin-path  &lt;string&gt;</emphasis>\n"
 "specifies plugin search path.\n"
 msgstr ""
-
+       "<emphasis>--plugin-path  &lt;string&gt;</emphasis>\n"
+       "indique le chemin de recherche du plugin.\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:417
 #, no-wrap
@@ -2501,7 +2746,9 @@ msgid ""
 "<emphasis>--no-plugins-cache</emphasis> disables the\n"
 "plugin cache (plugins cache speeds up startup)"
 msgstr ""
-
+       "<emphasis>--no-plugins-cache</emphasis> désactive le \n"
+       "cache du plugin cache (le cache des plugins accélère le démarrage)"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:420
 #, no-wrap
@@ -2509,7 +2756,9 @@ msgid ""
 "<emphasis>--dvd  &lt;string&gt;</emphasis> \n"
 "specifies the default DVD device.\n"
 msgstr ""
-
+       "<emphasis>--dvd  &lt;string&gt;</emphasis> \n"
+       "indique le dispositif de DVD par défault.\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:424
 #, no-wrap
@@ -2517,7 +2766,9 @@ msgid ""
 "<emphasis>--vcd  &lt;string&gt;</emphasis>\n"
 "specifies the default VCD device.\n"
 msgstr ""
-
+       "<emphasis>--vcd  &lt;string&gt;</emphasis>\n"
+       "indique le dispositif de VCD par défault.\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:428
 #, no-wrap
@@ -2525,7 +2776,10 @@ msgid ""
 "<emphasis>--program  &lt;;integer&gt;</emphasis>\n"
 "specifies program (SID) (for streams with several programs, like satellite ones).\n"
 msgstr ""
-
+       "<emphasis>--program  &lt;;integer&gt;</emphasis>\n"
+       "indique le programme(SID) (pour les flux comportant plusieurs programme, "
+       "comme ceux des satellites).\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:432
 #, no-wrap
@@ -2533,7 +2787,9 @@ msgid ""
 "<emphasis>--audio-type  &lt;integer&gt;</emphasis>\n"
 "specifies the default audio type to use with dvds."
 msgstr ""
-
+       "<emphasis>--audio-type  &lt;integer&gt;</emphasis>\n"
+       "indique le type audio par défaut utilisé avec des dvds."
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:435
 #, no-wrap
@@ -2541,7 +2797,9 @@ msgid ""
 "<emphasis>--audio-channel  &lt;integer&gt;</emphasis>\n"
 "specifies the default audio channel to use with dvds.\n"
 msgstr ""
-
+       "<emphasis>--audio-channel  &lt;integer&gt;</emphasis>\n"
+       "indique le canal audio par défaut à utiliser avec des dvds.\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:439
 #, no-wrap
@@ -2549,7 +2807,9 @@ msgid ""
 "<emphasis>--spu-channel  &lt;integer&gt;</emphasis>\n"
 "specifies the default subtitle channel to use with dvds.\n"
 msgstr ""
-
+       "<emphasis>--spu-channel  &lt;integer&gt;</emphasis>\n"
+       "indique le canal de sous titres par défaut à utiliser avecs des dvds.\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:443
 #, no-wrap
@@ -2557,7 +2817,9 @@ msgid ""
 "<emphasis>--version</emphasis> \n"
 "gives you information about the current VLC version.\n"
 msgstr ""
-
+       "<emphasis>--version</emphasis> \n"
+       "vous donne l'information sur l'actuelle version de VLC.\n"
+       
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/advanced-use.xml:447
 #, no-wrap
@@ -2565,19 +2827,23 @@ msgid ""
 "<emphasis>--module  &lt;module&gt;</emphasis> \n"
 "displays help about specified module. (Shortcut : <emphasis>-p</emphasis>)\n"
 msgstr ""
-
+       "<emphasis>--module  &lt;module&gt;</emphasis> \n"
+       "affiche l'aide sur sur les modules spécifiques. (Raccourcis : <emphasis>-p</emphasis>)\n"
+       
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/advanced-use.xml:456
 #, no-wrap
 msgid "Item-specific options"
 msgstr ""
-
+       "Les options spécifiques des articles"
+       
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/advanced-use.xml:458
 #, no-wrap
 msgid "There are many options that are related to items (like --novideo, --codec, --fullscreen)."
 msgstr ""
-
+      "Il y a plusieurs options liées aux articles (comme --novideo, --codec, --fullscreen)."
+      
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/advanced-use.xml:460
 #, no-wrap
@@ -2586,12 +2852,16 @@ msgid ""
 "item-specific, using \":\" instead of \"--\" and putting the option just\n"
 "after the concerned item"
 msgstr ""
-
+       "Pour ces derniers, vous avez la possibilité d'en faire des \n"
+       "articles spécifiques, en utilisant \":\" au lieu de \"--\" et en mettant l'option juste\n"
+       "après l'article concerné"
+       
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/advanced-use.xml:464
 #, no-wrap
 msgid "Examples:"
 msgstr ""
+       "Exemples"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><screen>
 #: en/advanced-use.xml:469

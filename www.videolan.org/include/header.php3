@@ -133,11 +133,11 @@ Patent banner code
     <td valign="top" colspan="2" align="center" style="background-color:white; border: 4px solid red;">
 <a href="http://demo.ffii.org/"><img src="http://demo.ffii.org/banners/Banana-En-Banner-728x90.png"
 alt="No Banana Union - No Software Patents" width="728" height="90" border="0"/></a>
-      <p style="color: red; font-size:28px; align:center;" >
+      <div style="color: red; font-size:32px; text-align:center;" >
 	Beware: VideoLAN might disappear due to patent legislation.
-      </p>
-      <p style="align: center">
-        <a href="/patents.html">Click here for more information on what you can do to stop patents and help VideoLAN.</a>
+      </div>
+      <div style="text-align: center">
+        <a href="/patents.html">Click here for more information on what you can do to stop patents and help VideoLAN.</a></div>
     </td>
   </tr>
 <!--

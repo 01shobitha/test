@@ -31,7 +31,7 @@ function starthtml($title) { ?>
     */
 
 echo "self: ".$GLOBALS['HTTP_SELF']."<br>";
-$module = split($GLOBALS['HTTP_SELF'], "/");
+$module = split("/", $GLOBALS['HTTP_SELF']);
 $module = $module[1];
 echo "module: ".$module."<br>";
 

@@ -128,7 +128,7 @@ files.</para>
 </itemizedlist>
 
 <para>Download the libraries from <ulink
-url="http://www.videolan.org/vlc/download-sources.html">VLC sources
+url="http://www.videolan.org/vlc/download-source.html">VLC sources
 download page</ulink>.</para>
 
 <para>For each library :</para>
@@ -180,10 +180,10 @@ contains the following line :
 
 <sect3><title>Install VLC</title>
 
-<para>
-Download the sources of the lastest release : get the file
-<filename>vlc-version.tar.gz</filename> from the <ulink url="http://www.videolan.org/vlc/download-sources.html">VLC sources download page</ulink>. Uncompress-it :
-</para>
+<para>Download the sources of the lastest release : get the
+<file filename>vlc-version.tar.gz</filename> from the <ulink
+url="http://www.videolan.org/vlc/download-source.html">VLC sources
+download page</ulink>. Uncompress-it :</para>
 
 <screen>
 <prompt>% </prompt><userinput>tar xvzf vlc-version.tar.gz</userinput>

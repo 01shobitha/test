@@ -1,0 +1,51 @@
+<?
+    $title = "VideoLAN documentation localization";
+    $lang = "en";
+    $date = "6 February 2004";
+
+    $reffile = "/var/www/local/developers.videolan.org/i18n/doc_";
+    $lgfile="/var/www/local/developers.videolan.org/i18n/doc_languages";
+     
+    $file_id=fopen($lgfile,"r");
+    $contents = fread ($file_id, filesize($lgfile) );
+    fclose ($file_id );
+     
+    $languages = explode( "\n", $contents );
+
+    for($i=0; $i< count($languages)-1;$i++)
+    {
+        echo "<h4><a href=\"docstat.".$languages[$i].".html\">".$languages[$i];
+        echo"</a></h4>\n";
+    }
+    if( isset( $_GET['lang'] ) )
+    {
+        $filename=$reffile.$_GET['lang'];
+        $file_id= fopen($filename,"r");
+        $contents = fread ($file_id, filesize($filename) );
+        fclose ($file_id );
+     
+        $files = explode( "\n", $contents );
+
+        for($i=0;$i< count($files) -1;$i++)
+        {
+            list($pb,$file,$old,$new) = explode(' ',$files[$i] );
+
+            if($pb=="ut")
+            {
+                echo $file." untranslated<br />";
+            }
+            else if($pb=="nr")
+            {
+                echo "No revision info in ".$file."<br />";
+            }
+            else if($pb=="ic")
+            {
+                echo "Inconsistency ".$file."<br />";
+            }
+            else if($pb=="nu")
+            {
+                echo "Not up to date for ".$file." ($old -> $new)<br />";
+            }
+        }
+    }
+?>

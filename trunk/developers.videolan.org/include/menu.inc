@@ -42,7 +42,7 @@ href="http://www.videolan.org/cgi-bin/irc/irc.cgi">IRCWeb</a></p>
 <br>
 
 <table width="100%" cellspacing=0 cellpadding=0>
-<tr><th class=menu><a href="/libdvdcss/index.html">libdvdcss</a></th></tr>
+<tr><th class=menu><a class="menu" href="/libdvdcss/index.html">libdvdcss</a></th></tr>
 <tr><td class=menu>
 <p class=menu><a class="menu" href="/libdvdcss/devel_doc.html">libdvdcss</a></p>
 <p class=menu><a class="menu" href="/libdvdcss/ChangeLog.html">libdvdcss</a></p>
@@ -51,7 +51,7 @@ href="http://www.videolan.org/cgi-bin/irc/irc.cgi">IRCWeb</a></p>
 <br>
 
 <table width="100%" cellspacing=0 cellpadding=0>
-<tr><th class=menu><a href="/libdvdplay/index.html">libdvdplay</a></th></tr>
+<tr><th class=menu><a class="menu" href="/libdvdplay/index.html">libdvdplay</a></th></tr>
 <tr><td class=menu>
 <p class=menu><a class="menu" href="/libdvdplay/ChangeLog.html">libdvdcss</a></p>
 </td></tr>
@@ -59,7 +59,7 @@ href="http://www.videolan.org/cgi-bin/irc/irc.cgi">IRCWeb</a></p>
 <br>
 
 <table width="100%" cellspacing=0 cellpadding=0>
-<tr><th class=menu><a href="/libdvbpsi/index.html">libdvbpsi</a></th></tr>
+<tr><th class=menu><a class="menu" href="/libdvbpsi/index.html">libdvbpsi</a></th></tr>
 <tr><td class=menu>
 <p class=menu><a class="menu" href="/libdvbpsi/devel_doc.html">libdvdcss</a></p>
 <p class=menu><a class="menu" href="/libdvbpsi/ChangeLog.html">libdvdcss</a></p>

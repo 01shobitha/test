@@ -30,6 +30,11 @@ function starthtml($title) { ?>
     * The cool navigation bar, including mirror drop-down menu
     */
 
+echo "self: ".$GLOBALS['HTTP_SELF']."<br>";
+$module = split($GLOBALS['HTTP_SELF'], "/");
+$module = $module[1];
+echo "module: ".$module."<br>";
+
 ?><form action="index.html" method="get">
   <table width="100%" cellspacing="3" cellpadding="0"><tr>
     <td style="background-color: inherit; width: 17%; vertical-align: middle;" align="center"><a href="/">Home</a></td>

@@ -60,12 +60,12 @@ Streaming, Muxers and Codecs</title>
 
 <sect1><title>Muxers and codecs</title>
 <sect2><title>What is a codec ?</title>
-<para>To fully understand the VideoLAN solution, you must understand the difference between a <emphasized>codec</emphasized> and a <emphasized>container format</emphasized></para>
-<para>A <emphasized>codec</emphasized> is a compression algorithm, used to reduce the size of a stream. There are audio codecs and video codecs. MPEG-1, MPEG-2, MPEG-4, Vorbis, DivX, ... are codecs</para>
+<para>To fully understand the VideoLAN solution, you must understand the difference between a <emphasis>codec</emphasis> and a <emphasis>container format</emphasis></para>
+<para>A <emphasis>codec</emphasis> is a compression algorithm, used to reduce the size of a stream. There are audio codecs and video codecs. MPEG-1, MPEG-2, MPEG-4, Vorbis, DivX, ... are codecs</para>
 </sect2>
 <sect2><title>What is a container format ?</title>
-<para>To start off, think of a <emphasized>container format</emphasized> as a standard shipping box. You get a box in the mail and you think, "Cool! What's inside." You don't really care about the box itself, you care about what's in that box. The poblem? You can't see into the box. So what do you do? You get a knife and cut it open.</para>
-<para>A <emphasized>container format</emphasized> follows this same basic idea. It contains one or several streams already encoded by codecs. Very often, there is an audio stream and a video one. AVI, Ogg, MOV, ASF, MP4 ... are container formats. The streams contained can be encoded using different codecs. In a perfect world, you could put any codec in any container format. Unfortunately, there are some incompatibilities. You can find a matrix of possible codecs and container formats on the <ulink url="http://www.videolan.org/streaming/features.html">features page</ulink></para>
+<para>To start off, think of a <emphasis>container format</emphasis> as a standard shipping box. You get a box in the mail and you think, "Cool! What's inside." You don't really care about the box itself, you care about what's in that box. The poblem? You can't see into the box. So what do you do? You get a knife and cut it open.</para>
+<para>A <emphasis>container format</emphasis> follows this same basic idea. It contains one or several streams already encoded by codecs. Very often, there is an audio stream and a video one. AVI, Ogg, MOV, ASF, MP4 ... are container formats. The streams contained can be encoded using different codecs. In a perfect world, you could put any codec in any container format. Unfortunately, there are some incompatibilities. You can find a matrix of possible codecs and container formats on the <ulink url="http://www.videolan.org/streaming/features.html">features page</ulink></para>
 </sect2>
 <sect2><title>Encoding a video</title>
 <para>This is the first step where you are going to create the shipping box.</para>
@@ -73,7 +73,7 @@ Streaming, Muxers and Codecs</title>
 <para>Then you have to mux (or multiplex). This means basically a process where separate parts of the video (or streams) are joined together into one file.</para>
 </sect2>
 <sect2><title>Playing a video</title>
-<para>Now that you have your box, you need to open it before to see the content. That's exactly what VLC will do. To decode a stream, VLC first <emphasized>demuxes</emphasized> it. This means that it reads the container format and separates audio, video, and subtitles, if any. Demuxing files doesn't weaken the video nor audio quality, it doesn't do anything for these data streams, it justs simply saves them into separate files, each containing one element of the original file. Then, each of these are passed <emphasized>decoders</emphasized> that do the mathematical processing to decompress the streams.</para>
+<para>Now that you have your box, you need to open it before to see the content. That's exactly what VLC will do. To decode a stream, VLC first <emphasis>demuxes</emphasis> it. This means that it reads the container format and separates audio, video, and subtitles, if any. Demuxing files doesn't weaken the video nor audio quality, it doesn't do anything for these data streams, it justs simply saves them into separate files, each containing one element of the original file. Then, each of these are passed <emphasis>decoders</emphasis> that do the mathematical processing to decompress the streams.</para>
 <para>There is a particular thing about MPEG:</para>
 <itemizedlist>
 <listitem><para>MPEG is a codec. There are several versions of it, called MPEG-1, MPEG-2, MPEG-4, ...</para></listitem>

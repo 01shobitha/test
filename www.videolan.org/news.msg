@@ -2,6 +2,12 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+|12 December 2004| New: VLC Play HOWTO| VLC's documentation
+rewrite is nearing completion. We are proud to bring you the <a
+href="http://www.videolan.org/doc/">VLC Play HOWTO</a>, a complete guide
+to VLC's use as a client. Translations and the VLC streaming HOWTO will
+follow shortly.
+
 |4 December 2004| Scheduled downtime| VideoLAN's main website will be
 down for several hours on December 4th 2004, between 13:00 and 17:00 GMT,
 because of a major work at our power supplier. Subversion source code

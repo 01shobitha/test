@@ -61,6 +61,15 @@ You may indicate the path to the sdl-config program with the
 </para>
 </sect2>
 
+<sect2><title>wingdi</title>
+<para><emphasis>default: enabled on win32</emphasis></para>
+<para><emphasis>For Windows only</emphasis></para>
+<para>This video output uses GDI. It is designed for users who don't
+have Direct X, but the perfs are very low. If you have DirectX, do not
+use it.</para>
+</sect2>
+
+
 <sect2><title>fb</title>
 <para><emphasis>default: enabled on Linux</emphasis></para>
 <para><emphasis>For Linux only</emphasis></para>
@@ -80,16 +89,30 @@ You may indicate the path to the sdl-config program with the
 <para>
 This module provides hardware acceleration for Matrox cards under Linux.</para>
 </sect2>
-<sect2><title>ggi</title>
 
+<sect2><title>ggi</title>
 <para><emphasis>default: disabled</emphasis>
 </sect2>
+
 <sect2><title>aa</title>
-
 <para><emphasis>default: disabled</emphasis></para>
-
 <para>This is the Ascii Art Video Output. This video output uses the aalib library to display video through ASCII art. It requires aalib headers (aalib1-dev package under Debian) to compile.</para>
 </sect2>
+
+<sect2><title>svgalib</title>
+<para><emphasis>default: disabled</emphasis>
+<para><emphasis>For Linux only</emphasis>
+<para>This is a video output for the SVGAlib library.</para>
+</sect2>
+
+<sect2><title>qte</title>
+<para><emphasis>default: disabled</emphasis>
+<para><emphasis>For iPaq only</emphasis>
+<para>This is a video output for QT Embedded, an iPaq-specifiq graphical
+library.</para>
+</sect2>
+
+
 </sect1>
 
 <!--                                                Video Filters -->
@@ -138,11 +161,13 @@ image</para>
 <para>These modules allow you to choose the way the sound will be output
 to your audio system</para>
 
-<sect2><title>dsp</title>
+<sect2><title>oss</title>
 <para><emphasis>default: enabled on Linux</emphasis></para>
 <para><emphasis>For Linux only</emphasis></para>
-<para>This is  the Linux /dev/dsp  output. It requires that  your kernel
-was compiled with support for your sound card.</para>
+
+<para>This is the audio output for OSS (Open Sound System) output
+(/dev/dsp, for exemple, under Linux). It requires that your kernel was
+compiled with support for your sound card.</para>
 
 </sect2><sect2><title>alsa</title>
 <para><emphasis>default: disabled</emphasis></para>
@@ -153,12 +178,12 @@ installed the alsa drivers and libraries.</para>
 
 </sect2><sect2><title>esd</title>
 <para><emphasis>default: disabled</emphasis></para>
-<para><emphasis>For Linux only</emphasis></para>
+<para><emphasis>For Unix only</emphasis></para>
 <para>This sound output has Enlightened Sound Daemon support (usually used with Gnome). You must have the daemon and its libraries installed.</para>
 
 </sect2><sect2><title>arts</title>
 <para><emphasis>default: disabled</emphasis></para>
-<para><emphasis>For Linux only</emphasis></para>
+<para><emphasis>For Unix only</emphasis></para>
 <para>This sound output has aRts (KDE's sound server) support. You must have the daemon and its libraries installed.</para>
 
 </sect2><sect2><title>waveout</title>
@@ -178,16 +203,20 @@ sources</para>
 <sect2><title>dvd</title>
 <para><emphasis>default: enabled</emphasis></para>
 <para>This is the DVD input module. It will need libdvdcss, which can be found in our <ulink url="http://www.videolan.org/libdvdcss/">libdvdcss section</ulink>.</para>
-</sect2><sect2><title>dvdread</title>
+</sect2>
+<sect2><title>dvdread</title>
 <para><emphasis>default: disabled</emphasis></para>
 <para>This is an alternative to the previous one, it uses libdvdread (which also needs libdvdcss).</para>
-</sect2><sect2><title>vcd</title>
+</sect2>
+<sect2><title>vcd</title>
 <para><emphasis>default: enabled</emphasis></para>
 <para>This is the VideoCD input.</para>
-</sect2><sect2><title>http</title>
+</sect2>
+<sect2><title>http</title>
 <para><emphasis>default: enabled</emphasis></para>
 <para>This is the http input. You can use it for Video On Demand.</para>
-</sect2><sect2><title>satellite</title>
+</sect2>
+<sect2><title>satellite</title>
 <para><emphasis>default: disabled</emphasis></para>
 <para>This is an input module that allows to read directly from a Hauppauge WinTV Nova card under Linux. It requires drivers 0.9.4 available from linuxtv.org.
 </para>
@@ -234,6 +263,11 @@ format</para>
 <para><emphasis>default: enabled</emphasis></para>
 <para>This module allows to demux streams from a satellite card.</para>
 </sect2>
+<sect2><title>mp4</title>
+<para><emphasis>default: enabled</emphasis></para>
+<para>This module is the MPEG-4 demuxer.</para>
+</sect2>
+
 
 
 
@@ -293,6 +327,13 @@ This interface module allows you to control vlc through a remote. A lircrc examp
 The wxWindows interface is a portable interface meant to replace win32, gnome and Gtk interface, but it is not completely finished.</para>
 </sect2>
 
+<sect2><title>opie</title>
+<para><emphasis>default: disabled</emphasis></para>
+<para>
+This is an interface plugin for the Qt Embedded library (iPaq graphical library).</para>
+</sect2>
+
+
 
 
 </sect1>
@@ -332,7 +373,9 @@ support.</para>
 
 <sect2><title>mad</title>
 <para><emphasis>default: disabled</emphasis></para>
-<para>This codec is a very smart MP3 decoder.</para>
+<para>This codec is a very smart MP3 decoder, that only uses integers.
+This allows its use for CPU which don't handle floating point numbers
+(on PDA, for exemple).</para>
 </sect2>
 
 <sect2><title>faad</title>
@@ -350,6 +393,17 @@ support.</para>
 <para>theora is an experimental video codec by the Ogg Project.</para>
 </sect2>
 
+<sect2><title>cinepak</title>
+<para><emphasis>default: enabled</emphasis></para>
+<para>This is the codec for the Cinepak format.</para>
+</sect2>
+
+<sect2><title>tremor</title>
+<para><emphasis>default: disabled</emphasis></para>
+<para>This is an Ogg/Vorbis codec that only makes integer calculus,
+which allow its use on CPU which don't have floating point
+support.</para>
+</sect2>
 
 </sect1>
 
@@ -405,6 +459,12 @@ plugin is built</para>
 <para>This enables the SLP service discovery protocol</para>
 </sect2>
 
+<sect2><title>xosd</title>
+<para><emphasis>default: disabled</emphasis></para>
+<para><emphasis>For Unix only</emphasis></para>
+<para>This plugin outputs the current stream to an "OSD" (On Screen
+Display)</para>
+</sect2>
 
 
 

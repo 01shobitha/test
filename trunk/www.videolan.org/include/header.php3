@@ -54,7 +54,7 @@ function starthtml($title) { ?>
 
  <td style="width: 100%">
 
-  <table style="width: 100%; text-align: center; vertical-align: middle;">
+  <table style="width: 100%; text-align: center; vertical-align: top;">
   <tr>
      <? get_first_bar_item ( 6 , "home" , "Home" , "/" , $modules[1] ) ?>
      <? get_first_bar_item ( 6 , "vlc" , "VLC" , "/vlc/" , $modules[1] ) ?>

@@ -190,13 +190,13 @@ td.firstbar {
   font-size: 11pt;
 }
 a.firstbar:link {
-  background-color: inherit;
-  color: inherit;
+  background-color: #a43;
+  color: #fff;
   font-size: inherit;
 }
 a.firstbar:visited {
-  background-color: inherit;
-  color: inherit;
+  background-color: #a43;
+  color: #fff;
   font-size: inherit;
 }
 a.firstbar:hover {
@@ -221,13 +221,13 @@ td.secondbar {
   font-size: 10pt;
 }
 a.secondbar:link {
-  background-color: inherit;
-  color: inherit;
+  background-color: #888;
+  color: #fff;
   font-size: inherit;
 }
 a.secondbar:visited {
-  background-color: inherit;
-  color: inherit;
+  background-color: #888;
+  color: #fff;
   font-size: inherit;
 }
 a.secondbar:hover {

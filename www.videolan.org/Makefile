@@ -38,14 +38,16 @@ clean: clean-recursive
 %-recursive:
 	@for d in $(SUBDIR) ; do \
 		$(MAKE) -f $(NEXTROOT)Makefile -C $$d ROOT=$(NEXTROOT) $* \
-		|| exit $$? ; \
+			HERE=$(HERE)$$d/ || exit $$? ; \
 	done
 
 %.html: %.php $(ROOT)Makefile
 	@echo "Preprocessing $@ ..."
 	@rm -f $@.tmp
-	@if ! DOCUMENT_ROOT=$(ROOT) $(PHPCGI) $< > $@.tmp; then \
-		cat $@.tmp | tail -1 ; \
+	@cd $(ROOT) || exit 1 ; \
+	if ! DOCUMENT_ROOT=$(ROOT) $(HERE)$(PHPCGI) $(HERE)$< > $(HERE)$@.tmp; then \
+		cat $(HERE)$@.tmp | tail -1 ; \
+		rm -f $(HERE)$@.tmp ; \
 		exit 1 ; \
 	fi
 	@$(STRIP_HEADERS) < $@.tmp > $@

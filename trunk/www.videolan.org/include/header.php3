@@ -81,7 +81,7 @@ function starthtml($title) { ?>
 
   <table style="width: 100%;" cellspacing="0" cellpadding="0">
   <tr>
-<? if($_GET['poukram']) { ?>
+<? if($HTTP_GET_VARS['poukram']) { ?>
     <td class="topleft" style="width: 8%">&nbsp;</td><?
     get_first_bar_item_poukram(6, "home", "Home", "/", $modules[1]);
     get_first_bar_item_poukram(6, "vlc", "VLC", "/vlc/", $modules[1]);
@@ -102,7 +102,7 @@ function starthtml($title) { ?>
   </table>
   <table style="width: 100%;" cellspacing="0" cellpadding="0">
   <tr>
-<? if($_GET['poukram']) { ?>
+<? if($HTTP_GET_VARS['poukram']) { ?>
     <td class="bottomleft">&nbsp;</td>
 <? } ?>
     <? switch($modules[1]) {
@@ -112,7 +112,7 @@ function starthtml($title) { ?>
       case "support": second_bar_support($modules[2]); break;
       case "home": second_bar_home($modules[2]); break;
     } ?>
-<? if($_GET['poukram']) { ?>
+<? if($HTTP_GET_VARS['poukram']) { ?>
     <td class="bottomright">&nbsp;</td>
 <? } ?>
   </tr>
@@ -170,12 +170,12 @@ function get_second_bar_item($number, $module, $text, $url, $current_module) {
   $size = floor(100 / $number);
   if($current_module == $module)
   {
-     ?><td class="<? if($_GET['poukram']) { echo "bottom"; } else { echo "second"; } ?>barselected" style="width: <? echo $size; ?>%"><? echo $text; ?></td>
+     ?><td class="<? if($HTTP_GET_VARS['poukram']) { echo "bottom"; } else { echo "second"; } ?>barselected" style="width: <? echo $size; ?>%"><? echo $text; ?></td>
      <?
   }
   else
   {
-     ?><td class="<? if($_GET['poukram']) { echo "bottom"; } else { echo "second"; } ?>bar" style="width: <? echo $size; ?>%"><a class="<? if($_GET['poukram']) { echo "bottom"; } else { echo "second"; } ?>bar" href="<? echo $url; ?>"><? echo $text; ?></a></td>
+     ?><td class="<? if($HTTP_GET_VARS['poukram']) { echo "bottom"; } else { echo "second"; } ?>bar" style="width: <? echo $size; ?>%"><a class="<? if($HTTP_GET_VARS['poukram']) { echo "bottom"; } else { echo "second"; } ?>bar" href="<? echo $url; ?>"><? echo $text; ?></a></td>
      <?
   }
 }

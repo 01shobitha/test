@@ -274,6 +274,7 @@ instruction, for example :</para>
 <prompt>% </prompt><userinput>cd C:\Program Files\VLC</userinput>
 </screen>
 
+</note>
 
 <simplesect><title>under Linux or Unix</title>
 
@@ -329,6 +330,8 @@ instruction, for example :</para>
 <screen>
 <prompt>% </prompt><userinput>cd /Applications/VLC.app/Contents/MacOS/VLC</userinput>
 </screen>
+
+</note>
 
 <simplesect><title>under BeOS</title>
 

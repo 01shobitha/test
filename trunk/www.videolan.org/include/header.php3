@@ -244,7 +244,7 @@ function second_bar_stream($module) {
 
 function second_bar_support($module) {
   get_second_bar_item(4, "index.html", "Overview", "/support/", $module);
-  get_second_bar_item(4, "bug", "Report a bug", "/support/bug-reporting.html", $module);
+  get_second_bar_item(4, "bug-reporting.html", "Report a bug", "/support/bug-reporting.html", $module);
   get_second_bar_item(4, "lists.html", "Mailing-lists", "/support/lists.html", $module);
   get_second_bar_item(4, "irc", "IRCWeb", "/cgi-bin/irc/irc.cgi", $module);
 }

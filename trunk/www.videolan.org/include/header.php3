@@ -1,7 +1,7 @@
 <?
 
 function startbox($title,$color) { ?>
-<table class="fill" cellspacing="0" cellpadding="0" border="0"><tr>
+<table style="width: 100%;" cellspacing="0" cellpadding="0" border="0"><tr>
   <td class="<? echo $color; ?>"><? echo $title; ?></td></tr><tr><td><? }
 
 function stopbox() { ?></td></tr></table><? }
@@ -54,7 +54,7 @@ function starthtml($title) { ?>
     <td style="background-color: <?echo($color_doc);?>; width: 17%; vertical-align: middle;" align="center"><a href="/doc/">Documentation</a></td>
     <td style="background-color: <?echo($color_support);?>; width: 16%; vertical-align: middle;" align="center"><a href="/support/">Support</a></td>
     <td style="background-color: #aaffaa; width: 17%; vertical-align: middle;" align="center"><a href="http://developers.videolan.org/">Developers</a></td>
-    <td class="nowrap">
+    <td style="white-space: nowrap;">
       <select name="mirror">
         <!-- current: $GLOBALS['HTTP_HOST'] -->
         <option value="www.videolan.org">Châtenay, France (main)</option>
@@ -63,7 +63,9 @@ function starthtml($title) { ?>
     </td>
 
   </tr></table>
-</form><?
+</form>
+
+<div style="margin: 10px;"><?
 
    /* This is where the real user page stands */
 
@@ -74,22 +76,24 @@ function starthtml($title) { ?>
     */
 
 function footer($title,$language,$date) { ?>
-  <hr />
-  <table cellspacing="0" cellpadding="2" class="fill" border="0">
-    <tr>
-      <td align="left">
-        <a href="/">VideoLAN</a> &nbsp;-&nbsp;
-        Paris, France &nbsp;-&nbsp; <? echo $date; ?>
-      </td>
-      <td align="right" class="nowrap">
-      <? if($language=="fr") { } else { ?>valid<? } ?>
-      <a href="http://validator.w3.org/check/referer">XHTML 1.0 Strict</a>
-      &amp;
-      <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>
-      <? if($language=="fr") { ?>valides<? } else { } ?>
-      </td>
-    </tr>
-  </table><?
+</div>
+
+<hr />
+<table cellspacing="0" cellpadding="2" style="width: 100%;" border="0">
+  <tr>
+    <td align="left">
+      <a href="/">VideoLAN</a> &nbsp;-&nbsp;
+      Paris, France &nbsp;-&nbsp; <? echo $date; ?>
+    </td>
+    <td align="right" style="white-space: nowrap;">
+    <? if($language=="fr") { } else { ?>valid<? } ?>
+    <a href="http://validator.w3.org/check/referer">XHTML 1.0 Strict</a>
+    &amp;
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>
+    <? if($language=="fr") { ?>valides<? } else { } ?>
+    </td>
+  </tr>
+</table><?
 
     /*
      * end of the body

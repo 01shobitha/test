@@ -71,7 +71,7 @@ function starthtml($title) { ?>
       case "streaming": second_bar_stream($modules[2]); break;
       case "doc": break;
       case "support": second_bar_support($modules[2]); break;
-      case "home": second_bar_home($modules[2]); break;
+      case "home": second_bar_home($modules[1]); break;
     } ?>
   </tr>
   </table>
@@ -89,18 +89,8 @@ function starthtml($title) { ?>
 </form>
 
 <div style="margin: 10px;">
-
-   /* This is where the real user page stands */
-<p>
-1=<? echo $modules[1]; ?>
-</p>
-<p>
-2=<? echo $modules[2]; ?>
-</p>
-<p>
-3=<? echo $modules[3]; ?>
-</p>
 <?
+   /* This is where the real user page stands */
 }
 
 /* Give an entire cell html code for the first menubar */
@@ -128,7 +118,7 @@ function get_second_bar_item ( $number , $module , $text , $url , $current_modul
   }
   else
   {
-     ?><td class="secondbar" style="width: <? echo $size; ?>%"><a class="firstbar" href="<? echo $url; ?>"><? echo $text; ?></a></td>
+     ?><td class="secondbar" style="width: <? echo $size; ?>%"><a class="secondbar" href="<? echo $url; ?>"><? echo $text; ?></a></td>
      <?
   }
 }
@@ -144,17 +134,17 @@ function second_bar_vlc($module) { ?>
 /* Second bar for streaming */
 
 function second_bar_stream() { ?>
-<td class="secondbarstream"><a href="/streaming/index.html">Overview</a></td>
-<td class="secondbarstream"><a href="/streaming/features.html">Features</a></td>
-<td class="secondbarstream"><a href="/streaming/download.html">Download</a></td>
+<? get_second_bar_item ( 3 , "index.html" , "Overview" , "/streaming/index.html" , $module ) ?>
+<? get_second_bar_item ( 3 , "features.html" , "Features" , "/streaming/features.html" , $module ) ?>
+<? get_second_bar_item ( 3 , "download.html" , "Download" , "/streaming/download.html" , $module ) ?>
 <? }
 
 /* Second bar for support */
 
 function second_bar_support() { ?>
-<td class="secondbarsupport"><a href="http://bugzilla.videolan.org">Bugzilla</a></td>
-<td class="secondbarsupport"><a href="/support/lists.html">Mailing-lists</a></td>
-<td class="secondbarsupport"><a href="/cgi-bin/irc/irc.cgi">IRCWeb</a></td>
+<? get_second_bar_item ( 3 , "" , "Bugzilla" , "http://bugzilla.videolan.org" , $module ) ?>
+<? get_second_bar_item ( 3 , "lists.html" , "Mailing-lists" , "/support/lists.html" , $module ) ?>
+<? get_second_bar_item ( 3 , "" , "IRCWeb" , "/cgi-bin/irc/irc.cgi" , $module ) ?>
 <? }
 
 
@@ -162,13 +152,14 @@ function second_bar_support() { ?>
 /* Second bar for home */
 
 function second_bar_home() { ?>
-<td class="secondbarhome"><a href="/news.html">News</a></td>
-<td class="secondbarhome"><a href="/events/index.html">Events</a></td>
-<td class="secondbarhome"><a href="/team/index.html">Team</a></td>
-<td class="secondbarhome"><a href="/partners.html">Partners</a></td>
-<td class="secondbarhome"><a href="/contribute.html">Contribute</a></td>
-<td class="secondbarhome"><a href="/contact.html">Contact</a></td>
-<td class="secondbarhome"><a href="/links.html">Links</a></td>
+<? get_second_bar_item ( 8 , "index.html" , "Overview" , "/index.html" , $module ) ?>
+<? get_second_bar_item ( 8 , "news.html" , "News" , "/news.html" , $module ) ?>
+<? get_second_bar_item ( 8 , "events" , "Events" , "/events/" , $module ) ?>
+<? get_second_bar_item ( 8 , "team" , "Team" , "/team/" , $module ) ?>
+<? get_second_bar_item ( 8 , "partners.html" , "Partners" , "partners.html" , $module ) ?>
+<? get_second_bar_item ( 8 , "contribute.html" , "Contribute" , "contribute.html" , $module ) ?>
+<? get_second_bar_item ( 8 , "contact.html" , "Contact" , "contact.html" , $module ) ?>
+<? get_second_bar_item ( 8 , "links.html" , "Links" , "links.html" , $module ) ?>
 <? }
 
 

@@ -10,30 +10,77 @@
 <span xml:lang="fr">Diffusez en IPv6</span>
 </title>
 
-<note><para>
-<span xml:lang="en">You will need an IPv6-aware operating system, like
-Linux 2.4.21 with the <emphasis>ipv6</emphasis> module loaded, Windows
-XP Service Pack 1 or Mac OS X version 10.2 or higher. Please look at the
-features pages on the <ulink url="http://www.videolan.org">VideoLAN web
-site</ulink> to know about the status of IPv6 in VLC and VLS for each
-O.S</span>
+<sect2><title>
+<span xml:lang="en">Requirements</span>
+<span xml:lang="fr">Requis</span>
+</title>
+
+
+<para> <span xml:lang="en">You will need an IPv6-aware operating
+system, like Linux 2.4 or 2.6 with the <emphasis>ipv6</emphasis> module
+loaded, Windows 2000 with the IPv6 stack, Windows XP Service Pack 1 or
+Mac OS X version 10.2 or higher. Please look at the features pages on
+the <ulink url="http://www.videolan.org">VideoLAN web site</ulink> to
+know about the status of IPv6 in VLC and VLS for each O.S.</span>
+
 <span xml:lang="fr">Vous devez avoir un système d'exploitation
-compatible IPv6, comme, par exemple, Linux 2.4.21 avec le module
-<emphasis>ipv6</emphasis> chargé, Windows XP Service Pack 1, ou
-Mac OS X version 10.2 ou plus. Veuillez vous référer au <ulink
-url="http://www.videolan.org">site web VideoLAN</ulink> pour connaître
-le status de l'IPv6 dans VLC et VLS pour chaque système</span>
-.</para></note>
+compatible IPv6, comme, par exemple, Linux 2.4 ou 2.6 avec le module
+<emphasis>ipv6</emphasis> chargé, Windows 2000 avec la stack IPv6,
+Windows XP Service Pack 1, ou Mac OS X version 10.2 ou plus. Veuillez
+vous référer au <ulink url="http://www.videolan.org">site web
+VideoLAN</ulink> pour connaître le status de l'IPv6 dans VLC et VLS pour
+chaque système.</span> </para>
+
+<note><para>
+
+<span xml:lang="en">Under Windows 2000, you must add by hand a default
+multicast IPv6 route, with the following command:</span>
+
+<span xml:lang="fr">Sous Windows 2000, vous devez ajouter à la main une
+route de multicast IPv6 par défaut:</span>
+
+</para>
+
+<screen>
+<prompt># </prompt><userinput>ipv6 rtu ff::/8 4</userinput>
+</screen>
+
+<para>
+
+<span xml:lang="en">where the last number (<emphasis>4</emphasis> in
+this example) is the number of your true IPv6 interface. To have a list
+of your IPv6 interfaces, run <command>ipv6 if</command>.</span>
+
+<span xml:lang="fr">où le dernier nombre (<emphasis>4</emphasis> dans
+cet exemple) est le numéro de votre vraie interface IPv6. Pour avoir
+la liste de vos interfaces IPv6, lançez la commande <command>ipv6
+if</command>.</span>
+
+</para></note>
+
+<warning><para>
+
+<span xml:lang="en">Under Windows XP, you may have problems with a
+hidden IPv6 firewall. To solve the problem, go to the list of Windows
+Services and stop the IPv6 firewalling service.</span>
+
+<span xml:lang="en">Sous Windows XP, vous aurez probablement des ennuis
+à cause d'un firewall IPv6 caché. Pour résoudre le problème, allez
+dans la liste des services Windows et arrêtez le service de parre-feu
+IPv6.</span>
+
+</para></warning>
 
 <warning><para>
 <span xml:lang="en">If you are using VMware under Linux, you will have
 to stop VMware and unload the VMware kernel modules, because we noticed
-it prevented IPv6 streaming</span>
+it prevented IPv6 streaming !</span>
 <span xml:lang="fr">Si vous utilisez VMWare sous Linux, vous devrez
 l'arrêter et décharger les modules noyau de VMWare, car nous avons
-constaté qu'ils empêchent la diffusion IPv6</span>
-!</para></warning>
+constaté qu'ils empêchent la diffusion IPv6 !</span>
+</para></warning>
 
+</sect2>
 
 <sect2><title>
 <span xml:lang="en">Stream with VLC</span>

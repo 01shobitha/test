@@ -2,7 +2,7 @@
  * Stolen from the Gnumeric website by Sam :-)
  * Hardly modified by karibu :(
  *
- * $Id: main.css,v 1.79 2003/04/09 15:32:10 karibu Exp $ */
+ * $Id: main.css,v 1.80 2003/04/10 21:20:48 karibu Exp $ */
 
 body {
   font-family: sans-serif, Helvetica, Arial;
@@ -304,6 +304,37 @@ dd {
 blockquote.center,p.center,td.center,h2.center { text-align: center; }
 blockquote.right, p.right, td.right  { text-align: right; }
 
+
+/**********
+*  Skins  *
+**********/
+
+table.skins-tag
+{
+  padding: 3px;
+  margin: 10px 10px 10px 40px;
+  background-color: #E0FFE0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #F0FFF0 #B0D0B0 #B0D0B0 #F0FFF0;
+}
+
+td.skins-tag
+{ 
+  width: 150px;
+  font-weight: 600;
+  padding: 3px;
+}
+
+td.skins-att
+{
+  padding: 3px;
+  margin-left: 10px;
+  background-color: #F6FFF6;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #D0E0D0 #FFFFFF #FFFFFF #D0E0D0;
+}
 
 /*********
 *  News  *

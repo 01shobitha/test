@@ -43,12 +43,12 @@ function starthtml($title) { ?>
 <body>
 
 <table width="100%" cellspacing="3" cellpadding="0"><tr>
-  <td style="background-color: #ffaaaa;" width="17%" align="center">Home</td>
-  <td style="background-color: #ffcccc;" width="16%" align="center">VLC Media Player</td>
-  <td style="background-color: #ffaaaa;" width="17%" align="center">Streaming</td>
-  <td style="background-color: #ffaaaa;" width="17%" align="center">Documentation</td>
-  <td style="background-color: #ffaaaa;" width="16%" align="center">Support</td>
-  <td style="background-color: #aaffaa;" width="17%" align="center">Developers</td>
+  <td style="background-color: #ffcccc; width: 17%;" align="center"><a href="/">Home</a></td>
+  <td style="background-color: #ffaaaa; width: 16%;" align="center"><a href="/vlc/">VLC Media Player</a></td>
+  <td style="background-color: #ffaaaa; width: 17%;" align="center"><a href="/streaming/">Streaming</a></td>
+  <td style="background-color: #ffaaaa; width: 17%;" align="center"><a href="/doc/">Documentation</a></td>
+  <td style="background-color: #ffaaaa; width: 16%;" align="center"><a href="/support/">Support</a></td>
+  <td style="background-color: #aaffaa; width: 17%;" align="center"><a href="http://developers.videolan.org/">Developers</a></td>
 </tr></table>
 <? }
 

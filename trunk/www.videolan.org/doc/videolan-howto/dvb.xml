@@ -8,12 +8,15 @@ terrestial TV)</span>
 numérique terrestre)</span>
 <span xml:lang="es">Difusión de un canal DVB (satélite o televisión digital
 terrestre)</span>
+<span xml:lang="de">Einen DVB-Kanal (Satellit oder digitales terrestrisches
+TV)</span>
 </title>
 
 <note><para>
 <span xml:lang="en">This is possible under GNU/Linux only</span>
 <span xml:lang="fr">Ceci n'est possible que sous GNU/Linux</span>
 <span xml:lang="es">Esto es posible solo bajo GNU/Linux</span>
+<span xml:lang="de">Dies ist nur unter GNU/Linux möglich</span>
 
 .</para></note>
 
@@ -21,6 +24,7 @@ terrestre)</span>
 <span xml:lang="en">Install the DVB drivers</span>
 <span xml:lang="fr">Installez les drivers DVB</span>
 <span xml:lang="es">Instalar los drivers DVB</span>
+<span xml:lang="de">Installieren Sie die DVB-Treiber</span>
 </title>
 
 <para>
@@ -29,6 +33,9 @@ satellite card or a digital terrestial TV card), you need to install the
 DVB drivers:</span>
 <span xml:lang="fr">Pour pouvoir streamer depuis une carte DVB (une carte satélite ou de télévision numérique terrestre), il est nécessire d'installer préalablement les drivers DVB :</span>
 <span xml:lang="es">Si se quiere ser capaz de transmitir desde una tarjete DVB (tarjeta de satélite o de TV digital terrestre), se necesita instalar los drivers DVB:</span>
+<span xml:lang="de">Wenn Sie von einer DVB-Karte (eine Satelliten- oder eine
+digitale terrestrische TV-Karte) streamen möchten, müssen Sie die DVB-Treiber
+installieren:</span>
 
 </para>
 
@@ -43,6 +50,9 @@ compile the right modules ;</span>
 compiler les bons modules ;</span>
 
 <span xml:lang="es">si se utilizar un kernel Linux 2.6.x, solo se necesita compilar los modulos adecuados;</span>
+
+<span xml:lang="de">Wenn Sie einen Linux 2.6.x Kernel benutzen, müssen Sie
+nur die richtigen Module komplieren,</span>
 
 </para></listitem>
 
@@ -66,6 +76,11 @@ url="http://www.linuxtv.org/download/dvb/">página de descarga de drivers DVB
 </ulink> del proyecto <ulink url="http://www.linuxtv.org/">LinuxTV</ulink>
 Project.</span>
 
+<span xml:lang="de">Wenn Sie einen Linux 2.4.x Kernel benutzen, müssen Sie
+die neueste Version der DVB-Treiber von der
+<ulink url="http://www.linuxtv.org/download/dvb/">
+DVB-Treiber-Downloadseite</ulink> des <ulink url="http://www.linuxtv.org/">LinuxTV</ulink>-Projektes herunterladen.</span>
+
 </para></listitem>
 
 </itemizedlist>
@@ -82,6 +97,9 @@ drivers</span>
 <span xml:lang="es">Descomprimir el tarball y seguir las instrucciones
 escritas en el fichero <filename>INSTALL</filename> para compilar e instalar
 los drivers</span>
+<span xml:lang="de">Dekomprimieren Sie das Archiv und befolgen Sie die
+Anweisungen in der Datei <filename>INSTALL</filename> zur Kompilierung
+und Installation der Treiber</span>
 
 .</para>
 
@@ -91,6 +109,7 @@ los drivers</span>
 <span xml:lang="en">Stream with VLS</span>
 <span xml:lang="fr">Diffusez avec VLS</span>
 <span xml:lang="es">Transmisión con VLS</span>
+<span xml:lang="de">Streaming mit VLS</span>
 </title>
 
 <para>
@@ -106,6 +125,10 @@ votre répertoire utilisateur (certains sont fournis dans
 los canales DVB (canales de satellite o de televisión digital terrestre) que se 
 quieren transmitir en el directorio raiz (algunos de ellos se proporcionan en el
 tarball <emphasis>libdvb</emphasis> para canales de satélite)</span>
+<span xml:lang="de">Legen Sie eine <filename>.dvbrc</filename>-Datei, die
+die DVB-Kanäle enthält, die Sie streamen möchten in Ihr Benutzer-Verzeichnis
+(einige für Satellitenkanäle werden im <emphasis>libdvd</emphasis>-Tarball
+mitgeliefert)</span>
 
 .</para>
 
@@ -113,6 +136,7 @@ tarball <emphasis>libdvb</emphasis> para canales de satélite)</span>
 <span xml:lang="en">Run VLS with the following command line</span>
 <span xml:lang="fr">Lancez VLS avec cette ligne de commande</span>
 <span xml:lang="es">Ejecutar VLS con la siguiente linea de comando</span>
+<span xml:lang="de">Starten Sie VLS mit der folgenden Befehlszeile</span>
 
  :</para>
 
@@ -120,9 +144,11 @@ tarball <emphasis>libdvb</emphasis> para canales de satélite)</span>
 <prompt>% </prompt><userinput>vls -vv -d udp:192.168.0.42 dvb:"EUROSPORT" --ttl 12</userinput>
 </screen>
 
-<para><span xml:lang="en">where</span>
+<para>
+<span xml:lang="en">where</span>
 <span xml:lang="fr">où</span> 
 <span xml:lang="es">donde</span>
+<span xml:lang="de">wobei</span>
 :</para>
 
 <itemizedlist>
@@ -134,12 +160,15 @@ your <filename>~/.dvbrc</filename> file</span>
 décrit dans votre fichier <filename>~/.dvbrc</filename></span>
 <span xml:lang="es"> es el canal en el que se quiere transmitir como se ha escrito en el fichero
 <filename>~/.dvbrc</filename></span>
+<span xml:lang="de">der Kanal ist, den Sie streamen möchten, wie Sie es in Ihre
+<filename>~/.dvbrc</filename>-Datei geschrieben haben</span>
 ,</para></listitem>
 
 <listitem><para><emphasis>192.168.0.42</emphasis>
 <span xml:lang="en"> is either </span>
 <span xml:lang="fr"> est soit </span>
 <span xml:lang="es"> es cualquiera </span>
+<span xml:lang="de"> ist entweder </span>
 :</para>
 
 <itemizedlist>
@@ -150,6 +179,8 @@ to</span>
 désirez diffuser en unicast</span>
 <span xml:lang="es">la dirección IP de la máquina en la que se quiere hacer unicast
 </span>
+<span xml:lang="de">die IP-Adresse des Rechners, den Sie via Unicast erreichen
+möchten</span>
 ;</para></listitem>
 
 <listitem><para>
@@ -159,12 +190,15 @@ to</span>
 envoyer en unicast</span>
 <span xml:lang="es">o el DNS de la máquina donde se quiere hacer unicast
 </span>
+<span xml:lang="de">oder der DNS-Name des Rechners, den Sie via Unicast
+erreichen möchten</span>
 ;</para></listitem>
 
 <listitem><para>
 <span xml:lang="en">or a multicast IP address</span>
 <span xml:lang="fr">une adresse IP multicast</span>
 <span xml:lang="es">o una dirección IP multicast</span>
+<span xml:lang="de">oder eine Multicast-IP-Adresse</span>
 
 .</para></listitem>
 
@@ -182,6 +216,9 @@ IP (cela signifie qu'ils pourront traverser 11 routeurs)</span>
 <span xml:lang="es"> es el valor del TTL (Time To
 Live) de los paquetes IP (lo que significa que el stream será capaz
 de cruzar por 11 routers)</span>
+<span xml:lang="de"> ist der Wert der TTL (Time To Live) Ihrer IP-Pakete (was
+bedeutet, dass der Stream in der Lage sein wird, 11 Router zu
+überqueren)</span>
 
 .</para></listitem>
 
@@ -189,55 +226,109 @@ de cruzar por 11 routers)</span>
 
 </sect1>
 
-<sect1><title>Stream with VLC</title>
+<sect1><title>
+<span xml:lang="en">Stream with VLC</span>
+<span xml:lang="fr">Diffusez avec VLC</span>
+<span xml:lang="es">Transmisión con VLS</span>
+<span xml:lang="de">Streaming mit VLC</span>
+</title>
 
-<note><para>For this, you must use the CVS version of VLC and compile
+<note><para>
+<span xml:lang="en">For this, you must use the CVS version of VLC and compile
 it with <command>./configure --enable-dvb</command> This feature should
-still be considered as experimental.</para></note>
+still be considered as experimental.</span>
+<span xml:lang="de">Dazu benötigen Sie die CVS-Version von VLC und sie mit
+<command>./configure --enable-dvb</command> kompilieren. Dieses Feature
+sollte noch als experimentell angesehen werden.</span>
+</para></note>
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv --program 8211 dvb:12597000:0:3:27500000 --sout udp:192.168.0.12 --ttl 12</userinput>
 </screen>
 
-<para>where :</para>
+<para>
+<span xml:lang="en">where</span>
+<span xml:lang="fr">où</span>
+<span xml:lang="es">donde</span>
+<span xml:lang="de">wobei</span>
+ :</para>
 
 <itemizedlist>
 
-<listitem><para><filename>8211</filename> is the PID of the DVB
-channel you would like to stream, expressed as a decimal number
+<listitem><para>
+<span xml:lang="en"><filename>8211</filename> is the PID of the DVB
+channel you would like to stream, expressed as a decimal number</span>
+<span xml:lang="de"><filename>8211</filename> ist die PID des DVB-Kanals,
+den Sie streamen möchten, ausgedrückt als Dezimalzahl</span>
+
 ;</para></listitem>
 
-<listitem><para><filename>12597000</filename> is the frequency of the
-transponder you want to stream from in Hz;</para></listitem>
+<listitem><para>
+<span xml:lang="en"><filename>12597000</filename> is the frequency of the
+transponder you want to stream from in Hz</span>
+<span xml:lang="de"><filename>12597000</filename> ist die Frequenz des
+Transponders, den Sie streamen möchten, in Hz</span>
+;</para></listitem>
 
-<listitem><para><filename>0</filename> is the polarization (0 for
-vertical, 1 for horizontal) ;</para></listitem>
+<listitem><para>
+<span xml:lang="en"><filename>0</filename> is the polarization (0 for
+vertical, 1 for horizontal)</span>
+<span xml:lang="de"><filename>0</filename> ist die Polarisierung (0 für
+vertikal, 1 für horizontal)</span>
+;</para></listitem>
 
-<listitem><para><filename>3</filename> is the FEC (3 for 3/4, 9 for
-auto) ;</para></listitem>
+<listitem><para>
+<span xml:lang="en"><filename>3</filename> is the FEC (3 for 3/4, 9 for
+auto)</span>
+<span xml:lang="de"><filename>3</filename> ist die FEC (3 für 3/4, 9 für
+automatisch)</span>
+;</para></listitem>
 
-<listitem><para><filename>27500000</filename> is the transponder symbol
-rate in Hz ;</para></listitem>
+<listitem><para>
+<span xml:lang="en"><filename>27500000</filename> is the transponder
+symbolrate in Hz</span>
+<span xml:lang="de"><filename>27500000</filename> ist die 
+Transpondersymbolrate in Hz</span>
+;</para></listitem>
 
-<listitem><para><emphasis>192.168.0.12</emphasis> is either :</para>
+<listitem><para><emphasis>192.168.0.12</emphasis>
+<span xml:lang="en"> is either </span>
+<span xml:lang="de"> ist entweder </span>
+:</para>
 
 <itemizedlist>
 
-<listitem><para>the IP address of the machine you want to unicast to
+<listitem><para>
+<span xml:lang="en">the IP address of the machine you want to unicast to
+</span>
+<span xml:lang="de">die IP-Adresse des Rechners, den Sie via Unicast erreichen
+möchten</span>
 ;</para></listitem>
 
-<listitem><para>or the DNS name the machine you want to unicast to
+<listitem><para>
+<span xml:lang="en">or the DNS name the machine you want to unicast to
+</span>
+<span xml:lang="de">oder der DNS-Name des Rechners, den Sie via Unicast
+erreichen möchten</span>
 ;</para></listitem>
 
-<listitem><para>or the multicast IP address.</para></listitem>
+<listitem><para>
+<span xml:lang="en">or the multicast IP address.</span>
+<span xml:lang="de">oder die Multicast-IP-Adresse.</span>
+</para></listitem>
 
 </itemizedlist>
 
 </listitem>
 
-<listitem><para><emphasis>12</emphasis> is the value of the TTL (Time To
-Live) of your IP packets (which means that the stream will be
-able to cross 11 routers).</para></listitem>
+<listitem><para>
+<span xml:lang="en"><emphasis>12</emphasis> is the value of the TTL (Time
+To Live) of your IP packets (which means that the stream will be able to cross 11
+routers).</span>
+<span xml:lang="de"><emphasis>12</emphasis> ist der Wert der TTL (Time To
+Live) Ihrer IP-Pakete (was bedeutet, dass der Stream in der Lage sein wird, 11
+Router zu überqueren).</span>
+</para></listitem>
 
 </itemizedlist>
 

@@ -6,12 +6,14 @@
 <span xml:lang="fr">Diffusez depuis une carte d'acquisition ou 
 une webcam</span>
 <span xml:lang="es">Transmisión desde una tarjeta capaturadora o una webcam</span>
+<span xml:lang="de">Streamen von einer Eingangskarte oder einer Webcam</span>
 </title>
 
 <note><para>
 <span xml:lang="en">This is possible under GNU/Linux only</span>
 <span xml:lang="fr">Ceci n'est possible que sous GNU/Linux</span>
 <span xml:lang="es">Esto es solo posible bajo GNU/Linux</span>
+<span xml:lang="de">Dies ist nur unter GNU/Linux möglich</span>
 .</para></note>
 
 
@@ -20,6 +22,7 @@ une webcam</span>
 <span xml:lang="en">Install the Video for Linux drivers</span>
 <span xml:lang="fr">Installez les drivers Video for Linux</span>
 <span xml:lang="es">Instalar los drivers de Video for Linux</span>
+<span xml:lang="de">Installation der Video for Linux-Treiber</span>
 
 </title>
 
@@ -37,6 +40,10 @@ url="http://www.exploits.org/v4l">ici</ulink></span>
 o una webcam, debe estar disponible un driver video4linux. Puede encontrar
 más información sobre video4linux y dispositivos soportados aquí<ulink
 url="http://www.exploits.org/v4l">here</ulink></span>
+<span xml:lang="de">Wenn Sie von einer Eingangskarte oder eine Webcam
+streamen möchten, muss eine video4linux-Treiber dafür verfügbar sein. Sie
+können mehr Informationen über video4linux und unterstützte Geräte
+<ulink url="http://www.exploits.org/v4l">hier</ulink> finden</span>
 
 .</para>
 
@@ -57,6 +64,12 @@ dentro del kernel (algunos modulos de video4linux están equipados con los kernel
 Puede probar su dispositivo usando cualquier programa incluido en la lista
 <emphasis>Video: TV and PVR/DVR</emphasis> sección de esta pagina
 <ulink url="http://www.exploits.org/v4l/"></ulink></span>
+<span xml:lang="de">Kompilieren Sie das richtige Modul für Ihr Gerät und
+fügen Sie es Ihrem Kernel hinzu (einige video4linux-Module werden mit den
+Linux 2.4.x Kernel mitgeliefert). Sie können Ihr Gerät mit jedem in der Sektion
+<emphasis>Video: TV and PVR/DVR</emphasis> auf
+<ulink url="http://www.exploits.org/v4l/"> dieser Seite </ulink> aufgeführtem
+Programm testen</span>
 
 .</para>
 
@@ -65,6 +78,8 @@ Puede probar su dispositivo usando cualquier programa incluido en la lista
 <span xml:lang="fr">Remarque: les modules v4l2 fonctionneront
 également</span>
 <span xml:lang="es">Nota: el módulo v4l2 también trabajará con VLC</span>
+<span xml:lang="de">Beachten Sie, dass v4l2-Module auch mit VLC 
+arbeiten</span>
 
 .</para>
 
@@ -74,6 +89,7 @@ Puede probar su dispositivo usando cualquier programa incluido en la lista
 <span xml:lang="en">Stream with VLC</span>
 <span xml:lang="fr">Diffusez avec VLC</span>
 <span xml:lang="es">Transmisión con VLC</span>
+<span xml:lang="de">Streaming mit VLC</span>
 
 </title>
 
@@ -84,6 +100,9 @@ Puede probar su dispositivo usando cualquier programa incluido en la lista
 <command>./configure</command> pour celà</span>
 <span xml:lang="es">Se debe añadir <command>--enable-v4l</command> a
 <command>./configure</command> para usar esta característica</span>
+<span xml:lang="de">Sie müssen <command>--enable-v4l</command> zu
+<command>./configure</command> hinzufügen, um dieses Feature nutzen zu
+können</span>
 
 .</para></note>
 
@@ -95,7 +114,8 @@ Puede probar su dispositivo usando cualquier programa incluido en la lista
 
 <para><span xml:lang="en">where</span>
 <span xml:lang="fr">où</span> 
-<span xml:lang="en">donde</span>
+<span xml:lang="es">donde</span>
+<span xml:lang="de">wobei</span>
 :</para>
 
 
@@ -108,6 +128,8 @@ card or your webcam</span>
 d'acquisition ou à votre webcam</span>
 <span xml:lang="es"> es el dispositivo correspondiente a su tarjeta capturadora
 o su webcam</span>
+<span xml:lang="de"> das Device ist, welches Ihrer Eingangskarte oder Ihrer
+Webcam entspricht</span>
 ,</para></listitem>
 
 <listitem><para><emphasis>norm=secam</emphasis>
@@ -117,19 +139,23 @@ o su webcam</span>
 peut être pal, secam ou ntsc</span>
 <span xml:lang="es"> es el nombre del estandar de la señal analógica 
 (los posibles valores son pal, secam, y ntsc)</span>
+<span xml:lang="de"> ist der Name des analogen Signalstandards (mögliche
+Werte sind pal, secam und ntsc)</span>
 
 ,</para></listitem>
 
 <listitem><para><emphasis>frequency=543250</emphasis>
-<span xml:lang="en"> is the frequency of the channel in khz
+<span xml:lang="en"> is the frequency of the channel in kHz
 (<emphasis>Warning :</emphasis> for VLC &lt; 0.6.1, Frequency is channel
 frequency in MHz multiplied by 16)</span>
 <span xml:lang="fr">est la fréquence en kHz de la
 chaîne(<emphasis>Attention:</emphasis>avec VLC &lt; 0.6.1, la fréquence
 est la fréquence du canal en MHz, multipliée par 16)</span>
-<span xml:lang="es"> es la frecuencia del canal en khz
-(<emphasis>Precaución :</emphasis> para VLC &lt; 0.6.1, La frecuencia es la frecuencia del canal
-en MHz multiplicada por 16)</span>
+<span xml:lang="es"> es la frecuencia del canal en kHz
+(<emphasis>Precaución :</emphasis> para VLC &lt; 0.6.1, La frecuencia es la frecuencia del canal en MHz multiplicada por 16)</span>
+<span xml:lang="de"> ist die Frequenz des Kanals in kHz (<emphasis>
+Warnung:</emphasis> bei VLC &lt; 0.6.1 ist die Frequenz die mit
+16 multiplizierte Frequenz des Kanals)</span>
 ,</para></listitem>
 
 <listitem><para>
@@ -151,6 +177,12 @@ standard como <emphasis>subqcif</emphasis> (128x96),
 <emphasis>qsif</emphasis> (160x120), <emphasis>qcif</emphasis>
 (176x144), <emphasis>sif</emphasis> (320x240), <emphasis>cif</emphasis>
 (352x288) o <emphasis>vga</emphasis> (640x480))</span>
+<span xml:lang="de"><emphasis>size=640x480</emphasis> ist die Größe des
+Bildes, die Sie möchten (Sie können auch die eine Standardgröße eingeben wie
+<emphasis>subqcif</emphasis> (128x96), <emphasis>qsif</emphasis>
+(160x120), <emphasis>qcif</emphasis> (176x144), <emphasis>sif
+</emphasis> (320x240), <emphasis>cif</emphasis>
+(352x288) oder <emphasis>vga</emphasis> (640x480))</span>
 ,</para></listitem>
 
 <listitem><para><emphasis>channel=0</emphasis> 
@@ -160,6 +192,8 @@ tuner, 1 for composite and 2 for svideo)</span>
 tuner, 1 pour le composite, et 2 pour Svidéo)</span>
 <span xml:lang="es">es el número del canal (generalmente 0 es para
 tuner, 1 para compuesto y 2 para svideo)</span>
+<span xml:lang="de">ist die Nummer des Kanals (üblicherweise ist 0 für Tuner,
+1 für composite und 2 für svideo)</span>
 
 ,</para></listitem>
 
@@ -167,6 +201,7 @@ tuner, 1 para compuesto y 2 para svideo)</span>
 <span xml:lang="en">is the audio device</span>
 <span xml:lang="fr">est le périphérique audio</span>
 <span xml:lang="es">es el dispositivo de audio</span>
+<span xml:lang="de">ist das Audiogerät</span>
 ,</para></listitem>
 
 <listitem><para><emphasis>audio=1</emphasis> 
@@ -176,6 +211,8 @@ channel (usually 0 is for mono and 1 for stereo)</span>
 mono et 1 pour stéréo)</span>
 <span xml:lang="es">es el número del canal de audio
 (generalmente 0 es para mono y 1 para stereo)</span>
+<span xml:lang="de">ist die Nummer des Tonkanals (üblicherweise ist 0 für
+Mono und 1 für Stereo)</span>
 ,</para></listitem>
 
 <listitem><para><emphasis>vcodec=mp4v</emphasis> 
@@ -188,6 +225,9 @@ MPEG-1, mais aussi</span>
 <span xml:lang="es">es el formato de videso en el que se quiere codificar
 (<emphasis>mp4v</emphasis> es MPEG-4, <emphasis>mpgv</emphasis> es
 MPEG-1, y hay también</span>
+<span xml:lang="de">ist das Videoformat in dem Sie kodieren möchten 
+(<emphasis>mp4v</emphasis> ist MPEG-4, <emphasis>mpgv</emphasis> ist
+MPEG-1 und es gibt außerdem</span>
 <emphasis>h263</emphasis>, <emphasis>DIV1</emphasis>,
 <emphasis>DIV2</emphasis>, <emphasis>DIV3</emphasis>,
 <emphasis>I420</emphasis>, <emphasis>I422</emphasis>,
@@ -204,24 +244,30 @@ in (<emphasis>mpga</emphasis> is MPEG audio layer 2,
 <span xml:lang="es">es el formato de audio en el que se quiere codificar
 (<emphasis>mpga</emphasis> es MPEG audio layer 2,
 <emphasis>a52</emphasis> es A52 esto es sonido AC3 )</span>
+<span xml:lang="de">ist das Tonformat, in dem Sie kodieren möchten
+(<emphasis>mpga</emphasis> ist MPEG audio layer 2,
+<emphasis>a52</emphasis> ist A52 bzw. AC3)</span>
 ,</para></listitem>
 
 <listitem><para><emphasis>vb=3000</emphasis>
 <span xml:lang="en"> is the video bitrate in Kbit/s</span>
-<span xml:lang="fr">est le taux de compression vidéo en Kbps</span>
+<span xml:lang="fr"> est le taux de compression vidéo en Kbps</span>
 <span xml:lang="en"> es el bitrate de vídeo en Kbit/s</span>
+<span xml:lang="de"> ist die Bild-Bitrate in kbit/s</span>
 ,</para></listitem>
 
 <listitem><para><emphasis>ab=256</emphasis>
 <span xml:lang="en"> is the audio bitrate in Kbit/s</span>
-<span xml:lang="fr">est le taux de compression audio en Kbps</span>
+<span xml:lang="fr"> est le taux de compression audio en Kbps</span>
 <span xml:lang="es"> es el bitrate de audio en Kbit/s</span>
+<span xml:lang="de"> ist die Ton-Bitrate in kbit/s</span>
 </para></listitem>
 
 <listitem><para><emphasis>vt=800000</emphasis>
 <span xml:lang="en"> is the video bitrate tolerance in bit/s</span>
-<span xml:lang="fr">est la tolérance sur le bitrate vidéo en bps</span>
+<span xml:lang="fr"> est la tolérance sur le bitrate vidéo en bps</span>
 <span xml:lang="es"> es la tolerancia del bitrate de vídeo en bit/s</span>
+<span xml:lang="de"> ist die Bild-Bitratentoleranz in bit/s</span>
 ,</para></listitem>
 
 <listitem><para><emphasis>keyint=80</emphasis>
@@ -231,18 +277,24 @@ number of images</span>
 "I"</span>
 <span xml:lang="es"> es el intervalo máximo entre dos imagenes "I" en
 número de imagenes</span>
+<span xml:lang="de"> ist das maximale Bilderintervall zwischen zwei
+"I"-Bildern</span>
+
 ,</para></listitem>
 
 <listitem><para><emphasis>deinterlace</emphasis>
 <span xml:lang="en">tells VLC to deinterlace the video on the fly</span>
 <span xml:lang="fr">pour désentrelacer le flux à la volée</span>
 <span xml:lang="es">indica al VLC desentrelazar el vídeo en el aire</span>
+<span xml:lang="de">teilt VLC mit, den Deinterlace-Filter on the fly zu
+benutzen</span>
 ,</para></listitem>
 
 <listitem><para><emphasis>192.168.0.42</emphasis>
 <span xml:lang="en"> is either </span>
 <span xml:lang="fr"> est soit </span>
 <span xml:lang="es"> es cualquiera </span>
+<span xml:lang="de"> ist entweder </span>
 
 :</para>
 
@@ -254,6 +306,8 @@ to</span>
 désirez diffuser en unicast</span>
 <span xml:lang="es">la dirección IP de la máquina a la que se quiere hacer unicast
 </span>
+<span xml:lang="de">die Adresse des Rechners, den Sie via Unicast erreichen 
+möchten</span>
 ;</para></listitem>
 
 <listitem><para>
@@ -262,6 +316,8 @@ to</span>
 <span xml:lang="fr">le nom DNS de la machine vers laquelle vous désirez
 envoyer en unicast</span>
 <span xml:lang="es">o el DNS de la máquina a la que se quiere hacer unicast
+<span xml:lang="de">oder der DNS-Name des Rechners, den Sie via Unicast erreichen
+möchten</span>
 </span>
 
 ;</para></listitem>
@@ -270,6 +326,7 @@ envoyer en unicast</span>
 <span xml:lang="en">or a multicast IP address</span>
 <span xml:lang="fr">une adresse IP multicast</span>
 <span xml:lang="es">o una dirección IP multicast</span>
+<span xml:lang="de">oder eine Multicast-IP-Adresse</span>
 .</para></listitem>
 
 </itemizedlist>
@@ -285,6 +342,8 @@ IP (cela signifie qu'ils pourront traverser 11 routeurs)</span>
 <span xml:lang="es"> es el valor del TTL (Time To
 Live) de los paquetes IP (lo que significa que el stream será capaz
 de cruzar por 11 routers)</span>
+<span xml:lang="de"> ist der Wert der TTL (Time To Live) Ihrer IP-Pakete (was 
+bedeutet, dass der Stream in derLage sein wird, 11 Router zu überqueren)</span>
 .</para></listitem>
 
 </itemizedlist>
@@ -295,6 +354,7 @@ de cruzar por 11 routers)</span>
 <span xml:lang="en">Stream with VLS</span>
 <span xml:lang="fr">Diffusez avec VLS</span>
 <span xml:lang="es">Transmisión con VLS</span>
+<span xml:lang="de">Streaming mit VLS</span>
 </title>
 
 <note><para>
@@ -312,8 +372,12 @@ absolu vers le répertoire où vous avez compilé ffmpeg, et non pas le
 chemin relatif !)</span>
 <span xml:lang="es">Se necesita la versión CVS del VLS. Cuando se compila,
 se debe hacer un <command>./bootstrap</command> y un <command>./configure --enable-v4l
---with-ffmpeg=PATH</command> (donde <emphasis>PATH</emphasis> es la ruta absoluta al directorio 
-donde se compile ffmpeg, y no la ruta relativa !)</span>
+--with-ffmpeg=PATH</command> (donde <emphasis>PATH</emphasis> es la ruta absoluta al directorio donde se compile ffmpeg, y no la ruta relativa !)</span>
+<span xml:lang="de">Sie benötigen die CVS-Version von VLS. Wenn Sie sie 
+kompilieren, müssen Sie <command>./bootstrap</command> und <command>
+./configure --enable-v4l --with-ffmpeg=PATH</command> ausführen, wobei 
+<emphasis>PATH</emphasis> der absolute Pfad zu dem Verzeichnis ist, in dem Sie
+ffmpeg kompiliert haben und nicht der relative Pfad!</span>
 
 .</para></note>
 
@@ -325,6 +389,8 @@ type d'entrée pour l'instant, vous devez utiliser le fichier de
 configuration</span>
 <span xml:lang="es">No hay interfaz de línea de comandos para esa entrada
 por el momento, así que se tiene que usar el fichero de configuración</span>
+<span xml:lang="de">Es gibt derzeit keine Befehlszeilenoberfläche für diesen Input,
+sodass Sie die Konfigurationsdatei benutzen müssen</span>
 .</para>
 
 <para>
@@ -334,6 +400,8 @@ por el momento, así que se tiene que usar el fichero de configuración</span>
 pour faire marcher VLS avec un périphérique v4l</span>
 <span xml:lang="es">Aquí esta el fichero de configuración típico
 <filename>vls.cfg</filename>para ejecutar VLS con un dispositivo v4l</span>
+<span xml:lang="de">Hier ist eine typische Konfigurationsdatei <filename>vls.cfg
+</filename> zur Benutzung von VLS mit einem v4l-Gerät</span>
 :</para>
 
 <programlisting>
@@ -433,6 +501,8 @@ run VLS</span>
 configuration, lancez VLS</span>
 <span xml:lang="es">Una vez adaptado el archivo de configuración superior, 
 ejecutar VLS</span>
+<span xml:lang="de">Nachdem Sie die obige Konfigurationdatei adaptiert haben,
+führen Sie VLS aus</span>
 :</para>
 
 

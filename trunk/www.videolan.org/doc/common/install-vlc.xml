@@ -156,36 +156,26 @@ There are VLC packages for Mandrake 9.1 and cooker.
 </span><span xml:lang="fr">
 Il existe des paquetages pour Mandrake 9.1 et "cooker"</span></para>
 
-<span xml:lang="en">
 <para>
-To install them, configure the package sources with <ulink
-url="http://plf.zarb.org/~nanardon/">Easy urpmi</ulink> (you need at
-least to add main, contrib and plf sources).</para>
 
-<para>If you are running cooker, you don't need to configure anything
-else, as VLC packages are part of the contrib section.</para>
+<span xml:lang="en">To install them, add the following
+sources for either Mandrake 9.1 or Cooker (you can use <ulink
+url="http://plf.zarb.org/~nanardon/">Easy urpmi</ulink> for that):
+<emphasis>contrib</emphasis> from the core distribution and
+<emphasis>plf</emphasis> (Penguin Liberation Front) from the external
+add-ons.</span>
 
-<para>If you are running Mandrake 9.1, add the VideoLAN package
-source:</para>
-</span>
-<span xml:lang="fr">
-<para>
-Pour les installer, configurez les sources de paquetage, à l'aide d'
-<ulink url="http://plf.zarb.org/~nanardon/">Easy urpmi</ulink>. (vous
-avez au moins besoin des sources main, contrib et plf)</para>
-<para>Si vous utilisez "cooker", vous n'avez rien besoin de configurer,
-car les paquetages de VLC font partie de la section contrib</para>
-<para>Si vous utilisez Mandrake 9.1, ajoutez la source de paquetages
-VideoLAN:</para>
-</span>
+<span xml:lang="fr">Pour les installer, ajoutez les sources
+suivantes pour Mandrake 9.1 ou Cooker (vous pouvez utiliser <ulink
+url="http://plf.zarb.org/~nanardon/">Easy urpmi</ulink> pour cela)
+: <emphasis>contrib</emphasis> et <emphasis>plf</emphasis> (Penguin
+Liberation Front).</span>
 
-<screen>
-<prompt># </prompt><userinput>urpmi.addmedia vlc http://www.videolan.org/pub/videolan/vlc/0.6.2/rpm/mandrake-9.1/ with hdlist.cz</userinput>
-</screen>
+</para>
 
 <para><span xml:lang="en">
-Eventually, install the packages with</span>
-<span xml:lang="fr">Puis, installez les paquetages avec</span>
+Then install the required packages with</span>
+<span xml:lang="fr">Ensuite, installez les paquetages requis avec</span>
 <command>urpmi</command>:</para>
 
 <screen>

@@ -138,13 +138,13 @@ td.red    { color: black; background-image: none; background-color: #eaa; }
 td.yes {
   color: black;
   background-image: none;
-  background-color: #aea;
+  background-color: #cfc;
   vertical-align: middle;
 }
 td.no {
   color: black;
   background-image: none;
-  background-color: #eaa;
+  background-color: #fcc;
   vertical-align: middle;
 }
 td.type {
@@ -156,7 +156,7 @@ td.type {
 td.category {
   color: black;
   background-image: none;
-  background-color: #aaf;
+  background-color: #ccf;
   vertical-align: middle;
 }
 th.os {

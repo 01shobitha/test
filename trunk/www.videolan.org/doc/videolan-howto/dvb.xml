@@ -2,30 +2,34 @@
 
 
 <chapter id="dvb"><title id="tdvb">
-<span xml:lang="en">Stream a DVB channel (satellite, cable or digital
+<span xml:lang="en">Stream a DVB channel (satellite or digital
 terrestial TV)</span>
-<span xml:lang="fr">Diffusez un flux DVB (satellite, câble ou télévision
+<span xml:lang="fr">Diffusez un flux DVB (satellite ou télévision
 numérique terrestre)</span>
+<span xml:lang="es">Difusión de un canal DVB (satélite o televisión digital
+terrestre)</span>
 </title>
 
 <note><para>
 <span xml:lang="en">This is possible under GNU/Linux only</span>
 <span xml:lang="fr">Ceci n'est possible que sous GNU/Linux</span>
+<span xml:lang="es">Esto es posible solo bajo GNU/Linux</span>
+
 .</para></note>
 
 <sect1><title>
 <span xml:lang="en">Install the DVB drivers</span>
 <span xml:lang="fr">Installez les drivers DVB</span>
+<span xml:lang="es">Instalar los drivers DVB</span>
 </title>
 
 <para>
 <span xml:lang="en">If you want to be able to stream from a DVB card (a
-satellite card, a cable TV card or a digital terrestial TV card), you
-need to install the DVB drivers:</span>
-<span xml:lang="fr">Pour pouvoir streamer depuis une carte DVB (une
-carte satellite, une carte pour la télévision par câble ou une carte
-pour la télévision numérique terrestre), il est nécessire d'installer
-préalablement les drivers DVB :</span>
+satellite card or a digital terrestial TV card), you need to install the
+DVB drivers:</span>
+<span xml:lang="fr">Pour pouvoir streamer depuis une carte DVB (une carte satélite ou de télévision numérique terrestre), il est nécessire d'installer préalablement les drivers DVB :</span>
+<span xml:lang="es">Si se quiere ser capaz de transmitir desde una tarjete DVB (tarjeta de satélite o de TV digital terrestre), se necesita instalar los drivers DVB:</span>
+
 </para>
 
 <itemizedlist>
@@ -37,6 +41,8 @@ compile the right modules ;</span>
 
 <span xml:lang="fr">si vous utilisez un noyau Linux 2.6.x, il vous suffit de
 compiler les bons modules ;</span>
+
+<span xml:lang="es">si se utilizar un kernel Linux 2.6.x, solo se necesita compilar los modulos adecuados;</span>
 
 </para></listitem>
 
@@ -54,6 +60,12 @@ vous devez télécharger la dernière version des drivers DVB depuis la
 téléchargement des drivers DVB</ulink> du projet <ulink
 url="http://www.linuxtv.org/">LinuxTV</ulink>.</span>
 
+<span xml:lang="es">si se está usando un kernel Linux 2.4.x, 
+se debe descargar la última versión de los drivers DVB desde <ulink
+url="http://www.linuxtv.org/download/dvb/">página de descarga de drivers DVB
+</ulink> del proyecto <ulink url="http://www.linuxtv.org/">LinuxTV</ulink>
+Project.</span>
+
 </para></listitem>
 
 </itemizedlist>
@@ -67,6 +79,10 @@ the drivers</span>
 <span xml:lang="fr">Décompressez le fichier et suivez les instructions
 du fichier <filename>INSTALL</filename> pour compiler et installer les
 drivers</span>
+<span xml:lang="es">Descomprimir el tarball y seguir las instrucciones
+escritas en el fichero <filename>INSTALL</filename> para compilar e instalar
+los drivers</span>
+
 .</para>
 
 </sect1>
@@ -74,6 +90,7 @@ drivers</span>
 <sect1><title>
 <span xml:lang="en">Stream with VLS</span>
 <span xml:lang="fr">Diffusez avec VLS</span>
+<span xml:lang="es">Transmisión con VLS</span>
 </title>
 
 <para>
@@ -85,11 +102,18 @@ want to stream in your home directory (some are provided in the
 contenant les chaînes DVB que vous désirez diffuser dans
 votre répertoire utilisateur (certains sont fournis dans
 <emphasis>libdvb</emphasis> pour les chaînes satellites)</span>
+<span xml:lang="es">Crear un fichero <filename>.dvbrc</filename> que contenga 
+los canales DVB (canales de satellite o de televisión digital terrestre) que se 
+quieren transmitir en el directorio raiz (algunos de ellos se proporcionan en el
+tarball <emphasis>libdvb</emphasis> para canales de satélite)</span>
+
 .</para>
 
 <para>
 <span xml:lang="en">Run VLS with the following command line</span>
 <span xml:lang="fr">Lancez VLS avec cette ligne de commande</span>
+<span xml:lang="es">Ejecutar VLS con la siguiente linea de comando</span>
+
  :</para>
 
 <screen>
@@ -97,7 +121,9 @@ votre répertoire utilisateur (certains sont fournis dans
 </screen>
 
 <para><span xml:lang="en">where</span>
-<span xml:lang="fr">où</span> :</para>
+<span xml:lang="fr">où</span> 
+<span xml:lang="es">donde</span>
+:</para>
 
 <itemizedlist>
 
@@ -106,11 +132,14 @@ votre répertoire utilisateur (certains sont fournis dans
 your <filename>~/.dvbrc</filename> file</span>
 <span xml:lang="fr">est la chaîne que vous désirez diffuser, comme
 décrit dans votre fichier <filename>~/.dvbrc</filename></span>
+<span xml:lang="es"> es el canal en el que se quiere transmitir como se ha escrito en el fichero
+<filename>~/.dvbrc</filename></span>
 ,</para></listitem>
 
 <listitem><para><emphasis>192.168.0.42</emphasis>
 <span xml:lang="en"> is either </span>
 <span xml:lang="fr"> est soit </span>
+<span xml:lang="es"> es cualquiera </span>
 :</para>
 
 <itemizedlist>
@@ -119,6 +148,8 @@ décrit dans votre fichier <filename>~/.dvbrc</filename></span>
 to</span>
 <span xml:lang="fr">l'adresse IP de la machine vers laquelle vous
 désirez diffuser en unicast</span>
+<span xml:lang="es">la dirección IP de la máquina en la que se quiere hacer unicast
+</span>
 ;</para></listitem>
 
 <listitem><para>
@@ -126,11 +157,15 @@ désirez diffuser en unicast</span>
 to</span>
 <span xml:lang="fr">le nom DNS de la machine vers laquelle vous désirez
 envoyer en unicast</span>
+<span xml:lang="es">o el DNS de la máquina donde se quiere hacer unicast
+</span>
 ;</para></listitem>
 
 <listitem><para>
 <span xml:lang="en">or a multicast IP address</span>
 <span xml:lang="fr">une adresse IP multicast</span>
+<span xml:lang="es">o una dirección IP multicast</span>
+
 .</para></listitem>
 
 
@@ -144,6 +179,10 @@ Live) of your IP packets (which means that the stream will be
 able to cross 11 routers)</span>
 <span xml:lang="fr"> est la valeur du TTL (Time To Live) de vos paquets
 IP (cela signifie qu'ils pourront traverser 11 routeurs)</span>
+<span xml:lang="es"> es el valor del TTL (Time To
+Live) de los paquetes IP (lo que significa que el stream será capaz
+de cruzar por 11 routers)</span>
+
 .</para></listitem>
 
 </itemizedlist>

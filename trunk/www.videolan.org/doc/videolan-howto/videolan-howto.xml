@@ -57,10 +57,8 @@
 <legalnotice>
 
 <para>Permission is granted to copy, distribute and/or modify this
-document under the terms of the GNU General Public License as published
-by the Free Software Foundation; either version 2 of the License, or 
-(at your option) any later version.
-The text of the license can be found in the appendix.
+document under the terms of the GNU General Public License, Version 2 or any later veresion published by the Free Software Foundation.
+The text of the license can be found in the appendix
 <xref linkend="gpl" endterm="tgpl"/>.</para>
 
 </legalnotice>
@@ -91,6 +89,8 @@ The text of the license can be found in the appendix.
 VideoLAN streaming solution.</span>
 <span xml:lang="fr"> Ce document décrit l'utilisaton de la solution de
 streaming VideoLAN. </span>
+<span xml:lang="es"> Este documento describe la utilización de la solución
+de streaming VideoLan. </span>
 </para>
 
 </abstract>

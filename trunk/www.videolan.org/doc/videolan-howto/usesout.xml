@@ -5,11 +5,14 @@
 (transcoding, multiple streaming, etc...)</span>
 <span xml:lang="fr">Utilisation avancée du stream output de VLC
 (transcodage, diffusion multiple, ...)</span>
+<span xml:lang="es">Utilización avanzada de la salida de transmisión de VLC
+(transcodificación, múltiples transmisiones, etc...)</span>
 </title>
 
 <sect1><title>
 <span xml:lang="en">The syntax</span>
 <span xml:lang="fr">La syntaxe</span>
+<span xml:lang="es">La sintaxis</span>
 </title>
 
 <para>
@@ -22,6 +25,9 @@ de commande</emphasis> du guide de l'utilisateur de VLC,
 pour apprendre la syntaxe du stream output du VLC. Vous
 pouvez trouver le guide de l'utilisateur de VLC sur la <ulink
 url="http://www.videolan.org/doc/">page documentation</ulink></span>
+<span xml:lang="es">Por favor consulte el capítulo <emphasis>interfaz de línea de comandos</emphasis> de la guía de usuario de VLC para aprender
+la sintaxis de la salida de transmisión de VLC. Puedes encontrar la guía de usuario de VLC en la página de documentación<ulink
+url="http://www.videolan.org/doc/"></ulink></span>
 .</para>
 
 </sect1>
@@ -29,11 +35,13 @@ url="http://www.videolan.org/doc/">page documentation</ulink></span>
 <sect1><title>
 <span xml:lang="en">Examples</span>
 <span xml:lang="fr">Exemples</span>
+<span xml:lang="es">Ejemplos</span>
 </title>
 
 <sect2><title>
 <span xml:lang="en">Transcoding</span>
 <span xml:lang="fr">Transcodage</span>
+<span xml:lang="es">Transcodificación</span>
 </title>
 
 <para>
@@ -41,6 +49,8 @@ url="http://www.videolan.org/doc/">page documentation</ulink></span>
 multicast IP address with the associated SAP announce</span>
 <span xml:lang="fr">Transcodez le flux d'entrée et envoyez le vers une
 adresse IP multicast, avec l'annonce SAP associée</span>
+<span xml:lang="es">Transcodifica el flujo de entrada y lo envía a una
+dirección IP multicast con el correspondiente anuncio asociado SAP</span>
 :</para>
 
 <screen>
@@ -53,6 +63,8 @@ standard{access=udp,mux=ts,url=239.255.12.42,sap=TestStream}'</userinput>
 to a multicast IP address with the associated SAP announce</span>
 <span xml:lang="fr">Affichez le flux d'entrée, transcodez le, et envoyez
 le sur une adresse IP multicast, avec l'annonce SAP associée</span>
+<span xml:lang="es"> Muestra el flujo de entrada, lo transcodifica y lo envía
+a la dirección multicast con el correspondiente anuncio asociado SAP</span>
 :</para>
 
 <screen>
@@ -68,6 +80,8 @@ announce</span>
 <span xml:lang="fr">Transcodez le flux d'entrée, affichez le flux
 transcodé, et envoyez le sur une adresse IP multicast, avec l'annonce
 SAP associée</span>
+<span xml:lang="es">Transcodifica el flujo de entrada, muestra el flujo transcodificado
+y lo envía a la dirección IP multicast con el correspondiente anuncio asociado SAP</span>
 :</para>
 
 <screen>
@@ -80,6 +94,7 @@ duplicate{dst=display,dst=standard{access=udp,mux=ts,url=239.255.12.42,sap=TestS
 <sect2><title>
 <span xml:lang="en">Multiple streaming</span>
 <span xml:lang="fr">Diffusion multiple</span>
+<span xml:lang="es">Transmisión múltiple</span>
 </title>
 
 <para>
@@ -87,6 +102,8 @@ duplicate{dst=display,dst=standard{access=udp,mux=ts,url=239.255.12.42,sap=TestS
 unicast IP address</span>
 <span xml:lang="fr">Envoyez un flux sur une adresse IP multicast et une
 adresse IP unicast</span>
+<span xml:lang="es">Enviar un flujo a una dirección IP multicast y a una
+dirección IP unicast</span>
 :</para>
 
 <screen>
@@ -99,6 +116,8 @@ dst=standard{access=udp,mux=ts,url=192.168.1.2}}'</userinput>
 <span xml:lang="en">Display the stream and send it to two unicast IP
 addresses</span>
 <span xml:lang="fr">Affichez le flux, et envoyez le sur deux adresses IP
+unicast</span>
+<span xml:lang="es">Muestra el flujo y lo envíaa dos direcciones IP 
 unicast</span>
 :</para>
 
@@ -114,6 +133,7 @@ dst=standard{access=udp,mux=ts,url=192.168.1.42}}'</userinput>
 
 <span xml:lang="en">Transcoding and multiple streaming</span>
 <span xml:lang="fr">Transcodage et diffusion multiple</span>
+<span xml:lang="es">Transcodificación y transmisión múltiple</span>
 </title>
 
 <para>
@@ -123,6 +143,9 @@ announce and an unicast IP address</span>
 <span xml:lang="fr">Transcodez le flux d'entrée, affichez le flux
 transcodé, envoyez le sur une adresse IP multicast avec l'annonce SAP
 aossiciée, et sur une adresse IP unicast</span>
+<span xml:lang="es">Transcodifica el flujo de entrada, muestra el flujo
+transcodificado y lo envía a una dirección IP multicast con el correspondiente anuncio SAP asociado y a una
+dirección IP unicast</span>
 :</para>
 
 <screen>
@@ -136,6 +159,8 @@ dst=standard{access=udp,mux=ts,url=192.168.1.2}}'</userinput>
 to two unicast IP addresses</span>
 <span xml:lang="fr">Affichez le flux d'entrée, transcodez-le, et
 envoyez-le sur deux adresses IP unicast</span>
+<span xml:lang="es">Muestra el flujo de entrada, lo transcodifica y lo envía
+a dos direcciones IP unicast</span>
 :</para>
 
 <screen>
@@ -152,6 +177,9 @@ associated SAP announces</span>
 <span xml:lang="fr">Envoyez le flux d'entrée sur une adresse IP
 multicast et le flux transcodé sur une autre adresse IP multicast, avec
 les annonces SAP associées</span>
+<span xml:lang="es">Envía el flujo de entrada a una dirección IP multicast
+y el flujo transcodificado a otra dirección IP multicast con los
+correspondientes anuncios SAP asociados</span>
 :</para>
 
 <screen>
@@ -166,11 +194,13 @@ standard{access=udp,mux=ts,url=239.255.1.3,sap=TranscodedStream}"}'</userinput>
 <sect2><title>
 <span xml:lang="en">HTTP streaming</span>
 <span xml:lang="fr">Diffusion HTTP</span>
+<span xml:lang="es">Transmisión HTTP</span>
 </title>
 
 <para>
 <span xml:lang="en">Stream in HTTP</span>
 <span xml:lang="fr">Diffusez en HTTP</span>
+<span xml:lang="es">Transmitir en HTTP</span>
 :</para>
 
 <itemizedlist>
@@ -178,6 +208,7 @@ standard{access=udp,mux=ts,url=239.255.1.3,sap=TranscodedStream}"}'</userinput>
 <listitem><para>
 <span xml:lang="en">on the server, run</span>
 <span xml:lang="fr">sur le serveur, lancez</span>
+<span xml:lang="es">en el servidor, ejecuta</span>
 :</para>
 
 <screen>
@@ -189,6 +220,7 @@ standard{access=udp,mux=ts,url=239.255.1.3,sap=TranscodedStream}"}'</userinput>
 <listitem><para>
 <span xml:lang="en">on the client(s), run</span>
 <span xml:lang="fr">sur le(s) client(s), lancez</span>
+<span xml:lang="es">oen el/los cliente(s), ejecuta</span>
 :</para>
 
 <screen>
@@ -202,6 +234,7 @@ standard{access=udp,mux=ts,url=239.255.1.3,sap=TranscodedStream}"}'</userinput>
 <para>
 <span xml:lang="en">Transcode and stream in HTTP</span>
 <span xml:lang="fr">Transcodez et envoyez en HTTP</span>
+<span xml:lang="es">Transcodificación y transmisión en HTTP</span>
 :</para>
 
 <screen>
@@ -214,6 +247,8 @@ standard{access=http,mux=ogg,url=server.example.org:8080}'</userinput>
 Ogg/Vorbis over HTTP</span>
 <span xml:lang="fr">Par exemple, si vous désirez diffuser un CD audio en
 Ogg/Vorbis sur HTTP</span>
+<span xml:lang="es">Por ejemplo, si tu quieres transmitir un CD de audio en
+Ogg/Vorbis sobre HTTP</span>
 :</para>
 
 <screen>
@@ -226,11 +261,13 @@ standard{access=http,mux=ogg,url=server.example.org:8080}'</userinput>
 <sect2><title>
 <span xml:lang="en">Use the <emphasis>es</emphasis> module</span>
 <span xml:lang="fr">Utilisation du module <emphasis>es</emphasis></span>
+<span xml:lang="es">Utilización del módulo <emphasis>es</emphasis></span>
 </title>
 
 <para>
 <span xml:lang="en">Separate audio and video in two PS files</span>
 <span xml:lang="fr">Séparez l'audio et la vidéo en deux fichiers PS</span>
+<span xml:lang="es">Separa el audio y el vídeoen dos fichero PS</span>
 :</para>
 
 <screen>
@@ -243,6 +280,7 @@ standard{access=http,mux=ogg,url=server.example.org:8080}'</userinput>
 file</span>
 <span xml:lang="fr">Extrayez la piste audio d'un flux, vers un fichier
 TS</span>
+<span xml:lang="es">Extrae la pista de sonido del flujo de entrada a un fichero TS</span>
 :</para>
 
 <screen>
@@ -254,6 +292,8 @@ TS</span>
 video track on another port</span>
 <span xml:lang="fr">Diffusez, en unicast, la piste audio sur un port et
 la piste vidéo sur un autre</span>
+<span xml:lang="es"> Transmite en unicast la pista de sonido en un puerto y el
+vídeo en otro puerto</span>
 :</para>
 
 <itemizedlist>
@@ -261,6 +301,7 @@ la piste vidéo sur un autre</span>
 <listitem><para>
 <span xml:lang="en">on the server side</span>
 <span xml:lang="fr">Côté serveur</span>:</para>
+<span xml:lang="es">en la parte servidor</span>
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv input_stream --sout
@@ -272,6 +313,7 @@ la piste vidéo sur un autre</span>
 <listitem><para>
 <span xml:lang="en">on the client side: to receive the audio</span>
 <span xml:lang="fr">côté client: pour recevoir l'audio</span>
+<span xml:lang="es">: en la parte cliente: para recibir el audio</span>
 :</para>
 
 <screen>
@@ -282,6 +324,7 @@ la piste vidéo sur un autre</span>
 <para>
 <span xml:lang="en">to receive the video</span>
 <span xml:lang="fr">pour recevoir la vidéo</span>
+<span xml:lang="es">para recibir el vídeo</span>
 :</para>
 
 <screen>
@@ -297,6 +340,8 @@ la piste vidéo sur un autre</span>
 a file</span>
 <span xml:lang="fr">Diffusez la vidéo en multicast et envoyez l'audio
 dans un fichier</span>
+<span xml:lang="es">Transmite el vídeo en multicast y envía el audio a
+un fichero</span>
 :</para>
 
 <screen>
@@ -311,6 +356,8 @@ solution</span>
 <span xml:lang="fr">Vous pouvez également combiner le module
 <emphasis>es</emphasis> avec les autres modules pour élaborer des
 solutions encore plus complexes</span>
+<span xml:lang="es">Puedes también combinar el módulo <emphasis>es</emphasis> 
+con otros módulos para configurar soluciones incluso más complicadas</span>
 .</para></note>
 
 </sect2>

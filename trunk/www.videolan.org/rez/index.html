@@ -116,18 +116,13 @@ Quickstart</a>, section 2.1. </p>
 
 <h2>Comment se servir du client VideoLAN ?</h2>
 
+<p>La procédure est la même quel que soir le système d'exploitation.</p>
 
 <p>Lance VLC :</p>
 
 <ul>
 
-<li><p>sous Windows, va dans le menu démarrer, "Exécuter...", et tape :</p>
-
-<pre>
-"c:\program files\videolan\vlc\vlc.exe" --extraintf sap
-</pre>
-
-</li>
+<li><p>sous Windows et MacOS, clique sur l'icone du VLC :</p></li>
 
 <li><p>sous Linux et Mac OS X, lance la ligne de commande suivante :</p>
 
@@ -139,6 +134,10 @@ Quickstart</a>, section 2.1. </p>
 
 </ul>
 
+Pour que la liste des canaux disponibles s'affiche dans la playlist, va dans le menu "Paramètres, Préférences...". Sélectionne "Interface', coche la case "Option avancées", puis écris "sap" dans la zone "Module d'interface supplémentaire". <b>Attention, ne sélectionne pas "Interface SAP" dans "Module d'interface". le VLC ne démarrerait plus correctement.</b>
+
+<img src="/images/preferences.png" alt="Préférences"/>
+
 <p>Pour ouvrir une chaîne, clique sur le bouton "Playlist" de
 l'interface. L'ensemble des canaux disponibles s'affiche. Double clique
 sur l'un d'entre eux pour le sélectionner.</p>
@@ -149,12 +148,6 @@ fenêtre video, appuie de nouveau sur "f".</p>
 <p>Pour changer de langue ou de sous-titre, fais un clic droit sur
 l'image et sélectionne la langue ou le sous-titre dans les sous menus
 "audio" et "vidéo".</p>
-
-<p>Pour ne pas être obligé de lancer le VLC depuis la ligne de commande à chaque fois, lance le une fois comme indiqué précédemment, puis va dans le menu "Paramètres", "Préférences...", puis clique sur "Enregistrer".</p>
-
-<img src="/images/preferences.png" alt="Préférences" width="773" height="529" />
-
-<p>Tu peux ensuite lancer le VLC normalement, en cliquant sur son icone.</p>
 
 <h2>Que faire si ca ne marche pas ?</h2>
 
@@ -231,4 +224,4 @@ Les messages en rouge, plus particulièrement, signalent habituellement
 des erreurs.</li>
 
 </ul>
-<? footer('$Id: index.html,v 1.9 2003/08/22 14:30:50 lool Exp $'); ?>
+<? footer('$Id: index.html,v 1.10 2003/09/07 00:00:44 bigben Exp $'); ?>

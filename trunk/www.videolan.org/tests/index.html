@@ -62,7 +62,7 @@ le Client VideoLAN (vlc). Le vlc est capable de lire :</p>
 <li>des DVDs, sans aucune considération de zone géographique,</li>
 <li>des vidéos depuis le réseau, ce que nous utiliserons ici.</li>
 </ul>
-<p>Attention, la version 0.5.0 ou supérieure du vlc est nécessaire pour profiter du serveur de châines
+<p>Attention, la version 0.5.0 ou supérieure du vlc est nécessaire pour profiter du serveur de chaînes SAP utilisé qur la résidence.
 </p>
 
 <? h2("Installer et lancer le Client VideoLAN"); ?>
@@ -74,7 +74,7 @@ Si tu as une version trop vieille, installe la dernière version de
 directX disponible sur <a href="ftp://ftp.via.ecp.fr/pub/bipbip/logiciels/Multimédia/DirectX/"> bipbip</a>.</p>
 
 <p>Télécharge <a
-href="ftp://ftp/pub/videolan/vlc/0.5.2/win32/vlc-0.5.2-win32.exe">
+href="ftp://ftp/pub/videolan/vlc/0.5.3/win32/vlc-0.5.3-win32.exe">
 l'installeur Windows</a> et double-clique dessus pour lancer la
 procédure d'installation.</p>
 
@@ -91,8 +91,7 @@ Windows, comme Windows 2000 ou XP Pro.</p>
 <? h3("sous Mac OS X"); ?>
 
 <p>Télécharge le <a
-href="http://www.videolan.org/pub/videolan/vlc/0.5.2/macosx/vlc-0.5.2.dm
-g">package MAC OS X</a> et double-clique sur l'icone du package pour
+href="http://www.videolan.org/pub/videolan/vlc/0.5.3/macosx/vlc-0.5.3.dmg">package MAC OS X</a> et double-clique sur l'icone du package pour
 lancer la procédure d'installation.</p>
 
 <p>Pour le lancer, il suffit de double-cliquer sur le cône !</p>
@@ -141,8 +140,9 @@ Une fois que le vlc est lançé...</p>
 Windows"/></p>
 
 <p>Aller dans le sous-menu "Préférences" (menu "Vue" sous Windows,
-Paramètres sous Linux ou  MacOS X). Cocher la case "Shows
-advanced options", cliquer sur "Enregistrer", puis "Valider"</p>
+Paramètres sous Linux ou MacOS X). Cocher la case "Show advanced
+options" ou "Options avancées" suivant la langue, cliquer sur
+"Enregistrer", puis "Valider"</p>
 
 <p><img style="align:center" src="/images/advances.jpg" alt="Boîte de
 dialogue Préférences" /></p>
@@ -196,13 +196,14 @@ des coupures de courant dans le local VideoLAN</p>
 </font>.</p></li>
 
 
-<li> Si rien ne s'affiche, c'est peut-être que le diffusion a été
-temporairement intérompue sur ce canal. Essaye en un autre !</li>
+<li><p>Si rien ne s'affiche, c'est peut-être que le diffusion a été
+temporairement interrompue sur ce canal. Essayes-en un autre !</p></li>
 
-<li>Vérifie que tu n'as pas un firewall logiciel installé sur tamachine
-qui bloquerait le flux ou les requettes d'abonnemet à ce dernier.</li>
+<li><p>Vérifie que tu n'as pas un firewall logiciel installé sur ta machine
+qui bloquerait le flux ou les requêtes d'abonnement à ce dernier (IGMP).
+</p></li>
 
-<li><p>Vas dans le menu "View" puis "Messages..." :</p>
+<li><p>Va dans le menu "View" puis "Messages..." :</p>
 
 <p><img style="align:center" src="/images/messages.jpg" alt="Messages du
 vlc" /></p>
@@ -225,7 +226,7 @@ paragraphe suivant...</p></li>
 
 <li><p>Tu es sous Linux et ça ne marche pas ? Vérifie que tu as bien
 compilé le support du Multicast dans ton noyau. Cette option se trouve
-dans le menu "Networking Options" et s'appelle "IP: multicasting".
+dans le menu "Networking Options" et s'appelle "IP: Multicasting".
 Pour plus d'informations sur la compilation d'un noyau, lis la <a
 href="http://www.via.ecp.fr/~alexis/formation-linux/l2-9.html">Formation
 Linux</a>.</p></li>
@@ -236,14 +237,14 @@ Linux</a>.</p></li>
 
 <p>Tu peux utiliser le forum <code>ecp.via</code> pour tous les
 problèmes concernant l'utilisation de VideoLAN. N'oublie pas de préciser
-le système d'exploitation que tu utilises et ta version de DirectX si tu
-es sous Windows.</p>
+la version du vlc (Help, puis About), le système d'exploitation que tu
+utilises et ta version de DirectX si tu es sous Windows.</p>
 
 <p> Un channel <code>#videolan</code> est disponible sur le serveur IRC
 <code>irc.freenode.net</code>.</p>
 
 <p>Pour rapporter un bug, tu peux utiliser <a
-href="http://bugzilla.videolan.org">cette page.</a></p>
+href="http://bugzilla.videolan.org">Bugzilla</a>.</p>
 
 <p>De façon générale, avant de poser un question ou de reporter un
 problème, vas dans le menu "View", puis "Messages" :</p>
@@ -253,6 +254,6 @@ vlc" /></p>
 
 <p>On y retrouve un grand nombre d'informations nécessaires à la
 compréhension du problème. Les messages en rouge, plus particulièrement,
-sigalent habituellement des erreurs.</p>
+signalent habituellement des erreurs.</p>
 
-<? footer('$Id: index.html,v 1.9 2003/04/16 11:00:49 videolan Exp $'); ?>
+<? footer('$Id: index.html,v 1.10 2003/04/16 11:17:41 julien Exp $'); ?>

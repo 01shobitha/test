@@ -48,7 +48,8 @@ function starthtml($title) { ?>
    }
 
 ?><form action="index.html" method="get">
-  <table width="100%" cellspacing="3" cellpadding="0"><tr>
+  <table width="100%" cellspacing="3" cellpadding="0">
+<tr>
     <td style="background-color: <?echo($color_home);?>; width: 17%; vertical-align: middle;" align="center"><a href="/">Home</a></td>
     <td style="background-color: <?echo($color_vlc);?>; width: 16%; vertical-align: middle;" align="center"><a href="/vlc/">VLC media player</a></td>
     <td style="background-color: <?echo($color_streaming);?>; width: 17%; vertical-align: middle;" align="center"><a href="/streaming/">Streaming</a></td>
@@ -63,7 +64,22 @@ function starthtml($title) { ?>
       </select><input type="submit" value="Select Mirror" />
     </td>
 
-  </tr></table>
+</tr>
+
+<tr>
+
+  <? switch($modules[1]) {
+      case "vlc": second_bar_vlc(); break;
+      case "streaming": second_bar_break;
+      case "doc": second_bar_doc(); break;
+      case "support": second_bar_support(); break;
+      default: second_bar_home(); break;
+   } ?>
+
+
+</tr>
+
+</table>
 </form>
 
 <div style="margin: 10px;"><?
@@ -71,6 +87,29 @@ function starthtml($title) { ?>
    /* This is where the real user page stands */
 
 }
+
+/* Second bar for vlc */
+function second_bar_vlc() { ?>
+
+<td><a href="/vlc/index.html">Overview</a></td>
+<td><a href="/vlc/features.html">Features</a></td>
+<td><a href="/vlc/download.html">Download</a></td>
+<td><a href="/vlc/screenshots.html">Screenshots</a></td>
+
+<? }
+
+/* Second bar for vlc */
+function second_bar_home() { ?>
+
+<td><a href="/news.html">News</a></td>
+<td><a href="/events.html">Events</a></td>
+<td><a href="/partners.html">Partners</a></td>
+<td><a href="/contribute.html">Contribute</a></td>
+<td><a href="/contact.html">Contact</a></td>
+<td><a href="/links.html">Links</a></td>
+
+<? }
+
 
    /*
     *  footer: bottom of the page

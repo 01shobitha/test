@@ -26,7 +26,7 @@ RewriteRule ^vlms/(.*)$ /streaming/index.html [R=permanent,L]
 RewriteRule ^network/(.*)$ /streaming/index.html [R=permanent,L]
 
 # To the developers site
-RewriteRule ^vlc/changelog.html$ http://developers.videolan.org/vlc/ChangeLog [R=permanent,L]
+RewriteRule ^vlc/changelog.html$ http://developers.videolan.org/vlc/ [R=permanent,L]
 
 #
 # MIME Types

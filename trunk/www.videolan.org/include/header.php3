@@ -76,7 +76,6 @@ function starthtml($title) { ?>
     */
 
 function footer($title,$language,$date) { ?>
-</div>
 
 <hr />
 <table cellspacing="0" cellpadding="2" style="width: 100%;" border="0">
@@ -93,7 +92,9 @@ function footer($title,$language,$date) { ?>
     <? if($language=="fr") { ?>valides<? } else { } ?>
     </td>
   </tr>
-</table><?
+</table>
+
+</div><?
 
     /*
      * end of the body

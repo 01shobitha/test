@@ -67,7 +67,7 @@ zu lesen.
 </itemizedlist>
 </sect2>
 
- <sect2><title>mod</title>
+<sect2><title>mod</title>
 &enabled;
 <para>
 Dieses Modul erlaubt Ihnen MOD-Dateien zu lesen (Dateiendungen sind: mod, s3m,

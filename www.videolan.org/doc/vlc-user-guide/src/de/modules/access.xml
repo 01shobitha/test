@@ -73,7 +73,7 @@ libdvdcss Seite</ulink>).
 
 <sect2><title>dshow</title>
 &enabled;
-<emphasis>Nur für Microsoft Windows</emphasis>
+<para><emphasis>Nur für Microsoft Windows</emphasis></para>
 <para>
 Dieses Modul erlaubt VLC Eingangskarten auszulesen, die einen
 DirectShow-Treiber haben. Die meisten Webcams und Zugangskarten haben
@@ -100,7 +100,7 @@ Diese Module erlauben das Lesen von Hauppauge PVR - Karten.
 </para></sect2>
 
 <sect2><title>rstp/rtp/sdp (livedotcom)</title>
- &enabled;
+&enabled;
 <para>
 Dieses Modul erlaubt das Lesen von VOD-Streams über das RTSP-Protokoll.
 Es benutzt die liveMedia-Bibliothek von

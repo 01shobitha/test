@@ -164,7 +164,7 @@ Liste von aktiven Fenstern (getrennt durch Kommata); standardmäßig alle
 </itemizedlist>
 </sect2>
 
- <sect2><title>logo</title>
+<sect2><title>logo</title>
 &always;
 <para>
 Mit diesem Filter können Sie ein png-Logo im Bild des Videos darstellen. Seine

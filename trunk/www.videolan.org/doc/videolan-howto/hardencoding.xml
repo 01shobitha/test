@@ -5,14 +5,14 @@
 
 <span xml:lang="en">Stream from an MPEG encoding card</span>
 <span xml:lang="fr">Diffusez depuis une carte d'encodage MPEG</span>
-<span xml:lang="es">Streaming desde una tarjeta de codificación MPEG2</span>
+<span xml:lang="es">Transmisión desde una tarjeta de codificación MPEG2</span>
 <span xml:lang="de">Streaming der Daten einer MPEG-Kodierungskarte</span>
 </title>
 
 <note><para>
 <span xml:lang="en">This is possible under GNU/Linux only</span>
 <span xml:lang="fr">Ceci n'est possible que sous GNU/Linux</span>
-<span xml:lang="es">Esto solo es posible bajo GNU/Linux</span>
+<span xml:lang="es">Esto sólo es posible bajo GNU/Linux</span>
 <span xml:lang="de">Dies ist nur unter GNU/Linux möglich</span>
 .</para></note>
 
@@ -21,7 +21,7 @@
 <span xml:lang="en">VideoLAN supports two kinds of MPEG-2 encoding cards</span>
 <span xml:lang="fr">VideoLAN supporte deux types de cartes d'encodage MPEG-2</span>
 <span xml:lang="es">VideoLAN soporta dos tipos de tarjetas codificadoras MPEG2</span>
- <span xml:lang="de">VideoLAn unterstützt zwei Arten von MPEG-2-Kodierungskarten</span>
+<span xml:lang="de">VideoLAn unterstützt zwei Arten von MPEG-2-Kodierungskarten</span>
  :</para>
 
 <itemizedlist>
@@ -54,14 +54,14 @@ und is günstiger als die Visiontech Kfir</span>
 <sect1><title>
 <span xml:lang="en">Stream with the Hauppauge WinTV-PVR-250/350 card</span>
 <span xml:lang="fr">Diffusez avec la Hauppauge WinTV-PVR-250/350</span>
-<span xml:lang="es">Streaming con la Hauppauge WinTV-PVR-250/350</span>
+<span xml:lang="es">Transmisión con la Hauppauge WinTV-PVR-250/350</span>
 <span xml:lang="de">Streaming mit der Hauppauge WinTV-PVR-250/350 - Karte</span>
 </title>
 
 <sect2><title>
 <span xml:lang="en">Install the drivers</span>
 <span xml:lang="fr">Installez les drivers</span>
-<span xml:lang="es">Instale los drivers</span>
+<span xml:lang="es">Instalación de los drivers</span>
 <span xml:lang="de">Installation der Treiber</span>
 </title>
 
@@ -72,8 +72,8 @@ the v4l2 API (Video 4 Linux version 2). The patch is available on the
 <span xml:lang="fr">Tout d'abord, vous devez patchez votre noyau pour
 supporter l'aPI v4l2 (Video 4 Linux version 2). Le patch est disponible
 sur <ulink url="http://bytesex.org/v4l/">Video4Linux HQ</ulink></span>
-<span xml:lang="es">Primero, tendrá que parchear el kernel para soportar
-el API v412 (Video 4 Linux version 2). El patch está disponible en
+<span xml:lang="es">Primero, tendrá que parchear el kernel para dar soporte
+al API v412 (Video 4 Linux version 2). El patch está disponible en
 <ulink url="http://bytesex.org/v41/">VideoLinux HQ</ulink></span>
 <span xml:lang="de">Zuerst müssen Sie Ihren Kernel patchen, sodass er das 
 v4l2 API (Video 4 Linux version 2) unterstützt. Der Patch ist verfügbar bei
@@ -96,7 +96,7 @@ pour celà, référez vous à la documentation des drivers</span>
 CVS de los drivers Linux para la Hauppauge WinTV-PVR-250/350. Están 
 disponibles en <ulink url="http://ivtv.sourceforge.net/">ivtv.sourceforge.net</ulink>.
 Después tendrá que crear el dispositivo y cargar los módulos; para esto
-por favor consulte la documentación de los drivers.</span>
+por favor consulte la documentación de los drivers</span>
 <span xml:lang="de">Wenn Ihr Kernel fertig ist, installieren Sie die 
 CVS-Version der Linux-Treiber für die Hauppauge WinTV-PVR-250/350. Sie sind verfügbar 
 auf <ulink url="http://ivtv.sourceforge.net">ivtv.sourceforge.net</ulink>.  Danach 
@@ -110,7 +110,7 @@ die den Treibern beiliegende Dokumentation
 <sect2><title>
 <span xml:lang="en">Stream with VLC</span>
 <span xml:lang="fr">Diffusez avec VLC</span>
-<span xml:lang="es">Streaming con VLC</span>
+<span xml:lang="es">Transmisión con VLC</span>
 <span xml:lang="de">Streaming mit VLC</span>
 </title>
 
@@ -153,7 +153,7 @@ bitrate=3000000:maxbitrate=4000000 --sout udp:192.168.0.42 --ttl 12 --cr-average
 <span xml:lang="fr">est le nom du standard du signal analogique (celà
 peut être pal, secam ou ntsc</span>
 <span xml:lang="es">es el nombre del estándar de la señal analógica
-(los valores possibles son pal, secam, ntsc)</span>
+(los valores posibles son pal, secam, ntsc)</span>
 <span xml:lang="de"> ist der Name des analogen Signalstandards 
 (mögliche Werte sind pal, secam und ntsc)</span>
 ,</para></listitem>
@@ -203,7 +203,7 @@ to</span>
 <span xml:lang="fr">l'adresse IP de la machine vers laquelle vous
 désirez diffuser en unicast</span>
 <span xml:lang="es">la dirección IP de la máquina a la que se quiere
-enviar el stream unicast</span>
+enviar el flujo unicast</span>
 <span xml:lang="de">die IP-Adresse des Rechners, den Sie via unicast 
 erreichen möchten</span>
 ;</para></listitem>
@@ -214,7 +214,7 @@ to</span>
 <span xml:lang="fr">le nom DNS de la machine vers laquelle vous désirez
 envoyer en unicast</span>
 <span xml:lang="es">o bien el nombre DNS de la máquina a la que se
-quiere enviar el stream unicast</span>
+quiere enviar el flujo unicast</span>
 <span xml:lang="de">oder der DNS-Name des Rechners, den Sie via
 unicast erreichen möchten</span>
 ;</para></listitem>
@@ -259,7 +259,7 @@ Ihrer IP-Pakete (was heißt, dass der Stream in der Lage sein wird,
 <sect2><title>
 <span xml:lang="en">Stream with VLS</span>
 <span xml:lang="fr">Diffusez avec VLS</span>
-<span xml:lang="es">Streaming con VLS</span>
+<span xml:lang="es">Transmisión con VLS</span>
 <span xml:lang="de">Streaming mit VLS</span>
 </title>
 
@@ -273,7 +273,7 @@ Ihrer IP-Pakete (was heißt, dass der Stream in der Lage sein wird,
 <para>
 <span xml:lang="en">There is no command line interface for this input
 for the moment, so you will have to use the configuration file</span>
-<span xml:lang="ffr">Il n'existe pas de ligne de commande pour ce
+<span xml:lang="fr">Il n'existe pas de ligne de commande pour ce
 type d'entrée pour l'instant, vous devez donc utiliser le fichier de
 configuration</span>
 <span xml:lang="es">No hay interfaz de comandos para este tipo de 
@@ -288,7 +288,7 @@ Input, sodass Sie die Konfigurationsdatei benutzen müssen</span>
 encoding card</span>
 <span xml:lang="fr">Voici un fichier <filename>vls.cfg</filename>typique
 pour faire marcher VLS avec une Hauppauge WinTV-PVR-250/350</span>
-<span xml:lang="es">Este es un fichero típico de configuración
+<span xml:lang="es">Éste es un fichero típico de configuración
 <filename>vls.cfg</filename> para la Hauppauge WinTV-PVR-250/350</span>
 <span xml:lang="de">Hier ist eine typische Konfigurationsdatei
 <filename>vlc.cfg</filename> zur Benutzung von VLS mit einer Hauppauge 
@@ -386,7 +386,7 @@ run VLS</span>
 <span xml:lang="fr">Une fois que vous avez adapté ce fichier de
 configuration, lancez VLS</span>
 <span xml:lang="es">Una vez adaptado el fichero de configuración
-anterior, lance VLS</span>
+anterior, ejecute VLS</span>
 <span xml:lang="de">Wenn Sie die obere Konfigurationsdatei adaptiert haben,
 starten Sie VLS</span>
 :</para>
@@ -401,14 +401,14 @@ starten Sie VLS</span>
 <sect1><title>
 <span xml:lang="en">Stream with the Visiontech Kfir card</span>
 <span xml:lang="fr">Diffusez avec la Visiontech Kfir</span>
-<span xml:lang="es">Streaming con la Visiontech Kfir</span>
+<span xml:lang="es">Transmisión con la Visiontech Kfir</span>
 <span xml:lang="de">Streaming mit der Visiontech Kfir-Karte</span>
 </title>
 
 <sect2><title>
 <span xml:lang="en">Install the drivers</span>
 <span xml:lang="fr">Installez les drivers</span>
-<span xml:lang="es">Instale los drivers</span>
+<span xml:lang="es">Instalación de los drivers</span>
 <span xml:lang="de">Installation der Treiber</span>
 </title>
 
@@ -427,9 +427,9 @@ de téléchargement des drivers</ulink> du projet <ulink
 url="http://www.linuxtv.org/">LinuxTV</ulink></span>
 <span xml:lang="es">Si desea transmitir con una tarjeta
 Visiontech Kfir, necesita instalar los drivers Linux.
-Descargue la última versión de los drivers desde
-<ulink url="http://www.linuxtv.org/download/mpeg2/">drivers download
-page</ulink> del sitio <ulink url="http://www.linuxtv.org/">LinuxTV</ulink></span>
+Descargue la última versión de los drivers desde la
+<ulink url="http://www.linuxtv.org/download/mpeg2/">página de descargas
+</ulink> de la web <ulink url="http://www.linuxtv.org/">LinuxTV</ulink></span>
 <span xml:lang="de">Wenn Sie von einer Visiontech Kfir Karte 
 streamen möchten, müssen Sie deren Linux-Treiber installieren.
 Laden Sie die neueste Version der Treiber von der <ulink
@@ -470,7 +470,7 @@ im BIOS deaktivieren</span>
 
 <span xml:lang="en">Stream with VLC</span>
 <span xml:lang="fr">Diffusez avec VLC</span>
-<span xml:lang="es">Streaming con VLC</span>
+<span xml:lang="es">Transmisión con VLC</span>
 <span xml:lang="de">Streaming mit VLC</span>
 </title>
 
@@ -507,7 +507,7 @@ to</span>
 <span xml:lang="fr">l'adresse IP de la machine vers laquelle vous
 désirez diffuser en unicast</span>
 <span xml:lang="es">la dirección IP de la máquina a la que se quiere
-enviar el stream unicast</span>
+enviar el flujo unicast</span>
 <span xml:lang="de">die IP-Adresse des Rechners, den Sie via Unicast
 erreichen möchten</span>
 ;</para></listitem>
@@ -518,7 +518,7 @@ to</span>
 <span xml:lang="fr">le nom DNS de la machine vers laquelle vous désirez
 envoyer en unicast</span>
 <span xml:lang="es">o bien el nombre DNS de la máquina a la que se quiere
-enviar el stream unicast</span>
+enviar el flujo unicast</span>
 <span xml:lang="de">oder der DNS-Name des Rechners, den Sie via Unicast
 erreichen möchten</span>
 ;</para></listitem>
@@ -577,7 +577,7 @@ Input, sodass Sie die Konfigurationsdatei benutzen werden müssen</span>
 encoding card</span>
 <span xml:lang="fr">Voici un fichier <filename>vls.cfg</filename>typique
 pour faire marcher VLS avec une Visiontech Kfir</span>
-<span xml:lang="es">Este es un fichero típico de configuración
+<span xml:lang="es">Éste es un fichero típico de configuración
 <filename>vls.cfg</filename> para la Visiontech Kfir</span>
 <span xml:lang="de">Hier ist eine typische Konfigurationsdatei
 <filename>vls.cfg</filename> zur Benutzung von VLS mit einer 
@@ -640,7 +640,7 @@ run VLS</span>
 <span xml:lang="fr">Une fois que vous avez adapté ce fichier de
 configuration, lancez VLS</span>
 <span xml:lang="es">Una vez adaptado el fichero de configuración
-anterior, lance VLS</span>
+anterior, ejecute VLS</span>
 <span xml:lang="de">Wenn Sie die obere Konfigurationsdatei adaptiert haben,
 starten Sie VLS</span>
 :</para>

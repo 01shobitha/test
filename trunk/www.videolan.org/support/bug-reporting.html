@@ -30,7 +30,7 @@ If you really don't understand it you can send the information to <a href="mailt
 	<i>For instance: VLC 0.5.0 (You should always use the latest version of course)</i></li>
 <li>The exact situation in which the problem occurred. Please describe this in as much detail as possible.<br />
 	<i>For instance: I pressed the play button while fast-forwarding and VLC crashed.</i></li>
-</li>Can you always reproduce the problem in a certain way?<br />
+<li>Can you always reproduce the problem in a certain way?<br />
 	<i>For instance: The crash always occurs with the 'Matrix' DVD after 10 minutes.</i></li>
 <li>The type of movie you were playing.<br />
 	<i>For instance: DVD, Divx or mpeg.</i></li>
@@ -61,8 +61,11 @@ If you really don't understand it you can send the information to <a href="mailt
 <? h3("Compile problems"); ?>
 <ul>
 <li>Give the full log showing the problem
-<blockquote>./configure <options> &gt; logfile.txt 2&gt;&amp;1 <br />
-      make 2&gt;&amp;1 > logfile.txt 2&gt;&amp;1
+<blockquote>
+  <p>
+  ./configure &lt;options&gt; &gt; logfile.txt 2&gt;&amp;1 <br />
+  make 2&gt;&amp;1 > logfile.txt 2&gt;&amp;1
+  </p>
 </blockquote>
 </li>
 <li>When dealing with a ./configure issue, please provide the generated config.log file.</li>
@@ -73,4 +76,4 @@ If you really don't understand it you can send the information to <a href="mailt
 <b>Written by Derk-Jan Hartman <a href="mailto:thedj@users.sourceforge.net">thedj@users.sourceforge.net</a>, for the VideoLAN Team.</b>
 </p>
 
-<? footer('$Id: bug-reporting.html,v 1.4 2003/01/27 19:50:42 alexis Exp $'); ?>
+<? footer('$Id: bug-reporting.html,v 1.5 2003/01/30 15:08:28 marcari Exp $'); ?>

@@ -116,14 +116,6 @@ function footer($tag) {
  * the real code
  */
 
-$mirror = $_POST["mirror"];
-
-if($mirror)
-{
-    header("Location: http://$mirror".$_SERVER['PHP_SELF']);
-    die();
-}
-
 /* default language and date */
 if( $language == "" ) { $language = "en"; }
 
@@ -146,23 +138,21 @@ foreach( $menu as $module )
 ?>
     </td>
     <td valign="middle">
-      <div>
-      <form action="" method="post">
-        <div><select name="mirror">
+      <div>Mirror&nbsp;:
+      <form action="#" method="GET">
+        <div><select name="mirror"
+               onchange="window.location='http://'+this.value+'/<?php
+                 echo preg_replace('/\.php$/', '.html', $_SERVER['PHP_SELF']);
+              ?>'">
           <?php
           $web_mirrors = array("videolan.org" => "Main site (VIA)",
                                "fr.videolan.org" => "Mirror site (Zoy)");
           foreach($web_mirrors as $web_mirror_addr => $web_mirror_desc){
-            echo "<option value=\"www.$web_mirror_addr\" ";
-            if(strcmp($_SERVER["HTTP_HOST"],$web_mirror_addr)==0 ||
-               strcmp($_SERVER["HTTP_HOST"],"www.$web_mirror_addr")==0){
-              echo "selected=\"selected\"";
-            }
-            echo " >$web_mirror_desc</option>";
+            echo '<option value="www.'.$web_mirror_addr.'" >'.$web_mirror_desc
+              .'</option>';
           }
           ?>
         </select></div>
-        <div><input type="submit" value="Select Mirror" /></div>
       </form>
       </div>
     </td>

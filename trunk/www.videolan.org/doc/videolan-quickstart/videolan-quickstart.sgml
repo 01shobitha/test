@@ -4,6 +4,18 @@
     %magic-entities;
 
   <!ENTITY intro SYSTEM "../common/intro.sgml">
+  <!ENTITY vlc SYSTEM "2-vlc.sgml">
+  <!ENTITY vls SYSTEM "3-vls.sgml">
+  <!ENTITY vlcs SYSTEM "4-vlcs.sgml">
+  <!ENTITY vod SYSTEM "5-vod.sgml">
+  <!ENTITY conclusion SYSTEM "6-conclusion.sgml">
+
+  <!ENTITY install-vlc SYSTEM "../common/install-vlc.sgml">
+  <!ENTITY install-vls SYSTEM "../common/install-vls.sgml">
+  <!ENTITY install-vlcs SYSTEM "../common/install-vlcs.sgml">
+
+
+
 ]>
 
 <book>
@@ -70,5 +82,10 @@ url="http://www.gnu.org/copyleft/fdl.html">http://www.gnu.org/copyleft/fdl.html<
 <toc></toc>
 
 &intro;
+&vlc;
+&vls;
+&vlcs;
+&vod;
+&conclusion;
 
 </book>

@@ -1,0 +1,8 @@
+<chapter id="lvlc"><title id="tvlc">The VideoLAN Client</title>
+
+<simplesect><title>Installing the VideoLAN Client</title>
+
+&install-vlc;
+</simplesect>
+<simplesect><title>Running the VideoLAN Client</title></simplesect>
+

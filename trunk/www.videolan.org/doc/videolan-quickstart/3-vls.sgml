@@ -1,0 +1,11 @@
+<chapter id="lvls"><title id="tvls">The VideoLAN Server</title>
+
+
+<simplesect><title>Installing the VideoLAN server</title>
+
+&install-vls;
+</simplesect>
+<simplesect><title>Running the VideoLAN Server</title>
+
+Extremely Easy...
+</simplesect>

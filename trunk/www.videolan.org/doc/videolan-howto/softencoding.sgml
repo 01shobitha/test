@@ -1,6 +1,6 @@
 <chapter id="softencoding"><title id="tsoftencoding">Stream from an acquisition card</title>
 
-<note><para>This feature is available on Linux only.</para></note>
+<note><para>This is possible under Linux only.</para></note>
 
 <sect1><title>Install the Video for Linux drivers</title>
 

@@ -133,7 +133,7 @@
 
 <tr>
 
-<td class="category" rowspan="4"><b>Muxers</b></td>
+<td class="category" rowspan="5"><b>Output formats</b></td>
 <td class="type">PS</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -179,6 +179,19 @@
 <td class="yes">Yes</td>
 
 </tr>
+
+<tr>
+
+<td class="type">MP4</td>
+<td class="partial">CVS Only</td>
+<td class="partial">CVS Only</td>
+<td class="partial">CVS Only</td>
+<td class="partial">CVS Only</td>
+<td class="partial">CVS Only</td>
+<td class="partial">CVS Only</td>
+
+</tr>
+
 
 <tr>
 
@@ -291,7 +304,82 @@
 </tr>
 
 <tr>
-<td class="category" rowspan="2"><b>Misc</b></td>
+
+<td class="category" rowspan="6"><b>Transcoding</b></td>
+<td class="type">MPEG-1 video</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+
+</tr>
+
+<tr>
+
+<td class="type">MPEG-4 video</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+
+</tr>
+
+<tr>
+
+<td class="type">DivX 1/2/3 video</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+
+</tr>
+
+<tr>
+
+<td class="type">H263 video</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+
+</tr>
+
+<tr>
+
+<td class="type">MPEG Layer 2 audio</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+
+</tr>
+
+<tr>
+
+<td class="type">AC3 (i.e. A52) audio</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+
+</tr>
+
+
+
+<tr>
+<td class="category" rowspan="1"><b>Misc</b></td>
 
 <td class="type">DVD subtitles</td>
 <td class="no">No</td>
@@ -300,18 +388,6 @@
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="no">No</td>
-
-</tr>
-
-<tr>
-
-<td class="type">Transcoding</td>
-<td class="partial">CVS only</td>
-<td class="partial">CVS only</td>
-<td class="partial">CVS only</td>
-<td class="partial">CVS only</td>
-<td class="partial">CVS only</td>
-<td class="partial">CVS only</td>
 
 </tr>
 
@@ -336,6 +412,9 @@
 <img src="/images/icons/linux.gif" alt="Linux" /></a></th>
 <th class="os"><a href="/streaming/download-vls-sources.html">
 <img src="/images/icons/macosx.gif" alt="Mac OS X" /></a></th>
+<th class="os"><a href="/streaming/download-vls-windows.html">
+<img src="/images/icons/windows.gif" alt="Windows" /></a></th>
+
 
 </tr>
 
@@ -343,6 +422,7 @@
 
 <td class="category" rowspan="6"><b>Inputs</b></td>
 <td class="type">File</td>
+<td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 
@@ -353,6 +433,7 @@
 <td class="type">DVD</td>
 <td class="yes">Yes</td>
 <td class="no">No</td>
+<td class="no">No</td>
 
 </tr>
 
@@ -360,6 +441,7 @@
 
 <td class="type">DVB-S (Hauppauge Nova / Nexus)</td>
 <td class="yes">Yes</td>
+<td class="no">No</td>
 <td class="no">No</td>
 
 </tr>
@@ -369,6 +451,7 @@
 <td class="type">DVB-T (Hauppauge Nova-t)</td>
 <td class="yes">Yes</td>
 <td class="no">No</td>
+<td class="no">No</td>
 
 </tr>
 
@@ -377,6 +460,7 @@
 <td class="type">MPEG encoding card (Kfir)</td>
 <td class="yes">Yes</td>
 <td class="no">No</td>
+<td class="no">No</td>
 
 </tr>
 
@@ -384,6 +468,7 @@
 
 <td class="type">V4L device</td>
 <td class="partial">CVS only</td>
+<td class="no">No</td>
 <td class="no">No</td>
 
 </tr>
@@ -394,12 +479,14 @@
 <td class="type">Unicast UDP / RTP</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
+<td class="yes">Yes</td>
 
 </tr>
 
 <tr>
 
 <td class="type">Multicast UDP / RTP</td>
+<td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 
@@ -410,66 +497,45 @@
 <td class="type">File</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
+<td class="yes">Yes</td>
 
 </tr>
 
 <tr>
 
-<td class="category" rowspan="1"><b>Muxer</b></td>
+<td class="category" rowspan="2"><b>Input formats</b></td>
 <td class="type">TS</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="category" rowspan="3"><b>Video formats</b></td>
-<td class="type">MPEG-1 video</td>
-<td class="yes">Yes</td>
 <td class="yes">Yes</td>
 
 </tr>
 
 <tr>
 
-<td class="type">MPEG-2 video</td>
+<td class="type">PS</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
 
 </tr>
 
 <tr>
 
-<td class="type">MPEG-4 video</td>
+<td class="category" rowspan="1"><b>Output format</b></td>
+<td class="type">TS</td>
 <td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="category" rowspan="2"><b>Audio formats</b></td>
-<td class="type">MPEG Layer 1 / 2 / 3 audio</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 
 </tr>
-
-<tr>
-
-<td class="type">AC3 (i.e. A52)</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-
 
 <tr>
 
 <td class="category" rowspan="2"><b>Control</b></td>
 <td class="type">Command line</td>
+<td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 
@@ -478,6 +544,7 @@
 <tr>
 
 <td class="type">Telnet</td>
+<td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 
@@ -489,6 +556,7 @@
 <td class="type">IPv6</td>
 <td class="yes">Yes</td>
 <td class="partial">Untested</td>
+<td class="partial">Untested</td>
 
 </tr>
 
@@ -496,10 +564,11 @@
 
 <td class="type">DVD subtitles</td>
 <td class="yes">Yes</td>
-<td class="no">No</td>
+<td class="none">-</td>
+<td class="none">-</td>
 
 </tr>
 
 </table>
 
-<? footer('$Id: features.html,v 1.31 2003/05/12 09:08:37 alexis Exp $'); ?>
+<? footer('$Id: features.html,v 1.32 2003/05/16 21:16:43 alexis Exp $'); ?>

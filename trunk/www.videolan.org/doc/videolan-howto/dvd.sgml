@@ -53,6 +53,8 @@ able to cross 11 routers).</para>
 
 <sect1><title>Stream a DVD with VLS</title>
 
+<note><para>This is possible under Linux only.</para></note>
+
 <screen>
 <prompt>% </prompt><userinput>vls -vv -d udp:192.168.0.12 dvd:/dev/dvd --ttl 12</userinput>
 </screen>

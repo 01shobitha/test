@@ -14,14 +14,14 @@
 
 <ul>
 
-<li>the VideoLAN Server (VLS), which can stream MPEG-1, MPEG-2 and      
+<li>VLS (VideoLAN Server), which can stream MPEG-1, MPEG-2 and      
 MPEG-4 files, DVDs, digital satellite channels, digital terrestial      
 television channels and live videos on the network in unicast or        
 multicast,</li>                                                         
 
-<li>the VideoLAN Client (VLC), which can be used as a server to stream  
-MPEG-1, MPEG-2 and MPEG-4 / DivX files and DVDs on the network in       
-unicast or multicast; or used as a client to receive, decode and       
+<li>VLC (initialy VideoLAN Client), which can be used as a server to    
+stream MPEG-1, MPEG-2 and MPEG-4 / DivX files and DVDs on the network   
+in unicast or multicast; or used as a client to receive, decode and     
 display MPEG streams under multiple operating systems.</li>             
 
 </ul>
@@ -34,10 +34,10 @@ display MPEG streams under multiple operating systems.</li>
 
 <p>
 
-VLC's stream output works under Linux, Windows, Mac OS X, BeOS and many       
-Unices. VLS works under Linux and Mac OS X. For more information on VLC's       
-stream output and VLS, see the <a href="features.html">streaming        
-features page</a>.                                                      
+VLC's stream output works under Linux, Windows, Mac OS X, BeOS          
+and many Unices. VLS works under Linux, Windows and Mac OS X.           
+For more information on VLC's stream output and VLS, see the <a         
+href="features.html">streaming features page</a>.                       
 
 </p>
 
@@ -56,10 +56,12 @@ The bandwidth needed is:</p>
 
 <ul>
 
-<li>6 to 9 Mbit/s for a DVD,</li>
+<li>0.5 to 4 Mbit/s for an MPEG-4 stream,</li>
 
 <li>3 to 4 Mbit/s for an MPEG-2 stream read from a satellite card, a
-digital terrestial television card or an MPEG-2 encoding card.</li>
+digital terrestial television card or an MPEG-2 encoding card,</li>
+
+<li>6 to 9 Mbit/s for a DVD.</li>
 
 </ul>
 
@@ -68,7 +70,7 @@ digital terrestial television card or an MPEG-2 encoding card.</li>
 standard to the VideoLAN solution. The mini-SAP-server sends announces  
 about the multicast programs on the network, and VLCs receive these     
 annouces and automatically add the programs announced to their          
-playlist.</p>                                                           
+playlist. The mini-SAP-server works under Linux and Mac OS X.</p>
 
 <h2>Download</h2>
 
@@ -80,11 +82,19 @@ download page</a>.</p></li>
 
 <table cellspacing="10">
 <tr>
+
 <td>
   <a href="download-vls-sources.html"><img src="/images/icons/source.gif"
       style="vertical-align: middle; border-width: 1px;"
       alt="VLS source code" /></a>&nbsp;VLS source&nbsp;code
 </td>
+
+<td>
+  <a href="download-vls-windows.html"><img src="/images/icons/windows.gif"
+      style="vertical-align: middle; border-width: 1px;"
+      alt="VLS Windows" /></a>&nbsp;VLS Windows&nbsp;code
+</td>
+
 <!---
 <td>
   <a href="download-vls-debian.html"><img src="/images/icons/debian.gif"
@@ -149,4 +159,4 @@ download page</a>.</p></li>
 
 </table>
 
-<? footer('$Id: index.html,v 1.38 2003/05/08 23:54:59 alexis Exp $'); ?>
+<? footer('$Id: index.html,v 1.39 2003/05/16 21:16:43 alexis Exp $'); ?>

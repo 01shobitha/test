@@ -1,8 +1,7 @@
 <chapter id="hardencoding"><title id="thardencoding">Stream from an MPEG
 encoding card</title>
 
-<note><para>Streaming from a Kfir card is only supported under
-Linux.</para></note>
+<note><para>This is possible under Linux only.</para></note>
 
 <sect1><title>Install the drivers</title>
 

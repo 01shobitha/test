@@ -341,11 +341,10 @@ destination UDP port
 how to send the sdp file: <emphasis>http://server_ip:server_port/path</emphasis> for http, or <emphasis>rtsp://server_ip:server_port/path</emphasis> for rtsp, where <emphasis>server_ip</emphasis> is the address of one of the server's interface, and <emphasis>path</emphasis> where the sdp file will be accessible on the server
 .</para></listitem>
 
+</itemizedlist>
 <note><para>
 When using <emphasis>sdp=rtsp</emphasis>, it is possible not to give any destination address. VLC will then send the stream to any client that connects to it
 .</para></note>
-
-</itemizedlist>
 
 </sect3>
 

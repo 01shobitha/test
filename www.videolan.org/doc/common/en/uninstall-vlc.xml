@@ -56,7 +56,7 @@ If you compiled VLC from sources
 
 <para>
 Go to the directory containing VLC sources and
-execute
+execute</para>
 <screen>
 <prompt># </prompt><userinput>make uninstall</userinput>
 </screen>

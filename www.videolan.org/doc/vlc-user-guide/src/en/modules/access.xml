@@ -69,7 +69,8 @@ page</ulink>).
 </sect2>
 
 <sect2><title>dshow</title>
-&enabled;<emphasis>For Microsoft Windows only</emphasis>
+&enabled;
+<para><emphasis>For Microsoft Windows only</emphasis></para>
 <para>
 This module allows VLC to read from input cards that have a DirectShow driver. Most common webcams and acquisitions boards have such a driver.
 </para>

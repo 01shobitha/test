@@ -45,6 +45,7 @@ function starthtml($title) { ?>
    <meta name="Description" content="<? echo $title; ?>" />
    <title><? echo $title; ?></title>
    <link rel="stylesheet" type="text/css" href="/main.css" />
+   <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
 </head>
 <body><?
 

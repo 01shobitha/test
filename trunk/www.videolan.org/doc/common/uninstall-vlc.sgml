@@ -14,9 +14,9 @@ created during installation.</para>
 
 <sect2><title>Under BeOS</title>
 
-<para>Just remove the vlc-&lt;version&gt; directory. You can also remove the
-configuration files in /boot/home/config/settings/ ('vlcrc' and/or
-'VideoLAN Client')</para>
+<para>Just trash the vlc-&lt;version&gt; directory. You can also remove
+the configuration file in /boot/home/config/settings/ ('VideoLAN Client'
+in 0.4.x, 'vlcrc' in 0.5+).</para>
 
 </sect2>
 

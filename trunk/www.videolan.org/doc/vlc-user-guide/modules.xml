@@ -12,7 +12,7 @@
 </title>
 
 <span xml:lang="en">
-<para> VLC uses a modular system, which allows to add easily new
+<para>VLC uses a modular system, which allows to add easily new
 fonctions and formats. Here is a description of nearly all the VLC
 modules. A few "internal" modules won't be explained here. For a 
 complete list of all VLC modules, please have a look at the LIST file
@@ -20,9 +20,8 @@ complete list of all VLC modules, please have a look at the LIST file
 <para>If you installed VLC through a binary file, you will get
 the default modules. If, however, you want to customize VLC to your
 needs, you will have to compile VLC from sources.</para>
-<para><emphasis>If you don't intend to compile VLC and want
-only the regular functions, reading this part is not very
-useful</emphasis>.</para>
+<para>Reading this part may be useful if you intend to compile VLC or
+if you want to know all the options available for modules you use.</para>
 <para>The compilation itself is explained in the next chapter.</para>
 </span>
 <span xml:lang="fr">
@@ -35,9 +34,7 @@ le sous-répertoire "modules" des sources de VLC.</para>
 <para>Si vous avez installé VLC par un fichier binaire, vous aurez tous
 les modules par défaut. Si vous désirez peronnaliser VLC, vous devrez le
 compiler depuis ses sources.</para>
-<para>Si vous ne désirez par compiler VLC, et que vous ne désirez que
-les fonctions standard, la lecture de cette partie ne vous sera pas très
-utile.</para>
+<para>La lecture de cette partie peut-être utile si vous désirez compiler VLC ou si vous voulez connaître les options disponibles pour les modules que vous utilisez.</para>
 <para>La compilation en elle-même sera expliquée dans le chapitre suivant.</para>
 </span>
 
@@ -57,17 +54,14 @@ xml:lang="fr">nom_du_module</span></userinput>
 </screen>
 
 <para>
-<span xml:lang="en">On the other hand, if you would like to disable a module 
+<span xml:lang="en">On the contrary, if you would like to disable a module 
 that is <emphasis>enabled by default</emphasis>, you would have to use :</span>
 <span xml:lang="fr">A l'inverse, si vous désirez désactiver un module qui est
 <emphasis>activé par défaut</emphasis>, vous devrez utiliser :</span>
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>./configure 
---disable-<span xml:lang="en">module_name</span><span
-xml:lang="fr">nom_du_module</span></userinput>
-</screen>
+<prompt>% </prompt><userinput>./configure --disable-<span xml:lang="en">module_name</span><span xml:lang="fr">nom_du_module</span></userinput></screen>
 
 <para>
 <span xml:lang="en">Each VLC module has its own help and options. To see
@@ -75,9 +69,7 @@ every options associated with a module, use :</span>
 <span xml:lang="fr">Chaque module VLC possède sa propre aide et ses
 options. Pour toutes les voir, utilisez :</span></para>
 
-<screen> <prompt>% </prompt><userinput>vlc -p
-<span xml:lang="en">module_name</span><span
-xml:lang="fr">nom_du_module</span></userinput> </screen>
+<screen> <prompt>% </prompt><userinput>vlc -p <span xml:lang="en">module_name</span><span xml:lang="fr">nom_du_module</span></userinput></screen>
 
 <para>
 <span xml:lang="en">or use the "Preferences" Panel of your favorite 
@@ -176,9 +168,7 @@ xml:lang="fr">Activé par défaut sur Windows</span></emphasis></para>
 <span xml:lang="fr">Pour Windows seulement</span>
 </emphasis></para>
 <para>
-<span xml:lang="en">This video output uses GDI. It is designed for users who don't
-have Direct X, but the perfs are very low. If you have DirectX, do not
-use it.</span>
+<span xml:lang="en">This video output uses GDI. It is designed for users who don't have Direct X, but the perfs are very low. If you have DirectX, do not use it.</span>
 <span xml:lang="fr">Cette sortie vidéo utilise la bibliothèque GDI.
 Elle est connçue pour les utilisateurs n'ayant pas Direct X. Ses
 performances étant mauvaises, ne l'utilisez pas si vous pouvez utiliser
@@ -194,10 +184,10 @@ xml:lang="fr">Activé par défaut sur GNU/Linux</span></emphasis></para>
 <span xml:lang="fr">Pour GNU/Linux seulement</span>
 </emphasis></para>
 <para>
-<span xml:lang="en">This is the frame buffer video output. It requires that your
-kernel was compiled with frame buffer support.</span>
-<span xml:lang="fr">Cette sorite vidéo utilise le buffer d'image. Vous devez avoir
-activé le support du buffer d'image dans votre noyau Linux.</span>
+<span xml:lang="en">This is the frame buffer video output. Your
+kernel has to be compiled with frame buffer support.</span>
+<span xml:lang="fr">Cette sortie vidéo utilise le framebuffer. Vous devez avoir
+activer le support du framebuffer dans votre Linux.</span>
 </para>
 </sect2>
 
@@ -840,7 +830,7 @@ de fichiers XML</span>
    <span xml:lang="fr"> Indique si l'application doit être visible
      dans la barre système (désactivé par défaut).</span>
   </para></listitem>
-  <listitem><para>--show_in_taskbar, --noshow_in_taskbar</emphasis>:
+  <listitem><para><emphasis>--show_in_taskbar, --noshow_in_taskbar</emphasis>:
    <span xml:lang="en"> Indicates whether the application must  
      be shown in the taskbar (default enabled).</span>
    <span xml:lang="fr"> Indique si l'application doit être visible

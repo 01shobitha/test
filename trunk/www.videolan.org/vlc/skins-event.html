@@ -52,7 +52,8 @@ a simple script with the following syntax :</p>
   <tr>
     <td class="skins-att">VLC_HIDE</td>
     <td class="skins-att">Close all windows of the interface with a 
-    fading effect if selected.
+    fading effect if selected.<br />
+    <i>Parameters:</i>
     <ol class="skins-att"><li>An EVENT to execute when all windows have been
     closed.</li></ol></td>
   </tr>
@@ -122,10 +123,11 @@ a simple script with the following syntax :</p>
   </tr>
   <tr>
     <td class="skins-att">VLC_VOLUME_CHANGE</td>
-    <td class="skins-att">Change sound volume.
+    <td class="skins-att">Change sound volume.<br />
+    <i>Parameters:</i>
     <ol class="skins-att"><li>VLC_VOLUME_MUTE: switch to mute mode.<br/>
-    VLC_VOLUME_UP: raise sounds volume.<br/>
-    VLC_VOLUME_DOWN:<br/>
+    VLC_VOLUME_UP: raise sounds volume.<br />
+    VLC_VOLUME_DOWN:<br />
     VLC_VOLUME_SET: set sound volume to second parameter.</li>
     <li>If first parameter is VLC_VOLUME_SET only, an integer 
     between 0 and 100.</li></ol></td>
@@ -137,14 +139,16 @@ a simple script with the following syntax :</p>
   </tr>
   <tr>
     <td class="skins-att">VLC_WINDOW_MOVE</td>
-    <td class="skins-att">Initiate manual window movement.
+    <td class="skins-att">Initiate manual window movement.<br />
+    <i>Parameters:</i>
     <ol class="skins-att"><li>Must match the ID of a window. It should be used
     with image controls.</li></ol></td>
   </tr>
   <tr>
     <td class="skins-att">VLC_WINDOW_OPEN</td>
     <td class="skins-att">Open a window with a fading effect if
-    selected.
+    selected.<br />
+    <i>Parameters:</i>
     <ol class="skins-att"><li>ID of the window to open.</li>
     <li>Describe what to do. Nothing is opening. 'TRUE' is the
     same. 'FALSE' is closing window. 'CHANGE' is switching between this to
@@ -153,7 +157,8 @@ a simple script with the following syntax :</p>
   <tr>
     <td class="skins-att">VLC_WINDOW_CLOSE</td>
     <td class="skins-att">Close a window with a fading effect if
-    selected.
+    selected.<br />
+    <i>Parameters:</i>
     <ol class="skins-att"><li>ID of the window to close.</li>
     <li>Describe what to do. Nothing is closing. 'TRUE' is the
     same. 'FALSE' is opening window. 'CHANGE' is switching between this to 
@@ -169,7 +174,8 @@ a simple script with the following syntax :</p>
   </tr>
   <tr>
     <td class="skins-att">CTRL_ID_VISIBLE</td>
-    <td class="skins-att">Hide/show a control.
+    <td class="skins-att">Hide/show a control.<br />
+    <i>Parameters:</i>
     <ol class="skins-att"><li>ID of the control to hide/show.</li>
     <li>Describe what to do. Nothing is showing control. 
     'TRUE' is the same. 'FALSE' is hiding control. 'CHANGE' is switching between
@@ -181,14 +187,16 @@ a simple script with the following syntax :</p>
   </tr>
   <tr>
     <td class="skins-att">CTRL_ID_MOVE</td>
-    <td class="skins-att">Moves a control.
+    <td class="skins-att">Moves a control.<br />
+    <i>Parameters:</i>
     <ol class="skins-att"><li>ID of the control to move.</li>
     <li>Horizontal offset of movement.</li>
     <li>Vertical offset of movement.</li></ol></td>
   </tr>
   <tr>
     <td class="skins-att">PLAYLIST_ID_DEL</td>
-    <td class="skins-att">Remove items from playlist.
+    <td class="skins-att">Remove items from playlist.<br />
+    <i>Parameters:</i>
     <ol class="skins-att"><li>ID of the playlist.</li></ol></td>
   </tr>
 </table>
@@ -297,4 +305,4 @@ and shortcut.</p>
   </tr>
 </table>
 
-<? footer('$Id: skins-event.html,v 1.2 2003/04/10 21:47:24 karibu Exp $'); ?>
+<? footer('$Id: skins-event.html,v 1.3 2003/04/10 21:53:20 karibu Exp $'); ?>

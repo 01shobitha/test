@@ -8,6 +8,11 @@
 
 <h1> Events </h1>
 
+<h2>1/2/3 February 2005 - VideoLAN at Solutions Linux
+<p>Like every year, the VideoLAN team had a booth at Solutions Linux Paris
+with colorful demos and a lot of visitors !</p>
+<p><a href="20050201/index.html">Pictures of the booth</a>
+
 <h2>26 February 2004 - VLC media player on TechTV</h2>
 
 <p>On February 26, TechTV aired a small <a href="http://www.techtv.com/callforhelp/freefile/story/0,24330,3509095,00.html">piece</a> on VLC media player, showing of it's 

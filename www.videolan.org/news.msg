@@ -2,6 +2,14 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+|15 Feb 2005| VideoLAN at Solutions Linux Paris | You have been many to
+come at the CNIT, Paris La Defense to meet the VideoLAN team. We want to
+thank you for your multiples usages of VLC media player and all your
+ideas of future developement. Our hardware were partialy lent by
+<a href="http://www.apple.com">Apple</a> and help we to tests new
+features. Photos can be found
+<a href="http://www.videolan.org/events/20050201/index.html>here</a>.
+
 |7 feb 2005| VideoLAN T-shirt design contest | The VideoLAN team is
 about to make its very first T-shirts in world history ! Unfortunately,
 we lack any good design proposal. Hence, we'd like to ask all of our

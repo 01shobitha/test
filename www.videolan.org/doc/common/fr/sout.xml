@@ -331,7 +331,7 @@ La façon d'envoyer le fichier sdp <emphasis>http://server_ip:server_port/path</e
 .</para>
 
 <note><para>
-Avec l'option <emphasis>sdp=rtsp</emphasis>, il est possible de ne pas donner d'adresse de destination. VLC envoiera le flux à tout client se connectant au serveur
+Avec l'option <emphasis>sdp=rtsp</emphasis>, il est possible de ne pas donner d'adresse de destination. VLC enverra le flux à tout client se connectant au serveur
 .</para></note>
 
 </listitem>
@@ -351,13 +351,13 @@ Sépare les flux élémentaires
 <itemizedlist>
 
 <listitem><para><emphasis>access_audio</emphasis>:
-Comment envouyer la piste audio :
+Comment envoyer la piste audio :
 <emphasis>file</emphasis>, <emphasis>udp</emphasis>,
 <emphasis>rtp</emphasis> ou <emphasis>http</emphasis>
 .</para></listitem>
 
 <listitem><para><emphasis>access_video</emphasis>: 
-Comment envouyer la piste vidéo :
+Comment envoyer la piste vidéo :
 <emphasis>file</emphasis>, <emphasis>udp</emphasis>,
 <emphasis>rtp</emphasis> ou <emphasis>http</emphasis>
 .</para></listitem>

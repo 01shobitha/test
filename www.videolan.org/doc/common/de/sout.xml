@@ -168,7 +168,7 @@ zum Ankündigen Ihres Streams über SAP/SDP.
 </para></listitem>
 
 <listitem><para><emphasis>name</emphasis>Diese Option enthält den Namen
-unter dem Sie den Stream ankündigen möchten.
+unter dem Sie den Stream ankündigen möchten.</para></listitem>
 
 
 <listitem><para><emphasis>slp</emphasis>: 
@@ -250,9 +250,9 @@ Sie können nur ES eines hiermit angegeben Typs auswählen:</para>
 
 <itemizedlist>
 
-<listitem>no-audio, noaudio, audio</listitem>
-<listitem>no-video, novideo, video</listitem>
-<listitem>no-spu,   nospu,   spu</listitem>
+<listitem><para>no-audio, noaudio, audio</para></listitem>
+<listitem><para>no-video, novideo, video</para></listitem>
+<listitem><para>no-spu,   nospu,   spu</para></listitem>
 </itemizedlist>
 
 <para>Sie dürfen auch mehrere durch Kommata getrennte Selektoren verwenden.</para></listitem>

@@ -13,9 +13,13 @@
 <? h2("Note"); ?>
 
 <p>VLC is now part of the Debian unstable distribution (sid), simply
-use your usual Debian mirror to download the last packages of VLC!</p>
+use your usual Debian mirror to download the latest packages of VLC!</p>
 
-<? h2("Install VLC with apt-get"); ?>
+<p>However, libdvdcss is not in the Debian distributions because of
+legal concerns but you might need that package to watch your encrypted
+DVD.</p>
+
+<? h2("Access VideoLAN with apt-get"); ?>
 
 <p> Add the following lines to your <b>/etc/apt/sources.list</b>:</p>
 
@@ -24,14 +28,14 @@ use your usual Debian mirror to download the last packages of VLC!</p>
    deb-src ftp://ftp.videolan.org/pub/videolan/debian sources/
 </pre>
 
-<p> For a normal install, do :</p>
+<p> For a normal install, do:</p>
 
 <pre>
    # apt-get update
    # apt-get install gnome-vlc libdvdcss2
 </pre>
 
-<? h2("Debian packages for i386"); ?>
+<? h2("Older Debian packages for i386"); ?>
 
 <p>Here is the complete list of the latest Debian x86 packages (0.5.2):</p>
 
@@ -70,7 +74,7 @@ use your usual Debian mirror to download the last packages of VLC!</p>
      pkgitem("libdvbpsi/0.1.2/deb","libdvbpsi1_0.1.2-2_i386.deb");
 ?></ul>
 
-<? h2("Debian packages for PowerPC"); ?>
+<? h2("Older Debian packages for PowerPC"); ?>
 
 <p>Here is the complete list of the latest Debian PowerPC packages (0.4.5):</p>
 
@@ -111,4 +115,4 @@ use your usual Debian mirror to download the last packages of VLC!</p>
 <p> Older versions can be found by <a href="/pub/vlc/">browsing</a> our
 FTP site. </p>
 
-<? footer('$Id: download-debian.html,v 1.11 2003/04/22 18:36:52 lool Exp $'); ?>
+<? footer('$Id: download-debian.html,v 1.12 2003/04/23 01:52:20 lool Exp $'); ?>

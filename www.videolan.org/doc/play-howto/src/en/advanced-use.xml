@@ -18,7 +18,7 @@ However, some complex operations can only be done from the command line
 and there are situations in which you don't need or want a GUI. Here is
 the complete description of VLC's command line and how to use it</para>
 
-<para>You should be quite comfortable with command line usage to use this.</para>
+<para>You need to be quite comfortable with command line usage to use this.</para>
 
 <sect2><title>Getting help</title>
 
@@ -38,7 +38,7 @@ options" (for advanced users). So <code>vlc --longhelp --advanced</code>
 will give you all options.</para>
 
 <para>Also, you might want to get debug informations. To do this, use
-<code>-v</code>, <code>-vv</code> or <code>-vvv</code> (this will show
+<code>-v</code> or <code>-vv</code> (this will show
 lower severity messages). If your console supports it, you can add
 <code>--color</code> to get messages in color.</para>
 
@@ -142,6 +142,12 @@ VLC's stream output), start VLC with:
 <screen>
 <prompt>% </prompt><userinput>vlc udp:@multicast_address[:server_port]</userinput>
 </screen>
+
+<para>To receive a SSM (source specific multicast) stream, you can use: 
+<prompt>% </prompt><userinput>vlc udp:server_address@multicast_address[:server_port]</userinput>
+</screen>
+
+<para>This only works on OSs that support SSM (Windows XP and recent Linux kernels)</para>
 
 <para>
 To receive a HTTP stream, start VLC with
@@ -303,7 +309,7 @@ loops playlist on end.
 Repeats the current item until another item is forced
 </para></listitem>
 
-<listitem><para><emphasis>--loop</emphasis> Stops the playlist after
+<listitem><para><emphasis>--play-and-stop</emphasis> Stops the playlist after
 each played item.</para></listitem>
 
 </itemizedlist>
@@ -369,6 +375,9 @@ disables the use of MMX Ext CPU extensions.
 disables the use of SSE CPU extensions.
 </para></listitem>
 
+<listitem><para><emphasis>--noaltivec</emphasis>
+disables the use of Altivec CPU extensions.
+</para></listitem>
 </itemizedlist>
 
 </sect3>
@@ -504,7 +513,7 @@ interface, use <code>vlc --extraintf http</code>.</para>
 
 <para>
 The HTTP interface will start listening at host:port
-(localhost:8080 if omitted), and will reproduce the structure of
+(&lt;all interfaces&gt;:8080 if omitted), and will reproduce the structure of
 /directory at http://host:port/ ( vlc_source_path/share/http if omitted
 ).
 </para>

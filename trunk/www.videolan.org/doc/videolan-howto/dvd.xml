@@ -50,7 +50,7 @@ der Gruppe hinzu</span>
 </title>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv dvdold:/dev/dvd --sout udp:192.168.0.12 --ttl 12</userinput>
+<prompt>% </prompt><userinput>vlc -vvv dvdsimple:/dev/dvd --sout udp:192.168.0.12 --ttl 12</userinput>
 </screen>
 
 <para>

@@ -14,7 +14,7 @@
       <? h2("VLC - the cross-platform media player"); ?>
 
 <p> VLC (VideoLAN Client) is a highly portable <b>multimedia player</b> for
-various audio and video formats (MPEG, MPEG-2, MPEG-4, DivX, mp3, ogg, ...) as
+various audio and video formats (MPEG-1, MPEG-2, MPEG-4, DivX, mp3, ogg, ...) as
 well as <b>DVD</b>s, <b>VCD</b>s, and various <b>streaming</b> protocols. </p>
 
       <? h2("Features"); ?>
@@ -28,7 +28,9 @@ screenshots</a>. </p>
 
 <p> Select your operating system to download precompiled binaries: </p>
 
-<table cellspacing="10"><tr><td>
+<table cellspacing="10">
+<tr>
+<td>
    <a href="download-windows.html"><img src="/images/icons/windows.gif"
       style="vertical-align: middle; border-width: 1px;"
       alt="Windows" /></a>&nbsp;Windows
@@ -37,46 +39,53 @@ screenshots</a>. </p>
       style="vertical-align: middle; border-width: 1px;"
       alt="Mac OS X" /></a>&nbsp;Mac OS X
 </td><td>
-   <a href="download-linux.html"><img src="/images/icons/linux.gif"
+   <a href="download-beos.html"><img src="/images/icons/beos.gif"
       style="vertical-align: middle; border-width: 1px;"
-      alt="Linux" /></a>&nbsp;Linux
+      alt="BeOS" /></a>&nbsp;BeOS
 </td><td style="white-space: nowrap;">
    <a href="download-familiar.html"><img src="/images/icons/familiar.gif"
       style="vertical-align: middle; border-width: 1px;"
       alt="Familiar Linux" /></a>&nbsp;Familiar Linux
-</td></tr><tr>
+</td>
+</tr><tr>
 <td>
-   <a href="download-beos.html"><img src="/images/icons/beos.gif"
+  <a href="download-debian.html"><img src="/images/icons/debian.gif"
       style="vertical-align: middle; border-width: 1px;"
-      alt="BeOS" /></a>&nbsp;BeOS
+      alt="Linux Debian" /></a>&nbsp;Linux Debian
 </td><td>
-   <a href="download-unix.html"><img src="/images/icons/solaris.gif"
+   <a href="download-mandrake.html"><img src="/images/icons/mandrake.gif"
+      style="vertical-align: middle; border-width: 1px;"
+      alt="Linux Mandrake" /></a>&nbsp;Linux Mandrake
+</td><td>
+   <a href="download-redhat.html"><img src="/images/icons/redhat.gif"
+      style="vertical-align: middle; border-width: 1px;"
+      alt="Linux Red Hat" /></a>&nbsp;Linux Red Hat
+</td>
+</tr>
+</table>
+
+<p> For the other operating system supported, there are no precompiled binaries, you will have to get the source code for VLC and its required libraries and build it yourseft: </p>
+
+<table cellspacing="10"><tr><td>
+   <a href="download-sources.html"><img src="/images/icons/solaris.gif"
       style="vertical-align: middle; border-width: 1px;"
       alt="Solaris" /></a>&nbsp;Solaris
 </td><td>
-   <a href="download-unix.html"><img src="/images/icons/netbsd.gif"
+   <a href="download-sources.html"><img src="/images/icons/netbsd.gif"
       style="vertical-align: middle; border-width: 1px;"
       alt="NetBSD" /></a>&nbsp;NetBSD
-</td></tr><tr><td>
-   <a href="download-unix.html"><img src="/images/icons/openbsd.gif"
+</td><td>
+   <a href="download-sources.html"><img src="/images/icons/openbsd.gif"
       style="vertical-align: middle; border-width: 1px;"
       alt="OpenBSD" /></a>&nbsp;OpenBSD
 </td><td>
-   <a href="download-unix.html"><img src="/images/icons/freebsd.gif"
+   <a href="download-sources.html"><img src="/images/icons/freebsd.gif"
       style="vertical-align: middle; border-width: 1px;"
       alt="FreeBSD" /></a>&nbsp;FreeBSD
 </td><td>
-   <a href="download-unix.html"><img src="/images/icons/qnx.gif"
+   <a href="download-sources.html"><img src="/images/icons/qnx.gif"
       style="vertical-align: middle; border-width: 1px;"
       alt="QNX" /></a>&nbsp;QNX
-</td></tr></table>
-
-<p> Or get the source code: </p>
-                                                                                
-<table cellspacing="10"><tr><td style="white-space: nowrap;">
-   <a href="download-sources.html"><img src="/images/icons/source.gif"
-      style="vertical-align: middle; border-width: 1px;"
-      alt="Source code" /></a>&nbsp;Source code for VLC and required libraries
 </td></tr></table>
 
       <? h2("Documentation"); ?>
@@ -128,4 +137,4 @@ screenshots</a>. </p>
   </tr>
 </table>
 
-<? footer('$Id: index.html,v 1.47 2003/02/03 17:38:55 alexis Exp $'); ?>
+<? footer('$Id: index.html,v 1.48 2003/02/14 15:30:40 alexis Exp $'); ?>

@@ -57,9 +57,42 @@ deb-src http://www.videolan.org/pub/videolan/debian sources/
 </screen>
 </sect2>
 
-<sect2><title>Under Linux Redhat, Mandrake and SuSE</title>
+<sect2><title>Under Linux Mandrake</title>
 
-<para>For these distributions, use the RPM packages.</para>
+<para> First, VLC is included in the <ulink
+url="http://www.mandrakelinux.com/">Mandrake Linux</ulink> distribution,
+thus if your are running <emphasis>cooker</emphasis>, just get it from
+you preferred cooker mirror. </para>
+
+<para> As it is not possible to update softwares in a previous
+distributions, you have to install the RPMs "by hand" if
+you don't use <emphasis>cooker</emphasis>. The simplest way
+is to use <emphasis>urpmi</emphasis> (command line interface)
+or <emphasis>rpmdrake</emphasis> (you will find in the Mandrake Control
+Center). General instrctutions about <emphasis>urpmi</emphasis> can be found
+on <ulink url="http://www.urpmi.org">http://www.urpmi.org</ulink>
+(both in french and english). <emphasis>urpmi-setup</emphasis> will make
+it easier to setup <emphasis>urpmi</emphasis> to your needs: see <ulink
+url="http://plf.zarb.org/~nanardon/">http://plf.zarb.org/~nanardon/</ulink>
+. You need at least to add main, contrib and plf sources. </para>
+
+<itemizedlist>
+
+<listitem><para> get libdvdplay, vlc, vlc-plugin-mad, vlc-plugin-a52,
+gnome-vlc (or vlc-gtk) RPMs from this page and all the plugins you want.
+</para></listitem>
+
+<listitem><para> install them with: </para>
+
+<screen>
+<prompt># </prompt><userinput>urpmi libdvdplay*rpm *vlc*rpm</userinput>
+</screen>
+
+<para>(urpmi will complete all the dependencies)</para></listitem>
+
+</itemizedlist>
+
+<sect2><title>Under Linux Redhat</title>
 
 <para>First, install the packages <emphasis>liba52</emphasis> and
 <emphasis>libmad0</emphasis> that should be packaged in your
@@ -72,7 +105,7 @@ the Internet.</para>
 Download the RPM packages of <emphasis>libdvdcss2</emphasis>,
 <emphasis>libdvdpsi1</emphasis>, <emphasis>vlc</emphasis>
 <emphasis>gnome-vlc</emphasis>, <emphasis>vlc-plugin-mad</emphasis>, <emphasis>vlc-plugin-ogg</emphasis>, <emphasis>vlc-plugin-a52</emphasis> from the
-<ulink url="http://www.videolan.org/vlc/download-linux.html">VLC Linux
+<ulink url="http://www.videolan.org/vlc/download-redhat.html">VLC Linux Red Hat
 download page</ulink>.
 
 </para>

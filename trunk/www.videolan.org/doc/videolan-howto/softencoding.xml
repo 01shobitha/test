@@ -118,11 +118,12 @@ able to cross 11 routers).</para></listitem>
 <sect1><title>Stream with VLS</title>
 
 
-<note><para>You need the CVS version of VLS. When you compile
-it, you must do a <command>./configure --enable-v4l
---with-ffmpeg=PATH</command> (where <emphasis>PATH</emphasis> si the
-absolute path to the directory where you compiled ffmpeg, and not the
-relative path !).</para></note>
+<note><para>You need the CVS version of VLS. In order to compile
+it, you must do a <command>./bootstrap</command> and then
+<command>./configure --enable-v4l --with-ffmpeg=PATH</command> (where
+<emphasis>PATH</emphasis> si the absolute path to the directory where
+you compiled ffmpeg, and not the relative path !) and eventually
+<command>make</command>.</para></note>
 
 <para>There is no command line interface for this input for the
 moment... so you will have to use the configuration file.</para>

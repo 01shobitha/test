@@ -57,7 +57,7 @@ your config file is <filename>/etc/sap.cfg</filename>.</para>
 <sect1><title>Start VLC(s) on the client(s)</title>
 
 <screen>
-<prompt>% </prompt><userinput>vlc --extraintf sap</userinput>
+<prompt>% </prompt><userinput>vlc -vvv --extraintf sap</userinput>
 </screen>
 
 <para>Then open the playlist : you should see the programs announced.

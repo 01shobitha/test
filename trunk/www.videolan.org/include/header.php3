@@ -67,7 +67,7 @@ function starthtml($title) { ?>
   <table style="width: 100%">
   <tr>
     <? switch($modules[1]) {
-      case "vlc": second_bar_vlc(); break;
+      case "vlc": second_bar_vlc($modules[2]); break;
       case "streaming": second_bar_stream(); break;
       case "doc": break;
       case "support": second_bar_support(); break;
@@ -120,10 +120,10 @@ function get_first_bar_item ( $number , $module , $text , $url , $current_module
 
 /* Second bar for vlc */
 
-function second_bar_vlc() { ?>
-<? get_first_bar_item ( 3 , "/index.html" , "Download" , "/vlc/index.html" , $modules[2] ) ?>
-<? get_first_bar_item ( 3 , "/features.html" , "Features" , "/vlc/features.html" , $modules[2] ) ?>
-<? get_first_bar_item ( 3 , "/screenshots.html" , "Screenshots" , "/vlc/screenshots.html" , $modules[2] ) ?>
+function second_bar_vlc($module) { ?>
+<? get_first_bar_item ( 3 , "index.html" , "Download" , "/vlc/index.html" , $module ) ?>
+<? get_first_bar_item ( 3 , "features.html" , "Features" , "/vlc/features.html" , $module ) ?>
+<? get_first_bar_item ( 3 , "screenshots.html" , "Screenshots" , "/vlc/screenshots.html" , $module ) ?>
 <? }
 
 /* Second bar for streaming */

@@ -15,7 +15,7 @@ the install program. If you want the interface to be an additionnal
 one, use the preferences window of you GUI to set the <emphasis>extra
 interface modules</emphasis> option. Alternatively, you can use the
 <emphasis>--extraintf</emphasis> command line option.</span>
-<span xml:lang="en">Pour sélectionner une interface: si vous voulez
+<span xml:lang="fr">Pour sélectionner une interface: si vous voulez
 qu'il s'agisse de votre interface principale, lancez VLC depuis la
 ligne de commande avec <emphasis>--intf NomInterface</emphasis>, ou
 utilisez le panneau de préférences pour régler l'option <emphasis>Module

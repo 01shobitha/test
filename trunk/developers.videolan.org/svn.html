@@ -88,7 +88,7 @@ megabytes. Instead, only get the trunk directory, like that:
 </p><pre>
     $ svn co svn://svn.videolan.org/branches/0.2 vlc-0.2
 </pre><p>
-   If you need to know which branches are available, use "svn ls":
+   If you need to know which branches are available, use <code>svn ls</code>:
 </p><pre>
     $ svn ls svn://svn.videolan.org/branches/
     0.2
@@ -101,7 +101,7 @@ Note that you only need to authenticate yourself when you want to commit somethi
 
 <p><b>Moving files</b></p>
 <p>
-   No longer create new files from scratch when moving files! Use "svn mv":
+   No longer create new files from scratch when moving files! Use <code>svn mv</code>:
 </p><pre>
     $ svn mv file1 file2
 </pre><p>
@@ -111,7 +111,7 @@ Note that you only need to authenticate yourself when you want to commit somethi
 <p><b>Splitting files</b></p>
 <p>
    Do not create a new file from scratch! Instead, copy the old file
-using "svn cp", remove the old file and modify both newly created files:
+using <code>svn cp</code>, remove the old file and modify both newly created files:
 </p><pre>
     $ svn cp old new1
     $ svn cp old new2
@@ -122,11 +122,11 @@ using "svn cp", remove the old file and modify both newly created files:
 
 <p><b>Getting information about locally modified files</b></p>
 <p>
-   Use "svn status" to know which files were modified, deleted or
-created. A network connection is not needed for that, do not use "svn
-update" just to know your local modifications.
+   Use <code>svn status</code> to know which files were modified, deleted or
+created. A network connection is not needed for that, do not use <code>svn
+update</code> just to know your local modifications.
 </p><p>
-   "svn diff" does not require a network connection either if you only
+   <code>svn diff</code> does not require a network connection either if you only
 want to show your local modifications.
 </p>
 

@@ -2,6 +2,16 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+|02 Mar 2004| Release: VLC 0.7.1| This new release of VLC media
+player is a bit more than a bug-fix release as it does in fact include many
+new features. IGMPv3 support (Linux and WinXP), software DTS audio decoding,
+MOD audio support, a few new demuxers, an OpenGL video output plugin for OSX
+and much more! Look <a href="http://developers.videolan.org/vlc/NEWS">here</a>
+for a complete list of changes.
+To download the sources or the binary package of this new version,
+go to the <a href="http://www.videolan.org/vlc/">VLC download page</a>
+and click on your OS logo!<br />
+
 |16 Feb 2004| Release: VLS 0.5.6| This release of VLS fixes
 a bug when streaming MPEG2/PS files with several AC3 tracks,
 as well as compilation of VLS on Mac OS X. Go to the <a

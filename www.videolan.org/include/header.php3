@@ -98,7 +98,7 @@ function footer($tag) {
     <a href="http://validator.w3.org/check/referer">XHTML 1.1</a>
     and 
     <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>
-    <?php if($language=="fr") { echo 'valides' } else { } ?>
+    <?php if($language=="fr") { echo 'valides'; } else { } ?>
     </td>
   </tr>
 </table>

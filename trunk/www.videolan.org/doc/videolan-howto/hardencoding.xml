@@ -15,30 +15,35 @@
 
 <para>
 
-<span xml:lang="en">VideoLAN supports two MPEG-2 encoding cards</span>
-<span xml:lang="fr">VideoLAN supporte deux cartes d'encodage MPEG-2</span>
+<span xml:lang="en">VideoLAN supports two kinds of MPEG-2 encoding cards</span>
+<span xml:lang="fr">VideoLAN supporte deux types de cartes d'encodage MPEG-2</span>
  :</para>
 
 <itemizedlist>
 
-<listitem><para>Hauppauge WinTV-PVR-250,</para></listitem>
+<listitem><para>
+
+<span xml:lang="en">Hauppauge WinTV-PVR-250 and WinTV-PVR-350,</span>
+<span xml:lang="fr">Hauppauge WinTV-PVR-250 et WinTV-PVR-350,</span>
+
+</para></listitem>
 
 <listitem><para>Visiontech Kfir.</para></listitem>
 
 </itemizedlist>
 
 <para>
-<span xml:lang="en">The Hauppauge WinTV-PVR-250 gives much better
+<span xml:lang="en">The Hauppauge WinTV-PVR-250/350 gives much better
 results and is cheaper than the Visiontech Kfir</span>
-<span xml:lang="fr">La Hauppauge WinTV-PVR-250 donne de bien meilleurs
+<span xml:lang="fr">Les Hauppauge WinTV-PVR-250/350 donne de bien meilleurs
 résultats et est moins chère que la Visiontech Kfir</span>
 .</para>
 
 
 <sect1><title>
 
-<span xml:lang="en">Stream with the Hauppauge WinTV-PVR-250 card</span>
-<span xml:lang="fr">Diffusez avec la Hauppauge WinTV-PVR-250</span>
+<span xml:lang="en">Stream with the Hauppauge WinTV-PVR-250/350 card</span>
+<span xml:lang="fr">Diffusez avec la Hauppauge WinTV-PVR-250/350</span>
 </title>
 
 <sect2><title>
@@ -57,14 +62,14 @@ sur <ulink url="http://bytesex.org/v4l/">Video4Linux HQ</ulink></span>
 
 <para>
 <span xml:lang="en">Once your kernel is ready, install the CVS version
-of the Linux drivers for the Hauppauge WinTV-PVR-250. They are hosted on
+of the Linux drivers for the Hauppauge WinTV-PVR-250/350. They are hosted on
 <ulink url="http://ivtv.sourceforge.net/">ivtv.sourceforge.net</ulink>.
 Then, you will have to create the device and load the modules; for this,
 please refer to the documentation shipped with the drivers</span>
 
 <span xml:lang="fr">Quand votre noyau est prêt,
 installez la version CVS des drivers Linux pour la
-Hauppauge WinTV-PVR-250. Vous les trouverez sur <ulink
+Hauppauge WinTV-PVR-250/350. Vous les trouverez sur <ulink
 url="http://ivtv.sourceforge.net/">ivtv.sourceforge.net</ulink>.
 Ensuite, vous devrez créer les périphériques et charger les modules;
 pour celà, référez vous à la documentation des drivers</span>
@@ -186,82 +191,110 @@ IP (cela signifie qu'ils pourront traverser 11 routeurs)</span>
 </title>
 
 <para>
+<span xml:lang="en">You must use the CVS version of VLS</span>
+<span xml:lang="fr">Vous devez utiliser la version CVS de VLS</span>
+.</para>
+
+<para>
 <span xml:lang="en">There is no command line interface for this input
 for the moment, so you will have to use the configuration file</span>
 <span xml:lang="ffr">Il n'existe pas de ligne de commande pour ce
-type d'entrée pour l'insstant, vous devez utiliser le fichier de
+type d'entrée pour l'instant, vous devez donc utiliser le fichier de
 configuration</span>
 .</para>
 
 <para>
-<span xml:lang="en">You cannot set-up the parameters of the drivers
-(norm, size, frequency, bitrate, etc...) with VLS: for that, you will
-have to use the program <command>ptune.pl</command> that come with the
-drivers. Please refer to the documentation shipped with the drivers to
-learn how to use this program</span>
-<span xml:lang="fr">Vous ne pouvez pas régler les paramètres du
-driver (norme, taille, fréquence, ...) avec VLS; vous devez utiliser
-le programme <command>ptune.pl</command> fourni avec les drivers.
-Référez-vous à la documentation du manuel pour savoir comment
-l'utiliser</span>
-.</para>
-
-<para>
 <span xml:lang="en">Here is a typical configuration file
-<filename>vls.cfg</filename>to run VLS with a Hauppauge WinTV-PVR-250
+<filename>vls.cfg</filename>to run VLS with a Hauppauge WinTV-PVR-250/350
 encoding card</span>
 
 <span xml:lang="fr">Voici un fichier <filename>vls.cfg</filename>typique
-pour faire marcher VLS avec une Hauppauge WinTV-PVR-250</span>
+pour faire marcher VLS avec une Hauppauge WinTV-PVR-250/350</span>
 :</para>
 
 <programlisting>
 # vls.cfg (VLS configuration file)
-# Example of the VideoLAN HOWTO for the Hauppauge WinTV-PVR-250 encoding card
+# Example of the VideoLAN HOWTO for Hauppauge WinTV-PVR-250/350 encoding cards
 
-BEGIN "Inputs"
+begin "inputs"
 
-  pvr       = "video"
+  pvr0       = "video"
 
-END
+end
 
-BEGIN "pvr"
+begin "input"
 
-  # Hauppauge WinTV-PVR-250 device
-  Device        = "/dev/video0"
+  trickplay = "normal"
+
+end
+
+begin "pvr0"
+
+  # This card is a Hauppauge WinTV-PVR-250/350
+  cardtype      = "pvr"
+
+  # Device name
+  device        = "/dev/video0"
 
   # Stream type
-  Type          = "Mpeg2-PS"
+  type          = "mpeg2-ps"
 
-END
+  # Norm : put "pal", "secam" or "ntsc"
+  norm          = "pal"
 
-BEGIN "Channels"
+  # Framerate : put "30" for NTSC and "25" for PAL and SECAM
+  framerate     = "25"
+
+  # Input number : put - "0" for Composite on S-video plug
+  #                    - "4" for tuner
+  #                    - "6" for S-video on S-video plug
+  inputnumber   = "4"
+
+  # If you use the tuner, put the frequency
+  frequency     = "567250"
+
+  # Image size : put "widthxheight" or "subqcif" (128x96) or "qsif" (160x120)
+  # or "qcif" (176x144) or "sif" (320x240) or "cif" (352x288) or "vga" (640x480)
+  size          = "720x576"
+
+  # Bitrate in Kbit/s
+  bitrate       = "7000"
+
+  # Maximum bitrate in Kbit/s
+  maxbitrate    = "9000"
+
+  # Bitrate mode : put "cbr" (constant bitrate) or "vbr" (variable bitrate)
+  bitratemode   = "vbr"
+
+end
+
+begin "channels"
 
   channel1       = "network"
 
-END
+end
 
-BEGIN "channel1"
+begin "channel1"
 
   # Unicast or multicast IP address
-  DstHost = "192.168.0.42"
+  dsthost = "192.168.0.42"
 
   # Destination port
-  DstPort = "1234"
+  dstport = "1234"
 
   # If it's a multicast IP address, uncomment the line below
-  #Type    = "multicast"
+  #type    = "multicast"
 
   # If it's a multicast IP address, set the "Time To Live" below
-  #TTL     = "12"
+  #ttl     = "12"
 
-END
+end
 
-BEGIN "LaunchOnStartUp"
+begin "launchonstartup"
 
-  command1 = "start video channel1 pvr"
+  command1 = "start video channel1 pvr0"
 
-END
+end
 </programlisting>
 
 <para>

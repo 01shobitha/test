@@ -96,16 +96,15 @@ function starthtml($title) { ?>
 
 /* Give an entire cell html code for the first menubar */
 function get_first_bar_item ( $number , $module , $text , $url , $current_module ) {
-  $size = 100 / $number;
-  $i_size = settype ( $size , "integer" );
+  $size = floor ( 100 / $number );
   if ( $current_module == $module )
   {
-     ?><td class="firstbarselected" style="width: <? echo $i_size; ?>%"><? echo $text; ?></td>
+     ?><td class="firstbarselected" style="width: <? echo $size; ?>%"><? echo $text; ?></td>
      <?
   }
   else
   {
-     ?><td class="firstbar" style="width: <? echo $i_size; ?>%"><a class="firstbar" href="<? echo $url; ?>"><? echo $text; ?></a></td>
+     ?><td class="firstbar" style="width: <? echo $size; ?>%"><a class="firstbar" href="<? echo $url; ?>"><? echo $text; ?></a></td>
      <?
   }
 }

@@ -181,7 +181,7 @@ th.os {
 /*  background-color: #eaa; */
   vertical-align: middle;
 }
-.firstbar {
+td.firstbar {
   vertical-align: middle;
   text-align: center;
   background-color: #a43;
@@ -189,11 +189,22 @@ th.os {
   font-weight: bold;
   font-size: 1.1em;
 }
-.firstbar:hover {
-  background-color: inherit;
-  color: #ff0;
+a.firstbar:link {
+  background-color: #a43;
+  color: #fff;
+  font-size: 1.1em;
 }
-.firstbarselected {
+a.firstbar:visited {
+  background-color: #a43;
+  color: #fff;
+  font-size: 1.1em;
+}
+a.firstbar:hover {
+  background-color: #a43;
+  color: #ff0;
+  font-size: 1.1em;
+}
+td.firstbarselected {
   vertical-align: middle;
   text-align: center;
   background-color: #888;

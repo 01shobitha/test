@@ -51,12 +51,12 @@ standard size like <emphasis>subqcif</emphasis> (128x96),
 (352x288) or <emphasis>vga</emphasis> (640x480)),</para>
 
 <listitem><para><emphasis>channel=0</emphasis> is the number of the
-channel (usually 0 is for tuner and 1 for composite),</para>
+channel (usually 0 is for tuner, 1 for composite and 2 for svideo),</para>
 
 <listitem><para><emphasis>adev=/dev/dsp</emphasis> is the audio device,</para>
 
-<listitem><para><emphasis>audio=0</emphasis> is the number of the audio
-channel,</para>
+<listitem><para><emphasis>audio=1</emphasis> is the number of the audio
+channel (usually 0 is for mono and 1 for stereo),</para>
 
 <listitem><para><emphasis>vcodec=mp4v</emphasis> is the video
 format you want to encode in (<emphasis>mp4v</emphasis> is

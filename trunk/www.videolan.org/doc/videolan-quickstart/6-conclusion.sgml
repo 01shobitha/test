@@ -1,15 +1,24 @@
-<chapter id="lconclusion"><title id="tconclusion">Conclusion</title>
+<chapter id="conclusion"><title id="tconclusion">Conclusion</title>
 
 
 <para>
 
-VideoLAN can do much more than what is explained in this Quickstart. For
-example, vls can stream from a Satellite DVB card or an MPEG encoding
-card. VideoLAN can also stream multiple channels on a
-non-multicast-capable network. And vlc can be used to create an image-wall !
+VideoLAN can do much more than what is explained in this Quickstart.
+For example, vls can stream from a satellite card, a digital
+terrestial television card or an MPEG encoding card. To know
+about the full streaming possibilities of VideoLAN, please read the <ulink
+url="http://www.videolan.org/network/doc/videolan-howto.html">VideoLAN
+HOWTO</ulink>.
+
 </para>
+
 <para>
-To know about the full possibilities of VideoLAN, please read the <ulink url="http://www.videolan.org/network/doc/videolan-howto.html">VideoLAN HOWTO</ulink>.
+
+Vlc also have very interesting features that are not explained in
+this Quickstart. For example, vlc can be used to do image walls !
+To know about the full possibilities of vlc, please read the <ulink
+url="http://www.videolan.org/doc/vlc-user-guide/">vlc user guide</ulink>.
+
 </para>
 <para>To get all the informations about the VideoLAN Client, please have a look at the <ulink url="http://www.videolan.org/vlc/doc/vlc-user-guide.html">VideoLAN Client User Guide</ulink>
 </para>

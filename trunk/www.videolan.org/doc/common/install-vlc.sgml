@@ -47,55 +47,51 @@ deb-src http://www.videoaln.org/pub/videolan/debian sources/
 Then type, as root :
 </para>
 
-<para>
 <screen>
 <prompt># </prompt><userinput>apt-get update</userinput>
 <prompt># </prompt><userinput>apt-get install vlc-gnome vlc-mad libdvdcss2</userinput>
-</para>
+</screen>
 
 </sect2>
 
 <sect2><title>Under Linux Redhat, Mandrake and SuSE</title>
 
 <para>
-Install liba52 and libmad0. They should be packaged in your distribution. If they are not, try to find the RPMs on the Internet.
+Install the packages liba52 and libmad0 that should be packaged in your distribution. If they are not, try to find the RPMs on the Internet.
 </para>
 
 <para>
-Download the RPM package of libdvdcss from <ulink url="http://www.videolan.org/libdvdcss/download.html">libdvdcss vlc</ulink>.
+Download the RPM package of libdvdcss from the <ulink url="http://www.videolan.org/libdvdcss/download.html">libdvdcss download page</ulink>.
 </para>
 
 <para>
-Donwload the RPm package of libdvdpsi from <ulink url="http://www.videolan.org/libdvbpsi/download.html">libdvdpsi download page</ulink>.
+Download the RPM package of libdvdpsi from the <ulink url="http://www.videolan.org/libdvbpsi/download.html">libdvdpsi download page</ulink>.
 </para>
 
 <para>
-Download the RPM packages vlc vlc-gnome and vlc-mad from the <ulink url="http://www.videolan.org/vlc/download.html">vlc download page</ulink>.
+Download the RPM packages <emphasis>vlc</emphasis> <emphasis>vlc-gnome</emphasis> and <emphasis>vlc-mad</emphasis> from the <ulink url="http://www.videolan.org/vlc/download.html">vlc download page</ulink>.
 </para>
 
 <para>
-To install the RPM packages : As root, type: 
+To install the RPM packages, type as root :
 </para>
 
-<para>
-<screen><userinput>
-	# rpm -Uhv vlc-versionmdk.i586.rmp vlc-mad-versionmdk.i586.rpm vlc-gnome-versionmdk.i586.rpm 
-        libdvdcss2-version.i586.rpm libdvdpsi1-version.i586.rpm
-</userinput></screen>
-</para>
+<screen>
+<prompt># </prompt><userinput>rpm -Uhv vlc-version.i586.rpm vlc-mad-version.i586.rpm vlc-gnome-version.i586.rpm libdvdcss2-version.i586.rpm libdvdpsi1-version.i586.rpm
+</userinput>
+</screen>
 
 </sect2>
 
 <sect2><title>Under Unix and Linux</title>
 
 <para>The method below is for any Unix or Linux supported by the
-videolan client. We are going to compile and install the libraries and then the vlc.
-</para>
+videolan client. We are going to compile and install the libraries and then the vlc.</para>
 
 <sect3><title>Install the libraries</title>
 
 <para>
-Many librairies are needed for particular uses:
+Many librairies are needed for particular uses :
 </para>
 
 <itemizedlist>

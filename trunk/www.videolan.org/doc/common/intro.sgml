@@ -1,4 +1,4 @@
-<chapter id="lintro"><title id="tintro">Introduction</title>
+<chapter id="intro"><title id="tintro">Introduction</title>
 
 <sect1><title>What is the VideoLAN project ?</title>
 
@@ -22,7 +22,7 @@ The VideoLAN solution includes :
 <itemizedlist>
 
 <listitem><para>a server, the VideoLAN Server (vls), which can take MPEG
-videos from various sources (file, DVD drive, satellite cards and MPEG 2
+videos from various sources (file, DVD drive, DVB cards and MPEG 2
 encoders) and sends them to the network in unicast or multicast,</para>
 
 <listitem><para>a client, the VideoLAN Client (vlc), which can receive,

@@ -10,10 +10,10 @@
   <!ENTITY vod SYSTEM "5-vod.sgml">
   <!ENTITY conclusion SYSTEM "6-conclusion.sgml">
 
+
   <!ENTITY install-vlc SYSTEM "../common/install-vlc.sgml">
   <!ENTITY install-vls SYSTEM "../common/install-vls.sgml">
   <!ENTITY install-vlcs SYSTEM "../common/install-vlcs.sgml">
-
 
 
 ]>

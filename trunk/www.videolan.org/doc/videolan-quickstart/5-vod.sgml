@@ -1,4 +1,4 @@
-<chapter id="lvod"><title id="tvod">Video On Demand</title>
+<chapter id="vod"><title id="tvod">Video On Demand</title>
 
 <sect1><title>Overview</title>
 <sect2><title>What is Video On Demand ?</title>
@@ -96,6 +96,6 @@ on.
 Install and configure miniVLCS on a Linux machine (it can be the same machine as
 the
 VOD server). Please, refer to the section describing the miniVLCS (<xref
-linkend="lvlcs">).
+linkend="vlcs">).
 </sect2>
 </sect1>

@@ -105,10 +105,13 @@ function starthtml($title) { ?>
              break;
          } ?>
 
-    </td>
+    </td><?
 
-    <td class="fill">
-<? }
+   /*
+    *  This is where the real user page stands
+    */
+
+?>  <td><? }
 
    /*
     *  footer: bottom of the page

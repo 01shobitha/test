@@ -150,7 +150,8 @@ addresses pour les flux annoncés à l'aide du protocole SLP</span>
 &enabled;
 <para><span xml:lang="en">This is the VideoCD input. At present, if
 you are have a new enough libvcdinfo (from <ulink
-url="http://vcdimager.org">vcdimager</ulink> and a new enough <ulink
+url="http://www.vcdimager.org/index.phtml">vcdimager</ulink> and a new
+enough <ulink
 url="http://www.gnu.org/software/libcdio">libcdio</ulink> you will get
 the newer navigation-capable plugin. Eventually when libcdio is more
 mature and handles more OSs the older plugin will disapear. The file

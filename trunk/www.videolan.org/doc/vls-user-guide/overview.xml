@@ -3,12 +3,14 @@
 <chapter id="overview"><title id="toverview">
 <span xml:lang="en">Overview and basic concepts</span>
 <span xml:lang="fr">Concepts et mode de fonctionnement</span>
+<span xml:lang="es">Visión general y conceptos básicos</span>
 <span xml:lang="de">Überblick und grundlegende Konzepte</span>
 </title>
 
 <sect1><title>
 <span xml:lang="en">VLS structure</span>
 <span xml:lang="fr">Structure de VLS</span>
+<span xml:lang="es">Estructura de VLS</span>
 <span xml:lang="de">Struktur von VLS</span>
 </title>
 
@@ -17,6 +19,8 @@
 four kinds of components</span>
 <span xml:lang="fr">D'un point de vue utilisateur, VLS peut être divisé 
 en quatre composants majeurs</span>
+<span xml:lang="es">Desde el punto de vista de un usuario, VLS puede se dividido
+en cuatro tipo de componentes</span>
 <span xml:lang="de">Aus der Sicht eines Benutzer kann VLS in vier
 Hauptkomponenten aufgeteilt werden</span>
 :</para>
@@ -26,21 +30,25 @@ Hauptkomponenten aufgeteilt werden</span>
 <listitem><para>
 <span xml:lang="en">a <emphasis>manager</emphasis></span>
 <span xml:lang="fr">un <emphasis>gestionnaire</emphasis></span>
+<span xml:lang="es">un <emphasis>gestor</emphasis></span>
 <span xml:lang="de">ein <emphasis>Manager</emphasis></span>
 ,</para></listitem>
 <listitem><para>
 <emphasis><span xml:lang="en">inputs</span>
 <span xml:lang="fr">des entrées</span>
+<span xml:lang="es">entradas</span>
 <span xml:lang="de">Inputs</span>
 </emphasis>,</para></listitem>
 <listitem><para><emphasis>
 <span xml:lang="en">converters</span>
 <span xml:lang="fr">des convertisseurs</span>
+<span xml:lang="es">conversores</span>
 <span xml:lang="de">Konverter</span>
 </emphasis>,</para></listitem>
 <listitem><para>
 <span xml:lang="en">and <emphasis>channels</emphasis></span>
 <span xml:lang="fr">et des <emphasis>sorties</emphasis></span>
+<span xml:lang="es">y <emphasis>salidas</emphasis></span>
 <span xml:lang="de">und <emphasis>Channel</emphasis> bzw. Ausgabekanäle</span>
 .</para></listitem>
 
@@ -49,6 +57,7 @@ Hauptkomponenten aufgeteilt werden</span>
 <figure><title>
 <span xml:lang="en">VLS structure</span>
 <span xml:lang="fr">Structure de VLS</span>
+<span xml:lang="es">Estructura de VLS</span>
 <span xml:lang="de">Struktur von VLS</span>
 </title>
 <mediaobject>
@@ -61,6 +70,7 @@ Hauptkomponenten aufgeteilt werden</span>
 <simplesect><title>
 <span xml:lang="en">Input</span>
 <span xml:lang="fr">Entrées</span>
+<span xml:lang="es">Entradas</span>
 <span xml:lang="de">Die Inputs</span>
 </title>
 
@@ -76,6 +86,11 @@ DVB, ...), et de les envoyer aux <emphasis>convertisseurs</emphasis>.
 Une entrée peut lire plusieurs flux. Ceux-ci sont alors appellés
 des <emphasis>programmes</emphasis>. Il existe plusieurs types
 d'entrées</span>
+<span xml:lang="es">El papel de una <emphasis>entrada</emphasis> es el de
+leer flujos MPEG de una fuente dada (fichero, DVD, tarjetas DVB, dispositivos,
+...), y alimentar a los <emphasis>conversores</emphasis> correctos con estos
+flujos. Una entrada puede leer varios flujos, que son llamados
+<emphasis>programas</emphasis>. Hay varios tipos de entradas</span>
 <span xml:lang="de">Die Role eines <emphasis>Inputs</emphasis> ist
 MPEG Streams aus einer gegebenen Quelle (Datei, DVD, DVB-Kate, Gerät...)
 zu lesen und die richtigen <emphasis>Konverter</emphasis> damit zu
@@ -91,6 +106,8 @@ Inputs</span>
 videos from files or DVDs</span>
 <span xml:lang="fr">l'entrée <emphasis>local</emphasis>, qui peut lire
 depuis des fichiers et des DVDs</span>
+<span xml:lang="es">la entrada <emphasis>local</emphasis>, que puede leer
+de ficheros o DVDs</span>
 <span xml:lang="de">den <emphasis>local</emphasis>-Input, der Videos
 aus Dateien oder DVDs lesen kann</span>
 ,</para></listitem>
@@ -101,15 +118,19 @@ aus Dateien oder DVDs lesen kann</span>
 can read videos from MPEG encoding cards devices</span>
 <span xml:lang="fr">l'entrée <emphasis>video</emphasis>, qui
 peut lire des vidéos depuis des cartes d'encodage MPEG</span>
+<span xml:lang="es">la entrada <emphasis>video</emphasis>, que
+puede leer de tarjetas codificadoras MPEG</span>
 <span xml:lang="de">den <emphasis>Video</emphasis>-Input, der
 Videos aus MPEG-Kodierungskarten lesen kann</span>
 ,</para></listitem>
 
 <listitem><para>
 <span xml:lang="en">the <emphasis>dvb</emphasis> input, which
-can read videos from DVB cards</span>,
+can read videos from DVB cards</span>
 <span xml:lang="fr">l'entrée <emphasis>dvb</emphasis>, qui peut
 lire depuis des cartes DVB</span>
+<span xml:lang="es">la entrada <emphasis>dvb</emphasis>, que
+puede leer de tarjetas DVB</span>
 <span xml:lang="de">den <emphasis>DVB</emphasis>-Input, der Videos
 von DVB-Karten lesen kann</span>
 ,</para></listitem>
@@ -121,6 +142,9 @@ drivers</span>
 <span xml:lang="fr">l'entrée <emphasis>v4l</emphasis>, qui 
 peut lire depuis les cartes d'acquisition supportées par les
 pilotes Video4Linux</span>
+<span xml:lang="es">la entrada <emphasis>v4l</emphasis>, que
+puede leer de tarjetas capturadoras soportadas por los drivers
+Video4Linux</span>
 <span xml:lang="de">den <emphasis>v4l</emphasis>-Input, der Videos
 aus Zugangskarten lesen kann, die von den Video4Linux-Treibern unterstützt
 werden</span>
@@ -133,6 +157,8 @@ werden</span>
 at the same time</span>
 <span xml:lang="fr">Vous pouvez utiliser plusieurs entrées et jouer
 plusieurs programmes en même temps</span>
+<span xml:lang="es">Se pueden usar varias entradas y tener varios programas
+al mismo tiempo</span>
 <span xml:lang="de">Sie können gleichzeitig mehrere Inputs benutzen und
 mehrere Programme abspielen</span>
 .</para>
@@ -142,6 +168,7 @@ mehrere Programme abspielen</span>
 <simplesect><title>
 <span xml:lang="en">Converter</span>
 <span xml:lang="fr">Les convertisseurs</span>
+<span xml:lang="es">Los conversores</span>
 <span xml:lang="de">Die Konverter</span>
 </title>
 
@@ -157,6 +184,11 @@ MPEG-TS. VLS peut convertir des flux PS (provenant d'un DVD, par
 exemple) en flux TS, en utilisant le convertisseur ps2ts. Bien sûr, il
 peut également lire les flux TS, et les réparer en prenant en charge les
 discontinuités du flux (convertisseur ts2ts)</span>
+<span xml:lang="es">El papel de un <emphasis>conversor</emphasis> es el de
+recibir un flujo de una entrada, y convertirlo en formato MPEG-TS.
+VLS es capaz de convertir flujos PS (de DVDs, por ejemplo) a flujos TS
+(conversor ps2ts). Por supuesto, también puede leer flujos TS, y
+repararlos manejando las discontinuidades en el flujo (conversor ts2ts)</span>
 <span xml:lang="de">Die Rolle eines <emphasis>Konverters</emphasis>
 ist einen Stream von einem Input zu erhalten und ihn in das MPEG-TS-Format
 zu konvertieren. VLS ist in der Lage PS-Streams (beispielsweise von DVDs)
@@ -170,6 +202,7 @@ berücksichtigt werden (ts2ts-Konverter).</span>
 <simplesect><title>
 <span xml:lang="en">Channel</span>
 <span xml:lang="fr">Les sorties</span>
+<span xml:lang="es">Salidas</span>
 <span xml:lang="de">Die Channel</span>
 </title>
 
@@ -195,6 +228,16 @@ et l'enregistrer dans un fichier en même temps. La sortie réseau est
 très configuratble: vous pouvez choisir l'interface réseau, et spécifier
 les adresses IP source et destination</span>
 
+<span xml:lang="es">Una salida recibe un flujo de un conversor,
+y lo manda a un destino dado (red, fichero, ...). Actualmente
+existen dos tipos de salidas soportadas: <emphasis>network</emphasis> y
+<emphasis>file</emphasis>. Nótese que,
+por el momento, VLS sólo soporta una salida por flujo,
+por lo que no se puede enviar al mismo tiempo a una red y escribir
+a un fichero. La salida de red es bastante configurable:
+se puede elegir qué interfaz de red se quiere utilizar, y especificar
+las direcciones IP de origen y destino.</span>
+
 <span xml:lang="de">Ein <emphasis>Channel</emphasis> erhält einen
 Stream von einem Konverter und sendet ihn an ein gegebenes Ziel
 (Netzwerk, Datei...). Wenn Sie möchten, können Sie einen "Channel" auch
@@ -214,6 +257,7 @@ angeben</span>
 <simplesect><title>
 <span xml:lang="en">Manager</span>
 <span xml:lang="fr">Le gestionnaire</span>
+<span xml:lang="es">El gestor</span>
 <span xml:lang="de">Der Manager</span>
 </title>
 
@@ -237,6 +281,16 @@ programmes disponibles, lue depuis le fichier de configuration de VLS
 changée après le démarrage). Pour l'instant, vous ne pouvez pas demander
 au gestionnaire si un flux est en cours de diffusion, mais une erreur se
 produira si vous tentez de stopper un flux qui ne l'est pas</span>
+<span xml:lang="es">El <emphasis>gestor</emphasis> controla
+el modo en el que son enviados los flujos. A través de una <emphasis>interfaz de
+administración</emphasis>, se le puede decir al gestor que comience, pare,
+suspenda, o reinicie los diferentes programas. Se puede
+también conseguir la lista de todos los programas disponibles en la Tabla
+de Programas. El gestor consigue esta tabla del fichero de configuración de VLS
+(<filename>vls.cfg</filename>), por lo que no puede ser modificado una vez que VLS
+es arrancado. Por el momento, no se puede preguntar al gestor si un flujo está
+siendo enviado, pero devuelve un mensaje de error si se intenta parar
+un flujo que no está siendo transmitido</span>
 <span xml:lang="de">Der <emphasis>Manager</emphasis> kontrolliert
 die gesendeten Streams. Durch eine <emphasis>Administrationsoberfläche
 </emphasis> können Sie dem Manager mitteilen, die verschiedenen
@@ -257,6 +311,7 @@ gesendet wird</span>
 <sect1><title>
 <span xml:lang="en">Administration interface</span>
 <span xml:lang="fr">Interface d'administration</span>
+<span xml:lang="es">Interfaz de administración</span>
 <span xml:lang="de">Die Administrationsoberfläche</span>
 </title>
 
@@ -264,6 +319,7 @@ gesendet wird</span>
 <span xml:lang="en">There are currently two ways to launch the
 streaming</span>
 <span xml:lang="fr">Il existe deux moyens de contrôler VLS</span>
+<span xml:lang="es">Actualmente existen dos modos de controlar VLS</span>
 <span xml:lang="de">Es gibt derzeit zwei Wege, das Streamen zu
 starten</span>
 :</para>
@@ -275,6 +331,8 @@ starten</span>
 give arguments at startup;</span>
 <span xml:lang="fr">vous pouvez utiliser la <emphasis>ligne de
 commande</emphasis> pour passer des arguments au démarrage;</span>
+<span xml:lang="es">se puede usar la <emphasis>línea de comandos</emphasis> para
+proporcionarle argumentos en el arranque;</span>
 <span xml:lang="de">Sie können die <emphasis>Befehlszeile</emphasis>
 benutzen, um Argumente beim Start zu übergeben </span>
 </para></listitem>
@@ -285,6 +343,9 @@ interface</emphasis> to start/stop/pause the streaming whenever you
 want</span>
 <span xml:lang="fr">ou vous pouvez utiliser l'<emphasis>interface
 Telnet</emphasis> pour contrôler la diffusion à tout moment</span>
+<span xml:lang="es">o se puede usar la <emphasis>interfaz
+Telnet</emphasis> para arrancar/parar/pausar el envío siempre que se
+quiera</span>
 <span xml:lang="de">oder Sie können die <emphasis>Telnet-Oberfläche</emphasis>
 benutzen, um das Streamen zu starten/anzuhalten/zu pausieren wann immer Sie
 möchten</span>
@@ -301,6 +362,10 @@ be allowed to execute any command (this can be configured in the
 d'abord vous authentifier, car tous les utilisateurs ne peuvent exécuter
 toutes les commandes (ceci se règle dans le fichier de configuration
 <filename>vls.cfg</filename>)</span>
+<span xml:lang="es">Cuando se usa el interfaz Telnet, hay que
+autenticarse antes de escribir comandos, para prevenir que usuarios
+no deseados sean libres de hacerlo (esto se debe configurar en el
+fichero de configuración <filename>vls.cfg</filename>)</span>
 <span xml:lang="de">Wenn Sie die Telnet-Oberfläche benutzen, müssen
 Sie sich authentifizieren, bevor sie einen Befehl angeben, weil nicht jedem
 Benutzer erlaubt werden darf, einen Befehl auszuführen (dies kann in der

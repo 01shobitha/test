@@ -23,7 +23,7 @@
     <tr><td class="skins-comment">
       <? echo $text; ?>
     </td></tr>
-    <? if(strlen($zip)>2) { ?><tr> 
+    <? if(strlen($zip)>2) { ?><tr>
 <td><a class="skins-download" href="/vlc/skins/<? echo "$zip"; ?>">Download ZIP file</a>
     </td></tr> <? } ?>
     <? if(strlen($vlt)>2) { ?><tr>
@@ -41,16 +41,16 @@
 
 <h2>How to use it ?</h2>
 
-<p>There are two types of skin files: <b>vlt</b> files which vlc can read
-directly and <b>zip</b> files wich you must unzip before using.</p>
+<p>There are two types of skin files: <b>vlt</b> files which can be read
+directly by VLC and <b>zip</b> files which you must unzip before using.</p>
 <p>To change the skin, if no button is present on the skin to do it,
 just press CTRL+S on your keyboard then choose the *.vlt or theme.xml file
 of the new skin you want to use.</p>
 
 <h2>Basic skin</h2>
 
-<? AddSkin( 
-   "default.jpg", 
+<? AddSkin(
+   "default.jpg",
    "This is the basic skin, it is available by default on releases.",
    "default.vlt",
    "default.zip" );
@@ -58,17 +58,17 @@ of the new skin you want to use.</p>
 
 <h2>iTunes skin</h2>
 
-<? AddSkin( 
-   "itunes.jpg", 
-   "Nice skin by mdi.",
+<? AddSkin(
+   "itunes.jpg",
+   "Skin adapted from iTunes by mdi.",
    "itunes.vlt",
    "itunes.zip" );
 ?>
 
 <h2>Phoenix skin</h2>
 
-<? AddSkin( 
-   "phoenix.jpg", 
+<? AddSkin(
+   "phoenix.jpg",
    "Skin adapted from the MusicMatch Phoenix Omega skin by Immij.",
    "phoenix.vlt",
    "" );
@@ -87,36 +87,32 @@ of the new skin you want to use.</p>
    "skin-hifi.jpg",
    "This skin was made by Good old KroKoFox.",
    "",
-   "kkf.zip"); 
-
+   "kkf.zip");
 ?>
 
 <h2>Aquax skin</h2>
-<? AddSkin( 
+<? AddSkin(
    "aquax.jpg",
    "This skin was originally made for zinf by Andreas Koslowski.<br />
-   Skin dapted to VLC by Laurent Aimar",
+   Skin adapted to VLC by Laurent Aimar",
    "aquax.vlt",
-   ""); 
-
+   "");
 ?>
 
 <h2>KiND skin</h2>
-<? AddSkin( 
+<? AddSkin(
    "KiND.jpg",
    "This skin was made by Karim Nassar.",
    "KiND.vlt",
-   ""); 
-
+   "");
 ?>
 
 <h2>Orange skin</h2>
-<? AddSkin( 
+<? AddSkin(
    "orange.jpg",
    "This skin was made by Ralf Niedling.",
    "orange.vlt",
-   ""); 
-
+   "");
 ?>
 
 <h2>BSPlayer skin</h2>
@@ -133,7 +129,6 @@ of the new skin you want to use.</p>
    "This skin has been made by Pierre Patoureaux.",
    "crane.vlt",
    "crane.zip" );
-
 ?>
 
 <? footer('$Id$'); ?>

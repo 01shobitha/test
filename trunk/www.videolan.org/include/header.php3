@@ -150,8 +150,6 @@ function starthtml($title) { ?>
  * the real code
  */
 
-$lang=""; $date=""; $title="";
-
 if($mirror)
 {
     /* FIXME : mirror code is broken */

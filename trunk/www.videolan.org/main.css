@@ -2,7 +2,7 @@
  * Stolen from the Gnumeric website by Sam :-)
  * Hardly modified by karibu :(
  *
- * $Id: main.css,v 1.81 2003/04/10 21:47:24 karibu Exp $ */
+ * $Id: main.css,v 1.82 2003/05/12 12:33:10 alexis Exp $ */
 
 body {
   font-family: sans-serif, Helvetica, Arial;
@@ -196,43 +196,25 @@ h2 {
   background-color: #F8F8D8;
   text-decoration: none;
   padding: 1px 5px 1px 5px;
+  border-width: 1px;
   border-style: solid;
   border-color: #FFFFF0 #C0C0A0 #C0C0A0 #FFFFF0;
-  border-width: 1px;
-}
-
-table.h3 {
-  text-align: left;
-  width: auto;
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-tr.h3 {
-  text-align: left;
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-td.h3 {
-  text-align: left;
-  margin: 0;
-  padding: 0;
-  border: 0;
 }
 
 h3 {
-  font-size: 1em;
   font-family: inherit;
-  font-weight: 600;
-  background: inherit;
-  color: #888;
   padding: 0;
-  margin: 5px 20px 0px 20px;
   text-decoration: none;
-  border-bottom-style: solid;
-  border-bottom-color: #a43;
-  border-bottom-width: 1px;
+  font-size: 1em;
+  font-weight: normal;
+  margin: 0px 10px 0px 10px;
+  color: black;
+  background-color: #F8F8F8;
+  text-decoration: none;
+  padding: 1px 5px 1px 20px;
+  border-style: solid;
+  border-color: #FFFFF0 #C0C0A0 #C0C0A0 #FFFFF0;
+  border-width: 1px;
 }
 
 

@@ -4,27 +4,6 @@
     *  starthtml: beginning of the page
     */
 
-function h2($title)
-{
-  ?><h2><?
-  echo $title;
-  ?></h2><?
-}
-
-function h3($title) {
-?>
-<table class="h3" cellspacing="0" cellpadding="0">
-<tr class="h3">
-<td class="h3">
-<h3>
-<? echo $title; ?>
-</h3>
-</td>
-</tr>
-</table>
-<?
-}
-
 function CSSButton( $event, $normal, $over, $down )
 {
   ?>

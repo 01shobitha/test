@@ -3,10 +3,11 @@
 <sect1><title>Stream in IPv6</title>
 
 <note><para>You will need an IPv6-aware operating system, like Linux
-2.4.21 with the <emphasis>ipv6</emphasis> module loaded or Windows
-XP Service Pack 1. Please look at the features pages on the <ulink
-url="http://www.videolan.org">VideoLAN web site</ulink> to know about
-the status of IPv6 in VLC and VLS for each O.S.</para></note>
+2.4.21 with the <emphasis>ipv6</emphasis> module loaded, Windows XP
+Service Pack 1 or Mac OS X version 10.2 or higher. Please look at the
+features pages on the <ulink url="http://www.videolan.org">VideoLAN web
+site</ulink> to know about the status of IPv6 in VLC and VLS for each
+O.S.</para></note>
 
 <warning><para>If you are using VMware under Linux, you will have to
 stop VMware and unload the VMware kernel modules, because we noticed it

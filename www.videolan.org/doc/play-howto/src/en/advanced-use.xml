@@ -717,7 +717,7 @@ plugin.</para>
 <listitem><para><command>previous()</command></para></listitem>
 <listitem><para><command>isplaying()</command> : return true if the plugin is playing something.</para></listitem>
 <listitem><para><command>get_length()</command> : Get the media's length in seconds.</para></listitem>
-<listitem><para><command>get_position()</command> : Get the current position in the media in bytes(???).</para></listitem>
+<listitem><para><command>get_position()</command> : Get the current position in the media in percent.</para></listitem>
 <listitem><para><command>get_time()</command> :Get the current position in the media in seconds. </para></listitem>
 <listitem><para><command>seek(seconds,is_relative)</command> : If is_relative is true, seek relatively to current time, else seek from begining of the stream. Seek time is specified in seconds.</para></listitem>
 </itemizedlist>

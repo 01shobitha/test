@@ -1,7 +1,7 @@
  <?
    $title = "VLC - Features";
    $lang = "en";
-   $date = "11 January 2003";
+   $date = "17 March 2004";
    $menu = array( "vlc", "features" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
@@ -141,8 +141,8 @@
 <td class="partial">Incomplete</td>
 <td class="partial">Incomplete</td>
 <td class="no">No</td>
+<td class="partial">Untested</td>
 <td class="partial">Incomplete</td>
-<td class="none">-</td>
 
 </tr>
 
@@ -491,23 +491,33 @@
 <tr>
 
 <td class="category" rowspan="12"><b>Subtitles</b></td>
-<td class="type">DVD</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
+<td class="type">DVD <sup>[7]</sup></td>
+<td class="partial">Incomplete</td>
+<td class="partial">Incomplete</td>
+<td class="partial">Incomplete</td>
+<td class="partial">Incomplete</td>
+<td class="partial">Icomplete</td>
 <td class="none">-</td>
 </tr>
 
 <tr>
 <td class="type">SVCD</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="partial">CVS only</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="none">-</td>
+<td class="yes">Yes</td>
+<td class="partial">Untested</td>
+<td class="yes">Yes</td>
+<td class="partial">Untested</td>
+<td class="partial">Untested</td>
+<td class="yes">Yes</td>
+</tr>
+
+<tr>
+<td class="type">CVD</td>
+<td class="yes">Yes</td>
+<td class="partial">Untested</td>
+<td class="yes">Yes</td>
+<td class="partial">Untested</td>
+<td class="partial">Untested</td>
+<td class="yes">Yes</td>
 </tr>
 
 <tr>
@@ -1268,12 +1278,12 @@
 
 <tr>
 <td class="type">SVCD Menus <sup>[6]</sup></td>
+<td class="partial">Incomplete</td>
 <td class="no">No</td>
+<td class="partial">Incomplete</td>
 <td class="no">No</td>
-<td class="partial">CVS Only</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="none">-</td>
+<td class="partial">Untested</td>
+<td class="partial">Incomplete</td>
 </tr>
 
 <tr>
@@ -1314,13 +1324,13 @@
 
 <tr>
 
-<td class="type">CDDB CD info</td>
+<td class="type">CDDB CD info <sup>[8]</sup></td>
 <td class="no">No</td>
+<td class="partial">Untested</td>
+<td class="yes">Yes</td>
 <td class="no">No</td>
-<td class="partial">CVS only</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
+<td class="partial">Untested</td>
+<td class="yes">Yes</td>
 
 </tr>
 
@@ -1400,11 +1410,24 @@ processors, and AltiVec on G4 processors.
 <br />
 [4] the OpenBSD 2.9 default assembler does not support MMX.
 <br />
-[5] VLC for linux supports two kinds of MPEG-2 encoding cards: Hauppauge WinTV-PVR-250/350
+[5] VLC for GNU/Linux supports two kinds of MPEG-2 encoding cards: Hauppauge WinTV-PVR-250/350
 and Visiontech Kfir.
 <br />
-[6] VLC on linux has good (S)VCD support via libcdio on Linux. On other platforms
-it differs per SVCD wether they will work.
+[6] VLC on GNU/Linux, Solaris, and Microsoft Windows has playback
+control support via libcdio and libvcdinfo. On other platforms
+SVCD support varies depending on the availability of these libraries.
+(Volunteers for adding support is always welcome.). Handling still
+frames (often used in menus) and switching between different video
+formats is a problem.
+<br /> 
+[7] Full color for YUV-type chromas is not handled, only the grey-scale
+value. Subtitle transparency is not fully supported for all
+chromas. Some chromas are not handled at all.
+<br /> 
+[8] CDDB information provided by libcddb via libcdio. Support is
+available on those platforms both of these libraries are
+available. libcddb runs on BeOS although libcdio doesn't. On Microsoft
+Windows, libcddb doesn't compile yet using without POSIX emulation.
 </p>
 
-<? footer('$Id: features.html,v 1.102 2004/03/09 19:56:34 jpsaman Exp $'); ?>
+<? footer('$Id: features.html,v 1.103 2004/03/18 04:09:01 rocky Exp $'); ?>

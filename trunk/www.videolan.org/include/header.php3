@@ -91,22 +91,22 @@ function starthtml($title) { ?>
 /* Second bar for vlc */
 function second_bar_vlc() { ?>
 
-<td><a href="/vlc/index.html">Overview</a></td>
-<td><a href="/vlc/features.html">Features</a></td>
-<td><a href="/vlc/download.html">Download</a></td>
-<td><a href="/vlc/screenshots.html">Screenshots</a></td>
+<td class="secondbarvlc"><a href="/vlc/index.html">Overview</a></td>
+<td class="secondbarvlc"><a href="/vlc/features.html">Features</a></td>
+<td class="secondbarvlc"><a href="/vlc/download.html">Download</a></td>
+<td class="secondbarvlc"><a href="/vlc/screenshots.html">Screenshots</a></td>
 
 <? }
 
 /* Second bar for vlc */
 function second_bar_home() { ?>
 
-<td><a href="/news.html">News</a></td>
-<td><a href="/events.html">Events</a></td>
-<td><a href="/partners.html">Partners</a></td>
-<td><a href="/contribute.html">Contribute</a></td>
-<td><a href="/contact.html">Contact</a></td>
-<td><a href="/links.html">Links</a></td>
+<td class="secondbarhome"><a href="/news.html">News</a></td>
+<td class="secondbarhome"><a href="/events.html">Events</a></td>
+<td class="secondbarhome"><a href="/partners.html">Partners</a></td>
+<td class="secondbarhome"><a href="/contribute.html">Contribute</a></td>
+<td class="secondbarhome"><a href="/contact.html">Contact</a></td>
+<td class="secondbarhome"><a href="/links.html">Links</a></td>
 
 <? }
 

@@ -178,3 +178,17 @@ th.os {
 /*  background-color: #eaa; */
   vertical-align: middle;
 }
+td.secondbarhome {
+  background-image: none;
+  background-color: #ffa;
+  vertical-align: middle;
+  width: 16%;
+  text-align: center;
+}
+td.secondbarvlc {
+  background-image: none;
+  background-color: #ffa;
+  vertical-align: middle;
+  width: 25%;
+  text-align: center;
+}

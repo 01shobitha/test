@@ -111,7 +111,7 @@ function footer($tag) {
     <td align="right" style="white-space: nowrap;">
     <? if($language=="fr") { } else { ?>valid<? } ?>
     <a href="http://validator.w3.org/check/referer">XHTML 1.1</a>
-    &amp;
+    and 
     <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>
     <? if($language=="fr") { ?>valides<? } else { } ?>
     </td>

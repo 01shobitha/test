@@ -9,7 +9,7 @@
   <!ENTITY vlc SYSTEM "vlc.xml">
   <!ENTITY vlc-streamoutput SYSTEM "vlc-streamoutput.xml">
   <!ENTITY vod SYSTEM "vod.xml">
-  <!ENTITY sap SYSTEM "../common/sap.xml">
+  <!ENTITY vlc-sap SYSTEM "vlc-sap.xml">
   <!ENTITY conclusion SYSTEM "conclusion.xml">
   <!ENTITY install-vlc SYSTEM "../common/install-vlc.xml">
   <!ENTITY fdl SYSTEM "../common/fdl.xml">
@@ -101,7 +101,7 @@ Back-Cover Texts. The text of the license can be found in the appendix
 &vlc;
 &vlc-streamoutput;
 &vod;
-&sap;
+&vlc-sap;
 &conclusion;
 &fdl;
 

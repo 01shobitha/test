@@ -74,7 +74,7 @@ you must use:</para>
 
 <sect2><title>Description of the modules</title>
 
-<sect3><title>standard</title>
+<sect3><title>standard (alias std)</title>
 
 <para>Sends a stream.</para>
 
@@ -301,7 +301,7 @@ stream output.</para></listitem>
 can only you use the <emphasis>standard</emphasis> module:</para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc stream --sout access/mux:url</userinput>
+<prompt>% </prompt><userinput>vlc input_stream --sout access/mux:url</userinput>
 </screen>
 
 <para>where <emphasis>access</emphasis>, <emphasis>mux</emphasis> and
@@ -314,7 +314,7 @@ module.</para>
 
 <sect2><title>Examples</title>
 
-<para>Please, refer to the VideoLAN HOWTO for use cases of VLC's stream
-output.</para>
+<para>To understand fully the complex syntax of VLC's stream output,
+please look at the use cases of the VideoLAN HOWTO.</para>
 
 </sect2>

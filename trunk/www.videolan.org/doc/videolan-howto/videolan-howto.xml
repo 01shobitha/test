@@ -10,6 +10,7 @@
   <!ENTITY dvb SYSTEM "dvb.xml">
   <!ENTITY hardencoding SYSTEM "hardencoding.xml">
   <!ENTITY softencoding SYSTEM "softencoding.xml">
+  <!ENTITY usesout SYSTEM "usesout.xml">
   <!ENTITY ipv6 SYSTEM "ipv6.xml">
   <!ENTITY vod SYSTEM "../videolan-quickstart/vod.xml">
   <!ENTITY sap SYSTEM "../common/sap.xml">
@@ -21,7 +22,7 @@
 
 ]>
 
-<book id="videolan-howto-en">
+<book id="videolan-howto">
 
 <bookinfo>
 
@@ -103,6 +104,7 @@ solution.</para>
 &dvb;
 &hardencoding;
 &softencoding;
+&usesout;
 &ipv6;
 &vod;
 &sap;

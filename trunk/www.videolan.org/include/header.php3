@@ -53,7 +53,7 @@ function starthtml($title) { ?>
 
 <tr>
 
- <td style="vertical-align: middle;width=35" align="center">
+ <td style="vertical-align: middle;width=35px" align="center">
    <img src="/images/cone-soppera1-mini.png" alt="Logo VideoLAN" />
   </td>
 

@@ -4,6 +4,7 @@ RewriteEngine on
 RewriteRule ^(.*)/$ include/rewrite.php3?dir=$1&page=index
 
 # fichier.html -> ../include/default.php3?page=fichier
+RewriteRule (^vlc/vlc/doc/.*html$) $1 [L]
 RewriteRule ^([^/]+)\.html$ include/rewrite.php3?page=$1
 
 # rep/fichier.html -> ../include/default.php3?dir=rep&page=fichier

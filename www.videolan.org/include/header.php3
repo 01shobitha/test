@@ -120,8 +120,7 @@ $mirror = $_POST["mirror"];
 
 if($mirror)
 {
-    /* FIXME: mirror code is broken */
-    header("Location: http://$mirror".$GLOBALS['PHP_SELF']);
+    header("Location: http://$mirror".$_SERVER['PHP_SELF']);
     die();
 }
 

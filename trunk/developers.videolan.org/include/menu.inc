@@ -22,7 +22,7 @@
 <p class=menu><a class="menu"
 href="http://bugzilla.videolan.org/">Bugzilla</a></p>
 <p class=menu><a class="menu"
-href="http://www.videolan.org/cgi-bin/cvsweb/">CVSWeb</a></p>
+href="http://developers.videolan.org/cgi-bin/cvsweb/">CVSWeb</a></p>
 <p class=menu><a class="menu"
 href="http://www.videolan.org/cgi-bin/irc/irc.cgi">IRCWeb</a></p>
 </td></tr>

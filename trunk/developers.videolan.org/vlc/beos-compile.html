@@ -11,15 +11,40 @@
 <li>You need <a href="http://www.bebits.com/app/2680">BeOS 5</a> or
 higher with developpement tools.</li>
 
-<li><a
-href="http://videolan.org/pub/videolan/devtools/beos-boot-home-config.ta
-r.gz">Download</a> and untar to /boot/home/config the archive of
-needed tools. It includes tools for the configure and build process
-(perl 5.8.0, autoconf 2.57, automake 1.7.2, libtool 1.4.2) and external
-libraries that the VideoLAN client uses (a52dec 0.7.4, ffmpeg's
-libavcodec CVS-20030304, libdvdread 0.9.3, libfaad CVS-20030130, libogg
-1.0, libvorbis 1.0, mad 0.14.2b, libdvpsi 0.1.2, libdvdcss 1.2.6 and
-libdvdplay 1.0.1).</li>
+<li>You need a few utilities for the build process:
+  <ul>
+  <li>perl 5.8.0</li>
+  <li>autoconf 2.57</li>
+  <li>automake 1.7.3</li>
+  <li>libtool 1.4.2</li>
+  <li>gettext 0.11.5</li>
+  </ul>
+
+This <a
+href="http://videolan.org/pub/videolan/devtools/vlc_build_tools_beos.tar.gz">
+archive</a> (last updated: 2003/03/25) includes all these tools built
+for BeOS. Just download it and untar it to /boot/home/config/.
+
+</li>
+<li>You need several librairies in order to make a full VLC build for BeOS:
+  <ul>
+  <li>a52dec 0.7.4</li>
+  <li>libavcodec CVS-20030304</li>
+  <li>libdvdplay 1.0.1</li>
+  <li>libdvdread 0.9.4</li>
+  <li>libdvdcss 1.2.6</li>
+  <li>libfaad CVS-20030130</li>
+  <li>libFLAC 1.1.0</li>
+  <li>libmpeg2 CVS-20030325</li>
+  <li>libogg 1.0</li>
+  <li>libvorbis 1.0</li>
+  <li>mad 0.14.2b</li>
+  </ul>
+This <a
+href="http://videolan.org/pub/videolan/devtools/vlc_needed_libraries_beos.tar.gz">
+archive</a> (last updated: 2003/03/25) includes all these libraries built
+for BeOS. Just download it and untar it to /boot/home/config/.
+</li>
 
 <li>In order to use these libraries, add the following lines to your
 /boot/home/.profile:<br>
@@ -38,14 +63,10 @@ libdvdplay 1.0.1).</li>
 <li>cd to the source directory</li>
 <li>run <code>./bootstrap</code></li>
 <li>run ./configure. The following is suggested:<br>
-<code>./configure --enable-a52 --enable-ffmpeg --enable-dvdplay
---enable-faad --enable-mad --enable-ogg --enable-vorbis
---enable-debug</code></li>
+<code>./configure --enable-debug --enable-a52 --enable-ffmpeg
+--enable-dvdplay --enable-faad --enable-mad --enable-ogg --enable-vorbis
+--enable-libmpeg2 --enable-flac</code></li>
 <li>run <code>make</code></li>
-<li>If you are using the old gcc 2.9 that comes with BeOS 5, the
-compilation may fail on a few modules. It is a gcc bug, you can avoid
-it by adding a -fno-unroll-loops flag or by decreasing the optimization
-level from -O3 to -O0.</li>
 </ul>
 
 <p><b>Written by <a href="mailto:titer@videolan.org">Eric Petit</a>, for

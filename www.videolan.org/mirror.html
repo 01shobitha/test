@@ -1,0 +1,10 @@
+<? if( !isset($mirror) || !isset($file) ) { die; } ?>
+<html>
+ <head>
+  <title>VideoLAN - Download from mirror</title>
+  <meta http-equiv="refresh" content="0; url=<? echo $mirror.$file ?>" />
+ </head>
+ <body>
+  <p>Click <a href="<? echo $mirror.$file ?>">here</a> if your download doesn't start</p>
+</html>
+  

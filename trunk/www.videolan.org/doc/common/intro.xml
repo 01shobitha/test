@@ -73,7 +73,11 @@ systems.</para></listitem>
 <para>Voici le schéma global de la solution VideoLAN complète :</para>
 </span>
 
-<figure><title>Global VideoLAN solution</title>
+<figure><title>
+<span xml:lang="en">Global VideoLAN solution</span>
+<span xml:lang="en">La solution VideoLAN globale</span>
+</title>
+
 <mediaobject>
   <imageobject>
     <imagedata fileref="images/global-diagram.jpg" format="JPG" scalefit="1" scale="60" />
@@ -206,24 +210,43 @@ rejoignent ou quittent (une addresse IP multicast): ceci est appelé
 <para><span xml:lang="en">in IPv4 or IPv6</span>
       <span xml:lang="fr">en IPv4 ou en IPv6</span>.</para>
 
+<span xml:lang="en">
 <para>To get the complete list of VLC's possibilities
 on each plateform supported, see the <ulink
 url="http://www.videolan.org/vlc/features.html">VLC features
 page</ulink>.</para>
+</span>
 
-<note><para>VLC doesn't work on Mac OS 9, and will
-probably never do.</para></note>
+<span xml:lang="fr">
+<para>Pour la liste complète des fonctionnalités de VLC pour chaque plateforme, regardez la <ulink
+url="http://www.videolan.org/vlc/features.html">page des fonctionnalités
+</ulink> (en anglais).</para>
+</span>
+
+
+<note><para>
+<span xml:lang="en">VLC doesn't work on Mac OS 9, and will
+probably never do.</span>
+<span xml:lang="fr">VLC ne fonctionna pas sous Mac OS 9, et ne 
+fonctionnera probablement jamais sur cette plateforme.</span>
+</para></note>
 
 </simplesect>
 
 <simplesect><title>VLS</title>
 
-<para>VLS can stream :</para>
+<para>
+ <span xml:lang="en">VLS can stream :</span>
+ <span xml:lang="fr">VLS est capable de diffuser:</span>
+</para>
 
 <itemizedlist>
 
-<listitem><para>an MPEG-1, MPEG-2 or MPEG-4 files stored on a hard drive
-or on a CD,</para></listitem>
+<listitem><para>
+<span xml:lang="en">an MPEG-1, MPEG-2 or MPEG-4 files stored on a hard drive
+or on a CD,</span>
+<span xml:lang="fr">des fichiers MPEG-1, MPEG-2 ou MPEG-4 stockés sur un disque dur, un CD, ...,</span>
+</para></listitem>
 
 <listitem><para>a DVD located in a local DVD drive or copied on a hard
 disk,</para></listitem>
@@ -250,10 +273,19 @@ television card (DVB-T),</para></listitem>
 
 <para>in IPv4 or IPv6.</para>
 
+<span xml:lang="en">
 <para>A Pentium 100 MHz with 32 MB of memory should be enough to send one
 stream on the network. When streaming a lot of videos stored on a
 hard drive, the actual limitation is not the processor but the hard
 drive and the network connection.</para>
+</span>
+<span xml:lang="fr">
+<para>Une machine à base de Pentium 100 MHz munie de 32 Mo de mémoire
+devrait suffire pour diffuser un flux sur un réseau. Si vous diffusez de
+nombreuses vidéos, stockées sur un disque dur, la vraie limitation ne
+vient pas du processeur mais du disque dur et de la connexion réseau.
+</para>
+</span>
 
 <para>VLS works under Linux and Windows. To get the complete
 list of VLS's possibilities on each plateform supported, see the <ulink
@@ -278,7 +310,8 @@ et ajoutent automatiquement les programmes annoncés à leur liste de
 lecture.</span>
 </para>
 
-<para>The mini-SAP-server works under Linux and Mac OS X.</para>
+<para>
+ The mini-SAP-server works under Linux and Mac OS X.</para>
 
 </simplesect>
 </sect2>

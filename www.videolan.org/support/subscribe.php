@@ -77,14 +77,14 @@
 
     if( $valid ) {
 
-        $header = "From: ecartis@via.ecp.fr\n";
+        $header = "From: ecartis@krishna.via.ecp.fr\n";
         $message .= "-- \n";
         $message .= "Sent via http://www.videolan.org/support/lists.html\n";
 
-        mail("listar@videolan.org", "(no subject)", $message, $header);
+        mail("ecartis@videolan.org", "(no subject)", $message, $header);
 
         ?><p> The following request has been sent to <a
-        href="mailto:listar@videolan.org">listar@videolan.org</a>:
+        href="mailto:ecartis@videolan.org">ecartis@videolan.org</a>:
         </p> <pre><?php echo $header."\n".$message; ?></pre> <p> You
         should receive a confirmation request within the next few
         minutes. Reply to this email to confirm you subscription or

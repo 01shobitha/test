@@ -12,9 +12,9 @@
 
 <p>Like last year we again attended FOSDEM. And this year we were HOT. People flocked around our demo's. There were several multicasted streams and the 7 laptops all did something different with them.</p>
 
-<table borders="0">
+<table border="0">
 <tr>
-<td>
+<td width="50%">
 <p>
 <a href="20050226/VideoLAN%20Booth/Other%20demo/IMG_1260.JPG"><img alt="IMG_1260.JPG (1600x1200)"
         width="120"
@@ -25,7 +25,7 @@
 <p>Rotating OpenGL transparent cube shown in a transparent output window running on Mac OS X. Next to it Colored ASCII Art output with a text (marquee) and a logo filter running on FreeBSD.</p>
 </td>
 
-<td>
+<td width="50%">
 <p>
 <a href="20050226/VideoLAN%20Booth/Walls/IMG_1205.JPG"><img alt="IMG_1205.JPG (1600x1200)"
         width="120"
@@ -62,7 +62,7 @@
 </tr>
 </table>
 
-<p>Zorglub held a short presentation of VLC, you can <a href="20050226/fosdem2005.sxi" alt="FOSDEM 2005 presentation">download it (OpenOffice)</a> if you want and there are pictures <a href="20050226/Lightning%20talk/">here</a>.</p>
+<p>Zorglub held a short presentation of VLC, you can <a href="20050226/fosdem2005.sxi">download it</a>  (OpenOffice format) if you want and there are pictures <a href="20050226/Lightning%20talk/">here</a>.</p>
 
 <p>All the photo's can be viewed <a href="20050226/">here</a>. There are also some shots made by other FOSDEM attendees. They were pulled from the <a href="http://fosdem.3ti.be/">FOSDEM picture site</a>. Copyright to the respective creators of the pictures, redistribution is not allowed. These files are for our own personal archive.</p>
 

@@ -1,0 +1,318 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+ <META NAME="GENERATOR" CONTENT="LinuxDoc-Tools 0.9.21">
+ <TITLE>VLC HOWTO: Command line options</TITLE>
+ <LINK HREF="vlc-howto-5.html" REL=next>
+ <LINK HREF="vlc-howto-3.html" REL=previous>
+ <LINK HREF="vlc-howto.html#toc4" REL=contents>
+</HEAD>
+<BODY>
+<A HREF="vlc-howto-5.html">Next</A>
+<A HREF="vlc-howto-3.html">Previous</A>
+<A HREF="vlc-howto.html#toc4">Contents</A>
+<HR>
+<H2><A NAME="s4">4.</A> <A HREF="vlc-howto.html#toc4">Command line options</A></H2>
+
+<P>Many options are only available through command line. They are detailed here.</P>
+<H2><A NAME="ss4.1">4.1</A> <A HREF="vlc-howto.html#toc4.1">Opening streams</A>
+</H2>
+
+<P> 
+The following commands start vlc and add a first element to the playlist.</P>
+<H3>Opening a file</H3>
+
+<P>Simply start vlc with <CODE>vlc my_file.mpg</CODE>. </P>
+<P>You may tell vlc what input to use, for example add <CODE>--input ts</CODE>
+when playing a ts MPEG, although vlc should be able to recognize the type
+of MPEG.</P>
+<H3>Opening a DVD or VCD</H3>
+
+<P>Simply start vlc with <CODE>vlc dvd:DVDDRIVE</CODE> or <CODE> vlc vcd:CDROMDRIVE</CODE>, where DVDDRIVE/CDROMDRIVE is the complete
+path to your dvd/cdrom drive.</P>
+<P>You may add <CODE>-t X -T Y</CODE> to start directly from the Xth chapter, Yth
+title.</P>
+<H3>Start a network stream</H3>
+
+<P>To receive an UDP stream (being sent from a VLS), start vlc with 
+<CODE> vlc udpstream:[@&lt;bind address&gt;[:&lt;server port&gt;]] </CODE>.</P>
+<P>Please note that bind address refers to the destination address, for 
+example your broadcast address. If the stream is being broadcasted, 
+<PRE>
+ vlc udpstream:
+</PRE>
+ should be sufficient. If the stream
+is multicasted, you must specify the multicast address, for example 
+<PRE>
+ vlc udpstream:@239.255.255.42  
+</PRE>
+</P>
+<P>To receive a http stream, start vlc with <CODE>vlc &lt;your URL&gt;</CODE>.</P>
+
+
+<H2><A NAME="ss4.2">4.2</A> <A HREF="vlc-howto.html#toc4.2">Modules selection</A>
+</H2>
+
+<P>The vlc tries to select the most appropriate interface, input and output
+modules, among the ones available on the system, according to
+the stream he is given to read. However, you may wish to force
+the use of a specific module with the following options:</P>
+
+<P> 
+<PRE>
+--intf &lt;interface module&gt;
+</PRE>
+
+allows you to select the interface module </P>
+<P> 
+<PRE>
+--vout &lt;video output module&gt;
+</PRE>
+
+allows you to select the video output.</P>
+<P> 
+<PRE>
+--aout &lt;audio output module&gt;
+</PRE>
+
+allows you to select the audio output.</P>
+<P> 
+<PRE>
+--filter &lt;video filter module&gt;
+</PRE>
+
+allows you to add a video filter module.</P>
+<P> 
+<PRE>
+--mpeg-adec &lt;MPEG audio decoder module&gt;
+</PRE>
+
+allows you to select the audio MPEG decoder.</P>
+<P> 
+<PRE>
+--ac3-adec &lt;AC3 audio decoder module&gt;
+</PRE>
+
+allows you to select the audio AC3 decoder.</P>
+<H2><A NAME="ss4.3">4.3</A> <A HREF="vlc-howto.html#toc4.3">Other options</A>
+</H2>
+
+<H3>Help options:</H3>
+
+<P> 
+<PRE>
+--help
+</PRE>
+
+gives you all the available options.</P>
+<P> 
+<PRE>
+--longhelp
+</PRE>
+
+gives you a more detailled version of the available options.</P>
+<P> 
+<PRE>
+--version
+</PRE>
+
+gives you information about the current version.</P>
+<P> 
+<PRE>
+--list
+</PRE>
+
+gives you the list of all available plugins.</P>
+<P> 
+<PRE>
+-vvvv (X times)
+</PRE>
+
+set the level of warning messages.</P>
+<P> 
+<PRE>
+--stats
+</PRE>
+
+gives statistic outputs.</P>
+<H3>Audio options:</H3>
+
+<P> 
+<PRE>
+--noaudio
+</PRE>
+
+disables the audio output</P>
+<P> 
+<PRE>
+--mono
+</PRE>
+
+forces the vlc to treat the stream in mono audio.</P>
+<P> 
+<PRE>
+--volume &lt;integer&gt;
+</PRE>
+
+set the level of audio output.</P>
+<P> 
+<PRE>
+--rate &lt;integer&gt;
+</PRE>
+
+set the audio output frequency (Hz)</P>
+<P> 
+<PRE>
+--desync &lt;integer&gt;
+</PRE>
+
+compensates desynchronization of audio (ms)</P>
+<H3>Video options:</H3>
+
+<P> 
+<PRE>
+--novideo
+</PRE>
+
+disables the video output</P>
+<P> 
+<PRE>
+--width &lt;integer&gt;
+</PRE>
+
+<PRE>
+--height &lt;integer&gt;
+</PRE>
+
+set the video window dimensions.</P>
+<P> 
+<PRE>
+--grayscale
+</PRE>
+
+turns video output into grayscale mode.</P>
+<P> 
+<PRE>
+--fullscreen
+</PRE>
+
+set fullscreen video.</P>
+<P> 
+<PRE>
+--nooverlay
+</PRE>
+
+disables hardware acceleration for the video output</P>
+<P> 
+<PRE>
+--spumargin &lt;integer&gt;
+</PRE>
+
+force subtitles position.</P>
+<H3>Input options:</H3>
+
+<P> 
+<PRE>
+--network-channel
+</PRE>
+
+Start with channel server enabled.</P>
+<P> 
+<PRE>
+--channel-server &lt;string&gt;
+</PRE>
+
+Specify the channel server address.</P>
+<P> 
+<PRE>
+--channel-port &lt;integer&gt;
+</PRE>
+
+Specify the channel server port.</P>
+<P> 
+<PRE>
+--iface &lt;string&gt;
+</PRE>
+
+Select the network interface to use.</P>
+<P> 
+<PRE>
+--input-program &lt;integer&gt;
+</PRE>
+
+Select the program to use (for streams with 
+several programs, as those coming from satellite).</P>
+<P> 
+<PRE>
+--audio-type &lt;integer&gt;
+</PRE>
+
+Select the audio channel to use.</P>
+<P> 
+<PRE>
+--subtitle-channel &lt;integer&gt;
+</PRE>
+
+Select the subtitle.</P>
+<P> 
+<PRE>
+--audio_channel &lt;integer&gt;
+</PRE>
+
+Select the channel number.</P>
+<P> 
+<PRE>
+--dvd &lt;string&gt;
+</PRE>
+
+Specify the default dvd device.</P>
+<P> 
+<PRE>
+--vcd &lt;string&gt;
+</PRE>
+
+Specify the default vcd device.</P>
+<P> 
+<PRE>
+-4, --ipv4
+</PRE>
+
+Force IPv4.</P>
+<P> 
+<PRE>
+-6, --ipv6
+</PRE>
+
+Force IPv6.</P>
+<H3>CPU options</H3>
+
+<P> 
+<PRE>
+--nommx
+</PRE>
+
+disable the use of mmx CPU extensions.</P>
+<P> 
+<PRE>
+--no3dn
+</PRE>
+
+disable the use of 3D Now! CPU extensions.</P>
+<P> 
+<PRE>
+--nommxext
+</PRE>
+
+disable the use of mmx ext CPU extensions.</P>
+<P> 
+<PRE>
+--noaltivec
+</PRE>
+
+disable the use of AltiVec CPU extensions.</P>
+<HR>
+<A HREF="vlc-howto-5.html">Next</A>
+<A HREF="vlc-howto-3.html">Previous</A>
+<A HREF="vlc-howto.html#toc4">Contents</A>
+</BODY>
+</HTML>

@@ -1,0 +1,66 @@
+<?
+   $title = "VideoLAN - CVS repository";
+   $lang = "en";
+   $date = "5 October 2001";
+?>
+
+<h1>CVS repository</h1>
+
+<h2>Basic information</h2>
+
+<p> The anonymous CVS server is called
+<code>anoncvs.videolan.org</code>. You can log in as user anonymous,
+with an empty password. For instance, to retrieve the <code>vlc</code>
+source: </p>
+
+<!-- <object><blockquote><pre>cvs -d :pserver:anonymous@anoncvs.videolan.org:/var/cvs/videolan login
+cvs -d :pserver:anonymous@anoncvs.videolan.org:/var/cvs/videolan checkout vlc
+</pre></blockquote></object> -->
+<pre>cvs -d :pserver:anonymous@anoncvs.videolan.org:/var/cvs/videolan login
+cvs -d :pserver:anonymous@anoncvs.videolan.org:/var/cvs/videolan -z3 checkout -P vlc</pre>
+
+<p> In case you do not have access to CVS (due to strange corporate policies),
+CVS tarball snapshots are available (see below). </p>
+
+<h2>Available modules</h2>
+
+<ul>
+  <li><b>vlc</b>: VideoLAN Client; </li>
+  <li><b>vls</b>: VideoLAN Server; </li>
+  <li><b>vlms</b>: VideoLAN MiniServer; </li>
+  <li><b>network</b>: network tools (VLAN-Server and VLAN-Bridge). </li>
+  <li><b>libdvdcss</b>: library for decrypting DVDs, used by VLC and VLS. </li>
+  <li><b>libdvbpsi</b>: library for parsing Program Specific Information
+from MPEG and DVB streams, used by VLC and VLS. </li>
+</ul>
+
+<h2>CVSWeb</h2>
+
+<p> You can <a href="/cgi-bin/cvsweb">browse the CVS repository</a>
+using a nifty tool called CVSWeb. </p>
+
+<h2>VideoLAN Client</h2>
+
+<p> Quite often, VLC development is split between a stable branch and an
+unstable branch. The unstable branch is the branch you get by default
+with CVS, and in the CVS snapshots. The stable branch is a bug-fix-only
+branch. Current stable branch is tagged v0_4_1_branch and 0.4.x versions
+come from it. To access it : </p>
+
+<pre>cvs -z 3 -d :pserver:anonymous@cvs.videolan.org:/cvs/videolan checkout -P -r v0_4_1_branch vlc</pre>
+
+<p> The unstable branch is under active development (and patches for new
+features should be sent against it) and will lead to the 0.5.x series of
+VLC. </p>
+
+<h2>CVS tarball snapshots</h2>
+
+<p> If you have trouble using CVS, you can still use our <a
+href="/pub/videolan/vlc/snapshots/">daily VLC CVS snapshots</a>. </p>
+
+<h2>Write access policy</h2>
+
+<p> As usual in opensource projects, you get write access to the CVS
+repository when you have shown your skills and ability to write good
+patches :) </p>
+

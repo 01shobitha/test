@@ -115,7 +115,7 @@ to the modules that were compiled.</para>
 <para>In every tab, you may click on "Save" to store your
 settings in your configuration file. (you can find it in
 <command>~/.vlc/vlcrc</command> on Unix/Linux systems, or in
-<command>Application Data\Videolan\vlcrc</command> </para>
+<command>Application Data\vlc\vlcrc</command> </para>
 
 <sect2><title>Interface tab</title>
 

@@ -228,15 +228,6 @@
 </tr>
 
 <tr>
-<td class="category"><a href="http://wiki.videolan.org/tiki-index.php?page=AVI" target="_blank">AVI</a></td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="yes">Yes</td>
-</tr>
-
-<tr>
 <td class="category">Raw</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -273,7 +264,6 @@
 <td class="matrixhead"><a href="http://wiki.videolan.org/tiki-index.php?page=ASF" target="_blank">ASF</a></td>
 <td class="matrixhead"><a href="http://wiki.videolan.org/tiki-index.php?page=container" target="_blank">MP4</a></td>
 <td class="matrixhead"><a href="http://wiki.videolan.org/tiki-index.php?page=container" target="_blank">MOV</a></td>
-<td class="matrixhead"><a href="http://wiki.videolan.org/tiki-index.php?page=AVI" target="_blank">AVI</a></td>
 <td class="matrixhead"><a href="http://wiki.videolan.org/tiki-index.php?page=MPMJPEG" target="_blank">MPMJPEG</a></td>
 <td class="matrixhead">Raw</td>
 </tr>
@@ -287,7 +277,6 @@
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="no">No</td>
-<td class="yes">Yes</td>
 <td class="no">No</td>
 <td class="yes">Yes</td>
 </tr>
@@ -300,14 +289,12 @@
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="no">No</td>
-<td class="yes">Yes</td>
 <td class="no">No</td>
 <td class="yes">Yes</td>
 </tr>
 
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=Codec" target="_blank">MPEG-4 video</a></td>
-<td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -326,7 +313,6 @@
 <td class="yes">Yes</td>
 <td class="no">No</td>
 <td class="no">No</td>
-<td class="yes">Yes</td>
 <td class="no">No</td>
 <td class="no">No</td>
 </tr>
@@ -339,7 +325,6 @@
 <td class="yes">Yes</td>
 <td class="no">No</td>
 <td class="no">No</td>
-<td class="yes">Yes</td>
 <td class="no">No</td>
 <td class="no">No</td>
 </tr>
@@ -352,7 +337,6 @@
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="no">No</td>
-<td class="yes">Yes</td>
 <td class="no">No</td>
 <td class="no">No</td>
 </tr>
@@ -365,7 +349,6 @@
 <td class="yes">Yes</td>
 <td class="no">No</td>
 <td class="no">No</td>
-<td class="yes">Yes</td>
 <td class="partial">SVN only</td>
 <td class="no">No</td>
 </tr>
@@ -375,7 +358,6 @@
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="yes">Yes</td>
-<td class="no">No</td>
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="no">No</td>
@@ -392,7 +374,6 @@
 <td class="yes">Yes</td>
 <td class="no">No</td>
 <td class="no">No</td>
-<td class="yes">Yes</td>
 <td class="no">No</td>
 <td class="yes">Yes</td>
 </tr>
@@ -405,7 +386,6 @@
 <td class="yes">Yes</td>
 <td class="no">No</td>
 <td class="no">No</td>
-<td class="yes">Yes</td>
 <td class="no">No</td>
 <td class="yes">Yes</td>
 </tr>
@@ -420,7 +400,6 @@
 <td class="yes">Yes</td>
 <td class="no">No</td>
 <td class="no">No</td>
-<td class="no">No</td>
 </tr>
 
 <tr>
@@ -433,7 +412,6 @@
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="no">No</td>
-<td class="no">No</td>
 </tr>
 
 <tr>
@@ -441,7 +419,6 @@
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="yes">Yes</td>
-<td class="no">No</td>
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="no">No</td>

@@ -19,10 +19,10 @@ for the configure and build process (perl 5.8.0, autoconf 2.57, automake
 libvorbis 1.0, mad 0.14.2b, libdvdcss CVS-20030130, and libdvdplay
 CVS-20030130).</li>
 <li>In order to use these libraries, add the following lines to your
-/boot/home/.profile:
-<code>export CFLAGS=-I/boot/home/config/include</code>
-<code>export CPPFLAGS=-I/boot/home/config/include</code>
-<code>export CXXFLAGS=-I/boot/home/config/include</code>
+/boot/home/.profile:<br>
+<code>export CFLAGS=-I/boot/home/config/include</code><br>
+<code>export CPPFLAGS=-I/boot/home/config/include</code><br>
+<code>export CXXFLAGS=-I/boot/home/config/include</code><br>
 <code>export LDFLAGS=-L/boot/home/config/lib</code>
 </li>
 <li>Not necessary but convenient: <a href="http://www.bebits.com/app/2157">
@@ -34,7 +34,7 @@ gcc 2.95.3</a>.</li>
 <li>Download the source code (use cvs or download the archive)</li>
 <li>cd to the source directory</li>
 <li>run <code>./bootstrap</code></li>
-<li>run ./configure. The following is suggested:
+<li>run ./configure. The following is suggested:<br>
 <code>./configure --enable-a52 --enable-ffmpeg --enable-dvdplay
 --enable-mad --enable-ogg --enable-vorbis --enable-debug</code></li>
 <li>run <code>make</code></li>
@@ -43,6 +43,6 @@ may fail on a few modules. It is a gcc bug, you can avoid it by using gcc
 2.95.3 or by increase the optimzation level from -O3 to -O0.</li>
 </ul>
 
-<p><b>Written by <a href="mailto:titer@videolan.org>Eric Petit</a>, for
+<p><b>Written by <a href="mailto:titer@videolan.org">Eric Petit</a>, for
 the VideoLAN Team.</b></p>
 

@@ -325,7 +325,7 @@ msgstr "Pracht"
 #: en/play-howto.xml:37
 #, no-wrap
 msgid "ClÃ©ment"
-msgstr "Clément"
+msgstr "ClÃ©ment"
 
 # type: Content of: <book><bookinfo><authorgroup><author><surname>
 #: en/play-howto.xml:38
@@ -446,10 +446,10 @@ msgid ""
 "<xref linkend=\"gpl\" endterm=\"tgpl\"/>."
 msgstr ""
 "la permission de copier, ditribuer et/ou modifier ce document est garantie\n"
-" sous le terme du GNU General Public License comme publié par la Free \n"
+" sous le terme du GNU General Public License comme publiÃ© par la Free \n"
 "software foundation;selon la version 2 de la License ou\n"
-" toute version plus récente.\n"
-"le texte de la License peut etre trouvé dans l'appendice.\n"
+" toute version plus rÃ©cente.\n"
+"le texte de la License peut etre trouvÃ© dans l'appendice.\n"
 "<xref linkend=\"gpl\" endterm=\"tgpl\"/>."
 
 # type: Content of: <book><bookinfo><keywordset><keyword>
@@ -565,7 +565,7 @@ msgstr ""
 "&intro;\n"
 "&installer;\n"
 "&utilisation de base;\n"
-"&utilisation avncée;\n"
+"&utilisation avncÃ©e;\n"
 "&gpl;\n"
 "&http;\n"
 "\n"
@@ -595,7 +595,7 @@ msgid ""
 "a skinnable interface for Windows and GNU/Linux."
 msgstr ""
 "VLC a differentes interfaces: une cross-platform interface,pour\n"
-"Windows et  GNU/Linux,appellée wxWindows,une interface pour macOS X et\n"
+"Windows et  GNU/Linux,appellÃ©e wxWindows,une interface pour macOS X et\n"
 " une interface skimnable pour Windows and GNU/Linux."     
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/basic-use.xml:12
@@ -612,7 +612,7 @@ msgid ""
 "Windows."
 msgstr ""
 "c'est l'interface par default sur windows et GNU/Linux (le\n"
-"screenshot est fait sur GNU/Linux,mais ça donne la meme chose sous\n"
+"screenshot est fait sur GNU/Linux,mais Ã§a donne la meme chose sous\n"
 " windows."
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:22 en/basic-use.xml:23
@@ -624,7 +624,7 @@ msgstr "l'interface wxWindows"
 #: en/basic-use.xml:26
 #, no-wrap
 msgid "This interface also features an <emphasis>Extended GUI</emphasis> which contains many additional features. To display or hide it, go to the <emphasis>Settings</emphasis> menu and click <emphasis>Extended GUI</emphasis>."
-msgstr "cette interface dispose aussi un <emphasis>interface etendue</emphasis> qui contient plusieurs dispositifs suplémentaires.pour le désactiver ou le cacher,allez dans le menu <emphasis> Paramètres </emphasis> et cliquez sur <emphasis> interface etendue</emphasis>. "
+msgstr "cette interface dispose aussi un <emphasis>interface etendue</emphasis> qui contient plusieurs dispositifs suplÃ©mentaires.pour le dÃ©sactiver ou le cacher,allez dans le menu <emphasis> ParamÃ¨tres </emphasis> et cliquez sur <emphasis> interface etendue</emphasis>. "
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:32 en/basic-use.xml:33
@@ -654,9 +654,9 @@ msgid ""
 "and select Open. VLC will start playing the selected file. \n"
 msgstr ""
 "pour ouvrir un fichier,ouvrez le menu <emphasis>Fichier</emphasis>,et selectionnez \n"
-"le menu <emphasis>ouvrir un fichier (avançé)</emphasis>.Une fenetre de dialogue \n"
+"le menu <emphasis>ouvrir un fichier (avanÃ§Ã©)</emphasis>.Une fenetre de dialogue \n"
  "apparaitra.Selectionnez le fichier que vous voulez ouvrir et \n"
- "cliquez sur ouvrir.VLC commencera la lecture du fichier selectionné. \n " 
+ "cliquez sur ouvrir.VLC commencera la lecture du fichier selectionnÃ©. \n " 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:49
 #, no-wrap
@@ -726,9 +726,9 @@ msgid ""
 "the appropriate drive letter or device name in the \"Device Name\" text input. \n"
 "This should be autodetected on MacOS X."
 msgstr ""
-"vous pouvez choisir le périphérique depuis lequel la media doit etre lue en donnant\n"
-"la lettre correspondant ou le nom complet du péréphérique dans \" Nom du périphérique\".\n "
-"cela doit etre detecté automatiquement pour Mac OS X."
+"vous pouvez choisir le pÃ©riphÃ©rique depuis lequel la media doit etre lue en donnant\n"
+"la lettre correspondant ou le nom complet du pÃ©rÃ©phÃ©rique dans \" Nom du pÃ©riphÃ©rique\".\n "
+"cela doit etre detectÃ© automatiquement pour Mac OS X."
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:97
 #, no-wrap
@@ -737,8 +737,8 @@ msgid ""
 "chapter instead of from the beginning, you can set it using the <emphasis>Title\n"
 "</emphasis> and <emphasis>Chapter</emphasis> selectors."
 msgstr ""
-"si vous voulez commencer le playback du CD ou du VCD depuis un titre donné\n"
-" et le chapitre au lieu de du commencement, vous pouvez le placer à l'aide\n"
+"si vous voulez commencer le playback du CD ou du VCD depuis un titre donnÃ©\n"
+" et le chapitre au lieu de du commencement, vous pouvez le placer Ã  l'aide\n"
 " des selecteurs de  <emphasis>Titre</emphasis> and <emphasis>Chapitre</emphasis>\n"
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:100
@@ -774,7 +774,7 @@ msgstr "la fenetre de dialogue pour ouvrir un disque pour l'interface MacOS X"
 #: en/basic-use.xml:120
 #, no-wrap
 msgid "Play a network stream (WebRadio, WebTV, ...)"
-msgstr "lire un flux du réseau(WebRadio, WebTV, ...)"
+msgstr "lire un flux du rÃ©seau(WebRadio, WebTV, ...)"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:121
@@ -785,7 +785,7 @@ msgid ""
 "Stream\" menu item."
 msgstr ""
 " \n"
-"Pour ouvrir un flux  réseau, ouvrez le menu \"Fichier\"  et choisissez \"ouvrir un flux  réseau\n"
+"Pour ouvrir un flux  rÃ©seau, ouvrez le menu \"Fichier\"  et choisissez \"ouvrir un flux  rÃ©seau\n"
 "Article du menu flux\"" 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/basic-use.xml:126
@@ -796,8 +796,8 @@ msgid ""
 "(it is 1234 for streams sent by a VLC or VLS server).\n"
 msgstr ""
 "Pour ouvrir un flux d'unicast de UDP,choisissez <emphasis>UDP/RTP\n"
-"</emphasis> , et placer le port approprié de UDP dans le sélecteur\n"
-"(c' est 1234 pour des flux envoyés par un serveur de VLC ou de VLS)."
+"</emphasis> , et placer le port appropriÃ© de UDP dans le sÃ©lecteur\n"
+"(c' est 1234 pour des flux envoyÃ©s par un serveur de VLC ou de VLS)."
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/basic-use.xml:130
 #, no-wrap
@@ -810,7 +810,7 @@ msgid ""
 msgstr ""
 "\n"
 "Pour ouvrir un flux de multicast de UDP, choisissez<emphasis> le multicast\n"
-"d'UDP/RTP</emphasis>. Donnez l'adresse du groupe de multicast dans la saisie\n""des textes d\"Adresse\", et choisissez le port approprié de UDP."
+"d'UDP/RTP</emphasis>. Donnez l'adresse du groupe de multicast dans la saisie\n""des textes d\"Adresse\", et choisissez le port appropriÃ© de UDP."
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/basic-use.xml:135
 #, no-wrap
@@ -823,10 +823,10 @@ msgid ""
 "in the corresponding text input. This also the way to open a RTSP stream \n"
 "with the MacOS X interface.\n"
 msgstr ""
-"Pour ouvrir un flux envoyé par HTTP(Webradios, WebTVs, Shoutcast, Icecast...)\n"",ftp, ou mms (serveur de médias de Microsoft), choisissez \"HTTP/FTP/MMS\"\n"
+"Pour ouvrir un flux envoyÃ© par HTTP(Webradios, WebTVs, Shoutcast, Icecast...)\n"",ftp, ou mms (serveur de mÃ©dias de Microsoft), choisissez \"HTTP/FTP/MMS\"\n"
 " , et donnez l'URL correspondante dans la saisie des textes correspondante\n"
 " , (comme http://live.stream.org:8080/live ou\n" 
-" mms://live.ms.stream.net:8080/live.asf).Ceciest également la méthode\n"
+" mms://live.ms.stream.net:8080/live.asf).Ceciest Ã©galement la mÃ©thode\n"
 " d'ouvrir un flux de RTSP avec l'interface de MacOS X."
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/basic-use.xml:143

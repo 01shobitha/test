@@ -11,62 +11,51 @@
 <li>You need <a href="http://www.bebits.com/app/2680">BeOS 5</a> or
 higher with developpement tools.</li>
 
-<li>You need a few utilities for the build process:
+<li>You need a few utilities for the build process,
+and several librairies in order to make a full VLC
+build for BeOS. You can build them yourself, or you
+can download and untar to /boot/home/config/ this <a
+href="http://videolan.org/pub/videolan/devtools/beos-boot-home-config-20
+030506.tar.gz">archive</a> (last updated: 2003/05/05), which contains
+the following compiled for BeOS:
+
   <ul>
+  <li>cvs 1.11</li>
   <li>perl 5.8.0</li>
   <li>autoconf 2.57</li>
   <li>automake 1.7.3</li>
   <li>libtool 1.4.2</li>
-  <li>gettext 0.11.5</li>
-  </ul>
-
-This <a
-href="http://videolan.org/pub/videolan/devtools/vlc_build_tools_beos.tar.gz">
-archive</a> (last updated: 2003/03/25) includes all these tools built
-for BeOS. Just download it and untar it to /boot/home/config/.
-
-</li>
-<li>You need several librairies in order to make a full VLC build for BeOS:
-  <ul>
+  <li>gettext 0.11.5 w/ libiconv 1.8</li>
   <li>a52dec 0.7.4</li>
-  <li>libavcodec CVS-20030304</li>
+  <li>ffmpeg CVS-20030505</li>
   <li>libdvdplay 1.0.1</li>
   <li>libdvdread 0.9.4</li>
   <li>libdvdcss 1.2.6</li>
-  <li>libfaad CVS-20030130</li>
-  <li>libFLAC 1.1.0</li>
-  <li>libmpeg2 CVS-20030325</li>
+  <li>faad2 CVS-20030505</li>
+  <li>FLAC 1.1.0</li>
+  <li>mpeg2dec CVS-20030505</li>
   <li>libogg 1.0</li>
   <li>libvorbis 1.0</li>
   <li>mad 0.14.2b</li>
   </ul>
-This <a
-href="http://videolan.org/pub/videolan/devtools/vlc_needed_librairies_beos.tar.gz">
-archive</a> (last updated: 2003/03/25) includes all these libraries built
-for BeOS. Just download it and untar it to /boot/home/config/.
 </li>
-
 <li>In order to use these libraries, add the following lines to your
 /boot/home/.profile:<br>
-<code>export CFLAGS=-I/boot/home/config/include</code><br>
-<code>export CPPFLAGS=-I/boot/home/config/include</code><br>
-<code>export CXXFLAGS=-I/boot/home/config/include</code><br>
-<code>export LDFLAGS=-L/boot/home/config/lib</code>
+<code>export C_INCLUDE_PATH="${C_INCLUDE_PATH}:/boot/home/config/include"</code><br>
+<code>export CPLUS_INCLUDE_PATH="${CPLUS_INCLUDE_PATH}:/boot/home/config/include"</code><br>
+<code>export LDFLAGS="${LDFLAGS} -L/boot/home/config/lib"</code><br>
 </li>
-
-<li>Convenient: <a href="http://www.bebits.com/app/1610">cvs</a>.</li>
 </ul>
 
 <p>Now you can compile vlc:</p>
 <ul>
-<li>Download the source code (use cvs or download the archive)</li>
+<li>download the source code (use CVS or download the archive)</li>
 <li>cd to the source directory</li>
-<li>run <code>./bootstrap</code></li>
+<li>if you are using CVS, run <code>./bootstrap</code></li>
 <li>run ./configure. The following is suggested:<br>
-<code>./configure --enable-debug --enable-a52 --enable-ffmpeg
---enable-dvdplay --enable-faad --enable-mad --enable-ogg --enable-vorbis
---enable-libmpeg2 --enable-flac</code></li>
+<code>./configure --enable-debug --disable-plugins --enable-ffmpeg --enable-flac --enable-faad</code></li>
 <li>run <code>make</code></li>
+<li>to make a package, run <code>make package-beos</code></li>
 </ul>
 
 <p><b>Written by <a href="mailto:titer@videolan.org">Eric Petit</a>, for

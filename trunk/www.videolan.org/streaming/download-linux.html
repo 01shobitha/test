@@ -5,7 +5,7 @@
    require("header.php3");
 ?>
 
-<? function pkgitem($version,$name) { ?><li><a href="/pub/videolan/vls/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
+<? function pkgitem($version,$name) { ?><li><a href="/pub/videolan/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
 
 <h1> <a href="/">VideoLAN</a> / <a href="/streaming/">Streaming</a> / VLS for Linux </h1>
 
@@ -15,11 +15,22 @@
 
 <ul>
   <?
-     pkgitem("0.4.0","vls-0.4.0.tar.gz");
-     pkgitem("0.4.0","vls-0.4.0.tar.bz2");
+     pkgitem("vls/0.4.0","vls-0.4.0.tar.gz");
+     pkgitem("vls/0.4.0","vls-0.4.0.tar.bz2");
   ?>
   <li><a href="/pub/videolan/vls/0.4.0/"><i>browse the list</i></a></li>
 </ul>
+
+<p> Latest required librairies: </p>
+
+<ul>
+  <?
+     pkgitem("vls/0.4.0","libdvdcss-1.2.4.tar.gz");
+     pkgitem("vls/0.4.0","libdvbpsi-0.1.2.tar.gz");
+  ?>
+  <li><a href="/pub/videolan/vls/0.4.0/contrib"><i>browse the list</i></a></li>
+</ul>
+
 
 <h2>Debian GNU/Linux</h2>
 
@@ -27,10 +38,20 @@
 
 <ul>
   <?
-     pkgitem("0.4.0/deb","vls_0.4.0-1_i386.deb");
-     pkgitem("0.4.0/deb","vls-dvd_0.4.0-1_i386.deb");
-     pkgitem("0.4.0/deb","vls-dvb_0.4.0-1_i386.deb");
+     pkgitem("vls/0.4.0/deb","vls_0.4.0-1_i386.deb");
   ?>
+</ul>
+<p> Input plug-ins:</p>
+<ul><?
+     pkgitem("vls/0.4.0/deb","vls-dvd_0.4.0-1_i386.deb");
+     pkgitem("vls/0.4.0/deb","vls-dvb_0.4.0-1_i386.deb");
+?></ul>
+<p>Librairies:</p>
+<ul><?
+     pkgitem("libdvdcss/1.2.4/deb","libdvdcss2_1.2.4-2_i386.deb");
+     pkgitem("libdvbpsi/0.1.2/deb","libdvbpsi1_0.1.2-2_i386.deb");
+?></ul>
+<ul>
   <li><a href="/pub/videolan/vls/0.4.0/deb/"><i>browse the list</i></a></li>
 </ul>
 
@@ -40,13 +61,33 @@
 
 <ul>
   <?
-     pkgitem("0.4.0/rpm","vls-0.4.0-1.src.rpm");
-     pkgitem("0.4.0/rpm","vls-0.4.0-1.i586.rpm");
-     pkgitem("0.4.0/rpm","vls-dvd-0.4.0-1.i586.rpm");
-     pkgitem("0.4.0/rpm","vls-dvb-0.4.0-1.i586.rpm");
+     pkgitem("vls/0.4.0/rpm","vls-0.4.0-1.i586.rpm");
   ?>
+</ul>
+<p>Input plug-ins:</p>
+<ul><?
+     pkgitem("vls/0.4.0/rpm","vls-dvd-0.4.0-1.i586.rpm");
+     pkgitem("vls/0.4.0/rpm","vls-dvb-0.4.0-1.i586.rpm");
+?></ul>
+<p>Librairies:</p>
+<ul><?
+     pkgitem("libdvdcss/1.2.4/rpm","libdvdcss2-1.2.4-1.i586.rpm");
+     pkgitem("libdvbpsi/0.1.2/rpm","libdvbpsi1-0.1.2-1.i586.rpm");
+?></ul>
+<p>Source packages: </p>
+<ul><?
+     pkgitem("vls/0.4.0/rpm","vls-0.4.0-1.src.rpm");
+     pkgitem("libdvdcss/1.2.4/rpm","libdvdcss2-1.2.4-1.src.rpm");
+     pkgitem("libdvbpsi/0.1.2/rpm","libdvbpsi1-0.1.2-1.src.rpm");
+?></ul>
+<ul>
   <li><a href="/pub/videolan/vls/0.4.0/rpm/"><i>browse the list</i></a></li>
 </ul>
+
+<p> Since there are many RPM-based distributions, you may get a better
+package by rebuilding it yourself. Download the SRPM and run for
+instance <code>rpm --rebuild vls-0.4.0-1.src.rpm</code>. The RPMs can
+then be found in <code>/usr/src/RPM/RPMS/</code>. </p>
 
 <h2>Older versions</h2>
 

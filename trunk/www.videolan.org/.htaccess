@@ -54,15 +54,21 @@ RewriteRule ^vlc/(.*).bz2$ /removed/$1.bz2 [R=permanent,L]
 RewriteRule ^freedvd.html$ /removed/freedvd.html [R=permanent,L]
 
 #
+# We get many 404 for this one
+#
+Redirect permanent debian/ http://www.videolan.org
+
+
+#
 # Redirects for doc
 #
+
+# New directory structure
 Redirect permanent /doc/videolan-howto/videolan-howto-en.html http://www.videolan.org/doc/videolan-howto/en/videolan-howto-en.html
-#Redirect permanent /doc/videolan-quickstart/videolan-quickstart-en.html http://www.videolan.org/doc/videolan-quickstart/en/videolan-quickstart-en.html
 Redirect permanent /doc/vlc-user-guide/vlc-user-guide-en.html http://www.videolan.org/doc/vlc-user-guide/en/vlc-user-guide-en.html
 Redirect permanent /doc/vls-user-guide/vls-user-guide-en.html http://www.videolan.org/doc/vls-user-guide/en/vls-user-guide-en.html
-Redirect permanent /doc/faq/index.html http://www.videolan.org/doc/faq/en/faq-en.html
+Redirect permanent /doc/faq/index.html http://www.videolan.org/doc/faq/en/videolan-faq-en.html
 Redirect permanent /doc/videolan-howto/index.html http://www.videolan.org/doc/videolan-howto/en/videolan-howto-en.html
-#Redirect permanent /doc/videolan-quickstart/index.html http://www.videolan.org/doc/videolan-quickstart/en/videolan-quickstart-en.html
 Redirect permanent /doc/vlc-user-guide/index.html http://www.videolan.org/doc/vlc-user-guide/en/vlc-user-guide-en.html
 Redirect permanent /doc/vls-user-guide/index.html http://www.videolan.org/doc/vls-user-guide/en/vls-user-guide-en.html
 Redirect permanent /doc/faq/videolan-faq-en.html http://www.videolan.org/doc/faq/en/videolan-faq-en.html
@@ -74,7 +80,18 @@ Redirect permanent /doc/faq/videolan-faq-es.html http://www.videolan.org/doc/faq
 #
 Redirect permanent /doc/videolan-quickstart http://www.videolan.org/doc/
 
+#
+# Some dumb people link to us with doc//$LANG/document
+#
+Redirect permanent /doc/fr/vlc-user-guide http://www.videolan.org/doc/vlc-user-guide/fr
+Redirect permanent /doc/fr/videolan-howto http://www.videolan.org/doc/videolan-h
+owto/fr
+Redirect permanent /doc/fr/vls-user-guide http://www.videolan.org/doc/vls-user-guide/fr
 
+Redirect permanent /doc/en/vlc-user-guide http://www.videolan.org/doc/vlc-user-guide/en
+Redirect permanent /doc/en/videolan-howto http://www.videolan.org/doc/videolan-h
+owto/en
+Redirect permanent /doc/en/vls-user-guide http://www.videolan.org/doc/vls-user-guide/en
 
 #
 # Redirects for stuff moved to developers site
@@ -90,6 +107,10 @@ RewriteRule ^libdvbpsi/download.html http://developers.videolan.org/pub/videolan
 RewriteRule ^libdvbpsi.* http://developers.videolan.org/libdvbpsi/index.html [R=permanent,L]
 RewriteRule ^libdvdplay/download.html http://developers.videolan.org/pub/videolan/libdvdplay/ [R=permanent,L]
 RewriteRule ^libdvdplay.* http://developers.videolan.org/libdvdplay/index.html [R=permanent,L]
+
+Redirect permanent /developers http://developers.videolan.org
+Redirect permanent /cvs http://developers.videolan.org/cvs.html
+
 
 #
 # Redirects for moved stuff -- fallbacks

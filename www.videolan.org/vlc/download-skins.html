@@ -23,14 +23,14 @@
     <tr><td class="skins-comment">
       <? echo $text; ?>
     </td></tr>
-    <tr><? if(strlen($zip)>2) {
+    <tr><td><? if(strlen($zip)>2) {
         CSSButton( "document.location='/vlc/skins/$zip'", 
                    "skins-download", "skins-download-over",
                    "skins-download-down" );
         echo "Download ZIP file";
     } ?>
     </td></tr>
-    <tr><? if(strlen($vlt)>2) {
+    <tr><td><? if(strlen($vlt)>2) {
         CSSButton( "document.location='/vlc/skins/$vlt'",
                    "skins-download", "skins-download-over",
                    "skins-download-down" );

@@ -108,8 +108,8 @@ function starthtml($title) { ?>
  <td style="text-align: center; vertical-align: middle">
      <select name="mirror">
      <!-- current: $GLOBALS['HTTP_HOST'] -->
-     <option value="www.videolan.org">Châtenay, France (main)</option>
-     <option value="www.fr.videolan.org">Paris, France</option>
+     <option value="www.videolan.org">Main site (VIA)</option>
+     <option value="www.fr.videolan.org">Mirror site (Zoy)</option>
      </select><br/><input type="submit" value="Select Mirror" />
  </td>
 </tr>
@@ -203,7 +203,7 @@ function footer($title,$language,$date) { ?>
   <tr>
     <td align="left">
       <a href="/">VideoLAN</a> &nbsp;-&nbsp;
-      Paris, France &nbsp;-&nbsp; See the 
+      See the
      <a href="http://brahma.via.ecp.fr/videolan/">statistics</a>
      &nbsp;-&nbsp; <? echo $date; ?>
     </td>

@@ -184,7 +184,7 @@ Download the sources of the lastest release : get the file
 <prompt>% </prompt><userinput>./configure --help</userinput>
 </screen>
 
-<para><command>FIXME: le lien</command>Please note that all the modules are described in the Modules section of the VLC User Guide</para>
+<para>Please note that all the modules are described in the "Modules" section of the VLC User Guide</para>
 
 
 <para>Exemples of very simple configurations:</para>

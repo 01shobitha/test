@@ -9,57 +9,61 @@ you want to  customize the VideoLAN Client to your  needs, you will have
 to compile the VLC from its sources.</para>
 <para><emphasis>If you don't intend to compile  the VLC and want only the "normal"
 functions, reading this part is not very useful</emphasis></para>
-<para> The compilation is explained in the next chapter.</para>
+<para> The compilation itself is explained in the next chapter.</para>
 <para>If you wish to compile a module which is stated <emphasis>disabled
 by  default</emphasis>, you  have to  launch the  configure script  with
 </para>
 <screen><prompt>%</prompt><userinput>
  ./configure --enable-module_name </userinput></screen>
 <para>Of  course, on  the other  hand, if  you would  like to  disable a
-module that is enabled by default, you would have to use the</para>
+module that is <emphasis>enabled by default</emphasis>, you would have to use the</para>
 <screen><prompt>%</prompt><userinput>
  ./configure --disable-module_name </userinput></screen>
-<para>switch when running the configuration script</para>
+<para>switch when running the configuration script.</para>
 </sect1>
 
 
 <!--                                           Video Outputs -->
 <sect1><title>Video outputs</title>
 
-<para>Video outputs are the modules that enable the support of some systems for outputing the decoded video stream to your screen</para>
+ <para>Video outputs are the modules that enable the support of some
+ systems for outputing the decoded video stream to your screen.</para>
 
-<sect2><title>x11</title>
+ <sect2><title>x11</title>
+ <para><emphasis>default : enabled</emphasis></para>
+ <para><emphasis>For Unix with X11 servers only</emphasis></para>
+ <para>This is the basic x11 video output. It only requires a
+ working X11 server. You will need xlibs headers to compile it
+ (<emphasis>xlibs-dev</emphasis> package on Debian systems).</para>
+ </sect2>
 
-<para><emphasis>default : enabled</emphasis></para>
-<para><emphasis>For Unix with X11 servers only</emphasis></para>
-<para>This is the basic x11 video output. It only requires a working X11 server. You will need xlibs headers to compile it (xlibs-dev package on Debian systems).</para>
+ <sect2><title>xvideo</title>
+ <para><emphasis>default : enabled</emphasis></para>
+ <para><emphasis>For Linux only</emphasis></para>
+ <para>It requires an xvideo compliant graphic card (it is the case for
+ nearly all the modern card). It uses hardware acceleration for yuv
+ transformation and for rescaling.</para>
+ </sect2>
 
-</sect2><sect2><title>xvideo</title>
+ <sect2><title>sdl</title>
+ <para><emphasis>default : enabled</emphasis>
+ <para>This video output uses sdl libraries. You need at least version
+ 1.1.6 of this libraries.</para>
+ <para>
+ You may indicate the path to the sdl-config program with the
+ <command> --with-sdl-config-path=PATH </command> switch, when running
+ the configre script </para>
+ </sect2>
 
-<para><emphasis>default : enabled</emphasis></para>
-<para><emphasis>For Linux only</emphasis></para>
-<para>It requires an xvideo compliant graphic card (it is the case for nearly all the modern card). It uses hardware acceleration for yuv transformation and for rescaling.</para>
-
-</sect2>
-<sect2><title>sdl</title>
-<para><emphasis>default : enabled</emphasis>
-
-<para>This video output uses sdl libraries. You need at least version 1.1.6 of this libraries.</para>
-<para>
-You may indicate the path to the sdl-config program with the
-<command> --with-sdl-config-path=PATH </command> switch, when running the configre script
-</para>
-<para>
-</sect2>
-
-<sect2><title>directx</title>
-<para><emphasis>default: enabled on win32</emphasis></para>
-<para><emphasis>For Windows only</emphasis></para>
-<para>This video output uses Microsoft Direct X libraries. It is recommended for the win32 port.</para>
-<para>You may indicate the path to directX libraries and headers with the
-<command>--with-directx=PATH</command> switch, when running the configure script
-</para>
-</sect2>
+ <sect2><title>directx</title>
+ <para><emphasis>default: enabled on win32</emphasis></para>
+ <para><emphasis>For Windows only</emphasis></para>
+ <para>This video output uses Microsoft Direct X libraries. It is
+ recommended for the win32 port.</para>
+ <para>You may indicate the path to directX libraries and headers with
+ the <command>--with-directx=PATH</command> switch, when running the
+ configure script </para>
+ </sect2>
 
 <sect2><title>wingdi</title>
 <para><emphasis>default: enabled on win32</emphasis></para>
@@ -438,8 +442,8 @@ of the categories described before</para>
 <para><emphasis>default: enabled</emphasis></para>
 <para>Stream Output is a new feature  of the VideoLAN Client that allows
 him to stream, juste like the VideoLAN server</para>
-<para>For more details, please have a look at the [FIXME: où, quoi ? ]*
-</para>
+<para>For more details, please have a look at the "Graphical user
+interface" or "Command Line" sections.</para>
 </sect2>
 
 <sect2><title>test-suite</title>

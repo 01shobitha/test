@@ -69,7 +69,7 @@ documentation of these programs. Then start VLC:</para>
 
 <para>You shouldn't need any option. If you're paranoid and want to control
 everything, here is the exact syntax:</para>
-<screen><prompt>%</prompt><userinput>vlc udp:[server[:server port]][@[bind address][:bind port]]</userinput></screen>
+<screen><prompt>%</prompt><userinput>vlc udp:[&lt;server&gt;[:&lt;server port&gt;]][@[&lt;bind address&gt;][:&lt;bind port&gt;]]</userinput></screen>
 </answer></qandaentry>
 
 <qandaentry><question><para>How do I uninstall / reinstall VLC?</para></question><answer>
@@ -161,7 +161,7 @@ some elements to improve speed:</para>
 
 <itemizedlist>
 <listitem><para>Turn on DMA on your DVD device, for instance</para>
-<screen><userinput>Undes Linux:  </userinput><prompt>%</prompt><userinput>hdparm -X34 -d1 /dev/dvd</userinput></screen>
+<screen><prompt>Under Linux:      % </prompt><userinput>hdparm -X34 -d1 /dev/dvd</userinput></screen>
 
 <para>Under Windows,  go to  the <emphasis>System</emphasis>  section of
 the control  panel, and go to  the <emphasis>Hardware manager</emphasis>
@@ -186,7 +186,7 @@ video board</para>
 </answer></qandaentry>
 
 <qandaentry><question><para>Audio and video are out of sync</para></question><answer>
-<para>This is not normal. Try using another output plug-in (for instance --aout dsp),
+<para>This is not normal. Try using another output plug-in (for instance --aout oss),
 kill esd or artsd if they are running... This is a known problem and
 is being investigated.</para>
 </answer></qandaentry>
@@ -211,13 +211,12 @@ messages (on the terminal or in the Messages window).</para>
 <para>If you cannot solve your  problem, don't hesitate to subscribe the
 <emphasis>vlc@videolan.org</emphasis>  mailing  list  and send  us  your
 question. Don't forget to give the debug messages, as this could help us
-to try to solve your problem</para>
+trying to solve your problem</para>
 </answer></qandaentry>
 
 <qandaentry><question><para>I am  running Unix/Linux,  and I  can only  play a  DVD as
 root</para></question><answer>
-<para>check  that as  user you  have write  access to  your DVD  drive /
-device.</para>
+<para>Please check  that, as  user, you  have write  access to  your DVD  drive  or device (you could have to be in the <emphasis>disk</emphasis> group).</para>
 </answer></qandaentry>
 
 <qandaentry><question><para>I'm stuck with option xxx, how do I reset options?</para></question><answer>
@@ -227,7 +226,7 @@ Under Windows, remove the <filename>vlcrc</filename> file,
 in the <filename>videolan</filename> subfolder of your <filename>Application Data</filename> (usually found in <filename>C:\Documents and Settings\your_name</filename> directory ).
 </answer></qandaentry>
 
-<qandaentry><question><para>I don't have access to the GUI anymore</para></question><answer>
+<qandaentry><question><para>I don't have access to the GUI anymore.</para></question><answer>
 
 <para>If you change the default interface module in the preferences menu
 to a non GUI module (ie. to  a command line interface) and then save the
@@ -298,7 +297,8 @@ Systems and completing the functionalities.</para></answer>
 </answer></qandaentry>
 
 <qandaentry><question><para>Does VLC support RTP?</para></question><answer>
-<para>Yes. Just use vlc rtp:@mcast addr:local port.</para>
+<para>Yes. Just use</para>
+<screen><prompt>% </prompt><userinput>vlc rtp:@mcast addr:local port.</userinput></screen>
 </answer></qandaentry>
 
 <qandaentry><question><para>Does VLC support DVD from all zones?</para></question><answer>

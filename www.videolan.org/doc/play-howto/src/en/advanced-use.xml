@@ -603,8 +603,10 @@ section).</para>
 <para>Gestures provide a simple mouse gestures control. TODO</para>
 </sect2>
 
+<!--
 <sect2><title>Joystick</title> <para>Joystick (only for GNU/Linux)
 provides control of VLC using a joystick. TODO </para> </sect2>
+-->
 
 </sect1>
 

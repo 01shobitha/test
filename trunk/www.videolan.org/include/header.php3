@@ -65,99 +65,31 @@ function starthtml($title) { ?>
   </tr></table>
 </form><?
 
-   /*
-    * The main table
-    */
+   /* This is where the real user page stands */
 
-?><table border="0" cellspacing="0" cellpadding="10">
-  <tr>
-    <td><?
-
-        /*
-         * the cone logo
-         */
-
-      ?><table class="fill">
-        <tr>
-          <td class="center">
-            <a href="/"><img src="/images/cone.png" width="78" height="100" alt="Logo" style="border: 0;" /></a>
-          </td>
-        </tr>
-      </table><?
-
-        /*
-         * the side menu
-         */
-          switch($modules[1]) {
-           case "vlc": ?>
-  <h2><a href="/vlc/">VLC Media Player</a></h2>
-    <a href="/vlc/">overview</a><br />
-    <a href="/vlc/">features</a><br />
-    <a href="/vlc/">downloads</a><br />
-    <a href="/vlc/">screenshots</a><br />
-    <a href="/vlc/">FAQ</a><br /> <?
-             break;
-           case "streaming": ?>
-  <h2>Streaming</h2>
-    <a href="/streaming/">overview</a><br />
-    <a href="/streaming/">features</a><br />
-    <a href="/streaming/">downloads</a><br />
-    <a href="/streaming/">FAQ</a><br /> <?
-             break;
-           case "doc": ?>
-  <h2><a href="/doc/">Documentation</a></h2> <?
-             break;
-           case "support": ?>
-  <h2>Support</h2>
-    <a href="/doc/">documentation</a><br />
-    <a href="/lists.html">mailing-lists</a><br />
-    <a href="/cgi-bin/irc/irc.cgi">IRC</a><br /> <?
-           default: ?>
-  <h2><a href="/">Home</a></h2>
-    <a href="/news.html">news</a><br />
-    <a href="/events/index.html">events</a><br />
-    <a href="/partners.html">partners</a><br />
-    <a href="/contribute.html">contribute</a><br /> <?
-             break;
-         } ?>
-
-    </td><?
-
-   /*
-    *  This is where the real user page stands
-    */
-
-?>  <td class="fill"><? }
+}
 
    /*
     *  footer: bottom of the page
     */
 
-   function footer($title,$language,$date) { ?>
-      <hr />
-      <table cellspacing="0" cellpadding="2" class="fill" border="0">
-        <tr>
-          <td align="left">
-            <a href="/">VideoLAN</a> &nbsp;-&nbsp;
-            Paris, France &nbsp;-&nbsp; <? echo $date; ?>
-          </td>
-          <td align="right" class="nowrap">
-          <? if($language=="fr") { } else { ?>valid<? } ?>
-          <a href="http://validator.w3.org/check/referer">XHTML 1.0 Strict</a>
-          &amp;
-          <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>
-          <? if($language=="fr") { ?>valides<? } else { } ?>
-          </td>
-        </tr>
-      </table><?
-
-    /*
-     * end of the page table
-     */
-
-    ?></td>
-  </tr>
-</table><?
+function footer($title,$language,$date) { ?>
+  <hr />
+  <table cellspacing="0" cellpadding="2" class="fill" border="0">
+    <tr>
+      <td align="left">
+        <a href="/">VideoLAN</a> &nbsp;-&nbsp;
+        Paris, France &nbsp;-&nbsp; <? echo $date; ?>
+      </td>
+      <td align="right" class="nowrap">
+      <? if($language=="fr") { } else { ?>valid<? } ?>
+      <a href="http://validator.w3.org/check/referer">XHTML 1.0 Strict</a>
+      &amp;
+      <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>
+      <? if($language=="fr") { ?>valides<? } else { } ?>
+      </td>
+    </tr>
+  </table><?
 
     /*
      * end of the body

@@ -255,7 +255,7 @@ stream on the network. When streaming a lot of videos stored on a
 hard drive, the actual limitation is not the processor but the hard
 drive and the network connection.</para>
 
-<para>VLS works under Linux, Windows and Mac OS X. To get the complete
+<para>VLS works under Linux and Windows. To get the complete
 list of VLS's possibilities on each plateform supported, see the <ulink
 url="http://www.videolan.org/streaming/features.html">streaming features
 page</ulink>.</para>

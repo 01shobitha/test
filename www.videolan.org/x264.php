@@ -8,7 +8,7 @@
 
 <h1>x264 - a free h264/avc encoder</h1>
 
-<p>x264 is a free library for encoding H264/AVC video streams. The code is written by <a href="mailto:fenrir@videolan.org">Laurent Aimar</a>, <a href="mailto:titer@videolan.org">Eric Petit</a>(OS X), <a href="mailto:chenm001@163.com">Min Chen</a> (vfw/nasm), Justin Clay(vfw) and <a href="mailto:mru@mru.ath.cx">M&aring;ns Rullg&aring;rd</a> from scratch. It is released under the terms of the GPL license.</p>
+<p>x264 is a free library for encoding H264/AVC video streams. The code is written by <a href="mailto:fenrir@videolan.org">Laurent Aimar</a>, <a href="mailto:titer@videolan.org">Eric Petit</a>(OS X), <a href="mailto:chenm001@163.com">Min Chen</a> (vfw/nasm), Justin Clay(vfw), <a href="mailto:mru@mru.ath.cx">M&aring;ns Rullg&aring;rd</a> and <a href="mailto:pengvado@users.sourceforge.net">Loren Merritt</a> from scratch. It is released under the terms of the GPL license.</p>
 
 <h2>Development status</h2>
 
@@ -19,16 +19,17 @@
 <ul>
 <li>CAVLC/CABAC</li>
 <li>Multi-references</li>
-<li>Intra: all modes (4x4 and 16x16 with all predictions</li>
-<li>Inter P: all partitions from 16x16 downto 4x4</li>
-<li>Inter B: 16x16 modes only (and no SKIP/DIRECT). They aren't yet usable as they don't improve the coding efficiency</li>
-<li>Constant bitrate mode</li>
+<li>Intra: all modes (4x4 and 16x16 with all predictions)</li>
+<li>Inter P: all partitions (from 16x16 down to 4x4)</li>
+<li>Inter B: partitions from 16x16 down to 8x8 (including SKIP/DIRECT)</li>
+<li>Ratecontrol: constant quantizer, constant bitrate, or multipass ABR</li>
 <li>Scene cut detection</li>
 </ul>
 
 <p>Encoder limitations</p>
 <ul>
 <li>No real RD</li>
+<li>Naive B-frame placement</li>
 </ul>
 
 <h2>Getting x264</h2>

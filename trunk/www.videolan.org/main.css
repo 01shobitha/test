@@ -241,11 +241,15 @@ th.os {
 }
 
 /* Styles used for the navigation bar */
-td.firstbar {
-  vertical-align: middle;
+table.firstbar {
+  width: 100%;
   text-align: center;
   font-weight: bold;
-  font-size: 11pt;
+  font-size: 10pt;
+}
+
+td.firstbar {
+  vertical-align: middle;
 
   border-style: solid;
   border-color: #a43;
@@ -257,11 +261,8 @@ td.firstbar {
 
 td.firstbarselected {
   vertical-align: middle;
-  text-align: center;
   background-color: #aaa;
   color: #a43;
-  font-weight: bold;
-  font-size: 11pt;
 
   border-style: solid;
   border-color: #a43;
@@ -271,13 +272,25 @@ td.firstbarselected {
   border-right-width: 1px;
 }
 
+table.secondbar {
+  width: 100%;
+
+  text-align: center;
+  font-weight: bold;
+  font-size: 11pt;
+
+  border-style: solid;
+  border-color: #a43;
+  border-bottom-width: 0px;
+  border-top-width: 0px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+}
+
 td.secondbar {
   vertical-align: middle;
-  text-align: center;
   background-color: #aaa;
   color: #fff;
-  font-weight: bold;
-  font-size: 10pt;
 
   border-style: solid;
   border-color: #a43;
@@ -289,11 +302,8 @@ td.secondbar {
 
 td.secondbarselected {
   vertical-align: middle;
-  text-align: center;
   background-color: #aaa;
   color: #a43;
-  font-weight: bold;
-  font-size: 10pt;
 
   border-style: solid;
   border-color: #a43;
@@ -302,3 +312,4 @@ td.secondbarselected {
   border-left-width: 0px;
   border-right-width: 0px;
 }
+

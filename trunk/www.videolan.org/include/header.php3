@@ -32,7 +32,11 @@ function h3($title) {
 <?
 }
 
-function starthtml($title) { ?>
+function starthtml($title) {
+
+global $HTTP_GET_VARS;
+
+ ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
@@ -167,6 +171,7 @@ function get_first_bar_item($number, $module, $text, $url, $current_module) {
 
 /* Give an entire cell html code for the second menubar */
 function get_second_bar_item($number, $module, $text, $url, $current_module) {
+global $HTTP_GET_VARS;
   $size = floor(100 / $number);
   if($current_module == $module)
   {

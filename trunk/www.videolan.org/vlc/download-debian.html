@@ -8,7 +8,7 @@
 
 <? function pkgitem($version,$name,$comment) { ?><li><a href="/pub/videolan/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a> <? echo $comment; ?> </li><? } ?>
 
-<h1> VLC for Debian GNU/Linux </h1>
+<h1> VLC for Debian GNU/Linux stable (woody) </h1>
 
 <h2>Install VLC with apt-get</h2>
 
@@ -26,52 +26,26 @@
    # apt-get install gnome-vlc libdvdcss2
 </pre>
 
-<p><b>Note</b>: the latest versions of VLC are now part of the unstable
-distribution (sid). You should still use the above procedure if you want
-libdvdcss in its latest version.</p>
+<h1> VLC for Debian GNU/Linux unstable (sid) </h1>
 
-<h2>Older Debian packages for i386</h2>
+<p> VLC's latest packaged version is always in the official Debian unstable
+branch. However you should still use our apt-get line if you need libdvdcss in
+its latest version: </p>
 
-<p>Here is the complete list of our Debian x86 packages (0.5.2):</p>
+<pre>
+   deb     ftp://ftp.videolan.org/pub/videolan/debian $(ARCH)/
+   deb-src ftp://ftp.videolan.org/pub/videolan/debian sources/
+</pre>
 
-<ul><?
-     pkgitem("vlc/0.5.2/deb","vlc_0.5.2-0woody.2_i386.deb","(VLC base package)");
-?></ul>
-<p> Mozilla plugin: </p>
-<ul><?
-     pkgitem("vlc/0.5.2/deb","mozilla-plugin-vlc_0.5.2-0woody.2_i386.deb","");
-?></ul>
-<p> Interface plugins: </p>
-<ul><?
-     pkgitem("vlc/0.5.2/deb","gnome-vlc_0.5.2-0woody.2_i386.deb","(Gnome interface)");
-     pkgitem("vlc/0.5.2/deb","gvlc_0.5.2-0woody.2_i386.deb","(GTK+ interface)");
-     pkgitem("vlc/0.5.2/deb","kvlc_0.5.2-0woody.2_i386.deb","(KDE interface)");
-     pkgitem("vlc/0.5.2/deb","qvlc_0.5.2-0woody.2_i386.deb","(Qt interface)");
-?></ul>
-<p> Video output plugins: </p>
-<ul><?
-     pkgitem("vlc/0.5.2/deb","vlc-plugin-sdl_0.5.2-0woody.2_i386.deb","(SDL video and audio outputs)");
-     pkgitem("vlc/0.5.2/deb","vlc-plugin-ggi_0.5.2-0woody.2_i386.deb","(GGI video output)");
-     pkgitem("vlc/0.5.2/deb","vlc-plugin-glide_0.5.2-0woody.2_i386.deb","(Glide video output)");
-     pkgitem("vlc/0.5.2/deb","vlc-plugin-svgalib_0.5.2-0woody.2_i386.deb","(SVGA video output)");
-?></ul>
-<p> Audio output plugins: </p>
-<ul><?
-     pkgitem("vlc/0.5.2/deb","vlc-plugin-alsa_0.5.2-0woody.2_i386.deb","(ALSA audio output)");
-     pkgitem("vlc/0.5.2/deb","vlc-plugin-arts_0.5.2-0woody.2_i386.deb","(Arts audio output)");
-     pkgitem("vlc/0.5.2/deb","vlc-plugin-esd_0.5.2-0woody.2_i386.deb","(ESD audio output)");
-?></ul>
-<p>Librairies:</p>
-<ul><?
-     pkgitem("libdvdcss/1.2.6/deb","libdvdcss2_1.2.6-1_i386.deb","(DVD decryption library)");
-     pkgitem("libdvdread/0.9.3/deb","libdvdread2_0.9.3-2_i386.deb","(DVD reading library)");
-     pkgitem("libdvdplay/1.0.1/deb","libdvdplay0_1.0.1-1_i386.deb","(DVD menus navigation library)");
-     pkgitem("libdvbpsi/0.1.2/deb","libdvbpsi1_0.1.2-2_i386.deb","(MPEG TS and DVB PSI tables library)");
-?></ul>
+<h1> VLC for Debian GNU/Linux testing (sarge) </h1>
+
+<p> You should not be using Debian testing unless you perfectly know what you
+are doing. It is almost impossible to support Debian testing and there are no
+plans to do it. </p>
 
 <h2>Older versions</h2>
 
 <p> Older versions can be found by <a href="/pub/vlc/">browsing</a> our
 FTP site. </p>
 
-<? footer('$Id: download-debian.html,v 1.16 2003/05/12 12:33:11 alexis Exp $'); ?>
+<? footer('$Id: download-debian.html,v 1.17 2003/07/05 13:29:37 sam Exp $'); ?>

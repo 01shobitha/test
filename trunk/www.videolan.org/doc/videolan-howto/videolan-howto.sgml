@@ -12,7 +12,7 @@
   <!ENTITY hardencoding SYSTEM "hardencoding.sgml">
   <!ENTITY softencoding SYSTEM "softencoding.sgml">
   <!ENTITY vod SYSTEM "../videolan-quickstart/vod.sgml">
-  <!ENTITY vlcs SYSTEM "../videolan-quickstart/vlcs.sgml">
+  <!ENTITY sap SYSTEM "../common/sap.sgml">
   <!ENTITY install-vlc SYSTEM "../common/install-vlc.sgml">
   <!ENTITY install-vls SYSTEM "../common/install-vls.sgml">
   <!ENTITY uninstall-vls SYSTEM "../common/uninstall-vls.sgml">
@@ -104,6 +104,6 @@ solution.</para>
 &hardencoding;
 &softencoding;
 &vod;
-&vlcs;
+&sap;
 &fdl;
 </book>

@@ -6,18 +6,16 @@
    require("header.php3");
 ?>
 
-<? function pkgitem($version,$name) { ?><li><a href="/pub/videolan/network/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
+<? function pkgitem($version,$name) { ?><li><a href="/pub/videolan/vlcs/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
 
 <h1> Mini-VLCS for Linux</h1>
-
-<? h2("Tarball"); ?>
 
 
 <p>Latest mini-vlcs tarball (0.2.0b):</p>
 
 <ul>
   <? pkgitem("0.2.0","miniVLCS-0.2.0b.tar.gz"); ?>
-  <li><a href="/pub/videolan/network/0.2.0/"><i>browse the list</i></a></li>
+  <li><a href="/pub/videolan/vlcs/0.2.0/"><i>browse the list</i></a></li>
 </ul>
 
-<? footer('$Id: download-vlcs.html,v 1.6 2003/04/08 20:18:51 karibu Exp $'); ?>
+<? footer('$Id: download-vlcs.html,v 1.7 2003/04/25 22:30:07 alexis Exp $'); ?>

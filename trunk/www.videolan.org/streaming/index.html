@@ -64,11 +64,11 @@ digital terrestial television card or an MPEG-2 encoding card.</li>
 </ul>
 
 
-<p>You can add a channel information service to the VideoLAN solution   
-with the mini VideoLAN Channel Server (mini-VLCS). Mini-VLCS associate         
-multicast addresses and URLs to channels, like on a TV. If you install  
-it, the clients won't have to type multicast addresses and URLs by hand 
-any more, they will only need to give the DNS name of the mini-VLCS.</p>
+<p>You can add a channel information service based on the SAP/SDP       
+standard to the VideoLAN solution. The mini-SAP-server sends announces  
+about the multicast programs on the network, and VLCs receive these     
+annouces and automatically add the programs announced to their          
+playlist.</p>                                                           
 
 <? h2("Download"); ?>
 
@@ -76,7 +76,7 @@ any more, they will only need to give the DNS name of the mini-VLCS.</p>
 <li><p>To download VLC, go to the <a href="/vlc/index.html">VLC             
 download page</a>.</p></li>
 
-<li><p>To download VLS, click on one of the icons below:</p>
+<li><p>To download VLS and its required libraries, click on the icon below:</p>
 
 <table cellspacing="10">
 <tr>
@@ -97,14 +97,14 @@ download page</a>.</p></li>
 
 </li>
 
-<li><p>To download mini-VLCS, get the source code:</p>
+<li><p>To download the mini-SAP-server, click on the icon below:</p>
 
 <table cellspacing="10">
 <tr>
 <td>
-<a href="download-vlcs.html"><img src="/images/icons/source.gif"
+<a href="download-sap-server.html"><img src="/images/icons/source.gif"
       style="vertical-align: middle; border-width: 1px;"
-      alt="mini-VLCS source code" /></a>&nbsp;mini-VLCS source&nbsp;code
+      alt="mini-SAP-server source code" /></a>&nbsp;mini-SAP-server source&nbsp;code
 </td>
 </tr>
 </table>
@@ -149,4 +149,4 @@ download page</a>.</p></li>
 
 </table>
 
-<? footer('$Id: index.html,v 1.34 2003/04/25 13:19:08 alexis Exp $'); ?>
+<? footer('$Id: index.html,v 1.35 2003/04/25 22:30:07 alexis Exp $'); ?>

@@ -4,7 +4,7 @@
 
 |1 April 2004| Previews of next release | The new version of VLC is coming
 up, and we thought we'd show you some pictures of the upcoming stuff.
-First of all VLC will now be able to play all <a href="http://download.videolan.org/images/real.jpg">Real</a> and <a href="http://download.videolan.org/images/wmw3.jpg">Windows Media Video 3</a>
+First of all VLC will now be able to play all <a href="http://download.videolan.org/images/real.jpg">Real</a> and <a href="http://download.videolan.org/images/wmv3.jpg">Windows Media Video 3</a>
 content. A <a href="http://download.videolan.org/images/vlc-os9.png">Mac OS 9</a>
 version is now available as well, and there is a new plugin
 to stream video to the <a href="http://members.tripod.com/~annie43/spa/sp29.gif">Marsrover Spirit</a>.

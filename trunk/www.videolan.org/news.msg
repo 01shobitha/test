@@ -6,8 +6,8 @@
 
 |18 Feb 2003| Release: vlc 0.5.1a for Mac OS X | This is a bug-fix
 release of VLC for Mac OS X only: It fixes the problem with 
-VLC starting up in a different language then your preferred 
-language on and an issue with sound missing on several files
+VLC starting up in a different language than your preferred 
+language and an issue with sound missing on several files
 that previously worked perfectly. Download the new version of VLC 
 for Mac OS X <a href="/vlc/download-macosx.html">here</a>.
 

@@ -2,14 +2,174 @@
 <chapter id="gui"><title id="gui">
 Easy streaming</title>
 
-<!-- TODO : 
-      
-	Write :)
+<!--
+DONE :
+Wr
+TODO :
+  ite :)
 -->
 
 <sect1><title>Intro</title></sect1>
 
+<para>The easier way to start streaming with VLC is by using one of
+the graphical user interfaces: wxwindows for Windows and GNU/Linux,
+the skinnable Windows and GNU/Linux interface or the MacOS X native
+interface.</para>
+
 <sect1><title>Use the wizard</title></sect1>
+
+<para>The <emphasis>Streaming/Transcoding Wizard</emphasis> leads you
+step by step through the process of streaming your media on a network or
+saving it to your hard drive. This <emphasis>Wizard</emphasis> offers
+easy to use menus but provides a restricted set of options.</para>
+
+<note><para>The wizard is only available for the wxWindows
+interface.</para></note>
+
+<para>To launch the <emphasis>Streaming/Transcoding Wizard</emphasis>,
+open the "File" menu, and select the Wizard menu item.</para>
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/streaming-howto/intf-wx-wizard.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>Launching the Wizard</para></textobject>
+  <caption><para>Launching the wizard</para></caption>
+</mediaobject>
+
+<para>First select the general action you want to acheive.</para>
+
+<itemizedlist>
+
+<listitem><para><empasize>Stream to network</emphasize>: Choose this
+option if you want to stream media on network.</para></para></listitem>
+
+<listitem><para><emphasize>Transcode/Save to file</emphasize>: Choose
+this option if you want to change a file's audi codec and/or video codec
+and/or encapsulation method.</para></listitem>
+
+</itemizedlist>
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/streaming-howto/intf-wx-wizard-first.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>The Wizard Dialog</para></textobject>
+  <caption><para>The Wizard Dialog</para></caption>
+</mediaobject>
+
+<para>Select any stream (such as a file, a UDP network stream, a disc
+...) by using the "Open File" dialog or an item in your playlist.</para>
+
+<para><emphasize>Partial Extract</emphazise>: To read only part of the
+stream, check the "Enable" checkbox and choose a start and end date (in
+seconds). This option should only be used with streams you can control
+such as files or discs but not UDP network streams.</para>
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/streaming-howto/intf-wx-wizard-input.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>Wizard input selection</para></textobject>
+  <caption><para>Wizard input selection</para></caption>
+</mediaobject>
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/streaming-howto/intf-wx-wizard-input-playlist.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>Wizard input selection from playlist</para></textobject>
+  <caption><para>Wizard input selection from playlist</para></caption>
+</mediaobject>
+
+<para>If you choosed to <emphasize>Stream to network<emphasize> you can
+now specify the streaming method. Available methods are:</para>
+
+<itemizedlist>
+
+<listitem><para><emphasize>UDP Unicast</emphasize>: Stream to a
+single computer. Enter the computer's IP address (in the 0.0.0.0 -
+223.255.255.255 range).</para></listitem>
+
+<listitem><para><emphasize>UDP Multicast</emphasise>: Stream to multiple
+computers by multicast. Enter the multicast IP address (in the 224.0.0.0
+239.255.255.255 range).</para></listitem>
+
+<listitem><para><emphsize>HTTP</emphasize>: Stream by using the HTTP
+protocol. If you leave the "Destination" text box empty, VLC will listen
+on all your IP addresses on port 8080. Specify the address and port on
+which to listen using the following syntax ip[:port].</para></listitem>
+
+</itemizedlist>
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/streaming-howto/intf-wx-wizard-stream.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>Wizard streaming method</para></textobject>
+  <caption><para>Wizard streaming method</para></caption>
+</mediaobject>
+
+<para>If you choosed <emphasize>Transcode/Save to file</emphasize> you
+can now specify the new audio and video codecs and bitrates.</para>
+
+<para>TODO : give usual codec/bitrates combinations</para>
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/streaming-howto/intf-wx-wizard-mux.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>Wizard transcode</para></textobject>
+  <caption><para>Wizard transcode</para></caption>
+</mediaobject>
+
+<para>Choose the encapsulation format. The UDP streaming methods require
+MPEG TS encapsulation. The HTTP streaming method requires MPEG PS, MPEG
+TS, MPEG 1, OGG, RAW or ASF encapsulation. Saving to a file can use any
+encapsulation format.</para>
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/streaming-howto/intf-wx-wizard-mux.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>Wizard encapsulation method</para></textobject>
+  <caption><para>Wizard encapsulation method</para></caption>
+</mediaobject>
+
+<para>If you choosed to <emphasize>Stream to network<emphasize> you can
+now specify several options.</para>
+
+<itemizedlist>
+
+<listitem><para><emphasize>Time To Live (TTL)</emphasize> This sets
+the numbers of routers your stream can go through. If you do not know
+what this means, you should leave the default value of "1". For more
+information, contact your network administrator.</para></listitem>
+
+<listitem><para><emphasize>SAP Announce</emphasize> To advertise your
+stream when using the UDP streaming method, enter an SAP announce
+and check the checkbox. This is NOT available for the HTTP streaming
+method.</para></listitem>
+
+</itemisedlist>
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/streaming-howto/intf-wx-wizard-streaming-options.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>Wizard streaming options</para></textobject>
+  <caption><para>Wizard streaming options</para></caption>
+</mediaobject>
+
+<para>If you choosed <emphasize>Transcode/Save to file</emphasize> you can now specify the destination file you want to save to.</para>
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/streaming-howto/intf-wx-wizard-save.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>Wizard save file - wxWindows interface</para></textobject>
+  <caption><para>Wizard save file - wxWindows interface</para></caption>
+</mediaobject>
 
 <sect1><title>Use the GUI</title></sect1>
 

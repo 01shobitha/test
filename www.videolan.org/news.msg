@@ -2,6 +2,10 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+|23 January 2005| New: VLC Streaming HOWTO| VLC's documentation rewrite
+is finished ! The <a href="/doc">complete user guide for the server
+aspects of VLC</a> is now available.
+
 |19 January 2005| The VideoLAN project investigates possible
 violation of their intellectual property| See the press release
 <a href="http://www.videolan.org/pr2005-1.html">here</a>. <span

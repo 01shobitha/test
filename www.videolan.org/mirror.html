@@ -1,4 +1,6 @@
-<?php if( !isset($mirror) || !isset($file) ) { die; } ?>
+<?php $mirror = $_GET["mirror"];
+   $file = $_GET["file"];
+   if( !isset($mirror) || !isset($file) ) { die; } ?>
 <html>
  <head>
   <title>VideoLAN - Download from mirror</title>

@@ -8,72 +8,64 @@
 
 <h1> Skins </h1>
 
-<h2>We need you !</h2>
+<h2>Skins VS skins2</h2>
 
-<p>If you think you are an artist, we need you to design skins. To know
-how to do such a thing, just see the <a href="/vlc/skins-create.html">skin 
-creation page.</a> Don't worry, you don't need any programming skills.</p>
+<p><span style="color: red;"><b>Important note:</b></span><br> VLC currently
+has two different skins modules, named <i>skins</i> and <i>skins2</i>, the
+latter being a complete rewrite of the former. We consider that the
+<i>skins</i> module is deprecated, and we strongly encourage people to use
+<i>skins2</i> when creating a new skin. The <i>skins</i> module is only kept
+because there are still very few skins ported to the new <i>skins2</i> module,
+but it is going to disappear one day or other...</p>
 
-<h2>New interface !</h2>
 
-<table style="margin: 0px;">
-  <tr valign="middle">
-    <td>
+<h2>Features</h2>
 
-<p>VLC now has a skinnable interface (only available under Windows and
-X11-based OSes like Linux). It is still experimental: it proves
-to be stable on Windows 2000/XP and Linux, but it tends to crash on
-Windows 95/98/ME.</p>
-
-    </td>
-    <td>
-        <img src="/images/skin.png" alt="Skin Interface screenshot" width="400" height="196" />
-    </td>
-  </tr>
-</table>
-
-<h2>How to get it ?</h2>
-
-<p>You can test the skinnable interface in the <a
-href="http://www.videolan.org/vlc/download-windows.html">last VLC for
-Windows release</a>.</p>
-
-<p>To launch VLC with the skin interface:</p>
+<p>Here is a short overview of the main features provided by the skins2
+interface:</p>
 
 <ul>
-
-<li>use the special shortcut in the start menu;</li>
-
-<li>or launch VLC with this command line:
-
-<pre style="margin-left: 50px;">
-vlc.exe -I skins
-</pre>
-</li>
-
-<li>or go to the preference menu after launching VLC and click on
-the <b>View/Add Interface/skins</b> menu.</li>
-
+  <li>Portability: skins work on Windows 98/ME/NT/2000/XP, and any X11-based OS like Linux</li>
+  <li>Ability to load a skin dynamically</li>
+  <li>Many predefined controls (button, slider, playlist, etc...)</li>
+  <li>Same dialog boxes as the wxWidgets interface</li>
+  <li>Resizable windows</li>
+  <li>Support for different layouts</li>
+  <li>Windows anchoring</li>
+  <li>Hotkeys support</li>
+  <li>Embedded video output (still experimental)</li>
+  <li>And much more...</li>
 </ul>
 
-<p>You need a skin file too; you can download them from the <a
-href="/vlc/download-skins.html">skins download page</a>. These
-are just testing skins, but if you think you're some kind of
-artist, you don't need any programming skills so here is <a
-href="/vlc/skins-create.html">how to create your skin</a>.</p>
 
-<h2>How to use it ?</h2>
+<h2>How to use skins?</h2>
 
-<p>Not all VLC features are available with skins plugin but here are
-what it supports :</p>
+<p>To launch VLC with the <i>skins2</i> interface:</p>
+
 <ul>
-  <li>Playing a file</li>
-  <li>Seeking into a stream</li>
-  <li>Sound control</li>
-  <li>Playlist</li>
-  <li>Preferences</li>
-  <li>Key shortcuts</li>
+  <li>Download and install the <a href="/vlc/">latest VLC version</a></li>
+
+  <li>(X11 users) Launch VLC with the following command-line:
+  <tt>vlc -I skins2</tt><br>
+  (or, for the old <i>skins</i> module: <tt>vlc -I skins</tt>)</li>
+
+  <li>(Windows users) Launch VLC using the appropriate shortcut in the Start
+  menu. You can also start VLC from command-line, in a DOS window.</li>
+
+  <li>If you don't want to use the default skin, just download another one on
+  the <a href="/vlc/download-skins.html">skins download page</a></li>
+
+  <li>Once VLC is started with the <i>skins2</i> interface (or with the
+  <i>skins</i> one), you can use the CTRL+S shortcut to load the new one.
+  Enjoy!</li>
 </ul>
 
+
+<h2>Making your own skin</h2>
+
+<p>If you think you have the artistic fiber, feel free to <a
+    href="/vlc/skins2-create.html">create your own skin</a>, it does not
+require any programming skill. We will be glad to add your skin to add your new
+skin to the website!</p>
 
 <? footer('$Id$'); ?>

@@ -88,6 +88,8 @@ modules, see the <xref linkend="modules" endterm="tmodules"> section) :
 <itemizedlist>
 <listitem><para><emphasis>--intf  &lt;module&gt;</emphasis>
 allows you to select the interface module.</para>
+<listitem><para><emphasis>--extraintf  &lt;module&gt;</emphasis>
+allows you to select extra interface modules that will be launched in addition to the main one.</para>
 <listitem><para><emphasis>--aout  &lt;module&gt;</emphasis>
 allows you to select the audio output module.</para>
 <listitem><para><emphasis>--vout  &lt;module&gt;</emphasis>

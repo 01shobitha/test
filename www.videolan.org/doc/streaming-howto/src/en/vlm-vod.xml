@@ -8,7 +8,6 @@ VLM - Multiple streaming and Video on demand
 info concerning vlm : /trunk/doc/vlm.txt
 
 TODO:
- * finish command overview
  * put some general examples
 -->
 
@@ -88,7 +87,9 @@ no coutrol over this media.</para></listitem>
 
 <sect3><title>Schedules</title></sect3>
 
-<para>A <emphasis>Schedule</emphasis> is a script with a date. When the schedule date is reached, the script is launched. There are several options available like a period or a number of repetitions.</para>
+<para>A <emphasis>Schedule</emphasis> is a script with a date. When the
+schedule date is reached, the script is launched. There are several
+options available like a period or a number of repetitions.</para>
 
 <sect2><title>Command line syntax</title></sect2>
 
@@ -96,36 +97,92 @@ no coutrol over this media.</para></listitem>
 
 <itemizedlist>
 
-<listitem><para><command>new (name) vod|broadcast|schedule [properties]</command> : </para></listitem>
+<listitem><para><command>help</command> : Displays an exhaustive command
+lines list</para></listitem>
 
-<listitem><para><command>setup (name) (properties)</command> : </para></listitem>
+<listitem><para><command>new (name) vod|broadcast|schedule
+[properties]</command> : Create a new vod, broadcast or schedule
+element. Element names must be unique and cannot be "media" or
+"schedule". You can specify properties in this command line or later on
+by using the <command>setup</command> command. </para></listitem>
 
-<listitem><para><command>show [(name)|media|schedule]</command> : </para></listitem>
+<listitem><para><command>setup (name) (properties)</command> : Set
+an elements property. See <xref linkend="vlmprop" endterm="tvlmprop"
+/>.</para></listitem>
 
-<listitem><para><command>del (name)|all|media|schedule</command> : </para></listitem>
+<listitem><para><command>show [(name)|media|schedule]</command>
+: Display current element states and configurations.
+<itemizedlist><listitem><command>show (name)</command> - Specify
+an element's name to show all information conerning this
+element.</listitem><listitem><command>show media</command> displays
+a summary of media states.</listitem><listitem><command>show
+schedule</command> displays a summary of schedule
+states.</listitem></itemizedlist></para></listitem>
 
-<listitem><para><command>control (name) [instance_name] (command)</command> : </para></listitem>
+<listitem><para><command>del (name)|all|media|schedule</command>
+: Delete an element or a group of elements. If the
+element wasn't stopped, it is first stopped before being
+deleted.<itemizedlist><listitem><command>del (name)</command> - Delete
+the (name) element.</listitem><listitem><command>del all</command> -
+Delete all elements</listitem><listitem><command>del media</command>
+- Delete all media elements.</listitem><listitem><command>del
+schedule</command> - Delete all schedule
+elements</listitem></itemizedlist></para></listitem>
 
-<listitem><para><command>save (config_file)</command> : </para></listitem>
+<listitem><para><command>control (name) [instance_name]
+(command)</command> : Change the state of the (instance_name) instance
+of the (name) media. If (instance_name) isn't specifeid, the control
+command affects the default instance. See <xref linkref="vlmctrl"
+endterm="tvlmctrl" /> for available control commands.</para></listitem>
 
-<listitem><para><command>load (config_file)</command> : </para></listitem>
+<listitem><para><command>save (config_file)</command> : Save all media
+and schedule configurations in the specified config file. The config
+file path is relative to the directory in which vlc was launched. If
+the file exists it will be overwritten. Note that states, such as
+playing, paused or stop, are not saved. See <xref linkend="vlmconf"
+endterm="tvlmconf" /> for more info.</para></listitem>
+
+<listitem><para><command>load (config_file)</command> : Load a
+configuration file. The config file path is relative to the directory in
+which vlc was launched. See <xref linkend="vlmconf" endterm="tvlmconf"/>
+for more info.</para></listitem>
 
 </itemizedlist>
 
 
-<sect3><title>Media Properties</title></sect3>
+<sect3 id="vlmprop"><title id="tvlmprop">Media Properties</title></sect3>
+
+<note><para>Except the "append" property, all properties can be followed
+by another one.</para></note>
 
 <itemizedlist>
 
-<listitem><para><command>input (input_name)</command> : </para></listitem>
+<listitem><para><command>input (input_name)</command> : Add an input to
+the end of the media's input list.</para></listitem>
 
-<listitem><para><command>output (output_name)</command> : </para></listitem>
+<listitem><para><command>output (output_name)</command> : Define the
+media's output. The syntax is the same as the vlc ":sout=..." vlc
+option but you do not have to put the ":sout=..." string. See <xref
+linkend="cmdline" endtemr="tcmdline" /> for more information concerning
+stream outputs (sout).</para></listitem>
 
-<listitem><para><command>enabled|disabled</command> : </para></listitem>
+<listitem><para><command>enabled|disabled</command> : Enable or Disable
+the media. If a media is disabled, it cannot be streamed, paused,
+launched by a schedule, or played as VoD.</para></listitem>
 
-<listitem><para><command>loop|unloop (broadcast only)</command> : </para></listitem>
+<listitem><para><command>loop|unloop (broadcast only)</command> : If
+a media with the "loop" option receives the "play" command, it will
+automatically restart to play the input list once the end of the input
+list is reached. <note><para><command>loop|unloop</command> is only used
+for broadcast media types.</para></note></para></listitem>
 
-<listitem><para><command>mux (mux_name)</command> : </para></listitem>
+<listitem><para><command>mux (mux_name)</command> : This option
+should only be specified if you want the elementary streams to
+be sent encapsulated instead of raw. The (mux_name) should be
+specified as a four characters length identifier such as mp2t for
+MPEG TS or mp2p for MPEG PS. See <xref linkend="smc" endterm="tsmc"
+/>.<note><para>The <command>mux</command> property is only used for vod
+media types.</para></note></para></listitem>
 
 </itemizedlist>
 
@@ -134,32 +191,74 @@ no coutrol over this media.</para></listitem>
 
 <itemizedlist>
 
-<listitem><para><command>enabled|disabled</command> : </para></listitem>
+<listitem><para><command>enabled|disabled</command> : A disabled
+schedule will never be launched.</para></listitem>
 
-<listitem><para><command>append (command_until_rest_of_the_line)</command> : </para></listitem>
+<listitem><para><command>append
+(command_until_rest_of_the_line)</command> : Add a command to the
+command line lit. The command line can be evey command VLM can
+understand.<note><para>The rest of the line will be considered as
+part of the command line. You cannot put another option after the
+<command>append</command> one.</para></note></para></listitem>
 
-<listitem><para><command>date (year)/(month)/(day)-(hour):(minutes):(seconds)|now</command> : </para></listitem>
+<listitem><para><command>date
+(year)/(month)/(day)-(hour):(minutes):(seconds)|now</command>
+: Specify the first date the schedule should
+be launched. You can specify a date using the
+<command>(year)/(month)/(day)-(hour):(minutes):(seconds)</command>
+format (example: 2004/11/16-00:43:12) or using the
+<command>now</command> keyword. If <command>now</command> is used, the
+schedule will be launched as soon as possible (i.e. as soon as it is
+enabled) and the current date will be used as the first date of the
+schedule.</para></listitem>
 
-<listitem><para><command>period (years_aka_12_months)/(months_aka_30_days)/(days)-(hours):(minutes):(seconds)</command> : </para></listitem>
+<listitem><para><command>period
+(years_aka_12_months)/(months_aka_30_days)/(days)-(hours):(minutes):(sec
+onds)</command> : Specify the period of time a schedule must wait
+for launching itself another time. (Months are considered as 30
+days, Years as 12 months) If a period is specified without a
+<command>repeat</command> property, the schedule will be launched
+endlessly.</para></listitem>
 
-<listitem><para><command>repeat (number_of_repetitions)</command> : </para></listitem>
+<listitem><para><command>repeat (number_of_repetitions)</command> :
+Specify the number of times the schedule will be launched again. For
+example, if a schedule hast <command>repeat 11</command>, it will be
+launched 12 times.</para></listitem>
 
 </itemizedlist>
 
 
-<sect3><title>Control Commands</title></sect3>
+<sect3 id="vlmctrl"><title id="tvlmctrl">Control Commands</title></sect3>
 
 <itemizedlist>
 
-<listitem><para><command>play</command> : </para></listitem>
-<listitem><para><command>pause</command> : </para></listitem>
-<listitem><para><command>stop</command> : </para></listitem>
-<listitem><para><command>seek (percentage)</command> : </para></listitem>
+<listitem><para><command>play</command> : Stat a broadcast media. The
+media begins to launch the first item of the input list, then launches
+the next one and so n. (like a play list)</para></listitem>
+
+<listitem><para><command>pause</command> : Put the broadcast media in
+paused status.</para></listitem>
+
+<listitem><para><command>stop</command> : Stop the broadcast
+media.</para></listitem>
+
+<listitem><para><command>seek (percentage)</command> : Seek in the
+current playing item of the input list.</para></listitem>
 
 </itemizedlist>
 
 
-<sect2><title>Configuration Files </title></sect2>
+<sect2 id="vlmconf"><title id="tvlmconf">Configuration Files </title></sect2>
+
+<para>A VLM configuration file is a list of command lines : one line
+corresponds to one command line.</para>
+
+<para>To create a configuration file, just edit a text file and type
+a list of VLM commands. Beware of recursive calls: you an put a
+<command>load (file)</command> in a configuration file which can lead to
+recursive inclusion of the same file and result in VLC's crash.</para>
+
+<note><para>Commentary system has not been implemented yet.</para></note>
 
 <sect1><title>Examples</title></sect1>
 

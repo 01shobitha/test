@@ -13,15 +13,17 @@
 
 <p> Add the following lines to your <b>/etc/apt/sources.list</b>:</p>
 
-<code>
-  deb ftp://ftp.videolan.org/pub/videolan/debian $(ARCH)/<br />
-  deb-src ftp://ftp.videolan.org/pub/videolan/debian sources/<br />
-</code>
+<pre>
+  deb ftp://ftp.videolan.org/pub/videolan/debian $(ARCH)/
+  deb-src ftp://ftp.videolan.org/pub/videolan/debian sources/
+</pre>
 
 <p> For a normal install, do :</p>
 
-<code>apt-get update</code>
+<p>
+<code>apt-get update<br />
 <code>apt-get install gnome-vlc vlc-plugin-mad vlc-plugin-ogg libdvdcss2</code>
+</p>
 
 <? h2("Debian packages for i386"); ?>
 
@@ -116,4 +118,4 @@
 <p> Older versions can be found by <a href="/pub/vlc/">browsing</a> our
 FTP site. </p>
 
-<? footer('$Id: download-debian.html,v 1.4 2003/02/19 22:19:30 alexis Exp $'); ?>
+<? footer('$Id: download-debian.html,v 1.5 2003/03/05 10:33:52 alexis Exp $'); ?>

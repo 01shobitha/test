@@ -176,10 +176,11 @@ libraries and build them yourself:</p>
      <a href="/doc/faq/it/videolan-faq-it.html">Italian</a>
      <a href="/doc/faq/es/videolan-faq-es.html">Spanish</a>
    </td>
-</tr> -->
+</tr>
 
-</table>
-    </td><td>
+</table> -->
+ 
+   </td><td>
       <a href="/vlc/screenshots/20040602-windows-wxembed-3.jpg">
       <img width="300" height="240"
       src="/vlc/screenshots/mi_20040602-windows-wxembed-3.jpg"

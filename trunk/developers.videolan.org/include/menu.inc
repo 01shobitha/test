@@ -1,5 +1,4 @@
-<div style="text-align: center"><a href="/"><img border=0 src="/images/cone.png" alt="life
-is a cone" /></a></div>
+<div style="text-align: center"><a href="/"><img width="73" height="100" border=0 src="/images/cone-soppera7-moyen.png" alt="life is a cone" /></a></div>
 <br />
 <br />
 

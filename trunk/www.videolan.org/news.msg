@@ -2,6 +2,15 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+|28 Nov 2003| Release: VLS 0.5.4 | This new release
+of the VideoLAN Server fixes two major bugs:
+the "program_number don't match" bug (read <a
+href="http://www.via.ecp.fr/via/ml/vls-devel/200311/msg00012.html">this</a>
+for more explanations about this fix) and a bug in the RTP
+option that made VLS consume unnecessary resources. Go to the <a
+href="http://www.videolan.org/streaming/download-vls-sources.html">VLS
+source code download page</a> to get this new version now !
+
 |23 Nov 2003| New web forum for VideoLAN| The VideoLAN team
 is pleased to announce the opening of our new webforum (<a
 href="http://forum.videolan.org">http://forum.videolan.org</a>). We hope

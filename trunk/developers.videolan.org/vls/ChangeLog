@@ -2,6 +2,24 @@
 # ChangeLog for vls #
 #===================#
 
+0.4.5
+  * Makefile configure configure.in: Fixed 'make dist'
+  * ALL: Fixed compile issues on OpenBSD.
+  * ALL: Added a command line launching solution for easy configuration
+  * application.cpp parsers.cpp: stream type audectection when using command line
+  * /cvs/videolan/vls/src/modules/dvbinput/: new dvbinput working with the new
+    linuxtv drivers and the libdvb (also prodvide by linuxtv.org)
+  * src/extras/: added GNU getopt functions for command line compilation under
+    Windows and MacOS X
+  * /cvs/videolan/vls/doc/: Update of the VLS documentation
+  * configure.in: Changed configure.in in order to be able to specify the path for
+    dvb source files
+  * src/modules/filechannel/fileoutput.cpp: Added the patch by Michael Muller
+    and Chen Xiaodong about the windows fileoutput bug opening in 'wb+' mode
+    under windows instead of 'w+'
+  * src/core/application.cpp: Fixed the --ttl option
+
+
 0.4.0
 Sun, 13 Oct 2002 02:27:09 +0200
 

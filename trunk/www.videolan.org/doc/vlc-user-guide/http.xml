@@ -519,8 +519,8 @@ doivent être passés dans l'URL</span>
  <entry>Add a MRL (Media Resource Locator) to the playlist</entry>
 </row>
 <row>
- <entry>del</entry><entry>item (integer)</entry>
- <entry>Delete the specified playlist item</entry>
+ <entry>delete</entry><entry>item (integer)</entry>
+ <entry>Delete the specified playlist item or list of playlist items</entry>
 </row>
 <row>
  <entry>empty</entry><entry></entry>
@@ -774,11 +774,11 @@ suivants:</span>
 <listitem><para>
 <span xml:lang="en">playlist: set based on the playlist with fields:
 current is 1 if item is currently selected, 0 else. index is the index
-value, that can be used by the play or del control command. name is the
+value, that can be used by the play or delete control command. name is the
 name of the item</span>
 <span xml:lang="fr">Construit un ensemble basé sur la liste de lecture.
 Les champs sont: current qui vaut 1 si l'élément est sélectionné, 0
-sinon. index est la valeur de l'index à utiliser dans les commandes del
+sinon. index est la valeur de l'index à utiliser dans les commandes delete
 ou play. name est le nom de l'élément</span>
 .</para></listitem>
 

@@ -10,7 +10,8 @@ programs announced to their playlist.</para>
 
 <sect1><title>Install and configure the mini-SAP-server</title>
 
-<note><para>The mini-SAP-server is only available for Linux.</para></note>
+<note><para>The mini-SAP-server is only available for Linux and Mac OS
+X.</para></note>
 
 <para>Download the latest version of the mini-SAP-server from the <ulink
 url="http://www.videolan.org/streaming/">streaming download

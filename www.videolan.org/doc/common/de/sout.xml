@@ -113,7 +113,7 @@ Benutzen Sie beispielsweise zum Umkodieren und Senden
 eines Streams:</para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc input_stream --sout '#transcode{options}:#standard{options}'</userinput>
+<prompt>% </prompt><userinput>vlc input_stream --sout '#transcode{options}:standard{options}'</userinput>
 </screen>
 
 </sect2>

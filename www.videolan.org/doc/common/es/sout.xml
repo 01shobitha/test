@@ -97,7 +97,7 @@ Por ejemplo, para transcodificar un flujo y enviarlo, use
 :</para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc input_stream --sout '#transcode{options}:#standard{options}'</userinput>
+<prompt>% </prompt><userinput>vlc input_stream --sout '#transcode{options}:standard{options}'</userinput>
 </screen>
 
 </sect2>

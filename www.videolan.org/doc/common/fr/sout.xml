@@ -103,7 +103,7 @@ Par exemple, pour transcoder et envoyer un flux
 :</para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc input_stream --sout '#transcode{options}:#standard{options}'</userinput>
+<prompt>% </prompt><userinput>vlc input_stream --sout '#transcode{options}:standard{options}'</userinput>
 </screen>
 
 </sect2>

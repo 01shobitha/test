@@ -11,6 +11,8 @@ XML_DECL := /usr/lib/sgml/declaration/xml.decl
 # Default language (English)
 LANG = en
 
+XSL= /usr/share/xml/docbook/stylesheet/nwalsh/xhtml/docbook.xsl
+
 # All available languages (used in 'make clean')
 ALL_LANG = en fr es de it
 
@@ -23,7 +25,7 @@ init-$(LANG):
 
 # HTML output
 $(LANG)/$(DOC)-$(LANG).html: init-$(LANG)
-	xsltproc --stringparam html.stylesheet "screen.css" /usr/share/xml/docbook/stylesheet/nwalsh/xhtml/docbook.xsl src/$(LANG)/$(DOC).xml > $(LANG)/$(DOC)-$(LANG).html
+	xsltproc --stringparam html.stylesheet "screen.css" $(XSL) src/$(LANG)/$(DOC).xml > $(LANG)/$(DOC)-$(LANG).html
 	rm -f $(LANG)/$(DOC)-$(LANG)-html.zip
 	cd $(LANG) && zip $(DOC)-$(LANG)-html.zip *.html images/*.gif
 

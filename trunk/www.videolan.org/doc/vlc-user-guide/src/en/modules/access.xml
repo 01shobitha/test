@@ -68,6 +68,13 @@ page</ulink>).
 </para>
 </sect2>
 
+<sect2><title>dshow</title>
+&enabled;<emphasis>For Microsoft Windows only</emphasis>
+<para>
+This module allows VLC to read from input cards that have a DirectShow driver. Most common webcams and acquisitions boards have such a driver.
+</para>
+</sect2>
+
 <sect2><title>http,ftp,udp,file,directory,mms</title>
 &always;
 <para>
@@ -105,9 +112,7 @@ for streams announced using the SLP protocol.
 For GNU/Linux only
 </emphasis></para>
 <para>
-This module allows to get Video4Linux streams
-zu lesen
-.</para></sect2>
+This module allows to read from Video4Linux devices.</para></sect2>
 
 
 <sect2><title>vcd</title>

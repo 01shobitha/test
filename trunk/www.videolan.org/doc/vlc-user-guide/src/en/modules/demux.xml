@@ -38,46 +38,11 @@ This module allows you to read
 </itemizedlist>
 </sect2>
 
-<sect2><title>asf</title>
+<sect2><title>asf, aac, ogg, aiff, au, wav, mp4</title>
 &always;
 <para>
 This module allows you to read
-<filename>.asf</filename> files
-</para></sect2>
-
-<sect2><title>aac</title>
-&always;
-<para>
-This module allows you to read 
-AAC files
-</para></sect2>
-
-<sect2><title>ogg</title>
-&enabled;
-<para>
-This module allows you to read
-<filename>.ogg</filename> files
-</para></sect2>
-
-<sect2><title>rawdv</title>
-&always;
-<para>
-This module allows you to read
-DV files
-</para></sect2>
-
-<sect2><title>dvbpsi</title>
-&enabled;
-<para>
-This module allows to demux streams from a satellite
-card.
-</para></sect2>
-
-<sect2><title>mp4</title>
-&always;
-<para>
-This module allows you to read
-<filename>.mp4</filename> files
+<filename>.asf, .aac, .ogg, .aiff, .au, .wav, .mp4</filename> files.
 </para></sect2>
 
 <sect2><title>mkv</title>
@@ -96,6 +61,55 @@ Matroska format
 </listitem>
 </itemizedlist>
 </sect2>
+
+<sect2><title>mod</title>
+&enabled;
+<para>
+This module allows you to read MOD files (extensions mod, s3m, xm, it, 669,
+amf, ams, dbm, dmf, dsm, far, mdl, med, mtm, okt, ptm, stm, ult, umx,
+mt2, psm). MOD files are audio files used on AMIGA computers.
+</para>
+&options-st;
+<itemizedlist>
+<listitem>
+<para><emphasis>--mod-noisereduction, --no-mod-noisereduction</emphasis> : Default disabled. Add noise reduction to mod audio</para>
+</listitem>
+<listitem>
+<para><emphasis>--mod-reverb, --no-mod-reverb</emphasis> : Default disabled. Add reverberation to mod audio</para>
+</listitem>
+<listitem>
+<para><emphasis>--mod-reverb-level &lt;integer&gt;</emphasis> : Reverb level (0-100 defaults to 0)</para>
+</listitem>
+<listitem>
+<para><emphasis>--mod-reverb-delay &lt;integer&gt;</emphasis> : Reverb delay in ms, 0 to 1000 ms, default to 40. (usually 40-200ms).</para>
+</listitem>
+<listitem>
+<para><emphasis>--mod-megabass, --no-mod-megabass</emphasis> : Default disabled. Add megabass enhancements to mod audio.</para>
+</listitem>
+<listitem>
+<para><emphasis>--mod-megabass-level &lt;integer&gt;</emphasis> : Mega bass level (0-100 defaults to 0).</para>
+</listitem>
+<listitem>
+<para><emphasis>--mod-megabass-range &lt;integer&gt;</emphasis> : Mega bass cut-off (10-100 Hz defaults to 10).</para>
+</listitem>
+<listitem>
+<para><emphasis>--mod-surround, --no-mod-surround</emphasis> : Default disabled. Add surround enhancements to mod audio.</para>
+</listitem>
+<listitem>
+<para><emphasis>--mod-surround-level &lt;integer&gt;</emphasis> : Surround level (0-100 defaults to 0).</para>
+</listitem>
+<listitem>
+<para><emphasis>--mod-surround-level &lt;integer&gt;</emphasis> : Surround delay (0-1000 ms defaults to 5, usually 5-40ms).</para>
+</listitem>
+
+</sect2>
+<sect2><title>nsv</title>
+&enabled;
+<para>
+This module allows you to read NSV (Nullsoft Streaming Video) streams.
+Most NSV streams use the VP6 codec which is currently unsupported by VLC (VLC only supports VP1 and VP3 for the moment).
+</para>
+</sect>
 
 <sect2><title>ps,ts</title>
 &always;
@@ -117,6 +131,34 @@ or Transport Stream files
  </listitem>
 </itemizedlist>
 </sect2>
+
+<sect2><title>pva</title>
+<para>
+This module allows you to read PVA files (.pva). PVA is a file format used by the software that comes with the TechnoTrend/Hauppauge/Siemens/Galaxis DVB cards.
+</para>
+</sect2>
+
+<sect2><title>real</title>
+&always;
+<para>
+This module allows you to read RealMedia (.rm) files.
+Note : Only very old audio codecs (rv10) are currently supported by VLC inside RealMedia files.
+</para>
+</sect2>
+
+<sect2><title>rawdv</title>
+&always;
+<para>
+This module allows you to read
+DV files
+</para></sect2>
+
+<sect2><title>dvbpsi</title>
+&enabled;
+<para>
+This module allows to demux streams from a satellite
+card.
+</para></sect2>
 
 <sect2><title>id3,m3u</title>
 &always;

@@ -160,6 +160,36 @@ comma separated list of active windows, defaults to all
 </itemizedlist>
 </sect2>
 
+<sect2><title>logo</title>
+&always;
+<para>
+This filter allows you to insert a png logo inside the video, adjust its transparency with the mouse wheel and move it around using the mouse.
+</para>
+&options-st;
+<itemizedlist>
+<listitem>
+<para><emphasis>--logo-file &lt;string&gt; </emphasis>:
+Logo filename (The file must be in PNG RGBA 8bits format).
+</para>
+</listitem>
+<listitem>
+<para><emphasis>--logo-x &lt;integer&gt; </emphasis>:
+X coordinate of the logo, You can move the logo by left-clicking on it.
+</para>
+</listitem>
+<listitem>
+<para><emphasis>--logo-y &lt;integer&gt; </emphasis>:
+Y coordinate of the logo, You can move the logo by left-clicking on it.
+</para>
+</listitem>
+<listitem>
+<para><emphasis>--logo-transparency  &lt;integer&gt; </emphasis>:
+Transparency of the logo (255-0). You can change it by middle-clicking and moving mouse left or right.
+</para>
+</itemizedlist>
+</sect2>
+
+
 <sect2><title>clone</title>
 &always;
 <para>

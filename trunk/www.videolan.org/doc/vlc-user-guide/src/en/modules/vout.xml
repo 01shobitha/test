@@ -183,6 +183,15 @@ cards under GNU/Linux.
 &disabled;
 </sect2>
 
+<sect2><title>caca</title>
+&disabled;
+<para>
+This is the Color ASCII Art Video Output. This video
+output uses the libcaca library to display video through Color ASCII art.
+It requires libcaca development headers (<emphasis>libcaca-dev</emphasis> package under Debian GNU/Linux) to compile.
+</para>
+</sect2>
+
 <sect2><title>aa</title>
 &disabled;
 <para>

@@ -5,7 +5,7 @@ The Mozilla plugin
 
 <para>
 VLC can also be embedded in a web browser
-! For the moment, this function is only available with <ulink url="http://www.mozilla.org/">Mozilla</ulink> under GNU/Linux
+! For the moment, this function is only available with <ulink url="http://www.mozilla.org/">Mozilla</ulink> under GNU/Linux. An experimental plugin is also available for Mac OS X and Microsft Windows.
 
 
 .</para>

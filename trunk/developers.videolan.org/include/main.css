@@ -3,13 +3,13 @@ body            { margin-left: 0; margin-top: 0; margin-right:0;
 p, td, th, body, h1 { font-family: Verdana,Arial,Helvetica,sans-serif; }
 p, td, body       { font-size: 8pt; }
 th              { font-weight:bold; font-size: 10pt;}
-th.menu         { font-size: 10pt; background-color: #3a0;
+th.menu         { font-size: 10pt; background-color: #190;
                   color: #df4; font-weight: bold; }
-td.menu         { border-left: 1px solid #3a0; border-right: 1px
-                  solid #3a0; border-top: 1px solid #3a0;
-                  border-bottom: 3px solid #3a0; background-color: #9f9}
+td.menu         { border-left: 1px solid #190; border-right: 1px
+                  solid #190; border-top: 1px solid #190;
+                  border-bottom: 3px solid #190; background-color: #dfd}
 .background     { background-color: #FFFFFF;
-                  color: #3a0; }
+                  color: #190; }
 p               { margin-left: 5pt; margin-right: 5pt; }
 p.menu          { margin-top: 5pt; margin-bottom: 5pt; }
 /*a.menu:link     { color: #FFFFFF; text-decoration: none; }

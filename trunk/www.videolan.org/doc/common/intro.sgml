@@ -41,7 +41,7 @@ Here is an illustration of the complete VideoLAN solution :
 <figure><title>Global VideoLAN solution</title>
 <mediaobject>
   <imageobject>
-    <imagedata fileref="../../../doc/plan-global/plan-videolan-640.&magic;" format="&magic;" scalefit="1" scale="60">
+    <imagedata fileref="plan-videolan-640.&magic;" format="&magic;" scalefit="1" scale="60">
   </imageobject>
 </mediaobject>
 </figure>

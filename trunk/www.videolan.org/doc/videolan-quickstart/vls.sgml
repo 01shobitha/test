@@ -9,6 +9,10 @@
 
 <sect1><title>Running the VideoLAN Server</title>
 
+<sect2><title>Get a streamable MPEG file</title>
+
+&streamable-mpeg-file;
+
 <sect2><title>Unicast an MPEG file</title>
 
 <simplesect><title>Start vls</title>
@@ -19,22 +23,24 @@
 where you installed vls and type :</para>
 
 <screen>
-<prompt>&gt; </prompt><userinput>vls -d udp:10.0.0.2 file:C:\films\movie.mpg</userinput>
+<prompt>&gt; </prompt><userinput>vls -d udp:10.0.0.2 file:C:\films\presentation_short.vob</userinput>
 </screen>
 
-<para>where <filename>C:\films\movie.mpg</filename> is the MPEG 1 or
-MPEG 2 file you want to stream and <emphasis>10.0.0.2</emphasis> is the
-IP address of the machine you want to stream to.</para>
+<para>where <filename>C:\films\presentation_short.vob</filename>
+is the MPEG 1 or MPEG 2 file you want to stream and
+<emphasis>10.0.0.2</emphasis> is the IP address of the machine you want
+to stream to.</para>
 
 <listitem><para>under Linux :</para>
 
 <screen>
-<prompt>% </prompt><userinput>vls -d udp:10.0.0.2 file:/mnt/films/movie.mpg</userinput>
+<prompt>% </prompt><userinput>vls -d udp:10.0.0.2 file:/mnt/films/presentation_short.vob</userinput>
 </screen>
 
-<para>where <filename>/mnt/films/movie.mpg</filename> is the MPEG 1 or
-MPEG 2 file you want to stream and <emphasis>10.0.0.2</emphasis> is the
-IP address of the machine you want to stream to.</para>
+<para>where <filename>/mnt/films/presentation_short.vob</filename>
+is the MPEG 1 or MPEG 2 file you want to stream and
+<emphasis>10.0.0.2</emphasis> is the IP address of the machine you want
+to stream to.</para>
 
 </itemizedlist>
 
@@ -110,27 +116,29 @@ there are multiple clients receiving it.</para>
 where you installed vls and type :</para>
 
 <screen>
-<prompt>&gt; </prompt><userinput>vls -d udp:239.255.12.42 file:C:\films\movie.mpg</userinput>
+<prompt>&gt; </prompt><userinput>vls -d udp:239.255.12.42 file:C:\films\presentation_short.vob</userinput>
 </screen>
 
-<para>where <filename>C:\films\movie.mpg</filename> is the MPEG 1 or
-MPEG 2 file you want to stream and <emphasis>239.255.12.42</emphasis> is the
-multicast IP address you have chosen.</para>
+<para>where <filename>C:\films\presentation_short.vob</filename>
+is the MPEG 1 or MPEG 2 file you want to stream and
+<emphasis>239.255.12.42</emphasis> is the multicast IP address you have
+chosen.</para>
 
 <listitem><para>under Linux :</para>
 
 <screen>
-<prompt>% </prompt><userinput>vls -d udp:239.255.12.42 file:/mnt/films/movie.mpg</userinput>
+<prompt>% </prompt><userinput>vls -d udp:239.255.12.42 file:/mnt/films/presentation_short.vob</userinput>
 </screen>
 
-<para>where <filename>/mnt/films/movie.mpg</filename> is the MPEG 1 or
-MPEG 2 file you want to stream and <emphasis>239.255.12.42</emphasis> is the
-multicast IP address you have chosen.</para>
+<para>where <filename>/mnt/films/presentation_short.vob</filename>
+is the MPEG 1 or MPEG 2 file you want to stream and
+<emphasis>239.255.12.42</emphasis> is the multicast IP address you have
+chosen.</para>
 
 </itemizedlist>
 
-<note><para>You can also multicast a DVD if vls is running under
-Linux : replace <emphasis>file:/mnt/films/movie.mpg</emphasis> by
+<note><para>You can also multicast a DVD if vls is running under Linux :
+replace <emphasis>file:/mnt/films/presentation_short.vob</emphasis> by
 <command>dvd:/dev/dvd</command> where <filename>/dev/dvd</filename> is
 the device corresponding to your DVD drive.</para></note>
 

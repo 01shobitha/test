@@ -13,6 +13,7 @@
 
   <!ENTITY install-vlc SYSTEM "../common/install-vlc.sgml">
   <!ENTITY install-vls SYSTEM "../common/install-vls.sgml">
+  <!ENTITY streamable-mpeg-file SYSTEM "../common/streamable-mpeg-file.sgml">
   <!ENTITY install-vlcs SYSTEM "../common/install-vlcs.sgml">
 
 

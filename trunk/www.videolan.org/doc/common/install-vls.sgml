@@ -71,7 +71,8 @@ Then install the RPM packages you have downloaded :
 </para>
 
 <screen>
-<prompt># </prompt><userinput>rpm -Uhv vls-version.i586.rpm vls-dvd-version.i586.rpm libdvdcss2-version.i586.rpm libdvbpsi1-version.i586.rpm libdvdread-version.i386.rpm</userinput>
+<prompt># </prompt><userinput>rpm -Uhv vls-version.i586.rpm vls-dvd-version.i586.rpm libdvdcss2-version.i586.rpm
+libdvbpsi1-version.i586.rpm libdvdread-version.i386.rpm</userinput>
 </screen>
 
 

@@ -81,7 +81,7 @@ you can detach-it and reattach-it:</para>
 
 </sect1>
 
-<sect1><title>Configure the vlc(s) to use the channel information service</title>
+<sect1><title>Configure vlc(s) to use the channel information service</title>
 
 <para>Launch vlc, click on the <emphasis>net</emphasis> button or
 select in the menu <emphasis>File / Network stream</emphasis>, select

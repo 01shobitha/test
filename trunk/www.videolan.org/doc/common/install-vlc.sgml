@@ -99,7 +99,8 @@ Then install the RPM packages you have downloaded :
 </para>
 
 <screen>
-<prompt># </prompt><userinput>rpm -Uhv vlc-version.i586.rpm vlc-mad-version.i586.rpm vlc-gnome-version.i586.rpm libdvdcss2-version.i586.rpm libdvdpsi1-version.i586.rpm</userinput>
+<prompt># </prompt><userinput>rpm -Uhv vlc-version.i586.rpm vlc-mad-version.i586.rpm vlc-gnome-version.i586.rpm
+libdvdcss2-version.i586.rpm libdvdpsi1-version.i586.rpm</userinput>
 </screen>
 
 </sect2>

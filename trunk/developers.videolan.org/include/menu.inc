@@ -41,6 +41,7 @@ href="http://www.videolan.org/cgi-bin/irc/irc.cgi">IRCWeb</a></p>
 <p class=menu><a class="menu" href="/vlc/ChangeLog.html">vlc</a></p>
 <p class=menu><a class="menu" href="/vls/ChangeLog.html">vls</a></p>
 <p class=menu><a class="menu" href="/libdvdcss/ChangeLog.html">libdvdcss</a></p>
+<p class=menu><a class="menu" href="/libdvdplay/ChangeLog.html">libdvdplay</a></p>
 <p class=menu><a class="menu" href="/libdvbpsi/ChangeLog.html">libdvbpsi</a></p>
 </td></tr>
 </table>

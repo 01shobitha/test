@@ -1,0 +1,57 @@
+<?
+   $title = "VideoLAN - x264";
+   $lang = "en";
+   $date = "29 June 2004";
+   $menu = array( "home", "x264" );
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
+?>
+
+<h1>x264 - a free h264/avc encoder</h1>
+
+<p>x264 is a free library for encoding H264/AVC video streams. The code is written by <a href="mailto:fenrir@videolan.org">Gildas Bazin</a>, <a href="mailto:titer@videolan.org">Eric Petit</a>(OS X), <a href="mailto:chenm001@163.com">Min Chen</a> (vfw/nasm) and Justin Clay(vfw) from scratch. It is released under the terms of the GPL license.</p>
+
+<h2>Development status</h2>
+
+<p><span style="color: red;"><b>BIG FAT WARNING: x264 is still in early development stage</b></span></p>
+
+<p>Encoder features</p>
+
+<ul>
+<li>CAVLC/CABAC</li>
+<li>Multi-references</li>
+<li>Intra: all modes (4x4 and 16x16 with all predictions</li>
+<li>Inter P: all partitions from 16x16 downto 4x4</li>
+<li>Inter B: 16x16 modes only (and no SKIP/DIRECT). They aren't yet usable as they don't improve the coding efficiency</li>
+</ul>
+
+<p>Encoder limitations</p>
+<ul>
+<li>No bitrate control</li>
+<li>No scene cut detection</li>
+<li>No real RD</li>
+</ul>
+
+<h2>Getting x264</h2>
+
+<p>The latest x264 source code can always be found by anonymous SVN repository:</p>
+
+<p># svn co svn://svn.videolan.org/x264/trunk x264</p>
+
+<h2>Support</h2>
+
+<p>For support information, have a look <a href="http://www.videolan.org/support/">here</a>.</p>
+
+<p>A <a href="http://developers.videolan.org/lists.html">x264-devel</a> mailing list is also available.</p>
+
+<h2>Projects using x264</h2>
+
+<ul>
+
+<li><a href="http://www.videolan.org/">VLC media player</a>: a cross-platform video player and streaming solution.</li>
+<li><a href="http://handbrake.m0k.org/">Hanbrake</a>: a multi-platform, multithreaded DVD to MPEG-4 ripper/converter..</li>
+
+</ul>
+
+<p>If you use x264 in another project, let us know !</p>
+
+<? footer('$Id: $'); ?>

@@ -2,7 +2,7 @@
  * Stolen from the Gnumeric website by Sam :-)
  * Hardly modified by karibu :(
  *
- * $Id: main.css,v 1.78 2003/04/08 20:18:51 karibu Exp $ */
+ * $Id: main.css,v 1.79 2003/04/09 15:32:10 karibu Exp $ */
 
 body {
   font-family: sans-serif, Helvetica, Arial;
@@ -50,6 +50,67 @@ td {
   background: inherit;
   color: inherit;
 }
+
+table.skins-download
+{
+  margin-bottom: 15px;
+  margin-top: 7px;
+}
+
+img.skins-screenshot
+{
+  text-align: center;
+  padding: 3px;
+  background-color: #C0C0C0;
+  text-decoration: none;
+  border-style: solid;
+  border-color: #EFE0E0 #808080 #808080 #E0E0E0;
+  border-width: 1px;
+}
+
+td.skins-comment
+{
+  padding: 3px;
+  background-color: #C0C0C0;
+  text-decoration: none;
+  border-style: solid;
+  border-color: #EFE0E0 #808080 #808080 #E0E0E0;
+  border-width: 1px;
+}
+
+td.skins-download
+{
+  text-align: center;
+  padding: 3px;
+  background-color: #D8D8F8;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #F0F0FF #A0A0C0 #A0A0C0 #F0F0FF;
+  cursor: pointer;
+}
+
+td.skins-download-over
+{
+  text-align: center;
+  padding: 3px;
+  background-color: #F8F8D8;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #FFFFF0 #C0C0A0 #C0C0A0 #FFFFF0;
+  cursor: pointer;
+}
+
+td.skins-download-down
+{
+  text-align: center;
+  padding: 3px;
+  background-color: #F8F8D8;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #C0C0A0 #FFFFF0 #FFFFF0 #C0C0A0;
+  cursor: pointer;
+}
+
 
 /* Styles used for the features tables */
 td.yes {

@@ -25,6 +25,18 @@ function h3($title) {
 <?
 }
 
+function CSSButton( $event, $normal, $over, $down )
+{
+  ?>
+  <td class="<? echo $normal; ?>" <?
+  ?>onmouseout="this.className='<? echo $normal; ?>'" <?
+  ?>onmouseover="this.className='<? echo $over; ?>'" <?
+  ?>onmousedown="this.className='<? echo $down; ?>'" <?
+  ?>onclick="<? echo $event; ?>">
+  <?
+}
+
+
 function StartHtml( $title ) {
 
 global $HTTP_GET_VARS;

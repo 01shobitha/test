@@ -49,6 +49,7 @@ function starthtml($title) { ?>
 
 ?>
 
+<form action="index.html" method="get">
 <table width="100%" cellspacing="0" cellpadding="0">
 
 <tr>
@@ -61,14 +62,14 @@ function starthtml($title) { ?>
   <table style="width=100%">
   <tr>
      <td style="background-color: <?echo($color_home);?>; width: 17%; vertical-align: middle;" align="center"><b><a href="/">Home</a></b></td>
-     <td style="background-color: <?echo($color_vlc);?>; width: 16%; vertical-align: middle;" align="center"><b><a href="/vlc/">VLC media player</a></b></td>
+     <td style="background-color: <?echo($color_vlc);?>; width: 16%; vertical-align: middle;" align="center"><b><a href="/vlc/">VLC</a></b></td>
      <td style="background-color: <?echo($color_streaming);?>; width: 17%; vertical-align: middle;" align="center"><b><a href="/streaming/">Streaming</a></b></td>
      <td style="background-color: <?echo($color_doc);?>; width: 17%; vertical-align: middle;" align="center"><b><a href="/doc/">Documentation</a></b></td>
      <td style="background-color: <?echo($color_support);?>; width: 16%; vertical-align: middle;" align="center"><b><a href="/support/">Support</a></b></td>
      <td style="background-color: #afa; width: 17%; vertical-align: middle;" align="center"><b><a href="http://developers.videolan.org/">Developers</a></b></td>
   </tr>
   </table>
-
+  <br/>
   <table style="width=100%">
   <tr>
     <? switch($modules[1]) {
@@ -83,16 +84,15 @@ function starthtml($title) { ?>
 
  </td>
  <td>
-   <form action="index.html" method="get">
      <select name="mirror">
      <!-- current: $GLOBALS['HTTP_HOST'] -->
      <option value="www.videolan.org">Châtenay, France (main)</option>
      <option value="www.fr.videolan.org">Paris, France</option>
-     </select><input type="submit" value="Select Mirror" />
-   </form>
+     </select><br/><input type="submit" value="Select Mirror" />
  </td>
 </tr>
 </table>
+</form>
 
 <div style="margin: 10px;"><?
 

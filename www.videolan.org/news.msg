@@ -2,6 +2,15 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+|24 March 2005| Journées Federez| The VIA and VideoLAN teams are
+pleased to invite you to their annual presentation day at the
+Ecole Centrale Paris (châtenay-Malabry, France). This year's
+edition is organised with networking associations from more than
+a dozen French engineering schools and universities. There will
+be a presentation of VideoLAN in French at 9:00 a.m. and a small
+demonstration from 13:30 to 15:30. If you are interested, please visit
+<a href="http://federez.net/journees/">http://federez;net/journees/</a>.
+
 |26-27 Feb 2005| VideoLAN at FOSDEM | The VideoLAN team will have a
 booth at <a href="http://www.fosdem.org/2005">FOSDEM</a> in Brussels. A
 small presentation of VideoLAN will be held by Zorglub. If you happen
@@ -17,7 +26,7 @@ ideas of future developement. Our hardware were partialy lent by
 features. Photos can be found
 <a href="http://www.videolan.org/events/20050201/index.html">here</a>.
 
-|7 feb 2005| VideoLAN T-shirt design contest | The VideoLAN team is
+|7 Feb 2005| VideoLAN T-shirt design contest | The VideoLAN team is
 about to make its very first T-shirts in world history ! Unfortunately,
 we lack any good design proposal. Hence, we'd like to ask all of our
 users with some drawing skills to come up with design proposals. The

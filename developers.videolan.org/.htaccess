@@ -1,7 +1,7 @@
 # Big nasty kludge
 AddType application/x-httpd-php .html .php3
 
-RewriteEngine off
+RewriteEngine on
 
 # répertoire/ -> répertoire/index.html
 RewriteRule ^(.*)/$ include/rewrite.php3?dir=$1&page=index

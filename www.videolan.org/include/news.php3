@@ -1,4 +1,4 @@
-<?
+<?php
 /*
  * $style: either "full" or "title"
  * $max: number of news to print (0 to print all news)

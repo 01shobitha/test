@@ -1,4 +1,4 @@
-<?
+<?php
 
    /*
     *  starthtml: beginning of the page
@@ -28,17 +28,14 @@ echo "<?xml version=\"1.0\" encoding=\"iso-8859-1\" ?>\n";
    <link rel="shortcut icon" type="image/x-icon"
          href="/images/icons/favicon.ico" />
 </head>
-<body><?
+<body><?php
 
 }
 
 
 function DrawMenu( $file, $mod )
 {
-?>
-<table class="menu" cellspacing="3">
-  <tr>
-<?
+  echo '<table class="menu" cellspacing="3"><tr>';
 
   if( $m = fopen( "menu/$file", "r", 1 ) )
   {
@@ -62,7 +59,8 @@ function DrawMenu( $file, $mod )
           echo '<td class="button" onmouseout="this.className=\'button\'"'.
                ' onmouseover="this.className=\'button-up\'"'.
 	       ' onmousedown="this.className=\'button-down\'"'.
-	       ' onclick="window.location=\''.htmlentities($link).'\'; return true;">';
+	       ' onclick="window.location=\''.htmlentities($link).
+	       '\'; return true;">';
         }
 	echo '<table cellpadding="1" cellspacing="0" style="margin: 0px;">'.
 	     '<tr>';
@@ -78,10 +76,7 @@ function DrawMenu( $file, $mod )
       }
     }
   }
-?>
-  </tr>
-</table>
-<?
+  echo '</tr></table>';
 }
 
 
@@ -96,25 +91,25 @@ function footer($tag) {
       <a href="/">VideoLAN</a> &nbsp;-&nbsp;
       See the
      <a href="http://www.videolan.org/stats">statistics</a>
-     &nbsp;-&nbsp; <? echo $tag; ?>
+     &nbsp;-&nbsp; <?php echo $tag; ?>
     </td>
     <td align="right" style="white-space: nowrap;">
-    <? if($language=="fr") { } else { ?>valid<? } ?>
+    <?php if($language=="fr") { } else { echo 'valid'; } ?>
     <a href="http://validator.w3.org/check/referer">XHTML 1.1</a>
     and 
     <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>
-    <? if($language=="fr") { ?>valides<? } else { } ?>
+    <?php if($language=="fr") { echo 'valides' } else { } ?>
     </td>
   </tr>
 </table>
 
-<?
+<?php
 
     /*
      * end of the body
      */
-
-?></body></html><? }
+  echo '</body></html>';
+}
 
 
 /*
@@ -140,7 +135,7 @@ StartHtml( ereg_replace( "<[^>]*>" , "" , $title ) );
 ?><table class="menu-back" cellspacing="0" cellpadding="0">
   <tr align="center">
     <td valign="top">
-<?
+<?php
 $file = "menu.txt";
 foreach( $menu as $module )
 {
@@ -164,7 +159,3 @@ foreach( $menu as $module )
 
   </tr>
 </table>
-<?
-
-
-?>

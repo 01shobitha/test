@@ -9,24 +9,35 @@
 
 <? h2("Download Options"); ?>
 
-<p>A feed for Familiar Linux version 0.5 and 0.6 at the internet location http://www.videolan.org/pub/videolan/vlc/ipkg-feed/armv4l is available for getting the VideoLAN client. There are packages available for Familiar Linux Gtk+ and GPE.<br />
-Packages upto vlc version 0.4.4 support <b>familiar version 0.5</b>. <br />
-Packages from vlc version 0.4.5 onwards support <b>familiar version 0.6</b>.
+<p>A feed for Familiar Linux version 0.5 and 0.6 is available at the URL
+<code>http://www.videolan.org/pub/videolan/vlc/ipkg-feed/armv4l</code>
+to get VLC easily. There are packages available
+for Familiar Linux Gtk+ and GPE.</p>
+
+Packages upto VLC version 0.4.4 support <b>Familiar Linux version 0.5</b>. <br />
+Packages from VLC version 0.4.5 onwards support <b>Familiar Linux version 0.6</b>.
 </p>
 
 <? h2("Upgrading from v0.5.0 or v0.5.1_test"); ?>
-<p>
-If upgrading from vlc (vlc, gpe-vlc and opie-vlc) version 0.5.0 or from any test packages leading up to version 0.5.1, then you'll have to uninstall the additional package called ffmpeg. The package is renamed to libffmpeg, because it only provides libraries from the ffmpeg tree. 
+
+<p> If upgrading from vlc (vlc, gpe-vlc and opie-vlc) version 0.5.0 or
+from any test packages leading up to version 0.5.1, then you'll have to
+uninstall the additional package called ffmpeg. The package is renamed
+to libffmpeg, because it only provides libraries from the ffmpeg tree.
 </p>
-<p><ul>
-<li>Uninstall ffmpeg with: ipkg remove ffmpeg</li>
-<li>Install libffmpeg with: ipkg install libffmpeg_0.4.6_20030211_arm.ipk</li>
-</ul></p>
+
+<p>
+<ul>
+<li>Uninstall ffmpeg with: <code>ipkg remove ffmpeg</code></li>
+<li>Install libffmpeg with: 
+<code>ipkg install libffmpeg_0.4.6_20030211_arm.ipk</code></li>
+</ul>
+</p>
 
 <? h2("Familiar Linux Gtk+/GPE"); ?>
 
 <p>
-Latest vlc versions for Familiar Linux v0.6 are: <br />
+Latest VLC versions for Familiar Linux 0.6 are:
 </p>
 <p>Interface and Codecs</p>
 The interface and codecs come in the same package.
@@ -39,6 +50,7 @@ Additional libraries needed:
 <ul><li><a href="/pub/videolan/vlc/ipkg-feed/armv4l/v0.5.1/libffmpeg_0.4.6_20030211_arm.ipk">libffmpeg_0.4.6_20030211_arm.ipk</a></li></ul>
 
 <? h2("Familiar Linux Opie"); ?>
+
 <p>Latest version for Familiar Opie is 0.5.1</p>
 
 <p>Interface</p>
@@ -57,5 +69,4 @@ Older version for your iPaq configuration:
 <li>Or <a href="/pub/vlc/">browsing</a> our FTP site.</li>
 </ul>
 
-
-<? footer('$Id: download-familiar.html,v 1.16 2003/02/17 21:57:35 jpsaman Exp $'); ?>
+<? footer('$Id: download-familiar.html,v 1.17 2003/02/18 00:38:54 alexis Exp $'); ?>

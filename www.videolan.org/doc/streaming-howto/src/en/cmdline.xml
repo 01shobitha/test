@@ -671,6 +671,33 @@ keeping compatibility with MPEG2 decoders, <emphasis>trellis</emphasis>
 enables trelli quantization (better quality, but slower
 processing).</para></listitem>
 
+<listitem><para><emphasis>theora</emphasis>: The Xiph.org theora encoder.
+The module is used to produce theoea streams. Theora is a free patent
+and royalties free video codec.</para>
+
+<para>The only available item option is <emphasis>quality=&lt;quality
+level&gt;</emphasis>. This option allows to create a VBR stream,
+overriding <emphasis>vb</emphasis> setting. the quality level must be an
+integer between 1 and 10. Higher is better.</para></listitem>
+
+<listitem><para><emphasis>x264</emphasis>. x264 is a free opensource h264 encoder. h264 (or MPEG4-AVC) is a quite recent high quality video codec.</para>
+
+<para>Item options are: <emphasis>keyint=&lt;number of
+frames&gt;</emphasis> allows to set the maximal amount of
+frames between 2 key frames, <emphasis>idrint=&lt;number of
+frames&gt;</emphasis> allows to set the maximal amount of frames
+between 2 IDR frames, <emphasis>bframes=&lt;amount of frames&gt;
+</emphasis> allows to set the amount of B frames between an I and
+a P frame, <emphasis>qp=&lt;quantizer parameter&gt;</emphasis>
+allows to specify a fixed quantizer (between 1 and 51),
+<emphasis>qp-max=&lt;quantizer parameter&gt;</emphasis> allows to set
+the maximum value for the quantizer, <emphasis>qp-min=&lt;quantizer
+parameter&gt;</emphasis> allows to set the minimum value for
+the quantizer, <emphasis>cabac</emphasis> enables the CABAC
+(Context-Adaptive Binary Arithmetic Coding) algorithm (slower, but
+enhances quality), <emphasis>loopfilter</emphasis> enables deblocking
+loop filter, <emphasis>analyse</emphasis> enables the analyse mode, <emphasis>frameref=&lt;amount of frames&gt;</emphasis> allows to set the number of previous frames used as predictors, <emphasis>scenecut=&lt;sensibility&lt;</emphasis> allows to control how aggressively the encoder should insert extra I-frame, on scene change.</para></listitem>
+
 </itemizedlist>
 
 </sect3>

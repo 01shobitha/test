@@ -55,7 +55,7 @@ function starthtml($title) { ?>
 
 ?><table border="0" cellspacing="0" cellpadding="10">
   <tr>
-    <td><?
+    <td width=200><?
 
         /*
          * the cone logo
@@ -111,7 +111,7 @@ function starthtml($title) { ?>
     *  This is where the real user page stands
     */
 
-?>  <td><? }
+?>  <td width=300><? }
 
    /*
     *  footer: bottom of the page
@@ -119,20 +119,21 @@ function starthtml($title) { ?>
 
    function footer($title,$language,$date) { ?>
       <hr />
-<table cellspacing="0" cellpadding="2" class="fill" border="0">
-  <tr>
-    <td align="left">
-      <a href="/">VideoLAN</a> &nbsp;-&nbsp;
-      Paris, France &nbsp;-&nbsp; <? echo $date; ?>
-    </td>
-    <td align="right" class="nowrap">
-    <? if($language=="fr") { } else { ?>valid<? } ?>
-    <a href="http://validator.w3.org/check/referer">XHTML 1.0 Strict</a>
-    &amp; <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>
-    <? if($language=="fr") { ?>valides<? } else { } ?>
-    </td>
-  </tr>
-</table><?
+      <table cellspacing="0" cellpadding="2" class="fill" border="0">
+        <tr>
+          <td align="left">
+            <a href="/">VideoLAN</a> &nbsp;-&nbsp;
+            Paris, France &nbsp;-&nbsp; <? echo $date; ?>
+          </td>
+          <td align="right" class="nowrap">
+          <? if($language=="fr") { } else { ?>valid<? } ?>
+          <a href="http://validator.w3.org/check/referer">XHTML 1.0 Strict</a>
+          &amp;
+          <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>
+          <? if($language=="fr") { ?>valides<? } else { } ?>
+          </td>
+        </tr>
+      </table><?
 
     /*
      * end of the page table

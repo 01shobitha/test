@@ -1,7 +1,28 @@
 <?
-  $path="/var/www/local/developers.videolan.org";
+  $path = '/var/www/local/developers.videolan.org/';
+  $dir = $_GET['dir'];
 
-  chdir( "$path/$dir" );
+  chdir ($path);
+
+  /* Directory traversal security fix -- Courmisch (20/10/2004) */
+  if ((strstr($dir, "..") === FALSE)
+   && (strstr($dir, "/.") === FALSE)
+   && !preg_match("/[^a-zA-Z0-9\.\/\-]/", $dir))
+  {
+    chdir ($dir);
+    $page = $_GET['page'];
+  }
+  else
+  {
+    $page = '403';
+  }
+
+  /* Another directory traversal security fix -- same author, same date */
+  if (preg_match("/[^a-zA-Z0-9\.\-]/", $page)
+  {
+    $page = '403'
+  }
+
   if( file_exists( "$page.html" ) )
   {
     $fd = fopen( "$page.html", "r" );
@@ -10,7 +31,7 @@
     {
       /* on laisse telles quelles les pages html toutes faites
          (e.g. les docs développeur) */
-      include( "$page.html" );
+      fpassthru ($fd);
       exit;
     }
     else if( ereg( "<?", $line, $regs ) )
@@ -39,15 +60,15 @@
 <body bgcolor="#ffffff">
 <table width="100%" cellspacing=0 cellpadding=10>
 <tr><td rowspan=2 width=150 valign=top class=background>
-<?
-include( "$path/include/menu.inc" );
+<?php
+  include( "$path/include/menu.inc" );
 ?>
 </td>
 <td height=50 class=background><h1>developers.videolan.org</h1></td></tr>
 <tr>
 <td valign=top>
 
-<?
+<?php
   if( file_exists( "$page.html" ) )
   {
     include( "$page.html" );
@@ -78,8 +99,7 @@ include( "$path/include/menu.inc" );
 
     while( $file = current( $listing ) )
     {
-      ?><li><code><a href="<? echo $file; ?>"><? echo $file; ?></a>
-      </code></li><?
+      echo '<li><code><a href="'.$file.'">'.$file.'</a></code></li>';
       next($listing);
     }
   }
@@ -91,7 +111,7 @@ include( "$path/include/menu.inc" );
 
 <tr><td colspan=2>
 <hr noshade align="left" width="100%">
-<a href="http://validator.w3.org/check/referer"><img align=right
+<a href="http://validator.w3.org/check/referer"><img align="right"
 border="0" src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML
 4.01!" height="31" width="88"></a>
 <a href="http://jigsaw.w3.org/css-validator/"><img align=right border=0

@@ -15,50 +15,28 @@
     $sfile = $_SERVER["DOCUMENT_ROOT"]."mirror_stats";
     
     /* Load saved data */
-    $file_id = fopen( $sfile, "r");
-    $all = fread( $file_id, filesize( $sfile ) );
-    fclose( $file_id );
-    $stats = explode( "\n", $all );
-
-    array_pop($stats);
-
-    $stats_array = array();
-
-    foreach( $stats as $stat )
-    {
-	$elems = explode( " ", $stat );
-	array_push( $stats_array, $elems );
-    }
-
+    $connect = pg_connect("dbname=stats-videolan user=videolan password=VcD1bdBa");
+   
+    $request = pg_query($connect, "select * from mirrors"); 
+    
     $done = 0;
-    for( $i = 0; $i < count( $stats_array ) ; $i++ )
+    while ($row = pg_fetch_array($request, 0, PGSQL_NUM)
     {
-	$stat = $stats_array[$i];
-	if( strstr($stat[0],$mirror) != FALSE && strstr($stat[1],$file) != FALSE )
-	{
-	    $stat[2]++;
-	    $done = 1;
-	    $stats_array[$i] = $stat;
-	    break;
-	}
+        if( strstr($row[1],$mirror) != FALSE && strstr($row[2],$file) != FALSE )
+        {
+            $done = 1;
+            $nombre = $row[3];
+            $id = $row[0];
+            break;
+        }
     }
 
-
+/*save data into database mirrors*/
     if( $done == 0 )
     {
-	$stat = array();
-	array_push( $stat, $mirror );
-	array_push( $stat, $file );
-	array_push( $stat, "1" );
-	array_push( $stats_array,$stat);
+	$inser = pg_query($connect, "INSERT INTO mirrors VALUES '" . $mirror . "', '" . $file . "', 1");
+    } else {
+        $inser = pg_query($connect, "UPDATE mirrors SET number = " . $nombre++ . " WHERE id = " . $id); 
     }
-
-    /* Save data */
-    $file_id = fopen( $sfile, "w");
-    foreach( $stats_array as $stat )
-    {
-	fwrite( $file_id, $stat[0]." ".$stat[1]." ".$stat[2]."\n");
-    }
-    fclose( $file_id );
-
+    pgclose($connect);
 ?>

@@ -1,15 +1,18 @@
 /* CSS for the VideoLAN website
  * Stolen from the Gnumeric website by Sam :-)
+ * Hardly modified by karibu :(
  *
- * $Id: main.css,v 1.77 2003/02/03 16:00:00 sam Exp $ */
+ * $Id: main.css,v 1.78 2003/04/08 20:18:51 karibu Exp $ */
 
 body {
   font-family: sans-serif, Helvetica, Arial;
   font-size: 1em;
-  background: white;
   color: black;
-  margin: 0px 0px;
-  width: 99%;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  width: 100%;
+  background-color: white;
 }
 
 code {
@@ -21,12 +24,24 @@ img {
   margin-right: 5px;
 }
 
-p {
+p
+{
   font-size: 1em;
   font-family: inherit;
   text-indent: 0px;
   background: inherit;
   color: inherit;
+  margin-left: 30px;
+  margin-right: 10px;
+  text-align: justify;
+}
+
+/**********
+*  Table  *
+**********/
+table
+{
+  margin: 0px 0px 0px 30px;
 }
 
 td {
@@ -36,57 +51,93 @@ td {
   color: inherit;
 }
 
-h1 {
+/* Styles used for the features tables */
+td.yes {
+  color: black;
+  background-image: none;
+  background-color: #cfc;
+  vertical-align: middle;
+  text-align: center;
+}
+td.no {
+  color: black;
+  background-image: none;
+  background-color: #fcc;
+  vertical-align: middle;
+  text-align: center;
+}
+td.partial {
+  color: black;
+  background-image: none;
+  background-color: #ffa;
+  vertical-align: middle;
+  text-align: center;
+}
+td.none {
+  color: black;
+  background-image: none;
+  background-color: #fff;
+  vertical-align: middle;
+  text-align: center;
+}
+td.type {
+  color: black;
+  background-image: none;
+  background-color: #eef;
+  vertical-align: middle;
+}
+td.category {
+  color: black;
+  background-image: none;
+  background-color: #ccf;
+  vertical-align: middle;
+}
+th.os {
+  color: black;
+  background-image: none;
+/*  background-color: #eaa; */
+  vertical-align: middle;
+}
+
+
+/***********
+*  Titles  *
+***********/
+h1
+{
   font-size: 1.4em;
   font-family: inherit;
   font-weight: 600;
   background: inherit;
-  color: #888;
-  padding: 0;
-  margin: 0px 0px 5px 0px;
+  margin: 5px 5px 5px 5px;
+  padding: 1px 0px 1px 10px;
+  color: black;
+  background-color: #D8F8D8;
+  border-width: 1px;
   border-style: solid;
-  border-bottom-color: #a43;
-  border-bottom-width: 2px;
-  border-top-color: #fff; /* white */
-  border-top-width: 0px;
-  border-left-color: #fff; /* white */
-  border-left-width: 0px;
-  border-right-color: #fff; /* white */
-  border-right-width: 0px;
+  border-color: #F0FFF0 #A0C0A0 #A0C0A0 #F0FFF0;
 }
 
-table.h2 {
-  text-align: left;
-  width: auto;
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-tr.h2 {
-  text-align: left;
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-td.h2 {
-  text-align: left;
-  margin: 0;
-  padding: 0;
-  border: 0;
+h1.error
+{
+  background-color: #FF8080;
+  border-color: #FFC0C0 #C04040 #C04040 #FFC0C0;
 }
 
 h2 {
-  font-size: 1.2em;
   font-family: inherit;
-  font-weight: 600;
-  background: inherit;
-  color: #888;
   padding: 0;
-  margin: 0;
   text-decoration: none;
-  border-bottom-style: solid;
-  border-bottom-color: #a43;
-  border-bottom-width: 2px;
+  font-size: 1.1em;
+  font-weight: normal;
+  margin: 0px 10px 0px 10px;
+  color: black;
+  background-color: #F8F8D8;
+  text-decoration: none;
+  padding: 1px 5px 1px 5px;
+  border-style: solid;
+  border-color: #FFFFF0 #C0C0A0 #C0C0A0 #FFFFF0;
+  border-width: 1px;
 }
 
 table.h3 {
@@ -116,12 +167,17 @@ h3 {
   background: inherit;
   color: #888;
   padding: 0;
-  margin: 0;
+  margin: 5px 20px 0px 20px;
   text-decoration: none;
   border-bottom-style: solid;
   border-bottom-color: #a43;
   border-bottom-width: 1px;
 }
+
+
+/**********
+*  Links  *
+**********/
 
 a:link {
   background: inherit;
@@ -187,279 +243,130 @@ dd {
 blockquote.center,p.center,td.center,h2.center { text-align: center; }
 blockquote.right, p.right, td.right  { text-align: right; }
 
-/* Styles used for the features tables */
-td.yes {
-  color: black;
-  background-image: none;
-  background-color: #cfc;
-  vertical-align: middle;
-  text-align: center;
-}
-td.no {
-  color: black;
-  background-image: none;
-  background-color: #fcc;
-  vertical-align: middle;
-  text-align: center;
-}
-td.partial {
-  color: black;
-  background-image: none;
-  background-color: #ffa;
-  vertical-align: middle;
-  text-align: center;
-}
-td.none {
-  color: black;
-  background-image: none;
-  background-color: #fff;
-  vertical-align: middle;
-  text-align: center;
-}
-td.type {
-  color: black;
-  background-image: none;
-  background-color: #eef;
-  vertical-align: middle;
-}
-td.category {
-  color: black;
-  background-image: none;
-  background-color: #ccf;
-  vertical-align: middle;
-}
-th.os {
-  color: black;
-  background-image: none;
-/*  background-color: #eaa; */
-  vertical-align: middle;
-}
 
-/* Styles used for the navigation bar */
-td.firstbar {
-  vertical-align: middle;
-  text-align: center;
-  background-color: #a43;
-  color: #fff;
-  font-weight: bold;
-  font-size: 1.1em;
-}
-a.firstbar:link {
-  background-color: #a43;
-  color: #fff;
-  font-size: inherit;
-}
-a.firstbar:visited {
-  background-color: #a43;
-  color: #fff;
-  font-size: inherit;
-}
-a.firstbar:hover {
-  background-color: #a43;
-  color: #ffdd44;
-  font-size: inherit;
-}
-td.firstbarselected {
-  vertical-align: middle;
-  text-align: center;
-  background-color: #888;
-  color: #ffdd44;
-  font-weight: bold;
-  font-size: 1.1em;
-}
-td.secondbar {
-  vertical-align: middle;
-  text-align: center;
-  background-color: #888;
-  color: #fff;
-  font-weight: bold;
-  font-size: 1em;
-}
-a.secondbar:link {
-  background-color: #888;
-  color: #fff;
-  font-size: inherit;
-}
-a.secondbar:visited {
-  background-color: #888;
-  color: #fff;
-  font-size: inherit;
-}
-a.secondbar:hover {
-  background-color: #888;
-  color: #ffdd44;
-  font-size: inherit;
-}
-td.secondbarselected {
-  vertical-align: middle;
-  text-align: center;
-  background-color: #888;
-  color: #ffdd44;
-  font-weight: bold;
-  font-size: 1em;
-}
+/*********
+*  News  *
+*********/
 
-/*
- * Below is sam's stuff.
- */
-
-/* Styles used for the upper navigation bar */
-td.topleft {
-  vertical-align: middle;
-
-  text-align: center;
-  font-weight: bold;
-  font-size: 1em;
-
-  padding-top: 2px;
-
+td.news-title
+{
+  font-size: 1.2em;
+  font-family: inherit;
+  font-weight: 600;
+  background: inherit;
+  margin: 0px;
+  padding-left: 10px;
+  background-color: #d8f8d8;
+  border-width: 1px;
   border-style: solid;
-  border-color: #aaa;
-  border-bottom-width: 1px;
-  border-top-width: 0px;
-  border-left-width: 0px;
-  border-right-width: 0px;
+  border-color: #f0fff0 #a0c0a0 #a0c0a0 #f0fff0;
 }
 
-td.topright {
-  vertical-align: middle;
+td.news
+{
+  margin: 0px;
+  background-color: #F8F8D8;
+  padding: 10px;
+  border-style: solid;
+  border-color: #FFFFF0 #C0C0A0 #C0C0A0 #FFFFF0;
+  border-width: 1px;
+}
 
+
+/*********
+*  Menu  *
+*********/
+table.menu
+{
   text-align: center;
-  font-weight: bold;
-  font-size: 1em;
-
-  padding-top: 2px;
-
+  margin: 0px;
+  background-color: #E0E0F0;
+  border-width: 0px 1px 1px 1px;
   border-style: solid;
-  border-color: #aaa;
-  border-bottom-width: 1px;
-  border-top-width: 0px;
-  border-left-width: 1px;
-  border-right-width: 0px;
+  border-color: #F0F0FF #B0B0C0 #B0B0C0 #F0F0FF;
 }
 
-td.topbar {
-  vertical-align: middle;
-
-  text-align: center;
-  font-weight: bold;
-  font-size: 1em;
-  padding-top: 2px;
-  padding-left: 5px;
-  padding-right: 5px;
-
+table.menu-back
+{
+  width: 100%;
+  margin: 0px;
+  padding: 0px 0px 5px 0px;
+  background-color: #D8D8F8;
+  border-width: 0px 1px 1px 1px;
   border-style: solid;
-  border-color: #aaa;
-  border-bottom-width: 1px;
-  border-top-width: 1px;
-  border-left-width: 1px;
-  border-right-width: 0px;
+  border-color: #F0F0FF #A0A0C0 #A0A0C0 #F0F0FF;
 }
 
-td.topbarselected {
-  vertical-align: middle;
-  background-color: #fea;
-  color: #653;
-
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.1em;
-
-  padding-top: 2px;
-  padding-left: 5px;
-  padding-right: 5px;
-
+td.button
+{
+  padding: 1px;
+  background-color: #E0E0F0;
+  border: 0px;
   border-style: solid;
-  border-color: #aaa;
-  border-bottom-width: 0px;
-  border-top-width: 1px;
-  border-left-width: 1px;
-  border-right-width: 0px;
+  border-color: #F0F0FF #B0B0C0 #B0B0C0 #F0F0FF;
+  cursor: pointer;
 }
 
-/* Styles used for the lower navigation bar */
-td.bottomleft {
-  background-color: #fea;
-  color: #fff;
-
-  margin: 2px;
-
+div.sep
+{
+  width: 0px;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
   border-style: solid;
-  border-color: #aaa;
-  border-bottom-width: 1px;
-  border-top-width: 0px;
-  border-left-width: 1px;
-  border-right-width: 0px;
+  border-width: 0px 1px 0px 1px;
+  border-right-color: #F0F0FF;
+  border-left-color: #B0B0C0;
 }
 
-td.bottomright {
-  background-color: #fea;
-  color: #fff;
-
-  margin: 2px;
-
+td.button-up
+{
+  padding: 0px;
+  background-color: #E8E8F8;
+  border: 1px;
   border-style: solid;
-  border-color: #aaa;
-  border-bottom-width: 1px;
-  border-top-width: 0px;
-  border-left-width: 0px;
-  border-right-width: 1px;
+  border-color: #F0F0FF #B0B0C0 #B0B0C0 #F0F0FF;
+  cursor: pointer;
 }
 
-td.bottombar {
-  vertical-align: middle;
-  background-color: #fea;
-  color: #fff;
-
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.1em;
-
-  margin: 2px;
-
+td.button-down
+{
+  padding: 0px;
+  background-color: #D8D8E8;
+  border: 1px;
   border-style: solid;
-  border-color: #aaa;
-  border-bottom-width: 1px;
-  border-top-width: 0px;
-  border-left-width: 0px;
-  border-right-width: 0px;
+  border-color: #B0B0C0 #F0F0FF #F0F0FF #B0B0C0;
+  cursor: pointer;
 }
 
-td.bottombarselected {
-  vertical-align: middle;
-  background-color: #fea;
-  color: #653;
-
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.1em;
-
-  margin: 2px;
-
-  border-style: solid;
-  border-color: #aaa;
-  border-bottom-width: 1px;
-  border-top-width: 0px;
-  border-left-width: 0px;
-  border-right-width: 0px;
+td.button-text
+{
+  font-size: 0.8em;
+  font-weight: 600;
+  padding: 1px 3px 1px 2px;
+  border: 0px;
 }
 
-h2.h2poukram {
-  color: #653;
-  background-color: #fea;
+img.button
+{
+  height: 24px;
+  border: 0;
   margin: 0;
-  text-decoration: none;
+  padding: 0;
+}
 
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-left: 5px;
-  padding-right: 5px;
 
+
+/***********
+*  Footer  *
+***********/
+table.footer
+{
+  margin: 20px 0px 0px 0px;
+  width: 100%;
+  background-color: #D8D8F8;
+  border-width: 1px 1px 0px 1px;
   border-style: solid;
-  border-color: #aaa;
-  border-bottom-width: 1px;
-  border-top-width: 1px;
-  border-left-width: 1px;
-  border-right-width: 1px;
+  border-color: #F0F0FF #A0A0C0 #A0A0C0 #F0F0FF;
 }
 

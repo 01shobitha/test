@@ -2,36 +2,28 @@
    $title = "VideoLAN - OpenSource video streaming solution for every OS!";
    $lang = "en";
    $date = "06 April 2002";
+   $menu = array( "home", "overview" );
    require("header.php3");
 
    include("news.php3");
 ?>
 
-<table style="width: 100%;" border="0" cellspacing="0" cellpadding="10">
+<table style="margin: 8px 0px 10px 30px;" border="0" cellspacing="5">
   <tr>
-    <td style="width: auto;">
-
-    <div style="text-align: center; margin-bottom: 15px;">
-      <img width="300" height="75" alt="VideoLAN"
-           src="/images/videolan-new4.png" />
-    </div>
-
-    </td><td>
-
-    <div style="left-margin: 10px; right-margin: 10px;">
-      <table cellspacing="0" cellpadding="0" border="0">
-        <tr><td class="firstbarselected">Latest news</td></tr>
-        <tr><td>
-          <? shownews("title",5); ?>
-        </td></tr>
-      </table>
-    </div>
-
+    <td align="center" rowspan="2">
+      <img alt="VideoLAN" src="/images/videolan-new4.png" 
+        style="margin: 0px 50px;"/>
+    </td>
+    <td class="news-title">
+        Latest news
+    </td>
+  </tr>
+  <tr valign="top">
+    <td class="news">
+      <? shownews("title",5); ?>
     </td>
   </tr>
 </table>
-
-<br />
 
 <table border="0" cellspacing="0" cellpadding="0">
   <tr>
@@ -116,4 +108,4 @@ href="contribute.html">contribution page</a> for more information.</p>
   </tr>
 </table>
 
-<? footer('$Id: index.html,v 1.73 2003/04/07 11:20:36 alexis Exp $'); ?>
+<? footer('$Id: index.html,v 1.74 2003/04/08 20:18:51 karibu Exp $'); ?>

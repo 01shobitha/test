@@ -6,12 +6,12 @@
 /*
  * C'est assez mal écrit mais ça montre la page de news
  * je réécris dès que j'ai le temps ....
- * -- 
+ * --
  * henri
- * 
+ *
  * $style: soit "full", soit "title"
  * $max: nombre maximal à afficher, 0 s'il les faut toutes
- * 
+ *
  */
   function shownews($style,$max) {
     $file=fopen("news.msg","r");
@@ -31,30 +31,30 @@
             if( ereg("^ *[|§]",$line) )
             {
                 // C'est une nouvelle neuve
-                if( $msg ) 
+                if( $msg )
                 {
                     $ex=explode("|",$msg);
 
                     if( $date==$ex[1] ) $number++; else $number=0;
 
-                    if( ereg("^ *§",$msg) ) 
-                    { 
-                        $important=1; 
+                    if( ereg("^ *§",$msg) )
+                    {
+                        $important=1;
                         $anchor=ereg_replace("§","",ereg_replace(" ","_",$ex[0])."_".$number);
                     }
-                    else 
+                    else
                     {
                         $important=0;
                         $anchor=ereg_replace(" ","_",$ex[1])."_".$number;
                     }
 
-                    if ( $important ) 
+                    if ( $important )
                     {
                         $date = ereg_replace("§","",$ex[0]);
                         $title = ereg_replace("$","",$ex[1]);
                         $text = $ex[2];
                     }
-                    else 
+                    else
                     {
                         $date = $ex[1];
                         $title = $ex[2];
@@ -73,9 +73,9 @@
                         echo "$date: <b><a href=\"#$anchor\">$title</a></b>\n";
                         if( $max > 1 ) echo "<br />\n";
                     }
-             
+
                     $max--; if($max == 0) return;
-                    $msg=""; 
+                    $msg="";
                 }
             }
             $msg.=" ".$line;

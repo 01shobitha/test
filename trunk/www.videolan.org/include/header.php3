@@ -4,19 +4,11 @@
     *  starthtml: beginning of the page
     */
 
-function h2($title) {
-global $HTTP_GET_VARS;
-?>
-<table class="h2" cellspacing="0" cellpadding="0">
-<tr class="h2">
-<td class="h2">
-<? if(! $HTTP_GET_VARS['poukram']) { ?><h2 class="h2poukram"><? } else { ?><h2><? } ?>
-<? echo $title; ?>
-</h2>
-</td>
-</tr>
-</table>
-<?
+function h2($title)
+{
+  ?><h2><?
+  echo $title;
+  ?></h2><?
 }
 
 function h3($title) {
@@ -33,7 +25,7 @@ function h3($title) {
 <?
 }
 
-function starthtml($title) {
+function StartHtml( $title ) {
 
 global $HTTP_GET_VARS;
 
@@ -54,223 +46,76 @@ global $HTTP_GET_VARS;
 </head>
 <body><?
 
-   /*
-    * The cool navigation bar, including mirror drop-down menu
-    */
+}
 
-   $modules = split("/", $GLOBALS['PHP_SELF']);
 
-   switch($modules[1]) {
-      case "404.html": case "403.html": break;
-      case "vlc": break;
-      case "streaming": break;
-      case "doc": break;
-      case "support": break;
-      default: $modules[2]=$modules[1]; $modules[1]="home"; break;
-   }
-
+function DrawMenu( $file, $mod )
+{
 ?>
-
-<? if(! $HTTP_GET_VARS['poukram']) { ?>
-<form action="index.html" method="get">
-<table width="100%" cellspacing="0" cellpadding="5">
-
-<tr>
-
- <td style="width: 35px; text-align: center; vertical-align: middle">
-   <a href="/index.html"><img
-   src="/images/cone-soppera10-mini.png" alt="Logo VideoLAN"
-   style="vertical-align: middle; border-width: 0px;" /></a>
-  </td>
-
- <td style="width: 100%; text-align: center; vertical-align: top;">
-
-  <table style="width: 100%;" cellspacing="0" cellpadding="0">
+<table class="menu" cellspacing="3">
   <tr>
-    <td class="topleft" style="width: 8%">&nbsp;</td><?
-    get_first_bar_item_poukram(6, "home", "Home", "/", $modules[1]);
-    get_first_bar_item_poukram(6, "vlc", "VLC&nbsp;media&nbsp;player", "/vlc/", $modules[1]);
-    get_first_bar_item_poukram(6, "streaming", "Streaming", "/streaming/", $modules[1]);
-    get_first_bar_item_poukram(6, "doc", "Documentation", "/doc/", $modules[1]);
-    get_first_bar_item_poukram(6, "support", "Support", "/support/", $modules[1]);
-    get_first_bar_item_poukram(6, "developers", "Developers", "http://developers.videolan.org/", $modules[1]); ?>
-    <td class="topright" style="width: 8%">
-    </td>
-  </tr>
-  </table>
-  <table style="width: 100%;" cellspacing="0" cellpadding="0">
-  <tr>
-    <td class="bottomleft">&nbsp;</td>
-    <? switch($modules[1]) {
-      case "vlc": second_bar_vlc($modules[2]); break;
-      case "streaming": second_bar_stream($modules[2]); break;
-      case "doc": ?><td></td><?; break;
-      case "support": second_bar_support($modules[2]); break;
-      case "home": second_bar_home($modules[2]); break;
-    } ?>
-    <td class="bottomright">&nbsp;</td>
-  </tr>
-  </table>
- </td>
-
- <td style="text-align: center; vertical-align: middle">
-  <select name="mirror">
-  <!-- current: $GLOBALS['HTTP_HOST'] -->
-  <option value="www.videolan.org">Main site (VIA)</option>
-  <option value="www.fr.videolan.org">Mirror site (Zoy)</option>
-  </select><br /><input type="submit" value="Select Mirror" />
- </td>
-
-</tr>
-</table>
-</form>
-<? } else { ?>
-<form action="index.html" method="get">
-<table width="100%" cellspacing="0" cellpadding="5">
-
-<tr>
-
- <td style="width: 35px; text-align: center; vertical-align: middle">
-   <a href="/index.html"><img
-   src="/images/cone-soppera10-mini.png" alt="Logo VideoLAN"
-   style="vertical-align: middle; border-width: 0px;" /></a>
-  </td>
-
- <td style="width: 100%; text-align: center; vertical-align: top;">
-
-  <table style="width: 100%;" cellspacing="0" cellpadding="0">
-  <tr>
-    <td style="width: 8%">&nbsp;</td><?
-    get_first_bar_item(6, "home", "Home", "/", $modules[1]);
-    get_first_bar_item(6, "vlc", "VLC&nbsp;media&nbsp;player", "/vlc/", $modules[1]);
-    get_first_bar_item(6, "streaming", "Streaming", "/streaming/", $modules[1]);
-    get_first_bar_item(6, "doc", "Documentation", "/doc/", $modules[1]);
-    get_first_bar_item(6, "support", "Support", "/support/", $modules[1]);
-    get_first_bar_item(6, "developers", "Developers", "http://developers.videolan.org/", $modules[1]); ?>
-    <td style="width: 8%">&nbsp;</td>
-  </tr>
-  </table>
-  <table style="width: 100%;" cellspacing="0" cellpadding="0">
-  <tr>
-    <? switch($modules[1]) {
-      case "vlc": second_bar_vlc($modules[2]); break;
-      case "streaming": second_bar_stream($modules[2]); break;
-      case "doc": ?><td></td><?; break;
-      case "support": second_bar_support($modules[2]); break;
-      case "home": second_bar_home($modules[2]); break;
-    } ?>
-  </tr>
-  </table>
-
- </td>
- <td style="text-align: center; vertical-align: middle">
-     <select name="mirror">
-     <!-- current: $GLOBALS['HTTP_HOST'] -->
-     <option value="www.videolan.org">Main site (VIA)</option>
-     <option value="www.fr.videolan.org">Mirror site (Zoy)</option>
-     </select><br/><input type="submit" value="Select Mirror" />
- </td>
-</tr>
-</table>
-</form>
-<? } ?>
-
-<div style="margin: 10px;">
 <?
-   /* This is where the real user page stands */
-}
 
-/* Give an entire cell html code for the first menubar */
-function get_first_bar_item_poukram($number, $module, $text, $url, $current_module) {
-  if($current_module == $module)
+  if( $m = fopen( "menu/$file", "r", 1 ) )
   {
-     ?><td class="topbarselected"><? echo $text; ?></td>
-     <?
+    while( $l = fgets( $m, 300 ) )
+    {
+      $l = rtrim( $l );
+      if( $l == "sep" )
+      {
+        ?><td><div class="sep"></div></td>
+        <?
+      }
+      else
+      {
+        list( $name, $text, $link, $icon ) = split( "[\t;]+", $l );
+        if( $name == $mod )
+        {
+          ?><td class="button-down" onclick="document.location='<? 
+          echo $link;
+          ?>'">
+          <?
+        }
+        else
+        {
+          ?><td class="button" <?     
+          ?>onmouseout="this.className='button'" <?
+          ?>onmouseover="this.className='button-up'" <?
+          ?>onmousedown="this.className='button-down'" <?
+          ?>onclick="document.location='<? echo $link ?>'">
+          <?
+        }
+        ?><table cellpadding="1" cellspacing="0" style="margin: 0px;">
+        <tr><?
+        if( $icon != "" )
+        {
+          ?><td>
+          <img class="button" src="/images/menu/<?
+          echo $icon;
+          ?>" alt="<?
+          echo $name;
+          ?>"/></td><?
+        }
+        ?><td class="button-text"><?
+        echo $text;
+        ?></td></tr></table></td><?
+
+      }
+    }
   }
-  else
-  {
-     ?><td class="topbar"><a class="topbar" href="<? echo $url; ?>"><? echo $text; ?></a></td>
-     <?
-  }
-}
-
-/* Give an entire cell html code for the first menubar */
-function get_first_bar_item($number, $module, $text, $url, $current_module) {
-  if($current_module == $module)
-  {
-     ?><td class="firstbarselected"><? echo $text; ?></td>
-     <?
-  }
-  else
-  {
-     ?><td class="firstbar"><a class="firstbar" href="<? echo $url; ?>"><? echo $text; ?></a></td>
-     <?
-  }
-}
-
-/* Give an entire cell html code for the second menubar */
-function get_second_bar_item($number, $module, $text, $url, $current_module) {
-global $HTTP_GET_VARS;
-  $size = floor(100 / $number);
-  if($current_module == $module)
-  {
-     ?><td class="<? if(! $HTTP_GET_VARS['poukram']) { echo "bottom"; } else { echo "second"; } ?>barselected" style="width: <? echo $size; ?>%"><? echo $text; ?></td>
-     <?
-  }
-  else
-  {
-     ?><td class="<? if(! $HTTP_GET_VARS['poukram']) { echo "bottom"; } else { echo "second"; } ?>bar" style="width: <? echo $size; ?>%"><a class="<? if(! $HTTP_GET_VARS['poukram']) { echo "bottom"; } else { echo "second"; } ?>bar" href="<? echo $url; ?>"><? echo $text; ?></a></td>
-     <?
-  }
-}
-
-/* Second bar for vlc */
-
-function second_bar_vlc($module) {
-  get_second_bar_item(3, "index.html", "Download", "/vlc/", $module);
-  get_second_bar_item(3, "features.html", "Features", "/vlc/features.html", $module);
-  get_second_bar_item(3, "screenshots.html", "Screenshots", "/vlc/screenshots.html", $module);
-}
-
-/* Second bar for streaming */
-
-function second_bar_stream($module) {
-  get_second_bar_item (2, "index.html", "Overview", "/streaming/", $module);
-  get_second_bar_item (2, "features.html", "Features", "/streaming/features.html", $module);
-}
-
-/* Second bar for support */
-
-function second_bar_support($module) {
-  get_second_bar_item(4, "index.html", "Overview", "/support/", $module);
-  get_second_bar_item(4, "bug-reporting.html", "Report a bug", "/support/bug-reporting.html", $module);
-  get_second_bar_item(4, "lists.html", "Mailing-lists", "/support/lists.html", $module);
-  get_second_bar_item(4, "irc", "IRCWeb", "/cgi-bin/irc/irc.cgi", $module);
-}
-
-/* Second bar for home */
-
-function second_bar_home($module) {
-  get_second_bar_item(9, "index.html", "Overview", "/index.html", $module);
-  get_second_bar_item(9, "news.html", "News", "/news.html", $module);
-  get_second_bar_item(9, "events", "Events", "/events/", $module);
-  get_second_bar_item(9, "team", "Team", "/team/", $module);
-  get_second_bar_item(9, "partners.html", "Partners", "/partners.html", $module);
-  get_second_bar_item(9, "contribute.html", "Contribute", "/contribute.html", $module);
-  get_second_bar_item(9, "contact.html", "Contact", "/contact.html", $module);
-  get_second_bar_item(9, "links.html", "Links", "/links.html", $module);
-  get_second_bar_item(9, "goodies.html", "Goodies", "/goodies.html", $module);
+?>
+  </tr>
+</table>
+<?
 }
 
 
-   /*
-    *  footer: bottom of the page
-    */
+
 
 function footer($tag) {
    global $language; ?>
-<hr />
-<table cellspacing="0" cellpadding="2" style="width: 100%;" border="0">
+
+<table class="footer" cellspacing="3" cellpadding="2">
   <tr>
     <td align="left">
       <a href="/">VideoLAN</a> &nbsp;-&nbsp;
@@ -288,7 +133,7 @@ function footer($tag) {
   </tr>
 </table>
 
-</div><?
+<?
 
     /*
      * end of the body
@@ -309,9 +154,37 @@ if($mirror)
 }
 
 /* default language and date */
-if($lang=="") { $lang = "en"; }
+if( $lang == "" ) { $lang = "en"; }
 
 /* render the page */
-starthtml(ereg_replace("<[^>]*>","",$title));
+
+// HTML header
+StartHtml( ereg_replace( "<[^>]*>" , "" , $title ) );
+
+
+?><table class="menu-back" cellspacing="0" cellpadding="0">
+  <tr align="center">
+    <td>
+<?
+$file = "menu.txt";
+foreach( $menu as $module )
+{
+  DrawMenu( $file, $module );
+  $file = "$module.$file";
+}
+?>
+    </td>
+    <td>
+      <select name="mirror">
+      <!-- current: $GLOBALS['HTTP_HOST'] -->
+      <option value="www.videolan.org">Main site (VIA)</option>
+      <option value="www.fr.videolan.org">Mirror site (Zoy)</option>
+      </select><br /><input type="submit" value="Select Mirror" />
+    </td>
+
+  </tr>
+</table><?
+
 
 ?>
+

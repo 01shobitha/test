@@ -43,10 +43,9 @@ libdvdplay 1.0.0).</li>
 --enable-debug</code></li>
 <li>run <code>make</code></li>
 <li>If you are using the old gcc 2.9 that comes with BeOS 5, the
-compilation may fail on a few modules. It is a gcc bug, you can avoid it
-by using <a href="http://www.bebits.com/app/2157">gcc 2.95.3</a> (but be
-aware lots of people have experienced problems with this compiler) or by
-decrease the optimization level from -O3 to -O0.</li>
+compilation may fail on a few modules. It is a gcc bug, you can avoid
+it by adding a -fno-unroll-loops flag or by decreasing the optimization
+level from -O3 to -O0.</li>
 </ul>
 
 <p><b>Written by <a href="mailto:titer@videolan.org">Eric Petit</a>, for

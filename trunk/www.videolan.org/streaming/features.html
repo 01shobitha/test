@@ -33,7 +33,7 @@
 
 <tr>
 
-<td class="category" rowspan="16"><b>Stream Output</b></td>
+<td class="category" rowspan="4"><b>Inputs</b></td>
 <td class="type">File</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -46,6 +46,44 @@
 
 <tr>
 
+<td class="type">DVD</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+
+<tr>
+
+<td class="type">MPEG encoding card (Kfir)</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="partial">CVS only</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
+
+</tr>
+
+<tr>
+
+<td class="type">V4L device</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="partial">CVS only</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
+
+</tr>
+
+<tr>
+
+<td class="category" rowspan="3"><b>Output</b></td>
 <td class="type">Unicast UDP / RTP</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -70,7 +108,7 @@
 
 <tr>
 
-<td class="type">MPEG PS / TS muxer</td>
+<td class="type">File (PS / TS / AVI muxers)</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -82,18 +120,7 @@
 
 <tr>
 
-<td class="type">AVI muxer</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
+<td class="category" rowspan="6"><b>Video formats</b></td>
 <td class="type">MPEG-1 video</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -164,11 +191,10 @@
 
 </tr>
 
-
-
 <tr>
 
-<td class="type">MPEG Layer 1, 2 and 3 audio</td>
+<td class="category" rowspan="3"><b>Audio formats</b></td>
+<td class="type">MPEG Layer 1 / 2 / 3 audio</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -203,6 +229,7 @@
 </tr>
 
 <tr>
+<td class="category" rowspan="2"><b>Misc</b></td>
 
 <td class="type">DVD subtitles</td>
 <td class="no">No</td>
@@ -252,30 +279,12 @@
 
 <tr>
 
-<td class="category" rowspan="8"><b>Inputs</b></td>
-<td class="type">MPEG-1 File</td>
+<td class="category" rowspan="6"><b>Inputs</b></td>
+<td class="type">File</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 
 </tr>
-
-<tr>
-
-<td class="type">MPEG-2 File</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="type">MPEG-4 File</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-
 
 <tr>
 
@@ -344,6 +353,50 @@
 
 <tr>
 
+<td class="category" rowspan="3"><b>Video formats</b></td>
+<td class="type">MPEG-1 video</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">MPEG-2 video</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">MPEG-4 video</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="category" rowspan="2"><b>Audio formats</b></td>
+<td class="type">MPEG Layer 1 / 2 / 3 audio</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">AC3 (i.e. A52)</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+
+
+<tr>
+
 <td class="category" rowspan="2"><b>Control</b></td>
 <td class="type">Command line</td>
 <td class="yes">Yes</td>
@@ -378,4 +431,4 @@
 
 </table>
 
-<? footer('$Id: features.html,v 1.22 2003/03/17 19:52:22 alexis Exp $'); ?>
+<? footer('$Id: features.html,v 1.23 2003/04/06 16:00:28 alexis Exp $'); ?>

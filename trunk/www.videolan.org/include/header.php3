@@ -54,12 +54,12 @@ function starthtml($title) { ?>
 
 <tr>
 
- <td style="vertical-align: middle;width=35px" align="center">
+ <td style="width: 35px; text-align: left; vertical-align: middle" align="center">
    <img src="/images/cone-soppera1-mini.png" alt="Logo VideoLAN" />
   </td>
 
- <td style="width=80%">
-  <table style="width=100%">
+ <td style="width: 80%">
+  <table style="width: 100%; text-align: center; vertical-align: middle;">
   <tr>
      <td style="background-color: <?echo($color_home);?>; width: 17%; vertical-align: middle;" align="center"><b><a href="/">Home</a></b></td>
      <td style="background-color: <?echo($color_vlc);?>; width: 16%; vertical-align: middle;" align="center"><b><a href="/vlc/">VLC</a></b></td>
@@ -70,7 +70,7 @@ function starthtml($title) { ?>
   </tr>
   </table>
   <br/>
-  <table style="width=100%">
+  <table style="width: 100%">
   <tr>
     <? switch($modules[1]) {
       case "vlc": second_bar_vlc(); break;
@@ -83,7 +83,7 @@ function starthtml($title) { ?>
   </table>
 
  </td>
- <td>
+ <td style="text-align: center; vertical-align: middle">
      <select name="mirror">
      <!-- current: $GLOBALS['HTTP_HOST'] -->
      <option value="www.videolan.org">Châtenay, France (main)</option>

@@ -1,0 +1,100 @@
+<chapter id="webbrowser-plugin"><title id="twebbrowser-plugin">The Mozilla plug-in</title>
+
+<para>VLC can also be embeded in a web browser ! For
+the moment, this function is only available with <ulink
+url="http://www.mozilla.org/">Mozilla</ulink> under Linux.</para>
+
+<sect1><title>Install the plug-in</title>
+
+<sect2><title>Under Linux Debian</title>
+
+<para>You should already have the following lines in your
+<filename>/etc/apt/sources.list</filename> file :</para>
+
+<programlisting>
+deb http://www.videolan.org/pub/videolan/debian $(ARCH)/
+deb-src http://www.videolan.org/pub/videolan/debian sources/
+</programlisting>
+
+<para>Install the <emphasis>mozilla-plugin-vlc</emphasis> package :</para>
+
+<screen>
+<prompt># </prompt><userinput>apt-get update</userinput>
+<prompt># </prompt><userinput>apt-get install mozilla-plugin-vlc</userinput>
+</screen>
+
+<sect1><title>Build HTML pages that use the plug-in</title>
+
+<para>Here are a few examples of HTML pages that use the Mozilla plug-in.</para>
+
+<simplesect><title>Example 1</title>
+
+<para>In this example, the plug-in will read an HTTP stream inside
+the web page. If the user goes fullscreen, he will have to press
+<keycap>f</keycap> to go back in normal view.</para>
+
+<programlisting>
+&lt;html&gt;
+&lt;head&gt;&lt;title&gt;Demo of VLC mozilla plug-in&lt;/title&gt;&lt;/head&gt;
+
+&lt;body&gt;
+
+&lt;h1&gt;Demo of VLC mozilla plug-in - Example 1&lt;/h1&gt;
+
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;embed type="application/x-vlc-plugin"
+         name="video1"
+         autoplay="no" loop="yes" width="400" height="300"
+         target="http://server.exemple.org/video1.vob"&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td&gt;
+  &lt;a href="javascript:;" onclick='document.video1.play()'>Play video1&lt;/a&gt;
+  &lt;a href="javascript:;" onclick='document.video1.pause()'>Pause video1&lt;/a&gt;
+  &lt;a href="javascript:;" onclick='document.video1.stop()'>Stop video1&lt;/a&gt;
+  &lt;a href="javascript:;" onclick='document.video1.fullscreen()'>Fullscreen&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</programlisting>
+
+<simplesect><title>Example 2</title>
+
+<para>In this example, the plug-in will read a multicast UDP stream in a
+dedicated video output window.</para>
+
+
+<programlisting>
+&lt;html&gt;
+&lt;head&gt;&lt;title&gt;Demo of VLC mozilla plug-in&lt;/title&gt;&lt;/head&gt;
+
+&lt;body&gt;
+
+&lt;h1&gt;Demo of VLC mozilla plug-in - Example 2&lt;/h1&gt;
+
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;embed type="application/x-vlc-plugin"
+         name="video2"
+         autoplay="no" loop="no" hidden="yes"
+         target="udp:@239.255.12.42"&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;
+&lt;td&gt;
+  &lt;a href="javascript:;" onclick='document.video2.play()'>Play video2&lt;/a&gt;
+  &lt;a href="javascript:;" onclick='document.video2.stop()'>Stop video2&lt;/a&gt;
+  &lt;a href="javascript:;" onclick='document.video2.fullscreen()'>Fullscreen&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</programlisting>
+

@@ -8,6 +8,7 @@
   <!ENTITY install SYSTEM "install.sgml">
   <!ENTITY gui SYSTEM "gui.sgml">
   <!ENTITY cmdline SYSTEM "cmdline.sgml">
+  <!ENTITY webbrowser-plugin SYSTEM "webbrowser-plugin.sgml">
 
   <!ENTITY install-vlc SYSTEM "../common/install-vlc.sgml">
   <!ENTITY uninstall-vlc SYSTEM "../common/uninstall-vlc.sgml">
@@ -98,6 +99,7 @@ Texts. The text of the license can be found in the appendix
 &install;
 &gui;
 &cmdline;
+&webbrowser-plugin;
 &fdl;
 
 </book>

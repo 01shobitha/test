@@ -1,0 +1,43 @@
+<chapter id="softencoding"><title id="tsoftencoding">Stream from an acquisition card</title>
+
+<sect1><title>Install the Video for Linux drivers</title>
+
+<para>[TODO]</para>
+
+<sect1><title>Stream with VLC</title>
+
+<screen>
+<prompt>% </prompt><userinput>vlc v4l:/dev/video:channel=0:frequency=8052:norm=secam:size=vga --sout udp:192.168.0.12 --ttl 12</userinput>
+</screen>
+
+<para>where :</para>
+
+<itemizedlist>
+
+<listitem><para><filename>/dev/video</filename> is the device
+corresponding to your acquisition card,</para>
+
+<listitem><para><emphasis>192.168.0.12</emphasis> is either :
+
+<itemizedlist>
+<listitem><para>the IP address of the machine you want to unicast to ;</para>
+<listitem><para>or the DNS name the machine you want to unicast to ;</para>
+<listitem><para>or the multicast IP address.</para>
+</itemizedlist>
+
+
+<listitem><para><emphasis>12</emphasis> is the value of the TTL (Time To
+Live) of your IP packets (which means that the stream will be
+able to cross 11 routers).</para>
+
+</itemizedlist>
+
+<para>[TODO : complete]</para>
+
+</sect1>
+
+<sect1><title>Stream with VLS</title>
+
+<para>[TODO]</para>
+
+</chapter>

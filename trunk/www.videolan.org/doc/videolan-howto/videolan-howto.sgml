@@ -4,12 +4,16 @@
     %magic-entities;
 
   <!ENTITY intro SYSTEM "../common/intro.sgml">
-  <!ENTITY vlc SYSTEM "vlc.sgml">
-  <!ENTITY vlc-streamoutput SYSTEM "vlc-streamoutput.sgml">
-  <!ENTITY vls SYSTEM "vls.sgml">
+  <!ENTITY install SYSTEM "install.sgml">
+  <!ENTITY receive SYSTEM "receive.sgml">
+  <!ENTITY file SYSTEM "file.sgml">
+  <!ENTITY dvd SYSTEM "dvd.sgml">
+  <!ENTITY dvbs SYSTEM "dvbs.sgml">
+  <!ENTITY dvbt SYSTEM "dvbt.sgml">
+  <!ENTITY hardencoding SYSTEM "hardencoding.sgml">
+  <!ENTITY softencoding SYSTEM "softencoding.sgml">
   <!ENTITY vod SYSTEM "../videolan-quickstart/vod.sgml">
   <!ENTITY vlcs SYSTEM "../videolan-quickstart/vlcs.sgml">
-
   <!ENTITY install-vlc SYSTEM "../common/install-vlc.sgml">
   <!ENTITY install-vls SYSTEM "../common/install-vls.sgml">
   <!ENTITY uninstall-vls SYSTEM "../common/uninstall-vls.sgml">
@@ -93,9 +97,14 @@ solution.</para>
 <toc></toc>
 
 &intro;
-&vlc;
-&vlc-streamoutput;
-&vls;
+&install;
+&receive;
+&file;
+&dvd;
+&dvbs;
+&dvbt;
+&hardencoding;
+&softencoding;
 &vod;
 &vlcs;
 &fdl;

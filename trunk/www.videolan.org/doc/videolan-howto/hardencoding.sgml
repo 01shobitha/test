@@ -1,0 +1,53 @@
+<chapter id="hardencoding"><title id="thardencoding">Stream from an MPEG encoding card</title>
+
+<sect1><title>Install the drivers</title>
+
+<para>If you want to be able to stream from a Kfir
+card, you need to install its Linux drivers. Download
+the latest release of the drivers from the <ulink
+url="http://www.linuxtv.org/download/mpeg2/">drivers download
+page</ulink> of the <ulink url="http://www.linuxtv.org/">LinuxTV</ulink>
+Project.</para>
+
+<para>Uncompress the tarball and follow the instructions written in
+the <filename>README</filename> file to compile and install the
+drivers.</para>
+
+<note><para>If you have a VIA chipset, you need to disable USB in the
+BIOS.</para></note>
+
+<sect1><title>Stream with VLC</title>
+
+<screen>
+<prompt>% </prompt><userinput>vlc kfir:/dev/video --sout udp:192.168.0.12 --ttl 12</userinput>
+</screen>
+
+<para>where :</para>
+
+<itemizedlist>
+
+<listitem><para><filename>/dev/video</filename> is the device
+corresponding to the Kfir card,</para>
+
+<listitem><para><emphasis>192.168.0.12</emphasis> is either :
+
+<itemizedlist>
+<listitem><para>the IP address of the machine you want to unicast to ;</para>
+<listitem><para>or the DNS name the machine you want to unicast to ;</para>
+<listitem><para>or the multicast IP address.</para>
+</itemizedlist>
+
+
+<listitem><para><emphasis>12</emphasis> is the value of the TTL (Time To
+Live) of your IP packets (which means that the stream will be
+able to cross 11 routers).</para>
+
+</itemizedlist>
+
+</sect1>
+
+<sect1><title>Stream with VLS</title>
+
+<para>[TODO]</para>
+
+</chapter>

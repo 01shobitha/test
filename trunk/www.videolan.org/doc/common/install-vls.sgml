@@ -1,3 +1,4 @@
+<!--
 <sect2><title>Under Windows</title>
 
 <para>
@@ -78,6 +79,8 @@ libdvbpsi1-version.i586.rpm libdvdread-version.i386.rpm</userinput>
 
 </sect2>
 
+-->
+
 <sect2><title>Under Linux or Unix</title>
 
 <para>The method below is for any Unix or Linux supported by the
@@ -139,6 +142,7 @@ contains the following line :
 
 <sect3><title>Install the VideoLAN Server</title>
 
+<!--
 <para>
 Download the sources of the latest release : get the file
 <filename>vls-version.tar.gz</filename> from the <ulink url="http://www.videolan.org/vls/download.html">vls download page</ulink>. Uncompress-it :
@@ -148,11 +152,11 @@ Download the sources of the latest release : get the file
 <prompt>% </prompt><userinput>tar xvzf vls-version.tar.gz</userinput>
 <prompt>% </prompt><userinput>cd vls-version</userinput>
 </screen>
+-->
 
 <para>
 
-To get the most recent version of the videolan server, not yet released,
-you must use the VideoLAN public CVS :
+Get the most recent version of the VideoLAN Server from the public CVS :
 
 </para>
 

@@ -185,11 +185,13 @@ Download the sources of the lastest release : get the file
 <prompt>% </prompt><userinput>cd vlc-version</userinput>
 </screen>
 
+<!--
 <para>For the vlc 0.5.0 version, do first :</para>
 
 <screen>
 <prompt>% </prompt><userinput>./bootstrap</userinput>
 </screen>
+-->
 
 <para>To get the list of configuration options, do :</para>
 
@@ -224,10 +226,12 @@ interface (you will need the developement packages of Gnome) :</para>
 
 </itemizedlist>
 
+<!--
 <para>
 To compile and install the vlc 0.5.0 you must use the automake 1.5 or
 higher version. The automake 1.6 is highly recommanded.
 </para>
+-->
 
 <para>
 Then, compile and install :

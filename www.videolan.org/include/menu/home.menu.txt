@@ -7,5 +7,5 @@ contribute;Contribute;/contribute.html
 contact;Contact;/contact.html
 links;Links;/links.html
 goodies;Goodies;/goodies.html
-dtsdec;DTSdec;/dtsdec.html
+libdca;libdca;/libdca.html
 x264;x264;/x264.html

@@ -14,12 +14,12 @@ development tools</li>
 <li><a href="http://www.bebits.com/app/3962">Subversion</a></li>
 <li><a href="http://www.bebits.com/app/3218">bzip2/bunzip2</a></li>
 <li><a href="http://www.bebits.com/app/2848">wget</a></li>
-<li><a href="http://www.hirschkaefer.de/beos/">gcc 2.95.3</a></li>
+<li><a href="http://www.bebits.com/app/4011/">gcc 2.95.3</a></li>
 </ul>
 
 <p>Compiling is usually done on a vanilla R5.0.3 install with gcc 2.95.3.
 Building with older compilers won't work. Building on a BONE-enabled
-install doesn't work at the moment.</p>
+install probably doesn't work at the moment.</p>
 
 <p>Now you can compile vlc:</p>
 <ul>
@@ -29,13 +29,14 @@ install doesn't work at the moment.</p>
 build every util and library VLC needs (you need an internet connection,
 a fast one preferably)</li>
 <li>cd to the root of the source directory</li>
-<li>run <code>./bootstrap &amp;&amp; ./configure --disable-x11
---disable-xvideo --disable-gtk --disable-sdl --enable-ffmpeg
---with-ffmpeg-mp3lame --with-ffmpeg-faac --with-ffmpeg-zlib --enable-mad
---enable-libdvbpsi --enable-a52 --enable-dvdnav --enable-faad
---enable-vorbis --enable-ogg --enable-theora --enable-faac --enable-mkv
---enable-freetype --enable-speex --enable-flac --disable-skins2
---enable-debug &amp;&amp; make</code></li>
+<li>run <code>./bootstrap &amp;&amp; ./configure --enable-debug
+--enable-sout --enable-httpd --enable-vlm --enable-dvdread
+--enable-dvdnav --enable-dvbpsi --enable-screen --enable-ogg
+--enable-mkv --enable-mad --enable-ffmpeg --enable-faad --enable-a52
+--enable-flac --enable-libmpeg2 --enable-vorbis --enable-speex
+--enable-theora --enable-freetype --enable-fribidi --disable-skins2
+--with-ffmpeg-mp3lame --with-ffmpeg-faac --with-ffmpeg-zlib &amp;&amp;
+make</code></li>
 <li>to build a package, run <code>make package-beos</code></li>
 </ul>
 

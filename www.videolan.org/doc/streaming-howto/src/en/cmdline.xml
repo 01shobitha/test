@@ -18,10 +18,10 @@ Advanced streaming using the command line</title>
 
 <para>
 
-Stream output is the name of the feature of VLC that alows to output
+Stream output is the name of the feature of VLC that allows to output
 any stream read by VLC to a file or as a network stream instead of
 displaying it. Different kind of processing can be applied to the stream
-during this process (transcoding, rescaling, filters, remuxing...)
+during this process (transcoding, re-scaling, filters, re-muxing...)
 
 Stream output includes different modules, each of them having different
 capabilities. You can <emphasis>chain</emphasis> modules to enhance the
@@ -41,7 +41,7 @@ probably want to use this module at the end of your chains.
 </para></listitem>
 
 <listitem><para><emphasis>transcode</emphasis> is used to transcode
-(decode and reencode the stream using a different codec and/or bitrate)
+(decode and re-encode the stream using a different codec and/or bitrate)
 the audio and the video of the input stream. If the input or output
 access method doesn't allow pace control (network, capture devices),
 this done "on the fly", in real time. This can require quite a lot
@@ -51,7 +51,7 @@ as files and disks are transcoded as fast as the system allows it.
 
 <listitem><para><emphasis>duplicate</emphasis>
 allows you to create a second chain, where the
-stream will be handled in an independant way.
+stream will be handled in an independent way.
 </para></listitem>
 
 <listitem><para><emphasis>display</emphasis> 
@@ -121,7 +121,7 @@ having muxed it.
 
 <itemizedlist>
 <listitem><para>file: saves the stream to a file.</para>
-<para>Use the <emphasis>append</emphasis> option to append the straem to an existing file instead of remplacing it.</para></listitem>
+<para>Use the <emphasis>append</emphasis> option to append the stream to an existing file instead of replacing it.</para></listitem>
 
 <listitem><para>udp: streams to a UDP unicast or multicast
 address.</para>
@@ -129,16 +129,16 @@ address.</para>
 ms&gt;</emphasis> to set the time VLC should buffer data before sending
 it, <emphasis>ttl=&lt;ttl&gt;</emphasis> to set the ttl of the sent udp
 packets, <emphasis>group=&lt;amount of packets&gt;</emphasis> to sent
-packets by burst instread of one by one, <emphasis>late=&lt;time in
+packets by burst instead of one by one, <emphasis>late=&lt;time in
 ms&gt;</emphasis> to drop packets that arrive too late at this stage of
 the chain, <emphasis>raw</emphasis> if you don't want to wait until the
 MTU is filled before sending the packet.</para> </listitem>
 
 <listitem><para>http: streams over HTTP.</para> <para>Item
 options are: <emphasis>user=&lt;user name&gt;</emphasis>
-to enable HTTP basic authentification and set the user,
+to enable HTTP basic authentication and set the user,
 <emphasis>pwd=&lt;password&gt;</emphasis> to set the basic
-authentification password, <emphasis>mime=&lt;mime type&gt;</emphasis>
+authentication password, <emphasis>mime=&lt;mime type&gt;</emphasis>
 to set the mime type returned by the server.</para></listitem>
 
 <listitem><para>https: streams over HTTP, using a secured SSL
@@ -151,13 +151,13 @@ the server should use for the SSL connection, <emphasis>ca=&lt;path
 to certificate&gt;</emphasis> to set the path to the root
 CA certificates to use for SSL, <emphasis>crl=&lt;path to
 certificate&gt;</emphasis> to set the revocation certificate to use for
-the SSL connexion.</para></listitem>
+the SSL connection.</para></listitem>
 
 <listitem><para>mmsh: streams using the Microsoft MMS protocol. This
-protocol is used as transport methof by many Microsoft's softwares.
+protocol is used as transport method by many Microsoft's softwares.
 Note that only a small part of the MMS protocol is supported (MMS
 encapsulated in HTTP).</para>
-<para>Item options are tha same than for the http module.</para></listitem>
+<para>Item options are the same as for the http module.</para></listitem>
 
 <listitem><para>rtp: streams over RTP. Please note that this is
 a legacy module. It doesn't allow RTSP and can only be used to stream
@@ -170,7 +170,7 @@ output module for a more compliant and complete RTP streamer.</para>
 <sect3><title>mux=</title>
 <para> This option allows you to set the encapsulation method used for the resulting stream. This option has to be set.</para>
 
-<para>Avaivailable options are: </para>
+<para>Available options are: </para>
 
 <itemizedlist>
 <listitem><para><emphasis>ts:</emphasis> the MPEG2/TS muxer. This the
@@ -189,7 +189,7 @@ set the ID of the resulting TS stream, <emphasis>shaping=&lt;shaping
 delay in ms&gt;</emphasis> to set the minimum interval during
 which the bitrate of the stream will remain constant, for variable
 bitrate streams, <emphasis>use-key-frames</emphasis> uses I frames
-as limts for the shaping intervals, <emphasis>pcr=&lt;PCR interval
+as limits for the shaping intervals, <emphasis>pcr=&lt;PCR interval
 in ms&gt;</emphasis> allows to set at which interval Program
 Clock References will be sent, <emphasis>dts-delay=&lt;delay
 in ms&gt;</emphasis> allows to delay PTS (Presentation Time
@@ -212,7 +212,7 @@ time.</para></listitem>
 <listitem><para><emphasis>mpeg1:</emphasis> the standard MPEG 1 muxer. This muxer should be
 used instead of ps with MPEG 1 video streams, when saved to a file or
 streamed over HTTP. Supported codecs are MPEG 1 and MPEG audio.</para>
-<para>Items options are the same than for the PS muxer.</para></listitem>
+<para>Items options are the same as for the PS muxer.</para></listitem>
 
 <listitem><para><emphasis>ogg:</emphasis> the ogg muxer. This is the muxer from the Xiph
 project. It can be used with the HTTP and file output methods. Supported
@@ -233,10 +233,10 @@ MPEG audio, a52 for audio streams.</para>
 <emphasis>comment=&lt;comments&gt;</emphasis>,
 <emphasis>rating=&lt;rating&gt;</emphasis> allow you to set what will be displayed in the according field of the stream comments.</para></listitem>
 
-<listitem><para><emphasis>asfh:</emphasis> this is a spacial version of the ASF muxer, that
+<listitem><para><emphasis>asfh:</emphasis> this is a special version of the ASF muxer, that
 should be used for MMSH streaming. MMSH is the only supported output
-method. Supported codec are the same than for ASF.</para>
-<para>Item options are the same than for ASF.</para></listitem>
+method. Supported codecs are the same as for ASF.</para>
+<para>Item options are the same as for ASF.</para></listitem>
 
 <listitem><para><emphasis>avi:</emphasis> the Microsoft AVI muxer. This is very common
 encapsulation format for MPEG 4 files. The only supported output method
@@ -245,9 +245,9 @@ MPEG audio and a52 for audio streams.</para>
 <para>There is not item option for this muxer.</para></listitem>
 
 <listitem><para><emphasis>mpjpeg:</emphasis> the multipart jpeg muxer.
-This encapsulation format is mostly used on suveillance video cameras
-with an integrated webserver. Such streams are usually embedded in
-webpages and seen with standard Internet browsers, as they are seen
+This encapsulation format is mostly used on surveillance video cameras
+with an integrated web-server. Such streams are usually embedded in
+web-pages and seen with standard Internet browsers, as they are seen
 as a succession of jpeg images. The only supported output method is
 HTTP. The only usable codec is MJPEG. No sound track can be muxed
 in such streams.</para> <para>No item option is available for this
@@ -271,7 +271,7 @@ the complete path where the file should be saved.</para></listitem>
 
 <listitem><para>If the <emphasis>udp</emphasis> or <emphasis>rtp</emphasis>
 output method is used, url is the unicast or multicast
-destination address and, optionaly, UDP port, in the form
+destination address and, optionally, UDP port, in the form
 <emphasis>address:port</emphasis>.</para></listitem>
 
 <listitem><para>If the <emphasis>http</emphasis>,
@@ -288,13 +288,13 @@ syntax.</para></listitem>
 
 <sect3><title>sap</title>
 
-<para>Use this option if you want VLC to send SAP (Session Annoncement
+<para>Use this option if you want VLC to send SAP (Session Announcement
 Protocol) announces. SAP is a service discovery protocol, that uses
 a special multicast address to send a list of available streams on a
 server.</para>
 
 <note><para>This option can only be enabled with the <emphasis>udp</emphasis>
-output mthod.</para></note>
+output method.</para></note>
 
 </sect3>
 
@@ -303,7 +303,7 @@ output mthod.</para></note>
 <para>This option allows to specify the name of an optional <emphasis>group</emphasis> of streams. A VLC used as a client will use this field to classify the stream.</para>
 
 <note><para>This option uses a private extension of the SAP protocol.
-VLC will be the only client able to read this field</para>
+VLC will be the only client able to read this field.</para>
 
 <para>This option can only be used it the <emphasis>sap</emphasis>
 option has been enabled.</para></note>
@@ -381,7 +381,7 @@ look at the description of the VLM module for that.</para></note>
 <para>This option allow to give the destination UDP address. This can
 be the address of a host or a multicast group. This option has to be
 given, unless the <emphasis>sdp=rtsp://</emphasis>option is given (see
-below). In that last case, the stream will be sent to the host doing the
+below). In the latter case, the stream will be sent to the host doing the
 <emphasis>RTSP</emphasis> request.</para>
 
 </sect3>
@@ -410,7 +410,7 @@ even.</para>
 
 <sect3><title>sdp=</title>
 
-<para>This option allows to set the way the SDP (Session Description Protocol) file corrersponding the the stream should be made available.</para>
+<para>This option allows to set the way the SDP (Session Description Protocol) file corresponding the the stream should be made available.</para>
 
 <para>Options are:</para>
 
@@ -424,7 +424,7 @@ IP:port/path&gt;</emphasis>, to make the file available using the
 integrated HTTP server of VLC.</para>
 
 <note><para>The <emphasis>local interface IP</emphasis> argument
-is optional. If not given, VLC will listen on all the available
+is optional. If not given, VLC will listen on all available
 interfaces.</para></note></listitem>
 
 <listitem><para><emphasis>rtsp://&lt;local interface
@@ -432,7 +432,7 @@ IP:port/path&gt;</emphasis>, to make the SDP file available using the
 <emphasis>RTSP</emphasis> protocol (see RFC 2326).</para>
 
 <note><para>The <emphasis>local interface IP</emphasis> argument
-is optional. If not given, VLC will listen on all the available
+is optional. If not given, VLC will listen on all available
 interfaces.</para></note></listitem>
 
 <listitem><para><emphasis>sap</emphasis>, to export the SDP using the
@@ -502,7 +502,7 @@ destination.</para>
 
 <para>Use this option to set the medium used to save or send the video
 <emphasis>elementary streams</emphasis>. Possible values and item
-options are the same than for the <emphasis>access</emphasis> option of
+options are the same as for the <emphasis>access</emphasis> option of
 the <emphasis>standard</emphasis> module (see above).</para>
 
 </sect3>
@@ -528,7 +528,7 @@ options, when they share the same setting.</para>
 
 <para>Use this option to set the encapsulation method used for the
 video <emphasis>elementary streams</emphasis>. Possible values and item
-options are the same than for the <emphasis>mux</emphasis> option of
+options are the same as for the <emphasis>mux</emphasis> option of
 the <emphasis>standard</emphasis> module (see above).</para>
 
 </sect3>
@@ -555,13 +555,13 @@ options, when they share the same setting.</para>
 <para>Use this option to set the location where the video
 <emphasis>elementary streams</emphasis> should be saved, sent, or made
 available. The exact meaning of this option depends on the value of the
-<emphasis>access-video</emphasis> option and is the same than for the
+<emphasis>access-video</emphasis> option and is the same as for the
 <emphasis>url</emphasis> option of the <emphasis>standard</emphasis>
 module (see above).</para>
 
 <note><para>If you use the <emphasis>%d</emphasis> string in the url
-field, VLC will remplace it by the number of the audio or video track
-considered. The <emphasis>%c</emphasis> string will be remplaced by the
+field, VLC will replace it by the number of the audio or video track
+considered. The <emphasis>%c</emphasis> string will be replaced by the
 name (FOURCC) of the codec of the track.</para></note>
 
 </sect3>
@@ -571,13 +571,13 @@ name (FOURCC) of the codec of the track.</para></note>
 <para>Use this option to set the location where the audio
 <emphasis>elementary streams</emphasis> should be saved, sent, or made
 available. The exact meaning of this option depends on the value of the
-<emphasis>access-audio</emphasis> option and is the same than for the
+<emphasis>access-audio</emphasis> option and is the same as for the
 <emphasis>url</emphasis> option of the <emphasis>standard</emphasis>
 module (see above).</para>
 
 <note><para>If you use the <emphasis>%d</emphasis> string in the url
-field, VLC will remplace it by the number of the audio or video track
-considered. The <emphasis>%c</emphasis> string will be remplaced by the
+field, VLC will replace it by the number of the audio or video track
+considered. The <emphasis>%c</emphasis> string will be replaced by the
 name (FOURCC) of the codec of the track.</para></note>
 
 
@@ -595,16 +595,16 @@ options, when they share the same setting.</para>
 
 <sect2><title>thanscode</title>
 
-<para>You can use this module to transcode a stream, ie to change its
+<para>You can use this module to transcode a stream, i.e. to change its
 codecs or the encoding bitrates. Some additional processing can be done
-during this process, such as rescaling, deinterlacement, resampling,
-etc</para>
+during this process, such as re-scaling, deinterlacing, resampling,
+etc.</para>
 
 <note><para>Depending on the bitrate of the original stream and of
 the options chosen, transcoding can be a very CPU intensive task. As
 a consequence, streaming of a real time transcoded stream can lead to
 dropped frames or a jerky image and sound in some cases, when running
-out of ressources.</para></note>
+out of resources.</para></note>
 
 <para>Available options are:</para>
 
@@ -645,23 +645,23 @@ to improve the quality of the encoding of interlaced streams,
 enables a noise reduction algorithm (will decrease required bitrate at
 the cost of details in the image), <emphasis>vt=&lt;bitrate tolerance
 in kbit/s&gt;</emphasis> allows to set a tolerance for the bitrate of
-the outputed video stream, <emphasis>bframes=&lt;amount of frames&gt;
+the outputted video stream, <emphasis>bframes=&lt;amount of frames&gt;
 </emphasis> allows to set the amount of B frames between 2 key frames,
 <emphasis>qmin=&lt;quantizer&gt;</emphasis> allows to set the minimum
 quantizer scale, <emphasis>qmax=&lt;quantizer&gt;</emphasis> allows
 to set the maximum quantizer scale, <emphasis>qscale=&lt;quantizer
 scale&gt;</emphasis> allows to specify a fixed quantizer scale
-for VBR encidings, <emphasis>i-quant-factor=&lt;quantization
+for VBR encodings, <emphasis>i-quant-factor=&lt;quantization
 factor&gt;</emphasis> allows to set the quantization factor of I
 frames, compared to P frames, <emphasis>hq=&lt;quality&gt;</emphasis>
-allows to choose the quality level fot the encoding of the motion
+allows to choose the quality level for the encoding of the motion
 vectors (arguments are simple, rd or bits, default is simple
 *FIXME*), <emphasis>strict=&lt;level of compliance&gt;</emphasis>
 allows to force a stricter standard compliance (possible values are
 -1, 0 and 1, default is 0), <emphasis>strict-rc</emphasis> enables
-a stricterate control algorithm, <emphasis>rc-buffer-size=&lt;size
+a strict rate control algorithm, <emphasis>rc-buffer-size=&lt;size
 of the buffer in bits&gt;</emphasis> allows to choose the size of
-the buffer used for rate control (bigger means more efficien rate
+the buffer used for rate control (bigger means more efficient rate
 control), <emphasis>rc-buffer-aggressivity=&lt;float representing the
 aggressiveness&gt;</emphasis> allows to set the rate control buffer
 aggressiveness *FIXME*, <emphasis>pre-me</emphasis> allows to enable pre
@@ -672,7 +672,7 @@ enables trelli quantization (better quality, but slower
 processing).</para></listitem>
 
 <listitem><para><emphasis>theora</emphasis>: The Xiph.org theora encoder.
-The module is used to produce theoea streams. Theora is a free patent
+The module is used to produce theora streams. Theora is a free patent
 and royalties free video codec.</para>
 
 <para>The only available item option is <emphasis>quality=&lt;quality
@@ -680,7 +680,7 @@ level&gt;</emphasis>. This option allows to create a VBR stream,
 overriding <emphasis>vb</emphasis> setting. the quality level must be an
 integer between 1 and 10. Higher is better.</para></listitem>
 
-<listitem><para><emphasis>x264</emphasis>. x264 is a free opensource h264 encoder. h264 (or MPEG4-AVC) is a quite recent high quality video codec.</para>
+<listitem><para><emphasis>x264</emphasis>. x264 is a free open-source h264 encoder. h264 (or MPEG4-AVC) is a quite recent high quality video codec.</para>
 
 <para>Item options are: <emphasis>keyint=&lt;number of
 frames&gt;</emphasis> allows to set the maximal amount of
@@ -697,7 +697,7 @@ the quantizer, <emphasis>cabac</emphasis> enables the CABAC
 (Context-Adaptive Binary Arithmetic Coding) algorithm (slower,
 but enhances quality), <emphasis>loopfilter</emphasis> enables
 deblocking loop filter, <emphasis>analyse</emphasis> enables the
-analyse mode, <emphasis>frameref=&lt;amount of frames&gt;</emphasis>
+analyze mode, <emphasis>frameref=&lt;amount of frames&gt;</emphasis>
 allows to set the number of previous frames used as predictors,
 <emphasis>scenecut=&lt;sensibility&lt;</emphasis> allows to control
 how aggressively the encoder should insert extra I-frame, on scene
@@ -756,7 +756,7 @@ argument is the X coordinate of the first column to be cropped.</para>
 
 <para>This option allows the give the ratio from which the video should
 be rescaled while being transcoded. This option can be particularly
-usefull to help reduce the bitrate of a stream.</para>
+useful to help reduce the bitrate of a stream.</para>
 
 </sect3>
 
@@ -769,7 +769,7 @@ pixels.</para>
 
 <sect3><title>height</title>
 
-<para>This options allows to give the height of the transcodced video,
+<para>This options allows to give the height of the transcoded video,
 in pixels.</para>
 
 </sect3>
@@ -809,7 +809,7 @@ lossy audio codec.</para>
 
 <para>Item options are: <emphasis>quality=&lt;quality
 level&gt;</emphasis> allows to use VBR (variable bitrate)
-encodinf insrtead of the default CBR (constant bitrate), and
+encoding instead of the default CBR (constant bitrate), and
 to set the quality level (between 1 and 10, higher is better),
 <emphasis>max-bitrate=&lt;bitrate in kbit/s&gt;</emphasis> allows to set
 the maximum bitrate, for vbr encoding, <emphasis>min-bitrate=&lt;bitrate
@@ -889,14 +889,14 @@ page</ulink>. The Item options of this modules can be found using the following 
 
 <para>This options allows to set the amount of threads that should
 be used to encode the streams. Increasing this number to the amount
-of processors on the coputer, (or twice this number on Intel P4 HT
+of processors on the computer, (or twice this number on Intel P4 HT
 processors) should improve transcoding performance.</para>
 
 </sect3>
 
 <sect3><title>audio-sync</title>
 
-<para>When this option is enabled, VLC will drop/duplicate video frames to synchronise the video track on the audio track.</para>
+<para>When this option is enabled, VLC will drop/duplicate video frames to synchronize the video track on the audio track.</para>
 
 </sect3>
 
@@ -995,7 +995,7 @@ Here are a few additional global options:
 
 <sect3><title>--sout-all, --no-sout-all</title>
 
-<para>Enable streaming of all ES (default disabled). By defaut VLC will
+<para>Enable streaming of all ES (default disabled). By default VLC will
 only stream one audio ES and one video ES (the first ones). If you
 enable sout-all, all ES (audio, video and SPU) will be streamed.</para>
 
@@ -1004,18 +1004,18 @@ enable sout-all, all ES (audio, video and SPU) will be streamed.</para>
 <sect3><title>--sout-keep, --no-sout-keep</title>
 
 <para>Keep sout open (default disabled) : use the same sout instance
-accross the various playlist items, if possible.</para>
+across the various playlist items, if possible.</para>
 
 </sect3>
 
 <sect3><title>--no-sout-audio</title>
-<para>This options allows to disable audio in the outputed stream.
+<para>This options allows to disable audio in the outputted stream.
 </para>
 
 </sect3>
 
 <sect3><title>--no-sout-video</title>
-<para>This options allows to disable video in the outputed stream.
+<para>This options allows to disable video in the outputted stream.
 </para>
 
 </sect3>

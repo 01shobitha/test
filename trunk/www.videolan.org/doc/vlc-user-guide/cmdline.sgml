@@ -17,7 +17,7 @@ playlist.</para>
 <para>Start VLC with :</para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc my_file.mpg</userinput>
+<prompt>% </prompt><userinput>vlc -vvv my_file.mpg</userinput>
 </screen>
 
 <para>Although VLC should be able to recognize the file
@@ -26,7 +26,7 @@ type, you may tell VLC what codec to use with the
 my_file.mpg using ffmpeg audo/video decoder do :</para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc --codec ffmpeg my_file.mpg</userinput> 
+<prompt>% </prompt><userinput>vlc -vvv --codec ffmpeg my_file.mpg</userinput> 
 </screen>
 
 <para>A list of all video and audio codecs supported by VLC is available
@@ -40,13 +40,13 @@ features list</ulink></para>
 <para>Start VLC with :<para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc dvd:[device][@raw_device][@[title][,[chapter][,angle]]]</userinput>
+<prompt>% </prompt><userinput>vlc -vvv dvd:[device][@raw_device][@[title][,[chapter][,angle]]]</userinput>
 </screen>
 
 <para>or</para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc vcd:[device][@[title][,[chapter]</userinput>
+<prompt>% </prompt><userinput>vlc -vvv vcd:[device][@[title][,[chapter]</userinput>
 </screen>
 
 <para>where device is the complete path to your DVD or CD-ROM drive.</para>
@@ -57,20 +57,20 @@ features list</ulink></para>
 output), start VLC with :</para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc udp:[@:server_port]</userinput>
+<prompt>% </prompt><userinput>vlc -vvv udp:[@:server_port]</userinput>
 </screen>
 
 <para>To receive a multicast UDP stream (sent by VLS or VLC's
 stream output), start VLC with :</para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc udp:@multicast_address[:server_port]</userinput>
+<prompt>% </prompt><userinput>vlc -vvv udp:@multicast_address[:server_port]</userinput>
 </screen>
 
 <para>To receive a HTTP stream, start VLC with :</para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc http://www.example.org/your_file.mpg</userinput>
+<prompt>% </prompt><userinput>vlc -vvv http://www.example.org/your_file.mpg</userinput>
 </screen>
 
 </sect2>

@@ -84,7 +84,7 @@ Texts. The text of the license can be found in the appendix
 
 <abstract>
 
-<para>This document is the complete user guide of VLC, the VideoLAN Client.</para>
+<para>This document is the complete user guide of VLC.</para>
 
 </abstract>
 
@@ -97,7 +97,6 @@ Texts. The text of the license can be found in the appendix
 &intro;
 &modules;
 &install;
-&gui;
 &cmdline;
 &webbrowser-plugin;
 &fdl;

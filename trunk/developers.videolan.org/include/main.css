@@ -3,18 +3,18 @@ body            { margin-left: 0; margin-top: 0; margin-right:0;
 p, td, th, body, h1 { font-family: Verdana,Arial,Helvetica,sans-serif; }
 p, td, body       { font-size: 8pt; }
 th              { font-weight:bold; font-size: 10pt;}
-th.menu         { font-size: 10pt; background-color: #A43000;
-                  color: #FFDD44; font-weight: bold; }
-td.menu         { border-left: 1px solid #A43000; border-right: 1px
-                  solid #A43000; border-top: 1px solid #A43000;
-                  border-bottom: 3px solid #A43000; background-color: #808080}
+th.menu         { font-size: 10pt; background-color: #3a0;
+                  color: #df4; font-weight: bold; }
+td.menu         { border-left: 1px solid #3a0; border-right: 1px
+                  solid #3a0; border-top: 1px solid #3a0;
+                  border-bottom: 3px solid #3a0; background-color: #9f9}
 .background     { background-color: #FFFFFF;
-                  color: #A43000; }
+                  color: #3a0; }
 p               { margin-left: 5pt; margin-right: 5pt; }
 p.menu          { margin-top: 5pt; margin-bottom: 5pt; }
-a.menu:link     { color: #FFFFFF; text-decoration: none; }
+/*a.menu:link     { color: #FFFFFF; text-decoration: none; }
 a.menu:visited  { color: #FFFFFF; text-decoration: none; }
-a.menu:hover    { color: #FFDD44; text-decoration: underline; font-weight:bold}
+a.menu:hover    { color: #FFDD44; text-decoration: underline; font-weight:bold}*/
 
 /* Styles used for the features tables */
 td.yes {

@@ -2,6 +2,13 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+|13 December 2003| Release: miniSAPserver 0.2.3| This new release
+fixes a IPv6 bug, adds support for HTTP streams, and for the
+SLP announcing protocol. It also uses the recent playlist group
+system of VLC (requires CVS or beta version of VLC). You can <a
+href="http://www.videolan.org/streaming/download-sap-server.html">download
+ the sources</a> for this release.
+
 |28 Nov 2003| Release: VLS 0.5.4 | This new release
 of the VideoLAN Server fixes two major bugs:
 the "program_number don't match" bug (read <a

@@ -14,6 +14,14 @@
   <!ENTITY uninstall-vlc SYSTEM "../common/uninstall-vlc.xml">
   <!ENTITY fdl SYSTEM "../common/fdl.xml">
 
+<!-- This is dirty and (hopefully) temporary -->
+  <!ENTITY disabled SYSTEM "disabled.xml">
+  <!ENTITY enabled SYSTEM "enabled.xml">
+  <!ENTITY always SYSTEM "always.xml">
+  <!ENTITY linux-only SYSTEM "linux-only.xml">
+<!-- End dirty -->
+
+
 ]>
 
 <book id="vlc-user-guide">

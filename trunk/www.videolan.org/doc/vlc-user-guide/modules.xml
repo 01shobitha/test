@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>
 
+
+
 <chapter id="modules"><title id="tmodules">
 <span xml:lang="en">Modules and options for VLC</span>
 <span xml:lang="fr">Modules et options de VLC</span></title>
@@ -69,9 +71,9 @@ xml:lang="fr">nom_du_module</span></userinput>
 
 <para>
 <span xml:lang="en">Each VLC module has its own help and options. To see
-what options are associated with a module, use :</span>
+every options associated with a module, use :</span>
 <span xml:lang="fr">Chaque module VLC possède sa propre aide et ses
-options. Pour les voir, utilisez :</span></para>
+options. Pour toutes les voir, utilisez :</span></para>
 
 <screen> <prompt>% </prompt><userinput>vlc -p
 <span xml:lang="en">module_name</span><span
@@ -96,8 +98,7 @@ of some systems to display the video on your screen.</span>
 des systèmes utilisés pour afficher la vidéo sur l'écran.</span></para>
 
 <sect2><title>x11</title>
-<para><emphasis><span xml:lang="en">default: enabled</span><span
-xml:lang="fr">Activé par défaut</span></emphasis></para>
+&enabled;
 <para><emphasis>
 <span xml:lang="en">For Unix with X11 servers only</span>
 <span xml:lang="fr">Seulement sur systèmes Unix avec serveur X11</span>
@@ -114,12 +115,8 @@ aurez besoin des en-têtes xlibs pour la compiler (paquetage
 </sect2>
 
 <sect2><title>xvideo</title>
-<para><emphasis><span xml:lang="en">default: enabled</span><span
-xml:lang="fr">Activé par défaut</span></emphasis></para>
-<para><emphasis>
-<span xml:lang="en">For GNU/Linux only</span>
-<span xml:lang="fr">Pour systèmes GNU/Linux seulement</span>
-</emphasis></para>
+&enabled;
+&linux-only;
 <para>
 <span xml:lang="en">It requires an xvideo compliant graphic card (it is the case for
 nearly all modern cards). It uses hardware acceleration for YUV
@@ -132,8 +129,7 @@ cartes modernes).</span>
 </sect2>
 
 <sect2><title>sdl</title>
-<para><emphasis><span xml:lang="en">default: enabled</span><span
-xml:lang="fr">Activé par défaut</span></emphasis></para>
+&enabled;
 <para>
 <span xml:lang="en"> This video output uses sdl libraries. You need at
 least version 1.1.6 of this libraries.</span>
@@ -206,8 +202,7 @@ activé le support du buffer d'image dans votre noyau Linux.</span>
 </sect2>
 
 <sect2><title>glide</title>
-<para><emphasis><span xml:lang="en">default: disabled</span><span
-xml:lang="fr">Désactivé par défaut</span></emphasis></para>
+&disabled;
 <para>
 <span xml:lang="en">This video output uses Glide libraries (hardware 
 acceleration for 3Dfx cards).</span>
@@ -222,8 +217,7 @@ l'option <command>--with-glide=PATH</command> du script de configuration.</span>
 </para></sect2>
 
 <sect2><title>mga</title>
-<para><emphasis><span xml:lang="en">default: disabled</span><span
-xml:lang="fr">Désactivé par défaut</span></emphasis></para>
+&disabled;
 <para><emphasis>
 <span xml:lang="en">For GNU/Linux only</span>
 <span xml:lang="fr">Pour GNU/Linux seulement</span>
@@ -235,13 +229,11 @@ cards under GNU/Linux.</span>
 cartes Matrox sous GNU/Linux</span></para></sect2>
 
 <sect2><title>ggi</title>
-<para><emphasis><span xml:lang="en">default: disabled</span><span
-xml:lang="fr">Désactivé par défaut</span></emphasis></para>
+&disabled;
 </sect2>
 
 <sect2><title>aa</title>
-<para><emphasis><span xml:lang="en">default: disabled</span><span
-xml:lang="fr">Désactivé par défaut</span></emphasis></para>
+&disabled;
 <para>
 <span xml:lang="en">This is the ASCII Art Video Output. This video 
 output uses the aalib library to display video through ASCII art. 
@@ -255,8 +247,7 @@ la compilation.</span>
 </sect2>
 
 <sect2><title>svgalib</title>
-<para><emphasis><span xml:lang="en">default: disabled</span><span
-xml:lang="fr">Désactivé par défaut</span></emphasis></para>
+&disabled;
 <para><emphasis>
 <span xml:lang="en">For GNU/Linux only</span>
 <span xml:lang="fr">Pour GNU/Linux seulement</span>
@@ -266,8 +257,7 @@ xml:lang="fr">Désactivé par défaut</span></emphasis></para>
 </para></sect2>
 
 <sect2><title>qte</title>
-<para><emphasis><span xml:lang="en">default: disabled</span><span
-xml:lang="fr">Désactivé par défaut</span></emphasis></para>
+&disabled;
 <para><emphasis>
 <span xml:lang="en">For iPaq only</span>
 <span xml:lang="fr">Pour iPaq seulement</span>
@@ -294,8 +284,7 @@ the rendered image</span>
 .</para>
 
 <sect2><title>deinterlace</title>
-<para><emphasis><span xml:lang="en">Always enabled</span>
-<span xml:lang="fr">Toujours activé</span></emphasis></para>
+&always;
 <para>
 <span xml:lang="en"> This filter deinterlaces video. It is useful with
 streams coming from a digital satellite channel or digital terrestial
@@ -305,8 +294,7 @@ et est utile pour les flux venant d'un satellite ou de télévision</span>
 .</para></sect2>
 
 <sect2><title>wall</title>
-<para><emphasis><span xml:lang="en">Always enabled</span>
-<span xml:lang="fr">Toujours activé</span></emphasis></para>
+&always;
 <para>
 <span xml:lang="en">This filter allows you to have the video cut in
 pieces in several windows, which you can order as you wish. It can be
@@ -318,8 +306,7 @@ l'utiliser pour générer des murs d'images avec plusieurs sources.</span>
 </sect2>
 
 <sect2><title>distort</title>
-<para><emphasis><span xml:lang="en">Always enabled</span>
-<span xml:lang="fr">Toujours activé</span></emphasis></para>
+&always;
 <para>
 <span xml:lang="en">This filter adds a distortion effect to the video.
 Who said it was useless ? :-)</span>
@@ -329,8 +316,7 @@ Comment ca, inutile ? :-)</span>
 </sect2>
 
 <sect2><title>transform</title>
-<para><emphasis><span xml:lang="en">Always enabled</span>
-<span xml:lang="fr">Toujours activé</span></emphasis></para>
+&always;
 <para>
 <span xml:lang="en">This filter allows to rotate the video in several ways
 .</span><span xml:lang="fr">
@@ -339,16 +325,14 @@ Ce filtre vous permet de tourner l'image de plusieurs façons.</span>
 </sect2>
 
 <sect2><title>invert</title>
-<para><emphasis><span xml:lang="en">Always enabled</span>
-<span xml:lang="fr">Toujours activé</span></emphasis></para>
+&always;
 <para>
 <span xml:lang="en">This filter inverses colors.</span>
 <span xml:lang="fr">Ce filtre inverse les couleurs.</span></para>
 </sect2>
 
 <sect2><title>adjust</title>
-<para><emphasis><span xml:lang="en">Always enabled</span>
-<span xml:lang="fr">Toujours activé</span></emphasis></para>
+&always;
 <para>
 <span xml:lang="en">This filter allows you to set image contrast, hue,
 saturation and brightness</span>
@@ -357,24 +341,21 @@ tonalité, la saturation, et la luminosité</span>
 </para></sect2>
 
 <sect2><title>clone</title>
-<para><emphasis><span xml:lang="en">Always enabled</span>
-<span xml:lang="fr">Toujours activé</span></emphasis></para>
+&always;
 <para>
 <span xml:lang="fr">This filter allows you to clone the image.</span>
 <span xml:lang="en">Ce filtre vous permet de dupliquer l'image.</span>
 </para></sect2>
 
 <sect2><title>crop</title>
-<para><emphasis><span xml:lang="en">Always enabled</span>
-<span xml:lang="fr">Toujours activé</span></emphasis></para>
+&always;
 <para>
 <span xml:lang="en">This filter allows you to crop parts of the image.</span>
 <span xml:lang="fr">Ce filtre vous permet de rogner des parties de l'image.</span>
 </para></sect2>
 
 <sect2><title>motionblur</title>
-<para><emphasis><span xml:lang="en">Always enabled</span>
-<span xml:lang="fr">Toujours activé</span></emphasis></para>
+&always;
 <para>
 <span xml:lang="en">This filter adds a "motion blur" effect to the image.</span>
 <span xml:lang="fr">Ce filtre donne un effet de "flou de mouvement" à 
@@ -415,8 +396,7 @@ OSS doit être activée</span>
 </sect2>
 
 <sect2><title>alsa</title>
-<para><emphasis><span xml:lang="en">default: disabled</span><span
-xml:lang="fr">Désactivé par défaut</span></emphasis></para>
+&disabled;
 <para><emphasis>
 <span xml:lang="en">For GNU/Linux only</span>
 <span xml:lang="fr">Pour GNU/Linux seulement</span></emphasis></para>
@@ -431,8 +411,7 @@ l'installation préalable des pilotes et librairies ALSA</span>
 </sect2>
 
 <sect2><title>esd</title>
-<para><emphasis><span xml:lang="en">default: disabled</span><span
-xml:lang="fr">Désactivé par défaut</span></emphasis></para>
+&disabled;
 <para><emphasis>
 <span xml:lang="en">For GNU/Linux &amp; Unix only</span>
 <span xml:lang="fr">Pour GNU/Linux &amp; Unix seulement</span>
@@ -447,8 +426,7 @@ démon et ses librairies.</span>
 </para></sect2>
 
 <sect2><title>arts</title>
-<para><emphasis><span xml:lang="en">default: disabled</span><span
-xml:lang="fr">Désactivé par défaut</span></emphasis></para>
+&disabled;
 <para><emphasis>
 <span xml:lang="en">For GNU/Linux &amp; Unix only</span>
 <span xml:lang="fr">Pour GNU/Linux &amp; Unix seulement</span>
@@ -483,8 +461,7 @@ xml:lang="fr">Activé par défaut sous Mac OS X</span></emphasis></para>
 </para></sect2>
 
 <sect2><title>sdl</title>
-<para><emphasis><span xml:lang="en">default: enabled</span><span
-xml:lang="fr">Activé par défaut</span></emphasis></para>
+&enabled;
 <para>
 <span xml:lang="fr">Cette sortie audio utilise SDL. Voir dans les sorties
  vidéo</span>
@@ -506,8 +483,7 @@ different sources</span> <span xml:lang="fr">Ces modules permettent à
 VLC de lire depuis différentes sources</span>.</para>
 
 <sect2><title>dvdplay</title>
-<para><emphasis><span xml:lang="en">default: enabled</span><span
-xml:lang="fr">Activé par défaut</span></emphasis></para>
+&enabled;
 <para>
 <span xml:lang="en">This is the regular DVD input module. It will need
 <emphasis>libdvdcss</emphasis> for DVD decryption (see the <ulink
@@ -524,8 +500,7 @@ page libdvdplay</ulink></span>
 .</para></sect2>
 
 <sect2><title>dvd</title>
-<para><emphasis><span xml:lang="en">default: enabled</span><span
-xml:lang="fr">Activé par défaut</span></emphasis></para>
+&enabled;
 <para>
 <span xml:lang="en">This is the old DVD input module. It uses
 <emphasis>libdvdcss</emphasis> for DVD decryption (see the
@@ -538,8 +513,7 @@ libdvdcss</ulink>)</span>
 .</para></sect2>
 
 <sect2><title>dvdread</title>
-<para><emphasis><span xml:lang="en">default: disabled</span><span
-xml:lang="fr">Désactivé par défaut</span></emphasis></para>
+&disabled;
 <para>
 <span xml:lang="en">This is an alternative to the previous ones. It uses
 <emphasis>libdvdread</emphasis> for DVD reading (see the <ulink
@@ -558,22 +532,19 @@ libdvdcss</ulink>).</span> </para>
 </sect2>
 
 <sect2><title>vcd</title>
-<para><emphasis><span xml:lang="en">default: enabled</span><span
-xml:lang="fr">Activé par défaut</span></emphasis></para>
+&enabled;
 <para><span xml:lang="en">This is the VideoCD input</span>
 <span xml:lang="fr">Module de lecture de VideoCD</span>
 .</para></sect2>
 
 <sect2><title>cdda</title>
-<para><emphasis><span xml:lang="en">default: enabled</span><span
-xml:lang="fr">Activé par défaut</span></emphasis></para>
+&enabled;
 <para><span xml:lang="en">This is the Audio CD input</span>
 <span xml:lang="fr">Module de lecture de CDs audio</span>
 .</para></sect2>
 
 <sect2><title>http,ftp,udp,file,directory,mms</title>
-<para><emphasis><span xml:lang="en">Always enabled</span>
-<span xml:lang="fr">Toujours activé</span></emphasis></para>
+&always;
 <para>
 <span xml:lang="en">These are standard input modules.
 The HTTP input can be used for Video On Demand</span>
@@ -582,8 +553,7 @@ Le module HTTP peut être utilisé pour la vidéo à la demande (VOD)</span>
 .</para></sect2>
 
 <sect2><title>satellite</title>
-<para><emphasis><span xml:lang="en">default: disabled</span><span
-xml:lang="fr">Désactivé par défaut</span></emphasis></para>
+&disabled;
 <para>
 <span xml:lang="en">This is an input module that allows
 to read directly from a Hauppauge WinTV Nova card under
@@ -596,8 +566,7 @@ url="http://www.linuxtv.org/">linuxtv.org</ulink></span>
 .</para></sect2>
 
 <sect2><title>v4l</title>
-<para><emphasis><span xml:lang="en">default: disabled</span><span
-xml:lang="fr">Désactivé par défaut</span></emphasis></para>
+&disabled;
 <para><emphasis>
 <span xml:lang="en">For GNU/Linux only</span>
 <span xml:lang="fr">Seulement pour GNU/Linux</span>
@@ -609,8 +578,7 @@ xml:lang="fr">Désactivé par défaut</span></emphasis></para>
 
 
 <sect2><title>dvb</title>
-<para><emphasis><span xml:lang="en">default: disabled</span><span
-xml:lang="fr">Désactivé par défaut</span></emphasis></para>
+&disabled;
 <para><emphasis>
 <span xml:lang="en">For GNU/Linux only</span>
 <span xml:lang="fr">Seulement pour GNU/Linux</span>
@@ -627,8 +595,7 @@ et 2.6 du noyau Linux</span>
 .</para></sect2>
 
 <sect2><title>pvr</title>
-<para><emphasis><span xml:lang="en">default: disabled</span><span
-xml:lang="fr">Désactivé par défaut</span></emphasis></para>
+&disabled;
 <para><emphasis>
 <span xml:lang="en">For GNU/Linux only</span>
 <span xml:lang="fr">Seulement pour GNU/Linux</span>
@@ -641,8 +608,7 @@ xml:lang="fr">Désactivé par défaut</span></emphasis></para>
 
 
 <sect2><title>slp</title>
-<para><emphasis><span xml:lang="en">default: enabled</span><span
-xml:lang="fr">Activé par défaut</span></emphasis></para>
+&enabled;
 <para>
 <span xml:lang="en">This module allows to get the names and addresses
 for streams announced using the SLP protocol</span>
@@ -676,8 +642,7 @@ format de stockage, pas un format de compression</span>
 .</para>
 
 <sect2><title>avi</title>
-<para><emphasis><span xml:lang="en">Always enabled</span>
-<span xml:lang="fr">Toujours activé</span></emphasis></para>
+&always;
 <para>
 <span xml:lang="en">This module allows you to read
 <filename>.avi</filename> files</span>
@@ -686,8 +651,7 @@ format de stockage, pas un format de compression</span>
 .</para></sect2>
 
 <sect2><title>asf</title>
-<para><emphasis><span xml:lang="en">Always enabled</span>
-<span xml:lang="fr">Toujours activé</span></emphasis></para>
+&always;
 <para>
 <span xml:lang="en">This module allows you to read
 <filename>.asf</filename> files</span>
@@ -696,8 +660,7 @@ format de stockage, pas un format de compression</span>
 </para></sect2>
 
 <sect2><title>aac</title>
-<para><emphasis><span xml:lang="en">Always enabled</span>
-<span xml:lang="fr">Toujours activé</span></emphasis></para>
+&always;
 <para>
 <span xml:lang="en">This module allows you to read 
 AAC files</span>
@@ -706,8 +669,7 @@ AAC files</span>
 </para></sect2>
 
 <sect2><title>ogg</title>
-<para><emphasis><span xml:lang="en">default: enabled</span><span
-xml:lang="fr">Activé par défaut</span></emphasis></para>
+&enabled;
 <para>
 <span xml:lang="en">This module allows you to read
 <filename>.ogg</filename> files</span>
@@ -716,8 +678,7 @@ xml:lang="fr">Activé par défaut</span></emphasis></para>
 </para></sect2>
 
 <sect2><title>rawdv</title>
-<para><emphasis><span xml:lang="en">Always enabled</span>
-<span xml:lang="fr">Toujours activé</span></emphasis></para>
+&always;
 <para>
 <span xml:lang="en">This module allows you to read
 DV files</span>
@@ -726,8 +687,7 @@ DV files</span>
 </para></sect2>
 
 <sect2><title>dvbpsi</title>
-<para><emphasis><span xml:lang="en">default: enabled</span><span
-xml:lang="fr">Activé par défaut</span></emphasis></para>
+&enabled;
 <para>
 <span xml:lang="en">This module allows to demux streams from a satellite
 card.</span>
@@ -736,8 +696,7 @@ satellite.</span>
 </para></sect2>
 
 <sect2><title>mp4</title>
-<para><emphasis><span xml:lang="en">Always enabled</span>
-<span xml:lang="fr">Toujours activé</span></emphasis></para>
+&always;
 <para>
 <span xml:lang="en">This module allows you to read
 <filename>.mp4</filename> files</span>
@@ -746,8 +705,7 @@ satellite.</span>
 </para></sect2>
 
 <sect2><title>mkv</title>
-<para><emphasis><span xml:lang="en">default: enabled</span><span
-xml:lang="fr">Activé par défaut</span></emphasis></para>
+&enabled;
 <para>
 <span xml:lang="en">This module allows you to read files that use the
 Matroska free format</span>
@@ -756,8 +714,7 @@ format libre Matroska</span>
 .</para></sect2>
 
 <sect2><title>ps,ts</title>
-<para><emphasis><span xml:lang="en">Always enabled</span>
-<span xml:lang="fr">Toujours activé</span></emphasis></para>
+&always;
 <para>
 <span xml:lang="en">These modules allow you to read MPEG2 Program Stream
 or Transport Tream files</span>
@@ -766,8 +723,7 @@ encapsulés en MPEG2-Program Stream ou Transport Stream</span>
 .</para></sect2>
 
 <sect2><title>id3,m3u</title>
-<para><emphasis><span xml:lang="en">Always enabled</span>
-<span xml:lang="fr">Toujours activé</span></emphasis></para>
+&always;
 <para>
 <span xml:lang="en">These modules allow you to read M3U, B4S, PLS, and
 ASX playlists, and ID3 tags</span>
@@ -793,8 +749,7 @@ interfaces (interface graphique ou interface de controle)</span>
 </para>
 
 <sect2><title>wxwindows</title>
-<para><emphasis><span xml:lang="en">default: enabled</span><span
-xml:lang="fr">Activé par défaut</span></emphasis></para>
+&enabled;
 <para>
 <span xml:lang="en">The wxWindows interface is a portable interface that
 is currently working under GNU/Linux and Windows. It is now the best
@@ -806,8 +761,7 @@ meilleur interface graphique pour ces deux systèmes</span>
 
 
 <sect2><title>skins</title>
-<para><emphasis><span xml:lang="en">default: enabled on win32</span><span
-xml:lang="fr">Activé par défaut sur Windows</span></emphasis></para>
+&enabled;
 <para>
 <span xml:lang="en">This skinnable interface module works under Win32
 and X11. You can create your own skins very easily with XML files</span>
@@ -817,8 +771,7 @@ de fichiers XML</span>
 .</para></sect2>
 
 <sect2><title>gtk</title>
-<para><emphasis><span xml:lang="en">default: enabled</span><span
-xml:lang="fr">Activé par défaut</span></emphasis></para>
+&enabled;
 <para>
 <span xml:lang="en">This is the GTK+ interface. It needs gtk libraries
 and headers files if you are compiling it. Note that it can also be used
@@ -829,12 +782,8 @@ en-têtes pour la compilation</span>
 .</para></sect2>
 
 <sect2><title>gnome</title>
-<para><emphasis><span xml:lang="en">default: disabled</span><span
-xml:lang="fr">Désactivé par défaut</span></emphasis></para>
-<para><emphasis>
-<span xml:lang="en">For GNU/Linux only</span>
-<span xml:lang="fr">Seulement pour GNU/Linux</span>
-</emphasis></para>
+&disabled;
+&linux-only;
 <para>
 <span xml:lang="en">This is the Gnome interface. It needs gnome libraries
 (<emphasis>libgnome32</emphasis> package under Debian) and headers
@@ -847,8 +796,7 @@ sous Debian GNU/Linux)</span>
 .</para></sect2>
 
 <sect2><title>qt</title>
-<para><emphasis><span xml:lang="en">default: disabled</span><span
-xml:lang="fr">Désactivé par défaut</span></emphasis></para>
+&disabled;
 <para>
 <span xml:lang="en">This is the QT interface module. You will need the libraries
 (<emphasis>libqt2</emphasis> package on Debian) and headers
@@ -861,8 +809,7 @@ Debian GNU/Linux)</span>
 .</para></sect2>
 
 <sect2><title>kde</title>
-<para><emphasis><span xml:lang="en">default: disabled</span><span
-xml:lang="fr">Désactivé par défaut</span></emphasis></para>
+&disabled;
 <para><emphasis>
 <span xml:lang="en">For GNU/Linux only</span>
 <span xml:lang="fr">Seulement pour GNU/Linux</span>
@@ -879,8 +826,7 @@ sous Debian GNU/Linux) et des en-têtes pour la compilation
 .</para></sect2>
 
 <sect2><title>rc</title>
-<para><emphasis><span xml:lang="en">Always enabled</span>
-<span xml:lang="fr">Toujours activé</span></emphasis></para>
+&always;
 <para>
 <span xml:lang="en">This is the Remote Control interface module. It allows you
 to control VLC via commands, such as <emphasis>play</emphasis>,
@@ -894,8 +840,7 @@ ainsi contrôler le VLC par des scripts ou des commandes, comme
 
 
 <sect2><title>http</title>
-<para><emphasis><span xml:lang="en">Always enabled</span>
-<span xml:lang="fr">Toujours activé</span></emphasis></para>
+&always;
 <para>
 <span xml:lang="en">This module allows you to remote control your VLC
 via a web browser. You can create custom web pages.
@@ -909,8 +854,7 @@ contrôle.
 .</para></sect2>
 
 <sect2><title>ncurses</title>
-<para><emphasis><span xml:lang="en">default: disabled</span><span
-xml:lang="fr">Désactivé par défaut</span></emphasis></para>
+&disabled;
 <para><emphasis>
 <span xml:lang="en">For GNU/Linux only</span>
 <span xml:lang="fr">Seulement pour GNU/Linux</span>
@@ -927,8 +871,7 @@ GNU/Linux)</span>
 .</para></sect2>
 
 <sect2><title>lirc</title>
-<para><emphasis><span xml:lang="en">default: disabled</span><span
-xml:lang="fr">Désactivé par défaut</span></emphasis></para>
+&disabled;
 <para><emphasis>
 <span xml:lang="en">For GNU/Linux only</span>
 <span xml:lang="fr">Seulement pour GNU/Linux</span>
@@ -943,8 +886,7 @@ télécommande. Afin de vous aider, un fichier lircrc est fourni (voir
 .</para></sect2>
 
 <sect2><title>opie</title>
-<para><emphasis><span xml:lang="en">default: disabled</span><span
-xml:lang="fr">Désactivé par défaut</span></emphasis></para>
+&disabled;
 <para>
 <span xml:lang="en">This is an interface plugin for the Qt Embedded
 library (iPaq graphical library)</span>
@@ -953,8 +895,7 @@ Embedded (pour iPaq)</span>
 .</para></sect2>
 
 <sect2><title>gestures</title>
-<para><emphasis><span xml:lang="en">Always enabled</span>
-<span xml:lang="fr">Toujours activé</span></emphasis></para>
+&always;
 <para>
 <span xml:lang="en">This module allows you to control VLC via mouse
 gestures</span>
@@ -963,12 +904,8 @@ mouvements de souris</span>
 .</para></sect2>
 
 <sect2><title>joystick</title>
-<para><emphasis><span xml:lang="en">default: disabled</span><span
-xml:lang="fr">Désactivé par défaut</span></emphasis></para>
-<para><emphasis>
-<span xml:lang="en">For GNU/Linux only</span>
-<span xml:lang="fr">Seulement pour GNU/Linux</span>
-</emphasis></para>
+&disabled;
+&linux-only;
 <para>
 <span xml:lang="en">This module allows you to control VLC via a joystick
 with many options. More information can be found 
@@ -993,8 +930,7 @@ nombreux codecs (formats de compression)</span>
 .</para>
 
 <sect2><title>a52</title>
-<para><emphasis><span xml:lang="en">default: enabled</span><span
-xml:lang="fr">Activé par défaut</span></emphasis></para>
+&enabled;
 <para>
 <span xml:lang="en">This decoder uses liba52 (see the <ulink
 url="http://liba52.sourceforge.net/">liba52 web site</ulink></span>
@@ -1003,8 +939,7 @@ url="http://liba52.sourceforge.net/">site liba52</ulink></span>
 .</para></sect2>
 
 <sect2><title>ffmpeg</title>
-<para><emphasis><span xml:lang="en">default: enabled</span><span
-xml:lang="fr">Activé par défaut</span></emphasis></para>
+&enabled;
 <para>
 <span xml:lang="en">This is a free MPEG-4/DivX/OpenDivX codec : ffmpeg
 (see the <ulink url="http://ffmpeg.sourceforge.net/">ffmpeg web
@@ -1014,8 +949,7 @@ site</ulink>)</span>
 .</para></sect2>
 
 <sect2><title>vorbis</title>
-<para><emphasis><span xml:lang="en">default: enabled</span><span
-xml:lang="fr">Activé par défaut</span></emphasis></para>
+&enabled;
 <para>
 <span xml:lang="en">This codec allows you to read the Vorbis (audio)
 encoded files</span>
@@ -1024,8 +958,7 @@ encodés en Vorbis</span>
 .</para></sect2>
 
 <sect2><title>xvid</title>
-<para><emphasis><span xml:lang="en">default: disabled</span><span
-xml:lang="fr">Désactivé par défaut</span></emphasis></para>
+&disabled;
 <para>
 <span xml:lang="en">This codec allows you to read files encoded
 with Xvid (see <ulink url="http://www.xvid.org/">Xvid web
@@ -1035,8 +968,7 @@ site</ulink>)</span>
 .</para></sect2> 
 
 <sect2><title>mad</title>
-<para><emphasis><span xml:lang="en">default: enabled</span><span
-xml:lang="fr">Activé par défaut</span></emphasis></para>
+&enabled;
 <para>
 <span xml:lang="en">This codec is a very smart MP3 decoder, that only
 uses integers. This allows its use for CPU which don't handle floating
@@ -1047,24 +979,21 @@ nombres entiers, ce qui permet de l'utiliser sur les PDAs</span>
 </sect2>
 
 <sect2><title>libmpeg2</title>
-<para><emphasis><span xml:lang="en">default: enabled</span><span
-xml:lang="fr">Activé par défaut</span></emphasis></para>
+&enabled;
 <para>
 <span xml:lang="en">This codec allows to read MPEG2 files</span>
 <span xml:lang="fr">Ceci permet de lire les fichiers MPEG2</span>
 .</para></sect2>
 
 <sect2><title>faad</title>
-<para><emphasis><span xml:lang="en">default: disabled</span><span
-xml:lang="fr">Désactivé par défaut</span></emphasis></para>
+&disabled;
 <para>
 <span xml:lang="en">Faad is an MPEG-4 audio decoder</span>
 <span xml:lang="fr">Faas est un décodeur audio MPEG-4</span>
 .</para></sect2>
 
 <sect2><title>tarkin</title>
-<para><emphasis><span xml:lang="en">default: disabled</span><span
-xml:lang="fr">Désactivé par défaut</span></emphasis></para>
+&disabled;
 <para>
 <span xml:lang="en">tarkin is a new codec (experimental) by the Ogg
 Project (see the <ulink url="http://www.vorbis.com">Ogg Vorbis web
@@ -1075,8 +1004,7 @@ site</ulink>)</span>
 
 
 <sect2><title>theora</title>
-<para><emphasis><span xml:lang="en">default: disabled</span><span
-xml:lang="fr">Désactivé par défaut</span></emphasis></para>
+&disabled;
 <para>
 <span xml:lang="en">theora is a new codec (experimental) by the Ogg
 Project (see the <ulink url="http://www.vorbis.com">Ogg Vorbis web
@@ -1086,16 +1014,14 @@ site</ulink>)</span>
 .</para></sect2>
 
 <sect2><title>cinepak</title>
-<para><emphasis><span xml:lang="en">default: enabled</span><span
-xml:lang="fr">Activé par défaut</span></emphasis></para>
+&enabled;
 <para>
 <span xml:lang="en">This codec decodes the Cinepak format</span>
 <span xml:lang="fr">Ce décodeur lit le format Cinepak</span>
 .</para></sect2>
 
 <sect2><title>tremor</title>
-<para><emphasis><span xml:lang="en">default: disabled</span><span
-xml:lang="fr">Désactivé par défaut</span></emphasis></para>
+&disabled;
 <para>
 <span xml:lang="en">This is an Ogg/Vorbis codec that only makes
 integer calculus, which allow its use on CPU which don't have floating
@@ -1147,9 +1073,7 @@ dans aucune des catégories décrites</span>
 .</para>
 
 <sect2><title>sout</title>
-<para><emphasis><span xml:lang="en">default: enabled</span><span
-xml:lang="fr">Activé par défaut</span></emphasis></para>
-
+&enabled;
 <para>
 <span xml:lang="en">Stream Output is a new feature  of VLC that allows
 it to stream an MPEG-1, MPEG-2 or MPEG-4/DivX file or a DVD</span>
@@ -1167,9 +1091,7 @@ linkend="cmdline" endterm="tcmdline"/> section</span>
 </sect2>
 
 <sect2><title>test-suite</title>
-<para><emphasis><span xml:lang="en">default: disabled</span><span
-xml:lang="fr">Désactivé par défaut</span></emphasis></para>
-
+&disabled;
 <para>
 <span xml:lang="en">This builds a special VLC, for testing purposes only</span>
 <span xml:lang="fr">Ceci fait un VLC spécial, pour des tests</span>.
@@ -1177,9 +1099,7 @@ xml:lang="fr">Désactivé par défaut</span></emphasis></para>
 </sect2>
 
 <sect2><title>mozilla</title>
-<para><emphasis><span xml:lang="en">default: disabled</span><span
-xml:lang="fr">Désactivé par défaut</span></emphasis></para>
-
+&disabled;
 <para>
 <span xml:lang="en">
 This is not really a module. When enabled, a VLC-based Mozilla plugin is built
@@ -1191,9 +1111,7 @@ Ceci n'est pas un module, mais permet de créer un plugin Mozilla VLC</span>
 </sect2>
 
 <sect2><title>xosd</title>
-<para><emphasis><span xml:lang="en">default: disabled</span><span
-xml:lang="fr">Désactivé par défaut</span></emphasis></para>
-
+&disabled;
 <para><emphasis>
 <span xml:lang="en">For Unix only</span>
 <span xml:lang="fr">Pour Unix seulement</span>

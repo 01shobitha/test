@@ -66,6 +66,8 @@ address of your subnet (for example, 10.255.255.255).</para>
 
 <para>Multicasting is a more complex way to send streams to several VLC's.  Please note that your network hardware must support Multicast forwarding in order to use these functions</para>
 
+<para>VideoLAN also provides "multicasting" for networks with hardware which don't support it. Please see the <ulink url=" http://www.videolan.org/network/doc/videolan-howto.html">VideoLAN Howto</ulink></para>
+
 <para>With  this  technology,  the  VideoLAN Server  streams  to  an  IP
 address, which is  the address of the "Multicast group".  When you start
 the VideoLAN  Client, it  requests its subscription  to this  group, and

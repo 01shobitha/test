@@ -1,12 +1,11 @@
 <chapter id="lvlcs"><title id="tvlcs">The VideoLAN Channel Server</title>
 
 
-<para>
-The VideoLAN Channel Server is useful when you want to stream multiple
-videos at the same time and enable the clients to change channel (i.e.
-switching from one stream to another) easily without typing IP adresses,
-but just using the interface and selecting a channel number
-</para>
+<para> The  VideoLAN Channel Server  is useful  when you want  to stream
+multiple  videos at  the  same time  and enable  the  clients to  change
+channel  (i.e. switching  from  one stream  to  another) easily  without
+typing IP  adresses or DNS hostnames,  but just using the  interface and
+selecting a channel number </para>
 
 <sect1><title>Installing the VideoLAN Channel Server</title>
 
@@ -56,9 +55,9 @@ you can detach-it and reattach-it:</para>
 
 </sect1>
 
-<sect1><title>Configure vlc to use the channel service</title>
+<sect1><title>Configure the VideoLAN Client to use the channel service</title>
 
-<para>The simplest solution is to use the interface of vlc: click on
+<para>The simplest solution is to use the graphical interface of the vlc: click on
 "Net", select "Channel server" and enter the miniVLCS' IP address or DNS
 name.</para>
 <para>Then, you see a new section "Network Channel" on the interface.

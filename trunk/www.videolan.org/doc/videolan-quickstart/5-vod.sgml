@@ -3,15 +3,15 @@
 <sect1><title>Overview</title>
 <sect2><title>What is Video On Demand ?</title>
 <para>
-With Video On Demand (VOD), the client can start the video when he
-wants, make pauses, go forward and go back in the video. It's of course
-the best of video streaming and the dream for every client.
+With Video On Demand (VOD), the user can start the video when he
+wants, make pauses, go forward and back in the video. It is of course
+the best in video streaming and the dream for every user.
 </para>
 </sect2>
 <sect2><title>Hardware required</title>
 <para>
 VOD is a very big consumer of resources for the server and the
-network. VOD is unicast, not multicast. This mean that if 50 clients are
+network. VOD is unicast, not multicast. This means that if 50 clients are
 doing VOD with the same server, watching a 5 Mbit/s MPEG 2 video, the
 resources needed as a minimum are the following :
 </para>

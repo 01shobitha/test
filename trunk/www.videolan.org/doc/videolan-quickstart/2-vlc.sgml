@@ -11,10 +11,9 @@
   <para>
 If you are under Windows, a vlc icon has been created in the start menu. To start the VLC, simply double-click on it.
   </para>
-  <para>If you have Debian GNU/Linux and you have used the deb package, a shortcut has also been created
+  <para>If you use Debian GNU/Linux and you have used the deb or the RPM package, a shortcut has also been created
   </para>
-  <para>FIXME: Sous Mandrake et RedHAT</para>
-  <para>FIXME: Sous OS X</para>
+  <para>You will also find an icon under Mac OS X</para>
   <para>
 The Graphical Interface of the VideoLAN Client is simple to use.</para>
  </sect2>

@@ -11,6 +11,12 @@ visit <a href="http://www.via.ecp.fr/via/journeevia2004.html">this
 page</a>. To receive an invitation, send a mail to <a
 href="mailto:journee2004@via.ecp.fr">journee2004@via.ecp.fr</a>.
 
+|3/4 April 2004| VideoLAN at HackIT:04| We will
+participate to the italian hackmeeting in Genova (see <a
+href="http://www.hackmeeting.org/">http://www.hackmeeting.org/</a>). We
+will hold a conference about video streaming and make demos on saturday
+and sunday.
+
 |1 April 2004| Previews of next release | The new version of VLC is
 coming up, and we thought we'd show you some pictures of the stuff
 we have been working on. First of all VLC will now be able to play
@@ -22,12 +28,6 @@ OS 9</a> version is now available as well, and
 there is a new plugin to stream video to the <a
 href="http://members.tripod.com/~annie43/spa/sp29.gif">Spirit
 Marsrover</a>.
-
-|3/4 April 2004| VideoLAN at HackIT:04| We will
-participate to the italian hackmeeting in Genova (see <a
-href="http://www.hackmeeting.org/">http://www.hackmeeting.org/</a>). We
-will hold a conference about video streaming and make demos on saturday
-and sunday.
 
 |18 March 2004| Scheduled downtime| Due to maintainance operations, 
 a network downtime of about one hour will occur this day at about 

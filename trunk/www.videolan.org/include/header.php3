@@ -56,8 +56,7 @@ function starthtml($title) { ?>
               <option value="www.videolan.org" selected="selected">Select Mirror Site</option>
               <option value="www.videolan.org">Châtenay, France (main)</option>
               <option value="www.fr.videolan.org">Paris, France</option>
-            </select>
-            <input type="submit" value="Go!" />
+            </select><input type="submit" value="Go!" />
           </p>
         </form>
   </td>

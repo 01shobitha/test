@@ -23,13 +23,19 @@
     <tr><td class="skins-comment">
       <? echo $text; ?>
     </td></tr>
-    <tr><? if(strlen($zip)>2) CSSButton( "document.location='/vlc/skins/$zip'", 
-    "skins-download", "skins-download-over", "skins-download-down" ); ?>
-      Download ZIP file
+    <tr><? if(strlen($zip)>2) {
+        CSSButton( "document.location='/vlc/skins/$zip'", 
+                   "skins-download", "skins-download-over",
+                   "skins-download-down" );
+        echo "Download ZIP file";
+    } ?>
     </td></tr>
-    <tr><? if(strlen($vlt)>2) CSSButton( "document.location='/vlc/skins/$vlt'",
-    "skins-download", "skins-download-over", "skins-download-down" ); ?>
-      Download VLT file
+    <tr><? if(strlen($vlt)>2) {
+        CSSButton( "document.location='/vlc/skins/$vlt'",
+                   "skins-download", "skins-download-over",
+                   "skins-download-down" );
+        echo "Download VLT file";
+    } ?>
     </td></tr>
    </table>
   </td>
@@ -84,4 +90,4 @@ skin you want to use.</p>
 
 ?>
 
-<? footer('$Id: download-skins.html,v 1.9 2003/10/03 15:59:05 zorglub Exp $'); ?>
+<? footer('$Id: download-skins.html,v 1.10 2003/10/16 17:13:43 gbazin Exp $'); ?>

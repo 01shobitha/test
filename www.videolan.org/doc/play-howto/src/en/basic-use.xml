@@ -6,7 +6,7 @@ Basic use of VLC
 <sect1 id="desc"><title id="tdesc">General interface decription</title>
 
 <para>VLC has several interfaces: a cross-platform interface, for
-Windows and GNU/Linux, called wxwindows, a MacOS X native interface and
+Windows and GNU/Linux, called wxWindows, a MacOS X native interface and
 a skinnable interface for Windows and GNU/Linux.</para>
 
 <sect2><title>Windows and GNU/Linux</title>
@@ -23,7 +23,7 @@ Windows.</para>
   <caption><para>The wxWindows interface</para></caption>
 </mediaobject>
 
-<para>This interface also features an <emphasis>Extended GUI</emphasis> which contains many additional features. To have it appear or disappear, go to the <emphasis>Settings</emphasis> menu and click <emphasis>Extended GUI</emphasis>.</para>
+<para>This interface also features an <emphasis>Extended GUI</emphasis> which contains many additional features. To display or hide it, go to the <emphasis>Settings</emphasis> menu and click <emphasis>Extended GUI</emphasis>.</para>
 
 <mediaobject>
   <imageobject>
@@ -40,10 +40,14 @@ Windows.</para>
 <sect1><title>Simple play</title>
 
 <sect2><title>Play a file</title>
-<para>To open a file, open the "File" menu, and select the Quick Open File menu 
-item. An Open File dialog box will appear. Select the file you want to open, 
+<para>To open a file, open the <emphasis>File</emphasis> menu, and select 
+the <emphasis>Quick Open File</emphasis> menu item. An Open File dialog 
+box will appear. Select the file you want to open, 
 and select Open. VLC will start playing the selected file. 
 </para>
+
+<para>An alternative is to Drag'n'Drop your file on the VLC main interface or 
+playlist window from the file explorer (Finder on MacOS X).</para>
 
 <mediaobject>
   <imageobject>
@@ -80,19 +84,21 @@ and select Open. VLC will start playing the selected file.
 </sect2>
 <sect2><title>Play a CD/DVD/VCD</title>
 <para>
-To Play a CD, VCD or a DVD, open the "File" menu, and select the "Open Disc..."
- menu item. In the Open Disk Dialog Box, select the type of media (DVD, VCD or 
-Audio CD). When reading a DVD, you can enable DVD menus by selecting the 
-"DVD (menus)" Disc type in the wxWindows Interface. In the MacOS X interface, 
+To Play a CD, VCD or a DVD, open the <emphasis>File</emphasis> menu, and 
+select the <emphasis>Open Disc...</emphasis> menu item. In the Open Disk 
+Dialog Box, select the type of media (DVD, VCD or Audio CD). When reading a DVD,
+ you can enable DVD menus by selecting the <emphasis>DVD (menus)</emphasis> 
+Disc type in the wxWindows Interface. In the MacOS X interface, 
 this can be done by selecting the "Use DVD menus" dialog box.
 </para>
 <para>You can select the drive from which the media should be read by giving 
 the appropriate drive letter or device name in the "Device Name" text input. 
 This should be autodetected on MacOS X.</para>
 <para>If you want to start the DVD or VCD playback from a given title and 
-chapter instead of from the begining, you can set it in the "Title" and 
-"Chapter" selectors.</para>
-<para>You can start playback by selecting the "Ok" button.</para> 
+chapter instead of from the begining, you can set it using the <emphasis>Title
+</emphasis> and <emphasis>Chapter</emphasis> selectors.</para>
+<para>You can start playback by selecting the <emphasis>Ok</emphasis> 
+button.</para> 
 
 <mediaobject>
   <imageobject>
@@ -117,32 +123,34 @@ To open a network stream, open the "File" menu and select the "Open Network
 Stream" menu item.</para>
 
 <itemizedlist>
-<listitem><para>To open a UDP unicast stream, select "UDP/RTP", and set the appropriate 
-UDP port in the selector (it is 1234 for streams sent by a VLC or VLS server).
+<listitem><para>To open a UDP unicast stream, select <emphasis>UDP/RTP
+</emphasis>, and set the appropriate UDP port in the selector 
+(it is 1234 for streams sent by a VLC or VLS server).
 </para></listitem>
 <listitem><para>
-To open a UDP multicast stream, select "UDP/RTP multicast". Give the address 
-of the multicast group in the "Address" text input, and select the appropriate 
-UDP port.</para></listitem>
+To open a UDP multicast stream, select <emphasis>UDP/RTP multicast</emphasis>. 
+Give the address of the multicast group in the "Address" text input, a
+nd select the appropriate UDP port.</para></listitem>
 <listitem><para>
-To open a stream sent over http (Shoutcast, Icecast...), ftp, or mms 
-(Microsoft Media Server), select "HTTP/FTP/MMS", and give the corresponding 
-complete URL, (such as http://live.stream.org:8080/live or 
-mms://live.ms.stream.net:8080/live.asf) in the corresponding text input. 
-This also the way to open a RTSP stream with the MacOS X interface.
+To open a stream sent over http (Webradios, WebTVs, Shoutcast, Icecast...), 
+ftp, or mms (Microsoft Media Server), select "HTTP/FTP/MMS", and 
+give the corresponding complete URL, (such as 
+http://live.stream.org:8080/live or mms://live.ms.stream.net:8080/live.asf) 
+in the corresponding text input. This also the way to open a RTSP stream 
+with the MacOS X interface.
 </para></listitem>
 <listitem><para>
 To open a RTSP stream (sent by Darwin Streamming Server, VLC, etc), 
 in the wxWindows interface, select "RTSP" and give the URL in the text input.
-</para></listitem>
-</itemizedlist>
+</para></listitem></itemizedlist>
 
-<para>You can start playback by selecting the "Ok" button.
+<para>You can start playback by selecting the <emphasis>Ok</emphasis> button.
 </para>
 <para>If you get some stuttering during playback, you can try to increase the 
-size of the read buffer. This can be done in the "Open Network Stream" dialog 
-box, by selecting the "Caching" box. You can then choose the amount time 
-(in milliseconds) VLC should store data in its buffer before starting playback.
+size of the read buffer. This can be done in the <emphasis>Open Network Stream
+</emphasis> dialog box, by selecting the <emphasis>Caching</emphasis> box. 
+You can then choose the amount time (in milliseconds) VLC should store data 
+in its buffer before starting playback.
 </para>
 
 <mediaobject>
@@ -168,18 +176,17 @@ and select "Open Capture Device..."</para>
 
 <para>
 On Windows, supported cards include webcams, TV cards, acquisition 
-cards... provided they come with directshow compatible drivers. You can 
-choose the device to use for video and audio capture using the "Video device 
-name" and "Audio device name" selectors. If your device doesn't appear in the 
-list, try to select the "Refresh list" button. You can access the settings of 
-your acquisition device by selectig the "configure" button. Options here 
-depend on the driver of the device. You can select the "Device Proprieties" 
-box if you want the configuration dialog box of every device to be displayed 
-after having pressed the "Ok" button. Select the "Tuner proprieties" box to be 
-prompted for tuner settings (standard, frequency...) for TV cards. The 
-"Advanced options..." button allows to select some further settings usefull 
-in some rare cases, such as the chroma of the input (the way colors are 
-encoded) and the size of the input buffer.
+cards... provided they come with directshow compatible drivers (Almost 
+all acquisition cards do). You can choose the device to use for video and 
+audio capture using the "Video device name" and "Audio device name" selectors. 
+If your device doesn't appear in the list, try to select the "Refresh list" 
+button. You can access the settings of your acquisition device by selectig 
+the <emphasis>configure</emphasis> button. Options here depend on the driver 
+of the device. You can select the "Device Proprieties" box if you want the 
+configuration dialog box of every device to be displayed after having pressed 
+the <emphasis>Ok</emphasis> button. Select the <emphasis>Tuner proprieties</emphasis> box to be prompted for tuner settings (PAL/NTSC standard, frequency...) 
+for TV cards. The <emphasis>Advanced options...</emphasis> button allows to select some further settings usefull in some rare cases, such as the chroma 
+of the input (the way colors are encoded) and the size of the input buffer.
 </para>
 
 <mediaobject>
@@ -195,7 +202,7 @@ url="http://ivtv.sourceforge.net/">IVTV drivers </ulink>.</para>
 
 <itemizedlist>
 <listitem><para>
-For Video'Linux devices, you can set the name of the video and audio 
+For Video4Linux devices, you can set the name of the video and audio 
 devices using the "Video device name" and "Audio device name" text inputs. 
 The "Advanced options..." button allows to select some further settings usefull
 in some rare cases, such as the chroma of the input (the way colors are
@@ -239,15 +246,15 @@ settings, such as the size of the encoded video (in pixels), its framerate
 
 <sect1><title>Using the playlist</title>
 
-<para>VLC can of course play several files, using its playlist system.
-To access the playlist, click on the <emphasis>Playlist</emphasis>
-button of the main interface (see <xref linkend="desc" endterm="tdesc"/>
-).</para>
+<para>VLC can of course store a list several files to play one after the other, 
+using its playlist system. To access the playlist, click on the 
+<emphasis>Playlist</emphasis>button on the main interface 
+(see <xref linkend="desc" endterm="tdesc"/>).</para>
 
-<para> Each time you use the Open dialog box, the stream you select is
+<para>Each time you use the Open dialog box, the stream you select is
 appended at the end of the playlist and started.</para>
 
-<para>The playlist window shows all the streams in the playlist.
+<para>The playlist window shows all the streams availablein the playlist.
 Double-click one to have it played.</para>
 
 
@@ -270,7 +277,7 @@ Double-click one to have it played.</para>
 <sect2><title>Adding items, saving and loading playlists</title>
 
 <para>In the wxWindows interface, the <emphasis>Manage</emphasis> menu
-allows you to append an item at the end of the playlist (but its playback
+allows you to append an item at the end of the playlist (its playback
 won't start immediately), to save the playlist as a M3U or PLS file, or
 to import a playlist file.</para>
 
@@ -299,8 +306,8 @@ sorting.</para>
 <para>The playlist supports several playback modes.</para>
 
 <para>In the wxWindows interface, the toolbar contains three playlist
-mode buttons to enable random mode, repeat of all the playlist and
-repeat of one item of the playlist.</para>
+mode buttons. They allow to enable random mode, to repeat the whole playlist or
+to repeat one item.</para>
 
 <para>In the MacOS X interface, random mode can be enabled by selecting
 the <emphasis>Random</emphasis> box. A drop down menu allows you to
@@ -321,7 +328,7 @@ to cycle between all matching items.</para>
 <sect3><title>Moving items</title>
 
 <para>In the wxWindows interface, the <emphasis>Up</emphasis> and
-<emphasis>Down </emphasis> buttons at the bottom of the playlist window
+<emphasis>Down</emphasis> buttons at the bottom of the playlist window
 allow you to move an item. Select an item and use these buttons to move
 it.</para>
 
@@ -365,7 +372,7 @@ location of the item to play.</para>
 
 <sect1><title>Hotkeys</title>
 
-<para>Most of the functions of VLC are controllable through hotkeys</para>
+<para>Most of VLC functions are accessible using hotkeys</para>
 
 <para>The list of the available hotkeys and their binding can be retrieved 
 and altered in the preferences panel of the player. In the wxWindows interface, 
@@ -379,7 +386,7 @@ the different selected modifiers as well as the key set in the dropdown.</para>
 
 <para>To change the binding of a hotkey, select or unselect boxes corresponding 
 to the different modifiers, and change the key by using the dropdown. Select 
-the "Save" button to apply the changes.</para>
+the <emphasis>Save</emphasis> button to apply the changes.</para>
 
 <mediaobject>
   <imageobject>
@@ -439,7 +446,7 @@ Select one to get the subtitles. Depending on the media, a description
 
 <para>DVD and SVCD subtitles are merely images, so you won't be able to
 change anything for them. OGM and Matroska subtitles are rendered text,
-so you will be able to change several options. </para>
+so you will be able to change several options.</para>
 
 <para>Text rendering options
 can be changed in the Preferences. In the <emphasis>Modules</emphasis>
@@ -491,7 +498,7 @@ options</emphasis> checkbox and click on the Settings button.</para>
 
 <para>You can then select the subtitles file by clicking the
 <emphasis>Browse</emphasis> button. You can also set a few options like
-encoding, alignment and size. The delay option allows you to delay
+character encoding, alignment and size. The delay option allows you to delay
 the subtitles against the video if they are not in sync. If they are
 not at the same speed, you might also want to adjust the subtitles
 framerate.</para>
@@ -561,9 +568,6 @@ and "logo".</para>
 <emphasis>Modules, video filter </emphasis>. For each filter, you will
 find a short description and the options</para>
 
-<para>Please note that the deinterlacing can be directly turned on from
-the Video menu.</para>
-
 </sect2>
 
 
@@ -571,7 +575,7 @@ the Video menu.</para>
 
 <sect3><title>Equalizer</title>
 
-<para>VLC features a 10-band graphical equalizer. You can show it
+<para>VLC features a 10-band graphical equalizer. You can display it
 by activating the advanced GUI on wxWindows or by clicking the
 <emphasis>Equalizer</emphasis> button on the MacOS X interface.</para>
 
@@ -637,7 +641,7 @@ filters can be tuned.</para>
 <sect2><title>File does not play, only sound or only video</title>
 
 <para>Maybe the file you are trying to read is not fully supported. VLC
-does not the codec packs you might have installed. It comes with its own
+does not use the codec packs you might have installed. It comes with its own
 codecs. If there is no open-source decoder for the format you are trying
 to read, it won't be supported. (There is an exception, under Windows,
 for codecs that use the DirectShow framework).</para>
@@ -664,7 +668,7 @@ valuable.</para>
 
 <sect2><title>Weird VLC behaviour ("stopped working")</title>
 
-<para>A very common thing is a wrong preferences file. Don't hesitate to
+<para>A very common thing is a bogus preferences file. Don't hesitate to
 delete it if problems appear suddendly. You will find in the FAQ details
 on how to delete your preferences file.</para>
 
@@ -673,7 +677,7 @@ on how to delete your preferences file.</para>
 <sect2><title>Computer crashes / Video is corrupted</title>
 
 <para>Another common problem is buggy video drivers. Try upgrading them
-from the website of your video card's maker.</para>
+from the website of your video card's manufacturer.</para>
 
 <para>Also, you can try disabling Overlay (Preferences/General/Video,
 untick "Overlay video output")</para>

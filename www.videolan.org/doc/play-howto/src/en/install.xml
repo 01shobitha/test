@@ -11,7 +11,7 @@ Installing VLC
 <para>
 
 There are VLC binaries available for the many OSes, but not for
-all supported OSes. If there are no binaries for your OS or if you want
+all supported ones. If there are no binaries for your OS or if you want
 to change the default settings, you can compile VLC from sources.
 
 </para>
@@ -21,7 +21,7 @@ to change the default settings, you can compile VLC from sources.
 <para>
 
 VLC works under Windows 95/98/ME/2000/XP.
-Download the self-extracting file from the <ulink
+Download the self-extracting package from the <ulink
 url="http://www.videolan.org/vlc/download-windows.html">VLC Windows
 download page</ulink>. Launch the <filename>.exe</filename> to install
 VLC.
@@ -151,7 +151,7 @@ Then install the required packages with
 <para>
 Download the RPM package <emphasis>vlc</emphasis> and the packages
 listed in the <emphasis>required libraries and codecs</emphasis>
-section (the other packages are just optional) from the <ulink
+section (the other packages are optional) from the <ulink
 url="http://www.videolan.org/vlc/download-redhat.html">VLC Red Hat
 download page</ulink> and put them all into the same directory.</para>
 <para>Then install the RPM packages you have downloaded:</para>

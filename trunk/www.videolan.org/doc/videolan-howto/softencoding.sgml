@@ -22,12 +22,12 @@ url="http://www.exploits.org/v4l/">this page</ulink>.</para>
 <note><para>This feature is not available in vlc 0.5.3, but it is in
 CVS.</para></note>
 
-<note><para>If you're building vlc from sources, you must specify
+<note><para>If you're building VLC from sources, you must specify
 <command>--enable-v4l</command> to <command>./configure</command> to use
 this feature.</para></note>
 
 <screen>
-<prompt>% </prompt><userinput>vlc v4l:/dev/video:channel=0:frequency=8052:norm=secam:size=vga --sout udp:192.168.0.42 --ttl 12</userinput>
+<prompt>% </prompt><userinput>vlc v4l:/dev/video:norm=secam:frequency=8692:size=640x480:channel=0:adev=/dev/dsp:audio=0 --sout '#transcode{vcodec=mp4v,ab=256,vb=3000,vt=800000,keyint=80,acodec=mpga}:std{access=udp,mux=ts,url=239.255.12.13}' --ttl 12</userinput>
 </screen>
 
 <para>where :</para>
@@ -37,10 +37,49 @@ this feature.</para></note>
 <listitem><para><filename>/dev/video</filename> is the device
 corresponding to your acquisition card,</para>
 
-<listitem><para><emphasis>frequency, norm and size</emphasis> are
-parameters passed to your card,</para>
+<listitem><para><emphasis>norm=secam</emphasis> is the norm of the video (can
+also be <emphasis>pal</emphasis> or <emphasis>ntsc</emphasis>),</para>
 
-<listitem><para><emphasis>192.168.0.42</emphasis> is either :</para>
+<listitem><para><emphasis>frequency=8692</emphasis> is the frequency of the
+channel,</para>
+
+<listitem><para><emphasis>size=640x480</emphasis> is
+the size of the video you want (you can also put the
+standard size like <emphasis>subqcif</emphasis> (128x96),
+<emphasis>qsif</emphasis> (160x120), <emphasis>qcif</emphasis>
+(176x144), <emphasis>sif</emphasis> (320x240), <emphasis>cif</emphasis>
+(352x288) or <emphasis>vga</emphasis> (640x480)),</para>
+
+<listitem><para><emphasis>channel=0</emphasis> is the number of the
+channel,</para>
+
+<listitem><para><emphasis>adev=/dev/dsp</emphasis> is the audio device,</para>
+
+<listitem><para><emphasis>audio=0</emphasis> is the number of the audio
+channel,</para>
+
+<listitem><para><emphasis>vcodec=mp4v</emphasis> is the video
+format you want to encode in (<emphasis>mp4v</emphasis> is MPEG-4,
+<emphasis>mpgv</emphasis> is MPEG-1),</para>
+
+<listitem><para><emphasis>ab=256</emphasis> is the audio bitrate in
+Kbit/s,</para>
+
+<listitem><para><emphasis>vb=3000</emphasis> is the video bitrate in
+Kbit/s,</para>
+
+<listitem><para><emphasis>vt=800000</emphasis> is the video bitrate
+tolerance in bit/s,</para>
+
+<listitem><para><emphasis>keyint=80</emphasis> is the maximum interval
+between two "I" images in number of images,</para>
+
+
+<listitem><para><emphasis>acodec=mpga</emphasis> is the audio format
+you want to encode in (<emphasis>mpag</emphasis> is MPEG audio layer 2,
+<emphasis>a52</emphasis> is A52 i.e. AC3 sound),</para>
+
+<listitem><para><emphasis>url=192.168.0.42</emphasis> is either :</para>
 
 <itemizedlist>
 <listitem><para>the IP address of the machine you want to unicast to ;</para>
@@ -49,7 +88,7 @@ parameters passed to your card,</para>
 </itemizedlist>
 
 
-<listitem><para><emphasis>12</emphasis> is the value of the TTL (Time To
+<listitem><para><emphasis>--ttl 12</emphasis> is the value of the TTL (Time To
 Live) of your IP packets (which means that the stream will be
 able to cross 11 routers).</para>
 
@@ -95,7 +134,7 @@ BEGIN "webcam"
   # Size possibilities: can be either:
   # - empty string : default size
   # - width x height
-  # - subQCIF(128x96), QSIF(160.120), QCIF(176x144), SIF(320x240),
+  # - subQCIF(128x96), QSIF(160x120), QCIF(176x144), SIF(320x240),
   #   CIF(352x288), VGA (640x480)
   Size          = ""
 

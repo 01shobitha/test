@@ -15,7 +15,7 @@
 
 ; Depth of the table of contents
 (define (toc-depth nd)
-      2)
+      1)
 
 ; Change of HTML page for each chapter, not for each "sect1"
 (define (chunk-element-list)

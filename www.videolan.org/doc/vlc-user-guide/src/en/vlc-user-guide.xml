@@ -3,36 +3,50 @@
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.1//EN" "/usr/share/sgml/docbook/dtd/xml/4.1/docbookx.dtd"
 
 [
-  <!ENTITY intro SYSTEM "intro.xml">
-
-  <!-- Learn sout -->
-  <!ENTITY gui SYSTEM "gui.xml">
+  <!ENTITY intro SYSTEM "../../../common/en/intro.xml">
+  <!ENTITY codec-demux SYSTEM "../../../common/en/codec-demux.xml">
+  <!ENTITY modules SYSTEM "modules.xml">
+  <!ENTITY install SYSTEM "install.xml">
   <!ENTITY cmdline SYSTEM "cmdline.xml">
-  <!ENTITY examples SYSTEM "examples.xml">
-
-  <!ENTITY vlm-vod SYSTEM "vlm-vod.xml">
-
-  <!-- Use cases -->
-  <!ENTITY receive SYSTEM "receive.xml">
-  <!ENTITY file SYSTEM "file.xml">
-  <!ENTITY dvd SYSTEM "dvd.xml">
-  <!ENTITY dvb SYSTEM "dvb.xml">
-  <!ENTITY encoding-cards SYSTEM "encoding-cards.xml">
-
-  <!-- Misc -->
-  <!ENTITY ipv6 SYSTEM "ipv6.xml"> <!-- FIXME: useful ? -->
-  <!ENTITY announce SYSTEM "announce.xml">
-
+  <!ENTITY http SYSTEM "http.xml">
+  <!ENTITY other SYSTEM "other.xml">
+  <!ENTITY sout SYSTEM "../../../common/en/sout.xml">
+  <!ENTITY webbrowser-plugin SYSTEM "webbrowser-plugin.xml">
+  <!ENTITY install-vlc SYSTEM "../../../common/en/install-vlc.xml">
+  <!ENTITY uninstall-vlc SYSTEM "../../../common/en/uninstall-vlc.xml">
   <!ENTITY gpl SYSTEM "../../../common/en/gpl.xml">
+
+<!-- This is dirty and (hopefully) temporary -->
+  <!ENTITY disabled SYSTEM "disabled.xml">
+  <!ENTITY enabled SYSTEM "enabled.xml">
+  <!ENTITY always SYSTEM "always.xml">
+  <!ENTITY linux-only SYSTEM "linux-only.xml">
+  <!ENTITY options-st SYSTEM "options-st.xml">
+<!-- End dirty -->
+
+<!-- The module types -->
+
+  <!ENTITY vout SYSTEM "modules/vout.xml">
+  <!ENTITY vfilter SYSTEM "modules/vfilter.xml">
+  <!ENTITY aout SYSTEM "modules/aout.xml">
+  <!ENTITY access SYSTEM "modules/access.xml">
+  <!ENTITY demux SYSTEM "modules/demux.xml">
+  <!ENTITY intf SYSTEM "modules/intf.xml">
+  <!ENTITY codec SYSTEM "modules/codec.xml">
+  <!ENTITY misc SYSTEM "modules/misc.xml">
 ]>
 
-<book id="streaming-howto">
+<book id="vlc-user-guide">
 
 <bookinfo>
 
-<title>VideoLAN Streaming Howto</title>
+<title>VLC user guide</title>
 
 <authorgroup>
+  <author>
+    <firstname>Henri</firstname>
+    <surname>Fallon</surname>
+  </author>
   <author>
     <firstname>Alexis</firstname>
     <surname>de Lattre</surname>
@@ -44,6 +58,10 @@
   <author>
     <firstname>Anil</firstname>
     <surname>Daoud</surname>
+  </author>
+  <author>
+    <firstname>Mathieu</firstname>
+    <surname>Gautier</surname>
   </author>
   <author>
     <firstname>Clément</firstname>
@@ -70,7 +88,6 @@ The text of the license can be found in the appendix.
 </legalnotice>
 
 <keywordset>
-    <!-- TODO: Update this list -->
     <keyword>VideoLAN</keyword>
     <keyword>Client</keyword>
     <keyword>vlc</keyword>
@@ -89,7 +106,7 @@ The text of the license can be found in the appendix.
 <abstract>
 
 <para>
-This document explains how to stream, transcode and save streams using the VideoLAN solution 
+This document is the complete user guide of VLC.
 </para>
 
 </abstract>
@@ -101,21 +118,12 @@ This document explains how to stream, transcode and save streams using the Video
 <toc></toc>
 
 &intro;
-
-&gui;
+&modules;
+&install;
 &cmdline;
-&examples;
-
-&vlm-vod;
-
-&receive;
-&file;
-&dvd;
-&dvb;
-&encoding-cards;
-
-&ipv6;
-&announce;
+&http;
+&other;
+&webbrowser-plugin;
 &gpl;
 
 </book>

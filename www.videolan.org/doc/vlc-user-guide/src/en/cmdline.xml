@@ -1,499 +1,427 @@
 <?xml version="1.0" encoding="iso8859-1"?>
 <chapter id="cmdline"><title id="tcmdline">
-Advanced streaming using the command line</title>
+The command line interface</title>
 
-<!-- TODO : 
-      
-    Update all this 
-    Improve texts
-
--->
-
-<sect1><title>Structure of stream output</title>
+<sect1>
+<title>Introduction</title>
 
 <para>
-the stream output has a powerful architecture
-that uses modules. Each module has capabilities, and you
-can <emphasis>chain</emphasis> the modules to enhance the
-possibilities.
+Many options are only available through command
+line. They are detailed here.
 </para>
-
-<para>
-Here is the list of the modules currently available:
-</para>
-
-<itemizedlist>
-
-<listitem><para><emphasis>standard</emphasis>
-"sends" the stream via an <emphasis>access
-output</emphasis> module: for example, UDP, file, HTTP, ... You will
-probably want to use this module at the end of your chains.
-</para></listitem>
-
-<listitem><para><emphasis>transcode</emphasis>
-
- allows you to transcode the audio and the video
-of the input stream "on the fly" (if your computer is powerful enough).
-</para></listitem>
-
-<listitem><para><emphasis>duplicate</emphasis>
- allows you to create a second chain, where the
-stream will be handled in an independant way.
-</para></listitem>
-
-<listitem><para><emphasis>display</emphasis> 
-allows you to display the input stream, as VLC
-would normally do. Used with the <emphasis>duplicate</emphasis>
-module, this allows you to view the stream as you send it.
-</para></listitem>
-
-<listitem><para><emphasis>rtp</emphasis>
-streams over RTP (one UDP port for each elementary stream).
-</para></listitem>
-
-<listitem><para><emphasis>es</emphasis> 
-allows you to make separate Elementary Streams (ES)
-out of an input stream.
-</para></listitem>
-
-</itemizedlist>
-
-<para>
-Each of these modules may take options. Here is the
-syntax that you must use:
-</para>
-
-<screen>
-<prompt>% </prompt><userinput>vlc input_stream --sout '#module1{option1=...,option2=...}:#module2{option1=...,option2=...}:...'</userinput>
-</screen>
-
-<para>
-You may also use the following syntax :
-</para>
-
-<screen>
-<prompt>% </prompt><userinput>vlc input_stream --sout-module1-option1=... --sout-module1-option2=... --sout-module2-option1=... --sout-module2-option2=... ...</userinput>
-</screen>
-
-<para>
-For example, to transcode a stream and send it, use:
-</para>
-
-<screen>
-<prompt>% </prompt><userinput>vlc input_stream --sout '#transcode{options}:#standard{options}'</userinput>
-</screen>
-
-</sect1>
-
-<sect1><title>Description of the modules</title>
-
-<sect2><title>standard (alias std)</title>
-
-<para>
-Sends a stream.
-</para>
-
-<para>
-Options:
-</para>
-
-<itemizedlist>
-
-<listitem><para><emphasis>access</emphasis>: 
-how to send:
-<emphasis>file</emphasis>, <emphasis>udp</emphasis>,
-<emphasis>rtp</emphasis>, <emphasis>http</emphasis>.
-</para></listitem>
-
-<listitem><para><emphasis>mux</emphasis>: 
-which muxer (ie, which format) will be used. It can
-be one of 
-<emphasis>avi</emphasis>
-  (for AVI format)
-<emphasis>ogg</emphasis> 
-  (for OGG format)
-<emphasis>ps</emphasis>
-  (for MPEG2-PS format)
-<emphasis>ts</emphasis> 
-   (for MPEG2-TS format).
-</para></listitem>
-
-<listitem><para><emphasis>url</emphasis>: 
-if you use the
-<emphasis>file</emphasis> access, it will be the location where to
-store the stream; if you use another access, it will be the unicast or
-multicast IP address where you want to stream.
-</para></listitem>
-
-<listitem><para><emphasis>sap</emphasis>: 
-if you use the <emphasis>udp</emphasis> or
-<emphasis>rtp</emphasis> accesses, use this option to announce your
-stream, using SAP/SDP.
-</para></listitem>
-
-<listitem><para><emphasis>name</emphasis>!
-This option contains the name under which you want to announce the 
-program.
-</para></listitem>
-
-<listitem><para><emphasis>slp</emphasis>: 
-like sap, but use the SLP protocol. You need
-to have libslp on your system.
-</para></listitem>
-
-<listitem><para><emphasis>sap_ipv</emphasis>: 
-if you use the <emphasis>sap</emphasis> option,
-use this option to specify if you want to send the SAP announces in
-IPv4 or IPv6. The value of this option is <emphasis>4</emphasis> or
-<emphasis>6</emphasis>.
-</para></listitem>
-
-</itemizedlist>
-
-<note><para>
-If you are streaming in multicast, you may want to
-use the global option <command>--ttl 12</command> to set the TTL to a
-value superior to 1.
-</para></note>
-
-</sect2>
-
-<sect2><title>display</title>
-
-<para>
-Displays the stream.
-</para>
-
-<para>
-Options:
-</para>
-
-<itemizedlist>
-
-<listitem><para><emphasis>noaudio</emphasis>:
-Ignore audio.
-</para></listitem>
-
-<listitem><para><emphasis>novideo</emphasis>:
-Ignore video.
-</para></listitem>
-
-</itemizedlist>
-
-</sect2>
-
-<sect2><title>duplicate</title>
-
-<para>
-Duplicates the stream to a new stream output chain.
-</para>
-
-<para>
-Options:
-</para>
-
-<itemizedlist>
-
-<listitem><para><emphasis>dst</emphasis>: 
-A new stream output chain of modules, as described
-earlier.
-</para></listitem>
-
-<listitem><para><emphasis>select</emphasis>:
-This option allows you to specify which programs or es you wish to
-stream for the previous dst, if the input stream has several ones.</para>
-
-<para>
-
-Format is "program=<emphasis>program_id</emphasis>" or es="<emphasis>es_id</emphasis>".
-
-You can also use ranges, like "program=<emphasis>start_program-end_program</emphasis>". 
-
-You can select only es of a given type, with :</para>
-
-<itemizedlist>
-<listitem><para>no-audio, noaudio, audio</para></listitem>
-<listitem><para>no-video, novideo, video</para></listitem>
-<listitem><para>no-spu,   nospu,   spu</para></listitem>
-</itemizedlist>
-
-<para>You may use several selectors, comma-separated</para></listitem>
-
-</itemizedlist>
-
-</sect2>
-
-<sect2><title>transcode</title>
-
-<para>
-Changes the codec and/or bitrates for a stream.
-</para>
-
-<para>
-Options:
-</para>
-
-<itemizedlist>
-
-<listitem><para><emphasis>acodec</emphasis>: 
-the new audio codec. It can be one of
-<emphasis>mpga</emphasis> (MPEG audio layer 2), <emphasis>a52</emphasis>
-or <emphasis>ac3</emphasis> (AC3 sound) or <emphasis>vorb</emphasis>
-(Vorbis).
-</para>
-</listitem>
-
-<listitem><para><emphasis>ab</emphasis>: 
-audio bitrate in Kbps.
-</para></listitem>
-
-<!-- UNIMPLEMENTED for the moment 
-<listitem><para><emphasis>samplerate</emphasis>: audio encoding rate in Hz
-(44000 for a CD, for example).</para></listitem> -->
-
-<!-- UNIMPLMENETED <listitem><para><emphasis>channels</emphasis>: number of audio
-channels.</para></listitem>  -->
-
-<listitem><para><emphasis>vcodec</emphasis>: 
-the new video codec. It can be one of
-<emphasis>mp4v</emphasis> (MPEG4), <emphasis>mpgv</emphasis>
-(MPEG1), <emphasis>DIV1</emphasis>, <emphasis>DIV2</emphasis>,
-<emphasis>DIV3</emphasis> (DivX 1,2,3), <emphasis>H263</emphasis>
-(H263), <emphasis>I263</emphasis> (H263I), <emphasis>WMV1</emphasis>
-or <emphasis>WMV2</emphasis> (Windows Media Video 1 or 2),
-<emphasis>MJPG</emphasis> (MJPEG), <emphasis>MJPB</emphasis>
-(MJPEGB).
-</para></listitem>
-
-<listitem><para><emphasis>width</emphasis>:
-video width.
-</para></listitem>
-
-<listitem><para><emphasis>height</emphasis>:
-video height.
-</para></listitem>
-
-<listitem><para><emphasis>vb</emphasis>: 
-video bitrate in kbps.
-</para></listitem>
-
-<listitem><para><emphasis>vt</emphasis>: 
-video bitrate tolerance in bps.
-</para></listitem>
-
-<listitem><para><emphasis>deinterlace</emphasis>: 
-deinterlace the stream.
-</para></listitem>
-
-<listitem><para><emphasis>croptop</emphasis>: 
-number of pixels removed from the top of the video.
-</para></listitem>
-
-<listitem><para><emphasis>cropbottom</emphasis>: 
-number of pixel removed from the bottom of the video.
-</para></listitem>
-
-<listitem><para><emphasis>cropleft</emphasis>: 
-number of pixels removed from the left of the video.
-</para></listitem>
-
-<listitem><para><emphasis>cropright</emphasis>: 
-number of pixels removed from the right of the video.
-</para></listitem>
-
-<listitem><para><emphasis>hq</emphasis>: 
- high quality transcoding (uses more CPU).
-</para></listitem>
-
-<listitem><para><emphasis>qmin</emphasis>: 
-minimum video quantiser scale (VBR)
-</para></listitem>
-
-<listitem><para><emphasis>qmax</emphasis>:
-maximum video quantiser scale (VBR).
-</para></listitem>
-
-</itemizedlist>
-
-</sect2>
-
-<sect2><title>rtp</title>
-<para>
-Sends a stream over RTP
-</para>
-
-<para>
-Options:
-</para>
-
-<itemizedlist>
-                                                                                
-<listitem><para><emphasis>dst</emphasis>:
-destination IP address (unicast or multicast).
-</para></listitem>
-
-<listitem><para><emphasis>port</emphasis>:
-destination UDP port.
-</para></listitem>
-
-<listitem><para><emphasis>sdp</emphasis>:
-how to send the sdp file: <emphasis>http://server_ip:server_port/path</emphasis> for http, or <emphasis>rtsp://server_ip:server_port/path</emphasis> for rtsp, where <emphasis>server_ip</emphasis> is the address of one of the server's interface, and <emphasis>path</emphasis> where the sdp file will be accessible on the server. You can also use <emphasis>sap://</emphasis> to announce your stream by SAP.
-</para></listitem>
-
-</itemizedlist>
-<note><para>
-When using <emphasis>sdp=rtsp</emphasis>, it is possible not to give any destination address. VLC will then send the stream to any client that connects to it.
-</para></note>
-
-</sect2>
-
-<sect2><title>es</title>
-
-<para>
-Make separate Elementary Streams.
-</para>
-
-<para>Options:</para>
-
-<itemizedlist>
-
-<listitem><para><emphasis>access_audio</emphasis>:
-how to send the audio track:
-<emphasis>file</emphasis>, <emphasis>udp</emphasis>,
-<emphasis>rtp</emphasis> or <emphasis>http</emphasis>.
-</para></listitem>
-
-<listitem><para><emphasis>access_video</emphasis>: 
-how to send the vidéo track:
-<emphasis>file</emphasis>, <emphasis>udp</emphasis>,
-<emphasis>rtp</emphasis> or <emphasis>http</emphasis>.
-</para></listitem>
-
-<listitem><para><emphasis>access</emphasis>:
- if you want the audio and the video tracks to use
-the same access, use this option instead of the two above.
-</para></listitem>
-
-
-<listitem><para><emphasis>mux_audio</emphasis>: 
-which muxer (ie, which format) will be used for the
-audio track. It can be one of <emphasis>avi</emphasis> (for AVI format),
-<emphasis>ogg</emphasis> (for OGG format), <emphasis>ps</emphasis> (for
-MPEG2-PS format), <emphasis>ts</emphasis> (for MPEG2-TS format).
-</para></listitem>
-
-<listitem><para><emphasis>mux_video</emphasis>:
-which muxer (ie, which format) will be used for the
-video track. It can be one of <emphasis>avi</emphasis> (for AVI format),
-<emphasis>ogg</emphasis> (for OGG format), <emphasis>ps</emphasis> (for
-MPEG2-PS format), <emphasis>ts</emphasis> (for MPEG2-TS format).
-</para></listitem>
-
-<listitem><para><emphasis>mux</emphasis>: 
- if you want the audio and the video tracks to use
-the same muxer, use this option instead of the two above.
-</para></listitem>
-
-
-<listitem><para><emphasis>url_audio</emphasis>: 
-if you use the <emphasis>file</emphasis> access, it
-will be the location where to store the audio track; if you use another
-access, it will be the unicast or multicast IP address where you want to
-stream.
-</para></listitem>
-
-<listitem><para><emphasis>url_video</emphasis>: 
-if you use the <emphasis>file</emphasis> access, it
-will be the location where to store the vidéo track; if you use another
-access, it will be the unicast or multicast IP address where you want to
-stream.
-</para></listitem>
-
-<listitem><para><emphasis>url</emphasis>:
- if you want the audio and the video tracks to use
-the same url, use this option instead of the two above.
-</para></listitem>
-
-</itemizedlist>
-
-<note><para>
-In the <emphasis>url</emphasis> options, if you use
-the <emphasis>file</emphasis> access, you can use the following macros
-in the filename:</para>
-
-<itemizedlist>
-
-<listitem><para><emphasis>%n</emphasis> = 
-stream number</para></listitem>
-<listitem><para><emphasis>%c</emphasis> = FOURCC ;</para></listitem>
-<listitem><para><emphasis>%m</emphasis> =
-muxer
- ;</para></listitem>
-<listitem><para><emphasis>%a</emphasis> = access.</para></listitem>
-
-</itemizedlist>
-
-</note>
-
-</sect2>
-
-<sect2><title>
-Miscellaneous
-</title>
-
-<para>
-Here are a few additional global options
-</para>
-
-<itemizedlist>
-
-<listitem><para><emphasis>--sout-all,  --no-sout-all</emphasis>
- Enable streaming of all ES (default disabled). By defaut VLC will only stream one audio ES and one video ES (the first ones). If you enable sout-all, all ES (audio, video and SPU) will be streamed.</para>
-</listitem>
-
-<listitem><para><emphasis> --sout-keep, --no-sout-keep</emphasis>
-Keep sout open (default disabled) : use the same sout instance accross the various playlist items, if possible.</para>
-</listitem>
-
-<listitem><para><emphasis>--no-sout-audio</emphasis>
-disables audio stream output.
-</para></listitem>
-
-<listitem><para><emphasis>--no-sout-video</emphasis> 
-disables video stream output.
-</para></listitem>
-
-</itemizedlist>
-
-<para>
- The stream output also offers a simplified syntax,
-with which you can only you use the <emphasis>standard</emphasis> module
-main options:
-</para>
-
-<screen>
-<prompt>% </prompt><userinput>vlc input_stream --sout access/mux:url</userinput>
-</screen>
-
-<para>
- where <emphasis>access</emphasis>,
-<emphasis>mux</emphasis> and <emphasis>url</emphasis> are as defined in
-the options of the standard module.
-</para>
-
-</sect2>
 
 </sect1>
 
 <sect1><title>
-Examples
+Opening streams
 </title>
 
 <para>
-To understand fully the complex syntax of VLC's
-stream output, please look at the examples in the nexte section.
+The following commands start VLC and add the first
+element to the playlist.
 </para>
+
+<sect2><title>
+Opening a file
+</title>
+
+<para>
+Start VLC with:
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv my_file.mpg</userinput>
+</screen>
+
+<para>
+Although VLC should be able to recognize the file
+type, you may tell VLC what codec to use with the
+<emphasis>--codec</emphasis> option. For example to play
+my_file.mpg using ffmpeg auido/video decoder do:
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv --codec ffmpeg my_file.mpg</userinput> 
+</screen>
+
+<para>
+ A list of all video and audio
+codecs supported by VLC is available on the <ulink url="http://www.videolan.org/vlc/features.html">VLC features
+list</ulink>.
+</para>
+
+</sect2>
+
+<sect2><title>
+Opening a DVD or VCD, or an audio CD
+</title>
+
+<para>
+Start VLC with:
+</para>
+
+<!-- Do not wrap me -->
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv dvd://[device][@raw_device][@[title][,[chapter][,angle]]]
+</userinput>
+</screen>
+
+<para>
+or 
+
+
+(VCD):</para>
+
+<!-- Do not wrap me -->
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv vcd://[device][@{E|P|E|T|S}[number]]</userinput>
+</screen>
+
+<para>
+or 
+
+
+(Audio CD):</para>
+
+<!-- Do not wrap me -->
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv cdda://[device][@[track]]</userinput>
+</screen>
+<para>
+where device is the complete path to your DVD or
+CD-ROM drive.
+</para>
+
+</sect2>
+
+<sect2><title>
+Receiving a network stream
+</title>
+
+<para>
+To receive an unicast UDP stream (sent by VLS or
+VLC's stream output), start VLC with:
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv udp:[@:server_port]</userinput>
+</screen>
+
+<para>
+To receive an multicast UDP stream (sent by VLS or
+VLC's stream output), start VLC with:
+</para>
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv udp:@multicast_address[:server_port]</userinput>
+</screen>
+
+<para>
+To receive a HTTP stream, start VLC with
+
+
+ :</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv http://www.example.org/your_file.mpg</userinput>
+</screen>
+
+<para>
+To receive a RTSP stream, start VLC with:</para>
+                                                                                
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv rtsp://www.example.org/your_stream</userinput>
+</screen>
+
+</sect2>
+</sect1>
+
+<sect1><title>Modules selection</title>
+
+<para>
+ VLC tries to select the most appropriate interface,
+input and output modules, among the ones available on the system,
+according to the stream it is given to read. However, you may wish
+to force the use of a specific module with the following options
+(for the complete list of modules, see the <xref linkend="modules" endterm="tmodules"/>modules section)
+
+
+:</para>
+
+<itemizedlist>
+<listitem><para><emphasis>--intf  &lt;module&gt;</emphasis>
+allows you to select the interface module.
+</para></listitem>
+<listitem><para><emphasis>--extraintf  &lt;module&gt;</emphasis>
+allows you to select extra interface modules that
+will be launched in addition to the main one.
+</para></listitem>
+<listitem><para><emphasis>--aout  &lt;module&gt;</emphasis>
+allows you to select the audio output module.
+</para></listitem>
+<listitem><para><emphasis>--vout  &lt;module&gt;</emphasis>
+allows you to select the video output module.
+</para></listitem>
+<listitem><para><emphasis>--filter  &lt;module&gt;</emphasis>
+allows you to add a video filter module.
+</para></listitem>
+<listitem><para><emphasis>--memcpy  &lt;module&gt;</emphasis>
+allows you to choose a memory copy module.
+</para></listitem>
+</itemizedlist>
 
 </sect1>
 
+<sect1><title>
+Stream Output
+</title>
+
+&sout;
+
+</sect1>
+
+<sect1><title>Other Options</title>
+
+<sect2><title>Audio options</title>
+
+<itemizedlist>
+<listitem><para><emphasis>--noaudio</emphasis> 
+disables audio output.
+</para></listitem>
+<listitem><para><emphasis>--mono</emphasis>
+forces VLC to treat the stream in mono audio.
+</para></listitem>
+<listitem><para><emphasis>--volume  &lt;integer&gt;</emphasis> 
+sets the level of audio output.
+</para></listitem>
+<listitem><para><emphasis>--aout-rate  &lt;integer&gt;</emphasis>
+sets the audio output frequency (Hz).
+</para></listitem>
+<listitem><para><emphasis>--desync  &lt;integer&gt;</emphasis>
+compensates desynchronization of audio (ms).
+</para></listitem>
+<listitem><para><emphasis>--headphone</emphasis>
+ activates headphone virtual spatialization effect.
+</para></listitem>
+<listitem><para><emphasis>--headphone-dim</emphasis>
+ sets headphone characteristic dimension.
+</para></listitem>
+</itemizedlist>
+
+</sect2>
+
+<sect2><title>
+Video options
+</title>
+
+<itemizedlist>
+
+<listitem><para><emphasis>--novideo</emphasis> 
+disables video output.
+</para></listitem>
+
+<listitem><para><emphasis>--greyscale</emphasis>
+turns video output into greyscale mode.
+</para></listitem>
+
+<listitem><para><emphasis>--fullscreen</emphasis>
+sets fullscreen video.
+</para></listitem>
+
+<listitem><para><emphasis>--nooverlay</emphasis>
+disables hardware acceleration for the video output.
+</para></listitem>
+
+<listitem><para><emphasis>--width, --height &lt;integer&gt;</emphasis>
+sets the video window dimensions.
+</para></listitem>
+
+<listitem><para><emphasis>--zoom &lt;float&gt;</emphasis>
+adds a zoom factor.
+</para></listitem>
+
+<listitem><para><emphasis>--aspect-ratio &lt;mode&gt;</emphasis>
+forces source aspect ratio.
+</para></listitem>
+
+<listitem><para><emphasis>--spumargin  &lt;integer&gt;</emphasis> 
+forces SPU subtitles postion.
+</para></listitem>
+
+</itemizedlist>
+
+</sect2>
+
+<sect2><title>
+Playlist options
+</title>
+
+<itemizedlist>
+
+<listitem><para><emphasis>--playlist</emphasis>
+launches playlist on startup.
+</para></listitem>
+
+<listitem><para><emphasis>--random</emphasis>
+plays files randomly forever.
+</para></listitem>
+
+<listitem><para><emphasis>--enqueue</emphasis>
+enqueues items in playlist.
+</para></listitem>
+
+<listitem><para><emphasis>--loop</emphasis>
+loops playlist on end.
+</para></listitem>
+
+</itemizedlist>
+
+</sect2>
+
+<sect2><title>
+Network options
+</title>
+
+<itemizedlist>
+
+<listitem><para><emphasis>--server-port  &lt;integer&gt;</emphasis>
+sets server port.
+</para></listitem>
+
+<listitem><para><emphasis>--iface  &lt;string&gt;</emphasis> 
+specifies the network interface to use.
+</para></listitem>
+
+<listitem><para><emphasis>--iface-addr  &lt;string&gt;</emphasis>
+specifies your network interface IP address.
+</para></listitem>
+
+<listitem><para><emphasis>--mtu  &lt;integer&gt;</emphasis>
+specifies the MTU of the network interface.
+</para></listitem>
+
+<listitem><para><emphasis>--ipv6</emphasis>
+forces IPv6.
+</para></listitem>
+
+<listitem><para><emphasis>--ipv4</emphasis>
+forces IPv4.
+</para></listitem>
+
+</itemizedlist>
+
+</sect2>
+
+<sect2><title>
+CPU options
+</title>
+
+<itemizedlist>
+
+<listitem><para><emphasis>--nommx</emphasis>
+disables the use of MMX CPU extensions.
+</para></listitem>
+
+<listitem><para><emphasis>--no3dn</emphasis>
+disables the use of 3D Now! CPU extensions.
+</para></listitem>
+
+<listitem><para><emphasis>--nommxext</emphasis>
+disables the use of MMX Ext CPU extensions.
+</para></listitem>
+
+<listitem><para><emphasis>--nosse</emphasis> 
+disables the use of SSE CPU extensions.
+</para></listitem>
+
+</itemizedlist>
+
+</sect2>
+
+<sect2><title>
+Miscellaneous options
+</title>
+
+<itemizedlist>
+
+<listitem><para><emphasis>--quiet</emphasis>
+ deactivates the console messages.
+</para></listitem>
+
+<listitem><para><emphasis>--color</emphasis>
+ displays color messages.
+</para></listitem>
+
+<listitem><para><emphasis>--search-path  &lt;string&gt;</emphasis>
+specifies interface default search path.
+</para></listitem>
+
+<listitem><para><emphasis>--plugin-path  &lt;string&gt;</emphasis>
+specifies plugin search path.
+</para></listitem>
+
+<listitem><para><emphasis>--dvd  &lt;string&gt;</emphasis> 
+specifies the default DVD device.
+</para></listitem>
+
+<listitem><para><emphasis>--vcd  &lt;string&gt;</emphasis>
+specifies the default VCD device.
+</para></listitem>
+
+<listitem><para><emphasis>--program  &lt;;integer&gt;</emphasis>
+specifies program (SID) (for streams with several programs, like satellite ones).
+</para></listitem>
+
+<listitem><para><emphasis>--audio-type  &lt;integer&gt;</emphasis>
+specifies the default audio type to use with dvds
+
+ 
+.</para></listitem>
+
+<listitem><para><emphasis>--audio-channel  &lt;integer&gt;</emphasis>
+specifies the default audio channel to use with dvds.
+</para></listitem>
+
+<listitem><para><emphasis>--spu-channel  &lt;integer&gt;</emphasis>
+specifies the default subtitle channel to use with dvds.
+</para></listitem>
+
+</itemizedlist>
+
+</sect2>
+
+<sect2><title>
+Help options
+</title>
+
+<itemizedlist>
+
+<listitem><para><emphasis>--verbose  &lt;verbosity&gt;</emphasis>
+specifies verbosity level.
+</para></listitem>
+
+<listitem><para><emphasis>--help</emphasis>
+gives you all available options.
+</para></listitem>
+
+<listitem><para><emphasis>--longhelp</emphasis> 
+gives you a detailled version of the available 
+options.
+</para></listitem>
+
+<listitem><para><emphasis>--version</emphasis> 
+gives you information about the current VLC version.
+</para></listitem>
+
+<listitem><para><emphasis>--list</emphasis> 
+displays a list of available plugins.
+</para></listitem>
+
+<listitem><para><emphasis>--module  &lt;module&gt;</emphasis> 
+displays help about specified module.
+</para></listitem>
+
+</itemizedlist>
+
+</sect2>
+</sect1>
 </chapter>

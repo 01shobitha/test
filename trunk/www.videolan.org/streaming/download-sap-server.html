@@ -1,0 +1,20 @@
+<?
+   $title = "Mini SAP server - download";
+   $lang = "en";
+   $date = "26 april 2003";
+   $menu = array( "streaming", "" );
+   require("header.php3");
+?>
+
+<? function pkgitem($version,$name) { ?><li><a href="/pub/videolan/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
+
+<h1> Mini-SAP-server for Linux </h1>
+
+
+<p>Latest mini-SAP-server tarball (0.1.0):</p>
+
+<ul>
+  <? pkgitem("0.1.0","miniSAPserver-0.1.0.tar.gz"); ?>
+</ul>
+
+<? footer('$Id: download-sap-server.html,v 1.1 2003/04/25 22:31:04 alexis Exp $'); ?>

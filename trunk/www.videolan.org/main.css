@@ -241,6 +241,23 @@ th.os {
 }
 
 /* Styles used for the upper navigation bar */
+td.topleft {
+  vertical-align: middle;
+
+  text-align: center;
+  font-weight: bold;
+  font-size: 10pt;
+
+  padding-top: 2px;
+
+  border-style: solid;
+  border-color: #a43;
+  border-bottom-width: 1px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+
 td.topbar {
   vertical-align: middle;
 
@@ -248,13 +265,13 @@ td.topbar {
   font-weight: bold;
   font-size: 10pt;
 
-  margin: 2px;
+  padding-top: 2px;
 
   border-style: solid;
   border-color: #a43;
   border-bottom-width: 1px;
   border-top-width: 0px;
-  border-left-width: 0px;
+  border-left-width: 1px;
   border-right-width: 0px;
 }
 
@@ -265,7 +282,7 @@ td.topbarselected {
 
   text-align: center;
   font-weight: bold;
-  font-size: 10pt;
+  font-size: 11pt;
 
   margin: 2px;
 
@@ -274,7 +291,7 @@ td.topbarselected {
   border-bottom-width: 0px;
   border-top-width: 1px;
   border-left-width: 1px;
-  border-right-width: 1px;
+  border-right-width: 0px;
 }
 
 /* Styles used for the lower navigation bar */
@@ -287,7 +304,7 @@ td.bottomleft {
   border-style: solid;
   border-color: #a43;
   border-bottom-width: 1px;
-  border-top-width: 1px;
+  border-top-width: 0px;
   border-left-width: 1px;
   border-right-width: 0px;
 }
@@ -301,7 +318,7 @@ td.bottomright {
   border-style: solid;
   border-color: #a43;
   border-bottom-width: 1px;
-  border-top-width: 1px;
+  border-top-width: 0px;
   border-left-width: 0px;
   border-right-width: 1px;
 }

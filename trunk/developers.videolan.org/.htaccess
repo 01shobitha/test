@@ -1,14 +1,14 @@
 RewriteEngine on
 
 # répertoire/ -> répertoire/index.html
-RewriteRule ^(.*)/$ include/rewrite.php?dir=$1&page=index
+RewriteRule ^(.*)/$ include/rewrite.php3?dir=$1&page=index
 
-# fichier.html -> ../include/default.php?page=fichier
-RewriteRule ^([^/]+)\.html$ include/rewrite.php?page=$1
+# fichier.html -> ../include/default.php3?page=fichier
+RewriteRule ^([^/]+)\.html$ include/rewrite.php3?page=$1
 
-# rep/fichier.html -> ../include/default.php?dir=rep&page=fichier
-RewriteRule ^(.*)/([^/]+)\.html$ include/rewrite.php?dir=$1&page=$2
+# rep/fichier.html -> ../include/default.php3?dir=rep&page=fichier
+RewriteRule ^(.*)/([^/]+)\.html$ include/rewrite.php3?dir=$1&page=$2
 
 # changelog
-RewriteRule ^(.*)/ChangeLog$ include/rewrite.php?dir=$1&changelog=1
+RewriteRule ^(.*)/ChangeLog$ include/rewrite.php3?dir=$1&changelog=1
 

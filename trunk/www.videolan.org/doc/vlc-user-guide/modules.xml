@@ -67,7 +67,7 @@ every options associated with a module, use :</span>
 <span xml:lang="fr">Chaque module VLC possède sa propre aide et ses
 options. Pour toutes les voir, utilisez :</span></para>
 
-<screen> <prompt>% </prompt><userinput>vlc -p <span xml:lang="en">module_name</span><span xml:lang="fr">nom_du_module</span></userinput></screen>
+<screen> <prompt>% </prompt><userinput>vlc --advanced -p <span xml:lang="en">module_name</span><span xml:lang="fr">nom_du_module</span></userinput></screen>
 
 <para>
 <span xml:lang="en">or use the "Preferences" Panel of your favorite 

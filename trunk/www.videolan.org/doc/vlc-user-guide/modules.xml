@@ -54,8 +54,8 @@ xml:lang="fr">nom_du_module</span></userinput>
 </screen>
 
 <para>
-<span xml:lang="en">On the contrary, if you would like to disable a module 
-that is <emphasis>enabled by default</emphasis>, you would have to use :</span>
+<span xml:lang="en">On the contrary, if you want to disable a module 
+that is <emphasis>default enabled</emphasis>, you have to use :</span>
 <span xml:lang="fr">A l'inverse, si vous désirez désactiver un module qui est
 <emphasis>activé par défaut</emphasis>, vous devrez utiliser :</span>
 </para>
@@ -84,10 +84,8 @@ interface graphique préférée</span>.</para>
 <span xml:lang="fr">Modules de sortie vidéo</span></title>
 
 <para>
-<span xml:lang="en">Video outputs are the modules that enable the support 
-of some systems to display the video on your screen.</span>
-<span xml:lang="fr">Les modules de sortie vidéo permettent d'activer le support
-des systèmes utilisés pour afficher la vidéo sur l'écran.</span></para>
+<span xml:lang="en">Video outputs modules allow VLC to display video on your screen</span>
+<span xml:lang="fr">Les modules de sortie vidéo permettent d'afficher de la vidéo sur votre écran.</span></para>
 
 <sect2><title>x11</title>
 &enabled;
@@ -104,6 +102,33 @@ Elle ne requiert pour fonctionner qu'un serveur X11. Vous
 aurez besoin des en-têtes xlibs pour la compiler (paquetage
 <emphasis>xlibs-dev</emphasis> sur le système Debian GNU/Linux)</span>
 </para>
+&options-st;
+<itemizedlist>
+<listitem>
+<para>--x11-display &lt;string&gt;
+<span xml:lang="en">X11 display name to use</span>
+<span xml:lang="fr">nom du display X11 à utiliser</span>
+</para>
+</listitem>
+<listitem>
+<para>--x11-altfullscreen, --no-x11-altfullscreen
+<span xml:lang="en">use alternate fullscreen mode to bypass window managers (default disabled)</span>
+<span xml:lang="fr">mode plein écran alternatif, pour surpasser les gestionnaires de fenêtres (désactivé par défaut)</span>
+</para>
+</listitem>
+<listitem>
+<para>--x11-shm, --no-x11-shm
+<span xml:lang="en">use x11 shared memory (default enabled)</span>
+<span xml:lang="fr">utiliser la mémoire partagée (activé par défaut)</span>
+</para>
+</listitem>
+<listitem>
+<para>--x11-xineramascreen &lt;integer&gt;
+<span xml:lang="en">choose the screen to be used for fullscreen mode, when working with xinerama</span>
+<span xml:lang="fr">permet de choisir l'écran qui sera utilisé en mode plein écran, en xinerama</span>
+</para>
+</listitem>
+</itemizedlist>
 </sect2>
 
 <sect2><title>xvideo</title>
@@ -118,6 +143,45 @@ matérielle pour la transformation YUV et la mise à l'échelle, nécessite
 une carte vidéo supportant xvidéo. (C'est le cas de presque toutes les
 cartes modernes).</span>
 </para>
+&options-st;
+<itemizedlist>
+<listitem>
+<para>--xvideo-display &lt;string&gt;
+<span xml:lang="en">X11 display name to use</span>
+<span xml:lang="fr">nom du display X11 à utiliser</span>
+</para>
+</listitem>
+<listitem>
+<para>--xvideo-adaptor &lt;integer&gt;
+<span xml:lang="en">xvideo adaptor number</span>
+<span xml:lang="fr">numéro de l'adaptateur xvideo</span>
+</para>
+</listitem>
+<listitem>
+<para>--xvideo-altfullscreen, --no-xvideo-altfullscreen
+<span xml:lang="en">use alternate fullscreen mode to bypass window managers (default disabled)</span>
+<span xml:lang="fr">mode plein écran alternatif, pour surpasser les gestionnaires de fenêtres (désactivé par défaut)</span>
+</para>
+</listitem>
+<listitem>
+<para>--xvideo-shm, --no-xvideo-shm
+<span xml:lang="en">use x11 shared memory (default enabled)</span>
+<span xml:lang="fr">utiliser la mémoire partagée (activé par défaut)</span>
+</para>
+</listitem>
+<listitem>
+<para>--xvideo-xineramascreen &lt;integer&gt;
+<span xml:lang="en">choose the screen to be used for fullscreen mode, when working with xinerama</span>
+<span xml:lang="fr">permet de choisir l'écran qui sera utilisé en mode plein écran, en xinerama</span>
+</para>
+</listitem>
+<listitem>
+<para>--xvideo-chroma &lt;string&gt;
+<span xml:lang="en">XVimage chroma format</span>
+<span xml:lang="fr">format de chroma XVimage</span>
+</para>
+</listitem>
+</itemizedlist>
 </sect2>
 
 <sect2><title>sdl</title>
@@ -126,7 +190,7 @@ cartes modernes).</span>
 <span xml:lang="en"> This video output uses sdl libraries. You need at
 least version 1.1.6 of this libraries.</span>
 <span xml:lang="fr"> Cette sortie vidéo utilise les librairies SDL. 
-Vous avez besoin d'une version supérieure ou égale à 1.1.6</span>
+Vous avez besoin d'une version supérieure ou égale à 1.1.6 de ces librairies</span>
 </para>
 <para>
 <span xml:lang="en"> You may indicate the path to the 
@@ -139,7 +203,7 @@ the configre script.</span>
 </para></sect2>
 
 <sect2><title>directx</title>
-<para><emphasis><span xml:lang="en">default: enabled on win32</span><span
+<para><emphasis><span xml:lang="en">default enabled on win32</span><span
 xml:lang="fr">Activé par défaut sur Windows</span></emphasis></para>
 <para><emphasis>
 <span xml:lang="en">For Windows only</span>
@@ -168,7 +232,7 @@ xml:lang="fr">Activé par défaut sur Windows</span></emphasis></para>
 <span xml:lang="fr">Pour Windows seulement</span>
 </emphasis></para>
 <para>
-<span xml:lang="en">This video output uses GDI. It is designed for users who don't have Direct X, but the perfs are very low. If you have DirectX, do not use it.</span>
+<span xml:lang="en">This video output uses GDI. It is designed for users who don't have Direct X, but the perfs are very low. If you have DirectX installed on your system, do not use the wingdi video output</span>
 <span xml:lang="fr">Cette sortie vidéo utilise la bibliothèque GDI.
 Elle est connçue pour les utilisateurs n'ayant pas Direct X. Ses
 performances étant mauvaises, ne l'utilisez pas si vous pouvez utiliser
@@ -186,9 +250,17 @@ xml:lang="fr">Activé par défaut sur GNU/Linux</span></emphasis></para>
 <para>
 <span xml:lang="en">This is the frame buffer video output. Your
 kernel has to be compiled with frame buffer support.</span>
-<span xml:lang="fr">Cette sortie vidéo utilise le framebuffer. Vous devez avoir
-activer le support du framebuffer dans votre Linux.</span>
+<span xml:lang="fr">Cette sortie vidéo utilise le framebuffer. Vous devez activer le support du framebuffer dans votre noyau Linux pour l'utiliser.</span>
 </para>
+&options-st;
+<itemizedlist>
+<listitem>
+<para>--fbdev &lt;string&gt;
+<span xml:lang="en">framebuffer device (default is /dev/fb0)</span>
+<span xml:lang="fr">périphérique du framebuffer (la valeur par défaut est /dev/fb0)</span>
+</para>
+</listitem>
+</itemizedlist>
 </sect2>
 
 <sect2><title>glide</title>
@@ -231,7 +303,7 @@ It requires aalib headers (<emphasis>aalib1-dev</emphasis> package
  under Debian GNU/Linux) to compile.</span>
 <span xml:lang="fr">Cette sortie vidéo affiche de l'ASCII art, en 
 utilisant la bibliothèque aalib. Vous avez besoin des en-têtes aalib
-(paquetage <emphasis>aalib1-dev</emphasis> sous Debian GNU/Linux) pour
+(paquet <emphasis>aalib1-dev</emphasis> sous Debian GNU/Linux) pour
 la compilation.</span>
 </para>
 </sect2>
@@ -269,8 +341,8 @@ librairie graphique spécifique à l'iPaq</span>
 
 <para>
 <span xml:lang="en">These modules allow you to perform modifications on
-the rendered image</span>
-<span xml:lang="fr">Ces modules vous permettent de modifier l'image</span>
+the rendered image (deinterlacing, hue/contrast/saturation adjusting, cropping and so on).</span>
+<span xml:lang="fr">Ces modules vous permettent de modifier l'image (désentrelacement, réglage du trio teinte/constraste/saturation, recadrage etc.).</span>
 .</para>
 
 <sect2><title>deinterlace</title>
@@ -281,7 +353,18 @@ streams coming from a digital satellite channel or digital terrestial
 television channels</span>
 <span xml:lang="fr">Ce filtre effectue le désentrelacement de la vidéo
 et est utile pour les flux venant d'un satellite ou de télévision</span>
-.</para></sect2>
+.</para>
+&options-st;
+<itemizedlist>
+<listitem>
+<para>--deinterlace-mode {discard,blend,mean,bob,linear}
+<span xml:lang="en">deinterlacing mode (default: none)</span>
+<span xml:lang="fr">mode de désentrelacement (aucun par défaut)</span>
+</para>
+</listitem>
+</itemizedlist>
+
+</sect2>
 
 <sect2><title>wall</title>
 &always;
@@ -616,7 +699,7 @@ addresses pour les flux annoncés à l'aide du protocole SLP</span>
 <para>
 <span xml:lang="en">In a video stream, the video signal and the audio
 one are always into "containers" formats. Demuxers extract the streams
-from it and pass it to the decoders</span>
+from it and pass it to the decoders.</span>
 <span xml:lang="fr">Dans un flux, les signaux vidéo et audio sont
 toujours inclus dans un format "conteneur". Les démultiplexeurs
 extraient les flux de ce conteneur et les envoient aux décodeurs</span>
@@ -638,10 +721,7 @@ format de stockage, pas un format de compression</span>
 <filename>.avi</filename> files</span>
 <span xml:lang="fr">Ce module vous permet de lire les fichiers
 <filename>.avi</filename></span>.</para>
-<para>
-<span xml:lang="en">Options:</span>
-<span xml:lang="fr">Options:</span>
-</para>
+&options-st;
 <itemizedlist>
  <listitem>
   <para> --avi-interleaved, --no-avi-interleaved:
@@ -718,9 +798,9 @@ satellite.</span>
 &enabled;
 <para>
 <span xml:lang="en">This module allows you to read files that use the
-Matroska free format</span>
+Matroska format</span>
 <span xml:lang="fr">Ce module permet de lire les fichiers utilisant le
-format libre Matroska</span>
+format Matroska</span>
 .</para>
 &options-st;  
 <itemizedlist>
@@ -729,7 +809,7 @@ format libre Matroska</span>
    <span xml:lang="en"> When this option is enabled (this is the default 
 	behaviour), seek is based on percentage and not on time</span>
    <span xml:lang="fr">Avec cette option (activée par défaut), le 
-        déplacement se fait selon le pourcentage et non suivant le temps
+        déplacement dans le fichier se fait selon le pourcentage et non suivant le temps
    </span></para>
  </listitem>
 </itemizedlist>
@@ -747,10 +827,8 @@ encapsulés en MPEG2-Program Stream ou Transport Stream</span>
 <itemizedlist>
 <listitem>
 <para><emphasis>--vls-backward-compat, --no-vls-backward-compat (ts module)</emphasis>:
-   <span xml:lang="en"> Enable this option if you want to use VLS, 
-     with versions lower than 0.4</span>
-   <span xml:lang="fr"> Activez cette option pour garder la 
-     compatibilité avec des versions inférieures à 0.4 de VLS</span>
+   <span xml:lang="en"> Enable this option if you want to read VLS &lt; 0.4 MPEG 2 streams.</span>
+   <span xml:lang="fr"> Activez cette option pour pouvoir lire des flux diffusés par des VLS antérieurs 0.4</span>
   </para></listitem>
   <listitem><para>--buggy-psi, --no-buggy-psi (ts module)
    <span xml:lang="en"> Enable this option to help handling of files
@@ -782,7 +860,7 @@ M3U, B4S, PLS, et ASX, ainsi que les tags ID3</span>
 
 <para>
 <span xml:lang="en">These modules allow you to choose the interface
-or interfaces you want to use (whether graphical or control
+or interfaces you want to use (either graphical or control
 interfaces).</span>
 <span xml:lang="fr">Ces modules vous permettent de choisir une ou des
 interfaces (interface graphique ou interface de controle)</span>
@@ -792,11 +870,10 @@ interfaces (interface graphique ou interface de controle)</span>
 &enabled;
 <para>
 <span xml:lang="en">The wxWindows interface is a portable interface that
-is currently working under GNU/Linux and Windows. It is now the best
+is currently working under GNU/Linux and Windows. It is now the most up-to-date
 graphical interface available under both Windows and GNU/Linux</span>
 <span xml:lang="fr">L'interface wxWindows est une interface graphique
-portable qui fonctionne sous GNU/Linux et Windows. C'est maintenant la
-meilleur interface graphique pour ces deux systèmes</span>
+portable qui fonctionne sous GNU/Linux et Windows. C'est maintenant l'interface graphique la plus à jour pour ces deux systèmes</span>
 .</para></sect2>
 
 
@@ -845,10 +922,10 @@ de fichiers XML</span>
 <para>
 <span xml:lang="en">This is the GTK+ interface. It needs gtk libraries
 and headers files if you are compiling it. Note that it can also be used
-under Windows</span>
+under Windows. Warning: this interface is no longer maintained, and outdated</span>
 <span xml:lang="fr">Ceci est l'interface GTK+, qui peut également être
 utilisée sous Windows. Vous devez disposer des librairies GTK et de
-en-têtes pour la compilation</span>
+en-têtes pour la compilation. Attention, cette interface n'est plus maintenue, et ne présente pas toutes les possibilités actuelles de VLC.</span>
 .</para>
 </sect2>
 
@@ -859,11 +936,11 @@ en-têtes pour la compilation</span>
 <span xml:lang="en">This is the Gnome interface. It needs gnome libraries
 (<emphasis>libgnome32</emphasis> package under Debian) and headers
 (<emphasis>libgnome-dev</emphasis> package under Debian) if you wish to
-compile it</span>
+compile it. Warning: this interface is no longer maintained, and outdated</span>
 <span xml:lang="fr">Ceci est l'interface Gnome. Vous aurez besoin des
 librairies Gnome (<emphasis>libgnome32</emphasis> sous Debian GNU/Linux)
 et des en-têtes pour la compilation (<emphasis>libgnome-dev</emphasis>
-sous Debian GNU/Linux)</span>
+sous Debian GNU/Linux). Attention, cette interface n'est plus maintenue, et ne présente pas toutes les possibilités actuelles de VLC.</span>
 .</para>
 &options-st;
 <itemizedlist>
@@ -893,11 +970,11 @@ sous Debian GNU/Linux)</span>
 <span xml:lang="en">This is the QT interface module. You will need the libraries
 (<emphasis>libqt2</emphasis> package on Debian) and headers
 (<emphasis>libqt-dev</emphasis> package under Debian) if you wish to
-compile it</span>
+compile it. Warning: this interface is no longer maintained, and outdated</span>
 <span xml:lang="fr">Ceci est le module d'interface QT. Vous aurez besoin
 des librairies QT (<emphasis>libqt2</emphasis> sous Debian GNU/Linux) et
 des en-têtes pour la compilation (<emphasis>libqt-dev</emphasis> sous
-Debian GNU/Linux)</span>
+Debian GNU/Linux). Attention, cette interface n'est plus maintenue, et ne présente pas toutes les possibilités actuelles de VLC.</span>
 .</para></sect2>
 
 <sect2><title>kde</title>
@@ -910,11 +987,11 @@ Debian GNU/Linux)</span>
 <span xml:lang="en">This is the KDE interface module. You will need the libraries
 (<emphasis>kdelibs3</emphasis> package on Debian) and headers
 (<emphasis>kde-devel</emphasis> package under Debian) if you wish to
-compile it</span>
+compile it. Warning: this interface is no longer maintained, and outdated</span>
 <span xml:lang="fr">Ceci est le module d'interface KDE. Vous
 aurez besoin des librairies Kde (<emphasis>kdelibs3</emphasis>
 sous Debian GNU/Linux) et des en-têtes pour la compilation
-((<emphasis>kde-devel</emphasis> sous Debian GNU/Linux)</span>
+((<emphasis>kde-devel</emphasis> sous Debian GNU/Linux). Attention, cette interface n'est plus maintenue, et ne présente pas toutes les possibilités actuelles de VLC.</span>
 .</para>
 &options-st;
 <itemizedlist>
@@ -1100,10 +1177,10 @@ url="http://liba52.sourceforge.net/">site liba52</ulink></span>
 <sect2><title>ffmpeg</title>
 &enabled;
 <para>
-<span xml:lang="en">This is a free MPEG-4/DivX/OpenDivX codec : ffmpeg
+<span xml:lang="en">This is a free MPEG-4/DivX/OpenDivX/Xvid codec : ffmpeg
 (see the <ulink url="http://ffmpeg.sourceforge.net/">ffmpeg web
 site</ulink>)</span>
-<span xml:lang="fr">Ceci est un décodeur MPEG-4/DivX/OpenDivX (voir le
+<span xml:lang="fr">Ceci est un décodeur MPEG-4/DivX/OpenDivX/Xvid (voir le
 <ulink url="http://ffmpeg.sourceforge.net/"> site ffmpeg</ulink>)</span>
 .</para>
 &options-st;
@@ -1156,9 +1233,8 @@ encodés en Vorbis</span>
 &disabled;
 <para>
 <span xml:lang="en">This codec allows you to read files encoded
-with Xvid (see <ulink url="http://www.xvid.org/">Xvid web
-site</ulink>)</span>
-<span xml:lang="fr">Ce décodeur vous permet de décoder les fichiers Xvid
+with Xvid via the xvidcore library (see <ulink url="http://www.xvid.org/">Xvid web site</ulink>)</span>
+<span xml:lang="fr">Ce décodeur vous permet de décoder les fichiers Xvid grâce à la librairie xvidcore.
 (voir le <ulink url="http://www.xvid.org/">site Xvid</ulink>)</span>
 .</para></sect2> 
 

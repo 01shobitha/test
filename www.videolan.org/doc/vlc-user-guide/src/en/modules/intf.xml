@@ -179,7 +179,7 @@ Indicates whether the position in the stream
 must be shown (outputs one timer line every seconds) (default
 disabled)
 </para></listitem>
-<listitem><para><emphasis>--fake--tty, --no-fake-tty </emphasis>:
+<listitem><para><emphasis>--fake-tty, --no-fake-tty </emphasis>:
 Enables or disables TTY virtual terminal
 emulation (default disabled)
 </para>

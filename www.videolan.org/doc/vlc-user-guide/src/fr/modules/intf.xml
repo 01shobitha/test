@@ -131,7 +131,7 @@ ainsi contrôler le VLC par des scripts ou des commandes, comme
 Active ou désactive un compteur qui indique
 chaque seconde la position dans le flux (désactivé par défaut)
 </para></listitem>
-<listitem><para><emphasis>--fake--tty, --no-fake-tty </emphasis>:
+<listitem><para><emphasis>--fake-tty, --no-fake-tty </emphasis>:
 Active ou désactive l'émulation d'un terminal virtuel
 TTY (désactivé par défaut)
 </para>

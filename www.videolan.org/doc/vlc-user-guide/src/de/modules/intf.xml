@@ -182,7 +182,7 @@ befinden.
 Legt fest, ob die Position im Stream angezeigt werden soll
 (standardm‰ﬂig deaktiviert)
 </para></listitem>
-<listitem><para><emphasis>--fake--tty, --no-fake-tty </emphasis>:
+<listitem><para><emphasis>--fake-tty, --no-fake-tty </emphasis>:
 Aktiviert oder deaktiviert die Emulation eines virtuellen
 TTY-Terminals (standardm‰ﬂig deaktiviert)
 </para>

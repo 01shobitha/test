@@ -1,76 +1,44 @@
 <?xml version="1.0" encoding="iso8859-1"?>
 <chapter id="softencoding"><title id="tsoftencoding">
 Stream from an acquisition card or a webcam
-
-
-
 </title>
 
 <note><para>
-This is possible under GNU/Linux only
+This is possible under GNU/Linux only.</para></note><sect1>
 
-
-
-.</para></note>
-
-
-<sect1><title>
-
+<title>
 Install the Video for Linux drivers
-
-
-
-
 </title>
 
 <para>
 If you want to stream from an acquisition card
 or a webcam, a video4linux driver must be available for it. You can
-find more information about video4linux and supported devices <ulink url="http://www.exploits.org/v4l">here</ulink>
-
-
-
-
-.</para>
+find more information about video4linux and supported devices <ulink url="http://www.exploits.org/v4l">here</ulink>.
+</para>
 
 <para>
 Compile the right module for your device, and insert
 it into your kernel (Some video4linux modules are shipped with the 2.4.x
 Linux kernels). You can test your device by using any of the listed
 programs in the <emphasis>Video: TV and PVR/DVR</emphasis> section of
-<ulink url="http://www.exploits.org/v4l/">this page</ulink>
-
-
-
-
-.</para>
+<ulink url="http://www.exploits.org/v4l/">this page</ulink>.
+</para>
 
 <para>
-Note that v4l2 modules will also work with VLC
-
-
-
-
-.</para>
+Note that v4l2 modules will also work with VLC.
+</para>
 
 </sect1>
 
 <sect1><title>
 Stream with VLC
 
-
-
-
 </title>
 
 <note><para>
 You must add <command>--enable-v4l</command> to
-<command>./configure</command> to use this feature
-
-
-
-
-.</para></note>
+<command>./configure</command> to use this feature.
+</para></note>
 
 <screen>
 <!-- We cut the lines when they are too long, so that it looks OK in PDF format ! -->
@@ -78,40 +46,25 @@ You must add <command>--enable-v4l</command> to
 --sout '#transcode{vcodec=mp4v,acodec=mpga,vb=3000,ab=256,vt=800000,keyint=80,deinterlace}:std{access=udp,mux=ts,url=239.255.12.13}' --ttl 12</userinput>
 </screen>
 
-<para>where
- 
-
-
-:</para>
-
-
-<itemizedlist>
+<para>where:
+</para><itemizedlist>
 
 <listitem><para><filename>/dev/video</filename>
  is the device corresponding to your acquisition
-card or your webcam
-
-
-
-,</para></listitem>
+card or your webcam,
+</para></listitem>
 
 <listitem><para><emphasis>norm=secam</emphasis>
  is name of the standard of the analogic signal
-(possible values are pal, secam, and ntsc)
+(possible values are pal, secam, and ntsc),
 
-
-
-
-,</para></listitem>
+</para></listitem>
 
 <listitem><para><emphasis>frequency=543250</emphasis>
  is the frequency of the channel in kHz
 (<emphasis>Warning :</emphasis> for VLC &lt; 0.6.1, Frequency is channel
-frequency in MHz multiplied by 16)
-
-
-
-,</para></listitem>
+frequency in MHz multiplied by 16),
+</para></listitem>
 
 <listitem><para>
 <emphasis>size=640x480</emphasis>
@@ -119,43 +72,28 @@ is the size of the video you want (you can also put the
 standard size like <emphasis>subqcif</emphasis> (128x96),
 <emphasis>qsif</emphasis> (160x120), <emphasis>qcif</emphasis>
 (176x144), <emphasis>sif</emphasis> (320x240), <emphasis>cif</emphasis>
-(352x288) or <emphasis>vga</emphasis> (640x480))
-
-
-
-,</para></listitem>
+(352x288) or <emphasis>vga</emphasis> (640x480)),
+</para></listitem>
 
 <listitem><para><emphasis>channel=0</emphasis> 
 is the number of the channel (usually 0 is for
-tuner, 1 for composite and 2 for svideo)
+tuner, 1 for composite and 2 for svideo),
 
-
-
-
-,</para></listitem>
+</para></listitem>
 
 <listitem><para><emphasis>adev=/dev/dsp</emphasis>
-is the audio device
-
-
-
-,</para></listitem>
+is the audio device,
+</para></listitem>
 
 <listitem><para><emphasis>audio=1</emphasis> 
 is the number of the audio
-channel (usually 0 is for mono and 1 for stereo)
-
-
-
-,</para></listitem>
+channel (usually 0 is for mono and 1 for stereo),
+</para></listitem>
 
 <listitem><para><emphasis>vcodec=mp4v</emphasis> 
 is the video format you want to encode in
 (<emphasis>mp4v</emphasis> is MPEG-4, <emphasis>mpgv</emphasis> is
 MPEG-1, and there is also
-
-
-
 <emphasis>h263</emphasis>, <emphasis>DIV1</emphasis>,
 <emphasis>DIV2</emphasis>, <emphasis>DIV3</emphasis>,
 <emphasis>I420</emphasis>, <emphasis>I422</emphasis>,
@@ -165,81 +103,53 @@ MPEG-1, and there is also
 <listitem><para><emphasis>acodec=mpga</emphasis> 
 is the audio format you want to encode
 in (<emphasis>mpga</emphasis> is MPEG audio layer 2,
-<emphasis>a52</emphasis> is A52 i.e. AC3 sound)
-
-
-
-,</para></listitem>
+<emphasis>a52</emphasis> is A52 i.e. AC3 sound),
+</para></listitem>
 
 <listitem><para><emphasis>vb=3000</emphasis>
  is the video bitrate in Kbit/s
 
  es el bitrate de vídeo en Kbit/s
-
-,</para></listitem>
+,
+</para></listitem>
 
 <listitem><para><emphasis>ab=256</emphasis>
  is the audio bitrate in Kbit/s
-
-
-
 </para></listitem>
 
 <listitem><para><emphasis>vt=800000</emphasis>
- is the video bitrate tolerance in bit/s
-
-
-
-,</para></listitem>
+ is the video bitrate tolerance in bit/s,
+</para></listitem>
 
 <listitem><para><emphasis>keyint=80</emphasis>
  is the maximum interval between two "I" images in
-number of images
+number of images,
 
-
-
-
-,</para></listitem>
+</para></listitem>
 
 <listitem><para><emphasis>deinterlace</emphasis>
-tells VLC to deinterlace the video on the fly
-
-
-
-,</para></listitem>
+tells VLC to deinterlace the video on the fly,
+</para></listitem>
 
 <listitem><para><emphasis>192.168.0.42</emphasis>
- is either 
+ is either:
 
-
-
-
-:</para>
+</para>
 
 <itemizedlist>
 <listitem><para>
 the IP address of the machine you want to unicast
-to
-
-
-
-;</para></listitem>
+to;
+</para></listitem>
 
 <listitem><para>
 or the DNS name the machine you want to unicast
-to
+to;
 
-
-
-
-;</para></listitem>
+</para></listitem>
 
 <listitem><para>
-or a multicast IP address
-
-
-
-.</para></listitem>
+or a multicast IP address.</para></listitem>
 
 </itemizedlist>
 
@@ -248,11 +158,7 @@ or a multicast IP address
 <listitem><para><emphasis>12</emphasis>
  is the value of the TTL (Time To
 Live) of your IP packets (which means that the stream will be
-able to cross 11 routers)
-
-
-
-.</para></listitem>
+able to cross 11 routers).</para></listitem>
 
 </itemizedlist>
 
@@ -260,9 +166,6 @@ able to cross 11 routers)
 
 <sect1><title>
 Stream with VLS
-
-
-
 </title>
 
 <note><para>
@@ -271,28 +174,17 @@ compile it, you must do a <command>./bootstrap</command> and
  <command>./configure --enable-v4l
 --with-ffmpeg=PATH</command> (where <emphasis>PATH</emphasis> is the
 absolute path to the directory where you compiled ffmpeg, and not the
-relative path !)
-
-
-
-
-.</para></note>
+relative path !).
+</para></note>
 
 <para>
 There is no command line interface for this input
-for the moment, so you will have to use the configuration file
-
-
-
-.</para>
+for the moment, so you will have to use the configuration file.</para>
 
 <para>
 Here is a typical configuration file
-<filename>vls.cfg</filename>to run VLS with a v4l device
-
-
-
-:</para>
+<filename>vls.cfg</filename>to run VLS with a v4l device:
+</para>
 
 <programlisting>
 # vls.cfg (VLS configuration file)
@@ -386,14 +278,8 @@ END
 
 <para>
 Once you have adapted the configuration file above,
-run VLS
-
-
-
-:</para>
-
-
-<screen>
+run VLS:
+</para><screen>
 <prompt>% </prompt><userinput>vls -vv -f vls.cfg</userinput>
 </screen>
 

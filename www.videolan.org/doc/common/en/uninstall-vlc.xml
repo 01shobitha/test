@@ -12,24 +12,24 @@ icon that was created during installation</para>
 <para>
 Delete the <filename>vlc-version</filename>
 directory. You can also remove the configuration file
-<filename>/boot/home/config/settings/vlcrc</filename>
-.</para>
+<filename>/boot/home/config/settings/vlcrc</filename>.
+</para>
 
 </sect2>
 
 <sect2><title>Mac OS X</title>
 
 <para>
-Drag the VLC application to your trash can
-.</para>
+Drag the VLC application to your trash can.
+</para>
 
 </sect2>
 
 <sect2><title>Debian GNU/Linux</title>
 
 <para>
-Remove the packages that you installed
- :</para>
+Remove the packages that you installed:
+</para>
 
 <screen>
 <prompt># </prompt><userinput>apt-get remove --purge vlc-gnome vlc-mad libdvdcss2 libdvbpsi1</userinput>
@@ -40,8 +40,8 @@ Remove the packages that you installed
 <sect2><title>GNU/Linux Redhat, Mandrake and SuSE</title>
 
 <para>
-Uninstall the RPM packages that you installed
- :</para>
+Uninstall the RPM packages that you installed:
+</para>
 
 <screen>
 <prompt># </prompt><userinput>rpm -e vlc-version vlc-mad-version vlc-gnome-version

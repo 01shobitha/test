@@ -109,8 +109,8 @@ For GNU/Linux &amp; Unix only
 </emphasis></para>
 <para>
 This sound output has aRts (KDE's sound server)
-support. You must have the daemon and its libraries installed
-.</para></sect2>
+support. You must have the daemon and its libraries installed.
+</para></sect2>
 
 <sect2><title>waveout</title>
 <para><emphasis>

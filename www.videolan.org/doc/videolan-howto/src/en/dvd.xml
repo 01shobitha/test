@@ -2,38 +2,28 @@
 <chapter id="dvd"><title id="tdvd">
 Stream a DVD
 
-
-
 </title>
 
 <note><para>
-
-
 Under Unix/Linux, you must have write access to the device
 corresponding to your DVD drive. For that, you should be in the
 <emphasis>disk</emphasis> or <emphasis>cdrom</emphasis> group (look
 at the permissions in <filename>/dev</filename>). If you're not, add
-yourself to the group 
+yourself to the group:
 
-
-
-:</para>
+</para>
 
 <screen>
 <prompt># </prompt><userinput>adduser your_login disk_or_cdrom</userinput>
 </screen>
 
 <para>
-and then restart your session
+and then restart your session.
 
-
-
-.</para></note>
+</para></note>
 
 <sect1><title>
 Stream a DVD with VLC
-
-
 
 </title>
 
@@ -42,11 +32,9 @@ Stream a DVD with VLC
 </screen>
 
 <para>
-where 
+where:
 
-
-
-:</para>
+</para>
 
 <itemizedlist>
 
@@ -56,41 +44,31 @@ is the name of your DVD drive (put
 the letter of your DVD drive) or the directory where you copied your
 DVD
 
-
-
 ,</para></listitem>
 
 <listitem><para><emphasis>192.168.0.42</emphasis>
- is either 
+ is either:
 
-
-
-:</para>
+</para>
 
 <itemizedlist>
 
 <listitem><para>
 the IP address of the machine you want to unicast
-to
+to;
 
-
-
-;</para></listitem>
+</para></listitem>
 
 <listitem><para>
 or the DNS name the machine you want to unicast
-to
+to;
 
-
-
-;</para></listitem>
+</para></listitem>
 
 <listitem><para>
-or a multicast IP address
+or a multicast IP address.
 
-
-
-.</para></listitem>
+</para></listitem>
 
 </itemizedlist>
 
@@ -99,95 +77,62 @@ or a multicast IP address
 <listitem><para><emphasis>12</emphasis>
  is the value of the TTL (Time To
 Live) of your IP packets (which means that the stream will be
-able to cross 11 routers)
+able to cross 11 routers).
 
-
-
-.</para></listitem>
+</para></listitem>
 </itemizedlist>
-
-
 <para>
 If you want to stream the DVD continuously, add the
-<emphasis>--loop</emphasis> option
+<emphasis>--loop</emphasis> option.
 
-
-
-.</para>
-
-
+</para>
 </sect1>
 
 <sect1><title>
 Stream a DVD with VLS
 
-
-
 </title>
 
 <note><para>
-This is possible under GNU/Linux only
+This is possible under GNU/Linux only.
 
-
-
-.</para></note>
+</para></note>
 
 <screen>
 <prompt>% </prompt><userinput>vls -vv -d udp:192.168.0.42 dvd:/dev/dvd --ttl 12</userinput>
 </screen>
 
-<para>where
+<para>where:
 
-
-
-:</para>
-
-
+</para>
 <itemizedlist>
 
 <listitem><para><filename>/dev/dvd</filename>
 is the name of your DVD drive
- or the directory where you copied your DVD
-
-
-
-
- 
-
-,</para></listitem>
+ or the directory where you copied your DVD,</para></listitem>
 
 <listitem><para><emphasis>192.168.0.42</emphasis>
- is either 
+ is either:
 
-
-
-:</para>
+</para>
 
 <itemizedlist>
 <listitem><para>
 the IP address of the machine you want to unicast
-to
+to;
 
-
-
-;</para></listitem>
+</para></listitem>
 
 <listitem><para>
 or the DNS name the machine you want to unicast
-to
+to;
 
-
-
-;</para></listitem>
+</para></listitem>
 
 <listitem><para>
-or a multicast IP address
+or a multicast IP address.
 
-
-
-.</para></listitem>
-
-
+</para></listitem>
 </itemizedlist>
 
 </listitem>
@@ -195,21 +140,17 @@ or a multicast IP address
 <listitem><para><emphasis>12</emphasis>
  is the value of the TTL (Time To
 Live) of your IP packets (which means that the stream will be
-able to cross 11 routers)
+able to cross 11 routers).
 
-
-
-.</para></listitem>
+</para></listitem>
 
 </itemizedlist>
 
 <para>
 If you want to stream the DVD continuously, add the
-<emphasis>--loop</emphasis> option
+<emphasis>--loop</emphasis> option.
 
-
-
-.</para>
+</para>
 
 </sect1>
 

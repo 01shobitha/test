@@ -32,8 +32,8 @@ For GNU/Linux only
 This module allows to read from DVB-S, DVB-T,
 and DBC-C satellite, digital terrestrial, or cable cards. It uses
 the Video4Linux 2 API, that is only available in kernel 2.5.X and
-2.6.X
-.</para></sect2>
+2.6.X.
+</para></sect2>
 
 <sect2><title>dvd</title>
 &enabled;
@@ -41,8 +41,8 @@ the Video4Linux 2 API, that is only available in kernel 2.5.X and
 This is the old DVD input module. It uses
 <emphasis>libdvdcss</emphasis> for DVD decryption (see the
 <ulink url="http://developers.videolan.org/libdvdcss/">libdvdcss
-page</ulink>)
-.</para></sect2>
+page</ulink>).
+</para></sect2>
 
 <sect2><title>dvdplay</title>
 &enabled;
@@ -52,8 +52,8 @@ This is the regular DVD input module. It will need
 url="http://developers.videolan.org/libdvdcss/">libdvdcss page</ulink>)
 and <emphasis>libdvdplay</emphasis> for DVD navigation (see the <ulink
 url="http://developers.videolan.org/libdvdplay/">libdvdplay</ulink>
-page)
-.</para></sect2>
+page).
+</para></sect2>
 
 <sect2><title>dvdread</title>
 &disabled;
@@ -80,8 +80,8 @@ This module allows VLC to read from input cards that have a DirectShow driver. M
 &always;
 <para>
 These are standard input modules.
-The HTTP input can be used for Video On Demand
-.</para></sect2>
+The HTTP input can be used for Video On Demand.
+</para></sect2>
 
 <sect2><title>pvr</title>
 &disabled;

@@ -15,8 +15,6 @@ the install program. If you want the interface to be an additionnal
 one, use the preferences window of your GUI to set the <emphasis>extra
 interface modules</emphasis> option. Alternatively, you can use the
 <emphasis>--extraintf</emphasis> command line option.
-
-
 </para>
 
 
@@ -36,19 +34,15 @@ VLC includes several graphical user interfaces
 <para>
 There are two different graphical user interfaces
 for Windows. Shortcuts are created for both of them in the Start
-menu
-
-
-.</para>
+menu.
+</para>
 
 <para><emphasis>wxWindows</emphasis></para>
 
 <para>
 This interface works both for Linux and Windows. It
-is currently the most complete and fully-featured interface
-
-
-.</para>
+is currently the most complete and fully-featured interface.
+</para>
 
 <para><emphasis>Skins</emphasis></para>
 
@@ -56,8 +50,6 @@ is currently the most complete and fully-featured interface
  This interface also works both for Linux and
 Windows. It allows dramatic modifications of the look and feel of your
 VLC. This is still under development.
-
-
 </para>
 
 </listitem>
@@ -69,8 +61,6 @@ Many graphical user interfaces are available for
 GNU/Linux (GTK+, Gnome, QT, KDE), but only two of them are currently
 maintained: the wxWindows and the Skins interface. You should probably
 use one of these.
-
-
 </para>
 
 </listitem>
@@ -78,10 +68,8 @@ use one of these.
 <listitem><para><emphasis>Mac OS X</emphasis></para>
 
 <para>
-Only one native GUI exists for this OS
-
-
-.</para>
+Only one native GUI exists for this OS.
+</para>
 
 </listitem>
 </itemizedlist>
@@ -92,8 +80,6 @@ Only one native GUI exists for this OS
 <para>
 Control interfaces are here to provide alternative
 ways to control your VLC.
-
-
 </para>
 
 <sect2><title>http</title>
@@ -115,8 +101,6 @@ This allows you to control your VLC by doing
 mouse gestures in the video output window. By default, it is used by
 right-clicking and doing the gestures. Gestures are : left (previous),
 right (next), up-right (fullscreen), down-right (stop).
-
-
 </para>
 
 </sect2>
@@ -124,10 +108,8 @@ right (next), up-right (fullscreen), down-right (stop).
 <sect2><title>corba</title>
 
 <para>
-This allows you to control VLC using CORBA
-
-
-.</para>
+This allows you to control VLC using CORBA.
+</para>
 </sect2>
 <sect2><title>dummy</title>
  <para>
@@ -158,8 +140,6 @@ its terminal window.
 <para>
 Under GNU/Linux, this allows you to control VLC
 through an infrared remote control.
-
-
 </para>
 </sect2>
 
@@ -167,10 +147,8 @@ through an infrared remote control.
 
 <para>
 Under GNU/Linux, this allows you to control VLC
-using a joystick
-
-
-.</para>
+using a joystick.
+</para>
 
 </sect2>
 

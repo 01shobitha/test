@@ -5,16 +5,10 @@ Receive and save a stream
 
 <sect1><title>
 Receive a stream with VLC
-
-
-
 </title>
 
 <sect2><title>
 Receive an unicast stream
-
-
-
 </title>
 
 <screen>
@@ -26,8 +20,6 @@ Receive an unicast stream
 <sect2><title>
 Receive a multicast stream
 
-
-
 </title>
 
 <screen>
@@ -36,27 +28,19 @@ Receive a multicast stream
 
 <para>
  where <emphasis>239.255.12.42</emphasis> is the
-multicast IP address you want to join
+multicast IP address you want to join.
 
-
-
-.</para>
+</para>
 
 </sect2>
 
 <sect2><title>
 Receive an HTTP/FTP/MMS stream
 
-
-
 </title>
 
 <para>
-Use one of the following command lines
-
-
-
- :</para>
+Use one of the following command lines:</para>
 
 <itemizedlist>
 
@@ -68,11 +52,7 @@ Use one of the following command lines
 
 <para>
 where <emphasis>http://example/stream.xyz</emphasis>
-is the HTTP address of the stream
-
-
-
- ;</para>
+is the HTTP address of the stream;</para>
 
 </listitem>
 
@@ -84,13 +64,7 @@ is the HTTP address of the stream
 
 <para>
 where <emphasis>ftp://example/stream.xyz</emphasis>
-is the FTP address of the stream
-
-
-
- ;</para>
-
-
+is the FTP address of the stream;</para>
 </listitem>
 
 <listitem>
@@ -102,11 +76,9 @@ is the FTP address of the stream
 <para>
 where
 <emphasis>mms://viptvr.yacast.fr/encoderfranceinfo</emphasis> is the MMS
-address of the stream
+address of the stream.
 
-
-
-.</para>
+</para>
 
 </listitem>
 </itemizedlist>
@@ -116,8 +88,6 @@ address of the stream
 <sect2><title>
 Receive a RTP stream available through RTSP
 
-
-
 </title>
 
 <screen>
@@ -125,18 +95,14 @@ Receive a RTP stream available through RTSP
 </screen>
 
 <para>
- where <emphasis>rtsp://www.hardradio.com/tonbeme.mov</emphasis> is the address of the stream
+ where <emphasis>rtsp://www.hardradio.com/tonbeme.mov</emphasis> is the address of the stream.
 
-
-
-.</para>
+</para>
 
 </sect2>
 
 <sect2><title>
 Receive a stream described by an SDP file
-
-
 
 </title>
 
@@ -150,72 +116,46 @@ Receive a stream described by an SDP file
 <sect1><title>
 Save a stream with VLC
 
-
-
 </title>
 
 <para>
 VLC can save the stream to the disk. In order
 to do this, use the Stream Output of VLC : you can do it via the
 graphical interface, or you can add to the command line the following
-argument
-
-
-
- :</para>
+argument:</para>
 
 <screen>
 <userinput>--sout file/muxer:stream.xyz</userinput>
 </screen>
 
 <para>
-where 
+where:
 
-
-
-:</para>
+</para>
 
 <itemizedlist>
 
 <listitem><para><emphasis>muxer</emphasis> 
 is one of the formats supported by VLC's stream
-output, i.e. 
+output, i.e. :
 
-
-
-:</para>
+</para>
 
 <itemizedlist>
 
 <listitem><para><emphasis>avi</emphasis>
-  for AVI format
- 
- 
- 
-,</para></listitem>
+  for AVI format,</para></listitem>
 
 <listitem><para><emphasis>ogg</emphasis>
-  for OGG format
- 
- 
- 
-,</para></listitem>
+  for OGG format,</para></listitem>
 
 <listitem><para><emphasis>ps</emphasis> 
-  for MPEG2-PS format
- 
- 
- 
-,</para></listitem>
+  for MPEG2-PS format,</para></listitem>
 
 <listitem><para><emphasis>ts</emphasis> or
 <emphasis>ts_dvbpsi</emphasis> 
   for MPEG2-PS format (the latter uses
-<emphasis>libdvbpsi</emphasis> for the task)
-  
- 
-  
-.</para></listitem>
+<emphasis>libdvbpsi</emphasis> for the task).</para></listitem>
 
 </itemizedlist>
 
@@ -223,11 +163,9 @@ output, i.e.
 
 <listitem><para>
 and <filename>stream.xyz</filename> is the name of
-the file you want to save the stream to, with the right extension
+the file you want to save the stream to, with the right extension.
 
-
-
-.</para></listitem>
+</para></listitem>
 
 </itemizedlist>
 
@@ -236,8 +174,6 @@ the file you want to save the stream to, with the right extension
 <sect1><title>
 Receive a stream with a set-top-box
 
-
-
 </title>
 
 <para>
@@ -245,11 +181,9 @@ Some set-top-boxes with Ethernet cards can receive
 MPEG2-TS streams over UDP and support multicast. This is the case
 of the <ulink url="http://www.pace.co.uk">Pace</ulink> and <ulink url="http://www.aminocom.com">Aminocom</ulink> set top boxes. We have
 tested the <emphasis>AmiNET 100</emphasis> set-top-box from Aminocom: it
-is nice and small, and it works very well with VideoLAN
+is nice and small, and it works very well with VideoLAN.
 
-
-
-.</para>
+</para>
 
 </sect1>
 </chapter>

@@ -8,20 +8,20 @@ Demuxers
 In a video stream, the video signal and the audio
 one are always into "containers" formats. Demuxers extract the streams
 from it and pass it to the decoders.
-.</para>
+</para>
 
 <para>
 For example, an AVI file can contain a MPEG-4
 video, or an uncompressed video. AVI is only a storing format, not a
-compression format
-.</para>
+compression format.
+</para>
 
 <sect2><title>avi</title>
 &always;
 <para>
 This module allows you to read
-<filename>.avi</filename> files
-.</para>
+<filename>.avi</filename> files.
+</para>
 &options-st;
 <itemizedlist>
  <listitem>
@@ -49,8 +49,8 @@ This module allows you to read
 &enabled;
 <para>
 This module allows you to read files that use the
-Matroska format
-.</para>
+Matroska format.
+</para>
 &options-st;  
 <itemizedlist>
 <listitem>
@@ -116,8 +116,8 @@ Most NSV streams use the VP6 codec which is currently unsupported by VLC (VLC on
 &always;
 <para>
 These modules allow you to read MPEG-2 Program Stream
-or Transport Stream files
-.</para>
+or Transport Stream files.
+</para>
 &options-st;  
 <itemizedlist>
 <listitem>
@@ -165,7 +165,7 @@ card.
 &always;
 <para>
 These modules allow you to read M3U, B4S, PLS, and
-ASX playlists, and ID3 tags
-.</para></sect2>
+ASX playlists, and ID3 tags.
+</para></sect2>
 
 </sect1>

@@ -6,8 +6,8 @@ Codec modules
 
 <para>
 The following modules add codec (ie, compression
-formats) support
-.</para>
+formats) support.
+</para>
 
 <sect2><title>a52</title>
 &enabled;
@@ -19,21 +19,21 @@ url="http://liba52.sourceforge.net/">liba52 web site</ulink>
 <sect2><title>cinepak</title>
 &enabled;
 <para>
-This codec decodes the Cinepak format
-.</para></sect2>
+This codec decodes the Cinepak format.
+</para></sect2>
 
 <sect2><title>faad</title>
 &disabled;
 <para>
-Faad is an MPEG-4 audio decoder
-.</para></sect2>
+Faad is an MPEG-4 audio decoder.
+</para></sect2>
 
 <sect2><title>ffmpeg</title>
 &enabled;
 <para>
 This is a free MPEG-4/DivX/OpenDivX/Xvid codec (see the
-<ulink url="http://ffmpeg.sourceforge.net/">ffmpeg web site</ulink>)
-.</para>
+<ulink url="http://ffmpeg.sourceforge.net/">ffmpeg web site</ulink>).
+</para>
 &options-st;
 <itemizedlist>
 <listitem>
@@ -66,16 +66,16 @@ Series of postprocessing filters
 <sect2><title>libmpeg2</title>
 &enabled;
 <para>
-This codec allows to read MPEG2 files
-.</para></sect2>
+This codec allows to read MPEG2 files.
+</para></sect2>
 
 <sect2><title>mad</title>
 &enabled;
 <para>
 This codec is a very smart MP3 decoder, that only
 uses integers. This allows its use for CPU which don't handle floating
-point numbers (on PDA, for example)
-.</para>
+point numbers (on PDA, for example).
+</para>
 </sect2>
 
 <sect2><title>ogt</title>
@@ -83,8 +83,8 @@ point numbers (on PDA, for example)
 <para>
 OGT handles the SVCD subtitles (Philips Overlay
 Graphics Text or OGT) and subtitles used by Chaoji VCDs (also known as
-CVD)
-.</para>
+CVD).
+</para>
 
 <para>
 A description of the format for these kinds
@@ -105,14 +105,14 @@ werden</para>
 &enabled;
 <para>
 spudec handles the DVD subtitles. At present
-full color subtitles and transparency are not handled
-.</para>
+full color subtitles and transparency are not handled.
+</para>
 
 <para>
 For a description of the format for these kinds of
 subtitles see
-<ulink url="http://sam.zoy.org/writings/dvd/subtitles">http://sam.zoy.org/writings/dvd/subtitles</ulink>
-.</para>
+<ulink url="http://sam.zoy.org/writings/dvd/subtitles">http://sam.zoy.org/writings/dvd/subtitles</ulink>.
+</para>
 </sect2>
 
 <sect2><title>tarkin</title>
@@ -120,16 +120,16 @@ subtitles see
 <para>
 tarkin is a new codec (experimental) by the Ogg
 Project (see the <ulink url="http://www.vorbis.com">Ogg Vorbis web
-site</ulink>)
-.</para></sect2>
+site</ulink>).
+</para></sect2>
 
 <sect2><title>theora</title>
 &disabled;
 <para>
 theora is a new codec (experimental) by the Ogg
 Project (see the <ulink url="http://www.vorbis.com">Ogg Vorbis web
-site</ulink>)
-.</para></sect2>
+site</ulink>).
+</para></sect2>
 
 <sect2><title>tremor</title>
 &disabled;
@@ -137,20 +137,20 @@ site</ulink>)
 This is an Ogg/Vorbis codec that only makes
 integer calculus, which allow its use on CPU which don't have floating
 point support (see the <ulink url="http://www.vorbis.com">Ogg Vorbis
-web site</ulink>)
-.</para></sect2>
+web site</ulink>).
+</para></sect2>
 
 <sect2><title>vorbis</title>
 &enabled;
 <para>
 This codec allows you to read the Vorbis (audio)
-encoded files
-.</para></sect2>
+encoded files.
+</para></sect2>
 
 <sect2><title>xvid</title>
 &disabled;
 <para>
 This codec allows you to read files encoded
-with Xvid via the xvidcore library (see <ulink url="http://www.xvid.org/">Xvid web site</ulink>)
-.</para></sect2> 
+with Xvid via the xvidcore library (see <ulink url="http://www.xvid.org/">Xvid web site</ulink>).
+</para></sect2> 
 </sect1>

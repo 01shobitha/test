@@ -6,8 +6,8 @@
 Download the ZIP file from the <ulink
 url="http://www.videolan.org/streaming/download-vls-windows.html">VLS
 Windows download page</ulink>, unzip-it and run
-<filename>setup.exe</filename>
-.</para>
+<filename>setup.exe</filename>.
+</para>
 
 </sect2>
 
@@ -37,22 +37,22 @@ if you want to be able to stream DVDs
 
 <listitem><para><emphasis>libdvb</emphasis>
  if you want to be able to stream from a DVB card (a
-satellite card or a digital terrestial TV card)
-.</para></listitem>
+satellite card or a digital terrestial TV card).
+</para></listitem>
 
 </itemizedlist>
 
 <para>
 Download the libraries from the <ulink
 url="http://www.videolan.org/streaming/download-vls-sources.html">VLS
-sources download page</ulink>
-.</para>
+sources download page</ulink>.
+</para>
 
 <para>
 For each library, uncompress, configure
 (unless for <emphasis>libdvb</emphasis> which doesn't have a
-<emphasis>./configure</emphasis>), compile and install 
-:</para>
+<emphasis>./configure</emphasis>), compile and install:
+</para>
 
 <screen>
 <prompt>% </prompt><userinput>tar xvzf library.tar.gz</userinput>
@@ -64,15 +64,15 @@ For each library, uncompress, configure
 
 <para>
 On GNU/Linux, check that the configuration file
-<filename>/etc/ld.so.conf</filename> contains the following line
- :</para>
+<filename>/etc/ld.so.conf</filename> contains the following line:
+</para>
 <programlisting>
 /usr/local/lib
 </programlisting>
 
 <para>
-If the line is not present, add-it and then run
- :</para>
+If the line is not present, add-it and then run:
+</para>
 
 <screen>
 <prompt># </prompt><userinput>ldconfig</userinput>
@@ -97,8 +97,8 @@ Download the sources of the latest release : get
 the file <filename>vls-version.tar.gz</filename> from the <ulink
 url="http://www.videolan.org/streaming/download-vls-sources.html">VLS
 sources download page</ulink>. Uncompress-it and generate
-<emphasis>./configure</emphasis> 
-:</para>
+<emphasis>./configure</emphasis>:
+</para>
 
 <screen>
 <prompt>% </prompt><userinput>tar xvzf vls-version.tar.gz</userinput>
@@ -114,8 +114,8 @@ To get the list of configuration options, do
 </screen>
 
 <para>
-Then configure VLS 
-:</para>
+Then configure VLS:
+</para>
 
 <itemizedlist>
 
@@ -131,8 +131,8 @@ möchten, machen Sie
 </listitem>
 
 <listitem><para>
-if you want a VLS with DVD support, do
- :</para>
+if you want a VLS with DVD support, do:
+</para>
 
 <screen>
 <prompt>% </prompt><userinput>./configure</userinput>
@@ -141,8 +141,8 @@ if you want a VLS with DVD support, do
 </listitem>
 
 <listitem><para>
-if you want a VLS with DVB support, do 
-:</para>
+if you want a VLS with DVB support, do:
+</para>
 
 <screen>
 <prompt>% </prompt><userinput>./configure --enable-dvb --with-dvb=PATH_TO_DVB_DRIVERS --with-libdvb=PATH_TO_LIBDVB</userinput>
@@ -153,8 +153,8 @@ if you want a VLS with DVB support, do
 </itemizedlist>
 
 <para>
-Then, compile and install
- :</para>
+Then, compile and install:
+</para>
 
 <screen>
 <prompt>% </prompt><userinput>make</userinput>
@@ -163,8 +163,8 @@ Then, compile and install
 
 <para>
 You can also do a <command>make uninstall</command>,
-<command>make clean</command> or <command>make distclean</command> as needed
-.</para>
+<command>make clean</command> or <command>make distclean</command> as needed.
+</para>
 
 </simplesect>
 

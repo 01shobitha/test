@@ -3,8 +3,6 @@
 <chapter id="sap"><title id="tsap">
 Add a channel information service
 </title>
-
-
 <para>Typing multicast addresses is not very fun... that's why you need
 a channel information service ! VideoLAN has implemented a channel
 information service based on the SAP/SDP standard. The SAP announces
@@ -13,14 +11,10 @@ address <emphasis>224.2.127.254</emphasis> reserved for this purpose).
 On the client side, VLCs receive these annouces and automatically add
 the programs announced to their playlist.</para>
 
-
-
 <para>VLC can send the SAP announces associated with the programs
 it is streaming. VLS can't do that, but an independant program, the
 mini-SAP-server, can send the announces for the programs sent by
 VLS.</para>
-
-
 <sect1><title>
 Send announces when streaming with VLC
 </title>
@@ -33,16 +27,12 @@ VLC's stream output, like this:
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#standard{access=udp,url=239.255.12.42,sap="Test Stream"}' --ttl 12</userinput>
 </screen>
-
-
 <para>where <filename>video1.xyz</filename> is the file you want
 to stream, <emphasis>239.255.12.42</emphasis> is the multicast IP
 address you want to stream on, <emphasis>Test Stream</emphasis> is
 the name that will be used for this program in the SAP announces and
 <emphasis>12</emphasis> is the value of the TTL (Time To Live) of the
 stream and of the SAP announces.</para>
-
-
 
 <para>
 To do the SAP announces in IPv6, just add the
@@ -59,8 +49,6 @@ To do the SAP announces in IPv6, just add the
 Send announces for the programs streamed by VLS with the
 mini-SAP-server
 </title>
-
-
 <note><para>
 The mini-SAP-server is only available for Linux and Mac OSX.
 </para></note>
@@ -68,8 +56,6 @@ The mini-SAP-server is only available for Linux and Mac OSX.
 <simplesect><title>
 Install the mini-SAP-server
 </title>
-
-
 <para>
 Download the latest version of the mini-SAP-server from the <ulink
 url="http://www.videolan.org/streaming/">streaming download page</ulink>.
@@ -91,8 +77,6 @@ Install-it:
 <simplesect><title>
 Configure the mini-SAP-server
 </title>
-
-
 <para>Edit the configuration file <filename>sap.cfg</filename> shipped
 with the tarball. It should contain a global section with the Time To
 Live (TTL) and the IP version (IPv4 or IPv6) used for the SAP announces
@@ -101,8 +85,6 @@ parameter.</para>
 
 <para>The Time To Live option indicates the maximum number of routers
 that the SAP announce packets can cross before being dropped.</para>
-
-
 </simplesect>
 
 <simplesect><title>
@@ -163,8 +145,6 @@ If the announces are sent in IPv6 :
 </listitem>
 
 </itemizedlist>
-
-
 <para>Then open the playlist: you should see the names of the programs
 announced in SAP. When you double-click on the name of a program,
 VLC will subscribe to the multicast address and start to play the stream

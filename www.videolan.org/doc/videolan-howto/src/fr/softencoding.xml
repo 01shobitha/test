@@ -3,8 +3,6 @@
 
 Diffusez depuis une carte d'acquisition ou 
 une webcam
-
-
 </title>
 
 <note><para>
@@ -13,14 +11,10 @@ Ceci n'est possible que sous GNU/Linux
 
 
 .</para></note>
-
-
 <sect1><title>
 
 
 Installez les drivers Video for Linux
-
-
 
 </title>
 
@@ -63,8 +57,6 @@ Remarque: les modules v4l2 fonctionneront
 
 Diffusez avec VLC
 
-
-
 </title>
 
 <note><para>
@@ -87,8 +79,6 @@ où
 
 
 :</para>
-
-
 <itemizedlist>
 
 <listitem><para><filename>/dev/video</filename>
@@ -158,8 +148,6 @@ mono et 1 pour stéréo)
 est le format d'encodage vidéo
 (<emphasis>mp4v</emphasis> pour MPEG-4, <emphasis>mpgv</emphasis> pour
 MPEG-1, mais aussi
-
-
 <emphasis>h263</emphasis>, <emphasis>DIV1</emphasis>,
 <emphasis>DIV2</emphasis>, <emphasis>DIV3</emphasis>,
 <emphasis>I420</emphasis>, <emphasis>I422</emphasis>,
@@ -185,8 +173,6 @@ est le format audio d'encodage
 <listitem><para><emphasis>ab=256</emphasis>
 
  est le taux de compression audio en Kbps
-
-
 </para></listitem>
 
 <listitem><para><emphasis>vt=800000</emphasis>
@@ -264,8 +250,6 @@ IP (cela signifie qu'ils pourront traverser 11 routeurs)
 <sect1><title>
 
 Diffusez avec VLS
-
-
 </title>
 
 <note><para>
@@ -395,8 +379,6 @@ configuration, lancez VLS
 
 
 :</para>
-
-
 <screen>
 <prompt>% </prompt><userinput>vls -vv -f vls.cfg</userinput>
 </screen>

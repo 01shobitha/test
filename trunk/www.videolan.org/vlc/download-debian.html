@@ -15,15 +15,15 @@
 <p> Add the following lines to your <b>/etc/apt/sources.list</b>:</p>
 
 <pre>
-   deb     http://download.videolan.org/pub/videolan/debian $(ARCH)/
-   deb-src http://download.videolan.org/pub/videolan/debian sources/
+     deb http://download.videolan.org/pub/videolan/debian woody main
+     deb-src http://download.videolan.org/pub/videolan/debian woody main
 </pre>
 
 <p> For a normal install, do:</p>
 
 <pre>
    # apt-get update
-   # apt-get install gnome-vlc libdvdcss2
+   # apt-get install wxvlc libdvdcss2
 </pre>
 
 <h2> Debian unstable (sid) </h2>
@@ -33,8 +33,8 @@ branch. However you should still use our apt-get line if you need libdvdcss in
 its latest version: </p>
 
 <pre>
-   deb     http://download.videolan.org/pub/videolan/debian $(ARCH)/
-   deb-src http://download.videolan.org/pub/videolan/debian sources/
+     deb http://download.videolan.org/pub/videolan/debian sid main
+     deb-src http://download.videolan.org/pub/videolan/debian sid main
 </pre>
 
 <p> For a normal install, do:</p>
@@ -56,4 +56,4 @@ plans to do it. </p>
 <p> Older versions can be found by <a href="http://download.videolan.org/pub/vlc/">browsing</a> our
 FTP site. </p>
 
-<? footer('$Id: download-debian.html,v 1.23 2003/12/27 18:45:01 zorglub Exp $'); ?>
+<? footer('$Id: download-debian.html,v 1.24 2004/01/04 12:12:42 anil Exp $'); ?>

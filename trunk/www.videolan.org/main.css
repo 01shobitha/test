@@ -53,6 +53,14 @@ h1 {
   border-right-width: 0px;
 }
 
+table.h2 {
+  width: auto;
+}
+tr.h2 {
+}
+td.h2 {
+}
+
 h2 {
   font-size: 12pt;
   font-family: inherit;
@@ -60,7 +68,7 @@ h2 {
   background: inherit;
   color: #888;
   padding: 0;
-  text-decoration: underline;
+  text-decoration: none;
   border-bottom-style: solid;
   border-bottom-color: #a43;
   border-bottom-width: 2px;
@@ -76,11 +84,11 @@ a:link {
 a:visited {
   background: inherit;
   font-family: inherit;
-  color: #700;
+  color: #23b;
 }
 
 a:hover {
-  background: #9bf;
+  background: #888;
   font-family: inherit;
   color: #00a;
 }

@@ -30,8 +30,6 @@ function starthtml($title) { ?>
     * The cool navigation bar, including mirror drop-down menu
     */
 
-echo "host: &lt;".$GLOBALS['HTTP_HOST']."&gt;<br>";
-echo "self: &lt;".$GLOBALS['PHP_SELF'].">&gt;<br>";
 ?><form action="index.html" method="get">
   <table width="100%" cellspacing="3" cellpadding="0"><tr>
     <td style="background-color: inherit; width: 17%; vertical-align: middle;" align="center"><a href="/">Home</a></td>
@@ -41,11 +39,11 @@ echo "self: &lt;".$GLOBALS['PHP_SELF'].">&gt;<br>";
     <td style="background-color: #aaaaff; width: 16%; vertical-align: middle;" align="center"><a href="/support/">Support</a></td>
     <td style="background-color: #aaffaa; width: 17%; vertical-align: middle;" align="center"><a href="http://developers.videolan.org/">Developers</a></td>
     <td class="nowrap">
-      Mirror:
       <select name="mirror">
+        <!-- current: $GLOBALS['HTTP_HOST'] -->
         <option value="www.videolan.org">Châtenay, France (main)</option>
         <option value="www.fr.videolan.org">Paris, France</option>
-      </select><input type="submit" value="Go!" />
+      </select><input type="submit" value="Select Mirror" />
     </td>
 
   </tr></table>

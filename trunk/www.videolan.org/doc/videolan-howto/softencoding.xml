@@ -150,6 +150,9 @@ BEGIN "webcam"
   # Norm: PAL=0, NTSC=1, SECAM=2
   Norm          = "0"
 
+  # Frequency of the channel in Mhz, multiplied by 16 (tuner cards only)
+  Frequency     = "7668"
+
   # Size possibilities: can be either:
   # - empty string : default size
   # - width x height

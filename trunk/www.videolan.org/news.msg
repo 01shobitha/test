@@ -2,6 +2,13 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+|3-5 Feb 2004| VideoLAN at Solutions Linux Paris | VideoLAN will have
+a booth at <a href="http://www.solutionslinux.fr/en/">Solutions Linux
+Paris 2004</a>, which will take place at the CNIT, Paris La Defense. The
+VideoLAN team will welcome you at the booth and invites you to its
+conference about reverse engineering and interoperability
+(February 3th afternoon).
+
 |17 Jan 2004| OSI Merit Award| The VideoLAN project is very proud
 to announce that it has been awarded with an Open Source Merit Award
 by the <a href="http://www.opensource.org">Open Source

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>
 
-<chapter id="config"><title id="tconfig">Configuration</title>
+<chapter id="config"><title id="tconfig">
+<span xml:lang="en">Configuration</span>
+<span xml:lang="fr">Configuration</span>
+<span xml:lang="de">Konfiguration</span>
+</title>
 
 <para>
 <span xml:lang="en">VLS reads its configuration from the
@@ -81,14 +85,14 @@ END
 </span> 
 <span xml:lang="de">
 BEGIN "ErsteSektion"
-  Variable1 = "value1"
-  Variable2 = "value2"
+  Variable1 = "Wert1"
+  Variable2 = "Wert2"
   [...]
 END
 
 BEGIN "ZweiteSektion"
-  Variable1 = "value1"
-  Variable3 = "value3"
+  Variable1 = "Wert1"
+  Variable3 = "Wert3"
   [...]
 END
 </span>
@@ -132,7 +136,7 @@ du fichier <filename>vls.cfg</filename></span>
 <filename>vls.cfg</filename>-Datei gefunden werden können</span>
 :</para>
 
-<sect2><title>Section "Vls"</title>
+<sect2><title>Section "VLS"</title>
 
 <para>
 <span xml:lang="en">This section contains application wide settings</span>

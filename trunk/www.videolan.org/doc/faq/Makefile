@@ -20,8 +20,9 @@ ALL_LANG = en fr es de it
 all: $(LANG)/$(DOC)-$(LANG).html $(LANG)/$(DOC)-$(LANG).pdf $(LANG)/$(DOC)-$(LANG).rtf $(LANG)/$(DOC)-$(LANG).txt
 
 init-$(LANG):
-	#cp -R ../../images/documentation $(LANG)/images
+	cp -R ../../images/documentation $(LANG)/images
 	cp screen.css $(LANG)
+	cp ../common/htaccess $(LANG)/.htaccess
 
 # HTML output
 $(LANG)/$(DOC)-$(LANG).html: init-$(LANG)
@@ -40,7 +41,7 @@ $(LANG)/$(DOC)-$(LANG).pdf: init-$(LANG)
 
 # RTF output
 $(LANG)/$(DOC)-$(LANG).rtf:init-$(LANG)
-	cd $(LANG) && jade -t rtf -d ../../common/stylesheet-print-noicones.dsl -o $(DOC)-$(LANG).rtf $(XML_DECL) ../src/$(DOC).xml
+	cd $(LANG) && jade -t rtf -d ../../common/stylesheet-print-noicones.dsl -o $(DOC)-$(LANG).rtf $(XML_DECL) ../src/$(LANG)/$(DOC).xml
 	rm -f $(LANG)/$(DOC)-$(LANG)-rtf.zip
 	cd $(LANG) && zip $(DOC)-$(LANG)-rtf.zip $(DOC)-$(LANG).rtf
 

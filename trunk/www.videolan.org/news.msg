@@ -5,7 +5,7 @@
 |7-8 August 2003| Scheduled downtime| Due to scheduled power downtimes,
 the VideoLAN main site hosting Web, FTP, CVS and the mailing-lists
 will be down August 7th from 8:00 to 19:00 CEST and August 8th from
-13:00 CEST to 19:00 CEST. Please use the Web and FTP miroir site <a
+13:00 CEST to 19:00 CEST. Please use the Web and FTP mirroir site <a
 href="http://www.fr.videolan.org">www.fr.videolan.org</a>.
 
 |31 July 2003| Release: VLC 0.6.1| This new release of VLC media

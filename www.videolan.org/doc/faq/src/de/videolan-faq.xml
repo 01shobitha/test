@@ -48,6 +48,7 @@ gefunden werden.
 DVDs zu lesen, wobei die Zone ignoriert wird. Alle Regionen werden ohne
 Einschränkung unterstützt. Dies funktioniert nicht immer einhundertprozentig sicher und kann einige Zeit brauchen, bis die DVD startet.
 </para>
+<para><note><emphasis>libdvdcss</emphasis> ist derzeit nicht in der Lage die Regionalcode-Einstellung von DVD-Laufwerken zu umgehen, die in neueren Macintoshs verwendet werden. Sie können nur DVDs mit dem gleichen Regionalcode wiedergeben, auf den Ihr Laufwerk eingestellt ist. Dies ist ein bekanntes Problem, welches nicht in nächster Zeit behoben wird.</note></para>
 
 </answer></qandaentry><qandaentry><question><para>Wo speichert VLC seine Voreinstellungsdatei?</para></question>
 
@@ -193,8 +194,7 @@ xvideo PlugIn effektiv benutzt wird:
 
 <answer>
 
-<para>Versuchen Sie ein anderes Tonausgabe-Plugin oder
-beenden Sie unter Unix esd oder artsd, falls sie laufen.
+<para>Versuchen Sie ein anderes Tonausgabe-Plugin oder beenden Sie unter Unix esd oder artsd, falls sie laufen. Wenn das Problem auf Grund der Quelldatei besteht, probieren Sie die "Audiodesynchronisationsausgleich"-Option aus. 
 </para>
 
 </answer></qandaentry><qandaentry><question><para>VLC stürzt ab.</para></question>
@@ -330,14 +330,6 @@ Englisch verfügbar.)
 
 </itemizedlist>
 
-<para>Um ein "richtiges" Streaming-Programm zu sein,
-müsste VLC in der Lage sein, mehrere Quellen gleichzeitig lesen zu
-können. VLS kann dies schon immer, aber VLC kann dies im Moment nicht.
-Einige VLC Entwickler arbeiten an einer neuen Version des VLC-Input,
-bekannt unter dem Namen "Input 4", welche dieses Problem beheben
-wird.
-</para>
-
 </answer></qandaentry>
 <qandaentry><question><para>Ist es nicht Zeitverschwendung, beide zu entwickeln?</para></question>
 
@@ -350,9 +342,7 @@ unterstützte, hatten wir zwei sehr unterschiedliche Programme:
 
 <itemizedlist>
 
-<listitem><para>VLS, ein nur unter Linux und Windows laufendes Programm,
-geschrieben in C++, welches hauptsächlich eine MPEG-Streaming-Engine mit
-einem sehr einfachen Telnet-Interface ist, die als Server benutzt wird.
+<listitem><para>VLS, ein nur unter Linux, Mac OS X und Windows laufendes Programm, geschrieben in C++, welches hauptsächlich eine MPEG-Streaming-Engine mit einem sehr einfachen Telnet-Interface ist, die als Server benutzt wird.
 </para></listitem>
 
 <listitem><para>VLC, ein Programm, das auf vielen Plattformen läuft,
@@ -364,10 +354,9 @@ und ein graphische Interface hat, sowie nur als Client benutzt wird.
 
 <para>Im September 2002 hatten einige VLC Entwickler
 die Idee die vielen Demuxer und Codecs in VLC zu benutzen, um eine
-Stream-Ausgabe zu realisieren, die als finales Ziel auch Umkodierungen
+Stream-Ausgabe zu realisieren, die als finales Ziel auch Transkodierungen
 unterstützen soll. Sie schrieben eine Stream-Ausgabe für VLC, die Ende
-Januar 2003 mit VLC 0.5.0 veröffentlicht wurde. VLC's Stream-Ausgabe
-fängt jetzt an, auch Umkodierungen zu unterstützen.
+Januar 2003 mit VLC 0.5.0 veröffentlicht wurde. Beginnend mit Version 0.8.0 ist VLC in der Lage in jedes Format zu transkodieren, dass es lesen kann. Desweiteren ist VLC seit der 0.7.x-Serie in der Lage mehrere Quellen gleichzeitig mit einer Instanz zu streamen. Dies kann über den VideoLAN (Media) Manager (VLM) gesteuert werden, auf den derzeit nur über das Telnet-Interface zu gegriffen werden kann. Das http-Interface wird in zukünftigen Veröffentlichungen unterstützt werden.
 </para>
 
 <para>Aber es ist wichtiger, dass die VLS und VLC

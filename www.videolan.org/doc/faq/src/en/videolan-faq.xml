@@ -71,6 +71,7 @@ DVDs, disregarding their zone. All regions are supported without any
 constraint. It doesn't work 100% of the time and can take a long
 while before it starts the DVD.
 </para>
+<para><note><emphasis>libdvdcss</emphasis> is currently unable to work-around the regional codec setting on DVD drives used in newer Macintoshs. You are only able to play DVDs with the same region code as your drive is set to. That's a known issue and won't be fixed in the upcoming time.</note></para>
 
 </answer></qandaentry>
 
@@ -275,7 +276,7 @@ Audio and video are out of sync
 <para>
 Try using another audio output plugin and, under
 Unix, kill <emphasis>esd</emphasis> or <emphasis>artsd</emphasis> if
-they are running.
+they are running. If the problem is due to the input file, have a look at the "Audio desynchronisation compensation" option.
 </para>
 
 </answer></qandaentry>
@@ -455,14 +456,6 @@ have graphical interfaces.
 
 </itemizedlist>
 
-<para>
-To be a real streamer, VLC would need to be able
-to read multiple sources at the same time. VLS can do this since its
-origin, but VLC cannot do this for the moment. Some VLC developers are
-working on a new version of the VLC input, known as "Input 4", which
-should address this issue.
-</para>
-
 </answer></qandaentry>
 
 
@@ -482,7 +475,7 @@ different programs:
 <itemizedlist>
 
 <listitem><para>
-VLS, a program written in C++ running under Linux
+VLS, a program written in C++ running under Linux, Mac OS X
 and Windows only, that is basically a MPEG Transport Stream engine, with
 a very basic telnet interface, which was used as a server;
 </para></listitem>
@@ -498,10 +491,9 @@ interfaces, which was used as a client only.
 <para>
 In september 2002, some VLC developers had the idea
 of taking advantage of the multiple demuxers and codecs implemented in
-VLC to build a Stream Ouput whose ultimate goal was to be able to do
+VLC to build a Stream Output whose ultimate goal was to be able to do
 transcoding. They wrote a stream output for VLC, that was released with
-VLC 0.5.0 in late January 2003. VLC's stream output is now beginning to
-do some transcoding.
+VLC 0.5.0 in late January 2003. Introduced with the 0.8.0 release, VLC is able to transcode to any format it can read. Furthermore, starting with the 0.7.x series, VLC is able to stream multiple sources with one instance. This can be controlled with the VideoLAN (Media) Manager (VLM), which can be accessed through the telnet interface only. The http interface will be supported in future releases.
 </para>
 
 <para>

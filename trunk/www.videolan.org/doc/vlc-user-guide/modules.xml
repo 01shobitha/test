@@ -1067,7 +1067,8 @@ de fichiers XML</span>
    <span xml:lang="fr"> Indique si l'application doit être visible
      dans la barre système (désactivé par défaut).</span>
   </para></listitem>
-  <listitem><para><emphasis>--show_in_taskbar, --noshow_in_taskbar</emphasis>:
+  <listitem><para><emphasis>
+	--show_in_taskbar, --noshow_in_taskbar</emphasis>:
    <span xml:lang="en"> Indicates whether the application must  
      be shown in the taskbar (default enabled).</span>
    <span xml:lang="fr"> Indique si l'application doit être visible

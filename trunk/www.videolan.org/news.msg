@@ -4,6 +4,10 @@
 # Et pour les nouvelles importantes, c'est pas un | , c'est un §
 #
 
+|20 June 2003| Release: miniSAPserver 0.2.1| This new version of the
+miniSAPserver offers IPv6 support both for announces and announced
+streams, together with the CVS version of VLC.
+
 |16 June 2003| VideoLAN Wiki opened | We have set up a Wiki 
 (ie, a website that everyone can change) at 
 <a href="http://wiki.videolan.org">http://wiki.videolan.org</a>. Its 

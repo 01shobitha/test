@@ -365,6 +365,110 @@ to monitor a stream while it is being saved or streamed. </para>
 
 </sect2>
 
+<sect2><title>es</title>
+
+<para>The <emphasis>es</emphasis> module can be used to separate the
+different <emphasis>elementary streams</emphasis> from a stream,
+and save each of them in a different file or send it to a separate
+destination.</para>
+
+<para>The available parameters are:</para>
+
+<sect3><title>access-video=</title>
+
+<para>Use this option to set the medium used to save or send the video
+<emphasis>elementary streams</emphasis>. Possible values and item
+options are the same than for the <emphasis>access</emphasis> option of
+the <emphasis>standard</emphasis> module (see above).</para>
+
+</sect3>
+
+<sect3><title>access-audio=</title>
+
+<para>Use this option to set the medium used to save or send the audio
+<emphasis>elementary streams</emphasis>. Possible values and item
+options are the same than for the <emphasis>access</emphasis> option of
+the <emphasis>standard</emphasis> module (see above).</para>
+
+</sect3>
+
+<sect3><title>access=</title>
+
+<para>This option can be used instead of both
+<emphasis>access-video</emphasis> and <emphasis>access-audio</emphasis>
+options, when they share the same setting.</para>
+
+</sect3>
+
+<sect3><title>mux-video=</title>
+
+<para>Use this option to set the encapsulation method used for the
+video <emphasis>elementary streams</emphasis>. Possible values and item
+options are the same than for the <emphasis>mux</emphasis> option of
+the <emphasis>standard</emphasis> module (see above).</para>
+
+</sect3>
+
+<sect3><title>mux-audio=</title>
+
+<para>Use this option to set the encapsulation method used for the
+audio <emphasis>elementary streams</emphasis>. Possible values and item
+options are the same than for the <emphasis>mux</emphasis> option of the
+<emphasis>standard</emphasis> module (see above).</para>
+
+</sect3>
+
+<sect3><title>mux=</title>
+
+<para>This option can be used instead of both
+<emphasis>mux-video</emphasis> and <emphasis>mux-audio</emphasis>
+options, when they share the same setting.</para>
+
+</sect3>
+
+<sect3><title>dst-video=</title>
+
+<para>Use this option to set the location where the video
+<emphasis>elementary streams</emphasis> should be saved, sent, or made
+available. The exact meaning of this option depends on the value of the
+<emphasis>access-video</emphasis> option and is the same than for the
+<emphasis>url</emphasis> option of the <emphasis>standard</emphasis>
+module (see above).</para>
+
+<note><para>If you use the <emphasis>%d</emphasis> string in the url
+field, VLC will remplace it by the number of the audio or video track
+considered. The <emphasis>%c</emphasis> string will be remplaced by the
+name (FOURCC) of the codec of the track.</para></note>
+
+</sect3>
+
+<sect3><title>dst-audio=</title>
+
+<para>Use this option to set the location where the audio
+<emphasis>elementary streams</emphasis> should be saved, sent, or made
+available. The exact meaning of this option depends on the value of the
+<emphasis>access-audio</emphasis> option and is the same than for the
+<emphasis>url</emphasis> option of the <emphasis>standard</emphasis>
+module (see above).</para>
+
+<note><para>If you use the <emphasis>%d</emphasis> string in the url
+field, VLC will remplace it by the number of the audio or video track
+considered. The <emphasis>%c</emphasis> string will be remplaced by the
+name (FOURCC) of the codec of the track.</para></note>
+
+
+</sect3>
+
+<sect3><title>dst=</title>
+
+<para>This option can be used instead of both
+<emphasis>dst-video</emphasis> and <emphasis>dst-audio</emphasis>
+options, when they share the same setting.</para>
+
+</sect3>
+
+</sect2>
+
 <sect2><title>duplicate</title>
 
 <para>This module can be used to duplicate the stream, and so process it

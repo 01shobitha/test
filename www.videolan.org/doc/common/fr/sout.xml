@@ -95,7 +95,7 @@ utiliser
 :</para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc input_stream --sout '#module1{option1=...,option2=...}:#module2{option1=...,option2=...}:...'</userinput>
+<prompt>% </prompt><userinput>vlc input_stream --sout '#module1{option1=...,option2=...}:module2{option1=...,option2=...}:...'</userinput>
 </screen>
 
 <para>

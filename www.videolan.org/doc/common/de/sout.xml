@@ -97,7 +97,7 @@ Jedes dieser Modul kann Optionen verarbeiten. Hier ist
 die Syntax, die Sie benutzen müssen:</para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc input_stream --sout '#module1{option1=...,option2=...}:#module2{option1=...,option2=...}:...'</userinput>
+<prompt>% </prompt><userinput>vlc input_stream --sout '#module1{option1=...,option2=...}:module2{option1=...,option2=...}:...'</userinput>
 </screen>
 
 <para>

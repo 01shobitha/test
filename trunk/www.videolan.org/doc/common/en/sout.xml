@@ -415,6 +415,14 @@ Here are a few additional global options
 
 <itemizedlist>
 
+<listitem><para><emphasis>--sout-all,  --no-sout-all</emphasis>
+ Enable streaming of all ES (default disabled). By defaut VLC will only stream one audio ES and one video ES (the first ones). If you enable sout-all, all ES (audio, video and SPU) will be streamed.</para>
+</listitem>
+
+<listitem><para><emphasis> --sout-keep, --no-sout-keep</emphasis>
+Keep sout open (default disabled) : use the same sout instance accross the various playlist items, if possible.</para>
+</listitem>
+
 <listitem><para><emphasis>--no-sout-audio</emphasis>
 disables audio stream output
 .</para></listitem>

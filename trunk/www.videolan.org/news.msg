@@ -5,7 +5,7 @@
 #
 
 |25 June 2003| VLC runner up for Apple Design Award| VLC 0.5.3 is
-runner up at the Apple Design Award 2003. You can see the trophy on the
+runner up for Apple Design Award 2003. You can see the trophy on the
 <a href="/events/">events page</a>.
 
 |23 June 2003| Release: VLC 0.6.0| This major release of VLC

@@ -237,6 +237,9 @@ bedeutet, dass der Stream in der Lage sein wird, 11 Router zu
 <span xml:lang="en">For this, you must use the CVS version of VLC and compile
 it with <command>./configure --enable-dvb</command> This feature should
 still be considered as experimental.</span>
+<span xml:lang="es">Para esto, debería utilizar la versión CVS de VLC y compilarla
+con <command>./configure --enable-dvb</command> Esta característica debería
+ser considerada todavía como experimental.</span>
 <span xml:lang="de">Dazu benötigen Sie die CVS-Version von VLC und sie mit
 <command>./configure --enable-dvb</command> kompilieren. Dieses Feature
 sollte noch als experimentell angesehen werden.</span>
@@ -258,6 +261,8 @@ sollte noch als experimentell angesehen werden.</span>
 <listitem><para>
 <span xml:lang="en"><filename>8211</filename> is the PID of the DVB
 channel you would like to stream, expressed as a decimal number</span>
+<span xml:lang="es"><filename>8211</filename> es el PID del canal DVB
+que se quiere transmitir, expresado como un decimal</span>
 <span xml:lang="de"><filename>8211</filename> ist die PID des DVB-Kanals,
 den Sie streamen möchten, ausgedrückt als Dezimalzahl</span>
 
@@ -266,6 +271,8 @@ den Sie streamen möchten, ausgedrückt als Dezimalzahl</span>
 <listitem><para>
 <span xml:lang="en"><filename>12597000</filename> is the frequency of the
 transponder you want to stream from in Hz</span>
+<span xml:lang="es"><filename>12597000</filename> es la frecuencia del
+transpondedor que quieres transmitir, en Hz</span>
 <span xml:lang="de"><filename>12597000</filename> ist die Frequenz des
 Transponders, den Sie streamen möchten, in Hz</span>
 ;</para></listitem>
@@ -273,6 +280,8 @@ Transponders, den Sie streamen möchten, in Hz</span>
 <listitem><para>
 <span xml:lang="en"><filename>0</filename> is the polarization (0 for
 vertical, 1 for horizontal)</span>
+<span xml:lang="es"><filename>0</filename> es la polarización (0 para
+vertical, 1 para horizontal)</span>
 <span xml:lang="de"><filename>0</filename> ist die Polarisierung (0 für
 vertikal, 1 für horizontal)</span>
 ;</para></listitem>
@@ -280,6 +289,8 @@ vertikal, 1 für horizontal)</span>
 <listitem><para>
 <span xml:lang="en"><filename>3</filename> is the FEC (3 for 3/4, 9 for
 auto)</span>
+<span xml:lang="es"><filename>3</filename> es el FEC (3 para 3/4, 9 para
+automático)</span>
 <span xml:lang="de"><filename>3</filename> ist die FEC (3 für 3/4, 9 für
 automatisch)</span>
 ;</para></listitem>
@@ -287,12 +298,15 @@ automatisch)</span>
 <listitem><para>
 <span xml:lang="en"><filename>27500000</filename> is the transponder
 symbolrate in Hz</span>
+<span xml:lang="es"><filename>27500000</filename> es la tasa de
+símbolos (symbolrate) del transpondedor, en Hz</span>
 <span xml:lang="de"><filename>27500000</filename> ist die 
 Transpondersymbolrate in Hz</span>
 ;</para></listitem>
 
 <listitem><para><emphasis>192.168.0.12</emphasis>
 <span xml:lang="en"> is either </span>
+<span xml:lang="es"> puede ser </span>
 <span xml:lang="de"> ist entweder </span>
 :</para>
 
@@ -301,6 +315,8 @@ Transpondersymbolrate in Hz</span>
 <listitem><para>
 <span xml:lang="en">the IP address of the machine you want to unicast to
 </span>
+<span xml:lang="es">la dirección IP de la máquina a la que quieres transmitir en unicast
+</span>
 <span xml:lang="de">die IP-Adresse des Rechners, den Sie via Unicast erreichen
 möchten</span>
 ;</para></listitem>
@@ -308,12 +324,15 @@ möchten</span>
 <listitem><para>
 <span xml:lang="en">or the DNS name the machine you want to unicast to
 </span>
+<span xml:lang="es">o el nombre DNS de la máquina a la que quieres transmitir en unicast
+</span>
 <span xml:lang="de">oder der DNS-Name des Rechners, den Sie via Unicast
 erreichen möchten</span>
 ;</para></listitem>
 
 <listitem><para>
 <span xml:lang="en">or the multicast IP address.</span>
+<span xml:lang="es">o la dirección IP multicast.</span>
 <span xml:lang="de">oder die Multicast-IP-Adresse.</span>
 </para></listitem>
 
@@ -324,6 +343,9 @@ erreichen möchten</span>
 <listitem><para>
 <span xml:lang="en"><emphasis>12</emphasis> is the value of the TTL (Time
 To Live) of your IP packets (which means that the stream will be able to cross 11
+routers).</span>
+<span xml:lang="es"><emphasis>12</emphasis> es el valor del TTL (Time
+To Live) de los paquetes IP (lo que significa que el flujo es capaz de cruzar 11
 routers).</span>
 <span xml:lang="de"><emphasis>12</emphasis> ist der Wert der TTL (Time To
 Live) Ihrer IP-Pakete (was bedeutet, dass der Stream in der Lage sein wird, 11

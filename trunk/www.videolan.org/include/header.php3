@@ -32,19 +32,13 @@ function starthtml($title) { ?>
 
    $modules = split("/", $GLOBALS['PHP_SELF']);
 
-   $color_home = "#9bf";
-   $color_vlc = "#9bf";
-   $color_doc = "#9bf";
-   $color_streaming = "#9bf";
-   $color_support = "#9bf";
-
    switch($modules[1]) {
       case "404.html": case "403.html": break;
-      case "vlc": $module[1]="vlc"; $color_vlc = "#ffa"; break;
-      case "streaming": $color_streaming = "#ffa"; break;
-      case "doc": $color_doc = "#ffa"; break;
-      case "support": $color_support = "#ffa"; break;
-      default: $module[1]="home"; $color_home = "#ffa"; break;
+      case "vlc": break;
+      case "streaming": break;
+      case "doc": break;
+      case "support": break;
+      default: $modules[1]="home"; break;
    }
 
 ?>
@@ -62,12 +56,12 @@ function starthtml($title) { ?>
 
   <table style="width: 100%; text-align: center; vertical-align: middle;">
   <tr>
-     <? get_first_bar_item ( 6 , "home" , "Home" , "/" , $module[1] ) ?>
-     <? get_first_bar_item ( 6 , "vlc" , "VLC" , "/vlc/" , $module[1] ) ?>
-     <? get_first_bar_item ( 6 , "streaming" , "Streaming" , "/streaming/" , $module[1] ) ?>
-     <? get_first_bar_item ( 6 , "doc" , "Documentation" , "/doc/" , $module[1] ) ?>
-     <? get_first_bar_item ( 6 , "support" , "Support" , "/support/" , $module[1] ) ?>
-     <? get_first_bar_item ( 6 , "developers" , "Developers" , "http://developers.videolan.org" , $module[1] ) ?>
+     <? get_first_bar_item ( 6 , "home" , "Home" , "/" , $modules[1] ) ?>
+     <? get_first_bar_item ( 6 , "vlc" , "VLC" , "/vlc/" , $modules[1] ) ?>
+     <? get_first_bar_item ( 6 , "streaming" , "Streaming" , "/streaming/" , $modules[1] ) ?>
+     <? get_first_bar_item ( 6 , "doc" , "Documentation" , "/doc/" , $modules[1] ) ?>
+     <? get_first_bar_item ( 6 , "support" , "Support" , "/support/" , $modules[1] ) ?>
+     <? get_first_bar_item ( 6 , "developers" , "Developers" , "http://developers.videolan.org" , $modules[1] ) ?>
   </tr>
   </table>
   <table style="width: 100%">
@@ -104,11 +98,11 @@ function starthtml($title) { ?>
 function get_first_bar_item ( $number , $module , $text , $url , $current_module ) {
   if ( $current_module == $module )
   {
-     ?><td class="firstbarselected" style="width: <? echo 100/$number; ?>%"><? echo $text; ?></td><?
+     ?><td class="firstbarselected" style="width: <? trunc(echo 100/$number); ?>%"><? echo $text; ?></td><?
   }
   else
   {
-     ?><td class="firstbar"><a class="firstbar" href="<? echo $url; ?>"><? echo $text; ?></a></td><?
+     ?><td class="firstbar" style="width: <? echo int(100/$number); ?>"><a class="firstbar" href="<? echo $url; ?>"><? echo $text; ?></a></td><?
   }
 }
 

@@ -41,15 +41,15 @@ Install the drivers
 </title>
 
 <para>
-First, you will have to patch your kernel to support
+First, you will have to patch your kernel (version 2.4) to support
 the v4l2 API (Video 4 Linux version 2). The patch is available on the
 <ulink url="http://bytesex.org/v4l/">Video4Linux HQ</ulink>.
+If you use a 2.6 kernel, you only need to build I2C support and the BT848 Video For Linux module.
 </para>
 
 <para>
-Once your kernel is ready, install the CVS version
-of the Linux drivers for the Hauppauge WinTV-PVR-250/350. They are hosted on
-<ulink url="http://ivtv.sourceforge.net/">ivtv.sourceforge.net</ulink>.
+Once your kernel is ready, install the CK version (currently in development) of the Linux drivers for the Hauppauge WinTV-PVR-250/350. They are hosted on
+<ulink url="http://67.18.1.101/~ckennedy/ivtv">ivtv ck</ulink>. You will need to patch your kernel to use it with a 2.4. You can also use the CVS version available here : <ulink url="http://ivtv.sourceforge.net/">ivtv.sourceforge.net</ulink>(this version is not developped anymore).
 Then, you will have to create the device and load the modules; for this,
 please refer to the documentation shipped with the drivers.
 </para>
@@ -67,7 +67,7 @@ feature.
 </para></note>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv pvr:/dev/video0:norm=secam:size=720x576:frequency=576250:
+<prompt>% </prompt><userinput>vlc -vvv --color pvr:/dev/video0:norm=secam:size=720x576:frequency=576250:
 bitrate=3000000:maxbitrate=4000000 --sout udp:192.168.0.42 --ttl 12 --cr-average 1000</userinput>
 </screen>
 
@@ -176,7 +176,7 @@ Stream
 </title>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv kfir:/dev/video --sout udp:192.168.0.42 --ttl 12</userinput>
+<prompt>% </prompt><userinput>vlc -vvv --color kfir:/dev/video --sout udp:192.168.0.42 --ttl 12</userinput>
 </screen>
 
 <para>where
@@ -264,7 +264,7 @@ You must add <command>--enable-v4l</command> to
 
 <screen>
 <!-- We cut the lines when they are too long, so that it looks OK in PDF format ! -->
-<prompt>% </prompt><userinput>vlc -vvv v4l:/dev/video:norm=secam:frequency=543250:size=640x480:channel=0:adev=/dev/dsp:audio=0
+<prompt>% </prompt><userinput>vlc -vvv --color v4l:/dev/video:norm=secam:frequency=543250:size=640x480:channel=0:adev=/dev/dsp:audio=0
 --sout '#transcode{vcodec=mp4v,acodec=mpga,vb=3000,ab=256,vt=800000,keyint=80,deinterlace}:std{access=udp,mux=ts,url=239.255.12.13}' --ttl 12</userinput>
 </screen>
 
@@ -330,9 +330,6 @@ in (<emphasis>mpga</emphasis> is MPEG audio layer 2,
 
 <listitem><para><emphasis>vb=3000</emphasis>
  is the video bitrate in Kbit/s
-
- es el bitrate de vídeo en Kbit/s
-,
 </para></listitem>
 
 <listitem><para><emphasis>ab=256</emphasis>

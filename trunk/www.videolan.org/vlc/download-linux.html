@@ -40,33 +40,49 @@ add the following lines to your <b>/etc/apt/sources.list</b>:</p>
 <ul><?
      pkgitem("vlc/0.5.0/deb","vlc_0.5.0-0woody.1_i386.deb");
 ?></ul>
+<p> Mozilla plugin: </p>
+<ul><?
+     pkgitem("vlc/0.5.0/deb","mozilla-plugin-vlc_0.5.0-0woody.1_i386.deb");
+?></ul>
 <p> Codec plugins: </p>
 <ul><?
-     pkgitem("vlc/0.4.6/deb","vlc-mad_0.4.6-1_i386.deb");
+     pkgitem("vlc/0.5.0/deb","vlc-a52_0.5.0-0woody.1_i386.deb");
+     pkgitem("vlc/0.5.0/deb","vlc-dv_0.5.0-0woody.1_i386.deb");
+     pkgitem("vlc/0.5.0/deb","vlc-mad_0.5.0-0woody.1_i386.deb");
+     pkgitem("vlc/0.5.0/deb","vlc-ogg_0.5.0-0woody.1_i386.deb");
 ?></ul>
 <p> Interface plugins: </p>
 <ul><?
-     pkgitem("vlc/0.4.6/deb","vlc-gnome_0.4.6-1_i386.deb");
-     pkgitem("vlc/0.4.6/deb","vlc-gtk_0.4.6-1_i386.deb");
-     pkgitem("vlc/0.4.6/deb","vlc-lirc_0.4.6-1_i386.deb");
-     pkgitem("vlc/0.4.6/deb","vlc-qt_0.4.6-1_i386.deb");
+     pkgitem("vlc/0.5.0/deb","gnome-vlc_0.5.0-0woody.1_i386.deb");
+     pkgitem("vlc/0.5.0/deb","gvlc_0.5.0-0woody.1_i386.deb");
+     pkgitem("vlc/0.5.0/deb","kvlc_0.5.0-0woody.1_i386.deb");
+     pkgitem("vlc/0.5.0/deb","qvlc_0.5.0-0woody.1_i386.deb");
+     pkgitem("vlc/0.5.0/deb","wxvlc_0.5.0-0woody.1_i386.deb");
 ?></ul>
 <p> Video plugins: </p>
 <ul><?
-     pkgitem("vlc/0.4.6/deb","vlc-sdl_0.4.6-1_i386.deb");
-     pkgitem("vlc/0.4.6/deb","vlc-aa_0.4.6-1_i386.deb");
-     pkgitem("vlc/0.4.6/deb","vlc-ggi_0.4.6-1_i386.deb");
-     pkgitem("vlc/0.4.6/deb","vlc-glide_0.4.6-1_i386.deb");
+     pkgitem("vlc/0.5.0/deb","vlc-plugin-sdl_0.5.0-0woody.1_i386.deb");
+     pkgitem("vlc/0.5.0/deb","vlc-plugin-aa_0.5.0-0woody.1_i386.deb");
+     pkgitem("vlc/0.5.0/deb","vlc-plugin-ggi_0.5.0-0woody.1_i386.deb");
+     pkgitem("vlc/0.5.0/deb","vlc-plugin-glide_0.5.0-0woody.1_i386.deb");
+     pkgitem("vlc/0.5.0/deb","vlc-plugin-svgalib_0.5.0-0woody.1_i386.deb");
 ?></ul>
 <p> Audio plugins: </p>
 <ul><?
-     pkgitem("vlc/0.4.6/deb","vlc-alsa_0.4.6-1_i386.deb");
-     pkgitem("vlc/0.4.6/deb","vlc-arts_0.4.6-1_i386.deb");
-     pkgitem("vlc/0.4.6/deb","vlc-esd_0.4.6-1_i386.deb");
+     pkgitem("vlc/0.5.0/deb","vlc-plugin-alsa_0.5.0-0woody.1_i386.deb");
+     pkgitem("vlc/0.5.0/deb","vlc-plugin-arts_0.5.0-0woody.1_i386.deb");
+     pkgitem("vlc/0.5.0/deb","vlc-plugin-esd_0.5.0-0woody.1_i386.deb");
+?></ul>
+<p> Extra plugins:</p>
+<ul><?
+     pkgitem("vlc/0.5.0/deb","vlc-plugin-dvb_0.5.0-0woody.1_i386.deb");
+     pkgitem("vlc/0.5.0/deb","vlc-plugin-lirc_0.5.0-0woody.1_i386.deb");
+     pkgitem("vlc/0.5.0/deb","vlc-plugin-xosd_0.5.0-0woody.1_i386.deb");
 ?></ul>
 <p>Librairies:</p>
 <ul><?
-     pkgitem("libdvdcss/1.2.4/deb","libdvdcss2_1.2.4-1_i386.deb");
+     pkgitem("libdvdcss/1.2.5/deb","libdvdcss2_1.2.5-1_i386.deb");
+     pkgitem("libdvdplay/1.0.0/deb","libdvdplay_1.0.0-1_i386.deb");
      pkgitem("libdvbpsi/0.1.2/deb","libdvbpsi1_0.1.2-2_i386.deb");
 ?></ul>
 
@@ -115,48 +131,64 @@ add the following lines to your <b>/etc/apt/sources.list</b>:</p>
 
 <? h2("RPMs"); ?>
 
-<p> Latest RPM x86 packages for Mandrake and RedHat (0.4.6): </p>
+<p> Latest RPM x86 packages for Mandrake (0.5.0): </p>
 
 <ul><?
-    pkgitem("vlc/0.4.6/rpm","vlc-0.4.6-1.i586.rpm");
+    pkgitem("vlc/0.5.0/rpm","vlc-0.5.0-1mdk.i586.rpm");
+?></ul>
+<p> Mozilla plugin: </p>
+<ul><?
+    pkgitem("vlc/0.5.0/rpm","mozilla-plugin-vlc-0.5.0-1mdk.i586.rpm");
 ?></ul>
 <p> Codec plugins: </p>
 <ul><?
-    pkgitem("vlc/0.4.6/rpm","vlc-mad-0.4.6-1.i586.rpm");
+    pkgitem("vlc/0.5.0/rpm","vlc-plugin-mad-0.5.0-1mdk.i586.rpm");
+    pkgitem("vlc/0.5.0/rpm","vlc-plugin-a52-0.5.0-1mdk.i586.rpm");
+    pkgitem("vlc/0.5.0/rpm","vlc-plugin-ogg-0.5.0-1mdk.i586.rpm");
+    pkgitem("vlc/0.5.0/rpm","vlc-plugin-dv-0.5.0-1mdk.i586.rpm");
 ?></ul>
 <p> Interface plugins: </p>
 <ul><?
-    pkgitem("vlc/0.4.6/rpm","vlc-gnome-0.4.6-1.i586.rpm");
-    pkgitem("vlc/0.4.6/rpm","vlc-gtk-0.4.6-1.i586.rpm");
-    pkgitem("vlc/0.4.6/rpm","vlc-ncurses-0.4.6-1.i586.rpm");
+    pkgitem("vlc/0.5.0/rpm","gnome-vlc-0.5.0-1mdk.i586.rpm");
+    pkgitem("vlc/0.5.0/rpm","gvlc-0.5.0-1mdk.i586.rpm");
+    pkgitem("vlc/0.5.0/rpm","vlc-plugin-ncurses-0.5.0-1mdk.i586.rpm");
 ?></ul>
 <p> Video plugins: </p>
 <ul><?
-    pkgitem("vlc/0.4.6/rpm","vlc-aa-0.4.6-1.i586.rpm");
-    pkgitem("vlc/0.4.6/rpm","vlc-sdl-0.4.6-1.i586.rpm");
-    pkgitem("vlc/0.4.6/rpm","vlc-ggi-0.4.6-1.i586.rpm");
+    pkgitem("vlc/0.5.0/rpm","vlc-plugin-aa-0.5.0-1.i586.rpm");
+    pkgitem("vlc/0.5.0/rpm","vlc-plugin-sdl-0.5.0-1mdk.i586.rpm");
+    pkgitem("vlc/0.5.0/rpm","vlc-plugin-ggi-0.5.0-1mdk.i586.rpm");
 ?></ul>
 <p> Audio plugins: </p>
 <ul><?
-    pkgitem("vlc/0.4.6/rpm","vlc-alsa-0.4.6-1.i586.rpm");
-    pkgitem("vlc/0.4.6/rpm","vlc-arts-0.4.6-1.i586.rpm");
-    pkgitem("vlc/0.4.6/rpm","vlc-esd-0.4.6-1.i586.rpm");
+    pkgitem("vlc/0.5.0/rpm","vlc-plugin-alsa-0.5.0-1mdk.i586.rpm");
+    pkgitem("vlc/0.5.0/rpm","vlc-plugin-arts-0.5.0-1mdk.i586.rpm");
+    pkgitem("vlc/0.5.0/rpm","vlc-plugin-esd-0.5.0-1mdk.i586.rpm");
+?></ul>
+<p> Misc plugins: </p>
+<ul><?
+    pkgitem("vlc/0.5.0/rpm","vlc-plugin-dvb-0.5.0-1mdk.i586.rpm");
+    pkgitem("vlc/0.5.0/rpm","vlc-plugin-slp-0.5.0-1mdk.i586.rpm");
+    pkgitem("vlc/0.5.0/rpm","vlc-plugin-lirc-0.5.0-1mdk.i586.rpm");
+    pkgitem("vlc/0.5.0/rpm","vlc-plugin-xosd-0.5.0-1mdk.i586.rpm");
 ?></ul>
 <p>Librairies:</p>
 <ul><?
-     pkgitem("libdvdcss/1.2.4/rpm","libdvdcss2-1.2.4-1.i586.rpm");
-     pkgitem("libdvbpsi/0.1.2/rpm","libdvbpsi1-0.1.2-1.i586.rpm");
+     pkgitem("libdvdcss/1.2.5/rpm","libdvdcss2-1.2.5-1mdk.i586.rpm");
+     pkgitem("libdvdplay/1.0.0/rpm","libdvdplay0-1.0.0-1mdk.i586.rpm");
+     pkgitem("libdvbpsi/0.1.2/rpm","libdvbpsi1-0.1.2-1mdk.i586.rpm");
 ?></ul>
 <p> Source packages: </p>
 <ul><?
-    pkgitem("vlc/0.4.6/rpm","vlc-0.4.6-1.src.rpm");
-    pkgitem("libdvdcss/1.2.4/rpm","libdvdcss-1.2.4-1.src.rpm");
-    pkgitem("libdvbpsi/0.1.2/rpm","libdvbpsi-0.1.2-1.src.rpm");
+    pkgitem("vlc/0.5.0/rpm","vlc-0.5.0-1mdk.src.rpm");
+    pkgitem("libdvdcss/1.2.5/rpm","libdvdcss-1.2.5-1mdk.src.rpm");
+    pkgitem("libdvdplay/1.0.0/rpm","libdvdplay-1.0.0-1mdk.src.rpm");
+    pkgitem("libdvbpsi/0.1.2/rpm","libdvbpsi-0.1.2-1mdk.src.rpm");
 ?></ul>
 
 <p> Since there are many RPM-based distributions, you may get a better
 package by rebuilding it yourself. Download the SRPM and run for
-instance <code>rpm --rebuild vlc-0.4.6-1.src.rpm</code>. The RPMs can
+instance <code>rpm --rebuild vlc-0.5.0-1.src.rpm</code>. The RPMs can
 then be found in <code>/usr/src/RPM/RPMS/</code>. </p>
 
 <? h2("Older versions"); ?>
@@ -164,4 +196,4 @@ then be found in <code>/usr/src/RPM/RPMS/</code>. </p>
 <p> Older versions can be found by <a href="/pub/vlc/">browsing</a> our
 FTP site. </p>
 
-<? footer('$Id: download-linux.html,v 1.19 2003/02/03 14:21:18 alexis Exp $'); ?>
+<? footer('$Id: download-linux.html,v 1.20 2003/02/03 15:06:14 sam Exp $'); ?>

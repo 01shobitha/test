@@ -188,6 +188,17 @@ Matrox-Karten unter GNU/Linux.
 &disabled;
 </sect2>
 
+<sect2><title>caca</title>
+&disabled;
+<para>
+Dies ist die farbige ASCII-Kunst - Bildausgabe. Diese Bildausgabe benutzt
+die libcaca-Bibliothek zur Bildanzeige durch farbige ASCII-Kunst. Das
+Modul benötigt die libcaca-Entwicklungsheader (das
+<emphasis>libcaca-dev</emphasis>-Paket unter Debian GNU/Linux) zur
+Kompilierung.
+</para>
+</sect2>
+ 
 <sect2><title>aa</title>
 &disabled;
 <para>

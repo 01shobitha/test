@@ -4,11 +4,11 @@ Das Mozilla-Plugin
 </title>
 
 <para>
-VLC kann auch in einen Webbrowser eingebaut werden.
+VLC kann auch in einen Webbrowser integriert werden.
 Momentan steht diese Funktion nur mit
 <ulink url="http://www.mozilla.org/">Mozilla</ulink> unter GNU/Linux zur
-Verfügung
-.</para>
+Verfügung. Ein experimentelles Plugin steht auch für Mac OS X und Microsoft Windows
+zur Verfügung.</para>
 
 <sect1><title>
 

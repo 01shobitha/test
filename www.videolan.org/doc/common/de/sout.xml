@@ -420,6 +420,17 @@ Hier sind einige zusätzliche globale Optionen
 
 <itemizedlist>
 
+<listitem><para><emphasis>--sout-all,  --no-sout-all</emphasis>
+Streamen von allen ES aktivieren (standardmäßig deaktiviert). 
+Standardmäßig streamt VLC nur ein Ton-ES und ein Bild-ES (die ersten). Wenn
+Sie sout-all aktvieren, werden alle ES (Ton, Bild und SPU) gestreamt
+.</para></listitem>
+ 
+<listitem><para><emphasis> --sout-keep, --no-sout-keep</emphasis>
+Sout offen behalten (standardmäßig deaktiviert): die selbe Sout-Instanz über mehrere
+Wiedergabelistenobjekte hinweg benutzen, sofern möglich
+.</para></listitem>
+
 <listitem><para><emphasis>--no-sout-audio</emphasis>
 deaktiviert die Ausgabe des Tonstreams 
 .</para></listitem>

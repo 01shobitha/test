@@ -163,6 +163,41 @@ Liste von aktiven Fenstern (getrennt durch Kommata); standardmäßig alle
 </itemizedlist>
 </sect2>
 
+ <sect2><title>logo</title>
+&always;
+<para>
+Mit diesem Filter können Sie ein png-Logo im Bild des Videos darstellen. Seine
+transparenz können Sie mit dem Mausrad einstellen. Sie können es mit der Maus
+verschieben.
+</para>
+&options-st;
+<itemizedlist>
+<listitem>
+<para><emphasis>--logo-file &lt;string&gt; </emphasis>:
+Dateiname des Logos. (Die Datei muss im PNG RGBA 8bits - Format sein)
+</para>
+</listitem>
+<listitem>
+<para><emphasis>--logo-x &lt;integer&gt; </emphasis>:
+X-Koordinate des Logos. Sie können das Logo bewegen, in dem Sie mit der
+linken Maustaste darauf klicken.
+</para>
+</listitem>
+<listitem>
+<para><emphasis>--logo-y &lt;integer&gt; </emphasis>:
+Y-Koordinate des Logos. Sie können das Logo bewegen, in dem Sie mit der
+linken Maustaste darauf klicken.
+</para>
+</listitem>
+<listitem>
+<para><emphasis>--logo-transparency  &lt;integer&gt; </emphasis>:
+Die Transparenz des Logos (255-0). Sie können sie ändern, in dem Sie mit
+der mittleren Taste auf das Logo klicken und die Maus nach links oder rechts
+bewegen.
+</para>
+</itemizedlist>
+</sect2>
+
 <sect2><title>clone</title>
 &always;
 <para>

@@ -44,13 +44,13 @@ function starthtml($title) { ?>
       case "streaming": $color_streaming = "#ffa"; break;
       case "doc": $color_doc = "#ffa"; break;
       case "support": $color_support = "#ffa"; break;
-      default: $color_home = "#ffa"; break;
+      default: $module[1]="home"; $color_home = "#ffa"; break;
    }
 
 ?>
 
 <form action="index.html" method="get">
-<table width="100%" cellspacing="5" cellpadding="5">
+<table width="100%" cellspacing="0" cellpadding="5">
 
 <tr>
 
@@ -62,12 +62,12 @@ function starthtml($title) { ?>
 
   <table style="width: 100%; text-align: center; vertical-align: middle;">
   <tr>
-     <td style="background-color: <?echo($color_home);?>; width: 17%; vertical-align: middle;" align="center"><b><a href="/">Home</a></b></td>
-     <td style="background-color: <?echo($color_vlc);?>; width: 16%; vertical-align: middle;" align="center"><b><a href="/vlc/">VLC</a></b></td>
-     <td style="background-color: <?echo($color_streaming);?>; width: 17%; vertical-align: middle;" align="center"><b><a href="/streaming/">Streaming</a></b></td>
-     <td style="background-color: <?echo($color_doc);?>; width: 17%; vertical-align: middle;" align="center"><b><a href="/doc/">Documentation</a></b></td>
-     <td style="background-color: <?echo($color_support);?>; width: 16%; vertical-align: middle;" align="center"><b><a href="/support/">Support</a></b></td>
-     <td style="background-color: #afa; width: 17%; vertical-align: middle;" align="center"><b><a href="http://developers.videolan.org/">Developers</a></b></td>
+     <? get_first_bar_item ( 6 , "home" , "Home" , "/" , $module[1] ) ?>
+     <? get_first_bar_item ( 6 , "vlc" , "VLC" , "/vlc/" , $module[1] ) ?>
+     <? get_first_bar_item ( 6 , "streaming" , "Streaming" , "/streaming/" , $module[1] ) ?>
+     <? get_first_bar_item ( 6 , "doc" , "Documentation" , "/doc/" , $module[1] ) ?>
+     <? get_first_bar_item ( 6 , "support" , "Support" , "/support/" , $module[1] ) ?>
+     <? get_first_bar_item ( 6 , "developers" , "Developers" , "http://developers.videolan.org" , $module[1] ) ?>
   </tr>
   </table>
   <table style="width: 100%">
@@ -98,6 +98,18 @@ function starthtml($title) { ?>
 
    /* This is where the real user page stands */
 
+}
+
+/* Give an entire cell html code for the first menubar */
+function get_first_bar_item ( $number , $module , $text , $url , $current_module ) {
+  if ( $current_module == $module )
+  {
+     ?><td class="firstbarselected" style="width: <? 100/$number ?>%"><?$text?></td><?
+  }
+  else
+  {
+     ?><td class="firstbar"><a href="<?$url?>"><?$text?></a></td><?
+  }
 }
 
 /* Second bar for vlc */

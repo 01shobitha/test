@@ -181,6 +181,22 @@ th.os {
 /*  background-color: #eaa; */
   vertical-align: middle;
 }
+.firstbar {
+  vertical-align: middle;
+  text-align: center;
+  background-color: #a43;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+.firstbarselected {
+  vertical-align: middle;
+  text-align: center;
+  background-color: #888;
+  color: #ff0;
+  font-weight: bold;
+  font-size: 1.1em;
+}
 td.secondbarhome {
   background-image: none;
   background-color: #ffa;

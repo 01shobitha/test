@@ -1,0 +1,142 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+ <META NAME="GENERATOR" CONTENT="LinuxDoc-Tools 0.9.21">
+ <TITLE>VideoLAN Quickstart: Step 4 : Multicast two streams to vlc(s)</TITLE>
+ <LINK HREF="videolan-quickstart-6.html" REL=next>
+ <LINK HREF="videolan-quickstart-4.html" REL=previous>
+ <LINK HREF="videolan-quickstart.html#toc5" REL=contents>
+</HEAD>
+<BODY>
+<A HREF="videolan-quickstart-6.html">Next</A>
+<A HREF="videolan-quickstart-4.html">Previous</A>
+<A HREF="videolan-quickstart.html#toc5">Contents</A>
+<HR>
+<H2><A NAME="s5">5.</A> <A HREF="videolan-quickstart.html#toc5">Step 4 : Multicast two streams to vlc(s)</A></H2>
+
+
+<H2><A NAME="ss5.1">5.1</A> <A HREF="videolan-quickstart.html#toc5.1">Requirements</A>
+</H2>
+
+<P>You need a network that support the multicast protocol. This mean that
+all the network machines (switch, router) comply with the multicast
+standard.</P>
+<P>You just have to change the configuration file of vls. You must choose
+two multicast IP addresses from the IP addresses reserved to multicast : from
+224.0.0.0 to 239.255.255.255.</P>
+
+<H2><A NAME="ss5.2">5.2</A> <A HREF="videolan-quickstart.html#toc5.2">Configure vls</A>
+</H2>
+
+
+<P>You have to modify the end of the configuration file <CODE>vls.cfg</CODE> as
+below.</P>
+<P>Increase the <CODE>TTL</CODE> (Time To Live) if you want your multicasted
+stream to go through several routers. Every router decreases the TTL by
+1, and a stream can't go through a router if its TTL is 1.</P>
+<P>
+<BLOCKQUOTE><CODE>
+<PRE>
+BEGIN "Channels"
+  multi1    = "network"
+  multi2    = "network"
+END
+
+BEGIN "multi1"
+  Type          = "multicast"
+  TTL           = "1"
+# ** PERSONALIZE ** write an IP multicast address
+  DstHost       = "239.255.12.42"
+  DstPort       = "1234"
+END
+BEGIN "multi2"
+  Type          = "multicast"
+  TTL           = "1"
+# ** PERSONALIZE ** write another IP multicast address
+  DstHost       = "239.255.12.43"
+  DstPort       = "1234"
+END
+</PRE>
+</CODE></BLOCKQUOTE>
+</P>
+
+<H2><A NAME="ss5.3">5.3</A> <A HREF="videolan-quickstart.html#toc5.3">Run vls</A>
+</H2>
+
+<P>You are going to stream the file <CODE>presentation_short.vob</CODE> on the first
+multicast address, and the DVD on the second one.</P>
+<P>As normal user, do :
+<BLOCKQUOTE><CODE>
+<PRE>
+% cd [Path to the configuration file vls.cfg]
+% screen vls
+</PRE>
+</CODE></BLOCKQUOTE>
+</P>
+<P>From any other machine, start a telnet session to vls :</P>
+<P>
+<BLOCKQUOTE><CODE>
+<PRE>
+% telnet 10.0.0.1 9999
+
+Videolan Server Administration System
+
+Login : bozo
+Password : bozo
+bozo@vls> start presentation multi1 local1 --loop
+bozo@vls> start film multi2 local1
+</PRE>
+</CODE></BLOCKQUOTE>
+</P>
+
+<H2><A NAME="ss5.4">5.4</A> <A HREF="videolan-quickstart.html#toc5.4">Run vlc(s)</A>
+</H2>
+
+
+<P>First, the operating system on the client machine must support multicast :</P>
+<P>
+<UL>
+<LI>under Linux, you should have a kernel with multicast support. This
+mean that you should have activated the option <CODE>IP: multicasting</CODE>
+in the menu "<EM>Networking Options</EM>" when configuring your Linux
+kernel.
+</LI>
+<LI>Windows 98, ME, 2000 and XP support multicast.
+</LI>
+</UL>
+</P>
+<P>On the client, run vlc with the appropriate command line argument :
+<UL>
+<LI>to watch the presentation :
+<BLOCKQUOTE><CODE>
+<PRE>
+% vlc udp:@239.255.12.42
+</PRE>
+</CODE></BLOCKQUOTE>
+</LI>
+<LI>to watch the film :
+<BLOCKQUOTE><CODE>
+<PRE>
+% vlc udp:@239.255.12.43
+</PRE>
+</CODE></BLOCKQUOTE>
+</LI>
+</UL>
+</P>
+<P>You can also use the interface :
+<BLOCKQUOTE><CODE>
+<PRE>
+% vlc
+</PRE>
+</CODE></BLOCKQUOTE>
+
+and then click on "Net" and select "UDP Multicast" and write the
+multicast IP address "239.255.12.42" to watch the presentation or
+"239.255.12.43" to watch the film.</P>
+
+<HR>
+<A HREF="videolan-quickstart-6.html">Next</A>
+<A HREF="videolan-quickstart-4.html">Previous</A>
+<A HREF="videolan-quickstart.html#toc5">Contents</A>
+</BODY>
+</HTML>

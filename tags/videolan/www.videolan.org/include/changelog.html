@@ -1,0 +1,104 @@
+<?
+   $title = "VideoLAN - ChangeLog for ".ereg_replace("^.*/([^/]+)/*$","\\1",$dir);
+   $lang = "en";
+   $date = "12 April 2001";
+?>
+
+<h1>Changelog for <tt><? print ereg_replace("^.*/([^/]+)/*$","\\1",$dir); ?></tt></h1>
+
+<p> The ChangeLog is updated every ten minutes from the CVS repository. </p>
+
+<?
+   $count = 0;
+   $file = file('ChangeLog');
+
+   function nextline() {
+      global $count, $file;
+      do {
+         if( $count >= count($file) ) {
+            return('');
+         }
+         $line = ereg_replace("\n", '',$file[$count]);
+         $count++;
+      }
+      while( $line == '' or $line[0] == '#' );
+
+      return htmlspecialchars($line);
+   }
+
+   function nextitem() {
+      global $count, $file;
+
+      $line = nextline();
+
+      if( ereg('^  \*', $line ) ) {
+
+         $nextline = nextline();
+
+         while( ereg('^   ', $nextline ) ) {
+            $line .= $nextline;
+            $nextline = nextline();
+         }
+
+         if($nextline != '') {
+            $count--;
+         }
+      }
+
+      return $line;
+   }
+
+   $title = '';
+   $body = '';
+
+   /* Parse all releases */
+   while( $count < count($file) ) {
+      /* Parse all items */
+      while( $count < count($file) ) {
+
+         $line = nextitem();
+
+         if(ereg('^  \* (([^:, ]+)((, [^:, ]+)*): )?(.*)$', $line, $result)) {
+
+            if( $body != '' ) {
+               $body .= '<br />';
+            }
+
+            $body .= '  *';
+
+            if($result[1] != '') {
+               $body .= ' <b>'.$result[1].'</b>';
+            }
+
+            $body .=$result[5]."\n";
+
+         } else {
+
+            if( $title == '' ) {
+               $title = "$line";
+
+            } else if( $body == '' ) {
+               $title .= ' ('.$line.')';
+
+            } else {
+               print '<h2>'.$title.'</h2>';
+               print $body;
+               print '<br />';
+
+               $title = "$line";
+               $body = '';
+               break;
+            }
+         }
+      }
+
+      /* Print the release */
+      if( ( $title != '' ) && ( $body != '' ) ) {
+         print '<h2>'.$title.'</h2>';
+         print $body;
+         print '<br />';
+      }
+   }
+
+?>
+

@@ -1,0 +1,23 @@
+<html><head>
+<title>Chat Template</title>
+</head><body bgcolor="#ffffff" text="#000000">
+Make sure the path to irc.cgi in the &lt;form&gt; tag below is correct and change the ircserver and channel to the name of your server. Then edit edit this page or include it inside your website.
+<form method="post" action="irc.cgi" name="irc">
+
+<input type="text" name="n" value="CGI-User">
+<input type="submit" value=" Chat ">
+
+<input type="hidden" name="s" value="irc.blitzed.org"><!-- server -->
+<input type="hidden" name="c" value="#cgiirc"><!-- Channel -->
+<input type="hidden" name="p" value="6667"><!-- port -->
+<input type="hidden" name="l" value="CGI:IRC User"><!-- realname -->
+<input type="hidden" name="style" value="text-white"><!-- style to display -->
+<input type="hidden" name="u" value="1"><!-- display user list? -->
+<input type="hidden" name="myaction" value="load"><!-- REQUIRED! -->
+<input type="hidden" name="js" value="0"><!-- automatic javascript detection -->
+<script><!--
+document.irc.js.value="1";
+//-->
+</script>
+</form>
+</body></html>

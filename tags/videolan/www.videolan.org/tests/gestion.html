@@ -1,0 +1,67 @@
+
+<?
+if (!(($REMOTE_ADDR == "138.195.141.185")||($REMOTE_ADDR == "138.195.136.154")||($REMOTE_ADDR == "138.195.136.246")||($REMOTE_ADDR == "138.195.140.75")||($REMOTE_ADDR == "138.195.137.160"))) {include("foo.inc"); die();}
+?>
+
+<html><head><title>Page de gestion des programmes de test</title></head>
+<body>
+
+<h1>Bienvenue sur la page</h1>
+<p>Pour ajouter un programme, utilise s'il te plait le formulaire suivant. Sinon, va te faire foutre ;)</p>
+
+<form action="add.php3" method="post">
+<table>
+        <tr><td>Jour</td><td><input type="text" name="jour" /></td></tr>
+        <tr><td>Heure</td><td><input type="text" name="heure" /></td></tr>
+        <tr><td>Minutes</td><td><input type="text" name="minutes" /></td></tr>
+        <tr><td>Programme</td><td><input type="text" name="programme" size="40" maxlenght="40" />
+        <tr><td>Channel</td><td><input type="text" name="channel" /></td></tr>
+
+        <tr><td><input type="submit" value="ajouter" /></td>
+	<td><input type="reset" value="liberer" /></td></tr>
+</table></form>
+
+<p><b><u>TOUT</u> champ est obligatoire. On fait pas de controles parce que on est paresseux, et en plus on sait pas bien comment on peut les faire, donc fais gaffe!!!</b></p>
+
+<p>Par contre, si tu veux supprimer un programme, choisis-le de cette liste et fais copier-coller dans le module en dessous. Sinon, comme on t'a d&eacute;ja expliqu&eacute;, va chier.</p>
+
+<?
+$id = pg_connect("zen.via.ecp.fr.","5432","","","videolan");
+
+$res = pg_Exec( $id, "SELECT * FROM pourlestests ORDER BY jour, heure, minutes,
+channel;");
+$count = pg_numrows($res);
+
+?>
+        <table cellspacing="0" cellpadding="3" border="1">
+          <tr>
+            <td><b>Jour</b></td>
+            <td><b>Heure</b></td>
+            <td><b>Minutes</b></td>
+            <td><b>Programme</b></td>
+            <td><b>Channel</b></td>
+            </tr>
+<?
+for ($i=0; $i < $count; $i++)
+{
+  echo "<tr>";
+  $array = pg_fetch_array($res, $i);
+  for ($j=0; $j<5; $j++) echo "<td>".$array[$j]."</td>";
+  echo "</tr>\n";
+}
+pg_close($id);
+?> </table>
+
+
+<form action="sub.php3" method="post">
+<table>
+        <tr><td>Jour</td><td><input type="text" name="jour" /></td></tr>
+        <tr><td>Heure</td><td><input type="text" name="heure" /></td></tr>
+        <tr><td>Minutes</td><td><input type="text" name="minutes" /></td></tr>
+        <tr><td>Programme</td><td><input type="text" name="programme" size="40" maxlenght="40" />
+        <tr><td>Channel</td><td><input type="text" name="channel" /></td></tr>
+
+        <tr><td><input type="submit" value="effacer" /></td>
+	<td><input type="reset" value="liberer" /></td></tr>
+</table></form>
+</body></html>

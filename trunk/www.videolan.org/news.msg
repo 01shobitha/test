@@ -99,12 +99,12 @@ href="http://developers.videolan.org/vlc/NEWS">list of changes between
 of the website to download the binaries for your OS or the sources.
 A new VLC user guide has been released (it replaces the VLC HOWTO)
 and the VideoLAN Quickstart has been updated to explain the new
-s new release features
-the first steps towards skinable interfaces (only on Windows, not yet on
-Mac OS X or *nix). Support for playing directories and video4linux are
-other big new features. Many bugs have been fixed, including the problem 
-with USB speakers on MacOS X. To downloadstreaming capacity of VLC (with VLC's new stream output) : see the <a
-href="/doc/">documentation page</a>.
+streaming capacity of VLC (with VLC's new stream output) : see the <a
+href="/doc/">documentation page</a>.This new release features the first
+steps towards skinable interfaces (only on Windows, not yet on Mac OS X
+or Unix). Support for playing directories and video4linux are other big
+new features. Many bugs have been fixed, including the problem with USB
+speakers on MacOS X.
 
 |3 Feb 2003| Release: libdvdplay 1.0.0 | This is the first release
 of libdvdplay, a DVD navigation library. This library is based on a

@@ -38,7 +38,7 @@ function pkgitem($version,$name,$top)
 function mirrordir($dir)
 { ?>
   <li>Select a mirror :
-<ul><li><a href="http://download.videolan.org/pub/videolan/<?php echo $top."/".$version."/".$name; ?>">VIA, Ecole Centrale Paris (France)</a></li>
+<ul><li><a href="http://download.videolan.org/pub/videolan/<?php echo $dir ?>">VIA, Ecole Centrale Paris (France)</a></li>
 <?php
     $file = $_SERVER["DOCUMENT_ROOT"]."/include/mirrors";
     $file_id = fopen( $file , "r" );

@@ -164,7 +164,7 @@ only stream a video from a file.
 
 <para>
 
-The user documentation of the VideoLAN project is composed of three documents :
+The user documentation of the VideoLAN project is composed of four documents :
 
 </para>
 
@@ -182,8 +182,13 @@ HOWTO</ulink>. This document is the complete guide of the VideoLAN
 streaming solution.</para>
 
 <listitem><para>the <ulink
-url="http://www.videolan.org/doc/vlc-user-guide/">Vlc user
+url="http://www.videolan.org/doc/vlc-user-guide/">VLC user
 guide</ulink>. This document is the complete guide for VLC.</para>
+
+<listitem><para>the <ulink
+url="http://www.videolan.org/doc/faq-vlc/faq/">VLC FAQ </ulink>. This
+document contains Frequently Asked Questions of VLC users.</para>
+
 
 </itemizedlist>
 

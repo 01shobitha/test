@@ -8,8 +8,6 @@
   <!ENTITY install SYSTEM "install.sgml">
   <!ENTITY gui SYSTEM "gui.sgml">
   <!ENTITY cmdline SYSTEM "cmdline.sgml">
-  <!ENTITY faq-chapter SYSTEM "faq-chapter.sgml">
-  <!ENTITY faq SYSTEM "faq.sgml">
 
   <!ENTITY install-vlc SYSTEM "../common/install-vlc.sgml">
   <!ENTITY uninstall-vlc SYSTEM "../common/uninstall-vlc.sgml">
@@ -96,7 +94,6 @@ Texts. The text of the license can be found in the appendix
 &install;
 &gui;
 &cmdline;
-&faq-chapter;
 &fdl;
 
 </book>

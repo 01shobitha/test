@@ -5,7 +5,7 @@
    require("header.php3");
 ?>
 
-<? function pkgitem($version,$name) { ?><li><a href="/pub/videolan/vlc/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
+<? function pkgitem($version,$name) { ?><li><a href="/pub/videolan/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
 
 <h1> <a href="/">VideoLAN</a> / <a href="/vlc/">VLC media player</a> / VLC for Linux </h1>
 
@@ -25,20 +25,31 @@
 
 <h2>Tarballs</h2>
 
-<p> Latest tarballs (0.4.6): </p>
+<p> Latest vlc tarball (0.4.6): </p>
 
 <ul>
   <?
-     pkgitem("0.4.6","vlc-0.4.6.tar.gz");
+     pkgitem("vlc/0.4.6","vlc-0.4.6.tar.gz");
   ?>
   <li><a href="/pub/videolan/vlc/0.4.6/"><i>browse the list</i></a></li>
 </ul>
 
+<p> Latest required librairies: </p>
+
+<ul>
+  <?
+     pkgitem("vlc/0.4.6","libdvdcss-1.2.4.tar.gz");
+     pkgitem("vlc/0.4.6","libdvbpsi-0.1.2.tar.gz");
+     pkgitem("vlc/0.4.6","a52dec-0.7.4.tar.gz");
+     pkgitem("vlc/0.4.6","ffmpeg-20020707.tar.gz");
+     pkgitem("vlc/0.4.6","mad-0.14.2b.tar.gz");
+  ?>
+  <li><a href="/pub/videolan/vlc/0.4.6/contrib"><i>browse the list</i></a></li>
+</ul>
+
 <h2>Debian GNU/Linux i386</h2>
 
-<p> Latest Debian x86 package (0.4.6) (needs <a
-href="/libdvdcss/download.html">libdvdcss</a> and <a
-href="/libdvbpsi/download.html">libdvbpsi</a>) are below. You may also
+<p> Latest Debian x86 package (0.4.6) are below. You may also
 add the following lines to your <b>/etc/apt/sources.list</b>:</p>
 
 <code>
@@ -47,60 +58,70 @@ add the following lines to your <b>/etc/apt/sources.list</b>:</p>
 </code>
 
 <ul><?
-     pkgitem("0.4.6/deb","vlc_0.4.6-1_i386.deb");
+     pkgitem("vlc/0.4.6/deb","vlc_0.4.6-1_i386.deb");
 ?></ul>
 <p> Codec plugins: </p>
 <ul><?
-     pkgitem("0.4.6/deb","vlc-mad_0.4.6-1_i386.deb");
+     pkgitem("vlc/0.4.6/deb","vlc-mad_0.4.6-1_i386.deb");
 ?></ul>
 <p> Interface plugins: </p>
 <ul><?
-     pkgitem("0.4.6/deb","vlc-gnome_0.4.6-1_i386.deb");
-     pkgitem("0.4.6/deb","vlc-gtk_0.4.6-1_i386.deb");
-     pkgitem("0.4.6/deb","vlc-lirc_0.4.6-1_i386.deb");
-     pkgitem("0.4.6/deb","vlc-qt_0.4.6-1_i386.deb");
+     pkgitem("vlc/0.4.6/deb","vlc-gnome_0.4.6-1_i386.deb");
+     pkgitem("vlc/0.4.6/deb","vlc-gtk_0.4.6-1_i386.deb");
+     pkgitem("vlc/0.4.6/deb","vlc-lirc_0.4.6-1_i386.deb");
+     pkgitem("vlc/0.4.6/deb","vlc-qt_0.4.6-1_i386.deb");
 ?></ul>
 <p> Video plugins: </p>
 <ul><?
-     pkgitem("0.4.6/deb","vlc-sdl_0.4.6-1_i386.deb");
-     pkgitem("0.4.6/deb","vlc-aa_0.4.6-1_i386.deb");
-     pkgitem("0.4.6/deb","vlc-ggi_0.4.6-1_i386.deb");
-     pkgitem("0.4.6/deb","vlc-glide_0.4.6-1_i386.deb");
+     pkgitem("vlc/0.4.6/deb","vlc-sdl_0.4.6-1_i386.deb");
+     pkgitem("vlc/0.4.6/deb","vlc-aa_0.4.6-1_i386.deb");
+     pkgitem("vlc/0.4.6/deb","vlc-ggi_0.4.6-1_i386.deb");
+     pkgitem("vlc/0.4.6/deb","vlc-glide_0.4.6-1_i386.deb");
 ?></ul>
 <p> Audio plugins: </p>
 <ul><?
-     pkgitem("0.4.6/deb","vlc-alsa_0.4.6-1_i386.deb");
-     pkgitem("0.4.6/deb","vlc-arts_0.4.6-1_i386.deb");
-     pkgitem("0.4.6/deb","vlc-esd_0.4.6-1_i386.deb");
+     pkgitem("vlc/0.4.6/deb","vlc-alsa_0.4.6-1_i386.deb");
+     pkgitem("vlc/0.4.6/deb","vlc-arts_0.4.6-1_i386.deb");
+     pkgitem("vlc/0.4.6/deb","vlc-esd_0.4.6-1_i386.deb");
+?></ul>
+<p>Librairies:</p>
+<ul><?
+     pkgitem("libdvdcss/1.2.4/deb","libdvdcss2_1.2.4-2_i386.deb");
+     pkgitem("libdvbpsi/0.1.2/deb","libdvbpsi1_0.1.2-2_i386.deb");
 ?></ul>
 
 <h2>Debian GNU/Linux PowerPC</h2>
 
 <ul><?
-     pkgitem("0.4.6/deb","vlc_0.4.6-1_powerpc.deb");
+     pkgitem("vlc/0.4.6/deb","vlc_0.4.6-1_powerpc.deb");
 ?></ul>
 <p> Codec plugins: </p>
 <ul><?
-     pkgitem("0.4.6/deb","vlc-mad_0.4.6-1_powerpc.deb");
+     pkgitem("vlc/0.4.6/deb","vlc-mad_0.4.6-1_powerpc.deb");
 ?></ul>
 <p> Interface plugins: </p>
 <ul><?
-     pkgitem("0.4.6/deb","vlc-gnome_0.4.6-1_powerpc.deb");
-     pkgitem("0.4.6/deb","vlc-gtk_0.4.6-1_powerpc.deb");
-     pkgitem("0.4.6/deb","vlc-lirc_0.4.6-1_powerpc.deb");
-     pkgitem("0.4.6/deb","vlc-qt_0.4.6-1_powerpc.deb");
+     pkgitem("vlc/0.4.6/deb","vlc-gnome_0.4.6-1_powerpc.deb");
+     pkgitem("vlc/0.4.6/deb","vlc-gtk_0.4.6-1_powerpc.deb");
+     pkgitem("vlc/0.4.6/deb","vlc-lirc_0.4.6-1_powerpc.deb");
+     pkgitem("vlc/0.4.6/deb","vlc-qt_0.4.6-1_powerpc.deb");
 ?></ul>
 <p> Video plugins: </p>
 <ul><?
-     pkgitem("0.4.6/deb","vlc-sdl_0.4.6-1_powerpc.deb");
-     pkgitem("0.4.6/deb","vlc-aa_0.4.6-1_powerpc.deb");
-     pkgitem("0.4.6/deb","vlc-ggi_0.4.6-1_powerpc.deb");
+     pkgitem("vlc/0.4.6/deb","vlc-sdl_0.4.6-1_powerpc.deb");
+     pkgitem("vlc/0.4.6/deb","vlc-aa_0.4.6-1_powerpc.deb");
+     pkgitem("vlc/0.4.6/deb","vlc-ggi_0.4.6-1_powerpc.deb");
 ?></ul>
 <p> Audio plugins: </p>
 <ul><?
-     pkgitem("0.4.6/deb","vlc-alsa_0.4.6-1_powerpc.deb");
-     pkgitem("0.4.6/deb","vlc-arts_0.4.6-1_powerpc.deb");
-     pkgitem("0.4.6/deb","vlc-esd_0.4.6-1_powerpc.deb");
+     pkgitem("vlc/0.4.6/deb","vlc-alsa_0.4.6-1_powerpc.deb");
+     pkgitem("vlc/0.4.6/deb","vlc-arts_0.4.6-1_powerpc.deb");
+     pkgitem("vlc/0.4.6/deb","vlc-esd_0.4.6-1_powerpc.deb");
+?></ul>
+<p>Librairies:</p>
+<ul><?
+     pkgitem("libdvdcss/1.2.4/deb","libdvdcss2_1.2.4-2_powerpc.deb");
+     pkgitem("libdvbpsi/0.1.2/deb","libdvbpsi1_0.1.2-2_powerpc.deb");
 ?></ul>
 
 <h2>RPMs</h2>
@@ -109,33 +130,40 @@ add the following lines to your <b>/etc/apt/sources.list</b>:</p>
 href="/libdvdcss/download.html">libdvdcss</a>) </p>
 
 <ul><?
-    pkgitem("0.4.6/rpm","vlc-0.4.6-1.i586.rpm");
+    pkgitem("vlc/0.4.6/rpm","vlc-0.4.6-1.i586.rpm");
 ?></ul>
 <p> Codec plugins: </p>
 <ul><?
-    pkgitem("0.4.6/rpm","vlc-mad-0.4.6-1.i586.rpm");
+    pkgitem("vlc/0.4.6/rpm","vlc-mad-0.4.6-1.i586.rpm");
 ?></ul>
 <p> Interface plugins: </p>
 <ul><?
-    pkgitem("0.4.6/rpm","vlc-gnome-0.4.6-1.i586.rpm");
-    pkgitem("0.4.6/rpm","vlc-gtk-0.4.6-1.i586.rpm");
-    pkgitem("0.4.6/rpm","vlc-ncurses-0.4.6-1.i586.rpm");
+    pkgitem("vlc/0.4.6/rpm","vlc-gnome-0.4.6-1.i586.rpm");
+    pkgitem("vlc/0.4.6/rpm","vlc-gtk-0.4.6-1.i586.rpm");
+    pkgitem("vlc/0.4.6/rpm","vlc-ncurses-0.4.6-1.i586.rpm");
 ?></ul>
 <p> Video plugins: </p>
 <ul><?
-    pkgitem("0.4.6/rpm","vlc-aa-0.4.6-1.i586.rpm");
-    pkgitem("0.4.6/rpm","vlc-sdl-0.4.6-1.i586.rpm");
-    pkgitem("0.4.6/rpm","vlc-ggi-0.4.6-1.i586.rpm");
+    pkgitem("vlc/0.4.6/rpm","vlc-aa-0.4.6-1.i586.rpm");
+    pkgitem("vlc/0.4.6/rpm","vlc-sdl-0.4.6-1.i586.rpm");
+    pkgitem("vlc/0.4.6/rpm","vlc-ggi-0.4.6-1.i586.rpm");
 ?></ul>
 <p> Audio plugins: </p>
 <ul><?
-    pkgitem("0.4.6/rpm","vlc-alsa-0.4.6-1.i586.rpm");
-    pkgitem("0.4.6/rpm","vlc-arts-0.4.6-1.i586.rpm");
-    pkgitem("0.4.6/rpm","vlc-esd-0.4.6-1.i586.rpm");
+    pkgitem("vlc/0.4.6/rpm","vlc-alsa-0.4.6-1.i586.rpm");
+    pkgitem("vlc/0.4.6/rpm","vlc-arts-0.4.6-1.i586.rpm");
+    pkgitem("vlc/0.4.6/rpm","vlc-esd-0.4.6-1.i586.rpm");
+?></ul>
+<p>Librairies:</p>
+<ul><?
+     pkgitem("libdvdcss/1.2.4/rpm","libdvdcss2-1.2.4-1.i586.rpm");
+     pkgitem("libdvbpsi/0.1.2/rpm","libdvbpsi1-0.1.2-1.i586.rpm");
 ?></ul>
 <p> Source package: </p>
 <ul><?
-    pkgitem("0.4.6/rpm","vlc-0.4.6-1.src.rpm");
+    pkgitem("vlc/0.4.6/rpm","vlc-0.4.6-1.src.rpm");
+    pkgitem("libdvdcss/1.2.4/rpm","libdvdcss2-1.2.4-1.src.rpm");
+    pkgitem("libdvbpsi/0.1.2/rpm","libdvbpsi1-0.1.2-1.src.rpm");
 ?></ul>
 
 <!--
@@ -146,7 +174,7 @@ It is available <a href="/pub/videolan/vlc/0.3.0/rpm/patch72.sh">here</a>.
 
 <p> Since there are many RPM-based distributions, you may get a better
 package by rebuilding it yourself. Download the SRPM and run for
-instance <code>rpm --rebuild vlc-0.4.0-1.src.rpm</code>. The RPMs can
+instance <code>rpm --rebuild vlc-0.4.6-1.src.rpm</code>. The RPMs can
 then be found in <code>/usr/src/RPM/RPMS/</code>. </p>
 
 <h2>Older versions</h2>

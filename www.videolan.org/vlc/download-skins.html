@@ -23,20 +23,18 @@
     <tr><td class="skins-comment">
       <? echo $text; ?>
     </td></tr>
-    <tr><td><? if(strlen($zip)>2) {
-        CSSButton( "document.location='/vlc/skins/$zip'", 
+    <? if(strlen($zip)>2) { ?><tr> 
+    <?  CSSButton( "document.location='/vlc/skins/$zip'", 
                    "skins-download", "skins-download-over",
                    "skins-download-down" );
-        echo "Download ZIP file";
-    } ?>
-    </td></tr>
-    <tr><td><? if(strlen($vlt)>2) {
-        CSSButton( "document.location='/vlc/skins/$vlt'",
+        echo "Download ZIP file"; ?>
+    </td></tr> <? } ?>
+    <? if(strlen($vlt)>2) { ?><tr>
+    <?   CSSButton( "document.location='/vlc/skins/$vlt'",
                    "skins-download", "skins-download-over",
                    "skins-download-down" );
-        echo "Download VLT file";
-    } ?>
-    </td></tr>
+        echo "Download VLT file"; ?>
+    </td></tr> <? } ?>
    </table>
   </td>
  </tr>
@@ -84,7 +82,7 @@ of the new skin you want to use.</p>
 <h2>Aquax skin</h2>
 <? AddSkin( 
    "aquax.jpg",
-   "This skin was originally made for zinf by Andreas Koslowski.<br>
+   "This skin was originally made for zinf by Andreas Koslowski.<br />
    Skin dapted to VLC by Laurent Aimar",
    "aquax.vlt",
    ""); 

@@ -2,6 +2,12 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+|31 Oct - 1 Nov 2003| 5th Free software days in Lyons| VideoLAN
+will be present at the 5th Free Software (<i>Journées du Libre</i>)
+in Lyons, France. We will have a demo of the streaming solution
+on our booth ! For more information about the event, see the <a
+href="http://www.aldil.org/agenda/journees/2003/">ALDIL web site</a>.
+
 |20 Oct 2003| VideoLAN doc switches to GPL| Due to legal problems with
 the GNU FDL license, the VideoLAN doc was switched to General Public
 License. The VideoLAN Quickstart was also removed, as it was redundant

@@ -6,9 +6,9 @@ to change the default settings, you can compile VLC from sources.</para>
 <sect2><title>Under Windows</title>
 
 <para>VLC works under Windows 95/98/ME/2000/XP.
-Download the Zipip file from the <ulink
+Download the self-extracting file from the <ulink
 url="http://www.videolan.org/vlc/download-windows.html">VLC Windows
-download page</ulink>. Unzip the file in a directory to install
+download page</ulink>. Launch the <filename>.exe</filename> to install
 VLC.</para>
 
 </sect2>
@@ -53,7 +53,7 @@ deb-src http://www.videolan.org/pub/videolan/debian sources/
 
 <screen>
 <prompt># </prompt><userinput>apt-get update</userinput>
-<prompt># </prompt><userinput>apt-get install gnome-vlc vlc-plugin-mad vlc-plugin-ogg libdvdcss2</userinput>
+<prompt># </prompt><userinput>apt-get install gnome-vlc libdvdcss2</userinput>
 </screen>
 </sect2>
 

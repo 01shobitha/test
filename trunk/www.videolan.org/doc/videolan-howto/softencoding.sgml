@@ -59,8 +59,13 @@ channel,</para>
 channel,</para>
 
 <listitem><para><emphasis>vcodec=mp4v</emphasis> is the video
-format you want to encode in (<emphasis>mp4v</emphasis> is MPEG-4,
-<emphasis>mpgv</emphasis> is MPEG-1),</para>
+format you want to encode in (<emphasis>mp4v</emphasis> is
+MPEG-4, <emphasis>mpgv</emphasis> is MPEG-1, and there is
+also <emphasis>h263</emphasis>, <emphasis>DIV1</emphasis>,
+<emphasis>DIV2</emphasis>, <emphasis>DIV3</emphasis>,
+<emphasis>I420</emphasis>, <emphasis>I422</emphasis>,
+<emphasis>I444</emphasis>, <emphasis>RV24</emphasis>,
+<emphasis>YUY2</emphasis>),</para>
 
 <listitem><para><emphasis>ab=256</emphasis> is the audio bitrate in
 Kbit/s,</para>

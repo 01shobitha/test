@@ -2,6 +2,16 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+|29 July 2003| Release: libdvdcss 1.2.8 & libdvbpsi 0.1.3| Libdvdcss
+1.2.8 is a bug-fix release with a fix for encrypted DVDs on Windows
+and a workaround for strange discs that report read errors seemingly
+at random. Libdvbpsi 0.1.3 features new DVB descriptors decoders and
+generators, a new SDT decoder and various fixes and enhancements. Go to
+the <a href="http://developers.videolan.org/libdvdcss/">libdvdcss</a>
+and <a href="http://developers.videolan.org/libdvbpsi/">libdvbpsi</a>
+web pages to read the Changelog and download the sources or the Debian
+packages.
+
 |25 July 2003| Release: miniSAPserver 0.2.2| Minor bug fix of the
 miniSAPserver. Remember miniSAPserver should be used to announce the
 streams sent by VLS; the streams sent by VLC's stream output can be

@@ -1,4 +1,4 @@
-all: clean html ps pdf rtf
+all: clean html ps pdf rtf txt
 
 html:
 	/bin/cp ../common/magic-jpg.sgml ../common/magic.sgml

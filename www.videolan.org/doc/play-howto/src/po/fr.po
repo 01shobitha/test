@@ -854,14 +854,14 @@ msgid ""
 "To open a RTSP stream (sent by Darwin Streaming Server, VLC, etc), \n"
 "in the wxWindows interface, select \"RTSP\" and give the URL in the text input.\n"
 msgstr ""
-"Pour ouvrir un flux RTSP (envoyé par un seveur de flux Darwin, VLC, etc), \n"
-"dans l'interface wxWindows, choisissez \"RTSP\" et donnez à l'entrée du text l'URL.\n"
+"Pour ouvrir un flux RTSP (envoyé par un seveur de flux Darwin, VLC, etc) \n"
+"avec l'interface wxWindows, choisissez \"RTSP\" et indiquez l'URL dans la zone de texte.\n"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:148
 #, no-wrap
 msgid "You can start playback by selecting the <emphasis>Ok</emphasis> button.\n"
-msgstr "Vous pouvez démarrer la lecture en choisissant le bouton <emphasis>Ok</emphasis>.\n"
+msgstr "Vous pouvez démarrer la lecture en cliquant sur le bouton <emphasis>Ok</emphasis>.\n"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:150
@@ -873,22 +873,23 @@ msgid ""
 "You can then choose the amount time (in milliseconds) VLC should store data \n"
 "in its buffer before starting playback.\n"
 msgstr ""
-"Si vous obtenez quelques floutage pendant la lecture, vous pouvez essayer \n"
-"d'augmenter la taille du buffer en lecture.  Ceci peut être fait dans la boîte de \n"
-"dialogue <emphasis>Ouvrir un flux réseau</emphasis>, en réglant la valeur de \n"
-"<emphasis>Mise en cache</emphasis>.  Vous pouvez alors choisir le temps (en millisecondes) durant lequel VLC stockera des données dans son buffer avant de commencer la lecture. \n"
+"Si vous obtenez quelques bégaiements pendant la lecture, vous pouvez essayer \n"
+"d'augmenter la taille du tampon d'entrée.  Cela peut être fait depuis la boîte de \n"
+"dialogue <emphasis>Open Network Stream</emphasis>, en choisissant \n"
+"<emphasis>Cache</emphasis>.  Vous pouvez alors choisir la durée (en millisecondes)\n"
+"à mettre en tampon avant de débuter la lecture.\n"
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:161 en/basic-use.xml:162
 #, no-wrap
 msgid "The Open network dialog - wxWindows interface"
-msgstr "La boite de dialogues Ouvrir un flux réseau  - interface wxWindows"
+msgstr "La boîte de dialogue Ouvrir un flux réseau - interface wxWindows"
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:169 en/basic-use.xml:170
 #, no-wrap
 msgid "The Open network dialog - MacOS X interface"
-msgstr "La boite de dialoues Ouvrir un flux réseau - interface MacOS X"
+msgstr "La boîte de dialogue Ouvrur un flux réseau - interface MacOS X"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/basic-use.xml:174
@@ -903,8 +904,8 @@ msgid ""
 "This currently only possible on Linux and Windows. Open the File menu, \n"
 "and select \"Open Capture Device...\""
 msgstr ""
-"Actuellement, cela n'est possible que sous Linux et Windows. Ouvrez le \n"
-"menu Fichier et choisissez  \"Ouvrir un périphérique de capture\""
+"Pour le moment, cela est uniquement possible sous Linux et Windows. Ouvrez le \n"
+"menu Fichier et choisissez  \"Ouvrir un périphérique de capture...\""
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:178
@@ -925,19 +926,17 @@ msgid ""
 "of the input (the way colors are encoded) and the size of the input buffer.\n"
 msgstr ""
 "\n"
-"Sous Windows, les cartes compatibles sont entre autres les webcams, les cartes TV, les cartes \n"
-"d'acquisition... le prérequis étant qu'un driver compatible directshow soit fourni \n"
-"(c'est le cas de presque toutes les cartes d'acquisition). Vous pouvez choisir le périphérique à \n"
-"utiliser pour la vidéo et la capture audio à l'aide de \"Nom du périphérique vidéo\" et \n"
-"\"Nom du périphérique audio\" . Si votre périphérique n'apparaît pas dans la liste, essayez de \n"
-"choisir le \"boutton de rafraîchissement de la liste\".  Vous pouvez accéder aux \n"
-"réglages de votre périphérique d'acquisition en cliquant sur le bouton \n"
-"<emphasis>Options avancées</emphasis>.  Les options dépendent ici du périphérique. \n"
-"Vous pouvez choisir la boîte \"Device Proprieties\" si vous voulez que la zone de \n"
-"configuration de dialogue de chaque dispositif soit affichée après avoir cliqué sur le bouton \n"
-"< emphasis>Ok</emphasis >.  Choisissez la boîte < emphasis>Tuner properties</emphasis > \n"
-"à solliciter pour le réglage du tuner (norme PAL/NTSC, fréquence ...) pour les cartes TV.\n"
-" Le bouton <emphasis>Advanced options... </emphasis > laisse choisir d'autres \n"
+"Sous Windows, les webcams, les cartes TV, les cartes d'acquisition, etc sont supportées,\n"
+"pourvu qu'elles soient fournies avec des pilotes compatibles DirectShow \n"
+"(ce qui est pratiquement toujours le cas). Vous pouvez choisir le périphérique à \n"
+"utiliser pour l'acquisition vidéo et audio via les listes déroulantes \"Nom du périphérique vidéo\" et \n"
+"\"Nom du périphérique audio\". Si le périphérique n'apparaît pas dans la liste, esssayez \n"
+"en cliquant sur le bouton \"Rafraîchir la liste\".  Vous pouvez accéder aux réglages \n"
+"de votre périphérique d'acquisition cliquant sur le bouton <emphasis>configure</emphasis>.\n"
+"Ces options dépendent du pilote du périphérique. Vous pouvez utiliser la boîte \"Propriétés du périphérique\" si vous voulez accéder à la boîte de dialogue de \n"
+"configuration de chaque périphérique.  Utilisez la boîte <emphasis>Propriétés du Tuner</emphasis> \n"
+"pour les réglages du tuner (norme PAL/NTSC, fréquence ...) pour les cartes TV. \n"
+"Le bouton <emphasis>Options avancées... </emphasis> permet de choisir d'autres \n"
 "réglages utiles dans quelques cas rares, tels que le \"chroma\" de l'entrée \n"
 "(la façon dont les couleurs sont codées) et de la taille du buffer d'entrée. \n"
 

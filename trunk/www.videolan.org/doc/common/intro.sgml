@@ -240,7 +240,9 @@ page</ulink>.</para>
 
 <sect1><title>Convention</title>
 
-<para>In this document, we adopt the following conventions for the Unix
+<para>Windows users : Some features are currently only available using the command line interface of VLC. To run such commands, you can use a Dos command box.</para>
+
+<para>Unix systems users : in this document, we adopt the following conventions for the Unix
 commands :</para>
 
 <itemizedlist>

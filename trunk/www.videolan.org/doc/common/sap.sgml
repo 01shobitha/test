@@ -38,6 +38,8 @@ that the SAP announce packet can cross before being dropped.</para>
 
 <para>Start the mini-SAP-server :</para>
 
+<note><para>A typical sap.cfg configuration file is shipped with mini-SAP-server.</para></note>
+
 <screen>
 <prompt>% </prompt><userinput>./sapserver -c sap.cfg</userinput>
 </screen>

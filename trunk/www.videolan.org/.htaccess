@@ -45,17 +45,17 @@ RewriteRule ^freedvd.html$ /removed/freedvd.html [R=permanent,L]
 #
 # Redirects for stuff moved to developers site
 #
-Redirect permanent ^vlc/changelog.html http://developers.videolan.org/vlc/ChangeLog
-Redirect permanent ^vls/changelog.html http://developers.videolan.org/vls/ChangeLog
-Redirect permanent ^cvs.html http://developers.videolan.org/cvs.html
-Redirect permanent ^vlc/developers.html http://developers.videolan.org/vlc/devel_doc.html
-Redirect permanent ^vls/developers.html http://developers.videolan.org/vls/devel_doc.html
-Redirect permanent ^libdvdcss/download.html http://developers.videolan.org/pub/videolan/libdvdcss/
-Redirect permanent ^libdvdcss.* http://developers.videolan.org/libdvdcss/index.html
-Redirect permanent ^libdvbpsi/download.html http://developers.videolan.org/pub/videolan/libdvbpsi/
-Redirect permanent ^libdvbpsi.* http://developers.videolan.org/libdvbpsi/index.html
-Redirect permanent ^libdvdplay/download.html http://developers.videolan.org/pub/videolan/libdvdplay/
-Redirect permanent ^libdvdplay.* http://developers.videolan.org/libdvdplay/index.html
+RewriteRule ^vlc/changelog.html http://developers.videolan.org/vlc/ChangeLog [R=permanent,L]
+RewriteRule ^vls/changelog.html http://developers.videolan.org/vls/ChangeLog [R=permanent,L]
+RewriteRule ^cvs.html http://developers.videolan.org/cvs.html [R=permanent,L]
+RewriteRule ^vlc/developers.html http://developers.videolan.org/vlc/devel_doc.html [R=permanent,L]
+RewriteRule ^vls/developers.html http://developers.videolan.org/vls/devel_doc.html [R=permanent,L]
+RewriteRule ^libdvdcss/download.html http://developers.videolan.org/pub/videolan/libdvdcss/ [R=permanent,L]
+RewriteRule ^libdvdcss.* http://developers.videolan.org/libdvdcss/index.html [R=permanent,L]
+RewriteRule ^libdvbpsi/download.html http://developers.videolan.org/pub/videolan/libdvbpsi/ [R=permanent,L]
+RewriteRule ^libdvbpsi.* http://developers.videolan.org/libdvbpsi/index.html [R=permanent,L]
+RewriteRule ^libdvdplay/download.html http://developers.videolan.org/pub/videolan/libdvdplay/ [R=permanent,L]
+RewriteRule ^libdvdplay.* http://developers.videolan.org/libdvdplay/index.html [R=permanent,L]
 
 #
 # MIME Types

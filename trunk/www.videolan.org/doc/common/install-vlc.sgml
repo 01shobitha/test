@@ -181,7 +181,7 @@ contains the following line :
 <sect3><title>Install VLC</title>
 
 <para>Download the sources of the lastest release : get the
-<file filename>vlc-version.tar.gz</filename> from the <ulink
+file <filename>vlc-version.tar.gz</filename> from the <ulink
 url="http://www.videolan.org/vlc/download-source.html">VLC sources
 download page</ulink>. Uncompress-it :</para>
 

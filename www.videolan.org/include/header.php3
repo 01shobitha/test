@@ -130,7 +130,9 @@ StartHtml( ereg_replace( "<[^>]*>" , "" , $title ) );
 Patent banner code 
 -->
   <tr align="center">
-    <td valign="top" colspan="2" style="background-color:white; border: 4px solid red;">
+    <td valign="top" colspan="2" align="center" style="background-color:white; border: 4px solid red;">
+<a href="http://demo.ffii.org/"><img src="http://demo.ffii.org/banners/Banana-En-Banner-728x90.png"
+alt="No Banana Union - No Software Patents" width="728" height="90" border="0"/></a>
       <p style="color: red; font-size:28px; align:center;" >
 	Beware: VideoLAN might disappear due to patent legislation.
       </p>

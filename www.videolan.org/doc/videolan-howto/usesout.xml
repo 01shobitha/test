@@ -356,7 +356,7 @@ standard{access=http,mux=ogg,url=server.example.org:8080}'</userinput>
 <span xml:lang="en">will allow the server to send the stream to any client requesting it</span>
 <span xml:lang="fr">permet au serveur d'envoyer le flux à tout client en faisant la demande</span>
 <span xml:lang="es">FIXME</span>
-<span xml:lang="de">FIXME</span>
+<span xml:lang="de">wird dem Server erlauben, den Stream an jeden Client zu senden, der ihn anfordert</span>
 .</para></note>
 
 </listitem>

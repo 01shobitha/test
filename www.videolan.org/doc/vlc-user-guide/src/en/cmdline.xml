@@ -162,6 +162,13 @@ To receive a HTTP stream, start VLC with
 <prompt>% </prompt><userinput>vlc -vvv http://www.example.org/your_file.mpg</userinput>
 </screen>
 
+<para>
+To receive a RTSP stream, start VLC with:</para>
+                                                                                
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv rtsp://www.example.org/your_stream</userinput>
+</screen>
+
 </sect2>
 </sect1>
 

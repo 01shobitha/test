@@ -73,10 +73,13 @@ stream will be handled in an independant way
 .</para></listitem>
 
 <listitem><para><emphasis>display</emphasis> 
-
 allows you to display the input stream, as VLC
 would normally do. Used with the <emphasis>duplicate</emphasis>
 module, this allows you to view the stream as you send it
+.</para></listitem>
+
+<listitem><para><emphasis>rtp</emphasis>
+streams over RTP (one UDP port for each elementary stream)
 .</para></listitem>
 
 <listitem><para><emphasis>es</emphasis> 
@@ -310,6 +313,37 @@ minimum video quantiser scale (VBR)
 <listitem><para><emphasis>qmax</emphasis>:
 maximum video quantiser scale (VBR)
 .</para></listitem>
+
+</itemizedlist>
+
+</sect3>
+
+<sect3><title>rtp</title>
+<para>
+Sends a stream over RTP
+</para>
+
+<para>
+Options:
+</para>
+
+<itemizedlist>
+                                                                                
+<listitem><para><emphasis>dst</emphasis>:
+destination IP address (unicast or multicast)
+.</para></listitem>
+
+<listitem><para><emphasis>port</emphasis>:
+destination UDP port
+.</para></listitem>
+
+<listitem><para><emphasis>sdp</emphasis>:
+how to send the sdp file: <emphasis>http://server_ip:server_port/path</emphasis> for http, or <emphasis>rtsp://server_ip:server_port/path</emphasis> for rtsp, where <emphasis>server_ip</emphasis> is the address of one of the server's interface, and <emphasis>path</emphasis> where the sdp file will be accessible on the server
+.</para></listitem>
+
+<note><para>
+When using <emphasis>sdp=rtsp</emphasis>, it is possible not to give any destination address. VLC will then send the stream to any client that connects to it
+.</para></note>
 
 </itemizedlist>
 

@@ -17,7 +17,7 @@ integrated in it, post in one of the user mailing-lists.
 Trophies! | VLC was nominated at the <a
 href="http://www.tropheesdulibre.org/main.php?lang=en">Free Software
 Trophies</a>, an international competition aimed at promoting the
-developpment of free software, in the category "General Public".
+development of free software, in the category "General Public".
 
 |21 May 2003| Release: VLS 0.5.2 | This release fixes a bug when
 trying to stream multiple DVB channels and a bug in the configure

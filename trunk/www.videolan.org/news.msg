@@ -4,6 +4,12 @@
 # Et pour les nouvelles importantes, c'est pas un | , c'est un §
 #
 
+|11-13 June 2003| Renater IPv6 conference| The VideoLAN team has a booth
+at the <a href="http://www.renater.fr/IPv6-2003Caen/index.htm">Renater
+IPv6 conference</a> that takes place at the University of Caen
+(France). There is a running demo of IPv6 streaming with VideoLAN in
+unicast and multicast at the booth!
+
 |10 June 2003| Documentation update | The VLS user guide is back and
 we have a Spanish translation of the VideoLAN FAQ by Javier Varela
 : see the <a href="/doc/">documentation page</a>. All the VideoLAN

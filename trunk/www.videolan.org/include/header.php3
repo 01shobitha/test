@@ -83,7 +83,9 @@ function footer($title,$language,$date) { ?>
   <tr>
     <td align="left">
       <a href="/">VideoLAN</a> &nbsp;-&nbsp;
-      Paris, France &nbsp;-&nbsp; <? echo $date; ?>
+      Paris, France &nbsp;-&nbsp; See the 
+     <a href="http://brahma.via.ecp.fr/videolan/">statistics</a>
+     &nbsp;-&nbsp; <? echo $date; ?>
     </td>
     <td align="right" style="white-space: nowrap;">
     <? if($language=="fr") { } else { ?>valid<? } ?>

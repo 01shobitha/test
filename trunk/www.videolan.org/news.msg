@@ -16,7 +16,7 @@ Win32, support for MacOS X 10.3 Panther, and much more! Look <a
 href="http://developers.videolan.org/vlc/NEWS">here</a> for a complete
 list of changes. To download the sources or the binary package of this
 new version, go to the <a href="http://www.videolan.org/vlc/">VLC
-download page</a> and click on your OS logo!<br>
+download page</a> and click on your OS logo!<br />
 <b>Attention: </b>The first version of the OS X package didn't include
 the Flac decoder. If you experience problems with Flac audio, please
 download again.

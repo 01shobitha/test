@@ -55,6 +55,7 @@
 <li><a href="http://handbrake.m0k.org/">Handbrake</a>: a multi-platform, multithreaded DVD to MPEG-4 ripper/converter.</li>
 <li><a href="http://tcvp.sourceforge.net/">TCVP</a></li>
 <li><a href="http://www.mplayerhq.hu/">MPlayer</a></li>
+<li><a href="http://ffmpeg.sourceforge.net/index.php">FFMPEG</a></li>
 </ul>
 
 <p>If you use x264 in another project, let us know !</p>

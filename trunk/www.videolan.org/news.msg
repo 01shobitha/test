@@ -4,6 +4,11 @@
 # Et pour les nouvelles importantes, c'est pas un | , c'est un §
 #
 
+|26 Feb 2003| Release: vlc for YOPY| The VideoLAN team is proud
+to announce that vlc now works on YOPY/Linupy based PDAs !
+Please have a look at the <a href="/vlc/download-linupy.html">
+download page</a>.
+
 |18 Feb 2003| Release: vlc 0.5.1a for Mac OS X | This is a bug-fix
 release of VLC for Mac OS X only: It fixes the problem with 
 VLC starting up in a different language than your preferred 

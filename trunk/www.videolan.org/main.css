@@ -278,6 +278,34 @@ td.topbarselected {
 }
 
 /* Styles used for the lower navigation bar */
+td.bottomleft {
+  background-color: #aaa;
+  color: #fff;
+
+  margin: 2px;
+
+  border-style: solid;
+  border-color: #a43;
+  border-bottom-width: 1px;
+  border-top-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 0px;
+}
+
+td.bottomright {
+  background-color: #aaa;
+  color: #fff;
+
+  margin: 2px;
+
+  border-style: solid;
+  border-color: #a43;
+  border-bottom-width: 1px;
+  border-top-width: 1px;
+  border-left-width: 0px;
+  border-right-width: 1px;
+}
+
 td.bottombar {
   vertical-align: middle;
   background-color: #aaa;

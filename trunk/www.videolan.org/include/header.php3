@@ -91,6 +91,7 @@ function starthtml($title) { ?>
   </table>
   <table style="width: 100%;" cellspacing="0" cellpadding="0">
   <tr>
+    <td class="bottomleft"></td>
     <? switch($modules[1]) {
       case "vlc": second_bar_vlc($modules[2]); break;
       case "streaming": second_bar_stream($modules[2]); break;
@@ -98,6 +99,7 @@ function starthtml($title) { ?>
       case "support": second_bar_support($modules[2]); break;
       case "home": second_bar_home($modules[2]); break;
     } ?>
+    <td class="bottomright"></td>
   </tr>
   </table>
 

@@ -7,7 +7,7 @@ is a cone" /></a>
 <tr><th class=menu>VideoLAN Client</th></tr>
 <tr><td class=menu>
 <p class=menu><a href="/vlc/ChangeLog">Changelog</a></p>
-<p class=menu><a href="/">Developer doc</a></p>
+<p class=menu><a href="/vlc/doc_devel.html">Developer doc</a></p>
 </td></tr>
 </table>
 <br>
@@ -16,7 +16,7 @@ is a cone" /></a>
 <tr><th class=menu>VideoLAN Server</th></tr>
 <tr><td class=menu>
 <p class=menu><a href="/vls/ChangeLog">Changelog</a></p>
-<p class=menu><a href="/">Developer doc</a></p>
+<p class=menu><a href="/vls/doc_devel.html">Developer doc</a></p>
 </td></tr>
 </table>
 <br>
@@ -25,7 +25,7 @@ is a cone" /></a>
 <tr><th class=menu>libdvdcss</th></tr>
 <tr><td class=menu>
 <p class=menu><a href="/libdvdcss/ChangeLog">Changelog</a></p>
-<p class=menu><a href="/">Developer doc</a></p>
+<p class=menu><a href="/libdvdcss/doc_devel.html">Developer doc</a></p>
 </td></tr>
 </table>
 <br>
@@ -34,7 +34,7 @@ is a cone" /></a>
 <tr><th class=menu>libdvbpsi</th></tr>
 <tr><td class=menu>
 <p class=menu><a href="/libdvbpsi/ChangeLog">Changelog</a></p>
-<p class=menu><a href="/">Developer doc</a></p>
+<p class=menu><a href="/libdvbpsi/doc_devel.html">Developer doc</a></p>
 </td></tr>
 </table>
 <br>

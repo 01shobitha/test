@@ -115,9 +115,15 @@ graphics software might ease the job, though :-)</p>
 <h2>Solar skin</h2>
 <?php AddSkin(
    "solar.png",
-   "Skin made by Piers Cornwell, icons by Jakub Steiner",
+   "Skin made by scahoo",
    "solar.vlt" );
 ?>
 
+<h2>Vplayer skin</h2>
+<?php AddSkin(
+   "vplayer.png",
+   "Skin made by Piers Cornwell, icons by Jakub Steiner",
+   "vplayer.vlt" );
+?>
 
 <?php footer('$Id: download-skins.html 2517 2004-05-23 17:11:06Z ipkiss $'); ?>

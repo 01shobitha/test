@@ -68,10 +68,10 @@ function starthtml($title) { ?>
   <tr>
     <? switch($modules[1]) {
       case "vlc": second_bar_vlc($modules[2]); break;
-      case "streaming": second_bar_stream(); break;
+      case "streaming": second_bar_stream($modules[2]); break;
       case "doc": break;
-      case "support": second_bar_support(); break;
-      case "home": second_bar_home(); break;
+      case "support": second_bar_support($modules[2]); break;
+      case "home": second_bar_home($modules[2]); break;
     } ?>
   </tr>
   </table>
@@ -118,12 +118,27 @@ function get_first_bar_item ( $number , $module , $text , $url , $current_module
   }
 }
 
+/* Give an entire cell html code for the second menubar */
+function get_second_bar_item ( $number , $module , $text , $url , $current_module ) {
+  $size = floor ( 100 / $number );
+  if ( $current_module == $module )
+  {
+     ?><td class="secondbarselected" style="width: <? echo $size; ?>%"><? echo $text; ?></td>
+     <?
+  }
+  else
+  {
+     ?><td class="secondbar" style="width: <? echo $size; ?>%"><a class="firstbar" href="<? echo $url; ?>"><? echo $text; ?></a></td>
+     <?
+  }
+}
+
 /* Second bar for vlc */
 
 function second_bar_vlc($module) { ?>
-<? get_first_bar_item ( 3 , "index.html" , "Download" , "/vlc/index.html" , $module ) ?>
-<? get_first_bar_item ( 3 , "features.html" , "Features" , "/vlc/features.html" , $module ) ?>
-<? get_first_bar_item ( 3 , "screenshots.html" , "Screenshots" , "/vlc/screenshots.html" , $module ) ?>
+<? get_second_bar_item ( 3 , "index.html" , "Download" , "/vlc/index.html" , $module ) ?>
+<? get_second_bar_item ( 3 , "features.html" , "Features" , "/vlc/features.html" , $module ) ?>
+<? get_second_bar_item ( 3 , "screenshots.html" , "Screenshots" , "/vlc/screenshots.html" , $module ) ?>
 <? }
 
 /* Second bar for streaming */

@@ -3,9 +3,9 @@
 # Factorised by Sam Hocevar <sam@zoy.org>
 
 DOC = videolan-faq
+XML_DECL := /usr/lib/sgml/declaration/xml.decl
 LANG = es fr en
 EXT = html pdf rtf txt
-XML_DECL := /usr/lib/sgml/declaration/xml.decl
 
 # The generic rule: build all extensions for all languages
 all: $(LANG)
@@ -21,13 +21,10 @@ $(LANG:%=$(DOC)-%.xml): $(DOC).xml
 
 $(LANG:%=$(DOC)-%.html): %.html: %.xml
 	jade -t sgml -d ../common/stylesheet-html.dsl $(XML_DECL) $^
-	ln -sf $@ index.html
 	zip $(basename $@)-html.zip $@
 
 $(LANG:%=$(DOC)-%.pdf): %.pdf: %.xml
-	jade -t tex -d ../common/stylesheet-print-noicones.dsl -o $(basename $@).tex $(XML_DEC) $^
-	pdfjadetex $(basename $@).tex
-	pdfjadetex $(basename $@).tex
+	jade -t tex -d ../common/stylesheet-print-noicones.dsl -o $(basename $@).tex $(XML_DECL) $^
 	pdfjadetex $(basename $@).tex
 	rm -f *.tex *.out *.aux *.log
 	zip $(basename $@)-pdf.zip $@
@@ -38,7 +35,6 @@ $(LANG:%=$(DOC)-%.rtf): %.rtf: %.xml
 
 $(LANG:%=$(DOC)-%.txt): %.txt: %.xml
 	jade -t sgml -d ../common/stylesheet-txt.dsl -V nochunks $(XML_DECL) $^ > $^.html
-#	w3m -dump $^.html > $@
 	lynx -force_html -dump $^.html > $@
 	rm -f $^.html
 

@@ -15,7 +15,7 @@ href="http://developers.videolan.org/vlc/NEWS">here</a> for a complete
 list of changes. To download the sources or the binary packages of
 this new version, go to the <a href="http://www.videolan.org/vlc/">VLC
 download page</a> and click on your OS logo! WARNING: the first version
-of the Mac OS X package was broken... so if you have problem under Mac
+of the Mac OS X package was broken... so if you have problems under Mac
 OS X, download the package again!
 
 |29 July 2003| Release: libdvdcss 1.2.8 & libdvbpsi 0.1.3| Libdvdcss

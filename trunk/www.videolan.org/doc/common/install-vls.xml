@@ -142,6 +142,7 @@ starten Sie dann</span>
 <para>
 <span xml:lang="en">On Mac OS X, run</span>
 <span xml:lang="fr">Sous Mac OS X, lancez</span>
+<span xml:lang="es">En Mac OS X, ejecute</span>
 <span xml:lang="de">Führen Sie unter Mac OS X aus:</span>
 <screen>
 <prompt># </prompt><userinput>ranlib /usr/local/lib/*.a</userinput>

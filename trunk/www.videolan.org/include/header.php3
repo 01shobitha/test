@@ -42,24 +42,24 @@ function starthtml($title) { ?>
 </head>
 <body>
 
-<table width="100%" cellspacing="3" cellpadding="0"><tr>
-  <td style="background-color: #ffcccc; width: 17%; vertical-align: middle;" align="center"><a href="/">Home</a></td>
-  <td style="background-color: #ffaaaa; width: 16%; vertical-align: middle;" align="center"><a href="/vlc/">VLC Media Player</a></td>
-  <td style="background-color: #ffaaaa; width: 17%; vertical-align: middle;" align="center"><a href="/streaming/">Streaming</a></td>
-  <td style="background-color: #ffaaaa; width: 17%; vertical-align: middle;" align="center"><a href="/doc/">Documentation</a></td>
-  <td style="background-color: #ffaaaa; width: 16%; vertical-align: middle;" align="center"><a href="/support/">Support</a></td>
-  <td style="background-color: #aaffaa; width: 17%; vertical-align: middle;" align="center"><a href="http://developers.videolan.org/">Developers</a></td>
-  <td style="width: 20%; white-space: nowrap">
-    <form action="index.html" method="get">
+<form action="index.html" method="get">
+  <table width="100%" cellspacing="3" cellpadding="0"><tr>
+    <td style="background-color: #ffcccc; width: 17%; vertical-align: middle;" align="center"><a href="/">Home</a></td>
+    <td style="background-color: #ffaaaa; width: 16%; vertical-align: middle;" align="center"><a href="/vlc/">VLC Media Player</a></td>
+    <td style="background-color: #ffaaaa; width: 17%; vertical-align: middle;" align="center"><a href="/streaming/">Streaming</a></td>
+    <td style="background-color: #ffaaaa; width: 17%; vertical-align: middle;" align="center"><a href="/doc/">Documentation</a></td>
+    <td style="background-color: #ffaaaa; width: 16%; vertical-align: middle;" align="center"><a href="/support/">Support</a></td>
+    <td style="background-color: #aaffaa; width: 17%; vertical-align: middle;" align="center"><a href="http://developers.videolan.org/">Developers</a></td>
+    <td style="width: 20%; white-space: nowrap">
       <select name="mirror">
         <option value="www.videolan.org" selected="selected">Select Mirror Site</option>
         <option value="www.videolan.org">Châtenay, France (main)</option>
         <option value="www.fr.videolan.org">Paris, France</option>
       </select><input type="submit" value="Go!" />
-    </form>
-  </td>
+    </td>
 
-</tr></table>
+  </tr></table>
+</form>
 <? }
 
 function menu_videolan() { ?>

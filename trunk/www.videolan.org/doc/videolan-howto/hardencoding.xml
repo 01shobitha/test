@@ -45,27 +45,23 @@ in <filename>src/input/input_clock.c</filename> to work around a problem
 with the card.</para></note>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv pvr:device=0,standard=V4L2_STD_SECAM,width=720,height=576,frequency=567250,
-bitrate=3000000,maxbitrate=4000000 --sout udp:192.168.0.42 --ttl 12</userinput>
+<prompt>% </prompt><userinput>vlc -vvv pvr:/dev/video0:norm=secam:size=720x576:frequency=567250:
+bitrate=3000000:maxbitrate=4000000 --sout udp:192.168.0.42 --ttl 12</userinput>
 </screen>
 
 <para>where :</para>
 
 <itemizedlist>
 
-<listitem><para><emphasis>device=0</emphasis> is the
-number of the device corresponding to the encoding card
-(if it's <emphasis>0</emphasis>, VLC will read from
-<filename>/dev/video0</filename>),</para></listitem>
+<listitem><para><emphasis>/dev/video0</emphasis> is the
+device corresponding to the encoding card,</para></listitem>
 
-<listitem><para><emphasis>standard=V4L2_STD_SECAM</emphasis> is name of
-the standard of the analogic signal,</para></listitem>
+<listitem><para><emphasis>norm=secam</emphasis> is name of
+the standard of the analogic signal (secam, pal and ntsc are the possible values),</para></listitem>
 
-<listitem><para><emphasis>width=720</emphasis> and
-<emphasis>height=576</emphasis> are the size of the video you want to
-stream,</para></listitem>
+<listitem><para><emphasis>size=720x576</emphasis>is the size of the video you want to stream,</para></listitem>
 
-<listitem><para><emphasis>frequency=567250</emphasis> is the frequency
+<listitem><para><emphasis>frequency=567250</emphasis> is the frequency in kHz
 of the channel you want to stream,</para></listitem>
 
 <listitem><para><emphasis>bitrate=3000000</emphasis> is the average

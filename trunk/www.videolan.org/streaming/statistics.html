@@ -2,7 +2,7 @@
    $title = "VideoLAN Server - Streaming statistics list";
    $lang = "en";
    $date = "28 October 2003";
-   $menu = array( "streaming", "features", "statistics" );
+   $menu = array( "streaming", "statistics" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 
@@ -47,7 +47,13 @@
 
 <td class="category"><b>Inputs</b></td>
 <td class="type">v4l</td>
-<td colspan="6" class="yes">See the <a href="/vlc/features.html">VLC features page</a></td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="yes">Yes</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
 
 </tr>
 
@@ -55,13 +61,25 @@
 
 <td class="category" rowspan="4"><b>Output</b></td>
 <td class="type">Unicast UDP / RTP</td>
-<td class="no">no</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
 
 </tr>
 
 <tr>
 
 <td class="type">Multicast UDP / RTP</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
 <td class="no">No</td>
 
 </tr>
@@ -70,12 +88,24 @@
 
 <td class="type">File</td>
 <td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
 
 </tr>
 
 <tr>
 
 <td class="type">HTTP</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
 <td class="no">No</td>
 
 </tr>
@@ -84,6 +114,13 @@
 
 <td class="category"><b>Video Codec</b></td>
 <td class="type">mpeg1</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="Yes">Yes</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
 
 </tr>
 
@@ -91,48 +128,91 @@
 
 <td class="category"><b>Audio Codec</b></td>
 <td class="type">mp3</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="Yes">Yes</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
 
 </tr>
 
 <tr>
 <td class="category" rowspan="3"><b>Misc</b></td>
 <td class="type">Transcoding</td>
-<td class="yes">Yes</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="Yes">Yes</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
 
 </tr>
 
 <tr>
 
 <td class="type">Screen size</td>
-<td class="partial">384x288</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="Yes">384x288</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
 
 </tr>
 
 <tr>
 
 <td class="type">Video bitrate</td>
-<td class="partial">2400</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="Yes">2400</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
 
 </tr>
 
 <tr>
 
 <td class="type">Audio bitrate</td>
-<td class="yes">128</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="Yes">128</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
 
 </tr>
 
 <tr>
 
 <td class="type">CPU Utilization</td>
-<td class="partial">50-60%</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="Yes">50%-60%</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
 
 </tr>
 
 <tr>
 
 <td class="type">CPU frequency</td>
-<td class="partial">P3-750</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="Yes">P3-750 MHz</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
 
 </tr>
 
@@ -140,4 +220,4 @@
 
 <p></p>
 
-<? footer('$Id: statistics.html,v 1.1 2003/10/28 10:09:39 jpsaman Exp $'); ?>
+<? footer('$Id: statistics.html,v 1.2 2003/10/28 10:31:42 jpsaman Exp $'); ?>

@@ -1,7 +1,7 @@
 /* CSS for the VideoLAN website
  * Stolen from the Gnumeric website by Sam :-)
  *
- * $Id: main.css,v 1.72 2003/02/03 04:22:05 sam Exp $ */
+ * $Id: main.css,v 1.73 2003/02/03 04:29:44 sam Exp $ */
 
 body {
   font-family: sans-serif, Helvetica, Arial;
@@ -314,7 +314,7 @@ td.topleft {
   padding-top: 2px;
 
   border-style: solid;
-  border-color: #4a3;
+  border-color: #aaa;
   border-bottom-width: 1px;
   border-top-width: 0px;
   border-left-width: 0px;
@@ -331,7 +331,7 @@ td.topright {
   padding-top: 2px;
 
   border-style: solid;
-  border-color: #4a3;
+  border-color: #aaa;
   border-bottom-width: 1px;
   border-top-width: 0px;
   border-left-width: 1px;
@@ -349,7 +349,7 @@ td.topbar {
   padding-right: 5px;
 
   border-style: solid;
-  border-color: #4a3;
+  border-color: #aaa;
   border-bottom-width: 1px;
   border-top-width: 1px;
   border-left-width: 1px;
@@ -358,7 +358,7 @@ td.topbar {
 
 td.topbarselected {
   vertical-align: middle;
-  background-color: #ffa;
+  background-color: #fd9;
   color: #493;
 
   text-align: center;
@@ -370,7 +370,7 @@ td.topbarselected {
   padding-right: 5px;
 
   border-style: solid;
-  border-color: #4a3;
+  border-color: #aaa;
   border-bottom-width: 0px;
   border-top-width: 1px;
   border-left-width: 1px;
@@ -379,13 +379,13 @@ td.topbarselected {
 
 /* Styles used for the lower navigation bar */
 td.bottomleft {
-  background-color: #ffa;
+  background-color: #fd9;
   color: #fff;
 
   margin: 2px;
 
   border-style: solid;
-  border-color: #4a3;
+  border-color: #aaa;
   border-bottom-width: 1px;
   border-top-width: 0px;
   border-left-width: 1px;
@@ -393,13 +393,13 @@ td.bottomleft {
 }
 
 td.bottomright {
-  background-color: #ffa;
+  background-color: #fd9;
   color: #fff;
 
   margin: 2px;
 
   border-style: solid;
-  border-color: #4a3;
+  border-color: #aaa;
   border-bottom-width: 1px;
   border-top-width: 0px;
   border-left-width: 0px;
@@ -408,7 +408,7 @@ td.bottomright {
 
 td.bottombar {
   vertical-align: middle;
-  background-color: #ffa;
+  background-color: #fd9;
   color: #fff;
 
   text-align: center;
@@ -418,7 +418,7 @@ td.bottombar {
   margin: 2px;
 
   border-style: solid;
-  border-color: #4a3;
+  border-color: #aaa;
   border-bottom-width: 1px;
   border-top-width: 0px;
   border-left-width: 0px;
@@ -427,7 +427,7 @@ td.bottombar {
 
 td.bottombarselected {
   vertical-align: middle;
-  background-color: #ffa;
+  background-color: #fd9;
   color: #493;
 
   text-align: center;
@@ -437,7 +437,7 @@ td.bottombarselected {
   margin: 2px;
 
   border-style: solid;
-  border-color: #4a3;
+  border-color: #aaa;
   border-bottom-width: 1px;
   border-top-width: 0px;
   border-left-width: 0px;
@@ -446,7 +446,7 @@ td.bottombarselected {
 
 h2.h2poukram {
   color: #493;
-  background-color: #ffa;
+  background-color: #fd9;
   margin: 0;
   text-decoration: none;
 
@@ -456,7 +456,7 @@ h2.h2poukram {
   padding-right: 5px;
 
   border-style: solid;
-  border-color: #4a3;
+  border-color: #aaa;
   border-bottom-width: 1px;
   border-top-width: 1px;
   border-left-width: 1px;

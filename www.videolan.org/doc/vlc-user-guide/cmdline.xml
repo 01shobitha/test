@@ -187,6 +187,17 @@ VLCs Streamausgabe) zu empfangen, starten Sie VLC mit</span>
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv http://www.example.org/your_file.mpg</userinput>
 </screen>
+ra>
+
+<para>
+<span xml:lang="en">To receive a RTSP stream, start VLC with</span>
+<span xml:lang="fr">Pour recevoir un flux RTSP, lancez VLC avec</span>
+<span xml:lang="de">Um einen RTSP-Stream zu empfangen, starten Sie VLC mit</span>
+ :</para>
+                                                                                
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv rtsp://www.example.org/your_stream</userinput>
+</screen>
 
 </sect2>
 </sect1>

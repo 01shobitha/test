@@ -166,6 +166,13 @@ es VLC normalerweise tun würde. Wenn dieses Modul gemeinsam mit dem
 Stream während des Sendens betrachten</span>
 .</para></listitem>
 
+<listitem><para><emphasis>rtp</emphasis>
+<span xml:lang="en">streams over RTP (one UDP port for each elementary stream)</span>
+<span xml:lang="fr">envoie en RTP (un port UDP par flux élémentaire)</span>
+<span xml:lang="es">FIXME</span>
+<span xml:lang="de">FIXME</span>
+.</para></listitem>
+
 <listitem><para><emphasis>es</emphasis> 
 <span xml:lang="en">allows you to make separate Elementary Streams (ES)
 out of an input stream</span>
@@ -604,6 +611,57 @@ Prozessorleistung)</span>
 </itemizedlist>
 
 </sect3>
+
+<sect3><title>rtp</title>
+<para>
+<span xml:lang="en">Sends a stream over RTP</span>
+<span xml:lang="fr">envoie un stream en RTP</span>
+<span xml:lang="es">FIXME</span>
+<span xml:lang="de">FIXME</span>
+</para>
+
+<para>
+<span xml:lang="en">Options:</span>
+<span xml:lang="fr">Options:</span>
+<span xml:lang="es">Options:</span>
+<span xml:lang="de">Optionen:</span>
+</para>
+
+<itemizedlist>
+                                                                                
+<listitem><para><emphasis>dst</emphasis>:
+<span xml:lang="en">destination IP address (unicast or multicast)</span>
+<span xml:lang="fr">Addresse IP de destination (unicast ou multicast)</span>
+<span xml:lang="es">FIXME</span>
+<span xml:lang="de">FIXME</span>
+.</para></listitem>
+
+<listitem><para><emphasis>port</emphasis>:
+<span xml:lang="en">destination UDP port</span>
+<span xml:lang="fr">port UDP de destination</span>
+<span xml:lang="es">FIXME</span>
+<span xml:lang="de">FIXME</span>
+.</para></listitem>
+
+<listitem><para><emphasis>sdp</emphasis>:
+<span xml:lang="en">how to send the sdp file: <emphasis>http://server_ip:server_port/path</emphasis> for http, or <emphasis>rtsp://server_ip:server_port/path</emphasis> for rtsp, where <emphasis>server_ip</emphasis> is the address of one of the server's interface, and <emphasis>path</emphasis> where the sdp file will be accessible on the server</span>
+<span xml:lang="fr">La façon d'envoyer le fichier sdp <emphasis>http://server_ip:server_port/path</emphasis> pour de l'http, ou <emphasis>rtsp://server_ip:server_port/path</emphasis> pour du rtsp, où <emphasis>server_ip</emphasis> est l'adresse d'une dezs interfaces du serveur, et <emphasis>path</emphasis> l'emplacement ou le fichier sdp sera accessible sur le serveur</span>
+<span xml:lang="es">FIXME</span>
+<span xml:lang="de">FIXME</span>
+.</para></listitem>
+
+<note><para>
+<span xml:lang="en">When using <emphasis>sdp=rtsp</emphasis>, it is possible not to give any destination address. VLC will then send the stream to any client that connects to it</span>
+<span xml:lang="fr">Avec l'option <emphasis>sdp=rtsp</emphasis>, il est possible de ne pas donner d'adresse de destination. VLC envoiera le flux à tout client se connectant au serveur.</span>
+<span xml:lang="es">FIXME</span>
+<span xml:lang="de">FIXME</span>
+.</para></note>
+
+</itemizedlist>
+
+
+
+<sect3>
 
 <sect3><title>es</title>
 

@@ -303,10 +303,10 @@ standard{access=http,mux=ogg,url=server.example.org:8080}'</userinput>
 </title>
 
 <para>
-<span xml:lang="en">Stream in RTP</span>
-<span xml:lang="fr">Diffusez en RTP</span>
-<span xml:lang="es">Transmitir en RTP</span>
-<span xml:lang="de">Streamen per RTP</span>
+<span xml:lang="en">Stream in RTP/RTSP</span>
+<span xml:lang="fr">Diffusez en RTP/RTSP</span>
+<span xml:lang="es">Transmitir en RTP/RTSP</span>
+<span xml:lang="de">Streamen per RTP/RTSP</span>
 :</para>
 
 <itemizedlist>
@@ -321,6 +321,13 @@ standard{access=http,mux=ogg,url=server.example.org:8080}'</userinput>
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#rtp{dst=192.168.0.12,port=1234,sdp=http://server.example.org:8080/test.sdp}'</userinput>
 </screen>
+<span xml:lang="en">or</span>
+<span xml:lang="fr">ou</span>
+<span xml:lang="es">FIXME</span>
+<span xml:lang="de">oder</span>
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#rtp{dst=192.168.0.12,port=1234,sdp=rtsp://server.example.org:8080/test.sdp}'</userinput>
+</screen>
 
 </listitem>
 
@@ -334,6 +341,23 @@ standard{access=http,mux=ogg,url=server.example.org:8080}'</userinput>
 <screen>
 <prompt>% </prompt><userinput>vlc http://server.example.org:8080/test.sdp</userinput>
 </screen>
+<span xml:lang="en">or</span>
+<span xml:lang="fr">ou</span>
+<span xml:lang="es">FIXME</span>
+<span xml:lang="de">oder</span>
+<screen>
+<prompt>% </prompt><userinput>vlc rtsp://server.example.org:8080/test.sdp</userinput>
+</screen>
+
+<note><para>
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#rtp{port=1234,sdp=rtsp://server.example.org:8080/test.sdp}'</userinput>
+</screen>
+<span xml:lang="en">will allow the server to send the stream to any client requesting it</span>
+<span xml:lang="fr">permet au serveur d'envoyer le flux à tout client en faisant la demande</span>
+<span xml:lang="es">FIXME</span>
+<span xml:lang="de">FIXME</span>
+.</para></note>
 
 </listitem>
 

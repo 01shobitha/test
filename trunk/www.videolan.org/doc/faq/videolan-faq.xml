@@ -776,9 +776,10 @@ input stream and only has PS and TS demxuers. So VLS is good at
 streaming from trusted video and/or audio sources in PS or TS format
 produced by professional software or hardware like DVDs and DVB channels
 (satellite or digital terrestial TV) because it only regenerate the
-system layers that need to be regenerated, and no more. VLS only
-has a TS muxer, doesn't do transcoding and doesn't have graphical
-interfaces.</span>
+system layers that need to be regenerated, and no more. VLS is specially
+well designed to stream multiplexed TS streams, for instance a whole DVB
+transponder. VLS only has a TS muxer, doesn't do transcoding and doesn't
+have graphical interfaces.</span>
 
 <span xml:lang="es">VLS es bueno volcando (streaming) DVDs, canales
 satélite y terrestres digitales de TV, pero no hace transcoding.</span>
@@ -787,10 +788,12 @@ satélite y terrestres digitales de TV, pero no hace transcoding.</span>
 élevées du flux d'entrée and n'a que des démuxers PS et TS. Donc VLS es
 bon pour diffuser depuis des sources video et/ou audio fiables au format
 PS ou TS produites par du matériel ou des logiciels professionnels
-comme les DVDs ou les chaînes DVB (chaînes satellites ou chaînes de la
-télévision numérique terrestre) car il ne regénère que les couches
-systèmes qui doivent être regénérées, sans plus. VLC n'a qu'un muxer TS,
-ne fait pas de transcoding et n'a pas d'interface graphique.</span>
+comme les DVDs ou les chaînes DVB (chaînes satellites ou chaînes de
+la télévision numérique terrestre) car il ne regénère que les couches
+systèmes qui doivent être regénérées, sans plus. VLS est particulièrement
+bien conçu pour diffuser des flux TS multiplexés, comme par exemple un
+transpondeur satellite entier. VLS n'a qu'un muxer TS, ne fait pas de
+transcoding et n'a pas d'interface graphique.</span>
 
 <span xml:lang="de">VLS ist gut darin DVDs, Satelliten-Kanäle und
 digitale, terrestische TV-Kanäle zu streamen, unterstützt jedoch keine

@@ -161,7 +161,7 @@ Get the most recent version of the VideoLAN Server from the public CVS :
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>cvs -d:pserver:anonymous@cvs:/cvs/videolan login</userinput>
+<prompt>% </prompt><userinput>cvs -d:pserver:anonymous@cvs.videolan.org:/cvs/videolan login</userinput>
 </screen>
 
 <para>
@@ -169,7 +169,7 @@ There is no password. Type enter, then :
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>cvs -d:pserver:anonymous@cvs:/cvs/videolan checkout -P -r v0_4_5 vls</userinput>
+<prompt>% </prompt><userinput>cvs -d:pserver:anonymous@cvs.videolan.org:/cvs/videolan checkout -P -r v0_4_5 vls</userinput>
 </screen>
 
 <para>

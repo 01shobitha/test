@@ -1,0 +1,4 @@
+overview;Overview;/support/
+report;Report a bug;/support/bug-reporting.html
+mail;Mailing-lists;/support/lists.html
+irc;IRCWeb;http://www.videolan.org/cgi-bin/irc/irc.cgi

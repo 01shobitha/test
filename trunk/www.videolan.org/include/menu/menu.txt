@@ -1,0 +1,6 @@
+home;Home;/;home.gif
+vlc;VLC Media Player;/vlc/;cone.gif
+streaming;Streaming;/streaming/;streaming.gif
+doc;Documentation;/doc/;doc.gif
+support;Support;/support/;support.gif
+developers;Developers;http://developers.videolan.org/;tool.gif

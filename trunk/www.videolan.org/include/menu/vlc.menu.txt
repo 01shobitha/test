@@ -1,0 +1,3 @@
+download;Download;/vlc/
+features;Features;/vlc/features.html
+screenshots;Screenshots;/vlc/screenshots.html

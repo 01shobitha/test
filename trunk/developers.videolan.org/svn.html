@@ -80,30 +80,31 @@ of the trunk at different times.</p>
 <p>
    Never download a full svn tree! It would download several hundreds of
 megabytes. Instead, only get the trunk directory, like that:
+</p>
 <pre>
     $ svn co svn://svn.videolan.org/trunk vlc-trunk
-</pre>
+</pre><p>
    If you need a specific branch or tag, (eg. branch 0.2), use this:
-<pre>
+</p><pre>
     $ svn co svn://svn.videolan.org/branches/0.2 vlc-0.2
-</pre>
+</pre><p>
    If you need to know which branches are available, use "svn ls":
-<pre>
+</p><pre>
     $ svn ls svn://svn.videolan.org/branches/
     0.2
     0.2.92
     0.4.1
     $
-</pre>
+</pre><p>
 Note that you only need to authenticate yourself when you want to commit something. You do not need to enter a password when you checkout the sources.
 </p>
 
 <p><b>Moving files</b></p>
 <p>
    No longer create new files from scratch when moving files! Use "svn mv":
-<pre>
+</p><pre>
     $ svn mv file1 file2
-</pre>
+</pre><p>
    It also works for entire directories.
 </p>
 
@@ -111,13 +112,13 @@ Note that you only need to authenticate yourself when you want to commit somethi
 <p>
    Do not create a new file from scratch! Instead, copy the old file
 using "svn cp", remove the old file and modify both newly created files:
-<pre>
+</p><pre>
     $ svn cp old new1
     $ svn cp old new2
     $ svn delete old
     [edit new1 and new2]
     $ svn commit
-</pre></p>
+</pre>
 
 <p><b>Getting information about locally modified files</b></p>
 <p>
@@ -134,17 +135,17 @@ want to show your local modifications.
 <p>
    There is no filesystem equivalent to .cvsignore. Instead, metadata
 are used. To edit the ignore list for a given directory, use this:
-<pre>
+</p><pre>
     $ svn propedit svn:ignore mydirectory
-</pre></p>
+</pre>
 
 <p><b>$Id:</b></p>
 <p>
    $Id is no longer automatically taken in account; instead, it has to
 be activated in a per-file basis using properties:
-<pre>
+</p><pre>
     $ svn propedit svn:keywords myfile
-</pre>
+</pre><p>
    Just add "Id" to the list of properties.
 </p>
 

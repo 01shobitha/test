@@ -37,7 +37,7 @@ $(LANG:%=$(DOC)-%.ps): %.ps: %.xml
 
 $(LANG:%=$(DOC)-%.pdf): %.pdf: %.xml
 	cp ../common/magic-jpg.xml ../common/magic.xml
-	jade -t tex -d ../common/stylesheet-print-noicones.dsl -o $(basename $@).tex $^
+	jade -t tex -d ../common/stylesheet-print-noicones.dsl -o $(basename $@).tex $(XML_DEC) $^
 	pdfjadetex $(basename $@).tex
 	pdfjadetex $(basename $@).tex
 	pdfjadetex $(basename $@).tex

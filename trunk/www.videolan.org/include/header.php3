@@ -48,11 +48,11 @@ function starthtml($title) { ?>
 
 ?><form action="index.html" method="get">
   <table width="100%" cellspacing="3" cellpadding="0"><tr>
-    <td style="background-color: <?=$color_home?>; width: 17%; vertical-align: middle;" align="center"><a href="/">Home</a></td>
-    <td style="background-color: <?=$color_vlc?>; width: 16%; vertical-align: middle;" align="center"><a href="/vlc/">VLC Media Player</a></td>
-    <td style="background-color: <?=$color_streaming?>; width: 17%; vertical-align: middle;" align="center"><a href="/streaming/">Streaming</a></td>
-    <td style="background-color: <?=$color_doc?>; width: 17%; vertical-align: middle;" align="center"><a href="/doc/">Documentation</a></td>
-    <td style="background-color: <?=$color_support?>; width: 16%; vertical-align: middle;" align="center"><a href="/support/">Support</a></td>
+    <td style="background-color: <?=$color_home;?>; width: 17%; vertical-align: middle;" align="center"><a href="/">Home</a></td>
+    <td style="background-color: <?=$color_vlc;?>; width: 16%; vertical-align: middle;" align="center"><a href="/vlc/">VLC Media Player</a></td>
+    <td style="background-color: <?=$color_streaming;?>; width: 17%; vertical-align: middle;" align="center"><a href="/streaming/">Streaming</a></td>
+    <td style="background-color: <?=$color_doc;?>; width: 17%; vertical-align: middle;" align="center"><a href="/doc/">Documentation</a></td>
+    <td style="background-color: <?=$color_support;?>; width: 16%; vertical-align: middle;" align="center"><a href="/support/">Support</a></td>
     <td style="background-color: #aaffaa; width: 17%; vertical-align: middle;" align="center"><a href="http://developers.videolan.org/">Developers</a></td>
     <td class="nowrap">
       <select name="mirror">

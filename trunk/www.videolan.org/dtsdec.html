@@ -16,11 +16,13 @@
 
 <p><span style="color: red;"><b>BIG FAT WARNING: libdts is still in early development stage so don't expect too much of it</b></span></p>
 
-<p>Right now, I am concentrating on finishing the implementation of the core part or the specification.</p>
+<p>Right now, I am concentrating on finishing the implementation of the core part of the specification. The library should however already be quite useable.</p>
 
-<p>A few things are still lacking there but they should mainly affect low-bitrate DTS streams which don't seem that common anyway (some of the missing things are: Joint channels coding, High frequencies VQ, etc... - see the TODO file).</p>
+<p>A few things are still lacking there but they should mainly affect low-bitrate DTS streams which don't seem that common anyway (some of the missing things are: Joint channels coding, High frequencies VQ, Dynamic range, etc... - see the TODO file).</p>
 
 <p>There might also be quality issues, but for some early code it does seem pretty decent to me.</p>
+
+<p>None of the extensions (extra channels, 96/192kHz sample rates) have been implemented (and unfortunately the public standard provides only minimal information on them).</p>
 
 <h2>Getting libdts</h2>
 
@@ -30,8 +32,24 @@
 
 <p># svn co svn://svn.zoy.org/dtsdec</p>
 
+<h2>Support</h2>
+
+<p>See the support information <a href="http://www.videolan.org/support/">here</a></p>
+
+<p>A <a href="http://developers.videolan.org/lists.html">libdts-devel</a> mailing list is also available</p>
+
+<h2>Projects using libdts</h2>
+
+<ul>
+
+<li>VLC media player (http://www.videolan.org/) a cross-platform video player and streaming solution.</li>
+
+</ul>
+
+If you use libdts in another project, let me know !
+
 <h2>Where to find DTS Coherent Acoustics samples</h2>
 
 <p>Some very good samples are available on the <a href="http://www.sr.se/multikanal/english/e_index.stm">swedish radio website</a>.</p>
 
-<? footer('$Id: dtsdec.html,v 1.6 2004/02/08 22:22:47 gbazin Exp $'); ?>
+<? footer('$Id: dtsdec.html,v 1.7 2004/02/10 18:21:12 gbazin Exp $'); ?>

@@ -147,6 +147,18 @@ td.no {
   background-color: #fcc;
   vertical-align: middle;
 }
+td.partial {
+  color: black;
+  background-image: none;
+  background-color: #ffa;
+  vertical-align: middle;
+}
+td.none {
+  color: black;
+  background-image: none;
+  background-color: #fff;
+  vertical-align: middle;
+}
 td.type {
   color: black;
   background-image: none;

@@ -1,0 +1,659 @@
+<?
+   $title = "VideoLAN Client - Features";
+   $lang = "en";
+   $date = "11 January 2002";
+   require("header.php3");
+?>
+
+<h1>Features of the VideoLAN Client</h1>
+
+<p></p>
+
+<table>
+
+<table border="0">
+
+<tr>
+
+<th></th>
+<th></th>
+<th class="os"><img src="/images/windows.gif" alt="Windows"></th>
+<th class="os"><img src="/images/macosx.gif" alt="Mac OS X"></th>
+<th class="os"><img src="/images/linux.gif" alt="Linux"></th>
+<th class="os"><img src="/images/beos.gif" alt="BeOS"></th>
+<th class="os"><img src="/images/openbsd.gif" alt="*BSD"></th>
+
+</tr>
+
+<tr>
+
+<td class="category" rowspan="9"><b>Inputs</b></td>
+<td class="type">Unicast</td>
+<td class="yes">UDP and RTP</td>
+<td class="yes">UDP and RTP</td>
+<td class="yes">UDP and RTP</td>
+<td class="yes">UDP and RTP</td>
+<td class="yes">UDP and RTP</td>
+
+</tr>
+
+<tr>
+
+<td class="type">Multicast</td>
+<td class="yes">UDP and RTP</td>
+<td class="yes">UDP and RTP</td>
+<td class="yes">UDP and RTP</td>
+<td class="no">No</td>
+<td class="yes">UDP and RTP</td>
+
+</tr>
+
+<tr>
+
+<td class="type">HTTP</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">FTP</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+
+</tr>
+
+<tr>
+
+<td class="type">MMS</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">File</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">DVD</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">VCD</td>
+<td class="no">No</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="no">No</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">Satellite</td>
+<td class="no">No</td>
+<td class="yes">Hauppauge Nova</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
+
+</tr>
+
+<tr>
+
+<td class="category" rowspan="10"><b>Video Codecs</b></td>
+<td class="type">MPEG 1</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">MPEG 2</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">MPEG 4</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">DivX</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">SVQ 1</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">Xvid</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+
+</tr>
+
+<tr>
+
+<td class="type">DV</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+
+</tr>
+
+<tr>
+
+<td class="type">Cinepak</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+
+</tr>
+
+<tr>
+
+<td class="type">Tarkin</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+
+</tr>
+
+<tr>
+
+<td class="type">Theora</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+
+</tr>
+
+<tr>
+
+<td class="category" rowspan="6"><b>Video Filters</b></td>
+<td class="type">Deinterlace</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">Crop</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">Image Wall</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">Brightness / Saturation / Contrast</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">Rotate</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">Up side down</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+
+
+<tr>
+
+<td class="category" rowspan="6"><b>Video Output</b></td>
+<td class="type">Native</td>
+<td class="yes">DirectX / GDI</td>
+<td class="yes">Yes</td>
+<td class="yes">X11 / Xvideo</td>
+<td class="yes">Yes</td>
+<td class="yes">X11 / Xvideo</td>
+
+</tr>
+
+<tr>
+
+<td class="type">SDL</td>
+<td class="yes">Yes</td>
+<td class="partial">Untested</td>
+<td class="yes">Yes</td>
+<td class="partial">Untested</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">Framebuffer</td>
+<td class="none"></td>
+<td class="none"></td>
+<td class="yes">Yes</td>
+<td class="none"></td>
+<td class="none"></td>
+
+</tr>
+
+<tr>
+
+<td class="type">ASCI art</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="yes">Yes</td>
+<td class="no">No</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">MGA</td>
+<td class="none"></td>
+<td class="none"></td>
+<td class="yes">Yes</td>
+<td class="none"></td>
+<td class="none"></td>
+
+</tr>
+
+<tr>
+
+<td class="type">GGI</td>
+<td class="none"></td>
+<td class="none"></td>
+<td class="yes">Yes</td>
+<td class="none"></td>
+<td class="partial">Untested</td>
+
+</tr>
+
+
+
+<tr>
+
+<td class="category" rowspan="8"><b>Audio Codecs</b></td>
+<td class="type">MPEG Layer 1 and 2</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">MP3</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">AC3 (i.e. A52)</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">LPCM</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">AAC</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+
+</tr>
+
+<tr>
+
+<td class="type">Vorbis</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+
+</tr>
+
+<tr>
+
+<td class="type">WMA</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+
+</tr>
+
+<tr>
+
+<td class="type">Wav</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+
+</tr>
+
+<tr>
+
+<td class="category" rowspan="5"><b>Audio Output</b></td>
+<td class="type">Native</td>
+<td class="yes">DirectX / WavOut</td>
+<td class="yes">Yes</td>
+<td class="yes">OSS / ALSA</td>
+<td class="yes">Yes</td>
+<td class="yes">OSS</td>
+
+</tr>
+
+<tr>
+
+<td class="type">SDL</td>
+<td class="yes">Yes</td>
+<td class="partial">Untested</td>
+<td class="yes">Yes</td>
+<td class="partial">Untested</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">ESD</td>
+<td class="none"></td>
+<td class="none"></td>
+<td class="yes">Yes</td>
+<td class="none"></td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">aRts</td>
+<td class="none"></td>
+<td class="none"></td>
+<td class="yes">Yes</td>
+<td class="none"></td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">File</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="category" rowspan="6"><b>Interfaces</b></td>
+<td class="type">Native</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="none"></td>
+<td class="yes">Yes</td>
+<td class="none"></td>
+
+</tr>
+
+<tr>
+
+<td class="type">GTK+</td>
+<td class="yes">Yes</td>
+<td class="none"></td>
+<td class="yes">Yes</td>
+<td class="none"></td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">Gnome</td>
+<td class="none"></td>
+<td class="none"></td>
+<td class="yes">Yes</td>
+<td class="none"></td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">QT</td>
+<td class="none"></td>
+<td class="none"></td>
+<td class="yes">Yes</td>
+<td class="none"></td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">KDE</td>
+<td class="none"></td>
+<td class="none"></td>
+<td class="yes">Yes</td>
+<td class="none"></td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">WxWindows</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="none"></td>
+<td class="partial">CVS only</td>
+
+</tr>
+
+<tr>
+
+<td class="category" rowspan="3"><b>Service Information</b></td>
+<td class="type">VLCS</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">SAP / SDP</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+
+</tr>
+
+<tr>
+
+<td class="type">SLP</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="partial">CVS only</td>
+<td class="none"></td>
+<td class="partial">CVS only</td>
+
+</tr>
+
+<tr>
+
+<td class="category" rowspan="3"><b>Misc</b></td>
+<td class="type">Command line</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">Remote Control</td>
+<td class="none"></td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">Infrared</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="yes">Yes</td>
+<td class="no">No</td>
+<td class="partial">Untested</td>
+
+</tr>
+
+</table>
+
+<? require("footer.php3"); ?>

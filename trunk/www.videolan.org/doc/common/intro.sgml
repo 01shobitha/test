@@ -23,8 +23,8 @@ The VideoLAN solution includes :
 
 <itemizedlist>
 
-<listitem><para>the VideoLAN Server (VLS), which can stream MPEG-1 and
-MPEG-2 files, DVDs, digital satellite channels, digital terrestial
+<listitem><para>the VideoLAN Server (VLS), which can stream MPEG-1,
+MPEG-2 and MPEG-4 files, DVDs, digital satellite channels, digital terrestial
 television channels and live videos on the network in unicast or
 multicast,</para>
 
@@ -63,7 +63,8 @@ More details about the project can be found on the
 <para>
 
 The VideoLAN Client (VLC) works on many platforms : Linux, Windows, Mac
-OS X, BeOS, *BSD, Solaris, Familiar Linux and QNX. It can read :
+OS X, BeOS, *BSD, Solaris, Familiar Linux, Yopy/Linupy and QNX. It can
+read :
 
 </para>
 
@@ -117,7 +118,7 @@ The VideoLAN Server (VLS) can stream :
 
 <itemizedlist>
 
-<listitem><para>an MPEG-1 or MPEG-2 file stored on a hard drive or on a
+<listitem><para>an MPEG-1, MPEG-2 or MPEG-4 files stored on a hard drive or on a
 CD,</para>
 
 <listitem><para>a DVD located in a local DVD drive or copied on a hard
@@ -154,9 +155,7 @@ drive and the network connection.
 
 <para>
 
-VLS works under Linux and Windows, but only the Linux version
-have all the functionalities. The Windows port of vls can
-only stream a video from a file.
+VLS works under Linux only.
 
 </para>
 

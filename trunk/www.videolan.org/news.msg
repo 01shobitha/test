@@ -13,6 +13,14 @@ visit <a href="http://www.via.ecp.fr/via/journeevia2003.html">this
 page</a>. To receive an invitation, send a mail to <a
 href="mailto:journee2003@via.ecp.fr">journee2003@via.ecp.fr</a>.
 
+|11 Mar 2003| Release: VLS 0.5.0 | This major release features a
+new command line interface, support for the new LinuxTV drivers
+(which brings support for the streaming of digital terrestial
+television channels), MPEG-4 TS support and many bug fixes. Because
+of a well hidden bug, VLS is not available under Windows any
+more. To download the sources of this new version, got to the <a
+href="http://www.videolan.org/streaming/">streaming page</a>.
+
 |10 Mar 2003| Release: libdvdcss 1.2.6 | This is a bug
 fix release of libdvdcss, a DVD decryption library used
 by VLC and many other GPL media players. See the <a

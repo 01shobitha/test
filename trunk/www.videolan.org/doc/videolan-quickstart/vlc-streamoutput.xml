@@ -17,7 +17,7 @@
 </title>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv video1.xyz --sout udp://client.example.org</userinput>
+<prompt>% </prompt><userinput>vlc -vvv video1.xyz --sout udp:client.example.org</userinput>
 </screen>
 
 <span xml:lang="en">
@@ -56,7 +56,7 @@ instead).</para>
 </title>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv dvdold:/dev/dvd --sout udp://client.example.org</userinput>
+<prompt>% </prompt><userinput>vlc -vvv dvdold:/dev/dvd --sout udp:client.example.org</userinput>
 </screen>
 
 <span xml:lang="en">
@@ -150,7 +150,7 @@ stream even if there are multiple clients receiving it.</para>
 
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv video1.xyz --sout udp://239.255.12.42 --ttl 12</userinput>
+<prompt>% </prompt><userinput>vlc -vvv video1.xyz --sout udp:239.255.12.42 --ttl 12</userinput>
 </screen>
 
 <span xml:lang="en">

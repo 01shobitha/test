@@ -1,0 +1,25 @@
+<?
+   $title = "VLC for Zaurus";
+   $lang = "en";
+   $date = "18 August 2003";
+   $menu = array( "vlc", "download" );
+   require("header.php3");
+?>
+
+<? function pkgitem($version,$name) { ?><li><a href="/pub/videolan/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
+
+<h1>VLC for Zaurus</h1>
+
+<p>Download and install the following packages:</p>
+
+<ul>
+<?
+     pkgitem("vlc/ipkg-feed/armv4l/v0.5.3/zaurus/zaurus-libsdl_1.2.5_arm.ipk", "zaurus-libsdl_1.2.5_arm.ipk");
+     pkgitem("vlc/ipkg-feed/armv4l/v0.5.3/zaurus/libffmpeg_0.4.6_20030304_arm.ipk", "libffmpeg_0.4.6_20030304_arm.ipk");
+     pkgitem("vlc/ipkg-feed/armv4l/v0.5.3/zaurus/zaurus-vlc_0.5.3_arm.ipk", "zaurus-vlc_0.5.3_arm.ipk");
+?>
+</ul>
+
+<p><b>Note:</b> help is required to give more instructions on this page !</p>
+
+<? footer('$Id: download-zaurus.html,v 1.1 2003/08/18 08:21:58 alexis Exp $'); ?>

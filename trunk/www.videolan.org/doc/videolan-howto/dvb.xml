@@ -21,17 +21,41 @@ numérique terrestre)</span>
 <para>
 <span xml:lang="en">If you want to be able to stream from a DVB card (a
 satellite card or a digital terrestial TV card), you need to install the
-DVB drivers. Download the latest release of the DVB drivers from the
-<ulink url="http://www.linuxtv.org/download/dvb/">DVB drivers download
+DVB drivers:</span>
+
+</para>
+
+<itemizedlist>
+
+<listitem><para>
+
+<span xml:lang="en">if you use a Linux 2.6.x kernel, you just need to
+compile the right modules ;</span>
+
+<span xml:lang="fr">si vous utilisez un noyau Linux 2.6.x, il vous suffit de
+compiler les bons modules ;</span>
+
+</para></listitem>
+
+<listitem><para>
+
+<span xml:lang="en">if you are using a Linux 2.4.x
+kernel, you must download the latest release of the DVB drivers from the <ulink
+url="http://www.linuxtv.org/download/dvb/">DVB drivers download
 page</ulink> of the <ulink url="http://www.linuxtv.org/">LinuxTV</ulink>
-Project</span>
-<span xml:lang="fr">Si vous désirez diffuser depuis une carte
-DVB ( satellite ou télévision numérique terrestre), vous devez
-installer les drivers DVB. Téléchargez la dernière version
-depuis la <ulink url="http://www.linuxtv.org/download/dvb/">page
-de téléchargement des drivers DVB</ulink> du projet <ulink
-url="http://www.linuxtv.org/">LinuxTV</ulink></span>
-.</para>
+Project.</span>
+
+<span xml:lang="fr">si vous utilisez un noyau Linux 2.4.x,
+vous devez télécharger la dernière version des drivers DVB depuis la
+<ulink url="http://www.linuxtv.org/download/dvb/">page de
+téléchargement des drivers DVB</ulink> du projet <ulink
+url="http://www.linuxtv.org/">LinuxTV</ulink>.</span>
+
+</para></listitem>
+
+</itemizedlist>
+
+
 
 <para>
 <span xml:lang="en">Uncompress the tarball and follow the instructions
@@ -123,4 +147,52 @@ IP (cela signifie qu'ils pourront traverser 11 routeurs)</span>
 
 </sect1>
 
+<sect1><title>Stream with VLC</title>
+
+<note><para>For this, you must use the CVS version of VLC and compile
+it with <command>./configure --enable-dvb</command> This feature should
+still be considered as experimental.</para></note>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv --program 8211 dvb:12597000:0:3:27500000 --sout udp:192.168.0.12 --ttl 12</userinput>
+</screen>
+
+<para>where :</para>
+
+<itemizedlist>
+
+<listitem><para><filename>8211</filename> is the PID of the DVB channel
+you would like to stream ??? ;</para></listitem>
+
+<listitem><para><filename>12597000</filename> is ???? ;</para></listitem>
+
+<listitem><para><filename>0</filename> is ???? ;</para></listitem>
+
+<listitem><para><filename>3</filename> is ???? ;</para></listitem>
+
+<listitem><para><filename>27500000</filename> is ???? ;</para></listitem>
+
+<listitem><para><emphasis>192.168.0.12</emphasis> is either :</para>
+
+<itemizedlist>
+
+<listitem><para>the IP address of the machine you want to unicast to
+;</para></listitem>
+
+<listitem><para>or the DNS name the machine you want to unicast to
+;</para></listitem>
+
+<listitem><para>or the multicast IP address.</para></listitem>
+
+</itemizedlist>
+
+</listitem>
+
+<listitem><para><emphasis>12</emphasis> is the value of the TTL (Time To
+Live) of your IP packets (which means that the stream will be
+able to cross 11 routers).</para></listitem>
+
+</itemizedlist>
+
+</sect1>
 </chapter>

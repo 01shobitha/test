@@ -41,7 +41,6 @@ clean: clean-recursive
 		|| exit $$? ; \
 	done
 
-
 %.html: %.php $(ROOT)Makefile
 	@echo "Preprocessing $@ ..."
 	@rm -f $@.tmp

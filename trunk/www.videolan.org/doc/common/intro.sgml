@@ -36,7 +36,7 @@ display MPEG streams under multiple operating systems.</para>
 <figure><title>Global VideoLAN solution</title>
 <mediaobject>
   <imageobject>
-    <imagedata fileref="plan-videolan-640.&magic;" format="&magic;" scalefit="1" scale="60">
+    <imagedata fileref="images/plan-videolan.&magic;" format="&magic;" scalefit="1" scale="60">
   </imageobject>
 </mediaobject>
 </figure>
@@ -226,18 +226,63 @@ server <emphasis>irc.freenode.net</emphasis>, channel
 url="http://www.videolan.org/support/bug-reporting.html">bug reporting
 page</ulink>.</para>
 
-<sect1><title>Convention</title>
+<sect1><title>Command line vs. graphical interfaces</title>
 
-<simplesect><title>Windows users</title>
+<para>VLC has many different graphical interfaces, that are organized
+quite differently in order to be in harmony with the guidelines of
+each Operating System supported. Documenting the use of each graphical
+interface is too long, and some features are only available via the
+command line interface. Therefore we decided to document only the
+command line interface, but in many cases it shouldn't be difficult to
+guess how to use the graphical interface for the same use !</para>
 
-<para>Some features are currently only available using
-the command line interface of VLC. To run such commands, use the Windows
-command line tool.</para>
+<sect2><title>Open a command tool</title>
 
-<simplesect><title>Unix users</title>
+<simplesect><title>under Windows</title>
 
-<para>Unix systems users : in this document, we adopt the following
-conventions for the Unix commands :</para>
+<para>Click on <emphasis>Start</emphasis>, <emphasis>Run</emphasis> and
+type :</para>
+
+<itemizedlist>
+
+<listitem><para><command>cmd</command> and <keycap>Enter</keycap> under
+Windows 2000 / XP,</para>
+
+<listitem><para><command>command</command> and <keycap>Enter</keycap>
+under Windows 95 / 98 / ME.</para>
+
+</itemizedlist>
+
+<para>The command tool appears :</para>
+
+<figure><title>Windows command tool</title>
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/cmd-windows.&magic;" format="&magic;" scalefit="1" scale="60">
+  </imageobject>
+</mediaobject>
+</figure>
+
+<para>Then go to directory where you installed VLC :</para>
+
+<screen>
+<prompt># </prompt><userinput>cd C:\Program Files\VLC\</userinput>
+</screen>
+
+<simplesect><title>under Linux or Unix</title>
+
+<para>Under X, open a terminal :</para>
+
+<figure><title>Windows command tool</title>
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/cmd-linux.&magic;" format="&magic;" scalefit="1" scale="60">
+  </imageobject>
+</mediaobject>
+</figure>
+
+<para>In the documentation, we adopt the following conventions for the
+Unix commands :</para>
 
 <itemizedlist>
 
@@ -256,3 +301,12 @@ conventions for the Unix commands :</para>
 </screen>
 
 </itemizedlist>
+
+<simplesect><title>under Mac OS X</title>
+
+<para>[TODO]</para>
+
+<simplesect><title>under BeOS</title>
+
+<para>[TODO]</para>
+

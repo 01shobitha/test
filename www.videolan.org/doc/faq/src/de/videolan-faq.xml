@@ -379,7 +379,9 @@ dies ein guter Antrieb für Innovationen und Erweiterungen ist.
 
 </answer></qandaentry>
 
-</qandadiv><qandadiv><title>Rechtliche Belange</title>
+</qandadiv>
+
+<qandadiv><title>Rechtliche Belange</title>
 
 <qandaentry><question><para>Darf ich das VideoLAN-Logo benutzen?</para></question>
 
@@ -437,8 +439,6 @@ Vorsicht: Die binären Pakete vom VLC media player, sprich die fertig kompilierte
 </para></note>
 
 </answer></qandaentry>
-
-</qandadiv>
 
 <qandaentry><question><para>
 Wie sieht es mit persönlicher/kommerzieller Benutzung aus?

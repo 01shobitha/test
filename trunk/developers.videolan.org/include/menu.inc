@@ -24,24 +24,47 @@ href="http://www.videolan.org/cgi-bin/irc/irc.cgi">IRCWeb</a></p>
 <br>
 
 <table width="100%" cellspacing=0 cellpadding=0>
-<tr><th class=menu>Developer doc</th></tr>
+<tr><th class=menu>VLC</th></tr>
 <tr><td class=menu>
-<p class=menu><a class="menu" href="/vlc/devel_doc.html">vlc</a></p>
-<p class=menu><a class="menu" href="/vls/devel_doc.html">vls</a></p>
-<p class=menu><a class="menu" href="/libdvdcss/devel_doc.html">libdvdcss</a></p>
-<p class=menu><a class="menu" href="/libdvbpsi/devel_doc.html">libdvbpsi</a></p>
+<p class=menu><a class="menu" href="/vlc/devel_doc.html">developer doc</a></p>
+<p class=menu><a class="menu" href="/vlc/ChangeLog.html">ChangeLog</a></p>
 </td></tr>
 </table>
 <br>
 
 <table width="100%" cellspacing=0 cellpadding=0>
-<tr><th class=menu>ChangeLog</th></tr>
+<tr><th class=menu>VLS</th></tr>
 <tr><td class=menu>
-<p class=menu><a class="menu" href="/vlc/ChangeLog.html">vlc</a></p>
-<p class=menu><a class="menu" href="/vls/ChangeLog.html">vls</a></p>
-<p class=menu><a class="menu" href="/libdvdcss/ChangeLog.html">libdvdcss</a></p>
-<p class=menu><a class="menu" href="/libdvbpsi/ChangeLog.html">libdvbpsi</a></p>
+<p class=menu><a class="menu" href="/vls/devel_doc.html">developer doc</a></p>
+<p class=menu><a class="menu" href="/vls/ChangeLog.html">ChangeLog</a></p>
 </td></tr>
 </table>
 <br>
+
+<table width="100%" cellspacing=0 cellpadding=0>
+<tr><th class=menu><a href="/libdvdcss/index.html">libdvdcss</a></th></tr>
+<tr><td class=menu>
+<p class=menu><a class="menu" href="/libdvdcss/devel_doc.html">libdvdcss</a></p>
+<p class=menu><a class="menu" href="/libdvdcss/ChangeLog.html">libdvdcss</a></p>
+</td></tr>
+</table>
+<br>
+
+<table width="100%" cellspacing=0 cellpadding=0>
+<tr><th class=menu><a href="/libdvdplay/index.html">libdvdplay</a></th></tr>
+<tr><td class=menu>
+<p class=menu><a class="menu" href="/libdvdplay/ChangeLog.html">libdvdcss</a></p>
+</td></tr>
+</table>
+<br>
+
+<table width="100%" cellspacing=0 cellpadding=0>
+<tr><th class=menu><a href="/libdvbpsi/index.html">libdvbpsi</a></th></tr>
+<tr><td class=menu>
+<p class=menu><a class="menu" href="/libdvbpsi/devel_doc.html">libdvdcss</a></p>
+<p class=menu><a class="menu" href="/libdvbpsi/ChangeLog.html">libdvdcss</a></p>
+</td></tr>
+</table>
+<br>
+
 

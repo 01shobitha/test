@@ -440,7 +440,7 @@ pile.
 <listitem><para>
 
 manipulation de variables: store stocke ST(2) dans
-une variable locale dont le nom est la valeur de ST(1), values place la
+une variable locale dont le nom est la valeur de ST(1), value place la
 valeur de la variable dont le nom est ST(1), et url_extract place la
 valeur de la partie contenue de ST(1) des paramètres d'URL
 

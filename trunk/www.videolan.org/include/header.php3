@@ -11,7 +11,7 @@ function stopbox() { ?></td></tr></table><? }
     */
 
 function h2($title) {
-?><table class="h2"><tr><td><? echo $title; ?></td></tr></table> <?
+?><table class="h2"><tr><td><h2><? echo $title; ?></h2></td></tr></table> <?
 }
 
 function starthtml($title) { ?>

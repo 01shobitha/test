@@ -1,0 +1,46 @@
+<?
+   $title = "VLC source code";
+   $lang = "en";
+   $date = "16 April 2001";
+   require("header.php3");
+?>
+
+<? function pkgitem($version,$name) { ?><li><a href="/pub/videolan/vlc/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
+
+<h1> <a href="/">VideoLAN</a> / <a href="/vlc/">VLC media player</a> / VLC source code </h1>
+
+<? h2("Tarballs"); ?>
+
+<p> Latest vlc source code tarball (0.4.6): </p>
+
+<ul>
+  <?
+     pkgitem("0.4.6","vlc-0.4.6.tar.gz");
+  ?>
+  <li><a href="/pub/videolan/vlc/0.4.6/"><i>browse the list</i></a></li>
+</ul>
+
+<p> Latest required librairies: </p>
+
+<ul>
+  <?
+     pkgitem("0.4.6/contrib","libdvdcss-1.2.4.tar.gz");
+     pkgitem("0.4.6/contrib","libdvbpsi-0.1.2.tar.gz");
+     pkgitem("0.4.6/contrib","a52dec-0.7.4.tar.gz");
+     pkgitem("0.4.6/contrib","ffmpeg-20020707.tar.gz");
+     pkgitem("0.4.6/contrib","mad-0.14.2b.tar.gz");
+  ?>
+  <li><a href="/pub/videolan/vlc/0.4.6/contrib"><i>browse the list</i></a></li>
+</ul>
+
+<? h2("CVS"); ?>
+
+<p> Find more about the CVS repository on the <a
+href="http://developers.videolan.org/">developers website</a>. </p>
+
+<? h2("Older versions"); ?>
+
+<p> Older versions can be found by <a href="/pub/vlc/">browsing</a> our
+FTP site. </p>
+
+<? footer('$Id: download-source.html,v 1.1 2003/01/21 13:39:20 sam Exp $'); ?>

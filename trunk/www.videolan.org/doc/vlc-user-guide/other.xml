@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<chapter id="other"><title id="tother">
+<span xml:lang="en">Other interfaces</span>
+<span xml:lang="fr">Les autres interfaces</span>
+</title>
+
+<para>
+<span xml:lang="en">To select an interface: if you want it to be
+your main interface, either start VLC from the command line with
+<emphasis>--intf Myinterface</emphasis>, or use the Preferences
+Panel to set the <emphasis>Interface Module</emphasis> option.. For
+Graphical User Interfaces, you might also have shortcuts created by
+the install program. If you want the interface to be an additionnal
+one, use the preferences window of you GUI to set the <emphasis>extra
+interface modules</emphasis> option. Alternatively, you can use the
+<emphasis>--extraintf</emphasis> command line option.</span>
+<span xml:lang="en">Pour sélectionner une interface: si vous voulez
+qu'il s'agisse de votre interface principale, lancez VLC depuis la
+ligne de commande avec <emphasis>--intf NomInterface</emphasis>, ou
+utilisez le panneau de préférences pour régler l'option <emphasis>Module
+d'interface</emphasis>. Pour les interfaces graphiques, il est possible
+que le programme d'installation ait créé des raccourcis. Si vous voulez
+que la nouvelle interface soit une interface additionnelle, utilisez la
+fenêtre de préférences de votre interface graphique pour régler l'option
+<emphasis>Modules d'interface supplémentaires</emphasis>. Vous pouvez
+également utiliser l'option <emphasis>--extraintf</emphasis> de la ligne
+de commande.</span>
+</para>
+
+
+<sect1><title>
+<span xml:lang="en">Graphical user interfaces</span>
+<span xml:lang="fr">Interfaces graphiques</span>
+</title>
+
+<para>
+<span xml:lang="en">VLC includes several graphical user interfaces
+(GUI), according to your operating system</span>
+<span xml:lang="fr">VLC inclut plusieurs interfaces graphiques selon
+votre système d'exploitation</span>
+</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>Windows</emphasis></para>
+
+<para>
+<span xml:lang="en">There are two different graphical user interfaces
+for Windows. Shortcuts are created for both of them in the Start
+menu</span>
+<span xml:lang="fr">Il existe deux interfaces graphiques différentes
+pour Windows. Des raccourcis sont créés pour les deux dans le menu
+Démarrer</span>
+.</para>
+
+<para><emphasis>wxWindows</emphasis></para>
+
+<para>
+<span xml:lang="en">This interface works both for Linux and Windows. It
+is currently the most complete and fully-featured interface</span>
+<span xml:lang="fr">Cette interface fonctionne à la fois sous Linux et
+Windows. Il s'agit actuellement de l'interface la plus complète et 
+qui possède le plus de fonctionnalités</span>
+.</para>
+
+<para><emphasis>Skins</emphasis></para>
+
+<para>
+<span xml:lang="en"> This interface also works both for Linux and
+Windows. It allows dramatic modifications of the look and feel of your
+VLC. This is still under development.</span>
+<span xml:lang="fr"> Cette interface fonctionne également à la fois
+pour Linux et Windows. Elle permet de fortement modifier l'aspect et le
+comportement de votre VLC. Elle est toujours de développement.</span>
+</para>
+
+</listitem>
+
+<listitem><para><emphasis>GNU/Linux</emphasis></para>
+
+<para>
+<span xml:lang="en">Many graphical user interfaces are available for
+GNU/Linux (GTK+, Gnome, QT, KDE), but only two of them are currently
+maintained: the wxWindows and the Skins interface. You should probably
+use one of these</span>
+<span xml:lang="fr">Il existe plusieurs interfaces graphiques pour
+GNU/Linux (GTK+, Gnome, QT, KDE), mais seulement deux sont actuellement
+maintenues: wxWindows et les Skins. Vous devriez probablement utiliser
+une de ces deux-là.</span>
+</para>
+
+</listitem>
+
+<listitem><para><emphasis>Mac OS X</emphasis></para>
+
+<para>
+<span xml:lang="en">Only one native GUI exists for this O.S</span>
+<span xml:lang="fr">Il n'existe qu'une seule interface, native, pour ce
+système</span>
+.</para>
+
+</listitem>
+</itemizedlist>
+</sect1>
+
+<sect1><title>
+<span xml:lang="en">Control Interfaces</span>
+<span xml:lang="fr">Interfaces de contrôle</span>
+</title>
+
+<para>
+<span xml:lang="en">Control interfaces are here to provide alternatative
+ways to control your VLC.</span>
+<span xml:lang="fr">Les interfaces de contrôle vous permettent de
+prendre le contrôle de votre VLC de plusieurs façons différentes.</span>
+</para>
+
+<sect2><title>http</title>
+
+<para>
+<span xml:lang="en">This interface was discussed in the previous
+chapter. It allows to remotely or locally control VLC through a
+webpage</span>
+<span xml:lang="fr">Cette interface a fait l'objet du chapitre
+précédent. Elle permet de contrôler VLC à l'aide d'une page web</span>
+.</para>
+
+</sect2>
+
+<sect2><title>gestures</title>
+
+<para>
+<span xml:lang="en">This allows you to control your VLC by doing
+mouse gestures in the video output window. By default, it is used by
+right-clicking and doing the gestures. Gestures are : left (previous),
+right (next), up-right (fullscreen), down-right (stop).</span>
+<span xml:lang="fr">Ceci vous permet de contrôler VLC par des mouvements
+de la souris dans la fenêtre de sortie vidéo. Le bouton à utiliser par
+défaut est celui de droite. Les mouvements disponibles sont : à gauche
+(précédent), à droite (suivant), en haut à droite (plein écran), en bas
+à droite (stop).</span>
+</para>
+
+</sect2>
+
+<sect2><title>corba</title>
+
+<para>
+<span xml:lang="en">This allows you to control VLC using CORBA</span>
+<span xml:lang="fr">Cette interface vous permet de contrôler VLC en utilisant
+CORBA</span>
+.</para>
+
+</sect2>
+
+<sect2><title>rc</title>
+
+<para>
+<span xml:lang="en">This allows you to control VLC by typing commands in
+its terminal window.</span>
+<span xml:lang="fr">Cette interface vous permet de contrôler VLC par des
+commandes tapées dans sa fenêtre de terminal.</span>
+</para>
+</sect2>
+
+<sect2><title>lirc</title>
+
+<para>
+<span xml:lang="en">Under GNU/Linux, this allows you to control VLC
+through an infrared remote control.</span>
+<span xml:lang="fr">Sous GNU/Linux, cette interface vous permet de
+contrôler VLC à l'aide d'une télécommande infrarouge.</span>
+</para>
+</sect2>
+
+<sect2><title>joystick</title>
+
+<para>
+<span xml:lang="en">Under GNU/Linux, this allows you to control VLC
+using a joystick</span>
+<span xml:lang="fr">Sous GNU/Linux, cette interface vous permet de
+contrôler VLC à l'aide d'un joystick</span>
+.</para>
+
+</sect2>
+
+</sect1>
+
+</chapter>

@@ -9,6 +9,7 @@
   <!ENTITY install SYSTEM "install.xml">
   <!ENTITY cmdline SYSTEM "cmdline.xml">
   <!ENTITY http SYSTEM "http.xml">
+  <!ENTITY other SYSTEM "other.xml">
   <!ENTITY sout SYSTEM "../common/sout.xml">
   <!ENTITY webbrowser-plugin SYSTEM "webbrowser-plugin.xml">
   <!ENTITY install-vlc SYSTEM "../common/install-vlc.xml">
@@ -124,6 +125,7 @@ The text of the license can be found in the appendix.
 &install;
 &cmdline;
 &http;
+&other;
 &webbrowser-plugin;
 &gpl;
 

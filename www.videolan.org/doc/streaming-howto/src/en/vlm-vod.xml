@@ -289,11 +289,11 @@ character is a # is considered as a comment.</para>
 <programlisting>
 new channel1 broadcast enabled
 setup channel1 input http://host.mydomain/movie.mpeg
-set channel1 output #standard{mux=ts,access=udp,url=239.255.1.1,sap,name="Channel 1"}
+setup channel1 output #standard{mux=ts,access=udp,url=239.255.1.1,sap,name="Channel 1"}
 
 new channel2 broadcast enabled
 setup channel2 input udp://@239.255.12.42
-set channel2 output #standard{mux=ts,access=udp,url=239.255.1.1,sap,name="Channel 1"}
+setup channel2 output #standard{mux=ts,access=udp,url=239.255.1.1,sap,name="Channel 1"}
 
 control channel1 play
 control channel2 play

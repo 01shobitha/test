@@ -4,8 +4,8 @@
 
 <xsl:variable name="toc.section.depth">1</xsl:variable>
 <xsl:param name="chunker.output.encoding" select="'iso-8859-15'"/>
-<xsl:param name="chunker.section.depth" select="0"/>
-<xsl:param name="html.stylesheet" select="0"/>
+<xsl:param name="chunk.section.depth" select="0"/>
+<xsl:param name="html.stylesheet" select="'screen.css'"/>
 
 
 </xsl:stylesheet>

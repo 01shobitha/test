@@ -1,7 +1,7 @@
 /* CSS for the VideoLAN website
  * Stolen from the Gnumeric website by Sam :-)
  *
- * $Id: main.css,v 1.64 2003/01/31 17:44:20 sam Exp $ */
+ * $Id: main.css,v 1.65 2003/01/31 17:45:07 sam Exp $ */
 
 body {
   font-family: sans-serif, Helvetica, Arial;
@@ -445,7 +445,7 @@ td.bottombarselected {
   border-right-width: 0px;
 }
 
-h2poukram {
+h2.h2poukram {
   font-size: 1.2em;
 /*  font-family: inherit;*/
   font-weight: 600;

@@ -774,13 +774,13 @@ msgstr ""
 #: en/basic-use.xml:107 en/basic-use.xml:108
 #, no-wrap
 msgid "The Open disk dialog - wxWindows interface"
-msgstr "la boîte de dialogue Ouvrir un disque - interface wxWindows "
+msgstr "La boîte de dialogue Ouvrir un disque - interface wxWindows "
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:115 en/basic-use.xml:116
 #, no-wrap
 msgid "The Open disk dialog - MacOS X interface"
-msgstr "la boîte de dialogue Ouvrir un disque - interface MacOS X"
+msgstr "La boîte de dialogue Ouvrir un disque - interface MacOS X"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/basic-use.xml:120
@@ -854,14 +854,14 @@ msgid ""
 "To open a RTSP stream (sent by Darwin Streaming Server, VLC, etc), \n"
 "in the wxWindows interface, select \"RTSP\" and give the URL in the text input.\n"
 msgstr ""
-"Pour ouvrir un flux RTSP(envoyé par un seveur de flux Darwin, VLC, etc), \n"
+"Pour ouvrir un flux RTSP (envoyé par un seveur de flux Darwin, VLC, etc), \n"
 "dans l'interface wxWindows, choisissez \"RTSP\" et donnez à l'entrée du text l'URL.\n"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:148
 #, no-wrap
 msgid "You can start playback by selecting the <emphasis>Ok</emphasis> button.\n"
-msgstr "Vous pouvez démarrer le playback en choisissant le bouton <emphasis>Ok</emphasis>.\n"
+msgstr "Vous pouvez démarrer la lecture en choisissant le bouton <emphasis>Ok</emphasis>.\n"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:150
@@ -873,22 +873,22 @@ msgid ""
 "You can then choose the amount time (in milliseconds) VLC should store data \n"
 "in its buffer before starting playback.\n"
 msgstr ""
-"Si vous obtenez quelques floutage pendant le playback, vous pouvez essayer \n"
+"Si vous obtenez quelques floutage pendant la lecture, vous pouvez essayer \n"
 "d'augmenter la taille du buffer en lecture.  Ceci peut être fait dans la boîte de \n"
-"dialogue < emphasis>Open Network Stream</emphasis >, en choisissant \n"
-"< emphasis>Caching</emphasis >.  Vous pouvez alors choisir le temps (en millisecondes)dont a besois VLC pour stocker des données dans son amortisseur avant le début du  playback. \n"
+"dialogue <emphasis>Ouvrir un flux réseau</emphasis>, en réglant la valeur de \n"
+"<emphasis>Mise en cache</emphasis>.  Vous pouvez alors choisir le temps (en millisecondes) durant lequel VLC stockera des données dans son buffer avant de commencer la lecture. \n"
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:161 en/basic-use.xml:162
 #, no-wrap
 msgid "The Open network dialog - wxWindows interface"
-msgstr "Le réseau de dialogue libre - l'interface wxWindows"
+msgstr "La boite de dialogues Ouvrir un flux réseau  - interface wxWindows"
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:169 en/basic-use.xml:170
 #, no-wrap
 msgid "The Open network dialog - MacOS X interface"
-msgstr "Le réseau de dialogue libre - l'interface MacOS X"
+msgstr "La boite de dialoues Ouvrir un flux réseau - interface MacOS X"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/basic-use.xml:174
@@ -903,12 +903,12 @@ msgid ""
 "This currently only possible on Linux and Windows. Open the File menu, \n"
 "and select \"Open Capture Device...\""
 msgstr ""
-"Actuellement, cela est  souvent possible que sous Linux et Windows. Ouvrez le \n"
-"menu Fichier et choisissez  \"Open Capture Device...\""
+"Actuellement, cela n'est possible que sous Linux et Windows. Ouvrez le \n"
+"menu Fichier et choisissez  \"Ouvrir un périphérique de capture\""
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:178
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\n"
 "On Windows, supported cards include webcams, TV cards, acquisition \n"
@@ -925,16 +925,16 @@ msgid ""
 "of the input (the way colors are encoded) and the size of the input buffer.\n"
 msgstr ""
 "\n"
-"Sous Windows, les cartes compatibles comme les webcams, les cartes TV, les cartes \n"
-"d'acquisition... fournies sont équipées de lecteurs compatibles avec le directshow \n"
-"(presque toutes les cartes d'acquisition ). Vous pouvez choisir le dispositif à \n"
-"utiliser pour la vidéo et la capture audio à l'aide de \"Video device name\" et \n"
-"\"Audio device name\" . Si votre dispositif n'apparaît pas dans la liste, essai de \n"
+"Sous Windows, les cartes compatibles sont entre autres les webcams, les cartes TV, les cartes \n"
+"d'acquisition... le prérequis étant qu'un driver compatible directshow soit fourni \n"
+"(c'est le cas de presque toutes les cartes d'acquisition). Vous pouvez choisir le périphérique à \n"
+"utiliser pour la vidéo et la capture audio à l'aide de \"Nom du périphérique vidéo\" et \n"
+"\"Nom du périphérique audio\" . Si votre périphérique n'apparaît pas dans la liste, essayez de \n"
 "choisir le \"boutton de rafraîchissement de la liste\".  Vous pouvez accéder aux \n"
-"réglages de votre dispositif d'acquisition en choisissant le bouton \n"
-"< emphasis>configure</emphasis >.  Les options dépendent ici du dispositif de lecture. \n"
+"réglages de votre périphérique d'acquisition en cliquant sur le bouton \n"
+"<emphasis>Options avancées</emphasis>.  Les options dépendent ici du périphérique. \n"
 "Vous pouvez choisir la boîte \"Device Proprieties\" si vous voulez que la zone de \n"
-"configuration de dialogue de chaque dispositif soit montrée après avoir sur le bouton \n"
+"configuration de dialogue de chaque dispositif soit affichée après avoir cliqué sur le bouton \n"
 "< emphasis>Ok</emphasis >.  Choisissez la boîte < emphasis>Tuner properties</emphasis > \n"
 "à solliciter pour le réglage du tuner (norme PAL/NTSC, fréquence ...) pour les cartes TV.\n"
 " Le bouton <emphasis>Advanced options... </emphasis > laisse choisir d'autres \n"
@@ -945,13 +945,13 @@ msgstr ""
 #: en/basic-use.xml:197
 #, no-wrap
 msgid "The Open Capture device dialog and a device configuration windows- wxWindows interface"
-msgstr "L'outil de capture de dialogue libre et l'outil de configuration windows - l'interface wxWindows"
+msgstr "La boite de dialogue Ouvrir un périphérique de capture - interface wxWindows"
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:198
 #, no-wrap
 msgid "The Open Capture device dialog and a device configuration windows - wxWindows interface"
-msgstr "L'outil de capture de dialogue libre et l'outil de configuration windows - l'interface wxWindows"
+msgstr "La boite de dialogue Ouvrir un périphérique de capture - interface wxWindows"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:201
@@ -960,10 +960,10 @@ msgid ""
 "On Linux, supported cards include webcams, TV cards, acquisition cards, provided they are supported by the Video4Linux architecture. Haupaugge PVR 250/350 cards are also supported, using the  <ulink \n"
 "url=\"http://ivtv.sourceforge.net/\">IVTV drivers </ulink>."
 msgstr ""
-"Sous Linux, les cartes compatibles comme les webcams, les cartes TV, les cartes \n"
-"d'acquisition fournies, sont compatibles l'architecture Video4Linux. Les cartes \n"
-" Haupaugge PVR 250/350 sont aussi compatibles, utilisant l'URL \n"
-" <ulink \"url=\"http://ivtv.sourceforge.net/\">IVTV drivers </ulink>."
+"Sous Linux, les périphériques comme les webcams, les cartes TV, les cartes \n"
+"d'acquisition fournies, sont compatibles si elles sont supportées par l'architecture Video4Linux. Les cartes \n"
+" Haupaugge PVR 250/350 sont aussi supportées, en utilisant les \n"
+" <ulink url=\"http://ivtv.sourceforge.net/\">drivers IVTV</ulink>."
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/basic-use.xml:205
@@ -976,27 +976,27 @@ msgid ""
 "in some rare cases, such as the chroma of the input (the way colors are\n"
 "encoded) and the size of the input buffer."
 msgstr ""
-"Pour les outils Video4Linux, vous pouvez mettre le nom du fichier vidéo ou audio \n"
-"en utilisant les entrées de textes  \"Video device name\" et \"Audio device name\". \n"
-"Le bouton \"Advanced options...\" demande de choisir quelques réglages utils dans \n"
+"Pour les outils Video4Linux, vous pouvez mettre le nom du périphérique vidéo ou audio \n"
+"en utilisant les boites de saisie  \"Nom du périphérique vidéo\" et \"Nom du périphérique audio\". \n"
+"Le bouton \"Options avancées...\" permet de choisir quelques réglages utiles dans \n"
 "quelques cas rares, comme l'entrée du \"chroma\"(la manière dont est codée les couleurs) \n"
-"et la taille du buffer d'entrée \n"
+"et la taille du buffer d'entrée.\n"
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><textobject><para>
 #: en/basic-use.xml:217
 #, no-wrap
 msgid "The Open Video4Linux dialog- wxWindows interface"
-msgstr "Le dialogue libre Video4Linux- l'interface wxWindows"
+msgstr "La boite de dialogue Ouvrir un périphérique de capture - interface wxWindows"
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:218
 #, no-wrap
 msgid "The Open Video4Linux dialog - wxWindows interface"
-msgstr "Le dialogue libre Video4Linux- l'interface wxWindows"
+msgstr "La boite de dialogue Ouvrir un périphérique de capture - interface wxWindows"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/basic-use.xml:222
-#, no-wrap
+#, fuzzy,no-wrap
 msgid ""
 "\n"
 "To use a Hauppauge PVR card, select the PVR tab in the \"Open\" dialog box. \n"
@@ -1022,25 +1022,25 @@ msgstr ""
 #: en/basic-use.xml:233
 #, no-wrap
 msgid "After having set all the required parameters, you can start the capture by selecting the \"Ok\" button."
-msgstr "Après avoir réglé tous les paramètres requis, vous pouvez démarrer la lecture en choisissant le bouton \"Ok\"."
+msgstr "Après avoir réglé tous les paramètres requis, vous pouvez démarrer la lecture en cliquant le bouton \"Ok\"."
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><textobject><para>
 #: en/basic-use.xml:239
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The Open PVR dialog- wxWindows interface"
-msgstr "Le dialogue libre PVR- l'interface wxWindows"
+msgstr "La boite de dialogue PVR - interface wxWindows"
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:240
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "The Open PVR dialog - wxWindows interface"
-msgstr "Le dialogue libre PVR- l'interface wxWindows"
+msgstr "Le boite de dialogue PVR- interface wxWindows"
 
 # type: Content of: <chapter><sect1><title>
 #: en/basic-use.xml:248
 #, no-wrap
 msgid "Using the playlist"
-msgstr "En utilisant la playlist"
+msgstr "En utilisant la playlist (liste de lecture)"
 
 # type: Content of: <chapter><sect1><para>
 #: en/basic-use.xml:250
@@ -1052,8 +1052,8 @@ msgid ""
 "(see <xref linkend=\"desc\" endterm=\"tdesc\"/>)."
 msgstr ""
 "VLC peut bien sûr stocker une liste de plusieurs fichiers à lire les uns après les \n"
-"autres, en utilisant son système de playlist. Pour accéder à la playlist, clique sur \n"
-"le bouton <emphasis>Playlist</emphasis> à l'interface principale \n"
+"autres, en utilisant son système de playlist. Pour accéder à la playlist, cliquez sur \n"
+"le bouton <emphasis>Playlist</emphasis> de l'interface principale \n"
 "(voir <xref linkend=\"desc\" endterm=\"tdesc\"/>)."
 
 # type: Content of: <chapter><sect1><para>
@@ -1063,8 +1063,8 @@ msgid ""
 "Each time you use the Open dialog box, the stream you select is\n"
 "appended at the end of the playlist and started."
 msgstr ""
-"A chaque fois que vous utilisez la boîte de dialogue libre, le flux que vous choisissez \n"
-"est rattaché à la fin de la playlist et lu."
+"A chaque fois que vous utilisez la boîte de dialogue Ouvrir, le flux que vous choisissez \n"
+"est rajouté à la fin de la playlist et lu."
 
 # type: Content of: <chapter><sect1><para>
 #: en/basic-use.xml:258
@@ -1073,26 +1073,26 @@ msgid ""
 "The playlist window shows all the streams available in the playlist.\n"
 "Double-click one to have it played."
 msgstr ""
-"La fenêtre de playlist montre tous les flux disponibles dans la playlist. \n"
-"Double cliquez en un pour le lire."
+"La fenêtre de la playlist montre tous les flux disponibles dans la playlist. \n"
+"Double cliquez sur un flux pour le lire."
 
 # type: Content of: <chapter><sect1><mediaobject><caption><para>
 #: en/basic-use.xml:266 en/basic-use.xml:267
 #, no-wrap
 msgid "The Playlist - wxWindows interface"
-msgstr "La playlist - l'interface wxWindows"
+msgstr "La playlist - interface wxWindows"
 
 # type: Content of: <chapter><sect1><mediaobject><caption><para>
 #: en/basic-use.xml:273 en/basic-use.xml:274
 #, no-wrap
 msgid "The Playlist - MacOS X interface"
-msgstr "La playlist - l'interface MacOS X"
+msgstr "La playlist - interface MacOS X"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/basic-use.xml:278
 #, no-wrap
 msgid "Adding items, saving and loading playlists"
-msgstr "Ajout de thèmes, sauvegarde et chargement de playlists"
+msgstr "Ajout d'éléments, sauvegarde et chargement de playlists"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:280
@@ -1103,10 +1103,10 @@ msgid ""
 "won't start immediately), to save the playlist as a M3U or PLS file, or\n"
 "to import a playlist file."
 msgstr ""
-"Dans l'interface wxWindows, le menu <emphasis>Manage</emphasis> vous \n"
-"demande de coller un article à la fin de la playlist (sa lecture \n"
-"ne redémarre pas immédiatement), pour enregistrer la playlist comme un \n"
-"fichier M3U ou PLS, ou pour importer un fichier de playlist"
+"Dans l'interface wxWindows, le menu <emphasis>Gérer</emphasis> vous \n"
+"permet d'ajouter un élément à la fin de la playlist (sa lecture \n"
+"ne démarre pas immédiatement), d'enregistrer la playlist comme un \n"
+"fichier M3U ou PLS, ou d'importer un fichier de playlist"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:285
@@ -1119,10 +1119,10 @@ msgid ""
 "File...</emphasis> menu item."
 msgstr ""
 "Dans l'interface MacOS, la sauvegarde d'une playlist peut être faite \n"
-"en utilisant la fonction <emphasis>Save Playlist...</emphasis> dans \n"
-"menu <emphasis>File</emphasis>. Pour importer un fichier playlist, \n"
-"ouvrez le de la même façon que n'importe quel fichier media, en utilisant \n"
-"le menu  <emphasis>Quick Open File...</emphasis> ."
+"en utilisant la fonction <emphasis>Enregister la liste de lecture...</emphasis> dans \n"
+"le menu <emphasis>File</emphasis>. Pour importer un fichier de playlist, \n"
+"ouvrez le de la même façon que n'importe quel fichier multimedia, en utilisant \n"
+"<emphasis>Ouvrir un fichier</emphasis> ."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/basic-use.xml:293
@@ -1138,7 +1138,7 @@ msgid ""
 "you to sort the playlist according to several criteria, or to shuffle\n"
 "it. You can also sort by clicking the header of the column"
 msgstr ""
-"Dans l'interface wxWindows,le menu  <emphasis>Sort</emphasis> vous \n"
+"Dans l'interface wxWindows,le menu  <emphasis>Tri</emphasis> vous \n"
 "permet de trier la playlist selon plusieurs critères, ou de la rendre \n"
 "aléatoire. Vous pouvez aussi trier en cliquant l'en-tête de la colonne."
 
@@ -1150,7 +1150,7 @@ msgid ""
 "the header of the column matching the criteria you want to use for\n"
 "sorting."
 msgstr ""
-"Dans l'interface MacOS X, le tri peut être fait e cliquant l'en-tête de \n"
+"Dans l'interface MacOS X, le tri peut être fait en cliquant l'en-tête de \n"
 "la colonne correspondant au critère que vous voulez utiliser pour trier. "
 
 # type: Content of: <chapter><sect1><sect2><title>
@@ -1174,26 +1174,26 @@ msgid ""
 "to repeat one item."
 msgstr ""
 "Dans l'interface wxWindows, la barre d'outils contient trois boutons \n"
-"de mode de playlists. Cela permet d'activer le mode aléatoire, pour répéter \n"
-"la playlist entière ou pour répéter un fichier."
+"de mode de playlist. Cela permet d'activer le mode aléatoire, de répéter \n"
+"la playlist entière ou de répéter un élément."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:313
-#, no-wrap
+#, fuzzy,no-wrap
 msgid ""
 "In the MacOS X interface, random mode can be enabled by selecting\n"
 "the <emphasis>Random</emphasis> box. A drop down menu allows you to\n"
 "enable playlist and item repeat modes."
 msgstr ""
-"Dans l'interface wxWindows, le mode aléatoire peut être activé en \n"
-"choisissant la zone <emphasis>Random</emphasis>.  Un menu de saut \n"
+"Dans l'interface MacOS X, le mode aléatoire peut être activé en \n"
+"choisissant la boite <emphasis>Random</emphasis>.  Un menu de saut \n"
 "vous permet d'activer la laylist et les modes de répétition."
 
 # type: Content of: <chapter><sect1><title>
 #: en/basic-use.xml:319
 #, no-wrap
 msgid "Misc"
-msgstr "Misc"
+msgstr "Divers"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/basic-use.xml:321
@@ -1209,10 +1209,9 @@ msgid ""
 "The next item to match the string will be highlighted. Keep hitting Search\n"
 "to cycle between all matching items."
 msgstr ""
-"Vous avez aussi un outil de recherche. Entrez un mot à chercher et lancer la \n"
-"recherche. Le prochain mot qui lui correspond va être surligné. \n"
-"Maintenir enfoncé la recherche pour faire le tour de tous les mots \n"
-"adéquats."
+"Vous disposez aussi d'un outil de recherche. Entrez un chaine de caractères à rechercher et lancer la \n"
+"recherche. Le prochain élément qui correspond va être surligné. \n"
+"Continuez à cliquer Chercher pour faire le tour de tous éléments."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/basic-use.xml:329

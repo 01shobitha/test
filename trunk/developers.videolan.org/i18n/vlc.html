@@ -31,8 +31,8 @@ should contact him to coordinate help.</p>
 
 <p>Translation maintainers</p>
 
-<table>
-<tr><th>Langage</th><th>Maintainer</th><th>E-mail</th></tr>
+<table border="0">
+<tr><td class="type">Langage</td><td class="type">Maintainer</td></tr>
 
 <?php
 $lgfile="/var/www/local/developers.videolan.org/i18n/langages";
@@ -47,9 +47,8 @@ for($i=0;$i<count($langs) -1;$i++ )
 {
   list($lang,$po,$maint,$mail) = explode('|',$langs[$i]);
 
-  echo "<tr><td style=\"border:1pt solid black\">$lang</td>
-            <td style=\"border:1pt solid black\">$maint</td>
-            <td style=\"border:1pt solid black\">$mail</td></tr>\n";
+  echo "<tr><td class=\"category\">$lang</td>
+            <td><a href=\"$mail\">$maint</a></td></tr>\n";
 }
 
 ?>

@@ -73,7 +73,7 @@ The following sizes are available:</p>
 >Large banner</a></li>
 <li><a href="http://download.videolan.org/images/buttons/GetVLC.png"
 >Supersized banner</a></li>
-<a href="http://download.videolan.org/images/buttons/GetVLC.psd"
+<li><a href="http://download.videolan.org/images/buttons/GetVLC.psd"
 >Original Photoshop document</a></li>
 </ul>
 <p>This banner was created by

@@ -88,8 +88,14 @@ The HTTP input can be used for Video On Demand
 For GNU/Linux only
 </emphasis></para>
 <para>
-This module allows to read from Hauppauge PVR cards
-.</para></sect2>
+This module allows to read from Hauppauge PVR cards.</para></sect2>
+
+<sect2><title>rstp/rtp/sdp (livedotcom)</title>
+&enabled;
+<para>
+This module allows you to read VOD streams using the RTSP protocol. It uses the liveMedia library from http://live.com/
+</para>
+</sect2>
 
 <sect2><title>satellite</title>
 &disabled;

@@ -2,9 +2,9 @@
 
 
 <chapter id="dvb"><title id="tdvb">
-<span xml:lang="en">Stream a DVB channel (satellite or digital
+<span xml:lang="en">Stream a DVB channel (satellite, cable or digital
 terrestial TV)</span>
-<span xml:lang="fr">Diffusez un flux DVB (satellite ou télévision
+<span xml:lang="fr">Diffusez un flux DVB (satellite, câble ou télévision
 numérique terrestre)</span>
 </title>
 
@@ -20,10 +20,12 @@ numérique terrestre)</span>
 
 <para>
 <span xml:lang="en">If you want to be able to stream from a DVB card (a
-satellite card or a digital terrestial TV card), you need to install the
-DVB drivers:</span>
-<span xml:lang="fr">Pour pouvoir streamer depuis une carte DVB (une carte satélite ou de télévision numérique terrestre), il est nécessire d'installer préalablement les drivers DVB :</span>
-
+satellite card, a cable TV card or a digital terrestial TV card), you
+need to install the DVB drivers:</span>
+<span xml:lang="fr">Pour pouvoir streamer depuis une carte DVB (une
+carte satellite, une carte pour la télévision par câble ou une carte
+pour la télévision numérique terrestre), il est nécessire d'installer
+préalablement les drivers DVB :</span>
 </para>
 
 <itemizedlist>

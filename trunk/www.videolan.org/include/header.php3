@@ -186,12 +186,17 @@ foreach( $menu as $module )
 }
 ?>
     </td>
-    <td>
-      <select name="mirror">
-      <!-- current: $GLOBALS['HTTP_HOST'] -->
-      <option value="www.videolan.org">Main site (VIA)</option>
-      <option value="www.fr.videolan.org">Mirror site (Zoy)</option>
-      </select><br /><input type="submit" value="Select Mirror" />
+    <td valign="middle">
+      <div>
+      <form action="" method="post">
+        <div><select name="mirror">
+        <!-- current: $GLOBALS['HTTP_HOST'] -->
+          <option value="www.videolan.org">Main site (VIA)</option>
+          <option value="www.fr.videolan.org">Mirror site (Zoy)</option>
+        </select></div>
+        <div><input type="submit" value="Select Mirror" /></div>
+      </form>
+      </div>
     </td>
 
   </tr>

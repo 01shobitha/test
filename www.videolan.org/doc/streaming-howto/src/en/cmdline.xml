@@ -694,11 +694,209 @@ allows to specify a fixed quantizer (between 1 and 51),
 the maximum value for the quantizer, <emphasis>qp-min=&lt;quantizer
 parameter&gt;</emphasis> allows to set the minimum value for
 the quantizer, <emphasis>cabac</emphasis> enables the CABAC
-(Context-Adaptive Binary Arithmetic Coding) algorithm (slower, but
-enhances quality), <emphasis>loopfilter</emphasis> enables deblocking
-loop filter, <emphasis>analyse</emphasis> enables the analyse mode, <emphasis>frameref=&lt;amount of frames&gt;</emphasis> allows to set the number of previous frames used as predictors, <emphasis>scenecut=&lt;sensibility&lt;</emphasis> allows to control how aggressively the encoder should insert extra I-frame, on scene change.</para></listitem>
+(Context-Adaptive Binary Arithmetic Coding) algorithm (slower,
+but enhances quality), <emphasis>loopfilter</emphasis> enables
+deblocking loop filter, <emphasis>analyse</emphasis> enables the
+analyse mode, <emphasis>frameref=&lt;amount of frames&gt;</emphasis>
+allows to set the number of previous frames used as predictors,
+<emphasis>scenecut=&lt;sensibility&lt;</emphasis> allows to control
+how aggressively the encoder should insert extra I-frame, on scene
+change.</para></listitem>
 
 </itemizedlist>
+
+</sect3>
+
+<sect3><title>fps=</title>
+
+<para>This options allows to set the framerate of the transcoded
+video, in frame per second. reducing the framerate of a video can help
+decreasing its bitrate.</para>
+
+</sect3>
+
+<sect3><title>deinterlace</title>
+
+<para>This option allows to enable deinterlacing of interlaced video
+streams before encoding.</para>
+
+</sect3>
+
+<sect3><title>croptop=</title>
+
+<para>This option allows to crop the upper part of the source video while
+transcoding. The argument is the number of lines the video should be
+cropped.</para>
+
+</sect3>
+
+<sect3><title>cropbottom=</title>
+
+<para>This option allows to crop the lower part of the source video. The
+argument is the Y coordinate of the first line to be cropped.</para>
+
+</sect3>
+
+<sect3><title>cropleft</title>
+
+<para>This option allows to crop the left part of the source video while
+transcoding. The argument is the number of columns the video should be
+cropped.</para>
+
+</sect3>
+
+<sect3><title>cropright=</title>
+
+<para>This option allows to crop the right part of the source video. The
+argument is the X coordinate of the first column to be cropped.</para>
+
+</sect3>
+
+<sect3><title>scale=</title>
+
+<para>This option allows the give the ratio from which the video should
+be rescaled while being transcoded. This option can be particularly
+usefull to help reduce the bitrate of a stream.</para>
+
+</sect3>
+
+<sect3><title>width=</title>
+
+<para>This options allows to give the width of the transcoded video in
+pixels.</para>
+
+</sect3>
+
+<sect3><title>height</title>
+
+<para>This options allows to give the height of the transcodced video,
+in pixels.</para>
+
+</sect3>
+
+<sect3><title>acodec=</title>
+
+<para>This options allows to specify the codec the audio tracks of the
+input stream should be transcoded to.</para>
+
+<para>List of available codecs can be found on the
+<ulink url="/streaming/features.html">streaming features page</ulink>.</para>
+
+</sect3>
+
+<sect3><title>ab=</title>
+
+<para>This option allows to set the bitrate of the transcoded audio
+stream, in kbit/s</para>
+
+</sect3>
+
+<sect3><title>aenc=</title>
+
+<para>This allows to set the encoder to use to encode the audio stream.
+Available options are:</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>ffmpeg</emphasis>: this is the libavcodec encoding
+module. It handles a large variety of different codecs (the list can be
+found on the <ulink url="/streaming/features.html">streaming features
+page</ulink>.</para></listitem>
+
+<listitem><para><emphasis>vorbis</emphasis>. This module uses the vorbis
+encoder from the Xiph.org project. Vorbis is a free, open, license-free
+lossy audio codec.</para>
+
+<para>Item options are: <emphasis>quality=&lt;quality
+level&gt;</emphasis> allows to use VBR (variable bitrate)
+encodinf insrtead of the default CBR (constant bitrate), and
+to set the quality level (between 1 and 10, higher is better),
+<emphasis>max-bitrate=&lt;bitrate in kbit/s&gt;</emphasis> allows to set
+the maximum bitrate, for vbr encoding, <emphasis>min-bitrate=&lt;bitrate
+in kbit/s&gt;</emphasis> allows to set the minimum bitrate,
+for vbr encoding, <emphasis>cbr</emphasis> allows to force cbr
+encoding.</para></listitem>
+
+<listitem><para><emphasis>speex</emphasis>. This module uses the speex
+encoder from the Xiph.org project. Speex is a lossy audio codec, best
+fit for very low bitrates (around 10 kbit/s) and particularly video
+conference.</para></listitem>
+
+</itemizedlist>
+
+</sect3>
+
+<sect3><title>samplerate=</title>
+
+<para>This option allows to set the samplerate of the transcoded audio
+stream, in Hz. Reducing the samplerate is be a way to lower the bitrate
+of the resulting audio stream.</para>
+
+</sect3>
+
+<sect3><title>channels=</title>
+
+<para>This option allows to set the number of channels of the resulting
+audio stream. This is useful for codecs that don't have support for more
+than 2 channels, of to lower the bitrate of an audio stream.</para>
+
+</sect3>
+
+<sect3><title>scodec=</title>
+
+<para>This options allows to specify subtitle format the subtitles
+tracks of the input stream should be converted to.</para>
+
+<para>List of available codecs can be found on the
+<ulink url="/streaming/features.html">streaming features page</ulink>.</para>
+
+</sect3>
+
+<sect3><title>senc=</title>
+
+<para>This allows to set the converter to use to encode the subtitle
+stream.</para>
+
+<para>The only subtitle encoder we have at this time is
+<emphasis>dvbsub</emphasis>.</para>
+
+</sect3>
+
+<sect3><title>soverlay</title>
+
+<para>This option allow to render subtitles directly on the video, while
+transcoding it.</para>
+
+</sect3>
+
+<sect3><title>sfilter=</title>
+
+<para>This option allows to render some images generated by a so called
+<emphasis>subpicture filter</emphasis> (e.g. a logo, a text string,
+etc) on top of the video.</para>
+
+<para>List of available <emphasis>subpicture filters</emphasis> can be
+found on the <ulink url="/streaming/features.html">streaming features
+page</ulink>. The Item options of this modules can be found using the following command line:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -p --advanced &lt;module name&gt;</userinput>
+</screen>
+
+</sect3>
+
+<sect3><title>threads=</title>
+
+<para>This options allows to set the amount of threads that should
+be used to encode the streams. Increasing this number to the amount
+of processors on the coputer, (or twice this number on Intel P4 HT
+processors) should improve transcoding performance.</para>
+
+</sect3>
+
+<sect3><title>audio-sync</title>
+
+<para>When this option is enabled, VLC will drop/duplicate video frames to synchronise the video track on the audio track.</para>
 
 </sect3>
 
@@ -784,219 +982,6 @@ video <emphasis>elementary streams</emphasis> belonging to the programs
 which PID are between 100 and 200.</para>
 
 </sect3>
-</sect2>
-
-<sect2><title>transcode</title>
-
-<para>
-Changes the codec and/or bitrates for a stream.
-</para>
-
-<para>
-Options:
-</para>
-
-<itemizedlist>
-
-<listitem><para><emphasis>acodec</emphasis>: 
-the new audio codec. It can be one of
-<emphasis>mpga</emphasis> (MPEG audio layer 2), <emphasis>a52</emphasis>
-or <emphasis>ac3</emphasis> (AC3 sound) or <emphasis>vorb</emphasis>
-(Vorbis).
-</para>
-</listitem>
-
-<listitem><para><emphasis>ab</emphasis>: 
-audio bitrate in Kbps.
-</para></listitem>
-
-<!-- UNIMPLEMENTED for the moment 
-<listitem><para><emphasis>samplerate</emphasis>: audio encoding rate in Hz
-(44000 for a CD, for example).</para></listitem> -->
-
-<!-- UNIMPLMENETED <listitem><para><emphasis>channels</emphasis>: number of audio
-channels.</para></listitem>  -->
-
-<listitem><para><emphasis>vcodec</emphasis>: 
-the new video codec. It can be one of
-<emphasis>mp4v</emphasis> (MPEG4), <emphasis>mpgv</emphasis>
-(MPEG1), <emphasis>DIV1</emphasis>, <emphasis>DIV2</emphasis>,
-<emphasis>DIV3</emphasis> (DivX 1,2,3), <emphasis>H263</emphasis>
-(H263), <emphasis>I263</emphasis> (H263I), <emphasis>WMV1</emphasis>
-or <emphasis>WMV2</emphasis> (Windows Media Video 1 or 2),
-<emphasis>MJPG</emphasis> (MJPEG), <emphasis>MJPB</emphasis>
-(MJPEGB).
-</para></listitem>
-
-<listitem><para><emphasis>width</emphasis>:
-video width.
-</para></listitem>
-
-<listitem><para><emphasis>height</emphasis>:
-video height.
-</para></listitem>
-
-<listitem><para><emphasis>vb</emphasis>: 
-video bitrate in kbps.
-</para></listitem>
-
-<listitem><para><emphasis>vt</emphasis>: 
-video bitrate tolerance in bps.
-</para></listitem>
-
-<listitem><para><emphasis>deinterlace</emphasis>: 
-deinterlace the stream.
-</para></listitem>
-
-<listitem><para><emphasis>croptop</emphasis>: 
-number of pixels removed from the top of the video.
-</para></listitem>
-
-<listitem><para><emphasis>cropbottom</emphasis>: 
-number of pixel removed from the bottom of the video.
-</para></listitem>
-
-<listitem><para><emphasis>cropleft</emphasis>: 
-number of pixels removed from the left of the video.
-</para></listitem>
-
-<listitem><para><emphasis>cropright</emphasis>: 
-number of pixels removed from the right of the video.
-</para></listitem>
-
-<listitem><para><emphasis>hq</emphasis>: 
- high quality transcoding (uses more CPU).
-</para></listitem>
-
-<listitem><para><emphasis>qmin</emphasis>: 
-minimum video quantiser scale (VBR)
-</para></listitem>
-
-<listitem><para><emphasis>qmax</emphasis>:
-maximum video quantiser scale (VBR).
-</para></listitem>
-
-</itemizedlist>
-
-</sect2>
-
-<sect2><title>rtp</title>
-<para>
-Sends a stream over RTP
-</para>
-
-<para>
-Options:
-</para>
-
-<itemizedlist>
-                                                                                
-<listitem><para><emphasis>dst</emphasis>:
-destination IP address (unicast or multicast).
-</para></listitem>
-
-<listitem><para><emphasis>port</emphasis>:
-destination UDP port.
-</para></listitem>
-
-<listitem><para><emphasis>sdp</emphasis>:
-how to send the sdp file: <emphasis>http://server_ip:server_port/path</emphasis> for http, or <emphasis>rtsp://server_ip:server_port/path</emphasis> for rtsp, where <emphasis>server_ip</emphasis> is the address of one of the server's interface, and <emphasis>path</emphasis> where the sdp file will be accessible on the server. You can also use <emphasis>sap://</emphasis> to announce your stream by SAP.
-</para></listitem>
-
-</itemizedlist>
-<note><para>
-When using <emphasis>sdp=rtsp</emphasis>, it is possible not to give any destination address. VLC will then send the stream to any client that connects to it.
-</para></note>
-
-</sect2>
-
-<sect2><title>es</title>
-
-<para>
-Make separate Elementary Streams.
-</para>
-
-<para>Options:</para>
-
-<itemizedlist>
-
-<listitem><para><emphasis>access_audio</emphasis>:
-how to send the audio track:
-<emphasis>file</emphasis>, <emphasis>udp</emphasis>,
-<emphasis>rtp</emphasis> or <emphasis>http</emphasis>.
-</para></listitem>
-
-<listitem><para><emphasis>access_video</emphasis>: 
-how to send the vidéo track:
-<emphasis>file</emphasis>, <emphasis>udp</emphasis>,
-<emphasis>rtp</emphasis> or <emphasis>http</emphasis>.
-</para></listitem>
-
-<listitem><para><emphasis>access</emphasis>:
- if you want the audio and the video tracks to use
-the same access, use this option instead of the two above.
-</para></listitem>
-
-
-<listitem><para><emphasis>mux_audio</emphasis>: 
-which muxer (ie, which format) will be used for the
-audio track. It can be one of <emphasis>avi</emphasis> (for AVI format),
-<emphasis>ogg</emphasis> (for OGG format), <emphasis>ps</emphasis> (for
-MPEG2-PS format), <emphasis>ts</emphasis> (for MPEG2-TS format).
-</para></listitem>
-
-<listitem><para><emphasis>mux_video</emphasis>:
-which muxer (ie, which format) will be used for the
-video track. It can be one of <emphasis>avi</emphasis> (for AVI format),
-<emphasis>ogg</emphasis> (for OGG format), <emphasis>ps</emphasis> (for
-MPEG2-PS format), <emphasis>ts</emphasis> (for MPEG2-TS format).
-</para></listitem>
-
-<listitem><para><emphasis>mux</emphasis>: 
- if you want the audio and the video tracks to use
-the same muxer, use this option instead of the two above.
-</para></listitem>
-
-
-<listitem><para><emphasis>url_audio</emphasis>: 
-if you use the <emphasis>file</emphasis> access, it
-will be the location where to store the audio track; if you use another
-access, it will be the unicast or multicast IP address where you want to
-stream.
-</para></listitem>
-
-<listitem><para><emphasis>url_video</emphasis>: 
-if you use the <emphasis>file</emphasis> access, it
-will be the location where to store the vidéo track; if you use another
-access, it will be the unicast or multicast IP address where you want to
-stream.
-</para></listitem>
-
-<listitem><para><emphasis>url</emphasis>:
- if you want the audio and the video tracks to use
-the same url, use this option instead of the two above.
-</para></listitem>
-
-</itemizedlist>
-
-<note><para>
-In the <emphasis>url</emphasis> options, if you use
-the <emphasis>file</emphasis> access, you can use the following macros
-in the filename:</para>
-
-<itemizedlist>
-
-<listitem><para><emphasis>%n</emphasis> = 
-stream number</para></listitem>
-<listitem><para><emphasis>%c</emphasis> = FOURCC ;</para></listitem>
-<listitem><para><emphasis>%m</emphasis> =
-muxer
- ;</para></listitem>
-<listitem><para><emphasis>%a</emphasis> = access.</para></listitem>
-
-</itemizedlist>
-
-</note>
 
 </sect2>
 
@@ -1005,31 +990,42 @@ Miscellaneous
 </title>
 
 <para>
-Here are a few additional global options
+Here are a few additional global options:
 </para>
 
-<itemizedlist>
+<sect3><title>--sout-all, --no-sout-all</title>
 
-<listitem><para><emphasis>--sout-all,  --no-sout-all</emphasis>
- Enable streaming of all ES (default disabled). By defaut VLC will only stream one audio ES and one video ES (the first ones). If you enable sout-all, all ES (audio, video and SPU) will be streamed.</para>
-</listitem>
+<para>Enable streaming of all ES (default disabled). By defaut VLC will
+only stream one audio ES and one video ES (the first ones). If you
+enable sout-all, all ES (audio, video and SPU) will be streamed.</para>
 
-<listitem><para><emphasis> --sout-keep, --no-sout-keep</emphasis>
-Keep sout open (default disabled) : use the same sout instance accross the various playlist items, if possible.</para>
-</listitem>
+</sect3>
 
-<listitem><para><emphasis>--no-sout-audio</emphasis>
-disables audio stream output.
-</para></listitem>
+<sect3><title>--sout-keep, --no-sout-keep</title>
 
-<listitem><para><emphasis>--no-sout-video</emphasis> 
-disables video stream output.
-</para></listitem>
+<para>Keep sout open (default disabled) : use the same sout instance
+accross the various playlist items, if possible.</para>
 
-</itemizedlist>
+</sect3>
+
+<sect3><title>--no-sout-audio</title>
+<para>This options allows to disable audio in the outputed stream.
+</para>
+
+</sect3>
+
+<sect3><title>--no-sout-video</title>
+<para>This options allows to disable video in the outputed stream.
+</para>
+
+</sect3>
+
+</sect2>
+
+<sect2><title>Simplified Syntax</title>
 
 <para>
- The stream output also offers a simplified syntax,
+The stream output also offers a simplified syntax,
 with which you can only you use the <emphasis>standard</emphasis> module
 main options:
 </para>

@@ -2,6 +2,11 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+|10 Feb 2004| VLC supports DTS audio | The latest
+<a href="http://download.videolan.org/pub/testing/vlc-0.7.1-test1/">
+test release</a> of <a href="http://www.videolan.org/vlc/">VLC media player</a>
+comes with DTS audio support. Try it out!
+
 |10 Feb 2004| First release of dtsdec |
 <a href="http://www.videolan.org/dtsdec.html">dtsdec</a> is a free
 DTS Coherent Acoustics decoder. DTS is a high quality multi-channel (5.1)

@@ -84,6 +84,19 @@ standard{access=udp,mux=ts,url=192.168.1.12},
 dst=standard{access=udp,mux=ts,url=192.168.1.42}}'</userinput>
 </screen>
 
+<para>Send parts of a multiple program input stream:
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv multiple_program_input_stream 
+--sout '#duplicate{dst=standard{access=udp,mux=ts,url=239.255.12.42},select="program=12345",
+dst=standard{access=udp,mux=ts,url=239.255.12.43}, select="video,program=1234-2345"}'</userinput>
+</screen>
+
+<para>This command sends the program of the input stream which id is
+12345 to 239.255.12.42 and all video programs with id between 1234 and
+2345 to 239.255.12.43.</para>
+
 </sect2>
 
 <sect2><title>

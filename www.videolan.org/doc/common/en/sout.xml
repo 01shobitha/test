@@ -99,6 +99,14 @@ syntax that you must use:
 </screen>
 
 <para>
+You may also use the following syntax :
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc input_stream --sout-module1-option1=... --sout-module1-option2=... --sout-module2-option1=... --sout-module2-option2=... ...</userinput>
+</screen>
+
+<para>
 For example, to transcode a stream and send it, use:
 </para>
 
@@ -153,8 +161,12 @@ multicast IP address where you want to stream.
 <listitem><para><emphasis>sap</emphasis>: 
 if you use the <emphasis>udp</emphasis> or
 <emphasis>rtp</emphasis> accesses, use this option to announce your
-stream, using SAP/SDP. This option contains the name under which you
-want to announce the program.
+stream, using SAP/SDP.
+</para></listitem>
+
+<listitem><para><emphasis>name</emphasis>!
+This option contains the name under which you want to announce the 
+program.
 </para></listitem>
 
 <listitem><para><emphasis>slp</emphasis>: 
@@ -219,6 +231,27 @@ Options:
 A new stream output chain of modules, as described
 earlier.
 </para></listitem>
+
+<listitem><para><emphasis>select</emphasis>:
+This option allows you to specify which programs or es you wish to
+stream for the previous dst, if the input stream has several ones.</para>
+
+<para>
+
+Format is "program=<emphasis>program_id</emphasis>" or es="<emphasis>es_id</emphasis>".
+
+You can also use ranges, like "program=<emphasis>start_program-end_program</emphasis>". 
+
+You can select only es of a given type, with :</para>
+
+<itemizedlist>
+
+<listitem>no-audio, noaudio, audio</listitem>
+<listitem>no-video, novideo, video</listitem>
+<listitem>no-spu,   nospu,   spu</listitem>
+</itemizedlist>
+
+<para>You may use several selectors, comma-separated</para></listitem>
 
 </itemizedlist>
 
@@ -338,7 +371,7 @@ destination UDP port.
 </para></listitem>
 
 <listitem><para><emphasis>sdp</emphasis>:
-how to send the sdp file: <emphasis>http://server_ip:server_port/path</emphasis> for http, or <emphasis>rtsp://server_ip:server_port/path</emphasis> for rtsp, where <emphasis>server_ip</emphasis> is the address of one of the server's interface, and <emphasis>path</emphasis> where the sdp file will be accessible on the server.
+how to send the sdp file: <emphasis>http://server_ip:server_port/path</emphasis> for http, or <emphasis>rtsp://server_ip:server_port/path</emphasis> for rtsp, where <emphasis>server_ip</emphasis> is the address of one of the server's interface, and <emphasis>path</emphasis> where the sdp file will be accessible on the server. You can also use <emphasis>sap://</emphasis> to announce your stream by SAP.
 </para></listitem>
 
 </itemizedlist>

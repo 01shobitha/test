@@ -11,9 +11,9 @@
 <li><a href="http://www.bebits.com/app/2680">BeOS 5</a> with
 development tools</li>
 <li><a href="http://www.bebits.com/app/1610">CVS 1.11</a></li>
-<li>Subversion</li>
-<li>bzip2/bunzip2</li>
-<li>wget</li>
+<li><a href="http://www.beclan.org/packages.php">Subversion</a></li>
+<li><a href="http://www.bebits.com/app/3218">bzip2/bunzip2</a></li>
+<li><a href="http://www.bebits.com/app/2848">wget</a></li>
 </ul>
 
 <p>Compiling is usually done on a vanilla R5.0.3 install with the
@@ -29,7 +29,8 @@ build every util and library VLC needs (you need an internet connection,
 a fast one preferably)</li>
 <li>cd to the root of the source directory</li>
 <li>run <code>./bootstrap &amp;&amp; ./configure --with-ffmpeg-mp3lame
---with-ffmpeg-faac &amp;&amp; make</code></li>
+--with-ffmpeg-faac --disable-plugins --enable-debug &amp;&amp;
+make &amp;&amp; make vlc-bundle</code></li>
 <li>to build a package, run <code>make package-beos</code></li>
 </ul>
 

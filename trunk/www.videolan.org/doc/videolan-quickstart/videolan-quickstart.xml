@@ -6,6 +6,7 @@
 
 [
   <!ENTITY intro SYSTEM "../common/intro.xml">
+  <!ENTITY codec-demux SYSTEM "../common/codec-demux.xml">
   <!ENTITY vlc SYSTEM "vlc.xml">
   <!ENTITY vlc-streamoutput SYSTEM "vlc-streamoutput.xml">
   <!ENTITY vod SYSTEM "vod.xml">

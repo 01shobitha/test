@@ -4,6 +4,7 @@
 
 [
   <!ENTITY intro SYSTEM "../common/intro.xml">
+  <!ENTITY codec-demux SYSTEM "../common/codec-demux.xml">
   <!ENTITY modules SYSTEM "modules.xml">
   <!ENTITY install SYSTEM "install.xml">
   <!ENTITY cmdline SYSTEM "cmdline.xml">

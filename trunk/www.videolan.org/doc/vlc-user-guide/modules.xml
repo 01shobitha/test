@@ -898,10 +898,14 @@ ainsi contrôler le VLC par des scripts ou des commandes, comme
 <span xml:lang="fr">Toujours activé</span></emphasis></para>
 <para>
 <span xml:lang="en">This module allows you to remote control your VLC
-via a web browser. You can create custom web pages</span>
+via a web browser. You can create custom web pages.
+<ulink url="http://wiki.videolan.org/index.php/HTTP">More info here</ulink>
+</span>
 <span xml:lang="fr">Ce module vous permet de contrôler VLC à distance
 par un navigateur web. Vous pouvez créer vos propres pages web de
-contrôle</span>
+contrôle.
+<ulink url="http://wiki.videolan.org/index.php/HTTP">Plus d'informations
+</ulink></span>
 .</para></sect2>
 
 <sect2><title>ncurses</title>
@@ -967,9 +971,11 @@ xml:lang="fr">Désactivé par défaut</span></emphasis></para>
 </emphasis></para>
 <para>
 <span xml:lang="en">This module allows you to control VLC via a joystick
-with many options</span>
+with many options. More information can be found 
+<ulink url="http://wiki.videolan.org/index.php/Joystick">here</ulink></span>
 <span xml:lang="fr">Ce module vous permet de contrôler VLC à l'aide d'un
-joystick et est hautement configurable</span>
+joystick et est hautement configurable. Vous trouverez plus d'informations
+<ulink url="http://wiki.videolan.org/index.php/Joystick">ici</ulink></span>
 .</para></sect2>
 
 </sect1>

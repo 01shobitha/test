@@ -3,6 +3,7 @@
 
 [
   <!ENTITY intro SYSTEM "../common/intro.xml">
+  <!ENTITY codec-demux SYSTEM "../common/codec-demux.xml">
   <!ENTITY install SYSTEM "install.xml">
   <!ENTITY receive SYSTEM "receive.xml">
   <!ENTITY file SYSTEM "file.xml">

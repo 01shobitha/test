@@ -123,7 +123,7 @@ having muxed it.
 <listitem><para>file: saves the stream to a file.</para>
 <para>Use the <emphasis>append</emphasis> option to append the straem to an existing file instead of remplacing it.</para></listitem>
 
-<listitem><para>udp: streams the file to a UDP unicast or multicast
+<listitem><para>udp: streams to a UDP unicast or multicast
 address.</para>
 <para>Item options are: <emphasis>caching=&lt;time in
 ms&gt;</emphasis> to set the time VLC should buffer data before sending
@@ -134,7 +134,7 @@ ms&gt;</emphasis> to drop packets that arrive too late at this stage of
 the chain, <emphasis>raw</emphasis> if you don't want to wait until the
 MTU is filled before sending the packet.</para> </listitem>
 
-<listitem><para>http: streams the file over HTTP.</para>
+<listitem><para>http: streams over HTTP.</para>
 <para>Item options are: <emphasis>user=&lt;user name&gt;</emphasis>
 to enable HTTP basic authentification and set the user,
 <emphasis>pwd=&lt;password&gt;</emphasis> to set the basic
@@ -149,7 +149,13 @@ to set the revocation certificate to use for the SSL connexion,
 <emphasis>mime=&lt;mime type&gt;</emphasis> to set the mime type
 returned by the server.</para></listitem>
 
-<listitem><para>rtp: streams the file over RTP. Please note that this is
+<listitem><para>mmsh: streams using the Microsoft MMS protocol. This
+protocol is used as transport methof by many Microsoft's softwares.
+Note that only a small part of the MMS protocol is supported (MMS
+encapsulated in HTTP).</para>
+<para>Item options are tha same than for the http module.</para></listitem>
+
+<listitem><para>rtp: streams over RTP. Please note that this is
 a legacy module. It doesn't allow RTSP and can only be used to stream
 TS streams. Please have a look at the <emphasis>rtp</emphasis> stream
 output module for a more compliant and complete RTP streamer.</para>
@@ -163,8 +169,11 @@ output module for a more compliant and complete RTP streamer.</para>
 <para>Avaivailable options are: </para>
 
 <itemizedlist>
-<listitem><para>ts: the MPEG2/TS muxer. This muxer can be used with any
-<emphasis>access</emphasis> method.</para>
+<listitem><para><emphasis>ts:</emphasis> the MPEG2/TS muxer. This the
+standard muxer used to stream MPEG 2. This muxer can be used with any
+<emphasis>access</emphasis> method. Supported codecs are MPEG 1/2/4,
+MJPEG, H263, H264, I263, WMV 1/2 and theora for video, MPEG audio, AAC and
+a52 for the audio stream.</para>
 
 <para>Item options are: <emphasis>pid-video=&lt;pid&gt;</emphasis>
 to set the PID of the video track,
@@ -178,24 +187,71 @@ which the bitrate of the stream will remain constant, for variable
 bitrate streams, <emphasis>use-key-frames</emphasis> uses I frames
 as limts for the shaping intervals, <emphasis>pcr=&lt;PCR interval
 in ms&gt;</emphasis> allows to set at which interval Program
-Clock References will be sent, <emphasis>dts-delay=&lt;delay in
-ms&gt;</emphasis> allows to delay PTS (Presentation Time Stamps) from
-the DTS (Decoding Time Stamp), <emphasis>crypt-audio</emphasis> allows
-to enable encryption of the audio track using the CSA algorithm,
-<emphasis>csa-ck=&lt;key as a 16 character word&gt;</emphasis> allows
-to set the key used for CSA encryption.</para></listitem>
+Clock References will be sent, <emphasis>dts-delay=&lt;delay
+in ms&gt;</emphasis> allows to delay PTS (Presentation Time
+Stamps) from the DTS (Decoding Time Stamp) from the given time,
+<emphasis>crypt-audio</emphasis> allows to enable encryption of the
+audio track using the CSA algorithm, <emphasis>csa-ck=&lt;key as a
+16 character word&gt;</emphasis> allows to set the key used for CSA
+encryption.</para></listitem>
 
-<listitem><para>
-<emphasis>avi</emphasis>
-  (for AVI format)
-<emphasis>ogg</emphasis> 
-  (for OGG format)
-<emphasis>ps</emphasis>
-  (for MPEG2-PS format)
-<emphasis>ts</emphasis> 
-   (for MPEG2-TS format).
-</para></listitem>
+<listitem><para><emphasis>ps:</emphasis> the MPEG2/PS muxer. This the standard muxer for MPEG
+2 files(.mpg). It can be used with the file and http output methods.
+Supported codecs are MPEG 1/2 and MJPEG for video, MPEG audio and a52 for
+audio streams.</para>
 
+<para>The only available item option is <emphasis>dst-delay=&lt;delay
+in ms&gt;</emphasis>. It allows to delay PTS (Presentation
+Time Stamps) from the DTS (Decoding Time Stamp) from the given
+time.</para></listitem>
+
+<listitem><para><emphasis>mpeg1:</emphasis> the standard MPEG 1 muxer. This muxer should be
+used instead of ps with MPEG 1 video streams, when saved to a file or
+streamed over HTTP. Supported codecs are MPEG 1 and MPEG audio.</para>
+<para>Items options are the same than for the PS muxer.</para></listitem>
+
+<listitem><para><emphasis>ogg:</emphasis> the ogg muxer. This is the muxer from the Xiph
+project. It can be used with the HTTP and file output methods. Supported
+codecs are MPEG 1/2/4, MJPEG WMV 1/2 and Theora, audio streams can be vorbis,
+flac, speex, a52 or MPEG audio.</para>
+<para>There is no item option for this muxer.</para></listitem>
+
+<listitem><para><emphasis>asf:</emphasis> the Microsoft ASF muxer. This is the standard muxer
+used for streaming by Microsoft's softwares. Is also used as container
+for WMA audio files. This muxer can be used with the file and HTTP
+output methods. Supported codecs are MPEG 4, MJPEG, WMV 1/2 for video,
+MPEG audio, a52 for audio streams.</para>
+
+<para>Item options are: <emphasis>title=&lt;title&gt;</emphasis>,
+<emphasis>title=&lt;title&gt;</emphasis>,
+<emphasis>autor=&lt;author&gt;</emphasis>,
+<emphasis>copyright=&lt;copyright message&gt;</emphasis>,
+<emphasis>comment=&lt;comments&gt;</emphasis>,
+<emphasis>rating=&lt;rating&gt;</emphasis> allow you to set what will be displayed in the according field of the stream comments.</para></listitem>
+
+<listitem><para><emphasis>asfh:</emphasis> this is a spacial version of the ASF muxer, that
+should be used for MMSH streaming. MMSH is the only supported output
+method. Supported codec are the same than for ASF.</para>
+<para>Item options are the same than for ASF.</para></listitem>
+
+<listitem><para><emphasis>avi:</emphasis> the Microsoft AVI muxer. This is very common
+encapsulation format for MPEG 4 files. The only supported output method
+is file. Supported codecs are MPEG 1/2/4, H263, H264 and I263 for video,
+MPEG audio and a52 for audio streams.</para>
+<para>There is not item option for this muxer.</para></listitem>
+
+<listitem><para><emphasis>mpjpeg:</emphasis> the multipart jpeg muxer. This encapsulation
+format is mostly used on suveillance video cameras with an integrated
+webserver. Such streams are usually embedded in webpages and seen with
+standard Internet browsers, as they are seen as a succession of jpeg
+images. The only supported output method is HTTP. The only usable codec
+is MJPEG. No sound track can be muxed in such streams.</para>
+<para>No item option is available for this muxer.</para></listitem>
+
+</itemizedlist>
+</sect3>
+
+<itemizedlist>
 <listitem><para><emphasis>url</emphasis>: 
 if you use the
 <emphasis>file</emphasis> access, it will be the location where to
@@ -227,7 +283,6 @@ IPv4 or IPv6. The value of this option is <emphasis>4</emphasis> or
 </para></listitem>
 
 </itemizedlist>
-</sect3>
 
 <note><para>
 If you are streaming in multicast, you may want to

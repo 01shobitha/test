@@ -13,9 +13,10 @@
 
 <p>VLC is included in the <a href="http://www.gentoo.org/doc/en/portage-user.xml">Portage</a> package system of the <a
 href="http://www.gentoo.org/">Gentoo Linux</a> distribution.
-So you can simple type <i>emerge vlc</i> and you will have VLC installed. I advice to always use the latest (and 'unstable') version of VLC by emerging like: <i>ACCEPT_KEYWORDS="~x86" emerge vlc</i>.</p>
+So you can simple type <i>emerge vlc</i> and you will have VLC installed.</p>
+<p>However we advice to always use the latest (and 'unstable') version of VLC. For this you will first need to add the following line <i>"media-video/vlc ~x86"</i> to the file <i>"/etc/portage/package.keywords"</i>. If the file does not yet exist you should create it.</p>
 <p>
-When you don't set the correct USE variables, you will get a very bare bones version of VLC. I advice to emerge with the following USE variables: dvd nls xv bidi truetype wxwindows imlib matroska faad png. To add streaming support, add the stream and streamout USE variables.
+When you don't set the correct USE variables, you will get a very bare bones version of VLC. We advice to emerge with the following USE variables: <i>"dvd ffmpeg mpeg mad wxwindows aac dts a52 ogg flac theora oggvorbis matroska freetype bidi xv svga ggi gnutls stream live"</i>. You can set these variables for VLC by adding the line <i>"media-video/vlc dvd ffmpeg mpeg mad wxwindows aac dts a52 ogg flac theora oggvorbis matroska freetype bidi xv svga ggi gnutls stream live"</i> to the file <i>"/etc/portage/package.use"</i>.
 </p>
 
 <h2>Older versions</h2>

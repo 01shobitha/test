@@ -1,5 +1,7 @@
 RewriteEngine on
 
+AddType text/html .html
+
 # répertoire/ -> répertoire/index.html
 RewriteRule ^(.*)/$ include/rewrite.php3?dir=$1&page=index
 

@@ -93,7 +93,7 @@ in <filename>doc/subtitles/svcd-subtitles.txt</filename> and
 <filename>doc/subtitles/cvd-subtitles.txt</filename>
 werden</para>
 	 <para>
-  	 <span xml:lang="en">Use the option
+  	 Use the option
   	 <filename>--spu-channel</filename> <emphasis>number</emphasis>
   	 to select a subtitle track to show. The number
   	 should be -1, 0, 1, 2, or 3. The CVD and SVCD subtitle formats

@@ -1,0 +1,62 @@
+<chapter id="vlc"><title id="tvlc">VLC, the universal media player</title>
+
+<sect1><title>Installing VLC</title>
+
+  &install-vlc;
+
+</sect1>
+
+<sect1><title>Running VLC</title>
+
+<sect2><title>Read a File</title>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv video1.xyz</userinput>
+</screen>
+
+<para>where <filename>video1.xyz</filename> is the name of the file you
+want to play.</para>
+
+</sect2>
+
+<sect2><title>Read a DVD or a VCD</title>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv dvd:/dev/dvd</userinput>
+</screen>
+
+<para>where <filename>/dev/dvd</filename> is the name of your drive (put
+<filename>D:</filename> under Windows if <filename>D</filename> is the
+letter of your DVD drive).</para>
+
+<note><para>If you are running Linux, you must have write access to the
+device corresponding to your DVD drive. For that, you should be in the
+<emphasis>disk</emphasis> or <emphasis>cdrom</emphasis> group (look
+at the permissions in <filename>/dev</filename>). If you're not, add
+yourself to the group :</para>
+
+<screen>
+<prompt># </prompt><userinput>adduser your_login disk_or_cdrom</userinput>
+</screen>
+
+<para>and then restart your session.</para></note>
+
+</sect2>
+
+<sect2><title>Troubleshooting</title>
+
+<para>If VLC doesn't work for you, try to spot an error message
+in the logs that are printed in the terminal.</para>
+
+<para>Then, read the <ulink
+url="http://www.videolan.org/doc/faq-vlc/faq/">vlc FAQ</ulink> and have a
+look at the <ulink url="http://bugzilla.videolan.org/">Bugzilla</ulink>
+to see if it is a known issue.</para>
+
+<para>If you can't find out the problem, explain it in English in the
+mailing-list <emphasis>vlc@videolan.org</emphasis> and copy-paste in
+your mail the messages of the message window.</para>
+
+</sect2>
+</sect1>
+</chapter>

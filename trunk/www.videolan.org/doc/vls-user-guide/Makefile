@@ -1,7 +1,7 @@
 # Makefile for the VideoLAN Documentation in DocBook XML
 # Written by Alexis de Lattre <alexis@videolan.org>
 
-DOC := videolan-quickstart
+DOC := vls-user-guide
 
 XML_DECL := /usr/lib/sgml/declaration/xml.decl
 

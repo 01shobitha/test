@@ -9,6 +9,7 @@
 
 ; Personnalization of James Clark's stylesheet for PS & PDF output
 ; These parameters overide James Clark's one.
+; Written by Alexis de Lattre (alexis@videolan.org)
 
 ; Only produce a table of contents (not a table of figure, etc...)
 (define ($generate-book-lot-list$)

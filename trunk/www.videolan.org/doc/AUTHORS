@@ -1,7 +1,7 @@
 # The format of this file was inspired by the Linux kernel CREDITS file.
-#-
+#
 # Authors and contributors are listed alphabetically.
-#-
+#
 # The fields are: name (N), email (E), web-address (W), CVS account login (C),
 # PGP key ID and fingerprint (P), description (D), and snail-mail address (S).
 
@@ -15,6 +15,7 @@ N: Anil Daoud
 E: anil@videolan.org
 C: anil
 D: VideoLAN Quickstart
+D: VideoLAN HOWTO
 S: France
 
 N: Cyril Deguet
@@ -41,5 +42,3 @@ C: zorglub
 D: VideoLAN Quickstart
 D: VLC user guide
 S: France
-
-

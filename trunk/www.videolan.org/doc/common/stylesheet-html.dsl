@@ -8,6 +8,7 @@
 
 ; Personnalization of James Clark's stylesheet for HTML output
 ; These parameters overide James Clark's one.
+; Written by Alexis de Lattre (alexis@videolan.org)
 
 ; Only produce a table of contents (not a table of figure, etc...)
 (define ($generate-book-lot-list$)
@@ -21,7 +22,7 @@
 (define (chunk-element-list)
   (list (normalize "preface")
 	(normalize "chapter")
-	(normalize "appendix") 
+	(normalize "appendix")
 	(normalize "article")
 	(normalize "glossary")
 	(normalize "bibliography")
@@ -51,8 +52,8 @@
 (define %use-id-as-filename%
   #t)
 
+; Are sections enumerated?
 (define %section-autolabel%
-  ;; Are sections enumerated?
   #t)
 
 

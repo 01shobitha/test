@@ -1,13 +1,12 @@
 <!DOCTYPE style-sheet PUBLIC "-//James Clark//DTD DSSSL Style Sheet//EN" [
-<!ENTITY dbstyle SYSTEM
-"/usr/share/sgml/docbook/stylesheet/dsssl/modular/print/docbook.dsl" CDATA DSSSL>
+<!ENTITY dbstyle SYSTEM "/usr/share/sgml/docbook/stylesheet/dsssl/modular/html/docbook.dsl" CDATA DSSSL>
 ]>
 
 <style-sheet>
 <style-specification use="docbook">
 <style-specification-body>
 
-; Personnalization of James Clark's stylesheet for PS & PDF output
+; Personnalization of James Clark's stylesheet for Text output
 ; These parameters overide James Clark's one.
 ; Written by Alexis de Lattre (alexis@videolan.org)
 
@@ -17,34 +16,16 @@
 
 ; Depth of the table of contents
 (define (toc-depth nd)
-      2)
+      1)
 
-; Magins
-(define %left-margin%
-  3pi)
-
-(define %right-margin%
-  3pi)
-
-(define %top-margin%
-  5pi)
-
-(define %bottom-margin%
-  3.5pi)
-
-(define %header-margin%
-  2pi)
-
-(define %footer-margin%
-  2pi)
-
-; I want small icons for "notes", "warnings", "caution" & "important"
+; No icons
 (define %admon-graphics%
+  #f)
+
+; Are sections enumerated?
+(define %section-autolabel%
   #t)
 
-; Path for the icons
-(define %admon-graphics-path%
-  "/usr/share/sgml/docbook/stylesheet/dsssl/modular/images/")
 
 </style-specification-body>
 </style-specification>

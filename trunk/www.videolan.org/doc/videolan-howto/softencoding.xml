@@ -27,7 +27,7 @@ url="http://www.exploits.org/v4l/">this page</ulink>.</para>
 
 <screen>
 <!-- We cut the lines when they are too long, so that it looks OK in PDF format ! -->
-<prompt>% </prompt><userinput>vlc -vvv v4l:/dev/video:norm=secam:frequency=8692:size=640x480:channel=0:adev=/dev/dsp:audio=0
+<prompt>% </prompt><userinput>vlc -vvv v4l:/dev/video:norm=secam:frequency=543250:size=640x480:channel=0:adev=/dev/dsp:audio=0
 --sout '#transcode{vcodec=mp4v,acodec=mpga,vb=3000,ab=256,vt=800000,keyint=80,deinterlace}:std{access=udp,mux=ts,url=239.255.12.13}' --ttl 12</userinput>
 </screen>
 
@@ -42,8 +42,8 @@ corresponding to your acquisition card or your webcam,</para></listitem>
 norm of the video (can also be <emphasis>pal</emphasis> or
 <emphasis>ntsc</emphasis>),</para></listitem>
 
-<listitem><para><emphasis>frequency=8692</emphasis> is the frequency of
-the channel in Mhz, multiplied by 16 (<emphasis>Warning :</emphasis> Syntax has changed in CVS. Frequency is now channel frequency in kHz),</para></listitem>
+<listitem><para><emphasis>frequency=543250</emphasis> is the frequency of
+the channel in khz (<emphasis>Warning :</emphasis> for VLC < 0.6.1, Frequency is channel frequency in MHz multiplied by 16),</para></listitem>
 
 <listitem><para><emphasis>size=640x480</emphasis> is
 the size of the video you want (you can also put the

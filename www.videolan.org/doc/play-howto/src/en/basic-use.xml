@@ -240,47 +240,16 @@ settings, such as the size of the encoded video (in pixels), its framerate
 <sect1><title>Using the playlist</title>
 
 <para>VLC can of course play several files, using its playlist system.
-To access the playlist, click on the <emphasis>Playlist</emphasis> button of the
-main interface (see <xref linkend="desc" endterm="tdesc"/> ).</para>
+To access the playlist, click on the <emphasis>Playlist</emphasis>
+button of the main interface (see <xref linkend="desc" endterm="tdesc"/>
+).</para>
 
-<para> Each time
-you use the Open dialog box, the stream you select is appended at the
-end of the playlist and started.</para>
+<para> Each time you use the Open dialog box, the stream you select is
+appended at the end of the playlist and started.</para>
 
 <para>The playlist window shows all the streams in the playlist.
 Double-click one to have it played.</para>
 
-<para>In the wxWindows interface, the <emphasis>Manage</emphasis> menu allows 
-you to append an item at the nd of the playlist (but its playback won't start 
-immediately), to save the playlist as a M3U or PLS file, or to import a 
-playlist file.</para>
-
-<para>In the MacOS X interface, saving a playlist can be done using the 
-<emphasis>Save Playlist...</emphasis> function in the <emphasis>File</emphasis> menu. To import a playlist file, open it the same way as any other media file, 
-using the <emphasis>Quick Open File...</emphasis> menu item.</para>
-
-<para>In the wxWindows interface, the <emphasis>Sort</emphasis> allows you to 
-sort the playlist according to several criteria, or to shuffle it.</para>
-
-<para>In the MacOS X interface, sorting can be done by clicking the header of 
-the column matching the criteria you want to use for sorting.</para>
-
-<para>In the wxWindows interface, the toolbar contains three playlist mode 
-buttons to enable random mode, repeat of all the playlist and repeat of one 
-item of the playlist.</para>
-
-<para>In the MacOS X interface, random mode can be enabled by selecting the <emphasis>Random</emphasis> box. A drop down menu allows you to enable playlist and item repeat modes.</para>
-
-<para>You also have a search tool. Enter a search string and hit search.
-The next item to match the string will be hilighted. Keep hitting Search
-to cycle between all matching items.</para>
-
-<para>In the wxWindows interface, the <emphasis>Up</emphasis> and <emphasis>Down
-</emphasis> buttons at the bottom of the playlist window allow you to move an 
-item. Select an item and use these buttons to move it.</para>
-
-<para>In the MacOS X interface, you can move an item with the mouse, easily 
-using a <emphasis>Drag'n'Drop</emphasis>.</para>
 
 <mediaobject>
   <imageobject>
@@ -296,6 +265,92 @@ using a <emphasis>Drag'n'Drop</emphasis>.</para>
   <textobject><para>The Playlist - MacOS X interface</para></textobject>
   <caption><para>The Playlist - MacOS X interface</para></caption>
 </mediaobject>
+
+
+<sect2><title>Adding items, saving and loading playlists</title>
+
+<para>In the wxWindows interface, the <emphasis>Manage</emphasis> menu
+allows you to append an item at the end of the playlist (but its playback
+won't start immediately), to save the playlist as a M3U or PLS file, or
+to import a playlist file.</para>
+
+<para>In the MacOS X interface, saving a playlist can be done
+using the <emphasis>Save Playlist...</emphasis> function in the
+<emphasis>File</emphasis> menu. To import a playlist file, open it
+the same way as any other media file, using the <emphasis>Quick Open
+File...</emphasis> menu item.</para>
+
+</sect2>
+
+<sect2><title>Sorting</title>
+
+<para>In the wxWindows interface, <emphasis>Sort</emphasis> allows
+you to sort the playlist according to several criteria, or to shuffle
+it. You can also sort by clicking the header of the column</para>
+
+<para>In the MacOS X interface, sorting can be done by clicking
+the header of the column matching the criteria you want to use for
+sorting.</para>
+
+</sect2>
+
+<sect2><title>Playlist modes</title>
+
+<para>The playlist supports several playback modes.</para>
+
+<para>In the wxWindows interface, the toolbar contains three playlist
+mode buttons to enable random mode, repeat of all the playlist and
+repeat of one item of the playlist.</para>
+
+<para>In the MacOS X interface, random mode can be enabled by selecting
+the <emphasis>Random</emphasis> box. A drop down menu allows you to
+enable playlist and item repeat modes.</para>
+
+</sect2>
+
+<sect2><title>Misc</title>
+
+<sect3><title>Search</title>
+
+<para>You also have a search tool. Enter a search string and hit search.
+The next item to match the string will be hilighted. Keep hitting Search
+to cycle between all matching items.</para>
+
+</sect3>
+
+<sect3><title>Moving items</title>
+
+<para>In the wxWindows interface, the <emphasis>Up</emphasis> and
+<emphasis>Down </emphasis> buttons at the bottom of the playlist window
+allow you to move an item. Select an item and use these buttons to move
+it.</para>
+
+<para>In the MacOS X interface, you can move an item with the mouse,
+easily using a <emphasis>Drag'n'Drop</emphasis>.</para>
+
+</sect3>
+
+
+<sect3><title>Contextual menu</title>
+
+<para>By right-clicking an item, a contextual menu will appear, giving
+access to a number of functions (play the item, disable it, delete it,
+or get info on it).</para>
+
+<para>If you ask for info, an item info dialog box will appear.</para>
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/play-howto/intf-wx-iteminfo.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>Item Info Dialog - wx Interface</para></textobject>
+  <caption><para>Item Info Dialog - wx Interface</para></caption>
+</mediaobject>
+
+</sect3>
+
+</sect2>
+
 </sect1>
 
 <sect1><title>Hotkeys</title>
@@ -358,7 +413,7 @@ Select one to get the subtitles. Depending on the media, a description
 
 <mediaobject>
   <imageobject>
-    <imagedata fileref="images/play-howto/select-subtitles-wx.jpg" format="JPG" />
+    <imagedata fileref="images/play-howto/intf-wx-select-sub.jpg" format="JPG" />
   </imageobject>
   <textobject><para>Select a subtitles track under Windows or Linux</para></textobject>
   <caption><para>Select a subtitles track under Windows or Linux</para></caption>
@@ -366,7 +421,7 @@ Select one to get the subtitles. Depending on the media, a description
 
 <mediaobject>
   <imageobject>
-    <imagedata fileref="images/play-howto/select-subtitles-osx.jpg" format="JPG" />
+    <imagedata fileref="images/play-howto/intf-osx-select-sub.jpg" format="JPG" />
   </imageobject>
   <textobject><para>Select a subtitles track under MacOS X</para></textobject>
   <caption><para>Select a subtitles track under MacOS X</para></caption>
@@ -418,7 +473,7 @@ options</emphasis> checkbox and click on the Settings button.</para>
 
 <mediaobject>
   <imageobject>
-    <imagedata fileref="images/play-howto/sub-file-wx.jpg" format="JPG" />
+    <imagedata fileref="images/play-howto/intf-wx-sub-file.jpg" format="JPG" />
   </imageobject>
   <textobject><para>Select a subtitles file under Windows or Linux</para></textobject>
   <caption><para>Select a subtitles file under Windows or Linux</para></caption>
@@ -455,7 +510,7 @@ Image settings can be easily adjusted.</para>
 
 <mediaobject>
   <imageobject>
-    <imagedata fileref="images/play-howto/vfilters-wx.jpg" format="JPG" />
+    <imagedata fileref="images/play-howto/intf-wx-vfilters.jpg" format="JPG" />
   </imageobject>
   <textobject><para>Video filters selection in the wxWindows interface</para></textobject>
   <caption><para>Video filters selection in the wxWindows interface</para></caption>
@@ -492,7 +547,7 @@ by activating the advanced GUI on wxWindows or by clicking the
 
 <mediaobject>
   <imageobject>
-    <imagedata fileref="images/play-howto/equalizer-wx.jpg" format="JPG" />
+    <imagedata fileref="images/play-howto/intf-wx-equalizer.jpg" format="JPG" />
   </imageobject>
   <textobject><para>The equalizer in the wxWindows interface</para></textobject>
   <caption><para>The equalizer in the wxWindows interface</para></caption>

@@ -1,7 +1,7 @@
 /* CSS for the VideoLAN website
  * Stolen from the Gnumeric website by Sam :-)
  *
- * $Id: main.css,v 1.69 2003/02/03 03:42:01 sam Exp $ */
+ * $Id: main.css,v 1.70 2003/02/03 04:17:54 sam Exp $ */
 
 body {
   font-family: sans-serif, Helvetica, Arial;
@@ -314,7 +314,7 @@ td.topleft {
   padding-top: 2px;
 
   border-style: solid;
-  border-color: #4a3;
+  border-color: #9a3;
   border-bottom-width: 1px;
   border-top-width: 0px;
   border-left-width: 0px;
@@ -331,7 +331,7 @@ td.topright {
   padding-top: 2px;
 
   border-style: solid;
-  border-color: #4a3;
+  border-color: #9a3;
   border-bottom-width: 1px;
   border-top-width: 0px;
   border-left-width: 1px;
@@ -349,7 +349,7 @@ td.topbar {
   padding-right: 5px;
 
   border-style: solid;
-  border-color: #4a3;
+  border-color: #9a3;
   border-bottom-width: 1px;
   border-top-width: 1px;
   border-left-width: 1px;
@@ -359,7 +359,7 @@ td.topbar {
 td.topbarselected {
   vertical-align: middle;
   background-color: #bfa;
-  color: #4a3;
+  color: #9a3;
 
   text-align: center;
   font-weight: bold;
@@ -370,7 +370,7 @@ td.topbarselected {
   padding-right: 5px;
 
   border-style: solid;
-  border-color: #4a3;
+  border-color: #9a3;
   border-bottom-width: 0px;
   border-top-width: 1px;
   border-left-width: 1px;
@@ -385,7 +385,7 @@ td.bottomleft {
   margin: 2px;
 
   border-style: solid;
-  border-color: #4a3;
+  border-color: #9a3;
   border-bottom-width: 1px;
   border-top-width: 0px;
   border-left-width: 1px;
@@ -399,7 +399,7 @@ td.bottomright {
   margin: 2px;
 
   border-style: solid;
-  border-color: #4a3;
+  border-color: #9a3;
   border-bottom-width: 1px;
   border-top-width: 0px;
   border-left-width: 0px;
@@ -418,7 +418,7 @@ td.bottombar {
   margin: 2px;
 
   border-style: solid;
-  border-color: #4a3;
+  border-color: #9a3;
   border-bottom-width: 1px;
   border-top-width: 0px;
   border-left-width: 0px;
@@ -428,7 +428,7 @@ td.bottombar {
 td.bottombarselected {
   vertical-align: middle;
   background-color: #bfa;
-  color: #4a3;
+  color: #9a3;
 
   text-align: center;
   font-weight: bold;
@@ -437,7 +437,7 @@ td.bottombarselected {
   margin: 2px;
 
   border-style: solid;
-  border-color: #4a3;
+  border-color: #9a3;
   border-bottom-width: 1px;
   border-top-width: 0px;
   border-left-width: 0px;
@@ -445,7 +445,7 @@ td.bottombarselected {
 }
 
 h2.h2poukram {
-  color: #4a3;
+  color: #9a3;
   background-color: #bfa;
   margin: 0;
   text-decoration: none;
@@ -456,7 +456,7 @@ h2.h2poukram {
   padding-right: 5px;
 
   border-style: solid;
-  border-color: #4a3;
+  border-color: #9a3;
   border-bottom-width: 1px;
   border-top-width: 1px;
   border-left-width: 1px;

@@ -1,11 +1,13 @@
 ErrorDocument 404 /404.html
 ErrorDocument 403 /403.html
-ErrorDocument 401 /401.html
 
 # Big nasty kludge
 AddType application/x-httpd-php .html .php3
 
 RewriteEngine on
+
+# yet another kludge to hide .svn directories
+RewriteRule \.svn /404.html [L]
 
 # répertoire/ -> répertoire/index.html
 RewriteRule ^(.*)/$ $1/index.html

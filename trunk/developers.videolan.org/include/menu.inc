@@ -1,4 +1,4 @@
-<a href="/"><img border=0 src="/images/cone.png" alt="life
+<a href="/" style="text-align: center"><img border=0 src="/images/cone.png" alt="life
 is a cone" /></a>
 <br />
 <br />

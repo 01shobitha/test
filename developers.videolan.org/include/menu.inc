@@ -10,8 +10,8 @@
 <p class=menu><a class="menu" href="/libdvdcss/">libdvdcss</a></p>
 <p class=menu><a class="menu" href="/libdvdplay/">libdvdplay</a></p>
 <p class=menu><a class="menu" href="/libdvbpsi/">libdvbpsi</a></p>
-<p class=menu><a class="menu" href="http://www.videolan.org/dtsdec.html/">libdts</a></p>
-<p class=menu><a class="menu" href="http://www.videolan.org/x264.html/">x264</a></p>
+<p class=menu><a class="menu" href="http://www.videolan.org/dtsdec.html">libdts</a></p>
+<p class=menu><a class="menu" href="http://www.videolan.org/x264.html">x264</a></p>
 </td></tr>
 </table>
 <br>

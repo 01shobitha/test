@@ -56,20 +56,30 @@ for Mac OS X:</p>
 <p><a href="http://www.videolan.org/vlc" title="Get VLC media player - It plays, it streams, it kills WiMPs!!">
 <img src="http://download.videolan.org/images/buttons/GetVLC_110.png" alt="Get VLC media player" /></a></p>
 <p>
-Use the following code to include this banner in your site:<br />
+Use the following code to include this banner in your site:</p>
 <pre>
 &lt;a href="http://www.videolan.org/vlc" title="Get VLC media player - It plays, it streams, it kills WiMPs!!"&gt;
 &lt;img src="http://download.videolan.org/images/buttons/GetVLC_110.png" alt="Get VLC media player" /&gt;&lt;/a&gt;
 </pre>
-</p>
 <p>
-The following sizes are available:<br />
-<a href="http://download.videolan.org/images/buttons/GetVLC_110.png">Small banner</a><br />
-<a href="http://download.videolan.org/images/buttons/GetVLC_120.png">Medium banner</a><br />
-<a href="http://download.videolan.org/images/buttons/GetVLC_150.png">Large banner</a><br />
-<a href="http://download.videolan.org/images/buttons/GetVLC.png">Supersized banner</a><br />
-<a href="http://download.videolan.org/images/buttons/GetVLC.psd">Original Photoshop document</a><br />
-This banner was created by <a href="http://www.sidequest.org">Derk-Jan Hartman</a> and licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/">this Creative Commons License</a>.
+The following sizes are available:</p>
+<ul><li>
+<a href="http://download.videolan.org/images/buttons/GetVLC_110.png"
+>Small banner</a></li>
+<li>
+<a href="http://download.videolan.org/images/buttons/GetVLC_120.png"
+>Medium banner</a></li>
+<li><a href="http://download.videolan.org/images/buttons/GetVLC_150.png"
+>Large banner</a></li>
+<li><a href="http://download.videolan.org/images/buttons/GetVLC.png"
+>Supersized banner</a></li>
+<a href="http://download.videolan.org/images/buttons/GetVLC.psd"
+>Original Photoshop document</a></li>
+</ul>
+<p>This banner was created by
+<a href="http://www.sidequest.org">Derk-Jan Hartman</a>
+and licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/"
+>this Creative Commons License</a>.
 </p>
 
 <p>An older banner</p>

@@ -3,9 +3,11 @@ faq.sgml
 *.pdf
 *.zip
 *.ps
+*.txt
 *.jpg
 *.jpeg
 *.png
+*.eps
 ~*
 *~
 .*

@@ -1,8 +1,6 @@
 # Les commentaires commencent par un # en premier position 
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
-# Et pour les nouvelles importantes, c'est pas un | , c'est un §
-#
 
 |25 June 2003| VLC runner up for Apple Design Award| VLC 0.5.3 is
 runner up for Apple Design Award 2003. You can see the trophy on the
@@ -584,7 +582,7 @@ href="/vlc/download.html">download</a> section!
 because the old one was reported as confusing. Here it is, in all its
 valid XHTML glory.
 
-§2 feb 2001| First official release! | Director of École Centrale Paris
+|2 feb 2001| First official release! | Director of École Centrale Paris
 has <a href="/images/paper.jpeg">signed</a> the authorization to release
 all the VideoLAN components under the GPL.
 
@@ -648,7 +646,7 @@ BeOS, see the <a href="/vlc/download.html">download</a> section.
 was just released. Check the <a href="/vlc/download.html">download</a>
 section!
 
-§15 jun 2000| Beta tests pre-release! | The client is being pre-released
+|15 jun 2000| Beta tests pre-release! | The client is being pre-released
 today! Though the full network solution is not available yet, it already
 lets you watch your favorite DVD with Linux!
 
@@ -672,7 +670,7 @@ tell us 'Hey, this cool DVD is unencrypted'!
 like to thank all the visitors who showed interest in our project at    
 the Linux Expo in Paris. Pictures of our stand will soon be available.  
 
-§28 jan 2000| VideoLAN is going OpenSource! | We got almost all the
+|28 jan 2000| VideoLAN is going OpenSource! | We got almost all the
 authorizations in order to distribute the VideoLAN components under the
 General Public License. Our school director still needs to sign one
 paper.
@@ -700,7 +698,7 @@ now suports the Linux framebuffer output, and has been ported to
 BeOS.<br /> Moreover, the mini-server now can emit a TS stream directly
 from a DVD drive.
 
-§10 dec 1999| Presentation day | A presentation day will take place
+|10 dec 1999| Presentation day | A presentation day will take place
 on <b>January the 21st, 2000</b>. Everyone interested in the project
 is welcome to come and see it working. <br /><b>Find out more <a
 href="presentation/">here</a>!</b>

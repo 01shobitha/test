@@ -1,16 +1,7 @@
 <?
-  $title = "VideoLAN news";
-  $keywords = "VideoLAN, MPEG2, DVD, VIA, Ecole Centrale, Informatique, Association, Etudiants";
-  $description = "";
-
 /*
- * C'est assez mal écrit mais ça montre la page de news
- * je réécris dès que j'ai le temps ....
- * --
- * henri
- *
- * $style: soit "full", soit "title"
- * $max: nombre maximal à afficher, 0 s'il les faut toutes
+ * $style: either "full" or "title"
+ * $max: number of news to print (0 to print all news)
  *
  */
   function shownews($style,$max) {
@@ -23,54 +14,30 @@
     {
         $line=ereg_replace("\n","",fgets($file,4096));
 
-        //On autorise les commentaires
+        // Comments are allowed
         if( !ereg("^ *#",$line) && !ereg("^ *$",$line) )
         {
-            // Les débuts de topic doivent IMPERATIVEMENT commencer
-            // par "|" au début de ligne
-            if( ereg("^ *[|§]",$line) )
+            // Topics start with "|"
+            if( ereg("^ *\|",$line) )
             {
-                // C'est une nouvelle neuve
+                // It's a new news !
                 if( $msg )
                 {
                     $ex=explode("|",$msg);
-
-                    if( $date==$ex[1] ) $number++; else $number=0;
-
-                    if( ereg("^ *§",$msg) )
-                    {
-                        $important=1;
-                        $anchor=ereg_replace("§","",ereg_replace(" ","_",$ex[0])."_".$number);
-                    }
-                    else
-                    {
-                        $important=0;
-                        $anchor=ereg_replace(" ","_",$ex[1])."_".$number;
-                    }
-
-                    if ( $important )
-                    {
-                        $date = ereg_replace("§","",$ex[0]);
-                        $title = ereg_replace("$","",$ex[1]);
-                        $text = $ex[2];
-                    }
-                    else
-                    {
-                        $date = $ex[1];
-                        $title = $ex[2];
-                        $text = $ex[3];
-                    }
+                    $date = $ex[1];
+                    $title = $ex[2];
+                    $text = $ex[3];
 
                     if( $style == "full" )
                     {
-                        $date = "<a id=\"".$anchor."\">".$date."</a>";
+                        $date = "<a id=\"NEWS$max\">".$date."</a>";
                         echo ("<p><b>".$title."</b> (".$date.")\n");
                         echo $text;
                         echo ("</p>\n");
                     }
                     elseif( $style == "title" )
                     {
-                        echo "$date: <b><a href=\"#$anchor\">$title</a></b>\n";
+                        echo "$date: <b><a href=\"#NEWS$max\">$title</a></b>\n";
                         if( $max > 1 ) echo "<br />\n";
                     }
 
@@ -84,7 +51,5 @@
 
     fclose($file);
 }
-
-
 
 ?>

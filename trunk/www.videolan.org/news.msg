@@ -130,7 +130,7 @@ with the VideoLAN Howto.
 Paris 2003, VLC won the trophy for developers support ! For more
 details about the MacGeneration 2003 Trophies, please see <a
 href="http://www.macgeneration.com/mgnews/depeche.php?aIdDepeche=103478"
->this news</a> (French, see <a href="http://babelfish.altavista.com/babelfish/urlload?url=http%3A%2F%2Fwww.macgeneration.com%2Fmgnews%2Fdepeche.php%3FaIdDepeche%3D103478&amp;lp=fr_en&amp;tt=url">BabelFish</a> for an English translation).
+>this news</a> (French, see <a href="http://babelfish.altavista.com/babelfish/urlload?url=http%3A%2F%2Fwww.macgeneration.com%2Fmgnews%2Fdepeche.php%3FaIdDepeche%3D103478">BabelFish</a> for an English translation).
 
 |14 Aug 2003| Release: VLC 0.6.2| This new release of VLC follows
 the previous one very closely because it mainly fixes a regression in
@@ -159,7 +159,7 @@ download page</a> and click on your OS logo! WARNING: the first version
 of the Mac OS X package was broken... so if you have problems under Mac
 OS X, download the package again!
 
-|29 July 2003| Release: libdvdcss 1.2.8 &amp; libdvbpsi 0.1.3| Libdvdcss
+|29 July 2003| Release: libdvdcss 1.2.8 and libdvbpsi 0.1.3| Libdvdcss
 1.2.8 is a bug-fix release with a fix for encrypted DVDs on Windows
 and a workaround for strange discs that report read errors seemingly
 at random. Libdvbpsi 0.1.3 features new DVB descriptors decoders and
@@ -538,9 +538,9 @@ down, you will be automatically redirected to the mirror site.
 href="/doc/videolan-quickstart/videolan-quickstart.html">VideoLAN
 Quickstart</a> describes how to start using VideoLAN quickly.
 Basic skills on Linux and Network should be enough to understand
-this Quickstart. It has been written by Bill Eldridge &lt;<a
-href="mailto:bill@rfa.org">bill@rfa.org</a>&gt; and Alexis de Lattre
-&lt;<a href="mailto:alexis@videolan.org">alexis@videolan.org</a>&gt;.
+this Quickstart. It has been written by Bill Eldridge (<a
+href="mailto:bill@rfa.org">bill@rfa.org</a>) and Alexis de Lattre
+(<a href="mailto:alexis@videolan.org">alexis@videolan.org</a>).
 
 |6 apr 2002| Release: vlc 0.3.0 | This release fixes an amazing number
 of bugs and brings a lot of new features as well: Configuration

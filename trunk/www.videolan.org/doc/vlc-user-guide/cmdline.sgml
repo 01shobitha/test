@@ -1,8 +1,9 @@
 <chapter id="cmdline"><title id="tcmdline">The Command Line Interface</title>
 
-
 <sect1><title>Introduction</title>
+
 <para>Many options are only available through command line. They are detailed here.</para>
+
 </sect1>
 
 <sect1><title>Opening streams</title>
@@ -14,49 +15,228 @@
 <para>Simply start vlc with</para>
 <screen><prompt>%</prompt><userinput>vlc my_file.mpg</userinput></screen>
 
-<para>You may tell vlc what input to use, for example add <emphasis>--input ts</emphasis> when playing a TS (Transport Stream) MPEG, although the VideoLAN Client should be able to recognize the type of MPEG.</para>
+<para>Although the VideoLAN Client should be able to recognize the file
+type, you may tell Vlc what codec to use with the
+<emphasis>-codec</emphasis> option. For example to play
+my_file.mpg using ffmpeg audo/video decoder do
+</para>
+<screen>
+<prompt>%</prompt><userinput>vlc --codec ffmpeg my_file.mpg</userinput> 
+</screen>
+
+<para> A list of all video and audio codecs supported by
+vlc is available <ulink
+url="http://www.videolan.org/vlc/feature.html">here</ulink></para>
+
 </sect2>
 
 <sect2><title>Opening a DVD or VCD</title>
 
 <para>Simply start vlc with</para>
 
-<screen><prompt>%</prompt><userinput>vlc dvd:DVDDRIVE</userinput></screen>
-<para> or</para>
+<screen><prompt>%</prompt><userinput>vlc dvd:[device][@raw_device][@[title][,[chapter][,angle]]]</userinput></screen>
+<para>or</para>
 
-<screen><prompt>%</prompt><userinput> vlc vcd:CDROMDRIVE</userinput></screen>
+<screen><prompt>%</prompt><userinput>vlc vcd:[device][@[title][,[chapter]</userinput></screen>
 
-<para>, where DVDDRIVE/CDROMDRIVE is the complete path to your dvd/cdrom drive.
+<para>where device is the complete path to your dvd/cdrom drive.
 </para>
-
-<para>
-You may add -t X -T Y to start directly from the Xth chapter, Yth title.</para>
-</sect2>
 
 <sect2><title>Start a network stream</title>
 
 <para>To receive an UDP stream (being sent by a VideoLAN Server), start the VideoLAN Client with</para>
 
-<screen><prompt>%</prompt><userinput> vlc udpstream:[@bind address[:server_port]] .</userinput></screen>
-
+<screen><prompt>%</prompt><userinput>vlc udpstream:[@bind address[:server_port]]</userinput></screen>
 
 <para>
-Please note that bind address refers to the destination address, for example your broadcast address. If the stream is being broadcasted,
-
- vlc udpstream:
-
-should be sufficient. If the stream is multicasted, you must specify the multicast address, for example
-
- vlc udpstream:@239.255.255.42  
-
-To receive a http stream, start vlc with vlc your_url.
-4.2 Modules selection
-
-The vlc tries to select the most appropriate interface, input and output modules, among the ones available on the system, according to the stream he is given to read. However, you may wish to force the use of a specific module with the following options:
-
-
+Please note that bind address refers to the destination address, for
+example your broadcast address. If the stream is being broadcasted
+<emphasis>vlc udpstream:</emphasis> should be sufficient. If the stream is multicasted, you must specify the multicast address, for example: <emphasis>vlc udpstream:@239.255.255.42</emphasis>
 </para>
+
+<para>
+To receive a http stream, start vlc with vlc your_url :
+</para>
+
+<screen><prompt>%</prompt><userinput>vlc http://your.url.to/your_file.mpg</userinput></screen>
 
 </sect2>
 </sect1>
+
+<sect1><title>Modules selection</title>
+
+<para>
+The Vlc tries to select the most appropriate interface, input and output
+modules, among the ones available on the system, according to the stream
+he is given to read. However, you may wish to force the use of a
+specific module with the following options: (Available modules are
+listed <ulink url="http://www.videolan.org/vlc/features.html">here</ulink>)
+</para>
+
+<itemizedlist>
+<listitem><para><emphasis>--intf  &lt;module&gt;</emphasis>
+allows you to select the interface module.</para>
+<listitem><para><emphasis>--aout  &lt;module&gt;</emphasis>
+allows you to select the audio output module.</para>
+<listitem><para><emphasis>--vout  &lt;module&gt;</emphasis>
+allows you to select the video output module.</para>
+<listitem><para><emphasis>--filter  &lt;module&gt;</emphasis>
+allows you to add a video filter module.</para>
+<listitem><para><emphasis>--memcpy  &lt;module&gt;</emphasis>
+allows you to choose a memory copy module.</para>
+<listitem><para><emphasis>--access  &lt;module&gt;</emphasis>
+allows you to choose the access module manually.</para>
+<listitem><para><emphasis>--demux  &lt;module&gt;</emphasis>
+allows you to add a demux module.</para>
+</itemizedlist>
+
+</sect1>
+
+<sect1><title>Stream Output</title>
+
+<para>Ca a l'air compliqué :)</para>
+
+</sect1>
+
+<sect1><title>Other Options</title>
+
+<sect2><title>Audio options</title>
+
+<itemizedlist>
+<listitem><para><emphasis>--noaudio</emphasis> disables audio
+output</para>
+<listitem><para><emphasis>--mono</emphasis> forces the vlc to treat the
+stream in mono audio.</para>
+<listitem><para><emphasis>--volume  &lt;integer&gt;</emphasis> sets the
+level of audio output.</para>
+<listitem><para><emphasis>--aout-rate  &lt;integer&gt;</emphasis> sets
+the audio output frequency (Hz)</para>
+<listitem><para><emphasis>--desync  &lt;integer&gt;</emphasis>
+compensates desynchronization of audio (ms)</para>
+<listitem><para><emphasis>--headphone</emphasis> activates headphone
+virtual spatialization effect.</para>
+<listitem><para><emphasis>--headphone-dim</emphasis> sets headphone
+characteristic dimension.</para>
+</itemizedlist>
+
+</sect2>
+
+<sect2><title>Video options</title>
+
+<itemizedlist>
+<listitem><para><emphasis>--novideo</emphasis> disables video output.</para>
+<listitem><para><emphasis>--greyscale</emphasis> turns video output into greyscale mode</para>
+<listitem><para><emphasis>--fullscreen</emphasis> sets fullscreen video</para>
+<listitem><para><emphasis>--nooverlay</emphasis> disables hardware
+acceleration for the video output</para>
+<listitem><para><emphasis>--width, --height  &lt;integer&gt;</emphasis> sets the video window dimensions.</para>
+<listitem><para><emphasis>--zoom  &lt;float&gt;</emphasis> adds a zoom
+factor</para>
+<listitem><para><emphasis>--aspect-ratio  &lt;mode&gt;</emphasis> forces
+source aspect ratio </para>
+<listitem><para><emphasis>--spumargin  &lt;integer&gt;</emphasis> forces
+SPU subtitles postion</para>
+</itemizedlist>
+
+</sect2>
+
+<sect2><title>Playlist options</title>
+
+<itemizedlist>
+<listitem><para><emphasis>--playlist</emphasis> launches playlist on
+startup</para>
+<listitem><para><emphasis>--random</emphasis> plays files randomly
+forever</para>
+<listitem><para><emphasis>--enqueue</emphasis> enqueues items in
+playlist</para>
+<listitem><para><emphasis>--loop</emphasis> loops playlist on end</para>
+</itemizedlist>
+
+</sect2>
+
+<sect2><title>Network options</title>
+
+<itemizedlist>
+<listitem><para><emphasis>--server-port  &lt;integer&gt;</emphasis> sets
+server port.</para>
+<listitem><para><emphasis>--network-channel</emphasis> enables network
+channel mode</para>
+<listitem><para><emphasis>--channel-server  &lt;string&gt;</emphasis>
+specifies the channel server address</para>
+<listitem><para><emphasis>--channel-port  &lt;integer&gt;</emphasis>
+specifies the channel server port</para>
+<listitem><para><emphasis>--iface  &lt;string&gt;</emphasis> specifies
+the network interface to use</para>  
+<listitem><para><emphasis>--iface-addr  &lt;string&gt;</emphasis>
+specifies your network interface IP address</para>
+<listitem><para><emphasis>--mtu  &lt;integer&gt;</emphasis> specifies
+the MTU of the network interface.</para>
+<listitem><para><emphasis>--ipv6</emphasis> forces ipv6</para>
+<listitem><para><emphasis>--ipv4</emphasis> forces ipv4</para>
+</itemizedlist>
+
+</sect2>
+
+<sect2><title>CPU options</title>
+
+<itemizedlist>
+<listitem><para><emphasis>--nommx</emphasis> disables the use of MMX CPU
+extensions.</para>
+<listitem><para><emphasis>--no3dn</emphasis> disables the use of 3D Now!
+CPU extensions.</para>
+<listitem><para><emphasis>--nommxext</emphasis> disables the use of MMX
+ext CPU extensions.</para>
+<listitem><para><emphasis>--nosse</emphasis> disables the use of SSE
+CPU extensions.</para>
+</itemizedlist>
+
+</sect2>
+
+<sect2><title>Miscellaneous options</title>
+
+<itemizedlist>
+<listitem><para><emphasis>--quiet</emphasis> be quiet</para>
+<listitem><para><emphasis>--color</emphasis> displays color messages.</para>
+<listitem><para><emphasis>--search-path  &lt;string&gt;</emphasis>
+specifies interface default search path.</para>
+<listitem><para><emphasis>--plugin-path  &lt;string&gt;</emphasis> 
+specifies plugin search path.</para>
+<listitem><para><emphasis>--dvd  &lt;string&gt;</emphasis> 
+specifies the default dvd device.</para>
+<listitem><para><emphasis>--vcd  &lt;string&gt;</emphasis>
+specifies the default vcd device.</para>
+<listitem><para><emphasis>--program  &lt;integer&gt;</emphasis> specifies
+program (SID) (for streams with several programs, like satellite ones).</para>
+<listitem><para><emphasis>--audio-type  &lt;integer&gt;</emphasis>
+specifies the default audio type to use with dvds.</para>
+<listitem><para><emphasis>--audio-channel  &lt;integer&gt;</emphasis> 
+specifies the default audio channel to use with dvds.</para>
+<listitem><para><emphasis>--spu-channel  &lt;integer&gt;</emphasis> 
+specifies the default subtitle channel to use with dvds.</para>
+</itemizedlist>
+
+</sect2>
+
+<sect2><title>Help options</title>
+
+<itemizedlist>
+<listitem><para><emphasis>--verbose  &lt;verbosity&gt;</emphasis>
+specifies verbosity level.</para>
+<listitem><para><emphasis>--help</emphasis> gives you all available
+options.</para>
+<listitem><para><emphasis>--longhelp</emphasis> gives you a detailled
+version of the available options.</para>
+<listitem><para><emphasis>--version</emphasis> gives you information
+about the current vlc version.</para>
+<listitem><para><emphasis>--list</emphasis> displays a list of available
+plugins</para>
+<listitem><para><emphasis>--module  &lt;module&gt;</emphasis> displays
+help about specified module.</para>
+</itemizedlist>
+
+</sect2>
+
+
+</sect1>
+
 </chapter>

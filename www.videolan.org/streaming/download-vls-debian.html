@@ -1,4 +1,4 @@
-<?
+<?php
    $title = "VideoLAN Server for Debian GNU/Linux";
    $lang = "en";
    $date = "9 October 2001";
@@ -6,7 +6,13 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 
-<? function pkgitem($version,$name) { ?><li><a href="http://download.videolan.org/pub/videolan/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
+<?php
+function pkgitem($version,$name)
+{
+  echo '<li><a href="http://download.videolan.org/pub/videolan/'.
+       $version.'/'.$name.'"><code>'.$name.'</code></a></li>';
+}
+?>
 
 <h1> VLS for Debian GNU/Linux </h1>
 
@@ -31,17 +37,17 @@
 <p>Here is the complete list of the latest Debian x86 packages (0.4.0):</p>
 
 <ul>
-  <?
+  <?php
      pkgitem("vls/0.4.0/deb","vls_0.4.0-1_i386.deb");
   ?>
 </ul>
 <p> Input plugins:</p>
-<ul><?
+<ul><?php
      pkgitem("vls/0.4.0/deb","vls-dvd_0.4.0-1_i386.deb");
      pkgitem("vls/0.4.0/deb","vls-dvb_0.4.0-1_i386.deb");
 ?></ul>
 <p>Librairies:</p>
-<ul><?
+<ul><?php
      pkgitem("libdvdcss/1.2.6/deb","libdvdcss2_1.2.6-1_i386.deb");
      pkgitem("libdvdread/0.9.3/deb","libdvdread2_0.9.3-2_i386.deb");
      pkgitem("libdvbpsi/0.1.2/deb","libdvbpsi1_0.1.2-2_i386.deb");
@@ -55,4 +61,6 @@
 <p>Older versions can be found by <a
 href="http://download.videolan.org/pub/vls/">browsing</a> our FTP site.</p>
 
-<? footer('$Id$'); ?>
+<?php
+  footer('$Id$');
+?>

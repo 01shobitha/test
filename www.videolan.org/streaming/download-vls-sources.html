@@ -1,4 +1,4 @@
-<?
+<?php
    $title = "VideoLAN Server source code";
    $lang = "en";
    $date = "9 October 2001";
@@ -6,7 +6,13 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 
-<? function pkgitem($version,$name,$comment) { ?><li><a href="http://download.videolan.org/pub/videolan/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a> <? echo $comment; ?> </li><? } ?>
+<?php
+function pkgitem($version,$name,$comment)
+{
+  echo '<li><a href="http://download.videolan.org/pub/videolan/'.
+       $version.'/'.$name.'"><code>'.$name.'</code></a> '.$comment.'</li>';
+}
+?>
 
 <h1> VLS source code </h1>
 
@@ -15,7 +21,7 @@
 <p> Latest VLS source code tarball (0.5.6): </p>
 
 <ul>
-  <?
+  <?php
      pkgitem("vls/0.5.6","vls-0.5.6.tar.gz","");
   ?>
   <li><a href="http://download.videolan.org/pub/videolan/vls/0.5.6/"><i>browse the list</i></a></li>
@@ -24,7 +30,7 @@
 <p> Latest required libraries: </p>
 
 <ul>
-  <?
+  <?php
      pkgitem("vls/0.5.6/contrib","libdvbpsi3-0.1.4.tar.gz","(MPEG TS and DVB PSI tables library)");
      pkgitem("vls/0.5.6/contrib","libdvdcss-1.2.8.tar.gz","(DVD decryption library)");
      pkgitem("vls/0.5.6/contrib","libdvdread-0.9.4.tar.gz","(DVD reading library)");
@@ -44,4 +50,6 @@ href="http://developers.videolan.org/">developers website</a>. </p>
 <p>Older versions can be found by <a
 href="http://download.videolan.org/pub/vls/">browsing</a> our FTP site.</p>
 
-<? footer('$Id$'); ?>
+<?php
+  footer('$Id$');
+?>

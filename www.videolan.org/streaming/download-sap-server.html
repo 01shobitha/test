@@ -1,4 +1,4 @@
-<?
+<?php
    $title = "miniSAPserver - download";
    $lang = "en";
    $date = "12 december 2003";
@@ -6,14 +6,22 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 
-<? function pkgitem($version,$name) { ?><li><a href="http://download.videolan.org/pub/videolan/miniSAPserver/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
+<?php
+function pkgitem($version,$name)
+{
+  echo '<li><a href="http://download.videolan.org/pub/videolan/miniSAPserver/'.
+       $version.'/'.$name.'"><code>'.$name.'</code></a></li>'
+}
+?>
 
 <h1> MiniSAPserver for Linux and Mac OS X</h1>
 
 <p>Latest miniSAPserver tarball (0.2.4) (requires VLC 0.6.2 or higher):</p>
 
 <ul>
-  <? pkgitem("0.2.4","miniSAPserver-0.2.4.tar.gz"); ?>
+  <?php pkgitem("0.2.4","miniSAPserver-0.2.4.tar.gz"); ?>
 </ul>
 
-<? footer('$Id$'); ?>
+<?php
+  footer('$Id$');
+?>

@@ -1,4 +1,4 @@
-<?
+<?php
    $title = "VideoLAN Server for Windows";
    $lang = "en";
    $date = "9 October 2001";
@@ -6,7 +6,13 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 
-<? function pkgitem($version,$name) { ?><li><a href="http://download.videolan.org/pub/videolan/vls/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
+<?php
+function pkgitem($version,$name)
+{
+  echo '<li><a href="http://download.videolan.org/pub/videolan/vls/'.
+       $version.'/'.$name.'><code>'.$name.'</code></a></li>';
+}
+?>
 
 <h1> VLS for Windows </h1>
 
@@ -17,7 +23,7 @@
 <p>Latest Windows binary package in zip format:</p>
 
 <ul>
-  <?
+  <?php
      pkgitem("0.5.3/win32","vls-0.5.3.zip");
   ?>
 </ul>
@@ -27,4 +33,6 @@
 <p>Older versions can be found by <a
 href="http://download.videolan.org/pub/vls/">browsing</a> our FTP site.</p>
 
-<? footer('$Id$'); ?>
+<?php
+  footer('$Id$');
+?>

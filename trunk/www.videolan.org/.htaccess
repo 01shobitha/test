@@ -98,4 +98,5 @@ RewriteRule ^network/(.*)$ /streaming/index.html [R=permanent,L]
 AddType application/octet-stream .dmg
 AddType application/octet-stream .rpm
 AddType application/octet-stream .ipk
+AddType application/octet-stream .vlt
 

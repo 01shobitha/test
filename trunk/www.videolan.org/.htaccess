@@ -56,10 +56,10 @@ RewriteRule ^freedvd.html$ /removed/freedvd.html [R=permanent,L]
 #
 # Redirects for doc
 #
-Redirect permanent doc/videolan-howto http://www.videolan.org/doc/videolan-howto/videolan-howto-en/index.html
-Redirect permanent doc/videolan-quickstart http://www.videolan.org/doc/videolan-quickstart/videolan-quickstart-en/index.html
-Redirect permanent doc/vlc-user-guide http://www.videolan.org/doc/vlc-user-guide/vlc-user-guide-en/index.html
-Redirect permanent doc/vls-user-guide http://www.videolan.org/doc/vls-user-guide/vls-user-guide-en/index.html
+Redirect permanent /doc/videolan-howto http://www.videolan.org/doc/videolan-howto/videolan-howto-en/index.html
+Redirect permanent /doc/videolan-quickstart http://www.videolan.org/doc/videolan-quickstart/videolan-quickstart-en/index.html
+Redirect permanent /doc/vlc-user-guide http://www.videolan.org/doc/vlc-user-guide/vlc-user-guide-en/index.html
+Redirect permanent /doc/vls-user-guide http://www.videolan.org/doc/vls-user-guide/vls-user-guide-en/index.html
 
 
 #

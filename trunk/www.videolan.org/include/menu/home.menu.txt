@@ -7,3 +7,4 @@ contribute;Contribute;/contribute.html
 contact;Contact;/contact.html
 links;Links;/links.html
 goodies;Goodies;/goodies.html
+dtsdec;DTSdec;/dtsdec.html

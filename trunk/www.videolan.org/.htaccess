@@ -79,6 +79,8 @@ Redirect permanent /doc/faq/videolan-faq-es.html http://www.videolan.org/doc/faq
 # The VideoLAN quickstart does not exist anymore
 #
 Redirect permanent /doc/videolan-quickstart http://www.videolan.org/doc/
+Redirect permanent /doc/en/videolan-quickstart http://www.videolan.org/doc/
+Redirect permanent /doc/fr/videolan-quickstart http://www.videolan.org/doc/
 
 #
 # Some dumb people link to us with doc//$LANG/document

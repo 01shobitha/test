@@ -28,7 +28,7 @@ $(LANG)/$(DOC)-$(LANG).pdf: $(LANG)/$(DOC)-$(LANG).xml
 	cd $(LANG) && zip $(DOC)-$(LANG)-pdf.zip $(DOC)-$(LANG).pdf
 
 $(LANG)/$(DOC)-$(LANG).rtf: $(LANG)/$(DOC)-$(LANG).xml
-	jade -t rtf -d ../common/stylesheet-print-noicones.dsl -o $@ $(XML_DECL) $^
+	cd $(LANG) && jade -t rtf -d ../../common/stylesheet-print-noicones.dsl -o $(DOC)-$(LANG).rtf $(XML_DECL) $(DOC)-$(LANG).xml
 	rm -f $(LANG)/$(DOC)-$(LANG)-rtf.zip
 	cd $(LANG) && zip $(DOC)-$(LANG)-rtf.zip $(DOC)-$(LANG).rtf images/*.jpg
 
@@ -38,4 +38,4 @@ $(LANG)/$(DOC)-$(LANG).txt: $(LANG)/$(DOC)-$(LANG).xml
 	rm -f $^.html
 
 clean:
-	rm -rf *.zip *.html *.pdf  *.rtf *.txt *.dvi *.tex *.out *.aux *.log *.tmp $(LANG)
+	rm -rf $(LANG)

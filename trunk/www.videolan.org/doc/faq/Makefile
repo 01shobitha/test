@@ -4,7 +4,7 @@
 
 DOC = videolan-faq
 LANG = es fr en
-EXT = html ps pdf rtf txt
+EXT = html pdf rtf txt
 XML_DECL := /usr/lib/sgml/declaration/xml.decl
 
 # The generic rule: build all extensions for all languages

@@ -35,10 +35,10 @@ clients on the Web server. </para>
 <para>
 
 For example, we have a Web server whose DNS name is
-<emphasis>vod.videolan.org</emphasis>. On this server,
+<emphasis>localserver</emphasis>. On this server,
 we put an MPEG file <filename>video1.mpg</filename>
 which will be available to the clients at the URL
-<filename>http://vod.videolan.org/test/video1.mpg</filename>.
+<filename>http://localserver/test/video1.mpg</filename>.
 
 </para>
 
@@ -49,7 +49,7 @@ which will be available to the clients at the URL
 Launch VLC, then click on the <emphasis>Net</emphasis>
 button or select in the menu <emphasis>File / Network
 stream</emphasis>, select <emphasis>HTTP</emphasis> and type the URL
-<filename>http://vod.videolan.org/test/video1.mpg</filename>.
+<filename>http://localserver/test/video1.mpg</filename>.
 
 </para>
 

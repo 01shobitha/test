@@ -230,13 +230,16 @@ page</ulink>.</para>
 
 <para>VLC has many different graphical interfaces, that are organized
 quite differently in order to be in harmony with the guidelines of
-each Operating System supported. Documenting the use of each graphical
+each operating system supported. Documenting the use of each graphical
 interface is too long, and some features are only available via the
 command line interface. Therefore we decided to document only the
-command line interface, but in many cases it shouldn't be difficult to
+command line interface, but in many cases it shoud be easy to
 guess how to use the graphical interface for the same use !</para>
 
-<sect2><title>Open a command tool</title>
+<para>All the commands that show up in this document should be typed
+inside a terminal.</para>
+
+<sect2><title>Open a terminal</title>
 
 <simplesect><title>under Windows</title>
 
@@ -245,38 +248,41 @@ type :</para>
 
 <itemizedlist>
 
-<listitem><para><command>cmd</command> and <keycap>Enter</keycap> under
+<listitem><para><command>cmd</command> then <keycap>Enter</keycap> under
 Windows 2000 / XP,</para>
 
-<listitem><para><command>command</command> and <keycap>Enter</keycap>
+<listitem><para><command>command</command> then <keycap>Enter</keycap>
 under Windows 95 / 98 / ME.</para>
 
 </itemizedlist>
 
-<para>The command tool appears :</para>
+<para>The terminal appears :</para>
 
-<figure><title>Windows command tool</title>
+<figure><title>Windows terminal</title>
 <mediaobject>
   <imageobject>
-    <imagedata fileref="images/cmd-windows.&magic;" format="&magic;" scalefit="1" scale="60">
+    <imagedata fileref="images/terminal-windows.&magic;" format="&magic;" scalefit="1" scale="60">
   </imageobject>
 </mediaobject>
 </figure>
 
-<para>Then go to directory where you installed VLC :</para>
+<note><para>Under Windows, you need to be in the directory where the
+program is installed to run it ; for this use the <command>cd</command>
+instruction, for example :</para>
 
 <screen>
-<prompt># </prompt><userinput>cd C:\Program Files\VLC\</userinput>
+<prompt>% </prompt><userinput>cd C:\Program Files\VLC</userinput>
 </screen>
+
 
 <simplesect><title>under Linux or Unix</title>
 
 <para>Under X, open a terminal :</para>
 
-<figure><title>Windows command tool</title>
+<figure><title>Linux terminal</title>
 <mediaobject>
   <imageobject>
-    <imagedata fileref="images/cmd-linux.&magic;" format="&magic;" scalefit="1" scale="60">
+    <imagedata fileref="images/terminal-linux.&magic;" format="&magic;" scalefit="1" scale="60">
   </imageobject>
 </mediaobject>
 </figure>
@@ -304,7 +310,25 @@ Unix commands :</para>
 
 <simplesect><title>under Mac OS X</title>
 
-<para>[TODO]</para>
+<para>Go to <emphasis>Applications</emphasis>, open the
+folder <emphasis>Utilities</emphasis> and double-click on
+<emphasis>Terminal</emphasis> :</para>
+
+<figure><title>Mac OS X terminal</title>
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/terminal-macosx.&magic;" format="&magic;" scalefit="1" scale="60">
+  </imageobject>
+</mediaobject>
+</figure>
+
+<note><para>Under Mac OS X, you need to be in the directory where the
+program is installed to run it ; for this use the <command>cd</command>
+instruction, for example :</para>
+
+<screen>
+<prompt>% </prompt><userinput>cd /Applications/VLC.app/Contents/MacOS/VLC</userinput>
+</screen>
 
 <simplesect><title>under BeOS</title>
 

@@ -4,6 +4,10 @@
 # Et pour les nouvelles importantes, c'est pas un | , c'est un §
 #
 
+|25 June 2003| VLC runner up for Apple Design Award| VLC 0.5.3 is
+runner up at the Apple Design Award 2003. You can see the trophy on the
+<a href="/events/">events page</a>.
+
 |23 June 2003| Release: VLC 0.6.0| This major release of VLC
 media player features a new Video 4 Linux input, a new CDDA
 input, multicast IPv6 support under Windows and Mac OS X, support

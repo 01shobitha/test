@@ -23,12 +23,22 @@ sous GNU/Linux</span>.</para>
 <span xml:lang="en">You should already have the following lines in your</span>
 <span xml:lang="fr">Vous devriez déjà avoir, dans votre fichier </span>
 <filename>/etc/apt/sources.list</filename>
-<span xml:lang="en"> file :</span>
-<span xml:lang="fr">, les lignes :</span></para>
+<span xml:lang="en"> file, if you run Debian Woody :</span>
+<span xml:lang="fr">, les lignes suivantes, si vous uutilisez Debian Woody :</span></para>
 
 <programlisting>
-deb http://www.videolan.org/pub/videolan/debian $(ARCH)/
-deb-src http://www.videolan.org/pub/videolan/debian sources/
+     deb http://download.videolan.org/pub/videolan/debian woody main
+     deb-src http://download.videolan.org/pub/videolan/debian woody main
+</programlisting>
+
+<para>
+<span xml:lang="en"> VLC's latest packaged version is always in the official Debian unstable branch. However you should still use our apt-get line if you need libdvdcss in its latest version:</span>
+<span xml:lang="fr"> La dernière version packagée de VLC est toujours disponible dans la branche Unstable (Sid) de Debian. Toutefois vous devez utiliser ces lignes si vous souhaitez utiliser la derniere version de libdvdcss :</span>
+</para>
+
+<programlisting>
+     deb http://download.videolan.org/pub/videolan/debian sid main
+     deb-src http://download.videolan.org/pub/videolan/debian sid main
 </programlisting>
 
 <para>

@@ -1,5 +1,5 @@
 home;Home;/;home.gif;24;24
-vlc;VLC Media Player;/vlc/;cone.gif;18;24
+vlc;VLC media player;/vlc/;cone.gif;18;24
 streaming;Streaming;/streaming/;streaming.gif;16;24
 doc;Documentation;/doc/;doc.gif;31;24
 support;Support;/support/;support.gif;20;24

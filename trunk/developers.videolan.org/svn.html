@@ -1,0 +1,149 @@
+<?
+   $title = "VideoLAN - Subversion repository";
+?>
+
+<h1>Subversion repository</h1>
+
+<h2>Basic information</h2>
+
+<p>As of late, VideoLAN is migrating all it's CVS repositories to <a href="
+http://subversion.tigris.org">Subversion</a> repositories. Subversion (SVN) was built
+to be like CVS, but without many of it's faults. This could only be done by
+breaking backwards compatibility with CVS. It will be a bit painful at first
+for some people but will pay of big time in the end. Currently there are scripts
+in place that will keep our <a href="cvs.html">old CVS repositories</a> available
+to anonymous CVS users. All developers have to use SVN though. If you had a CVS account
+before, but no SVN account yet, then mail the <a href="mailto:vlc-devel@videolan.org">
+Developer Mailinglist</a>.
+</p>
+
+<p>The anonymous SVN server is called
+<code>svn.videolan.org</code>.
+For instance to retrieve the HEAD vlc source: </p>
+
+<code>
+svn co svn://svn.videolan.org/vlc/trunk vlc-trunk
+</code>
+
+<p>In case you do not have access to the repository for some reason, or if you are
+plain lazy, you can download nightly development snapshots (source and binary). See the bottom of the page
+</p>
+
+<h2>Available modules</h2>
+
+<ul>
+  <li><b>svn://svn.videolan.org/vlc</b>: VideoLAN Client; </li>
+  <li><b>svn://svn.videolan.org/vls</b>: VideoLAN Server; </li>
+  <li><b>svn://svn.videolan.org/libdts</b>: library for decoding DTS audio. </li>
+  <li><b>svn://svn.videolan.org/libdvdcss</b>: library for decrypting DVDs, used by VLC and VLS. </li>
+  <li><b>svn://svn.videolan.org/libdvdplay</b>: library for DVD navigation, used by VLC. </li>
+  <li><b>svn://svn.videolan.org/libdvbpsi</b>: library for parsing Program Specific Information
+from MPEG and DVB streams, used by VLC and VLS. </li>
+</ul>
+
+<h2>SVNWeb</h2>
+
+<p>There is no webinterface to the SVN repositories yet. You can <a href="http://developers.videolan.org/cgi-bin/viewcvs.cgi/?cvsroot=VideoLAN">browse the
+CVS repository</a> which is being kept in sync with SVN. </p>
+
+
+<h2>Development tarball snapshots</h2>
+
+<p>If you have trouble using SVN, you can use our <a
+href="http://www.videolan.org/pub/videolan/vlc/snapshots/">daily VLC Development
+snapshots</a>. </p>
+
+<h2>VLC nightly builds</h2>
+
+<p>We have <a href="http://www.videolan.org/~videolan/build">nightly builds</a> of VLC for Windows and Debian Woody</p>
+
+<h2>Write access policy</h2>
+
+<p> As usual in opensource projects, you get write access to the CVS
+repository when you have shown your skills and ability to write good
+patches :) </p>
+
+<h2>Useful SVN tips</a>
+
+<p>
+Here are some SVN usage tips by Sam Hocevar
+</p?
+
+<p><b>Repository layout</b></p>
+
+<p>
+   There are three directories at the root of a SVN repository: trunk, branches, tags. The
+trunk directory is similar to the HEAD branch in CVS: it contains the
+most recent vlc tree. The branches and tags directories contains copies
+of the trunk at different times.</p>
+
+<p>
+   Never download a full svn tree! It would download several hundreds of
+megabytes. Instead, only get the trunk directory, like that:
+<code>
+    $ svn co svn://svn.videolan.org/trunk vlc-trunk
+</code>
+   If you need a specific branch or tag, (eg. branch 0.2), use this:
+<code>
+    $ svn co svn://svn.videolan.org/branches/0.2 vlc-0.2
+</code>
+   If you need to know which branches are available, use "svn ls":
+<code>
+    $ svn ls svn://svn.videolan.org/branches/
+    0.2
+    0.2.92
+    0.4.1
+    $
+</code>
+</p>
+
+<p><b>Moving files</b></p>
+<p>
+   No longer create new files from scratch when moving files! Use "svn mv":
+<code>
+    $ svn mv file1 file2
+</code>
+   It also works for entire directories.
+</p>
+
+<p><b>Splitting files</b></p>
+<p>
+   Do not create a new file from scratch! Instead, copy the old file
+using "svn cp", remove the old file and modify both newly created files:
+<code>
+    $ svn cp old new1
+    $ svn cp old new2
+    $ svn delete old
+    [edit new1 and new2]
+    $ svn commit
+</code></p>
+
+<p><b>Getting information about locally modified files</b></p>
+<p>
+   Use "svn status" to know which files were modified, deleted or
+created. A network connection is not needed for that, do not use "svn
+update" just to know your local modifications.
+</p><p>
+   "svn diff" does not require a network connection either if you only
+want to show your local modifications.
+</p>
+
+<p><b>.cvsignore</b></p>
+
+<p>
+   There is no filesystem equivalent to .cvsignore. Instead, metadata
+are used. To edit the ignore list for a given directory, use this:
+<code>
+    $ svn propedit svn:ignore mydirectory
+</code></p>
+
+<p><b>$Id:</b</p>
+<p>
+   $Id is no longer automatically taken in account; instead, it has to
+be activated in a per-file basis using properties:
+<code>
+    $ svn propedit svn:keywords myfile
+</code>
+   Just add "Id" to the list of properties.
+</p>
+

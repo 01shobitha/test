@@ -17,6 +17,7 @@
 <table width="100%" cellspacing=0 cellpadding=0>
 <tr><th class=menu>Resources</th></tr>
 <tr><td class=menu>
+<p class=menu><a class="menu" href="/svn.html">Subversion</a></p>
 <p class=menu><a class="menu" href="/cvs.html">CVS</a></p>
 <p class=menu><a class="menu" href="/lists.html">Mailing lists</a></p>
 <p class=menu><a class="menu"

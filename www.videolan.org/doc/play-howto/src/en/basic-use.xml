@@ -88,7 +88,7 @@ this can be done by selecting the "Use DVD menus" dialog box.
 </para>
 <para>You can select the drive from which the media should be read by giving 
 the appropriate drive letter or device name in the "Device Name" text input. 
-This should be autodeteced on MacOS X.</para>
+This should be autodetected on MacOS X.</para>
 <para>If you want to start the DVD or VCD playback from a given title and 
 chapter instead of from the begining, you can set it in the "Title" and 
 "Chapter" selectors.</para>
@@ -266,6 +266,22 @@ the different selected modifiers as well as the key set in the dropdown.</para>
 <para>To change the binding of a hotkey, select or unselect boxes corresponding 
 to the different modifiers, and change the key by using the dropdown. Select 
 the "Save" button to apply the changes.</para>
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/play-howto/intf-wx-hotkeys.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>The Hotkeys Panel - wxWindows interface</para></textobject>
+  <caption><para>The Hotkeys Panel - wxWindows interface</para></caption>
+</mediaobject>
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/play-howto/intf-osx-hotkeys.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>The Hotkeys Panel - MacOS X interface</para></textobject>
+  <caption><para>The Hotkeys Panel - MacOS X interface</para></caption>
+</mediaobject>
+
 
 </sect1>
 

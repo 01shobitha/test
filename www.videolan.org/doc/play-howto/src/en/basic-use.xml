@@ -1,28 +1,235 @@
 <?xml version="1.0" encoding="iso8859-1"?>
-<chapter id="webbrowser-plugin"><title id="twebbrowser-plugin">
+<chapter id="basic"><title id="tbasic">
 Basic use of VLC
 </title>
 
-<!-- TODO: write me ! -->
+<sect1 id="desc"><title id="tdesc">General interface decription</title>
 
+<para>VLC has several interfaces: a cross-platform interface, for
+Windows and GNU/Linux, called wxwindows, a MacOS X native interface and
+a skinnable interface for Windows and GNU/Linux.</para>
 
-<sect1><title>Simple play</title>
+<sect2><title>Windows and GNU/Linux</title>
 
-<sect2><title>Play a file</title></sect2>
-<sect2><title>Play a CD/DVD/VCD</title></sect2>
-<sect2><title>Play a network stream (WebRadio, WebTV, ...)</title></sect2>
-<sect2><title>Play from an acquisition card</title></sect2>
+<para>This is the default interface on Windows and GNU/Linux (the
+screenshot is done on GNU/Linux, but it would look quite the same on
+Windows.</para>
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/play-howto/intf-wx.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>The wxWindows interface</para></textobject>
+  <caption><para>The wxWindows interface</para></caption>
+</mediaobject>
+
+<para>This interface also features an <emphasis>Extended GUI</emphasis> which contains many additional features. To have it appear or disappear, go to the <emphasis>Settings</emphasis> menu and click <emphasis>Extended GUI</emphasis>.</para>
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/play-howto/intf-wx-extended.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>The wxWindows interface with extended GUI</para></textobject>
+  <caption><para>The wxWindows interface with extended GUI</para></caption>
+</mediaobject>
+
+</sect2>
 
 </sect1>
 
-<sect1><title>Using the playlist</title></sect1>
+<sect1><title>Simple play</title>
 
-<sect1><title>Using subtitles</title></sect1>
+<sect2><title>Play a file</title>
+<para></para>
+</sect2>
+<sect2><title>Play a CD/DVD/VCD</title>
+<para></para>
+</sect2>
+<sect2><title>Play a network stream (WebRadio, WebTV, ...)</title>
+<para></para>
+</sect2>
 
-<sect1><title>Video and audio filters</title></sect1>
+<sect2><title>Play from an acquisition card</title>
+<para></para>
+</sect2>
 
-<sect1><title>Misc</title></sect1>
+</sect1>
 
-<sect1><title>Basic troubleshooting</title></sect1>
+<sect1><title>Using the playlist</title>
 
+<para>VLC can of course play several files, using its playlist system.
+To access the playlist, click on the <emphasis>Playlist</emphasis> button of the
+main interface (see <xref linkend="desc" endterm="tdesc"/> ).</para>
+
+<para> Each time
+you use the Open dialog box, the stream you select is appended at the
+end of the playlist and started.</para>
+
+<para>The playlist window shows all the streams in the playlist.
+Double-click one to have it played.</para>
+
+<para>The <emphasis>Manage</emphasis> menu allows you to append an item at the
+end of the playlist (but its playback won't start immediately), to save
+the playlist as a M3U or PLS file, or to import a playlist file.</para>
+
+<para>The <emphasis>Sort</emphasis> allows you to sort the playlist according to
+several criteria, or to shuffle it.</para>
+
+<para>The toolbar contains three playlist mode buttons to enable
+random mode, repeat of all the playlist and repeat of one item of the
+playlist.</para>
+
+<para>You also have a search tool. Enter a search string and hit search.
+The next item to match the string will be hilighted. Keep hitting Search
+to cycle between all matching items.</para>
+
+<para>The <emphasis>Up</emphasis> and <emphasis>Down</emphasis> buttons
+at the bottom of the playlist window allow you to move an item. Select
+an item and use these buttons to move it.</para>
+
+</sect1>
+
+<sect1><title>Using subtitles</title>
+
+<para>VLC supports many kinds of subtitles.</para>
+
+<sect2><title>Media with included subtitles</title>
+
+<para>Many types of media can have embedded subtitles. VLC can read
+subtitles for the following media:</para>
+
+<itemizedlist>
+<listitem><para>DVD</para></listitem>
+<listitem><para>SVCD</para></listitem>
+<listitem><para>OGM files</para></listitem>
+<listitem><para>Matroska (MKV) files</para></listitem>
+</itemizedlist>
+
+<para>Subtitles are disabled by default. To enable them, go to
+the <emphasis>Video</emphasis> menu, and to <emphasis>Subtitles
+track</emphasis>. All available subtitles tracks will be listed.
+Select one to get the subtitles. Depending on the media, a description
+(langage, for example) might be available for the track.</para>
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/play-howto/select-subtitles-wx.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>Select a subtitles track under Windows or Linux</para></textobject>
+  <caption><para>Select a subtitles track under Windows or Linux</para></caption>
+</mediaobject>
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/play-howto/select-subtitles-osx.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>Select a subtitles track under MacOS X</para></textobject>
+  <caption><para>Select a subtitles track under MacOS X</para></caption>
+</mediaobject>
+
+<para>DVD and SVCD subtitles are merely images, so you won't be able to
+change anything for them. OGM and Matroska subtitles are rendered text,
+so you will be able to change several options. </para>
+
+<para>Text rendering options
+can be changed in the Preferences. In the <emphasis>Modules</emphasis>
+section, <emphasis>text renderer</emphasis> subsection, open the
+<emphasis>freetype</emphasis> page. You can then set the font and its
+size. For the font, you have to select a font file. Under Windows, they
+can be found in <emphasis>C:\Windows\Fonts</emphasis>. Under MacOS X,
+they are in <emphasis>/System/Library/Fonts</emphasis> <!-- FIXME: Linux
+-->. Size can be set either relatively or as a number of pixels.</para>
+
+<para>You need to restart your stream for the font modifications to take
+effect.</para>
+
+</sect2>
+
+<sect2><title>Subtitles files</title>
+
+<para>While modern file formats like Matroska or OGM can handle
+subtitles directly, older formats like AVI can't. Therefore, a number
+of subtitles files formats have been created. You need two files: the
+video file and the subtitles files that only contains the text of the
+subtitles and timestamps.</para>
+
+<para>VLC can handle these types of subtitles files:</para>
+
+<itemizedlist>
+<listitem><para>MicroDVD</para></listitem>
+<listitem><para>SubRIP</para></listitem>
+<listitem><para>SubViewer</para></listitem>
+<listitem><para>SSA</para></listitem>
+<listitem><para>Sami</para></listitem>
+<listitem><para>Vobsub (this one is quite special: it is not made from text
+but from images, which means that you can't change the fonts)</para></listitem>
+</itemizedlist>
+
+<para>To open a subtitles file, use the Advanced Open dialog
+box (Menu File, Open file). Select your file by clicking on
+the <emphasis>Browse</emphasis> button. Then, check the <emphasis>Subtitle
+options</emphasis> checkbox and click on the Settings button.</para>
+
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/play-howto/sub-file-wx.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>Select a subtitles file under Windows or Linux</para></textobject>
+  <caption><para>Select a subtitles file under Windows or Linux</para></caption>
+</mediaobject>
+
+<para>You can then select the subtitles file by clicking the
+<emphasis>Browse</emphasis> button. You can also set a few options like
+encoding, alignment and size. The delay option allows you to delay
+the subtitles against the video if they are not in sync. If they are
+not at the same speed, you might also want to adjust the subtitles
+framerate.</para>
+
+<para>Encoding, alignment and size won't have any effect for vobsub
+subtitles.</para>
+
+<para>Font can be changed as explained in the previous section.</para>
+
+</sect2>
+
+</sect1>
+
+<sect1><title>Video and audio filters</title>
+
+<para>VLC includes a system of <emphasis>filters</emphasis> that allow you to modify th e audio and video.</para>
+
+<sect2><title>Video filters</title>
+
+<para></para>
+
+</sect2>
+
+<sect2><title>Audio filters</title>
+
+<sect3><title>Equalizer</title>
+
+<para>VLC features a 10-band graphical equalizer. You can show it
+by activating the advanced GUI on wxWindows or by clicking the
+<emphasis>Equalizer</emphasis> button on the MacOS X interface.</para>
+
+<para>Presets are available in the Audio menu in wxWindows, or in the
+Equalizer window in the MacOS X interface</para>
+
+</sect3>
+
+</sect2>
+
+</sect1>
+
+<sect1><title>Misc</title>
+
+<para>TODO</para>
+
+</sect1>
+
+<sect1><title>Basic troubleshooting</title>
+<para>TODO</para>
+
+</sect1>
 </chapter>

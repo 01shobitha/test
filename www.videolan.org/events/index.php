@@ -14,7 +14,7 @@
 
 <table border="0">
 <tr>
-<td width="50%">
+<td style="width: 50%; vertical-align: top;">
 <p>
 <a href="20050226/VideoLAN%20Booth/Other%20demo/IMG_1260.JPG"><img alt="IMG_1260.JPG (1600x1200)"
         width="120"
@@ -25,7 +25,7 @@
 <p>Rotating OpenGL transparent cube shown in a transparent output window running on Mac OS X. Next to it Colored ASCII Art output with a text (marquee) and a logo filter running on FreeBSD.</p>
 </td>
 
-<td width="50%">
+<td style="width: 50%; vertical-align: top;">
 <p>
 <a href="20050226/VideoLAN%20Booth/Walls/IMG_1205.JPG"><img alt="IMG_1205.JPG (1600x1200)"
         width="120"
@@ -38,7 +38,7 @@
 </tr>
 
 <tr>
-<td>
+<td style="width: 50%; vertical-align: top;">
 <p>
 <a href="20050226/VideoLAN%20Booth/Walls/IMG_1259.JPG"><img alt="IMG_1259.JPG (1600x1200)"
         width="120"
@@ -49,7 +49,7 @@
 <p>On the left you see the VLC mosaic (picture in picture) filter showing a one movie transparent on within another movie and a textfilter. You also see the Wall filter showing how you can split up a movie into pieces on different monitors. It also shows the time and logo filters, as well as positioning of the text filter and uses caca output on a quarter of the wall.</p>
 </td>
 
-<td>
+<td style="width: 50%; vertical-align: top;">
 <p>
 <a href="20050226/VideoLAN%20Booth/Walls/IMG_1211.JPG"><img alt="IMG_1211.JPG (1600x1200)"
         width="120"

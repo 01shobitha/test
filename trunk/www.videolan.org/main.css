@@ -2,7 +2,7 @@
  * Stolen from the Gnumeric website by Sam :-)
  * Hardly modified by karibu :(
  *
- * $Id: main.css,v 1.90 2003/08/23 14:01:47 lool Exp $ */
+ * $Id: main.css,v 1.91 2004/03/16 11:52:44 courmisch Exp $ */
 
 body {
   font-family: sans-serif, Helvetica, Arial;
@@ -243,6 +243,12 @@ a:hover {
   background: #ccc;
   font-family: inherit;
   color: #00a;
+}
+
+*.menu a:link, *.menu a:visited, *.menu a:hover {
+  background: inherit;
+  color: inherit;
+  text-decoration: none;
 }
 
 ol, ul, ul.small {

@@ -1,0 +1,48 @@
+<?
+   $title = "VideoLAN Client - HOWTO compile on BeOS";
+   $lang = "en";
+   $date = "30 January 2003";
+?>
+
+<h1>Compile VLC on BeOS</h1>
+
+<p>Needed tools:</p>
+<ul>
+<li>You need <a href="http://www.bebits.com/app/2680">BeOS 5</a> or higher
+with developpement tools.</li>
+<li><a
+href="http://videolan.org/pub/videolan/devtools/beos-boot-home-config.tar.gz">
+Download</a> the /boot/home/config archive of needed tools. It includes tools
+for the configure and build process (perl 5.8.0, autoconf 2.57, automake
+1.7.2, libtool 1.4.2) and external libraries that the VideoLAN client uses
+(a52dec 0.7.4, ffmpeg's libavcodec 0.4.6, libdvdread 0.9.3, libogg 1.0,
+libvorbis 1.0, mad 0.14.2b, libdvdcss CVS-20030130, and libdvdplay
+CVS-20030130).</li>
+<li>In order to use these libraries, add the following lines to your
+/boot/home/.profile:
+<code>export CFLAGS=-I/boot/home/config/include</code>
+<code>export CPPFLAGS=-I/boot/home/config/include</code>
+<code>export CXXFLAGS=-I/boot/home/config/include</code>
+<code>export LDFLAGS=-L/boot/home/config/lib</code>
+</li>
+<li>Not necessary but convenient: <a href="http://www.bebits.com/app/2157">
+gcc 2.95.3</a>.</li>
+</ul>
+
+<p>Now you can compile vlc:</p>
+<ul>
+<li>Download the source code (use cvs or download the archive)</li>
+<li>cd to the source directory</li>
+<li>run <code>./bootstrap</code></li>
+<li>run ./configure. The following is suggested:
+<code>./configure --enable-a52 --enable-ffmpeg --enable-dvdplay
+--enable-mad --enable-ogg --enable-vorbis --enable-debug</code></li>
+<li>run <code>make</code></li>
+<li>If you are using the old gcc 2.9 that comes with BeOS 5, the compilation
+may fail on a few modules. It is a gcc bug, you can avoid it by using gcc
+2.95.3 or by increase the optimzation level from -O3 to -O0.</li>
+</ul>
+
+<p><b>Written by <a href="mailto:titer@videolan.org>Eric Petit</a>, for
+the VideoLAN Team.</b></p>
+

@@ -1,0 +1,29 @@
+<?
+   $title = "VideoLAN Client - download";
+   $lang = "en";
+   $date = "16 April 2001";
+   require("header.php3");
+?>
+
+<? function pkgitem($version,$name) { ?><li><a href="/pub/videolan/vlc/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
+
+<h1>Download vlc for Windows</h1>
+
+<p> Latest Windows self-installing packages (0.4.6): </p>
+
+<ul>
+  <? pkgitem("0.4.6/win32","vlc-0.4.6-win32.exe"); ?>
+</ul>
+
+<p> Full Windows package (0.4.6) in zip format for those who prefer the GTK interface: </p>
+
+<ul>
+  <? pkgitem("0.4.6/win32","vlc-0.4.6-win32.zip"); ?>
+</ul>
+
+<h2>Older versions</h2>
+
+<p> Older versions can be found by <a href="/pub/vlc/">browsing</a> our
+FTP site. </p>
+
+<? require("footer.php3"); ?>

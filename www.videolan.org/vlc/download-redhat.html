@@ -1,50 +1,21 @@
 <?
-   $title = "VLC for Linux Red Hat";
+   $title = "VLC media player for Red Hat Linux";
    $lang = "en";
-   $date = "14 February 2003";
+   $date = "21 June 2004";
    $menu = array( "vlc", "download" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 
 <? function pkgitem($version,$name,$comment) { ?><li><a href="http://download.videolan.org/pub/videolan/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a> <? echo $comment; ?> </li><? } ?>
 
-<h1>VLC for Linux Red Hat</h1>
+<h1>VLC media player for Red Hat Linux</h1>
 
-<h2>Install VLC from the RPM packages</h2>
+<h2>Red Hat packages for i386</h2>
 
-<p>Download the RPM packages tarballs listed in the section below and
-uncompress them in the same directory :</p>
+<p>Latest RPM x86 packages tarballs for Red Hat 9.0: </p>
 
-<pre>
-   $ tar zxf &lt;package name&gt;
-</pre>
-
-<p>Then, as root, install the packages:</p>
-
-<pre>
-    # rpm -U vlc/* --force
-</pre>
-
-
-<h2>Red Hat/Fedora packages for i386</h2>
-
-<p> Latest RPM x86 packages tarballs for Red Hat 9.0 / Fedora Core Beta2: </p>
-
-<ul>
-<? pkgitem("vlc/0.7.1/rpm/rh9-fc2","vlc-binary.tar.gz","(VLC Binaries packages)");
-   pkgitem("vlc/0.7.1/rpm/rh9-fc2","redhat9-updates.tar.gz","(Updates required to run VLC on Red Hat 9)");
-   pkgitem("vlc/0.7.1/rpm/rh9-fc2","fedora1-updates.tar.gz","(Updates required to run VLC on Fedora Core)"); ?></ul>
-
-<p>Optional components:</p>
-
-<ul><?
-    pkgitem("vlc/0.7.1/rpm/rh9-fc2","vlc-devel.tar.gz","(VLC Development headers)");
-    pkgitem("vlc/0.7.1/rpm/rh9-fc2","vlc-source.tar.gz","(VLC Source Code)");
-?></ul>
-
-<p>You can also browse the packages directory <a
-href="http://download.videolan.org/pub/vlc/0.7.1/rpm/rh9-fc2/vlc/">/pub/
-vlc/0.7.1/rpm/rh9-fc2/vlc/</a> of our FTP site.</p>
+<p>We do not have special packages for Red Hat anymore. Our packages are build for <a href="http://fedora.redhat.com">Fedora Core</a>. However these packages work pretty good on Red Hat as well. So go to our <a href="download-fedora.html">Fedora packages download page</a> and try them out. You may need to add <code>--nodeps</code> to the rpm commandline to install them.</p>
+<p><b>NOTE:</b> Be sure to run the RH9 update package listed beneath the FC2 package.</p>
 
 <h2>Older versions</h2>
 

@@ -70,17 +70,18 @@ function DrawMenu( $file, $mod )
         else
         {
           echo '<td class="button" onmouseout="this.className=\'button\'"'.
-               ' onmouseover="this.className=\'button-up\'"'.
-	       ' onmousedown="this.className=\'button-down\'">';
+               ' onMouseOver="this.className=\'button-up\'"'.
+	       ' onMouseDown="this.className=\'button-down\'"'.
+	       ' onClick="window.location=\''.htmlentities($link).'\'; return true;">';
         }
 	echo '<table cellpadding="1" cellspacing="0" style="margin: 0px;">'.
 	     '<tr>';
         if( $icon != "" )
         {
-          echo "<td><a href=\"$link\">".
-	       "<img class=\"button\" src=\"/images/menu/$icon\"".
-	       " alt=\"$name\" width=\"$width\" height=\"$height\"/>".
-	       '</a></td>';
+          echo '<td><a href="'.htmlentities($link).'"><img '.
+	       ' class="button" src="/images/menu/'.htmlentities($icon).'"'.
+	       ' alt="'.htmlentities($name).'" width="'.$width.'"'.
+	       ' height="'.$height.'" /></a></td>';
         }
         echo "<td class=\"button-text\"><a href=\"$link\">$text</a></td>";
 	echo '</tr></table></td>';

@@ -49,6 +49,19 @@ function starthtml($title) { ?>
   <td style="background-color: #ffaaaa; width: 17%;" align="center"><a href="/doc/">Documentation</a></td>
   <td style="background-color: #ffaaaa; width: 16%;" align="center"><a href="/support/">Support</a></td>
   <td style="background-color: #aaffaa; width: 17%;" align="center"><a href="http://developers.videolan.org/">Developers</a></td>
+  <td>
+      <form action="index.html" method="get">
+          <p>
+            <select name="mirror">
+              <option value="www.videolan.org" selected="selected">Select Mirror Site</option>
+              <option value="www.videolan.org">Châtenay, France (main)</option>
+              <option value="www.fr.videolan.org">Paris, France</option>
+            </select>
+            <input type="submit" value="Go!" />
+          </p>
+        </form>
+  </td>
+
 </tr></table>
 <? }
 

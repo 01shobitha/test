@@ -3,7 +3,7 @@
 <para>
 <span xml:lang="en">VLS can stream MPEG files that meet two critera</span>
 <span xml:lang="fr">VLS peut diffuser des fichiers MPEG suivant deux critères</span>
-<span xml:lang="es">VLS puede transmitir ficheros MPEG que encuentran dos criterios</span>
+<span xml:lang="es">VLS puede transmitir ficheros MPEG que sigan dos criterios</span>
 <span xml:lang="de">VLS kann MPEG-Dateien streamen, die zwei Kriterien entsprechen</span>
 </para>
 
@@ -15,6 +15,7 @@
 that contain video and audio multiplexed. VLS cannot stream MPEG
 <emphasis>ES</emphasis> (Elementary Stream), i.e. a file with only audio
 or video</span>
+
 <span xml:lang="fr">le fichier doit être MPEG <emphasis>PS</emphasis>
 (Program Stream) ou MPEG <emphasis>TS</emphasis> (Transport Stream), qui
 contiennent la vidéo et l'audio multiplexés. VLS ne peut pas treamer
@@ -23,8 +24,8 @@ fichier avec seulement l'audio ou la vidéo</span>
 
 <span xml:lang="es">el fichero debe ser MPEG <emphasis>PS</emphasis>
 (Program Stream) o MPEG <emphasis>TS</emphasis> (Transport Stream),
-que contiene vídeo y audio multiplexado. VLS no puede transmitir MPEG
-<emphasis>ES</emphasis> (Elementary Stream), por ejemplo un fichero solo
+el cual contiene vídeo y audio multiplexado. VLS no puede transmitir MPEG
+<emphasis>ES</emphasis> (Elementary Stream), es decir, un fichero sólo
 con audio o con vídeo</span>
 
 <span xml:lang="de">Die Datei muss entweder MPEG
@@ -50,8 +51,8 @@ commande <command>vlc -vvv</command>)</span>
 <span xml:lang="es">Para saber si un fichero MPEG es MPEG
 <emphasis>PS</emphasis>, MPEG <emphasis>TS</emphasis> o MPEG
 <emphasis>ES</emphasis>, hay que leer el fichero con VLC y mirar los mensajes
-(en la ventana de mensajes
-o usar la línea de comandos<command>vlc -vvv</command>)</span>
+(en la ventana de mensajes o usar el comando
+<command>vlc -vvv</command>)</span>
 
 <span xml:lang="de">Um zu erfahren, ob eine MPEG-Datei MPEG
 <emphasis>PS</emphasis>, MPEG <emphasis>TS</emphasis> oder MPEG
@@ -76,7 +77,7 @@ die Meldungen (im Meldungenfenster oder benutzen Sie die Befehlszeile
 <para>
 <span xml:lang="en">it means the file is MPEG TS</span>
 <span xml:lang="fr">alors, le fichier est du MPEG TS</span>
-<span xml:lang="es">esto significa que el fichero es MPEG TS</span>
+<span xml:lang="es">significa que el fichero es MPEG TS</span>
 <span xml:lang="de">ist die Datei MPEG TS</span>
 .</para></listitem>
 
@@ -95,7 +96,7 @@ die Meldungen (im Meldungenfenster oder benutzen Sie die Befehlszeile
 <para>
 <span xml:lang="en">it means the file is MPEG PS</span>
 <span xml:lang="fr">alors, le fichier est du MPEG PS</span>
-<span xml:lang="es">esto significa que el fichero es MPEG PS</span>
+<span xml:lang="es">significa que el fichero es MPEG PS</span>
 <span xml:lang="de">ist die Datei MPEG PS</span>
 .</para></listitem>
 
@@ -114,7 +115,7 @@ die Meldungen (im Meldungenfenster oder benutzen Sie die Befehlszeile
 <span xml:lang="en">it means the file is MPEG ES, VLS can't stream it</span>
 <span xml:lang="fr">alors, le fichier est du MPEG ES, VLS ne peut pas
  le diffuser</span>
- <span xml:lang="es">esto significa que el fichero es MPEG ES, VLC no puede transmitirlo</span>
+ <span xml:lang="es">significa que el fichero es MPEG ES, y VLS no puede transmitirlo</span>
 <span xml:lang="de">ist die Datei MPEG ES, was VLS nicht streamen kann</span>
 .</para></listitem>
 
@@ -140,7 +141,7 @@ extension <emphasis>.mpg</emphasis> ou <emphasis>.mpeg</emphasis> sont
 généralement MPEG-1</span>
 
 <span xml:lang="es">la cabecera de la secuencia de vídeo debe repetirse regularmente
-lo cual es frecuente en el caso de MPEG-2, pero muy raramente con MPEG-1.
+lo cual es frecuente en el caso de MPEG-2, pero muy raramente en MPEG-1.
 No hay una manera facíl de saber si la cabecera de la secuencia se repite regularmente.
 Los ficheros con extensión <emphasis>.vob</emphasis> son normalmente ficheros MPEG-2
 y los ficheros con extensión <emphasis>.mpg</emphasis> o <emphasis>.mpeg</emphasis> 
@@ -155,7 +156,7 @@ MPEG-2 - Dateien und Datein mit dem <emphasis>.mpg.</emphasis> oder
 .</para>
 
 </listitem>
-
+Diffusez un fichier avec VLC
 </itemizedlist>
 
 <para>
@@ -167,8 +168,8 @@ url="ftp://ftp.videolan.org/pub/videolan/streams/presentation/presentation_short
 fichier MPEG-PS diffusable pour vos tests :<ulink
 url="ftp://ftp.videolan.org/pub/videolan/streams/presentation/presentation_short.vob">presentation_short.vob</ulink></span>
 
-<span xml:lang="es"> Usted puede descargarse el fichero 
-MPEG-2 PS transmitido  para sus pruebas: <ulink
+<span xml:lang="es"> Puede descargarse este fichero 
+transmitible en MPEG-2 PS para sus pruebas: <ulink
 url="ftp://ftp.videolan.org/pub/videolan/streams/presentation/presentation_short.vob">presentation_short.vob</ulink></span>
 
 <span xml:lang="de">Sie können diese streambare MPEG-2 PS - Datei für Ihre

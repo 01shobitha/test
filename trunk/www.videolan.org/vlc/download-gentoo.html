@@ -10,16 +10,11 @@
 
 <h2>Install VLC via normal emerge</h2>
 
-<p> First, VLC is included in the <a href="http://www.gentoo.org/doc/en/portage-user.xml">Portage</a> package system of the <a
+<p>VLC is included in the <a href="http://www.gentoo.org/doc/en/portage-user.xml">Portage</a> package system of the <a
 href="http://www.gentoo.org/">Gentoo Linux</a> distribution.
-So you can simple type <i>emerge vlc</i> and you will have VLC installed. However this version ( currently 0.4.4) is very outdated, so I advice to use <i>ACCEPT_KEYWORDS="~x86" emerge vlc</i> to emerge the current unstable version of VLC.</p>
-
-<h2>Get the latest and greatest and heavily unstable stuff</h2>
-
+So you can simple type <i>emerge vlc</i> and you will have VLC installed. I advice to always use the latest (and 'unstable') version of VLC by emerging like: <i>ACCEPT_KEYWORDS="~x86" emerge vlc</i>.</p>
 <p>
-From version 0.6.0 and up every release (and if you are lucky even cvs snapshots) come with there own ebuild. This is to help the Gentoo Developers with keeping an up to date ebuild in portage (with all the latest and greatest features). However, this will also help you to get the latest version of VLC running on your Gentoo system within minutes after a new release if you want. ( portage can't keep up with your desire to run the latest VLC and you know it ;).</p>
-<p> 
-See the VLC ebuild <a href="http://wiki.videolan.org/index.php/Linux%20Gentoo">tutorial</a> for more information.
+When you don't set the correct USE variables, you will get a very bare bones version of VLC. I advice to emerge with the following USE variable: dvd nls xv bidi truetype wxwindows imlib matroska faad png"
 </p>
 
 <h2>Older versions</h2>
@@ -31,4 +26,4 @@ FTP site. </p>
 
 <p>If you want, you can download the <a href="download-sources.html">sourcecode</a> of VLC media player.</p>
 
-<? footer('$Id: download-gentoo.html,v 1.5 2003/10/30 22:00:33 anil Exp $'); ?>
+<? footer('$Id: download-gentoo.html,v 1.6 2004/01/09 15:20:08 hartman Exp $'); ?>

@@ -33,6 +33,7 @@ href="http://www.videolan.org/cgi-bin/irc/irc.cgi">IRCWeb</a></p>
 <tr><th class=menu>Links</th></tr>
 <tr><td class=menu>
 <p class=menu><a class="menu" href="http://www.videolan.org/">http://www.videolan.org/</a></p>
+<p class=menu><a class="menu" href="http://forum.videolan.org/">http://forum.videolan.org/</a></p>
 </td></tr>
 </table>
 <br>

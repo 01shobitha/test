@@ -593,12 +593,97 @@ options, when they share the same setting.</para>
 
 </sect2>
 
+<sect2><title>thanscode</title>
+
+<para>You can use this module to transcode a stream, ie to change its
+codecs or the encoding bitrates. Some additional processing can be done
+during this process, such as rescaling, deinterlacement, resampling,
+etc</para>
+
+<note><para>Depending on the bitrate of the original stream and of
+the options chosen, transcoding can be a very CPU intensive task. As
+a consequence, streaming of a real time transcoded stream can lead to
+dropped frames or a jerky image and sound in some cases, when running
+out of ressources.</para></note>
+
+<para>Available options are:</para>
+
+<sect3><title>vcodec=</title>
+
+<para>This options allows to specify the codec the video tracks of the
+input stream should be transcoded to.</para>
+
+<para>List of available codecs can be found on the 
+<ulink url="/streaming/features.html">streaming features page</ulink>.</para>
+
+</sect3>
+
+<sect3><title>vb=</title>
+
+<para>This option allows to set the bitrate of the transcoded video
+stream, in kbit/s</para>
+
+</sect3>
+
+<sect3><title>venc=</title>
+
+<para>This allows to set the encoder to use to encode the videos stream. Available options are:</para>
+<itemizedlist>
+
+<listitem><para><emphasis>ffmpeg</emphasis>: this is the libavcodec encoding
+module. It handles a large variety of different codecs (the list can be
+found on the <ulink url="/streaming/features.html">streaming features
+page</ulink>.</para>
+
+<para>Item options are: <emphasis>keyint=&lt;number of
+frames&gt;</emphasis> allows to set the maximal amount of frames
+between 2 key frames, <emphasis>hurry-up</emphasis> allows the
+encoder to decrease the quality of the stream if the CPU can't keep
+up with the encoding rate, <emphasis>interlace</emphasis> allows
+to improve the quality of the encoding of interlaced streams,
+<emphasis>noise-reduction=&lt;noise reduction factor&gt;</emphasis>
+enables a noise reduction algorithm (will decrease required bitrate at
+the cost of details in the image), <emphasis>vt=&lt;bitrate tolerance
+in kbit/s&gt;</emphasis> allows to set a tolerance for the bitrate of
+the outputed video stream, <emphasis>bframes=&lt;amount of frames&gt;
+</emphasis> allows to set the amount of B frames between 2 key frames,
+<emphasis>qmin=&lt;quantizer&gt;</emphasis> allows to set the minimum
+quantizer scale, <emphasis>qmax=&lt;quantizer&gt;</emphasis> allows
+to set the maximum quantizer scale, <emphasis>qscale=&lt;quantizer
+scale&gt;</emphasis> allows to specify a fixed quantizer scale
+for VBR encidings, <emphasis>i-quant-factor=&lt;quantization
+factor&gt;</emphasis> allows to set the quantization factor of I
+frames, compared to P frames, <emphasis>hq=&lt;quality&gt;</emphasis>
+allows to choose the quality level fot the encoding of the motion
+vectors (arguments are simple, rd or bits, default is simple
+*FIXME*), <emphasis>strict=&lt;level of compliance&gt;</emphasis>
+allows to force a stricter standard compliance (possible values are
+-1, 0 and 1, default is 0), <emphasis>strict-rc</emphasis> enables
+a stricterate control algorithm, <emphasis>rc-buffer-size=&lt;size
+of the buffer in bits&gt;</emphasis> allows to choose the size of
+the buffer used for rate control (bigger means more efficien rate
+control), <emphasis>rc-buffer-aggressivity=&lt;float representing the
+aggressiveness&gt;</emphasis> allows to set the rate control buffer
+aggressiveness *FIXME*, <emphasis>pre-me</emphasis> allows to enable pre
+motion estimation, <emphasis>mpeg4-matrix</emphasis> enable use of the
+MPEG4 quantization matrix with MPEG2 streams, improving quality while
+keeping compatibility with MPEG2 decoders, <emphasis>trellis</emphasis>
+enables trelli quantization (better quality, but slower
+processing).</para></listitem>
+
+</itemizedlist>
+
+</sect3>
+
+</sect2>
+
 <sect2><title>duplicate</title>
 
 <para>This module can be used to duplicate the stream, and so process it
 through several different chains.</para>
 
 <para>Available options are:</para>
+
 
 <sect3><title>dst=</title>
 
@@ -628,7 +713,7 @@ Available parameters are:
 
 <listitem><para><emphasis>program=</emphasis>: duplicate only
 <emphasis>elementary streams</emphasis> belonging to the
-selected program (or PID). This option only works with MPEG2/TS
+selected program (or SID). This option only works with MPEG2/TS
 streams.</para></listitem>
 
 <listitem><para><emphasis>noprogram=</emphasis>: do not duplicate

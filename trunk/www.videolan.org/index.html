@@ -8,20 +8,8 @@
 <table border="0" cellspacing="10">
   <tr>
 
-    <td>
-<img width="300" height="75" alt="VideoLAN" src="images/videolan-new4.png" />
-    </td>
-
     <td class="fill">
-
-      <? include($include."news.php3"); ?>
-         <h2>News headlines</h2>
-      <? shownews("title",5); ?>
-
-    </td>
-
-  </tr>
-</table>
+<center><img width="300" height="75" alt="VideoLAN" src="images/videolan-new4.png" /></center>
 
 <h2>OpenSource Video streaming solution for every OS&nbsp;!</h2>
 
@@ -96,5 +84,18 @@ page</a> for more information.</p>
 <h2>News</h2>
 
   <? shownews("full",5); ?>
+
+    </td>
+
+    <td width="20%">
+
+      <? include($include."news.php3"); ?>
+         <h2>News headlines</h2>
+      <? shownews("title",5); ?>
+
+    </td>
+
+  </tr>
+</table>
 
 <? require("footer.php3"); ?>

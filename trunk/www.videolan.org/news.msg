@@ -4,6 +4,28 @@
 # Et pour les nouvelles importantes, c'est pas un | , c'est un §
 #
 
+|3 Feb 2003| Release: vlc 0.5.0 | This is a major release
+of VLC with a a lot of great new features : see the <a
+href="http://developers.videolan.org/vlc/NEWS">list of changes between
+0.4.6 and 0.5.0</a>. A new VLC user guide has been released (it replaces
+the VLC HOWTO) and the VideoLAN Quickstart has been updated to explain
+the new streaming capacity of VLC (with VLC's new stream output) : see
+the <a href="/doc/">documentation page</a>.
+
+|3 Feb 2003| Release: libdvdplay 1.0.0 | This is the first release
+of libdvdplay, a DVD navigation library. This library is based on a
+lot of Ogle's code and features basic read and seek for DVD media,
+export of the DVD information (audio, subtitles, chapters, ...) and
+export of the DVD virtual machine to the client application. See the <a
+href="http://developers.videolan.org/libdvdplay/">libdvdplay page</a> to
+download the sources or the binaires.
+
+|3 Feb 2003| Release: libdvdcss 1.2.5 | This new libdvdcss release
+adds key cache support, improves robustness in case of read errors
+and builds under Cygwin and Microsoft Visual C++. See the <a
+href="http://developers.videolan.org/libdvdcss/">libdvdcss page</a> to
+download the sources or the binaires.
+
 |29 Jan 2003| VideoLAN at Linux Expo Paris | VideoLAN will have a booth
 at <a href="http://www.linuxsolutions.fr">Linux Expo Paris 2003</a>
 (4-5-6 February 2003 at the CNIT). The VideoLAN team will welcome you at

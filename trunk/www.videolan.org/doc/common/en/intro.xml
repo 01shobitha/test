@@ -445,10 +445,7 @@ commands that should be typed as
 </para>
 
 <screen>
-<prompt># </prompt>
-<userinput>
-command_to_be_typed_as_root
-</userinput>
+<prompt># </prompt><userinput> command_to_be_typed_as_root </userinput>
 </screen>
 
 </listitem>
@@ -459,10 +456,7 @@ commands that should be typed as a regular user have a
 </para>
 
 <screen>
-<prompt>% </prompt>
-<userinput>
-command_to_be_typed_as_regular_user
-</userinput>
+<prompt>% </prompt><userinput>command_to_be_typed_as_regular_user</userinput>
 </screen>
 
 </listitem>

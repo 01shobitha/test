@@ -41,6 +41,8 @@ RewriteRule ^streaming/download.html$ /streaming/index.html [R=permanent,L]
 RewriteRule ^streaming/download-linux.html$ /streaming/download-vls-sources.html [R=permanent,L]
 RewriteRule ^streaming/download-windows.html$ /streaming/download-vls-windows.html [R=permanent,L]
 
+RewriteRule ^tests/(.*)$ /rez/ [R=permanent,L]
+
 #
 # Redirects for removed stuff
 #

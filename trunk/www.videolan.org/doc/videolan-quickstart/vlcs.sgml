@@ -5,9 +5,9 @@ where a small program, the mini VideoLAN Channel Server (mini-VLCS),
 is very useful. The mini VideoLAN Channel Server associate URLs or
 multicast addresses to channels, like on a TV.</para>
 
-<sect1><title>Installing the mini VideoLAN Channel Server</title>
+<sect1><title>Installing mini-VLCS</title>
 
-<note><para>The mini-VLCS is only available for Linux.</para></note>
+<note><para>Mini-VLCS is only available for Linux.</para></note>
 
 <para>You don't have to change anything to vls or the Web server.
 Mini-VLCS is independant from them, but is can be installed on the same
@@ -29,7 +29,7 @@ page</ulink>.</para>
 
 </sect1>
 
-<sect1><title>Configuring the mini VideoLAN Channel Server</title>
+<sect1><title>Configuring mini-VLCS</title>
 
 <para>Edit the configuration file <filename>vlcs.conf</filename>. The
 syntax rules of this configuration file are the following :</para>
@@ -64,7 +64,7 @@ http://vod.videolan.org/test/video2.mpg
 
 </sect1>
 
-<sect1><title>Running the mini Videolan Channel Server</title>
+<sect1><title>Running mini-VLCS</title>
 
 <para>Start mini-VLCS :</para>
 
@@ -81,7 +81,7 @@ you can detach-it and reattach-it:</para>
 
 </sect1>
 
-<sect1><title>Configure VLC(s) to use the channel information service</title>
+<sect1><title>Configure VLC(s) to use mini-VLCS</title>
 
 <para>Launch VLC, click on the <emphasis>net</emphasis> button or
 select in the menu <emphasis>File / Network stream</emphasis>, select

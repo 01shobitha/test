@@ -26,7 +26,7 @@ seek in a file downloaded, that's what we use to seek in the video.
 <sect1><title>On the server side</title>
 
 <para> On the VOD server, you need a running Web server. For example,
-you can use a Linux server running Apache. But other operating systems
+you can use a Linux server running Apache. Other operating systems
 and other Web servers should work too, but we have never tested.</para>
 
 <para>Make your MPEG 1, MPEG 2 or MPEG 4 / DivX files available to the

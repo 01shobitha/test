@@ -27,7 +27,8 @@ href="http://download.videolan.org/images/vlc-os9.png">Mac
 OS 9</a> version is now available as well, and
 there is a new plugin to stream video to the <a
 href="http://members.tripod.com/~annie43/spa/sp29.gif">Spirit
-Marsrover</a>.
+Marsrover</a>.<br />
+<b>NOTE: </b>Look at the posting date before asking stupid questions.
 
 |18 March 2004| Scheduled downtime| Due to maintainance operations, 
 a network downtime of about one hour will occur this day at about 

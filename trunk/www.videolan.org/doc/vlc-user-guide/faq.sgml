@@ -106,7 +106,7 @@ is no global configuration file). If you modify the available options
 in VLC and save the new configuration, then a configuration file will
 be created in your user directory. The precise location of this file
 depends on the Operating System you are running:</para> 
-<itemizedlist><listitem><para>- UniX
+<itemizedlist><listitem><para>UniX
 (linux, etc...): <filename>~/.videolan/vlcrc</filename></para></listitem>
 <listitem><para>Windows: <filename>Application Data\videolan\vlcrc</filename> (Application Data is usually in <filename>C:\Documents and Settings\your_name</filename></para></listitem></itemizedlist> </answer></qandaentry>
 </qandadiv>
@@ -127,13 +127,13 @@ installed (often gtk-dev or gtk-devel) and recompile.
 
 <para>
 Wait a few seconds. Key cracking can take much time on some discs. If it
-still doesn't work, you can have a more verbose output using "vlc -vvvvv".
+still doesn't work, you can have a more verbose output using <command>vlc -vvvvv</command>.
 Here are a few things to check for:</para>
 
 <itemizedlist>
 <listitem><para>Did you install libdvdcss ?</para></listitem>
 <listitem><para>Do you have write access to your DVD device? For instance:
-	(Under Unix/Linux) chmod 666 /dev/hdc </para></listitem>
+	(Under Unix/Linux) <command>chmod 666 /dev/hdc</command> </para></listitem>
 <listitem><para>Does your kernel log contain line about your DVD device?</para></listitem>
 <listitem><para>If you are running Unix/Linux, do you have a link from /dev/dvd to your real DVD device? For instance</para>
 <screen><prompt>%</prompt><userinput>ln -s hdc /dev/dvd</userinput></screen></listitem>
@@ -148,7 +148,7 @@ instance:</para>
 <prompt>%</prompt><userinput>vlc --vout x11</userinput></screen>
 
 <para>Second, change your screen depth and/or definition. It quite often helps.
-Lastly, have a look at your XFree86 video driver (nVidia for instance
+Lastly, if running Unix with a X11 Server, have a look at your XFree86 video driver (nVidia for instance
 releases optimized drivers for its boards).</para>
 </answer></qandaentry>
 
@@ -185,24 +185,24 @@ video board</para>
 </para>
 </answer></qandaentry>
 
-<qandaentry><question><para>Audio and video are out of sync</para></question><answer>
-<para>This is not normal. Try using another output plug-in (for instance --aout oss),
+<qandaentry><question><para>Audio and video are out of sync.</para></question><answer>
+<para>This is not normal. Try using another output plug-in (for instance <command>--aout oss</command>),
 kill esd or artsd if they are running... This is a known problem and
 is being investigated.</para>
 </answer></qandaentry>
 
 
-<qandaentry><question><para>Sound volume is too low</para></question><answer>
-<para>You can raise it in the preferences window of your graphical interface or with the --volume commandline switch</para>
+<qandaentry><question><para>Sound volume is too low.</para></question><answer>
+<para>You can raise it in the preferences window of your graphical interface or with the <command>--volume</command> commandline switch</para>
 </answer></qandaentry>
 
-<qandaentry><question><para>I have no image under DirectX</para></question><answer>
+<qandaentry><question><para>I have no image under DirectX.</para></question><answer>
 
 <para>Check that your video card drivers are in their latest version and that
 your DirectX is up-to-date.</para>
 </answer></qandaentry>
 
-<qandaentry><question><para>VLC crashes</para></question><answer>
+<qandaentry><question><para>VLC crashes.</para></question><answer>
 
 <para>Increase the verbosity level (either  in the preferences or with a
 <emphasis>-vvvv</emphasis> command-line  option) and  look at  the debug
@@ -215,7 +215,7 @@ trying to solve your problem</para>
 </answer></qandaentry>
 
 <qandaentry><question><para>I am  running Unix/Linux,  and I  can only  play a  DVD as
-root</para></question><answer>
+root.</para></question><answer>
 <para>Please check  that, as  user, you  have write  access to  your DVD  drive  or device (you could have to be in the <emphasis>disk</emphasis> group).</para>
 </answer></qandaentry>
 

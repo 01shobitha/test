@@ -1,13 +1,18 @@
+ErrorDocument 404 /404.html
+ErrorDocument 403 /403.html
+ErrorDocument 401 /401.html
+
 # Big nasty kludge
 AddType application/x-httpd-php .html .php3
 
 RewriteEngine on
 
 # répertoire/ -> répertoire/index.html
-RewriteRule ^(.*)/$ include/rewrite.php3?dir=$1&page=index
+RewriteRule ^(.*)/$ $1/index.html
+RewriteRule ^$ index.html
 
 # fichier.html -> ../include/default.php3?page=fichier
-RewriteRule (^vlc/vlc/doc/.*html$) $1 [L]
+RewriteRule ^(vlc/vlc/doc/.*html)$ $1 [L]
 RewriteRule ^([^/]+)\.html$ include/rewrite.php3?page=$1
 
 # rep/fichier.html -> ../include/default.php3?dir=rep&page=fichier

@@ -1,18 +1,22 @@
-<?
+<?php
   $path = '/var/www/local/developers.videolan.org/';
   $dir = $_GET['dir'];
 
   chdir ($path);
+
+  if ($dir == null)
+    $dir = '.';
 
   /* Directory traversal security fix -- Courmisch (20/10/2004) */
   if ((strstr($dir, "..") === FALSE)
    && (strstr($dir, "/.") === FALSE)
    && !preg_match("/[^a-zA-Z0-9\.\/\-]/", $dir))
   {
-    @chdir ($dir);
     $page = $_GET['page'];
     if (preg_match("/[^a-zA-Z0-9\.\-]/", $page))
       $page = '403';
+    else
+      $page = "$dir/$page";
   }
   else
     $page = '403';
@@ -55,7 +59,7 @@
 <table width="100%" cellspacing=0 cellpadding=10>
 <tr><td rowspan=2 width=150 valign=top class=background>
 <?php
-  include( $page.'include/menu.inc' );
+  include( 'include/menu.inc' );
 ?>
 </td>
 <td height=50 class=background><h1>developers.videolan.org</h1></td></tr>

@@ -88,7 +88,7 @@ ist derzeit die kompletteste, funktionsreichste Oberfläche</span>
 <para><emphasis>Skins</emphasis></para>
 
 <para>
-<span xml:lang="en"> This interface also works both for Linux and
+<span xml:lang="en"> This interface also works both for GNU/Linux and
 Windows. It allows dramatic modifications of the look and feel of your
 VLC. This is still under development.</span>
 <span xml:lang="fr"> Cette interface fonctionne également à la fois
@@ -148,16 +148,24 @@ prendre le contrôle de votre VLC de plusieurs façons différentes.</span>
 Kontrolle von VLC zu benutzen.</span>
 </para>
 
-<sect2><title>http</title>
+<sect2><title>corba</title>
 
 <para>
-<span xml:lang="en">This interface was discussed in the previous
-chapter. It allows to remotely or locally control VLC through a
-webpage</span>
-<span xml:lang="fr">Cette interface a fait l'objet du chapitre
-précédent. Elle permet de contrôler VLC à l'aide d'une page web</span>
-<span xml:lang="de">Diese Oberfläche wurde im vorherigen Kapitel besprochen.
-Sie erlaubt die entfernte oder lokale Kontrolle von VLC über eine Webseite</span> 
+<span xml:lang="en">This allows you to control VLC using CORBA</span>
+<span xml:lang="fr">Cette interface vous permet de contrôler VLC en utilisant
+CORBA</span>
+<span xml:lang="de">Dies erlaubt Ihnen VLC über CORBA zu kontrollieren</span>
+.</para>
+
+</sect2>
+
+<sect2><title>dummy</title>
+
+<para>
+<span xml:lang="en">Use this interface when you want
+<emphasis>no</emphasis> interface! That is you just want to give a
+self-contained command-line string
+</span>
 .</para>
 
 </sect2>
@@ -182,27 +190,31 @@ rechts (nächstes), nach oben-rechts (Vollbild), nach unten-rechts (Stopp).</span
 
 </sect2>
 
-<sect2><title>corba</title>
+<sect2><title>http</title>
 
 <para>
-<span xml:lang="en">This allows you to control VLC using CORBA</span>
-<span xml:lang="fr">Cette interface vous permet de contrôler VLC en utilisant
-CORBA</span>
-<span xml:lang="de">Dies erlaubt Ihnen VLC über CORBA zu kontrollieren</span>
+<span xml:lang="en">This interface was discussed in the previous
+chapter. It allows to remotely or locally control VLC through a
+webpage</span>
+<span xml:lang="fr">Cette interface a fait l'objet du chapitre
+précédent. Elle permet de contrôler VLC à l'aide d'une page web</span>
+<span xml:lang="de">Diese Oberfläche wurde im vorherigen Kapitel besprochen.
+Sie erlaubt die entfernte oder lokale Kontrolle von VLC über eine Webseite</span> 
 .</para>
 
 </sect2>
 
-<sect2><title>rc</title>
+<sect2><title>joystick</title>
 
 <para>
-<span xml:lang="en">This allows you to control VLC by typing commands in
-its terminal window.</span>
-<span xml:lang="fr">Cette interface vous permet de contrôler VLC par des
-commandes tapées dans sa fenêtre de terminal.</span>
-<span xml:lang="de">Dies erlaubt Ihnen VLC über die Eingabe von Befehlen in dessen
-Terminalfenster zu steuern.</span>
-</para>
+<span xml:lang="en">Under GNU/Linux, this allows you to control VLC
+using a joystick</span>
+<span xml:lang="fr">Sous GNU/Linux, cette interface vous permet de
+contrôler VLC à l'aide d'un joystick</span>
+<span xml:lang="de">Unter GNU/Linux erlaubt Ihnen dies VLC mit einem
+Joystick zu kontrollieren</span>
+.</para>
+
 </sect2>
 
 <sect2><title>lirc</title>
@@ -217,17 +229,16 @@ Intrarotfernbedienung zu steuern.</span>
 </para>
 </sect2>
 
-<sect2><title>joystick</title>
+<sect2><title>rc</title>
 
 <para>
-<span xml:lang="en">Under GNU/Linux, this allows you to control VLC
-using a joystick</span>
-<span xml:lang="fr">Sous GNU/Linux, cette interface vous permet de
-contrôler VLC à l'aide d'un joystick</span>
-<span xml:lang="de">Unter GNU/Linux erlaubt Ihnen dies VLC mit einem
-Joystick zu kontrollieren</span>
-.</para>
-
+<span xml:lang="en">This allows you to control VLC by typing commands in
+its terminal window.</span>
+<span xml:lang="fr">Cette interface vous permet de contrôler VLC par des
+commandes tapées dans sa fenêtre de terminal.</span>
+<span xml:lang="de">Dies erlaubt Ihnen VLC über die Eingabe von Befehlen in dessen
+Terminalfenster zu steuern.</span>
+</para>
 </sect2>
 
 </sect1>

@@ -10,7 +10,7 @@
 different sources. VLC tries to guess the most suitable module at runtime. If you want to force an input module lauch VLC with:</span>
 <span xml:lang="fr">Ces modules permettent à
 VLC de lire depuis différentes sources. VLC essaie de choisir le module le plus adapté au moment de la lecture. Si vous voulez forcer un module particulier, lancez VLC avec l'option :</span>
---input modulename</para>
+--access modulename</para>
 
 <sect2><title>dvdplay</title>
 &enabled;

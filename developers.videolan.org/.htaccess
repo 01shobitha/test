@@ -1,3 +1,6 @@
+# Big nasty kludge
+AddType application/x-httpd-php .html
+
 RewriteEngine on
 
 AddType text/html .html

@@ -21,7 +21,7 @@ DivX, mp3, ogg, ...) as well as <b>DVD</b>s, <b>VCD</b>s, and various
 unicast or <b>multicast</b> in IPv4 or <b>IPv6</b> on a high-bandwidth
 network. </p>
 
-<p> If you like VLC, please rate it on the <a href="http://freshmeat.net/projects/vlc">Freshmeat</a> and <a href="http://www.versiontracker.com/dyn/moreinfo/macosx/14738">versiontracker</a> entries! </a>
+<p> If you like VLC, please rate it on the <a href="http://freshmeat.net/projects/vlc">Freshmeat</a> and <a href="http://www.versiontracker.com/dyn/moreinfo/macosx/14738">versiontracker</a> entries! </p>
 
       <h2>Features</h2>
 
@@ -82,10 +82,14 @@ screenshots</a>. </p>
    <a href="download-suse.html"><img src="/images/icons/suse.gif"
       style="vertical-align: middle; border-width: 1px;"
       alt="SUSE Linux" width="32" height="32" /></a>SuSE Linux
-</td><td align="left" rowspan="2">
+</td><td>
    <a href="download-redhat.html"><img src="/images/icons/redhat.gif"
       style="vertical-align: middle; border-width: 1px;"
       alt="Linux Red Hat" width="32" height="32" /></a> Red Hat Linux
+</td><td>
+   <a href="download-crux.html"><img src="/images/icons/cruxlinux.png"
+      style="vertical-align: middle; border-width: 1px;"
+      alt="Crux Linux" width="32" height="32" /></a>Crux Linux
 </td>
 </tr>
 </table>

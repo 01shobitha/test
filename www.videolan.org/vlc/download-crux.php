@@ -10,9 +10,7 @@
 
 <h1>VLC media player for Crux Linux</h1>
 
-<p>Thanks to Younes Hafri who maintains these packages !</p>
-
-<p>Get the <a href="http://perso.club-internet.fr/yhafri/crux/vlc/Pkgfile">Package file</a>.</p>
+<p>Thanks to Younès Hafri who maintains these packages !</p>
 
 <h2>Installation process</h2>
 
@@ -21,13 +19,7 @@
 <p>If you have all the dependencies installed, use this command line to install vlc :</p>
 
 <pre>
-# cd /usr/ports/yhafri/vlc && pkgmk -d -i && rm vlc-0.8.1.tar.gz
-</pre>
-
-<p>To install mssing dependencies, use the following command line :</p>
-
-<pre>
-# cd /usr/ports/yhafri/DEPENDANCE && pkgmk -d -i && rm  DEPENDANCE-VERSION.tar.gz
+   # cd /usr/ports/yhafri/vlc && pkgmk -d -i && rm vlc-0.8.1.tar.gz
 </pre>
 
 <?php footer('$Id: download-mandrake.php 2907 2004-11-23 14:41:24Z courmisch $'); ?>

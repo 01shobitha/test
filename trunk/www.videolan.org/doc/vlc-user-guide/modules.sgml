@@ -287,6 +287,14 @@ This is the QT libraries interface module. You will need the libraries (libqt2 p
 This interface module allows you to control vlc through a remote. A lircrc example is provided to help you configure it to your remote (see doc/lirc/example.lircrc).</para>
 </sect2>
 
+<sect2><title>wxwindows</title>
+<para><emphasis>default: enabled</emphasis></para>
+<para>
+The wxWindows interface is a portable interface meant to replace win32, gnome and Gtk interface, but it is not completely finished.</para>
+</sect2>
+
+
+
 </sect1>
 
 
@@ -327,6 +335,21 @@ support.</para>
 <para>This codec is a very smart MP3 decoder.</para>
 </sect2>
 
+<sect2><title>faad</title>
+<para><emphasis>default: disabled</emphasis></para>
+<para>faad is an audio decoder that provides sound decoding for some AVI files.</para>
+</sect2>
+
+<sect2><title>tarkin</title>
+<para><emphasis>default: disabled</emphasis></para>
+<para>tarkin is a new codec (experimental) by the Ogg Project.</para>
+</sect2>
+
+<sect2><title>theora</title>
+<para><emphasis>default: disabled</emphasis></para>
+<para>theora is an experimental video codec by the Ogg Project.</para>
+</sect2>
+
 
 </sect1>
 
@@ -365,6 +388,11 @@ him to stream, juste like the VideoLAN server</para>
 </para>
 </sect2>
 
+<sect2><title>test-suite</title>
+<para><emphasis>default: disabled</emphasis></para>
+<para>This builds a special vlc, for testing purposes only</para>
+</sect2>
+
 
 <sect2><title>mozilla</title>
 <para><emphasis>default: disabled</emphasis></para>
@@ -376,6 +404,8 @@ plugin is built</para>
 <para><emphasis>default: disabled</emphasis></para>
 <para>This enables the SLP service discovery protocol</para>
 </sect2>
+
+
 
 
 <sect1><title>Compilation Options</title>
@@ -392,6 +422,14 @@ system  for  which  you want  to  build  the  VLC  for (if  not  guessed
 correctly),...</para>
 
 <para>You can also choose to enable or disable some optimizations</para>
+
+<sect2><title>--disable-plugins</title>
+<para>If you select this option, no plugins will be enabled. This is
+definitely not recommended, as you would get a very poor VLC, and should
+only be used for testing purposes</para>
+</sect2>
+
+
 
 </sect1>
 

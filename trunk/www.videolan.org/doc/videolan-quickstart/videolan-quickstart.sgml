@@ -55,16 +55,13 @@
 
 <legalnotice>
 
-  <para>
-
+<para>
 Permission is granted to copy, distribute and/or modify this document
-under the terms of the GNU Free Documentation License, Version 1.1
-or any later version published by the Free Software Foundation ;
-with no Invariant Sections, with no Front-Cover Texts, and with no
-Back-Cover Texts. The text of the license can be found on <ulink
-url="http://www.gnu.org/copyleft/fdl.html">http://www.gnu.org/copyleft/fdl.html</ulink>.
-
-    </para>
+under the terms of the GNU Free Documentation License, Version 1.1 or
+any later version published by the Free Software Foundation ; with no
+Invariant Sections, with no Front-Cover Texts, and with no Back-Cover
+Texts. The text of the license can be found in Appendix A (Gnu Free
+Documentation License). </para>
 
 </legalnotice>
 
@@ -102,5 +99,10 @@ url="http://www.gnu.org/copyleft/fdl.html">http://www.gnu.org/copyleft/fdl.html<
 &vod;
 &vlcs;
 &conclusion;
+
+<appendix id="fdl"><title>Gnu Free Documentation License</title><para><ulink url="fdl.txt">Gnu Free Documentation License</ulink></para></appendix>
+
+
+
 
 </book>

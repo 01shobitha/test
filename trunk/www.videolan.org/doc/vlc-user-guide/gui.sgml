@@ -1,10 +1,9 @@
 <chapter id="gui"><title id="tgui">The Graphical User Interface</title>
 
 <sect1><title>Introduction</title>
-<para>
-The Graphical User Interface is the easiest way to use your
-VideoLAN client. 
-</para>
+<para> The Graphical User Interface is the easiest way to use your
+VideoLAN client. The look and feel may depend of which interface you are
+using, but the functions are the same.</para>
 </sect1>
 
 <sect1><title>Opening a stream</title>
@@ -22,7 +21,7 @@ Server or through the http input</para></listitem>
 card.</para></listitem>
 </itemizedlist>
 
-<para>These four buttons, as well as the ones located in the "File" menu, actually open the same dialog box.</para>
+<para>These four buttons, as well as the ones located in the "File" menu, actually open the same dialog box, but on different tabs.</para>
 
 <sect2><title>The "open a stream" dialog box</title>
 <para>You can  specify directly the  Media Resource Locator MRL,  if you
@@ -59,10 +58,10 @@ back to the normal mode, press <command>f</command>.
 
 
 <sect2><title>DVD and VCD navigation</title>
-<para>
-When reading a DVD or a VCD, you can change chapter and titles as you wish
-either by using the right-click menu or by using the options in the "Parameters" menu. These options are enabled only when you play a disk, or a disk through the network.
-</para>
+<para> When reading a DVD or a VCD, you can change chapter and titles as
+you wish either by using the right-click menu or by using the options in
+the "Parameters" menu. These options are enabled only when you play a
+disk, or a disk through the network. </para>
 </sect2>
 
 <sect2><title>Programs, languages and subtitles</title>
@@ -163,9 +162,20 @@ you are doing</para>
 
 <sect2><title>Stream ouput</title>
 <para>In this tab you can configure the stream output abilities of the VideoLAN Client.</para>
-<para>[GROS FIXME]Here you will be able to select the format, ps or ts,
-the output module, udp or file. You can select also the packetizer.
-</para>
+
+<para>Stream output is a new feature of the VideoLAN Client, which allow you to stream stream <emphasis>from</emphasis> a VLC. You will this way be able to save the Video that you are watching to a file, or to stream it to a network.</para>
+
+<para>This tab allows you to set up some options for this. You will be
+able to select the muxer used for the stream, ie PS, TS or AVI. PS and TS are parts
+of the MPEG norm. PS stands for Program Stream, it is usually used for
+files, whereas TS stands for Transport Stream, which is rather used for
+network streams. AVI means output to an AVI file or stream</para>
+
+<para>You will also select the <emphasis>access output</emphasis>, ie, what the strem will be output to. You can choose beetween <emphasis>UDP</emphasis> (network stream) or <emphasis>file</emphasis>.</para>
+
+<para>The Packetizer is the format of the output</para>
+<para>You can also enable or disable audio or video</para>
+
 </sect2>
 
 <sect2><title>CPU tab</title>

@@ -63,7 +63,7 @@ Centrale. Désactive le proxy du CTI, pour y accéder).</p>
 
 <p>Etat de l'électricité au local VideoLAN en ce moment :
 <font color="red" size="+1">
-<? include("/var/www/www.videolan.org/tests/elec.txt"); ?>
+<? include("elec.txt"); ?>
 </font>.</p>
 
 <? h2("Nécessaire"); ?>
@@ -86,8 +86,7 @@ Si tu as une version trop vieille, installe la dernière version de
 directX disponible sur <a href="ftp://ftp/pub/bipbip/logiciels/Win9x-NT-2000/DirectX 8/"> bipbip</a>.</p>
 
 <p>Télécharge <a
-href="http://www.videolan.org/pub/videolan/vlc/0.4.4/win32/vlc-0.4.4-win
-32.exe"> l'installeur Windows</a> et double-clique dessus pour lancer la
+href="http://www.videolan.org/pub/videolan/vlc/0.4.6/win32/vlc-0.4.6-win32.exe"> l'installeur Windows</a> et double-clique dessus pour lancer la
 procédure d'installation.</p>
 
 <p>Pour le lancer, il suffit de double-cliquer sur le cône !</p>
@@ -103,8 +102,7 @@ Windows, comme Windows 2000 ou XP Pro.</p>
 <? h3("sous Mac OS X"); ?>
 
 <p>Télécharge le <a
-href="http://www.videolan.org/pub/videolan/vlc/0.4.4/macosx/vlc-0.4.4.dm
-g">package MAC OS X</a> et double-clique sur l'icone du package pour
+href="http://www.videolan.org/pub/videolan/vlc/0.4.6/macosx/vlc-0.4.6.dmg">package MAC OS X</a> et double-clique sur l'icone du package pour
 lancer la procédure d'installation.</p>
 
 <p>Pour le lancer, il suffit de double-cliquer sur le cône !</p>
@@ -114,7 +112,7 @@ lancer la procédure d'installation.</p>
 <p>Edite en root le fichier <b>/etc/apt/sources.list</b> et rajoute la
 ligne suivante :
 
-<br /><code>deb ftp://ftp.videolan.org/pub/videolan/debian ./</code></p>
+<br /><code>deb ftp://ftp.videolan.org/pub/videolan/debian $(ARCH)/</code></p>
 
 <p>Tape ensuite en root :
 <br /><code>apt-get update<br />
@@ -131,23 +129,10 @@ ta distribution.
 </p>
 
 <p>
-Télécharge le RPM de libdvdcss sur <a
-href="http://www.videolan.org/libdvdcss/download.html">la page de
-téléchargement de libdvdcss</a> et installe-le.
+Télécharge le RPM de libdvdcss, libdvbpsi, vlc, vlc-gnome et vlc-mad sur <a
+href="/vlc/index.html">la page de
+téléchargement du VLC</a> et installe-les.
 </p>
-
-<p>
-Télécharge le RPM de lidvbpsi sur <a
-href="http://www.videolan.org/libdvbpsi/download.html">la page de
-téléchargement de libdvbpsi</a> et installe-le.
-</p>
-
-<p>
-Télécharge les RPM vlc vlc-gnome et vlc-mad sur <a
-href="http://www.videolan.org/vlc/download.html">la page de
-téléchargement du vlc</a> et installe-les.
-</p>
-
 
 <p>Pour le lancer, il suffit de taper <b>vlc</b>.</p>
 
@@ -155,8 +140,7 @@ téléchargement du vlc</a> et installe-les.
 
 <p>
 Réfère-toi au <a
-href="http://www.videolan.org/doc/videolan-quickstart/videolan-quickstar
-t.html">VideoLAN Quickstart</a>, section 2.1, paragraphe "Unix or
+href="/doc/videolan-quickstart/videolan-quickstart.html">VideoLAN Quickstart</a>, section 2.1, paragraphe "Unix or
 Linux".
 </p>
 
@@ -166,17 +150,17 @@ Linux".
 
 <p>Une fois que le vlc est lançé...</p>
 
-<p><img style="align:center" src="vlc-windows.jpg" alt="vlc Windows"/></p>
+<p><img style="align:center" src="/images/vlc-windows.jpg" alt="vlc Windows"/></p>
 
 <p>Cliquer sur l'icône Net et remplir la boîte de dialogue comme
 ci-dessous :</p>
 
-<p><img style="align:center" src="vlc-net.jpg" alt="Boîte de dialogue
+<p><img style="align:center" src="/images/vlc-net.jpg" alt="Boîte de dialogue
 Net" /></p>
 
 <p>Cliquer sur "OK". Une nouvelle section de l'interface apparaît :</p>
 
-<p><img style="align:center" src="vlc-channel.jpg" alt="vlc" /></p>
+<p><img style="align:center" src="/images/vlc-channel.jpg" alt="vlc" /></p>
 
 <p>Sélectionne un numéro de chaîne et clique sur "Go!".</p>
 
@@ -220,7 +204,7 @@ cette chaîne... Essaye d'autres chaînes !</li>
 
 <li><p>Vas dans le menu "View" puis "Messages..." :</p>
 
-<p><img style="align:center" src="messages.jpg" alt="Messages du
+<p><img style="align:center" src="/images/messages.jpg" alt="Messages du
 vlc" /></p>
 
 <p>Regarde alors les messages d'erreur indiqués en rouge. Ici, il y a
@@ -243,8 +227,7 @@ paragraphe suivant...</p></li>
 compilé le support du Multicast dans ton noyau. Cette option se trouve
 dans le menu "Networking Options" et s'appelle "IP: multicasting".
 Pour plus d'informations sur la compilation d'un noyau, lis la <a
-href="http://www.via.ecp.fr/formations/2001-02/linux2/noyau.html">format
-ion Linux n°2</a>.</p></li>
+href="http://www.via.ecp.fr/~alexis/formation-linux/l2-9.html">Formation Linux</a>.</p></li>
 
 </ul>
 </p>
@@ -257,6 +240,6 @@ le système d'exploitation que tu utilises et ta version de DirectX si tu
 es sous Windows.</p>
 
 <p> Un channel <code>#videolan</code> est disponible sur le serveur IRC
-<code>irc.2-h.org</code>.</p>
+<code>irc.freenode.net</code>.</p>
 
 <? require("footer.php3"); ?>

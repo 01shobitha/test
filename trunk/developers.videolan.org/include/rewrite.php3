@@ -35,8 +35,7 @@
 include( "$path/include/menu.inc" );
 ?>
 </td>
-<td height=50 class=background
-align=center><h1>developers.videolan.org</h1></td></tr>
+<td height=50 class=background><h1>developers.videolan.org</h1></td></tr>
 <tr>
 <td valign=top>
 

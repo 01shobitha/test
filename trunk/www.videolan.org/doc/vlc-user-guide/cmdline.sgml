@@ -55,7 +55,7 @@ example your broadcast address. If the stream is being broadcasted
 </para>
 
 <para>
-To receive a http stream, start vlc with vlc your_url :
+To receive a http stream (VOD), start vlc with vlc your_url :
 </para>
 
 <screen><prompt>%</prompt><userinput>vlc http://your.url.to/your_file.mpg</userinput></screen>
@@ -94,7 +94,10 @@ allows you to add a demux module.</para>
 
 <sect1><title>Stream Output</title>
 
-<para>Ca a l'air compliqué :)</para>
+<para>Stream output is a new feature of the VideoLAN Client, which allow
+you to stream stream <emphasis>from</emphasis> a VLC. You will this way
+be able to save the Video that you are watching to a file, or to stream
+it to a network.</para>
 
 </sect1>
 

@@ -171,7 +171,7 @@ of the MPEG norm. PS stands for Program Stream, it is usually used for
 files, whereas TS stands for Transport Stream, which is rather used for
 network streams. AVI means output to an AVI file or stream</para>
 
-<para>You will also select the <emphasis>access output</emphasis>, ie, what the strem will be output to. You can choose beetween <emphasis>UDP</emphasis> (network stream) or <emphasis>file</emphasis>.</para>
+<para>You may also select the <emphasis>access output</emphasis>, ie, what the strem will be output to. You can choose beetween <emphasis>UDP</emphasis> (network stream) or <emphasis>file</emphasis>.</para>
 
 <para>The Packetizer is the format of the output</para>
 <para>You can also enable or disable audio or video</para>

@@ -92,7 +92,7 @@
 
 <tr>
 
-<td class="type">DVD</td>
+<td class="type">DVD [1]</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -721,7 +721,7 @@
 
 <tr>
 
-<td class="type">DVD Menus</td>
+<td class="type">DVD Menus [2]</td>
 <td class="partial">CVS only</td>
 <td class="partial">CVS only</td>
 <td class="partial">CVS only</td>
@@ -754,12 +754,12 @@
 
 <tr>
 
-<td class="type">CPU acceleration [1]</td>
+<td class="type">CPU acceleration [3]</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
-<td class="yes">Yes [2]</td>
+<td class="yes">Yes [4]</td>
 
 </tr>
 
@@ -781,10 +781,14 @@
 </table>
 
 <p>
-[1]: supported CPU extensions are MMX, MMX EXT, SSE and 3D Now! on x86
+[1] DVD decryption is done through the libdvdcss library.
+<br />
+[2] DVD navigation is done through the libdvdplay library.
+<br />
+[3] supported CPU extensions are MMX, MMXEXT, SSE and 3D Now! on x86
 processors, and AltiVec on G4 processors.
 <br />
-[2]: the OpenBSD 2.9 default assembler does not support MMX.
+[4] the OpenBSD 2.9 default assembler does not support MMX.
 </p>
 
 <? require("footer.php3"); ?>

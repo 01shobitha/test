@@ -2,6 +2,14 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+|23 July 2004| Release: miniSAPserver 0.2.4| This release fixes a 
+major problem with miniSAPserver where it was always announcing mp3
+streams instead of mpeg-ts (vls produced) streams. It also fixes the
+playlistgroup parameter to be compliant with the SDP standard now.
+The new style of this parameter will be supported in the next 
+version of VLC. We strongly advise all users of miniSAPserver to 
+upgrade to this new version.
+
 |21 May 2004| Release: VLC 0.7.2| This new release of VLC media
 player features improved interfaces with support for embedded
 video outputs, new formats support (H261, CMML, H264, Theora

@@ -12,7 +12,7 @@
     chdir ($dir);
     $page = $_GET['page'];
     if (preg_match("/[^a-zA-Z0-9\.\-]/", $page))
-      $page = '403'
+      $page = '403';
   }
   else
     $page = '403';

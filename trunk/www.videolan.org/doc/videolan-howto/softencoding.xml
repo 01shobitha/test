@@ -1,13 +1,13 @@
 <chapter id="softencoding"><title id="tsoftencoding">Stream from an
-acquisition card</title>
+acquisition card or a webcam</title>
 
 <note><para>This is possible under Linux only.</para></note>
 
 <sect1><title>Install the Video for Linux drivers</title>
 
-<para>If you want to stream from an acquisition card, a
-video4linux driver must be available for it. You can find more
-information about video4linux and supported devices <ulink
+<para>If you want to stream from an acquisition card or a webcam,
+a video4linux driver must be available for it. You can find
+more information about video4linux and supported devices <ulink
 url="http://www.exploits.org/v4l">here</ulink>.</para>
 
 <para>Compile the right module for your device, and insert it into
@@ -37,7 +37,7 @@ and you must specify <command>--enable-v4l</command> to
 <itemizedlist>
 
 <listitem><para><filename>/dev/video</filename> is the device
-corresponding to your acquisition card,</para></listitem>
+corresponding to your acquisition card or your webcam,</para></listitem>
 
 <listitem><para><emphasis>norm=secam</emphasis> is the
 norm of the video (can also be <emphasis>pal</emphasis> or

@@ -32,10 +32,6 @@ RewriteRule ^vlc/windows.html$ /vlc/features.html [R=permanent,L]
 RewriteRule ^vls/sat/index.html$ /streaming/index.html [R=permanent,L]
 RewriteRule ^vls/download.html$ /streaming/download.html [R=permanent,L]
 RewriteRule ^vls/doc.html$ /streaming/index.html [R=permanent,L]
-RewriteRule ^libdvdcss/download.html$ /vlc/download-unix.html [R=permanent,L]
-RewriteRule ^libdvdcss/(.*)$ /vlc/index.html [R=permanent,L]
-RewriteRule ^libdvbpsi/download.html$ /vlc/download-unix.html [R=permanent,L]
-RewriteRule ^libdvbpsi/(.*)$ /vlc/index.html [R=permanent,L]
 RewriteRule ^vlms/(.*)$ /streaming/index.html [R=permanent,L]
 RewriteRule ^network/(.*)$ /streaming/index.html [R=permanent,L]
 
@@ -54,6 +50,10 @@ Redirect permanent /vls/changelog.html http://developers.videolan.org/vls/Change
 Redirect permanent /cvs.html http://developers.videolan.org/cvs.html
 Redirect permanent /vlc/developers.html http://developers.videolan.org/vlc/devel_doc.html
 Redirect permanent /vls/developers.html http://developers.videolan.org/vls/devel_doc.html
+Redirect permanent /libdvdcss/download.html http://developers.videolan.org/pub/videolan/libdvdcss/
+Redirect permanent /libdvdcss/index.html http://developers.videolan.org/libdvdcss/index.html
+Redirect permanent /libdvbpsi/download.html http://developers.videolan.org/pub/videolan/libdvbpsi/
+Redirect permanent /libdvbpsi/index.html http://developers.videolan.org/libdvbpsi/index.html
 
 #
 # MIME Types

@@ -22,13 +22,13 @@ of the new COW video on demand service, the VideoLAN project team
 members were informed of a possible violation of VLC media
 player's license. The VideoLAN project, which owns copyrights to VLC,
 distributes VLC as free software exclusively under the terms of the
-GNU General Public License (GPL).
+GNU General Public License (GNU GPL).
 </p>
 
 <p>
 The Microsoft installer (MSI) file which can be downloaded off the
 <a href="http://www.cinemaonweb.com/ww1/index.php?ab=cow-sw">http://www.cinemaonweb.com/ww1/index.php?ab=cow-sw</a> web page appears
-to contain several binary VLC and Xvid files covered by the GPL. The
+to contain several binary VLC and Xvid files covered by the GNU GPL. The
 End-User License Agreement (EULA) which the user accepts when installing
 states that:
 </p>
@@ -44,7 +44,7 @@ adhere to all of the terms and conditions of this Agreement. [...] »
 <p>
 The VideoLAN project is a strong supporter of open source and free
 software. It is our belief that the licensing terms above are
-incompatible with several provisions of the GPL. If that is the case, we
+incompatible with several provisions of the GNU GPL. If that is the case, we
 are afraid COW might be infringing our protected intellectual property
 and denying our users' rights. 
 </p>
@@ -56,7 +56,7 @@ rights and our users' rights are not denied.
 
 <p>
 Xvid.org has been notified of a possible violation of their own Xvid
-software's GPL license.
+software's GNU GPL license.
 </p>
 
 

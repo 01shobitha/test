@@ -2,6 +2,10 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+|19 January 2005| The VideoLAN project investigates possible
+violation of their intellectual property| See the press release <a
+href="http://www.videolan.org/pr2005-1.html">here</a>.
+
 |12 December 2004| New: VLC Play HOWTO| VLC's documentation
 rewrite is nearing completion. We are proud to bring you the <a
 href="http://www.videolan.org/doc/">VLC Play HOWTO</a>, a complete guide

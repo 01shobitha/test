@@ -58,12 +58,12 @@ function starthtml($title) { ?>
 
 <table cellspacing="3" cellpadding="0">
 <tr>
-    <td style="background-color: <?echo($color_home);?>; width: 17%; height:45; vertical-align: middle;" align="center"><a href="/">Home</a></td>
-    <td style="background-color: <?echo($color_vlc);?>; width: 16%; vertical-align: middle;" align="center"><a href="/vlc/">VLC media player</a></td>
-    <td style="background-color: <?echo($color_streaming);?>; width: 17%; vertical-align: middle;" align="center"><a href="/streaming/">Streaming</a></td>
-    <td style="background-color: <?echo($color_doc);?>; width: 17%; vertical-align: middle;" align="center"><a href="/doc/">Documentation</a></td>
-    <td style="background-color: <?echo($color_support);?>; width: 16%; vertical-align: middle;" align="center"><a href="/support/">Support</a></td>
-    <td style="background-color: #afa; width: 17%; vertical-align: middle;" align="center"><a href="http://developers.videolan.org/">Developers</a></td>
+    <td style="background-color: <?echo($color_home);?>; width: 17%; height:150; vertical-align: middle;" align="center"><a href="/">Home</a></td>
+    <td style="background-color: <?echo($color_vlc);?>; width: 16%; height:150;vertical-align: middle;" align="center"><a href="/vlc/">VLC media player</a></td>
+    <td style="background-color: <?echo($color_streaming);?>; width: 17%; height:150; vertical-align: middle;" align="center"><a href="/streaming/">Streaming</a></td>
+    <td style="background-color: <?echo($color_doc);?>; width: 17%; height:150; vertical-align: middle;" align="center"><a href="/doc/">Documentation</a></td>
+    <td style="background-color: <?echo($color_support);?>; width: 16%; height:150; vertical-align: middle;" align="center"><a href="/support/">Support</a></td>
+    <td style="background-color: #afa; width: 17%; height:150; vertical-align: middle;" align="center"><a href="http://developers.videolan.org/">Developers</a></td>
 </tr>
 <tr>
 

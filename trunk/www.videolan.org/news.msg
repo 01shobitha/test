@@ -4,6 +4,12 @@
 # Et pour les nouvelles importantes, c'est pas un | , c'est un §
 #
 
+|17 Feb 2003| Release: vlc 0.5.1 | This is a bug-fix
+release of VLC with a few new features : see the <a
+href="http://developers.videolan.org/vlc/NEWS">list of changes between
+0.5.0 and 0.5.1</a> and go to the <a href="/vlc/">VLC section</a> of the
+website to download the binaires for your OS or the sources.
+
 |3 Feb 2003| Release: vlc 0.5.0 | This is a major release
 of VLC with a a lot of great new features : see the <a
 href="http://developers.videolan.org/vlc/NEWS">list of changes between

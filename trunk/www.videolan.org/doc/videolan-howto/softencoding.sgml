@@ -41,7 +41,7 @@ corresponding to your acquisition card,</para>
 also be <emphasis>pal</emphasis> or <emphasis>ntsc</emphasis>),</para>
 
 <listitem><para><emphasis>frequency=8692</emphasis> is the frequency of the
-channel,</para>
+channel in Mhz, multiplied by 16,</para>
 
 <listitem><para><emphasis>size=640x480</emphasis> is
 the size of the video you want (you can also put the
@@ -51,7 +51,7 @@ standard size like <emphasis>subqcif</emphasis> (128x96),
 (352x288) or <emphasis>vga</emphasis> (640x480)),</para>
 
 <listitem><para><emphasis>channel=0</emphasis> is the number of the
-channel,</para>
+channel (usually 0 is for tuner and 1 for composite),</para>
 
 <listitem><para><emphasis>adev=/dev/dsp</emphasis> is the audio device,</para>
 

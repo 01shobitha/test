@@ -1,0 +1,58 @@
+<?
+   $title = "VideoLAN Server - download";
+   $lang = "en";
+   $date = "9 October 2001";
+   require("header.php3");
+?>
+
+<? function pkgitem($version,$name) { ?><li><a href="/pub/videolan/vls/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
+
+<h1>Download vls for Linux</h1>
+
+
+
+<h2>Tarballs</h2>
+
+<p> Latest vls tarballs (0.4.0): </p>
+
+<ul>
+  <?
+     pkgitem("0.4.0","vls-0.4.0.tar.gz");
+     pkgitem("0.4.0","vls-0.4.0.tar.bz2");
+  ?>
+  <li><a href="/pub/videolan/vls/0.4.0/"><i>browse the list</i></a></li>
+</ul>
+
+<h2>Debian GNU/Linux</h2>
+
+<p> Latest Debian x86 packages (0.3.3): </p>
+
+<ul>
+  <?
+     pkgitem("0.3.3/deb","vls_0.3.3-1_i386.deb");
+     pkgitem("0.3.3/deb","vls-dvd_0.3.3-1_i386.deb");
+     pkgitem("0.3.3/deb","vls-dvb_0.3.3-1_i386.deb");
+  ?>
+  <li><a href="/pub/videolan/vls/0.3.3/deb/"><i>browse the list</i></a></li>
+</ul>
+
+<h2>RPMs</h2>
+
+<p> Latest rpm x86 packages (0.3.3): </p>
+
+<ul>
+  <?
+     pkgitem("0.3.3/rpm","vls-0.3.3-1.src.rpm");
+     pkgitem("0.3.3/rpm","vls-0.3.3-1.i586.rpm");
+     pkgitem("0.3.3/rpm","vls-dvd-0.3.3-1.i586.rpm");
+     pkgitem("0.3.3/rpm","vls-dvb-0.3.3-1.i586.rpm");
+  ?>
+  <li><a href="/pub/videolan/vls/0.3.3/rpm/"><i>browse the list</i></a></li>
+</ul>
+
+<h2>Older versions</h2>
+
+<p>Older versions can be found by <a
+href="http://www.videolan.org/pub/vls/">browsing</a> our FTP site.</p>
+
+<? require("footer.php3"); ?>

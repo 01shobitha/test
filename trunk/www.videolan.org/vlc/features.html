@@ -175,8 +175,8 @@
 
 <tr>
 
-<td class="type">MPEG encoding card [5]</td>
-<td class="no">No</td>
+<td class="type">MPEG encoding card <sup>[5]</sup></td>
+<td class="no">Direct Show</td>
 <td class="no">No</td>
 <td class="yes">Yes</td>
 <td class="no">No</td>
@@ -188,7 +188,7 @@
 <tr>
 
 <td class="type">Video acquisition</td>
-<td class="partial">Direct Show (CVS Only)</td>
+<td class="partial">Direct Show</td>
 <td class="no">No</td>
 <td class="yes">V4L</td>
 <td class="no">No</td>
@@ -291,7 +291,25 @@
 <td class="yes">Yes</td>
 </tr>
 <tr>
-<td class="type">Raw ac3/a52</td>
+<td class="type">Raw ac3/a52 audio</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+</tr>
+<tr>
+<td class="type">Raw DTS audio</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+</tr>
+<tr>
+<td class="type">FLAC audio</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -365,16 +383,6 @@
 
 <tr>
 <td class="type">Cinepak</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-</tr>
-
-<tr>
-<td class="type">Tarkin</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -1301,11 +1309,11 @@ processors, and AltiVec on G4 processors.
 <br />
 [4] the OpenBSD 2.9 default assembler does not support MMX.
 <br />
-[5] VLC supports two kinds of MPEG-2 encoding cards: Hauppauge WinTV-PVR-250/350
+[5] VLC for linux supports two kinds of MPEG-2 encoding cards: Hauppauge WinTV-PVR-250/350
 and Visiontech Kfir.
 <br />
 [6] VLC on linux has good (S)VCD support via libcdio on Linux. On other platforms
 it differs per SVCD wether they will work.
 </p>
 
-<? footer('$Id: features.html,v 1.89 2003/12/09 15:22:30 hartman Exp $'); ?>
+<? footer('$Id: features.html,v 1.90 2003/12/16 19:20:15 gbazin Exp $'); ?>

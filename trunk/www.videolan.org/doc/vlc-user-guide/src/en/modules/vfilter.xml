@@ -186,6 +186,7 @@ Y coordinate of the logo, You can move the logo by left-clicking on it.
 <para><emphasis>--logo-transparency  &lt;integer&gt; </emphasis>:
 Transparency of the logo (255-0). You can change it by middle-clicking and moving mouse left or right.
 </para>
+</listitem>
 </itemizedlist>
 </sect2>
 

@@ -101,15 +101,16 @@ mt2, psm). MOD files are audio files used on AMIGA computers.
 <listitem>
 <para><emphasis>--mod-surround-level &lt;integer&gt;</emphasis> : Surround delay (0-1000 ms defaults to 5, usually 5-40ms).</para>
 </listitem>
-
+</itemizedlist>
 </sect2>
+
 <sect2><title>nsv</title>
 &enabled;
 <para>
 This module allows you to read NSV (Nullsoft Streaming Video) streams.
 Most NSV streams use the VP6 codec which is currently unsupported by VLC (VLC only supports VP1 and VP3 for the moment).
 </para>
-</sect>
+</sect2>
 
 <sect2><title>ps,ts</title>
 &always;

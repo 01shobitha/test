@@ -1,8 +1,88 @@
 <chapter id="lvlc"><title id="tvlc">The VideoLAN Client</title>
 
-<simplesect><title>Installing the VideoLAN Client</title>
+<sect1>
+ <title>Installing the VideoLAN Client</title>
+  &install-vlc;
+</sect1>
 
-&install-vlc;
-</simplesect>
-<simplesect><title>Running the VideoLAN Client</title></simplesect>
+<sect1>
+ <title>Running the VideoLAN Client</title>
+ <sect2><title></title>
+  <para>
+If you are under Windows, a vlc icon has been created in the start menu. To start the VLC, simply double-click on it.
+  </para>
+  <para>If you have Debian GNU/Linux and you have used the deb package, a shortcut has also been created
+  </para>
+  <para>FIXME: Sous Mandrake et RedHAT</para>
+  <para>FIXME: Sous OS X</para>
+  <para>
+The Graphical Interface of the VideoLAN Client is simple to use.</para>
+ </sect2>
+ <sect2><title>Read a File</title>
 
+  <para>To read a MPEG stream stored on a file, click on the "File" Button, and select the location of your stream. You can download a sample stream at the address: <ulink url=" ftp://ftp.videolan.org/pub/videolan/streams/presentation/presentation_short.vob" > ftp://ftp.videolan.org/pub/videolan/streams/presentation/presentation_short.vob </ulink></para>
+</sect2>
+<sect2><title>Read a DVD</title>
+
+<para>To read a  DVD or a VCD,  click on the "Disc" Icon.  Choose VCD or
+DVD and provide the path to your drive. Under Windows, it will look like
+D:\ whereas  under Linux,  it could  be /dev/dvd.</para>
+
+<para>Please note,  that if
+you  are  running Linux,  you  must  have  write  access to  the  device
+corresponding to your DVD drive. For that,  you should be in the disk or
+cdrom group (look at the permissions in /dev). As root, do :</para>
+
+<screen>
+<prompt>#</prompt><userinput> adduser my_login disk_or_cdrom</userinput>
+</screen>
+
+<para>Don't forget to restart your session then</para>
+
+<para>If  you  are  running  Windows  NT/2000 or  XP,  you  must  have
+administrator rights (i.e. log in as administrator or as a user with
+administrator rights).</para>
+
+
+</sect2>
+
+ <sect2><title>Use the command-line</title>
+  <para>
+If you don't use the graphical interface, you can use the command-line to read streams with the VideoLAN Client
+  </para>
+
+  <para>Type this at the prompt</para>
+  <screen><prompt>%</prompt><userinput> vlc name_of_your_file</userinput></screen>
+
+  <para>or, for a DVD:</para>
+  <screen> <prompt>%</prompt><userinput> vlc dvd:path_to_dvd</userinput></screen>
+  <para>with path_to_dvd like D:\ for Windows, or /dev/dvd for Linux</para>
+  <para>To get a list of the availables options, you can use</para>
+  <screen> <prompt>%</prompt><userinput> vlc --help</userinput></screen>
+  <para>You can also use the command-line to start the graphical interface, by simply typing:</para>
+  <screen><prompt>%</prompt><userinput> vlc</userinput></screen>
+ </sect2>
+ <sect2><title>Troubleshooting</title>
+
+<para>If VLC doesn't work for you:</para>
+<itemizedlist>
+<listitem><para>First, try to launch it in verbose mode</para>
+
+<screen>
+<prompt>%</prompt><userinput> vlc -vvv</userinput></screen>
+
+<para>and try to understand the error message</para>
+</listitem>
+
+<listitem><para>Then, read the <ulink url="http://www.videolan.org/doc/vlc-howto/">VideoLAN Client HOWTO</ulink> and vlc FAQ (also available in the sources, file "FAQ")
+</para>
+
+</listitem>
+
+<listitem><para>If you can't find out the problem, explain your problem in English in the mailing-list vlc@videolan.org with the output of vlc -vvv.</para>
+</listitem>
+
+
+  </itemizedlist>
+ </sect2>
+</sect1>

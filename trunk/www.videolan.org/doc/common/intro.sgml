@@ -6,9 +6,9 @@
 
 VideoLAN is a complete software solution for video streaming, developed
 by students at the <ulink url="http://www.ecp.fr">Ecole Centrale
-Paris</ulink> and dévelopers from all over the world, under the <ulink
+Paris</ulink> and developers from all over the world, under the <ulink
 url="http://www.gnu.org/copyleft/gpl.html">General Public License
-(GPL)</ulink>. It has been designed for streaming MPEG 1 and MPEG 2 videos on
+(GPL)</ulink>. It has been designed for streaming of MPEG 1 and MPEG 2 videos on
 local area networks (LAN), but it can be extended to metropolitan or
 wide area networks (MAN, WAN), thanks to the multicast technology.
 
@@ -19,7 +19,7 @@ wide area networks (MAN, WAN), thanks to the multicast technology.
 The VideoLAN solution includes a server, which can stream video from
 various sources (file, DVD, satellite and MPEG 2 encoder), a client, which can
 receive, decode and display MPEG 1 and MPEG 2 streams and, if necessary,
-a channel server which tells automatically to the client the parameters
+a channel server which automatically tells to the client the parameters
 needed to receive the stream.
 
 </para>
@@ -57,15 +57,16 @@ There are three main documents :
 
 <listitem><para>the <ulink
 url="http://www.videolan.org/doc/videolan-quickstart/">VideoLAN
-Quickstart</ulink>,</para>
+Quickstart</ulink>. This document will give you a quick overview of the VideoLAN solution. It will learn you basic use of the client, the server, the channel server, and the Video On Demand system.</para>
 
 <listitem><para>the <ulink
 url="http://www.videolan.org/doc/videolan-howto/"> VideoLAN
-HOWTO</ulink>,</para>
+HOWTO</ulink>. This document is the complete guide of the VideoLAN Solution. It will give you the complete documentation for the VideoLAN Server, the VideoLAN Channel Server, and the different tools.</para>
 
 <listitem><para>the <ulink
 url="http://www.videolan.org/doc/vlc-user-guide/">VLC user
-guide</ulink>.</para>
+guide</ulink>. This document only focuses  on the VideoLAN Client. It is
+the complete documentation of this software.</para>
 
 </itemizedlist>
 
@@ -86,7 +87,7 @@ The VideoLAN Client (vlc) works on many platforms : Linux, Windows, Mac
 OS X, BeOS, *BSD, Solaris, iPaq, QNX. It can read MPEG 1, MPEG 2 and
 MPEG 4 / DivX files from a hard disk or a CD-ROM drive, read DVDs and
 VCDs and read from a satellite card. But the most important function
-is that it can read MPEG 1, MPEG 2 and DVDs streamed on a network. Vlc
+is that it can read MPEG 1, MPEG 2 and DVDs streamed over a network. Vlc
 requires at least a Pentium 400Mhz with 32MB of RAM.
 
 </para>
@@ -108,12 +109,15 @@ drive,</para>
 <listitem><para>an MPEG encoding card ;</para>
 </itemizedlist>
 
-<para>and stream it on a network to :</para>
+<para>and stream it over a network to :</para>
 
 <itemizedlist> 
 
 <listitem><para>one machine (i.e. to one IP address) : this is called
 <emphasis>unicast</emphasis> ;</para>
+
+<listitem><para>every   machines   on   a   subnet:   this   is   called
+<emphasis>broadcast</emphasis> ; </para>
 
 <listitem><para>a dynamic group of machines that the clients can join or leave
 (i.e. to a multicast IP address) : this is called
@@ -133,15 +137,7 @@ drive and the network connection.
 <para>
 
 Vls works under Linux, Solaris and Windows. Currently, the Windows
-vls version of is only able to stream a video from a file.
-
-</para>
-
-<para>
-
-The VideoLAN mini-Server (vlms) is only capable of streaming an MPEG
-file. Vlms works on Linux only. It is easier to install and configure
-than vls and should be used mainly for testing purposes.
+vls version of is only able to stream a video from a file. (not from a DVD)
 
 </para>
 
@@ -152,7 +148,7 @@ than vls and should be used mainly for testing purposes.
 Mini VideoLAN Channel Server (mini-vlcs) works on Linux only. It
 is designed to give to vlc the informations needed to join channels.
 Mini-vlcs is a very small program that can run on a very modest machine.
-It can run on the same machine as vls or vlms.
+It can run on the same machine as the VideoLAN Server.
 
 </para>
 

@@ -1,11 +1,97 @@
 <chapter id="lvls"><title id="tvls">The VideoLAN Server</title>
 
 
-<simplesect><title>Installing the VideoLAN server</title>
+<sect1><title>Installing the VideoLAN server</title>
 
 &install-vls;
-</simplesect>
-<simplesect><title>Running the VideoLAN Server</title>
+</sect1>
+<sect1><title>Running the VideoLAN Server</title>
 
-Extremely Easy...
-</simplesect>
+<sect2><title>Unicast to a VLC</title>
+
+<sect3><title></title>
+
+<para>You are going to send the stream to a client with vlc installed. In this example, you will unicast from vls (IP address 10.0.0.1) to vlc (IP address 10.0.0.2).</para>
+
+<para>There are two ways to have a VideoLAN Server working: you can use its configuration file <filename>vls.cfg</filename>, and manage it through an administration interface (Telnet or Web, for example), or you can use command line arguments</para>
+
+<para>In this QuickStart, we will only talk about controlling the VideoLAN Server through its command line. For more informations, please read the VideoLAN HOWTO</para>
+
+<para>If you want  to read a DVD,  First, make sure that  you have write
+access to  the device  corresponding to  your DVD  drive. </para>
+
+<para>For that,  under Linux you  should be in  the disk or  cdrom group
+(look at the permissions in /dev).</para>
+
+<para>As root, do :</para>
+
+<screen><prompt>#</prompt><userinput> adduser my_login disk_or_cdrom</userinput></screen>
+
+<para>and then close your user session and open it again.</para>
+
+<para>If you  are under  Windows 2000 or  XP, you need  to need  to have
+administrator rights on the system.</para>
+  </sect3>
+  <sect3>
+   <title>Start the VideoLAN Server</title>
+   <para>The syntax you have to use is</para>
+   <screen><prompt>%</prompt><userinput>vls [options] target</userinput></screen>
+   <para>Target is the place where the stream you want to see is stored</para>
+   <para>It looks like: <filename>file:path_to_your_file</filename> or <filename>dvd:path_to_your_drive</filename></para>
+   <para>You will have to use the <filename> -d</filename> (destination) option. In our example, it would be <filename>udp:10.0.0.2</filename></para>
+   <para>Your command line could be this under Windows</para>
+   <screen><prompt>%</prompt><userinput>vls -d udp:10.0.0.2 file:C:\movies\my_movie.mpg</userinput></screen>
+   <para>or this under Linux</para>
+   <screen><prompt>%</prompt><userinput>vls -d udp:10.0.0.2 file:/mnt/films/my_movie.mpg</userinput></screen>
+  </sect3>
+  <sect3><title>Open the stream with the VideoLAN Client</title>
+   <para>On the client, run the VLC.</para>
+   <para>If you use the command line interface, type</para>
+   <screen><prompt>%</prompt><userinput>vlc udp:</userinput></screen>
+   <para>Or, in the graphical interface, click on Net and select UDP</para>
+  </sect3>
+ </sect2>
+ <sect2>
+  <title>Broadcast to several VLC's</title>
+<para>Broadcasting means  sending the stream  to all the  computers that
+are on you subnet. Please note that every computers will get the stream,
+even if you aren't using VideoLAN on them.</para>
+  <para>To  broadcast with  the  VideoLAN Server,  simply  replace the  IP
+address  (for example  10.0.0.2) on  the command  line by  the broadcast
+address of your subnet (for example, 10.255.255.255).</para>
+ </sect2>
+ <sect2><title>Multicast to several VLC's</title>
+
+<sect3><title>What is multicast ?</title>
+
+<para>Multicasting is a more complex way to send streams to several VLC's.  Please note that your network hardware must support Multicast forwarding in order to use these functions</para>
+
+<para>With  this  technology,  the  VideoLAN Server  streams  to  an  IP
+address, which is  the address of the "Multicast group".  When you start
+the VideoLAN  Client, it  requests its subscription  to this  group, and
+then begins to receive the stream. When the VLC quits, he sends a "Leave
+Group" request.  By using this, only  the computers that really  need it
+get the streaming, but the VideoLAN Server only sends it once</para>
+
+</sect3>
+
+<sect3><title>Set up the VideoLAN Server</title>
+<para>To use multicasting, simply replace the IP address by a valid multicast IP address (they start with 238.X.X.X or 239.X.X.X). The VideoLAN Server will automatically detect that you want to multicast.</para>
+
+</sect3>
+
+<sect3><title>Set up the VideoLAN Client</title>
+
+<para>On the VLC, you must choose, in the Net dialog, the UDP Multicast option and enter the address of the multicast group.</para>
+
+<para>If you use the command line, enter:</para>
+
+<screen><prompt>%</prompt><userinput>vlc udp:IP_Address</userinput></screen>
+
+<para>If you want to avoid to type the IP Address, you must use the VideoLAN Channel Server. Please see the next chapter</para>
+
+</sect3>
+
+</sect2>
+
+</sect1>

@@ -579,10 +579,50 @@ country, please consult your lawyer.
 
 </para>
 
+<note><para>
+Beware: VLC media player binaries are distributed with the libdvdcss library included.
+</para></note>
+
 </answer></qandaentry>
 
 </qandadiv>
 
+
+<qandaentry><question><para>
+What about personal/commercial usage?
+</para></question>
+
+<answer>
+
+<para>
+
+Some of the codecs distributed with VLC are patented and require you 
+to pay royalties to their licensors. These are mostly the MPEG style codecs.
+
+</para>
+
+<para>
+
+With many products the producer pays the license body (in this case <a 
+href="http://www.mpegla.com">MPEG LA</a>) so the user (commercial or personal)
+does not have to take care of this. VLC (and ffmpeg and libmpeg2 which it uses
+in most of these cases) cannot do this because they are Free and Open Source
+implementations of these codecs. The software is not sold and therefore the
+end-user becomes responsible for complying to the licensing and royalty
+requirements. You will need to contact the licensor on how to comply to these
+licenses.
+
+</para>
+
+<para>
+
+This goes for playing a DVD with VLC for your personal joy ($2.50 one time payment to MPEG LA) as wel as for using VLC for streaming a live event in MPEG-4 over the Internet.
+
+</para>
+
+</answer></qandaentry>
+
+</qandadiv>
 
 
 <qandadiv><title>

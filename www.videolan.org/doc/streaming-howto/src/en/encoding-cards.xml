@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="iso8859-1"?>
 <chapter id="hardencoding"><title id="thardencoding">
-Stream from encoding cards
+Stream from encoding cards and other capture peripherals
 </title>
 
-<!-- TODO: Add DirectShow,
-	   How to do it with GUI
-	   Update -->
+<!-- TODO: Complete DirectShow -->
 
 <sect1><title>Hardware encoding cards</title>
 
@@ -49,7 +47,7 @@ If you use a 2.6 kernel, you only need to build I2C support and the BT848 Video 
 
 <para>
 Once your kernel is ready, install the CK version (currently in development) of the Linux drivers for the Hauppauge WinTV-PVR-250/350. They are hosted on
-<ulink url="http://67.18.1.101/~ckennedy/ivtv">ivtv ck</ulink>. You will need to patch your kernel to use it with a 2.4. You can also use the CVS version available here : <ulink url="http://ivtv.sourceforge.net/">ivtv.sourceforge.net</ulink>(this version is not developped anymore).
+<ulink url="http://67.18.1.101/~ckennedy/ivtv">ivtv ck</ulink>. You will need to patch your kernel to use it with a 2.4. You can also use the CVS version available here: <ulink url="http://ivtv.sourceforge.net/">ivtv.sourceforge.net</ulink> (this version is not developped anymore).
 Then, you will have to create the device and load the modules; for this,
 please refer to the documentation shipped with the drivers.
 </para>
@@ -241,8 +239,11 @@ find more information about video4linux and supported devices <ulink url="http:/
 
 <para>
 Compile the right module for your device, and insert
-it into your kernel (Some video4linux modules are shipped with the 2.4.x
-Linux kernels). You can test your device by using any of the listed
+it into your kernel. Some video4linux modules are shipped with the 2.4.x 
+and 2.6.x Linux kernels, the patch is available on the 
+<ulink url="http://bytesex.org/v4l">Video4Linux HQ</ulink>.</para> 
+
+<para>You can test your device by using any of the listed
 programs in the <emphasis>Video: TV and PVR/DVR</emphasis> section of
 <ulink url="http://www.exploits.org/v4l/">this page</ulink>.
 </para>
@@ -385,5 +386,51 @@ able to cross 11 routers).</para></listitem>
 
 </sect2>
 </sect1>
-</chapter>
 
+<sect1><title>Stream with DirectShow</title>
+<note><para>This is only possible under Windows</para></note>
+<sect2><title>Install your peripheral drivers</title>
+<para>You need to install your peripherals under Windows with the appropriate drivers. Nothing else is necessary.</para>
+</sect2>
+<sect2><title>Stream with VLC in command line</title>
+<para><screen><prompt>% </prompt><userinput>C:\Program Files\VideoLAN\VLC\vlc.exe -vvv -I rc --loop --ttl 12 dshow:/vdev="webcam":adev="sound":size="640x480" --sout=#std{mux=ts,access=udp,url=239.255.42.12}</userinput></screen>
+<itemizedlist>
+<note>
+<para>You need to precise the complete path to find vlc program or to launch the command from the correct directory.</para>
+</note>
+<listitem><para><emphasis>vvv</emphasis> is to activate the verbose mode</listitem>
+<listitem><para><emphasis>rc</emphasis> is to activate the remote control interface (MS/DOS console)</listitem>
+<listitem><para><emphasis>loop</emphasis> is to stream continuously</listitem>
+<listitem><para><emphasis>12</emphasis> is the value of the TTL (Time To Live) of your IP packets (which means that the stream will be able to cross 11 routers),
+</para></listitem>
+<listitem><para><emphasis>vdev="webcam"</emphasis> is the name of the video peripheral that DirectShow will use,
+</para></listitem>
+<listitem><para><emphasis>adev="sound"</emphasis> is the name of the audio peripheral,
+</para></listitem>
+<listitem><para><emphasis>size="640x480"</emphasis> is the resolution (you can also put the standard size like <emphasis>subqcif</emphasis> (128x96),
+<emphasis>qsif</emphasis> (160x120), <emphasis>qcif</emphasis>
+(176x144), <emphasis>sif</emphasis> (320x240), <emphasis>cif</emphasis>
+(352x288) or <emphasis>vga</emphasis> (640x480)).
+</para></listitem>
+
+<listitem><para><emphasis>239.255.42.12</emphasis>
+ is either:
+</para>
+<itemizedlist>
+<listitem><para>
+the IP address of the machine you want to unicast
+to
+</para></listitem>
+<listitem><para>
+or the DNS name the machine you want to unicast
+to
+</para></listitem>
+<listitem><para>
+or a multicast IP address.</para></listitem>
+</itemizedlist>
+</listitem>
+
+</itemizedlist>
+</sect2>
+</sect1>
+</chapter>

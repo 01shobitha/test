@@ -27,7 +27,7 @@ DVB drivers:
 <listitem><para>
 
 if you use a Linux 2.6.x kernel, you just need to
-compile the right modules;
+compile the right modules.
 
 </para></listitem>
 
@@ -116,12 +116,12 @@ Stream with VLC
 </title>
 
 <note><para>
-For this, you must use the SVN version of VLC and compile
+For this, you can use the SVN version of VLC and compile
 it with <command>./configure --enable-dvb</command> This feature should
-still be considered as experimental.</para></note>
+still be considered as experimental. You can find it in the official release since the version 0.7.2.</para></note>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv --program 8211 dvb:12597000:0:3:27500000 --sout udp:192.168.0.12 --ttl 12</userinput>
+<prompt>% </prompt><userinput>vlc -vvv --color --ttl 12  --ts-es-id-pid --programs 8508,8505 dvb: --dvb-adapter=0 --dvb-frequency=11739000 --dvb-srate=27500000 --dvb-voltage=13 --dvb-fec=3 --dvb-budget-mode --sout '#duplicate{dst=std{access=udp,mux=ts,url=adress:3001},select="program=8508",dst=std{access=udp,mux=ts,url=adress:3002},select="program=8505"}'</userinput>
 </screen>
 
 <para>
@@ -131,37 +131,41 @@ where:
 <itemizedlist>
 
 <listitem><para>
-<filename>8211</filename> is the PID of the DVB
-channel you would like to stream, expressed as a decimal number;
+<filename>ts-es-id-pid</filename> is necessary to duplicate</para></listitem>
+
+<listitem><para>
+<filename>28006</filename> is the PID of the DVB
+channel you would like to stream, expressed as a decimal number
 </para></listitem>
 
 <listitem><para>
-<filename>12597000</filename> is the frequency of the
-transponder you want to stream from in Hz;</para></listitem>
+<filename>0</filename> is the id of the dvb card (0 for dvb0)</para></listitem>
 
 <listitem><para>
-<filename>0</filename> is the polarization (0 for
-vertical, 1 for horizontal);</para></listitem>
-
-<listitem><para>
-<filename>3</filename> is the FEC (3 for 3/4, 9 for
-auto);</para></listitem>
+<filename>11739000</filename> is the frequency of the
+transponder you want to stream from in Hz</para></listitem>
 
 <listitem><para>
 <filename>27500000</filename> is the transponder
-symbolrate in Hz;</para></listitem>
+symbolrate in Hz</para></listitem>
 
-<listitem><para><emphasis>192.168.0.12</emphasis>
+<listitem><para>
+<filename>13</filename> is the polarization (13 for vertical and 18 for horizontal)</para></listitem>
+
+<listitem><para>
+<filename>3</filename> is the FEC (3 for 3/4), if you don't put the option it will auto-detect the value</para></listitem>
+
+<listitem><para><emphasis>adress</emphasis>
  is either:</para>
 
 <itemizedlist>
 
 <listitem><para>
-the IP address of the machine you want to unicast to;
+the IP address of the machine you want to unicast to
 </para></listitem>
 
 <listitem><para>
-or the DNS name the machine you want to unicast to;
+or the DNS name the machine you want to unicast to
 </para></listitem>
 
 <listitem><para>
@@ -173,8 +177,7 @@ or the multicast IP address.</para></listitem>
 
 <listitem><para>
 <emphasis>12</emphasis> is the value of the TTL (Time
-To Live) of your IP packets (which means that the stream will be able to cross 11
-routers).</para></listitem>
+To Live) of your IP packets (which means that the stream will be able to cross 11 routers).</para></listitem>
 
 </itemizedlist>
 

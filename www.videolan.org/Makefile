@@ -11,8 +11,8 @@ else
   NEXTROOT := ../$(ROOT)
 endif
 
-PHPCGI := $(ROOT)php-cgi.sh
-STRIP_HEADERS := $(ROOT)strip-headers.sh
+PHPCGI := $(ROOT)bin/php-cgi.sh
+STRIP_HEADERS := $(ROOT)bin/strip-headers.sh
 
 all: real-all
 

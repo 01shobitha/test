@@ -1,11 +1,5 @@
 <chapter id="gui"><title id="tgui">The Graphical User Interface</title>
 
-<sect1><title>Introduction</title>
-<para> The Graphical User Interface is the easiest way to use your
-VideoLAN client. The look and feel may depend of which interface you are
-using, but the functions are the same.</para>
-</sect1>
-
 <sect1><title>Opening a stream</title>
 <para>
 To open a stream using the graphical interface, click on either:
@@ -127,6 +121,9 @@ zoom.</para>
 <para>By using the <command>adjust</command> video filter module, you
 will be able to modify the Brightness, Contrast, Saturation and Hue of
 the video output.</para>
+<para>There are also specific modules as wall which cut the output in
+many windows to make a video wall, transform module to rotate the image
+or invert module to invert the colors (who says it's useless?)</para>
 </sect2>
 
 <sect2><title>Input tab</title>

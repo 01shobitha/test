@@ -422,6 +422,15 @@ format.</para>
 
 <para>These modules allow you to choose the interface you want to use.</para>
 
+<sect2><title>wxwindows</title>
+
+<para><emphasis>default: enabled</emphasis></para>
+
+<para>The wxWindows interface is a portable interface that is currently
+working under Linux and Windows. It is now the best graphical interface
+available under both Windows and Linux.</para>
+</sect2>
+
 <sect2><title>gtk</title>
 
 <para><emphasis>default: enabled</emphasis></para>
@@ -481,7 +490,8 @@ compile it.</para>
 
 <para>This is the Remote Control interface module. It allows you
 to control VLC via commands, such as <emphasis>play</emphasis>,
-<emphasis>stop</emphasis>, etc... or via a script.</para>
+<emphasis>stop</emphasis>, etc... or via a script. This interface is
+text-based, so you should use it when you are in console mode.</para>
 </sect2>
 
 <sect2><title>ncurses</title>
@@ -500,15 +510,6 @@ You will need ncurses headers if you want to compile it
 <para>This interface module allows you to control VLC through a remote.
 A lircrc example is provided to help you configure it to your remote
 (see <filename>doc/lirc/example.lircrc</filename>).</para>
-</sect2>
-
-<sect2><title>wxwindows</title>
-
-<para><emphasis>default: enabled</emphasis></para>
-
-<para>The wxWindows interface is a portable interface meant to
-replace win32, gnome and Gtk interface, but it is not completely
-finished.</para>
 </sect2>
 
 <sect2><title>opie</title>

@@ -708,7 +708,7 @@ url="http://www.videolan.org/streaming/features.html">streaming
 features</ulink>.</span>
 
 <span xml:lang="fr">Oui, ces deux programmes peuvent être
-utilisés pour diffuser des vidéos, comme expliqué dans le <ulink
+utilisés pour diffuser de la vidéo, comme expliqué dans le <ulink
 url="http://www.videolan.org/doc/">VideoLAN
 HOWTO</ulink>. Les fonctionnalités streaming de
 chaque programme sont décrites sur la page des <ulink
@@ -727,9 +727,9 @@ Englisch.)</span>
 
 <para>
 
-<span xml:lang="en">Basically, for the moment:</span>
+<span xml:lang="en">Technically, there is an important difference:</span>
 <span xml:lang="es">Básicamente, por el momento :</span>
-<span xml:lang="fr">En résumé, pour le moment :</span>
+<span xml:lang="fr">Techniquement, il y a une différence importante:</span>
 <span xml:lang="de">Grundlegendes für den Moment:</span>
 
 </para>
@@ -738,20 +738,29 @@ Englisch.)</span>
 
 <listitem><para>
 
-<span xml:lang="en">VLC is good at streaming various MPEG files in
-various encapsulation formats (mpg, vob, mp3, avi, mov, ogg, mp4...)
-with a nice graphical interface and is starting to do some transcoding.
-</span>
+<span xml:lang="en">VLC opens all the system layers of the input
+stream, regenerate them all and then stream the result
+on the network or write it to a file. So VLC is good at streaming
+untrusted video and/or audio sources, like the video files found on the
+Internet and/or produced by non-professionnal software. VLC implements many
+muxers/demuxers (ps, ts, avi, ogg, mp4, ...) and many codecs, which
+allows to convert encapsulation formats and/or transcode an input stream
+on-the-fly ! VLC also has nice graphical interfaces.</span>
 
 <span xml:lang="es">VLC es bueno volcando (streaming) de varios archivos
 MPEG en varios formatos de encapsulación (mpg, vob, mp3, avi, mov, ogg,
 mp4...) con una bonita interfaz gráfica y está empezando a hacer algo de
 traspaso de codes (transcoding) ;</span>
 
-<span xml:lang="fr">VLC est bon pour le streaming des fichiers MPEG
-encapsulés dans différents formats (mpg, vob, mp3, avi, mov, ogg, mp4,
-...) avec une belle interface graphique, et commence à savoir faire du
-transcoding ;</span>
+<span xml:lang="fr">VLC ouvre toutes les couches système du flux
+d'entrée, les regénère toutes puis diffuse le résultat sur le réseau ou
+l'écrit dans un fichier. Donc VLC est bon pour la diffusion depuis des
+sources video et/ou audio non fiables, comme les fichiers vidéo trouvés
+sur Internet et/ou produits par des logiciels non professionnels. VLC
+implémente de nombreux muxers/demuxers (ps, ts, avi, ogg, mp4, ...)
+et de nombreux codecs, ce qui lui permet de faire de la conversion de
+format et/ou de transcoder à la volée le flux d'entrée ! VLC est également
+dotés de jolies interfaces graphiques.</span>
 
 <span xml:lang="de">VLC ist gut darin, diverse MPEG-Dateien in
 unterschiedlichen Verkapslungsmethoden (mpg, vob, mp3, avi, mov, ogg,
@@ -762,15 +771,26 @@ einfache Umkodierungsmöglichkeiten.</span>
 
 <listitem><para>
 
-<span xml:lang="en">VLS is good at streaming DVDs, satellite channels
-and digital terrestial TV channels, but cannot do transcoding.</span>
+<span xml:lang="en">VLS only opens the highest system layers of the
+input stream and only has PS and TS demxuers. So VLS is good at
+streaming from trusted video and/or audio sources in PS or TS format
+produced by professional software or hardware like DVDs and DVB channels
+(satellite or digital terrestial TV) because it only regenerate the
+system layers that need to be regenerated, and no more. VLS only
+has a TS muxer, doesn't do transcoding and doesn't have graphical
+interfaces.</span>
 
 <span xml:lang="es">VLS es bueno volcando (streaming) DVDs, canales
 satélite y terrestres digitales de TV, pero no hace transcoding.</span>
 
-<span xml:lang="fr">VLS est bon pour le streaming de DVD, de chaînes
-satellites et de chaînes de la télévision numérique terrestre, mais ne
-fait pas de transcoding.</span>
+<span xml:lang="fr">VLS ouvre seulement les couches systèmes les plus
+élevées du flux d'entrée and n'a que des démuxers PS et TS. Donc VLS es
+bon pour diffuser depuis des sources video et/ou audio fiables au format
+PS ou TS produites par du matériel ou des logiciels professionnels
+comme les DVDs ou les chaînes DVB (chaînes satellites ou chaînes de la
+télévision numérique terrestre) car il ne regénère que les couches
+systèmes qui doivent être regénérées, sans plus. VLC n'a qu'un muxer TS,
+ne fait pas de transcoding et n'a pas d'interface graphique.</span>
 
 <span xml:lang="de">VLS ist gut darin DVDs, Satelliten-Kanäle und
 digitale, terrestische TV-Kanäle zu streamen, unterstützt jedoch keine
@@ -779,22 +799,6 @@ Umkodierungen.</span>
 </para></listitem>
 
 </itemizedlist>
-
-<para>
-
-<span xml:lang="en">In general, VLC has more features, but VLS is more
-reliable.</span>
-
-<span xml:lang="es">En general, VLC tiene más características, pero VLS
-es más estable.</span>
-
-<span xml:lang="fr">D'une manière générale, VLC a plus de possibilités,
-alors que VLS est plus fiable.</span>
-
-<span xml:lang="de">Generell hat VLC mehr Features, während VLS
-zuverlässiger ist.</span>
-
-</para>
 
 <para>
 
@@ -865,7 +869,7 @@ unterstützte, hatten wir zwei sehr unterschiedliche Programme:</span>
 
 <span xml:lang="en">VLS, a program written in C++ running under Linux
 and Windows only, that is basically a MPEG Transport Stream engine, with
-a very basic telnet interface;</span>
+a very basic telnet interface, which was used as a server;</span>
 
 <span xml:lang="es">VLS, un programa escrito en C++ para Linux y Windows
 solo, básicamente una máquina de Volcado de Transporte de MPEG (MPEG
@@ -885,7 +889,7 @@ einer einfachen Telnet-Oberfläche ist.</span>
 
 <span xml:lang="en">VLC, a multi-plateform program written in C, that
 implements demuxers, codecs, video and audio outputs and graphical
-interfaces.</span>
+interfaces, which was used as a client only.</span>
 
 <span xml:lang="es">VLC, un programa multi-plataforma escrito en C,
 que implementa demuxers, códecs, salidas de vídeo y audio (outputs) e

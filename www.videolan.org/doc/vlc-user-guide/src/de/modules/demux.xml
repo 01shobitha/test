@@ -123,7 +123,7 @@ Surround-Niveau (0-100, standardmäßig 0).</para>
 <para><emphasis>--mod-surround-level &lt;integer&gt;</emphasis>:
 Surround-Verzögerung (0-1000 ms, standardmäßig 5, üblicherweise 5-40ms).</para>
 </listitem>
-
+</itemizedlist>
 </sect2>
 
 
@@ -134,7 +134,7 @@ Dieses Modul erlaubt Ihnen NSV (Nullsoft Streaming Video) - Streams zu lesen.
 Die meisten NSV-Streams benutzen den VP6-Codec, der derzeit von VLC nicht unterstützt
 wird. VLC unterstützt im Moment nur VP1 und VP3.
 </para>
-</sect>
+</sect2>
 
 <sect2><title>ps,ts</title>
 &always;

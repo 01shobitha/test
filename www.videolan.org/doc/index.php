@@ -56,6 +56,67 @@
 
 <tr>
 
+<td class="category"><b>VLC Play-Howto</b></td>
+<td>complete user guide for the client aspects of VLC</td>
+<td class="yes">Up-to-date</td>
+<td class="yes">
+<a href="/doc/play-howto/en/play-howto-en.html">EN</a>
+</td>
+<td class="yes">
+<a href="/doc/play-howto/en/play-howto-en.html.zip">EN</a>
+</td>
+<td class="yes">
+<!-- <a href="/doc/play-howto/en/play-howto-en.pdf">EN</a> -->
+</td>
+<td class="yes">
+<a href="/doc/play-howto/en/play-howto-en-rtf.zip">EN</a>
+</td>
+<td class="yes">
+<a href="/doc/play-howto/en/play-howto-en.txt">EN</a>
+</td>
+
+</tr>
+
+<tr>
+
+<td class="category"><b>VLS user guide</b></td>
+<td>Complete guide of VLS</td>
+<td class="yes">Up-to-date</td>
+<td class="yes">
+<a href="/doc/vls-user-guide/en/vls-user-guide-en.html">EN</a>
+<a href="/doc/vls-user-guide/es/vls-user-guide-es.html">ES</a>
+<a href="/doc/vls-user-guide/fr/vls-user-guide-fr.html">FR</a>
+<a href="/doc/vls-user-guide/de/vls-user-guide-de.html">DE</a>
+</td>
+<td class="yes">
+<a href="/doc/vls-user-guide/en/vls-user-guide-en-html.zip">EN</a>
+<a href="/doc/vls-user-guide/es/vls-user-guide-es-html.zip">ES</a>
+<a href="/doc/vls-user-guide/fr/vls-user-guide-fr-html.zip">FR</a>
+<a href="/doc/vls-user-guide/de/vls-user-guide-de-html.zip">DE</a>
+</td>
+<td class="yes">
+<a href="/doc/vls-user-guide/en/vls-user-guide-en.pdf">EN</a>
+<a href="/doc/vls-user-guide/es/vls-user-guide-es.pdf">ES</a>
+<a href="/doc/vls-user-guide/fr/vls-user-guide-fr.pdf">FR</a>
+<a href="/doc/vls-user-guide/de/vls-user-guide-de.pdf">DE</a>
+</td>
+<td class="yes">
+<a href="/doc/vls-user-guide/en/vls-user-guide-en-rtf.zip">EN</a>
+<a href="/doc/vls-user-guide/es/vls-user-guide-es-rtf.zip">ES</a>
+<a href="/doc/vls-user-guide/fr/vls-user-guide-fr-rtf.zip">FR</a>
+<a href="/doc/vls-user-guide/de/vls-user-guide-de-rtf.zip">DE</a>
+</td>
+<td class="yes">
+<a href="/doc/vls-user-guide/en/vls-user-guide-en.txt">EN</a>
+<a href="/doc/vls-user-guide/es/vls-user-guide-es.txt">ES</a>
+<a href="/doc/vls-user-guide/fr/vls-user-guide-fr.txt">FR</a>
+<a href="/doc/vls-user-guide/de/vls-user-guide-de.txt">DE</a>
+</td>
+
+</tr>
+
+<tr>
+
 <td class="category"><b>VideoLAN FAQ</b></td>
 <td>Frequently Asked Questions about VideoLAN</td>
 <td class="yes">Up-to-date</td>
@@ -155,32 +216,32 @@
 <tr>
 <td class="category"><b>VideoLAN HOWTO</b></td>
 <td>Complete guide of the VideoLAN streaming solution</td>
-<td class="yes">Up-to-date</td>
-<td class="yes">
+<td class="no">Out-of-date</td>
+<td class="no">
 <a href="/doc/videolan-howto/en/videolan-howto-en.html">EN</a>
 <a href="/doc/videolan-howto/es/videolan-howto-es.html">ES</a>
 <a href="/doc/videolan-howto/fr/videolan-howto-fr.html">FR</a>
 <a href="/doc/videolan-howto/de/videolan-howto-de.html">DE</a>
 </td>
-<td class="yes">
+<td class="no">
 <a href="/doc/videolan-howto/en/videolan-howto-en-html.zip">EN</a>
 <a href="/doc/videolan-howto/es/videolan-howto-es-html.zip">ES</a>
 <a href="/doc/videolan-howto/fr/videolan-howto-fr-html.zip">FR</a>
 <a href="/doc/videolan-howto/de/videolan-howto-de-html.zip">DE</a>
 </td>
-<td class="yes">
+<td class="no">
 <a href="/doc/videolan-howto/en/videolan-howto-en.pdf">EN</a>
 <a href="/doc/videolan-howto/es/videolan-howto-es.pdf">ES</a>
 <a href="/doc/videolan-howto/fr/videolan-howto-fr.pdf">FR</a>
 <a href="/doc/videolan-howto/de/videolan-howto-de.pdf">DE</a>
 </td>
-<td class="yes">
+<td class="no">
 <a href="/doc/videolan-howto/en/videolan-howto-en-rtf.zip">EN</a>
 <a href="/doc/videolan-howto/es/videolan-howto-es-rtf.zip">ES</a>
 <a href="/doc/videolan-howto/fr/videolan-howto-fr-rtf.zip">FR</a>
 <a href="/doc/videolan-howto/de/videolan-howto-de-rtf.zip">DE</a>
 </td>
-<td class="yes">
+<td class="no">
 <a href="/doc/videolan-howto/en/videolan-howto-en.txt">EN</a>
 <a href="/doc/videolan-howto/es/videolan-howto-es.txt">ES</a>
 <a href="/doc/videolan-howto/fr/videolan-howto-fr.txt">FR</a>
@@ -190,43 +251,6 @@
 
 </tr>
 
-<tr>
-
-<td class="category"><b>VLS user guide</b></td>
-<td>Complete guide of VLS</td>
-<td class="yes">Up-to-date</td>
-<td class="yes">
-<a href="/doc/vls-user-guide/en/vls-user-guide-en.html">EN</a>
-<a href="/doc/vls-user-guide/es/vls-user-guide-es.html">ES</a>
-<a href="/doc/vls-user-guide/fr/vls-user-guide-fr.html">FR</a>
-<a href="/doc/vls-user-guide/de/vls-user-guide-de.html">DE</a>
-</td>
-<td class="yes">
-<a href="/doc/vls-user-guide/en/vls-user-guide-en-html.zip">EN</a>
-<a href="/doc/vls-user-guide/es/vls-user-guide-es-html.zip">ES</a>
-<a href="/doc/vls-user-guide/fr/vls-user-guide-fr-html.zip">FR</a>
-<a href="/doc/vls-user-guide/de/vls-user-guide-de-html.zip">DE</a>
-</td>
-<td class="yes">
-<a href="/doc/vls-user-guide/en/vls-user-guide-en.pdf">EN</a>
-<a href="/doc/vls-user-guide/es/vls-user-guide-es.pdf">ES</a>
-<a href="/doc/vls-user-guide/fr/vls-user-guide-fr.pdf">FR</a>
-<a href="/doc/vls-user-guide/de/vls-user-guide-de.pdf">DE</a>
-</td>
-<td class="yes">
-<a href="/doc/vls-user-guide/en/vls-user-guide-en-rtf.zip">EN</a>
-<a href="/doc/vls-user-guide/es/vls-user-guide-es-rtf.zip">ES</a>
-<a href="/doc/vls-user-guide/fr/vls-user-guide-fr-rtf.zip">FR</a>
-<a href="/doc/vls-user-guide/de/vls-user-guide-de-rtf.zip">DE</a>
-</td>
-<td class="yes">
-<a href="/doc/vls-user-guide/en/vls-user-guide-en.txt">EN</a>
-<a href="/doc/vls-user-guide/es/vls-user-guide-es.txt">ES</a>
-<a href="/doc/vls-user-guide/fr/vls-user-guide-fr.txt">FR</a>
-<a href="/doc/vls-user-guide/de/vls-user-guide-de.txt">DE</a>
-</td>
-
-</tr>
 
 </table>
 

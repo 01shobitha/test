@@ -134,20 +134,24 @@ ms&gt;</emphasis> to drop packets that arrive too late at this stage of
 the chain, <emphasis>raw</emphasis> if you don't want to wait until the
 MTU is filled before sending the packet.</para> </listitem>
 
-<listitem><para>http: streams over HTTP.</para>
-<para>Item options are: <emphasis>user=&lt;user name&gt;</emphasis>
+<listitem><para>http: streams over HTTP.</para> <para>Item
+options are: <emphasis>user=&lt;user name&gt;</emphasis>
 to enable HTTP basic authentification and set the user,
 <emphasis>pwd=&lt;password&gt;</emphasis> to set the basic
-authentification password, <emphasis>cert=&lt;path to
-certificate&gt;</emphasis> to enable SSL encryption of the http
-connection, and set the certificate to use, <emphasis>key=&lt;path
-to key&gt;</emphasis> to set the private key file the server
-should use for the SSL connection, <emphasis>ca=&lt;path to
-certificate&gt;</emphasis> to set the path to the root CA certificates
-to use for SSL, <emphasis>crl=&lt;path to certificate&gt;</emphasis>
-to set the revocation certificate to use for the SSL connexion,
-<emphasis>mime=&lt;mime type&gt;</emphasis> to set the mime type
-returned by the server.</para></listitem>
+authentification password, <emphasis>mime=&lt;mime type&gt;</emphasis>
+to set the mime type returned by the server.</para></listitem>
+
+<listitem><para>https: streams over HTTP, using a secured SSL
+connection.</para>
+
+<para>Item options are the same as for http and: <emphasis>cert=&lt;path
+to certificate&gt;</emphasis>to set the certificate to use,
+<emphasis>key=&lt;path to key&gt;</emphasis> to set the private key file
+the server should use for the SSL connection, <emphasis>ca=&lt;path
+to certificate&gt;</emphasis> to set the path to the root
+CA certificates to use for SSL, <emphasis>crl=&lt;path to
+certificate&gt;</emphasis> to set the revocation certificate to use for
+the SSL connexion.</para></listitem>
 
 <listitem><para>mmsh: streams using the Microsoft MMS protocol. This
 protocol is used as transport methof by many Microsoft's softwares.
@@ -240,15 +244,46 @@ is file. Supported codecs are MPEG 1/2/4, H263, H264 and I263 for video,
 MPEG audio and a52 for audio streams.</para>
 <para>There is not item option for this muxer.</para></listitem>
 
-<listitem><para><emphasis>mpjpeg:</emphasis> the multipart jpeg muxer. This encapsulation
-format is mostly used on suveillance video cameras with an integrated
-webserver. Such streams are usually embedded in webpages and seen with
-standard Internet browsers, as they are seen as a succession of jpeg
-images. The only supported output method is HTTP. The only usable codec
-is MJPEG. No sound track can be muxed in such streams.</para>
-<para>No item option is available for this muxer.</para></listitem>
+<listitem><para><emphasis>mpjpeg:</emphasis> the multipart jpeg muxer.
+This encapsulation format is mostly used on suveillance video cameras
+with an integrated webserver. Such streams are usually embedded in
+webpages and seen with standard Internet browsers, as they are seen
+as a succession of jpeg images. The only supported output method is
+HTTP. The only usable codec is MJPEG. No sound track can be muxed
+in such streams.</para> <para>No item option is available for this
+muxer.</para></listitem>
 
 </itemizedlist>
+</sect3>
+
+<sect3><title>url</title>
+
+<para>This option allows to give informations about the location
+where the stream should actually be saved or sent.</para>
+
+<para>Here is the meaning of the <emphasis>url</emphasis> option
+depending on the parameter used for the <emphasis>access</emphasis>
+option.</para>
+
+<itemizedlist>
+<listitem><para>If the <emphasis>file</emphasis> output method is used, url is
+the complete path where the file should be saved.</para></listitem>
+
+<listitem><para>If the <emphasis>udp</emphasis> or <emphasis>rtp</emphasis>
+output method is used, url is the unicast or multicast
+destination address and, optionaly, UDP port, in the form
+<emphasis>address:port</emphasis>.</para></listitem>
+
+<listitem><para>If the <emphasis>http</emphasis>,
+<emphasis>https</emphasis> or <emphasis>mmsh</emphasis> output method is
+chosen, url is the address, port and path of the local network interface
+on which the server should listen for requests. If no address is given,
+VLC will listen on all the network interfaces. These information
+have to be supplied using the <emphasis>address:port/path</emphasis>
+syntax.</para></listitem>
+
+</itemizedlist>
+
 </sect3>
 
 <itemizedlist>

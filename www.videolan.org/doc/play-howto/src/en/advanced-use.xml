@@ -32,7 +32,7 @@ communication between modules. All the multimedia processing is done by
 modules. There are input modules, demultiplexers, decoders, video output
 modules, ...</para>
 
-<para>This chapter will only describe the "general" options, ie the
+<para>This chapter will only describe the "general" options, i.e. the
 core options. Each module adds new options. For example, the HTTP input
 module will add options for caching, proxy, authentication, ...</para>
 
@@ -243,7 +243,7 @@ are not synchronized, use this setting to delay the audio stream)
 </para></listitem>
 <listitem><para><emphasis>--audio-filter &lt;string&gt;</emphasis>
 adds audio filters to the processing chain. Available filters
-are visual (visualizer with spectrum analyser and oscilloscope),
+are visual (visualizer with spectrum analyzer and oscilloscope),
 headphone (virtual headphone spatialization) and normalizer (volume
 normalizer)</para></listitem>
 
@@ -262,7 +262,7 @@ disables video output.
 </para></listitem>
 
 <listitem><para><emphasis>--greyscale</emphasis>
-turns video output into greyscale mode.
+turns video output into grayscale mode.
 </para></listitem>
 
 <listitem><para><emphasis>--fullscreen</emphasis>
@@ -505,8 +505,8 @@ display and thus cannot be streamed.</para>
 <para>Module name : <emphasis>deinterlace</emphasis></para>
 
 <itemizedlist>
-<listitem><para><emphasis>--deintrelace-mode {discard,blend,mean,bob,linear}</emphasis>
-chose a deinterlacing mode.</para></listitem>
+<listitem><para><emphasis>--deinterlace-mode {discard,blend,mean,bob,linear}</emphasis>
+choose a deinterlacing mode.</para></listitem>
 </itemizedlist>
 
 </sect3>
@@ -530,7 +530,7 @@ Image brightness in the 0-2 range.</para></listitem>
 Image hue in the 0-360 range</para></listitem>
 <listitem><para><emphasis>--saturation &lt;float&gt;</emphasis>
 Image saturation in the 0-3 range.</para></listitem>
-<listitem><para><emphasis>--gama &lt;float&gt;</emphasis>
+<listitem><para><emphasis>--gamma &lt;float&gt;</emphasis>
 Image gamma in the 0-10 range.</para></listitem>
 </itemizedlist>
 
@@ -543,7 +543,7 @@ Image gamma in the 0-10 range.</para></listitem>
 <para>This filter splits the output in several windows.</para>
 
 <itemizedlist>
-<listitem><para><emphasis>--wall-cols &lt;interger&gt;</emphasis>
+<listitem><para><emphasis>--wall-cols &lt;integer&gt;</emphasis>
 Number of columns.</para></listitem>
 <listitem><para><emphasis>--wall-rows &lt;integer&gt;</emphasis>
 Number of rows.</para></listitem>
@@ -561,7 +561,7 @@ windows are displayed.</para></listitem>
 
 <itemizedlist>
 <listitem><para><emphasis>--transform-type {90,180,270,hflip,vflip}</emphasis>
-Select rotation angle or symetry.</para></listitem>
+Select rotation angle or symmetry.</para></listitem>
 </itemizedlist>
 
 </sect3>
@@ -581,7 +581,7 @@ Select rotation angle or symetry.</para></listitem>
 <itemizedlist>
 <listitem><para><emphasis>--clone-count &lt;integer&gt;</emphasis>
 Number of clones.</para></listitem>
-<listitem><para><emphasis>--clone-vout-list &lt;sting&gt;</emphasis>
+<listitem><para><emphasis>--clone-vout-list &lt;string&gt;</emphasis>
 Comma separated string of video output modules.</para></listitem>
 </itemizedlist>
 
@@ -653,7 +653,7 @@ Y offset from the top in pixels.</para></listitem>
 <para>Module name : <emphasis>marq</emphasis></para>
 
 <itemizedlist>
-<listitem><para><emphasis>--marq-marquee &lt;strig&gt;</emphasis>
+<listitem><para><emphasis>--marq-marquee &lt;string&gt;</emphasis>
 Marquee text to display.</para></listitem>
 <listitem><para><emphasis>--marq-x &lt;integer&gt;</emphasis>
 X offset from the left in pixels.</para></listitem>
@@ -760,7 +760,7 @@ VLM, please look at the <ulink url="http://www.videolan.org/doc/streaming-howto/
 <para>VLC includes a number of so-called interfaces that are not really
 interfaces, but means of controlling VLC. Nevertheless, they are
 enabled by setting them as interface or extra interface, either in the
-Prererences, in General/Interface, or using -I or --extraintf on the
+Preferences, in General/Interface, or using -I or --extraintf on the
 command line.</para>
 
 
@@ -840,7 +840,7 @@ section).</para>
   <caption><para>The ncurses filebrowser</para></caption>
 </mediaobject>
 
-<para>You can set the filebrowser starting point by lauching vlc with the <emphasis>--browse-dir</emphasis> option:</para>
+<para>You can set the filebrowser starting point by launching vlc with the <emphasis>--browse-dir</emphasis> option:</para>
 
 <screen>
 <prompt>% </prompt><userinput>vlc -I ncurses --browse-dir /filebrowser/starting/point/</userinput>
@@ -941,7 +941,7 @@ video.</para>
 Build HTML pages that use the plugin
 </title>
 
-<para>Additionnaly to viewing video on all pages, you can build
+<para>Additionally to viewing video on all pages, you can build
 custom pages that will use the advanced features of the plugin, using
 Javascript functions to control playback or extract information from the
 plugin.</para>
@@ -963,14 +963,14 @@ plugin.</para>
 <listitem><para><command>get_bool_variable(var_name)</command> : </para></listitem>
 <listitem><para><command>get_str_variable(var_name)</command> : </para></listitem>
 <listitem><para><command>clear_playlist()</command> : Clear the playlist.</para></listitem>
-<listitem><para><command>add_item(mrl>)</command> : Append an item whose location is given by the Media Ressource Locator to the playlist.</para></listitem>
+<listitem><para><command>add_item(mrl>)</command> : Append an item whose location is given by the Media Resource Locator to the playlist.</para></listitem>
 <listitem><para><command>next()</command></para></listitem>
 <listitem><para><command>previous()</command></para></listitem>
 <listitem><para><command>isplaying()</command> : return true if the plugin is playing something.</para></listitem>
 <listitem><para><command>get_length()</command> : Get the media's length in seconds.</para></listitem>
 <listitem><para><command>get_position()</command> : Get the current position in the media in percent.</para></listitem>
-<listitem><para><command>get_time()</command> :Get the current position in the media in seconds. </para></listitem>
-<listitem><para><command>seek(seconds,is_relative)</command> : If is_relative is true, seek relatively to current time, else seek from begining of the stream. Seek time is specified in seconds.</para></listitem>
+<listitem><para><command>get_time()</command> : Get the current position in the media in seconds. </para></listitem>
+<listitem><para><command>seek(seconds,is_relative)</command> : If is_relative is true, seek relatively to current time, else seek from beginning of the stream. Seek time is specified in seconds.</para></listitem>
 </itemizedlist>
 
 <para>

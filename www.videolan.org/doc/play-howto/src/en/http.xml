@@ -8,7 +8,7 @@
 <sect1><title>Introduction</title>
 
 <para>
-This appendix describes the langage used for writing dynamic web pages for the HTTP interface.</para>
+This appendix describes the language used for writing dynamic web pages for the HTTP interface.</para>
 
 <para>Pages must be placed in the share/http folder in either
 VLC's folder (Windows, Mac) or /usr/share/vlc/share/http or
@@ -57,7 +57,7 @@ please be careful.
 VLC macros
 </title>
 <para> Each type a .html/.htm page is requested,
-it is parsed by VLC before being sent. The parser searchs for the VLC
+it is parsed by VLC before being sent. The parser searches for the VLC
 macros, and executes or substitutes them. Moreover, URL arguments
 received by the GET method can be interpreted
 
@@ -78,7 +78,7 @@ may or may not be present and depend on the value of "id".
 <para>
  You should take care that you _have to_ respect
 this syntax, VLC won't like invalid syntax. (It could easily leads to
-crashs).
+crashes).
 </para>
 
 <para>
@@ -203,7 +203,7 @@ predefined:
 
 <para>
 Remark: The stacks, and local variables context is
-resetted before the page is executed.
+reseted before the page is executed.
 </para>
 
 </sect1>
@@ -320,7 +320,7 @@ The <emphasis>control</emphasis> macro
 
 <para>
 When asking for a page, you can pass
-arguments to it through the url. (eg using a &lt;form&gt;). Ex:
+arguments to it through the url. (e.g. using a &lt;form&gt;). Ex:
 http://host:port/page.html?var=value&amp;var2=value2&amp;... The "control" macro
 tells a page to parse these arguments and to execute the ones that are
 allowed. param1 of this macro says which commands are allowed. If empty,

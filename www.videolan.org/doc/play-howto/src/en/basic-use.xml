@@ -3,7 +3,7 @@
 Basic use of VLC
 </title>
 
-<sect1 id="desc"><title id="tdesc">General interface decription</title>
+<sect1 id="desc"><title id="tdesc">General interface description</title>
 
 <para>VLC has several interfaces: a cross-platform interface, for
 Windows and GNU/Linux, called wxWindows, a MacOS X native interface and
@@ -95,7 +95,7 @@ this can be done by selecting the "Use DVD menus" dialog box.
 the appropriate drive letter or device name in the "Device Name" text input. 
 This should be autodetected on MacOS X.</para>
 <para>If you want to start the DVD or VCD playback from a given title and 
-chapter instead of from the begining, you can set it using the <emphasis>Title
+chapter instead of from the beginning, you can set it using the <emphasis>Title
 </emphasis> and <emphasis>Chapter</emphasis> selectors.</para>
 <para>You can start playback by selecting the <emphasis>Ok</emphasis> 
 button.</para> 
@@ -141,7 +141,7 @@ in the corresponding text input. This also the way to open a RTSP stream
 with the MacOS X interface.
 </para></listitem>
 <listitem><para>
-To open a RTSP stream (sent by Darwin Streamming Server, VLC, etc), 
+To open a RTSP stream (sent by Darwin Streaming Server, VLC, etc), 
 in the wxWindows interface, select "RTSP" and give the URL in the text input.
 </para></listitem></itemizedlist>
 
@@ -181,12 +181,12 @@ cards... provided they come with directshow compatible drivers (Almost
 all acquisition cards do). You can choose the device to use for video and 
 audio capture using the "Video device name" and "Audio device name" selectors. 
 If your device doesn't appear in the list, try to select the "Refresh list" 
-button. You can access the settings of your acquisition device by selectig 
+button. You can access the settings of your acquisition device by selecting 
 the <emphasis>configure</emphasis> button. Options here depend on the driver 
 of the device. You can select the "Device Proprieties" box if you want the 
 configuration dialog box of every device to be displayed after having pressed 
-the <emphasis>Ok</emphasis> button. Select the <emphasis>Tuner proprieties</emphasis> box to be prompted for tuner settings (PAL/NTSC standard, frequency...) 
-for TV cards. The <emphasis>Advanced options...</emphasis> button allows to select some further settings usefull in some rare cases, such as the chroma 
+the <emphasis>Ok</emphasis> button. Select the <emphasis>Tuner properties</emphasis> box to be prompted for tuner settings (PAL/NTSC standard, frequency...) 
+for TV cards. The <emphasis>Advanced options...</emphasis> button allows to select some further settings useful in some rare cases, such as the chroma 
 of the input (the way colors are encoded) and the size of the input buffer.
 </para>
 
@@ -205,7 +205,7 @@ url="http://ivtv.sourceforge.net/">IVTV drivers </ulink>.</para>
 <listitem><para>
 For Video4Linux devices, you can set the name of the video and audio 
 devices using the "Video device name" and "Audio device name" text inputs. 
-The "Advanced options..." button allows to select some further settings usefull
+The "Advanced options..." button allows to select some further settings useful
 in some rare cases, such as the chroma of the input (the way colors are
 encoded) and the size of the input buffer.</para></listitem>
 </itemizedlist>
@@ -230,7 +230,7 @@ settings, such as the size of the encoded video (in pixels), its framerate
 (in frame per second), the interval between 2 key frames, etc.</para></listitem>
 </itemizedlist>
 
-<para>After having set all the required parametters, you can start the capture by selecting the "Ok" button.</para>
+<para>After having set all the required parameters, you can start the capture by selecting the "Ok" button.</para>
 
 <mediaobject>
   <imageobject>
@@ -321,7 +321,7 @@ enable playlist and item repeat modes.</para>
 <sect3><title>Search</title>
 
 <para>You also have a search tool. Enter a search string and hit search.
-The next item to match the string will be hilighted. Keep hitting Search
+The next item to match the string will be highlighted. Keep hitting Search
 to cycle between all matching items.</para>
 
 </sect3>
@@ -385,7 +385,7 @@ boxes gives the list of modifiers for the hotkey. To trigger an action using
  a hotkey, you need to press at the same time the keys corresponding to 
 the different selected modifiers as well as the key set in the dropdown.</para>
 
-<para>To change the binding of a hotkey, select or unselect boxes corresponding 
+<para>To change the binding of a hotkey, select or deselect boxes corresponding 
 to the different modifiers, and change the key by using the dropdown. Select 
 the <emphasis>Save</emphasis> button to apply the changes.</para>
 
@@ -427,7 +427,7 @@ subtitles for the following media:</para>
 the <emphasis>Video</emphasis> menu, and to <emphasis>Subtitles
 track</emphasis>. All available subtitles tracks will be listed.
 Select one to get the subtitles. Depending on the media, a description
-(langage, for example) might be available for the track.</para>
+(language, for example) might be available for the track.</para>
 
 <mediaobject>
   <imageobject>
@@ -527,7 +527,7 @@ you to modify the audio and video.</para>
 methods. Deinterlacement can be enabled in the <emphasis>Video</emphasis> menu, 
 <emphasis>Deinterlacement</emphasis> menu item. The <emphasis>Blend</emphasis> 
 methods gives the best results in most cases. The <emphasis>discard</emphasis> 
-method is a less ressource consuming alternative.</para>
+method is a less resource consuming alternative.</para>
 
 <para>On some particular streams (MPEG 4, DIVX, XVID, Sorenson, ...), some 
 additional image filtering can be applied to the video before display, 
@@ -667,10 +667,10 @@ valuable.</para>
 
 </sect2>
 
-<sect2><title>Weird VLC behaviour ("stopped working")</title>
+<sect2><title>Weird VLC behavior ("stopped working")</title>
 
 <para>A very common thing is a bogus preferences file. Don't hesitate to
-delete it if problems appear suddendly. You will find in the FAQ details
+delete it if problems appear suddenly. You will find in the FAQ details
 on <ulink url="http://www.videolan.org/doc/faq/en/index.html#id2470084">how to delete your preferences file</ulink>.</para>
 
 </sect2>

@@ -156,7 +156,7 @@ function menu_videolan() { ?>
 <? }
 
    /*
-    *  startmenu: page header when the menu is displayed
+    *  startmenu: display the menu header
     */
 
 function startmenu($title) {
@@ -172,9 +172,7 @@ function startmenu($title) {
       <table class="fill">
         <tr>
           <td class="center">
-            <!--[<a href="<? echo $page; ?>?menu=no">hide&nbsp;menu</a>]
-            <br />-->
-            <img src="/images/cone.png" width="78" height="100" alt="Logo" />
+            <a href="/"><img src="/images/cone.png" width="78" height="100" alt="Logo" style="border: 0;" /></a>
           </td>
         </tr>
       </table>

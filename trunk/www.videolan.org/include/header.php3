@@ -53,7 +53,7 @@ function starthtml($title) { ?>
     * The main table
     */
 
-?><table border="0" cellspacing="0" cellpadding="0">
+?><table border="0" cellspacing="0" cellpadding="10">
   <tr>
     <td><?
 

@@ -14,27 +14,23 @@
 
 <h2>Install VLC with urpmi</h2>
 
-<p>First, VLC is included in the contrib section of Mandrake cooker. So
-if you are running cooker, just get it from you preferred cooker mirror. </p>
+<p>There are VLC packages for Mandrake 9.1 and cooker.</p>
 
-<p>As it is not possible to update packages in a previous distribution,
-you have to install the RPMs "by hand" if you are running Mandrake 9.1
-instead of cooker. The simplest way is to use <i>urpmi</i>:</p>
-
-<ul>
-
-<li>configure the package sources with <a
+<p>To install them, configure the package sources with <a
 href="http://plf.zarb.org/~nanardon/">Easy urpmi</a> (you need at least
-to add main, contrib and plf sources) ;</li>
+to add main, contrib and plf sources).</p>
 
-<li>get libdvdplay, libdvbpsi, vlc, vlc-plugin-mad, vlc-plugin-a52,
-vlc-plugin-ogg and wxvlc (or gnome-vlc) RPMs from this page and all the
-other packages you want ;</li>
+<p>If you are running cooker, you don't need to configure anything else, as VLC packages are part of the contrib section.</p>
 
-<li>install them with: <code>urpmi libdvdcss2 libdvdplay*rpm *vlc*rpm</code>
-(urpmi will complete all the dependencies).</li>
+<p>If you are running Mandrake 9.1, add the VideoLAN package source:</p>
 
-</ul>
+<pre>
+   urpmi.addmedia vlc http://www.videolan.org/pub/videolan/vlc/0.6.0/rpm/mdk/
+</pre>
+
+<p>Eventually, install the packages with <i>urpmi</i>:</p>
+
+<p><code>urpmi libdvdcss2 libdvdplay0 wxvlc vlc-plugin-a52 vlc-plugin-ogg vlc-plugin-mad</code></p>
 
 <h2>Mandrake packages for i386</h2>
 
@@ -108,4 +104,4 @@ other packages you want ;</li>
 <p> Older versions can be found by <a href="/pub/vlc/">browsing</a> our
 FTP site. </p>
 
-<? footer('$Id: download-mandrake.html,v 1.10 2003/07/01 23:29:32 alexis Exp $'); ?>
+<? footer('$Id: download-mandrake.html,v 1.11 2003/07/02 09:05:04 alexis Exp $'); ?>

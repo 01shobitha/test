@@ -54,35 +54,27 @@ deb-src http://www.videolan.org/pub/videolan/debian sources/
 
 <sect2><title>Under Linux Mandrake</title>
 
-<para>First, VLC is included in the contrib section of Mandrake cooker.
-So if you are running cooker, just get it from you preferred cooker
-mirror.</para>
+<para>>There are VLC packages for Mandrake 9.1 and cooker.</para>
 
-<para>As it is not possible to update packages in a previous distribution,
-you have to install the RPMs "by hand" if you are running Mandrake 9.1
-instead of cooker. The simplest way is to use <command>urpmi</command>:</para>
+<para>To install them, configure the package sources with <ulink
+url="http://plf.zarb.org/~nanardon/">Easy urpmi</ulink> (you need at
+least to add main, contrib and plf sources).</para>
 
-<itemizedlist>
+<para>If you are running cooker, you don't need to configure anything
+else, as VLC packages are part of the contrib section.</para>
 
-<listitem><para>configure the package sources with <ulink
-url="http://plf.zarb.org/~nanardon/">Easy urpmi</ulink> (you need at least
-to add main, contrib and plf sources) ;</para></listitem>
-
-<listitem><para>get libdvdplay, libdvbpsi, vlc, vlc-plugin-mad,
-vlc-plugin-a52, vlc-plugin-ogg and wxvlc (or gnome-vlc) RPMs from the
-<ulink url="http://www.videolan.org/vlc/download-mandrake.html">VLC Mandrake
-download page</ulink> and all the other packages you want
-;</para></listitem>
-
-<listitem><para>install them with:</para>
+<para>If you are running Mandrake 9.1, add the VideoLAN package
+source:</para>
 
 <screen>
-<prompt># </prompt><userinput>urpmi libdvdcss2 libdvdplay*rpm *vlc*rpm</userinput>
+<prompt># </prompt><userinput>urpmi.addmedia vlc http://www.videolan.org/pub/videolan/vlc/0.6.0/rpm/mdk/</userinput>
 </screen>
 
-<para>(urpmi will complete all the dependencies)</para></listitem>
+<para>Eventually, install the packages with <command>urpmi</command>:</para>
 
-</itemizedlist>
+<screen>
+<prompt># </prompt><userinput>urpmi libdvdcss2 libdvdplay0 wxvlc vlc-plugin-a52 vlc-plugin-ogg vlc-plugin-mad</userinput>
+</screen>
 
 </sect2>
 

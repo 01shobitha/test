@@ -8,7 +8,7 @@
 	    echo "<h2 class=\"task\">".$this->description."</h2>\n";
 	    echo "<p><i>Difficulty</i>: ".$this->difficulty;
 	    echo " <i>Urgency</i>: ".$this->urgency;
-	    echo " <i>Platform</i>:" $this->platform;
+	    echo " <i>Platform</i>:".$this->platform;
 	    echo "<br />\n".$this->longdescr;
 	    echo "</p>\n";
             echo "<p style=\"text-align:right;\">".$this->status."</p></div>\n";

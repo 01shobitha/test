@@ -5,9 +5,9 @@
    require("header.php3");
 ?>
 
-<table border="0" cellspacing="0" cellpadding="0">
+<table border="0" cellspacing="0" cellpadding="10">
   <tr>
-    <td>
+    <td style="width: 75%">
 
 <center><img width="300" height="75" alt="VideoLAN" src="images/videolan-new4.png" /></center>
 
@@ -39,31 +39,6 @@
   developers in <code>#videolan</code> on the OpenProjects network
   (<code>irc.openprojects.net</code>). </p>
 
-<!--
-  <table border="0" cellspacing="10">
-    <tr>
-
-      <td>
-        <?startbox("<b>Screenshot</b>: VideoLAN Client","red");?>
-          <a href="vlc/screenshots/20020406-01.png"><img width="280"
-            height="210" src="vlc/screenshots/mi_20020406-01.jpeg"
-            alt="Gnome screenshot" /></a>
-        <?stopbox();?>
-      </td>
-
-
-      <td>
-        <?startbox("<b>Linux Expo 2002</b>: Part of the VideoLAN team","red");?>
-          <a href="events/20020201/equipe2.jpg"><img width="280" height="210"
-            src="images/linuxexpo-petit.jpg"
-            alt="Part of the team at the Linux Expo 2002" /></a>
-        <?stopbox();?>
-      </td>
-
-    </tr>
-  </table>
--->
-
 <h2>Contribute !</h2>
 
 <p>VideoLAN welcomes all contributions to the project ! You can
@@ -91,10 +66,22 @@ page</a> for more information.</p>
 
 </td>
 
-<td style="width: 200;">
+<td style="width: 25%;">
 
-  <?startbox("News headlines","red"); ?>
+  <?startbox("<b>Screenshot</b>: VideoLAN Client","red");?>
+    <a href="vlc/screenshots/20020406-01.png"><img width="280"
+      height="210" src="vlc/screenshots/tn_20020406-01.jpeg"
+      alt="Gnome screenshot" /></a>
+  <?stopbox();?>
+
+  <?startbox("News headlines","green"); ?>
   <? shownews("title",5); ?>
+  <?stopbox();?>
+
+  <?startbox("<b>Linux Expo 2002</b>: Part of the VideoLAN team","red");?>
+    <a href="events/20020201/equipe2.jpg"><img width="280" height="210"
+      src="images/linuxexpo-tiny.jpg"
+      alt="Part of the team at the Linux Expo 2002" /></a>
   <?stopbox();?>
 
 </td>

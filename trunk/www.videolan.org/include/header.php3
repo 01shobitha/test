@@ -97,7 +97,7 @@ function starthtml($title) { ?>
     <? switch($modules[1]) {
       case "vlc": second_bar_vlc($modules[2]); break;
       case "streaming": second_bar_stream($modules[2]); break;
-      case "doc": break;
+      case "doc": ?><td></td><?; break;
       case "support": second_bar_support($modules[2]); break;
       case "home": second_bar_home($modules[2]); break;
     } ?>

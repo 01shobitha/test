@@ -105,8 +105,8 @@ nombres entiers, ce qui permet de l'utiliser sur les PDAs</span>
 Graphics Text or OGT) and subtitles used by Chaoji VCDs (also known as
 CVD).</span></para>
 
-<para>A description of the format for these kinds of subtitles can be
-found in the vlc source
+<para><span xml:lang="en">A description of the format for these kinds
+of subtitles can be found in the vlc source
 in <filename>doc/subtitles/svcd-subtitles.txt</filename> and
 <filename>doc/subtitles/cvd-subtitles.txt</filename>.
 </span></para></sect2>

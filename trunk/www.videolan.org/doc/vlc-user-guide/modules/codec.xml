@@ -101,15 +101,18 @@ nombres entiers, ce qui permet de l'utiliser sur les PDAs</span>
 <sect2><title>ogt</title>
 &enabled;
 <para>
-<span xml:lang="en">ogt handles the VCD subtitles (Philips Overlay
+ogt handles the VCD subtitles (Philips Overlay
 Graphics Text or OGT) and subtitles used by Chaoji VCDs (also known
-as CVD).</span>.
+as CVD).
+</para></sect2>
 
 <sect2><title>spudec</title>
 &enabled;
 <para>
-<span xml:lang="en">spudec handles the DVD subtitles. At present
-full color subtitles and transparency are not handled.</span>.
+spudec handles the DVD subtitles. At present
+full color subtitles and transparency are not handled.
+</para>
+</sect2>
 
 <sect2><title>tarkin</title>
 &disabled;

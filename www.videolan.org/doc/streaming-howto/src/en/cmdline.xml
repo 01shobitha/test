@@ -593,7 +593,7 @@ options, when they share the same setting.</para>
 
 </sect2>
 
-<sect2><title>thanscode</title>
+<sect2><title>transcode</title>
 
 <para>You can use this module to transcode a stream, i.e. to change its
 codecs or the encoding bitrates. Some additional processing can be done
@@ -864,8 +864,9 @@ stream.</para>
 
 <sect3><title>soverlay</title>
 
-<para>This option allow to render subtitles directly on the video, while
-transcoding it.</para>
+<para>This option allow to render subtitles directly on the video,
+while transcoding it. Do not confuse this option with senc/scodec that
+transcode the subtitles and streams them</para>
 
 </sect3>
 

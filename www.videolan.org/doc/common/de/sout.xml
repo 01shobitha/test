@@ -101,6 +101,14 @@ die Syntax, die Sie benutzen müssen:</para>
 </screen>
 
 <para>
+Sie dürfen auch die folgende Syntax benutzen:
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc input_stream --sout-module1-option1=... --sout-module1-option2=... --sout-module2-option1=... --sout-module2-option2=... ...</userinput>
+</screen>
+
+<para>
 Benutzen Sie beispielsweise zum Umkodieren und Senden
 eines Streams:</para>
 
@@ -156,9 +164,12 @@ Uni- oder Multicast-Adresse.
 <listitem><para><emphasis>sap</emphasis>: 
 wenn sie die <emphasis>udp</emphasis> oder
 <emphasis>rtp</emphasis> Ausgänge benutzen, nehmen Sie diese Option
-zum Ankündigen Ihres Streams über SAP/SDP. Diese Option enthält den Namen
-unter dem Sie den Stream ankündigen möchten.
+zum Ankündigen Ihres Streams über SAP/SDP.
 </para></listitem>
+
+<listitem><para><emphasis>name</emphasis>Diese Option enthält den Namen
+unter dem Sie den Stream ankündigen möchten.
+
 
 <listitem><para><emphasis>slp</emphasis>: 
 Dieses Modul ist wie sap, benutzt aber das
@@ -222,6 +233,29 @@ Optionen:
 Eine neue Streamausgabekette von Modulen, wie sie
 bereits vorher beschrieben wurde.
 </para></listitem>
+
+<listitem><para><emphasis>select</emphasis>:
+Diese Option erlaubt Ihnen die Festlegung, welche Programme oder ES
+Sie über die vorherige dst senden möchten, falls der Eingangsstream
+mehrere enthält.
+</para>
+
+<para>
+
+Das Format ist "program=<emphasis>programm_id</emphasis>" oder es="<emphasis>es_id</emphasis>".
+
+Sie können auch Bereiche benutzen, wie "program=<emphasis>start_programm-end_programm</emphasis>". 
+
+Sie können nur ES eines hiermit angegeben Typs auswählen:</para>
+
+<itemizedlist>
+
+<listitem>no-audio, noaudio, audio</listitem>
+<listitem>no-video, novideo, video</listitem>
+<listitem>no-spu,   nospu,   spu</listitem>
+</itemizedlist>
+
+<para>Sie dürfen auch mehrere durch Kommata getrennte Selektoren verwenden.</para></listitem>
 
 </itemizedlist>
 
@@ -345,7 +379,7 @@ Ziel-UDP-Port.
 </para></listitem>
 
 <listitem><para><emphasis>sdp</emphasis>:
-Die Art, wie die Datei per sdp gesendet wird. <emphasis>http://server_ip:server_port/path</emphasis> für HTTP oder <emphasis>rtsp://server_ip:server_port/path</emphasis> für RTSP, wobei <emphasis>server_ip</emphasis> die Adresse eines Serverinterfaces und <emphasis>path</emphasis> der Ort ist, an dem die Datei auf dem Server abgerufen werden kann.
+Die Art, wie die SDP-Datei gesendet wird: <emphasis>http://server_ip:server_port/pfad</emphasis> für http oder <emphasis>rtsp://server_ip:server_port/pfad</emphasis> für rtsp, wobei <emphasis>server_ip</emphasis> die Adresse eines der Interfaces des Servers und <emphasis>pfad</emphasis> der Ort ist, an dem auf die SDP-Datei auf dem Server zugegriffen werden kann.
 </para></listitem>
 
 </itemizedlist>

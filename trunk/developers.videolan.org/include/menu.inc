@@ -26,8 +26,8 @@ href="http://www.videolan.org/cgi-bin/irc/irc.cgi">IRCWeb</a></p>
 <table width="100%" cellspacing=0 cellpadding=0>
 <tr><th class=menu>VLC</th></tr>
 <tr><td class=menu>
-<p class=menu><a class="menu" href="/vlc/devel_doc.html">developer doc</a></p>
 <p class=menu><a class="menu" href="/vlc/ChangeLog.html">ChangeLog</a></p>
+<p class=menu><a class="menu" href="/vlc/devel_doc.html">developer doc</a></p>
 </td></tr>
 </table>
 <br>
@@ -35,8 +35,8 @@ href="http://www.videolan.org/cgi-bin/irc/irc.cgi">IRCWeb</a></p>
 <table width="100%" cellspacing=0 cellpadding=0>
 <tr><th class=menu>VLS</th></tr>
 <tr><td class=menu>
-<p class=menu><a class="menu" href="/vls/devel_doc.html">developer doc</a></p>
 <p class=menu><a class="menu" href="/vls/ChangeLog.html">ChangeLog</a></p>
+<p class=menu><a class="menu" href="/vls/devel_doc.html">developer doc</a></p>
 </td></tr>
 </table>
 <br>

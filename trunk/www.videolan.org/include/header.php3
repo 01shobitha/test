@@ -159,7 +159,7 @@ echo "self: &lt;".$GLOBALS['PHP_SELF'].">&gt;<br>";
 if($mirror)
 {
     /* FIXME : mirror code is broken */
-    header("Location: http://$mirror$GLOBALS['HTTP_SELF']");
+    header("Location: http://$mirror".$GLOBALS['HTTP_SELF']);
     die();
 }
 

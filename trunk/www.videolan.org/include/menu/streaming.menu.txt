@@ -1,2 +1,2 @@
-overview;Overview;/streaming/
+download;Download;/streaming/
 features;Features;/streaming/features.html

@@ -2,6 +2,20 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+|31 July 2003| Release: VLC 0.6.1| This new release of VLC media
+player features: vorbis and mp3 audio support for the transcoding
+module, improved HTTP remote control interface, improved support
+for the Matroska container format, new subtitle module which
+uses freetype2 to render arbitrary fonts in any size, improved
+PS muxer (it can create MPEG-1 files now and produce streams
+with system headers), Windows fixes (DVD support, 5.1 audio for
+sblive/audigy and sound on NT4), improved ALSA support and
+a new GTK2 interface for the "Linux on PDA" distributions! Look <a
+href="http://developers.videolan.org/vlc/NEWS">here</a> for a complete
+list of changes. To download the sources or the binary packages of
+this new version, go to the <a href="http://www.videolan.org/vlc/">VLC
+download page</a> and click on your OS logo!
+
 |29 July 2003| Release: libdvdcss 1.2.8 & libdvbpsi 0.1.3| Libdvdcss
 1.2.8 is a bug-fix release with a fix for encrypted DVDs on Windows
 and a workaround for strange discs that report read errors seemingly

@@ -115,8 +115,9 @@ Nur für GNU/Linux &amp; Unix
 <para>
 Dieser Tonausgang hat aRts (KDEs Tonserver)
 -Unterstützung. Sie müssen den Daemon und dessen Bibliotheken installiert
-haben
-.</para></sect2>
+haben.
+
+</para></sect2>
 
 <sect2><title>waveout</title>
 <para><emphasis>

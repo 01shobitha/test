@@ -7,16 +7,16 @@ Streaming der Daten einer MPEG-Kodierungskarte
 
 
 
-Dies ist nur unter GNU/Linux möglich
-.</para></note>
+Dies ist nur unter GNU/Linux möglich.
+
+</para></note>
 
 
 <para>
 
 
 
-VideoLAn unterstützt zwei Arten von MPEG-2-Kodierungskarten
- :</para>
+VideoLAn unterstützt zwei Arten von MPEG-2-Kodierungskarten:</para>
 
 <itemizedlist>
 
@@ -38,8 +38,9 @@ Hauppauge WinTV-PVR-250 und WinTV-PVR-350,
 
 
 Die Hauppauge WinTV-PVR-250/350 erzielt bessere Ergebnisse
-und is günstiger als die Visiontech Kfir
-.</para>
+und is günstiger als die Visiontech Kfir.
+
+</para>
 
 
 <sect1><title>
@@ -62,8 +63,9 @@ Installation der Treiber
 
 Zuerst müssen Sie Ihren Kernel patchen, sodass er das 
 v4l2 API (Video 4 Linux version 2) unterstützt. Der Patch ist verfügbar bei
-<ulink url="http://bytesex.org/v4l/">Video4Linux HQ</ulink>
-.</para>
+<ulink url="http://bytesex.org/v4l/">Video4Linux HQ</ulink>.
+
+</para>
 
 <para>
 
@@ -73,9 +75,11 @@ Wenn Ihr Kernel fertig ist, installieren Sie die
 CVS-Version der Linux-Treiber für die Hauppauge WinTV-PVR-250/350. Sie sind verfügbar 
 auf <ulink url="http://ivtv.sourceforge.net">ivtv.sourceforge.net</ulink>.  Danach 
 müssen Sie das Device erzeugen und die Module laden. Beachten Sie dafür bitte
-die den Treibern beiliegende Dokumentation
+die den Treibern beiliegende Dokumentation.
 
-.</para>
+
+
+</para>
 
 </sect2>
 
@@ -103,8 +107,7 @@ bitrate=3000000:maxbitrate=4000000 --sout udp:192.168.0.42 --ttl 12 --cr-average
 
 
  
-wobei
-:</para>
+wobei:</para>
 
 <itemizedlist>
 
@@ -155,8 +158,7 @@ ist die maximale Bitrate des Streams
 
 
 
- ist entweder 
-:</para>
+ ist entweder :</para>
 
 <itemizedlist>
 <listitem><para>
@@ -179,8 +181,9 @@ unicast erreichen möchten
 
 
 
-oder eine Multicast-IP-Adresse
-.</para></listitem>
+oder eine Multicast-IP-Adresse.
+
+</para></listitem>
 
 </itemizedlist>
 
@@ -192,15 +195,17 @@ oder eine Multicast-IP-Adresse
 
  ist der Wert der TTK (Time To Live) 
 Ihrer IP-Pakete (was heißt, dass der Stream in der Lage sein wird, 
-11 Router zu überqueren)
-.</para></listitem>
+11 Router zu überqueren).
+
+</para></listitem>
 
 <listitem><para><emphasis>1000</emphasis>
 
 
 
- ist ein geheimer Wert, um einen Fehler der Karte zu umgehen
-.</para></listitem>
+ ist ein geheimer Wert, um einen Fehler der Karte zu umgehen.
+
+</para></listitem>
 
 
 </itemizedlist>
@@ -218,16 +223,18 @@ Streaming mit VLS
 
 
 
-Sie müssen die CVS-Version von VLS benutzen
-.</para>
+Sie müssen die CVS-Version von VLS benutzen.
+
+</para>
 
 <para>
 
 
 
 Es gibt derzeit keine Befehlszeilenoberfläche für diesen
-Input, sodass Sie die Konfigurationsdatei benutzen müssen
-.</para>
+Input, sodass Sie die Konfigurationsdatei benutzen müssen.
+
+</para>
 
 <para>
 
@@ -235,8 +242,7 @@ Input, sodass Sie die Konfigurationsdatei benutzen müssen
 
 Hier ist eine typische Konfigurationsdatei
 <filename>vlc.cfg</filename> zur Benutzung von VLS mit einer Hauppauge 
-WinTV-PVR-250/350-Kodierungskarte
-:</para>
+WinTV-PVR-250/350-Kodierungskarte:</para>
 
 <programlisting>
 # vls.cfg (VLS configuration file)
@@ -328,8 +334,7 @@ end
 
 
 Wenn Sie die obere Konfigurationsdatei adaptiert haben,
-starten Sie VLS
-:</para>
+starten Sie VLS:</para>
 
 <screen>
 <prompt>% </prompt><userinput>vls -vv -f vls.cfg</userinput>
@@ -359,8 +364,9 @@ Installation der Treiber
 Wenn Sie von einer Visiontech Kfir Karte 
 streamen möchten, müssen Sie deren Linux-Treiber installieren.
 Laden Sie die neueste Version der Treiber von der <ulink url="http://www.linuxtv.org/download/mpeg2/"> Treiber-Downloadseite </ulink>
-der <ulink url="http://www.linuxtv.org/">LinuxTV Website </ulink> herunter
-.</para>
+der <ulink url="http://www.linuxtv.org/">LinuxTV Website </ulink> herunter.
+
+</para>
 
 
 <para>
@@ -369,16 +375,18 @@ der <ulink url="http://www.linuxtv.org/">LinuxTV Website </ulink> herunter
 
 Dekomprimieren Sie das Archiv und befolgen Sie die 
 Anweisungen in der Datei <filename>INSTALL</filename> zur Kompilierung 
-und Installation der Treiber
-.</para>
+und Installation der Treiber.
+
+</para>
 
 <note><para>
 
 
 
 Wenn Sie einen VIA Chipsatz haben, müssen Sie USB
-im BIOS deaktivieren
-.</para></note>
+im BIOS deaktivieren.
+
+</para></note>
 
 </sect2>
 
@@ -413,8 +421,7 @@ ist das Device, welches mit der Kfir-Karte korrespondiert
 
 
 
-ist entweder
-:</para>
+ist entweder:</para>
 
 <itemizedlist>
 <listitem><para>
@@ -437,8 +444,9 @@ erreichen möchten
 
 
 
-oder eine Multicast-IP-Adresse
-.</para></listitem>
+oder eine Multicast-IP-Adresse.
+
+</para></listitem>
 
 </itemizedlist>
 
@@ -450,8 +458,9 @@ oder eine Multicast-IP-Adresse
 
  ist der Wert der TTL (Time To Live) 
 Ihrer IP-Pakete (was bedeutet, das der Stream in der Lage sein 
-wird, 11 Router zu überqueren)
-.</para></listitem>
+wird, 11 Router zu überqueren).
+
+</para></listitem>
 
 </itemizedlist>
 
@@ -469,8 +478,9 @@ Streaming mit VLS
 
 
 Es gibt derzeit keine Befehlszeilenoberfläche für diesen
-Input, sodass Sie die Konfigurationsdatei benutzen werden müssen
-.</para>
+Input, sodass Sie die Konfigurationsdatei benutzen werden müssen.
+
+</para>
 
 <para>
 
@@ -478,8 +488,7 @@ Input, sodass Sie die Konfigurationsdatei benutzen werden müssen
 
 Hier ist eine typische Konfigurationsdatei
 <filename>vls.cfg</filename> zur Benutzung von VLS mit einer 
-VisionTech Kfir - Kodierungskarte
-:</para>
+VisionTech Kfir - Kodierungskarte:</para>
 
 
 <programlisting>
@@ -536,8 +545,7 @@ END
 
 
 Wenn Sie die obere Konfigurationsdatei adaptiert haben,
-starten Sie VLS
-:</para>
+starten Sie VLS:</para>
 
 <screen>
 <prompt>% </prompt><userinput>vls -vv -f vls.cfg</userinput>

@@ -18,8 +18,9 @@ Beachten Sie, dass VLS versuchen wird seine Konfigurationsdatei
 (<filename>vls.cfg</filename>) aus dem aktuellen Verzeichnis zu lesen. Falls
 keine <filename>vls.cfg</filename>-Datei dort sein sollte, wird es versuchen,
 sie aus dem Verzeichnis <filename>SYSCONF_DIR/etc/videolan</filename>
-zu laden (siehe Sektion <xref linkend="config" endterm="tconfig"/>)
-.</para>
+zu laden (siehe Sektion <xref linkend="config" endterm="tconfig"/>).
+
+</para>
 
 <caution><para>
 
@@ -39,8 +40,9 @@ Permission denied
 
 
 Beachten Sie außerdem, dass Sie Sie root sein müssen,
-wenn Sie die "Interface"-Option in <filename>vls.cfg</filename> benutzen
-.</para>
+wenn Sie die "Interface"-Option in <filename>vls.cfg</filename> benutzen.
+
+</para>
 
 </caution>
 
@@ -65,8 +67,9 @@ VideoLAN Server v 0.5.3 (Jun  6 2003) - (c)1999-2003 VideoLAN
 
 
 Was Sie auf dem Bildschirm (stderr) sehen, ist genau
-dasselbe wie in der Log-Datei <filename>vls.log</filename>
-.</para>
+dasselbe wie in der Log-Datei <filename>vls.log</filename>.
+
+</para>
 
 <para>
 
@@ -74,15 +77,17 @@ dasselbe wie in der Log-Datei <filename>vls.log</filename>
 Wenn VLS erfolgreich gestartet wurde, übernimmt es
 keinen Befehl aus dessen Standardinput, sodass Sie ihn in den Hintergrund
 verlagern können (sie können das <emphasis>screen</emphasis>-Utility
-dazu benutzen)
-.</para>
+dazu benutzen).
+
+</para>
 
 <para>
 
 
 Wenn Sie aber die Befehlszeilenoberfläche benutzen
-möchten, schauen Sie bitte in das Dokument <ulink url="http://www.videolan.org/doc/">VideoLAN HOWTO</ulink>
-.</para>
+möchten, schauen Sie bitte in das Dokument <ulink url="http://www.videolan.org/doc/">VideoLAN HOWTO</ulink>.
+
+</para>
 
 </sect1>
 
@@ -140,8 +145,9 @@ admin@vls&gt;
 
 Sie können nun die im folgenden Paragraph erklärten
 Befehle benutzen. Um sich abzumelden, geben Sie <command>logout</command>
-nach der Telnet-Eingabeaufforderung ein
-.</para>
+nach der Telnet-Eingabeaufforderung ein.
+
+</para>
 
 </sect1>
 
@@ -156,16 +162,18 @@ Oberflächenbefehle
 <para>
 
 
-Benutzung: help [Befehl]
-.</para>
+Benutzung: help [Befehl].
+
+</para>
 
 <para>
 
 
 Ohne Argument aufgerufen, gibt "help" die Liste
 aller Befehle aus, ob sie nun verfügbar sind oder nicht. Mit einem
-Argument aufgerufen, zeigt es an, wie der jeweilige Befehl benutzt wird
-.</para>
+Argument aufgerufen, zeigt es an, wie der jeweilige Befehl benutzt wird.
+
+</para>
 
 </simplesect>
 
@@ -174,8 +182,9 @@ Argument aufgerufen, zeigt es an, wie der jeweilige Befehl benutzt wird
 <para>
 
 
-Benutzung: browse [Input]
-.</para>
+Benutzung: browse [Input].
+
+</para>
 
 <para>
 
@@ -183,8 +192,9 @@ Benutzung: browse [Input]
 Ohne Argument aufgerufen, gibt "browse" alle
 Programme der Inputs aus. Mit einem Argument aufgerufen, gibt es nur
 die Programme des angegeben Inputs an. Jedes Programm wird mit dessen
-Status angezeigt
-.</para>
+Status angezeigt.
+
+</para>
 
 </simplesect>
 
@@ -204,8 +214,9 @@ Benutzung: start &lt;Programm&gt; &lt;Channel&gt; &lt;Input&gt; [--loop] [--rtp]
 Inputs und gibt es über den angebenen Channel aus. Durch die "--loop"-Option
 wird das Programm unendlich wiederholt. Durch die "--rtp"-Option werden
 die TS-Pakete über das RTP-Protokoll gesendet, wie es in RFC 1889 und 2250 festgelegt ist
+.
 
-.</para>
+</para>
 
 </simplesect>
 
@@ -218,8 +229,9 @@ Benutzung: stop &lt;Channel&gt;
 <para>
 
 
-"stop" beendet das Senden des angebenen Channels
-.</para>
+"stop" beendet das Senden des angebenen Channels.
+
+</para>
 </simplesect>
 
 <simplesect><title>forward</title>
@@ -235,8 +247,9 @@ Benutzung: forward &lt;Channel&gt; &lt;Geschwindigkeit&gt;
 
 "forward" beschleunigt den Channel um die angegebene Geschwindigkeit.
 Dies funktioniert nicht, wenn direkt aus einem Gerät, wie einer MPEG-Kodierungskarte,
-einer DVB-Karte oder einer Eingangskarte, gelesen wird
-.</para>
+einer DVB-Karte oder einer Eingangskarte, gelesen wird.
+
+</para>
 
 </simplesect>
 
@@ -252,8 +265,9 @@ Benutzung: rewind &lt;Channel&gt; &lt;Geschwindigkeit&gt;
 
 "rewind" verlangsamt den Channel um die angebene Geschwindigkeit.
 Dies funktioniert nicht, wenn direkt aus einem Gerät, wie einer MPEG-Kodierungskarte,
-einer DVB-Karte oder einer Eingangskarte, gelesen wird
-.</para>
+einer DVB-Karte oder einer Eingangskarte, gelesen wird.
+
+</para>
 </simplesect>
 
 <simplesect><title>suspend</title>
@@ -266,8 +280,9 @@ einer DVB-Karte oder einer Eingangskarte, gelesen wird
 
 
 "suspend" unterbricht das Streamen des angebenen
-Channels
-.</para>
+Channels.
+
+</para>
 
 </simplesect>
 
@@ -283,8 +298,9 @@ Benutzung: resume &lt;Channel&gt;
 
 
 "resume" nimmt das Streamen des angegebenen
-Channels wieder auf
-.</para>
+Channels wieder auf.
+
+</para>
 
 </simplesect>
 
@@ -300,8 +316,9 @@ Benutzung: logout
 
 
 "logout" schließt die derzeitige Administrationssitzung
-und die entsprechende Verbindung
-.</para>
+und die entsprechende Verbindung.
+
+</para>
 
 </simplesect>
 
@@ -316,8 +333,9 @@ Benutzung: shutdown
 <para>
 
 
-"shutdown" stoppt alle Sendungen und beendet VLS
-.</para>
+"shutdown" stoppt alle Sendungen und beendet VLS.
+
+</para>
 
 </simplesect>
 

@@ -7,8 +7,9 @@ Gehen Sie in die <emphasis>Systemsteuerung
 </emphasis>, klicken Sie auf <emphasis>Programme hinzufügen und entfernen
 </emphasis>, wählen Sie <emphasis>VLS</emphasis> und klicken Sie auf
 <emphasis>Bearbeiten/Entfernen</emphasis> und folgen Sie den Schritten zur
-Deinstallation des Programms
-.</para>
+Deinstallation des Programms.
+
+</para>
 
 </sect2>
 
@@ -18,15 +19,15 @@ Wenn Sie VLS aus den Quellen kompiliert haben
 
 <para>
 Gehen Sie in das Verzeichnis, das die Quellen von VLS
-enthält und führen Sie aus
-:</para>
+enthält und führen Sie aus:</para>
 
 <screen>
 <prompt># </prompt><userinput>make uninstall</userinput>
 </screen>
 
 <para>
-Danach können Sie die Quellen von VLS entfernen
-.</para>
+Danach können Sie die Quellen von VLS entfernen.
+
+</para>
 
 </sect2>

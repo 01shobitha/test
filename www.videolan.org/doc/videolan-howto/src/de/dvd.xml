@@ -24,8 +24,9 @@ der Gruppe hinzu
 
 
 
-und starten Sie dann Ihre Session neu
-.</para></note>
+und starten Sie dann Ihre Session neu.
+
+</para></note>
 
 <sect1><title>
 
@@ -86,8 +87,9 @@ erreichen möchten
 
 
 
-oder eine Multicast-IP-Adresse
-.</para></listitem>
+oder eine Multicast-IP-Adresse.
+
+</para></listitem>
 
 </itemizedlist>
 
@@ -98,8 +100,9 @@ oder eine Multicast-IP-Adresse
 
 
  ist der Wert der TTL (Time To Live) Ihrer IP-Pakete (was
-bedeutet, dass der Stream in der Lage sein wird, 11 Router zu überqueren)
-.</para></listitem>
+bedeutet, dass der Stream in der Lage sein wird, 11 Router zu überqueren).
+
+</para></listitem>
 </itemizedlist>
 
 
@@ -108,8 +111,9 @@ bedeutet, dass der Stream in der Lage sein wird, 11 Router zu überqueren)
 
 
 Wenn Sie die DVD fortlaufend streamen möchten, fügen
-Sie die Option <emphasis>--loop</emphasis> hinzu
-.</para>
+Sie die Option <emphasis>--loop</emphasis> hinzu.
+
+</para>
 
 
 </sect1>
@@ -125,8 +129,9 @@ Eine DVD mit VLS streamen
 
 
 
-Dies ist nur unter GNU/Linux möglich
-.</para></note>
+Dies ist nur unter GNU/Linux möglich.
+
+</para></note>
 
 <screen>
 <prompt>% </prompt><userinput>vls -vv -d udp:192.168.0.42 dvd:/dev/dvd --ttl 12</userinput>
@@ -179,8 +184,9 @@ erreichen möchten
 
 
 
-oder eine Multicast-IP-Adresse
-.</para></listitem>
+oder eine Multicast-IP-Adresse.
+
+</para></listitem>
 
 
 </itemizedlist>
@@ -192,8 +198,9 @@ oder eine Multicast-IP-Adresse
 
 
  ist der Wert der TTL (Time To Live) Ihrer IP-Pakete (was
-bedeutet, dass der Stream in der Lage sein wird, 11 Router zu überqueren)
-.</para></listitem>
+bedeutet, dass der Stream in der Lage sein wird, 11 Router zu überqueren).
+
+</para></listitem>
 
 </itemizedlist>
 
@@ -202,8 +209,9 @@ bedeutet, dass der Stream in der Lage sein wird, 11 Router zu überqueren)
 
 
 Wenn Sie die DVD fortlaufend streamen möchten, fügen Sie
-die Option <emphasis>--loop</emphasis> hinzu
-.</para>
+die Option <emphasis>--loop</emphasis> hinzu.
+
+</para>
 
 </sect1>
 

@@ -5,18 +5,14 @@
 
 <para>
 Aus der Sicht eines Benutzer kann VLS in vier
-Hauptkomponenten aufgeteilt werden
-:</para>
+Hauptkomponenten aufgeteilt werden:</para>
 
 <itemizedlist>
 
 <listitem><para>
-ein <emphasis>Manager</emphasis>
-,</para></listitem>
+ein <emphasis>Manager</emphasis>,</para></listitem>
 <listitem><para>
 <emphasis>
-
-
 Inputs
 </emphasis>,</para></listitem>
 <listitem><para><emphasis>
@@ -24,10 +20,9 @@ Konverter
 </emphasis>,</para></listitem>
 <listitem><para>
 
+und <emphasis>Channel</emphasis> bzw. Ausgabekanäle.
 
-
-und <emphasis>Channel</emphasis> bzw. Ausgabekanäle
-.</para></listitem>
+</para></listitem>
 
 </itemizedlist>
 
@@ -41,104 +36,79 @@ und <emphasis>Channel</emphasis> bzw. Ausgabekanäle
 
 <simplesect><title>
 
-
-
 Die Inputs
 </title>
 
 <para>
-
-
 
 Die Role eines <emphasis>Inputs</emphasis> ist
 MPEG Streams aus einer gegebenen Quelle (Datei, DVD, DVB-Kate, Gerät...)
 zu lesen und die richtigen <emphasis>Konverter</emphasis> damit zu
 "füttern". Ein Input kann in der Lage sein mehrere Streams, <emphasis>
 Programme</emphasis> genannt, zu lesen. Es gibt mehrere Arten von
-Inputs
-:</para>
+Inputs:</para>
 
 <itemizedlist>
 
 <listitem><para>
 
-
-
 den <emphasis>local</emphasis>-Input, der Videos
-aus Dateien oder DVDs lesen kann
-,</para></listitem>
+aus Dateien oder DVDs lesen kann,</para></listitem>
 
 <listitem><para>
-
-
 
 
 den <emphasis>Video</emphasis>-Input, der
-Videos aus MPEG-Kodierungskarten lesen kann
-,</para></listitem>
+Videos aus MPEG-Kodierungskarten lesen kann,</para></listitem>
 
 <listitem><para>
-
-
 
 den <emphasis>DVB</emphasis>-Input, der Videos
-von DVB-Karten lesen kann
-,</para></listitem>
+von DVB-Karten lesen kann,</para></listitem>
 
 <listitem><para>
-
-
 
 den <emphasis>v4l</emphasis>-Input, der Videos
 aus Zugangskarten lesen kann, die von den Video4Linux-Treibern unterstützt
-werden
-.</para></listitem>
+werden.
+
+</para></listitem>
 
 </itemizedlist>
 
 <para>
 
-
-
 Sie können gleichzeitig mehrere Inputs benutzen und
-mehrere Programme abspielen
-.</para>
+mehrere Programme abspielen.
+
+</para>
 
 </simplesect>
 
 <simplesect><title>
-
-
 
 Die Konverter
 </title>
 
 <para>
 
-
-
 Die Rolle eines <emphasis>Konverters</emphasis>
 ist einen Stream von einem Input zu erhalten und ihn in das MPEG-TS-Format
 zu konvertieren. VLS ist in der Lage PS-Streams (beispielsweise von DVDs)
 in TS-Streams zu konvertieren (ps2ts-Konverter). Natürlich kann es auch
 TS-Streams lesen und sie reparieren, in dem Streamunterbrechungen
-berücksichtigt werden (ts2ts-Konverter).
-.</para>
+berücksichtigt werden (ts2ts-Konverter)..
+
+</para>
 
 </simplesect>
 
 <simplesect><title>
 
-
-
 Die Channel
 </title>
 
 <para>
-
-
-
-
 
 
 
@@ -153,21 +123,18 @@ das Netzwerk senden und ihn gleichzeitig in eine Datei speichern. Der
 Netzwerk-Output umfassend konfigurierbar. Sie können wählen, welches
 Netzwerk-Interface Sie benutzen, sowie Quell- und Ziel-IP-Adressen 
 angeben
+.
 
-.</para>
+</para>
 
 </simplesect>
 
 <simplesect><title>
 
-
-
 Der Manager
 </title>
 
 <para>
-
-
 
 Der <emphasis>Manager</emphasis> kontrolliert
 die gesendeten Streams. Durch eine <emphasis>Administrationsoberfläche
@@ -180,22 +147,19 @@ darf, nachdem VLS gestartet wurde. Derzeit können Sie den Manager nicht
 fragen, ob ein angebener Stream gesendet wird. Sie erhalten aber eine
 Fehlermeldung, wenn Sie versuchen einen Stream anzuhalten, der nicht
 gesendet wird
+.
 
-.</para>
+</para>
 
 </simplesect>
 </sect1>
 
 <sect1><title>
 
-
-
 Die Administrationsoberfläche
 </title>
 
 <para>
-
-
 
 Es gibt derzeit zwei Wege, das Streamen zu
 starten
@@ -205,32 +169,28 @@ starten
 
 <listitem><para>
 
-
-
 Sie können die <emphasis>Befehlszeile</emphasis>
 benutzen, um Argumente beim Start zu übergeben 
 </para></listitem>
 
 <listitem><para>
 
-
-
 oder Sie können die <emphasis>Telnet-Oberfläche</emphasis>
 benutzen, um das Streamen zu starten/anzuhalten/zu pausieren wann immer Sie
-möchten
-.</para></listitem>
+möchten.
+
+</para></listitem>
 
 </itemizedlist>
 
 <para>
 
-
-
 Wenn Sie die Telnet-Oberfläche benutzen, müssen
 Sie sich authentifizieren, bevor sie einen Befehl angeben, weil nicht jedem
 Benutzer erlaubt werden darf, einen Befehl auszuführen (dies kann in der
-Konfigurationsdatei <filename>vls.cfg</filename> eingestellt werden)
-.</para>
+Konfigurationsdatei <filename>vls.cfg</filename> eingestellt werden).
+
+</para>
 
 </sect1>
 </chapter>

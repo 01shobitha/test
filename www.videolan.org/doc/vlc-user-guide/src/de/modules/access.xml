@@ -33,8 +33,9 @@ Nur für GNU/Linux
 Dieses Modul erlaubt das Lesen von DVB-S, DVB-T
 und DBC-C Satelliten-, digitalen terrestrischen oder Kabelkarten. Es benutzt
 das Video4Linux 2 API, das nur in den Kerneln 2.5.X und 2.6.X
-vorhanden ist
-.</para></sect2>
+vorhanden ist.
+
+</para></sect2>
 
 <sect2><title>dvd</title>
 &enabled;
@@ -42,8 +43,9 @@ vorhanden ist
 Dies ist das alte DVD Zugriffsmodul. Es benutzt
 <emphasis>libdvdcss</emphasis> zur DVD-Entschlüsselung (siehe
 <ulink url="http://developers.videolan.org/libdvdcss/">libdvdcss
-Seite</ulink>)
-.</para></sect2>
+Seite</ulink>).
+
+</para></sect2>
 
 <sect2><title>dvdplay</title>
 &enabled;
@@ -53,8 +55,9 @@ Dies ist das übliche DVD-Zugriffsmodul. Es benötigt
 url="http://developers.videolan.org/libdvdcss/">libdvdcss Seite</ulink>)
 und <emphasis>libdvdplay</emphasis> zur DVD-Navigation (siehe <ulink
 url="http://developers.videolan.org/libdvdplay/">libdvdplay</ulink>
-Seite)
-.</para></sect2>
+Seite).
+
+</para></sect2>
 
 <sect2><title>dvdread</title>
 &disabled;
@@ -82,8 +85,9 @@ solch einen Treiber.
 &always;
 <para>
 Dies sind Standardeingangsmodule.
-Der HTTP-Input kann für Video On Demand benutzt werden
-.</para></sect2>
+Der HTTP-Input kann für Video On Demand benutzt werden.
+
+</para></sect2>
 
 <sect2><title>pvr</title>
 &disabled;
@@ -91,8 +95,9 @@ Der HTTP-Input kann für Video On Demand benutzt werden
 Nur für GNU/Linux
 </emphasis></para>
 <para>
-Diese Module erlauben das Lesen von Hauppauge PVR - Karten
-.</para></sect2>
+Diese Module erlauben das Lesen von Hauppauge PVR - Karten.
+
+</para></sect2>
 
 <sect2><title>rstp/rtp/sdp (livedotcom)</title>
  &enabled;
@@ -125,8 +130,9 @@ Nur für GNU/Linux
 </emphasis></para>
 <para>
 Dieses Modul erlaubt Ihnen Video4Linux - Streams
-zu lesen
-.</para></sect2>
+zu lesen.
+
+</para></sect2>
 
 
 <sect2><title>vcd</title>

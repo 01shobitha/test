@@ -6,8 +6,9 @@
 Laden Sie die ZIP-Datei von der <ulink
 url="http://www.videolan.org/streaming/download-vls-windows.html">VLS
 Windows Downloadseite</ulink> herunter, entzippen Sie sie und
-führen Sie <filename>setup.exe</filename>aus
-.</para>
+führen Sie <filename>setup.exe</filename>aus.
+
+</para>
 
 </sect2>
 
@@ -18,8 +19,7 @@ Installation der Bibliotheken/Libraries
 </title>
 
 <para>
-Viele Bibliotheken werden für bestimmte Zwecke benötigt
-:</para>
+Viele Bibliotheken werden für bestimmte Zwecke benötigt:</para>
 
 <itemizedlist>
 
@@ -37,22 +37,23 @@ wenn Sie in der Lage sein möchten, DVDs zu streamen
 
 <listitem><para><emphasis>libdvb</emphasis>
 wenn Sie in der Lage sein möchten, von einer DVB-Karte
-streamen zu können (eine Satelliten- oder eine digitale terrestrische TV-Karte)
-.</para></listitem>
+streamen zu können (eine Satelliten- oder eine digitale terrestrische TV-Karte).
+
+</para></listitem>
 
 </itemizedlist>
 
 <para>
 Laden Sie die Bibliotheken von der <ulink
 url="http://www.videolan.org/streaming/download-vls-sources.html">VLS
-Quellen Downloadseite</ulink> herunter
-.</para>
+Quellen Downloadseite</ulink> herunter.
+
+</para>
 
 <para>
 Dekomprimieren, konfigurieren (außer <emphasis>
 libdvb</emphasis>, welche kein <emphasis>./configure</emphasis> hat),
-kompilieren und installieren Sie jede Bibliothek
-:</para>
+kompilieren und installieren Sie jede Bibliothek:</para>
 
 <screen>
 <prompt>% </prompt><userinput>tar xvzf library.tar.gz</userinput>
@@ -64,24 +65,21 @@ kompilieren und installieren Sie jede Bibliothek
 
 <para>
 Überprüfen Sie unter GNU/Linux, ob die Konfigurationsdatei
-<filename>/etc/ld.so.conf</filename> die folgende Zeile enthält
- :</para>
+<filename>/etc/ld.so.conf</filename> die folgende Zeile enthält:</para>
 <programlisting>
 /usr/local/lib
 </programlisting>
 
 <para>
 Wenn dies nicht der Fall ist, fügen Sie diese hinzu und
-starten Sie dann
- :</para>
+starten Sie dann:</para>
 
 <screen>
 <prompt># </prompt><userinput>ldconfig</userinput>
 </screen>
 
 <para>
-Führen Sie unter Mac OS X aus
-:</para>
+Führen Sie unter Mac OS X aus:</para>
 <screen>
 <prompt># </prompt><userinput>ranlib /usr/local/lib/*.a</userinput>
 </screen>
@@ -98,8 +96,7 @@ Laden Sie die Quellen der neuesten Version herunter:
 holen Sie sich die Datei <filename>vls-version.tar.gz</filename> von der
 <ulink url="http://www.videolan.org/streaming/download-vls-sources.html">
 VLS-Quellen Downloadseite</ulink>. Dekomprimieren Sie es und generieren Sie
-<emphasis>./configure</emphasis>
-:</para>
+<emphasis>./configure</emphasis>:</para>
 
 <screen>
 <prompt>% </prompt><userinput>tar xvzf vls-version.tar.gz</userinput>
@@ -108,23 +105,20 @@ VLS-Quellen Downloadseite</ulink>. Dekomprimieren Sie es und generieren Sie
 
 <para>
 Um die Liste der Konfigurationsoptionen, machen Sie
-folgendes
-:</para>
+folgendes:</para>
 
 <screen>
 <prompt>% </prompt><userinput>./configure --help</userinput>
 </screen>
 
 <para>
-Konfigurieren Sie dann VLS
-:</para>
+Konfigurieren Sie dann VLS:</para>
 
 <itemizedlist>
 
 <listitem><para>
 wenn Sie ein einfaches VLS ohne DVD-Unterstützung
-möchten, machen Sie
-:</para>
+möchten, machen Sie:</para>
 
 <screen>
 <prompt>% </prompt><userinput>./configure --disable-dvd</userinput>
@@ -134,8 +128,7 @@ möchten, machen Sie
 
 <listitem><para>
 wenn Sie ein VLS mit DVD-Unterstützung möchten,
-machen Sie
- :</para>
+machen Sie:</para>
 
 <screen>
 <prompt>% </prompt><userinput>./configure</userinput>
@@ -145,8 +138,7 @@ machen Sie
 
 <listitem><para>
 wenn Sie ein VLS mit DVB-Unterstützung möchten,
-machen Sie
-:</para>
+machen Sie:</para>
 
 <screen>
 <prompt>% </prompt><userinput>./configure --enable-dvb --with-dvb=PATH_TO_DVB_DRIVERS --with-libdvb=PATH_TO_LIBDVB</userinput>
@@ -157,8 +149,7 @@ machen Sie
 </itemizedlist>
 
 <para>
-Kompilieren und installieren Sie danach
- :</para>
+Kompilieren und installieren Sie danach:</para>
 
 <screen>
 <prompt>% </prompt><userinput>make</userinput>
@@ -168,8 +159,9 @@ Kompilieren und installieren Sie danach
 <para>
 Sie können auch <command>make uninstall</command>,
 <command>make clean</command> oder <command>make distclean
-</command> nach Bedarf ausführen
-.</para>
+</command> nach Bedarf ausführen.
+
+</para>
 
 </simplesect>
 

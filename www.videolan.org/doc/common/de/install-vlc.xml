@@ -344,7 +344,7 @@ Um die Liste der Konfigurationsoptionen zu erhalten, machen Sie folgendes:
 Beachten Sie, dass alle Module in der <emphasis>Modules</emphasis>-Sektion
 des <ulink url="http://www.videolan.org/doc/vlc-user-guide/">VLC User
 Guides</ulink> beschrieben sind.
-.</para>
+</para>
 
 
 <para>
@@ -354,8 +354,7 @@ Beispiele von sehr einfachen Konfigurationen:
 <itemizedlist>
 
 <listitem><para>
-wenn Sie ein einfaches VLC möchten, machen Sie folgendes
-: </para>
+wenn Sie ein einfaches VLC möchten, machen Sie folgendes: </para>
 
 <screen>
 <prompt>% </prompt><userinput>./configure</userinput>

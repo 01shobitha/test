@@ -8,8 +8,9 @@ Die HTTP-Oberfläche
 <para><emphasis>
 
 
-Diese Seite ist nicht komplett
-.</emphasis></para>
+Diese Seite ist nicht vollständig.
+
+</emphasis></para>
 
 <sect2><title>
 
@@ -22,8 +23,9 @@ Präsentation
 
 VLC enthält einen kleinen HTTP-Server. Er kann zum 
 Streamen über HTTP und für die HTTP-Fernsteuerungsoberfläche benutzt
-werden
-.</para>
+werden.
+
+</para>
 
 <para>
 
@@ -42,16 +44,18 @@ Sie folgendes
 Das HTTP-Interface wird anfangen, unter host:port
 (standardmäßig localhost:8080) nach Anfragen zu hören und die Struktur von
 /directory unter http://host:port/ reproduzieren (standardmäßig
-vlc_quell_pfad/share/http)
-.</para>
+vlc_quell_pfad/share/http).
+
+</para>
 
 <para>
 
 
 VLC wird mit einer Reihe von Dateien ausgeliefert, die
 für übliche Zwecke ausreichend sein sollten. Der Rest dieses Kapitels wird die
-Wege aufzeigen, diese Seiten dem persönlichen Bedarf anzupassen
-.</para>
+Wege aufzeigen, diese Seiten dem persönlichen Bedarf anzupassen.
+
+</para>
 
 <para>
 
@@ -64,8 +68,9 @@ Einige Dateien müssen besonders behandelt werden
 <listitem><para>
 
 
-Datei, die mit "." beginnen, werden nicht exportiert
-.</para></listitem>
+Datei, die mit "." beginnen, werden nicht exportiert.
+
+</para></listitem>
 
 
 <listitem><para>
@@ -85,8 +90,9 @@ Sie, dass nur Dateien in diesem Verzeichnis geschützt werden.
 
 Die Datei &lt;dir&gt;/index.html wird als 
 &lt;Verzeichnis&gt; und &lt;Verzeichnis&gt;/ exportiert, aber nicht als
-index.html
-.</para></listitem>
+index.html.
+
+</para></listitem>
 
 </itemizedlist>
 
@@ -96,8 +102,9 @@ index.html
 Der MIME-Typ wird durch einen Blick an die
 Dateiendung festgelegt und kann durch eine Einstellungsdatei weder
 angegeben noch verändert werden. Unbekannte Endungen haben 
-"application/octet-stream" als MIME-Typ
-.</para>
+"application/octet-stream" als MIME-Typ.
+
+</para>
 
 <para>
 
@@ -149,8 +156,9 @@ und param2 können präsent sein oder nicht und sind angewiesen auf "id".
 
 Sie sollten darauf achten, dass Sie diese Syntax
 respektieren müssen, da VLC keine ungültige Syntax mag (diese könnte leicht
-zu Abstürzen führen)
-.</para>
+zu Abstürzen führen).
+
+</para>
 
 <para>
 
@@ -318,8 +326,9 @@ vordefiniert:
 
 
 Anmerkung: Die Stapel und die lokalen Variablen
-werden vor der Ausführung der Seite zurückgesetzt
-.</para>
+werden vor der Ausführung der Seite zurückgesetzt.
+
+</para>
 
 </sect2>
 
@@ -366,8 +375,9 @@ Die Idee dahinter ist: Wenn man eine Nummer oder
 eine Zeichenkette hat, legt man sie auf den Stapel. Wenn man einen Operator
 (wie +) hat, nimmt man die Argumente vom Stapel, führt die Operatoren aus
 legt das Ergebnis wieder auf den Stapel. Das Ergebnis der RPN-Sequenu ist
-der oberste Wert des Stapels 
-.</para>
+der oberste Wert des Stapels .
+
+</para>
 
 <para>
 <programlisting>
@@ -484,8 +494,9 @@ sind alle Befehle erlaubt.
 
 
 Einige Befehle benötigen ein Argument, welches auch über die URL
-mitgegeben werden muss
-.</para>
+mitgegeben werden muss.
+
+</para>
 
 
 <table frame="all">
@@ -713,8 +724,9 @@ zu kontrollieren.
 
 Wenn param1 nicht leer ist, wird es mit dem 
 RPN-Bewerter ausgeführt. Wenn das erste Element auf dem Stapel nicht 0
-ist, ist der Testwert wahr, sonst unwahr 
-.</para>
+ist, ist der Testwert wahr, sonst unwahr .
+
+</para>
 
 <para>
 
@@ -732,8 +744,9 @@ ist, ist der Testwert wahr, sonst unwahr
 <para>
 
 
-Sie können auch einfach "if" und "end" benutzen
-.</para>
+Sie können auch einfach "if" und "end" benutzen.
+
+</para>
 
 </sect2>
 
@@ -834,8 +847,9 @@ date: das Datum
 playlist: ein auf der Wiedergabeliste mit folgenden
 Feldern basierendes Set: current ist 1, wenn das Objekt derzeit ausgewählt
 ist, sonst 0. index ist der Index-Wert, der von den play oder delete - Befehlen
-benutzt werden kann. name ist der Name des Objekts 
-.</para></listitem>
+benutzt werden kann. name ist der Name des Objekts .
+
+</para></listitem>
 
 <listitem><para>
 
@@ -843,8 +857,9 @@ benutzt werden kann. name ist der Name des Objekts
 "informations": Erzeugt Informationen für den derzeit
 abgespielten Stream. name ist der Name der Kategorie, value ist dessen Wert,
 info ist ein neues Set, dass Sie erneut parsen können (Unterfelder von info
-sind name und value)
-.</para></listitem>
+sind name und value).
+
+</para></listitem>
 
 <listitem><para>
 

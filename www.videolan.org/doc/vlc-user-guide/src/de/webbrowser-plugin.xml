@@ -68,15 +68,17 @@ Eigene Kompilierung der Quellen
 
 
 Installieren Sie das Mozilla Entwicklungspaket
-(<emphasis>mozilla-dev</emphasis> unter Debian)
-.</para>
+(<emphasis>mozilla-dev</emphasis> unter Debian).
+
+</para>
 
 <para>
 
 Installieren Sie die benötigten Bibliotheken wie für eine normale
 VLC-Installation (aus den Quellen oder aus den Paketen mit den
-Entwicklungspaketen)
-.</para>
+Entwicklungspaketen).
+
+</para>
 
 <para>
 
@@ -110,8 +112,9 @@ Erzeugen von HTML-Seiten, die das Plugin benutzen
 
 
 Hier sind einige Beispiele von HTML-Seiten, die das
-Mozilla-Plugin benutzen
-.</para>
+Mozilla-Plugin benutzen.
+
+</para>
 
 <simplesect><title>
 
@@ -125,8 +128,9 @@ Beispiel 1
 In diesem Beispiel wird das Plugin einen HTTP-Stream
 innerhalb der Webseite lesen. Wenn der Anwender in den Vollbildmodus geht,
 wird er <keycap>f</keycap> drücken müssen, um in die normale Ansicht
-zurückzugelangen
-.</para>
+zurückzugelangen.
+
+</para>
 
 <programlisting>
 &lt;html&gt;
@@ -161,8 +165,9 @@ Beispiel 2
 <para> 
 
 In diesem Beispiel wird das Plugin einen Multicast-UDP-Stream
-in einem bestimmten Bildausgabefenster lesen
-.</para>
+in einem bestimmten Bildausgabefenster lesen.
+
+</para>
 
 <programlisting>
 &lt;html&gt;

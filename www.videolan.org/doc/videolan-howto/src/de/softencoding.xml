@@ -10,8 +10,9 @@ Streamen von einer Eingangskarte oder einer Webcam
 
 
 
-Dies ist nur unter GNU/Linux möglich
-.</para></note>
+Dies ist nur unter GNU/Linux möglich.
+
+</para></note>
 
 
 <sect1><title>
@@ -30,9 +31,11 @@ Installation der Video for Linux-Treiber
 Wenn Sie von einer Eingangskarte oder eine Webcam
 streamen möchten, muss eine video4linux-Treiber dafür verfügbar sein. Sie
 können mehr Informationen über video4linux und unterstützte Geräte
-<ulink url="http://www.exploits.org/v4l">hier</ulink> finden
+<ulink url="http://www.exploits.org/v4l">hier</ulink> finden.
 
-.</para>
+
+
+</para>
 
 <para>
 
@@ -43,18 +46,22 @@ fügen Sie es Ihrem Kernel hinzu (einige video4linux-Module werden mit den
 Linux 2.4.x Kernel mitgeliefert). Sie können Ihr Gerät mit jedem in der Sektion
 <emphasis>Video: TV and PVR/DVR</emphasis> auf
 <ulink url="http://www.exploits.org/v4l/"> dieser Seite </ulink> aufgeführtem
-Programm testen
+Programm testen.
 
-.</para>
+
+
+</para>
 
 <para>
 
 
 
 Beachten Sie, dass v4l2-Module auch mit VLC 
-arbeiten
+arbeiten.
 
-.</para>
+
+
+</para>
 
 </sect1>
 
@@ -72,9 +79,11 @@ Streaming mit VLC
 
 Sie müssen <command>--enable-v4l</command> zu
 <command>./configure</command> hinzufügen, um dieses Feature nutzen zu
-können
+können.
 
-.</para></note>
+
+
+</para></note>
 
 <screen>
 <!-- We cut the lines when they are too long, so that it looks OK in PDF format ! -->
@@ -243,8 +252,9 @@ möchten
 
 
 
-oder eine Multicast-IP-Adresse
-.</para></listitem>
+oder eine Multicast-IP-Adresse.
+
+</para></listitem>
 
 </itemizedlist>
 
@@ -255,8 +265,9 @@ oder eine Multicast-IP-Adresse
 
 
  ist der Wert der TTL (Time To Live) Ihrer IP-Pakete (was 
-bedeutet, dass der Stream in derLage sein wird, 11 Router zu überqueren)
-.</para></listitem>
+bedeutet, dass der Stream in derLage sein wird, 11 Router zu überqueren).
+
+</para></listitem>
 
 </itemizedlist>
 
@@ -274,28 +285,30 @@ Streaming mit VLS
 
 
 Sie benötigen die CVS-Version von VLS. Wenn Sie sie 
-kompilieren, müssen Sie <command>./bootstrap</command> und <command>
-./configure --enable-v4l --with-ffmpeg=PATH</command> ausführen, wobei 
+kompilieren, müssen Sie <command>./bootstrap</command> und <command>.
+
+/configure --enable-v4l --with-ffmpeg=PATH</command> ausführen, wobei 
 <emphasis>PATH</emphasis> der absolute Pfad zu dem Verzeichnis ist, in dem Sie
 ffmpeg kompiliert haben und nicht der relative Pfad!
 
-.</para></note>
+
+</para></note>
 
 <para>
 
 
 
 Es gibt derzeit keine Befehlszeilenoberfläche für diesen Input,
-sodass Sie die Konfigurationsdatei benutzen müssen
-.</para>
+sodass Sie die Konfigurationsdatei benutzen müssen.
+
+</para>
 
 <para>
 
 
 
 Hier ist eine typische Konfigurationsdatei <filename>vls.cfg
-</filename> zur Benutzung von VLS mit einem v4l-Gerät
-:</para>
+</filename> zur Benutzung von VLS mit einem v4l-Gerät:</para>
 
 <programlisting>
 # vls.cfg (VLS configuration file)
@@ -392,8 +405,7 @@ END
 
 
 Nachdem Sie die obige Konfigurationdatei adaptiert haben,
-führen Sie VLS aus
-:</para>
+führen Sie VLS aus:</para>
 
 
 <screen>

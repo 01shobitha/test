@@ -29,8 +29,8 @@ Zum Beispiel:
 &always;
 <para>
 Dieses Modul erlaubt Ihnen VLC über Mausgesten
-zu steuern
-.</para>
+zu steuern.
+</para>
 &options-st;
 <itemizedlist>
 <listitem>
@@ -53,8 +53,8 @@ Die Taste, die vor einer Geste gedrückt wird
 Dies ist die Gnome-Oberfläche. Sie benötigt die gnome-Bibliotheken
 (das <emphasis>libgnome32</emphasis>-Paket unter Debian) und -Header (das
 <emphasis>libgnome-dev</emphasis>-Paket unter Debian) zur Kompilierung.
-Achtung: Diese Oberfläche wird nicht mehr gewartet und ist veraltet
-.</para>
+Achtung: Diese Oberfläche wird nicht mehr gewartet und ist veraltet.
+</para>
 &options-st;
 <itemizedlist>
 <listitem>
@@ -79,16 +79,16 @@ Das Argument ist eine Ganzzahl, die die maximale Höhe
 Dies ist die GTK+-Oberfläche. Sie benötigt die
 gtk-Bibliotheken and -Header zur Kompilierung. Beachten Sie, dass sie
 auch unter Windows benutzt werden kann. Achtung: Diese Oberfläche wird
-nicht mehr gewartet und ist veraltet
-.</para>
+nicht mehr gewartet und ist veraltet.
+</para>
 </sect2>
 
 <sect2><title>http</title>
 &always;
 <para>
 Dieses Modul erlaubt Ihnen VLC über einen Webbrowser
-fernzusteuern. Sie können eigene Webseiten erzeugen.
-.</para>
+fernzusteuern. Sie können eigene Webseiten erzeugen..
+</para>
 &options-st;
 <itemizedlist>
 <listitem>
@@ -109,8 +109,8 @@ Gibt den Pfad zu den zu liefernden HTML-Seiten an.
 &linux-only;
 <para>
 Dieses Modul erlaubt Ihnen VLC mit einem Joystick
-mit vielen Optionen zu steuern.
-.</para></sect2>
+mit vielen Optionen zu steuern..
+</para></sect2>
 
 <sect2><title>kde</title>
 &disabled;
@@ -119,8 +119,8 @@ mit vielen Optionen zu steuern.
 Dies ist das KDE-Oberflächemodul. Sie benötigen die Bibliotheken
 (das <emphasis>kdelibs3</emphasis>-Paket unter Debian) und die Header
 (das <emphasis>kde-devel</emphasis>-Paket unter Debian) zur Kompilierung.
-Achtung: diese Oberfläche wird nicht mehr gewartet und ist veraltet
-.</para>
+Achtung: diese Oberfläche wird nicht mehr gewartet und ist veraltet.
+</para>
 &options-st;
 <itemizedlist>
 <listitem>
@@ -138,8 +138,8 @@ Pfad zur <filename>ui.rc</filename>-Datei
 Dieses Oberflächenmodul erlaubt Ihnen VLC über
 eine Fernbedienung zu steuern. Ein lircrc-Beispiel wird mitgeliefert, um Ihnen
 bei der Konfiguration Ihrer eigenen Fernbedienung zu helfen (siehe
-<filename>doc/lirc/example.lircrc</filename>)
-.</para></sect2>
+<filename>doc/lirc/example.lircrc</filename>).
+</para></sect2>
 
 <sect2><title>ncurses</title>
 &disabled;
@@ -147,15 +147,15 @@ bei der Konfiguration Ihrer eigenen Fernbedienung zu helfen (siehe
 <para>
 Dies ist eine textbasierte Oberfläche, die die ncurses-Bibliothek
 benutzt. Sie benötigen die ncurses-Header zur Kompilierung 
-(das <emphasis>libncurses5-dev</emphasis>-Paket unter Debian)
-.</para></sect2>
+(das <emphasis>libncurses5-dev</emphasis>-Paket unter Debian).
+</para></sect2>
 
 <sect2><title>opie</title>
 &disabled;
 <para>
 Dies ist ein Oberflächenplugin für die Qt
-Embedded-Bibliothek (für iPaq)
-.</para></sect2>
+Embedded-Bibliothek (für iPaq).
+</para></sect2>
 
 <sect2><title>qt</title>
 &disabled;
@@ -163,22 +163,22 @@ Embedded-Bibliothek (für iPaq)
 Das ist das QT-Oberflächenmodul. Sie benötigen die Bibliotheken
 (das <emphasis>libqt2</emphasis>-Paket unter Debian) und die Header
 (das <emphasis>libqt-dev</emphasis>-Paket unter Debian) zur Kompilierung.
-Achtung: diese Oberfläche wird nicht mehr gewartet und ist veraltet
-.</para></sect2>
+Achtung: diese Oberfläche wird nicht mehr gewartet und ist veraltet.
+</para></sect2>
 
 <sect2><title>rc</title>
 &always;
 <para>
 Dies ist das Fernbedienungsoberflächenmodul. Es erlaubt
-Ihnen VLC über Befehle zu Steuern (wie <emphasis>play</emphasis>,
-<emphasis>stop</emphasis>, etc.) oder über ein Skript. Diese Oberfläche
+Ihnen VLC über Befehle (wie <emphasis>play</emphasis>,
+<emphasis>stop</emphasis>, etc.) oder über ein Skript zu steuern. Diese Oberfläche
 ist textbasiert, sodass Sie sie benutzen sollten, wenn Sie sich im console-Modus
-befinden
-.</para>
+befinden.
+</para>
 &options-st;
 <itemizedlist>
 <listitem>
-<para><emphasis>--rc-show-pos, --no-rc-show-pos </emphasis> :
+<para><emphasis>--rc-show-pos, --no-rc-show-pos </emphasis>:
 Legt fest, ob die Position im Stream angezeigt werden soll
 (standardmäßig deaktiviert)
 </para></listitem>
@@ -194,25 +194,25 @@ TTY-Terminals (standardmäßig deaktiviert)
 &enabled;
 <para>
 Dieses skinnbare Oberflächenmodul arbeitet unter Win32
-und X11. Sie können Ihre eigenen Skins sehr einfach mit XML-Dateien erzeugen
-.</para>
+und X11. Sie können Ihre eigenen Skins sehr einfach mit XML-Dateien erzeugen.
+</para>
 &options-st;
 <itemizedlist>
 <listitem>
-  <para><emphasis>--skin_last</emphasis> :
+  <para><emphasis>--skin_last</emphasis>:
     Diese Option erlaubt Ihnen die letzte benutzte Skin
      festzulegen (das Argument ist eine Zeichenkette).
   </para></listitem>
-  <listitem><para><emphasis>--skin_config</emphasis> :
+  <listitem><para><emphasis>--skin_config</emphasis>:
     Diese Option erlaubt Ihnen die Skinkonfiguration
      festzulegen (das Argument ist eine Zeichenkette).
   </para></listitem>
-  <listitem><para><emphasis>--show_in_tray, --noshow_in_tray</emphasis> :
+  <listitem><para><emphasis>--show_in_tray, --noshow_in_tray</emphasis>:
     Legt fest, ob das Programm in der Systembar
      angezeigt werden muss oder nicht (standardmäßig deaktiviert).
   </para></listitem>
   <listitem><para><emphasis>
-	--show_in_taskbar, --noshow_in_taskbar</emphasis> :
+	--show_in_taskbar, --noshow_in_taskbar</emphasis>:
     Legt fest, ob das Programm in der Taskbar
      anzeigt werden muss oder nicht (standardmäßig deaktiviert).
   </para>
@@ -224,7 +224,7 @@ und X11. Sie können Ihre eigenen Skins sehr einfach mit XML-Dateien erzeugen
 &enabled;
 <para>
 Die wxWindows-Oberfläche ist eine portable Oberfläche, die
-derzeit unter GNU/Linux und Windows läuft. Sie ist derzeit die aktuellste graphische
-Oberfläche unter Windows und GNU/Linux
-.</para></sect2>
+derzeit unter GNU/Linux und Windows läuft. Sie ist die derzeit aktuellste graphische
+Oberfläche unter Windows und GNU/Linux.
+</para></sect2>
 </sect1>

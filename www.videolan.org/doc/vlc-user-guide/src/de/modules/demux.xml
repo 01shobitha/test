@@ -7,21 +7,24 @@ Demuxer
 <para>
 In einem Videostream sind das Bild- und das 
 Tonsignal immer in "Container"-Formaten. Demuxer extrahieren die
-Streams aus diesen und leiten sie durch die Dekoder
-.</para>
+Streams aus diesen und leiten sie durch die Dekoder.
+
+</para>
 
 <para>
 Beispielsweise kann eine AVI-Datei ein MPEG-4-Video
 oder ein unkomprimiertes Video enthalten. AVI ist nur eine Speicherform,
-kein Kompressionsformat
-.</para>
+kein Kompressionsformat.
+
+</para>
 
 <sect2><title>avi</title>
 &always;
 <para>
 Dieses Modul erlaubt Ihnen
-<filename>.avi</filename>-Datei zu lesen
-.</para>
+<filename>.avi</filename>-Datei zu lesen.
+
+</para>
 &options-st;
 <itemizedlist>
  <listitem>
@@ -50,8 +53,9 @@ Diese Modul erlaubt Ihnen folgende Dateien zu lesen:
 &enabled;
 <para>
 Dieses Modul erlaubt Ihnen Dateien im Matroska-Format
-zu lesen
-.</para>
+zu lesen.
+
+</para>
 &options-st;  
 <itemizedlist>
 <listitem>
@@ -189,7 +193,8 @@ Mit diesem Modul können Sie Streams von einer Satellitenkarte lesen.
 &always;
 <para>
 Diese Module erlauben Ihnen M3U, B4S, PLS und
-ASX Wiedergabelisten, sowie ID3 Tags zu lesen
-.</para></sect2>
+ASX Wiedergabelisten, sowie ID3 Tags zu lesen.
+
+</para></sect2>
 
 </sect1>

@@ -48,8 +48,9 @@ Stellt die Bildsättigung zwischen 0 und 3 ein. Standardmäßig 1.
 <para>
 Dieser Filter betrifft das Deinterlacing des Bildes. Es ist
 nützlich bei Streams, die von einem digitalen Satellitenkanal oder digitalen terrestrischen
-Fernsehkanälen stammen
-.</para>
+Fernsehkanälen stammen.
+
+</para>
 &options-st;
 <itemizedlist>
 <listitem>
@@ -100,7 +101,7 @@ Transformationstyp: '90', '180', '270', 'hflip' oder 'vflip'
 &always;
 <para>
 Dieser Filter fügt einen Verzerrungseffekt im Bild hinzu. Wer sagte,
-dies sei nutzlos? :-)
+dies sei nutzlos?:-)
 </para>
 &options-st;
 <itemizedlist>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso8859-1"?>
 <chapter id="other"><title id="tother">
-Die anderen Oberflächen
+Weitere Oberflächen
 </title>
 
 <para>
@@ -43,8 +43,9 @@ Ihres Betriebssystems
 
 Es gibt zwei unterschiedliche graphische Oberflächen
 für Windows. Es sind Verknüpfungen für beide im Startmenü erzeugt
-worden
-.</para>
+worden.
+
+</para>
 
 <para><emphasis>wxWindows</emphasis></para>
 
@@ -52,8 +53,9 @@ worden
 
 
 Diese Oberfläche läuft unter Linux und Windows. Sie
-ist derzeit die kompletteste, funktionsreichste Oberfläche
-.</para>
+ist derzeit die kompletteste, funktionsreichste Oberfläche.
+
+</para>
 
 <para><emphasis>Skins</emphasis></para>
 
@@ -85,8 +87,9 @@ wxWindows und die Skins-Oberfläche. Sie sollten eine von diesen benutzen.
 
 
 Es existiert nur eine native Oberfläche für dieses
-System
-.</para>
+System.
+
+</para>
 
 </listitem>
 </itemizedlist>
@@ -110,8 +113,9 @@ Kontrolle von VLC zu benutzen.
 <para>
 
 
-Dies erlaubt Ihnen VLC über CORBA zu kontrollieren
-.</para>
+Dies erlaubt Ihnen VLC über CORBA zu kontrollieren.
+
+</para>
 
 </sect2>
 
@@ -121,8 +125,9 @@ Dies erlaubt Ihnen VLC über CORBA zu kontrollieren
 Use this interface when you want
 <emphasis>no</emphasis> interface! That is you just want to give a
 self-contained command-line string
+.
 
-.</para>
+</para>
 
 <para>
 For example
@@ -153,8 +158,9 @@ rechts (nächstes), nach oben-rechts (Vollbild), nach unten-rechts (Stopp).
 
 
 Diese Oberfläche wurde im vorherigen Kapitel besprochen.
-Sie erlaubt die entfernte oder lokale Kontrolle von VLC über eine Webseite 
-.</para>
+Sie erlaubt die entfernte oder lokale Kontrolle von VLC über eine Webseite.
+
+</para>
 
 </sect2>
 
@@ -164,8 +170,9 @@ Sie erlaubt die entfernte oder lokale Kontrolle von VLC über eine Webseite
 
 
 Unter GNU/Linux erlaubt Ihnen dies VLC mit einem
-Joystick zu kontrollieren
-.</para>
+Joystick zu kontrollieren.
+
+</para>
 
 </sect2>
 

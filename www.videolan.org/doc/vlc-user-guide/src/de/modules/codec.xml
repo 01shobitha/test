@@ -6,8 +6,9 @@ Dekoder
 
 <para>
 Die folgenden Module erlauben VLC diverse Codecs
-(d.h. Kompressionsformate) zu unterstützen
-.</para>
+(d.h. Kompressionsformate) zu unterstützen.
+
+</para>
 
 <sect2><title>a52</title>
 &enabled;
@@ -19,21 +20,24 @@ url="http://liba52.sourceforge.net/">liba52 Website</ulink>
 <sect2><title>cinepak</title>
 &enabled;
 <para>
-Dieser Codec dekodiert das Cinepakformat
-.</para></sect2>
+Dieser Codec dekodiert das Cinepakformat.
+
+</para></sect2>
 
 <sect2><title>faad</title>
 &disabled;
 <para>
-Faad ist ein MPEG-4 Tondekoder
-.</para></sect2>
+Faad ist ein MPEG-4 Tondekoder.
+
+</para></sect2>
 
 <sect2><title>ffmpeg</title>
 &enabled;
 <para>
 Dies ist ein freier MPEG-4/DivX/OpenDivX/Xvid Codec (siehe
-<ulink url="http://ffmpeg.sourceforge.net/">ffmpeg Website</ulink>)
-.</para>
+<ulink url="http://ffmpeg.sourceforge.net/">ffmpeg Website</ulink>).
+
+</para>
 &options-st;
 <itemizedlist>
 <listitem>
@@ -70,16 +74,18 @@ Reihe der Nachbearbeitungsfilter
 <sect2><title>libmpeg2</title>
 &enabled;
 <para>
-Dieser Codec erlaubt MPEG2-Dateien zu lesen
-.</para></sect2>
+Dieser Codec erlaubt MPEG2-Dateien zu lesen.
+
+</para></sect2>
 
 <sect2><title>mad</title>
 &enabled;
 <para>
 Dieser Codec ist ein sehr eleganter MP3-Dekoder, der nur
 Ganzzahl benutzt. Dies erlaubt die Benutzung auf Prozessoren, die keine
-Fließkommaunterstützung haben, wie beispielsweise auf PDAs
-.</para>
+Fließkommaunterstützung haben, wie beispielsweise auf PDAs.
+
+</para>
 </sect2>
 
 <sect2><title>ogt</title>
@@ -87,16 +93,18 @@ Fließkommaunterstützung haben, wie beispielsweise auf PDAs
 <para>
 OGT verarbeitet die SVCD-Untertitel (Philips Overlay
 Graphics Text oder OGT) und Untertitel von Chaoji VCDs (auch als CVD
-bekannt)
-.</para>
+bekannt).
+
+</para>
 
 <para>
 Eine Formatbeschreibung dieser beiden Arten von
 Untertiteln kann im VLC-Quellcode in den Dateien
 <filename>doc/subtitles/svcd-subtitles.txt</filename> und
 <filename>doc/subtitles/cvd-subtitles.txt</filename> gefunden
-werden
-.</para>
+werden.
+
+</para>
 <para>
 Use the option
 <filename>--spu-channel</filename> <emphasis>number</emphasis>
@@ -111,47 +119,54 @@ allow for 4 subtitles. The value -1 deselects any subtitles
 &enabled;
 <para>
 spudec verarbeitet die DVD-Untertitel. Derzeit werden
-farbige Untertitel und Transparenzen nicht verarbeitet
-.</para>
+farbige Untertitel und Transparenzen nicht verarbeitet.
+
+</para>
 
 <para>
-Siehe für eine Beschreibung derartiger Formate: <ulink url="http://sam.zoy.org/writings/dvd/subtitles">http://sam.zoy.org/writings/dvd/subtitles</ulink>
-.</para>
+Siehe für eine Beschreibung derartiger Formate: <ulink url="http://sam.zoy.org/writings/dvd/subtitles">http://sam.zoy.org/writings/dvd/subtitles</ulink>.
+
+</para>
 </sect2>
 
 <sect2><title>tarkin</title>
 &disabled;
 <para>
 tarkin ist ein neuer, expermenteller Codec des Ogg Projekts
-(siehe <ulink url="http://www.vorbis.com">Ogg Vorbis Website</ulink>)
-.</para></sect2>
+(siehe <ulink url="http://www.vorbis.com">Ogg Vorbis Website</ulink>).
+
+</para></sect2>
 
 <sect2><title>theora</title>
 &disabled;
 <para>
 theora ist ein neuer, experimenteller Codec des Ogg Projekts
-(siehe <ulink url="http://www.vorbis.com">Ogg Vorbis Website</ulink>)
-.</para></sect2>
+(siehe <ulink url="http://www.vorbis.com">Ogg Vorbis Website</ulink>).
+
+</para></sect2>
 
 <sect2><title>tremor</title>
 &disabled;
 <para>
 Dieser ist ein Ogg/Vorbis Codec, der nur Ganzzahlberechnungen
 macht. Dies erlaubt die Benutzung auf Prozessoren ohne Fließkommazahlunterstützung
-(siehe <ulink url="http://www.vorbis.com">Ogg Vorbis Website</ulink>)
-.</para></sect2>
+(siehe <ulink url="http://www.vorbis.com">Ogg Vorbis Website</ulink>).
+
+</para></sect2>
 
 <sect2><title>vorbis</title>
 &enabled;
 <para>
 Dieser Codec erlaubt Ihnen mit Vorbis kodierte Tondateien zu
-lesen
-.</para></sect2>
+lesen.
+
+</para></sect2>
 
 <sect2><title>xvid</title>
 &disabled;
 <para>
 Dieser Codec erlaubt Ihnen mit Xvid über die xvidcore-Bibliothek
-kodierte Dateien zu lesen (siehe <ulink url="http://www.xvid.org/">Xvid Website</ulink>)
-.</para></sect2> 
+kodierte Dateien zu lesen (siehe <ulink url="http://www.xvid.org/">Xvid Website</ulink>).
+
+</para></sect2> 
 </sect1>

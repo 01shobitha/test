@@ -63,7 +63,7 @@
 <a href="/doc/play-howto/en/play-howto-en.html">EN</a>
 </td>
 <td class="yes">
-<a href="/doc/play-howto/en/play-howto-en.html.zip">EN</a>
+<a href="/doc/play-howto/en/play-howto-en-html.zip">EN</a>
 </td>
 <td class="yes">
 <!-- <a href="/doc/play-howto/en/play-howto-en.pdf">EN</a> -->

@@ -29,11 +29,14 @@ global $HTTP_GET_VARS;
    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
    <meta name="GENERATOR" content="vim [GNU/Linux], GNU Emacs" />
    <meta name="Author" content="videolan@videolan.org (VideoLAN team)" />
-   <meta name="Keywords" content="DVD, MPEG, MPEG2, MPEG4, DivX, VideoLAN, VLC, VLS, Linux, Unix, BeOS, BSD, MacOS, MacOS X, OSX, QNX, Familiar Linux, iPAQ, multicast, IPv6" />
+   <meta name="Keywords" content="DVD, MPEG, MPEG2, MPEG4, DivX, VideoLAN,
+     VLC, VLS, Linux, Unix, BeOS, BSD, MacOS, MacOS X, OSX, QNX,
+     Familiar Linux, iPAQ, multicast, IPv6" />
    <meta name="Description" content="<? echo $title; ?>" />
    <title><? echo $title; ?></title>
    <link rel="stylesheet" type="text/css" href="/main.css" />
-   <link rel="shortcut icon" type="image/x-icon" href="/images/icons/favicon.ico" />
+   <link rel="shortcut icon" type="image/x-icon"
+         href="/images/icons/favicon.ico" />
 </head>
 <body><?
 
@@ -59,7 +62,8 @@ function DrawMenu( $file, $mod )
       }
       else
       {
-        list( $name, $text, $link, $icon, $width, $height ) = split( "[\t;]+", $l );
+        list( $name, $text, $link, $icon, $width, $height ) =
+            split( "[\t;]+", $l );
         if( $name == $mod )
         {
           ?><td class="button-down" onclick="document.location='<? 
@@ -159,7 +163,7 @@ StartHtml( ereg_replace( "<[^>]*>" , "" , $title ) );
 
 ?><table class="menu-back" cellspacing="0" cellpadding="0">
   <tr align="center">
-    <td>
+    <td valign="top">
 <?
 $file = "menu.txt";
 foreach( $menu as $module )

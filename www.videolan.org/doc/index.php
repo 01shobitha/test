@@ -79,6 +79,29 @@
 
 <tr>
 
+<td class="category"><b>VLC Streaming-Howto</b></td>
+<td>complete user guide for the server aspects of VLC</td>
+<td class="yes">Up-to-date</td>
+<td class="yes">
+<a href="/doc/streaming-howto/en/streaming-howto-en.html">EN</a>
+</td>
+<td class="yes">
+<a href="/doc/streaming-howto/en/streaming-howto-en-html.zip">EN</a>
+</td>
+<td class="yes">
+<!-- <a href="/doc/streaming-howto/en/streaming-howto-en.pdf">EN</a> -->
+</td>
+<td class="yes">
+<a href="/doc/streaming-howto/en/streaming-howto-en-rtf.zip">EN</a>
+</td>
+<td class="yes">
+<a href="/doc/streaming-howto/en/streaming-howto-en.txt">EN</a>
+</td>
+
+</tr>
+
+<tr>
+
 <td class="category"><b>VLS user guide</b></td>
 <td>Complete guide of VLS</td>
 <td class="yes">Up-to-date</td>

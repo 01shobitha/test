@@ -4,13 +4,6 @@
 # Et pour les nouvelles importantes, c'est pas un | , c'est un §
 #
 
-|1 Apr 2003| Release: VLC for Mac OS 9 | Our team leaders have talked
-to a psychic who predicted that Mac OS 9 would be the most widely used
-operating system by 2008, outgrowing even the forthcoming Windows 2007.
-Therefore they decided to reconsider their attitude towards this great
-OS, and started a VLC port last night. A preliminary version is
-already available <a href="/images/vlc-os9.png">here</a>.
-
 |21 Mar 2003| VIA and VideoLAN annual presentation day| The VIA
 and VideoLAN teams are pleased to invite you to their annual
 presentation day at the Ecole Centrale Paris (Châtenay-Malabry,

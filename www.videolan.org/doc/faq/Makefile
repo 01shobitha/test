@@ -23,7 +23,7 @@ all: $(LANG)/$(DOC)-$(LANG).html $(LANG)/$(DOC)-$(LANG).pdf $(LANG)/$(DOC)-$(LAN
 
 init-$(LANG):
 	mkdir -p $(LANG)/
-	ln -sf ../../images/documentation $(LANG)/images
+	ln -sf ../../../images/documentation $(LANG)/images
 	cp screen.css $(LANG)
 	cp ../common/htaccess $(LANG)/.htaccess
 

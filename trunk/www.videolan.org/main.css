@@ -61,7 +61,7 @@ h2 {
   color: #888;
   padding: 0;
   text-decoration: underline;
-  border-style: solid;
+  border-bottom-style: solid;
   border-bottom-color: #a43;
   border-bottom-width: 2px;
 }

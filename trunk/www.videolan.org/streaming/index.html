@@ -1,5 +1,5 @@
 <?
-   $title = "VideoLAN - Overview of the streaming solution";
+   $title = "VideoLAN - The streaming solution";
    $lang = "en";
    $date = "11 January 2002";
    require("header.php3");
@@ -13,9 +13,10 @@
 
 <ul>
 
-<li>the VideoLAN Server (VLS), which can stream MPEG-1 and MPEG-2 files,     
-DVDs, digital satellite channels, digital terrestial television         
-channels and live videos on the network in unicast or multicast,</li>   
+<li>the VideoLAN Server (VLS), which can stream MPEG-1, MPEG-2 and      
+MPEG-4 files, DVDs, digital satellite channels, digital terrestial      
+television channels and live videos on the network in unicast or        
+multicast,</li>                                                         
 
 <li>the VideoLAN Client (VLC), which can be used as a server to stream  
 MPEG-1, MPEG-2 and MPEG-4 / DivX files and DVDs on the network in       
@@ -32,10 +33,11 @@ src="/images/plan-videolan-640.jpg" alt="VideoLAN Solution" /></a></p>
 
 <p>
 
-VLC's stream output works under Linux, Windows, Mac OS X and many Unices.
-VLS works under Linux and Windows, but only the Linux version has
-all the functionalities: see the <a href="features.html">streaming features
-page</a>.
+VLC's stream output works under Linux, Windows, Mac OS X and many       
+Unices. VLS works under Linux and Windows, but only the Linux version   
+has all the functionalities. For more information on VLC's stream       
+output and VLS, see the <a href="features.html">streaming features      
+page</a>.                                                               
 
 </p>
 
@@ -63,17 +65,47 @@ digital terrestial television card or an MPEG-2 encoding card.</li>
 
 
 <p>You can add a channel information service to the VideoLAN solution   
-with the mini VideoLAN Channel Server (mini-vlcs). Mini-VLCS associate         
+with the mini VideoLAN Channel Server (mini-VLCS). Mini-VLCS associate         
 multicast addresses and URLs to channels, like on a TV. If you install  
 it, the clients won't have to type multicast addresses and URLs by hand 
-any more, they will only need to give the DNS name of the mini VideoLAN 
-Channel Server.</p>
+any more, they will only need to give the DNS name of the mini-VLCS.</p>
 
 <? h2("Download"); ?>
 
-<p>To download VLC, go to the <a href="/vlc/index.html">VLC             
-download page</a>. To download VLS and mini-VLCS, go to the <a          
-href="download.html">streaming download page</a>.</p>                   
+<ul>
+<li><p>To download VLC, go to the <a href="/vlc/index.html">VLC             
+download page</a>.</p></li>
+
+<li><p>To download VLS, click on one of the icons below:</p>
+
+<table cellspacing="10">
+<tr>
+<td>
+  <a href="download-vls-sources.html"><img src="/images/icons/source.gif"
+      style="vertical-align: middle; border-width: 1px;"
+      alt="VLS source code" /></a>&nbsp;VLS source&nbsp;code
+</td>
+<td>
+  <a href="download-vls-debian.html"><img src="/images/icons/debian.gif"
+      style="vertical-align: middle; border-width: 1px;"
+      alt="Linux Debian" /></a>&nbsp;Debian&nbsp;GNU/Linux
+</td>
+</tr>
+</table>
+
+</li>
+
+<li><p>To download mini-VLCS, get the source code:</p>
+
+<p>
+<a href="download-vlcs.html"><img src="/images/icons/source.gif"
+      style="vertical-align: middle; border-width: 1px;"
+      alt="mini-VLCS source code" /></a>&nbsp;mini-VLCS source&nbsp;code
+</p>
+
+</li>
+
+</ul>
 
 <? h2("Documentation"); ?>
 
@@ -120,4 +152,4 @@ href="download.html">streaming download page</a>.</p>
 
 </table>
 
-<? footer('$Id: index.html,v 1.25 2003/02/16 14:38:39 alexis Exp $'); ?>
+<? footer('$Id: index.html,v 1.26 2003/03/09 14:22:09 alexis Exp $'); ?>

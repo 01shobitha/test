@@ -235,9 +235,8 @@ function second_bar_vlc($module) {
 /* Second bar for streaming */
 
 function second_bar_stream($module) {
-  get_second_bar_item (3, "index.html", "Overview", "/streaming/", $module);
-  get_second_bar_item (3, "features.html", "Features", "/streaming/features.html", $module);
-  get_second_bar_item (3, "download.html", "Download", "/streaming/download.html", $module);
+  get_second_bar_item (2, "index.html", "Overview", "/streaming/", $module);
+  get_second_bar_item (2, "features.html", "Features", "/streaming/features.html", $module);
 }
 
 /* Second bar for support */

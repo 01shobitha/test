@@ -1,0 +1,71 @@
+<?
+   $title = "VideoLan - Bug reporting";
+   $lang = "en";
+   $date = "25 January 2003";
+   require("header.php3");
+?>
+
+<h1> <a href="/">VideoLAN</a> / <a href="/support/">Support</a> / Bug reporting </h1>
+
+<p>If you find any bugs, or if you experience any crashes, then we would very much like to hear of these problems/suggestions. To make dealing with these as easy as possible, we as developers would like to see the following of you.
+</p>
+
+<? h2("Where to report"); ?>
+
+<p>You can enter your bug <a href="http://bugzilla.videolan.org/cgi-bin/bugzilla/enter_bug.cgi?product=VLC">here</a>.
+If it asks you to login you can use email <b>guest</b> password <b>guest</b> or you can create your own personal account <a href="http://bugzilla.videolan.org/cgi-bin/bugzilla/createaccount.cgi">here</a>.</p>
+
+<p>Try to fill in as much of the fields as you can, but if you don't understand it, just make your report in the large textfield and click the <i>commit</i> button. <br/>
+If you really don't understand it you can send the information to <a href="mailto:vlc-devel@videolan.org">vlc-devel@videolan.org</a>.</p>
+
+<? h2("What to include in your report"); ?>
+
+<p>Please gather the following information and send it along with your report.</p>
+<ul>
+<li>You email address, so we can get back to you with possible additional questions. <br />
+	<i>For instance: me@backbone.net</i></li>
+<li>Your operating system and the version you use. VLC runs on many systems and this information is really important.<br />
+	<i>For instance: WinXP, MacOSX 10.2 or Mandrake 8.1</li>
+<li>The version of VLC you use.<br />
+	<i>For instance: VLC 0.5.0 (You should always use the latest version of course)</li>
+<li>The exact situation in which the problem occurred. Please describe this in as much detail as possible.<br />
+	<i>For instance: I pressed the play button while fast-forwarding and VLC crashed.</li>
+</li>Can you always reproduce the problem in a certain way?<br />
+	<i>For instance: The crash always occurs with the 'Matrix' DVD after 10 minutes.</li>
+<li>The type of movie you were playing.<br />
+	<i>For instance: DVD, Divx or mpeg.</li>
+</ul>
+
+<? h2("Additional remarks"); ?>
+
+<p>If you can, or if it applies to you try to take into account the following.</p>
+<? h3("Everyone"); ?>
+<ul>
+<li>Try to make sure the problem you are reporting is not already known, or maybe even already solved. Sources of information include <a href="http://bugzilla.videolan.org/cgi-bin/bugzilla/query.cgi">Bugzilla</a>, the BUGS file, the mailing-list <a href="http://www.via.ecp.fr/ml/videolan/">archives</a> and your old friend <a href="http://www.google.nl">Google</a>.</li>
+
+<li>Be sure to be using a recent version. Bug reports against old versions of vlc are likely to be ignored, because changes in the program may make it impossible to reproduce the bug, or may even have fixed it.</li>
+</ul>
+<? h3("Mac OS X users"); ?>
+<ul>
+<li>Please send along the last part of ~/Library/Logs/CrashReporter/vlc.crash.log if you can. Many crashes of vlc are logged in this file. Please make sure you send the last crash (at the bottom of the file) and that it actually is the crash you described. The Date/Time field reports the time of the crash so that way you can check if it is the crash you experienced, or an earlier one.</li>
+</ul>
+<? h3("Linux users"); ?>
+<ul>
+<li>In case of a crash try to include a backtrace (if you know how to).</li>
+<li>Your CPU (Pentium 3, Sparc, PowerPC, ...).</li>
+</ul>
+<? h3("Compile problems"); ?>
+<ul>
+<li>Give the full log showing the problem
+<blockquote>./configure <options> &gt; logfile.txt 2&gt;&amp;1 <br />
+      make 2&gt;&amp;1 > logfile.txt 2&gt;&amp;1
+</blockquote>
+</li>
+<li>When dealing with a ./configure issue, please provide the generated config.log file.</li>
+<li>Your compiler brand and version may be relevant here as well.</li>
+</ul>
+
+Written by Derk-Jan Hartman <a href="mailto:thedj@users.sourceforge.net">thedj@users.sourceforge.net</a>, for the VideoLAN Team.
+
+
+<? footer('$Id: bug-reporting.html,v 1.1 2003/01/25 21:12:09 hartman Exp $'); ?>

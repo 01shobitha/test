@@ -46,7 +46,7 @@
 
 <span xml:lang="en">Where can I download VLC for Mac OS 9?</span>
 <span xml:lang="es">¿Dónde puedo descargar VLC para Mac OS 9?</span>
-<span xml:lang="fr">Où puis­je télécharger VLC pour MacOS 9 ?</span>
+<span xml:lang="fr">Où puis-je télécharger VLC pour MacOS 9 ?</span>
 
 </para></question>
 
@@ -60,7 +60,7 @@ not, and won't be, a version for Mac OS 9.</span>
 <span xml:lang="es">¿Dónde has leído que VLC para Mac OS 9 exista? No
 hay, y no habrá, una versión para Mac OS 9.</span>
 
-<span xml:lang="fr">Où avez­vous lu que VLC existait pour MacOS 9 ? Il
+<span xml:lang="fr">Où avez-vous lu que VLC existait pour MacOS 9 ? Il
 n'y a pas, et n'y aura jamais de version pour MacOS 9.</span>
 
 </para>
@@ -72,7 +72,7 @@ n'y a pas, et n'y aura jamais de version pour MacOS 9.</span>
 
 <span xml:lang="en">Does VLC support DVDs from all regions?</span>
 <span xml:lang="es">¿VLC soporta DVDs de todas las regiones?</span>
-<span xml:lang="fr">Est­ce que VLC supporte les DVD de toutes les régions ?</span>
+<span xml:lang="fr">Est-ce que VLC supporte les DVD de toutes les régions ?</span>
 
 </para></question>
 
@@ -101,7 +101,7 @@ sont donc supportées sans aucune contrainte.</span>
 
 <span xml:lang="en">Where does VLC store its config file?</span>
 <span xml:lang="es">¿Dónde guarda VLC su archivo de configuración?</span>
-<span xml:lang="fr">Où VLC sauvegarde­t­il son fichier de configuration ?</span>
+<span xml:lang="fr">Où VLC sauvegarde-t-il son fichier de configuration ?</span>
 
 </para></question>
 
@@ -215,7 +215,7 @@ package?</span>
 <span xml:lang="es">¿ Instalaste el paquete de
 <emphasis>libdvdcss</emphasis> ?</span>
 
-<span xml:lang="fr">Avez­vous installé le package
+<span xml:lang="fr">Avez-vous installé le package
 <emphasis>libdvdcss</emphasis> ?</span>
 
 </para></listitem>
@@ -228,7 +228,7 @@ instance, under Unix:</span>
 <span xml:lang="es">¿ Tienes acceso de escritura a tu aparato DVD ? Por
 ejemplo, bajo Unix :</span>
 
-<span xml:lang="fr">Avez­vous les droits d'écriture sur votre lecteur
+<span xml:lang="fr">Avez-vous les droits d'écriture sur votre lecteur
 DVD ? Par exemple, sous Unix :</span>
 
 </para>
@@ -333,7 +333,7 @@ desconfigurado/descontrolado, esto ocurre por ejemplo bajo Redhat Linux.
 Aquí hay algunos elementos para mejorar la velocidad :</span>
 
 <span xml:lang="fr">Votre système est trop lent pour décoder toutes les
-images. Peut­être que votre processeur n'est tout simplement pas assez
+images. Peut-être que votre processeur n'est tout simplement pas assez
 rapide. Mais cela peut être aussi du à un système mal configuré ou qui
 n'est pas à jour, cela arrive par exemple sous RedHat Linux. Voici donc
 quelques astuces pour augmenter la vitesse de lecture : </span>
@@ -386,7 +386,7 @@ casilla de verificación DMA.</span>
 <emphasis>Système</emphasis> du <emphasis>Panneau de
 Configuration</emphasis>, puis allez dans le <emphasis>Gestionnaire de
 Périphériques</emphasis> (il se trouve parfois dans un autre onglet, ou
-alors vous devrez cliquer sur l'onglet Avancé). Ensuite, double­cliquez
+alors vous devrez cliquer sur l'onglet Avancé). Ensuite, double-cliquez
 sur votre lecteur DVD et cochez la case DMA.</span>
 
 </para></listitem>
@@ -414,7 +414,7 @@ xvideo es está usando con :</span>
 
 <span xml:lang="fr">Si vous êtes sous Linux, vous pouvez également
 installer la dernière version de XFree86 ; si votre système le permet,
-vérifiez que le plug­in xvideo est utilisé avec :</span>
+vérifiez que le plug-in xvideo est utilisé avec :</span>
 
 </para>
 
@@ -476,19 +476,19 @@ sortie audio et, sous Unix, arrêtez <emphasis>esd</emphasis> ou
 <para>
 
 <span xml:lang="en">Increase the verbosity level (either in the
-preferences or with a <emphasis>-vvvv</emphasis> command line option)
+preferences or with a <command>-vvvv</command> command line option)
 and look at the debug messages (in the terminal or in the Messages
 window).</span>
 
 <span xml:lang="es">Aumenta el nivel de verbosidad (verbosity level)
-(o en preferencias o con una opción <emphasis>-vvvv</emphasis> en la
+(o en preferencias o con una opción <command>-vvvv</command> en la
 línea de comandos) y mira los mensajes de debug (en el terminal o en la
 ventana Mensajes).</span>
 
 <span xml:lang="fr">Augmentez le niveau de verbosité (soit dans
 les préférences, soit avec l'option de la ligne de commande
-<emphasis>­vvvv</emphasis>) et regardez les messages de déboguage (dans
-la console ou dans la fenêtre Messages).</span>
+<command>-vvvv</command>) et regardez les messages de déboguage (dans la
+console ou dans la fenêtre Messages).</span>
 
 </para>
 
@@ -517,7 +517,7 @@ d'un bug</ulink>.</span>
 
 <span xml:lang="en">How can I take screenshots?</span>
 <span xml:lang="es">¿ Cómo capturo pantallas ?</span>
-<span xml:lang="fr">Comment puis­je faire des captures d'écran ?</span>
+<span xml:lang="fr">Comment puis-je faire des captures d'écran ?</span>
 
 </para></question>
 
@@ -706,7 +706,7 @@ travaillent sur une nouvelle version de l'input, connue sous le nom de
 
 <span xml:lang="en">Isn't it a waste of time to develop both?</span>
 <span xml:lang="es">¿ No es una pérdida de tiempo desarrollar ambos ?</span>
-<span xml:lang="fr">N'est­ce pas une perte de temps de développer les deux ?</span>
+<span xml:lang="fr">N'est-ce pas une perte de temps de développer les deux ?</span>
 
 </para></question>
 
@@ -756,7 +756,7 @@ interfaces.</span>
 que implementa demuxers, códecs, salidas de vídeo y audio (outputs) e
 interfaces gráficas.</span>
 
-<span xml:lang="fr">VLC, un programme multi­plateformes écrit en C,
+<span xml:lang="fr">VLC, un programme multi-plateformes écrit en C,
 qui utilise des codecs, des sorties audio et vidéo, et propose des
 interfaces graphiques.</span>
 
@@ -829,7 +829,7 @@ moteur d'innovation et d'amélioration.</span>
 
 <span xml:lang="en">May I use the VideoLAN logo?</span>
 <span xml:lang="es">¿ Puedo usar el logo de VideoLAN ?</span>
-<span xml:lang="fr">Puis­je utiliser le logo VideoLAN ?</span>
+<span xml:lang="fr">Puis-je utiliser le logo VideoLAN ?</span>
 
 </para></question>
 
@@ -879,7 +879,7 @@ suivant le copyright suivant :</span>
 
 <span xml:lang="en">May I redistribute a VideoLAN software?</span>
 <span xml:lang="es">¿ Puedo redistribuir un programa VideoLAN ?</span>
-<span xml:lang="fr">Puis­je redistribuer un logiciel de VideoLAN ?</span>
+<span xml:lang="fr">Puis-je redistribuer un logiciel de VideoLAN ?</span>
 
 </para></question>
 
@@ -922,11 +922,11 @@ de nos produits. La manière la plus simple de se conformer à la GPL
 est d'accompagner le produit que vous voulez distribuer de son code
 source. Par exemple, si vous voulez distribuer les derniers binaires
 de VLC, vous devrez également inclure tous les fichiers listés sur la
-<ulink url="http://www.videolan.org/vlc/download­sources.html">page du
+<ulink url="http://www.videolan.org/vlc/download-sources.html">page du
 code source de VLC</ulink>. Vous n'avez pas besoin de vous ennuyer à
 expliquer d'où viennent les sources, mais ces sources doivent bien être
 celles du produit distibué. Il y a d'autres façons de se conformer à
-la GPL, mais celle­là est la plus simple car elle ne recourt pas à un
+la GPL, mais celle-là est la plus simple car elle ne recourt pas à un
 contrat.</span>
 
 </para>
@@ -950,7 +950,7 @@ l'équipe VideoLAN pour faire cela !</span>
 
 <span xml:lang="en">Is libdvdcss legal?</span>
 <span xml:lang="es">¿ Es libdvdcss legal ?</span>
-<span xml:lang="fr">La libdvdcss est­elle légale ?</span>
+<span xml:lang="fr">La libdvdcss est-elle légale ?</span>
 
 </para></question>
 
@@ -971,7 +971,7 @@ segura la legalidad de usar y distribuir esta librería en tu país, por
 favor consulta a su abogado.</span>
 
 <span xml:lang="fr">L'utilisation et la distribution de la librairie
-libdvdcss sont controversées dans certains pays tels que les Etats­Unis
+libdvdcss sont controversées dans certains pays tels que les Etats-Unis
 à cause d'une loi appelée DMCA (Digital Millennium Copyright Act).
 Si vous n'êtes pas sûr de la légalité de l'utilisation et de la
 distribution de la libdvdcss dans votre pays, contactez votre
@@ -999,7 +999,7 @@ avocat.</span>
 
 <span xml:lang="en">How may I help VideoLAN?</span>
 <span xml:lang="es">¿ Cómo puedo ayudar a VideoLAN ?</span>
-<span xml:lang="fr">Comment puis­je aider VideoLAN ?</span>
+<span xml:lang="fr">Comment puis-je aider VideoLAN ?</span>
 
 </para></question>
 
@@ -1034,7 +1034,7 @@ english?</span>
 <span xml:lang="es">¿ Por qué vuestros correos y vuestra página web son
 en inglés ?</span>
 
-<span xml:lang="fr">Pourquoi votre mailing­list et votre site sont­ils
+<span xml:lang="fr">Pourquoi votre mailing-list et votre site sont-ils
 en anglais ?</span>
 
 </para></question>

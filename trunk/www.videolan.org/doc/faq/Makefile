@@ -12,11 +12,11 @@ $(LANG): %: $(foreach ext, $(EXT), $(DOC)-%.$(ext))
 
 # The clean rule
 clean:
-	rm -f *.zip *.html *.pdf *.ps *.txt *.rtf *.dvi *.out *.aux *.log
+	rm -f *.zip *.html *.pdf *.ps *.txt *.rtf *.dvi *.out *.aux *.log $(DOC)-*.xml *.tmp
 
 # Specific rules for each extension
 $(LANG:%=$(DOC)-%.xml): $(DOC).xml
-	xsltproc --stringparam lang $(shell echo $(basename $@) | sed -e 's/.*-//') ../common/multilanguage.xsl $^ | sed -e 's/id="videolan-faq"/id="$(basename $@)"/' > $@
+	xsltproc --stringparam lang $(shell echo $(basename $@) | sed -e 's/.*-//') ../common/multilanguage.xsl $^ | sed -e 's/id="$(DOC)"/id="$(basename $@)"/' > $@
 
 $(LANG:%=$(DOC)-%.html): %.html: %.xml
 	cp ../common/magic-jpg.xml ../common/magic.xml

@@ -27,8 +27,9 @@ page</ulink>.</para>
 
 <para>Edit the configuration file <filename>sap.cfg</filename> shipped
 with the tarball. It should contain a global section with the Time To
-Live of the SAP announces and a section per program announced. Use the
-comments to understand each parameter.</para>
+Live (TTL) and the IP version (IPv4 or IPv6) used for the SAP announces
+and a section per program announced. Use the comments to understand each
+parameter.</para>
 
 <para>The Time To Live option indicates the maximum number of routers
 that the SAP announce packets can cross before being dropped.</para>
@@ -57,9 +58,25 @@ your config file is <filename>/etc/sap.cfg</filename>.</para>
 
 <sect1><title>Start VLC(s) on the client(s)</title>
 
+<itemizedlist>
+
+<listitem><para>If the announces are sent in IPv4 :</para>
+
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv --extraintf sap</userinput>
 </screen>
+
+</listitem>
+
+<listitem><para>If the announces are sent in IPv6 :</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv --extraintf sap --sap-ipv6</userinput>
+</screen>
+
+</listitem>
+
+</itemizedlist>
 
 <para>Then open the playlist : you should see the programs announced.
 When you double-click on the name of a program, VLC will subscribe to

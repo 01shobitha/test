@@ -57,7 +57,7 @@ or a CD-ROM drive,</para></listitem>
 
 <listitem><para>DVDs and VCDs,</para></listitem>
 
-<listitem><para>from a satellite card,</para></listitem>
+<listitem><para>from a satellite card (DVB-S),</para></listitem>
 
 <listitem><para>MPEG-1, MPEG-2 and MPEG-4 streams from the
 network sent by VLS or VLC's stream output.</para></listitem>
@@ -81,13 +81,15 @@ network sent by VLS or VLC's stream output.</para></listitem>
 <itemizedlist>
 
 <listitem><para>one machine (i.e. to one IP address) : this is called
-<emphasis>unicast</emphasis> ;</para></listitem>
+<emphasis>unicast</emphasis>,</para></listitem>
 
 <listitem><para>a dynamic group of machines that the clients can
 join or leave (i.e. to a multicast IP address) : this is called
-<emphasis>multicast</emphasis>.</para></listitem>
+<emphasis>multicast</emphasis>,</para></listitem>
 
 </itemizedlist>
+
+<para>in IPv4 or IPv6.</para>
 
 <para>To get the complete list of VLC's possibilities
 on each plateform supported, see the <ulink
@@ -111,8 +113,8 @@ or on a CD,</para></listitem>
 <listitem><para>a DVD located in a local DVD drive or copied on a hard
 disk,</para></listitem>
 
-<listitem><para>a satellite card or a digital terrestial television
-card,</para></listitem>
+<listitem><para>a satellite card (DVB-S) or a digital terrestial
+television card (DVB-T),</para></listitem>
 
 <listitem><para>an MPEG encoding card ;</para></listitem>
 
@@ -123,13 +125,15 @@ card,</para></listitem>
 <itemizedlist>
 
 <listitem><para>one machine (i.e. to one IP address) : this is called
-<emphasis>unicast</emphasis> ;</para></listitem>
+<emphasis>unicast</emphasis>,</para></listitem>
 
 <listitem><para>a dynamic group of machines that the clients can join or leave
 (i.e. to a multicast IP address) : this is called
-<emphasis>multicast</emphasis>.</para></listitem>
+<emphasis>multicast</emphasis>,</para></listitem>
 
 </itemizedlist>
+
+<para>in IPv4 or IPv6.</para>
 
 <para>A Pentium 100 MHz with 32 MB of memory should be enough to send one
 stream on the network. When streaming a lot of videos stored on a
@@ -147,9 +151,9 @@ page</ulink>.</para>
 
 <para>You can add a channel information service based on the SAP/SDP
 standard to the VideoLAN solution. The mini-SAP-server sends announces
-about the multicast programs on the network, and VLCs receive these
-annouces and automatically add the programs announced to their
-playlist.</para>
+about the multicast programs on the network in IPv4 or IPv6, and VLCs
+receive these annouces and automatically add the programs announced to
+their playlist.</para>
 
 <para>The mini-SAP-server works under Linux and Mac OS X.</para>
 

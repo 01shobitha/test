@@ -29,12 +29,17 @@ E: alexis@videolan.org
 C: alexis
 D: VideoLAN Quickstart
 D: VideoLAN HOWTO
-D: VLC user guide
+D: VideoLAN FAQ
 S: France
 
 N: Bill Eldridge
 E: bill@rfa.org
 D: VideoLAN Quickstart
+
+N: Renaud Poulet
+E: idill@voila.fr
+D: French translation
+S: France
 
 N: Clément Stenac
 E: zorglub@via.ecp.fr
@@ -47,8 +52,3 @@ N: Javier Varela
 E: tonxabar@hotmail.com
 D: Spanish translation
 S: Spain
-
-N: Renaud Poulet
-E: idill@voila.fr
-D: French translation
-S: France

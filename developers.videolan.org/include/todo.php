@@ -4,20 +4,69 @@
     {
 	function display()
 	{
-	    echo "<div class=\"task\">\n";
-	    echo "<h2 class=\"task\">".$this->description."</h1>\n";
+	    echo "<div class=\"task\" id=\"t".$this->id."\">";
+	    echo "<h2 class=\"task\">".$this->description."</h2>\n";
 	    echo "<p><i>Difficulty</i>: ".$this->difficulty;
 	    echo " <i>Urgency</i>: ".$this->urgency;
-	    echo "</p>\n<p>".$this->longdescr;
+	    echo "<br />\n".$this->longdescr;
 	    echo "</p>\n";
             echo "<p style=\"text-align:right;\">".$this->status."</p></div>\n";
 	}
 
-	function table()
+	function table($page)
 	{
-	    echo "<tr><td>".$this->description."</td>";
-	    echo "<td>".$this->difficulty."</td>";
-            echo "<td>".$this->status."</td></tr>\n";
+	    echo "<tr><td style=\"border:1pt black solid;\"><a href=\"$page#t".$this->id."\">".$this->description."</a></td>";
+	    $bgcolor = "white";
+	    $fgcolor = "black";
+	    if( stristr( $this->difficulty,"easy") != FALSE )
+	    {
+		$bgcolor = "green";
+            }
+	    else if( stristr($this->difficulty, "medium") != FALSE )
+	    {
+		$bgcolor = "orange";
+            }
+	    else if( stristr( $this->difficulty,"hard") != FALSE )
+	    {
+		$bgcolor = "red";
+            }
+	    else if( stristr( $this->difficulty,"guru") != FALSE )
+	    {
+		$bgcolor = "black";
+ 	        $fgcolor = "white";
+            }
+	    echo "<td style=\"background-color:$bgcolor;border:1pt black solid;color:$fgcolor;text-align:center;\">".$this->difficulty."</td>";
+
+$bgcolor = "white";
+
+	    if( stristr( $this->urgency,"wishlist") )
+	    {
+		$bgcolor = "green";
+	    }
+	    else if( stristr( $this->urgency,"normal") )
+	    {
+		$bgcolor = "orange";
+	    }
+	    else if( stristr( $this->urgency,"important") )
+	    {
+		$bgcolor = "read";
+	    }
+	    else if( stristr( $this->urgency,"critical") )
+	    {
+		$bgcolor = "black";
+ 		$fgcolor = "white";
+	    }
+            echo "<td style=\"background-color:$bgcolor;border:1pt black solid;color:$fgcolor;text-align:center;\">".$this->urgency."</td>";
+	
+	    if( stristr( $this->status, "todo" ) )
+	    {
+		$bgcolor = "red";
+	    }
+	    else 
+	    {
+		$bgcolor = "green";
+            }
+            echo "<td style=\"text-align:center;background-color:$bgcolor;border:1pt black solid;\">".$this->status."</td></tr>\n";
 	}
 		
 	var $description;
@@ -25,6 +74,7 @@
 	var $urgency;
 	var $longdescr;
 	var $status;
+        var $id;
     }
 
     class Todo 
@@ -33,6 +83,7 @@
 	{
 	    $this->todo_file = $file;
 	
+	    $lastid  = 0;
 	    $this->array = array();
 
 	    $file_id = fopen( $this->todo_file, "r" );
@@ -73,6 +124,7 @@
 		    
 		    $task->longdescr = $buffer;
 		    unset($buffer);
+		    $task->id = ++$lastid;
 		    array_push( $this->array, $task ) ;
 		    $task = new Task;
 		}
@@ -91,12 +143,13 @@
 	   }
 	}
 
-	function table()
+	function table($page)
 	{
-	   echo "<table>";
+	   echo "<table style=\"width:100%;\">";
+           echo "<tr><th>Task name</th><th>Difficulty</th><th>Urgency</th><th>Status</th></tr>";
 	   foreach( $this->array as $task )
            {
-                $task->table();
+                $task->table($page);
            } 
 	   echo "</table>";
 	}

@@ -192,7 +192,7 @@ td.green  { color: black; background-image: none; background-color: #afa; }
 td.orange { color: black; background-image: none; background-color: #ec8; }
 td.red    { color: black; background-image: none; background-color: #faa; }
 
-/* Styles used for the feature tables */
+/* Styles used for the features tables */
 td.yes {
   color: black;
   background-image: none;
@@ -248,6 +248,8 @@ td.topbar {
   font-weight: bold;
   font-size: 10pt;
 
+  margin: 2px;
+
   border-style: solid;
   border-color: #a43;
   border-bottom-width: 1px;
@@ -265,6 +267,8 @@ td.topbarselected {
   font-weight: bold;
   font-size: 10pt;
 
+  margin: 2px;
+
   border-style: solid;
   border-color: #a43;
   border-bottom-width: 0px;
@@ -274,15 +278,6 @@ td.topbarselected {
 }
 
 /* Styles used for the lower navigation bar */
-tr.bottombar {
-  border-style: solid;
-  border-color: #a43;
-  border-bottom-width: 0px;
-  border-top-width: 0px;
-  border-left-width: 1px;
-  border-right-width: 1px;
-}
-
 td.bottombar {
   vertical-align: middle;
   background-color: #aaa;
@@ -291,6 +286,8 @@ td.bottombar {
   text-align: center;
   font-weight: bold;
   font-size: 11pt;
+
+  margin: 2px;
 
   border-style: solid;
   border-color: #a43;
@@ -308,6 +305,8 @@ td.bottombarselected {
   text-align: center;
   font-weight: bold;
   font-size: 11pt;
+
+  margin: 2px;
 
   border-style: solid;
   border-color: #a43;

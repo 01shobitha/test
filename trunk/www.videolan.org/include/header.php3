@@ -90,7 +90,7 @@ function starthtml($title) { ?>
   ?></tr>
   </table>
   <table style="width: 100%;" cellspacing="0" cellpadding="0">
-  <tr class="bottombar">
+  <tr>
     <? switch($modules[1]) {
       case "vlc": second_bar_vlc($modules[2]); break;
       case "streaming": second_bar_stream($modules[2]); break;

@@ -23,11 +23,11 @@
     <tr><td class="skins-comment">
       <? echo $text; ?>
     </td></tr>
-    <tr><? CSSButton( "document.location='/vlc/skins/$zip'", 
+    <tr><? if strlen($zip)>2) CSSButton( "document.location='/vlc/skins/$zip'", 
     "skins-download", "skins-download-over", "skins-download-down" ); ?>
       Download ZIP file
     </td></tr>
-    <tr><? CSSButton( "document.location='/vlc/skins/$vlt'",
+    <tr><? if(strlen($vlt)>2) CSSButton( "document.location='/vlc/skins/$vlt'",
     "skins-download", "skins-download-over", "skins-download-down" ); ?>
       Download VLT file
     </td></tr>
@@ -75,4 +75,12 @@ skin you want to use.</p>
 
 ?>
 
-<? footer('$Id: download-skins.html,v 1.5 2003/09/29 23:27:55 sam Exp $'); ?>
+<h2>Hifi skin</h2>
+<? AddSkin( 
+   "skin-hifi.jpg"
+   "This skin was made by krokofox@gmx.net",
+   "",
+   "kkf.zip");
+
+
+<? footer('$Id: download-skins.html,v 1.6 2003/10/03 15:55:09 zorglub Exp $'); ?>

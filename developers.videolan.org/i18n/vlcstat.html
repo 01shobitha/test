@@ -23,8 +23,9 @@
  </tr>
 
  <?php
-     $reffile = "/var/www/local/developers.videolan.org/i18n/vlc-stats.ref";
-     $lgfile="/var/www/local/developers.videolan.org/i18n/langages";
+     $path = "/var/www/local/developers.videolan.org/i18n";
+     $reffile = "$path/vlc-stats.ref";
+     $lgfile = "$path/langages";
 
      $file_id= fopen($reffile,"r");
      $contents = fread ($file_id, filesize($reffile) );
@@ -68,7 +69,7 @@
 	imagestring( $image, 5, 65, 2 , floor($pc_tr)."%" , $black);
 
         /* Save and destroy the image */
-        imagepng($image,"images/image_$pofile.png");
+        imagepng($image,"$path/images/image_$pofile.png");
 	imagedestroy($image);
  
         /* Display results */

@@ -555,21 +555,24 @@ die von Satelliten)</span>
 .</para></listitem>
 
 <listitem><para><emphasis>--audio-type  &lt;<span xml:lang="en">integer</span><span xml:lang="fr">entier</span><span xml:alng="de">Ganzzahl</span>&gt;</emphasis>
-<span xml:lang="en">specifies the default audio type to use with dvds</span>
+<span xml:lang="en">specifies the default audio type to use with DVDs</span>
 <span xml:lang="fr">spécifie le type audio par défaut pour les DVDs</span>
 <span xml:lang="de">Legt den standardmäßigen Audiotyp bei DVDs fest</span> 
 .</para></listitem>
 
 <listitem><para><emphasis>--audio-channel  &lt;<span xml:lang="en">integer</span><span xml:lang="fr">entier</span><span xml:lang="de">Ganzzahl</span>&gt;</emphasis>
-<span xml:lang="en">specifies the default audio channel to use with dvds</span>
+<span xml:lang="en">specifies the default audio channel to use with DVDs</span>
 <span xml:lang="fr">spécifie le canal audio par défaut pour les DVDs</span>
 <span xml:lang="de">Legt den standardmäßigen Tonkanal bei DVDs fest</span>
 .</para></listitem>
 
 <listitem><para><emphasis>--spu-channel  &lt;<span xml:lang="en">integer</span><span xml:lang="fr">entier</span><span xml:lang="de">Ganzzahl</span>&gt;</emphasis>
-<span xml:lang="en">specifies the default subtitle channel to use with dvds</span>
-<span xml:lang="fr">spécifie le canal de sous-titre par défaut pour les DVDs</span>
-<span xml:lang="de">Legt den standardmäßigen Untertitelkanal bei DVDs fest</span>
+<span xml:lang="en">specifies the default subtitle channel to use with
+DVDs and VCDs with SVCD- or CVD-encoded subtitles</span>
+<span xml:lang="fr">spécifie le canal de sous-titre par défaut pour
+les DVDs ou les VCDs</span>
+<span xml:lang="de">Legt den standardmäßigen Untertitelkanal bei DVDs
+oder VCDs fest</span>
 .</para></listitem>
 
 </itemizedlist>

@@ -20,7 +20,7 @@ url="http://vcdimager.org">vcdimager</ulink> and a new enough <ulink
 url="http://www.gnu.org/software/libcdio">libcdio</ulink> you will get
 the newer navigation-capable plugin. Eventually when libcdio is more
 mature and handles more OSs the older plugin will disapear. The file
-doc/intf-vcd.txt in the vlc source gives detailed information about
+<filename>doc/intf-vcd.txt</filename> in the vlc source gives detailed information about
 this plugin.
 </span>
 <span xml:lang="fr">Module de lecture de CDs audio.</span>
@@ -154,8 +154,8 @@ url="http://vcdimager.org">vcdimager</ulink> and a new enough <ulink
 url="http://www.gnu.org/software/libcdio">libcdio</ulink> you will get
 the newer navigation-capable plugin. Eventually when libcdio is more
 mature and handles more OSs the older plugin will disapear. The file
-doc/intf-vcd.txt in the vlc source gives detailed information about
-this plugin.
+<filename>doc/intf-vcd.txt</filename> in the vlc source gives detailed
+information about this plugin.
 </span>
 <span xml:lang="fr">Module de lecture de VideoCD.</span>
 </para></sect2>

@@ -55,7 +55,7 @@
 <para>
 
 <span xml:lang="en">Where did you read VLC for Mac OS 9 exist? There is
-not, and won't be, a version for Mac OS 9.</span>
+not, and will not be, a version for Mac OS 9.</span>
 
 <span xml:lang="es">¿Dónde has leído que VLC para Mac OS 9 exista? No
 hay, y no habrá, una versión para Mac OS 9.</span>
@@ -168,9 +168,9 @@ Data\vlc\vlcrc</filename></para></listitem>
 <para>
 
 <span xml:lang="en">The first thing to do is to delete VLC's
-configuration file (see the previous question to know about it's
-location). Then restart VLC ; if it doesn't get any better, read the
-following questions !</span>
+configuration file (see the previous question to know about its
+location). Then restart VLC. If it does not get any better, read the
+following questions!</span>
 
 <span xml:lang="es">Lo primero que hay que hacer es borrar el archivo de
 configuración de VLC (ver anterior pregunta para saber su localización).
@@ -189,9 +189,9 @@ lisez les questions suivantes !</span>
 
 <qandaentry><question><para>
 
-<span xml:lang="en">I can't read DVDs... !</span>
-<span xml:lang="es">¡ No puedo ver DVDs... !</span>
-<span xml:lang="fr">Je ne peux pas lire les DVD... !</span>
+<span xml:lang="en">I cannot read DVDs!</span>
+<span xml:lang="es">¡ No puedo ver DVDs !</span>
+<span xml:lang="fr">Je ne peux pas lire les DVD !</span>
 
 </para></question>
 
@@ -405,7 +405,7 @@ sur votre lecteur DVD et cochez la case DMA.</span>
 <para>
 
 <span xml:lang="en">If you are running Linux, you can additionnaly
-upgrade to the latest XFree86 version ; if supported, check that the
+upgrade to the latest XFree86 version. If supported, check that the
 xvideo plug-in is effectively used with:</span>
 
 <span xml:lang="es">Si ejecutas Linux, ademas puedes actualizar la
@@ -424,7 +424,7 @@ vérifiez que le plug-in xvideo est utilisé avec :</span>
 
 <listitem><para>
 
-<span xml:lang="en">Stop other applications running...</span>
+<span xml:lang="en">Stop other running applications...</span>
 <span xml:lang="es">Para otras aplicaciones ejecutándose en segundo plano...</span>
 <span xml:lang="fr">Arrêtez les autres programmes en marche...</span>
 </para></listitem>
@@ -495,7 +495,7 @@ console ou dans la fenêtre Messages).</span>
 <para>
 
 <span xml:lang="en">If you are convinced that
-it's a bug in VLC, have a look at the <ulink
+it is a bug in VLC, have a look at the <ulink
 url="http://www.videolan.org/support/bug-reporting.html">bug reporting
 page</ulink>.</span>
 
@@ -540,8 +540,8 @@ par VLC :</span>
 
 <listitem><para>
 
-<span xml:lang="en">under XFree, add the <command>--vout x11</command>
-option to the command line;</span>
+<span xml:lang="en">Under XFree, add the <command>--vout x11</command>
+option to the command line.</span>
 
 <span xml:lang="es">bajo XFree, añade la opción <command>--vout
 x11</command> a la línea de comandos ;</span>
@@ -553,7 +553,7 @@ x11</command> a la línea de comandos ;</span>
 
 <listitem><para>
 
-<span xml:lang="en">under Windows, add the <command>--nooverlay</command>
+<span xml:lang="en">Under Windows, add the <command>--nooverlay</command>
 option to the command line.</span>
 
 <span xml:lang="es">bajo Windows, añade la opción
@@ -633,8 +633,8 @@ de streaming</ulink>.</span>
 
 <span xml:lang="en">VLC is good at streaming various MPEG files in
 various encapsulation formats (mpg, vob, mp3, avi, mov, ogg, mp4...)
-with a nice graphical interface and is starting to do some transcoding
-;</span>
+with a nice graphical interface and is starting to do some transcoding.
+</span>
 
 <span xml:lang="es">VLC es bueno volcando (streaming) de varios archivos
 MPEG en varios formatos de encapsulación (mpg, vob, mp3, avi, mov, ogg,
@@ -680,8 +680,8 @@ alors que VLS est plus fiable.</span>
 <para>
 
 <span xml:lang="en">To be a real streamer, VLC would need to be able
-to read multiple sources at the same time. VLS can do this since it's
-origin, but VLC can't do this for the moment. Some VLC developers are
+to read multiple sources at the same time. VLS can do this since its
+origin, but VLC cannot do this for the moment. Some VLC developers are
 working on a new version of the VLC input, known as "Input 4", which
 should address this issue.</span>
 
@@ -704,7 +704,7 @@ travaillent sur une nouvelle version de l'input, connue sous le nom de
 
 <qandaentry><question><para>
 
-<span xml:lang="en">Isn't it a waste of time to develop both?</span>
+<span xml:lang="en">Is it not a waste of time to develop both?</span>
 <span xml:lang="es">¿ No es una pérdida de tiempo desarrollar ambos ?</span>
 <span xml:lang="fr">N'est-ce pas une perte de temps de développer les deux ?</span>
 
@@ -768,7 +768,7 @@ interfaces graphiques.</span>
 
 <span xml:lang="en">In september 2002, some VLC developers had the idea
 of taking advantage of the multiple demuxers and codecs implemented in
-VLC to build a Stream Ouput who's ultimate goal was to be able to do
+VLC to build a Stream Ouput whose ultimate goal was to be able to do
 transcoding. They wrote a stream output for VLC, that was released with
 VLC 0.5.0 in late January 2003. VLC's stream output is now beginning to
 do some transcoding.</span>
@@ -792,20 +792,20 @@ Janvier 2003 avec VLC 0.5.0.</span>
 <para>
 
 <span xml:lang="en">But what is more important is that VLS and VLC
-developers are not the same persons ; and that they are free to
-developer the software they prefer... ! That's how free software runs,
+developers are not the same people, and that they are free to
+write the software they prefer! That is how free software runs,
 and it has shown in the past that is was a good engine for innovation
 and enhancement.</span>
 
 <span xml:lang="es">Pero lo que es más importante es que los
 desarrolladores de VLS y VLC no son las mismas personas; ¡ y que son
-libres de desarrollar el programa que prefieran... ! Así es como
+libres de desarrollar el programa que prefieran ! Así es como
 funciona el software libre, y ha mostrado en el pasado ser una buena
 máquina para innovar y perfeccionar.</span>
 
 <span xml:lang="fr">Mais le plus important est que les développeurs
 de VLC et de VLS ne sont pas les mêmes personnes ; ils sont libres de
-développer le programme qu'ils préfèrent... ! C'est comme cela que les
+développer le programme qu'ils préfèrent ! C'est comme cela que les
 logiciels libres marchent, et le passé nous a montré que c'est un bon
 moteur d'innovation et d'amélioration.</span>
 
@@ -877,7 +877,7 @@ suivant le copyright suivant :</span>
 
 <qandaentry><question><para>
 
-<span xml:lang="en">May I redistribute a VideoLAN software?</span>
+<span xml:lang="en">May I redistribute a piece of VideoLAN software?</span>
 <span xml:lang="es">¿ Puedo redistribuir un programa VideoLAN ?</span>
 <span xml:lang="fr">Puis-je redistribuer un logiciel de VideoLAN ?</span>
 
@@ -887,8 +887,8 @@ suivant le copyright suivant :</span>
 
 <para>
 
-<span xml:lang="en">You may distribute an original or modified version
-of a VideoLAN software as long as you comply with its license terms. It
+<span xml:lang="en">You may distribute an original or modified version of a
+piece of VideoLAN software as long as you comply with its license terms. It
 is the GNU General Public License Version 2 (referred herein as GPL),
 and it is in the file named COPYING in our products. The easiest way to
 conform to the GPL is to accompany the product you want to distribute
@@ -933,7 +933,7 @@ contrat.</span>
 
 <note><para>
 
-<span xml:lang="en">You don't need to ask the VideoLAN team the
+<span xml:lang="en">You do not need to ask the VideoLAN team the
 permission to do so!</span>
 
 <span xml:lang="es">¡ No necesitas pedir permiso al equipo de VideoLAN

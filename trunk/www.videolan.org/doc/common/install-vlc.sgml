@@ -94,11 +94,11 @@ gnome-vlc (or vlc-gtk) RPMs from this page and all the plugins you want.
 
 <sect2><title>Under Linux Redhat</title>
 
-<para>Download the RPM packages from the <ulink
+<para>Download the RPM package <emphasis>vlc</emphasis> and the packages
+listed in the <emphasis>required librairies and codecs</emphasis>
+section (the other packages are just optional) from the <ulink
 url="http://www.videolan.org/vlc/download-redhat.html">VLC Red Hat
-download page</ulink> all to the same directory. Only the package
-<emphasis>vlc</emphasis> and the packages listed in <emphasis>required
-librairies</emphasis> will be needed, the rest are just optional.</para>
+download page</ulink> and put them all into the same directory.
 
 <para>Then install the RPM packages you have downloaded:</para>
 

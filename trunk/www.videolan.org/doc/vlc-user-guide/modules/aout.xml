@@ -25,7 +25,7 @@ xml:lang="fr">Activé par défaut sous Mac OS X</span></emphasis></para>
 &options-st;
 <itemizedlist>
 <listitem>
-<para>--coreaudio-dev &lt;integer&gt;
+<para><emphasis>--coreaudio-dev &lt;integer&gt; </emphasis>:
 <span xml:lang="en">force a specific audio device</span>
 <span xml:lang="fr">forcer l'utilisation d'un périphérique audio</span>
 </para>
@@ -68,13 +68,13 @@ OSS doit être activée</span>
 &options-st;
 <itemizedlist>
 <listitem>
-<para>--dspdev &lt;string&gt;
+<para><emphasis>--dspdev &lt;string&gt; </emphasis>:
 <span xml:lang="en">set dsp OSS driver</span>
 <span xml:lang="fr">choisir un périphérique dsp OSS</span>
 </para>
 </listitem>
 <listitem>
-<para>--oss-buggy, --no-oss-buggy
+<para><emphasis>--oss-buggy, --no-oss-buggy </emphasis>
 <span xml:lang="en">Some buggy OSS drivers just don't like when their internal buffers are completely filled (the sound gets heavily hashed). If you have one of these drivers, then you need to enable this option (default disabled)</span>
 <span xml:lang="fr">Si le son est très haché en utilisant la sortie OSS, alors pvous pouvez peut-être résoudre le problème en activant cette option (désactivée par défaut)</span>
 </para>
@@ -98,7 +98,7 @@ l'installation préalable des pilotes et librairies ALSA</span>
 &options-st;
 <itemizedlist>
 <listitem>
-<para>--alsadev &lt;string&gt;
+<para><emphasis>--alsadev &lt;string&gt; </emphasis>:
 <span xml:lang="en">ALSA device name</span>
 <span xml:lang="fr">Nom du périphérique ALSA</span>
 </para>
@@ -152,6 +152,5 @@ Cette sortie WAV est utilisée sous Windows</span></para></sect2>
  vidéo</span>
 <span xml:lang="en">This audio output uses SDL. Please refer to the 
 video output.</span></para></sect2>
-
 
 </sect1>

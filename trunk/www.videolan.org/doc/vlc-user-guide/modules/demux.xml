@@ -32,13 +32,13 @@ format de stockage, pas un format de compression</span>
 &options-st;
 <itemizedlist>
  <listitem>
-  <para> --avi-interleaved, --no-avi-interleaved:
+  <para><emphasis>--avi-interleaved, --no-avi-interleaved </emphasis>:
    <span xml:lang="en">Enables or disables interlacing mode (default is disabled)</span>
    <span xml:lang="fr">Active ou désactive le mode entrelacé (desactivé par défaut)</span>
   </para>
  </listitem>
  <listitem>
-  <para> --avi-index, --no-avi-index:
+  <para><emphasis>--avi-index, --no-avi-index </emphasis>:
    <span xml:lang="en">Forces an index to be created. This can help for
     buggy streams (default is disabled)</span>
    <span xml:lang="fr">Force la création d'un index, ce qui peut aider
@@ -113,7 +113,7 @@ format Matroska</span>
 &options-st;  
 <itemizedlist>
 <listitem>
-<para><emphasis>--mkv-seek-percent, --no-mkv-seek-percent</emphasis>:
+<para><emphasis>--mkv-seek-percent, --no-mkv-seek-percent</emphasis> :
    <span xml:lang="en"> When this option is enabled (this is the default 
 	behaviour), seek is based on percentage and not on time</span>
    <span xml:lang="fr">Avec cette option (activée par défaut), le 
@@ -134,7 +134,7 @@ encapsulés en MPEG2-Program Stream ou Transport Stream</span>
 &options-st;  
 <itemizedlist>
 <listitem>
-<para><emphasis>--vls-backward-compat, --no-vls-backward-compat (ts module)</emphasis>:
+<para><emphasis>--vls-backward-compat, --no-vls-backward-compat (ts module)</emphasis> :
    <span xml:lang="en"> Enable this option if you want to read VLS &lt; 0.4 MPEG 2 streams.</span>
    <span xml:lang="fr"> Activez cette option pour pouvoir lire des flux diffusés par des VLS antérieurs 0.4</span>
   </para></listitem>

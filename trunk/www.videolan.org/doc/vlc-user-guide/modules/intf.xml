@@ -36,26 +36,26 @@ de fichiers XML</span>
 &options-st;
 <itemizedlist>
 <listitem>
-  <para><emphasis>--skin_last</emphasis>:
+  <para><emphasis>--skin_last</emphasis> :
    <span xml:lang="en"> Argument is a string. This allows you to  
      specify the last used skin.</span>
    <span xml:lang="fr"> Cette option vous permet de donner la 
      dernière skin utilisée (l'argument est une chaîne).</span>
   </para></listitem>
-  <listitem><para><emphasis>--skin_config</emphasis>:
+  <listitem><para><emphasis>--skin_config</emphasis> :
    <span xml:lang="en"> Argument is a string. This allows you to  
      set the skin configuration.</span>
    <span xml:lang="fr"> Cette option vous permet de donner la 
      configuration de la skin (l'argument est une chaîne).</span>
   </para></listitem>
-  <listitem><para><emphasis>--show_in_tray, --noshow_in_tray</emphasis>:
+  <listitem><para><emphasis>--show_in_tray, --noshow_in_tray</emphasis> :
    <span xml:lang="en"> Indicates whether the application must  
      be shown in traybar (default disabled).</span>
    <span xml:lang="fr"> Indique si l'application doit être visible
      dans la barre système (désactivé par défaut).</span>
   </para></listitem>
   <listitem><para><emphasis>
-	--show_in_taskbar, --noshow_in_taskbar</emphasis>:
+	--show_in_taskbar, --noshow_in_taskbar</emphasis> :
    <span xml:lang="en"> Indicates whether the application must  
      be shown in the taskbar (default enabled).</span>
    <span xml:lang="fr"> Indique si l'application doit être visible
@@ -93,16 +93,16 @@ sous Debian GNU/Linux). Attention, cette interface n'est plus maintenue, et ne p
 &options-st;
 <itemizedlist>
 <listitem>
-<para>--gnome-tooltips, --no-gnome-tooltips
+<para><emphasis>--gnome-tooltips, --no-gnome-tooltips </emphasis>:
 <span xml:lang="en">Whether to show tooltips (default enabled)</span>
 <span xml:lang="fr">Active l'affichage des bulles d'aide (activé par défaut)</span>
 </para></listitem>
-<listitem><para>--gnome-toolbartext, --no-gnome-toolbartext
+<listitem><para><emphasis>--gnome-toolbartext, --no-gnome-toolbartext </emphasis>:
 <span xml:lang="en">Whether to show text on buttonss (default enabled)</span>
 <span xml:lang="fr">Active l'affichage du texte sur les boutons
 		(activé par défaut)</span>
 </para></listitem>
-<listitem><para>--gnome-prefs-maxh
+<listitem><para><emphasis>--gnome-prefs-maxh </emphasis>:
 <span xml:lang="en">Argument is an integer that gives the maximum
 	height for configuration windows</span>
 <span xml:lang="fr">L'argument (un entier) donne la hauteur maximale des
@@ -144,7 +144,7 @@ sous Debian GNU/Linux) et des en-têtes pour la compilation
 &options-st;
 <itemizedlist>
 <listitem>
-<para>--kde-uirc
+<para><emphasis>--kde-uirc </emphasis>:
 <span xml:lang="en">Path to the ui.rc file</span>
 <span xml:lang="fr">Chemin du fichier ui.rc</span>
 </para>
@@ -167,14 +167,14 @@ ainsi contrôler le VLC par des scripts ou des commandes, comme
 &options-st;
 <itemizedlist>
 <listitem>
-<para>--rc-show-pos, --no-rc-show-pos
+<para><emphasis>--rc-show-pos, --no-rc-show-pos </emphasis> :
 <span xml:lang="en">Indicates whether the position in the stream
 must be shown (outputs one timer line every seconds) (default
 disabled)</span>
 <span xml:lang="fr">Active ou désactive un compteur qui indique
 chaque seconde la position dans le flux (désactivé par défaut)
 </span></para></listitem>
-<listitem><para>--fake--tty, --no-fake-tty
+<listitem><para><emphasis>--fake--tty, --no-fake-tty </emphasis>:
 <span xml:lang="en">Enables or disables TTY virtual terminal
 emulation (default disabled)
 </span>
@@ -202,7 +202,7 @@ contrôle.
 &options-st;
 <itemizedlist>
 <listitem>
-<para>--http-host
+<para><emphasis>--http-host </emphasis>:
 <span xml:lang="en">The argument, a string, gives the host address. 
 It must look like address[:port], where address can be an IP address 
 or a DNS name, and port is the port on which the HTTP interface
@@ -214,7 +214,7 @@ nom DNS, et où port et le port sur lequel l'interface HTTP sera disponible
 Le port par défaut est 8080. L'adresse par défaut est localhost; ceci
 devrait être bon pour presque tout le monde</span>
 </para></listitem>
-<listitem><para>--http-src
+<listitem><para><emphasis>--http-src </emphasis>:
 <span xml:lang="en">Gives the path to the HTML pages to be served.</span>
 <span xml:lang="fr">Chemin du répertoire contenant les pages HTML à 
 servir</span></para></listitem></itemizedlist>
@@ -272,13 +272,13 @@ mouvements de souris</span>
 &options-st;
 <itemizedlist>
 <listitem>
-<para>--gestures-threshold
+<para><emphasis>--gestures-threshold </emphasis>:
 <span xml:lang="en">The integer argument is the threshold of move
 required for a mouse gesture to be recorded</span>
 <span xml:lang="fr">L'argument, un entier, est la quantité de 
 mouvement requise avant qu'un mouvement ne soit enregistré</span>
 </para></listitem>
-<listitem><para>--gestures-button {left,middle,right}
+<listitem><para><emphasis>--gestures-button {left,middle,right} </emphasis>:
 <span xml:lang="en">The button to click before a gesture</span>
 <span xml:lang="fr">Le bouton choisi devra être enfoncé avant
 de faire le mouvement</span>

@@ -32,33 +32,33 @@ site</ulink>)</span>
 &options-st;
 <itemizedlist>
 <listitem>
-<para>--ffmpeg-dr, --no-ffmpeg-dr
+<para><emphasis>--ffmpeg-dr, --no-ffmpeg-dr </emphasis>:
 <span xml:lang="en">Enables or disables direct rendering (default enabled)</span>
 <span xml:lang="fr">Active ou désactive le rendu direct (activé par défaut)</span>
 </para></listitem>
-<listitem><para>--ffmpeg-error-resilience
+<listitem><para><emphasis>--ffmpeg-error-resilience </emphasis>:
 <span xml:lang="en">Integer to set the error resilience factor, from -1 to 99 
 (-1 means no resilience at all)</span>
 <span xml:lang="fr">Un entier qui permet de régler le niveau de résistance aux 
 erreurs sur les flux, entre -1 et 99 (-1 désactive toute correction d'erreur)</span>
 </para></listitem>
-<listitem><para>--ffmpeg-workaround-bugs
+<listitem><para><emphasis>--ffmpeg-workaround-bugs </emphasis>:
 <span xml:lang="en">Try to fix some bugs. Add the values corresponding to the bugs you want to fix, and pass it as argument: 1 = autodetect, 2 = old msmpeg4, 4 = xvid interlaces, 8 = ump4, 16 = no padding, 32 = ac vlc, 64 = Qpel chroma</span>
 <span xml:lang="fr">Règle quelques problèmes. Ajoutez les valeurs correspondants aux problèmes à régler, et entrez ceci comme argument:  1 = autodetect, 2 = old msmpeg4, 4 = xvid interlaces, 8 = ump4, 16 = no padding, 32 = ac vlc, 64 = Qpel chroma.</span>
 </para></listitem>
-<listitem><para>--ffmpeg-hurry-up, --no-ffmpeg-hurry-up
+<listitem><para><emphasis>--ffmpeg-hurry-up, --no-ffmpeg-hurry-up </emphasis>:
 <span xml:lang="en">Allow the decoder to decode only partially or even to skip frames, if it is late. This can be useful with low end computers, but produces weird pictures.</span>
 <span xml:lang="fr">Activer cette option permet au décodeur de ne décoder que partiellement, voir pas du tout, certaines images, s'il est en retard. Ceci est utile sur les machines peu puissantes, mais produit des images de mauvaise qualité.</span>
 </para></listitem>
-<listitem><para>--ffmpeg-truncated
+<listitem><para><emphasis>--ffmpeg-truncated </emphasis>:
 <span xml:lang="en">Truncates the stream : -1=auto, 0=disabled, 1=enabled</span>
 <span xml:lang="fr">Tronquer le flux:  -1=auto, 0=désactivé, 1=activé</span>
 </para></listitem>
-<listitem><para>--ffmpeg-pp-q
+<listitem><para><emphasis>--ffmpeg-pp-q </emphasis>:
 <span xml:lang="en">Postprocessing quality (integer between 0 and 6). A higher level requires more CPU power and will produce better pictures.</span>
 <span xml:lang="fr">Qualité du post-traitement (entier entre 0 et 6). Un nombre plus élevé demande plus de puissance, mais produira un meilleur flux.</span>
 </para></listitem>
-<listitem><para>--ffmpeg-pp-name
+<listitem><para><emphasis>--ffmpeg-pp-name </emphasis>:
 <span xml:lang="en">Series of postprocessing filters</span>
 <span xml:lang="fr">Série de filtre de postraitement</span>
 </para></listitem>

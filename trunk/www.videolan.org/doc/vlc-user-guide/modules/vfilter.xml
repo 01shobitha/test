@@ -23,26 +23,26 @@ teinte, la saturation, et la luminosité</span>
 &options-st;
 <itemizedlist>
 <listitem>
-<para>--contrast &lt;float&gt;
+<para><emphasis>--contrast &lt;float&gt; </emphasis>:
 <span xml:lang="en">set the image contrast, between 0 and 2. Defaults to 1</span>
 <span xml:lang="fr">réglage du contraste (flottant compris entre 0 et 2, 1 par défaut)</span>
 </para>
 </listitem>
 <listitem>
-<para>--brightness &lt;float&gt;
+<para><emphasis>--brightness &lt;float&gt; </emphasis>:
 <span xml:lang="en">set the image brightness, between 0 and 2. Defaults to
 1</span>
 <span xml:lang="fr">réglage de la luminosité (flottant compris entre 0 et 2, 1 par défaut)</span>
 </para>
 </listitem>
 <listitem>
-<para>--hue &lt;integer&gt;
+<para><emphasis>--hue &lt;integer&gt; </emphasis>:
 <span xml:lang="en">Set the image hue, between 0 and 360. Defaults to 0</span>
 <span xml:lang="fr">réglage de la teinte (entier compris entre 0 et 360, 0 par défaut)</span>
 </para>
 </listitem>
 <listitem>
-<para>--saturation &lt;float&gt;
+<para><emphasis>--saturation &lt;float&gt; </emphasis>:
 <span xml:lang="en">Set the image saturation, between 0 and 3. Defaults to
 1</span>
 <span xml:lang="fr">réglage de la saturation (flottant compris entre 0 et 3, 1 par défaut)</span>
@@ -63,7 +63,7 @@ et est utile pour les flux venant d'un satellite ou de télévision</span>
 &options-st;
 <itemizedlist>
 <listitem>
-<para>--deinterlace-mode {discard,blend,mean,bob,linear}
+<para><emphasis>--deinterlace-mode {discard,blend,mean,bob,linear} </emphasis>:
 <span xml:lang="en">deinterlacing mode (default: discard)</span>
 <span xml:lang="fr">mode de désentrelacement (discard par défaut)</span>
 </para>
@@ -80,14 +80,14 @@ et est utile pour les flux venant d'un satellite ou de télévision</span>
 &options-st;
 <itemizedlist>
 <listitem>
-<para>--crop-geometry &lt;string&gt;
+<para><emphasis>--crop-geometry &lt;string&gt; </emphasis>:
 <span xml:lang="en">set the geometry of the zone to crop. This is set
 as width x heigth + left offset + top offset (in pixels).</span>
 <span xml:lang="fr">Indiquez la géométrie de la zone à réduire. Cela se fixe par largeur x hauteur + position à gauche + position supérieure (en pixels).</span>
 </para>
 </listitem>
 <listitem>
-<para>--autocrop, --noautocrop
+<para><emphasis>--autocrop, --noautocrop </emphasis>:
 <span xml:lang="en">automatic black border cropping (default disabled)</span>
 <span xml:lang="fr">rédutcion automatique des marges noires (désactivé par défaut)</span>
 </para>
@@ -104,7 +104,7 @@ Ce filtre vous permet de tourner l'image de plusieurs façons.</span>
 &options-st;
 <itemizedlist>
 <listitem>
-<para>--transform-type {90,180,270,hflip,vflip}
+<para><emphasis>--transform-type {90,180,270,hflip,vflip} </emphasis>:
 <span xml:lang="en">transformation type, one of '90', '180', '270', 'hflip' and 'vflip'.</span>
 <span xml:lang="fr">type de transformation : '90', '180', '270', 'hflip' ou 'vflip'</span>
 </para>
@@ -122,7 +122,7 @@ Comment ca, inutile ? :-)</span>
 &options-st;
 <itemizedlist>
 <listitem>
-<para>--distort-mode {wave,ripple}
+<para><emphasis>--distort-mode {wave,ripple} </emphasis>:
 <span xml:lang="en">distortion mode, one of "wave" and "ripple"</span>
 <span xml:lang="fr">mode de distorsion, "wave" ou "ripple"</span>
 </para>
@@ -146,7 +146,7 @@ l'image.</span></para>
 &options-st;
 <itemizedlist>
 <listitem>
-<para>--blur-factor &lt;integer&gt;
+<para><emphasis>--blur-factor &lt;integer&gt; </emphasis>:
 <span xml:lang="en">the degree of blurring from 1 to 127</span>
 <span xml:lang="fr">degré de flou, de 1 à 127</span>
 </para>
@@ -167,19 +167,19 @@ l'utiliser pour générer des murs d'images avec plusieurs sources.</span>
 &options-st;
 <itemizedlist>
 <listitem>
-<para>--wall-cols &lt;integer&gt;
+<para><emphasis>--wall-cols &lt;integer&gt; </emphasis>:
 <span xml:lang="en">Select the number of vertical videowindows in which to split the video</span>
 <span xml:lang="fr">Indiquez le nombre de fenêtres dans lesquelles découper verticalement la vidéo</span>
 </para>
 </listitem>
 <listitem>
-<para>--wall-rows &lt;integer&gt;
+<para><emphasis>--wall-rows &lt;integer&gt; </emphasis>:
 <span xml:lang="en">Select the number of horizontal videowindows in which to split the video</span>
 <span xml:lang="fr">Indiquez le nombre de fenêtres dans lesquelles découper horizontalement la vidéo</span>
 </para>
 </listitem>
 <listitem>
-<para>--wall-active &lt;string&gt;
+<para><emphasis>--wall-active &lt;string&gt; </emphasis>:
 <span xml:lang="en">comma separated list of active windows, defaults to all</span>
 <span xml:lang="fr">liste des fenêtre actives (séparée par des virgules). La valeur par défaut affecte toutes les fenêtres</span>
 </para>
@@ -195,13 +195,13 @@ l'utiliser pour générer des murs d'images avec plusieurs sources.</span>
 </para>
 <itemizedlist>
 <listitem>
-<para>--clone-count &lt;integer&gt;
+<para><emphasis>--clone-count &lt;integer&gt; </emphasis>:
 <span xml:lang="en">number of video windows in which to clone the video</span>
 <span xml:lang="fr">nombre de fenêtres vidéo dans lesquelles cloner la vidéo</span>
 </para>
 </listitem>
 <listitem>
-<para>--clone-vout-list &lt;string&gt;
+<para><emphasis>--clone-vout-list &lt;string&gt; </emphasis>:
 <span xml:lang="en">specific vout modules that you want to activate</span>
 <span xml:lang="fr">modules de sortie vidéo à activer</span>
 </para>

@@ -55,19 +55,19 @@ aurez besoin des en-têtes xlibs pour la compiler (paquetage
 </para>
 </listitem>
 <listitem>
-<para>--x11-altfullscreen, --no-x11-altfullscreen
+<para><emphasis>--x11-altfullscreen, --no-x11-altfullscreen </emphasis> :
 <span xml:lang="en">use alternate fullscreen mode to bypass window managers (default disabled)</span>
 <span xml:lang="fr">mode plein écran alternatif, pour surpasser les gestionnaires de fenêtres (désactivé par défaut)</span>
 </para>
 </listitem>
 <listitem>
-<para>--x11-shm, --no-x11-shm
+<para><emphasis>--x11-shm, --no-x11-shm </emphasis>:
 <span xml:lang="en">use x11 shared memory (default enabled)</span>
 <span xml:lang="fr">utiliser la mémoire partagée (activé par défaut)</span>
 </para>
 </listitem>
 <listitem>
-<para>--x11-xineramascreen &lt;integer&gt;
+<para><emphasis>--x11-xineramascreen &lt;integer&gt; </emphasis>:
 <span xml:lang="en">choose the screen to be used for fullscreen mode, when working with xinerama</span>
 <span xml:lang="fr">permet de choisir l'écran qui sera utilisé en mode plein écran, en xinerama</span>
 </para>
@@ -90,37 +90,37 @@ cartes modernes).</span>
 &options-st;
 <itemizedlist>
 <listitem>
-<para>--xvideo-display &lt;string&gt;
+<para><emphasis>--xvideo-display &lt;string&gt; </emphasis>:
 <span xml:lang="en">X11 display name to use</span>
 <span xml:lang="fr">nom du display X11 à utiliser</span>
 </para>
 </listitem>
 <listitem>
-<para>--xvideo-adaptor &lt;integer&gt;
+<para><emphasis>--xvideo-adaptor &lt;integer&gt; </emphasis>:
 <span xml:lang="en">xvideo adaptor number</span>
 <span xml:lang="fr">numéro de l'adaptateur xvideo</span>
 </para>
 </listitem>
 <listitem>
-<para>--xvideo-altfullscreen, --no-xvideo-altfullscreen
+<para><emphasis>--xvideo-altfullscreen, --no-xvideo-altfullscreen </emphasis>:
 <span xml:lang="en">use alternate fullscreen mode to bypass window managers (default disabled)</span>
 <span xml:lang="fr">mode plein écran alternatif, pour surpasser les gestionnaires de fenêtres (désactivé par défaut)</span>
 </para>
 </listitem>
 <listitem>
-<para>--xvideo-shm, --no-xvideo-shm
+<para><emphasis>--xvideo-shm, --no-xvideo-shm </emphasis>:
 <span xml:lang="en">use x11 shared memory (default enabled)</span>
 <span xml:lang="fr">utiliser la mémoire partagée (activé par défaut)</span>
 </para>
 </listitem>
 <listitem>
-<para>--xvideo-xineramascreen &lt;integer&gt;
+<para><emphasis>--xvideo-xineramascreen &lt;integer&gt; </emphasis>:
 <span xml:lang="en">choose the screen to be used for fullscreen mode, when working with xinerama</span>
 <span xml:lang="fr">permet de choisir l'écran qui sera utilisé en mode plein écran, en xinerama</span>
 </para>
 </listitem>
 <listitem>
-<para>--xvideo-chroma &lt;string&gt;
+<para><emphasis>--xvideo-chroma &lt;string&gt; </emphasis>:
 <span xml:lang="en">XVimage chroma format</span>
 <span xml:lang="fr">format de chroma XVimage</span>
 </para>
@@ -140,10 +140,10 @@ Vous avez besoin d'une version supérieure ou égale à 1.1.6 de ces librairies</sp
 <span xml:lang="en"> You may indicate the path to the 
 <emphasis>sdl-config</emphasis> program with the <command>
  --with-sdl-config-path=PATH </command> switch, when running 
-the configre script.</span>
+the configre script, if you intend to compile VLC.</span>
 <span xml:lang="fr">Vous pouvez indiquer le chemin du programme
 <emphasis>sdl-config</emphasis>, avec l'option <command>
- --with-sdl-config-path=PATH </command> du script de configuration.</span>
+ --with-sdl-config-path=PATH </command> du script de configuration, si vous voulez compiler VLC.</span>
 </para></sect2>
 
 
@@ -178,7 +178,7 @@ kernel has to be compiled with frame buffer support.</span>
 &options-st;
 <itemizedlist>
 <listitem>
-<para>--fbdev &lt;string&gt;
+<para><emphasis>--fbdev &lt;string&gt; </emphasis>:
 <span xml:lang="en">framebuffer device (default is /dev/fb0)</span>
 <span xml:lang="fr">périphérique du framebuffer (la valeur par défaut est /dev/fb0)</span>
 </para>
@@ -196,9 +196,9 @@ qui fournissent une accélération matérielle pour les cartes 3Dfx).</span>
 </para>
 <para>
 <span xml:lang="en">You may indicate the path to the library with the
-<command>--with-glide=PATH</command> configure option.</span>
+<command>--with-glide=PATH</command> configure option, if you intend to compile VLC.</span>
 <span xml:lang="fr">Vous pouvez indiquer le chemin de la librairie, avec
-l'option <command>--with-glide=PATH</command> du script de configuration.</span>
+l'option <command>--with-glide=PATH</command> du script de configuration si vous voulez compiler VLC.</span>
 </para></sect2>
 
 <sect2><title>mga</title>

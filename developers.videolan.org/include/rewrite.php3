@@ -55,7 +55,7 @@
 <table width="100%" cellspacing=0 cellpadding=10>
 <tr><td rowspan=2 width=150 valign=top class=background>
 <?php
-  include( 'include/menu.inc' );
+  include( $page.'include/menu.inc' );
 ?>
 </td>
 <td height=50 class=background><h1>developers.videolan.org</h1></td></tr>

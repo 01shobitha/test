@@ -40,29 +40,20 @@
             if( $vlc != "" ) {
                 $message.= $prefix."subscribe vlc $from\n"; $valid = 1;
             }
+            if( $streaming != "" ) {
+                $message.= $prefix."subscribe streaming $from\n"; $valid = 1;
+            }
             if( $vlcdevel != "" ) {
                 $message.= $prefix."subscribe vlc-devel $from\n"; $valid = 1;
-            }
-            if( $vls != "" ) {
-                $message.= $prefix."subscribe vls $from\n"; $valid = 1;
             }
             if( $vlsdevel != "" ) {
                 $message.= $prefix."subscribe vls-devel $from\n"; $valid = 1;
             }
-            if( $vlcs != "" ) {
-                $message.= $prefix."subscribe vlcs $from\n"; $valid = 1;
-            }
             if( $vlcsdevel != "" ) {
                 $message.= $prefix."subscribe vlcs-devel $from\n"; $valid = 1;
             }
-            if( $libdvbpsi != "" ) {
-                $message.= $prefix."subscribe libdvbpsi $from\n"; $valid = 1;
-            }
             if( $libdvbpsidevel != "" ) {
                 $message.= $prefix."subscribe libdvbpsi-devel $from\n"; $valid = 1;
-            }
-            if( $libdvdcss != "" ) {
-                $message.= $prefix."subscribe libdvdcss $from\n"; $valid = 1;
             }
             if( $libdvdcssdevel != "" ) {
                 $message.= $prefix."subscribe libdvdcss-devel $from\n"; $valid = 1;
@@ -100,4 +91,4 @@
     }
 ?>
 
-<? footer('$Id: subscribe.html,v 1.5 2003/04/08 20:18:51 karibu Exp $'); ?>
+<? footer('$Id: subscribe.html,v 1.6 2003/04/17 19:12:10 sam Exp $'); ?>

@@ -161,13 +161,6 @@
 </tr>
 
 <tr>
-<td class="category">AVI</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="yes">Yes</td>
-</tr>
-
-<tr>
 <td class="category">PS</td>
 <td class="no">No</td>
 <td class="yes">Yes</td>
@@ -188,6 +181,34 @@
 <td class="yes">Yes</td>
 </tr>
 
+<tr>
+<td class="category">ASF</td>
+<td class="no">No</td>
+<td class="no">Yes</td>
+<td class="yes">Yes</td>
+</tr>
+
+<tr>
+<td class="category">MP4</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="yes">Yes</td>
+</tr>
+
+<tr>
+<td class="category">AVI</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="yes">Yes</td>
+</tr>
+
+<tr>
+<td class="category">Raw</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+</tr>
+
 </table>
 
 <p></p>
@@ -201,20 +222,24 @@
 <tr>
 <td></td>
 <td></td>
-<td class="matrixhead">AVI</td>
 <td class="matrixhead">PS</td>
 <td class="matrixhead">TS</td>
 <td class="matrixhead">Ogg</td>
-<td class="matrixhead">ES</td>
+<td class="matrixhead">ASF</td>
+<td class="matrixhead">MP4</td>
+<td class="matrixhead">AVI</td>
+<td class="matrixhead">Raw</td>
 </tr>
 
 <tr>
-<td class="category" rowspan="6"><b>Video formats</b></td>
+<td class="category" rowspan="7"><b>Video formats</b></td>
 <td class="type">MPEG-1 video</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="no">No</td>
+<td class="no">No</td>
+<td class="yes">Yes</td>
 <td class="yes">Yes</td>
 </tr>
 
@@ -224,6 +249,8 @@
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="no">No</td>
+<td class="no">No</td>
+<td class="yes">Yes</td>
 <td class="yes">Yes</td>
 </tr>
 
@@ -234,41 +261,62 @@
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
 </tr>
 
 <tr>
 <td class="type">DivX 1/2/3 video</td>
-<td class="yes">Yes</td>
 <td class="no">No</td>
 <td class="yes">Yes [1]</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="no">No</td>
 <td class="yes">Yes</td>
 <td class="no">No</td>
 </tr>
 
 <tr>
 <td class="type">WMV 1/2</td>
-<td class="yes">Yes</td>
 <td class="no">No</td>
 <td class="yes">Yes [1]</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
 <td class="no">No</td>
+<td class="yes">Yes</td>
 <td class="no">No</td>
 </tr>
 
 <tr>
 <td class="type">H/I 263</td>
-<td class="yes">Yes</td>
 <td class="no">No</td>
 <td class="yes">Yes [1]</td>
 <td class="no">No</td>
 <td class="no">No</td>
+<td class="no">No</td>
+<td class="yes">Yes</td>
+<td class="no">No</td>
 </tr>
 
 <tr>
-<td class="category" rowspan="4"><b>Audio formats</b></td>
-<td class="type">MPEG Layer 1 / 2 / 3 audio</td>
+<td class="type">MJPEG</td>
+<td class="no">No</td>
+<td class="yes">Yes [1]</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="no">No</td>
+<td class="yes">Yes</td>
+<td class="no">No</td>
+</tr>
+
+<tr>
+<td class="category" rowspan="5"><b>Audio formats</b></td>
+<td class="type">MPEG Layer 1/2/3 audio</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="no">No</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 </tr>
@@ -279,12 +327,16 @@
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
+<td class="no">No</td>
+<td class="yes">Yes</td>
 <td class="yes">Yes</td>
 </tr>
 
 <tr>
 <td class="type">MPEG-4 audio (i.e. AAC)</td>
 <td class="no">No</td>
+<td class="yes">Yes</td>
+<td class="no">No</td>
 <td class="no">No</td>
 <td class="yes">Yes</td>
 <td class="no">No</td>
@@ -292,12 +344,25 @@
 </tr>
 
 <tr>
-<td class="type">Vorbis</td>
-<td class="no">No</td>
+<td class="type">Vorbis/Speex</td>
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="yes">Yes</td>
 <td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
+</tr>
+
+<tr>
+<td class="type">FLAC</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="yes">Yes</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="yes">Yes</td>
 </tr>
 
 </table>
@@ -321,7 +386,7 @@ interoperable).</p>
 
 <tr>
 <td class="type">MPEG-2 video</td>
-<td class="partial">CVS Only</td>
+<td class="yes">Yes</td>
 </tr>
 
 <tr>
@@ -369,7 +434,7 @@ interoperable).</p>
 
 <tr>
 <td class="type">MPEG-4 audio (i.e. AAC)</td>
-<td class="no">No</td>
+<td class="no">Yes [3]</td>
 </tr>
 
 <tr>
@@ -380,6 +445,7 @@ interoperable).</p>
 </table>
 
 <p>[2] For this, you have to compile ffmpeg with <i>libmp3lame</i> support.</p>
+<p>[3] For this, you have to compile ffmpeg with <i>libfaac</i> support.</p>
 
 <p></p>
 
@@ -445,7 +511,7 @@ interoperable).</p>
 
 <tr>
 
-<td class="type">MPEG encoding card [3]</td>
+<td class="type">MPEG encoding card [4]</td>
 <td class="yes">Yes</td>
 <td class="no">No</td>
 
@@ -572,7 +638,7 @@ interoperable).</p>
 
 </table>
 
-<p>[3] VLS supports two kinds MPEG-2 encoding cards: Hauppauge          
+<p>[4] VLS supports two kinds MPEG-2 encoding cards: Hauppauge          
 WinTV-PVR-250/350 and Visiontech Kfir.</p>                              
 
-<? footer('$Id: features.html,v 1.58 2003/10/28 10:18:03 jpsaman Exp $'); ?>
+<? footer('$Id: features.html,v 1.59 2003/12/16 19:58:04 gbazin Exp $'); ?>

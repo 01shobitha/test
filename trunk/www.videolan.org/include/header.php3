@@ -98,11 +98,11 @@ function starthtml($title) { ?>
 function get_first_bar_item ( $number , $module , $text , $url , $current_module ) {
   if ( $current_module == $module )
   {
-     ?><td class="firstbarselected" style="width: <? int(echo 100/$number); ?>%"><? echo $text; ?></td><?
+     ?><td class="firstbarselected" style="width: <? round(echo 100/$number); ?>%"><? echo $text; ?></td><?
   }
   else
   {
-     ?><td class="firstbar" style="width: <? echo int(100/$number); ?>"><a class="firstbar" href="<? echo $url; ?>"><? echo $text; ?></a></td><?
+     ?><td class="firstbar" style="width: <? round(100/$number); ?>"><a class="firstbar" href="<? echo $url; ?>"><? echo $text; ?></a></td><?
   }
 }
 

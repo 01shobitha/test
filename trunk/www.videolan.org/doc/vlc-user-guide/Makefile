@@ -1,4 +1,4 @@
-all: html ps pdf rtf
+all: clean html ps pdf rtf
 
 html:
 	rm -f *.html
@@ -28,5 +28,8 @@ rtf:
 	sgmltools -b rtf -s ../common/stylesheet-print-noicones.dsl vlc-user-guide.sgml
 	zip vlc-user-guide-rtf.zip vlc-user-guide.rtf *.jpg
 
+txt:
+	sgmltools -b txt vlc-user-guide.sgml
+
 clean:
-	rm -f *.zip *.html *.pdf *.ps *.jpg
+	rm -f *.zip *.html *.pdf *.ps *.jpg *.txt

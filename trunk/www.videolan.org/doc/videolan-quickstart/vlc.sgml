@@ -12,7 +12,7 @@
 
 <para>
 
-Start vlc : under Windows, Mac OS X or BeOS, double-clic on the icone and under Unix or Linux, use the command <command>vlc</command>.
+Start VLC : under Windows, Mac OS X or BeOS, double-clic on the icone and under Unix or Linux, use the command <command>vlc</command>.
 
 </para>
 
@@ -59,13 +59,13 @@ yourself to the group :
 
 <sect2><title>Troubleshooting</title>
 
-<para>If vlc doesn't work for you, open the message window from the menu
+<para>If VLC doesn't work for you, open the message window from the menu
 <emphasis>View / Messages</emphasis> and try to spot an error message
 that could explain your problem.</para>
 
 <para>Then, read the <ulink
-url="http://www.videolan.org/vlc/doc/FAQ">vlc FAQ</ulink> and have a
-look at the <ulink url="http://bugzilla.videolan.org/">Buzilla</ulink>
+url="http://www.videolan.org/doc/faq-vlc/faq/">vlc FAQ</ulink> and have a
+look at the <ulink url="http://bugzilla.videolan.org/">Bugzilla</ulink>
 to see if it is a known issue. </para>
 
 <para>If you can't find out the problem, explain it in English in the

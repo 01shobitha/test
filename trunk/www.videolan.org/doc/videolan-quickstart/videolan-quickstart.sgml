@@ -5,15 +5,13 @@
 
   <!ENTITY intro SYSTEM "../common/intro.sgml">
   <!ENTITY vlc SYSTEM "vlc.sgml">
-  <!ENTITY vls SYSTEM "vls.sgml">
+  <!ENTITY vlc-streamoutput SYSTEM "vlc-streamoutput.sgml">
   <!ENTITY vod SYSTEM "vod.sgml">
   <!ENTITY vlcs SYSTEM "vlcs.sgml">
   <!ENTITY conclusion SYSTEM "conclusion.sgml">
 
 
   <!ENTITY install-vlc SYSTEM "../common/install-vlc.sgml">
-  <!ENTITY install-vls SYSTEM "../common/install-vls.sgml">
-  <!ENTITY streamable-mpeg-file SYSTEM "../common/streamable-mpeg-file.sgml">
   <!ENTITY install-vlcs SYSTEM "../common/install-vlcs.sgml">
   <!ENTITY fdl SYSTEM "../common/fdl.sgml">
 
@@ -95,7 +93,7 @@ Back-Cover Texts. The text of the license can be found the appendix
 
 &intro;
 &vlc;
-&vls;
+&vlc-streamoutput;
 &vod;
 &vlcs;
 &conclusion;

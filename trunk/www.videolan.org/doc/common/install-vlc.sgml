@@ -10,7 +10,7 @@ exemple</para>
 <para>
 The VideoLAN Client works under Windows 95/98/ME/2000/XP. Download
 the Windows Installer or the Zip file from the <ulink
-url="http://www.videolan.org/vlc/download.html">VLC download
+url="http://www.videolan.org/vlc/download-windows.html">VLC Windows download
 page</ulink>. Execute the Windows installer or unzip the file in a
 directory to install the VideoLAN Client.
 </para>
@@ -21,8 +21,8 @@ directory to install the VideoLAN Client.
 
 <para>
 Download the Zip file from the <ulink
-url="http://www.videolan.org/vlc/download.html">VLC download
-page</ulink>. Unzip the file in a directory to install vlc.
+url="http://www.videolan.org/vlc/download-beos.html">VLC BeOS download
+page</ulink>. Unzip the file in a directory to install VLC.
 </para>
 
 </sect2>
@@ -32,11 +32,12 @@ page</ulink>. Unzip the file in a directory to install vlc.
 <para>
 
 Download the Mac OS X package from the <ulink
-url="http://www.videolan.org/vlc/download.html">vlc dowload page</ulink>
-. Double-click on the icon of the package : an icon will appear
-on your Desktop, right beside your drive(s). Open it and drag the vlc
-application from the resulting window to the place where you want to
-install it (it should be <filename>/Applications</filename>).
+url="http://www.videolan.org/vlc/download-macosx.html">VLC
+MacOS X download page</ulink> . Double-click on the icon of the
+package : an icon will appear on your Desktop, right beside your
+drive(s). Open it and drag the VLC application from the resulting
+window to the place where you want to install it (it should be
+<filename>/Applications</filename>).
 
 </para>
 
@@ -70,22 +71,13 @@ url="http://www.rpmfind.net/linux/RPM/">RPMfind.net</ulink> or search
 the Internet.</para>
 
 <para>
-Download the RPM package of <emphasis>libdvdcss</emphasis> from the
-<ulink url="http://www.videolan.org/libdvdcss/download.html">libdvdcss
-download page</ulink>.
-</para>
 
-<para>
-Download the RPM package of <emphasis>libdvdpsi</emphasis> from the
-<ulink url="http://www.videolan.org/libdvbpsi/download.html">libdvdpsi
+Download the RPM packages of <emphasis>libdvdcss2</emphasis>,
+<emphasis>libdvdpsi1</emphasis>, <emphasis>vlc</emphasis>
+<emphasis>vlc-gnome</emphasis> and <emphasis>vlc-mad</emphasis> from the
+<ulink url="http://www.videolan.org/vlc/download-linux.html">VLC Linux
 download page</ulink>.
-</para>
 
-<para>
-Download the RPM packages <emphasis>vlc</emphasis>
-<emphasis>vlc-gnome</emphasis> and <emphasis>vlc-mad</emphasis> from
-the <ulink url="http://www.videolan.org/vlc/download.html">vlc download
-page</ulink>.
 </para>
 
 <para>
@@ -103,7 +95,7 @@ libdvdcss2-version.i586.rpm libdvdpsi1-version.i586.rpm</userinput>
 
 <para>The method below is for any Unix system supported by the
 VideoLAN Client,for which there is no packages available. It explains
-how to compile and install vlc and the needed librairies from their
+how to compile and install VLC and the needed librairies from their
 source code.</para>
 
 <para>You can also compile the VLC under Linux this way if you want to
@@ -128,8 +120,8 @@ files.</para></listitem>
 
 <para>
 Download the libraries from <ulink
-url="http://www.videolan.org/pub/videolan/vlc/">http://www.videolan.org/pub/videolan/vlc</ulink> in the directory
-<filename>version/contrib</filename>.
+url="http://www.videolan.org/vlc/download-sources.html">VLC sources
+download page</ulink>.
 </para>
 
 <para>For each library, uncompress, configure, compile and install :
@@ -163,7 +155,7 @@ contains the following line :
 
 <para>
 Download the sources of the lastest release : get the file
-<filename>vlc-version.tar.gz</filename> from the <ulink url="http://www.videolan.org/vlc/download.html">vlc download page</ulink>. Uncompress-it :
+<filename>vlc-version.tar.gz</filename> from the <ulink url="http://www.videolan.org/vlc/download-sources.html">VLC sources download page</ulink>. Uncompress-it :
 </para>
 
 <screen>
@@ -171,26 +163,23 @@ Download the sources of the lastest release : get the file
 <prompt>% </prompt><userinput>cd vlc-version</userinput>
 </screen>
 
-<!--
-<para>For the vlc 0.5.0 version, do first :</para>
-
-<screen>
-<prompt>% </prompt><userinput>./bootstrap</userinput>
-</screen>
--->
+<!-- bootstrap is already done is the tarballs -->
 
 <para>To get the list of configuration options, do :</para>
 <screen>
 <prompt>% </prompt><userinput>./configure --help</userinput>
 </screen>
 
-<para>Please note that all the modules are described in the "Modules" section of the VLC User Guide</para>
+<para>Please note that all the modules are described in
+the <emphasis>Modules</emphasis> section of the <ulink
+url="http://www.videolan.org/doc/vlc-user-guide/">VLC User
+Guide</ulink></para>
 
 
 <para>Exemples of very simple configurations:</para>
 <itemizedlist>
 
-<listitem><para>if you want a basic vlc, do : </para>
+<listitem><para>if you want a basic VLC, do : </para>
 <screen>
 <prompt>% </prompt><userinput>./configure</userinput>
 </screen>
@@ -204,13 +193,6 @@ interface (you will need the developement packages of Gnome) :</para>
 </listitem>
 
 </itemizedlist>
-
-<!--
-<para>
-To compile and install the vlc 0.5.0 you must use the automake 1.5 or
-higher version. The automake 1.6 is highly recommanded.
-</para>
--->
 
 <para>
 Then, compile and install :

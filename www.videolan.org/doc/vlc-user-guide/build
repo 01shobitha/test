@@ -3,8 +3,8 @@
 # Build script for VideoLAN documentation
 # Written by Clément Stenac <zorglub@via.ecp.fr>
 
-DOC="vlc-user-guide"
-ALL_LANG="en fr de"
+DOC="streaming-howto"
+ALL_LANG="en"
 DEFAULT_LANG="en"
 
 if test "$1" = help

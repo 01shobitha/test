@@ -3,7 +3,7 @@
 # To build another language than the default one, do 'make LANG=foo'
 
 # Document name
-DOC := vlc-user-guide
+DOC := streaming-howto
 
 # XML declaration
 XML_DECL1 = /usr/lib/sgml/declaration/xml.decl
@@ -16,7 +16,7 @@ LANG = en
 XSL= ../common/videolan-doc.xsl
 
 # All available languages (used in 'make clean')
-ALL_LANG = en fr de
+ALL_LANG = en
 
 # Build HTML, PDF, RTF and TXT outputs (for the web site)
 all: $(LANG)/$(DOC)-$(LANG).html $(LANG)/$(DOC)-$(LANG).pdf $(LANG)/$(DOC)-$(LANG).rtf $(LANG)/$(DOC)-$(LANG).txt

@@ -13,6 +13,8 @@ RewriteRule ^$ index.html
 
 # fichier.html -> ../include/default.php3?page=fichier
 RewriteRule ^(vlc/vlc/doc/.*html)$ $1 [L]
+RewriteRule ^(libdvbpsi/libdvbpsi/doc/.*html)$ $1 [L]
+RewriteRule ^(libdvdcss/libdvdcss/doc/.*html)$ $1 [L]
 RewriteRule ^([^/]+)\.html$ include/rewrite.php3?page=$1
 
 # rep/fichier.html -> ../include/default.php3?dir=rep&page=fichier

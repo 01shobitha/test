@@ -1,26 +1,10 @@
 <?
 
 function startbox($title,$color) { ?>
+<table class="fill" cellspacing="0" cellpadding="0" border="0"><tr>
+  <td class="<? echo $color; ?>"><? echo $title; ?></td></tr><tr><td><? }
 
-<table class="fill" cellspacing="0" cellpadding="0" border="0">
-
-  <tr>
-    <td class="<? echo $color; ?>">
-      <? echo $title; ?>
-    </td>
-  </tr>
-
-
-  <tr>
-    <td>
-<? }
-
-function stopbox() { ?>
-    </td>
-  </tr>
-</table>
-
-<? }
+function stopbox() { ?></td></tr></table><? }
 
    /*
     *  starthtml: beginning of the page
@@ -40,9 +24,13 @@ function starthtml($title) { ?>
    <title><? echo $title; ?></title>
    <link rel="stylesheet" type="text/css" href="/main.css" />
 </head>
-<body>
+<body><?
 
-<form action="index.html" method="get">
+   /*
+    * The cool navigation bar
+    */
+
+?><form action="index.html" method="get">
   <table width="100%" cellspacing="3" cellpadding="0"><tr>
     <td style="background-color: #ffcccc; width: 17%; vertical-align: middle;" align="center"><a href="/">Home</a></td>
     <td style="background-color: #ffaaaa; width: 16%; vertical-align: middle;" align="center"><a href="/vlc/">VLC Media Player</a></td>
@@ -71,9 +59,12 @@ function menu_videolan() { ?>
 
 function startmenu($title) {
   global $page, $dir; $pre = "/";
-  $module = split("/", $dir); $module = $module[1]; ?>
-<!-- main table -->
-<table border="0" cellspacing="0" cellpadding="0">
+  $module = split("/", $dir); $module = $module[1];
+
+   /*
+    * the main table
+    */
+?><table border="0" cellspacing="0" cellpadding="0">
   <tr>
 
     <td>

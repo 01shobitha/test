@@ -43,6 +43,7 @@ RewriteRule ^streaming/download-linux.html$ /streaming/download-vls-sources.html
 RewriteRule ^streaming/download-windows.html$ /streaming/download-vls-windows.html [R=permanent,L]
 
 RewriteRule ^tests/(.*)$ /rez/ [R=permanent,L]
+RewriteRule ^doc/faq-vlc/faq/(.*)$ /doc/faq/videolan-faq.html [R=permanent,L]
 
 #
 # Redirects for removed stuff

@@ -49,7 +49,7 @@ open the "File" menu, and select the Wizard menu item.</para>
 option if you want to stream media on network.</para></listitem>
 
 <listitem><para><emphasis>Transcode/Save to file</emphasis>: Choose
-this option if you want to change a file's audi codec and/or video codec
+this option if you want to change a file's audio codec and/or video codec
 and/or encapsulation method.</para></listitem>
 
 </itemizedlist>
@@ -90,7 +90,7 @@ such as files or discs but not UDP network streams.</para>
 
 <sect2><title>Streaming methods</title></sect2>
 
-<para>If you choosed to <emphasis>Stream to network</emphasis> you can
+<para>If you chose to <emphasis>Stream to network</emphasis> you can
 now specify the streaming method. Available methods are:</para>
 
 <itemizedlist>
@@ -120,7 +120,7 @@ which to listen using the following syntax ip[:port].</para></listitem>
 
 <sect2><title>Transcoding options</title></sect2>
 
-<para>If you choosed <emphasis>Transcode/Save to file</emphasis> you
+<para>If you chose <emphasis>Transcode/Save to file</emphasis> you
 can now specify the new audio and video codecs and bitrates.</para>
 
 <para>TODO : give usual codec/bitrates combinations</para>
@@ -150,7 +150,7 @@ encapsulation format.</para>
 
 <sect2><title>Streaming options</title></sect2>
 
-<para>If you choosed to <emphasis>Stream to network</emphasis> you can
+<para>If you chose to <emphasis>Stream to network</emphasis> you can
 now specify several options.</para>
 
 <itemizedlist>
@@ -177,7 +177,7 @@ method.</para></listitem>
 
 <sect2><title>Save to file destination</title></sect2>
 
-<para>If you choosed <emphasis>Transcode/Save to file</emphasis> you can now specify the destination file you want to save to.</para>
+<para>If you chose <emphasis>Transcode/Save to file</emphasis> you can now specify the destination file you want to save to.</para>
 
 <mediaobject>
   <imageobject>
@@ -188,5 +188,24 @@ method.</para></listitem>
 </mediaobject>
 
 <sect1><title>Use the GUI</title></sect1>
+
+<sect2><title>The Stream Output dialog</title></sect2>
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/streaming-howto/intf-wx-open-file.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>Open file dialog - wxWindows interface</para></textobject>
+  <caption><para>Open file dialog - wxWindows interface</para></caption>
+</mediaobject>
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/streaming-howto/intf-wx-stream-output.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>Stream output dialog - wxWindows interface</para></textobject>
+  <caption><para>Stream output dialog - wxWindows interface</para></caption>
+</mediaobject>
+
 
 </chapter>

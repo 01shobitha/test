@@ -28,19 +28,10 @@
 <p>Matthias Saou from freshrpms.net still maintains some Red Hat Packages.</p>
 
 <ul>
-<?php pkgitem("vlc/0.8.1/rpm/redhat","videolan-client-0.8.1-1.1.el3.rf.i386.rpm","(VLC i386 Red Hat EL 3 Binary package)");?>
-</ul>
-
-<ul>
-<?php pkgitem("vlc/0.8.1/rpm/redhat","videolan-client-0.8.1-1.0.el2.rf.i386.rpm","(VLC i386 Red Hat EL 2 Binary package)");?>
-</ul>
-
-<ul>
-<?php pkgitem("vlc/0.8.1/rpm/redhat","videolan-client-0.8.1-1.0.rh9.rf.i386.rpm","(VLC i386 Red Hat 9 Binary package)");?>
-</ul>
-
-<ul>
-<?php pkgitem("vlc/0.8.1/rpm/redhat","videolan-client-0.8.1-1.0.rh7.rf.i386.rpm","(VLC i386 Red Hat 7 Binary package)");?>
+<?php pkgitem("vlc/0.8.1/rpm/redhat","videolan-client-0.8.1-1.1.el3.rf.i386.rpm","(VLC i386 Red Hat EL 3 Binary package)");
+pkgitem("vlc/0.8.1/rpm/redhat","videolan-client-0.8.1-1.0.el2.rf.i386.rpm","(VLC i386 Red Hat EL 2 Binary package)");
+pkgitem("vlc/0.8.1/rpm/redhat","videolan-client-0.8.1-1.0.rh9.rf.i386.rpm","(VLC i386 Red Hat 9 Binary package)");
+pkgitem("vlc/0.8.1/rpm/redhat","videolan-client-0.8.1-1.0.rh7.rf.i386.rpm","(VLC i386 Red Hat 7 Binary package)");?>
 </ul>
 
 

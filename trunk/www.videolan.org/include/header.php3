@@ -38,7 +38,6 @@ function starthtml($title) { ?>
     <td style="background-color: #ffaaaa; width: 17%; vertical-align: middle;" align="center"><a href="/doc/">Documentation</a></td>
     <td style="background-color: #ffaaaa; width: 16%; vertical-align: middle;" align="center"><a href="/support/">Support</a></td>
     <td style="background-color: #aaffaa; width: 17%; vertical-align: middle;" align="center"><a href="http://developers.videolan.org/">Developers</a></td>
-    <!--<td style="width: 20%; white-space: nowrap;">-->
     <td class="nowrap">
       Mirror:
       <select name="mirror">
@@ -48,22 +47,10 @@ function starthtml($title) { ?>
     </td>
 
   </tr></table>
-</form>
-<? }
-
-function menu_videolan() { ?>
-<? }
+</form><?
 
    /*
-    *  startmenu: display the menu header
-    */
-
-function startmenu($title) {
-  global $page, $dir; $pre = "/";
-  $module = split("/", $dir); $module = $module[1];
-
-   /*
-    * the main table
+    * The main table
     */
 
 ?><table border="0" cellspacing="0" cellpadding="0">
@@ -167,6 +154,7 @@ $lang=""; $date=""; $title="";
 
 if($mirror)
 {
+    /* FIXME : mirror code is broken */
     header("Location: http://$mirror/$page.html");
     die();
 }
@@ -176,6 +164,5 @@ if($lang=="") { $lang = "en"; }
 
 /* render the page */
 starthtml(ereg_replace("<[^>]*>","",$title));
-startmenu($title);
 
 ?>

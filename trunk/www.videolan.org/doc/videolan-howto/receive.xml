@@ -121,7 +121,7 @@ address of the stream</span>
 l'adresse MMS du flux</span>
 <span xml:lang="es">donde
 <emphasis>mms://viptvr.yacast.fr/encoderfranceinfo</emphasis> es
-dirección MMS del flujo</span>
+la dirección MMS del flujo</span>
 <span xml:lang="de">wobei
 <emphasis>mms://viptvr.yacast.fr/encoderfranceinfo</emphasis> die
 MMS-Adresse des Streams ist</span>
@@ -156,7 +156,7 @@ dirección del flujo RTSP</span>
 <sect2><title>
 <span xml:lang="en">Receive a stream described by an SDP file</span>
 <span xml:lang="fr">Recevez un flux décrit par un fichier SDP</span>
-<span xml:lang="es">Recibir un flujo representado por un fichero SDP</span>
+<span xml:lang="es">Recibir un flujo representado en un fichero SDP</span>
 <span xml:lang="de">Erhalten eines per SDP-Datei beschriebenen Streams</span>
 </title>
 
@@ -183,7 +183,7 @@ argument</span>
 celà, utilisez le Stream Output de VLC : vous pouvez faire ceci via
 l'interface graphique, ou en utilisant cet argument de la ligne de
 commande</span>
-<span xml:lang="en">VLC puede guardar el flujo a un disco. Para
+<span xml:lang="es">VLC puede guardar el flujo a un disco. Para
 hacer esto, utilice el Stream Output de VLC : puede hacerlo a través del
 interfaz gráfico, o a través de la línea de comandos con el siguiente
 argumento</span>
@@ -212,7 +212,7 @@ output, i.e. </span>
 <span xml:lang="fr">est l'un des formats supportés par le stream output
 de VLC, càd</span>
 <span xml:lang="es">es uno de los formatos soportados por el stream output
-de VLC, i.e. </span>
+de VLC, esto es</span>
 <span xml:lang="de">ein von VLC's Stream-Ausgabe benutztes Format ist,
 z.B.</span>
 :</para>
@@ -263,7 +263,7 @@ the file you want to save the stream to, with the right extension</span>
 fichier sous lequel vous désirez sauvegarder le flux, avec la bonne
 extension</span>
 <span xml:lang="es">y <filename>stream.xyz</filename> es el nombre
-del fichero donde se quiere guardar el flujo, con la extensión correcta</span>
+del fichero donde se quiere guardar el flujo, con la extensión adecuada</span>
 <span xml:lang="de">und <filename>stream.xyz</filename> ist der Name der
 Datei mit dem richtigen Suffix, in der Sie den Stream speichern möchten</span>
 .</para></listitem>

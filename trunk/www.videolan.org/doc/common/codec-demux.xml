@@ -8,7 +8,7 @@ understand the difference between a <emphasis>codec</emphasis> and a
 de la solution VideoLAN, vous devez connaître la différence
 entre un <emphasis>codec</emphasis> et un <emphasis>format
 conteneur</emphasis></span>
-<span xml:lang="es">Para entender bien la solución VideoLAN, debe
+<span xml:lang="es">Para entender bien la solución VideoLAN, se debe
 comprender la diferencia entre un <emphasis>codec</emphasis> y un
 <emphasis>formato contenedor</emphasis></span>
 <span xml:lang="de">Um die VideoLAN Lösung komplett zu verstehen, müssen
@@ -62,9 +62,9 @@ fonctionnalités</ulink>
 uno o varios flujos ya codificados por codecs. A menudo, hay un 
 flujo de audio y uno de vídeo. AVI, Ogg, MOV, ASF, ... son
 formatos contenedor. Los flujos que contengan pueden ser codificados utilizando diferentes
-codecs. En un mundo perfecto, se podría poner cualquier codec en cualquier formato contenedor.
-Desafortunadamente, existen algunas incompatibilidades. Puede encontrar
-una matriz de posibles codecs y formatos contenedor en la <ulink
+codecs. En un mundo perfecto, se podría utilizar cualquier codec en cualquier formato contenedor.
+Desafortunadamente, existen algunas incompatibilidades. Se puede encontrar
+una tabla de posibles codecs y formatos contenedor en la <ulink
 url="http://www.videolan.org/streaming/features.html">página de funcionalidades</ulink>
 </span>
 <span xml:lang="de">Ein <emphasis>Container-Format</emphasis> enthält einen
@@ -91,8 +91,8 @@ les sous-titres. Ensuite, chacun de ces flux séparés est envoyé
 aux <emphasis>décodeurs</emphasis> qui vont effectuer le processus
 mathématique de décompression</span>
 <span xml:lang="es">Para descodificar un flujo, VLC primero lo
-<emphasis>demultiplexa</emphasis> . Esto significa que lee el formato contenedor 
-y separa audio, vídeo, y subtítulos si hay. Entonces, cada uno de estos flujos
+<emphasis>demultiplexa</emphasis>. Esto significa que lee el formato contenedor 
+y separa audio, vídeo, y, si los hay, subtítulos. Entonces, cada uno de estos flujos
 son enviados a sus <emphasis>descodificadores</emphasis> que realizan un procesamiento
 matemático para descomprimir los flujos</span>
 <span xml:lang="de">Um einen Stream zu dekodieren, <emphasis>demultiplext</emphasis>
@@ -153,8 +153,8 @@ fut conçu pour la diffusion de vidéo MPEG.</para></span>
 <span xml:lang="es"><para>MPEG es también un formato contenedor, a veces se denomina
 como <emphasis>MPEG Sistema</emphasis>. Existen varios tipos de MPEG:
 ES, PS, and TS</para>
-<para>Cuando reproduces un vídeo MPEG de un DVD, por ejemplo, el flujo MPEG
-está realmente compuesto por varios flujos (llamados flujos elementales
+<para>Cuando se reproduce, por ejemplo, un vídeo MPEG de un DVD, el flujo MPEG
+está compuesto por varios flujos (llamados flujos elementales
 , ES): existe uno para el vídeo, uno para el audio, otro para
 subtítulos, y así sucesivamente. Estos flujos distintos se juntan para formar un
 único flujo de programa (PS).Así que, los ficheros .VOB que puedes encontar en un DVD son

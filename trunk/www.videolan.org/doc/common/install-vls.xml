@@ -35,7 +35,7 @@ führen Sie <filename>setup.exe</filename>aus</span>
 <para>
 <span xml:lang="en">Many libraries are needed for particular uses</span>
 <span xml:lang="fr">Plusieurs librairies sont requises</span>
-<span xml:lang="es">Varias librerías son necesarias</span>
+<span xml:lang="es">Son necesarias varias librerías</span>
 <span xml:lang="de">Viele Bibliotheken werden für bestimmte Zwecke benötigt</span>
 :</para>
 
@@ -67,7 +67,7 @@ führen Sie <filename>setup.exe</filename>aus</span>
 satellite card or a digital terrestial TV card)</span>
 <span xml:lang="fr">pour pouvoir diffuser depuis une carte DVB
 (satellite ou télévision numérique terrestre)</span>
-<span xml:lang="es"> para poder transmitir desde una tarjeta DVB card
+<span xml:lang="es"> para poder transmitir desde una tarjeta DVB
 (satélite o digital terrestre)</span>
 <span xml:lang="de">wenn Sie in der Lage sein möchten, von einer DVB-Karte
 streamen zu können (eine Satelliten- oder eine digitale terrestrische TV-Karte)</span>
@@ -83,8 +83,8 @@ sources download page</ulink></span>
 url="http://www.videolan.org/streaming/download-vls-sources.html">page
 des sources de VLS</ulink></span>
 <span xml:lang="es">Descárguese las librerías de la <ulink
-url="http://www.videolan.org/streaming/download-vls-sources.html">página de
-las fuentes de VLS</ulink></span>
+url="http://www.videolan.org/streaming/download-vls-sources.html">página del
+código fuente de VLS</ulink></span>
 <span xml:lang="de">Laden Sie die Bibliotheken von der <ulink
 url="http://www.videolan.org/streaming/download-vls-sources.html">VLS
 Quellen Downloadseite</ulink> herunter</span>
@@ -97,7 +97,7 @@ Quellen Downloadseite</ulink> herunter</span>
 <span xml:lang="fr">Pour chaque librairie, décompressez,
 configurez (sauf pour <emphasis>libdvb</emphasis> qui n'a pas de
 <emphasis>./configure</emphasis>), compilez et installez</span>
-<span xml:lang="es">Por cada librería, descomprima, configure, 
+<span xml:lang="es">Para cada librería, descomprima, configure, 
 (menos para <emphasis>libdvb</emphasis> que no tiene
 <emphasis>./configure</emphasis>), compile e instale</span>
 <span xml:lang="de">Dekomprimieren, konfigurieren (außer <emphasis>
@@ -159,10 +159,10 @@ récupérez le fichier <filename>vls-version.tar.gz</filename>de la <ulink
 url="http://www.videolan.org/streaming/download-vls-sources.html">page
 des sources de VLS</ulink>. Décompressez-la et générez
 <emphasis>./configure</emphasis> </span>
-<span xml:lang="es">Descárguese las fuentes de la última versión : consiga
+<span xml:lang="es">Descárguese el código fuente de la última versión : consiga
 el fichero <filename>vls-version.tar.gz</filename> de la <ulink
 url="http://www.videolan.org/streaming/download-vls-sources.html">página
-de las fuentes de VLS</ulink>. Descomprímalo y genere
+del código fuente de VLS</ulink>. Descomprímalo y ejecute
 <emphasis>./configure</emphasis> </span>
 <span xml:lang="de">Laden Sie die Quellen der neuesten Version herunter:
 holen Sie sich die Datei <filename>vls-version.tar.gz</filename> von der
@@ -260,7 +260,7 @@ machen Sie</span>
 uninstall</command>, <command>make clean</command> ou <command>make
 distclean</command></span>
 <span xml:lang="es">Puede ejecutar <command>make uninstall</command>,
-<command>make clean</command> or <command>make distclean</command> siempre
+<command>make clean</command> o <command>make distclean</command> siempre
 que lo necesite</span>
 <span xml:lang="de">Sie können auch <command>make uninstall</command>,
 <command>make clean</command> oder <command>make distclean

@@ -29,7 +29,10 @@ should contain a global section with the Time To Live of the SAP
 announces and a section per program announced. Use the comments to
 understand each parameter.</para>
 
-</sect1>
+<para>The Time To Live option indicates the maximum number of routers
+that the SAP announce packet can cross before being dropped.</para>
+
+</sect1>	
 
 <sect1><title>Run the mini-SAP-server</title>
 
@@ -38,6 +41,16 @@ understand each parameter.</para>
 <screen>
 <prompt>% </prompt><userinput>./sapserver -c sap.cfg</userinput>
 </screen>
+
+<para>If you want to run the mini-SAP-server in the background, use the
+<command>-d</command> command line switch. For instance:</para>
+
+<screen>
+<prompt>% </prompt><userinput>./sapserver -d -c sap.cfg</userinput>
+</screen> 
+
+<para>You can also omit the <command>-c</command> command line switch if
+your config file is <command>/etc/sap.cfg</command>
 
 </sect1>
 

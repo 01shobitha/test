@@ -40,7 +40,7 @@ option</a> of the school.</li>
 <h2>The developers</h2>
 
 <p>There is a description of what they worked on, so that you can spot
-cool dudes. Note that dudes with a CVS account are very cool dudes. If
+cool dudes. Note that dudes with a SVN account are very cool dudes. If
 you want to email a dude you will need to replace the '-replacewith@-'
 part with '@'. </p>
 
@@ -93,7 +93,7 @@ part with '@'. </p>
       if( !$dude ) return'';
       if( $email ) $email = str_replace("@","-replacewith@-",$email);
       if( $email ) $dude = '<a href="mailto:'.$email.'">'.$dude.'</a>';
-      if( $cvs ) $dude .= " (CVS login: <code>$cvs</code>)";
+      if( $cvs ) $dude .= " (SVN login: <code>$cvs</code>)";
       if( !$job ) return $dude;
       while (list ($key, $val) = each ($job)) {
          $dude .= "<br /> - $val";

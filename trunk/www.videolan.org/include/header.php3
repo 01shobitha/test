@@ -56,7 +56,7 @@ function starthtml($title) { ?>
 
 <td>
 
-<table cellspacing="3" cellpadding="0">
+<table width="100%" cellspacing="3" cellpadding="0">
 <tr>
     <td style="background-color: <?echo($color_home);?>; width: 17%; vertical-align: middle;" align="center"><a href="/">Home</a></td>
     <td style="background-color: <?echo($color_vlc);?>; width: 16%; vertical-align: middle;" align="center"><a href="/vlc/">VLC media player</a></td>
@@ -67,7 +67,7 @@ function starthtml($title) { ?>
 </tr>
 </table>
 
-<table cellspacing="3" cellpadding="0">
+<table width="100%" cellspacing="3" cellpadding="0">
 <tr>
 
   <? switch($modules[1]) {

@@ -337,7 +337,7 @@ td.topbar {
 
 td.topbarselected {
   vertical-align: middle;
-  background-color: #aaa;
+  background-color: #fba;
   color: #a43;
 
   text-align: center;
@@ -356,7 +356,7 @@ td.topbarselected {
 
 /* Styles used for the lower navigation bar */
 td.bottomleft {
-  background-color: #aaa;
+  background-color: #fba;
   color: #fff;
 
   margin: 2px;
@@ -370,7 +370,7 @@ td.bottomleft {
 }
 
 td.bottomright {
-  background-color: #aaa;
+  background-color: #fba;
   color: #fff;
 
   margin: 2px;
@@ -385,7 +385,7 @@ td.bottomright {
 
 td.bottombar {
   vertical-align: middle;
-  background-color: #aaa;
+  background-color: #fba;
   color: #fff;
 
   text-align: center;
@@ -404,7 +404,7 @@ td.bottombar {
 
 td.bottombarselected {
   vertical-align: middle;
-  background-color: #aaa;
+  background-color: #fba;
   color: #a43;
 
   text-align: center;

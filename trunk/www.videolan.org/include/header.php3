@@ -70,6 +70,7 @@ global $HTTP_GET_VARS;
 
 ?>
 
+<? if($HTTP_GET_VARS['poukram']) { ?>
 <form action="index.html" method="get">
 <table width="100%" cellspacing="0" cellpadding="5">
 
@@ -85,7 +86,6 @@ global $HTTP_GET_VARS;
 
   <table style="width: 100%;" cellspacing="0" cellpadding="0">
   <tr>
-<? if($HTTP_GET_VARS['poukram']) { ?>
     <td class="topleft" style="width: 8%">&nbsp;</td><?
     get_first_bar_item_poukram(6, "home", "Home", "/", $modules[1]);
     get_first_bar_item_poukram(6, "vlc", "VLC", "/vlc/", $modules[1]);
@@ -94,21 +94,11 @@ global $HTTP_GET_VARS;
     get_first_bar_item_poukram(6, "support", "Support", "/support/", $modules[1]);
     get_first_bar_item_poukram(6, "developers", "Developers", "http://developers.videolan.org/", $modules[1]); ?>
     <td class="topbar" style="width: 8%">&nbsp;</td>
-<? } else {
-    get_first_bar_item(6, "home", "Home", "/", $modules[1]);
-    get_first_bar_item(6, "vlc", "VLC", "/vlc/", $modules[1]);
-    get_first_bar_item(6, "streaming", "Streaming", "/streaming/", $modules[1]);
-    get_first_bar_item(6, "doc", "Documentation", "/doc/", $modules[1]);
-    get_first_bar_item(6, "support", "Support", "/support/", $modules[1]);
-    get_first_bar_item(6, "developers", "Developers", "http://developers.videolan.org/", $modules[1]); ?>
-<? } ?>
   </tr>
   </table>
   <table style="width: 100%;" cellspacing="0" cellpadding="0">
   <tr>
-<? if($HTTP_GET_VARS['poukram']) { ?>
     <td class="bottomleft">&nbsp;</td>
-<? } ?>
     <? switch($modules[1]) {
       case "vlc": second_bar_vlc($modules[2]); break;
       case "streaming": second_bar_stream($modules[2]); break;
@@ -116,9 +106,7 @@ global $HTTP_GET_VARS;
       case "support": second_bar_support($modules[2]); break;
       case "home": second_bar_home($modules[2]); break;
     } ?>
-<? if($HTTP_GET_VARS['poukram']) { ?>
     <td class="bottomright">&nbsp;</td>
-<? } ?>
   </tr>
   </table>
 
@@ -133,6 +121,54 @@ global $HTTP_GET_VARS;
 </tr>
 </table>
 </form>
+<? } else { ?>
+<form action="index.html" method="get">
+<table width="100%" cellspacing="0" cellpadding="5">
+
+<tr>
+
+ <td style="width: 35px; text-align: center; vertical-align: middle">
+   <a href="/index.html"><img width="35" height="48"
+   src="/images/cone-soppera7-mini.png" alt="Logo VideoLAN"
+   style="vertical-align: middle; border-width: 0px;" /></a>
+  </td>
+
+ <td style="width: 100%; text-align: center; vertical-align: top;">
+
+  <table style="width: 100%;" cellspacing="0" cellpadding="0">
+  <tr><?
+    get_first_bar_item(6, "home", "Home", "/", $modules[1]);
+    get_first_bar_item(6, "vlc", "VLC", "/vlc/", $modules[1]);
+    get_first_bar_item(6, "streaming", "Streaming", "/streaming/", $modules[1]);
+    get_first_bar_item(6, "doc", "Documentation", "/doc/", $modules[1]);
+    get_first_bar_item(6, "support", "Support", "/support/", $modules[1]);
+    get_first_bar_item(6, "developers", "Developers", "http://developers.videolan.org/", $modules[1]); ?>
+  </tr>
+  </table>
+  <table style="width: 100%;" cellspacing="0" cellpadding="0">
+  <tr>
+    <? switch($modules[1]) {
+      case "vlc": second_bar_vlc($modules[2]); break;
+      case "streaming": second_bar_stream($modules[2]); break;
+      case "doc": ?><td></td><?; break;
+      case "support": second_bar_support($modules[2]); break;
+      case "home": second_bar_home($modules[2]); break;
+    } ?>
+  </tr>
+  </table>
+
+ </td>
+ <td style="text-align: center; vertical-align: middle">
+     <select name="mirror">
+     <!-- current: $GLOBALS['HTTP_HOST'] -->
+     <option value="www.videolan.org">Main site (VIA)</option>
+     <option value="www.fr.videolan.org">Mirror site (Zoy)</option>
+     </select><br/><input type="submit" value="Select Mirror" />
+ </td>
+</tr>
+</table>
+</form>
+<? } ?>
 
 <div style="margin: 10px;">
 <?

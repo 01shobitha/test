@@ -2,6 +2,11 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+|20 Oct 2003| VideoLAN doc switches to GPL| Due to legal problems with
+the GNU FDL license, the VideoLAN doc was switched to General Public
+License. The VideoLAN Quickstart was also removed, as it was redundant
+with the VideoLAN Howto.
+
 |20 Sept 2003| VLC awarded by MacGeneration| During Apple Expo
 Paris 2003, VLC won the trophy for developers support ! For more
 details about the MacGeneration 2003 Trophies, please see <a

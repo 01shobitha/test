@@ -12,7 +12,7 @@
   <!ENTITY overview SYSTEM "overview.xml">
   <!ENTITY config SYSTEM "config.xml">
   <!ENTITY run SYSTEM "run.xml">
-  <!ENTITY fdl SYSTEM "../common/fdl.xml">
+  <!ENTITY gpl SYSTEM "../common/gpl.xml">
 
 ]>
 
@@ -47,11 +47,11 @@
 <legalnotice>
 
 <para>Permission is granted to copy, distribute and/or modify this
-document under the terms of the GNU Free Documentation License, Version
-1.2 or any later version published by the Free Software Foundation ;
-with no Invariant Sections, with no Front-Cover Texts, and with no
-Back-Cover Texts. The text of the license can be found in the appendix
-<xref linkend="gfdl" endterm="tgfdl" />.</para>
+document under the terms of the GNU General Public License as published
+by the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+The text of the license can be found in the appendix.
+<xref linkend="gpl" endterm="tgpl"/>.</para>
 
 </legalnotice>
 
@@ -71,7 +71,7 @@ Back-Cover Texts. The text of the license can be found in the appendix
 
 <para>
 <span xml:lang="en">This document is the complete user guide of VLS</span>
-<span xml:lang="fr">Ce document est le guide de l'utilsateur complet
+<span xml:lang="fr">Ce document est le guide de l'utilisateur complet
 pour VLS</span>
 .</para>
 
@@ -87,6 +87,6 @@ pour VLS</span>
 &overview;
 &config;
 &run;
-&fdl;
+&gpl;
 
 </book>

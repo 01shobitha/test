@@ -378,22 +378,15 @@ lecture.</span>
 
 <itemizedlist>
 
-<listitem><para>
-<span xml:lang="en">the <emphasis>VideoLAN Quickstart</emphasis>. This
-document will give you a quick overview of of VLC, VLC's stream output,
-the Video On Demand solution and the channel information service
-system.</span>
-<span xml:lang="fr">Le <emphasis>VideoLAN Quickstart</emphasis>. Ce
-document offre un rapide apercu de VLC, du stream output, de la Vidéo
-à la demande et des services d'information</span>
-</para></listitem>
+<listitem><para> <span xml:lang="en">the <emphasis>VideoLAN
+HOWTO</emphasis>. This document is the complete guide of the VideoLAN
+streaming solution. It will give you practical examples to set up your
+streaming solution </span>
 
-<listitem><para>
-<span xml:lang="en">the <emphasis>VideoLAN HOWTO</emphasis>. This
-document is the complete guide of the VideoLAN streaming
-solution.</span>
 <span xml:lang="fr">le  <emphasis>VideoLAN HOWTO</emphasis>. Ce 
-document est le guide complet de la solution de streaming VideoLAN.</span>
+document est le guide complet de la solution de streaming VideoLAN.
+Ses exemples concrets vous aideront à mettre en place votre solution de 
+diffusion.</span>
 </para></listitem>
 
 <listitem><para>

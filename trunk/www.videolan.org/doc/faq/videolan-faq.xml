@@ -24,7 +24,6 @@
 <abstract>
 
 <para>
-
 <span xml:lang="en">Frequently Asked Questions about VideoLAN.</span>
 <span xml:lang="es">Preguntas Más Frecuentes sobre VideoLAN.</span>
 <span xml:lang="fr">Questions Fréquentes à propos de VideoLAN.</span>
@@ -32,6 +31,14 @@
 <span xml:lang="it">Le domande ricorrenti (FAQ) su VideoLAN.</span>
 
 </para>
+
+
+<para>Permission is granted to copy, distribute and/or modify this
+document under the terms of the GNU General Public License as published
+by the Free Software Foundation; either version 2 of the License,
+or (at your option) any later version. The text of the license can
+be found <ulink url="http://www.gnu.org/licenses/gpl.txt">the GNU
+website</ulink></para>
 
 </abstract>
 
@@ -772,6 +779,8 @@ hinzu.</span>
 <qandaentry><question><para>
 
 <span xml:lang="en">Do I need a "streaming server"?</span>
+<span xml:lang="fr">Ai-je besoin d'un serveur de diffusion ?</span>
+<span xml:lang="de">Brauche ich einen "Streaming-Server"? </span>
 
 </para></question>
 
@@ -784,6 +793,17 @@ Well, there are in fact two kinds of streaming: passive streaming in which
 a movie is sent by a server and watched by one or several client, and
 Video On Demand (VOD) in which each client asks for its own stream.</span>
 
+<span xml:lang="fr">Il existe en fait deux sortes de diffusion: la
+diffusion passive, dans laquelle un film est envoyé par un serveur et
+visualisé par un ou plusieurs clients, et la Vidéo à la Demande (VOD)
+pour laquelle chaque client demande son propre flux.</span>
+
+<span xml:lang="de">Nun ja, es gibt de facto zwei Arten des Streamings:
+passives Streaming bei dem ein Film von einem Server gesendet und von
+einem Client gesehen wird, sowie "Video On Demand (VOD)", bei dem Client
+nach einem eigenen Stream verlangt. </span>
+
+
 <itemizedlist>
 
 <listitem><para>
@@ -795,6 +815,23 @@ with a protocol such as UDP multicast or RTP, for instance VLS or
 VLC stream output. The client side needs a player supporting such
 protocols, as VLC does.
 </span>
+
+<span xml:lang="fr">Pour la diffusion passive, le client n'a aucun
+contrôle sur le serveur, et doit par exemple s'abonner à un groupe
+multicast pour recevoir le flux. Ce type de diffusion nécessite un
+serveur capable d'envoyer les données sur le réseau, en utilisant un
+protocole tel que l'UDP multicast ou le RTP, par exemple VLS ou le
+stream output de VLC. Du côté client, il faut un lecteur qui supporte
+ces protocoles, tel que VLC.</span>
+
+<span xml:lang="de">Bei passivem Streaming hat der Client keine
+Kontrolle über den Server und muss z.B. einer Multicast-Gruppe
+beitreten, um den Stream zu empfangen. Diese Art des Streamings braucht
+einen Server der Daten mit einem Protokoll wie UDP-Multicast oder RTP
+in ein Netzwerk senden kann, wie z.B. VLS oder die VLC-Streamausgabe.
+Die Client-Seite braucht eine Abspielsoftware, die solche Protokolle
+unterstützt, wie VLC. </span>
+
 </para></listitem>
 
 <listitem><para>
@@ -811,6 +848,36 @@ higher than the average bandwith of your movie (size / duration).
 If it is not the case, VLC will try to keep in real time as much as
 possible, so you will probably get only the audio track and no video.
 </span>
+
+<span xml:lang="fr">Pour la Vidéo à la Demande, aucun serveur de
+diffusion spécifique n'est requis, mais le client doit être capable
+de voir le flux en temps réel au lieu de le télécharger intégralement
+avant de commencer à le regarder. Un protocole simple, tel qu'HTTP est
+suffisant pour la Vidéo à la Demande, de sorte que vous pouvez vous
+contenter de mettre votre vidéo sur un serveur web, et d'utiliser un
+client intelligent, capable de le visualiser en temps réel, VLC par
+exemple ;-). De plus, bien sûr, si votre réseau est trop lent, c'est
+pourquoi vous DEVEZ vous assurer que la bande passante moyenne de votre
+lien réseau est supéreure à la bande passante moyenne de votre film
+(taille / durée). Si ce n'est pas le cas, VLC essaiera de rester en
+temps réel autant que faire se peut, c'est pourquoi il est probable que
+vous n'ayiez que l'audio et pas la vidéo.</span>
+
+<span xml:lang="de">Bei "Video On Demand" wird kein spezieller
+"Streaming-Server" benötigt. Der Client muss aber in der Lage sein, den
+Stream in Echtzeit zu lesen, anstatt dass erst der gesamte Film geladen
+werden muss, bevor die Wiedergabe beginnen kann. Ein einfaches Protokoll
+wie HTTP ist ausreichend für "Video On Demand", sodass Sie einfach nur
+Ihren Film auf einen Webserver legen und eine clevere Abspielsoftware,
+wie VLC ;-), benutzen müssen, um es in Echtzeit zu sehen. Natürlich
+werden Sie nicht in der Lage sein, Filme in Echtzeit sehen zu können,
+wenn Ihr Netzwerk zu langsam ist. Also MÜSSEN Sie überprüfen, ob die
+durchschnittliche Bandbreite Ihres Netzwerks schneller als die des Films
+(Größe / Dauer) ist. Wenn dies nicht der Fall ist, wird VLC versuchen so
+gut wie möglich in der Echtzeit zu bleiben, sodass Sie wahrscheinlich
+nur den Ton und kein Bild erhalten werden.</span>
+
+
 </para></listitem>
 
 </itemizedlist>

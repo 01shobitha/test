@@ -43,7 +43,7 @@ norm of the video (can also be <emphasis>pal</emphasis> or
 <emphasis>ntsc</emphasis>),</para></listitem>
 
 <listitem><para><emphasis>frequency=8692</emphasis> is the frequency of
-the channel in Mhz, multiplied by 16,</para></listitem>
+the channel in Mhz, multiplied by 16 (<emphasis>Warning :</emphasis> Syntax has changed in CVS. Frequency is now channel frequency in kHz),</para></listitem>
 
 <listitem><para><emphasis>size=640x480</emphasis> is
 the size of the video you want (you can also put the

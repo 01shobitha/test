@@ -36,16 +36,16 @@ modules, ...</para>
 core options. Each module adds new options. For example, the HTTP input
 module will add options for caching, proxy, authentication, ...</para>
 
-<para>By using <code>vlc --help</code>, you will get the basic core
-options. <code>vlc --longhelp</code> will give all the basic options
-(core + modules). Adding <code>--advanced</code> will give the "advanced
-options" (for advanced users). So <code>vlc --longhelp --advanced</code>
+<para>By using <userinput>vlc --help</userinput>, you will get the basic core
+options. <userinput>vlc --longhelp</userinput> will give all the basic options
+(core + modules). Adding <userinput>--advanced</userinput> will give the "advanced
+options" (for advanced users). So <userinput>vlc --longhelp --advanced</userinput>
 will give you all options.</para>
 
 <para>Also, you might want to get debug informations. To do this, use
-<code>-v</code> or <code>-vv</code> (this will show
+<userinput>-v</userinput> or <userinput>-vv</userinput> (this will show
 lower severity messages). If your console supports it, you can add
-<code>--color</code> to get messages in color.</para>
+<userinput>--color</userinput> to get messages in color.</para>
 
 </sect2>
 
@@ -91,7 +91,7 @@ Start VLC with:
 <prompt>% </prompt><userinput>vlc dvd://[device][@raw_device][@[title][,[chapter][,angle]]]</userinput>
 </screen>
 
-<para>In most cases, <code>vlc dvd://</code> or <code>vlc dvd://[device]</code> will do. [device] is for example <code>/dev/dvd</code> on GNU/Linux or <code>D:</code> on Windows (complete path to your DVD drive).</para>
+<para>In most cases, <userinput>vlc dvd://</userinput> or <userinput>vlc dvd://[device]</userinput> will do. [device] is for example <userinput>/dev/dvd</userinput> on GNU/Linux or <userinput>D:</userinput> on Windows (complete path to your DVD drive).</para>
 
 <para>
 or 
@@ -138,7 +138,7 @@ VLC's stream output), start VLC with:
 <prompt>% </prompt><userinput>vlc  udp:[@:server_port]</userinput>
 </screen>
 
-<para>If you use the default port (1234), <code>vlc udp:</code> will do. For more information, look at the Streaming Howto</para>
+<para>If you use the default port (1234), <userinput>vlc udp:</userinput> will do. For more information, look at the Streaming Howto</para>
 
 <para>
 To receive an multicast UDP stream (sent by VLS or
@@ -203,8 +203,8 @@ allows you to choose a memory copy module. You should probably never touch that.
 </itemizedlist>
 
 
-<para>You can get a listing of the available modules by using <code>vlc
--l</code></para>
+<para>You can get a listing of the available modules by using <userinput>vlc
+-l</userinput></para>
 
 </sect2>
 
@@ -540,7 +540,7 @@ Image gamma in the 0-10 range.</para></listitem>
 
 <para>Module name : <emphasis>wall</emphasis></para>
 
-This filter splits the output in several windows.
+<para>This filter splits the output in several windows.</para>
 
 <itemizedlist>
 <listitem><para><emphasis>--wall-cols &lt;interger&gt;</emphasis>
@@ -711,7 +711,7 @@ To start VLC with the HTTP interface, use:
 </screen>
 
 <para>If you want to have both the "normal" interface and the HTTP
-interface, use <code>vlc --extraintf http</code>.</para>
+interface, use <userinput>vlc --extraintf http</userinput>.</para>
 
 <para>
 The HTTP interface will start listening at host:port
@@ -795,8 +795,8 @@ For example, for binding fullscreen to Ctrl-f, run :</para>
 (possibly using a remote connexion or a Unix socket.</para>
 
 <para>Start VLC with <emphasis>-I rc</emphasis> or <emphasis>--extraintf
-rc</emphasis>. When you get the <code>Remote control interface
-initialized, `h' for help</code> message, press h and Enter to get help
+rc</emphasis>. When you get the <userinput>Remote control interface
+initialized, `h' for help</userinput> message, press h and Enter to get help
 about available commands.</para>
 
 <para>To be able to remote connect to your VLC using a TCP
@@ -931,7 +931,7 @@ information on how to do this. </para>
 <sect2><title>Use the plugin</title>
 
 <para>If you open a link to a video file handled by the VLC plugin (To
-get the list of handled types, browse to <code>about:plugins</code>)
+get the list of handled types, browse to <userinput>about:plugins</userinput>)
 or a page with an embedded video, the plugin should open and read the
 video.</para>
 

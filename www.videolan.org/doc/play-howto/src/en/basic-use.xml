@@ -505,7 +505,7 @@ not at the same speed, you might also want to adjust the subtitles
 framerate.</para>
 
 <note><para>For Vobsub subtitles, you need to select the
-<code>.idx</code> file, not the <code>.sub</code> file</para>
+<userinput>.idx</userinput> file, not the <userinput>.sub</userinput> file</para>
 <para>Encoding, alignment and size won't have any effect for Vobsub
 subtitles.</para>
 </note>

@@ -12,7 +12,6 @@ td.menu         { border-left: 1px solid #A43000; border-right: 1px
                   color: #A43000; }
 p               { margin-left: 5pt; margin-right: 5pt; }
 p.menu          { margin-top: 5pt; margin-bottom: 5pt; }
-a:link          { color: #FFFFFF; text-decoration: none; }
-a:visited       { color: #FFFFFF; text-decoration: none; }
-a:hover         { color: #FFDD44; text-decoration: underline; font-weight:bold}
-a.th:hover      { color: #FFDD44; text-decoration: underline; font-weight:bold}
+a.menu:link     { color: #FFFFFF; text-decoration: none; }
+a.menu:visited  { color: #FFFFFF; text-decoration: none; }
+a.menu:hover    { color: #FFDD44; text-decoration: underline; font-weight:bold}

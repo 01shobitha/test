@@ -38,7 +38,8 @@
             }
 	    echo "<td style=\"background-color:$bgcolor;border:1pt black solid;color:$fgcolor;text-align:center;\">".$this->difficulty."</td>";
 
-$bgcolor = "white";
+	    $bgcolor = "white";
+	    $fgcolor = "black";
 
 	    if( stristr( $this->urgency,"wishlist") )
 	    {
@@ -59,6 +60,9 @@ $bgcolor = "white";
 	    }
             echo "<td style=\"background-color:$bgcolor;border:1pt black solid;color:$fgcolor;text-align:center;\">".$this->urgency."</td>";
 	
+ 	    $bgcolor = "white";
+	    $fgcolor = "black";
+
             echo "<td style=\"text-align:center;border:1pt black solid;\">".$this->platform."</td>\n";
 
 	    if( stristr( $this->status, "todo" ) )

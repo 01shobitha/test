@@ -17,7 +17,7 @@ function mirrordir($dir)
 	$esp = strpos( $mirror, " " );
 	$url = substr( $mirror, 0, $esp );
 	$mirror_name = substr( $mirror, $esp+1, strlen( $mirror ) - $esp -1 );
-	echo " <li><a href=\"http://www.videolan.org/mirror.html?mirror=$url&file=$dir/\">$mirror_name</a></li>\n "; 
+	echo " <li><a href=\"http://www.videolan.org/mirror.html?mirror=$url&amp;file=$dir/\">$mirror_name</a></li>\n "; 
     }
   echo '</ul></li>';
  }

@@ -24,7 +24,6 @@ pdf:
 rtf:
 	/bin/cp ../common/magic-jpg.sgml ../common/magic.sgml
 	/bin/cp ../../images/plan-videolan-640.jpg .
-	/bin/cp ../../images/plan-videolan-640.jpg .
 	sgmltools -b rtf -s ../common/stylesheet-print-noicones.dsl videolan-quickstart.sgml
 	zip videolan-quickstart-rtf.zip videolan-quickstart.rtf *.jpg
 

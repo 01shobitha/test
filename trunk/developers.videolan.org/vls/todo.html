@@ -1,0 +1,20 @@
+<?
+   $title = "VLS todo";
+   $lang = "en";
+   $date = "14 February 2001";
+?>
+
+<h1>VLS Todo</h1>
+
+
+<?php
+
+   include("../include/todo.php");
+
+   $todo = new Todo;
+
+   $todo->load("vls/TODO");
+  
+   $todo->liste();
+
+?> 

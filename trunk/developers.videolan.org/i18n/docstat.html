@@ -2,7 +2,13 @@
     $title = "VideoLAN documentation localization";
     $lang = "en";
     $date = "6 February 2004";
+?>
 
+<h1>VideoLAN internationalization</h1>
+
+<h2>VideoLAN documentation internationalization</h2>
+
+<?
     $reffile = "/var/www/local/developers.videolan.org/i18n/doc_";
     $lgfile="/var/www/local/developers.videolan.org/i18n/doc_languages";
      
@@ -11,14 +17,19 @@
     fclose ($file_id );
      
     $languages = explode( "\n", $contents );
-
+  
+    echo "<p>";
     for($i=0; $i< count($languages)-1;$i++)
     {
-        echo "<h4><a href=\"docstat.".$languages[$i].".html\">".$languages[$i];
-        echo"</a></h4>\n";
+        list($lg_id,$lg_name) = explode(' ',$languages[$i] );
+        echo "<a href=\"docstat.".$lg_id.".html\">".$lg_name;
+        echo"</a>&nbsp;&nbsp;";
     }
+    echo "</p>\n";
+
     if( isset( $_GET['lang'] ) )
     {
+        echo "<h3>Statistics for ".$_GET['lang']."</h3>";
         $filename=$reffile.$_GET['lang'];
         $file_id= fopen($filename,"r");
         $contents = fread ($file_id, filesize($filename) );
@@ -32,19 +43,23 @@
 
             if($pb=="ut")
             {
-                echo $file." untranslated<br />";
+                echo "<span style=\"color:red;\">$file
+                      is untranslated</span><br />";
             }
             else if($pb=="nr")
             {
-                echo "No revision info in ".$file."<br />";
+                echo "<span style=\"color:red;\">No revision 
+                      info found in $file </span><br />";
             }
             else if($pb=="ic")
             {
-                echo "Inconsistency ".$file."<br />";
+                echo "<span style=\"color:red;\">Inconsistency 
+                      found for $file ($old -> $new )</span><br />";
             }
             else if($pb=="nu")
             {
-                echo "Not up to date for ".$file." ($old -> $new)<br />";
+                echo "<span style=\"color:orange;\">$file 
+                      is not up to date ($old -> $new)</span><br />";
             }
         }
     }

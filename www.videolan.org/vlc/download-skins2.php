@@ -112,4 +112,12 @@ graphics software might ease the job, though :-)</p>
 ?>
 
 
+<h2>Solar skin</h2>
+<?php AddSkin(
+   "solar.png",
+   "Skin made by Piers Cornwell, icons by Jakub Steiner",
+   "solar.vlt" );
+?>
+
+
 <?php footer('$Id: download-skins.html 2517 2004-05-23 17:11:06Z ipkiss $'); ?>

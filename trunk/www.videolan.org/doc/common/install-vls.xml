@@ -114,9 +114,9 @@ kompilieren und installieren Sie jede Bibliothek</span>
 </screen>
 
 <para>
-<span xml:lang="en">Check that the configuration file
+<span xml:lang="en">On GNULinux, check that the configuration file
 <filename>/etc/ld.so.conf</filename> contains the following line</span>
-<span xml:lang="fr">Vérifiez que le fichier de configuration
+<span xml:lang="fr">Sous GNULinux, vérifiez que le fichier de configuration
 <filename>/etc/ld.so.conf</filename> contient la ligne</span>
 <span xml:lang="es">Verifique que el fichero de configuración
 <filename>/etc/ld.so.conf</filename> contiene la siguiente línea</span>
@@ -138,6 +138,14 @@ starten Sie dann</span>
 <screen>
 <prompt># </prompt><userinput>ldconfig</userinput>
 </screen>
+
+<para>
+<span xml:lang="en">On Mac OS X, run</span>
+<span xml:lang="fr">Sous Mac OS X, lancez</span>
+<screen>
+<prompt># </prompt><userinput>ranlib /usr/local/lib/*.a</userinput>
+</screen>
+
 
 </simplesect>
 

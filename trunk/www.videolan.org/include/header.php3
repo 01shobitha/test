@@ -147,20 +147,6 @@ function menu_videolan() { ?>
 <? }
 
    /*
-    *  nomenu: page header when the menu isn't displayed
-    */
-
-function nomenu($title) { global $page; ?>
-  <table cellspacing="0" cellpadding="10">
-    <tr>
-      <td>
-        [<a href="<? echo $page; ?>?menu=yes">show&nbsp;menu</a>]
-      </td>
-    </tr>
-  </table>
-<? }
-
-   /*
     *  startmenu: page header when the menu is displayed
     */
 

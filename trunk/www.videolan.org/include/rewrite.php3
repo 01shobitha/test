@@ -4,27 +4,8 @@
 
    $lang=""; $date=""; $title="";
 
-   /* ask the cookie if the user wants the menu, can be overriden */
-   $redirect = 0;
-   if($menu=="no") {
-      if($cookie_menu!="no") {
-         setcookie("cookie_menu", "no");
-      }
-      $redirect = 1;
-   } elseif($menu=="yes") {
-      if($cookie_menu!="yes") {
-         setcookie("cookie_menu", "yes");
-      }
-      $redirect = 1;
-   } elseif($cookie_menu=="no") {
-      $menu="no";
-   } else {
-      $menu="yes";
-   }
-
    /* redirect user to the actual page */
 /*   if($redirect) {
-      $query = ereg_replace("menu=[^&]*&*","",$REQUEST_URI);
       $query = ereg_replace("page=[^&]*&*","",$query);
       $query = ereg_replace("dir=[^&]*&*","",$query);
       $query = ereg_replace("\\?*&*$","",$query);
@@ -114,7 +95,7 @@
 
    /* render the page */
    starthtml(ereg_replace("<[^>]*>","",$title));
-   if($menu=="yes") { startmenu($title); } else { nomenu($title); }
+   startmenu($title);
 
    /* if it is a directory index, print it ; otherwise, include the page */
    if($index) {
@@ -149,7 +130,7 @@
 
    /* bottom of the page */
    bottom($title, $lang, $date);
-   if($menu=="yes") { stopmenu($title); }
+   stopmenu($title);
    stophtml();
 
 ?>

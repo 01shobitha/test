@@ -66,7 +66,7 @@ feature.
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv --color pvr:/dev/video0:norm=secam:size=720x576:frequency=576250:
-bitrate=3000000:maxbitrate=4000000 --sout udp:192.168.0.42 --ttl 12</userinput>
+bitrate=3000000:maxbitrate=4000000 --cr-average 1000 --sout udp:192.168.0.42 --ttl 12</userinput>
 </screen>
 
 <para>
@@ -103,6 +103,9 @@ is the average bitrate of the stream
 <listitem><para><emphasis>maxbitrate=4000000</emphasis>
 is the maximum bitrate of the stream
 ,</para></listitem>
+
+<listitem><para><emphasis>1000</emphasis> is a secret value to work around a bug of the card.
+</para></listitem>
 
 <listitem><para><emphasis>192.168.0.42</emphasis>
  is either :

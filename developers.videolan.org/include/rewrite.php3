@@ -17,7 +17,7 @@
   else
     $page = '403';
 
-    if( file_exists( "$page.html" ) )
+  if( file_exists( "$page.html" ) )
   {
     $fd = fopen( "$page.html", "r" );
     $line = fgets( $fd, 1023 );
@@ -47,7 +47,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-  <title><? echo $title ?></title>
+  <title><?php echo $title ?></title>
   <link type="text/css" href="/main.css" rel="stylesheet">
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 </head>
@@ -55,7 +55,7 @@
 <table width="100%" cellspacing=0 cellpadding=10>
 <tr><td rowspan=2 width=150 valign=top class=background>
 <?php
-  include( "$path/include/menu.inc" );
+  include( 'include/menu.inc' );
 ?>
 </td>
 <td height=50 class=background><h1>developers.videolan.org</h1></td></tr>

@@ -1,7 +1,18 @@
 # Les commentaires commencent par un # en premier position 
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
+
+|1 April 2004| Previews of next release | The new version of VLC is coming
+up, and we thought we'd show you some pictures of the upcoming stuff.
+First of all VLC will now be able to play all <a href="http://download.videolan.org/images/real.jpg">Real</a> and <a href="http://download.videolan.org/images/wmw3.jpg">Windows Media Video 3</a>
+content. A <a href="http://download.videolan.org/images/vlc-os9.png">Mac OS 9</a>
+version is now available as well, and there is a new plugin
+to stream video to the <a href="http://members.tripod.com/~annie43/spa/sp29.gif">Marsrover Spirit</a>.
+
 |3/4 April 2004| VideoLAN at HackIT:04| We will participate to the italian hackmeeting in Genova (see <a href="http://www.hackmeeting.org/">http://www.hackmeeting.org/</a>). We will hold a conference about video streaming and make demos on saturday and sunday.
+
+|1 April 2004| Previews of next release | The new version of VLC is coming
+up, and we thought we'd show you some pictures of the upcoming stuff.
 
 |18 March 2004| Scheduled downtime| Due to maintainance operations, 
 a network downtime of about one hour will occur this day at about 

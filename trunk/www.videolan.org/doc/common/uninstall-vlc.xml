@@ -9,6 +9,7 @@ icon that was created during installation</span>
 VLC</emphasis> créée pendant l'installation</span>
 <span xml:lang="es"> Pulse sobre el icono <emphasis>Uninstall VLC</emphasis>
  creado durante la instalación</span>
+<span xml:lang="de"> Klicken Sie auf das <emphasis>Uninstall VLC</emphasis>-Icon, das während der Installation erzeugt wurde</span>
 .</para>
 
 </sect2>
@@ -24,7 +25,10 @@ Vous pouvez également effacer le fichier de configuration
 <filename>/boot/home/config/settings/vlcrc</filename></span>
 <span xml:lang="es">Elimine el directorio <filename>vlc-version</filename>.
 También puede eliminar el fichero de configuración
-<filename>/boot/home/config/settings/vlcrc</filename></span
+<filename>/boot/home/config/settings/vlcrc</filename></span>
+<span xml:lang="de">Löschen Sie das <filename>vlc-version</filename>
+Verzeichnis. Sie können außerdem die Konfigurationsdatei
+<filename>/boot/home/config/settings/vlcrc</filename> löschen</span>
 .</para>
 
 </sect2>
@@ -35,6 +39,7 @@ También puede eliminar el fichero de configuración
 <span xml:lang="en">Drag the VLC application to your trash can</span>
 <span xml:lang="fr">Faites glisser l'application VLC sur la Corbeille</span>
 <span xml:lang="es">Arrastre la aplicación VLC a la papelera de reciclaje</span>
+<span xml:lang="de">Ziehen Sie das VLC-Programm auf Ihren Papierkorb</span>
 .</para>
 
 </sect2>
@@ -45,6 +50,7 @@ También puede eliminar el fichero de configuración
 <span xml:lang="en">Remove the packages that you installed</span>
 <span xml:lang="fr">Enlevez les paquets que vous avez installé</span>
 <span xml:lang="es">Elimine los paquetes que ha instalado</span>
+<span xml:lang="de">Entfernen Sie die Pakete, die Sie installiert haben</span>
  :</para>
 
 <screen>
@@ -59,6 +65,7 @@ También puede eliminar el fichero de configuración
 <span xml:lang="en">Uninstall the RPM packages that you installed</span>
 <span xml:lang="fr">Désinstallez les RPM que vous avez installé</span>
 <span xml:lang="es">Desinstale los paquetes RPM que ha instalado</span>
+<span xml:lang="de">Deinstallieren Sie die RPM-Pakete, die Sie installiert haben</span>
  :</para>
 
 <screen>
@@ -72,6 +79,7 @@ libdvdcss2-version libdvdpsi1-version</userinput>
 <span xml:lang="en">If you compiled VLC from sources</span>
 <span xml:lang="fr">Si vous avez compilé le VLC depuis les sources</span>
 <span xml:lang="es">Si ha compilado VLS desde las fuentes</span>
+<span xml:lang="de">Wenn Sie VLC aus den Quellen kompiliert haben</span>
 </title>
 
 <para>
@@ -81,6 +89,7 @@ execute</span>
 exécutez</span>
 <span xml:lang="es">Vaya al directorio que contiene las fuentes de VLC y
 ejecute</span>
+<span xml:lang="de">Gehen Sie in das Verzeichnis, das die Quellen von VLC enthält und führen Sie aus</span>
  :</para>
 
 <screen>
@@ -91,6 +100,7 @@ ejecute</span>
 <span xml:lang="en">Then you can remove the VLC sources</span>
 <span xml:lang="fr">Vous pouvez alors retirer les sources de VLC</span>
 <span xml:lang="es">Después puede borrar las fuentes de VLC</span>
+<span xml:lang="de">Danach können Sie die Quellen von VLC entfernen</span>
 .</para>
 
 </sect2>

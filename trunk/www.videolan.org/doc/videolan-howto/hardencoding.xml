@@ -135,7 +135,7 @@ bitrate=3000000:maxbitrate=4000000 --sout udp:192.168.0.42 --ttl 12 --cr-average
 <span xml:lang="en">where</span>
 <span xml:lang="fr">où</span>
 <span xml:lang="es">donde</span> 
-<span xml:lang="de">wo</span>
+<span xml:lang="de">wobei</span>
 :</para>
 
 <itemizedlist>
@@ -248,7 +248,7 @@ Ihrer IP-Pakete (was heißt, dass der Stream in der Lage sein wird,
 <span xml:lang="en"> is a secret value to work around a bug of the card</span>
 <span xml:lang="fr"> est un paramètre secret qui permet de contourner un bug de la carte</span>
 <span xml:lang="es"> </span>
-<span xml:lang="de"> </span>
+<span xml:lang="de"> ist ein geheimer Wert, um einen Fehler der Karte zu umgehen</span>
 .</para></listitem>
 
 
@@ -481,7 +481,7 @@ im BIOS deaktivieren</span>
 <para><span xml:lang="en">where</span>
 <span xml:lang="fr">où</span> :</para>
 <span xml:lang="es">donde</span>
-<span xml:lang="de">wo</span>
+<span xml:lang="de">wobei</span>
 
 <itemizedlist>
 

@@ -10,6 +10,7 @@
   <!ENTITY modules SYSTEM "modules.xml">
   <!ENTITY install SYSTEM "install.xml">
   <!ENTITY cmdline SYSTEM "cmdline.xml">
+  <!ENTITY sout SYSTEM "../common/sout.xml">
   <!ENTITY webbrowser-plugin SYSTEM "webbrowser-plugin.xml">
   <!ENTITY install-vlc SYSTEM "../common/install-vlc.xml">
   <!ENTITY uninstall-vlc SYSTEM "../common/uninstall-vlc.xml">

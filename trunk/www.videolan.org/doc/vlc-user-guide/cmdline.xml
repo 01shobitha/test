@@ -110,40 +110,7 @@ allows you to force the demux module.</para></listitem>
 
 <sect1><title>Stream Output</title>
 
-<para>Stream output is a new feature of VLC, which allows you to save
-the video that you are watching to a file, or to stream it in UDP.</para>
-
-<itemizedlist>
-
-<listitem><para><emphasis>--sout &lt;string&gt;</emphasis>
-enables stream output to <emphasis>string</emphasis>
-(<emphasis>string</emphasis> can be either a file name or a ip
-adress).</para></listitem>
-
-<listitem><para><emphasis>--no-sout-audio</emphasis> disables audio
-stream output.</para></listitem>
-
-<listitem><para><emphasis>--no-sout-video</emphasis> disables video
-stream output.</para></listitem>
-
-<listitem><para><emphasis>--sout-acodec
-[|mpeg1|mpeg2|mpeg4|vorbis]</emphasis> allows you to force audio
-encoding.</para></listitem>
-
-<listitem><para><emphasis>--sout-vcodec [|mpeg1|mpeg2|mpeg4]</emphasis>
-allows you to force video encoding.</para></listitem>
-
-<listitem><para><emphasis>--packetizer &lt;string&gt;</emphasis>
-allows you to select the order in which VLC will select its
-packetizers.</para></listitem>
-
-<listitem><para><emphasis>--mux &lt;string&gt;</emphasis> lets you
-configure mux modules.</para></listitem>
-
-<listitem><para><emphasis>--access_output &lt;string&gt;</emphasis> lets
-you configure access output modules.</para></listitem>
-
-</itemizedlist>
+&sout;
 
 </sect1>
 

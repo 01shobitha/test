@@ -47,12 +47,26 @@ able to cross 11 routers).</para></listitem>
 
 </itemizedlist>
 
-<note><para>Under Unix, you may have to protect the square brackets
+<note><para>Under Unix/Linux, you may have to protect the square brackets
 around the IPv6 address :</para>
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv video1.xyz --ipv6 --sout udp:\[ff08::1\] --ttl 12</userinput>
 </screen>
+
+</note>
+
+<note><para>You may have to specify the output network interface :</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv video1.xyz --ipv6 --sout udp:[ff08::1%eth0] --ttl 12</userinput>
+</screen>
+
+<para>where <emphasis>eth0</emphasis> is the name of the
+network interface (under Linux the network interfaces
+are named <emphasis>ethX</emphasis>, under Mac OS X it's
+<emphasis>enX</emphasis> and under Windows it's <emphasis>X</emphasis>,
+where <emphasis>X</emphasis> is the appropriate number).</para>
 
 </note>
 
@@ -86,6 +100,30 @@ to write one for IPv6 streaming in unicast or multicast.</para>
 
 <para>where <emphasis>ff08::1</emphasis> is the multicast IPv6 address
 you want to receive.</para>
+
+
+<note><para>Under Unix/Linux, you may have to protect the square brackets
+around the IPv6 address :</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv --ipv6 udp:@\[ff08::1\]</userinput>
+</screen>
+
+</note>
+
+<note><para>You may have to specify the input network interface :</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv --ipv6 udp:@[ff08::1%eth0]</userinput>
+</screen>
+
+<para>where <emphasis>eth0</emphasis> is the name of the
+network interface (under Linux the network interfaces
+are named <emphasis>ethX</emphasis>, under Mac OS X it's
+<emphasis>enX</emphasis> and under Windows it's <emphasis>X</emphasis>,
+where <emphasis>X</emphasis> is the appropriate number).</para>
+
+</note>
 
 </sect2>
 

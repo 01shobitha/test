@@ -1,6 +1,4 @@
-# big nasty kludge
-AddType application/x-httpd-php .html
-
+Redirect /mirror.html http://www.videolan.org/mirror.php
 
 ErrorDocument 403 /403.html
 ErrorDocument 404 /404.html

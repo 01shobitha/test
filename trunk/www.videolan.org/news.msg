@@ -4,6 +4,23 @@
 # Et pour les nouvelles importantes, c'est pas un | , c'est un §
 #
 
+|23 June 2003| Release: VLC 0.6.0| This major release of VLC
+media player features a new Video 4 Linux input, a new CDDA
+input, multicast IPv6 support under Windows and Mac OS X, support
+for Sorenson 3, a new HTTP remote control interface, improved
+wxWindows and skin interfaces (now available for X11), a new stream
+output scheme with transcoding support and much more! Look <a
+href="http://developers.videolan.org/vlc/NEWS">here</a> for a complete
+list of changes. To download the sources or the binary packages of
+this new version, go to the <a href="http://www.videolan.org/vlc/">VLC
+download page</a> and click on your OS logo!
+
+|23 June 2003| Release: Libdvdcss 1.2.7| This is new release of
+libdvdcss, a DVD decryption library used by VLC and many other GPL media
+players, has key caching enabled by default a some bugfixes. See the <a
+href="http://developers.videolan.org/libdvdcss/">libdvdcss page</a> to
+download the sources or the binaires.
+
 |20 June 2003| Release: miniSAPserver 0.2.1| This new version of the
 miniSAPserver offers IPv6 support both for announces and announced
 streams, together with the CVS version of VLC.

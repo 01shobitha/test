@@ -45,7 +45,7 @@ is a cone" /></a>
 <p class=menu><a href="/cvs.html">CVS</a></p>
 <p class=menu><a href="/lists.html">Mailing lists</a></p>
 <p class=menu><a
-href="http://ww.bugzilla.videolan.org/">Bugzilla</a></p>
+href="http://bugzilla.videolan.org/">Bugzilla</a></p>
 <p class=menu><a
 href="http://www.videolan.org/cgi-bin/cvsweb/">CVSWeb</a></p>
 <p class=menu><a

@@ -29,6 +29,7 @@ init-$(LANG):
 $(LANG)/$(DOC)-$(LANG).html: init-$(LANG)
 	xsltproc --stringparam chunker.output.encoding "iso-8859-15" --param chunk.section.depth 0 --stringparam html.stylesheet "screen.css" $(XSL) src/$(LANG)/$(DOC).xml > $(LANG)/$(DOC)-$(LANG).html
 	mv *.html $(LANG)
+	cd $(LANG) && cp index.html $(DOC)-$(LANG).html && cd ..
 	rm -f $(LANG)/$(DOC)-$(LANG)-html.zip
 	cd $(LANG) && zip $(DOC)-$(LANG)-html.zip *.html images/*.gif
 

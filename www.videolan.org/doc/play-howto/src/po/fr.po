@@ -1021,7 +1021,7 @@ msgstr ""
 #: en/basic-use.xml:233
 #, no-wrap
 msgid "After having set all the required parameters, you can start the capture by selecting the \"Ok\" button."
-msgstr "Après avoir réglé tous les paramètres requis, vous pouvez démarrer la lecture en cliquant le bouton \"Ok\"."
+msgstr "Après avoir réglé tous les paramètres requis, vous pouvez commencer l'acquisition en cliquant le bouton \"Ok\"."
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><textobject><para>
 #: en/basic-use.xml:239
@@ -1033,7 +1033,7 @@ msgstr "La boite de dialogue PVR - interface wxWindows"
 #: en/basic-use.xml:240
 #, fuzzy, no-wrap
 msgid "The Open PVR dialog - wxWindows interface"
-msgstr "Le boite de dialogue PVR- interface wxWindows"
+msgstr "Le boite de dialogue PVRi - interface wxWindows"
 
 # type: Content of: <chapter><sect1><title>
 #: en/basic-use.xml:248
@@ -1227,19 +1227,19 @@ msgid ""
 "allow you to move an item. Select an item and use these buttons to move\n"
 "it."
 msgstr ""
-"Dans l'interface wxWindows, les boutons <emphasis>Up</emphasis> et \n"
-"<emphasis>Down</emphasis> à la fin de la fenêtre de playlist vous \n"
-"permet de déplacer un fichier. Choisissez un fichier et utilisez \n"
+"Dans l'interface wxWindows, les boutons <emphasis>Haut</emphasis> et \n"
+"<emphasis>Bas</emphasis> en bas de la fenêtre de playlist vous \n"
+"permettent de déplacer un élément. Selectionez un élément et utilisez \n"
 "ces boutons pour le déplacer."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/basic-use.xml:336
-#, no-wrap
+#, no-wrapi,fuzzy
 msgid ""
 "In the MacOS X interface, you can move an item with the mouse,\n"
 "easily using a <emphasis>Drag'n'Drop</emphasis>."
 msgstr ""
-"Dans l'interface MacOS, vous pouvez déplacer facilement un fichier \n"
+"Dans l'interface MacOS, vous pouvez déplacer un élément facilement \n"
 "à l'aide de la souris en utilisant <emphasis>Drag'n'Drop</emphasis>."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
@@ -1256,9 +1256,9 @@ msgid ""
 "access to a number of functions (play the item, disable it, delete it,\n"
 "or get info on it)."
 msgstr ""
-"En double cliquant sur un objet, un menu contextuel apparaîtra, il donne \n"
+"En cliquant avec le boutton droit de la souris sur un élément, un menu contextuel apparaîtra. Il donne \n"
 "accès à nombre de fonctions (lire l'objet, le désactiver, le supprimer \n"
-"ou avoir des informations lui concernant."
+"ou obtenir des informations le concernant)."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/basic-use.xml:348
@@ -1268,33 +1268,33 @@ msgid ""
 "appear. This dialog box also allows you to change the name, the author and the \n"
 "location of the item to play."
 msgstr ""
-"Si vous cherchez des infos, la boîte de dialogue <emphasis>item info</emphasis> \n"
+"Si vous cherchez des infos, la boîte de dialogue <emphasis>Informations sur l'élément</emphasis> \n"
 "va pparaître. Cette boîte de dialogue vous permet aussi de changer le nom, l'auteur \n"
-"et l'endroit où se trouve le fichier à lire. "
+"et l'emplacement du fichier à lire. "
 
 # type: Content of: <chapter><sect1><sect2><sect3><mediaobject><caption><para>
 #: en/basic-use.xml:356 en/basic-use.xml:357
 #, no-wrap
 msgid "Item Info Dialog - wx Interface"
-msgstr "Info de dialogue d'un fichier - l'interface wxWindows"
+msgstr "La boite de dialogue Informations sur l'élément - interface wxWindows"
 
 # type: Content of: <chapter><sect1><sect2><sect3><mediaobject><caption><para>
 #: en/basic-use.xml:363 en/basic-use.xml:364
 #, no-wrap
 msgid "Item Info Dialog - MacOS X interface"
-msgstr "Info de dialogue d'un fichier - l'interface wxWindows"
+msgstr "La boite de dialogue Informations sur l'élément - interface wxWindows"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/basic-use.xml:374 en/advanced-use.xml:767
 #, no-wrap
 msgid "Hotkeys"
-msgstr "Raccourcis"
+msgstr "Raccourcis Clavier"
 
 # type: Content of: <chapter><sect1><para>
 #: en/basic-use.xml:376
 #, no-wrap
 msgid "Most of VLC functions are accessible using hotkeys"
-msgstr "Plisieurs fonctions de VLC sont accessibles par raccourcis"
+msgstr "La plupart des fonctions de VLC sont accessibles par raccourcis"
 
 # type: Content of: <chapter><sect1><para>
 #: en/basic-use.xml:378

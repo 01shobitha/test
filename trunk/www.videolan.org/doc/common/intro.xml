@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>
-<chapter id="intro"><title id="tintro">Introduction</title>
+<chapter id="intro"><title id="tintro">
+<span xml:lang="en">Introduction</span>
+<span xml:lang="fr">Introduction</span>
+<span xml:lang="es">Introducción</span>
+<span xml:lang="de">Einführung</span>
+</title>
 
 <sect1><title>
 <span xml:lang="en">What is the VideoLAN project ?</span>

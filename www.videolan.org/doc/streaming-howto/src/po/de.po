@@ -1,0 +1,6215 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2005-01-23 13:03+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+# type: Content of: <chapter><sect1><sect2><itemizedlist>
+#: en/streaming-howto.xml:1 en/streaming-howto.xml:27
+#: en/streaming-howto.xml:29 en/streaming-howto.xml:31
+#: en/streaming-howto.xml:33 en/streaming-howto.xml:56
+#: en/streaming-howto.xml:63 en/streaming-howto.xml:65
+#: en/streaming-howto.xml:72 en/streaming-howto.xml:74
+#: en/streaming-howto.xml:91 en/streaming-howto.xml:93
+#: en/streaming-howto.xml:97 en/dvd.xml:5 en/dvd.xml:7 en/dvd.xml:16
+#: en/dvd.xml:20 en/dvd.xml:25 en/dvd.xml:30 en/dvd.xml:34 en/dvd.xml:39
+#: en/dvd.xml:41 en/dvd.xml:49 en/dvd.xml:54 en/dvd.xml:56 en/dvd.xml:62
+#: en/dvd.xml:68 en/dvd.xml:73 en/dvd.xml:75 en/dvd.xml:77 en/dvd.xml:91
+#: en/file.xml:4 en/file.xml:6 en/file.xml:10 en/file.xml:14 en/file.xml:18
+#: en/file.xml:20 en/file.xml:23 en/file.xml:27 en/file.xml:29 en/file.xml:34
+#: en/file.xml:39 en/file.xml:43 en/file.xml:45 en/file.xml:47 en/file.xml:54
+#: en/file.xml:59 en/file.xml:61 en/gui.xml:3 en/gui.xml:5 en/gui.xml:10
+#: en/gui.xml:12 en/gui.xml:14 en/gui.xml:19 en/gui.xml:22 en/gui.xml:24
+#: en/gui.xml:27 en/gui.xml:35 en/gui.xml:37 en/gui.xml:39 en/gui.xml:41
+#: en/gui.xml:43 en/gui.xml:46 en/gui.xml:49 en/gui.xml:51 en/gui.xml:59
+#: en/gui.xml:61 en/gui.xml:63 en/gui.xml:67 en/gui.xml:72 en/gui.xml:80
+#: en/gui.xml:88 en/gui.xml:90 en/gui.xml:92 en/gui.xml:95 en/gui.xml:97
+#: en/gui.xml:101 en/gui.xml:105 en/gui.xml:111 en/gui.xml:116 en/gui.xml:118
+#: en/gui.xml:126 en/gui.xml:128 en/gui.xml:130 en/gui.xml:134 en/gui.xml:136
+#: en/gui.xml:144 en/gui.xml:146 en/gui.xml:148 en/gui.xml:153 en/gui.xml:155
+#: en/gui.xml:163 en/gui.xml:165 en/gui.xml:167 en/gui.xml:170 en/gui.xml:172
+#: en/gui.xml:177 en/gui.xml:181 en/gui.xml:187 en/gui.xml:189 en/gui.xml:197
+#: en/gui.xml:199 en/gui.xml:201 en/gui.xml:204 en/gui.xml:212 en/gui.xml:214
+#: en/gui.xml:216 en/gui.xml:218 en/gui.xml:220 en/gui.xml:227 en/gui.xml:231
+#: en/gui.xml:239 en/gui.xml:247 en/gui.xml:249 en/gui.xml:251 en/gui.xml:259
+#: en/gui.xml:267 en/gui.xml:269 en/gui.xml:275 en/gui.xml:277 en/gui.xml:279
+#: en/gui.xml:281 en/gui.xml:285 en/gui.xml:290 en/gui.xml:294 en/gui.xml:298
+#: en/gui.xml:301 en/gui.xml:303 en/gui.xml:307 en/gui.xml:310 en/gui.xml:312
+#: en/gui.xml:316 en/gui.xml:318 en/gui.xml:320 en/gui.xml:322 en/gui.xml:324
+#: en/gui.xml:326 en/gui.xml:330 en/gui.xml:332 en/gui.xml:334 en/gui.xml:336
+#: en/gui.xml:338 en/gui.xml:340 en/gui.xml:342 en/gui.xml:350 en/gui.xml:352
+#: en/dvb.xml:5 en/dvb.xml:12 en/dvb.xml:16 en/dvb.xml:23 en/dvb.xml:25
+#: en/dvb.xml:32 en/dvb.xml:41 en/dvb.xml:48 en/dvb.xml:50 en/dvb.xml:54
+#: en/dvb.xml:61 en/dvb.xml:66 en/dvb.xml:70 en/dvb.xml:74 en/dvb.xml:76
+#: en/dvb.xml:81 en/dvb.xml:85 en/dvb.xml:91 en/dvb.xml:96 en/dvb.xml:100
+#: en/dvb.xml:102 en/dvb.xml:108 en/dvb.xml:110 en/dvb.xml:112 en/dvb.xml:116
+#: en/dvb.xml:121 en/dvb.xml:125 en/dvb.xml:129 en/dvb.xml:131 en/dvb.xml:134
+#: en/dvb.xml:139 en/dvb.xml:142 en/dvb.xml:146 en/dvb.xml:150 en/dvb.xml:153
+#: en/dvb.xml:156 en/dvb.xml:159 en/dvb.xml:162 en/dvb.xml:164 en/dvb.xml:168
+#: en/dvb.xml:172 en/dvb.xml:175 en/dvb.xml:177 en/dvb.xml:179 en/dvb.xml:183
+#: en/dvb.xml:185 en/examples.xml:5 en/examples.xml:9 en/examples.xml:14
+#: en/examples.xml:19 en/examples.xml:24 en/examples.xml:30 en/examples.xml:36
+#: en/examples.xml:41 en/examples.xml:43 en/examples.xml:47 en/examples.xml:52
+#: en/examples.xml:58 en/examples.xml:63 en/examples.xml:69 en/examples.xml:72
+#: en/examples.xml:78 en/examples.xml:82 en/examples.xml:84 en/examples.xml:89
+#: en/examples.xml:95 en/examples.xml:101 en/examples.xml:106
+#: en/examples.xml:113 en/examples.xml:119 en/examples.xml:126
+#: en/examples.xml:128 en/examples.xml:132 en/examples.xml:136
+#: en/examples.xml:138 en/examples.xml:142 en/examples.xml:146
+#: en/examples.xml:148 en/examples.xml:152 en/examples.xml:156
+#: en/examples.xml:158 en/examples.xml:160 en/examples.xml:164
+#: en/examples.xml:169 en/examples.xml:174 en/examples.xml:179
+#: en/examples.xml:181 en/examples.xml:185 en/examples.xml:189
+#: en/examples.xml:191 en/examples.xml:195 en/examples.xml:199
+#: en/examples.xml:201 en/examples.xml:205 en/examples.xml:209
+#: en/examples.xml:211 en/examples.xml:213 en/examples.xml:215
+#: en/examples.xml:219 en/examples.xml:223 en/examples.xml:228
+#: en/examples.xml:233 en/examples.xml:237 en/examples.xml:242
+#: en/examples.xml:244 en/examples.xml:248 en/examples.xml:253
+#: en/examples.xml:255 en/examples.xml:259 en/examples.xml:265
+#: en/examples.xml:269 en/examples.xml:271 en/examples.xml:273
+#: en/examples.xml:278 en/examples.xml:283 en/examples.xml:289
+#: en/vlm-vod.xml:1 en/vlm-vod.xml:5 en/vlm-vod.xml:12 en/vlm-vod.xml:14
+#: en/vlm-vod.xml:20 en/vlm-vod.xml:22 en/vlm-vod.xml:24 en/vlm-vod.xml:27
+#: en/vlm-vod.xml:31 en/vlm-vod.xml:35 en/vlm-vod.xml:38 en/vlm-vod.xml:46
+#: en/vlm-vod.xml:55 en/vlm-vod.xml:57 en/vlm-vod.xml:59 en/vlm-vod.xml:62
+#: en/vlm-vod.xml:65 en/vlm-vod.xml:67 en/vlm-vod.xml:69 en/vlm-vod.xml:71
+#: en/vlm-vod.xml:75 en/vlm-vod.xml:77 en/vlm-vod.xml:79 en/vlm-vod.xml:83
+#: en/vlm-vod.xml:88 en/vlm-vod.xml:90 en/vlm-vod.xml:92 en/vlm-vod.xml:94
+#: en/vlm-vod.xml:98 en/vlm-vod.xml:100 en/vlm-vod.xml:102 en/vlm-vod.xml:104
+#: en/vlm-vod.xml:106 en/vlm-vod.xml:109 en/vlm-vod.xml:115 en/vlm-vod.xml:119
+#: en/vlm-vod.xml:128 en/vlm-vod.xml:140 en/vlm-vod.xml:146 en/vlm-vod.xml:153
+#: en/vlm-vod.xml:158 en/vlm-vod.xml:160 en/vlm-vod.xml:162 en/vlm-vod.xml:164
+#: en/vlm-vod.xml:167 en/vlm-vod.xml:169 en/vlm-vod.xml:172 en/vlm-vod.xml:179
+#: en/vlm-vod.xml:183 en/vlm-vod.xml:189 en/vlm-vod.xml:197 en/vlm-vod.xml:199
+#: en/vlm-vod.xml:201 en/vlm-vod.xml:203 en/vlm-vod.xml:205 en/vlm-vod.xml:208
+#: en/vlm-vod.xml:215 en/vlm-vod.xml:226 en/vlm-vod.xml:234 en/vlm-vod.xml:239
+#: en/vlm-vod.xml:241 en/vlm-vod.xml:243 en/vlm-vod.xml:245 en/vlm-vod.xml:247
+#: en/vlm-vod.xml:251 en/vlm-vod.xml:254 en/vlm-vod.xml:257 en/vlm-vod.xml:260
+#: en/vlm-vod.xml:262 en/vlm-vod.xml:264 en/vlm-vod.xml:266 en/vlm-vod.xml:269
+#: en/vlm-vod.xml:274 en/vlm-vod.xml:277 en/vlm-vod.xml:279 en/vlm-vod.xml:281
+#: en/vlm-vod.xml:283 en/vlm-vod.xml:285 en/vlm-vod.xml:287 en/vlm-vod.xml:300
+#: en/vlm-vod.xml:302 en/vlm-vod.xml:304 en/vlm-vod.xml:314 en/vlm-vod.xml:316
+#: en/vlm-vod.xml:318 en/vlm-vod.xml:320 en/vlm-vod.xml:322 en/vlm-vod.xml:324
+#: en/vlm-vod.xml:326 en/ipv6.xml:4 en/ipv6.xml:6 en/ipv6.xml:10
+#: en/ipv6.xml:15 en/ipv6.xml:29 en/ipv6.xml:34 en/ipv6.xml:38 en/ipv6.xml:44
+#: en/ipv6.xml:52 en/ipv6.xml:59 en/ipv6.xml:72 en/ipv6.xml:76 en/ipv6.xml:89
+#: en/ipv6.xml:93 en/ipv6.xml:100 en/ipv6.xml:102 en/ipv6.xml:108
+#: en/ipv6.xml:112 en/ipv6.xml:116 en/ipv6.xml:118 en/ipv6.xml:124
+#: en/ipv6.xml:128 en/ipv6.xml:130 en/ipv6.xml:134 en/ipv6.xml:138
+#: en/ipv6.xml:140 en/ipv6.xml:142 en/ipv6.xml:148 en/ipv6.xml:150
+#: en/ipv6.xml:155 en/ipv6.xml:159 en/ipv6.xml:161 en/ipv6.xml:166
+#: en/ipv6.xml:170 en/ipv6.xml:178 en/ipv6.xml:181 en/ipv6.xml:183
+#: en/ipv6.xml:187 en/ipv6.xml:198 en/ipv6.xml:207 en/ipv6.xml:212
+#: en/ipv6.xml:216 en/ipv6.xml:218 en/ipv6.xml:222 en/ipv6.xml:226
+#: en/ipv6.xml:234 en/ipv6.xml:238 en/receive.xml:4 en/receive.xml:8
+#: en/receive.xml:12 en/receive.xml:16 en/receive.xml:18 en/receive.xml:23
+#: en/receive.xml:27 en/receive.xml:33 en/receive.xml:35 en/receive.xml:40
+#: en/receive.xml:43 en/receive.xml:45 en/receive.xml:47 en/receive.xml:51
+#: en/receive.xml:55 en/receive.xml:57 en/receive.xml:59 en/receive.xml:63
+#: en/receive.xml:68 en/receive.xml:70 en/receive.xml:74 en/receive.xml:81
+#: en/receive.xml:84 en/receive.xml:86 en/receive.xml:91 en/receive.xml:95
+#: en/receive.xml:100 en/receive.xml:102 en/receive.xml:107 en/receive.xml:111
+#: en/receive.xml:114 en/receive.xml:119 en/receive.xml:125 en/receive.xml:129
+#: en/receive.xml:134 en/receive.xml:136 en/receive.xml:142 en/receive.xml:144
+#: en/receive.xml:147 en/receive.xml:150 en/receive.xml:153 en/receive.xml:158
+#: en/receive.xml:160 en/receive.xml:162 en/receive.xml:168 en/receive.xml:170
+#: en/receive.xml:172 en/receive.xml:177 en/receive.xml:186 en/cmdline.xml:3
+#: en/cmdline.xml:15 en/cmdline.xml:17 en/cmdline.xml:28 en/cmdline.xml:32
+#: en/cmdline.xml:34 en/cmdline.xml:41 en/cmdline.xml:50 en/cmdline.xml:55
+#: en/cmdline.xml:61 en/cmdline.xml:65 en/cmdline.xml:70 en/cmdline.xml:72
+#: en/cmdline.xml:77 en/cmdline.xml:81 en/cmdline.xml:87 en/cmdline.xml:91
+#: en/cmdline.xml:95 en/cmdline.xml:99 en/cmdline.xml:103 en/cmdline.xml:105
+#: en/cmdline.xml:107 en/cmdline.xml:109 en/cmdline.xml:114 en/cmdline.xml:116
+#: en/cmdline.xml:118 en/cmdline.xml:120 en/cmdline.xml:124 en/cmdline.xml:135
+#: en/cmdline.xml:142 en/cmdline.xml:145 en/cmdline.xml:154 en/cmdline.xml:160
+#: en/cmdline.xml:166 en/cmdline.xml:171 en/cmdline.xml:173 en/cmdline.xml:180
+#: en/cmdline.xml:200 en/cmdline.xml:205 en/cmdline.xml:210 en/cmdline.xml:215
+#: en/cmdline.xml:221 en/cmdline.xml:227 en/cmdline.xml:234 en/cmdline.xml:239
+#: en/cmdline.xml:245 en/cmdline.xml:254 en/cmdline.xml:257 en/cmdline.xml:259
+#: en/cmdline.xml:262 en/cmdline.xml:266 en/cmdline.xml:270 en/cmdline.xml:275
+#: en/cmdline.xml:283 en/cmdline.xml:285 en/cmdline.xml:287 en/cmdline.xml:289
+#: en/cmdline.xml:294 en/cmdline.xml:297 en/cmdline.xml:299 en/cmdline.xml:301
+#: en/cmdline.xml:303 en/cmdline.xml:306 en/cmdline.xml:309 en/cmdline.xml:311
+#: en/cmdline.xml:313 en/cmdline.xml:316 en/cmdline.xml:319 en/cmdline.xml:321
+#: en/cmdline.xml:323 en/cmdline.xml:325 en/cmdline.xml:327 en/cmdline.xml:329
+#: en/cmdline.xml:331 en/cmdline.xml:334 en/cmdline.xml:336 en/cmdline.xml:338
+#: en/cmdline.xml:340 en/cmdline.xml:344 en/cmdline.xml:346 en/cmdline.xml:348
+#: en/cmdline.xml:350 en/cmdline.xml:352 en/cmdline.xml:354 en/cmdline.xml:356
+#: en/cmdline.xml:358 en/cmdline.xml:360 en/cmdline.xml:362 en/cmdline.xml:364
+#: en/cmdline.xml:366 en/cmdline.xml:368 en/cmdline.xml:371 en/cmdline.xml:375
+#: en/cmdline.xml:377 en/cmdline.xml:379 en/cmdline.xml:385 en/cmdline.xml:387
+#: en/cmdline.xml:389 en/cmdline.xml:391 en/cmdline.xml:393 en/cmdline.xml:395
+#: en/cmdline.xml:399 en/cmdline.xml:401 en/cmdline.xml:403 en/cmdline.xml:407
+#: en/cmdline.xml:409 en/cmdline.xml:411 en/cmdline.xml:413 en/cmdline.xml:415
+#: en/cmdline.xml:417 en/cmdline.xml:420 en/cmdline.xml:424 en/cmdline.xml:428
+#: en/cmdline.xml:432 en/cmdline.xml:436 en/cmdline.xml:439 en/cmdline.xml:441
+#: en/cmdline.xml:443 en/cmdline.xml:445 en/cmdline.xml:448 en/cmdline.xml:450
+#: en/cmdline.xml:452 en/cmdline.xml:459 en/cmdline.xml:461 en/cmdline.xml:463
+#: en/cmdline.xml:466 en/cmdline.xml:468 en/cmdline.xml:470 en/cmdline.xml:473
+#: en/cmdline.xml:475 en/cmdline.xml:477 en/cmdline.xml:480 en/cmdline.xml:482
+#: en/cmdline.xml:484 en/cmdline.xml:486 en/cmdline.xml:488 en/cmdline.xml:490
+#: en/cmdline.xml:492 en/cmdline.xml:497 en/cmdline.xml:499 en/cmdline.xml:501
+#: en/cmdline.xml:506 en/cmdline.xml:508 en/cmdline.xml:510 en/cmdline.xml:515
+#: en/cmdline.xml:517 en/cmdline.xml:519 en/cmdline.xml:523 en/cmdline.xml:525
+#: en/cmdline.xml:527 en/cmdline.xml:532 en/cmdline.xml:534 en/cmdline.xml:536
+#: en/cmdline.xml:541 en/cmdline.xml:543 en/cmdline.xml:545 en/cmdline.xml:549
+#: en/cmdline.xml:551 en/cmdline.xml:553 en/cmdline.xml:560 en/cmdline.xml:565
+#: en/cmdline.xml:567 en/cmdline.xml:569 en/cmdline.xml:576 en/cmdline.xml:584
+#: en/cmdline.xml:586 en/cmdline.xml:590 en/cmdline.xml:592 en/cmdline.xml:594
+#: en/cmdline.xml:596 en/cmdline.xml:601 en/cmdline.xml:607 en/cmdline.xml:609
+#: en/cmdline.xml:611 en/cmdline.xml:614 en/cmdline.xml:617 en/cmdline.xml:619
+#: en/cmdline.xml:621 en/cmdline.xml:624 en/cmdline.xml:626 en/cmdline.xml:628
+#: en/cmdline.xml:631 en/cmdline.xml:636 en/cmdline.xml:672 en/cmdline.xml:676
+#: en/cmdline.xml:681 en/cmdline.xml:683 en/cmdline.xml:704 en/cmdline.xml:706
+#: en/cmdline.xml:708 en/cmdline.xml:710 en/cmdline.xml:714 en/cmdline.xml:716
+#: en/cmdline.xml:718 en/cmdline.xml:721 en/cmdline.xml:723 en/cmdline.xml:725
+#: en/cmdline.xml:729 en/cmdline.xml:731 en/cmdline.xml:733 en/cmdline.xml:736
+#: en/cmdline.xml:738 en/cmdline.xml:740 en/cmdline.xml:744 en/cmdline.xml:746
+#: en/cmdline.xml:748 en/cmdline.xml:751 en/cmdline.xml:753 en/cmdline.xml:755
+#: en/cmdline.xml:759 en/cmdline.xml:761 en/cmdline.xml:763 en/cmdline.xml:766
+#: en/cmdline.xml:768 en/cmdline.xml:770 en/cmdline.xml:773 en/cmdline.xml:775
+#: en/cmdline.xml:777 en/cmdline.xml:780 en/cmdline.xml:783 en/cmdline.xml:785
+#: en/cmdline.xml:787 en/cmdline.xml:790 en/cmdline.xml:792 en/cmdline.xml:794
+#: en/cmdline.xml:797 en/cmdline.xml:799 en/cmdline.xml:804 en/cmdline.xml:808
+#: en/cmdline.xml:818 en/cmdline.xml:823 en/cmdline.xml:825 en/cmdline.xml:827
+#: en/cmdline.xml:829 en/cmdline.xml:833 en/cmdline.xml:835 en/cmdline.xml:837
+#: en/cmdline.xml:841 en/cmdline.xml:843 en/cmdline.xml:845 en/cmdline.xml:848
+#: en/cmdline.xml:851 en/cmdline.xml:853 en/cmdline.xml:855 en/cmdline.xml:858
+#: en/cmdline.xml:861 en/cmdline.xml:863 en/cmdline.xml:865 en/cmdline.xml:869
+#: en/cmdline.xml:871 en/cmdline.xml:873 en/cmdline.xml:877 en/cmdline.xml:881
+#: en/cmdline.xml:885 en/cmdline.xml:887 en/cmdline.xml:889 en/cmdline.xml:894
+#: en/cmdline.xml:896 en/cmdline.xml:898 en/cmdline.xml:900 en/cmdline.xml:902
+#: en/cmdline.xml:904 en/cmdline.xml:906 en/cmdline.xml:909 en/cmdline.xml:914
+#: en/cmdline.xml:916 en/cmdline.xml:919 en/cmdline.xml:921 en/cmdline.xml:923
+#: en/cmdline.xml:926 en/cmdline.xml:929 en/cmdline.xml:934 en/cmdline.xml:936
+#: en/cmdline.xml:938 en/cmdline.xml:943 en/cmdline.xml:948 en/cmdline.xml:952
+#: en/cmdline.xml:956 en/cmdline.xml:959 en/cmdline.xml:962 en/cmdline.xml:965
+#: en/cmdline.xml:968 en/cmdline.xml:971 en/cmdline.xml:974 en/cmdline.xml:976
+#: en/cmdline.xml:979 en/cmdline.xml:983 en/cmdline.xml:985 en/cmdline.xml:987
+#: en/cmdline.xml:991 en/cmdline.xml:995 en/cmdline.xml:997
+#: en/cmdline.xml:1001 en/cmdline.xml:1003 en/cmdline.xml:1005
+#: en/cmdline.xml:1008 en/cmdline.xml:1010 en/cmdline.xml:1014
+#: en/cmdline.xml:1016 en/cmdline.xml:1020 en/cmdline.xml:1022
+#: en/cmdline.xml:1024 en/cmdline.xml:1026 en/cmdline.xml:1032
+#: en/cmdline.xml:1036 en/cmdline.xml:1042 en/cmdline.xml:1044
+#: en/cmdline.xml:1046 en/cmdline.xml:1050 en/cmdline.xml:1055
+#: en/cmdline.xml:1057 en/intro.xml:3 en/intro.xml:8 en/intro.xml:10
+#: en/intro.xml:28 en/intro.xml:59 en/intro.xml:84 en/encoding-cards.xml:4
+#: en/encoding-cards.xml:6 en/encoding-cards.xml:8 en/encoding-cards.xml:14
+#: en/encoding-cards.xml:16 en/encoding-cards.xml:22 en/encoding-cards.xml:24
+#: en/encoding-cards.xml:26 en/encoding-cards.xml:31 en/encoding-cards.xml:35
+#: en/encoding-cards.xml:39 en/encoding-cards.xml:46 en/encoding-cards.xml:53
+#: en/encoding-cards.xml:55 en/encoding-cards.xml:59 en/encoding-cards.xml:65
+#: en/encoding-cards.xml:70 en/encoding-cards.xml:77 en/encoding-cards.xml:79
+#: en/encoding-cards.xml:83 en/encoding-cards.xml:88 en/encoding-cards.xml:92
+#: en/encoding-cards.xml:97 en/encoding-cards.xml:101
+#: en/encoding-cards.xml:105 en/encoding-cards.xml:109
+#: en/encoding-cards.xml:115 en/encoding-cards.xml:120
+#: en/encoding-cards.xml:124 en/encoding-cards.xml:126
+#: en/encoding-cards.xml:128 en/encoding-cards.xml:134
+#: en/encoding-cards.xml:138 en/encoding-cards.xml:140
+#: en/encoding-cards.xml:142 en/encoding-cards.xml:146
+#: en/encoding-cards.xml:150 en/encoding-cards.xml:162
+#: en/encoding-cards.xml:167 en/encoding-cards.xml:169
+#: en/encoding-cards.xml:174 en/encoding-cards.xml:178
+#: en/encoding-cards.xml:181 en/encoding-cards.xml:183
+#: en/encoding-cards.xml:187 en/encoding-cards.xml:191
+#: en/encoding-cards.xml:197 en/encoding-cards.xml:202
+#: en/encoding-cards.xml:206 en/encoding-cards.xml:208
+#: en/encoding-cards.xml:210 en/encoding-cards.xml:216
+#: en/encoding-cards.xml:218 en/encoding-cards.xml:220
+#: en/encoding-cards.xml:223 en/encoding-cards.xml:226
+#: en/encoding-cards.xml:228 en/encoding-cards.xml:232
+#: en/encoding-cards.xml:238 en/encoding-cards.xml:249
+#: en/encoding-cards.xml:253 en/encoding-cards.xml:255
+#: en/encoding-cards.xml:259 en/encoding-cards.xml:264
+#: en/encoding-cards.xml:270 en/encoding-cards.xml:273
+#: en/encoding-cards.xml:278 en/encoding-cards.xml:284
+#: en/encoding-cards.xml:290 en/encoding-cards.xml:299
+#: en/encoding-cards.xml:305 en/encoding-cards.xml:309
+#: en/encoding-cards.xml:314 en/encoding-cards.xml:324
+#: en/encoding-cards.xml:330 en/encoding-cards.xml:334
+#: en/encoding-cards.xml:338 en/encoding-cards.xml:342
+#: en/encoding-cards.xml:348 en/encoding-cards.xml:352
+#: en/encoding-cards.xml:357 en/encoding-cards.xml:363
+#: en/encoding-cards.xml:369 en/encoding-cards.xml:372
+#: en/encoding-cards.xml:374 en/encoding-cards.xml:376
+#: en/encoding-cards.xml:381 en/encoding-cards.xml:383
+#: en/encoding-cards.xml:385 en/encoding-cards.xml:388
+#: en/encoding-cards.xml:413 en/encoding-cards.xml:428
+#, no-wrap
+msgid ""
+"\n"
+"\n"
+msgstr ""
+
+# type: Content of: <book><bookinfo><title>
+#: en/streaming-howto.xml:33
+#, no-wrap
+msgid "VideoLAN Streaming Howto"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><mediaobject>
+#: en/streaming-howto.xml:35 en/streaming-howto.xml:38
+#: en/streaming-howto.xml:39 en/streaming-howto.xml:42
+#: en/streaming-howto.xml:43 en/streaming-howto.xml:46
+#: en/streaming-howto.xml:47 en/streaming-howto.xml:50
+#: en/streaming-howto.xml:51 en/streaming-howto.xml:54 en/gui.xml:29
+#: en/gui.xml:31 en/gui.xml:32 en/gui.xml:33 en/gui.xml:53 en/gui.xml:55
+#: en/gui.xml:56 en/gui.xml:57 en/gui.xml:74 en/gui.xml:76 en/gui.xml:77
+#: en/gui.xml:78 en/gui.xml:82 en/gui.xml:84 en/gui.xml:85 en/gui.xml:86
+#: en/gui.xml:120 en/gui.xml:122 en/gui.xml:123 en/gui.xml:124 en/gui.xml:138
+#: en/gui.xml:140 en/gui.xml:141 en/gui.xml:142 en/gui.xml:157 en/gui.xml:159
+#: en/gui.xml:160 en/gui.xml:161 en/gui.xml:191 en/gui.xml:193 en/gui.xml:194
+#: en/gui.xml:195 en/gui.xml:206 en/gui.xml:208 en/gui.xml:209 en/gui.xml:210
+#: en/gui.xml:233 en/gui.xml:235 en/gui.xml:236 en/gui.xml:237 en/gui.xml:241
+#: en/gui.xml:243 en/gui.xml:244 en/gui.xml:245 en/gui.xml:253 en/gui.xml:255
+#: en/gui.xml:256 en/gui.xml:257 en/gui.xml:261 en/gui.xml:263 en/gui.xml:264
+#: en/gui.xml:265 en/vlm-vod.xml:40 en/vlm-vod.xml:42 en/vlm-vod.xml:43
+#: en/vlm-vod.xml:44 en/intro.xml:20 en/intro.xml:22 en/intro.xml:23
+#: en/intro.xml:24
+#, no-wrap
+msgid ""
+"\n"
+"  "
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><mediaobject><imageobject>
+#: en/streaming-howto.xml:36 en/streaming-howto.xml:37
+#: en/streaming-howto.xml:40 en/streaming-howto.xml:41
+#: en/streaming-howto.xml:44 en/streaming-howto.xml:45
+#: en/streaming-howto.xml:48 en/streaming-howto.xml:49
+#: en/streaming-howto.xml:52 en/streaming-howto.xml:53
+#: en/streaming-howto.xml:58 en/streaming-howto.xml:59
+#: en/streaming-howto.xml:76 en/streaming-howto.xml:77
+#: en/streaming-howto.xml:78 en/streaming-howto.xml:79
+#: en/streaming-howto.xml:80 en/streaming-howto.xml:81
+#: en/streaming-howto.xml:82 en/streaming-howto.xml:83
+#: en/streaming-howto.xml:84 en/streaming-howto.xml:85
+#: en/streaming-howto.xml:86 en/streaming-howto.xml:87
+#: en/streaming-howto.xml:88 en/streaming-howto.xml:89 en/gui.xml:30
+#: en/gui.xml:54 en/gui.xml:75 en/gui.xml:83 en/gui.xml:121 en/gui.xml:139
+#: en/gui.xml:158 en/gui.xml:192 en/gui.xml:207 en/gui.xml:234 en/gui.xml:242
+#: en/gui.xml:254 en/gui.xml:262 en/vlm-vod.xml:41 en/intro.xml:21
+#, no-wrap
+msgid ""
+"\n"
+"    "
+msgstr ""
+
+# type: Content of: <book><bookinfo><authorgroup><author><firstname>
+#: en/streaming-howto.xml:37
+#, no-wrap
+msgid "Alexis"
+msgstr ""
+
+# type: Content of: <book><bookinfo><authorgroup><author><surname>
+#: en/streaming-howto.xml:38
+#, no-wrap
+msgid "de Lattre"
+msgstr ""
+
+# type: Content of: <book><bookinfo><authorgroup><author><firstname>
+#: en/streaming-howto.xml:41
+#, no-wrap
+msgid "Johan"
+msgstr ""
+
+# type: Content of: <book><bookinfo><authorgroup><author><surname>
+#: en/streaming-howto.xml:42
+#, no-wrap
+msgid "Bilien"
+msgstr ""
+
+# type: Content of: <book><bookinfo><authorgroup><author><firstname>
+#: en/streaming-howto.xml:45
+#, no-wrap
+msgid "Anil"
+msgstr ""
+
+# type: Content of: <book><bookinfo><authorgroup><author><surname>
+#: en/streaming-howto.xml:46
+#, no-wrap
+msgid "Daoud"
+msgstr ""
+
+# type: Content of: <book><bookinfo><authorgroup><author><firstname>
+#: en/streaming-howto.xml:49
+#, no-wrap
+msgid "Clément"
+msgstr ""
+
+# type: Content of: <book><bookinfo><authorgroup><author><surname>
+#: en/streaming-howto.xml:50
+#, no-wrap
+msgid "Stenac"
+msgstr ""
+
+# type: Content of: <book><bookinfo><authorgroup><author><firstname>
+#: en/streaming-howto.xml:53
+#, no-wrap
+msgid "Antoine"
+msgstr ""
+
+# type: Content of: <book><bookinfo><authorgroup><author><surname>
+#: en/streaming-howto.xml:54
+#, no-wrap
+msgid "Cellerier"
+msgstr ""
+
+# type: Content of: outside any tag (error?)
+#: en/streaming-howto.xml:55 en/streaming-howto.xml:62
+#: en/streaming-howto.xml:90 en/streaming-howto.xml:124 en/dvd.xml:1
+#: en/dvd.xml:84 en/dvd.xml:85 en/dvd.xml:90 en/dvd.xml:93 en/file.xml:1
+#: en/file.xml:53 en/file.xml:63 en/gui.xml:1 en/gui.xml:34 en/gui.xml:58
+#: en/gui.xml:79 en/gui.xml:87 en/gui.xml:125 en/gui.xml:143 en/gui.xml:162
+#: en/gui.xml:196 en/gui.xml:211 en/gui.xml:238 en/gui.xml:246 en/gui.xml:258
+#: en/gui.xml:266 en/gui.xml:354 en/dvb.xml:1 en/dvb.xml:43 en/dvb.xml:87
+#: en/dvb.xml:133 en/dvb.xml:136 en/dvb.xml:141 en/dvb.xml:144 en/dvb.xml:148
+#: en/dvb.xml:152 en/dvb.xml:155 en/dvb.xml:158 en/dvb.xml:187 en/dvb.xml:188
+#: en/examples.xml:1 en/examples.xml:291 en/examples.xml:292 en/vlm-vod.xml:45
+#: en/vlm-vod.xml:328 en/ipv6.xml:1 en/ipv6.xml:24 en/ipv6.xml:58
+#: en/ipv6.xml:67 en/ipv6.xml:71 en/ipv6.xml:78 en/ipv6.xml:79 en/ipv6.xml:104
+#: en/ipv6.xml:105 en/ipv6.xml:180 en/ipv6.xml:189 en/ipv6.xml:197
+#: en/ipv6.xml:200 en/ipv6.xml:204 en/ipv6.xml:236 en/ipv6.xml:237
+#: en/ipv6.xml:240 en/ipv6.xml:241 en/receive.xml:1 en/receive.xml:67
+#: en/receive.xml:83 en/receive.xml:113 en/receive.xml:188 en/receive.xml:189
+#: en/cmdline.xml:1 en/cmdline.xml:122 en/cmdline.xml:123 en/cmdline.xml:127
+#: en/cmdline.xml:159 en/cmdline.xml:165 en/cmdline.xml:168 en/cmdline.xml:169
+#: en/cmdline.xml:170 en/cmdline.xml:175 en/cmdline.xml:214 en/cmdline.xml:220
+#: en/cmdline.xml:238 en/cmdline.xml:244 en/cmdline.xml:256 en/cmdline.xml:268
+#: en/cmdline.xml:630 en/cmdline.xml:918 en/cmdline.xml:978
+#: en/cmdline.xml:1012 en/cmdline.xml:1018 en/cmdline.xml:1059 en/intro.xml:1
+#: en/intro.xml:12 en/intro.xml:13 en/intro.xml:14 en/intro.xml:15
+#: en/intro.xml:16 en/intro.xml:17 en/intro.xml:18 en/intro.xml:19
+#: en/intro.xml:25 en/intro.xml:26 en/intro.xml:27 en/intro.xml:30
+#: en/intro.xml:31 en/intro.xml:32 en/intro.xml:33 en/intro.xml:34
+#: en/intro.xml:35 en/intro.xml:36 en/intro.xml:37 en/intro.xml:38
+#: en/intro.xml:39 en/intro.xml:40 en/intro.xml:41 en/intro.xml:42
+#: en/intro.xml:43 en/intro.xml:44 en/intro.xml:45 en/intro.xml:46
+#: en/intro.xml:47 en/intro.xml:48 en/intro.xml:49 en/intro.xml:50
+#: en/intro.xml:51 en/intro.xml:52 en/intro.xml:53 en/intro.xml:54
+#: en/intro.xml:55 en/intro.xml:56 en/intro.xml:57 en/intro.xml:58
+#: en/intro.xml:61 en/intro.xml:62 en/intro.xml:63 en/intro.xml:64
+#: en/intro.xml:65 en/intro.xml:66 en/intro.xml:67 en/intro.xml:68
+#: en/intro.xml:69 en/intro.xml:70 en/intro.xml:71 en/intro.xml:72
+#: en/intro.xml:73 en/intro.xml:74 en/intro.xml:75 en/intro.xml:76
+#: en/intro.xml:77 en/intro.xml:78 en/intro.xml:79 en/intro.xml:80
+#: en/intro.xml:81 en/intro.xml:82 en/intro.xml:83 en/intro.xml:86
+#: en/encoding-cards.xml:1 en/encoding-cards.xml:111 en/encoding-cards.xml:193
+#: en/encoding-cards.xml:222 en/encoding-cards.xml:225
+#: en/encoding-cards.xml:266 en/encoding-cards.xml:359
+#: en/encoding-cards.xml:387 en/encoding-cards.xml:390
+#: en/encoding-cards.xml:391 en/encoding-cards.xml:392
+#: en/encoding-cards.xml:393 en/encoding-cards.xml:394
+#: en/encoding-cards.xml:395 en/encoding-cards.xml:396
+#: en/encoding-cards.xml:397 en/encoding-cards.xml:398
+#: en/encoding-cards.xml:399 en/encoding-cards.xml:400
+#: en/encoding-cards.xml:401 en/encoding-cards.xml:402
+#: en/encoding-cards.xml:404 en/encoding-cards.xml:406
+#: en/encoding-cards.xml:408 en/encoding-cards.xml:417
+#: en/encoding-cards.xml:418 en/encoding-cards.xml:421
+#: en/encoding-cards.xml:424 en/encoding-cards.xml:426
+#: en/encoding-cards.xml:427 en/encoding-cards.xml:430
+#: en/encoding-cards.xml:431 en/encoding-cards.xml:432
+#: en/encoding-cards.xml:433
+#, no-wrap
+msgid "\n"
+msgstr ""
+
+# type: Content of: <book><bookinfo><copyright><year>
+#: en/streaming-howto.xml:59
+#, no-wrap
+msgid "2002-2004"
+msgstr ""
+
+# type: Content of: <book><bookinfo><copyright><holder>
+#: en/streaming-howto.xml:60
+#, no-wrap
+msgid ""
+"\n"
+"     the VideoLAN project\n"
+"     "
+msgstr ""
+
+# type: Content of: <book><bookinfo><legalnotice><para>
+#: en/streaming-howto.xml:67
+#, no-wrap
+msgid ""
+"Permission is granted to copy, distribute and/or modify this\n"
+"document under the terms of the GNU General Public License as published\n"
+"by the Free Software Foundation; either version 2 of the License, or\n"
+"(at your option) any later version.\n"
+"The text of the license can be found in the appendix.\n"
+"<xref linkend=\"gpl\" endterm=\"tgpl\"/>."
+msgstr ""
+
+# type: Content of: <book><bookinfo><keywordset><keyword>
+#: en/streaming-howto.xml:78
+#, no-wrap
+msgid "VideoLAN"
+msgstr ""
+
+# type: Content of: <book><bookinfo><keywordset><keyword>
+#: en/streaming-howto.xml:79
+#, no-wrap
+msgid "Client"
+msgstr ""
+
+# type: Content of: <book><bookinfo><keywordset><keyword>
+#: en/streaming-howto.xml:80
+#, no-wrap
+msgid "vlc"
+msgstr ""
+
+# type: Content of: <book><bookinfo><keywordset><keyword>
+#: en/streaming-howto.xml:81
+#, no-wrap
+msgid "vls"
+msgstr ""
+
+# type: Content of: <book><bookinfo><keywordset><keyword>
+#: en/streaming-howto.xml:82
+#, no-wrap
+msgid "vod"
+msgstr ""
+
+# type: Content of: <book><bookinfo><keywordset><keyword>
+#: en/streaming-howto.xml:83
+#, no-wrap
+msgid "vlcs"
+msgstr ""
+
+# type: Content of: <book><bookinfo><keywordset><keyword>
+#: en/streaming-howto.xml:84
+#, no-wrap
+msgid "stream"
+msgstr ""
+
+# type: Content of: <book><bookinfo><keywordset><keyword>
+#: en/streaming-howto.xml:85
+#, no-wrap
+msgid "multicast"
+msgstr ""
+
+# type: Content of: <book><bookinfo><keywordset><keyword>
+#: en/streaming-howto.xml:86
+#, no-wrap
+msgid "MPEG-1"
+msgstr ""
+
+# type: Content of: <book><bookinfo><keywordset><keyword>
+#: en/streaming-howto.xml:87
+#, no-wrap
+msgid "MPEG-2"
+msgstr ""
+
+# type: Content of: <book><bookinfo><keywordset><keyword>
+#: en/streaming-howto.xml:88
+#, no-wrap
+msgid "MPEG-4"
+msgstr ""
+
+# type: Content of: <book><bookinfo><keywordset><keyword>
+#: en/streaming-howto.xml:89
+#, no-wrap
+msgid "DVD"
+msgstr ""
+
+# type: Content of: <book><bookinfo><keywordset><keyword>
+#: en/streaming-howto.xml:90
+#, no-wrap
+msgid "DivX"
+msgstr ""
+
+# type: Content of: <book><bookinfo><abstract><para>
+#: en/streaming-howto.xml:95
+#, no-wrap
+msgid ""
+"\n"
+"This document explains how to stream, transcode and save streams using the VideoLAN solution \n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2>
+#: en/streaming-howto.xml:99 en/streaming-howto.xml:102 en/dvb.xml:7
+#: en/cmdline.xml:581 en/cmdline.xml:911
+#, no-wrap
+msgid ""
+"\n"
+"\n"
+"\n"
+msgstr ""
+
+# type: Content of: <book>
+#: en/streaming-howto.xml:105
+#, no-wrap
+msgid ""
+"\n"
+"\n"
+"&intro;\n"
+"\n"
+"&gui;\n"
+"&cmdline;\n"
+"&examples;\n"
+"\n"
+"&vlm-vod;\n"
+"\n"
+"&receive;\n"
+"&file;\n"
+"&dvd;\n"
+"&dvb;\n"
+"&encoding-cards;\n"
+"\n"
+"&ipv6;\n"
+"&gpl;\n"
+"\n"
+msgstr ""
+
+# type: Content of: <chapter><title>
+#: en/dvd.xml:2
+#, no-wrap
+msgid ""
+"\n"
+"Stream a DVD\n"
+"\n"
+msgstr ""
+
+# type: Content of: <chapter><note><para>
+#: en/dvd.xml:9
+#, no-wrap
+msgid ""
+"\n"
+"Under Unix/Linux, you must have write access to the device\n"
+"corresponding to your DVD drive. For that, you should be in the\n"
+"<emphasis>disk</emphasis> or <emphasis>cdrom</emphasis> group (look\n"
+"at the permissions in "
+msgstr ""
+
+# type: Content of: <chapter><note><para><filename>
+#: en/dvd.xml:13
+#, no-wrap
+msgid "/dev"
+msgstr ""
+
+# type: Content of: <chapter><note><para>
+#: en/dvd.xml:13
+#, no-wrap
+msgid ""
+"). If you're not, add\n"
+"yourself to the group:\n"
+"\n"
+msgstr ""
+
+# type: Content of: <chapter><note><screen>
+#: en/dvd.xml:18
+#, no-wrap
+msgid ""
+"\n"
+"<prompt># </prompt><userinput>adduser your_login disk_or_cdrom</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><note><para>
+#: en/dvd.xml:22
+#, no-wrap
+msgid ""
+"\n"
+"and then restart your session.\n"
+"\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><title>
+#: en/dvd.xml:27
+#, no-wrap
+msgid ""
+"\n"
+"Stream a DVD with VLC\n"
+"\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><screen>
+#: en/dvd.xml:32
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -vvv dvdsimple:/dev/dvd --sout udp:192.168.0.12 --ttl 12</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/dvd.xml:36 en/receive.xml:131
+#, no-wrap
+msgid ""
+"\n"
+"where:\n"
+"\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
+#: en/dvd.xml:43
+#, no-wrap
+msgid "/dev/dvd"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/dvd.xml:43
+#, no-wrap
+msgid ""
+" \n"
+"is the name of your DVD drive (put\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
+#: en/dvd.xml:45
+#, no-wrap
+msgid "D:"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/dvd.xml:45
+#, no-wrap
+msgid " under Windows if "
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
+#: en/dvd.xml:45
+#, no-wrap
+msgid "D"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/dvd.xml:45
+#, no-wrap
+msgid ""
+" is\n"
+"the letter of your DVD drive) or the directory where you copied your\n"
+"DVD\n"
+"\n"
+","
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/dvd.xml:51 en/encoding-cards.xml:354
+#, no-wrap
+msgid ""
+"<emphasis>192.168.0.42</emphasis>\n"
+" is either:\n"
+"\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/dvd.xml:58
+#, no-wrap
+msgid ""
+"\n"
+"the IP address of the machine you want to unicast\n"
+"to;\n"
+"\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/dvd.xml:64 en/encoding-cards.xml:365
+#, no-wrap
+msgid ""
+"\n"
+"or the DNS name the machine you want to unicast\n"
+"to;\n"
+"\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/dvd.xml:70
+#, no-wrap
+msgid ""
+"\n"
+"or a multicast IP address.\n"
+"\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/dvd.xml:79
+#, no-wrap
+msgid ""
+"<emphasis>12</emphasis>\n"
+" is the value of the TTL (Time To\n"
+"Live) of your IP packets (which means that the stream will be\n"
+"able to cross 11 routers).\n"
+"\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/dvd.xml:86
+#, no-wrap
+msgid ""
+"\n"
+"If you want to stream the DVD continuously, add the\n"
+"<emphasis>--loop</emphasis> option.\n"
+"\n"
+msgstr ""
+
+# type: Content of: <chapter><title>
+#: en/file.xml:2
+#, no-wrap
+msgid ""
+"\n"
+"Stream a file\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><title>
+#: en/file.xml:8
+#, no-wrap
+msgid ""
+"\n"
+"Stream a file with VLC\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><screen>
+#: en/file.xml:12
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -vvv video1.xyz --sout udp:192.168.0.42 --ttl 12</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/file.xml:16 en/dvb.xml:72 en/dvb.xml:127 en/ipv6.xml:114
+#, no-wrap
+msgid ""
+"\n"
+"where:\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><filename>
+#: en/file.xml:22 en/ipv6.xml:120
+#, no-wrap
+msgid "video1.xyz"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/file.xml:22
+#, no-wrap
+msgid ""
+"\n"
+" is the file you want to stream,"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/file.xml:25
+#, no-wrap
+msgid ""
+"<emphasis>192.168.0.42</emphasis>\n"
+" is either:\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/file.xml:31 en/dvb.xml:88 en/encoding-cards.xml:360
+#, no-wrap
+msgid ""
+"\n"
+"the IP address of the machine you want to unicast\n"
+"to;\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/file.xml:36 en/dvb.xml:93
+#, no-wrap
+msgid ""
+"\n"
+"or the DNS name the machine you want to unicast\n"
+"to;\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/file.xml:41 en/dvb.xml:98 en/encoding-cards.xml:122
+#: en/encoding-cards.xml:204
+#, no-wrap
+msgid ""
+"\n"
+"or a multicast IP address.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/file.xml:49 en/dvb.xml:104 en/ipv6.xml:144 en/encoding-cards.xml:130
+#: en/encoding-cards.xml:212
+#, no-wrap
+msgid ""
+"<emphasis>12</emphasis>\n"
+" is the value of the TTL (Time To\n"
+"Live) of your IP packets (which means that the stream will be\n"
+"able to cross 11 routers).\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/file.xml:56
+#, no-wrap
+msgid ""
+"\n"
+"If you want to stream the file continuously, add the\n"
+"<emphasis>--loop</emphasis> option.\n"
+msgstr ""
+
+# type: Content of: <chapter><title>
+#: en/gui.xml:2
+#, no-wrap
+msgid ""
+"\n"
+"Easy streaming"
+msgstr ""
+
+# type: Content of: <chapter><sect1><title>
+#: en/gui.xml:5
+#, no-wrap
+msgid "Intro"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/gui.xml:7
+#, no-wrap
+msgid ""
+"The easier way to start streaming with VLC is by using one of\n"
+"the graphical user interfaces: wxwindows for Windows and GNU/Linux,\n"
+"the skinnable Windows and GNU/Linux interface or the MacOS X native\n"
+"interface."
+msgstr ""
+
+# type: Content of: <chapter><sect1><title>
+#: en/gui.xml:14
+#, no-wrap
+msgid "Streaming using the Wizard"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/gui.xml:16
+#, no-wrap
+msgid ""
+"The <emphasis>Streaming/Transcoding Wizard</emphasis> leads you\n"
+"step by step through the process of streaming your media on a network or\n"
+"saving it to your hard drive. This <emphasis>Wizard</emphasis> offers\n"
+"easy to use menus but provides a restricted set of options."
+msgstr ""
+
+# type: Content of: <chapter><sect1><note><para>
+#: en/gui.xml:21
+#, no-wrap
+msgid ""
+"The wizard is only available on the wxWindows\n"
+"interface."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
+#: en/gui.xml:24 en/gui.xml:34
+#, no-wrap
+msgid "Launching the wizard"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/gui.xml:26
+#, no-wrap
+msgid ""
+"To launch the <emphasis>Streaming/Transcoding Wizard</emphasis>,\n"
+"open the \"File\" menu, and select the Wizard menu item."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><mediaobject><textobject><para>
+#: en/gui.xml:33
+#, no-wrap
+msgid "Launching the Wizard"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/gui.xml:39
+#, no-wrap
+msgid "Wizard dialog"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/gui.xml:41
+#, no-wrap
+msgid "First select the type of task:"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
+#: en/gui.xml:45
+#, no-wrap
+msgid ""
+"<emphasis>Stream to network</emphasis>: Choose this\n"
+"option if you want to stream media on network."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
+#: en/gui.xml:48
+#, no-wrap
+msgid ""
+"<emphasis>Transcode/Save to file</emphasis>: Choose\n"
+"this option if you want to change a file's audio codec and/or video codec, its bitrate, and/or encapsulation method."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
+#: en/gui.xml:57 en/gui.xml:58
+#, no-wrap
+msgid "The Wizard Dialog"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/gui.xml:63
+#, no-wrap
+msgid "Input selection"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/gui.xml:65
+#, no-wrap
+msgid ""
+"Select a stream (such as a file, a network stream, a disk, a\n"
+"capture device ...) by selecting the <emphasis>Choose...</emphasis>\n"
+"dialog or an existing item in your playlist, using the <emphasis>Existing playlist item</emphasis> option."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/gui.xml:69
+#, no-wrap
+msgid ""
+"<emphasis>Partial Extract</emphasis>: To read only part of the\n"
+"stream, check the \"Enable\" checkbox and choose a start and end date (in\n"
+"seconds). This option should only be used with streams you can control\n"
+"such as files or discs but not network streams or capture devices."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
+#: en/gui.xml:78 en/gui.xml:79
+#, no-wrap
+msgid "Wizard input selection"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
+#: en/gui.xml:86 en/gui.xml:87
+#, no-wrap
+msgid "Wizard input selection from playlist"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/gui.xml:92
+#, no-wrap
+msgid "Streaming methods"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/gui.xml:94
+#, no-wrap
+msgid ""
+"If you chose <emphasis>Stream to network</emphasis> option, you can\n"
+"now specify the streaming method. Available methods are:"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
+#: en/gui.xml:99
+#, no-wrap
+msgid ""
+"<emphasis>UDP Unicast</emphasis>: Stream to a\n"
+"single computer. Enter the client's IP address (in the 0.0.0.0 -\n"
+"223.255.255.255 range)."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
+#: en/gui.xml:103
+#, no-wrap
+msgid ""
+"<emphasis>UDP Multicast</emphasis>: Stream to multiple\n"
+"computers using multicast. Enter the IP address of the multicast group\n"
+"(in the 224.0.0.0 to 239.255.255.255 range)."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
+#: en/gui.xml:107
+#, no-wrap
+msgid ""
+"<emphasis>HTTP</emphasis>: Stream by using the HTTP\n"
+"protocol. If you leave the <emphasis>Destination</emphasis> text box\n"
+"empty, VLC will listen on all the network interfaces of the server on\n"
+"port 8080. Specify an address, port and path on which to listen using\n"
+"the following syntax [ip][:port][/path]."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
+#: en/gui.xml:113
+#, no-wrap
+msgid ""
+"For instance, <emphasis>192.168.0.1:80/stream</emphasis>\n"
+"will make VLC listen on the interface carrying the 192.168.0.1\n"
+"IP address, on the 80 TCP port, in the /stream <emphasis>virtual\n"
+"file</emphasis>."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
+#: en/gui.xml:124 en/gui.xml:125
+#, no-wrap
+msgid "Wizard streaming method"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/gui.xml:130 en/gui.xml:334
+#, no-wrap
+msgid "Transcoding options"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/gui.xml:132
+#, no-wrap
+msgid ""
+"If you chose the <emphasis>Transcode/Save to file</emphasis>\n"
+"option, you can now specify the new audio and video codecs and bitrates\n"
+"you want you input converted to."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/gui.xml:136 en/gui.xml:322
+#, no-wrap
+msgid "(See <xref linkend=\"smc\" endterm=\"tsmc\" />)"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
+#: en/gui.xml:142 en/gui.xml:143
+#, no-wrap
+msgid "Wizard transcode"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/gui.xml:148 en/gui.xml:326
+#, no-wrap
+msgid "Encapsulation method"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/gui.xml:150
+#, no-wrap
+msgid ""
+"Choose the method format. The UDP streaming methods require MPEG\n"
+"TS encapsulation. The HTTP streaming method can be used with the MPEG\n"
+"PS, MPEG TS, MPEG 1, OGG, RAW or ASF encapsulation. Saving to a file can\n"
+"be done using any encapsulation format compatible with the chosen codecs."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/gui.xml:155
+#, no-wrap
+msgid " (See <xref linkend=\"smc\" endterm=\"tsmc\" />)"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
+#: en/gui.xml:161 en/gui.xml:162
+#, no-wrap
+msgid "Wizard encapsulation method"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/gui.xml:167
+#, no-wrap
+msgid "Streaming options"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/gui.xml:169
+#, no-wrap
+msgid ""
+"If you chose to <emphasis>Stream to network</emphasis> you can\n"
+"now specify several options."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
+#: en/gui.xml:174
+#, no-wrap
+msgid ""
+"<emphasis>Time To Live (TTL)</emphasis> This sets the\n"
+"numbers of routers your stream can go through, for UDP unicast and\n"
+"unicast access methods. If you do not know what this means, you should\n"
+"leave the default value."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><note><para>
+#: en/gui.xml:179
+#, no-wrap
+msgid ""
+"With UDP multicast, the default TTL is set to 1, meaning\n"
+"that your stream won't get accross any router. You may want to increase\n"
+"it if you want to route your multicast stream."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
+#: en/gui.xml:183
+#, no-wrap
+msgid ""
+"<emphasis>SAP Announce</emphasis> To advertise your\n"
+"stream over the network when using the UDP streaming method, using\n"
+"the SAP protocol, enter the name of the stream in the text input and\n"
+"check the checkbox. This is NOT available for the HTTP streaming\n"
+"method."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
+#: en/gui.xml:195 en/gui.xml:196
+#, no-wrap
+msgid "Wizard streaming options"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/gui.xml:201
+#, no-wrap
+msgid "Save to file destination"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/gui.xml:203
+#, no-wrap
+msgid ""
+"If you chose <emphasis>Transcode/Save to file</emphasis> you can\n"
+"now specify the file you want to save the stream to."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
+#: en/gui.xml:210 en/gui.xml:211
+#, no-wrap
+msgid "Wizard save file - wxWindows interface"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/gui.xml:214
+#, no-wrap
+msgid "You can now select the <emphasis>Finish</emphasis> button to start streaming/converting the source."
+msgstr ""
+
+# type: Content of: <chapter><sect1><title>
+#: en/gui.xml:218
+#, no-wrap
+msgid "Streaming using the GUI"
+msgstr ""
+
+# type: Content of: <chapter><sect1><title>
+#: en/gui.xml:220 en/intro.xml:10
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/gui.xml:222
+#, no-wrap
+msgid ""
+"A second way to set up a streaming instance using VLC\n"
+"is using <emphasis>Stream Output</emphasis> panel in the\n"
+"<emphasis>Open...</emphasis> dialog of the wxWindows (Windows / GNU\n"
+"Linux), skinnable (Windows / GNU Linux) and MacOS X interfaces.\n"
+"Streaming methods and options used 99% of time should be available in\n"
+"this panel."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/gui.xml:229
+#, no-wrap
+msgid ""
+"To stream the opened media, check the \"Stream output\" checkbox in\n"
+"the \"Open File/Disc/Network Stream/Capture Device\" dialog and click on\n"
+"the \"Settings\" button."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
+#: en/gui.xml:237 en/gui.xml:238
+#, no-wrap
+msgid "Open file dialog - wxWindows interface"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
+#: en/gui.xml:245 en/gui.xml:246
+#, no-wrap
+msgid "Open file dialog - Mac OS X interface"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/gui.xml:251
+#, no-wrap
+msgid "The Stream Output dialog"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
+#: en/gui.xml:257 en/gui.xml:258 en/gui.xml:265 en/gui.xml:266
+#, no-wrap
+msgid "Stream output dialog - wxWindows interface"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/gui.xml:269
+#, no-wrap
+msgid "Stream Output MRL"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/gui.xml:271
+#, no-wrap
+msgid ""
+"On the wxWindows interface, a text box displays the\n"
+"<emphasis>Stream Output MRL</emphasis> (Media Ressource Locator). This\n"
+"is updated as you change options in the Stream output dialog. For more\n"
+"information on how to edit the <emphasis>Stream Output MRL</emphasis>\n"
+"read <xref linkend=\"cmdline\" endterm=\"tcmdline\" />."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/gui.xml:279
+#, no-wrap
+msgid "Output methods"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/gui.xml:283
+#, no-wrap
+msgid ""
+"\n"
+"<emphasis>Play localy</emphasis>: display the stream on your screen. This allows to display the stream you are actually streaming. Effects of transcoding, rescaling, etc... can be monitored locally using this function.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/gui.xml:287
+#, no-wrap
+msgid ""
+"<emphasis>File</emphasis>: Save the stream to a\n"
+"file. The <emphasis>Dump raw input</emphasis> option allows to\n"
+"save the input stream as it read by VLC, without any processing.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/gui.xml:292
+#, no-wrap
+msgid ""
+"\n"
+"<emphasis>HTTP</emphasis>: Use the HTTP streaming method. Specify the IP address and TCP port number on which to listen.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/gui.xml:296
+#, no-wrap
+msgid ""
+"\n"
+"<emphasis>MMSH</emphasis>: This access method allows to stream to Microsoft Windows Media Player. Specify the IP address and TCP port number on which to listen.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><note><para>
+#: en/gui.xml:300
+#, no-wrap
+msgid ""
+"This will only work with the <emphasis>ASF</emphasis>\n"
+"enacpsulation method."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/gui.xml:305
+#, no-wrap
+msgid ""
+"\n"
+"<emphasis>UDP</emphasis>: Stream in unicast by providing an address in the 0.0.0.0 - 223.255.255.255 range or in multicast by providing an address in the 224.0.0.0 - 239.255.255.255 range. It is also possible to stream to IPv6 addresses.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><note><para>
+#: en/gui.xml:309
+#, no-wrap
+msgid ""
+"This will only work with the <emphasis>TS</emphasis>\n"
+"encapsulation method."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/gui.xml:314
+#, no-wrap
+msgid ""
+"\n"
+"<emphasis>RTP</emphasis>: Use the Real-Time Transfer Protocol. Like UDP, it can use both unicast and multicast addresses.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><note><para>
+#: en/gui.xml:320
+#, no-wrap
+msgid "UDP, HTTP, MMSH and RTP methods require to select the <emphasis>Stream</emphasis> option on the MacOS X interface"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/gui.xml:328
+#, no-wrap
+msgid ""
+"Select an encapsulation method that fits the codecs and access\n"
+"method of your stream, among MPEG TS, MPEG PS, MPEG 1, OGG, Raw, ASF,\n"
+"AVI, MP4 and MOV. (See <xref linkend=\"smc\" endterm=\"tsmc\" />)"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/gui.xml:336
+#, no-wrap
+msgid "Enable video transcoding by checking the \"Video Codec\" checkbox. Choose a codec from the list. You can also specify an average bitrate and scale the input. (See <xref linkend=\"smc\" endterm=\"tsmc\" />)"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/gui.xml:338
+#, no-wrap
+msgid "Enable audio transcoding by checking the \"Audio Codec\" checkbox. Choose a codec from the list. You can also specify an average bitrate and the number of audio channels to encode. (See <xref linkend=\"smc\" endterm=\"tsmc\" />)"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/gui.xml:342
+#, no-wrap
+msgid "Miscellaneous options"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/gui.xml:344
+#, no-wrap
+msgid ""
+"Select methods to announce your stream. You can use SAP (Service\n"
+"Announce Protocol) or SLP (Service Location Protocol). You must also\n"
+"specify a channel name. The Mac OS X interface also allows you to export\n"
+"the description (SDP) file of a RTP session using the internal HTTP or\n"
+"RTSP server of VLC, or as a file. This can be done using the according\n"
+"checkboxes. The <emphasis>SDP URL</emphasis> text box allows to give the\n"
+"url or destination where the SDP file will be available."
+msgstr ""
+
+# type: Content of: <chapter><title>
+#: en/dvb.xml:2
+#, no-wrap
+msgid ""
+"\n"
+"Stream a DVB channel (satellite or digital\n"
+"terrestial TV)\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><note><para>
+#: en/dvb.xml:10 en/encoding-cards.xml:10
+#, no-wrap
+msgid ""
+"\n"
+"This is possible under GNU/Linux only.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><title>
+#: en/dvb.xml:14
+#, no-wrap
+msgid ""
+"\n"
+"Install the DVB drivers\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/dvb.xml:18
+#, no-wrap
+msgid ""
+"\n"
+"If you want to be able to stream from a DVB card (a\n"
+"satellite card or a digital terrestial TV card), you need to install the\n"
+"DVB drivers:\n"
+"\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/dvb.xml:27
+#, no-wrap
+msgid ""
+"\n"
+"\n"
+"if you use a Linux 2.6.x kernel, you just need to\n"
+"compile the right modules.\n"
+"\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/dvb.xml:34
+#, no-wrap
+msgid ""
+"\n"
+"\n"
+"if you are using a Linux 2.4.x\n"
+"kernel, you must download the latest release of the DVB drivers from the <ulink url=\"http://www.linuxtv.org/download/dvb/\">DVB drivers download\n"
+"page</ulink> of the <ulink url=\"http://www.linuxtv.org/\">LinuxTV</ulink>\n"
+"Project.\n"
+"\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/dvb.xml:44 en/encoding-cards.xml:158
+#, no-wrap
+msgid ""
+"\n"
+"Uncompress the tarball and follow the instructions\n"
+"written in the "
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para><filename>
+#: en/dvb.xml:46 en/encoding-cards.xml:160
+#, no-wrap
+msgid "INSTALL"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/dvb.xml:46 en/encoding-cards.xml:160
+#, no-wrap
+msgid ""
+" file to compile and install\n"
+"the drivers.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><title>
+#: en/dvb.xml:52
+#, no-wrap
+msgid ""
+"\n"
+"Stream with VLS\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/dvb.xml:56
+#, no-wrap
+msgid ""
+"\n"
+"Put a "
+msgstr ""
+
+# type: Content of: <chapter><sect1><para><filename>
+#: en/dvb.xml:57
+#, no-wrap
+msgid ".dvbrc"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/dvb.xml:57
+#, no-wrap
+msgid ""
+" file containing\n"
+"the DVB channels (satellite or digital terrestial TV channels) you\n"
+"want to stream in your home directory (some are provided in the\n"
+"<emphasis>libdvb</emphasis> tarball for the satellite channels).\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/dvb.xml:63
+#, no-wrap
+msgid ""
+"\n"
+"Run VLS with the following command line\n"
+":\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><screen>
+#: en/dvb.xml:68
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vls -vv -d udp:192.168.0.42 dvb:\"EUROSPORT\" --ttl 12</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/dvb.xml:78
+#, no-wrap
+msgid ""
+"<emphasis>\"EUROSPORT\"</emphasis>\n"
+" is the channel you want to stream as written in\n"
+"your "
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
+#: en/dvb.xml:80
+#, no-wrap
+msgid "~/.dvbrc"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/dvb.xml:80
+#, no-wrap
+msgid ""
+" file\n"
+","
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/dvb.xml:83
+#, no-wrap
+msgid ""
+"<emphasis>192.168.0.42</emphasis>\n"
+" is either \n"
+":"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/dvb.xml:114 en/encoding-cards.xml:57 en/encoding-cards.xml:257
+#, no-wrap
+msgid ""
+"\n"
+"Stream with VLC\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><note><para>
+#: en/dvb.xml:118
+#, no-wrap
+msgid ""
+"\n"
+"For this, you can use the SVN version of VLC and compile\n"
+"it with <command>./configure --enable-dvb</command> This feature should\n"
+"still be considered as experimental. You can find it in the official release since the version 0.7.2."
+msgstr ""
+
+# type: Content of: <chapter><sect1><screen>
+#: en/dvb.xml:123
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -vvv --color --ttl 12  --ts-es-id-pid --programs 8508,8505 dvb: --dvb-adapter=0 --dvb-frequency=11739000 --dvb-srate=27500000 --dvb-voltage=13 --dvb-fec=3 --dvb-budget-mode --sout '#duplicate{dst=std{access=udp,mux=ts,url=adress:3001},select=\"program=8508\",dst=std{access=udp,mux=ts,url=adress:3002},select=\"program=8505\"}'</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
+#: en/dvb.xml:134
+#, no-wrap
+msgid "ts-es-id-pid"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/dvb.xml:134
+#, no-wrap
+msgid " is necessary to duplicate"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
+#: en/dvb.xml:137
+#, no-wrap
+msgid "8508"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/dvb.xml:137
+#, no-wrap
+msgid ""
+" is the SID of the DVB\n"
+"channel you would like to stream, expressed as a decimal number\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
+#: en/dvb.xml:142
+#, no-wrap
+msgid "0"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/dvb.xml:142
+#, no-wrap
+msgid " is the id of the dvb card (0 for dvb0)"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
+#: en/dvb.xml:145
+#, no-wrap
+msgid "11739000"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/dvb.xml:145
+#, no-wrap
+msgid ""
+" is the frequency of the\n"
+"transponder you want to stream from in Hz"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
+#: en/dvb.xml:149
+#, no-wrap
+msgid "27500000"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/dvb.xml:149
+#, no-wrap
+msgid ""
+" is the transponder\n"
+"symbolrate in Hz"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
+#: en/dvb.xml:153
+#, no-wrap
+msgid "13"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/dvb.xml:153
+#, no-wrap
+msgid " is the polarization (13 for vertical and 18 for horizontal)"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
+#: en/dvb.xml:156
+#, no-wrap
+msgid "3"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/dvb.xml:156
+#, no-wrap
+msgid " is the FEC (3 for 3/4), if you don't put the option it will auto-detect the value"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
+#: en/dvb.xml:159
+#, no-wrap
+msgid "dvb-budget-mode"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/dvb.xml:159
+#, no-wrap
+msgid " if your card support this mode"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/dvb.xml:161
+#, no-wrap
+msgid ""
+"<emphasis>adress</emphasis>\n"
+" is either:"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/dvb.xml:166 en/encoding-cards.xml:419
+#, no-wrap
+msgid ""
+"\n"
+"the IP address of the machine you want to unicast to\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/dvb.xml:170 en/encoding-cards.xml:422
+#, no-wrap
+msgid ""
+"\n"
+"or the DNS name the machine you want to unicast to\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/dvb.xml:174
+#, no-wrap
+msgid ""
+"\n"
+"or the multicast IP address."
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/dvb.xml:181
+#, no-wrap
+msgid ""
+"\n"
+"<emphasis>12</emphasis> is the value of the TTL (Time\n"
+"To Live) of your IP packets (which means that the stream will be able to cross 11 routers)."
+msgstr ""
+
+# type: Content of: <chapter><title>
+#: en/examples.xml:2
+#, no-wrap
+msgid ""
+"\n"
+"Examples for advanced use of VLC's stream output\n"
+"(transcoding, multiple streaming, etc...)\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><title>
+#: en/examples.xml:7
+#, no-wrap
+msgid ""
+"\n"
+"Transcoding\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/examples.xml:11
+#, no-wrap
+msgid ""
+"\n"
+"Transcode the input stream and send it to a\n"
+"multicast IP address with the associated SAP announce:\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><screen>
+#: en/examples.xml:16
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128,deinterlace}:\n"
+"standard{access=udp,mux=ts,url=239.255.12.42,sap,name=\"TestStream\"}'</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/examples.xml:21
+#, no-wrap
+msgid ""
+"\n"
+" Display the input stream, transcode it and send it\n"
+"to a multicast IP address with the associated SAP announce:\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><screen>
+#: en/examples.xml:26
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#duplicate{dst=display,dst=\n"
+"\"transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128,deinterlace}:\n"
+"standard{access=udp,mux=ts,url=239.255.12.42,sap,name=\"TestStream\"}\"}'</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/examples.xml:32
+#, no-wrap
+msgid ""
+"\n"
+"Transcode the input stream, display the transcoded\n"
+"stream and send it to a multicast IP address with the associated SAP\n"
+"announce:\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><screen>
+#: en/examples.xml:38
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128,deinterlace}:\n"
+"duplicate{dst=display,dst=standard{access=udp,mux=ts,url=239.255.12.42,sap,name=\"TestStream\"}}'</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><title>
+#: en/examples.xml:45
+#, no-wrap
+msgid ""
+"\n"
+"Multiple streaming\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/examples.xml:49
+#, no-wrap
+msgid ""
+"\n"
+"Send a stream to a multicast IP address and a\n"
+"unicast IP address:\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><screen>
+#: en/examples.xml:54
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#duplicate{dst=\n"
+"standard{access=udp,mux=ts,url=239.255.12.42,sap,name=\"TestStream\"},\n"
+"dst=standard{access=udp,mux=ts,url=192.168.1.2}}'</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/examples.xml:60
+#, no-wrap
+msgid ""
+"\n"
+"Display the stream and send it to two unicast IP\n"
+"addresses:\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><screen>
+#: en/examples.xml:65
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#duplicate{dst=display,dst=\n"
+"standard{access=udp,mux=ts,url=192.168.1.12},\n"
+"dst=standard{access=udp,mux=ts,url=192.168.1.42}}'</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/examples.xml:71
+#, no-wrap
+msgid "Send parts of a multiple program input stream:\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><screen>
+#: en/examples.xml:74
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -vvv multiple_program_input_stream \n"
+"--sout '#duplicate{dst=standard{access=udp,mux=ts,url=239.255.12.42},select=\"program=12345\",\n"
+"dst=standard{access=udp,mux=ts,url=239.255.12.43}, select=\"video,program=1234-2345\"}'</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/examples.xml:80
+#, no-wrap
+msgid ""
+"This command sends the program of the input stream which id is\n"
+"12345 to 239.255.12.42 and all video programs with id between 1234 and\n"
+"2345 to 239.255.12.43."
+msgstr ""
+
+# type: Content of: <chapter><sect1><title>
+#: en/examples.xml:86
+#, no-wrap
+msgid ""
+"\n"
+"\n"
+"Transcoding and multiple streaming\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/examples.xml:91
+#, no-wrap
+msgid ""
+"\n"
+"Transcode the input stream, display the transcoded\n"
+"stream and send it to a multicast IP address with the associated SAP\n"
+"announce and an unicast IP address:\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><screen>
+#: en/examples.xml:97
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128,deinterlace}:\n"
+"duplicate{dst=display,dst=standard{access=udp,mux=ts,url=239.255.12.42,sap,name=\"TestStream\"},\n"
+"dst=standard{access=udp,mux=ts,url=192.168.1.2}}'</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/examples.xml:103
+#, no-wrap
+msgid ""
+"\n"
+"Display the input stream, transcode it and send it\n"
+"to two unicast IP addresses:\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><screen>
+#: en/examples.xml:108
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#duplicate{dst=display,\n"
+"dst=\"transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128}:\n"
+"duplicate{dst=standard{access=udp,mux=ts,url=192.168.1.2},\n"
+"dst=standard{access=udp,mux=ts,url=192.168.1.12}\"}'</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/examples.xml:115
+#, no-wrap
+msgid ""
+"\n"
+"Send the input stream to a multicast IP address\n"
+"and the transcoded stream to another multicast IP address with the\n"
+"associated SAP announces:\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><screen>
+#: en/examples.xml:121
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#duplicate{dst=\n"
+"standard{access=udp,mux=ts,url=239.255.1.2,sap,name=\"OriginalStream\"},\n"
+"dst=\"transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128}:\n"
+"standard{access=udp,mux=ts,url=239.255.1.3,sap,name=\"TranscodedStream\"}\"}'</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><title>
+#: en/examples.xml:130
+#, no-wrap
+msgid ""
+"\n"
+"HTTP streaming\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/examples.xml:134
+#, no-wrap
+msgid ""
+"\n"
+"Stream in HTTP:\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/examples.xml:140 en/examples.xml:193
+#, no-wrap
+msgid ""
+"\n"
+"on the server, run:\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><screen>
+#: en/examples.xml:144
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#standard{access=http,mux=ogg,url=server.example.org:8080}'</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/examples.xml:150 en/examples.xml:203
+#, no-wrap
+msgid ""
+"\n"
+"on the client(s), run:\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><screen>
+#: en/examples.xml:154
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc http://server.example.org:8080</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/examples.xml:162
+#, no-wrap
+msgid ""
+"\n"
+"Transcode and stream in HTTP:\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><screen>
+#: en/examples.xml:166
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128}:\n"
+"standard{access=http,mux=ogg,url=server.example.org:8080}'</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/examples.xml:171
+#, no-wrap
+msgid ""
+"\n"
+"For example, if you want to stream an audio CD in\n"
+"Ogg/Vorbis over HTTP:\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><screen>
+#: en/examples.xml:176
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -vvv cdda:/dev/cdrom --sout '#transcode{acodec=vorb,ab=128}:\n"
+"standard{access=http,mux=ogg,url=server.example.org:8080}'</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><title>
+#: en/examples.xml:183
+#, no-wrap
+msgid ""
+"\n"
+"RTP streaming\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/examples.xml:187
+#, no-wrap
+msgid ""
+"\n"
+"Stream in RTP:\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><screen>
+#: en/examples.xml:197
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#rtp{dst=192.168.0.12,port=1234,sdp=http://server.example.org:8080/test.sdp}'</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><screen>
+#: en/examples.xml:207
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc http://server.example.org:8080/test.sdp</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><title>
+#: en/examples.xml:217
+#, no-wrap
+msgid ""
+"\n"
+"Use the <emphasis>es</emphasis> module\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/examples.xml:221
+#, no-wrap
+msgid ""
+"\n"
+"Separate audio and video in two PS files:\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><screen>
+#: en/examples.xml:225
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -vvv input_stream --sout\n"
+"'#es{access=file,mux=ps,url_audio=audio-%c.%m,url_video=video-%c.%m}'</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/examples.xml:230
+#, no-wrap
+msgid ""
+"\n"
+"Extract the audio track of the input stream to a TS\n"
+"file:\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><screen>
+#: en/examples.xml:235
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#es{access_audio=file,mux_audio=ts,url_audio=audio-%c.%m}'</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/examples.xml:239
+#, no-wrap
+msgid ""
+"\n"
+" Stream in unicast the audio track on a port and the\n"
+"video track on another port:\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/examples.xml:246
+#, no-wrap
+msgid ""
+"\n"
+"on the server side:\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><screen>
+#: en/examples.xml:250
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -vvv input_stream --sout\n"
+"'#es{access=rtp,mux=ts,url_audio=192.168.1.2:1212,url_video=192.168.1.2:1213}'</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/examples.xml:257
+#, no-wrap
+msgid ""
+"\n"
+"on the client side: to receive the audio:\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><screen>
+#: en/examples.xml:261
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc udp:@:1212</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/examples.xml:263
+#, no-wrap
+msgid ""
+"\n"
+"to receive the video:\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><screen>
+#: en/examples.xml:267
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc udp:@:1213</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/examples.xml:275
+#, no-wrap
+msgid ""
+"\n"
+"Stream in multicast the video and dump the audio in\n"
+"a file:\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><screen>
+#: en/examples.xml:280
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#es{access_video=udp,mux_video=ts,url_video=239.255.12.42,\n"
+"access_audio=file,mux_audio=ps,url_audio=audio-%c.%m}'</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><note><para>
+#: en/examples.xml:285
+#, no-wrap
+msgid ""
+"\n"
+"You can also combine the <emphasis>es</emphasis>\n"
+"module with the other modules to set-up even more complex\n"
+"solution.\n"
+msgstr ""
+
+# type: Content of: <chapter><title>
+#: en/vlm-vod.xml:3
+#, no-wrap
+msgid ""
+"\n"
+"VLM - Multiple streaming and Video on demand\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><title>
+#: en/vlm-vod.xml:14
+#, no-wrap
+msgid "VLM"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/vlm-vod.xml:16
+#, no-wrap
+msgid ""
+"<emphasis>VideoLAN Manager</emphasis> is a small media manager\n"
+"designed to control multiple streams with <emphasis>only one instance of\n"
+"VLC</emphasis>. It allows multiple streaming and video on demand (VoD).\n"
+"This manager being a new feature, it can only be controlled by the telnet\n"
+"interface or the http interface."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/vlm-vod.xml:22
+#, no-wrap
+msgid "Interfaces"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/vlm-vod.xml:24
+#, no-wrap
+msgid "Telnet interface"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/vlm-vod.xml:26
+#, no-wrap
+msgid ""
+"You can launch the telnet interface as a common interface using\n"
+"the command line :"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><screen>
+#: en/vlm-vod.xml:29
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc --intf telnet</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><screen>
+#: en/vlm-vod.xml:33
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc --extraintf telnet</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/vlm-vod.xml:37
+#, no-wrap
+msgid ""
+"The telnet interface can also be launched in the wxWindows\n"
+"interface :"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><mediaobject><caption><para>
+#: en/vlm-vod.xml:44 en/vlm-vod.xml:45
+#, no-wrap
+msgid "Launching the Telnet interface - wxWindows interface"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/vlm-vod.xml:48
+#, no-wrap
+msgid ""
+"The default port is 4212. The default password is\n"
+"\"admin\". These can be changed using <command>--telnet-port\n"
+"&lt;integer></command> and <command>--telnet-password\n"
+"&lt;string></command> command line options. They can also be changed\n"
+"in the preferences panel when using the wxWindows interface in the\n"
+"<emphasis>Modules</emphasis>-><emphasis>interface</emphasis>-><emphasis>\n"
+"telnet</emphasis> section (check the <emphasis>Advanced\n"
+"options</emphasis> checkbox)."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/vlm-vod.xml:59
+#, no-wrap
+msgid "HTTP interface"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/vlm-vod.xml:61
+#, no-wrap
+msgid ""
+"Launching the HTTP interface is described in the <ulink\n"
+"url=\"http://www.videolan.org/doc/\">Play-with-VLC Howto.</ulink>"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/vlm-vod.xml:64
+#, no-wrap
+msgid ""
+"To access the vlm section of the http interface, use the following\n"
+"URL: <emphasis> http://host:port/vlm/</emphasis>."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/vlm-vod.xml:69
+#, no-wrap
+msgid "VLM Elements"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/vlm-vod.xml:71
+#, no-wrap
+msgid "Medias"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/vlm-vod.xml:73
+#, no-wrap
+msgid ""
+"A <emphasis>Media</emphasis> is composed with a list of inputs (the video and audio\n"
+"streams you want to stream), an output (how and where you want to stream\n"
+"them) and some options."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/vlm-vod.xml:77
+#, no-wrap
+msgid "There are two types of medias:"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/vlm-vod.xml:81
+#, no-wrap
+msgid ""
+"<emphasis>vod</emphasis>: A vod media is commonly used\n"
+"for Video on Demand. It will be launched only if a vod client asks for\n"
+"it."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/vlm-vod.xml:85
+#, no-wrap
+msgid ""
+"<emphasis>broadcast</emphasis>: A broadcast media is\n"
+"very close to a TV program or channel. It is launched, stopped or paused\n"
+"by the administrator and may be repeated several times. The client has\n"
+"no control over this media."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/vlm-vod.xml:94
+#, no-wrap
+msgid "Schedules"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/vlm-vod.xml:96
+#, no-wrap
+msgid ""
+"A <emphasis>Schedule</emphasis> is a script with a date. When the\n"
+"schedule date is reached, the script is launched. There are several\n"
+"options available like a period or a number of repetitions."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/vlm-vod.xml:102
+#, no-wrap
+msgid "Command line syntax"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/vlm-vod.xml:104
+#, no-wrap
+msgid "Command lines"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/vlm-vod.xml:108
+#, no-wrap
+msgid ""
+"<command>help</command> : Displays an exhaustive command\n"
+"lines list"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/vlm-vod.xml:111
+#, no-wrap
+msgid ""
+"<command>new (name) vod|broadcast|schedule\n"
+"[properties]</command> : Create a new vod, broadcast or schedule\n"
+"element. Element names must be unique and cannot be \"media\" or\n"
+"\"schedule\". You can specify properties in this command line or later on\n"
+"by using the <command>setup</command> command. "
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/vlm-vod.xml:117
+#, no-wrap
+msgid ""
+"<command>setup (name) (properties)</command> : Set\n"
+"an elements property. See <xref linkend=\"vlmprop\" endterm=\"tvlmprop\"\n"
+"/>."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/vlm-vod.xml:121
+#, no-wrap
+msgid ""
+"<command>show [(name)|media|schedule]</command>\n"
+": Display current element states and configurations.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/vlm-vod.xml:123
+#, no-wrap
+msgid ""
+"<command>show (name)</command> - Specify\n"
+"an element's name to show all information concerning this\n"
+"element."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/vlm-vod.xml:125
+#, no-wrap
+msgid ""
+"<command>show media</command> displays\n"
+"a summary of media states."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/vlm-vod.xml:126
+#, no-wrap
+msgid ""
+"<command>show\n"
+"schedule</command> displays a summary of schedule\n"
+"states."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/vlm-vod.xml:130
+#, no-wrap
+msgid ""
+"<command>del (name)|all|media|schedule</command>\n"
+": Delete an element or a group of elements. If the\n"
+"element wasn't stopped, it is first stopped before being\n"
+"deleted."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/vlm-vod.xml:133
+#, no-wrap
+msgid ""
+"<command>del\n"
+"(name)</command> - Delete the (name)\n"
+"element."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/vlm-vod.xml:135
+#, no-wrap
+msgid ""
+"<command>del all</command>\n"
+"- Delete all elements"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/vlm-vod.xml:136
+#, no-wrap
+msgid ""
+"<command>del\n"
+"media</command> - Delete all media\n"
+"elements."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/vlm-vod.xml:138
+#, no-wrap
+msgid ""
+"<command>del\n"
+"schedule</command> - Delete all schedule\n"
+"elements"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/vlm-vod.xml:142
+#, no-wrap
+msgid ""
+"<command>control (name) [instance_name]\n"
+"(command)</command> : Change the state of the (instance_name) instance\n"
+"of the (name) media. If (instance_name) isn't specified, the control\n"
+"command affects the default instance. See <xref linkend=\"vlmctrl\"\n"
+"endterm=\"tvlmctrl\" /> for available control commands."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/vlm-vod.xml:148
+#, no-wrap
+msgid ""
+"<command>save (config_file)</command> : Save all media\n"
+"and schedule configurations in the specified config file. The config\n"
+"file path is relative to the directory in which vlc was launched. If\n"
+"the file exists it will be overwritten. Note that states, such as\n"
+"playing, paused or stop, are not saved. See <xref linkend=\"vlmconf\"\n"
+"endterm=\"tvlmconf\" /> for more info."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/vlm-vod.xml:155
+#, no-wrap
+msgid ""
+"<command>load (config_file)</command> : Load a\n"
+"configuration file. The config file path is relative to the directory in\n"
+"which vlc was launched. See <xref linkend=\"vlmconf\" endterm=\"tvlmconf\"/>\n"
+"for more info."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/vlm-vod.xml:164
+#, no-wrap
+msgid "Media Properties"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><note><para>
+#: en/vlm-vod.xml:166
+#, no-wrap
+msgid ""
+"Except the \"append\" property, all properties can be followed\n"
+"by another one."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/vlm-vod.xml:171
+#, no-wrap
+msgid ""
+"<command>input (input_name)</command> : Add an input to\n"
+"the end of the media's input list."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/vlm-vod.xml:174
+#, no-wrap
+msgid ""
+"<command>output (output_name)</command> : Define the\n"
+"media's output. The syntax is the same as the vlc \":sout=...\" vlc\n"
+"option but you do not have to put the \":sout=...\" string. See <xref\n"
+"linkend=\"cmdline\" endterm=\"tcmdline\" /> for more information concerning\n"
+"stream outputs (sout)."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><note><para>
+#: en/vlm-vod.xml:178
+#, no-wrap
+msgid ""
+"You do not have to specify an output\n"
+"for vod elements."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/vlm-vod.xml:181
+#, no-wrap
+msgid ""
+"<command>enabled|disabled</command> : Enable or Disable\n"
+"the media. If a media is disabled, it cannot be streamed, paused,\n"
+"launched by a schedule, or played as VoD."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/vlm-vod.xml:185
+#, no-wrap
+msgid ""
+"<command>loop|unloop (broadcast only)</command> : If\n"
+"a media with the \"loop\" option receives the \"play\" command, it will\n"
+"automatically restart to play the input list once the end of the input\n"
+"list is reached. "
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><note><para>
+#: en/vlm-vod.xml:188
+#, no-wrap
+msgid ""
+"<command>loop|unloop</command> is only used\n"
+"for broadcast media types."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/vlm-vod.xml:191
+#, no-wrap
+msgid ""
+"<command>mux (mux_name)</command> : This option\n"
+"should only be specified if you want the elementary streams to\n"
+"be sent encapsulated instead of raw. The (mux_name) should be\n"
+"specified as a four characters length identifier such as mp2t for\n"
+"MPEG TS or mp2p for MPEG PS. See <xref linkend=\"smc\" endterm=\"tsmc\"\n"
+"/>."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><note><para>
+#: en/vlm-vod.xml:196
+#, no-wrap
+msgid ""
+"The <command>mux</command> property is only used for vod\n"
+"media types."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/vlm-vod.xml:203
+#, no-wrap
+msgid "Schedule Properties"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/vlm-vod.xml:207
+#, no-wrap
+msgid ""
+"<command>enabled|disabled</command> : A disabled\n"
+"schedule will never be launched."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/vlm-vod.xml:210
+#, no-wrap
+msgid ""
+"<command>append\n"
+"(command_until_rest_of_the_line)</command> : Add a command to the\n"
+"command line lit. The command line can be every command VLM can\n"
+"understand."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><note><para>
+#: en/vlm-vod.xml:213
+#, no-wrap
+msgid ""
+"The rest of the line will be considered as\n"
+"part of the command line. You cannot put another option after the\n"
+"<command>append</command> one."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/vlm-vod.xml:217
+#, no-wrap
+msgid ""
+"<command>date\n"
+"(year)/(month)/(day)-(hour):(minutes):(seconds)|now</command>\n"
+": Specify the first date the schedule should\n"
+"be launched. You can specify a date using the\n"
+"<command>(year)/(month)/(day)-(hour):(minutes):(seconds)</command>\n"
+"format (example: 2004/11/16-00:43:12) or using the\n"
+"<command>now</command> keyword. If <command>now</command> is used, the\n"
+"schedule will be launched as soon as possible (i.e. as soon as it is\n"
+"enabled) and the current date will be used as the first date of the\n"
+"schedule."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/vlm-vod.xml:228
+#, no-wrap
+msgid ""
+"<command>period\n"
+"(years_aka_12_months)/(months_aka_30_days)/(days)-(hours):(minutes):(sec\n"
+"onds)</command> : Specify the period of time a schedule must wait\n"
+"for launching itself another time. (Months are considered as 30\n"
+"days, Years as 12 months) If a period is specified without a\n"
+"<command>repeat</command> property, the schedule will be launched\n"
+"endlessly."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/vlm-vod.xml:236
+#, no-wrap
+msgid ""
+"<command>repeat (number_of_repetitions)</command> :\n"
+"Specify the number of times the schedule will be launched again. For\n"
+"example, if a schedule has <command>repeat 11</command>, it will be\n"
+"launched 12 times."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/vlm-vod.xml:245
+#, no-wrap
+msgid "Control Commands"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/vlm-vod.xml:249
+#, no-wrap
+msgid ""
+"<command>play</command> : Stat a broadcast media. The\n"
+"media begins to launch the first item of the input list, then launches\n"
+"the next one and so on. (like a play list)"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/vlm-vod.xml:253
+#, no-wrap
+msgid ""
+"<command>pause</command> : Put the broadcast media in\n"
+"paused status."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/vlm-vod.xml:256
+#, no-wrap
+msgid ""
+"<command>stop</command> : Stop the broadcast\n"
+"media."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/vlm-vod.xml:259
+#, no-wrap
+msgid ""
+"<command>seek (percentage)</command> : Seek in the\n"
+"current playing item of the input list."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/vlm-vod.xml:266
+#, no-wrap
+msgid "Configuration Files "
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/vlm-vod.xml:268
+#, no-wrap
+msgid ""
+"A VLM configuration file is a list of command lines : one line\n"
+"corresponds to one command line."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/vlm-vod.xml:271
+#, no-wrap
+msgid ""
+"To create a configuration file, just edit a text file and type\n"
+"a list of VLM commands. Beware of recursive calls: you an put a\n"
+"<command>load (file)</command> in a configuration file which can lead to\n"
+"recursive inclusion of the same file and result in VLC's crash."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/vlm-vod.xml:276
+#, no-wrap
+msgid ""
+"As of versions > 0.8.1, any line where the first non white space\n"
+"character is a # is considered as a comment."
+msgstr ""
+
+# type: Content of: <chapter><sect1><title>
+#: en/vlm-vod.xml:281
+#, no-wrap
+msgid "Examples"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/vlm-vod.xml:283
+#, no-wrap
+msgid "This section provides several small vlm configuration files."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/vlm-vod.xml:285
+#, no-wrap
+msgid "Multiple streaming"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/vlm-vod.xml:287
+#, no-wrap
+msgid "Simple broadcasting"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><programlisting>
+#: en/vlm-vod.xml:289
+#, no-wrap
+msgid ""
+"\n"
+"new channel1 broadcast enabled\n"
+"setup channel1 input http://host.mydomain/movie.mpeg\n"
+"set channel1 output #standard{mux=ts,access=udp,url=239.255.1.1,sap,name=\"Channel 1\"}\n"
+"\n"
+"new channel2 broadcast enabled\n"
+"setup channel2 input udp://@239.255.12.42\n"
+"set channel2 output #standard{mux=ts,access=udp,url=239.255.1.1,sap,name=\"Channel 1\"}\n"
+"\n"
+"control channel1 play\n"
+"control channel2 play\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/vlm-vod.xml:304
+#, no-wrap
+msgid "Scheduled broadcasting"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><programlisting>
+#: en/vlm-vod.xml:306
+#, no-wrap
+msgid ""
+"\n"
+"new my_media broadcast enabled\n"
+"setup my_media input my_video.mpeg input my_other_movie.mpeg\n"
+"setup my_media output #standard{mux=ts,access=udp,url=239.255.1.1,sap,name=\"My Media\"}\n"
+"\n"
+"new my_sched schedule enabled\n"
+"setup my_sched date 2012/12/12-12:12:12\n"
+"setup my_sched append control my_media play\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/vlm-vod.xml:318
+#, no-wrap
+msgid "Video On Demand"
+msgstr ""
+
+# type: Content of: <chapter><sect1><title>
+#: en/ipv6.xml:2 en/ipv6.xml:8
+#, no-wrap
+msgid ""
+"\n"
+"Streaming over IPv6\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/ipv6.xml:12
+#, no-wrap
+msgid ""
+"This chapter covers the specifics of streaming over IPv6. You\n"
+"should still read the previous chapters if you are not confortable with\n"
+"streaming in general.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/ipv6.xml:17
+#, no-wrap
+msgid ""
+"\n"
+"Requirements\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/ipv6.xml:19
+#, no-wrap
+msgid ""
+" You will obviously need an IPv6-aware operating system.\n"
+"That includes Windows XP/2003, Linux 2.6, Mac OS X (starting from version\n"
+"10.2). Windows 2000 and Linux 2.4 are supported too, but their IPv6\n"
+"stacks are not as good, so upgrade if you can. IPv6 must be properly\n"
+"configured and working on your system and network.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/ipv6.xml:25
+#, no-wrap
+msgid ""
+"On Linux, the <emphasis>ipv6</emphasis> kernel module must be\n"
+"loaded (or compiled-in). On Windows, the IPv6 protocols suite can be\n"
+"installed by running \"ipv6 install\" from the command line, or through\n"
+"the Network configuration panel.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><note><para>
+#: en/ipv6.xml:31
+#, no-wrap
+msgid ""
+"\n"
+"Under Windows 2000, you must add by hand a default\n"
+"multicast IPv6 route, with the following command:\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><note><screen>
+#: en/ipv6.xml:36
+#, no-wrap
+msgid ""
+"\n"
+"<prompt># </prompt><userinput>ipv6 rtu ff::/8 4</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><note><para>
+#: en/ipv6.xml:40
+#, no-wrap
+msgid ""
+"\n"
+"where the last number (<emphasis>4</emphasis> in\n"
+"this example) is the number of your true IPv6 interface. To have a list\n"
+"of your IPv6 interfaces, run <command>ipv6 if</command>.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><warning><para>
+#: en/ipv6.xml:46
+#, no-wrap
+msgid ""
+"\n"
+"Under Windows XP SP1, you may have problems with a hidden IPv6\n"
+"firewall. To solve the problem, go to the list of Windows\n"
+"Services and stop the IPv6 firewalling service. You should consider\n"
+"upgrading to Service Pack 2 which provides an integrated IPv4/IPv6\n"
+"firewall that can be configured through the GUI.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><warning><para>
+#: en/ipv6.xml:54
+#, no-wrap
+msgid ""
+"\n"
+"If you are using VMware under Linux, you will have\n"
+"to stop VMware and unload the VMware kernel modules, because we noticed\n"
+"it prevented IPv6 streaming !\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/ipv6.xml:61
+#, no-wrap
+msgid ""
+"\n"
+"Limitations\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/ipv6.xml:63
+#, no-wrap
+msgid ""
+"There are still some features of the VLC media player\n"
+"which do not support IPv6. In particular, it is not possible to use\n"
+"RTSP over IPv6 because the underlying library, Live.com, does not\n"
+"support IPv6 at the time of writing.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/ipv6.xml:68
+#, no-wrap
+msgid ""
+"Additionnaly, note that at the moment, VLC defaults to using\n"
+"IPv4 mostly every, as it is what most people uses. That might be\n"
+"changed to something more transparent in future versions.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/ipv6.xml:74
+#, no-wrap
+msgid ""
+"\n"
+"Streaming with VLC\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/ipv6.xml:79
+#, no-wrap
+msgid "With the Streaming Wizard (GUI)"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/ipv6.xml:80
+#, no-wrap
+msgid ""
+"The streaming wizard accepts IPv6 addresses between braces, for\n"
+"example:\n"
+"<userinput>[2002:8ac3:802d:1242:211:11ff:fe25:e6b4]</userinput>.\n"
+"If you specify a link-local address, you will most likely need to\n"
+"specify the networking interface to use. On Unix, that can be done this\n"
+"way: <userinput>[fe80::211:11ff:fe25:e6b4%eth0]</userinput> to attach\n"
+"to eth0. Similarly, on Windows, you may specify\n"
+"<userinput>[fe80::211:11ff:fe25:e6b4%1]</userinput> where 1 is the\n"
+"number of the network interface as defined by the operating system.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/ipv6.xml:91
+#, no-wrap
+msgid ""
+"If you're streaming over HTTP, note that IPv6 is automatically\n"
+"used by default (so that both IPv6 and IPv4 clients will be allowed).\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/ipv6.xml:95
+#, no-wrap
+msgid ""
+"If you want to specify DNS hostname, keep in mind that the VLC\n"
+"defaults to IPv4 resolution. You must either specify hostnames that\n"
+"only resolves to IPv6 addresses, or enable the &quot;Force IPv6&quot;\n"
+"<emphasis>advanced</emphasis> option in\n"
+"<emphasis>Preferences / General Settings / Input</emphasis>.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/ipv6.xml:105
+#, no-wrap
+msgid "From the command-line"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/ipv6.xml:106
+#, no-wrap
+msgid ""
+"The <userinput>--ipv6</userinput> command line option force\n"
+"the use of IPv6 by default (ie. IPv6 is always attempted before IPv4).\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><screen>
+#: en/ipv6.xml:110
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -vvv video1.xyz --ipv6 --sout udp:[ff08::1] --ttl 12</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/ipv6.xml:120
+#, no-wrap
+msgid ""
+"\n"
+" is the file you want to stream (you can also put\n"
+"<command>dvdsimple:/dev/dvd</command> to stream a DVD or any other input\n"
+"configuration)\n"
+","
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/ipv6.xml:126
+#, no-wrap
+msgid ""
+"<emphasis>ff08::1</emphasis> \n"
+"is either :\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/ipv6.xml:132
+#, no-wrap
+msgid ""
+"\n"
+"the IPv6 address of the machine you want to unicast to;\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/ipv6.xml:136
+#, no-wrap
+msgid ""
+"\n"
+"or the multicast IPv6 address.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><note><para>
+#: en/ipv6.xml:152 en/ipv6.xml:209
+#, no-wrap
+msgid ""
+"\n"
+"Under Unix/Linux, you may have to protect the square\n"
+"brackets around the IPv6 address:\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><note><screen>
+#: en/ipv6.xml:157
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -vvv video1.xyz --ipv6 --sout udp:\\[ff08::1\\] --ttl 12</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><note><para>
+#: en/ipv6.xml:163
+#, no-wrap
+msgid ""
+"\n"
+"You may have to specify the output network\n"
+"interface:\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><note><screen>
+#: en/ipv6.xml:168 en/ipv6.xml:224
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -vvv video1.xyz --ipv6 --sout udp:[ff08::1%eth0] --ttl 12</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><note><para>
+#: en/ipv6.xml:172 en/ipv6.xml:228
+#, no-wrap
+msgid ""
+"\n"
+"where <emphasis>eth0</emphasis> is the name of the\n"
+"network interface (under Linux the network interfaces\n"
+"are named <emphasis>ethX</emphasis>, under Mac OS X it's\n"
+"<emphasis>enX</emphasis> and under Windows it's <emphasis>X</emphasis>,\n"
+"where <emphasis>X</emphasis> is the appropriate number).\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/ipv6.xml:185
+#, no-wrap
+msgid ""
+"\n"
+"Receiving an IPv6 stream\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/ipv6.xml:189
+#, no-wrap
+msgid "With the graphical user interface"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/ipv6.xml:190
+#, no-wrap
+msgid ""
+"Select File / Open Network Stream. To receive an UDP/RTP unicast\n"
+"stream sent to your system, you should select the Force IPv6 option\n"
+"(and possibly adjust the destination UDP port). To receive an UDP\n"
+"multicast stream, select the UDP/RTP Multicast option, and specify the\n"
+"multicast address to subscribe to inside square brackets. The IPv6\n"
+"addresses syntax is the same as that explained in the\n"
+"<emphasis>Streaming over IPv6</emphasis> section of this chapter.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/ipv6.xml:200
+#, no-wrap
+msgid "From the command line"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/ipv6.xml:201
+#, no-wrap
+msgid ""
+"As for streaming, the <userinput>--ipv6</userinput> command line\n"
+"option force the use of IPv6 by default (ie. IPv6 is always attempted\n"
+"before IPv4).\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><screen>
+#: en/ipv6.xml:205
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -vvv --ipv6 udp:@[ff08::1]</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><note><screen>
+#: en/ipv6.xml:214
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -vvv --ipv6 udp:@\\[ff08::1\\]</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><note><para>
+#: en/ipv6.xml:220
+#, no-wrap
+msgid ""
+"\n"
+"You may have to specify the output network interface:\n"
+msgstr ""
+
+# type: Content of: <chapter><title>
+#: en/receive.xml:2
+#, no-wrap
+msgid ""
+"\n"
+"Receive and save a stream\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><title>
+#: en/receive.xml:6
+#, no-wrap
+msgid ""
+"\n"
+"Receive a stream with VLC\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/receive.xml:10
+#, no-wrap
+msgid ""
+"\n"
+"Receive an unicast stream\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><screen>
+#: en/receive.xml:14
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -vvv udp:</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/receive.xml:20
+#, no-wrap
+msgid ""
+"\n"
+"Receive a multicast stream\n"
+"\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><screen>
+#: en/receive.xml:25
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -vvv udp:@239.255.12.42</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/receive.xml:29
+#, no-wrap
+msgid ""
+"\n"
+" where <emphasis>239.255.12.42</emphasis> is the\n"
+"multicast IP address you want to join.\n"
+"\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/receive.xml:37
+#, no-wrap
+msgid ""
+"\n"
+"Receive an HTTP/FTP/MMS stream\n"
+"\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/receive.xml:42
+#, no-wrap
+msgid ""
+"\n"
+"Use one of the following command lines:"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><screen>
+#: en/receive.xml:49
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -vvv http://example/stream.xyz</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
+#: en/receive.xml:53
+#, no-wrap
+msgid ""
+"\n"
+"where <emphasis>http://example/stream.xyz</emphasis>\n"
+"is the HTTP address of the stream;"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><screen>
+#: en/receive.xml:61
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -vvv ftp://example/stream.xyz</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
+#: en/receive.xml:65
+#, no-wrap
+msgid ""
+"\n"
+"where <emphasis>ftp://example/stream.xyz</emphasis>\n"
+"is the FTP address of the stream;"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><screen>
+#: en/receive.xml:72
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -vvv mms://viptvr.yacast.fr/encoderfranceinfo</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
+#: en/receive.xml:76
+#, no-wrap
+msgid ""
+"\n"
+"where\n"
+"<emphasis>mms://viptvr.yacast.fr/encoderfranceinfo</emphasis> is the MMS\n"
+"address of the stream.\n"
+"\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/receive.xml:88
+#, no-wrap
+msgid ""
+"\n"
+"Receive a RTP stream available through RTSP\n"
+"\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><screen>
+#: en/receive.xml:93
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -vvv rtsp://www.hardradio.com/tonbeme.mov</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/receive.xml:97
+#, no-wrap
+msgid ""
+"\n"
+" where <emphasis>rtsp://www.hardradio.com/tonbeme.mov</emphasis> is the address of the stream.\n"
+"\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/receive.xml:104
+#, no-wrap
+msgid ""
+"\n"
+"Receive a stream described by an SDP file\n"
+"\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><screen>
+#: en/receive.xml:109
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -vvv http://server.example.org/stream.sdp</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><title>
+#: en/receive.xml:116
+#, no-wrap
+msgid ""
+"\n"
+"Save a stream with VLC\n"
+"\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/receive.xml:121
+#, no-wrap
+msgid ""
+"\n"
+"VLC can save the stream to the disk. In order\n"
+"to do this, use the Stream Output of VLC : you can do it via the\n"
+"graphical interface, or you can add to the command line the following\n"
+"argument:"
+msgstr ""
+
+# type: Content of: <chapter><sect1><screen>
+#: en/receive.xml:127
+#, no-wrap
+msgid ""
+"\n"
+"<userinput>--sout file/muxer:stream.xyz</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/receive.xml:138
+#, no-wrap
+msgid ""
+"<emphasis>muxer</emphasis> \n"
+"is one of the formats supported by VLC's stream\n"
+"output, i.e. :\n"
+"\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/receive.xml:146
+#, no-wrap
+msgid ""
+"<emphasis>avi</emphasis>\n"
+"  for AVI format,"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/receive.xml:149
+#, no-wrap
+msgid ""
+"<emphasis>ogg</emphasis>\n"
+"  for OGG format,"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/receive.xml:152
+#, no-wrap
+msgid ""
+"<emphasis>ps</emphasis> \n"
+"  for MPEG2-PS format,"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/receive.xml:155
+#, no-wrap
+msgid ""
+"<emphasis>ts</emphasis> or\n"
+"<emphasis>ts_dvbpsi</emphasis> \n"
+"  for MPEG2-PS format (the latter uses\n"
+"<emphasis>libdvbpsi</emphasis> for the task)."
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/receive.xml:164
+#, no-wrap
+msgid ""
+"\n"
+"and "
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
+#: en/receive.xml:165
+#, no-wrap
+msgid "stream.xyz"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/receive.xml:165
+#, no-wrap
+msgid ""
+" is the name of\n"
+"the file you want to save the stream to, with the right extension.\n"
+"\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><title>
+#: en/receive.xml:174
+#, no-wrap
+msgid ""
+"\n"
+"Receive a stream with a set-top-box\n"
+"\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/receive.xml:179
+#, no-wrap
+msgid ""
+"\n"
+"Some set-top-boxes with Ethernet cards can receive\n"
+"MPEG2-TS streams over UDP and support multicast. This is the case\n"
+"of the <ulink url=\"http://www.pace.co.uk\">Pace</ulink> and <ulink url=\"http://www.aminocom.com\">Aminocom</ulink> set top boxes. We have\n"
+"tested the <emphasis>AmiNET 100</emphasis> set-top-box from Aminocom: it\n"
+"is nice and small, and it works very well with VideoLAN.\n"
+"\n"
+msgstr ""
+
+# type: Content of: <chapter><title>
+#: en/cmdline.xml:2
+#, no-wrap
+msgid ""
+"\n"
+"Advanced streaming using the command line"
+msgstr ""
+
+# type: Content of: <chapter><sect1><title>
+#: en/cmdline.xml:17
+#, no-wrap
+msgid "Structure of stream output"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/cmdline.xml:19
+#, no-wrap
+msgid ""
+"\n"
+"\n"
+"Stream output is the name of the feature of VLC that allows to output\n"
+"any stream read by VLC to a file or as a network stream instead of\n"
+"displaying it. Different kind of processing can be applied to the stream\n"
+"during this process (transcoding, re-scaling, filters, re-muxing...)\n"
+"\n"
+"Stream output includes different modules, each of them having different\n"
+"capabilities. You can <emphasis>chain</emphasis> modules to enhance the\n"
+"possibilities. "
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/cmdline.xml:30
+#, no-wrap
+msgid ""
+"\n"
+"Here is the list of the modules currently available:\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/cmdline.xml:36
+#, no-wrap
+msgid ""
+"<emphasis>standard</emphasis>\n"
+"allows to <emphasis>send</emphasis> the stream via an <emphasis>access\n"
+"output</emphasis> module: for example, UDP, file, HTTP, ... You will\n"
+"probably want to use this module at the end of your chains.\n"
+"\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/cmdline.xml:43
+#, no-wrap
+msgid ""
+"<emphasis>transcode</emphasis> is used to transcode\n"
+"(decode and re-encode the stream using a different codec and/or bitrate)\n"
+"the audio and the video of the input stream. If the input or output\n"
+"access method doesn't allow pace control (network, capture devices),\n"
+"this done \"on the fly\", in real time. This can require quite a lot\n"
+"of CPU power, depending on the parameters set. Other streams, such\n"
+"as files and disks are transcoded as fast as the system allows it.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/cmdline.xml:52
+#, no-wrap
+msgid ""
+"<emphasis>duplicate</emphasis>\n"
+"allows you to create a second chain, where the\n"
+"stream will be handled in an independent way.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/cmdline.xml:57
+#, no-wrap
+msgid ""
+"<emphasis>display</emphasis> \n"
+"allows you to display the input stream, as VLC\n"
+"would normally do. Used with the <emphasis>duplicate</emphasis>\n"
+"module, this allows you to monitor the stream while processing it.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/cmdline.xml:63
+#, no-wrap
+msgid ""
+"<emphasis>rtp</emphasis> streams over RTP (one UDP port\n"
+"for each elementary stream). This module also allows RTSP support.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/cmdline.xml:67
+#, no-wrap
+msgid ""
+"<emphasis>es</emphasis> allows you to make separate\n"
+"Elementary Streams (ES) out of an input stream. This can be used\n"
+"to save audio and video streams to separate files, for instance.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/cmdline.xml:74
+#, no-wrap
+msgid ""
+"\n"
+"Each of these modules may take options. Here is the\n"
+"syntax that you must use:\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><screen>
+#: en/cmdline.xml:79
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc input_stream --sout \"#module1{option1=parameter1{parameter-option1},option2=parameter2}:#module2{option1=...,option2=...}:...\"</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><note><para>
+#: en/cmdline.xml:83
+#, no-wrap
+msgid ""
+"Some of the module options (option1 in the example) have to\n"
+"be set, others are optional. Option parameters (parameter-option1 in the\n"
+"example) are always optional. These option parameters are also often\n"
+"very advanced settings. If you don't understand their description, this\n"
+"certainly means that you don't need them."
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/cmdline.xml:89
+#, no-wrap
+msgid ""
+"\n"
+"You may also use the following syntax :\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><screen>
+#: en/cmdline.xml:93
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc input_stream --sout-module1-option1=... --sout-module1-option2=... --sout-module2-option1=... --sout-module2-option2=... ...</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/cmdline.xml:97
+#, no-wrap
+msgid ""
+"\n"
+"For example, to transcode a stream and send it, use:\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><screen>
+#: en/cmdline.xml:101
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc input_stream --sout '#transcode{options}:standard{options}'</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><title>
+#: en/cmdline.xml:107
+#, no-wrap
+msgid "Description of the modules"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/cmdline.xml:109
+#, no-wrap
+msgid "standard (alias std)"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/cmdline.xml:111
+#, no-wrap
+msgid ""
+"\n"
+"This module saves the stream to a file or sends it over a network, after\n"
+"having muxed it.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/cmdline.xml:116
+#, no-wrap
+msgid "The available options are:"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:118 en/cmdline.xml:519
+#, no-wrap
+msgid "access="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:120
+#, no-wrap
+msgid "This option allows to set the medium used to save or send the stream. This is a compulsory option. Available options are:"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:123
+#, no-wrap
+msgid "file: saves the stream to a file."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:124
+#, no-wrap
+msgid "Use the <emphasis>append</emphasis> option to append the stream to an existing file instead of replacing it."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:126
+#, no-wrap
+msgid ""
+"udp: streams to a UDP unicast or multicast\n"
+"address."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:128
+#, no-wrap
+msgid ""
+"Item options are: <emphasis>caching=&lt;time in\n"
+"ms&gt;</emphasis> to set the time VLC should buffer data before sending\n"
+"it, <emphasis>ttl=&lt;ttl&gt;</emphasis> to set the ttl of the sent udp\n"
+"packets, <emphasis>group=&lt;amount of packets&gt;</emphasis> to sent\n"
+"packets by burst instead of one by one, <emphasis>late=&lt;time in\n"
+"ms&gt;</emphasis> to drop packets that arrive too late at this stage of\n"
+"the chain, <emphasis>raw</emphasis> if you don't want to wait until the\n"
+"MTU is filled before sending the packet."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem>
+#: en/cmdline.xml:135 en/cmdline.xml:137 en/cmdline.xml:253
+#, no-wrap
+msgid " "
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:137
+#, no-wrap
+msgid "http: streams over HTTP."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:137
+#, no-wrap
+msgid ""
+"Item\n"
+"options are: <emphasis>user=&lt;user name&gt;</emphasis>\n"
+"to enable HTTP basic authentication and set the user,\n"
+"<emphasis>pwd=&lt;password&gt;</emphasis> to set the basic\n"
+"authentication password, <emphasis>mime=&lt;mime type&gt;</emphasis>\n"
+"to set the mime type returned by the server."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:144
+#, no-wrap
+msgid ""
+"https: streams over HTTP, using a secured SSL\n"
+"connection."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:147
+#, no-wrap
+msgid ""
+"Item options are the same as for http and: <emphasis>cert=&lt;path\n"
+"to certificate&gt;</emphasis>to set the certificate to use,\n"
+"<emphasis>key=&lt;path to key&gt;</emphasis> to set the private key file\n"
+"the server should use for the SSL connection, <emphasis>ca=&lt;path\n"
+"to certificate&gt;</emphasis> to set the path to the root\n"
+"CA certificates to use for SSL, <emphasis>crl=&lt;path to\n"
+"certificate&gt;</emphasis> to set the revocation certificate to use for\n"
+"the SSL connection."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:156
+#, no-wrap
+msgid ""
+"mmsh: streams using the Microsoft MMS protocol. This\n"
+"protocol is used as transport method by many Microsoft's softwares.\n"
+"Note that only a small part of the MMS protocol is supported (MMS\n"
+"encapsulated in HTTP)."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:160
+#, no-wrap
+msgid "Item options are the same as for the http module."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:162
+#, no-wrap
+msgid ""
+"rtp: streams over RTP. Please note that this is\n"
+"a legacy module. It doesn't allow RTSP and can only be used to stream\n"
+"TS streams. Please have a look at the <emphasis>rtp</emphasis> stream\n"
+"output module for a more compliant and complete RTP streamer."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:166
+#, no-wrap
+msgid "Options are the same as for the <emphasis>udp</emphasis> setting."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:170 en/cmdline.xml:452 en/cmdline.xml:545
+#, no-wrap
+msgid "mux="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:171
+#, no-wrap
+msgid " This option allows you to set the encapsulation method used for the resulting stream. This option has to be set."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:173
+#, no-wrap
+msgid "Available options are: "
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:176
+#, no-wrap
+msgid ""
+"<emphasis>ts:</emphasis> the MPEG2/TS muxer. This the\n"
+"standard muxer used to stream MPEG 2. This muxer can be used with any\n"
+"<emphasis>access</emphasis> method. Supported codecs are MPEG 1/2/4,\n"
+"MJPEG, H263, H264, I263, WMV 1/2 and theora for video, MPEG audio, AAC and\n"
+"a52 for the audio stream."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:182
+#, no-wrap
+msgid ""
+"Item options are: <emphasis>pid-video=&lt;pid&gt;</emphasis>\n"
+"to set the PID of the video track,\n"
+"<emphasis>pid-audio=&lt;pid&gt;</emphasis> to set the PID of the audio\n"
+"track, <emphasis>pid-spu=&lt;pid&gt;</emphasis> to set the PID of the\n"
+"subtitle track, <emphasis>pid-pmt=&lt;pid&gt;</emphasis> to set the PID\n"
+"of the PMT (Program Map Table), <emphasis>tsid=&lt;id&gt;</emphasis> to\n"
+"set the ID of the resulting TS stream, <emphasis>shaping=&lt;shaping\n"
+"delay in ms&gt;</emphasis> to set the minimum interval during\n"
+"which the bitrate of the stream will remain constant, for variable\n"
+"bitrate streams, <emphasis>use-key-frames</emphasis> uses I frames\n"
+"as limits for the shaping intervals, <emphasis>pcr=&lt;PCR interval\n"
+"in ms&gt;</emphasis> allows to set at which interval Program\n"
+"Clock References will be sent, <emphasis>dts-delay=&lt;delay\n"
+"in ms&gt;</emphasis> allows to delay PTS (Presentation Time\n"
+"Stamps) from the DTS (Decoding Time Stamp) from the given time,\n"
+"<emphasis>crypt-audio</emphasis> allows to enable encryption of the\n"
+"audio track using the CSA algorithm, <emphasis>csa-ck=&lt;key as a\n"
+"16 character word&gt;</emphasis> allows to set the key used for CSA\n"
+"encryption."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:202
+#, no-wrap
+msgid ""
+"<emphasis>ps:</emphasis> the MPEG2/PS muxer. This the standard muxer for MPEG\n"
+"2 files(.mpg). It can be used with the file and http output methods.\n"
+"Supported codecs are MPEG 1/2 and MJPEG for video, MPEG audio and a52 for\n"
+"audio streams."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:207
+#, no-wrap
+msgid ""
+"The only available item option is <emphasis>dst-delay=&lt;delay\n"
+"in ms&gt;</emphasis>. It allows to delay PTS (Presentation\n"
+"Time Stamps) from the DTS (Decoding Time Stamp) from the given\n"
+"time."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:212
+#, no-wrap
+msgid ""
+"<emphasis>mpeg1:</emphasis> the standard MPEG 1 muxer. This muxer should be\n"
+"used instead of ps with MPEG 1 video streams, when saved to a file or\n"
+"streamed over HTTP. Supported codecs are MPEG 1 and MPEG audio."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:215
+#, no-wrap
+msgid "Items options are the same as for the PS muxer."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:217
+#, no-wrap
+msgid ""
+"<emphasis>ogg:</emphasis> the ogg muxer. This is the muxer from the Xiph\n"
+"project. It can be used with the HTTP and file output methods. Supported\n"
+"codecs are MPEG 1/2/4, MJPEG WMV 1/2 and Theora, audio streams can be vorbis,\n"
+"flac, speex, a52 or MPEG audio."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:221
+#, no-wrap
+msgid "There is no item option for this muxer."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:223
+#, no-wrap
+msgid ""
+"<emphasis>asf:</emphasis> the Microsoft ASF muxer. This is the standard muxer\n"
+"used for streaming by Microsoft's softwares. Is also used as container\n"
+"for WMA audio files. This muxer can be used with the file and HTTP\n"
+"output methods. Supported codecs are MPEG 4, MJPEG, WMV 1/2 for video,\n"
+"MPEG audio, a52 for audio streams."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:229
+#, no-wrap
+msgid ""
+"Item options are: <emphasis>title=&lt;title&gt;</emphasis>,\n"
+"<emphasis>title=&lt;title&gt;</emphasis>,\n"
+"<emphasis>autor=&lt;author&gt;</emphasis>,\n"
+"<emphasis>copyright=&lt;copyright message&gt;</emphasis>,\n"
+"<emphasis>comment=&lt;comments&gt;</emphasis>,\n"
+"<emphasis>rating=&lt;rating&gt;</emphasis> allow you to set what will be displayed in the according field of the stream comments."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:236
+#, no-wrap
+msgid ""
+"<emphasis>asfh:</emphasis> this is a special version of the ASF muxer, that\n"
+"should be used for MMSH streaming. MMSH is the only supported output\n"
+"method. Supported codecs are the same as for ASF."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:239
+#, no-wrap
+msgid "Item options are the same as for ASF."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:241
+#, no-wrap
+msgid ""
+"<emphasis>avi:</emphasis> the Microsoft AVI muxer. This is very common\n"
+"encapsulation format for MPEG 4 files. The only supported output method\n"
+"is file. Supported codecs are MPEG 1/2/4, H263, H264 and I263 for video,\n"
+"MPEG audio and a52 for audio streams."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:245
+#, no-wrap
+msgid "There is not item option for this muxer."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:247
+#, no-wrap
+msgid ""
+"<emphasis>mpjpeg:</emphasis> the multipart jpeg muxer.\n"
+"This encapsulation format is mostly used on surveillance video cameras\n"
+"with an integrated web-server. Such streams are usually embedded in\n"
+"web-pages and seen with standard Internet browsers, as they are seen\n"
+"as a succession of jpeg images. The only supported output method is\n"
+"HTTP. The only usable codec is MJPEG. No sound track can be muxed\n"
+"in such streams."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:253
+#, no-wrap
+msgid ""
+"No item option is available for this\n"
+"muxer."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:259 en/cmdline.xml:477
+#, no-wrap
+msgid "url="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:261
+#, no-wrap
+msgid ""
+"This option allows to give informations about the location\n"
+"where the stream should actually be saved or sent."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:264
+#, no-wrap
+msgid ""
+"Here is the meaning of the <emphasis>url</emphasis> option\n"
+"depending on the parameter used for the <emphasis>access</emphasis>\n"
+"option."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:269
+#, no-wrap
+msgid ""
+"If the <emphasis>file</emphasis> output method is used, url is\n"
+"the complete path where the file should be saved."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:272
+#, no-wrap
+msgid ""
+"If the <emphasis>udp</emphasis> or <emphasis>rtp</emphasis>\n"
+"output method is used, url is the unicast or multicast\n"
+"destination address and, optionally, UDP port, in the form\n"
+"<emphasis>address:port</emphasis>."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:277
+#, no-wrap
+msgid ""
+"If the <emphasis>http</emphasis>,\n"
+"<emphasis>https</emphasis> or <emphasis>mmsh</emphasis> output method is\n"
+"chosen, url is the address, port and path of the local network interface\n"
+"on which the server should listen for requests. If no address is given,\n"
+"VLC will listen on all the network interfaces. These information\n"
+"have to be supplied using the <emphasis>address:port/path</emphasis>\n"
+"syntax."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:289
+#, no-wrap
+msgid "sap"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:291
+#, no-wrap
+msgid ""
+"Use this option if you want VLC to send SAP (Session Announcement\n"
+"Protocol) announces. SAP is a service discovery protocol, that uses\n"
+"a special multicast address to send a list of available streams on a\n"
+"server."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><note><para>
+#: en/cmdline.xml:296
+#, no-wrap
+msgid ""
+"This option can only be enabled with the <emphasis>udp</emphasis>\n"
+"output method."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:301
+#, no-wrap
+msgid "group="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:303
+#, no-wrap
+msgid "This option allows to specify the name of an optional <emphasis>group</emphasis> of streams. A VLC used as a client will use this field to classify the stream."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><note><para>
+#: en/cmdline.xml:305
+#, no-wrap
+msgid ""
+"This option uses a private extension of the SAP protocol.\n"
+"VLC will be the only client able to read this field."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><note><para>
+#: en/cmdline.xml:308 en/cmdline.xml:318
+#, no-wrap
+msgid ""
+"This option can only be used it the <emphasis>sap</emphasis>\n"
+"option has been enabled."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:313
+#, no-wrap
+msgid "sap-ipv6"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:315
+#, no-wrap
+msgid ""
+"Use this option if you want the SAP announces to be sent using the\n"
+"<emphasis>IPv6</emphasis> protocol instead of <emphasis>IPv4</emphasis>."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:323
+#, no-wrap
+msgid "slp"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:325
+#, no-wrap
+msgid "SLP stands for <emphasis>Service Location Protocol</emphasis>. It is an alternative to SAP for session announcement. Use this option if you want to send such announces."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:329 en/cmdline.xml:463
+#, no-wrap
+msgid "name="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:331
+#, no-wrap
+msgid "Use this option to specify the name of the stream that will be sent in SAP and SLP announces."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><note><para>
+#: en/cmdline.xml:333
+#, no-wrap
+msgid ""
+"This option can only be used it the <emphasis>sap</emphasis>\n"
+"or <emphasis>slp</emphasis> option has been enabled."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/cmdline.xml:340
+#, no-wrap
+msgid "display"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/cmdline.xml:342
+#, no-wrap
+msgid ""
+" This module can be used to display the stream. This is\n"
+"particularly useful in a <emphasis>duplicate</emphasis> chain, in order\n"
+"to monitor a stream while it is being saved or streamed. "
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/cmdline.xml:346
+#, no-wrap
+msgid "available options are:"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:348
+#, no-wrap
+msgid "novideo"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:350
+#, no-wrap
+msgid "You can use this option to disable video in the displayed stream."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:354
+#, no-wrap
+msgid "noaudio"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:356
+#, no-wrap
+msgid "You can use this option to disable audio in the displayed stream."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:360
+#, no-wrap
+msgid "delay="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:362
+#, no-wrap
+msgid "You can use this option to introduce a delay in the display of the stream. Delay has to be given in ms."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/cmdline.xml:368
+#, no-wrap
+msgid "rtp"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/cmdline.xml:370
+#, no-wrap
+msgid ""
+"This module can be used to send a stream using the <emphasis>RTP\n"
+"(Real Time Protocol)</emphasis> protocol (see RFC 3550)."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><note><para>
+#: en/cmdline.xml:373
+#, no-wrap
+msgid ""
+"Although use of <emphasis>RTSP</emphasis> is possible using\n"
+"this module, it won't allow you to make Video On demand. Please have a\n"
+"look at the description of the VLM module for that."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/cmdline.xml:377
+#, no-wrap
+msgid "The different available options are:"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:379 en/cmdline.xml:586 en/cmdline.xml:914
+#, no-wrap
+msgid "dst="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:381
+#, no-wrap
+msgid ""
+"This option allow to give the destination UDP address. This can\n"
+"be the address of a host or a multicast group. This option has to be\n"
+"given, unless the <emphasis>sdp=rtsp://</emphasis>option is given (see\n"
+"below). In the latter case, the stream will be sent to the host doing the\n"
+"<emphasis>RTSP</emphasis> request."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:389
+#, no-wrap
+msgid "port="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:391
+#, no-wrap
+msgid "This option allows to set the UDP port used to send the first <emphasis>elementary stream</emphasis>. This port has to be even. Other streams will be streamed using even ports directly above this one."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:395
+#, no-wrap
+msgid "port-video="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:397
+#, no-wrap
+msgid ""
+"This option allows to set the UDP port used to send the first\n"
+"video <emphasis>elementary stream</emphasis>. This port has to be\n"
+"even."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:403
+#, no-wrap
+msgid "port-audio="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:405
+#, no-wrap
+msgid ""
+"This option allows to set the UDP port used to send the first\n"
+"audio <emphasis>elementary stream</emphasis>. This port has to be\n"
+"even."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:411
+#, no-wrap
+msgid "sdp="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:413
+#, no-wrap
+msgid "This option allows to set the way the SDP (Session Description Protocol) file corresponding the the stream should be made available."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:415
+#, no-wrap
+msgid "Options are:"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:419
+#, no-wrap
+msgid ""
+"<emphasis>file://&lt;path to the file&gt;</emphasis>, to\n"
+"export the SDP as a local file"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:422
+#, no-wrap
+msgid ""
+"<emphasis>http://&lt;local interface\n"
+"IP:port/path&gt;</emphasis>, to make the file available using the\n"
+"integrated HTTP server of VLC."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><note><para>
+#: en/cmdline.xml:426 en/cmdline.xml:434
+#, no-wrap
+msgid ""
+"The <emphasis>local interface IP</emphasis> argument\n"
+"is optional. If not given, VLC will listen on all available\n"
+"interfaces."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:430
+#, no-wrap
+msgid ""
+"<emphasis>rtsp://&lt;local interface\n"
+"IP:port/path&gt;</emphasis>, to make the SDP file available using the\n"
+"<emphasis>RTSP</emphasis> protocol (see RFC 2326)."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:438
+#, no-wrap
+msgid ""
+"<emphasis>sap</emphasis>, to export the SDP using the\n"
+"SAP (Session Announcement Protocol, see RFC 2974)."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:445
+#, no-wrap
+msgid "ttl="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:447
+#, no-wrap
+msgid ""
+"This option can be used to set the <emphasis>TTL</emphasis> (Time\n"
+"to Live) of the sent UDP packets."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:454
+#, no-wrap
+msgid ""
+"This option allows to set the encapsulation method used to\n"
+"send the stream. See <emphasis>mux=</emphasis> options of the\n"
+"<emphasis>standard</emphasis> module for a description of the available\n"
+"method. Only <emphasis>ts</emphasis> and <emphasis>raw</emphasis>\n"
+"(no encpasulation) are possible values for <emphasis>RTP</emphasis>\n"
+"streams. Default is RAW."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:465
+#, no-wrap
+msgid ""
+"This option can be used to set the name that will be displayed on\n"
+"the client receiving the stream."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:470
+#, no-wrap
+msgid "description="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:472
+#, no-wrap
+msgid ""
+"This option can be used to give an additional description of the\n"
+"stream."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:479
+#, no-wrap
+msgid ""
+"This option allows to give the address of a website with\n"
+"additional informations about the stream."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:484
+#, no-wrap
+msgid "email="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:486
+#, no-wrap
+msgid "This options allows to give a contact e-mail address"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/cmdline.xml:492
+#, no-wrap
+msgid "es"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/cmdline.xml:494
+#, no-wrap
+msgid ""
+"The <emphasis>es</emphasis> module can be used to separate the\n"
+"different <emphasis>elementary streams</emphasis> from a stream,\n"
+"and save each of them in a different file or send it to a separate\n"
+"destination."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/cmdline.xml:499
+#, no-wrap
+msgid "The available parameters are:"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:501
+#, no-wrap
+msgid "access-video="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:503
+#, no-wrap
+msgid ""
+"Use this option to set the medium used to save or send the video\n"
+"<emphasis>elementary streams</emphasis>. Possible values and item\n"
+"options are the same as for the <emphasis>access</emphasis> option of\n"
+"the <emphasis>standard</emphasis> module (see above)."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:510
+#, no-wrap
+msgid "access-audio="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:512
+#, no-wrap
+msgid ""
+"Use this option to set the medium used to save or send the audio\n"
+"<emphasis>elementary streams</emphasis>. Possible values and item\n"
+"options are the same than for the <emphasis>access</emphasis> option of\n"
+"the <emphasis>standard</emphasis> module (see above)."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:521
+#, no-wrap
+msgid ""
+"This option can be used instead of both\n"
+"<emphasis>access-video</emphasis> and <emphasis>access-audio</emphasis>\n"
+"options, when they share the same setting."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:527
+#, no-wrap
+msgid "mux-video="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:529
+#, no-wrap
+msgid ""
+"Use this option to set the encapsulation method used for the\n"
+"video <emphasis>elementary streams</emphasis>. Possible values and item\n"
+"options are the same as for the <emphasis>mux</emphasis> option of\n"
+"the <emphasis>standard</emphasis> module (see above)."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:536
+#, no-wrap
+msgid "mux-audio="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:538
+#, no-wrap
+msgid ""
+"Use this option to set the encapsulation method used for the\n"
+"audio <emphasis>elementary streams</emphasis>. Possible values and item\n"
+"options are the same than for the <emphasis>mux</emphasis> option of the\n"
+"<emphasis>standard</emphasis> module (see above)."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:547
+#, no-wrap
+msgid ""
+"This option can be used instead of both\n"
+"<emphasis>mux-video</emphasis> and <emphasis>mux-audio</emphasis>\n"
+"options, when they share the same setting."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:553
+#, no-wrap
+msgid "dst-video="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:555
+#, no-wrap
+msgid ""
+"Use this option to set the location where the video\n"
+"<emphasis>elementary streams</emphasis> should be saved, sent, or made\n"
+"available. The exact meaning of this option depends on the value of the\n"
+"<emphasis>access-video</emphasis> option and is the same as for the\n"
+"<emphasis>url</emphasis> option of the <emphasis>standard</emphasis>\n"
+"module (see above)."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><note><para>
+#: en/cmdline.xml:562 en/cmdline.xml:578
+#, no-wrap
+msgid ""
+"If you use the <emphasis>%d</emphasis> string in the url\n"
+"field, VLC will replace it by the number of the audio or video track\n"
+"considered. The <emphasis>%c</emphasis> string will be replaced by the\n"
+"name (FOURCC) of the codec of the track."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:569
+#, no-wrap
+msgid "dst-audio="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:571
+#, no-wrap
+msgid ""
+"Use this option to set the location where the audio\n"
+"<emphasis>elementary streams</emphasis> should be saved, sent, or made\n"
+"available. The exact meaning of this option depends on the value of the\n"
+"<emphasis>access-audio</emphasis> option and is the same as for the\n"
+"<emphasis>url</emphasis> option of the <emphasis>standard</emphasis>\n"
+"module (see above)."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:588
+#, no-wrap
+msgid ""
+"This option can be used instead of both\n"
+"<emphasis>dst-video</emphasis> and <emphasis>dst-audio</emphasis>\n"
+"options, when they share the same setting."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/cmdline.xml:596
+#, no-wrap
+msgid "transcode"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/cmdline.xml:598
+#, no-wrap
+msgid ""
+"You can use this module to transcode a stream, i.e. to change its\n"
+"codecs or the encoding bitrates. Some additional processing can be done\n"
+"during this process, such as re-scaling, deinterlacing, resampling,\n"
+"etc."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><note><para>
+#: en/cmdline.xml:603
+#, no-wrap
+msgid ""
+"Depending on the bitrate of the original stream and of\n"
+"the options chosen, transcoding can be a very CPU intensive task. As\n"
+"a consequence, streaming of a real time transcoded stream can lead to\n"
+"dropped frames or a jerky image and sound in some cases, when running\n"
+"out of resources."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/cmdline.xml:609 en/cmdline.xml:911
+#, no-wrap
+msgid "Available options are:"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:611
+#, no-wrap
+msgid "vcodec="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:613
+#, no-wrap
+msgid ""
+"This options allows to specify the codec the video tracks of the\n"
+"input stream should be transcoded to."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:616
+#, no-wrap
+msgid ""
+"List of available codecs can be found on the \n"
+"<ulink url=\"/streaming/features.html\">streaming features page</ulink>."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:621
+#, no-wrap
+msgid "vb="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:623
+#, no-wrap
+msgid ""
+"This option allows to set the bitrate of the transcoded video\n"
+"stream, in kbit/s"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:628
+#, no-wrap
+msgid "venc="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:630
+#, no-wrap
+msgid "This allows to set the encoder to use to encode the videos stream. Available options are:"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:633 en/cmdline.xml:801
+#, no-wrap
+msgid ""
+"<emphasis>ffmpeg</emphasis>: this is the libavcodec encoding\n"
+"module. It handles a large variety of different codecs (the list can be\n"
+"found on the <ulink url=\"/streaming/features.html\">streaming features\n"
+"page</ulink>."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:638
+#, no-wrap
+msgid ""
+"Item options are: <emphasis>keyint=&lt;number of\n"
+"frames&gt;</emphasis> allows to set the maximal amount of frames\n"
+"between 2 key frames, <emphasis>hurry-up</emphasis> allows the\n"
+"encoder to decrease the quality of the stream if the CPU can't keep\n"
+"up with the encoding rate, <emphasis>interlace</emphasis> allows\n"
+"to improve the quality of the encoding of interlaced streams,\n"
+"<emphasis>noise-reduction=&lt;noise reduction factor&gt;</emphasis>\n"
+"enables a noise reduction algorithm (will decrease required bitrate at\n"
+"the cost of details in the image), <emphasis>vt=&lt;bitrate tolerance\n"
+"in kbit/s&gt;</emphasis> allows to set a tolerance for the bitrate of\n"
+"the outputted video stream, <emphasis>bframes=&lt;amount of frames&gt;\n"
+"</emphasis> allows to set the amount of B frames between 2 key frames,\n"
+"<emphasis>qmin=&lt;quantizer&gt;</emphasis> allows to set the minimum\n"
+"quantizer scale, <emphasis>qmax=&lt;quantizer&gt;</emphasis> allows\n"
+"to set the maximum quantizer scale, <emphasis>qscale=&lt;quantizer\n"
+"scale&gt;</emphasis> allows to specify a fixed quantizer scale\n"
+"for VBR encodings, <emphasis>i-quant-factor=&lt;quantization\n"
+"factor&gt;</emphasis> allows to set the quantization factor of I\n"
+"frames, compared to P frames, <emphasis>hq=&lt;quality&gt;</emphasis>\n"
+"allows to choose the quality level for the encoding of the motion\n"
+"vectors (arguments are simple, rd or bits, default is simple\n"
+"*FIXME*), <emphasis>strict=&lt;level of compliance&gt;</emphasis>\n"
+"allows to force a stricter standard compliance (possible values are\n"
+"-1, 0 and 1, default is 0), <emphasis>strict-rc</emphasis> enables\n"
+"a strict rate control algorithm, <emphasis>rc-buffer-size=&lt;size\n"
+"of the buffer in bits&gt;</emphasis> allows to choose the size of\n"
+"the buffer used for rate control (bigger means more efficient rate\n"
+"control), <emphasis>rc-buffer-aggressivity=&lt;float representing the\n"
+"aggressiveness&gt;</emphasis> allows to set the rate control buffer\n"
+"aggressiveness *FIXME*, <emphasis>pre-me</emphasis> allows to enable pre\n"
+"motion estimation, <emphasis>mpeg4-matrix</emphasis> enable use of the\n"
+"MPEG4 quantization matrix with MPEG2 streams, improving quality while\n"
+"keeping compatibility with MPEG2 decoders, <emphasis>trellis</emphasis>\n"
+"enables trelli quantization (better quality, but slower\n"
+"processing)."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:674
+#, no-wrap
+msgid ""
+"<emphasis>theora</emphasis>: The Xiph.org theora encoder.\n"
+"The module is used to produce theora streams. Theora is a free patent\n"
+"and royalties free video codec."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:678
+#, no-wrap
+msgid ""
+"The only available item option is <emphasis>quality=&lt;quality\n"
+"level&gt;</emphasis>. This option allows to create a VBR stream,\n"
+"overriding <emphasis>vb</emphasis> setting. the quality level must be an\n"
+"integer between 1 and 10. Higher is better."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:683
+#, no-wrap
+msgid "<emphasis>x264</emphasis>. x264 is a free open-source h264 encoder. h264 (or MPEG4-AVC) is a quite recent high quality video codec."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:685
+#, no-wrap
+msgid ""
+"Item options are: <emphasis>keyint=&lt;number of\n"
+"frames&gt;</emphasis> allows to set the maximal amount of\n"
+"frames between 2 key frames, <emphasis>idrint=&lt;number of\n"
+"frames&gt;</emphasis> allows to set the maximal amount of frames\n"
+"between 2 IDR frames, <emphasis>bframes=&lt;amount of frames&gt;\n"
+"</emphasis> allows to set the amount of B frames between an I and\n"
+"a P frame, <emphasis>qp=&lt;quantizer parameter&gt;</emphasis>\n"
+"allows to specify a fixed quantizer (between 1 and 51),\n"
+"<emphasis>qp-max=&lt;quantizer parameter&gt;</emphasis> allows to set\n"
+"the maximum value for the quantizer, <emphasis>qp-min=&lt;quantizer\n"
+"parameter&gt;</emphasis> allows to set the minimum value for\n"
+"the quantizer, <emphasis>cabac</emphasis> enables the CABAC\n"
+"(Context-Adaptive Binary Arithmetic Coding) algorithm (slower,\n"
+"but enhances quality), <emphasis>loopfilter</emphasis> enables\n"
+"deblocking loop filter, <emphasis>analyse</emphasis> enables the\n"
+"analyze mode, <emphasis>frameref=&lt;amount of frames&gt;</emphasis>\n"
+"allows to set the number of previous frames used as predictors,\n"
+"<emphasis>scenecut=&lt;sensibility&lt;</emphasis> allows to control\n"
+"how aggressively the encoder should insert extra I-frame, on scene\n"
+"change."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:710
+#, no-wrap
+msgid "fps="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:712
+#, no-wrap
+msgid ""
+"This options allows to set the framerate of the transcoded\n"
+"video, in frame per second. reducing the framerate of a video can help\n"
+"decreasing its bitrate."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:718
+#, no-wrap
+msgid "deinterlace"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:720
+#, no-wrap
+msgid ""
+"This option allows to enable deinterlacing of interlaced video\n"
+"streams before encoding."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:725
+#, no-wrap
+msgid "croptop="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:727
+#, no-wrap
+msgid ""
+"This option allows to crop the upper part of the source video while\n"
+"transcoding. The argument is the number of lines the video should be\n"
+"cropped."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:733
+#, no-wrap
+msgid "cropbottom="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:735
+#, no-wrap
+msgid ""
+"This option allows to crop the lower part of the source video. The\n"
+"argument is the Y coordinate of the first line to be cropped."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:740
+#, no-wrap
+msgid "cropleft"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:742
+#, no-wrap
+msgid ""
+"This option allows to crop the left part of the source video while\n"
+"transcoding. The argument is the number of columns the video should be\n"
+"cropped."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:748
+#, no-wrap
+msgid "cropright="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:750
+#, no-wrap
+msgid ""
+"This option allows to crop the right part of the source video. The\n"
+"argument is the X coordinate of the first column to be cropped."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:755
+#, no-wrap
+msgid "scale="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:757
+#, no-wrap
+msgid ""
+"This option allows the give the ratio from which the video should\n"
+"be rescaled while being transcoded. This option can be particularly\n"
+"useful to help reduce the bitrate of a stream."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:763
+#, no-wrap
+msgid "width="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:765
+#, no-wrap
+msgid ""
+"This options allows to give the width of the transcoded video in\n"
+"pixels."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:770
+#, no-wrap
+msgid "height"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:772
+#, no-wrap
+msgid ""
+"This options allows to give the height of the transcoded video,\n"
+"in pixels."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:777
+#, no-wrap
+msgid "acodec="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:779
+#, no-wrap
+msgid ""
+"This options allows to specify the codec the audio tracks of the\n"
+"input stream should be transcoded to."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:782 en/cmdline.xml:850
+#, no-wrap
+msgid ""
+"List of available codecs can be found on the\n"
+"<ulink url=\"/streaming/features.html\">streaming features page</ulink>."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:787
+#, no-wrap
+msgid "ab="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:789
+#, no-wrap
+msgid ""
+"This option allows to set the bitrate of the transcoded audio\n"
+"stream, in kbit/s"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:794
+#, no-wrap
+msgid "aenc="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:796
+#, no-wrap
+msgid ""
+"This allows to set the encoder to use to encode the audio stream.\n"
+"Available options are:"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:806
+#, no-wrap
+msgid ""
+"<emphasis>vorbis</emphasis>. This module uses the vorbis\n"
+"encoder from the Xiph.org project. Vorbis is a free, open, license-free\n"
+"lossy audio codec."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:810
+#, no-wrap
+msgid ""
+"Item options are: <emphasis>quality=&lt;quality\n"
+"level&gt;</emphasis> allows to use VBR (variable bitrate)\n"
+"encoding instead of the default CBR (constant bitrate), and\n"
+"to set the quality level (between 1 and 10, higher is better),\n"
+"<emphasis>max-bitrate=&lt;bitrate in kbit/s&gt;</emphasis> allows to set\n"
+"the maximum bitrate, for vbr encoding, <emphasis>min-bitrate=&lt;bitrate\n"
+"in kbit/s&gt;</emphasis> allows to set the minimum bitrate,\n"
+"for vbr encoding, <emphasis>cbr</emphasis> allows to force cbr\n"
+"encoding."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:820
+#, no-wrap
+msgid ""
+"<emphasis>speex</emphasis>. This module uses the speex\n"
+"encoder from the Xiph.org project. Speex is a lossy audio codec, best\n"
+"fit for very low bitrates (around 10 kbit/s) and particularly video\n"
+"conference."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:829
+#, no-wrap
+msgid "samplerate="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:831
+#, no-wrap
+msgid ""
+"This option allows to set the samplerate of the transcoded audio\n"
+"stream, in Hz. Reducing the samplerate is be a way to lower the bitrate\n"
+"of the resulting audio stream."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:837
+#, no-wrap
+msgid "channels="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:839
+#, no-wrap
+msgid ""
+"This option allows to set the number of channels of the resulting\n"
+"audio stream. This is useful for codecs that don't have support for more\n"
+"than 2 channels, of to lower the bitrate of an audio stream."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:845
+#, no-wrap
+msgid "scodec="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:847
+#, no-wrap
+msgid ""
+"This options allows to specify subtitle format the subtitles\n"
+"tracks of the input stream should be converted to."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:855
+#, no-wrap
+msgid "senc="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:857
+#, no-wrap
+msgid ""
+"This allows to set the converter to use to encode the subtitle\n"
+"stream."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:860
+#, no-wrap
+msgid ""
+"The only subtitle encoder we have at this time is\n"
+"<emphasis>dvbsub</emphasis>."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:865
+#, no-wrap
+msgid "soverlay"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:867
+#, no-wrap
+msgid ""
+"This option allow to render subtitles directly on the video,\n"
+"while transcoding it. Do not confuse this option with senc/scodec that\n"
+"transcode the subtitles and streams them"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:873
+#, no-wrap
+msgid "sfilter="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:875
+#, no-wrap
+msgid ""
+"This option allows to render some images generated by a so called\n"
+"<emphasis>subpicture filter</emphasis> (e.g. a logo, a text string,\n"
+"etc) on top of the video."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:879
+#, no-wrap
+msgid ""
+"List of available <emphasis>subpicture filters</emphasis> can be\n"
+"found on the <ulink url=\"http://www.videolan.org/streaming/features.html\">streaming features\n"
+"page</ulink>. The Item options of this modules can be found using the following command line:"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><screen>
+#: en/cmdline.xml:883
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -p --advanced &lt;module name&gt;</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:889
+#, no-wrap
+msgid "threads="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:891
+#, no-wrap
+msgid ""
+"This options allows to set the amount of threads that should\n"
+"be used to encode the streams. Increasing this number to the amount\n"
+"of processors on the computer, (or twice this number on Intel P4 HT\n"
+"processors) should improve transcoding performance."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:898
+#, no-wrap
+msgid "audio-sync"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:900
+#, no-wrap
+msgid "When this option is enabled, VLC will drop/duplicate video frames to synchronize the video track on the audio track."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/cmdline.xml:906
+#, no-wrap
+msgid "duplicate"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/cmdline.xml:908
+#, no-wrap
+msgid ""
+"This module can be used to duplicate the stream, and so process it\n"
+"through several different chains."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:916
+#, no-wrap
+msgid "This options allows to give the chain through which the duplicated stream should be processed."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><note><para>
+#: en/cmdline.xml:918
+#, no-wrap
+msgid "Several <emphasis>dst=</emphasis> options have to be used in the same duplicate block to actually duplicate the stream."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><note><para>
+#: en/cmdline.xml:919
+#, no-wrap
+msgid "Any of the stream output module described earlier can be used as parameter of this option."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:923
+#, no-wrap
+msgid "select="
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:925
+#, no-wrap
+msgid ""
+"This options can be used to duplicate only a part\n"
+"<emphasis>elementary streams</emphasis> of a complete stream."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:928
+#, no-wrap
+msgid ""
+"Several criteria can be given, by separating each of them with a\n"
+"comma."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:931
+#, no-wrap
+msgid ""
+"For criteria that need a parameter, such as\n"
+"<emphasis>es</emphasis> and <emphasis>program</emphasis>,\n"
+"you can also specify a range, using the syntax\n"
+"<emphasis>criteria=num_start-num_end</emphasis>."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:936
+#, no-wrap
+msgid "Available parameters are:"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:940
+#, no-wrap
+msgid ""
+"<emphasis>program=</emphasis>: duplicate only\n"
+"<emphasis>elementary streams</emphasis> belonging to the\n"
+"selected program (or SID). This option only works with MPEG2/TS\n"
+"streams."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:945
+#, no-wrap
+msgid ""
+"<emphasis>noprogram=</emphasis>: do not duplicate\n"
+"<emphasis>elementary streams</emphasis> belonging to the\n"
+"selected program (or PID). This option only works with MPEG2/TS\n"
+"streams."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:950
+#, no-wrap
+msgid ""
+"<emphasis>es=</emphasis>: duplicate only the\n"
+"<emphasis>elementary stream</emphasis> with the selected\n"
+"id."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:954
+#, no-wrap
+msgid ""
+"<emphasis>noes=</emphasis>: do not duplicate\n"
+"the <emphasis>elementary stream</emphasis> with the selected\n"
+"id."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:958
+#, no-wrap
+msgid ""
+"<emphasis>video</emphasis>: duplicate only video\n"
+"<emphasis>elementary streams</emphasis>."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:961
+#, no-wrap
+msgid ""
+"<emphasis>novideo</emphasis>: do not duplicate video\n"
+"<emphasis>elementary streams</emphasis>."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:964
+#, no-wrap
+msgid ""
+"<emphasis>audio</emphasis>: duplicate only audio\n"
+"<emphasis>elementary streams</emphasis>."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:967
+#, no-wrap
+msgid ""
+"<emphasis>noaudio</emphasis>: do not duplicate audio\n"
+"<emphasis>elementary streams</emphasis>."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:970
+#, no-wrap
+msgid ""
+"<emphasis>spu</emphasis>: duplicate only subtitle\n"
+"<emphasis>elementary streams</emphasis>."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/cmdline.xml:973
+#, no-wrap
+msgid ""
+"<emphasis>nospu</emphasis>: do not duplicate subtitle\n"
+"<emphasis>elementary streams</emphasis>."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:978
+#, no-wrap
+msgid "Example:"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><screen>
+#: en/cmdline.xml:979
+#, no-wrap
+msgid "#duplicate{dst=std{...},select=\"program=100-200,novideo\"}"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:981
+#, no-wrap
+msgid ""
+"This <emphasis>duplicate</emphasis> chain will only output the non\n"
+"video <emphasis>elementary streams</emphasis> belonging to the programs\n"
+"which PID are between 100 and 200."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/cmdline.xml:989
+#, no-wrap
+msgid ""
+"\n"
+"Miscellaneous\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/cmdline.xml:993
+#, no-wrap
+msgid ""
+"\n"
+"Here are a few additional global options:\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:997
+#, no-wrap
+msgid "--sout-all, --no-sout-all"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:999
+#, no-wrap
+msgid ""
+"Enable streaming of all ES (default disabled). By default VLC will\n"
+"only stream one audio ES and one video ES (the first ones). If you\n"
+"enable sout-all, all ES (audio, video and SPU) will be streamed."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:1005
+#, no-wrap
+msgid "--sout-keep, --no-sout-keep"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:1007
+#, no-wrap
+msgid ""
+"Keep sout open (default disabled) : use the same sout instance\n"
+"across the various playlist items, if possible."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:1012
+#, no-wrap
+msgid "--no-sout-audio"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:1013
+#, no-wrap
+msgid "This options allows to disable audio in the outputted stream.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:1018
+#, no-wrap
+msgid "--no-sout-video"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/cmdline.xml:1019
+#, no-wrap
+msgid "This options allows to disable video in the outputted stream.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/cmdline.xml:1026
+#, no-wrap
+msgid "Simplified Syntax"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/cmdline.xml:1028
+#, no-wrap
+msgid ""
+"\n"
+"The stream output also offers a simplified syntax,\n"
+"with which you can only you use the <emphasis>standard</emphasis> module\n"
+"main options:\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><screen>
+#: en/cmdline.xml:1034
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc input_stream --sout access/mux:url</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/cmdline.xml:1038
+#, no-wrap
+msgid ""
+"\n"
+" where <emphasis>access</emphasis>,\n"
+"<emphasis>mux</emphasis> and <emphasis>url</emphasis> are as defined in\n"
+"the options of the standard module.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><title>
+#: en/cmdline.xml:1048
+#, no-wrap
+msgid ""
+"\n"
+"Examples\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/cmdline.xml:1052
+#, no-wrap
+msgid ""
+"\n"
+"To understand fully the complex syntax of VLC's\n"
+"stream output, please look at the examples in the next section.\n"
+msgstr ""
+
+# type: Content of: <chapter><title>
+#: en/intro.xml:2
+#, no-wrap
+msgid ""
+"\n"
+"Streaming, Muxers and Codecs"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/intro.xml:12
+#, no-wrap
+msgid "Overview"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/intro.xml:13
+#, no-wrap
+msgid "VideoLAN is a complete software solution for video streaming, developed by students of the <ulink url=\"http://www.ecp.fr\">Ecole Centrale Paris</ulink> and developers from all over the world, under the <ulink url=\"http://www.gnu.org/copyleft/gpl.html\">GNU General Public License</ulink> (GPL). VideoLAN is designed to stream MPEG videos on high bandwidth networks."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/intro.xml:14
+#, no-wrap
+msgid "The VideoLAN solution includes:"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
+#: en/intro.xml:16
+#, no-wrap
+msgid "VLS (VideoLAN Server), which can stream MPEG-1, MPEG-2 and MPEG-4 files, DVDs, digital satellite channels, digital terrestial television channels and live videos on the network in unicast or multicast"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
+#: en/intro.xml:17
+#, no-wrap
+msgid "VLC (initially VideoLAN Client), which can be used as a server to stream MPEG-1, MPEG-2 and MPEG-4 files, DVDs and live videos on the network in unicast or multicast ; or used as a client to receive, decode and display MPEG streams under multiple operating systems"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/intro.xml:19
+#, no-wrap
+msgid "Here is an illustration of the complete VideoLAN solution:"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
+#: en/intro.xml:24 en/intro.xml:25
+#, no-wrap
+msgid "Global VideoLAN solution"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/intro.xml:27
+#, no-wrap
+msgid "More details about the project can be found on the <ulink url=\"http://www.videolan.org\">VideoLAN Web site</ulink>."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/intro.xml:30
+#, no-wrap
+msgid "VideoLAN software"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/intro.xml:31
+#, no-wrap
+msgid "VLC Media Player"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/intro.xml:32
+#, no-wrap
+msgid "VLC works on many platforms: Linux, Windows, Mac OS X, BeOS, *BSD, Solaris, Familiar Linux, Yopy/Linupy and QNX. It can read:"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/intro.xml:34
+#, no-wrap
+msgid "MPEG-1, MPEG-2 and MPEG-4 / DivX files from a hard disk, a CD-ROM drive, ..."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/intro.xml:35
+#, no-wrap
+msgid "DVDs and VCDs"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/intro.xml:36
+#, no-wrap
+msgid "from a satellite card (DVB-S)"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/intro.xml:37
+#, no-wrap
+msgid "MPEG-1, MPEG-2 and MPEG-4 streams from the network sent by VLS or VLC's stream output"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/intro.xml:39
+#, no-wrap
+msgid "VLC can also be used as a server to stream:"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/intro.xml:41
+#, no-wrap
+msgid "MPEG-1, MPEG-2 and MPEG-4 / DivX files,"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/intro.xml:42
+#, no-wrap
+msgid "DVDs,"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/intro.xml:43
+#, no-wrap
+msgid "from an MPEG encoding card,"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/intro.xml:45
+#, no-wrap
+msgid "to:"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/intro.xml:47
+#, no-wrap
+msgid "one machine (i.e. to one IP address): this is called <emphasis>unicast</emphasis>,"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/intro.xml:48
+#, no-wrap
+msgid "a dynamic group of machines that the clients can join or leave (i.e. to a multicast IP address): this is called <emphasis>multicast</emphasis>,"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/intro.xml:50
+#, no-wrap
+msgid "in IPv4 or IPv6."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/intro.xml:51
+#, no-wrap
+msgid "To get the complete list of VLC's possibilities on each plateform supported, see the <ulink url=\"http://www.videolan.org/vlc/features.html\">VLC features page</ulink>."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><note><para>
+#: en/intro.xml:52
+#, no-wrap
+msgid "VLC doesn't work on Mac OS 9, and will probably never do."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/intro.xml:54
+#, no-wrap
+msgid "Mini-SAP-server"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/intro.xml:55
+#, no-wrap
+msgid "You can add a channel information service based on the SAP/SDP standard to the VideoLAN solution. The mini-SAP-server sends announces about the multicast programs on the network in IPv4 or IPv6, and VLCs receive these annouces and automatically add the programs announced to their playlist."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/intro.xml:56
+#, no-wrap
+msgid "The mini-SAP-server works under Linux and Mac OS X."
+msgstr ""
+
+# type: Content of: <chapter><sect1><title>
+#: en/intro.xml:61
+#, no-wrap
+msgid "Muxers and codecs"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/intro.xml:62
+#, no-wrap
+msgid "What is a codec ?"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/intro.xml:63
+#, no-wrap
+msgid "To fully understand the VideoLAN solution, you must understand the difference between a <emphasis>codec</emphasis> and a <emphasis>container format</emphasis>"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/intro.xml:64
+#, no-wrap
+msgid "A <emphasis>codec</emphasis> is a compression algorithm, used to reduce the size of a stream. There are audio codecs and video codecs. MPEG-1, MPEG-2, MPEG-4, Vorbis, DivX, ... are codecs"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/intro.xml:66
+#, no-wrap
+msgid "What is a container format ?"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/intro.xml:67
+#, no-wrap
+msgid "To start off, think of a <emphasis>container format</emphasis> as a standard shipping box. You get a box in the mail and you think, \"Cool! What's inside.\" You don't really care about the box itself, you care about what's in that box. The poblem? You can't see into the box. So what do you do? You get a knife and cut it open."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/intro.xml:68
+#, no-wrap
+msgid "A <emphasis>container format</emphasis> follows this same basic idea. It contains one or several streams already encoded by codecs. Very often, there is an audio stream and a video one. AVI, Ogg, MOV, ASF, MP4 ... are container formats. The streams contained can be encoded using different codecs. In a perfect world, you could put any codec in any container format. Unfortunately, there are some incompatibilities. You can find a matrix of possible codecs and container formats on the <ulink url=\"http://www.videolan.org/streaming/features.html\">features page</ulink>"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/intro.xml:70
+#, no-wrap
+msgid "Encoding a video"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/intro.xml:71
+#, no-wrap
+msgid "This is the first step where you are going to create the shipping box."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/intro.xml:72
+#, no-wrap
+msgid "First you need to encode your file. That means that a file, wheter it is an audio, video file, is compressed to another format that normally takes up less physical drive space than the previous format. Common video encoding methods are DivX, MPEG-1, MPEG-2, MPEG-4 ... most common audio encoding method is MP3 or ogg-vorbis."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/intro.xml:73
+#, no-wrap
+msgid "Then you have to mux (or multiplex). This means basically a process where separate parts of the video (or streams) are joined together into one file."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/intro.xml:75
+#, no-wrap
+msgid "Playing a video"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/intro.xml:76
+#, no-wrap
+msgid "Now that you have your box, you need to open it before to see the content. That's exactly what VLC will do. To decode a stream, VLC first <emphasis>demuxes</emphasis> it. This means that it reads the container format and separates audio, video, and subtitles, if any. Demuxing files doesn't weaken the video nor audio quality, it doesn't do anything for these data streams, it justs simply saves them into separate files, each containing one element of the original file. Then, each of these are passed <emphasis>decoders</emphasis> that do the mathematical processing to decompress the streams."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/intro.xml:77
+#, no-wrap
+msgid "There is a particular thing about MPEG:"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
+#: en/intro.xml:79
+#, no-wrap
+msgid "MPEG is a codec. There are several versions of it, called MPEG-1, MPEG-2, MPEG-4, ..."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
+#: en/intro.xml:80
+#, no-wrap
+msgid "MPEG is also a container format, sometimes refered to as MPEG System. There are several types of MPEG: ES, PS, and TS."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
+#: en/intro.xml:81
+#, no-wrap
+msgid "When you play an MPEG video from a DVD, for instance, the MPEG stream is actually composed of several streams (called Elementary Streams, ES): there is one stream for video, one for audio, another for subtitles, and so on. These different streams are mixed together into a single Program Stream (PS). So, the .VOB files you can find in a DVD are actually MPEG-PS files. But this PS format is not adapted for streaming video through a network or by satellite, for instance. So, another format called Transport Stream (TS) was designed for streaming MPEG videos through such channels."
+msgstr ""
+
+# type: Content of: <chapter><title>
+#: en/encoding-cards.xml:2
+#, no-wrap
+msgid ""
+"\n"
+"Stream from encoding cards and other capture peripherals\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><title>
+#: en/encoding-cards.xml:8
+#, no-wrap
+msgid "Hardware encoding cards"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/encoding-cards.xml:12
+#, no-wrap
+msgid ""
+"\n"
+"VideoLAN supports two kinds of MPEG-2 encoding cards:\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:18
+#, no-wrap
+msgid ""
+"\n"
+"\n"
+"Hauppauge WinTV-PVR-250 and WinTV-PVR-350,\n"
+"\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:24
+#, no-wrap
+msgid "Visiontech Kfir."
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/encoding-cards.xml:28
+#, no-wrap
+msgid ""
+"\n"
+"The Hauppauge WinTV-PVR-250/350 gives much better\n"
+"results and is cheaper than the Visiontech Kfir.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/encoding-cards.xml:33
+#, no-wrap
+msgid ""
+"\n"
+"Stream with the Hauppauge WinTV-PVR-250/350 card\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/encoding-cards.xml:37 en/encoding-cards.xml:148
+#, no-wrap
+msgid ""
+"\n"
+"Install the drivers\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/encoding-cards.xml:41
+#, no-wrap
+msgid ""
+"\n"
+"First, you will have to patch your kernel (version 2.4) to support\n"
+"the v4l2 API (Video 4 Linux version 2). The patch is available on the\n"
+"<ulink url=\"http://bytesex.org/v4l/\">Video4Linux HQ</ulink>.\n"
+"If you use a 2.6 kernel, you only need to build I2C support and the BT848 Video For Linux module.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/encoding-cards.xml:48
+#, no-wrap
+msgid ""
+"\n"
+"Once your kernel is ready, install the CK version (currently in development) of the Linux drivers for the Hauppauge WinTV-PVR-250/350. They are hosted on\n"
+"<ulink url=\"http://67.18.1.101/~ckennedy/ivtv\">ivtv ck</ulink>. You will need to patch your kernel to use it with a 2.4. You can also use the CVS version available here: <ulink url=\"http://ivtv.sourceforge.net/\">ivtv.sourceforge.net</ulink> (this version is not developped anymore).\n"
+"Then, you will have to create the device and load the modules; for this,\n"
+"please refer to the documentation shipped with the drivers.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><note><para>
+#: en/encoding-cards.xml:61
+#, no-wrap
+msgid ""
+"\n"
+"You must add <command>--enable-pvr</command>\n"
+"to <command>./configure</command> to use this\n"
+"feature.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><screen>
+#: en/encoding-cards.xml:67
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -vvv --color pvr:/dev/video0:norm=secam:size=720x576:frequency=576250:\n"
+"bitrate=3000000:maxbitrate=4000000 --sout udp:192.168.0.42 --ttl 12 --cr-average 1000</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/encoding-cards.xml:72
+#, no-wrap
+msgid ""
+"\n"
+"where\n"
+"\n"
+" \n"
+":\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:81
+#, no-wrap
+msgid ""
+"<emphasis>/dev/video0</emphasis> \n"
+"is the device corresponding to the encoding card\n"
+","
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:85
+#, no-wrap
+msgid ""
+"<emphasis>norm=secam</emphasis>\n"
+" is name of the standard of the analogic signal\n"
+"(possible values are pal, secam, and ntsc)\n"
+","
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:90
+#, no-wrap
+msgid ""
+"<emphasis>size=720x576</emphasis>\n"
+"is the size of the video you want to stream\n"
+","
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:94
+#, no-wrap
+msgid ""
+"<emphasis>frequency=567250</emphasis>\n"
+" is the frequency in kHz of the channel you want to\n"
+"stream\n"
+","
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:99
+#, no-wrap
+msgid ""
+"<emphasis>bitrate=3000000</emphasis> \n"
+"is the average bitrate of the stream\n"
+","
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:103
+#, no-wrap
+msgid ""
+"<emphasis>maxbitrate=4000000</emphasis>\n"
+"is the maximum bitrate of the stream\n"
+","
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:107 en/encoding-cards.xml:189
+#, no-wrap
+msgid ""
+"<emphasis>192.168.0.42</emphasis>\n"
+" is either :\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:112 en/encoding-cards.xml:194
+#, no-wrap
+msgid ""
+"\n"
+"the IP address of the machine you want to unicast\n"
+"to\n"
+";"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:117 en/encoding-cards.xml:199
+#, no-wrap
+msgid ""
+"\n"
+"or the DNS name the machine you want to unicast\n"
+"to\n"
+";"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:136
+#, no-wrap
+msgid ""
+"<emphasis>1000</emphasis>\n"
+" is a secret value to work around a bug of the card.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/encoding-cards.xml:144
+#, no-wrap
+msgid ""
+"\n"
+"Stream with the Visiontech Kfir card\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/encoding-cards.xml:152
+#, no-wrap
+msgid ""
+"\n"
+"If you want to be able to stream from a\n"
+"Visiontech Kfir card, you need to install its Linux drivers.\n"
+"Download the latest release of the drivers from the <ulink url=\"http://www.linuxtv.org/download/mpeg2/\">drivers download\n"
+"page</ulink> of the <ulink url=\"http://www.linuxtv.org/\">LinuxTV web\n"
+"site</ulink>.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><note><para>
+#: en/encoding-cards.xml:164
+#, no-wrap
+msgid ""
+"\n"
+"If you have a VIA chipset, you need to disable USB\n"
+"in the BIOS.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/encoding-cards.xml:171
+#, no-wrap
+msgid ""
+"\n"
+"\n"
+"Stream\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><screen>
+#: en/encoding-cards.xml:176
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -vvv --color kfir:/dev/video --sout udp:192.168.0.42 --ttl 12</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/encoding-cards.xml:180
+#, no-wrap
+msgid ""
+"where\n"
+" :"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><filename>
+#: en/encoding-cards.xml:185 en/encoding-cards.xml:275
+#, no-wrap
+msgid "/dev/video"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:185
+#, no-wrap
+msgid ""
+"\n"
+"is the device corresponding to the Kfir card\n"
+","
+msgstr ""
+
+# type: Content of: <chapter><sect1><title>
+#: en/encoding-cards.xml:226
+#, no-wrap
+msgid "Software encoding cards"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/encoding-cards.xml:228
+#, no-wrap
+msgid "Under GNU/Linux"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/encoding-cards.xml:230
+#, no-wrap
+msgid ""
+"\n"
+"Install the Video for Linux drivers\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/encoding-cards.xml:234
+#, no-wrap
+msgid ""
+"\n"
+"If you want to stream from an acquisition card\n"
+"or a webcam, a video4linux driver must be available for it. You can\n"
+"find more information about video4linux and supported devices <ulink url=\"http://www.exploits.org/v4l\">here</ulink>.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/encoding-cards.xml:240
+#, no-wrap
+msgid ""
+"\n"
+"Compile the right module for your device, and insert\n"
+"it into your kernel. Some video4linux modules are shipped with the 2.4.x \n"
+"and 2.6.x Linux kernels, the patch is available on the \n"
+"<ulink url=\"http://bytesex.org/v4l\">Video4Linux HQ</ulink>."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3>
+#: en/encoding-cards.xml:244
+#, no-wrap
+msgid ""
+" \n"
+"\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/encoding-cards.xml:246
+#, no-wrap
+msgid ""
+"You can test your device by using any of the listed\n"
+"programs in the <emphasis>Video: TV and PVR/DVR</emphasis> section of\n"
+"<ulink url=\"http://www.exploits.org/v4l/\">this page</ulink>.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/encoding-cards.xml:251
+#, no-wrap
+msgid ""
+"\n"
+"Note that v4l2 modules will also work with VLC.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><note><para>
+#: en/encoding-cards.xml:261
+#, no-wrap
+msgid ""
+"\n"
+"You must add <command>--enable-v4l</command> to\n"
+"<command>./configure</command> to use this feature.\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><screen>
+#: en/encoding-cards.xml:267
+#, no-wrap
+msgid ""
+"\n"
+"<prompt>% </prompt><userinput>vlc -vvv --color v4l:/dev/video:norm=secam:frequency=543250:size=640x480:channel=0:adev=/dev/dsp:audio=0\n"
+"--sout '#transcode{vcodec=mp4v,acodec=mpga,vb=3000,ab=256,vt=800000,keyint=80,deinterlace}:std{access=udp,mux=ts,url=239.255.12.13}' --ttl 12</userinput>\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/encoding-cards.xml:272
+#, no-wrap
+msgid "where:\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:275
+#, no-wrap
+msgid ""
+"\n"
+" is the device corresponding to your acquisition\n"
+"card or your webcam,\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:280
+#, no-wrap
+msgid ""
+"<emphasis>norm=secam</emphasis>\n"
+" is name of the standard of the analogic signal\n"
+"(possible values are pal, secam, and ntsc),\n"
+"\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:286
+#, no-wrap
+msgid ""
+"<emphasis>frequency=543250</emphasis>\n"
+" is the frequency of the channel in kHz\n"
+"(<emphasis>Warning :</emphasis> for VLC &lt; 0.6.1, Frequency is channel\n"
+"frequency in MHz multiplied by 16),\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:292
+#, no-wrap
+msgid ""
+"\n"
+"<emphasis>size=640x480</emphasis>\n"
+"is the size of the video you want (you can also put the\n"
+"standard size like <emphasis>subqcif</emphasis> (128x96),\n"
+"<emphasis>qsif</emphasis> (160x120), <emphasis>qcif</emphasis>\n"
+"(176x144), <emphasis>sif</emphasis> (320x240), <emphasis>cif</emphasis>\n"
+"(352x288) or <emphasis>vga</emphasis> (640x480)),\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:301
+#, no-wrap
+msgid ""
+"<emphasis>channel=0</emphasis> \n"
+"is the number of the channel (usually 0 is for\n"
+"tuner, 1 for composite and 2 for svideo),\n"
+"\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:307
+#, no-wrap
+msgid ""
+"<emphasis>adev=/dev/dsp</emphasis>\n"
+"is the audio device,\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:311
+#, no-wrap
+msgid ""
+"<emphasis>audio=1</emphasis> \n"
+"is the number of the audio\n"
+"channel (usually 0 is for mono and 1 for stereo),\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:316
+#, no-wrap
+msgid ""
+"<emphasis>vcodec=mp4v</emphasis> \n"
+"is the video format you want to encode in\n"
+"(<emphasis>mp4v</emphasis> is MPEG-4, <emphasis>mpgv</emphasis> is\n"
+"MPEG-1, and there is also\n"
+"<emphasis>h263</emphasis>, <emphasis>DIV1</emphasis>,\n"
+"<emphasis>DIV2</emphasis>, <emphasis>DIV3</emphasis>,\n"
+"<emphasis>I420</emphasis>, <emphasis>I422</emphasis>,\n"
+"<emphasis>I444</emphasis>, <emphasis>RV24</emphasis>,\n"
+"<emphasis>YUY2</emphasis>),"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:326
+#, no-wrap
+msgid ""
+"<emphasis>acodec=mpga</emphasis> \n"
+"is the audio format you want to encode\n"
+"in (<emphasis>mpga</emphasis> is MPEG audio layer 2,\n"
+"<emphasis>a52</emphasis> is A52 i.e. AC3 sound),\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:332
+#, no-wrap
+msgid ""
+"<emphasis>vb=3000</emphasis>\n"
+" is the video bitrate in Kbit/s\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:336
+#, no-wrap
+msgid ""
+"<emphasis>ab=256</emphasis>\n"
+" is the audio bitrate in Kbit/s\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:340
+#, no-wrap
+msgid ""
+"<emphasis>vt=800000</emphasis>\n"
+" is the video bitrate tolerance in bit/s,\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:344
+#, no-wrap
+msgid ""
+"<emphasis>keyint=80</emphasis>\n"
+" is the maximum interval between two \"I\" images in\n"
+"number of images,\n"
+"\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:350
+#, no-wrap
+msgid ""
+"<emphasis>deinterlace</emphasis>\n"
+"tells VLC to deinterlace the video on the fly,\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:371 en/encoding-cards.xml:425
+#, no-wrap
+msgid ""
+"\n"
+"or a multicast IP address."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:378
+#, no-wrap
+msgid ""
+"<emphasis>12</emphasis>\n"
+" is the value of the TTL (Time To\n"
+"Live) of your IP packets (which means that the stream will be\n"
+"able to cross 11 routers)."
+msgstr ""
+
+# type: Content of: <chapter><sect1><title>
+#: en/encoding-cards.xml:390
+#, no-wrap
+msgid "Stream with DirectShow"
+msgstr ""
+
+# type: Content of: <chapter><sect1><note><para>
+#: en/encoding-cards.xml:391
+#, no-wrap
+msgid "This is only possible under Windows"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/encoding-cards.xml:392
+#, no-wrap
+msgid "Install your peripheral drivers"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/encoding-cards.xml:393
+#, no-wrap
+msgid "You need to install your peripherals under Windows with the appropriate drivers. Nothing else is necessary."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/encoding-cards.xml:395
+#, no-wrap
+msgid "Stream with VLC in command line"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para><screen>
+#: en/encoding-cards.xml:396
+#, no-wrap
+msgid "<prompt>% </prompt><userinput>C:\\Program Files\\VideoLAN\\VLC\\vlc.exe -vvv -I rc --ttl 12 dshow:// vdev=\"VGA USB Camera\" adev=\"USB Camera\" size=\"640x480\" --sout=#std{mux=ts,access=udp,url=239.255.42.12}</userinput>"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><note><para>
+#: en/encoding-cards.xml:398
+#, no-wrap
+msgid "You need to precise the complete path to find vlc program or to launch the command from the correct directory."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:401
+#, no-wrap
+msgid "<emphasis>vvv</emphasis> is to activate the verbose mode"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:402
+#, no-wrap
+msgid "<emphasis>rc</emphasis> is to activate the remote control interface (MS/DOS console)"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:403
+#, no-wrap
+msgid "<emphasis>12</emphasis> is the value of the TTL (Time To Live) of your IP packets (which means that the stream will be able to cross 11 routers),\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:405
+#, no-wrap
+msgid "<emphasis>vdev=\"VGA USB Camera\"</emphasis> is the name of the video peripheral that DirectShow will use (this is only an exemple),\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:407
+#, no-wrap
+msgid "<emphasis>adev=\"USB Camera\"</emphasis> is the name of the audio peripheral,\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:409
+#, no-wrap
+msgid ""
+"<emphasis>size=\"640x480\"</emphasis> is the resolution (you can also put the standard size like <emphasis>subqcif</emphasis> (128x96),\n"
+"<emphasis>qsif</emphasis> (160x120), <emphasis>qcif</emphasis>\n"
+"(176x144), <emphasis>sif</emphasis> (320x240), <emphasis>cif</emphasis>\n"
+"(352x288) or <emphasis>vga</emphasis> (640x480)).\n"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:415
+#, no-wrap
+msgid ""
+"<emphasis>239.255.42.12</emphasis>\n"
+" is either:\n"
+msgstr ""

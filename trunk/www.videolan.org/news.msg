@@ -4,6 +4,10 @@
 # Et pour les nouvelles importantes, c'est pas un | , c'est un §
 #
 
+|6 June 2003| Release: VLS 0.5.3 | This release fixes a bug in the
+command line parsing, adds DVD title and chapter selection with the
+configuration file and features a new Windows installer.
+
 |29 May 2003| Hauppauge WinTV-PVR-250 supported | We have managed to
 stream from a Hauppauge WinTV-PVR-250 (an MPEG-2 encoding card) under
 Linux ! It gives much better results than the Visiontech Kfir card. The

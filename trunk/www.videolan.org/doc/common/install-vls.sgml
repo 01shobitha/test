@@ -2,7 +2,8 @@
 
 <para>Download the ZIP file from the <ulink
 url="http://www.videolan.org/streaming/download-vls-windows.html">VLS
-Windows download page</ulink> and unzip-it.</para>
+Windows download page</ulink>, unzip-it and run
+<filename>setup.exe</filename>.</para>
 
 
 <sect2><title>Under Linux and Mac OS X</title>

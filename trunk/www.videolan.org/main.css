@@ -2,7 +2,7 @@
  * Stolen from the Gnumeric website by Sam :-)
  * Hardly modified by karibu :(
  *
- * $Id: main.css,v 1.83 2003/07/04 23:26:55 alexis Exp $ */
+ * $Id: main.css,v 1.84 2003/07/06 02:14:36 alexis Exp $ */
 
 body {
 /*  font-family: sans-serif, Helvetica, Arial; */
@@ -159,8 +159,12 @@ th.os {
 /*  background-color: #eaa; */
   vertical-align: middle;
 }
-
-
+td.matrixhead {
+  color: black;
+  background-image: none;
+  background-color: #ccf;
+  text-align: center;
+}
 /***********
 *  Titles  *
 ***********/

@@ -1,5 +1,4 @@
-<para>VLS can stream MPEG-1 or MPEG-2 files that meet two
-critera:</para>
+<para>VLS can stream MPEG files that meet two critera:</para>
 
 <itemizedlist>
 
@@ -11,7 +10,7 @@ or video.</para>
 
 <para>In order to know if an MPEG file is MPEG <emphasis>PS</emphasis>,
 MPEG <emphasis>TS</emphasis> or MPEG <emphasis>ES</emphasis>, read the
-file with vlc and look at the messages (select in the menu
+file with VLC and look at the messages (select in the menu
 <emphasis>View / Messages</emphasis>, or use the command line
 <command>vlc -vvv</command>).</para>
 

@@ -82,5 +82,9 @@ able to cross 11 routers).</para></listitem>
 <para>If you want to stream the file continuously, add the
 <emphasis>--loop</emphasis> option.</para>
 
+<note>
+&streamable-mpeg-file;
+</note>
+
 </sect1>
 </chapter>

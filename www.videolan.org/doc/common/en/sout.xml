@@ -245,10 +245,9 @@ You can also use ranges, like "program=<emphasis>start_program-end_program</emph
 You can select only es of a given type, with :</para>
 
 <itemizedlist>
-
-<listitem>no-audio, noaudio, audio</listitem>
-<listitem>no-video, novideo, video</listitem>
-<listitem>no-spu,   nospu,   spu</listitem>
+<listitem><para>no-audio, noaudio, audio</para></listitem>
+<listitem><para>no-video, novideo, video</para></listitem>
+<listitem><para>no-spu,   nospu,   spu</para></listitem>
 </itemizedlist>
 
 <para>You may use several selectors, comma-separated</para></listitem>

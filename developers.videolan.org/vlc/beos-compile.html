@@ -8,43 +8,29 @@
 
 <p>Needed tools:</p>
 <ul>
-<li><a href="http://www.bebits.com/app/2680">BeOS 5</a> or higher with
-developpement tools.</li>
-
-<li><a href="http://www.bebits.com/app/2171">Perl 5.8.0</a>.
-
-<li><a href="http://www.bebits.com/app/1610">CVS 1.11</a>.
-
-<li>This <a
-href="http://videolan.org/pub/videolan/devtools/beos-vlc-tools.zip">
-archive</a> includes the tools needed for the build process. Unzip it to
-/boot/home/config/.</li>
-
-<li>This <a
-href="http://videolan.org/pub/videolan/devtools/beos-vlc-libraries.zip">
-archive</a> includes the libraries needed for the build process. Unzip
-it to /boot/home/config/.</li>
-
-<li>In order to use these libraries, add the following lines to your
-/boot/home/.profile:<br>
-<code>export C_INCLUDE_PATH="${C_INCLUDE_PATH}:/boot/home/config/include"</code><br>
-<code>export CPLUS_INCLUDE_PATH="${CPLUS_INCLUDE_PATH}:/boot/home/config/include"</code><br>
-<code>export LDFLAGS="${LDFLAGS} -L/boot/home/config/lib"</code><br>
-</li>
+<li><a href="http://www.bebits.com/app/2680">BeOS 5</a> with
+developpement tools</li>
+<li><a href="http://www.bebits.com/app/1610">CVS 1.11</a></li>
+<li>Subversion</li>
+<li>bzip2/bunzip2</li>
+<li>wget</li>
 </ul>
+
+<p>Compiling is usually done on a vanilla R5.0.3 install with the
+default compiler. Compiling on other BeOS versions might, or might now
+work.</p>
 
 <p>Now you can compile vlc:</p>
 <ul>
-<li>download the source code (use <a href="/svn.html">Subversion</a> or download the archive)</li>
-<li>cd to the source directory</li>
-<li>if you are using SVN , run <code>./bootstrap</code></li>
-<li>run ./configure. The following is suggested:<br>
-Development: <code>./configure --enable-debug --enable-flac --enable-faad</code><br>
-Packaging: <code>./configure --enable-release --disable-plugins --enable-flac --enable-faad</code>
-</li>
-
-<li>run <code>make</code></li>
-<li>to make a package, run <code>make package-beos</code></li>
+<li>download the source code using <a href="/svn.html">Subversion</a></li>
+<li>cd to extras/contrib/<li>
+<li>run <code>./bootstrap &amp;&amp; make src</code> - this will get and
+build every util and library VLC needs (you need an internet connection,
+a fast one preferably)</li>
+<li>cd to the root of the source directory</li>
+<li>run <code>./bootstrap &amp;&amp; ./configure &amp;&amp;
+make</code></li>
+<li>to build a package, run <code>make package-beos</code></li>
 </ul>
 
 <p><b>Written by <a href="mailto:titer@videolan.org">Eric Petit</a>, for

@@ -23,7 +23,8 @@ we lack any good design proposal. Hence, we'd like to ask all of our
 users with some drawing skills to come up with design proposals. The
 winning design will of course be used on millions of T-shirts ! (and the
 author might even get one for free ...)<br />
-<a href="http://wiki.videolan.org/index.php/T-Shirt_Design_Contest">Some more info here</a>
+<a href="http://wiki.videolan.org/index.php/T-Shirt_Design_Contest">Some more info here</a><br />
+<b>Update: </b>Submissions are closed
 
 |1-3 Feb 2005| VideoLAN at Solutions Linux Paris | VideoLAN will have
 a booth at <a href="http://www.solutionslinux.fr/en/">Solutions Linux

@@ -1,5 +1,5 @@
 <?
-  $path="/var/www/developers";
+  $path="/var/www/developers.videolan.org";
 
   chdir( "$path/$dir" );
   if( file_exists( "$page.html" ) )

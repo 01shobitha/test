@@ -11,19 +11,13 @@
   {
     chdir ($dir);
     $page = $_GET['page'];
+    if (preg_match("/[^a-zA-Z0-9\.\-]/", $page))
+      $page = '403'
   }
   else
-  {
     $page = '403';
-  }
 
-  /* Another directory traversal security fix -- same author, same date */
-  if (preg_match("/[^a-zA-Z0-9\.\-]/", $page)
-  {
-    $page = '403'
-  }
-
-  if( file_exists( "$page.html" ) )
+    if( file_exists( "$page.html" ) )
   {
     $fd = fopen( "$page.html", "r" );
     $line = fgets( $fd, 1023 );

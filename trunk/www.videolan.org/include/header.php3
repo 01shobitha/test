@@ -157,10 +157,10 @@ function second_bar_home($module) { ?>
 <? get_second_bar_item ( 8 , "news.html" , "News" , "/news.html" , $module ) ?>
 <? get_second_bar_item ( 8 , "events" , "Events" , "/events/" , $module ) ?>
 <? get_second_bar_item ( 8 , "team" , "Team" , "/team/" , $module ) ?>
-<? get_second_bar_item ( 8 , "partners.html" , "Partners" , "partners.html" , $module ) ?>
-<? get_second_bar_item ( 8 , "contribute.html" , "Contribute" , "contribute.html" , $module ) ?>
-<? get_second_bar_item ( 8 , "contact.html" , "Contact" , "contact.html" , $module ) ?>
-<? get_second_bar_item ( 8 , "links.html" , "Links" , "links.html" , $module ) ?>
+<? get_second_bar_item ( 8 , "partners.html" , "Partners" , "/partners.html" , $module ) ?>
+<? get_second_bar_item ( 8 , "contribute.html" , "Contribute" , "/contribute.html" , $module ) ?>
+<? get_second_bar_item ( 8 , "contact.html" , "Contact" , "/contact.html" , $module ) ?>
+<? get_second_bar_item ( 8 , "links.html" , "Links" , "/links.html" , $module ) ?>
 <? }
 
 

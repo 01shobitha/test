@@ -96,7 +96,7 @@ Then, for a normal install, do:</span>
 
 <screen>
 <prompt># </prompt><userinput>apt-get update</userinput>
-<prompt># </prompt><userinput>apt-get install wxvlc libdvdcss2</userinput>
+<prompt># </prompt><userinput>apt-get install gnome-vlc libdvdcss2</userinput>
 </screen>
 
 </simplesect>

@@ -8,7 +8,8 @@ streams instead of mpeg-ts (vls produced) streams. It also fixes the
 playlistgroup parameter to be compliant with the SDP standard now.
 The new style of this parameter will be supported in the next 
 version of VLC. We strongly advise all users of miniSAPserver to 
-upgrade to this new version.
+<a href="http://www.videolan.org/streaming/download-sap-server.html">
+download</a> and upgrade to this new version.
 
 |21 May 2004| Release: VLC 0.7.2| This new release of VLC media
 player features improved interfaces with support for embedded

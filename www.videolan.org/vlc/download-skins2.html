@@ -38,7 +38,7 @@
 
 <h2>Skins VS skins2</h2>
 
-<p><span style="color: red;"><b>Important note:</b></span><br> VLC currently
+<p><span style="color: red;"><b>Important note:</b></span><br/> VLC currently
 has two different skins modules, named <i>skins</i> and <i>skins2</i>, the
 latter being a complete rewrite of the former. We consider that the
 <i>skins</i> module is deprecated, and we strongly encourage people to use
@@ -56,15 +56,36 @@ the old deprecated <i>skins</i> module.</p>
 <p>See <a href="/vlc/skins.html">this page</a> for more details on how to load
 a downloaded skin.</p>
 
+<p><span style="color: red;"><b>Note for Windows users:</b></span><br/>
+In versions of VLC up to 0.7.2 (included), a bug prevents to load the .vlt file
+as indicated (it is fixed in newer versions). Here is a workaround:</p>
+
+<ul>
+  <li>Rename the .vlt file in a .tar.gz file (ex: winamp5.vlt becomes
+  winamp5.tar.gz)</li>
+  <li>Extract the files from the .tar.gz archive using your favourite
+  compression software</li>
+  <li>When changing the skin, specify the <i>theme.xml</i> file that you just
+  extracted (among other files) instead of the .vlt file</li>
+  <li>That's it!</li>
+</ul>
+
 
 <h2>Create your own skin!</h2>
 
 <p>You don't like the skins listed on this page? Just <a
-href="/vlc/skins2-create.html">create a better one</a>! Don't worry, you don't
-need any programming skills...<br>
-Some knowledge about graphics software might help you, though :-)</p>
+href="/vlc/skins2-create.html">create a better one</a>!<br/>
+Don't worry, you don't need any programming skills... Some knowledge about
+graphics software might ease the job, though :-)</p>
 
 
-<h2>No skin available yet...</h2>
+<h2>Winamp5 skin</h2>
+<? AddSkin(
+   "winamp5.jpg",
+   "Skin made by kty0ne, improved by Jérôme Guilbaud and ported<br/>
+    to skins2 by Olivier Teulière ",
+   "winamp5.vlt" );
+?>
+
 
 <? footer('$Id: download-skins.html 2517 2004-05-23 17:11:06Z ipkiss $'); ?>

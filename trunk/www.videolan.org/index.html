@@ -9,11 +9,29 @@
   <tr>
     <td style="width: 75%">
 
-
     <div style="text-align: center; margin-bottom: 15px;">
       <img width="300" height="75" alt="VideoLAN"
            src="/images/videolan-new4.png" />
     </div>
+
+    </td><td>
+
+    <div style="left-margin: 10px; right-margin: 10px;">
+      <table style="width: 100%;" cellspacing="0" cellpadding="0" border="0">
+        <tr><td class="firstbarselected">Latest news</td></tr>
+        <tr><td>
+          <? shownews("title",5); ?>
+        </td></tr>
+      </table>
+    </div>
+
+    </td>
+  </tr>
+</table>
+
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="width: 75%">
 
 <? h2("OpenSource video streaming solution for every OS!"); ?>
 
@@ -59,17 +77,6 @@ page</a> for more information.</p>
 
 <td style="width: 25%; white-space: nowrap; vertical-align: top;">
 
-  <div style="left-margin: 10px; right-margin: 10px;">
-    <table style="width: 100%;" cellspacing="0" cellpadding="0" border="0">
-      <tr><td class="firstbarselected">Latest news</td></tr>
-      <tr><td>
-        <? shownews("title",5); ?>
-      </td></tr>
-    </table>
-  </div>
-
-  <br />
-
   <div style="text-align: center;">
     <a href="/vlc/screenshots/20020406-01.png"><img width="120" height="90"
       src="/vlc/screenshots/tn_20020406-01.jpeg" style="vertical-align: middle;"
@@ -101,10 +108,9 @@ page</a> for more information.</p>
       alt="The VideoLAN logo" />
   </div>
 
-
 </td>
 
   </tr>
 </table>
 
-<? footer('$Id: index.html,v 1.63 2003/02/02 02:08:48 alexis Exp $'); ?>
+<? footer('$Id: index.html,v 1.64 2003/02/03 04:13:52 sam Exp $'); ?>

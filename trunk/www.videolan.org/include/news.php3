@@ -64,14 +64,14 @@
                     if( $style == "full" )
                     {
                         $date = "<a name=\"".$anchor."\">".$date."</a>";
-                        echo ("<p><b>".$title."</b> (".$date.")");
+                        echo ("<p><b>".$title."</b> (".$date.")\n");
                         echo $text;
-                        echo ("</p>");
+                        echo ("</p>\n");
                     }
                     elseif( $style == "title" )
                     {
                         echo "<b><a href=\"#".$anchor."\">".$title."</a></b> (".$date.")";
-                        if( $max > 1 ) echo "<br />";
+                        if( $max > 1 ) echo "<br />\n";
                     }
              
                     $max--; if($max == 0) return;

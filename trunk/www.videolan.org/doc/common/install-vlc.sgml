@@ -1,11 +1,18 @@
+<para>The VideoLAN  Client is  a multi-OS  software. There  are binaries
+versions available  for the main ones,  but for some other  OS, you will
+have to compile  the source code by yourself. Anyway,  you can compilate
+the VLC for  every OS, if you  want to change the  default settings, for
+exemple</para>
+
+
 <sect2><title>Under Windows</title>
 
 <para>
 The VideoLAN Client works under Windows 95/98/ME/2000/XP. Download
 the Windows Installer or the Zip file from the <ulink
-url="http://www.videolan.org/vlc/download.html">vlc download
+url="http://www.videolan.org/vlc/download.html">VLC download
 page</ulink>. Execute the Windows installer or unzip the file in a
-directory to install vlc.
+directory to install the VideoLAN Client.
 </para>
 
 </sect2>
@@ -14,7 +21,7 @@ directory to install vlc.
 
 <para>
 Download the Zip file from the <ulink
-url="http://www.videolan.org/vlc/download.html">vlc download
+url="http://www.videolan.org/vlc/download.html">VLC download
 page</ulink>. Unzip the file in a directory to install vlc.
 </para>
 
@@ -36,62 +43,49 @@ install it (it should be <filename>/Applications</filename>).
 </sect2>
 
 <sect2><title>Under Linux Debian</title>
-
+<para>You can use the very powerful tool <command>apt-get</command>
 <para>
 Edit, as root /etc/apt/sources.list and add the following lines :
 </para>
-
 <programlisting>
 deb http://www.videolan.org/pub/videolan/debian $(ARCH)/
 deb-src http://www.videolan.org/pub/videolan/debian sources/
 </programlisting>
-
 <para>
 Then install the packages :
 </para>
-
 <screen>
 <prompt># </prompt><userinput>apt-get update</userinput>
 <prompt># </prompt><userinput>apt-get install vlc-gnome vlc-mad libdvdcss2</userinput>
 </screen>
-
 </sect2>
 
 <sect2><title>Under Linux Redhat, Mandrake and SuSE</title>
 
-<para>
-
-Install the packages <emphasis>liba52</emphasis> and
+<para>For these distributions, we use RPM packages</para>
+<para>Install the packages <emphasis>liba52</emphasis> and
 <emphasis>libmad0</emphasis> that should be packaged in your
 distribution. If they are not, try to find the RPMs on <ulink
 url="http://www.rpmfind.net/linux/RPM/">RPMfind.net</ulink> or search
-the Internet.
-
-</para>
+the Internet.</para>
 
 <para>
-
 Download the RPM package of <emphasis>libdvdcss</emphasis> from the
 <ulink url="http://www.videolan.org/libdvdcss/download.html">libdvdcss
 download page</ulink>.
-
 </para>
 
 <para>
-
 Download the RPM package of <emphasis>libdvdpsi</emphasis> from the
 <ulink url="http://www.videolan.org/libdvbpsi/download.html">libdvdpsi
 download page</ulink>.
-
 </para>
 
 <para>
-
 Download the RPM packages <emphasis>vlc</emphasis>
 <emphasis>vlc-gnome</emphasis> and <emphasis>vlc-mad</emphasis> from
 the <ulink url="http://www.videolan.org/vlc/download.html">vlc download
 page</ulink>.
-
 </para>
 
 <para>
@@ -105,47 +99,41 @@ libdvdcss2-version.i586.rpm libdvdpsi1-version.i586.rpm</userinput>
 
 </sect2>
 
-<sect2><title>Under Unix and Linux</title>
+<sect2><title>Compile the sources by yourself (for every other OS)</title>
 
-<para>The method below is for any Unix or Linux supported by the
-VideoLAN Client for which there are no packages available. It explains
-how to compile and install vlc and the needed librairies from
-source.</para>
+<para>The method below is for any Unix system supported by the
+VideoLAN Client,for which there is no packages available. It explains
+how to compile and install vlc and the needed librairies from their
+source code.</para>
+
+<para>You can also compile the VLC under Linux this way if you want to
+modify the default supported modules</para>
 
 <sect3><title>Install the libraries</title>
-
 <para>
 Many libraries are needed for particular uses :
 </para>
 
 <itemizedlist>
-
 <listitem><para><emphasis>libdvdcss</emphasis> if you want to be able to
 read encrypted DVDs,</para></listitem>
-
 <listitem><para><emphasis>libdvbpsi</emphasis> if you want to be able to
 read from the network,</para></listitem>
-
 <listitem><para><emphasis>liba52</emphasis> if you want to be able to
 decode the AC3 (i.e. A52) sound format often used in DVDs,</para></listitem>
-
 <listitem><para><emphasis>ffmpeg</emphasis> and
 <emphasis>libmad</emphasis> if you want to read MPEG 4 / DivX
 files.</para></listitem>
-
 </itemizedlist>
 
 <para>
-
 Download the libraries from <ulink
 url="http://www.videolan.org/pub/videolan/vlc/">http://www.videolan.org/pub/videolan/vlc</ulink> in the directory
 <filename>version/contrib</filename>.
-
 </para>
 
 <para>For each library, uncompress, configure, compile and install :
 </para>
-
 <screen>
 <prompt>% </prompt><userinput>tar xvzf library.tar.gz</userinput>
 <prompt>% </prompt><userinput>cd library</userinput>
@@ -155,17 +143,15 @@ url="http://www.videolan.org/pub/videolan/vlc/">http://www.videolan.org/pub/vide
 </screen>
 
 <para>
-
 Check that the configuration file <filename>/etc/ld.so.conf</filename>
 contains the following line :
-
 </para>
 
 <programlisting>
 /usr/local/lib
 </programlisting>
 
-<para>If the line is not present, add-it and then run :</para>
+<para>If the line is not present, add-it and then run (as root):</para>
 
 <screen>
 <prompt># </prompt><userinput>ldconfig</userinput>
@@ -194,34 +180,27 @@ Download the sources of the lastest release : get the file
 -->
 
 <para>To get the list of configuration options, do :</para>
-
 <screen>
 <prompt>% </prompt><userinput>./configure --help</userinput>
 </screen>
 
-<para>
+<para><command>FIXME: le lien</command>Please note that all the modules are described in the Modules section of the VLC User Guide</para>
 
-Then configure vlc :
 
-</para>
-
+<para>Exemples of very simple configurations:</para>
 <itemizedlist>
 
 <listitem><para>if you want a basic vlc, do : </para>
-
 <screen>
 <prompt>% </prompt><userinput>./configure</userinput>
 </screen>
-
 </listitem>
 
 <listitem><para>if you want the Gnome interface instead of the GTK
 interface (you will need the developement packages of Gnome) :</para>
-
 <screen>
 <prompt>% </prompt><userinput>./configure --enable-gnome</userinput>
 </screen>
-
 </listitem>
 
 </itemizedlist>
@@ -239,13 +218,18 @@ Then, compile and install :
 
 <screen>
 <prompt>% </prompt><userinput>make</userinput>
+<prompt>% </prompt><userinput>su</userinput>
+<prompt>Password: </prompt><userinput> [Root Password]</userinput>
 <prompt># </prompt><userinput>make install</userinput>
 </screen>
 
-<para>
+<para>Please note that the installation (make install command) is not
+mendatory. You can execute the VideoLAN Client from where you compiled
+it</para>
 
-You can also do a <command>make uninstall</command>, <command>make
-clean</command> or <command>make distclean</command> as needed.
+<para> To uninstall the VLC, you can also do a <command>make
+uninstall</command>, <command>make clean</command> or <command>make
+distclean</command> as needed.
 
 </para>
 

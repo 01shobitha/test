@@ -55,7 +55,7 @@ function starthtml($title) { ?>
 
 ?><table border="0" cellspacing="0" cellpadding="10">
   <tr>
-    <td width=200><?
+    <td><?
 
         /*
          * the cone logo
@@ -111,7 +111,7 @@ function starthtml($title) { ?>
     *  This is where the real user page stands
     */
 
-?>  <td width=300><? }
+?>  <td class="fill"><? }
 
    /*
     *  footer: bottom of the page

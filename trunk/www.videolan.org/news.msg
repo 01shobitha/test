@@ -2,6 +2,11 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+|10 Jan 2004| Release: VLS 0.5.5| This release of VLS fixes a bug
+introduced in the DVB input of the previous release. Go to the <a
+href="http://www.videolan.org/streaming/download-vls-sources.html">VLS
+source code download page</a> to get this new version now !
+
 |3 Jan 2004| Release: VLC 0.7.0| This major release of VLC Media
 Player, codenamed "Bond", features major core enhancements, support
 for RTP/RTSP, new audio visual effects, supports for new formats

@@ -3,6 +3,7 @@
 <sect1><title>
 <span xml:lang="en">Interface modules</span>
 <span xml:lang="fr">Modules d'interface</span>
+<span xml:lang="de">Oberflächenmodule</span>
 </title>
 
 <para>
@@ -10,7 +11,10 @@
 or interfaces you want to use (either graphical or control
 interfaces).</span>
 <span xml:lang="fr">Ces modules vous permettent de choisir une ou des
-interfaces (interface graphique ou interface de controle)</span>
+interfaces (interface graphique ou interface de controle).</span>
+<span xml:lang="de">Diese Module erlauben Ihnen die Wahl des oder der
+Oberflächen, die Sie benutzen möchten (graphische oder
+Kontrolloberflächen).</span>
 </para>
 
 <sect2><title>wxwindows</title>
@@ -20,7 +24,11 @@ interfaces (interface graphique ou interface de controle)</span>
 is currently working under GNU/Linux and Windows. It is now the most up-to-date
 graphical interface available under both Windows and GNU/Linux</span>
 <span xml:lang="fr">L'interface wxWindows est une interface graphique
-portable qui fonctionne sous GNU/Linux et Windows. C'est maintenant l'interface graphique la plus à jour pour ces deux systèmes</span>
+portable qui fonctionne sous GNU/Linux et Windows. C'est maintenant l'interface
+graphique la plus à jour pour ces deux systèmes</span>
+<span xml:lang="de">Die wxWindows-Oberfläche ist eine portable Oberfläche, die
+derzeit unter GNU/Linux und Windows läuft. Sie ist derzeit die aktuellste graphische
+Oberfläche unter Windows und GNU/Linux</span>
 .</para></sect2>
 
 
@@ -32,27 +40,35 @@ and X11. You can create your own skins very easily with XML files</span>
 <span xml:lang="fr">Cette interface skinnable, qui fonctionne sous Win32
 et X11 vous permet de très simplement créer vos propres skins, à l'aide
 de fichiers XML</span>
+<span xml:lang="de">Dieses skinnbare Oberflächenmodul arbeitet unter Win32
+und X11. Sie können Ihre eigenen Skins sehr einfach mit XML-Dateien erzeugen</span>
 .</para>
 &options-st;
 <itemizedlist>
 <listitem>
   <para><emphasis>--skin_last</emphasis> :
-   <span xml:lang="en"> Argument is a string. This allows you to  
-     specify the last used skin.</span>
+   <span xml:lang="en"> This option allows you to specify the last used skin
+     (the argument is a string).</span>
    <span xml:lang="fr"> Cette option vous permet de donner la 
      dernière skin utilisée (l'argument est une chaîne).</span>
+   <span xml:lang="de"> Diese Option erlaubt Ihnen die letzte benutzte Skin
+     festzulegen (das Argument ist eine Zeichenkette).</span>
   </para></listitem>
   <listitem><para><emphasis>--skin_config</emphasis> :
-   <span xml:lang="en"> Argument is a string. This allows you to  
-     set the skin configuration.</span>
+   <span xml:lang="en"> This allows you to set the skin configuration
+     (the argument is a string).</span>
    <span xml:lang="fr"> Cette option vous permet de donner la 
      configuration de la skin (l'argument est une chaîne).</span>
+   <span xml:lang="de"> Diese Option erlaubt Ihnen die Skinkonfiguration
+     festzulegen (das Argument ist eine Zeichenkette).</span>
   </para></listitem>
   <listitem><para><emphasis>--show_in_tray, --noshow_in_tray</emphasis> :
    <span xml:lang="en"> Indicates whether the application must  
      be shown in traybar (default disabled).</span>
    <span xml:lang="fr"> Indique si l'application doit être visible
      dans la barre système (désactivé par défaut).</span>
+   <span xml:lang="de"> Legt fest, ob das Programm in der Systembar
+     angezeigt werden muss oder nicht (standardmäßig deaktiviert).</span>
   </para></listitem>
   <listitem><para><emphasis>
 	--show_in_taskbar, --noshow_in_taskbar</emphasis> :
@@ -60,6 +76,8 @@ de fichiers XML</span>
      be shown in the taskbar (default enabled).</span>
    <span xml:lang="fr"> Indique si l'application doit être visible
      dans la barre des tâches (activé par défaut).</span>
+   <span xml:lang="de"> Legt fest, ob das Programm in der Taskbar
+     anzeigt werden muss oder nicht (standardmäßig deaktiviert).</span>
   </para>
  </listitem>
 </itemizedlist>
@@ -73,7 +91,11 @@ and headers files if you are compiling it. Note that it can also be used
 under Windows. Warning: this interface is no longer maintained, and outdated</span>
 <span xml:lang="fr">Ceci est l'interface GTK+, qui peut également être
 utilisée sous Windows. Vous devez disposer des librairies GTK et de
-en-têtes pour la compilation. Attention, cette interface n'est plus maintenue, et ne présente pas toutes les possibilités actuelles de VLC.</span>
+en-têtes pour la compilation. Attention, cette interface n'est plus maintenue, et
+ne présente pas toutes les possibilités actuelles de VLC.</span>
+<span xml:lang="de">Dies ist die GTK+-Oberfläche. Sie benötigt die gtk-Bibliotheken
+and -Header zur Kompilierung. Beachten Sie, dass sie auch unter Windows benutzt
+werden kann. Achtung: Diese Oberfläche wird nicht mehr gewartet und ist veraltet</span>
 .</para>
 </sect2>
 
@@ -88,7 +110,12 @@ compile it. Warning: this interface is no longer maintained, and outdated</span>
 <span xml:lang="fr">Ceci est l'interface Gnome. Vous aurez besoin des
 librairies Gnome (<emphasis>libgnome32</emphasis> sous Debian GNU/Linux)
 et des en-têtes pour la compilation (<emphasis>libgnome-dev</emphasis>
-sous Debian GNU/Linux). Attention, cette interface n'est plus maintenue, et ne présente pas toutes les possibilités actuelles de VLC.</span>
+sous Debian GNU/Linux). Attention, cette interface n'est plus maintenue, et ne présente
+pas toutes les possibilités actuelles de VLC.</span>
+<span xml:lang="de">Dies ist die Gnome-Oberfläche. Sie benötigt die gnome-Bibliotheken
+(das <emphasis>libgnome32</emphasis>-Paket unter Debian) und -Header (das
+<emphasis>libgnome-dev</emphasis>-Paket unter Debian) zur Kompilierung.
+Achtung: Diese Oberfläche wird nicht mehr gewartet und ist veraltet</span>
 .</para>
 &options-st;
 <itemizedlist>
@@ -96,17 +123,21 @@ sous Debian GNU/Linux). Attention, cette interface n'est plus maintenue, et ne p
 <para><emphasis>--gnome-tooltips, --no-gnome-tooltips </emphasis>:
 <span xml:lang="en">Whether to show tooltips (default enabled)</span>
 <span xml:lang="fr">Active l'affichage des bulles d'aide (activé par défaut)</span>
+<span xml:lang="de">Aktiviert die Anzeige von Tooltips (standardmäßig aktiviert)</span>
 </para></listitem>
 <listitem><para><emphasis>--gnome-toolbartext, --no-gnome-toolbartext </emphasis>:
-<span xml:lang="en">Whether to show text on buttonss (default enabled)</span>
-<span xml:lang="fr">Active l'affichage du texte sur les boutons
-		(activé par défaut)</span>
+<span xml:lang="en">Whether to show text on buttons (default enabled)</span>
+<span xml:lang="fr">Active l'affichage du texte sur les boutons (activé par défaut)</span>
+<span xml:lang="de">Aktiviert die Anzeige von Texten auf den Knöpfen
+(standardmäßig aktiviert)</span>
 </para></listitem>
 <listitem><para><emphasis>--gnome-prefs-maxh </emphasis>:
 <span xml:lang="en">Argument is an integer that gives the maximum
 	height for configuration windows</span>
 <span xml:lang="fr">L'argument (un entier) donne la hauteur maximale des
 	fenêtres de configuration</span>
+<span xml:lang="de">Das Argument ist eine Ganzzahl, die die maximale Höhe
+    von Einstellungsfenstern festlegt</span> 
 </para>
 </listitem>
 </itemizedlist>
@@ -116,21 +147,23 @@ sous Debian GNU/Linux). Attention, cette interface n'est plus maintenue, et ne p
 &disabled;
 <para>
 <span xml:lang="en">This is the QT interface module. You will need the libraries
-(<emphasis>libqt2</emphasis> package on Debian) and headers
+(<emphasis>libqt2</emphasis> package under Debian) and headers
 (<emphasis>libqt-dev</emphasis> package under Debian) if you wish to
 compile it. Warning: this interface is no longer maintained, and outdated</span>
 <span xml:lang="fr">Ceci est le module d'interface QT. Vous aurez besoin
 des librairies QT (<emphasis>libqt2</emphasis> sous Debian GNU/Linux) et
 des en-têtes pour la compilation (<emphasis>libqt-dev</emphasis> sous
-Debian GNU/Linux). Attention, cette interface n'est plus maintenue, et ne présente pas toutes les possibilités actuelles de VLC.</span>
+Debian GNU/Linux). Attention, cette interface n'est plus maintenue, et ne présente pas
+toutes les possibilités actuelles de VLC.</span>
+<span xml:lang="de">Das ist das QT-Oberflächenmodul. Sie benötigen die Bibliotheken
+(das <emphasis>libqt2</emphasis>-Paket unter Debian) und die Header
+(das <emphasis>libqt-dev</emphasis>-Paket unter Debian) zur Kompilierung.
+Achtung: diese Oberfläche wird nicht mehr gewartet und ist veraltet</span>
 .</para></sect2>
 
 <sect2><title>kde</title>
 &disabled;
-<para><emphasis>
-<span xml:lang="en">For GNU/Linux only</span>
-<span xml:lang="fr">Seulement pour GNU/Linux</span>
-</emphasis></para>
+&linux-only;
 <para>
 <span xml:lang="en">This is the KDE interface module. You will need the libraries
 (<emphasis>kdelibs3</emphasis> package on Debian) and headers
@@ -139,14 +172,20 @@ compile it. Warning: this interface is no longer maintained, and outdated</span>
 <span xml:lang="fr">Ceci est le module d'interface KDE. Vous
 aurez besoin des librairies Kde (<emphasis>kdelibs3</emphasis>
 sous Debian GNU/Linux) et des en-têtes pour la compilation
-((<emphasis>kde-devel</emphasis> sous Debian GNU/Linux). Attention, cette interface n'est plus maintenue, et ne présente pas toutes les possibilités actuelles de VLC.</span>
+((<emphasis>kde-devel</emphasis> sous Debian GNU/Linux). Attention, cette interface
+n'est plus maintenue, et ne présente pas toutes les possibilités actuelles de VLC.</span>
+<span xml:lang="de">Dies ist das KDE-Oberflächemodul. Sie benötigen die Bibliotheken
+(das <emphasis>kdelibs3</emphasis>-Paket unter Debian) und die Header
+(das <emphasis>kde-devel</emphasis>-Paket unter Debian) zur Kompilierung.
+Achtung: diese Oberfläche wird nicht mehr gewartet und ist veraltet</span>
 .</para>
 &options-st;
 <itemizedlist>
 <listitem>
 <para><emphasis>--kde-uirc </emphasis>:
-<span xml:lang="en">Path to the ui.rc file</span>
-<span xml:lang="fr">Chemin du fichier ui.rc</span>
+<span xml:lang="en">Path to the <filename>ui.rc</filename> file</span>
+<span xml:lang="fr">Chemin du fichier <filename>ui.rc</filename></span>
+<span xml:lang="de">Pfad zur <filename>ui.rc</filename>-Datei</span>
 </para>
 </listitem>
 </itemizedlist>
@@ -163,6 +202,11 @@ text-based, so you should use it when you are in console mode</span>
 qui fonctionne en mode texte depuis une console. Vous pouvez
 ainsi contrôler le VLC par des scripts ou des commandes, comme
 <emphasis>play</emphasis>,<emphasis>stop</emphasis>, etc....</span>
+<span xml:lang="de">Dies ist das Fernbedienungsoberflächenmodul. Es erlaubt
+Ihnen VLC über Befehle zu Steuern (wie <emphasis>play</emphasis>,
+<emphasis>stop</emphasis>, etc.) oder über ein Skript. Diese Oberfläche
+ist textbasiert, sodass Sie sie benutzen sollten, wenn Sie sich im console-Modus
+befinden</span>
 .</para>
 &options-st;
 <itemizedlist>
@@ -172,14 +216,17 @@ ainsi contrôler le VLC par des scripts ou des commandes, comme
 must be shown (outputs one timer line every seconds) (default
 disabled)</span>
 <span xml:lang="fr">Active ou désactive un compteur qui indique
-chaque seconde la position dans le flux (désactivé par défaut)
-</span></para></listitem>
+chaque seconde la position dans le flux (désactivé par défaut)</span>
+<span xml:lang="de">Legt fest, ob die Position im Stream angezeigt werden soll
+(standardmäßig deaktiviert)</span>
+</para></listitem>
 <listitem><para><emphasis>--fake--tty, --no-fake-tty </emphasis>:
 <span xml:lang="en">Enables or disables TTY virtual terminal
-emulation (default disabled)
-</span>
+emulation (default disabled)</span>
 <span xml:lang="fr">Active ou désactive l'émulation d'un terminal virtuel
 TTY (désactivé par défaut)</span>
+<span xml:lang="de">Aktiviert oder deaktiviert die Emulation eines virtuellen
+TTY-Terminals (standardmäßig deaktiviert)</span>
 </para>
 </listitem>
 </itemizedlist>
@@ -190,14 +237,12 @@ TTY (désactivé par défaut)</span>
 &always;
 <para>
 <span xml:lang="en">This module allows you to remote control your VLC
-via a web browser. You can create custom web pages.
-<ulink url="http://wiki.videolan.org/index.php/HTTP">More info here</ulink>
-</span>
+via a web browser. You can create custom web pages.</span>
 <span xml:lang="fr">Ce module vous permet de contrôler VLC à distance
 par un navigateur web. Vous pouvez créer vos propres pages web de
-contrôle.
-<ulink url="http://wiki.videolan.org/index.php/HTTP">Plus d'informations
-</ulink></span>
+contrôle.</span>
+<span xml:lang="de">Dieses Modul erlaubt Ihnen VLC über einen Webbrowser
+fernzusteuern. Sie können eigene Webseiten erzeugen.</span>
 .</para>
 &options-st;
 <itemizedlist>
@@ -213,20 +258,23 @@ la forme adresse[:port], où l'adresse est soit une adresse IP, soit un
 nom DNS, et où port et le port sur lequel l'interface HTTP sera disponible
 Le port par défaut est 8080. L'adresse par défaut est localhost; ceci
 devrait être bon pour presque tout le monde</span>
+<span xml:lang="de">Das Argument, eine Zeichenkette, gibt die Hostadresse in
+der Form Adresse[:Port] an, wobei die Adresse eine IP-Adresse oder ein DNS-Name
+sein kann und der Port der Port ist, über den die HTTP-Oberfläche verfügbar sein
+wird (standardmäßig 8080). Die standardmäßige Adresse ist localhost, was
+für nahezu jeden in Ordnung sein sollte</span>
 </para></listitem>
 <listitem><para><emphasis>--http-src </emphasis>:
 <span xml:lang="en">Gives the path to the HTML pages to be served.</span>
 <span xml:lang="fr">Chemin du répertoire contenant les pages HTML à 
-servir</span></para></listitem></itemizedlist>
+servir.</span>
+<span xml:lang="de">Gibt den Pfad zu den zu liefernden HTML-Seiten an.</span>
+</para></listitem></itemizedlist>
 </sect2>
 
 <sect2><title>ncurses</title>
 &disabled;
-<para><emphasis>
-<span xml:lang="en">For GNU/Linux only</span>
-<span xml:lang="fr">Seulement pour GNU/Linux</span>
-</emphasis></para>
-<para>
+&linux-only;
 
 <span xml:lang="en">This is a text interface, using ncurses library.
 You will need ncurses headers if you want to compile it
@@ -235,20 +283,24 @@ You will need ncurses headers if you want to compile it
 bibliothèque ncurses. Pour la compiler, vous devez avoir les
 en-têtes ncurses (<emphasis>libncurses5-dev</emphasis> sous Debian
 GNU/Linux)</span>
+<span xml:lang="de">Dies ist eine textbasierte Oberfläche, die die ncurses-Bibliothek
+benutzt. Sie benötigen die ncurses-Header zur Kompilierung 
+(das <emphasis>libncurses5-dev</emphasis>-Paket unter Debian)</span>
 .</para></sect2>
 
 <sect2><title>lirc</title>
 &disabled;
-<para><emphasis>
-<span xml:lang="en">For GNU/Linux only</span>
-<span xml:lang="fr">Seulement pour GNU/Linux</span>
-</emphasis></para>
+&linux-only;
 <para>
 <span xml:lang="en">This interface module allows you to control VLC
 through a remote. A lircrc example is provided to help you configure it
 to your remote (see <filename>doc/lirc/example.lircrc</filename>)</span>
 <span xml:lang="fr">Ce module permet de contrôler VLC par une
 télécommande. Afin de vous aider, un fichier lircrc est fourni (voir
+<filename>doc/lirc/example.lircrc</filename>)</span>
+<span xml:lang="de">Dieses Oberflächenmodul erlaubt Ihnen VLC über
+eine Fernbedienung zu steuern. Ein lircrc-Beispiel wird mitgeliefert, um Ihnen
+bei der Konfiguration Ihrer eigenen Fernbedienung zu helfen (siehe
 <filename>doc/lirc/example.lircrc</filename>)</span>
 .</para></sect2>
 
@@ -259,6 +311,8 @@ télécommande. Afin de vous aider, un fichier lircrc est fourni (voir
 library (iPaq graphical library)</span>
 <span xml:lang="fr">Ceci est un plugin d'interface pour la librairie QT
 Embedded (pour iPaq)</span>
+<span xml:lang="de">Dies ist ein Oberflächenplugin für die Qt
+Embedded-Bibliothek (für iPaq)</span>
 .</para></sect2>
 
 <sect2><title>gestures</title>
@@ -268,6 +322,8 @@ Embedded (pour iPaq)</span>
 gestures</span>
 <span xml:lang="fr">Ce module vous permet de contrôler VLC par des
 mouvements de souris</span>
+<span xml:lang="de">Dieses Modul erlaubt Ihnen VLC über Mausgesten
+zu steuern</span>
 .</para>
 &options-st;
 <itemizedlist>
@@ -277,11 +333,15 @@ mouvements de souris</span>
 required for a mouse gesture to be recorded</span>
 <span xml:lang="fr">L'argument, un entier, est la quantité de 
 mouvement requise avant qu'un mouvement ne soit enregistré</span>
+<span xml:lang="de">Das Argument, eine Ganzzahl, ist der Umfang
+einer Mausbewegung, der benötigt wird, damit eine Gestik registriert
+wird</span>
 </para></listitem>
 <listitem><para><emphasis>--gestures-button {left,middle,right} </emphasis>:
 <span xml:lang="en">The button to click before a gesture</span>
 <span xml:lang="fr">Le bouton choisi devra être enfoncé avant
 de faire le mouvement</span>
+<span xml:lang="de">Die Taste, die vor einer Geste gedrückt wird</span>
 </para>
 </listitem>
 </itemizedlist>
@@ -292,10 +352,10 @@ de faire le mouvement</span>
 &linux-only;
 <para>
 <span xml:lang="en">This module allows you to control VLC via a joystick
-with many options. More information can be found 
-<ulink url="http://wiki.videolan.org/index.php/Joystick">here</ulink></span>
+with many options.</span>
 <span xml:lang="fr">Ce module vous permet de contrôler VLC à l'aide d'un
-joystick et est hautement configurable. Vous trouverez plus d'informations
-<ulink url="http://wiki.videolan.org/index.php/Joystick">ici</ulink></span>
+joystick et est hautement configurable.</span>
+<span xml:lang="de">Dieses Modul erlaubt Ihnen VLC mit einem Joystick
+mit vielen Optionen zu steuern.</span>
 .</para></sect2>
 </sect1>

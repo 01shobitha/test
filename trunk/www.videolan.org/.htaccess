@@ -20,6 +20,8 @@ RewriteRule ^irc(.*)$ /support/irc$1 [R=permanent,L]
 RewriteRule ^download.html /vlc/index.html [R=permanent,L]
 RewriteRule ^vlc/doc.html$ /vlc/index.html [R=permanent,L]
 RewriteRule ^vlc/download.html /vlc/index.html [R=permanent,L]
+RewriteRule ^libdvdcss/download.html /vlc/download-unix.html [R=permanent,L]
+RewriteRule ^libdvbpsi/download.html /vlc/download-unix.html [R=permanent,L]
 
 #
 # MIME Types

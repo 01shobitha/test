@@ -1,0 +1,76 @@
+<?
+   $title = "VLC media player - Download Skins";
+   $lang = "en";
+   $date = "28 March 2003";
+   $menu = array( "vlc", "skins-download" );
+   require("header.php3");
+?>
+
+<?
+  function AddSkin( $img, $text, $vlt, $zip )
+  {
+?>
+<table class="skins-download">
+ <tr>
+  <td>
+   <a href="/vlc/skins/<? echo $img; ?>">
+   <img width="200" src="/vlc/skins/<? echo $img; ?>"
+     class="skins-screenshot" alt="screenshot"/>
+   </a>
+  </td>
+  <td>
+   <table>
+    <tr><td class="skins-comment">
+      <? echo $text; ?>
+    </td></tr>
+    <tr><? CSSButton( "document.location='/vlc/skins/$zip'", 
+    "skins-download", "skins-download-over", "skins-download-down" ); ?>
+      Download ZIP file
+    </td></tr>
+    <tr><? CSSButton( "document.location='/vlc/skins/$vlt'",
+    "skins-download", "skins-download-over", "skins-download-down" ); ?>
+      Download VLT file
+    </td></tr>
+   </table>
+  </td>
+ </tr>
+</table>
+<?
+  }
+?>
+
+<h1>Download Skins</h1>
+
+<? h2("How to use it ?"); ?>
+
+<p>There is two types of file: <b>vlt</b> files which are not supported
+yet and <b>zip</b> files wich you must unzip to be able to use it.</p>
+<p>The to change skin, if no button is present on the skin to do it,
+just press CTRL+S on your keyboard then choose the theme.xml file of the
+skin you want to use.</p>
+
+<? 
+h2("Basic skin"); 
+AddSkin( 
+   "default.jpg", 
+   "This is the basic skin, it is available by default on releases.",
+   "default.vlt",
+   "default.zip" );
+
+h2("BSPlayer skin"); 
+AddSkin(
+   "bsplayer.jpg",
+   "This is an imitation of BSPlayer, made by Pierre Patoureaux.",
+   "BSPlayer.vlt",
+   "BSPlayer.zip" );
+
+h2("Skull Head skin");
+AddSkin(
+   "crane.jpg",
+   "This skin has been made by Pierre Patoureaux.",
+   "crane.vlt",
+   "crane.zip" );
+
+?>
+
+<? footer('$Id: download-skins.html,v 1.1 2003/04/09 15:32:50 karibu Exp $'); ?>

@@ -1,0 +1,63 @@
+<?
+   $title = "VLC media player - Skins";
+   $lang = "en";
+   $date = "28 March 2003";
+   $menu = array( "vlc", "skins" );
+   require("header.php3");
+?>
+
+<h1> Skins </h1>
+
+<? h2("New interface !"); ?>
+
+<table style="margin: 0px;">
+  <tr valign="center">
+    <td>
+<p>VLC has now a skinnable interface. It's only available on Windows
+systems and is experimental. That means it should work on Windows 2000
+and has not yet been tested on Win9x/WinXP OS.</p>
+<p>Actually we are working on a GTK version so that this feature will be
+soon available on Linux platforms.</p>
+    </td>
+    <td>
+        <img src="/images/skin.png">
+    </td>
+  </tr>
+</table>
+
+<? h2("How to get it ?"); ?>
+
+<p>You can test the skinnable interface in the 
+<a href="http://www.videolan.org/vlc/download-windows.html">0.5.3
+release</a>. The a shortcut in the start menu can launch this
+interface.</p>
+
+<p>Or you can launch it with command line:</p>
+
+<pre style="margin-left: 50px;">
+vlc.exe -I skins
+</pre>
+
+<p>Or go to the preference menu after launching the client and ckick on
+the <b>View/Add Interface/skins</b> menu.</p>
+
+<p>You need a skin file too, you can <a href="/vlc/download-skins.html">
+download</a> them. These
+are just testing skins but if you think you're some kind of artist, you
+don't need any programming skills so here is 
+<a href="/vlc/skins-create.html">how to create your skin</a>.</p>
+
+<? h2("How to use it ?"); ?>
+
+<p>Not all VLC features are available with skins plugin but here are
+what it supports :</p>
+<ul>
+  <li>Playing a file</li>
+  <li>Seeking into a stream</li>
+  <li>Sound control</li>
+  <li>Playlist</li>
+  <li>Key shortcuts</li>
+</ul>
+
+
+<? footer('$Id: skins.html,v 1.1 2003/04/09 15:32:50 karibu Exp $'); ?>

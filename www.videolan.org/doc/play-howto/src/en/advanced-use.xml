@@ -7,27 +7,45 @@ Advanced use of VLC
 
 
 <!-- ************************************************************* SECTION -->
-<sect1><title>Use the command line</title>
+<sect1>
+
+<title>Use the command line</title>
 
 <!-- TODO: completely outdated -->
 
+<para>All standard operations of VLC should be available from the GUI.
+However, some complex operations can only be done from the command line
+and there are situations in which you don't need or want a GUI. Here is
+the complete description of VLC's command line and how to use it</para>
 
-<sect2>
-<title>Introduction</title>
+<sect2><title>Getting help</title>
 
-<para>
-Many options are only available through command
-line. They are detailed here.
-</para>
+<para>VLC uses a modular structure. The core mainly manages
+communication between modules. All the multimedia processing is done by
+modules. There are input modules, demultiplexers, decoders, video output
+modules, ...</para>
+
+<para>This chapter will only describe the "general" options, ie the
+core options. Each module adds new options. For example, the HTTP input
+module will add options for caching, proxy, authentication, ...</para>
+
+<para>By using <code>vlc --help</code>, you will get the basic core
+options. <code>vlc --longhelp</code> will give all the basic options
+(core + modules). Adding <code>--advanced</code> will give the "advanced
+options" (for advanced users). So <code>vlc --longhelp --advanced</code>
+will give you all options.</para>
+
+<para>Also, you might want to get debug informations. To do this, use
+<code>-v</code>, <code>-vv</code> or <code>-vvv</code> (this will show
+lower severity messages). If your console supports it, you can add
+<code>--color</code> to get messages in color.</para>
 
 </sect2>
 
 <sect2><title>Opening streams</title>
 
-<para>
-The following commands start VLC and add the first
-element to the playlist.
-</para>
+<para>The following commands start VLC and start reading the given
+element(s)</para>
 
 <sect3><title>
 Opening a file
@@ -38,25 +56,16 @@ Start VLC with:
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv my_file.mpg</userinput>
+<prompt>% </prompt><userinput>vlc my_file</userinput>
 </screen>
 
-<para>
-Although VLC should be able to recognize the file
-type, you may tell VLC what codec to use with the
-<emphasis>--codec</emphasis> option. For example to play
-my_file.mpg using ffmpeg auido/video decoder do:
-</para>
+<para>VLC should be able to recognize the file type. If it does not, you
+can force demultiplexer and decoder (see below).</para>
 
-<screen>
-<prompt>% </prompt><userinput>vlc -vvv --codec ffmpeg my_file.mpg</userinput> 
-</screen>
-
-<para>
- A list of all video and audio
-codecs supported by VLC is available on the <ulink url="http://www.videolan.org/vlc/features.html">VLC features
-list</ulink>.
-</para>
+<para> A list of all video and audio codecs
+supported by VLC is available on the <ulink
+url="http://www.videolan.org/vlc/features.html">VLC features
+list</ulink>. </para>
 
 </sect3>
 
@@ -68,21 +77,33 @@ Opening a DVD or VCD, or an audio CD
 Start VLC with:
 </para>
 
+<para>For a DVD with menus :</para>
+
 <!-- Do not wrap me -->
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv dvd://[device][@raw_device][@[title][,[chapter][,angle]]]
-</userinput>
+<prompt>% </prompt><userinput>vlc dvd://[device][@raw_device][@[title][,[chapter][,angle]]]</userinput>
 </screen>
+
+<para>In most cases, <code>vlc dvd://</code> or <code>vlc dvd://[device]</code> will do. [device] is for example <code>/dev/dvd</code> on GNU/Linux or <code>D:</code> on Windows (complete path to your DVD drive).</para>
 
 <para>
 or 
 
 
+(DVD without menus) :</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc dvdsimple://[device][@raw_device][@[title][,[chapter][,angle]]]</userinput>
+</screen>
+
+<para>
+or 
+
 (VCD):</para>
 
 <!-- Do not wrap me -->
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv vcd://[device][@{E|P|E|T|S}[number]]</userinput>
+<prompt>% </prompt><userinput>vlc vcd://[device][@{E|P|E|T|S}[number]]</userinput>
 </screen>
 
 <para>
@@ -93,13 +114,8 @@ or
 
 <!-- Do not wrap me -->
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv cdda://[device][@[track]]</userinput>
+<prompt>% </prompt><userinput>vlc cdda://[device][@[track]]</userinput>
 </screen>
-<para>
-where device is the complete path to your DVD or
-CD-ROM drive.
-</para>
-
 </sect3>
 
 <sect3><title>
@@ -112,15 +128,17 @@ VLC's stream output), start VLC with:
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv udp:[@:server_port]</userinput>
+<prompt>% </prompt><userinput>vlc  udp:[@:server_port]</userinput>
 </screen>
+
+<para>If you use the default port (1234), <code>vlc udp:</code> will do. For more information, look at the Streaming Howto</para>
 
 <para>
 To receive an multicast UDP stream (sent by VLS or
 VLC's stream output), start VLC with:
 </para>
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv udp:@multicast_address[:server_port]</userinput>
+<prompt>% </prompt><userinput>vlc udp:@multicast_address[:server_port]</userinput>
 </screen>
 
 <para>
@@ -130,14 +148,14 @@ To receive a HTTP stream, start VLC with
  :</para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv http://www.example.org/your_file.mpg</userinput>
+<prompt>% </prompt><userinput>vlc http://www.example.org/your_file.mpg</userinput>
 </screen>
 
 <para>
 To receive a RTSP stream, start VLC with:</para>
                                                                                 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv rtsp://www.example.org/your_stream</userinput>
+<prompt>% </prompt><userinput>vlc rtsp://www.example.org/your_stream</userinput>
 </screen>
 
 </sect3>
@@ -145,14 +163,11 @@ To receive a RTSP stream, start VLC with:</para>
 
 <sect2><title>Modules selection</title>
 
-<para>
- VLC tries to select the most appropriate interface,
+<para>VLC always try to select the most appropriate interface,
 input and output modules, among the ones available on the system,
 according to the stream it is given to read. However, you may wish
 to force the use of a specific module with the following options.
-
-
-:</para>
+</para>
 
 <itemizedlist>
 <listitem><para><emphasis>--intf  &lt;module&gt;</emphasis>
@@ -160,7 +175,7 @@ allows you to select the interface module.
 </para></listitem>
 <listitem><para><emphasis>--extraintf  &lt;module&gt;</emphasis>
 allows you to select extra interface modules that
-will be launched in addition to the main one.
+will be launched in addition to the main one. This is mainly useful for special <emphasis>control</emphasis> interfaces, like HTTP, RC (Remote Control), ... (see below)
 </para></listitem>
 <listitem><para><emphasis>--aout  &lt;module&gt;</emphasis>
 allows you to select the audio output module.
@@ -168,13 +183,14 @@ allows you to select the audio output module.
 <listitem><para><emphasis>--vout  &lt;module&gt;</emphasis>
 allows you to select the video output module.
 </para></listitem>
-<listitem><para><emphasis>--filter  &lt;module&gt;</emphasis>
-allows you to add a video filter module.
-</para></listitem>
 <listitem><para><emphasis>--memcpy  &lt;module&gt;</emphasis>
-allows you to choose a memory copy module.
+allows you to choose a memory copy module. You should probably never touch that.
 </para></listitem>
 </itemizedlist>
+
+
+<para>You can get a listing of the available modules by using <code>vlc
+-l</code></para>
 
 </sect2>
 
@@ -182,7 +198,11 @@ allows you to choose a memory copy module.
 Stream Output
 </title>
 
-<para>For more details on the stream output system, please have a look at the streaming howto.</para>
+<para>The Stream output system allows vlc to become a streaming
+server.</para>
+
+<para>For more details on the stream output system, please have a look
+at the Streaming Howto.</para>
 
 </sect2>
 
@@ -198,20 +218,21 @@ disables audio output.
 forces VLC to treat the stream in mono audio.
 </para></listitem>
 <listitem><para><emphasis>--volume  &lt;integer&gt;</emphasis> 
-sets the level of audio output.
+sets the level of audio output (between 0 and 200)
 </para></listitem>
-<listitem><para><emphasis>--aout-rate  &lt;integer&gt;</emphasis>
-sets the audio output frequency (Hz).
+<listitem><para><emphasis>--aout-rate &lt;integer&gt;</emphasis> sets
+the audio output frequency (Hz). By default, VLC will try to autodetect
+this. </para></listitem>
+<listitem><para><emphasis>--desync &lt;integer&gt;</emphasis>
+compensates desynchronization of audio (ms). (If audio and video streams
+are not synchronized, use this setting to delay the audio stream)
 </para></listitem>
-<listitem><para><emphasis>--desync  &lt;integer&gt;</emphasis>
-compensates desynchronization of audio (ms).
-</para></listitem>
-<listitem><para><emphasis>--headphone</emphasis>
- activates headphone virtual spatialization effect.
-</para></listitem>
-<listitem><para><emphasis>--headphone-dim</emphasis>
- sets headphone characteristic dimension.
-</para></listitem>
+<listitem><para><emphasis>--audio-filter &lt;string&gt;</emphasis>
+adds audio filters to the processing chain. Available filters
+are visual (visualizer with spectrum analyser and oscilloscope),
+headphone (virtual headphone spatialization) and normalizer (volume
+normalizer</para></listitem>
+
 </itemizedlist>
 
 </sect3>
@@ -231,7 +252,7 @@ turns video output into greyscale mode.
 </para></listitem>
 
 <listitem><para><emphasis>--fullscreen</emphasis>
-sets fullscreen video.
+( or <emphasis>-f</emphasis>) sets fullscreen video.
 </para></listitem>
 
 <listitem><para><emphasis>--nooverlay</emphasis>
@@ -239,7 +260,7 @@ disables hardware acceleration for the video output.
 </para></listitem>
 
 <listitem><para><emphasis>--width, --height &lt;integer&gt;</emphasis>
-sets the video window dimensions.
+sets the video window dimensions. By default, the video window size will be adjusted to match the video dimensions.
 </para></listitem>
 
 <listitem><para><emphasis>--zoom &lt;float&gt;</emphasis>
@@ -247,12 +268,16 @@ adds a zoom factor.
 </para></listitem>
 
 <listitem><para><emphasis>--aspect-ratio &lt;mode&gt;</emphasis>
-forces source aspect ratio.
+forces source aspect ratio. Modes are 4x3, 16x9, ...
 </para></listitem>
 
 <listitem><para><emphasis>--spumargin  &lt;integer&gt;</emphasis> 
 forces SPU subtitles postion.
 </para></listitem>
+
+<listitem><para><emphasis>--filter &lt;string&gt;</emphasis> Adds video
+filters to the processing chain. You can add several filters, separated
+by semi-commas</para></listitem>
 
 </itemizedlist>
 
@@ -264,21 +289,20 @@ Playlist options
 
 <itemizedlist>
 
-<listitem><para><emphasis>--playlist</emphasis>
-launches playlist on startup.
-</para></listitem>
-
 <listitem><para><emphasis>--random</emphasis>
 plays files randomly forever.
-</para></listitem>
-
-<listitem><para><emphasis>--enqueue</emphasis>
-enqueues items in playlist.
 </para></listitem>
 
 <listitem><para><emphasis>--loop</emphasis>
 loops playlist on end.
 </para></listitem>
+
+<listitem><para><emphasis>--repeat</emphasis>
+Repeats the current item until another item is forced
+</para></listitem>
+
+<listitem><para><emphasis>--loop</emphasis> Stops the playlist after
+each played item.</para></listitem>
 
 </itemizedlist>
 
@@ -322,6 +346,9 @@ forces IPv4.
 CPU options
 </title>
 
+<para>You should probably not touch these options unless you know what
+you are doing.</para>
+
 <itemizedlist>
 
 <listitem><para><emphasis>--nommx</emphasis>
@@ -351,7 +378,7 @@ Miscellaneous options
 <itemizedlist>
 
 <listitem><para><emphasis>--quiet</emphasis>
- deactivates the console messages.
+ deactivates all console messages.
 </para></listitem>
 
 <listitem><para><emphasis>--color</emphasis>
@@ -365,6 +392,9 @@ specifies interface default search path.
 <listitem><para><emphasis>--plugin-path  &lt;string&gt;</emphasis>
 specifies plugin search path.
 </para></listitem>
+
+<listitem><para><emphasis>--no-plugins-cache</emphasis> Disables the
+plugin cache (plugins cache speeds up startup)</para></listitem>
 
 <listitem><para><emphasis>--dvd  &lt;string&gt;</emphasis> 
 specifies the default DVD device.
@@ -381,7 +411,6 @@ specifies program (SID) (for streams with several programs, like satellite ones)
 <listitem><para><emphasis>--audio-type  &lt;integer&gt;</emphasis>
 specifies the default audio type to use with dvds
 
- 
 .</para></listitem>
 
 <listitem><para><emphasis>--audio-channel  &lt;integer&gt;</emphasis>
@@ -392,39 +421,12 @@ specifies the default audio channel to use with dvds.
 specifies the default subtitle channel to use with dvds.
 </para></listitem>
 
-</itemizedlist>
-
-</sect3>
-
-<sect3><title>
-Help options
-</title>
-
-<itemizedlist>
-
-<listitem><para><emphasis>--verbose  &lt;verbosity&gt;</emphasis>
-specifies verbosity level.
-</para></listitem>
-
-<listitem><para><emphasis>--help</emphasis>
-gives you all available options.
-</para></listitem>
-
-<listitem><para><emphasis>--longhelp</emphasis> 
-gives you a detailled version of the available 
-options.
-</para></listitem>
-
 <listitem><para><emphasis>--version</emphasis> 
 gives you information about the current VLC version.
 </para></listitem>
 
-<listitem><para><emphasis>--list</emphasis> 
-displays a list of available plugins.
-</para></listitem>
-
 <listitem><para><emphasis>--module  &lt;module&gt;</emphasis> 
-displays help about specified module.
+displays help about specified module. (Shortcut : <emphasis>-p</emphasis>)
 </para></listitem>
 
 </itemizedlist>
@@ -435,28 +437,134 @@ displays help about specified module.
 </sect1>
 
 <!-- ************************************************************* SECTION -->
+<sect1><title>Advanced use of filters</title>
+
+<para>TODO</para>
+
+</sect1>
+
+<!-- ************************************************************* SECTION -->
 <sect1><title>The HTTP interface</title>
 
-<para>Get the old description and update it</para>
+<para>
+VLC ships with a little HTTP server integrated.
+It is used both to stream using HTTP, and for the HTTP remote control
+interface.
+</para>
+
+<para>
+To start VLC with the HTTP interface, use:
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -I http (--http-src /directory/ --http-host host:port)</userinput>
+</screen>
+
+<para>If you want to have both the "normal" interface and the HTTP
+interface, use <code>vlc --extraintf http</code>.</para>
+
+<para>
+The HTTP interface will start listening at host:port
+(localhost:8080 if omitted), and will reproduce the structure of
+/directory at http://host:port/ ( vlc_source_path/share/http if omitted
+).
+</para>
+
+
+<para>Use a browser to go to http://your_host_machine:port. You should
+be taken to the main page</para>
+
+<para>
+VLC is shipped with a set of files that should be.
+enough for generic needs. It is also possible to customize pages. See <xref linkend="http" />.
+</para>
+
+
+<para>Available pages are : </para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>/index.html</emphasis> gives access to
+the playlist, allows you to add or delete items and to control
+playback.</para></listitem>
+<listitem><para><emphasis>/info.html</emphasis> gives you statistics
+and data about the usage of the server.</para></listitem>
+<listitem><para><emphasis>/admin/</emphasis>. This folder gives
+more power and is therefore protected by a login/password. The
+default couple is admin/admin. The passwords and users can
+be changed in the <emphasis>.access</emphasis> file in the
+<emphasis>VLC_directory/share/http/admin</emphasis> folder. (Each folder
+can be protected, see <xref linkend="http" /> for more details).</para></listitem>
+<listitem><para><emphasis>/vlm/</emphasis>. This folder allows you to
+control the VideoLAN manager (VLM). The VLM allows you to stream several
+input streams with only one VLC instance. For more information about
+VLM, please look at the Streaming Howto.</para></listitem>
+
+</itemizedlist>
 
 </sect1>
 
 <!-- ************************************************************* SECTION -->
 <sect1><title>Other control interfaces</title>
 
-<para>To be done</para>
+<para>VLC includes a number of so-called interfaces that are not really
+interfaces, but means of controlling VLC. Nevertheless, they are
+enabled by setting them as interface or extra interface, either in the
+Prererences, in General/Interface, or using -I or --extraintf on the
+command line.</para>
+
+
+<sect2><title>Hotkeys</title>
+
+<para>This module allows you to control VLC and playback via hotkeys. It
+is always enabled by default. For user details on hotkeys, See FIXME</para>
+
+</sect2>
+
+<sect2><title>RC and RTCI</title>
+
+<para>These two interfaces allow you to control VLC from a command shell
+(possibly using a remote connexion or a Unix socket</para>
+
+<para>Start VLC with <emphasis>-I rc</emphasis> or <emphasis>--extraintf
+rc</emphasis>. When you get the <code>Remote control interface
+initialized, `h' for help</code> message, press h and Enter to get help
+about available commands.</para>
+
+<para>To be able to remote connect to your VLC using a TCP
+socket (telnet-like connexion), use <emphasis>--rc-host
+your_host:port</emphasis>. Then, by connecting (using telnet or netcat)
+to the host on the given port, you will get the command shell.</para>
+
+<para>To use a UNIX socket (local socket, this does not work for
+Windows), use <emphasis>--rc-unix /path/to/socket</emphasis>. Commands
+can then be passed using this UNIX socket.</para>
+
+<para>The RTCI interface gives you more advanced options, such
+as marquee control for the marquee subpicture filter (See filter
+section).</para>
+
+</sect2>
+
+<sect2><title>Ncurses</title>
+<para>Todo</para>
+</sect2>
+
+<sect2><title>Gestures</title>
+<para>Gestures provide a simple mouse gestures control. TODO</para>
+</sect2>
+
+<sect2><title>Joystick</title> <para>Joystick (only for GNU/Linux)
+provides control of VLC using a joystick. TODO </para> </sect2>
+
 </sect1>
 
 <!-- ************************************************************* SECTION -->
 <sect1><title>The Mozilla plugin</title>
 
-<!-- TODO: completely outdated -->
-
-<note><para>OUTDATED !</para></note>
-
-<para>
-VLC can also be embedded in a web browser
-! At the moment, this function is only available with <ulink url="http://www.mozilla.org/">Mozilla</ulink> under GNU/Linux. An experimental plugin is also available for Mac OS X and Microsft Windows.
+<para> VLC can also be embedded in a web browser ! At
+the moment, this function is only available with <ulink
+url="http://www.mozilla.org/">Mozilla</ulink> or Firefox.
 </para>
 
 <sect2><title>Install the plugin</title>
@@ -494,24 +602,56 @@ Install the
 
 </sect3>
 
+<sect3><title>Windows</title>
+
+<para>Quit Firefox or Mozilla</para>
+
+<para>Copy the two files in
+<emphasis>VLC_Installation_folder\mozilla</emphasis> (usually
+<emphasis>C:\Program Files\VideoLAN\VLC\mozilla</emphasis>) to
+your mozilla plugins directory (Usually <emphasis>C:\Program
+Files\Mozilla\plugins</emphasis> or <emphasis>C:\Program Files\Mozilla
+Firefox\plugins</emphasis>).</para>
+
+<para>Restart Firefox or Mozilla</para>
+
+</sect3>
+
 <sect3><title>
 Compile the sources yourself
 </title>
 
-<para><!-- TODO: send to the development website -->
-</para>
+<para>Please look at the <ulink
+url="http://developers.videolan.org">developers page</ulink> for
+information on how to do this. </para>
 
 </sect3>
+</sect2>
+
+<sect2><title>Use the plugin</title>
+
+<para>If you open a link to a video file handled by the VLC plugin (To
+get the list of handled types, browse to <code>about:plugins</code>)
+or a page with an embedded video, the plugin should open and read the
+video.</para>
+
 </sect2>
 
 <sect2><title>
 Build HTML pages that use the plugin
 </title>
 
+<para>Additionnaly to viewing video on all pages, you can build
+custom pages that will use the advanced features of the plugin, using
+Javascript functions to control playback or extract information from the
+plugin.</para>
+
 <para>
 Here are a few examples of HTML pages that use the
 Mozilla plugin.
 </para>
+
+<note><para>This paragraph is vastly outdated. Many additionnal features have been added...</para></note>
 
 <simplesect><title>
 Example 1
@@ -580,11 +720,5 @@ multicast UDP stream in a dedicated video output window.
 </simplesect>
 </sect2>
 </sect1>
-
-
-
-
-
-
 
 </chapter>

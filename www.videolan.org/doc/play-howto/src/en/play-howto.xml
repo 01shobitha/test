@@ -9,6 +9,8 @@
   <!ENTITY advanced-use SYSTEM "advanced-use.xml">
 
   <!ENTITY gpl SYSTEM "../../../common/en/gpl.xml">
+  
+   <!ENTITY http SYSTEM "http.xml">
 
 ]>
 
@@ -20,24 +22,16 @@
 
 <authorgroup>
   <author>
-    <firstname>Henri</firstname>
-    <surname>Fallon</surname>
-  </author>
-  <author>
     <firstname>Alexis</firstname>
     <surname>de Lattre</surname>
-  </author>
-  <author>
-    <firstname>Johan</firstname>
-    <surname>Bilien</surname>
   </author>
   <author>
     <firstname>Anil</firstname>
     <surname>Daoud</surname>
   </author>
   <author>
-    <firstname>Mathieu</firstname>
-    <surname>Gautier</surname>
+    <firstname>Benjamin</firstname>
+    <surname>Pracht</surname>
   </author>
   <author>
     <firstname>Clément</firstname>
@@ -99,5 +93,6 @@ This document is the complete user guide for the client aspects of VLC.
 &basic-use;
 &advanced-use;
 &gpl;
+&http;
 
 </book>

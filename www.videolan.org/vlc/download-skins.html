@@ -1,0 +1,129 @@
+<?
+   $title = "VLC media player - Download Skins";
+   $lang = "en";
+   $date = "28 March 2003";
+   $menu = array( "vlc", "skins-download" );
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
+?>
+
+<?
+  function AddSkin( $img, $text, $vlt, $zip )
+  {
+?>
+<table class="skins-download">
+ <tr>
+  <td>
+   <a href="/vlc/skins/<? echo $img; ?>">
+   <img width="200" src="/vlc/skins/<? echo $img; ?>"
+     class="skins-screenshot" alt="screenshot"/>
+   </a>
+  </td>
+  <td>
+   <table>
+    <tr><td class="skins-comment">
+      <? echo $text; ?>
+    </td></tr>
+    <tr><? if(strlen($zip)>2) {
+        CSSButton( "document.location='/vlc/skins/$zip'", 
+                   "skins-download", "skins-download-over",
+                   "skins-download-down" );
+        echo "Download ZIP file";
+    } ?>
+    </td></tr>
+    <tr><? if(strlen($vlt)>2) {
+        CSSButton( "document.location='/vlc/skins/$vlt'",
+                   "skins-download", "skins-download-over",
+                   "skins-download-down" );
+        echo "Download VLT file";
+    } ?>
+    </td></tr>
+   </table>
+  </td>
+ </tr>
+</table>
+<?
+  }
+?>
+
+<h1>Download Skins</h1>
+
+<h2>How to use it ?</h2>
+
+<p>There are two types of skin files: <b>vlt</b> files which vlc can read
+directly and <b>zip</b> files wich you must unzip before using.</p>
+<p>To change the skin, if no button is present on the skin to do it,
+just press CTRL+S on your keyboard then choose the *.vlt or theme.xml file
+of the new skin you want to use.</p>
+
+<h2>Basic skin</h2>
+
+<? AddSkin( 
+   "default.jpg", 
+   "This is the basic skin, it is available by default on releases.",
+   "default.vlt",
+   "default.zip" );
+?>
+
+<h2>Winamp5 skin</h2>
+<? AddSkin(
+   "winamp5.jpg",
+   "This is a Winamp5-like skin, made by kty0ne and improved by Jérôme Guilbaud.",
+   "winamp5.vlt",
+   "winamp5.zip" );
+?>
+
+<h2>Hifi skin</h2>
+<? AddSkin( 
+   "skin-hifi.jpg",
+   "This skin was made by Good old KroKoFox.",
+   "",
+   "kkf.zip"); 
+
+?>
+
+<h2>Aquax skin</h2>
+<? AddSkin( 
+   "aquax.jpg",
+   "This skin was originally made for zinf by Andreas Koslowski.<br>
+   Skin dapted to VLC by Laurent Aimar",
+   "aquax.vlt",
+   ""); 
+
+?>
+
+<h2>KiND skin</h2>
+<? AddSkin( 
+   "KiND.jpg",
+   "This skin was made by Karim Nassar.",
+   "KiND.vlt",
+   ""); 
+
+?>
+
+<h2>Orange skin</h2>
+<? AddSkin( 
+   "orange.jpg",
+   "This skin was made by Ralf Niedling.",
+   "orange.vlt",
+   ""); 
+
+?>
+
+<h2>BSPlayer skin</h2>
+<? AddSkin(
+   "bsplayer.jpg",
+   "This is an imitation of BSPlayer, made by Pierre Patoureaux.",
+   "BSPlayer.vlt",
+   "BSPlayer.zip" );
+?>
+
+<h2>Skull Head skin</h2>
+<? AddSkin(
+   "crane.jpg",
+   "This skin has been made by Pierre Patoureaux.",
+   "crane.vlt",
+   "crane.zip" );
+
+?>
+
+<? footer('$Id$'); ?>

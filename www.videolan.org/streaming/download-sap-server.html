@@ -1,0 +1,20 @@
+<?
+   $title = "Mini SAP server - download";
+   $lang = "en";
+   $date = "12 december 2003";
+   $menu = array( "streaming", "" );
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
+?>
+
+<? function pkgitem($version,$name) { ?><li><a href="http://download.videolan.org/pub/videolan/miniSAPserver/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
+
+<h1> Mini-SAP-server for Linux and Mac OS X</h1>
+
+
+<p>Latest mini-SAP-server tarball (0.2.3) (requires VLC 0.6.2 or higher):</p>
+
+<ul>
+  <? pkgitem("0.2.3","miniSAPserver-0.2.3.tar.gz"); ?>
+</ul>
+
+<? footer('$Id$'); ?>

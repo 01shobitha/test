@@ -63,7 +63,7 @@
 
                     if( $style == "full" )
                     {
-                        $date = "<a name=\"".$anchor."\">".$date."</a>";
+                        $date = "<a id=\"".$anchor."\">".$date."</a>";
                         echo ("<p><b>".$title."</b> (".$date.")\n");
                         echo $text;
                         echo ("</p>\n");

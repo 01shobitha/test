@@ -51,28 +51,30 @@ function starthtml($title) { ?>
 
 <table width="100%" cellspacing="0" cellpadding="0">
 
-<tr><td><img src="/images/cone-soppera1-mini.png" alt="Logo VideoLAN" /></td>
+<tr>
 
-<td>
+ <td><img src="/images/cone-soppera1-mini.png" alt="Logo VideoLAN" /></td>
+
+ <td>
 
   <form action="index.html" method="get">
   <table width="100%" cellspacing="0" cellpadding="0">
 
-<tr>
+  <tr>
 
-<td>
+   <td>
 
-<table width="100%" cellspacing="3" cellpadding="0">
-<tr>
-    <td style="background-color: <?echo($color_home);?>; width: 17%; vertical-align: middle;" align="center"><a href="/">Home</a></td>
-    <td style="background-color: <?echo($color_vlc);?>; width: 16%; vertical-align: middle;" align="center"><a href="/vlc/">VLC media player</a></td>
-    <td style="background-color: <?echo($color_streaming);?>; width: 17%; vertical-align: middle;" align="center"><a href="/streaming/">Streaming</a></td>
-    <td style="background-color: <?echo($color_doc);?>; width: 17%; vertical-align: middle;" align="center"><a href="/doc/">Documentation</a></td>
-    <td style="background-color: <?echo($color_support);?>; width: 16%; vertical-align: middle;" align="center"><a href="/support/">Support</a></td>
-    <td style="background-color: #afa; width: 17%; vertical-align: middle;" align="center"><a href="http://developers.videolan.org/">Developers</a></td>
-</tr>
-</table>
-</td>
+     <table width="100%" cellspacing="3" cellpadding="0">
+     <tr>
+     <td style="background-color: <?echo($color_home);?>; width: 17%; vertical-align: middle;" align="center"><b><a href="/">Home</a></b></td>
+     <td style="background-color: <?echo($color_vlc);?>; width: 16%; vertical-align: middle;" align="center"><a href="/vlc/">VLC media player</a></td>
+     <td style="background-color: <?echo($color_streaming);?>; width: 17%; vertical-align: middle;" align="center"><a href="/streaming/">Streaming</a></td>
+     <td style="background-color: <?echo($color_doc);?>; width: 17%; vertical-align: middle;" align="center"><a href="/doc/">Documentation</a></td>
+     <td style="background-color: <?echo($color_support);?>; width: 16%; vertical-align: middle;" align="center"><a href="/support/">Support</a></td>
+     <td style="background-color: #afa; width: 17%; vertical-align: middle;" align="center"><a href="http://developers.videolan.org/">Developers</a></td>
+     </tr>
+     </table>
+    </td>
 
 
     <td style="white-space: nowrap;">
@@ -83,36 +85,35 @@ function starthtml($title) { ?>
       </select><input type="submit" value="Select Mirror" />
     </td>
 
+    </tr>
+    <tr>
 
-</tr>
+   <td>
 
-<tr>
-<td>
-
-<table width="100%" cellspacing="3" cellpadding="0">
-<tr>
-
-  <? switch($modules[1]) {
+    <table width="100%" cellspacing="3" cellpadding="0">
+    <tr>
+    <? switch($modules[1]) {
       case "vlc": second_bar_vlc(); break;
       case "streaming": second_bar_stream(); break;
       case "doc": break;
       case "support": second_bar_support(); break;
       default: second_bar_home(); break;
-   } ?>
+    } ?>
+    </tr>
+    </table>
 
+   </td>
 
+   <td></td>
+
+  </tr>
+
+  </table>
+  </form>
+
+ </td>
 </tr>
 </table>
-
-</td>
-<td></td>
-</tr>
-
-</table>
-
-</form>
-
-</td></tr></table>
 
 <div style="margin: 10px;"><?
 

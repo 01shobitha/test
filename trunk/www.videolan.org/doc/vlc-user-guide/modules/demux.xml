@@ -134,11 +134,11 @@ encapsulés en MPEG2-Program Stream ou Transport Stream</span>
 &options-st;  
 <itemizedlist>
 <listitem>
-<para><emphasis>--vls-backward-compat, --no-vls-backward-compat (ts module)</emphasis> :
-   <span xml:lang="en"> Enable this option if you want to read VLS &lt; 0.4 MPEG 2 streams.</span>
-   <span xml:lang="fr"> Activez cette option pour pouvoir lire des flux diffusés par des VLS antérieurs 0.4</span>
+<para><emphasis>--vls-backward-compat, --no-vls-backward-compat</emphasis> :
+   <span xml:lang="en"> Enable this option if you want to read VLS &lt; 0.4 MPEG 2 TS streams.</span>
+   <span xml:lang="fr"> Activez cette option pour pouvoir lire des flux MPEG 2 TS diffusés par des VLS antérieurs 0.4</span>
   </para></listitem>
-  <listitem><para>--buggy-psi, --no-buggy-psi (ts module)
+  <listitem><para><emphasis>--buggy-psi, --no-buggy-psi (ts module) </emphasis>:
    <span xml:lang="en"> Enable this option to help handling of files
      with buggy PSI.</span>
    <span xml:lang="fr"> Activez cette option pour améliorer la 

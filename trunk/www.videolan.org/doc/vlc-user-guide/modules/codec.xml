@@ -18,7 +18,7 @@ nombreux codecs (formats de compression)</span>
 url="http://liba52.sourceforge.net/">liba52 web site</ulink></span>
 <span xml:lang="fr">Ce décodeur utilise liba52 (voir le <ulink
 url="http://liba52.sourceforge.net/">site liba52</ulink></span>
-.</para></sect2>
+).</para></sect2>
 
 <sect2><title>ffmpeg</title>
 &enabled;

@@ -88,6 +88,8 @@ function starthtml($title) { ?>
     get_first_bar_item(6, "support", "Support", "/support/", $modules[1]);
     get_first_bar_item(6, "developers", "Developers", "http://developers.videolan.org/", $modules[1]);
   ?></tr>
+  </table>
+  <table style="width: 100%;" cellspacing="0" cellpadding="0">
   <tr class="bottombar">
     <? switch($modules[1]) {
       case "vlc": second_bar_vlc($modules[2]); break;

@@ -2,6 +2,17 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+|3 Jan 2004| Release: VLC 0.7.0| This major release of VLC
+media player features major core enhancements, support for
+RTP/RTSP, new audio visual effects, supports for new formats
+(Speex, MPEG2 4/2/2, AAC+SBR, ...), many interfaces and playlist
+enhancements, a new interface for MacOS X, a DirectShowinput on
+Win32, support for MacOS X 10.3 Panther, and much more! Look <a
+href="http://developers.videolan.org/vlc/NEWS">here</a> for a complete
+list of changes. To download the sources or the binary package of this
+new version, go to the <a href="http://www.videolan.org/vlc/">VLC
+download page</a> and click on your OS logo!
+
 |2 Jan 2004| Release: libdvbpsi 0.1.4| This new release of libdvbpsi 
 fixes a few bugs and adds support for DVB subtitles descriptor
 

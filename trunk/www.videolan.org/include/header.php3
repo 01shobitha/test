@@ -126,32 +126,33 @@ function get_second_bar_item ( $number , $module , $text , $url , $current_modul
 /* Second bar for vlc */
 
 function second_bar_vlc($module) { ?>
-<? get_second_bar_item ( 3 , "index.html" , "Download" , "/vlc/index.html" , $module ) ?>
+<? get_second_bar_item ( 3 , "index.html" , "Download" , "/vlc/" , $module ) ?>
 <? get_second_bar_item ( 3 , "features.html" , "Features" , "/vlc/features.html" , $module ) ?>
 <? get_second_bar_item ( 3 , "screenshots.html" , "Screenshots" , "/vlc/screenshots.html" , $module ) ?>
 <? }
 
 /* Second bar for streaming */
 
-function second_bar_stream() { ?>
-<? get_second_bar_item ( 3 , "index.html" , "Overview" , "/streaming/index.html" , $module ) ?>
+function second_bar_stream($module) { ?>
+<? get_second_bar_item ( 3 , "index.html" , "Overview" , "/streaming/" , $module ) ?>
 <? get_second_bar_item ( 3 , "features.html" , "Features" , "/streaming/features.html" , $module ) ?>
 <? get_second_bar_item ( 3 , "download.html" , "Download" , "/streaming/download.html" , $module ) ?>
 <? }
 
 /* Second bar for support */
 
-function second_bar_support() { ?>
-<? get_second_bar_item ( 3 , "" , "Bugzilla" , "http://bugzilla.videolan.org" , $module ) ?>
-<? get_second_bar_item ( 3 , "lists.html" , "Mailing-lists" , "/support/lists.html" , $module ) ?>
-<? get_second_bar_item ( 3 , "" , "IRCWeb" , "/cgi-bin/irc/irc.cgi" , $module ) ?>
+function second_bar_support($module) { ?>
+<? get_second_bar_item ( 4 , "index.html" , "Overview" , "/support/" , $module ) ?>
+<? get_second_bar_item ( 4 , "bug" , "Bugzilla" , "http://bugzilla.videolan.org" , $module ) ?>
+<? get_second_bar_item ( 4 , "lists.html" , "Mailing-lists" , "/support/lists.html" , $module ) ?>
+<? get_second_bar_item ( 4 , "irc" , "IRCWeb" , "/cgi-bin/irc/irc.cgi" , $module ) ?>
 <? }
 
 
 
 /* Second bar for home */
 
-function second_bar_home() { ?>
+function second_bar_home($module) { ?>
 <? get_second_bar_item ( 8 , "index.html" , "Overview" , "/index.html" , $module ) ?>
 <? get_second_bar_item ( 8 , "news.html" , "News" , "/news.html" , $module ) ?>
 <? get_second_bar_item ( 8 , "events" , "Events" , "/events/" , $module ) ?>

@@ -27,13 +27,13 @@ uncompress them in the same directory :</p>
 </pre>
 
 
-<h2>Fedora packages for i386</h2>
+<h2>Fedora Core 3 packages for i386</h2>
 
 <p>Latest RPM x86 packages tarballs for Fedora Core 3 : </p>
 
 <ul>
-<?php pkgitem("vlc/0.8.1/rpm/fedora/fc3","vlc-binary.tar.gz","(VLC Binaries packages)");
-   ?></ul>
+<?php pkgitem("vlc/0.8.1/rpm/fedora/fc3","vlc-binary.tar.gz","(VLC Binaries packages)");?>
+</ul>
 
 <p>Optional components:</p>
 
@@ -49,9 +49,31 @@ uncompress them in the same directory :</p>
 
 <h2>Older versions</h2>
 
-<p>Fedora Core 1 and 2 packages were available for version 0.7.2 .</p>
-
 <p> Older versions can be found by browsing our FTP site :</p>
 <ul> <?php mirrordir("vlc"); ?> </ul>
+
+<h1>Unofficial Fedora Core packages</h1>
+
+<p>Matthias Saou from freshrpms.net also maintains some Fedora Core Packages.</p>
+
+<ul>
+<?php pkgitem("vlc/0.8.1/rpm/fedora/fc3","videolan-client-0.8.1-1.1.fc3.rf.i386.rpm","(VLC i386 Fedora Core 3 Binary package)");?>
+</ul>
+
+<ul>
+<?php pkgitem("vlc/0.8.1/rpm/fedora/fc3","videolan-client-0.8.1-1.1.fc3.rf.x86_64.rpm","(VLC x86_64 Fedora Core 3 Binary package)");?>
+</ul>
+
+<ul>
+<?php pkgitem("vlc/0.8.1/rpm/fedora/fc2","videolan-client-0.8.1-1.1.fc2.rf.i386.rpm","(VLC i386 Fedora Core 2 Binary package)");?>
+</ul>
+
+<ul>
+<?php pkgitem("vlc/0.8.1/rpm/fedora/fc2","videolan-client-0.8.1-1.1.fc2.rf.x86_64.rpm","(VLC x86_64 Fedora Core 2 Binary package)");?>
+</ul>
+
+<ul>
+<?php pkgitem("vlc/0.8.1/rpm/fedora/fc1","videolan-client-0.8.1-1.1.fc1.rf.i386.rpm","(VLC i386 Fedora Core 1 Binary package)");?>
+</ul>
 
 <?php footer('$Id$'); ?>

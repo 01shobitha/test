@@ -1,7 +1,6 @@
-all: html ps pdf rtf
+all: clean html ps pdf rtf
 
 html:
-	rm -f *.html
 	/bin/cp ../common/magic-jpg.sgml ../common/magic.sgml
 	/bin/cp ../../images/plan-videolan-640.jpg .
 	/bin/cp ../common/fdl.txt .
@@ -32,6 +31,9 @@ rtf:
 	/bin/cp ../../images/plan-videolan-640.jpg .
 	sgmltools -b rtf -s ../common/stylesheet-print-noicones.dsl videolan-quickstart.sgml
 	zip videolan-quickstart-rtf.zip videolan-quickstart.rtf *.jpg
+
+txt:
+	sgmltools -b txt videolan-quickstart.sgml
 
 clean:
 	rm -f *.zip *.html *.pdf *.ps

@@ -365,6 +365,130 @@ to monitor a stream while it is being saved or streamed. </para>
 
 </sect2>
 
+<sect2><title>rtp</title>
+
+<para>This module can be used to send a stream using the <emphasis>RTP
+(Real Time Protocol)</emphasis> protocol (see RFC 3550).</para>
+
+<note><para>Although use of <emphasis>RTSP</emphasis> is possible using
+this module, it won't allow you to make Video On demand. Please have a
+look at the description of the VLM module for that.</para></note>
+
+<para>The different available options are:</para>
+
+<sect3><title>dst=</title>
+
+<para>This option allow to give the destination UDP address. This can
+be the address of a host or a multicast group. This option has to be
+given, unless the <emphasis>sdp=rtsp://</emphasis>option is given (see
+below). In that last case, the stream will be sent to the host doing the
+<emphasis>RTSP</emphasis> request.</para>
+
+</sect3>
+
+<sect3><title>port=</title>
+
+<para>This option allows to set the UDP port used to send the first <emphasis>elementary stream</emphasis>. This port has to be even. Other streams will be streamed using even ports directly above this one.</para>
+
+</sect3>
+
+<sect3><title>port-video=</title>
+
+<para>This option allows to set the UDP port used to send the first
+video <emphasis>elementary stream</emphasis>. This port has to be
+even.</para>
+
+</sect3>
+
+<sect3><title>port-audio=</title>
+
+<para>This option allows to set the UDP port used to send the first
+audio <emphasis>elementary stream</emphasis>. This port has to be
+even.</para>
+
+</sect3>
+
+<sect3><title>sdp=</title>
+
+<para>This option allows to set the way the SDP (Session Description Protocol) file corrersponding the the stream should be made available.</para>
+
+<para>Options are:</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>file://&lt;path to the file&gt;</emphasis>, to
+export the SDP as a local file</para></listitem>
+
+<listitem><para><emphasis>http://&lt;local interface
+IP:port/path&gt;</emphasis>, to make the file available using the
+integrated HTTP server of VLC.</para>
+
+<note><para>The <emphasis>local interface IP</emphasis> argument
+is optional. If not given, VLC will listen on all the available
+interfaces.</para></note></listitem>
+
+<listitem><para><emphasis>rtsp://&lt;local interface
+IP:port/path&gt;</emphasis>, to make the SDP file available using the
+<emphasis>RTSP</emphasis> protocol (see RFC 2326).</para>
+
+<note><para>The <emphasis>local interface IP</emphasis> argument
+is optional. If not given, VLC will listen on all the available
+interfaces.</para></note></listitem>
+
+<listitem><para><emphasis>sap</emphasis>, to export the SDP using the
+SAP (Session Announcement Protocol, see RFC 2974).</para></listitem>
+
+</itemizedlist>
+
+</sect3>
+
+<sect3><title>ttl=</title>
+
+<para>This option can be used to set the <emphasis>TTL</emphasis> (Time
+to Live) of the sent UDP packets.</para>
+
+</sect3>
+
+<sect3><title>mux=</title>
+
+<para>This option allows to set the encapsulation method used to
+send the stream. See <emphasis>mux=</emphasis> options of the
+<emphasis>standard</emphasis> module for a description of the available
+method. Only <emphasis>ts</emphasis> and <emphasis>raw</emphasis>
+(no encpasulation) are possible values for <emphasis>RTP</emphasis>
+streams. Default is RAW.</para>
+
+</sect3>
+
+<sect3><title>name=</title>
+
+<para>This option can be used to set the name that will be displayed on
+the client receiving the stream.</para>
+
+</sect3>
+
+<sect3><title>description=</title>
+
+<para>This option can be used to give an additional description of the
+stream.</para>
+
+</sect3>
+
+<sect3><title>url=</title>
+
+<para>This option allows to give the address of a website with
+additional informations about the stream.</para>
+
+</sect3>
+
+<sect3><title>email=</title>
+
+<para>This options allows to give a contact e-mail address</para>
+
+</sect3>
+
+</sect2>
+
 <sect2><title>es</title>
 
 <para>The <emphasis>es</emphasis> module can be used to separate the

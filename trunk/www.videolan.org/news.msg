@@ -4,6 +4,15 @@
 # Et pour les nouvelles importantes, c'est pas un | , c'est un §
 #
 
+|8 Apr 2003| Release: VLC 0.5.3 | This new release features
+the first steps towards skinable interfaces (only on Windows, not yet on 
+Mac OS X or *nix). Support for playing directories and video4linux are 
+other big new features. Many bugs have been fixed, including the problem
+with USB speakers on MacOS X. To download the
+sources or the binary packages of this new version, go to the <a
+href="http://www.videolan.org/vlc/">VLC download page</a> and click on
+your OS logo!
+
 |8 Apr 2003| New skin for the Web site | Karibu has designed a new skin
 for the Web site : enjoy !
 

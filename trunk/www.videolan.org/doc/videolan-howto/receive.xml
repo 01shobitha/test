@@ -109,12 +109,14 @@ extension.</para></listitem>
 
 </sect1>
 
-<sect1><title>Receive a stream with a Set Top Box</title>
+<sect1><title>Receive a stream with a set-top-box</title>
 
-<para>Some <ulink url="http://www.pace.co.uk">Pace</ulink> and <ulink
-url="http://www.aminocom.com">Aminocom</ulink> set top boxes have
-Ethernet cards and can read MPEG2-TS over UDP streams. We had some
-reports that they work with the VideoLAN streamers.</para>
+<para>Some set-top-boxes with Ethernet cards can receive MPEG2-TS
+streams over UDP and support multicast. This is the case of
+the <ulink url="http://www.pace.co.uk">Pace</ulink> and <ulink
+url="http://www.aminocom.com">Aminocom</ulink> set top boxes. We have
+tested the <emphasis>AmiNET 100</emphasis> set-top-box from Aminocom:
+it is nice and small, and it works very well with VideoLAN.</para>
 
 </sect1>
 </chapter>

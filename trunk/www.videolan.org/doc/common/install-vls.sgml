@@ -1,16 +1,3 @@
-<simplesect><title>Install the DVB drivers</title>
-
-<para>If you want to be able to stream from a DVB card (a satellite
-card or a digital terrestial TV card), you need to install the DVB
-drivers. Download the latest release of the DVB drivers from the
-<ulink url="http://www.linuxtv.org/download/dvb/">DVB drivers download
-page</ulink> of the <ulink url="http://www.linuxtv.org/">LinuxTV</ulink>
-PROject.</para>
-
-<para>Uncompress the tarball and follow the instructions written in
-the <filename>INSTALL</filename> file to compile and install the
-drivers.</para>
-
 <simplesect><title>Install the librairies</title>
 
 <para>

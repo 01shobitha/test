@@ -78,8 +78,8 @@ global $HTTP_GET_VARS;
 <tr>
 
  <td style="width: 35px; text-align: center; vertical-align: middle">
-   <a href="/index.html"><img width="35" height="48"
-   src="/images/cone-soppera7-mini.png" alt="Logo VideoLAN"
+   <a href="/index.html"><img
+   src="/images/cone-soppera10-mini.png" alt="Logo VideoLAN"
    style="vertical-align: middle; border-width: 0px;" /></a>
   </td>
 
@@ -131,8 +131,8 @@ global $HTTP_GET_VARS;
 <tr>
 
  <td style="width: 35px; text-align: center; vertical-align: middle">
-   <a href="/index.html"><img width="35" height="48"
-   src="/images/cone-soppera7-mini.png" alt="Logo VideoLAN"
+   <a href="/index.html"><img
+   src="/images/cone-soppera10-mini.png" alt="Logo VideoLAN"
    style="vertical-align: middle; border-width: 0px;" /></a>
   </td>
 

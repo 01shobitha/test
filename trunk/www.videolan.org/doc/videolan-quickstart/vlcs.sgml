@@ -3,7 +3,7 @@
 <para>Typing multicast addresses and URLs is not very fun... and that's
 where a small program, the mini VideoLAN Channel Server (mini-vlcs),
 is very useful. The mini VideoLAN Channel Server associate URLs or
-multicast addresses to a channel, like on a TV.</para>
+multicast addresses to channels, like on a TV.</para>
 
 <sect1><title>Installing the mini VideoLAN Channel Server</title>
 

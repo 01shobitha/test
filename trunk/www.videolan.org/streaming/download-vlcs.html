@@ -1,0 +1,22 @@
+<?
+   $title = "Mini VideoLAN Channel Server - download";
+   $lang = "en";
+   $date = "14 January 2003";
+   require("header.php3");
+?>
+
+<? function pkgitem($version,$name) { ?><li><a href="/pub/videolan/vls/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
+
+<h1> <a href="/">VideoLAN</a> / <a href="/streaming/">Streaming</a> / Mini-VLCS for Linux</h1>
+
+<h2>Tarball</h2>
+
+
+<p>Latest mini-vlcs tarball (0.2.0b):</p>
+
+<ul>
+  <? pkgitem("0.2.0","miniVLCS-0.2.0b.tar.gz"); ?>
+  <li><a href="/pub/videolan/network/0.2.0/"><i>browse the list</i></a></li>
+</ul>
+
+<? require("footer.php3"); ?>

@@ -16,10 +16,10 @@
 <tr>
 <td style="width: 50%; vertical-align: top;">
 <p>
-<a href="20050226/VideoLAN%20Booth/Other%20demo/IMG_1260.JPG"><img alt="IMG_1260.JPG (1600x1200)"
+<a href="20050226/VideoLAN%20Booth/Other%20demo/IMG_1258.JPG"><img alt="IMG_1258.JPG (1600x1200)"
         width="120"
         height="90"
-        src="20050226/VideoLAN%20Booth/Other%20demo/.xvpics/tn_IMG_1260.JPG.png" /><br />IMG_1260.JPG<br />1600x1200</a>
+        src="20050226/VideoLAN%20Booth/Other%20demo/.xvpics/tn_IMG_1258.JPG.png" /><br />IMG_1258.JPG<br />1600x1200</a>
 </p>
 
 <p>Rotating OpenGL transparent cube shown in a transparent output window running on Mac OS X. Next to it Colored ASCII Art output with a text (marquee) and a logo filter running on FreeBSD.</p>

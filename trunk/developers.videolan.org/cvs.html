@@ -35,19 +35,35 @@ from MPEG and DVB streams, used by VLC and VLS. </li>
 <p> You can <a href="http://www.videolan.org/cgi-bin/cvsweb">browse the
 CVS repository</a> using a nifty tool called CVSWeb. </p>
 
-<h2>VideoLAN Client</h2>
+<h2>VLC</h2>
 
-<p> Quite often, VLC development is split between a stable branch and an
+<p>There is only the <i>MAIN</i> branch at the moment. It is the one you
+get by default with CVS.</p>
+
+<!--<p> Quite often, VLC development is split between a stable branch and an
 unstable branch. The unstable branch is the branch you get by default
 with CVS, and in the CVS snapshots. The stable branch is a bug-fix-only
-branch. Current stable branch is tagged v0_4_1_branch and 0.4.x versions
+branch. Current stable branch is tagged v0_4_1_branch and 0.4.x versions of VLC
 come from it. To access it : </p>
 
 <pre>cvs -z 3 -d :pserver:anonymous@cvs.videolan.org:/cvs/videolan checkout -P -r v0_4_1_branch vlc</pre>
 
-<p> The unstable branch is under active development (and patches for new
-features should be sent against it) and will lead to the 0.5.x series of
-VLC. </p>
+<p> The unstable branch is under active development. Patches for new
+features should be sent against it. </p>
+
+-->
+
+<h2>VLS</h2>
+
+<p>VLS is currently split into a stable branch and an unstable branch.
+The unstable branch is the branch you get by default with CVS, and the
+stable branch is a bug-fix-only branch. Current stable branch is tagged
+v0_5_0 and 0.5.x versions of VLS come from it. To access it : </p>
+
+<pre>cvs -z 3 -d :pserver:anonymous@cvs.videolan.org:/cvs/videolan checkout -P -r v0_5_0 vls</pre>
+
+<p>The unstable branch is under active development and may sometimes be
+broken. Patches for new features should be sent against it.</p>
 
 <h2>CVS tarball snapshots</h2>
 

@@ -9,7 +9,7 @@ and follow the steps to uninstall the program.</para>
 
 <sect2><title>If you compiled VLS from sources</title>
 
-<para>Go to the directory containing VLS sources and execute :</para>
+<para>Go to the directory containing VLS sources and run:</para>
 
 <screen>
 <prompt># </prompt><userinput>make uninstall</userinput>

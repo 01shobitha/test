@@ -25,17 +25,31 @@ kinds of components:</para>
 <simplesect><title>Input</title>
 
 <para>The role of an <emphasis>input</emphasis> is to read MPEG
-streams from a given source (file, DVD, device, ...), and feed
-the right <emphasis>converters</emphasis> with these streams.
+streams from a given source (file, DVD, DVB card, device, ...), and
+feed the right <emphasis>converters</emphasis> with these streams.
 An input may be able to read several streams, which are called
-<emphasis>programs</emphasis>. There are currently two kinds of
-inputs: the <emphasis>local input</emphasis>, which can read videos
-from files or DVDs, and the <emphasis>video input</emphasis>, which
-has been designed for reading streams from Video4Linux devices
-(<filename>/dev/video</filename>) able to produce MPEG streams. Both
-inputs are able to read MPEG-1 or MPEG-2 streams, either in PS or TS
-format. Of course, you can use several inputs and play several programs
-at the same time.</para>
+<emphasis>programs</emphasis>. There are several kinds of
+inputs:</para>
+
+<itemizedlist>
+
+<listitem><para>the <emphasis>local</emphasis> input, which can read videos
+from files or DVDs,</para></listitem>
+
+<listitem><para>the <emphasis>video</emphasis> input, which
+can read videos from MPEG encoding cards devices,</para></listitem>
+
+<listitem><para>the <emphasis>dvb</emphasis> input, which
+can read videos from DVB cards,</para></listitem>
+
+<listitem><para>the <emphasis>v4l</emphasis> input, which
+can read from acquisition cards supported by the Video4Linux
+drivers.</para></listitem>
+
+</itemizedlist>
+
+<para>You can use several inputs and play several
+programs at the same time.</para>
 
 </simplesect>
 
@@ -44,15 +58,15 @@ at the same time.</para>
 <para>The role of a <emphasis>converter</emphasis> is to receive a
 stream from an input, and convert it into the MPEG-TS format. If you
 don't know what PS or TS are, here is some explanation. When you play
-a MPEG video from a DVD, for instance, the MPEG stream is actually
+an MPEG video from a DVD, for instance, the MPEG stream is actually
 composed of several streams (called Elementary Streams): there is
 one stream for video, one for audio, another for subtitles, and so
 on. These different streams are mixed together into a single Program
 Stream (PS). So, the .VOB files you can find in a DVD are actually
-MPEG2-PS files. But this PS format is not adapted for broadcasting
+MPEG2-PS files. But this PS format is not adapted for streaming
 video through a network or by satellite, for instance. So, another
-format called Transport Stream (TS) was designed for broadcasting MPEG
-videos through such channels. The VideoLAN Server is able to convert PS
+format called Transport Stream (TS) was designed for streaming MPEG
+videos through such channels. VLS is able to convert PS
 streams (from DVDs, for instance) into TS streams (ps2ts converter). Of
 course, it can also read TS streams, and fix them by handling stream
 discontinuities (ts2ts converter).</para>
@@ -66,20 +80,18 @@ converter, and send it to a given destination (network, file, ...).
 If you want, you can call a "channel" an "output": it is the
 same thing !). Currently, two kinds of channels are supported:
 <emphasis>network</emphasis> and <emphasis>file</emphasis>. Note that,
-at the moment, the VideoLAN Server can support only one output per
+at the moment, VLS can support only one output per
 stream, so you cannot play a stream on the network and write it into
 a file at the same time. The network output is highly configurable:
 you can choose which network interface you want to use, and specify
-source and destination IP addresses. Of course, all that becomes very
-interesting when your destination is a broadcast or multicast address
-!</para>
+source and destination IP addresses.</para>
 
 </simplesect>
 
 <simplesect><title>Manager</title>
 
 <para>The <emphasis>manager</emphasis> controls the way streams are
-broadcasted. Through an <emphasis>administration interface</emphasis>,
+sent. Through an <emphasis>administration interface</emphasis>,
 you can tell the manager to start, stop, suspend, resume, forward or
 rewind the different programs. You can also get a list of all programs
 available in the Program Table. The manager gets this table from the
@@ -98,17 +110,17 @@ broadcasted.</para>
 
 <itemizedlist>
 
-<listitem><para>You can use the <emphasis>command line</emphasis> to
-give arguments at startup.</para></listitem>
+<listitem><para>you can use the <emphasis>command line</emphasis> to
+give arguments at startup;</para></listitem>
 
-<listitem><para>You can use the <emphasis>telnet interface</emphasis> to
+<listitem><para>oy you can use the <emphasis>telnet interface</emphasis> to
 start/stop/pause the streaming whenever you want.</para></listitem>
 
 </itemizedlist>
 
-<para>When using the telnet Interface, you must authenticate before
+<para>When using the telnet interface, you must authenticate before
 typing any command, because any user may not be allowed to execute any
-command. (This can be configured in the <filename>vls.cfg</filename>
+command (this can be configured in the <filename>vls.cfg</filename>
 configuration file).</para>
 
 </sect1>

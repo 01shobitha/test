@@ -1,8 +1,8 @@
 <chapter id="config"><title id="tconfig">Configuration</title>
 
-<para>VLS reads its configuration from <filename>vls.cfg</filename>,
-which is supposed to be located in the current directory
-or in <filename>SYSCONF_DIR/videolan/vls</filename> (where
+<para>VLS reads its configuration from the <filename>vls.cfg</filename>
+configuration file, which is supposed to be located in the current
+directory or in <filename>SYSCONF_DIR/videolan/vls</filename> (where
 <emphasis>SYSCONF_DIR</emphasis> is <filename>/usr/local/etc</filename>
 if you built and installed VLS by hand, or is <filename>/etc</filename>
 if you installed the debian binary package).</para>
@@ -12,9 +12,8 @@ with VLS as a start-point.</para>
 
 <sect1><title>General structure</title>
 
-<para>VLS configuration file <filename>vls.cfg</filename> is divided into sections,
-and each section may contain several variables:</para>
-
+<para>VLS configuration file <filename>vls.cfg</filename> is divided
+into sections, and each section may contain several variables:</para>
 
 <programlisting>
 BEGIN "FirstSection"
@@ -60,18 +59,22 @@ done. Default is "vls.log".</para>
 SystemLog = "[disable|enable]"
 </programlisting>
 
-<para>Logging to the SystemLog. Today, only the SystemLog using syslogd
-is implemented : compile with ./configure --enable-syslog. If VLS is
-started as <command>vlsd</command>, then the following configuration is
-mandatory:</para>
+<para>Logging to the SystemLog. Today, only the SystemLog using
+syslogd is implemented: compile with <command>./configure
+--enable-syslog</command>.</para>
+
+<caution><para>If VLS is started as <command>vlsd</command>, then the
+following configuration is mandatory:</para>
 
 <programlisting>
 BEGIN "Vls"
   LogFile   = ""
-  SystemLog = "enabled" # only logging to syslogd when running in daemon mode!
+  SystemLog = "enabled"
   ScreenLog = "disabled"
 END
 </programlisting>
+
+</caution>
 
 <programlisting>
 ScreenLog = "[disable|enable]"
@@ -82,10 +85,10 @@ ScreenLog = "[disable|enable]"
 <para>Example:</para>
 
 <programlisting>
-BEGIN "Vls" 
-  LogFile = "vls.log"
-  SystemLog     = "disable"
-  ScreenLog     = "enable"
+BEGIN "Vls"
+  LogFile   = "vls.log"
+  SystemLog = "disable"
+  ScreenLog = "enable"
 END
 </programlisting>
 
@@ -93,10 +96,9 @@ END
 
 <sect2><title>Section "Groups"</title>
 
-<para>In this section, you can define some groups of users, and which commands
-these users are allowed to execute. For each group you want to define,
-you must add a line in the following format:</para>
-
+<para>In this section, you can define some groups of users, and which
+commands these users are allowed to execute. For each group you want to
+define, you must add a line in the following format:</para>
 
 <programlisting>
 groupname = "command1|command2|..."
@@ -108,6 +110,7 @@ commands are: help, browse, start, suspend, resume, forward, rewind,
 stop, shutdown, logout.</para>
 
 <para>Example:</para>
+
 <programlisting>
 BEGIN "Groups"
   monitor = "help|browse|logout"
@@ -119,20 +122,30 @@ END
 
 <sect2><title>Section "Users"</title>
 
-<para>This section contains a list of users allowed to control VLS through an
-administration interface. For each user, add a line in the following format:</para>
+<para>This section contains a list of users allowed to control VLS
+through an administration interface. For each user, add a line in the
+following format:</para>
 
 <programlisting>
 username = "password:groupname"
 </programlisting>
 
-<para>This adds a user "username", who belongs to the group "groupname" (definedin the "Groups" section) and can log in with the password "password".</para>
+<para>This adds a user "username", who belongs to the group "groupname"
+(defined in the "Groups" section) and can log in with the password
+"password".</para>
 
-<note><para>The password must be encrypted, with a tool such
-as <command>mkpasswd</command>, or with the UNIX function
-"crypt".</para></note>
+<itemizedlist>
 
-<para>Example:</para>
+<listitem><para>Under Unix/Linux, the password must be encrypted, with
+a tool such as <command>mkpasswd</command>, or with the UNIX function
+"crypt".</para></listitem>
+
+<listitem><para>Under Windows, the password must be in clear
+text.</para></listitem>
+
+</itemizedlist>
+
+<para>Example for Unix/Linux:</para>
 
 <programlisting>
 BEGIN "Users"
@@ -145,29 +158,30 @@ END
 
 <sect2><title>Section "Telnet"</title>
 
-<para>In this section, you can configure the telnet administration interface.</para>
+<para>In this section, you can configure the telnet administration
+interface.</para>
 
 <programlisting>
 LocalPort = "port"
 </programlisting>
 
-<para>Defines which port will be used for the telnet server. Default port is
-  "9999".</para>
+<para>Defines which port will be used for the telnet server. Default
+port is "9999".</para>
 
 <programlisting>
 Domain = "domain"
 </programlisting>
 
-<para>Either "inet4" or "inet6" (default is "inet4"). If you want to use IPv4
-  addresses, put "inet4", and if you want to use IPv6, put "inet6".</para>
-
+<para>Either "inet4" or "inet6" (default is "inet4"). If you want to
+use IPv4 addresses, put "inet4", and if you want to use IPv6, put
+"inet6".</para>
 
 <programlisting>
 LocalAddress = "IP address"
 </programlisting>
 
-<para>Defines on which IP address the telnet server will listen for requests.
-  Default address is "0.0.0.0" (or "0::0" with IPv6).</para>
+<para>Defines on which IP address the telnet server will listen for
+requests. Default address is "0.0.0.0" (or "0::0" with IPv6).</para>
 
 <para>Example:</para>
 
@@ -181,32 +195,47 @@ END
 <sect2><title>Section "NativeAdmin"</title>
 
 <para>Same syntax as "Telnet". Not used yet.</para>
+
 </sect2>
 
 <sect2><title>Section "Inputs"</title>
 
-<para>In this section, you can define which inputs you want to use. For each input
-you need, add a line in the following format:</para>
-
+<para>In this section, you can define which inputs you want to use. For
+each input you need, add a line in the following format:</para>
 
 <programlisting>
 InputName = "Type"
 </programlisting>
 
-<para>This adds a input named "InputName", the type of which is "Type". As
-  explained before, there are currently two types of input: "local",
-  "video" and "dvb". You must use the "local" input to play a stream
-  from a file or a DVD, the "video" input to play a stream from a
-  Video4Linux device, and the "dvb" input to play a stream from a DVB
-  receiver like Win-TV Nova. Each input must be configured in its
-  own section (see next paragraph).</para>
+<para>This adds a input named "InputName", the type of which is "Type".
+As explained before, there are several types of input:</para>
+
+<itemizedlist>
+
+<listitem><para>"local" to play a stream from
+a file or a DVD,</para></listitem>
+
+<listitem><para>"video" to play a stream from an MPEG encoding
+card,</para></listitem>
+
+<listitem><para>"dvb" to play a stream from a DVB card,</para></listitem>
+
+<listitem><para>"v4l" to play a stream from a Video4Linux
+device.</para></listitem>
+
+</itemizedlist>
+
+<para>Each input must be configured in its own section (see next
+paragraph).</para>
 
 <para>Example:</para>
 
 <programlisting>
 BEGIN "Inputs"
   local1 = "local"
-  kfir   = "video"
+  pvr    = "video"
+  dvb1   = "dvb"
+  tuner  = "v4l"
 END
 </programlisting>
 </sect2>
@@ -214,9 +243,9 @@ END
 <sect2><title>Inputs configuration</title>
 
 <para>For each input declared in the "Inputs" section, excepted "local"
-inputs", you must add a section with the same name as the corresponding
-input. For instance, if you declared an input "kfir", there should be
-one section named "kfir" too. The syntax of such sections depends on the
+inputs, you must add a section with the same name as the corresponding
+input. For instance, if you declared an input "pvr", there should be
+one section named "pvr" too. The syntax of such sections depends on the
 type of the corresponding input.</para>
 
 <para>To configure a local input, you don't have to do anything. Except
@@ -225,7 +254,7 @@ when another trickplay strategy must be used:</para>
 <programlisting>
 BEGIN "Local1"
   ProgramCount = "1"
-  TrickPlay = "normal"
+  TrickPlay    = "normal"
 END
 </programlisting>
 
@@ -245,37 +274,44 @@ END
 </programlisting>
 
 <para>"VideoInputName" is the name of the video input you want to
-configure. "device" is the path of the Video4Linux you want to read from
-(default is "/dev/video"). "type" is either "Mpeg2-PS" or "Mpeg2-TS",
-depending on your device configuration (default is "Mpeg2-PS").</para>
+configure. "Device" is the path of the MPEG encoding card you want
+to read from (default is "/dev/video"). "Type" is either "Mpeg2-PS"
+or "Mpeg2-TS", depending on your device configuration (default is
+"Mpeg2-PS").</para>
+
+<para>Example for a Hauppauge WinTV-PVR-250 card:</para>
+
+<programlisting>
+BEGIN "pvr"
+  Device = "/dev/video0"
+  Type   = "Mpeg2-PS"
+END
+</programlisting>
 
 <para>To configure a dvb input, add a section in the following format:</para>
 
 <programlisting>
 BEGIN "DvbInputName"
   DeviceNumber = "devicenumber"
-  SendMethod = 0
+  SendMethod   = "0"
 END
 </programlisting>
 
 <para>"DvbInputName" is the name of the dvb input you want to
-configure. Set "SendMethod" to 0 if you to stream the complete
-DVB stream and set it to 1 if you only want to stream the MPEG
-audio and video streams (default is 0). "devicenumber" is the
-number of the DVB device you want to read from (read from
-/dev/ost/dvr&lt;devicenumber&gt;, default is ""). The dvb configuration
-file is defined by the driver. You can find it in $HOME/.dvbrc for
-/dev/dvb/adapter0 or in $HOME/.dvbrc.x for /dev/dvb/adapterx.</para>
+configure. Set "SendMethod" to "0" if you to stream the complete
+DVB stream and set it to "1" if you only want to stream the
+MPEG audio and video streams (default is "0"). "DeviceNumber"
+is the number of the DVB device you want to read from (read
+from <filename>/dev/ost/dvr&lt;devicenumber&gt;</filename>,
+default is ""). The dvb configuration file is defined by the
+driver. You can find it in <filename>$HOME/.dvbrc</filename> for
+/dev/dvb/adapter0 or in <filename>$HOME/.dvbrc.X</filename> for
+<filename>/dev/dvb/adapterX</filename>.</para>
 
 <para>Example:</para>
 
 <programlisting>
-BEGIN "kfir"
-  Device = "/dev/video"
-  Type   = "Mpeg2-PS"
-END
-
-BEGIN "dvb"
+BEGIN "dvb1"
   DeviceNumber = "0"
   TrickPlay = "normal"
 END
@@ -286,7 +322,7 @@ END
 <sect2><title>Section "Channels"</title>
 
 <para>In this section, you can define the channels (outputs) you want to use.
-For each channel you need, add a line in the following format:</para>
+For each channel, write a line in the following format:</para>
 
 <programlisting>
 ChannelName = "Type"
@@ -300,11 +336,12 @@ must be configured in their own section.</para>
 
 <programlisting>
 BEGIN "Channels"
-  localhost = "network"
-  client1   = "network"
-  client2   = "network"
-  multicast = "network"
-  localfile = "file"
+  localhost  = "network"
+  client1    = "network"
+  client2    = "network"
+  multicast1 = "network"
+  multicast2 = "network"
+  localfile  = "file"
 END
 </programlisting>
 
@@ -316,17 +353,18 @@ END
 a section with the same name as the corresponding channel. The syntax of
 such a section depends on the type of the corresponding channel.</para>
 
-<para>To configure a network channel, add a section in the following format:</para>
+<para>To configure a network channel, add a section in the following
+format:</para>
 
 <programlisting>
 BEGIN "NetChannelName"
+  Domain    = "Domain"
+  Type      = "Type"
   SrcHost   = "SourceHost"
   SrcPort   = "SourcePort"
   DstHost   = "DestHost"
   DstPort   = "DestPort"
-  Type      = "Type"
   TTL       = "ttl"
-  Domain    = "Domain"
   Interface = "Interface"
 END
 </programlisting>
@@ -335,6 +373,13 @@ END
 
 <listitem><para>"NetChannelName" is the name of the network channel you
 want to configure.</para></listitem>
+
+<listitem><para>"Domain" is either "inet4" if you use IPv4 addresses, or
+"inet6" if you use IPv6 (default is "inet4").</para></listitem>
+
+<listitem><para>"Type" is either "unicast", "broadcast" or "multicast"
+(default is "unicast"), depending on what you want to do (and on your
+"DstHost" address).</para></listitem>
 
 <listitem><para>"SourceHost" is the IP address (or DNS name) from which
 VLS will send the stream.</para></listitem>
@@ -348,20 +393,13 @@ stream will be sent.</para></listitem>
 <listitem><para>"DestPort" is the UDP port to which the stream will be
 sent (default is "1234").</para></listitem>
 
-<listitem><para>"Type" is either "unicast", "broadcast" or "multicast"
-(default is "unicast"), depending on what you want to do (and on your
-"DstHost" address).</para></listitem>
-
 <listitem><para>"TTL" is an option useful only if "Type" is
 "multicast" (default value is "0"). You can use it to increase
 the TTL of your multicast packets if they have to cross several
 routers.</para></listitem>
 
-<listitem><para>"Domain" is either "inet4" if you use IPv4 addresses, or
-"inet6" if you use IPv6 (default is "inet4").</para></listitem>
-
-<listitem><para>"Interface" is an option only supported under linux, to
-force the stream to be broadcasted through a given network interface,
+<listitem><para>"Interface" is an option only supported under Linux,
+to force the stream to be sent through a given network interface,
 "eth1" for instance" (to use this option, you must have super-user
 permissions).</para></listitem>
 
@@ -370,7 +408,8 @@ permissions).</para></listitem>
 <note><para>"SrcHost" and "SrcPort" are optional (if you don't set them,
 VLS will not 'bind' the socket).</para></note>
 
-<para>To configure a file channel, add a section in the following format:</para>
+<para>To configure a file channel, add a section in the following
+format:</para>
 
 <programlisting>
 BEGIN "FileChannelName"
@@ -398,16 +437,25 @@ BEGIN "client1"           # unicast towards client1
   DstPort = "1234"
 END
 
-BEGIN "client2"           # unicast towards client2 with IPv6
+BEGIN "client2"           # unicast towards client2 in IPv6
   Domain  = "inet6"
   DstHost = "3ffe:ffff::2:12:42"
   DstPort = "1234"
 END
 
-BEGIN "multicast"         # multicast streaming
+BEGIN "multicast1"         # multicast streaming
+  Type    = "multicast"
   DstHost = "239.2.12.42"
   DstPort = "1234"
+  TTL     = "2"
+END
+
+BEGIN "multicast2"         # multicast streaming in IPv6
+  Domain  = "inet6"
   Type    = "multicast"
+  DstHost = "ff08::1"
+  DstPort = "1234"
+  TTL     = "12"
 END
 
 BEGIN "localfile"         # file output
@@ -422,7 +470,7 @@ END
 <programlisting>
 BEGIN "client1"         # The client is on the same host as the server
   SrcHost = "192.168.1.1"  # IP of VLS
-  SrcPort = "1242"         # Source port : number is not important
+  SrcPort = "1242"         # Source port : the value is not important
   DstHost = "192.168.1.2"  # IP of the client
   DstPort = "1234"
 END
@@ -441,15 +489,14 @@ must have the following syntax:</para>
 
 <programlisting>
 BEGIN "Input"
-  FilesPath = "path"
+  FilesPath    = "path"
   ProgramCount = "count"
 END
 </programlisting>
 
-
 <para>"path" is the path where your MPEG files are located (by default
 it is the current directory). "count" is the number of programs defined
-in input.cfg (0 by default).</para>
+("0" by default).</para>
 
 <para>For each program you want to define, you must add a section with
 the following format:</para>
@@ -463,29 +510,43 @@ BEGIN "number"
 END
 </programlisting>
 
-<para>"number" is the program number: the first program has number 1,
-the second number 2, and so on. "name" is the program name, by which
+<itemizedlist>
+
+<listitem><para>"number" is the program number: the first program has number 1,
+the second number 2, and so on.</para></listitem>
+
+<listitem><para>"name" is the program name, by which
 you will tell VLS to start this program (see next chapter "Running
-VLS"). "type" can be "Mpeg1-PS", "Mpeg2-PS", "Mpeg2-TS", or "DVD". If
-your stream is stored in a MPEG file (*.mpeg, *.mpg, *.vob, and so
-on...), it is probably in Mpeg1-PS or Mpeg2-PS format. If Type is set to
-"Mpeg1-PS", "Mpeg1-TS", "Mpeg2-PS", or "Mpeg2-TS", VLS will assume your
-stream is stored in the file "file", in the directory "path" ("path"
-being the variable defined in the "Input" section). If "type" is "DVD",
-the variable Device will be used instead of FileName (the variable
-"FilesPath" is not prepended to the device name !). Note that you cannot
-play "DVD" programs unless you compiled VLS with DVD support, which uses
-libdvdread. With libdvdread, you can play a "real" DVD (then "device" is
-the device of your DVD drive, "/dev/hdc" or "/dev/cdrom", for instance;
-note that libdvdread needs read AND write access rights to the device),
-but you can also play a DVD stored on a hard disk (then "device" is the
-directory where the .vob files are stored: "/mnt/data/VIDEO_TS", for
-instance). Libdvdread supports encrypted DVDs, even stored on a hard
-disk.</para>
+VLS").</para></listitem>
+
+<listitem><para>"type" can be "Mpeg1-PS", "Mpeg2-PS", "Mpeg2-TS",
+or "DVD". If your stream is stored in a MPEG file (*.mpeg, *.mpg,
+*.vob, and so on...), it is probably in Mpeg1-PS or Mpeg2-PS
+format.</para></listitem>
+
+<listitem><para>if "type" is set to "Mpeg1-PS", "Mpeg2-PS", or
+"Mpeg2-TS", VLS will assume your stream is stored in the file "file", in
+the directory "path" ("path" being the variable defined in the "Input"
+section).</para></listitem>
+
+<listitem><para>if "type" is "DVD", the variable "Device" will be used
+instead of "FileName" (the variable "FilesPath" is not prepended to
+the device name !). The variable "Device" is the device of your DVD
+drive ("/dev/hdc" or "/dev/cdrom" for instance). You can also play a DVD
+copied on a hard disk: then "device" is the directory where the .vob
+files are stored ("/mnt/data/VIDEO_TS" for instance).</para></listitem>
+
+</itemizedlist>
 
 <note>
 &streamable-mpeg-file;
 </note>
+
+<note><para>In order to play DVDs, you need to compile VLS with
+DVD support, which uses libdvdread and libdvdcss. You will need
+read <emphasis>and</emphasis> write access rights to the DVD
+device.</para></note>
+
 
 <para>Full example:</para>
 
@@ -507,13 +568,13 @@ BEGIN "2"     # another file
   Type     = "Mpeg2-PS"
 END
 
-BEGIN "3"     # Dvd
+BEGIN "3"     # DVD
   Name     = "dvd"
   Device   = "/dev/cdrom"
   Type     = "Dvd"
 END
 
-BEGIN "4"     # Dvd stored on a hard disk
+BEGIN "4"     # DVD stored on a hard disk
   Name     = "matrix"
   Device   = "/mnt/data/matrix/VIDEO_TS"
   Type     = "Dvd"

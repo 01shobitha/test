@@ -224,15 +224,23 @@ page</ulink>.</para>
 </sect2>
 </sect1>
 
-<sect1><title>Command line vs. graphical interfaces</title>
+<sect1><title>Command line usage</title>
 
-<para>VLC has many different graphical interfaces, that are organized
-quite differently in order to be in harmony with the guidelines of
-each operating system supported. Documenting the use of each graphical
-interface is too long, and some features are only available via the
-command line interface. Therefore we decided to document only the
-command line interface, but in many cases it shoud be easy to
-guess how to use the graphical interface for the same use !</para>
+<itemizedlist>
+
+<listitem><para>VLC has many different graphical interfaces, that
+are organized quite differently in order to be in harmony with the
+guidelines of each operating system supported. Documenting the use
+of each graphical interface is too long, and some features are only
+available via the command line interface. Therefore we decided to
+document only the command line interface, but in many cases it shoud
+be easy to guess how to use the graphical interface for the same use
+!</para></listitem>
+
+<listitem><para>VLS has a command line and a telnet interface, but no
+graphical interface !</para></listitem>
+
+</itemizedlist>
 
 <para>All the commands that show up in this document should be typed
 inside a terminal.</para>

@@ -14,6 +14,7 @@
   <!ENTITY dvb SYSTEM "dvb.xml">
   <!ENTITY hardencoding SYSTEM "hardencoding.xml">
   <!ENTITY softencoding SYSTEM "softencoding.xml">
+  <!ENTITY ipv6 SYSTEM "ipv6.xml">
   <!ENTITY vod SYSTEM "../videolan-quickstart/vod.xml">
   <!ENTITY sap SYSTEM "../common/sap.xml">
   <!ENTITY install-vlc SYSTEM "../common/install-vlc.xml">
@@ -105,6 +106,7 @@ solution.</para>
 &dvb;
 &hardencoding;
 &softencoding;
+&ipv6;
 &vod;
 &sap;
 &fdl;

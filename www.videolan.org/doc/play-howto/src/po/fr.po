@@ -734,9 +734,9 @@ msgid ""
 "the appropriate drive letter or device name in the \"Device Name\" text input. \n"
 "This should be autodetected on MacOS X."
 msgstr ""
-"Vous pouvez choisir le périphérique depuis lequel le fichier doit être lu en donnant\n"
-"la lettre correspondant ou le nom complet du périphérique dans \"Device name\".\n"
-" cela doit être détecté automatiquement pour Mac OS X."
+"Vous pouvez choisir le lecteur depuis lequel le média doit être lu en spécifiant\n"
+"la lettre correspondant ou le nom du périphérique dans &ldquo;Nom du\n"
+"périphérique&rdquo;. Cela devrait être détecté automatiquement sous Mac OS X."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:97
@@ -746,9 +746,9 @@ msgid ""
 "chapter instead of from the beginning, you can set it using the <emphasis>Title\n"
 "</emphasis> and <emphasis>Chapter</emphasis> selectors."
 msgstr ""
-"Si vous voulez commencer le playback du CD ou du VCD depuis un titre donné\n"
-" et le chapitre au lieu du commencement, vous pouvez le placer à l'aide\n"
-" des sélecteurs de  <emphasis>Titre</emphasis> and <emphasis>Chapitre</emphasis>\n"
+"Si vous voulez commencer la lecture du CD ou du VCD à partir d'un titre et d'un\n"
+"chapitre donnés plutôt que depuis le début, vous pouvez le définir à l'aide\n"
+"des sélecteurs de <emphasis>Titre</emphasis> and <emphasis>Chapitre</emphasis>.\n"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:100
@@ -757,7 +757,7 @@ msgid ""
 "You can start playback by selecting the <emphasis>Ok</emphasis> \n"
 "button."
 msgstr ""
-"Vous pouvez commencer le playback en choisissant le boutton\n"
+"Vous pouvez commencer la lecture en choisissant le bouton\n"
 "<emphasis>Ok</emphasis>"
 
 # type: Content of: <chapter><sect1><sect2>
@@ -774,19 +774,19 @@ msgstr ""
 #: en/basic-use.xml:107 en/basic-use.xml:108
 #, no-wrap
 msgid "The Open disk dialog - wxWindows interface"
-msgstr "la fenêtre de dialogue pour ouvrir un disque dans l'interface wxWindows "
+msgstr "la boîte de dialogue Ouvrir un disque - interface wxWindows "
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:115 en/basic-use.xml:116
 #, no-wrap
 msgid "The Open disk dialog - MacOS X interface"
-msgstr "la fenêtre de dialogue pour ouvrir un disque pour l'interface MacOS X"
+msgstr "la boîte de dialogue Ouvrir un disque - interface MacOS X"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/basic-use.xml:120
 #, no-wrap
 msgid "Play a network stream (WebRadio, WebTV, ...)"
-msgstr "Lire un flux du réseau(WebRadio, WebTV, ...)"
+msgstr "Lire un flux du réseau (WebRadio, WebTV, ...)"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:121
@@ -797,8 +797,8 @@ msgid ""
 "Stream\" menu item."
 msgstr ""
 " \n"
-"Pour lire un flux  réseau, ouvrez le menu \"File\"  et choisissez \"Open network\n"
-"Article du menu flux\""
+"Pour lire un flux réseau, ouvrez le menu &ldquo;Fichier&rdquo; et sélectionnez\n"
+"l'élément &ldquo;Ouvrir un flux réseau&rdquo;."
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/basic-use.xml:126
@@ -808,9 +808,9 @@ msgid ""
 "</emphasis>, and set the appropriate UDP port in the selector \n"
 "(it is 1234 for streams sent by a VLC or VLS server).\n"
 msgstr ""
-"Pour ouvrir un flux UDP en unicast, choisissez <emphasis>UDP/RTP</emphasis>,\n"
-"et placer le port approprié de l'UDP dans le sélecteur\n"
-"(c'est 1234 pour des flux envoyés par un serveur de VLC ou de VLS)."
+"Pour ouvrir un flux UDP unicast, sélectionnez <emphasis>UDP/RTP</emphasis>,\n"
+"et indiquez le port UDP approprié dans la zone de saisie\n"
+"(il s'agit du port 1234 pour des flux envoyés par un serveur VLC ou VLS)."
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/basic-use.xml:130
@@ -823,8 +823,9 @@ msgid ""
 "port."
 msgstr ""
 "\n"
-"Pour ouvrir un flux UDP en multicast, choisissez<emphasis>UDP/RTP multicast</emphasis>.Donnez l'adresse du groupe de multicast dans la saisie\n"
-"des textes d\"Adresse\", et choisissez le port UDP adéquat."
+"Pour ouvrir un flux UDP multicast, sélectionnez <emphasis>UDP/RTP\n"
+"multidiff</emphasis>. Indiquez l'adresse du groupe multicast dans la zone de\n"
+"texte &ldquo;Address&rdquo;, et spécifiez le port UDP adéquat."
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/basic-use.xml:135
@@ -838,12 +839,12 @@ msgid ""
 "in the corresponding text input. This also the way to open a RTSP stream \n"
 "with the MacOS X interface.\n"
 msgstr ""
-"Pour ouvrir un flux envoyé par HTTP(Webradios, WebTVs, Shoutcast, Icecast...)\n"
-",ftp, ou mms (serveur de médias de Microsoft), choisissez \"HTTP/FTP/MMS\"\n"
-" , et donnez l'URL correspondante dans la saisie des textes correspondante\n"
-" , (comme http://live.stream.org:8080/live ou\n"
-" mms://live.ms.stream.net:8080/live.asf).Ceciest également la méthode\n"
-" d'ouvrir un flux de RTSP avec l'interface de MacOS X."
+"Pour ouvrir un flux envoyé sur HTTP (Webradios, WebTVs, Shoutcast, Icecast...), \n"
+"FTP, ou MMS (serveur de médias de Microsoft), choisissez \"HTTP/FTP/MMS\"\n"
+"et indiquez l'URL correspondante dans la zone de saisie correspondante,\n"
+"(par exemple http://live.stream.org:8080/live ou\n"
+" mms://live.ms.stream.net:8080/live.asf). Ceci est également la méthode\n"
+"pour ouvrir un flux RTSP avec l'interface de MacOS X."
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/basic-use.xml:143

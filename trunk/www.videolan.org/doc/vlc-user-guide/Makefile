@@ -5,7 +5,7 @@ DOC := vlc-user-guide
 
 XML_DECL := /usr/lib/sgml/declaration/xml.decl
 
-EXT = html ps pdf rtf txt
+EXT = html pdf rtf txt
 LANG = en
 
 # We build HTML, PS, PDF, RTF and TXT for the Web site
@@ -31,20 +31,6 @@ $(LANG:%=$(DOC)-%.html): %.html: %.xml
 	mv *.html $(basename $@)
 	ln -sf $(DOC)-en/index.html $(DOC)-en.html
 
-<<<<<<< Makefile
-=======
-$(LANG:%=$(DOC)-%.ps): %.ps: %.xml
-	/bin/cp ../common/magic-eps.xml ../common/magic.xml
-	jade -t tex -d ../common/stylesheet-print.dsl -o $(basename $@).tex $(XML_DECL) $^
-	jadetex $(basename $@).tex
-	jadetex $(basename $@).tex
-	jadetex $(basename $@).tex
-	rm -f *.tex *.out *.aux *.log
-	dvips -o $@ $(basename $@).dvi
-	zip $(basename $@)-ps.zip $@ images/*.jpg
-
-
->>>>>>> 1.16
 $(LANG:%=$(DOC)-%.pdf): %.pdf: %.xml
 	jade -t tex -d ../common/stylesheet-print-noicones.dsl -o $(basename $@).tex $(XML_DECL) $^
 	pdfjadetex $(basename $@).tex

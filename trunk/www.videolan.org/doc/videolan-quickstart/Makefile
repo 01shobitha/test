@@ -5,7 +5,7 @@ DOC := videolan-quickstart
 
 XML_DECL := /usr/lib/sgml/declaration/xml.decl
 
-EXT = html ps pdf rtf txt
+EXT = html pdf rtf txt
 LANG = en fr
 
 # We build HTML, PS, PDF, RTF and TXT for the Web site
@@ -30,23 +30,6 @@ $(LANG:%=$(DOC)-%.html): %.html: %.xml
 	mkdir -p $(basename $@) 
 	mv *.html $(basename $@)
 	ln -sf $(DOC)-en/index.html $(DOC)-en.html
-	rm -f $(DOC)-*.xml
-	make $(DOC)-$(LANG).xml
-
-<<<<<<< Makefile
-=======
-$(LANG:%=$(DOC)-%.ps): %.ps: %.xml
-	/bin/cp ../common/magic-eps.xml ../common/magic.xml
-	jade -t tex -d ../common/stylesheet-print.dsl -o $(basename $@).tex $(XML_DECL) $^
-	jadetex $(basename $@).tex
-	jadetex $(basename $@).tex
-	jadetex $(basename $@).tex
-	rm -f *.tex *.out *.aux *.log
-	dvips -o $@ $(basename $@).dvi
-	zip $(basename $@)-ps.zip $@ images/*.jpg
-	rm -f $(DOC)-*.xml
-	make $(DOC)-$(LANG).xml
->>>>>>> 1.19
 
 $(LANG:%=$(DOC)-%.pdf): %.pdf: %.xml
 	jade -t tex -d ../common/stylesheet-print-noicones.dsl -o $(basename $@).tex $(XML_DECL) $^
@@ -55,23 +38,17 @@ $(LANG:%=$(DOC)-%.pdf): %.pdf: %.xml
 	pdfjadetex $(basename $@).tex
 	rm -f *.tex *.out *.aux *.log
 	zip $(basename $@)-pdf.zip $@ images/*.jpg
-	rm -f $(DOC)-*.xml
-	make $(DOC)-$(LANG).xml
 
 $(LANG:%=$(DOC)-%.rtf): %.rtf: %.xml
 	jade -t rtf -d ../common/stylesheet-print-noicones.dsl -o $@ $(XML_DECL) $^
 	rm -f $(basename $@)-rtf.zip
 	zip $(basename $@)-rtf.zip $@ images/*.jpg
-	rm -f $(DOC)-*.xml
-	make $(DOC)-$(LANG).xml
 
 $(LANG:%=$(DOC)-%.txt): %.txt: %.xml
 	jade -t sgml -d ../common/stylesheet-txt.dsl -V nochunks $(XML_DECL) $^ > $^.html
 #       w3m -dump $^.html > $@
 	lynx -force_html -dump $^.html > $@
 	rm -f $^.html
-	rm -f $(DOC)-*.xml
-	make $(DOC)-$(LANG).xml
 
 clean:
 	rm -rf *.zip *.html *.pdf *.rtf *.txt *.dvi *.tex *.out *.aux *.log *.tmp $(DOC)-*.xml $(foreach lang, $(LANG), $(DOC)-$(lang))

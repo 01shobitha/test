@@ -13,11 +13,11 @@ functions, reading this part is not very useful</emphasis></para>
 <para>If you wish to compile a module which is stated <emphasis>disabled
 by  default</emphasis>, you  have to  launch the  configure script  with
 </para>
-<screen><prompt>%</prompt><userinput>
+<screen><prompt>% </prompt><userinput>
  ./configure --enable-module_name </userinput></screen>
 <para>Of  course, on  the other  hand, if  you would  like to  disable a
 module that is <emphasis>enabled by default</emphasis>, you would have to use the</para>
-<screen><prompt>%</prompt><userinput>
+<screen><prompt>% </prompt><userinput>
  ./configure --disable-module_name </userinput></screen>
 <para>switch when running the configuration script.</para>
 </sect1>
@@ -237,7 +237,7 @@ sources</para>
 <!--							Demuxers  -->
 <sect1><title>Demuxers</title>
 
-<para>Demuxers or demultiplexers allow the  VLC to extract the stream(s)
+<para>Demuxers or demultiplexers allow VLC to extract the stream(s)
 from the file or source where they are into.</para>
 <para>For  example, an  AVI  file  can contain  a  MPEG-4  video, or  an
 uncompressed  video. AVI  is only  a storing  format, not  a compression
@@ -313,7 +313,7 @@ This is the QT libraries interface module. You will need the libraries (libqt2 p
 
 </sect2><sect2><title>rc</title>
 <para><emphasis>default: enabled</emphasis></para>
-<para>This is the Remote Control interface module. With this one, vlc is controled by sending him commands, such as play, stop, ... so that you may control vlc through a script.</para>
+<para>This is the Remote Control interface module. With this one, VLC is controled by sending him commands, such as play, stop, ... so that you may control VLC through a script.</para>
 
 </sect2><sect2><title>ncurses</title>
 <para><emphasis>default: disabled</emphasis></para>
@@ -322,7 +322,7 @@ This is the QT libraries interface module. You will need the libraries (libqt2 p
 </sect2><sect2><title>lirc</title>
 <para><emphasis>default: disabled</emphasis></para>
 <para>
-This interface module allows you to control vlc through a remote. A lircrc example is provided to help you configure it to your remote (see doc/lirc/example.lircrc).</para>
+This interface module allows you to control VLC through a remote. A lircrc example is provided to help you configure it to your remote (see doc/lirc/example.lircrc).</para>
 </sect2>
 
 <sect2><title>wxwindows</title>
@@ -448,13 +448,13 @@ interface" or "Command Line" sections.</para>
 
 <sect2><title>test-suite</title>
 <para><emphasis>default: disabled</emphasis></para>
-<para>This builds a special vlc, for testing purposes only</para>
+<para>This builds a special VLC, for testing purposes only</para>
 </sect2>
 
 
 <sect2><title>mozilla</title>
 <para><emphasis>default: disabled</emphasis></para>
-<para>This is  not really  a module. When  enabled, a  vlc-based Mozilla
+<para>This is  not really  a module. When  enabled, a  VLC-based Mozilla
 plugin is built</para>
 </sect2>
 
@@ -481,8 +481,8 @@ Display)</para>
 <prompt>% </prompt><userinput>./configure --help</userinput>
 </screen>
 
-<para>You can for example control  all the installation directories, the
-system  for  which  you want  to  build  the  VLC  for (if  not  guessed
+<para>You can for example control all the installation directories,
+the system for which you want to build VLC for (if not guessed
 correctly),...</para>
 
 <para>You can also choose to enable or disable some optimizations</para>

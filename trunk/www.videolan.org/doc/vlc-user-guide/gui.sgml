@@ -185,7 +185,7 @@ processors).</para>
 
 <sect2><title>Playlist tab</title>
 <para>In this tab, you can select some playlist options, such as looping
-the playlist, automatically launching the playlist on vlc start, enqueue
+the playlist, automatically launching the playlist on VLC's start, enqueue
 items in it or randomly read the files.</para>
 </sect2>
 

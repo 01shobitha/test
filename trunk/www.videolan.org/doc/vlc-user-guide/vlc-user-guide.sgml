@@ -19,16 +19,20 @@
 
 <bookinfo>
 
-<title>VideoLAN Client User Guide</title>
+<title>VLC User Guide</title>
 
 <authorgroup>
+  <author>
+    <firstname>Henri</firstname>
+    <surname>Fallon</surname>
+  </author>
   <author>
     <firstname>Alexis</firstname>
     <surname>de Lattre</surname>
   </author>
   <author>
-    <firstname>Bill</firstname>
-    <surname>Eldridge</surname>
+    <firstname>Johan</firstname>
+    <surname>Bilien</surname>
   </author>
   <author>
     <firstname>Anil</firstname>
@@ -79,7 +83,7 @@ Texts. The text of the license can be found in the appendix
 
 <abstract>
 
-<para>This document describes how  use the VideoLAN Client.</para>
+<para>This document is the complete user guide of VLC, the VideoLAN Client.</para>
 
 </abstract>
 

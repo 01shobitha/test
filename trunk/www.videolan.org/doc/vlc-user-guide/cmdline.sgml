@@ -8,36 +8,36 @@
 
 <sect1><title>Opening streams</title>
 
-<para>The following commands start vlc and add a first element to the playlist.</para>
+<para>The following commands start VLC and add a first element to the playlist.</para>
 
 <sect2><title>Opening a file</title>
 
-<para>Simply start vlc with</para>
-<screen><prompt>%</prompt><userinput>vlc my_file.mpg</userinput></screen>
+<para>Simply start VLC with</para>
+<screen><prompt>% </prompt><userinput>vlc my_file.mpg</userinput></screen>
 
 <para>Although the VideoLAN Client should be able to recognize the file
-type, you may tell Vlc what codec to use with the
+type, you may tell VLC what codec to use with the
 <emphasis>-codec</emphasis> option. For example to play
 my_file.mpg using ffmpeg audo/video decoder do
 </para>
 <screen>
-<prompt>%</prompt><userinput>vlc --codec ffmpeg my_file.mpg</userinput> 
+<prompt>% </prompt><userinput>vlc --codec ffmpeg my_file.mpg</userinput> 
 </screen>
 
 <para> A list of all video and audio codecs supported by
-vlc is available <ulink
+VLC is available <ulink
 url="http://www.videolan.org/vlc/feature.html">here</ulink></para>
 
 </sect2>
 
 <sect2><title>Opening a DVD or VCD</title>
 
-<para>Simply start vlc with</para>
+<para>Simply start VLC with</para>
 
-<screen><prompt>%</prompt><userinput>vlc dvd:[device][@raw_device][@[title][,[chapter][,angle]]]</userinput></screen>
+<screen><prompt>% </prompt><userinput>vlc dvd:[device][@raw_device][@[title][,[chapter][,angle]]]</userinput></screen>
 <para>or</para>
 
-<screen><prompt>%</prompt><userinput>vlc vcd:[device][@[title][,[chapter]</userinput></screen>
+<screen><prompt>% </prompt><userinput>vlc vcd:[device][@[title][,[chapter]</userinput></screen>
 
 <para>where device is the complete path to your dvd/cdrom drive.
 </para>
@@ -46,7 +46,7 @@ url="http://www.videolan.org/vlc/feature.html">here</ulink></para>
 
 <para>To receive an UDP stream (being sent by a VideoLAN Server), start the VideoLAN Client with</para>
 
-<screen><prompt>%</prompt><userinput>vlc udpstream:[@bind address[:server_port]]</userinput></screen>
+<screen><prompt>% </prompt><userinput>vlc udpstream:[@bind address[:server_port]]</userinput></screen>
 
 <para>
 Please note that bind address refers to the destination address, for
@@ -55,10 +55,10 @@ example your broadcast address. If the stream is being broadcasted
 </para>
 
 <para>
-To receive a http stream (VOD), start vlc with vlc your_url :
+To receive a http stream (VOD), start VLC with :
 </para>
 
-<screen><prompt>%</prompt><userinput>vlc http://your.url.to/your_file.mpg</userinput></screen>
+<screen><prompt>% </prompt><userinput>vlc http://www.example.org/your_file.mpg</userinput></screen>
 
 </sect2>
 </sect1>
@@ -66,7 +66,7 @@ To receive a http stream (VOD), start vlc with vlc your_url :
 <sect1><title>Modules selection</title>
 
 <para>
-The Vlc tries to select the most appropriate interface, input and output
+VLC tries to select the most appropriate interface, input and output
 modules, among the ones available on the system, according to the stream
 he is given to read. However, you may wish to force the use of a
 specific module with the following options: (Available modules are
@@ -94,10 +94,9 @@ allows you to force the demux module.</para>
 
 <sect1><title>Stream Output</title>
 
-<para>Stream output is a new feature of the VideoLAN Client, which allow
-you to stream <emphasis>from</emphasis> a VLC, allowing you to save the
-Video that you are watching to a file, or to udp-stream
-it over a LAN.</para>
+<para>Stream output is a new feature of VLC, which allows you to save
+the video that you are watching to a file, or to stream it in UDP over
+an IP network.</para>
 
 <itemizedlist>
 <listitem><para><emphasis>--sout  &lt;string&gt;</emphasis> enables stream output to <emphasis>string</emphasis> (<emphasis>string</emphasis> can be either a file name or a ip adress).</para>
@@ -105,7 +104,7 @@ it over a LAN.</para>
 <listitem><para><emphasis>--no-sout-video</emphasis> disables video stream output</para>
 <listitem><para><emphasis>--sout-acodec  [|mpeg1|mpeg2|mpeg4|vorbis]</emphasis> allows you to force audio encoding.</para>
 <listitem><para><emphasis>--sout-vcodec  [|mpeg1|mpeg2|mpeg4]</emphasis> allows you to force video encoding.</para>
-<listitem><para><emphasis>--packetizer  &lt;string&gt;</emphasis> allows you to select the order in which vlc will select its packetizers.</para>
+<listitem><para><emphasis>--packetizer  &lt;string&gt;</emphasis> allows you to select the order in which VLC will select its packetizers.</para>
 <listitem><para><emphasis>--mux  &lt;string&gt;</emphasis> lets you configure mux modules.</para>
 <listitem><para><emphasis>--access_output  &lt;string&gt;</emphasis> lets you configure access output modules.</para>
 </itemizedlist>
@@ -119,7 +118,7 @@ it over a LAN.</para>
 <itemizedlist>
 <listitem><para><emphasis>--noaudio</emphasis> disables audio
 output</para>
-<listitem><para><emphasis>--mono</emphasis> forces the vlc to treat the
+<listitem><para><emphasis>--mono</emphasis> forces the VLC to treat the
 stream in mono audio.</para>
 <listitem><para><emphasis>--volume  &lt;integer&gt;</emphasis> sets the
 level of audio output.</para>
@@ -241,7 +240,7 @@ options.</para>
 <listitem><para><emphasis>--longhelp</emphasis> gives you a detailled
 version of the available options.</para>
 <listitem><para><emphasis>--version</emphasis> gives you information
-about the current vlc version.</para>
+about the current VLC version.</para>
 <listitem><para><emphasis>--list</emphasis> displays a list of available
 plugins</para>
 <listitem><para><emphasis>--module  &lt;module&gt;</emphasis> displays

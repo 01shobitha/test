@@ -121,8 +121,8 @@ graphics software might ease the job, though :-)</p>
 
 <h2>Vplayer skin</h2>
 <?php AddSkin(
-   "vplayer.png",
-   "Skin made by Piers Cornwell, icons by Jakub Steiner",
+   "vplayer.jpg",
+   "Skin made by scahoo",
    "vplayer.vlt" );
 ?>
 

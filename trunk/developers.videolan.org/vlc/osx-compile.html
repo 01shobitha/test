@@ -6,7 +6,7 @@
 
 <h1>Compile VLC on Mac OS X</h1>
 
-<p>Compiling VLC on Mac OS X is different from normal linux compiling and OS X compiling. We do not use Project Builder to compile, but a simple ./configure and then make isn't enough either.<p>
+<p>Compiling VLC on Mac OS X is different from normal linux compiling and OS X compiling. We do not use Project Builder to compile, but a simple ./configure and then make isn't enough either. The instructions below are always for the current release.<p>
 
 <p>If you compile from CVS then please remember that CVS can often be in an unstable state. If you wish to develop or test please join the <a href="http://www.videolan.org/support/lists.html">vlc-devel mailinglist.</a>.<br />
 Don't put any of the non released test binaries or cvs-compiles on software sites or on userforums. We have had bad experiences with this before and we do not appreciate it.</p>
@@ -25,8 +25,8 @@ or modify the /sw/bin/init.csh to add /sw/bin path AFTER $path</li>
 <li>Download the source code (use cvs or download the archive)</li>
 <li>Type the command:<br /><code>limit stacksize 20000</code></li>
 <li>cd to the source directory</li>
-<li>run ./bootstrap</li>
-<li>run ./configure. The following is suggested:<br /><code>./configure --disable-x11 --disable-xvideo --disable-gtk --disable-sdl --enable-ffmpeg --enable-mad --enable-libdvbpsi --enable-a52 --enable-dvdplay --enable-faad --enable-vorbis --enable-ogg --enable-theora --enable-faac --enable-debug</code></li>
+<li>If you use CVS, then run ./bootstrap</li>
+<li>run ./configure. The following is suggested:<br /><code>./configure --disable-x11 --disable-xvideo --disable-gtk --disable-sdl --enable-ffmpeg --enable-mad --enable-libdvbpsi --enable-a52 --enable-dvdplay --enable-faad --enable-vorbis --enable-ogg --enable-theora --enable-faac --enable-mkv --enable-freetype --enable-debug</code></li>
 <li>make</li>
 </ul>
 

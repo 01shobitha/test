@@ -39,6 +39,8 @@
 
 <h1>Download skins</h1>
 
+<p><span style="color: red; font-weight: bold; font-size: 20pt;">This is the skins 1 download page. Current vlc versions use the <a href="download-skins2.html">skins2</a> interface.</span></p>
+
 <h2>Skins VS skins2</h2>
 
 <p><span style="color: red;"><b>Important note:</b></span><br> VLC had two

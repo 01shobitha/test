@@ -1,3 +1,6 @@
+Deny from all
+ErrorDocument 403 "Down for maintenance. Sorry for the inconvenience
+
 # Big nasty kludge
 AddType application/x-httpd-php .html
 

@@ -7,6 +7,8 @@
 icon that was created during installation</span>
 <span xml:lang="fr">Cliquez sur l'icone <emphasis>Uninstall
 VLC</emphasis> créée pendant l'installation</span>
+<span xml:lang="es"> Pulse sobre el icono <emphasis>Uninstall VLC</emphasis>
+ creado durante la instalación</span>
 .</para>
 
 </sect2>
@@ -20,6 +22,9 @@ directory. You can also remove the configuration file
 <span xml:lang="fr">Effacez le dossier <filename>vlc-version</filename>.
 Vous pouvez également effacer le fichier de configuration
 <filename>/boot/home/config/settings/vlcrc</filename></span>
+<span xml:lang="es">Elimine el directorio <filename>vlc-version</filename>.
+También puede eliminar el fichero de configuración
+<filename>/boot/home/config/settings/vlcrc</filename></span
 .</para>
 
 </sect2>
@@ -29,6 +34,7 @@ Vous pouvez également effacer le fichier de configuration
 <para>
 <span xml:lang="en">Drag the VLC application to your trash can</span>
 <span xml:lang="fr">Faites glisser l'application VLC sur la Corbeille</span>
+<span xml:lang="es">Arrastre la aplicación VLC a la papelera de reciclaje</span>
 .</para>
 
 </sect2>
@@ -38,6 +44,7 @@ Vous pouvez également effacer le fichier de configuration
 <para>
 <span xml:lang="en">Remove the packages that you installed</span>
 <span xml:lang="fr">Enlevez les paquets que vous avez installé</span>
+<span xml:lang="es">Elimine los paquetes que ha instalado</span>
  :</para>
 
 <screen>
@@ -51,6 +58,7 @@ Vous pouvez également effacer le fichier de configuration
 <para>
 <span xml:lang="en">Uninstall the RPM packages that you installed</span>
 <span xml:lang="fr">Désinstallez les RPM que vous avez installé</span>
+<span xml:lang="es">Desinstale los paquetes RPM que ha instalado</span>
  :</para>
 
 <screen>
@@ -63,6 +71,7 @@ libdvdcss2-version libdvdpsi1-version</userinput>
 <sect2><title>
 <span xml:lang="en">If you compiled VLC from sources</span>
 <span xml:lang="fr">Si vous avez compilé le VLC depuis les sources</span>
+<span xml:lang="es">Si ha compilado VLS desde las fuentes</span>
 </title>
 
 <para>
@@ -70,6 +79,8 @@ libdvdcss2-version libdvdpsi1-version</userinput>
 execute</span>
 <span xml:lang="fr">Allez au répertoire contenant les sources de VLC et
 exécutez</span>
+<span xml:lang="es">Vaya al directorio que contiene las fuentes de VLC y
+ejecute</span>
  :</para>
 
 <screen>
@@ -79,6 +90,7 @@ exécutez</span>
 <para>
 <span xml:lang="en">Then you can remove the VLC sources</span>
 <span xml:lang="fr">Vous pouvez alors retirer les sources de VLC</span>
+<span xml:lang="es">Después puede borrar las fuentes de VLC</span>
 .</para>
 
 </sect2>

@@ -12,6 +12,10 @@ contrôle</emphasis>, cliquez sur <emphasis>Ajoutez et supprimer des
 programmes</emphasis>, choisissez <emphasis>VLS</emphasis> et cliquez
 sur <emphasis>Modifier/Enlever</emphasis> et suivez les étapes pour
 désinstaller le programme</span>
+<span xml:lang="es">Vaya al <emphasis>Panel de Control</emphasis>,
+pulse en <emphasis>Añadir o Eliminar programas</emphasis>, seleccione
+<emphasis>VLS</emphasis> y pulse en <emphasis>Modificar/Eliminar</emphasis>
+y siga los pasos del programa de desinstalación</span>
 .</para>
 
 </sect2>
@@ -19,12 +23,15 @@ désinstaller le programme</span>
 <sect2><title>
 <span xml:lang="en">If you compiled VLS from sources</span>
 <span xml:lang="fr">Si vous avez compilé VLS depuis les sources</span>
+<span xml:lang="es">Si ha compilado VLS de las fuentes</span>
 </title>
 
 <para>
 <span xml:lang="en">Go to the directory containing VLS sources and run</span>
 <span xml:lang="fr">Allez dans le répertoire contenant les sources et 
-faites</span>:</para>
+faites</span>
+<span xml:lang="es">Vaya al directorio que contiene las fuentes de VLS y ejecute</span>
+:</para>
 
 <screen>
 <prompt># </prompt><userinput>make uninstall</userinput>
@@ -33,6 +40,7 @@ faites</span>:</para>
 <para>
 <span xml:lang="en">Then you can remove the VLS sources</span>
 <span xml:lang="fr">Vous pouvez ensuite enlever les sources de VLS</span>
+<span xml:lang="es">Podrá borrar después las fuentes de VLS</span>
 .</para>
 
 </sect2>

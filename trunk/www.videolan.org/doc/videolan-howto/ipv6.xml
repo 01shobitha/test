@@ -3,18 +3,21 @@
 <chapter id="ipv6"><title id="tipv6">
 <span xml:lang="en">Stream in IPv6</span>
 <span xml:lang="fr">Diffusez en IPv6</span>
+<span xml:lang="es">Transmitir sobre IPv6</span>
 <span xml:lang="de">Streamen in IPv6</span>
 </title>
 
 <sect1><title>
 <span xml:lang="en">Stream in IPv6</span>
 <span xml:lang="fr">Diffusez en IPv6</span>
+<span xml:lang="es">Transmitir sobre IPv6</span>
 <span xml:lang="de">Streamen in IPv6</span>
 </title>
 
 <sect2><title>
 <span xml:lang="en">Requirements</span>
 <span xml:lang="fr">Requis</span>
+<span xml:lang="es">Requerimientos</span>
 <span xml:lang="de">Voraussetzungen</span>
 </title>
 
@@ -34,6 +37,14 @@ vous référer au <ulink url="http://www.videolan.org">site web
 VideoLAN</ulink> pour connaître le status de l'IPv6 dans VLC et VLS pour
 chaque système.</span> 
 
+<span xml:lang="es">Se necesita un sistema operativo compatible con IPv6,
+como por ejemplo Linux 2.4 ó 2.6 con el módulo <emphasis>ipv6</emphasis> cargado, 
+Windows 2000 con la pila IPv6, Windows XP Service Pack 1 o
+Mac OS X version 10.2 o superior. Por favor, visita la página
+del <ulink url="http://www.videolan.org">sitio web de VideoLAN</ulink> 
+para conocer el estado de IPv6 en VLC y VLS para cada sistema operativo</span>
+.</para></note>
+
 <span xml:lang="de">Sie benötigen eine IPv6 kompatibles Betriebssystem, wie
 Linux 2.4 oder 2.6 mit geladenem <emphasis>ipv6</emphasis> Modul, 
 Windows 2000 mit dem IPv6 Stack, Windows XP Service Pack 1 oder
@@ -50,6 +61,9 @@ multicast IPv6 route, with the following command:</span>
 
 <span xml:lang="fr">Sous Windows 2000, vous devez ajouter à la main une
 route de multicast IPv6 par défaut:</span>
+
+<span xml:lang="es">Bajo Windows 2000, debe añadir a mano una ruta
+multicast IPv6 por defecto, con el siguiente comando:</span>
 
 <span xml:lang="de">Unter Windows 2000 müssen Sie per Hand eine 
 standardmäßige IPv6-Route mit folgendem Befehl festlegen:</span>
@@ -71,6 +85,10 @@ cet exemple) est le numéro de votre vraie interface IPv6. Pour avoir
 la liste de vos interfaces IPv6, lançez la commande <command>ipv6
 if</command>.</span>
 
+<span xml:lang="es">donde el último número (<emphasis>4</emphasis> en
+este ejemplo) es el número de su interfaz IPv6. Para ver la lista
+de sus interfaces IPv6, ejecuta <command>ipv6 if</command>.</span>
+
 <span xml:lang="de">wobei die letzte Nummer (<emphasis>4</emphasis> in
 diesem Beispiel) die Nummer Ihres echtes IPv6-Interfaces ist. Um eine Liste Ihrer
 IPv6-Interfaces zu erhalten, starten Sie den Befehl 
@@ -84,10 +102,14 @@ IPv6-Interfaces zu erhalten, starten Sie den Befehl
 hidden IPv6 firewall. To solve the problem, go to the list of Windows
 Services and stop the IPv6 firewalling service.</span>
 
-<span xml:lang="en">Sous Windows XP, vous aurez probablement des ennuis
+<span xml:lang="fr">Sous Windows XP, vous aurez probablement des ennuis
 à cause d'un firewall IPv6 caché. Pour résoudre le problème, allez
 dans la liste des services Windows et arrêtez le service de parre-feu
 IPv6.</span>
+
+<span xml:lang="en">Bajo Windows XP, puede tener problemas debido a un
+firewall IPv6 oculto. Para solucionar el problema, vaya a la lista de los
+Servicios de Windows y pare el servicio de firewall para IPv6.</span>
 
 <span xml:lang="de">Unter Windows XP können Sie Probleme mit einer
 verborgenen IPv6-Firewall haben. Um das Problem zu lösen, gehen Sie zur Liste
@@ -102,6 +124,10 @@ it prevented IPv6 streaming !</span>
 <span xml:lang="fr">Si vous utilisez VMWare sous Linux, vous devrez
 l'arrêter et décharger les modules noyau de VMWare, car nous avons
 constaté qu'ils empêchent la diffusion IPv6 !</span>
+<span xml:lang="es">Si utiliza VMWare para Linux, deberá parar VMWare
+y descargar sus correspondientes módulos del kernel, ¡ porque nos hemos dado
+cuenta que imposibilitan la transmisión sobre IPv6 !
+</span>
 <span xml:lang="de">Wenn Sie VMware unter Linux benutzen, werden Sie
 VMware stoppen müssen und die VMware-Kernelmodule beenden, da wir bemerkt
 haben, das es IPv6-Streaming verhindert!</span>
@@ -112,6 +138,7 @@ haben, das es IPv6-Streaming verhindert!</span>
 <sect2><title>
 <span xml:lang="en">Stream with VLC</span>
 <span xml:lang="fr">Diffusez avec VLC</span>
+<span xml:lang="es">Transmitir con VLC</span>
 <span xml:lang="de">Streamen mit VLC</span>
 </title>
 
@@ -122,6 +149,7 @@ haben, das es IPv6-Streaming verhindert!</span>
 <para>
 <span xml:lang="en">where</span>
 <span xml:lang="fr">où</span>
+<span xml:lang="es">donde</span>
 <span xml:lang="de">wobei</span>
  :</para>
 
@@ -134,6 +162,8 @@ configuration)</span>
 <span xml:lang="fr"> est le fichier que vous désirez diffuser (vous
 pouvez par exemple, utiliser <command>dvdold:/dev/dvd</command>, pour
 diffuser un DVD, ....)</span>
+<span xml:lang="es"> es el fichero que quiere transmitir (también puede poner 
+<command>dvdold:/dev/dvd</command> para transmitir un DVD, ...)</span>
 <span xml:lang="de"> ist die Datei, die Sie streamen möchten (Sie können auch
 <command>dvdold:/dev/dvd</command> zum Streamen einer DVD
 benutzen)</span>
@@ -142,6 +172,7 @@ benutzen)</span>
 <listitem><para><emphasis>ff08::1</emphasis> 
 <span xml:lang="en">is either </span>
 <span xml:lang="fr">est soit</span>
+<span xml:lang="es">es</span>
 <span xml:lang="de">ist entweder </span>
 :</para>
 
@@ -152,12 +183,15 @@ benutzen)</span>
 to</span>
 <span xml:lang="fr">l'adresse IPv6 de la machine vers laquelle vous
 désirez diffuser en unicast</span>
+<span xml:lang="es">la dirección IPv6 de la máquina a la que quiere
+transmitir en unicast</span>
 <span xml:lang="de">die IPv6-Adresse des Rechners, den Sie via Unicast erreichen möchten</span>
 ;</para></listitem>
 
 <listitem><para>
 <span xml:lang="en">or the multicast IPv6 address</span>
 <span xml:lang="fr">l'adresse IPv6 multicast</span>
+<span xml:lang="es">o la dirección IPv6 multicast</span>
 <span xml:lang="de">oder die Multicast-IPv6-Adresse</span>
 .</para></listitem>
 
@@ -171,6 +205,8 @@ Live) of your IP packets (which means that the stream will be
 able to cross 11 routers)</span>
 <span xml:lang="fr"> est la valeur du TTL (Time To Live) de vos paquets
 IP (cela signifie qu'ils pourront traverser 11 routeurs)</span>
+<span xml:lang="es"> es el valor de TTL (Time To Live) de los
+paquetes IP (lo que significa que el flujo atravesará 11 routers)</span>
 <span xml:lang="de"> ist der Wert der TTL (Time To Live) Ihrer IP-Paket (was
 bedeutet, dass der Stream in der Lage sein wird, 11 Router zu 
 überqueren)</span>
@@ -183,6 +219,8 @@ bedeutet, dass der Stream in der Lage sein wird, 11 Router zu
 brackets around the IPv6 address</span>
 <span xml:lang="fr">Sous Unix ou GNU/Linux, il est possible que vous
 deviez "protéger" les crochets autour de l'adresse IPv6</span>
+<span xml:lang="es">Bajo Linux, es posible que tenga que "proteger"
+los corchetes que rodean la dirección IPv6</span>
 <span xml:lang="de">Unter Unix/Linux müssen Sie eventuell die eckigen
 Klammern um die IPv6-Adresse schützen</span>
 :</para>
@@ -198,6 +236,8 @@ Klammern um die IPv6-Adresse schützen</span>
 interface</span>
 <span xml:lang="fr">Il est possible que vous deviez spécifier
 l'interface réseau de sortie</span>
+<span xml:lang="es">Es posible que tenga que especificar la interfaz
+de red de salida</span>
 <span xml:lang="de">Es ist möglich, dass Sie das Ausgabe-Netzwerkinterface
 angeben müssen</span>
  :</para>
@@ -217,6 +257,11 @@ le nom de l'interface réseau (sous Linux, elles sont
 nommées <emphasis>ethX</emphasis>, sous Mac OS X, c'est
 <emphasis>enX</emphasis>, et <emphasis>X</emphasis> sous Windows, avec
 <emphasis>X</emphasis> le numéro approprié)</span>
+<span xml:lang="es">donde <emphasis>eth0</emphasis> es el nombre de la
+interfaz de red (bajo Linux, las interfaces de red
+son llamadas <emphasis>ethX</emphasis>, bajo Mac OS X se llaman
+<emphasis>enX</emphasis> y bajo Windows <emphasis>X</emphasis>,
+donde <emphasis>X</emphasis> es el número apropiado)</span>
 <span xml:lang="de">wobei <emphasis>eth0</emphasis> der Name des
 Netzwerkinterfaces ist (unter Linux werden die Netzwerk-Interface'
 <emphasis>ethX</emphasis> genannt, unter Mac OSX <emphasis>enX
@@ -231,6 +276,7 @@ Netzwerkinterfaces ist (unter Linux werden die Netzwerk-Interface'
 <sect2><title>
 <span xml:lang="en">Stream with VLS</span>
 <span xml:lang="fr">Diffusez avec VLS</span>
+<span xml:lang="es">Transmitir con VLS</span>
 <span xml:lang="de">Streamen mit VLS</span>
 </title>
 
@@ -243,6 +289,10 @@ write one for IPv6 streaming in unicast or multicast</span>
 <filename>vls.cfg</filename>. Merci de voir le <ulink
 url="http://www.videolan.org/doc/">guide de l'utilisateur de VLS</ulink>
 pour plus de détails</span>
+<span xml:lang="es">Necesita usar el fichero de configuración 
+<filename>vls.cfg</filename>. Por favor, mire la <ulink
+url="http://www.videolan.org/doc/">Guía de usuario de VLS</ulink> para más 
+detalles</span>
 <span xml:lang="de">Sie werden die Konfigurationsdatei benutzen müssen
 <filename>vls.cfg</filename>. Bitte schauen Sie in den 
 <ulink url="http://www.videolan.org/doc/">VLC-Userguide</ulink>, um zu
@@ -256,12 +306,14 @@ schreiben</span>
 <sect1><title>
 <span xml:lang="en">Receive in IPv6</span>
 <span xml:lang="fr">Recevez en IPv6</span>
+<span xml:lang="es">Recibir sobre IPv6</span>
 <span xml:lang="de">Empfangen in IPv6</span>
 </title>
 
 <sect2><title>
 <span xml:lang="en">Receive an unicast stream</span>
 <span xml:lang="fr">Recevez un flux unicast</span>
+<span xml:lang="es">Recibir un flujo unicast</span>
 <span xml:lang="de">Einen Unicast-Stream empfangen</span>
 </title>
 
@@ -274,6 +326,7 @@ schreiben</span>
 <sect2><title>
 <span xml:lang="en">Receive a multicast stream</span>
 <span xml:lang="fr">Recevez un flux multicast</span>
+<span xml:lang="es">Recibir un flujo multicast</span>
 <span xml:lang="de">Einen Multicast-Stream empfangen</span>
 </title>
 
@@ -287,6 +340,8 @@ schreiben</span>
 brackets around the IPv6 address</span>
 <span xml:lang="fr">Sous Unix ou GNU/Linux, il est possible que vous
 deviez "protéger" les crochets autour de l'adresse IPv6</span>
+<span xml:lang="es">Bajo Linux, es posible que tengas que "proteger"
+los corchetes que rodean la dirección IPv6</span>
 <span xml:lang="de">Unter Unix/Linux kann es notwendig sein, dass Sie die
 Klammern um die IPv6-Adresse "beschützen" müssen</span>
 :</para>
@@ -302,6 +357,8 @@ Klammern um die IPv6-Adresse "beschützen" müssen</span>
 interface</span>
 <span xml:lang="fr">Il est possible que vous deviez spécifier
 l'interface réseau de sortie</span>
+<span xml:lang="es">Es posible que tengas que especificar la interfaz
+de red de salida</span>
 <span xml:lang="de">Es ist möglich, dass Sie das Ausgabe-Netzwerkinterface
 festlegen müssen</span>
  :</para>
@@ -321,6 +378,11 @@ le nom de l'interface réseau (sous Linux, elles sont
 nommées <emphasis>ethX</emphasis>, sous Mac OS X, c'est
 <emphasis>enX</emphasis>, et <emphasis>X</emphasis> sous Windows, avec
 <emphasis>X</emphasis> le numéro approprié)</span>
+<span xml:lang="es">donde <emphasis>eth0</emphasis> es el nombre de la
+interfaz de red (bajo Linux, las interfaces de red
+son llamadas <emphasis>ethX</emphasis>, bajo Mac OS X se llaman
+<emphasis>enX</emphasis> y bajo Windows <emphasis>X</emphasis>,
+donde <emphasis>X</emphasis> el el número apropiado)</span>
 <span xml:lang="de">wobei <emphasis>eth0</emphasis> der Name des
 Netzwerkinterfaces ist (unter Linux werden die Netzwerk-Interface'
 <emphasis>ethX</emphasis> genannt, unter Mac OSX <emphasis>enX

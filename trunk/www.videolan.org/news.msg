@@ -4,10 +4,10 @@
 # Et pour les nouvelles importantes, c'est pas un | , c'est un §
 #
 
-|16 May 2003| Release: VLS 0.5.1 | VLS for Windows is back !
-The Windows port of VLS has been fixed. This new version also
-features the loop on broken PS files and setting the TTL under
-Windows. To download the sources of this new version, go to the <a
+|16 May 2003| Release: VLS 0.5.1 | VLS for Windows is back ! The Windows
+port of VLS has been fixed. This new version also features the loop
+on broken PS files and setting the TTL under Windows. To download the
+sources or the Windows executable of this new version, go to the <a
 href="http://www.videolan.org/streaming/">streaming page</a>.
 
 |26 Apr 2003| New VideoLAN HOWTO | The new VideoLAN HOWTO is now

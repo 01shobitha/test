@@ -30,7 +30,7 @@ my_file.mpg using ffmpeg audo/video decoder do :</para>
 </screen>
 
 <para>A list of all video and audio codecs supported by VLC is available
-on the <ulink url="http://www.videolan.org/vlc/feature.html">VLC
+on the <ulink url="http://www.videolan.org/vlc/features.html">VLC
 features list</ulink></para>
 
 </sect2>

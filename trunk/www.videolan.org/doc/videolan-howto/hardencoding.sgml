@@ -62,8 +62,7 @@ able to cross 11 routers).</para>
 
 <sect2><title>Stream with VLS</title>
 
-<para>We are going to use the input named "kfir"... to stream from the
-Hauppauge card ! There is no command line interface for this input for
+<para>There is no command line interface for this input for
 the moment, so you will have to use the configuration file.</para>
 
 <para>Here is a typical configuration file <filename>vls.cfg</filename>
@@ -75,16 +74,16 @@ to run VLS with a Hauppauge WinTV-PVR-250 encoding card:</para>
 
 BEGIN "Inputs"
 
-  kfir       = "video"
+  pvr       = "video"
 
 END
 
-BEGIN "kfir"
+BEGIN "pvr"
 
-  # Kfir device
+  # Hauppauge WinTV-PVR-250 device
   Device        = "/dev/video0"
 
-  # Stream type (default is "Mpeg2-PS")
+  # Stream type
   Type          = "Mpeg2-PS"
 
 END
@@ -113,7 +112,7 @@ END
 
 BEGIN "LaunchOnStartUp"
 
-  command1 = "start video channel1 kfir"
+  command1 = "start video channel1 pvr"
 
 END
 </programlisting>
@@ -192,7 +191,7 @@ END
 
 BEGIN "kfir"
 
-  # Kfir device
+  # Visiontech Kfir device
   Device        = "/dev/video"
 
   # Stream type (default is "Mpeg2-PS")

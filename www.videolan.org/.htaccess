@@ -46,6 +46,8 @@ RewriteRule ^tests/(.*)$ /rez/ [R=permanent,L]
 RewriteRule ^doc/faq-vlc/faq/(.*)$ /doc/faq/ [R=permanent,L]
 RewriteRule ^doc/faq/videolan-faq.html$ /doc/faq/ [R=permanent,L]
 
+RewriteRule ^dtsdec.html /libdca.html [R=permanent]
+
 #
 # Redirects for removed stuff
 #

@@ -52,6 +52,9 @@ display the input stream, as VLC would normally do. Used with the
 <emphasis>duplicate</emphasis> module, this allows you to view the
 stream as you send it.</para></listitem>
 
+<listitem><para><emphasis>es</emphasis> allows you to make separate
+Elementary Etreams (ES) out of an input stream.</para></listitem>
+
 </itemizedlist>
 
 <para>Each of these modules may take options. Here is the syntax that
@@ -208,6 +211,78 @@ more CPU).</para></listitem>
 
 </sect3>
 
+<sect3><title>es</title>
+
+<para>Make separate Elementary Streams.</para>
+
+<para>Options:</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>access_audio</emphasis>: how to send the
+audio track: <emphasis>file</emphasis>, <emphasis>udp</emphasis>,
+<emphasis>rtp</emphasis> or <emphasis>http</emphasis>.</para></listitem>
+
+<listitem><para><emphasis>access_video</emphasis>: how to send the
+video track: <emphasis>file</emphasis>, <emphasis>udp</emphasis>,
+<emphasis>rtp</emphasis> or <emphasis>http</emphasis>.</para></listitem>
+
+<listitem><para><emphasis>access</emphasis>: if you want the audio and
+the video tracks to use the same access, use this option instead of the
+two above.</para></listitem>
+
+
+<listitem><para><emphasis>mux_audio</emphasis>: which muxer (ie,
+which format) will be used for the audio track. It can be one of
+<emphasis>avi</emphasis> (for AVI format), <emphasis>ogg</emphasis>
+(for OGG format), <emphasis>ps</emphasis> (for MPEG2-PS format),
+<emphasis>ts</emphasis> (for MPEG2-TS format).</para></listitem>
+
+<listitem><para><emphasis>mux_video</emphasis>: which muxer (ie,
+which format) will be used for the video track. It can be one of
+<emphasis>avi</emphasis> (for AVI format), <emphasis>ogg</emphasis>
+(for OGG format), <emphasis>ps</emphasis> (for MPEG2-PS format),
+<emphasis>ts</emphasis> (for MPEG2-TS format).</para></listitem>
+
+<listitem><para><emphasis>mux</emphasis>: if you want the audio and
+the video tracks to use the same muxer, use this option instead of the
+two above.</para></listitem>
+
+<listitem><para><emphasis>url_audio</emphasis>: if you use the
+<emphasis>file</emphasis> access, it will be the location where to
+store the audio track; if you use another access, it will be the
+unicast or multicast IP address where you want to stream the audio
+track.</para></listitem>
+
+<listitem><para><emphasis>url_video</emphasis>: if you use the
+<emphasis>file</emphasis> access, it will be the location where to
+store the video track; if you use another access, it will be the
+unicast or multicast IP address where you want to stream the video
+track.</para></listitem>
+
+<listitem><para><emphasis>url</emphasis>: if you want the audio and
+the video tracks to use the same url, use this option instead of the
+two above.</para></listitem>
+
+</itemizedlist>
+
+<note><para>In the <emphasis>url</emphasis> options, if you use the
+<emphasis>file</emphasis> access, you can use the following macros in
+the filename:</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>%n</emphasis> = stream number ;</para></listitem>
+<listitem><para><emphasis>%c</emphasis> = FOURCC ;</para></listitem>
+<listitem><para><emphasis>%m</emphasis> = muxer ;</para></listitem>
+<listitem><para><emphasis>%a</emphasis> = access.</para></listitem>
+
+</itemizedlist>
+
+</note>
+
+</sect3>
+
 <sect3><title>Miscellaneous</title>
 
 <para>Here are a few additional global options</para>
@@ -237,3 +312,9 @@ module.</para>
 
 </sect2>
 
+<sect2><title>Examples</title>
+
+<para>Please, refer to the VideoLAN HOWTO for use cases of VLC's stream
+output.</para>
+
+</sect2>

@@ -3,40 +3,28 @@
 <chapter id="conclusion"><title id="tconclusion">Conclusion</title>
 
 <span xml:lang="en">
-<para>VideoLAN can do much more than what is explained in this
-Quickstart. For example, you can use VLC to stream live from a
-camera or a webcam under Linux, or you can use VLS to stream digital
-satellite channels and digital terrestial TV channels. To know about
-the full streaming possibilities of VideoLAN, please read the <ulink
-url="http://www.videolan.org/doc/videolan-howto-old/" >VideoLAN
-HOWTO</ulink>.</para>
 
-<para>VLC also have very interesting features that are not explained
-in this Quickstart. For example, VLC can be used to do image walls
-! To know about the full possibilities of VLC, please read the
-<ulink url="http://www.videolan.org/doc/vlc-user-guide/">VLC user
-guide</ulink>.</para>
+<para>VideoLAN can do much more than what is explained in this
+Quickstart. For example, you can use VLC to display image walls or
+to transcode a stream on-the-fly. You can also use VLS to stream
+digital satellite channels and digital terrestial TV channels. To
+know about the full possibilities of VideoLAN, please read the rest
+of the official documentation, that you can find on the <ulink
+url="http://www.videolan.org/doc/" >documentation page</ulink>.</para>
 
 </span>
 
 <span xml:lang="fr">
 
 <para>VideoLAN est capable de faire beaucoup plus que ce qui est
-évoqué dans ce manuel de démarrage. Par exemple, vous pouvez
-utiliser VLC pour envoyer des flux en direct depuis une caméra
-ou une webcam sous Linux, ou bien vous pouvez utiliser VLS
-pour diffuser des flux satellites numériques et des chaînes de
-télévision numérique terrestre. Pour en savoir plus sur toutes les
-possibilités de diffusion de Videolan, veuillez lire le <ulink
-url="http://www.videolan.org/doc/videolan-howto/" >VideoLAN
-HOWTO</ulink>.</para>
-
-<para>VLC possède également de nombreuses autres caractéristiques
-interessantes non détaillées dans ce manuel de démarrage. Par
-exemple, vous pouvez l'utiliser pour faire des murs d'image !
-Pour connaître toutes les possibilités de VLC, veuillez lire le
-<ulink url="http://www.videolan.org/doc/vlc-user-guide/">"VLC user
-guide"</ulink>.</para>
+évoqué dans ce manuel de démarrage. Par exemple, vous pouvez utiliser
+VLC pour faire des murs d'images ou transcoder des flux à la volée.
+Vous pouvez également utiliser VLS pour diffuser des flux satellites
+numériques et des chaînes de télévision numérique terrestre. Pour en
+savoir plus sur toutes les possibilités de Videolan, veuillez lire le
+reste de la documentation officielle, qui est disponible sur la <ulink
+url="http://www.videolan.org/doc/" > page de documentation</ulink> du
+site web.</para>
 
 </span>
 

@@ -1,0 +1,92 @@
+<chapter id="ipv6"><title id="tipv6">Stream in IPv6</title>
+
+<sect1><title>Stream in IPv6</title>
+
+<note><para>You will need an IPv6-aware operating system, like Linux
+2.4.21 with the <emphasis>ipv6</emphasis> module loaded or Windows
+XP Service Pack 1. Please look at the features pages on the <ulink
+url="http://www.videolan.org">VideoLAN web site</ulink> to know about
+the status of IPv6 in VLC and VLS for each O.S.</para></note>
+
+<warning><para>If you are using VMware under Linux, you will have to
+stop VMware and unload the VMware kernel modules, because we noticed it
+prevented IPv6 streaming !</para></warning>
+
+
+<sect2><title>Stream with VLC</title>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv video1.xyz --ipv6 --sout udp:[ff08::1] --ttl 12</userinput>
+</screen>
+
+<para>where :</para>
+
+<itemizedlist>
+
+<listitem><para><filename>video1.xyz</filename> is the file you want to
+stream (you can also put <command>dvdold:/dev/dvd</command> to stream a
+DVD or any other input configuration),</para></listitem>
+
+<listitem><para><emphasis>ff08::1</emphasis> is either :</para>
+
+<itemizedlist>
+
+<listitem><para>the IPv6 address of the machine you want to unicast to
+;</para></listitem>
+
+<listitem><para>or the multicast IPv6 address.</para></listitem>
+
+</itemizedlist>
+
+</listitem>
+
+<listitem><para><emphasis>12</emphasis> is the value of the TTL (Time To
+Live) of your IP packets (which means that the stream will be
+able to cross 11 routers).</para></listitem>
+
+</itemizedlist>
+
+<note><para>Under Unix, you may have to protect the square brackets
+around the IPv6 address :</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv video1.xyz --ipv6 --sout udp:\[ff08::1\] --ttl 12</userinput>
+</screen>
+
+</note>
+
+</sect2>
+
+<sect2><title>Stream with VLS</title>
+
+<para>You will need to use the configuration file
+<filename>vls.cfg</filename>. Please, see the <ulink
+url="http://www.videolan.org/doc/">VLS user guide</ulink> to know how
+to write one for IPv6 streaming in unicast or multicast.</para>
+
+</sect2>
+</sect1>
+
+<sect1><title>Receive in IPv6</title>
+
+<sect2><title>Receive an unicast stream</title>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv --ipv6 udp:</userinput>
+</screen>
+
+</sect2>
+
+<sect2><title>Receive a multicast stream</title>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv --ipv6 udp:@[ff08::1]</userinput>
+</screen>
+
+<para>where <emphasis>ff08::1</emphasis> is the multicast IPv6 address
+you want to receive.</para>
+
+</sect2>
+
+</sect1>
+</chapter>

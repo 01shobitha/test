@@ -14,7 +14,7 @@ function DownloadSize($file) {
 function pkgitem($version,$name,$top)
 { ?>
   <li><code><?php echo $name; ?></code> (<?php echo DownloadSize("{$_SERVER["DOCUMENT_ROOT"]}pub/videolan/$top/$version/$name"); ?>) :
-<br/>Select a mirror :
+<br/>Select a download location :
 <ul>
 <!--<li><a href="http://download.videolan.org/pub/videolan/<?php echo $top."/".$version."/".$name; ?>">VIA, Ecole Centrale Paris (France)</a></li>-->
 <?php

@@ -354,11 +354,11 @@
 
 <td class="category" rowspan="6"><b>Video Output</b></td>
 <td class="type">Native</td>
-<td class="yes">DirectX / GDI</td>
+<td class="yes">DirectX<br />GDI</td>
+<td class="yes">QuickTime</td>
+<td class="yes">X11<br />Xvideo</td>
 <td class="yes">Yes</td>
-<td class="yes">X11 / Xvideo</td>
-<td class="yes">Yes</td>
-<td class="yes">X11 / Xvideo</td>
+<td class="yes">X11<br />Xvideo</td>
 
 </tr>
 
@@ -523,9 +523,9 @@
 
 <td class="category" rowspan="6"><b>Audio Output</b></td>
 <td class="type">Native</td>
-<td class="yes">DirectX / WaveOut</td>
+<td class="yes">DirectX<br />WaveOut</td>
 <td class="yes">Yes</td>
-<td class="yes">OSS / ALSA</td>
+<td class="yes">OSS<br />ALSA</td>
 <td class="yes">Yes</td>
 <td class="yes">OSS</td>
 
@@ -536,7 +536,7 @@
 <td class="type">S/PDIF</td>
 <td class="no">No</td>
 <td class="yes">Yes</td>
-<td class="yes">OSS / ALSA</td>
+<td class="yes">OSS<br />ALSA</td>
 <td class="no">No</td>
 <td class="partial">Untested</td>
 
@@ -591,7 +591,7 @@
 <td class="category" rowspan="6"><b>Interfaces</b></td>
 <td class="type">Native</td>
 <td class="yes">Yes</td>
-<td class="yes">Yes</td>
+<td class="yes">Cocoa</td>
 <td class="none">-</td>
 <td class="yes">Yes</td>
 <td class="none">-</td>
@@ -689,7 +689,7 @@
 
 <tr>
 
-<td class="category" rowspan="6"><b>Misc</b></td>
+<td class="category" rowspan="7"><b>Misc</b></td>
 <td class="type">Command line</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -754,6 +754,17 @@
 
 </tr>
 
+<tr>
+
+<td class="type">CPU acceleration [1]</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes [2]</td>
+
+</tr>
+
 
 <tr>
 
@@ -770,5 +781,12 @@
 </tr>
 
 </table>
+
+<p>
+[1]: supported CPU extensions are MMX, MMX EXT, SSE and 3D Now! on x86
+processors, and AltiVec on G4 processors.
+<br />
+[2]: the OpenBSD 2.9 default assembler does not support MMX.
+</p>
 
 <? require("footer.php3"); ?>

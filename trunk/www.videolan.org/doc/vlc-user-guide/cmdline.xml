@@ -6,7 +6,12 @@
 <span xml:lang="de">Die Befehlszeilenoberfläche</span>
 </title>
 
-<sect1><title>Introduction</title>
+<sect1>
+<title>
+<span xml:lang="en">Introduction</span>
+<span xml:lang="fr">Introduction</span>
+<span xml:lang="de">Einführung</span>
+</title>
 
 <para>
 <span xml:lang="en">Many options are only available through command

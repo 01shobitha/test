@@ -37,16 +37,41 @@ drivers.</para>
 
 <sect2><title>Stream with VLC</title>
 
+<note><para>You must add <command>--enable-pvr</command>
+to <command>./configure</command> to use this
+feature. You may want to change the value of
+<emphasis>CR_MAX_AVERAGE_COUNTER</emphasis> to <emphasis>1000</emphasis>
+in <filename>src/input/input_clock.c</filename> to work around a problem
+with the card.</para></note>
+
 <screen>
-<prompt>% </prompt><userinput>cat /dev/video0 | vlc -vvv - --sout udp:192.168.0.42 --ttl 12</userinput>
+<prompt>% </prompt><userinput>vlc -vvv pvr:device=0,standard=V4L2_STD_SECAM,width=720,height=576,frequency=567250,bitrate=3000000,bitrate_peak=4000000 --sout udp:192.168.0.42 --ttl 12</userinput>
 </screen>
 
 <para>where :</para>
 
 <itemizedlist>
 
-<listitem><para><filename>/dev/video0</filename> is the device
-corresponding to the card,</para></listitem>
+<listitem><para><emphasis>device=0</emphasis> is the
+number of the device corresponding to the encoding card
+(if it's <emphasis>0</emphasis>, VLC will read from
+<filename>/dev/video0</filename>),</para></listitem>
+
+<listitem><para><emphasis>standard=V4L2_STD_SECAM</emphasis> is name of
+the standard of the analogic signal,</para></listitem>
+
+<listitem><para><emphasis>width=720</emphasis> and
+<emphasis>height=576</emphasis> are the size of the video you want to
+stream,</para></listitem>
+
+<listitem><para><emphasis>frequency=567250</emphasis> is the frequency
+of the channel you want to stream,</para></listitem>
+
+<listitem><para><emphasis>bitrate=3000000</emphasis> is the average
+bitrate of the stream,</para></listitem>
+
+<listitem><para><emphasis>bitrate_peak=4000000</emphasis> is the maximum
+bitrate of the stream,</para></listitem>
 
 <listitem><para><emphasis>192.168.0.42</emphasis> is either :</para>
 

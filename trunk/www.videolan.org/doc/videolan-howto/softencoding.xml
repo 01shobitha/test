@@ -22,7 +22,7 @@ url="http://www.exploits.org/v4l/">this page</ulink>.</para>
 
 <sect1><title>Stream with VLC</title>
 
-<note><para>You must specify <command>--enable-v4l</command> to
+<note><para>You must add <command>--enable-v4l</command> to
 <command>./configure</command> to use this feature.</para></note>
 
 <screen>

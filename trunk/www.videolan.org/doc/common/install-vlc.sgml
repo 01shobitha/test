@@ -53,14 +53,15 @@ deb-src http://www.videolan.org/pub/videolan/debian sources/
 
 <screen>
 <prompt># </prompt><userinput>apt-get update</userinput>
-<prompt># </prompt><userinput>apt-get install vlc-gnome vlc-mad libdvdcss2</userinput>
+<prompt># </prompt><userinput>apt-get install gnome-vlc vlc-plugin-a52 vlc-plugin-mad vlc-plugin-ogg libdvdcss2</userinput>
 </screen>
 </sect2>
 
 <sect2><title>Under Linux Redhat, Mandrake and SuSE</title>
 
-<para>For these distributions, we use RPM packages</para>
-<para>Install the packages <emphasis>liba52</emphasis> and
+<para>For these distributions, use the RPM packages.</para>
+
+<para>First, install the packages <emphasis>liba52</emphasis> and
 <emphasis>libmad0</emphasis> that should be packaged in your
 distribution. If they are not, try to find the RPMs on <ulink
 url="http://www.rpmfind.net/linux/RPM/">RPMfind.net</ulink> or search
@@ -70,19 +71,19 @@ the Internet.</para>
 
 Download the RPM packages of <emphasis>libdvdcss2</emphasis>,
 <emphasis>libdvdpsi1</emphasis>, <emphasis>vlc</emphasis>
-<emphasis>vlc-gnome</emphasis> and <emphasis>vlc-mad</emphasis> from the
+<emphasis>gnome-vlc</emphasis>, <emphasis>vlc-plugin-mad</emphasis>, <emphasis>vlc-plugin-ogg</emphasis>, <emphasis>vlc-plugin-a52</emphasis> from the
 <ulink url="http://www.videolan.org/vlc/download-linux.html">VLC Linux
 download page</ulink>.
 
 </para>
 
 <para>
-Then install the RPM packages you have downloaded :
+Then install the RPM packages you have downloaded:
 </para>
 
 <screen>
-<prompt># </prompt><userinput>rpm -Uhv vlc-version.i586.rpm vlc-mad-version.i586.rpm vlc-gnome-version.i586.rpm
-libdvdcss2-version.i586.rpm libdvdpsi1-version.i586.rpm</userinput>
+<prompt># </prompt><userinput>rpm -Uhv vlc-version.i586.rpm gnome-vlc-version.i586.rpm vlc-plugin-mad-version.i586.rpm
+vlc-plugin-ogg-version.i586.rpm vlc-plugin-a52-version.i586.rpm libdvdcss2-version.i586.rpm libdvdpsi1-version.i586.rpm</userinput>
 </screen>
 
 </sect2>
@@ -112,31 +113,53 @@ menu navigation,</para></listitem>
 <listitem><para><emphasis>libdvbpsi</emphasis> if you want to be able to
 read from the network,</para></listitem>
 
-<listitem><para><emphasis>liba52</emphasis> if you want to be
+<listitem><para><emphasis>a52dec</emphasis> if you want to be
 able to decode the AC3 (i.e. A52) sound format often used in
 DVDs,</para></listitem>
 
-<listitem><para><emphasis>ffmpeg</emphasis> and
-<emphasis>libmad</emphasis> if you want to read MPEG 4 / DivX
-files.</para></listitem>
+<listitem><para><emphasis>ffmpeg</emphasis>, <emphasis>libmad</emphasis>
+and <emphasis>faad2</emphasis> if you want to read MPEG 4 / DivX
+files,</para></listitem>
+
+<listitem><para><emphasis>libogg</emphasis> and
+<emphasis>libvorbis</emphasis> if you want to read Ogg Vorbis
+files.</para>
 
 </itemizedlist>
 
-<para>
-Download the libraries from <ulink
+<para>Download the libraries from <ulink
 url="http://www.videolan.org/vlc/download-sources.html">VLC sources
-download page</ulink>.
-</para>
+download page</ulink>.</para>
 
-<para>For each library, uncompress, configure, compile and install :
-</para>
+<para>For each library :</para>
+
+<itemizedlist>
+
+<listitem><para>uncompress :</para>
+
 <screen>
 <prompt>% </prompt><userinput>tar xvzf library.tar.gz</userinput>
+</screen>
+<para>or</para>
+<screen>
+<prompt>% </prompt><userinput>tar xvjf library.tar.bz2</userinput>
+</screen>
+
+<listitem><para>configure :</para>
+
+<screen>
 <prompt>% </prompt><userinput>cd library</userinput>
 <prompt>% </prompt><userinput>./configure --enable-shared</userinput>
+</screen>
+
+<listitem><para>compile and install :</para>
+
+<screen>
 <prompt>% </prompt><userinput>make</userinput>
 <prompt># </prompt><userinput>make install</userinput>
 </screen>
+
+</itemizedlist>
 
 <para>
 Check that the configuration file <filename>/etc/ld.so.conf</filename>

@@ -6,7 +6,7 @@
   {
     $fd = fopen( "$page.html", "r" );
     $line = fgets( $fd, 1023 );
-    if( ereg( "<HTML", $line, $regs ) )
+    if( eregi( "<.*html", $line ) )
     {
       /* on laisse telles quelles les pages html toutes faites
          (e.g. les docs développeur) */

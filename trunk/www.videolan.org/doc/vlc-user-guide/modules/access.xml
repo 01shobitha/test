@@ -16,7 +16,7 @@ VLC de lire depuis différentes sources. VLC essaie de choisir le module le plus 
 &enabled;
 <para><span xml:lang="en">This is the Audio CD input.  At present, if
 you are have a new enough libvcdinfo (from <ulink
-url="http://vcdimager.org">vcdimager</ulink> and a new enough <ulink
+url="http://www.vcdimager.org/index.phtml">vcdimager</ulink> and a new enough <ulink
 url="http://www.gnu.org/software/libcdio">libcdio</ulink> you will get
 the newer navigation-capable plugin. Eventually when libcdio is more
 mature and handles more OSs the older plugin will disapear. The file

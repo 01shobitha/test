@@ -6,7 +6,6 @@ is a cone" /></a>
 <table width="100%" cellspacing=0 cellpadding=0>
 <tr><th class=menu>VideoLAN Client</th></tr>
 <tr><td class=menu>
-<p class=menu><a href="/">TODO list</a></p>
 <p class=menu><a href="/vlc/ChangeLog">Changelog</a></p>
 <p class=menu><a href="/">Developer doc</a></p>
 </td></tr>
@@ -16,7 +15,6 @@ is a cone" /></a>
 <table width="100%" cellspacing=0 cellpadding=0>
 <tr><th class=menu>VideoLAN Server</th></tr>
 <tr><td class=menu>
-<p class=menu><a href="/">TODO list</a></p>
 <p class=menu><a href="/vls/ChangeLog">Changelog</a></p>
 <p class=menu><a href="/">Developer doc</a></p>
 </td></tr>

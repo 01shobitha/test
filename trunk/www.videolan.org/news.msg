@@ -11,6 +11,8 @@ for a complete list of changes.
 To download the sources or the binary package of this new version,
 go to the <a href="http://www.videolan.org/vlc/">VLC download page</a>
 and click on your OS logo!<br />
+<b>Note:</b> A 0.7.1a release is now available for Mac OS X users that fixes
+two important bugs in the 0.7.1 release.
 
 |16 Feb 2004| Release: VLS 0.5.6| This release of VLS fixes
 a bug when streaming MPEG2/PS files with several AC3 tracks,

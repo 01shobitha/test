@@ -115,7 +115,7 @@ having muxed it.
 
 <para>The available choices are:</para>
 
-<sect3><title>access</title>
+<sect3><title>access=</title>
 
 <para>This option allows to set the medium used to save or send the stream. This is a compulsory option. Available options are:</para>
 
@@ -167,7 +167,7 @@ output module for a more compliant and complete RTP streamer.</para>
 
 </itemizedlist>
 </sect3>
-<sect3><title>mux</title>
+<sect3><title>mux=</title>
 <para> This option allows you to set the encapsulation method used for the resulting stream. This option has to be set.</para>
 
 <para>Avaivailable options are: </para>
@@ -256,7 +256,7 @@ muxer.</para></listitem>
 </itemizedlist>
 </sect3>
 
-<sect3><title>url</title>
+<sect3><title>url=</title>
 
 <para>This option allows to give informations about the location
 where the stream should actually be saved or sent.</para>
@@ -286,44 +286,54 @@ syntax.</para></listitem>
 
 </sect3>
 
-<itemizedlist>
-<listitem><para><emphasis>url</emphasis>: 
-if you use the
-<emphasis>file</emphasis> access, it will be the location where to
-store the stream; if you use another access, it will be the unicast or
-multicast IP address where you want to stream.
-</para></listitem>
+<sect3><title>sap</title>
 
-<listitem><para><emphasis>sap</emphasis>: 
-if you use the <emphasis>udp</emphasis> or
-<emphasis>rtp</emphasis> accesses, use this option to announce your
-stream, using SAP/SDP.
-</para></listitem>
+<para>Use this option if you want VLC to send SAP (Session Annoncement
+Protocol) announces. SAP is a service discovery protocol, that uses
+a special multicast address to send a list of available streams on a
+server.</para>
 
-<listitem><para><emphasis>name</emphasis>!
-This option contains the name under which you want to announce the 
-program.
-</para></listitem>
+<note><para>This option can only be enabled with the <emphasis>udp</emphasis>
+output mthod.</para></note>
 
-<listitem><para><emphasis>slp</emphasis>: 
-like sap, but use the SLP protocol. You need
-to have libslp on your system.
-</para></listitem>
+</sect3>
 
-<listitem><para><emphasis>sap_ipv</emphasis>: 
-if you use the <emphasis>sap</emphasis> option,
-use this option to specify if you want to send the SAP announces in
-IPv4 or IPv6. The value of this option is <emphasis>4</emphasis> or
-<emphasis>6</emphasis>.
-</para></listitem>
+<sect3><title>group=</title>
 
-</itemizedlist>
+<para>This option allows to specify the name of an optional <emphasis>group</emphasis> of streams. A VLC used as a client will use this field to classify the stream.</para>
 
-<note><para>
-If you are streaming in multicast, you may want to
-use the global option <command>--ttl 12</command> to set the TTL to a
-value superior to 1.
-</para></note>
+<note><para>This option uses a private extension of the SAP protocol.
+VLC will be the only client able to read this field</para>
+
+<para>This option can only be used it the <emphasis>sap</emphasis>
+option has been enabled.</para></note>
+
+</sect3>
+
+<sect3><title>sap-ipv6</title>
+
+<para>Use this option if you want the SAP announces to be sent using the
+<emphasis>IPv6</emphasis> protocol instead of <emphasis>IPv4</emphasis></para>.
+
+<note><para>This option can only be used it the <emphasis>sap</emphasis>
+option has been enabled.</para></note>
+
+</sect3>
+
+<sect3><title>slp</title>
+
+<para>SLP stands for <emphasis>Service Location Protocol</emphasis>. It is an alternative to SAP for session announcement. Use this option if you want to send such announces.</para>
+
+</sect3>
+
+<sect3><title>name=</title>
+
+<para>Use this option to specify the name of the stream that will be sent in SAP and SLP announces.</para>
+
+<note><para>This option can only be used it the <emphasis>sap</emphasis>
+or <emphasis>slp</emphasis> option has been enabled.</para></note>
+
+</sect3>
 
 </sect2>
 

@@ -39,7 +39,7 @@ h1 {
   font-family: inherit;
   font-weight: 600;
   background: inherit;
-  color: inherit;
+  color: #888;
   padding: 0;
   margin: 0px 0px 5px 0px;
   border-style: solid;
@@ -58,9 +58,12 @@ h2 {
   font-family: inherit;
   font-weight: 600;
   background: inherit;
-  color: inherit;
+  color: #888;
   padding: 0;
   text-decoration: underline;
+  border-style: solid;
+  border-bottom-color: #a43;
+  border-bottom-width: 2px;
 }
 
 a:link {

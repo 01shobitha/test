@@ -2,11 +2,16 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
-|7-8 August 2003| Scheduled downtime| Due to scheduled power downtimes,
-the VideoLAN main site hosting Web, FTP, CVS and the mailing-lists
-will be down August 7th from 8:00 to 19:00 CEST and August 8th from
-13:00 CEST to 19:00 CEST. Please use the Web and FTP mirror site <a
-href="http://www.fr.videolan.org">www.fr.videolan.org</a>.
+|14 August 2003| VLC 0.6.2| This new release of VLC follows the previous
+one very closely because it mainly fixes a regression in VLC 0.6.1
+which made some streams unplayable. VLC 0.6.2 also features an improved
+MPEG TS muxer, proper PTS/DTS generation in the transcoding module,
+support for DVB-S/C/T cards using V4L2 API, DVD menus navigation in
+the wxWindows interface and fixes to the VCD navigation. Look <a
+href="http://developers.videolan.org/vlc/NEWS">here</a> for a complete
+list of changes. To download the sources or the binary packages of
+this new version, go to the <a href="http://www.videolan.org/vlc/">VLC
+download page</a> and click on your OS logo!
 
 |31 July 2003| Release: VLC 0.6.1| This new release of VLC media
 player features: vorbis and mp3 audio support for the transcoding

@@ -70,9 +70,9 @@ function DrawMenu( $file, $mod )
         else
         {
           echo '<td class="button" onmouseout="this.className=\'button\'"'.
-               ' onMouseOver="this.className=\'button-up\'"'.
-	       ' onMouseDown="this.className=\'button-down\'"'.
-	       ' onClick="window.location=\''.htmlentities($link).'\'; return true;">';
+               ' onmouseover="this.className=\'button-up\'"'.
+	       ' onmousedown="this.className=\'button-down\'"'.
+	       ' onclick="window.location=\''.htmlentities($link).'\'; return true;">';
         }
 	echo '<table cellpadding="1" cellspacing="0" style="margin: 0px;">'.
 	     '<tr>';

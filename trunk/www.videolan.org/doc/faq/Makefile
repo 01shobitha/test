@@ -3,7 +3,7 @@
 # Factorised by Sam Hocevar <sam@zoy.org>
 
 DOC = videolan-faq
-LANG = en es fr
+LANG = es fr en
 EXT = html ps pdf rtf txt
 
 # The generic rule: build all extensions for all languages

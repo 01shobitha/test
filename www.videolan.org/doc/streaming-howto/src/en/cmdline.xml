@@ -6,17 +6,26 @@ Advanced streaming using the command line</title>
       
     Update all this 
     Improve texts
+    Video Filters
+    update of syntax
+    other modules ?
+    gather
+    
 
 -->
 
 <sect1><title>Structure of stream output</title>
 
 <para>
-the stream output has a powerful architecture
-that uses modules. Each module has capabilities, and you
-can <emphasis>chain</emphasis> the modules to enhance the
-possibilities.
-</para>
+
+Stream output is the name of the feature of VLC that alows to output
+any stream read by VLC to a file or as a network stream instead of
+displaying it. Different kind of processing can be applied to the stream
+during this process (transcoding, rescaling, filters, remuxing...)
+
+Stream output includes different modules, each of them having different
+capabilities. You can <emphasis>chain</emphasis> modules to enhance the
+possibilities. </para>
 
 <para>
 Here is the list of the modules currently available:
@@ -25,35 +34,39 @@ Here is the list of the modules currently available:
 <itemizedlist>
 
 <listitem><para><emphasis>standard</emphasis>
-"sends" the stream via an <emphasis>access
+allows to <emphasis>send</emphasis> the stream via an <emphasis>access
 output</emphasis> module: for example, UDP, file, HTTP, ... You will
 probably want to use this module at the end of your chains.
+
 </para></listitem>
 
-<listitem><para><emphasis>transcode</emphasis>
-
- allows you to transcode the audio and the video
-of the input stream "on the fly" (if your computer is powerful enough).
+<listitem><para><emphasis>transcode</emphasis> is used to transcode
+(decode and reencode the stream using a different codec and/or bitrate)
+the audio and the video of the input stream. If the input or output
+access method doesn't allow pace control (network, capture devices),
+this done "on the fly", in real time. This can require quite a lot
+of CPU power, depending on the parameters set. Other streams, such
+as files and disks are transcoded as fast as the system allows it.
 </para></listitem>
 
 <listitem><para><emphasis>duplicate</emphasis>
- allows you to create a second chain, where the
+allows you to create a second chain, where the
 stream will be handled in an independant way.
 </para></listitem>
 
 <listitem><para><emphasis>display</emphasis> 
 allows you to display the input stream, as VLC
 would normally do. Used with the <emphasis>duplicate</emphasis>
-module, this allows you to view the stream as you send it.
+module, this allows you to monitor the stream while processing it.
 </para></listitem>
 
-<listitem><para><emphasis>rtp</emphasis>
-streams over RTP (one UDP port for each elementary stream).
+<listitem><para><emphasis>rtp</emphasis> streams over RTP (one UDP port
+for each elementary stream). This module also allows RTSP support.
 </para></listitem>
 
-<listitem><para><emphasis>es</emphasis> 
-allows you to make separate Elementary Streams (ES)
-out of an input stream.
+<listitem><para><emphasis>es</emphasis> allows you to make separate
+Elementary Streams (ES) out of an input stream. This can be used
+to save audio and video streams to separate files, for instance.
 </para></listitem>
 
 </itemizedlist>
@@ -64,8 +77,12 @@ syntax that you must use:
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc input_stream --sout '#module1{option1=...,option2=...}:#module2{option1=...,option2=...}:...'</userinput>
+<prompt>% </prompt><userinput>vlc input_stream --sout "#module1{option1=parameter1{parameter-option1},option2=parameter2}:#module2{option1=...,option2=...}:..."</userinput>
 </screen>
+
+<note><para>Some of the module options (option1 in the example) have to
+be set, others are optional. Option parameters (parameter-option1 in the
+example) are always optional.</para></note>
 
 <para>
 You may also use the following syntax :
@@ -90,21 +107,42 @@ For example, to transcode a stream and send it, use:
 <sect2><title>standard (alias std)</title>
 
 <para>
-Sends a stream.
+This module saves the stream to a file or sends it over a network, after
+having muxed it.
 </para>
 
-<para>
-Options:
-</para>
+Tha available options are:
+
+<sect3><title>access</title>
+
+<para>This option allows to set the medium used to save or send the stream. Available options are:</para>
 
 <itemizedlist>
+<listitem><para>file: saves the stream to a file.</para>
+<para>Use the <emphasis>append</emphasis> option to append the straem to an existing file instead of remplacing it.</para></listitem>
 
-<listitem><para><emphasis>access</emphasis>: 
-how to send:
-<emphasis>file</emphasis>, <emphasis>udp</emphasis>,
-<emphasis>rtp</emphasis>, <emphasis>http</emphasis>.
-</para></listitem>
+<listitem><para>udp: streams the file to a UDP unicast or multicast
+address.</para>
+<para>Item options are: <emphasis>caching=&lt;time in
+ms&gt;</emphasis> to set the time VLC should buffer data before sending
+it, <emphasis>ttl=&lt;ttl&gt;</emphasis> to set the ttl of the sent udp
+packets, <emphasis>group=&lt;amount of packets&gt;</emphasis> to sent
+packets by burst instread of one by one, <emphasis>late=&lt;time in
+ms&gt;</emphasis> to drop packets that arrive too late at this stage of
+the chain, <emphasis>raw</emphasis> if you don't want to wait until the
+MTU is filled before sending the packet.</para> </listitem>
 
+<listitem><para>http: streams the file over HTTP.</para>
+<para>Item options are: <emphasis>user=&lt;user name&gt;</emphasis>
+to enable HTTP basic authentification and set the user,
+<emphasis>pwd=&lt;password&gt;</emphasis> to set the basic
+authentification password, <emphasis>mime=&lt;mime type&gt;</emphasis> to
+set the mime type returned by the server.</para></listitem>
+
+</itemizedlist>
+</sect3>
+<sect3><title>mux</title>
+<itemizedlist>
 <listitem><para><emphasis>mux</emphasis>: 
 which muxer (ie, which format) will be used. It can
 be one of 
@@ -149,6 +187,7 @@ IPv4 or IPv6. The value of this option is <emphasis>4</emphasis> or
 </para></listitem>
 
 </itemizedlist>
+</sect3>
 
 <note><para>
 If you are streaming in multicast, you may want to

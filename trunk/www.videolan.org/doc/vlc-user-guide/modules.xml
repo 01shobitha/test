@@ -230,7 +230,7 @@ to your audio system.</para>
 <para><emphasis>For Unix/Linux only</emphasis></para>
 
 <para>This is the audio output for OSS (Open Sound System) output
-(<filename>/dev/dsp</filename>, for exemple, under Linux). It requires
+(<filename>/dev/dsp</filename>, for example, under Linux). It requires
 that your kernel was compiled with support for your sound card.</para>
 </sect2>
 
@@ -574,7 +574,7 @@ url="http://ffmpeg.sourceforge.net/">ffmpeg web site</ulink>.</para>
 
 <para>This codec is a very smart MP3 decoder, that only uses integers.
 This allows its use for CPU which don't handle floating point numbers
-(on PDA, for exemple).</para>
+(on PDA, for example).</para>
 </sect2>
 
 <sect2><title>faad</title>

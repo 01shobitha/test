@@ -164,7 +164,7 @@ Kbps.</para></listitem>
 
 <!-- UNIMPLEMENTED for the moment 
 <listitem><para><emphasis>samplerate</emphasis>: audio encoding rate in Hz
-(44000 for a CD, for exemple).</para></listitem> -->
+(44000 for a CD, for example).</para></listitem> -->
 
 <!-- UNIMPLMENETED <listitem><para><emphasis>channels</emphasis>: number of audio
 channels.</para></listitem>  -->

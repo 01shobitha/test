@@ -65,7 +65,10 @@ function starthtml($title) { ?>
     </td>
 
 </tr>
+</table>
+</form>
 
+<table width="100%" cellspacing="3" cellpadding="0">
 <tr>
 
   <? switch($modules[1]) {
@@ -80,7 +83,6 @@ function starthtml($title) { ?>
 </tr>
 
 </table>
-</form>
 
 <div style="margin: 10px;"><?
 

@@ -17,22 +17,19 @@ ALL_LANG = en fr es de it
 # Build HTML, PDF, RTF and TXT outputs (for the web site)
 all: $(LANG)/$(DOC)-$(LANG).html $(LANG)/$(DOC)-$(LANG).pdf $(LANG)/$(DOC)-$(LANG).rtf $(LANG)/$(DOC)-$(LANG).txt
 
-# Extract one language (XML to XML transformation) and prepare the repository
-$(LANG)/$(DOC)-$(LANG).xml: *.xml ../common/multilanguage.xsl
-	mkdir -p $(LANG)
-	xsltproc --stringparam lang $(LANG) ../common/multilanguage.xsl $(DOC).xml | sed -e 's/id="$(DOC)"/id="$(DOC)-$(LANG)"/' > $@
-	cp -R ../../images/documentation $(LANG)/images
+init-$(LANG):
+	#cp -R ../../images/documentation $(LANG)/images
+	cp screen.css $(LANG)
 
 # HTML output
-$(LANG)/$(DOC)-$(LANG).html: $(LANG)/$(DOC)-$(LANG).xml ../common/stylesheet-html.dsl
-	jade -t sgml -d ../common/stylesheet-html.dsl $(XML_DECL) $(LANG)/$(DOC)-$(LANG).xml
-	mv *.html $(LANG)
+$(LANG)/$(DOC)-$(LANG).html: init-$(LANG)
+	xsltproc --stringparam html.stylesheet "screen.css" /usr/share/xml/docbook/stylesheet/nwalsh/xhtml/docbook.xsl src/$(LANG)/$(DOC).xml > $(LANG)/$(DOC)-$(LANG).html
 	rm -f $(LANG)/$(DOC)-$(LANG)-html.zip
 	cd $(LANG) && zip $(DOC)-$(LANG)-html.zip *.html images/*.gif
 
 # PDF output
-$(LANG)/$(DOC)-$(LANG).pdf: $(LANG)/$(DOC)-$(LANG).xml ../common/stylesheet-print-noicones.dsl
-	jade -t tex -d ../common/stylesheet-print-noicones.dsl -o $(LANG)/$(DOC)-$(LANG).tex $(XML_DECL) $(LANG)/$(DOC)-$(LANG).xml
+$(LANG)/$(DOC)-$(LANG).pdf: init-$(LANG)
+	jade -t tex -d ../common/stylesheet-print-noicones.dsl -o $(LANG)/$(DOC)-$(LANG).tex $(XML_DECL) src/$(LANG)/$(DOC).xml
 	cd $(LANG) && pdfjadetex $(DOC)-$(LANG).tex
 	cd $(LANG) && pdfjadetex $(DOC)-$(LANG).tex
 	cd $(LANG) && pdfjadetex $(DOC)-$(LANG).tex
@@ -40,14 +37,14 @@ $(LANG)/$(DOC)-$(LANG).pdf: $(LANG)/$(DOC)-$(LANG).xml ../common/stylesheet-prin
 	cd $(LANG) && zip $(DOC)-$(LANG)-pdf.zip $(DOC)-$(LANG).pdf
 
 # RTF output
-$(LANG)/$(DOC)-$(LANG).rtf: $(LANG)/$(DOC)-$(LANG).xml ../common/stylesheet-print-noicones.dsl
-	cd $(LANG) && jade -t rtf -d ../../common/stylesheet-print-noicones.dsl -o $(DOC)-$(LANG).rtf $(XML_DECL) $(DOC)-$(LANG).xml
+$(LANG)/$(DOC)-$(LANG).rtf:init-$(LANG)
+	cd $(LANG) && jade -t rtf -d ../../common/stylesheet-print-noicones.dsl -o $(DOC)-$(LANG).rtf $(XML_DECL) ../src/$(DOC).xml
 	rm -f $(LANG)/$(DOC)-$(LANG)-rtf.zip
 	cd $(LANG) && zip $(DOC)-$(LANG)-rtf.zip $(DOC)-$(LANG).rtf
 
 # TXT output
-$(LANG)/$(DOC)-$(LANG).txt: $(LANG)/$(DOC)-$(LANG).xml ../common/stylesheet-txt.dsl
-	jade -t sgml -d ../common/stylesheet-txt.dsl -V nochunks $(XML_DECL) $(LANG)/$(DOC)-$(LANG).xml > $(LANG)/dumpfortxt.html
+$(LANG)/$(DOC)-$(LANG).txt:init-$(LANG)
+	jade -t sgml -d ../common/stylesheet-txt.dsl -V nochunks $(XML_DECL) src/$(LANG)/$(DOC).xml > $(LANG)/dumpfortxt.html
 	lynx -force_html -dump $(LANG)/dumpfortxt.html > $(LANG)/$(DOC)-$(LANG).txt
 	rm -f $(LANG)/dumpfortxt.html
 

@@ -152,7 +152,7 @@ END
 
 BEGIN "LaunchOnStartUp"
 
-  command1 = "start v4l channel1 webcam"
+  command1 = "start video channel1 webcam"
 
 END
 </programlisting>

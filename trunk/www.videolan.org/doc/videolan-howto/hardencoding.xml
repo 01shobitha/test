@@ -6,7 +6,7 @@
 <span xml:lang="en">Stream from an MPEG encoding card</span>
 <span xml:lang="fr">Diffusez depuis une carte d'encodage MPEG</span>
 <span xml:lang="es">Streaming desde una tarjeta de codificación MPEG2</span>
-<span xml:lang="de">Stream von einer MPEG-Codierungskarte</span>
+<span xml:lang="de">Streaming der Daten einer MPEG-Kodierungskarte</span>
 </title>
 
 <note><para>
@@ -21,7 +21,7 @@
 <span xml:lang="en">VideoLAN supports two kinds of MPEG-2 encoding cards</span>
 <span xml:lang="fr">VideoLAN supporte deux types de cartes d'encodage MPEG-2</span>
 <span xml:lang="es">VideoLAN soporta dos tipos de tarjetas codificadoras MPEG2</span>
- <span xml:lang="de">VideoLAn unterstützt zwei Arten von MPEG-2-Codierungskarten</span>
+ <span xml:lang="de">VideoLAn unterstützt zwei Arten von MPEG-2-Kodierungskarten</span>
  :</para>
 
 <itemizedlist>
@@ -144,7 +144,7 @@ bitrate=3000000:maxbitrate=4000000 --sout udp:192.168.0.42 --ttl 12 --cr-average
 <span xml:lang="en">is the device corresponding to the encoding card</span>
 <span xml:lang="fr">est l'adresse correspondant à la carte</span>
 <span xml:lang="es">es el dispositivo correspondiente a la tarjeta</span>
-<span xml:lang="de">ist das Device, welches der Codierungskarte entspricht</span>
+<span xml:lang="de">ist das Device, welches der Kodierungskarte entspricht</span>
 ,</para></listitem>
 
 <listitem><para><emphasis>norm=secam</emphasis>
@@ -292,7 +292,7 @@ pour faire marcher VLS avec une Hauppauge WinTV-PVR-250/350</span>
 <filename>vls.cfg</filename> para la Hauppauge WinTV-PVR-250/350</span>
 <span xml:lang="de">Hier ist eine typische Konfigurationsdatei
 <filename>vlc.cfg</filename> zur Benutzung von VLS mit einer Hauppauge 
-WinTV-PVR-250/350-Codierungskarte</span>
+WinTV-PVR-250/350-Kodierungskarte</span>
 :</para>
 
 <programlisting>
@@ -580,7 +580,7 @@ pour faire marcher VLS avec une Visiontech Kfir</span>
 <filename>vls.cfg</filename> para la Visiontech Kfir</span>
 <span xml:lang="de">Hier ist eine typische Konfigurationsdatei
 <filename>vls.cfg</filename> zur Benutzung von VLS mit einer 
-VisionTech Kfir - Codierungskarte</span>
+VisionTech Kfir - Kodierungskarte</span>
 :</para>
 
 

@@ -2,7 +2,7 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
-|15 November 2004| Release: VLC 0.8.1| This is mainly a bug fix release.
+|15 November 2004| Release: VLC 0.8.1| This is mainly a bug fix release.<br />
 Look <a href="http://developers.videolan.org/vlc/NEWS">here</a> for the
 list of changes. To download the sources or the binary package of this
 new version, go to the <a href="http://www.videolan.org/vlc/">VLC

@@ -140,24 +140,28 @@ td.yes {
   background-image: none;
   background-color: #cfc;
   vertical-align: middle;
+  text-align: center;
 }
 td.no {
   color: black;
   background-image: none;
   background-color: #fcc;
   vertical-align: middle;
+  text-align: center;
 }
 td.partial {
   color: black;
   background-image: none;
   background-color: #ffa;
   vertical-align: middle;
+  text-align: center;
 }
 td.none {
   color: black;
   background-image: none;
   background-color: #fff;
   vertical-align: middle;
+  text-align: center;
 }
 td.type {
   color: black;

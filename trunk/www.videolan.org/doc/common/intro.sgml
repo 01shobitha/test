@@ -67,8 +67,6 @@ is that it can read MPEG 1, MPEG 2 and DVDs streamed over a network.
 
 </para>
 
-<para>Vlc requires at least a Pentium 400Mhz with 32MB of RAM.</para>
-
 <note><para>Vlc doesn't work on Mac OS 9, and will
 probably never do.</para></note>
 

@@ -93,7 +93,7 @@ global $HTTP_GET_VARS;
     get_first_bar_item_poukram(6, "doc", "Documentation", "/doc/", $modules[1]);
     get_first_bar_item_poukram(6, "support", "Support", "/support/", $modules[1]);
     get_first_bar_item_poukram(6, "developers", "Developers", "http://developers.videolan.org/", $modules[1]); ?>
-    <td class="topbar" style="width: 8%">
+    <td class="topright" style="width: 8%">
     </td>
   </tr>
   </table>

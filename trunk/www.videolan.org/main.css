@@ -3,7 +3,7 @@
 
 body {
   font-family: sans-serif, Helvetica, Arial;
-  font-size: 10pt;
+  font-size: 1em;
   background: white;
   color: black;
   margin: 0px 0px;
@@ -20,7 +20,7 @@ img {
 }
 
 p {
-  font-size: 10pt;
+  font-size: 1em;
   font-family: inherit;
   text-indent: 0px;
   background: inherit;
@@ -28,14 +28,14 @@ p {
 }
 
 td {
-  font-size: 10pt;
+  font-size: 1em;
   font-family: inherit;
   background: inherit;
   color: inherit;
 }
 
 h1 {
-  font-size: 14pt;
+  font-size: 1.4em;
   font-family: inherit;
   font-weight: 600;
   background: inherit;
@@ -74,7 +74,7 @@ td.h2 {
 }
 
 h2 {
-  font-size: 12pt;
+  font-size: 1.2em;
   font-family: inherit;
   font-weight: 600;
   background: inherit;
@@ -108,7 +108,7 @@ td.h3 {
 }
 
 h3 {
-  font-size: 10pt;
+  font-size: 1em;
   font-family: inherit;
   font-weight: 600;
   background: inherit;
@@ -141,7 +141,7 @@ a:hover {
 }
 
 ol, ul, ul.small {
-  font-size: 10pt;
+  font-size: 1em;
   font-family: inherit;
   text-indent: 0px;
   background: inherit;
@@ -149,19 +149,19 @@ ol, ul, ul.small {
 }
 
 ul.big {
-  font-size: 12pt;
+  font-size: 1.2em;
   font-family: inherit;
   background: inherit;
   color: inherit;
 }
 
 dl {
-  font-size: 10pt;
+  font-size: 1em;
   font-family: inherit;
 }
 
 dt {
-  font-size: 10pt;
+  font-size: 1em;
   font-family: inherit;
   font-weight: 600;
   background: inherit;
@@ -178,7 +178,7 @@ dt {
 }
 
 dd {
-  font-size: 10pt;
+  font-size: 1em;
   font-family: inherit;
 }
 
@@ -243,7 +243,7 @@ td.firstbar {
   background-color: #a43;
   color: #fff;
   font-weight: bold;
-  font-size: 11pt;
+  font-size: 1.1em;
 }
 a.firstbar:link {
   background-color: #a43;
@@ -266,7 +266,7 @@ td.firstbarselected {
   background-color: #888;
   color: #ffdd44;
   font-weight: bold;
-  font-size: 11pt;
+  font-size: 1.1em;
 }
 td.secondbar {
   vertical-align: middle;
@@ -274,7 +274,7 @@ td.secondbar {
   background-color: #888;
   color: #fff;
   font-weight: bold;
-  font-size: 10pt;
+  font-size: 1em;
 }
 a.secondbar:link {
   background-color: #888;
@@ -297,7 +297,7 @@ td.secondbarselected {
   background-color: #888;
   color: #ffdd44;
   font-weight: bold;
-  font-size: 10pt;
+  font-size: 1em;
 }
 
 /* Styles used for the upper navigation bar */
@@ -306,7 +306,7 @@ td.topleft {
 
   text-align: center;
   font-weight: bold;
-  font-size: 10pt;
+  font-size: 1em;
 
   padding-top: 2px;
 
@@ -318,12 +318,12 @@ td.topleft {
   border-right-width: 0px;
 }
 
-td.topbar {
+td.topright {
   vertical-align: middle;
 
   text-align: center;
   font-weight: bold;
-  font-size: 10pt;
+  font-size: 1em;
 
   padding-top: 2px;
 
@@ -335,6 +335,25 @@ td.topbar {
   border-right-width: 0px;
 }
 
+td.topbar {
+  vertical-align: middle;
+
+  text-align: center;
+  font-weight: bold;
+  font-size: 10em
+
+  padding-top: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+
+  border-style: solid;
+  border-color: #a43;
+  border-bottom-width: 1px;
+  border-top-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 0px;
+}
+
 td.topbarselected {
   vertical-align: middle;
   background-color: #fba;
@@ -342,9 +361,11 @@ td.topbarselected {
 
   text-align: center;
   font-weight: bold;
-  font-size: 11pt;
+  font-size: 1.1em;
 
-  margin: 2px;
+  padding-top: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
 
   border-style: solid;
   border-color: #a43;
@@ -390,7 +411,7 @@ td.bottombar {
 
   text-align: center;
   font-weight: bold;
-  font-size: 11pt;
+  font-size: 1.1em;
 
   margin: 2px;
 
@@ -409,7 +430,7 @@ td.bottombarselected {
 
   text-align: center;
   font-weight: bold;
-  font-size: 11pt;
+  font-size: 1.1em;
 
   margin: 2px;
 

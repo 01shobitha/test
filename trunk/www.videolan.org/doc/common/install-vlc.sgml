@@ -131,9 +131,8 @@ install VLC and the needed librairies from their source code.</para>
 modify the default supported modules</para>
 
 <sect3><title>Install the libraries</title>
-<para>
-Many libraries are needed for particular uses :
-</para>
+
+<para>Many libraries are needed for particular uses :</para>
 
 <itemizedlist>
 

@@ -74,6 +74,7 @@ Die enthaltenen Streams können mit unterschiedlichen Codecs kodiert worden sein.
 In einer perfekten Welt könnten Sie jeden Codec in jedes Container-Format legen. Leider gibt
 es einige Inkompatiblitäten. Sie können eine Matrix von möglichen Codecs und Containerformaten
 auf der <ulink url="http://www.videolan.org/streaming/features.html">Featuresseite</ulink> finden.
+</span>
 </para></listitem>
 </itemizedlist>
 

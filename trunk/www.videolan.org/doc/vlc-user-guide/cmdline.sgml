@@ -1,0 +1,62 @@
+<chapter id="cmdline"><title id="tcmdline">The Command Line Interface</title>
+
+
+<sect1><title>Introduction</title>
+<para>Many options are only available through command line. They are detailed here.</para>
+</sect1>
+
+<sect1><title>Opening streams</title>
+
+<para>The following commands start vlc and add a first element to the playlist.</para>
+
+<sect2><title>Opening a file</title>
+
+<para>Simply start vlc with</para>
+<screen><prompt>%</prompt><userinput>vlc my_file.mpg</userinput></screen>
+
+<para>You may tell vlc what input to use, for example add <emphasis>--input ts</emphasis> when playing a TS (Transport Stream) MPEG, although the VideoLAN Client should be able to recognize the type of MPEG.</para>
+</sect2>
+
+<sect2><title>Opening a DVD or VCD</title>
+
+<para>Simply start vlc with</para>
+
+<screen><prompt>%</prompt><userinput>vlc dvd:DVDDRIVE</userinput></screen>
+<para> or</para>
+
+<screen><prompt>%</prompt><userinput> vlc vcd:CDROMDRIVE</userinput></screen>
+
+<para>, where DVDDRIVE/CDROMDRIVE is the complete path to your dvd/cdrom drive.
+</para>
+
+<para>
+You may add -t X -T Y to start directly from the Xth chapter, Yth title.</para>
+</sect2>
+
+<sect2><title>Start a network stream</title>
+
+<para>To receive an UDP stream (being sent by a VideoLAN Server), start the VideoLAN Client with</para>
+
+<screen><prompt>%</prompt><userinput> vlc udpstream:[@bind address[:server_port]] .</userinput></screen>
+
+
+<para>
+Please note that bind address refers to the destination address, for example your broadcast address. If the stream is being broadcasted,
+
+ vlc udpstream:
+
+should be sufficient. If the stream is multicasted, you must specify the multicast address, for example
+
+ vlc udpstream:@239.255.255.42  
+
+To receive a http stream, start vlc with vlc your_url.
+4.2 Modules selection
+
+The vlc tries to select the most appropriate interface, input and output modules, among the ones available on the system, according to the stream he is given to read. However, you may wish to force the use of a specific module with the following options:
+
+
+</para>
+
+</sect2>
+</sect1>
+</chapter>

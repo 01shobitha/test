@@ -3,7 +3,7 @@ all: html ps pdf rtf
 html:
 	rm -f *.html
 	/bin/cp ../common/magic-jpg.sgml ../common/magic.sgml
-	/bin/cp ../../images/plan-videolan-640.jpg .
+#	/bin/cp ../../images/plan-videolan-640.jpg .
 	sgmltools -b html -s ../common/stylesheet-html.dsl videolan-quickstart.sgml
 	mv videolan-quickstart/*.html .
 	rmdir videolan-quickstart
@@ -12,19 +12,19 @@ html:
 
 ps:
 	/bin/cp ../common/magic-eps.sgml ../common/magic.sgml
-	/bin/cp ../../images/plan-videolan-640.eps .
+#	/bin/cp ../../images/plan-videolan-640.eps .
 	sgmltools -b ps -s ../common/stylesheet-print.dsl videolan-quickstart.sgml
 	zip videolan-quickstart-ps.zip videolan-quickstart.ps
 
 pdf:
 	/bin/cp ../common/magic-jpg.sgml ../common/magic.sgml
-	/bin/cp ../../images/plan-videolan-640.jpg .
+#	/bin/cp ../../images/plan-videolan-640.jpg .
 	sgmltools -b pdf -s ../common/stylesheet-print-noicones.dsl videolan-quickstart.sgml
 	zip videolan-quickstart-pdf.zip videolan-quickstart.pdf
 
 rtf:
 	/bin/cp ../common/magic-jpg.sgml ../common/magic.sgml
-	/bin/cp ../../images/plan-videolan-640.jpg .
+#	/bin/cp ../../images/plan-videolan-640.jpg .
 	sgmltools -b rtf -s ../common/stylesheet-print-noicones.dsl videolan-quickstart.sgml
 	zip videolan-quickstart-rtf.zip videolan-quickstart.rtf *.jpg
 

@@ -2,6 +2,12 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+|2 Jan 2004| Release: libdvbpsi 0.1.4| This new release of libdvbpsi 
+fixes a few bugs and adds support for DVB subtitles descriptor
+
+|1 Jan 2004| Happy new year| The VideoLAN team wishes you a happy new
+year !
+
 |29-30 Dec 2003| Scheduled downtime| Due to a power audit, major
 disruptions are expected. A rescue line will be set up during the
 downtime, but due to a very narrow bandwidth, only the main website 

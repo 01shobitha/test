@@ -3,11 +3,13 @@
 <chapter id="run"><title id="trun">
 <span xml:lang="en">Running VLS</span>
 <span xml:lang="fr">Utilisation de VLS</span>
+<span xml:lang="de">Benutzung von VLS</span>
 </title>
 
 <sect1><title>
 <span xml:lang="en">Launching VLS</span>
 <span xml:lang="fr">Lancement de VLS</span>
+<span xml:lang="de">VLS starten</span>
 </title>
 
 <para>
@@ -28,6 +30,15 @@ de charger son fichier de configuration (<filename>vls.cfg</filename>)
 depuis le répertoire courant, et si il ne l'y trouve pas, depuis
 <filename>SYSCONF_DIR/etc/videolan</filename> (voir la section <xref
 linkend="config" endterm="tconfig"/>)</span>
+<span xml:lang="de">Wenn Sie die Telnet-Oberfläche benutzen, ist das starten
+von VLS sehr einfach: geben Sie einfach <command>vls</command> in eine
+Shellconsole ein. Das ist alles. Das Starten von <command>vlsd</command>
+wird VLS als Daemon starten und sich aus der startenden Shell ausklinken. 
+Beachten Sie, dass VLS versuchen wird seine Konfigurationsdatei 
+(<filename>vls.cfg</filename>) aus dem aktuellen Verzeichnis zu lesen. Falls
+keine <filename>vls.cfg</filename>-Datei dort sein sollte, wird es versuchen,
+sie aus dem Verzeichnis <filename>SYSCONF_DIR/etc/videolan</filename>
+zu laden (siehe Sektion <xref linkend="config" endterm="tconfig"/>)</span>
 .</para>
 
 <caution><para>
@@ -38,6 +49,9 @@ you will see something like</span>
 <filename>vls.log</filename>, comme dans l'exemple, VLS aura besoin de
 l'accès en écriture au répertoire courant, ou vous verrez quelque chose
 comme</span>
+<span xml:lang="de">Wenn Ihre Log-Datei <filename>vls.log</filename> wie
+im Beispiel ist, benötigt VLS schreibzugriff auf das aktuelle Verzeichnis oder Sie
+werden etwas vergleichbares mit dem Folgenden sehen.</span>
 :</para>
 
 <screen><computeroutput>
@@ -52,6 +66,8 @@ Permission denied
 <span xml:lang="fr">Souvenez-vous que vous devez être
 root quand vous utilisez l'option "Interface" du fichier
 <filename>vls.cfg</filename></span>
+<span xml:lang="de">Beachten Sie außerdem, dass Sie Sie root sein müssen,
+wenn Sie die "Interface"-Option in <filename>vls.cfg</filename> benutzen</span>
 .</para>
 
 </caution>
@@ -60,7 +76,10 @@ root quand vous utilisez l'option "Interface" du fichier
 
 <span xml:lang="en">If everything is right, you will see something like</span>
 <span xml:lang="fr">Si tout se passe bien, vous verrez quelque chose comme
-</span>:</para>
+</span>
+<span xml:lang="de">Wenn alles in Ordnung ist, werden SIe ähnliches wie das Folgende
+sehen</span>
+:</para>
 
 <screen><computeroutput>
 VideoLAN Server v 0.5.3 (Jun  6 2003) - (c)1999-2003 VideoLAN
@@ -77,6 +96,8 @@ what goes in the log file <filename>vls.log</filename></span>
 <span xml:lang="fr">Ce que vous verrez à l'écran (stderr)
 est exactement ce que vous verrez dans le fichier de log
 <filename>vls.log</filename></span>
+<span xml:lang="de">Was Sie auf dem Bildschirm (stderr) sehen, ist genau
+dasselbe wie in der Log-Datei <filename>vls.log</filename></span>
 .</para>
 
 <para>
@@ -88,6 +109,10 @@ that)</span>
 d'argument sur son entrée standard, et vous pouvez le mettre en tâche de
 fond (vous pouvez utiliser l'utilitaire <emphasis>screen</emphasis> pour
 cela</span>
+<span xml:lang="de">Wenn VLS erfolgreich gestartet wurde, übernimmt es
+keinen Befehl aus dessen Standardinput, sodass Sie ihn in den Hintergrund
+verlagern können (sie können das <emphasis>screen</emphasis>-Utility
+dazu benutzen)</span>
 .</para>
 
 <para>
@@ -97,6 +122,9 @@ url="http://www.videolan.org/doc/">VideoLAN HOWTO</ulink></span>
 <span xml:lang="fr">Si vous désirez utiliser l'interface
 en ligne de commande, merci de vous réferer au <ulink
 url="http://www.videolan.org/doc/">VideoLAN HOWTO</ulink></span>
+<span xml:lang="de">Wenn Sie aber die Befehlszeilenoberfläche benutzen
+möchten, schauen Sie bitte in das Dokument <ulink
+url="http://www.videolan.org/doc/">VideoLAN HOWTO</ulink></span>
 .</para>
 
 </sect1>
@@ -104,6 +132,7 @@ url="http://www.videolan.org/doc/">VideoLAN HOWTO</ulink></span>
 <sect1><title>
 <span xml:lang="en">Using the telnet interface</span>
 <span xml:lang="fr">Utilisation de l'interface telnet</span>
+<span xml:lang="de">Benutzung der Telnet-Oberfläche</span>
 </title>
 
 <para>
@@ -113,6 +142,9 @@ with the following command</span>
 <span xml:lang="fr">Après le lancement de VLS, un serveur telnet est
 ouvert, sur le port 9999 par défaut. Vous pouvez vous y connecter à
 l'aide de la commande</span>
+<span xml:lang="de">Nachdem VLS gestartet wurde, öffnet es einen
+Telnet-Server (standardmäßig auf dem Port 9999). Sie können sich mit
+dem folgenden Befehl mit diesem Server in Verbindung setzen</span>
 :</para>
 
 <screen>
@@ -122,6 +154,7 @@ l'aide de la commande</span>
 <para>
 <span xml:lang="en">You should see something like</span>
 <span xml:lang="fr">Vous devriez voir quelque chose comme</span>
+<span xml:lang="de">Sie sollten etwas ähnliches wie das Folgende sehen</span>
 :</para>
 
 <screen><computeroutput>
@@ -141,6 +174,11 @@ successfully authenticated, you should see a prompt like</span>
 <span xml:lang="fr">Vous devez ensuite vous authentifier à l'aide du
 couple login/password défini dans le fichier de configuration. Une fois
 l'authentification réalisée, vous devriez voir une invite du type</span>
+<span xml:lang="de">Danach müssen Sie sich mit einem Loginnamen und
+entsprechendem Passwort authentifizieren, wie Sie es in der Datei
+<filename>vls.cfg</filename> festgelegt haben. Wenn Sie sich erfolgreich
+authentifiziert haben, sollten Sie inetwa folgende Eingabeaufforderung 
+sehen</span>
 :</para>
 
 
@@ -155,19 +193,26 @@ the telnet prompt</span>
 <span xml:lang="fr">Vous pouvez ensuite taper les commandes
 définies dans le paragraphe suivant. Pour voud délogguer, tapez
 <command>logout</command> à l'invite</span>
+<span xml:lang="de">Sie können nun die im folgenden Paragraph erklärten
+Befehle benutzen. Um sich abzumelden, geben Sie <command>logout</command>
+nach der Telnet-Eingabeaufforderung ein</span>
 .</para>
 
 </sect1>
 
 <sect1><title>
 <span xml:lang="en">Interface commands</span>
-<span xml:lanf="fr">Commandes de l'interface</span></title>
+<span xml:lang="fr">Commandes de l'interface</span>
+<span xml:lang="de">Oberflächenbefehle</span>
+</title>
 
 <simplesect><title>help</title>
 
 <para>
 <span xml:lang="en">Usage: help [command]</span>
-<span xml:lang="fr">Utilisation: help [commande]</span>.</para>
+<span xml:lang="fr">Utilisation: help [commande]</span>
+<span xml:lang="de">Benutzung: help [Befehl]</span>
+.</para>
 
 <para>
 <span xml:lang="en">Called with no argument, "help" gives the list of
@@ -176,6 +221,9 @@ details about how to use the specified command</span>
 <span xml:lang="fr">Appellée sans argument, la commande donne la liste
 de toutes les commandes (disponibles ou non). Avec un argument, elle
 donne le détail de l'utilisation de la commande spécifiée</span>
+<span xml:lang="de">Ohne Argument aufgerufen, gibt "help" die Liste
+aller Befehle aus, ob sie nun verfügbar sind oder nicht. Mit einem
+Argument aufgerufen, zeigt es an, wie der jeweilige Befehl benutzt wird</span>
 .</para>
 
 </simplesect>
@@ -184,7 +232,9 @@ donne le détail de l'utilisation de la commande spécifiée</span>
 
 <para>
 <span xml:lang="en">Usage: browse [input]</span>
-<span xml:lang="fr">Utilisation: browse [entrée]</span>.</para>
+<span xml:lang="fr">Utilisation: browse [entrée]</span>
+<span xml:lang="de">Benutzung: browse [Input]</span>
+.</para>
 
 <para>
 <span xml:lang="en">Called without argument, "browse" gives all programs
@@ -193,6 +243,10 @@ specified input. Each program is given with its status</span>
 <span xml:lang="fr">Sans argument, la commande liste les programmes
 des entrées. Avec un argument, elle donne les programmes de l'entrée
 spécifiée. Le status de chaque programme est donnée</span>
+<span xml:lang="de">Mit einem Argument aufgerufen, gibt "browse" alle
+Programme der Inputs aus. Mit einem Argument aufgerufen, gibt es nur
+die Programme des angegeben Inputs an. Jedes Programm wird mit dessen
+Status angezeigt</span>
 .</para>
 
 </simplesect>
@@ -202,8 +256,11 @@ spécifiée. Le status de chaque programme est donnée</span>
 <para>
 <span xml:lang="en">
 Usage: start &lt;program&gt; &lt;channel&gt; &lt;input&gt; [--loop] [--rtp]
-</span><span xml:lang="fr">
+</span>
+<span xml:lang="fr">
 Utilisation: start &lt;programme&gt; &lt;sortie&gt; &lt;entrée&gt; [--loop] [--rtp]</span>
+<span xml:lang="de">
+Benutzung: start &lt;Programm&gt; &lt;Channel&gt; &lt;Input&gt; [--loop] [--rtp]</span>
 </para>
 
 <para>
@@ -216,6 +273,11 @@ as defined in RFC 1889 and RFC 2250</span>
 sur la sortie spécifiée. L'option --loop fait que le programme se
 répète. L'option --rtp fait que les paquets TS sont envoyés en utilisant
 le protocole RTP, défini dans les RFC 1889 et 2250</span>
+<span xml:lang="de">"start" startet das angegebene Programm des angegebenen
+Inputs und gibt es über den angebenen Channel aus. Durch die "--loop"-Option
+wird das Programm unendlich wiederholt. Durch die "--rtp"-Option werden
+die TS-Pakete über das RTP-Protokoll, wie es in RFC 1889 und 2250 festgelegt wurde,
+gesendet.</span>
 .</para>
 
 </simplesect>
@@ -224,10 +286,12 @@ le protocole RTP, défini dans les RFC 1889 et 2250</span>
 <para>
 <span xml:lang="en">Usage: stop &lt;channel&gt;</span>
 <span xml:lang="fr">Utilisation: stop &lt;sortie&gt;</span>
+<span xml:lang="de">Benutzung: stop &lt;Channel&gt;</span>
 </para>
 <para>
 <span xml:lang="en">"stop" ends the broadcast of the specified channel</span>
 <span xml:lang="fr">"stop" arrête la diffusion sur la sortie spécifiée</span>
+<span xml:lang="de">"stop" beendet das Broadcasting des angebenen Channels</span>
 .</para>
 </simplesect>
 
@@ -235,8 +299,9 @@ le protocole RTP, défini dans les RFC 1889 et 2250</span>
 
 <para>
 <span xml:lang="en">Usage: forward &lt;channel&gt; &lt;speed&gt;</span>
-<span xml:lang="fr">Utilisation: forward &lt;sortie&gt; &lt;vitesse&gt;
-</span></para>
+<span xml:lang="fr">Utilisation: forward &lt;sortie&gt; &lt;vitesse&gt;</span>
+<span xml:lang="de">Benutzung: forward &lt;Channel&gt; &lt;Geschwindigkeit&gt;</span>
+</para>
 
 <para>
 <span xml:lang="en">"forward" forwards the channel with the given speed.
@@ -245,6 +310,9 @@ encoding card, a DVB card or an acquisition card</span>
 <span xml:lang="fr">Avance dans la sortie donnée à la vitesse
 donnée. Ceci ne fonctionne pas lors de la lecture depuis une carte
 d'acquisition, d'encodage, ou une carte DVB</span>
+<span xml:lang="de">"forward" beschleunigt Channel um die angegebene Geschwindigkeit.
+Dies funktioniert nicht, wenn direkt aus einem Gerät, wie einer MPEG-Kodierungskarte,
+einer DVB-Karte oder einer Eingangskarte, gelesen wird</span>
 .</para>
 
 </simplesect>
@@ -253,14 +321,20 @@ d'acquisition, d'encodage, ou une carte DVB</span>
 
 <para>
 <span xml:lang="en">Usage: rewind &lt;channel&gt; &lt;speed&gt;</span>
-<span xml:lang="fr">Utilisation: rewind &lt;sortie&gt; &lt;vitesse&gt;
-</span></para>
-<para> <span xml:lang="en">"rewind" rewinds the channel with the given
+<span xml:lang="fr">Utilisation: rewind &lt;sortie&gt; &lt;vitesse&gt;</span>
+<span xml:lang="de">Benutzung: rewind &lt;Channel&gt; &lt;Geschwindigkeit&gt;</span>
+</para>
+<para>
+<span xml:lang="en">"rewind" rewinds the channel with the given
 speed. This does not work when reading directly from a device such as an
 MPEG encoding card, a DVB card or an acquisition card</span>
 <span xml:lang="fr">Recule dans la sortie donnée à la vitesse
 donnée. Ceci ne fonctionne pas lors de la lecture depuis une carte
-d'acquisition, d'encodage, ou une carte DVB</span> .</para>
+d'acquisition, d'encodage, ou une carte DVB</span>
+<span xml:lang="de">"rewind" verlangsamt den Channel um die angebene Geschwindigkeit.
+Dies funktioniert nicht, wenn direkt aus einem Gerät, wie einer MPEG-Kodierungskarte,
+einer DVB-Karte oder einer Eingangskarte, gelesen wird</span>
+.</para>
 </simplesect>
 
 <simplesect><title>suspend</title>
@@ -272,8 +346,9 @@ d'acquisition, d'encodage, ou une carte DVB</span> .</para>
 <para>
 <span xml:lang="en">"suspend" suspends the streaming of the specified
 channel</span>
-<span xml:lang="fr">interrompt la diffusion sur la sortie
-spécifiée</span>
+<span xml:lang="fr">interrompt la diffusion sur la sortie spécifiée</span>
+<span xml:lang="de">"suspend" unterbricht das Streamen des angebenen
+Channels</span>
 .</para>
 
 </simplesect>
@@ -283,12 +358,15 @@ spécifiée</span>
 <para>
 <span xml:lang="en">Usage: resume &lt;channel&gt;</span>
 <span xml:lang="fr">Utilisation: resume &lt;sortie&gt;</span>
+<span xml:lang="de">Benutzung: resume &lt;Channel&gt;</span>
 </para>
 
 <para>
 <span xml:lang="en">"resume" resumes the streaming of the specified
 channel</span>
 <span xml:lang="fr">Reprend la diffusion de la sortie spécifiée</span>
+<span xml:lang="de">"resume" nimmt das Streamen des angegebenen
+Channels wieder auf</span>
 .</para>
 
 </simplesect>
@@ -297,12 +375,16 @@ channel</span>
 
 <para>
 <span xml:lang="en">Usage: logout</span>
-<span xml:lang="fr">Utilisation: logout</span></para>
+<span xml:lang="fr">Utilisation: logout</span>
+<span xml:lang="de">Benutzung: logout</span>
+</para>
 
 <para>
 <span xml:lang="en">"logout" closes the current administration session
 and the remote connection</span>
 <span xml:lang="fr">Ferme la session et la connexion</span>
+<span xml:lang="de">"logout" schließt die derzeitige Administrationssitzung
+und die entsprechende Verbindung</span>
 .</para>
 
 </simplesect>
@@ -311,11 +393,15 @@ and the remote connection</span>
 
 <para>
 <span xml:lang="en">Usage: shutdown</span>
-<span xml:lang="fr">Utilisation: shutdown</span></para>
+<span xml:lang="fr">Utilisation: shutdown</span>
+<span xml:lang="de">Benutzung: shutdown</span>
+</para>
 
 <para>
 <span xml:lang="en">"shutdown" stops all the programs and shutdowns VLS</span>
-<span xml:lang="fr">Stoppe les diffusions et arrête VLS</span>.</para>
+<span xml:lang="fr">Stoppe les diffusions et arrête VLS</span>
+<span xml:lang="de">"shutdown" stoppt alle Sendungen und beendet VLS</span>
+.</para>
 
 </simplesect>
 

@@ -23,6 +23,7 @@
 <title>
 <span xml:lang="en">VLS user guide</span>
 <span xml:lang="fr">Guide de l'utilisateur de VLS</span>
+<span xml:lang="de">VLC Anwenderhandbuch</Span>
 </title>
 
 <authorgroup>
@@ -41,6 +42,7 @@
     <holder>
 <span xml:lang="en">the VideoLAN project</span>
 <span xml:lang="fr">le projet VideoLAN</span>
+<span xml:lang="de">das VideoLAN Projekt</span>
 </holder>
 </copyright>
 
@@ -73,6 +75,7 @@ The text of the license can be found in the appendix.
 <span xml:lang="en">This document is the complete user guide of VLS</span>
 <span xml:lang="fr">Ce document est le guide de l'utilisateur complet
 pour VLS</span>
+<span xml:lang="de">Dieses Dokument ist das komplette VLS Benutzerhandbuch</span>
 .</para>
 
 </abstract>

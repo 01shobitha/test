@@ -16,19 +16,30 @@ courant ou dans <filename>SYSCONF_DIR/videolan/vls</filename> où
 <emphasis>SYSCONF_DIR</emphasis> est <filename>/usr/local/etc</filename>
 si vous avez installé VLS à la main, ou <filename>/etc</filename> si
 vous avez utilisé le package Debian</span>
+<span xml:lang="de">VLS liest seine Einstellungen aus der Konfigurationsdatei
+<filename>vls.cfg</filename>, welche im aktuellen Verzeichnis oder in
+<filename>SYSCONF_DIR/videolan/vls</filename> sein sollte (wobei
+<emphasis>SYSCONF_DIR</emphasis> <filename>/usr/local/etc</filename>,
+wenn Sie VLS von Hand erstellt und installiert haben, oder <filename>/etc</filename>
+ist, wenn Sie das binäre Debianpaket installiert haben.)<span>
 .</para>
 
 <para>
 <span xml:lang="en">To write a <filename>vls.cfg</filename> file, use the one supplied
 with VLS as a start-point</span>
 
-<span xml:lang="fr">Pour écrire un fichier <filename>vls.cfg</filename>, utilisez celui fourni avec VLS comme point de départ</span>
+<span xml:lang="fr">Pour écrire un fichier <filename>vls.cfg</filename>, utilisez celui fourni
+avec VLS comme point de départ</span>
+
+<span xml:lang="de">Um eine <filename>vls.cfg</filename>-Datei zuschreiben, nehmen Sie
+am Besten die mit VLS mitgelieferte als Ausgangspunkt</span>
 
 .</para>
 
 <sect1><title>
 <span xml:lang="en">General structure</span>
 <span xml:lang="fr">Structure générale</span>
+<span xml:lang="de">Allgemeine Struktur</span>
 </title>
 
 <para>
@@ -38,6 +49,8 @@ variables</span>
 <span xml:lang="fr">Le fichier de configuration
 <filename>vls.cfg</filename> est divisé en section, chacune contenant
 plusieurs variables</span>
+<span xml:lang="de">Die Konfigurationsdatei <filename>vls.cfg</filename> ist in
+Sektionen aufgeteilt. Jede darf mehrere Variablen enthalten</span>
 :</para>
 <programlisting>
 <span xml:lang="en">
@@ -66,6 +79,19 @@ BEGIN "Section2"
   [...]
 END
 </span> 
+<span xml:lang="de">
+BEGIN "ErsteSektion"
+  Variable1 = "value1"
+  Variable2 = "value2"
+  [...]
+END
+
+BEGIN "ZweiteSektion"
+  Variable1 = "value1"
+  Variable3 = "value3"
+  [...]
+END
+</span>
 [...]
 </programlisting>
 
@@ -81,6 +107,12 @@ et sous-sections vides. Les commentaires doivent être placés après un
 <keycap>#</keycap>. Certaines variables ont une valeur par défaut; ce
 qui signifie que vous pouvez ne pas les déclarer, leur valeur sera alors
 la valeur par défaut</span>
+<span xml:lang="de">Alle Sektionsnamen, Variablennamen und Werte sind nicht
+case-sensitive, d.h. sie werden unabhängig von Groß oder Kleinschreibung
+ausgewertet. Es darf leere Sektionen und Untersektionen geben. Kommentare müssen
+einem <keycap>#</keycap> folgen. Einige Variablen haben einen standardmäßigen
+Wert. Dies bedeutet, dass Sie die Deklaration dieser Variablen weglassen können. Dann
+wird diesen ihr Standardwert zugewiesen</span>
 .</para>
 
 </sect1>
@@ -88,6 +120,7 @@ la valeur par défaut</span>
 <sect1><title>
 <span xml:lang="en">Writing a <filename>vls.cfg</filename></span>
 <span xml:lang="fr">Ecriture d'un <filename>vls.cfg</filename></span>
+<span xml:lang="de">Schreiben einer <filename>vls.cfg</filename>-Datei</span>
 </title>
 
 <para>
@@ -95,6 +128,8 @@ la valeur par défaut</span>
 find in a <filename>vls.cfg</filename></span>
 <span xml:lang="fr">Nous allons maintenant détailler toutes les sections
 du fichier <filename>vls.cfg</filename></span>
+<span xml:lang="de">Nun folgt eine Erklärung aller Sektionen, die in einer
+<filename>vls.cfg</filename>-Datei gefunden werden können</span>
 :</para>
 
 <sect2><title>Section "Vls"</title>
@@ -102,6 +137,7 @@ du fichier <filename>vls.cfg</filename></span>
 <para>
 <span xml:lang="en">This section contains application wide settings</span>
 <span xml:lang="fr">Cette section contient des paramètres globaux</span>
+<span xml:lang="de">Diese Sektion enthält programmweite Einstellungen</span>
 .</para>
 
 <programlisting>
@@ -113,6 +149,9 @@ LogFile = "name"
 logging to files is done. Default is "vls.log"</span>
 <span xml:lang="fr">Nom du fichier de log de VLS. Si une valeur vide
 ("") est entrée, aucun log n'est écrit. Le défaut est "vls.log"</span>
+<span xml:lang="de">Der Name der VLS-Logdatei. Wenn er leer ("") gelassen
+wird, wird kein Protokoll in einer Datei gespeichert. Der Standardwert ist
+"vls.log"</span>
 .</para>
 
 <programlisting>
@@ -126,13 +165,18 @@ using syslogd is implemented: compile with <command>./configure
 <span xml:lang="fr">Log dans le mécanisme de log du système.
 Actuellement, seul syslogd est supporté: compilez avec
 <command>./configure --enable-syslog</command></span>
+<span xml:lang="de">Protokollierung im Log des Systems. Derzeit wird nur
+syslog unterstützt. Kompilieren SIe mit <command>./configure
+--enable-syslog</command></span>
 .</para>
 
 <caution><para>
-<span xml:lang="en"> If VLS is started as <command>vlsd</command>, then
+<span xml:lang="en">If VLS is started as <command>vlsd</command>, then
 the following configuration is mandatory</span>
 <span xml:lang="fr">Si VLS est lancé en tant que
 <command>vlsd</command>, la configuration suivante est requise</span>
+<span xml:lang="de">Wenn VLS durch <command>vlsd</command> gestartet
+wird, ist die folgende Konfiguration verbindlich</span>
 :</para>
 
 <programlisting>
@@ -151,11 +195,14 @@ ScreenLog = "[disable|enable]"
 
 <para>
 <span xml:lang="en">Logging to the console</span>
-<span xml:lang="fr">Affichage des logs sur la console</span>.</para>
+<span xml:lang="fr">Affichage des logs sur la console</span>
+<span xml:lang="de">Protokollierung in der Konsole</span>
+.</para>
 
 <para>
 <span xml:lang="en">Example</span>
 <span xml:lang="fr">Exemple</span>
+<span xml:lang="de">Beispiel</span>
 :</para>
 
 <programlisting>
@@ -168,7 +215,11 @@ END
 
 </sect2>
 
-<sect2><title>Section "Groups"</title>
+<sect2><title>
+<span xml:lang="en">Section "Groups"</span>
+<span xml:lang="fr">Section "Groups"</span>
+<span xml:lang="de">Sektion "Groups"</span>
+</title>
 
 <para>
 <span xml:lang="en">In this section, you can define some groups of
@@ -178,6 +229,10 @@ format</span>
 <span xml:lang="fr">Dans cette section, vous pouvez définir des groupes
 d'utilisateurs et quelles commandes ils sont autorisés à exécuter. Pour
 chaque groupe, vous devez ajouter une ligne du type</span>
+<span xml:lang="de">In dieser Sektion können Sie Benutzergruppen
+und die Befehle, die diese ausführen dürfen, festlegen. Für jede Gruppe,
+die Sie festlegen möchten, müssen Sie eine Zeile im folgenden Format
+hinzufügen</span>
 :</para>
 
 <programlisting>
@@ -193,11 +248,16 @@ rewind, stop, shutdown, logout</span>
 utilisateurs peuvent exécuter command1,command2, ... Les commandes
 disponibles sont: browse, start, suspend, resume, forward, rewind, stop,
 shutdown, logout</span>
+<span xml:lang="de">Diese fügt eine Gruppe "groupname" hinzu, deren
+Nutzer erlaubt ist, command1, command2 usw. auszuführen. Derzeit sind die
+verfügbaren Befehle help, browse, start, suspend, resume, forward, rewind, stop,
+shutdown und logout</span>
 .</para>
 
 <para>
 <span xml:lang="en">Example</span>
 <span xml:lang="fr">Exemple</span>
+<span xml:lang="de">Beispiel</span>
 :</para>
 
 <programlisting>
@@ -209,7 +269,11 @@ END
 
 </sect2>
 
-<sect2><title>Section "Users"</title>
+<sect2><title>
+<span xml:lang="en">Section "Users"</span>
+<span xml:lang="fr">Section "Users"</span>
+<span xml:lang="de">Sektion "Users"</span>
+</title>
 
 <para>
 <span xml:lang="en">This section contains a list of users allowed to
@@ -218,6 +282,9 @@ line in the following format</span>
 <span xml:lang="fr">Cette section contient la liste des utilisateurs
 autorisés à contrôler VLS via l'interface d'administration. Pour chaque
 utilisateur, vous devez ajouter une ligne du type</span>
+<span xml:lang="de">Diese Sektion enthält eine Liste von Benutzern, denen
+es gestattet ist, VLS durch eine Administrationsoberfläche zu kontrollieren.
+Fügen Sie für jeden Benutzer eine Zeile im folgenden Format hinzu</span>
 :</para>
 
 <programlisting>
@@ -231,6 +298,9 @@ the password "password"</span>
 <span xml:lang="fr">Ceci ajoute un utilisateur "username", qui
 appartient au groupe "groupname", défini dans la section "Groups", et
 qui peut se logguer avec le mot de passe "password"</span>
+<span xml:lang="de">Dies fügt einen Benutzer "username" hinzu, der zur
+Gruppe "groupname" gehört, wie sie in der "Groups"-Sektion festgelegt wurde,
+und sich mit dem Passwort "password" anmelden kann</span>
 .</para>
 
 <itemizedlist>
@@ -242,11 +312,15 @@ function "crypt"</span>
 <span xml:lang="fr">Sous Unix/Linux, le mot de passe doit être encrypté,
 avec un outil tel que <command>mkpasswd</command>, ou à l'aide de la
 fonction unix "crypt"</span>
+<span xml:lang="de">Unter Unix/Linux muss das Passwort mit einem Tool wie
+<command>mkpasswd</command> oder mit der Unix-Funktion "crypt"
+verschlüsselt werden</span>
 .</para></listitem>
 
 <listitem><para>
 <span xml:lang="en">Under Windows, the password must be in clear text</span>
 <span xml:lang="fr">Sous Windows, le mot de passe doit être en clair</span>
+<span xml:lang="de">Unter Windows muss das Passwort in klaren Text sein</span>
 .</para></listitem>
 
 </itemizedlist>
@@ -254,6 +328,7 @@ fonction unix "crypt"</span>
 <para>
 <span xml:lang="en">Example for Unix/Linux</span>
 <span xml:lang="fr">Exemple pour Unix/Linux</span>
+<span xml:lang="de">Beispiel für Unix/Linux</span>
 :</para>
 
 <programlisting>
@@ -265,13 +340,19 @@ END
 
 </sect2>
 
-<sect2><title>Section "Telnet"</title>
+<sect2><title>
+<span xml:lang="en">Section "Telnet"</span>
+<span xml:lang="fr">Section "Telnet"</span>
+<span xml:lang="de">Sektion "Telnet"</span>
+</title>
 
 <para>
 <span xml:lang="en">In this section, you can configure the telnet
 administration interface</span>
 <span xml:lang="fr">Dans cette section, vous pouvez configure
 l'interface d'administration telnet</span>
+<span xml:lang="de">In dieser Sektion können Sie die
+Telnetadministrationsoberfläche einstellen</span>
 .</para>
 
 <programlisting>
@@ -283,6 +364,8 @@ LocalPort = "port"
 server. Default port is "9999"</span>
 <span xml:lang="fr">Définit le port qui sera utilisé pour le serveur
 telnet. Le port par défaut est "9999"</span>
+<span xml:lang="de">Legt fest, welcher Port für den Telnetserver benutzt
+werden wird. Der Standardport ist "9999"</span>
 .</para>
 
 <programlisting>
@@ -296,6 +379,9 @@ IPv6, put "inet6"</span>
 <span xml:lang="fr">Soit "inet4", soit "inet6" (défaut = "inet4").
 Si vous voulez utiliser IPv4, mettez "inet4", et pour l'IPv6, mettez
 "inet6"</span>
+<span xml:lang="de">Entweder "inet4" oder "inet6" (der Standard ist "inet4").
+Wenn Sie IPv4-Adressen benutzen möchten, nehmen Sie "inet4". Wenn Sie
+IPv6 benutzen möchten, nehmen Sie "inet6"</span>
 .</para>
 
 <programlisting>
@@ -309,11 +395,15 @@ IPv6)</span>
 <span xml:lang="fr">Définit sur quelle adresse IP le serveur Telnet va
 écouter les requêtes. L'adresse par défaut est "0.0.0.0" (ou "0::0" avec
 l'IPv6)</span>
+<span xml:lang="de">Legt fest, auf welcher IP-Adresse der Telnetserver
+nach Befehlen hören wird. Die Standardadresse ist "0.0.0.0" (oder "0::0" bei
+IPv6)</span>
 .</para>
 
 <para>
 <span xml:lang="en">Example</span>
 <span xml:lang="fr">Exemple</span>
+<span xml:lang="de">Beispiel</span>
 :</para>
 
 <programlisting>
@@ -323,16 +413,25 @@ END
 </programlisting>
 </sect2>
 
-<sect2><title>Section "NativeAdmin"</title>
+<sect2><title>
+<span xml:lang="en">Section "NativeAdmin"</span>
+<span xml:lang="fr">Section "NativeAdmin"</span>
+<span xml:lang="de">Sektion "NativeAdmin"</span>
+</title>
 
 <para>
 <span xml:lang="en">Same syntax as "Telnet". Not used yet</span>
 <span xml:lang="fr">Même syntaxe que "Telnet". Inutilisé</span>
+<span xml:lang="de">Die gleiche Syntax wie "Telnet". Wird noch nicht benutzt</span>
 .</para>
 
 </sect2>
 
-<sect2><title>Section "Inputs"</title>
+<sect2><title>
+<span xml:lang="en">Section "Inputs"</span>
+<span xml:lang="fr">Section "Inputs"</span>
+<span xml:lang="de">Sektion "Inputs"</span>
+</title>
 
 <para>
 <span xml:lang="en">In this section, you can define which inputs you
@@ -341,6 +440,9 @@ format</span>
 <span xml:lang="fr">Dans cette section, vous pouvez définir quelles
 entrées vous désirez utiliser. Pour chaque entrée, ajoutez une ligne du
 type</span>
+<span xml:lang="de">In dieser Sektion legen Sie fest, welche Inputs Sie benutzen
+möchten. Fügen Sie für jeden Input, den Sie benötigen, eine Zeile im folgenden
+Format hinzu</span>
 :</para>
 
 <programlisting>
@@ -353,6 +455,8 @@ of which is "Type". As explained before, there are several types of
 input</span>
 <span xml:lang="fr">Ceci ajoute une entrée nommée "InputName", de type
 "Type". Comme expliqué, il existe plusieurs types d'entrées</span>
+<span xml:lang="de">Dies fügt einen Input namens "InputName" hinzu, dessen
+Typ "Type" ist. Wie bereits erklärt, gibt es mehrere Arten von Inputs</span>
 :</para>
 
 <itemizedlist>
@@ -360,7 +464,9 @@ input</span>
 <listitem><para>
 
 <span xml:lang="en">"local" to play a stream from a file or a DVD</span>
-<span xml:lang="fr">"local" pour jour des fichiers ou des DVDs</span>
+<span xml:lang="fr">"local" pour jouer des fichiers ou des DVDs</span>
+<span xml:lang="de">"local", um einen Stream aus einer Datei oder einer
+DVD wiederzugeben</span>
 ,</para></listitem>
 
 <listitem><para>
@@ -368,16 +474,21 @@ input</span>
 card</span>
 <span xml:lang="fr">"video" pour lire depuis une carte d'encodage
 MPEG</span>
+<span xml:lang="de">"video", um einen Stream einer MPEG-Kodierungskarte
+wiederzugeben</span>
 ,</para></listitem>
 
 <listitem><para>
 <span xml:lang="en">"dvb" to play a stream from a DVB card</span>
 <span xml:lang="fr">"dvb" pour lire depuis une carte DVB</span>
+<span xml:lang="de">"dvb", um einen Stream einer DVB-Karte wiederzugeben</span>
 ,</para></listitem>
 
 <listitem><para>
 <span xml:lang="en">"v4l" to play a stream from a Video4Linux device</span>
 <span xml:lang="fr">"v4l" pour lire depuis un périphérique Video4Linux</span>
+<span xml:lang="de">"v4l" um einen Stream eines Video4Linux-Gerätes
+wiederzugeben</span>
 .</para></listitem>
 
 </itemizedlist>
@@ -387,11 +498,14 @@ MPEG</span>
 (see next paragraph)</span>
 <span xml:lang="fr">Chaque entrée doit être configurée dans sa propre
 section (voir la suite)</span>
+<span xml:lang="de">Jeder Input muss in seiner eigenen Sektion konfiguriert werden
+(siehe den nächsten Abschnitt)</span>
 .</para>
 
 <para>
 <span xml:lang="en">Example</span>
 <span xml:lang="fr">Exemple</span>
+<span xml:lang="de">Beispiel</span>
 :</para>
 
 <programlisting>
@@ -407,6 +521,7 @@ END
 <sect2><title>
 <span xml:lang="en">Inputs configuration</span>
 <span xml:lang="fr">Configuration des entrées</span>
+<span xml:lang="de">Konfiguration der Inputs</span>
 </title>
 
 <para>
@@ -421,6 +536,11 @@ section avec le même nom que l'entrée correspondante. Par exemple,
 si vous déclarez une entrée "pvr", il doit également y avoir une
 section "pvr". La syntaxe de ces sections dépend du type de l'entrée
 correspondante</span>
+<span xml:lang="de">Für jeden Input, der in der "Inputs"-Sektion deklariert
+wurde, müssen Sie, abgesehen von "local"-Inputs, eine Sektion mit dem gleichen
+Namen hinzufügen. Wenn Sie beispielsweise Input "pvr" deklariert haben, sollte
+es auch eine Sektion namens "pvr" geben. Die Syntax solcher Sektionen hängt
+vom Typus des Inputs ab</span>
 .</para>
 
 <para>
@@ -429,6 +549,9 @@ anything. Except when another trickplay strategy must be used</span>
 <span xml:lang="fr">Pour configurer une entrée locale, vous n'avez
 rien à faire, sauf si vous utilisez une stratégie "trickplay"
 différente</span>
+<span xml:lang="de">Um einen lokalen Input zu konfigurieren, müssen Sie
+nichts tun, es sei denn, dass eine andere "trickplay"-Strategie benutzt werden
+muss</span>
 :</para>
 
 <programlisting>
@@ -447,6 +570,10 @@ input. "TrickPlay" is the trickplay strategy that is used by this input
 "ProgramCount" est le nombre de programmes correspondant à cette
 entrée". "TrickPLay" est la stratégie trickplay utilisée par l'entrée
 (le défaut est "normal")</span>
+<span xml:lang="de">"Local1" ist der Name des lokalen Inputs, den Sie
+konfigurieren möchten. "ProgramCount" ist die Anzahl von Programmen,
+die diesem Input zugewiesen worden sind. "TrickPlay" ist die trickplay-Strategie,
+die von diesem Input benutzt wird (standardmäßig "normal")</span>
 .</para>
 
 <para>
@@ -454,6 +581,8 @@ entrée". "TrickPLay" est la stratégie trickplay utilisée par l'entrée
 following format</span>
 <span xml:lang="fr">Pour configurer une entrée vidéo, ajoutez une
 section dans ce format</span>
+<span xml:lang="de">Um einen Video-Input zu konfigurieren, fügen Sie eine
+Sektion im folgenden Format hinzu</span>
 :</para>
 
 <programlisting>
@@ -474,11 +603,17 @@ vous configurez. "Device" est l'adresse de la carte d'encodage MPEG
 que vous désirez utiliser (le défaut est "/dev/video"). "Type" est
 soit "MPEG2-PS", soit "MPEG2-TS", selon la configuration de votre
 périphérique (le défaut est "MPEG2-PS")</span>
+<span xml:lang="de">"VideoInputName" ist der Name des Video-Inputs, den
+Sie konfigurieren möchten. "Device" ist der Pfad der MPEG-Kodierungskarte, von
+der Sie lesen möchten (standardmäßig "/dev/video"). "Type" ist entweder
+"Mpeg2-PS" oder "Mpeg2-TS", entsprechend Ihrer Geräteinstellung
+(standardmäßig "Mpeg2-PS")</span>
 .</para>
 
 <para>
 <span xml:lang="en">Example for a Hauppauge WinTV-PVR-250 card</span>
 <span xml:lang="fr">Exemple pour une carte Hauppauge WinTV-PVR-250</span>
+<span xml:lang="de">Beispiel für eine Hauppauge WinTV-PVR-250 - Karte</span>
 :</para>
 
 <programlisting>
@@ -493,6 +628,8 @@ END
 following format</span>
 <span xml:lang="fr">Pour configurer une entrée dvb, ajoutez une section
 du type suivant</span>
+<span xml:lang="de">Im einen DVB-Input zukonfigurieren, fügen Sie eine
+Sektion im folgenden Format hinzu</span>
 :</para>
 
 <programlisting>
@@ -528,6 +665,7 @@ Vous pouvez le trouver dans <filename>$HOME/.dvbrc</filename> pour
 <para>
 <span xml:lang="en">Example</span>
 <span xml:lang="fr">Exemple</span>
+<span xml:lang="de">Beispiel</span>
 :</para>
 
 <programlisting>
@@ -539,7 +677,11 @@ END
 
 </sect2>
 
-<sect2><title>Section "Channels"</title>
+<sect2><title>
+<span xml:lang="en">Section "Channels"</span>
+<span xml:lang="fr">Section "Channels"</span>
+<span xml:lang="de">Sektion "Channels"</span>
+</title>
 
 <para>
 <span xml:lang="en">In this section, you can define the channels
@@ -548,6 +690,9 @@ following format</span>
 <span xml:lang="fr">Dans cette section, vous pouvez définir les
 sorties que vous désirez utiliser. Pour chacune, ajoutez une ligne du
 type</span>
+<span xml:lang="de">In dieser Sektion können Sie die Channel (Outputs),
+die Sie benutzen möchten, definieren. Fügen Sie pro Channel eine Zeile im
+folgenden Format hinzu</span>
 :</para>
 
 <programlisting>
@@ -561,11 +706,15 @@ channels must be configured in their own section</span>
 <span xml:lang="fr">Ceci ajoute une sortie appelée "ChannelName", de
 type "Type". Ceci doit être "network" ou "file". Comme les entrées, les
 sorties doivent être configurées dans leur propre section</span>
+<span xml:lang="de">Dies fügt einen Channel namens "ChannelName" hinzu,
+dessen Typ "Type" ist. "Type" muss entweder "network" oder "file". Wie Inputs
+müssen Channel in ihrer eigenen Sektion konfiguriert werden</span>
 .</para>
 
 <para>
 <span xml:lang="en">Example</span>
 <span xml:lang="fr">Exemple</span>
+<span xml:lang="de">Beispiel</span>
 :</para>
 
 <programlisting>
@@ -584,6 +733,7 @@ END
 <sect2><title>
 <span xml:lang="en">Channels configuration</span>
 <span xml:lang="fr">Configuration des sorties</span>
+<span xml:lang="de">Konfiguration der Channel</span>
 </title>
 
 <para>
@@ -595,6 +745,9 @@ channel</span>
 "Channels", vous devez ajouter une section avec le nom correspondant.
 La syntaxe de cette section dépend du type de la sortie
 correspondante</span>
+<span xml:lang="de">Für jeden in der "Channels"-Sektion deklarierten Channel
+müssen Sie eine Sektion mit dem gleichen Namen hinzufügen. Die Syntax einer
+solchen Sektion hängt vom Typus des entsprechenden Channels ab</span>
 .</para>
 
 <para>
@@ -602,6 +755,8 @@ correspondante</span>
 following format</span>
 <span xml:lang="fr">Pour configurer une sortie network, ajoutez une
 section dans le format suivant</span>
+<span xml:lang="de">Um einen network-Channel zu konfigurieren, fügen Sie
+eine Sektion im folgenden Format hinzu</span>
 :</para>
 
 <programlisting>
@@ -624,6 +779,8 @@ END
 you want to configure</span>
 <span xml:lang="fr">"NetChannelName" est le nom de la sortie que vous
 configurez</span>
+<span xml:lang="de">"NetChannelName" ist der Name des network-Channels,
+den Sie einstellen möchten</span>
 .</para></listitem>
 
 <listitem><para>
@@ -631,6 +788,8 @@ configurez</span>
 addresses, or "inet6" if you use IPv6 (default is "inet4")</span>
 <span xml:lang="fr">"Domain" est soit "inet4", pour des adresses IPv4,
 ou "inet6", pour des adresses IPv6 (le défaut est "inet4")</span>
+<span xml:lang="de">"Domain" ist entweder "inet4", wenn Sie IPv4-Adressen
+benutzen, oder "inet6", wenn Sie IPv6 benutzen (standardmäßig "inet4")</span>
 .</para></listitem>
 
 <listitem><para>
@@ -640,6 +799,9 @@ ou "inet6", pour des adresses IPv6 (le défaut est "inet4")</span>
 <span xml:lang="fr">"Type" est soit, "unicast", "broadcast" ou
 "multicast" (le défaut est "unicast"), selon ce que vous désirez faire,
 et votre adresse "DstHost")</span>
+<span xml:lang="de">"Type" ist entweder "unicast", "broadcast" oder
+"multicast" (standardmäßig "multicast"), abhängig von dem, was Sie
+machen möchten (und Ihrer "DstHost"-Adresse)</span>
 .</para></listitem>
 
 <listitem><para>
@@ -647,6 +809,8 @@ et votre adresse "DstHost")</span>
 which VLS will send the stream</span>
 <span xml:lang="fr">"SourceHost" est l'adresse IP (ou le nom DNS)
 depuis lequel VLS va envoyer le flux</span>
+<span xml:lang="de">"SourceHost" ist die IP-Adresse (oder der DNS-Name)
+von der VLS den Stream senden wird</span>
 .</para></listitem>
 
 <listitem><para>
@@ -654,6 +818,8 @@ depuis lequel VLS va envoyer le flux</span>
 will be sent</span>
 <span xml:lang="fr">"SourcePort" est le port UDP depuis lequel le flux
 sera envoyé</span>
+<span xml:lang="de">"SourcePort" ist der UDP-Port von dem der Stream
+gesendet werden wird</span>
 .</para></listitem>
 
 <listitem><para>
@@ -661,6 +827,8 @@ sera envoyé</span>
 the stream will be sent</span>
 <span xml:lang="fr">"DestHost" est l'adresse IP (ou le nom DNS) vers
 lequel le flux sera envoyé</span>
+<span xml:lang="de">"DestHost" ist die IP-Adresse (oder der DNS-Name),
+an den der Stream gesendet werden wird</span>
 .</para></listitem>
 
 <listitem><para>
@@ -668,6 +836,8 @@ lequel le flux sera envoyé</span>
 be sent (default is "1234")</span>
 <span xml:lang="fr">"DestPort" est le port UDP vers lequel le flux sera
 envoyé (le défaut est "1234")</span>
+<span xml:lang="de">"DestPort" ist der UDP-Port, an den der Stream
+gesendet werden wird (standardmäßig "1234")</span>
 .</para></listitem>
 
 <listitem><para>
@@ -677,16 +847,24 @@ of your multicast packets if they have to cross several routers</span>
 <span xml:lang="fr">"TTL" est une option utile seulement si "Type" est
 "multicast" (le défaut est "0"). Vous pouvez l'utiliser pour modifier le
 nombre de routeur que le paquet pourra téléviser</span>
+<span xml:lang="de">"TTL" ist nur dann eine nützliche Option, wenn
+"Type" "multicast" ist. Der Standardwert ist "0". Sie können ihn zur
+Erhöhung der TTL Ihrer Multicast-Pakete benutzen, wenn diese mehrere
+Router überqueren müssen</span>
 .</para></listitem>
 
 <listitem><para>
 <span xml:lang="en">"Interface" is an option only supported under
 GNU/Linux, to force the stream to be sent through a given network
-interface, "eth1" for instance" (to use this option, you must have
-super-user permissions)</span>
+interface ("eth1" for instance) To use this option, you must have
+super-user permissions</span>
 <span xml:lang="fr">"Interface" est une option qui ne fonctionne que
 sous GNU/Linux, pour forcer l'interface réseau de sortie ("eth1", par
 exemple). Vous devez être root pour utiliser cette option</span>
+<span xml:lang="de">"Interface" ist eine nur unter GNU/Linux unterstützte
+Option, um das Senden des Streams über ein bestimmtes Netzwerk-Interface,
+beispielsweise "eth1", zu erzwingen. Zur Benutzung dieser Option benötigen
+Sie root-Rechte</span>
 .</para></listitem>
 
 </itemizedlist>
@@ -696,6 +874,8 @@ exemple). Vous devez être root pour utiliser cette option</span>
 set them, VLS will not 'bind' the socket)</span>
 <span xml:lang="fr">"SrcHost" et "SrcPort" sont optionnels (si vous ne
 les réglez pas, VLS n'attachera pas la socket)</span>
+<span xml:lang="de">"SrcHost" und "SrcPort" sind optional (wenn Sie sie nicht
+einstellen, wird VLS das Socket nicht "binden"</span>
 .</para></note>
 
 <para>
@@ -703,6 +883,8 @@ les réglez pas, VLS n'attachera pas la socket)</span>
 following format</span>
 <span xml:lang="fr">Pour configurer une sortie file, ajoutez une section
 dans le format suivant</span>
+<span xml:lang="de">Um einen file-Channel einzustellen, fügen Sie eine
+Sektion im folgenden Format hinzu</span>
 :</para>
 
 <programlisting>
@@ -722,11 +904,17 @@ file, or rewrite it</span>
 vous configurez. "file" est le nom du fichier où le flux sera stocké (le
 défaut est "fileout.ts"). "append" est soit "yes", soit "no", et indique
 si VLS ajoute le flux à la fin du fichier, ou le réécrire</span>
+<span xml:lang="de">"FileChannelName" ist der Name des file-Channels,
+den Sie einstellen möchten. "file" ist der Name der Datei, in der Stream
+gespeichert werden wird (standardmäßig "fileout.ts"). "append" ist entweder
+"yes" oder "no" und legt fest, ob VLS den Stream an der Ende der Datei
+anhängen oder sie neu schreiben wird</span>
 .</para>
 
 <para>
 <span xml:lang="en">Example</span>
 <span xml:lang="fr">Exemple</span>
+<span xml:lang="de">Beispiel</span>
 :</para>
 
 <programlisting>
@@ -772,6 +960,8 @@ END
 and "SrcPort" fields. For example</span>
 <span xml:lang="fr">Si vous utililsez Windows, vous devez spécifier les
 valeurs "SrcHost" et "SrcPort". Par exemple</span>
+<span xml:lang="de">Wenn Sie Windows benutzen, sollten Sie die "SrcHost"
+und "SrcPort" Werte festlegen. Zum Beispiel</span>
 :</para>
 
 <programlisting>
@@ -790,6 +980,7 @@ END
 <sect2><title>
 <span xml:lang="en">Programs Configuration</span>
 <span xml:lang="fr">Configuration des programmes</span>
+<span xml:lang="de">Konfiguration der Programme</span>
 </title>
 
 <para>
@@ -802,6 +993,10 @@ les programmes. Chacun est un flux MPEG (un fichier, par exemple).
 Pour cela, vous devez ajouter une section "Input" dans votre fichier
 <filename>vls.cfg</filename>. Chaque section Input doit avoir la syntaxe
 suivante</span>
+<span xml:lang="de">Wie bereits erklärt, müssen Sie die Programme definieren.
+Jeder ist ein MPEG-Stream (eine Datei beispielsweise). Um dies zu tun, müssen
+Sie eine "Input"-Sektion Ihrer <filename>vls.cfg</filename>-Datei hinzufügen.
+Jede "Input"-Sektion muss die folgende Syntax haben</span>
 :</para>
 
 <programlisting>
@@ -818,6 +1013,9 @@ programs defined ("0" by default)</span>
 <span xml:lang="fr">"path" est le chemin où vos fichiers MPEG sont
 situés (par défaut, c'est le répertoire courant). "count" est le nombre
 de programmes ("0" par défaut)</span>
+<span xml:lang="de">"path" ist der Pfad, in dem Ihre MPEG-Dateien gespeichert
+sind (standardmäßig das aktuelle Verzeichnis). "count" ist die Anzahl von
+definierten Programmen (standardmäßig "0")</span>
 .</para>
 
 <para>
@@ -825,6 +1023,8 @@ de programmes ("0" par défaut)</span>
 section with the following format</span>
 <span xml:lang="fr">Pour chaque programme, vous devez ajouter une
 section avec la syntaxe suivante</span>
+<span xml:lang="de">Für jedes Programm, das Sie definieren möchten, müssen
+Sie eine Sektion im folgenden Format hinzufügen</span>
 :</para>
 
 <programlisting>
@@ -843,6 +1043,8 @@ END
 has number 1, the second number 2, and so on</span>
 <span xml:lang="fr">"number" est le numéro de programme: le premier est
 1, le second 2, ...</span>
+<span xml:lang="de">"number" ist die Programm-Nummer: das erste Programm
+hat die Nummer 1, das Zweite die Nummer 2, usw.</span>
 .</para></listitem>
 
 <listitem><para>
@@ -850,6 +1052,8 @@ has number 1, the second number 2, and so on</span>
 VLS to start this program (see next chapter "Running VLS")</span>
 <span xml:lang="fr">"name" est le nom du programme, que vous utiliserez
 pour lancer le programme (voir la section suivante)</span>
+<span xml:lang="de">"name" ist der Name des Programms, den Sie zum
+Start des Programms benutzen (siehe dazu das nächste Kapitel)</span>
 .</para></listitem>
 
 <listitem><para>
@@ -861,6 +1065,10 @@ format</span>
 ou "DVD". Si votre flux est stocké dans un fichier MPEG (*.mpeg,
 *.mpg, *.vob, and so on...), il es probablement au format Mpeg1-PS ou
 Mpeg2-PS</span>
+<span xml:lang="de">"type" kann "Mpeg1-PS", "Mpeg2-PS", "Mpeg2-TS",
+oder "DVD" sein. Wenn Ihr Stream in einer MPEG-Datei (*.mpeg, *.mpg, *.vob,
+usw.) gespeichert ist, ist es wahrscheinlich im Mpeg1-PS oder
+Mpeg2-PS - Format</span>
 .</para></listitem>
 
 <listitem><para>
@@ -871,6 +1079,10 @@ section)</span>
 <span xml:lang="fr">si type n'est pas "dvd", VLS supposera que votre
 fichier est stocké dans le fichier "file", dans le répertoire "path" (où
 "path" est le répertoire défini dans la section "Input")</span>
+<span xml:lang="de">Falls "type" auf Mpeg1-PS", "Mpeg2-PS" oder
+"Mpeg2-TS" eingestellt, wird VLS annehmen, dass der Stream in der Datei
+"file" im Verzeichnis "path" gespeichert ist (die "path"-Variable wurde in der
+"Input"-Sektion festgelegt)</span>
 .</para></listitem>
 
 <listitem><para>
@@ -878,7 +1090,7 @@ fichier est stocké dans le fichier "file", dans le répertoire "path" (où
 used instead of "FileName" (the variable "FilesPath" is not prepended
 to the device name !). The variable "Device" is the device of your DVD
 drive ("/dev/hdc" or "/dev/cdrom" for instance). You can also play a DVD
-copied on a hard disk: then "device" is the directory where the .vob
+copied on a hard disk: then "Device" is the directory where the .vob
 files are stored ("/mnt/data/VIDEO_TS" for instance)</span>
 <span xml:lang="fr">dans le cas contraire, la variable "Device" sera
 utilisée à la place de "FileName". Elle représente l'adresse de votre
@@ -886,6 +1098,13 @@ lecteur de DVD ("/dev/hdc" ou "/dev/cdrom", par exemple). Vous pouvez
 également jouer un DVD copié sur un disque dur: "device" est alors
 l'endroit où les fichiers .vob sont stockés ("/mnt/data/VIDEO_TS", par
 exemple)</span>
+<span xml:lang="de">Falls "type" "DVD" ist, wird die Variable "Device"
+anstatt von "FileName" benutzt werden (die Variable "FilesPath" wird nicht
+auf den Devicenamen [angewendet]!). Die Variable "Device" ist das Device
+Ihres DVD-Laufwerkes (beispielsweise "/dev/hdc" oder "/dev/cdrom"). Sie
+können auch eine auf eine Festplatte kopierte DVD wiedergeben. Dann ist
+"Device" das Verzeichnis, in dem die .vob-Dateien gespeichert sind
+(beispielsweise "/mnt/data/VIDEO_TS")</span>
 .</para></listitem>
 </itemizedlist>
 
@@ -898,16 +1117,21 @@ exemple)</span>
 DVD support, which uses libdvdread and libdvdcss. You will need
 read <emphasis>and</emphasis> write access rights to the DVD
 device</span>
-<span xml:lang="fr">Pour pouvoir lire ded DVDs, vous devez compiler VLS
+<span xml:lang="fr">Pour pouvoir lire des DVDs, vous devez compiler VLS
 avec le support des DVD, qui utilise libdvdread et libdvdcss. Vous devez
 avoir l'accès en lecture <emphasis>et</emphasis> en écriture à votre
 lecteur de DVD</span>
+<span xml:lang="de">Um DVD wiedergeben zu können, müssen Sie VLS mit
+DVD-Unterstützung, die libdvdread und libdvdcss benutzt, kompilieren. Sie
+werden Lese- <emphasis>und</emphasis> Schreibzugriff auf das DVD-Device
+benötigen</span>
 .</para></note>
 
 
 <para>
 <span xml:lang="en">Full example</span>
 <span xml:lang="fr">Exemple complet</span>
+<span xml:lang="de">Komplettes Beispiel</span>
 :</para>
 
 <programlisting>

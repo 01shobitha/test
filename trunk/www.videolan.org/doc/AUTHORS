@@ -56,13 +56,12 @@ S: Spain
 N: Felix Kühne
 E: fk@aenneburghardt.de
 C: kuehne
-D: German translation of the FAQ and VideoLAN HOWTO 
+D: German translation of the FAQ, VideoLAN HOWTO and VLS user guide 
 S: Germany
 
 N: Mariano García
 E: mariano.garcia@optivamedia.com
-P: key: 89E8E4CE
-   fingerprint: FC8C CDA9 0A9B 354A D33A  A078 4E51 9212 89E8 E4CE
+P: key: 89E8E4CE fingerprint: FC8C CDA9 0A9B 354A D33A  A078 4E51 9212 89E8 E4CE
 C: mgarcia
 D: Spanish Translation of VideoLAN HOWTO
 S: Spain

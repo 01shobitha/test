@@ -14,7 +14,7 @@ vous pouvez compiler VLC depuis ses sources.
 </span>
 <span xml:lang="de">
 Es gibt vorkompilierte Programme von VLC für viele, aber nicht für alle
-unterstützte Betriebssysteme. Wenn es keine binäre Version für Ihr System
+unterstützten Betriebssysteme. Wenn es keine binäre Version für Ihr System
 gibt oder Sie Änderungen an den standardmäßigen Einstellungen machen
 möchten, können Sie VLC aus dessen Quellen kompilieren.
 </span>
@@ -498,7 +498,7 @@ laufen:</span>
 <sect3><title>
 <span xml:lang="en">Install VLC</span>
 <span xml:lang="fr">Installez VLC</span>
-<span xml:lang="de">Installieren Sie VLC</span>
+<span xml:lang="de">Installation von VLC</span>
 </title>
 
 <para>

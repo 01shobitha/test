@@ -37,59 +37,49 @@ consacrer.
 <p>
 <ul>
 
-<li>Tout d'abord, tu dois être connecté sur le nouveau réseau de VIA. A
-ce jour, le bâtiment J, le 0G, le 2G, le 3G et les assoces ne sont pas
-encore sur le nouveau réseau.</li>
-
-<li>Ton ordinateur doit être cadencé à au moins 400 MHz et avoir 64 Mo
+<li>La décompression de Vidéo est relativement gourmande en ressources.
+Ton ordinateur doit donc être cadencé à au moins 400 MHz et avoir 64 Mo
 de RAM minimum.</li>
 
 <li>Les cartes réseau de VIA pour ordinateurs portables (les 3Com
 PCMCIA) ont du mal à supporter un flux réseau important et occupent
 alors beaucoup de ressources processeur. Sur une majorité de portables
-dotés de ces cartes, cela risque d'être saccadé. Si ton portable est
-puissant, ce ne sera probablement fluide que sur les flux dont le
-débit n'est pas trop élevé trop gros (comme les flux satellites, par
-exemple).</li>
+dotés de ces cartes, la vidéo risque d'être saccadée. Si ton portable
+est puissant, ce ne sera probablement fluide que sur les flux dont le
+débit n'est pas trop élevé (comme les flux satellites, par exemple).
+Le même problème peut se poser avec les cartes réseau 10 Mbit/s pour
+ordinateurs fixes</li>
 
 </ul>
 </p>
-
-<? h2("Qu'est-ce qui est diffusé en ce moment ?"); ?>
-
-<p><a href="http://vls2.via.ecp.fr/vls/index.phtml">Clique-ici pour
-avoir le programme</a> (Accès resteint à la résidence de l'Ecole
-Centrale. Désactive le proxy du CTI, pour y accéder).</p>
-
-<p>Etat de l'électricité au local VideoLAN en ce moment :
-<font color="red" size="+1">
-<? include("elec.txt"); ?>
-</font>.</p>
 
 <? h2("Nécessaire"); ?>
 
 <p>Pour utiliser VideoLAN, il suffit d'installer un lecteur multimédia :
 le Client VideoLAN (vlc). Le vlc est capable de lire :
 <ul>
-<li>des fichiers MPEG 1, MPEG 2 et MPEG 4 / DivX,</li>
+<li>des fichiers MPEG 1, MPEG 2 et MPEG 4 / DivX, XviD,</li>
 <li>des DVDs, sans aucune considération de zone géographique,</li>
 <li>des vidéos depuis le réseau, ce que nous utiliserons ici.</li>
 </ul>
+Attention, la version 0.5.0 ou supérieure du vlc est nécessaires pour 
+
 </p>
 
 <? h2("Installer et lancer le Client VideoLAN"); ?>
-
+<p><br/></p>
 <? h3("sous Windows"); ?>
 
-<p>Assure-toi que ta version de DirectX est supérieur ou égale à 7.
+<p>Assure-toi que ta version de DirectX est supérieure ou égale à 7.
 Si tu as une version trop vieille, installe la dernière version de
-directX disponible sur <a href="ftp://ftp/pub/bipbip/logiciels/Win9x-NT-2000/DirectX 8/"> bipbip</a>.</p>
+directX disponible sur <a href="ftp://ftp.via.ecp.fr/pub/bipbip/logiciels/Multimédia/DirectX/"> bipbip</a>.</p>
 
 <p>Télécharge <a
-href="http://www.videolan.org/pub/videolan/vlc/0.4.6/win32/vlc-0.4.6-win32.exe"> l'installeur Windows</a> et double-clique dessus pour lancer la
+href="ftp://ftp/pub/videolan/vlc/0.5.2/win32/vlc-0.5.2-win32.exe">
+l'installeur Windows</a> et double-clique dessus pour lancer la
 procédure d'installation.</p>
 
-<p>Pour le lancer, il suffit de double-cliquer sur le cône !</p>
+<p>Pour lancer le programme, il suffit de double-cliquer sur le cône !</p>
 
 <p>Attention, sous Windows 2000 / XP, il vous faut les droits
 d'administrateur sur votre système pour pouvoir lire depuis le
@@ -102,7 +92,8 @@ Windows, comme Windows 2000 ou XP Pro.</p>
 <? h3("sous Mac OS X"); ?>
 
 <p>Télécharge le <a
-href="http://www.videolan.org/pub/videolan/vlc/0.4.6/macosx/vlc-0.4.6.dmg">package MAC OS X</a> et double-clique sur l'icone du package pour
+href="http://www.videolan.org/pub/videolan/vlc/0.5.2/macosx/vlc-0.5.2.dm
+g">package MAC OS X</a> et double-clique sur l'icone du package pour
 lancer la procédure d'installation.</p>
 
 <p>Pour le lancer, il suffit de double-cliquer sur le cône !</p>
@@ -138,69 +129,79 @@ téléchargement du VLC</a> et installe-les.
 
 <? h3("sous Unix / Linux"); ?>
 
-<p>
-Réfère-toi au <a
-href="/doc/videolan-quickstart/">VideoLAN Quickstart</a>, section 2.1, paragraphe "Unix or
-Linux".
-</p>
+<p> Réfère-toi au <a href="/doc/videolan-quickstart/">VideoLAN
+Quickstart</a>, section 2.1, paragraphe "Unix or Linux". </p>
 
 <? h2(" Comment se servir du client VideoLAN ? "); ?>
 
-<? h3("sous Windows ou Linux "); ?>
 
-<p>Une fois que le vlc est lançé...</p>
+<p>La procédure est la même que ce soit sous Windows, MacOS X ou Linux.
+Une fois que le vlc est lançé...</p>
 
-<p><img style="align:center" src="/images/vlc-windows.jpg" alt="vlc Windows"/></p>
+<p><img style="align:center" src="/images/vlc-windows.jpg" alt="vlc
+Windows"/></p>
 
-<p>Cliquer sur l'icône Net et remplir la boîte de dialogue comme
-ci-dessous :</p>
+<p>Aller dans le sous-menu "Préférences" (menu "Vue" sous Windows,
+Paramètres sous Linux ou  MacOS X). Cocher la case "Shows
+advanced options", cliquer sur "Enregistrer", puis "Valider"</p>
 
-<p><img style="align:center" src="/images/vlc-net.jpg" alt="Boîte de dialogue
-Net" /></p>
+<p><img style="align:center" src="/images/advances.jpg" alt="Boîte de
+dialogue Préférences" /></p>
 
-<p>Cliquer sur "OK". Une nouvelle section de l'interface apparaît :</p>
+<p>Cliquer sur  "Enregistrer", puis "Valider". Quitter  le programme, le
+relancer. Réouvrir  la boite de  dialogue des préférences.  Une nouvelle
+section est apparue.</p>
 
-<p><img style="align:center" src="/images/vlc-channel.jpg" alt="vlc" /></p>
+<p><img style="align:center" src="/images/prefs.jpg" alt="vlc" /></p>
 
-<p>Sélectionne un numéro de chaîne et clique sur "Go!".</p>
+<p>Ecrire "sap" dans le champ "Module d'interface supplémentaire".
+Cliquer à nouveau sur "Enregistrer" et "Valider".</p>
+
+<p>Pour ouvrir une chaîne, clique sur le bouton "Playlist" de
+l'interface. L'ensemble des canaux disponibles s'affiche. Double clique
+sur l'un d'entre eux pour le sélectionner.
 
 <p>Pour passer en plein écran, appuie sur "f". Pour revenir à une
 fenêtre video, appuie de nouveau sur "f".</p>
 
 <p>Pour changer de langue ou de sous-titre, fait un clic droit sur
-l'image et sélectionne la langue ou le sous-titre à la souris.</p>
+l'image et sélectionne la langue ou le sous-titre dans les sous menus
+"audio" et "vidéo".</p>
 
-<? h3("sous Mac OS X"); ?>
+<? h3("Variante sous Windows"); ?>
 
-<p>Tu ne peux malheureusement pas utiliser l'interface pour lire un flux
-réseau. Il faut lancer le vlc en ligne de commande et aller chercher les
-adresses IP multicast sur <a href="http://vlcs/vls/index.phtml">la page
-Web avec le programme</a>. Par exemple, pour voir la chaîne 1, ouvre un
-terminal, mets-toi dans le répertoire où se trouve l'exécutable du vlc
-(normalement /Applications/vlc.app/Contents/MacOS/) et tape :</p>
+<p>Tu as certainement remarqué que la méthode précédenta avait un
+inconvénient. Elle ajoute automatiquement des entrées dans la playlist,
+ce qui peut être génant lorsque l'on veut lire des fichier ou des DVD en
+local.</p>
 
-<code>./vlc udp:@239.255.30.11</code>
+<p>Il est possible d'éviter cela sous Windows, en n'activant pas le sap
+au démarrage, comme expliqué précédemment, mais en le lançant à chaque
+fois que l'on veut regarder un flux réseau. Pour cela, va dans le menu
+"Vue", "Ajouter une interface", "sap". Celle-ci disparaîtra au démarrage
+suivant du vlc.</p>
 
-<p> Pour passer d'une chaine d'une chaîne à l'autre, il faut quitter
-(appuier sur "q") et relancer le vlc avec une autre adresse IP
-multicast. </p>
-
-
-
-<? h2("Qu'est-ce qui est diffusé et sur quelle chaîne ?"); ?>
-
-<p>Une page listant les programmes diffusés est disponible à l'adresse
-<a href="http://vlcs/vls/index.phtml">http://vlcs/vls/index.phtml</a>.
-Il y a même des liens hypertextes qui pointent vers les programmes des
-chaînes satellite.</p>
+<p><img style="align:center" src="/images/ajout_intf.jpg" alt="vlc" /></p>
 
 <? h2("Que faire si ca ne marche pas ?"); ?>
 
 <p>
 <ul>
 
-<li> Si rien ne s'affiche, c'est peut-être qu'il n'y a aucun flux dans
-cette chaîne... Essaye d'autres chaînes !</li>
+<li><p>Tout d'abord, il arrive malheureusement assez souvent qu'il y ait
+des coupures de courant dans le local VideoLAN</p>
+
+<p>Etat de l'électricité au local VideoLAN en ce moment :
+<font color="red" size="+1">
+<? include("elec.txt"); ?>
+</font>.</p></li>
+
+
+<li> Si rien ne s'affiche, c'est peut-être que le diffusion a été
+temporairement intérompue sur ce canal. Essaye en un autre !</li>
+
+<li>Vérifie que tu n'as pas un firewall logiciel installé sur tamachine
+qui bloquerait le flux ou les requettes d'abonnemet à ce dernier.</li>
 
 <li><p>Vas dans le menu "View" puis "Messages..." :</p>
 
@@ -227,10 +228,10 @@ paragraphe suivant...</p></li>
 compilé le support du Multicast dans ton noyau. Cette option se trouve
 dans le menu "Networking Options" et s'appelle "IP: multicasting".
 Pour plus d'informations sur la compilation d'un noyau, lis la <a
-href="http://www.via.ecp.fr/~alexis/formation-linux/l2-9.html">Formation Linux</a>.</p></li>
+href="http://www.via.ecp.fr/~alexis/formation-linux/l2-9.html">Formation
+Linux</a>.</p></li>
 
-</ul>
-</p>
+</ul><p>
 
 <? h2("Obtenir de l'aide, rapporter des bugs"); ?>
 
@@ -242,4 +243,17 @@ es sous Windows.</p>
 <p> Un channel <code>#videolan</code> est disponible sur le serveur IRC
 <code>irc.freenode.net</code>.</p>
 
-<? footer('$Id: index.html,v 1.7 2003/01/20 09:53:39 sam Exp $'); ?>
+<p>Pour rapporter un bug, tu peux utiliser <a
+href="http://bugzilla.videolan.org">cette page.</a></p>
+
+<p>De façon générale, avant de poser un question ou de reporter un
+problème, vas dans le menu "View", puis "Messages" :</p>
+
+<p><img style="align:center" src="/images/messages.jpg" alt="Messages du
+vlc" /></p>
+
+<p>On y retrouve un grand nombre d'informations nécessaires à la
+compréhension du problème. Les messages en rouge, plus particulièrement,
+sigalent habituellement des erreurs.</p>
+
+<? footer('$Id: index.html,v 1.8 2003/04/16 10:56:50 videolan Exp $'); ?>

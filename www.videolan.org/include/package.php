@@ -1,8 +1,21 @@
 <?
 
+function DownloadSize($file) {
+  $size = filesize($file);
+  $sizes = Array('B', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB');
+  $ext = $sizes[0];
+  for ($i=1; (($i < count($sizes)) && ($size >= 1024)); $i++) {
+   $size = $size / 1024;
+   $ext  = $sizes[$i];
+  }
+  return round($size, 1).$ext;
+}
+
 function pkgitem($version,$name,$top)
 { ?>
-  <li><a href="http://download.videolan.org/pub/videolan/<? echo $top."/".$version."/".$name; ?>"><code><? echo $name; ?></code></a> Download from mirrors: 
+  <li><code><? echo $name; ?></code> (<? echo DownloadSize("{$_SERVER["DOCUMENT_ROOT"]}pub/videolan/$top/$version/$name"); ?>) :
+<br/>Select a mirror:i
+<ul><li><a href="http://download.videolan.org/pub/videolan/<? echo $top."/".$version."/".$name; ?>">VIA, Ecole Centrale Paris (France)</a></li>
 <? 
     $file = $_SERVER["DOCUMENT_ROOT"]."/include/mirrors";
     $file_id = fopen( $file , "r" );
@@ -17,10 +30,10 @@ function pkgitem($version,$name,$top)
 	$esp = strpos( $mirror, " " );
 	$url = substr( $mirror, 0, $esp );
 	$mirror_name = substr( $mirror, $esp+1, strlen( $mirror ) - $esp -1 );
-	echo " [<a href=\"http://www.videolan.org/mirror.html?mirror=$url&file=$top/$version/$name\">$mirror_name</a>]\n "; 
+	echo " <li>[<a href=\"http://www.videolan.org/mirror.html?mirror=$url&file=$top/$version/$name\">$mirror_name</a>]</li>\n "; 
     }
 ?>
-</li><?
+</ul></li><?
  }
  ?>
 

@@ -16,7 +16,7 @@ $(LANG): %: $(foreach ext, $(EXT), $(DOC)-%.$(ext))
 # Get the images from the /images/documentation directory
 img:
 	rm -rf images
-	cp -R ../../images/documentation images
+#	cp -R ../../images/documentation images
 
 $(LANG:%=$(DOC)-%.xml): $(DOC).xml
 	xsltproc --stringparam lang $(shell echo $(basename $@) | sed -e 's/.*-//') ../common/multilanguage.xsl $^ | sed -e 's/id="$(DOC)"/id="$(basename $@)"/' > $@
@@ -31,8 +31,8 @@ $(LANG:%=$(DOC)-%.html): %.html: %.xml
 	mkdir -p $(basename $@) 
 	mv *.html $(basename $@)
 	ln -sf $(DOC)-en/index.html $(DOC)-en.html
-	rm -f $(DOC)-$(LANG).xml
-
+	rm -f $(DOC)-*.xml
+	make $(DOC)-$(LANG).xml
 
 $(LANG:%=$(DOC)-%.ps): %.ps: %.xml
 	/bin/cp ../common/magic-eps.xml ../common/magic.xml
@@ -43,7 +43,9 @@ $(LANG:%=$(DOC)-%.ps): %.ps: %.xml
 	rm -f *.tex *.out *.aux *.log
 	dvips -o $@ $(basename $@).dvi
 	zip $(basename $@)-ps.zip $@ images/*.jpg
-	rm -f $(DOC)-$(LANG).xml
+	rm -f $(DOC)-*.xml
+	make $(DOC)-$(LANG).xml
+
 
 $(LANG:%=$(DOC)-%.pdf): %.pdf: %.xml
 	/bin/cp ../common/magic-jpg.xml ../common/magic.xml
@@ -53,14 +55,16 @@ $(LANG:%=$(DOC)-%.pdf): %.pdf: %.xml
 	pdfjadetex $(basename $@).tex
 	rm -f *.tex *.out *.aux *.log
 	zip $(basename $@)-pdf.zip $@ images/*.jpg
-	rm -f $(DOC)-$(LANG).xml
+	rm -f $(DOC)-*.xml
+	make $(DOC)-$(LANG).xml
 
 $(LANG:%=$(DOC)-%.rtf): %.rtf: %.xml
 	/bin/cp ../common/magic-jpg.xml ../common/magic.xml
 	jade -t rtf -d ../common/stylesheet-print-noicones.dsl -o $@ $(XML_DECL) $^
 	rm -f $(basename $@)-rtf.zip
 	zip $(basename $@)-rtf.zip $@ images/*.jpg
-	rm -f $(DOC)-$(LANG).xml
+	rm -f $(DOC)-*.xml
+	make $(DOC)-$(LANG).xml
 
 $(LANG:%=$(DOC)-%.txt): %.txt: %.xml
 	/bin/cp ../common/magic-jpg.xml ../common/magic.xml
@@ -68,7 +72,8 @@ $(LANG:%=$(DOC)-%.txt): %.txt: %.xml
 #       w3m -dump $^.html > $@
 	lynx -force_html -dump $^.html > $@
 	rm -f $^.html
-	rm -f $(DOC)-$(LANG).xml
+	rm -f $(DOC)-*.xml
+	make $(DOC)-$(LANG).xml
 
 clean:
 	rm -f *.zip *.html *.pdf *.ps *.rtf *.txt *.dvi *.tex *.out *.aux *.log *.tmp $(DOC)-*.xml

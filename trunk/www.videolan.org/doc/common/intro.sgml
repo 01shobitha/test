@@ -20,10 +20,10 @@ MPEG-2 and MPEG-4 files, DVDs, digital satellite channels, digital terrestial
 television channels and live videos on the network in unicast or
 multicast,</para>
 
-<listitem><para>VLC (initialy VideoLAN Client), which can be used as a server
-to stream MPEG-1, MPEG-2 and MPEG-4 files and DVDs on the network in
-unicast or multicast ; or used as a client to receive, decode and
-display MPEG streams under multiple operating systems.</para>
+<listitem><para>VLC (initialy VideoLAN Client), which can be used as a
+server to stream MPEG-1, MPEG-2 and MPEG-4 files, DVDs and live videos
+on the network in unicast or multicast ; or used as a client to receive,
+decode and display MPEG streams under multiple operating systems.</para>
 
 </itemizedlist>
 
@@ -67,7 +67,9 @@ network sent by VLS or VLC's stream output.</para>
 
 <listitem><para>MPEG-1, MPEG-2 and MPEG-4 / DivX files,</para>
 
-<listitem><para>and DVDs,</para>
+<listitem><para>DVDs,</para>
+
+<listitem><para>from an MPEG encoding card,</para>
 
 </itemizedlist>
 

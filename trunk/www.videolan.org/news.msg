@@ -4,6 +4,12 @@
 # Et pour les nouvelles importantes, c'est pas un | , c'est un §
 #
 
+|29 May 2003| Hauppauge WinTV-PVR-250 supported | We have managed to
+stream from a Hauppauge WinTV-PVR-250 (an MPEG-2 encoding card) under
+Linux ! It gives much better results than the Visiontech Kfir card. The
+chapter "Stream from an MPEG encoding card" of the VideoLAN HOWTO has
+been updated, see the <a href="/doc/">documentation page</a>.
+
 |26 May 2003| Release: mini-SAP-server 0.2.0 | This new release of the
 mini-SAP-server produces packets that should be conform to the RFC and
 adds a "port" option. Only the CVS version of VLC accepts its announces.

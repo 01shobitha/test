@@ -13,7 +13,7 @@
   <!ENTITY webbrowser-plugin SYSTEM "webbrowser-plugin.xml">
   <!ENTITY install-vlc SYSTEM "../common/install-vlc.xml">
   <!ENTITY uninstall-vlc SYSTEM "../common/uninstall-vlc.xml">
-  <!ENTITY fdl SYSTEM "../common/fdl.xml">
+  <!ENTITY gpl SYSTEM "../common/gpl.xml">
 
 <!-- This is dirty and (hopefully) temporary -->
   <!ENTITY disabled SYSTEM "disabled.xml">
@@ -80,12 +80,12 @@
 
 <legalnotice>
 
-<para>Permission is granted to copy, distribute and/or modify this document
-under the terms of the GNU Free Documentation License, Version 1.2 or
-any later version published by the Free Software Foundation ; with no
-Invariant Sections, with no Front-Cover Texts, and with no Back-Cover
-Texts. The text of the license can be found in the appendix
-<xref linkend="gfdl" endterm="tgfdl"/>.</para>
+<para>Permission is granted to copy, distribute and/or modify this
+document under the terms of the GNU General Public License as published
+by the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+The text of the license can be found in the appendix.
+<xref linkend="gpl" endterm="tgpl"/>.</para>
 
 </legalnotice>
 
@@ -125,6 +125,6 @@ Texts. The text of the license can be found in the appendix
 &cmdline;
 &http;
 &webbrowser-plugin;
-&fdl;
+&gpl;
 
 </book>

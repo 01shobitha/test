@@ -8,7 +8,7 @@
 
 <? function pkgitem($version,$name) { ?><li><a href="http://download.videolan.org/pub/videolan/vlc/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
 
-<? function pkgitem-dev($version,$name) { ?><li><a href="http://download.videolan.org/pub/testing/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
+<? function pkgitemdev($version,$name) { ?><li><a href="http://download.videolan.org/pub/testing/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
 
 <h1> VLC for Windows </h1>
 
@@ -37,13 +37,13 @@ unlikely that a Windows virus would end there. </p>
 <p> Windows self-extracting package: </p>
 
 <ul>
-  <? pkgitem("0.7.2-test2/win32","vlc-0.7.2-test2-win32.exe"); ?>
+  <? pkgitemdev("0.7.2-test2/win32","vlc-0.7.2-test2-win32.exe"); ?>
 </ul>
 
 <p> Windows zip package (identical to the above but without the installer): </p>
 
 <ul>
-  <? pkgitem("0.7.2-test2/win32","vlc-0.7.2-test2-win32.zip"); ?>
+  <? pkgitemdev("0.7.2-test2/win32","vlc-0.7.2-test2-win32.zip"); ?>
 </ul>
 
 <h2>Older versions</h2>

@@ -30,8 +30,9 @@ function starthtml($title) { ?>
     * The cool navigation bar, including mirror drop-down menu
     */
 
-echo "host: &lt;".$ENV{'HTTP_HOST'}."&gt;<br>";
-echo "host: &lt;".$ENV{'HTTP_REQUEST'}.">&gt;<br>";
+global $HTTP_HOST, $PHP_SELF;
+echo "host: &lt;".$HTTP_HOST."&gt;<br>";
+echo "self: &lt;".$PHP_SELF.">&gt;<br>";
 ?><form action="index.html" method="get">
   <table width="100%" cellspacing="3" cellpadding="0"><tr>
     <td style="background-color: inherit; width: 17%; vertical-align: middle;" align="center"><a href="/">Home</a></td>

@@ -302,37 +302,36 @@ msgstr "de Lattre"
 #: en/play-howto.xml:29
 #, no-wrap
 msgid "Anil"
-msgstr ""
+msgstr "Anil"
 
 # type: Content of: <book><bookinfo><authorgroup><author><surname>
 #: en/play-howto.xml:30
 #, no-wrap
 msgid "Daoud"
-msgstr ""
+msgstr "Daoud"
 
 # type: Content of: <book><bookinfo><authorgroup><author><firstname>
 #: en/play-howto.xml:33
 #, no-wrap
 msgid "Benjamin"
-msgstr ""
-
+msgstr "Benjamin"
 # type: Content of: <book><bookinfo><authorgroup><author><surname>
 #: en/play-howto.xml:34
 #, no-wrap
 msgid "Pracht"
-msgstr ""
+msgstr "Pracht"
 
 # type: Content of: <book><bookinfo><authorgroup><author><firstname>
 #: en/play-howto.xml:37
 #, no-wrap
 msgid "ClÃ©ment"
-msgstr ""
+msgstr "Clément"
 
 # type: Content of: <book><bookinfo><authorgroup><author><surname>
 #: en/play-howto.xml:38
 #, no-wrap
 msgid "Stenac"
-msgstr ""
+msgstr "Stenac"
 
 # type: Content of: outside any tag (error?)
 #: en/play-howto.xml:39 en/play-howto.xml:46 en/play-howto.xml:72
@@ -446,72 +445,78 @@ msgid ""
 "The text of the license can be found in the appendix.\n"
 "<xref linkend=\"gpl\" endterm=\"tgpl\"/>."
 msgstr ""
+"la permission de copier, ditribuer et/ou modifier ce document est garantie\n"
+" sous le terme du GNU General Public License comme publié par la Free \n"
+"software foundation;selon la version 2 de la License ou\n"
+" toute version plus récente.\n"
+"le texte de la License peut etre trouvé dans l'appendice.\n"
+"<xref linkend=\"gpl\" endterm=\"tgpl\"/>."
 
 # type: Content of: <book><bookinfo><keywordset><keyword>
 #: en/play-howto.xml:62
 #, no-wrap
 msgid "VideoLAN"
-msgstr ""
+msgstr "VideoLAN"
 
 # type: Content of: <book><bookinfo><keywordset><keyword>
 #: en/play-howto.xml:63
 #, no-wrap
 msgid "Client"
-msgstr ""
+msgstr "Client"
 
 # type: Content of: <chapter><sect1><title>
 #: en/play-howto.xml:64 en/intro.xml:25
 #, no-wrap
 msgid "VLC media player"
-msgstr ""
+msgstr "VLC media player"
 
 # type: Content of: <chapter><sect1><sect2><para><emphasis>
 #: en/play-howto.xml:65
 #, no-wrap
 msgid "vlc"
-msgstr ""
+msgstr "vlc"
 
 # type: Content of: <book><bookinfo><keywordset><keyword>
 #: en/play-howto.xml:66
 #, no-wrap
 msgid "stream"
-msgstr ""
+msgstr "stream"
 
 # type: Content of: <book><bookinfo><keywordset><keyword>
 #: en/play-howto.xml:67
 #, no-wrap
 msgid "multicast"
-msgstr ""
+msgstr "multicast"
 
 # type: Content of: <book><bookinfo><keywordset><keyword>
 #: en/play-howto.xml:68
 #, no-wrap
 msgid "MPEG-1"
-msgstr ""
+msgstr "MPEG-1"
 
 # type: Content of: <book><bookinfo><keywordset><keyword>
 #: en/play-howto.xml:69
 #, no-wrap
 msgid "MPEG-2"
-msgstr ""
+msgstr "MPEG-2"
 
 # type: Content of: <book><bookinfo><keywordset><keyword>
 #: en/play-howto.xml:70
 #, no-wrap
 msgid "MPEG-4"
-msgstr ""
+msgstr "MPEG-4"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/play-howto.xml:71 en/basic-use.xml:420
 #, no-wrap
 msgid "DVD"
-msgstr ""
+msgstr "DVD"
 
 # type: Content of: <book><bookinfo><keywordset><keyword>
 #: en/play-howto.xml:72
 #, no-wrap
 msgid "DivX"
-msgstr ""
+msgstr "DivX"
 
 # type: Content of: <book><bookinfo><abstract><para>
 #: en/play-howto.xml:77
@@ -520,7 +525,7 @@ msgid ""
 "\n"
 "This document is the complete user guide for the client aspects of VLC.\n"
 msgstr ""
-
+"ce documant est un guide complet pour les utilisateurs de VLC.\n"
 # type: Content of: <appendix><sect1>
 #: en/play-howto.xml:81 en/play-howto.xml:84 en/basic-use.xml:241
 #: en/basic-use.xml:259 en/basic-use.xml:275 en/basic-use.xml:339
@@ -537,6 +542,9 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"\n"
 
 # type: Content of: <book>
 #: en/play-howto.xml:87
@@ -552,6 +560,15 @@ msgid ""
 "&http;\n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"&intro;\n"
+"&installer;\n"
+"&utilisation de base;\n"
+"&utilisation avncée;\n"
+"&gpl;\n"
+"&http;\n"
+"\n"
 
 # type: Content of: <chapter><title>
 #: en/basic-use.xml:2
@@ -577,7 +594,9 @@ msgid ""
 "Windows and GNU/Linux, called wxWindows, a MacOS X native interface and\n"
 "a skinnable interface for Windows and GNU/Linux."
 msgstr ""
-
+"VLC a differentes interfaces: une cross-platform interface,pour\n"
+"Windows et  GNU/Linux,appellée wxWindows,une interface pour macOS X et\n"
+" une interface skimnable pour Windows and GNU/Linux."     
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/basic-use.xml:12
 #, no-wrap
@@ -592,36 +611,38 @@ msgid ""
 "screenshot is done on GNU/Linux, but it would look quite the same on\n"
 "Windows."
 msgstr ""
-
+"c'est l'interface par default sur windows et GNU/Linux (le\n"
+"screenshot est fait sur GNU/Linux,mais ça donne la meme chose sous\n"
+" windows."
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:22 en/basic-use.xml:23
 #, no-wrap
-msgid "The wxWindows interface"
-msgstr ""
+msgid "The wxWindows interface" 
+msgstr "l'interface wxWindows"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:26
 #, no-wrap
 msgid "This interface also features an <emphasis>Extended GUI</emphasis> which contains many additional features. To display or hide it, go to the <emphasis>Settings</emphasis> menu and click <emphasis>Extended GUI</emphasis>."
-msgstr ""
+msgstr "cette interface dispose aussi un <emphasis>interface etendue</emphasis> qui contient plusieurs dispositifs suplémentaires.pour le désactiver ou le cacher,allez dans le menu <emphasis> Paramètres </emphasis> et cliquez sur <emphasis> interface etendue</emphasis>. "
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:32 en/basic-use.xml:33
 #, no-wrap
 msgid "The wxWindows interface with extended GUI"
-msgstr ""
+msgstr "l'interface wxwindows avec GUI etendu"
 
 # type: Content of: <chapter><sect1><title>
 #: en/basic-use.xml:40
 #, no-wrap
 msgid "Simple play"
-msgstr ""
+msgstr "simple lecture "
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/basic-use.xml:42
 #, no-wrap
 msgid "Play a file"
-msgstr ""
+msgstr "ouvrir un fichier"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:43
@@ -632,7 +653,10 @@ msgid ""
 "box will appear. Select the file you want to open, \n"
 "and select Open. VLC will start playing the selected file. \n"
 msgstr ""
-
+"pour ouvrir un fichier,ouvrez le menu <emphasis>Fichier</emphasis>,et selectionnez \n"
+"le menu <emphasis>ouvrir un fichier (avançé)</emphasis>.Une fenetre de dialogue \n"
+ "apparaitra.Selectionnez le fichier que vous voulez ouvrir et \n"
+ "cliquez sur ouvrir.VLC commencera la lecture du fichier selectionné. \n " 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:49
 #, no-wrap
@@ -640,36 +664,39 @@ msgid ""
 "An alternative is to Drag'n'Drop your file on the VLC main interface or \n"
 "playlist window from the file explorer (Finder on MacOS X)."
 msgstr ""
+"Une alternative est de trainer votre fichier sur l'interface principale de\n"
+" VLC ou sur la liste de lecture depuis l'explorateur de fichier\n" 
+"(Finder sur MacOS X)" 
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:56 en/basic-use.xml:57
 #, no-wrap
 msgid "The File menu - wxWindows interface"
-msgstr ""
+msgstr "le menu fichier de linterface wxWindows"
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:64 en/basic-use.xml:65
 #, no-wrap
 msgid "The File menu - MacOS X interface"
-msgstr ""
+msgstr "le menu fichier de linterface de MacOS X"
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:72 en/basic-use.xml:73
 #, no-wrap
 msgid "The Open file dialog - wxWindows interface"
-msgstr ""
+msgstr "le dialogue pour ouvrir un fichier pour l'interface wxWindows"
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:80 en/basic-use.xml:81
 #, no-wrap
 msgid "The Open file dialog - MacOS X interface"
-msgstr ""
+msgstr "le dialogue pour ouvrir unfichier pour l'interface MacOS X"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/basic-use.xml:85
 #, no-wrap
 msgid "Play a CD/DVD/VCD"
-msgstr ""
+msgstr "lire un CD/DVD/VCD"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:86
@@ -683,7 +710,14 @@ msgid ""
 "Disc type in the wxWindows Interface. In the MacOS X interface, \n"
 "this can be done by selecting the \"Use DVD menus\" dialog box.\n"
 msgstr ""
-
+"\n"
+"pour lire un CD, VCD ou un DVD, ouvrez le menu <emphasis>fichier</emphasis>\n"
+"et selectionnez le menu <emphasis>ouvrir un disque</emphasis>.Dans la \n"
+"fenetre de dialogue de 'ouvrir un disque',choisissez le type de media (DVD,\n"
+"VCD ou CD Audio).Lors de la lecture d'un DVD, vous pouvez utilisez\n"
+"le menu DVD en choisissant le  <emphasis>DVD (menus)</emphasis>\n"
+"comme type de disque dans l'interface wxWindows .Pour l'interface MacOS X,\n"
+"cela peut etre fait en choisissant lafenetre de dialogue \"Use DVD menus\".\n"  
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:94
 #, no-wrap
@@ -692,7 +726,9 @@ msgid ""
 "the appropriate drive letter or device name in the \"Device Name\" text input. \n"
 "This should be autodetected on MacOS X."
 msgstr ""
-
+"vous pouvez choisir le périphérique depuis lequel la media doit etre lue en donnant\n"
+"la lettre correspondant ou le nom complet du péréphérique dans \" Nom du périphérique\".\n "
+"cela doit etre detecté automatiquement pour Mac OS X."
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:97
 #, no-wrap
@@ -701,7 +737,9 @@ msgid ""
 "chapter instead of from the beginning, you can set it using the <emphasis>Title\n"
 "</emphasis> and <emphasis>Chapter</emphasis> selectors."
 msgstr ""
-
+"si vous voulez commencer le playback du CD ou du VCD depuis un titre donné\n"
+" et le chapitre au lieu de du commencement, vous pouvez le placer à l'aide\n"
+" des selecteurs de  <emphasis>Titre</emphasis> and <emphasis>Chapitre</emphasis>\n"
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:100
 #, no-wrap
@@ -709,7 +747,8 @@ msgid ""
 "You can start playback by selecting the <emphasis>Ok</emphasis> \n"
 "button."
 msgstr ""
-
+"Vous pouvez commencer le playback en choisissant le boutton\n" 
+"<emphasis>Ok</emphasis>" 
 # type: Content of: <chapter><sect1><sect2>
 #: en/basic-use.xml:101 en/advanced-use.xml:833
 #, no-wrap
@@ -717,24 +756,25 @@ msgid ""
 " \n"
 "\n"
 msgstr ""
-
+" \n"
+"\n"
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:107 en/basic-use.xml:108
 #, no-wrap
 msgid "The Open disk dialog - wxWindows interface"
-msgstr ""
+msgstr "la fenetre de dialogue pour ouvrir un disque pour l'interface wxWindows "
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:115 en/basic-use.xml:116
 #, no-wrap
 msgid "The Open disk dialog - MacOS X interface"
-msgstr ""
+msgstr "la fenetre de dialogue pour ouvrir un disque pour l'interface MacOS X"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/basic-use.xml:120
 #, no-wrap
 msgid "Play a network stream (WebRadio, WebTV, ...)"
-msgstr ""
+msgstr "lire un flux du réseau(WebRadio, WebTV, ...)"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:121
@@ -744,7 +784,9 @@ msgid ""
 "To open a network stream, open the \"File\" menu and select the \"Open Network \n"
 "Stream\" menu item."
 msgstr ""
-
+" \n"
+"Pour ouvrir un flux  réseau, ouvrez le menu \"Fichier\"  et choisissez \"ouvrir un flux  réseau\n"
+"Article du menu flux\"" 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/basic-use.xml:126
 #, no-wrap
@@ -753,7 +795,9 @@ msgid ""
 "</emphasis>, and set the appropriate UDP port in the selector \n"
 "(it is 1234 for streams sent by a VLC or VLS server).\n"
 msgstr ""
-
+"Pour ouvrir un flux d'unicast de UDP,choisissez <emphasis>UDP/RTP\n"
+"</emphasis> , et placer le port approprié de UDP dans le sélecteur\n"
+"(c' est 1234 pour des flux envoyés par un serveur de VLC ou de VLS)."
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/basic-use.xml:130
 #, no-wrap
@@ -764,7 +808,9 @@ msgid ""
 "in the \"Address\" text input, and select the appropriate UDP\n"
 "port."
 msgstr ""
-
+"\n"
+"Pour ouvrir un flux de multicast de UDP, choisissez<emphasis> le multicast\n"
+"d'UDP/RTP</emphasis>. Donnez l'adresse du groupe de multicast dans la saisie\n""des textes d\"Adresse\", et choisissez le port approprié de UDP."
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/basic-use.xml:135
 #, no-wrap
@@ -777,7 +823,11 @@ msgid ""
 "in the corresponding text input. This also the way to open a RTSP stream \n"
 "with the MacOS X interface.\n"
 msgstr ""
-
+"Pour ouvrir un flux envoyé par HTTP(Webradios, WebTVs, Shoutcast, Icecast...)\n"",ftp, ou mms (serveur de médias de Microsoft), choisissez \"HTTP/FTP/MMS\"\n"
+" , et donnez l'URL correspondante dans la saisie des textes correspondante\n"
+" , (comme http://live.stream.org:8080/live ou\n" 
+" mms://live.ms.stream.net:8080/live.asf).Ceciest également la méthode\n"
+" d'ouvrir un flux de RTSP avec l'interface de MacOS X."
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/basic-use.xml:143
 #, no-wrap

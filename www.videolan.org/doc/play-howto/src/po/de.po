@@ -1,102 +1,102 @@
 # SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-#, fuzzy
+# Copyright (C) 2004 Free Software Foundation, Inc.
+# Felix Kühne <fkuehne@users.sf.net>, 2004.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2004-12-19 23:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: Felix Kühne <fkuehne@users.sf.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: ENCODING"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0.2\n"
 
 # type: Content of: <appendix>
 #: en/play-howto.xml:1 en/play-howto.xml:15 en/play-howto.xml:17 en/play-howto.xml:19 en/play-howto.xml:21 en/play-howto.xml:40 en/play-howto.xml:47 en/play-howto.xml:49 en/play-howto.xml:56 en/play-howto.xml:58 en/play-howto.xml:73 en/play-howto.xml:75 en/play-howto.xml:79 en/basic-use.xml:4 en/basic-use.xml:6 en/basic-use.xml:10 en/basic-use.xml:12 en/basic-use.xml:16 en/basic-use.xml:24 en/basic-use.xml:26 en/basic-use.xml:34 en/basic-use.xml:36 en/basic-use.xml:38 en/basic-use.xml:40 en/basic-use.xml:47 en/basic-use.xml:50 en/basic-use.xml:58 en/basic-use.xml:66 en/basic-use.xml:74 en/basic-use.xml:82 en/basic-use.xml:109 en/basic-use.xml:117 en/basic-use.xml:123 en/basic-use.xml:146 en/basic-use.xml:155 en/basic-use.xml:163 en/basic-use.xml:171 en/basic-use.xml:176 en/basic-use.xml:191 en/basic-use.xml:199 en/basic-use.xml:202 en/basic-use.xml:211 en/basic-use.xml:219 en/basic-use.xml:231 en/basic-use.xml:233 en/basic-use.xml:244 en/basic-use.xml:246 en/basic-use.xml:248 en/basic-use.xml:253 en/basic-use.xml:256 en/basic-use.xml:278 en/basic-use.xml:283 en/basic-use.xml:289 en/basic-use.xml:291 en/basic-use.xml:293 en/basic-use.xml:297 en/basic-use.xml:301 en/basic-use.xml:303 en/basic-use.xml:305 en/basic-use.xml:307 en/basic-use.xml:311 en/basic-use.xml:315 en/basic-use.xml:317 en/basic-use.xml:319 en/basic-use.xml:321 en/basic-use.xml:325 en/basic-use.xml:327 en/basic-use.xml:329 en/basic-use.xml:334 en/basic-use.xml:337 en/basic-use.xml:342 en/basic-use.xml:346 en/basic-use.xml:350 en/basic-use.xml:368 en/basic-use.xml:370 en/basic-use.xml:372 en/basic-use.xml:374 en/basic-use.xml:376 en/basic-use.xml:386 en/basic-use.xml:390 en/basic-use.xml:408 en/basic-use.xml:410 en/basic-use.xml:412 en/basic-use.xml:414 en/basic-use.xml:417 en/basic-use.xml:424 en/basic-use.xml:430 en/basic-use.xml:438 en/basic-use.xml:446 en/basic-use.xml:450 en/basic-use.xml:459 en/basic-use.xml:462 en/basic-use.xml:464 en/basic-use.xml:466 en/basic-use.xml:472 en/basic-use.xml:474 en/basic-use.xml:484 en/basic-use.xml:498 en/basic-use.xml:505 en/basic-use.xml:511 en/basic-use.xml:513 en/basic-use.xml:515 en/basic-use.xml:517 en/basic-use.xml:519 en/basic-use.xml:522 en/basic-use.xml:524 en/basic-use.xml:530 en/basic-use.xml:537 en/basic-use.xml:539 en/basic-use.xml:541 en/basic-use.xml:544 en/basic-use.xml:548 en/basic-use.xml:566 en/basic-use.xml:570 en/basic-use.xml:575 en/basic-use.xml:577 en/basic-use.xml:599 en/basic-use.xml:602 en/basic-use.xml:604 en/basic-use.xml:606 en/basic-use.xml:611 en/basic-use.xml:618 en/basic-use.xml:622 en/basic-use.xml:624 en/basic-use.xml:626 en/basic-use.xml:628 en/basic-use.xml:636 en/basic-use.xml:638 en/basic-use.xml:640 en/basic-use.xml:642 en/basic-use.xml:648 en/basic-use.xml:651 en/basic-use.xml:659 en/basic-use.xml:662 en/basic-use.xml:666 en/basic-use.xml:668 en/basic-use.xml:670 en/basic-use.xml:674 en/basic-use.xml:676 en/basic-use.xml:678 en/basic-use.xml:681 en/basic-use.xml:684 en/basic-use.xml:686 en/advanced-use.xml:4 en/advanced-use.xml:10 en/advanced-use.xml:12 en/advanced-use.xml:14 en/advanced-use.xml:19 en/advanced-use.xml:22 en/advanced-use.xml:26 en/advanced-use.xml:28 en/advanced-use.xml:33 en/advanced-use.xml:37 en/advanced-use.xml:43 en/advanced-use.xml:48 en/advanced-use.xml:50 en/advanced-use.xml:52 en/advanced-use.xml:55 en/advanced-use.xml:59 en/advanced-use.xml:63 en/advanced-use.xml:67 en/advanced-use.xml:70 en/advanced-use.xml:75 en/advanced-use.xml:77 en/advanced-use.xml:81 en/advanced-use.xml:85 en/advanced-use.xml:87 en/advanced-use.xml:92 en/advanced-use.xml:94 en/advanced-use.xml:100 en/advanced-use.xml:104 en/advanced-use.xml:109 en/advanced-use.xml:114 en/advanced-use.xml:120 en/advanced-use.xml:126 en/advanced-use.xml:130 en/advanced-use.xml:135 en/advanced-use.xml:139 en/advanced-use.xml:141 en/advanced-use.xml:149 en/advanced-use.xml:154 en/advanced-use.xml:156 en/advanced-use.xml:162 en/advanced-use.xml:166 en/advanced-use.xml:173 en/advanced-use.xml:176 en/advanced-use.xml:178 en/advanced-use.xml:184 en/advanced-use.xml:207 en/advanced-use.xml:209 en/advanced-use.xml:213 en/advanced-use.xml:216 en/advanced-use.xml:219 en/advanced-use.xml:221 en/advanced-use.xml:223 en/advanced-use.xml:225 en/advanced-use.xml:248 en/advanced-use.xml:250 en/advanced-use.xml:252 en/advanced-use.xml:256 en/advanced-use.xml:258 en/advanced-use.xml:262 en/advanced-use.xml:266 en/advanced-use.xml:270 en/advanced-use.xml:274 en/advanced-use.xml:278 en/advanced-use.xml:282 en/advanced-use.xml:286 en/advanced-use.xml:290 en/advanced-use.xml:294 en/advanced-use.xml:298 en/advanced-use.xml:300 en/advanced-use.xml:302 en/advanced-use.xml:306 en/advanced-use.xml:308 en/advanced-use.xml:312 en/advanced-use.xml:316 en/advanced-use.xml:320 en/advanced-use.xml:323 en/advanced-use.xml:325 en/advanced-use.xml:327 en/advanced-use.xml:331 en/advanced-use.xml:333 en/advanced-use.xml:337 en/advanced-use.xml:341 en/advanced-use.xml:345 en/advanced-use.xml:349 en/advanced-use.xml:353 en/advanced-use.xml:357 en/advanced-use.xml:359 en/advanced-use.xml:361 en/advanced-use.xml:365 en/advanced-use.xml:368 en/advanced-use.xml:370 en/advanced-use.xml:374 en/advanced-use.xml:378 en/advanced-use.xml:382 en/advanced-use.xml:386 en/advanced-use.xml:391 en/advanced-use.xml:393 en/advanced-use.xml:397 en/advanced-use.xml:399 en/advanced-use.xml:403 en/advanced-use.xml:407 en/advanced-use.xml:411 en/advanced-use.xml:415 en/advanced-use.xml:418 en/advanced-use.xml:422 en/advanced-use.xml:426 en/advanced-use.xml:430 en/advanced-use.xml:433 en/advanced-use.xml:437 en/advanced-use.xml:441 en/advanced-use.xml:445 en/advanced-use.xml:449 en/advanced-use.xml:451 en/advanced-use.xml:454 en/advanced-use.xml:456 en/advanced-use.xml:458 en/advanced-use.xml:462 en/advanced-use.xml:464 en/advanced-use.xml:466 en/advanced-use.xml:489 en/advanced-use.xml:491 en/advanced-use.xml:493 en/advanced-use.xml:496 en/advanced-use.xml:498 en/advanced-use.xml:501 en/advanced-use.xml:503 en/advanced-use.xml:505 en/advanced-use.xml:510 en/advanced-use.xml:512 en/advanced-use.xml:514 en/advanced-use.xml:516 en/advanced-use.xml:518 en/advanced-use.xml:520 en/advanced-use.xml:522 en/advanced-use.xml:535 en/advanced-use.xml:537 en/advanced-use.xml:539 en/advanced-use.xml:541 en/advanced-use.xml:543 en/advanced-use.xml:554 en/advanced-use.xml:556 en/advanced-use.xml:558 en/advanced-use.xml:560 en/advanced-use.xml:565 en/advanced-use.xml:567 en/advanced-use.xml:569 en/advanced-use.xml:571 en/advanced-use.xml:573 en/advanced-use.xml:575 en/advanced-use.xml:577 en/advanced-use.xml:579 en/advanced-use.xml:586 en/advanced-use.xml:588 en/advanced-use.xml:590 en/advanced-use.xml:592 en/advanced-use.xml:601 en/advanced-use.xml:603 en/advanced-use.xml:605 en/advanced-use.xml:607 en/advanced-use.xml:612 en/advanced-use.xml:614 en/advanced-use.xml:616 en/advanced-use.xml:618 en/advanced-use.xml:620 en/advanced-use.xml:622 en/advanced-use.xml:624 en/advanced-use.xml:626 en/advanced-use.xml:628 en/advanced-use.xml:630 en/advanced-use.xml:632 en/advanced-use.xml:634 en/advanced-use.xml:636 en/advanced-use.xml:647 en/advanced-use.xml:649 en/advanced-use.xml:651 en/advanced-use.xml:653 en/advanced-use.xml:665 en/advanced-use.xml:667 en/advanced-use.xml:669 en/advanced-use.xml:671 en/advanced-use.xml:674 en/advanced-use.xml:686 en/advanced-use.xml:688 en/advanced-use.xml:690 en/advanced-use.xml:692 en/advanced-use.xml:694 en/advanced-use.xml:697 en/advanced-use.xml:703 en/advanced-use.xml:707 en/advanced-use.xml:711 en/advanced-use.xml:714 en/advanced-use.xml:725 en/advanced-use.xml:733 en/advanced-use.xml:735 en/advanced-use.xml:751 en/advanced-use.xml:753 en/advanced-use.xml:755 en/advanced-use.xml:758 en/advanced-use.xml:767 en/advanced-use.xml:774 en/advanced-use.xml:784 en/advanced-use.xml:788 en/advanced-use.xml:790 en/advanced-use.xml:792 en/advanced-use.xml:795 en/advanced-use.xml:800 en/advanced-use.xml:805 en/advanced-use.xml:809 en/advanced-use.xml:813 en/advanced-use.xml:815 en/advanced-use.xml:817 en/advanced-use.xml:819 en/advanced-use.xml:821 en/advanced-use.xml:829 en/advanced-use.xml:831 en/advanced-use.xml:841 en/advanced-use.xml:843 en/advanced-use.xml:847 en/advanced-use.xml:849 en/advanced-use.xml:853 en/advanced-use.xml:858 en/advanced-use.xml:860 en/advanced-use.xml:863 en/advanced-use.xml:868 en/advanced-use.xml:870 en/advanced-use.xml:872 en/advanced-use.xml:878 en/advanced-use.xml:883 en/advanced-use.xml:887 en/advanced-use.xml:892 en/advanced-use.xml:896 en/advanced-use.xml:901 en/advanced-use.xml:903 en/advanced-use.xml:905 en/advanced-use.xml:907 en/advanced-use.xml:914 en/advanced-use.xml:916 en/advanced-use.xml:918 en/advanced-use.xml:922 en/advanced-use.xml:926 en/advanced-use.xml:929 en/advanced-use.xml:931 en/advanced-use.xml:936 en/advanced-use.xml:938 en/advanced-use.xml:942 en/advanced-use.xml:947 en/advanced-use.xml:949 en/advanced-use.xml:974 en/advanced-use.xml:979 en/advanced-use.xml:983 en/advanced-use.xml:990 en/advanced-use.xml:1012 en/advanced-use.xml:1014 en/advanced-use.xml:1018 en/advanced-use.xml:1022 en/advanced-use.xml:1043 en/advanced-use.xml:1047 en/intro.xml:3 en/intro.xml:7 en/intro.xml:14 en/intro.xml:18 en/intro.xml:21 en/intro.xml:23 en/intro.xml:25 en/intro.xml:27 en/intro.xml:34 en/intro.xml:36 en/intro.xml:39 en/intro.xml:42 en/intro.xml:44 en/intro.xml:49 en/intro.xml:52 en/intro.xml:54 en/intro.xml:56 en/intro.xml:60 en/intro.xml:64 en/intro.xml:66 en/intro.xml:84 en/intro.xml:86 en/intro.xml:89 en/intro.xml:91 en/intro.xml:95 en/intro.xml:99 en/intro.xml:101 en/intro.xml:103 en/install.xml:1 en/install.xml:5 en/install.xml:9 en/install.xml:17 en/install.xml:19 en/install.xml:29 en/install.xml:44 en/install.xml:46 en/install.xml:48 en/install.xml:56 en/install.xml:58 en/install.xml:60 en/install.xml:62 en/install.xml:66 en/install.xml:71 en/install.xml:75 en/install.xml:80 en/install.xml:82 en/install.xml:84 en/install.xml:88 en/install.xml:92 en/install.xml:96 en/install.xml:101 en/install.xml:103 en/install.xml:105 en/install.xml:113 en/install.xml:115 en/install.xml:117 en/install.xml:119 en/install.xml:121 en/install.xml:126 en/install.xml:136 en/install.xml:140 en/install.xml:144 en/install.xml:146 en/install.xml:162 en/install.xml:168 en/install.xml:170 en/install.xml:178 en/install.xml:183 en/install.xml:187 en/install.xml:189 en/install.xml:197 en/install.xml:203 en/install.xml:208 en/install.xml:214 en/install.xml:216 en/install.xml:218 en/install.xml:222 en/install.xml:226 en/install.xml:228 en/install.xml:230 en/install.xml:234 en/install.xml:239 en/install.xml:241 en/install.xml:245 en/install.xml:252 en/install.xml:254 en/install.xml:256 en/install.xml:258 en/http.xml:6 en/http.xml:8 en/http.xml:11 en/http.xml:20 en/http.xml:22 en/http.xml:37 en/http.xml:39 en/http.xml:46 en/http.xml:52 en/http.xml:54 en/http.xml:76 en/http.xml:82 en/http.xml:91 en/http.xml:93 en/http.xml:100 en/http.xml:104 en/http.xml:106 en/http.xml:111 en/http.xml:116 en/http.xml:121 en/http.xml:126 en/http.xml:131 en/http.xml:136 en/http.xml:145 en/http.xml:150 en/http.xml:152 en/http.xml:158 en/http.xml:160 en/http.xml:164 en/http.xml:176 en/http.xml:181 en/http.xml:186 en/http.xml:191 en/http.xml:196 en/http.xml:198 en/http.xml:200 en/http.xml:202 en/http.xml:207 en/http.xml:209 en/http.xml:213 en/http.xml:217 en/http.xml:221 en/http.xml:226 en/http.xml:231 en/http.xml:239 en/http.xml:251 en/http.xml:253 en/http.xml:257 en/http.xml:261 en/http.xml:267 en/http.xml:269 en/http.xml:274 en/http.xml:279 en/http.xml:285 en/http.xml:292 en/http.xml:299 en/http.xml:306 en/http.xml:308 en/http.xml:310 en/http.xml:315 en/http.xml:319 en/http.xml:336 en/http.xml:449 en/http.xml:460 en/http.xml:466 en/http.xml:475 en/http.xml:481 en/http.xml:486 en/http.xml:493 en/http.xml:501 en/http.xml:511 en/http.xml:515 en/http.xml:520 en/http.xml:526 en/http.xml:528 en/http.xml:535 en/http.xml:537 en/http.xml:541 en/http.xml:543 en/http.xml:547 en/http.xml:553 en/http.xml:558 en/http.xml:560 en/http.xml:564 en/http.xml:571 en/http.xml:579 en/http.xml:586 en/http.xml:588 en/http.xml:592 en/http.xml:596 en/http.xml:600 en/http.xml:604 en/http.xml:606 en/http.xml:608 en/http.xml:615 en/http.xml:622 en/http.xml:627 en/http.xml:634 en/http.xml:640 en/http.xml:645 en/http.xml:658 en/http.xml:660 en/http.xml:662 en/http.xml:666 en/http.xml:669
 #, no-wrap
 msgid "\n\n"
-msgstr ""
+msgstr "\n\n"
 
 # type: Content of: <book><bookinfo><title>
 #: en/play-howto.xml:21
 #, no-wrap
 msgid "VLC Play Howto"
-msgstr ""
+msgstr "VLC Play Howto"
 
 # type: Content of: <appendix>
 #: en/play-howto.xml:23 en/play-howto.xml:26 en/play-howto.xml:27 en/play-howto.xml:30 en/play-howto.xml:31 en/play-howto.xml:34 en/play-howto.xml:35 en/play-howto.xml:38 en/basic-use.xml:18 en/basic-use.xml:20 en/basic-use.xml:21 en/basic-use.xml:22 en/basic-use.xml:28 en/basic-use.xml:30 en/basic-use.xml:31 en/basic-use.xml:32 en/basic-use.xml:52 en/basic-use.xml:54 en/basic-use.xml:55 en/basic-use.xml:56 en/basic-use.xml:60 en/basic-use.xml:62 en/basic-use.xml:63 en/basic-use.xml:64 en/basic-use.xml:68 en/basic-use.xml:70 en/basic-use.xml:71 en/basic-use.xml:72 en/basic-use.xml:76 en/basic-use.xml:78 en/basic-use.xml:79 en/basic-use.xml:80 en/basic-use.xml:103 en/basic-use.xml:105 en/basic-use.xml:106 en/basic-use.xml:107 en/basic-use.xml:111 en/basic-use.xml:113 en/basic-use.xml:114 en/basic-use.xml:115 en/basic-use.xml:157 en/basic-use.xml:159 en/basic-use.xml:160 en/basic-use.xml:161 en/basic-use.xml:165 en/basic-use.xml:167 en/basic-use.xml:168 en/basic-use.xml:169 en/basic-use.xml:193 en/basic-use.xml:195 en/basic-use.xml:196 en/basic-use.xml:197 en/basic-use.xml:213 en/basic-use.xml:215 en/basic-use.xml:216 en/basic-use.xml:217 en/basic-use.xml:235 en/basic-use.xml:237 en/basic-use.xml:238 en/basic-use.xml:239 en/basic-use.xml:262 en/basic-use.xml:264 en/basic-use.xml:265 en/basic-use.xml:266 en/basic-use.xml:269 en/basic-use.xml:271 en/basic-use.xml:272 en/basic-use.xml:273 en/basic-use.xml:352 en/basic-use.xml:354 en/basic-use.xml:355 en/basic-use.xml:356 en/basic-use.xml:359 en/basic-use.xml:361 en/basic-use.xml:362 en/basic-use.xml:363 en/basic-use.xml:392 en/basic-use.xml:394 en/basic-use.xml:395 en/basic-use.xml:396 en/basic-use.xml:399 en/basic-use.xml:401 en/basic-use.xml:402 en/basic-use.xml:403 en/basic-use.xml:432 en/basic-use.xml:434 en/basic-use.xml:435 en/basic-use.xml:436 en/basic-use.xml:440 en/basic-use.xml:442 en/basic-use.xml:443 en/basic-use.xml:444 en/basic-use.xml:492 en/basic-use.xml:494 en/basic-use.xml:495 en/basic-use.xml:496 en/basic-use.xml:550 en/basic-use.xml:552 en/basic-use.xml:553 en/basic-use.xml:554 en/basic-use.xml:584 en/basic-use.xml:586 en/basic-use.xml:587 en/basic-use.xml:588 en/basic-use.xml:593 en/basic-use.xml:595 en/basic-use.xml:596 en/basic-use.xml:597 en/basic-use.xml:653 en/basic-use.xml:655 en/basic-use.xml:656 en/basic-use.xml:657 en/advanced-use.xml:823 en/advanced-use.xml:825 en/advanced-use.xml:826 en/advanced-use.xml:827 en/advanced-use.xml:835 en/advanced-use.xml:837 en/advanced-use.xml:838 en/advanced-use.xml:839 en/http.xml:2 en/http.xml:4 en/http.xml:5
 #, no-wrap
 msgid "\n  "
-msgstr ""
+msgstr "\n"
 
 # type: Content of: <appendix><sect1><sect2><table><tgroup><tbody><row>
 #: en/play-howto.xml:24 en/play-howto.xml:25 en/play-howto.xml:28 en/play-howto.xml:29 en/play-howto.xml:32 en/play-howto.xml:33 en/play-howto.xml:36 en/play-howto.xml:37 en/play-howto.xml:42 en/play-howto.xml:43 en/play-howto.xml:60 en/play-howto.xml:61 en/play-howto.xml:62 en/play-howto.xml:63 en/play-howto.xml:64 en/play-howto.xml:65 en/play-howto.xml:66 en/play-howto.xml:67 en/play-howto.xml:68 en/play-howto.xml:69 en/play-howto.xml:70 en/play-howto.xml:71 en/basic-use.xml:19 en/basic-use.xml:29 en/basic-use.xml:53 en/basic-use.xml:61 en/basic-use.xml:69 en/basic-use.xml:77 en/basic-use.xml:104 en/basic-use.xml:112 en/basic-use.xml:158 en/basic-use.xml:166 en/basic-use.xml:194 en/basic-use.xml:214 en/basic-use.xml:236 en/basic-use.xml:263 en/basic-use.xml:270 en/basic-use.xml:353 en/basic-use.xml:360 en/basic-use.xml:393 en/basic-use.xml:400 en/basic-use.xml:433 en/basic-use.xml:441 en/basic-use.xml:493 en/basic-use.xml:551 en/basic-use.xml:585 en/basic-use.xml:594 en/basic-use.xml:654 en/advanced-use.xml:824 en/advanced-use.xml:836 en/http.xml:427
 #, no-wrap
 msgid "\n    "
-msgstr ""
+msgstr "\n"
 
 # type: Content of: <book><bookinfo><authorgroup><author><firstname>
 #: en/play-howto.xml:25
 #, no-wrap
 msgid "Alexis"
-msgstr ""
+msgstr "Alexis"
 
 # type: Content of: <book><bookinfo><authorgroup><author><surname>
 #: en/play-howto.xml:26
 #, no-wrap
 msgid "de Lattre"
-msgstr ""
+msgstr "de Lattre"
 
 # type: Content of: <book><bookinfo><authorgroup><author><firstname>
 #: en/play-howto.xml:29
 #, no-wrap
 msgid "Anil"
-msgstr ""
+msgstr "Anil"
 
 # type: Content of: <book><bookinfo><authorgroup><author><surname>
 #: en/play-howto.xml:30
 #, no-wrap
 msgid "Daoud"
-msgstr ""
+msgstr "Daoud"
 
 # type: Content of: <book><bookinfo><authorgroup><author><firstname>
 #: en/play-howto.xml:33
 #, no-wrap
 msgid "Benjamin"
-msgstr ""
+msgstr "Benjamin"
 
 # type: Content of: <book><bookinfo><authorgroup><author><surname>
 #: en/play-howto.xml:34
 #, no-wrap
 msgid "Pracht"
-msgstr ""
+msgstr "Pracht"
 
 # type: Content of: <book><bookinfo><authorgroup><author><firstname>
 #: en/play-howto.xml:37
 #, no-wrap
 msgid "Clément"
-msgstr ""
+msgstr "Clément"
 
 # type: Content of: <book><bookinfo><authorgroup><author><surname>
 #: en/play-howto.xml:38
 #, no-wrap
 msgid "Stenac"
-msgstr ""
+msgstr "Stenac"
 
 # type: Content of: outside any tag (error?)
 #: en/play-howto.xml:39 en/play-howto.xml:46 en/play-howto.xml:72 en/play-howto.xml:96 en/basic-use.xml:1 en/basic-use.xml:23 en/basic-use.xml:33 en/basic-use.xml:42 en/basic-use.xml:57 en/basic-use.xml:65 en/basic-use.xml:73 en/basic-use.xml:81 en/basic-use.xml:84 en/basic-use.xml:85 en/basic-use.xml:93 en/basic-use.xml:96 en/basic-use.xml:99 en/basic-use.xml:108 en/basic-use.xml:116 en/basic-use.xml:119 en/basic-use.xml:120 en/basic-use.xml:125 en/basic-use.xml:129 en/basic-use.xml:134 en/basic-use.xml:142 en/basic-use.xml:149 en/basic-use.xml:162 en/basic-use.xml:170 en/basic-use.xml:173 en/basic-use.xml:174 en/basic-use.xml:198 en/basic-use.xml:204 en/basic-use.xml:210 en/basic-use.xml:218 en/basic-use.xml:221 en/basic-use.xml:230 en/basic-use.xml:240 en/basic-use.xml:267 en/basic-use.xml:268 en/basic-use.xml:274 en/basic-use.xml:357 en/basic-use.xml:358 en/basic-use.xml:364 en/basic-use.xml:397 en/basic-use.xml:398 en/basic-use.xml:404 en/basic-use.xml:419 en/basic-use.xml:420 en/basic-use.xml:421 en/basic-use.xml:422 en/basic-use.xml:423 en/basic-use.xml:437 en/basic-use.xml:445 en/basic-use.xml:476 en/basic-use.xml:477 en/basic-use.xml:478 en/basic-use.xml:479 en/basic-use.xml:480 en/basic-use.xml:481 en/basic-use.xml:483 en/basic-use.xml:497 en/basic-use.xml:508 en/basic-use.xml:510 en/basic-use.xml:555 en/basic-use.xml:589 en/basic-use.xml:598 en/basic-use.xml:658 en/basic-use.xml:688 en/basic-use.xml:689 en/advanced-use.xml:1 en/advanced-use.xml:9 en/advanced-use.xml:65 en/advanced-use.xml:66 en/advanced-use.xml:89 en/advanced-use.xml:90 en/advanced-use.xml:91 en/advanced-use.xml:102 en/advanced-use.xml:103 en/advanced-use.xml:111 en/advanced-use.xml:112 en/advanced-use.xml:113 en/advanced-use.xml:122 en/advanced-use.xml:123 en/advanced-use.xml:124 en/advanced-use.xml:125 en/advanced-use.xml:137 en/advanced-use.xml:138 en/advanced-use.xml:146 en/advanced-use.xml:147 en/advanced-use.xml:148 en/advanced-use.xml:152 en/advanced-use.xml:153 en/advanced-use.xml:164 en/advanced-use.xml:165 en/advanced-use.xml:171 en/advanced-use.xml:172 en/advanced-use.xml:175 en/advanced-use.xml:186 en/advanced-use.xml:189 en/advanced-use.xml:193 en/advanced-use.xml:196 en/advanced-use.xml:199 en/advanced-use.xml:202 en/advanced-use.xml:227 en/advanced-use.xml:230 en/advanced-use.xml:233 en/advanced-use.xml:236 en/advanced-use.xml:239 en/advanced-use.xml:243 en/advanced-use.xml:390 en/advanced-use.xml:453 en/advanced-use.xml:468 en/advanced-use.xml:469 en/advanced-use.xml:470 en/advanced-use.xml:471 en/advanced-use.xml:472 en/advanced-use.xml:473 en/advanced-use.xml:474 en/advanced-use.xml:475 en/advanced-use.xml:476 en/advanced-use.xml:480 en/advanced-use.xml:481 en/advanced-use.xml:482 en/advanced-use.xml:483 en/advanced-use.xml:484 en/advanced-use.xml:495 en/advanced-use.xml:507 en/advanced-use.xml:509 en/advanced-use.xml:524 en/advanced-use.xml:526 en/advanced-use.xml:528 en/advanced-use.xml:530 en/advanced-use.xml:532 en/advanced-use.xml:534 en/advanced-use.xml:545 en/advanced-use.xml:547 en/advanced-use.xml:549 en/advanced-use.xml:553 en/advanced-use.xml:562 en/advanced-use.xml:564 en/advanced-use.xml:581 en/advanced-use.xml:583 en/advanced-use.xml:585 en/advanced-use.xml:594 en/advanced-use.xml:597 en/advanced-use.xml:598 en/advanced-use.xml:600 en/advanced-use.xml:609 en/advanced-use.xml:611 en/advanced-use.xml:638 en/advanced-use.xml:641 en/advanced-use.xml:642 en/advanced-use.xml:644 en/advanced-use.xml:646 en/advanced-use.xml:655 en/advanced-use.xml:657 en/advanced-use.xml:659 en/advanced-use.xml:661 en/advanced-use.xml:664 en/advanced-use.xml:676 en/advanced-use.xml:678 en/advanced-use.xml:680 en/advanced-use.xml:682 en/advanced-use.xml:685 en/advanced-use.xml:696 en/advanced-use.xml:709 en/advanced-use.xml:710 en/advanced-use.xml:739 en/advanced-use.xml:741 en/advanced-use.xml:747 en/advanced-use.xml:757 en/advanced-use.xml:771 en/advanced-use.xml:772 en/advanced-use.xml:773 en/advanced-use.xml:786 en/advanced-use.xml:787 en/advanced-use.xml:828 en/advanced-use.xml:840 en/advanced-use.xml:845 en/advanced-use.xml:846 en/advanced-use.xml:851 en/advanced-use.xml:852 en/advanced-use.xml:862 en/advanced-use.xml:898 en/advanced-use.xml:899 en/advanced-use.xml:900 en/advanced-use.xml:928 en/advanced-use.xml:951 en/advanced-use.xml:952 en/advanced-use.xml:953 en/advanced-use.xml:954 en/advanced-use.xml:955 en/advanced-use.xml:956 en/advanced-use.xml:957 en/advanced-use.xml:958 en/advanced-use.xml:959 en/advanced-use.xml:960 en/advanced-use.xml:961 en/advanced-use.xml:962 en/advanced-use.xml:963 en/advanced-use.xml:964 en/advanced-use.xml:965 en/advanced-use.xml:966 en/advanced-use.xml:967 en/advanced-use.xml:968 en/advanced-use.xml:969 en/advanced-use.xml:970 en/advanced-use.xml:971 en/advanced-use.xml:972 en/advanced-use.xml:973 en/advanced-use.xml:1045 en/advanced-use.xml:1046 en/advanced-use.xml:1049 en/intro.xml:1 en/intro.xml:30 en/intro.xml:31 en/intro.xml:33 en/intro.xml:69 en/intro.xml:75 en/intro.xml:79 en/intro.xml:105 en/install.xml:34 en/install.xml:77 en/install.xml:78 en/install.xml:79 en/install.xml:98 en/install.xml:99 en/install.xml:100 en/install.xml:142 en/install.xml:143 en/install.xml:156 en/install.xml:160 en/install.xml:161 en/install.xml:193 en/install.xml:224 en/install.xml:225 en/install.xml:236 en/install.xml:238 en/install.xml:249 en/install.xml:250 en/install.xml:251 en/install.xml:260 en/http.xml:1 en/http.xml:26 en/http.xml:33 en/http.xml:58 en/http.xml:67 en/http.xml:72 en/http.xml:88 en/http.xml:108 en/http.xml:110 en/http.xml:113 en/http.xml:115 en/http.xml:118 en/http.xml:120 en/http.xml:123 en/http.xml:125 en/http.xml:128 en/http.xml:130 en/http.xml:133 en/http.xml:135 en/http.xml:138 en/http.xml:140 en/http.xml:141 en/http.xml:142 en/http.xml:144 en/http.xml:147 en/http.xml:149 en/http.xml:170 en/http.xml:178 en/http.xml:183 en/http.xml:188 en/http.xml:193 en/http.xml:241 en/http.xml:250 en/http.xml:284 en/http.xml:291 en/http.xml:298 en/http.xml:312 en/http.xml:328 en/http.xml:332 en/http.xml:333 en/http.xml:338 en/http.xml:339 en/http.xml:347 en/http.xml:348 en/http.xml:349 en/http.xml:350 en/http.xml:362 en/http.xml:363 en/http.xml:370 en/http.xml:371 en/http.xml:374 en/http.xml:375 en/http.xml:382 en/http.xml:383 en/http.xml:390 en/http.xml:391 en/http.xml:403 en/http.xml:404 en/http.xml:416 en/http.xml:417 en/http.xml:424 en/http.xml:425 en/http.xml:437 en/http.xml:438 en/http.xml:445 en/http.xml:446 en/http.xml:447 en/http.xml:448 en/http.xml:456 en/http.xml:457 en/http.xml:483 en/http.xml:503 en/http.xml:506 en/http.xml:510 en/http.xml:570 en/http.xml:573 en/http.xml:581 en/http.xml:668 en/http.xml:671
 #, no-wrap
 msgid "\n"
-msgstr ""
+msgstr "\n"
 
 # type: Content of: <book><bookinfo><copyright><year>
 #: en/play-howto.xml:43
 #, no-wrap
 msgid "2002-2004"
-msgstr ""
+msgstr "2002-2004"
 
 # type: Content of: <book><bookinfo><copyright><holder>
 #: en/play-howto.xml:44
@@ -104,7 +104,7 @@ msgstr ""
 msgid ""
 "\n     the VideoLAN project\n"
 "     "
-msgstr ""
+msgstr "\n     das VideoLAN Projekt\n"
 
 # type: Content of: <book><bookinfo><legalnotice><para>
 #: en/play-howto.xml:51
@@ -116,84 +116,91 @@ msgid ""
 "(at your option) any later version.\n"
 "The text of the license can be found in the appendix.\n"
 msgstr ""
+"Ihnen ist die Erlaubnis erteilt, dieses Dokument unter den Bedingungen\n"
+"der GNU General Public License, entweder Version 2 der Lizenz oder nach\n"
+"Ihrer Wahl jede neure, wie sie von der Free Software Foundation\n"
+"veröffentlicht wurde, zu kopieren, weiterzugeben und/oder zu verändern.\n"
+"Der Text der Lizenz findet sich im Appendix.\n"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/play-howto.xml:56 en/basic-use.xml:26 en/basic-use.xml:202 en/basic-use.xml:337 en/basic-use.xml:674 en/advanced-use.xml:714 en/advanced-use.xml:751 en/intro.xml:21 en/intro.xml:89 en/intro.xml:99 en/install.xml:178
 #, no-wrap
 msgid "."
-msgstr ""
+msgstr "."
 
 # type: Content of: <book><bookinfo><keywordset><keyword>
 #: en/play-howto.xml:62
 #, no-wrap
 msgid "VideoLAN"
-msgstr ""
+msgstr "VideoLAN"
 
 # type: Content of: <book><bookinfo><keywordset><keyword>
 #: en/play-howto.xml:63
 #, no-wrap
 msgid "Client"
-msgstr ""
+msgstr "Client"
 
 # type: Content of: <chapter><sect1><title>
 #: en/play-howto.xml:64 en/intro.xml:25
 #, no-wrap
 msgid "VLC media player"
-msgstr ""
+msgstr "VLC media player"
 
 # type: Content of: <chapter><sect1><sect2><para><emphasis>
 #: en/play-howto.xml:65 en/install.xml:152
 #, no-wrap
 msgid "vlc"
-msgstr ""
+msgstr "vlc"
 
 # type: Content of: <book><bookinfo><keywordset><keyword>
 #: en/play-howto.xml:66
 #, no-wrap
 msgid "stream"
-msgstr ""
+msgstr "Stream"
 
 # type: Content of: <book><bookinfo><keywordset><keyword>
 #: en/play-howto.xml:67
 #, no-wrap
 msgid "multicast"
-msgstr ""
+msgstr "Multicast"
 
 # type: Content of: <book><bookinfo><keywordset><keyword>
 #: en/play-howto.xml:68
 #, no-wrap
 msgid "MPEG-1"
-msgstr ""
+msgstr "MPEG-1"
 
 # type: Content of: <book><bookinfo><keywordset><keyword>
 #: en/play-howto.xml:69
 #, no-wrap
 msgid "MPEG-2"
-msgstr ""
+msgstr "MPEG-2"
 
 # type: Content of: <book><bookinfo><keywordset><keyword>
 #: en/play-howto.xml:70
 #, no-wrap
 msgid "MPEG-4"
-msgstr ""
+msgstr "MPEG-4"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/play-howto.xml:71 en/basic-use.xml:420
 #, no-wrap
 msgid "DVD"
-msgstr ""
+msgstr "DVD"
 
 # type: Content of: <book><bookinfo><keywordset><keyword>
 #: en/play-howto.xml:72
 #, no-wrap
 msgid "DivX"
-msgstr ""
+msgstr "DivX"
 
 # type: Content of: <book><bookinfo><abstract><para>
 #: en/play-howto.xml:77
 #, no-wrap
 msgid "\nThis document is the complete user guide for the client aspects of VLC.\n"
 msgstr ""
+"\nDieses Dokument ist die komplette Benutzeranleitung für die Clientaspekte "
+"von VLC.\n"
 
 # type: Content of: <appendix><sect1>
 #: en/play-howto.xml:81 en/play-howto.xml:84 en/basic-use.xml:241 en/basic-use.xml:259 en/basic-use.xml:275 en/basic-use.xml:339 en/basic-use.xml:365 en/basic-use.xml:405 en/basic-use.xml:489 en/basic-use.xml:556 en/basic-use.xml:572 en/basic-use.xml:581 en/basic-use.xml:590 en/advanced-use.xml:6 en/advanced-use.xml:203 en/advanced-use.xml:477 en/advanced-use.xml:721 en/advanced-use.xml:730 en/advanced-use.xml:764 en/install.xml:31 en/install.xml:148 en/install.xml:157 en/install.xml:175 en/install.xml:180 en/install.xml:194 en/install.xml:205 en/http.xml:16
@@ -202,6 +209,8 @@ msgid ""
 "\n\n"
 "\n"
 msgstr ""
+"\n\n"
+"\n"
 
 # type: Content of: <book>
 #: en/play-howto.xml:87
@@ -216,18 +225,26 @@ msgid ""
 "&http;\n"
 "\n"
 msgstr ""
+"\n\n"
+"&intro;\n"
+"&install;\n"
+"&basic-use;\n"
+"&advanced-user;\n"
+"&gpl;\n"
+"&http;\n"
+"\n"
 
 # type: Content of: <chapter><title>
 #: en/basic-use.xml:2
 #, no-wrap
 msgid "\nBasic use of VLC\n"
-msgstr ""
+msgstr "\nGrundlegende Benutzung von VLC\n"
 
 # type: Content of: <chapter><sect1><title>
 #: en/basic-use.xml:6
 #, no-wrap
 msgid "General interface description"
-msgstr ""
+msgstr "Allgemeine Interfacebeschreibung"
 
 # type: Content of: <chapter><sect1><para>
 #: en/basic-use.xml:8
@@ -237,12 +254,15 @@ msgid ""
 "Windows and GNU/Linux, called wxWindows, a MacOS X native interface and\n"
 "a skinnable interface for Windows and GNU/Linux."
 msgstr ""
+"VLC hat mehrere Interfaces: ein Cross-Plattform Interface für\n"
+"Windows und GNU/Linux, genannt WxWindows, ein natives Mac OS X interface\n"
+"und ein skinnbares Interface für Windows und GNU/Linux."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/basic-use.xml:12
 #, no-wrap
 msgid "Windows and GNU/Linux"
-msgstr ""
+msgstr "Windows und GNU/Linux"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:14
@@ -252,72 +272,77 @@ msgid ""
 "screenshot is done on GNU/Linux, but it would look quite the same on\n"
 "Windows."
 msgstr ""
+"Dies ist das standardmäßige Interface unter Windows und GNU/Linux (der\n"
+"Screenshot wurde unter GNU/Linux aufgenommen, aber es sollte ziemlich\n"
+"ähnlich unter Windows aussehen."
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:22 en/basic-use.xml:23
 #, no-wrap
 msgid "The wxWindows interface"
-msgstr ""
+msgstr "Das wxWindows Interface"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:26
 #, no-wrap
 msgid "This interface also features an "
-msgstr ""
+msgstr "Dieses Interface enthält auch eine"
 
 # type: Content of: <chapter><sect1><sect2><para><emphasis>
 #: en/basic-use.xml:26 en/basic-use.xml:26
 #, no-wrap
 msgid "Extended GUI"
-msgstr ""
+msgstr "erweitere GUI,"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:26
 #, no-wrap
 msgid " which contains many additional features. To display or hide it, go to the "
 msgstr ""
+" welche viele zusätzliche Features enthält. Um es anzuzeigen oder aus zu "
+"blenden, gehen Sie in das "
 
 # type: Content of: <chapter><sect1><sect2><para><emphasis>
 #: en/basic-use.xml:26
 #, no-wrap
 msgid "Settings"
-msgstr ""
+msgstr "Einstellungs"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:26
 #, no-wrap
 msgid " menu and click "
-msgstr ""
+msgstr "menu und klicken"
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:32 en/basic-use.xml:33
 #, no-wrap
 msgid "The wxWindows interface with extended GUI"
-msgstr ""
+msgstr "Das wxWindows Interface mit erweiterter GUI"
 
 # type: Content of: <chapter><sect1><title>
 #: en/basic-use.xml:40
 #, no-wrap
 msgid "Simple play"
-msgstr ""
+msgstr "Einfache Wiedergabe"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/basic-use.xml:42
 #, no-wrap
 msgid "Play a file"
-msgstr ""
+msgstr "Eine Datei wiedergeben"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:43
 #, no-wrap
 msgid "To open a file, open the "
-msgstr ""
+msgstr "Um eine Datei zu öffnen, öffnen Sie das"
 
 # type: Content of: <chapter><sect1><sect2><para><emphasis>
 #: en/basic-use.xml:43 en/basic-use.xml:87 en/basic-use.xml:287
 #, no-wrap
 msgid "File"
-msgstr ""
+msgstr "Datei"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:43
@@ -326,12 +351,14 @@ msgid ""
 " menu, and select \n"
 "the "
 msgstr ""
+"menu und wählen Sie \n"
+"das "
 
 # type: Content of: <chapter><sect1><sect2><para><emphasis>
 #: en/basic-use.xml:44
 #, no-wrap
 msgid "Quick Open File"
-msgstr ""
+msgstr "\"Schnelles Datei öffnen\""
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:44
@@ -341,6 +368,10 @@ msgid ""
 "box will appear. Select the file you want to open, \n"
 "and select Open. VLC will start playing the selected file. \n"
 msgstr ""
+"Menüobject. Ein Datei-öffnen-Dialog\n"
+"wird erscheinen. Wählen Sie die Datei, die Sie öffnen möchten,\n"
+"und wählen Sie Öffnen. VLC wird mit der Wiedergabe der ausgewählten "
+"Datei beginnen.\n"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:49
@@ -349,42 +380,45 @@ msgid ""
 "An alternative is to Drag'n'Drop your file on the VLC main interface or \n"
 "playlist window from the file explorer (Finder on MacOS X)."
 msgstr ""
+"Eine Alternative ist die Datei per Drag'n'Drop aus dem Explorer \n"
+"(Finder unter Mac OS X) auf VLCs Hauptinterface oder das "
+"Wiedergabelistenfenster zu ziehen."
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:56 en/basic-use.xml:57
 #, no-wrap
 msgid "The File menu - wxWindows interface"
-msgstr ""
+msgstr "Das Dateimenü - wxWindows interface"
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:64 en/basic-use.xml:65
 #, no-wrap
 msgid "The File menu - MacOS X interface"
-msgstr ""
+msgstr "Das Ablagemenü - Mac OS X Interface"
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:72 en/basic-use.xml:73
 #, no-wrap
 msgid "The Open file dialog - wxWindows interface"
-msgstr ""
+msgstr "Der Datei-öffnen-Dialog - wxWindows Interface"
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:80 en/basic-use.xml:81
 #, no-wrap
 msgid "The Open file dialog - MacOS X interface"
-msgstr ""
+msgstr "Der Datei-Öffnen-Dialog - Mac OS X Interface"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/basic-use.xml:85
 #, no-wrap
 msgid "Play a CD/DVD/VCD"
-msgstr ""
+msgstr "Eine CD/DVD/VCD wiedergeben"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:86
 #, no-wrap
 msgid "\nTo Play a CD, VCD or a DVD, open the "
-msgstr ""
+msgstr "\nUm eine CD, VCD oder eine DVD wiederzugeben, öffnen Sie das"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:87
@@ -393,12 +427,14 @@ msgid ""
 " menu, and \n"
 "select the "
 msgstr ""
+"Menü und \n"
+"wählen Sie das"
 
 # type: Content of: <chapter><sect1><sect2><para><emphasis>
 #: en/basic-use.xml:88
 #, no-wrap
 msgid "Open Disc..."
-msgstr ""
+msgstr "Disk öffnen..."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:88
@@ -409,12 +445,15 @@ msgid ""
 "DVD,\n"
 " you can enable DVD menus by selecting the "
 msgstr ""
+"Menüobjekt aus. In der Disk-Öffnen-\n"
+"Dialogbox wählen Sie den Medientyp (DVD, VCD oder Audio CD) aus. Wenn eine "
+"DVD gelesen werden soll, können Sie DVD-Menü aktivieren, indem Sie"
 
 # type: Content of: <chapter><sect1><sect2><para><emphasis>
 #: en/basic-use.xml:90
 #, no-wrap
 msgid "DVD (menus)"
-msgstr ""
+msgstr "DVD (Menus) auswählen"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:90
@@ -424,6 +463,9 @@ msgid ""
 "Disc type in the wxWindows Interface. In the MacOS X interface, \n"
 "this can be done by selecting the \"Use DVD menus\" dialog box.\n"
 msgstr ""
+"\n"
+"Disk-Typ im wxWindows Interface. Im Mac OS X interface kann dies \n"
+"über Auswählen der \"DVD-Menüs benutzen\" Option geschehen.\n"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:94
@@ -434,6 +476,10 @@ msgid ""
 "input. \n"
 "This should be autodetected on MacOS X."
 msgstr ""
+"Sie können das Laufwerk, von dem das Medium gelesen werden sollen auswählen,\n"
+"indem Sie den entsprechenden Laufwerksbuchstaben oder Gerätenamen in das "
+"\"Gerätename\"-Textfeld eingeben.\n"
+"Dies sollte unter Mac OS X automatisch festgestellt werden."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:97
@@ -442,42 +488,44 @@ msgid ""
 "If you want to start the DVD or VCD playback from a given title and \n"
 "chapter instead of from the beginning, you can set it using the "
 msgstr ""
+"Wenn Sie die DVD oder VCD Wiedergabe von einem bestimmten Titel oder \n"
+"Kapitel anstatt am Anfang starten möchten, können Sie es durch die"
 
 # type: Content of: <chapter><sect1><sect2><para><emphasis>
 #: en/basic-use.xml:98
 #, no-wrap
 msgid "Title\n"
-msgstr ""
+msgstr "Titel\n"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:99
 #, no-wrap
 msgid " and "
-msgstr ""
+msgstr " und "
 
 # type: Content of: <chapter><sect1><sect2><para><emphasis>
 #: en/basic-use.xml:99
 #, no-wrap
 msgid "Chapter"
-msgstr ""
+msgstr "Kapitel"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:99
 #, no-wrap
 msgid " selectors."
-msgstr ""
+msgstr " Auswahlfelder festlegen."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:100 en/basic-use.xml:148
 #, no-wrap
 msgid "You can start playback by selecting the "
-msgstr ""
+msgstr "Sie können die Wiedergabe starten, indem Sie auf den"
 
 # type: Content of: <chapter><sect1><sect2><para><emphasis>
 #: en/basic-use.xml:100 en/basic-use.xml:148 en/basic-use.xml:188
 #, no-wrap
 msgid "Ok"
-msgstr ""
+msgstr "OK"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/basic-use.xml:100
@@ -486,6 +534,8 @@ msgid ""
 " \n"
 "button."
 msgstr ""
+"\n"
+"Button klicken."
 
 # type: Content of: <chapter><sect1><sect2>
 #: en/basic-use.xml:101 en/advanced-use.xml:833
@@ -494,18 +544,20 @@ msgid ""
 " \n"
 "\n"
 msgstr ""
+" \n"
+"\n"
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:107 en/basic-use.xml:108
 #, no-wrap
 msgid "The Open disk dialog - wxWindows interface"
-msgstr ""
+msgstr "Der Disk-Öffnen-Dialog - wxWindows Interface"
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:115 en/basic-use.xml:116
 #, no-wrap
 msgid "The Open disk dialog - MacOS X interface"
-msgstr ""
+msgstr "Der Volume-Öffnen-Dialog - Mac OS X Interface"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/basic-use.xml:120
@@ -6741,3 +6793,4 @@ msgid ""
 "For more details, have a look at the share/http\n"
 "directory of the VLC source tree...\n"
 msgstr ""
+

@@ -3,16 +3,17 @@
 <chapter id="other"><title id="tother">
 <span xml:lang="en">Other interfaces</span>
 <span xml:lang="fr">Les autres interfaces</span>
+<span xml:lang="de">Die anderen Oberflächen</span>
 </title>
 
 <para>
 <span xml:lang="en">To select an interface: if you want it to be
 your main interface, either start VLC from the command line with
 <emphasis>--intf Myinterface</emphasis>, or use the Preferences
-Panel to set the <emphasis>Interface Module</emphasis> option.. For
+Panel to set the <emphasis>Interface Module</emphasis> option. For
 Graphical User Interfaces, you might also have shortcuts created by
 the install program. If you want the interface to be an additionnal
-one, use the preferences window of you GUI to set the <emphasis>extra
+one, use the preferences window of your GUI to set the <emphasis>extra
 interface modules</emphasis> option. Alternatively, you can use the
 <emphasis>--extraintf</emphasis> command line option.</span>
 <span xml:lang="fr">Pour sélectionner une interface: si vous voulez
@@ -26,12 +27,25 @@ fenêtre de préférences de votre interface graphique pour régler l'option
 <emphasis>Modules d'interface supplémentaires</emphasis>. Vous pouvez
 également utiliser l'option <emphasis>--extraintf</emphasis> de la ligne
 de commande.</span>
+<span xml:lang="de">Eine Oberfläche auswählen: Wenn Sie sie zur
+Hauptoberfläche machen möchten, starten Sie VLC entweder über die
+Befehlszeile mit <emphasis>--intf MeineOberfläche</emphasis> oder
+benutzen Sie das Einstellungsfenster, um die 
+<emphasis>Oberflächen-Modul</emphasis>-Option einzustellen. Für
+graphische Oberflächen haben Sie eventuell bereits Verknüpfungen bzw.
+Aliase, die vom Installationsprogramm erzeugt wurden. Wenn Sie die
+Oberfläche als zusätzliche zu einer anderen benutzen möchten, nutzen
+Sie Ihr Einstellungsfenster zur Festlegung der
+<emphasis>Extra Oberflächen-Module</emphasis> -Option. Alternativ
+dazu können Sie die <emphasis>--extraintf</emphasis>-Befehlszeilenoption
+benutzen.</span>
 </para>
 
 
 <sect1><title>
 <span xml:lang="en">Graphical user interfaces</span>
 <span xml:lang="fr">Interfaces graphiques</span>
+<span xml:lang="de">Graphische Oberfläche</span>
 </title>
 
 <para>
@@ -39,6 +53,8 @@ de commande.</span>
 (GUI), according to your operating system</span>
 <span xml:lang="fr">VLC inclut plusieurs interfaces graphiques selon
 votre système d'exploitation</span>
+<span xml:lang="de">VLC enthält mehrere graphische Oberflächen entsprechend
+Ihres Betriebssystems</span>
 </para>
 
 <itemizedlist>
@@ -52,6 +68,9 @@ menu</span>
 <span xml:lang="fr">Il existe deux interfaces graphiques différentes
 pour Windows. Des raccourcis sont créés pour les deux dans le menu
 Démarrer</span>
+<span xml:lang="de">Es gibt zwei unterschiedliche graphische Oberflächen
+für Windows. Es sind Verknüpfungen für beide im Startmenü erzeugt
+worden</span>
 .</para>
 
 <para><emphasis>wxWindows</emphasis></para>
@@ -62,6 +81,8 @@ is currently the most complete and fully-featured interface</span>
 <span xml:lang="fr">Cette interface fonctionne à la fois sous Linux et
 Windows. Il s'agit actuellement de l'interface la plus complète et 
 qui possède le plus de fonctionnalités</span>
+<span xml:lang="de">Diese Oberfläche läuft unter Linux und Windows. Sie
+ist derzeit die kompletteste, funktionsreichste Oberfläche</span>
 .</para>
 
 <para><emphasis>Skins</emphasis></para>
@@ -73,6 +94,9 @@ VLC. This is still under development.</span>
 <span xml:lang="fr"> Cette interface fonctionne également à la fois
 pour Linux et Windows. Elle permet de fortement modifier l'aspect et le
 comportement de votre VLC. Elle est toujours de développement.</span>
+<span xml:lang="de"> Diese Oberfläche läuft auch unter Linux und Windows.
+Sie erlaubt drastische Änderungen des Look-and-Feels Ihres VLCs. Sie ist noch
+in Entwicklung.</span>
 </para>
 
 </listitem>
@@ -83,11 +107,14 @@ comportement de votre VLC. Elle est toujours de développement.</span>
 <span xml:lang="en">Many graphical user interfaces are available for
 GNU/Linux (GTK+, Gnome, QT, KDE), but only two of them are currently
 maintained: the wxWindows and the Skins interface. You should probably
-use one of these</span>
+use one of these.</span>
 <span xml:lang="fr">Il existe plusieurs interfaces graphiques pour
 GNU/Linux (GTK+, Gnome, QT, KDE), mais seulement deux sont actuellement
 maintenues: wxWindows et les Skins. Vous devriez probablement utiliser
 une de ces deux-là.</span>
+<span xml:lang="de">Viele graphische Oberfläche sind für GNU/Linux verfügbar
+(GTK+, Gnome, QT, KDE), aber nur zwei von ihnen werden derzeit gewartet:
+wxWindows und die Skins-Oberfläche. Sie sollten eine von diesen benutzen.</span>
 </para>
 
 </listitem>
@@ -95,9 +122,11 @@ une de ces deux-là.</span>
 <listitem><para><emphasis>Mac OS X</emphasis></para>
 
 <para>
-<span xml:lang="en">Only one native GUI exists for this O.S</span>
+<span xml:lang="en">Only one native GUI exists for this OS</span>
 <span xml:lang="fr">Il n'existe qu'une seule interface, native, pour ce
 système</span>
+<span xml:lang="de">Es existiert nur eine native Oberfläche für dieses
+System</span>
 .</para>
 
 </listitem>
@@ -107,13 +136,16 @@ système</span>
 <sect1><title>
 <span xml:lang="en">Control Interfaces</span>
 <span xml:lang="fr">Interfaces de contrôle</span>
+<span xml:lang="de">Kontrolloberflächen</span>
 </title>
 
 <para>
-<span xml:lang="en">Control interfaces are here to provide alternatative
+<span xml:lang="en">Control interfaces are here to provide alternative
 ways to control your VLC.</span>
 <span xml:lang="fr">Les interfaces de contrôle vous permettent de
 prendre le contrôle de votre VLC de plusieurs façons différentes.</span>
+<span xml:lang="de">Kontrolloberflächen erlauben Ihnen, andere Wege zur
+Kontrolle von VLC zu benutzen.</span>
 </para>
 
 <sect2><title>http</title>
@@ -124,6 +156,8 @@ chapter. It allows to remotely or locally control VLC through a
 webpage</span>
 <span xml:lang="fr">Cette interface a fait l'objet du chapitre
 précédent. Elle permet de contrôler VLC à l'aide d'une page web</span>
+<span xml:lang="de">Diese Oberfläche wurde im vorherigen Kapitel besprochen.
+Sie erlaubt die entfernte oder lokale Kontrolle von VLC über eine Webseite</span> 
 .</para>
 
 </sect2>
@@ -140,6 +174,10 @@ de la souris dans la fenêtre de sortie vidéo. Le bouton à utiliser par
 défaut est celui de droite. Les mouvements disponibles sont : à gauche
 (précédent), à droite (suivant), en haut à droite (plein écran), en bas
 à droite (stop).</span>
+<span xml:lang="de">Dies erlaubt Ihnen VLC über Mausgesten im
+Bildausgabefenster zu steuern. Standardmäßig wird es über Rechtsklicken
+und Machen der Gesten benutzt. Gesten sind: links (Vorheriges),
+rechts (nächstes), nach oben-rechts (Vollbild), nach unten-rechts (Stopp).</span>
 </para>
 
 </sect2>
@@ -150,6 +188,7 @@ défaut est celui de droite. Les mouvements disponibles sont : à gauche
 <span xml:lang="en">This allows you to control VLC using CORBA</span>
 <span xml:lang="fr">Cette interface vous permet de contrôler VLC en utilisant
 CORBA</span>
+<span xml:lang="de">Dies erlaubt Ihnen VLC über CORBA zu kontrollieren</span>
 .</para>
 
 </sect2>
@@ -161,6 +200,8 @@ CORBA</span>
 its terminal window.</span>
 <span xml:lang="fr">Cette interface vous permet de contrôler VLC par des
 commandes tapées dans sa fenêtre de terminal.</span>
+<span xml:lang="de">Dies erlaubt Ihnen VLC über die Eingabe von Befehlen in dessen
+Terminalfenster zu steuern.</span>
 </para>
 </sect2>
 
@@ -171,6 +212,8 @@ commandes tapées dans sa fenêtre de terminal.</span>
 through an infrared remote control.</span>
 <span xml:lang="fr">Sous GNU/Linux, cette interface vous permet de
 contrôler VLC à l'aide d'une télécommande infrarouge.</span>
+<span xml:lang="de">Unter GNU/Linux erlaubt Ihnen dies VLC über eine
+Intrarotfernbedienung zu steuern.</span>
 </para>
 </sect2>
 
@@ -181,6 +224,8 @@ contrôler VLC à l'aide d'une télécommande infrarouge.</span>
 using a joystick</span>
 <span xml:lang="fr">Sous GNU/Linux, cette interface vous permet de
 contrôler VLC à l'aide d'un joystick</span>
+<span xml:lang="de">Unter GNU/Linux erlaubt Ihnen dies VLC mit einem
+Joystick zu kontrollieren</span>
 .</para>
 
 </sect2>

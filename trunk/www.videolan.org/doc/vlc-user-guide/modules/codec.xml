@@ -2,13 +2,17 @@
 
 <sect1><title>
 <span xml:lang="en">Codec modules</span>
-<span xml:lang="fr">Décodeurs</span></title>
+<span xml:lang="fr">Décodeurs</span>
+<span xml:lang="de">Dekoder</span>
+</title>
 
 <para>
 <span xml:lang="en">The following modules add codec (ie, compression
 formats) support</span>
 <span xml:lang="fr">Ces modules permettent à VLC de supporter de
 nombreux codecs (formats de compression)</span>
+<span xml:lang="de">Die folgenden Module erlauben VLC diverse Codecs
+(d.h. Kompressionsformate) zu unterstützen</span>
 .</para>
 
 <sect2><title>a52</title>
@@ -18,6 +22,8 @@ nombreux codecs (formats de compression)</span>
 url="http://liba52.sourceforge.net/">liba52 web site</ulink></span>
 <span xml:lang="fr">Ce décodeur utilise liba52 (voir le <ulink
 url="http://liba52.sourceforge.net/">site liba52</ulink></span>
+<span xml:lang="de">Dieser Dekoder benutzt liba52 (siehe <ulink
+url="http://liba52.sourceforge.net/">liba52 Website</ulink></span>
 ).</para></sect2>
 
 <sect2><title>cinepak</title>
@@ -25,6 +31,7 @@ url="http://liba52.sourceforge.net/">site liba52</ulink></span>
 <para>
 <span xml:lang="en">This codec decodes the Cinepak format</span>
 <span xml:lang="fr">Ce décodeur lit le format Cinepak</span>
+<span xml:lang="de">Dieser Codec dekodiert das Cinepakformat</span>
 .</para></sect2>
 
 <sect2><title>faad</title>
@@ -32,16 +39,18 @@ url="http://liba52.sourceforge.net/">site liba52</ulink></span>
 <para>
 <span xml:lang="en">Faad is an MPEG-4 audio decoder</span>
 <span xml:lang="fr">Faas est un décodeur audio MPEG-4</span>
+<span xml:lang="de">Faad ist ein MPEG-4 Tondekoder</span>
 .</para></sect2>
 
 <sect2><title>ffmpeg</title>
 &enabled;
 <para>
-<span xml:lang="en">This is a free MPEG-4/DivX/OpenDivX/Xvid codec : ffmpeg
-(see the <ulink url="http://ffmpeg.sourceforge.net/">ffmpeg web
-site</ulink>)</span>
+<span xml:lang="en">This is a free MPEG-4/DivX/OpenDivX/Xvid codec (see the
+<ulink url="http://ffmpeg.sourceforge.net/">ffmpeg web site</ulink>)</span>
 <span xml:lang="fr">Ceci est un décodeur MPEG-4/DivX/OpenDivX/Xvid (voir le
 <ulink url="http://ffmpeg.sourceforge.net/"> site ffmpeg</ulink>)</span>
+<span xml:lang="de">Dies ist ein freier MPEG-4/DivX/OpenDivX/Xvid Codec (siehe
+<ulink url="http://ffmpeg.sourceforge.net/">ffmpeg Website</ulink>)</span>
 .</para>
 &options-st;
 <itemizedlist>
@@ -49,32 +58,44 @@ site</ulink>)</span>
 <para><emphasis>--ffmpeg-dr, --no-ffmpeg-dr </emphasis>:
 <span xml:lang="en">Enables or disables direct rendering (default enabled)</span>
 <span xml:lang="fr">Active ou désactive le rendu direct (activé par défaut)</span>
+<span xml:lang="de">Aktiviert oder deaktiviert direktes Rendering (standardmäßig aktiviert)</span>
 </para></listitem>
 <listitem><para><emphasis>--ffmpeg-error-resilience </emphasis>:
 <span xml:lang="en">Integer to set the error resilience factor, from -1 to 99 
 (-1 means no resilience at all)</span>
 <span xml:lang="fr">Un entier qui permet de régler le niveau de résistance aux 
 erreurs sur les flux, entre -1 et 99 (-1 désactive toute correction d'erreur)</span>
+<span xml:lang="de">Ganzzahl zur Einstellung des Fehlerwiderstandsniveau von -1 bis 99
+(-1 deaktiviert die Fehlerkorrektur komplett)</span>
 </para></listitem>
 <listitem><para><emphasis>--ffmpeg-workaround-bugs </emphasis>:
 <span xml:lang="en">Try to fix some bugs. Add the values corresponding to the bugs you want to fix, and pass it as argument: 1 = autodetect, 2 = old msmpeg4, 4 = xvid interlaces, 8 = ump4, 16 = no padding, 32 = ac vlc, 64 = Qpel chroma</span>
 <span xml:lang="fr">Règle quelques problèmes. Ajoutez les valeurs correspondants aux problèmes à régler, et entrez ceci comme argument:  1 = autodetect, 2 = old msmpeg4, 4 = xvid interlaces, 8 = ump4, 16 = no padding, 32 = ac vlc, 64 = Qpel chroma.</span>
+<span xml:lang="de">Versucht einige Fehler zu umgehen. Fügen Sie die Werte entsprechend der Fehler, die
+Sie beheben möchten hinzu und übergeben Sie sie als Argument: 1 = autodetect, 2 = old msmpeg4, 4 = xvid interlaces, 8 = ump4, 16 = no padding, 32 = ac vlc, 64 = Qpel chroma</span>
 </para></listitem>
 <listitem><para><emphasis>--ffmpeg-hurry-up, --no-ffmpeg-hurry-up </emphasis>:
 <span xml:lang="en">Allow the decoder to decode only partially or even to skip frames, if it is late. This can be useful with low end computers, but produces weird pictures.</span>
 <span xml:lang="fr">Activer cette option permet au décodeur de ne décoder que partiellement, voir pas du tout, certaines images, s'il est en retard. Ceci est utile sur les machines peu puissantes, mais produit des images de mauvaise qualité.</span>
+<span xml:lang="de">Erlaubt dem Dekoder Frames nur teilweise oder gar nicht zu dekodieren, wenn er in
+Verzug gerät. Dies kann auf langsameren Rechnern nützlich sein, wird aber eine schlechtere Bildqualität zur
+Folge haben.</span>
 </para></listitem>
 <listitem><para><emphasis>--ffmpeg-truncated </emphasis>:
 <span xml:lang="en">Truncates the stream : -1=auto, 0=disabled, 1=enabled</span>
 <span xml:lang="fr">Tronquer le flux:  -1=auto, 0=désactivé, 1=activé</span>
+<span xml:lang="de">Kürzt den Stream:  -1=automatisch, 0=deaktiviert, 1=aktiviert</span>
 </para></listitem>
 <listitem><para><emphasis>--ffmpeg-pp-q </emphasis>:
 <span xml:lang="en">Postprocessing quality (integer between 0 and 6). A higher level requires more CPU power and will produce better pictures.</span>
 <span xml:lang="fr">Qualité du post-traitement (entier entre 0 et 6). Un nombre plus élevé demande plus de puissance, mais produira un meilleur flux.</span>
+<span xml:lang="de">Nachbearbeitungsqualität (Ganzzahl zwischen 0 und 6). Ein höheres Niveau benötigt
+mehr Prozessorleistung und produziert bessere Bilder.</span>
 </para></listitem>
 <listitem><para><emphasis>--ffmpeg-pp-name </emphasis>:
 <span xml:lang="en">Series of postprocessing filters</span>
 <span xml:lang="fr">Série de filtre de postraitement</span>
+<span xml:lang="de">Reihe der Nachbearbeitungsfilter</span>
 </para></listitem>
 
 </itemizedlist>
@@ -85,6 +106,7 @@ erreurs sur les flux, entre -1 et 99 (-1 désactive toute correction d'erreur)</s
 <para>
 <span xml:lang="en">This codec allows to read MPEG2 files</span>
 <span xml:lang="fr">Ceci permet de lire les fichiers MPEG2</span>
+<span xml:lang="de">Dieser Codec erlaubt MPEG2-Dateien zu lesen</span>
 .</para></sect2>
 
 <sect2><title>mad</title>
@@ -95,6 +117,9 @@ uses integers. This allows its use for CPU which don't handle floating
 point numbers (on PDA, for example)</span>
 <span xml:lang="fr">Ce décodeur décode les MP3 en n'utilisant que des
 nombres entiers, ce qui permet de l'utiliser sur les PDAs</span>
+<span xml:lang="de">Dieser Codec ist ein sehr eleganter MP3-Dekoder, der nur
+Ganzzahl benutzt. Dies erlaubt die Benutzung auf Prozessoren, die keine
+Fließkommaunterstützung haben, wie beispielsweise auf PDAs</span>
 .</para>
 </sect2>
 
@@ -103,25 +128,39 @@ nombres entiers, ce qui permet de l'utiliser sur les PDAs</span>
 <para>
 <span xml:lang="en">OGT handles the SVCD subtitles (Philips Overlay
 Graphics Text or OGT) and subtitles used by Chaoji VCDs (also known as
-CVD).</span></para>
+CVD)</span>
+<span xml:lang="de">OGT verarbeitet die SVCD-Untertitel (Philips Overlay
+Graphics Text oder OGT) und Untertitel von Chaoji VCDs (auch als CVD
+bekannt)</span>
+.</para>
 
-<para><span xml:lang="en">A description of the format for these kinds
+<para>
+<span xml:lang="en">A description of the format for these kinds
 of subtitles can be found in the vlc source
 in <filename>doc/subtitles/svcd-subtitles.txt</filename> and
-<filename>doc/subtitles/cvd-subtitles.txt</filename>.
-</span></para></sect2>
+<filename>doc/subtitles/cvd-subtitles.txt</filename></span>
+<span xml:lang="de">Eine Formatbeschreibung dieser beiden Arten von
+Untertiteln kann im VLC-Quellcode in den Dateien
+<filename>doc/subtitles/svcd-subtitles.txt</filename> und
+<filename>doc/subtitles/cvd-subtitles.txt</filename> gefunden
+werden</span>
+.</para></sect2>
 
 <sect2><title>spudec</title>
 &enabled;
 <para>
 <span xml:lang="en">spudec handles the DVD subtitles. At present
-full color subtitles and transparency are not handled.</span>
-</para>
+full color subtitles and transparency are not handled</span>
+<span xml:lang="de">spudec verarbeitet die DVD-Untertitel. Derzeit werden
+farbige Untertitel und Transparenzen nicht verarbeitet</span>
+.</para>
 
 <para>
 <span xml:lang="en">For a description of the format for these kinds of
 subtitles see
-<ulink url="http://sam.zoy.org/writings/dvd/subtitles">http://sam.zoy.org/writings/dvd/subtitles</ulink></span></para>
+<ulink url="http://sam.zoy.org/writings/dvd/subtitles">http://sam.zoy.org/writings/dvd/subtitles</ulink></span>
+<span xml:lang="de">Siehe für eine Beschreibung derartiger Formate: <ulink url="http://sam.zoy.org/writings/dvd/subtitles">http://sam.zoy.org/writings/dvd/subtitles</ulink></span>
+.</para>
 </sect2>
 
 <sect2><title>tarkin</title>
@@ -132,6 +171,8 @@ Project (see the <ulink url="http://www.vorbis.com">Ogg Vorbis web
 site</ulink>)</span>
 <span xml:lang="fr">tarkin est décodeur expréimental du projet Ogg (voir
 <ulink url="http://www.vorbis.com">le site Ogg/Vorbis</ulink>)</span>
+<span xml:lang="de">tarkin ist ein neuer, expermenteller Codec des Ogg Projekts
+(siehe <ulink url="http://www.vorbis.com">Ogg Vorbis Website</ulink>)</span>
 .</para></sect2>
 
 <sect2><title>theora</title>
@@ -142,6 +183,8 @@ Project (see the <ulink url="http://www.vorbis.com">Ogg Vorbis web
 site</ulink>)</span>
 <span xml:lang="fr">theora est décodeur expréimental du projet Ogg (voir
 <ulink url="http://www.vorbis.com">le site Ogg/Vorbis</ulink>)</span>
+<span xml:lang="de">theora ist ein neuer, experimenteller Codec des Ogg Projekts
+(siehe <ulink url="http://www.vorbis.com">Ogg Vorbis Website</ulink>)</span>
 .</para></sect2>
 
 <sect2><title>tremor</title>
@@ -150,11 +193,14 @@ site</ulink>)</span>
 <span xml:lang="en">This is an Ogg/Vorbis codec that only makes
 integer calculus, which allow its use on CPU which don't have floating
 point support (see the <ulink url="http://www.vorbis.com">Ogg Vorbis
-web</ulink></span>
+web site</ulink>)</span>
 <span xml:lang="fr">Ce codec Ogg/Vorbis ne fait que des calculs entiers,
 ce qui permet de l'utiliser sur des CPUs qui ne supportent pas la
 virgule flottante (voir le <ulink url="http://www.vorbis.com">le site
 Ogg/Vorbis</ulink>)</span>
+<span xml:lang="de">Dieser ist ein Ogg/Vorbis Codec, der nur Ganzzahlberechnungen
+macht. Dies erlaubt die Benutzung auf Prozessoren ohne Fließkommazahlunterstützung
+(siehe <ulink url="http://www.vorbis.com">Ogg Vorbis Website</ulink>)</span>
 .</para></sect2>
 
 <sect2><title>vorbis</title>
@@ -164,6 +210,8 @@ Ogg/Vorbis</ulink>)</span>
 encoded files</span>
 <span xml:lang="fr">Ce décodeur vous permet de lire les fichiers audio
 encodés en Vorbis</span>
+<span xml:lang="de">Dieser Codec erlaubt Ihnen mit Vorbis kodierte Tondateien zu
+lesen</span>
 .</para></sect2>
 
 <sect2><title>xvid</title>
@@ -173,5 +221,7 @@ encodés en Vorbis</span>
 with Xvid via the xvidcore library (see <ulink url="http://www.xvid.org/">Xvid web site</ulink>)</span>
 <span xml:lang="fr">Ce décodeur vous permet de décoder les fichiers Xvid grâce à la librairie xvidcore.
 (voir le <ulink url="http://www.xvid.org/">site Xvid</ulink>)</span>
+<span xml:lang="de">Dieser Codec erlaubt Ihnen mit Xvid über die xvidcore-Bibliothek
+kodierte Dateien zu lesen (siehe <ulink url="http://www.xvid.org/">Xvid Website</ulink>)</span>
 .</para></sect2> 
 </sect1>

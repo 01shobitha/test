@@ -23,6 +23,7 @@ echo "<?xml version=\"1.0\" encoding=\"iso-8859-1\" ?>\n";
      Familiar Linux, iPAQ, multicast, IPv6" />
    <meta name="Description" content="<? echo $title; ?>" />
    <title><? echo $title; ?></title>
+   <link rel="alternate" type="application/rss+xml" title="RSS - News" href="/videolan-news.rss" />
    <link rel="stylesheet" type="text/css" href="/main.css" />
    <link rel="shortcut icon" type="image/x-icon"
          href="/images/icons/favicon.ico" />

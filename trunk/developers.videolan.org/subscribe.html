@@ -60,6 +60,9 @@
             if( $managerdevel != "" ) {
                 $message.= $prefix."subscribe manager-devel $from\n"; $valid = 1;
             }
+            if( $wwwdoc != "" ) {
+                $message.= $prefix."subscribe www-doc $from\n"; $valid = 1;
+            }
             if( !$valid ) {
                 $error = "no mailing-list specified";
             }

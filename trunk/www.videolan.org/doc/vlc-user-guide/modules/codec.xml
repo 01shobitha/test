@@ -144,7 +144,16 @@ Untertiteln kann im VLC-Quellcode in den Dateien
 <filename>doc/subtitles/svcd-subtitles.txt</filename> und
 <filename>doc/subtitles/cvd-subtitles.txt</filename> gefunden
 werden</span>
-.</para></sect2>
+.</para>
+<para>
+<span xml:lang="en">Use the option
+<filename>--spu-channel</filename> <emphasis>number</emphasis>
+to select a subtitle track to show. The number
+should be -1, 0, 1, 2, or 3. The CVD and SVCD subtitle formats
+allow for 4 subtitles. The value -1 deselect any subtitles
+</span>
+   .</para>
+</sect2>
 
 <sect2><title>spudec</title>
 &enabled;

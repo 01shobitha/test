@@ -56,14 +56,14 @@ RewriteRule ^freedvd.html$ /removed/freedvd.html [R=permanent,L]
 #
 # Redirects for doc
 #
-Redirect permanent /doc/videolan-howto/videolan-howto-en.html http://www.videolan.org/doc/videolan-howto/videolan-howto-en/index.html
-Redirect permanent /doc/videolan-quickstart/videolan-quickstart-en.html http://www.videolan.org/doc/videolan-quickstart/videolan-quickstart-en/index.html
-Redirect permanent /doc/vlc-user-guide/vlc-user-guide-en.html http://www.videolan.org/doc/vlc-user-guide/vlc-user-guide-en/index.html
-Redirect permanent /doc/vls-user-guide/vls-user-guide-en.html http://www.videolan.org/doc/vls-user-guide/vls-user-guide-en/index.html
-Redirect permanent /doc/videolan-howto/index.html http://www.videolan.org/doc/videolan-howto/videolan-howto-en/index.html
-Redirect permanent /doc/videolan-quickstart/index.html http://www.videolan.org/doc/videolan-quickstart/videolan-quickstart-en/index.html
-Redirect permanent /doc/vlc-user-guide/index.html http://www.videolan.org/doc/vlc-user-guide/vlc-user-guide-en/index.html
-Redirect permanent /doc/vls-user-guide/index.html http://www.videolan.org/doc/vls-user-guide/vls-user-guide-en/index.html
+Redirect permanent /doc/videolan-howto/videolan-howto-en.html http://www.videolan.org/doc/videolan-howto/en/videolan-howto-en.html
+Redirect permanent /doc/videolan-quickstart/videolan-quickstart-en.html http://www.videolan.org/doc/videolan-quickstart/en/videolan-quickstart-en.html
+Redirect permanent /doc/vlc-user-guide/vlc-user-guide-en.html http://www.videolan.org/doc/vlc-user-guide/en/vlc-user-guide-en.html
+Redirect permanent /doc/vls-user-guide/vls-user-guide-en.html http://www.videolan.org/doc/vls-user-guide/en/vls-user-guide-en.html
+Redirect permanent /doc/videolan-howto/index.html http://www.videolan.org/doc/videolan-howto/en/videolan-howto-en.html
+Redirect permanent /doc/videolan-quickstart/index.html http://www.videolan.org/doc/videolan-quickstart/en/videolan-quickstart-en.html
+Redirect permanent /doc/vlc-user-guide/index.html http://www.videolan.org/doc/vlc-user-guide/en/vlc-user-guide-en.html
+Redirect permanent /doc/vls-user-guide/index.html http://www.videolan.org/doc/vls-user-guide/en/vls-user-guide-en.html
 
 
 #

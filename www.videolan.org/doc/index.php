@@ -66,7 +66,8 @@
 <a href="/doc/play-howto/en/play-howto-en-html.zip">EN</a>
 </td>
 <td class="yes">
-<!-- <a href="/doc/play-howto/en/play-howto-en.pdf">EN</a> -->
+<a href="/doc/play-howto/en/play-howto-en.pdf">EN</a>
+(<a href="/doc/play-howto/en/play-howto-en-pdf.zip">zip</a>)
 </td>
 <td class="yes">
 <a href="/doc/play-howto/en/play-howto-en-rtf.zip">EN</a>
@@ -89,7 +90,8 @@
 <a href="/doc/streaming-howto/en/streaming-howto-en-html.zip">EN</a>
 </td>
 <td class="yes">
-<!-- <a href="/doc/streaming-howto/en/streaming-howto-en.pdf">EN</a> -->
+<a href="/doc/streaming-howto/en/streaming-howto-en.pdf">EN</a>
+(<a href="/doc/streaming-howto/en/streaming-howto-en-pdf.zip">zip</a>)
 </td>
 <td class="yes">
 <a href="/doc/streaming-howto/en/streaming-howto-en-rtf.zip">EN</a>

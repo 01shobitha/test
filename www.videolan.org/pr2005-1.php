@@ -29,7 +29,7 @@ GNU General Public License (GNU GPL).
 The Microsoft installer (MSI) file which can be downloaded off the
 <a href="http://www.cinemaonweb.com/ww1/index.php?ab=cow-sw">http://www.cinemaonweb.com/ww1/index.php?ab=cow-sw</a> web page appears
 to contain several binary VLC and Xvid files covered by the GNU GPL. The
-End-User License Agreement (EULA) which the user accepts when installing
+End-User License Agreement (EULA), which the user accepts when installing,
 states that:
 </p>
 

@@ -47,7 +47,15 @@ function starthtml($title) { ?>
       default: $color_home = "#ffa"; break;
    }
 
-?><form action="index.html" method="get">
+?>
+
+<table width="100%" cellspacing="3" cellpadding="0">
+
+<tr><td><img src="/images/cone-soppera1-mini.png" alt="Logo VideoLAN" /></td>
+
+<td>
+
+  <form action="index.html" method="get">
   <table width="100%" cellspacing="3" cellpadding="0">
 
 <tr>
@@ -103,6 +111,8 @@ function starthtml($title) { ?>
 </table>
 
 </form>
+
+</td></tr></table>
 
 <div style="margin: 10px;"><?
 

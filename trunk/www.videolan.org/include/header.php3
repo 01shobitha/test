@@ -188,20 +188,7 @@ foreach( $menu as $module )
 
   </tr>
 </table>
-
-<p style="color: red; font-size: 1.3em; text-align: center;">Protest
-against software patents in the European Union</p>
-
-<p style="font-weight: bold;">The VideoLAN team encourage the European
-congress-men to vote against software patents on September 23rd, 2003.
-The majority of the VideoLAN developers are EU citizens, and the
-adoption of software patents in Europe would be a real threat to
-the project and to software development in general. Please see <a
-href="http://swpat.ffii.org/">swpat.ffii.org</a> for more information
-about the dangers of software patents in the European Union.</p>
-
 <?
 
 
 ?>
-

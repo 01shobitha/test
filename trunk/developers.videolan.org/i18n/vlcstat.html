@@ -24,12 +24,25 @@
 
  <?php
      $reffile = "/var/www/local/developers.videolan.org/i18n/vlc-stats.ref";
+     $lgfile="/var/www/local/developers.videolan.org/i18n/langages";
 
      $file_id= fopen($reffile,"r");
      $contents = fread ($file_id, filesize($reffile) );
      fclose ($file_id );
      
      $langs = explode( "\n", $contents );
+
+     $file_id=fopen($lgfile,"r");
+     $contents = fread ($file_id, filesize($lgfile) );
+     fclose ($file_id );
+     
+     $langages = explode( "\n", $contents );
+
+     for($i=0;$i< count($langages) -1;$i++)
+     {
+	list($lg,$po,$a,$b) = explode('|',$langages[$i] );
+	$names[$po]=$lg;
+     }
 
      for($i = 0 ; $i < count($langs) - 1;$i++ )
      { 
@@ -63,8 +76,7 @@
         <td class=\"i18n_stats\">%d</td><td class=\"i18n_stats2\">%.2f</td>
         <td class=\"i18n_stats\">%d</td><td class=\"i18n_stats2\">%.2f</td>
         <td class=\"i18n_stats\">%d</td><td class=\"i18n_stats2\">%.2f</td>
-        <td class=\"i18n_graph\"><img src=\"images/image_$pofile.png\" alt=\"$pofile\"/></td></tr>",$pofile,$tr,$pc_tr,$fu,$pc_fu,$ut,$pc_ut);
-     
+        <td class=\"i18n_graph\"><img src=\"images/image_$pofile.png\" alt=\"$pofile\"/></td></tr>",$names[$pofile],$tr,$pc_tr,$fu,$pc_fu,$ut,$pc_ut);
      }
 
 

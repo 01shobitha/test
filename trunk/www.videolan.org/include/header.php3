@@ -112,9 +112,9 @@ function get_first_bar_item ( $number , $module , $text , $url , $current_module
 /* Second bar for vlc */
 
 function second_bar_vlc() { ?>
-<? get_first_bar_item ( 3 , "index.html" , "Download" , "/vlc/index.html" , $modules[2] ) ?>
-<? get_first_bar_item ( 3 , "features.html" , "Features" , "/vlc/features.html" , $modules[2] ) ?>
-<? get_first_bar_item ( 3 , "screenshots.html" , "Screenshots" , "/vlc/screenshots.html" , $modules[2] ) ?>
+<? get_first_bar_item ( 3 , "/index.html" , "Download" , "/vlc/index.html" , $modules[2] ) ?>
+<? get_first_bar_item ( 3 , "/features.html" , "Features" , "/vlc/features.html" , $modules[2] ) ?>
+<? get_first_bar_item ( 3 , "/screenshots.html" , "Screenshots" , "/vlc/screenshots.html" , $modules[2] ) ?>
 <? }
 
 /* Second bar for streaming */

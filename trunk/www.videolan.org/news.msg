@@ -2,6 +2,12 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+|16 Feb 2004| Release: VLS 0.5.6| This release of VLS fixes
+a bug when streaming MPEG2/PS files with several AC3 tracks,
+as well as compilation of VLS on Mac OS X. Go to the <a
+href="http://www.videolan.org/streaming/download-vls-sources.html">VLS
+source code download page</a> to get this new version now !
+
 |10 Feb 2004| VLC supports DTS audio | The latest
 <a href="http://download.videolan.org/pub/testing/vlc-0.7.1-test1/">
 test release</a> of <a href="http://www.videolan.org/vlc/">VLC media player</a>

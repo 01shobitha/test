@@ -33,10 +33,18 @@
     <firstname>Bill</firstname>
     <surname>Eldridge</surname>
   </author>
+  <author>
+    <firstname>Anil</firstname>
+    <surname>Daoud</surname>
+  </author>
+  <author>
+    <firstname>Mathieu</firstname>
+    <surname>Gautier</surname>
+  </author>
 </authorgroup>
 
 <copyright>
-    <year>2003</year>
+    <year>2002, 2003</year>
     <holder>the VideoLAN project</holder>
 </copyright>
 

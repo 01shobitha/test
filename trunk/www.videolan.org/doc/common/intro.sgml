@@ -6,23 +6,29 @@
 
 VideoLAN is a complete software solution for video streaming, developed
 by students at the <ulink url="http://www.ecp.fr">Ecole Centrale
-Paris</ulink> and developers from all over the world, under the <ulink
-url="http://www.gnu.org/copyleft/gpl.html">General Public License
-(GPL)</ulink>. It has been designed for streaming of MPEG 1 and MPEG 2 videos on
-local area networks (LAN), but it can be extended to metropolitan or
-wide area networks (MAN, WAN), thanks to the multicast technology.
+Paris</ulink> and developers from all over the world, under the
+<ulink url="http://www.gnu.org/copyleft/gpl.html">GNU General Public
+License</ulink> (GPL). It is designed to stream MPEG videos on high
+bandwidth networks.
 
 </para>
 
 <para>
 
-The VideoLAN solution includes a server, which can stream video from
-various sources (file, DVD, satellite and MPEG 2 encoder), a client, which can
-receive, decode and display MPEG 1 and MPEG 2 streams and, if necessary,
-a channel server which automatically tells to the client the parameters
-needed to receive the stream.
+The VideoLAN solution includes :
 
 </para>
+
+<itemizedlist>
+
+<listitem><para>a server, the VideoLAN Server (vls), which can take MPEG
+videos from various sources (file, DVD drive, satellite cards and MPEG 2
+encoders) and sends them to the network in unicast or multicast,</para>
+
+<listitem><para>a client, the VideoLAN Client (vlc), which can receive,
+decode and display MPEG streams under multiple Operating Systems.</para>
+
+</itemizedlist>
 
 <para>
 
@@ -57,10 +63,12 @@ There are three main documents :
 
 <listitem><para>the <ulink
 url="http://www.videolan.org/doc/videolan-quickstart/">VideoLAN
-Quickstart</ulink>. This document will give you a quick overview of the VideoLAN solution. It will learn you basic use of the client, the server, the channel server, and the Video On Demand system.</para>
+Quickstart</ulink>. This document will give you a quick overview of
+the VideoLAN solution. It will learn you basic use of the VideoLAN Client, the
+VideoLAN Server, and the Video On Demand solution.</para>
 
 <listitem><para>the <ulink
-url="http://www.videolan.org/doc/videolan-howto/"> VideoLAN
+url="http://www.videolan.org/doc/videolan-howto/">VideoLAN
 HOWTO</ulink>. This document is the complete guide of the VideoLAN Solution. It will give you the complete documentation for the VideoLAN Server, the VideoLAN Channel Server, and the different tools.</para>
 
 <listitem><para>the <ulink
@@ -73,7 +81,7 @@ the complete documentation of this software.</para>
 <para>
 
 The up-to-date version of these documents can be found on the <ulink
-url="http://www.videolan.org/doc">VideoLAN Web site</ulink>.
+url="http://www.videolan.org/doc/">VideoLAN Web site</ulink>.
 
 </para>
 
@@ -92,6 +100,9 @@ requires at least a Pentium 400Mhz with 32MB of RAM.
 
 </para>
 
+<note><para>Vlc doesn't work on Mac OS 9, and will
+probably never do.</para></note>
+
 <simplesect><title>VideoLAN Server</title>
 
 <para>
@@ -104,14 +115,14 @@ The VideoLAN Server (vls) can read videos from :
 <listitem><para>an MPEG 1 or MPEG 2 file stored on a hard drive or on a
 CD,</para>
 <listitem><para>a DVD located in a local DVD drive or copied on a hard
-drive,</para>
-<listitem><para>a satellite card or a Numeric Television card,</para>
+disk,</para>
+<listitem><para>a satellite card or a digital terrestial television card,</para>
 <listitem><para>an MPEG encoding card ;</para>
 </itemizedlist>
 
 <para>and stream it over a network to :</para>
 
-<itemizedlist> 
+<itemizedlist>
 
 <listitem><para>one machine (i.e. to one IP address) : this is called
 <emphasis>unicast</emphasis> ;</para>
@@ -136,19 +147,9 @@ drive and the network connection.
 
 <para>
 
-Vls works under Linux, Solaris and Windows. Currently, the Windows
-vls version of is only able to stream a video from a file. (not from a DVD)
-
-</para>
-
-<simplesect><title>Mini VideoLAN Channel Server</title>
-
-<para>
-
-Mini VideoLAN Channel Server (mini-vlcs) works on Linux only. It
-is designed to give to vlc the informations needed to join channels.
-Mini-vlcs is a very small program that can run on a very modest machine.
-It can run on the same machine as the VideoLAN Server.
+Vls works under Linux, Windows and Mac OS X. Currently, the Windows
+port of vls is only able to stream a video from a file (not from a DVD
+drive).
 
 </para>
 
@@ -157,7 +158,7 @@ It can run on the same machine as the VideoLAN Server.
 <para>
 
 If you have problems using VideoLAN, and if you don't find the
-answer to your problem in the documentation, please look at the
+answer to your problems in the documentation, please look at the
 <ulink url="http://www.via.ecp.fr/ml/videolan">online archive of the
 mailing-lists</ulink>. There are two English-speaking mailing-lists for
 the users :

@@ -2,8 +2,13 @@
 <sect2><title>Under Windows</title>
 
 <para>
-The videolan client  works under Windows 95/98.ME/2000/XP. You can download a Windows
-Installer or a Zip file from the <ulink url="http://www.videolan.org/vlc/download.html">vlc download page</ulink>. Execute he Windows installer or unzip the file in a directory to install vlc.
+
+The videolan client works under Windows 95/98/ME/2000/XP. You
+can download a Windows Installer or a Zip file from the <ulink
+url="http://www.videolan.org/vlc/download.html">vlc download
+page</ulink>. Execute the Windows installer or unzip the file in a
+directory to install vlc.
+
 </para>
 
 </sect2>
@@ -13,7 +18,7 @@ Installer or a Zip file from the <ulink url="http://www.videolan.org/vlc/downloa
 <para>
 You can download a Zip file from the <ulink
 url="http://www.videolan.org/vlc/download.html">vlc download
-page</ulink>. Unzip the file in a directory to install videolan client
+page</ulink>. Unzip the file in a directory to install vlc.
 </para>
 
 </sect2>
@@ -21,34 +26,31 @@ page</ulink>. Unzip the file in a directory to install videolan client
 <sect2><title>Under Mac OS X</title>
 
 <para>
-Download the Mac OS X pachage from the <ulink
-url="http://www.videolan.org/vlc/download.html">vlcdowload page</ulink> and double-click on the icon of the package.
+Download the Mac OS X package from the <ulink
+url="http://www.videolan.org/vlc/download.html">vlc dowload page</ulink> and double-click on the icon of the package.
 </para>
 
 </sect2>
 
-<sect2><title>under Linux Debian</title>
+<sect2><title>Under Linux Debian</title>
 
 <para>
 Edit as root /etc/apt/sources.list and add the following lines :
 </para>
 
-<para>
-<screen><userinput>
-	deb http://www.videolan.org/pub/videolan/debian $(ARCH)/
-	deb-src http://www.videoaln.org/pub/videolan/debian sources/
-</userinput></screen>
-</para>
+<programlisting>
+deb http://www.videolan.org/pub/videolan/debian $(ARCH)/
+deb-src http://www.videoaln.org/pub/videolan/debian sources/
+</programlisting>
 
 <para>
 Then type as root :
 </para>
 
 <para>
-<screen><userinput>
-	#apt-get update
-	#apt-get install vlc-gnome vlc-mad libdvdcss2
-</userinput></screen>
+<screen>
+<prompt># </prompt><userinput>apt-get update</userinput>
+<prompt># </prompt><userinput>apt-get install vlc-gnome vlc-mad libdvdcss2</userinput>
 </para>
 
 </sect2>

@@ -45,7 +45,7 @@
   #t)
 ; Path for the icons
 (define %admon-graphics-path%
-  "")
+  "/usr/share/sgml/docbook/stylesheet/dsssl/modular/images/")
 
 ; Use ID attributes as name for component HTML files
 (define %use-id-as-filename%

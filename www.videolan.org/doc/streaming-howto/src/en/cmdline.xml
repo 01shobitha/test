@@ -313,7 +313,7 @@ option has been enabled.</para></note>
 <sect3><title>sap-ipv6</title>
 
 <para>Use this option if you want the SAP announces to be sent using the
-<emphasis>IPv6</emphasis> protocol instead of <emphasis>IPv4</emphasis></para>.
+<emphasis>IPv6</emphasis> protocol instead of <emphasis>IPv4</emphasis>.</para>
 
 <note><para>This option can only be used it the <emphasis>sap</emphasis>
 option has been enabled.</para></note>
@@ -933,7 +933,7 @@ comma.</para>
 you can also specify a range, using the syntax
 <emphasis>criteria=num_start-num_end</emphasis>.</para>
 
-Available parameters are:
+<para>Available parameters are:</para>
 
 <itemizedlist>
 
@@ -976,7 +976,7 @@ id.</para></listitem>
 </itemizedlist>
 
 <para>Example:</para>
-<screen><para>#duplicate{dst=std{...},select="program=100-200,novideo"}</para></screen>
+<screen>#duplicate{dst=std{...},select="program=100-200,novideo"}</screen>
 
 <para>This <emphasis>duplicate</emphasis> chain will only output the non
 video <emphasis>elementary streams</emphasis> belonging to the programs

@@ -120,22 +120,24 @@ an elements property. See <xref linkend="vlmprop" endterm="tvlmprop"
 
 <listitem><para><command>show [(name)|media|schedule]</command>
 : Display current element states and configurations.
-<itemizedlist><listitem><command>show (name)</command> - Specify
+<itemizedlist><listitem><para><command>show (name)</command> - Specify
 an element's name to show all information concerning this
-element.</listitem><listitem><command>show media</command> displays
-a summary of media states.</listitem><listitem><command>show
+element.</para></listitem><listitem><para><command>show media</command> displays
+a summary of media states.</para></listitem><listitem><para><command>show
 schedule</command> displays a summary of schedule
-states.</listitem></itemizedlist></para></listitem>
+states.</para></listitem></itemizedlist></para></listitem>
 
 <listitem><para><command>del (name)|all|media|schedule</command>
 : Delete an element or a group of elements. If the
 element wasn't stopped, it is first stopped before being
-deleted.<itemizedlist><listitem><command>del (name)</command> - Delete
-the (name) element.</listitem><listitem><command>del all</command> -
-Delete all elements</listitem><listitem><command>del media</command>
-- Delete all media elements.</listitem><listitem><command>del
+deleted.<itemizedlist><listitem><para><command>del
+(name)</command> - Delete the (name)
+element.</para></listitem><listitem><para><command>del all</command>
+- Delete all elements</para></listitem><listitem><para><command>del
+media</command> - Delete all media
+elements.</para></listitem><listitem><para><command>del
 schedule</command> - Delete all schedule
-elements</listitem></itemizedlist></para></listitem>
+elements</para></listitem></itemizedlist></para></listitem>
 
 <listitem><para><command>control (name) [instance_name]
 (command)</command> : Change the state of the (instance_name) instance
@@ -172,7 +174,7 @@ the end of the media's input list.</para></listitem>
 <listitem><para><command>output (output_name)</command> : Define the
 media's output. The syntax is the same as the vlc ":sout=..." vlc
 option but you do not have to put the ":sout=..." string. See <xref
-linkend="cmdline" endtemr="tcmdline" /> for more information concerning
+linkend="cmdline" endterm="tcmdline" /> for more information concerning
 stream outputs (sout).<note><para>You do not have to specify an output
 for vod elements.</para></note></para></listitem>
 
@@ -313,7 +315,13 @@ setup my_sched append control my_media play
 
 </sect3></sect2>
 
-<sect2><title>Video On Demand</title></sect2>
+<sect2><title>Video On Demand</title>
+
+<programlisting>
+
+</programlisting>
+
+</sect2>
 
 </sect1>
 

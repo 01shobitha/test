@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso8859-1"?>
-<chapter id="gui"><title id="gui">
+<chapter id="gui"><title id="tgui">
 Easy streaming</title>
 
 <sect1><title>Intro</title>
@@ -341,10 +341,9 @@ AVI, MP4 and MOV. (See <xref linkend="smc" endterm="tsmc" />)</para>
 
 <sect3><title>Miscellaneous options</title>
 
-<para>Select methods to announce your stream. You can use SAP
-(Service Announce Protocol) or SLP (Service Location Protocol). You
-must also specify a channel name. (See <xref linkend="announce"
-endterm="tannounce" />). The Mac OS X interface also allows you to export
+<para>Select methods to announce your stream. You can use SAP (Service
+Announce Protocol) or SLP (Service Location Protocol). You must also
+specify a channel name. The Mac OS X interface also allows you to export
 the description (SDP) file of a RTP session using the internal HTTP or
 RTSP server of VLC, or as a file. This can be done using the according
 checkboxes. The <emphasis>SDP URL</emphasis> text box allows to give the

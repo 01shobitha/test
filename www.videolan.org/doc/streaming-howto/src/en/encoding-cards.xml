@@ -394,10 +394,10 @@ able to cross 11 routers).</para></listitem>
 </sect2>
 <sect2><title>Stream with VLC in command line</title>
 <para><screen><prompt>% </prompt><userinput>C:\Program Files\VideoLAN\VLC\vlc.exe -vvv -I rc --ttl 12 dshow:// vdev="VGA USB Camera" adev="USB Camera" size="640x480" --sout=#std{mux=ts,access=udp,url=239.255.42.12}</userinput></screen></para>
-<itemizedlist>
 <note>
 <para>You need to precise the complete path to find vlc program or to launch the command from the correct directory.</para>
 </note>
+<itemizedlist>
 <listitem><para><emphasis>vvv</emphasis> is to activate the verbose mode</para></listitem>
 <listitem><para><emphasis>rc</emphasis> is to activate the remote control interface (MS/DOS console)</para></listitem>
 <listitem><para><emphasis>12</emphasis> is the value of the TTL (Time To Live) of your IP packets (which means that the stream will be able to cross 11 routers),

@@ -87,6 +87,10 @@ screenshots</a>. </p>
       style="vertical-align: middle; border-width: 1px;"
       alt="Linux Red Hat" width="32" height="32" /></a> Red Hat Linux
 </td><td>
+   <a href="download-wince.html"><img src="/images/icons/zaurus.png"
+      style="vertical-align: middle; border-width: 1px;"
+      alt="Zaurus" width="32" height="32" /></a>WinCE / PocketPC
+</td><td>
 </td>
 </tr>
 </table>

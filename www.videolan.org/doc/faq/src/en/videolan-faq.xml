@@ -66,12 +66,19 @@ Does VLC support DVDs from all regions?
 <answer>
 
 <para>
-VLC uses <emphasis>libdvdcss</emphasis> to read all
-DVDs, disregarding their zone. All regions are supported without any
-constraint. It doesn't work 100% of the time and can take a long
-while before it starts the DVD.
+Well this mostly depends on your DVD drive. Testing it is usually
+the quickest way to find out. The problem is that a lot of newer drives
+are RPC2 drives these days. Some of these drives don't allow raw access
+to the drive untill the drive firmware has done a regioncheck. VLC uses
+<emphasis>libdvdcss</emphasis> and it needs raw access to the DVD drive
+to crack the encryption key. So with these drives it is impossible to
+circumvent the region protection. (This goes for all software. You will
+need to flash your drives firmware, but sometimes there is no alternate
+firmware available for your drive). On other RPC2 drives that DO allow raw
+access, it might take VLC a <emphasis>long</emphasis> time to crack the key.
+So just pop the disc in your drive and try it out, while you get a coffee.
+RPC1 drives should 'always' work regardless of the regioncode.
 </para>
-<note><para><emphasis>libdvdcss</emphasis>is currently unable to work-around the regional codec setting on DVD drives used in newer Macintoshs. You are only able to play DVDs with the same region code as your drive is set to. That's a known issue and won't be fixed in the upcoming time.</para></note>
 
 </answer></qandaentry>
 

@@ -68,7 +68,7 @@ function starthtml($title) { ?>
      <tr>
      <td style="background-color: <?echo($color_home);?>; width: 17%; vertical-align: middle;" align="center"><b><a href="/">Home</a></b></td>
      <td style="background-color: <?echo($color_vlc);?>; width: 16%; vertical-align: middle;" align="center"><b><a href="/vlc/">VLC media player</a></b></td>
-     <td style="background-color: <?echo($color_streaming);?>; width: 17%; vertical-align: middle;" align="center"><a href="/streaming/">Streaming</a></b></td>
+     <td style="background-color: <?echo($color_streaming);?>; width: 17%; vertical-align: middle;" align="center"><b><a href="/streaming/">Streaming</a></b></td>
      <td style="background-color: <?echo($color_doc);?>; width: 17%; vertical-align: middle;" align="center"><b><a href="/doc/">Documentation</a></b></td>
      <td style="background-color: <?echo($color_support);?>; width: 16%; vertical-align: middle;" align="center"><b><a href="/support/">Support</a></b></td>
      <td style="background-color: #afa; width: 17%; vertical-align: middle;" align="center"><b><a href="http://developers.videolan.org/">Developers</a></b></td>
@@ -90,7 +90,7 @@ function starthtml($title) { ?>
 
    <td>
 
-    <table width="100%" cellspacing="3" cellpadding="0">
+    <table width="100%" cellspacing="2" cellpadding="0">
     <tr>
     <? switch($modules[1]) {
       case "vlc": second_bar_vlc(); break;

@@ -2,6 +2,12 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+|23 Nov 2003| New web forum for VideoLAN| The VideoLAN team
+is pleased to announce the opening of our new webforum (<a
+href="http://forum.videolan.org">http://forum.videolan.org</a>). We hope
+this will help improve user support, communication between VideoLAN
+users, and sharing of ideas. Have fun !
+
 |31 Oct - 1 Nov 2003| 5th Free software days in Lyons| VideoLAN
 will be present at the 5th Free Software (<i>Journées du Libre</i>)
 in Lyons, France. We will have a demo of the streaming solution

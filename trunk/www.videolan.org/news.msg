@@ -4,11 +4,18 @@
 # Et pour les nouvelles importantes, c'est pas un | , c'est un §
 #
 
+|18 Feb 2003| Release: vlc 0.5.1a for Mac OS X | This is a bug-fix
+release of VLC for Mac OS X only: It fixes the problem with 
+VLC starting up in a different language then your preferred 
+language on and an issue with sound missing on several files
+that previously worked perfectly. Download the new version of VLC 
+for Mac OS X <a href="/vlc/download-macosx.html">here</a>.
+
 |17 Feb 2003| Release: vlc 0.5.1 | This is a bug-fix
 release of VLC with a few new features : see the <a
 href="http://developers.videolan.org/vlc/NEWS">list of changes between
 0.5.0 and 0.5.1</a> and go to the <a href="/vlc/">VLC section</a>
-of the website to download the binaires for your OS or the sources.
+of the website to download the binaries for your OS or the sources.
 Unfortunately, this release doesn't fix the audio problems under Mac OS
 X... but VideoLAN developers are working hard on it !
 
@@ -16,7 +23,7 @@ X... but VideoLAN developers are working hard on it !
 of VLC with a a lot of great new features : see the <a
 href="http://developers.videolan.org/vlc/NEWS">list of changes between
 0.4.6 and 0.5.0</a> and go to the <a href="/vlc/">VLC section</a>
-of the website to download the binaires for your OS or the sources.
+of the website to download the binaries for your OS or the sources.
 A new VLC user guide has been released (it replaces the VLC HOWTO)
 and the VideoLAN Quickstart has been updated to explain the new
 streaming capacity of VLC (with VLC's new stream output) : see the <a

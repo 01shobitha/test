@@ -63,8 +63,8 @@ href="http://www.videolan.org/cgi-bin/irc/irc.cgi">IRCWeb</a></p>
 <table width="100%" cellspacing=0 cellpadding=0>
 <tr><th class=menu><a class="menu" href="/libdvbpsi/index.html">libdvbpsi</a></th></tr>
 <tr><td class=menu>
-<p class=menu><a class="menu" href="/pub/videolan/libdvbpsi/">download</a></p>
 <p class=menu><a class="menu" href="/libdvbpsi/ChangeLog.html">ChangeLog</a></p>
+<p class=menu><a class="menu" href="/pub/videolan/libdvbpsi/">download</a></p>
 <p class=menu><a class="menu" href="/libdvbpsi/devel_doc.html">developer doc</a></p>
 </td></tr>
 </table>

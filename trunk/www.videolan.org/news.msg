@@ -83,7 +83,7 @@ the Flac decoder. If you experience problems with Flac audio, please
 download again.
 
 |2 Jan 2004| Release: libdvbpsi 0.1.4| This new release of libdvbpsi 
-fixes a few bugs and adds support for DVB subtitles descriptor
+fixes a few bugs and adds support for DVB subtitles descriptor.
 
 |1 Jan 2004| Happy new year| The VideoLAN team wishes you a happy new
 year !

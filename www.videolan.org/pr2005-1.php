@@ -20,7 +20,7 @@ streaming solution.
 Following announcement by Cinema On the Web (COW) and DivXNetworks
 of the new COW video on demand service, the VideoLAN project team
 members were brought knowledge of a possible violation of VLC media
-player's licence. The VideoLAN project which owns copyrights to the VLC,
+player's license. The VideoLAN project which owns copyrights to the VLC,
 distributes the VLC as free software exclusively under the terms of the
 GNU General Public License (GPL).
 </p>

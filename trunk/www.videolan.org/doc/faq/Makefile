@@ -12,7 +12,7 @@ XML_DECL := /usr/lib/sgml/declaration/xml.decl
 LANG = en
 
 # All available languages (used in 'make clean')
-ALL_LANG = en fr es de
+ALL_LANG = en fr es de it
 
 # Build HTML, PDF, RTF and TXT outputs (for the web site)
 all: $(LANG)/$(DOC)-$(LANG).html $(LANG)/$(DOC)-$(LANG).pdf $(LANG)/$(DOC)-$(LANG).rtf $(LANG)/$(DOC)-$(LANG).txt

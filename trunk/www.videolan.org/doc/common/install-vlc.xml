@@ -139,18 +139,19 @@ modify the default supported modules.</para>
 
 <sect3><title>Install the libraries</title>
 
-<para>Many libraries are needed for particular uses :</para>
+<para>Many libraries are needed :</para>
 
 <itemizedlist>
+
+<listitem><para><emphasis>libdvbpsi</emphasis> (compulsory),</para></listitem>
+
+<listitem><para><emphasis>mpeg2dec</emphasis> (compulsory),</para></listitem>
 
 <listitem><para><emphasis>libdvdcss</emphasis> if you want to be able to
 read encrypted DVDs,</para></listitem>
 
 <listitem><para><emphasis>libdvdplay</emphasis> if you want to have DVD
 menu navigation,</para></listitem>
-
-<listitem><para><emphasis>libdvbpsi</emphasis> if you want to be able to
-read from the network,</para></listitem>
 
 <listitem><para><emphasis>a52dec</emphasis> if you want to be
 able to decode the AC3 (i.e. A52) sound format often used in

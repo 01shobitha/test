@@ -319,8 +319,8 @@ Downloadseite</ulink>. Dekomprimieren Sie sie:
 
 <!-- bootstrap is already done is the tarballs -->
 <para>
-Wenn Sie Quellen aus dem SVN benutzen, müssen Sie
-folgendes laufen lassen:
+Wenn Sie Quellen aus SVN benutzen, müssen Sie
+folgendes ausführen:
 </para>
 
 <screen>
@@ -328,7 +328,7 @@ folgendes laufen lassen:
 </screen>
 
 <para>
-Tarballs sind bereits 'gebootstrapped'
+Bei sogenannten Tarballs wurde 'bootstrap' bereits ausgeführt.
 </para>
 
 <para>
@@ -342,8 +342,7 @@ Um die Liste der Konfigurationsoptionen zu erhalten, machen Sie folgendes:
 
 <para>
 Beachten Sie, dass alle Module in der <emphasis>Modules</emphasis>-Sektion
-des <ulink url="http://www.videolan.org/doc/vlc-user-guide/">VLC User
-Guides</ulink> beschrieben sind.
+des <ulink url="http://www.videolan.org/doc/vlc-user-guide/">VLC Benutzerhandbuches</ulink> beschrieben sind.
 </para>
 
 
@@ -365,7 +364,6 @@ wenn Sie ein einfaches VLC möchten, machen Sie folgendes: </para>
 <listitem><para>
 wenn Sie die Gnome-Oberfläche anstatt der
 GTK-Oberfläche möchten (Sie benötigen die Development-Pakete von Gnome):
-
 </para>
 
 <screen>

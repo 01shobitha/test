@@ -25,8 +25,7 @@ VLC's stream output, like this:
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#standard{access=udp,url=239.255.12.42,sap="Test Stream"}' --ttl 12</userinput>
-</screen>
+<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#standard{access=udp,url=239.255.12.42,sap,name="Test Stream"}' --ttl 12</userinput></screen>
 <para>where <filename>video1.xyz</filename> is the file you want
 to stream, <emphasis>239.255.12.42</emphasis> is the multicast IP
 address you want to stream on, <emphasis>Test Stream</emphasis> is
@@ -40,7 +39,7 @@ To do the SAP announces in IPv6, just add the
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#standard{access=udp,url=239.255.12.42,sap="Test Stream",sap_ipv=6}' --ttl 12</userinput>
+<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#standard{access=udp,url=239.255.12.42,sap,name="Test Stream",sap_ipv=6}' --ttl 12</userinput>
 </screen>
 
 </sect1>

@@ -31,7 +31,7 @@ complexe du stream output, ce qui donne, par exemple:
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#standard{access=udp,url=239.255.12.42,sap="Test Stream"}' --ttl 12</userinput>
+<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#standard{access=udp,url=239.255.12.42,sap,name="Test Stream"}' --ttl 12</userinput>
 </screen>
 
 <para>où <filename>video1.xyz</filename> est le fichier que vous désirez
@@ -46,7 +46,7 @@ l'option <emphasis>sap_ipv=6</emphasis>
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#standard{access=udp,url=239.255.12.42,sap="Test Stream",sap_ipv=6}' --ttl 12</userinput>
+<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#standard{access=udp,url=239.255.12.42,sap,name="Test Stream",sap_ipv=6}' --ttl 12</userinput>
 </screen>
 
 </sect1>

@@ -5,13 +5,11 @@ to change the default settings, you can compile VLC from sources.</para>
 
 <sect2><title>Under Windows</title>
 
-<para>
-VLC works under Windows 95/98/ME/2000/XP. Download
-the Windows Installer or the Zip file from the <ulink
-url="http://www.videolan.org/vlc/download-windows.html">VLC Windows download
-page</ulink>. Execute the Windows installer or unzip the file in a
-directory to install VLC.
-</para>
+<para>VLC works under Windows 95/98/ME/2000/XP.
+Download the Zipip file from the <ulink
+url="http://www.videolan.org/vlc/download-windows.html">VLC Windows
+download page</ulink>. Unzip the file in a directory to install
+VLC.</para>
 
 </sect2>
 

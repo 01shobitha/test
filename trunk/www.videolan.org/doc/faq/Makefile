@@ -1,41 +1,54 @@
-# Makefile for the VideoLAN Documentation
+# Makefile for the VideoLAN Documentation in DocBook XML
 # Written by Alexis de Lattre <alexis@videolan.org>
-# Factorised by Sam Hocevar <sam@zoy.org>
+# To build another language than the default one, do 'make LANG=foo'
 
-DOC = videolan-faq
+# Document name
+DOC := videolan-faq
+
+# XML declaration
 XML_DECL := /usr/lib/sgml/declaration/xml.decl
-LANG = es fr en
-EXT = html pdf rtf txt
 
-# The generic rule: build all extensions for all languages
-all: $(LANG)
-$(LANG): %: $(foreach ext, $(EXT), $(DOC)-%.$(ext))
+# Default language (English)
+LANG = en
 
-# The clean rule
+# All available languages (used in 'make clean')
+ALL_LANG = en fr es
+
+# Build HTML, PDF, RTF and TXT outputs (for the web site)
+all: $(LANG)/$(DOC)-$(LANG).html $(LANG)/$(DOC)-$(LANG).pdf $(LANG)/$(DOC)-$(LANG).rtf $(LANG)/$(DOC)-$(LANG).txt
+
+# Extract one language (XML to XML transformation) and prepare the repository
+$(LANG)/$(DOC)-$(LANG).xml: *.xml ../common/multilanguage.xsl
+	mkdir -p $(LANG)
+	xsltproc --stringparam lang $(LANG) ../common/multilanguage.xsl $(DOC).xml | sed -e 's/id="$(DOC)"/id="$(DOC)-$(LANG)"/' > $@
+	cp -R ../../images/documentation $(LANG)/images
+
+# HTML output
+$(LANG)/$(DOC)-$(LANG).html: $(LANG)/$(DOC)-$(LANG).xml ../common/stylesheet-html.dsl
+	jade -t sgml -d ../common/stylesheet-html.dsl $(XML_DECL) $(LANG)/$(DOC)-$(LANG).xml
+	mv *.html $(LANG)
+	rm -f $(LANG)/$(DOC)-$(LANG)-html.zip
+	cd $(LANG) && zip $(DOC)-$(LANG)-html.zip *.html images/*.gif
+
+# PDF output
+$(LANG)/$(DOC)-$(LANG).pdf: $(LANG)/$(DOC)-$(LANG).xml ../common/stylesheet-print-noicones.dsl
+	jade -t tex -d ../common/stylesheet-print-noicones.dsl -o $(LANG)/$(DOC)-$(LANG).tex $(XML_DECL) $(LANG)/$(DOC)-$(LANG).xml
+	cd $(LANG) && pdfjadetex $(DOC)-$(LANG).tex
+	cd $(LANG) && rm -f *.tex *.out *.aux *.log
+	cd $(LANG) && zip $(DOC)-$(LANG)-pdf.zip $(DOC)-$(LANG).pdf
+
+# RTF output
+$(LANG)/$(DOC)-$(LANG).rtf: $(LANG)/$(DOC)-$(LANG).xml ../common/stylesheet-print-noicones.dsl
+	cd $(LANG) && jade -t rtf -d ../../common/stylesheet-print-noicones.dsl -o $(DOC)-$(LANG).rtf $(XML_DECL) $(DOC)-$(LANG).xml
+	rm -f $(LANG)/$(DOC)-$(LANG)-rtf.zip
+	cd $(LANG) && zip $(DOC)-$(LANG)-rtf.zip $(DOC)-$(LANG).rtf
+
+# TXT output
+$(LANG)/$(DOC)-$(LANG).txt: $(LANG)/$(DOC)-$(LANG).xml ../common/stylesheet-txt.dsl
+	jade -t sgml -d ../common/stylesheet-txt.dsl -V nochunks $(XML_DECL) $(LANG)/$(DOC)-$(LANG).xml > $(LANG)/dumpfortxt.html
+	lynx -force_html -dump $(LANG)/dumpfortxt.html > $(LANG)/$(DOC)-$(LANG).txt
+	rm -f $(LANG)/dumpfortxt.html
+
+# Delete all outputs
 clean:
-	rm -f *.zip *.html *.pdf *.ps *.txt *.rtf *.dvi *.out *.aux *.log $(DOC)-*.xml *.tmp
-
-# Specific rules for each extension
-$(LANG:%=$(DOC)-%.xml): $(DOC).xml
-	xsltproc --stringparam lang $(shell echo $(basename $@) | sed -e 's/.*-//') ../common/multilanguage.xsl $^ | sed -e 's/id="$(DOC)"/id="$(basename $@)"/' > $@
-	cp -R ../../images/documentation images
-
-$(LANG:%=$(DOC)-%.html): %.html: %.xml
-	jade -t sgml -d ../common/stylesheet-html.dsl $(XML_DECL) $^
-	zip $(basename $@)-html.zip $@
-
-$(LANG:%=$(DOC)-%.pdf): %.pdf: %.xml
-	jade -t tex -d ../common/stylesheet-print-noicones.dsl -o $(basename $@).tex $(XML_DECL) $^
-	pdfjadetex $(basename $@).tex
-	rm -f *.tex *.out *.aux *.log
-	zip $(basename $@)-pdf.zip $@
-
-$(LANG:%=$(DOC)-%.rtf): %.rtf: %.xml
-	jade -t rtf -d ../common/stylesheet-print-noicones.dsl -o $@ $(XML_DECL) $^
-	zip $(basename $@)-rtf.zip $@
-
-$(LANG:%=$(DOC)-%.txt): %.txt: %.xml
-	jade -t sgml -d ../common/stylesheet-txt.dsl -V nochunks $(XML_DECL) $^ > $^.html
-	lynx -force_html -dump $^.html > $@
-	rm -f $^.html
-
+	rm -rf $(ALL_LANG)

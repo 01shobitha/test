@@ -64,6 +64,9 @@ Redirect permanent /doc/videolan-howto/index.html http://www.videolan.org/doc/vi
 Redirect permanent /doc/videolan-quickstart/index.html http://www.videolan.org/doc/videolan-quickstart/en/videolan-quickstart-en.html
 Redirect permanent /doc/vlc-user-guide/index.html http://www.videolan.org/doc/vlc-user-guide/en/vlc-user-guide-en.html
 Redirect permanent /doc/vls-user-guide/index.html http://www.videolan.org/doc/vls-user-guide/en/vls-user-guide-en.html
+Redirect permanent /doc/faq/videolan-faq-en.html http://www.videolan.org/doc/faq/en/videolan-faq-en.html
+Redirect permanent /doc/faq/videolan-faq-fr.html http://www.videolan.org/doc/faq/en/videolan-faq-fr.html
+Redirect permanent /doc/faq/videolan-faq-es.html http://www.videolan.org/doc/faq/en/videolan-faq-es.html
 
 
 #

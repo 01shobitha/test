@@ -29,6 +29,13 @@ the name that will be used for this program in the SAP announces and
 <emphasis>12</emphasis> is the value of the TTL (Time To Live) of the
 stream and of the SAP announces.</para>
 
+<para>To do the SAP announces in IPv6, just add the
+<emphasis>sap_ipv=6</emphasis> option:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#standard{access=udp,url=239.255.12.42,sap="Test Stream",sap_ipv=6}' --ttl 12</userinput>
+</screen>
+
 </sect1>
 
 <sect1><title>Send announces for the programs streamed by VLS with the

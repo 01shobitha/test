@@ -102,6 +102,11 @@ multicast IP address where you want to stream.</para></listitem>
 option to announce your stream, using SAP/SDP. This option contains the
 name under which you want to announce the program.</para></listitem>
 
+<listitem><para><emphasis>sap_ipv</emphasis>: if you use the
+<emphasis>sap</emphasis> option, use this option to specify if you want
+to send the SAP announces in IPv4 or IPv6. The value of this option is
+<emphasis>4</emphasis> or <emphasis>6</emphasis>.</para></listitem>
+
 </itemizedlist>
 
 <note><para>If you are streaming in multicast, you may want to use the

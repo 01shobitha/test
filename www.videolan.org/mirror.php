@@ -8,21 +8,21 @@
  </head>
  <body>
   <p>Click <a href="<?php echo $mirror.$file ?>">here</a> if your download doesn't start</p>
+ </body>
 </html>
 
 <?php
-
     $sfile = $_SERVER["DOCUMENT_ROOT"]."mirror_stats";
     
     /* Load saved data */
-    $connect = pg_connect("dbname=stats-videolan user=videolan password=VcD1bdBa");
+    $connect = pg_pconnect("dbname=stats-videolan user=videolan password=VcD1bdBa");
    
-    $request = pg_query($connect, "select * from mirrors"); 
+    $request = pg_query($connect, "SELECT * FROM mirrors"); 
     
     $done = 0;
-    while ($row = pg_fetch_array($request, 0, PGSQL_NUM)
+    while ($row = pg_fetch_array($request))
     {
-        if( strstr($row[1],$mirror) != FALSE && strstr($row[2],$file) != FALSE )
+        if( $row[1] == $mirror && $row[2] == $file )
         {
             $done = 1;
             $nombre = $row[3];
@@ -34,9 +34,8 @@
 /*save data into database mirrors*/
     if( $done == 0 )
     {
-	$inser = pg_query($connect, "INSERT INTO mirrors VALUES '" . $mirror . "', '" . $file . "', 1");
+	$inser = pg_query($connect, "INSERT INTO mirrors (address, file, number) VALUES ('" . $mirror . "', '" . $file . "', 1)");
     } else {
         $inser = pg_query($connect, "UPDATE mirrors SET number = " . $nombre++ . " WHERE id = " . $id); 
     }
-    pgclose($connect);
 ?>

@@ -10,13 +10,16 @@
 
 <h2>Skins VS skins2</h2>
 
-<p><span style="color: red;"><b>Important note:</b></span><br> VLC currently
-has two different skins modules, named <i>skins</i> and <i>skins2</i>, the
-latter being a complete rewrite of the former. We consider that the
-<i>skins</i> module is deprecated, and we strongly encourage people to use
-<i>skins2</i> when creating a new skin. The <i>skins</i> module is only kept
-because there are still very few skins ported to the new <i>skins2</i> module,
-but it is going to disappear one day or other...</p>
+<p><span style="color: red;"><b>Important note:</b></span><br> VLC had two
+different skins modules, named <i>skins</i> and <i>skins2</i>, the latter being
+a complete rewrite of the former. The <i>skins</i> module is now deprecated,
+and will not be included in the next release (VLC 0.7.2 is the last version to
+feature the <i>skins</i> module).</p>
+
+<p>The <a href="/vlc/skins-create.html">documentation</a> and <a
+href="/vlc/download-skins.html">download section</a> for the <i>skins</i>
+module are still kept in case someone wants to port old skins to the
+<i>skins2</i> module, but they are going to disappear one day or other...</p>
 
 
 <h2>Features</h2>
@@ -47,13 +50,13 @@ interface:</p>
 
   <li>(X11 users) Launch VLC with the following command-line:
   <tt>vlc -I skins2</tt><br>
-  (or, for the old <i>skins</i> module: <tt>vlc -I skins</tt>)</li>
+  (or, for the old deprecated <i>skins</i> module: <tt>vlc -I skins</tt>)</li>
 
   <li>(Windows users) Launch VLC using the appropriate shortcut in the Start
   menu. You can also start VLC from command-line, in a DOS window.</li>
 
   <li>If you don't want to use the default skin, just download another one on
-  the <a href="/vlc/download-skins.html">skins download page</a></li>
+  the <a href="/vlc/download-skins2.html">skins download page</a></li>
 
   <li>Once VLC is started with the <i>skins2</i> interface (or with the
   <i>skins</i> one), you can use the CTRL+S shortcut to load the new one.
@@ -64,8 +67,7 @@ interface:</p>
 <h2>Making your own skin</h2>
 
 <p>If you think you have the artistic fiber, feel free to <a
-    href="/vlc/skins2-create.html">create your own skin</a>, it does not
-require any programming skill. We will be glad to add your skin to add your new
-skin to the website!</p>
+href="/vlc/skins2-create.html">create your own skin</a>, it does not require
+any programming skill. We will be glad to add your new skin to the website!</p>
 
 <? footer('$Id$'); ?>

@@ -55,10 +55,19 @@ h1 {
 
 table.h2 {
   width: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 tr.h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 td.h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 h2 {

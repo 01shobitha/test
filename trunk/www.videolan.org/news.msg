@@ -2,6 +2,17 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+|17 Jan 2004| OSI Merit Award| The VideoLAN project is very proud
+to announce that it has been awarded with a Open Source Merit Award
+by the <a href="http://www.opensource.org">Open Source
+Initiative</a>. We are of course very glad to be honored in this
+way and will continue to strive to making the project, VLC media player
+and VLS, the best programs out there.<br />
+You can read more about the award in these <a href="http://builder.com.com"
+>builder.com</a> articles: <a href="http://builder.com.com/5100-6375-5136758.html">
+article 1</a> <a href="http://builder.com.com/5100-6375-5136135.html">
+article 2</a>.
+
 |10 Jan 2004| Release: VLS 0.5.5| This release of VLS fixes a bug
 introduced in the DVB input of the previous release. Go to the <a
 href="http://www.videolan.org/streaming/download-vls-sources.html">VLS

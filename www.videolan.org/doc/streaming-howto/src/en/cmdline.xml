@@ -82,7 +82,9 @@ syntax that you must use:
 
 <note><para>Some of the module options (option1 in the example) have to
 be set, others are optional. Option parameters (parameter-option1 in the
-example) are always optional.</para></note>
+example) are always optional. These option parameters are also often
+very advanced settings. If you don't understand their description, this
+certainly means that you don't need them.</para></note>
 
 <para>
 You may also use the following syntax :
@@ -111,11 +113,11 @@ This module saves the stream to a file or sends it over a network, after
 having muxed it.
 </para>
 
-Tha available options are:
+<para>The available choices are:</para>
 
 <sect3><title>access</title>
 
-<para>This option allows to set the medium used to save or send the stream. Available options are:</para>
+<para>This option allows to set the medium used to save or send the stream. This is a compulsory option. Available options are:</para>
 
 <itemizedlist>
 <listitem><para>file: saves the stream to a file.</para>
@@ -136,16 +138,54 @@ MTU is filled before sending the packet.</para> </listitem>
 <para>Item options are: <emphasis>user=&lt;user name&gt;</emphasis>
 to enable HTTP basic authentification and set the user,
 <emphasis>pwd=&lt;password&gt;</emphasis> to set the basic
-authentification password, <emphasis>mime=&lt;mime type&gt;</emphasis> to
-set the mime type returned by the server.</para></listitem>
+authentification password, <emphasis>cert=&lt;path to
+certificate&gt;</emphasis> to enable SSL encryption of the http
+connection, and set the certificate to use, <emphasis>key=&lt;path
+to key&gt;</emphasis> to set the private key file the server
+should use for the SSL connection, <emphasis>ca=&lt;path to
+certificate&gt;</emphasis> to set the path to the root CA certificates
+to use for SSL, <emphasis>crl=&lt;path to certificate&gt;</emphasis>
+to set the revocation certificate to use for the SSL connexion,
+<emphasis>mime=&lt;mime type&gt;</emphasis> to set the mime type
+returned by the server.</para></listitem>
+
+<listitem><para>rtp: streams the file over RTP. Please note that this is
+a legacy module. It doesn't allow RTSP and can only be used to stream
+TS streams. Please have a look at the <emphasis>rtp</emphasis> stream
+output module for a more compliant and complete RTP streamer.</para>
+<para>Options are the same as for the <emphasis>udp</emphasis> setting.</para></listitem>
 
 </itemizedlist>
 </sect3>
 <sect3><title>mux</title>
+<para> This option allows you to set the encapsulation method used for the resulting stream. This option has to be set.</para>
+
+<para>Avaivailable options are: </para>
+
 <itemizedlist>
-<listitem><para><emphasis>mux</emphasis>: 
-which muxer (ie, which format) will be used. It can
-be one of 
+<listitem><para>ts: the MPEG2/TS muxer. This muxer can be used with any
+<emphasis>access</emphasis> method.</para>
+
+<para>Item options are: <emphasis>pid-video=&lt;pid&gt;</emphasis>
+to set the PID of the video track,
+<emphasis>pid-audio=&lt;pid&gt;</emphasis> to set the PID of the audio
+track, <emphasis>pid-spu=&lt;pid&gt;</emphasis> to set the PID of the
+subtitle track, <emphasis>pid-pmt=&lt;pid&gt;</emphasis> to set the PID
+of the PMT (Program Map Table), <emphasis>tsid=&lt;id&gt;</emphasis> to
+set the ID of the resulting TS stream, <emphasis>shaping=&lt;shaping
+delay in ms&gt;</emphasis> to set the minimum interval during
+which the bitrate of the stream will remain constant, for variable
+bitrate streams, <emphasis>use-key-frames</emphasis> uses I frames
+as limts for the shaping intervals, <emphasis>pcr=&lt;PCR interval
+in ms&gt;</emphasis> allows to set at which interval Program
+Clock References will be sent, <emphasis>dts-delay=&lt;delay in
+ms&gt;</emphasis> allows to delay PTS (Presentation Time Stamps) from
+the DTS (Decoding Time Stamp), <emphasis>crypt-audio</emphasis> allows
+to enable encryption of the audio track using the CSA algorithm,
+<emphasis>csa-ck=&lt;key as a 16 character word&gt;</emphasis> allows
+to set the key used for CSA encryption.</para></listitem>
+
+<listitem><para>
 <emphasis>avi</emphasis>
   (for AVI format)
 <emphasis>ogg</emphasis> 

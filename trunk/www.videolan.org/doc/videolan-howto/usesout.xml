@@ -295,6 +295,53 @@ standard{access=http,mux=ogg,url=server.example.org:8080}'</userinput>
 </sect2>
 
 <sect2><title>
+<span xml:lang="en">RTP streaming</span>
+<span xml:lang="fr">Diffusion RTP</span>
+<span xml:lang="es">Transmisión RTP</span>
+<span xml:lang="de">RTP-Streaming</span>
+</title>
+
+<para>
+<span xml:lang="en">Stream in RTP</span>
+<span xml:lang="fr">Diffusez en RTP</span>
+<span xml:lang="es">Transmitir en RTP</span>
+<span xml:lang="de">Streamen per RTP</span>
+:</para>
+
+<itemizedlist>
+
+<listitem><para>
+<span xml:lang="en">on the server, run</span>
+<span xml:lang="fr">sur le serveur, lancez</span>
+<span xml:lang="es">en el servidor, ejecuta</span>
+<span xml:lang="de">Führen Sie auf dem Server aus</span>
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#rtp{dst=192.168.0.12,port=1234,sdp=http://server.example.org:8080/test.sdp}'</userinput>
+</screen>
+
+</listitem>
+
+<listitem><para>
+<span xml:lang="en">on the client(s), run</span>
+<span xml:lang="fr">sur le(s) client(s), lancez</span>
+<span xml:lang="es">oen el/los cliente(s), ejecuta</span>
+<span xml:lang="de">Führen Sie bei den Clients aus</span>
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc http://server.example.org:8080/test.sdp</userinput>
+</screen>
+
+</listitem>
+
+</itemizedlist>
+
+</sect2>
+
+
+<sect2><title>
 <span xml:lang="en">Use the <emphasis>es</emphasis> module</span>
 <span xml:lang="fr">Utilisation du module <emphasis>es</emphasis></span>
 <span xml:lang="es">Utilización del módulo <emphasis>es</emphasis></span>

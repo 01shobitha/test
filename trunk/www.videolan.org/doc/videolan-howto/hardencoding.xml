@@ -117,32 +117,18 @@ die den Treibern beiliegende Dokumentation
 <note><para>
 <span xml:lang="en">You must add <command>--enable-pvr</command>
 to <command>./configure</command> to use this
-feature. You may want to change the value of
-<emphasis>CR_MAX_AVERAGE_COUNTER</emphasis> to <emphasis>1000</emphasis>
-in <filename>src/input/input_clock.c</filename> to work around a problem
-with the card</span>
+feature.</span>
 <span xml:lang="fr">Vous devez ajouter <command>--enable-pvr</command>
-à <command>./configure</command> our cela.
-Vous pouvez également changer la valeur de
-<emphasis>CR_MAX_AVERAGE_COUNTER</emphasis> à <emphasis>1000</emphasis>
-dans <filename>src/input/input_clock.c</filename> pour régler un
-problème avec la carte</span>
+à <command>./configure</command> our cela.</span>
 <span xml:lang="es">Debe añadir <command>--enable-pvr</command>
-a <command>./configure</command> para poder usar esta característica.
-También puede modificar el valor de 
-<emphasis>CR_MAX_AVERAGE_COUNTER</emphasis>
-a <emphasis>1000</emphasis> en <filename>src/input/input_clock.c</filename>
-para arreglar un problema con la tarjeta</span>
-<span xml:lang="de">Sie müssen <command>--enable-pvr</command> zu 
-<command>./configure</command> dafür hinzufügen.
-Sie möchten eventuell auch den Wert von <emphasis>CR_MAX_AVERAGE_COUNTER</emphasis>
-auf <emphasis>1000</emphasis> in der Datei <filename>src/input/input_clock.c</filename>
-ändern, um ein Problem mit der Karte zu umgehen</span>
-.</para></note>
+a <command>./configure</command> para poder usar esta característica.</span>
+<span xml:lang="de">Sie müssen <command>--enable-pvr</command> zu
+<command>./configure</command> dafür hinzufügen.</span>
+</para></note>
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv pvr:/dev/video0:norm=secam:size=720x576:frequency=576250:
-bitrate=3000000:maxbitrate=4000000 --sout udp:192.168.0.42 --ttl 12</userinput>
+bitrate=3000000:maxbitrate=4000000 --sout udp:192.168.0.42 --ttl 12 --cr-average 1000</userinput>
 </screen>
 
 <para>
@@ -257,6 +243,14 @@ través de 11 routers</span>
 Ihrer IP-Pakete (was heißt, dass der Stream in der Lage sein wird, 
 11 Router zu überqueren)</span>
 .</para></listitem>
+
+<listitem><para><emphasis>1000</emphasis>
+<span xml:lang="en"> is a secret value to work around a bug of the card</span>
+<span xml:lang="fr"> est un paramètre secret qui permet de contourner un bug de la carte</span>
+<span xml:lang="es"> </span>
+<span xml:lang="de"> </span>
+.</para></listitem>
+
 
 </itemizedlist>
 

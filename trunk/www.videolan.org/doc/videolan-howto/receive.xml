@@ -128,8 +128,41 @@ MMS-Adresse des Streams ist</span>
 .</para>
 
 </listitem>
-
 </itemizedlist>
+
+</sect2>
+
+<sect2><title>
+<span xml:lang="en">Receive a RTP stream available through RTSP</span>
+<span xml:lang="fr">Recevez un flux RTP disponible par RTSP</span>
+<span xml:lang="es"> </span>
+<span xml:lang="de"> </span>
+</title>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv rtsp://www.hardradio.com/tonbeme.mov</userinput>
+</screen>
+
+<para>
+<span xml:lang="en"> where <emphasis>rtsp://www.hardradio.com/tonbeme.mov</emphasis> is the address of the stream</span>
+<span xml:lang="fr">où <emphasis>rtsp://www.hardradio.com/tonbeme.mov</emphasis> est l'adresse du flux RTSP</span>
+<span xml:lang="es"> donde <emphasis>rtsp://www.hardradio.com/tonbeme.mov</emphasis> es la
+dirección del flujo RTSP</span>
+<span xml:lang="de">wobei <emphasis>rtsp://www.hardradio.com/tonbeme.mov</emphasis> [...]</span>
+.</para>
+
+</sect2>
+
+<sect2><title>
+<span xml:lang="en">Receive a stream described by an SDP file</span>
+<span xml:lang="fr">Recevez un flux décrit par un fichier SDP</span>
+<span xml:lang="es">Recibir [...]</span>
+<span xml:lang="de"> </span>
+</title>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv http://server.example.org/stream.sdp</userinput>
+</screen>
 
 </sect2>
 </sect1>
@@ -260,13 +293,13 @@ url="http://www.pace.co.uk">Pace</ulink> et d' <ulink
 url="http://www.aminocom.com">Aminocom</ulink>. Nous avons testé
 l'<emphasis>AmiNET 100</emphasis> d'Aminocom: elle est petite, et
 fonctionne très bien avec VideoLAN</span>
-<span xml:lang="en">Algunos set-top-boxes con tarjeta Ethernet son capaces de
+<span xml:lang="es">Algunos set-top-boxes con tarjeta Ethernet son capaces de
 recibir flujo MPEG2-TS sobre UDP, y soportan multicast. Este es el caso
 de los set-top-boxes de <ulink url="http://www.pace.co.uk">Pace</ulink> y <ulink
 url="http://www.aminocom.com">Aminocom</ulink>. Hemos realizado pruebas
 con el <emphasis>AmiNET 100</emphasis> de Aminocom: es
 pequeño, y trabaja muy bien con VideoLAN</span>
-<span xml:lang="en">Einige Set-Top-Boxen mit Ethernet-Karten können
+<span xml:lang="de">Einige Set-Top-Boxen mit Ethernet-Karten können
 MPEG2-TS-Streams über UDP empfangen und unterstützen Multicast.
 Dies ist der Fall bei den <ulink url="http://www.pace.co.uk">Pace</ulink>
 und <ulink url="http://www.aminocom.com">Aminocom</ulink> - 

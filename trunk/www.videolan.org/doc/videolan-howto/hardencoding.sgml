@@ -1,5 +1,7 @@
 <chapter id="hardencoding"><title id="thardencoding">Stream from an MPEG encoding card</title>
 
+<note><para>Streaming from a Kfir card is only supported under linux</para></note>
+
 <sect1><title>Install the drivers</title>
 
 <para>If you want to be able to stream from a Kfir
@@ -48,6 +50,21 @@ able to cross 11 routers).</para>
 
 <sect1><title>Stream with VLS</title>
 
-<para>[TODO]</para>
+<para>You can either use the command line interface of vls or the vls.cfg configuration file</para>
+
+<para>Here is a typical configuration file, for a kfir encoding card :</para>
+
+<screen>
+# Video input configuration      
+BEGIN "kfir"                     
+# --- Example:
+Device        = "/dev/video"     # Video4linux device (default is /dev/video)
+Type          = "Mpeg2-PS"       # Stream type (default is "Mpeg2-PS")
+END
+</screen>
+
+<para>For more information on how to set up a complete vls.cfg configuration file, please read the vls user guide, shipped with vls.</para> 
+
+<para>TODO: add command line</para>
 
 </chapter>

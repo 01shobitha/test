@@ -1,10 +1,16 @@
 <chapter id="softencoding"><title id="tsoftencoding">Stream from an acquisition card</title>
 
+<note><para>This feature is available on linux only</para></note>
+
 <sect1><title>Install the Video for Linux drivers</title>
 
-<para>[TODO]</para>
+<para>If you want to stream from an acquisition card, a video4linux driver must be available for it. You can find more information about video4linux and supported devices <ulink url="http://www.exploits.org/v4l">here</ulink>. Compile the right module for your device, and insert it into your kernel (Some video4linux modules are shipped with linux 2.4.20). You can test your device by using any of the listed programs in the Video: TV and PVR/DVR section of <ulink url="http://www.exploits.org/v4l/">this page</ulink></para>
 
 <sect1><title>Stream with VLC</title>
+
+<note><para>This feature is not available in vlc 0.5.3, but it is in CVS</para></note>
+
+<note><para>If you're building vlc from sources, you must specify --enable-v4l to ./configure to use this feature.</para></note>
 
 <screen>
 <prompt>% </prompt><userinput>vlc v4l:/dev/video:channel=0:frequency=8052:norm=secam:size=vga --sout udp:192.168.0.12 --ttl 12</userinput>
@@ -16,6 +22,8 @@
 
 <listitem><para><filename>/dev/video</filename> is the device
 corresponding to your acquisition card,</para>
+
+<listitem><para><emphasis>frequency, norm and size</emphasis> are parameters passed to your card.
 
 <listitem><para><emphasis>192.168.0.12</emphasis> is either :
 
@@ -32,12 +40,47 @@ able to cross 11 routers).</para>
 
 </itemizedlist>
 
-<para>[TODO : complete]</para>
-
 </sect1>
 
 <sect1><title>Stream with VLS</title>
 
-<para>[TODO]</para>
+<note><para>If you're building vls from sources, you must specify --enable-v4l to ./configure to use this feature.</para></note>
+
+<para>You can either use the command line interface of vls or the vls.cfg configuration file</para>
+
+<para>Here is a typical configuration file, for a v4l device :</para>
+
+<screen>
+BEGIN "TVcard"
+# --- Example:
+Device        = "/dev/video"     # Video4linux device (default is /dev/video)
+Channel       = "0"              # Channel Source: Webcam often 0
+                                 # For TV Card, may be Tuner(0), Composite(1),
+                                 # Svideo(2)
+Norm          = "0"              # PAL=0, NTSC=1, SECAM=2
+Size          = ""               # Size possibilities 
+
+                                 # - empty string : default size
+                                 # - width x height
+                                 # - subQCIF(128x96), QSIF(160x120),
+                                 #   QCIF(176x144), SIF(320x240),
+                                 #   CIF(352x288), VGA (640x480)
+DeInterlace   = "0"
+Compression   = "mpeg4"          # mpeg1 or mpeg4 [experimental]
+Bitrate       = "500"            # Bitrate (approx.) in kbps
+Quality       = "1.0"            # 1.0 (good) to 31.0 (bad)
+
+AudioDevice   = "/dev/audio1"    # Sound device (try /dev/dspX)
+AudioCompression = "mp2"         # mp2, mp3 or ogg
+AudioCompression = "mp2"         # mp2, mp3 or ogg
+AudioBitrate  = "64"             # Audio bitrate in kbps
+AudioFreq     = "16000"          # 16000, 22050, 24000, 32000, 44100, 48000
+AudioChannel  = "2"              # 1=mono, 2=stereo
+END
+</screen>
+
+<para>For more information on how to set up a complete vls.cfg configuration file, please read the vls user guide, shipped with vls.</para>
+
+<para>TODO: add command line</para>
 
 </chapter>

@@ -20,7 +20,8 @@ $(DOC)-en.xml: $(DOC).xml
 
 $(DOC)-en.html: $(DOC)-en.xml
 	/bin/cp ../common/magic-jpg.xml ../common/magic.xml
-	jade -t sgml -d ../common/stylesheet-html.dsl $(DOC)-en.xml > videolan-faq-en.html
+	jade -t sgml -d ../common/stylesheet-html.dsl $(DOC)-en.xml
+	mv $(DOC).html $(DOC)-en.html
 	ln -sf $(DOC)-en.html index.html
 	zip $(DOC)-en-html.zip $(DOC)-en.html
 
@@ -64,7 +65,8 @@ $(DOC)-es.xml: $(DOC).xml
 
 $(DOC)-es.html: $(DOC)-es.xml
 	/bin/cp ../common/magic-jpg.xml ../common/magic.xml
-	jade -t sgml -d ../common/stylesheet-html.dsl $(DOC)-es.xml > $(DOC)-es.html
+	jade -t sgml -d ../common/stylesheet-html.dsl $(DOC)-es.xml
+	mv $(DOC).html $(DOC)-en.html
 	zip $(DOC)-es-html.zip $(DOC)-es.html
 
 $(DOC)-es.ps: $(DOC)-es.xml

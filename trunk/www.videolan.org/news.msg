@@ -4,6 +4,11 @@
 # Et pour les nouvelles importantes, c'est pas un | , c'est un §
 #
 
+|10 June 2003| Documentation update | The VLS user guide is back and
+we have a Spanish translation of the VideoLAN FAQ by Javier Varela
+: see the <a href="/doc/">documentation page</a>. All the VideoLAN
+documentation is now in Docbook XML.
+
 |6 June 2003| Release: VLS 0.5.3 | This release fixes a bug in the
 command line parsing, adds DVD title and chapter selection with the
 configuration file and features a new Windows installer.

@@ -1,15 +1,12 @@
 <?php
    $title = "VLC media player for WinCE / PocketPC";
    $lang = "en";
-   $date = "16 April 2001";
-   $menu = array( "vlc", "windows" );
+   $date = "21 february 2005";
+   $menu = array( "vlc", "download" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
-
-   include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
-
 ?>
 
-<?php function pkgitemdev($version,$name) { ?><li><a href="http://download.videolan.org/pub/testing/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a></li><?php } ?>
+<?php function pkgitem($version,$name) { ?><li><a href="http://download.videolan.org/pub/videolan/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a></li><?php } ?>
 
 <h1> VLC media player for WinCE / PocketPC </h1>
 
@@ -21,4 +18,4 @@
 
 <p>If you want, you can download the <a href="download-sources.html">sourcecode</a> of VLC media player.</p>
 
-<?php footer('$Id: download-windows.html 2844 2004-11-03 11:49:07Z hartman $'); ?>
+<?php footer('$Id: download-wince.html 2844 2004-11-03 11:49:07Z hartman $'); ?>

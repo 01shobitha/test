@@ -355,6 +355,15 @@ lecture.</span>
 </sect1>
 
 <sect1><title>
+<span xml:lang="fr">Qu'est-ce qu'un codec ?</span>
+<span xml:lang="en">What is a codec ?</span>
+</title>
+
+&codec-demux;
+
+</sect1>
+
+<sect1><title>
 <span xml:lang="en">How can I use VideoLAN ?</span>
 <span xml:lang="fr">Utilisation de VideoLAN ?</span>
 </title>

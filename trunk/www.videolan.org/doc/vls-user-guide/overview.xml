@@ -1,20 +1,43 @@
-<chapter id="overview"><title id="toverview">Overview and basic concepts</title>
+<?xml version="1.0" encoding="iso-8859-1" ?>
 
-<sect1><title>VLS structure</title>
+<chapter id="overview"><title id="toverview">
+<span xml:lang="en">Overview and basic concepts</span>
+<span xml:lang="fr">Concepts et mode de fonctionnement</span>
+</title>
 
-<para>From a user's point of view, VLS can be divided into four
-kinds of components:</para>
+<sect1><title>
+<span xml:lang="en">VLS structure</span>
+<span xml:lang="fr">Structure de VLS</span></title>
+
+<para>
+<span xml:lang="en">From a user's point of view, VLS can be divided into
+four kinds of components</span>
+<span xml:lang="fr">D'un point de vue utilisateur, VLS peut être divisé 
+en quatre composants majeurs</span>
+:</para>
 
 <itemizedlist>
 
-<listitem><para>a <emphasis>manager</emphasis>,</para></listitem>
-<listitem><para><emphasis>inputs</emphasis>,</para></listitem>
-<listitem><para><emphasis>converters</emphasis>,</para></listitem>
-<listitem><para>and <emphasis>channels</emphasis>.</para></listitem>
+<listitem><para>
+<span xml:lang="en">a <emphasis>manager</emphasis></span>
+<span xml:lang="fr">un <emphasis>gestionnaire</emphasis></span>
+,</para></listitem>
+<listitem><para>
+<emphasis><span xml:lang="en">inputs</span>
+<span xml:lang="fr">des entrées</span></emphasis>,</para></listitem>
+<listitem><para><emphasis>
+<span xml:lang="en">converters</span>
+<span xml:lang="fr">des convertisseurs</span></emphasis>,</para></listitem>
+<listitem><para>
+<span xml:lang="fr">and <emphasis>channels</emphasis></span>
+<span xml:lang="en">et des <emphasis>sorties</emphasis></span>
+.</para></listitem>
 
 </itemizedlist>
 
-<figure><title>VLS structure</title>
+<figure><title>
+<span xml:lang="en">VLS structure</span>
+<span xml:lang="fr">Structure de VLS</span></title>
 <mediaobject>
   <imageobject>
     <imagedata fileref="images/archi-vls.jpg" format="JPG" scalefit="1" scale="60" />
@@ -22,60 +45,96 @@ kinds of components:</para>
 </mediaobject>
 </figure>
 
-<simplesect><title>Input</title>
+<simplesect><title>
+<span xml:lang="en">Input</span>
+<span xml:lang="fr">Entrées</span></title>
 
-<para>The role of an <emphasis>input</emphasis> is to read MPEG
-streams from a given source (file, DVD, DVB card, device, ...), and
-feed the right <emphasis>converters</emphasis> with these streams.
-An input may be able to read several streams, which are called
-<emphasis>programs</emphasis>. There are several kinds of
-inputs:</para>
+<para>
+<span xml:lang="en">The role of an <emphasis>input</emphasis> is to
+read MPEG streams from a given source (file, DVD, DVB card, device,
+...), and feed the right <emphasis>converters</emphasis> with these
+streams. An input may be able to read several streams, which are called
+<emphasis>programs</emphasis>. There are several kinds of inputs</span>
+<span xml:lang="fr">Le rôle d'une <emphasis>entrée</emphasis> est
+de lire des flux MPEG depuis une source donnée (fichier, DVD, carte
+DVB, ...), et de les envoyer aux <emphasis>convertisseurs</emphasis>.
+Une entrée peut lire plusieurs flux. Ceux-ci sont alors appellés
+des <emphasis>programmes</emphasis>. Il existe plusieurs types
+d'entrées</span>
+:</para>
 
 <itemizedlist>
 
-<listitem><para>the <emphasis>local</emphasis> input, which can read videos
-from files or DVDs,</para></listitem>
+<listitem><para>
+<span xml:lang="en">the <emphasis>local</emphasis> input, which can read
+videos from files or DVDs</span>
+<span xml:lang="fr">l'entrée <emphasis>local</emphasis>, qui peut lire
+depuis des fichiers et des DVDs</span>
+,</para></listitem>
 
-<listitem><para>the <emphasis>video</emphasis> input, which
-can read videos from MPEG encoding cards devices,</para></listitem>
+<listitem><para>
 
-<listitem><para>the <emphasis>dvb</emphasis> input, which
-can read videos from DVB cards,</para></listitem>
+<span xml:lang="en">the <emphasis>video</emphasis> input, which
+can read videos from MPEG encoding cards devices</span>
+<span xml:lang="fr">l'entrée <emphasis>video</emphasis>, qui
+peut lire des vidéos depuis des cartes d'encodage MPEG</span>
+,</para></listitem>
 
-<listitem><para>the <emphasis>v4l</emphasis> input, which
+<listitem><para>
+<span xml:lang="en">the <emphasis>dvb</emphasis> input, which
+can read videos from DVB cards</span>,
+<span xml:lang="en">l'entrée <emphasis>dvb</emphasis>, qui peut
+lire depuis des cartes DVB</span>,</para></listitem>
+
+<listitem><para>
+<span xml:lang="en">the <emphasis>v4l</emphasis> input, which
 can read from acquisition cards supported by the Video4Linux
-drivers.</para></listitem>
+drivers</span>
+<span xml:lang="fr">l'entrée <emphasis>v4l</emphasis>, qui 
+peut lire depuis les cartes d'acquisition supportées par les
+pilotes Video4Linux</span>
+.</para></listitem>
 
 </itemizedlist>
 
-<para>You can use several inputs and play several
-programs at the same time.</para>
+<para>
+<span xml:lang="en">You can use several inputs and play several programs
+at the same time</span>
+<span xml:lang="fr">Vous pouvez utiliser plusieurs entrées et jouer
+plusieurs programmes en même temps</span>
+.</para>
 
 </simplesect>
 
-<simplesect><title>Converter</title>
+<simplesect><title>
+<span xml:lang="en">Converter</span>
+<span xml:lang="fr">Les convertisseurs</span>
+</title>
 
-<para>The role of a <emphasis>converter</emphasis> is to receive a
-stream from an input, and convert it into the MPEG-TS format. If you
-don't know what PS or TS are, here is some explanation. When you play
-an MPEG video from a DVD, for instance, the MPEG stream is actually
-composed of several streams (called Elementary Streams): there is
-one stream for video, one for audio, another for subtitles, and so
-on. These different streams are mixed together into a single Program
-Stream (PS). So, the .VOB files you can find in a DVD are actually
-MPEG2-PS files. But this PS format is not adapted for streaming
-video through a network or by satellite, for instance. So, another
-format called Transport Stream (TS) was designed for streaming MPEG
-videos through such channels. VLS is able to convert PS
-streams (from DVDs, for instance) into TS streams (ps2ts converter). Of
-course, it can also read TS streams, and fix them by handling stream
-discontinuities (ts2ts converter).</para>
+<para>
+<span xml:lang="en">The role of a <emphasis>converter</emphasis> is to
+receive a stream from an input, and convert it into the MPEG-TS format.
+VLS is able to convert PS streams (from DVDs, for instance) into TS
+streams (ps2ts converter). Of course, it can also read TS streams, and
+fix them by handling stream discontinuities (ts2ts converter)</span>
+<span xml:lang="fr">Le rôle d'un <emphasis>convertisseur</emphasis>
+est de recevoir un flux depuis une entrée et de le convertir au format
+MPEG-TS. VLS peut convertir des flux PS (provenant d'un DVD, par
+exemple) en flux TS, en utilisant le convertisseur ps2ts. Bien sûr, il
+peut également lire les flux TS, et les réparer en prenant en charge les
+discontinuités du flux (convertisseur ts2ts)</span>
+.</para>
 
 </simplesect>
 
-<simplesect><title>Channel</title>
+<simplesect><title>
+<span xml:lang="en">Channel</span>
+<span xml:lang="fr">Les sorties</span>
+</title>
 
-<para>A <emphasis>channel</emphasis> receives a stream from a
+<para>
+
+<span xml:lang="en">A <emphasis>channel</emphasis> receives a stream from a
 converter, and send it to a given destination (network, file, ...).
 If you want, you can call a "channel" an "output": it is the
 same thing !). Currently, two kinds of channels are supported:
@@ -84,44 +143,91 @@ at the moment, VLS can support only one output per
 stream, so you cannot play a stream on the network and write it into
 a file at the same time. The network output is highly configurable:
 you can choose which network interface you want to use, and specify
-source and destination IP addresses.</para>
+source and destination IP addresses</span>
+
+<span xml:lang="fr">Une sorties recoit le flux depuis le convertisseur,
+et l'envoie vers une destination donnée (réseau, fichier). Actuellement,
+il existe deux types de sorties: <emphasis>network</emphasis> et
+<emphasis>file</emphasis>. Pour l'instant, VLS ne peut utiliser qu'une
+sortie par flux, donc vous ne pouvez pas diffuser un flux sur le réseau
+et l'enregistrer dans un fichier en même temps. La sortie réseau est
+très configuratble: vous pouvez choisir l'interface réseau, et spécifier
+les adresses IP source et destination</span>
+
+.</para>
 
 </simplesect>
 
-<simplesect><title>Manager</title>
+<simplesect><title>
+<span xml:lang="en">Manager</span>
+<span xml:lang="fr">Le gestionnaire</span>
+</title>
 
-<para>The <emphasis>manager</emphasis> controls the way streams are
-sent. Through an <emphasis>administration interface</emphasis>,
-you can tell the manager to start, stop, suspend, resume, forward or
-rewind the different programs. You can also get a list of all programs
-available in the Program Table. The manager gets this table from the
-VLS configuration file (<filename>vls.cfg</filename>), so it cannot
-be changed once VLS has been started. At the moment, you cannot ask
-the manager whether a given stream is being broadcasted, but you
-will get an error message if you try to stop a stream that was not
-broadcasted.</para>
+<para>
+<span xml:lang="en">The <emphasis>manager</emphasis> controls
+the way streams are sent. Through an <emphasis>administration
+interface</emphasis>, you can tell the manager to start, stop,
+suspend, resume, forward or rewind the different programs. You
+can also get a list of all programs available in the Program
+Table. The manager gets this table from the VLS configuration file
+(<filename>vls.cfg</filename>), so it cannot be changed once VLS has
+been started. At the moment, you cannot ask the manager whether a given
+stream is being broadcasted, but you will get an error message if you
+try to stop a stream that was not broadcasted</span>
+<span xml:lang="fr">Le <emphasis>gestionnaire</emphasis>
+contrôle l'envoi des flux. En utilisant une <emphasis>interface
+d'administration</emphasis>, vous pouvez lancer, arrêter, interrompre,
+ou reprendre les programmes. Vous pouvez également afficher la liste des
+programmes disponibles, lue depuis le fichier de configuration de VLS
+(<filename>vls.cfg</filename>) (c'est pourquoi elle ne peut pas être
+changée après le démarrage). Pour l'instant, vous ne pouvez pas demander
+au gestionnaire si un flux est en cours de diffusion, mais une erreur se
+produira si vous tentez de stopper un flux qui ne l'est pas</span>
+.</para>
 
 </simplesect>
 </sect1>
 
-<sect1><title>Administration interface</title>
+<sect1><title>
+<span xml:lang="en">Administration interface</span>
+<span xml:lang="fr">Interface d'administration</span>
+</title>
 
-<para>There are currently two ways to launch the streaming:</para>
+<para>
+<span xml:lang="en">There are currently two ways to launch the
+streaming</span>
+<span xml:lang="fr">Il existe deux moyens de contrôler VLS</span>
+:</para>
 
 <itemizedlist>
 
-<listitem><para>you can use the <emphasis>command line</emphasis> to
-give arguments at startup;</para></listitem>
+<listitem><para>
+<span xml:lang="en">you can use the <emphasis>command line</emphasis> to
+give arguments at startup;</span>
+<span xml:lang="fr">vous pouvez utiliser la <emphasis>ligne de
+commande</emphasis> pour passer des arguments au démarrage;</span>
+</para></listitem>
 
-<listitem><para>oy you can use the <emphasis>telnet interface</emphasis> to
-start/stop/pause the streaming whenever you want.</para></listitem>
+<listitem><para>
+<span xml:lang="en">or you can use the <emphasis>telnet
+interface</emphasis> to start/stop/pause the streaming whenever you
+want</span>
+<span xml:lang="fr">ou vous pouvez utiliser l'<emphasis>interface
+Telnet</emphasis> pour contrôler la diffusion à tout moment</span>
+.</para></listitem>
 
 </itemizedlist>
 
-<para>When using the telnet interface, you must authenticate before
-typing any command, because any user may not be allowed to execute any
-command (this can be configured in the <filename>vls.cfg</filename>
-configuration file).</para>
+<para>
+<span xml:lang="en">When using the telnet interface, you must
+authenticate before typing any command, because any user may not
+be allowed to execute any command (this can be configured in the
+<filename>vls.cfg</filename> configuration file)</span>
+<span xml:lang="fr">Afin d'utiliser l'interface Telnet, vous devez tout
+d'abord vous authentifier, car tous les utilisateurs ne peuvent exécuter
+toutes les commandes (ceci se règle dans le fichier de configuration
+<filename>vls.cfg</filename>)</span>
+.</para>
 
 </sect1>
 </chapter>

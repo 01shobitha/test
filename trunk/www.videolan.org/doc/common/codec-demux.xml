@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<para>
+<span xml:lang="en">To fully understand the VideoLAN solution, you must
+understand the difference between a <emphasis>codec</emphasis> and a
+<emphasis>container format</emphasis></span>
+<span xml:lang="fr">Afin de bien comprendre le fonctionnement
+de la solution VideoLAN, vous devez connaître la différence
+entre un <emphasis>codec</emphasis> et un <emphasis>format
+conteneur</emphasis></span>
+</para>
+
+<itemizedlist>
+
+<listitem><para>
+<span xml:lang="en">A <emphasis>codec</emphasis> is a compression
+algorithm, used to reduce the size of a stream. There are audio codecs
+and video codecs. MPEG-1, MPEG-2, MPEG-4, Vorbis, DivX, ... are
+codecs</span>
+<span xml:lang="fr">Un <emphasis>codec</emphasis> est un algorithme de
+compression, utilisé afin de réduire la taille du flux. Il existe des
+codecs audio et vidéo. MPEG-1, MPEG-2, MPEG-4, Vorbis, DivX, ... sont
+des codecs</span>
+</para></listitem>
+
+<listitem><para>
+<span xml:lang="en">A <emphasis>container format</emphasis> contains
+one or several streams already encoded by codecs. Very often, there
+is an audio stream and a video one. AVI, Ogg, MOV, ASF, ... are
+container formats. The streams contained can be encoded using different
+codecs. In a perfect world, you could put any codec in any container
+format. Unfortunately, there are some incompatibilities. You can
+find a matrix of possible codecs and container formats on the <ulink
+url="http://www.videolan.org/streaming/features.html">features
+page</ulink>
+</span>
+<span xml:lang="fr">Un <emphasis>format conteneur</emphasis> contient
+un ou plusieurs flux déjà encodés. Très souvent, il y a un flux audio
+et un flux vidéo. AVI, Ogg, MOV, ASF,... sont des formats conteneurs.
+Les flux contenus peuvent utiliser différents codecs. Si tout était
+parfait, n'importe quel codec pourrait être mis dans n'importe quel
+format conteneur, mais il existe des incompatibilités. Vous trouverez
+une matrice des codecs et formats conteneurs possible sur la <ulink
+url="http://www.videolan.org/streaming/features.html"> page des
+fonctionnalités</ulink>
+</span>
+</para></listitem>
+</itemizedlist>
+
+<para>
+<span xml:lang="en">To decode a stream, VLC first
+<emphasis>demuxes</emphasis> it. This means that it reads the container
+format and separates audio, video, and subtitles, if any. Then, each of
+these are passed <emphasis>decoders</emphasis> that do the mathematical
+processing to decompress the streams</span>
+<span xml:lang="fr">Pour décoder un flux, VLC commence par le
+<emphasis>démultiplexer</emphasis>. Celà signifie qu'il lit le
+format conteneur, et sépare l'audio, la vidéo, et éventuellement
+les sous-titres. Ensuite, chacun de ces flux séparés est envoyé
+aux <emphasis>décodeurs</emphasis> qui vont effectuer le processus
+mathématique de décompression</span>
+.</para>
+
+
+<para>
+<span xml:lang="en">There is a particular thing about MPEG:</span>
+<span xml:lang="fr">MPEG est un cas particulier:</span>
+</para>
+
+<itemizedlist>
+
+<listitem><para>
+<span xml:lang="en">MPEG is a <emphasis>codec</emphasis>. There are
+several versions of it, called MPEG-1, MPEG-2, MPEG-4, ...</span>
+<span xml:lang="fr">MPEG est un codec. Il en existe plusieurs versions,
+appelées MPEG-1, MPEG-2, MPEG-4, ...</span>
+</para></listitem>
+
+<listitem>
+
+<span xml:lang="en"><para>MPEG is also a container format, sometimes refered
+to as <emphasis>MPEG System</emphasis>. There are several types of MPEG:
+ES, PS, and TS</para>
+<para>When you play an MPEG video from a DVD, for instance, the MPEG
+stream is actually composed of several streams (called Elementary
+Streams, ES): there is one stream for video, one for audio, another for
+subtitles, and so on. These different streams are mixed together into a
+single Program Stream (PS). So, the .VOB files you can find in a DVD are
+actually MPEG-PS files. But this PS format is not adapted for streaming
+video through a network or by satellite, for instance. So, another
+format called Transport Stream (TS) was designed for streaming MPEG
+videos through such channels.</para></span>
+
+<span xml:lang="fr"><para>MPEG est également un format de conteneur,
+parfois appellé <emphasis>MPEG System</emphasis>. Il en existe plusieurs
+types: ES, PS, et TS</para>
+<para>Quand vous jouez une vidéo MPEG depuis un DVD, par exemple,
+le flux MPEG est en fait composé de plusieurs flux (appelés flux
+élémentaires, ES): un flux vidéo, un flux audio, les sous-titres, ...
+Tous ces flux sont multiplexés dans nu seul flux Program Stream (PS).
+Ainsi, les fichiers .VOB du DVD sont en fait des fichiers MPEG-PS. Mais
+ce format PS n'est pas adapté pour la diffusion sur un réseau ou par un
+satellite, par exemple. Un autre format, appelé Transport Stream, ou TS,
+fut conçu pour la diffusion de vidéo MPEG.</para></span>
+
+</listitem>
+</itemizedlist>

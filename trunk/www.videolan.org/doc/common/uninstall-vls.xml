@@ -1,20 +1,38 @@
-<sect2><title>Under Windows</title>
+<?xml version="1.0" encoding="iso-8859-1" ?>
 
-<para>Go to the <emphasis>Control Panel</emphasis>, click
-on <emphasis>Add and remove programs</emphasis>, select
+<sect2><title>Windows</title>
+
+<para>
+<span xml:lang="en">Go to the <emphasis>Control Panel</emphasis>,
+click on <emphasis>Add and remove programs</emphasis>, select
 <emphasis>VLS</emphasis> and click on <emphasis>Modify/Remove</emphasis>
-and follow the steps to uninstall the program.</para>
+and follow the steps to uninstall the program</span>
+<span xml:lang="fr">Allez dans le <emphasis>Panneau de
+contrôle</emphasis>, cliquez sur <emphasis>Ajoutez et supprimer des
+programmes</emphasis>, choisissez <emphasis>VLS</emphasis> et cliquez
+sur <emphasis>Modifier/Enlever</emphasis> et suivez les étapes pour
+désinstaller le programme</span>
+.</para>
 
 </sect2>
 
-<sect2><title>If you compiled VLS from sources</title>
+<sect2><title>
+<span xml:lang="en">If you compiled VLS from sources</span>
+<span xml:lang="fr">Si vous avez compilé VLS depuis les sources</span>
+</title>
 
-<para>Go to the directory containing VLS sources and run:</para>
+<para>
+<span xml:lang="en">Go to the directory containing VLS sources and run</span>
+<span xml:lang="fr">Allez dans le répertoire contenant les sources et 
+faites</span>:</para>
 
 <screen>
 <prompt># </prompt><userinput>make uninstall</userinput>
 </screen>
 
-<para>Then you can remove the VLS sources.</para>
+<para>
+<span xml:lang="en">Then you can remove the VLS sources</span>
+<span xml:lang="fr">Vous pouvez ensuite enlever les sources de VLS</span>
+.</para>
 
 </sect2>

@@ -4,6 +4,7 @@
 
 [
   <!ENTITY intro SYSTEM "../common/intro.xml">
+  <!ENTITY codec-demux SYSTEM "../common/codec-demux.xml">
   <!ENTITY install SYSTEM "install.xml">
   <!ENTITY install-vls SYSTEM "../common/install-vls.xml">
   <!ENTITY uninstall-vls SYSTEM "../common/uninstall-vls.xml">
@@ -19,7 +20,10 @@
 
 <bookinfo>
 
-<title>VLS user guide</title>
+<title>
+<span xml:lang="en">VLS user guide</span>
+<span xml:lang="fr">Guide de l'utilisateur de VLS</span>
+</title>
 
 <authorgroup>
   <author>
@@ -34,7 +38,10 @@
 
 <copyright>
     <year>2002, 2003</year>
-    <holder>the VideoLAN project</holder>
+    <holder>
+<span xml:lang="en">the VideoLAN project</span>
+<span xml:lang="fr">le projet VideoLAN</span>
+</holder>
 </copyright>
 
 <legalnotice>
@@ -62,7 +69,11 @@ Back-Cover Texts. The text of the license can be found in the appendix
 
 <abstract>
 
-<para>This document is the complete user guide of VLS.</para>
+<para>
+<span xml:lang="en">This document is the complete user guide of VLS</span>
+<span xml:lang="fr">Ce document est le guide de l'utilsateur complet
+pour VLS</span>
+.</para>
 
 </abstract>
 

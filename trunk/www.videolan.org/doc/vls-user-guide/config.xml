@@ -1,21 +1,46 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
 <chapter id="config"><title id="tconfig">Configuration</title>
 
-<para>VLS reads its configuration from the <filename>vls.cfg</filename>
-configuration file, which is supposed to be located in the current
-directory or in <filename>SYSCONF_DIR/videolan/vls</filename> (where
+<para>
+<span xml:lang="en">VLS reads its configuration from the
+<filename>vls.cfg</filename> configuration file, which
+is supposed to be located in the current directory or
+in <filename>SYSCONF_DIR/videolan/vls</filename> (where
 <emphasis>SYSCONF_DIR</emphasis> is <filename>/usr/local/etc</filename>
 if you built and installed VLS by hand, or is <filename>/etc</filename>
-if you installed the debian binary package).</para>
+if you installed the debian binary package)</span>
+<span xml:lang="fr">VLS lit sa configuration depuis le fichier
+<filename>vls.cfg</filename>, qui doit se trouver dans le répertoire
+courant ou dans <filename>SYSCONF_DIR/videolan/vls</filename> où
+<emphasis>SYSCONF_DIR</emphasis> est <filename>/usr/local/etc</filename>
+si vous avez installé VLS à la main, ou <filename>/etc</filename> si
+vous avez utilisé le package Debian</span>
+.</para>
 
-<para>To write a <filename>vls.cfg</filename> file, use the one supplied
-with VLS as a start-point.</para>
+<para>
+<span xml:lang="en">To write a <filename>vls.cfg</filename> file, use the one supplied
+with VLS as a start-point</span>
 
-<sect1><title>General structure</title>
+<span xml:lang="fr">Pour écrire un fichier <filename>vls.cfg</filename>, utilisez celui fourni avec VLS comme point de départ</span>
 
-<para>VLS configuration file <filename>vls.cfg</filename> is divided
-into sections, and each section may contain several variables:</para>
+.</para>
 
+<sect1><title>
+<span xml:lang="en">General structure</span>
+<span xml:lang="fr">Structure générale</span>
+</title>
+
+<para>
+<span xml:lang="en">VLS configuration file <filename>vls.cfg</filename>
+is divided into sections, and each section may contain several
+variables</span>
+<span xml:lang="fr">Le fichier de configuration
+<filename>vls.cfg</filename> est divisé en section, chacune contenant
+plusieurs variables</span>
+:</para>
 <programlisting>
+<span xml:lang="en">
 BEGIN "FirstSection"
   Variable1 = "value1"
   Variable2 = "value2"
@@ -27,44 +52,88 @@ BEGIN "SecondSection"
   Variable3 = "value3"
   [...]
 END
+</span>
+<span xml:lang="fr">
+BEGIN "Section1"
+   Variable1 = "valeur1"
+   Variable2 = "valeur2"
+  [...]
+END
 
+BEGIN "Section2"
+   Variable1 = "valeur1"
+   Variable3 = "valeur3"
+  [...]
+END
+</span> 
 [...]
 </programlisting>
 
-<para>All section names, variable names and values are not
+<para>
+<span xml:lang="en">All section names, variable names and values are not
 case-sensitive. There can be empty sections and subsections. Comments
 must follow a <keycap>#</keycap> character. Some variables have a
 default value; it means that you can ommit to declare these variables,
-and then they will be given their default value.</para>
+and then they will be given their default value</span>
+<span xml:lang="fr">Tous les noms de section, noms de variable, et
+valeurs ne sont pas sensibles à la case. Il peut y avoir des sections
+et sous-sections vides. Les commentaires doivent être placés après un
+<keycap>#</keycap>. Certaines variables ont une valeur par défaut; ce
+qui signifie que vous pouvez ne pas les déclarer, leur valeur sera alors
+la valeur par défaut</span>
+.</para>
 
 </sect1>
 
-<sect1><title>Writing a <filename>vls.cfg</filename></title>
+<sect1><title>
+<span xml:lang="en">Writing a <filename>vls.cfg</filename></span>
+<span xml:lang="fr">Ecriture d'un <filename>vls.cfg</filename></span>
+</title>
 
-<para>Here is an explanation of all the sections you can find in a
-<filename>vls.cfg</filename>:</para>
+<para>
+<span xml:lang="en">Here is an explanation of all the sections you can
+find in a <filename>vls.cfg</filename></span>
+<span xml:lang="fr">Nous allons maintenant détailler toutes les sections
+du fichier <filename>vls.cfg</filename></span>
+:</para>
 
 <sect2><title>Section "Vls"</title>
 
-<para>This section contains application wide settings.</para>
+<para>
+<span xml:lang="en">This section contains application wide settings</span>
+<span xml:lang="fr">Cette section contient des paramètres globaux</span>
+.</para>
 
 <programlisting>
 LogFile = "name"
 </programlisting>
 
-<para>Name of VLS log file. If left empty "", then no loggin to files is
-done. Default is "vls.log".</para>
+<para>
+<span xml:lang="en">Name of VLS log file. If left empty "", then no
+logging to files is done. Default is "vls.log"</span>
+<span xml:lang="fr">Nom du fichier de log de VLS. Si une valeur vide
+("") est entrée, aucun log n'est écrit. Le défaut est "vls.log"</span>
+.</para>
 
 <programlisting>
 SystemLog = "[disable|enable]"
 </programlisting>
 
-<para>Logging to the SystemLog. Today, only the SystemLog using
-syslogd is implemented: compile with <command>./configure
---enable-syslog</command>.</para>
+<para>
+<span xml:lang="en">Logging to the SystemLog. Today, only the SystemLog
+using syslogd is implemented: compile with <command>./configure
+--enable-syslog</command></span>
+<span xml:lang="fr">Log dans le mécanisme de log du système.
+Actuellement, seul syslogd est supporté: compilez avec
+<command>./configure --enable-syslog</command></span>
+.</para>
 
-<caution><para>If VLS is started as <command>vlsd</command>, then the
-following configuration is mandatory:</para>
+<caution><para>
+<span xml:lang="en"> If VLS is started as <command>vlsd</command>, then
+the following configuration is mandatory</span>
+<span xml:lang="fr">Si VLS est lancé en tant que
+<command>vlsd</command>, la configuration suivante est requise</span>
+:</para>
 
 <programlisting>
 BEGIN "Vls"
@@ -80,9 +149,14 @@ END
 ScreenLog = "[disable|enable]"
 </programlisting>
 
-<para>Logging to the console.</para>
+<para>
+<span xml:lang="en">Logging to the console</span>
+<span xml:lang="fr">Affichage des logs sur la console</span>.</para>
 
-<para>Example:</para>
+<para>
+<span xml:lang="en">Example</span>
+<span xml:lang="fr">Exemple</span>
+:</para>
 
 <programlisting>
 BEGIN "Vls"
@@ -96,20 +170,35 @@ END
 
 <sect2><title>Section "Groups"</title>
 
-<para>In this section, you can define some groups of users, and which
-commands these users are allowed to execute. For each group you want to
-define, you must add a line in the following format:</para>
+<para>
+<span xml:lang="en">In this section, you can define some groups of
+users, and which commands these users are allowed to execute. For
+each group you want to define, you must add a line in the following
+format</span>
+<span xml:lang="fr">Dans cette section, vous pouvez définir des groupes
+d'utilisateurs et quelles commandes ils sont autorisés à exécuter. Pour
+chaque groupe, vous devez ajouter une ligne du type</span>
+:</para>
 
 <programlisting>
 groupname = "command1|command2|..."
 </programlisting>
 
-<para>This adds a group "groupname", the users of which are allowed to
-execute command1, command2, and so on. At the moment, the available
-commands are: help, browse, start, suspend, resume, forward, rewind,
-stop, shutdown, logout.</para>
+<para>
+<span xml:lang="en">This adds a group "groupname", the users of which
+are allowed to execute command1, command2, and so on. At the moment, the
+available commands are: help, browse, start, suspend, resume, forward,
+rewind, stop, shutdown, logout</span>
+<span xml:lang="fr">Ceci ajoute le groupe "groupname", dont les
+utilisateurs peuvent exécuter command1,command2, ... Les commandes
+disponibles sont: browse, start, suspend, resume, forward, rewind, stop,
+shutdown, logout</span>
+.</para>
 
-<para>Example:</para>
+<para>
+<span xml:lang="en">Example</span>
+<span xml:lang="fr">Exemple</span>
+:</para>
 
 <programlisting>
 BEGIN "Groups"
@@ -122,30 +211,50 @@ END
 
 <sect2><title>Section "Users"</title>
 
-<para>This section contains a list of users allowed to control VLS
-through an administration interface. For each user, add a line in the
-following format:</para>
+<para>
+<span xml:lang="en">This section contains a list of users allowed to
+control VLS through an administration interface. For each user, add a
+line in the following format</span>
+<span xml:lang="fr">Cette section contient la liste des utilisateurs
+autorisés à contrôler VLS via l'interface d'administration. Pour chaque
+utilisateur, vous devez ajouter une ligne du type</span>
+:</para>
 
 <programlisting>
 username = "password:groupname"
 </programlisting>
 
-<para>This adds a user "username", who belongs to the group "groupname"
-(defined in the "Groups" section) and can log in with the password
-"password".</para>
+<para>
+<span xml:lang="en">This adds a user "username", who belongs to the
+group "groupname" (defined in the "Groups" section) and can log in with
+the password "password"</span>
+<span xml:lang="fr">Ceci ajoute un utilisateur "username", qui
+appartient au groupe "groupname", défini dans la section "Groups", et
+qui peut se logguer avec le mot de passe "password"</span>
+.</para>
 
 <itemizedlist>
 
-<listitem><para>Under Unix/Linux, the password must be encrypted, with
-a tool such as <command>mkpasswd</command>, or with the UNIX function
-"crypt".</para></listitem>
+<listitem><para>
+<span xml:lang="en">Under Unix/Linux, the password must be encrypted,
+with a tool such as <command>mkpasswd</command>, or with the UNIX
+function "crypt"</span>
+<span xml:lang="fr">Sous Unix/Linux, le mot de passe doit être encrypté,
+avec un outil tel que <command>mkpasswd</command>, ou à l'aide de la
+fonction unix "crypt"</span>
+.</para></listitem>
 
-<listitem><para>Under Windows, the password must be in clear
-text.</para></listitem>
+<listitem><para>
+<span xml:lang="en">Under Windows, the password must be in clear text</span>
+<span xml:lang="fr">Sous Windows, le mot de passe doit être en clair</span>
+.</para></listitem>
 
 </itemizedlist>
 
-<para>Example for Unix/Linux:</para>
+<para>
+<span xml:lang="en">Example for Unix/Linux</span>
+<span xml:lang="fr">Exemple pour Unix/Linux</span>
+:</para>
 
 <programlisting>
 BEGIN "Users"
@@ -158,32 +267,54 @@ END
 
 <sect2><title>Section "Telnet"</title>
 
-<para>In this section, you can configure the telnet administration
-interface.</para>
+<para>
+<span xml:lang="en">In this section, you can configure the telnet
+administration interface</span>
+<span xml:lang="fr">Dans cette section, vous pouvez configure
+l'interface d'administration telnet</span>
+.</para>
 
 <programlisting>
 LocalPort = "port"
 </programlisting>
 
-<para>Defines which port will be used for the telnet server. Default
-port is "9999".</para>
+<para>
+<span xml:lang="en">Defines which port will be used for the telnet
+server. Default port is "9999"</span>
+<span xml:lang="fr">Définit le port qui sera utilisé pour le serveur
+telnet. Le port par défaut est "9999"</span>
+.</para>
 
 <programlisting>
 Domain = "domain"
 </programlisting>
 
-<para>Either "inet4" or "inet6" (default is "inet4"). If you want to
-use IPv4 addresses, put "inet4", and if you want to use IPv6, put
-"inet6".</para>
+<para>
+<span xml:lang="en">Either "inet4" or "inet6" (default is "inet4"). If
+you want to use IPv4 addresses, put "inet4", and if you want to use
+IPv6, put "inet6"</span>
+<span xml:lang="fr">Soit "inet4", soit "inet6" (défaut = "inet4").
+Si vous voulez utiliser IPv4, mettez "inet4", et pour l'IPv6, mettez
+"inet6"</span>
+.</para>
 
 <programlisting>
 LocalAddress = "IP address"
 </programlisting>
 
-<para>Defines on which IP address the telnet server will listen for
-requests. Default address is "0.0.0.0" (or "0::0" with IPv6).</para>
+<para>
+<span xml:lang="en">Defines on which IP address the telnet server will
+listen for requests. Default address is "0.0.0.0" (or "0::0" with
+IPv6)</span>
+<span xml:lang="fr">Définit sur quelle adresse IP le serveur Telnet va
+écouter les requêtes. L'adresse par défaut est "0.0.0.0" (ou "0::0" avec
+l'IPv6)</span>
+.</para>
 
-<para>Example:</para>
+<para>
+<span xml:lang="en">Example</span>
+<span xml:lang="fr">Exemple</span>
+:</para>
 
 <programlisting>
 BEGIN "Telnet"
@@ -194,41 +325,74 @@ END
 
 <sect2><title>Section "NativeAdmin"</title>
 
-<para>Same syntax as "Telnet". Not used yet.</para>
+<para>
+<span xml:lang="en">Same syntax as "Telnet". Not used yet</span>
+<span xml:lang="fr">Même syntaxe que "Telnet". Inutilisé</span>
+.</para>
 
 </sect2>
 
 <sect2><title>Section "Inputs"</title>
 
-<para>In this section, you can define which inputs you want to use. For
-each input you need, add a line in the following format:</para>
+<para>
+<span xml:lang="en">In this section, you can define which inputs you
+want to use. For each input you need, add a line in the following
+format</span>
+<span xml:lang="fr">Dans cette section, vous pouvez définir quelles
+entrées vous désirez utiliser. Pour chaque entrée, ajoutez une ligne du
+type</span>
+:</para>
 
 <programlisting>
 InputName = "Type"
 </programlisting>
 
-<para>This adds a input named "InputName", the type of which is "Type".
-As explained before, there are several types of input:</para>
+<para>
+<span xml:lang="en">This adds a input named "InputName", the type
+of which is "Type". As explained before, there are several types of
+input</span>
+<span xml:lang="fr">Ceci ajoute une entrée nommée "InputName", de type
+"Type". Comme expliqué, il existe plusieurs types d'entrées</span>
+:</para>
 
 <itemizedlist>
 
-<listitem><para>"local" to play a stream from
-a file or a DVD,</para></listitem>
+<listitem><para>
 
-<listitem><para>"video" to play a stream from an MPEG encoding
-card,</para></listitem>
+<span xml:lang="en">"local" to play a stream from a file or a DVD</span>
+<span xml:lang="fr">"local" pour jour des fichiers ou des DVDs</span>
+,</para></listitem>
 
-<listitem><para>"dvb" to play a stream from a DVB card,</para></listitem>
+<listitem><para>
+<span xml:lang="en">"video" to play a stream from an MPEG encoding
+card</span>
+<span xml:lang="fr">"video" pour lire depuis une carte d'encodage
+MPEG</span>
+,</para></listitem>
 
-<listitem><para>"v4l" to play a stream from a Video4Linux
-device.</para></listitem>
+<listitem><para>
+<span xml:lang="en">"dvb" to play a stream from a DVB card</span>
+<span xml:lang="fr">"dvb" pour lire depuis une carte DVB</span>
+,</para></listitem>
+
+<listitem><para>
+<span xml:lang="en">"v4l" to play a stream from a Video4Linux device</span>
+<span xml:lang="fr">"v4l" pour lire depuis un périphérique Video4Linux</span>
+.</para></listitem>
 
 </itemizedlist>
 
-<para>Each input must be configured in its own section (see next
-paragraph).</para>
+<para>
+<span xml:lang="en">Each input must be configured in its own section
+(see next paragraph)</span>
+<span xml:lang="fr">Chaque entrée doit être configurée dans sa propre
+section (voir la suite)</span>
+.</para>
 
-<para>Example:</para>
+<para>
+<span xml:lang="en">Example</span>
+<span xml:lang="fr">Exemple</span>
+:</para>
 
 <programlisting>
 BEGIN "Inputs"
@@ -240,16 +404,32 @@ END
 </programlisting>
 </sect2>
 
-<sect2><title>Inputs configuration</title>
+<sect2><title>
+<span xml:lang="en">Inputs configuration</span>
+<span xml:lang="fr">Configuration des entrées</span>
+</title>
 
-<para>For each input declared in the "Inputs" section, excepted "local"
-inputs, you must add a section with the same name as the corresponding
-input. For instance, if you declared an input "pvr", there should be
-one section named "pvr" too. The syntax of such sections depends on the
-type of the corresponding input.</para>
+<para>
+<span xml:lang="en">For each input declared in the "Inputs" section,
+excepted "local" inputs, you must add a section with the same name as
+the corresponding input. For instance, if you declared an input "pvr",
+there should be one section named "pvr" too. The syntax of such sections
+depends on the type of the corresponding input</span>
+<span xml:lang="fr">Pour chaque entrée déclarée dans la section
+"Inputs", à l'exception des entrées "local", vous devez ajouter une
+section avec le même nom que l'entrée correspondante. Par exemple,
+si vous déclarez une entrée "pvr", il doit également y avoir une
+section "pvr". La syntaxe de ces sections dépend du type de l'entrée
+correspondante</span>
+.</para>
 
-<para>To configure a local input, you don't have to do anything. Except
-when another trickplay strategy must be used:</para>
+<para>
+<span xml:lang="en">To configure a local input, you don't have to do
+anything. Except when another trickplay strategy must be used</span>
+<span xml:lang="fr">Pour configurer une entrée locale, vous n'avez
+rien à faire, sauf si vous utilisez une stratégie "trickplay"
+différente</span>
+:</para>
 
 <programlisting>
 BEGIN "Local1"
@@ -258,13 +438,23 @@ BEGIN "Local1"
 END
 </programlisting>
 
-<para>"Local1" is the name of the local input you want to configure.
-"ProgramCount" is the number of programs assigned to this input.
-"TrickPlay" is the trickplay strategy that is used by this input
-(default is "normal").</para>
+<para>
+<span xml:lang="en">"Local1" is the name of the local input you want to
+configure. "ProgramCount" is the number of programs assigned to this
+input. "TrickPlay" is the trickplay strategy that is used by this input
+(default is "normal")</span>
+<span xml:lang="fr">"Local1" est le nom de l'entrée que vous configurez.
+"ProgramCount" est le nombre de programmes correspondant à cette
+entrée". "TrickPLay" est la stratégie trickplay utilisée par l'entrée
+(le défaut est "normal")</span>
+.</para>
 
-<para>To configure a video input, add a section in the following
-format:</para>
+<para>
+<span xml:lang="en">To configure a video input, add a section in the
+following format</span>
+<span xml:lang="fr">Pour configurer une entrée vidéo, ajoutez une
+section dans ce format</span>
+:</para>
 
 <programlisting>
 BEGIN "VideoInputName"
@@ -273,13 +463,23 @@ BEGIN "VideoInputName"
 END
 </programlisting>
 
-<para>"VideoInputName" is the name of the video input you want to
-configure. "Device" is the path of the MPEG encoding card you want
-to read from (default is "/dev/video"). "Type" is either "Mpeg2-PS"
+<para>
+<span xml:lang="en">"VideoInputName" is the name of the video input you
+want to configure. "Device" is the path of the MPEG encoding card you
+want to read from (default is "/dev/video"). "Type" is either "Mpeg2-PS"
 or "Mpeg2-TS", depending on your device configuration (default is
-"Mpeg2-PS").</para>
+"Mpeg2-PS")</span>
+<span xml:lang="fr">"VideoInputName" est le nom de l'entrée vidéo que
+vous configurez. "Device" est l'adresse de la carte d'encodage MPEG
+que vous désirez utiliser (le défaut est "/dev/video"). "Type" est
+soit "MPEG2-PS", soit "MPEG2-TS", selon la configuration de votre
+périphérique (le défaut est "MPEG2-PS")</span>
+.</para>
 
-<para>Example for a Hauppauge WinTV-PVR-250 card:</para>
+<para>
+<span xml:lang="en">Example for a Hauppauge WinTV-PVR-250 card</span>
+<span xml:lang="fr">Exemple pour une carte Hauppauge WinTV-PVR-250</span>
+:</para>
 
 <programlisting>
 BEGIN "pvr"
@@ -288,7 +488,12 @@ BEGIN "pvr"
 END
 </programlisting>
 
-<para>To configure a dvb input, add a section in the following format:</para>
+<para>
+<span xml:lang="en">To configure a dvb input, add a section in the
+following format</span>
+<span xml:lang="fr">Pour configurer une entrée dvb, ajoutez une section
+du type suivant</span>
+:</para>
 
 <programlisting>
 BEGIN "DvbInputName"
@@ -297,18 +502,33 @@ BEGIN "DvbInputName"
 END
 </programlisting>
 
-<para>"DvbInputName" is the name of the dvb input you want to
-configure. Set "SendMethod" to "0" if you to stream the complete
-DVB stream and set it to "1" if you only want to stream the
-MPEG audio and video streams (default is "0"). "DeviceNumber"
+<para>
+<span xml:lang="en">"DvbInputName" is the name of the dvb input you
+want to configure. Set "SendMethod" to "0" if you to stream the
+complete DVB stream and set it to "1" if you only want to stream
+the MPEG audio and video streams (default is "0"). "DeviceNumber"
 is the number of the DVB device you want to read from (read
 from <filename>/dev/ost/dvr&lt;devicenumber&gt;</filename>,
 default is ""). The dvb configuration file is defined by the
 driver. You can find it in <filename>$HOME/.dvbrc</filename> for
 /dev/dvb/adapter0 or in <filename>$HOME/.dvbrc.X</filename> for
-<filename>/dev/dvb/adapterX</filename>.</para>
+<filename>/dev/dvb/adapterX</filename></span>
+<span xml:lang="fr">"DvbInputName" est le nom de l'entrée dvb que
+vous configurez. Réglez "SendMethod" à "0" si vous désirez diffuser
+le flux DVB complet et à "1" si vous désirez diffuser les flux MPEG
+audio et vidéo (le défaut est "0"). "DeviceNumber" est le numéro du
+périphérique DVB depuis leequel vous désirez lire (lecture depuis
+<filename>/dev/ost/dvr&lt;devicenumber&gt;</filename>, le défaut étant
+""). Le fichier de configuration de dvb est défini par le périphérique.
+Vous pouvez le trouver dans <filename>$HOME/.dvbrc</filename> pour
+/dev/dvb/adapter0 ou dans <filename>$HOME/.dvbrc.X</filename> pour
+<filename>/dev/dvb/adapterX</filename></span>
+.</para>
 
-<para>Example:</para>
+<para>
+<span xml:lang="en">Example</span>
+<span xml:lang="fr">Exemple</span>
+:</para>
 
 <programlisting>
 BEGIN "dvb1"
@@ -321,18 +541,32 @@ END
 
 <sect2><title>Section "Channels"</title>
 
-<para>In this section, you can define the channels (outputs) you want to use.
-For each channel, write a line in the following format:</para>
+<para>
+<span xml:lang="en">In this section, you can define the channels
+(outputs) you want to use. For each channel, write a line in the
+following format</span>
+<span xml:lang="fr">Dans cette section, vous pouvez définir les
+sorties que vous désirez utiliser. Pour chacune, ajoutez une ligne du
+type</span>
+:</para>
 
 <programlisting>
 ChannelName = "Type"
 </programlisting>
 
-<para>This adds a channel named "ChannelName", the type of which is
-"Type". "Type" must be either "network" or "file". Like inputs, channels
-must be configured in their own section.</para>
+<para>
+<span xml:lang="en">This adds a channel named "ChannelName", the type of
+which is "Type". "Type" must be either "network" or "file". Like inputs,
+channels must be configured in their own section</span>
+<span xml:lang="fr">Ceci ajoute une sortie appelée "ChannelName", de
+type "Type". Ceci doit être "network" ou "file". Comme les entrées, les
+sorties doivent être configurées dans leur propre section</span>
+.</para>
 
-<para>Example:</para>
+<para>
+<span xml:lang="en">Example</span>
+<span xml:lang="fr">Exemple</span>
+:</para>
 
 <programlisting>
 BEGIN "Channels"
@@ -347,14 +581,28 @@ END
 
 </sect2>
 
-<sect2><title>Channels configuration</title>
+<sect2><title>
+<span xml:lang="en">Channels configuration</span>
+<span xml:lang="fr">Configuration des sorties</span>
+</title>
 
-<para>For each channel declared in the "Channels" section, you must add
-a section with the same name as the corresponding channel. The syntax of
-such a section depends on the type of the corresponding channel.</para>
+<para>
+<span xml:lang="en">For each channel declared in the "Channels" section,
+you must add a section with the same name as the corresponding channel.
+The syntax of such a section depends on the type of the corresponding
+channel</span>
+<span xml:lang="fr">Pour chaque sortie déclarée dans la section
+"Channels", vous devez ajouter une section avec le nom correspondant.
+La syntaxe de cette section dépend du type de la sortie
+correspondante</span>
+.</para>
 
-<para>To configure a network channel, add a section in the following
-format:</para>
+<para>
+<span xml:lang="en">To configure a network channel, add a section in the
+following format</span>
+<span xml:lang="fr">Pour configurer une sortie network, ajoutez une
+section dans le format suivant</span>
+:</para>
 
 <programlisting>
 BEGIN "NetChannelName"
@@ -371,45 +619,91 @@ END
 
 <itemizedlist>
 
-<listitem><para>"NetChannelName" is the name of the network channel you
-want to configure.</para></listitem>
+<listitem><para>
+<span xml:lang="en">"NetChannelName" is the name of the network channel
+you want to configure</span>
+<span xml:lang="fr">"NetChannelName" est le nom de la sortie que vous
+configurez</span>
+.</para></listitem>
 
-<listitem><para>"Domain" is either "inet4" if you use IPv4 addresses, or
-"inet6" if you use IPv6 (default is "inet4").</para></listitem>
+<listitem><para>
+<span xml:lang="en">"Domain" is either "inet4" if you use IPv4
+addresses, or "inet6" if you use IPv6 (default is "inet4")</span>
+<span xml:lang="fr">"Domain" est soit "inet4", pour des adresses IPv4,
+ou "inet6", pour des adresses IPv6 (le défaut est "inet4")</span>
+.</para></listitem>
 
-<listitem><para>"Type" is either "unicast", "broadcast" or "multicast"
-(default is "unicast"), depending on what you want to do (and on your
-"DstHost" address).</para></listitem>
+<listitem><para>
+<span xml:lang="en">"Type" is either "unicast", "broadcast" or
+"multicast" (default is "unicast"), depending on what you want to do
+(and on your "DstHost" address)</span>
+<span xml:lang="fr">"Type" est soit, "unicast", "broadcast" ou
+"multicast" (le défaut est "unicast"), selon ce que vous désirez faire,
+et votre adresse "DstHost")</span>
+.</para></listitem>
 
-<listitem><para>"SourceHost" is the IP address (or DNS name) from which
-VLS will send the stream.</para></listitem>
+<listitem><para>
+<span xml:lang="en">"SourceHost" is the IP address (or DNS name) from
+which VLS will send the stream</span>
+<span xml:lang="fr">"SourceHost" est l'adresse IP (ou le nom DNS)
+depuis lequel VLS va envoyer le flux</span>
+.</para></listitem>
 
-<listitem><para>"SourcePort" is the UDP port from which the stream will
-be sent.</para></listitem>
+<listitem><para>
+<span xml:lang="en">"SourcePort" is the UDP port from which the stream
+will be sent</span>
+<span xml:lang="fr">"SourcePort" est le port UDP depuis lequel le flux
+sera envoyé</span>
+.</para></listitem>
 
-<listitem><para>"DestHost" is the IP address (or DNS name) to which the
-stream will be sent.</para></listitem>
+<listitem><para>
+<span xml:lang="en">"DestHost" is the IP address (or DNS name) to which
+the stream will be sent</span>
+<span xml:lang="fr">"DestHost" est l'adresse IP (ou le nom DNS) vers
+lequel le flux sera envoyé</span>
+.</para></listitem>
 
-<listitem><para>"DestPort" is the UDP port to which the stream will be
-sent (default is "1234").</para></listitem>
+<listitem><para>
+<span xml:lang="en">"DestPort" is the UDP port to which the stream will
+be sent (default is "1234")</span>
+<span xml:lang="fr">"DestPort" est le port UDP vers lequel le flux sera
+envoyé (le défaut est "1234")</span>
+.</para></listitem>
 
-<listitem><para>"TTL" is an option useful only if "Type" is
-"multicast" (default value is "0"). You can use it to increase
-the TTL of your multicast packets if they have to cross several
-routers.</para></listitem>
+<listitem><para>
+<span xml:lang="en">"TTL" is an option useful only if "Type" is
+"multicast" (default value is "0"). You can use it to increase the TTL
+of your multicast packets if they have to cross several routers</span>
+<span xml:lang="fr">"TTL" est une option utile seulement si "Type" est
+"multicast" (le défaut est "0"). Vous pouvez l'utiliser pour modifier le
+nombre de routeur que le paquet pourra téléviser</span>
+.</para></listitem>
 
-<listitem><para>"Interface" is an option only supported under Linux,
-to force the stream to be sent through a given network interface,
-"eth1" for instance" (to use this option, you must have super-user
-permissions).</para></listitem>
+<listitem><para>
+<span xml:lang="en">"Interface" is an option only supported under
+GNU/Linux, to force the stream to be sent through a given network
+interface, "eth1" for instance" (to use this option, you must have
+super-user permissions)</span>
+<span xml:lang="fr">"Interface" est une option qui ne fonctionne que
+sous GNU/Linux, pour forcer l'interface réseau de sortie ("eth1", par
+exemple). Vous devez être root pour utiliser cette option</span>
+.</para></listitem>
 
 </itemizedlist>
 
-<note><para>"SrcHost" and "SrcPort" are optional (if you don't set them,
-VLS will not 'bind' the socket).</para></note>
+<note><para>
+<span xml:lang="en">"SrcHost" and "SrcPort" are optional (if you don't
+set them, VLS will not 'bind' the socket)</span>
+<span xml:lang="fr">"SrcHost" et "SrcPort" sont optionnels (si vous ne
+les réglez pas, VLS n'attachera pas la socket)</span>
+.</para></note>
 
-<para>To configure a file channel, add a section in the following
-format:</para>
+<para>
+<span xml:lang="en">To configure a file channel, add a section in the
+following format</span>
+<span xml:lang="fr">Pour configurer une sortie file, ajoutez une section
+dans le format suivant</span>
+:</para>
 
 <programlisting>
 BEGIN "FileChannelName"
@@ -418,13 +712,22 @@ BEGIN "FileChannelName"
 END
 </programlisting>
 
-<para>"FileChannelName" is the name of the file channel you want to
-configure. "file" is the name of the file where the stream will be
-stored (default is "fileout.ts"). "append" is either "yes" or "no", and
-indicates whether VLS will append the stream at the end of the file, or
-rewrite it.</para>
+<para>
+<span xml:lang="en">"FileChannelName" is the name of the file channel
+you want to configure. "file" is the name of the file where the stream
+will be stored (default is "fileout.ts"). "append" is either "yes" or
+"no", and indicates whether VLS will append the stream at the end of the
+file, or rewrite it</span>
+<span xml:lang="fr">"FileChannelName" est le nom de la sortie file que
+vous configurez. "file" est le nom du fichier où le flux sera stocké (le
+défaut est "fileout.ts"). "append" est soit "yes", soit "no", et indique
+si VLS ajoute le flux à la fin du fichier, ou le réécrire</span>
+.</para>
 
-<para>Example:</para>
+<para>
+<span xml:lang="en">Example</span>
+<span xml:lang="fr">Exemple</span>
+:</para>
 
 <programlisting>
 BEGIN "localhost"         # The client is on the same host as the server
@@ -464,8 +767,12 @@ BEGIN "localfile"         # file output
 END
 </programlisting>
 
-<caution><para>If you use Windows, you should specify the "SrcHost" and
-"SrcPort" fields. For example:</para>
+<caution><para>
+<span xml:lang="en">If you use Windows, you should specify the "SrcHost"
+and "SrcPort" fields. For example</span>
+<span xml:lang="fr">Si vous utililsez Windows, vous devez spécifier les
+valeurs "SrcHost" et "SrcPort". Par exemple</span>
+:</para>
 
 <programlisting>
 BEGIN "client1"         # The client is on the same host as the server
@@ -480,12 +787,22 @@ END
 
 </sect2>
 
-<sect2><title>Programs Configuration</title>
+<sect2><title>
+<span xml:lang="en">Programs Configuration</span>
+<span xml:lang="fr">Configuration des programmes</span>
+</title>
 
-<para>As explained before, you must define the programs. Each one is a
-MPEG stream (a file, for example). To do this, you must add an "Input"
-section in your <filename>vls.cfg</filename> file. Each "Input" section
-must have the following syntax:</para>
+<para>
+<span xml:lang="en">As explained before, you must define the programs.
+Each one is a MPEG stream (a file, for example). To do this, you must
+add an "Input" section in your <filename>vls.cfg</filename> file. Each
+"Input" section must have the following syntax</span>
+<span xml:lang="fr">Comme expliqué précédemment, vous devez définir
+les programmes. Chacun est un flux MPEG (un fichier, par exemple).
+Pour cela, vous devez ajouter une section "Input" dans votre fichier
+<filename>vls.cfg</filename>. Chaque section Input doit avoir la syntaxe
+suivante</span>
+:</para>
 
 <programlisting>
 BEGIN "Input"
@@ -494,12 +811,21 @@ BEGIN "Input"
 END
 </programlisting>
 
-<para>"path" is the path where your MPEG files are located (by default
-it is the current directory). "count" is the number of programs defined
-("0" by default).</para>
+<para>
+<span xml:lang="en">"path" is the path where your MPEG files are located
+(by default it is the current directory). "count" is the number of
+programs defined ("0" by default)</span>
+<span xml:lang="fr">"path" est le chemin où vos fichiers MPEG sont
+situés (par défaut, c'est le répertoire courant). "count" est le nombre
+de programmes ("0" par défaut)</span>
+.</para>
 
-<para>For each program you want to define, you must add a section with
-the following format:</para>
+<para>
+<span xml:lang="en">For each program you want to define, you must add a
+section with the following format</span>
+<span xml:lang="fr">Pour chaque programme, vous devez ajouter une
+section avec la syntaxe suivante</span>
+:</para>
 
 <programlisting>
 BEGIN "number"
@@ -512,43 +838,77 @@ END
 
 <itemizedlist>
 
-<listitem><para>"number" is the program number: the first program has number 1,
-the second number 2, and so on.</para></listitem>
+<listitem><para>
+<span xml:lang="en">"number" is the program number: the first program
+has number 1, the second number 2, and so on</span>
+<span xml:lang="fr">"number" est le numéro de programme: le premier est
+1, le second 2, ...</span>
+.</para></listitem>
 
-<listitem><para>"name" is the program name, by which
-you will tell VLS to start this program (see next chapter "Running
-VLS").</para></listitem>
+<listitem><para>
+<span xml:lang="en">"name" is the program name, by which you will tell
+VLS to start this program (see next chapter "Running VLS")</span>
+<span xml:lang="fr">"name" est le nom du programme, que vous utiliserez
+pour lancer le programme (voir la section suivante)</span>
+.</para></listitem>
 
-<listitem><para>"type" can be "Mpeg1-PS", "Mpeg2-PS", "Mpeg2-TS",
+<listitem><para>
+<span xml:lang="en">"type" can be "Mpeg1-PS", "Mpeg2-PS", "Mpeg2-TS",
 or "DVD". If your stream is stored in a MPEG file (*.mpeg, *.mpg,
 *.vob, and so on...), it is probably in Mpeg1-PS or Mpeg2-PS
-format.</para></listitem>
+format</span>
+<span xml:lang="fr">"type" peut être "Mpeg1-PS", "Mpeg2-PS", "Mpeg2-TS",
+ou "DVD". Si votre flux est stocké dans un fichier MPEG (*.mpeg,
+*.mpg, *.vob, and so on...), il es probablement au format Mpeg1-PS ou
+Mpeg2-PS</span>
+.</para></listitem>
 
-<listitem><para>if "type" is set to "Mpeg1-PS", "Mpeg2-PS", or
+<listitem><para>
+<span xml:lang="en">if "type" is set to "Mpeg1-PS", "Mpeg2-PS", or
 "Mpeg2-TS", VLS will assume your stream is stored in the file "file", in
 the directory "path" ("path" being the variable defined in the "Input"
-section).</para></listitem>
+section)</span>
+<span xml:lang="fr">si type n'est pas "dvd", VLS supposera que votre
+fichier est stocké dans le fichier "file", dans le répertoire "path" (où
+"path" est le répertoire défini dans la section "Input")</span>
+.</para></listitem>
 
-<listitem><para>if "type" is "DVD", the variable "Device" will be used
-instead of "FileName" (the variable "FilesPath" is not prepended to
-the device name !). The variable "Device" is the device of your DVD
+<listitem><para>
+<span xml:lang="en">if "type" is "DVD", the variable "Device" will be
+used instead of "FileName" (the variable "FilesPath" is not prepended
+to the device name !). The variable "Device" is the device of your DVD
 drive ("/dev/hdc" or "/dev/cdrom" for instance). You can also play a DVD
 copied on a hard disk: then "device" is the directory where the .vob
-files are stored ("/mnt/data/VIDEO_TS" for instance).</para></listitem>
-
+files are stored ("/mnt/data/VIDEO_TS" for instance)</span>
+<span xml:lang="fr">dans le cas contraire, la variable "Device" sera
+utilisée à la place de "FileName". Elle représente l'adresse de votre
+lecteur de DVD ("/dev/hdc" ou "/dev/cdrom", par exemple). Vous pouvez
+également jouer un DVD copié sur un disque dur: "device" est alors
+l'endroit où les fichiers .vob sont stockés ("/mnt/data/VIDEO_TS", par
+exemple)</span>
+.</para></listitem>
 </itemizedlist>
 
 <note>
 &streamable-mpeg-file;
 </note>
 
-<note><para>In order to play DVDs, you need to compile VLS with
+<note><para>
+<span xml:lang="en">In order to play DVDs, you need to compile VLS with
 DVD support, which uses libdvdread and libdvdcss. You will need
 read <emphasis>and</emphasis> write access rights to the DVD
-device.</para></note>
+device</span>
+<span xml:lang="fr">Pour pouvoir lire ded DVDs, vous devez compiler VLS
+avec le support des DVD, qui utilise libdvdread et libdvdcss. Vous devez
+avoir l'accès en lecture <emphasis>et</emphasis> en écriture à votre
+lecteur de DVD</span>
+.</para></note>
 
 
-<para>Full example:</para>
+<para>
+<span xml:lang="en">Full example</span>
+<span xml:lang="fr">Exemple complet</span>
+:</para>
 
 <programlisting>
 BEGIN "Input"

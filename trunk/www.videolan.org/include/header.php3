@@ -104,11 +104,11 @@ function starthtml($title) { ?>
 function get_first_bar_item ( $number , $module , $text , $url , $current_module ) {
   if ( $current_module == $module )
   {
-     ?><td class="firstbarselected" style="width: <? 100/$number ?>%"><?$text?></td><?
+     ?><td class="firstbarselected" style="width: <? echo 100/$number; ?>%"><? echo $text; ?></td><?
   }
   else
   {
-     ?><td class="firstbar"><a href="<?$url?>"><?$text?></a></td><?
+     ?><td class="firstbar"><a href="<? echo $url; ?>"><? echo $text; ?></a></td><?
   }
 }
 

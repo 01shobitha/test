@@ -92,9 +92,13 @@ function starthtml($title) { ?>
 
    /* This is where the real user page stands */
 <p>
-<? echo $modules[1]; ?>
-<? echo $modules[2]; ?>
-<? echo $modules[3]; ?>
+1=<? echo $modules[1]; ?>
+</p>
+<p>
+2=<? echo $modules[2]; ?>
+</p>
+<p>
+3=<? echo $modules[3]; ?>
 </p>
 <?
 }

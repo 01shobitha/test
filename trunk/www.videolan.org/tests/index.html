@@ -7,7 +7,7 @@
 
 <h1> VideoLAN - Tests de diffusion sur la Rez </h1>
 
-<h2> Si tu n'as aucune idée de ce qu'est VideoLAN </h2>
+<? h2(" Si tu n'as aucune idée de ce qu'est VideoLAN "); ?>
 
 Tu es probablement GPA et viens d'arriver sur la rez, il y a peu de
 chances pour que tu aies déjà eu l'occasion d'utiliser VideoLAN. En bref
@@ -18,7 +18,7 @@ sa chambre, peut regarder tout ce que est diffusé à ce moment par les
 serveurs de VideoLAN (DVDs, chaînes satellite numériques, ou encore des
 évenements sur le campus retransmis en direct).
 
-<h2> Personne n'est parfait </h2>
+<? h2(" Personne n'est parfait "); ?>
 
 VideoLAN est encore en développement et il ne faut donc pas compter sur
 des diffusions sans faille; des coupures, ralentissements ou autres
@@ -28,7 +28,7 @@ n'est pas non plus un "service" aux connectés; les membres de VideoLAN
 gèrent les diffusions dans la mesure du temps libre qu'ils ont à y
 consacrer.
 
-<h2> Ceux chez qui ça ne marchera pas... </h2>
+<? h2(" Ceux chez qui ça ne marchera pas... "); ?>
 
 <ul>
 
@@ -49,7 +49,7 @@ exemple).</li>
 
 </ul>
 
-<h2>Qu'est-ce qui est diffusé en ce moment ?</h2>
+<? h2("Qu'est-ce qui est diffusé en ce moment ?"); ?>
 
 <p><a href="http://vls2.via.ecp.fr/vls/index.phtml">Clique-ici pour
 avoir le programme</a> (Accès resteint à la résidence de l'Ecole
@@ -60,7 +60,7 @@ Centrale. Désactive le proxy du CTI, pour y accéder).</p>
 <? include("/var/www/www.videolan.org/tests/elec.txt"); ?>
 </font>.</p>
 
-<h2>Nécessaire</h2>
+<? h2("Nécessaire"); ?>
 
 <p>Pour utiliser VideoLAN, il suffit d'installer un lecteur multimédia :
 le Client VideoLAN (vlc). Le vlc est capable de lire :</p>
@@ -70,9 +70,9 @@ le Client VideoLAN (vlc). Le vlc est capable de lire :</p>
 <li>des vidéos depuis le réseau, ce que nous utiliserons ici.</li>
 </ul>
 
-<h2>Installer et lancer le Client VideoLAN</h2>
+<? h2("Installer et lancer le Client VideoLAN"); ?>
 
-<h3>sous Windows</h3>
+<? h3("sous Windows"); ?>
 
 <p>Assure-toi que ta version de DirectX est supérieur ou égale à 7.
 Si tu as une version trop vieille, installe la dernière version de
@@ -94,7 +94,7 @@ réseau.</p>
 la machine. Nous te conseillons d'installer une version plus robuste de
 Windows, comme Windows 2000 ou XP Pro.</p>
 
-<h3>sous Mac OS X</h3>
+<? h3("sous Mac OS X"); ?>
 
 <p>Télécharge le <a
 href="http://www.videolan.org/pub/videolan/vlc/0.4.4/macosx/vlc-0.4.4.dm
@@ -103,7 +103,7 @@ lancer la procédure d'installation.</p>
 
 <p>Pour le lancer, il suffit de double-cliquer sur le cône !</p>
 
-<h3>sous Linux Debian Woody ou Sid</h3>
+<? h3("sous Linux Debian Woody ou Sid"); ?>
 
 <p>Edite en root le fichier <b>/etc/apt/sources.list</b> et rajoute la
 ligne suivante :
@@ -117,7 +117,7 @@ apt-get install libmad0 a52dec-dev libdvdcss2 libdvbpsi1 vlc vlc-gnome vlc-mad</
 
 <p>Pour le lancer, il suffit de taper <b>vlc</b>.</p>
 
-<h3>sous Linux Mandrake, RedHat ou SuSE</h3>
+<? h3("sous Linux Mandrake, RedHat ou SuSE"); ?>
 
 Installe les packages a52dec and libmad0, qui devraient se trouver dans
 ta distribution.
@@ -137,16 +137,16 @@ téléchargement du vlc</a> et installe-les.
 
 <p>Pour le lancer, il suffit de taper <b>vlc</b>.</p>
 
-<h3>sous Unix / Linux</h3>
+<? h3("sous Unix / Linux"); ?>
 
 Réfère-toi au <a
 href="http://www.videolan.org/doc/videolan-quickstart/videolan-quickstar
 t.html">VideoLAN Quickstart</a>, section 2.1, paragraphe "Unix or
 Linux".
 
-<h2> Comment se servir du client VideoLAN ? </h2>
+<? h2(" Comment se servir du client VideoLAN ? "); ?>
 
-<h3>sous Windows ou Linux </h3>
+<? h3("sous Windows ou Linux "); ?>
 
 <p>Une fois que le vlc est lançé...</p>
 
@@ -170,7 +170,7 @@ fenêtre video, appuie de nouveau sur "f".</p>
 <p>Pour changer de langue ou de sous-titre, fait un clic droit sur
 l'image et sélectionne la langue ou le sous-titre à la souris.</p>
 
-<h3>sous Mac OS X</h3>
+<? h3("sous Mac OS X"); ?>
 
 <p>Tu ne peux malheureusement pas utiliser l'interface pour lire un flux
 réseau. Il faut lancer le vlc en ligne de commande et aller chercher les
@@ -187,14 +187,14 @@ multicast. </p>
 
 
 
-<h2>Qu'est-ce qui est diffusé et sur quelle chaîne ?</h2>
+<? h2("Qu'est-ce qui est diffusé et sur quelle chaîne ?"); ?>
 
 <p>Une page listant les programmes diffusés est disponible à l'adresse
 <a href="http://vlcs/vls/index.phtml">http://vlcs/vls/index.phtml</a>.
 Il y a même des liens hypertextes qui pointent vers les programmes des
 chaînes satellite.</p>
 
-<h2> Que faire si ca ne marche pas ? </h2>
+<? h2("Que faire si ca ne marche pas ?"); ?>
 
 <ul>
 
@@ -231,7 +231,7 @@ ion Linux n°2</a>.</p></li>
 
 </ul>
 
-<h2>Obtenir de l'aide, rapporter des bugs</h2>
+<? h2("Obtenir de l'aide, rapporter des bugs"); ?>
 
 <p>Tu peux utiliser le forum <code>ecp.via</code> pour tous les
 problèmes concernant l'utilisation de VideoLAN. N'oublie pas de préciser

@@ -11,7 +11,31 @@ function stopbox() { ?></td></tr></table><? }
     */
 
 function h2($title) {
-?><table class="h2" cellspacing="0" cellpadding="0"><tr class="h2"><td class="h2"><h2><? echo $title; ?></h2></td></tr></table> <?
+?>
+<table class="h2" cellspacing="0" cellpadding="0">
+<tr class="h2">
+<td class="h2">
+<h2>
+<? echo $title; ?>
+</h2>
+</td>
+</tr>
+</table>
+<?
+}
+
+function h3($title) {
+?>
+<table class="h3" cellspacing="0" cellpadding="0">
+<tr class="h3">
+<td class="h3">
+<h3>
+<? echo $title; ?>
+</h3>
+</td>
+</tr>
+</table>
+<?
 }
 
 function starthtml($title) { ?>

@@ -180,7 +180,7 @@ Transmisión con VLC
 
 <note><para>
 
-Para esto, se debería utilizar la versión CVS de VLC y compilarla
+Para esto, se debería utilizar la versión SVN de VLC y compilarla
 con <command>./configure --enable-dvb</command> Esta característica debería
 ser considerada todavía como experimental.
 

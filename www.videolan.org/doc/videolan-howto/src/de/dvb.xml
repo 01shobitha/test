@@ -114,7 +114,7 @@ bedeutet, dass der Stream in der Lage sein wird, 11 Router zu
 Streaming mit VLC
 </title>
 
-<note><para>Dazu benötigen Sie die CVS-Version von VLC und sie mit
+<note><para>Dazu benötigen Sie die SVN-Version von VLC und sie mit
 <command>./configure --enable-dvb</command> kompilieren. Dieses Feature
 sollte noch als experimentell angesehen werden.
 </para></note>

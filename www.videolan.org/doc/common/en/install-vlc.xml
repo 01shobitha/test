@@ -314,7 +314,7 @@ download page</ulink>. Uncompress-it :
 
 <!-- bootstrap is already done is the tarballs -->
 <para>
-If you use sources from CVS, you need to run :
+If you use sources from SVN, you need to run :
 </para>
 
 <screen>

@@ -169,7 +169,7 @@ Stream with VLS
 </title>
 
 <note><para>
-You need the CVS version of VLS. When you
+You need the SVN version of VLS. When you
 compile it, you must do a <command>./bootstrap</command> and
  <command>./configure --enable-v4l
 --with-ffmpeg=PATH</command> (where <emphasis>PATH</emphasis> is the

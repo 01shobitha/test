@@ -313,7 +313,7 @@ url="http://www.videolan.org/vlc/download-sources.html">página de descargas de V
 
 <!-- bootstrap is already done is the tarballs -->
 <para>
-Si está utilizando las fuentes de CVS, necesita ejecutar :
+Si está utilizando las fuentes de SVN, necesita ejecutar :
 </para>
 
 <screen>

@@ -69,7 +69,7 @@ al API v412 (Video 4 Linux version 2). El patch está disponible en
 
 
 Una vez que el kernel está listo, instale la versión
-CVS de los drivers Linux para la Hauppauge WinTV-PVR-250/350. Están 
+SVN de los drivers Linux para la Hauppauge WinTV-PVR-250/350. Están 
 disponibles en <ulink url="http://ivtv.sourceforge.net/">ivtv.sourceforge.net</ulink>.
 Después tendrá que crear el dispositivo y cargar los módulos; para esto
 por favor consulte la documentación de los drivers
@@ -217,7 +217,7 @@ Transmisión con VLS
 <para>
 
 
-Debe usar la versión CVS de VLS
+Debe usar la versión SVN de VLS
 
 .</para>
 

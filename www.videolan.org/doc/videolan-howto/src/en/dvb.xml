@@ -113,7 +113,7 @@ Stream with VLC
 </title>
 
 <note><para>
-For this, you must use the CVS version of VLC and compile
+For this, you must use the SVN version of VLC and compile
 it with <command>./configure --enable-dvb</command> This feature should
 still be considered as experimental.</para></note>
 

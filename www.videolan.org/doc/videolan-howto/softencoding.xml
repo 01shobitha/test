@@ -357,22 +357,22 @@ bedeutet, dass der Stream in derLage sein wird, 11 Router zu überqueren)</span>
 </title>
 
 <note><para>
-<span xml:lang="en">You need the CVS version of VLS. When you
+<span xml:lang="en">You need the SVN version of VLS. When you
 compile it, you must do a <command>./bootstrap</command> and
  <command>./configure --enable-v4l
 --with-ffmpeg=PATH</command> (where <emphasis>PATH</emphasis> is the
 absolute path to the directory where you compiled ffmpeg, and not the
 relative path !)</span>
-<span xml:lang="fr">Vous devez avoir la version CVS de VLS. Quand vous
+<span xml:lang="fr">Vous devez avoir la version SVN de VLS. Quand vous
 la compilez, vous devez utiliser <command>./bootstrap</command> puis
  <command>./configure --enable-v4l
 --with-ffmpeg=PATH</command> (avec <emphasis>PATH</emphasis> le chemin
 absolu vers le répertoire où vous avez compilé ffmpeg, et non pas le
 chemin relatif !)</span>
-<span xml:lang="es">Se necesita la versión CVS de VLS. Cuando se compila,
+<span xml:lang="es">Se necesita la versión SVN de VLS. Cuando se compila,
 se debe hacer un <command>./bootstrap</command> y un <command>./configure --enable-v4l
 --with-ffmpeg=PATH</command> (donde <emphasis>PATH</emphasis> es la ruta absoluta al directorio donde se compile ffmpeg, y no la ruta relativa !)</span>
-<span xml:lang="de">Sie benötigen die CVS-Version von VLS. Wenn Sie sie 
+<span xml:lang="de">Sie benötigen die SVN-Version von VLS. Wenn Sie sie 
 kompilieren, müssen Sie <command>./bootstrap</command> und <command>
 ./configure --enable-v4l --with-ffmpeg=PATH</command> ausführen, wobei 
 <emphasis>PATH</emphasis> der absolute Pfad zu dem Verzeichnis ist, in dem Sie

@@ -266,7 +266,7 @@ Transmisión con VLS
 <note><para>
 
 
-Se necesita la versión CVS de VLS. Cuando se compila,
+Se necesita la versión SVN de VLS. Cuando se compila,
 se debe hacer un <command>./bootstrap</command> y un <command>./configure --enable-v4l
 --with-ffmpeg=PATH</command> (donde <emphasis>PATH</emphasis> es la ruta absoluta al directorio donde se compile ffmpeg, y no la ruta relativa !)
 

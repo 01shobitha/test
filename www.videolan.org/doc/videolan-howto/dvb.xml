@@ -234,13 +234,13 @@ bedeutet, dass der Stream in der Lage sein wird, 11 Router zu
 </title>
 
 <note><para>
-<span xml:lang="en">For this, you must use the CVS version of VLC and compile
+<span xml:lang="en">For this, you must use the SVN version of VLC and compile
 it with <command>./configure --enable-dvb</command> This feature should
 still be considered as experimental.</span>
-<span xml:lang="es">Para esto, se debería utilizar la versión CVS de VLC y compilarla
+<span xml:lang="es">Para esto, se debería utilizar la versión SVN de VLC y compilarla
 con <command>./configure --enable-dvb</command> Esta característica debería
 ser considerada todavía como experimental.</span>
-<span xml:lang="de">Dazu benötigen Sie die CVS-Version von VLC und sie mit
+<span xml:lang="de">Dazu benötigen Sie die SVN-Version von VLC und sie mit
 <command>./configure --enable-dvb</command> kompilieren. Dieses Feature
 sollte noch als experimentell angesehen werden.</span>
 </para></note>

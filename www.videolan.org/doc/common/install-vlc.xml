@@ -621,10 +621,10 @@ Downloadseite</ulink>. Dekomprimieren Sie sie:</span>
 
 <!-- bootstrap is already done is the tarballs -->
 <para>
-<span xml:lang="en">If you use sources from CVS, you need to run :</span>
-<span xml:lang="fr">Si vous utilisez des sources venant de CVS et non d'un tarball, vous devez d'abord executer :</span>
-<span xml:lang="es">Si está utilizando las fuentes de CVS, necesita ejecutar :</span>
-<span xml:lang="de">Wenn Sie Quellen aus dem CVS benutzen, müssen Sie
+<span xml:lang="en">If you use sources from SVN, you need to run :</span>
+<span xml:lang="fr">Si vous utilisez des sources venant de SVN et non d'un tarball, vous devez d'abord executer :</span>
+<span xml:lang="es">Si está utilizando las fuentes de SVN, necesita ejecutar :</span>
+<span xml:lang="de">Wenn Sie Quellen aus dem SVN benutzen, müssen Sie
 folgendes laufen lassen:</span>
 </para>
 

@@ -81,24 +81,24 @@ v4l2 API (Video 4 Linux version 2) unterstützt. Der Patch ist verfügbar bei
 .</para>
 
 <para>
-<span xml:lang="en">Once your kernel is ready, install the CVS version
+<span xml:lang="en">Once your kernel is ready, install the SVN version
 of the Linux drivers for the Hauppauge WinTV-PVR-250/350. They are hosted on
 <ulink url="http://ivtv.sourceforge.net/">ivtv.sourceforge.net</ulink>.
 Then, you will have to create the device and load the modules; for this,
 please refer to the documentation shipped with the drivers</span>
 <span xml:lang="fr">Quand votre noyau est prêt,
-installez la version CVS des drivers Linux pour la
+installez la version SVN des drivers Linux pour la
 Hauppauge WinTV-PVR-250/350. Vous les trouverez sur <ulink
 url="http://ivtv.sourceforge.net/">ivtv.sourceforge.net</ulink>.
 Ensuite, vous devrez créer les périphériques et charger les modules;
 pour celà, référez vous à la documentation des drivers</span>
 <span xml:lang="es">Una vez que el kernel está listo, instale la versión
-CVS de los drivers Linux para la Hauppauge WinTV-PVR-250/350. Están 
+SVN de los drivers Linux para la Hauppauge WinTV-PVR-250/350. Están 
 disponibles en <ulink url="http://ivtv.sourceforge.net/">ivtv.sourceforge.net</ulink>.
 Después tendrá que crear el dispositivo y cargar los módulos; para esto
 por favor consulte la documentación de los drivers</span>
 <span xml:lang="de">Wenn Ihr Kernel fertig ist, installieren Sie die 
-CVS-Version der Linux-Treiber für die Hauppauge WinTV-PVR-250/350. Sie sind verfügbar 
+SVN-Version der Linux-Treiber für die Hauppauge WinTV-PVR-250/350. Sie sind verfügbar 
 auf <ulink url="http://ivtv.sourceforge.net">ivtv.sourceforge.net</ulink>.  Danach 
 müssen Sie das Device erzeugen und die Module laden. Beachten Sie dafür bitte
 die den Treibern beiliegende Dokumentation
@@ -264,10 +264,10 @@ Ihrer IP-Pakete (was heißt, dass der Stream in der Lage sein wird,
 </title>
 
 <para>
-<span xml:lang="en">You must use the CVS version of VLS</span>
-<span xml:lang="fr">Vous devez utiliser la version CVS de VLS</span>
-<span xml:lang="es">Debe usar la versión CVS de VLS</span>
-<span xml:lang="de">Sie müssen die CVS-Version von VLS benutzen</span>
+<span xml:lang="en">You must use the SVN version of VLS</span>
+<span xml:lang="fr">Vous devez utiliser la version SVN de VLS</span>
+<span xml:lang="es">Debe usar la versión SVN de VLS</span>
+<span xml:lang="de">Sie müssen die SVN-Version von VLS benutzen</span>
 .</para>
 
 <para>

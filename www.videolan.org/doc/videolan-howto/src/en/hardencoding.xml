@@ -40,7 +40,7 @@ the v4l2 API (Video 4 Linux version 2). The patch is available on the
 </para>
 
 <para>
-Once your kernel is ready, install the CVS version
+Once your kernel is ready, install the SVN version
 of the Linux drivers for the Hauppauge WinTV-PVR-250/350. They are hosted on
 <ulink url="http://ivtv.sourceforge.net/">ivtv.sourceforge.net</ulink>.
 Then, you will have to create the device and load the modules; for this,
@@ -139,7 +139,7 @@ Stream with VLS
 </title>
 
 <para>
-You must use the CVS version of VLS.
+You must use the SVN version of VLS.
 </para>
 
 <para>

@@ -158,9 +158,9 @@
 
 
 
-<h3>Access / muxer matrix</h3>
+<h3>Output method / muxer matrix</h3>
 
-<p></p>
+<p>This table describes what type of muxing is allowed when streaming to certain output methods. <b>Example:</b> PS muxing can only be done when you write to HTTP or files, and when you want to use UDP, you can only mux in TS or as RAW.</p>
 
 <table border="0">
 
@@ -169,6 +169,7 @@
 <td class="matrixhead">UDP</td>
 <td class="matrixhead">RTP</td>
 <td class="matrixhead">HTTP</td>
+<td class="matrixhead">MMSH</td>
 <td class="matrixhead">File</td>
 </tr>
 
@@ -177,6 +178,7 @@
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="yes">Yes</td>
+<td class="no">No</td>
 <td class="yes">Yes</td>
 </tr>
 
@@ -185,6 +187,7 @@
 <td class="yes">Yes</td>
 <td class="no">No</td>
 <td class="yes">Yes</td>
+<td class="no">No</td>
 <td class="yes">Yes</td>
 </tr>
 
@@ -193,6 +196,7 @@
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="yes">Yes</td>
+<td class="no">No</td>
 <td class="yes">Yes</td>
 </tr>
 
@@ -202,10 +206,21 @@
 <td class="no">No</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
+<td class="yes">Yes</td>
 </tr>
 
 <tr>
 <td class="category">MP4</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="yes">Yes</td>
+</tr>
+
+<tr>
+<td class="category">QuickTime</td>
+<td class="no">No</td>
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="no">No</td>
@@ -217,6 +232,7 @@
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="no">No</td>
+<td class="no">No</td>
 <td class="yes">Yes</td>
 </tr>
 
@@ -225,6 +241,7 @@
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
+<td class="no">No</td>
 <td class="yes">Yes</td>
 </tr>
 
@@ -234,7 +251,7 @@
 
 <h3>Muxer / audio and video formats matrix</h3>
 
-<p></p>
+<p>This table describes which video and audio formats VLC can output, and how these can be muxed. <b>Example: </b> MPEG4 can be muxed in any way, however if you want to stream Window Media Video, then you cannot use PS, MP4 or RAW muxing.</p>
 
 <table border="0">
 
@@ -246,16 +263,18 @@
 <td class="matrixhead">Ogg</td>
 <td class="matrixhead">ASF</td>
 <td class="matrixhead">MP4</td>
+<td class="matrixhead">MOV</td>
 <td class="matrixhead">AVI</td>
 <td class="matrixhead">Raw</td>
 </tr>
 
 <tr>
-<td class="category" rowspan="7"><b>Video formats</b></td>
+<td class="category" rowspan="8"><b>Video formats</b></td>
 <td class="type">MPEG-1 video</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
+<td class="no">No</td>
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="yes">Yes</td>
@@ -269,12 +288,14 @@
 <td class="yes">Yes</td>
 <td class="no">No</td>
 <td class="no">No</td>
+<td class="no">No</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 </tr>
 
 <tr>
 <td class="type">MPEG-4 video</td>
+<td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -291,6 +312,7 @@
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="no">No</td>
+<td class="no">No</td>
 <td class="yes">Yes</td>
 <td class="no">No</td>
 </tr>
@@ -302,6 +324,7 @@
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="no">No</td>
+<td class="no">No</td>
 <td class="yes">Yes</td>
 <td class="no">No</td>
 </tr>
@@ -310,6 +333,7 @@
 <td class="type">H/I 263</td>
 <td class="no">No</td>
 <td class="yes">Yes [1]</td>
+<td class="no">No</td>
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="no">No</td>
@@ -324,7 +348,20 @@
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="no">No</td>
+<td class="no">No</td>
 <td class="yes">Yes</td>
+<td class="no">No</td>
+</tr>
+
+<tr>
+<td class="type">Theora</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="yes">Yes</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
 <td class="no">No</td>
 </tr>
 
@@ -335,6 +372,7 @@
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
+<td class="no">No</td>
 <td class="no">No</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -347,6 +385,7 @@
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="no">No</td>
+<td class="no">No</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 </tr>
@@ -357,6 +396,7 @@
 <td class="yes">Yes</td>
 <td class="no">No</td>
 <td class="no">No</td>
+<td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="no">No</td>
 <td class="no">No</td>
@@ -371,6 +411,7 @@
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="no">No</td>
+<td class="no">No</td>
 </tr>
 
 <tr>
@@ -378,6 +419,7 @@
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="yes">Yes</td>
+<td class="no">No</td>
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="no">No</td>
@@ -433,9 +475,14 @@ interoperable).</p>
 <td class="yes">Yes</td>
 </tr>
 
+<tr>
+<td class="type">Theora</td>
+<td class="yes">Yes</td>
+</tr>
+
 
 <tr>
-<td class="category" rowspan="5"><b>Audio formats</b></td>
+<td class="category" rowspan="6"><b>Audio formats</b></td>
 <td class="type">MPEG Layer 2 audio</td>
 <td class="yes">Yes</td>
 </tr>
@@ -457,7 +504,12 @@ interoperable).</p>
 </tr>
 
 <tr>
-<td class="type">Vorbis</td>
+<td class="type">Vorbis/Speex</td>
+<td class="yes">Yes</td>
+</tr>
+
+<tr>
+<td class="type">FLAC</td>
 <td class="yes">Yes</td>
 </tr>
 
@@ -483,6 +535,9 @@ interoperable).</p>
 <th class="os"><a href="/streaming/download-vls-windows.html">
   <img src="/images/icons/windows.gif" alt="Windows" width="32" height="32" />
 </a></th>
+<th class="os"><a href="/vlc/download-macosx.html">
+  <img src="/images/icons/macosx.gif" alt="Mac OS X" width="32" height="32" />
+</a></th>
 
 
 </tr>
@@ -493,6 +548,7 @@ interoperable).</p>
 <td class="type">File</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
+<td class="yes">Yes</td>
 
 </tr>
 
@@ -500,6 +556,7 @@ interoperable).</p>
 
 <td class="type">DVD</td>
 <td class="yes">Yes</td>
+<td class="no">No</td>
 <td class="no">No</td>
 
 </tr>
@@ -509,6 +566,7 @@ interoperable).</p>
 <td class="type">DVB-S (Hauppauge Nova-S / Nexus)</td>
 <td class="yes">Yes</td>
 <td class="no">No</td>
+<td class="no">No</td>
 
 </tr>
 
@@ -516,6 +574,7 @@ interoperable).</p>
 
 <td class="type">DVB-C (Hauppauge DVB-C)</td>
 <td class="yes">Yes</td>
+<td class="no">No</td>
 <td class="no">No</td>
 
 </tr>
@@ -525,6 +584,7 @@ interoperable).</p>
 <td class="type">DVB-T (Hauppauge Nova-t)</td>
 <td class="yes">Yes</td>
 <td class="no">No</td>
+<td class="no">No</td>
 
 </tr>
 
@@ -533,13 +593,15 @@ interoperable).</p>
 <td class="type">MPEG encoding card [4]</td>
 <td class="yes">Yes</td>
 <td class="no">No</td>
+<td class="no">No</td>
 
 </tr>
 
 <tr>
 
 <td class="type">ASI card</td>
-<td class="partial">CVS Only</td>
+<td class="partial">SVN Only</td>
+<td class="no">No</td>
 <td class="no">No</td>
 
 </tr>
@@ -547,7 +609,8 @@ interoperable).</p>
 <tr>
 
 <td class="type">V4L device</td>
-<td class="partial">CVS Only</td>
+<td class="partial">SVN Only</td>
+<td class="no">No</td>
 <td class="no">No</td>
 
 </tr>
@@ -558,12 +621,14 @@ interoperable).</p>
 <td class="type">UDP Unicast / Multicast</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
+<td class="yes">Yes</td>
 
 </tr>
 
 <tr>
 
 <td class="type">File</td>
+<td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 
@@ -575,12 +640,14 @@ interoperable).</p>
 <td class="type">TS</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
+<td class="yes">Yes</td>
 
 </tr>
 
 <tr>
 
 <td class="type">PS</td>
+<td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 
@@ -593,6 +660,7 @@ interoperable).</p>
 <td class="type">TS</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
+<td class="yes">Yes</td>
 
 </tr>
 
@@ -602,12 +670,14 @@ interoperable).</p>
 <td class="type">Command line</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
+<td class="yes">Yes</td>
 
 </tr>
 
 <tr>
 
 <td class="type">Telnet</td>
+<td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 
@@ -619,6 +689,7 @@ interoperable).</p>
 <td class="type">IPv6</td>
 <td class="yes">Yes</td>
 <td class="no">No</td>
+<td class="no">No</td>
 
 </tr>
 
@@ -626,6 +697,7 @@ interoperable).</p>
 
 <td class="type">Send DVD subtitles</td>
 <td class="yes">Yes</td>
+<td class="no">No</td>
 <td class="no">No</td>
 
 </tr>
@@ -635,12 +707,14 @@ interoperable).</p>
 <td class="type">Send SAP announces</td>
 <td class="no">No</td>
 <td class="no">No</td>
+<td class="no">No</td>
 
 </tr>
 
 <tr>
 
 <td class="type">Transcoding</td>
+<td class="no">No</td>
 <td class="no">No</td>
 <td class="no">No</td>
 

@@ -320,7 +320,7 @@ téléchargement des sources de VLC</ulink>. Décompressez-le :
 
 <!-- bootstrap is already done is the tarballs -->
 <para>
-Si vous utilisez des sources venant de CVS et non d'un tarball, vous devez d'abord executer :
+Si vous utilisez des sources venant de SVN et non d'un tarball, vous devez d'abord executer :
 </para>
 
 <screen>

@@ -254,7 +254,7 @@ Diffusez avec VLS
 
 <note><para>
 
-Vous devez avoir la version CVS de VLS. Quand vous
+Vous devez avoir la version SVN de VLS. Quand vous
 la compilez, vous devez utiliser <command>./bootstrap</command> puis
  <command>./configure --enable-v4l
 --with-ffmpeg=PATH</command> (avec <emphasis>PATH</emphasis> le chemin

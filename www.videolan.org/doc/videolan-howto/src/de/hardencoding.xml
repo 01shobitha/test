@@ -72,7 +72,7 @@ v4l2 API (Video 4 Linux version 2) unterstützt. Der Patch ist verfügbar bei
 
 
 Wenn Ihr Kernel fertig ist, installieren Sie die 
-CVS-Version der Linux-Treiber für die Hauppauge WinTV-PVR-250/350. Sie sind verfügbar 
+SVN-Version der Linux-Treiber für die Hauppauge WinTV-PVR-250/350. Sie sind verfügbar 
 auf <ulink url="http://ivtv.sourceforge.net">ivtv.sourceforge.net</ulink>.  Danach 
 müssen Sie das Device erzeugen und die Module laden. Beachten Sie dafür bitte
 die den Treibern beiliegende Dokumentation.
@@ -223,7 +223,7 @@ Streaming mit VLS
 
 
 
-Sie müssen die CVS-Version von VLS benutzen.
+Sie müssen die SVN-Version von VLS benutzen.
 
 </para>
 

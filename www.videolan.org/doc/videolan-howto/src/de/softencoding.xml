@@ -284,7 +284,7 @@ Streaming mit VLS
 
 
 
-Sie benötigen die CVS-Version von VLS. Wenn Sie sie 
+Sie benötigen die SVN-Version von VLS. Wenn Sie sie 
 kompilieren, müssen Sie <command>./bootstrap</command> und <command>.
 
 /configure --enable-v4l --with-ffmpeg=PATH</command> ausführen, wobei 

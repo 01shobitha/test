@@ -151,6 +151,11 @@ section est apparue.</p>
 <p>Ecrire "sap" dans le champ "Module d'interface supplémentaire".
 Cliquer à nouveau sur "Enregistrer" et "Valider".</p>
 
+<p>Attention, il s'agit bien du champ "Module d'interface
+supplémentaire". Ne rien chager au champ "Module d'interface", sous
+peine d'obtenir un vlc sans interface de contôle. En cas d'erreur, voir
+la section "Que faire si ca ne marche pas ?"</p>
+
 <p>Pour ouvrir une chaîne, clique sur le bouton "Playlist" de
 l'interface. L'ensemble des canaux disponibles s'affiche. Double clique
 sur l'un d'entre eux pour le sélectionner.</p>
@@ -197,6 +202,19 @@ temporairement interrompue sur ce canal. Essaies-en un autre !</li>
 qui bloquerait le flux ou les requêtes d'abonnement à ce dernier (IGMP).
 </li>
 
+<li>Il peut parfois arriver que le vlc ne fonctionne pas, ou que
+l'interface ne soit plus visible. Dans ce cas, il s'agit souvent d'un
+problème avec le fichier de configuration du vlc, qui comporte des
+paramètres erronés. Le plus simple est alors de supprimer le fichier de
+configuation.<br/>
+Sous Windows, celui-ci se trouve sous :<br/>
+<code>c:\Documents and Settings\[votre nom d'utilsateur]\Application Data\vlc\vlcrc</code>
+<br/>
+Sur les systèmes UNIX, il s'agit du fichier <code>.vlc/vlcrc</code>
+dans le home de l'utilisateur.<br/>
+Pour MacOS X, supprimer le fichier : <br/
+<code>/Library/Preferences/VLC</code></li>
+
 <li>Le Client VideoLAN plante ! Si tu es sous Windows 95 / 98 /
 ME, c'est un problème connu. Nous te conseillons de passer à une
 version plus robuste de Windows comme 2000 ou XP pro.</li>
@@ -210,7 +228,7 @@ Linux</a>.</li>
 
 </ul>
 
-<? h2("Obtenir de l'aide, rapporter des bugs"); ?>
+<? h2("Obtenir de l'aide, rapporter un bug"); ?>
 <ul>
 <li>Tu peux utiliser le forum <code>ecp.via</code> pour tous les
 problèmes concernant l'utilisation de VideoLAN. N'oublie pas de préciser
@@ -231,4 +249,4 @@ On y retrouve un grand nombre d'informations nécessaires à la
 compréhension du problème. Les messages en rouge, plus particulièrement,
 signalent habituellement des erreurs.</li>
 </ul>
-<? footer('$Id: index.html,v 1.24 2003/04/17 15:31:15 videolan Exp $'); ?>
+<? footer('$Id: index.html,v 1.25 2003/04/23 15:39:50 bigben Exp $'); ?>

@@ -124,7 +124,7 @@ function starthtml($title) { ?>
 
 /* Give an entire cell html code for the first menubar */
 function get_first_bar_item($number, $module, $text, $url, $current_module) {
-  $size = floor(100 / $number);
+  $size = floor((100-16) / $number);
   if($current_module == $module)
   {
      ?><td class="topbarselected" style="width: <? echo $size; ?>%"><? echo $text; ?></td>

@@ -48,7 +48,7 @@ name of your drive (put <filename>D:</filename> under Windows if
 <filename>D</filename> is the letter of your DVD drive).</para></span>
 
 <span xml:lang="fr"><para>où <filename>/dev/dvd</filename> est le
-nom de votre lecteur ( utilisze <filename>D:</filename> sous Windows
+nom de votre lecteur (utiliser <filename>D:</filename> sous Windows
 si <filename>D</filename> est la lettre de votre lecteur de DVD, par
 exemple).</para></span>
 

@@ -36,11 +36,11 @@ reculer, ... Il est évident qu'il s'agit d'un must pour la diffusion
 vidéo et le rêve de chaque utilisateur.</para>
 
 <para>La VOD nécessite d'importantes ressources système sur le serveur
-et sur le réseau. La VOD fonctionne en unicast, pas en multicast: cela
-signifie que le les ressources nécessaires sur le serveur et sur le
+et sur le réseau. La VOD fonctionne en unicast, pas en multicast : cela
+signifie que les ressources nécessaires sur le serveur et sur le
 réseau sont directement proportionnelles au nombre de clients</para>
 
-<para>Le principe de la solution de VOD VideoLAN est extrèmement simple.
+<para>Le principe de la solution de VOD VideoLAN est extrêmement simple.
 L'idée est de faire du streaming HTTP, c'est à dire diffuser un flux
 vidéo MPEG encapsulé dans de l'HTTP. La régulation du débit entre le
 client et le serveur se fait automatiquement par le protocole TCP. Avec

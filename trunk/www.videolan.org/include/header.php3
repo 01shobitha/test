@@ -130,29 +130,29 @@ function menu_libdvbpsi() { ?>
 <? }
 
 function menu_videolan() { ?>
-  <h2>VideoLAN</h2>
-    <a href="/">homepage</a><br />
-    <a href="/intro.html">overview</a><br />
-    <a href="/partners.html">partners</a><br />
+  <h2><a href="/">Home</a></h2>
     <a href="/news.html">news</a><br />
     <a href="/events/index.html">events</a><br />
-    <a href="/lists.html">mailing-lists</a><br />
+    <a href="/partners.html">partners</a><br />
     <a href="/contribute.html">contribute</a><br />
-  <h2>Software</h2>
-    <a href="/vlc/">VideoLAN&nbsp;Client</a><br />
-    <a href="/vls/">VideoLAN&nbsp;Server</a><br />
-    <a href="/vlms/">VideoLAN&nbsp;MiniServer</a><br />
-    <a href="/network/">Network&nbsp;Tools</a><br />
-    <a href="/libdvdcss/">libdvdcss</a><br />
-    <a href="/libdvbpsi/">libdvbpsi</a><br />
-  <h2>Resources</h2>
+    <!--<a href="/lists.html">mailing-lists</a><br />
+    <a href="/intro.html">overview</a><br />-->
+  <h2><a href="/vlc/">VLC Media Player</a></h2>
+    <a href="/vlc/">overview</a><br />
+    <a href="/vlc/">features</a><br />
+    <a href="/vlc/">downloads</a><br />
+    <a href="/vlc/">screenshots</a><br />
+    <a href="/vlc/">FAQ</a><br />
+  <h2>Streaming</h2>
+    <a href="/streaming/">overview</a><br />
+    <a href="/streaming/">features</a><br />
+    <a href="/streaming/">downloads</a><br />
+    <a href="/streaming/">FAQ</a><br />
+  <h2><a href="/doc/">Documentation</a></h2>
+  <h2>Support</h2>
     <a href="/doc/">documentation</a><br />
-    <a href="/team/">the team</a><br />
-    <a href="/cgi-bin/cvsweb">CVSWeb</a><br />
-    <a href="/cgi-bin/irc/irc.cgi">IRCWeb</a><br />
-    <a href="/freedvd.html">CSS-free&nbsp;DVDs</a><br />
-    <a href="/links.html">links</a><br />
-    <a href="/contact.html">Contact us</a>
+    <a href="/lists.html">mailing-lists</a><br />
+    <a href="/cgi-bin/irc/irc.cgi">IRC</a><br />
 <? }
 
    /*
@@ -179,13 +179,13 @@ function startmenu($title) {
 
 
       <!-- Ze meniou -->
-      <? switch($module) {
+      <? switch($module) { /*
            case "vlc": menu_vlc(); break;
            case "vls": menu_vls(); break;
            case "vlms": menu_vlms(); break;
            case "network": menu_network(); break;
            case "libdvdcss": menu_libdvdcss(); break;
-           case "libdvbpsi": menu_libdvbpsi(); break;
+           case "libdvbpsi": menu_libdvbpsi(); break; */
            default: menu_videolan(); break;
          } ?>
 

@@ -194,7 +194,7 @@ document contains Frequently Asked Questions of VLC users.</para>
 
 <para>
 
-The up-to-date version of these documents can be found on the <ulink
+The latest version of these documents can be found on the <ulink
 url="http://www.videolan.org/doc/">VideoLAN Web site</ulink>.
 
 </para>
@@ -229,19 +229,30 @@ mailing-list page</ulink>.
 
 </para>
 
+<para>You can also talk with VideoLAN users and developers on IRC :
+server <emphasis>irc.freenode.net</emphasis>, channel
+<emphasis>#videolan</emphasis>.</para>
+
+<para>If you find a bug, please follow the instructions on the <ulink
+url="http://www.videolan.org/support/bug-reporting.html">bug reporting
+page</ulink>.</para>
+
 <sect1><title>Convention</title>
 
-<para>In this document, we adopt the following conventions for the Unix commands :</para>
+<para>In this document, we adopt the following conventions for the Unix
+commands :</para>
 
 <itemizedlist>
 
-<listitem><para>commands that should be typed as <emphasis>root</emphasis> have a <command>#</command> prompt :</para>
+<listitem><para>commands that should be typed as
+<emphasis>root</emphasis> have a <command>#</command> prompt :</para>
 
 <screen>
 <prompt># </prompt><userinput>command_to_be_typed_as_root</userinput>
 </screen>
 
-<listitem><para>commands that should be typed as a regular user have a <command>%</command> prompt :</para>
+<listitem><para>commands that should be typed as a regular user have a
+<command>%</command> prompt :</para>
 
 <screen>
 <prompt>% </prompt><userinput>command_to_be_typed_as_regular_user</userinput>

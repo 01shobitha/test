@@ -1,33 +1,41 @@
-<chapter id="modules"><title id="tmodules">Modules and options for the VideoLAN Client</title>
+<chapter id="modules"><title id="tmodules">Modules and options for VLC</title>
 
 <sect1><title>The modules</title>
-<para> The VideoLAN Client uses a  modular system, which allows easy add
-of new fonctions and supported formats.  Here is a description of nearly
-all the  available modules for the  VideoLAN Client. If you  got the VLC
-through a  binary file, you will  get the default modules.  If, however,
-you want to  customize the VideoLAN Client to your  needs, you will have
-to compile the VLC from its sources.</para>
-<para><emphasis>If you don't intend to compile  the VLC and want only the "normal"
-functions, reading this part is not very useful</emphasis></para>
+
+<para>VLC uses a modular system, which allows to add easily new fonctions
+and formats. Here is a description of nearly all the VLC
+modules. If you installed VLC through a binary file, you will get
+the default modules. If, however, you want to customize VLC to your
+needs, you will have to compile the VLC from sources.</para>
+
+<para><emphasis>If you don't intend to compile the VLC and
+want only the regular functions, reading this part is not very
+useful</emphasis>.</para>
+
 <para> The compilation itself is explained in the next chapter.</para>
+
 <para>If you wish to compile a module which is stated <emphasis>disabled
-by  default</emphasis>, you  have to  launch the  configure script  with
+by default</emphasis>, you have to launch the configure script with :
 </para>
-<screen><prompt>% </prompt><userinput>
- ./configure --enable-module_name </userinput></screen>
-<para>Of  course, on  the other  hand, if  you would  like to  disable a
-module that is <emphasis>enabled by default</emphasis>, you would have to use the</para>
-<screen><prompt>% </prompt><userinput>
- ./configure --disable-module_name </userinput></screen>
-<para>switch when running the configuration script.</para>
+
+<screen>
+<prompt>% </prompt><userinput>./configure --enable-module_name </userinput>
+</screen>
+
+<para>On the other hand, if you would like to disable a module that is
+<emphasis>enabled by default</emphasis>, you would have to use :</para>
+
+<screen>
+<prompt>% </prompt><userinput>./configure --disable-module_name </userinput>
+</screen>
+
 </sect1>
 
 
-<!--                                           Video Outputs -->
 <sect1><title>Video outputs</title>
 
- <para>Video outputs are the modules that enable the support of some
- systems for outputing the decoded video stream to your screen.</para>
+<para>Video outputs are the modules that enable the support of some
+systems to display the video on your screen.</para>
 
  <sect2><title>x11</title>
  <para><emphasis>default : enabled</emphasis></para>
@@ -41,8 +49,8 @@ module that is <emphasis>enabled by default</emphasis>, you would have to use th
  <para><emphasis>default : enabled</emphasis></para>
  <para><emphasis>For Linux only</emphasis></para>
  <para>It requires an xvideo compliant graphic card (it is the case for
- nearly all the modern card). It uses hardware acceleration for yuv
- transformation and for rescaling.</para>
+ nearly all modern cards). It uses hardware acceleration for YUV
+ transformation and rescaling.</para>
  </sect2>
 
  <sect2><title>sdl</title>
@@ -440,8 +448,8 @@ of the categories described before</para>
 
 <sect2><title>sout</title>
 <para><emphasis>default: enabled</emphasis></para>
-<para>Stream Output is a new feature  of the VideoLAN Client that allows
-him to stream, juste like the VideoLAN server</para>
+<para>Stream Output is a new feature  of VLC that allows
+it to stream, juste like the VideoLAN server (VLS)</para>
 <para>For more details, please have a look at the "Graphical user
 interface" or "Command Line" sections.</para>
 </sect2>
@@ -493,11 +501,6 @@ definitely not recommended, as you would get a very poor VLC, and should
 only be used for testing purposes</para>
 </sect2>
 
-
-
 </sect1>
-
-
-
 
 </chapter>

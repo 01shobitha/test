@@ -11,7 +11,7 @@ XML_DECL := /usr/lib/sgml/declaration/xml.decl
 # Default language (English)
 LANG = en
 
-XSL= /usr/share/xml/docbook/stylesheet/nwalsh/xhtml/chunk.xsl
+XSL= ../common/videolan-doc.xsl
 
 # All available languages (used in 'make clean')
 ALL_LANG = en fr es de it
@@ -26,7 +26,7 @@ init-$(LANG):
 
 # HTML output
 $(LANG)/$(DOC)-$(LANG).html: init-$(LANG)
-	xsltproc --stringparam chunker.output.encoding "iso-8859-15" --stringparam html.stylesheet "screen.css" $(XSL) src/$(LANG)/$(DOC).xml
+	xsltproc $(XSL) src/$(LANG)/$(DOC).xml
 	mv *.html $(LANG)
 	cd $(LANG) && cp index.html $(DOC)-$(LANG).html && cd ..
 	rm -f $(LANG)/$(DOC)-$(LANG)-html.zip

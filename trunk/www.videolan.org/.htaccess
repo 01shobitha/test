@@ -7,9 +7,6 @@ RewriteEngine on
 #
 # Redirects for moved pages
 #
-# Commented the line below because there are other docs than vlc HOWTO now
-# -- Alexis 6/4/2002
-#RewriteRule ^doc(.*)$ /vlc/doc$1 [R=permanent,L]
 RewriteRule ^vlcs(.*)$ /network$1 [R=permanent,L]
 RewriteRule ^packages(.*)$ /pub/vlc$1 [R=permanent,L]
 RewriteRule ^screenshots(.*)$ /vlc/screenshots$1 [R=permanent,L]
@@ -28,8 +25,8 @@ RewriteRule ^libdvbpsi/(.*)$ /vlc/index.html [R=permanent,L]
 RewriteRule ^vlms/(.*)$ /streaming/index.html [R=permanent,L]
 RewriteRule ^network/(.*)$ /streaming/index.html [R=permanent,L]
 
-# Vers le site développeurs
-RewriteRule ^/vlc/changelog.html$ http://developers.videolan.org/vlc/ChangeLog [R=permanent,L]
+# To the developers site
+RewriteRule ^vlc/changelog.html$ http://developers.videolan.org/vlc/ChangeLog [R=permanent,L]
 
 #
 # MIME Types

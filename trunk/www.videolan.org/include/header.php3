@@ -41,6 +41,15 @@ function starthtml($title) { ?>
    <link rel="stylesheet" type="text/css" href="/main.css" />
 </head>
 <body>
+
+<table width="100%" cellspacing="3" cellpadding="0"><tr>
+  <td style="background-color: #ffaaaa;" width="17%" align="center">Home</td>
+  <td style="background-color: #ffcccc;" width="16%" align="center">VLC Media Player</td>
+  <td style="background-color: #ffaaaa;" width="17%" align="center">Streaming</td>
+  <td style="background-color: #ffaaaa;" width="17%" align="center">Documentation</td>
+  <td style="background-color: #ffaaaa;" width="16%" align="center">Support</td>
+  <td style="background-color: #aaffaa;" width="17%" align="center">Developers</td>
+</tr></table>
 <? }
 
 function menu_vlc() { ?>
@@ -233,5 +242,23 @@ function stopmenu() { ?>
 </html>
 <? }
 
+/*
+ * the real code
+ */
+
+$lang=""; $date=""; $title="";
+
+if($mirror)
+{
+    header("Location: http://$mirror/$page.html");
+    die();
+}
+
+/* default language and date */
+if($lang=="") { $lang = "en"; }
+
+/* render the page */
+starthtml(ereg_replace("<[^>]*>","",$title));
+startmenu($title);
 
 ?>

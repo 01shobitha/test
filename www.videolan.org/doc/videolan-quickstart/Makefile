@@ -6,7 +6,9 @@
 DOC := videolan-quickstart
 
 # XML declaration
-XML_DECL := /usr/lib/sgml/declaration/xml.decl
+XML_DECL1 = /usr/lib/sgml/declaration/xml.decl
+XML_DECL2 = /usr/share/sgml/declaration/xml.decl
+XML_DECL = `test -f $(XML_DECL1) && echo $(XML_DECL1) || echo $(XML_DECL2)`
 
 # Default language (English)
 LANG = en
@@ -54,3 +56,8 @@ $(LANG)/$(DOC)-$(LANG).txt: $(LANG)/$(DOC)-$(LANG).xml ../common/stylesheet-txt.
 # Delete all outputs
 clean:
 	rm -rf $(ALL_LANG)
+
+# All languages
+all-lang:
+	for l in $(ALL_LANG); do $(MAKE) LANG=$$l || exit 1; done
+

@@ -59,3 +59,8 @@ $(LANG)/$(DOC)-$(LANG).txt:init-$(LANG)
 # Delete all outputs
 clean:
 	rm -rf $(ALL_LANG)
+
+# All languages
+all-lang:
+	for l in $(ALL_LANG); do $(MAKE) LANG=$$l || exit 1; done
+

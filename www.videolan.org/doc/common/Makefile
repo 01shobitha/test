@@ -3,7 +3,9 @@
 # To build another language than the default one, do 'make LANG=foo'
 
 # XML declaration
-XML_DECL := /usr/lib/sgml/declaration/xml.decl
+XML_DECL1 = /usr/lib/sgml/declaration/xml.decl
+XML_DECL2 = /usr/share/sgml/declaration/xml.decl
+XML_DECL = `test -f $(XML_DECL1) && echo $(XML_DECL1) || echo $(XML_DECL2)`
 
 # Build HTML, PDF, RTF and TXT outputs (for the web site)
 all: $(LANG)/$(DOC)-$(LANG).html $(LANG)/$(DOC)-$(LANG).pdf $(LANG)/$(DOC)-$(LANG).rtf $(LANG)/$(DOC)-$(LANG).txt
@@ -45,3 +47,8 @@ $(LANG)/$(DOC)-$(LANG).txt: $(LANG)/$(DOC)-$(LANG).xml ../common/stylesheet-txt.
 # Delete all outputs
 clean:
 	rm -rf $(ALL_LANG)
+
+# All languages
+all-lang:
+	for l in $(ALL_LANG); do $(MAKE) LANG=$$l || exit 1; done
+

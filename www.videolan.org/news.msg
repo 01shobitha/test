@@ -2,7 +2,8 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
-#|1 April 2005| Release: VLC 0.8.1337| Lots of new features have found their way into VLC ! VLC is now easy to use and bug free. ( see <a href="ftp://ftp.videolan.org/pub/videolan/vlc/0.8.1337/changelog.txt"> Full Change Log</a> ) Hurry up and download the new version here : <a href="ftp://ftp.videolan.org/pub/videolan/vlc/0.8.1337/win32/vlc-0.8.1337-win32.zip">Windows</a>, <a href="ftp://ftp.videolan.org/pub/videolan/vlc/0.8.1337/macosx/vlc-0.8.1337.dmg">Mac OS X</a> or <a href="ftp://ftp.videolan.org/pub/videolan/vlc/0.8.1337/vlc-0.8.1337.tar.bz2">source code</a>.
+|1 April 2005| Release: VLC 0.8.1337| Lots of new features have found their way into VLC ! VLC is now easy to use and bug free. ( see <a href="ftp://ftp.videolan.org/pub/videolan/vlc/0.8.1337/changelog.txt"> Full Change Log</a> ) Hurry up and download the new version here : <a href="ftp://ftp.videolan.org/pub/videolan/vlc/0.8.1337/win32/vlc-0.8.1337-win32.zip">Windows</a>, or <a href="ftp://ftp.videolan.org/pub/videolan/vlc/0.8.1337/vlc-0.8.1337.tar.bz2">source code</a>.
+# <a href="ftp://ftp.videolan.org/pub/videolan/vlc/0.8.1337/macosx/vlc-0.8.1337.dmg">Mac OS X</a> or <a href="ftp://ftp.videolan.org/pub/videolan/vlc/0.8.1337/vlc-0.8.1337.tar.bz2">source code</a>.
 
 |24 March 2005| Journées Federez| The VIA and VideoLAN teams are
 pleased to invite you to their annual presentation day at the

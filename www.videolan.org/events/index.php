@@ -12,6 +12,9 @@
 
 <p>Like last year we again attended FOSDEM. And this year we were HOT. People flocked around our demo's. There were several multicasted streams and the 7 laptops all did something different with them.</p>
 
+<table borders="0">
+<tr>
+<td>
 <p>
 <a href="20050226/VideoLAN%20Booth/Other%20demo/IMG_1260.JPG"><img alt="IMG_1260.JPG (1600x1200)"
         width="120"
@@ -20,7 +23,9 @@
 </p>
 
 <p>Rotating OpenGL transparent cube shown in a transparent output window running on Mac OS X. Next to it Colored ASCII Art output with a text (marquee) and a logo filter running on FreeBSD.</p>
+</td>
 
+<td>
 <p>
 <a href="20050226/VideoLAN%20Booth/Walls/IMG_1205.JPG"><img alt="IMG_1205.JPG (1600x1200)"
         width="120"
@@ -29,7 +34,11 @@
 </p>
 
 <p>Then a demo of Firefox showing a html page with the VLC plugin embedded (3 times) showing 3 different movies on Linux</p>
+</td>
+</tr>
 
+<tr>
+<td>
 <p>
 <a href="20050226/VideoLAN%20Booth/Walls/IMG_1259.JPG"><img alt="IMG_1259.JPG (1600x1200)"
         width="120"
@@ -38,7 +47,9 @@
 </p>
 
 <p>On the left you see the VLC mosaic (picture in picture) filter showing a one movie transparent on within another movie and a textfilter. You also see the Wall filter showing how you can split up a movie into pieces on different monitors. It also shows the time and logo filters, as well as positioning of the text filter and uses caca output on a quarter of the wall.</p>
+</td>
 
+<td>
 <p>
 <a href="20050226/VideoLAN%20Booth/Walls/IMG_1211.JPG"><img alt="IMG_1211.JPG (1600x1200)"
         width="120"
@@ -47,8 +58,11 @@
 </p>
 
 <p>The last demo shows the rotate filter, the wall filter, UTF-8 (japanese) subtitles, and some text overlays</p>
+</td>
+</tr>
+</table>
 
-<p>Zorglub held a short presentation of VLC, you can <a href="20050226/fosdem2005.sxi" alt="FOSDEM 2005 presentation>download it (OpenOffice)</a> if you want and there are pictures <a href="20050226/Lightning%20talk/here</a>.</p>
+<p>Zorglub held a short presentation of VLC, you can <a href="20050226/fosdem2005.sxi" alt="FOSDEM 2005 presentation">download it (OpenOffice)</a> if you want and there are pictures <a href="20050226/Lightning%20talk/">here</a>.</p>
 
 <p>All the photo's can be viewed <a href="20050226/">here</a>. There are also some shots made by other FOSDEM attendees. They were pulled from the <a href="http://fosdem.3ti.be/">FOSDEM picture site</a>. Copyright to the respective creators of the pictures, redistribution is not allowed. These files are for our own personal archive.</p>
 

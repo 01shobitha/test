@@ -6,7 +6,8 @@
 booth at <a href="http://www.fosdem.org/2005">FOSDEM</a> in Brussels. A
 small presentation of VideoLAN will be held by Zorglub. If you happen
 to be near Brussels this week end, we'll be happy to welcome you on our
-booth.
+booth.<br />
+<b>Update: </b>Read the report <a href="/events">here</a>.
 
 |15 Feb 2005| VideoLAN at Solutions Linux Paris | You have been many to
 come at the CNIT, Paris La Defense to meet the VideoLAN team. We want to

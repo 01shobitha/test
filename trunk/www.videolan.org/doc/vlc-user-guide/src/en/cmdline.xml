@@ -99,7 +99,7 @@ or
 
 <!-- Do not wrap me -->
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv vcd://[device][@[title][,[chapter]</userinput>
+<prompt>% </prompt><userinput>vlc -vvv vcd://[device][@{E|P|E|T|S}[number]]</userinput>
 </screen>
 
 <para>
@@ -110,7 +110,7 @@ or
 
 <!-- Do not wrap me -->
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv cdda://[device][@[title]]</userinput>
+<prompt>% </prompt><userinput>vlc -vvv cdda://[device][@[track]]</userinput>
 </screen>
 
 

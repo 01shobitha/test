@@ -111,6 +111,7 @@ diffuser, vers l'adresse multicast <emphasis>239.255.12.42</emphasis>.
 <emphasis>Test Stream</emphasis> est le nom qui sera utilisé pour ce
 programme, dans l'annonce SAP. <emphasis>12</emphasis> est la valeur du
 TTL du flux et de l'annonce SAP</para>
+</span>
 
 <span xml:lang="es">
 <para>donde <filename>video1.xyz</filename> es el fichero que se quiere
@@ -127,7 +128,7 @@ möchten, <emphasis>239.255.12.42</emphasis> die Multicast-IP-Adresse ist,
 über die Sie streamen möchten, <emphasis>Test Stream</emphasis> ist der
 Name des Programms, der in den SAP-Ankündigungen benutzt werden wird und
 <emphasis>12</emphasis> ist der Wert der TTL (Time To Live) des Streams
-und der SAP-Ankündigungen.
+und der SAP-Ankündigungen.</para>
 </span>
 
 <para>

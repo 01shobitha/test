@@ -1,5 +1,5 @@
 <?
-   $title = "VideoLAN Client - download";
+   $title = "VLC for Windows";
    $lang = "en";
    $date = "16 April 2001";
    require("header.php3");
@@ -7,15 +7,19 @@
 
 <? function pkgitem($version,$name) { ?><li><a href="/pub/videolan/vlc/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
 
-<h1>Download vlc for Windows</h1>
+<i><a href="/vlc/">back to the VLC page</a></i>
 
-<p> Latest Windows self-installing packages (0.4.6): </p>
+<h1>VLC for Windows</h1>
+
+<h2>Latest packages (0.4.6)</h2>
+
+<p> Self-installing packages: </p>
 
 <ul>
   <? pkgitem("0.4.6/win32","vlc-0.4.6-win32.exe"); ?>
 </ul>
 
-<p> Full Windows package (0.4.6) in zip format for those who prefer the GTK interface: </p>
+<p> Full Windows package in zip format for those who prefer the GTK interface: </p>
 
 <ul>
   <? pkgitem("0.4.6/win32","vlc-0.4.6-win32.zip"); ?>

@@ -1,5 +1,5 @@
 <?
-   $title = "VideoLAN Client - download";
+   $title = "VLC for Mac OS X";
    $lang = "en";
    $date = "16 April 2001";
    require("header.php3");
@@ -7,21 +7,26 @@
 
 <? function pkgitem($version,$name) { ?><li><a href="/pub/videolan/vlc/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
 
-<h1>Download vlc for Mac OS X</h1>
+<i><a href="/vlc/">back to the VLC page</a></i>
+
+<h1>VLC for Mac OS X</h1>
+
+<h2>Latest Mac OS X package (0.4.6)</h2>
 
 <p><b>Note:</b> this version does not support Mac OS 9.
 There is not, and won't be, a version for Mac OS 9.</p>
-
-<p> Latest Mac OS X package (0.4.6): </p>
 
 <ul>
   <? pkgitem("0.4.6/macosx","vlc-0.4.6.dmg"); ?>
 </ul>
 
+<p> VLC for Mac OS X is distributed as a disk image. Download the .dmg file,
+open it, and copy it to your hard drive (for instance the /Applications
+folder). Open VLC by double-clicking on it. </p>
+
 <h2>Older versions</h2>
 
 <p> Older versions can be found by <a href="/pub/vlc/">browsing</a> our
 FTP site. </p>
-
 
 <? require("footer.php3"); ?>

@@ -24,14 +24,14 @@ p {
   font-family: inherit;
   text-indent: 0px;
   background: inherit;
-  color: black;
+  color: inherit;
 }
 
 td {
   font-size: 10pt;
   font-family: inherit;
   background: inherit;
-  color: black;
+  color: inherit;
 }
 
 h1 {
@@ -39,7 +39,7 @@ h1 {
   font-family: inherit;
   font-weight: 600;
   background: inherit;
-  color: black;
+  color: inherit;
   padding: 0;
   margin: 0% 25% 5pt 0%;
   border-style: solid;
@@ -58,7 +58,7 @@ h2 {
   font-family: inherit;
   font-weight: 600;
   background: inherit;
-  color: black;
+  color: inherit;
   padding: 0;
   text-decoration: underline;
 }
@@ -87,14 +87,14 @@ ol, ul, ul.small {
   font-family: inherit;
   text-indent: 0px;
   background: inherit;
-  color: black;
+  color: inherit;
 }
 
 ul.big {
   font-size: 12pt;
   font-family: inherit;
   background: inherit;
-  color: black;
+  color: inherit;
 }
 
 dl {
@@ -107,7 +107,7 @@ dt {
   font-family: inherit;
   font-weight: 600;
   background: inherit;
-  color: black;
+  color: inherit;
   padding: 0;
   border-bottom-color: #000080;
   border-bottom-width: 1px;
@@ -127,9 +127,6 @@ dd {
 blockquote.center,p.center,td.center,h2.center { text-align: center; }
 blockquote.right, p.right, td.right  { text-align: right; }
 
-td        { vertical-align: top; }
-table.fill,td.fill { width: 100%; }
-td.nowrap { white-space: nowrap; }
 td.black  { color: black; background-image: none; background-color: black; }
 td.blue   { color: black; background-image: none; background-color: #aae; }
 td.green  { color: black; background-image: none; background-color: #aea; }

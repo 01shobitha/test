@@ -138,7 +138,7 @@ global $HTTP_GET_VARS;
 
  <td style="width: 100%; text-align: center; vertical-align: top;">
 
-  <table style="width: 100%;" cellspacing="0" cellpadding="0">
+  <table style="width: 90%;" cellspacing="0" cellpadding="0">
   <tr><?
     get_first_bar_item(6, "home", "Home", "/", $modules[1]);
     get_first_bar_item(6, "vlc", "VLC&nbsp;media&nbsp;player", "/vlc/", $modules[1]);
@@ -194,15 +194,14 @@ function get_first_bar_item_poukram($number, $module, $text, $url, $current_modu
 
 /* Give an entire cell html code for the first menubar */
 function get_first_bar_item($number, $module, $text, $url, $current_module) {
-  $size = floor((100) / $number);
   if($current_module == $module)
   {
-     ?><td class="firstbarselected" style="width: <? echo $size; ?>%"><? echo $text; ?></td>
+     ?><td class="firstbarselected"><? echo $text; ?></td>
      <?
   }
   else
   {
-     ?><td class="firstbar" style="width: <? echo $size; ?>%"><a class="firstbar" href="<? echo $url; ?>"><? echo $text; ?></a></td>
+     ?><td class="firstbar"><a class="firstbar" href="<? echo $url; ?>"><? echo $text; ?></a></td>
      <?
   }
 }

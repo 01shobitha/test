@@ -87,9 +87,6 @@ screenshots</a>. </p>
       style="vertical-align: middle; border-width: 1px;"
       alt="Linux Red Hat" width="32" height="32" /></a> Red Hat Linux
 </td><td>
-   <a href="download-crux.html"><img src="/images/icons/cruxlinux.png"
-      style="vertical-align: middle; border-width: 1px;"
-      alt="Crux Linux" width="32" height="32" /></a>Crux Linux
 </td>
 </tr>
 </table>
@@ -126,6 +123,14 @@ libraries and build them yourself:</p>
    <a href="download-gentoo.html"><img src="/images/icons/gentoo.gif"
       style="vertical-align: middle; border-width: 1px;"
       alt="Gentoo" width="31" height="32" /></a>&nbsp;Gentoo&nbsp;Linux
+</td>
+</tr><tr>
+<td>
+   <a href="download-crux.html"><img src="/images/icons/cruxlinux.png"
+      style="vertical-align: middle; border-width: 1px;"
+      alt="Crux Linux" width="32" height="32" /></a>Crux Linux
+</td><td>
+</td><td>
 </td>
 </tr>
 </table>

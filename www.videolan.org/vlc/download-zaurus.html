@@ -42,18 +42,19 @@
 <p>The Zaurus comes with a tailored down libc installation. VLC depends on one extra library that is not provided by default. Here it is:</p>
 <ul>
 <?
-     pkgitem("vlc/ipkg-feed/armv4l/v0.5.2/linupy", "librt-2.1.3.tar.gz");
+     pkgitem("vlc/ipkg-feed/armv4l/v0.5.3/zaurus", "librt_2.1.3_arm.ipk");
 ?>
 </ul>
 
 <h3>Installation instructions:</h3>
 
-<p>First you must become root user then perform the following steps.</p>
+<p>First you must become root user then put all the packages (*.ipk) from this page on your Zaurus. Then perform the following steps.</p>
 
 <pre>
-# cd /
-# tar xzvf librt-2.1.3.tar.gz
-# ldconfig
+# ipkg install librt_2.1.3_arm.ipk
+# ipkg install libffmpeg_0.4.6_20030304_arm.ipk
+# ipkg install zaurus-libsdl_1.2.5_arm.ipk
+# ipkg install zaurus-vlc_0.5.4_arm.ipk
 </pre>
 
 <? footer('$Id$'); ?>

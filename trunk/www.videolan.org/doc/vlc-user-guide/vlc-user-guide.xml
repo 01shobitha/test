@@ -19,6 +19,7 @@
   <!ENTITY enabled SYSTEM "enabled.xml">
   <!ENTITY always SYSTEM "always.xml">
   <!ENTITY linux-only SYSTEM "linux-only.xml">
+  <!ENTITY options-st SYSTEM "options-st.xml">
 <!-- End dirty -->
 
 

@@ -647,8 +647,28 @@ format de stockage, pas un format de compression</span>
 <span xml:lang="en">This module allows you to read
 <filename>.avi</filename> files</span>
 <span xml:lang="fr">Ce module vous permet de lire les fichiers
-<filename>.avi</filename></span>
-.</para></sect2>
+<filename>.avi</filename></span>.</para>
+<para>
+<span xml:lang="en">Options:</span>
+<span xml:lang="fr">Options:</span>
+</para>
+<itemizedlist>
+ <listitem>
+  <para> --avi-interleaved, --no-avi-interleaved:
+   <span xml:lang="en">Enables or disables interlacing mode (default is disabled)</span>
+   <span xml:lang="fr">Active ou désactive le mode entrelacé (desactivé par défaut)</span>
+  </para>
+ </listitem>
+ <listitem>
+  <para> --avi-index, --no-avi-index:
+   <span xml:lang="en">Forces an index to be created. This can help for
+    buggy streams (default is disabled)</span>
+   <span xml:lang="fr">Force la création d'un index, ce qui peut aider
+     la lecture de flux buggés (désactivé par défaut)</span>
+  </para>
+ </listitem>
+</itemizedlist>
+</sect2>
 
 <sect2><title>asf</title>
 &always;
@@ -711,7 +731,19 @@ satellite.</span>
 Matroska free format</span>
 <span xml:lang="fr">Ce module permet de lire les fichiers utilisant le
 format libre Matroska</span>
-.</para></sect2>
+.</para>
+&options-st;  
+<itemizedlist>
+<listitem>
+<para><emphasis>--mkv-seek-percent, --no-mkv-seek-percent</emphasis>:
+   <span xml:lang="en"> When this option is enabled (this is the default 
+	behaviour), seek is based on percentage and not on time</span>
+   <span xml:lang="fr">Avec cette option (activée par défaut), le 
+        déplacement se fait selon le pourcentage et non suivant le temps
+   </span></para>
+ </listitem>
+</itemizedlist>
+</sect2>
 
 <sect2><title>ps,ts</title>
 &always;
@@ -720,7 +752,25 @@ format libre Matroska</span>
 or Transport Tream files</span>
 <span xml:lang="fr">Ces modules vous permettent de lire les flux
 encapsulés en MPEG2-Program Stream ou Transport Stream</span>
-.</para></sect2>
+.</para>
+&options-st;  
+<itemizedlist>
+<listitem>
+<para><emphasis>--vls-backward-compat, --no-vls-backward-compat (ts module)</emphasis>:
+   <span xml:lang="en"> Enable this option if you want to use VLS, 
+     with versions lower than 0.4</span>
+   <span xml:lang="fr"> Activez cette option pour garder la 
+     compatibilité avec des versions inférieures à 0.4 de VLS</span>
+  </para></listitem>
+  <listitem><para>--buggy-psi, --no-buggy-psi (ts module)
+   <span xml:lang="en"> Enable this option to help handling of files
+     with buggy PSI.</span>
+   <span xml:lang="fr"> Activez cette option pour améliorer la 
+     prise en charge des flux ayant des PSI bugguées.</span>
+  </para>
+ </listitem>
+</itemizedlist>
+</sect2>
 
 <sect2><title>id3,m3u</title>
 &always;
@@ -768,7 +818,37 @@ and X11. You can create your own skins very easily with XML files</span>
 <span xml:lang="fr">Cette interface skinnable, qui fonctionne sous Win32
 et X11 vous permet de très simplement créer vos propres skins, à l'aide
 de fichiers XML</span>
-.</para></sect2>
+.</para>
+&options-st;
+<itemizedlist>
+<listitem>
+  <para><emphasis>--skin_last</emphasis>:
+   <span xml:lang="en"> Argument is a string. This allows you to  
+     specify the last used skin.</span>
+   <span xml:lang="fr"> Cette option vous permet de donner la 
+     dernière skin utilisée (l'argument est une chaîne).</span>
+  </para></listitem>
+  <listitem><para><emphasis>--skin_config</emphasis>:
+   <span xml:lang="en"> Argument is a string. This allows you to  
+     set the skin configuration.</span>
+   <span xml:lang="fr"> Cette option vous permet de donner la 
+     configuration de la skin (l'argument est une chaîne).</span>
+  </para></listitem>
+  <listitem><para><emphasis>--show_in_tray, --noshow_in_tray</emphasis>:
+   <span xml:lang="en"> Indicates whether the application must  
+     be shown in traybar (default disabled).</span>
+   <span xml:lang="fr"> Indique si l'application doit être visible
+     dans la barre système (désactivé par défaut).</span>
+  </para></listitem>
+  <listitem><para>--show_in_taskbar, --noshow_in_taskbar</emphasis>:
+   <span xml:lang="en"> Indicates whether the application must  
+     be shown in the taskbar (default enabled).</span>
+   <span xml:lang="fr"> Indique si l'application doit être visible
+     dans la barre des tâches (activé par défaut).</span>
+  </para>
+ </listitem>
+</itemizedlist>
+</sect2>
 
 <sect2><title>gtk</title>
 &enabled;
@@ -779,7 +859,8 @@ under Windows</span>
 <span xml:lang="fr">Ceci est l'interface GTK+, qui peut également être
 utilisée sous Windows. Vous devez disposer des librairies GTK et de
 en-têtes pour la compilation</span>
-.</para></sect2>
+.</para>
+</sect2>
 
 <sect2><title>gnome</title>
 &disabled;
@@ -793,7 +874,28 @@ compile it</span>
 librairies Gnome (<emphasis>libgnome32</emphasis> sous Debian GNU/Linux)
 et des en-têtes pour la compilation (<emphasis>libgnome-dev</emphasis>
 sous Debian GNU/Linux)</span>
-.</para></sect2>
+.</para>
+&options-st;
+<itemizedlist>
+<listitem>
+<para>--gnome-tooltips, --no-gnome-tooltips
+<span xml:lang="en">Whether to show tooltips (default enabled)</span>
+<span xml:lang="fr">Active l'affichage des bulles d'aide (activé par défaut)</span>
+</para></listitem>
+<listitem><para>--gnome-toolbartext, --no-gnome-toolbartext
+<span xml:lang="en">Whether to show text on buttonss (default enabled)</span>
+<span xml:lang="fr">Active l'affichage du texte sur les boutons
+		(activé par défaut)</span>
+</para></listitem>
+<listitem><para>--gnome-prefs-maxh
+<span xml:lang="en">Argument is an integer that gives the maximum
+	height for configuration windows</span>
+<span xml:lang="fr">L'argument (un entier) donne la hauteur maximale des
+	fenêtres de configuration</span>
+</para>
+</listitem>
+</itemizedlist>
+</sect2>
 
 <sect2><title>qt</title>
 &disabled;
@@ -823,7 +925,17 @@ compile it</span>
 aurez besoin des librairies Kde (<emphasis>kdelibs3</emphasis>
 sous Debian GNU/Linux) et des en-têtes pour la compilation
 ((<emphasis>kde-devel</emphasis> sous Debian GNU/Linux)</span>
-.</para></sect2>
+.</para>
+&options-st;
+<itemizedlist>
+<listitem>
+<para>--kde-uirc
+<span xml:lang="en">Path to the ui.rc file</span>
+<span xml:lang="fr">Chemin du fichier ui.rc</span>
+</para>
+</listitem>
+</itemizedlist>
+</sect2>
 
 <sect2><title>rc</title>
 &always;
@@ -836,7 +948,27 @@ text-based, so you should use it when you are in console mode</span>
 qui fonctionne en mode texte depuis une console. Vous pouvez
 ainsi contrôler le VLC par des scripts ou des commandes, comme
 <emphasis>play</emphasis>,<emphasis>stop</emphasis>, etc....</span>
-.</para></sect2>
+.</para>
+&options-st;
+<itemizedlist>
+<listitem>
+<para>--rc-show-pos, --no-rc-show-pos
+<span xml:lang="en">Indicates whether the position in the stream
+must be shown (outputs one timer line every seconds) (default
+disabled)</span>
+<span xml:lang="fr">Active ou désactive un compteur qui indique
+chaque seconde la position dans le flux (désactivé par défaut)
+</span></para></listitem>
+<listitem><para>--fake--tty, --no-fake-tty
+<span xml:lang="en">Enables or disables TTY virtual terminal
+emulation (default disabled)
+</span>
+<span xml:lang="fr">Active ou désactive l'émulation d'un terminal virtuel
+TTY (désactivé par défaut)</span>
+</para>
+</listitem>
+</itemizedlist>
+</sect2>
 
 
 <sect2><title>http</title>
@@ -851,7 +983,27 @@ par un navigateur web. Vous pouvez créer vos propres pages web de
 contrôle.
 <ulink url="http://wiki.videolan.org/index.php/HTTP">Plus d'informations
 </ulink></span>
-.</para></sect2>
+.</para>
+&options-st;
+<itemizedlist>
+<listitem>
+<para>--http-host
+<span xml:lang="en">The argument, a string, gives the host address. 
+It must look like address[:port], where address can be an IP address 
+or a DNS name, and port is the port on which the HTTP interface
+will be available (default is 8080). Default address is localhost, 
+which will be ok for almost everybody</span>
+<span xml:lang="fr">L'argument, une chaîne, donne l'adresse locale, sous
+la forme adresse[:port], où l'adresse est soit une adresse IP, soit un 
+nom DNS, et où port et le port sur lequel l'interface HTTP sera disponible
+Le port par défaut est 8080. L'adresse par défaut est localhost; ceci
+devrait être bon pour presque tout le monde</span>
+</para></listitem>
+<listitem><para>--http-src
+<span xml:lang="en">Gives the path to the HTML pages to be served.</span>
+<span xml:lang="fr">Chemin du répertoire contenant les pages HTML à 
+servir</span></para></listitem></itemizedlist>
+</sect2>
 
 <sect2><title>ncurses</title>
 &disabled;
@@ -901,7 +1053,24 @@ Embedded (pour iPaq)</span>
 gestures</span>
 <span xml:lang="fr">Ce module vous permet de contrôler VLC par des
 mouvements de souris</span>
-.</para></sect2>
+.</para>
+&options-st;
+<itemizedlist>
+<listitem>
+<para>--gestures-threshold
+<span xml:lang="en">The integer argument is the threshold of move
+required for a mouse gesture to be recorded</span>
+<span xml:lang="fr">L'argument, un entier, est la quantité de 
+mouvement requise avant qu'un mouvement ne soit enregistré</span>
+</para></listitem>
+<listitem><para>--gestures-button {left,middle,right}
+<span xml:lang="en">The button to click before a gesture</span>
+<span xml:lang="fr">Le bouton choisi devra être enfoncé avant
+de faire le mouvement</span>
+</para>
+</listitem>
+</itemizedlist>
+</sect2>
 
 <sect2><title>joystick</title>
 &disabled;
@@ -946,7 +1115,43 @@ url="http://liba52.sourceforge.net/">site liba52</ulink></span>
 site</ulink>)</span>
 <span xml:lang="fr">Ceci est un décodeur MPEG-4/DivX/OpenDivX (voir le
 <ulink url="http://ffmpeg.sourceforge.net/"> site ffmpeg</ulink>)</span>
-.</para></sect2>
+.</para>
+&options-st;
+<itemizedlist>
+<listitem>
+<para>--ffmpeg-dr, --no-ffmpeg-dr
+<span xml:lang="en">Enables or disables direct rendering (default enabled)</span>
+<span xml:lang="fr">Active ou désactive le rendu direct (activé par défaut)</span>
+</para></listitem>
+<listitem><para>--ffmpeg-error-resilience
+<span xml:lang="en">Integer to set the error resilience factor, from -1 to 99 
+(-1 means no resilience at all)</span>
+<span xml:lang="fr">Un entier qui permet de régler le niveau de résistance aux 
+erreurs sur les flux, entre -1 et 99 (-1 désactive toute correction d'erreur)</span>
+</para></listitem>
+<listitem><para>--ffmpeg-workaround-bugs
+<span xml:lang="en">Try to fix some bugs. Add the values corresponding to the bugs you want to fix, and pass it as argument: 1 = autodetect, 2 = old msmpeg4, 4 = xvid interlaces, 8 = ump4, 16 = no padding, 32 = ac vlc, 64 = Qpel chroma</span>
+<span xml:lang="fr">Règle quelques problèmes. Ajoutez les valeurs correspondants aux problèmes à régler, et entrez ceci comme argument:  1 = autodetect, 2 = old msmpeg4, 4 = xvid interlaces, 8 = ump4, 16 = no padding, 32 = ac vlc, 64 = Qpel chroma.</span>
+</para></listitem>
+<listitem><para>--ffmpeg-hurry-up, --no-ffmpeg-hurry-up
+<span xml:lang="en">Allow the decoder to decode only partially or even to skip frames, if it is late. This can be useful with low end computers, but produces weird pictures.</span>
+<span xml:lang="fr">Activer cette option permet au décodeur de ne décoder que partiellement, voir pas du tout, certaines images, s'il est en retard. Ceci est utile sur les machines peu puissantes, mais produit des images de mauvaise qualité.</span>
+</para></listitem>
+<listitem><para>--ffmpeg-truncated
+<span xml:lang="en">Truncates the stream : -1=auto, 0=disabled, 1=enabled</span>
+<span xml:lang="fr">Tronquer le flux:  -1=auto, 0=désactivé, 1=activé</span>
+</para></listitem>
+<listitem><para>--ffmpeg-pp-q
+<span xml:lang="en">Postprocessing quality (integer between 0 and 6). A higher level requires more CPU power and will produce better pictures.</span>
+<span xml:lang="fr">Qualité du post-traitement (entier entre 0 et 6). Un nombre plus élevé demande plus de puissance, mais produira un meilleur flux.</span>
+</para></listitem>
+<listitem><para>--ffmpeg-pp-name
+<span xml:lang="en">Series of postprocessing filters</span>
+<span xml:lang="fr">Série de filtre de postraitement</span>
+</para></listitem>
+
+</itemizedlist>
+</sect2>
 
 <sect2><title>vorbis</title>
 &enabled;

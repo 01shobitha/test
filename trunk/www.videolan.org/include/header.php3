@@ -40,11 +40,11 @@ function starthtml($title) { ?>
 
    switch($modules[1]) {
       case "404.html": case "403.html": break;
-      case "vlc": $color_vlc = "inherit"; break;
-      case "streaming": $color_streaming = "inherit"; break;
-      case "doc": $color_doc = "inherit"; break;
-      case "support": $color_support = "inherit"; break;
-      default: $color_home = "inherit"; break;
+      case "vlc": $color_vlc = "#ffa"; break;
+      case "streaming": $color_streaming = "#ffa"; break;
+      case "doc": $color_doc = "#ffa"; break;
+      case "support": $color_support = "#ffa"; break;
+      default: $color_home = "#ffa"; break;
    }
 
 ?><form action="index.html" method="get">
@@ -58,12 +58,12 @@ function starthtml($title) { ?>
 
 <table cellspacing="3" cellpadding="0">
 <tr>
-    <td style="background-color: <?echo($color_home);?>; width: 17%; height:150; vertical-align: middle;" align="center"><a href="/">Home</a></td>
-    <td style="background-color: <?echo($color_vlc);?>; width: 16%; height:150;vertical-align: middle;" align="center"><a href="/vlc/">VLC media player</a></td>
-    <td style="background-color: <?echo($color_streaming);?>; width: 17%; height:150; vertical-align: middle;" align="center"><a href="/streaming/">Streaming</a></td>
-    <td style="background-color: <?echo($color_doc);?>; width: 17%; height:150; vertical-align: middle;" align="center"><a href="/doc/">Documentation</a></td>
-    <td style="background-color: <?echo($color_support);?>; width: 16%; height:150; vertical-align: middle;" align="center"><a href="/support/">Support</a></td>
-    <td style="background-color: #afa; width: 17%; height:150; vertical-align: middle;" align="center"><a href="http://developers.videolan.org/">Developers</a></td>
+    <td style="background-color: <?echo($color_home);?>; width: 17%; vertical-align: middle;" align="center"><a href="/">Home</a></td>
+    <td style="background-color: <?echo($color_vlc);?>; width: 16%; vertical-align: middle;" align="center"><a href="/vlc/">VLC media player</a></td>
+    <td style="background-color: <?echo($color_streaming);?>; width: 17%; vertical-align: middle;" align="center"><a href="/streaming/">Streaming</a></td>
+    <td style="background-color: <?echo($color_doc);?>; width: 17%; vertical-align: middle;" align="center"><a href="/doc/">Documentation</a></td>
+    <td style="background-color: <?echo($color_support);?>; width: 16%; vertical-align: middle;" align="center"><a href="/support/">Support</a></td>
+    <td style="background-color: #afa; width: 17%; vertical-align: middle;" align="center"><a href="http://developers.videolan.org/">Developers</a></td>
 </tr>
 <tr>
 

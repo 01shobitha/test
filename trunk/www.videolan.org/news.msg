@@ -4,6 +4,9 @@
 # Et pour les nouvelles importantes, c'est pas un | , c'est un §
 #
 
+|8 Apr 2003| New skin for the Web site | Karibu has designed a new skin
+for the Web site : enjoy !
+
 |21 Mar 2003| VIA and VideoLAN annual presentation day| The VIA
 and VideoLAN teams are pleased to invite you to their annual
 presentation day at the Ecole Centrale Paris (Châtenay-Malabry,

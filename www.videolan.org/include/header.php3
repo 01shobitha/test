@@ -154,8 +154,8 @@ foreach( $menu as $module )
                                "fr.videolan.org" => "Mirror site (Zoy)");
           foreach($web_mirrors as $web_mirror_addr => $web_mirror_desc){
             echo "<option value=\"www.$web_mirror_addr\" ";
-            if($_SERVER["HTTP_HOST"] == $web_mirror_addr ||
-               $_SERVER["HTTP_HOST"] == "www.$web_mirror_addr"){
+            if(strcmp($_SERVER["HTTP_HOST"],$web_mirror_addr)==0 ||
+               strcmp($_SERVER["HTTP_HOST"],"www.$web_mirror_addr")==0){
               echo "selected=\"selected\"";
             }
             echo " >$web_mirror_desc</option>";

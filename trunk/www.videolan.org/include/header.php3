@@ -49,6 +49,14 @@ function starthtml($title) { ?>
 
 ?><form action="index.html" method="get">
   <table width="100%" cellspacing="3" cellpadding="0">
+
+<tr>
+
+<td><img src="/images/cone-soppera1.png" alt="VideoLAN logo" /></td>
+
+<td>
+
+<table cellspacing="3" cellpadding="0">
 <tr>
     <td style="background-color: <?echo($color_home);?>; width: 17%; vertical-align: middle;" align="center"><a href="/">Home</a></td>
     <td style="background-color: <?echo($color_vlc);?>; width: 16%; vertical-align: middle;" align="center"><a href="/vlc/">VLC media player</a></td>
@@ -56,18 +64,7 @@ function starthtml($title) { ?>
     <td style="background-color: <?echo($color_doc);?>; width: 17%; vertical-align: middle;" align="center"><a href="/doc/">Documentation</a></td>
     <td style="background-color: <?echo($color_support);?>; width: 16%; vertical-align: middle;" align="center"><a href="/support/">Support</a></td>
     <td style="background-color: #afa; width: 17%; vertical-align: middle;" align="center"><a href="http://developers.videolan.org/">Developers</a></td>
-    <td style="white-space: nowrap;">
-      <select name="mirror">
-        <!-- current: $GLOBALS['HTTP_HOST'] -->
-        <option value="www.videolan.org">Châtenay, France (main)</option>
-        <option value="www.fr.videolan.org">Paris, France</option>
-      </select><input type="submit" value="Select Mirror" />
-    </td>
-
 </tr>
-</table>
-
-<table width="100%" cellspacing="3" cellpadding="0">
 <tr>
 
   <? switch($modules[1]) {
@@ -80,8 +77,22 @@ function starthtml($title) { ?>
 
 
 </tr>
-
 </table>
+
+</td>
+
+
+    <td style="white-space: nowrap;">
+      <select name="mirror">
+        <!-- current: $GLOBALS['HTTP_HOST'] -->
+        <option value="www.videolan.org">Châtenay, France (main)</option>
+        <option value="www.fr.videolan.org">Paris, France</option>
+      </select><input type="submit" value="Select Mirror" />
+    </td>
+
+</tr>
+</table>
+
 </form>
 
 <div style="margin: 10px;"><?

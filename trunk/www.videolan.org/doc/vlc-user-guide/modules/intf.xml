@@ -275,7 +275,7 @@ servir.</span>
 <sect2><title>ncurses</title>
 &disabled;
 &linux-only;
-
+<para>
 <span xml:lang="en">This is a text interface, using ncurses library.
 You will need ncurses headers if you want to compile it
 (<emphasis>libncurses5-dev</emphasis> package on Debian)</span>

@@ -99,9 +99,10 @@ Fernsehkanälen stammen</span>
 <para><emphasis>--crop-geometry &lt;string&gt; </emphasis>:
 <span xml:lang="en">set the geometry of the zone to crop. This is set
 as width x heigth + left offset + top offset (in pixels).</span>
-<span xml:lang="fr">Indiquez la géométrie de la zone à réduire. Cela se fixe par largeur x hauteur + position à gauche + position supérieure (en pixels).</span>
+<span xml:lang="fr">Indiquez la géométrie de la zone à réduire. Cela se fixe
+par largeur x hauteur + position à gauche + position supérieure (en pixels).</span>
 <span xml:lang="de">Stellt die Geometrie der zu beschneidenden Zone in der Form
-Breite x Höhe + Abstand von links + Abstand von oben (in Pixeln) ein.
+Breite x Höhe + Abstand von links + Abstand von oben (in Pixeln) ein.</span>
 </para>
 </listitem>
 <listitem>
@@ -110,7 +111,8 @@ Breite x Höhe + Abstand von links + Abstand von oben (in Pixeln) ein.
 <span xml:lang="fr">rédutcion automatique des marges noires (désactivé par défaut)</span>
 <span xml:lang="de">automatisches Beschneiden des schwarzen Randes (standardmäßig deaktiviert)</span>
 </para>
-</listitem></itemizedlist>
+</listitem>
+</itemizedlist>
 </sect2>
 
 <sect2><title>transform</title>
@@ -119,7 +121,8 @@ Breite x Höhe + Abstand von links + Abstand von oben (in Pixeln) ein.
 <span xml:lang="en">This filter allows to rotate the video in several ways
 .</span><span xml:lang="fr">
 Ce filtre vous permet de tourner l'image de plusieurs façons.</span>
-<span xml:lang="de">Dieser Filter erlaubt Ihnen das Bild in mehreren Arten zu drehen.</span>
+<span xml:lang="de">Dieser Filter erlaubt Ihnen das Bild in mehreren
+Arten zu drehen.</span>
 </para>
 &options-st;
 <itemizedlist>

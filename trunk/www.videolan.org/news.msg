@@ -15,11 +15,11 @@ list of changes. To download the sources or the binary packages of
 this new version, go to the <a href="http://www.videolan.org/vlc/">VLC
 download page</a> and click on your OS logo!
 
-|23 June 2003| Release: Libdvdcss 1.2.7| This is new release of
+|23 June 2003| Release: Libdvdcss 1.2.7| This new release of
 libdvdcss, a DVD decryption library used by VLC and many other GPL media
-players, has key caching enabled by default a some bugfixes. See the <a
+players, has key caching enabled by default and some bugfixes. See the <a
 href="http://developers.videolan.org/libdvdcss/">libdvdcss page</a> to
-download the sources or the binaires.
+download the sources or the Debian packages.
 
 |20 June 2003| Release: miniSAPserver 0.2.1| This new version of the
 miniSAPserver offers IPv6 support both for announces and announced

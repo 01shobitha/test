@@ -232,7 +232,7 @@ function footer($tag) {
 
 if($mirror)
 {
-    /* FIXME : mirror code is broken */
+    /* FIXME: mirror code is broken */
     header("Location: http://$mirror".$GLOBALS['PHP_SELF']);
     die();
 }

@@ -7,9 +7,9 @@
 |19 Jan 2003| New VideoLAN Quickstart | The VideoLAN Quickstart has been
 completely rewritten. See the <a href="/doc/">documentation page</a>.
 
-|19 Jan 2003| New web site | Welcome to our new web site :
+|19 Jan 2003| New web site | Welcome to our new web site:
 it is designed to be more simple and comprehensive for the
-users. There is a separate site for the developers : <a
+users. There is a separate site for the developers: <a
 href="http://developers.videolan.org/">developers.videolan.org</a>.
 If you find errors, please write to <a
 href="mailto:webmaster@videolan.org">webmaster@videolan.org</a>.
@@ -28,12 +28,12 @@ href="/libdvdcss/index.html">libdvdcss</a> page, and have a look at the
 <a href="http://videolan.org/libdvdcss/changelog.html">Changelog</a>.
 
 |4 Nov 2002| Pictures and slides of JDL Lyons | The pictures and the
-slides of the Free Software Days in Lyons are online : see the <a
+slides of the Free Software Days in Lyons are online: see the <a
 href="/events/">events page</a>.
 
 |1-2 Nov 2002| Free Software days in Lyons | VideoLAN will be
 present at the Free Software Days (<i>Journées du Libre</i>) in Lyons
-(France) : four developers will have a stand with a running demo of
+(France): four developers will have a stand with a running demo of
 VideoLAN. This event is organized by ALDIL, and you will have all the
 information about the stands, the conferences and a site map on <a
 href="http://www.aldil.org/agenda/journees/2002/">this page</a>.
@@ -49,7 +49,7 @@ href="/vlc/download.html">download page</a>.
 |13 Oct 2002| Release: mini-vlcs 0.2.0 | This new release adds
 IPv6 support, features unlimited channel numbers and auto-reload
 when the configuration file is changed. Get-it from the <a
-href="/network/download.html">download page</a> !
+href="/network/download.html">download page</a>!
 
 |13 Oct 2002| Release: vls 0.4.0 | This new release adds IPv6 multicast
 support, language descriptors for audio and subpicture streams, and
@@ -58,7 +58,7 @@ of programs and channels, start-up script,
 and is compliant to general practice on how
 to embed A/52, DVD SPU and LPCM elementary streams. This release
 requires VLC version 0.4.5 or later. Get it now from the
-<a href="/vls/download.html">download page</a> !
+<a href="/vls/download.html">download page</a>!
 
 |13 Oct 2002| Release: libdvdcss 1.2.3 | This release fixes many issues
 in the Windows port. Check the
@@ -152,8 +152,8 @@ convenient options. It is now possible to change the TTL value
 and to make the vlms repeat its playlist.|
 
 |13 may 2002| Release: vls 0.3.3 | This new release adds a long
-awaited Windows port for the vls ! Get it now from the
-<a href="/vls/download.html">download page</a> !
+awaited Windows port for the vls! Get it now from the
+<a href="/vls/download.html">download page</a>!
 
 |23 apr 2002| Thinkpad received | We eventually received the
 IBM Thinkpad as a reward for the IBM Linux Challenge. See
@@ -186,13 +186,13 @@ href="mailto:bill@rfa.org">bill@rfa.org</a>&gt; and Alexis de Lattre
 &lt;<a href="mailto:alexis@videolan.org">alexis@videolan.org</a>&gt;.
 
 |6 apr 2002| Release: vlc 0.3.0 | This release fixes an amazing number
-of bugs and brings a lot of new features as well : Configuration
+of bugs and brings a lot of new features as well: Configuration
 file support, new input layer with IPv6 support and file format
 autodetection, new video output engine featuring speed increases
 up to 40%, VCD support under Mac OS X, multicast support and a
 new interface for Win32, network support under BeOS, satellite
 driver for WinTV Nova cards, video filters (deinterlacing,
-rotation, distort, image wall) and much more ! Read the <a
+rotation, distort, image wall) and much more! Read the <a
 href="/vlc/changelog.html">ChangeLog</a> and go to the <a
 href="/vlc/download.html">vlc download page</a>.
 
@@ -223,7 +223,7 @@ a lot more simple to write but it can only support the newest vlc network syntax
 (udp://). See the <a href="/network">network page</a> for more information and
 download.
 
-|5 mar 2002| Meuuh got his Ti !
+|5 mar 2002| Meuuh got his Ti!
 
 |jan 2002| Linux Challenge: VideoLAN wins | Videolan is one of
 the 25 winners of the IBM Linux Challenge for opensource projects
@@ -279,7 +279,7 @@ issues discovered in 0.2.81, but also introduces the BSD/OS
 port, and a few other Win32 improvements. See the usual <a
 href="/vlc/changelog.html">changelog file</a> for a more
 complete report on what has changed, or directly go to the <a
-href="/vlc/download.html">download page</a> !
+href="/vlc/download.html">download page</a>!
 
 |2 aug 2001| Connection failure | We apologize for the 24 hour downtime
 due to a power audit.
@@ -288,7 +288,7 @@ due to a power audit.
 bug hunt, almost all critical bugs have disappeared, and all important
 ones are gone. See the <a href="/vlc/changelog.html">changelog file</a>
 for more information. This is also the first public version to use
-libdvdcss. <a href="/vlc/download.html">Download</a> it now !
+libdvdcss. <a href="/vlc/download.html">Download</a> it now!
 
 |28 jul 2001| Release: libdvdcss 0.0.2 | This new version brings lots
 of bugfixes, full Windows 98 and Windows 2000 support, and a faster DVD
@@ -380,7 +380,7 @@ href="/cgi-bin/cvsweb/">CVSWeb interface</a> on the site.
 plain X11 support (which was broken), enhanced CSS support, a few new
 interface features including drag'n'drop support, and fixes a few
 reported bugs. As usual, <a href="/vlc/download.html">download</a> it
-quickly !
+quickly!
 
 |15 feb 2001| Hurricane vandalizes CVS repository | Bozo
 "weeeeuuuuaaaaaaaaahhhhhhhhh, toupétéééééééé" Hurricane launched today

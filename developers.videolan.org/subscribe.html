@@ -88,15 +88,15 @@
 
         ?><p> The following request has been sent to <a
         href="mailto:ecartis@videolan.org">listar@videolan.org</a>:
-        </p> <pre><? echo $header."\n".$message; ?></pre> <p> You
+        </p> <pre><?php echo $header."\n".$message; ?></pre> <p> You
         should receive a confirmation request within the next few
         minutes. Reply to this email to confirm you subscription or
-        unsubscription.</p> <?
+        unsubscription.</p> <?php
 
     } else {
 
         ?><p> We are afraid your subscription failed for the following
-        reason: <b><? echo $error; ?></b>. </p> <?
+        reason: <b><?php echo $error; ?></b>. </p> <?php
 
     }
 ?>

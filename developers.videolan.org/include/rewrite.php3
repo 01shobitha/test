@@ -32,7 +32,7 @@
       fpassthru ($fd);
       exit;
     }
-    else if( ereg( "<?", $line, $regs ) )
+    else if( ereg( "<?php", $line, $regs ) )
     {
       $line = fgets( $fd, 1023 );
       eval( $line ); // get $title

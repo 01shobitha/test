@@ -557,6 +557,15 @@ by activating the advanced GUI on wxWindows or by clicking the
   <caption><para>The equalizer in the wxWindows interface</para></caption>
 </mediaobject>
 
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/play-howto/intf-osx-equalizer.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>The equalizer in the MacOS X interface</para></textobject>
+  <caption><para>The equalizer in the MacOS X interface</para></caption>
+</mediaobject>
+
 <para>Presets are available in the Audio menu in wxWindows, or in the
 Equalizer window in the MacOS X interface</para>
 
@@ -586,14 +595,63 @@ filters can be tuned.</para>
 
 </sect1>
 
+<!--
 <sect1><title>Misc</title>
 
 <para>TODO</para>
 
 </sect1>
+-->
 
 <sect1><title>Basic troubleshooting</title>
-<para>TODO</para>
+
+<note><para>This is very incomplete</para></note>
+
+<sect2><title>File does not play, only sound or only video</title>
+
+<para>Maybe the file you are trying to read is not fully supported. VLC
+does not the codec packs you might have installed. It comes with its own
+codecs. If there is no open-source decoder for the format you are trying
+to read, it won't be supported. (There is an exception, under Windows,
+for codecs that use the DirectShow framework).</para>
+
+<para>To find out, open the Messages Window (View menu) and restart your
+stream. Look for error messages (red messages)</para>
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/play-howto/intf-wx-messages.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>The wxWindows messages window</para></textobject>
+  <caption><para>The wxWindows messages window</para></caption>
+</mediaobject>
+
+<para>In this example, the file contains a IV41 video stream, a codec
+that is not supported by VLC.</para>
+
+<para>You may of course have other messages. If you post to a VideoLAN
+mailing list or in the forum, please include such a log, it is very
+valuable.</para>
+
+</sect2>
+
+<sect2><title>Weird VLC behaviour ("stopped working")</title>
+
+<para>A very common thing is a wrong preferences file. Don't hesitate to
+delete it if problems appear suddendly. You will find in the FAQ details
+on how to delete your preferences file.</para>
+
+</sect2>
+
+<sect2><title>Computer crashes / Video is corrupted</title>
+
+<para>Another common problem is buggy video drivers. Try upgrading them
+from the website of your video card's maker.</para>
+
+<para>Also, you can try disabling Overlay (Preferences/General/Video,
+untick "Overlay video output")</para>
+
+</sect2>
 
 </sect1>
 </chapter>

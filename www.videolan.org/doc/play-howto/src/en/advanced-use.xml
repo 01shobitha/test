@@ -18,6 +18,8 @@ However, some complex operations can only be done from the command line
 and there are situations in which you don't need or want a GUI. Here is
 the complete description of VLC's command line and how to use it</para>
 
+<para>You should be quite comfortable with command line usage to use this.</para>
+
 <sect2><title>Getting help</title>
 
 <para>VLC uses a modular structure. The core mainly manages
@@ -432,6 +434,43 @@ displays help about specified module. (Shortcut : <emphasis>-p</emphasis>)
 </itemizedlist>
 
 </sect3>
+</sect2>
+
+<sect2><title>Item-specific options</title>
+
+<para>There are many options that are related to items (like --novideo, --codec, --fullscreen).</para>
+
+<para>For all of these, you have the possibility to make them
+item-specific, using ":" instead of "--" and putting the option just
+after the concerned item</para>
+
+<para>Examples:</para>
+
+<itemizedlist>
+
+<listitem>
+<screen>
+<prompt>% </prompt><userinput>vlc file1.mpg :fullscreen file2.mpg</userinput>
+</screen>
+<para>will play file1.mpg in fullscreen mode and file2.mpg in the default mode (which is generally no fullscreen), whereas </para>
+<screen>
+<prompt>% </prompt><userinput>vlc --fullscreen file1.mpg file2.mpg</userinput>
+</screen>
+<para>will play both files in fullscreen mode</para>
+</listitem>
+
+
+<listitem>
+<screen>
+<prompt>% </prompt><userinput>vlc --fullscreen file1.mpg :sub-file=file1.srt :no-fullscreen file2.mpg :filter=distort</userinput>
+</screen>
+<para>will play file1.mpg in windowed (no-fullscreen) mode with the subtitles file file1.srt and will play file2.mpg with video filter distort enabled in fullscreen mode (item-specific options override global options)</para>
+</listitem>
+
+
+
+</itemizedlist>
+
 </sect2>
 
 </sect1>

@@ -7,8 +7,8 @@
 
 <table border="0" cellspacing="10">
   <tr>
-
     <td class="fill">
+
 <center><img width="300" height="75" alt="VideoLAN" src="images/videolan-new4.png" /></center>
 
 <h2>OpenSource Video streaming solution for every OS&nbsp;!</h2>
@@ -81,19 +81,20 @@ page</a> for more information.</p>
   <li>a <a href="vlc/doc/vlc-howto.html">VLC-HOWTO</a>.</li>
   </ul>
 
+  <? include("news.php3"); ?>
+
 <h2>News</h2>
 
   <? shownews("full",5); ?>
 
-    </td>
+</td>
 
-    <td width="20%">
+<td width="20%">
 
-      <? include($include."news.php3"); ?>
-         <h2>News headlines</h2>
-      <? shownews("title",5); ?>
+     <h2>News headlines</h2>
+  <? shownews("title",5); ?>
 
-    </td>
+</td>
 
   </tr>
 </table>

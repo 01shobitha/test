@@ -30,8 +30,8 @@ function starthtml($title) { ?>
     * The cool navigation bar, including mirror drop-down menu
     */
 
-echo "self: ".$GLOBALS['HTTP_SELF']."<br>";
-$module = split("/", $GLOBALS['HTTP_SELF']);
+echo "self: ".$GLOBALS['PHP_SELF']."<br>";
+$module = split("/", $GLOBALS['PHP_SELF']);
 $module = $module[1];
 echo "module: ".$module."<br>";
 
@@ -162,7 +162,7 @@ echo "module: ".$module."<br>";
 if($mirror)
 {
     /* FIXME : mirror code is broken */
-    header("Location: http://$mirror".$GLOBALS['HTTP_SELF']);
+    header("Location: http://$mirror".$GLOBALS['PHP_SELF']);
     die();
 }
 

@@ -143,7 +143,8 @@ VLC's stream output), start VLC with:
 <prompt>% </prompt><userinput>vlc udp:@multicast_address[:server_port]</userinput>
 </screen>
 
-<para>To receive a SSM (source specific multicast) stream, you can use: 
+<para>To receive a SSM (source specific multicast) stream, you can use:</para> 
+<screen>
 <prompt>% </prompt><userinput>vlc udp:server_address@multicast_address[:server_port]</userinput>
 </screen>
 

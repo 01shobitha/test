@@ -835,6 +835,58 @@ wird.</span>
 
 </answer></qandaentry>
 
+
+<qandaentry><question><para>
+
+<span xml:lang="en">Do I need a "streaming server"?</span>
+
+</para></question>
+
+<answer>
+
+<para>
+
+<span xml:lang="en">
+Well, there are in fact two kinds of streaming: passive streaming in which
+a movie is sent by a server and watched by one or several client, and
+Video On Demand (VOD) in which each client asks for its own stream.</span>
+
+<itemizedlist>
+
+<listitem><para>
+<span xml:lang="en">
+In passive streaming, the client has no control upon the server, and
+must subscribe for instance to a multicast group to receive the stream.
+This kind of streaming needs a server able to send data on a network
+with a protocol such as UDP multicast or RTP, for instance VLS or
+VLC stream output. The client side needs a player supporting such
+protocols, as VLC does.
+</span>
+</para></listitem>
+
+<listitem><para>
+<span xml:lang="en">
+In Video On Demand, no specific "streaming server" is required, but the 
+client must be able to read the stream in real time, instead of just
+dowloading the whole video before one can start viewing it. A simple
+protocol such as HTTP is sufficient for Video On Demand, so you just 
+have to put your movie on a web server, and use a clever player to
+view it in real time, VLC for instance ;-) However of course you
+will not be able to view movies in real time if your network is too slow,
+so you MUST check that the average bandwith of your network link is
+higher than the average bandwith of your movie (size / duration).
+If it is not the case, VLC will try to keep in real time as much as
+possible, so you will probably get only the audio track and no video.
+</span>
+</para></listitem>
+
+</itemizedlist>
+
+</para>
+
+</answer></qandaentry>
+
+
 <qandaentry><question><para>
 
 <span xml:lang="en">Is it not a waste of time to develop both?</span>

@@ -1,8 +1,9 @@
 *.html
 *.pdf
 *.ps
-*.zip
+*.rtf
 *.txt
+*.zip
 *.jpg
 *.eps
 ~*

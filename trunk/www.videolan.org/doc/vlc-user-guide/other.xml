@@ -168,6 +168,14 @@ self-contained command-line string
 </span>
 .</para>
 
+<para>
+<span xml:lang="en">For example</span>
+ :</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc --intf dummy vcd://</userinput>
+</screen>
+
 </sect2>
 
 <sect2><title>gestures</title>

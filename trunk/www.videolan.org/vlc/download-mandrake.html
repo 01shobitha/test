@@ -10,34 +10,21 @@
 
 <h1>VLC for Linux Mandrake x86</h1>
 
-<p>Thanks to Götz Waschk who made these packages !</p>
+<p>Thanks to Götz Waschk who maintains these packages !</p>
 
-<h2>Mandrake 9.1</h2>
+<h2>Mandrake 9.1 and Cooker</h2>
 
-<p>To install the VLC packages, configure the package sources with <a
-href="http://plf.zarb.org/~nanardon/">Easy urpmi</a> (you need at least
-to add <i>main</i>, <i>contrib</i> and <i>plf</i> sources).</p>
+<p>To install the latest VLC packages on either Mandrake 9.1
+or Cooker, configure the package sources (you can use <a
+href="http://plf.zarb.org/~nanardon/">Easy urpmi</a> for that) with at
+least the following sources:</p>
 
-<p>Then add the VideoLAN package source:</p>
+<ul>
+<li>from the core distribution: <b>main</b> and <b>contrib</b>;</li>
+<li>in the external add-ons: <b>plf</b> (Penguin Liberation Front).</li>
+</ul>
 
-<pre>
-   # urpmi.addmedia vlc http://www.videolan.org/pub/videolan/vlc/0.6.2/rpm/mandrake-9.1/ with hdlist.cz
-</pre>
-
-<p>Eventually, install the packages with <i>urpmi</i>:</p>
-
-<pre>
-   # urpmi libdvdcss2 libdvdplay0 wxvlc vlc-plugin-a52 vlc-plugin-ogg vlc-plugin-mad
-</pre>
-
-<h2>Mandrake Cooker</h2>
-
-<p>To install the VLC packages, configure the package sources with <a
-href="http://plf.zarb.org/~nanardon/">Easy urpmi</a> (you need at least
-to add <i>main</i>, <i>contrib</i> and <i>plf</i> sources).</p>
-
-<p>VLC packages are part of the <i>contrib</i> section; so you can
-install the packages directly with <i>urpmi</i>:</p>
+<p>Eventually, install the required packages with <i>urpmi</i>:</p>
 
 <pre>
    # urpmi libdvdcss2 libdvdplay0 wxvlc vlc-plugin-a52 vlc-plugin-ogg vlc-plugin-mad
@@ -48,4 +35,4 @@ install the packages directly with <i>urpmi</i>:</p>
 <p> Older versions can be found by <a href="/pub/vlc/">browsing</a> our
 FTP site. </p>
 
-<? footer('$Id: download-mandrake.html,v 1.17 2003/08/17 20:36:03 alexis Exp $'); ?>
+<? footer('$Id: download-mandrake.html,v 1.18 2003/08/18 14:29:54 alexis Exp $'); ?>

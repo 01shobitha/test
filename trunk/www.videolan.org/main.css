@@ -241,13 +241,7 @@ th.os {
 }
 
 /* Styles used for the upper navigation bar */
-table.firstbar {
-  width: 100%;
-  font-weight: bold;
-  font-size: 10pt;
-}
-
-td.firstbar {
+td.topbar {
   vertical-align: middle;
 
   text-align: center;
@@ -262,7 +256,7 @@ td.firstbar {
   border-right-width: 0px;
 }
 
-td.firstbarselected {
+td.topbarselected {
   vertical-align: middle;
   background-color: #aaa;
   color: #a43;
@@ -279,9 +273,8 @@ td.firstbarselected {
   border-right-width: 1px;
 }
 
-table.secondbar {
-  width: 100%;
-
+/* Styles used for the lower navigation bar */
+tr.bottombar {
   border-style: solid;
   border-color: #a43;
   border-bottom-width: 0px;
@@ -290,8 +283,7 @@ table.secondbar {
   border-right-width: 1px;
 }
 
-/* Styles used for the lower navigation bar */
-td.secondbar {
+td.bottombar {
   vertical-align: middle;
   background-color: #aaa;
   color: #fff;
@@ -308,7 +300,7 @@ td.secondbar {
   border-right-width: 0px;
 }
 
-td.secondbarselected {
+td.bottombarselected {
   vertical-align: middle;
   background-color: #aaa;
   color: #a43;

@@ -79,7 +79,7 @@ function starthtml($title) { ?>
 
  <td style="width: 100%; text-align: center; vertical-align: top;">
 
-  <table style="width: 100%; text-align: center;" cellspacing="0" cellpadding="0">
+  <table style="width: 100%;" cellspacing="0" cellpadding="0">
   <tr><?
     get_first_bar_item(6, "home", "Home", "/", $modules[1]);
     get_first_bar_item(6, "vlc", "VLC", "/vlc/", $modules[1]);
@@ -88,9 +88,7 @@ function starthtml($title) { ?>
     get_first_bar_item(6, "support", "Support", "/support/", $modules[1]);
     get_first_bar_item(6, "developers", "Developers", "http://developers.videolan.org/", $modules[1]);
   ?></tr>
-  </table>
-  <table style="width: 100%; text-align: center;" cellspacing="0" cellpadding="0">
-  <tr>
+  <tr class="bottombar">
     <? switch($modules[1]) {
       case "vlc": second_bar_vlc($modules[2]); break;
       case "streaming": second_bar_stream($modules[2]); break;
@@ -123,12 +121,12 @@ function get_first_bar_item($number, $module, $text, $url, $current_module) {
   $size = floor(100 / $number);
   if($current_module == $module)
   {
-     ?><td class="firstbarselected" style="width: <? echo $size; ?>%"><? echo $text; ?></td>
+     ?><td class="topbarselected" style="width: <? echo $size; ?>%"><? echo $text; ?></td>
      <?
   }
   else
   {
-     ?><td class="firstbar" style="width: <? echo $size; ?>%"><a class="firstbar" href="<? echo $url; ?>"><? echo $text; ?></a></td>
+     ?><td class="topbar" style="width: <? echo $size; ?>%"><a class="topbar" href="<? echo $url; ?>"><? echo $text; ?></a></td>
      <?
   }
 }
@@ -138,12 +136,12 @@ function get_second_bar_item($number, $module, $text, $url, $current_module) {
   $size = floor(100 / $number);
   if($current_module == $module)
   {
-     ?><td class="secondbarselected" style="width: <? echo $size; ?>%"><? echo $text; ?></td>
+     ?><td class="bottombarselected" style="width: <? echo $size; ?>%"><? echo $text; ?></td>
      <?
   }
   else
   {
-     ?><td class="secondbar" style="width: <? echo $size; ?>%"><a class="secondbar" href="<? echo $url; ?>"><? echo $text; ?></a></td>
+     ?><td class="bottombar" style="width: <? echo $size; ?>%"><a class="bottombar" href="<? echo $url; ?>"><? echo $text; ?></a></td>
      <?
   }
 }

@@ -5,7 +5,7 @@
 |17 Jan 2004| OSI Merit Award| The VideoLAN project is very proud
 to announce that it has been awarded with an Open Source Merit Award
 by the <a href="http://www.opensource.org">Open Source
-Initiative</a>. We are of course very glad to be honored in this
+Initiative</a>. We are very glad to be honored in this
 way and will continue to strive to making the project, VLC media player
 and VLS, the best programs out there.<br />
 You can read more about the award in these <a href="http://builder.com.com"

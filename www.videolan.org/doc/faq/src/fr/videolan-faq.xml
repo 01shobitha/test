@@ -94,7 +94,7 @@ de votre système d'exploitation :
 <filename>$(HOME)/.vlc/vlcrc</filename></para></listitem>
 
 <listitem><para>Mac OS X:
-<filename>/Library/Preferences/VLC</filename></para></listitem>
+<filename>HOME/Library/Preferences/VLC</filename></para></listitem>
 
 <listitem><para>Windows 95/98/ME: <filename>C:\Windows\Application
 Data\vlc\vlcrc</filename></para></listitem>

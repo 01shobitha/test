@@ -4,6 +4,26 @@
 # Et pour les nouvelles importantes, c'est pas un | , c'est un §
 #
 
+|21 Mar 2003| VIA and VideoLAN annual presentation day| The VIA
+and VideoLAN teams are pleased to invite you to their annual
+presentation day at the Ecole Centrale Paris (Châtenay-Malabry,
+France). There will be a presentation of VideoLAN in French at
+10:45 a.m. with a full demonstration. If you are interested, please
+visit <a href="http://www.via.ecp.fr/via/journeevia2003.html">this
+page</a>. To receive an invitation, send a mail to <a
+href="mailto:journee2003@via.ecp.fr">journee2003@via.ecp.fr</a>.
+
+|10 Mar 2003| Release: libdvdcss 1.2.6 | This is a bug
+fix release of libdvdcss, a DVD decryption library used
+by VLC and many other GPL media players. See the <a
+href="http://developers.videolan.org/libdvdcss/">libdvdcss page</a> to
+download the sources or the binaires.
+
+|10 Mar 2003| Release: libdvdplay 1.0.1 | This is a bug fix release
+of libdvdplay, a DVD navigation library used by VLC. See the <a
+href="http://developers.videolan.org/libdvdplay/">libdvdplay page</a> to
+download the sources or the binaires.
+
 |26 Feb 2003| Release: vlc for YOPY| The VideoLAN team is proud
 to announce that vlc now works on YOPY/Linupy based PDAs !
 Please have a look at the <a href="/vlc/download-linupy.html">

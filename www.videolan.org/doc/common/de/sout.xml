@@ -6,13 +6,13 @@ Beschreibung der Streamausgabe
 
 <para>
 Die Streamausgabe von VLC erlaubt dessen
-Benutzung als Streamingserver anstelle eines Clients. Dieser hat eine groÃŸe
+Benutzung als Streamingserver anstelle eines Clients. Dieser hat eine große
 Zahl von Funktionen:</para>
 
 <itemizedlist>
 
 <listitem><para>
-Streamen von allem, was VLC lesen kann, Ã¼ber
+Streamen von allem, was VLC lesen kann, über
 ein IPv4 oder IPv6 Netzwerk per UDP, RTP oder HTTP;</para></listitem>
 
 <listitem><para>
@@ -20,17 +20,17 @@ Sichern des Eingangsstream in eine Datei im AVI, PS, TS
 oder OGG Format;</para></listitem>
 
 <listitem><para>
-Umkodieren eines Eingangsstreamen und anschlieÃŸendes
-senden Ã¼ber das Netzwerk oder speichern in einer Datei.
+Umkodieren eines Eingangsstreamen und anschließendes
+senden über das Netzwerk oder speichern in einer Datei.
 
 </para></listitem>
 
 </itemizedlist>
 
 <para>
-Um alle MÃ¶glichkeiten der Streamausgabe von VLC zu erfahren,
+Um alle Möglichkeiten der Streamausgabe von VLC zu erfahren,
 schauen Sie bitte auf die <ulink url="http://www.videolan.org/streaming/features.html">
-Streamingfeatures Seite</ulink>.
+Streamingfeatures Seite.</ulink>
 
 </para>
 
@@ -41,48 +41,46 @@ Architektur und Syntax
 </title>
 
 <para>
-Die Streamausgabe hat eine leistungsfÃ¤hige Architektur,
-die Module benutzt. Jedes Modul bringt Funktionen mit. Sie kÃ¶nnen die Modul
-untereinander <emphasis>verketten</emphasis>, um die MÃ¶glichkeiten zu
+Die Streamausgabe hat eine leistungsfähige Architektur,
+die Module benutzt. Jedes Modul bringt Funktionen mit. Sie können die Modul
+untereinander <emphasis>verketten</emphasis>, um die Möglichkeiten zu
 erweitern.
-
 </para>
 
 <para>
-Hier ist eine Liste der derzeit verfÃ¼gbaren Module:</para>
+Hier ist eine Liste der derzeit verfügbaren Module:</para>
 
 <itemizedlist>
 
 <listitem><para><emphasis>standard</emphasis>
-Sendet den Stream Ã¼ber ein <emphasis>Zugriffsmodul</emphasis>,
+Sendet den Stream über ein <emphasis>Zugriffsmodul</emphasis>,
 beispielsweise UDP, file, HTTP usw. Sie werden dieses Modul wahrscheinlich am
 Ende Ihrer Ketten benutzen.
-
 </para></listitem>
 
 <listitem><para><emphasis>transcode</emphasis>
 
 Erlaubt Ihnen Ton und Bild des Eingangsstreams
-"on the fly" umzukodieren (wenn Ihr Computer leistungsfÃ¤hig genug ist).
+"on the fly" umzukodieren (wenn Ihr Computer leistungsfähig genug ist).
 
 </para></listitem>
 
 <listitem><para><emphasis>duplicate</emphasis>
 Erlaubt Ihnen eine zweite Kette zu erzeugen, wo
-der Stream unabhÃ¤ngig von der ersten bearbeitet wird.
+der Stream unabhängig von der ersten bearbeitet wird.
 
 </para></listitem>
 
 <listitem><para><emphasis>display</emphasis> 
 Erlaubt Ihnen den Eingangsstream anzuzeigen, wie
-es VLC normalerweise tun wÃ¼rde. Wenn dieses Modul gemeinsam mit dem
-<emphasis>duplicate</emphasis>-Modul benutzt wird, kÃ¶nnen Sie den
-Stream wÃ¤hrend des Sendens betrachten.
+es VLC normalerweise tun würde. Wenn dieses Modul gemeinsam mit dem
+<emphasis>duplicate</emphasis>-Modul benutzt wird, können Sie den
+Stream während des Sendens betrachten.
 
 </para></listitem>
 
 <listitem><para><emphasis>rtp</emphasis>
-Streamt Ã¼ber RTP (ein UDP-Port fÃ¼r jeden elementaren Stream).
+Streamt über RTP (ein UDP-Port für jeden elementaren Stream).
 
 </para></listitem>
 
@@ -96,7 +94,7 @@ einem Eingangsstream zu erstellen.
 
 <para>
 Jedes dieser Modul kann Optionen verarbeiten. Hier ist
-die Syntax, die Sie benutzen mÃ¼ssen:</para>
+die Syntax, die Sie benutzen müssen:</para>
 
 <screen>
 <prompt>% </prompt><userinput>vlc input_stream --sout '#module1{option1=...,option2=...}:#module2{option1=...,option2=...}:...'</userinput>
@@ -120,7 +118,6 @@ Beschreibung der Module
 
 <para>
 Sendet einen Stream.
-
 </para>
 
 <para>
@@ -139,13 +136,13 @@ wie gesendet wird (eine der folgenden Methoden):
 Welcher Muxer (d.h. welches Format) benutzt werden wid.
 Dies kann einer der folgenden sein:
 <emphasis>avi</emphasis>
-  (fÃ¼r das AVI-Format),
+  (für das AVI-Format),
 <emphasis>ogg</emphasis> 
-  (fÃ¼r das Ogg-Format),
+  (für das Ogg-Format),
 <emphasis>ps</emphasis>
-  (fÃ¼r das MPEG2-PS-Format),
+  (für das MPEG2-PS-Format),
 <emphasis>ts</emphasis> 
-   (fÃ¼r das MPEG2-TS-Format).
+   (für das MPEG2-TS-Format).
 
 </para></listitem>
 
@@ -158,33 +155,29 @@ Uni- oder Multicast-Adresse.
 
 <listitem><para><emphasis>sap</emphasis>: 
 wenn sie die <emphasis>udp</emphasis> oder
-<emphasis>rtp</emphasis> AusgÃ¤nge benutzen, nehmen Sie diese Option
-zum AnkÃ¼ndigen Ihres Streams Ã¼ber SAP/SDP. Diese Option enthÃ¤lt den Namen
-unter dem Sie den Stream ankÃ¼ndigen mÃ¶chten.
-
+<emphasis>rtp</emphasis> Ausgänge benutzen, nehmen Sie diese Option
+zum Ankündigen Ihres Streams über SAP/SDP. Diese Option enthält den Namen
+unter dem Sie den Stream ankündigen möchten.
 </para></listitem>
 
 <listitem><para><emphasis>slp</emphasis>: 
 Dieses Modul ist wie sap, benutzt aber das
-SLP-Protokoll. Sie benÃ¶tigen dazu libslp.
-
+SLP-Protokoll. Sie benötigen dazu libslp.
 </para></listitem>
 
 <listitem><para><emphasis>sap_ipv</emphasis>: 
 Wenn Sie die <emphasis>sap</emphasis>-Option
-benutzen, nehmen Sie diese Option um festzulegen, ob die SAP-AnkÃ¼ndigungen
+benutzen, nehmen Sie diese Option um festzulegen, ob die SAP-Ankündigungen
 per IPv4 oder IPv6 gesendet werden. Der Wert dieser Option ist entweder
 <emphasis>4</emphasis> oder <emphasis>6</emphasis>.
-
 </para></listitem>
 
 </itemizedlist>
 
 <note><para>
-Wenn Sie per Multicast streamen, kÃ¶nnen SIe die globale
+Wenn Sie per Multicast streamen, können SIe die globale
 Option <command>--ttl 12</command> zur Einstellung der TTL auf einen
-hÃ¶heren Wert als 1 benutzen.
-
+höheren Wert als 1 benutzen.
 </para></note>
 
 </sect3>
@@ -193,7 +186,6 @@ hÃ¶heren Wert als 1 benutzen.
 
 <para>
 Zeigt den Stream an.
-
 </para>
 
 <para>
@@ -204,12 +196,10 @@ Optionen:
 
 <listitem><para><emphasis>noaudio</emphasis>:
 Den Ton ignorieren.
-
 </para></listitem>
 
 <listitem><para><emphasis>novideo</emphasis>:
 Das Bild ignorieren.
-
 </para></listitem>
 
 </itemizedlist>
@@ -220,7 +210,6 @@ Das Bild ignorieren.
 
 <para>
 Dupliziert den Stream zu einer neuen Streamausgabekette.
-
 </para>
 
 <para>
@@ -232,7 +221,6 @@ Optionen:
 <listitem><para><emphasis>dst</emphasis>: 
 Eine neue Streamausgabekette von Modulen, wie sie
 bereits vorher beschrieben wurde.
-
 </para></listitem>
 
 </itemizedlist>
@@ -242,9 +230,8 @@ bereits vorher beschrieben wurde.
 <sect3><title>transcode</title>
 
 <para>
-Ã„ndert das Kompressionsformat und/oder die
+Ändert das Kompressionsformat und/oder die
 Datenrate eines Streams.
-
 </para>
 
 <para>
@@ -264,7 +251,6 @@ oder <emphasis>ac3</emphasis> (AC3 Ton) oder <emphasis>vorb</emphasis>
 
 <listitem><para><emphasis>ab</emphasis>: 
 Tondatenrate in Kbps.
-
 </para></listitem>
 
 <!-- UNIMPLEMENTED for the moment 
@@ -284,58 +270,47 @@ folgenden sein:
 or <emphasis>WMV2</emphasis> (Windows Media Video 1 oder 2),
 <emphasis>MJPG</emphasis> (MJPEG), <emphasis>MJPB</emphasis>
 (MJPEGB).
-
 </para></listitem>
 
 <listitem><para><emphasis>width</emphasis>:
 Die Bildbreite.
-
 </para></listitem>
 
 <listitem><para><emphasis>height</emphasis>:
-Die BildhÃ¶he.
-
+Die Bildhöhe.
 </para></listitem>
 
 <listitem><para><emphasis>vb</emphasis>: 
 Die Bilddatenrate in Kbps.
-
 </para></listitem>
 
 <listitem><para><emphasis>vt</emphasis>: 
 Die Bilddatenratentoleranz in bps.
-
 </para></listitem>
 
 <listitem><para><emphasis>deinterlace</emphasis>: 
 Deinterlacing des Streams aktivieren.
-
 </para></listitem>
 
 <listitem><para><emphasis>croptop</emphasis>: 
 Anzahl von Pixeln, die von oben vom Bild entfernt werden.
-
 </para></listitem>
 
 <listitem><para><emphasis>cropbottom</emphasis>: 
 Anzahl von Pixeln, die von unten vom Bild entfernt werden.
-
 </para></listitem>
 
 <listitem><para><emphasis>cropleft</emphasis>: 
 Anzahl von Pixeln, die von links vom Bild entfernt werden.
-
 </para></listitem>
 
 <listitem><para><emphasis>cropright</emphasis>: 
 Anzahl von Pixeln, die von rechts vom Bild entfernt werden.
-
 </para></listitem>
 
 <listitem><para><emphasis>hq</emphasis>: 
-hoch qualitatives Umkodieren (benÃ¶tigt mehr
+hoch qualitatives Umkodieren (benötigt mehr
 Prozessorleistung).
-
 </para></listitem>
 
 <listitem><para><emphasis>qmin</emphasis>: 
@@ -344,7 +319,6 @@ minimale Bildskalierung (VBR)
 
 <listitem><para><emphasis>qmax</emphasis>:
 maximale Bildskalierung (VBR).
-
 </para></listitem>
 
 </itemizedlist>
@@ -353,7 +327,7 @@ maximale Bildskalierung (VBR).
 
 <sect3><title>rtp</title>
 <para>
-Sendet einen Stream Ã¼ber RTP
+Sendet einen Stream über RTP
 </para>
 
 <para>
@@ -364,24 +338,20 @@ Optionen:
                                                                                 
 <listitem><para><emphasis>dst</emphasis>:
 Ziel-IP-Adresse (Unicast oder Multicast).
-
 </para></listitem>
 
 <listitem><para><emphasis>port</emphasis>:
 Ziel-UDP-Port.
-
 </para></listitem>
 
 <listitem><para><emphasis>sdp</emphasis>:
-Die Art, wie die Datei per sdp gesendet wird. <emphasis>http://server_ip:server_port/path</emphasis> fÃ¼r HTTP oder <emphasis>rtsp://server_ip:server_port/path</emphasis> fÃ¼r RTSP, wobei <emphasis>server_ip</emphasis> die Adresse eines Serverinterfaces und <emphasis>path</emphasis> der Ort ist, an dem die Datei auf dem Server abgerufen werden kann.
-
+Die Art, wie die Datei per sdp gesendet wird. <emphasis>http://server_ip:server_port/path</emphasis> für HTTP oder <emphasis>rtsp://server_ip:server_port/path</emphasis> für RTSP, wobei <emphasis>server_ip</emphasis> die Adresse eines Serverinterfaces und <emphasis>path</emphasis> der Ort ist, an dem die Datei auf dem Server abgerufen werden kann.
 </para></listitem>
 
 </itemizedlist>
 
 <note><para>
-Wenn <emphasis>sdp=rtsp</emphasis> benutzt wird, ist es nicht mÃ¶glich, eine Zieladresse anzugeben. VLC wird dann den Stream an jeden Client schicken, der sich mit ihm verbindet.
-
+Wenn <emphasis>sdp=rtsp</emphasis> benutzt wird, ist es nicht möglich, eine Zieladresse anzugeben. VLC wird dann den Stream an jeden Client schicken, der sich mit ihm verbindet.
 </para></note>
 
 </sect3>
@@ -390,10 +360,9 @@ Wenn <emphasis>sdp=rtsp</emphasis> benutzt wird, ist es nicht mÃ¶glich, eine Zie
 
 <para>
 Seperate Elementary Streams erzeugen.
-
 </para>
 
-<para>Options:</para>
+<para>Optionen:</para>
 
 <itemizedlist>
 
@@ -401,47 +370,40 @@ Seperate Elementary Streams erzeugen.
 Wie die Tonspur gesendet wird:
 <emphasis>file</emphasis>, <emphasis>udp</emphasis>,
 <emphasis>rtp</emphasis> oder <emphasis>http</emphasis>.
-
 </para></listitem>
 
 <listitem><para><emphasis>access_video</emphasis>: 
 Wie die Bildspur gesendet wird:
 <emphasis>file</emphasis>, <emphasis>udp</emphasis>,
 <emphasis>rtp</emphasis> oder <emphasis>http</emphasis>.
-
 </para></listitem>
 
 <listitem><para><emphasis>access</emphasis>:
-Wenn Sie mÃ¶chten, dass die Bild- und Tonspuren
+Wenn Sie möchten, dass die Bild- und Tonspuren
 den gleichen Zugriff benutzen, nehmen Sie diese Option anstatt
 der beiden oberen.
-
 </para></listitem>
 
-
 <listitem><para><emphasis>mux_audio</emphasis>: 
-Welcher Muxer (d.h. welches Kompressionsformat) fÃ¼r
+Welcher Muxer (d.h. welches Kompressionsformat) für
 die Tonspur benutzt wird. Dies kann einer der folgenden sein: 
-<emphasis>avi</emphasis> (fÃ¼r das AVI-Format), <emphasis>ogg</emphasis>
-(fÃ¼r das Ogg-Format), <emphasis>ps</emphasis> (fÃ¼r das MPEG2-PS-Format),
-<emphasis>ts</emphasis> (fÃ¼r das MPEG2-TS-Format).
-
+<emphasis>avi</emphasis> (für das AVI-Format), <emphasis>ogg</emphasis>
+(für das Ogg-Format), <emphasis>ps</emphasis> (für das MPEG2-PS-Format),
+<emphasis>ts</emphasis> (für das MPEG2-TS-Format).
 </para></listitem>
 
 <listitem><para><emphasis>mux_video</emphasis>:
-Welcher Muxer (d.h. welches Kompressionsformat) fÃ¼r die
+Welcher Muxer (d.h. welches Kompressionsformat) für die
 Bildspur benutzt wird. Dies kann einer der folgenden sein:
-<emphasis>avi</emphasis> (fÃ¼r das AVI-Format), <emphasis>ogg</emphasis>
-(fÃ¼r das Ogg-Format), <emphasis>ps</emphasis> (fÃ¼r das MPEG2-PS-Format),
-<emphasis>ts</emphasis> (fÃ¼r das MPEG2-TS-Format).
-
+<emphasis>avi</emphasis> (für das AVI-Format), <emphasis>ogg</emphasis>
+(für das Ogg-Format), <emphasis>ps</emphasis> (für das MPEG2-PS-Format),
+<emphasis>ts</emphasis> (für das MPEG2-TS-Format).
 </para></listitem>
 
 <listitem><para><emphasis>mux</emphasis>: 
-Wenn Sie mÃ¶chten, dass die Ton- und die Bildspur
+Wenn Sie möchten, dass die Ton- und die Bildspur
 den gleichen Muxer benutzen, nehmen Sie diese Option anstatt der beiden
 oberen.
-
 </para></listitem>
 
 
@@ -449,38 +411,34 @@ oberen.
 Wenn Sie den <emphasis>file</emphasis>-Zugriff
 benutzen, ist es der Ort, an dem die Tonspur gespeichert wird. Sonst ist
 es die Unicast- oder Multicast-IP-Adresse sein.
-
 </para></listitem>
 
 <listitem><para><emphasis>url_video</emphasis>: 
 Wenn Sie den <emphasis>file</emphasis>-Zugriff
 benutzen, ist es der Ort, an dem die Bildspur gespeichert wird. Sonst ist es
 die Uni- oder Multicast-IP-Adresse.
-
 </para></listitem>
 
 <listitem><para><emphasis>url</emphasis>:
-Wenn Sie die gleiche Adresse fÃ¼r Ton- und Bildspuren
-benutzen mÃ¶chten, nehmen Sie diese Option anstatt der beiden oberen.
-
+Wenn Sie die gleiche Adresse für Ton- und Bildspuren
+benutzen möchten, nehmen Sie diese Option anstatt der beiden oberen.
 </para></listitem>
 
 </itemizedlist>
 
 <note><para>
 Wenn Sie den <emphasis>file</emphasis>-Zugriff benutzen,
-kÃ¶nnen Sie in den <emphasis>url</emphasis>-Optionen die folgenden Makros
+können Sie in den <emphasis>url</emphasis>-Optionen die folgenden Makros
 benutzen:
 </para>
 
 <itemizedlist>
 
 <listitem><para><emphasis>%n</emphasis> = 
-Anzahl der Streams ;</para></listitem>
+Anzahl der Streams;</para></listitem>
 <listitem><para><emphasis>%c</emphasis> = FOURCC ;</para></listitem>
 <listitem><para><emphasis>%m</emphasis> =
-Format
- ;</para></listitem>
+Format;</para></listitem>
 <listitem><para><emphasis>%a</emphasis> = access.</para></listitem>
 
 </itemizedlist>
@@ -494,40 +452,36 @@ Verschiedenes
 </title>
 
 <para>
-Hier sind einige zusÃ¤tzliche globale Optionen
+Hier sind einige zusätzliche globale Optionen
 </para>
 
 <itemizedlist>
 
-<listitem><para><emphasis>--sout-all, Â --no-sout-all</emphasis>
-Streamen von allen ES aktivieren (standardmÃ¤ÃŸig deaktiviert). 
-StandardmÃ¤ÃŸig streamt VLC nur ein Ton-ES und ein Bild-ES (die ersten). Wenn
+<listitem><para><emphasis>--sout-all,  --no-sout-all</emphasis>
+Streamen von allen ES aktivieren (standardmäßig deaktiviert). 
+Standardmäßig streamt VLC nur ein Ton-ES und ein Bild-ES (die ersten). Wenn
 Sie sout-all aktvieren, werden alle ES (Ton, Bild und SPU) gestreamt.
-
 </para></listitem>
 
 <listitem><para><emphasis> --sout-keep, --no-sout-keep</emphasis>
-Sout offen behalten (standardmÃ¤ÃŸig deaktiviert): die selbe Sout-Instanz Ã¼ber mehrere
-Wiedergabelistenobjekte hinweg benutzen, sofern mÃ¶glich.
-
+Sout offen behalten (standardmäßig deaktiviert): die selbe Sout-Instanz über mehrere
+Wiedergabelistenobjekte hinweg benutzen, sofern möglich.
 </para></listitem>
 
 <listitem><para><emphasis>--no-sout-audio</emphasis>
 deaktiviert die Ausgabe des Tonstreams.
-
 </para></listitem>
 
 <listitem><para><emphasis>--no-sout-video</emphasis> 
 deaktiviert die Ausgabe des Bildstreams.
-
 </para></listitem>
 
 </itemizedlist>
 
 <para>
-Die Streamausgabe bietet auÃŸerdem eine vereinfachte
+Die Streamausgabe bietet außerdem eine vereinfachte
 Syntax, mit der Sie nur die Hauptoptionen des <emphasis>standard</emphasis>
--Moduls ansprechen kÃ¶nnen:</para>
+-Moduls ansprechen können:</para>
 
 <screen>
 <prompt>% </prompt><userinput>vlc input_stream --sout access/mux:url</userinput>
@@ -537,7 +491,6 @@ Syntax, mit der Sie nur die Hauptoptionen des <emphasis>standard</emphasis>
  wobei <emphasis>access</emphasis>,
 <emphasis>mux</emphasis> und <emphasis>url</emphasis> so definiert sind,
 wie in den Optionen des standard-Moduls.
-
 </para>
 
 </sect3>
@@ -552,7 +505,6 @@ Beispiele
 Um die komplexe Syntax der Streamausgabe komplett
 zu verstehen, schauen Sie sich bitte die Anwendungsbeispiele aus VideoLAN
 HOWTO an.
-
 </para>
 
 </sect2>

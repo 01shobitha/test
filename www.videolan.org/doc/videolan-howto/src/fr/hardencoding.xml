@@ -64,7 +64,7 @@ sur <ulink url="http://bytesex.org/v4l/">Video4Linux HQ</ulink>
 <para>
 
 Quand votre noyau est prêt,
-installez la version SVN des drivers Linux pour la
+installez la version CVS des drivers Linux pour la
 Hauppauge WinTV-PVR-250/350. Vous les trouverez sur <ulink url="http://ivtv.sourceforge.net/">ivtv.sourceforge.net</ulink>.
 Ensuite, vous devrez créer les périphériques et charger les modules;
 pour celà, référez vous à la documentation des drivers

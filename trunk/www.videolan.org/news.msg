@@ -2,6 +2,11 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+|25 July 2003| Release: miniSAPserver 0.2.2| Minor bug fix of the
+miniSAPserver. Remember miniSAPserver should be used to announce the
+streams sent by VLS; the streams sent by VLC's stream output can be
+announced by VLC itself !
+
 |25 June 2003| VLC runner up for Apple Design Award| VLC 0.5.3 is
 runner up for Apple Design Award 2003. You can see the trophy on the
 <a href="/events/">events page</a>.

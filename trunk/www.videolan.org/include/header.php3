@@ -65,6 +65,9 @@ function starthtml($title) { ?>
     <td style="background-color: <?echo($color_support);?>; width: 16%; vertical-align: middle;" align="center"><a href="/support/">Support</a></td>
     <td style="background-color: #afa; width: 17%; vertical-align: middle;" align="center"><a href="http://developers.videolan.org/">Developers</a></td>
 </tr>
+</table>
+
+<table cellspacing="3" cellpadding="0">
 <tr>
 
   <? switch($modules[1]) {

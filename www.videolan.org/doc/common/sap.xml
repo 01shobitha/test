@@ -94,7 +94,7 @@ Syntax von VLCs Streamausgabe wie folgt benutzen:</span>
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#standard{access=udp,url=239.255.12.42,sap="Test Stream"}' --ttl 12</userinput>
+<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#standard{access=udp,url=239.255.12.42,sap,name="Test Stream"}' --ttl 12</userinput>
 </screen>
 
 <span xml:lang="en">
@@ -144,7 +144,7 @@ einfach die <emphasis>sap_ipv=6</emphasis>-Option hinzu:</span>
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#standard{access=udp,url=239.255.12.42,sap="Test Stream",sap_ipv=6}' --ttl 12</userinput>
+<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#standard{access=udp,url=239.255.12.42,sap,name="Test Stream",sap_ipv=6}' --ttl 12</userinput>
 </screen>
 
 </sect1>

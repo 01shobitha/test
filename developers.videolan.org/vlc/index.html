@@ -9,7 +9,7 @@
 <p> See the <a href="http://www.videolan.org/vlc/">VLC page</a> on
 www.videolan.org. </p>
 
-<h2>Get VLC</h2>
+<h2>Get VLC Sourcecode</h2>
 
 <p> <code>VLC</code> is available through <a href="/svn.html">Subversion</a> or by
 browsing the <a href="http://www.videolan.org/pub/vlc/">releases</a>. </p>
@@ -17,6 +17,13 @@ browsing the <a href="http://www.videolan.org/pub/vlc/">releases</a>. </p>
 <p> You can also see the <a href="http://www.videolan.org/news.html">release
     notes</a> and the
     <a href="http://developers.videolan.org/cgi-bin/viewcvs.cgi/*checkout*/vlc/ChangeLog?rev=HEAD&amp;cvsroot=VideoLAN">ChangeLog</a>.</p>
+
+<h2>Coding VLC</h2>
+
+<p>VLC media player is a fast changing and ever evolving project. It is very important to keep up to date with the latest developments. Therefore we advise everyone who makes changes to the VLC sourcecode, to sign up with the vlc-devel <a href="/lists.html">Mailinglist</a> so you can keep up with the latest changes and developments.</p>
+<p>Please try to keep to our <a href="vlc/doc/developer/html/ch01.html#id2847643">code conventions</a>. They are very simple and help to keep all code readable. When you write new stuff please comment it heavily or add doxygen documentation for your sources.</p>
+<p>New code can be submitted to the vlc-devel mailinglist and will be evaluated for inclusion to the SVN tree. You should put <code>[PATCH]</code> in your subject header. All patches need to be against the HEAD <a href="/svn.html">SVN tree</a>. You can create them by running <code>svn diff</code> in the VLC source directory.</p>
+<p>Before you start be sure to read the HACKING file in the main VLC source directory, some of the documentation listed below,  as well the <a href="tabletodo.html">VLC media player Todo list</a>.</p>
 
 <h2>Documentation</h2>
 
@@ -100,6 +107,32 @@ href="mailto:sam@videolan.org">Samuel Hocevar</a>
    </td>
    <td>
      <a href="mailto:titer@videolan.org">Eric Petit</a>
+   </td>
+</tr>
+
+<tr>
+  <td class="category">Translations HOWTO</td>
+   <td class="no">
+     Up-to-date
+   </td>
+  <td>
+     <a href="vlc/doc/translations.txt">TXT</a>
+   </td>
+   <td>
+     <a href="mailto:hartman@videolan.org">Derk-Jan Hartman</a>
+   </td>
+</tr>
+
+<tr>
+  <td class="category">String handling</td>
+   <td class="no">
+     Up-to-date
+   </td>
+  <td>
+     <a href="vlc/doc/strings.txt">TXT</a>
+   </td>
+   <td>
+     <a href="mailto:hartman@videolan.org">Derk-Jan Hartman</a>
    </td>
 </tr>
 
@@ -220,7 +253,7 @@ customizable and portable while capable of producing high-quality output
 <a href="http://fribidi.sourceforge.net/">fribidi</a> - A Free Implementation
 of the Unicode Bidirectional Algorithm<br />
 
-<a href="http://www.live.com/liveMedia/">live.com</a> - C++ libraries for
+<a href="http://www.live.com/liveMedia/">liveMedia</a> - C++ libraries for
 multimedia streaming (RTP/RTCP, RTSP, SIP)<br />
 
 <a href="http://matroska.corecodec.org/">matroska</a> - a new, extensible open standard Audio/Video container format<br />

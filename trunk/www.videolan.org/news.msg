@@ -4,6 +4,14 @@
 # Et pour les nouvelles importantes, c'est pas un | , c'est un §
 #
 
+|16 June 2003| VideoLAN Wiki opened | We have set up a Wiki 
+(ie, a website that everyone can change) at 
+<a href="http://wiki.videolan.org">http://wiki.videolan.org</a>. Its 
+goal is to document what is not in the official documentation: the tips
+for each O.S, the graphical interfaces, ... We hope that the 
+contribution of VideoLAN users will help us keep a documentation 
+as up-to-date as possible.
+
 |11-13 June 2003| Renater IPv6 conference| The VideoLAN team has a booth
 at the <a href="http://www.renater.fr/IPv6-2003Caen/index.htm">Renater
 IPv6 conference</a> that takes place at the University of Caen

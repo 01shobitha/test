@@ -7,7 +7,7 @@ PHP_IGNORES = mirror
 
 # Additionnal dependencies
 
-news.tmp: news.msg
+news.html: news.msg
 
-index.tmp: news.msg
+index.html: news.msg
 

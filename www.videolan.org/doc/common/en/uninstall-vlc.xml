@@ -61,7 +61,6 @@ execute</para>
 <prompt># </prompt><userinput>make uninstall</userinput>
 </screen>
 
-<para>Then you can remove the VLC sources</para>
-.</para>
+<para>You can then remove the VLC sources.</para>
 
 </sect2>

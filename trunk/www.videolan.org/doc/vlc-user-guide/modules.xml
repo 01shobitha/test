@@ -3,11 +3,14 @@
 
 <chapter id="modules"><title id="tmodules">
 <span xml:lang="en">Modules and options for VLC</span>
-<span xml:lang="fr">Modules et options de VLC</span></title>
+<span xml:lang="fr">Modules et options de VLC</span>
+<span xml:lang="de">Module und Optionen von VLC</span>
+</title>
 
 <sect1><title>
 <span xml:lang="en">The modules</span>
 <span xml:lang="fr">Les modules</span>
+<span xml:lang="de">Die Module</span>
 </title>
 
 <span xml:lang="en">
@@ -33,8 +36,20 @@ le sous-répertoire "modules" des sources de VLC.</para>
 <para>Si vous avez installé VLC par un fichier binaire, vous aurez tous
 les modules par défaut. Si vous désirez peronnaliser VLC, vous devrez le
 compiler depuis ses sources.</para>
-<para>La lecture de cette partie peut-être utile si vous désirez compiler VLC ou si vous voulez connaître les options disponibles pour les modules que vous utilisez.</para>
+<para>La lecture de cette partie peut-être utile si vous désirez compiler
+VLC ou si vous voulez connaître les options disponibles pour les modules que vous utilisez.</para>
 <para>La compilation en elle-même sera expliquée dans le chapitre suivant.</para>
+</span>
+<span xml:lang="de">
+<para>VLC benutzt ein modulares System, das eine einfache Hinzufügung
+von Funktionen und Formaten ermöglicht. Hier ist eine Beschreibung von
+nahezu allen VLC-Modulen. Einige wenige "interne" Module werden hier nicht
+erklärt. Schauen Sie für eine komplette Liste aller Module von VLC in die Datei
+LIST im Unterverzeichnis "modules" der Quellen von VLC.</para>
+<para>Das Lesen dieses Abschnitts kann nützlich sein, wenn Sie VLC
+kompilieren oder alle verfügbaren Optionen Ihrer benutzten Module erfahren
+möchten.</para>
+<para>Die Kompilierung als solche ist im nächsten Kapitel erklärt.</para>
 </span>
 
 <para>
@@ -44,10 +59,13 @@ configure script with :</span>
 <span xml:lang="fr">Si vous désirez compiler un module qui est marqué
 <emphasis>désactivé par défaut</emphasis>, vous devrez lancer le script de 
 configuration avec :</span>
+<span xml:lang="de">Wenn Sie ein Modul kompilieren möchten, das als
+<emphasis>standardmäßig deaktiviert</emphasis> markiert ist, müssen
+Sie das configure-Script hiermit starten:</span>
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>./configure --enable-<span xml:lang="en">module_name</span><span xml:lang="fr">nom_du_module</span></userinput>
+<prompt>% </prompt><userinput>./configure --enable-<span xml:lang="en">module_name</span><span xml:lang="fr">nom_du_module</span><span xml:lang="de">Modul_Name</span></userinput>
 </screen>
 
 <para>
@@ -55,24 +73,32 @@ configuration avec :</span>
 that is <emphasis>default enabled</emphasis>, you have to use :</span>
 <span xml:lang="fr">A l'inverse, si vous désirez désactiver un module qui est
 <emphasis>activé par défaut</emphasis>, vous devrez utiliser :</span>
+<span xml:lang="de">Möchten Sie im Gegensatz dazu ein Module deaktivieren, welches
+<emphasis>standardmäßig aktiviert</emphasis> ist, müssen Sie folgendes benutzen:</span>
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>./configure --disable-<span xml:lang="en">module_name</span><span xml:lang="fr">nom_du_module</span></userinput></screen>
+<prompt>% </prompt><userinput>./configure --disable-<span xml:lang="en">module_name</span><span xml:lang="fr">nom_du_module</span><span xml:lang="de">Modul_Name</span></userinput></screen>
 
 <para>
 <span xml:lang="en">Each VLC module has its own help and options. To see
 every options associated with a module, use :</span>
 <span xml:lang="fr">Chaque module VLC possède sa propre aide et ses
-options. Pour toutes les voir, utilisez :</span></para>
+options. Pour toutes les voir, utilisez :</span>
+<span xml:lang="de">Jedes VLC-Modul hat seine eigene Hilfe und Optionen. Um
+sie zu sehen, benutzen sie folgendes:</span>
+</para>
 
-<screen> <prompt>% </prompt><userinput>vlc --advanced -p <span xml:lang="en">module_name</span><span xml:lang="fr">nom_du_module</span></userinput></screen>
+<screen> <prompt>% </prompt><userinput>vlc --advanced -p <span xml:lang="en">module_name</span><span xml:lang="fr">nom_du_module</span><span xml:lang="de">Modul_Name</span></userinput></screen>
 
 <para>
 <span xml:lang="en">or use the "Preferences" Panel of your favorite 
 graphical interface</span>
 <span xml:lang="fr">ou utilisez la fenêtre de préférences de votre 
-interface graphique préférée</span>.</para>
+interface graphique préférée</span>
+<span xml:lang="de">oder benutzen Sie das Einstellungsfenster Ihrer
+bevorzugten graphischen Oberfläche</span>
+.</para>
 
 </sect1>
 

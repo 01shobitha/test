@@ -50,7 +50,7 @@ that the SAP announce packet can cross before being dropped.</para>
 </screen> 
 
 <para>You can also omit the <command>-c</command> command line switch if
-your config file is <command>/etc/sap.cfg</command>
+your config file is <filename>/etc/sap.cfg</filename>.</para>
 
 </sect1>
 

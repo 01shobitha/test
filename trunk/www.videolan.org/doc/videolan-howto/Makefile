@@ -15,7 +15,7 @@ html:
 	sgmltools -b html -s ../common/stylesheet-html.dsl $(DOC).sgml
 	mv $(DOC)/*.html .
 	rmdir $(DOC)
-	ln -sf book1.html index.html
+	ln -sf $(DOC).html index.html
 	rm -f $(DOC)-html.zip
 	zip $(DOC)-html.zip *.html images/*.jpg
 

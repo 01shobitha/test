@@ -4,6 +4,17 @@
 # Et pour les nouvelles importantes, c'est pas un | , c'est un §
 #
 
+|25 May 2003| VLC FAQ becomes VideoLAN FAQ | The new VideoLAN FAQ is
+available in multiple formats on the <a href="/doc/">documentation
+page</a>. If you have remarks about it or would like new questions to be
+integrated in it, post in one of the user mailing-lists.
+
+|23 May 2003| VLC nominated at the Free Software
+Trophies! | VLC was nominated at the <a
+href="http://www.tropheesdulibre.org/main.php?lang=en">Free Software
+Trophies</a>, an international competition aimed at promoting the
+developpment of free software, in the category "General Public".
+
 |21 May 2003| Release: VLS 0.5.2 | This releases fixes a bug when
 trying to stream multiple DVB channels and a bug in the configure
 script with DVB drivers. To download this new version, go to the <a

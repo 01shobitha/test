@@ -1,23 +1,20 @@
 # Makefile for the VideoLAN Documentation
 
-DOC := vlc-user-guide
+DOC := videolan-faq
 
 # We build HTML, PS, PDF, RTF and  TXT for the Web site
 all: img html ps pdf rtf txt
 
 # Get the images from the /images/documentation directory
-img:
-	rm -rf images
-	cp -R ../../images/documentation images
 
 html:
 	/bin/cp ../common/magic-jpg.sgml ../common/magic.sgml
 	sgmltools -b html -s ../common/stylesheet-html.dsl $(DOC).sgml
 	mv $(DOC)/*.html .
 	rmdir $(DOC)
-	ln -sf $(DOC).html index.html
+	ln -sf videolan-faq.html index.html
 	rm -f $(DOC)-html.zip
-	zip $(DOC)-html.zip *.html images/*.jpg
+	zip $(DOC)-html.zip *.html
 
 ps:
 	/bin/cp ../common/magic-eps.sgml ../common/magic.sgml
@@ -33,7 +30,7 @@ rtf:
 	/bin/cp ../common/magic-jpg.sgml ../common/magic.sgml
 	sgmltools -b rtf -s ../common/stylesheet-print-noicones.dsl $(DOC).sgml
 	rm -f $(DOC)-rtf.zip
-	zip $(DOC)-rtf.zip $(DOC).rtf images/*.jpg
+	zip $(DOC)-rtf.zip $(DOC).rtf
 
 txt:
 	sgmltools -b txt $(DOC).sgml

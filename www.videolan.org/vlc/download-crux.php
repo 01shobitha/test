@@ -22,4 +22,4 @@
    # cd /usr/ports/yhafri/vlc && pkgmk -d -i && rm vlc-0.8.1.tar.gz
 </pre>
 
-<?php footer('$Id: download-mandrake.php 2907 2004-11-23 14:41:24Z courmisch $'); ?>
+<?php footer('$Id: $'); ?>

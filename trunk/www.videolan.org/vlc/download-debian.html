@@ -6,20 +6,11 @@
    require("header.php3");
 ?>
 
-<? function pkgitem($version,$name) { ?><li><a href="/pub/videolan/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
+<? function pkgitem($version,$name,$comment) { ?><li><a href="/pub/videolan/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a> <? echo $comment; ?> </li><? } ?>
 
 <h1> VLC for Debian GNU/Linux </h1>
 
-<? h2("Note"); ?>
-
-<p>VLC is now part of the Debian unstable distribution (sid), simply
-use your usual Debian mirror to download the latest packages of VLC!</p>
-
-<p>However, libdvdcss is not in the Debian distributions because of
-legal concerns but you might need that package to watch your encrypted
-DVD.</p>
-
-<? h2("Access VideoLAN with apt-get"); ?>
+<? h2("Install VLC with apt-get"); ?>
 
 <p> Add the following lines to your <b>/etc/apt/sources.list</b>:</p>
 
@@ -35,79 +26,47 @@ DVD.</p>
    # apt-get install gnome-vlc libdvdcss2
 </pre>
 
+<p><b>Note</b> : the last version of VLC is now part of the unstable
+distribution (sid). You should still use the procedure above if you want
+to have the lastest version of VLC and libdvdcss.</p>
+
 <? h2("Older Debian packages for i386"); ?>
 
 <p>Here is the complete list of our Debian x86 packages (0.5.2):</p>
 
 <ul><?
-     pkgitem("vlc/0.5.2/deb","vlc_0.5.2-0woody.2_i386.deb");
+     pkgitem("vlc/0.5.2/deb","vlc_0.5.2-0woody.2_i386.deb","(VLC base package)");
 ?></ul>
 <p> Mozilla plugin: </p>
 <ul><?
-     pkgitem("vlc/0.5.2/deb","mozilla-plugin-vlc_0.5.2-0woody.2_i386.deb");
+     pkgitem("vlc/0.5.2/deb","mozilla-plugin-vlc_0.5.2-0woody.2_i386.deb","");
 ?></ul>
 <p> Interface plugins: </p>
 <ul><?
-     pkgitem("vlc/0.5.2/deb","gnome-vlc_0.5.2-0woody.2_i386.deb");
-     pkgitem("vlc/0.5.2/deb","gvlc_0.5.2-0woody.2_i386.deb");
-     pkgitem("vlc/0.5.2/deb","kvlc_0.5.2-0woody.2_i386.deb");
-     pkgitem("vlc/0.5.2/deb","qvlc_0.5.2-0woody.2_i386.deb");
+     pkgitem("vlc/0.5.2/deb","gnome-vlc_0.5.2-0woody.2_i386.deb","(Gnome interface)");
+     pkgitem("vlc/0.5.2/deb","gvlc_0.5.2-0woody.2_i386.deb","(GTK+ interface)");
+     pkgitem("vlc/0.5.2/deb","kvlc_0.5.2-0woody.2_i386.deb","(KDE interface)");
+     pkgitem("vlc/0.5.2/deb","qvlc_0.5.2-0woody.2_i386.deb","(Qt interface)");
 ?></ul>
-<p> Video plugins: </p>
+<p> Video output plugins: </p>
 <ul><?
-     pkgitem("vlc/0.5.2/deb","vlc-plugin-sdl_0.5.2-0woody.2_i386.deb");
-     pkgitem("vlc/0.5.2/deb","vlc-plugin-ggi_0.5.2-0woody.2_i386.deb");
-     pkgitem("vlc/0.5.2/deb","vlc-plugin-glide_0.5.2-0woody.2_i386.deb");
-     pkgitem("vlc/0.5.2/deb","vlc-plugin-svgalib_0.5.2-0woody.2_i386.deb");
+     pkgitem("vlc/0.5.2/deb","vlc-plugin-sdl_0.5.2-0woody.2_i386.deb","(SDL video and audio outputs)");
+     pkgitem("vlc/0.5.2/deb","vlc-plugin-ggi_0.5.2-0woody.2_i386.deb","(GGI video output)");
+     pkgitem("vlc/0.5.2/deb","vlc-plugin-glide_0.5.2-0woody.2_i386.deb","(Glide video output)");
+     pkgitem("vlc/0.5.2/deb","vlc-plugin-svgalib_0.5.2-0woody.2_i386.deb","(SVGA video output)");
 ?></ul>
-<p> Audio plugins: </p>
+<p> Audio output plugins: </p>
 <ul><?
-     pkgitem("vlc/0.5.2/deb","vlc-plugin-alsa_0.5.2-0woody.2_i386.deb");
-     pkgitem("vlc/0.5.2/deb","vlc-plugin-arts_0.5.2-0woody.2_i386.deb");
-     pkgitem("vlc/0.5.2/deb","vlc-plugin-esd_0.5.2-0woody.2_i386.deb");
-?></ul>
-<p>Librairies:</p>
-<ul><?
-     pkgitem("libdvdcss/1.2.6/deb","libdvdcss2_1.2.6-1_i386.deb");
-     pkgitem("libdvdread/0.9.3/deb","libdvdread2_0.9.3-2_i386.deb");
-     pkgitem("libdvdplay/1.0.1/deb","libdvdplay0_1.0.1-1_i386.deb");
-     pkgitem("libdvbpsi/0.1.2/deb","libdvbpsi1_0.1.2-2_i386.deb");
-?></ul>
-
-<? h2("Older Debian packages for PowerPC"); ?>
-
-<p>Here is the complete list of our Debian PowerPC packages (0.4.5):</p>
-
-<ul><?
-     pkgitem("vlc/0.4.5/deb","vlc_0.4.5a-1_powerpc.deb");
-?></ul>
-<p> Codec plugins: </p>
-<ul><?
-     pkgitem("vlc/0.4.5/deb","vlc-mad_0.4.5a-1_powerpc.deb");
-?></ul>
-<p> Interface plugins: </p>
-<ul><?
-     pkgitem("vlc/0.4.5/deb","vlc-gnome_0.4.5a-1_powerpc.deb");
-     pkgitem("vlc/0.4.5/deb","vlc-gtk_0.4.5a-1_powerpc.deb");
-     pkgitem("vlc/0.4.5/deb","vlc-lirc_0.4.5a-1_powerpc.deb");
-     pkgitem("vlc/0.4.5/deb","vlc-qt_0.4.5a-1_powerpc.deb");
-?></ul>
-<p> Video plugins: </p>
-<ul><?
-     pkgitem("vlc/0.4.5/deb","vlc-sdl_0.4.5a-1_powerpc.deb");
-     pkgitem("vlc/0.4.5/deb","vlc-aa_0.4.5a-1_powerpc.deb");
-     pkgitem("vlc/0.4.5/deb","vlc-ggi_0.4.5a-1_powerpc.deb");
-?></ul>
-<p> Audio plugins: </p>
-<ul><?
-     pkgitem("vlc/0.4.5/deb","vlc-alsa_0.4.5a-1_powerpc.deb");
-     pkgitem("vlc/0.4.5/deb","vlc-arts_0.4.5a-1_powerpc.deb");
-     pkgitem("vlc/0.4.5/deb","vlc-esd_0.4.5a-1_powerpc.deb");
+     pkgitem("vlc/0.5.2/deb","vlc-plugin-alsa_0.5.2-0woody.2_i386.deb","(ALSA audio output)");
+     pkgitem("vlc/0.5.2/deb","vlc-plugin-arts_0.5.2-0woody.2_i386.deb","(Arts audio output)");
+     pkgitem("vlc/0.5.2/deb","vlc-plugin-esd_0.5.2-0woody.2_i386.deb","(ESD audio output)");
 ?></ul>
 <p>Librairies:</p>
 <ul><?
-     pkgitem("libdvdcss/1.2.3/deb","libdvdcss2_1.2.3-2_powerpc.deb");
-     pkgitem("libdvbpsi/0.1.2/deb","libdvbpsi1_0.1.2-2_powerpc.deb");
+     pkgitem("libdvdcss/1.2.6/deb","libdvdcss2_1.2.6-1_i386.deb","(DVD decryption library)");
+     pkgitem("libdvdread/0.9.3/deb","libdvdread2_0.9.3-2_i386.deb","(DVD reading library)");
+     pkgitem("libdvdplay/1.0.1/deb","libdvdplay0_1.0.1-1_i386.deb","(DVD menus navigation library)");
+     pkgitem("libdvbpsi/0.1.2/deb","libdvbpsi1_0.1.2-2_i386.deb","(MPEG TS and DVB PSI tables library)");
 ?></ul>
 
 <? h2("Older versions"); ?>
@@ -115,4 +74,4 @@ DVD.</p>
 <p> Older versions can be found by <a href="/pub/vlc/">browsing</a> our
 FTP site. </p>
 
-<? footer('$Id: download-debian.html,v 1.13 2003/04/23 02:35:35 lool Exp $'); ?>
+<? footer('$Id: download-debian.html,v 1.14 2003/04/23 13:58:39 alexis Exp $'); ?>

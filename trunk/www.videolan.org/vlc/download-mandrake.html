@@ -6,7 +6,7 @@
    require("header.php3");
 ?>
 
-<? function pkgitem($version,$name) { ?><li><a href="/pub/videolan/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a></li><? } ?>
+<? function pkgitem($version,$name,$comment) { ?><li><a href="/pub/videolan/<? echo $version."/".$name; ?>"><code><? echo $name; ?></code></a> <? echo $comment; ?> </li><? } ?>
 
 <h1> VLC for Linux Mandrake i386</h1>
 
@@ -50,56 +50,56 @@ You need at least to add main, contrib and plf sources. </p>
 <p> Latest RPM x86 packages for Mandrake (0.5.0): </p>
 
 <ul><?
-    pkgitem("vlc/0.5.0/rpm/mdk","vlc-0.5.0-1mdk.i586.rpm");
+    pkgitem("vlc/0.5.0/rpm/mdk","vlc-0.5.0-1mdk.i586.rpm","(VLC base package)");
 ?></ul>
 <p> Mozilla plugin: </p>
 <ul><?
-    pkgitem("vlc/0.5.0/rpm/mdk","mozilla-plugin-vlc-0.5.0-1mdk.i586.rpm");
+    pkgitem("vlc/0.5.0/rpm/mdk","mozilla-plugin-vlc-0.5.0-1mdk.i586.rpm","");
 ?></ul>
 <p> Codec plugins: </p>
 <ul><?
-    pkgitem("vlc/0.5.0/rpm/mdk","vlc-plugin-mad-0.5.0-1mdk.i586.rpm");
-    pkgitem("vlc/0.5.0/rpm/mdk","vlc-plugin-a52-0.5.0-1mdk.i586.rpm");
-    pkgitem("vlc/0.5.0/rpm/mdk","vlc-plugin-ogg-0.5.0-1mdk.i586.rpm");
-    pkgitem("vlc/0.5.0/rpm/mdk","vlc-plugin-dv-0.5.0-1mdk.i586.rpm");
+    pkgitem("vlc/0.5.0/rpm/mdk","vlc-plugin-mad-0.5.0-1mdk.i586.rpm","(MP3 audio decoder)");
+    pkgitem("vlc/0.5.0/rpm/mdk","vlc-plugin-a52-0.5.0-1mdk.i586.rpm","(A52 - also known as AC3 - audio decoder)");
+    pkgitem("vlc/0.5.0/rpm/mdk","vlc-plugin-ogg-0.5.0-1mdk.i586.rpm","(Ogg Vorbis audio decoder)");
+    pkgitem("vlc/0.5.0/rpm/mdk","vlc-plugin-dv-0.5.0-1mdk.i586.rpm","(Raw DV decoder)");
 ?></ul>
 <p> Interface plugins: </p>
 <ul><?
-    pkgitem("vlc/0.5.0/rpm/mdk","gnome-vlc-0.5.0-1mdk.i586.rpm");
-    pkgitem("vlc/0.5.0/rpm/mdk","gvlc-0.5.0-1mdk.i586.rpm");
-    pkgitem("vlc/0.5.0/rpm/mdk","vlc-plugin-ncurses-0.5.0-1mdk.i586.rpm");
+    pkgitem("vlc/0.5.0/rpm/mdk","gnome-vlc-0.5.0-1mdk.i586.rpm","(Gnome interface)");
+    pkgitem("vlc/0.5.0/rpm/mdk","gvlc-0.5.0-1mdk.i586.rpm","(GTK+ interface)");
+    pkgitem("vlc/0.5.0/rpm/mdk","vlc-plugin-ncurses-0.5.0-1mdk.i586.rpm","(Ncurses interface)");
 ?></ul>
 <p> Video plugins: </p>
 <ul><?
-    pkgitem("vlc/0.5.0/rpm/mdk","vlc-plugin-aa-0.5.0-1mdk.i586.rpm");
-    pkgitem("vlc/0.5.0/rpm/mdk","vlc-plugin-sdl-0.5.0-1mdk.i586.rpm");
-    pkgitem("vlc/0.5.0/rpm/mdk","vlc-plugin-ggi-0.5.0-1mdk.i586.rpm");
+    pkgitem("vlc/0.5.0/rpm/mdk","vlc-plugin-aa-0.5.0-1mdk.i586.rpm","(Video to Text video output)");
+    pkgitem("vlc/0.5.0/rpm/mdk","vlc-plugin-sdl-0.5.0-1mdk.i586.rpm","(SDL audio and video outputs)");
+    pkgitem("vlc/0.5.0/rpm/mdk","vlc-plugin-ggi-0.5.0-1mdk.i586.rpm","(GGI video output)");
 ?></ul>
 <p> Audio plugins: </p>
 <ul><?
-    pkgitem("vlc/0.5.0/rpm/mdk","vlc-plugin-alsa-0.5.0-1mdk.i586.rpm");
-    pkgitem("vlc/0.5.0/rpm/mdk","vlc-plugin-arts-0.5.0-1mdk.i586.rpm");
-    pkgitem("vlc/0.5.0/rpm/mdk","vlc-plugin-esd-0.5.0-1mdk.i586.rpm");
+    pkgitem("vlc/0.5.0/rpm/mdk","vlc-plugin-alsa-0.5.0-1mdk.i586.rpm","(ALSA audio output)");
+    pkgitem("vlc/0.5.0/rpm/mdk","vlc-plugin-arts-0.5.0-1mdk.i586.rpm","(Arts audio output)");
+    pkgitem("vlc/0.5.0/rpm/mdk","vlc-plugin-esd-0.5.0-1mdk.i586.rpm","(ESD audio output)");
 ?></ul>
 <p> Misc plugins: </p>
 <ul><?
-    pkgitem("vlc/0.5.0/rpm/mdk","vlc-plugin-dvb-0.5.0-1mdk.i586.rpm");
-    pkgitem("vlc/0.5.0/rpm/mdk","vlc-plugin-slp-0.5.0-1mdk.i586.rpm");
-    pkgitem("vlc/0.5.0/rpm/mdk","vlc-plugin-lirc-0.5.0-1mdk.i586.rpm");
-    pkgitem("vlc/0.5.0/rpm/mdk","vlc-plugin-xosd-0.5.0-1mdk.i586.rpm");
+    pkgitem("vlc/0.5.0/rpm/mdk","vlc-plugin-dvb-0.5.0-1mdk.i586.rpm","(DVB support)");
+    pkgitem("vlc/0.5.0/rpm/mdk","vlc-plugin-slp-0.5.0-1mdk.i586.rpm","(SLP support)");
+    pkgitem("vlc/0.5.0/rpm/mdk","vlc-plugin-lirc-0.5.0-1mdk.i586.rpm","(Remote control support)");
+    pkgitem("vlc/0.5.0/rpm/mdk","vlc-plugin-xosd-0.5.0-1mdk.i586.rpm","(X on-screen display support)");
 ?></ul>
 <p>Librairies:</p>
 <ul><?
-    pkgitem("libdvdcss/1.2.5/rpm","libdvdcss2-1.2.5-1.i586.rpm");
-    pkgitem("libdvdplay/1.0.0/rpm/mdk","libdvdplay0-1.0.0-1mdk.i586.rpm");
-    pkgitem("libdvbpsi/0.1.2/rpm/mdk","libdvbpsi1-0.1.2-3mdk.i586.rpm");
+    pkgitem("libdvdcss/1.2.5/rpm","libdvdcss2-1.2.5-1.i586.rpm","(DVD decryption library)");
+    pkgitem("libdvdplay/1.0.0/rpm/mdk","libdvdplay0-1.0.0-1mdk.i586.rpm","(DVD menus navigation library)");
+    pkgitem("libdvbpsi/0.1.2/rpm/mdk","libdvbpsi1-0.1.2-3mdk.i586.rpm","(MPEG TS and DVB PSI tables library)");
 ?></ul>
 <p> Source packages: </p>
 <ul><?
-    pkgitem("vlc/0.5.0/rpm/mdk","vlc-0.5.0-1mdk.src.rpm");
-    pkgitem("libdvdcss/1.2.5/rpm","libdvdcss-1.2.5-1.src.rpm");
-    pkgitem("libdvdplay/1.0.0/rpm/mdk","libdvdplay-1.0.0-1mdk.src.rpm");
-    pkgitem("libdvbpsi/0.1.2/rpm/mdk","libdvbpsi-0.1.2-3mdk.src.rpm");
+    pkgitem("vlc/0.5.0/rpm/mdk","vlc-0.5.0-1mdk.src.rpm","");
+    pkgitem("libdvdcss/1.2.5/rpm","libdvdcss-1.2.5-1.src.rpm","");
+    pkgitem("libdvdplay/1.0.0/rpm/mdk","libdvdplay-1.0.0-1mdk.src.rpm","");
+    pkgitem("libdvbpsi/0.1.2/rpm/mdk","libdvbpsi-0.1.2-3mdk.src.rpm","");
 ?></ul>
 
 <? h2("Older versions"); ?>
@@ -107,4 +107,4 @@ You need at least to add main, contrib and plf sources. </p>
 <p> Older versions can be found by <a href="/pub/vlc/">browsing</a> our
 FTP site. </p>
 
-<? footer('$Id: download-mandrake.html,v 1.5 2003/04/08 20:18:51 karibu Exp $'); ?>
+<? footer('$Id: download-mandrake.html,v 1.6 2003/04/23 13:58:39 alexis Exp $'); ?>

@@ -6,7 +6,7 @@
 
 <h1>Compile VLC on BeOS</h1>
 
-<p>Needed tools:</p>
+<p>Required tools:</p>
 <ul>
 <li><a href="http://www.bebits.com/app/2680">BeOS 5</a> with
 development tools</li>
@@ -14,11 +14,12 @@ development tools</li>
 <li><a href="http://www.bebits.com/app/3962">Subversion</a></li>
 <li><a href="http://www.bebits.com/app/3218">bzip2/bunzip2</a></li>
 <li><a href="http://www.bebits.com/app/2848">wget</a></li>
+<li><a href="http://www.hirschkaefer.de/beos/">gcc 2.95.3</a></li>
 </ul>
 
-<p>Compiling is usually done on a vanilla R5.0.3 install with the
-default compiler. Compiling on other BeOS versions might, or might not
-work.</p>
+<p>Compiling is usually done on a vanilla R5.0.3 install with gcc 2.95.3.
+Building with older compilers won't work. Building on a BONE-enabled
+install doesn't work at the moment.</p>
 
 <p>Now you can compile vlc:</p>
 <ul>
@@ -28,12 +29,16 @@ work.</p>
 build every util and library VLC needs (you need an internet connection,
 a fast one preferably)</li>
 <li>cd to the root of the source directory</li>
-<li>run <code>./bootstrap &amp;&amp; ./configure --with-ffmpeg-mp3lame
---with-ffmpeg-faac --disable-plugins --enable-debug &amp;&amp;
-make &amp;&amp; make vlc-bundle</code></li>
+<li>run <code>./bootstrap &amp;&amp; ./configure --disable-x11
+--disable-xvideo --disable-gtk --disable-sdl --enable-ffmpeg
+--with-ffmpeg-mp3lame --with-ffmpeg-faac --enable-mad --enable-libdvbpsi
+--enable-a52 --enable-dvdnav --enable-faad --enable-vorbis --enable-ogg
+--enable-theora --enable-faac --enable-mkv --enable-freetype
+--enable-speex --enable-flac --disable-skins2 --disable-plugins
+--enable-debug &amp;&amp; make &amp;&amp; make vlc-bundle</code></li>
 <li>to build a package, run <code>make package-beos</code></li>
 </ul>
 
-<p><b>Written by <a href="mailto:titer@videolan.org">Eric Petit</a>, for
+<p><b>Written by <a href="mailto:titer@m0k.org">Eric Petit</a>, for
 the VideoLAN Team.</b></p>
 

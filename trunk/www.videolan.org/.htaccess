@@ -18,6 +18,7 @@ RewriteRule ^team.html /team/index.html [R=permanent,L]
 
 RewriteRule ^lists.html /support/lists.html [R=permanent,L]
 RewriteRule ^irc(.*)$ /support/irc$1 [R=permanent,L]
+RewriteRule ^vlc/doc.html$ /vlc/index.html [R=permanent,L]
 
 #
 # MIME Types

@@ -19,9 +19,9 @@ sources download page</ulink>.
 
 </para>
 
-<para>
-For each library, uncompress, configure, compile and install :
-</para>
+<para>For each library, uncompress, configure (unless
+for <emphasis>libdvb</emphasis> which doesn't have a
+<emphasis>./configure</emphasis>), compile and install :</para>
 
 <para>
 <screen>

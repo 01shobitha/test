@@ -4,6 +4,13 @@
 # Et pour les nouvelles importantes, c'est pas un | , c'est un §
 #
 
+|26 Apr 2003| New VideoLAN HOWTO | The new VideoLAN HOWTO is now
+complete and up-to-date. The chapter about the channel information
+service now explains how to do SAP/SDP announces with the new <a
+href="/streaming/download-sap-server.html">mini-SAP-server</a>. See the
+<a href="/doc/">documentation page</a> and report any problem to the
+<a href="/support/lists.html">user mailing-lists</a>.
+
 |8 Apr 2003| Release: VLC 0.5.3 | This new release features
 the first steps towards skinable interfaces (only on Windows, not yet on 
 Mac OS X or *nix). Support for playing directories and video4linux are 

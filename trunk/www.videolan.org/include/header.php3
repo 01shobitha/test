@@ -49,14 +49,14 @@ function starthtml($title) { ?>
 
 ?>
 
-<table width="100%" cellspacing="3" cellpadding="0">
+<table width="100%" cellspacing="0" cellpadding="0">
 
 <tr><td><img src="/images/cone-soppera1-mini.png" alt="Logo VideoLAN" /></td>
 
 <td>
 
   <form action="index.html" method="get">
-  <table width="100%" cellspacing="3" cellpadding="0">
+  <table width="100%" cellspacing="0" cellpadding="0">
 
 <tr>
 

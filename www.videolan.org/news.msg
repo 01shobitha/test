@@ -2,7 +2,7 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
-|1 April 2005| Release: VLC 0.8.1337| Lots of new features have found their way into VLC ! VLC is now easy to use and bug free. ( see <a href="http://download.videolan.org/pub/videolan/vlc/0.8.1337/changelog.txt"> Full Change Log</a> ) Hurry up and download the new version here : [ links removed ]
+|1 April 2005| Release: VLC 0.8.1337 (April Fool's)| Lots of new features have found their way into VLC ! VLC is now easy to use and bug free. ( see <a href="http://download.videolan.org/pub/videolan/vlc/0.8.1337/changelog.txt"> Full Change Log</a> ) Hurry up and download the new version here : [ links removed ]
 Screenshots can be found <a href="http://download.videolan.org/pub/videolan/vlc/0.8.1337/vlc-l33t.jpg">here</a> (linux) and <a href="http://download.videolan.org/pub/videolan/vlc/0.8.1337/vlc-l33t-win.jpg">here</a> (windows) and <a href="http://download.videolan.org/pub/videolan/vlc/0.8.1337/vlc-0.8.1337-macosx.png">here</a> (macosx).<br />
 <b>NOTE:</b> Look at the posting date before downloading this version. <b>This is an April Fool's Joke.</b>
 

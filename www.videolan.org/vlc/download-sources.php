@@ -72,9 +72,13 @@
 <p> Find more about the SVN source code repository on the <a
 href="http://developers.videolan.org/">developers website</a>. </p>
 
+<h2>How to compile?</h2>
+
+<pr>Please have a look at VLC's sub-page on the <a href="http://developers.videolan.org/vlc/">developers website></a>. There are detailed descriptions for most systems, supported by VLC. If something is not mentioned there, searching the <a href="http://forum.videolan.org/">forum</a> is worth a try.</p>
+
 <h2>Older versions</h2>
 
-<p> Older versions can be found by browsing our FTP site :</p>
+<p> Older versions can be found by browsing our FTP site:</p>
 <ul> <?php mirrordir("vlc"); ?> </ul>
 
 <?php footer('$Id$'); ?>

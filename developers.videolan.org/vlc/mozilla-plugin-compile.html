@@ -8,51 +8,53 @@
 
 <p>Here is a small description on which steps to take for compiling the mozilla plugin in VLC using a Linux development environment. The description assumes that the mozilla-devel package is installed. You can check this by running: "rpm -q mozilla-devel". If it is not installed, then install it first before continuing with the following steps.</p>
 
-<p>Checkout VLC from subversion, see http://developers.videolan.org/svn.html</p>
+<p>Checkout VLC from subversion, see http://developers.videolan.org/svn.html<br>
 <table border="0" width="100%">
   <tr><td class="code">
     $> cd src/vlc-trunk
   </td></tr>
 </table>
+</p>
 
-<p>Bootstrap your fresh subversion checkout first.</p>
+<p>Bootstrap your fresh subversion checkout first.<br>
 <table border="0" width="100%">
   <tr><td class="code">
 $> ./bootstrap
   </td></tr>
 </table>
+</p>
 
-<p>Determine your mozilla version using your package manager. For RPM based distributions (Redhat, Fedora Core, Mandrake, Suse):</p>
-<p>Bootstrap your fresh subversion checkout first.</p>
+<p>Determine your mozilla version using your package manager. For RPM based distributions (Redhat, Fedora Core, Mandrake, Suse):<br>
 <table border="0" width="100%">
   <tr><td class="code">
 $> rpm -q mozilla<br>
 mozilla-1.7.6-1.3.2
   </td></tr>
 </table>
+<br>
+The first number "1.7.6" is the mozilla version number the other number after the second '-' is the package version number.</p>
 
-<p>The first number "1.7.6" is the mozilla version number the other number after the second '-' is the package version number.</p>
-
-<p>Then configure to build VLC with mozilla plugin (See ./configure --help output for more information on commandline switches to use for configuring VLC.):</p>
-<p>Bootstrap your fresh subversion checkout first.</p>
+<p>Then configure to build VLC with mozilla plugin (See ./configure --help output for more information on commandline switches to use for configuring VLC.):<br>
 <table border="0" width="100%">
   <tr><td class="code">
 $> XPIDL=/usr/lib/mozilla-1.7.6/xpidl ./configure --prefix=/usr --enable-mozilla --enable-mpeg2dec <__add_your__options_here__> && make
   </td></tr>
 </table>
+</p>
 
-<p>To run make after the ./configure step export XPIDL in the shell environment, like this example for bash shells:</p>
+<p>To run make after the ./configure step export XPIDL in the shell environment, like this example for bash shells:<br>
 <table border="0" width="100%">
   <tr><td class="code">
 $> export XPIDL=/usr/lib/mozilla-1.7.6/xpidl
   </td></tr>
 </table>
-<p>or</p>
+<br>or<br>
 <table border="0" width="100%">
   <tr><td class="code">
 $> XPIDL=/usr/lib/mozilla-1.7.6/xpidl make
   </td></tr>
 </table>
+</p>
 
 <p>This configures and builds VLC with the mozilla plugin for your version of mozilla.</p>
 

@@ -57,6 +57,12 @@ td.category {
   background-color: #ccf;
   vertical-align: middle;
 }
+td.code {
+  color: black;
+  background-image: none;
+  background-color: #eef;
+  vertical-align: middle;
+}
 
 div.task {
   background-color:#dfd;

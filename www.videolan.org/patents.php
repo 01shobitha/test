@@ -71,4 +71,4 @@
 	Wish us luck, we will need it.
 </p>
 
-<?php footer('$Id: partners.php 2907 2004-11-23 14:41:24Z courmisch $'); ?>
+<?php footer('$Id: patents.php 3101 2005-04-06 12:33:10Z hartman $'); ?>

@@ -61,19 +61,25 @@
 <td class="yes">Up-to-date</td>
 <td class="yes">
 <a href="/doc/play-howto/en/play-howto-en.html">EN</a>
+<a href="/doc/play-howto/fr/play-howto-fr.html">FR</a>
 </td>
 <td class="yes">
 <a href="/doc/play-howto/en/play-howto-en-html.zip">EN</a>
+<a href="/doc/play-howto/fr/play-howto-fr-html.zip">FR</a>
 </td>
 <td class="yes">
 <a href="/doc/play-howto/en/play-howto-en.pdf">EN</a>
 (<a href="/doc/play-howto/en/play-howto-en-pdf.zip">zip</a>)
+<a href="/doc/play-howto/fr/play-howto-fr.pdf">FR</a>
+(<a href="/doc/play-howto/fr/play-howto-fr-pdf.zip">zip</a>)
 </td>
 <td class="yes">
 <a href="/doc/play-howto/en/play-howto-en-rtf.zip">EN</a>
+<a href="/doc/play-howto/fr/play-howto-en-rtf.zip">FR</a>
 </td>
 <td class="yes">
 <a href="/doc/play-howto/en/play-howto-en.txt">EN</a>
+<a href="/doc/play-howto/fr/play-howto-en.txt">FR</a>
 </td>
 
 </tr>

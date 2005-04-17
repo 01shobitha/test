@@ -973,7 +973,7 @@ provides control of VLC using a joystick. TODO </para> </sect2>
 <!-- ************************************************************* SECTION -->
 <sect1><title>Le plugin Mozilla</title>
 
-<para> VLC peut aussi être embarqué dans un navigateur web! Pour l'instant, cette fonctionalité n'est disponible que sur <ilink url="http://www.mozilla.org/">Mozilla</ulink> ou <ulink url="http://www.mozilla.org/products/firefox/">Firefox</ulink>.
+<para> VLC peut aussi être embarqué dans un navigateur web! Pour l'instant, cette fonctionalité n'est disponible que sur <ulink url="http://www.mozilla.org/">Mozilla</ulink> ou <ulink url="http://www.mozilla.org/products/firefox/">Firefox</ulink>.
 
 </para>
 

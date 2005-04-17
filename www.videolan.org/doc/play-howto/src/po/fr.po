@@ -3507,7 +3507,7 @@ msgid ""
 "VLC can also be embedded in a web browser ! At\n"
 "the moment, this function is only available with <ulink\n"
 "url=\"http://www.mozilla.org/\">Mozilla</ulink> or <ulink url=\"http://www.mozilla.org/products/firefox/\">Firefox</ulink>."
-msgstr "VLC peut aussi être embarqué dans un navigateur web! Pour l'instant, cette fonctionalité n'est disponible que sur <ilink url=\"http://www.mozilla.org/\">Mozilla</ulink> ou <ulink url=\"http://www.mozilla.org/products/firefox/\">Firefox</ulink>.\n"
+msgstr "VLC peut aussi être embarqué dans un navigateur web! Pour l'instant, cette fonctionalité n'est disponible que sur <ulink url=\"http://www.mozilla.org/\">Mozilla</ulink> ou <ulink url=\"http://www.mozilla.org/products/firefox/\">Firefox</ulink>.\n"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/advanced-use.xml:870

@@ -389,7 +389,7 @@ URL commands
 <row>
  <entry>add</entry>
  <entry>
-    mrl (string)
+    mrl (chaine de caractères)
     
     
  </entry>
@@ -436,7 +436,7 @@ URL commands
 <row>
  <entry>shutdown</entry><entry/>
  <entry>
-    Quit VLC
+    Quitter VLC
     
     
  </entry>

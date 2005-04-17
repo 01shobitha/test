@@ -75,11 +75,11 @@
 </td>
 <td class="yes">
 <a href="/doc/play-howto/en/play-howto-en-rtf.zip">EN</a>
-<a href="/doc/play-howto/fr/play-howto-en-rtf.zip">FR</a>
+<a href="/doc/play-howto/fr/play-howto-fr-rtf.zip">FR</a>
 </td>
 <td class="yes">
 <a href="/doc/play-howto/en/play-howto-en.txt">EN</a>
-<a href="/doc/play-howto/fr/play-howto-en.txt">FR</a>
+<a href="/doc/play-howto/fr/play-howto-fr.txt">FR</a>
 </td>
 
 </tr>

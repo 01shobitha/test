@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="webbrowser-plugin"><title id="twebbrowser-plugin">
-Advanced use of VLC
+ Utilisation avancée de VLC 
+
 </title>
 
 <!-- TODO: write me ! -->
@@ -58,33 +59,41 @@ vous pouvez ajouter <userinput>--color</userinput> pour afficher les messages en
 le(s) element(s) sélectionné(s)</para>
 
 <sect3><title>
-Opening a file
+
+Lire un fichier
 </title>
 
 <para>
-Start VLC with:
+
+Démarrez VLC avec :
+
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc my_file</userinput>
+
+<prompt>% </prompt><userinput>vlc mon_fichier</userinput>
+
 </screen>
 
 <para>VLC devrait être capable d'identifier le type diu fichier. S'il n'y 
 arrive pas , vous pouvez forcer le démultiplexeur et le décodeur (voir ci-dessous).</para>
 
-<para> A list of all video and audio codecs
-supported by VLC is available on the <ulink
-url="http://www.videolan.org/vlc/features.html">VLC features
-list</ulink>. </para>
+<para> Une liste de tous les codecs vidéo et audio que supporte VLC 
+ est disponible dans sur la <ulink url="http://www.videolan.org/vlc/features.html"> 
+liste des fonctionalités de VLC</ulink>.  </para>
 
 </sect3>
 
 <sect3><title>
-Opening a DVD or VCD, or an audio CD
+
+Lire un DVD, un VCD, on un CD audio
+
 </title>
 
 <para>
-Start VLC with:
+
+Démarrez VLC avec :
+
 </para>
 
 <para>Pour un DVD avec menus :
@@ -92,90 +101,118 @@ Start VLC with:
 
 <!-- Do not wrap me -->
 <screen>
+
 <prompt>% </prompt><userinput>vlc dvd://[device][@raw_device][@[title][,[chapter][,angle]]]</userinput>
+
 </screen>
 
 <para>Dans la plupart des cas  <userinput>vlc dvd://</userinput> ou <userinput>vlc dvd://[périphérique]</userinput> suffiront. [périphérique] est par exemple <userinput>/dev/dvd</userinput> sous GNU/Linux ou <userinput>D:</userinput> sur Windows (le chemin complet de votre lecteur de DVDs).</para>
 
 <para>
-or 
+
+ou 
 
 
-(DVD without menus) :</para>
+(DVD sans menus) :</para>
 
 <screen>
+
 <prompt>% </prompt><userinput>vlc dvdsimple://[device][@raw_device][@[title][,[chapter][,angle]]]</userinput>
+
 </screen>
 
 <para>
-or 
+
+ou 
 
 (VCD):</para>
 
 <!-- Do not wrap me -->
 <screen>
+
 <prompt>% </prompt><userinput>vlc vcd://[device][@{E|P|E|T|S}[number]]</userinput>
+
 </screen>
 
 <para>
-or 
+
+ou 
 
 
 (Audio CD):</para>
 
 <!-- Do not wrap me -->
 <screen>
+
 <prompt>% </prompt><userinput>vlc cdda://[device][@[track]]</userinput>
+
 </screen>
 </sect3>
 
 <sect3><title>
-Receiving a network stream
+
+Reception d'un flux réseau
+
 </title>
 
 <para>
-To receive an unicast UDP stream (sent by VLS or
-VLC's stream output), start VLC with:
+
+Pour recevoir un flux unicast UDP (envoyé par VLS ou par VLC), démarrez VLC avec :
+
 </para>
 
 <screen>
+
 <prompt>% </prompt><userinput>vlc  udp:[@:server_port]</userinput>
+
 </screen>
 
 <para>Si vous utilisez le port de défaut (1234), la commande <userinput>vlc udp:</userinput> suffira. 
 Pour plus d'information, regardez dans le Streaming Howto</para>
 
 <para>
-To receive an multicast UDP stream (sent by VLS or
-VLC's stream output), start VLC with:
+
+Pour recevoir un flux multicast UDP (envoyé par VLS ou par VLC), 
+démarrez VLC avec :
+
 </para>
 <screen>
+
 <prompt>% </prompt><userinput>vlc udp:@multicast_address[:server_port]</userinput>
+
 </screen>
 
 <para>Pour recevoir un flux SSM (source specific multicast), vous pouvez utiliser :</para> 
 <screen>
+
 <prompt>% </prompt><userinput>vlc udp:server_address@multicast_address[:server_port]</userinput>
+
 </screen>
 
 <para>Cela ne marche seulement que sur un OS qui supporte un SSM 
 (Windows XP et les récents noyaux linux)</para>
 
 <para>
-To receive a HTTP stream, start VLC with
+
+Pour recevoir un flux HTTP, démarrez VLC avec
 
 
  :</para>
 
 <screen>
+
 <prompt>% </prompt><userinput>vlc http://www.example.org/your_file.mpg</userinput>
+
 </screen>
 
 <para>
-To receive a RTSP stream, start VLC with:</para>
+
+Pour recevoir un flux RTSP, démarrez VLC avec:</para>
                                                                                 
 <screen>
+
 <prompt>% </prompt><userinput>vlc rtsp://www.example.org/your_stream</userinput>
+
 </screen>
 
 </sect3>
@@ -183,28 +220,33 @@ To receive a RTSP stream, start VLC with:</para>
 
 <sect2><title>Sélection de modules</title>
 
-<para>VLC always try to select the most appropriate interface,
-input and output modules, among the ones available on the system,
-according to the stream it is given to read. However, you may wish
-to force the use of a specific module with the following options.
+<para>VLC essaie toujours de choisir l'interface,
+les modules d'entrée et sortie les plus appropriés, parmi ceux disponibles dans le système,
+selon le flux qu'on lui demande de lire. Cependant, vous pouvez
+forcer l'utilisation d'un module spécifique avec les options suivantes.
+
 </para>
 
 <itemizedlist>
 <listitem><para><emphasis>--intf  &lt;module&gt;</emphasis>
-allows you to select the interface module.
+vous permet de chosir le module d'interface.
+
 </para></listitem>
 <listitem><para><emphasis>--extraintf  &lt;module&gt;</emphasis>
-allows you to select extra interface modules that
-will be launched in addition to the main one. This is mainly useful for special <emphasis>control</emphasis> interfaces, like HTTP, RC (Remote Control), ... (see below)
+vous permet de choisir les modules d'interface supplémentaires qui seront 
+lancés en plus du module principal. C'est très utile pour les interfaces spéciales 
+<emphasis>de controle</emphasis>, comme le HTTP, le RC (télécommande)...(voir plus loin)
 </para></listitem>
 <listitem><para><emphasis>--aout  &lt;module&gt;</emphasis>
-allows you to select the audio output module.
+Vous permet de choisir le module de sortie audio.
+
 </para></listitem>
 <listitem><para><emphasis>--vout  &lt;module&gt;</emphasis>
-allows you to select the video output module.
+Vous permet de choisir le module de sortie vidéo.
+
 </para></listitem>
-<listitem><para><emphasis>--memcpy  &lt;module&gt;</emphasis>
-allows you to choose a memory copy module. You should probably never touch that.
+<listitem><para><emphasis>--memcpy  &lt;module&gt;</emphasis> vous permet de choisir un module 
+de copie de mémoire. Vous ne devriez probablement jamais toucher cette option.
 </para></listitem>
 </itemizedlist>
 
@@ -215,7 +257,9 @@ allows you to choose a memory copy module. You should probably never touch that.
 </sect2>
 
 <sect2><title>
-Stream Output
+
+Flux de sortie / Diffusion
+
 </title>
 
 <para>Le système de diffusion de flux permet à vlc de devenir un serveur de diffusion.</para>
@@ -230,68 +274,78 @@ le Streaming Howto.</para>
 <sect3><title>Options audio</title>
 
 <itemizedlist>
-<listitem><para><emphasis>--noaudio</emphasis> 
-disables audio output.
+<listitem><para><emphasis>--noaudio</emphasis> désactive la sortie audio.
+
 </para></listitem>
 <listitem><para><emphasis>--mono</emphasis>
-forces VLC to treat the stream in mono audio.
+Force VLC à traiter diffuser le flux en mono.
+
 </para></listitem>
 <listitem><para><emphasis>--volume  &lt;integer&gt;</emphasis> 
-sets the level of audio output (between 0 and 1024)
+règle le volume (entre 0 et 1024)
+
 </para></listitem>
-<listitem><para><emphasis>--aout-rate &lt;integer&gt;</emphasis> sets
-the audio output frequency (Hz). By default, VLC will try to autodetect
-this. </para></listitem>
+<listitem><para><emphasis>--aout-rate &lt;integer&gt;</emphasis> règle
+la fréquence audio de sortie (hertz).  Par défaut, VLC essayera de la détecter automatiquement. </para></listitem>
 <listitem><para><emphasis>--desync &lt;integer&gt;</emphasis>
-compensates desynchronization of audio (ms). (If audio and video streams
-are not synchronized, use this setting to delay the audio stream)
+compense la désynchronisation du son.  (Si des flux audio et vidéo 
+ne sont pas synchronisés, utilisez ce réglage pour retarder le flux audio)
 </para></listitem>
 <listitem><para><emphasis>--audio-filter &lt;string&gt;</emphasis>
-adds audio filters to the processing chain. Available filters
-are visual (visualizer with spectrum analyzer and oscilloscope),
-headphone (virtual headphone spatialization) and normalizer (volume
-normalizer)</para></listitem>
+ajoute des filtres audio à la chaîne de traitement. Les filtres disponibles 
+sont visuels (visualiseur avec l'analyseur et l'oscilloscope de spectre), 
+écouteur (spatialisation virtuelle de l'écouteur) et normalisateurs (normalisateur de volume)</para></listitem>
 
 </itemizedlist>
 
 </sect3>
 
 <sect3><title>
-Video options
+
+Options vidéo
+
 </title>
 
 <itemizedlist>
 
 <listitem><para><emphasis>--novideo</emphasis> 
-disables video output.
+désactive la sortie vidéo.
+
 </para></listitem>
 
 <listitem><para><emphasis>--greyscale</emphasis>
-turns video output into grayscale mode.
+passe la sortie video en niveaux de gris.
+
 </para></listitem>
 
 <listitem><para><emphasis>--fullscreen</emphasis>
-( or <emphasis>-f</emphasis>) sets fullscreen video.
+( ou <emphasis>-f</emphasis>) met la vidéo en plein écran.
+
 </para></listitem>
 
 <listitem><para><emphasis>--nooverlay</emphasis>
-disables hardware acceleration for the video output.
+désactive l'accélération matérielle pour la sortie vidéo.
+
 </para></listitem>
 
 <listitem><para><emphasis>--width, --height &lt;integer&gt;</emphasis>
-sets the video window dimensions. By default, the video window size will be adjusted to match the video dimensions.
+Règle les dimensions de la fenêtre vidéo. Par défaut, la taille de la fenêtre vidéo sera ajustée aux dimensions de la vidéo.
+
 </para></listitem>
 
 <listitem><para><emphasis>--zoom &lt;float&gt;</emphasis>
-adds a zoom factor.
+ajoute un facteur de zoom.
+
 </para></listitem>
 
 <listitem><para><emphasis>--aspect-ratio &lt;mode&gt;</emphasis>
-forces source aspect ratio. Modes are 4x3, 16x9, ...
+force le format d'écran de la source. Les modes sont 4:3, 16:9, ...
+
 </para></listitem>
 
 <listitem><para><emphasis>--spumargin  &lt;integer&gt;</emphasis> 
-forces SPU subtitles postion.
+force la position des sous titres SPU .
+
 </para></listitem>
 
 <listitem><para><emphasis>--filter &lt;string&gt;</emphasis> ajoute des filtres vidéo à la chaîne 
@@ -299,29 +353,34 @@ de traitement. Vous pouvez ajouter plusieurs filtres, séparés par des virgules
 </para></listitem>
 
 <listitem><para><emphasis>--sout-transcode-sfilter
-&lt;string&gt;</emphasis> adds video subpictures filter to the
-processing chain.</para></listitem>
+&lt;string&gt;</emphasis> ajoute le filtre video subpictures (imagettes) à la 
+chaîne de traitement.</para></listitem>
 
 </itemizedlist>
 
 </sect3>
 
 <sect3><title>
-Playlist options
+
+Options de la playlist
+
 </title>
 
 <itemizedlist>
 
 <listitem><para><emphasis>--random</emphasis>
-plays files randomly forever.
+lit les fichiers aléatoirement indéfiniment.
+
 </para></listitem>
 
 <listitem><para><emphasis>--loop</emphasis>
-loops playlist on end.
+boucle à la fin de la playlist.
+
 </para></listitem>
 
 <listitem><para><emphasis>--repeat</emphasis>
-repeats the current item until another item is forced
+répète l'élément en cours tant qu'un autre flux n'est pas forcé
+
 </para></listitem>
 
 <listitem><para><emphasis>--play-and-stop</emphasis> arrête la playlist après chaque flux lu.</para></listitem>
@@ -331,33 +390,40 @@ repeats the current item until another item is forced
 </sect3>
 
 <sect3><title>
-Network options
+
+Options d'utilistation du réseau
+
 </title>
 
 <itemizedlist>
 
 <listitem><para><emphasis>--server-port  &lt;integer&gt;</emphasis>
-sets server port.
+règle le port utilisé par le serveur.
+
 </para></listitem>
 
 <listitem><para><emphasis>--iface  &lt;string&gt;</emphasis> 
-specifies the network interface to use.
+indique l'interface réseau à utiliser.
+
 </para></listitem>
 
 <listitem><para><emphasis>--iface-addr  &lt;string&gt;</emphasis>
-specifies your network interface IP address.
+indique l'addresse IP de votre interface réseau.
+
 </para></listitem>
 
 <listitem><para><emphasis>--mtu  &lt;integer&gt;</emphasis>
-specifies the MTU of the network interface.
+indique le MTU de l'interface réseau.
 </para></listitem>
 
 <listitem><para><emphasis>--ipv6</emphasis>
-forces IPv6.
+force l'IPv6.
+
 </para></listitem>
 
 <listitem><para><emphasis>--ipv4</emphasis>
-forces IPv4.
+force l'IPv4.
+
 </para></listitem>
 
 </itemizedlist>
@@ -365,7 +431,9 @@ forces IPv4.
 </sect3>
 
 <sect3><title>
-CPU options
+
+Les options d'utilisation du processeur 
+
 </title>
 
 <para>Vous ne devriez probablement pas avoir à toucher à ces options à moins de savoir ce que vous êtes entrain de faire.</para>
@@ -373,82 +441,100 @@ CPU options
 <itemizedlist>
 
 <listitem><para><emphasis>--nommx</emphasis>
-disables the use of MMX CPU extensions.
+désactive l'utilisation des extensions MMX du processeur.
+
 </para></listitem>
 
 <listitem><para><emphasis>--no3dn</emphasis>
-disables the use of 3D Now! CPU extensions.
+désactive l'utilisation des extensions 3D NOW du processeur.
+
 </para></listitem>
 
 <listitem><para><emphasis>--nommxext</emphasis>
-disables the use of MMX Ext CPU extensions.
+désactive l'utilisation des extensions MMX Ext du processeur.
+
 </para></listitem>
 
 <listitem><para><emphasis>--nosse</emphasis> 
-disables the use of SSE CPU extensions.
+désactive l'utilisation des extensions SSE du processeur.
+
 </para></listitem>
 
 <listitem><para><emphasis>--noaltivec</emphasis>
-disables the use of Altivec CPU extensions.
+désactive l'utilisation des extensions Altivec du processeur.
+
 </para></listitem>
 </itemizedlist>
 
 </sect3>
 
 <sect3><title>
-Miscellaneous options
+
+Options diverses
+
 </title>
 
 <itemizedlist>
 
 <listitem><para><emphasis>--quiet</emphasis>
- deactivates all console messages.
+ désactive tous les messages sur la console.
+
 </para></listitem>
 
 <listitem><para><emphasis>--color</emphasis>
- displays color messages.
+affiche les messages en couleurs.
+
 </para></listitem>
 
 <listitem><para><emphasis>--search-path  &lt;string&gt;</emphasis>
-specifies interface default search path.
+indique le chemin de recherche par défaut de l'interface.
+
 </para></listitem>
 
 <listitem><para><emphasis>--plugin-path  &lt;string&gt;</emphasis>
-specifies plugin search path.
+indique le chemin de recherche des plugin.
+
 </para></listitem>
 
 <listitem><para><emphasis>--no-plugins-cache</emphasis> désactive la mise en cache 
 des plugins (la mise en cache des plugins accélère le démarrage)</para></listitem>
 
 <listitem><para><emphasis>--dvd  &lt;string&gt;</emphasis> 
-specifies the default DVD device.
+indique le dispositif de DVD par défault.
+
 </para></listitem>
 
 <listitem><para><emphasis>--vcd  &lt;string&gt;</emphasis>
-specifies the default VCD device.
+indique le dispositif VCD par défault.
+
 </para></listitem>
 
 <listitem><para><emphasis>--program  &lt;;integer&gt;</emphasis>
-specifies program (SID) (for streams with several programs, like satellite ones).
+indique le programme (SID) (pour les flux comportant plusieurs programmes, comme ceux des satellites).
+
 </para></listitem>
 
 <listitem><para><emphasis>--audio-type  &lt;integer&gt;</emphasis>
 indique le type audio utilisé par défaut avec des dvds.</para></listitem>
 
 <listitem><para><emphasis>--audio-channel  &lt;integer&gt;</emphasis>
-specifies the default audio channel to use with dvds.
+indique le canal audio à utiliser par défaut avec des dvds.
+
 </para></listitem>
 
 <listitem><para><emphasis>--spu-channel  &lt;integer&gt;</emphasis>
-specifies the default subtitle channel to use with dvds.
+indique le canal de sous titres à utiliser par défaut avec des dvds.
+
 </para></listitem>
 
 <listitem><para><emphasis>--version</emphasis> 
-gives you information about the current VLC version.
+donne la version actuelle de VLC.
+
 </para></listitem>
 
 <listitem><para><emphasis>--module  &lt;module&gt;</emphasis> 
-displays help about specified module. (Shortcut : <emphasis>-p</emphasis>)
+affiche l'aide sur sur le module spécifié. (Raccourcis : <emphasis>-p</emphasis>)
+
 </para></listitem>
 
 </itemizedlist>
@@ -470,11 +556,15 @@ après l'élément concerné</para>
 
 <listitem>
 <screen>
+
 <prompt>% </prompt><userinput>vlc file1.mpg :fullscreen file2.mpg</userinput>
+
 </screen>
-<para>will play file1.mpg in fullscreen mode and file2.mpg in the default mode (which is generally no fullscreen), whereas </para>
+<para>lira file1.mpg en mode plein écran et file2.mpg au mode par défaut (qui n'est généralement le mode plein écran), tandis que </para>
 <screen>
+
 <prompt>% </prompt><userinput>vlc --fullscreen file1.mpg file2.mpg</userinput>
+
 </screen>
 <para>les lira tous les deux en mode plein écran</para>
 </listitem>
@@ -482,7 +572,9 @@ après l'élément concerné</para>
 
 <listitem>
 <screen>
+
 <prompt>% </prompt><userinput>vlc --fullscreen file1.mpg :sub-file=file1.srt :no-fullscreen file2.mpg :filter=distort</userinput>
+
 </screen>
 <para>lira file1.mpg en mode fenêtre (pas plein écran) avec le fichier sous-titres file1.srt et lira file2.mpg avec le filtre de distortion d'image activé en mode plein écran (les options de l'élément spécifique sont prioritaires sur les options générales)</para>
 </listitem>
@@ -514,13 +606,13 @@ choisi un mode de desenterlacement.</para></listitem>
 
 </sect3>
 
-<sect3><title>Invert video filter</title>
+<sect3><title>Filtre d'inversion de la vidéo</title>
 
 <para>Nom du module : <emphasis>invert</emphasis></para>
 
 </sect3>
 
-<sect3><title>Image properties filter</title>
+<sect3><title>Filtres de propriétés d'image</title>
 
 <para>Nom du module : <emphasis>adjust</emphasis></para>
 
@@ -596,8 +688,8 @@ Liste de modules de sortie vidéo sépararés par des virgules.</para></listitem
 
 <itemizedlist>
 <listitem><para><emphasis>--crop-geometry &lt;string&gt;</emphasis>
-Set the geometry of the zone to crop. This is set as &lt;width&gt; x
-&lt;height&gt; + &lt;left offset&gt; + &lt;top offset&gt;.</para>
+Règle la géométrie de la zone à rogner. Cela se fait avec &lt;largeur&gt; x
+&lt;hauteur&gt; + &lt;décalage à gauche&gt; + &lt;décalage en haut&gt;.</para>
 </listitem>
 <listitem><para><emphasis>--autocrop</emphasis>
 Active le rognage automatique des bordures.</para></listitem>
@@ -698,39 +790,50 @@ une transparence complète à 255 pour une opacité complète).</para></listitem
 <sect1><title>L'interface HTTP</title>
 
 <para>
-VLC ships with a little HTTP server integrated.
-It is used both to stream using HTTP, and for the HTTP remote control
-interface.
+
+VLC est fourni avec un petit serveur HTTP intégré.
+Il est utilisé pour diffuser le flux en utilisant HTTP, et pour 
+l'interface de commande à distance HTTP.
+
 </para>
 
 <para>
-To start VLC with the HTTP interface, use:
+
+Pour démarrer VLC avec l'interface HTTP, utilisez :
+
 </para>
 
 <screen>
+
 <prompt>% </prompt><userinput>vlc -I http [--http-src /directory/ --http-host host:port]</userinput>
+
 </screen>
 
 <para>Si vous voulez obtenir en même temps une interface normale et une interface HTTP, 
 utilisez <userinput>vlc --extraintf http</userinput>.</para>
 
 <para>
-The HTTP interface will start listening at host:port
-(&lt;all interfaces&gt;:8080 if omitted), and will reproduce the structure of
-/directory at http://host:port/ ( vlc_source_path/share/http if omitted
+
+L'interface HTTP commencera à écouter sur host:port
+(&lt;all interfaces&gt;:8080 en cas d'oubli), et reproduira la structure du 
+/répertoire dans http://host:port/ ( vlc_source_path/share/http en cas d'oubli
 ).
+
 </para>
 
 
 <para>Utilisez un navigateur web pour aller à  http://votre_serveur_machine:port. Vous devriez être conduit à la page principale.</para>
 
 <para>
-VLC is shipped with a set of files that should be
-enough for generic needs. It is also possible to customize pages. See <xref linkend="http" />.
+
+VLC est fourni avec un ensemble de dossiers qui devraient être suffisant 
+pour les besoins génériques.  Il est également possible d'adapter des pages 
+aux besoins du client.  Voir  <xref linkend="http " />.
+
 </para>
 
 
-<para>Available pages are : </para>
+<para>Les pages disponibles sont :  </para>
 
 <itemizedlist>
 
@@ -766,25 +869,29 @@ ligne de commande.</para>
 
 <sect2><title>Raccourcis Clavier</title>
 
-<para>This module allows you to control VLC and playback via hotkeys. It
-is always enabled by default. You can use hotkeys in the video output window.
+<para>Ce module vous permet de contrôler VLC et de l'exécuter via un raccourcis. Il est 
+toujours activé par défaut. Vous pouvez utiliser des raccourcis dans la fenêtre 
+de sortie vidéo.
 </para>
-<para>Hotkeys can be hacked by : </para>
+<para>Les raccourcis peuvent être 'hackés' par :  </para>
 <screen>
+
 <prompt>% </prompt><userinput>vlc --key-&lt;function&gt; '&lt;code&gt;'</userinput></screen>
 
-<para> Code is composed by modifiers keys (Alt, Shift, Ctrl, Meta,
-Command) separated by a dash (-) and terminated by a key (a...z,
+<para> Le code est composé par les touches de modification ((Alt, Shift, Ctrl, Meta,
+Command) séparées par un tiret (-) et terminées par une touche (a...z,
 +, =, -, ',', +, &lt;, &gt;, `, /, ;, ', \, [, ], *, Left, Right,
 Up, Down, Space, Enter, F1...F12, Home, End, Menu, Esc, Page Up,
 Page Down, Tab, Backspace, Mouse Wheel Up and Mouse Wheel Down).
-Main controls are available from hotkeys, such as : fullscreen,
-play-pause, faster, slower, next, prev, stop, quit, vol-up, etc. (use
-the <emphasis>--longhelp</emphasis> option for full list of functions).
-For example, for binding fullscreen to Ctrl-f, run :</para>
+Les commandes principales sont disponibles des raccourcis, comme : le plein 
+écran, lecture-pause, jouer rapidement, jouer lentement, élément suivant, 
+élément précédent, arrêter, quitter, augmenter le volume, etc. (utiliser nl'option <emphasis>--longhelp</emphasis> pour la liste complète des fonctions).
+Par exemple, pour lier le plein écran à Ctrl-f, exécuter :</para>
 
 <screen>
+
 <prompt>% </prompt><userinput>vlc --key-fullscreen 'Ctrl-f'</userinput>
+
 </screen>
 
 </sect2>
@@ -805,9 +912,9 @@ your_host:port</emphasis>. Puis, en se connectant (en utilisant telnet
 ou netcat) au centre serveur sur le port donné, vous obtiendrez l'invite
 de commande.</para>
 
-<para>To use a UNIX socket (local socket, this does not work for
-Windows), use <emphasis>--rc-unix /path/to/socket</emphasis>. Commands
-can then be passed using this UNIX socket.</para>
+<para>Pour utiliser une 'socket' UNIX (commande locale, cela ne marche pas pour 
+Windows) utilisez <emphasis>--rc-unix /path/to/socket</emphasis>. Les
+commandes peuvent être passées en utilisant cet 'socket' UNIX.</para>
 
 <para>L'interface RTCI vous donne plus d'options avancées, comme le controle d'un filtre subpicture d'insertion de texte (Voir la section filtres - Marquee).</para>
 
@@ -844,7 +951,9 @@ ncurse pour ajouter des éléments de playlist. Appuyer sur 'B' pour l'utiliser.
 lançant VLC avec <emphasis>--browse-dir</emphasis> option :</para>
 
 <screen>
+
 <prompt>% </prompt><userinput>vlc -I ncurses --browse-dir /filebrowser/starting/point/</userinput>
+
 </screen>
 
 </sect2>
@@ -864,9 +973,8 @@ provides control of VLC using a joystick. TODO </para> </sect2>
 <!-- ************************************************************* SECTION -->
 <sect1><title>Le plugin Mozilla</title>
 
-<para> VLC can also be embedded in a web browser ! At
-the moment, this function is only available with <ulink
-url="http://www.mozilla.org/">Mozilla</ulink> or <ulink url="http://www.mozilla.org/products/firefox/">Firefox</ulink>.
+<para> VLC peut aussi être embarqué dans un navigateur web! Pour l'instant, cette fonctionalité n'est disponible que sur <ilink url="http://www.mozilla.org/">Mozilla</ulink> ou <ulink url="http://www.mozilla.org/products/firefox/">Firefox</ulink>.
+
 </para>
 
 <sect2><title>Installez le plugin</title>
@@ -874,32 +982,42 @@ url="http://www.mozilla.org/">Mozilla</ulink> or <ulink url="http://www.mozilla.
 <sect3><title>GNU/Linux Debian</title>
 
 <para>
-You should already have the following lines in your
+
+Vous devriez déjà avoir ces quelques lignes dans votre fichier
+
 <filename>/etc/apt/sources.list</filename>
- file, if you run Debian Woody:
+ , si vous ètes sous Debian Woody:
+
 </para>
 
 <programlisting>
-     deb http://download.videolan.org/pub/videolan/debian woody main
+     
+     deb http://download.videolan.org/pub/videolan/debian woody mail
      deb-src http://download.videolan.org/pub/videolan/debian woody main
+
 </programlisting>
 
 <para>
- VLC's latest packaged version is always in the official Debian unstable branch. However you should still use our apt-get line if you need libdvdcss in its latest version:
+ 
+ La dernière version des packages de VLC est toujours disponible pour la version unstable de la Debian. Néanmoins, vous devez toujours utiliser apt-get si vous voulez libdvdcss dans sa dernière version:
+
 </para>
 
 <programlisting>
+     
      deb http://download.videolan.org/pub/videolan/debian sid main
      deb-src http://download.videolan.org/pub/videolan/debian sid main
 </programlisting>
 
 <para>
-Install the
-<emphasis>mozilla-plugin-vlc</emphasis> package:</para>
+
+Installer le package <emphasis>mozilla-plugin-vlc</emphasis> :</para>
 
 <screen>
+
 <prompt># </prompt><userinput>apt-get update</userinput>
 <prompt># </prompt><userinput>apt-get install mozilla-plugin-vlc</userinput>
+
 </screen>
 
 </sect3>
@@ -915,12 +1033,12 @@ Install the
 </sect3>
 
 <sect3><title>
-Compile the sources yourself
+
+Pour compiler vous-même les sources
+
 </title>
 
-<para>Please look at the <ulink
-url="http://developers.videolan.org">developers page</ulink> for
-information on how to do this. </para>
+<para>Allez voir la page des <ulink url="http://developpers.videolan.org">développeurs</ulink> pour plus d'informations sur la façon de faire ceci. </para>
 
 </sect3>
 </sect2>
@@ -932,7 +1050,9 @@ information on how to do this. </para>
 </sect2>
 
 <sect2><title>
-Build HTML pages that use the plugin
+
+Construire des pages HTML utilisant le plugin
+
 </title>
 
 <para>En plus d'inclure des vidéos sur vos pages, vous pouvez construire des pages qui utilisent les fonctionalités avancées du plugin, grâce à des fonctions Javascript pour contrôler la lecture ou récupérer des informations du plugin.</para>
@@ -947,12 +1067,12 @@ Build HTML pages that use the plugin
 <listitem><para><command>set_volume(vol)</command> : Définit le volume. <emphasis>vol</emphasis> doit étre un entier entre 0 et 200.</para></listitem>
 <listitem><para><command>get_volume()</command> : Renvoie le volume actuel.</para></listitem>
 <listitem><para><command>mute()</command> : Coupe le son</para></listitem>
-<listitem><para><command>set_int_variable(var_name, value)</command> : </para></listitem>
-<listitem><para><command>set_bool_variable(var_name, value)</command> : </para></listitem>
-<listitem><para><command>set_str_variable(var_name, value)</command> : </para></listitem>
-<listitem><para><command>get_int_variable(var_name)</command> : </para></listitem>
-<listitem><para><command>get_bool_variable(var_name)</command> : </para></listitem>
-<listitem><para><command>get_str_variable(var_name)</command> : </para></listitem>
+<listitem><para><command>set_int_variable(var_name, value)</command> :  </para></listitem>
+<listitem><para><command>set_bool_variable(var_name, value)</command> :  </para></listitem>
+<listitem><para><command>set_str_variable(var_name, value)</command> :  </para></listitem>
+<listitem><para><command>get_int_variable(var_name)</command> :  </para></listitem>
+<listitem><para><command>get_bool_variable(var_name)</command> :  </para></listitem>
+<listitem><para><command>get_str_variable(var_name)</command> :  </para></listitem>
 <listitem><para><command>clear_playlist()</command> : Vide la playlist.</para></listitem>
 <listitem><para><command>add_item(mrl>)</command> : Ajoute à la playlist un élément dont l'adresse est donnée par Media Resource Locator.</para></listitem>
 <listitem><para><command>next()</command></para></listitem>
@@ -960,77 +1080,51 @@ Build HTML pages that use the plugin
 <listitem><para><command>isplaying()</command> : renvoie vrai si si le plugin lit quelque chose.</para></listitem>
 <listitem><para><command>get_lenght()</command> : Renvoie la longueur du média en secondes</para></listitem>
 <listitem><para><command>get_position()</command> : Renvoie la position du curseur de lecture en secondes.</para></listitem>
-<listitem><para><command>get_time()</command> : Get the current position in the media in seconds. </para></listitem>
+<listitem><para><command>get_time()</command> : Renvoie la position du curseur de lecture en secondes.  </para></listitem>
 <listitem><para><command>seek(seconds,is_relative)</command> : Si is_relative est vrai, déplace le curseur de lecture par rapport à la position actuelle, sinon, à partir du début du média. La longueur du déplacement est spécifiée en secondes.</para></listitem>
 </itemizedlist>
 
 <para>
-Here are a few examples of HTML pages that use the
-Mozilla plugin.
+
+Ci-après quelques exemples de pages HTML utilisant le plugin Mozilla.
+
 </para>
 
 <simplesect><title>
-Example 1
+
+Exemple 1
+
 </title>
 
 <para>
-In this example, the plugin will read an HTTP stream
-inside the web page. If the user goes fullscreen, he will have to press
-<keycap>f</keycap> to go back in normal view.
+
+Dans cet exemple, le plugin va lire un flux HTTP à l'intérieur même de la page. Si l'utilisateur lit en plein écran, il doit taper
+
+<keycap>f</keycap>  pour revenir en vue normale.
+
 
 </para>
 
 <programlisting>
+
 &lt;html&gt;
-&lt;head&gt;&lt;title&gt;Demo of VLC mozilla plugin&lt;/title&gt;&lt;/head&gt;
 
-&lt;body&gt;
-
-&lt;h1&gt;Demo of VLC mozilla plugin - Example 1&lt;/h1&gt;
-
-&lt;embed type="application/x-vlc-plugin"
-         name="video1"
-         autoplay="no" loop="yes" width="400" height="300"
-         target="http://server.example.org/video1.vob" /&gt;
-&lt;br /&gt;
-  &lt;a href="javascript:;" onclick='document.video1.play()'&gt;Play video1&lt;/a&gt;
-  &lt;a href="javascript:;" onclick='document.video1.pause()'&gt;Pause video1&lt;/a&gt;
-  &lt;a href="javascript:;" onclick='document.video1.stop()'&gt;Stop video1&lt;/a&gt;
-  &lt;a href="javascript:;" onclick='document.video1.fullscreen()'&gt;Fullscreen&lt;/a&gt;
-
-&lt;/body&gt;
-&lt;/html&gt;
 </programlisting>
 
 </simplesect>
 
 <simplesect><title>
-Example 
+Exemples : 
 </title>
 
-<para> In this example, the plugin will read a
-multicast UDP stream in a dedicated video output window.
+<para>  Dans cet exemple, le plugin va lire un flux UDP multicast dans une fenêtre dédiée.
+
 </para>
 
 <programlisting>
+
 &lt;html&gt;
-&lt;head&gt;&lt;title&gt;Demo of VLC mozilla plugin&lt;/title&gt;&lt;/head&gt;
 
-&lt;body&gt;
-
-&lt;h1&gt;Demo of VLC mozilla plugin - Example 2&lt;/h1&gt;
-
-&lt;embed type="application/x-vlc-plugin"
-         name="video2"
-         autoplay="no" loop="no" hidden="yes"
-         target="udp:@239.255.12.42" /&gt;
-&lt;br /&gt;
-  &lt;a href="javascript:;" onclick='document.video2.play()'&gt;Play video2&lt;/a&gt;
-  &lt;a href="javascript:;" onclick='document.video2.stop()'&gt;Stop video2&lt;/a&gt;
-  &lt;a href="javascript:;" onclick='document.video2.fullscreen()'&gt;Fullscreen&lt;/a&gt;
-
-&lt;/body&gt;
-&lt;/html&gt;
 </programlisting>
 
 </simplesect>

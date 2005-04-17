@@ -75,7 +75,9 @@ Le texte de la licence peut etre trouvé dans l'appendice.
 <abstract>
 
 <para>
-This document is the complete user guide for the client aspects of VLC.
+
+Ce document est un guide de l'utilisateur complet concernant les aspectsclients de VLC.
+
 </para>
 
 </abstract>
@@ -86,11 +88,15 @@ This document is the complete user guide for the client aspects of VLC.
 
 <toc></toc>
 
+
+
 &intro;
 &install;
 &basic-use;
 &advanced-use;
 &gpl;
 &http;
+
+
 
 </book>

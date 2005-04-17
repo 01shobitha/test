@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="basic"><title id="tbasic">
-Basic use of VLC
+
+Utilisation simple de VLC
+
 </title>
 
-<sect1 id="desc"><title id="tdesc">General interface description</title>
+<sect1 id="desc"><title id="tdesc">Description générale de l'interface</title>
 
 <para>VLC a plusieurs interfaces : une interface multi-plateforme, pour
 Windows et GNU/Linux, appellée wxWindows, une interface pour MacOS X et
@@ -40,10 +42,11 @@ sous Windows.</para>
 <sect1><title>Lecture simple</title>
 
 <sect2><title>Lire un fichier</title>
-<para>To open a file, open the <emphasis>File</emphasis> menu, and select 
-the <emphasis>Quick Open File</emphasis> menu item. An Open File dialog 
-box will appear. Select the file you want to open, 
-and select Open. VLC will start playing the selected file. 
+<para>Pour ouvrir un fichier, ouvrez le menu <emphasis>Fichier</emphasis>, et sélectionnez 
+le l'élément <emphasis>Ouvrir un fichier</emphasis>. Une boîte de dialogue 
+devrait apparaître. Sélectionnez le fichier que vous voulez lire puis
+cliquez sur Ouvrir. VLC commencera la lecture du fichier indiqué. 
+ 
 </para>
 
 <para>Une alternative est de glisser-déplacer votre fichier sur l'interface principale
@@ -85,12 +88,15 @@ de VLC ou sur la liste de lecture depuis l'explorateur de fichier
 </sect2>
 <sect2><title>Lire un CD/DVD/VCD</title>
 <para>
-To Play a CD, VCD or a DVD, open the <emphasis>File</emphasis> menu, and 
-select the <emphasis>Open Disc...</emphasis> menu item. In the Open Disk 
-Dialog Box, select the type of media (DVD, VCD or Audio CD). When reading a DVD,
- you can enable DVD menus by selecting the <emphasis>DVD (menus)</emphasis> 
-Disc type in the wxWindows Interface. In the MacOS X interface, 
-this can be done by selecting the "Use DVD menus" dialog box.
+
+Pour lire un CD, VCD ou un DVD, ouvrez le menu <emphasis>Fichier</emphasis>
+et sélectionnez l'option <emphasis>Ouvrir un disque</emphasis>. Dans la
+boîte de dialogue <emphasis>Ouvrir un disque</emphasis>, choisissez le type de
+média (DVD, VCD ou CD Audio). Lors de la lecture d'un DVD, vous pouvez activer
+le menu DVD en sélectionnant <emphasis>DVD (menus)</emphasis>
+comme type de disque dans l'interface wxWindows. Pour l'interface MacOS X,
+cela peut être fait en choisissant la boîte de dialogue "Use DVD menus".
+
 </para>
 <para>Vous pouvez choisir le lecteur depuis lequel le média doit être lu en spécifiant
 la lettre correspondant ou le nom du périphérique dans &ldquo;Nom du
@@ -121,39 +127,43 @@ des sélecteurs de <emphasis>Titre</emphasis> and <emphasis>Chapitre</emphasis>.
 </sect2>
 <sect2><title>Lire un flux du réseau (WebRadio, WebTV, ...)</title>
 <para>
-To open a network stream, open the "File" menu and select the "Open Network 
-Stream" menu item.</para>
+ 
+Pour lire un flux réseau, ouvrez le menu &ldquo;Fichier&rdquo; et sélectionnez
+l'élément &ldquo;Ouvrir un flux réseau&rdquo;.</para>
 
 <itemizedlist>
-<listitem><para>To open a UDP unicast stream, select <emphasis>UDP/RTP
-</emphasis>, and set the appropriate UDP port in the selector 
-(it is 1234 for streams sent by a VLC or VLS server).
+<listitem><para>Pour ouvrir un flux UDP unicast, sélectionnez <emphasis>UDP/RTP</emphasis>,
+et indiquez le port UDP approprié dans la zone de saisie
+(il s'agit du port 1234 pour des flux envoyés par un serveur VLC ou VLS).
 </para></listitem>
 <listitem><para>
-To open a UDP multicast stream, select <emphasis>UDP/RTP
-multicast</emphasis>. Give the address of the multicast group
-in the "Address" text input, and select the appropriate UDP
-port.</para></listitem>
+
+Pour ouvrir un flux UDP multicast, sélectionnez <emphasis>UDP/RTP
+multidiff</emphasis>. Indiquez l'adresse du groupe multicast dans la zone de
+texte &ldquo;Address&rdquo;, et spécifiez le port UDP adéquat.</para></listitem>
 <listitem><para>
-To open a stream sent over http (Webradios, WebTVs, Shoutcast, Icecast...), 
-ftp, or mms (Microsoft Media Server), select "HTTP/FTP/MMS", and 
-give the corresponding complete URL, (such as 
-http://live.stream.org:8080/live or mms://live.ms.stream.net:8080/live.asf) 
-in the corresponding text input. This also the way to open a RTSP stream 
-with the MacOS X interface.
+Pour ouvrir un flux envoyé sur HTTP (Webradios, WebTVs, Shoutcast, Icecast...), 
+FTP, ou MMS (serveur de médias de Microsoft), choisissez "HTTP/FTP/MMS"
+et indiquez l'URL correspondante dans la zone de saisie correspondante,
+(par exemple http://live.stream.org:8080/live ou
+ mms://live.ms.stream.net:8080/live.asf). Ceci est également la méthode
+pour ouvrir un flux RTSP avec l'interface de MacOS X.
 </para></listitem>
 <listitem><para>
-To open a RTSP stream (sent by Darwin Streaming Server, VLC, etc), 
-in the wxWindows interface, select "RTSP" and give the URL in the text input.
+Pour ouvrir un flux RTSP (envoyé par un seveur de flux Darwin, VLC, etc) 
+avec l'interface wxWindows, choisissez "RTSP" et indiquez l'URL dans la zone de texte.
+
 </para></listitem></itemizedlist>
 
-<para>You can start playback by selecting the <emphasis>Ok</emphasis> button.
+<para>Vous pouvez commencer la lecture en choisissant le bouton
+<emphasis>Ok</emphasis>
 </para>
-<para>If you get some stuttering during playback, you can try to increase the 
-size of the read buffer. This can be done in the <emphasis>Open Network Stream
-</emphasis> dialog box, by selecting the <emphasis>Caching</emphasis> box. 
-You can then choose the amount time (in milliseconds) VLC should store data 
-in its buffer before starting playback.
+<para>Si vous obtenez quelques bégaiements pendant la lecture, vous pouvez essayer 
+d'augmenter la taille du tampon d'entrée.  Cela peut être fait depuis la boîte de 
+dialogue <emphasis>Open Network Stream</emphasis>, en choisissant 
+<emphasis>Cache</emphasis>.  Vous pouvez alors choisir la durée (en millisecondes)
+à mettre en tampon avant de débuter la lecture.
+
 </para>
 
 <mediaobject>
@@ -178,18 +188,21 @@ in its buffer before starting playback.
 menu Fichier et choisissez  "Ouvrir un périphérique de capture..."</para>
 
 <para>
-On Windows, supported cards include webcams, TV cards, acquisition 
-cards... provided they come with directshow compatible drivers (Almost 
-all acquisition cards do). You can choose the device to use for video and 
-audio capture using the "Video device name" and "Audio device name" selectors. 
-If your device doesn't appear in the list, try to select the "Refresh list" 
-button. You can access the settings of your acquisition device by selecting 
-the <emphasis>configure</emphasis> button. Options here depend on the driver 
-of the device. You can select the "Device Proprieties" box if you want the 
-configuration dialog box of every device to be displayed after having pressed 
-the <emphasis>Ok</emphasis> button. Select the <emphasis>Tuner properties</emphasis> box to be prompted for tuner settings (PAL/NTSC standard, frequency...) 
-for TV cards. The <emphasis>Advanced options...</emphasis> button allows to select some further settings useful in some rare cases, such as the chroma 
-of the input (the way colors are encoded) and the size of the input buffer.
+
+Sous Windows, les webcams, les cartes TV, les cartes d'acquisition, etc sont supportées,
+pourvu qu'elles soient fournies avec des pilotes compatibles DirectShow 
+(ce qui est pratiquement toujours le cas). Vous pouvez choisir le périphérique à 
+utiliser pour l'acquisition vidéo et audio via les listes déroulantes "Nom du périphérique vidéo" et 
+"Nom du périphérique audio". Si le périphérique n'apparaît pas dans la liste, esssayez 
+en cliquant sur le bouton "Rafraîchir la liste".  Vous pouvez accéder aux réglages 
+de votre périphérique d'acquisition cliquant sur le bouton <emphasis>configure</emphasis>.
+Ces options dépendent du pilote du périphérique. Vous pouvez utiliser la boîte "Propriétés du périphérique" si vous voulez accéder à la boîte de dialogue de 
+configuration de chaque périphérique.  Utilisez la boîte <emphasis>Propriétés du Tuner</emphasis> 
+pour les réglages du tuner (norme PAL/NTSC, fréquence ...) pour les cartes TV. 
+Le bouton <emphasis>Options avancées... </emphasis> permet de choisir d'autres 
+réglages utiles dans quelques cas rares, tels que le "chroma" de l'entrée 
+(la façon dont les couleurs sont codées) et de la taille du buffer d'entrée. 
+
 </para>
 
 <mediaobject>
@@ -207,11 +220,12 @@ d'acquisition fournies, sont compatibles si elles sont supportées par l'archite
 
 <itemizedlist>
 <listitem><para>
-For Video4Linux devices, you can set the name of the video and audio 
-devices using the "Video device name" and "Audio device name" text inputs. 
-The "Advanced options..." button allows to select some further settings useful
-in some rare cases, such as the chroma of the input (the way colors are
-encoded) and the size of the input buffer.</para></listitem>
+Pour les outils Video4Linux, vous pouvez mettre le nom du périphérique vidéo ou audio 
+en utilisant les boites de saisie  "Nom du périphérique vidéo" et "Nom du périphérique audio". 
+Le bouton "Options avancées..." permet de choisir quelques réglages utiles dans 
+quelques cas rares, comme l'entrée du "chroma"(la manière dont est codée les couleurs) 
+et la taille du buffer d'entrée.
+</para></listitem>
 </itemizedlist>
 
 <mediaobject>
@@ -224,14 +238,15 @@ encoded) and the size of the input buffer.</para></listitem>
 
 <itemizedlist>
 <listitem><para>
-To use a Hauppauge PVR card, select the PVR tab in the "Open" dialog box. 
-Use the "Device" text input to set the device of the card you want to use. 
-You can set the Norm of the tuner (PAL, SECAM or NTSC) by using the "Norm" 
-Drop Down. The Frequency selector allows you to set the frequency of the tuner 
-(in kHz), the bitrate selector to set the bitrate of the resulting encoded 
-stream (in bit/s). The "Advanced Options button allows to set some more 
-settings, such as the size of the encoded video (in pixels), its framerate 
-(in frame per second), the interval between 2 key frames, etc.</para></listitem>
+
+Pour utiliser une carte Hauppauge PVR, choisissez l'étiquette PVR dans la zone de 
+dialogue "Open  la ". Utilisez l'outil d'entrée de texte pour mettre en place le 
+dispositif de la carte que vous voulez utiliser. Vous pouvez placer la norme du tuner 
+(pal, SECAM ou NTSC) en utilisant "Norm " vers le bas. Le sélecteur de fréquence vous 
+permet de placer la fréquence du tuner (en kHz), le sélecteur de débit pour placer le 
+débit du flux codé résultant (en bit/s). Le bouton d'options avancées  place encore 
+plus de réglages, tels que la taille de la vidéo codée (en pixel), de sa structure 
+(en encadrement par seconde), de l'intervalle entre 2 fenêtres principales, etc...</para></listitem>
 </itemizedlist>
 
 <para>Après avoir réglé tous les paramètres requis, vous pouvez commencer l'acquisition en cliquant le bouton "Ok".</para>
@@ -240,8 +255,8 @@ settings, such as the size of the encoded video (in pixels), its framerate
   <imageobject>
     <imagedata fileref="images/play-howto/intf-wx-open-pvr.jpg" format="JPG" />
   </imageobject>
-  <textobject><para>The Open PVR dialog- wxWindows interface</para></textobject>
-  <caption><para>The Open PVR dialog - wxWindows interface</para></caption>
+  <textobject><para>La boite de dialogue PVR - interface wxWindows</para></textobject>
+  <caption><para>Le boite de dialogue PVRi - interface wxWindows</para></caption>
 </mediaobject>
 
 
@@ -313,9 +328,9 @@ la colonne correspondant au critère que vous voulez utiliser pour trier. </para
 de mode de playlist. Cela permet d'activer le mode aléatoire, de répéter 
 la playlist entière ou de répéter un élément.</para>
 
-<para>In the MacOS X interface, random mode can be enabled by selecting
-the <emphasis>Random</emphasis> box. A drop down menu allows you to
-enable playlist and item repeat modes.</para>
+<para>Dans l'interface MacOS X, le mode aléatoire peut être activé en 
+choisissant la boite <emphasis>Random</emphasis>.  Un menu de saut 
+vous permet d'activer la laylist et les modes de répétition.</para>
 
 </sect2>
 
@@ -336,8 +351,8 @@ Continuez à cliquer Chercher pour faire le tour de tous éléments.</para>
 permettent de déplacer un élément. Selectionez un élément et utilisez 
 ces boutons pour le déplacer.</para>
 
-<para>In the MacOS X interface, you can move an item with the mouse,
-easily using a <emphasis>Drag'n'Drop</emphasis>.</para>
+<para>Dans l'interface MacOS, vous pouvez déplacer un élément facilement 
+à l'aide de la souris en utilisant <emphasis>Drag'n'Drop</emphasis>.</para>
 
 </sect3>
 
@@ -470,11 +485,12 @@ prennent effet.</para>
 
 <sect2><title>Les fichiers de sous-titres</title>
 
-<para>While modern file formats like Matroska or OGM can handle
-subtitles directly, older formats like AVI can't. Therefore, a number
-of subtitles files formats have been created. You need two files: the
-video file and the subtitles files that only contains the text of the
-subtitles and timestamps.</para>
+<para>Tandis que les nouveaux formats de fichiers comme matroska ou OGM 
+peuvent s'occuper directement des sous-titres, les anciens formats 
+comme AVI ne le peuvent pas. Donc, un nombre de formats de fichiers 
+de sous-titres sont créé. Vous avez besoin de deux fichiers : le fichier 
+vidéo et et le fichier de sous-titre qui ne contient que le texte 
+des sous-titres.</para>
 
 <para>VLC peut lire ces types de fichiers de sous-titres :</para>
 

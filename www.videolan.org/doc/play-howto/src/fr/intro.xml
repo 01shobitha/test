@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="intro"><title id="tintro">
-Introduction to VLC</title>
+
+Introduction à VLC</title>
 
 <sect1><title>
-Overview of the VideoLAN project
+
+Le projet VideoLAN
+
 </title>
 
 <para>VideoLAN est une solution complète pour la lecture et la diffusion de vidéo par réseau, développée par des étudiants de l'<ulink url="http://www.ecp.fr">Ecole Centrale Paris</ulink> et des développeurs du monde entier, sous licence <ulink url="http://www.gnu.org/copyleft/gpl.html">GNU General Public License</ulink> (GPL). VideoLAN est concu pour diffuser des vidéos MPEG sur des réseaux haut débit.</para>
@@ -40,42 +43,46 @@ Overview of the VideoLAN project
 <sect1><title>Obtenir de l'aide</title>
 
 <sect2><title>
+
 Documentation
+
 </title>
 
 <para>
-The user documentation of VideoLAN is made up of 4 documents:
+
+La documentation de VideoLAN est composée de 4 documents:
+
 </para>
 
 <itemizedlist>
 
-<listitem><para> the <emphasis>Play-Howto</emphasis>. This document is
-the complete guide of VLC as a client.</para></listitem>
+<listitem><para>  Le <emphasis>Play-Howto</emphasis>. Ce document est le guide exhaustif de l'utilisation de VLC en temps que client.</para></listitem>
 <listitem><para>
-the <emphasis>Streaming Howto</emphasis>. 
-This document is the complete guide of VLC as a streaming server. 
-It will give you practical examples to set up your
-streaming solution.
+
+le <emphasis>Streaming Howto</emphasis>. Ce document est le guide exhaustif de VLC en tant que serveur de diffusion. Il vous donnera des exemples concrets pour établir votre solution de diffusion.
+
 </para></listitem>
 <listitem><para>
-the <emphasis>VLS user guide</emphasis>. This document
-is the complete guide for VLS (VideoLAN's legacy streaming server)
+
+le <emphasis>VLS user guide</emphasis>. Ce document est le guide exhaustif de VLS (Le serveur de diffusion dédié à VideoLAN)
+
 </para></listitem>
 <listitem><para>
-The <emphasis>VideoLAN FAQ</emphasis>.
-This document contains Frequently Asked Questions about
-VideoLAN.
+
+La <emphasis>FAQ de VideoLAN</emphasis>. Ce document contient les questions fréquement posées concernant VideoLAN.
+
 </para></listitem>
 
 </itemizedlist>
 
-<para> The latest version of these documents can be found on the <ulink
-url="http://www.videolan.org/doc/">documentation page</ulink>.</para>
+<para>  La dernière version de ces documents peut être obtenue sur la <ulink url="http://www.videolan.org/doc/">page des documentations</ulink>.</para>
 
 </sect2>
 
 <sect2><title>
-User support
+
+Le support aux utilisateurs
+
 </title>
 
 <para>Il y a diverses méthodes pour obtenir de l'aide de la part de l'équipe VideoLAN. Pour plus de détails regardez la <ulink url="http://www.videolan.org/support/">page du support</ulink>.</para>

@@ -8,7 +8,8 @@
 <sect1><title>Introduction</title>
 
 <para>
-This appendix describes the language used for writing dynamic web pages for the HTTP interface.</para>
+
+Cette annexe décrit le language utilisé pour écrire des pages web dynamiques pour l'interface HTTP.</para>
 
 <para>Les pages doivent être placées dans le répertoire share/http soit dans le répertoire de VLC (Windows, Mac), soit dans /usr/share/vlc/share/http, soit dans /usr/local/share/http (soit encore dans n'importe quel endroit contenant des fichiers partagés de vlc).</para>
 
@@ -19,137 +20,161 @@ This appendix describes the language used for writing dynamic web pages for the 
 <itemizedlist>
 
 <listitem><para>
-Files beginning with '.' are not exported.
+
+Les fichiers commencant par '.' ne sont pas exportés.
+
 </para></listitem>
 <listitem><para>
-A '.access' file will be opened and the http
-interface will expect to find at the first line a login/password
-(written as login:password). This login/password will be used to
-protect all files in this directory. Be careful that only files in this
-directory will be protected. (sub-directories won't be protected.)
+
+Un fichier '.access' sera ouvert et l'interface http s'attendra à trouver à la première ligne un login et un mot de passe (sous la forme login:mot de passe). Ce login et mot de passe seront utilisés pour restreindre l'accès aux fichiers dans le répertoire. Attention : seuls les fichiers situés dans le répertoire seront protégés (les sous-répertoires ne sont pas protégés).
+
 </para></listitem>
 <listitem><para>
-The file &lt;dir&gt;/index.html will be exported as
-&lt;dir&gt; and &lt;dir&gt;/ and not as index.html.
+
+Le fichier &lt;dir&gt;/index.html sera exporté comme &lt;dir&gt; et &lt;dir&gt;/ mais pas comme index.html.
+
 </para></listitem>
 
 </itemizedlist>
 
 <para>
-The MIME type is set by looking at the file
-extension and cannot be specified nor modified for a specific file.
-Unknown extensions will have "application/octet-stream" as MIME
-type.
+
+Le type MIME est défini par l'extension du fichier et ne peut pas être spécifié ou modifié pour un fichier donné. Les extensions inconnues auront un type MIME "application/octet-stream".
+
 </para>
 
 <para>
-You should avoid exporting big files. Each file is
-indeed first loaded into the memory before being sent to the client, so
-please be careful.
+
+Vous devriez éviter d'exporter de gros fichiers. En effet chaque fichier est d'abord chargé en mémoire avant d'être envoyé au client. Soyez donc  prudents.
+
 </para>
 
 </sect1>
 
 <sect1><title>
-VLC macros
+
+Les macros VLC
+
 </title>
-<para> Each type a .html/.htm page is requested,
-it is parsed by VLC before being sent. The parser searches for the VLC
-macros, and executes or substitutes them. Moreover, URL arguments
-received by the GET method can be interpreted
+<para>  Chaque fois qu'une page .html/.htm est demandée, elle est analysée par VLC avant d'être envoyée. L'analyseur cherche des macros VLC et les exécute ou les substitue. Les arguments URL reçus par la méthode GET peuvent également être interprétés
 
 
 
 
  .</para>
 <para>
-A VLC macro looks like:
-<emphasis>&lt;vlc id="macro-name" param1="macro-parameters1"
-param2="macro-parameters2" /&gt;</emphasis>.
+
+Une macro VLC ressemble à :
+<emphasis>&lt;vlc id="macro-name" param1="macro-parameters1" param2="macro-parameters2" /&gt;</emphasis>.
+
 </para>
 <para>
- "id" is the only mandatory field, param1 and param2
-may or may not be present and depend on the value of "id".
+ 
+ "id" est le seul champ nécessaire, param1 et param2 sont facultatifs, et dépendent de la valeur de "id".
+
 </para>
 
 <para>
- You should take care that you _have to_ respect
-this syntax, VLC won't like invalid syntax. (It could easily leads to
-crashes).
+ 
+ Vous devez faire attention à cette syntaxe, VLC n'apprécie pas pas les synataxes invalides (elles peuvent souvent être à la base de plantages).
+
 </para>
 
 <para>
-Examples
+
+Exemples
 
 
 :</para>
 <para>
-Correct: <emphasis>&lt;vlc id="value"
-param1="version" /&gt; </emphasis>
+
+Correct : <emphasis>&lt; vlc id="value" param1="version" /gt; </emphasis>
+
 
 </para>
 
 <para>
-Incorrect: <emphasis>&lt;vlc id="value"
-param1="version" &gt; </emphasis> (missing tag ending),
-<emphasis>&lt;vlc id=value param1="version" /&gt;</emphasis> (missing "" )
+Incorrect : <emphasis>&lt;vlc id="value" param1="version" &gt; </emphasis> (il manque le dernier paramètre), <emphasis>&lt;vlc id=value param1="version" /&gt;</emphasis> (il manque ici "" )
+
+
 
 </para>
 
 <para>
-Valid macros are:
+
+Les macros valides sont :
+
 </para>
 
 <itemizedlist>
 
 <listitem><para>
-<emphasis>control</emphasis> (1 optional parameter)
+
+<emphasis>control</emphasis> (1 paramètre optionnel)
+
 </para>
 </listitem>
 
 <listitem><para>
-<emphasis>get</emphasis> (2 parameters)
+
+<emphasis>get</emphasis> (2 paramètres)
+
 </para>
 </listitem>
 
 <listitem><para>
-<emphasis>set</emphasis> (2 parameters)
+
+<emphasis>set</emphasis> (2 paramètres>
+
 </para>
 </listitem>
 
 <listitem><para>
-<emphasis>rpn</emphasis> (1 parameter)
+
+<emphasis>rpn</emphasis> (1 paramètre)
+
 </para>
 </listitem>
 
 <listitem><para>
-<emphasis>if</emphasis> (1 optional parameter)
+
+<emphasis>if</emphasis> (1 paramètre optionnel)
+
 </para>
 </listitem>
 
 <listitem><para>
-<emphasis>else</emphasis> (no parameter)
+
+<emphasis>else</emphasis> (sans paramètre)
+
 </para>
 </listitem>
 
 <listitem><para>
-<emphasis>end</emphasis> (no parameter)
+
+<emphasis>end</emphasis> (sans paramètre)
+
 </para>
 </listitem>
 <listitem><para>
-<emphasis>value</emphasis> (1 optional parameter)
+
+<emphasis>value</emphasis> (1 paramètre optionnel)
+
 </para>
 </listitem>
 
 <listitem><para>
-<emphasis>foreach</emphasis> (2 parameters)
+
+<emphasis>foreach</emphasis> (2 paramètres)
+
 </para>
 </listitem>
 
 </itemizedlist>
 
 <para>
-For powerful macros, you may use these tools
+
+Pour des macros puissantes, vous pouvez utiliser ces outils
 
 
 :</para>
@@ -157,39 +182,50 @@ For powerful macros, you may use these tools
 <itemizedlist>
 
 <listitem><para>
-RPN Evaluator (see part 2)
+
+L'évaluateur RPN (voir partie II)
+
 </para></listitem>
 
 <listitem><para>
-Stacks: The stack is a place where you can push
-numbers and strings, and then pop them backs. It's used with the little
-RPN evaluator.
+
+Les piles : Une pile est un endroit où il est possible d'empiler des nombres et des chaînes des caractères, puis de les récupérer. Elles sont souvent utilisées avec l'évaluateur RPN.
+
 </para></listitem>
 <listitem><para>
-Local variables: You can dynamically create
-new variables and changes their values. Some local variables are
-predefined:
+
+Les variables locales : Il est possible de créer dynamiquement de nouvelles variables et de changer leurs valeurs. Quelques variables locales sont prédéfinies :
+
+
 
 <itemizedlist>
 
 <listitem><para>
+
 <emphasis>url_value</emphasis>
-: parameter of the URL
+: paramètre de l'URL
+
 </para></listitem>
 
 <listitem><para>
+
 <emphasis>url_param</emphasis>
-: 1 if url_value isn't empty else 0
+: 1 si url_value n'est pas vide, 0 sinon
+
 </para></listitem>
 
 <listitem><para>
+
 <emphasis>version</emphasis>
-: the VLC version
+: version de VLC
+
 </para></listitem>
 
 <listitem><para>
+
 <emphasis>copyright</emphasis>
-: the VLC copyright
+: le copyright de VLC
+
 </para></listitem>
 
 </itemizedlist>
@@ -199,18 +235,23 @@ predefined:
 </itemizedlist>
 
 <para>
-Remark: The stacks, and local variables context is
-reseted before the page is executed.
+
+Remarque: Les piles et les variables locales sont réinitialisées avant l'exécution de la page.
+
 </para>
 
 </sect1>
 
 <sect1><title>
-The RPN evaluator
+
+L'évaluateur RPN
+
 </title>
 
 <para>
-RPN means Reverse Polish Notation
+
+RPN sont les initiales de Reverse Polish Notation (Notation Polonaise Inversée)
+
 </para>
 
 <sect2><title>
@@ -218,47 +259,53 @@ Introduction
 </title>
 
 <para>
- RPN could look strange but it's a fast and easy way
-to write expressions. It also avoids the use of ( and ).
+ 
+La notation RPN peut paraître étrange, mais c'est un moyen simple et rapide d'écrire des expressions. Cela évite également l'usage des parenthèses ( et ).
+
 </para>
 
 <para>
-Instead of writing ( 1 + 2 ) * 5 you just use 1 2 +
-5 *.
+
+Au lieu d'écrire ( 1 + 2 ) * 5 , il suffit d'écrire 1 2 + 5 * .
+
 </para>
 
 <para>
-The idea beyond it is: if we have a number or a
-string (using ''), push it on the stack. If it is an operator (like +),
-pop the arguments from the stack, execute the operators and then push
-the result onto the stack. The result of the RPN sequence is the value
-on the top of the stack.
+
+L'idée sous-jacente est: S'il s'agit d'un nombre ou une chaîne de caractères (utilisant ''), il est placé sur la pile. Si c'est un opérateur (+ par exemple), les arguments sont récupérés sur la pile, l'opération est exécutée, et le résultat est placé sur la pile. Le résultat final de la séquence RPN est la valeur au sommet de la pile.
+
 </para>
 
 <para>
 <programlisting>
- stack:      Word processed
- empty      1                   1 is pushed on the stack
- 1          2                   2 same things
- 1 | 2      +                   +: remove 1 and 2 and write 3 on the stack
- 3          5                   5 is pushed on the stack
- 3 | 5      *                   *: remove 3 and 5 and write 15
- 15                             &lt;- result
+ 
+ pile:       Expression analysée
+ vide       1                     1 est placé sur la pile
+ 1          2                     2 est placé sur la pile
+ 1 | 2      +                     +: remplace 1 et 2 par 3 au sommet de la pile
+ 3          5                     5 est placé au sommet de la pile
+ 3 | 5      *                     *: remplace 3 et 5 par 15 au sommet de la pile
+15                                &lt;- résutat
+
 </programlisting>
 </para>
 
 </sect2>
 
 <sect2><title>
-Operators
+
+Opérateurs
+
 </title>
 
-<para> Notation: ST(1) means the first stack
-element, ST(2) the second one ... and op the operator. 
+<para> Notation: ST(1) désigne l'élément situé au sommet de la pile, ST(2) le deuxième,... op est un opérateur.
+ 
 </para>
 
 <para>
-You have access to
+
+Sont utilisables
+
 
 
 :</para>
@@ -266,40 +313,43 @@ You have access to
 <itemizedlist>
 
 <listitem><para>
-Standard arithmetics operators: +, -, *, /, %:
-these ones push the result of ST(1) op ST(2) to the stack
+
+Les opérateurs mathématiques standards: +, -, *, /, %:
+ils placent le résultat de ST(1) op ST(2) au sommet de la pile
+
 </para></listitem>
 
 <listitem><para>
-Binary operators: ! (push !ST(1)); ^, &amp;, |: push
-the result ST(1) op ST(2)
+
+Les opérateurs binaires: ! (renvoie !ST(1)); ^, &amp;, |: renvoient le résultat de ST(1) op ST(2)
+
 </para></listitem>
 
 <listitem><para>
-test: =, &lt;, &lt;=, &gt;, &gt;=: execute ST(1) op
-ST(2) and push -1 if true else 0
+
+Les tests: =, &lt;, &lt;=, &gt;=: exécute ST(1) op ST(2) et renvoie -1 si vrai, 0 sinon
+
 </para>
 </listitem>
 
 <listitem><para>
-string: strcat pushes the result of 'ST(1)ST(2)',
-strcmp compares ST(1) and ST(2), pushes -1 if ST(1)&lt;ST(2), 0 if
-equal, 1 else, strlen pushes the length of ST(1).
+
+Les opérateurs de chaînes de caractères: strcat renvoie 'ST(1)ST(2)', strcmp compare ST(1) et ST(2), et renvoie -1 si ST(1)&lt;ST(2), 0 si les deux chaînes sont identiques, 1 sinon, strlen renvoie la taille de ST(1).
+
 </para>
 </listitem>
 
 <listitem><para>
-stack manipulation: dup duplicates ST(1), drop
-removes ST(1), swap exchanges ST(1) and ST(2), and flush empties the
-stack.
+
+Les opérations sur la pile: dup réplique ST(1), drop supprime ST(1), swap échange ST(1) et ST(2), et flush vide la pile.
+
 </para>
 </listitem>
 
 <listitem><para>
-variables manipulation: store stores ST(2) in a
-local variable named ST(1), value pushes the value of the local variable
-named ST(1), url_extract pushes the value of the ST(1) part of the url
-parameters.
+
+Opérations sur les variables: store affecte ST(2) dans une variable locale appelée ST(1), value place sur la pile la valeur de la variable locale nommée ST(1), url_extract place sur la pile la valeur de la partie des paramètres de l'url définis par ST(1).
+
 </para></listitem>
 
 </itemizedlist>
@@ -308,28 +358,32 @@ parameters.
 
 </sect1>
 <sect1><title>
-The macros
+
+Les macros
+
 </title>
 
 <sect2><title>
-The <emphasis>control</emphasis> macro
+
+La macro <emphasis>control</emphasis>
+
 </title>
 
 <para>
-When asking for a page, you can pass
-arguments to it through the url. (e.g. using a &lt;form&gt;). Ex:
-http://host:port/page.html?var=value&amp;var2=value2&amp;... The "control" macro
-tells a page to parse these arguments and to execute the ones that are
-allowed. param1 of this macro says which commands are allowed. If empty,
-all commands will be permitted.
+
+Lorsqu'une page est appelée, des arguments peuvent lui être passés à travers l'URL. (par ex: en utilisant &lt;form&gt;). Ex: http://host:port/page.html?var=value&amp;var2=value2&amp;.. La macro "control" demande à la page de vérifier ces arguments et d'exécuter ceux qui sont autorisés. Le paramètre param1 de cette macro spécifie les commandes autorisées, s'il est vide, toutes les commandes seront permises.
+
 </para>
 <para>
-Some commands require an argument that must be
-passed in the URL too.
+
+Certaines commandes requièrent un argument qui doit également être spécifié dans l'URL.
+
 </para>
 <table frame="all">
 <title>
-URL commands
+
+Les commandes dans l'URL
+
 </title>
 
 <tgroup cols="3">
@@ -348,12 +402,20 @@ URL commands
 <row>
  <entry>play</entry>
  <entry>
-    item (integer)
+    
+    item (entier)
+    
+    
+ 
     
     
  </entry>
  <entry>
-    Play the specified playlist item
+    
+    Lit l'élément spécifié de la playlist
+    
+    
+ 
     
     
  </entry>
@@ -361,7 +423,7 @@ URL commands
 <row>
  <entry>stop</entry><entry/>
  <entry>
-    Stop
+    stop
     
     
  </entry>
@@ -373,7 +435,11 @@ URL commands
 <row>
  <entry>next</entry><entry/>
  <entry>
-    Go to next playlist item
+    
+    Avance jusqu'au prochain élément de la playlist
+    
+    
+ 
     
     
  </entry>
@@ -381,7 +447,11 @@ URL commands
 <row>
  <entry>previous</entry><entry/>
  <entry>
-    Go to previous playlist item
+    
+    Recule à l'élément précédent de la playlist
+    
+    
+ 
     
     
  </entry>
@@ -394,7 +464,11 @@ URL commands
     
  </entry>
  <entry>
-    Add a MRL (Media Resource Locator) to the playlist
+    
+    Ajoute un MRL (Ressource de Localistion de Média) à la playlist
+    
+    
+ 
     
     
  </entry>
@@ -402,12 +476,20 @@ URL commands
 <row>
  <entry>delete</entry>
  <entry>
-    item (integer)
+    
+    item (entier)
+    
+    
+ 
     
     
  </entry>
  <entry>
-    Delete the specified playlist item or list of playlist items
+    
+    Supprime l'élément de playlist spécifié, ou la liste d'éléments de la playlist
+    
+    
+ 
     
     
  </entry>
@@ -415,7 +497,7 @@ URL commands
 <row>
  <entry>empty</entry><entry/>
  <entry>
-    Empty the playlist
+    En utilisant la playlist (liste de lecture)
     
     
  </entry>
@@ -428,7 +510,11 @@ URL commands
         
     </entry>
  <entry>
-    Close a specific connection
+    
+    Ferme une connection spécifique
+    
+    
+ 
     
     
  </entry>
@@ -446,158 +532,184 @@ URL commands
 </table>
 
 <para>
-For example, you can restrict execution of the
-<command>shutdown</command> command to protected page (through a
-<emphasis>.access</emphasis> file), using the control macro in all
-unprotected pages.
+
+Par exemple, vous pouvez restreindre l'exécution de la commande <command>shutdown</command> à une page protégée (par un fichier <emphasis>.acces</emphasis>), tout en utilisant la macro control dans toutes les pages non protégées.
+
 </para>
 </sect2>
 <sect2><title>
-The <emphasis>get</emphasis> macro
+
+La macro <emphasis>get</emphasis>
+
 </title>
 
 <para>
-This macro will be replaced by the value of the
-configuration variable which name is stored in param1 and which type is
-given by param2.
+
+Cette macro sera remplacée par la valeur de la variable de configuration dont le nom est stocké dans param1 et dont le type est donné par param2.
+
 </para>
 
 <para>
-param1 must be the name of an existing configuration
-variable. param2 must be the right type of the variable. It can be
-one of <emphasis>int</emphasis>, <emphasis>float</emphasis>, or
-<emphasis>string</emphasis>.
+
+param1 doit être le nom d'une variable de configuration existante. param2 doit être le type de la variable. Il devra être choisi parmi <emphasis>int</emphasis>, <emphasis>float</emphasis>, ou <emphasis>string</emphasis>.
+
 
  
 </para>
 
 <para>
-Example: &lt;vlc id="get" param1="sout"
-param2="string" /&gt; will be replaced in the output page by the value
-of sout.
+
+Exemple: &lt;vlc id="get" param1="sout" param2="string" /&gt; sera remplacé par la valeur de sout dans la page.
+
 </para>
 
 </sect2>
 <sect2><title>
-The <emphasis>set</emphasis> macro
+
+La macro <emphasis>set</emphasis>
+
 </title>
 
 <para>
-This macro allows to set the value of a
-configuration variable. The name is given by param1 and the type by
-param2 (like for get). The value is retrieved from the url using the
-name given in param1.
+
+Cette macro permet de définir la valeur d'une variable de configuration. Le nom est donné par param1 et le type par param2 (comme pour get). La valeur est définie à partir de l'URL en utilisant le nom donné dans param1.
+
 </para>
 
 <para>
-For example, if player.html contains &lt;vlc
-id="set" param1="sout" param2="string" /&gt;, and if you browse at
-<emphasis> http://host:ip/player.html?sout=sout_value</emphasis>, the
-sout variable will be set to "sout_value". If the URL doesn't contain
-sout, nothing will be done.
+
+Par exemple, si player.html contient &lt;vlc id="set" param1="sout" param2="string" /&gt;, et si vous demandez la page <emphasis> http://host:ip/player.html?sout=sout_value</emphasis>, la variable sout sera égale à "sout_value". Si l'URL ne contient pas sout, rien ne sera fait.
+
 </para>
 
 </sect2>
 <sect2><title>
-The <emphasis>rpn</emphasis> macro
+
+La macro <emphasis>rpn</emphasis>
+
 </title>
 <para>
-This macro allows you to interpret RPN commands.
-(See II).
+
+Cette macro vous permet d'interpréter les commandes RPN.
+(Voir II).
+
 </para>
 </sect2>
 
 <sect2><title>
-The <emphasis>if,else,end</emphasis> macro
+
+La macro <emphasis>if, else, end</emphasis>
+
 </title>
 
 <para>
-This macro allows you to control the parsing of the
-HTML page.
+
+Cette macro vous permet de controler la validité de la
+page HTML.
+
 </para>
 
 <para>
-If param1 isn't empty, it is first executed with the
-RPN evaluator. If the first element from the stack is not 0, the test
-value is true, else false..
+Si param1 n'est pas vide, il est tout d'abbord exectuté avec
+l'évaluateur RPN. Si le premier élément de la liste n'est pas 0, le résultat
+du test est vrai, faux sinon...
+
 </para>
 
 <para>
 
-<programlisting> &lt;vlc id="if" param1="1 2 =" /&gt;
-    &lt;!-- Never reached --&gt;
+<programlisting>  &lt;vlc id="if" param1="1 2 =" /&gt;
+    &lt;!-- Jamais atteint --&gt;
  &lt;vlc id="else" /&gt;
-    &lt;p&gt; Test succeed: 1 isn't equal to 2 &lt;/p&gt;
+    &lt;p&gt; Test vrai: 1 n'est pas égal à 2&lt;/p&gt;
  &lt;vlc id="end" /&gt;
+
 </programlisting>
 
 </para>
 
 <para>
-You can also just use "if" and "end".
+
+Vous pouvez aussi n'utiliser que "if" et "end".
+
 </para>
 
 </sect2>
 
 <sect2><title>
-The <emphasis>value</emphasis> macro
+
+La macro <emphasis>value</emphasis>
+
 </title>
 
 <para>
-If param1 isn't empty, it is first executed with the
-RPN evaluator. The macro is replaced with the value of the first element
-of the stack.
+
+Si param1 n'est pas vide, il est tout d'abord exécuté
+avec l'évaluateur RPN. La macro est remplacée par la valeur du premier
+élément de la pile.
+
 </para>
 
 <para>
-Note: If the element is the name of a local
-variable, its value will be displayed instead of its name.
+Remarque: Si l'élément est le nom d'une variable locale, sa valeur
+sera affichée à la place de son nom.
+
 </para>
 
 </sect2>
 
 <sect2><title>
-The <emphasis>foreach,end</emphasis> macro
+
+La macro <emphasis>foreach,end</emphasis>
+
 </title>
 
 <para>
 
-param1 is the name of the variable that will be used for the loop. param2 is the name of the set to be built:
+
+
+param1 est le nom de la variable utilisée pour la boucle. param2 est le nom de l'ensemble construit:
+
 
 </para>
 <itemizedlist>
 
 <listitem><para>
-<emphasis>integer</emphasis>: take
-the first element from the stack to construct a set of
-integer. The stack element should be a string like:
-<emphasis>first:last[:step][,first2:last2[:step2][,...]</emphasis> (Ex:
-1:5:2,6:8:1 will be expanded into 1,3,5,6,7,8)
+
+<emphasis>integer</emphasis>: prenedre le premier élément de la pile pour construire une suite d'entiers. L'élément pile devra être une chaîne de caractères de caractères de la forme: <emphasis>premier:dernier[:pas][,premier2:dernier2[:pas2][,...]</emphasis> (Ex: 1:5:2,6:8:1 sera interprété comme 1,3,5,6,7,8)
+
 </para></listitem>
 
 <listitem><para>
-<emphasis>directory</emphasis>: take the first
-element of the stack as the base directory and construct a set
-of filename and directly in it. Each element has the following
-fields:
+
+<emphasis>directory</emphasis>: prendre le premier élément de la pile comme répertoire de base et construire un ensemble intrinsèque de noms de fichiers. Chaque élément possède les champs suivants:
+
 </para>
 
 <itemizedlist>
 
 <listitem><para>
-name: file/directory name
+
+name: fichier/nom de répertoire
+
 </para></listitem>
 
 <listitem><para>
-type: "directory" or "file" or "unknown"
+
+type: "directory" ou "file" ou "unknown"
+
 </para></listitem>
 
 <listitem><para>
-size: size of the file
+
+size: taille du fichier
+
 </para></listitem>
 
 <listitem><para>
+
 date
+
 </para></listitem>
 
 </itemizedlist>
@@ -605,40 +717,40 @@ date
 </listitem>
 
 <listitem><para>
-playlist: set based on the playlist with fields:
-current is 1 if item is currently selected, 0 else. index is the index
-value, that can be used by the play or delete control command. name is the
-name of the item.
+
+playlist: ensemble basé sur la playlist avec les champs suivants: current est égal à 1 si l'élément est actuellement sélectionné, 0 sinon. index est la valeur d'indexation, qui peut être utilisée par les commandes lecture ou supprimer. name est le nom de l'élément.
+
 </para></listitem>
 
 <listitem><para>
-"informations": Create informations for the current
-playing stream. name is the name of the category, value is its value,
-info is a new set that can be parsed with a new foreach (subfields of
-info are name and value).
+
+"informations": Crée des informations concernant le flux diffusé. name est le nom de la catégorie, value est sa valeur, info est un nouvel ensemble qui peut être rempli à chaque fois (les champs secondaires de info sont name et value
+
 </para></listitem>
 
 <listitem><para>
-"hosts": Create the list of host we are listening.
-Contains the "id" (opaque id), host, ip and port fields.
+
+"hosts": Crée une liste des serveurs écoutés.
+Contient les champs "id" (id opaque), host, ip et port.
+
 </para></listitem>
 
 <listitem><para>
-"urls": Create the list of urls currently
-available. Fields are id, stream (1 if we have a stream, 0 else), url,
-mime, protected (1 if protected, 0 else), used (is it currently used
-?).
+
+"urls": Crée la liste des urls actuellemnt disponibles. Les champs sont id, stream (1 si un flux est diffusé, 0 sinon), url, mime, protected (1 si protégé, 0 sinon, used (est-il actuellement utilisé ?).
+
 </para></listitem>
 
 <listitem><para>
-"connections": Create the list of current
-connections. Fields are: id, an opaque id that can be used in the close
-command, ip, url, and status (HTTP error code).
+
+"connections": Crée la liste des connexions actuelles. Les champs sont: id, une id opaque qui peut être utilisée par la commande close, ip, url, et statut (code d'erreur HTTP).
+
 </para></listitem>
 
 <listitem><para>
-the name of a foreach variable if it's a set of set
-of value.
+
+le nom d'une variable foreach si c'est un ensemble d'ensembles de valeurs.
+
 </para>
 
 <programlisting>;&lt;vlc id="foreach" param1="cat" param2="informations" /&gt;
@@ -658,8 +770,9 @@ of value.
 
 </itemizedlist>
 
-<para>For more details, have a look at the share/http
-directory of the VLC source tree...
+<para>Pour plus de détails, regardez le répertoire
+share/http situé à la racine de l'arboresence de VLC...
+
 </para>
 
 </sect2>

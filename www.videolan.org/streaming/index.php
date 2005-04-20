@@ -28,7 +28,7 @@ better VLC program. Usage of VLC instead of VLS is advised.</li>
 
 </ul>
 
-<p>This diagram illustrates the VideoLAN solution:</p>
+<p>This diagram illusts the VideoLAN solution:</p>
 
 <p class="center">
 <img src="/images/documentation/global-diagram.jpg"
@@ -68,7 +68,7 @@ about the multicast programs on the network, and VLCs receive these
 annouces and automatically adds the programs announced to their          
 playlist. The mini-SAP-server works under Linux and Mac OS X.
 If you have only a single VLC server, you can also use the SAP announcer,
-that is incorperated into VLC.</p>
+that is incorped into VLC.</p>
 
 <p>The VideoLAN streaming solution has a full IPv6 support !</p>
 
@@ -142,23 +142,10 @@ below:</p>
 </tr>
 
 <tr>
-  <td class="category">VideoLAN HOWTO</td>
+  <td class="category">VLC Streaming-Howto</td>
   <td class="yes">Up-to-date</td>
   <td>
-     <a href="/doc/videolan-howto/en/videolan-howto-en.html">English</a>
-     <a href="/doc/videolan-howto/fr/videolan-howto-fr.html">French</a>
-     <a href="/doc/videolan-howto/de/videolan-howto-de.html">German</a>
-     <a href="/doc/videolan-howto/es/videolan-howto-es.html">Spanish</a>
-   </td>
-</tr>
-
-<tr>
-  <td class="category">VLC user guide</td>
-  <td class="no">Out-of-date</td>
-  <td>
-     <a href="/doc/vlc-user-guide/en/vlc-user-guide-en.html">English</a>
-     <a href="/doc/vlc-user-guide/fr/vlc-user-guide-fr.html">French</a>
-     <a href="/doc/vlc-user-guide/de/vlc-user-guide-de.html">German</a>
+     <a href="/doc/streaming-howto/en/streaming-howto-en.html">English</a>
    </td>
 </tr>
 

@@ -28,6 +28,7 @@ function pkgitem($version,$name,$top)
 
     foreach( $mirrors as $mirror )
     {
+	if( substr( $mirror, 0, 1 ) == "#" ) continue;
 	$esp = strpos( $mirror, " " );
 	$url = substr( $mirror, 0, $esp );
 	$mirror_name = substr( $mirror, $esp+1, strlen( $mirror ) - $esp -1 );

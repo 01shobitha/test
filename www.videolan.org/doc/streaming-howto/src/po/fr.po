@@ -3090,7 +3090,7 @@ msgstr ""
 #: en/cmdline.xml:137
 #, no-wrap
 msgid "http: streams over HTTP."
-msgstr ""
+msgstr "http : diffuse par HTTP."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:137
@@ -3103,6 +3103,12 @@ msgid ""
 "authentication password, <emphasis>mime=&lt;mime type&gt;</emphasis>\n"
 "to set the mime type returned by the server."
 msgstr ""
+"Elément\n"
+"les options sont : <emphasis>user=&lt;nom d'utilisateur&gt;</emphasis>\n"
+"pour activer l'authentification basique par HTTP et définir l'utilisateur,\n"
+"<emphasis>^wd=&lt;mot de passe&gt;</emphasis> pour définir le mot de passe\,n"
+"<emphasis>mime=&lt;type mime&gt;</emphasis> pour définir le type MIME\n"
+"retourné par le serveru."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:144
@@ -3111,6 +3117,7 @@ msgid ""
 "https: streams over HTTP, using a secured SSL\n"
 "connection."
 msgstr ""
+"https : diffuse par HTTP, en utilisant la couche sécurisée SSL\n"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:147
@@ -3125,6 +3132,15 @@ msgid ""
 "certificate&gt;</emphasis> to set the revocation certificate to use for\n"
 "the SSL connection."
 msgstr ""
+"Les options sont les même que pour http, plus :\n"
+"<emphasis>cert=&lt;chemin ver le certificat&gt;</emphasis> pour définir le\n"
+"certificat à utiliser,\n"
+"<emphasis>key=&lt;chemin vers la clef&gt;</emphasis> pour définir la clef à\n"
+"utiliser\n"
+"<emphasis>ca=&lt;chemin vers le certificat&gt;</emphasis> pour définir le\n"
+"certificat CA à utiliser dans le SSL,\n"
+"<emphasis>crl=&lt;chemin vers le certificat&gt;</emphasis> pour définir le\n"
+"certificat de révocation à utiliser dans la connection SSL."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:156
@@ -3135,12 +3151,16 @@ msgid ""
 "Note that only a small part of the MMS protocol is supported (MMS\n"
 "encapsulated in HTTP)."
 msgstr ""
+"mmsh : diffuse en utilisant le protocol Microsoft MMS. Ce protocole est\n"
+"utilisé comme méthode de transport par la plupart des logiciels Microsoft.\n"
+"Notez que seule une petite partie du protocole MMS est supportée (MMS\n"
+"encapsulé dans du HTTP)."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:160
 #, no-wrap
 msgid "Item options are the same as for the http module."
-msgstr ""
+msgstr "Les options sont les même que pour le module HTTP."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:162
@@ -3151,30 +3171,34 @@ msgid ""
 "TS streams. Please have a look at the <emphasis>rtp</emphasis> stream\n"
 "output module for a more compliant and complete RTP streamer."
 msgstr ""
+"rtp : diffuse par RTP. Notez que c'est un module assez vieux.\n"
+"Il ne permet pas le RTSP et peux uniquement être utilisé pour diffuser\n"
+"des flux TS. Veuillez regarder le module de sortie <emphasis>rtp</emphasis>\n"
+"pour un support complet du RTP."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:166
 #, no-wrap
 msgid "Options are the same as for the <emphasis>udp</emphasis> setting."
-msgstr ""
+msgstr "Les options sont les mêmes que pour pour l'<emphasis>udp</emphasis>."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:170 en/cmdline.xml:452 en/cmdline.xml:545
 #, no-wrap
 msgid "mux="
-msgstr ""
+msgstr "mux="
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:171
 #, no-wrap
 msgid "This option allows you to set the encapsulation method used for the resulting stream. This option has to be set."
-msgstr ""
+msgstr "Cette option vous permet de choisir la méthode d'encapsulation utilisée dans le flux. Cette option est obligatoire."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/cmdline.xml:173 en/cmdline.xml:609 en/cmdline.xml:911
 #, no-wrap
 msgid "Available options are:"
-msgstr ""
+msgstr "Les options disponibles sont :"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:176
@@ -3186,6 +3210,11 @@ msgid ""
 "MJPEG, H263, H264, I263, WMV 1/2 and theora for video, MPEG audio, AAC and\n"
 "a52 for the audio stream."
 msgstr ""
+"<emphasis>ts :</emphasis> le muxer MPEG2/TS. C'est le muxer standard utilisé\n"
+"pour diffuser du MPEG 2. Ce muxer peut être utilisé avec n'importe quelle\n"
+"méthode d'<emphasis>accès</emphasis>. Les codecs supportés sont MPEG 1/2/4,\n"
+"MJPEG, H263, H264, I263, WMV 1/2 et theora pour la vidéo, l'audio MPEG, AAC\n"
+"et a52 pour le flux audio."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:182
@@ -3211,6 +3240,24 @@ msgid ""
 "16 character word&gt;</emphasis> allows to set the key used for CSA\n"
 "encryption."
 msgstr ""
+"Les options sont : <emphasis>pid-video=&lt;pid&gt;</emphasis>\n"
+"pour choisir le PID de la piste vidéo,\n"
+"<emphasis>pid-audio=&lt;pid&gt;</emphasis> pour choisir le PID de la piste\n"
+"audio, <emphasis>pid-spu=&lt;pid&gt;</emphasis> pour choisir le PID de la\n"
+"piste de sous-titres, <emphasis>pid-pmt=&lt;pid&gt;</emphasis> pour choisir\n"
+"le PID de la PMT (Program Map Table), <emphasis>tsid=&lt;id&gt;</emphasis>\n"
+"pour choisir l'ID du flux TS, <emphasis>shaping=&lt;delai de formation en ms\n"
+"&gt;</emphasis> pour choisir l'intervalle minimum durant lequel le ébit du\n"
+"flux doit rester constant, pour les flux à débit variable, <emphasis>\n"
+"use-key-frames</emphasis> utiliser les images I comme limites de délai de\n"
+"formation, <emphasis>pcr=&lt;intervalle PCR en ms&gt;</emphasis> permet de\n"
+"choisir à quel intervalle le PCR (Program Clock References) doit être"
+"envoyé, <emphasis>dts-delay=&lt;delai en ms&gt;</emphasis> permet de\n"
+"retarder le PTS (Presentation Time Stamps) du DTS (Decoding Time Stamp) du\n"
+"delai indiqué, <emphasis>crypt-audio</emphasis> permet d'activer le\n"
+"chiffrement de la piste audio en utilisant l'algorithme CSA, <emphasis>\n"
+"csa-ck=&lt;clef sous forme d'un mot de 16 caractères&gt;</emphasis> permet\n"
+"de choisir la clef à utiliser pour le chiffrement CSA."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:202
@@ -3221,6 +3268,10 @@ msgid ""
 "Supported codecs are MPEG 1/2 and MJPEG for video, MPEG audio and a52 for\n"
 "audio streams."
 msgstr ""
+"<emphasis>ps :</emphasis> le muxer MPEG2/PS. C'est le muxer standard pour\n"
+"fichiers MPEG 2 (.mpg). Il peut être utilisé pour les méthodes de sortie\n"
+"file et http. Les codecs supportés sont MPEG 1/2 et MJPEG pour la vidéo,\n"
+"l'audio MPEG et a52 pour les flux audio."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:207
@@ -3231,6 +3282,9 @@ msgid ""
 "Time Stamps) from the DTS (Decoding Time Stamp) from the given\n"
 "time."
 msgstr ""
+"La seule option disponible est <emphasis>dst-delay=&lt;delai en ms&gt;\n"
+"</emphasis>. Elle permet de contrôler le délai entre le PTS (Presentation\n"
+"Time Stamps) et le DTS (Decoding Time Stamp)."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:212
@@ -3240,12 +3294,15 @@ msgid ""
 "used instead of ps with MPEG 1 video streams, when saved to a file or\n"
 "streamed over HTTP. Supported codecs are MPEG 1 and MPEG audio."
 msgstr ""
+"<emphasis>mpeg1 :</emphasis> le muxer MPEG1. Ce muxer devrait être utilisé\n"
+"à la place du ps pour les flux vidéos MPEG 1, pour les méthodes de sortie\n"
+"file ou http. Les codecs supportés sont le MPEG 1 et l'audio MPEG."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:215
 #, no-wrap
 msgid "Items options are the same as for the PS muxer."
-msgstr ""
+msgstr "Les options sont les même que pour le muxer PS."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:217
@@ -3256,12 +3313,16 @@ msgid ""
 "codecs are MPEG 1/2/4, MJPEG WMV 1/2 and Theora, audio streams can be vorbis,\n"
 "flac, speex, a52 or MPEG audio."
 msgstr ""
+"<emphasis>ogg :</emphasis> le muxer ogg. C'est le muxer du projet Xiph. Il\n"
+"peut être utilisé avec les méthodes de sortie file et http. Les codecs\n"
+"supportés sont MEPG 1/2/4, MJPEG, WMV 1/2 et Theora pour la vidéo et vorbix,\n"
+"flac, speex, a52 et l'audio MPEG pour l'audio."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:221
 #, no-wrap
 msgid "There is no item option for this muxer."
-msgstr ""
+msgstr "Il n'y a pas d'option pour ce muxer."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:223
@@ -3273,6 +3334,11 @@ msgid ""
 "output methods. Supported codecs are MPEG 4, MJPEG, WMV 1/2 for video,\n"
 "MPEG audio, a52 for audio streams."
 msgstr ""
+"<emphasis>asf :</emphasis> le muxer ASF de Microsoft. C'est le muxer\n"
+"standard utilisé pour la diffusion par les logiciels Microsoft. Il est aussi\n"
+"utilisé comme conteneur pour les fichiers WMA audio. Ce muxer peut être\n"
+"utilisé par les méthodes de sortie file et http. Les codecs supportés sont\n"
+"MPEG 4, MJPEG, WMV 1/2 pour la vidéo, l'audio MPEG et a52 pour les flux audio."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:229
@@ -3285,6 +3351,12 @@ msgid ""
 "<emphasis>comment=&lt;comments&gt;</emphasis>,\n"
 "<emphasis>rating=&lt;rating&gt;</emphasis> allow you to set what will be displayed in the according field of the stream comments."
 msgstr ""
+"Le options disponibles sont : \n"
+"<emphasis>title=&lt;titre&gt;</emphasis>,\n"
+"<emphasis>autor=&lt;auteur&gt;</emphasis>,\n"
+"<emphasis>copyright=&lt;message de copyright&gt;</emphasis>,\n"
+"<emphasis>comment=&lt;commentaires&gt;</emphasis>,\n"
+"<emphasis>rating=&lt;rating&gt;</emphasis> allow you to set what will be displayed in the according field of the stream comments."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:236
@@ -3294,12 +3366,15 @@ msgid ""
 "should be used for MMSH streaming. MMSH is the only supported output\n"
 "method. Supported codecs are the same as for ASF."
 msgstr ""
+"<emphasis>asfh :</emphasis> c'est une version spécial du muxer ASF, qui peut\n"
+"être utilisée pour la diffusion MMSH. MMSH est la seule méthode de sortie\n"
+"supportée. Les codecs supportés sont les même que pour ASF."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:239
 #, no-wrap
 msgid "Item options are the same as for ASF."
-msgstr ""
+msgstr "Les options sont les mêmes que pour ASF."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:241
@@ -3310,12 +3385,16 @@ msgid ""
 "is file. Supported codecs are MPEG 1/2/4, H263, H264 and I263 for video,\n"
 "MPEG audio and a52 for audio streams."
 msgstr ""
+"<emphasis>avi :</emphasis> le muxer AVI de Microsoft. C'est un format\n"
+"d'encapsulation très répendu pour les fichiers MPEG 4. La seule méthode de\n"
+"sortie est file. Les codecs supportés sont MPEG 1/2/4, H263, H264 et I263\n"
+"pour la vidéo, l'audio MPEG et a52 pour les flux audio."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:245
 #, no-wrap
 msgid "There is not item option for this muxer."
-msgstr ""
+msgstr "Il n'y a pas d'option pour ce muxer."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:247
@@ -3329,6 +3408,13 @@ msgid ""
 "HTTP. The only usable codec is MJPEG. No sound track can be muxed\n"
 "in such streams."
 msgstr ""
+"<emphasis>mpjpeg :</emphasis> le muxer MJPEG.\n"
+"Ce format d'encapsulation est largement utilisé dans les caméras de télé-\n"
+"surveillance avec un serveur web. Ces flux sont généralement incrustés dans\n"
+"des pages web et visualisée par les navigateurs Internet standrad, puisqu'\n"
+"ils ne sont autre qu'un succession d'images JPEG. La seule méthode de sortie\n"
+"supportée est http. Le seul codec est MJPEG. On ne peut pas y mettre de\n"
+"piste audio."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:253
@@ -3336,13 +3422,13 @@ msgstr ""
 msgid ""
 "No item option is available for this\n"
 "muxer."
-msgstr ""
+msgstr "Aucune option n'est disponible pour ce muxer."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:259 en/cmdline.xml:477
 #, no-wrap
 msgid "url="
-msgstr ""
+msgstr "url="
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:261
@@ -3351,6 +3437,8 @@ msgid ""
 "This option allows to give informations about the location\n"
 "where the stream should actually be saved or sent."
 msgstr ""
+"Cette option permet de donner les informations sur l'emplacement où le flux\n"
+"doit être enregistré ou envoyé."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:264
@@ -3360,6 +3448,8 @@ msgid ""
 "depending on the parameter used for the <emphasis>access</emphasis>\n"
 "option."
 msgstr ""
+"Le sens de l'option <emphasis>url</emphasis> dépend du paramètre utilisé à\n"
+"l'option <emphasis>access</emphasis>."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:269
@@ -3368,6 +3458,8 @@ msgid ""
 "If the <emphasis>file</emphasis> output method is used, url is\n"
 "the complete path where the file should be saved."
 msgstr ""
+"Si la méthode de sortie est <emphasis>file</emphasis>, url est le chemin\n"
+"complet où le fichier doit être enregistré."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:272
@@ -3378,6 +3470,9 @@ msgid ""
 "destination address and, optionally, UDP port, in the form\n"
 "<emphasis>address:port</emphasis>."
 msgstr ""
+"Si la méthode de sortie est <emphasis>udp</emphasis> ou <emphasis>rtp\n"
+"</emphasis>, url est l'adresse unicast ou multicast de destination, et\n"
+"éventuellement le port UDP, dans la forme <emphasis>adresse:port</emphasis>."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:277
@@ -3391,12 +3486,18 @@ msgid ""
 "have to be supplied using the <emphasis>address:port/path</emphasis>\n"
 "syntax."
 msgstr ""
+"Si la méthode de sortie est <emphasis>http</emphasis>, <emphasis>https\n"
+"</emphasis> ou <emphasis>mmsh</emphasis>, url est l'adresse, le port, et le\n"
+"chemin réseau local sur lequel le server doit attendre des requètes. Si\n"
+"aucune adresse est donnée, VLC écoutera sur toutes les interfaces réseau.\n"
+"Cette information doit être de la forme <emphasis>adresse:port/chemin\n"
+"</emphasis>."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:289
 #, no-wrap
 msgid "sap"
-msgstr ""
+msgstr "sap"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:291
@@ -3407,6 +3508,10 @@ msgid ""
 "a special multicast address to send a list of available streams on a\n"
 "server."
 msgstr ""
+"Utilisez cette option si vous souhaitez que VLC envoie des annonces SAP\n"
+"(Session Announcement Protocol). SAP est un protocole de découverte de\n"
+"services, qui utilise une adresse multicast spécifique pour envoyer une\n"
+"liste des flux disponibles sur un serveur."
 
 # type: Content of: <chapter><sect1><sect2><sect3><note><para>
 #: en/cmdline.xml:296
@@ -3415,18 +3520,22 @@ msgid ""
 "This option can only be enabled with the <emphasis>udp</emphasis>\n"
 "output method."
 msgstr ""
+"Cette option peut être activé dans la méthode de sortie <emphasis>udp\n"
+"</emphasis>."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:301
 #, no-wrap
 msgid "group="
-msgstr ""
+msgstr "group="
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:303
 #, no-wrap
 msgid "This option allows to specify the name of an optional <emphasis>group</emphasis> of streams. A VLC used as a client will use this field to classify the stream."
-msgstr ""
+msgstr "Cette option permet de renseigner le nom d'un éventuel <emphasis>\n"
+"groupe</emphasis> de flux. Un client sous VLC pourra utiliser de cham pour\n"
+"classer les flux".
 
 # type: Content of: <chapter><sect1><sect2><sect3><note><para>
 #: en/cmdline.xml:305
@@ -3435,6 +3544,8 @@ msgid ""
 "This option uses a private extension of the SAP protocol.\n"
 "VLC will be the only client able to read this field."
 msgstr ""
+"Cette option utilise une extension privée du protocole SAP.\n"
+"VLC sera le seul client capable de lire ce champ."
 
 # type: Content of: <chapter><sect1><sect2><sect3><note><para>
 #: en/cmdline.xml:308 en/cmdline.xml:318
@@ -3443,12 +3554,14 @@ msgid ""
 "This option can only be used it the <emphasis>sap</emphasis>\n"
 "option has been enabled."
 msgstr ""
+"Cette option peut uniquement être utilisée lorsque l'option <emphasis>sap\n"
+"</emphasis> est activée."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:313
 #, no-wrap
 msgid "sap-ipv6"
-msgstr ""
+msgstr "sap-ipv6"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:315
@@ -3457,30 +3570,36 @@ msgid ""
 "Use this option if you want the SAP announces to be sent using the\n"
 "<emphasis>IPv6</emphasis> protocol instead of <emphasis>IPv4</emphasis>."
 msgstr ""
+"Utilisez cette option si vous voulez que les annonces SAP soient envoyées\n"
+"en utilisant le protocole <emphasis>IPv6</emphasis> au lieu de <emphasis>\n"
+"IPv4</emphasis>."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:323
 #, no-wrap
 msgid "slp"
-msgstr ""
+msgstr "slp"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:325
 #, no-wrap
 msgid "SLP stands for <emphasis>Service Location Protocol</emphasis>. It is an alternative to SAP for session announcement. Use this option if you want to send such announces."
-msgstr ""
+msgstr "SLP signifie <emphasis>Service Location Protocol</emphasis>. C'est\n"
+"une alternative au SAP pour annoncer des sessions. Utilisez cette option si\n"
+"vous souhaitez utiliser le SLP."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:329 en/cmdline.xml:463
 #, no-wrap
 msgid "name="
-msgstr ""
+msgstr "name="
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:331
 #, no-wrap
 msgid "Use this option to specify the name of the stream that will be sent in SAP and SLP announces."
-msgstr ""
+msgstr "Utilisez cette option pour préciser le nom du flux à envoyer dans les\n"
+"annonces SAP et SLP."
 
 # type: Content of: <chapter><sect1><sect2><sect3><note><para>
 #: en/cmdline.xml:333
@@ -3489,12 +3608,14 @@ msgid ""
 "This option can only be used it the <emphasis>sap</emphasis>\n"
 "or <emphasis>slp</emphasis> option has been enabled."
 msgstr ""
+"Cette option peut uniquement être utilisée lorsque les options <emphasis>sap\n"
+"</emphasis> ou <emphasis>slp</emphasis> sont activées."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/cmdline.xml:340
 #, no-wrap
 msgid "display"
-msgstr ""
+msgstr "display"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/cmdline.xml:342
@@ -3504,54 +3625,60 @@ msgid ""
 "particularly useful in a <emphasis>duplicate</emphasis> chain, in order\n"
 "to monitor a stream while it is being saved or streamed."
 msgstr ""
+"Ce module est utilisé pour afficher le flux. C'est particulièrement utile\n"
+"dans une chaine <emphasis>duplicate</emphasis>, pour surveiller le flux\n"
+"en train d'être enregistré ou diffusé."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/cmdline.xml:346
 #, no-wrap
 msgid "available options are:"
-msgstr ""
+msgstr "les options disponibles sont :"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:348
 #, no-wrap
 msgid "novideo"
-msgstr ""
+msgstr "novideo"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:350
 #, no-wrap
 msgid "You can use this option to disable video in the displayed stream."
-msgstr ""
+msgstr "Vous pouvez utiliser cette option pour désactiver la vidéo dans le\n"
+"flux à l'affichage."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:354
 #, no-wrap
 msgid "noaudio"
-msgstr ""
+msgstr "noaudio"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:356
 #, no-wrap
 msgid "You can use this option to disable audio in the displayed stream."
-msgstr ""
+msgstr "Vous pouvez utiliser cette option pour désactiver le son dans le flux\n"
+"à l'affichage."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:360
 #, no-wrap
 msgid "delay="
-msgstr ""
+msgstr "delay="
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:362
 #, no-wrap
 msgid "You can use this option to introduce a delay in the display of the stream. Delay has to be given in ms."
-msgstr ""
+msgstr "Vous pouvez utiliser cette option pour introduire un delai dans\n"
+"l'affichage du flux. Le délai est en ms."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/cmdline.xml:368
 #, no-wrap
 msgid "rtp"
-msgstr ""
+msgstr "rtp"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/cmdline.xml:370
@@ -3560,6 +3687,8 @@ msgid ""
 "This module can be used to send a stream using the <emphasis>RTP\n"
 "(Real Time Protocol)</emphasis> protocol (see RFC 3550)."
 msgstr ""
+"Ce module peut être utilisé pour envoyer un flux en utilisant le protocole\n"
+"<emphasis>RTP</emphasis> (Real Time Protocol) (voir RFC 3550)."
 
 # type: Content of: <chapter><sect1><sect2><note><para>
 #: en/cmdline.xml:373
@@ -3569,18 +3698,21 @@ msgid ""
 "this module, it won't allow you to make Video On demand. Please have a\n"
 "look at the description of the VLM module for that."
 msgstr ""
+"Même s'il est possible d'utiliser le <emphasis>RTSP</emphasis> dans ce\n"
+"module, vous ne pourrez pas faire de la Vidéo à la Demande. Veuillez vous\n"
+"reporter à la description du module VLC pour cela."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/cmdline.xml:377
 #, no-wrap
 msgid "The different available options are:"
-msgstr ""
+msgstr "Les différentes options disponibes sont :"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:379 en/cmdline.xml:586 en/cmdline.xml:914
 #, no-wrap
 msgid "dst="
-msgstr ""
+msgstr "dst="
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:381
@@ -3592,24 +3724,31 @@ msgid ""
 "below). In the latter case, the stream will be sent to the host doing the\n"
 "<emphasis>RTSP</emphasis> request."
 msgstr ""
+"Cette option vous permet de donner l'adresse UDP de destination. Cela peut\n"
+"être l'adresse d'un hote ou d'un group multicast. Cette option doit être\n"
+"renseignée, à moins que l'option <emphasis>sdp=rtsp://</emphasis> le soit\n"
+"(voir plus bas). Dans le dernier cas, le flux sera envoyé à l'hôte faisant\n"
+"la requête <emphasis>RTSP</emphasis>."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:389
 #, no-wrap
 msgid "port="
-msgstr ""
+msgstr "port="
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:391
 #, no-wrap
 msgid "This option allows to set the UDP port used to send the first <emphasis>elementary stream</emphasis>. This port has to be even. Other streams will be streamed using even ports directly above this one."
-msgstr ""
+msgstr "Cette option permet de régler le port UDP utilisé pour envoyer le\n"
+"premier <emphasis>flux élémentaire</emphasis>. Ce port doit être fourni. Les\n"
+"autres flux seront en utilisant les ports impairs juste au dessus."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:395
 #, no-wrap
 msgid "port-video="
-msgstr ""
+msgstr "port-video="
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:397
@@ -3619,12 +3758,15 @@ msgid ""
 "video <emphasis>elementary stream</emphasis>. This port has to be\n"
 "even."
 msgstr ""
+"Cette option vous permet de définir le port UDP utilisé pour envoyer le\n"
+"premier <emphasis>flux élémentaire</emphasis> vidéo. Ce port doit être\n"
+"impair."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:403
 #, no-wrap
 msgid "port-audio="
-msgstr ""
+msgstr "port-audio="
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:405
@@ -3634,24 +3776,28 @@ msgid ""
 "audio <emphasis>elementary stream</emphasis>. This port has to be\n"
 "even."
 msgstr ""
+"Cette option vous permet de définir le port UDP utilisé pour envoyer le\n"
+"premier <emphasis>flux élémentaire</emphasis> audio. Ce port doit être\n"
+"impair."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:411
 #, no-wrap
 msgid "sdp="
-msgstr ""
+msgstr "sdp="
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:413
 #, no-wrap
 msgid "This option allows to set the way the SDP (Session Description Protocol) file corresponding the the stream should be made available."
-msgstr ""
+msgstr "Cette option vous permet de choisir la manière dont le fichier SDP\n"
+"(Session Description Protocol) correspondant au flux doit être disponible."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:415
 #, no-wrap
 msgid "Options are:"
-msgstr ""
+msgstr "Le options sont :"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:419
@@ -3660,6 +3806,8 @@ msgid ""
 "<emphasis>file://&lt;path to the file&gt;</emphasis>, to\n"
 "export the SDP as a local file"
 msgstr ""
+"<emphasis>file://&lt;chemin vers le fichier&gt;</emphasis>, pour exporter\n"
+"le contenu SDP en tant que fichier local."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:422
@@ -3669,6 +3817,9 @@ msgid ""
 "IP:port/path&gt;</emphasis>, to make the file available using the\n"
 "integrated HTTP server of VLC."
 msgstr ""
+"<emphasus>http://&lt;interface locale\n"
+"IP:port/chemin&gt;</emphasis>, pour rendre le fichier disponible en\n"
+"utilisant le serveur HTTP intégré au VLC."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><note><para>
 #: en/cmdline.xml:426 en/cmdline.xml:434
@@ -3678,6 +3829,8 @@ msgid ""
 "is optional. If not given, VLC will listen on all available\n"
 "interfaces."
 msgstr ""
+"L'argument <emphasis>interface locale IP</emphasis> est facultatif. S'il\n"
+"n'est pas fourni, VLC écoutera sur toutes les interfaces disponibles."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:430
@@ -3687,6 +3840,9 @@ msgid ""
 "IP:port/path&gt;</emphasis>, to make the SDP file available using the\n"
 "<emphasis>RTSP</emphasis> protocol (see RFC 2326)."
 msgstr ""
+"<emphasis>rtsp://&lt;interface locale\n"
+"IP:port/chemin&gt;</emphasis>, pour rendre le fichier SDP disponible en\n"
+"utilisant le protocole <emphasis>RTSP</emphasis> (voir RFC 2326)."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:438
@@ -3695,12 +3851,14 @@ msgid ""
 "<emphasis>sap</emphasis>, to export the SDP using the\n"
 "SAP (Session Announcement Protocol, see RFC 2974)."
 msgstr ""
+"<emphasis>sap</emphasis>, pour exporter le contenu SDP en utilisant le SAP\n"
+"(Session Announcement Protocol, voir RFC 2974)."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:445
 #, no-wrap
 msgid "ttl="
-msgstr ""
+msgstr "ttl="
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:447
@@ -3709,6 +3867,8 @@ msgid ""
 "This option can be used to set the <emphasis>TTL</emphasis> (Time\n"
 "to Live) of the sent UDP packets."
 msgstr ""
+"Cette option peut être utilisée pour fixer le <emphasis>TTL</emphasis> (Time\n"
+"to Live) des paquets UDP envoyés."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:454
@@ -3721,6 +3881,12 @@ msgid ""
 "(no encpasulation) are possible values for <emphasis>RTP</emphasis>\n"
 "streams. Default is RAW."
 msgstr ""
+"Cette option vous permet de définir la méthode d'encapsulation pour envoyer\n"
+"le flux. Voir les options de <emphasis>mux=</emphasis> du module <emphasis>\n"
+"standard</emphasis> pour une description des méthodes disponibles. Seuls\n"
+"<emphasis>ts</emphasis> et <emphasis>raw</emphasis> (pas d'encapsulation)\n"
+"sont des valeurs possibles pour les flux <emphasis>RTP</emphasis>. La\n"
+"valeur par défaut est RAW."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:465
@@ -3729,12 +3895,14 @@ msgid ""
 "This option can be used to set the name that will be displayed on\n"
 "the client receiving the stream."
 msgstr ""
+"Cette option peut être utilisée pour donner un nom qui sera affiché au\n"
+"client affichant le flux."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:470
 #, no-wrap
 msgid "description="
-msgstr ""
+msgstr "description="
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:472
@@ -3743,6 +3911,8 @@ msgid ""
 "This option can be used to give an additional description of the\n"
 "stream."
 msgstr ""
+"Cette option peut être utilisée pour donner une description supplémentaire\n"
+"du flux."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:479
@@ -3751,24 +3921,26 @@ msgid ""
 "This option allows to give the address of a website with\n"
 "additional informations about the stream."
 msgstr ""
+"Cette option permet de donner l'adresse d'un site web contenant des\n"
+"informations supplémentaires sur le flux."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:484
 #, no-wrap
 msgid "email="
-msgstr ""
+msgstr "email="
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:486
 #, no-wrap
 msgid "This options allows to give a contact e-mail address"
-msgstr ""
+msgstr "Cette option permet de donner une adresse e-mail de contact"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/cmdline.xml:492
 #, no-wrap
 msgid "es"
-msgstr ""
+msgstr "es"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/cmdline.xml:494
@@ -3779,18 +3951,22 @@ msgid ""
 "and save each of them in a different file or send it to a separate\n"
 "destination."
 msgstr ""
+"Le module <emphasis>es</emphasis> peut être utilisé pour séparer les\n"
+"différents <emphasis>flux élémentaires</emphasis> du flux principal, et\n"
+"enregistrer chacun d'eux dans un fichier différent ou les envoyer vers\n"
+"d'autres destinations."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/cmdline.xml:499
 #, no-wrap
 msgid "The available parameters are:"
-msgstr ""
+msgstr "Les paramètres disponibles sont :"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:501
 #, no-wrap
 msgid "access-video="
-msgstr ""
+msgstr "access-video="
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:503
@@ -3801,6 +3977,10 @@ msgid ""
 "options are the same as for the <emphasis>access</emphasis> option of\n"
 "the <emphasis>standard</emphasis> module (see above)."
 msgstr ""
+"Utilisez cette option pour donner le média utilisé pour enregistrer ou\n"
+"envoyer les <emphasis>flux élémentaires</emphasis> vidéo. Les valeurs\n"
+"possibles sont les même que celles de l'option <emphasis>access</emphasis>\n"
+"du module <emphasis>standard</emphasis> (voir après)."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:510

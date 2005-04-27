@@ -57,7 +57,7 @@
 <tr>
 
 <td class="category"><b>VLC Play-Howto</b></td>
-<td>complete user guide for the client aspects of VLC</td>
+<td>Complete user guide for the client aspects of VLC</td>
 <td class="yes">Up-to-date</td>
 <td class="yes">
 <a href="/doc/play-howto/en/play-howto-en.html">EN</a>
@@ -87,7 +87,7 @@
 <tr>
 
 <td class="category"><b>VLC Streaming-Howto</b></td>
-<td>complete user guide for the server aspects of VLC</td>
+<td>Complete user guide for the server aspects of VLC</td>
 <td class="yes">Up-to-date</td>
 <td class="yes">
 <a href="/doc/streaming-howto/en/streaming-howto-en.html">EN</a>
@@ -111,7 +111,7 @@
 <tr>
 
 <td class="category"><b>VLS user guide</b></td>
-<td>Complete guide of VLS</td>
+<td>User guide for VLS</td>
 <td class="yes">Up-to-date</td>
 <td class="yes">
 <a href="/doc/vls-user-guide/en/vls-user-guide-en.html">EN</a>
@@ -226,7 +226,7 @@
 </td>
 </tr>
 -->
-<tr>
+<!--<tr>
 <td class="category"><b>VLC streaming</b></td>
 <td>Streaming with wxwindows interface</td>
 <td class="yes">Up-to-date</td>
@@ -241,8 +241,9 @@
 </td>
 <td class="yes">
 </td>
-
 </tr>
+-->
+
 <!--
 <tr>
 <td class="category"><b>VideoLAN HOWTO</b></td>

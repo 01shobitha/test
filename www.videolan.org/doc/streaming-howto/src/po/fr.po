@@ -4772,6 +4772,7 @@ msgid ""
 "<emphasis>noaudio</emphasis>: do not duplicate audio\n"
 "<emphasis>elementary streams</emphasis>."
 msgstr ""
+"<emphasis>noaudio</emphasis> : ne pas dupliquer les <emphasis>flux élémentaires</emphasis> audio."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:970
@@ -4780,6 +4781,7 @@ msgid ""
 "<emphasis>spu</emphasis>: duplicate only subtitle\n"
 "<emphasis>elementary streams</emphasis>."
 msgstr ""
+"<emphasis>spu</emphasis> : dupliquer uniquement les <emphasis>flux élémentaires</emphasis> de sous titres."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:973
@@ -4788,18 +4790,19 @@ msgid ""
 "<emphasis>nospu</emphasis>: do not duplicate subtitle\n"
 "<emphasis>elementary streams</emphasis>."
 msgstr ""
+"<emphasis>nospu</emphasis> : ne pas dupliquer les <emphasis>flux élémentaires</emphasis> de sous titres."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:978
 #, no-wrap
 msgid "Example:"
-msgstr ""
+msgstr "Exemple :"
 
 # type: Content of: <chapter><sect1><sect2><sect3><screen>
 #: en/cmdline.xml:979
 #, no-wrap
 msgid "#duplicate{dst=std{...},select=\"program=100-200,novideo\"}"
-msgstr ""
+msgstr "#duplicate{dst=std{...},select=\"program=100-200,novideo\"}"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:981
@@ -4809,24 +4812,25 @@ msgid ""
 "video <emphasis>elementary streams</emphasis> belonging to the programs\n"
 "which PID are between 100 and 200."
 msgstr ""
+"Cette chaine de type <emphasis>duplicate</emphasis> ne renvera que les <emphasis>flux élémetaires</emphasis> non vidéo appartenant aux programmes dont le PID est compris entre 100 et 200."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/cmdline.xml:990
 #, no-wrap
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Divers"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/cmdline.xml:994
 #, no-wrap
 msgid "Here are a few additional global options:"
-msgstr ""
+msgstr "Voici quelques options globales supplémentaires :"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:997
 #, no-wrap
 msgid "--sout-all, --no-sout-all"
-msgstr ""
+msgstr "--sout-all, --no-sout-all"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:999
@@ -4836,12 +4840,13 @@ msgid ""
 "only stream one audio ES and one video ES (the first ones). If you\n"
 "enable sout-all, all ES (audio, video and SPU) will be streamed."
 msgstr ""
+"Activer la diffusion de tous les ES (désactivé par défaut). Par défaut, VLC ne diffusera qu'un ES audio et un ES vidéo (les premiers). Si vous activez sout-all, tous les ES (audio, vidéo et sous titres) seront diffusés."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:1005
 #, no-wrap
 msgid "--sout-keep, --no-sout-keep"
-msgstr ""
+msgstr "--sout-keep, --no-sout-keep"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:1007
@@ -4850,36 +4855,37 @@ msgid ""
 "Keep sout open (default disabled) : use the same sout instance\n"
 "across the various playlist items, if possible."
 msgstr ""
+"Garder le sout ouver (désactivé par défaut) : utilise la même instance du sout à travers les divers éléments de playlist (si possible)."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:1012
 #, no-wrap
 msgid "--no-sout-audio"
-msgstr ""
+msgstr "--no-sout-audio"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:1013
 #, no-wrap
 msgid "This options allows to disable audio in the outputted stream."
-msgstr ""
+msgstr "Cette option permet de désactiver l'audio dans les flux émis."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:1018
 #, no-wrap
 msgid "--no-sout-video"
-msgstr ""
+msgstr "--no-sout-video"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:1019
 #, no-wrap
 msgid "This options allows to disable video in the outputted stream."
-msgstr ""
+msgstr "Cette option permet de désactiver la vidéo dans les flux émis."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/cmdline.xml:1026
 #, no-wrap
 msgid "Simplified Syntax"
-msgstr ""
+msgstr "Syntaxe simplifiée"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/cmdline.xml:1029
@@ -4889,12 +4895,13 @@ msgid ""
 "with which you can only you use the <emphasis>standard</emphasis> module\n"
 "main options:"
 msgstr ""
+"Le module de flux de sortie permet aussi d'utiliser une syntaxe simplifiée qui ne peut utilisée que lorsque que l'on utilise les options principales du module <emphasis>standard</emphasis> :"
 
 # type: Content of: <chapter><sect1><sect2><screen>
 #: en/cmdline.xml:1035
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc input_stream --sout access/mux:url</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc input_stream --sout access/mux:url</userinput>"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/cmdline.xml:1039
@@ -4904,6 +4911,7 @@ msgid ""
 "<emphasis>mux</emphasis> and <emphasis>url</emphasis> are as defined in\n"
 "the options of the standard module."
 msgstr ""
+"où <emphasis>access</emphasis>, <emphasis>mux</emphasis> et <emphasis>url</emphasis> sont utilisés comme les options du module <emphasis>standard</emphasis>."
 
 # type: Content of: <chapter><sect1><para>
 #: en/cmdline.xml:1053
@@ -4912,168 +4920,169 @@ msgid ""
 "To understand fully the complex syntax of VLC's\n"
 "stream output, please look at the examples in the next section."
 msgstr ""
+"Pour bien comprendre la syntaxe complex du flux de sortie de VLC vous devriez regarder les exemples de la section suivante."
 
 # type: Content of: <chapter><title>
 #: en/intro.xml:3
 #, no-wrap
 msgid "Streaming, Muxers and Codecs"
-msgstr ""
+msgstr "Diffusions, muxeurs et codecs"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/intro.xml:12
 #, no-wrap
 msgid "Overview"
-msgstr ""
+msgstr "Apperçu"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/intro.xml:13
 #, no-wrap
 msgid "VideoLAN is a complete software solution for video streaming, developed by students of the <ulink url=\"http://www.ecp.fr\">Ecole Centrale Paris</ulink> and developers from all over the world, under the <ulink url=\"http://www.gnu.org/copyleft/gpl.html\">GNU General Public License</ulink> (GPL). VideoLAN is designed to stream MPEG videos on high bandwidth networks."
-msgstr ""
+msgstr "VideoLAN est une solution complète pour la lecture et la diffusion de vidéo par réseau, développée par des étudiants de l'<ulink url=\"http://www.ecp.fr\">Ecole Centrale Paris</ulink> et des développeurs du monde entier, sous licence <ulink url=\"http://www.gnu.org/copyleft/gpl.html\">GNU General Public License</ulink> (GPL). VideoLAN est concu pour diffuser des vidéos MPEG sur des réseaux haut débit."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/intro.xml:14
 #, no-wrap
 msgid "The VideoLAN solution includes:"
-msgstr ""
+msgstr "La solution de diffusion VideoLAN comprend :"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/intro.xml:16
 #, no-wrap
 msgid "VLS (VideoLAN Server), which can stream MPEG-1, MPEG-2 and MPEG-4 files, DVDs, digital satellite channels, digital terrestial television channels and live videos on the network in unicast or multicast"
-msgstr ""
+msgstr "VLS (VideoLAN Server), qui peut diffuser des fichiers MPEG-1, MPEG-2 et MPEG-4, des DVDs, des chaines numériques satellite, des chaines de télévision numérique terrestre et des flux vidéos réseau en unicast ou multicast."
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/intro.xml:17
 #, no-wrap
 msgid "VLC (initially VideoLAN Client), which can be used as a server to stream MPEG-1, MPEG-2 and MPEG-4 files, DVDs and live videos on the network in unicast or multicast ; or used as a client to receive, decode and display MPEG streams under multiple operating systems"
-msgstr ""
+msgstr "VLC (à l'origine dénomé VideoLAN Client), qui peut être utilisé comme un serveur pour diffuser des fichiers MPEG-1, MPEG-é et MPEG-4, des DVDs et des flux vidéo réseau en unicast ou multicast ; ou comme un client pour recevoir, décoder et afficher des flux MPEG sous de nombreux systèmes d'exploitation."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/intro.xml:19
 #, no-wrap
 msgid "Here is an illustration of the complete VideoLAN solution:"
-msgstr ""
+msgstr "Voici une illustration de la solution de diffusion VideoLAN :"
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/intro.xml:24 en/intro.xml:25
 #, no-wrap
 msgid "Global VideoLAN solution"
-msgstr ""
+msgstr "Solution de diffusion VideoLAN"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/intro.xml:27
 #, no-wrap
 msgid "More details about the project can be found on the <ulink url=\"http://www.videolan.org\">VideoLAN Web site</ulink>."
-msgstr ""
+msgstr "Pour plus de détails sur le projet, veuillez consulter le <ulink url=\"http://www.videolan.org\">site web de VideoLAN</ulink>."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/intro.xml:30
 #, no-wrap
 msgid "VideoLAN software"
-msgstr ""
+msgstr "Logiciels VideoLAN"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/intro.xml:31
 #, no-wrap
 msgid "VLC Media Player"
-msgstr ""
+msgstr "VLC media player"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/intro.xml:32
 #, no-wrap
 msgid "VLC works on many platforms: Linux, Windows, Mac OS X, BeOS, *BSD, Solaris, Familiar Linux, Yopy/Linupy and QNX. It can read:"
-msgstr ""
+msgstr "VLC tourne sur de nombreux systèmes d'exploitation : Linux, Windows, Mac OS X, BeOS, *BSD, Solaris, Familiar Linux, Yopy/Linupy et QNX. Il peut lire :"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/intro.xml:34
 #, no-wrap
 msgid "MPEG-1, MPEG-2 and MPEG-4 / DivX files from a hard disk, a CD-ROM drive, ..."
-msgstr ""
+msgstr "des fichiers MPEG-1, MPEG-2 et MPEG-4 / DivX depuis un disque dur, un lecteur de CD-ROM, ..."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/intro.xml:35
 #, no-wrap
 msgid "DVDs and VCDs"
-msgstr ""
+msgstr "des DVDs et VCDs"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/intro.xml:36
 #, no-wrap
 msgid "from a satellite card (DVB-S)"
-msgstr ""
+msgstr "depuis des cartes d'acquisition satellite (DVB-S)"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/intro.xml:37
 #, no-wrap
 msgid "MPEG-1, MPEG-2 and MPEG-4 streams from the network sent by VLS or VLC's stream output"
-msgstr ""
+msgstr "des flux MPEG-1, MPEG-2 et MPEG-4 reçu par le réseau et diffusés par des VLC ou le stream output de VLC"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/intro.xml:39
 #, no-wrap
 msgid "VLC can also be used as a server to stream:"
-msgstr ""
+msgstr "VLC peut aussi être utilisé en temps que serveur pour diffuser :"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/intro.xml:41
 #, no-wrap
 msgid "MPEG-1, MPEG-2 and MPEG-4 / DivX files,"
-msgstr ""
+msgstr "des fichiers MPEG-1, MPEG-2 et MPEG-4 / DivX"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/intro.xml:42
 #, no-wrap
 msgid "DVDs,"
-msgstr ""
+msgstr "des DVDs"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/intro.xml:43
 #, no-wrap
 msgid "from an MPEG encoding card,"
-msgstr ""
+msgstr "depuis une carte d'encodage MPEG"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/intro.xml:45
 #, no-wrap
 msgid "to:"
-msgstr ""
+msgstr "vers :"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/intro.xml:47
 #, no-wrap
 msgid "one machine (i.e. to one IP address): this is called <emphasis>unicast</emphasis>,"
-msgstr ""
+msgstr "une machine (c'est a dire une addresse IP) : ceci est appelé <emphasis>unicast</emphasis>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/intro.xml:48
 #, no-wrap
 msgid "a dynamic group of machines that the clients can join or leave (i.e. to a multicast IP address): this is called <emphasis>multicast</emphasis>,"
-msgstr ""
+msgstr "un groupe dynamique de machines que les clients peuvent joindre ou quitter (par exemple une adresse IP multicast) : ceci est appelé <emphasis>multicast</emphasis>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/intro.xml:50
 #, no-wrap
 msgid "in IPv4 or IPv6."
-msgstr ""
+msgstr "en IPv4 ou IPv6"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/intro.xml:51
 #, no-wrap
 msgid "To get the complete list of VLC's possibilities on each plateform supported, see the <ulink url=\"http://www.videolan.org/vlc/features.html\">VLC features page</ulink>."
-msgstr ""
+msgstr "Pour obtenir une liste complète des fonctionalités de VLC sur les différentes plateformes supportées, allez voir la <ulink url=\"http://www.videolan.org/vlc/features.html\">VLC features page</ulink>."
 
 # type: Content of: <chapter><sect1><sect2><sect3><note><para>
 #: en/intro.xml:52
 #, no-wrap
 msgid "VLC doesn't work on Mac OS 9, and will probably never do."
-msgstr ""
+msgstr "VLC ne fonctionne pas sous Mac OS 9."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/intro.xml:54
 #, no-wrap
 msgid "Mini-SAP-server"
-msgstr ""
+msgstr "Mini-SAP-server"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/intro.xml:55
@@ -5091,133 +5100,133 @@ msgstr ""
 #: en/intro.xml:61
 #, no-wrap
 msgid "Muxers and codecs"
-msgstr ""
+msgstr "Muxers et codecs"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/intro.xml:62
 #, no-wrap
 msgid "What is a codec ?"
-msgstr ""
+msgstr "Qu'est-ce qu'un codec ?"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/intro.xml:63
 #, no-wrap
 msgid "To fully understand the VideoLAN solution, you must understand the difference between a <emphasis>codec</emphasis> and a <emphasis>container format</emphasis>"
-msgstr ""
+msgstr "Pour bien comprendre la solution VideoLAN, vous devez comprendre la différence entre un <emphasis>codec</emphasis> et un <emphasis>conteneur</emphasis>"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/intro.xml:64
 #, no-wrap
 msgid "A <emphasis>codec</emphasis> is a compression algorithm, used to reduce the size of a stream. There are audio codecs and video codecs. MPEG-1, MPEG-2, MPEG-4, Vorbis, DivX, ... are codecs"
-msgstr ""
+msgstr "Un <emphasis>codec</emphasis> est un algorithme de compression utilisé pour réduire la taille d'un flux. Il y a des codecs audio et des codecs video. MPEG-1, MPEG-2, MPEG-4, Vorbis, DivX, etc. sont des codecs."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/intro.xml:66
 #, no-wrap
 msgid "What is a container format ?"
-msgstr ""
+msgstr "Qu'est-ce qu'un conteneur ? (ou muxeur)"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/intro.xml:67
 #, no-wrap
 msgid "To start off, think of a <emphasis>container format</emphasis> as a standard shipping box. You get a box in the mail and you think, \"Cool! What's inside.\" You don't really care about the box itself, you care about what's in that box. The problem? You can't see into the box. So what do you do? You get a knife and cut it open."
-msgstr ""
+msgstr "Pour commencer, considérez un <emphasis>conteneur</emphasis> comme l'emballage d'un colis. Vous recevez un colis par la poste et vous pensez \"Chouette ! qu'est-ce qu'il y a à l'interieur ?\" Vous ne vous souciez pas vraiment de la boite elle même, vous vous interessez plutot à son contenu. Le problème ? Vous ne pouvez pas voir à l'interieur de la boite. Que faites vous donc ? Vous prenez une paire de ciseaux et vous l'ouvrez."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/intro.xml:68
 #, no-wrap
 msgid "A <emphasis>container format</emphasis> follows this same basic idea. It contains one or several streams already encoded by codecs. Very often, there is an audio stream and a video one. AVI, Ogg, MOV, ASF, MP4 ... are container formats. The streams contained can be encoded using different codecs. In a perfect world, you could put any codec in any container format. Unfortunately, there are some incompatibilities. You can find a matrix of possible codecs and container formats on the <ulink url=\"http://www.videolan.org/streaming/features.html\">features page</ulink>"
-msgstr ""
+msgstr "Un <emphasis>conteneur</emphasis> se base sur cette idée. Il contient une ou plusieurs flux déjà encodés à l'aide de codecs. Généralement, il y a un flux vidéo et un flux audio. AVI, Ogg, MOV, ASF, MP4 etc sont des conteneurs. Les flux contenus peuvent être encodés à l'aide de codecs différents. Dans un monde parfait, vous pourriez mettre n'importe quel codec dans n'importe quel conteneur. Malheureusement il y a quelques incompatibilités. Vous pouvez trouver une matrice des différents codecs et conteneurs possible sur la <ulink url=\"http://www.videolan.org/streaming/features.html\">features page</ulink>."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/intro.xml:70
 #, no-wrap
 msgid "Encoding a video"
-msgstr ""
+msgstr "Encoder une vidéo"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/intro.xml:71
 #, no-wrap
 msgid "This is the first step where you are going to create the shipping box."
-msgstr ""
+msgstr "C'est la première étape lorsque vous créez votre colis."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/intro.xml:72
 #, no-wrap
 msgid "First you need to encode your file. That means that a file, wheter it is an audio, video file, is compressed to another format that normally takes up less physical drive space than the previous format. Common video encoding methods are DivX, MPEG-1, MPEG-2, MPEG-4 ... most common audio encoding method is MP3 or ogg-vorbis."
-msgstr ""
+msgstr "Vous devez tout d'abbord encoder votre fichier. Ceci veut dire qu'un fichier, que ce soit de l'audio ou de la vidéo, est compressé sous un autre format qui prend moins de place que le format précédent. Mes codecs généralement utilisés pour la vidéo sont DivX, MPEG-1, MPEG-2 et MPEG-4. Pour l'audio, il s'aggit de MP3 ou Vorbis."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/intro.xml:73
 #, no-wrap
 msgid "Then you have to mux (or multiplex). This means basically a process where separate parts of the video (or streams) are joined together into one file."
-msgstr ""
+msgstr "Vous devez ensuite mutilplexer. En gros, il s'aggit de prendre les flux séparés et de les grouper dans un seul fichier."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/intro.xml:75
 #, no-wrap
 msgid "Playing a video"
-msgstr ""
+msgstr "Lire une vidéo"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/intro.xml:76
 #, no-wrap
 msgid "Now that you have your box, you need to open it before to see the content. That's exactly what VLC will do. To decode a stream, VLC first <emphasis>demuxes</emphasis> it. This means that it reads the container format and separates audio, video, and subtitles, if any. Demuxing files doesn't weaken the video nor audio quality, it doesn't do anything for these data streams, it justs simply saves them into separate files, each containing one element of the original file. Then, each of these are passed <emphasis>decoders</emphasis> that do the mathematical processing to decompress the streams."
-msgstr ""
+msgstr "Maintenant que vous avez un colis, vous allez devoir l'ouvrir avant de pouvoir accéder à son contenu. C'est exactement ce que VLC va faire. Pour décoder un flux, VLC va tout d'abbord le <emphasis>démuxer</emphasis>. Il lit donc le conteneur et sépare l'audio, la vidéo et les sous-titres, s'ils existent. Démuxer des fichiers ne baisse pas la qualité de la vidéo ou de l'audio. Ca ne change pas du tout ces flux de données. Ca ne fait que les sauvegarder dans des fichiersdifférents, chacun contenant un élément du fichier original. Ensuite, chacun de ces flux sont passés à des <emphasis>décodeurs</emphasis> qui font les calculs mathématiques permettant de décompresser le flux."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/intro.xml:77
 #, no-wrap
 msgid "There is a particular thing about MPEG:"
-msgstr ""
+msgstr "Il y a une particulatrité concernant MPEG :"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/intro.xml:79
 #, no-wrap
 msgid "MPEG is a codec. There are several versions of it, called MPEG-1, MPEG-2, MPEG-4, ..."
-msgstr ""
+msgstr "MPEG est un codec. Il y a plusieurs versions de ce codec appelées MPEG-1, MPEG-2, MPEG-4 ..."
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/intro.xml:80
 #, no-wrap
 msgid "MPEG is also a container format, sometimes refered to as MPEG System. There are several types of MPEG: ES, PS, and TS."
-msgstr ""
+msgstr "MPEG est aussi un conteneur, parfois appelé MPEG System. Il y a plusieurs types de conteneurs MPEG : ES, PS et TS."
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/intro.xml:81
 #, no-wrap
 msgid "When you play an MPEG video from a DVD, for instance, the MPEG stream is actually composed of several streams (called Elementary Streams, ES): there is one stream for video, one for audio, another for subtitles, and so on. These different streams are mixed together into a single Program Stream (PS). So, the .VOB files you can find in a DVD are actually MPEG-PS files. But this PS format is not adapted for streaming video through a network or by satellite, for instance. So, another format called Transport Stream (TS) was designed for streaming MPEG videos through such channels."
-msgstr ""
+msgstr "Par exemple, quand vous lisez une vidéo MPEG sur un DVD, les flux MPEG sont en fait composés de plusieurs flux (appelés flux élémentaires, ES) : il y a un flux pour la vidéo, un pour l'audio, un autre pour les soustitres et ainsi de suite. Ces différents flux sont mélangés dans un seul Program Stream (PS). Ainsi, les fichiers .VOB que vous pouvez trouver sur un DVD sont en fait des fichiers MPEG-PS. Cependant, ce format PS n'est pas adapté à la diffusion de vidéo sur un réseau ou par satellite. Un autre format, appelé Transport Stream (TS) a donc été conçu pour diffuser du MPEG sur de tels dispositifs."
 
 # type: Content of: <chapter><title>
 #: en/encoding-cards.xml:3
 #, no-wrap
 msgid "Stream from encoding cards and other capture peripherals"
-msgstr ""
+msgstr "Diffuser depuis une carte d'encodage ou d'autres périphériques d'acquisition"
 
 # type: Content of: <chapter><sect1><title>
 #: en/encoding-cards.xml:8
 #, no-wrap
 msgid "Hardware encoding cards"
-msgstr ""
+msgstr "Cartes d'encodage matériel"
 
 # type: Content of: <chapter><sect1><para>
 #: en/encoding-cards.xml:13
 #, no-wrap
 msgid "VideoLAN supports two kinds of MPEG-2 encoding cards:"
-msgstr ""
+msgstr "VideoLAN supporte deux type d'encodeur MPEG-2 matériel :"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/encoding-cards.xml:20
 #, no-wrap
 msgid "Hauppauge WinTV-PVR-250 and WinTV-PVR-350,"
-msgstr ""
+msgstr "Hauppauge WinTV-PVR-250 and WinTV-PVR-350,"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/encoding-cards.xml:24
 #, no-wrap
 msgid "Visiontech Kfir."
-msgstr ""
+msgstr "Visiontech Kfir."
 
 # type: Content of: <chapter><sect1><para>
 #: en/encoding-cards.xml:29
@@ -5226,18 +5235,19 @@ msgid ""
 "The Hauppauge WinTV-PVR-250/350 gives much better\n"
 "results and is cheaper than the Visiontech Kfir."
 msgstr ""
+"Les Hauppauge WinTV-PVR-250/350 fournissent des résultats bien meilleurs que les Visiontech Kfir (en plus d'être moins chères)."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/encoding-cards.xml:34
 #, no-wrap
 msgid "Stream with the Hauppauge WinTV-PVR-250/350 card"
-msgstr ""
+msgstr "Diffuser à l'aide d'une carte Hauppauge WinTV-PVR-250/350"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/encoding-cards.xml:38 en/encoding-cards.xml:150
 #, no-wrap
 msgid "Install the drivers"
-msgstr ""
+msgstr "Installer les pilotes"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/encoding-cards.xml:42
@@ -5248,6 +5258,7 @@ msgid ""
 "<ulink url=\"http://bytesex.org/v4l/\">Video4Linux HQ</ulink>.\n"
 "If you use a 2.6 kernel, you only need to build I2C support and the BT848 Video For Linux module."
 msgstr ""
+"Vous allez tout d'abord devoir patcher votre noyau (version 2.4) pour supporter l'API v4l2 (Video 4 Linux version 2). Le patch est disponible sur le site de <ulink url=\"http://bytesex.org/v4l/\">Video4Linux HQ</ulink>. Si vous utilisez un noyau 2.6, vous n'aurez qu'à inclure le support I2C et le module Video For Linux BT848."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/encoding-cards.xml:49

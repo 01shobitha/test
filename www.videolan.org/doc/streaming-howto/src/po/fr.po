@@ -1588,25 +1588,25 @@ msgstr ""
 #: en/examples.xml:276
 #, no-wrap
 msgid "on the client side: to receive the audio:"
-msgstr ""
+msgstr "côté client: pour recevoir le son:"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><screen>
 #: en/examples.xml:280
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc udp:@:1212</userinput>"
-msgstr ""
+msgstr "prompt>% </prompt><userinput>vlc udp:@:1212</userinput>"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/examples.xml:282
 #, no-wrap
 msgid "to receive the video:"
-msgstr ""
+msgstr "pour recevoir la vidéo:"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><screen>
 #: en/examples.xml:286
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc udp:@:1213</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc udp:@:1213</userinput>"
 
 # type: Content of: <chapter><sect1><para>
 #: en/examples.xml:294
@@ -1615,6 +1615,8 @@ msgid ""
 "Stream in multicast the video and dump the audio in\n"
 "a file:"
 msgstr ""
+"Émettre la vidéo en multicast et enregistrer le son dans\n"
+"un fichier:"
 
 # type: Content of: <chapter><sect1><screen>
 #: en/examples.xml:299
@@ -1623,6 +1625,8 @@ msgid ""
 "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#es{access_video=udp,mux_video=ts,url_video=239.255.12.42,\n"
 "access_audio=file,mux_audio=ps,url_audio=audio-%c.%m}'</userinput>"
 msgstr ""
+"<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#es{access_video=udp,mux_video=ts,url_video=239.255.12.42,\n"
+"access_audio=file,mux_audio=ps,url_audio=audio-%c.%m}'</userinput>"
 
 # type: Content of: <chapter><sect1><note><para>
 #: en/examples.xml:304
@@ -1632,18 +1636,21 @@ msgid ""
 "module with the other modules to set-up even more complex\n"
 "solution."
 msgstr ""
+"Vous pouvez également combiner le module <emphasis>es</emphasis>\n"
+"avec d'autres modules pour créer des solutions encore plus\n"
+"complexes."
 
 # type: Content of: <chapter><title>
 #: en/vlm-vod.xml:4
 #, no-wrap
 msgid "VLM - Multiple streaming and Video on demand"
-msgstr ""
+msgstr "VLM - Diffusions multiples et Vidéo à la demande"
 
 # type: Content of: <chapter><sect1><title>
 #: en/vlm-vod.xml:14
 #, no-wrap
 msgid "VLM"
-msgstr ""
+msgstr "VLM"
 
 # type: Content of: <chapter><sect1><para>
 #: en/vlm-vod.xml:16
@@ -1655,18 +1662,24 @@ msgid ""
 "This manager being a new feature, it can only be controlled by the telnet\n"
 "interface or the http interface."
 msgstr ""
+"<emphasis>VideoLAN Manager</emphasis> est un petit outil de gestion\n"
+"de médias conçu pour contrôler plusieurs flux avec <emphasis>une seule instance de\n"
+"VLC</emphasis>. Cela permet de la diffusion multiple et la vidéo à la demande (VoD).\n"
+"Cet outil ayant été récemment ajouté, il n'est possible de le contrôler que par\n"
+"les interfaces Telnet et HTTP."
+
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/vlm-vod.xml:22
 #, no-wrap
 msgid "Interfaces"
-msgstr ""
+msgstr "Interfaces"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/vlm-vod.xml:24
 #, no-wrap
 msgid "Telnet interface"
-msgstr ""
+msgstr "Interface Telnet"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/vlm-vod.xml:26
@@ -1675,18 +1688,20 @@ msgid ""
 "You can launch the telnet interface as a common interface using\n"
 "the command line :"
 msgstr ""
+"Vous pouvez démarrer l'interface Telnet comme toute autre interface en utilisant\n"
+"la ligne de commande :"
 
 # type: Content of: <chapter><sect1><sect2><sect3><screen>
 #: en/vlm-vod.xml:30
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc --intf telnet</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc --intf telnet</userinput>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><screen>
 #: en/vlm-vod.xml:34
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc --extraintf telnet</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc --extraintf telnet</userinput>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/vlm-vod.xml:37
@@ -1695,12 +1710,13 @@ msgid ""
 "The telnet interface can also be launched in the wxWindows\n"
 "interface :"
 msgstr ""
+"L'interface Telnet peut aussi être démarrée depuis l'interface\nwxWindows:"
 
 # type: Content of: <chapter><sect1><sect2><sect3><mediaobject><caption><para>
 #: en/vlm-vod.xml:44 en/vlm-vod.xml:45
 #, no-wrap
 msgid "Launching the Telnet interface - wxWindows interface"
-msgstr ""
+msgstr "Démarrage de l'interface Telnet - interface wxWindows"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/vlm-vod.xml:48
@@ -1715,12 +1731,19 @@ msgid ""
 "telnet</emphasis> section (check the <emphasis>Advanced\n"
 "options</emphasis> checkbox)."
 msgstr ""
+"Le port par défaut est 4212. Le mot-de-passe par défaut est\n"
+"\"admin\". Ils peuvent être modifiées en utilisant les options de la ligne de commande\n"
+"<command>--telnet-port &lt;integer&gt;</command> et <command>--telnet-password\n"
+"&lt;string&gt;</command> respectivement. Ils peuvent aussi être changés depuis\n"
+"le panneau de configuration des Préférences de l'interface wxWindows, dans la section\n"
+"<emphasis>Modules</emphasis>-&gt;<emphasis>interface</emphasis>-&gt;<emphasis>\n"
+"telnet</emphasis> (cochez la case <emphasis>Options avancées</emphasis>)."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/vlm-vod.xml:59
 #, no-wrap
 msgid "HTTP interface"
-msgstr ""
+msgstr "Interface HTTP"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/vlm-vod.xml:61
@@ -1729,6 +1752,8 @@ msgid ""
 "Launching the HTTP interface is described in the <ulink\n"
 "url=\"http://www.videolan.org/doc/\">Play-with-VLC Howto.</ulink>"
 msgstr ""
+"Le démarrage de l'interface HTTP est détaillé dans le <ulink\n"
+"url=\"http://www.videolan.org/doc/\">Play-with-VLC Howto.</ulink>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/vlm-vod.xml:64
@@ -1737,18 +1762,20 @@ msgid ""
 "To access the vlm section of the http interface, use the following\n"
 "URL: <emphasis> http://host:port/vlm/</emphasis>."
 msgstr ""
+"Pour accéder à la rubrique VLM de l'interface HTTP, utilisez l'URL\n"
+"qui suit: <emphasis> http://hôte:port/vlm/</emphasis>."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/vlm-vod.xml:69
 #, no-wrap
 msgid "VLM Elements"
-msgstr ""
+msgstr "Éléments de VLM"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/vlm-vod.xml:71
 #, no-wrap
 msgid "Medias"
-msgstr ""
+msgstr "Médias"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/vlm-vod.xml:73
@@ -1758,12 +1785,15 @@ msgid ""
 "streams you want to stream), an output (how and where you want to stream\n"
 "them) and some options."
 msgstr ""
+"Un média (<emphasis>media</emphasis>) est constitué par une list d'entrée (les flux\n"
+"audio et vidéo que vous voulez diffuser), une sortie (où et comment vous voulez les diffusez)\n"
+"et quelques options."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/vlm-vod.xml:77
 #, no-wrap
 msgid "There are two types of medias:"
-msgstr ""
+msgstr "Il y a deux types de médias:"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:81
@@ -1773,6 +1803,9 @@ msgid ""
 "for Video on Demand. It will be launched only if a vod client asks for\n"
 "it."
 msgstr ""
+"<emphasis>vod</emphasis>: Un média VoD est normalement utilisé\n"
+"pour la Vidéo à la Demande. Il sera démarré uniquement si un client VoD demande\n"
+"le média."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:85
@@ -1783,12 +1816,16 @@ msgid ""
 "by the administrator and may be repeated several times. The client has\n"
 "no control over this media."
 msgstr ""
+"<emphasis>broadcast</emphasis>: Un média broadcast est\n"
+"très similaire à un programme ou une chaîne de TV. Il est démarré, arrêté ou\n"
+"mis en pause par l'administrateur et peut être répété plusieurs fois. Le client n'a\n"
+"aucun contrôle sur un média de ce type."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/vlm-vod.xml:94
 #, no-wrap
 msgid "Schedules"
-msgstr ""
+msgstr "Programmes"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/vlm-vod.xml:96
@@ -1798,18 +1835,21 @@ msgid ""
 "schedule date is reached, the script is launched. There are several\n"
 "options available like a period or a number of repetitions."
 msgstr ""
+"Un programme (<emphasis>schedule</emphasis> en anglais) est un script avec une date.\n"
+"Quand la date du programme est atteinte, le script est démarré. Plusieurs\n"
+"options sont disponibles, telles que la période ou le nombre de répétitions."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/vlm-vod.xml:102
 #, no-wrap
 msgid "Command line syntax"
-msgstr ""
+msgstr "Syntaxe de la ligne de commande"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/vlm-vod.xml:104
 #, no-wrap
 msgid "Command lines"
-msgstr ""
+msgstr "Lignes de commande"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:108
@@ -1817,7 +1857,7 @@ msgstr ""
 msgid ""
 "<command>help</command> : Displays an exhaustive command\n"
 "lines list"
-msgstr ""
+msgstr "<command>help</command> : Affiche la liste exhaustive des commandes"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:111
@@ -1829,6 +1869,11 @@ msgid ""
 "\"schedule\". You can specify properties in this command line or later on\n"
 "by using the <command>setup</command> command."
 msgstr ""
+"<command>new (nom) vod|broadcast|schedule\n"
+"[propriétés]</command> : Crée un nouvel élément de type vod, broadcast ou\n"
+"schedule. Les noms des éléments doivent être uniques. Les noms \"media\" et\n"
+"\"schedule\" sont interdits. Vous pouvez spécifier des propriétés dans cette\n"
+"ligne de commande, ou, plus tard, avec la commande <command>setup</command>."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:117
@@ -1838,6 +1883,9 @@ msgid ""
 "an elements property. See <xref linkend=\"vlmprop\" endterm=\"tvlmprop\"\n"
 "/>."
 msgstr ""
+"<command>setup (nom) (propriété)</command> : Définit\n"
+"une propriété d'un élément (cf. <xref linkend=\"vlmprop\" endterm=\"tvlmprop\"\n"
+"/>)."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:121
@@ -2337,6 +2385,7 @@ msgid ""
 "should still read the previous chapters if you are not confortable with\n"
 "streaming in general."
 msgstr ""
+# ME ME ME
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/ipv6.xml:18
@@ -3106,7 +3155,7 @@ msgstr ""
 "Elément\n"
 "les options sont : <emphasis>user=&lt;nom d'utilisateur&gt;</emphasis>\n"
 "pour activer l'authentification basique par HTTP et définir l'utilisateur,\n"
-"<emphasis>^wd=&lt;mot de passe&gt;</emphasis> pour définir le mot de passe\,n"
+"<emphasis>^wd=&lt;mot de passe&gt;</emphasis> pour définir le mot de passe\n"
 "<emphasis>mime=&lt;type mime&gt;</emphasis> pour définir le type MIME\n"
 "retourné par le serveru."
 
@@ -3117,7 +3166,8 @@ msgid ""
 "https: streams over HTTP, using a secured SSL\n"
 "connection."
 msgstr ""
-"https : diffuse par HTTP, en utilisant la couche sécurisée SSL\n"
+"https : diffuse par HTTP, en utilisant une connexion sécurisée\n"
+"SSL"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:147
@@ -3533,9 +3583,7 @@ msgstr "group="
 #: en/cmdline.xml:303
 #, no-wrap
 msgid "This option allows to specify the name of an optional <emphasis>group</emphasis> of streams. A VLC used as a client will use this field to classify the stream."
-msgstr "Cette option permet de renseigner le nom d'un éventuel <emphasis>\n"
-"groupe</emphasis> de flux. Un client sous VLC pourra utiliser de cham pour\n"
-"classer les flux".
+msgstr "Cette option permet de renseigner le nom d'un éventuel <emphasis> groupe</emphasis> de flux. Un client sous VLC pourra utiliser de cham pour classer les flux."
 
 # type: Content of: <chapter><sect1><sect2><sect3><note><para>
 #: en/cmdline.xml:305

@@ -1894,6 +1894,8 @@ msgid ""
 "<command>show [(name)|media|schedule]</command>\n"
 ": Display current element states and configurations."
 msgstr ""
+"<command>show [(nom)|media|schedule]</command>\n"
+": Affiche le statut et la configuration de l'élément."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:123
@@ -1903,6 +1905,9 @@ msgid ""
 "an element's name to show all information concerning this\n"
 "element."
 msgstr ""
+"<command>show (nom)</command> - Affiche\n"
+"toutes les informations concernant l'élément\n"
+"spécifié."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:125
@@ -1911,6 +1916,8 @@ msgid ""
 "<command>show media</command> displays\n"
 "a summary of media states."
 msgstr ""
+"<command>show media</command> affiche\n"
+"un résumé des statuts des médias."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:126
@@ -1920,6 +1927,9 @@ msgid ""
 "schedule</command> displays a summary of schedule\n"
 "states."
 msgstr ""
+"<command>show\n"
+"schedule</command> affiche un résumé de l'état des\n"
+"programmes."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:130
@@ -1930,6 +1940,10 @@ msgid ""
 "element wasn't stopped, it is first stopped before being\n"
 "deleted."
 msgstr ""
+"<command>del (name)|all|media|schedule</command>\n"
+": Supprime un élément ou un groupe d'éléments. Si\n"
+"l'élément n'était pas à l'arrêt, il est interrompu avant d'être\n"
+"supprimé."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:133
@@ -1939,6 +1953,9 @@ msgid ""
 "(name)</command> - Delete the (name)\n"
 "element."
 msgstr ""
+"<command>del\n"
+"(nom)</command> - Supprime l'élément\n"
+"(nom)"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:135
@@ -1947,6 +1964,8 @@ msgid ""
 "<command>del all</command>\n"
 "- Delete all elements"
 msgstr ""
+"<command>del all</command>\n"
+"- Supprime tous les éléments"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:136
@@ -1956,6 +1975,9 @@ msgid ""
 "media</command> - Delete all media\n"
 "elements."
 msgstr ""
+"<command>del\n"
+"media</command> - Supprime tous les éléments\n"
+"de type média."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:138
@@ -1965,6 +1987,9 @@ msgid ""
 "schedule</command> - Delete all schedule\n"
 "elements"
 msgstr ""
+"<command>del\n"
+"schedule</command> - Supprime tous les éléments\n"
+"de type programme"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:142
@@ -1976,6 +2001,11 @@ msgid ""
 "command affects the default instance. See <xref linkend=\"vlmctrl\"\n"
 "endterm=\"tvlmctrl\" /> for available control commands."
 msgstr ""
+"<command>control (nom) [nom_instance]\n"
+"(command)</command> : Modifie l'état de l'instance (nom_instance)\n"
+"du média (nom). Si (nom_instance) n'est pas précisé, la commande de contrôle\n"
+"affecte l'instance par défaut (cf <xref linkend=\"vlmctrl\"\n"
+"endterm=\"tvlmctrl\" /> pour les commandes de contrôle disponibles)."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:148
@@ -1988,6 +2018,12 @@ msgid ""
 "playing, paused or stop, are not saved. See <xref linkend=\"vlmconf\"\n"
 "endterm=\"tvlmconf\" /> for more info."
 msgstr ""
+"<command>save (fichier_config)</command> : Sauvegarde les configurations de\n"
+"tous les médias et programmes dans le fichier de configuration spécifié. Le chemin\n"
+"d'accès du fichier est relatif au répertoire dans lequel VLC a été démarré. Si\n"
+"le fichier existe, il sera écrasé. Notez que les états, tels que\n"
+"en lecture, en pause ou à l'arrêt, ne sont pas sauvegardés. Voir <xref linkend=\"vlmconf\"\n"
+"endterm=\"tvlmconf\" /> pour plus d'informations."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:155
@@ -1998,12 +2034,16 @@ msgid ""
 "which vlc was launched. See <xref linkend=\"vlmconf\" endterm=\"tvlmconf\"/>\n"
 "for more info."
 msgstr ""
+"<command>load (fichier_config)</command> : Charge une fichier\n"
+"de configuration. Le chemin d'accès au fichier est relatif au répertoire depuis\n"
+"lequel VLC a été démarré. Voir <xref linkend=\"vlmconf\" endterm=\"tvlmconf\"/>\n"
+"pour plus d'informations."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/vlm-vod.xml:164
 #, no-wrap
 msgid "Media Properties"
-msgstr ""
+msgstr "Propriétés des médias"
 
 # type: Content of: <chapter><sect1><sect2><sect3><note><para>
 #: en/vlm-vod.xml:166
@@ -2012,6 +2052,8 @@ msgid ""
 "Except the \"append\" property, all properties can be followed\n"
 "by another one."
 msgstr ""
+"À l'exception de la propriété \"append\", toutes les propriétés peuvent\n"
+"suivies par une autre."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:171
@@ -2020,6 +2062,8 @@ msgid ""
 "<command>input (input_name)</command> : Add an input to\n"
 "the end of the media's input list."
 msgstr ""
+"<command>input (nom_entrée)</command> : Ajoute une entrée à\n"
+"la fin de la liste des entrée du média."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:174
@@ -2031,6 +2075,11 @@ msgid ""
 "linkend=\"cmdline\" endterm=\"tcmdline\" /> for more information concerning\n"
 "stream outputs (sout)."
 msgstr ""
+"<command>output (nom_sortie)</command> : Définit la sortie\n"
+"du média. La syntaxe est la mêle que celle de l'option \":sout=...\" de VLC,\n"
+"toutefois, vous n'avez pas besoin d'indiquer \":sout=...\". Voir <xref\n"
+"linkend=\"cmdline\" endterm=\"tcmdline\" /> pour plus d'informations concernant\n"
+"les flux de sortie (sout)."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><note><para>
 #: en/vlm-vod.xml:178
@@ -2039,6 +2088,8 @@ msgid ""
 "You do not have to specify an output\n"
 "for vod elements."
 msgstr ""
+"Vous n'avez pas besoin de préciser une sortie\n"
+"pour les éléments vod."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:181
@@ -2048,6 +2099,9 @@ msgid ""
 "the media. If a media is disabled, it cannot be streamed, paused,\n"
 "launched by a schedule, or played as VoD."
 msgstr ""
+"<command>enabled|disabled</command> : Active (enabled) or désactive (disabled)\n"
+"le média. Si un média est désactivé, il ne peut pas être diffusé, mis en pause,\n"
+"ni démarré par un programme (schedule), ni joué en tant que VoD."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:185
@@ -2058,6 +2112,10 @@ msgid ""
 "automatically restart to play the input list once the end of the input\n"
 "list is reached."
 msgstr ""
+"<command>loop|unloop (broadcast uniquement)</command> : Si\n"
+"un média avec l'option \"loop\" option reçoit la commande \"play\" (lecture), il sera\n"
+"automatiquement redémarré, et rejouera sa liste d'entrées depuis le début une fois que\n"
+"la fin de la liste d'entrées est atteinte."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><note><para>
 #: en/vlm-vod.xml:188
@@ -2066,6 +2124,8 @@ msgid ""
 "<command>loop|unloop</command> is only used\n"
 "for broadcast media types."
 msgstr ""
+"<command>loop|unloop</command> est uniquement utilisée\n"
+"pour les médias de type broadcast."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:191
@@ -2078,6 +2138,12 @@ msgid ""
 "MPEG TS or mp2p for MPEG PS. See <xref linkend=\"smc\" endterm=\"tsmc\"\n"
 "/>."
 msgstr ""
+"<command>mux (nom_mux)</command> : Cette option\n"
+"ne devrait être employée que si vous voulez envoyer les flux élémentaires\n"
+"avec une encapsulation, au lieu de les envoyer sous forme brute. (nom_mux) devrait être\n"
+"spécifié sous forme d'un identifiant de 4 caractères tel que mp2t pour\n"
+"MPEG TS ou mp2p pour MPEG PS (cf <xref linkend=\"smc\" endterm=\"tsmc\"\n"
+"/>)."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><note><para>
 #: en/vlm-vod.xml:196
@@ -2086,12 +2152,14 @@ msgid ""
 "The <command>mux</command> property is only used for vod\n"
 "media types."
 msgstr ""
+"La propriété <command>mux</command> est uniquement utilisée pour\n"
+"les médias de type vod."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/vlm-vod.xml:203
 #, no-wrap
 msgid "Schedule Properties"
-msgstr ""
+msgstr "Propriétés des programmes"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:207
@@ -2100,25 +2168,36 @@ msgid ""
 "<command>enabled|disabled</command> : A disabled\n"
 "schedule will never be launched."
 msgstr ""
+"<command>enabled|disabled</command> : Un programme désactivé\n"
+"ne sera jamais démarré."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:210
-#, no-wrap
+#, no-wrap, fuzzy
+# FIXME la version originale ne veut rien dire -- Rem
 msgid ""
 "<command>append\n"
 "(command_until_rest_of_the_line)</command> : Add a command to the\n"
 "command line lit. The command line can be every command VLM can\n"
 "understand."
 msgstr ""
+"<command>append\n"
+"(commande_sur_le_reste_de_la_ligne)</command> : Ajoute une commande à la ligne\n"
+"de commande ????????????. La ligne de commande peut être toute ligne de commande\n"
+"comprise par VLM."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><note><para>
 #: en/vlm-vod.xml:213
-#, no-wrap
+#, no-wrap, fuzzy
+# FIXME la version originale est obscure -- Rem
 msgid ""
 "The rest of the line will be considered as\n"
 "part of the command line. You cannot put another option after the\n"
 "<command>append</command> one."
 msgstr ""
+"Le reste de la ligne sera considéré comme faisant\n"
+"partie de la ligne de commande. Vous ne pouvez pas ajouter une autre option après\n"
+"<command>append</command>."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:217
@@ -2135,6 +2214,16 @@ msgid ""
 "enabled) and the current date will be used as the first date of the\n"
 "schedule."
 msgstr ""
+"<command>date\n"
+"(année)/(moi)/(jour)-(heure):(minute):(seconde)|now</command>\n"
+": Spécifie la première date à laquelle le programme devrait\n"
+"être démarré. Vous pouvez spécifier une date en utilisant le format\n"
+"<command>(année)/(moi)/(jour)-(heure):(minute):(seconde)</command>\n"
+"(par exemple: 2004/11/16-00:43:12) ou en utilsant le mot-clef\n"
+"<command>now</command>. Si <command>now</command> est indiqué, le\n"
+"programme sera démarré dès que possible (c-à-d. dès qu'il est\n"
+"activé avec <command>enabled</command>) et la date courante sera utilisée\n"
+"comme première date du programme."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:228
@@ -2148,6 +2237,13 @@ msgid ""
 "<command>repeat</command> property, the schedule will be launched\n"
 "endlessly."
 msgstr ""
+"<command>period\n"
+"(année_soit_12_mois)/(mois_soit_30_jours)/(jours)-(heures):(minutes):(sec\n"
+"ondes)</command> : Définit la période temporelle pendant laquelle un programme\n"
+"doit attendre avant d'être démarré à nouveau (Les mois sont égaux à 30\n"
+"jours, les années à 12 mois). Si une période est indiquée sans la propriété\n"
+"<command>repeat</command>, le programme sera redémarré\n"
+"indéfiniment."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:236
@@ -2158,21 +2254,29 @@ msgid ""
 "example, if a schedule has <command>repeat 11</command>, it will be\n"
 "launched 12 times."
 msgstr ""
+"<command>repeat (nombre_de_répétitions)</command> :\n"
+"Spécifie combien de fois une programme doit être redémarré. Par\n"
+"exemple, si le programme a la propriété <command>repeat 11</command>,\n"
+"il sera démarré 12 fois."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/vlm-vod.xml:245
 #, no-wrap
 msgid "Control Commands"
-msgstr ""
+msgstr "Commandes de contrôle"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:249
-#, no-wrap
+#, no-wrap, fuzzy
+# FIXME: typo dans la version originale (Stat != Start)
 msgid ""
 "<command>play</command> : Stat a broadcast media. The\n"
 "media begins to launch the first item of the input list, then launches\n"
 "the next one and so on. (like a play list)"
 msgstr ""
+"<command>play</command> : Démarre un média de type broadcast.\n"
+"Le média commence par lancer le premier élément de la liste d'entrées, puis le suivant,\n"
+"et ainsi de suite (comme la liste de lecture)."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:253
@@ -2181,6 +2285,8 @@ msgid ""
 "<command>pause</command> : Put the broadcast media in\n"
 "paused status."
 msgstr ""
+"<command>pause</command> : Met le média de type broadcast\n"
+"en pause."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:256
@@ -2189,6 +2295,8 @@ msgid ""
 "<command>stop</command> : Stop the broadcast\n"
 "media."
 msgstr ""
+"<command>stop</command> : Arrête le média de type\n"
+"broadcast."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:259
@@ -2197,12 +2305,14 @@ msgid ""
 "<command>seek (percentage)</command> : Seek in the\n"
 "current playing item of the input list."
 msgstr ""
+"<command>seek (pourcentage)</command> : Se déplace dans l'élément\n"
+"en cours de lecture dans la liste des entrées."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/vlm-vod.xml:266
 #, no-wrap
 msgid "Configuration Files"
-msgstr ""
+msgstr "Fichiers de configuration"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/vlm-vod.xml:268
@@ -2211,6 +2321,8 @@ msgid ""
 "A VLM configuration file is a list of command lines : one line\n"
 "corresponds to one command line."
 msgstr ""
+"Un fichier de configuration VLM est une liste de lignes de commande :\n"
+"une ligne correspond à une ligne de commande."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/vlm-vod.xml:271
@@ -2221,6 +2333,11 @@ msgid ""
 "<command>load (file)</command> in a configuration file which can lead to\n"
 "recursive inclusion of the same file and result in VLC's crash."
 msgstr ""
+"Pour créer un fichier de configuration, il suffit d'éditer un fichier texte\n"
+"et de saisir la liste des commandes VLM. Méfiez-vous des appels récursifs: si\n"
+"vous incluez une commande <command>load (fichier)</command> dans un fichier de\n"
+"configuration, vous pouvez aboutir à une inclusion récursive du même fichier, ce\n"
+"qui devrait faire crasher VLC."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/vlm-vod.xml:276
@@ -2229,24 +2346,26 @@ msgid ""
 "As of versions > 0.8.1, any line where the first non white space\n"
 "character is a # is considered as a comment."
 msgstr ""
+"Depuis la version 0.8.2, toute ligne dont le premier caractère hors espace\n"
+"est un dièse # est considérée comme un commentaire, et donc ignorée."
 
 # type: Content of: <chapter><sect1><title>
 #: en/vlm-vod.xml:281 en/cmdline.xml:1049
 #, no-wrap
 msgid "Examples"
-msgstr ""
+msgstr "Exemples"
 
 # type: Content of: <chapter><sect1><para>
 #: en/vlm-vod.xml:283
 #, no-wrap
 msgid "This section provides several small vlm configuration files."
-msgstr ""
+msgstr "Cette section inclut plusieurs petits fichiers de configuration VLM."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/vlm-vod.xml:287
 #, no-wrap
 msgid "Simple broadcasting"
-msgstr ""
+msgstr "Diffusion simple en broadcast"
 
 # type: Content of: <chapter><sect1><sect2><sect3><programlisting>
 #: en/vlm-vod.xml:290
@@ -2263,12 +2382,22 @@ msgid ""
 "control channel1 play\n"
 "control channel2 play"
 msgstr ""
+"new canal1 broadcast enabled\n"
+"setup canal1 input http://machine.mondomaine/film.mpeg\n"
+"setup canal1 output #standard{mux=ts,access=udp,url=239.255.1.1,sap,name=\"Canall 1\"}\n"
+"\n"
+"new canal2 broadcast enabled\n"
+"setup canal2 input udp://@239.255.12.42\n"
+"setup canal2 output #standard{mux=ts,access=udp,url=239.255.1.2,sap,name=\"Canal 2\"}\n"
+"\n"
+"control canal1 play\n"
+"control canal2 play"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/vlm-vod.xml:304
 #, no-wrap
 msgid "Scheduled broadcasting"
-msgstr ""
+msgstr "Diffusion planifiée en broadcast"
 
 # type: Content of: <chapter><sect1><sect2><sect3><programlisting>
 #: en/vlm-vod.xml:307
@@ -2282,30 +2411,37 @@ msgid ""
 "setup my_sched date 2012/12/12-12:12:12\n"
 "setup my_sched append control my_media play"
 msgstr ""
+"new mon_media broadcast enabled\n"
+"setup mon_media input ma_video.mpeg input mon_autre_film.mpeg\n"
+"setup mon_media output #standard{mux=ts,access=udp,url=239.255.1.1,sap,name=\"Mon Média\"}\n"
+"\n"
+"new mon_prog schedule enabled\n"
+"setup mon_prog date 2012/12/12-12:12:12\n"
+"setup mon_prog append control mon_media play"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/vlm-vod.xml:318
 #, no-wrap
 msgid "Video On Demand"
-msgstr ""
+msgstr "Video à la demande"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/vlm-vod.xml:320
 #, no-wrap
 msgid "Basic example"
-msgstr ""
+msgstr "Exemple simple"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/vlm-vod.xml:322
 #, no-wrap
 msgid "First launch the vlc"
-msgstr ""
+msgstr "D'abord, démarrer VLC"
 
 # type: Content of: <chapter><sect1><sect2><sect3><screen>
 #: en/vlm-vod.xml:323
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc --ttl 12 -vvv --color -I telnet --telnet-password videolan --rtsp-host 0.0.0.0:5554</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc --ttl 12 -vvv --color -I telnet --telnet-password videolan --rtsp-host 0.0.0.0:5554</userinput>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:331
@@ -2314,6 +2450,8 @@ msgid ""
 "<emphasis>telnet</emphasis>\n"
 " launches the telnet interface of the vlc."
 msgstr ""
+"<emphasis>telnet</emphasis>\n"
+" démarre l'interface Telnet de VLC."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:334
@@ -2322,6 +2460,8 @@ msgid ""
 "<emphasis>videolan</emphasis>\n"
 " is the password to connect to the telnet interface."
 msgstr ""
+"<emphasis>videolan</emphasis>\n"
+" est le mot-de-passe pour se connecter à l'interface Telnet."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:337
@@ -2330,6 +2470,8 @@ msgid ""
 "<emphasis>0.0.0.0</emphasis>\n"
 " is the host address."
 msgstr ""
+"<emphasis>0.0.0.0</emphasis>\n"
+" est l'adresse de l'hôte."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:340
@@ -2338,12 +2480,14 @@ msgid ""
 "<emphasis>5554</emphasis>\n"
 " is the port on which you stream."
 msgstr ""
+"<emphasis>5554</emphasis>\n"
+" est le port sur lequel vous diffusez."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/vlm-vod.xml:345
 #, no-wrap
 msgid "Then you connect to the vlc telnet interface and create the vod object"
-msgstr ""
+msgstr "Ensuite, vous vous connecter à l'interface Telnet de VLC et créer l'objet vod"
 
 # type: Content of: <chapter><sect1><sect2><sect3><programlisting>
 #: en/vlm-vod.xml:347
@@ -2352,30 +2496,32 @@ msgid ""
 "new Test vod enabled\n"
 "setup Test input my_video.mpg"
 msgstr ""
+"new Test vod enabled\n"
+"setup Test input ma_video.mpg"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/vlm-vod.xml:350
 #, no-wrap
 msgid "You can access to the stream with:"
-msgstr ""
+msgstr "Vous pouvez accéder au flux avec:"
 
 # type: Content of: <chapter><sect1><sect2><sect3><screen>
 #: en/vlm-vod.xml:352
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc rtsp://server:5554/Test</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc rtsp://serveur:5554/Test</userinput>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:355
 #, no-wrap
 msgid "<emphasis>server</emphasis> is the address of the streaming server (IP or DNS)"
-msgstr ""
+msgstr "<emphasis>serveur</emphasis> est l'adresse du serveur de diffusion (IP ou DNS)"
 
 # type: Content of: <chapter><sect1><title>
 #: en/ipv6.xml:3 en/ipv6.xml:9
 #, no-wrap
 msgid "Streaming over IPv6"
-msgstr ""
+msgstr "Diffusion sur IPv6"
 
 # type: Content of: <chapter><sect1><para>
 #: en/ipv6.xml:12
@@ -2385,7 +2531,9 @@ msgid ""
 "should still read the previous chapters if you are not confortable with\n"
 "streaming in general."
 msgstr ""
-# ME ME ME
+"Ce chapitre couvre les spécificités de la diffusion sur IPv6. Vous\n"
+"devriez quand même lire les chapitres précédents si vous n'êtes pas à l'aise avec\n"
+"la diffusion en général."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/ipv6.xml:18

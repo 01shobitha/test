@@ -178,6 +178,12 @@ linkend="cmdline" endterm="tcmdline" /> for more information concerning
 stream outputs (sout).<note><para>You do not have to specify an output
 for vod elements.</para></note></para></listitem>
 
+<listitem><para><command>option (option_name)[=value]</command> : Adds
+the (option_name) to the media option list. The syntax is equivalent
+to the ":(option)=..." option , but you do not have to put the ":"
+string. Options are global: they are applied to all inputs of the
+media.</para></listitem>
+
 <listitem><para><command>enabled|disabled</command> : Enable or Disable
 the media. If a media is disabled, it cannot be streamed, paused,
 launched by a schedule, or played as VoD.</para></listitem>

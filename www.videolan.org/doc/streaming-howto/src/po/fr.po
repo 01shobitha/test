@@ -66,7 +66,7 @@ msgstr "Clément"
 #: en/streaming-howto.xml:50
 #, no-wrap
 msgid "Stenac"
-msgstr "Stenac"
+msgstr "Sténac"
 
 # type: Content of: <book><bookinfo><authorgroup><author><firstname>
 #: en/streaming-howto.xml:53
@@ -90,7 +90,7 @@ msgstr "2002-2004"
 #: en/streaming-howto.xml:61
 #, no-wrap
 msgid "the VideoLAN project"
-msgstr "the VideoLAN project"
+msgstr "Projet VideoLAN"
 
 # type: Content of: <book><bookinfo><legalnotice><para>
 #: en/streaming-howto.xml:67
@@ -103,8 +103,11 @@ msgid ""
 "The text of the license can be found in the appendix.\n"
 "<xref linkend=\"gpl\" endterm=\"tgpl\"/>."
 msgstr ""
-"Autorisation de copier, distribuer et/ou moidfier ce document selon les termes de la licence GNU, General Public License, comme stipulé par la Free Software Foundation; soit dans la version 2 de la Licence, ou (selon votre choix) toute version ultérieure. \n"
-"Le texte complet de la licence peut être trouvé (en anglais) en appendice. \n"
+"Vous avez la permission de copier, distribuer et/ou modifier ce document\n"
+"selon les termes de la licence GNU General Public License, telle qu'elle\n"
+"est publiée par la Free Software Foundation; soit dans la version 2 de la\n"
+"licence, ou (si vous le souhaitez) toute version ultérieure.\n"
+"Le texte complet de la licence peut être trouvé (en anglais) en appendice. n"
 "<xref linkend=\"gpl\" endterm=\"tgpl\"/>."
 
 # type: Content of: <book><bookinfo><keywordset><keyword>
@@ -243,7 +246,11 @@ msgid ""
 "corresponding to your DVD drive. For that, you should be in the\n"
 "<emphasis>disk</emphasis> or <emphasis>cdrom</emphasis> group (look\n"
 "at the permissions in"
-msgstr "Sous Unix/linux, vous devez avoir un accès en écriture au moyen correspondant à votre lecteur DVD. Pour cela, vous devriez être dans le groupe <emphasis>disque</emphasis> ou <emphasis>cdrom</emphasis> (regardez les permissions dans"
+msgstr ""
+"Sous Unix/linux, vous devez avoir les droits en écriture au\n"
+"périphérique correspondant à votre lecteur DVD. Pour cela, vous devriez\n"
+"être dans le groupe <emphasis>disk</emphasis> ou\n"
+"<emphasis>cdrom</emphasis> (vérifiez les permissions dans"
 
 # type: Content of: <chapter><note><para><filename>
 #: en/dvd.xml:13
@@ -257,7 +264,8 @@ msgstr "/dev"
 msgid ""
 "). If you're not, add\n"
 "yourself to the group:"
-msgstr "). Si vous n'y êtes pas, ajoutez vous au groupe :"
+msgstr ""
+"). Si vous n'y êtes dedans, ajoutez-vous au groupe :"
 
 # type: Content of: <chapter><note><screen>
 #: en/dvd.xml:19
@@ -307,7 +315,7 @@ msgstr "/dev/dvd"
 #: en/dvd.xml:44
 #, no-wrap
 msgid "is the name of your DVD drive (put"
-msgstr "est le nom de votre lecteur DVD (où"
+msgstr "est le nom de votre lecteur DVD (mettez"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
 #: en/dvd.xml:45
@@ -336,7 +344,11 @@ msgid ""
 "DVD\n"
 "\n"
 ","
-msgstr "est la lettre de votre lecteur DVD) ou le répertoire où vous avez copié votre DVD,"
+msgstr ""
+"est la lettre de votre lecteur DVD) ou le répertoire où vous avez\n"
+"copié votre DVD\n,"
+"\n"
+","
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/dvd.xml:51

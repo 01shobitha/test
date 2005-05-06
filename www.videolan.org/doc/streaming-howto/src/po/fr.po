@@ -18,79 +18,79 @@ msgstr ""
 #: en/streaming-howto.xml:33
 #, no-wrap
 msgid "VideoLAN Streaming Howto"
-msgstr ""
+msgstr "VideoLAN Streaming Howto"
 
 # type: Content of: <book><bookinfo><authorgroup><author><firstname>
 #: en/streaming-howto.xml:37
 #, no-wrap
 msgid "Alexis"
-msgstr ""
+msgstr "Alexis"
 
 # type: Content of: <book><bookinfo><authorgroup><author><surname>
 #: en/streaming-howto.xml:38
 #, no-wrap
 msgid "de Lattre"
-msgstr ""
+msgstr "de Lattre"
 
 # type: Content of: <book><bookinfo><authorgroup><author><firstname>
 #: en/streaming-howto.xml:41
 #, no-wrap
 msgid "Johan"
-msgstr ""
+msgstr "Johan"
 
 # type: Content of: <book><bookinfo><authorgroup><author><surname>
 #: en/streaming-howto.xml:42
 #, no-wrap
 msgid "Bilien"
-msgstr ""
+msgstr "Bilien"
 
 # type: Content of: <book><bookinfo><authorgroup><author><firstname>
 #: en/streaming-howto.xml:45
 #, no-wrap
 msgid "Anil"
-msgstr ""
+msgstr "Anil"
 
 # type: Content of: <book><bookinfo><authorgroup><author><surname>
 #: en/streaming-howto.xml:46
 #, no-wrap
 msgid "Daoud"
-msgstr ""
+msgstr "Daoud"
 
 # type: Content of: <book><bookinfo><authorgroup><author><firstname>
 #: en/streaming-howto.xml:49
 #, no-wrap
 msgid "Clément"
-msgstr ""
+msgstr "Clément"
 
 # type: Content of: <book><bookinfo><authorgroup><author><surname>
 #: en/streaming-howto.xml:50
 #, no-wrap
 msgid "Stenac"
-msgstr ""
+msgstr "Stenac"
 
 # type: Content of: <book><bookinfo><authorgroup><author><firstname>
 #: en/streaming-howto.xml:53
 #, no-wrap
 msgid "Antoine"
-msgstr ""
+msgstr "Antoine"
 
 # type: Content of: <book><bookinfo><authorgroup><author><surname>
 #: en/streaming-howto.xml:54
 #, no-wrap
 msgid "Cellerier"
-msgstr ""
+msgstr "Cellerier"
 
 # type: Content of: <book><bookinfo><copyright><year>
 #: en/streaming-howto.xml:59
 #, no-wrap
 msgid "2002-2004"
-msgstr ""
+msgstr "2002-2004"
 
 # type: Content of: <book><bookinfo><copyright><holder>
 #: en/streaming-howto.xml:61
 #, no-wrap
 msgid "the VideoLAN project"
-msgstr ""
+msgstr "the VideoLAN project"
 
 # type: Content of: <book><bookinfo><legalnotice><para>
 #: en/streaming-howto.xml:67
@@ -103,90 +103,93 @@ msgid ""
 "The text of the license can be found in the appendix.\n"
 "<xref linkend=\"gpl\" endterm=\"tgpl\"/>."
 msgstr ""
+"Autorisation de copier, distribuer et/ou moidfier ce document selon les termes de la licence GNU, General Public License, comme stipulé par la Free Software Foundation; soit dans la version 2 de la Licence, ou (selon votre choix) toute version ultérieure. \n"
+"Le texte complet de la licence peut être trouvé (en anglais) en appendice. \n"
+"<xref linkend=\"gpl\" endterm=\"tgpl\"/>."
 
 # type: Content of: <book><bookinfo><keywordset><keyword>
 #: en/streaming-howto.xml:78
 #, no-wrap
 msgid "VideoLAN"
-msgstr ""
+msgstr "VideoLAN"
 
 # type: Content of: <book><bookinfo><keywordset><keyword>
 #: en/streaming-howto.xml:79
 #, no-wrap
 msgid "Client"
-msgstr ""
+msgstr "Client"
 
 # type: Content of: <book><bookinfo><keywordset><keyword>
 #: en/streaming-howto.xml:80
 #, no-wrap
 msgid "vlc"
-msgstr ""
+msgstr "vlc"
 
 # type: Content of: <book><bookinfo><keywordset><keyword>
 #: en/streaming-howto.xml:81
 #, no-wrap
 msgid "vls"
-msgstr ""
+msgstr "vls"
 
 # type: Content of: <book><bookinfo><keywordset><keyword>
 #: en/streaming-howto.xml:82
 #, no-wrap
 msgid "vod"
-msgstr ""
+msgstr "vod"
 
 # type: Content of: <book><bookinfo><keywordset><keyword>
 #: en/streaming-howto.xml:83
 #, no-wrap
 msgid "vlcs"
-msgstr ""
+msgstr "vlcs"
 
 # type: Content of: <book><bookinfo><keywordset><keyword>
 #: en/streaming-howto.xml:84
 #, no-wrap
 msgid "stream"
-msgstr ""
+msgstr "stream"
 
 # type: Content of: <book><bookinfo><keywordset><keyword>
 #: en/streaming-howto.xml:85
 #, no-wrap
 msgid "multicast"
-msgstr ""
+msgstr "multicast"
 
 # type: Content of: <book><bookinfo><keywordset><keyword>
 #: en/streaming-howto.xml:86
 #, no-wrap
 msgid "MPEG-1"
-msgstr ""
+msgstr "MPEG-1"
 
 # type: Content of: <book><bookinfo><keywordset><keyword>
 #: en/streaming-howto.xml:87
 #, no-wrap
 msgid "MPEG-2"
-msgstr ""
+msgstr "MPEG-2"
 
 # type: Content of: <book><bookinfo><keywordset><keyword>
 #: en/streaming-howto.xml:88
 #, no-wrap
 msgid "MPEG-4"
-msgstr ""
+msgstr "MPEG-4"
 
 # type: Content of: <book><bookinfo><keywordset><keyword>
 #: en/streaming-howto.xml:89
 #, no-wrap
 msgid "DVD"
-msgstr ""
+msgstr "DVD"
 
 # type: Content of: <book><bookinfo><keywordset><keyword>
 #: en/streaming-howto.xml:90
 #, no-wrap
 msgid "DivX"
-msgstr ""
+msgstr "DivX"
 
 # type: Content of: <book><bookinfo><abstract><para>
 #: en/streaming-howto.xml:96
 #, no-wrap
 msgid "This document explains how to stream, transcode and save streams using the VideoLAN solution"
-msgstr ""
+msgstr "Ce document explique comment diffuser, transcoder et sauver des flux en utilisant la solution VideoLAN"
 
 # type: Content of: <book>
 #: en/streaming-howto.xml:107
@@ -209,12 +212,28 @@ msgid ""
 "&ipv6;\n"
 "&gpl;"
 msgstr ""
+"&intro;\n"
+"\n"
+"&gui;\n"
+"&cmdline;\n"
+"&examples;\n"
+"\n"
+"&vlm-vod;\n"
+"\n"
+"&receive;\n"
+"&file;\n"
+"&dvd;\n"
+"&dvb;\n"
+"&encoding-cards;\n"
+"\n"
+"&ipv6;\n"
+"&gpl;"
 
 # type: Content of: <chapter><title>
 #: en/dvd.xml:3
 #, no-wrap
 msgid "Stream a DVD"
-msgstr ""
+msgstr "Diffuser un DVD"
 
 # type: Content of: <chapter><note><para>
 #: en/dvd.xml:10
@@ -224,13 +243,13 @@ msgid ""
 "corresponding to your DVD drive. For that, you should be in the\n"
 "<emphasis>disk</emphasis> or <emphasis>cdrom</emphasis> group (look\n"
 "at the permissions in"
-msgstr ""
+msgstr "Sous Unix/linux, vous devez avoir un accès en écriture au moyen correspondant à votre lecteur DVD. Pour cela, vous devriez être dans le groupe <emphasis>disque</emphasis> ou <emphasis>cdrom</emphasis> (regardez les permissions dans"
 
 # type: Content of: <chapter><note><para><filename>
 #: en/dvd.xml:13
 #, no-wrap
 msgid "/dev"
-msgstr ""
+msgstr "/dev"
 
 # type: Content of: <chapter><note><para>
 #: en/dvd.xml:13
@@ -238,69 +257,75 @@ msgstr ""
 msgid ""
 "). If you're not, add\n"
 "yourself to the group:"
-msgstr ""
+msgstr "). Si vous n'y êtes pas, ajoutez vous au groupe :"
 
 # type: Content of: <chapter><note><screen>
 #: en/dvd.xml:19
 #, no-wrap
 msgid "<prompt># </prompt><userinput>adduser your_login disk_or_cdrom</userinput>"
-msgstr ""
+msgstr "<prompt># </prompt><userinput>adduser votre_login disk_ou_cdrom</userinput>"
 
 # type: Content of: <chapter><note><para>
 #: en/dvd.xml:23
 #, no-wrap
 msgid "and then restart your session."
-msgstr ""
+msgstr "et redémarrez votre session."
 
 # type: Content of: <chapter><sect1><title>
 #: en/dvd.xml:28
 #, no-wrap
 msgid "Stream a DVD with VLC"
-msgstr ""
+msgstr "Diffuser un DVD avec VLC"
 
 # type: Content of: <chapter><sect1><screen>
 #: en/dvd.xml:33
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc -vvv --color dvdsimple:/dev/dvd --sout udp:192.168.0.12 --ttl 12 --sout-all</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc -vvv --color dvdsimple:/dev/dvd --sout udp:192.168.0.12 --ttl 12 --sout-all</userinput>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
-#: en/dvd.xml:37 en/file.xml:17 en/dvb.xml:73 en/dvb.xml:128
-#: en/vlm-vod.xml:324 en/vlm-vod.xml:354 en/ipv6.xml:115 en/receive.xml:132
+#: en/dvd.xml:37
+#: en/file.xml:17
+#: en/dvb.xml:73
+#: en/dvb.xml:128
+#: en/vlm-vod.xml:324
+#: en/vlm-vod.xml:354
+#: en/ipv6.xml:115
+#: en/receive.xml:132
 #: en/encoding-cards.xml:275
 #, no-wrap
 msgid "where:"
-msgstr ""
+msgstr "où :"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
 #: en/dvd.xml:43
 #, no-wrap
 msgid "/dev/dvd"
-msgstr ""
+msgstr "/dev/dvd"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/dvd.xml:44
 #, no-wrap
 msgid "is the name of your DVD drive (put"
-msgstr ""
+msgstr "est le nom de votre lecteur DVD (où"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
 #: en/dvd.xml:45
 #, no-wrap
 msgid "D:"
-msgstr ""
+msgstr "D:"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/dvd.xml:45
 #, no-wrap
 msgid "under Windows if"
-msgstr ""
+msgstr "sous Windows si"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
 #: en/dvd.xml:45
 #, no-wrap
 msgid "D"
-msgstr ""
+msgstr "D"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/dvd.xml:45
@@ -311,43 +336,62 @@ msgid ""
 "DVD\n"
 "\n"
 ","
-msgstr ""
+msgstr "est la lettre de votre lecteur DVD) ou le répertoire où vous avez copié votre DVD,"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/dvd.xml:51 en/file.xml:25 en/encoding-cards.xml:356
+#: en/dvd.xml:51
+#: en/file.xml:25
+#: en/encoding-cards.xml:356
 #, no-wrap
 msgid ""
 "<emphasis>192.168.0.42</emphasis>\n"
 " is either:"
 msgstr ""
+"<emphasis>192.168.0.42</emphasis>\n"
+"est soit:"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/dvd.xml:59 en/file.xml:32 en/dvb.xml:89 en/encoding-cards.xml:363
+#: en/dvd.xml:59
+#: en/file.xml:32
+#: en/dvb.xml:89
+#: en/encoding-cards.xml:363
 #, no-wrap
 msgid ""
 "the IP address of the machine you want to unicast\n"
 "to;"
-msgstr ""
+msgstr "l'adresse IP de la machine que vous voulez envoyer en unicast ;"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/dvd.xml:65 en/file.xml:37 en/dvb.xml:94 en/encoding-cards.xml:368
+#: en/dvd.xml:65
+#: en/file.xml:37
+#: en/dvb.xml:94
+#: en/encoding-cards.xml:368
 #, no-wrap
 msgid ""
 "or the DNS name the machine you want to unicast\n"
 "to;"
-msgstr ""
+msgstr "ou l'adresse DNS de la machine que vous voulez en unicast ;"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/dvd.xml:71 en/file.xml:42 en/dvb.xml:99 en/encoding-cards.xml:126
-#: en/encoding-cards.xml:206 en/encoding-cards.xml:374
+#: en/dvd.xml:71
+#: en/file.xml:42
+#: en/dvb.xml:99
+#: en/encoding-cards.xml:126
+#: en/encoding-cards.xml:206
+#: en/encoding-cards.xml:374
 #: en/encoding-cards.xml:428
 #, no-wrap
 msgid "or a multicast IP address."
-msgstr ""
+msgstr "ou une adresse IP multicast."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/dvd.xml:79 en/file.xml:49 en/dvb.xml:104 en/vlm-vod.xml:326
-#: en/ipv6.xml:144 en/encoding-cards.xml:133 en/encoding-cards.xml:213
+#: en/dvd.xml:79
+#: en/file.xml:49
+#: en/dvb.xml:104
+#: en/vlm-vod.xml:326
+#: en/ipv6.xml:144
+#: en/encoding-cards.xml:133
+#: en/encoding-cards.xml:213
 #: en/encoding-cards.xml:380
 #, no-wrap
 msgid ""
@@ -355,7 +399,7 @@ msgid ""
 " is the value of the TTL (Time To\n"
 "Live) of your IP packets (which means that the stream will be\n"
 "able to cross 11 routers)."
-msgstr ""
+msgstr "<emphasis>12</emphasis> est la valeur du TTL (Time To Live) de vos paquets IP (ce qui signifie que le flux peut traverser 11 routeurs)."
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/dvd.xml:85
@@ -363,7 +407,7 @@ msgstr ""
 msgid ""
 "<emphasis>sout-all</emphasis>\n"
 "allows you to stream all soundtracks and subtitles"
-msgstr ""
+msgstr "<emphasis>sout-all</emphasis> vous permet de diffuser tous les doublages et les sous-titrages"
 
 # type: Content of: <chapter><sect1><para>
 #: en/dvd.xml:92
@@ -371,37 +415,38 @@ msgstr ""
 msgid ""
 "If you want to stream the DVD continuously, add the\n"
 "<emphasis>--loop</emphasis> option."
-msgstr ""
+msgstr "Si vous voulez diffuser un DVD en continu, ajoutez l'option <emphasis>--loop</emphasis>."
 
 # type: Content of: <chapter><title>
 #: en/file.xml:3
 #, no-wrap
 msgid "Stream a file"
-msgstr ""
+msgstr "Diffuser un fichier"
 
 # type: Content of: <chapter><sect1><title>
 #: en/file.xml:9
 #, no-wrap
 msgid "Stream a file with VLC"
-msgstr ""
+msgstr "Diffuser un fichier avec VLC"
 
 # type: Content of: <chapter><sect1><screen>
 #: en/file.xml:13
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc -vvv video1.xyz --sout udp:192.168.0.42 --ttl 12</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc -vvv video1.xyz --sout udp:192.168.0.42 --ttl 12</userinput>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><filename>
-#: en/file.xml:22 en/ipv6.xml:120
+#: en/file.xml:22
+#: en/ipv6.xml:120
 #, no-wrap
 msgid "video1.xyz"
-msgstr ""
+msgstr "video1.xyz"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/file.xml:23
 #, no-wrap
 msgid "is the file you want to stream,"
-msgstr ""
+msgstr "est le fichier que vous voulez diffuser,"
 
 # type: Content of: <chapter><sect1><para>
 #: en/file.xml:57
@@ -409,19 +454,19 @@ msgstr ""
 msgid ""
 "If you want to stream the file continuously, add the\n"
 "<emphasis>--loop</emphasis> option."
-msgstr ""
+msgstr "Si vous voulez diffuser un fichier en continu, ajoutez l'option <emphasis>--loop</emphasis>."
 
 # type: Content of: <chapter><title>
 #: en/gui.xml:3
 #, no-wrap
 msgid "Easy streaming"
-msgstr ""
+msgstr "Diffusion facile"
 
 # type: Content of: <chapter><sect1><title>
 #: en/gui.xml:5
 #, no-wrap
 msgid "Intro"
-msgstr ""
+msgstr "Intro"
 
 # type: Content of: <chapter><sect1><para>
 #: en/gui.xml:7
@@ -431,13 +476,13 @@ msgid ""
 "the graphical user interfaces: wxwindows for Windows and GNU/Linux,\n"
 "the skinnable Windows and GNU/Linux interface or the MacOS X native\n"
 "interface."
-msgstr ""
+msgstr "Le plus facile pour commencer à diffuser avec VLC est d'utiliser l'une des interfaces graphiques utilisateur : wxwindows pour Windows et GNU/linux, l'interface modifiable Windows et GNU/linux, ou l'interface de base MacOS X."
 
 # type: Content of: <chapter><sect1><title>
 #: en/gui.xml:14
 #, no-wrap
 msgid "Streaming using the Wizard"
-msgstr ""
+msgstr "Diffuser en utilisant l'Assistant"
 
 # type: Content of: <chapter><sect1><para>
 #: en/gui.xml:16
@@ -447,7 +492,7 @@ msgid ""
 "step by step through the process of streaming your media on a network or\n"
 "saving it to your hard drive. This <emphasis>Wizard</emphasis> offers\n"
 "easy to use menus but provides a restricted set of options."
-msgstr ""
+msgstr "L'<emphasis>Assistant de Diffusion/Tanscodage</emphasis>"
 
 # type: Content of: <chapter><sect1><note><para>
 #: en/gui.xml:21
@@ -455,13 +500,14 @@ msgstr ""
 msgid ""
 "The wizard is only available on the wxWindows\n"
 "interface."
-msgstr ""
+msgstr "L'assistant est seulement disponible dans l'interface wxWindows."
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/gui.xml:24 en/gui.xml:34
+#: en/gui.xml:24
+#: en/gui.xml:34
 #, no-wrap
 msgid "Launching the wizard"
-msgstr ""
+msgstr "Démarrer l'assistant"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/gui.xml:26
@@ -469,25 +515,25 @@ msgstr ""
 msgid ""
 "To launch the <emphasis>Streaming/Transcoding Wizard</emphasis>,\n"
 "open the \"File\" menu, and select the Wizard menu item."
-msgstr ""
+msgstr "Pour démarrer l'<emphasis>Assistant de diffusion/transcodage</emphasis>, ouvrez le menu \"Fichier\", et sélectionnez la ligne Assistant du menu."
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><textobject><para>
 #: en/gui.xml:33
 #, no-wrap
 msgid "Launching the Wizard"
-msgstr ""
+msgstr "Démarrer l'assistant"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/gui.xml:39
 #, no-wrap
 msgid "Wizard dialog"
-msgstr ""
+msgstr "Champs à remplir dans l'assistant"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/gui.xml:41
 #, no-wrap
 msgid "First select the type of task:"
-msgstr ""
+msgstr "Pour commencer, sélectionnez le type de tâche :"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/gui.xml:45
@@ -495,7 +541,7 @@ msgstr ""
 msgid ""
 "<emphasis>Stream to network</emphasis>: Choose this\n"
 "option if you want to stream media on network."
-msgstr ""
+msgstr "<emphasis>Diffuser vers un réseau</emphasis>: Choisissez cette option si vous voulez diffuser un média sur un réseau."
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/gui.xml:48
@@ -503,19 +549,20 @@ msgstr ""
 msgid ""
 "<emphasis>Transcode/Save to file</emphasis>: Choose\n"
 "this option if you want to change a file's audio codec and/or video codec, its bitrate, and/or encapsulation method."
-msgstr ""
+msgstr "<emphasis>Transcoder/Sauvegarder</emphasis> : Choisissez cette option si vous souhaitez changer le codec d'un fichier audio et/ou video, son échantillonage, et/ou sa méthode d'encapsulation."
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/gui.xml:57 en/gui.xml:58
+#: en/gui.xml:57
+#: en/gui.xml:58
 #, no-wrap
 msgid "The Wizard Dialog"
-msgstr ""
+msgstr "Champs à remplir dans l'assistant"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/gui.xml:63
 #, no-wrap
 msgid "Input selection"
-msgstr ""
+msgstr "Entrez la sélection"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/gui.xml:65
@@ -524,7 +571,7 @@ msgid ""
 "Select a stream (such as a file, a network stream, a disk, a\n"
 "capture device ...) by selecting the <emphasis>Choose...</emphasis>\n"
 "dialog or an existing item in your playlist, using the <emphasis>Existing playlist item</emphasis> option."
-msgstr ""
+msgstr "Choisissez un flux (comme un fichier, un flux réseau, un disque, un moyen de capture, ...) en sélectionnant le bouton <emphasis>Choisir</emphasis> ou un élément existant de votre liste de lecture, en utilisant l'option <emphasis>Elément de la liste</emphasis>."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/gui.xml:69
@@ -534,25 +581,27 @@ msgid ""
 "stream, check the \"Enable\" checkbox and choose a start and end date (in\n"
 "seconds). This option should only be used with streams you can control\n"
 "such as files or discs but not network streams or capture devices."
-msgstr ""
+msgstr "<emphasis>Extraction partielle</emphasis> : pour lire uniquement une partie du flux, cochez \"Activer\" et choisissez un début et une fin (en secondes). Cette option ne doit être utilisée que dans le cas de flux que vous pouvez contrôler, comme des fichiers, des disques, mais pas des flux réseaux ou des moyens de capture."
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/gui.xml:78 en/gui.xml:79
+#: en/gui.xml:78
+#: en/gui.xml:79
 #, no-wrap
 msgid "Wizard input selection"
-msgstr ""
+msgstr "Sélection de l'entrée de l'Assistant"
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/gui.xml:86 en/gui.xml:87
+#: en/gui.xml:86
+#: en/gui.xml:87
 #, no-wrap
 msgid "Wizard input selection from playlist"
-msgstr ""
+msgstr "Sélection de l'entrée de l'Assistant par la liste de lecture"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/gui.xml:92
 #, no-wrap
 msgid "Streaming methods"
-msgstr ""
+msgstr "Méthodes de diffusion"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/gui.xml:94
@@ -560,7 +609,7 @@ msgstr ""
 msgid ""
 "If you chose <emphasis>Stream to network</emphasis> option, you can\n"
 "now specify the streaming method. Available methods are:"
-msgstr ""
+msgstr "Si vous avez choisi l'option <emphasis>Diffuser vers un réseau</emphasis>, vous pouvez maintenant spécifier la méthode de diffusion. Les méthodes de diffusion sont :"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/gui.xml:99
@@ -569,7 +618,7 @@ msgid ""
 "<emphasis>UDP Unicast</emphasis>: Stream to a\n"
 "single computer. Enter the client's IP address (in the 0.0.0.0 -\n"
 "223.255.255.255 range)."
-msgstr ""
+msgstr "<emphasis>UDP Unicast</emphasis> : Diffuser vers un unique ordinateur. Entrez l'adresse IP du client (dans le panel 0.0.0.0 - 223.255.255.255)."
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/gui.xml:103
@@ -578,7 +627,7 @@ msgid ""
 "<emphasis>UDP Multicast</emphasis>: Stream to multiple\n"
 "computers using multicast. Enter the IP address of the multicast group\n"
 "(in the 224.0.0.0 to 239.255.255.255 range)."
-msgstr ""
+msgstr "<emphasis>UDP Multicast</emphasis> : Diffuser un flux vers plusieurs utilisateurs en utilisant le multicast. Entrez l'adresse IP du groupe multicast (dans le panel 224.0.0.0 - 239.255.255.255)."
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/gui.xml:107
@@ -589,7 +638,7 @@ msgid ""
 "empty, VLC will listen on all the network interfaces of the server on\n"
 "port 8080. Specify an address, port and path on which to listen using\n"
 "the following syntax [ip][:port][/path]."
-msgstr ""
+msgstr "<emphasis>HTTP</emphasis> : Diffuser en utilisant le protocole HTTP. Si vous laissez le champ <emphasis>Destination</emphasis> vide, VLC va écouter toutes les interfaces réseaux du serveur sur le port 8080. Spécifiez une adresse, un port et un chemin sur lequel écouter en utilisant la syntaxe suivante  [ip][:port][/path]."
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/gui.xml:113
@@ -600,18 +649,22 @@ msgid ""
 "IP address, on the 80 TCP port, in the /stream <emphasis>virtual\n"
 "file</emphasis>."
 msgstr ""
+"Par exemple, <emphasis>192.168.0.1:80/stream</emphasis>\n"
+"va faire écouter VLC sur l'interface portant l'adresse IP 192.168.0.1, sur ke port TCP 80, dans le <emphasis>fichier virtuel</emphasis> /stream."
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/gui.xml:124 en/gui.xml:125
+#: en/gui.xml:124
+#: en/gui.xml:125
 #, no-wrap
 msgid "Wizard streaming method"
-msgstr ""
+msgstr "Méthode de diffusion par l'assistant"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
-#: en/gui.xml:130 en/gui.xml:334
+#: en/gui.xml:130
+#: en/gui.xml:334
 #, no-wrap
 msgid "Transcoding options"
-msgstr ""
+msgstr "Options de transcodage"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/gui.xml:132
@@ -620,25 +673,29 @@ msgid ""
 "If you chose the <emphasis>Transcode/Save to file</emphasis>\n"
 "option, you can now specify the new audio and video codecs and bitrates\n"
 "you want you input converted to."
-msgstr ""
+msgstr "Si vous avez choisi l'option <emphasis>Transcoder/Sauvegarder</emphasis>, vous pouvez spécifier les nouveaux codecs audios et videos, et l'échantillonage dans lequel vous souhaitez convertir votre entrée."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
-#: en/gui.xml:136 en/gui.xml:155 en/gui.xml:322
+#: en/gui.xml:136
+#: en/gui.xml:155
+#: en/gui.xml:322
 #, no-wrap
 msgid "(See <xref linkend=\"smc\" endterm=\"tsmc\" />)"
-msgstr ""
+msgstr "(Voir <xref linkend=\"smc\" endterm=\"tsmc\" />)"
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/gui.xml:142 en/gui.xml:143
+#: en/gui.xml:142
+#: en/gui.xml:143
 #, no-wrap
 msgid "Wizard transcode"
-msgstr ""
+msgstr "Transcoder avec l'Assistant"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
-#: en/gui.xml:148 en/gui.xml:326
+#: en/gui.xml:148
+#: en/gui.xml:326
 #, no-wrap
 msgid "Encapsulation method"
-msgstr ""
+msgstr "Méthode d'encapsulation"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/gui.xml:150
@@ -648,19 +705,20 @@ msgid ""
 "TS encapsulation. The HTTP streaming method can be used with the MPEG\n"
 "PS, MPEG TS, MPEG 1, OGG, RAW or ASF encapsulation. Saving to a file can\n"
 "be done using any encapsulation format compatible with the chosen codecs."
-msgstr ""
+msgstr "Choisissez le format de méthode. La diffusion UDP requière une encapsulation MPEG TS. La diffusion par HTTP peut-être utilisée avec l'encapsulation MPEG PS, MPEG TS, MPEG 1, OGG, RAW ou ASF. Sauvegarder un fichier peut être fait en utilisant n'importe quelle format d'encapsulation compatible avec les codecs choisis."
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/gui.xml:161 en/gui.xml:162
+#: en/gui.xml:161
+#: en/gui.xml:162
 #, no-wrap
 msgid "Wizard encapsulation method"
-msgstr ""
+msgstr "Méthode d'encapsulation de l'Assistant"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/gui.xml:167
 #, no-wrap
 msgid "Streaming options"
-msgstr ""
+msgstr "Options de diffusion"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/gui.xml:169
@@ -668,7 +726,7 @@ msgstr ""
 msgid ""
 "If you chose to <emphasis>Stream to network</emphasis> you can\n"
 "now specify several options."
-msgstr ""
+msgstr "Si vous avez choisi de <emphasis>Diffuser vers un réseau</emphasis>, vous pouvez maintenant spécifier plusieurs options."
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/gui.xml:174
@@ -678,7 +736,7 @@ msgid ""
 "numbers of routers your stream can go through, for UDP unicast and\n"
 "unicast access methods. If you do not know what this means, you should\n"
 "leave the default value."
-msgstr ""
+msgstr "<emphasis>Temps de vie (TTL)</emphasis> Ceci règle le nombre de routeurs que votre flux peut traverser avant d'être supprimé, pour l'unicast UDP et les méthodes d'accès unicast. Si vous ne savez pas ce que cela signifie, vous devriez laisser la valeur par défaut. "
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><note><para>
 #: en/gui.xml:179
@@ -687,7 +745,7 @@ msgid ""
 "With UDP multicast, the default TTL is set to 1, meaning\n"
 "that your stream won't get accross any router. You may want to increase\n"
 "it if you want to route your multicast stream."
-msgstr ""
+msgstr "Pour le multicast UDP, la valeur par défaut du TTL est 1, ce qui signifie que votre flux n'ira pas au-delà d'un seul routeur. Vous aurez certainement à augmenter ce nombre si vous souhaitez voir votre flux multicast routé."
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/gui.xml:183
@@ -698,10 +756,11 @@ msgid ""
 "the SAP protocol, enter the name of the stream in the text input and\n"
 "check the checkbox. This is NOT available for the HTTP streaming\n"
 "method."
-msgstr ""
+msgstr "<emphasis>Annonce SAP</emphasis> Pour annoncer votre flux sur le réseau quand vous utilisez une méthode de diffusion UDP, en utilisant le protocole SAP, entrez le nom du flux dans le champ de texte et cochez la case correspondante. Ceci N'EST PAS disponible pour la méthode de diffusion HTTP."
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/gui.xml:195 en/gui.xml:196
+#: en/gui.xml:195
+#: en/gui.xml:196
 #, no-wrap
 msgid "Wizard streaming options"
 msgstr ""

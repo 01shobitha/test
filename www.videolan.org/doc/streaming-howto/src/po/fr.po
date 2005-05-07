@@ -2686,7 +2686,7 @@ msgstr ""
 #: en/ipv6.xml:18
 #, no-wrap
 msgid "Requirements"
-msgstr ""
+msgstr "Prérequis"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/ipv6.xml:19
@@ -2698,6 +2698,12 @@ msgid ""
 "stacks are not as good, so upgrade if you can. IPv6 must be properly\n"
 "configured and working on your system and network."
 msgstr ""
+"Votre système d'exploitation doit évidemment savoir gérer l'IPv6.\n"
+"C'est le cas, entre autres, de Windows XP/2003, Linux 2.6, Mac OS X (à\n"
+"partir de la version 10.2). Windows 2000 et Linux 2.4 sont aussi supportés,\n"
+"mais leur pile IPv6 n'est pas aussi bonne : aussi nous conseillons de\n"
+"les mettre à jour si vous le pouvez. L'IPv6 doit être correctement\n"
+"configuré et fonctionner sur votre ordinateur ainsi que sur le réseau."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/ipv6.xml:25
@@ -2708,6 +2714,10 @@ msgid ""
 "installed by running \"ipv6 install\" from the command line, or through\n"
 "the Network configuration panel."
 msgstr ""
+"Sous Linux, le module du noyau <emphasis>ipv6</emphasis> doit être\n"
+"chargé (ou compilé en dur). Sous Windows, le support de l'IPv6 peut être\n"
+"installé en exécutant \"ipv6 install\" à partir de la ligne de commandes,\n"
+"ou par l'intermédiaire du paneau de configuration du réseau."
 
 # type: Content of: <chapter><sect1><sect2><note><para>
 #: en/ipv6.xml:32
@@ -2716,12 +2726,14 @@ msgid ""
 "Under Windows 2000, you must add by hand a default\n"
 "multicast IPv6 route, with the following command:"
 msgstr ""
+"Sous Windows 2000, vous devez ajouter à la main une route de multicast\n"
+"IPv6 par défaut, grâce à la commande suivante :"
 
 # type: Content of: <chapter><sect1><sect2><note><screen>
 #: en/ipv6.xml:37
 #, no-wrap
 msgid "<prompt># </prompt><userinput>ipv6 rtu ff::/8 4</userinput>"
-msgstr ""
+msgstr "<prompt># </prompt><userinput>ipv6 rtu ff::/8 4</userinput>"
 
 # type: Content of: <chapter><sect1><sect2><note><para>
 #: en/ipv6.xml:41
@@ -2731,6 +2743,9 @@ msgid ""
 "this example) is the number of your true IPv6 interface. To have a list\n"
 "of your IPv6 interfaces, run <command>ipv6 if</command>."
 msgstr ""
+"où le dernier nombre (<emphasis>4</emphasis> dans cet exemple) est le\n"
+"numéro de votre vraie interface IPv6. Pour avoir la liste de vos\n"
+"interfaces IPv6, exécutez la commande <command>ipv6 if</command>."
 
 # type: Content of: <chapter><sect1><sect2><warning><para>
 #: en/ipv6.xml:47
@@ -2742,6 +2757,12 @@ msgid ""
 "upgrading to Service Pack 2 which provides an integrated IPv4/IPv6\n"
 "firewall that can be configured through the GUI."
 msgstr ""
+"Sous Windows XP SP1, vous pouvez rencontrer des problèmes avec un\n"
+"firewall IPv6 caché. Pour résoudre le problème, allez dans la liste\n"
+"des services Windows et arrêtez le service de pare-feu IPv6.\n"
+"Vous devriez envisager d'installer le Service Pack 2 qui fournit un\n"
+"pare-feu intégré IPv4/IPv6, configurable à l'aide de l'interface\n"
+"graphique."
 
 # type: Content of: <chapter><sect1><sect2><warning><para>
 #: en/ipv6.xml:55
@@ -2751,12 +2772,15 @@ msgid ""
 "to stop VMware and unload the VMware kernel modules, because we noticed\n"
 "it prevented IPv6 streaming !"
 msgstr ""
+"Si vous utilisez VMWare sous Linux, vous devrez l'arrêter et décharger\n"
+"les modules noyau de VMWare, car nous avons constaté qu'ils empêchaient la\n"
+"diffusion IPv6 !"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/ipv6.xml:62
 #, no-wrap
 msgid "Limitations"
-msgstr ""
+msgstr "Limitations"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/ipv6.xml:63
@@ -2767,6 +2791,10 @@ msgid ""
 "RTSP over IPv6 because the underlying library, Live.com, does not\n"
 "support IPv6 at the time of writing."
 msgstr ""
+"Quelques fonctionnalités de VLC media player ne supportent toujours\n"
+"pas l'IPv6. En particulier, il n'est pas possible d'utiliser le\n"
+"RTSP sur IPv6 à cause de la bibliothèque utilisée, Live.com, quine\n"
+"supporte pas l'IPv6 au moment de la rédaction de ce document."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/ipv6.xml:68
@@ -2776,18 +2804,22 @@ msgid ""
 "IPv4 mostly every, as it is what most people uses. That might be\n"
 "changed to something more transparent in future versions."
 msgstr ""
+"De plus, veuillez noter que, pour le moment, VLC utilise l'IPv4\n"
+"par défaut dans la plupart des cas, étant utilisé par la majorité.\n"
+" Ceci pourrait être modifié afin d'être plus transparent dans les\n"
+"prochaines versions."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/ipv6.xml:75
 #, no-wrap
 msgid "Streaming with VLC"
-msgstr ""
+msgstr "Diffuser avec VLC"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/ipv6.xml:79
 #, no-wrap
 msgid "With the Streaming Wizard (GUI)"
-msgstr ""
+msgstr "Avec l'assistant de diffusion (interface graphique)"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/ipv6.xml:80
@@ -2803,6 +2835,15 @@ msgid ""
 "<userinput>[fe80::211:11ff:fe25:e6b4%1]</userinput> where 1 is the\n"
 "number of the network interface as defined by the operating system."
 msgstr ""
+"L'assistant de diffusion accepte les adresses IPv6 entre crochets, par\n"
+"exemple :\n"
+"<userinput>[2002:8ac3:802d:1242:211:11ff:fe25:e6b4]</userinput>.\n"
+"Si vous spécifiez une adresse locale de lien, vous devrez sûrement\n"
+"spécifier l'interface réseau à utiliser. Sous Unix, ceci peut être fait\n"
+"de cette façon : <userinput>[fe80::211:11ff:fe25:e6b4%eth0]</userinput>\n"
+"pour utiliser eth0. De même, sous Windows, vous pouvez spécifier\n"
+"<userinput>[fe80::211:11ff:fe25:e6b4%1]</userinput> où 1 est le numéro\n"
+"de l'interface réseau, donné par le système d'exploitation."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/ipv6.xml:91
@@ -2811,6 +2852,8 @@ msgid ""
 "If you're streaming over HTTP, note that IPv6 is automatically\n"
 "used by default (so that both IPv6 and IPv4 clients will be allowed)."
 msgstr ""
+"Si vous diffusez sur HTTP, notez que l'IPv6 est automatiquement utilisé\n"
+"par défaut (afin que les clients en IPv6 ou IPv4 puissent se connecter)."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/ipv6.xml:95
@@ -2822,12 +2865,17 @@ msgid ""
 "<emphasis>advanced</emphasis> option in\n"
 "<emphasis>Preferences / General Settings / Input</emphasis>."
 msgstr ""
+"Si vous voulez spécifier un nom d'hôte DNS, souvenez-vous que VLC résouds\n"
+"les DNS en IPv4 par défaut. Vous devez soit préciser un nom d'hôte qui ne\n"
+"se résolve qu'en IPv6, soit activer l'option <emphasis>advanced</emphasis>\n"
+"&quot;Forcer l’utilisation d’IPv6&quot; dans <emphasis>Préférences /\n"
+"Paramètres généraux / Entrée</emphasis>."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/ipv6.xml:105
 #, no-wrap
 msgid "From the command-line"
-msgstr ""
+msgstr "En ligne de commande"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/ipv6.xml:106
@@ -2836,12 +2884,15 @@ msgid ""
 "The <userinput>--ipv6</userinput> command line option force\n"
 "the use of IPv6 by default (ie. IPv6 is always attempted before IPv4)."
 msgstr ""
+"L'option de ligne de commande <userinput>--ipv6</userinput> force\n"
+"l'utilisation de l'IPv6 par défaut (ie. l'IPv6 sera toujours tentée\n"
+"avant l'IPv4)."
 
 # type: Content of: <chapter><sect1><sect2><sect3><screen>
 #: en/ipv6.xml:111
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc -vvv video1.xyz --ipv6 --sout udp:[ff08::1] --ttl 12</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc -vvv video1.xyz --ipv6 --sout udp:[ff08::1] --ttl 12</userinput>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/ipv6.xml:121
@@ -2852,6 +2903,9 @@ msgid ""
 "configuration)\n"
 ","
 msgstr ""
+"est le fichier que vous désirez diffuser (vous pouvez par exemple utiliser\n"
+"<command>dvdsimple:/dev/dvd</command> pour diffuser un DVD, ou n'importe\n"
+"quelle autre configuration d'entrée),"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/ipv6.xml:126
@@ -2860,18 +2914,20 @@ msgid ""
 "<emphasis>ff08::1</emphasis> \n"
 "is either :"
 msgstr ""
+"<emphasis>ff08::1</emphasis> \n"
+"est soit :"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/ipv6.xml:133
 #, no-wrap
 msgid "the IPv6 address of the machine you want to unicast to;"
-msgstr ""
+msgstr "l'adresse IPv6 de la machine vers laquelle vous désirez diffuser en unicast;"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/ipv6.xml:137
 #, no-wrap
 msgid "or the multicast IPv6 address."
-msgstr ""
+msgstr "ou l'adresse IPv6 multicast."
 
 # type: Content of: <chapter><sect1><sect2><sect3><note><para>
 #: en/ipv6.xml:153 en/ipv6.xml:210
@@ -2880,12 +2936,14 @@ msgid ""
 "Under Unix/Linux, you may have to protect the square\n"
 "brackets around the IPv6 address:"
 msgstr ""
+"Sous Unix/Linux, il est possible que vous deviez \"protéger\" les\n"
+"crochets autour de l'adresse IPv6 :"
 
 # type: Content of: <chapter><sect1><sect2><sect3><note><screen>
 #: en/ipv6.xml:158
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc -vvv video1.xyz --ipv6 --sout udp:\\[ff08::1\\] --ttl 12</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc -vvv video1.xyz --ipv6 --sout udp:\\[ff08::1\\] --ttl 12</userinput>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><note><para>
 #: en/ipv6.xml:164
@@ -2894,12 +2952,13 @@ msgid ""
 "You may have to specify the output network\n"
 "interface:"
 msgstr ""
+"Il est possible que vous deviez spécifier l'interface réseau de sortie :\n"
 
 # type: Content of: <chapter><sect1><sect2><sect3><note><screen>
 #: en/ipv6.xml:169 en/ipv6.xml:225
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc -vvv video1.xyz --ipv6 --sout udp:[ff08::1%eth0] --ttl 12</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc -vvv video1.xyz --ipv6 --sout udp:[ff08::1%eth0] --ttl 12</userinput>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><note><para>
 #: en/ipv6.xml:173 en/ipv6.xml:229
@@ -2911,18 +2970,22 @@ msgid ""
 "<emphasis>enX</emphasis> and under Windows it's <emphasis>X</emphasis>,\n"
 "where <emphasis>X</emphasis> is the appropriate number)."
 msgstr ""
+"où <emphasis>eth0</emphasis> est le nom de l'interface réseau (sous\n"
+" Linux, elles sont nommées <emphasis>ethX</emphasis>, sous Mac OS X, c'est\n"
+"<emphasis>enX</emphasis>, et <emphasis>X</emphasis> sous Windows, avec\n"
+"<emphasis>X</emphasis> le numéro approprié)."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/ipv6.xml:186
 #, no-wrap
 msgid "Receiving an IPv6 stream"
-msgstr ""
+msgstr "Recevoir un flux en IPv6"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/ipv6.xml:189
 #, no-wrap
 msgid "With the graphical user interface"
-msgstr ""
+msgstr "Avec l'interface graphique"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/ipv6.xml:190
@@ -2936,12 +2999,20 @@ msgid ""
 "addresses syntax is the same as that explained in the\n"
 "<emphasis>Streaming over IPv6</emphasis> section of this chapter."
 msgstr ""
+"Cliquez sur <emphasis>Fichier / Ouvrir un flux réseau</emphasis>. Pour\n"
+"recevoir un flux UDP/RTP unicast envoyé à votre ordinateur, vous devez\n"
+"sélectionner l'option &quot;Forcer l'utilisation d'IPv6&quot; (et\n"
+"probablement ajuster le port UDP de destination). Pour recevoir un flux\n"
+"UDP multicast, sélectionnez l'option Multidiff. UDP/RTP, et précisez\n"
+"l'adresse multicast à laquelle s'inscrire, entre crochets. La syntaxe\n"
+"des adresses IPv6 est expliquée dans la partie <emphasis>Diffusion sur\n"
+"IPv6</emphasis> de ce chapitre."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/ipv6.xml:200
 #, no-wrap
 msgid "From the command line"
-msgstr ""
+msgstr "En ligne de commande"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/ipv6.xml:201
@@ -2951,60 +3022,63 @@ msgid ""
 "option force the use of IPv6 by default (ie. IPv6 is always attempted\n"
 "before IPv4)."
 msgstr ""
+"Comme pour la diffusion, l'option de ligne de commande\n"
+"<userinput>--ipv6</userinput> force l'utilisation de l'IPv6 par défaut\n"
+"(ie. l'IPv6 sera toujours tentée avant l'IPv4)."
 
 # type: Content of: <chapter><sect1><sect2><sect3><screen>
 #: en/ipv6.xml:206
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc -vvv --ipv6 udp:@[ff08::1]</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc -vvv --ipv6 udp:@[ff08::1]</userinput>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><note><screen>
 #: en/ipv6.xml:215
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc -vvv --ipv6 udp:@\\[ff08::1\\]</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc -vvv --ipv6 udp:@\\[ff08::1\\]</userinput>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><note><para>
 #: en/ipv6.xml:221
 #, no-wrap
 msgid "You may have to specify the output network interface:"
-msgstr ""
+msgstr "Il est possible que vous deviez spécifier l'interface réseau de sortie :"
 
 # type: Content of: <chapter><title>
 #: en/receive.xml:3
 #, no-wrap
 msgid "Receive and save a stream"
-msgstr ""
+msgstr "Recevoir et enregistrer un flux"
 
 # type: Content of: <chapter><sect1><title>
 #: en/receive.xml:7
 #, no-wrap
 msgid "Receive a stream with VLC"
-msgstr ""
+msgstr "Recevoir un flux avec VLC"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/receive.xml:11
 #, no-wrap
 msgid "Receive an unicast stream"
-msgstr ""
+msgstr "Recevoir un flux unicast"
 
 # type: Content of: <chapter><sect1><sect2><screen>
 #: en/receive.xml:15
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc -vvv udp:</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc -vvv udp:</userinput>"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/receive.xml:21
 #, no-wrap
 msgid "Receive a multicast stream"
-msgstr ""
+msgstr "Recevoir un flux multicast"
 
 # type: Content of: <chapter><sect1><sect2><screen>
 #: en/receive.xml:26
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc -vvv udp:@239.255.12.42</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc -vvv udp:@239.255.12.42</userinput>"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/receive.xml:30
@@ -3013,24 +3087,25 @@ msgid ""
 "where <emphasis>239.255.12.42</emphasis> is the\n"
 "multicast IP address you want to join."
 msgstr ""
+"où <emphasis>239.255.12.42</emphasis> est l'adresse multicast du flux."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/receive.xml:38
 #, no-wrap
 msgid "Receive an HTTP/FTP/MMS stream"
-msgstr ""
+msgstr "Recevoir un flux HTTP/FTP/MMS"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/receive.xml:43
 #, no-wrap
 msgid "Use one of the following command lines:"
-msgstr ""
+msgstr "Utilisez l'une de ces lignes de commande :"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><screen>
 #: en/receive.xml:50
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc -vvv http://example/stream.xyz</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc -vvv http://exemple/flux.xyz</userinput>"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/receive.xml:54
@@ -3039,12 +3114,13 @@ msgid ""
 "where <emphasis>http://example/stream.xyz</emphasis>\n"
 "is the HTTP address of the stream;"
 msgstr ""
+"où <emphasis>http://exemple/flux.xyz</emphasis> est l'adresse HTTP du flux ;"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><screen>
 #: en/receive.xml:62
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc -vvv ftp://example/stream.xyz</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc -vvv ftp://exemple/flux.xyz</userinput>"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/receive.xml:66
@@ -3053,12 +3129,13 @@ msgid ""
 "where <emphasis>ftp://example/stream.xyz</emphasis>\n"
 "is the FTP address of the stream;"
 msgstr ""
+"où <emphasis>ftp://exemple/flux.xyz</emphasis> est l'adresse FTP du flux ;"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><screen>
 #: en/receive.xml:73
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc -vvv mms://viptvr.yacast.fr/encoderfranceinfo</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc -vvv mms://viptvr.yacast.fr/encoderfranceinfo</userinput>"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/receive.xml:77
@@ -3068,42 +3145,43 @@ msgid ""
 "<emphasis>mms://viptvr.yacast.fr/encoderfranceinfo</emphasis> is the MMS\n"
 "address of the stream."
 msgstr ""
+"où <emphasis>mms://viptvr.yacast.fr/encoderfranceinfo</emphasis> est l'adresse MMS du flux."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/receive.xml:89
 #, no-wrap
 msgid "Receive a RTP stream available through RTSP"
-msgstr ""
+msgstr "Recevoir un flux RTP disponible par RTSP"
 
 # type: Content of: <chapter><sect1><sect2><screen>
 #: en/receive.xml:94
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc -vvv rtsp://www.hardradio.com/tonbeme.mov</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc -vvv rtsp://www.hardradio.com/tonbeme.mov</userinput>"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/receive.xml:98
 #, no-wrap
 msgid "where <emphasis>rtsp://www.hardradio.com/tonbeme.mov</emphasis> is the address of the stream."
-msgstr ""
+msgstr "où <emphasis>rtsp://www.hardradio.com/tonbeme.mov</emphasis> est l'adresse du flux."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/receive.xml:105
 #, no-wrap
 msgid "Receive a stream described by an SDP file"
-msgstr ""
+msgstr "Recevoir un flux décrit par un fichier SDP"
 
 # type: Content of: <chapter><sect1><sect2><screen>
 #: en/receive.xml:110
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc -vvv http://server.example.org/stream.sdp</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc -vvv http://serveur.exemple.org/flux.sdp</userinput>"
 
 # type: Content of: <chapter><sect1><title>
 #: en/receive.xml:117
 #, no-wrap
 msgid "Save a stream with VLC"
-msgstr ""
+msgstr "Enregistrer un flux avec VLC"
 
 # type: Content of: <chapter><sect1><para>
 #: en/receive.xml:122
@@ -3114,12 +3192,15 @@ msgid ""
 "graphical interface, or you can add to the command line the following\n"
 "argument:"
 msgstr ""
+"VLC peut enregistrer le flux sur le disque. Pour cela, utilisez le\n"
+"&quot;Flux de sortie&quot; de VLC : vous pouvez faire ceci via l'interface\n"
+"graphique, ou en utilisant cet argument de la ligne de commande :"
 
 # type: Content of: <chapter><sect1><screen>
 #: en/receive.xml:128
 #, no-wrap
 msgid "<userinput>--sout file/muxer:stream.xyz</userinput>"
-msgstr ""
+msgstr "<userinput>--sout file/muxer:flux.xyz</userinput>"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/receive.xml:138
@@ -3129,6 +3210,8 @@ msgid ""
 "is one of the formats supported by VLC's stream\n"
 "output, i.e. :"
 msgstr ""
+"<emphasis>muxer</emphasis> est l'un des formats supportés par le module\n"
+"de flux de sortie de VLC, c'est à dire :"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/receive.xml:146
@@ -3137,6 +3220,7 @@ msgid ""
 "<emphasis>ogg</emphasis>\n"
 "  for OGG format,"
 msgstr ""
+"<emphasis>ogg</emphasis> pour le format OGG,"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/receive.xml:149
@@ -3145,6 +3229,7 @@ msgid ""
 "<emphasis>ps</emphasis> \n"
 "  for MPEG2-PS format,"
 msgstr ""
+"<emphasis>ps</emphasis> pour le format MPEG2-PS,"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/receive.xml:152
@@ -3153,18 +3238,19 @@ msgid ""
 "<emphasis>ts</emphasis>\n"
 "  for MPEG2-PS format."
 msgstr ""
+"<emphasis>ts</emphasis> pour le format MPEG2-TS."
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/receive.xml:160
 #, no-wrap
 msgid "and"
-msgstr ""
+msgstr "et"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
 #: en/receive.xml:160
 #, no-wrap
 msgid "stream.xyz"
-msgstr ""
+msgstr "flux.xyz"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/receive.xml:160
@@ -3173,12 +3259,14 @@ msgid ""
 "is the name of\n"
 "the file you want to save the stream to, with the right extension."
 msgstr ""
+"est le nom du fichier sous lequel vous désirez enregistrer le flux,\n"
+"avec la bonne extension."
 
 # type: Content of: <chapter><sect1><title>
 #: en/receive.xml:170
 #, no-wrap
 msgid "Receive a stream with a set-top-box"
-msgstr ""
+msgstr "Recevoir un flux avec une set-top-box"
 
 # type: Content of: <chapter><sect1><para>
 #: en/receive.xml:175
@@ -3187,48 +3275,50 @@ msgid ""
 "Some set-top-boxes with Ethernet cards can receive\n"
 "MPEG2-TS streams over UDP and support multicast."
 msgstr ""
+"Certaines set-top-boxes munies d'une carte Ethernet peuvent recevoir des\n"
+"flux MPEG2-TS sur UDP et supportent le multicast."
 
 # type: Content of: <chapter><sect1><para>
 #: en/receive.xml:180
 #, no-wrap
 msgid "Set-top-boxes known to work with VLC are :"
-msgstr ""
+msgstr "Les set-top-boxes connues pour fonctionner avec VLC sont :"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/receive.xml:184
 #, no-wrap
 msgid "<ulink url=\"http://www.pace.co.uk\">Pace</ulink> set top boxes. (Pace Micro DSL 4000)"
-msgstr ""
+msgstr "<ulink url=\"http://www.pace.co.uk\">Pace</ulink> set top boxes. (Pace Micro DSL 4000)"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/receive.xml:185
 #, no-wrap
 msgid "<ulink url=\"http://www.aminocom.com\">Aminocom</ulink> set top boxes. (all the models with mpeg2)"
-msgstr ""
+msgstr "<ulink url=\"http://www.aminocom.com\">Aminocom</ulink> set top boxes. (tous les modèles avec mpeg2)"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/receive.xml:186
 #, no-wrap
 msgid "tuxia / gct-allwell (mpeg4 and mpeg2) sigma designs8174 chipset"
-msgstr ""
+msgstr "tuxia / gct-allwell (mpeg4 et mpeg2) sigma designs8174 chipset"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/receive.xml:187
 #, no-wrap
 msgid "i3micro mood200 (mpeg4 and mpeg2 in transport streams)"
-msgstr ""
+msgstr "i3micro mood200 (mpeg4 et mpeg2)"
 
 # type: Content of: <chapter><title>
 #: en/cmdline.xml:3
 #, no-wrap
 msgid "Advanced streaming using the command line"
-msgstr ""
+msgstr "Utilisation avancée du flux de sortie en ligne de commande"
 
 # type: Content of: <chapter><sect1><title>
 #: en/cmdline.xml:17
 #, no-wrap
 msgid "Structure of stream output"
-msgstr ""
+msgstr "Structure du flux de sortie"
 
 # type: Content of: <chapter><sect1><para>
 #: en/cmdline.xml:21
@@ -3243,12 +3333,21 @@ msgid ""
 "capabilities. You can <emphasis>chain</emphasis> modules to enhance the\n"
 "possibilities."
 msgstr ""
+"Flux de sortie est le nom d'une fonctionnalité de VLC qui permet de\n"
+"diffuser sur le réseau, ou d'enregistrer, n'importe quel flux lu par VLC\n"
+"au lieu de l'afficher. Différents types de traitements peuvent être\n"
+"appliqués au flux durant ce procédé (transcodage, redimensionnement,\n"
+"filtres, re-multiplexage...)\n"
+"\n"
+"Le flux de sortie peut inclure plusieurs modules, chacun d'eux possédant\n"
+"différentes fonctionnalités. Vous pouvez <emphasis>enchaîner</emphasis>\n"
+"les modules afin d'augmanter les possibilités."
 
 # type: Content of: <chapter><sect1><para>
 #: en/cmdline.xml:31
 #, no-wrap
 msgid "Here is the list of the modules currently available:"
-msgstr ""
+msgstr "Voici la liste des modules actuellement disponibles :"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/cmdline.xml:36
@@ -3259,6 +3358,10 @@ msgid ""
 "output</emphasis> module: for example, UDP, file, HTTP, ... You will\n"
 "probably want to use this module at the end of your chains."
 msgstr ""
+"<emphasis>standard</emphasis>\n"
+"permet d'<emphasis>envoyer</emphasis> le flux via un <emphasis> module\n"
+"de sortie</emphasis> : par exemple, UDP, fichier, HTTP... Vous voudrez\n"
+"probablement utiliser ce module à la fin de vos chaînes."
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/cmdline.xml:43
@@ -3272,6 +3375,14 @@ msgid ""
 "of CPU power, depending on the parameters set. Other streams, such\n"
 "as files and disks are transcoded as fast as the system allows it."
 msgstr ""
+"<emphasis>trascode</emphasis> est utilisé pour transcoder (décoder et\n"
+"ré-encoder le flux en utilisant un codec et/ou un débit différent)\n"
+"l'audio et la vidéo du flux d'entrée. Si les modules d'entrée ou de\n"
+"sortie ne permettent pas le contrôle du débit (réseau, périphériques\n"
+"d'acquisition), ceci est fait \"à la volée\", en temps réel. Ceci peut\n"
+"nécessiter un charge importante en CPU, en fonction des paramètres\n"
+"choisis. Les autres flux, tels que fichiers et disques, sont transcodés\n"
+"aussi rapidement que le permet le système."
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/cmdline.xml:52
@@ -3281,6 +3392,9 @@ msgid ""
 "allows you to create a second chain, where the\n"
 "stream will be handled in an independent way."
 msgstr ""
+"<emphasis>duplicate</emphasis>\n"
+"vous permet de créer une seconde chaîne, dans laquelle le flux sera\n"
+"traité d'une manière indépendante."
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/cmdline.xml:57
@@ -3291,6 +3405,10 @@ msgid ""
 "would normally do. Used with the <emphasis>duplicate</emphasis>\n"
 "module, this allows you to monitor the stream while processing it."
 msgstr ""
+"<emphasis>display</emphasis> \n"
+"vous permet d'afficher le flux d'entrée, tel que VLC le ferait en temps\n"
+"normal. Utilisé de paire avec le modules <emphasis>duplicate</emphasis>,\n"
+"ceci vous permet de visualiser le flux durant le traitement."
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/cmdline.xml:63
@@ -3299,6 +3417,8 @@ msgid ""
 "<emphasis>rtp</emphasis> streams over RTP (one UDP port\n"
 "for each elementary stream). This module also allows RTSP support."
 msgstr ""
+"<emphasis>rtp</emphasis> diffuse sur RTP (un port UDP par flux\n"
+"élémentaire). Ce modules supporte aussi le RTSP."
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/cmdline.xml:67
@@ -3308,6 +3428,9 @@ msgid ""
 "Elementary Streams (ES) out of an input stream. This can be used\n"
 "to save audio and video streams to separate files, for instance."
 msgstr ""
+"<emphasis>es</emphasis> vous permet de séparer les flux élémentaires\n"
+"(ES) d'un flux d'entrée. Ceci peut être utilisé afin d'enregistrer les\n"
+"flux audio et vidéo dans des fichiers séparés, par exemple."
 
 # type: Content of: <chapter><sect1><para>
 #: en/cmdline.xml:75
@@ -3316,12 +3439,14 @@ msgid ""
 "Each of these modules may take options. Here is the\n"
 "syntax that you must use:"
 msgstr ""
+"Chacun de ces modules peut accepter des options. Voici la syntaxe que vous\n"
+"devez employer :"
 
 # type: Content of: <chapter><sect1><screen>
 #: en/cmdline.xml:80
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc input_stream --sout \"#module1{option1=parameter1{parameter-option1},option2=parameter2}:#module2{option1=...,option2=...}:...\"</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc flux_d'entrée --sout \"#module1{option1=paramètre1{option-du-paramètre1},option2=paramètre2}:#module2{option1=...,option2=...}:...\"</userinput>"
 
 # type: Content of: <chapter><sect1><note><para>
 #: en/cmdline.xml:83
@@ -3333,42 +3458,47 @@ msgid ""
 "very advanced settings. If you don't understand their description, this\n"
 "certainly means that you don't need them."
 msgstr ""
+"Certaines des options des modules sont requises (option1 dans cet exemple),\n"
+"les autres sont optionnelles. Les paramètres des options\n"
+"(option-du-paramètre1 dans cet exemple) sont toujours optionnelles. Ces\n"
+"paramètres d'options sont souvent des réglages très avancés. Si vous ne\n"
+"comprenez pas leur description, vous n'en avez sûrement pas besoin."
 
 # type: Content of: <chapter><sect1><para>
 #: en/cmdline.xml:90
 #, no-wrap
 msgid "You may also use the following syntax :"
-msgstr ""
+msgstr "Vous pouvez aussi utiliser la syntaxe suivante :"
 
 # type: Content of: <chapter><sect1><screen>
 #: en/cmdline.xml:94
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc input_stream --sout-module1-option1=... --sout-module1-option2=... --sout-module2-option1=... --sout-module2-option2=... ...</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc flux_d'entrée --sout-module1-option1=... --sout-module1-option2=... --sout-module2-option1=... --sout-module2-option2=... ...</userinput>"
 
 # type: Content of: <chapter><sect1><para>
 #: en/cmdline.xml:98
 #, no-wrap
 msgid "For example, to transcode a stream and send it, use:"
-msgstr ""
+msgstr "Par exemple, pour transcoder un flux et le diffuser, utilisez :"
 
 # type: Content of: <chapter><sect1><screen>
 #: en/cmdline.xml:102
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc input_stream --sout '#transcode{options}:standard{options}'</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc flux_d'entrée --sout '#transcode{options}:standard{options}'</userinput>"
 
 # type: Content of: <chapter><sect1><title>
 #: en/cmdline.xml:107
 #, no-wrap
 msgid "Description of the modules"
-msgstr ""
+msgstr "Description des modules"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/cmdline.xml:109
 #, no-wrap
 msgid "standard (alias std)"
-msgstr ""
+msgstr "standard (alias std)"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/cmdline.xml:112
@@ -3377,36 +3507,38 @@ msgid ""
 "This module saves the stream to a file or sends it over a network, after\n"
 "having muxed it."
 msgstr ""
+"Ce module enregistre le flux dans un fichier ou le diffuse sur le réseau,\n"
+"après l'avoir multiplexé."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/cmdline.xml:116
 #, no-wrap
 msgid "The available options are:"
-msgstr ""
+msgstr "Les options disponibles sont :"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:118 en/cmdline.xml:519
 #, no-wrap
 msgid "access="
-msgstr ""
+msgstr "access="
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:120
 #, no-wrap
 msgid "This option allows to set the medium used to save or send the stream. This is a compulsory option. Available options are:"
-msgstr ""
+msgstr "Ces options permmettent de sélectionner le medium utilisé pour enregistrer ou diffuser le flux. Cette option est obligatoirement requise. Les choix possibles sont :"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:123
 #, no-wrap
 msgid "file: saves the stream to a file."
-msgstr ""
+msgstr "file : enregistre le flux dans un fichier."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:124
 #, no-wrap
 msgid "Use the <emphasis>append</emphasis> option to append the stream to an existing file instead of replacing it."
-msgstr ""
+msgstr "Utilisez l'option <emphasis>append</emphasis> pour ajouter le flux à un fichier existant au lieu de le remplacer."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:126
@@ -3415,6 +3547,7 @@ msgid ""
 "udp: streams to a UDP unicast or multicast\n"
 "address."
 msgstr ""
+"udp : diffuse vers une adresse UPD unicast ou multicast."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:128
@@ -3429,6 +3562,15 @@ msgid ""
 "the chain, <emphasis>raw</emphasis> if you don't want to wait until the\n"
 "MTU is filled before sending the packet."
 msgstr ""
+"Les options sont : <emphasis>caching=&lt;durée en ms&gt;</emphasis> pour\n"
+"définir le temps pendant lequel VLC devrait garder les données en tampon\n"
+"avant de les envoyer, <emphasis>ttl=&lt;ttl&gt;</emphasis> pour définir\n"
+"le ttl des paquets UDP envoyés, <emphasis>group=&lt;nombre de\n"
+"paquets&gt;</emphasis> pour envoyer les paquets par rafales plutôt que\n"
+"un par un, <emphasis>late=&lt;durée en ms&gt;</emphasis> pour éliminer\n"
+"les paquets qui arrivent trop en retard à cette étape de la chaîne,\n"
+"<emphasis>raw</emphasis> si vous ne voulez pas attendre que le MTU soit\n"
+"rempli avant d'envoyer les paquets."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:137

@@ -849,13 +849,13 @@ msgstr ""
 #: en/gui.xml:196
 #, no-wrap
 msgid "Wizard streaming options"
-msgstr ""
+msgstr "options de l'assistant de diffusion"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/gui.xml:201
 #, no-wrap
 msgid "Save to file destination"
-msgstr ""
+msgstr "destination du fichier d'enregistrement"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/gui.xml:203
@@ -863,31 +863,33 @@ msgstr ""
 msgid ""
 "If you chose <emphasis>Transcode/Save to file</emphasis> you can\n"
 "now specify the file you want to save the stream to."
-msgstr ""
+msgstr "si vous avez choisi <emphasis>Tanscoder/Sauvegarder</emphasis>\n"
+"vous pouvez a présent spécifier le fichier dans lequel vous voulez\n"
+"sauvegarder le flux."
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/gui.xml:210 en/gui.xml:211
 #, no-wrap
 msgid "Wizard save file - wxWindows interface"
-msgstr ""
+msgstr "Assistant de sauvegarde - interface wxWindows"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/gui.xml:214
 #, no-wrap
 msgid "You can now select the <emphasis>Finish</emphasis> button to start streaming/converting the source."
-msgstr ""
+msgstr "Vous pouvez a présent cliquer sur <emphasis>Terminer</emphasis> pour commencer à diffuser/transcoder la source"
 
 # type: Content of: <chapter><sect1><title>
 #: en/gui.xml:218
 #, no-wrap
 msgid "Streaming using the GUI"
-msgstr ""
+msgstr "Diffusion en mode graphique"
 
 # type: Content of: <chapter><sect1><title>
 #: en/gui.xml:220 en/intro.xml:10
 #, no-wrap
 msgid "Introduction"
-msgstr ""
+msgstr "Introduction"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/gui.xml:222
@@ -899,7 +901,8 @@ msgid ""
 "Linux), skinnable (Windows / GNU Linux) and MacOS X interfaces.\n"
 "Streaming methods and options used 99% of time should be available in\n"
 "this panel."
-msgstr ""
+
+msgstr "Une deuxième facon de parametrer une instance de diffusion avec VLC est d'utiliser le menu<emphasis>Flux de sortie</emphasis>  dans la boite de dialogue <emphasis>Ouvrir...</emphasis> de l'interface wxWindows (Windows / GNU Linux), skins (Windows / GNU Linux) et MacOS X. Les options et méthodes les plus courantes de diffusion sont accessibles dans ce menu"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/gui.xml:229
@@ -908,37 +911,37 @@ msgid ""
 "To stream the opened media, check the \"Stream output\" checkbox in\n"
 "the \"Open File/Disc/Network Stream/Capture Device\" dialog and click on\n"
 "the \"Settings\" button."
-msgstr ""
+msgstr "pour diffuser le media ouvert, cochez \"flux de sortie\" dans la boite de dialogue \"ouvrir un fichier/disque/flux reseau/périphérique de capture\"et cliquez sur le bouton \"paramètres\" "
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/gui.xml:237 en/gui.xml:238
 #, no-wrap
 msgid "Open file dialog - wxWindows interface"
-msgstr ""
+msgstr "menu ouvrir un fichier - interface wxWindows"
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/gui.xml:245 en/gui.xml:246
 #, no-wrap
 msgid "Open file dialog - Mac OS X interface"
-msgstr ""
+msgstr "menu ouvrir un fichier - Mac OS X"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/gui.xml:251
 #, no-wrap
 msgid "The Stream Output dialog"
-msgstr ""
+msgstr "la boite dialogue Flux de sortie"
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/gui.xml:257 en/gui.xml:258 en/gui.xml:265 en/gui.xml:266
 #, no-wrap
 msgid "Stream output dialog - wxWindows interface"
-msgstr ""
+msgstr "la boite dialogue Flux de sortie - interface wxWindows"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/gui.xml:269
 #, no-wrap
 msgid "Stream Output MRL"
-msgstr ""
+msgstr "MRL Flux de sortie"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/gui.xml:271
@@ -949,19 +952,19 @@ msgid ""
 "is updated as you change options in the Stream output dialog. For more\n"
 "information on how to edit the <emphasis>Stream Output MRL</emphasis>\n"
 "read <xref linkend=\"cmdline\" endterm=\"tcmdline\" />."
-msgstr ""
+msgstr "Dans l'interface wxWindows, un boite de dialogue affiche le <emphasis>MRL de flux de sortie</emphasis> (Media Ressource Locator). Elle est mise a jour quand vous modifiez des options dans le menu Flux de sortie. Pour plus d'information sur comment editer le <emphasis>MRL de flux de sortie</emphasis>, lisez <xref linkend=\"cmdline\" endterm=\"tcmdline\" />."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/gui.xml:279
 #, no-wrap
 msgid "Output methods"
-msgstr ""
+msgstr "methodes de diffusion"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/gui.xml:284
 #, no-wrap
 msgid "<emphasis>Play localy</emphasis>: display the stream on your screen. This allows to display the stream you are actually streaming. Effects of transcoding, rescaling, etc... can be monitored locally using this function."
-msgstr ""
+msgstr "<emphasis>Jouer en local</emphasis>: affiche la diffusion à l'écran. Cela permet d'afficher le flux que vous êtes en train de diffuser. Les effets de transcodage, etc... peuvent être surveillés en local avec cette fonction."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/gui.xml:287
@@ -970,19 +973,19 @@ msgid ""
 "<emphasis>File</emphasis>: Save the stream to a\n"
 "file. The <emphasis>Dump raw input</emphasis> option allows to\n"
 "save the input stream as it read by VLC, without any processing."
-msgstr ""
+msgstr "<emphasis>Fichier</emphasis>: Sauvegarder la diffusion dans un fichier. L'otion <emphasis>Dumper le flux brut</emphasis> permet d'enregistrer le flux d'entrée en même temps qu'il est lu par VLC, sans aucun traitement."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/gui.xml:293
 #, no-wrap
 msgid "<emphasis>HTTP</emphasis>: Use the HTTP streaming method. Specify the IP address and TCP port number on which to listen."
-msgstr ""
+msgstr "<emphasis>HTTP</emphasis>: Pour utiliser la methode de diffusion HTTP. Spécifiez l'adresse IP ainsi que le numero de port TCP à écouter"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/gui.xml:297
 #, no-wrap
 msgid "<emphasis>MMSH</emphasis>: This access method allows to stream to Microsoft Windows Media Player. Specify the IP address and TCP port number on which to listen."
-msgstr ""
+msgstr "<emphasis>MMSH</emphasis>: Cette methode d'acces permet de diffuser vers Microsoft Windows Media Player. Spécifiez l'adresse IP ainsi que le numero de port TCP à écouter."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><note><para>
 #: en/gui.xml:300
@@ -990,13 +993,13 @@ msgstr ""
 msgid ""
 "This will only work with the <emphasis>ASF</emphasis>\n"
 "enacpsulation method."
-msgstr ""
+msgstr "Cela fonctionnera seulement avec la methode d'encapsulation <emphasis>ASF</emphasis>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/gui.xml:306
 #, no-wrap
 msgid "<emphasis>UDP</emphasis>: Stream in unicast by providing an address in the 0.0.0.0 - 223.255.255.255 range or in multicast by providing an address in the 224.0.0.0 - 239.255.255.255 range. It is also possible to stream to IPv6 addresses."
-msgstr ""
+msgstr "<emphasis>UDP</emphasis>: Diffusez en unicast en donnant une adresse dans la gamme 0.0.0.0 - 223.255.255.255 ou en multicast en donnant une adresse dans la gamme 224.0.0.0 - 239.255.255.255. Il est aussi possible de diffuser vers des adresses IPv6."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><note><para>
 #: en/gui.xml:309
@@ -1004,19 +1007,19 @@ msgstr ""
 msgid ""
 "This will only work with the <emphasis>TS</emphasis>\n"
 "encapsulation method."
-msgstr ""
+msgstr "Cela fonctionnera seulement avec la methode d'encapsulation <emphasis>TS</emphasis>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/gui.xml:315
 #, no-wrap
 msgid "<emphasis>RTP</emphasis>: Use the Real-Time Transfer Protocol. Like UDP, it can use both unicast and multicast addresses."
-msgstr ""
+msgstr "<emphasis>RTP</emphasis>: pour utiliser le \"Real-Time Transfer Protocol\". Comme avec l'UDP, cela fonctionne avec des adresses unicast et multicast."
 
 # type: Content of: <chapter><sect1><sect2><sect3><note><para>
 #: en/gui.xml:320
 #, no-wrap
 msgid "UDP, HTTP, MMSH and RTP methods require to select the <emphasis>Stream</emphasis> option on the MacOS X interface"
-msgstr ""
+msgstr "Les méthodes UDP, HTTP, MMSH et RTP necessitent de choisir l'option <emphasis>diffuser</emphasis> sur l'interface MacOS X."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/gui.xml:328
@@ -1025,25 +1028,25 @@ msgid ""
 "Select an encapsulation method that fits the codecs and access\n"
 "method of your stream, among MPEG TS, MPEG PS, MPEG 1, OGG, Raw, ASF,\n"
 "AVI, MP4 and MOV. (See <xref linkend=\"smc\" endterm=\"tsmc\" />)"
-msgstr ""
+msgstr "choisissez une méthode d'encapsulation qui corresponde aux methodes d'encodage et d'acces de votre diffusion, parmi MPEG TS, MPEG PS, MPEG 1, OGG, Raw, ASF,AVI, MP4 et MOV. (voir<xref linkend=\"smc\" endterm=\"tsmc\" />)"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/gui.xml:336
 #, no-wrap
 msgid "Enable video transcoding by checking the \"Video Codec\" checkbox. Choose a codec from the list. You can also specify an average bitrate and scale the input. (See <xref linkend=\"smc\" endterm=\"tsmc\" />)"
-msgstr ""
+msgstr "activez le transcodage video en cochant la case \"Codec video\". choisisses un codec dans la liste. Vous pouvez egalement spécifier un debit et une echelle. (voir<xref linkend=\"smc\" endterm=\"tsmc\" />)"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/gui.xml:338
 #, no-wrap
 msgid "Enable audio transcoding by checking the \"Audio Codec\" checkbox. Choose a codec from the list. You can also specify an average bitrate and the number of audio channels to encode. (See <xref linkend=\"smc\" endterm=\"tsmc\" />)"
-msgstr ""
+msgstr "activez le transcodage audio en cochant la case \"Codec audio\". choisisses un codec dans la liste. Vous pouvez egalement spécifier un debit et le nombre de canaux audio a encoder (Voir <xref linkend=\"smc\" endterm=\"tsmc\" />)"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/gui.xml:342
 #, no-wrap
 msgid "Miscellaneous options"
-msgstr ""
+msgstr "Option diverses"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/gui.xml:344
@@ -1056,7 +1059,7 @@ msgid ""
 "RTSP server of VLC, or as a file. This can be done using the according\n"
 "checkboxes. The <emphasis>SDP URL</emphasis> text box allows to give the\n"
 "url or destination where the SDP file will be available."
-msgstr ""
+msgstr "Choisissez la methode d'annonce de diffusion. Vous pouvez utiliser SAP (Service Announce Protocol) ou SLP (Service Location Protocol). Vous devez alors spécifier un nom de chaine. L'interface MacOS X permet egalement d'exporter le fichier de description (SDP) d'une session RTP en utilisant le serveur HTTP ou RTSP de VLC, ou bien un fichier. Cela peut être fait en cochant les cases appropriées. La boite <emphasis>SDP URL</emphasis> permet de spécifier l'URL ou la destination ou le fichier SDP sera disponible."
 
 # type: Content of: <chapter><title>
 #: en/dvb.xml:3
@@ -1064,19 +1067,19 @@ msgstr ""
 msgid ""
 "Stream a DVB channel (satellite or digital\n"
 "terrestial TV)"
-msgstr ""
+msgstr "Diffuser une chaine DVB (Satellite ou TNT)"
 
 # type: Content of: <chapter><sect1><note><para>
 #: en/dvb.xml:11 en/encoding-cards.xml:11
 #, no-wrap
 msgid "This is possible under GNU/Linux only."
-msgstr ""
+msgstr "Cela est uniquement possible sous GNU/Linux."
 
 # type: Content of: <chapter><sect1><title>
 #: en/dvb.xml:15
 #, no-wrap
 msgid "Install the DVB drivers"
-msgstr ""
+msgstr "Installer les drivers DVB"
 
 # type: Content of: <chapter><sect1><para>
 #: en/dvb.xml:19
@@ -1085,7 +1088,7 @@ msgid ""
 "If you want to be able to stream from a DVB card (a\n"
 "satellite card or a digital terrestial TV card), you need to install the\n"
 "DVB drivers:"
-msgstr ""
+msgstr "Si vous voulez pouvoir diffuser depuis une carte DVB (carte satellite ou TNT), vous devez installer les drivers DVB."
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/dvb.xml:29
@@ -1093,7 +1096,7 @@ msgstr ""
 msgid ""
 "if you use a Linux 2.6.x kernel, you just need to\n"
 "compile the right modules."
-msgstr ""
+msgstr "Si vous utilisez un noyau linux 2.6.x, vous avez juste besoin de compiler les bons modules."
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/dvb.xml:36
@@ -1103,7 +1106,7 @@ msgid ""
 "kernel, you must download the latest release of the DVB drivers from the <ulink url=\"http://www.linuxtv.org/download/dvb/\">DVB drivers download\n"
 "page</ulink> of the <ulink url=\"http://www.linuxtv.org/\">LinuxTV</ulink>\n"
 "Project."
-msgstr ""
+msgstr "Si vous utilisez un noyau linux 2.4.x, vous devez telecharger la dernière version des drivers DVB depuis la page <ulink url=\"http://www.linuxtv.org/download/dvb/\"> du projet <ulink url=\"http://www.linuxtv.org/\">LinuxTV</ulink>."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/dvb.xml:45 en/encoding-cards.xml:160
@@ -1111,13 +1114,13 @@ msgstr ""
 msgid ""
 "Uncompress the tarball and follow the instructions\n"
 "written in the"
-msgstr ""
+msgstr "Decompressez le tarball et suivez les instructions ecrites dans le fichier"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para><filename>
 #: en/dvb.xml:46 en/encoding-cards.xml:161
 #, no-wrap
 msgid "INSTALL"
-msgstr ""
+msgstr "INSTALL"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/dvb.xml:46 en/encoding-cards.xml:161
@@ -1125,25 +1128,25 @@ msgstr ""
 msgid ""
 "file to compile and install\n"
 "the drivers."
-msgstr ""
+msgstr "pour compiler et installer les drivers."
 
 # type: Content of: <chapter><sect1><title>
 #: en/dvb.xml:53
 #, no-wrap
 msgid "Stream with VLS"
-msgstr ""
+msgstr "Diffuser avec VLC"
 
 # type: Content of: <chapter><sect1><para>
 #: en/dvb.xml:57
 #, no-wrap
 msgid "Put a"
-msgstr ""
+msgstr "Mettez un fichier"
 
 # type: Content of: <chapter><sect1><para><filename>
 #: en/dvb.xml:57
 #, no-wrap
 msgid ".dvbrc"
-msgstr ""
+msgstr ".dvbrc"
 
 # type: Content of: <chapter><sect1><para>
 #: en/dvb.xml:57
@@ -1153,7 +1156,7 @@ msgid ""
 "the DVB channels (satellite or digital terrestial TV channels) you\n"
 "want to stream in your home directory (some are provided in the\n"
 "<emphasis>libdvb</emphasis> tarball for the satellite channels)."
-msgstr ""
+msgstr "contenant les chaines DVB (Staellite ou TNT) que vous désirez diffuser dans votre repertoire personnel (certains sont fournis dans le tarball <emphasis>libdvb</emphasis> pour chaines satellite."
 
 # type: Content of: <chapter><sect1><para>
 #: en/dvb.xml:64
@@ -1161,13 +1164,13 @@ msgstr ""
 msgid ""
 "Run VLS with the following command line\n"
 ":"
-msgstr ""
+msgstr "Lancez VLS avec la ligne de commande suivante :"
 
 # type: Content of: <chapter><sect1><screen>
 #: en/dvb.xml:69
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vls -vv -d udp:192.168.0.42 dvb:\"EUROSPORT\" --ttl 12</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vls -vv -d udp:192.168.0.42 dvb:\"EUROSPORT\" --ttl 12</userinput>"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/dvb.xml:78
@@ -1176,13 +1179,13 @@ msgid ""
 "<emphasis>\"EUROSPORT\"</emphasis>\n"
 " is the channel you want to stream as written in\n"
 "your"
-msgstr ""
+msgstr "<emphasis>\"EUROSPORT\"</emphasis> est la chaine que vous voulez diffuser comme ecrit dans votre fichier"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
 #: en/dvb.xml:80
 #, no-wrap
 msgid "~/.dvbrc"
-msgstr ""
+msgstr "~/.dvbrc"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/dvb.xml:80
@@ -1190,7 +1193,7 @@ msgstr ""
 msgid ""
 "file\n"
 ","
-msgstr ""
+msgstr ","
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/dvb.xml:83
@@ -1199,13 +1202,13 @@ msgid ""
 "<emphasis>192.168.0.42</emphasis>\n"
 " is either \n"
 ":"
-msgstr ""
+msgstr "<emphasis>192.168.0.42</emphasis> est l'un ou l'autre :"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/dvb.xml:115 en/encoding-cards.xml:58 en/encoding-cards.xml:259
 #, no-wrap
 msgid "Stream with VLC"
-msgstr ""
+msgstr "Diffuser avec VLC"
 
 # type: Content of: <chapter><sect1><note><para>
 #: en/dvb.xml:119
@@ -1214,31 +1217,31 @@ msgid ""
 "For this, you can use the SVN version of VLC and compile\n"
 "it with <command>./configure --enable-dvb</command> This feature should\n"
 "still be considered as experimental. You can find it in the official release since the version 0.7.2."
-msgstr ""
+msgstr "Pour cela, vous pouvez utiliser la version SVN de VLC et la compiler avec <command>./configure --enable-dvb</command>. Cette fonctionnalité est encore considérée comme expérimentale. Vous pourrez la trouver dans la release officielle depuis la version 0.7.2."
 
 # type: Content of: <chapter><sect1><screen>
 #: en/dvb.xml:124
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc -vvv --color --ttl 12  --ts-es-id-pid --programs 8508,8505 dvb: --dvb-adapter=0 --dvb-frequency=11739000 --dvb-srate=27500000 --dvb-voltage=13 --dvb-fec=3 --dvb-budget-mode --sout '#duplicate{dst=std{access=udp,mux=ts,url=address:3001},select=\"program=8508\",dst=std{access=udp,mux=ts,url=address:3002},select=\"program=8505\"}'</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc -vvv --color --ttl 12  --ts-es-id-pid --programs 8508,8505 dvb: --dvb-adapter=0 --dvb-frequency=11739000 --dvb-srate=27500000 --dvb-voltage=13 --dvb-fec=3 --dvb-budget-mode --sout '#duplicate{dst=std{access=udp,mux=ts,url=address:3001},select=\"program=8508\",dst=std{access=udp,mux=ts,url=address:3002},select=\"program=8505\"}'</userinput>"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
 #: en/dvb.xml:134
 #, no-wrap
 msgid "ts-es-id-pid"
-msgstr ""
+msgstr "ts-es-id-pid"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/dvb.xml:134
 #, no-wrap
 msgid "is necessary to duplicate"
-msgstr ""
+msgstr "est necessaire pour dupliquer"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
 #: en/dvb.xml:137
 #, no-wrap
 msgid "8508"
-msgstr ""
+msgstr "8508"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/dvb.xml:137
@@ -1246,25 +1249,25 @@ msgstr ""
 msgid ""
 "is the SID of the DVB\n"
 "channel you would like to stream, expressed as a decimal number"
-msgstr ""
+msgstr "est le SID de la chaine DVB que vous voulez diffuser, exprimé en décimal"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
 #: en/dvb.xml:142
 #, no-wrap
 msgid "0"
-msgstr ""
+msgstr "0"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/dvb.xml:142
 #, no-wrap
 msgid "is the id of the dvb card (0 for dvb0)"
-msgstr ""
+msgstr "est le numéro de la carte DVD (0 pour dvb0)"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
 #: en/dvb.xml:145
 #, no-wrap
 msgid "11739000"
-msgstr ""
+msgstr "11739000"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/dvb.xml:145
@@ -1272,13 +1275,13 @@ msgstr ""
 msgid ""
 "is the frequency of the\n"
 "transponder you want to stream from in Hz"
-msgstr ""
+msgstr "est la frequence en Hz du transpondeur que vous voulez diffuser"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
 #: en/dvb.xml:149
 #, no-wrap
 msgid "27500000"
-msgstr ""
+msgstr "27500000"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/dvb.xml:149
@@ -1286,43 +1289,43 @@ msgstr ""
 msgid ""
 "is the transponder\n"
 "symbolrate in Hz"
-msgstr ""
+msgstr "est le symbolrate du transpondeur en Hz"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
 #: en/dvb.xml:153
 #, no-wrap
 msgid "13"
-msgstr ""
+msgstr "13"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/dvb.xml:153
 #, no-wrap
 msgid "is the polarization (13 for vertical and 18 for horizontal)"
-msgstr ""
+msgstr "est la polarisation (13 pour verticale et 18 pour horizontale)"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
 #: en/dvb.xml:156
 #, no-wrap
 msgid "3"
-msgstr ""
+msgstr "3"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/dvb.xml:156
 #, no-wrap
 msgid "is the FEC (3 for 3/4), if you don't put the option it will auto-detect the value"
-msgstr ""
+msgstr "est le FEC (3 pour 3/4), si vous ne mettez pas l'option, la valeur sera detectée automatiquement"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
 #: en/dvb.xml:159
 #, no-wrap
 msgid "dvb-budget-mode"
-msgstr ""
+msgstr "dvb-budget-mode"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/dvb.xml:159
 #, no-wrap
 msgid "if your card support this mode"
-msgstr ""
+msgstr "si cette carte supporte ce mode"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/dvb.xml:161
@@ -1330,25 +1333,25 @@ msgstr ""
 msgid ""
 "<emphasis>address</emphasis>\n"
 " is either:"
-msgstr ""
+msgstr "<emphasis>address</emphasis> est l'une:"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/dvb.xml:167 en/encoding-cards.xml:422
 #, no-wrap
 msgid "the IP address of the machine you want to unicast to"
-msgstr ""
+msgstr "des adresses IP des machines vers lequelles vous voulez difuser en unicast"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/dvb.xml:171 en/encoding-cards.xml:425
 #, no-wrap
 msgid "or the DNS name the machine you want to unicast to"
-msgstr ""
+msgstr "ou des adresses DNS des machines vers lequelles vous voulez difuser en unicast"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/dvb.xml:175
 #, no-wrap
 msgid "or the multicast IP address."
-msgstr ""
+msgstr "ou une adresses IP multicast."
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/dvb.xml:182
@@ -1356,7 +1359,7 @@ msgstr ""
 msgid ""
 "<emphasis>12</emphasis> is the value of the TTL (Time\n"
 "To Live) of your IP packets (which means that the stream will be able to cross 11 routers)."
-msgstr ""
+msgstr "<emphasis>12</emphasis> est la valeur TTL (Time To Live) des paquets IP (ce qui sigifie que le paquet pourra traverser 11 routeurs."
 
 # type: Content of: <chapter><title>
 #: en/examples.xml:3
@@ -1364,13 +1367,13 @@ msgstr ""
 msgid ""
 "Examples for advanced use of VLC's stream output\n"
 "(transcoding, multiple streaming, etc...)"
-msgstr ""
+msgstr "Exemples d'utilisation avancée de diffusion avec VLC (transcodage, diffusion multiple, etc...)"
 
 # type: Content of: <chapter><sect1><title>
 #: en/examples.xml:8
 #, no-wrap
 msgid "Transcoding"
-msgstr ""
+msgstr "Transcodage"
 
 # type: Content of: <chapter><sect1><para>
 #: en/examples.xml:12
@@ -1378,7 +1381,7 @@ msgstr ""
 msgid ""
 "Transcode the input stream and send it to a\n"
 "multicast IP address with the associated SAP announce:"
-msgstr ""
+msgstr "Transcoder le flux d'entrée et l'envoier vers une adresse multicast avec l'annonce SAP associée:"
 
 # type: Content of: <chapter><sect1><screen>
 #: en/examples.xml:17
@@ -1386,7 +1389,8 @@ msgstr ""
 msgid ""
 "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128,deinterlace}:\n"
 "standard{access=udp,mux=ts,url=239.255.12.42,sap,name=\"TestStream\"}'</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128,deinterlace}:\n"
+"standard{access=udp,mux=ts,url=239.255.12.42,sap,name=\"TestStream\"}'</userinput>"
 
 # type: Content of: <chapter><sect1><para>
 #: en/examples.xml:22
@@ -1394,7 +1398,7 @@ msgstr ""
 msgid ""
 "Display the input stream, transcode it and send it\n"
 "to a multicast IP address with the associated SAP announce:"
-msgstr ""
+msgstr "Afficher le flux d'entrée, le transcoder et l'envoyer vers une adresse multicast avec l'annonce SAP associée:"
 
 # type: Content of: <chapter><sect1><screen>
 #: en/examples.xml:27
@@ -1403,7 +1407,9 @@ msgid ""
 "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#duplicate{dst=display,dst=\n"
 "\"transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128,deinterlace}:\n"
 "standard{access=udp,mux=ts,url=239.255.12.42,sap,name=\"TestStream\"}\"}'</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#duplicate{dst=display,dst=\n"
+"\"transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128,deinterlace}:\n"
+"standard{access=udp,mux=ts,url=239.255.12.42,sap,name=\"TestStream\"}\"}'</userinput>"
 
 # type: Content of: <chapter><sect1><para>
 #: en/examples.xml:33
@@ -1412,7 +1418,7 @@ msgid ""
 "Transcode the input stream, display the transcoded\n"
 "stream and send it to a multicast IP address with the associated SAP\n"
 "announce:"
-msgstr ""
+msgstr "Transcoder, afficher le flux transcodé et l'envoyer vers une adresse multicast avec l'annonce SAP associée:"
 
 # type: Content of: <chapter><sect1><screen>
 #: en/examples.xml:39
@@ -1420,13 +1426,14 @@ msgstr ""
 msgid ""
 "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128,deinterlace}:\n"
 "duplicate{dst=display,dst=standard{access=udp,mux=ts,url=239.255.12.42,sap,name=\"TestStream\"}}'</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128,deinterlace}:\n"
+"duplicate{dst=display,dst=standard{access=udp,mux=ts,url=239.255.12.42,sap,name=\"TestStream\"}}'</userinput>"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/examples.xml:46 en/vlm-vod.xml:285
 #, no-wrap
 msgid "Multiple streaming"
-msgstr ""
+msgstr "Diffusion multiple"
 
 # type: Content of: <chapter><sect1><para>
 #: en/examples.xml:50
@@ -1434,7 +1441,7 @@ msgstr ""
 msgid ""
 "Send a stream to a multicast IP address and a\n"
 "unicast IP address:"
-msgstr ""
+msgstr "Envoyer le flux vers une drasses IP multicast et une adresse IP unicast:"
 
 # type: Content of: <chapter><sect1><screen>
 #: en/examples.xml:55
@@ -1443,7 +1450,9 @@ msgid ""
 "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#duplicate{dst=\n"
 "standard{access=udp,mux=ts,url=239.255.12.42,sap,name=\"TestStream\"},\n"
 "dst=standard{access=udp,mux=ts,url=192.168.1.2}}'</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#duplicate{dst=\n"
+"standard{access=udp,mux=ts,url=239.255.12.42,sap,name=\"TestStream\"},\n"
+"dst=standard{access=udp,mux=ts,url=192.168.1.2}}'</userinput>"
 
 # type: Content of: <chapter><sect1><para>
 #: en/examples.xml:61
@@ -1451,7 +1460,7 @@ msgstr ""
 msgid ""
 "Display the stream and send it to two unicast IP\n"
 "addresses:"
-msgstr ""
+msgstr "Afficher le flux et l'envoyer vers deux adresses IP unicast:"
 
 # type: Content of: <chapter><sect1><screen>
 #: en/examples.xml:66
@@ -1460,13 +1469,15 @@ msgid ""
 "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#duplicate{dst=display,dst=\n"
 "standard{access=udp,mux=ts,url=192.168.1.12},\n"
 "dst=standard{access=udp,mux=ts,url=192.168.1.42}}'</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#duplicate{dst=display,dst=\n"
+"standard{access=udp,mux=ts,url=192.168.1.12},\n"
+"dst=standard{access=udp,mux=ts,url=192.168.1.42}}'</userinput>"
 
 # type: Content of: <chapter><sect1><para>
 #: en/examples.xml:71
 #, no-wrap
 msgid "Send parts of a multiple program input stream:"
-msgstr ""
+msgstr "Envoyer des perties d'un flux d'entrée multiple:"
 
 # type: Content of: <chapter><sect1><screen>
 #: en/examples.xml:75
@@ -1475,7 +1486,9 @@ msgid ""
 "<prompt>% </prompt><userinput>vlc -vvv multiple_program_input_stream \n"
 "--sout '#duplicate{dst=standard{access=udp,mux=ts,url=239.255.12.42},select=\"program=12345\",\n"
 "dst=standard{access=udp,mux=ts,url=239.255.12.43}, select=\"video,program=1234-2345\"}'</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc -vvv multiple_program_input_stream \n"
+"--sout '#duplicate{dst=standard{access=udp,mux=ts,url=239.255.12.42},select=\"program=12345\",\n"
+"dst=standard{access=udp,mux=ts,url=239.255.12.43}, select=\"video,program=1234-2345\"}'</userinput>"
 
 # type: Content of: <chapter><sect1><para>
 #: en/examples.xml:80
@@ -1484,13 +1497,13 @@ msgid ""
 "This command sends the program of the input stream which id is\n"
 "12345 to 239.255.12.42 and all video programs with id between 1234 and\n"
 "2345 to 239.255.12.43."
-msgstr ""
+msgstr "Cette commande envoie le programme du flux d'entrée dont le numéro est 12345 vers l'adresses 239.255.12.42 et tous les programmes dont le numeros est compris entre 1234 et 2345 vers l'adresse 239.255.12.43."
 
 # type: Content of: <chapter><sect1><title>
 #: en/examples.xml:88
 #, no-wrap
 msgid "Transcoding and multiple streaming"
-msgstr ""
+msgstr "Transcodage et diffusion multiple"
 
 # type: Content of: <chapter><sect1><para>
 #: en/examples.xml:92
@@ -1499,7 +1512,7 @@ msgid ""
 "Transcode the input stream, display the transcoded\n"
 "stream and send it to a multicast IP address with the associated SAP\n"
 "announce and an unicast IP address:"
-msgstr ""
+msgstr "Transcoder le flux d'entrée, afficher le flux transcodé et l'envoyer vers une adresse IP multicast avec l'annonce SAP associée et une adresse IP unicast:"
 
 # type: Content of: <chapter><sect1><screen>
 #: en/examples.xml:98
@@ -1508,7 +1521,10 @@ msgid ""
 "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128,deinterlace}:\n"
 "duplicate{dst=display,dst=standard{access=udp,mux=ts,url=239.255.12.42,sap,name=\"TestStream\"},\n"
 "dst=standard{access=udp,mux=ts,url=192.168.1.2}}'</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128,deinterlace}:
+\n"
+"duplicate{dst=display,dst=standard{access=udp,mux=ts,url=239.255.12.42,sap,name=\"TestStream\"},\n"
+
 
 # type: Content of: <chapter><sect1><para>
 #: en/examples.xml:104
@@ -1516,7 +1532,7 @@ msgstr ""
 msgid ""
 "Display the input stream, transcode it and send it\n"
 "to two unicast IP addresses:"
-msgstr ""
+msgstr "Afficher le flux d'entrée, le transcoder et l'envoyer vers deux adresses IP unicast:"
 
 # type: Content of: <chapter><sect1><screen>
 #: en/examples.xml:109
@@ -1526,7 +1542,11 @@ msgid ""
 "dst=\"transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128}:\n"
 "duplicate{dst=standard{access=udp,mux=ts,url=192.168.1.2},\n"
 "dst=standard{access=udp,mux=ts,url=192.168.1.12}\"}'</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#duplicate{dst=display,\n"
+"dst=\"transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128}:\n"
+"duplicate{dst=standard{access=udp,mux=ts,url=192.168.1.2},\n"
+"dst=standard{access=udp,mux=ts,url=192.168.1.12}\"}'</userinput>"
+
 
 # type: Content of: <chapter><sect1><para>
 #: en/examples.xml:116
@@ -1535,7 +1555,7 @@ msgid ""
 "Send the input stream to a multicast IP address\n"
 "and the transcoded stream to another multicast IP address with the\n"
 "associated SAP announces:"
-msgstr ""
+msgstr "Envoyer le flux d'entrée vers une adresses IP multiicast, et le flux trancodée vers une autre adresse IP multicast avec les annonces SAP associées:"
 
 # type: Content of: <chapter><sect1><screen>
 #: en/examples.xml:122
@@ -1545,49 +1565,53 @@ msgid ""
 "standard{access=udp,mux=ts,url=239.255.1.2,sap,name=\"OriginalStream\"},\n"
 "dst=\"transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128}:\n"
 "standard{access=udp,mux=ts,url=239.255.1.3,sap,name=\"TranscodedStream\"}\"}'</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#duplicate{dst=\n"
+"standard{access=udp,mux=ts,url=239.255.1.2,sap,name=\"OriginalStream\"},\n"
+"dst=\"transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128}:\n"
+"standard{access=udp,mux=ts,url=239.255.1.3,sap,name=\"TranscodedStream\"}\"}'</userinput>"
 
 # type: Content of: <chapter><sect1><title>
 #: en/examples.xml:131
 #, no-wrap
 msgid "HTTP streaming"
-msgstr ""
+msgstr "Diffusion HTTP"
 
 # type: Content of: <chapter><sect1><para>
 #: en/examples.xml:135
 #, no-wrap
 msgid "Stream in HTTP:"
-msgstr ""
+msgstr "Diffuser en HTTP:"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/examples.xml:141 en/examples.xml:194
 #, no-wrap
 msgid "on the server, run:"
-msgstr ""
+msgstr "Sur le serveur, lancer"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><screen>
 #: en/examples.xml:145
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#standard{access=http,mux=ogg,url=server.example.org:8080}'</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#standard{access=http,mux=ogg,url=server.example.org:8080}'</userinput>"
+
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/examples.xml:151 en/examples.xml:204
 #, no-wrap
 msgid "on the client(s), run:"
-msgstr ""
+msgstr "sur le(s) client(s), lancer:"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><screen>
 #: en/examples.xml:155
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc http://server.example.org:8080</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc http://server.example.org:8080</userinput>"
 
 # type: Content of: <chapter><sect1><para>
 #: en/examples.xml:163
 #, no-wrap
 msgid "Transcode and stream in HTTP:"
-msgstr ""
+msgstr "Transcoder et diffuser en HTTP:"
 
 # type: Content of: <chapter><sect1><screen>
 #: en/examples.xml:167
@@ -1595,7 +1619,8 @@ msgstr ""
 msgid ""
 "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128}:\n"
 "standard{access=http,mux=ogg,url=server.example.org:8080}'</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128}:\n"
+"standard{access=http,mux=ogg,url=server.example.org:8080}'</userinput>"
 
 # type: Content of: <chapter><sect1><para>
 #: en/examples.xml:172
@@ -1603,7 +1628,7 @@ msgstr ""
 msgid ""
 "For example, if you want to stream an audio CD in\n"
 "Ogg/Vorbis over HTTP:"
-msgstr ""
+msgstr "Par exemple, si vous voulez diffuser un CD audio en Ogg/Vorbis par HTTP:"
 
 # type: Content of: <chapter><sect1><screen>
 #: en/examples.xml:177
@@ -1611,79 +1636,80 @@ msgstr ""
 msgid ""
 "<prompt>% </prompt><userinput>vlc -vvv cdda:/dev/cdrom --sout '#transcode{acodec=vorb,ab=128}:\n"
 "standard{access=http,mux=ogg,url=server.example.org:8080}'</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc -vvv cdda:/dev/cdrom --sout '#transcode{acodec=vorb,ab=128}:\n"
+"standard{access=http,mux=ogg,url=server.example.org:8080}'</userinput>"
 
 # type: Content of: <chapter><sect1><title>
 #: en/examples.xml:184
 #, no-wrap
 msgid "RTP streaming"
-msgstr ""
+msgstr "Diffusion RTP"
 
 # type: Content of: <chapter><sect1><para>
 #: en/examples.xml:188
 #, no-wrap
 msgid "Stream in RTP:"
-msgstr ""
+msgstr "Diffuser en RTP"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><screen>
 #: en/examples.xml:198
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#rtp{dst=192.168.0.12,port=1234,sdp=http://server.example.org:8080/test.sdp}'</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#rtp{dst=192.168.0.12,port=1234,sdp=http://server.example.org:8080/test.sdp}'</userinput>"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><screen>
 #: en/examples.xml:208
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc http://server.example.org:8080/test.sdp</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc http://server.example.org:8080/test.sdp</userinput>"
 
 # type: Content of: <chapter><sect1><title>
 #: en/examples.xml:217
 #, no-wrap
 msgid "RTSP"
-msgstr ""
+msgstr "RTSP"
 
 # type: Content of: <chapter><sect1><para>
 #: en/examples.xml:220
 #, no-wrap
 msgid "See <xref linkend=\"vlm\" endterm=\"tvlm\" />"
-msgstr ""
+msgstr "Voir <xref linkend=\"vlm\" endterm=\"tvlm\" />"
 
 # type: Content of: <chapter><sect1><title>
 #: en/examples.xml:224
 #, no-wrap
 msgid "MMS / MMSH streaming to Windows Media Player"
-msgstr ""
+msgstr "diffusion MMS / MMSH vers Windows Media Player"
 
 # type: Content of: <chapter><sect1><screen>
 #: en/examples.xml:228
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#transcode{vcodec=DIV3,vb=256,scale=1,acodec=mp3,ab=32,channels=2}:std{access=mmsh,mux=asfh,url=:8080}'</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#transcode{vcodec=DIV3,vb=256,scale=1,acodec=mp3,ab=32,channels=2}:std{access=mmsh,mux=asfh,url=:8080}'</userinput>"
 
 # type: Content of: <chapter><sect1><para>
 #: en/examples.xml:231
 #, no-wrap
 msgid "VLC media player can connect to this by using the following url : mmsh://server_ip_address:8080 ."
-msgstr ""
+msgstr "VLC media player peut s'y connecter en utilisant l'URL suivante mmsh://server_ip_address:8080 ."
 
 # type: Content of: <chapter><sect1><para>
 #: en/examples.xml:232
 #, no-wrap
 msgid "Windows Media Player can connect to this by using the following url : mms://server_ip_address:8080 ."
-msgstr ""
+msgstr "Windows Media Player peut s'y connecter en utilisant l'URL suivante: mms://server_ip_address:8080 ."
 
 # type: Content of: <chapter><sect1><title>
 #: en/examples.xml:236
 #, no-wrap
 msgid "Use the <emphasis>es</emphasis> module"
-msgstr ""
+msgstr "Utiliser le module <emphasis>es</emphasis>"
 
 # type: Content of: <chapter><sect1><para>
 #: en/examples.xml:240
 #, no-wrap
 msgid "Separate audio and video in two PS files:"
-msgstr ""
+msgstr "Separer l'audio et la video en deux fichiers PS:"
 
 # type: Content of: <chapter><sect1><screen>
 #: en/examples.xml:244
@@ -1691,7 +1717,8 @@ msgstr ""
 msgid ""
 "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout\n"
 "'#es{access=file,mux=ps,url_audio=audio-%c.%m,url_video=video-%c.%m}'</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout\n"
+"'#es{access=file,mux=ps,url_audio=audio-%c.%m,url_video=video-%c.%m}'</userinput>"
 
 # type: Content of: <chapter><sect1><para>
 #: en/examples.xml:249
@@ -1699,13 +1726,13 @@ msgstr ""
 msgid ""
 "Extract the audio track of the input stream to a TS\n"
 "file:"
-msgstr ""
+msgstr "Extraire la piste audio du flux d'entrée en un fichier TS"
 
 # type: Content of: <chapter><sect1><screen>
 #: en/examples.xml:254
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#es{access_audio=file,mux_audio=ts,url_audio=audio-%c.%m}'</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#es{access_audio=file,mux_audio=ts,url_audio=audio-%c.%m}'</userinput>"
 
 # type: Content of: <chapter><sect1><para>
 #: en/examples.xml:258
@@ -1713,13 +1740,13 @@ msgstr ""
 msgid ""
 "Stream in unicast the audio track on a port and the\n"
 "video track on another port:"
-msgstr ""
+msgstr "Diffuser en unicast la piste audio sur un port et la piste video sur un autre port:"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/examples.xml:265
 #, no-wrap
 msgid "on the server side:"
-msgstr ""
+msgstr "du coté serveur:"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><screen>
 #: en/examples.xml:269
@@ -1727,7 +1754,8 @@ msgstr ""
 msgid ""
 "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout\n"
 "'#es{access=rtp,mux=ts,url_audio=192.168.1.2:1212,url_video=192.168.1.2:1213}'</userinput>"
-msgstr ""
+msgstr "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout\n"
+"'#es{access=rtp,mux=ts,url_audio=192.168.1.2:1212,url_video=192.168.1.2:1213}'</userinput>"
 "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout\n"
 "'#es{access=rtp,mux=ts,url_audio=192.168.1.2:1212,url_video=192.168.1.2:1213}'</userinput>"
 

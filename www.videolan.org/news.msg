@@ -2,6 +2,8 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+|14-15 May 2005| Linux Cambrésis| The VideoLAN team will be present at <a href="http://linuxcambresis.org/index.php?target=kalendrix&id=63">Linux Cambrésis</a> in Northen France. We will also hold conferences on Saturday and Sunday.
+
 |27 April 2005| Network Downtime| Due to a network upgrade, some VideoLAN services will be down for some time today around noon (CEST). The main website and downloads will keep working, but forum, wiki, SVN and mailing lists will be down during that time. Sorry for the inconvenience
 
 |1 April 2005| Release: VLC 0.8.1337 (April Fool's)| Lots of new features have found their way into VLC ! VLC is now easy to use and bug free. ( see <a href="http://download.videolan.org/pub/videolan/vlc/0.8.1337/changelog.txt"> Full Change Log</a> ) Hurry up and download the new version here : [ links removed ]

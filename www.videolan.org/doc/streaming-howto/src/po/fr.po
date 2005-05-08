@@ -2952,7 +2952,8 @@ msgid ""
 "You may have to specify the output network\n"
 "interface:"
 msgstr ""
-"Il est possible que vous deviez spécifier l'interface réseau de sortie :\n"
+"Il est possible que vous deviez spécifier\n"
+"l'interface réseau de sortie :"
 
 # type: Content of: <chapter><sect1><sect2><sect3><note><screen>
 #: en/ipv6.xml:169 en/ipv6.xml:225

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-04-24 16:24+0200\n"
+"POT-Creation-Date: 2005-05-10 11:37+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -266,7 +266,7 @@ msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/dvd.xml:37 en/file.xml:17 en/dvb.xml:73 en/dvb.xml:128
-#: en/vlm-vod.xml:324 en/vlm-vod.xml:354 en/ipv6.xml:115 en/receive.xml:132
+#: en/vlm-vod.xml:330 en/vlm-vod.xml:360 en/ipv6.xml:115 en/receive.xml:132
 #: en/encoding-cards.xml:275
 #, no-wrap
 msgid "where:"
@@ -314,7 +314,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/dvd.xml:51 en/file.xml:25 en/encoding-cards.xml:356
+#: en/dvd.xml:51 en/file.xml:25 en/encoding-cards.xml:355
 #, no-wrap
 msgid ""
 "<emphasis>192.168.0.42</emphasis>\n"
@@ -322,7 +322,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/dvd.xml:59 en/file.xml:32 en/dvb.xml:89 en/encoding-cards.xml:363
+#: en/dvd.xml:59 en/file.xml:32 en/dvb.xml:89 en/encoding-cards.xml:362
 #, no-wrap
 msgid ""
 "the IP address of the machine you want to unicast\n"
@@ -330,7 +330,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/dvd.xml:65 en/file.xml:37 en/dvb.xml:94 en/encoding-cards.xml:368
+#: en/dvd.xml:65 en/file.xml:37 en/dvb.xml:94 en/encoding-cards.xml:367
 #, no-wrap
 msgid ""
 "or the DNS name the machine you want to unicast\n"
@@ -339,16 +339,16 @@ msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/dvd.xml:71 en/file.xml:42 en/dvb.xml:99 en/encoding-cards.xml:126
-#: en/encoding-cards.xml:206 en/encoding-cards.xml:374
-#: en/encoding-cards.xml:428
+#: en/encoding-cards.xml:206 en/encoding-cards.xml:373
+#: en/encoding-cards.xml:427
 #, no-wrap
 msgid "or a multicast IP address."
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/dvd.xml:79 en/file.xml:49 en/dvb.xml:104 en/vlm-vod.xml:326
+#: en/dvd.xml:79 en/file.xml:49 en/dvb.xml:104 en/vlm-vod.xml:332
 #: en/ipv6.xml:144 en/encoding-cards.xml:133 en/encoding-cards.xml:213
-#: en/encoding-cards.xml:380
+#: en/encoding-cards.xml:379
 #, no-wrap
 msgid ""
 "<emphasis>12</emphasis>\n"
@@ -1188,13 +1188,13 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/dvb.xml:167 en/encoding-cards.xml:422
+#: en/dvb.xml:167 en/encoding-cards.xml:421
 #, no-wrap
 msgid "the IP address of the machine you want to unicast to"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/dvb.xml:171 en/encoding-cards.xml:425
+#: en/dvb.xml:171 en/encoding-cards.xml:424
 #, no-wrap
 msgid "or the DNS name the machine you want to unicast to"
 msgstr ""
@@ -1278,7 +1278,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><title>
-#: en/examples.xml:46 en/vlm-vod.xml:285
+#: en/examples.xml:46 en/vlm-vod.xml:291
 #, no-wrap
 msgid "Multiple streaming"
 msgstr ""
@@ -1996,13 +1996,24 @@ msgstr ""
 #: en/vlm-vod.xml:181
 #, no-wrap
 msgid ""
+"<command>option (option_name)[=value]</command> : Adds\n"
+"the (option_name) to the media option list. The syntax is equivalent\n"
+"to the \":(option)=...\" option , but you do not have to put the \":\"\n"
+"string. Options are global: they are applied to all inputs of the\n"
+"media."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
+#: en/vlm-vod.xml:187
+#, no-wrap
+msgid ""
 "<command>enabled|disabled</command> : Enable or Disable\n"
 "the media. If a media is disabled, it cannot be streamed, paused,\n"
 "launched by a schedule, or played as VoD."
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/vlm-vod.xml:185
+#: en/vlm-vod.xml:191
 #, no-wrap
 msgid ""
 "<command>loop|unloop (broadcast only)</command> : If\n"
@@ -2012,7 +2023,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><note><para>
-#: en/vlm-vod.xml:188
+#: en/vlm-vod.xml:194
 #, no-wrap
 msgid ""
 "<command>loop|unloop</command> is only used\n"
@@ -2020,7 +2031,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/vlm-vod.xml:191
+#: en/vlm-vod.xml:197
 #, no-wrap
 msgid ""
 "<command>mux (mux_name)</command> : This option\n"
@@ -2032,7 +2043,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><note><para>
-#: en/vlm-vod.xml:196
+#: en/vlm-vod.xml:202
 #, no-wrap
 msgid ""
 "The <command>mux</command> property is only used for vod\n"
@@ -2040,13 +2051,13 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
-#: en/vlm-vod.xml:203
+#: en/vlm-vod.xml:209
 #, no-wrap
 msgid "Schedule Properties"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/vlm-vod.xml:207
+#: en/vlm-vod.xml:213
 #, no-wrap
 msgid ""
 "<command>enabled|disabled</command> : A disabled\n"
@@ -2054,7 +2065,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/vlm-vod.xml:210
+#: en/vlm-vod.xml:216
 #, no-wrap
 msgid ""
 "<command>append\n"
@@ -2064,7 +2075,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><note><para>
-#: en/vlm-vod.xml:213
+#: en/vlm-vod.xml:219
 #, no-wrap
 msgid ""
 "The rest of the line will be considered as\n"
@@ -2073,7 +2084,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/vlm-vod.xml:217
+#: en/vlm-vod.xml:223
 #, no-wrap
 msgid ""
 "<command>date\n"
@@ -2089,7 +2100,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/vlm-vod.xml:228
+#: en/vlm-vod.xml:234
 #, no-wrap
 msgid ""
 "<command>period\n"
@@ -2102,7 +2113,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/vlm-vod.xml:236
+#: en/vlm-vod.xml:242
 #, no-wrap
 msgid ""
 "<command>repeat (number_of_repetitions)</command> :\n"
@@ -2112,13 +2123,13 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
-#: en/vlm-vod.xml:245
+#: en/vlm-vod.xml:251
 #, no-wrap
 msgid "Control Commands"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/vlm-vod.xml:249
+#: en/vlm-vod.xml:255
 #, no-wrap
 msgid ""
 "<command>play</command> : Stat a broadcast media. The\n"
@@ -2127,7 +2138,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/vlm-vod.xml:253
+#: en/vlm-vod.xml:259
 #, no-wrap
 msgid ""
 "<command>pause</command> : Put the broadcast media in\n"
@@ -2135,7 +2146,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/vlm-vod.xml:256
+#: en/vlm-vod.xml:262
 #, no-wrap
 msgid ""
 "<command>stop</command> : Stop the broadcast\n"
@@ -2143,7 +2154,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/vlm-vod.xml:259
+#: en/vlm-vod.xml:265
 #, no-wrap
 msgid ""
 "<command>seek (percentage)</command> : Seek in the\n"
@@ -2151,13 +2162,13 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><title>
-#: en/vlm-vod.xml:266
+#: en/vlm-vod.xml:272
 #, no-wrap
 msgid "Configuration Files"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/vlm-vod.xml:268
+#: en/vlm-vod.xml:274
 #, no-wrap
 msgid ""
 "A VLM configuration file is a list of command lines : one line\n"
@@ -2165,7 +2176,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/vlm-vod.xml:271
+#: en/vlm-vod.xml:277
 #, no-wrap
 msgid ""
 "To create a configuration file, just edit a text file and type\n"
@@ -2175,7 +2186,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/vlm-vod.xml:276
+#: en/vlm-vod.xml:282
 #, no-wrap
 msgid ""
 "As of versions > 0.8.1, any line where the first non white space\n"
@@ -2183,25 +2194,25 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><title>
-#: en/vlm-vod.xml:281 en/cmdline.xml:1049
+#: en/vlm-vod.xml:287 en/cmdline.xml:1049
 #, no-wrap
 msgid "Examples"
 msgstr ""
 
 # type: Content of: <chapter><sect1><para>
-#: en/vlm-vod.xml:283
+#: en/vlm-vod.xml:289
 #, no-wrap
 msgid "This section provides several small vlm configuration files."
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
-#: en/vlm-vod.xml:287
+#: en/vlm-vod.xml:293
 #, no-wrap
 msgid "Simple broadcasting"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><programlisting>
-#: en/vlm-vod.xml:290
+#: en/vlm-vod.xml:296
 #, no-wrap
 msgid ""
 "new channel1 broadcast enabled\n"
@@ -2217,13 +2228,13 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
-#: en/vlm-vod.xml:304
+#: en/vlm-vod.xml:310
 #, no-wrap
 msgid "Scheduled broadcasting"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><programlisting>
-#: en/vlm-vod.xml:307
+#: en/vlm-vod.xml:313
 #, no-wrap
 msgid ""
 "new my_media broadcast enabled\n"
@@ -2236,31 +2247,31 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><title>
-#: en/vlm-vod.xml:318
+#: en/vlm-vod.xml:324
 #, no-wrap
 msgid "Video On Demand"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
-#: en/vlm-vod.xml:320
+#: en/vlm-vod.xml:326
 #, no-wrap
 msgid "Basic example"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
-#: en/vlm-vod.xml:322
+#: en/vlm-vod.xml:328
 #, no-wrap
 msgid "First launch the vlc"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><screen>
-#: en/vlm-vod.xml:323
+#: en/vlm-vod.xml:329
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc --ttl 12 -vvv --color -I telnet --telnet-password videolan --rtsp-host 0.0.0.0:5554</userinput>"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/vlm-vod.xml:331
+#: en/vlm-vod.xml:337
 #, no-wrap
 msgid ""
 "<emphasis>telnet</emphasis>\n"
@@ -2268,7 +2279,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/vlm-vod.xml:334
+#: en/vlm-vod.xml:340
 #, no-wrap
 msgid ""
 "<emphasis>videolan</emphasis>\n"
@@ -2276,7 +2287,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/vlm-vod.xml:337
+#: en/vlm-vod.xml:343
 #, no-wrap
 msgid ""
 "<emphasis>0.0.0.0</emphasis>\n"
@@ -2284,7 +2295,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/vlm-vod.xml:340
+#: en/vlm-vod.xml:346
 #, no-wrap
 msgid ""
 "<emphasis>5554</emphasis>\n"
@@ -2292,13 +2303,13 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
-#: en/vlm-vod.xml:345
+#: en/vlm-vod.xml:351
 #, no-wrap
 msgid "Then you connect to the vlc telnet interface and create the vod object"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><programlisting>
-#: en/vlm-vod.xml:347
+#: en/vlm-vod.xml:353
 #, no-wrap
 msgid ""
 "new Test vod enabled\n"
@@ -2306,19 +2317,19 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
-#: en/vlm-vod.xml:350
+#: en/vlm-vod.xml:356
 #, no-wrap
 msgid "You can access to the stream with:"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><screen>
-#: en/vlm-vod.xml:352
+#: en/vlm-vod.xml:358
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc rtsp://server:5554/Test</userinput>"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/vlm-vod.xml:355
+#: en/vlm-vod.xml:361
 #, no-wrap
 msgid "<emphasis>server</emphasis> is the address of the streaming server (IP or DNS)"
 msgstr ""
@@ -5116,7 +5127,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/encoding-cards.xml:85
+#: en/encoding-cards.xml:85 en/encoding-cards.xml:283
 #, no-wrap
 msgid ""
 "<emphasis>norm=secam</emphasis>\n"
@@ -5324,7 +5335,7 @@ msgstr ""
 # type: Content of: <chapter><sect1><sect2><sect3><note><para>
 #: en/encoding-cards.xml:273
 #, no-wrap
-msgid "You can find all transcode options on <ulink url=\"http://www.videolan.org/doc/streaming-howto/en/ch03.html\">this page</ulink>"
+msgid "You can find all transcode options on this page : <xref linkend=\\\"cmdline\\\" endterm=\\\"tcmdline\\\" /> ."
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
@@ -5336,16 +5347,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/encoding-cards.xml:283
-#, no-wrap
-msgid ""
-"<emphasis>norm=secam</emphasis>\n"
-" is name of the standard of the analogic signal\n"
-"(possible values are pal, secam, and ntsc),"
-msgstr ""
-
-# type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/encoding-cards.xml:289
+#: en/encoding-cards.xml:288
 #, no-wrap
 msgid ""
 "<emphasis>frequency=543250</emphasis>\n"
@@ -5355,7 +5357,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/encoding-cards.xml:296
+#: en/encoding-cards.xml:295
 #, no-wrap
 msgid ""
 "<emphasis>size=640x480</emphasis>\n"
@@ -5367,7 +5369,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/encoding-cards.xml:304
+#: en/encoding-cards.xml:303
 #, no-wrap
 msgid ""
 "<emphasis>channel=0</emphasis> \n"
@@ -5376,7 +5378,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/encoding-cards.xml:310
+#: en/encoding-cards.xml:309
 #, no-wrap
 msgid ""
 "<emphasis>adev=/dev/dsp</emphasis>\n"
@@ -5384,7 +5386,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/encoding-cards.xml:314
+#: en/encoding-cards.xml:313
 #, no-wrap
 msgid ""
 "<emphasis>audio=1</emphasis> \n"
@@ -5393,7 +5395,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/encoding-cards.xml:319
+#: en/encoding-cards.xml:318
 #, no-wrap
 msgid ""
 "<emphasis>vcodec=mp4v</emphasis> \n"
@@ -5408,7 +5410,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/encoding-cards.xml:329
+#: en/encoding-cards.xml:328
 #, no-wrap
 msgid ""
 "<emphasis>acodec=mpga</emphasis> \n"
@@ -5418,7 +5420,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/encoding-cards.xml:335
+#: en/encoding-cards.xml:334
 #, no-wrap
 msgid ""
 "<emphasis>vb=3000</emphasis>\n"
@@ -5426,7 +5428,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/encoding-cards.xml:339
+#: en/encoding-cards.xml:338
 #, no-wrap
 msgid ""
 "<emphasis>ab=256</emphasis>\n"
@@ -5434,7 +5436,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/encoding-cards.xml:343
+#: en/encoding-cards.xml:342
 #, no-wrap
 msgid ""
 "<emphasis>venc=ffmpeg</emphasis>\n"
@@ -5442,25 +5444,25 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/encoding-cards.xml:346
+#: en/encoding-cards.xml:345
 #, no-wrap
 msgid "<emphasis>keyint=80</emphasis> is the maximal amount of frames between two key frames"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/encoding-cards.xml:347
+#: en/encoding-cards.xml:346
 #, no-wrap
 msgid "<emphasis>hurry-up</emphasis> allows the encoder to decrease the quality of the stream if the CPU can't keep up with the encoding rate"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/encoding-cards.xml:348
+#: en/encoding-cards.xml:347
 #, no-wrap
 msgid "<emphasis>vt=800000</emphasis> is the tolerance in kbit/s for the bitrate of the outputted video"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/encoding-cards.xml:352
+#: en/encoding-cards.xml:351
 #, no-wrap
 msgid ""
 "<emphasis>deinterlace</emphasis>\n"
@@ -5468,79 +5470,79 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><title>
-#: en/encoding-cards.xml:392
+#: en/encoding-cards.xml:391
 #, no-wrap
 msgid "Stream with DirectShow"
 msgstr ""
 
 # type: Content of: <chapter><sect1><note><para>
-#: en/encoding-cards.xml:393
+#: en/encoding-cards.xml:392
 #, no-wrap
 msgid "This is only possible under Windows"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><title>
-#: en/encoding-cards.xml:394
+#: en/encoding-cards.xml:393
 #, no-wrap
 msgid "Install your peripheral drivers"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/encoding-cards.xml:395
+#: en/encoding-cards.xml:394
 #, no-wrap
 msgid "You need to install your peripherals under Windows with the appropriate drivers. Nothing else is necessary."
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><title>
-#: en/encoding-cards.xml:397
+#: en/encoding-cards.xml:396
 #, no-wrap
 msgid "Stream with VLC in command line"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para><screen>
-#: en/encoding-cards.xml:398
+#: en/encoding-cards.xml:397
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>C:\\Program Files\\VideoLAN\\VLC\\vlc.exe -vvv -I rc --ttl 12 dshow:// vdev=\"VGA USB Camera\" adev=\"USB Camera\" size=\"640x480\" --sout=#std{mux=ts,access=udp,url=239.255.42.12}</userinput>"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><note><para>
-#: en/encoding-cards.xml:400
+#: en/encoding-cards.xml:399
 #, no-wrap
 msgid "You need to precise the complete path to find vlc program or to launch the command from the correct directory."
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/encoding-cards.xml:403
+#: en/encoding-cards.xml:402
 #, no-wrap
 msgid "<emphasis>vvv</emphasis> is to activate the verbose mode"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/encoding-cards.xml:404
+#: en/encoding-cards.xml:403
 #, no-wrap
 msgid "<emphasis>rc</emphasis> is to activate the remote control interface (MS/DOS console)"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/encoding-cards.xml:405
+#: en/encoding-cards.xml:404
 #, no-wrap
 msgid "<emphasis>12</emphasis> is the value of the TTL (Time To Live) of your IP packets (which means that the stream will be able to cross 11 routers),"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/encoding-cards.xml:407
+#: en/encoding-cards.xml:406
 #, no-wrap
 msgid "<emphasis>vdev=\"VGA USB Camera\"</emphasis> is the name of the video peripheral that DirectShow will use (this is only an exemple),"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/encoding-cards.xml:409
+#: en/encoding-cards.xml:408
 #, no-wrap
 msgid "<emphasis>adev=\"USB Camera\"</emphasis> is the name of the audio peripheral,"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/encoding-cards.xml:411
+#: en/encoding-cards.xml:410
 #, no-wrap
 msgid ""
 "<emphasis>size=\"640x480\"</emphasis> is the resolution (you can also put the standard size like <emphasis>subqcif</emphasis> (128x96),\n"
@@ -5550,7 +5552,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/encoding-cards.xml:417
+#: en/encoding-cards.xml:416
 #, no-wrap
 msgid ""
 "<emphasis>239.255.42.12</emphasis>\n"

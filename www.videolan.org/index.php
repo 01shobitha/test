@@ -36,7 +36,7 @@
   satellite channels, digital terrestial television channels and live
   videos on a high-bandwidth IPv4 or <b>IPv6</b> network in unicast or
   <b>multicast</b> under many OSes. VideoLAN also features a cross-platform
-  multimedia player, <a href="/vlc/index.html">VLC</a>, which can be used
+  multimedia player, <a href="/vlc/index.html">VLC media player</a>, which can be used
   to read the stream from the network or display video read locally on the
   computer under all GNU/Linux flavours, all BSD flavours, Windows, Mac OS X,
   BeOS, Solaris, QNX, Familiar Linux...</p>

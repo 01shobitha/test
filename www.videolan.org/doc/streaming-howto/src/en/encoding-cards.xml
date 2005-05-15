@@ -270,7 +270,7 @@ You must add <command>--enable-v4l</command> to
 --sout '#transcode{vcodec=mp4v,acodec=mpga,vb=3000,ab=256,venc=ffmpeg{keyint=80,hurry-up,vt=800000},deinterlace}:std{access=udp,mux=ts,url=239.255.12.13}' --ttl 12</userinput>
 </screen>
 
-<note><para>You can find all transcode options on this page : <xref linkend=\"cmdline\" endterm=\"tcmdline\" /> .</para></note>
+<note><para>You can find all transcode options on this page : <xref linkend="cmdline" endterm="tcmdline" /> .</para></note>
 
 <para>where:
 </para><itemizedlist>

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-05-10 11:44+0200\n"
+"POT-Creation-Date: 2005-05-15 20:35+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -5574,8 +5574,8 @@ msgstr ""
 #: en/encoding-cards.xml:273
 #, no-wrap
 msgid ""
-"You can find all transcode options on this page : <xref "
-"linkend=\\\"cmdline\\\" endterm=\\\"tcmdline\\\" /> ."
+"You can find all transcode options on this page : <xref linkend=\"cmdline\" "
+"endterm=\"tcmdline\" /> ."
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>

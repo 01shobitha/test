@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-05-10 11:37+0200\n"
+"POT-Creation-Date: 2005-05-15 20:23+0200\n"
 "PO-Revision-Date: 2005-05-10 11:44+0100\n"
 "Last-Translator: Antoine Cellerier <dionoea AT videolan DOT org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -289,14 +289,8 @@ msgid "<prompt>% </prompt><userinput>vlc -vvv --color dvdsimple:/dev/dvd --sout 
 msgstr "<prompt>% </prompt><userinput>vlc -vvv --color dvdsimple:/dev/dvd --sout udp:192.168.0.12 --ttl 12 --sout-all</userinput>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
-#: en/dvd.xml:37
-#: en/file.xml:17
-#: en/dvb.xml:73
-#: en/dvb.xml:128
-#: en/vlm-vod.xml:330
-#: en/vlm-vod.xml:360
-#: en/ipv6.xml:115
-#: en/receive.xml:132
+#: en/dvd.xml:37 en/file.xml:17 en/dvb.xml:73 en/dvb.xml:128
+#: en/vlm-vod.xml:330 en/vlm-vod.xml:360 en/ipv6.xml:115 en/receive.xml:132
 #: en/encoding-cards.xml:275
 #, no-wrap
 msgid "where:"
@@ -348,9 +342,7 @@ msgstr ""
 ","
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/dvd.xml:51
-#: en/file.xml:25
-#: en/encoding-cards.xml:355
+#: en/dvd.xml:51 en/file.xml:25 en/encoding-cards.xml:355
 #, no-wrap
 msgid ""
 "<emphasis>192.168.0.42</emphasis>\n"
@@ -360,10 +352,7 @@ msgstr ""
 "est soit :"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/dvd.xml:59
-#: en/file.xml:32
-#: en/dvb.xml:89
-#: en/encoding-cards.xml:362
+#: en/dvd.xml:59 en/file.xml:32 en/dvb.xml:89 en/encoding-cards.xml:362
 #, no-wrap
 msgid ""
 "the IP address of the machine you want to unicast\n"
@@ -373,10 +362,7 @@ msgstr ""
 "unicast;"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/dvd.xml:65
-#: en/file.xml:37
-#: en/dvb.xml:94
-#: en/encoding-cards.xml:367
+#: en/dvd.xml:65 en/file.xml:37 en/dvb.xml:94 en/encoding-cards.xml:367
 #, no-wrap
 msgid ""
 "or the DNS name the machine you want to unicast\n"
@@ -386,25 +372,16 @@ msgstr ""
 "en unicast;"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/dvd.xml:71
-#: en/file.xml:42
-#: en/dvb.xml:99
-#: en/encoding-cards.xml:126
-#: en/encoding-cards.xml:206
-#: en/encoding-cards.xml:373
+#: en/dvd.xml:71 en/file.xml:42 en/dvb.xml:99 en/encoding-cards.xml:126
+#: en/encoding-cards.xml:206 en/encoding-cards.xml:373
 #: en/encoding-cards.xml:427
 #, no-wrap
 msgid "or a multicast IP address."
 msgstr "ou une adresse IP multicast."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/dvd.xml:79
-#: en/file.xml:49
-#: en/dvb.xml:104
-#: en/vlm-vod.xml:332
-#: en/ipv6.xml:144
-#: en/encoding-cards.xml:133
-#: en/encoding-cards.xml:213
+#: en/dvd.xml:79 en/file.xml:49 en/dvb.xml:104 en/vlm-vod.xml:332
+#: en/ipv6.xml:144 en/encoding-cards.xml:133 en/encoding-cards.xml:213
 #: en/encoding-cards.xml:379
 #, no-wrap
 msgid ""
@@ -456,8 +433,7 @@ msgid "<prompt>% </prompt><userinput>vlc -vvv video1.xyz --sout udp:192.168.0.42
 msgstr "<prompt>% </prompt><userinput>vlc -vvv video1.xyz --sout udp:192.168.0.42 --ttl 12</userinput>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><filename>
-#: en/file.xml:22
-#: en/ipv6.xml:120
+#: en/file.xml:22 en/ipv6.xml:120
 #, no-wrap
 msgid "video1.xyz"
 msgstr "video1.xyz"
@@ -535,8 +511,7 @@ msgstr ""
 "wxWindows."
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/gui.xml:24
-#: en/gui.xml:34
+#: en/gui.xml:24 en/gui.xml:34
 #, no-wrap
 msgid "Launching the wizard"
 msgstr "Démarrer l'assistant"
@@ -590,8 +565,7 @@ msgstr ""
 "si vous souhaitez changer le codec d'un fichier audio et/ou vidéo, son échantillonage et/ou sa méthode d'encapsulation."
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/gui.xml:57
-#: en/gui.xml:58
+#: en/gui.xml:57 en/gui.xml:58
 #, no-wrap
 msgid "The Wizard Dialog"
 msgstr "Le boîte de dialogue de l'Assistant"
@@ -630,15 +604,13 @@ msgstr ""
 "flux réseaux ou des périphériques de capture."
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/gui.xml:78
-#: en/gui.xml:79
+#: en/gui.xml:78 en/gui.xml:79
 #, no-wrap
 msgid "Wizard input selection"
 msgstr "Sélection de l'entrée par l'Assistant"
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/gui.xml:86
-#: en/gui.xml:87
+#: en/gui.xml:86 en/gui.xml:87
 #, no-wrap
 msgid "Wizard input selection from playlist"
 msgstr "Sélection de l'entrée depuis la liste de lecture par l'Assistant"
@@ -713,15 +685,13 @@ msgstr ""
 "sur le port TCP 80, dans le <emphasis>fichier virtuel</emphasis> /stream."
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/gui.xml:124
-#: en/gui.xml:125
+#: en/gui.xml:124 en/gui.xml:125
 #, no-wrap
 msgid "Wizard streaming method"
 msgstr "Méthode de diffusion par l'Assistant"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
-#: en/gui.xml:130
-#: en/gui.xml:334
+#: en/gui.xml:130 en/gui.xml:334
 #, no-wrap
 msgid "Transcoding options"
 msgstr "Options de transcodage"
@@ -739,23 +709,19 @@ msgstr ""
 "l'échantillonnage vers lesquels vous souhaitez convertir votre entrée."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
-#: en/gui.xml:136
-#: en/gui.xml:155
-#: en/gui.xml:322
+#: en/gui.xml:136 en/gui.xml:155 en/gui.xml:322
 #, no-wrap
 msgid "(See <xref linkend=\"smc\" endterm=\"tsmc\" />)"
 msgstr "(Voir <xref linkend=\"smc\" endterm=\"tsmc\" />)"
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/gui.xml:142
-#: en/gui.xml:143
+#: en/gui.xml:142 en/gui.xml:143
 #, no-wrap
 msgid "Wizard transcode"
 msgstr "Transcoder avec l'Assistant"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
-#: en/gui.xml:148
-#: en/gui.xml:326
+#: en/gui.xml:148 en/gui.xml:326
 #, no-wrap
 msgid "Encapsulation method"
 msgstr "Méthode d'encapsulation"
@@ -776,8 +742,7 @@ msgstr ""
 "d'encapsulation compatible avec les codecs choisis."
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/gui.xml:161
-#: en/gui.xml:162
+#: en/gui.xml:161 en/gui.xml:162
 #, no-wrap
 msgid "Wizard encapsulation method"
 msgstr "Méthode d'encapsulation par l'Assistant"
@@ -842,8 +807,7 @@ msgstr ""
 "diffusion HTTP."
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/gui.xml:195
-#: en/gui.xml:196
+#: en/gui.xml:195 en/gui.xml:196
 #, no-wrap
 msgid "Wizard streaming options"
 msgstr "options de l'assistant de diffusion"
@@ -866,8 +830,7 @@ msgstr ""
 "sauvegarder le flux."
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/gui.xml:210
-#: en/gui.xml:211
+#: en/gui.xml:210 en/gui.xml:211
 #, no-wrap
 msgid "Wizard save file - wxWindows interface"
 msgstr "Assistant de sauvegarde - interface wxWindows"
@@ -885,8 +848,7 @@ msgid "Streaming using the GUI"
 msgstr "Diffusion en mode graphique"
 
 # type: Content of: <chapter><sect1><title>
-#: en/gui.xml:220
-#: en/intro.xml:10
+#: en/gui.xml:220 en/intro.xml:10
 #, no-wrap
 msgid "Introduction"
 msgstr "Introduction"
@@ -913,15 +875,13 @@ msgid ""
 msgstr "pour diffuser le media ouvert, cochez \"flux de sortie\" dans la boite de dialogue \"ouvrir un fichier/disque/flux reseau/périphérique de capture\"et cliquez sur le bouton \"paramètres\" "
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/gui.xml:237
-#: en/gui.xml:238
+#: en/gui.xml:237 en/gui.xml:238
 #, no-wrap
 msgid "Open file dialog - wxWindows interface"
 msgstr "menu ouvrir un fichier - interface wxWindows"
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/gui.xml:245
-#: en/gui.xml:246
+#: en/gui.xml:245 en/gui.xml:246
 #, no-wrap
 msgid "Open file dialog - Mac OS X interface"
 msgstr "menu ouvrir un fichier - Mac OS X"
@@ -933,10 +893,7 @@ msgid "The Stream Output dialog"
 msgstr "la boite dialogue Flux de sortie"
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/gui.xml:257
-#: en/gui.xml:258
-#: en/gui.xml:265
-#: en/gui.xml:266
+#: en/gui.xml:257 en/gui.xml:258 en/gui.xml:265 en/gui.xml:266
 #, no-wrap
 msgid "Stream output dialog - wxWindows interface"
 msgstr "la boite dialogue Flux de sortie - interface wxWindows"
@@ -1074,8 +1031,7 @@ msgid ""
 msgstr "Diffuser une chaine DVB (Satellite ou TNT)"
 
 # type: Content of: <chapter><sect1><note><para>
-#: en/dvb.xml:11
-#: en/encoding-cards.xml:11
+#: en/dvb.xml:11 en/encoding-cards.xml:11
 #, no-wrap
 msgid "This is possible under GNU/Linux only."
 msgstr "Cela est uniquement possible sous GNU/Linux."
@@ -1111,11 +1067,10 @@ msgid ""
 "kernel, you must download the latest release of the DVB drivers from the <ulink url=\"http://www.linuxtv.org/download/dvb/\">DVB drivers download\n"
 "page</ulink> of the <ulink url=\"http://www.linuxtv.org/\">LinuxTV</ulink>\n"
 "Project."
-msgstr "Si vous utilisez un noyau linux 2.4.x, vous devez telecharger la dernière version des drivers DVB depuis la page <ulink url=\"http://www.linuxtv.org/download/dvb/\"> du projet <ulink url=\"http://www.linuxtv.org/\">LinuxTV</ulink>."
+msgstr "Si vous utilisez un noyau linux 2.4.x, vous devez telecharger la dernière version des drivers DVB depuis la page <ulink url=\"http://www.linuxtv.org/download/dvb/\">DVB drivers download</ulink> du projet <ulink url=\"http://www.linuxtv.org/\">LinuxTV</ulink>."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
-#: en/dvb.xml:45
-#: en/encoding-cards.xml:160
+#: en/dvb.xml:45 en/encoding-cards.xml:160
 #, no-wrap
 msgid ""
 "Uncompress the tarball and follow the instructions\n"
@@ -1123,15 +1078,13 @@ msgid ""
 msgstr "Decompressez le tarball et suivez les instructions ecrites dans le fichier"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para><filename>
-#: en/dvb.xml:46
-#: en/encoding-cards.xml:161
+#: en/dvb.xml:46 en/encoding-cards.xml:161
 #, no-wrap
 msgid "INSTALL"
 msgstr "INSTALL"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
-#: en/dvb.xml:46
-#: en/encoding-cards.xml:161
+#: en/dvb.xml:46 en/encoding-cards.xml:161
 #, no-wrap
 msgid ""
 "file to compile and install\n"
@@ -1213,9 +1166,7 @@ msgid ""
 msgstr "<emphasis>192.168.0.42</emphasis> est l'un ou l'autre :"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
-#: en/dvb.xml:115
-#: en/encoding-cards.xml:58
-#: en/encoding-cards.xml:259
+#: en/dvb.xml:115 en/encoding-cards.xml:58 en/encoding-cards.xml:259
 #, no-wrap
 msgid "Stream with VLC"
 msgstr "Diffuser avec VLC"
@@ -1346,15 +1297,13 @@ msgid ""
 msgstr "<emphasis>address</emphasis> est l'une:"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/dvb.xml:167
-#: en/encoding-cards.xml:421
+#: en/dvb.xml:167 en/encoding-cards.xml:421
 #, no-wrap
 msgid "the IP address of the machine you want to unicast to"
 msgstr "des adresses IP des machines vers lequelles vous voulez difuser en unicast"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/dvb.xml:171
-#: en/encoding-cards.xml:424
+#: en/dvb.xml:171 en/encoding-cards.xml:424
 #, no-wrap
 msgid "or the DNS name the machine you want to unicast to"
 msgstr "ou des adresses DNS des machines vers lequelles vous voulez difuser en unicast"
@@ -1445,8 +1394,7 @@ msgstr ""
 "duplicate{dst=display,dst=standard{access=udp,mux=ts,url=239.255.12.42,sap,name=\"TestStream\"}}'</userinput>"
 
 # type: Content of: <chapter><sect1><sect2><title>
-#: en/examples.xml:46
-#: en/vlm-vod.xml:291
+#: en/examples.xml:46 en/vlm-vod.xml:291
 #, no-wrap
 msgid "Multiple streaming"
 msgstr "Diffusion multiple"
@@ -1603,8 +1551,7 @@ msgid "Stream in HTTP:"
 msgstr "Diffuser en HTTP:"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
-#: en/examples.xml:141
-#: en/examples.xml:194
+#: en/examples.xml:141 en/examples.xml:194
 #, no-wrap
 msgid "on the server, run:"
 msgstr "Sur le serveur, lancer"
@@ -1616,8 +1563,7 @@ msgid "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#standard{acc
 msgstr "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#standard{access=http,mux=ogg,url=server.example.org:8080}'</userinput>"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
-#: en/examples.xml:151
-#: en/examples.xml:204
+#: en/examples.xml:151 en/examples.xml:204
 #, no-wrap
 msgid "on the client(s), run:"
 msgstr "sur le(s) client(s), lancer:"
@@ -1793,7 +1739,7 @@ msgstr "côté client: pour recevoir le son:"
 #: en/examples.xml:280
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc udp:@:1212</userinput>"
-msgstr "prompt>% </prompt><userinput>vlc udp:@:1212</userinput>"
+msgstr "<prompt>% </prompt><userinput>vlc udp:@:1212</userinput>"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/examples.xml:282
@@ -1912,8 +1858,7 @@ msgstr ""
 "wxWindows:"
 
 # type: Content of: <chapter><sect1><sect2><sect3><mediaobject><caption><para>
-#: en/vlm-vod.xml:44
-#: en/vlm-vod.xml:45
+#: en/vlm-vod.xml:44 en/vlm-vod.xml:45
 #, no-wrap
 msgid "Launching the Telnet interface - wxWindows interface"
 msgstr "Démarrage de l'interface Telnet - interface wxWindows"
@@ -2561,8 +2506,7 @@ msgstr ""
 "est un dièse # est considérée comme un commentaire, et donc ignorée."
 
 # type: Content of: <chapter><sect1><title>
-#: en/vlm-vod.xml:287
-#: en/cmdline.xml:1049
+#: en/vlm-vod.xml:287 en/cmdline.xml:1049
 #, no-wrap
 msgid "Examples"
 msgstr "Exemples"
@@ -2730,8 +2674,7 @@ msgid "<emphasis>server</emphasis> is the address of the streaming server (IP or
 msgstr "<emphasis>serveur</emphasis> est l'adresse du serveur de diffusion (IP ou DNS)"
 
 # type: Content of: <chapter><sect1><title>
-#: en/ipv6.xml:3
-#: en/ipv6.xml:9
+#: en/ipv6.xml:3 en/ipv6.xml:9
 #, no-wrap
 msgid "Streaming over IPv6"
 msgstr "Diffusion sur IPv6"
@@ -2996,8 +2939,7 @@ msgid "or the multicast IPv6 address."
 msgstr "ou l'adresse IPv6 multicast."
 
 # type: Content of: <chapter><sect1><sect2><sect3><note><para>
-#: en/ipv6.xml:153
-#: en/ipv6.xml:210
+#: en/ipv6.xml:153 en/ipv6.xml:210
 #, no-wrap
 msgid ""
 "Under Unix/Linux, you may have to protect the square\n"
@@ -3023,15 +2965,13 @@ msgstr ""
 "l'interface réseau de sortie :"
 
 # type: Content of: <chapter><sect1><sect2><sect3><note><screen>
-#: en/ipv6.xml:169
-#: en/ipv6.xml:225
+#: en/ipv6.xml:169 en/ipv6.xml:225
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc -vvv video1.xyz --ipv6 --sout udp:[ff08::1%eth0] --ttl 12</userinput>"
 msgstr "<prompt>% </prompt><userinput>vlc -vvv video1.xyz --ipv6 --sout udp:[ff08::1%eth0] --ttl 12</userinput>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><note><para>
-#: en/ipv6.xml:173
-#: en/ipv6.xml:229
+#: en/ipv6.xml:173 en/ipv6.xml:229
 #, no-wrap
 msgid ""
 "where <emphasis>eth0</emphasis> is the name of the\n"
@@ -3580,8 +3520,7 @@ msgid "The available options are:"
 msgstr "Les options disponibles sont :"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
-#: en/cmdline.xml:118
-#: en/cmdline.xml:519
+#: en/cmdline.xml:118 en/cmdline.xml:519
 #, no-wrap
 msgid "access="
 msgstr "access="
@@ -3733,9 +3672,7 @@ msgid "Options are the same as for the <emphasis>udp</emphasis> setting."
 msgstr "Les options sont les mêmes que pour pour l'<emphasis>udp</emphasis>."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
-#: en/cmdline.xml:170
-#: en/cmdline.xml:452
-#: en/cmdline.xml:545
+#: en/cmdline.xml:170 en/cmdline.xml:452 en/cmdline.xml:545
 #, no-wrap
 msgid "mux="
 msgstr "mux="
@@ -3747,9 +3684,7 @@ msgid "This option allows you to set the encapsulation method used for the resul
 msgstr "Cette option vous permet de choisir la méthode d'encapsulation utilisée dans le flux. Cette option est obligatoire."
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/cmdline.xml:173
-#: en/cmdline.xml:609
-#: en/cmdline.xml:911
+#: en/cmdline.xml:173 en/cmdline.xml:609 en/cmdline.xml:911
 #, no-wrap
 msgid "Available options are:"
 msgstr "Les options disponibles sont :"
@@ -3978,8 +3913,7 @@ msgid ""
 msgstr "Aucune option n'est disponible pour ce muxer."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
-#: en/cmdline.xml:259
-#: en/cmdline.xml:477
+#: en/cmdline.xml:259 en/cmdline.xml:477
 #, no-wrap
 msgid "url="
 msgstr "url="
@@ -4100,8 +4034,7 @@ msgstr ""
 "VLC sera le seul client capable de lire ce champ."
 
 # type: Content of: <chapter><sect1><sect2><sect3><note><para>
-#: en/cmdline.xml:308
-#: en/cmdline.xml:318
+#: en/cmdline.xml:308 en/cmdline.xml:318
 #, no-wrap
 msgid ""
 "This option can only be used it the <emphasis>sap</emphasis>\n"
@@ -4143,8 +4076,7 @@ msgstr ""
 "vous souhaitez utiliser le SLP."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
-#: en/cmdline.xml:329
-#: en/cmdline.xml:463
+#: en/cmdline.xml:329 en/cmdline.xml:463
 #, no-wrap
 msgid "name="
 msgstr "name="
@@ -4268,9 +4200,7 @@ msgid "The different available options are:"
 msgstr "Les différentes options disponibes sont :"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
-#: en/cmdline.xml:379
-#: en/cmdline.xml:586
-#: en/cmdline.xml:914
+#: en/cmdline.xml:379 en/cmdline.xml:586 en/cmdline.xml:914
 #, no-wrap
 msgid "dst="
 msgstr "dst="
@@ -4380,13 +4310,12 @@ msgid ""
 "IP:port/path&gt;</emphasis>, to make the file available using the\n"
 "integrated HTTP server of VLC."
 msgstr ""
-"<emphasus>http://&lt;interface locale\n"
+"<emphasis>http://&lt;interface locale\n"
 "IP:port/chemin&gt;</emphasis>, pour rendre le fichier disponible en\n"
 "utilisant le serveur HTTP intégré au VLC."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><note><para>
-#: en/cmdline.xml:426
-#: en/cmdline.xml:434
+#: en/cmdline.xml:426 en/cmdline.xml:434
 #, no-wrap
 msgid ""
 "The <emphasis>local interface IP</emphasis> argument\n"
@@ -4631,8 +4560,7 @@ msgid ""
 msgstr "Utiliser cette option pour rÃ©gler le lieu dans lequel sera sauvÃ©, envoyÃ© ou rendu accessible le <emphasis>flux Ã©lÃ©mentaire</emphasis> vidÃ©o. La signification exacte de cette option dÃ©pend de la valeur de l'option <emphasis>access-video</emphasis> et est la mÃªme que l'option <emphasis>url</emphasis> du module <emphasis>standard</emphasis> (voir prÃ©cÃ©demment)."
 
 # type: Content of: <chapter><sect1><sect2><sect3><note><para>
-#: en/cmdline.xml:562
-#: en/cmdline.xml:578
+#: en/cmdline.xml:562 en/cmdline.xml:578
 #, no-wrap
 msgid ""
 "If you use the <emphasis>%d</emphasis> string in the url\n"
@@ -4744,8 +4672,7 @@ msgid "This allows to set the encoder to use to encode the videos stream. Availa
 msgstr "Ceci permet de rÃ©gler l'encodeur Ã  utiliser pour encoder les vidÃ©os. Les options disponibles sont :"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/cmdline.xml:633
-#: en/cmdline.xml:801
+#: en/cmdline.xml:633 en/cmdline.xml:801
 #, no-wrap
 msgid ""
 "<emphasis>ffmpeg</emphasis>: this is the libavcodec encoding\n"
@@ -4793,7 +4720,7 @@ msgid ""
 "keeping compatibility with MPEG2 decoders, <emphasis>trellis</emphasis>\n"
 "enables trelli quantization (better quality, but slower\n"
 "processing)."
-msgstr "Les options sont : <emphasis>keyint=<nombre de frames></emphasis> permet de régler le nombre maximal de frames entre 2 frames clé, <emphasis>hurry-up</emphasis> permet à l'encodeur de diminuer la qualité du flux si le processeur ne peut soutenir le taux d'encodage, <emphasis>interlace</emphasis> permet d'améliorer la qualité de l'encodage d'une vidéo entrelacée, <emphasis>noise-reduction=<facteur de réduction du bruit></emphasis> active un algorithme de réduction du bruit (réduira le débit demandé au coût des détails dans l'image), <emphasis>vt=<tolérance du débit en kbit/s></emphasis> permet de régler la tolérance du débit de la vidéo de sortie, <emphasis>bframes=<nombre de frames></emphasis> règle le nombre de B frames entre 2 frames clé, <emphasis>qmin=<quantizer></emphasis> permet de régler l'échelle minimale des quantizers, <emphasis>qmax=<quantizer></emphasis> permet de régler l'échelle maximale des quantizers,<emphasis>qscale=<quantizer></emphasis> permet de régler une échelle fixe de quantizers pour des encodages VBR, <emphasis>i-quant-factor=<facteur de quantization></emphasis> permet de régler le facteur de quantization des I frames par rapport aux P frames, <emphasis>hq=<quality></emphasis> permet de régler le niveau de qualité pour l'encodage des vecteurs de mouvement (les arguments sont simple, rd ou bits, par défaut simple), <emphasis>strict=<niveau de conformité></emphasis> permet de forcer un niveau strict de conformité (les valeurs possibles sont -1, 0, 1, par défaut 0), <emphasis>strict-rc</emphasis> active un algorithme de contrôle à taux strict, <emphasis>rc-buffer-size=<taille du buffer en bits></emphasis> permet de choisir la taille du buffer utilisé pour le contrôle du taux (une valeur élevée correspond à un contrôle plus efficace), <emphasis>rc-buffer-aggressivity=<nombre représentant l'aggressivité></emphasis> permet de régler l'aggressivité du taux de contrôle du buffer, <emphasis>pre-me</emphasis> permet d'activer l'estimation pre motion, <emphasis>mpeg4-matrix</emphasis> active l'utilisation de la matrice de quantification MPEG4 avec les flux MPEG2, améliorant la qualité tout en gardant la compatibilité avec les décodeurs MPEG2, <emphasis>trellis</emphasis> active la quantization trellis (meilleure qualité, mais traitement plus lent)."
+msgstr "Les options sont : <emphasis>keyint=&gt;nombre de frames&lt;</emphasis> permet de régler le nombre maximal de frames entre 2 frames clé, <emphasis>hurry-up</emphasis> permet à l'encodeur de diminuer la qualité du flux si le processeur ne peut soutenir le taux d'encodage, <emphasis>interlace</emphasis> permet d'améliorer la qualité de l'encodage d'une vidéo entrelacée, <emphasis>noise-reduction=&lt;facteur de réduction du bruit&gt;</emphasis> active un algorithme de réduction du bruit (réduira le débit demandé au coût des détails dans l'image), <emphasis>vt=&lt;tolérance du débit en kbit/s&gt;</emphasis> permet de régler la tolérance du débit de la vidéo de sortie, <emphasis>bframes=&lt;nombre de frames&gt;</emphasis> règle le nombre de B frames entre 2 frames clé, <emphasis>qmin=&lt;quantizer&gt;</emphasis> permet de régler l'échelle minimale des quantizers, <emphasis>qmax=&lt;quantizer&gt;</emphasis> permet de régler l'échelle maximale des quantizers,<emphasis>qscale=&lt;quantizer&gt;</emphasis> permet de régler une échelle fixe de quantizers pour des encodages VBR, <emphasis>i-quant-factor=&lt;facteur de quantization&gt;</emphasis> permet de régler le facteur de quantization des I frames par rapport aux P frames, <emphasis>hq=&lt;quality&gt;</emphasis> permet de régler le niveau de qualité pour l'encodage des vecteurs de mouvement (les arguments sont simple, rd ou bits, par défaut simple), <emphasis>strict=&lt;niveau de conformité&gt;</emphasis> permet de forcer un niveau strict de conformité (les valeurs possibles sont -1, 0, 1, par défaut 0), <emphasis>strict-rc</emphasis> active un algorithme de contrôle à taux strict, <emphasis>rc-buffer-size=&lt;taille du buffer en bits&gt;</emphasis> permet de choisir la taille du buffer utilisé pour le contrôle du taux (une valeur élevée correspond à un contrôle plus efficace), <emphasis>rc-buffer-aggressivity=&lt;nombre représentant l'aggressivité&gt;</emphasis> permet de régler l'aggressivité du taux de contrôle du buffer, <emphasis>pre-me</emphasis> permet d'activer l'estimation pre motion, <emphasis>mpeg4-matrix</emphasis> active l'utilisation de la matrice de quantification MPEG4 avec les flux MPEG2, améliorant la qualité tout en gardant la compatibilité avec les décodeurs MPEG2, <emphasis>trellis</emphasis> active la quantization trellis (meilleure qualité, mais traitement plus lent)."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:674
@@ -4812,7 +4739,7 @@ msgid ""
 "level&gt;</emphasis>. This option allows to create a VBR stream,\n"
 "overriding <emphasis>vb</emphasis> setting. the quality level must be an\n"
 "integer between 1 and 10. Higher is better."
-msgstr "La seule option disponible est <emphasis>quality=<niveau de qualité></emphasis>. Cette option permet de créer un flux VBR, remplaçant le réglage <emphasis>vb</emphasis>, le nieau de qualité doit être un entier entre 1 et 10. Le meilleur étant le plus élevé."
+msgstr "La seule option disponible est <emphasis>quality=&lt;niveau de qualité&gt;</emphasis>. Cette option permet de créer un flux VBR, remplaçant le réglage <emphasis>vb</emphasis>, le nieau de qualité doit être un entier entre 1 et 10. Le meilleur étant le plus élevé."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:683
@@ -4844,7 +4771,27 @@ msgid ""
 "<emphasis>scenecut=&lt;sensibility&lt;</emphasis> allows to control\n"
 "how aggressively the encoder should insert extra I-frame, on scene\n"
 "change."
-msgstr "Les options sont : <emphasis>keyint=<nombre de frames></emphasis> permet de régler le nombre maximal de frames entre 2 frames clé, <emphasis>idrint=<nombre de frames></emphasis> permet de fixer le nombre maximal de frames entre 2 frames IDR, <emphasis>bframes=<nombre de frames></emphasis> permet de régler le nombre de B frames entre une frame I et une frame P, <emphasis>qp=<paramètre des quantizers></emphasis> permet de fixer une valeur fixe des quantizers (entre 1 et 51), <emphasis>qp-max=<paramètre des quantizers></emphasis> permet de donner la valeur maximale des quantizers, <emphasis>qp-min=<paramètre des quantizers></emphasis> permet de régler la valeur minimale des quantizers, <emphasis>cabac</emphasis> active l'algorithme CABAC (Context-Adaptative Binary Arithmetic Coding) (plus lent mais améliore la qualité), <emphasis>loopfilter</emphasis> active le filtre loop, <emphasis>analyse</emphasis> active le mode analyze, <emphasis>frameref=<nombre de frames></emphasis> permet de régler le nombre de frames utilisées comme prédicateurs, <emphasis>scenecut=<sensibilité></emphasis> permet de contrôler avec quelle aggressivité l'encodeur doit insérer des I-frame externes au chanegement de scène."
+
+msgstr "Les options sont : <emphasis>keyint=&lt;nombre de"
+"frames&gt;</emphasis> permet de régler le nombre maximal de frames"
+"entre 2 frames clé, <emphasis>idrint=&lt;nombre de frames&gt;</emphasis>"
+"permet de fixer le nombre maximal de frames entre 2 frames"
+"IDR, <emphasis>bframes=&lt;nombre de frames&gt;</emphasis> permet"
+"de régler le nombre de B frames entre une frame I et une"
+"frame P, <emphasis>qp=&lt;paramètre des quantizers&gt;</emphasis>"
+"permet de fixer une valeur fixe des quantizers (entre 1 et 51),"
+"<emphasis>qp-max=&lt;paramètre des quantizers&gt;</emphasis> permet de"
+"donner la valeur maximale des quantizers, <emphasis>qp-min=&lt;paramètre"
+"des quantizers&gt;</emphasis> permet de régler la valeur minimale"
+"des quantizers, <emphasis>cabac</emphasis> active l'algorithme"
+"CABAC (Context-Adaptative Binary Arithmetic Coding) (plus lent"
+"mais améliore la qualité), <emphasis>loopfilter</emphasis>"
+"active le filtre loop, <emphasis>analyse</emphasis> active le mode"
+"analyze, <emphasis>frameref=&lt;nombre de frames&gt;</emphasis> permet"
+"de régler le nombre de frames utilisées comme prédicateurs,"
+"<emphasis>scenecut=&lt;sensibilité&gt;</emphasis> permet de contrôler avec"
+"quelle aggressivité l'encodeur doit insérer des I-frame externes au"
+"chanegement de scène."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:710
@@ -4991,8 +4938,7 @@ msgid ""
 msgstr "Cette option permet de spécifier le codec dans lequel la piste audio doit être transcodée."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
-#: en/cmdline.xml:782
-#: en/cmdline.xml:850
+#: en/cmdline.xml:782 en/cmdline.xml:850
 #, no-wrap
 msgid ""
 "List of available codecs can be found on the\n"
@@ -5051,7 +4997,7 @@ msgid ""
 "in kbit/s&gt;</emphasis> allows to set the minimum bitrate,\n"
 "for vbr encoding, <emphasis>cbr</emphasis> allows to force cbr\n"
 "encoding."
-msgstr "Les options sont : <emphasis>qualité=<niveau de qualité></emphasis> permet d'utiliser VBR (débit variable) pour encoder à la place de CBR (débit constant) par défaut, et de fixer le niveau de qualité (entre 1 et 10, le plus haut est le meilleur), <emphasis>max-bitrate=<débit en kbit/s></emphasis> permet de fixer le débit maximum, pour un encodage vbr, <emphasis>min-bitrate=<débit en kbit/s></emphasis> permet de fixer le débit minimum, pour un encodage vbr, <emphasis>cbr</emphasis> permet de forcer un encodage cbr."
+msgstr "Les options sont : <emphasis>qualité=&lt;niveau de qualité&gt;</emphasis> permet d'utiliser VBR (débit variable) pour encoder à la place de CBR (débit constant) par défaut, et de fixer le niveau de qualité (entre 1 et 10, le plus haut est le meilleur), <emphasis>max-bitrate=&lt;débit en kbit/s&gt;</emphasis> permet de fixer le débit maximum, pour un encodage vbr, <emphasis>min-bitrate=&lt;débit en kbit/s&gt;</emphasis> permet de fixer le débit minimum, pour un encodage vbr, <emphasis>cbr</emphasis> permet de forcer un encodage cbr."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:820
@@ -5172,7 +5118,7 @@ msgstr "La liste des <emphasis>subpicture filters</emphasis> disponibles peut ê
 #: en/cmdline.xml:884
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc -p --advanced &lt;module name&gt;</userinput>"
-msgstr "<prompt>% </prompt><userinput>vlc -p --advanced <nom_du_module></userinput>"
+msgstr "<prompt>% </prompt><userinput>vlc -p --advanced &lt;nom_du_module&gt;</userinput>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:889
@@ -5525,8 +5471,7 @@ msgid "Here is an illustration of the complete VideoLAN solution:"
 msgstr "Voici une illustration de la solution de diffusion VideoLAN :"
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/intro.xml:24
-#: en/intro.xml:25
+#: en/intro.xml:24 en/intro.xml:25
 #, no-wrap
 msgid "Global VideoLAN solution"
 msgstr "Solution de diffusion VideoLAN"
@@ -5804,8 +5749,7 @@ msgid "Stream with the Hauppauge WinTV-PVR-250/350 card"
 msgstr "Diffuser à l'aide d'une carte Hauppauge WinTV-PVR-250/350"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
-#: en/encoding-cards.xml:38
-#: en/encoding-cards.xml:150
+#: en/encoding-cards.xml:38 en/encoding-cards.xml:150
 #, no-wrap
 msgid "Install the drivers"
 msgstr "Installer les pilotes"
@@ -5879,15 +5823,14 @@ msgid ""
 msgstr "<emphasis>/dev/video0</emphasis> est le périphérique correspondant a la carte d'encodage,"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/encoding-cards.xml:85
-#: en/encoding-cards.xml:283
+#: en/encoding-cards.xml:85 en/encoding-cards.xml:283
 #, no-wrap
 msgid ""
 "<emphasis>norm=secam</emphasis>\n"
 " is name of the standard of the analogic signal\n"
 "(possible values are pal, secam, and ntsc)\n"
 ","
-msgstr "<emphasis>norm=secam</emphais> est le nom du standard utilisé par le signal analogique (les valeurs possibles sont pal, secam et ntsc),"
+msgstr "<emphasis>norm=secam</emphasis> est le nom du standard utilisé par le signal analogique (les valeurs possibles sont pal, secam et ntsc),"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/encoding-cards.xml:90
@@ -5933,8 +5876,7 @@ msgid "<emphasis>1000</emphasis> is a secret value to work around a bug of the c
 msgstr "<emphasis>1000</emphasis> est une valeur secrète pour contourner un bug de la carte."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/encoding-cards.xml:110
-#: en/encoding-cards.xml:190
+#: en/encoding-cards.xml:110 en/encoding-cards.xml:190
 #, no-wrap
 msgid ""
 "<emphasis>192.168.0.42</emphasis>\n"
@@ -5942,8 +5884,7 @@ msgid ""
 msgstr "<emphasis>192.168.0.42</emphasis> est soit :"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/encoding-cards.xml:116
-#: en/encoding-cards.xml:196
+#: en/encoding-cards.xml:116 en/encoding-cards.xml:196
 #, no-wrap
 msgid ""
 "the IP address of the machine you want to unicast\n"
@@ -5952,8 +5893,7 @@ msgid ""
 msgstr "l'adresse IP de la machine vers laquelle vous souhaitez diffuser en unicast;"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/encoding-cards.xml:121
-#: en/encoding-cards.xml:201
+#: en/encoding-cards.xml:121 en/encoding-cards.xml:201
 #, no-wrap
 msgid ""
 "or the DNS name the machine you want to unicast\n"
@@ -6010,8 +5950,7 @@ msgid ""
 msgstr "où : "
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><filename>
-#: en/encoding-cards.xml:186
-#: en/encoding-cards.xml:278
+#: en/encoding-cards.xml:186 en/encoding-cards.xml:278
 #, no-wrap
 msgid "/dev/video"
 msgstr "/dev/video"
@@ -6049,7 +5988,7 @@ msgid ""
 "If you want to stream from an acquisition card\n"
 "or a webcam, a video4linux driver must be available for it. You can\n"
 "find more information about video4linux and supported devices <ulink url=\"http://www.exploits.org/v4l\">here</ulink>."
-msgstr "Si vous voulez diffuser depuis une carte d'acquisition ou une webcam, un driver video4linux est nécessaire. Vous pouvez trouver plus d'explication sur video4linux et les périphériques supportés <ulink url=\"http://www.exploits.org/v4l\"ici</ulink>."
+msgstr "Si vous voulez diffuser depuis une carte d'acquisition ou une webcam, un driver video4linux est nécessaire. Vous pouvez trouver plus d'explication sur video4linux et les périphériques supportés <ulink url=\"http://www.exploits.org/v4l\">ici</ulink>."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/encoding-cards.xml:242
@@ -6097,7 +6036,7 @@ msgstr ""
 # type: Content of: <chapter><sect1><sect2><sect3><note><para>
 #: en/encoding-cards.xml:273
 #, fuzzy, no-wrap
-msgid "You can find all transcode options on this page : <xref linkend=\\\"cmdline\\\" endterm=\\\"tcmdline\\\" /> ."
+msgid "You can find all transcode options on this page : <xref linkend=\"cmdline\" endterm=\"tcmdline\" /> ."
 msgstr "Vous trouverez toutes les options de transcodage ici : <xref linkend=\"cmdline\" endterm=\"tcmdline\" />"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
@@ -6337,4 +6276,3 @@ msgid ""
 "<emphasis>239.255.42.12</emphasis>\n"
 " is either:"
 msgstr "<emphasis>239.255.42.12</emphasis> est soit :"
-

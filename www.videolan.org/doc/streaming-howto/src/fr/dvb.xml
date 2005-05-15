@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="dvb"><title id="tdvb">
+Diffuser une chaine DVB (Satellite ou TNT)
+</title>
+
+<!-- FIXME: improve, update, needs gui -->
+
+
+<note><para>
+Cela est uniquement possible sous GNU/Linux.
+</para></note>
+
+<sect1><title>
+Installer les drivers DVB
+</title>
+
+<para>
+Si vous voulez pouvoir diffuser depuis une carte DVB (carte satellite ou TNT), vous devez installer les drivers DVB.
+
+</para>
+
+<itemizedlist>
+
+<listitem><para>
+
+Si vous utilisez un noyau linux 2.6.x, vous avez juste besoin de compiler les bons modules.
+
+</para></listitem>
+
+<listitem><para>
+
+Si vous utilisez un noyau linux 2.4.x, vous devez telecharger la dernière version des drivers DVB depuis la page <ulink url="http://www.linuxtv.org/download/dvb/">DVB drivers download</ulink> du projet <ulink url="http://www.linuxtv.org/">LinuxTV</ulink>.
+
+</para></listitem>
+
+</itemizedlist>
+<para>
+Decompressez le tarball et suivez les instructions ecrites dans le fichier <filename>INSTALL</filename> pour compiler et installer les drivers.
+</para>
+
+</sect1>
+
+<sect1><title>
+Diffuser avec VLC
+</title>
+
+<para>
+Mettez un fichier <filename>.dvbrc</filename> contenant les chaines DVB (Staellite ou TNT) que vous désirez diffuser dans votre repertoire personnel (certains sont fournis dans le tarball <emphasis>libdvb</emphasis> pour chaines satellite.
+</para>
+
+<para>
+Lancez VLS avec la ligne de commande suivante :
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>vls -vv -d udp:192.168.0.42 dvb:"EUROSPORT" --ttl 12</userinput>
+</screen>
+
+<para>
+où :
+</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>"EUROSPORT"</emphasis> est la chaine que vous voulez diffuser comme ecrit dans votre fichier <filename>~/.dvbrc</filename> ,</para></listitem>
+
+<listitem><para><emphasis>192.168.0.42</emphasis> est l'un ou l'autre :</para>
+
+<itemizedlist>
+<listitem><para>
+l'adresse IP de la machine vers laquelle vous voulez émettre en
+unicast;
+</para></listitem>
+
+<listitem><para>
+ou le nom DNS de la machine vers laquelle vous vous voulez émettre
+en unicast;
+</para></listitem>
+
+<listitem><para>
+ou une adresse IP multicast.
+</para></listitem></itemizedlist>
+
+</listitem>
+
+<listitem><para><emphasis>12</emphasis>
+est la valeur du TTL (Time To Live) de vos paquets IP (ce qui
+signifie que le flux peut traverser 11 routeurs maximum).
+</para></listitem>
+
+</itemizedlist>
+
+</sect1>
+
+<sect1><title>
+Diffuser avec VLC
+</title>
+
+<note><para>
+Pour cela, vous pouvez utiliser la version SVN de VLC et la compiler avec <command>./configure --enable-dvb</command>. Cette fonctionnalité est encore considérée comme expérimentale. Vous pourrez la trouver dans la release officielle depuis la version 0.7.2.</para></note>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv --color --ttl 12  --ts-es-id-pid --programs 8508,8505 dvb: --dvb-adapter=0 --dvb-frequency=11739000 --dvb-srate=27500000 --dvb-voltage=13 --dvb-fec=3 --dvb-budget-mode --sout '#duplicate{dst=std{access=udp,mux=ts,url=address:3001},select="program=8508",dst=std{access=udp,mux=ts,url=address:3002},select="program=8505"}'</userinput>
+</screen>
+
+<para>
+où :
+</para>
+
+<itemizedlist>
+
+<listitem><para>
+<filename>ts-es-id-pid</filename> est necessaire pour dupliquer</para></listitem>
+
+<listitem><para>
+<filename>8508</filename> est le SID de la chaine DVB que vous voulez diffuser, exprimé en décimal
+</para></listitem>
+
+<listitem><para>
+<filename>0</filename> est le numéro de la carte DVD (0 pour dvb0)</para></listitem>
+
+<listitem><para>
+<filename>11739000</filename> est la frequence en Hz du transpondeur que vous voulez diffuser</para></listitem>
+
+<listitem><para>
+<filename>27500000</filename> est le symbolrate du transpondeur en Hz</para></listitem>
+
+<listitem><para>
+<filename>13</filename> est la polarisation (13 pour verticale et 18 pour horizontale)</para></listitem>
+
+<listitem><para>
+<filename>3</filename> est le FEC (3 pour 3/4), si vous ne mettez pas l'option, la valeur sera detectée automatiquement</para></listitem>
+
+<listitem><para>
+<filename>dvb-budget-mode</filename> si cette carte supporte ce mode</para></listitem>
+
+<listitem><para><emphasis>address</emphasis> est l'une:</para>
+
+<itemizedlist>
+
+<listitem><para>
+des adresses IP des machines vers lequelles vous voulez difuser en unicast
+</para></listitem>
+
+<listitem><para>
+ou des adresses DNS des machines vers lequelles vous voulez difuser en unicast
+</para></listitem>
+
+<listitem><para>
+ou une adresses IP multicast.</para></listitem>
+
+</itemizedlist>
+
+</listitem>
+
+<listitem><para>
+<emphasis>12</emphasis> est la valeur TTL (Time To Live) des paquets IP (ce qui sigifie que le paquet pourra traverser 11 routeurs.</para></listitem>
+
+</itemizedlist>
+
+</sect1>
+</chapter>

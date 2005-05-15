@@ -1,12 +1,16 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: 2005-05-13 15:14+0100\n"
-"Last-Translator: jOhn <john@hotmail.com>\n"
-"Language-Team: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2005-05-10 11:37+0200\n"
+"PO-Revision-Date: 2005-05-10 11:44+0100\n"
+"Last-Translator: Antoine Cellerier <dionoea AT videolan DOT org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 # type: Content of: <book><bookinfo><title>
@@ -54,14 +58,14 @@ msgstr "Daoud"
 # type: Content of: <book><bookinfo><authorgroup><author><firstname>
 #: en/streaming-howto.xml:49
 #, no-wrap
-msgid "ClÃ©ment"
-msgstr "ClÃ©ment"
+msgid "Clément"
+msgstr "Clément"
 
 # type: Content of: <book><bookinfo><authorgroup><author><surname>
 #: en/streaming-howto.xml:50
 #, no-wrap
 msgid "Stenac"
-msgstr "StÃ©nac"
+msgstr "Sténac"
 
 # type: Content of: <book><bookinfo><authorgroup><author><firstname>
 #: en/streaming-howto.xml:53
@@ -100,9 +104,9 @@ msgid ""
 msgstr ""
 "Vous avez la permission de copier, distribuer et/ou modifier ce document\n"
 "selon les termes de la licence GNU General Public License, telle qu'elle\n"
-"est publiÃ©e par la Free Software Foundation; soit dans la version 2 de la\n"
-"licence, ou (si vous le souhaitez) toute version ultÃ©rieure.\n"
-"Le texte complet de la licence peut Ãªtre trouvÃ© (en anglais) en appendice. n<xref linkend=\"gpl\" endterm=\"tgpl\"/>."
+"est publiée par la Free Software Foundation; soit dans la version 2 de la\n"
+"licence, ou (si vous le souhaitez) toute version ultérieure.\n"
+"Le texte complet de la licence peut être trouvé (en anglais) en appendice. n<xref linkend=\"gpl\" endterm=\"tgpl\"/>."
 
 # type: Content of: <book><bookinfo><keywordset><keyword>
 #: en/streaming-howto.xml:78
@@ -241,10 +245,10 @@ msgid ""
 "<emphasis>disk</emphasis> or <emphasis>cdrom</emphasis> group (look\n"
 "at the permissions in"
 msgstr ""
-"Sous Unix/linux, vous devez avoir les droits en Ã©criture au\n"
-"pÃ©riphÃ©rique correspondant Ã  votre lecteur DVD. Pour cela, vous devriez\n"
-"Ãªtre dans le groupe <emphasis>disk</emphasis> ou\n"
-"<emphasis>cdrom</emphasis> (vÃ©rifiez les permissions dans"
+"Sous Unix/linux, vous devez avoir les droits en écriture au\n"
+"périphérique correspondant à votre lecteur DVD. Pour cela, vous devriez\n"
+"être dans le groupe <emphasis>disk</emphasis> ou\n"
+"<emphasis>cdrom</emphasis> (vérifiez les permissions dans"
 
 # type: Content of: <chapter><note><para><filename>
 #: en/dvd.xml:13
@@ -258,7 +262,7 @@ msgstr "/dev"
 msgid ""
 "). If you're not, add\n"
 "yourself to the group:"
-msgstr "). Si vous n'y Ãªtes dedans, ajoutez-vous au groupe :"
+msgstr "). Si vous n'y êtes dedans, ajoutez-vous au groupe :"
 
 # type: Content of: <chapter><note><screen>
 #: en/dvd.xml:19
@@ -270,7 +274,7 @@ msgstr "<prompt># </prompt><userinput>adduser votre_login disk_ou_cdrom</userinp
 #: en/dvd.xml:23
 #, no-wrap
 msgid "and then restart your session."
-msgstr "et redÃ©marrez votre session."
+msgstr "et redémarrez votre session."
 
 # type: Content of: <chapter><sect1><title>
 #: en/dvd.xml:28
@@ -289,16 +293,14 @@ msgstr "<prompt>% </prompt><userinput>vlc -vvv --color dvdsimple:/dev/dvd --sout
 #: en/file.xml:17
 #: en/dvb.xml:73
 #: en/dvb.xml:128
-#: en/vlm-vod.xml:324
-#: en/vlm-vod.xml:354
-#: en/ipv6.xml:115
-#: en/receive.xml:132
 #: en/vlm-vod.xml:330
 #: en/vlm-vod.xml:360
+#: en/ipv6.xml:115
+#: en/receive.xml:132
 #: en/encoding-cards.xml:275
 #, no-wrap
 msgid "where:"
-msgstr "oÃ¹ :"
+msgstr "où :"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
 #: en/dvd.xml:43
@@ -340,15 +342,14 @@ msgid ""
 "\n"
 ","
 msgstr ""
-"est la lettre de votre lecteur DVD) ou le rÃ©pertoire oÃ¹ vous avez\n"
-"copiÃ© votre DVD\n"
+"est la lettre de votre lecteur DVD) ou le répertoire où vous avez\n"
+"copié votre DVD\n"
 ",\n"
 ","
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/dvd.xml:51
 #: en/file.xml:25
-#: en/encoding-cards.xml:356
 #: en/encoding-cards.xml:355
 #, no-wrap
 msgid ""
@@ -362,28 +363,26 @@ msgstr ""
 #: en/dvd.xml:59
 #: en/file.xml:32
 #: en/dvb.xml:89
-#: en/encoding-cards.xml:363
 #: en/encoding-cards.xml:362
 #, no-wrap
 msgid ""
 "the IP address of the machine you want to unicast\n"
 "to;"
 msgstr ""
-"l'adresse IP de la machine vers laquelle vous voulez Ã©mettre en\n"
+"l'adresse IP de la machine vers laquelle vous voulez émettre en\n"
 "unicast;"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/dvd.xml:65
 #: en/file.xml:37
 #: en/dvb.xml:94
-#: en/encoding-cards.xml:368
 #: en/encoding-cards.xml:367
 #, no-wrap
 msgid ""
 "or the DNS name the machine you want to unicast\n"
 "to;"
 msgstr ""
-"ou le nom DNS de la machine vers laquelle vous vous voulez Ã©mettre\n"
+"ou le nom DNS de la machine vers laquelle vous vous voulez émettre\n"
 "en unicast;"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
@@ -392,8 +391,6 @@ msgstr ""
 #: en/dvb.xml:99
 #: en/encoding-cards.xml:126
 #: en/encoding-cards.xml:206
-#: en/encoding-cards.xml:374
-#: en/encoding-cards.xml:428
 #: en/encoding-cards.xml:373
 #: en/encoding-cards.xml:427
 #, no-wrap
@@ -404,12 +401,10 @@ msgstr "ou une adresse IP multicast."
 #: en/dvd.xml:79
 #: en/file.xml:49
 #: en/dvb.xml:104
-#: en/vlm-vod.xml:326
+#: en/vlm-vod.xml:332
 #: en/ipv6.xml:144
 #: en/encoding-cards.xml:133
 #: en/encoding-cards.xml:213
-#: en/encoding-cards.xml:380
-#: en/vlm-vod.xml:332
 #: en/encoding-cards.xml:379
 #, no-wrap
 msgid ""
@@ -504,7 +499,7 @@ msgid ""
 "the skinnable Windows and GNU/Linux interface or the MacOS X native\n"
 "interface."
 msgstr ""
-"Le plus facile pour commencer Ã  diffuser avec VLC consiste Ã  utiliser\n"
+"Le plus facile pour commencer à diffuser avec VLC consiste à utiliser\n"
 "l'une des interfaces graphiques utilisateur : wxwindows pour Windows et\n"
 "GNU/Linux, l'interface <emphasis>skinnable</emphasis> Windows et\n"
 "GNU/Linux ou l'interface native MacOS X."
@@ -525,9 +520,9 @@ msgid ""
 "easy to use menus but provides a restricted set of options."
 msgstr ""
 "L'<emphasis>Assistant de Diffusion/Tanscodage</emphasis> vous guide\n"
-"pas par pas pour diffuser votre mÃ©dia sur un rÃ©seau ou le sauvegarder\n"
+"pas par pas pour diffuser votre média sur un réseau ou le sauvegarder\n"
 "sur votre disque dur. Cet <emphasis>Assistant</emphasis> fournit des menus\n"
-"simples Ã  utiliser, mais les choix d'options sont restreints."
+"simples à utiliser, mais les choix d'options sont restreints."
 
 # type: Content of: <chapter><sect1><note><para>
 #: en/gui.xml:21
@@ -544,7 +539,7 @@ msgstr ""
 #: en/gui.xml:34
 #, no-wrap
 msgid "Launching the wizard"
-msgstr "DÃ©marrer l'assistant"
+msgstr "Démarrer l'assistant"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/gui.xml:26
@@ -553,26 +548,26 @@ msgid ""
 "To launch the <emphasis>Streaming/Transcoding Wizard</emphasis>,\n"
 "open the \"File\" menu, and select the Wizard menu item."
 msgstr ""
-"Pour dÃ©marrer l'<emphasis>Assistant de diffusion/transcodage</emphasis>,\n"
-"ouvrez le menu \"Fichier\", et sÃ©lectionnez Assistant dans le menu."
+"Pour démarrer l'<emphasis>Assistant de diffusion/transcodage</emphasis>,\n"
+"ouvrez le menu \"Fichier\", et sélectionnez Assistant dans le menu."
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><textobject><para>
 #: en/gui.xml:33
 #, no-wrap
 msgid "Launching the Wizard"
-msgstr "DÃ©marrer l'assistant"
+msgstr "Démarrer l'assistant"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/gui.xml:39
 #, no-wrap
 msgid "Wizard dialog"
-msgstr "Champs Ã  remplir dans l'assistant"
+msgstr "Champs à remplir dans l'assistant"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/gui.xml:41
 #, no-wrap
 msgid "First select the type of task:"
-msgstr "Pour commencer, sÃ©lectionnez le type de tÃ¢che :"
+msgstr "Pour commencer, sélectionnez le type de tâche :"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/gui.xml:45
@@ -581,8 +576,8 @@ msgid ""
 "<emphasis>Stream to network</emphasis>: Choose this\n"
 "option if you want to stream media on network."
 msgstr ""
-"<emphasis>Diffuser vers un rÃ©seau</emphasis> : Choisissez cette\n"
-"option si vous voulez diffuser un mÃ©dia sur un rÃ©seau."
+"<emphasis>Diffuser vers un réseau</emphasis> : Choisissez cette\n"
+"option si vous voulez diffuser un média sur un réseau."
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/gui.xml:48
@@ -592,20 +587,20 @@ msgid ""
 "this option if you want to change a file's audio codec and/or video codec, its bitrate, and/or encapsulation method."
 msgstr ""
 "<emphasis>Transcoder/Sauvegarder</emphasis> : Choisissez cette option\n"
-"si vous souhaitez changer le codec d'un fichier audio et/ou vidÃ©o, son Ã©chantillonage et/ou sa mÃ©thode d'encapsulation."
+"si vous souhaitez changer le codec d'un fichier audio et/ou vidéo, son échantillonage et/ou sa méthode d'encapsulation."
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/gui.xml:57
 #: en/gui.xml:58
 #, no-wrap
 msgid "The Wizard Dialog"
-msgstr "Le boÃ®te de dialogue de l'Assistant"
+msgstr "Le boîte de dialogue de l'Assistant"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/gui.xml:63
 #, no-wrap
 msgid "Input selection"
-msgstr "SÃ©lection de l'entrÃ©e"
+msgstr "Sélection de l'entrée"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/gui.xml:65
@@ -615,9 +610,9 @@ msgid ""
 "capture device ...) by selecting the <emphasis>Choose...</emphasis>\n"
 "dialog or an existing item in your playlist, using the <emphasis>Existing playlist item</emphasis> option."
 msgstr ""
-"Choisissez un flux (tel qu'un fichier, un flux rÃ©seau, un disque,\n"
-"un pÃ©riphÃ©rique de capture, ...) avec le bouton\n"
-"<emphasis>Choisir</emphasis>, ou un Ã©lÃ©ment existant de votre liste de lecture, en avec l'option <emphasis>ElÃ©ment de la liste</emphasis>."
+"Choisissez un flux (tel qu'un fichier, un flux réseau, un disque,\n"
+"un périphérique de capture, ...) avec le bouton\n"
+"<emphasis>Choisir</emphasis>, ou un élément existant de votre liste de lecture, en avec l'option <emphasis>Elément de la liste</emphasis>."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/gui.xml:69
@@ -629,30 +624,30 @@ msgid ""
 "such as files or discs but not network streams or capture devices."
 msgstr ""
 "<emphasis>Extraction partielle</emphasis> : Pour lire uniquement une\n"
-"partie du flux, cochez \"Activer\" et choisissez un dÃ©but et une fin\n"
-"(en secondes). Cette option ne doit Ãªtre utilisÃ©e que dans le cas de flux\n"
-"que vous pouvez contrÃ´ler, comme des fichiers, des disques, mais pas des\n"
-"flux rÃ©seaux ou des pÃ©riphÃ©riques de capture."
+"partie du flux, cochez \"Activer\" et choisissez un début et une fin\n"
+"(en secondes). Cette option ne doit être utilisée que dans le cas de flux\n"
+"que vous pouvez contrôler, comme des fichiers, des disques, mais pas des\n"
+"flux réseaux ou des périphériques de capture."
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/gui.xml:78
 #: en/gui.xml:79
 #, no-wrap
 msgid "Wizard input selection"
-msgstr "SÃ©lection de l'entrÃ©e par l'Assistant"
+msgstr "Sélection de l'entrée par l'Assistant"
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/gui.xml:86
 #: en/gui.xml:87
 #, no-wrap
 msgid "Wizard input selection from playlist"
-msgstr "SÃ©lection de l'entrÃ©e depuis la liste de lecture par l'Assistant"
+msgstr "Sélection de l'entrée depuis la liste de lecture par l'Assistant"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/gui.xml:92
 #, no-wrap
 msgid "Streaming methods"
-msgstr "MÃ©thodes de diffusion"
+msgstr "Méthodes de diffusion"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/gui.xml:94
@@ -661,8 +656,8 @@ msgid ""
 "If you chose <emphasis>Stream to network</emphasis> option, you can\n"
 "now specify the streaming method. Available methods are:"
 msgstr ""
-"Si vous avez choisi l'option <emphasis>Diffuser vers un rÃ©seau</emphasis>,\n"
-"vous pouvez maintenant spÃ©cifier la mÃ©thode de diffusion. Les mÃ©thodes de\n"
+"Si vous avez choisi l'option <emphasis>Diffuser vers un réseau</emphasis>,\n"
+"vous pouvez maintenant spécifier la méthode de diffusion. Les méthodes de\n"
 "diffusion sont :"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
@@ -700,8 +695,8 @@ msgid ""
 msgstr ""
 "<emphasis>HTTP</emphasis> : Diffuser en utilisant le protocole HTTP.\n"
 "Si vous laissez le champ <emphasis>Destination</emphasis> vide, VLC va\n"
-"attendre les connextions sur toutes les interfaces rÃ©seaux du serveur\n"
-"sur le port 8080. SpÃ©cifiez une adresse, un port et un chemin pour les\n"
+"attendre les connextions sur toutes les interfaces réseaux du serveur\n"
+"sur le port 8080. Spécifiez une adresse, un port et un chemin pour les\n"
 "connexions en utilisant la syntaxe suivante [ip][:port][/path]."
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
@@ -714,7 +709,7 @@ msgid ""
 "file</emphasis>."
 msgstr ""
 "Par exemple, <emphasis>192.168.0.1:80/stream</emphasis>\n"
-"va faire Ã©couter VLC sur l'interface portant l'adresse IP 192.168.0.1,\n"
+"va faire écouter VLC sur l'interface portant l'adresse IP 192.168.0.1,\n"
 "sur le port TCP 80, dans le <emphasis>fichier virtuel</emphasis> /stream."
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
@@ -722,7 +717,7 @@ msgstr ""
 #: en/gui.xml:125
 #, no-wrap
 msgid "Wizard streaming method"
-msgstr "MÃ©thode de diffusion par l'Assistant"
+msgstr "Méthode de diffusion par l'Assistant"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/gui.xml:130
@@ -740,8 +735,8 @@ msgid ""
 "you want you input converted to."
 msgstr ""
 "Si vous avez choisi l'option <emphasis>Transcoder/Sauvegarder</emphasis>,\n"
-"vous pouvez spÃ©cifier les nouveaux codecs audio et vidÃ©o, et\n"
-"l'Ã©chantillonnage vers lesquels vous souhaitez convertir votre entrÃ©e."
+"vous pouvez spécifier les nouveaux codecs audio et vidéo, et\n"
+"l'échantillonnage vers lesquels vous souhaitez convertir votre entrée."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/gui.xml:136
@@ -763,7 +758,7 @@ msgstr "Transcoder avec l'Assistant"
 #: en/gui.xml:326
 #, no-wrap
 msgid "Encapsulation method"
-msgstr "MÃ©thode d'encapsulation"
+msgstr "Méthode d'encapsulation"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/gui.xml:150
@@ -774,10 +769,10 @@ msgid ""
 "PS, MPEG TS, MPEG 1, OGG, RAW or ASF encapsulation. Saving to a file can\n"
 "be done using any encapsulation format compatible with the chosen codecs."
 msgstr ""
-"Choisissez le format de mÃ©thode. La diffusion UDP requiÃ¨re une\n"
-"encapsulation MPEG TS. La diffusion par HTTP peut-Ãªtre utilisÃ©e avec\n"
+"Choisissez le format de méthode. La diffusion UDP requière une\n"
+"encapsulation MPEG TS. La diffusion par HTTP peut-être utilisée avec\n"
 "les encapsulations MPEG PS, MPEG TS, MPEG 1, OGG, RAW ou ASF. Sauvegarder\n"
-"un fichier peut Ãªtre fait en utilisant n'importe quelle format\n"
+"un fichier peut être fait en utilisant n'importe quelle format\n"
 "d'encapsulation compatible avec les codecs choisis."
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
@@ -785,7 +780,7 @@ msgstr ""
 #: en/gui.xml:162
 #, no-wrap
 msgid "Wizard encapsulation method"
-msgstr "MÃ©thode d'encapsulation par l'Assistant"
+msgstr "Méthode d'encapsulation par l'Assistant"
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/gui.xml:167
@@ -800,8 +795,8 @@ msgid ""
 "If you chose to <emphasis>Stream to network</emphasis> you can\n"
 "now specify several options."
 msgstr ""
-"Si vous avez choisi de <emphasis>Diffuser vers un rÃ©seau</emphasis>,\n"
-"vous pouvez maintenant spÃ©cifier plusieurs options."
+"Si vous avez choisi de <emphasis>Diffuser vers un réseau</emphasis>,\n"
+"vous pouvez maintenant spécifier plusieurs options."
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/gui.xml:174
@@ -812,10 +807,10 @@ msgid ""
 "unicast access methods. If you do not know what this means, you should\n"
 "leave the default value."
 msgstr ""
-"<emphasis>Time To Live (TTL)</emphasis> Ceci dÃ©finit le nombre de routeurs\n"
-"que votre flux peut traverser avant d'Ãªtre supprimÃ©, pour l'unicast UDP et\n"
-"les mÃ©thodes d'accÃ¨s unicast. Si vous ne savez pas ce que cela signifie,\n"
-"vous devriez laisser la valeur par dÃ©faut. "
+"<emphasis>Time To Live (TTL)</emphasis> Ceci définit le nombre de routeurs\n"
+"que votre flux peut traverser avant d'être supprimé, pour l'unicast UDP et\n"
+"les méthodes d'accès unicast. Si vous ne savez pas ce que cela signifie,\n"
+"vous devriez laisser la valeur par défaut. "
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><note><para>
 #: en/gui.xml:179
@@ -825,10 +820,10 @@ msgid ""
 "that your stream won't get accross any router. You may want to increase\n"
 "it if you want to route your multicast stream."
 msgstr ""
-"Pour le multicast UDP, la valeur par dÃ©faut du TTL est 1, ce qui\n"
-"signifie que votre flux n'ira pas au-delÃ  du premier routeur. Vous\n"
+"Pour le multicast UDP, la valeur par défaut du TTL est 1, ce qui\n"
+"signifie que votre flux n'ira pas au-delà du premier routeur. Vous\n"
 "voudrez certainement augmenter ce nombre si vous souhaitez que votre\n"
-"flux multicast soit routÃ©."
+"flux multicast soit routé."
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/gui.xml:183
@@ -840,10 +835,10 @@ msgid ""
 "check the checkbox. This is NOT available for the HTTP streaming\n"
 "method."
 msgstr ""
-"<emphasis>Annonce SAP</emphasis> Pour annoncer votre flux sur le rÃ©seau\n"
-"quand vous utilisez une mÃ©thode de diffusion UDP, en utilisant le\n"
+"<emphasis>Annonce SAP</emphasis> Pour annoncer votre flux sur le réseau\n"
+"quand vous utilisez une méthode de diffusion UDP, en utilisant le\n"
 "protocole SAP, entrez le nom du flux dans le champ de texte et cochez la\n"
-"case correspondante. Ceci N'EST PAS disponible pour la mÃ©thode de\n"
+"case correspondante. Ceci N'EST PAS disponible pour la méthode de\n"
 "diffusion HTTP."
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
@@ -867,7 +862,7 @@ msgid ""
 "now specify the file you want to save the stream to."
 msgstr ""
 "si vous avez choisi <emphasis>Tanscoder/Sauvegarder</emphasis>\n"
-"vous pouvez a prÃ©sent spÃ©cifier le fichier dans lequel vous voulez\n"
+"vous pouvez a présent spécifier le fichier dans lequel vous voulez\n"
 "sauvegarder le flux."
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
@@ -881,7 +876,7 @@ msgstr "Assistant de sauvegarde - interface wxWindows"
 #: en/gui.xml:214
 #, no-wrap
 msgid "You can now select the <emphasis>Finish</emphasis> button to start streaming/converting the source."
-msgstr "Vous pouvez a prÃ©sent cliquer sur <emphasis>Terminer</emphasis> pour commencer Ã  diffuser/transcoder la source"
+msgstr "Vous pouvez a présent cliquer sur <emphasis>Terminer</emphasis> pour commencer à diffuser/transcoder la source"
 
 # type: Content of: <chapter><sect1><title>
 #: en/gui.xml:218
@@ -906,7 +901,7 @@ msgid ""
 "Linux), skinnable (Windows / GNU Linux) and MacOS X interfaces.\n"
 "Streaming methods and options used 99% of time should be available in\n"
 "this panel."
-msgstr "Une deuxiÃ¨me facon de parametrer une instance de diffusion avec VLC est d'utiliser le menu<emphasis>Flux de sortie</emphasis>  dans la boite de dialogue <emphasis>Ouvrir...</emphasis> de l'interface wxWindows (Windows / GNU Linux), skins (Windows / GNU Linux) et MacOS X. Les options et mÃ©thodes les plus courantes de diffusion sont accessibles dans ce menu"
+msgstr "Une deuxième facon de parametrer une instance de diffusion avec VLC est d'utiliser le menu<emphasis>Flux de sortie</emphasis>  dans la boite de dialogue <emphasis>Ouvrir...</emphasis> de l'interface wxWindows (Windows / GNU Linux), skins (Windows / GNU Linux) et MacOS X. Les options et méthodes les plus courantes de diffusion sont accessibles dans ce menu"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/gui.xml:229
@@ -915,7 +910,7 @@ msgid ""
 "To stream the opened media, check the \"Stream output\" checkbox in\n"
 "the \"Open File/Disc/Network Stream/Capture Device\" dialog and click on\n"
 "the \"Settings\" button."
-msgstr "pour diffuser le media ouvert, cochez \"flux de sortie\" dans la boite de dialogue \"ouvrir un fichier/disque/flux reseau/pÃ©riphÃ©rique de capture\"et cliquez sur le bouton \"paramÃ¨tres\" "
+msgstr "pour diffuser le media ouvert, cochez \"flux de sortie\" dans la boite de dialogue \"ouvrir un fichier/disque/flux reseau/périphérique de capture\"et cliquez sur le bouton \"paramètres\" "
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/gui.xml:237
@@ -973,7 +968,7 @@ msgstr "methodes de diffusion"
 #: en/gui.xml:284
 #, no-wrap
 msgid "<emphasis>Play localy</emphasis>: display the stream on your screen. This allows to display the stream you are actually streaming. Effects of transcoding, rescaling, etc... can be monitored locally using this function."
-msgstr "<emphasis>Jouer en local</emphasis>: affiche la diffusion Ã  l'Ã©cran. Cela permet d'afficher le flux que vous Ãªtes en train de diffuser. Les effets de transcodage, etc... peuvent Ãªtre surveillÃ©s en local avec cette fonction."
+msgstr "<emphasis>Jouer en local</emphasis>: affiche la diffusion à l'écran. Cela permet d'afficher le flux que vous êtes en train de diffuser. Les effets de transcodage, etc... peuvent être surveillés en local avec cette fonction."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/gui.xml:287
@@ -982,19 +977,19 @@ msgid ""
 "<emphasis>File</emphasis>: Save the stream to a\n"
 "file. The <emphasis>Dump raw input</emphasis> option allows to\n"
 "save the input stream as it read by VLC, without any processing."
-msgstr "<emphasis>Fichier</emphasis>: Sauvegarder la diffusion dans un fichier. L'otion <emphasis>Dumper le flux brut</emphasis> permet d'enregistrer le flux d'entrÃ©e en mÃªme temps qu'il est lu par VLC, sans aucun traitement."
+msgstr "<emphasis>Fichier</emphasis>: Sauvegarder la diffusion dans un fichier. L'otion <emphasis>Dumper le flux brut</emphasis> permet d'enregistrer le flux d'entrée en même temps qu'il est lu par VLC, sans aucun traitement."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/gui.xml:293
 #, no-wrap
 msgid "<emphasis>HTTP</emphasis>: Use the HTTP streaming method. Specify the IP address and TCP port number on which to listen."
-msgstr "<emphasis>HTTP</emphasis>: Pour utiliser la methode de diffusion HTTP. SpÃ©cifiez l'adresse IP ainsi que le numero de port TCP Ã  Ã©couter"
+msgstr "<emphasis>HTTP</emphasis>: Pour utiliser la methode de diffusion HTTP. Spécifiez l'adresse IP ainsi que le numero de port TCP à écouter"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/gui.xml:297
 #, no-wrap
 msgid "<emphasis>MMSH</emphasis>: This access method allows to stream to Microsoft Windows Media Player. Specify the IP address and TCP port number on which to listen."
-msgstr "<emphasis>MMSH</emphasis>: Cette methode d'acces permet de diffuser vers Microsoft Windows Media Player. SpÃ©cifiez l'adresse IP ainsi que le numero de port TCP Ã  Ã©couter."
+msgstr "<emphasis>MMSH</emphasis>: Cette methode d'acces permet de diffuser vers Microsoft Windows Media Player. Spécifiez l'adresse IP ainsi que le numero de port TCP à écouter."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><note><para>
 #: en/gui.xml:300
@@ -1028,7 +1023,7 @@ msgstr "<emphasis>RTP</emphasis>: pour utiliser le \"Real-Time Transfer Protocol
 #: en/gui.xml:320
 #, no-wrap
 msgid "UDP, HTTP, MMSH and RTP methods require to select the <emphasis>Stream</emphasis> option on the MacOS X interface"
-msgstr "Les mÃ©thodes UDP, HTTP, MMSH et RTP necessitent de choisir l'option <emphasis>diffuser</emphasis> sur l'interface MacOS X."
+msgstr "Les méthodes UDP, HTTP, MMSH et RTP necessitent de choisir l'option <emphasis>diffuser</emphasis> sur l'interface MacOS X."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/gui.xml:328
@@ -1037,19 +1032,19 @@ msgid ""
 "Select an encapsulation method that fits the codecs and access\n"
 "method of your stream, among MPEG TS, MPEG PS, MPEG 1, OGG, Raw, ASF,\n"
 "AVI, MP4 and MOV. (See <xref linkend=\"smc\" endterm=\"tsmc\" />)"
-msgstr "choisissez une mÃ©thode d'encapsulation qui corresponde aux methodes d'encodage et d'acces de votre diffusion, parmi MPEG TS, MPEG PS, MPEG 1, OGG, Raw, ASF,AVI, MP4 et MOV. (voir<xref linkend=\"smc\" endterm=\"tsmc\" />)"
+msgstr "choisissez une méthode d'encapsulation qui corresponde aux methodes d'encodage et d'acces de votre diffusion, parmi MPEG TS, MPEG PS, MPEG 1, OGG, Raw, ASF,AVI, MP4 et MOV. (voir<xref linkend=\"smc\" endterm=\"tsmc\" />)"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/gui.xml:336
 #, no-wrap
 msgid "Enable video transcoding by checking the \"Video Codec\" checkbox. Choose a codec from the list. You can also specify an average bitrate and scale the input. (See <xref linkend=\"smc\" endterm=\"tsmc\" />)"
-msgstr "activez le transcodage video en cochant la case \"Codec video\". choisisses un codec dans la liste. Vous pouvez egalement spÃ©cifier un debit et une echelle. (voir<xref linkend=\"smc\" endterm=\"tsmc\" />)"
+msgstr "activez le transcodage video en cochant la case \"Codec video\". choisisses un codec dans la liste. Vous pouvez egalement spécifier un debit et une echelle. (voir<xref linkend=\"smc\" endterm=\"tsmc\" />)"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/gui.xml:338
 #, no-wrap
 msgid "Enable audio transcoding by checking the \"Audio Codec\" checkbox. Choose a codec from the list. You can also specify an average bitrate and the number of audio channels to encode. (See <xref linkend=\"smc\" endterm=\"tsmc\" />)"
-msgstr "activez le transcodage audio en cochant la case \"Codec audio\". choisisses un codec dans la liste. Vous pouvez egalement spÃ©cifier un debit et le nombre de canaux audio a encoder (Voir <xref linkend=\"smc\" endterm=\"tsmc\" />)"
+msgstr "activez le transcodage audio en cochant la case \"Codec audio\". choisisses un codec dans la liste. Vous pouvez egalement spécifier un debit et le nombre de canaux audio a encoder (Voir <xref linkend=\"smc\" endterm=\"tsmc\" />)"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/gui.xml:342
@@ -1068,7 +1063,7 @@ msgid ""
 "RTSP server of VLC, or as a file. This can be done using the according\n"
 "checkboxes. The <emphasis>SDP URL</emphasis> text box allows to give the\n"
 "url or destination where the SDP file will be available."
-msgstr "Choisissez la methode d'annonce de diffusion. Vous pouvez utiliser SAP (Service Announce Protocol) ou SLP (Service Location Protocol). Vous devez alors spÃ©cifier un nom de chaine. L'interface MacOS X permet egalement d'exporter le fichier de description (SDP) d'une session RTP en utilisant le serveur HTTP ou RTSP de VLC, ou bien un fichier. Cela peut Ãªtre fait en cochant les cases appropriÃ©es. La boite <emphasis>SDP URL</emphasis> permet de spÃ©cifier l'URL ou la destination ou le fichier SDP sera disponible."
+msgstr "Choisissez la methode d'annonce de diffusion. Vous pouvez utiliser SAP (Service Announce Protocol) ou SLP (Service Location Protocol). Vous devez alors spécifier un nom de chaine. L'interface MacOS X permet egalement d'exporter le fichier de description (SDP) d'une session RTP en utilisant le serveur HTTP ou RTSP de VLC, ou bien un fichier. Cela peut être fait en cochant les cases appropriées. La boite <emphasis>SDP URL</emphasis> permet de spécifier l'URL ou la destination ou le fichier SDP sera disponible."
 
 # type: Content of: <chapter><title>
 #: en/dvb.xml:3
@@ -1116,7 +1111,7 @@ msgid ""
 "kernel, you must download the latest release of the DVB drivers from the <ulink url=\"http://www.linuxtv.org/download/dvb/\">DVB drivers download\n"
 "page</ulink> of the <ulink url=\"http://www.linuxtv.org/\">LinuxTV</ulink>\n"
 "Project."
-msgstr "Si vous utilisez un noyau linux 2.4.x, vous devez telecharger la derniÃ¨re version des drivers DVB depuis la page <ulink url=\"http://www.linuxtv.org/download/dvb/\"> du projet <ulink url=\"http://www.linuxtv.org/\">LinuxTV</ulink>."
+msgstr "Si vous utilisez un noyau linux 2.4.x, vous devez telecharger la dernière version des drivers DVB depuis la page <ulink url=\"http://www.linuxtv.org/download/dvb/\"> du projet <ulink url=\"http://www.linuxtv.org/\">LinuxTV</ulink>."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/dvb.xml:45
@@ -1169,7 +1164,7 @@ msgid ""
 "the DVB channels (satellite or digital terrestial TV channels) you\n"
 "want to stream in your home directory (some are provided in the\n"
 "<emphasis>libdvb</emphasis> tarball for the satellite channels)."
-msgstr "contenant les chaines DVB (Staellite ou TNT) que vous dÃ©sirez diffuser dans votre repertoire personnel (certains sont fournis dans le tarball <emphasis>libdvb</emphasis> pour chaines satellite."
+msgstr "contenant les chaines DVB (Staellite ou TNT) que vous désirez diffuser dans votre repertoire personnel (certains sont fournis dans le tarball <emphasis>libdvb</emphasis> pour chaines satellite."
 
 # type: Content of: <chapter><sect1><para>
 #: en/dvb.xml:64
@@ -1232,7 +1227,7 @@ msgid ""
 "For this, you can use the SVN version of VLC and compile\n"
 "it with <command>./configure --enable-dvb</command> This feature should\n"
 "still be considered as experimental. You can find it in the official release since the version 0.7.2."
-msgstr "Pour cela, vous pouvez utiliser la version SVN de VLC et la compiler avec <command>./configure --enable-dvb</command>. Cette fonctionnalitÃ© est encore considÃ©rÃ©e comme expÃ©rimentale. Vous pourrez la trouver dans la release officielle depuis la version 0.7.2."
+msgstr "Pour cela, vous pouvez utiliser la version SVN de VLC et la compiler avec <command>./configure --enable-dvb</command>. Cette fonctionnalité est encore considérée comme expérimentale. Vous pourrez la trouver dans la release officielle depuis la version 0.7.2."
 
 # type: Content of: <chapter><sect1><screen>
 #: en/dvb.xml:124
@@ -1264,7 +1259,7 @@ msgstr "8508"
 msgid ""
 "is the SID of the DVB\n"
 "channel you would like to stream, expressed as a decimal number"
-msgstr "est le SID de la chaine DVB que vous voulez diffuser, exprimÃ© en dÃ©cimal"
+msgstr "est le SID de la chaine DVB que vous voulez diffuser, exprimé en décimal"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
 #: en/dvb.xml:142
@@ -1276,7 +1271,7 @@ msgstr "0"
 #: en/dvb.xml:142
 #, no-wrap
 msgid "is the id of the dvb card (0 for dvb0)"
-msgstr "est le numÃ©ro de la carte DVD (0 pour dvb0)"
+msgstr "est le numéro de la carte DVD (0 pour dvb0)"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
 #: en/dvb.xml:145
@@ -1328,7 +1323,7 @@ msgstr "3"
 #: en/dvb.xml:156
 #, no-wrap
 msgid "is the FEC (3 for 3/4), if you don't put the option it will auto-detect the value"
-msgstr "est le FEC (3 pour 3/4), si vous ne mettez pas l'option, la valeur sera detectÃ©e automatiquement"
+msgstr "est le FEC (3 pour 3/4), si vous ne mettez pas l'option, la valeur sera detectée automatiquement"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
 #: en/dvb.xml:159
@@ -1352,7 +1347,6 @@ msgstr "<emphasis>address</emphasis> est l'une:"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/dvb.xml:167
-#: en/encoding-cards.xml:422
 #: en/encoding-cards.xml:421
 #, no-wrap
 msgid "the IP address of the machine you want to unicast to"
@@ -1360,7 +1354,6 @@ msgstr "des adresses IP des machines vers lequelles vous voulez difuser en unica
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/dvb.xml:171
-#: en/encoding-cards.xml:425
 #: en/encoding-cards.xml:424
 #, no-wrap
 msgid "or the DNS name the machine you want to unicast to"
@@ -1386,7 +1379,7 @@ msgstr "<emphasis>12</emphasis> est la valeur TTL (Time To Live) des paquets IP 
 msgid ""
 "Examples for advanced use of VLC's stream output\n"
 "(transcoding, multiple streaming, etc...)"
-msgstr "Exemples d'utilisation avancÃ©e de diffusion avec VLC (transcodage, diffusion multiple, etc...)"
+msgstr "Exemples d'utilisation avancée de diffusion avec VLC (transcodage, diffusion multiple, etc...)"
 
 # type: Content of: <chapter><sect1><title>
 #: en/examples.xml:8
@@ -1400,7 +1393,7 @@ msgstr "Transcodage"
 msgid ""
 "Transcode the input stream and send it to a\n"
 "multicast IP address with the associated SAP announce:"
-msgstr "Transcoder le flux d'entrÃ©e et l'envoier vers une adresse multicast avec l'annonce SAP associÃ©e:"
+msgstr "Transcoder le flux d'entrée et l'envoier vers une adresse multicast avec l'annonce SAP associée:"
 
 # type: Content of: <chapter><sect1><screen>
 #: en/examples.xml:17
@@ -1418,7 +1411,7 @@ msgstr ""
 msgid ""
 "Display the input stream, transcode it and send it\n"
 "to a multicast IP address with the associated SAP announce:"
-msgstr "Afficher le flux d'entrÃ©e, le transcoder et l'envoyer vers une adresse multicast avec l'annonce SAP associÃ©e:"
+msgstr "Afficher le flux d'entrée, le transcoder et l'envoyer vers une adresse multicast avec l'annonce SAP associée:"
 
 # type: Content of: <chapter><sect1><screen>
 #: en/examples.xml:27
@@ -1439,7 +1432,7 @@ msgid ""
 "Transcode the input stream, display the transcoded\n"
 "stream and send it to a multicast IP address with the associated SAP\n"
 "announce:"
-msgstr "Transcoder, afficher le flux transcodÃ© et l'envoyer vers une adresse multicast avec l'annonce SAP associÃ©e:"
+msgstr "Transcoder, afficher le flux transcodé et l'envoyer vers une adresse multicast avec l'annonce SAP associée:"
 
 # type: Content of: <chapter><sect1><screen>
 #: en/examples.xml:39
@@ -1453,7 +1446,6 @@ msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/examples.xml:46
-#: en/vlm-vod.xml:285
 #: en/vlm-vod.xml:291
 #, no-wrap
 msgid "Multiple streaming"
@@ -1503,7 +1495,7 @@ msgstr ""
 #: en/examples.xml:71
 #, no-wrap
 msgid "Send parts of a multiple program input stream:"
-msgstr "Envoyer des perties d'un flux d'entrÃ©e multiple:"
+msgstr "Envoyer des perties d'un flux d'entrée multiple:"
 
 # type: Content of: <chapter><sect1><screen>
 #: en/examples.xml:75
@@ -1524,7 +1516,7 @@ msgid ""
 "This command sends the program of the input stream which id is\n"
 "12345 to 239.255.12.42 and all video programs with id between 1234 and\n"
 "2345 to 239.255.12.43."
-msgstr "Cette commande envoie le programme du flux d'entrÃ©e dont le numÃ©ro est 12345 vers l'adresses 239.255.12.42 et tous les programmes dont le numeros est compris entre 1234 et 2345 vers l'adresse 239.255.12.43."
+msgstr "Cette commande envoie le programme du flux d'entrée dont le numéro est 12345 vers l'adresses 239.255.12.42 et tous les programmes dont le numeros est compris entre 1234 et 2345 vers l'adresse 239.255.12.43."
 
 # type: Content of: <chapter><sect1><title>
 #: en/examples.xml:88
@@ -1539,7 +1531,7 @@ msgid ""
 "Transcode the input stream, display the transcoded\n"
 "stream and send it to a multicast IP address with the associated SAP\n"
 "announce and an unicast IP address:"
-msgstr "Transcoder le flux d'entrÃ©e, afficher le flux transcodÃ© et l'envoyer vers une adresse IP multicast avec l'annonce SAP associÃ©e et une adresse IP unicast:"
+msgstr "Transcoder le flux d'entrée, afficher le flux transcodé et l'envoyer vers une adresse IP multicast avec l'annonce SAP associée et une adresse IP unicast:"
 
 # type: Content of: <chapter><sect1><screen>
 #: en/examples.xml:98
@@ -1559,7 +1551,7 @@ msgstr ""
 msgid ""
 "Display the input stream, transcode it and send it\n"
 "to two unicast IP addresses:"
-msgstr "Afficher le flux d'entrÃ©e, le transcoder et l'envoyer vers deux adresses IP unicast:"
+msgstr "Afficher le flux d'entrée, le transcoder et l'envoyer vers deux adresses IP unicast:"
 
 # type: Content of: <chapter><sect1><screen>
 #: en/examples.xml:109
@@ -1582,7 +1574,7 @@ msgid ""
 "Send the input stream to a multicast IP address\n"
 "and the transcoded stream to another multicast IP address with the\n"
 "associated SAP announces:"
-msgstr "Envoyer le flux d'entrÃ©e vers une adresses IP multiicast, et le flux trancodÃ©e vers une autre adresse IP multicast avec les annonces SAP associÃ©es:"
+msgstr "Envoyer le flux d'entrée vers une adresses IP multiicast, et le flux trancodée vers une autre adresse IP multicast avec les annonces SAP associées:"
 
 # type: Content of: <chapter><sect1><screen>
 #: en/examples.xml:122
@@ -1758,7 +1750,7 @@ msgstr ""
 msgid ""
 "Extract the audio track of the input stream to a TS\n"
 "file:"
-msgstr "Extraire la piste audio du flux d'entrÃ©e en un fichier TS"
+msgstr "Extraire la piste audio du flux d'entrée en un fichier TS"
 
 # type: Content of: <chapter><sect1><screen>
 #: en/examples.xml:254
@@ -1778,7 +1770,7 @@ msgstr "Diffuser en unicast la piste audio sur un port et la piste video sur un 
 #: en/examples.xml:265
 #, no-wrap
 msgid "on the server side:"
-msgstr "du cotÃ© serveur:"
+msgstr "du coté serveur:"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><screen>
 #: en/examples.xml:269
@@ -1795,7 +1787,7 @@ msgstr ""
 #: en/examples.xml:276
 #, no-wrap
 msgid "on the client side: to receive the audio:"
-msgstr "cÃ´tÃ© client: pour recevoir le son:"
+msgstr "côté client: pour recevoir le son:"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><screen>
 #: en/examples.xml:280
@@ -1807,7 +1799,7 @@ msgstr "prompt>% </prompt><userinput>vlc udp:@:1212</userinput>"
 #: en/examples.xml:282
 #, no-wrap
 msgid "to receive the video:"
-msgstr "pour recevoir la vidÃ©o:"
+msgstr "pour recevoir la vidéo:"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><screen>
 #: en/examples.xml:286
@@ -1822,7 +1814,7 @@ msgid ""
 "Stream in multicast the video and dump the audio in\n"
 "a file:"
 msgstr ""
-"Ãmettre la vidÃ©o en multicast et enregistrer le son dans\n"
+"Émettre la vidéo en multicast et enregistrer le son dans\n"
 "un fichier:"
 
 # type: Content of: <chapter><sect1><screen>
@@ -1843,15 +1835,15 @@ msgid ""
 "module with the other modules to set-up even more complex\n"
 "solution."
 msgstr ""
-"Vous pouvez Ã©galement combiner le module <emphasis>es</emphasis>\n"
-"avec d'autres modules pour crÃ©er des solutions encore plus\n"
+"Vous pouvez également combiner le module <emphasis>es</emphasis>\n"
+"avec d'autres modules pour créer des solutions encore plus\n"
 "complexes."
 
 # type: Content of: <chapter><title>
 #: en/vlm-vod.xml:4
 #, no-wrap
 msgid "VLM - Multiple streaming and Video on demand"
-msgstr "VLM - Diffusions multiples et VidÃ©o Ã  la demande"
+msgstr "VLM - Diffusions multiples et Vidéo à la demande"
 
 # type: Content of: <chapter><sect1><title>
 #: en/vlm-vod.xml:14
@@ -1870,9 +1862,9 @@ msgid ""
 "interface or the http interface."
 msgstr ""
 "<emphasis>VideoLAN Manager</emphasis> est un petit outil de gestion\n"
-"de mÃ©dias conÃ§u pour contrÃ´ler plusieurs flux avec <emphasis>une seule instance de\n"
-"VLC</emphasis>. Cela permet de la diffusion multiple et la vidÃ©o Ã  la demande (VoD).\n"
-"Cet outil ayant Ã©tÃ© rÃ©cemment ajoutÃ©, il n'est possible de le contrÃ´ler que par\n"
+"de médias conçu pour contrôler plusieurs flux avec <emphasis>une seule instance de\n"
+"VLC</emphasis>. Cela permet de la diffusion multiple et la vidéo à la demande (VoD).\n"
+"Cet outil ayant été récemment ajouté, il n'est possible de le contrôler que par\n"
 "les interfaces Telnet et HTTP."
 
 # type: Content of: <chapter><sect1><sect2><title>
@@ -1894,7 +1886,7 @@ msgid ""
 "You can launch the telnet interface as a common interface using\n"
 "the command line :"
 msgstr ""
-"Vous pouvez dÃ©marrer l'interface Telnet comme toute autre interface en utilisant\n"
+"Vous pouvez démarrer l'interface Telnet comme toute autre interface en utilisant\n"
 "la ligne de commande :"
 
 # type: Content of: <chapter><sect1><sect2><sect3><screen>
@@ -1916,7 +1908,7 @@ msgid ""
 "The telnet interface can also be launched in the wxWindows\n"
 "interface :"
 msgstr ""
-"L'interface Telnet peut aussi Ãªtre dÃ©marrÃ©e depuis l'interface\n"
+"L'interface Telnet peut aussi être démarrée depuis l'interface\n"
 "wxWindows:"
 
 # type: Content of: <chapter><sect1><sect2><sect3><mediaobject><caption><para>
@@ -1924,7 +1916,7 @@ msgstr ""
 #: en/vlm-vod.xml:45
 #, no-wrap
 msgid "Launching the Telnet interface - wxWindows interface"
-msgstr "DÃ©marrage de l'interface Telnet - interface wxWindows"
+msgstr "Démarrage de l'interface Telnet - interface wxWindows"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/vlm-vod.xml:48
@@ -1939,13 +1931,13 @@ msgid ""
 "telnet</emphasis> section (check the <emphasis>Advanced\n"
 "options</emphasis> checkbox)."
 msgstr ""
-"Le port par dÃ©faut est 4212. Le mot-de-passe par dÃ©faut est\n"
-"\"admin\". Ils peuvent Ãªtre modifiÃ©es en utilisant les options de la ligne de commande\n"
+"Le port par défaut est 4212. Le mot-de-passe par défaut est\n"
+"\"admin\". Ils peuvent être modifiées en utilisant les options de la ligne de commande\n"
 "<command>--telnet-port &lt;integer&gt;</command> et <command>--telnet-password\n"
-"&lt;string&gt;</command> respectivement. Ils peuvent aussi Ãªtre changÃ©s depuis\n"
-"le panneau de configuration des PrÃ©fÃ©rences de l'interface wxWindows, dans la section\n"
+"&lt;string&gt;</command> respectivement. Ils peuvent aussi être changés depuis\n"
+"le panneau de configuration des Préférences de l'interface wxWindows, dans la section\n"
 "<emphasis>Modules</emphasis>-&gt;<emphasis>interface</emphasis>-&gt;<emphasis>\n"
-"telnet</emphasis> (cochez la case <emphasis>Options avancÃ©es</emphasis>)."
+"telnet</emphasis> (cochez la case <emphasis>Options avancées</emphasis>)."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/vlm-vod.xml:59
@@ -1960,7 +1952,7 @@ msgid ""
 "Launching the HTTP interface is described in the <ulink\n"
 "url=\"http://www.videolan.org/doc/\">Play-with-VLC Howto.</ulink>"
 msgstr ""
-"Le dÃ©marrage de l'interface HTTP est dÃ©taillÃ© dans le <ulink\n"
+"Le démarrage de l'interface HTTP est détaillé dans le <ulink\n"
 "url=\"http://www.videolan.org/doc/\">Play-with-VLC Howto.</ulink>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
@@ -1970,20 +1962,20 @@ msgid ""
 "To access the vlm section of the http interface, use the following\n"
 "URL: <emphasis> http://host:port/vlm/</emphasis>."
 msgstr ""
-"Pour accÃ©der Ã  la rubrique VLM de l'interface HTTP, utilisez l'URL\n"
-"qui suit: <emphasis> http://hÃ´te:port/vlm/</emphasis>."
+"Pour accéder à la rubrique VLM de l'interface HTTP, utilisez l'URL\n"
+"qui suit: <emphasis> http://hôte:port/vlm/</emphasis>."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/vlm-vod.xml:69
 #, no-wrap
 msgid "VLM Elements"
-msgstr "ÃlÃ©ments de VLM"
+msgstr "Éléments de VLM"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/vlm-vod.xml:71
 #, no-wrap
 msgid "Medias"
-msgstr "MÃ©dias"
+msgstr "Médias"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/vlm-vod.xml:73
@@ -1993,15 +1985,15 @@ msgid ""
 "streams you want to stream), an output (how and where you want to stream\n"
 "them) and some options."
 msgstr ""
-"Un mÃ©dia (<emphasis>media</emphasis>) est constituÃ© par une list d'entrÃ©e (les flux\n"
-"audio et vidÃ©o que vous voulez diffuser), une sortie (oÃ¹ et comment vous voulez les diffusez)\n"
+"Un média (<emphasis>media</emphasis>) est constitué par une list d'entrée (les flux\n"
+"audio et vidéo que vous voulez diffuser), une sortie (où et comment vous voulez les diffusez)\n"
 "et quelques options."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/vlm-vod.xml:77
 #, no-wrap
 msgid "There are two types of medias:"
-msgstr "Il y a deux types de mÃ©dias:"
+msgstr "Il y a deux types de médias:"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:81
@@ -2011,9 +2003,9 @@ msgid ""
 "for Video on Demand. It will be launched only if a vod client asks for\n"
 "it."
 msgstr ""
-"<emphasis>vod</emphasis>: Un mÃ©dia VoD est normalement utilisÃ©\n"
-"pour la VidÃ©o Ã  la Demande. Il sera dÃ©marrÃ© uniquement si un client VoD demande\n"
-"le mÃ©dia."
+"<emphasis>vod</emphasis>: Un média VoD est normalement utilisé\n"
+"pour la Vidéo à la Demande. Il sera démarré uniquement si un client VoD demande\n"
+"le média."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:85
@@ -2024,10 +2016,10 @@ msgid ""
 "by the administrator and may be repeated several times. The client has\n"
 "no control over this media."
 msgstr ""
-"<emphasis>broadcast</emphasis>: Un mÃ©dia broadcast est\n"
-"trÃ¨s similaire Ã  un programme ou une chaÃ®ne de TV. Il est dÃ©marrÃ©, arrÃªtÃ© ou\n"
-"mis en pause par l'administrateur et peut Ãªtre rÃ©pÃ©tÃ© plusieurs fois. Le client n'a\n"
-"aucun contrÃ´le sur un mÃ©dia de ce type."
+"<emphasis>broadcast</emphasis>: Un média broadcast est\n"
+"très similaire à un programme ou une chaîne de TV. Il est démarré, arrêté ou\n"
+"mis en pause par l'administrateur et peut être répété plusieurs fois. Le client n'a\n"
+"aucun contrôle sur un média de ce type."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/vlm-vod.xml:94
@@ -2044,8 +2036,8 @@ msgid ""
 "options available like a period or a number of repetitions."
 msgstr ""
 "Un programme (<emphasis>schedule</emphasis> en anglais) est un script avec une date.\n"
-"Quand la date du programme est atteinte, le script est dÃ©marrÃ©. Plusieurs\n"
-"options sont disponibles, telles que la pÃ©riode ou le nombre de rÃ©pÃ©titions."
+"Quand la date du programme est atteinte, le script est démarré. Plusieurs\n"
+"options sont disponibles, telles que la période ou le nombre de répétitions."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/vlm-vod.xml:102
@@ -2078,9 +2070,9 @@ msgid ""
 "by using the <command>setup</command> command."
 msgstr ""
 "<command>new (nom) vod|broadcast|schedule\n"
-"[propriÃ©tÃ©s]</command> : CrÃ©e un nouvel Ã©lÃ©ment de type vod, broadcast ou\n"
-"schedule. Les noms des Ã©lÃ©ments doivent Ãªtre uniques. Les noms \"media\" et\n"
-"\"schedule\" sont interdits. Vous pouvez spÃ©cifier des propriÃ©tÃ©s dans cette\n"
+"[propriétés]</command> : Crée un nouvel élément de type vod, broadcast ou\n"
+"schedule. Les noms des éléments doivent être uniques. Les noms \"media\" et\n"
+"\"schedule\" sont interdits. Vous pouvez spécifier des propriétés dans cette\n"
 "ligne de commande, ou, plus tard, avec la commande <command>setup</command>."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
@@ -2091,8 +2083,8 @@ msgid ""
 "an elements property. See <xref linkend=\"vlmprop\" endterm=\"tvlmprop\"\n"
 "/>."
 msgstr ""
-"<command>setup (nom) (propriÃ©tÃ©)</command> : DÃ©finit\n"
-"une propriÃ©tÃ© d'un Ã©lÃ©ment (cf. <xref linkend=\"vlmprop\" endterm=\"tvlmprop\"\n"
+"<command>setup (nom) (propriété)</command> : Définit\n"
+"une propriété d'un élément (cf. <xref linkend=\"vlmprop\" endterm=\"tvlmprop\"\n"
 "/>)."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
@@ -2103,7 +2095,7 @@ msgid ""
 ": Display current element states and configurations."
 msgstr ""
 "<command>show [(nom)|media|schedule]</command>\n"
-": Affiche le statut et la configuration de l'Ã©lÃ©ment."
+": Affiche le statut et la configuration de l'élément."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:123
@@ -2114,8 +2106,8 @@ msgid ""
 "element."
 msgstr ""
 "<command>show (nom)</command> - Affiche\n"
-"toutes les informations concernant l'Ã©lÃ©ment\n"
-"spÃ©cifiÃ©."
+"toutes les informations concernant l'élément\n"
+"spécifié."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:125
@@ -2125,7 +2117,7 @@ msgid ""
 "a summary of media states."
 msgstr ""
 "<command>show media</command> affiche\n"
-"un rÃ©sumÃ© des statuts des mÃ©dias."
+"un résumé des statuts des médias."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:126
@@ -2136,7 +2128,7 @@ msgid ""
 "states."
 msgstr ""
 "<command>show\n"
-"schedule</command> affiche un rÃ©sumÃ© de l'Ã©tat des\n"
+"schedule</command> affiche un résumé de l'état des\n"
 "programmes."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
@@ -2149,9 +2141,9 @@ msgid ""
 "deleted."
 msgstr ""
 "<command>del (name)|all|media|schedule</command>\n"
-": Supprime un Ã©lÃ©ment ou un groupe d'Ã©lÃ©ments. Si\n"
-"l'Ã©lÃ©ment n'Ã©tait pas Ã  l'arrÃªt, il est interrompu avant d'Ãªtre\n"
-"supprimÃ©."
+": Supprime un élément ou un groupe d'éléments. Si\n"
+"l'élément n'était pas à l'arrêt, il est interrompu avant d'être\n"
+"supprimé."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:133
@@ -2162,7 +2154,7 @@ msgid ""
 "element."
 msgstr ""
 "<command>del\n"
-"(nom)</command> - Supprime l'Ã©lÃ©ment\n"
+"(nom)</command> - Supprime l'élément\n"
 "(nom)"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><itemizedlist><listitem><para>
@@ -2173,7 +2165,7 @@ msgid ""
 "- Delete all elements"
 msgstr ""
 "<command>del all</command>\n"
-"- Supprime tous les Ã©lÃ©ments"
+"- Supprime tous les éléments"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:136
@@ -2184,8 +2176,8 @@ msgid ""
 "elements."
 msgstr ""
 "<command>del\n"
-"media</command> - Supprime tous les Ã©lÃ©ments\n"
-"de type mÃ©dia."
+"media</command> - Supprime tous les éléments\n"
+"de type média."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:138
@@ -2196,7 +2188,7 @@ msgid ""
 "elements"
 msgstr ""
 "<command>del\n"
-"schedule</command> - Supprime tous les Ã©lÃ©ments\n"
+"schedule</command> - Supprime tous les éléments\n"
 "de type programme"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
@@ -2210,10 +2202,10 @@ msgid ""
 "endterm=\"tvlmctrl\" /> for available control commands."
 msgstr ""
 "<command>control (nom) [nom_instance]\n"
-"(command)</command> : Modifie l'Ã©tat de l'instance (nom_instance)\n"
-"du mÃ©dia (nom). Si (nom_instance) n'est pas prÃ©cisÃ©, la commande de contrÃ´le\n"
-"affecte l'instance par dÃ©faut (cf <xref linkend=\"vlmctrl\"\n"
-"endterm=\"tvlmctrl\" /> pour les commandes de contrÃ´le disponibles)."
+"(command)</command> : Modifie l'état de l'instance (nom_instance)\n"
+"du média (nom). Si (nom_instance) n'est pas précisé, la commande de contrôle\n"
+"affecte l'instance par défaut (cf <xref linkend=\"vlmctrl\"\n"
+"endterm=\"tvlmctrl\" /> pour les commandes de contrôle disponibles)."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:148
@@ -2227,10 +2219,10 @@ msgid ""
 "endterm=\"tvlmconf\" /> for more info."
 msgstr ""
 "<command>save (fichier_config)</command> : Sauvegarde les configurations de\n"
-"tous les mÃ©dias et programmes dans le fichier de configuration spÃ©cifiÃ©. Le chemin\n"
-"d'accÃ¨s du fichier est relatif au rÃ©pertoire dans lequel VLC a Ã©tÃ© dÃ©marrÃ©. Si\n"
-"le fichier existe, il sera Ã©crasÃ©. Notez que les Ã©tats, tels que\n"
-"en lecture, en pause ou Ã  l'arrÃªt, ne sont pas sauvegardÃ©s. Voir <xref linkend=\"vlmconf\"\n"
+"tous les médias et programmes dans le fichier de configuration spécifié. Le chemin\n"
+"d'accès du fichier est relatif au répertoire dans lequel VLC a été démarré. Si\n"
+"le fichier existe, il sera écrasé. Notez que les états, tels que\n"
+"en lecture, en pause ou à l'arrêt, ne sont pas sauvegardés. Voir <xref linkend=\"vlmconf\"\n"
 "endterm=\"tvlmconf\" /> pour plus d'informations."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
@@ -2243,15 +2235,15 @@ msgid ""
 "for more info."
 msgstr ""
 "<command>load (fichier_config)</command> : Charge une fichier\n"
-"de configuration. Le chemin d'accÃ¨s au fichier est relatif au rÃ©pertoire depuis\n"
-"lequel VLC a Ã©tÃ© dÃ©marrÃ©. Voir <xref linkend=\"vlmconf\" endterm=\"tvlmconf\"/>\n"
+"de configuration. Le chemin d'accès au fichier est relatif au répertoire depuis\n"
+"lequel VLC a été démarré. Voir <xref linkend=\"vlmconf\" endterm=\"tvlmconf\"/>\n"
 "pour plus d'informations."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/vlm-vod.xml:164
 #, no-wrap
 msgid "Media Properties"
-msgstr "PropriÃ©tÃ©s des mÃ©dias"
+msgstr "Propriétés des médias"
 
 # type: Content of: <chapter><sect1><sect2><sect3><note><para>
 #: en/vlm-vod.xml:166
@@ -2260,7 +2252,7 @@ msgid ""
 "Except the \"append\" property, all properties can be followed\n"
 "by another one."
 msgstr ""
-"Ã l'exception de la propriÃ©tÃ© \"append\", toutes les propriÃ©tÃ©s peuvent\n"
+"À l'exception de la propriété \"append\", toutes les propriétés peuvent\n"
 "suivies par une autre."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
@@ -2270,8 +2262,8 @@ msgid ""
 "<command>input (input_name)</command> : Add an input to\n"
 "the end of the media's input list."
 msgstr ""
-"<command>input (nom_entrÃ©e)</command> : Ajoute une entrÃ©e Ã \n"
-"la fin de la liste des entrÃ©e du mÃ©dia."
+"<command>input (nom_entrée)</command> : Ajoute une entrée à\n"
+"la fin de la liste des entrée du média."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:174
@@ -2283,8 +2275,8 @@ msgid ""
 "linkend=\"cmdline\" endterm=\"tcmdline\" /> for more information concerning\n"
 "stream outputs (sout)."
 msgstr ""
-"<command>output (nom_sortie)</command> : DÃ©finit la sortie\n"
-"du mÃ©dia. La syntaxe est la mÃªle que celle de l'option \":sout=...\" de VLC,\n"
+"<command>output (nom_sortie)</command> : Définit la sortie\n"
+"du média. La syntaxe est la mêle que celle de l'option \":sout=...\" de VLC,\n"
 "toutefois, vous n'avez pas besoin d'indiquer \":sout=...\". Voir <xref\n"
 "linkend=\"cmdline\" endterm=\"tcmdline\" /> pour plus d'informations concernant\n"
 "les flux de sortie (sout)."
@@ -2296,8 +2288,8 @@ msgid ""
 "You do not have to specify an output\n"
 "for vod elements."
 msgstr ""
-"Vous n'avez pas besoin de prÃ©ciser une sortie\n"
-"pour les Ã©lÃ©ments vod."
+"Vous n'avez pas besoin de préciser une sortie\n"
+"pour les éléments vod."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:181
@@ -2308,7 +2300,7 @@ msgid ""
 "to the \":(option)=...\" option , but you do not have to put the \":\"\n"
 "string. Options are global: they are applied to all inputs of the\n"
 "media."
-msgstr "<command>option [nom_de_l'option][=valeur]</command> : Ajoute le [nom_de_l'option] à la liste des options. La syntaxe est équivalente à \":(option)=...\" option , mais vous n'avez pas à mettre la chaine \":\" . Les options sont globales : elles sont appliquées à toutes les entrées de media."
+msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:187
@@ -2318,9 +2310,9 @@ msgid ""
 "the media. If a media is disabled, it cannot be streamed, paused,\n"
 "launched by a schedule, or played as VoD."
 msgstr ""
-"<command>enabled|disabled</command> : Active (enabled) or dÃ©sactive (disabled)\n"
-"le mÃ©dia. Si un mÃ©dia est dÃ©sactivÃ©, il ne peut pas Ãªtre diffusÃ©, mis en pause,\n"
-"ni dÃ©marrÃ© par un programme (schedule), ni jouÃ© en tant que VoD."
+"<command>enabled|disabled</command> : Active (enabled) or désactive (disabled)\n"
+"le média. Si un média est désactivé, il ne peut pas être diffusé, mis en pause,\n"
+"ni démarré par un programme (schedule), ni joué en tant que VoD."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:191
@@ -2332,9 +2324,9 @@ msgid ""
 "list is reached."
 msgstr ""
 "<command>loop|unloop (broadcast uniquement)</command> : Si\n"
-"un mÃ©dia avec l'option \"loop\" option reÃ§oit la commande \"play\" (lecture), il sera\n"
-"automatiquement redÃ©marrÃ©, et rejouera sa liste d'entrÃ©es depuis le dÃ©but une fois que\n"
-"la fin de la liste d'entrÃ©es est atteinte."
+"un média avec l'option \"loop\" option reçoit la commande \"play\" (lecture), il sera\n"
+"automatiquement redémarré, et rejouera sa liste d'entrées depuis le début une fois que\n"
+"la fin de la liste d'entrées est atteinte."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><note><para>
 #: en/vlm-vod.xml:194
@@ -2343,8 +2335,8 @@ msgid ""
 "<command>loop|unloop</command> is only used\n"
 "for broadcast media types."
 msgstr ""
-"<command>loop|unloop</command> est uniquement utilisÃ©e\n"
-"pour les mÃ©dias de type broadcast."
+"<command>loop|unloop</command> est uniquement utilisée\n"
+"pour les médias de type broadcast."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:197
@@ -2358,9 +2350,9 @@ msgid ""
 "/>."
 msgstr ""
 "<command>mux (nom_mux)</command> : Cette option\n"
-"ne devrait Ãªtre employÃ©e que si vous voulez envoyer les flux Ã©lÃ©mentaires\n"
-"avec une encapsulation, au lieu de les envoyer sous forme brute. (nom_mux) devrait Ãªtre\n"
-"spÃ©cifiÃ© sous forme d'un identifiant de 4 caractÃ¨res tel que mp2t pour\n"
+"ne devrait être employée que si vous voulez envoyer les flux élémentaires\n"
+"avec une encapsulation, au lieu de les envoyer sous forme brute. (nom_mux) devrait être\n"
+"spécifié sous forme d'un identifiant de 4 caractères tel que mp2t pour\n"
 "MPEG TS ou mp2p pour MPEG PS (cf <xref linkend=\"smc\" endterm=\"tsmc\"\n"
 "/>)."
 
@@ -2371,14 +2363,14 @@ msgid ""
 "The <command>mux</command> property is only used for vod\n"
 "media types."
 msgstr ""
-"La propriÃ©tÃ© <command>mux</command> est uniquement utilisÃ©e pour\n"
-"les mÃ©dias de type vod."
+"La propriété <command>mux</command> est uniquement utilisée pour\n"
+"les médias de type vod."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/vlm-vod.xml:209
 #, no-wrap
 msgid "Schedule Properties"
-msgstr "PropriÃ©tÃ©s des programmes"
+msgstr "Propriétés des programmes"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:213
@@ -2387,13 +2379,13 @@ msgid ""
 "<command>enabled|disabled</command> : A disabled\n"
 "schedule will never be launched."
 msgstr ""
-"<command>enabled|disabled</command> : Un programme dÃ©sactivÃ©\n"
-"ne sera jamais dÃ©marrÃ©."
+"<command>enabled|disabled</command> : Un programme désactivé\n"
+"ne sera jamais démarré."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 # FIXME la version originale ne veut rien dire -- Rem
 #: en/vlm-vod.xml:216
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "<command>append\n"
 "(command_until_rest_of_the_line)</command> : Add a command to the\n"
@@ -2401,8 +2393,8 @@ msgid ""
 "understand."
 msgstr ""
 "<command>append\n"
-"(commande_sur_le_reste_de_la_ligne)</command> : Ajoute une commande à  la ligne\n"
-"de commande ????????????. La ligne de commande peut Ãªtre toute ligne de commande\n"
+"(commande_sur_le_reste_de_la_ligne)</command> : Ajoute une commande à la ligne\n"
+"de commande ????????????. La ligne de commande peut être toute ligne de commande\n"
 "comprise par VLM."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><note><para>
@@ -2414,8 +2406,8 @@ msgid ""
 "part of the command line. You cannot put another option after the\n"
 "<command>append</command> one."
 msgstr ""
-"Le reste de la ligne sera considÃ©rÃ© comme faisant\n"
-"partie de la ligne de commande. Vous ne pouvez pas ajouter une autre option aprÃ¨s\n"
+"Le reste de la ligne sera considéré comme faisant\n"
+"partie de la ligne de commande. Vous ne pouvez pas ajouter une autre option après\n"
 "<command>append</command>."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
@@ -2434,15 +2426,15 @@ msgid ""
 "schedule."
 msgstr ""
 "<command>date\n"
-"(annÃ©e)/(moi)/(jour)-(heure):(minute):(seconde)|now</command>\n"
-": SpÃ©cifie la premiÃ¨re date Ã  laquelle le programme devrait\n"
-"Ãªtre dÃ©marrÃ©. Vous pouvez spÃ©cifier une date en utilisant le format\n"
-"<command>(annÃ©e)/(moi)/(jour)-(heure):(minute):(seconde)</command>\n"
+"(année)/(moi)/(jour)-(heure):(minute):(seconde)|now</command>\n"
+": Spécifie la première date à laquelle le programme devrait\n"
+"être démarré. Vous pouvez spécifier une date en utilisant le format\n"
+"<command>(année)/(moi)/(jour)-(heure):(minute):(seconde)</command>\n"
 "(par exemple: 2004/11/16-00:43:12) ou en utilsant le mot-clef\n"
-"<command>now</command>. Si <command>now</command> est indiquÃ©, le\n"
-"programme sera dÃ©marrÃ© dÃ¨s que possible (c-Ã -d. dÃ¨s qu'il est\n"
-"activÃ© avec <command>enabled</command>) et la date courante sera utilisÃ©e\n"
-"comme premiÃ¨re date du programme."
+"<command>now</command>. Si <command>now</command> est indiqué, le\n"
+"programme sera démarré dès que possible (c-à-d. dès qu'il est\n"
+"activé avec <command>enabled</command>) et la date courante sera utilisée\n"
+"comme première date du programme."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:234
@@ -2457,12 +2449,12 @@ msgid ""
 "endlessly."
 msgstr ""
 "<command>period\n"
-"(annÃ©e_soit_12_mois)/(mois_soit_30_jours)/(jours)-(heures):(minutes):(sec\n"
-"ondes)</command> : DÃ©finit la pÃ©riode temporelle pendant laquelle un programme\n"
-"doit attendre avant d'Ãªtre dÃ©marrÃ© Ã  nouveau (Les mois sont Ã©gaux Ã  30\n"
-"jours, les annÃ©es Ã  12 mois). Si une pÃ©riode est indiquÃ©e sans la propriÃ©tÃ©\n"
-"<command>repeat</command>, le programme sera redÃ©marrÃ©\n"
-"indÃ©finiment."
+"(année_soit_12_mois)/(mois_soit_30_jours)/(jours)-(heures):(minutes):(sec\n"
+"ondes)</command> : Définit la période temporelle pendant laquelle un programme\n"
+"doit attendre avant d'être démarré à nouveau (Les mois sont égaux à 30\n"
+"jours, les années à 12 mois). Si une période est indiquée sans la propriété\n"
+"<command>repeat</command>, le programme sera redémarré\n"
+"indéfiniment."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:242
@@ -2473,16 +2465,16 @@ msgid ""
 "example, if a schedule has <command>repeat 11</command>, it will be\n"
 "launched 12 times."
 msgstr ""
-"<command>repeat (nombre_de_rÃ©pÃ©titions)</command> :\n"
-"SpÃ©cifie combien de fois une programme doit Ãªtre redÃ©marrÃ©. Par\n"
-"exemple, si le programme a la propriÃ©tÃ© <command>repeat 11</command>,\n"
-"il sera dÃ©marrÃ© 12 fois."
+"<command>repeat (nombre_de_répétitions)</command> :\n"
+"Spécifie combien de fois une programme doit être redémarré. Par\n"
+"exemple, si le programme a la propriété <command>repeat 11</command>,\n"
+"il sera démarré 12 fois."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/vlm-vod.xml:251
 #, no-wrap
 msgid "Control Commands"
-msgstr "Commandes de contrÃ´le"
+msgstr "Commandes de contrôle"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 # FIXME: typo dans la version originale (Stat != Start)
@@ -2493,8 +2485,8 @@ msgid ""
 "media begins to launch the first item of the input list, then launches\n"
 "the next one and so on. (like a play list)"
 msgstr ""
-"<command>play</command> : DÃ©marre un mÃ©dia de type broadcast.\n"
-"Le mÃ©dia commence par lancer le premier Ã©lÃ©ment de la liste d'entrÃ©es, puis le suivant,\n"
+"<command>play</command> : Démarre un média de type broadcast.\n"
+"Le média commence par lancer le premier élément de la liste d'entrées, puis le suivant,\n"
 "et ainsi de suite (comme la liste de lecture)."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
@@ -2504,7 +2496,7 @@ msgid ""
 "<command>pause</command> : Put the broadcast media in\n"
 "paused status."
 msgstr ""
-"<command>pause</command> : Met le mÃ©dia de type broadcast\n"
+"<command>pause</command> : Met le média de type broadcast\n"
 "en pause."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
@@ -2514,7 +2506,7 @@ msgid ""
 "<command>stop</command> : Stop the broadcast\n"
 "media."
 msgstr ""
-"<command>stop</command> : ArrÃªte le mÃ©dia de type\n"
+"<command>stop</command> : Arrête le média de type\n"
 "broadcast."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
@@ -2524,8 +2516,8 @@ msgid ""
 "<command>seek (percentage)</command> : Seek in the\n"
 "current playing item of the input list."
 msgstr ""
-"<command>seek (pourcentage)</command> : Se dÃ©place dans l'Ã©lÃ©ment\n"
-"en cours de lecture dans la liste des entrÃ©es."
+"<command>seek (pourcentage)</command> : Se déplace dans l'élément\n"
+"en cours de lecture dans la liste des entrées."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/vlm-vod.xml:272
@@ -2541,7 +2533,7 @@ msgid ""
 "corresponds to one command line."
 msgstr ""
 "Un fichier de configuration VLM est une liste de lignes de commande :\n"
-"une ligne correspond Ã  une ligne de commande."
+"une ligne correspond à une ligne de commande."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/vlm-vod.xml:277
@@ -2552,10 +2544,10 @@ msgid ""
 "<command>load (file)</command> in a configuration file which can lead to\n"
 "recursive inclusion of the same file and result in VLC's crash."
 msgstr ""
-"Pour crÃ©er un fichier de configuration, il suffit d'Ã©diter un fichier texte\n"
-"et de saisir la liste des commandes VLM. MÃ©fiez-vous des appels rÃ©cursifs: si\n"
+"Pour créer un fichier de configuration, il suffit d'éditer un fichier texte\n"
+"et de saisir la liste des commandes VLM. Méfiez-vous des appels récursifs: si\n"
 "vous incluez une commande <command>load (fichier)</command> dans un fichier de\n"
-"configuration, vous pouvez aboutir Ã  une inclusion rÃ©cursive du mÃªme fichier, ce\n"
+"configuration, vous pouvez aboutir à une inclusion récursive du même fichier, ce\n"
 "qui devrait faire crasher VLC."
 
 # type: Content of: <chapter><sect1><sect2><para>
@@ -2565,13 +2557,12 @@ msgid ""
 "As of versions > 0.8.1, any line where the first non white space\n"
 "character is a # is considered as a comment."
 msgstr ""
-"Depuis la version 0.8.2, toute ligne dont le premier caractÃ¨re hors espace\n"
-"est un diÃ¨se # est considÃ©rÃ©e comme un commentaire, et donc ignorÃ©e."
+"Depuis la version 0.8.2, toute ligne dont le premier caractère hors espace\n"
+"est un dièse # est considérée comme un commentaire, et donc ignorée."
 
 # type: Content of: <chapter><sect1><title>
-#: en/vlm-vod.xml:281
-#: en/cmdline.xml:1049
 #: en/vlm-vod.xml:287
+#: en/cmdline.xml:1049
 #, no-wrap
 msgid "Examples"
 msgstr "Exemples"
@@ -2618,7 +2609,7 @@ msgstr ""
 #: en/vlm-vod.xml:310
 #, no-wrap
 msgid "Scheduled broadcasting"
-msgstr "Diffusion planifiÃ©e en broadcast"
+msgstr "Diffusion planifiée en broadcast"
 
 # type: Content of: <chapter><sect1><sect2><sect3><programlisting>
 #: en/vlm-vod.xml:313
@@ -2634,7 +2625,7 @@ msgid ""
 msgstr ""
 "new mon_media broadcast enabled\n"
 "setup mon_media input ma_video.mpeg input mon_autre_film.mpeg\n"
-"setup mon_media output #standard{mux=ts,access=udp,url=239.255.1.1,sap,name=\"Mon MÃ©dia\"}\n"
+"setup mon_media output #standard{mux=ts,access=udp,url=239.255.1.1,sap,name=\"Mon Média\"}\n"
 "\n"
 "new mon_prog schedule enabled\n"
 "setup mon_prog date 2012/12/12-12:12:12\n"
@@ -2644,7 +2635,7 @@ msgstr ""
 #: en/vlm-vod.xml:324
 #, no-wrap
 msgid "Video On Demand"
-msgstr "Video Ã  la demande"
+msgstr "Video à la demande"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/vlm-vod.xml:326
@@ -2656,7 +2647,7 @@ msgstr "Exemple simple"
 #: en/vlm-vod.xml:328
 #, no-wrap
 msgid "First launch the vlc"
-msgstr "D'abord, dÃ©marrer VLC"
+msgstr "D'abord, démarrer VLC"
 
 # type: Content of: <chapter><sect1><sect2><sect3><screen>
 #: en/vlm-vod.xml:329
@@ -2672,7 +2663,7 @@ msgid ""
 " launches the telnet interface of the vlc."
 msgstr ""
 "<emphasis>telnet</emphasis>\n"
-" dÃ©marre l'interface Telnet de VLC."
+" démarre l'interface Telnet de VLC."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:340
@@ -2682,7 +2673,7 @@ msgid ""
 " is the password to connect to the telnet interface."
 msgstr ""
 "<emphasis>videolan</emphasis>\n"
-" est le mot-de-passe pour se connecter Ã  l'interface Telnet."
+" est le mot-de-passe pour se connecter à l'interface Telnet."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:343
@@ -2692,7 +2683,7 @@ msgid ""
 " is the host address."
 msgstr ""
 "<emphasis>0.0.0.0</emphasis>\n"
-" est l'adresse de l'hÃ´te."
+" est l'adresse de l'hôte."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/vlm-vod.xml:346
@@ -2708,7 +2699,7 @@ msgstr ""
 #: en/vlm-vod.xml:351
 #, no-wrap
 msgid "Then you connect to the vlc telnet interface and create the vod object"
-msgstr "Ensuite, vous vous connecter Ã  l'interface Telnet de VLC et crÃ©er l'objet vod"
+msgstr "Ensuite, vous vous connecter à l'interface Telnet de VLC et créer l'objet vod"
 
 # type: Content of: <chapter><sect1><sect2><sect3><programlisting>
 #: en/vlm-vod.xml:353
@@ -2724,7 +2715,7 @@ msgstr ""
 #: en/vlm-vod.xml:356
 #, no-wrap
 msgid "You can access to the stream with:"
-msgstr "Vous pouvez accÃ©der au flux avec:"
+msgstr "Vous pouvez accéder au flux avec:"
 
 # type: Content of: <chapter><sect1><sect2><sect3><screen>
 #: en/vlm-vod.xml:358
@@ -2753,15 +2744,15 @@ msgid ""
 "should still read the previous chapters if you are not confortable with\n"
 "streaming in general."
 msgstr ""
-"Ce chapitre couvre les spÃ©cificitÃ©s de la diffusion sur IPv6. Vous\n"
-"devriez quand mÃªme lire les chapitres prÃ©cÃ©dents si vous n'Ãªtes pas Ã  l'aise avec\n"
-"la diffusion en gÃ©nÃ©ral."
+"Ce chapitre couvre les spécificités de la diffusion sur IPv6. Vous\n"
+"devriez quand même lire les chapitres précédents si vous n'êtes pas à l'aise avec\n"
+"la diffusion en général."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/ipv6.xml:18
 #, no-wrap
 msgid "Requirements"
-msgstr "PrÃ©requis"
+msgstr "Prérequis"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/ipv6.xml:19
@@ -2773,12 +2764,12 @@ msgid ""
 "stacks are not as good, so upgrade if you can. IPv6 must be properly\n"
 "configured and working on your system and network."
 msgstr ""
-"Votre systÃ¨me d'exploitation doit Ã©videmment savoir gÃ©rer l'IPv6.\n"
-"C'est le cas, entre autres, de Windows XP/2003, Linux 2.6, Mac OS X (Ã \n"
-"partir de la version 10.2). Windows 2000 et Linux 2.4 sont aussi supportÃ©s,\n"
+"Votre système d'exploitation doit évidemment savoir gérer l'IPv6.\n"
+"C'est le cas, entre autres, de Windows XP/2003, Linux 2.6, Mac OS X (à\n"
+"partir de la version 10.2). Windows 2000 et Linux 2.4 sont aussi supportés,\n"
 "mais leur pile IPv6 n'est pas aussi bonne : aussi nous conseillons de\n"
-"les mettre Ã  jour si vous le pouvez. L'IPv6 doit Ãªtre correctement\n"
-"configurÃ© et fonctionner sur votre ordinateur ainsi que sur le rÃ©seau."
+"les mettre à jour si vous le pouvez. L'IPv6 doit être correctement\n"
+"configuré et fonctionner sur votre ordinateur ainsi que sur le réseau."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/ipv6.xml:25
@@ -2789,10 +2780,10 @@ msgid ""
 "installed by running \"ipv6 install\" from the command line, or through\n"
 "the Network configuration panel."
 msgstr ""
-"Sous Linux, le module du noyau <emphasis>ipv6</emphasis> doit Ãªtre\n"
-"chargÃ© (ou compilÃ© en dur). Sous Windows, le support de l'IPv6 peut Ãªtre\n"
-"installÃ© en exÃ©cutant \"ipv6 install\" Ã  partir de la ligne de commandes,\n"
-"ou par l'intermÃ©diaire du paneau de configuration du rÃ©seau."
+"Sous Linux, le module du noyau <emphasis>ipv6</emphasis> doit être\n"
+"chargé (ou compilé en dur). Sous Windows, le support de l'IPv6 peut être\n"
+"installé en exécutant \"ipv6 install\" à partir de la ligne de commandes,\n"
+"ou par l'intermédiaire du paneau de configuration du réseau."
 
 # type: Content of: <chapter><sect1><sect2><note><para>
 #: en/ipv6.xml:32
@@ -2801,8 +2792,8 @@ msgid ""
 "Under Windows 2000, you must add by hand a default\n"
 "multicast IPv6 route, with the following command:"
 msgstr ""
-"Sous Windows 2000, vous devez ajouter Ã  la main une route de multicast\n"
-"IPv6 par dÃ©faut, grÃ¢ce Ã  la commande suivante :"
+"Sous Windows 2000, vous devez ajouter à la main une route de multicast\n"
+"IPv6 par défaut, grâce à la commande suivante :"
 
 # type: Content of: <chapter><sect1><sect2><note><screen>
 #: en/ipv6.xml:37
@@ -2818,9 +2809,9 @@ msgid ""
 "this example) is the number of your true IPv6 interface. To have a list\n"
 "of your IPv6 interfaces, run <command>ipv6 if</command>."
 msgstr ""
-"oÃ¹ le dernier nombre (<emphasis>4</emphasis> dans cet exemple) est le\n"
-"numÃ©ro de votre vraie interface IPv6. Pour avoir la liste de vos\n"
-"interfaces IPv6, exÃ©cutez la commande <command>ipv6 if</command>."
+"où le dernier nombre (<emphasis>4</emphasis> dans cet exemple) est le\n"
+"numéro de votre vraie interface IPv6. Pour avoir la liste de vos\n"
+"interfaces IPv6, exécutez la commande <command>ipv6 if</command>."
 
 # type: Content of: <chapter><sect1><sect2><warning><para>
 #: en/ipv6.xml:47
@@ -2832,11 +2823,11 @@ msgid ""
 "upgrading to Service Pack 2 which provides an integrated IPv4/IPv6\n"
 "firewall that can be configured through the GUI."
 msgstr ""
-"Sous Windows XP SP1, vous pouvez rencontrer des problÃ¨mes avec un\n"
-"firewall IPv6 cachÃ©. Pour rÃ©soudre le problÃ¨me, allez dans la liste\n"
-"des services Windows et arrÃªtez le service de pare-feu IPv6.\n"
+"Sous Windows XP SP1, vous pouvez rencontrer des problèmes avec un\n"
+"firewall IPv6 caché. Pour résoudre le problème, allez dans la liste\n"
+"des services Windows et arrêtez le service de pare-feu IPv6.\n"
 "Vous devriez envisager d'installer le Service Pack 2 qui fournit un\n"
-"pare-feu intÃ©grÃ© IPv4/IPv6, configurable Ã  l'aide de l'interface\n"
+"pare-feu intégré IPv4/IPv6, configurable à l'aide de l'interface\n"
 "graphique."
 
 # type: Content of: <chapter><sect1><sect2><warning><para>
@@ -2847,8 +2838,8 @@ msgid ""
 "to stop VMware and unload the VMware kernel modules, because we noticed\n"
 "it prevented IPv6 streaming !"
 msgstr ""
-"Si vous utilisez VMWare sous Linux, vous devrez l'arrÃªter et dÃ©charger\n"
-"les modules noyau de VMWare, car nous avons constatÃ© qu'ils empÃªchaient la\n"
+"Si vous utilisez VMWare sous Linux, vous devrez l'arrêter et décharger\n"
+"les modules noyau de VMWare, car nous avons constaté qu'ils empêchaient la\n"
 "diffusion IPv6 !"
 
 # type: Content of: <chapter><sect1><sect2><title>
@@ -2866,10 +2857,10 @@ msgid ""
 "RTSP over IPv6 because the underlying library, Live.com, does not\n"
 "support IPv6 at the time of writing."
 msgstr ""
-"Quelques fonctionnalitÃ©s de VLC media player ne supportent toujours\n"
+"Quelques fonctionnalités de VLC media player ne supportent toujours\n"
 "pas l'IPv6. En particulier, il n'est pas possible d'utiliser le\n"
-"RTSP sur IPv6 Ã  cause de la bibliothÃ¨que utilisÃ©e, Live.com, quine\n"
-"supporte pas l'IPv6 au moment de la rÃ©daction de ce document."
+"RTSP sur IPv6 à cause de la bibliothèque utilisée, Live.com, quine\n"
+"supporte pas l'IPv6 au moment de la rédaction de ce document."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/ipv6.xml:68
@@ -2880,8 +2871,8 @@ msgid ""
 "changed to something more transparent in future versions."
 msgstr ""
 "De plus, veuillez noter que, pour le moment, VLC utilise l'IPv4\n"
-"par dÃ©faut dans la plupart des cas, Ã©tant utilisÃ© par la majoritÃ©.\n"
-" Ceci pourrait Ãªtre modifiÃ© afin d'Ãªtre plus transparent dans les\n"
+"par défaut dans la plupart des cas, étant utilisé par la majorité.\n"
+" Ceci pourrait être modifié afin d'être plus transparent dans les\n"
 "prochaines versions."
 
 # type: Content of: <chapter><sect1><sect2><title>
@@ -2913,12 +2904,12 @@ msgstr ""
 "L'assistant de diffusion accepte les adresses IPv6 entre crochets, par\n"
 "exemple :\n"
 "<userinput>[2002:8ac3:802d:1242:211:11ff:fe25:e6b4]</userinput>.\n"
-"Si vous spÃ©cifiez une adresse locale de lien, vous devrez sÃ»rement\n"
-"spÃ©cifier l'interface rÃ©seau Ã  utiliser. Sous Unix, ceci peut Ãªtre fait\n"
-"de cette faÃ§on : <userinput>[fe80::211:11ff:fe25:e6b4%eth0]</userinput>\n"
-"pour utiliser eth0. De mÃªme, sous Windows, vous pouvez spÃ©cifier\n"
-"<userinput>[fe80::211:11ff:fe25:e6b4%1]</userinput> oÃ¹ 1 est le numÃ©ro\n"
-"de l'interface rÃ©seau, donnÃ© par le systÃ¨me d'exploitation."
+"Si vous spécifiez une adresse locale de lien, vous devrez sûrement\n"
+"spécifier l'interface réseau à utiliser. Sous Unix, ceci peut être fait\n"
+"de cette façon : <userinput>[fe80::211:11ff:fe25:e6b4%eth0]</userinput>\n"
+"pour utiliser eth0. De même, sous Windows, vous pouvez spécifier\n"
+"<userinput>[fe80::211:11ff:fe25:e6b4%1]</userinput> où 1 est le numéro\n"
+"de l'interface réseau, donné par le système d'exploitation."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/ipv6.xml:91
@@ -2927,8 +2918,8 @@ msgid ""
 "If you're streaming over HTTP, note that IPv6 is automatically\n"
 "used by default (so that both IPv6 and IPv4 clients will be allowed)."
 msgstr ""
-"Si vous diffusez sur HTTP, notez que l'IPv6 est automatiquement utilisÃ©\n"
-"par dÃ©faut (afin que les clients en IPv6 ou IPv4 puissent se connecter)."
+"Si vous diffusez sur HTTP, notez que l'IPv6 est automatiquement utilisé\n"
+"par défaut (afin que les clients en IPv6 ou IPv4 puissent se connecter)."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/ipv6.xml:95
@@ -2940,11 +2931,11 @@ msgid ""
 "<emphasis>advanced</emphasis> option in\n"
 "<emphasis>Preferences / General Settings / Input</emphasis>."
 msgstr ""
-"Si vous voulez spÃ©cifier un nom d'hÃ´te DNS, souvenez-vous que VLC rÃ©souds\n"
-"les DNS en IPv4 par dÃ©faut. Vous devez soit prÃ©ciser un nom d'hÃ´te qui ne\n"
-"se rÃ©solve qu'en IPv6, soit activer l'option <emphasis>advanced</emphasis>\n"
-"&quot;Forcer lâutilisation dâIPv6&quot; dans <emphasis>PrÃ©fÃ©rences /\n"
-"ParamÃ¨tres gÃ©nÃ©raux / EntrÃ©e</emphasis>."
+"Si vous voulez spécifier un nom d'hôte DNS, souvenez-vous que VLC résouds\n"
+"les DNS en IPv4 par défaut. Vous devez soit préciser un nom d'hôte qui ne\n"
+"se résolve qu'en IPv6, soit activer l'option <emphasis>advanced</emphasis>\n"
+"&quot;Forcer l’utilisation d’IPv6&quot; dans <emphasis>Préférences /\n"
+"Paramètres généraux / Entrée</emphasis>."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/ipv6.xml:105
@@ -2960,7 +2951,7 @@ msgid ""
 "the use of IPv6 by default (ie. IPv6 is always attempted before IPv4)."
 msgstr ""
 "L'option de ligne de commande <userinput>--ipv6</userinput> force\n"
-"l'utilisation de l'IPv6 par dÃ©faut (ie. l'IPv6 sera toujours tentÃ©e\n"
+"l'utilisation de l'IPv6 par défaut (ie. l'IPv6 sera toujours tentée\n"
 "avant l'IPv4)."
 
 # type: Content of: <chapter><sect1><sect2><sect3><screen>
@@ -2978,9 +2969,9 @@ msgid ""
 "configuration)\n"
 ","
 msgstr ""
-"est le fichier que vous dÃ©sirez diffuser (vous pouvez par exemple utiliser\n"
+"est le fichier que vous désirez diffuser (vous pouvez par exemple utiliser\n"
 "<command>dvdsimple:/dev/dvd</command> pour diffuser un DVD, ou n'importe\n"
-"quelle autre configuration d'entrÃ©e),"
+"quelle autre configuration d'entrée),"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/ipv6.xml:126
@@ -2996,7 +2987,7 @@ msgstr ""
 #: en/ipv6.xml:133
 #, no-wrap
 msgid "the IPv6 address of the machine you want to unicast to;"
-msgstr "l'adresse IPv6 de la machine vers laquelle vous dÃ©sirez diffuser en unicast;"
+msgstr "l'adresse IPv6 de la machine vers laquelle vous désirez diffuser en unicast;"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/ipv6.xml:137
@@ -3012,7 +3003,7 @@ msgid ""
 "Under Unix/Linux, you may have to protect the square\n"
 "brackets around the IPv6 address:"
 msgstr ""
-"Sous Unix/Linux, il est possible que vous deviez \"protÃ©ger\" les\n"
+"Sous Unix/Linux, il est possible que vous deviez \"protéger\" les\n"
 "crochets autour de l'adresse IPv6 :"
 
 # type: Content of: <chapter><sect1><sect2><sect3><note><screen>
@@ -3028,8 +3019,8 @@ msgid ""
 "You may have to specify the output network\n"
 "interface:"
 msgstr ""
-"Il est possible que vous deviez spÃ©cifier\n"
-"l'interface rÃ©seau de sortie :"
+"Il est possible que vous deviez spécifier\n"
+"l'interface réseau de sortie :"
 
 # type: Content of: <chapter><sect1><sect2><sect3><note><screen>
 #: en/ipv6.xml:169
@@ -3049,10 +3040,10 @@ msgid ""
 "<emphasis>enX</emphasis> and under Windows it's <emphasis>X</emphasis>,\n"
 "where <emphasis>X</emphasis> is the appropriate number)."
 msgstr ""
-"oÃ¹ <emphasis>eth0</emphasis> est le nom de l'interface rÃ©seau (sous\n"
-" Linux, elles sont nommÃ©es <emphasis>ethX</emphasis>, sous Mac OS X, c'est\n"
+"où <emphasis>eth0</emphasis> est le nom de l'interface réseau (sous\n"
+" Linux, elles sont nommées <emphasis>ethX</emphasis>, sous Mac OS X, c'est\n"
 "<emphasis>enX</emphasis>, et <emphasis>X</emphasis> sous Windows, avec\n"
-"<emphasis>X</emphasis> le numÃ©ro appropriÃ©)."
+"<emphasis>X</emphasis> le numéro approprié)."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/ipv6.xml:186
@@ -3078,13 +3069,13 @@ msgid ""
 "addresses syntax is the same as that explained in the\n"
 "<emphasis>Streaming over IPv6</emphasis> section of this chapter."
 msgstr ""
-"Cliquez sur <emphasis>Fichier / Ouvrir un flux rÃ©seau</emphasis>. Pour\n"
-"recevoir un flux UDP/RTP unicast envoyÃ© Ã  votre ordinateur, vous devez\n"
-"sÃ©lectionner l'option &quot;Forcer l'utilisation d'IPv6&quot; (et\n"
+"Cliquez sur <emphasis>Fichier / Ouvrir un flux réseau</emphasis>. Pour\n"
+"recevoir un flux UDP/RTP unicast envoyé à votre ordinateur, vous devez\n"
+"sélectionner l'option &quot;Forcer l'utilisation d'IPv6&quot; (et\n"
 "probablement ajuster le port UDP de destination). Pour recevoir un flux\n"
-"UDP multicast, sÃ©lectionnez l'option Multidiff. UDP/RTP, et prÃ©cisez\n"
-"l'adresse multicast Ã  laquelle s'inscrire, entre crochets. La syntaxe\n"
-"des adresses IPv6 est expliquÃ©e dans la partie <emphasis>Diffusion sur\n"
+"UDP multicast, sélectionnez l'option Multidiff. UDP/RTP, et précisez\n"
+"l'adresse multicast à laquelle s'inscrire, entre crochets. La syntaxe\n"
+"des adresses IPv6 est expliquée dans la partie <emphasis>Diffusion sur\n"
 "IPv6</emphasis> de ce chapitre."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
@@ -3102,8 +3093,8 @@ msgid ""
 "before IPv4)."
 msgstr ""
 "Comme pour la diffusion, l'option de ligne de commande\n"
-"<userinput>--ipv6</userinput> force l'utilisation de l'IPv6 par dÃ©faut\n"
-"(ie. l'IPv6 sera toujours tentÃ©e avant l'IPv4)."
+"<userinput>--ipv6</userinput> force l'utilisation de l'IPv6 par défaut\n"
+"(ie. l'IPv6 sera toujours tentée avant l'IPv4)."
 
 # type: Content of: <chapter><sect1><sect2><sect3><screen>
 #: en/ipv6.xml:206
@@ -3121,7 +3112,7 @@ msgstr "<prompt>% </prompt><userinput>vlc -vvv --ipv6 udp:@\\[ff08::1\\]</userin
 #: en/ipv6.xml:221
 #, no-wrap
 msgid "You may have to specify the output network interface:"
-msgstr "Il est possible que vous deviez spÃ©cifier l'interface rÃ©seau de sortie :"
+msgstr "Il est possible que vous deviez spécifier l'interface réseau de sortie :"
 
 # type: Content of: <chapter><title>
 #: en/receive.xml:3
@@ -3165,7 +3156,7 @@ msgstr "<prompt>% </prompt><userinput>vlc -vvv udp:@239.255.12.42</userinput>"
 msgid ""
 "where <emphasis>239.255.12.42</emphasis> is the\n"
 "multicast IP address you want to join."
-msgstr "oÃ¹ <emphasis>239.255.12.42</emphasis> est l'adresse multicast du flux."
+msgstr "où <emphasis>239.255.12.42</emphasis> est l'adresse multicast du flux."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/receive.xml:38
@@ -3191,7 +3182,7 @@ msgstr "<prompt>% </prompt><userinput>vlc -vvv http://exemple/flux.xyz</userinpu
 msgid ""
 "where <emphasis>http://example/stream.xyz</emphasis>\n"
 "is the HTTP address of the stream;"
-msgstr "oÃ¹ <emphasis>http://exemple/flux.xyz</emphasis> est l'adresse HTTP du flux ;"
+msgstr "où <emphasis>http://exemple/flux.xyz</emphasis> est l'adresse HTTP du flux ;"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><screen>
 #: en/receive.xml:62
@@ -3205,7 +3196,7 @@ msgstr "<prompt>% </prompt><userinput>vlc -vvv ftp://exemple/flux.xyz</userinput
 msgid ""
 "where <emphasis>ftp://example/stream.xyz</emphasis>\n"
 "is the FTP address of the stream;"
-msgstr "oÃ¹ <emphasis>ftp://exemple/flux.xyz</emphasis> est l'adresse FTP du flux ;"
+msgstr "où <emphasis>ftp://exemple/flux.xyz</emphasis> est l'adresse FTP du flux ;"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><screen>
 #: en/receive.xml:73
@@ -3220,7 +3211,7 @@ msgid ""
 "where\n"
 "<emphasis>mms://viptvr.yacast.fr/encoderfranceinfo</emphasis> is the MMS\n"
 "address of the stream."
-msgstr "oÃ¹ <emphasis>mms://viptvr.yacast.fr/encoderfranceinfo</emphasis> est l'adresse MMS du flux."
+msgstr "où <emphasis>mms://viptvr.yacast.fr/encoderfranceinfo</emphasis> est l'adresse MMS du flux."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/receive.xml:89
@@ -3238,13 +3229,13 @@ msgstr "<prompt>% </prompt><userinput>vlc -vvv rtsp://www.hardradio.com/tonbeme.
 #: en/receive.xml:98
 #, no-wrap
 msgid "where <emphasis>rtsp://www.hardradio.com/tonbeme.mov</emphasis> is the address of the stream."
-msgstr "oÃ¹ <emphasis>rtsp://www.hardradio.com/tonbeme.mov</emphasis> est l'adresse du flux."
+msgstr "où <emphasis>rtsp://www.hardradio.com/tonbeme.mov</emphasis> est l'adresse du flux."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/receive.xml:105
 #, no-wrap
 msgid "Receive a stream described by an SDP file"
-msgstr "Recevoir un flux dÃ©crit par un fichier SDP"
+msgstr "Recevoir un flux décrit par un fichier SDP"
 
 # type: Content of: <chapter><sect1><sect2><screen>
 #: en/receive.xml:110
@@ -3285,8 +3276,8 @@ msgid ""
 "is one of the formats supported by VLC's stream\n"
 "output, i.e. :"
 msgstr ""
-"<emphasis>muxer</emphasis> est l'un des formats supportÃ©s par le module\n"
-"de flux de sortie de VLC, c'est Ã  dire :"
+"<emphasis>muxer</emphasis> est l'un des formats supportés par le module\n"
+"de flux de sortie de VLC, c'est à dire :"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/receive.xml:146
@@ -3331,7 +3322,7 @@ msgid ""
 "is the name of\n"
 "the file you want to save the stream to, with the right extension."
 msgstr ""
-"est le nom du fichier sous lequel vous dÃ©sirez enregistrer le flux,\n"
+"est le nom du fichier sous lequel vous désirez enregistrer le flux,\n"
 "avec la bonne extension."
 
 # type: Content of: <chapter><sect1><title>
@@ -3366,7 +3357,7 @@ msgstr "<ulink url=\"http://www.pace.co.uk\">Pace</ulink> set top boxes. (Pace M
 #: en/receive.xml:185
 #, no-wrap
 msgid "<ulink url=\"http://www.aminocom.com\">Aminocom</ulink> set top boxes. (all the models with mpeg2)"
-msgstr "<ulink url=\"http://www.aminocom.com\">Aminocom</ulink> set top boxes. (tous les modÃ¨les avec mpeg2)"
+msgstr "<ulink url=\"http://www.aminocom.com\">Aminocom</ulink> set top boxes. (tous les modèles avec mpeg2)"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/receive.xml:186
@@ -3384,7 +3375,7 @@ msgstr "i3micro mood200 (mpeg4 et mpeg2)"
 #: en/cmdline.xml:3
 #, no-wrap
 msgid "Advanced streaming using the command line"
-msgstr "Utilisation avancÃ©e du flux de sortie en ligne de commande"
+msgstr "Utilisation avancée du flux de sortie en ligne de commande"
 
 # type: Content of: <chapter><sect1><title>
 #: en/cmdline.xml:17
@@ -3405,15 +3396,15 @@ msgid ""
 "capabilities. You can <emphasis>chain</emphasis> modules to enhance the\n"
 "possibilities."
 msgstr ""
-"Flux de sortie est le nom d'une fonctionnalitÃ© de VLC qui permet de\n"
-"diffuser sur le rÃ©seau, ou d'enregistrer, n'importe quel flux lu par VLC\n"
-"au lieu de l'afficher. DiffÃ©rents types de traitements peuvent Ãªtre\n"
-"appliquÃ©s au flux durant ce procÃ©dÃ© (transcodage, redimensionnement,\n"
+"Flux de sortie est le nom d'une fonctionnalité de VLC qui permet de\n"
+"diffuser sur le réseau, ou d'enregistrer, n'importe quel flux lu par VLC\n"
+"au lieu de l'afficher. Différents types de traitements peuvent être\n"
+"appliqués au flux durant ce procédé (transcodage, redimensionnement,\n"
 "filtres, re-multiplexage...)\n"
 "\n"
-"Le flux de sortie peut inclure plusieurs modules, chacun d'eux possÃ©dant\n"
-"diffÃ©rentes fonctionnalitÃ©s. Vous pouvez <emphasis>enchaÃ®ner</emphasis>\n"
-"les modules afin d'augmanter les possibilitÃ©s."
+"Le flux de sortie peut inclure plusieurs modules, chacun d'eux possédant\n"
+"différentes fonctionnalités. Vous pouvez <emphasis>enchaîner</emphasis>\n"
+"les modules afin d'augmanter les possibilités."
 
 # type: Content of: <chapter><sect1><para>
 #: en/cmdline.xml:31
@@ -3433,7 +3424,7 @@ msgstr ""
 "<emphasis>standard</emphasis>\n"
 "permet d'<emphasis>envoyer</emphasis> le flux via un <emphasis> module\n"
 "de sortie</emphasis> : par exemple, UDP, fichier, HTTP... Vous voudrez\n"
-"probablement utiliser ce module Ã  la fin de vos chaÃ®nes."
+"probablement utiliser ce module à la fin de vos chaînes."
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/cmdline.xml:43
@@ -3447,14 +3438,14 @@ msgid ""
 "of CPU power, depending on the parameters set. Other streams, such\n"
 "as files and disks are transcoded as fast as the system allows it."
 msgstr ""
-"<emphasis>trascode</emphasis> est utilisÃ© pour transcoder (dÃ©coder et\n"
-"rÃ©-encoder le flux en utilisant un codec et/ou un dÃ©bit diffÃ©rent)\n"
-"l'audio et la vidÃ©o du flux d'entrÃ©e. Si les modules d'entrÃ©e ou de\n"
-"sortie ne permettent pas le contrÃ´le du dÃ©bit (rÃ©seau, pÃ©riphÃ©riques\n"
-"d'acquisition), ceci est fait \"Ã  la volÃ©e\", en temps rÃ©el. Ceci peut\n"
-"nÃ©cessiter un charge importante en CPU, en fonction des paramÃ¨tres\n"
-"choisis. Les autres flux, tels que fichiers et disques, sont transcodÃ©s\n"
-"aussi rapidement que le permet le systÃ¨me."
+"<emphasis>trascode</emphasis> est utilisé pour transcoder (décoder et\n"
+"ré-encoder le flux en utilisant un codec et/ou un débit différent)\n"
+"l'audio et la vidéo du flux d'entrée. Si les modules d'entrée ou de\n"
+"sortie ne permettent pas le contrôle du débit (réseau, périphériques\n"
+"d'acquisition), ceci est fait \"à la volée\", en temps réel. Ceci peut\n"
+"nécessiter un charge importante en CPU, en fonction des paramètres\n"
+"choisis. Les autres flux, tels que fichiers et disques, sont transcodés\n"
+"aussi rapidement que le permet le système."
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/cmdline.xml:52
@@ -3465,8 +3456,8 @@ msgid ""
 "stream will be handled in an independent way."
 msgstr ""
 "<emphasis>duplicate</emphasis>\n"
-"vous permet de crÃ©er une seconde chaÃ®ne, dans laquelle le flux sera\n"
-"traitÃ© d'une maniÃ¨re indÃ©pendante."
+"vous permet de créer une seconde chaîne, dans laquelle le flux sera\n"
+"traité d'une manière indépendante."
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/cmdline.xml:57
@@ -3478,8 +3469,8 @@ msgid ""
 "module, this allows you to monitor the stream while processing it."
 msgstr ""
 "<emphasis>display</emphasis> \n"
-"vous permet d'afficher le flux d'entrÃ©e, tel que VLC le ferait en temps\n"
-"normal. UtilisÃ© de paire avec le modules <emphasis>duplicate</emphasis>,\n"
+"vous permet d'afficher le flux d'entrée, tel que VLC le ferait en temps\n"
+"normal. Utilisé de paire avec le modules <emphasis>duplicate</emphasis>,\n"
 "ceci vous permet de visualiser le flux durant le traitement."
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
@@ -3490,7 +3481,7 @@ msgid ""
 "for each elementary stream). This module also allows RTSP support."
 msgstr ""
 "<emphasis>rtp</emphasis> diffuse sur RTP (un port UDP par flux\n"
-"Ã©lÃ©mentaire). Ce modules supporte aussi le RTSP."
+"élémentaire). Ce modules supporte aussi le RTSP."
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/cmdline.xml:67
@@ -3500,9 +3491,9 @@ msgid ""
 "Elementary Streams (ES) out of an input stream. This can be used\n"
 "to save audio and video streams to separate files, for instance."
 msgstr ""
-"<emphasis>es</emphasis> vous permet de sÃ©parer les flux Ã©lÃ©mentaires\n"
-"(ES) d'un flux d'entrÃ©e. Ceci peut Ãªtre utilisÃ© afin d'enregistrer les\n"
-"flux audio et vidÃ©o dans des fichiers sÃ©parÃ©s, par exemple."
+"<emphasis>es</emphasis> vous permet de séparer les flux élémentaires\n"
+"(ES) d'un flux d'entrée. Ceci peut être utilisé afin d'enregistrer les\n"
+"flux audio et vidéo dans des fichiers séparés, par exemple."
 
 # type: Content of: <chapter><sect1><para>
 #: en/cmdline.xml:75
@@ -3518,7 +3509,7 @@ msgstr ""
 #: en/cmdline.xml:80
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc input_stream --sout \"#module1{option1=parameter1{parameter-option1},option2=parameter2}:#module2{option1=...,option2=...}:...\"</userinput>"
-msgstr "<prompt>% </prompt><userinput>vlc flux_d'entrÃ©e --sout \"#module1{option1=paramÃ¨tre1{option-du-paramÃ¨tre1},option2=paramÃ¨tre2}:#module2{option1=...,option2=...}:...\"</userinput>"
+msgstr "<prompt>% </prompt><userinput>vlc flux_d'entrée --sout \"#module1{option1=paramètre1{option-du-paramètre1},option2=paramètre2}:#module2{option1=...,option2=...}:...\"</userinput>"
 
 # type: Content of: <chapter><sect1><note><para>
 #: en/cmdline.xml:83
@@ -3531,10 +3522,10 @@ msgid ""
 "certainly means that you don't need them."
 msgstr ""
 "Certaines des options des modules sont requises (option1 dans cet exemple),\n"
-"les autres sont optionnelles. Les paramÃ¨tres des options\n"
-"(option-du-paramÃ¨tre1 dans cet exemple) sont toujours optionnelles. Ces\n"
-"paramÃ¨tres d'options sont souvent des rÃ©glages trÃ¨s avancÃ©s. Si vous ne\n"
-"comprenez pas leur description, vous n'en avez sÃ»rement pas besoin."
+"les autres sont optionnelles. Les paramètres des options\n"
+"(option-du-paramètre1 dans cet exemple) sont toujours optionnelles. Ces\n"
+"paramètres d'options sont souvent des réglages très avancés. Si vous ne\n"
+"comprenez pas leur description, vous n'en avez sûrement pas besoin."
 
 # type: Content of: <chapter><sect1><para>
 #: en/cmdline.xml:90
@@ -3546,7 +3537,7 @@ msgstr "Vous pouvez aussi utiliser la syntaxe suivante :"
 #: en/cmdline.xml:94
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc input_stream --sout-module1-option1=... --sout-module1-option2=... --sout-module2-option1=... --sout-module2-option2=... ...</userinput>"
-msgstr "<prompt>% </prompt><userinput>vlc flux_d'entrÃ©e --sout-module1-option1=... --sout-module1-option2=... --sout-module2-option1=... --sout-module2-option2=... ...</userinput>"
+msgstr "<prompt>% </prompt><userinput>vlc flux_d'entrée --sout-module1-option1=... --sout-module1-option2=... --sout-module2-option1=... --sout-module2-option2=... ...</userinput>"
 
 # type: Content of: <chapter><sect1><para>
 #: en/cmdline.xml:98
@@ -3558,7 +3549,7 @@ msgstr "Par exemple, pour transcoder un flux et le diffuser, utilisez :"
 #: en/cmdline.xml:102
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc input_stream --sout '#transcode{options}:standard{options}'</userinput>"
-msgstr "<prompt>% </prompt><userinput>vlc flux_d'entrÃ©e --sout '#transcode{options}:standard{options}'</userinput>"
+msgstr "<prompt>% </prompt><userinput>vlc flux_d'entrée --sout '#transcode{options}:standard{options}'</userinput>"
 
 # type: Content of: <chapter><sect1><title>
 #: en/cmdline.xml:107
@@ -3579,8 +3570,8 @@ msgid ""
 "This module saves the stream to a file or sends it over a network, after\n"
 "having muxed it."
 msgstr ""
-"Ce module enregistre le flux dans un fichier ou le diffuse sur le rÃ©seau,\n"
-"aprÃ¨s l'avoir multiplexÃ©."
+"Ce module enregistre le flux dans un fichier ou le diffuse sur le réseau,\n"
+"après l'avoir multiplexé."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/cmdline.xml:116
@@ -3599,7 +3590,7 @@ msgstr "access="
 #: en/cmdline.xml:120
 #, no-wrap
 msgid "This option allows to set the medium used to save or send the stream. This is a compulsory option. Available options are:"
-msgstr "Ces options permmettent de sÃ©lectionner le medium utilisÃ© pour enregistrer ou diffuser le flux. Cette option est obligatoirement requise. Les choix possibles sont :"
+msgstr "Ces options permmettent de sélectionner le medium utilisé pour enregistrer ou diffuser le flux. Cette option est obligatoirement requise. Les choix possibles sont :"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:123
@@ -3611,7 +3602,7 @@ msgstr "file : enregistre le flux dans un fichier."
 #: en/cmdline.xml:124
 #, no-wrap
 msgid "Use the <emphasis>append</emphasis> option to append the stream to an existing file instead of replacing it."
-msgstr "Utilisez l'option <emphasis>append</emphasis> pour ajouter le flux Ã  un fichier existant au lieu de le remplacer."
+msgstr "Utilisez l'option <emphasis>append</emphasis> pour ajouter le flux à un fichier existant au lieu de le remplacer."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:126
@@ -3634,13 +3625,13 @@ msgid ""
 "the chain, <emphasis>raw</emphasis> if you don't want to wait until the\n"
 "MTU is filled before sending the packet."
 msgstr ""
-"Les options sont : <emphasis>caching=&lt;durÃ©e en ms&gt;</emphasis> pour\n"
-"dÃ©finir le temps pendant lequel VLC devrait garder les donnÃ©es en tampon\n"
-"avant de les envoyer, <emphasis>ttl=&lt;ttl&gt;</emphasis> pour dÃ©finir\n"
-"le ttl des paquets UDP envoyÃ©s, <emphasis>group=&lt;nombre de\n"
-"paquets&gt;</emphasis> pour envoyer les paquets par rafales plutÃ´t que\n"
-"un par un, <emphasis>late=&lt;durÃ©e en ms&gt;</emphasis> pour Ã©liminer\n"
-"les paquets qui arrivent trop en retard Ã  cette Ã©tape de la chaÃ®ne,\n"
+"Les options sont : <emphasis>caching=&lt;durée en ms&gt;</emphasis> pour\n"
+"définir le temps pendant lequel VLC devrait garder les données en tampon\n"
+"avant de les envoyer, <emphasis>ttl=&lt;ttl&gt;</emphasis> pour définir\n"
+"le ttl des paquets UDP envoyés, <emphasis>group=&lt;nombre de\n"
+"paquets&gt;</emphasis> pour envoyer les paquets par rafales plutôt que\n"
+"un par un, <emphasis>late=&lt;durée en ms&gt;</emphasis> pour éliminer\n"
+"les paquets qui arrivent trop en retard à cette étape de la chaîne,\n"
 "<emphasis>raw</emphasis> si vous ne voulez pas attendre que le MTU soit\n"
 "rempli avant d'envoyer les paquets."
 
@@ -3661,9 +3652,12 @@ msgid ""
 "authentication password, <emphasis>mime=&lt;mime type&gt;</emphasis>\n"
 "to set the mime type returned by the server."
 msgstr ""
-"ElÃ©ment\n"
+"Elément\n"
 "les options sont : <emphasis>user=&lt;nom d'utilisateur&gt;</emphasis>\n"
-"pour activer l'authentification basique par HTTP et dÃ©finir l'utilisateur,\n"
+"pour activer l'authentification basique par HTTP et définir l'utilisateur,\n"
+"<emphasis>^wd=&lt;mot de passe&gt;</emphasis> pour définir le mot de passe\n"
+"<emphasis>mime=&lt;type mime&gt;</emphasis> pour définir le type MIME\n"
+"retourné par le serveru."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:144
@@ -3671,7 +3665,9 @@ msgstr ""
 msgid ""
 "https: streams over HTTP, using a secured SSL\n"
 "connection."
-msgstr "https : diffuse par HTTP, en utilisant la couche sÃ©curisÃ©e SSL\n"
+msgstr ""
+"https : diffuse par HTTP, en utilisant une connexion sécurisée\n"
+"SSL"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:147
@@ -3686,15 +3682,15 @@ msgid ""
 "certificate&gt;</emphasis> to set the revocation certificate to use for\n"
 "the SSL connection."
 msgstr ""
-"Les options sont les mÃªme que pour http, plus :\n"
-"<emphasis>cert=&lt;chemin ver le certificat&gt;</emphasis> pour dÃ©finir le\n"
-"certificat Ã  utiliser,\n"
-"<emphasis>key=&lt;chemin vers la clef&gt;</emphasis> pour dÃ©finir la clef Ã \n"
+"Les options sont les même que pour http, plus :\n"
+"<emphasis>cert=&lt;chemin ver le certificat&gt;</emphasis> pour définir le\n"
+"certificat à utiliser,\n"
+"<emphasis>key=&lt;chemin vers la clef&gt;</emphasis> pour définir la clef à\n"
 "utiliser\n"
-"<emphasis>ca=&lt;chemin vers le certificat&gt;</emphasis> pour dÃ©finir le\n"
-"certificat CA Ã  utiliser dans le SSL,\n"
-"<emphasis>crl=&lt;chemin vers le certificat&gt;</emphasis> pour dÃ©finir le\n"
-"certificat de rÃ©vocation Ã  utiliser dans la connection SSL."
+"<emphasis>ca=&lt;chemin vers le certificat&gt;</emphasis> pour définir le\n"
+"certificat CA à utiliser dans le SSL,\n"
+"<emphasis>crl=&lt;chemin vers le certificat&gt;</emphasis> pour définir le\n"
+"certificat de révocation à utiliser dans la connection SSL."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:156
@@ -3706,15 +3702,15 @@ msgid ""
 "encapsulated in HTTP)."
 msgstr ""
 "mmsh : diffuse en utilisant le protocol Microsoft MMS. Ce protocole est\n"
-"utilisÃ© comme mÃ©thode de transport par la plupart des logiciels Microsoft.\n"
-"Notez que seule une petite partie du protocole MMS est supportÃ©e (MMS\n"
-"encapsulÃ© dans du HTTP)."
+"utilisé comme méthode de transport par la plupart des logiciels Microsoft.\n"
+"Notez que seule une petite partie du protocole MMS est supportée (MMS\n"
+"encapsulé dans du HTTP)."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:160
 #, no-wrap
 msgid "Item options are the same as for the http module."
-msgstr "Les options sont les mÃªme que pour le module HTTP."
+msgstr "Les options sont les même que pour le module HTTP."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:162
@@ -3726,7 +3722,7 @@ msgid ""
 "output module for a more compliant and complete RTP streamer."
 msgstr ""
 "rtp : diffuse par RTP. Notez que c'est un module assez vieux.\n"
-"Il ne permet pas le RTSP et peux uniquement Ãªtre utilisÃ© pour diffuser\n"
+"Il ne permet pas le RTSP et peux uniquement être utilisé pour diffuser\n"
 "des flux TS. Veuillez regarder le module de sortie <emphasis>rtp</emphasis>\n"
 "pour un support complet du RTP."
 
@@ -3734,7 +3730,7 @@ msgstr ""
 #: en/cmdline.xml:166
 #, no-wrap
 msgid "Options are the same as for the <emphasis>udp</emphasis> setting."
-msgstr "Les options sont les mÃªmes que pour pour l'<emphasis>udp</emphasis>."
+msgstr "Les options sont les mêmes que pour pour l'<emphasis>udp</emphasis>."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:170
@@ -3748,7 +3744,7 @@ msgstr "mux="
 #: en/cmdline.xml:171
 #, no-wrap
 msgid "This option allows you to set the encapsulation method used for the resulting stream. This option has to be set."
-msgstr "Cette option vous permet de choisir la mÃ©thode d'encapsulation utilisÃ©e dans le flux. Cette option est obligatoire."
+msgstr "Cette option vous permet de choisir la méthode d'encapsulation utilisée dans le flux. Cette option est obligatoire."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/cmdline.xml:173
@@ -3768,10 +3764,10 @@ msgid ""
 "MJPEG, H263, H264, I263, WMV 1/2 and theora for video, MPEG audio, AAC and\n"
 "a52 for the audio stream."
 msgstr ""
-"<emphasis>ts :</emphasis> le muxer MPEG2/TS. C'est le muxer standard utilisÃ©\n"
-"pour diffuser du MPEG 2. Ce muxer peut Ãªtre utilisÃ© avec n'importe quelle\n"
-"mÃ©thode d'<emphasis>accÃ¨s</emphasis>. Les codecs supportÃ©s sont MPEG 1/2/4,\n"
-"MJPEG, H263, H264, I263, WMV 1/2 et theora pour la vidÃ©o, l'audio MPEG, AAC\n"
+"<emphasis>ts :</emphasis> le muxer MPEG2/TS. C'est le muxer standard utilisé\n"
+"pour diffuser du MPEG 2. Ce muxer peut être utilisé avec n'importe quelle\n"
+"méthode d'<emphasis>accès</emphasis>. Les codecs supportés sont MPEG 1/2/4,\n"
+"MJPEG, H263, H264, I263, WMV 1/2 et theora pour la vidéo, l'audio MPEG, AAC\n"
 "et a52 pour le flux audio."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
@@ -3799,22 +3795,22 @@ msgid ""
 "encryption."
 msgstr ""
 "Les options sont : <emphasis>pid-video=&lt;pid&gt;</emphasis>\n"
-"pour choisir le PID de la piste vidÃ©o,\n"
+"pour choisir le PID de la piste vidéo,\n"
 "<emphasis>pid-audio=&lt;pid&gt;</emphasis> pour choisir le PID de la piste\n"
 "audio, <emphasis>pid-spu=&lt;pid&gt;</emphasis> pour choisir le PID de la\n"
 "piste de sous-titres, <emphasis>pid-pmt=&lt;pid&gt;</emphasis> pour choisir\n"
 "le PID de la PMT (Program Map Table), <emphasis>tsid=&lt;id&gt;</emphasis>\n"
 "pour choisir l'ID du flux TS, <emphasis>shaping=&lt;delai de formation en ms\n"
-"&gt;</emphasis> pour choisir l'intervalle minimum durant lequel le Ã©bit du\n"
-"flux doit rester constant, pour les flux Ã  dÃ©bit variable, <emphasis>\n"
-"use-key-frames</emphasis> utiliser les images I comme limites de dÃ©lai de\n"
+"&gt;</emphasis> pour choisir l'intervalle minimum durant lequel le ébit du\n"
+"flux doit rester constant, pour les flux à débit variable, <emphasis>\n"
+"use-key-frames</emphasis> utiliser les images I comme limites de délai de\n"
 "formation, <emphasis>pcr=&lt;intervalle PCR en ms&gt;</emphasis> permet de\n"
-"choisir Ã  quel intervalle le PCR (Program Clock References) doit ÃªtreenvoyÃ©, <emphasis>dts-delay=&lt;delai en ms&gt;</emphasis> permet de\n"
+"choisir à quel intervalle le PCR (Program Clock References) doit êtreenvoyé, <emphasis>dts-delay=&lt;delai en ms&gt;</emphasis> permet de\n"
 "retarder le PTS (Presentation Time Stamps) du DTS (Decoding Time Stamp) du\n"
-"delai indiquÃ©, <emphasis>crypt-audio</emphasis> permet d'activer le\n"
+"delai indiqué, <emphasis>crypt-audio</emphasis> permet d'activer le\n"
 "chiffrement de la piste audio en utilisant l'algorithme CSA, <emphasis>\n"
-"csa-ck=&lt;clef sous forme d'un mot de 16 caractÃ¨res&gt;</emphasis> permet\n"
-"de choisir la clef Ã  utiliser pour le chiffrement CSA."
+"csa-ck=&lt;clef sous forme d'un mot de 16 caractères&gt;</emphasis> permet\n"
+"de choisir la clef à utiliser pour le chiffrement CSA."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:202
@@ -3826,8 +3822,8 @@ msgid ""
 "audio streams."
 msgstr ""
 "<emphasis>ps :</emphasis> le muxer MPEG2/PS. C'est le muxer standard pour\n"
-"fichiers MPEG 2 (.mpg). Il peut Ãªtre utilisÃ© pour les mÃ©thodes de sortie\n"
-"file et http. Les codecs supportÃ©s sont MPEG 1/2 et MJPEG pour la vidÃ©o,\n"
+"fichiers MPEG 2 (.mpg). Il peut être utilisé pour les méthodes de sortie\n"
+"file et http. Les codecs supportés sont MPEG 1/2 et MJPEG pour la vidéo,\n"
 "l'audio MPEG et a52 pour les flux audio."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
@@ -3840,7 +3836,7 @@ msgid ""
 "time."
 msgstr ""
 "La seule option disponible est <emphasis>dst-delay=&lt;delai en ms&gt;\n"
-"</emphasis>. Elle permet de contrÃ´ler le dÃ©lai entre le PTS (Presentation\n"
+"</emphasis>. Elle permet de contrôler le délai entre le PTS (Presentation\n"
 "Time Stamps) et le DTS (Decoding Time Stamp)."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
@@ -3851,15 +3847,15 @@ msgid ""
 "used instead of ps with MPEG 1 video streams, when saved to a file or\n"
 "streamed over HTTP. Supported codecs are MPEG 1 and MPEG audio."
 msgstr ""
-"<emphasis>mpeg1 :</emphasis> le muxer MPEG1. Ce muxer devrait Ãªtre utilisÃ©\n"
-"Ã  la place du ps pour les flux vidÃ©os MPEG 1, pour les mÃ©thodes de sortie\n"
-"file ou http. Les codecs supportÃ©s sont le MPEG 1 et l'audio MPEG."
+"<emphasis>mpeg1 :</emphasis> le muxer MPEG1. Ce muxer devrait être utilisé\n"
+"à la place du ps pour les flux vidéos MPEG 1, pour les méthodes de sortie\n"
+"file ou http. Les codecs supportés sont le MPEG 1 et l'audio MPEG."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:215
 #, no-wrap
 msgid "Items options are the same as for the PS muxer."
-msgstr "Les options sont les mÃªme que pour le muxer PS."
+msgstr "Les options sont les même que pour le muxer PS."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:217
@@ -3871,8 +3867,8 @@ msgid ""
 "flac, speex, a52 or MPEG audio."
 msgstr ""
 "<emphasis>ogg :</emphasis> le muxer ogg. C'est le muxer du projet Xiph. Il\n"
-"peut Ãªtre utilisÃ© avec les mÃ©thodes de sortie file et http. Les codecs\n"
-"supportÃ©s sont MEPG 1/2/4, MJPEG, WMV 1/2 et Theora pour la vidÃ©o et vorbix,\n"
+"peut être utilisé avec les méthodes de sortie file et http. Les codecs\n"
+"supportés sont MEPG 1/2/4, MJPEG, WMV 1/2 et Theora pour la vidéo et vorbix,\n"
 "flac, speex, a52 et l'audio MPEG pour l'audio."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
@@ -3892,10 +3888,10 @@ msgid ""
 "MPEG audio, a52 for audio streams."
 msgstr ""
 "<emphasis>asf :</emphasis> le muxer ASF de Microsoft. C'est le muxer\n"
-"standard utilisÃ© pour la diffusion par les logiciels Microsoft. Il est aussi\n"
-"utilisÃ© comme conteneur pour les fichiers WMA audio. Ce muxer peut Ãªtre\n"
-"utilisÃ© par les mÃ©thodes de sortie file et http. Les codecs supportÃ©s sont\n"
-"MPEG 4, MJPEG, WMV 1/2 pour la vidÃ©o, l'audio MPEG et a52 pour les flux audio."
+"standard utilisé pour la diffusion par les logiciels Microsoft. Il est aussi\n"
+"utilisé comme conteneur pour les fichiers WMA audio. Ce muxer peut être\n"
+"utilisé par les méthodes de sortie file et http. Les codecs supportés sont\n"
+"MPEG 4, MJPEG, WMV 1/2 pour la vidéo, l'audio MPEG et a52 pour les flux audio."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:229
@@ -3923,15 +3919,15 @@ msgid ""
 "should be used for MMSH streaming. MMSH is the only supported output\n"
 "method. Supported codecs are the same as for ASF."
 msgstr ""
-"<emphasis>asfh :</emphasis> c'est une version spÃ©cial du muxer ASF, qui peut\n"
-"Ãªtre utilisÃ©e pour la diffusion MMSH. MMSH est la seule mÃ©thode de sortie\n"
-"supportÃ©e. Les codecs supportÃ©s sont les mÃªme que pour ASF."
+"<emphasis>asfh :</emphasis> c'est une version spécial du muxer ASF, qui peut\n"
+"être utilisée pour la diffusion MMSH. MMSH est la seule méthode de sortie\n"
+"supportée. Les codecs supportés sont les même que pour ASF."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:239
 #, no-wrap
 msgid "Item options are the same as for ASF."
-msgstr "Les options sont les mÃªmes que pour ASF."
+msgstr "Les options sont les mêmes que pour ASF."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:241
@@ -3943,9 +3939,9 @@ msgid ""
 "MPEG audio and a52 for audio streams."
 msgstr ""
 "<emphasis>avi :</emphasis> le muxer AVI de Microsoft. C'est un format\n"
-"d'encapsulation trÃ¨s rÃ©pendu pour les fichiers MPEG 4. La seule mÃ©thode de\n"
-"sortie est file. Les codecs supportÃ©s sont MPEG 1/2/4, H263, H264 et I263\n"
-"pour la vidÃ©o, l'audio MPEG et a52 pour les flux audio."
+"d'encapsulation très répendu pour les fichiers MPEG 4. La seule méthode de\n"
+"sortie est file. Les codecs supportés sont MPEG 1/2/4, H263, H264 et I263\n"
+"pour la vidéo, l'audio MPEG et a52 pour les flux audio."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:245
@@ -3966,11 +3962,11 @@ msgid ""
 "in such streams."
 msgstr ""
 "<emphasis>mpjpeg :</emphasis> le muxer MJPEG.\n"
-"Ce format d'encapsulation est largement utilisÃ© dans les camÃ©ras de tÃ©lÃ©-\n"
-"surveillance avec un serveur web. Ces flux sont gÃ©nÃ©ralement incrustÃ©s dans\n"
-"des pages web et visualisÃ©e par les navigateurs Internet standrad, puisqu'\n"
-"ils ne sont autre qu'un succession d'images JPEG. La seule mÃ©thode de sortie\n"
-"supportÃ©e est http. Le seul codec est MJPEG. On ne peut pas y mettre de\n"
+"Ce format d'encapsulation est largement utilisé dans les caméras de télé-\n"
+"surveillance avec un serveur web. Ces flux sont généralement incrustés dans\n"
+"des pages web et visualisée par les navigateurs Internet standrad, puisqu'\n"
+"ils ne sont autre qu'un succession d'images JPEG. La seule méthode de sortie\n"
+"supportée est http. Le seul codec est MJPEG. On ne peut pas y mettre de\n"
 "piste audio."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
@@ -3995,8 +3991,8 @@ msgid ""
 "This option allows to give informations about the location\n"
 "where the stream should actually be saved or sent."
 msgstr ""
-"Cette option permet de donner les informations sur l'emplacement oÃ¹ le flux\n"
-"doit Ãªtre enregistrÃ© ou envoyÃ©."
+"Cette option permet de donner les informations sur l'emplacement où le flux\n"
+"doit être enregistré ou envoyé."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:264
@@ -4006,7 +4002,7 @@ msgid ""
 "depending on the parameter used for the <emphasis>access</emphasis>\n"
 "option."
 msgstr ""
-"Le sens de l'option <emphasis>url</emphasis> dÃ©pend du paramÃ¨tre utilisÃ© Ã \n"
+"Le sens de l'option <emphasis>url</emphasis> dépend du paramètre utilisé à\n"
 "l'option <emphasis>access</emphasis>."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
@@ -4016,8 +4012,8 @@ msgid ""
 "If the <emphasis>file</emphasis> output method is used, url is\n"
 "the complete path where the file should be saved."
 msgstr ""
-"Si la mÃ©thode de sortie est <emphasis>file</emphasis>, url est le chemin\n"
-"complet oÃ¹ le fichier doit Ãªtre enregistrÃ©."
+"Si la méthode de sortie est <emphasis>file</emphasis>, url est le chemin\n"
+"complet où le fichier doit être enregistré."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:272
@@ -4028,9 +4024,9 @@ msgid ""
 "destination address and, optionally, UDP port, in the form\n"
 "<emphasis>address:port</emphasis>."
 msgstr ""
-"Si la mÃ©thode de sortie est <emphasis>udp</emphasis> ou <emphasis>rtp\n"
+"Si la méthode de sortie est <emphasis>udp</emphasis> ou <emphasis>rtp\n"
 "</emphasis>, url est l'adresse unicast ou multicast de destination, et\n"
-"Ã©ventuellement le port UDP, dans la forme <emphasis>adresse:port</emphasis>."
+"éventuellement le port UDP, dans la forme <emphasis>adresse:port</emphasis>."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:277
@@ -4044,11 +4040,11 @@ msgid ""
 "have to be supplied using the <emphasis>address:port/path</emphasis>\n"
 "syntax."
 msgstr ""
-"Si la mÃ©thode de sortie est <emphasis>http</emphasis>, <emphasis>https\n"
+"Si la méthode de sortie est <emphasis>http</emphasis>, <emphasis>https\n"
 "</emphasis> ou <emphasis>mmsh</emphasis>, url est l'adresse, le port, et le\n"
-"chemin rÃ©seau local sur lequel le server doit attendre des requÃ¨tes. Si\n"
-"aucune adresse est donnÃ©e, VLC Ã©coutera sur toutes les interfaces rÃ©seau.\n"
-"Cette information doit Ãªtre de la forme <emphasis>adresse:port/chemin\n"
+"chemin réseau local sur lequel le server doit attendre des requètes. Si\n"
+"aucune adresse est donnée, VLC écoutera sur toutes les interfaces réseau.\n"
+"Cette information doit être de la forme <emphasis>adresse:port/chemin\n"
 "</emphasis>."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
@@ -4067,8 +4063,8 @@ msgid ""
 "server."
 msgstr ""
 "Utilisez cette option si vous souhaitez que VLC envoie des annonces SAP\n"
-"(Session Announcement Protocol). SAP est un protocole de dÃ©couverte de\n"
-"services, qui utilise une adresse multicast spÃ©cifique pour envoyer une\n"
+"(Session Announcement Protocol). SAP est un protocole de découverte de\n"
+"services, qui utilise une adresse multicast spécifique pour envoyer une\n"
 "liste des flux disponibles sur un serveur."
 
 # type: Content of: <chapter><sect1><sect2><sect3><note><para>
@@ -4078,7 +4074,7 @@ msgid ""
 "This option can only be enabled with the <emphasis>udp</emphasis>\n"
 "output method."
 msgstr ""
-"Cette option peut Ãªtre activÃ© dans la mÃ©thode de sortie <emphasis>udp\n"
+"Cette option peut être activé dans la méthode de sortie <emphasis>udp\n"
 "</emphasis>."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
@@ -4091,9 +4087,7 @@ msgstr "group="
 #: en/cmdline.xml:303
 #, no-wrap
 msgid "This option allows to specify the name of an optional <emphasis>group</emphasis> of streams. A VLC used as a client will use this field to classify the stream."
-msgstr ""
-"Cette option permet de renseigner le nom d'un Ã©ventuel <emphasis>\n"
-"groupe</emphasis> de flux. Un client sous VLC pourra utiliser de cham pour\n"
+msgstr "Cette option permet de renseigner le nom d'un éventuel <emphasis> groupe</emphasis> de flux. Un client sous VLC pourra utiliser de cham pour classer les flux."
 
 # type: Content of: <chapter><sect1><sect2><sect3><note><para>
 #: en/cmdline.xml:305
@@ -4102,7 +4096,7 @@ msgid ""
 "This option uses a private extension of the SAP protocol.\n"
 "VLC will be the only client able to read this field."
 msgstr ""
-"Cette option utilise une extension privÃ©e du protocole SAP.\n"
+"Cette option utilise une extension privée du protocole SAP.\n"
 "VLC sera le seul client capable de lire ce champ."
 
 # type: Content of: <chapter><sect1><sect2><sect3><note><para>
@@ -4113,8 +4107,8 @@ msgid ""
 "This option can only be used it the <emphasis>sap</emphasis>\n"
 "option has been enabled."
 msgstr ""
-"Cette option peut uniquement Ãªtre utilisÃ©e lorsque l'option <emphasis>sap\n"
-"</emphasis> est activÃ©e."
+"Cette option peut uniquement être utilisée lorsque l'option <emphasis>sap\n"
+"</emphasis> est activée."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:313
@@ -4129,7 +4123,7 @@ msgid ""
 "Use this option if you want the SAP announces to be sent using the\n"
 "<emphasis>IPv6</emphasis> protocol instead of <emphasis>IPv4</emphasis>."
 msgstr ""
-"Utilisez cette option si vous voulez que les annonces SAP soient envoyÃ©es\n"
+"Utilisez cette option si vous voulez que les annonces SAP soient envoyées\n"
 "en utilisant le protocole <emphasis>IPv6</emphasis> au lieu de <emphasis>\n"
 "IPv4</emphasis>."
 
@@ -4160,7 +4154,7 @@ msgstr "name="
 #, no-wrap
 msgid "Use this option to specify the name of the stream that will be sent in SAP and SLP announces."
 msgstr ""
-"Utilisez cette option pour prÃ©ciser le nom du flux Ã  envoyer dans les\n"
+"Utilisez cette option pour préciser le nom du flux à envoyer dans les\n"
 "annonces SAP et SLP."
 
 # type: Content of: <chapter><sect1><sect2><sect3><note><para>
@@ -4170,8 +4164,8 @@ msgid ""
 "This option can only be used it the <emphasis>sap</emphasis>\n"
 "or <emphasis>slp</emphasis> option has been enabled."
 msgstr ""
-"Cette option peut uniquement Ãªtre utilisÃ©e lorsque les options <emphasis>sap\n"
-"</emphasis> ou <emphasis>slp</emphasis> sont activÃ©es."
+"Cette option peut uniquement être utilisée lorsque les options <emphasis>sap\n"
+"</emphasis> ou <emphasis>slp</emphasis> sont activées."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/cmdline.xml:340
@@ -4187,9 +4181,9 @@ msgid ""
 "particularly useful in a <emphasis>duplicate</emphasis> chain, in order\n"
 "to monitor a stream while it is being saved or streamed."
 msgstr ""
-"Ce module est utilisÃ© pour afficher le flux. C'est particuliÃ¨rement utile\n"
+"Ce module est utilisé pour afficher le flux. C'est particulièrement utile\n"
 "dans une chaine <emphasis>duplicate</emphasis>, pour surveiller le flux\n"
-"en train d'Ãªtre enregistrÃ© ou diffusÃ©."
+"en train d'être enregistré ou diffusé."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/cmdline.xml:346
@@ -4208,8 +4202,8 @@ msgstr "novideo"
 #, no-wrap
 msgid "You can use this option to disable video in the displayed stream."
 msgstr ""
-"Vous pouvez utiliser cette option pour dÃ©sactiver la vidÃ©o dans le\n"
-"flux Ã  l'affichage."
+"Vous pouvez utiliser cette option pour désactiver la vidéo dans le\n"
+"flux à l'affichage."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:354
@@ -4222,8 +4216,8 @@ msgstr "noaudio"
 #, no-wrap
 msgid "You can use this option to disable audio in the displayed stream."
 msgstr ""
-"Vous pouvez utiliser cette option pour dÃ©sactiver le son dans le flux\n"
-"Ã  l'affichage."
+"Vous pouvez utiliser cette option pour désactiver le son dans le flux\n"
+"à l'affichage."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:360
@@ -4237,7 +4231,7 @@ msgstr "delay="
 msgid "You can use this option to introduce a delay in the display of the stream. Delay has to be given in ms."
 msgstr ""
 "Vous pouvez utiliser cette option pour introduire un delai dans\n"
-"l'affichage du flux. Le dÃ©lai est en ms."
+"l'affichage du flux. Le délai est en ms."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/cmdline.xml:368
@@ -4252,7 +4246,7 @@ msgid ""
 "This module can be used to send a stream using the <emphasis>RTP\n"
 "(Real Time Protocol)</emphasis> protocol (see RFC 3550)."
 msgstr ""
-"Ce module peut Ãªtre utilisÃ© pour envoyer un flux en utilisant le protocole\n"
+"Ce module peut être utilisé pour envoyer un flux en utilisant le protocole\n"
 "<emphasis>RTP</emphasis> (Real Time Protocol) (voir RFC 3550)."
 
 # type: Content of: <chapter><sect1><sect2><note><para>
@@ -4263,15 +4257,15 @@ msgid ""
 "this module, it won't allow you to make Video On demand. Please have a\n"
 "look at the description of the VLM module for that."
 msgstr ""
-"MÃªme s'il est possible d'utiliser le <emphasis>RTSP</emphasis> dans ce\n"
-"module, vous ne pourrez pas faire de la VidÃ©o Ã  la Demande. Veuillez vous\n"
-"reporter Ã  la description du module VLC pour cela."
+"Même s'il est possible d'utiliser le <emphasis>RTSP</emphasis> dans ce\n"
+"module, vous ne pourrez pas faire de la Vidéo à la Demande. Veuillez vous\n"
+"reporter à la description du module VLC pour cela."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/cmdline.xml:377
 #, no-wrap
 msgid "The different available options are:"
-msgstr "Les diffÃ©rentes options disponibes sont :"
+msgstr "Les différentes options disponibes sont :"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:379
@@ -4292,10 +4286,10 @@ msgid ""
 "<emphasis>RTSP</emphasis> request."
 msgstr ""
 "Cette option vous permet de donner l'adresse UDP de destination. Cela peut\n"
-"Ãªtre l'adresse d'un hote ou d'un group multicast. Cette option doit Ãªtre\n"
-"renseignÃ©e, Ã  moins que l'option <emphasis>sdp=rtsp://</emphasis> le soit\n"
-"(voir plus bas). Dans le dernier cas, le flux sera envoyÃ© Ã  l'hÃ´te faisant\n"
-"la requÃªte <emphasis>RTSP</emphasis>."
+"être l'adresse d'un hote ou d'un group multicast. Cette option doit être\n"
+"renseignée, à moins que l'option <emphasis>sdp=rtsp://</emphasis> le soit\n"
+"(voir plus bas). Dans le dernier cas, le flux sera envoyé à l'hôte faisant\n"
+"la requête <emphasis>RTSP</emphasis>."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:389
@@ -4308,8 +4302,8 @@ msgstr "port="
 #, no-wrap
 msgid "This option allows to set the UDP port used to send the first <emphasis>elementary stream</emphasis>. This port has to be even. Other streams will be streamed using even ports directly above this one."
 msgstr ""
-"Cette option permet de rÃ©gler le port UDP utilisÃ© pour envoyer le\n"
-"premier <emphasis>flux Ã©lÃ©mentaire</emphasis>. Ce port doit Ãªtre fourni. Les\n"
+"Cette option permet de régler le port UDP utilisé pour envoyer le\n"
+"premier <emphasis>flux élémentaire</emphasis>. Ce port doit être fourni. Les\n"
 "autres flux seront en utilisant les ports impairs juste au dessus."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
@@ -4326,8 +4320,8 @@ msgid ""
 "video <emphasis>elementary stream</emphasis>. This port has to be\n"
 "even."
 msgstr ""
-"Cette option vous permet de dÃ©finir le port UDP utilisÃ© pour envoyer le\n"
-"premier <emphasis>flux Ã©lÃ©mentaire</emphasis> vidÃ©o. Ce port doit Ãªtre\n"
+"Cette option vous permet de définir le port UDP utilisé pour envoyer le\n"
+"premier <emphasis>flux élémentaire</emphasis> vidéo. Ce port doit être\n"
 "impair."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
@@ -4344,8 +4338,8 @@ msgid ""
 "audio <emphasis>elementary stream</emphasis>. This port has to be\n"
 "even."
 msgstr ""
-"Cette option vous permet de dÃ©finir le port UDP utilisÃ© pour envoyer le\n"
-"premier <emphasis>flux Ã©lÃ©mentaire</emphasis> audio. Ce port doit Ãªtre\n"
+"Cette option vous permet de définir le port UDP utilisé pour envoyer le\n"
+"premier <emphasis>flux élémentaire</emphasis> audio. Ce port doit être\n"
 "impair."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
@@ -4359,8 +4353,8 @@ msgstr "sdp="
 #, no-wrap
 msgid "This option allows to set the way the SDP (Session Description Protocol) file corresponding the the stream should be made available."
 msgstr ""
-"Cette option vous permet de choisir la maniÃ¨re dont le fichier SDP\n"
-"(Session Description Protocol) correspondant au flux doit Ãªtre disponible."
+"Cette option vous permet de choisir la manière dont le fichier SDP\n"
+"(Session Description Protocol) correspondant au flux doit être disponible."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:415
@@ -4388,7 +4382,7 @@ msgid ""
 msgstr ""
 "<emphasus>http://&lt;interface locale\n"
 "IP:port/chemin&gt;</emphasis>, pour rendre le fichier disponible en\n"
-"utilisant le serveur HTTP intÃ©grÃ© au VLC."
+"utilisant le serveur HTTP intégré au VLC."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><note><para>
 #: en/cmdline.xml:426
@@ -4400,7 +4394,7 @@ msgid ""
 "interfaces."
 msgstr ""
 "L'argument <emphasis>interface locale IP</emphasis> est facultatif. S'il\n"
-"n'est pas fourni, VLC Ã©coutera sur toutes les interfaces disponibles."
+"n'est pas fourni, VLC écoutera sur toutes les interfaces disponibles."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:430
@@ -4437,8 +4431,8 @@ msgid ""
 "This option can be used to set the <emphasis>TTL</emphasis> (Time\n"
 "to Live) of the sent UDP packets."
 msgstr ""
-"Cette option peut Ãªtre utilisÃ©e pour fixer le <emphasis>TTL</emphasis> (Time\n"
-"to Live) des paquets UDP envoyÃ©s."
+"Cette option peut être utilisée pour fixer le <emphasis>TTL</emphasis> (Time\n"
+"to Live) des paquets UDP envoyés."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:454
@@ -4451,12 +4445,12 @@ msgid ""
 "(no encpasulation) are possible values for <emphasis>RTP</emphasis>\n"
 "streams. Default is RAW."
 msgstr ""
-"Cette option vous permet de dÃ©finir la mÃ©thode d'encapsulation pour envoyer\n"
+"Cette option vous permet de définir la méthode d'encapsulation pour envoyer\n"
 "le flux. Voir les options de <emphasis>mux=</emphasis> du module <emphasis>\n"
-"standard</emphasis> pour une description des mÃ©thodes disponibles. Seuls\n"
+"standard</emphasis> pour une description des méthodes disponibles. Seuls\n"
 "<emphasis>ts</emphasis> et <emphasis>raw</emphasis> (pas d'encapsulation)\n"
 "sont des valeurs possibles pour les flux <emphasis>RTP</emphasis>. La\n"
-"valeur par dÃ©faut est RAW."
+"valeur par défaut est RAW."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:465
@@ -4465,7 +4459,7 @@ msgid ""
 "This option can be used to set the name that will be displayed on\n"
 "the client receiving the stream."
 msgstr ""
-"Cette option peut Ãªtre utilisÃ©e pour donner un nom qui sera affichÃ© au\n"
+"Cette option peut être utilisée pour donner un nom qui sera affiché au\n"
 "client affichant le flux."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
@@ -4481,7 +4475,7 @@ msgid ""
 "This option can be used to give an additional description of the\n"
 "stream."
 msgstr ""
-"Cette option peut Ãªtre utilisÃ©e pour donner une description supplÃ©mentaire\n"
+"Cette option peut être utilisée pour donner une description supplémentaire\n"
 "du flux."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
@@ -4492,7 +4486,7 @@ msgid ""
 "additional informations about the stream."
 msgstr ""
 "Cette option permet de donner l'adresse d'un site web contenant des\n"
-"informations supplÃ©mentaires sur le flux."
+"informations supplémentaires sur le flux."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:484
@@ -4521,16 +4515,16 @@ msgid ""
 "and save each of them in a different file or send it to a separate\n"
 "destination."
 msgstr ""
-"Le module <emphasis>es</emphasis> peut Ãªtre utilisÃ© pour sÃ©parer les\n"
-"diffÃ©rents <emphasis>flux Ã©lÃ©mentaires</emphasis> du flux principal, et\n"
-"enregistrer chacun d'eux dans un fichier diffÃ©rent ou les envoyer vers\n"
+"Le module <emphasis>es</emphasis> peut être utilisé pour séparer les\n"
+"différents <emphasis>flux élémentaires</emphasis> du flux principal, et\n"
+"enregistrer chacun d'eux dans un fichier différent ou les envoyer vers\n"
 "d'autres destinations."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/cmdline.xml:499
 #, no-wrap
 msgid "The available parameters are:"
-msgstr "Les paramÃ¨tres disponibles sont :"
+msgstr "Les paramètres disponibles sont :"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:501
@@ -4547,10 +4541,10 @@ msgid ""
 "options are the same as for the <emphasis>access</emphasis> option of\n"
 "the <emphasis>standard</emphasis> module (see above)."
 msgstr ""
-"Utilisez cette option pour donner le mÃ©dia utilisÃ© pour enregistrer ou\n"
-"envoyer les <emphasis>flux Ã©lÃ©mentaires</emphasis> vidÃ©o. Les valeurs\n"
-"possibles sont les mÃªme que celles de l'option <emphasis>access</emphasis>\n"
-"du module <emphasis>standard</emphasis> (voir aprÃ¨s)."
+"Utilisez cette option pour donner le média utilisé pour enregistrer ou\n"
+"envoyer les <emphasis>flux élémentaires</emphasis> vidéo. Les valeurs\n"
+"possibles sont les même que celles de l'option <emphasis>access</emphasis>\n"
+"du module <emphasis>standard</emphasis> (voir après)."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:510
@@ -5346,7 +5340,7 @@ msgstr "<emphasis>program=</emphasis> : duplique seulement l'audio des <emphasis
 msgid ""
 "<emphasis>noaudio</emphasis>: do not duplicate audio\n"
 "<emphasis>elementary streams</emphasis>."
-msgstr "<emphasis>noaudio</emphasis> : ne pas dupliquer les <emphasis>flux Ã©lÃ©mentaires</emphasis> audio."
+msgstr "<emphasis>noaudio</emphasis> : ne pas dupliquer les <emphasis>flux élémentaires</emphasis> audio."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:970
@@ -5354,7 +5348,7 @@ msgstr "<emphasis>noaudio</emphasis> : ne pas dupliquer les <emphasis>flux Ã©l
 msgid ""
 "<emphasis>spu</emphasis>: duplicate only subtitle\n"
 "<emphasis>elementary streams</emphasis>."
-msgstr "<emphasis>spu</emphasis> : dupliquer uniquement les <emphasis>flux Ã©lÃ©mentaires</emphasis> de sous titres."
+msgstr "<emphasis>spu</emphasis> : dupliquer uniquement les <emphasis>flux élémentaires</emphasis> de sous titres."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:973
@@ -5362,7 +5356,7 @@ msgstr "<emphasis>spu</emphasis> : dupliquer uniquement les <emphasis>flux Ã©l
 msgid ""
 "<emphasis>nospu</emphasis>: do not duplicate subtitle\n"
 "<emphasis>elementary streams</emphasis>."
-msgstr "<emphasis>nospu</emphasis> : ne pas dupliquer les <emphasis>flux Ã©lÃ©mentaires</emphasis> de sous titres."
+msgstr "<emphasis>nospu</emphasis> : ne pas dupliquer les <emphasis>flux élémentaires</emphasis> de sous titres."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:978
@@ -5383,7 +5377,7 @@ msgid ""
 "This <emphasis>duplicate</emphasis> chain will only output the non\n"
 "video <emphasis>elementary streams</emphasis> belonging to the programs\n"
 "which PID are between 100 and 200."
-msgstr "Cette chaine de type <emphasis>duplicate</emphasis> ne renvera que les <emphasis>flux Ã©lÃ©metaires</emphasis> non vidÃ©o appartenant aux programmes dont le PID est compris entre 100 et 200."
+msgstr "Cette chaine de type <emphasis>duplicate</emphasis> ne renvera que les <emphasis>flux élémetaires</emphasis> non vidéo appartenant aux programmes dont le PID est compris entre 100 et 200."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/cmdline.xml:990
@@ -5395,7 +5389,7 @@ msgstr "Divers"
 #: en/cmdline.xml:994
 #, no-wrap
 msgid "Here are a few additional global options:"
-msgstr "Voici quelques options globales supplÃ©mentaires :"
+msgstr "Voici quelques options globales supplémentaires :"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:997
@@ -5410,7 +5404,7 @@ msgid ""
 "Enable streaming of all ES (default disabled). By default VLC will\n"
 "only stream one audio ES and one video ES (the first ones). If you\n"
 "enable sout-all, all ES (audio, video and SPU) will be streamed."
-msgstr "Activer la diffusion de tous les ES (dÃ©sactivÃ© par dÃ©faut). Par dÃ©faut, VLC ne diffusera qu'un ES audio et un ES vidÃ©o (les premiers). Si vous activez sout-all, tous les ES (audio, vidÃ©o et sous titres) seront diffusÃ©s."
+msgstr "Activer la diffusion de tous les ES (désactivé par défaut). Par défaut, VLC ne diffusera qu'un ES audio et un ES vidéo (les premiers). Si vous activez sout-all, tous les ES (audio, vidéo et sous titres) seront diffusés."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:1005
@@ -5424,7 +5418,7 @@ msgstr "--sout-keep, --no-sout-keep"
 msgid ""
 "Keep sout open (default disabled) : use the same sout instance\n"
 "across the various playlist items, if possible."
-msgstr "Garder le sout ouver (dÃ©sactivÃ© par dÃ©faut) : utilise la mÃªme instance du sout Ã  travers les divers Ã©lÃ©ments de playlist (si possible)."
+msgstr "Garder le sout ouver (désactivé par défaut) : utilise la même instance du sout à travers les divers éléments de playlist (si possible)."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:1012
@@ -5436,7 +5430,7 @@ msgstr "--no-sout-audio"
 #: en/cmdline.xml:1013
 #, no-wrap
 msgid "This options allows to disable audio in the outputted stream."
-msgstr "Cette option permet de dÃ©sactiver l'audio dans les flux Ã©mis."
+msgstr "Cette option permet de désactiver l'audio dans les flux émis."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:1018
@@ -5448,13 +5442,13 @@ msgstr "--no-sout-video"
 #: en/cmdline.xml:1019
 #, no-wrap
 msgid "This options allows to disable video in the outputted stream."
-msgstr "Cette option permet de dÃ©sactiver la vidÃ©o dans les flux Ã©mis."
+msgstr "Cette option permet de désactiver la vidéo dans les flux émis."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/cmdline.xml:1026
 #, no-wrap
 msgid "Simplified Syntax"
-msgstr "Syntaxe simplifiÃ©e"
+msgstr "Syntaxe simplifiée"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/cmdline.xml:1029
@@ -5463,7 +5457,7 @@ msgid ""
 "The stream output also offers a simplified syntax,\n"
 "with which you can only you use the <emphasis>standard</emphasis> module\n"
 "main options:"
-msgstr "Le module de flux de sortie permet aussi d'utiliser une syntaxe simplifiÃ©e qui ne peut utilisÃ©e que lorsque que l'on utilise les options principales du module <emphasis>standard</emphasis> :"
+msgstr "Le module de flux de sortie permet aussi d'utiliser une syntaxe simplifiée qui ne peut utilisée que lorsque que l'on utilise les options principales du module <emphasis>standard</emphasis> :"
 
 # type: Content of: <chapter><sect1><sect2><screen>
 #: en/cmdline.xml:1035
@@ -5478,7 +5472,7 @@ msgid ""
 "where <emphasis>access</emphasis>,\n"
 "<emphasis>mux</emphasis> and <emphasis>url</emphasis> are as defined in\n"
 "the options of the standard module."
-msgstr "oÃ¹ <emphasis>access</emphasis>, <emphasis>mux</emphasis> et <emphasis>url</emphasis> sont utilisÃ©s comme les options du module <emphasis>standard</emphasis>."
+msgstr "où <emphasis>access</emphasis>, <emphasis>mux</emphasis> et <emphasis>url</emphasis> sont utilisés comme les options du module <emphasis>standard</emphasis>."
 
 # type: Content of: <chapter><sect1><para>
 #: en/cmdline.xml:1053
@@ -5498,13 +5492,13 @@ msgstr "Diffusions, muxeurs et codecs"
 #: en/intro.xml:12
 #, no-wrap
 msgid "Overview"
-msgstr "ApperÃ§u"
+msgstr "Apperçu"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/intro.xml:13
 #, no-wrap
 msgid "VideoLAN is a complete software solution for video streaming, developed by students of the <ulink url=\"http://www.ecp.fr\">Ecole Centrale Paris</ulink> and developers from all over the world, under the <ulink url=\"http://www.gnu.org/copyleft/gpl.html\">GNU General Public License</ulink> (GPL). VideoLAN is designed to stream MPEG videos on high bandwidth networks."
-msgstr "VideoLAN est une solution complÃ¨te pour la lecture et la diffusion de vidÃ©o par rÃ©seau, dÃ©veloppÃ©e par des Ã©tudiants de l'<ulink url=\"http://www.ecp.fr\">Ecole Centrale Paris</ulink> et des dÃ©veloppeurs du monde entier, sous licence <ulink url=\"http://www.gnu.org/copyleft/gpl.html\">GNU General Public License</ulink> (GPL). VideoLAN est concu pour diffuser des vidÃ©os MPEG sur des rÃ©seaux haut dÃ©bit."
+msgstr "VideoLAN est une solution complète pour la lecture et la diffusion de vidéo par réseau, développée par des étudiants de l'<ulink url=\"http://www.ecp.fr\">Ecole Centrale Paris</ulink> et des développeurs du monde entier, sous licence <ulink url=\"http://www.gnu.org/copyleft/gpl.html\">GNU General Public License</ulink> (GPL). VideoLAN est concu pour diffuser des vidéos MPEG sur des réseaux haut débit."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/intro.xml:14
@@ -5516,13 +5510,13 @@ msgstr "La solution de diffusion VideoLAN comprend :"
 #: en/intro.xml:16
 #, no-wrap
 msgid "VLS (VideoLAN Server), which can stream MPEG-1, MPEG-2 and MPEG-4 files, DVDs, digital satellite channels, digital terrestial television channels and live videos on the network in unicast or multicast"
-msgstr "VLS (VideoLAN Server), qui peut diffuser des fichiers MPEG-1, MPEG-2 et MPEG-4, des DVDs, des chaines numÃ©riques satellite, des chaines de tÃ©lÃ©vision numÃ©rique terrestre et des flux vidÃ©os rÃ©seau en unicast ou multicast."
+msgstr "VLS (VideoLAN Server), qui peut diffuser des fichiers MPEG-1, MPEG-2 et MPEG-4, des DVDs, des chaines numériques satellite, des chaines de télévision numérique terrestre et des flux vidéos réseau en unicast ou multicast."
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/intro.xml:17
 #, no-wrap
 msgid "VLC (initially VideoLAN Client), which can be used as a server to stream MPEG-1, MPEG-2 and MPEG-4 files, DVDs and live videos on the network in unicast or multicast ; or used as a client to receive, decode and display MPEG streams under multiple operating systems"
-msgstr "VLC (Ã  l'origine dÃ©nomÃ© VideoLAN Client), qui peut Ãªtre utilisÃ© comme un serveur pour diffuser des fichiers MPEG-1, MPEG-Ã© et MPEG-4, des DVDs et des flux vidÃ©o rÃ©seau en unicast ou multicast ; ou comme un client pour recevoir, dÃ©coder et afficher des flux MPEG sous de nombreux systÃ¨mes d'exploitation."
+msgstr "VLC (à l'origine dénomé VideoLAN Client), qui peut être utilisé comme un serveur pour diffuser des fichiers MPEG-1, MPEG-é et MPEG-4, des DVDs et des flux vidéo réseau en unicast ou multicast ; ou comme un client pour recevoir, décoder et afficher des flux MPEG sous de nombreux systèmes d'exploitation."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/intro.xml:19
@@ -5541,7 +5535,7 @@ msgstr "Solution de diffusion VideoLAN"
 #: en/intro.xml:27
 #, no-wrap
 msgid "More details about the project can be found on the <ulink url=\"http://www.videolan.org\">VideoLAN Web site</ulink>."
-msgstr "Pour plus de dÃ©tails sur le projet, veuillez consulter le <ulink url=\"http://www.videolan.org\">site web de VideoLAN</ulink>."
+msgstr "Pour plus de détails sur le projet, veuillez consulter le <ulink url=\"http://www.videolan.org\">site web de VideoLAN</ulink>."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/intro.xml:30
@@ -5559,7 +5553,7 @@ msgstr "VLC media player"
 #: en/intro.xml:32
 #, no-wrap
 msgid "VLC works on many platforms: Linux, Windows, Mac OS X, BeOS, *BSD, Solaris, Familiar Linux, Yopy/Linupy and QNX. It can read:"
-msgstr "VLC tourne sur de nombreux systÃ¨mes d'exploitation : Linux, Windows, Mac OS X, BeOS, *BSD, Solaris, Familiar Linux, Yopy/Linupy et QNX. Il peut lire :"
+msgstr "VLC tourne sur de nombreux systèmes d'exploitation : Linux, Windows, Mac OS X, BeOS, *BSD, Solaris, Familiar Linux, Yopy/Linupy et QNX. Il peut lire :"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/intro.xml:34
@@ -5583,13 +5577,13 @@ msgstr "depuis des cartes d'acquisition satellite (DVB-S)"
 #: en/intro.xml:37
 #, no-wrap
 msgid "MPEG-1, MPEG-2 and MPEG-4 streams from the network sent by VLS or VLC's stream output"
-msgstr "des flux MPEG-1, MPEG-2 et MPEG-4 reÃ§u par le rÃ©seau et diffusÃ©s par des VLC ou le stream output de VLC"
+msgstr "des flux MPEG-1, MPEG-2 et MPEG-4 reçu par le réseau et diffusés par des VLC ou le stream output de VLC"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/intro.xml:39
 #, no-wrap
 msgid "VLC can also be used as a server to stream:"
-msgstr "VLC peut aussi Ãªtre utilisÃ© en temps que serveur pour diffuser :"
+msgstr "VLC peut aussi être utilisé en temps que serveur pour diffuser :"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/intro.xml:41
@@ -5619,13 +5613,13 @@ msgstr "vers :"
 #: en/intro.xml:47
 #, no-wrap
 msgid "one machine (i.e. to one IP address): this is called <emphasis>unicast</emphasis>,"
-msgstr "une machine (c'est a dire une addresse IP) : ceci est appelÃ© <emphasis>unicast</emphasis>"
+msgstr "une machine (c'est a dire une addresse IP) : ceci est appelé <emphasis>unicast</emphasis>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/intro.xml:48
 #, no-wrap
 msgid "a dynamic group of machines that the clients can join or leave (i.e. to a multicast IP address): this is called <emphasis>multicast</emphasis>,"
-msgstr "un groupe dynamique de machines que les clients peuvent joindre ou quitter (par exemple une adresse IP multicast) : ceci est appelÃ© <emphasis>multicast</emphasis>"
+msgstr "un groupe dynamique de machines que les clients peuvent joindre ou quitter (par exemple une adresse IP multicast) : ceci est appelé <emphasis>multicast</emphasis>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/intro.xml:50
@@ -5637,7 +5631,7 @@ msgstr "en IPv4 ou IPv6"
 #: en/intro.xml:51
 #, no-wrap
 msgid "To get the complete list of VLC's possibilities on each plateform supported, see the <ulink url=\"http://www.videolan.org/vlc/features.html\">VLC features page</ulink>."
-msgstr "Pour obtenir une liste complÃ¨te des fonctionalitÃ©s de VLC sur les diffÃ©rentes plateformes supportÃ©es, allez voir la <ulink url=\"http://www.videolan.org/vlc/features.html\">VLC features page</ulink>."
+msgstr "Pour obtenir une liste complète des fonctionalités de VLC sur les différentes plateformes supportées, allez voir la <ulink url=\"http://www.videolan.org/vlc/features.html\">VLC features page</ulink>."
 
 # type: Content of: <chapter><sect1><sect2><sect3><note><para>
 #: en/intro.xml:52
@@ -5655,13 +5649,13 @@ msgstr "Mini-SAP-server"
 #: en/intro.xml:55
 #, no-wrap
 msgid "You can add a channel information service based on the SAP/SDP standard to the VideoLAN solution. The mini-SAP-server sends announces about the multicast programs on the network in IPv4 or IPv6, and VLCs receive these annouces and automatically add the programs announced to their playlist."
-msgstr "Vous pouvez rajouter une chaine de description de service basée sur le standard SAP/SDP à la solution VideoLAN. Le mini-SAP-server envoie des annonces au sujet des programmes multicast sur le réseau en IPv4 ou IPv6, et les VLCs reçoivent ces annonces et ajoutent automatiquement les annonces dans la playlist."
+msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/intro.xml:56
 #, no-wrap
 msgid "The mini-SAP-server works under Linux and Mac OS X."
-msgstr "Le mini-SAP-server fonctionne sous Linux et Mac OS X."
+msgstr ""
 
 # type: Content of: <chapter><sect1><title>
 #: en/intro.xml:61
@@ -5679,13 +5673,13 @@ msgstr "Qu'est-ce qu'un codec ?"
 #: en/intro.xml:63
 #, no-wrap
 msgid "To fully understand the VideoLAN solution, you must understand the difference between a <emphasis>codec</emphasis> and a <emphasis>container format</emphasis>"
-msgstr "Pour bien comprendre la solution VideoLAN, vous devez comprendre la diffÃ©rence entre un <emphasis>codec</emphasis> et un <emphasis>conteneur</emphasis>"
+msgstr "Pour bien comprendre la solution VideoLAN, vous devez comprendre la différence entre un <emphasis>codec</emphasis> et un <emphasis>conteneur</emphasis>"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/intro.xml:64
 #, no-wrap
 msgid "A <emphasis>codec</emphasis> is a compression algorithm, used to reduce the size of a stream. There are audio codecs and video codecs. MPEG-1, MPEG-2, MPEG-4, Vorbis, DivX, ... are codecs"
-msgstr "Un <emphasis>codec</emphasis> est un algorithme de compression utilisÃ© pour rÃ©duire la taille d'un flux. Il y a des codecs audio et des codecs video. MPEG-1, MPEG-2, MPEG-4, Vorbis, DivX, etc. sont des codecs."
+msgstr "Un <emphasis>codec</emphasis> est un algorithme de compression utilisé pour réduire la taille d'un flux. Il y a des codecs audio et des codecs video. MPEG-1, MPEG-2, MPEG-4, Vorbis, DivX, etc. sont des codecs."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/intro.xml:66
@@ -5697,91 +5691,91 @@ msgstr "Qu'est-ce qu'un conteneur ? (ou muxeur)"
 #: en/intro.xml:67
 #, no-wrap
 msgid "To start off, think of a <emphasis>container format</emphasis> as a standard shipping box. You get a box in the mail and you think, \"Cool! What's inside.\" You don't really care about the box itself, you care about what's in that box. The problem? You can't see into the box. So what do you do? You get a knife and cut it open."
-msgstr "Pour commencer, considÃ©rez un <emphasis>conteneur</emphasis> comme l'emballage d'un colis. Vous recevez un colis par la poste et vous pensez \"Chouette ! qu'est-ce qu'il y a Ã  l'interieur ?\" Vous ne vous souciez pas vraiment de la boite elle mÃªme, vous vous interessez plutot Ã  son contenu. Le problÃ¨me ? Vous ne pouvez pas voir Ã  l'interieur de la boite. Que faites vous donc ? Vous prenez une paire de ciseaux et vous l'ouvrez."
+msgstr "Pour commencer, considérez un <emphasis>conteneur</emphasis> comme l'emballage d'un colis. Vous recevez un colis par la poste et vous pensez \"Chouette ! qu'est-ce qu'il y a à l'interieur ?\" Vous ne vous souciez pas vraiment de la boite elle même, vous vous interessez plutot à son contenu. Le problème ? Vous ne pouvez pas voir à l'interieur de la boite. Que faites vous donc ? Vous prenez une paire de ciseaux et vous l'ouvrez."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/intro.xml:68
 #, no-wrap
 msgid "A <emphasis>container format</emphasis> follows this same basic idea. It contains one or several streams already encoded by codecs. Very often, there is an audio stream and a video one. AVI, Ogg, MOV, ASF, MP4 ... are container formats. The streams contained can be encoded using different codecs. In a perfect world, you could put any codec in any container format. Unfortunately, there are some incompatibilities. You can find a matrix of possible codecs and container formats on the <ulink url=\"http://www.videolan.org/streaming/features.html\">features page</ulink>"
-msgstr "Un <emphasis>conteneur</emphasis> se base sur cette idÃ©e. Il contient une ou plusieurs flux dÃ©jÃ  encodÃ©s Ã  l'aide de codecs. GÃ©nÃ©ralement, il y a un flux vidÃ©o et un flux audio. AVI, Ogg, MOV, ASF, MP4 etc sont des conteneurs. Les flux contenus peuvent Ãªtre encodÃ©s Ã  l'aide de codecs diffÃ©rents. Dans un monde parfait, vous pourriez mettre n'importe quel codec dans n'importe quel conteneur. Malheureusement il y a quelques incompatibilitÃ©s. Vous pouvez trouver une matrice des diffÃ©rents codecs et conteneurs possible sur la <ulink url=\"http://www.videolan.org/streaming/features.html\">features page</ulink>."
+msgstr "Un <emphasis>conteneur</emphasis> se base sur cette idée. Il contient une ou plusieurs flux déjà encodés à l'aide de codecs. Généralement, il y a un flux vidéo et un flux audio. AVI, Ogg, MOV, ASF, MP4 etc sont des conteneurs. Les flux contenus peuvent être encodés à l'aide de codecs différents. Dans un monde parfait, vous pourriez mettre n'importe quel codec dans n'importe quel conteneur. Malheureusement il y a quelques incompatibilités. Vous pouvez trouver une matrice des différents codecs et conteneurs possible sur la <ulink url=\"http://www.videolan.org/streaming/features.html\">features page</ulink>."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/intro.xml:70
 #, no-wrap
 msgid "Encoding a video"
-msgstr "Encoder une vidÃ©o"
+msgstr "Encoder une vidéo"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/intro.xml:71
 #, no-wrap
 msgid "This is the first step where you are going to create the shipping box."
-msgstr "C'est la premiÃ¨re Ã©tape lorsque vous crÃ©ez votre colis."
+msgstr "C'est la première étape lorsque vous créez votre colis."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/intro.xml:72
 #, no-wrap
 msgid "First you need to encode your file. That means that a file, wheter it is an audio, video file, is compressed to another format that normally takes up less physical drive space than the previous format. Common video encoding methods are DivX, MPEG-1, MPEG-2, MPEG-4 ... most common audio encoding method is MP3 or ogg-vorbis."
-msgstr "Vous devez tout d'abbord encoder votre fichier. Ceci veut dire qu'un fichier, que ce soit de l'audio ou de la vidÃ©o, est compressÃ© sous un autre format qui prend moins de place que le format prÃ©cÃ©dent. Mes codecs gÃ©nÃ©ralement utilisÃ©s pour la vidÃ©o sont DivX, MPEG-1, MPEG-2 et MPEG-4. Pour l'audio, il s'aggit de MP3 ou Vorbis."
+msgstr "Vous devez tout d'abbord encoder votre fichier. Ceci veut dire qu'un fichier, que ce soit de l'audio ou de la vidéo, est compressé sous un autre format qui prend moins de place que le format précédent. Mes codecs généralement utilisés pour la vidéo sont DivX, MPEG-1, MPEG-2 et MPEG-4. Pour l'audio, il s'aggit de MP3 ou Vorbis."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/intro.xml:73
 #, no-wrap
 msgid "Then you have to mux (or multiplex). This means basically a process where separate parts of the video (or streams) are joined together into one file."
-msgstr "Vous devez ensuite mutilplexer. En gros, il s'aggit de prendre les flux sÃ©parÃ©s et de les grouper dans un seul fichier."
+msgstr "Vous devez ensuite mutilplexer. En gros, il s'aggit de prendre les flux séparés et de les grouper dans un seul fichier."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/intro.xml:75
 #, no-wrap
 msgid "Playing a video"
-msgstr "Lire une vidÃ©o"
+msgstr "Lire une vidéo"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/intro.xml:76
 #, no-wrap
 msgid "Now that you have your box, you need to open it before to see the content. That's exactly what VLC will do. To decode a stream, VLC first <emphasis>demuxes</emphasis> it. This means that it reads the container format and separates audio, video, and subtitles, if any. Demuxing files doesn't weaken the video nor audio quality, it doesn't do anything for these data streams, it justs simply saves them into separate files, each containing one element of the original file. Then, each of these are passed <emphasis>decoders</emphasis> that do the mathematical processing to decompress the streams."
-msgstr "Maintenant que vous avez un colis, vous allez devoir l'ouvrir avant de pouvoir accÃ©der Ã  son contenu. C'est exactement ce que VLC va faire. Pour dÃ©coder un flux, VLC va tout d'abbord le <emphasis>dÃ©muxer</emphasis>. Il lit donc le conteneur et sÃ©pare l'audio, la vidÃ©o et les sous-titres, s'ils existent. DÃ©muxer des fichiers ne baisse pas la qualitÃ© de la vidÃ©o ou de l'audio. Ca ne change pas du tout ces flux de donnÃ©es. Ca ne fait que les sauvegarder dans des fichiersdiffÃ©rents, chacun contenant un Ã©lÃ©ment du fichier original. Ensuite, chacun de ces flux sont passÃ©s Ã  des <emphasis>dÃ©codeurs</emphasis> qui font les calculs mathÃ©matiques permettant de dÃ©compresser le flux."
+msgstr "Maintenant que vous avez un colis, vous allez devoir l'ouvrir avant de pouvoir accéder à son contenu. C'est exactement ce que VLC va faire. Pour décoder un flux, VLC va tout d'abbord le <emphasis>démuxer</emphasis>. Il lit donc le conteneur et sépare l'audio, la vidéo et les sous-titres, s'ils existent. Démuxer des fichiers ne baisse pas la qualité de la vidéo ou de l'audio. Ca ne change pas du tout ces flux de données. Ca ne fait que les sauvegarder dans des fichiersdifférents, chacun contenant un élément du fichier original. Ensuite, chacun de ces flux sont passés à des <emphasis>décodeurs</emphasis> qui font les calculs mathématiques permettant de décompresser le flux."
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/intro.xml:77
 #, no-wrap
 msgid "There is a particular thing about MPEG:"
-msgstr "Il y a une particulatritÃ© concernant MPEG :"
+msgstr "Il y a une particulatrité concernant MPEG :"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/intro.xml:79
 #, no-wrap
 msgid "MPEG is a codec. There are several versions of it, called MPEG-1, MPEG-2, MPEG-4, ..."
-msgstr "MPEG est un codec. Il y a plusieurs versions de ce codec appelÃ©es MPEG-1, MPEG-2, MPEG-4 ..."
+msgstr "MPEG est un codec. Il y a plusieurs versions de ce codec appelées MPEG-1, MPEG-2, MPEG-4 ..."
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/intro.xml:80
 #, no-wrap
 msgid "MPEG is also a container format, sometimes refered to as MPEG System. There are several types of MPEG: ES, PS, and TS."
-msgstr "MPEG est aussi un conteneur, parfois appelÃ© MPEG System. Il y a plusieurs types de conteneurs MPEG : ES, PS et TS."
+msgstr "MPEG est aussi un conteneur, parfois appelé MPEG System. Il y a plusieurs types de conteneurs MPEG : ES, PS et TS."
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/intro.xml:81
 #, no-wrap
 msgid "When you play an MPEG video from a DVD, for instance, the MPEG stream is actually composed of several streams (called Elementary Streams, ES): there is one stream for video, one for audio, another for subtitles, and so on. These different streams are mixed together into a single Program Stream (PS). So, the .VOB files you can find in a DVD are actually MPEG-PS files. But this PS format is not adapted for streaming video through a network or by satellite, for instance. So, another format called Transport Stream (TS) was designed for streaming MPEG videos through such channels."
-msgstr "Par exemple, quand vous lisez une vidÃ©o MPEG sur un DVD, les flux MPEG sont en fait composÃ©s de plusieurs flux (appelÃ©s flux Ã©lÃ©mentaires, ES) : il y a un flux pour la vidÃ©o, un pour l'audio, un autre pour les soustitres et ainsi de suite. Ces diffÃ©rents flux sont mÃ©langÃ©s dans un seul Program Stream (PS). Ainsi, les fichiers .VOB que vous pouvez trouver sur un DVD sont en fait des fichiers MPEG-PS. Cependant, ce format PS n'est pas adaptÃ© Ã  la diffusion de vidÃ©o sur un rÃ©seau ou par satellite. Un autre format, appelÃ© Transport Stream (TS) a donc Ã©tÃ© conÃ§u pour diffuser du MPEG sur de tels dispositifs."
+msgstr "Par exemple, quand vous lisez une vidéo MPEG sur un DVD, les flux MPEG sont en fait composés de plusieurs flux (appelés flux élémentaires, ES) : il y a un flux pour la vidéo, un pour l'audio, un autre pour les soustitres et ainsi de suite. Ces différents flux sont mélangés dans un seul Program Stream (PS). Ainsi, les fichiers .VOB que vous pouvez trouver sur un DVD sont en fait des fichiers MPEG-PS. Cependant, ce format PS n'est pas adapté à la diffusion de vidéo sur un réseau ou par satellite. Un autre format, appelé Transport Stream (TS) a donc été conçu pour diffuser du MPEG sur de tels dispositifs."
 
 # type: Content of: <chapter><title>
 #: en/encoding-cards.xml:3
 #, no-wrap
 msgid "Stream from encoding cards and other capture peripherals"
-msgstr "Diffuser depuis une carte d'encodage ou d'autres pÃ©riphÃ©riques d'acquisition"
+msgstr "Diffuser depuis une carte d'encodage ou d'autres périphériques d'acquisition"
 
 # type: Content of: <chapter><sect1><title>
 #: en/encoding-cards.xml:8
 #, no-wrap
 msgid "Hardware encoding cards"
-msgstr "Cartes d'encodage matÃ©riel"
+msgstr "Cartes d'encodage matériel"
 
 # type: Content of: <chapter><sect1><para>
 #: en/encoding-cards.xml:13
 #, no-wrap
 msgid "VideoLAN supports two kinds of MPEG-2 encoding cards:"
-msgstr "VideoLAN supporte deux type d'encodeur MPEG-2 matÃ©riel :"
+msgstr "VideoLAN supporte deux type d'encodeur MPEG-2 matériel :"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/encoding-cards.xml:20
@@ -5801,13 +5795,13 @@ msgstr "Visiontech Kfir."
 msgid ""
 "The Hauppauge WinTV-PVR-250/350 gives much better\n"
 "results and is cheaper than the Visiontech Kfir."
-msgstr "Les Hauppauge WinTV-PVR-250/350 fournissent des rÃ©sultats bien meilleurs que les Visiontech Kfir (en plus d'Ãªtre moins chÃ¨res)."
+msgstr "Les Hauppauge WinTV-PVR-250/350 fournissent des résultats bien meilleurs que les Visiontech Kfir (en plus d'être moins chères)."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/encoding-cards.xml:34
 #, no-wrap
 msgid "Stream with the Hauppauge WinTV-PVR-250/350 card"
-msgstr "Diffuser Ã  l'aide d'une carte Hauppauge WinTV-PVR-250/350"
+msgstr "Diffuser à l'aide d'une carte Hauppauge WinTV-PVR-250/350"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/encoding-cards.xml:38
@@ -5824,7 +5818,7 @@ msgid ""
 "the v4l2 API (Video 4 Linux version 2). The patch is available on the\n"
 "<ulink url=\"http://bytesex.org/v4l/\">Video4Linux HQ</ulink>.\n"
 "If you use a 2.6 kernel, you only need to build I2C support and the BT848 Video For Linux module."
-msgstr "Vous allez tout d'abord devoir patcher votre noyau (version 2.4) pour supporter l'API v4l2 (Video 4 Linux version 2). Le patch est disponible sur le site de <ulink url=\"http://bytesex.org/v4l/\">Video4Linux HQ</ulink>. Si vous utilisez un noyau 2.6, vous n'aurez qu'Ã  inclure le support I2C et le module Video For Linux BT848."
+msgstr "Vous allez tout d'abord devoir patcher votre noyau (version 2.4) pour supporter l'API v4l2 (Video 4 Linux version 2). Le patch est disponible sur le site de <ulink url=\"http://bytesex.org/v4l/\">Video4Linux HQ</ulink>. Si vous utilisez un noyau 2.6, vous n'aurez qu'à inclure le support I2C et le module Video For Linux BT848."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/encoding-cards.xml:49
@@ -5836,14 +5830,14 @@ msgid ""
 "please refer to the documentation shipped with the drivers."
 msgstr ""
 "Une fois que votre noyau est pret, installez la version CK\n"
-"(actuellement en dÃ©veloppement) des drivers Linux pour les\n"
-"Hauppauge WinTV-PVR-250/350. Ils sont hÃ©bergÃ©s sur <ulink\n"
+"(actuellement en développement) des drivers Linux pour les\n"
+"Hauppauge WinTV-PVR-250/350. Ils sont hébergés sur <ulink\n"
 "url=\"http://67.18.1.101/~ckennedy/ivtv\">ivtv ck</ulink>. Vous\n"
 "aurrez besoin de patcher votre noyau pour l'utiliser avec un 2.4.\n"
 "Vous pouvez aussi utiliser la version CVS disponible ici : <ulink\n"
 "url=\"http://ivtv.sourceforge.net/\">ivtv.sourceforge.net</ulink> (cette\n"
-"version n'est plus dÃ©veloppÃ©e). Vous devez cÃ©er le pÃ©ripÃ©rique et\n"
-"charger les modules. Ceci est dÃ©tailÃ© dans la documentation fournie\n"
+"version n'est plus développée). Vous devez céer le péripérique et\n"
+"charger les modules. Ceci est détailé dans la documentation fournie\n"
 "avec les drivers."
 
 # type: Content of: <chapter><sect1><sect2><sect3><note><para>
@@ -5853,7 +5847,7 @@ msgid ""
 "You must add <command>--enable-pvr</command>\n"
 "to <command>./configure</command> to use this\n"
 "feature."
-msgstr "Vous devez ajouter <command>--enable-pvr</command> Ã  votre <command>./configure</command> pour utiliser cette fonctionnalitÃ©."
+msgstr "Vous devez ajouter <command>--enable-pvr</command> à votre <command>./configure</command> pour utiliser cette fonctionnalité."
 
 # type: Content of: <chapter><sect1><sect2><sect3><screen>
 #: en/encoding-cards.xml:68
@@ -5873,7 +5867,7 @@ msgid ""
 "\n"
 " \n"
 ":"
-msgstr "oÃ¹ : "
+msgstr "où : "
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/encoding-cards.xml:81
@@ -5882,7 +5876,7 @@ msgid ""
 "<emphasis>/dev/video0</emphasis> \n"
 "is the device corresponding to the encoding card\n"
 ","
-msgstr "<emphasis>/dev/video0</emphasis> est le pÃ©riphÃ©rique correspondant a la carte d'encodage,"
+msgstr "<emphasis>/dev/video0</emphasis> est le périphérique correspondant a la carte d'encodage,"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/encoding-cards.xml:85
@@ -5893,7 +5887,7 @@ msgid ""
 " is name of the standard of the analogic signal\n"
 "(possible values are pal, secam, and ntsc)\n"
 ","
-msgstr "<emphasis>norm=secam</emphais> est le nom du standard utilisÃ© par le signal analogique (les valeurs possibles sont pal, secam et ntsc),"
+msgstr "<emphasis>norm=secam</emphais> est le nom du standard utilisé par le signal analogique (les valeurs possibles sont pal, secam et ntsc),"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/encoding-cards.xml:90
@@ -5902,7 +5896,7 @@ msgid ""
 "<emphasis>size=720x576</emphasis>\n"
 "is the size of the video you want to stream\n"
 ","
-msgstr "<emphasis>size=720x576</emphasis> est la taille de la vidÃ©o que vous voulez diffuser,"
+msgstr "<emphasis>size=720x576</emphasis> est la taille de la vidéo que vous voulez diffuser,"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/encoding-cards.xml:94
@@ -5912,7 +5906,7 @@ msgid ""
 " is the frequency in kHz of the channel you want to\n"
 "stream\n"
 ","
-msgstr "<emphasis>frequency=567250</emphasis> est la frÃ©quence en kHz de la chaine que vous voulez diffuser,"
+msgstr "<emphasis>frequency=567250</emphasis> est la fréquence en kHz de la chaine que vous voulez diffuser,"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/encoding-cards.xml:99
@@ -5921,7 +5915,7 @@ msgid ""
 "<emphasis>bitrate=3000000</emphasis> \n"
 "is the average bitrate of the stream\n"
 ","
-msgstr "<emphasis>bitrate=3000000</emphasis> est le dÃ©bit moyen du flux,"
+msgstr "<emphasis>bitrate=3000000</emphasis> est le débit moyen du flux,"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/encoding-cards.xml:103
@@ -5930,13 +5924,13 @@ msgid ""
 "<emphasis>maxbitrate=4000000</emphasis>\n"
 "is the maximum bitrate of the stream\n"
 ","
-msgstr "<emphasis>maxbitrate=4000000</emphasis> est le dÃ©bit maximum du flux,"
+msgstr "<emphasis>maxbitrate=4000000</emphasis> est le débit maximum du flux,"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/encoding-cards.xml:107
 #, no-wrap
 msgid "<emphasis>1000</emphasis> is a secret value to work around a bug of the card."
-msgstr "<emphasis>1000</emphasis> est une valeur secrÃ¨te pour contourner un bug de la carte."
+msgstr "<emphasis>1000</emphasis> est une valeur secrète pour contourner un bug de la carte."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/encoding-cards.xml:110
@@ -5983,7 +5977,7 @@ msgid ""
 "page</ulink> of the <ulink url=\"http://www.linuxtv.org/\">LinuxTV web\n"
 "site</ulink>."
 msgstr ""
-"Si vous voulez Ãªtre capable de diffuser depuis une carte Visiontech Kfir, vous devez installer ses pilotes Linux. TÃ©lÃ©chargez la derniÃ¨re version de ces pilotes sur la page <ulink url=\"http://www.linuxtv.org/download/mpeg2/\">drivers download\n"
+"Si vous voulez être capable de diffuser depuis une carte Visiontech Kfir, vous devez installer ses pilotes Linux. Téléchargez la dernière version de ces pilotes sur la page <ulink url=\"http://www.linuxtv.org/download/mpeg2/\">drivers download\n"
 "page</ulink> du <ulink url=\"http://www.linuxtv.org/\">site web LinuxTV\n"
 "</ulink>."
 
@@ -5993,7 +5987,7 @@ msgstr ""
 msgid ""
 "If you have a VIA chipset, you need to disable USB\n"
 "in the BIOS."
-msgstr "Si vous avez un chipset VIA, vous devez dÃ©sactiver l'USB dans votre BIOS."
+msgstr "Si vous avez un chipset VIA, vous devez désactiver l'USB dans votre BIOS."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/encoding-cards.xml:174
@@ -6013,7 +6007,7 @@ msgstr "<prompt>% </prompt><userinput>vlc -vvv --color kfir:/dev/video --sout ud
 msgid ""
 "where\n"
 " :"
-msgstr "oÃ¹ : "
+msgstr "où : "
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para><filename>
 #: en/encoding-cards.xml:186
@@ -6028,7 +6022,7 @@ msgstr "/dev/video"
 msgid ""
 "is the device corresponding to the Kfir card\n"
 ","
-msgstr "est le nom du pÃ©ripÃ©rique correspondanta la carte Kfir"
+msgstr "est le nom du péripérique correspondanta la carte Kfir"
 
 # type: Content of: <chapter><sect1><title>
 #: en/encoding-cards.xml:227
@@ -6046,7 +6040,7 @@ msgstr "Sous GNU/Linux"
 #: en/encoding-cards.xml:232
 #, no-wrap
 msgid "Install the Video for Linux drivers"
-msgstr "Installer les drivers VidÃ©o pour Linux"
+msgstr "Installer les drivers Vidéo pour Linux"
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/encoding-cards.xml:236
@@ -6055,7 +6049,7 @@ msgid ""
 "If you want to stream from an acquisition card\n"
 "or a webcam, a video4linux driver must be available for it. You can\n"
 "find more information about video4linux and supported devices <ulink url=\"http://www.exploits.org/v4l\">here</ulink>."
-msgstr "Si vous voulez diffuser depuis une carte d'acquisition ou une webcam, un driver video4linux est nÃ©cessaire. Vous pouvez trouver plus d'explication sur video4linux et les pÃ©riphÃ©riques supportÃ©s <ulink url=\"http://www.exploits.org/v4l\"ici</ulink>."
+msgstr "Si vous voulez diffuser depuis une carte d'acquisition ou une webcam, un driver video4linux est nécessaire. Vous pouvez trouver plus d'explication sur video4linux et les périphériques supportés <ulink url=\"http://www.exploits.org/v4l\"ici</ulink>."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/encoding-cards.xml:242
@@ -6065,7 +6059,7 @@ msgid ""
 "it into your kernel. Some video4linux modules are shipped with the 2.4.x \n"
 "and 2.6.x Linux kernels, the patch is available on the \n"
 "<ulink url=\"http://bytesex.org/v4l\">Video4Linux HQ</ulink>."
-msgstr "Compilez le bon module pour votre pÃ©ripÃ©rique et chargez le dans votre kernel. Certains modules video4linux sont disponibles dans les kernels 2.4.x et 2.6.x, le patch est disponible sur le site web du <ulink url=\"http://bytesex.org/v4l\">Video4Linux HQ</ulink>."
+msgstr "Compilez le bon module pour votre péripérique et chargez le dans votre kernel. Certains modules video4linux sont disponibles dans les kernels 2.4.x et 2.6.x, le patch est disponible sur le site web du <ulink url=\"http://bytesex.org/v4l\">Video4Linux HQ</ulink>."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/encoding-cards.xml:247
@@ -6074,7 +6068,7 @@ msgid ""
 "You can test your device by using any of the listed\n"
 "programs in the <emphasis>Video: TV and PVR/DVR</emphasis> section of\n"
 "<ulink url=\"http://www.exploits.org/v4l/\">this page</ulink>."
-msgstr "Vous pouvez tester votre pÃ©ripÃ©rique en utilisant un des programmes listÃ© Ã  la section <emphasis>Video: TV and PVR/DVR</emphasis> de <ulink url=\"http://www.exploits.org/v4l/\">cette page web</ulink>."
+msgstr "Vous pouvez tester votre péripérique en utilisant un des programmes listé à la section <emphasis>Video: TV and PVR/DVR</emphasis> de <ulink url=\"http://www.exploits.org/v4l/\">cette page web</ulink>."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/encoding-cards.xml:253
@@ -6088,7 +6082,7 @@ msgstr "Les modules v4l2 fonctionneront aussi avec VLC."
 msgid ""
 "You must add <command>--enable-v4l</command> to\n"
 "<command>./configure</command> to use this feature."
-msgstr "Vous devez ajouter <command>--enable-v4l</command> a votre <command>./configure</command> pour utiliser cette fonctionnalitÃ©."
+msgstr "Vous devez ajouter <command>--enable-v4l</command> a votre <command>./configure</command> pour utiliser cette fonctionnalité."
 
 # type: Content of: <chapter><sect1><sect2><sect3><screen>
 #: en/encoding-cards.xml:269
@@ -6112,7 +6106,7 @@ msgstr "Vous trouverez toutes les options de transcodage ici : <xref linkend=\"c
 msgid ""
 "is the device corresponding to your acquisition\n"
 "card or your webcam,"
-msgstr "est le pÃ©ripÃ©rique correspondant Ã  votre carte d'acquisition ou a votre webcam,"
+msgstr "est le péripérique correspondant à votre carte d'acquisition ou a votre webcam,"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/encoding-cards.xml:288
@@ -6122,7 +6116,7 @@ msgid ""
 " is the frequency of the channel in kHz\n"
 "(<emphasis>Warning :</emphasis> for VLC &lt; 0.6.1, Frequency is channel\n"
 "frequency in MHz multiplied by 16),"
-msgstr "<emphasis>frequency=543250</emphasis> est la frÃ©quence de la chaine en kHz (<emphasis>Attention !</emphasis> pour vlc &lt; 0.6.1, Frequency est la frÃ©quence de la chaine en MHz multipliÃ©e par 16),"
+msgstr "<emphasis>frequency=543250</emphasis> est la fréquence de la chaine en kHz (<emphasis>Attention !</emphasis> pour vlc &lt; 0.6.1, Frequency est la fréquence de la chaine en MHz multipliée par 16),"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/encoding-cards.xml:295
@@ -6135,7 +6129,7 @@ msgid ""
 "(176x144), <emphasis>sif</emphasis> (320x240), <emphasis>cif</emphasis>\n"
 "(352x288) or <emphasis>vga</emphasis> (640x480)),"
 msgstr ""
-"<emphasis>size=640x480</emphasis> est la taille de la vidÃ©o que vous souhaitez (vous pouvez aussi mettre une taille standard : <emphasis>subqcif</emphasis> (128x96),\n"
+"<emphasis>size=640x480</emphasis> est la taille de la vidéo que vous souhaitez (vous pouvez aussi mettre une taille standard : <emphasis>subqcif</emphasis> (128x96),\n"
 "<emphasis>qsif</emphasis> (160x120), <emphasis>qcif</emphasis>\n"
 "(176x144), <emphasis>sif</emphasis> (320x240), <emphasis>cif</emphasis>\n"
 "(352x288) ou <emphasis>vga</emphasis> (640x480)),"
@@ -6147,7 +6141,7 @@ msgid ""
 "<emphasis>channel=0</emphasis> \n"
 "is the number of the channel (usually 0 is for\n"
 "tuner, 1 for composite and 2 for svideo),"
-msgstr "<emphasis>channel=0</emphasis> est le numÃ©ro du cannal (gÃ©nÃ©ralement 0 est pour le tunner, 1 pour l'entrÃ©e composite et 2 pour l'entÃ©e svideo),"
+msgstr "<emphasis>channel=0</emphasis> est le numéro du cannal (généralement 0 est pour le tunner, 1 pour l'entrée composite et 2 pour l'entée svideo),"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/encoding-cards.xml:309
@@ -6155,7 +6149,7 @@ msgstr "<emphasis>channel=0</emphasis> est le numÃ©ro du cannal (gÃ©nÃ©ral
 msgid ""
 "<emphasis>adev=/dev/dsp</emphasis>\n"
 "is the audio device,"
-msgstr "<emphasis>adev=/dev/dsp</emphasis> est le pÃ©ripÃ©rique audio,"
+msgstr "<emphasis>adev=/dev/dsp</emphasis> est le péripérique audio,"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/encoding-cards.xml:313
@@ -6164,7 +6158,7 @@ msgid ""
 "<emphasis>audio=1</emphasis> \n"
 "is the number of the audio\n"
 "channel (usually 0 is for mono and 1 for stereo),"
-msgstr "<emphasis>audio=1</emphasis> est le nombre de cannaux audio (gÃ©nÃ©ralement 0 est pour mono et 1 pour stÃ©rÃ©o),"
+msgstr "<emphasis>audio=1</emphasis> est le nombre de cannaux audio (généralement 0 est pour mono et 1 pour stéréo),"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/encoding-cards.xml:318
@@ -6182,7 +6176,7 @@ msgid ""
 msgstr ""
 "<emphasis>vcodec=mp4v</emphasis> \n"
 "correspond au format video que vous souhaitez utiliser\n"
-"(<emphasis>mp4v</emphasis> correspond Ã  MPEG-4, <emphasis>mpgv</emphasis> correspond Ã  \n"
+"(<emphasis>mp4v</emphasis> correspond à MPEG-4, <emphasis>mpgv</emphasis> correspond à \n"
 "MPEG-1, et il y a aussi\n"
 "<emphasis>h263</emphasis>, <emphasis>DIV1</emphasis>,\n"
 "<emphasis>DIV2</emphasis>, <emphasis>DIV3</emphasis>,\n"
@@ -6198,7 +6192,7 @@ msgid ""
 "is the audio format you want to encode\n"
 "in (<emphasis>mpga</emphasis> is MPEG audio layer 2,\n"
 "<emphasis>a52</emphasis> is A52 i.e. AC3 sound),"
-msgstr "<emphasis>acodec=mpga</emphasis> correspond au format audio que vous souhaitez utiliser (<emphasis>mpga</emphasis> correspond au MPEG audio layer 2,  <emphasis>a52</emphasis> corresponf Ã  A52 i.e. son AC3),"
+msgstr "<emphasis>acodec=mpga</emphasis> correspond au format audio que vous souhaitez utiliser (<emphasis>mpga</emphasis> correspond au MPEG audio layer 2,  <emphasis>a52</emphasis> corresponf à A52 i.e. son AC3),"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/encoding-cards.xml:334
@@ -6206,7 +6200,7 @@ msgstr "<emphasis>acodec=mpga</emphasis> correspond au format audio que vous sou
 msgid ""
 "<emphasis>vb=3000</emphasis>\n"
 " is the video bitrate in Kbit/s"
-msgstr "<emphasis>vb=3000</emphasis> est le dÃ©bit de la vidÃ©o en Kbit/s"
+msgstr "<emphasis>vb=3000</emphasis> est le débit de la vidéo en Kbit/s"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/encoding-cards.xml:338
@@ -6214,7 +6208,7 @@ msgstr "<emphasis>vb=3000</emphasis> est le dÃ©bit de la vidÃ©o en Kbit/s"
 msgid ""
 "<emphasis>ab=256</emphasis>\n"
 " is the audio bitrate in Kbit/s"
-msgstr "<emphasis>ab=256</emphasis> est la dÃ©bit de l'audio en Kbit/s"
+msgstr "<emphasis>ab=256</emphasis> est la débit de l'audio en Kbit/s"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/encoding-cards.xml:342
@@ -6234,13 +6228,13 @@ msgstr "<emphasis>keyint=80</emphasis> correspond au nombre maximum d'images ent
 #: en/encoding-cards.xml:346
 #, no-wrap
 msgid "<emphasis>hurry-up</emphasis> allows the encoder to decrease the quality of the stream if the CPU can't keep up with the encoding rate"
-msgstr "<emphasis>hurry-up</emphasis> permet a l'encodeur de rÃ©duire la qualitÃ© du flux si le processeur ne parvient pas a tenir le rythme lors de l'encodage"
+msgstr "<emphasis>hurry-up</emphasis> permet a l'encodeur de réduire la qualité du flux si le processeur ne parvient pas a tenir le rythme lors de l'encodage"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/encoding-cards.xml:347
 #, no-wrap
 msgid "<emphasis>vt=800000</emphasis> is the tolerance in kbit/s for the bitrate of the outputted video"
-msgstr "<emphasis>vt=800000</emphasis> est la tolÃ©rance en Kbit/s pour le dÃ©bit de la vidÃ©o en sortie"
+msgstr "<emphasis>vt=800000</emphasis> est la tolérance en Kbit/s pour le débit de la vidéo en sortie"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/encoding-cards.xml:351
@@ -6248,7 +6242,7 @@ msgstr "<emphasis>vt=800000</emphasis> est la tolÃ©rance en Kbit/s pour le dÃ
 msgid ""
 "<emphasis>deinterlace</emphasis>\n"
 "tells VLC to deinterlace the video on the fly,"
-msgstr "<emphasis>deinterlace</emphasis> dit a VLC de dÃ©sentrelacer Ã  la volÃ©e,"
+msgstr "<emphasis>deinterlace</emphasis> dit a VLC de désentrelacer à la volée,"
 
 # type: Content of: <chapter><sect1><title>
 #: en/encoding-cards.xml:391
@@ -6266,13 +6260,13 @@ msgstr "C'est possible uniquement avec Windows"
 #: en/encoding-cards.xml:393
 #, no-wrap
 msgid "Install your peripheral drivers"
-msgstr "Installez les pilotes de votre pÃ©riphÃ©rique"
+msgstr "Installez les pilotes de votre périphérique"
 
 # type: Content of: <chapter><sect1><sect2><para>
 #: en/encoding-cards.xml:394
 #, no-wrap
 msgid "You need to install your peripherals under Windows with the appropriate drivers. Nothing else is necessary."
-msgstr "Vous devez installer votre pÃ©riphÃ©rique sous Windows avec les pilotes appropriÃ©s. Rien d'autre n'est nÃ©cessaire."
+msgstr "Vous devez installer votre périphérique sous Windows avec les pilotes appropriés. Rien d'autre n'est nécessaire."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/encoding-cards.xml:396
@@ -6290,7 +6284,7 @@ msgstr "<prompt>% </prompt><userinput>C:\\Program Files\\VideoLAN\\VLC\\vlc.exe 
 #: en/encoding-cards.xml:399
 #, no-wrap
 msgid "You need to precise the complete path to find vlc program or to launch the command from the correct directory."
-msgstr "Vous devez prÃ©ciser le chemin complet vers VLC ou Ã©xecuter la commande depuis le bon rÃ©pertoire."
+msgstr "Vous devez préciser le chemin complet vers VLC ou éxecuter la commande depuis le bon répertoire."
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/encoding-cards.xml:402
@@ -6302,7 +6296,7 @@ msgstr "<emphasis>vvv</emphasis> permet d'activer l'affichage de tous les messag
 #: en/encoding-cards.xml:403
 #, no-wrap
 msgid "<emphasis>rc</emphasis> is to activate the remote control interface (MS/DOS console)"
-msgstr "<emphasis>rc</emphasis> permet d'activer l'interface de controle Ã  distance (console MS/DOS)"
+msgstr "<emphasis>rc</emphasis> permet d'activer l'interface de controle à distance (console MS/DOS)"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/encoding-cards.xml:404
@@ -6314,13 +6308,13 @@ msgstr "<emphasis>12</emphasis> est la valeur du TTL (Time To Live) de vos paque
 #: en/encoding-cards.xml:406
 #, no-wrap
 msgid "<emphasis>vdev=\"VGA USB Camera\"</emphasis> is the name of the video peripheral that DirectShow will use (this is only an exemple),"
-msgstr "<emphasis>vdev=\"VGA USB Camera\"</emphasis> est le nom du pÃ©riphÃ©rique que DirectShow utilisera (ceci n'est qu'un exemple),"
+msgstr "<emphasis>vdev=\"VGA USB Camera\"</emphasis> est le nom du périphérique que DirectShow utilisera (ceci n'est qu'un exemple),"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/encoding-cards.xml:408
 #, no-wrap
 msgid "<emphasis>adev=\"USB Camera\"</emphasis> is the name of the audio peripheral,"
-msgstr "<emphasis>adev=\"USB Camera\"</emphasis> est le nom du pÃ©riphÃ©rique audio,"
+msgstr "<emphasis>adev=\"USB Camera\"</emphasis> est le nom du périphérique audio,"
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
 #: en/encoding-cards.xml:410
@@ -6331,7 +6325,7 @@ msgid ""
 "(176x144), <emphasis>sif</emphasis> (320x240), <emphasis>cif</emphasis>\n"
 "(352x288) or <emphasis>vga</emphasis> (640x480))."
 msgstr ""
-"<emphasis>size=640x480</emphasis> est la taille de la vidÃ©o que vous souhaitez (vous pouvez aussi mettre une taille standard : <emphasis>subqcif</emphasis> (128x96),\n"
+"<emphasis>size=640x480</emphasis> est la taille de la vidéo que vous souhaitez (vous pouvez aussi mettre une taille standard : <emphasis>subqcif</emphasis> (128x96),\n"
 "<emphasis>qsif</emphasis> (160x120), <emphasis>qcif</emphasis>\n"
 "(176x144), <emphasis>sif</emphasis> (320x240), <emphasis>cif</emphasis>\n"
 "(352x288) ou <emphasis>vga</emphasis> (640x480)),"
@@ -6342,7 +6336,5 @@ msgstr ""
 msgid ""
 "<emphasis>239.255.42.12</emphasis>\n"
 " is either:"
-msgstr ""
-"<emphasis>239.255.42.12</emphasis>\n"
-"est soit :"
+msgstr "<emphasis>239.255.42.12</emphasis> est soit :"
 

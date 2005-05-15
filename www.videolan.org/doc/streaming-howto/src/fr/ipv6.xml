@@ -98,7 +98,7 @@ par défaut (afin que les clients en IPv6 ou IPv4 puissent se connecter).
 <para>Si vous voulez spécifier un nom d'hôte DNS, souvenez-vous que VLC résouds
 les DNS en IPv4 par défaut. Vous devez soit préciser un nom d'hôte qui ne
 se résolve qu'en IPv6, soit activer l'option <emphasis>advanced</emphasis>
-&quot;Forcer l’utilisation d’IPv6&quot; dans <emphasis>Préférences /
+"Forcer l'utilisation d'IPv6" dans <emphasis>Préférences /
 Paramètres généraux / Entrée</emphasis>.
 </para>
 

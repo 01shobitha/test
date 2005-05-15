@@ -1760,7 +1760,7 @@ msgid ""
 "Stream in multicast the video and dump the audio in\n"
 "a file:"
 msgstr ""
-"Émettre la vidéo en multicast et enregistrer le son dans\n"
+"Emettre la vidéo en multicast et enregistrer le son dans\n"
 "un fichier:"
 
 # type: Content of: <chapter><sect1><screen>
@@ -1914,7 +1914,7 @@ msgstr ""
 #: en/vlm-vod.xml:69
 #, no-wrap
 msgid "VLM Elements"
-msgstr "Éléments de VLM"
+msgstr "Eléments de VLM"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/vlm-vod.xml:71
@@ -2197,7 +2197,7 @@ msgid ""
 "Except the \"append\" property, all properties can be followed\n"
 "by another one."
 msgstr ""
-"À l'exception de la propriété \"append\", toutes les propriétés peuvent\n"
+"A l'exception de la propriété \"append\", toutes les propriétés peuvent\n"
 "suivies par une autre."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
@@ -2877,7 +2877,7 @@ msgstr ""
 "Si vous voulez spécifier un nom d'hôte DNS, souvenez-vous que VLC résouds\n"
 "les DNS en IPv4 par défaut. Vous devez soit préciser un nom d'hôte qui ne\n"
 "se résolve qu'en IPv6, soit activer l'option <emphasis>advanced</emphasis>\n"
-"&quot;Forcer l’utilisation d’IPv6&quot; dans <emphasis>Préférences /\n"
+"\"Forcer l'utilisation d'IPv6\" dans <emphasis>Préférences /\n"
 "Paramètres généraux / Entrée</emphasis>."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
@@ -4489,7 +4489,7 @@ msgid ""
 "<emphasis>elementary streams</emphasis>. Possible values and item\n"
 "options are the same than for the <emphasis>access</emphasis> option of\n"
 "the <emphasis>standard</emphasis> module (see above)."
-msgstr "Utiliser cette option pour rÃ©gler le media choisi pour enregistrer ou envoyer le <emphasis>flux Ã©lÃ©mentaire</emphasis> audio. Les valeurs possibles et les options sont les mÃªmes que celles de l'option <emphasis>access</emphasis> du module <emphasis>standard</emphasis> (voir prÃ©cÃ©demment)."
+msgstr "Utiliser cette option pour régler le media choisi pour enregistrer ou envoyer le <emphasis>flux élémentaire</emphasis> audio. Les valeurs possibles et les options sont les mêmes que celles de l'option <emphasis>access</emphasis> du module <emphasis>standard</emphasis> (voir précédemment)."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:521
@@ -4498,7 +4498,7 @@ msgid ""
 "This option can be used instead of both\n"
 "<emphasis>access-video</emphasis> and <emphasis>access-audio</emphasis>\n"
 "options, when they share the same setting."
-msgstr "Cette option peut Ãªtre utilisÃ©e Ã  la place des 2 options  <emphasis>access-video</emphasis> et <emphasis>access-audio</emphasis>, quand elles partagent le mÃªme rÃ©glage."
+msgstr "Cette option peut être utilisée à  la place des 2 options  <emphasis>access-video</emphasis> et <emphasis>access-audio</emphasis>, quand elles partagent le même réglage."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:527
@@ -4514,7 +4514,7 @@ msgid ""
 "video <emphasis>elementary streams</emphasis>. Possible values and item\n"
 "options are the same as for the <emphasis>mux</emphasis> option of\n"
 "the <emphasis>standard</emphasis> module (see above)."
-msgstr "Utiliser cette option pour rÃ©gler la mÃ©thode d'encapsulation choisie pour le <emphasis>flux Ã©lÃ©mentaire</emphasis> video. Les valeurs possibles et les options sont les mÃªmes que celles de l'option <emphasis>mux</emphasis> du module <emphasis>standard</emphasis> (voir prÃ©cÃ©demment)."
+msgstr "Utiliser cette option pour régler la méthode d'encapsulation choisie pour le <emphasis>flux élémentaire</emphasis> video. Les valeurs possibles et les options sont les mêmes que celles de l'option <emphasis>mux</emphasis> du module <emphasis>standard</emphasis> (voir précédemment)."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:536
@@ -4530,7 +4530,7 @@ msgid ""
 "audio <emphasis>elementary streams</emphasis>. Possible values and item\n"
 "options are the same than for the <emphasis>mux</emphasis> option of the\n"
 "<emphasis>standard</emphasis> module (see above)."
-msgstr "Utiliser cette option pour rÃ©gler la mÃ©thode d'encapsulation choisie pour le <emphasis>flux Ã©lÃ©mentaire</emphasis> audio. Les valeurs possibles et les options sont les mÃªmes que celles de l'option <emphasis>mux</emphasis> du module <emphasis>standard</emphasis> (voir prÃ©cÃ©demment)."
+msgstr "Utiliser cette option pour régler la méthode d'encapsulation choisie pour le <emphasis>flux élémentaire</emphasis> audio. Les valeurs possibles et les options sont les mêmes que celles de l'option <emphasis>mux</emphasis> du module <emphasis>standard</emphasis> (voir précédemment)."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:547
@@ -4539,7 +4539,7 @@ msgid ""
 "This option can be used instead of both\n"
 "<emphasis>mux-video</emphasis> and <emphasis>mux-audio</emphasis>\n"
 "options, when they share the same setting."
-msgstr "Cette option peut Ãªtre utilisÃ©e Ã  la place des 2 options  <emphasis>mux-video</emphasis> et <emphasis>mux-audio</emphasis>, quand elles partagent le mÃªme rÃ©glage."
+msgstr "Cette option peut être utilisée à la place des 2 options  <emphasis>mux-video</emphasis> et <emphasis>mux-audio</emphasis>, quand elles partagent le même réglage."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:553
@@ -4557,7 +4557,7 @@ msgid ""
 "<emphasis>access-video</emphasis> option and is the same as for the\n"
 "<emphasis>url</emphasis> option of the <emphasis>standard</emphasis>\n"
 "module (see above)."
-msgstr "Utiliser cette option pour rÃ©gler le lieu dans lequel sera sauvÃ©, envoyÃ© ou rendu accessible le <emphasis>flux Ã©lÃ©mentaire</emphasis> vidÃ©o. La signification exacte de cette option dÃ©pend de la valeur de l'option <emphasis>access-video</emphasis> et est la mÃªme que l'option <emphasis>url</emphasis> du module <emphasis>standard</emphasis> (voir prÃ©cÃ©demment)."
+msgstr "Utiliser cette option pour régler le lieu dans lequel sera sauvé, envoyé ou rendu accessible le <emphasis>flux élémentaire</emphasis> vidéo. La signification exacte de cette option dépend de la valeur de l'option <emphasis>access-video</emphasis> et est la même que l'option <emphasis>url</emphasis> du module <emphasis>standard</emphasis> (voir précédemment)."
 
 # type: Content of: <chapter><sect1><sect2><sect3><note><para>
 #: en/cmdline.xml:562 en/cmdline.xml:578
@@ -4567,7 +4567,7 @@ msgid ""
 "field, VLC will replace it by the number of the audio or video track\n"
 "considered. The <emphasis>%c</emphasis> string will be replaced by the\n"
 "name (FOURCC) of the codec of the track."
-msgstr "Si vous utilisez la chaine de caractÃ¨re <emphasis>%d</emphasis> dans le champ d'adresse (url), VLC la remplacera par le numÃ©ro de la piste audio ou vidÃ©o en question. La chaine <emphasis>%c</emphasis> sera remplacÃ©e par le nom (FOURCC) du codec de la piste."
+msgstr "Si vous utilisez la chaine de caractère <emphasis>%d</emphasis> dans le champ d'adresse (url), VLC la remplacera par le numéro de la piste audio ou vidéo en question. La chaine <emphasis>%c</emphasis> sera remplacée par le nom (FOURCC) du codec de la piste."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:569
@@ -4585,7 +4585,7 @@ msgid ""
 "<emphasis>access-audio</emphasis> option and is the same as for the\n"
 "<emphasis>url</emphasis> option of the <emphasis>standard</emphasis>\n"
 "module (see above)."
-msgstr "Utiliser cette option pour rÃ©gler le lieu dans lequel sera sauvÃ©, envoyÃ© ou rendu accessible le <emphasis>flux Ã©lÃ©mentaire</emphasis> audio. La signification exacte de cette option dÃ©pend de la valeur de l'option <emphasis>access-audio</emphasis> et est la mÃªme que l'option <emphasis>url</emphasis> du module <emphasis>standard</emphasis> (voir prÃ©cÃ©demment)."
+msgstr "Utiliser cette option pour régler le lieu dans lequel sera sauvé, envoyé ou rendu accessible le <emphasis>flux élémentaire</emphasis> audio. La signification exacte de cette option dépend de la valeur de l'option <emphasis>access-audio</emphasis> et est la même que l'option <emphasis>url</emphasis> du module <emphasis>standard</emphasis> (voir précédemment)."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:588
@@ -4594,7 +4594,7 @@ msgid ""
 "This option can be used instead of both\n"
 "<emphasis>dst-video</emphasis> and <emphasis>dst-audio</emphasis>\n"
 "options, when they share the same setting."
-msgstr "Cette option peut Ãªtre utilisÃ©e Ã  la place d'Ã  la fois <emphasis>dst-video</emphasis> et <emphasis>dst-audio</emphasis>, quand elles partagent les mÃªmes rÃ©glages."
+msgstr "Cette option peut être utilisée àla place d'àla fois <emphasis>dst-video</emphasis> et <emphasis>dst-audio</emphasis>, quand elles partagent les mêmes réglages."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/cmdline.xml:596
@@ -4610,7 +4610,7 @@ msgid ""
 "codecs or the encoding bitrates. Some additional processing can be done\n"
 "during this process, such as re-scaling, deinterlacing, resampling,\n"
 "etc."
-msgstr "Vous pouvez utiliser ce module pour transcoder un flux, c'est-Ã -dire changer ses codecs ou ses dÃ©bits d'encodage. Quelques ajustements supplÃ©mentaires peuvent Ãªtre rÃ©alisÃ©s pendant cette phase, comme changer la taille, dÃ©sentrelacer, rÃ©Ã©chantillonner, etc."
+msgstr "Vous pouvez utiliser ce module pour transcoder un flux, c'est-à-dire changer ses codecs ou ses débits d'encodage. Quelques ajustements supplémentaires peuvent être réalisés pendant cette phase, comme changer la taille, désentrelacer, rééchantillonner, etc."
 
 # type: Content of: <chapter><sect1><sect2><note><para>
 #: en/cmdline.xml:603
@@ -4621,7 +4621,7 @@ msgid ""
 "a consequence, streaming of a real time transcoded stream can lead to\n"
 "dropped frames or a jerky image and sound in some cases, when running\n"
 "out of resources."
-msgstr "Selon le dÃ©bit original du flux et les options choisies, transcoder peut Ãªtre une tache trÃ¨s intensive pour le processeur. En consÃ©quence, la diffusion du flux transcodÃ© en temps rÃ©el peut mener Ã  des pertes de frame ou une mauvaise image dans certains cas, quand il manque des ressources."
+msgstr "Selon le débit original du flux et les options choisies, transcoder peut être une tache très intensive pour le processeur. En conséquence, la diffusion du flux transcodé en temps réel peut mener àdes pertes de frame ou une mauvaise image dans certains cas, quand il manque des ressources."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:611
@@ -4635,7 +4635,7 @@ msgstr "vcodec="
 msgid ""
 "This options allows to specify the codec the video tracks of the\n"
 "input stream should be transcoded to."
-msgstr "Cette option permet de choisir le codec des pistes vidÃ©os dans lequel le flux d'entrÃ©e doit Ãªtre transcodÃ©."
+msgstr "Cette option permet de choisir le codec des pistes vidéos dans lequel le flux d'entrée doit être transcodé."
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:616
@@ -4643,7 +4643,7 @@ msgstr "Cette option permet de choisir le codec des pistes vidÃ©os dans lequel
 msgid ""
 "List of available codecs can be found on the \n"
 "<ulink url=\"/streaming/features.html\">streaming features page</ulink>."
-msgstr "Une liste de codecs disponibles peut Ãªtre trouvÃ©e sur la page des <ulink url=\"/streaming/features.html\">fonctionnalitÃ©s de diffusion</ulink>"
+msgstr "Une liste de codecs disponibles peut être trouvée sur la page des <ulink url=\"/streaming/features.html\">fonctionnalités de diffusion</ulink>"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:621
@@ -4657,7 +4657,7 @@ msgstr "vb="
 msgid ""
 "This option allows to set the bitrate of the transcoded video\n"
 "stream, in kbit/s"
-msgstr "Cette option permet de rÃ©gler le dÃ©bit flux video transcodÃ© en kbit/s"
+msgstr "Cette option permet de régler le débit flux video transcodé en kbit/s"
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:628
@@ -4669,7 +4669,7 @@ msgstr "venc="
 #: en/cmdline.xml:630
 #, no-wrap
 msgid "This allows to set the encoder to use to encode the videos stream. Available options are:"
-msgstr "Ceci permet de rÃ©gler l'encodeur Ã  utiliser pour encoder les vidÃ©os. Les options disponibles sont :"
+msgstr "Ceci permet de régler l'encodeur àutiliser pour encoder les vidéos. Les options disponibles sont :"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:633 en/cmdline.xml:801
@@ -4679,7 +4679,7 @@ msgid ""
 "module. It handles a large variety of different codecs (the list can be\n"
 "found on the <ulink url=\"/streaming/features.html\">streaming features\n"
 "page</ulink>."
-msgstr "<emphasis>ffmpeg</emphasis> : c'est le module d'encodage libavcodec. Il contient un grand nombre de codecs diffÃ©rents (la liste peut Ãªtre trouvÃ©e sur la page des <ulink url=\"/streaming/features.html\">fonctionnalitÃ©s de diffusion</ulink>."
+msgstr "<emphasis>ffmpeg</emphasis> : c'est le module d'encodage libavcodec. Il contient un grand nombre de codecs différents (la liste peut être trouvée sur la page des <ulink url=\"/streaming/features.html\">fonctionnalités de diffusion</ulink>."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:638
@@ -4806,7 +4806,7 @@ msgid ""
 "This options allows to set the framerate of the transcoded\n"
 "video, in frame per second. reducing the framerate of a video can help\n"
 "decreasing its bitrate."
-msgstr "Cette option permet de rÃ©gler le framerate d'une vidÃ©o transcodÃ©e, en images par seconde, rÃ©duire le framerate d'une vidÃ©o peut aider Ã  diminuer son dÃ©bit."
+msgstr "Cette option permet de régler le framerate d'une vidéo transcodée, en images par seconde, réduire le framerate d'une vidéo peut aider àdiminuer son débit."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:718
@@ -4820,7 +4820,7 @@ msgstr "deinterlace"
 msgid ""
 "This option allows to enable deinterlacing of interlaced video\n"
 "streams before encoding."
-msgstr "Cette option permet d'activer le dÃ©sentrelacement de vidÃ©os entrelacÃ©es avant d'encoder."
+msgstr "Cette option permet d'activer le désentrelacement de vidéos entrelacées avant d'encoder."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:725
@@ -4835,7 +4835,7 @@ msgid ""
 "This option allows to crop the upper part of the source video while\n"
 "transcoding. The argument is the number of lines the video should be\n"
 "cropped."
-msgstr "Cette option permet de dÃ©couper la partie supÃ©rieure de la vidÃ©o pendant le transcodage. L'argument est le nombre de dont la vidÃ©o doit Ãªtre coupÃ©e."
+msgstr "Cette option permet de découper la partie supérieure de la vidéo pendant le transcodage. L'argument est le nombre de dont la vidéo doit être coupée."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:733

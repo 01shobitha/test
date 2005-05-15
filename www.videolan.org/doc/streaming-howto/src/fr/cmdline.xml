@@ -513,54 +513,54 @@ du module <emphasis>standard</emphasis> (voir après).</para>
 
 <sect3><title>access-audio=</title>
 
-<para>Utiliser cette option pour rÃ©gler le media choisi pour enregistrer ou envoyer le <emphasis>flux Ã©lÃ©mentaire</emphasis> audio. Les valeurs possibles et les options sont les mÃªmes que celles de l'option <emphasis>access</emphasis> du module <emphasis>standard</emphasis> (voir prÃ©cÃ©demment).</para>
+<para>Utiliser cette option pour régler le media choisi pour enregistrer ou envoyer le <emphasis>flux élémentaire</emphasis> audio. Les valeurs possibles et les options sont les mêmes que celles de l'option <emphasis>access</emphasis> du module <emphasis>standard</emphasis> (voir précédemment).</para>
 
 </sect3>
 
 <sect3><title>access=</title>
 
-<para>Cette option peut Ãªtre utilisÃ©e Ã  la place des 2 options  <emphasis>access-video</emphasis> et <emphasis>access-audio</emphasis>, quand elles partagent le mÃªme rÃ©glage.</para>
+<para>Cette option peut être utilisée à  la place des 2 options  <emphasis>access-video</emphasis> et <emphasis>access-audio</emphasis>, quand elles partagent le même réglage.</para>
 
 </sect3>
 
 <sect3><title>mux-video=</title>
 
-<para>Utiliser cette option pour rÃ©gler la mÃ©thode d'encapsulation choisie pour le <emphasis>flux Ã©lÃ©mentaire</emphasis> video. Les valeurs possibles et les options sont les mÃªmes que celles de l'option <emphasis>mux</emphasis> du module <emphasis>standard</emphasis> (voir prÃ©cÃ©demment).</para>
+<para>Utiliser cette option pour régler la méthode d'encapsulation choisie pour le <emphasis>flux élémentaire</emphasis> video. Les valeurs possibles et les options sont les mêmes que celles de l'option <emphasis>mux</emphasis> du module <emphasis>standard</emphasis> (voir précédemment).</para>
 
 </sect3>
 
 <sect3><title>mux-audio=</title>
 
-<para>Utiliser cette option pour rÃ©gler la mÃ©thode d'encapsulation choisie pour le <emphasis>flux Ã©lÃ©mentaire</emphasis> audio. Les valeurs possibles et les options sont les mÃªmes que celles de l'option <emphasis>mux</emphasis> du module <emphasis>standard</emphasis> (voir prÃ©cÃ©demment).</para>
+<para>Utiliser cette option pour régler la méthode d'encapsulation choisie pour le <emphasis>flux élémentaire</emphasis> audio. Les valeurs possibles et les options sont les mêmes que celles de l'option <emphasis>mux</emphasis> du module <emphasis>standard</emphasis> (voir précédemment).</para>
 
 </sect3>
 
 <sect3><title>mux=</title>
 
-<para>Cette option peut Ãªtre utilisÃ©e Ã  la place des 2 options  <emphasis>mux-video</emphasis> et <emphasis>mux-audio</emphasis>, quand elles partagent le mÃªme rÃ©glage.</para>
+<para>Cette option peut être utilisée à la place des 2 options  <emphasis>mux-video</emphasis> et <emphasis>mux-audio</emphasis>, quand elles partagent le même réglage.</para>
 
 </sect3>
 
 <sect3><title>dst-video=</title>
 
-<para>Utiliser cette option pour rÃ©gler le lieu dans lequel sera sauvÃ©, envoyÃ© ou rendu accessible le <emphasis>flux Ã©lÃ©mentaire</emphasis> vidÃ©o. La signification exacte de cette option dÃ©pend de la valeur de l'option <emphasis>access-video</emphasis> et est la mÃªme que l'option <emphasis>url</emphasis> du module <emphasis>standard</emphasis> (voir prÃ©cÃ©demment).</para>
+<para>Utiliser cette option pour régler le lieu dans lequel sera sauvé, envoyé ou rendu accessible le <emphasis>flux élémentaire</emphasis> vidéo. La signification exacte de cette option dépend de la valeur de l'option <emphasis>access-video</emphasis> et est la même que l'option <emphasis>url</emphasis> du module <emphasis>standard</emphasis> (voir précédemment).</para>
 
-<note><para>Si vous utilisez la chaine de caractÃ¨re <emphasis>%d</emphasis> dans le champ d'adresse (url), VLC la remplacera par le numÃ©ro de la piste audio ou vidÃ©o en question. La chaine <emphasis>%c</emphasis> sera remplacÃ©e par le nom (FOURCC) du codec de la piste.</para></note>
+<note><para>Si vous utilisez la chaine de caractère <emphasis>%d</emphasis> dans le champ d'adresse (url), VLC la remplacera par le numéro de la piste audio ou vidéo en question. La chaine <emphasis>%c</emphasis> sera remplacée par le nom (FOURCC) du codec de la piste.</para></note>
 
 </sect3>
 
 <sect3><title>dst-audio=</title>
 
-<para>Utiliser cette option pour rÃ©gler le lieu dans lequel sera sauvÃ©, envoyÃ© ou rendu accessible le <emphasis>flux Ã©lÃ©mentaire</emphasis> audio. La signification exacte de cette option dÃ©pend de la valeur de l'option <emphasis>access-audio</emphasis> et est la mÃªme que l'option <emphasis>url</emphasis> du module <emphasis>standard</emphasis> (voir prÃ©cÃ©demment).</para>
+<para>Utiliser cette option pour régler le lieu dans lequel sera sauvé, envoyé ou rendu accessible le <emphasis>flux élémentaire</emphasis> audio. La signification exacte de cette option dépend de la valeur de l'option <emphasis>access-audio</emphasis> et est la même que l'option <emphasis>url</emphasis> du module <emphasis>standard</emphasis> (voir précédemment).</para>
 
-<note><para>Si vous utilisez la chaine de caractÃ¨re <emphasis>%d</emphasis> dans le champ d'adresse (url), VLC la remplacera par le numÃ©ro de la piste audio ou vidÃ©o en question. La chaine <emphasis>%c</emphasis> sera remplacÃ©e par le nom (FOURCC) du codec de la piste.</para></note>
+<note><para>Si vous utilisez la chaine de caractère <emphasis>%d</emphasis> dans le champ d'adresse (url), VLC la remplacera par le numéro de la piste audio ou vidéo en question. La chaine <emphasis>%c</emphasis> sera remplacée par le nom (FOURCC) du codec de la piste.</para></note>
 
 
 </sect3>
 
 <sect3><title>dst=</title>
 
-<para>Cette option peut Ãªtre utilisÃ©e Ã  la place d'Ã  la fois <emphasis>dst-video</emphasis> et <emphasis>dst-audio</emphasis>, quand elles partagent les mÃªmes rÃ©glages.</para>
+<para>Cette option peut être utilisée àla place d'àla fois <emphasis>dst-video</emphasis> et <emphasis>dst-audio</emphasis>, quand elles partagent les mêmes réglages.</para>
 
 </sect3>
 
@@ -568,32 +568,32 @@ du module <emphasis>standard</emphasis> (voir après).</para>
 
 <sect2><title>transcoder</title>
 
-<para>Vous pouvez utiliser ce module pour transcoder un flux, c'est-Ã -dire changer ses codecs ou ses dÃ©bits d'encodage. Quelques ajustements supplÃ©mentaires peuvent Ãªtre rÃ©alisÃ©s pendant cette phase, comme changer la taille, dÃ©sentrelacer, rÃ©Ã©chantillonner, etc.</para>
+<para>Vous pouvez utiliser ce module pour transcoder un flux, c'est-à-dire changer ses codecs ou ses débits d'encodage. Quelques ajustements supplémentaires peuvent être réalisés pendant cette phase, comme changer la taille, désentrelacer, rééchantillonner, etc.</para>
 
-<note><para>Selon le dÃ©bit original du flux et les options choisies, transcoder peut Ãªtre une tache trÃ¨s intensive pour le processeur. En consÃ©quence, la diffusion du flux transcodÃ© en temps rÃ©el peut mener Ã  des pertes de frame ou une mauvaise image dans certains cas, quand il manque des ressources.</para></note>
+<note><para>Selon le débit original du flux et les options choisies, transcoder peut être une tache très intensive pour le processeur. En conséquence, la diffusion du flux transcodé en temps réel peut mener àdes pertes de frame ou une mauvaise image dans certains cas, quand il manque des ressources.</para></note>
 
 <para>Les options disponibles sont :</para>
 
 <sect3><title>vcodec=</title>
 
-<para>Cette option permet de choisir le codec des pistes vidÃ©os dans lequel le flux d'entrÃ©e doit Ãªtre transcodÃ©.</para>
+<para>Cette option permet de choisir le codec des pistes vidéos dans lequel le flux d'entrée doit être transcodé.</para>
 
-<para>Une liste de codecs disponibles peut Ãªtre trouvÃ©e sur la page des <ulink url="/streaming/features.html">fonctionnalitÃ©s de diffusion</ulink></para>
+<para>Une liste de codecs disponibles peut être trouvée sur la page des <ulink url="/streaming/features.html">fonctionnalités de diffusion</ulink></para>
 
 </sect3>
 
 <sect3><title>vb=</title>
 
-<para>Cette option permet de rÃ©gler le dÃ©bit flux video transcodÃ© en kbit/s</para>
+<para>Cette option permet de régler le débit flux video transcodé en kbit/s</para>
 
 </sect3>
 
 <sect3><title>venc=</title>
 
-<para>Ceci permet de rÃ©gler l'encodeur Ã  utiliser pour encoder les vidÃ©os. Les options disponibles sont :</para>
+<para>Ceci permet de régler l'encodeur àutiliser pour encoder les vidéos. Les options disponibles sont :</para>
 <itemizedlist>
 
-<listitem><para><emphasis>ffmpeg</emphasis> : c'est le module d'encodage libavcodec. Il contient un grand nombre de codecs diffÃ©rents (la liste peut Ãªtre trouvÃ©e sur la page des <ulink url="/streaming/features.html">fonctionnalitÃ©s de diffusion</ulink>.</para>
+<listitem><para><emphasis>ffmpeg</emphasis> : c'est le module d'encodage libavcodec. Il contient un grand nombre de codecs différents (la liste peut être trouvée sur la page des <ulink url="/streaming/features.html">fonctionnalités de diffusion</ulink>.</para>
 
 <para>Les options sont : <emphasis>keyint=&gt;nombre de frames&lt;</emphasis> permet de régler le nombre maximal de frames entre 2 frames clé, <emphasis>hurry-up</emphasis> permet à l'encodeur de diminuer la qualité du flux si le processeur ne peut soutenir le taux d'encodage, <emphasis>interlace</emphasis> permet d'améliorer la qualité de l'encodage d'une vidéo entrelacée, <emphasis>noise-reduction=&lt;facteur de réduction du bruit&gt;</emphasis> active un algorithme de réduction du bruit (réduira le débit demandé au coût des détails dans l'image), <emphasis>vt=&lt;tolérance du débit en kbit/s&gt;</emphasis> permet de régler la tolérance du débit de la vidéo de sortie, <emphasis>bframes=&lt;nombre de frames&gt;</emphasis> règle le nombre de B frames entre 2 frames clé, <emphasis>qmin=&lt;quantizer&gt;</emphasis> permet de régler l'échelle minimale des quantizers, <emphasis>qmax=&lt;quantizer&gt;</emphasis> permet de régler l'échelle maximale des quantizers,<emphasis>qscale=&lt;quantizer&gt;</emphasis> permet de régler une échelle fixe de quantizers pour des encodages VBR, <emphasis>i-quant-factor=&lt;facteur de quantization&gt;</emphasis> permet de régler le facteur de quantization des I frames par rapport aux P frames, <emphasis>hq=&lt;quality&gt;</emphasis> permet de régler le niveau de qualité pour l'encodage des vecteurs de mouvement (les arguments sont simple, rd ou bits, par défaut simple), <emphasis>strict=&lt;niveau de conformité&gt;</emphasis> permet de forcer un niveau strict de conformité (les valeurs possibles sont -1, 0, 1, par défaut 0), <emphasis>strict-rc</emphasis> active un algorithme de contrôle à taux strict, <emphasis>rc-buffer-size=&lt;taille du buffer en bits&gt;</emphasis> permet de choisir la taille du buffer utilisé pour le contrôle du taux (une valeur élevée correspond à un contrôle plus efficace), <emphasis>rc-buffer-aggressivity=&lt;nombre représentant l'aggressivité&gt;</emphasis> permet de régler l'aggressivité du taux de contrôle du buffer, <emphasis>pre-me</emphasis> permet d'activer l'estimation pre motion, <emphasis>mpeg4-matrix</emphasis> active l'utilisation de la matrice de quantification MPEG4 avec les flux MPEG2, améliorant la qualité tout en gardant la compatibilité avec les décodeurs MPEG2, <emphasis>trellis</emphasis> active la quantization trellis (meilleure qualité, mais traitement plus lent).</para></listitem>
 
@@ -630,19 +630,19 @@ change.</para></listitem>
 
 <sect3><title>fps=</title>
 
-<para>Cette option permet de rÃ©gler le framerate d'une vidÃ©o transcodÃ©e, en images par seconde, rÃ©duire le framerate d'une vidÃ©o peut aider Ã  diminuer son dÃ©bit.</para>
+<para>Cette option permet de régler le framerate d'une vidéo transcodée, en images par seconde, réduire le framerate d'une vidéo peut aider àdiminuer son débit.</para>
 
 </sect3>
 
 <sect3><title>deinterlace</title>
 
-<para>Cette option permet d'activer le dÃ©sentrelacement de vidÃ©os entrelacÃ©es avant d'encoder.</para>
+<para>Cette option permet d'activer le désentrelacement de vidéos entrelacées avant d'encoder.</para>
 
 </sect3>
 
 <sect3><title>croptop=</title>
 
-<para>Cette option permet de dÃ©couper la partie supÃ©rieure de la vidÃ©o pendant le transcodage. L'argument est le nombre de dont la vidÃ©o doit Ãªtre coupÃ©e.</para>
+<para>Cette option permet de découper la partie supérieure de la vidéo pendant le transcodage. L'argument est le nombre de dont la vidéo doit être coupée.</para>
 
 </sect3>
 
@@ -703,7 +703,7 @@ Les options disponibles sont :</para>
 
 <itemizedlist>
 
-<listitem><para><emphasis>ffmpeg</emphasis> : c'est le module d'encodage libavcodec. Il contient un grand nombre de codecs diffÃ©rents (la liste peut Ãªtre trouvÃ©e sur la page des <ulink url="/streaming/features.html">fonctionnalitÃ©s de diffusion</ulink>.</para></listitem>
+<listitem><para><emphasis>ffmpeg</emphasis> : c'est le module d'encodage libavcodec. Il contient un grand nombre de codecs différents (la liste peut être trouvée sur la page des <ulink url="/streaming/features.html">fonctionnalités de diffusion</ulink>.</para></listitem>
 
 <listitem><para><emphasis>vorbis</emphasis>. Ce module utilise l'encodeur vorbis du projet Xiph.org. Vorbis est un codec audio libre, open, sans-licence.</para>
 

@@ -65,7 +65,7 @@ qui suit: <emphasis> http://hôte:port/vlm/</emphasis>.</para>
 
 </sect3></sect2>
 
-<sect2><title>Éléments de VLM</title>
+<sect2><title>Eléments de VLM</title>
 
 <sect3><title>Médias</title>
 
@@ -161,7 +161,7 @@ pour plus d'informations.</para></listitem>
 
 <sect3 id="vlmprop"><title id="tvlmprop">Propriétés des médias</title>
 
-<note><para>À l'exception de la propriété "append", toutes les propriétés peuvent
+<note><para>A l'exception de la propriété "append", toutes les propriétés peuvent
 suivies par une autre.</para></note>
 
 <itemizedlist>

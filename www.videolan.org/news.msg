@@ -2,7 +2,7 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
-|14-15 May 2005| Linux Cambrésis| The VideoLAN team will be present at <a href="http://linuxcambresis.org/index.php?target=kalendrix&id=63">Linux Cambrésis</a> in Northen France. We will also hold conferences on Saturday and Sunday.
+|14-15 May 2005| Linux Cambrésis| The VideoLAN team will be present at <a href="http://linuxcambresis.org/">Linux Cambrésis</a> in Northen France. We will also hold conferences on Saturday and Sunday.
 
 |27 April 2005| Network Downtime| Due to a network upgrade, some VideoLAN services will be down for some time today around noon (CEST). The main website and downloads will keep working, but forum, wiki, SVN and mailing lists will be down during that time. Sorry for the inconvenience
 

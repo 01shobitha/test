@@ -16,7 +16,7 @@
 
 <p>See the <a href="contribute.html#money">Contribute page</a> to make a donation to the VideoLAN project. Be sure to mention how many T-Shirts you want, the size (S, M, L or XL), the address you want them to be shipped to and an e-mail (just in case).</p>
 
-<p>See all desing proposals on <a href="http://wiki.videolan.org/index.php/T-Shirt_Design_Contest">The VideoLAN T-Shirt design contest wiki page</a></p>
+<p>See all design proposals on <a href="http://wiki.videolan.org/index.php/T-Shirt_Design_Contest">The VideoLAN T-Shirt design contest wiki page</a></p>
 
 <h2>Cones</h2>
 

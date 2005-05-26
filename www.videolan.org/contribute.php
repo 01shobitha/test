@@ -41,7 +41,7 @@ warranty that your wish will be taken into account. </p>
 href="mailto:videolan@videolan.org">videolan@videolan.org</a> so that we can
 tell you if we are interested and give you our snail-mail address. </p>
 
-<h2>Donate money</h2>
+<h2><a name="money"></a>Donate money</h2>
 
 <h3>What is the legal structure of VideoLAN?</h3>
 

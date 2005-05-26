@@ -24,7 +24,7 @@ make it more widely known.
 
 If you have remarks, wishes or bug reports on VideoLAN's software,      
 please use the <a href="/support/lists.html">mailing-lists</a>. If you
-want to contact VideoLAN's Treasurer, write a mail to Julien Leproust
+want to contact VideoLAN's Treasurer, write a mail to Pierre-Antoine Rappenne
 (<a href="mailto:treasurer@videolan.org">treasurer@videolan.org</a>).                 
 
 </p>

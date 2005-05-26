@@ -10,6 +10,14 @@
 
 <p>You are now a true VideoLAN fan? Help yourself in this page!</p>
 
+<h2>T-Shirts</h2>
+
+<p>VideoLAN T-Shirts are now available ! You can get one for every 12 euros or 16 USD you donate to the VideoLAN project. These T-Shirts will be available next week and will look something like this (pictures will be updated once we have the t-shirts): <img src="http://people.via.ecp.fr/~dionoea/videolan/t-shirts/milito/black-front.jpg" alt="front" width="200" /> <img src="http://people.via.ecp.fr/~dionoea/videolan/t-shirts/milito/black-back.jpg" alt="back" height="200" /></p>
+
+<p>See the <a href="contribute.html#money">Contribute page</a> to make a donation to the VideoLAN project. Be sure to mention how many T-Shirts you want, the size (S, M, L or XL), the address you want them to be shipped to and an e-mail (just in case).</p>
+
+<p>See all desing proposals on <a href="http://wiki.videolan.org/index.php/T-Shirt_Design_Contest">The VideoLAN T-Shirt design contest wiki page</a></p>
+
 <h2>Cones</h2>
 
 <p>There has been many many versions of the VideoLAN cone: </p>

@@ -1,6 +1,7 @@
 # Les commentaires commencent par un # en premier position 
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
+|26 May 2005| VideoLAN T-Shirts| VideoLAN T-Shirts are now available for download on <a href="http://www.videolan.org/goodies.html">the goodies page</a> ! Thanks to Lorenzo Milito for the winning design. Use a standard inkjet printer to get one ... You can also get one if you donate 12 EUR or 16 USD to the VideoLAN project. More info is available on <a href="http://www.videolan.org/goodies.html">the goodies page</a>.
 
 |14-15 May 2005| Linux Cambrésis| The VideoLAN team will be present at <a href="http://linuxcambresis.org/">Linux Cambrésis</a> in Northen France. We will also hold conferences on Saturday and Sunday.
 

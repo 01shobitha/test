@@ -20,7 +20,7 @@
 <th class="os"><a href="/vlc/download-macosx.html">
   <img src="/images/icons/macosx.gif" alt="Mac OS X" width="32" height="32" />
 </a></th>
-<th class="os"><a href="/vlc/download-linux.html">
+<th class="os"><a href="/vlc/index.html">
   <img src="/images/icons/linux.gif" alt="Linux" width="32" height="32" />
 </a></th>
 <th class="os"><a href="/vlc/download-beos.html">
@@ -1412,7 +1412,7 @@
 <th class="os"><a href="/vlc/download-macosx.html">
   <img src="/images/icons/macosx.gif" alt="Mac OS X" width="32" height="32" />
 </a></th>
-<th class="os"><a href="/vlc/download-linux.html">
+<th class="os"><a href="/vlc/index.html">
   <img src="/images/icons/linux.gif" alt="Linux" width="32" height="32" />
 </a></th>
 <th class="os"><a href="/vlc/download-beos.html">

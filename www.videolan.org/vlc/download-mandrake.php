@@ -12,11 +12,11 @@
 
 <p>Thanks to Götz Waschk who maintains these packages !</p>
 
-<h2>Mandrake 9.1, 9.2 and Cooker</h2>
+<h2>Mandrake 10.2, 10.1, 10.0, 9.1, 9.2, Community and Cooker</h2>
 
 <p>To install the latest VLC packages,
-add the following sources for either Mandrake 9.1, 9.2 or Cooker (you
-can use <a href="http://plf.zarb.org/~nanardon/">Easy urpmi</a> for
+add the following sources for your Mandrake version (you
+can use <a href="http://plf.zarb.org/">Easy urpmi</a> for
 that):</p>
 
 <ul>

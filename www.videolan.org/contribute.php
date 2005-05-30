@@ -117,7 +117,7 @@ be able to transfer money to VideoLAN's PayPal account.</li>
 <input type="hidden" name="cmd" value="_xclick" />
 <input type="hidden" name="business" value="treasurer@videolan.org" />
 <input type="hidden" name="item_name" value="Development and communication of VideoLAN" />
-<input type="hidden" name="no_note" value="1" />
+<input type="hidden" name="no_note" value="0" />
 <input type="hidden" name="currency_code" value="USD" />
 <input type="hidden" name="tax" value="0" />
 <input type="image" src="https://www.paypal.com/images/x-click-but21.gif" name="submit" alt="Donate money to VideoLAN via PayPal" />
@@ -131,7 +131,7 @@ be able to transfer money to VideoLAN's PayPal account.</li>
 <input type="hidden" name="cmd" value="_xclick" />
 <input type="hidden" name="business" value="treasurer@videolan.org" />
 <input type="hidden" name="item_name" value="Development and communication of VideoLAN" />
-<input type="hidden" name="no_note" value="1" />
+<input type="hidden" name="no_note" value="0" />
 <input type="hidden" name="currency_code" value="EUR" />
 <input type="hidden" name="tax" value="0" />
 <input type="image" src="https://www.paypal.com/images/x-click-but21.gif" name="submit" alt="Donate money to VideoLAN via PayPal" />

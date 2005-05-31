@@ -10,7 +10,7 @@
 
 ?>
 
-<?php function pkgitemdev($version,$name) { ?><li><a href="http://download.videolan.org/pub/testing/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a></li><?php } ?>
+<?php function pkgitemdev($version,$name) { ?><li><a href="http://download.videolan.org/pub/videolan/testing/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a></li><?php } ?>
 
 <h1> VLC media player for Mac OS X </h1>
 

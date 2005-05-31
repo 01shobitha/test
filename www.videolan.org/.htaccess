@@ -57,7 +57,7 @@ RewriteRule ^dtsdec.html /libdca.html [R=permanent]
 #
 # Redirects for removed stuff
 #
-RewriteRule ^vlc/dx7headers.tgz http://download.videolan.org/pub/testing/contrib/win32-dx7headers.tgz [R=permanent,L]
+RewriteRule ^vlc/dx7headers.tgz http://download.videolan.org/pub/videolan/testing/contrib/win32-dx7headers.tgz [R=permanent,L]
 RewriteRule ^vlc/(.*).tgz$ /removed/$1.tgz [R=permanent,L]
 RewriteRule ^vlc/(.*).bz2$ /removed/$1.bz2 [R=permanent,L]
 RewriteRule ^freedvd.html$ /removed/freedvd.html [R=permanent,L]

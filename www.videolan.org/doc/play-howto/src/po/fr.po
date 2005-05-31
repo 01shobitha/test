@@ -1486,8 +1486,8 @@ msgid ""
 "To find out, open the Messages Window (View menu) and restart your\n"
 "stream. Look for error messages (red messages)"
 msgstr ""
-"Pour trouver, ouvrez la fenêtre de messages (menu Vue) et relancez votre flux. \n"
-"Recherchez les messages d'erreurs (messages rouges)"
+"Pour trouver, ouvrez la fenêtre de messages (menu Vue) et relancez votre\n"
+"flux.  Recherchez les messages d'erreurs (messages rouges)"
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:657
@@ -3981,7 +3981,7 @@ msgstr "Historiquement appelé VideoLAN Client, VLC media player est le principa
 msgid ""
 "VLC works on many platforms: Linux, Windows, Mac OS X, BeOS,\n"
 "*BSD, Solaris, Familiar Linux, Yopy/Linupy and QNX. It can play:"
-msgstr "VLC tourne sur de nombreuses plateformes: Linux, Windows, Mac OS X, BeOS, *BSD, Solaris, Familiar Linux, Yopy/Linupy et QNX. Il peut lire:"
+msgstr "VLC tourne sur de nombreux systèmes d'exploitation : Linux, Windows, Mac OS X, BeOS, *BSD, Solaris, Familiar Linux, Yopy/Linupy et QNX. Il peut lire :"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
 #: en/intro.xml:32

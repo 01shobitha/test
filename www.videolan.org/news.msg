@@ -187,7 +187,7 @@ href="http://www.videolan.org/streaming/download-vls-sources.html">VLS
 source code download page</a> to get this new version now !
 
 |10 Feb 2004| VLC supports DTS audio | The latest
-<a href="http://download.videolan.org/pub/testing/vlc-0.7.1-test1/">
+<a href="http://download.videolan.org/pub/videolan/testing/vlc-0.7.1-test1/">
 test release</a> of <a href="http://www.videolan.org/vlc/">VLC media player</a>
 comes with DTS audio support. Try it out!
 

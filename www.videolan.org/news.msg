@@ -1,6 +1,8 @@
 # Les commentaires commencent par un # en premier position 
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
+|31 May 2005| New HP webserver| The VideoLAN website is now running on a HP DL 385 server with two AMD opteron 2.4 GHz CPUs and 8 GB RAM. The developers, forum, trac and wiki websites will be moved to this new server shortly. The VideoLAN team would like to thank Jean-Marie Verdun from HP France for this nice donation. It will hopefully fix the many problems we've been having durring the last year concerning website avaibility. (Photos of the new webserver will be uploaded shortly)
+
 |27 May 2005| VideoLAN wins award at Trophées du Libre| The VideoLAN team won the first prize in the « Multimedia » category at international free software contest <a href="http://www.tropheesdulibre.org">Trophées du Libre</a> (<a href="http://www.tropheesdulibre.org/article.php3?id_article=47">awards list</a>). We thus got a brand new HP laptop and a nice trophy. The laptop is already making friends in the cone community (<a href="http://download.videolan.org/images/sirius1.png">cones watching</a> <a href="http://download.videolan.org/images/sirius2.png">Roland Garros</a>).
 
 |26 May 2005| VideoLAN T-Shirts now available| VideoLAN T-Shirts are now available for download on <a href="http://www.videolan.org/goodies.html">the goodies page</a> ! Thanks to Lorenzo Milito for the winning design. Use a standard inkjet printer to get one ... You can also get one if you donate 12 EUR or 16 USD to the VideoLAN project. More info is available on <a href="http://www.videolan.org/goodies.html">the goodies page</a>.

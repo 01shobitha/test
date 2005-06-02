@@ -8,7 +8,6 @@
 <sect1><title>Introduction</title>
 
 <para>
-
 Cette annexe décrit le language utilisé pour écrire des pages web dynamiques pour l'interface HTTP.</para>
 
 <para>Les pages doivent être placées dans le répertoire share/http soit dans le répertoire de VLC (Windows, Mac), soit dans /usr/share/vlc/share/http, soit dans /usr/local/share/http (soit encore dans n'importe quel endroit contenant des fichiers partagés de vlc).</para>
@@ -20,41 +19,29 @@ Cette annexe décrit le language utilisé pour écrire des pages web dynamiques 
 <itemizedlist>
 
 <listitem><para>
-
 Les fichiers commencant par '.' ne sont pas exportés.
-
 </para></listitem>
 <listitem><para>
-
 Un fichier '.access' sera ouvert et l'interface http s'attendra à trouver à la première ligne un login et un mot de passe (sous la forme login:mot de passe). Ce login et mot de passe seront utilisés pour restreindre l'accès aux fichiers dans le répertoire. Attention : seuls les fichiers situés dans le répertoire seront protégés (les sous-répertoires ne sont pas protégés).
-
 </para></listitem>
 <listitem><para>
-
 Le fichier &lt;dir&gt;/index.html sera exporté comme &lt;dir&gt; et &lt;dir&gt;/ mais pas comme index.html.
-
 </para></listitem>
 
 </itemizedlist>
 
 <para>
-
 Le type MIME est défini par l'extension du fichier et ne peut pas être spécifié ou modifié pour un fichier donné. Les extensions inconnues auront un type MIME "application/octet-stream".
-
 </para>
 
 <para>
-
 Vous devriez éviter d'exporter de gros fichiers. En effet chaque fichier est d'abord chargé en mémoire avant d'être envoyé au client. Soyez donc  prudents.
-
 </para>
 
 </sect1>
 
 <sect1><title>
-
 Les macros VLC
-
 </title>
 <para>  Chaque fois qu'une page .html/.htm est demandée, elle est analysée par VLC avant d'être envoyée. L'analyseur cherche des macros VLC et les exécute ou les substitue. Les arguments URL reçus par la méthode GET peuvent également être interprétés
 
@@ -63,117 +50,85 @@ Les macros VLC
 
  .</para>
 <para>
-
 Une macro VLC ressemble à :
 <emphasis>&lt;vlc id="macro-name" param1="macro-parameters1" param2="macro-parameters2" /&gt;</emphasis>.
-
 </para>
 <para>
- 
- "id" est le seul champ nécessaire, param1 et param2 sont facultatifs, et dépendent de la valeur de "id".
-
+  "id" est le seul champ nécessaire, param1 et param2 sont facultatifs, et dépendent de la valeur de "id".
 </para>
 
 <para>
- 
- Vous devez faire attention à cette syntaxe, VLC n'apprécie pas pas les synataxes invalides (elles peuvent souvent être à la base de plantages).
-
+  Vous devez faire attention à cette syntaxe, VLC n'apprécie pas pas les synataxes invalides (elles peuvent souvent être à la base de plantages).
 </para>
 
 <para>
-
 Exemples
 
 
 :</para>
 <para>
-
 Correct : <emphasis>&lt; vlc id="value" param1="version" /gt; </emphasis>
-
 
 </para>
 
 <para>
 Incorrect : <emphasis>&lt;vlc id="value" param1="version" &gt; </emphasis> (il manque le dernier paramètre), <emphasis>&lt;vlc id=value param1="version" /&gt;</emphasis> (il manque ici "" )
 
-
-
 </para>
 
 <para>
-
 Les macros valides sont :
-
 </para>
 
 <itemizedlist>
 
 <listitem><para>
-
 <emphasis>control</emphasis> (1 paramètre optionnel)
-
 </para>
 </listitem>
 
 <listitem><para>
-
 <emphasis>get</emphasis> (2 paramètres)
-
 </para>
 </listitem>
 
 <listitem><para>
-
 <emphasis>set</emphasis> (2 paramètres>
-
 </para>
 </listitem>
 
 <listitem><para>
-
 <emphasis>rpn</emphasis> (1 paramètre)
-
 </para>
 </listitem>
 
 <listitem><para>
-
 <emphasis>if</emphasis> (1 paramètre optionnel)
-
 </para>
 </listitem>
 
 <listitem><para>
-
 <emphasis>else</emphasis> (sans paramètre)
-
 </para>
 </listitem>
 
 <listitem><para>
-
 <emphasis>end</emphasis> (sans paramètre)
-
 </para>
 </listitem>
 <listitem><para>
-
 <emphasis>value</emphasis> (1 paramètre optionnel)
-
 </para>
 </listitem>
 
 <listitem><para>
-
 <emphasis>foreach</emphasis> (2 paramètres)
-
 </para>
 </listitem>
 
 </itemizedlist>
 
 <para>
-
 Pour des macros puissantes, vous pouvez utiliser ces outils
 
 
@@ -182,50 +137,35 @@ Pour des macros puissantes, vous pouvez utiliser ces outils
 <itemizedlist>
 
 <listitem><para>
-
 L'évaluateur RPN (voir partie II)
-
 </para></listitem>
 
 <listitem><para>
-
 Les piles : Une pile est un endroit où il est possible d'empiler des nombres et des chaînes des caractères, puis de les récupérer. Elles sont souvent utilisées avec l'évaluateur RPN.
-
 </para></listitem>
 <listitem><para>
-
 Les variables locales : Il est possible de créer dynamiquement de nouvelles variables et de changer leurs valeurs. Quelques variables locales sont prédéfinies :
-
-
 
 <itemizedlist>
 
 <listitem><para>
-
 <emphasis>url_value</emphasis>
 : paramètre de l'URL
-
 </para></listitem>
 
 <listitem><para>
-
 <emphasis>url_param</emphasis>
 : 1 si url_value n'est pas vide, 0 sinon
-
 </para></listitem>
 
 <listitem><para>
-
 <emphasis>version</emphasis>
 : version de VLC
-
 </para></listitem>
 
 <listitem><para>
-
 <emphasis>copyright</emphasis>
 : le copyright de VLC
-
 </para></listitem>
 
 </itemizedlist>
@@ -235,23 +175,17 @@ Les variables locales : Il est possible de créer dynamiquement de nouvelles var
 </itemizedlist>
 
 <para>
-
 Remarque: Les piles et les variables locales sont réinitialisées avant l'exécution de la page.
-
 </para>
 
 </sect1>
 
 <sect1><title>
-
 L'évaluateur RPN
-
 </title>
 
 <para>
-
 RPN sont les initiales de Reverse Polish Notation (Notation Polonaise Inversée)
-
 </para>
 
 <sect2><title>
@@ -259,53 +193,40 @@ Introduction
 </title>
 
 <para>
- 
-La notation RPN peut paraître étrange, mais c'est un moyen simple et rapide d'écrire des expressions. Cela évite également l'usage des parenthèses ( et ).
-
+ La notation RPN peut paraître étrange, mais c'est un moyen simple et rapide d'écrire des expressions. Cela évite également l'usage des parenthèses ( et ).
 </para>
 
 <para>
-
 Au lieu d'écrire ( 1 + 2 ) * 5 , il suffit d'écrire 1 2 + 5 * .
-
 </para>
 
 <para>
-
 L'idée sous-jacente est: S'il s'agit d'un nombre ou une chaîne de caractères (utilisant ''), il est placé sur la pile. Si c'est un opérateur (+ par exemple), les arguments sont récupérés sur la pile, l'opération est exécutée, et le résultat est placé sur la pile. Le résultat final de la séquence RPN est la valeur au sommet de la pile.
-
 </para>
 
 <para>
 <programlisting>
- 
- pile:       Expression analysée
+  pile:       Expression analysée
  vide       1                     1 est placé sur la pile
  1          2                     2 est placé sur la pile
  1 | 2      +                     +: remplace 1 et 2 par 3 au sommet de la pile
  3          5                     5 est placé au sommet de la pile
  3 | 5      *                     *: remplace 3 et 5 par 15 au sommet de la pile
 15                                &lt;- résutat
-
 </programlisting>
 </para>
 
 </sect2>
 
 <sect2><title>
-
 Opérateurs
-
 </title>
 
-<para> Notation: ST(1) désigne l'élément situé au sommet de la pile, ST(2) le deuxième,... op est un opérateur.
- 
+<para> Notation: ST(1) désigne l'élément situé au sommet de la pile, ST(2) le deuxième,... op est un opérateur. 
 </para>
 
 <para>
-
 Sont utilisables
-
 
 
 :</para>
@@ -313,43 +234,31 @@ Sont utilisables
 <itemizedlist>
 
 <listitem><para>
-
 Les opérateurs mathématiques standards: +, -, *, /, %:
 ils placent le résultat de ST(1) op ST(2) au sommet de la pile
-
 </para></listitem>
 
 <listitem><para>
-
 Les opérateurs binaires: ! (renvoie !ST(1)); ^, &amp;, |: renvoient le résultat de ST(1) op ST(2)
-
 </para></listitem>
 
 <listitem><para>
-
 Les tests: =, &lt;, &lt;=, &gt;=: exécute ST(1) op ST(2) et renvoie -1 si vrai, 0 sinon
-
 </para>
 </listitem>
 
 <listitem><para>
-
 Les opérateurs de chaînes de caractères: strcat renvoie 'ST(1)ST(2)', strcmp compare ST(1) et ST(2), et renvoie -1 si ST(1)&lt;ST(2), 0 si les deux chaînes sont identiques, 1 sinon, strlen renvoie la taille de ST(1).
-
 </para>
 </listitem>
 
 <listitem><para>
-
 Les opérations sur la pile: dup réplique ST(1), drop supprime ST(1), swap échange ST(1) et ST(2), et flush vide la pile.
-
 </para>
 </listitem>
 
 <listitem><para>
-
 Opérations sur les variables: store affecte ST(2) dans une variable locale appelée ST(1), value place sur la pile la valeur de la variable locale nommée ST(1), url_extract place sur la pile la valeur de la partie des paramètres de l'url définis par ST(1).
-
 </para></listitem>
 
 </itemizedlist>
@@ -358,32 +267,22 @@ Opérations sur les variables: store affecte ST(2) dans une variable locale appe
 
 </sect1>
 <sect1><title>
-
 Les macros
-
 </title>
 
 <sect2><title>
-
 La macro <emphasis>control</emphasis>
-
 </title>
 
 <para>
-
 Lorsqu'une page est appelée, des arguments peuvent lui être passés à travers l'URL. (par ex: en utilisant &lt;form&gt;). Ex: http://host:port/page.html?var=value&amp;var2=value2&amp;.. La macro "control" demande à la page de vérifier ces arguments et d'exécuter ceux qui sont autorisés. Le paramètre param1 de cette macro spécifie les commandes autorisées, s'il est vide, toutes les commandes seront permises.
-
 </para>
 <para>
-
 Certaines commandes requièrent un argument qui doit également être spécifié dans l'URL.
-
 </para>
 <table frame="all">
 <title>
-
 Les commandes dans l'URL
-
 </title>
 
 <tgroup cols="3">
@@ -402,20 +301,12 @@ Les commandes dans l'URL
 <row>
  <entry>play</entry>
  <entry>
-    
     item (entier)
-    
-    
- 
     
     
  </entry>
  <entry>
-    
     Lit l'élément spécifié de la playlist
-    
-    
- 
     
     
  </entry>
@@ -435,11 +326,7 @@ Les commandes dans l'URL
 <row>
  <entry>next</entry><entry/>
  <entry>
-    
     Avance jusqu'au prochain élément de la playlist
-    
-    
- 
     
     
  </entry>
@@ -447,11 +334,7 @@ Les commandes dans l'URL
 <row>
  <entry>previous</entry><entry/>
  <entry>
-    
-    Recule à l'élément précédent de la playlist
-    
-    
- 
+     Recule à l'élément précédent de la playlist
     
     
  </entry>
@@ -464,11 +347,7 @@ Les commandes dans l'URL
     
  </entry>
  <entry>
-    
     Ajoute un MRL (Ressource de Localistion de Média) à la playlist
-    
-    
- 
     
     
  </entry>
@@ -476,20 +355,12 @@ Les commandes dans l'URL
 <row>
  <entry>delete</entry>
  <entry>
-    
     item (entier)
-    
-    
- 
     
     
  </entry>
  <entry>
-    
     Supprime l'élément de playlist spécifié, ou la liste d'éléments de la playlist
-    
-    
- 
     
     
  </entry>
@@ -510,11 +381,7 @@ Les commandes dans l'URL
         
     </entry>
  <entry>
-    
     Ferme une connection spécifique
-    
-    
- 
     
     
  </entry>
@@ -532,88 +399,63 @@ Les commandes dans l'URL
 </table>
 
 <para>
-
 Par exemple, vous pouvez restreindre l'exécution de la commande <command>shutdown</command> à une page protégée (par un fichier <emphasis>.acces</emphasis>), tout en utilisant la macro control dans toutes les pages non protégées.
-
 </para>
 </sect2>
 <sect2><title>
-
 La macro <emphasis>get</emphasis>
-
 </title>
 
 <para>
-
 Cette macro sera remplacée par la valeur de la variable de configuration dont le nom est stocké dans param1 et dont le type est donné par param2.
-
 </para>
 
 <para>
-
 param1 doit être le nom d'une variable de configuration existante. param2 doit être le type de la variable. Il devra être choisi parmi <emphasis>int</emphasis>, <emphasis>float</emphasis>, ou <emphasis>string</emphasis>.
-
 
  
 </para>
 
 <para>
-
 Exemple: &lt;vlc id="get" param1="sout" param2="string" /&gt; sera remplacé par la valeur de sout dans la page.
-
 </para>
 
 </sect2>
 <sect2><title>
-
 La macro <emphasis>set</emphasis>
-
 </title>
 
 <para>
-
 Cette macro permet de définir la valeur d'une variable de configuration. Le nom est donné par param1 et le type par param2 (comme pour get). La valeur est définie à partir de l'URL en utilisant le nom donné dans param1.
-
 </para>
 
 <para>
-
 Par exemple, si player.html contient &lt;vlc id="set" param1="sout" param2="string" /&gt;, et si vous demandez la page <emphasis> http://host:ip/player.html?sout=sout_value</emphasis>, la variable sout sera égale à "sout_value". Si l'URL ne contient pas sout, rien ne sera fait.
-
 </para>
 
 </sect2>
 <sect2><title>
-
 La macro <emphasis>rpn</emphasis>
-
 </title>
 <para>
-
 Cette macro vous permet d'interpréter les commandes RPN.
 (Voir II).
-
 </para>
 </sect2>
 
 <sect2><title>
-
 La macro <emphasis>if, else, end</emphasis>
-
 </title>
 
 <para>
-
 Cette macro vous permet de controler la validité de la
 page HTML.
-
 </para>
 
 <para>
 Si param1 n'est pas vide, il est tout d'abbord exectuté avec
 l'évaluateur RPN. Si le premier élément de la liste n'est pas 0, le résultat
 du test est vrai, faux sinon...
-
 </para>
 
 <para>
@@ -623,93 +465,68 @@ du test est vrai, faux sinon...
  &lt;vlc id="else" /&gt;
     &lt;p&gt; Test vrai: 1 n'est pas égal à 2&lt;/p&gt;
  &lt;vlc id="end" /&gt;
-
 </programlisting>
 
 </para>
 
 <para>
-
 Vous pouvez aussi n'utiliser que "if" et "end".
-
 </para>
 
 </sect2>
 
 <sect2><title>
-
 La macro <emphasis>value</emphasis>
-
 </title>
 
 <para>
-
 Si param1 n'est pas vide, il est tout d'abord exécuté
 avec l'évaluateur RPN. La macro est remplacée par la valeur du premier
 élément de la pile.
-
 </para>
 
 <para>
 Remarque: Si l'élément est le nom d'une variable locale, sa valeur
 sera affichée à la place de son nom.
-
 </para>
 
 </sect2>
 
 <sect2><title>
-
 La macro <emphasis>foreach,end</emphasis>
-
 </title>
 
 <para>
 
-
-
-param1 est le nom de la variable utilisée pour la boucle. param2 est le nom de l'ensemble construit:
-
+param1 est le nom de la variable utilisée pour la boucle. param2 est le nom de l'ensemble construit :
 
 </para>
 <itemizedlist>
 
 <listitem><para>
-
 <emphasis>integer</emphasis>: prenedre le premier élément de la pile pour construire une suite d'entiers. L'élément pile devra être une chaîne de caractères de caractères de la forme: <emphasis>premier:dernier[:pas][,premier2:dernier2[:pas2][,...]</emphasis> (Ex: 1:5:2,6:8:1 sera interprété comme 1,3,5,6,7,8)
-
 </para></listitem>
 
 <listitem><para>
-
 <emphasis>directory</emphasis>: prendre le premier élément de la pile comme répertoire de base et construire un ensemble intrinsèque de noms de fichiers. Chaque élément possède les champs suivants:
-
 </para>
 
 <itemizedlist>
 
 <listitem><para>
-
 name: fichier/nom de répertoire
-
 </para></listitem>
 
 <listitem><para>
-
 type: "directory" ou "file" ou "unknown"
-
 </para></listitem>
 
 <listitem><para>
-
 size: taille du fichier
-
 </para></listitem>
 
 <listitem><para>
-
 date
-
 </para></listitem>
 
 </itemizedlist>
@@ -717,40 +534,28 @@ date
 </listitem>
 
 <listitem><para>
-
 playlist: ensemble basé sur la playlist avec les champs suivants: current est égal à 1 si l'élément est actuellement sélectionné, 0 sinon. index est la valeur d'indexation, qui peut être utilisée par les commandes lecture ou supprimer. name est le nom de l'élément.
-
 </para></listitem>
 
 <listitem><para>
-
 "informations": Crée des informations concernant le flux diffusé. name est le nom de la catégorie, value est sa valeur, info est un nouvel ensemble qui peut être rempli à chaque fois (les champs secondaires de info sont name et value
-
 </para></listitem>
 
 <listitem><para>
-
 "hosts": Crée une liste des serveurs écoutés.
 Contient les champs "id" (id opaque), host, ip et port.
-
 </para></listitem>
 
 <listitem><para>
-
 "urls": Crée la liste des urls actuellemnt disponibles. Les champs sont id, stream (1 si un flux est diffusé, 0 sinon), url, mime, protected (1 si protégé, 0 sinon, used (est-il actuellement utilisé ?).
-
 </para></listitem>
 
 <listitem><para>
-
 "connections": Crée la liste des connexions actuelles. Les champs sont: id, une id opaque qui peut être utilisée par la commande close, ip, url, et statut (code d'erreur HTTP).
-
 </para></listitem>
 
 <listitem><para>
-
 le nom d'une variable foreach si c'est un ensemble d'ensembles de valeurs.
-
 </para>
 
 <programlisting>;&lt;vlc id="foreach" param1="cat" param2="informations" /&gt;
@@ -772,7 +577,6 @@ le nom d'une variable foreach si c'est un ensemble d'ensembles de valeurs.
 
 <para>Pour plus de détails, regardez le répertoire
 share/http situé à la racine de l'arboresence de VLC...
-
 </para>
 
 </sect2>

@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter id="basic"><title id="tbasic">
-
 Utilisation simple de VLC
-
 </title>
 
 <sect1 id="desc"><title id="tdesc">Description générale de l'interface</title>
@@ -46,7 +44,6 @@ sous Windows.</para>
 le l'élément <emphasis>Ouvrir un fichier</emphasis>. Une boîte de dialogue 
 devrait apparaître. Sélectionnez le fichier que vous voulez lire puis
 cliquez sur Ouvrir. VLC commencera la lecture du fichier indiqué. 
- 
 </para>
 
 <para>Une alternative est de glisser-déplacer votre fichier sur l'interface principale
@@ -88,7 +85,6 @@ de VLC ou sur la liste de lecture depuis l'explorateur de fichier
 </sect2>
 <sect2><title>Lire un CD/DVD/VCD</title>
 <para>
-
 Pour lire un CD, VCD ou un DVD, ouvrez le menu <emphasis>Fichier</emphasis>
 et sélectionnez l'option <emphasis>Ouvrir un disque</emphasis>. Dans la
 boîte de dialogue <emphasis>Ouvrir un disque</emphasis>, choisissez le type de
@@ -96,15 +92,13 @@ média (DVD, VCD ou CD Audio). Lors de la lecture d'un DVD, vous pouvez activer
 le menu DVD en sélectionnant <emphasis>DVD (menus)</emphasis>
 comme type de disque dans l'interface wxWindows. Pour l'interface MacOS X,
 cela peut être fait en choisissant la boîte de dialogue "Use DVD menus".
-
 </para>
 <para>Vous pouvez choisir le lecteur depuis lequel le média doit être lu en spécifiant
 la lettre correspondant ou le nom du périphérique dans &ldquo;Nom du
 périphérique&rdquo;. Cela devrait être détecté automatiquement sous Mac OS X.</para>
 <para>Si vous voulez commencer la lecture du CD ou du VCD à partir d'un titre et d'un
 chapitre donnés plutôt que depuis le début, vous pouvez le définir à l'aide
-des sélecteurs de <emphasis>Titre</emphasis> and <emphasis>Chapitre</emphasis>.
-</para>
+des sélecteurs de <emphasis>Titre</emphasis> and <emphasis>Chapitre</emphasis>.</para>
 <para>Vous pouvez commencer la lecture en choisissant le bouton
 <emphasis>Ok</emphasis></para> 
 
@@ -137,7 +131,6 @@ et indiquez le port UDP approprié dans la zone de saisie
 (il s'agit du port 1234 pour des flux envoyés par un serveur VLC ou VLS).
 </para></listitem>
 <listitem><para>
-
 Pour ouvrir un flux UDP multicast, sélectionnez <emphasis>UDP/RTP
 multidiff</emphasis>. Indiquez l'adresse du groupe multicast dans la zone de
 texte &ldquo;Address&rdquo;, et spécifiez le port UDP adéquat.</para></listitem>
@@ -152,7 +145,6 @@ pour ouvrir un flux RTSP avec l'interface de MacOS X.
 <listitem><para>
 Pour ouvrir un flux RTSP (envoyé par un seveur de flux Darwin, VLC, etc) 
 avec l'interface wxWindows, choisissez "RTSP" et indiquez l'URL dans la zone de texte.
-
 </para></listitem></itemizedlist>
 
 <para>Vous pouvez commencer la lecture en choisissant le bouton
@@ -163,7 +155,6 @@ d'augmenter la taille du tampon d'entrée.  Cela peut être fait depuis la boît
 dialogue <emphasis>Open Network Stream</emphasis>, en choisissant 
 <emphasis>Cache</emphasis>.  Vous pouvez alors choisir la durée (en millisecondes)
 à mettre en tampon avant de débuter la lecture.
-
 </para>
 
 <mediaobject>
@@ -188,7 +179,6 @@ dialogue <emphasis>Open Network Stream</emphasis>, en choisissant
 menu Fichier et choisissez  "Ouvrir un périphérique de capture..."</para>
 
 <para>
-
 Sous Windows, les webcams, les cartes TV, les cartes d'acquisition, etc sont supportées,
 pourvu qu'elles soient fournies avec des pilotes compatibles DirectShow 
 (ce qui est pratiquement toujours le cas). Vous pouvez choisir le périphérique à 
@@ -201,8 +191,7 @@ configuration de chaque périphérique.  Utilisez la boîte <emphasis>Propriét�
 pour les réglages du tuner (norme PAL/NTSC, fréquence ...) pour les cartes TV. 
 Le bouton <emphasis>Options avancées... </emphasis> permet de choisir d'autres 
 réglages utiles dans quelques cas rares, tels que le "chroma" de l'entrée 
-(la façon dont les couleurs sont codées) et de la taille du buffer d'entrée. 
-
+(la façon dont les couleurs sont codées) et de la taille du buffer d'entrée.
 </para>
 
 <mediaobject>
@@ -224,8 +213,7 @@ Pour les outils Video4Linux, vous pouvez mettre le nom du périphérique vidéo 
 en utilisant les boites de saisie  "Nom du périphérique vidéo" et "Nom du périphérique audio". 
 Le bouton "Options avancées..." permet de choisir quelques réglages utiles dans 
 quelques cas rares, comme l'entrée du "chroma"(la manière dont est codée les couleurs) 
-et la taille du buffer d'entrée.
-</para></listitem>
+et la taille du buffer d'entrée.</para></listitem>
 </itemizedlist>
 
 <mediaobject>
@@ -238,7 +226,6 @@ et la taille du buffer d'entrée.
 
 <itemizedlist>
 <listitem><para>
-
 Pour utiliser une carte Hauppauge PVR, choisissez l'étiquette PVR dans la zone de 
 dialogue "Open  la ". Utilisez l'outil d'entrée de texte pour mettre en place le 
 dispositif de la carte que vous voulez utiliser. Vous pouvez placer la norme du tuner 
@@ -627,8 +614,7 @@ le bouton <emphasis>Equalizer</emphasis> dans l'interface MacOS X.</para>
 
 <para>A l'heure actuelle, VLC comporte deux autres filtres audio: un régulateur 
 de volume et un filtre fournissant au son spatial avec un casque. ILs peuvent 
-être activés dans l'onglet audio de l'interface étendue pour l'interface wxWindows.
-</para>
+être activés dans l'onglet audio de l'interface étendue pour l'interface wxWindows.</para>
 
 <para>Sous MacOS X, ou pour un meilleur controle, vous devez aller dans les préférences. 
 Pour choisir les filtres à activer, allez dans <emphasis>General Settings</emphasis>,
@@ -667,8 +653,8 @@ le format que vous êtes en train de lire, il ne sera pas lisible.
 (il y a une exception, sous Windows, pour les codecs qui utilisent le 
 cadre de DirectShow).</para>
 
-<para>Pour trouver, ouvrez la fenêtre de messages (menu Vue) et relancez votre flux. 
-Recherchez les messages d'erreurs (messages rouges)</para>
+<para>Pour trouver, ouvrez la fenêtre de messages (menu Vue) et relancez votre
+flux.  Recherchez les messages d'erreurs (messages rouges)</para>
 
 <mediaobject>
   <imageobject>

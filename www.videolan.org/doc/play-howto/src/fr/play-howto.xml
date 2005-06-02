@@ -34,7 +34,7 @@
     <surname>Pracht</surname>
   </author>
   <author>
-    <firstname>Cl�ment</firstname>
+    <firstname>Clément</firstname>
     <surname>Stenac</surname>
   </author>
 </authorgroup>
@@ -75,9 +75,7 @@ Le texte de la licence peut etre trouvé dans l'appendice.
 <abstract>
 
 <para>
-
 Ce document est un guide de l'utilisateur complet concernant les aspectsclients de VLC.
-
 </para>
 
 </abstract>
@@ -88,15 +86,11 @@ Ce document est un guide de l'utilisateur complet concernant les aspectsclients 
 
 <toc></toc>
 
-
-
 &intro;
 &install;
 &basic-use;
 &advanced-use;
 &gpl;
 &http;
-
-
 
 </book>

@@ -195,7 +195,7 @@ on the server, run:
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#rtp{dst=192.168.0.12,port=1234,sdp=http://server.example.org:8080/test.sdp}'</userinput>
+<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#rtp{dst=192.168.0.12,port=1234,sdp=rtsp://server.example.org:8080/test.sdp}'</userinput>
 </screen>
 
 </listitem>
@@ -205,12 +205,17 @@ on the client(s), run:
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc http://server.example.org:8080/test.sdp</userinput>
+<prompt>% </prompt><userinput>vlc rtsp://server.example.org:8080/test.sdp</userinput>
 </screen>
 
 </listitem>
 
 </itemizedlist>
+
+<note><para>You can remplace the <emphasis>rtsp</emphasis> URL
+by a <emphasis>http</emphasis> one, a file path (prefixed with
+<emphasis>file://</emphasis>) or <emphasis>sap://</emphasis> to export
+the sdp file using one of these methods instead of rtsp.</para></note>
 
 </sect1>
 

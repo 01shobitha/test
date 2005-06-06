@@ -19,13 +19,14 @@
 <ul>
 <li>CAVLC/CABAC</li>
 <li>Multi-references</li>
-<li>Intra: all macroblock types (16x16 and 4x4 with all predictions)</li>
+<li>Intra: all macroblock types (16x16, 8x8, and 4x4 with all predictions)</li>
 <li>Inter P: all partitions (from 16x16 down to 4x4)</li>
 <li>Inter B: partitions from 16x16 down to 8x8 (including SKIP/DIRECT)</li>
-<li>Ratecontrol: constant quantizer, constant bitrate, or multipass ABR</li>
+<li>Ratecontrol: constant quantizer, single or multipass ABR, optional VBV</li>
 <li>Scene cut detection</li>
 <li>Adaptive B-frame placement</li>
 <li>B-frames as references / arbitrary frame order</li>
+<li>8x8 and 4x4 adaptive spatial transform</li>
 </ul>
 
 <p>Encoder limitations</p>
@@ -39,7 +40,7 @@
 
 <p># svn co svn://svn.videolan.org/x264/trunk x264</p>
 
-<p>Unofficial builds of the VfW frontend are available from <a href="http://x264.nl/">Jarod</a> or <a href="http://www.aziendeassociate.it/cd.asp?dir=/x264">Celtic Druid</a>.
+<p>Unofficial builds for Windows are available from <a href="http://x264.nl/">Jarod</a>, <a href="http://www.aziendeassociate.it/cd.asp?dir=/x264">Celtic Druid</a>, or <a href="http://forum.doom9.org/showthread.php?s=&threadid=89979">Sharktooth</a>.
 
 <h2>Support</h2>
 
@@ -54,8 +55,9 @@
 <li><a href="http://www.videolan.org/">VLC media player</a>: a cross-platform video player and streaming solution.</li>
 <li><a href="http://handbrake.m0k.org/">Handbrake</a>: a multi-platform, multithreaded DVD to MPEG-4 ripper/converter.</li>
 <li><a href="http://tcvp.sourceforge.net/">TCVP</a></li>
-<li><a href="http://www.mplayerhq.hu/">MPlayer</a></li>
+<li><a href="http://www.mplayerhq.hu/">MEncoder</a></li>
 <li><a href="http://ffmpeg.sourceforge.net/index.php">FFMPEG</a></li>
+<li><a href="http://gordianknot.sourceforge.net/">GordianKnot</a></li>
 </ul>
 
 <p>If you use x264 in another project, let us know !</p>

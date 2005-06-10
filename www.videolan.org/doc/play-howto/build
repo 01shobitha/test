@@ -4,7 +4,7 @@
 # Written by Clément Stenac <zorglub@via.ecp.fr>
 
 DOC="play-howto"
-ALL_LANG="en"
+ALL_LANG="en fr"
 DEFAULT_LANG="en"
 
 if test "$1" = help

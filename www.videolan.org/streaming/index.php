@@ -146,6 +146,7 @@ below:</p>
   <td class="yes">Up-to-date</td>
   <td>
      <a href="/doc/streaming-howto/en/streaming-howto-en.html">English</a>
+     <a href="/doc/streaming-howto/fr/streaming-howto-fr.html">French</a>
    </td>
 </tr>
 

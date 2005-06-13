@@ -1,6 +1,8 @@
 # Les commentaires commencent par un # en premier position 
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
+|13 June 2005| Server Downtime| Due to a rack installation, some VideoLAN services will be down for some time today around midnight (CEST). The main website, forum, SVN and trac will be down during that time. Sorry for the inconvenience
+
 |31 May 2005| New HP webserver| The VideoLAN website is now running on a HP DL 385 server with two AMD opteron 2.4 GHz CPUs and 8 GB RAM. The developers, forum, trac and wiki websites will be moved to this new server shortly. The VideoLAN team would like to thank Jean-Marie Verdun from HP France for this nice donation. It will hopefully fix the many problems we've been having durring the last year concerning website avaibility. (Photos of the new webserver will be uploaded shortly)
 
 |27 May 2005| VideoLAN wins award at Trophées du Libre| The VideoLAN team won the first prize in the « Multimedia » category at international free software contest <a href="http://www.tropheesdulibre.org">Trophées du Libre</a> (<a href="http://www.tropheesdulibre.org/article.php3?id_article=47">awards list</a>). We thus got a brand new HP laptop and a nice trophy. The laptop is already making friends in the cone community (<a href="http://download.videolan.org/images/sirius1.png">cones watching</a> <a href="http://download.videolan.org/images/sirius2.png">Roland Garros</a>).

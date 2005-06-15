@@ -9,14 +9,20 @@
     {
 	die;
     }
-//    echo '<rss version="0.91"><channel><pubDate>'.date("D, j  M Y G:i:s T").'</pubDate><description>VLC Counter</description>';
     echo '<rss version="0.91"><channel><pubDate>'.date("D, j M Y G:i:s").'</pubDate><description>VLC Counter</description>';
     echo "<link>http://www.videolan.org</link><title>VLC</title>";
-    $request = pg_query($connect, "SELECT sum(number) FROM mirrors WHERE file like '%0.8.1%'" );
- 
-    if( $row = pg_fetch_array($request) )
+    $requests = array(  "%0.8.1%" => "VLC 0.8.1",
+			"%0.8.1%win32%"=> "VLC 0.8.1 Win32",
+			"%0.8.1%dmg%"=> "VLC 0.8.1 MacOS X",
+			"%0.8.1%rpm%"=> "VLC 0.8.1 RPM" );
+    foreach( $requests as $k => $v )
     {
-     	echo "<item><title>VLC 0.8.1</title><description>".$row[0]."</description></item>";
+        $request = pg_query($connect, "SELECT sum(number) FROM mirrors WHERE file like '$k'" );
+ 
+        if( $row = pg_fetch_array($request) )
+        {
+            echo "<item><title>$v</title><description>".$row[0]."</description></item>";
+        }
     }
     echo "</channel></rss>";
     pg_close($connect);

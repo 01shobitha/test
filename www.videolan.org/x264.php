@@ -29,11 +29,6 @@
 <li>8x8 and 4x4 adaptive spatial transform</li>
 </ul>
 
-<p>Encoder limitations</p>
-<ul>
-<li>No real RD</li>
-</ul>
-
 <h2>Getting x264</h2>
 
 <p>The latest x264 source code can always be found by anonymous SVN repository:</p>

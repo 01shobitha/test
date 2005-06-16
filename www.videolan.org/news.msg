@@ -1,6 +1,9 @@
 # Les commentaires commencent par un # en premier position 
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
+
+|16 June 2005| VideoLAN at LinuxTag| The VideoLAN team will be present at <a href="http://linuxtag.org/">LinuxTag</a> in Karlsruhe, Germany the 23 and 24 of June 2005. We will also hold a conference on VLC.
+
 |13 June 2005| Server Downtime| Due to a rack installation, some VideoLAN services will be down for some time today around midnight (CEST). The main website, forum, SVN and trac will be down during that time. Sorry for the inconvenience
 
 |31 May 2005| New HP webserver| The VideoLAN website is now running on a HP DL 385 server with two AMD opteron 2.4 GHz CPUs and 8 GB RAM. The developers, forum, trac and wiki websites will be moved to this new server shortly. The VideoLAN team would like to thank Jean-Marie Verdun from HP France for this nice donation. It will hopefully fix the many problems we've been having durring the last year concerning website avaibility. (Photos of the new webserver will be uploaded shortly)

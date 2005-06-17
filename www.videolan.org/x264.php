@@ -52,7 +52,8 @@
 <li><a href="http://handbrake.m0k.org/">Handbrake</a>: a multi-platform, multithreaded DVD to MPEG-4 ripper/converter.</li>
 <li><a href="http://tcvp.sourceforge.net/">TCVP</a></li>
 <li><a href="http://www.mplayerhq.hu/">MEncoder</a></li>
-<li><a href="http://ffmpeg.sourceforge.net/index.php">FFMPEG</a></li>
+<li><a href="http://ffmpeg.sourceforge.net/index.php">ffmpeg</a></li>
+<li><a href="http://ffdshow.sourceforge.net/index.php">ffdshow</a></li>
 <li><a href="http://gordianknot.sourceforge.net/">GordianKnot</a></li>
 </ul>
 

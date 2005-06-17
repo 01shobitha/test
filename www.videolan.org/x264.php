@@ -27,6 +27,7 @@
 <li>Adaptive B-frame placement</li>
 <li>B-frames as references / arbitrary frame order</li>
 <li>8x8 and 4x4 adaptive spatial transform</li>
+<li>lossless mode</li>
 </ul>
 
 <h2>Getting x264</h2>

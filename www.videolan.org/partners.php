@@ -52,7 +52,7 @@ cooperation of our partners, on both technical and financial sides: </p>
          most of the VideoLAN web sites and developement                
          tools : <a href="http://www.videolan.org">WWW</a>,             
          <a href="http://forum.videolan.org">Forum</a>, <a              
-         href="http://download.videolan.org">Downloads</a>, <a          
+         href="http://download.videolan.org/pub/videolan/">Downloads</a>, <a          
          href="http://developers.videolan.org/svn.html">SVN</a> and     
          <a href="https://trac.videolan.org">Trac</a>. This web         
          server was shipped with two AMD opteron 2.4 GHz CPUs, 8 GB     

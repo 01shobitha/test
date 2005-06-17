@@ -87,7 +87,7 @@ cooperation of our partners, on both technical and financial sides: </p>
         Centrale Paris</a>. These servers now run the <a                
         href="http://developers.videolan.org/lists.html">mailing        
         lists</a>, <a                                                   
-        href="ftp://ftp.videolan.org/pub/videolan/">FTP</a>             
+        href="ftp://ftp.videolan.org/pub/videolan/">FTP</a>, <a href="http://wiki.videolan.org">Wiki</a>
         and DNS services. IBM also awarded VideoLAN in the <a           
         href="http://www-1.ibm.com/linux/news/ilsc.shtml">Linux         
         Challenge</a>, an international challenge for opensource        

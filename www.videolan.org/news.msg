@@ -2,7 +2,7 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
-|16 June 2005| VideoLAN at LinuxTag| The VideoLAN team will be present at <a href="http://linuxtag.org/">LinuxTag</a> in Karlsruhe, Germany the 23 and 24 of June 2005. We will also hold a conference on VLC.
+|16 June 2005| VideoLAN at LinuxTag| The VideoLAN team will be present at <a href="http://www.linuxtag.org/">LinuxTag</a> in Karlsruhe, Germany the 23 and 24 of June 2005. We will also hold a conference on VLC.
 
 |13 June 2005| Server Downtime| Due to a rack installation, some VideoLAN services will be down for some time today around midnight (CEST). The main website, forum, SVN and trac will be down during that time. Sorry for the inconvenience
 

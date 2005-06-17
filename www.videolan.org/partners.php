@@ -36,6 +36,34 @@ cooperation of our partners, on both technical and financial sides: </p>
   </tr>
 
 
+  <tr>
+    <td colspan="2">
+        <h2> HP </h2>
+    </td>
+  </tr>
+  <tr>
+    <td>
+        <p><a href="http://www.hp.com"><img
+        src="/images/hpinvent.gif" alt="HP" /></a></p>
+    </td>
+    <td>
+
+         <p>HP gave a DL 385 server which is now running                
+         most of the VideoLAN web sites and developement                
+         tools : <a href="http://www.videolan.org">WWW</a>,             
+         <a href="http://forum.videolan.org">Forum</a>, <a              
+         href="http://download.videolan.org">Downloads</a>, <a          
+         href="http://developers.videolan.org/svn.html">SVN</a> and     
+         <a href="https://trac.videolan.org">Trac</a>. This web         
+         server was shipped with two AMD opteron 2.4 GHz CPUs, 8 GB     
+         RAM and 4 36 GB SCSI hard drives. VideoLAN also won a <a       
+         href="http://download.videolan.org/images/sirius1.png">nice    
+         HP laptop</a> at <a                                            
+         href="http://www.tropheesdulibre.org/article.php3?id_article=47"
+         >Journées du Libre</a>.</p>                                 
+
+    </td>
+  </tr>
 
 
   <tr>
@@ -50,16 +78,20 @@ cooperation of our partners, on both technical and financial sides: </p>
     </td>
     <td>
 
-        <p>IBM gave two Netfinity servers (<a                                 
-        href="http://www.via.ecp.fr/inauguration.html">see picture</a>)       
-        to the <a href="http://www.via.ecp.fr/via/index.html?lang=en">VIA     
-        Centrale Réseaux</a> association which manages the network of         
-        the student residence of the <a href="http://www.ecp.fr/">École       
-        Centrale Paris</a>. Those servers are actually hosting VideoLAN       
-        (Web, FTP, CVS, Mailing-lists). IBM also awarded VideoLAN in          
-        the <a href="http://www-1.ibm.com/linux/news/ilsc.shtml">Linux        
-        Challenge</a>, an international challenge for opensource projects     
-        developed by university students.</p>                                 
+        <p>IBM gave two Netfinity servers (<a                           
+        href="http://www.via.ecp.fr/inauguration.html">see picture</a>  
+        - Nov 2000) and an xSeries server (April 2005) to the <a        
+        href="http://www.via.ecp.fr/via/index.html?lang=en">VIA         
+        Centrale Réseaux</a> association which manages the network of   
+        the student campus of the <a href="http://www.ecp.fr/">École    
+        Centrale Paris</a>. These servers now run the <a                
+        href="http://developers.videolan.org/lists.html">mailing        
+        lists</a>, <a                                                   
+        href="ftp://ftp.videolan.org/pub/videolan/">FTP</a>             
+        and DNS services. IBM also awarded VideoLAN in the <a           
+        href="http://www-1.ibm.com/linux/news/ilsc.shtml">Linux         
+        Challenge</a>, an international challenge for opensource        
+        projects developed by university students.</p>                  
 
     </td>
   </tr>
@@ -148,9 +180,12 @@ cooperation of our partners, on both technical and financial sides: </p>
     </td>
     <td>
 
-	<p>VTHR is the first digital network for High-Resolution Video
-	Transmission. We have developed the satellite input, deinterlacing
-	routines and support for 4:2:2 MPEG-2 in VLC for them.</p>
+ <p>VTHR is the first digital network for High-Resolution               
+ Video Transmission. We have developed the satellite input,             
+ deinterlacing routines and support for 4:2:2 MPEG-2 in VLC             
+ for them. VTHR gave us a computer which is now hosting the <a          
+ href="http://vthr.videolan.org/~videolan/">VLC nightly builds</a>.</p> 
+
     </td>
   </tr>
 

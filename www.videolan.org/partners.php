@@ -80,7 +80,7 @@ cooperation of our partners, on both technical and financial sides: </p>
 
         <p>IBM gave two Netfinity servers (<a                           
         href="http://www.via.ecp.fr/inauguration.html">see picture</a>  
-        - Nov 2000) and an xSeries server (April 2005) to the <a        
+        - Nov 2000) and an xSeries server (<a href="http://www.via.ecp.fr/membres/vie/montage-ibm-2005/">April 2005</a>) to the <a        
         href="http://www.via.ecp.fr/via/index.html?lang=en">VIA         
         Centrale Réseaux</a> association which manages the network of   
         the student campus of the <a href="http://www.ecp.fr/">École    

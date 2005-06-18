@@ -24,7 +24,7 @@
 
 <p><b>Note:</b> There is not, and there will never be, a version for Mac OS 9.</p>
 
-<p>(Requires Mac OS X 10.2 or 10.3)</p>
+<p>(Requires Mac OS X 10.2 or 10.3) <br/> This version does <b>not</b> support 10.4 Tiger. Download <a href="index.html">VLC 0.8.2-test2 or later</a>, if you are using this OS.</p>
 <ul>
 <?php pkgitem("0.8.1/macosx","vlc-0.8.1.dmg","vlc"); ?>
 </ul>
@@ -53,6 +53,6 @@ double-clicking on it. </p>
 
 <h2>Source code</h2>
 
-<p>If you want, you can download the <a href="download-sources.html">sourcecode</a> of VLC media player.</p>
+<p>If you want, you can download the <a href="download-sources.html">source code</a> of VLC media player.</p>
 
 <?php footer('$Id$'); ?>

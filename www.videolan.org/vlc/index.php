@@ -37,7 +37,6 @@ screenshots</a>. </p>
 
 <p> Select your operating system to download precompiled binaries: </p>
 
-<table width="100%"><tr><td>
  <table cellspacing="10">
  <tr>
  <td>
@@ -98,15 +97,6 @@ screenshots</a>. </p>
  </td>
  </tr>
  </table>
-</td><td>
-  <div class="livecounter">
-    <h3>VLC 0.8.1 Downloads: <span id="vlccounter">Loading...</span></h3>
-    <p>Current download rate : <span id="dlrate">Calculating...</span> /second<br/>
-	Next update : <span id="countertimer">60</span> seconds</p>
-    <p><a href="/live.html">Full statistics</a></p>
-  </div>
-</td></tr>
-</table>
 
 <p>For the other operating systems supported, there are no precompiled
 binaries. You will have to get the source code for VLC and its required
@@ -203,6 +193,13 @@ libraries and build them yourself:</p>
 </table> -->
  
    </td><td>
+
+      <div class="livecounter">
+       <h3>VLC 0.8.1 Downloads: <span id="vlccounter">Loading...</span></h3>
+       <p>Current download rate : <span id="dlrate">Calculating...</span> /second<br/>
+	Next update : <span id="countertimer">60</span> seconds</p>
+       <p><a href="/live.html">Full statistics</a></p>
+      </div>
       <a href="/vlc/screenshots/20040602-windows-wxembed-3.jpg">
       <img width="300" height="240"
       src="/vlc/screenshots/mi_20040602-windows-wxembed-3.jpg"

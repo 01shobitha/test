@@ -47,7 +47,7 @@
 
 /***************************  Adjustable Parameters ***************************/
 
-var counter_url = "retrieve.php";	// The URL of your counter mirror.
+var counter_url = "/retrieve.php";	// The URL of your counter mirror.
 var initial_rate = 0.5;		// The initial rate, in downloads/second.
 
 var counter_id = "vlccounter";	// The id of the counter element.

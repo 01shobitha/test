@@ -4,7 +4,7 @@
 *  starthtml: beginning of the page
 */
 
-function StartHtml( $title ) {
+function StartHtml( $title, $enable_live = false ) {
 
 global $HTTP_GET_VARS;
 echo "<?xml version=\"1.0\" encoding=\"iso-8859-1\" ?>\n";
@@ -27,8 +27,16 @@ echo "<?xml version=\"1.0\" encoding=\"iso-8859-1\" ?>\n";
    <link rel="stylesheet" type="text/css" href="/main.css" />
    <link rel="shortcut icon" type="image/x-icon"
          href="/images/icons/favicon.ico" />
+   <?php if( $enable_live == true ) {?>
+	<script src="/ffcounter.js" type="text/javascript"></script>
+   <?php } ?>
 </head>
-<body><?php
+<?php if( $enable_live == true ) { ?>
+   <body onload="get_count();">
+<? } else { ?>
+   <body>
+<?php
+   }
 
 }
 
@@ -121,8 +129,13 @@ if( $language == "" ) { $language = "en"; }
 
 /* render the page */
 
+if( !isset( $enable_live ) )
+{
+    $enable_live = false;
+}
+
 // HTML header
-StartHtml( ereg_replace( "<[^>]*>" , "" , $title ) );
+StartHtml( ereg_replace( "<[^>]*>" , "" , $title ) , $enable_live) ;
 
 
 ?><table class="menu-back" cellspacing="0" cellpadding="0">

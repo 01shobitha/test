@@ -473,3 +473,11 @@ table.footer
   border-color: #F0F0FF #A0A0C0 #A0A0C0 #F0F0FF;
 }
 
+/***********
+ * Live
+ ***********/
+div.livecounter
+{
+    border:2pt #d8d8f8 solid;
+    padding:0.4em;
+}

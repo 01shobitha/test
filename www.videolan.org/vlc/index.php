@@ -33,7 +33,7 @@ screenshots</a>. </p>
 
       <h2>Download VLC</h2>
 
-<p>You can get the latest VLC media player 0.8.2-test2 beta version <a href="http://forum.videolan.org/viewtopic.php?t=9757">here</a>.</p>
+<p>You can get the latest VLC media player 0.8.2-test3 beta version <a href="http://forum.videolan.org/viewtopic.php?t=10049">here</a>.</p>
 
 <p> Select your operating system to download precompiled binaries: </p>
 

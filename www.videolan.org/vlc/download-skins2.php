@@ -80,7 +80,7 @@ Don't worry, you don't need any programming skills... Some knowledge about
 graphics software might ease the job, though :-)</p>
 
 
-<h2>Winamp5 skin</h2>
+<h2>Winamp5</h2>
 <?php AddSkin(
    "winamp5.jpg",
    "Skin made by kty0ne, improved by Jérôme Guilbaud and ported<br/>
@@ -88,7 +88,7 @@ graphics software might ease the job, though :-)</p>
    "winamp5.vlt" );
 ?>
 
-<h2>Chaos skin</h2>
+<h2>Chaos</h2>
 <?php AddSkin(
    "chaos.jpg",
    "Based on the xmms Chaos skin by Omar Hussain, ported by Cyril<br/>
@@ -96,7 +96,7 @@ graphics software might ease the job, though :-)</p>
    "chaos.vlt" );
 ?>
 
-<h2>Void skin</h2>
+<h2>Void</h2>
 <?php AddSkin(
    "void.jpg",
    "By Black",
@@ -104,7 +104,7 @@ graphics software might ease the job, though :-)</p>
 ?>
 
 
-<h2>iTunes skin</h2>
+<h2>iTunes</h2>
 <?php AddSkin(
    "itunes.jpg",
    "Skin made by mdi, improved and ported to skins2 by Steven Sheehy",
@@ -112,18 +112,26 @@ graphics software might ease the job, though :-)</p>
 ?>
 
 
-<h2>Solar skin</h2>
+<h2>Solar</h2>
 <?php AddSkin(
    "solar.png",
    "Skin made by Piers Cornwell, icons by Jakub Steiner",
    "solar.vlt" );
 ?>
 
-<h2>Vplayer skin</h2>
+<h2>Vplayer</h2>
 <?php AddSkin(
    "vplayer.jpg",
    "Skin made by scahoo",
    "vplayer.vlt" );
+
 ?>
 
+<h2>Media Player</h2>
+
+<?php AddSkin(
+   "MediaPlayer.png",
+   "Skin made by Asim",
+   "MediaPlayer.zip" );
+?>
 <?php footer('$Id: download-skins.html 2517 2004-05-23 17:11:06Z ipkiss $'); ?>

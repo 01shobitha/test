@@ -478,6 +478,8 @@ table.footer
  ***********/
 div.livecounter
 {
+ 
     border:2pt #d8d8f8 solid;
     padding:0.4em;
+    margin-bottom:1em;
 }

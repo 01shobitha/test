@@ -195,10 +195,9 @@ libraries and build them yourself:</p>
    </td><td>
 
       <div class="livecounter">
-       <h3>VLC 0.8.1 Downloads: <span style="font-weight: bold" id="vlccounter">Loading...</span></h3>
-       <p>Current download rate : <span id="dlrate">Calculating...</span> /second<br/>
-	Next update : <span id="countertimer">60</span> seconds</p>
-       <p><a href="/live.html">Full statistics</a></p>
+       <h3 style="text-align:center">VLC Downloads<br /><span style="font-weight: bold" id="vlccounter">Loading...</span></h3>
+       <p>D/L rate : <span id="dlrate">Calculating...</span> /second</p>
+       <p style="text-align:center;"><a href="/live.html">Full statistics</a></p>
       </div>
       <a href="/vlc/screenshots/20040602-windows-wxembed-3.jpg">
       <img width="300" height="240"

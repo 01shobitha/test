@@ -18,6 +18,12 @@ echo"    <td class='center'><a href='$img'><img
 <h2>Latest screenshots (0.8.2)</h2>
 
 <table cellspacing="5" cellpadding="5" border="0"><tbody><tr>
+<?php
+screenshot( "/vlc/screenshots/0.8.2/linux-wxwin-all.png",
+            "/vlc/screenshots/0.8.2/tm_linux-wxwin-all.png",
+            "wxWidgets interface all windows opened",
+            "wxGTK Linux (1280x1024)" );
+?>
 <td></td></tr></tbody></table>
 
 

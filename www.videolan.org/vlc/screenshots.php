@@ -4,34 +4,41 @@
    $date = "14 February 2001";
    $menu = array( "vlc", "screenshots" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
+
+function screenshot($img,$thumb,$descr){
+echo"    <td class='center'><a href='$img'><img
+    src='$thumb'
+    alt='$descr' width='143' height='113' /></a>
+    <br />  $descr </td>";
+}
 ?>
 
 <h1> VLC screenshots </h1>
 
-<h2>Latest screenshots (0.7.2)</h2>
+<h2>Latest screenshots (0.8.2)</h2>
+
+<table cellspacing="5" cellpadding="5" border="0"><tbody><tr>
+<td></td></tr></tbody></table>
+
+
+<h2>0.7.2</h2>
 
 <table cellspacing="5" cellpadding="5" border="0"><tbody><tr>
 
-    <td class="center"><a href="/vlc/screenshots/20040531-osx-1.jpg"><img
-    src="/vlc/screenshots/tn_20040531-osx-1.jpg"
-    alt="MacOS X screenshot" width="143" height="113" /></a>
-    <br />  Mac OS X (1280x960) </td>
-
-    <td class="center"><a href="/vlc/screenshots/20040531-osx-2.jpg"><img
-    src="/vlc/screenshots/tn_20040531-osx-2.jpg"
-    alt="MacOS X screenshot" width="150" height="113" /></a>
-    <br />  Mac OS X (1024x768) </td>
-
-    <td class="center"><a href="/vlc/screenshots/20040531-linux-1.jpg"><img
-    src="/vlc/screenshots/tn_20040531-linux-1.jpg"
-    alt="wxWidgets Linux screenshot" width="150" height="113" /></a>
-    <br />  wxGTK Linux (1280x960) </td>
-
-    <td class="center"><a href="/vlc/screenshots/20040531-linux-2.jpg"><img
-    src="/vlc/screenshots/tn_20040531-linux-2.jpg"
-    alt="wxWidgets Linux screenshot" width="150" height="113" /></a>
-    <br />  wxGTK Linux (1280x960) </td>
-
+<?php
+screenshot( "/vlc/screenshots/20040531-osx-1.jpg",
+            "/vlc/screenshots/tn_20040531-osx-1.jpg",
+            "Mac OS X (1280x960)" );
+screenshot( "/vlc/screenshots/20040531-osx-2.jpg",
+            "/vlc/screenshots/tn_20040531-osx-2.jpg",
+            "Mac OS X (1024x768)" );
+screenshot( "/vlc/screenshots/20040531-linux-1.jpg",
+            "/vlc/screenshots/tn_20040531-linux-1.jpg",
+            "wxGTK Linux (1280x960)" );
+screenshot( "/vlc/screenshots/20040531-linux-2.jpg",
+            "/vlc/screenshots/tn_20040531-linux-2.jpg",
+            "wxGTK Linux (1280x960)" );
+?>
 </tr></tbody></table>
 
 <table cellspacing="5" cellpadding="5" border="0"><tbody><tr>

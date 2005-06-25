@@ -12,10 +12,10 @@
     echo '<rss version="0.91"><channel><pubDate>'.date("D, j M Y G:i:s").'</pubDate><description>VLC Counter</description>';
     echo "<link>http://www.videolan.org</link><title>VLC</title>";
     $requests = array(  "%vlc%" =>"VLC",
-    		        "%0.8.1%" => "VLC 0.8.1",
-			"%0.8.1%win32%"=> "VLC 0.8.1 Win32",
-			"%0.8.1%dmg%"=> "VLC 0.8.1 MacOS X",
-			"%0.8.1%rpm%"=> "VLC 0.8.1 RPM" );
+    		        "%0.8.2%" => "VLC 0.8.2",
+			"%0.8.2%win32%"=> "VLC 0.8.2 Win32",
+			"%0.8.2%dmg%"=> "VLC 0.8.2 MacOS X",
+			"%0.8.2%rpm%"=> "VLC 0.8.2 RPM" );
     foreach( $requests as $k => $v )
     {
         $request = pg_query($connect, "SELECT sum(number) FROM mirrors WHERE file like '$k'" );

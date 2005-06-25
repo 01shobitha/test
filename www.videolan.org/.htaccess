@@ -13,6 +13,9 @@ RewriteRule \.svn /404.html [L]
 #
 # Redirects for moved pages
 #
+Redirect permament /x264.html http://developers.videolan.org/
+Redirect permament /libdca.html http://developers.videolan.org/
+
 RewriteRule ^vlcs(.*)$ /network$1 [R=permanent,L]
 RewriteRule ^packages(.*)$ /pub/vlc$1 [R=permanent,L]
 RewriteRule ^screenshots(.*)$ /vlc/screenshots$1 [R=permanent,L]

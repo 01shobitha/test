@@ -9,11 +9,11 @@
 
 <h1> VLC media player for FreeBSD</h1>
 
-<h2>Install VLC trough emerge</h2>
+<h2>Install VLC trough the Ports Collection</h2>
 
 <p>VLC is included in the <a href="http://www.freebsd.org/ports/index.html">Ports Collection</a>  of the <a
 href="http://www.freebsd.org/">Freebsd</a> operating system.
-So you can simply installl VLC </p>
+So you can simply installl VLC with <i>pkg_add</i>.</p>
 <p>However you will get a very bare bones version of VLC. We advice to compile with the following commad: 
 </p>
 <pre>

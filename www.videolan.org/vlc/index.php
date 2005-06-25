@@ -199,15 +199,20 @@ libraries and build them yourself:</p>
        <p>D/L rate : <span id="dlrate">Calculating...</span> /second</p>
        <p style="text-align:center;"><a href="/live.html">Full statistics</a></p>
       </div>
-      <a href="/vlc/screenshots/20040602-windows-wxembed-3.jpg">
+      <a href="/vlc/screenshots.html">
       <img width="300" height="240"
       src="/vlc/screenshots/mi_20040602-windows-wxembed-3.jpg"
       alt="Windows screenshot" /></a>
     <br />
-      <a href="/vlc/screenshots/20040531-osx-1.jpg">
+      <a href="/vlc/screenshots.html">
       <img width="300" height="225"
       src="/vlc/screenshots/mi_20040531-osx-1.jpg"
       alt="Mac OS X screenshot" /></a>
+    <br />
+      <a href="/vlc/screenshots.html">
+      <img width="300" height="240"
+      src="/vlc/screenshots/0.8.2/tm_linux-skins2-MediaPlayer.jpg"
+      alt="Linux screenshot" /></a>
     </td>
   </tr>
 </table>

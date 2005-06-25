@@ -36,8 +36,8 @@
      <li>It is available for almost every OS</li>
     </ul>
     <div class="download">
-    <p><a class="download" href="/mirror.php?file=vlc/0.8.1/win32/vlc-0.8.1-win32.exe">Download Now</a> for Windows (6.8 MB)</p>
-    <p><a class="download" href="/mirror.php?file=vlc/0.8.1/macosx/vlc-0.8.1.dmg">Download Now</a> for MacOS X (9.6 MB)</p>
+    <p><a class="download" href="/mirror.php?mirror=http://download2.videolan.org/pub/videolan/&file=vlc/0.8.1/win32/vlc-0.8.1-win32.exe">Download Now</a> for Windows (6.8 MB)</p>
+    <p><a class="download" href="/mirror.php?mirror=http://download2.videolan.org/pub/videolan/&file=vlc/0.8.1/macosx/vlc-0.8.1.dmg">Download Now</a> for MacOS X (9.6 MB)</p>
     <p><a  href="/vlc/">Others systems, learn more</a></p>
     </div>
   </div>

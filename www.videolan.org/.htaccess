@@ -13,8 +13,6 @@ RewriteRule \.svn /404.html [L]
 #
 # Redirects for moved pages
 #
-Redirect permament /x264.html http://developers.videolan.org/
-Redirect permament /libdca.html http://developers.videolan.org/
 
 RewriteRule ^vlcs(.*)$ /network$1 [R=permanent,L]
 RewriteRule ^packages(.*)$ /pub/vlc$1 [R=permanent,L]
@@ -109,6 +107,10 @@ Redirect permanent /doc/en/vls-user-guide http://www.videolan.org/doc/vls-user-g
 #
 # Redirects for stuff moved to developers site
 #
+
+Redirect permanent /x264.html http://developers.videolan.org/x264.html
+Redirect permanent /libdca.html http://developers.videolan.org/libdca.html
+
 RewriteRule ^vlc/changelog.html http://developers.videolan.org/vlc/ChangeLog [R=permanent,L]
 RewriteRule ^vls/changelog.html http://developers.videolan.org/vls/ChangeLog [R=permanent,L]
 RewriteRule ^cvs.html http://developers.videolan.org/cvs.html [R=permanent,L]

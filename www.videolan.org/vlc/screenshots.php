@@ -23,6 +23,14 @@ screenshot( "/vlc/screenshots/0.8.2/linux-wxwin-all.png",
             "/vlc/screenshots/0.8.2/tm_linux-wxwin-all.png",
             "wxWidgets interface all windows opened",
             "wxGTK Linux (1280x1024)" );
+screenshot( "/vlc/screenshots/0.8.2/linux-wxwin-mosaic.jpg",
+            "/vlc/screenshots/0.8.2/tm_linux-wxwin-mosaix.jpg",
+            "wxWidgets interface with mosaic",
+            "wxGTK Linux - Mosaic (1024x768)" );
+screenshot( "/vlc/screenshots/0.8.2/linux-skins2-MediaPlayer.jpg",
+            "/vlc/screenshots/0.8.2/tm_linux-skins2-MediaPlayer.jpg",
+            "Skins2 interface - Media Player skin",
+            "Skins2 (1024x768)" );
 ?>
 <td></td></tr></tbody></table>
 

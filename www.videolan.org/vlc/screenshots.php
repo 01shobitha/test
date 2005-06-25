@@ -40,6 +40,14 @@ screenshot( "/vlc/screenshots/0.8.2/linux-wxwin-mosaic.jpg",
 
 <table cellspacing="5" cellpadding="5" border="0"><tbody><tr>
 <?php
+screenshot( "/vlc/screenshots/0.8.2/windows-wxwin-hdtv.png",
+            "/vlc/screenshots/0.8.2/tm_windows-wxwin-hdtv.png",
+            "wxWidgets interface windows - HD TV",
+            "wxMSW Windows - HD TV (1280x1024)" );
+screenshot( "/vlc/screenshots/0.8.2/windows-wxwin-playlist.png",
+            "/vlc/screenshots/0.8.2/tm_windows-wxwin-playlist.png",
+            "wxWidgets interface windows - Playlist",
+            "wxMSW Windows - Playlist (1280x1024)" );
 screenshot( "/vlc/screenshots/0.8.2/linux-wxwin-all.png",
             "/vlc/screenshots/0.8.2/tm_linux-wxwin-all.png",
             "wxWidgets interface all windows opened",

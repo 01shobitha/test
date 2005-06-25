@@ -20,7 +20,8 @@
         {
 	     $index = rand( 0, sizeof( $mirrors ) );
 	     if( substr( $mirrors[ $index] , 0, 1 ) == "#" ) continue;
-	     $mirror = $mirrors[ $index ] ;
+             $esp = strpos( $mirrors[ $index] , " " );
+	     $mirror = substr( $mirrors[ $index ], 0, $esp );
 	}
    }
 ?>

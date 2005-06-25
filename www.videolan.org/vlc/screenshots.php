@@ -30,7 +30,7 @@ screenshot( "/vlc/screenshots/0.8.2/linux-wxwin-prefs.png",
 screenshot( "/vlc/screenshots/0.8.2/linux-skins2-MediaPlayer.jpg",
             "/vlc/screenshots/0.8.2/tm_linux-skins2-MediaPlayer.jpg",
             "Skins2 interface - Media Player skin",
-            "Skins2 (1024x768)" );
+            "Skins2 Linux (1024x768)" );
 screenshot( "/vlc/screenshots/0.8.2/linux-wxwin-mosaic.jpg",
             "/vlc/screenshots/0.8.2/tm_linux-wxwin-mosaic.jpg",
             "wxWidgets interface with mosaic",

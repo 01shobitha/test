@@ -145,7 +145,7 @@ Patent banner code
   <tr align="center">
     <td valign="top" colspan="2" align="center" style="background-color:white; border: 5px solid red;">
 <a href="/patents.html"><img src="http://demo.ffii.org/banners/Banana-En-Banner-728x90.png"
-alt="No Banana Union - No Software Patents" width="728" height="90" border="0"/></a>
+alt="No Banana Union - No Software Patents" width="728" height="90" /></a>
       <div style="color: red; font-size:30px; font-style: bold; text-align:center; line-height: 1.4em;" >
         Beware: VideoLAN might disappear due to patent legislation.
       </div>

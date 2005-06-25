@@ -47,7 +47,7 @@
      <ul>
       <li>VLC reads from a large panel of input devices</li>
       <li>It features extended streaming features (video on demand,
-          on the fly transcoding, ...)
+          on the fly transcoding, ...)</li>
      </ul>
     <div class="download">
     <p><a href="/streaming">Learn more</a></p>

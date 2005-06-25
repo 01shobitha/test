@@ -25,39 +25,68 @@
   </tr>
 </table>
 
-<table border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td style="width: 75%">
+<div class="solutions"> 
+   <div class="solution1">
+    <h3>VLC media player</h3>
+    <p>VLC is a free cross-platform media player.</p>
+    <ul>
+     <li>It supports a <a href="/vlc/features.html">large number of multimedia
+	 formats</a>, without the need for additionnal codecs</li>
+     <li>It needs little CPU power</li>
+     <li>It is available for almost every OS</li>
+    </ul>
+    <div class="download">
+    <p><a class="download" href="/mirror.php?file=vlc/0.8.1/win32/vlc-0.8.1-win32.exe">Download Now</a> for Windows (6.8 MB)</p>
+    <p><a class="download" href="/mirror.php?file=vlc/0.8.1/macosx/vlc-0.8.1.dmg">Download Now</a> for MacOS X (9.6 MB)</p>
+    <p><a  href="/vlc/">Others systems, learn more</a></p>
+    </div>
+  </div>
+  <div class="solution2">
+     <h3>Streaming solution</h3>
+     <p>VLC can also be used as a streaming server</p>
+     <ul>
+      <li>VLC reads from a large panel of input devices</li>
+      <li>It features extended streaming features (video on demand,
+          on the fly transcoding, ...)
+     </ul>
+    <div class="download">
+    <p><a href="/streaming">Learn more</a></p>
+   </div>
+  </div>
+</div>
 
-<h2>Free Software and Open Source video streaming solution for every OS!</h2>
+<div class="others">
+  <div class="others1">
+<h2>News</h2>
 
-  <p> The VideoLAN project targets multimedia streaming of <b>MPEG-1</b>,
-  <b>MPEG-2</b>, <b>MPEG-4</b> and <b>DivX</b> files, <b>DVDs</b>, digital
-  satellite channels, digital terrestial television channels and live
-  videos on a high-bandwidth IPv4 or <b>IPv6</b> network in unicast or
-  <b>multicast</b> under many OSes. VideoLAN also features a cross-platform
-  multimedia player, <a href="/vlc/index.html">VLC media player</a>, which can be used
-  to read the stream from the network or display video read locally on the
-  computer under all GNU/Linux flavours, all BSD flavours, Windows, Mac OS X,
-  BeOS, Solaris, QNX, Familiar Linux...</p>
+  <?php shownews("full",5); ?>
 
-  <p>VideoLAN is <a href="http://www.gnu.org/philosophy/free-sw.html">free
-  software</a>, and is released under the GNU <a
+
+
+
+  </div>
+  <div class="others2">
+
+  <h2>Project</h2>
+
+  <p>VideoLAN produces
+  <a href="http://www.gnu.org/philosophy/free-sw.html">free
+  software</a> for video, released under the GNU <a
   href="http://www.gnu.org/copyleft/gpl.html">General Public
-  License</a>. It started as a student project at the French <a
+  License</a>. <br />
+  It started as a student project at the French <a
   href="http://www.ecp.fr/">École Centrale Paris</a> but is now a worldwide
   project with <a href="/team/index.html">developers</a> from 20 countries.</p>
 
-  <p> More information about the VideoLAN streaming solution be found in the
-  <a href="/streaming/">streaming</a> section. </p>
 
+<h2>Help</h2>
   <p> For setup instructions, see the <a href="/doc/">documentation</a>
-  section. If you have a problem that is not
+  section. <br />If you have a problem that is not
   covered in the documentation, look at the <a
   href="/support/">support</a> section to know about the 
   <a href="http://forum.videolan.org">web forums</a>, the
-  <a href="/support/lists.html">user mailing-lists</a> and the IRC channels
-  users and developers usually hook on. </p>
+  <a href="/support/lists.html">user mailing-lists</a> and other support
+  methods.</p>
 
 <h2>Contribute!</h2>
 
@@ -66,57 +95,8 @@
   material or even money. See the <a href="contribute.html">contribution
   page</a> for more information.</p>
 
-<h2>News</h2>
 
-  <?php shownews("full",5); ?>
-
-</td>
-
-<td style="width: 25%; white-space: nowrap; vertical-align: top;">
-
-  <div style="text-align: center;">
-    <a href="http://www.videolan.org/vlc" title="Get VLC media player - It plays, it streams, it kills WiMPs!!">
-    <img src="http://download.videolan.org/images/buttons/GetVLC_120.png" alt="Get VLC media player" /></a>
-  </div>
-
-  <br />
-
-  <div style="text-align:center;">
-    <a href="http://forum.videolan.org">VideoLAN Forum</a>
-  </div>
-
-  <br />
-
-  <div style="text-align: center;">
-    <a href="http://www.opensource.org/osa/awards.php">
-    <img width="135" height="135" src="/images/osamerit.png"
-       style="vertical-align: middle; border-width: 0px;"
-       alt="OSI Merit Award" /></a>
-  </div>
-
-  <br />
-
-  <div style="text-align: center;">
-    <a href="/events/20030204/team.jpg"><img width="149" height="112"
-      src="/events/20030204/tn_team.jpg" style="vertical-align: middle;"
-      alt="Part of the team at Linux Expo Paris 2003" /></a>
-  </div>
-
-  <br />
-
-  <div style="text-align: center;">
-    <a href="/images/cone-soppera10.png">
-    <img
-      src="/images/cone-soppera10-moyen.png"
-      style="vertical-align: middle; border-width: 0px;"
-      alt="The VideoLAN logo"
-      width="77"
-      height="100" /></a>
-  </div>
-
-</td>
-
-  </tr>
-</table>
+</div>
+</div>
 
 <?php footer('$Id$'); ?>

@@ -465,6 +465,7 @@ img.button
 ***********/
 table.footer
 {
+  clear:both;
   margin: 20px 0px 0px 0px;
   width: 100%;
   background-color: #D8D8F8;
@@ -478,8 +479,83 @@ table.footer
  ***********/
 div.livecounter
 {
- 
     border:2pt #d8d8f8 solid;
     padding:0.4em;
-    margin-bottom:1em;
+}
+
+/********
+ */
+
+div.download
+{
+    border:2pt #d8d8f8 solid;
+    padding:0.4em;
+    margin:1em;
+  background-color: #F8F8D8;
+  padding: 10px;
+  border-style: solid;
+  border-color: #FFFFF0 #C0C0A0 #C0C0A0 #FFFFF0;
+  border-width: 1px;
+}
+
+a.download
+{
+   font-size:1.2em;
+}
+
+div.solution1
+{
+   width:48%;
+   padding-top:1em;
+   float:left; 
+
+}
+
+div.solution2 
+{
+   width:48%;
+   padding-top:1em;
+   float:right;
+}
+
+div.solutions
+{
+    margin:1%;
+}
+
+div.others {
+   clear:both;
+   padding-top:1em;
+}
+
+div.others1 {
+ float:left;
+ width:46%;
+}
+div.others2 {
+ float:right;
+ width:46%;
+}
+
+
+
+div.solutions h3
+{
+  font-size:1.3em;
+  background-color: #d8f8d8;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #f0fff0 #a0c0a0 #a0c0a0 #f0fff0;
+}
+
+div.banana {
+   padding-top:0.5em;
+   padding-bottom:0.5em;
+   width:45%;
+   float:left;
+}
+
+div.patents{
+   width:45%; 
+   float:right;
 }

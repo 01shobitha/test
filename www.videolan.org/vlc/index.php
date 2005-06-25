@@ -211,7 +211,7 @@ libraries and build them yourself:</p>
     <br />
       <a href="/vlc/screenshots.html">
       <img width="300" height="240"
-      src="/vlc/screenshots/0.8.2/tm_linux-skins2-MediaPlayer.jpg"
+      src="/vlc/screenshots/0.8.2/mi_linux-wxwin-playlist.jpg"
       alt="Linux screenshot" /></a>
     </td>
   </tr>

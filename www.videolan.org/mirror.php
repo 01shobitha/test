@@ -2,7 +2,28 @@
    require '/home/videolan/etc/db.php';
    $mirror = $_GET["mirror"];
    $file = $_GET["file"];
-   if( !isset($mirror) || !isset($file) ) { die; } ?>
+
+
+   if( !isset($file) ) { die; }
+  
+   # Pick up a random mirror  
+   if( !isset( $mirror ) )
+   {
+	$listfile = $_SERVER["DOCUMENT_ROOT"]."/include/mirrors";
+        $file_id = fopen( $listfile , "r" );
+        $all = fread( $file_id, filesize( $listfile ) );
+        fclose( $file_id );
+        $mirrors = explode( "\n", $all );
+        array_pop( $mirrors );
+
+	while( !isset( $mirror ) )
+        {
+	     $index = rand( 0, sizeof( $mirrors ) );
+	     if( substr( $mirrors[ $index] , 0, 1 ) == "#" ) continue;
+	     $mirror = $mirrors[ $index ] ;
+	}
+   }
+?>
 <html>
  <head>
   <title>VideoLAN - Download from mirror</title>

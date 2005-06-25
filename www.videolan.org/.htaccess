@@ -13,7 +13,7 @@ RewriteRule \.svn /404.html [L]
 #
 # Redirects for moved pages
 #
-
+RewriteRule ^contact.htm$ /team/index.html [R=permanent,L]
 RewriteRule ^vlcs(.*)$ /network$1 [R=permanent,L]
 RewriteRule ^packages(.*)$ /pub/vlc$1 [R=permanent,L]
 RewriteRule ^screenshots(.*)$ /vlc/screenshots$1 [R=permanent,L]

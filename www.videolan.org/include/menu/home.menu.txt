@@ -1,9 +1,8 @@
 overview;Overview;/
 news;News;/news.html
 events;Events;/events/
-team;Team;/team/
+team;Team/Contact;/team/
 partners;Partners;/partners.html
 contribute;Contribute;/contribute.html
-contact;Contact;/contact.html
 links;Links;/links.html
 goodies;Goodies;/goodies.html

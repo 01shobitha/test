@@ -188,4 +188,20 @@ Julien Lafaix, Julien Marx and Pierre-Antoine Rappenne.
 </p>
 </div>
 </div>
+
+<div class="others">
+<h1>Legal contact</h1>
+
+<p>Hosting for the VideoLAN project is provided by&nbsp;:
+</p>
+
+<pre style="margin-left: 60px;">
+VIA Centrale Réseaux
+Résidence des élèves de l'École Centrale
+2, avenue Sully Prudhomme
+92 290 Châtenay Malabry
+France
+</pre>
+</div>
+
 <?php footer('$Id$'); ?>

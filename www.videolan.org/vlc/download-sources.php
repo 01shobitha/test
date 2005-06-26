@@ -18,6 +18,7 @@
 <ul>
   <?php
      pkgitem("0.8.2","vlc-0.8.2.tar.gz","");
+     pkgitem("0.8.2","vlc-0.8.2.tar.bz2","");
   ?>
   <li><a href="http://downloads.videolan.org/pub/videolan/vlc/0.8.2/"><i>browse the list</i></a></li>
 </ul>

@@ -193,7 +193,7 @@ libraries and build them yourself:</p>
    </td><td>
 
       <div class="livecounter">
-       <h3 style="text-align:center">VLC Downloads<br /><span style="font-weight: bold" id="vlccounter">Loading...</span></h3>
+       <h3 style="text-align:center">VLC 0.8.2 Downloads<br /><span style="font-weight: bold" id="vlccounter">Loading...</span></h3>
        <p><span id="dlrate">Calculating...</span> downloads/second</p>
        <p style="text-align:center;"><a href="/live.html">Full statistics</a></p>
       </div>

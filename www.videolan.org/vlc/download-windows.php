@@ -10,22 +10,22 @@
 
 ?>
 
-<?php function pkgitemdev($version,$name) { ?><li><a href="http://download.videolan.org/pub/videolan/testing/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a></li><?php } ?>
+<?php function pkgitemdev($version,$name) { ?><li><a href="http://downloads.videolan.org/pub/videolan/testing/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a></li><?php } ?>
 
 <h1> VLC media player for Windows </h1>
 
-<h2>Latest packages (0.8.1)</h2>
+<h2>Latest packages (0.8.2)</h2>
 
 <p> Windows self-extracting package: </p>
 
 <ul>
-  <?php pkgitem("0.8.1/win32","vlc-0.8.1-win32.exe","vlc"); ?>
+  <?php pkgitem("0.8.2/win32","vlc-0.8.2-win32.exe","vlc"); ?>
 </ul>
 
 <p> Windows zip package (identical to the above but without the installer): </p>
 
 <ul>
-  <?php pkgitem("0.8.1/win32","vlc-0.8.1-win32.zip","vlc"); ?>
+  <?php pkgitem("0.8.2/win32","vlc-0.8.2-win32.zip","vlc"); ?>
 </ul>
 
 <p> <span style="color: red;"><b>Virus warning</b></span>: we have had several
@@ -34,24 +34,7 @@ detected Bck/Optix). These are <b>false positives</b>, our packages are <b>not
 trojaned</b>. The Windows version is compiled on a Linux box, it is highly
 unlikely that a Windows virus would end there. However be aware, to only 
 download VLC from the above mentioned locations. </p>
-<!--
-<h2>Latest beta packages (0.8.0-test2)</h2>
 
-<p>These are beta packages for the next version: 0.8.0</p>
-
-<p>Windows self-extracting package:</p>
-
-<ul>
-<?php pkgitemdev("vlc-0.8.0-test2/win32", "vlc-0.8.0-test2-win32.exe"); ?>
-</ul>
-
-<p> Windows zip package (identical to the above but without the installer): </p>
-  	 
-  	
-<ul>
-  <?php pkgitemdev("vlc-0.8.0-test2/win32","vlc-0.8.0-test2-win32.zip"); ?>
-</ul>
--->
 <h2>Older versions</h2>
 
 <p> Older versions can be found by browsing our FTP site :</p>

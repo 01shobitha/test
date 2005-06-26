@@ -20,13 +20,13 @@
 <p>If you would like to join the project, feel free to send us an e-mail to the <a href="http://developers.videolan.org/lists.html">vlc-devel mailing list</a> or to contact us through our <a href="http://forum.videolan.org/viewtopic.php?t=3675&amp;start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">forum</a>. </p>
 -->
 
-<h2>Latest Mac OS X package (0.8.1)</h2>
+<h2>Latest Mac OS X package (0.8.2)</h2>
 
 <p><b>Note:</b> There is not, and there will never be, a version for Mac OS 9.</p>
 
-<p>(Requires Mac OS X 10.2 or 10.3) <br/> This version does <b>not</b> support 10.4 Tiger. Download <a href="index.html">VLC 0.8.2-test2 or later</a>, if you are using this OS.</p>
+<p>(Requires Mac OS X 10.2, 10.3 or 10.4)</p><!-- <br/> This version does <b>not</b> support 10.4 Tiger. Download <a href="index.html">VLC 0.8.2-test2 or later</a>, if you are using this OS.</p>-->
 <ul>
-<?php pkgitem("0.8.1/macosx","vlc-0.8.1.dmg","vlc"); ?>
+<?php pkgitem("0.8.2/macosx","vlc-0.8.2.dmg","vlc"); ?>
 </ul>
 <p>(Last version for Mac OS X 10.1)</p>
 <ul>  
@@ -37,15 +37,6 @@
 <code>.dmg</code> file, open it, and copy it to your hard drive
 (for instance the <code>/Applications</code> folder). Open VLC by
 double-clicking on it. </p>
-<!--
-<h2>Mac OS X beta package (0.8.0-test2)</h2>
-
-<p>This is the beta package for the next version: 0.8.0</p>
-
-<ul>
- <?php pkgitemdev( "vlc-0.8.0-test2/macosx" , "vlc-0.8.0-test2.dmg"); ?>
-</ul>
--->
 <h2>Older versions</h2>
 
 <p> Older versions can be found by browsing our FTP site :</p>

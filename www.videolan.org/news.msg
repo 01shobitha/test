@@ -1,6 +1,21 @@
 # Les commentaires commencent par un # en premier position 
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
+|26 June 2005| Release: VLC media player 0.8.2| This new release features many
+imporvements including a full playlist rewrite, improved preferences,
+Mac OS X Tiger compatibility, a brand new Internet Explorer ActiveX
+plugin, a port to Pocket PC, mosaic picture in picture system, easy
+snapshots ...<br />
+Have a look <a href="http://developers.videolan.org/vlc/NEWS">here</a>
+for the full list of changes.<br />
+Binary packages and the source code are available on the <a href="/vlc/">
+VLC download page</a>.<br />
+You can get help concerning this new release on the <a href="/doc/"
+>Documentation Page</a>, <a href="http://forum.videolan.org/"
+>Forum</a>, <a href="http://wiki.videolan.org" >Wiki</a>, <a
+href="/support/lists.html" >Mailing Lists</a> or on #videolan on
+Freenode. Remember to reset your preferences if you experience problems
+after upgrading from a previous version.
 
 |16 June 2005| VideoLAN at LinuxTag| The VideoLAN team will be present at <a href="http://www.linuxtag.org/">LinuxTag</a> in Karlsruhe, Germany the 23 and 24 of June 2005. We will also hold a conference on VLC.
 

@@ -1,17 +1,17 @@
-#round robin between krishna and duga :
+#round robin between krishna, durga and ganesh:
 http://download2.videolan.org/pub/videolan/ VIA Centrale Réseaux (France) [http]
-#krishna only :
-#http://download.videolan.org/pub/videolan/ VIA Centrale Réseaux (France) [http]
-#durga only :
-#ftp://ftp2.videolan.org/pub/videolan/ VIA Centrale Réseaux - 2 (France) [ftp]
+# contact: thedj
 http://130.89.175.1/pub/software/videolan/ Twente University (Netherlands) [http]
+# contact: vinceII on irc.rezosup.net
 ftp://ftp.crans.org/pub/videolan/ Cr@ns, ENS Cachan (France) [ftp]
 #
 # contact : hsunchang at gmail dot com
-ftp://videolan.cs.pu.edu.tw/Windows/VideoLAN/ Providence University (Taiwan) [ftp]
+######## FIXME/ Disabled for now - does not have 0.8.2
+#ftp://videolan.cs.pu.edu.tw/Windows/VideoLAN/ Providence University (Taiwan) [ftp]
 #
 # contact : juan dot mussini at pucpr dot br
-ftp://ftp.pucpr.br/videolan/ Pontifícia Universidade Católica do Paraná (Brazil) [ftp]
+######## FIXME/ Disabled for now - does not have 0.8.2 (+slow ?)
+#ftp://ftp.pucpr.br/videolan/ Pontifícia Universidade Católica do Paraná (Brazil) [ftp]
 #
 # seems broken. i can't find the email address to join the mantainer
 # contact : ???
@@ -21,4 +21,5 @@ ftp://ftp.pucpr.br/videolan/ Pontifícia Universidade Católica do Paraná (Brazil)
 ftp://ftp.yi.se/pub/videolan/ Young Insurgents (Sweden) [ftp]
 #
 # contact : dysarz at ciaccess dot com
-ftp://f33r.net/ F33r Internet services (Canada) [ftp]
+######## FIXME/Disabled for now - down ?
+#ftp://f33r.net/ F33r Internet services (Canada) [ftp]

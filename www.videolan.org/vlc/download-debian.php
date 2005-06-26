@@ -11,13 +11,13 @@
 
 <h1> VLC media player for Debian GNU/Linux</h1>
 
-<h2> Debian stable (woody) </h2>
+<h2> Debian stable (sarge) </h2>
 
 <p> Add the following lines to your <b>/etc/apt/sources.list</b>:</p>
 
 <pre>
-     deb http://download.videolan.org/pub/videolan/debian woody main
-     deb-src http://download.videolan.org/pub/videolan/debian woody main
+     deb http://download.videolan.org/pub/videolan/debian sarge main
+     deb-src http://download.videolan.org/pub/videolan/debian sarge main
 </pre>
 
 <p> For a normal install, do:</p>
@@ -46,7 +46,7 @@ its latest version: </p>
 </pre>
 
 
-<h2> Debian testing (sarge) </h2>
+<h2> Debian testing (etch) </h2>
 
 <p> You should not be using Debian testing unless you perfectly know what you
 are doing. It is almost impossible to support Debian testing and there are no

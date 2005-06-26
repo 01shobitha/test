@@ -13,7 +13,8 @@
 
 <h2> Debian stable (sarge) </h2>
 
-<p> Add the following lines to your <b>/etc/apt/sources.list</b>:</p>
+<p> A fairly recent version (between 0.8.1 and 0.8.2) is packaged in Sarge.
+However, if you want libdvdcss (DVD decryption) support, you will need to add the following lines to your <b>/etc/apt/sources.list</b>:</p>
 
 <pre>
      deb http://download.videolan.org/pub/videolan/debian sarge main
@@ -24,14 +25,13 @@
 
 <pre>
    # apt-get update
-   # apt-get install gnome-vlc libdvdcss2
+   # apt-get install vlc libdvdcss2
 </pre>
 
 <h2> Debian unstable (sid) </h2>
 
 <p> VLC's latest packaged version is always in the official Debian unstable
-branch. However you should still use our apt-get line if you need libdvdcss in
-its latest version: </p>
+branch. However you should still use our apt-get line if you need libdvdcss: </p>
 
 <pre>
      deb http://download.videolan.org/pub/videolan/debian sid main
@@ -42,20 +42,13 @@ its latest version: </p>
 
 <pre>
    # apt-get update
-   # apt-get install wxvlc libdvdcss2
+   # apt-get install vlc libdvdcss2
 </pre>
 
 
 <h2> Debian testing (etch) </h2>
 
-<p> You should not be using Debian testing unless you perfectly know what you
-are doing. It is almost impossible to support Debian testing and there are no
-plans to do it. </p>
-
-<h2>Older versions</h2>
-
-<p> Older versions can be found by browsing our FTP site :</p>
-<ul> <?php mirrordir("vlc"); ?> </ul>
+<p> VLC is probably available too in testing, but due to the way testing works, we can't guarantee which version is currently available. </p>
 
 <?php
   footer('$Id$');

@@ -28,12 +28,12 @@
 <div class="solutions"> 
    <div class="solution1">
     <h3>VLC media player</h3>
-    <p>VLC is a free cross-platform media player.</p>
+    <p><a href="vlc/">VLC</a> is a free cross-platform media player.</p>
     <ul>
      <li>It supports a <a href="/vlc/features.html">large number of multimedia
 	 formats</a>, without the need for additionnal codecs</li>
-     <li>It needs little CPU power</li>
      <li>It is available for almost every OS</li>
+     <li>It needs little CPU power</li>
     </ul>
     <div class="download">
     <p><a class="download" href="/mirror.php?mirror=http://downloads.videolan.org/pub/videolan/&file=vlc/0.8.2/win32/vlc-0.8.2-win32.exe">Download Now</a> for Windows (7.9 MB)</p>

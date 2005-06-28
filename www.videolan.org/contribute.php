@@ -54,7 +54,8 @@ donating money for the G5 in the donation comments.<br />
 Status bar : <img src="/images/green-pix.png" style="border: 0px;
 padding: 0px; margin:0px" height="10px" width="1px" alt="ok" /><img
 src="/images/red-pix.png" style="border: 0px; padding: 0px; margin:0px"
-height="10px" width="149px" alt="not ok" /></p>
+height="10px" width="149px" alt="not ok" /> (green is what is already
+available, red is what we still need in order to buy the G5)</p>
 
 
 <h3>What is the legal structure of VideoLAN?</h3>

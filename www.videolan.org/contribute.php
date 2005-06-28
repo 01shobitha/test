@@ -43,6 +43,20 @@ tell you if we are interested and give you our snail-mail address. </p>
 
 <h2><a name="money"></a>Donate money</h2>
 
+<h3>Special project : Fund a Mac G5</h3>
+
+<p>We desperately need a G5 to continue developement on Mac hardware.
+<a href="http://forum.videolan.org/viewtopic.php?p=31286">More info
+here</a>. Current status of donnations is: 10&euro; donated ... much
+more needed (lets say 1490&euro;). Remember to mention that you are
+donating money for the G5 in the donation comments.<br />
+
+Status bar : <img src="/images/green-pix.png" style="border: 0px;
+padding: 0px; margin:0px" height="10px" width="1px" alt="ok" /><img
+src="/images/red-pix.png" style="border: 0px; padding: 0px; margin:0px"
+height="10px" width="149px" alt="not ok" /></p>
+
+
 <h3>What is the legal structure of VideoLAN?</h3>
 
 <p> VideoLAN is a project of the association <a

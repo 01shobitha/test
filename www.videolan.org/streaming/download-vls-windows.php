@@ -4,6 +4,8 @@
    $date = "9 October 2001";
    $menu = array( "streaming", "" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
+   include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
+   include($_SERVER["DOCUMENT_ROOT"]."/include/mirrordir.php");
 ?>
 
 <h1> VLS for Windows </h1>

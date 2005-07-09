@@ -24,10 +24,10 @@
 
 <ul>
   <?php
-     pkgitem("vls/0.5.6/contrib","libdvbpsi3-0.1.4.tar.gz","(MPEG TS and DVB PSI tables library)");
-     pkgitem("vls/0.5.6/contrib","libdvdcss-1.2.8.tar.gz","(DVD decryption library)");
-     pkgitem("vls/0.5.6/contrib","libdvdread-0.9.4.tar.gz","(DVD reading library)");
-     pkgitem("vls/0.5.6/contrib","libdvb-0.2.2.tar.gz","(DVB library)");
+     pkgitem("0.5.6/contrib","libdvbpsi3-0.1.4.tar.gz","vls","(MPEG TS and DVB PSI tables library)");
+     pkgitem("0.5.6/contrib","libdvdcss-1.2.8.tar.gz","vls","(DVD decryption library)");
+     pkgitem("0.5.6/contrib","libdvdread-0.9.4.tar.gz","vls","(DVD reading library)");
+     pkgitem("0.5.6/contrib","libdvb-0.2.2.tar.gz","vls","(DVB library)");
   ?>
 
   <li><a href="http://download.videolan.org/pub/videolan/vls/0.5.6/contrib"><i>browse the list</i></a></li>

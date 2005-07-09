@@ -13,7 +13,7 @@
 <p>Latest miniSAPserver tarball (0.3.0) (suggests VLC 0.8.2 or higher):</p>
 
 <ul>
-  <?php pkgitem("0.3.0","miniSAPserver-0.3.0.tar.bz2","miniSAPserver"); ?>
+  <?php pkgitem("0.3.0","minisapserver-0.3.0.tar.bz2","miniSAPserver"); ?>
 </ul>
 
 <?php

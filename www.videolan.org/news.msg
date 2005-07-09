@@ -2,13 +2,13 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 |9 July 2005| Release: miniSAPserver 0.3.0| This release allows proper
-announcing of RTP streams, perform characters set convertion
+announcing of RTP streams, performs characters set convertion
 automatically when needed, selects the most appropriate SAP multicast
 address automatically and supports manual output interface selection.
 Some minor issues were fixed. These updates are in adequacy with
 changes in version 0.8.2 of VLC media player.
 You are encouraged to upgrade to this version:
-<a href="http://www.videolan.org/streaming/download-sap-server.html">
+<a href="/streaming/download-sap-server.html">
 download it here</a>.
 
 |26 June 2005| Release: VLC media player 0.8.2| This new release features many
@@ -35,7 +35,7 @@ after upgrading from a previous version.
 
 |27 May 2005| VideoLAN wins award at Trophées du Libre| The VideoLAN team won the first prize in the « Multimedia » category at international free software contest <a href="http://www.tropheesdulibre.org">Trophées du Libre</a> (<a href="http://www.tropheesdulibre.org/article.php3?id_article=47">awards list</a>). We thus got a brand new HP laptop and a nice trophy. The laptop is already making friends in the cone community (<a href="http://download.videolan.org/images/sirius1.png">cones watching</a> <a href="http://download.videolan.org/images/sirius2.png">Roland Garros</a>).
 
-|26 May 2005| VideoLAN T-Shirts now available| VideoLAN T-Shirts are now available for download on <a href="http://www.videolan.org/goodies.html">the goodies page</a> ! Thanks to Lorenzo Milito for the winning design. Use a standard inkjet printer to get one ... You can also get one if you donate 12 EUR or 16 USD to the VideoLAN project. More info is available on <a href="http://www.videolan.org/goodies.html">the goodies page</a>.
+|26 May 2005| VideoLAN T-Shirts now available| VideoLAN T-Shirts are now available for download on <a href="/goodies.html">the goodies page</a> ! Thanks to Lorenzo Milito for the winning design. Use a standard inkjet printer to get one ... You can also get one if you donate 12 EUR or 16 USD to the VideoLAN project. More info is available on <a href="/goodies.html">the goodies page</a>.
 
 |14-15 May 2005| Linux Cambrésis| The VideoLAN team will be present at <a href="http://linuxcambresis.org/">Linux Cambrésis</a> in Northen France. We will also hold conferences on Saturday and Sunday.
 
@@ -68,7 +68,7 @@ thank you for your multiples usages of VLC media player and all your
 ideas of future developement. Our hardware were partialy lent by
 <a href="http://www.apple.com">Apple</a> and help we to tests new
 features. Photos can be found
-<a href="http://www.videolan.org/events/20050201/index.html">here</a>.
+<a href="/events/20050201/index.html">here</a>.
 
 |7 Feb 2005| VideoLAN T-shirt design contest | The VideoLAN team is
 about to make its very first T-shirts in world history ! Unfortunately,
@@ -90,14 +90,14 @@ aspects of VLC</a> is now available.
 
 |19 January 2005| The VideoLAN project investigates possible
 violation of their intellectual property| See the press release
-<a href="http://www.videolan.org/pr2005-1.html">here</a>. <span
+<a href="/pr2005-1.html">here</a>. <span
 style="font-weight: bold;">Update :</span> Following our request, Cinema
 On Web has removed the download from their web site. We would like to
 thank them for their quick response.
 
 |12 December 2004| New: VLC Play HOWTO| VLC's documentation
 rewrite is nearing completion. We are proud to bring you the <a
-href="http://www.videolan.org/doc/">VLC Play HOWTO</a>, a complete guide
+href="/doc/">VLC Play HOWTO</a>, a complete guide
 to VLC's use as a client. Translations and the VLC streaming HOWTO will
 follow shortly.
 
@@ -111,7 +111,7 @@ inconvenience.
 |15 November 2004| Release: VLC 0.8.1| This is mainly a bug fix release.<br />
 Look <a href="http://developers.videolan.org/vlc/NEWS">here</a> for the
 list of changes. To download the sources or the binary package of this
-new version, go to the <a href="http://www.videolan.org/vlc/">VLC
+new version, go to the <a href="/vlc/">VLC
 download page</a> and click on your OS logo!<br /> Only source, Win32
 and Mac OS X package are available at the moment, others should follow
 soon.<br />
@@ -124,7 +124,7 @@ Windows Media Video 3 support under Windows, Multipart JPEG webcam support,
 an audio equalizer and so much, much more.<br />
 Look <a href="http://developers.videolan.org/vlc/NEWS">here</a> for a complete
 list of changes. To download the sources or the binary package of this
-new version, go to the <a href="http://www.videolan.org/vlc/">VLC
+new version, go to the <a href="/vlc/">VLC
 download page</a> and click on your OS logo!<br /> Only source, Win32
 and Mac OS X package are available at the moment, others will follow
 soon.<br />
@@ -142,7 +142,7 @@ streams instead of mpeg-ts (vls produced) streams. It also fixes the
 playlistgroup parameter to be compliant with the SDP standard now.
 The new style of this parameter will be supported in the next 
 version of VLC. We strongly advise all users of miniSAPserver to 
-<a href="http://www.videolan.org/streaming/download-sap-server.html">
+<a href="/streaming/download-sap-server.html">
 download</a> and upgrade to this new version.
 
 |21 May 2004| Release: VLC 0.7.2| This new release of VLC media
@@ -153,7 +153,7 @@ stream output improvements, a VideoLAN manager to manage several
 streams with only one instance of VLC, and much more. Look <a
 href="http://developers.videolan.org/vlc/NEWS">here</a> for a complete
 list of changes. To download the sources or the binary package of this
-new version, go to the <a href="http://www.videolan.org/vlc/">VLC
+new version, go to the <a href="/vlc/">VLC
 download page</a> and click on your OS logo!<br /> Only source, Win32
 and MacOS X package are available at the moment, others will follow 
 soon.

@@ -8,14 +8,6 @@
    include($_SERVER["DOCUMENT_ROOT"]."/include/mirrordir.php");
 ?>
 
-<?php
-function pkgitem($version,$name,$comment)
-{
-  echo '<li><a href="http://download.videolan.org/pub/videolan/'.
-       $version.'/'.$name.'"><code>'.$name.'</code></a> '.$comment.'</li>';
-}
-?>
-
 <h1> VLS source code </h1>
 
 <h2>Tarballs</h2>

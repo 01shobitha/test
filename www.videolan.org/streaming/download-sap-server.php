@@ -14,7 +14,7 @@ function pkgitem($version,$name)
 }
 ?>
 
-<h1> MiniSAPserver for Linux and Mac OS X</h1>
+<h1> MiniSAPserver for Linux, BSD and Mac OS X</h1>
 
 <p>Latest miniSAPserver tarball (0.3.0) (suggests VLC 0.8.2 or higher):</p>
 

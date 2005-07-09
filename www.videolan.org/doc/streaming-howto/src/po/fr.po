@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-05-15 20:23+0200\n"
+"POT-Creation-Date: 2005-07-09 10:55+0200\n"
 "PO-Revision-Date: 2005-05-10 11:44+0100\n"
 "Last-Translator: Antoine Cellerier <dionoea AT videolan DOT org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1405,7 +1405,7 @@ msgstr "Diffusion multiple"
 msgid ""
 "Send a stream to a multicast IP address and a\n"
 "unicast IP address:"
-msgstr "Envoyer le flux vers une drasses IP multicast et une adresse IP unicast:"
+msgstr "Envoyer le flux vers une adresses IP multicast et une adresse IP unicast:"
 
 # type: Content of: <chapter><sect1><screen>
 #: en/examples.xml:55
@@ -1443,7 +1443,7 @@ msgstr ""
 #: en/examples.xml:71
 #, no-wrap
 msgid "Send parts of a multiple program input stream:"
-msgstr "Envoyer des perties d'un flux d'entrée multiple:"
+msgstr "Envoyer des parties d'un flux d'entrée multiple:"
 
 # type: Content of: <chapter><sect1><screen>
 #: en/examples.xml:75
@@ -1622,66 +1622,76 @@ msgstr "Diffuser en RTP"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><screen>
 #: en/examples.xml:198
-#, no-wrap
-msgid "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#rtp{dst=192.168.0.12,port=1234,sdp=http://server.example.org:8080/test.sdp}'</userinput>"
+#, fuzzy, no-wrap
+msgid "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#rtp{dst=192.168.0.12,port=1234,sdp=rtsp://server.example.org:8080/test.sdp}'</userinput>"
 msgstr "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#rtp{dst=192.168.0.12,port=1234,sdp=http://server.example.org:8080/test.sdp}'</userinput>"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><screen>
 #: en/examples.xml:208
-#, no-wrap
-msgid "<prompt>% </prompt><userinput>vlc http://server.example.org:8080/test.sdp</userinput>"
+#, fuzzy, no-wrap
+msgid "<prompt>% </prompt><userinput>vlc rtsp://server.example.org:8080/test.sdp</userinput>"
 msgstr "<prompt>% </prompt><userinput>vlc http://server.example.org:8080/test.sdp</userinput>"
 
+# type: Content of: <chapter><sect1><note><para>
+#: en/examples.xml:215
+#, no-wrap
+msgid ""
+"You can remplace the <emphasis>rtsp</emphasis> URL\n"
+"by a <emphasis>http</emphasis> one, a file path (prefixed with\n"
+"<emphasis>file://</emphasis>) or <emphasis>sap://</emphasis> to export\n"
+"the sdp file using one of these methods instead of rtsp."
+msgstr ""
+
 # type: Content of: <chapter><sect1><title>
-#: en/examples.xml:217
+#: en/examples.xml:222
 #, no-wrap
 msgid "RTSP"
 msgstr "RTSP"
 
 # type: Content of: <chapter><sect1><para>
-#: en/examples.xml:220
+#: en/examples.xml:225
 #, no-wrap
 msgid "See <xref linkend=\"vlm\" endterm=\"tvlm\" />"
 msgstr "Voir <xref linkend=\"vlm\" endterm=\"tvlm\" />"
 
 # type: Content of: <chapter><sect1><title>
-#: en/examples.xml:224
+#: en/examples.xml:229
 #, no-wrap
 msgid "MMS / MMSH streaming to Windows Media Player"
 msgstr "diffusion MMS / MMSH vers Windows Media Player"
 
 # type: Content of: <chapter><sect1><screen>
-#: en/examples.xml:228
+#: en/examples.xml:233
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#transcode{vcodec=DIV3,vb=256,scale=1,acodec=mp3,ab=32,channels=2}:std{access=mmsh,mux=asfh,url=:8080}'</userinput>"
 msgstr "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#transcode{vcodec=DIV3,vb=256,scale=1,acodec=mp3,ab=32,channels=2}:std{access=mmsh,mux=asfh,url=:8080}'</userinput>"
 
 # type: Content of: <chapter><sect1><para>
-#: en/examples.xml:231
+#: en/examples.xml:236
 #, no-wrap
 msgid "VLC media player can connect to this by using the following url : mmsh://server_ip_address:8080 ."
 msgstr "VLC media player peut s'y connecter en utilisant l'URL suivante mmsh://server_ip_address:8080 ."
 
 # type: Content of: <chapter><sect1><para>
-#: en/examples.xml:232
+#: en/examples.xml:237
 #, no-wrap
 msgid "Windows Media Player can connect to this by using the following url : mms://server_ip_address:8080 ."
 msgstr "Windows Media Player peut s'y connecter en utilisant l'URL suivante: mms://server_ip_address:8080 ."
 
 # type: Content of: <chapter><sect1><title>
-#: en/examples.xml:236
+#: en/examples.xml:241
 #, no-wrap
 msgid "Use the <emphasis>es</emphasis> module"
 msgstr "Utiliser le module <emphasis>es</emphasis>"
 
 # type: Content of: <chapter><sect1><para>
-#: en/examples.xml:240
+#: en/examples.xml:245
 #, no-wrap
 msgid "Separate audio and video in two PS files:"
 msgstr "Separer l'audio et la video en deux fichiers PS:"
 
 # type: Content of: <chapter><sect1><screen>
-#: en/examples.xml:244
+#: en/examples.xml:249
 #, no-wrap
 msgid ""
 "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout\n"
@@ -1691,7 +1701,7 @@ msgstr ""
 "'#es{access=file,mux=ps,url_audio=audio-%c.%m,url_video=video-%c.%m}'</userinput>"
 
 # type: Content of: <chapter><sect1><para>
-#: en/examples.xml:249
+#: en/examples.xml:254
 #, no-wrap
 msgid ""
 "Extract the audio track of the input stream to a TS\n"
@@ -1699,13 +1709,13 @@ msgid ""
 msgstr "Extraire la piste audio du flux d'entrée en un fichier TS"
 
 # type: Content of: <chapter><sect1><screen>
-#: en/examples.xml:254
+#: en/examples.xml:259
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#es{access_audio=file,mux_audio=ts,url_audio=audio-%c.%m}'</userinput>"
 msgstr "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#es{access_audio=file,mux_audio=ts,url_audio=audio-%c.%m}'</userinput>"
 
 # type: Content of: <chapter><sect1><para>
-#: en/examples.xml:258
+#: en/examples.xml:263
 #, no-wrap
 msgid ""
 "Stream in unicast the audio track on a port and the\n"
@@ -1713,13 +1723,13 @@ msgid ""
 msgstr "Diffuser en unicast la piste audio sur un port et la piste video sur un autre port:"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
-#: en/examples.xml:265
+#: en/examples.xml:270
 #, no-wrap
 msgid "on the server side:"
 msgstr "du coté serveur:"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><screen>
-#: en/examples.xml:269
+#: en/examples.xml:274
 #, no-wrap
 msgid ""
 "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout\n"
@@ -1730,31 +1740,31 @@ msgstr ""
 "'#es{access=rtp,mux=ts,url_audio=192.168.1.2:1212,url_video=192.168.1.2:1213}'</userinput>"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
-#: en/examples.xml:276
+#: en/examples.xml:281
 #, no-wrap
 msgid "on the client side: to receive the audio:"
 msgstr "côté client: pour recevoir le son:"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><screen>
-#: en/examples.xml:280
+#: en/examples.xml:285
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc udp:@:1212</userinput>"
 msgstr "<prompt>% </prompt><userinput>vlc udp:@:1212</userinput>"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
-#: en/examples.xml:282
+#: en/examples.xml:287
 #, no-wrap
 msgid "to receive the video:"
 msgstr "pour recevoir la vidéo:"
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><screen>
-#: en/examples.xml:286
+#: en/examples.xml:291
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc udp:@:1213</userinput>"
 msgstr "<prompt>% </prompt><userinput>vlc udp:@:1213</userinput>"
 
 # type: Content of: <chapter><sect1><para>
-#: en/examples.xml:294
+#: en/examples.xml:299
 #, no-wrap
 msgid ""
 "Stream in multicast the video and dump the audio in\n"
@@ -1764,7 +1774,7 @@ msgstr ""
 "un fichier:"
 
 # type: Content of: <chapter><sect1><screen>
-#: en/examples.xml:299
+#: en/examples.xml:304
 #, no-wrap
 msgid ""
 "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#es{access_video=udp,mux_video=ts,url_video=239.255.12.42,\n"
@@ -1774,7 +1784,7 @@ msgstr ""
 "access_audio=file,mux_audio=ps,url_audio=audio-%c.%m}'</userinput>"
 
 # type: Content of: <chapter><sect1><note><para>
-#: en/examples.xml:304
+#: en/examples.xml:309
 #, no-wrap
 msgid ""
 "You can also combine the <emphasis>es</emphasis>\n"
@@ -4771,27 +4781,7 @@ msgid ""
 "<emphasis>scenecut=&lt;sensibility&lt;</emphasis> allows to control\n"
 "how aggressively the encoder should insert extra I-frame, on scene\n"
 "change."
-
-msgstr "Les options sont : <emphasis>keyint=&lt;nombre de"
-"frames&gt;</emphasis> permet de régler le nombre maximal de frames"
-"entre 2 frames clé, <emphasis>idrint=&lt;nombre de frames&gt;</emphasis>"
-"permet de fixer le nombre maximal de frames entre 2 frames"
-"IDR, <emphasis>bframes=&lt;nombre de frames&gt;</emphasis> permet"
-"de régler le nombre de B frames entre une frame I et une"
-"frame P, <emphasis>qp=&lt;paramètre des quantizers&gt;</emphasis>"
-"permet de fixer une valeur fixe des quantizers (entre 1 et 51),"
-"<emphasis>qp-max=&lt;paramètre des quantizers&gt;</emphasis> permet de"
-"donner la valeur maximale des quantizers, <emphasis>qp-min=&lt;paramètre"
-"des quantizers&gt;</emphasis> permet de régler la valeur minimale"
-"des quantizers, <emphasis>cabac</emphasis> active l'algorithme"
-"CABAC (Context-Adaptative Binary Arithmetic Coding) (plus lent"
-"mais améliore la qualité), <emphasis>loopfilter</emphasis>"
-"active le filtre loop, <emphasis>analyse</emphasis> active le mode"
-"analyze, <emphasis>frameref=&lt;nombre de frames&gt;</emphasis> permet"
-"de régler le nombre de frames utilisées comme prédicateurs,"
-"<emphasis>scenecut=&lt;sensibilité&gt;</emphasis> permet de contrôler avec"
-"quelle aggressivité l'encodeur doit insérer des I-frame externes au"
-"chanegement de scène."
+msgstr "Les options sont : <emphasis>keyint=&lt;nombre deframes&gt;</emphasis> permet de régler le nombre maximal de framesentre 2 frames clé, <emphasis>idrint=&lt;nombre de frames&gt;</emphasis>permet de fixer le nombre maximal de frames entre 2 framesIDR, <emphasis>bframes=&lt;nombre de frames&gt;</emphasis> permetde régler le nombre de B frames entre une frame I et uneframe P, <emphasis>qp=&lt;paramètre des quantizers&gt;</emphasis>permet de fixer une valeur fixe des quantizers (entre 1 et 51),<emphasis>qp-max=&lt;paramètre des quantizers&gt;</emphasis> permet dedonner la valeur maximale des quantizers, <emphasis>qp-min=&lt;paramètredes quantizers&gt;</emphasis> permet de régler la valeur minimaledes quantizers, <emphasis>cabac</emphasis> active l'algorithmeCABAC (Context-Adaptative Binary Arithmetic Coding) (plus lentmais améliore la qualité), <emphasis>loopfilter</emphasis>active le filtre loop, <emphasis>analyse</emphasis> active le modeanalyze, <emphasis>frameref=&lt;nombre de frames&gt;</emphasis> permetde régler le nombre de frames utilisées comme prédicateurs,<emphasis>scenecut=&lt;sensibilité&gt;</emphasis> permet de contrôler avecquelle aggressivité l'encodeur doit insérer des I-frame externes auchanegement de scène."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:710

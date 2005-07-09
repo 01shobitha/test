@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-05-15 21:01+0200\n"
+"POT-Creation-Date: 2005-07-09 10:55+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1536,7 +1536,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout "
-"'#rtp{dst=192.168.0.12,port=1234,sdp=http://server.example.org:8080/test.sdp}'</userinput>"
+"'#rtp{dst=192.168.0.12,port=1234,sdp=rtsp://server.example.org:8080/test.sdp}'</userinput>"
 msgstr ""
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><screen>
@@ -1544,29 +1544,39 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<prompt>% </prompt><userinput>vlc "
-"http://server.example.org:8080/test.sdp</userinput>"
+"rtsp://server.example.org:8080/test.sdp</userinput>"
+msgstr ""
+
+# type: Content of: <chapter><sect1><note><para>
+#: en/examples.xml:215
+#, no-wrap
+msgid ""
+"You can remplace the <emphasis>rtsp</emphasis> URL\n"
+"by a <emphasis>http</emphasis> one, a file path (prefixed with\n"
+"<emphasis>file://</emphasis>) or <emphasis>sap://</emphasis> to export\n"
+"the sdp file using one of these methods instead of rtsp."
 msgstr ""
 
 # type: Content of: <chapter><sect1><title>
-#: en/examples.xml:217
+#: en/examples.xml:222
 #, no-wrap
 msgid "RTSP"
 msgstr ""
 
 # type: Content of: <chapter><sect1><para>
-#: en/examples.xml:220
+#: en/examples.xml:225
 #, no-wrap
 msgid "See <xref linkend=\"vlm\" endterm=\"tvlm\" />"
 msgstr ""
 
 # type: Content of: <chapter><sect1><title>
-#: en/examples.xml:224
+#: en/examples.xml:229
 #, no-wrap
 msgid "MMS / MMSH streaming to Windows Media Player"
 msgstr ""
 
 # type: Content of: <chapter><sect1><screen>
-#: en/examples.xml:228
+#: en/examples.xml:233
 #, no-wrap
 msgid ""
 "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout "
@@ -1574,7 +1584,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><para>
-#: en/examples.xml:231
+#: en/examples.xml:236
 #, no-wrap
 msgid ""
 "VLC media player can connect to this by using the following url : "
@@ -1582,7 +1592,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><para>
-#: en/examples.xml:232
+#: en/examples.xml:237
 #, no-wrap
 msgid ""
 "Windows Media Player can connect to this by using the following url : "
@@ -1590,19 +1600,19 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><title>
-#: en/examples.xml:236
+#: en/examples.xml:241
 #, no-wrap
 msgid "Use the <emphasis>es</emphasis> module"
 msgstr ""
 
 # type: Content of: <chapter><sect1><para>
-#: en/examples.xml:240
+#: en/examples.xml:245
 #, no-wrap
 msgid "Separate audio and video in two PS files:"
 msgstr ""
 
 # type: Content of: <chapter><sect1><screen>
-#: en/examples.xml:244
+#: en/examples.xml:249
 #, no-wrap
 msgid ""
 "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout\n"
@@ -1610,7 +1620,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><para>
-#: en/examples.xml:249
+#: en/examples.xml:254
 #, no-wrap
 msgid ""
 "Extract the audio track of the input stream to a TS\n"
@@ -1618,7 +1628,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><screen>
-#: en/examples.xml:254
+#: en/examples.xml:259
 #, no-wrap
 msgid ""
 "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout "
@@ -1626,7 +1636,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><para>
-#: en/examples.xml:258
+#: en/examples.xml:263
 #, no-wrap
 msgid ""
 "Stream in unicast the audio track on a port and the\n"
@@ -1634,13 +1644,13 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
-#: en/examples.xml:265
+#: en/examples.xml:270
 #, no-wrap
 msgid "on the server side:"
 msgstr ""
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><screen>
-#: en/examples.xml:269
+#: en/examples.xml:274
 #, no-wrap
 msgid ""
 "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout\n"
@@ -1648,31 +1658,31 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
-#: en/examples.xml:276
+#: en/examples.xml:281
 #, no-wrap
 msgid "on the client side: to receive the audio:"
 msgstr ""
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><screen>
-#: en/examples.xml:280
+#: en/examples.xml:285
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc udp:@:1212</userinput>"
 msgstr ""
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
-#: en/examples.xml:282
+#: en/examples.xml:287
 #, no-wrap
 msgid "to receive the video:"
 msgstr ""
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><screen>
-#: en/examples.xml:286
+#: en/examples.xml:291
 #, no-wrap
 msgid "<prompt>% </prompt><userinput>vlc udp:@:1213</userinput>"
 msgstr ""
 
 # type: Content of: <chapter><sect1><para>
-#: en/examples.xml:294
+#: en/examples.xml:299
 #, no-wrap
 msgid ""
 "Stream in multicast the video and dump the audio in\n"
@@ -1680,7 +1690,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><screen>
-#: en/examples.xml:299
+#: en/examples.xml:304
 #, no-wrap
 msgid ""
 "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout "
@@ -1689,7 +1699,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><note><para>
-#: en/examples.xml:304
+#: en/examples.xml:309
 #, no-wrap
 msgid ""
 "You can also combine the <emphasis>es</emphasis>\n"

@@ -1,6 +1,16 @@
 # Les commentaires commencent par un # en premier position 
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
+|9 July 2005| Release: miniSAPserver 0.3.0| This release allows proper
+announcing of RTP streams, perform characters set convertion
+automatically when needed, selects the most appropriate SAP multicast
+address automatically and supports manual output interface selection.
+Some minor issues were fixed. These updates are in adequacy with
+changes in version 0.8.2 of VLC media player.
+You are encouraged to upgrade to this version:
+<a href="http://www.videolan.org/streaming/download-sap-server.html">
+download it here</a>.
+
 |26 June 2005| Release: VLC media player 0.8.2| This new release features many
 imporvements including a full playlist rewrite, improved preferences,
 Mac OS X Tiger compatibility, a brand new Internet Explorer ActiveX

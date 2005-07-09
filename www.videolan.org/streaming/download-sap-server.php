@@ -16,10 +16,10 @@ function pkgitem($version,$name)
 
 <h1> MiniSAPserver for Linux and Mac OS X</h1>
 
-<p>Latest miniSAPserver tarball (0.2.4) (requires VLC 0.6.2 or higher):</p>
+<p>Latest miniSAPserver tarball (0.3.0) (suggests VLC 0.8.2 or higher):</p>
 
 <ul>
-  <?php pkgitem("0.2.4","miniSAPserver-0.2.4.tar.gz"); ?>
+  <?php pkgitem("0.3.0","miniSAPserver-0.3.0.tar.bz2"); ?>
 </ul>
 
 <?php

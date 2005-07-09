@@ -19,6 +19,8 @@
 
 <h2>Install VLC from the RPM packages</h2>
 
+<p style="color: red;">Warning, these are VLC media play 0.8.1 RPM packages. To get the latest VLC media player version, please use one of the Unofficial Fedora Core package.</p>
+
 <p>Download the RPM packages tarballs listed in the section below and
 uncompress them in the same directory :</p>
 

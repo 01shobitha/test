@@ -11,9 +11,9 @@ function DownloadSize($file) {
   return round($size, 1).$ext;
 }
 
-function pkgitem($version,$name,$top)
+function pkgitem($version,$name,$top,$description="")
 { ?>
-  <li><code><?php echo $name; ?></code> (<?php echo DownloadSize("{$_SERVER["DOCUMENT_ROOT"]}pub/videolan/$top/$version/$name"); ?>) :
+  <li><code><?php echo $name." ".$description; ?></code> (<?php echo DownloadSize("{$_SERVER["DOCUMENT_ROOT"]}pub/videolan/$top/$version/$name"); ?>) :
 <br/>Select a download location :
 <ul>
 <!--<li><a href="http://download.videolan.org/pub/videolan/<?php echo $top."/".$version."/".$name; ?>">VIA, Ecole Centrale Paris (France)</a></li>-->

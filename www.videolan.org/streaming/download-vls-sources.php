@@ -21,9 +21,8 @@ function pkgitem($version,$name,$comment)
 <p> Latest VLS source code tarball (0.5.6): </p>
 
 <ul>
-  <?php
-     pkgitem("vls/0.5.6","vls-0.5.6.tar.gz","");
-  ?>
+  <?php pkgitem("0.5.6","vls-0.5.6.tar.gz","vls"); ?>
+
   <li><a href="http://download.videolan.org/pub/videolan/vls/0.5.6/"><i>browse the list</i></a></li>
 </ul>
 

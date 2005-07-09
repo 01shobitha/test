@@ -6,14 +6,6 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 
-<?php
-function pkgitem($version,$name)
-{
-  echo '<li><a href="http://download.videolan.org/pub/videolan/vls/'.
-       $version.'/'.$name.'"><code>'.$name.'</code></a></li>';
-}
-?>
-
 <h1> VLS for Windows </h1>
 
 <p><span style="color: red;"><b>BIG FAT WARNING: The Windows version of VLS doesn't support much (no DVB, DVD or Capture card inputs).<br> It is strongly advised that you have a look at the streaming features of VLC instead, which are very well supported under Windows.</b></span></p>
@@ -24,7 +16,7 @@ function pkgitem($version,$name)
 
 <ul>
   <?php
-     pkgitem("0.5.3/win32","vls-0.5.3.zip");
+     pkgitem("0.5.3/win32","vls-0.5.3.zip","vls");
   ?>
 </ul>
 

@@ -40,7 +40,7 @@
      pkgitem("0.8.2/contrib","libcddb-0.9.6.tar.gz","(Audio CD CDDB library)");
      pkgitem("0.8.2/contrib","libcdio-0.70.tar.gz","(CD,VCD,SVCD,CDDA library)");
      pkgitem("0.8.2/contrib","libdvbpsi-20041028.tar.bz2","(MPEG TS and DVB PSI tables library)");
-     pkgitem("0.8.2/contrib","libdvdcss-1.2.8.tar.gz","(DVD decryption library)");
+     pkgitem("0.8.2/contrib","libdvdcss-1.2.8.tar.bz2","(DVD decryption library)");
      pkgitem("0.8.2/contrib","libdvdnav-0.1.10.tar.gz","(DVD menus navigation library)");
      pkgitem("0.8.2/contrib","libdvdread-20041028.tar.bz2","(DVD reading library)");
      pkgitem("0.8.2/contrib","libebml-0.7.1.tar.bz2","(A form of binary XML used by libmatroska)");

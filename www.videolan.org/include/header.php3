@@ -139,23 +139,6 @@ StartHtml( ereg_replace( "<[^>]*>" , "" , $title ) , $enable_live) ;
 
 
 ?><table class="menu-back" cellspacing="0" cellpadding="0">
-<!--
-Patent banner code 
--->
-  <tr align="center">
-    <td valign="top" colspan="2" align="center" style="background-color:white; border: 5px solid red;">
-<a href="/patents.html"><img src="http://demo.ffii.org/banners/Banana-En-Banner-728x90.png"
-alt="No Banana Union - No Software Patents" width="728" height="90" /></a>
-      <div style="color: red; font-size:30px; font-style: bold; text-align:center; line-height: 1.4em;" >
-        Beware: VideoLAN might disappear due to patent legislation.
-      </div>
-      <div style="text-align: center; line-height: 1.4em; font-style:bold;">
-        <a href="/patents.html">Click here for more information on what you can do to stop patents and help VideoLAN.</a></div>
-    </td>
-  </tr>
-<!--
-End of Patent banner code 
--->
   <tr align="center">
     <td valign="top">
 <?php

@@ -20,18 +20,21 @@
 <p>If you would like to join the project, feel free to send us an e-mail to the <a href="http://developers.videolan.org/lists.html">vlc-devel mailing list</a> or to contact us through our <a href="http://forum.videolan.org/viewtopic.php?t=3675&amp;start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">forum</a>. </p>
 -->
 
-<h2>Latest Mac OS X package (0.8.2)</h2>
-
 <p><b>Note:</b> There is not, and there will never be, a version for Mac OS 9.</p>
 
-<p>(Requires Mac OS X 10.2, 10.3 or 10.4)</p><!-- <br/> This version does <b>not</b> support 10.4 Tiger. Download <a href="index.html">VLC 0.8.2-test2 or later</a>, if you are using this OS.</p>-->
+<h2>Latest Mac OS X package for 10.2, 10.3 and 10.4 (release 0.8.2)</h2>
+
+<p>(Requires <a href="http://www.apple.com/quicktime/download/">QuickTime 6.5.2</a> or later)</p>
 <ul>
 <?php pkgitem("0.8.2/macosx","vlc-0.8.2.dmg","vlc"); ?>
 </ul>
-<p>(Last version for Mac OS X 10.1)</p>
+
+<h2>Last Mac OS X package for 10.1 (release 0.7.0)</h2>
 <ul>  
 <?php pkgitem("0.7.0/macosx","vlc-0.7.0.dmg","vlc"); ?>
 </ul>
+
+<h2>How to install</h2>
 
 <p> VLC for Mac OS X is distributed as a disk image. Download the
 <code>.dmg</code> file, open it, and copy it to your hard drive
@@ -39,7 +42,7 @@
 double-clicking on it. </p>
 <h2>Older versions</h2>
 
-<p> Older versions can be found by browsing our FTP site :</p>
+<p> Older versions can be found by browsing our FTP site:</p>
 <ul> <?php mirrordir("vlc"); ?> </ul>
 
 <h2>Source code</h2>

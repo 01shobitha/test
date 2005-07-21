@@ -19,7 +19,7 @@
 <li>Have you reset your preferences and restarted VLC yet? Often old preferences and incorrect settings are the cause of an issue you are seeing. The Windows version of VLC has an entry in the <i>Start Menu</i> that completely resets your VLC setup. It is called: <i>Reset VLC defaults and quit</i>. On other platforms you should read this <a href="/doc/faq/en/index.html#id239188">FAQ-entry</a>. (Uninstalling VLC does not remove it's old settings.) Double check that your issue still exists. </li>
 
 <li>Some things are simply NOT supported by VLC. We have a <a href="/vlc/features.html">basic list</a> of features that are supported in VLC and a <a href="https://trac.videolan.org/vlc/query?action=view&severity=enhancement&order=priority">list of things</a> we would like to implement in the future. If your suggestion is not on this list, you might want to make a <i>feature request</i> in the <a href="http://forum.videolan.org/viewforum.php?f=7">Requests Forum</a>, asking the developers to support this. Remember that we all do this in our spare time. There is no timeline whatsoever for the implementation of these enhancements and we do not make ANY promises as to when we will add them to VLC. If you really want something right now, you best implement it yourself. Look <a href="http://developers.videolan.org/vlc">here</a> to see how you can develop on VLC.</li>
-<li>Many bugs are already known. Sometimes they are already fixed for the next version of VLC. Please <a href="https://trac.videolan.org/vlc/search?ticket=on">search</a> the list of known and fixed issues. If you find your issue, see if it is already closed. The page of the issue will then show something like: <i>Ticket #87 (Closed: fixed)</i>.</li>
+<li>Many bugs are already known. Sometimes they are already fixed for the next version of VLC. Please <a href="https://trac.videolan.org/vlc/search?q=&ticket=on">search</a> the list of known and fixed issues. If you find your issue, see if it is already closed. The page of the issue will then show something like: <i>Ticket #87 (Closed: fixed)</i>.</li>
 </ul>
 
 <h2>So you still think you found a bug?</h2>
@@ -35,7 +35,7 @@ We try to answer all your mails, posts and reports, but there are so many that s
 
 <p>Please gather the following information and send it along with your report.</p>
 <ul>
-<li>Make sure you are registered on the forum, or that your email has a valid reply address, so we can get back to you with possible additional questions. Reports without contact information or by unregistered users, will not be handled by the team.</li>
+<li>Make sure you are registered on the forum, or that your email has a valid reply address, so we can get back to you with possible additional questions. Reports without <b>contact information</b> or by unregistered users, will not be handled by the team.</li>
 <li>Your operating <b>system</b> and the <b>version</b> you use. VLC runs on many systems and this information is really important.<br />
 	<i>For instance: WinXP, MacOSX 10.2 or Mandrake 8.1</i></li>
 <li>The <b>hardware</b> you use. Make sure to name all the audio and video hardware in question that might be related to VLC's usage.<br />
@@ -46,9 +46,9 @@ We try to answer all your mails, posts and reports, but there are so many that s
 	<i>For instance: I pressed the play button while fast-forwarding and VLC crashed.</i></li>
 <li>Can you always <b>reproduce</b> the problem in a certain way?<br />
 	<i>For instance: The crash always occurs with the 'Matrix' DVD after 10 minutes.</i></li>
-<li>The type of <b>movie</b> you were playing. And wether or not the issues is present on other types of movies.<br />
+<li>The type of <b>movie</b> you were playing. And wether or not the issuesis present on other types of movies.<br />
 	<i>For instance: DVD, Divx or mpeg.</i></li>
-<li>The videosample in question:<br />
+<li>The video<b>sample</b> in question:<br />
 	 If the issue is specific to a certain movie, it can help a lot if we have the movie itself. In this case please upload as much of the file as you can to our <a href="ftp://streams.videolan.org/incoming">FTP samplesserver</a>. Give the file a distinct name, and upload a textfile with the same name in which you again describe the problem. Report this upload in your forum posting and tell us the name of your file. This makes sure we can more easily find back your sample.</li>
 </ul>
 

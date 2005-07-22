@@ -134,4 +134,13 @@ graphics software might ease the job, though :-)</p>
    "Skin made by Asim",
    "MediaPlayer.zip" );
 ?>
+
+<h2>DPlayer</h2>
+
+<?php AddSkin(
+   "DPlayer.png",
+   "Skin made by Mazlum Alptekin",
+   "DPlayer.vlt" );
+?>
+
 <?php footer('$Id: download-skins.html 2517 2004-05-23 17:11:06Z ipkiss $'); ?>

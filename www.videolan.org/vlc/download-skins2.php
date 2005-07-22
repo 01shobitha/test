@@ -143,4 +143,12 @@ graphics software might ease the job, though :-)</p>
    "DPlayer.vlt" );
 ?>
 
+<h2>WB Kids</h2>
+
+<?php AddSkin(
+   "WB.png",
+   "Skin made by adn and based on a Petrol Designs' Winamp 5 skin",
+   "WB.vlt" );
+?>
+
 <?php footer('$Id: download-skins.html 2517 2004-05-23 17:11:06Z ipkiss $'); ?>

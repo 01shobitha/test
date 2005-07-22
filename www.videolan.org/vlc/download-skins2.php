@@ -147,7 +147,7 @@ graphics software might ease the job, though :-)</p>
 
 <?php AddSkin(
    "WB.png",
-   "Skin made by adn and based on a Petrol Designs' Winamp 5 skin",
+   "Skin made by Mohammed Adnène Trojette and based on a Petrol Designs' Winamp 5 skin",
    "WB.vlt" );
 ?>
 

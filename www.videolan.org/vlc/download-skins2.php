@@ -79,6 +79,21 @@ href="/vlc/skins2-create.html">create a better one</a>!<br/>
 Don't worry, you don't need any programming skills... Some knowledge about
 graphics software might ease the job, though :-)</p>
 
+<h2>WB Kids</h2>
+
+<?php AddSkin(
+   "WB.png",
+   "Skin made Petrol Designs and ported by Mohammed Adnène Trojette",
+   "WB.vlt" );
+?>
+
+<h2>DPlayer</h2>
+
+<?php AddSkin(
+   "DPlayer.png",
+   "Skin made by Mazlum Alptekin",
+   "DPlayer.vlt" );
+?>
 
 <h2>Winamp5</h2>
 <?php AddSkin(
@@ -133,22 +148,6 @@ graphics software might ease the job, though :-)</p>
    "MediaPlayer.png",
    "Skin made by Asim",
    "MediaPlayer.zip" );
-?>
-
-<h2>DPlayer</h2>
-
-<?php AddSkin(
-   "DPlayer.png",
-   "Skin made by Mazlum Alptekin",
-   "DPlayer.vlt" );
-?>
-
-<h2>WB Kids</h2>
-
-<?php AddSkin(
-   "WB.png",
-   "Skin made Petrol Designs' and ported by Mohammed Adnène Trojette",
-   "WB.vlt" );
 ?>
 
 <?php footer('$Id: download-skins.html 2517 2004-05-23 17:11:06Z ipkiss $'); ?>

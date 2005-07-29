@@ -83,7 +83,7 @@ graphics software might ease the job, though :-)</p>
 
 <?php AddSkin(
    "WB.png",
-   "Skin made Petrol Designs and ported by Mohammed Adnène Trojette",
+   "Skin made by Petrol Designs and ported by Mohammed Adnène Trojette",
    "WB.vlt" );
 ?>
 

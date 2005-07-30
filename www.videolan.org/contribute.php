@@ -47,14 +47,14 @@ tell you if we are interested and give you our snail-mail address. </p>
 
 <p>We desperately need a G5 to continue developement on Mac hardware.
 <a href="http://forum.videolan.org/viewtopic.php?p=31286">More info
-here</a>. Current status of donnations is: 288,49&euro; donated ... much
-more needed (lets say 511,51&euro;). Remember to mention that you are
+here</a>. Current status of donnations is: 338,49&euro; donated ... much
+more needed (lets say 461,51&euro;). Remember to mention that you are
 donating money for the G5 in the donation comments.<br />
 
 Status bar : <img src="/images/green-pix.png" style="border: 0px;
-padding: 0px; margin:0px" height="10px" width="57px" alt="ok" /><img
+padding: 0px; margin:0px" height="10px" width="67px" alt="ok" /><img
 src="/images/red-pix.png" style="border: 0px; padding: 0px; margin:0px"
-height="10px" width="103px" alt="not ok" /> (green is what is already
+height="10px" width="93px" alt="not ok" /> (green is what is already
 available, red is what we still need in order to buy the G5)</p>
 
 

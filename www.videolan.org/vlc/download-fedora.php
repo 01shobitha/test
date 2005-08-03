@@ -15,7 +15,7 @@
 
 <p>rpm.livna.org maintains some Fedora Core Packages for VLC: <a href="http://rpm.livna.org/">get them here</a>.</p>
 
-<p>Matthias Saou from freshrpms.net also maintains some Fedora Core Packages: <a href="http://freshrmps.net">get them here</a>.</p>
+<p>Matthias Saou from freshrpms.net also maintains some Fedora Core Packages: <a href="http://freshrpms.net">get them here</a>.</p>
 
 <h2>Install VLC from the RPM packages</h2>
 

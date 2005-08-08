@@ -102,6 +102,38 @@ and licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/"
 
 <p>All videolan background images can now be downloaded in one RPM package. The (relocateble) package has been built by Jean-Paul Saman on RH 9.0, but should also be useable on SuSE, Mandrake and other RedHat systems. Use "rpm ivh --prefix=&lt;newpath&gt; videolan-backgrounds-base-1-1.noarch.rpm" to relocated the installed images to a new location on e.g: SuSE systems. Download the rpm here: <a href="/images/videolan-backgrounds-base-1-1.noarch.rpm">videolan-backgrounds-base-1-1.noarch.rpm</a>, or the spec file here: <a href="/images/videolan-background-base.spec">videolan-backgrounds-base.spec</a>.</p>
 
+<p>Jason Jaeger made this VLC background:</p>
+
+<table border="0">
+<tr>
+<td>
+  <img src="/images/goodies/v3-wallpaper_300x240.jpg" alt="Jason Jaeger" width="300" height="240" />
+</td>
+</tr>
+<tr>
+<td>
+  <a href="/images/goodies/v3-wallpaper_1280x1024.jpg">Image 1280x1024</a> (163kB)<br/>
+  <a href="/images/goodies/v3-wallpaper_1024x768.jpg">Image 1024x768</a> (167kB)<br/>
+  <a href="/images/goodies/v3-wallpaper_800x600.jpg">Image 800x600</a> (121kB)
+</td>
+</tr>
+</table>
+
+<p>Hpep made this VLC background:</p>
+
+<table border="0">
+<tr>
+<td>
+  <img src="/image/goodies/vlc-hpep-300x225.jpg" alt="hpep" width="300" height="225" />
+</td>
+</tr>
+<tr>
+<td>
+  <a href="/image/goodies/vlc-hpep-1024x768.jpg">Image 1024x768</a> (159 kB)
+</td>
+</tr>
+</table>
+
 <p>Emmanuel Puig (alias Karibu) made these VideoLAN logos:</p>
 
 <table border="0">
@@ -122,14 +154,14 @@ and licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/"
 
 <tr>
 
-<td><a href="/images/vl1_1600x1200.jpg">Image 1600x1200</a> (136 kb)<br />
-<a href="/images/vl1_1024x768.jpg">Image 1024x768</a> (85 kb)
+<td><a href="/images/vl1_1600x1200.jpg">Image 1600x1200</a> (136 kB)<br />
+<a href="/images/vl1_1024x768.jpg">Image 1024x768</a> (85 kB)
 </td><td>
-<a href="/images/vl2_1600x1131.jpg">Image 1600x1131</a> (106 kb)<br />
-<a href="/images/vl2_1024x724.jpg">Image 1024x724</a> (67 kb)
+<a href="/images/vl2_1600x1131.jpg">Image 1600x1131</a> (106 kB)<br />
+<a href="/images/vl2_1024x724.jpg">Image 1024x724</a> (67 kB)
 </td><td>
-<a href="/images/vl3_1600x1200.jpg">Image 1600x1200</a> (75 kb)<br />
-<a href="/images/vl3_1024x768.jpg">Image 1024x768</a> (47 kb)
+<a href="/images/vl3_1600x1200.jpg">Image 1600x1200</a> (75 kB)<br />
+<a href="/images/vl3_1024x768.jpg">Image 1024x768</a> (47 kB)
 </td>
 
 </tr>
@@ -151,9 +183,9 @@ and licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/"
 <tr>
 
 <td>
-<a href="/images/vl4_2872x2154.jpg">Image 2872x2154</a> (379 kb)<br />
-<a href="/images/vl4_1600x1200.jpg">Image 1600x1200</a> (99 kb)<br />
-<a href="/images/vl4_1024x768.jpg">Image 1024x768</a> (55 kb)
+<a href="/images/vl4_2872x2154.jpg">Image 2872x2154</a> (379 kB)<br />
+<a href="/images/vl4_1600x1200.jpg">Image 1600x1200</a> (99 kB)<br />
+<a href="/images/vl4_1024x768.jpg">Image 1024x768</a> (55 kB)
 </td>
 
 </tr>
@@ -191,11 +223,11 @@ and licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/"
 <tr>
 
 <td>
-<a href="/images/VideoLAN.png">Image 640x480</a> (188 kb)
+<a href="/images/VideoLAN.png">Image 640x480</a> (188 kB)
 </td>
 
 <td>
-<a href="/images/videolan-wikingsoft2.png">Image 1024x768</a> (56 kb)
+<a href="/images/videolan-wikingsoft2.png">Image 1024x768</a> (56 kB)
 </td>
 
 </tr>

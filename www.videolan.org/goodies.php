@@ -124,12 +124,12 @@ and licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/"
 <table border="0">
 <tr>
 <td>
-  <img src="/image/goodies/vlc-hpep-300x225.jpg" alt="hpep" width="300" height="225" />
+  <img src="/images/goodies/vlc-hpep-300x225.jpg" alt="hpep" width="300" height="225" />
 </td>
 </tr>
 <tr>
 <td>
-  <a href="/image/goodies/vlc-hpep-1024x768.jpg">Image 1024x768</a> (159 kB)
+  <a href="/images/goodies/vlc-hpep-1024x768.jpg">Image 1024x768</a> (159 kB)
 </td>
 </tr>
 </table>

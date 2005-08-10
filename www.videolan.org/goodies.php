@@ -119,7 +119,7 @@ and licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/"
 </tr>
 </table>
 
-<p>Hpep made this VLC background:</p>
+<p>HPep made this VLC background:</p>
 
 <table border="0">
 <tr>

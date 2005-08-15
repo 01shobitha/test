@@ -90,7 +90,7 @@ and licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/"
 >this Creative Commons License</a>.
 </p>
 
-<p>An other banner made by Lord</p>
+<p>An other banner made by Gen</p>
 <p><a href="/vlc/index.html"><img width="80" height="15"
       src="/images/getvlc.png"
       style="vertical-align: middle; border-width: 0px;"

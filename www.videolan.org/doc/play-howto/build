@@ -78,7 +78,7 @@ echo $TARGET
 
 export ALL_LANG=$ALL_LANG
 
-COMMAND="make -f ../common/Makefile $TARGET DOC=$DOC LANG=$build_lang"
+COMMAND="make $TARGET DOC=$DOC LANG=$build_lang"
 
 echo "+ Executing $COMMAND"
 $COMMAND

@@ -544,6 +544,16 @@ addslashes first; it is very convenient to call 'toto.mpg' playlist_add vlc_play
 : clears the playlist of all items
 </para></listitem>
 
+<listitem><para>
+<emphasis>playlist_move</emphasis>
+: moves playlist item at position ST(2) to position ST(1)
+</para></listitem>
+
+<listitem><para>
+<emphasis>playlist_delete</emphasis>
+: deletes playlist item ID ST(1)
+</para></listitem>
+
 </itemizedlist>
 
 </para></listitem>

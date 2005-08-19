@@ -477,21 +477,25 @@ play function (0 in case of success); see playlist functions below
 
 <listitem><para>
 <emphasis>vlc_var_type</emphasis>
-: pushes the type of the input variable ST(1); the type is one of these strings
+: pushes the type of the variable ST(2) of object ST(1);
+the type is one of these strings
 <emphasis>VLC_VAR_BOOL, VLC_VAR_INTEGER, VLC_VAR_HOTKEY, VLC_VAR_STRING,
 VLC_VAR_MODULE, VLC_VAR_FILE, VLC_VAR_DIRECTORY, VLC_VAR_VARIABLE,
 VLC_VAR_FLOAT, UNDEFINED</emphasis> (no such variable) or
-<emphasis>INVALID</emphasis> (no input stream)
+<emphasis>INVALID</emphasis> (no input stream); the object is one of
+<emphasis>VLC_OBJECT_ROOT, VLC_OBJECT_VLC, VLC_OBJECT_INTF, VLC_OBJECT_PLAYLIST,
+VLC_OBJECT_INPUT, VLC_OBJECT_VOUT, VLC_OBJECT_AOUT</emphasis> or
+<emphasis>VLC_OBJECT_SOUT</emphasis>
 </para></listitem>
 
 <listitem><para>
 <emphasis>vlc_var_set</emphasis>
-: sets input variable ST(1) to ST(2)
+: sets variable ST(2) of object ST(1) to ST(3)
 </para></listitem>
 
 <listitem><para>
 <emphasis>vlc_var_get</emphasis>
-: pushes the value of the input variable ST(1)
+: pushes the value of the variable ST(2) of object ST(1)
 </para></listitem>
 
 <listitem><para>

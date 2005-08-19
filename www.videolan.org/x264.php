@@ -27,7 +27,9 @@
 <li>Adaptive B-frame placement</li>
 <li>B-frames as references / arbitrary frame order</li>
 <li>8x8 and 4x4 adaptive spatial transform</li>
-<li>lossless mode</li>
+<li>Lossless mode</li>
+<li>Custom quantization matrices</li>
+<li>Parallel encoding of multiple slices</li>
 </ul>
 
 <h2>Getting x264</h2>
@@ -55,6 +57,7 @@
 <li><a href="http://ffmpeg.sourceforge.net/index.php">ffmpeg</a></li>
 <li><a href="http://ffdshow.sourceforge.net/index.php">ffdshow</a></li>
 <li><a href="http://gordianknot.sourceforge.net/">GordianKnot</a></li>
+<li><a href="http://forum.doom9.org/showthread.php?t=96032">MeGUI</a></li>
 </ul>
 
 <p>If you use x264 in another project, let us know !</p>

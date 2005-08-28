@@ -45,7 +45,7 @@
      <h3>Streaming solution</h3>
      <p>VLC can also be used as a streaming server</p>
      <ul>
-      <li>VLC reads from a large panel of input devices</li>
+      <li>VLC can use a large number of input devices</li>
       <li>It features extended streaming features (video on demand,
           on the fly transcoding, ...)</li>
      </ul>

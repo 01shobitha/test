@@ -31,7 +31,7 @@
     <p><a href="vlc/">VLC</a> is a free cross-platform media player.</p>
     <ul>
      <li>It supports a <a href="/vlc/features.html">large number of multimedia
-	 formats</a>, without the need for additionnal codecs</li>
+	 formats</a>, without the need for additional codecs</li>
      <li>It is available for almost every OS</li>
      <li>It needs little CPU power</li>
     </ul>

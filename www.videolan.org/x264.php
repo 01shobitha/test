@@ -38,7 +38,9 @@
 
 <p># svn co svn://svn.videolan.org/x264/trunk x264</p>
 
-<p>Unofficial builds for Windows are available from <a href="http://x264.nl/">Jarod</a>, <a href="http://www.aziendeassociate.it/cd.asp?dir=/x264">Celtic Druid</a>, or <a href="http://forum.doom9.org/showthread.php?s=&threadid=89979">Sharktooth</a>.
+<p>Or grab a <a href="ftp://ftp.videolan.org/pub/videolan/x264/snapshots/">daily tarball</a>.</p>
+
+<p>Unofficial builds for Windows are available from <a href="http://x264.nl/">Jarod</a>, <a href="http://www.aziendeassociate.it/cd.asp?dir=/x264">Celtic Druid</a>, or <a href="http://forum.doom9.org/showthread.php?t=89979">Sharktooth</a>.
 
 <h2>Support</h2>
 
@@ -58,6 +60,7 @@
 <li><a href="http://ffdshow.sourceforge.net/index.php">ffdshow</a></li>
 <li><a href="http://gordianknot.sourceforge.net/">GordianKnot</a></li>
 <li><a href="http://forum.doom9.org/showthread.php?t=96032">MeGUI</a></li>
+<li><a href="http://www.pspvideo9.com">pspVideo9</a></li>
 </ul>
 
 <p>If you use x264 in another project, let us know !</p>

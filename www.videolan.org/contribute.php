@@ -45,6 +45,15 @@ tell you if we are interested and give you our snail-mail address. </p>
 
 <h3>Special project : Fund a Mac G5</h3>
 
+<p><b>Update:</b> We believe we can now afford the the G5, but we need to do a full count,
+ since we received so many donations.
+Thanks everyone for your help. Please don't stop! We needed the G5 quite bad, but there
+is still lot's of other stuff we can use. iSight camera, video and TV cards, all kinds
+of stuff we would like to support and test in the future. And when all that is done, then
+we can always reinvest in Mac Intel hardware, ADC costs, conference attendence, server upgrades,
+ etc. etc. etc.
+</p>
+
 <p>We desperately need a G5 to continue developement on Mac hardware.
 <a href="http://forum.videolan.org/viewtopic.php?p=31286">More info
 here</a>. Current status of donnations is: 378,49&euro; donated ... much
@@ -93,7 +102,7 @@ href="http://www.msio.ecp.fr/">SIO Master</a> (Open Information Systems).</li>
 <li>you, with your donations!</li>
 
 </ul>
-
+<a name="paypal">
 <h3>Donate to VideoLAN via PayPal</h3>
 
 <p> You can donate money to the project through VideoLAN's <a

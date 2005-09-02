@@ -45,25 +45,14 @@ tell you if we are interested and give you our snail-mail address. </p>
 
 <h3>Special project : Fund a Mac G5</h3>
 
-<p><b>Update:</b> We believe we can now afford the the G5, but we need to do a full count,
- since we received so many donations.
-Thanks everyone for your help. Please don't stop! We needed the G5 quite bad, but there
-is still lot's of other stuff we can use. iSight camera, video and TV cards, all kinds
-of stuff we would like to support and test in the future. And when all that is done, then
-we can always reinvest in Mac Intel hardware, ADC costs, conference attendence, server upgrades,
- etc. etc. etc.
-</p>
-
-<p>We desperately need a G5 to continue developement on Mac hardware.
-<a href="http://forum.videolan.org/viewtopic.php?p=31286">More info
-here</a>. Current status of donnations is: 378,49&euro; donated ... much
-more needed (lets say 411,51&euro;). Remember to mention that you are
-donating money for the G5 in the donation comments.<br />
+<p><b>Update:</b> We have <a href="http://www.videolan.org/#NEWS5">raised</a> the money for the G5.
+Thanks everyone for your help. We are now looking at various suppliers and G5 configurations, 
+to see what suits our needs best for the least amount of money.
 
 Status bar : <img src="/images/green-pix.png" style="border: 0px;
-padding: 0px; margin:0px" height="10px" width="77px" alt="ok" /><img
+padding: 0px; margin:0px" height="10px" width="160px" alt="ok" /><img
 src="/images/red-pix.png" style="border: 0px; padding: 0px; margin:0px"
-height="10px" width="83px" alt="not ok" /> (green is what is already
+height="10px" width="0px" alt="not ok" /> (green is what is already
 available, red is what we still need in order to buy the G5)</p>
 
 

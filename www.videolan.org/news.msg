@@ -1,6 +1,17 @@
 # Les commentaires commencent par un # en premier position 
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
+|2 September 2005| Donations for the G5| Due to a bit of media attention
+on various websites, we have had a surge in donations the past 2 days.
+Almost 1,5 times our original target of EUR 900 has been donated.
+ So finally we can afford to get us that
+G5 PowerMac that we needed. Perhaps there will even be some money left.
+Don't worry, we will spent the money very wisely, we promise. There is still
+lots of other hardware we would like to support one day. And of course we
+have our usual server, conference representation and ADC costs. So please
+keep <a href="contribute.html">being kind to us</a> and other Free and Open Source
+Software projects around the world. We thank you very much. 
+
 |9 July 2005| Release: miniSAPserver 0.3.0| This release allows proper
 announcing of RTP streams, performs characters set convertion
 automatically when needed, selects the most appropriate SAP multicast

@@ -1,6 +1,9 @@
 # Les commentaires commencent par un # en premier position 
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
+
+|4 September 2005| Announcing Planet VideoLAN| <a href="http://planet.videolan.org">Planet VideoLAN</a> (which uses the <a href="http://www.planetplanet.org/">Planet Planet</a> software) is an aggregation of VideoLAN-related posts on VideoLAN developers blogs. The best source for fresh VideoLAN news, previews and insights ! We currently have 3 feeds, but hope to have several more very soon.
+
 |2 September 2005| Donations for the G5| Due to a bit of media attention
 on various websites, we have had a surge in donations the past 2 days.
 Almost 1,5 times our original target of EUR 900 has been donated.

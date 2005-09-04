@@ -88,7 +88,7 @@ Start VLC with:
 
 <!-- Do not wrap me -->
 <screen>
-<prompt>% </prompt><userinput>vlc dvd://[device][@raw_device][@[title][,[chapter][,angle]]]</userinput>
+<prompt>% </prompt><userinput>vlc dvd://[device][@raw_device][@[title][:[chapter][:angle]]]</userinput>
 </screen>
 
 <para>In most cases, <userinput>vlc dvd://</userinput> or <userinput>vlc dvd://[device]</userinput> will do. [device] is for example <userinput>/dev/dvd</userinput> on GNU/Linux or <userinput>D:</userinput> on Windows (complete path to your DVD drive).</para>
@@ -100,7 +100,7 @@ or
 (DVD without menus) :</para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc dvdsimple://[device][@raw_device][@[title][,[chapter][,angle]]]</userinput>
+<prompt>% </prompt><userinput>vlc dvdsimple://[device][@raw_device][@[title][:[chapter][:angle]]]</userinput>
 </screen>
 
 <para>

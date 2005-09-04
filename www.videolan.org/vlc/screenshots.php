@@ -69,6 +69,10 @@ screenshot( "/vlc/screenshots/0.8.2/neutron-osx-screenshot.jpg",
             "/vlc/screenshots/0.8.2/tm_neutron-osx-screenshot.jpg",
             "Mac OS X interface - Video",
             "Mac OS X interface - Video (1024x768)" );
+screenshot( "/vlc/screenshots/0.8.2/zeta_R1_Screenie.jpg",
+            "/vlc/screenshots/0.8.2/tm_zeta_R1_Screenie.jpg",
+            "Zeta (BeOS) - Video",
+            "Zeta (BeOS) - Video (1280x1024)" );
 ?>
 <td></td></tr></tbody></table>
 

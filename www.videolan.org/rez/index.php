@@ -126,11 +126,7 @@ Quickstart</a>, section 2.1. </p>
 </ul>
 
 <p>Pour que la liste des canaux disponibles s'affiche dans la playlist,
-va dans le menu "Paramètres, Préférences...". Sélectionne "Interface',
-coche la case "Option avancées", puis écris "sap" dans la zone
-"Module d'interface supplémentaire". <b>Attention, ne sélectionne pas
-"Interface SAP" dans "Module d'interface". le VLC ne démarrerait plus
-correctement.</b></p>
+va dans le menu "Paramètres, Préférences...". Sélectionne "Playlist", "Services Discovery" et coche la case "Annonces SAP".</p>
 
 <p>Clique ensuite sur <b>Enregistrer</b> pour ne plus avoir à faire
 cette manipulation à chaque fois que tu lances VLC</p>

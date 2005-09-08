@@ -24,7 +24,7 @@
 
 <h2>Latest Mac OS X package for 10.2, 10.3 and 10.4 (release 0.8.2)</h2>
 
-<p>(Requires <a href="http://www.apple.com/quicktime/download/">QuickTime 6.5.2</a> or later)</p>
+<p>(Requires <a href="http://www.apple.com/support/downloads/quicktime652.html">QuickTime 6.5.2</a> or later)</p>
 <ul>
 <?php pkgitem("0.8.2/macosx","vlc-0.8.2.dmg","vlc"); ?>
 </ul>

@@ -18,7 +18,7 @@ des centraliens et par toute une communauté de développeurs extérieurs
 réseau informatique. En pratique, cela signifie que chaque étudiant,
 depuis sa chambre, peut regarder tout ce que est diffusé à ce moment
 par les serveurs de VideoLAN (NX, des chaînes hertziennes, des chaînes
-satellites,...). </p>
+satellites, la TNT, des radios ...). </p>
 
 <h2>Personne n'est parfait</h2>
 
@@ -65,7 +65,7 @@ VLC (VideoLAN Client). VLC est capable de lire :</p>
 
 <p>Assure-toi que ta version de DirectX est supérieure ou égale à 7.
 Si tu as une version trop vieille, installe la dernière version de
-directX disponible sur <a href="ftp://ftp.via.ecp.fr/pub/bipbip/logiciels/Multimédia/DirectX/">bipbip</a>.</p>
+directX disponible sur <a href="http://download.microsoft.com/download/8/1/e/81ed90eb-dd87-4a23-aedc-298a9603b4e4/directx_9c_redist.exe">le site de Microsoft</a> ou dans les mises à jour pour Windows XP.</p>
 
 <p>Télécharge l'installeur Windows sur la <a
 href="/vlc/download-windows.html">page de téléchargement du VLC
@@ -144,7 +144,7 @@ l'interface. L'ensemble des canaux disponibles s'affiche. Double clique
 sur l'un d'entre eux pour le sélectionner.</p>
 
 <p>Pour passer en plein écran, appuie sur "f". Pour revenir à une
-fenêtre video, appuie de nouveau sur "f".</p>
+fenêtre vidéo, appuie de nouveau sur "f".</p>
 
 <p>Pour changer de langue ou de sous-titre, fais un clic droit sur
 l'image et sélectionne la langue ou le sous-titre dans les sous menus
@@ -158,7 +158,7 @@ Nous t'en informerons essentiellement par les news sur ecp.via.videolan.
 </p>
 
 <h3>Je voudrais ajouter une chaîne</h3>
-<p>Nous somme prêt à rajouter des chaînes dans la mesure du possible :
+<p>Nous sommes prêts à rajouter des chaînes dans la mesure du possible :
 qu'elle soit gratuite et que nous puissions techniquement l'ajouter.
 Tu peux envoyer tes propositions sur ecp.via.videolan.</p>
 
@@ -174,13 +174,13 @@ des coupures de courant dans le local VideoLAN
 <?php include("elec.txt"); ?>
 </span>.</p></li>
 
-<li>Si l'image "saute" ou est remplie de "blocs" de couleurs, il peut être nécessaire d'augmenter la taille du cache. Pour cela, va dans le menu paramètres, préférences, section mudules, access, access_udp, sélectionne "options avancées", et mets 1000 dans la boîte "taille du cache". Clique sur "sauvegarder" et "quitter".</li>
+<li>Si l'image "saute" ou est remplie de "blocs" de couleurs, il peut être nécessaire d'augmenter la taille du cache. Pour cela, va dans le menu Paramètres, Préférences, section Input/Codecs, Access Modules, UDP/RTP, sélectionne "options avancées", et mets 1000 dans la boîte "Taille du cache". Clique sur "sauvegarder" et "quitter".</li>
 
 <li>Si rien ne s'affiche, c'est peut-être que le diffusion a été
 temporairement interrompue sur ce canal. Essaie en un autre !</li>
 
 <li>Vérifie que tu n'as pas un firewall logiciel installé sur ta machine
-qui bloquerait le flux ou les requêtes d'abonnement à ce dernier (IGMP).
+qui bloquerait le flux ou les requêtes d'abonnement à ce dernier (IGMP). En cas de problèmes, l'accès aux ports 1234 et 9875 pour les ips 138.195.* est nécessaire.
 </li>
 
 <li>Il peut parfois arriver que VLC ne fonctionne pas, ou que
@@ -232,7 +232,7 @@ utilises et ta version de DirectX si tu es sous Windows.</li>
 href="http://bugzilla.videolan.org">Bugzilla</a>.</li>
 
 <li>De façon générale, avant de poser un question ou de reporter un
-problème, va dans le menu "View", puis "Messages". On y retrouve un
+problème, va dans le menu "Vue", puis "Messages". On y retrouve un
 grand nombre d'informations nécessaires à la compréhension du problème.
 Les messages en rouge, plus particulièrement, signalent habituellement
 des erreurs.</li>

@@ -179,7 +179,7 @@ compagnies and institutions who helped VideoLAN.</p>
 <ul>
   <li>The french website <strong>MacBidouille</strong> gave 500 
 euros to help us buy a PowerMac G5</li> 
-  <li>The french magazine<strong>à vos MAC</strong> gave 500 euros to 
+  <li>The french magazine <strong>à vos MAC</strong> gave 500 euros to 
 help us buy a PowerMac G5</li>
 </ul>
 

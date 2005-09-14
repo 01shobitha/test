@@ -168,4 +168,19 @@ licence. There is absolutely no requirement to donate money (this is not
 shareware software). But if you want to help us move faster, we welcome
 donations. </p>
 
+<h3>Contributors</h3>
+
+<p>We would like to thank all the people who supported the VideoLAN project 
+through their remaks, bug reports or donations. We're particulerly gratefull 
+to the following people whose contributions made some important projects 
+possible. The <a href="/partners.html">partners</a> page also lists some 
+compagnies and institutions who helped VideoLAN.</p>
+
+<ul>
+  <li>The french website <strong>MacBidouille</strong> gave 500 
+euros to help us buy a PowerMac G5</li> 
+  <li>The french magazine<strong>à vos MAC</strong> gave 500 euros to 
+help us buy a PowerMac G5</li>
+</ul>
+
 <?php footer('$Id$'); ?>

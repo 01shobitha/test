@@ -1354,7 +1354,19 @@
 
 <tr>
 
-<td class="type">CDDB CD info <sup>[8]</sup></td>
+<td class="type">CD-Text <sup>[8]</sup></td>
+<td class="yes">Yes</td>
+<td class="no">No</td>
+<td class="yes">Yes</td>
+<td class="no">no</td>
+<td class="partial">Untested</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">CDDB CD info <sup>[9]</sup></td>
 <td class="no">No</td>
 <td class="partial">Untested</td>
 <td class="yes">Yes</td>
@@ -1454,7 +1466,10 @@ formats is a problem.
 value. Subtitle transparency is not fully supported for all
 chromas. Some chromas are not handled at all.
 <br /> 
-[8] CDDB information provided by libcddb via libcdio. Support is
+[8] CD-Text information provided via libcdio. Support is available on
+those platforms this library is available.
+</p>
+[9] CDDB information provided by libcddb via libcdio. Support is
 available on those platforms both of these libraries are
 available. libcddb runs on BeOS although libcdio doesn't. On Microsoft
 Windows, libcddb doesn't compile yet using without POSIX emulation.

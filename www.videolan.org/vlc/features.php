@@ -1468,7 +1468,7 @@ chromas. Some chromas are not handled at all.
 <br /> 
 [8] CD-Text information provided via libcdio. Support is available on
 those platforms this library is available.
-</p>
+<br />
 [9] CDDB information provided by libcddb via libcdio. Support is
 available on those platforms both of these libraries are
 available. libcddb runs on BeOS although libcdio doesn't. On Microsoft

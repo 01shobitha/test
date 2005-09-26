@@ -12,7 +12,7 @@
 
 <h2>Development version</h2>
 
-<p>The WinCE port of VLC is still experimental but you can get <a href="http://www.videolan.org/~videolan">nightly builds</a> for the Xscale platform. Use at your own risk ;)</p>
+<p>The WinCE port of VLC is still experimental but you can get <a href="http://nightlies.videolan.org">nightly builds</a> for the Xscale platform. Use at your own risk ;)</p>
 
 <h2>Source code</h2>
 

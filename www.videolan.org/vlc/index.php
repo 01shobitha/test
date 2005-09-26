@@ -33,6 +33,8 @@ screenshots</a>. </p>
 
       <h2>Download VLC</h2>
 
+<p><b>Note:</b>The VLC media player 0.8.4-test1 beta release is available <a href="http://forum.videolan.org/viewtopic.php?t=12634">here</a>.</p>
+
 <p> Select your operating system to download precompiled binaries: </p>
 
  <table cellspacing="10">

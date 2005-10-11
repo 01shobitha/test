@@ -4,7 +4,7 @@
 
 |11 October 2005| 10 million downloads for VLC 0.8.2| VLC 0.8.2 has been downloaded ten million times since its release, on June 26th! The whole VideoLAN team is very happy of this overwhelming result. We would like to thank all of our users, sponsors and partners, who made this result possible. Stay tuned !
 
-|19 September 2005| New nighly builds server| The new nightly build server is now available at <a href="http://nightlies.videolan.org/">http://nightlies.videolan.org</a>. We would like to thank French ISP <a href="http://www.free.fr">Free</a> for their generous donation of this Dell PowerEdge 1425 server (2 2.8GHz Xeon EMT64 CPUs, 1.5 GB RAM and 2 x 40 GB Hard drives ... which we upgraded to 2 x 250 GB).<br/><b>Update 22 September:</b> The nightly builds are back !
+|19 September 2005| New nightly builds server| The new nightly build server is now available at <a href="http://nightlies.videolan.org/">http://nightlies.videolan.org</a>. We would like to thank French ISP <a href="http://www.free.fr">Free</a> for their generous donation of this Dell PowerEdge 1425 server (2 2.8GHz Xeon EMT64 CPUs, 1.5 GB RAM and 2 x 40 GB Hard drives ... which we upgraded to 2 x 250 GB).<br/><b>Update 22 September:</b> The nightly builds are back !
 
 |4 September 2005| Announcing Planet VideoLAN| <a href="http://planet.videolan.org">Planet VideoLAN</a> (which uses the <a href="http://www.planetplanet.org/">Planet Planet</a> software) is an aggregation of VideoLAN-related posts on VideoLAN developers blogs. The best source for fresh VideoLAN news, previews and insights ! We currently have 3 feeds, but hope to have several more very soon.
 

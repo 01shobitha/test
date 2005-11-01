@@ -36,41 +36,10 @@
 
 <h1>Download skins</h1>
 
-<h2>Skins VS skins2</h2>
-
-<p><span style="color: red;"><b>Important note:</b></span><br> VLC had two
-different skins modules, named <i>skins</i> and <i>skins2</i>, the latter being
-a complete rewrite of the former. The <i>skins</i> module is now deprecated,
-and will not be included in the next release (VLC 0.7.2 is the last version to
-feature the <i>skins</i> module).</p>
-
-<p>The <a href="/vlc/skins-create.html">documentation</a> and <a
-href="/vlc/download-skins.html">download section</a> for the <i>skins</i>
-module are still kept in case someone wants to port old skins to the
-<i>skins2</i> module, but they are going to disappear one day or other...</p>
-
-<p>On this page you will only find skins for the new <i>skins2</i> module.</p>
-
-
 <h2>How to use these skins?</h2>
 
 <p>See <a href="/vlc/skins.html">this page</a> for more details on how to load
 a downloaded skin.</p>
-
-<p><span style="color: red;"><b>Note for Windows users:</b></span><br/>
-In versions of VLC up to 0.7.2 (included), a bug prevents to load the .vlt file
-as indicated (it is fixed in newer versions). Here is a workaround:</p>
-
-<ul>
-  <li>Rename the .vlt file in a .tar.gz file (ex: winamp5.vlt becomes
-  winamp5.tar.gz)</li>
-  <li>Extract the files from the .tar.gz archive using your favourite
-  compression software</li>
-  <li>When changing the skin, specify the <i>theme.xml</i> file that you just
-  extracted (among other files) instead of the .vlt file</li>
-  <li>That's it!</li>
-</ul>
-
 
 <h2>Create your own skin!</h2>
 
@@ -149,5 +118,19 @@ graphics software might ease the job, though :-)</p>
    "Skin made by Asim",
    "MediaPlayer.zip" );
 ?>
+
+<h2>Skins VS skins2</h2>
+
+<p><span style="color: red;"><b>Important note:</b></span><br> VLC had two
+different skins modules, named <i>skins</i> and <i>skins2</i>, the latter being
+a complete rewrite of the former. The <i>skins</i> module is now deprecated,
+and is no more included in VLC releases since version 0.8.0.</p>
+
+<p>The <a href="/vlc/skins-create.html">documentation</a> and <a
+href="/vlc/download-skins.html">download section</a> for the <i>skins</i>
+module are still kept in case someone wants to port old skins to the
+<i>skins2</i> module, but they are going to disappear one day or other...</p>
+
+<p>On this page you will only find skins for the new <i>skins2</i> module.</p>
 
 <?php footer('$Id: download-skins.html 2517 2004-05-23 17:11:06Z ipkiss $'); ?>

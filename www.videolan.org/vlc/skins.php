@@ -8,20 +8,6 @@
 
 <h1> Skins </h1>
 
-<h2>Skins VS skins2</h2>
-
-<p><span style="color: red;"><b>Important note:</b></span><br> VLC had two
-different skins modules, named <i>skins</i> and <i>skins2</i>, the latter being
-a complete rewrite of the former. The <i>skins</i> module is now deprecated,
-and will not be included in the next release (VLC 0.7.2 is the last version to
-feature the <i>skins</i> module).</p>
-
-<p>The <a href="/vlc/skins-create.html">documentation</a> and <a
-href="/vlc/download-skins.html">download section</a> for the <i>skins</i>
-module are still kept in case someone wants to port old skins to the
-<i>skins2</i> module, but they are going to disappear one day or other...</p>
-
-
 <h2>Features</h2>
 
 <p>Here is a short overview of the main features provided by the skins2
@@ -69,5 +55,19 @@ interface:</p>
 <p>If you think you have the artistic fiber, feel free to <a
 href="/vlc/skins2-create.html">create your own skin</a>, it does not require
 any programming skill. We will be glad to add your new skin to the website!</p>
+
+
+<h2>Skins VS skins2</h2>
+
+<p><span style="color: red;"><b>Important note:</b></span><br> VLC had two
+different skins modules, named <i>skins</i> and <i>skins2</i>, the latter being
+a complete rewrite of the former. The <i>skins</i> module is now deprecated,
+and is not included in VLC releases since version 0.8.0.</p>
+
+<p>The <a href="/vlc/skins-create.html">documentation</a> and <a
+href="/vlc/download-skins.html">download section</a> for the <i>skins</i>
+module are still kept in case someone wants to port old skins to the
+<i>skins2</i> module, but they are going to disappear one day or other...</p>
+
 
 <?php footer('$Id$'); ?>

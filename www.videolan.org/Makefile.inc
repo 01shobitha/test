@@ -3,7 +3,7 @@ SUBDIR = doc events removed rez streaming support team vlc
 
 # Files to be preprocessed
 #PHP_FILES = # automatic
-PHP_IGNORES = mirror retrieve
+PHP_IGNORES = mirror retrieve get_count
 
 # Additionnal dependencies
 

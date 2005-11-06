@@ -108,15 +108,20 @@ graphics software might ease the job, though :-)</p>
    "vplayer.jpg",
    "Skin made by scahoo",
    "vplayer.vlt" );
-
 ?>
 
 <h2>Media Player</h2>
-
 <?php AddSkin(
    "MediaPlayer.png",
    "Skin made by Asim",
    "MediaPlayer.zip" );
+?>
+
+<h2>PsVLC</h2>
+<?php AddSkin(
+   "psvlc.jpg",
+   "Skin made by jix",
+   "psvlc.vlt" );
 ?>
 
 <h2>Skins VS skins2</h2>

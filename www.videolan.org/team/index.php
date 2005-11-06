@@ -47,6 +47,15 @@ France
 <div class="others2">
 <h2>The project leader</h2>
 <p><a href="mailto:antoine.cellerier&#64;videolan.org">Antoine Cellerier</a></p>
+
+<h2>The Treasurer</h2>
+
+<p><a href="mailto:treasurer@videolan.org">Pierre-Antoine Rappenne</a></p>
+
+<h2>Supreme counsellor and mascot of the project</h2>
+
+<p><a href="mailto:ali@videolan.org">Aliénor Salin</a>, alias <b>ali</b>.</p>
+
 <h2>The teachers</h2>
 
 <p>Two teachers of the Ecole Centrale Paris supervise the project:</p>
@@ -158,35 +167,6 @@ part with '@'. </p>
    closedir($handle); 
 
 ?>
-</div>
-<div class="others">
-
-<div class="others1">
-<h2>The law sector</h2>
-
-<p><a href="mailto:Julien.Marx&#64;videolan.org">Julien Marx</a> and <a
-href="mailto:PA.Rappenne&#64;videolan.org">Pierre-Antoine Rappenne</a> are
-working on the law issues which VideoLAN is facing.</p>
-</div>
-<div class="others2">
-<h2>Supreme counsellor and mascot of the project</h2>
-
-<p><a href="mailto:ali@videolan.org">Aliénor Salin</a>, alias <b>ali</b>.</p>
-</div>
-
-<div class="others">
-<div class="others1">
-<h2>The Treasurer</h2>
-
-<p><a href="mailto:treasurer@videolan.org">Pierre-Antoine Rappenne</a></p>
-</div>
-<div class="others2">
-<h2>ECP students</h2>
-
-<p>Antoine Cellerier, Rémi Denis-Courmont, Yoann Peronneau, Jérôme Decoodt,
-Julien Lafaix, Julien Marx and Pierre-Antoine Rappenne.
-</p>
-</div>
 </div>
 
 <div class="others">

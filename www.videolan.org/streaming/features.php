@@ -52,7 +52,7 @@
 <tr>
 
 <td class="category" rowspan="5"><b>Output</b></td>
-<td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=UDP" target="_blank">UDP</a> Unicast / <a href="http://wiki.videolan.org/tiki-index.php?page=multicast" target="_blank">Multicast</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/UDP" target="_blank">UDP</a> Unicast / <a href="http://wiki.videolan.org/index.php/multicast" target="_blank">Multicast</a></td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -64,7 +64,7 @@
 
 <tr>
 
-<td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=RTP" target="_blank">RTP</a> Unicast / <a href="http://wiki.videolan.org/tiki-index.php?page=multicast" target="_blank">Multicast</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/RTP" target="_blank">RTP</a> Unicast / <a href="http://wiki.videolan.org/index.php/multicast" target="_blank">Multicast</a></td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -88,7 +88,7 @@
 
 <tr>
 
-<td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=HTTP" target="_blank">HTTP</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/HTTP" target="_blank">HTTP</a></td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -100,7 +100,7 @@
 
 <tr>
 
-<td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=protocol" target="_blank">MMSH</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/protocol" target="_blank">MMSH</a></td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -136,7 +136,7 @@
 
 <tr>
 
-<td class="type">Send <a href="http://wiki.videolan.org/tiki-index.php?page=SAP" target="_blank">SAP</a> announces</td>
+<td class="type">Send <a href="http://wiki.videolan.org/index.php/SAP" target="_blank">SAP</a> announces</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -166,15 +166,15 @@
 
 <tr>
 <td></td>
-<td class="matrixhead"><a href="http://wiki.videolan.org/tiki-index.php?page=UDP" target="_blank">UDP</a></td>
-<td class="matrixhead"><a href="http://wiki.videolan.org/tiki-index.php?page=RTP" target="_blank">RTP</a></td>
-<td class="matrixhead"><a href="http://wiki.videolan.org/tiki-index.php?page=HTTP" target="_blank">HTTP</a></td>
-<td class="matrixhead"><a href="http://wiki.videolan.org/tiki-index.php?page=protocol" target="_blank">MMSH</a></td>
+<td class="matrixhead"><a href="http://wiki.videolan.org/index.php/UDP" target="_blank">UDP</a></td>
+<td class="matrixhead"><a href="http://wiki.videolan.org/index.php/RTP" target="_blank">RTP</a></td>
+<td class="matrixhead"><a href="http://wiki.videolan.org/index.php/HTTP" target="_blank">HTTP</a></td>
+<td class="matrixhead"><a href="http://wiki.videolan.org/index.php/protocol" target="_blank">MMSH</a></td>
 <td class="matrixhead">File</td>
 </tr>
 
 <tr>
-<td class="category"><a href="http://wiki.videolan.org/tiki-index.php?page=container" target="_blank">PS</a></td>
+<td class="category"><a href="http://wiki.videolan.org/index.php/container" target="_blank">PS</a></td>
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="yes">Yes</td>
@@ -183,7 +183,7 @@
 </tr>
 
 <tr>
-<td class="category"><a href="http://wiki.videolan.org/tiki-index.php?page=container" target="_blank">TS</a></td>
+<td class="category"><a href="http://wiki.videolan.org/index.php/container" target="_blank">TS</a></td>
 <td class="yes">Yes</td>
 <td class="no">No</td>
 <td class="yes">Yes</td>
@@ -192,7 +192,7 @@
 </tr>
 
 <tr>
-<td class="category"><a href="http://wiki.videolan.org/tiki-index.php?page=container" target="_blank">Ogg</a></td>
+<td class="category"><a href="http://wiki.videolan.org/index.php/container" target="_blank">Ogg</a></td>
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="yes">Yes</td>
@@ -201,7 +201,7 @@
 </tr>
 
 <tr>
-<td class="category"><a href="http://wiki.videolan.org/tiki-index.php?page=ASF" target="_blank">ASF</a></td>
+<td class="category"><a href="http://wiki.videolan.org/index.php/ASF" target="_blank">ASF</a></td>
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="yes">Yes</td>
@@ -210,7 +210,7 @@
 </tr>
 
 <tr>
-<td class="category"><a href="http://wiki.videolan.org/tiki-index.php?page=container" target="_blank">MP4</a></td>
+<td class="category"><a href="http://wiki.videolan.org/index.php/container" target="_blank">MP4</a></td>
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="no">No</td>
@@ -219,7 +219,7 @@
 </tr>
 
 <tr>
-<td class="category"><a href="http://wiki.videolan.org/tiki-index.php?page=container" target="_blank">QuickTime</a></td>
+<td class="category"><a href="http://wiki.videolan.org/index.php/container" target="_blank">QuickTime</a></td>
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="no">No</td>
@@ -237,7 +237,7 @@
 </tr>
 
 <tr>
-<td class="category"><a href="http://wiki.videolan.org/tiki-index.php?page=MPMJPEG" target="_blank">MPMJPEG</a></td>
+<td class="category"><a href="http://wiki.videolan.org/index.php/MPMJPEG" target="_blank">MPMJPEG</a></td>
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="partial">SVN only</td>
@@ -258,19 +258,19 @@
 <tr>
 <td></td>
 <td></td>
-<td class="matrixhead"><a href="http://wiki.videolan.org/tiki-index.php?page=container" target="_blank">PS</a></td>
-<td class="matrixhead"><a href="http://wiki.videolan.org/tiki-index.php?page=container" target="_blank">TS</a></td>
-<td class="matrixhead"><a href="http://wiki.videolan.org/tiki-index.php?page=container" target="_blank">Ogg</a></td>
-<td class="matrixhead"><a href="http://wiki.videolan.org/tiki-index.php?page=ASF" target="_blank">ASF</a></td>
-<td class="matrixhead"><a href="http://wiki.videolan.org/tiki-index.php?page=container" target="_blank">MP4</a></td>
-<td class="matrixhead"><a href="http://wiki.videolan.org/tiki-index.php?page=container" target="_blank">MOV</a></td>
-<td class="matrixhead"><a href="http://wiki.videolan.org/tiki-index.php?page=MPMJPEG" target="_blank">MPMJPEG</a></td>
+<td class="matrixhead"><a href="http://wiki.videolan.org/index.php/container" target="_blank">PS</a></td>
+<td class="matrixhead"><a href="http://wiki.videolan.org/index.php/container" target="_blank">TS</a></td>
+<td class="matrixhead"><a href="http://wiki.videolan.org/index.php/container" target="_blank">Ogg</a></td>
+<td class="matrixhead"><a href="http://wiki.videolan.org/index.php/ASF" target="_blank">ASF</a></td>
+<td class="matrixhead"><a href="http://wiki.videolan.org/index.php/container" target="_blank">MP4</a></td>
+<td class="matrixhead"><a href="http://wiki.videolan.org/index.php/container" target="_blank">MOV</a></td>
+<td class="matrixhead"><a href="http://wiki.videolan.org/index.php/MPMJPEG" target="_blank">MPMJPEG</a></td>
 <td class="matrixhead">Raw</td>
 </tr>
 
 <tr>
 <td class="category" rowspan="8"><b>Video formats</b></td>
-<td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=Codec" target="_blank">MPEG-1 video</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Codec" target="_blank">MPEG-1 video</a></td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -282,7 +282,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=Codec" target="_blank">MPEG-2 video</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Codec" target="_blank">MPEG-2 video</a></td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -294,7 +294,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=Codec" target="_blank">MPEG-4 video</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Codec" target="_blank">MPEG-4 video</a></td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -306,7 +306,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=Codec" target="_blank">DivX 1/2/3 video</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Codec" target="_blank">DivX 1/2/3 video</a></td>
 <td class="no">No</td>
 <td class="yes">Yes [1]</td>
 <td class="yes">Yes</td>
@@ -318,7 +318,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=Codec" target="_blank">WMV 1/2</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Codec" target="_blank">WMV 1/2</a></td>
 <td class="no">No</td>
 <td class="yes">Yes [1]</td>
 <td class="yes">Yes</td>
@@ -330,7 +330,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=Codec" target="_blank">H/I 263</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Codec" target="_blank">H/I 263</a></td>
 <td class="no">No</td>
 <td class="yes">Yes [1]</td>
 <td class="no">No</td>
@@ -342,7 +342,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=Codec" target="_blank">MJPEG</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Codec" target="_blank">MJPEG</a></td>
 <td class="no">No</td>
 <td class="yes">Yes [1]</td>
 <td class="yes">Yes</td>
@@ -354,7 +354,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=Codec" target="_blank">Theora</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Codec" target="_blank">Theora</a></td>
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="yes">Yes</td>
@@ -367,7 +367,7 @@
 
 <tr>
 <td class="category" rowspan="5"><b>Audio formats</b></td>
-<td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=Codec" target="_blank">MPEG Layer 1/2/3 audio</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Codec" target="_blank">MPEG Layer 1/2/3 audio</a></td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -379,7 +379,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=Codec" target="_blank">AC3 (i.e. A52)</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Codec" target="_blank">AC3 (i.e. A52)</a></td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -391,7 +391,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=Advanced+Audio+Coding" target="_blank">MPEG-4 audio (i.e. AAC)</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Advanced+Audio+Coding" target="_blank">MPEG-4 audio (i.e. AAC)</a></td>
 <td class="no">No</td>
 <td class="yes">Yes</td>
 <td class="no">No</td>
@@ -403,7 +403,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=Codec" target="_blank">Vorbis/Speex</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Codec" target="_blank">Vorbis/Speex</a></td>
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="yes">Yes</td>
@@ -415,7 +415,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=Codec" target="_blank">FLAC</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Codec" target="_blank">FLAC</a></td>
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="yes">Yes</td>
@@ -441,75 +441,75 @@ interoperable).</p>
 
 <tr>
 <td class="category" rowspan="8"><b>Video formats</b></td>
-<td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=Codec" target="_blank">MPEG-1 video</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Codec" target="_blank">MPEG-1 video</a></td>
 <td class="yes">Yes</td>
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=Codec" target="_blank">MPEG-2 video</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Codec" target="_blank">MPEG-2 video</a></td>
 <td class="yes">Yes</td>
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=Codec" target="_blank">MPEG-4 video</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Codec" target="_blank">MPEG-4 video</a></td>
 <td class="yes">Yes</td>
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=Codec" target="_blank">DivX 1/2/3 video</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Codec" target="_blank">DivX 1/2/3 video</a></td>
 <td class="yes">Yes</td>
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=Codec" target="_blank">WMV 1/2</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Codec" target="_blank">WMV 1/2</a></td>
 <td class="yes">Yes</td>
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=Codec" target="_blank">H/I 263</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Codec" target="_blank">H/I 263</a></td>
 <td class="yes">Yes</td>
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=Codec" target="_blank">MJPEG</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Codec" target="_blank">MJPEG</a></td>
 <td class="yes">Yes</td>
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=Codec" target="_blank">Theora</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Codec" target="_blank">Theora</a></td>
 <td class="yes">Yes</td>
 </tr>
 
 
 <tr>
 <td class="category" rowspan="6"><b>Audio formats</b></td>
-<td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=Codec" target="_blank">MPEG Layer 2 audio</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Codec" target="_blank">MPEG Layer 2 audio</a></td>
 <td class="yes">Yes</td>
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=Codec" target="_blank">MPEG Layer 3 audio</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Codec" target="_blank">MPEG Layer 3 audio</a></td>
 <td class="yes">Yes [2]</td>
 </tr>
 
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=Codec" target="_blank">AC3 (i.e. A52)</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Codec" target="_blank">AC3 (i.e. A52)</a></td>
 <td class="yes">Yes</td>
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=Advanced+Audio+Coding" target="_blank">MPEG-4 audio (i.e. AAC)</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Advanced+Audio+Coding" target="_blank">MPEG-4 audio (i.e. AAC)</a></td>
 <td class="yes">Yes [3]</td>
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=Codec" target="_blank">Vorbis/Speex</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Codec" target="_blank">Vorbis/Speex</a></td>
 <td class="yes">Yes</td>
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=Codec" target="_blank">FLAC</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Codec" target="_blank">FLAC</a></td>
 <td class="yes">Yes</td>
 </tr>
 
@@ -637,7 +637,7 @@ interoperable).</p>
 <tr>
 
 <td class="category" rowspan="2"><b>Input formats</b></td>
-<td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=Container" target="_blank">TS</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Container" target="_blank">TS</a></td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -646,7 +646,7 @@ interoperable).</p>
 
 <tr>
 
-<td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=Container" target="_blank">PS</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Container" target="_blank">PS</a></td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -657,7 +657,7 @@ interoperable).</p>
 <tr>
 
 <td class="category" rowspan="1"><b>Output format</b></td>
-<td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=Container" target="_blank">TS</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Container" target="_blank">TS</a></td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -686,7 +686,7 @@ interoperable).</p>
 <tr>
 
 <td class="category" rowspan="4"><b>Misc</b></td>
-<td class="type"><a href="http://wiki.videolan.org/tiki-index.php?page=IP" target="_blank">IPv6</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/IP" target="_blank">IPv6</a></td>
 <td class="yes">Yes</td>
 <td class="no">No</td>
 <td class="no">No</td>
@@ -704,7 +704,7 @@ interoperable).</p>
 
 <tr>
 
-<td class="type">Send <a href="http://wiki.videolan.org/tiki-index.php?page=SAP" target="_blank">SAP</a> announces</td>
+<td class="type">Send <a href="http://wiki.videolan.org/index.php/SAP" target="_blank">SAP</a> announces</td>
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="no">No</td>

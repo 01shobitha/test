@@ -6,6 +6,7 @@
  */
   function shownews($style,$max) {
     $file=fopen("news.msg","r");
+    $count = 0;
 
     if(!$file)
       return(0);
@@ -30,7 +31,12 @@
 
                     if( $style == "full" )
                     {
-			echo ("<div class=\"item\">\n");
+                        if( $count ++ < 15 )
+                        {
+			    echo ("<div class=\"item\">\n");
+                        } else {
+			    echo ("<div class=\"item-really-old\">\n");
+                        }
                         $date = "<a class=\"link\" href=\"http://www.videolan.org/news.html#NEWS$max\" /><a id=\"NEWS$max\"><span class=\"date\">".date("Y-m-d", strtotime( $date) )."</span>".$date."</a>";
                         echo ("<p><b><span class=\"title\">".$title."</span></b> (".$date.")\n");
                         echo ("<span class=\"description\">".$text."</span>\n");

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-06-02 14:54+0200\n"
+"POT-Creation-Date: 2005-11-13 19:39+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -919,13 +919,8 @@ msgid ""
 "<emphasis>freetype</emphasis> page. You can then set the font and its\n"
 "size. For the font, you have to select a font file. Under Windows, they\n"
 "can be found in <emphasis>C:\\Windows\\Fonts</emphasis>. Under MacOS X,\n"
-"they are in <emphasis>/System/Library/Fonts</emphasis>"
-msgstr ""
-
-# type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:459
-#, no-wrap
-msgid ". Size can be set either relatively or as a number of pixels."
+"they are in <emphasis>/System/Library/Fonts</emphasis>. Size can be set "
+"either relatively or as a number of pixels."
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
@@ -1483,7 +1478,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<prompt>% </prompt><userinput>vlc "
-"dvd://[device][@raw_device][@[title][,[chapter][,angle]]]</userinput>"
+"dvd://[device][@raw_device][@[title][:[chapter][:angle]]]</userinput>"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
@@ -1511,7 +1506,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<prompt>% </prompt><userinput>vlc "
-"dvdsimple://[device][@raw_device][@[title][,[chapter][,angle]]]</userinput>"
+"dvdsimple://[device][@raw_device][@[title][:[chapter][:angle]]]</userinput>"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
@@ -3945,7 +3940,7 @@ msgid "Building pages for the HTTP interface"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><title>
-#: en/http.xml:8 en/http.xml:220
+#: en/http.xml:8 en/http.xml:251
 #, no-wrap
 msgid "Introduction"
 msgstr ""
@@ -3997,12 +3992,26 @@ msgstr ""
 #: en/http.xml:35
 #, no-wrap
 msgid ""
+"A '.hosts' file will be opened and the http\n"
+"interface will expect to find a list of network/mask pairs separated\n"
+"by new line, for instance 192.168.0.0/255.255.255.0. If this file is\n"
+"present, then the default behaviour is to deny access from hosts\n"
+"which don't match any of the network/mask pairs to all the files of the\n"
+"directory. If the file is not present, then any host has access to the\n"
+"files of the directory. Be careful that only files in this\n"
+"directory will be protected. (sub-directories won't be protected.)"
+msgstr ""
+
+# type: Content of: <appendix><sect1><itemizedlist><listitem><para>
+#: en/http.xml:45
+#, no-wrap
+msgid ""
 "The file &lt;dir&gt;/index.html will be exported as\n"
 "&lt;dir&gt; and &lt;dir&gt;/ and not as index.html."
 msgstr ""
 
 # type: Content of: <appendix><sect1><para>
-#: en/http.xml:42
+#: en/http.xml:52
 #, no-wrap
 msgid ""
 "The MIME type is set by looking at the file\n"
@@ -4012,7 +4021,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><para>
-#: en/http.xml:49
+#: en/http.xml:59
 #, no-wrap
 msgid ""
 "You should avoid exporting big files. Each file is\n"
@@ -4021,13 +4030,13 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><title>
-#: en/http.xml:57
+#: en/http.xml:67
 #, no-wrap
 msgid "VLC macros"
 msgstr ""
 
 # type: Content of: <appendix><sect1><para>
-#: en/http.xml:59
+#: en/http.xml:69
 #, no-wrap
 msgid ""
 "Each type a .html/.htm page is requested,\n"
@@ -4042,7 +4051,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><para>
-#: en/http.xml:69
+#: en/http.xml:79
 #, no-wrap
 msgid ""
 "A VLC macro looks like:\n"
@@ -4051,7 +4060,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><para>
-#: en/http.xml:74
+#: en/http.xml:84
 #, no-wrap
 msgid ""
 "\"id\" is the only mandatory field, param1 and param2\n"
@@ -4059,7 +4068,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><para>
-#: en/http.xml:79
+#: en/http.xml:89
 #, no-wrap
 msgid ""
 "You should take care that you _have to_ respect\n"
@@ -4068,7 +4077,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><para>
-#: en/http.xml:85
+#: en/http.xml:95
 #, no-wrap
 msgid ""
 "Examples\n"
@@ -4078,7 +4087,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><para>
-#: en/http.xml:90
+#: en/http.xml:100
 #, no-wrap
 msgid ""
 "Correct: <emphasis>&lt;vlc id=\"value\"\n"
@@ -4086,7 +4095,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><para>
-#: en/http.xml:96
+#: en/http.xml:106
 #, no-wrap
 msgid ""
 "Incorrect: <emphasis>&lt;vlc id=\"value\"\n"
@@ -4096,67 +4105,73 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><para>
-#: en/http.xml:103
+#: en/http.xml:113
 #, no-wrap
 msgid "Valid macros are:"
 msgstr ""
 
 # type: Content of: <appendix><sect1><itemizedlist><listitem><para>
-#: en/http.xml:109
+#: en/http.xml:119
 #, no-wrap
 msgid "<emphasis>control</emphasis> (1 optional parameter)"
 msgstr ""
 
 # type: Content of: <appendix><sect1><itemizedlist><listitem><para>
-#: en/http.xml:114
-#, no-wrap
-msgid "<emphasis>get</emphasis> (2 parameters)"
-msgstr ""
-
-# type: Content of: <appendix><sect1><itemizedlist><listitem><para>
-#: en/http.xml:119
-#, no-wrap
-msgid "<emphasis>set</emphasis> (2 parameters)"
-msgstr ""
-
-# type: Content of: <appendix><sect1><itemizedlist><listitem><para>
 #: en/http.xml:124
 #, no-wrap
-msgid "<emphasis>rpn</emphasis> (1 parameter)"
+msgid "<emphasis>include</emphasis> (1 parameter)"
 msgstr ""
 
 # type: Content of: <appendix><sect1><itemizedlist><listitem><para>
 #: en/http.xml:129
 #, no-wrap
-msgid "<emphasis>if</emphasis> (1 optional parameter)"
+msgid "<emphasis>get</emphasis> (2 parameters)"
 msgstr ""
 
 # type: Content of: <appendix><sect1><itemizedlist><listitem><para>
 #: en/http.xml:134
 #, no-wrap
-msgid "<emphasis>else</emphasis> (no parameter)"
+msgid "<emphasis>set</emphasis> (2 parameters)"
 msgstr ""
 
 # type: Content of: <appendix><sect1><itemizedlist><listitem><para>
 #: en/http.xml:139
 #, no-wrap
+msgid "<emphasis>rpn</emphasis> (1 parameter)"
+msgstr ""
+
+# type: Content of: <appendix><sect1><itemizedlist><listitem><para>
+#: en/http.xml:144
+#, no-wrap
+msgid "<emphasis>if</emphasis> (1 optional parameter)"
+msgstr ""
+
+# type: Content of: <appendix><sect1><itemizedlist><listitem><para>
+#: en/http.xml:149
+#, no-wrap
+msgid "<emphasis>else</emphasis> (no parameter)"
+msgstr ""
+
+# type: Content of: <appendix><sect1><itemizedlist><listitem><para>
+#: en/http.xml:154
+#, no-wrap
 msgid "<emphasis>end</emphasis> (no parameter)"
 msgstr ""
 
 # type: Content of: <appendix><sect1><itemizedlist><listitem><para>
-#: en/http.xml:143
+#: en/http.xml:158
 #, no-wrap
 msgid "<emphasis>value</emphasis> (1 optional parameter)"
 msgstr ""
 
 # type: Content of: <appendix><sect1><itemizedlist><listitem><para>
-#: en/http.xml:148
+#: en/http.xml:163
 #, no-wrap
 msgid "<emphasis>foreach</emphasis> (2 parameters)"
 msgstr ""
 
 # type: Content of: <appendix><sect1><para>
-#: en/http.xml:155
+#: en/http.xml:170
 #, no-wrap
 msgid ""
 "For powerful macros, you may use these tools\n"
@@ -4166,13 +4181,13 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><itemizedlist><listitem><para>
-#: en/http.xml:163
+#: en/http.xml:178
 #, no-wrap
 msgid "RPN Evaluator (see part 2)"
 msgstr ""
 
 # type: Content of: <appendix><sect1><itemizedlist><listitem><para>
-#: en/http.xml:167
+#: en/http.xml:182
 #, no-wrap
 msgid ""
 "Stacks: The stack is a place where you can push\n"
@@ -4181,7 +4196,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><itemizedlist><listitem><para>
-#: en/http.xml:172
+#: en/http.xml:187
 #, no-wrap
 msgid ""
 "Local variables: You can dynamically create\n"
@@ -4190,7 +4205,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/http.xml:179
+#: en/http.xml:194
 #, no-wrap
 msgid ""
 "<emphasis>url_value</emphasis>\n"
@@ -4198,7 +4213,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/http.xml:184
+#: en/http.xml:199
 #, no-wrap
 msgid ""
 "<emphasis>url_param</emphasis>\n"
@@ -4206,7 +4221,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/http.xml:189
+#: en/http.xml:204
 #, no-wrap
 msgid ""
 "<emphasis>version</emphasis>\n"
@@ -4214,15 +4229,41 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/http.xml:194
+#: en/http.xml:209
 #, no-wrap
 msgid ""
 "<emphasis>copyright</emphasis>\n"
 ": the VLC copyright"
 msgstr ""
 
+# type: Content of: <appendix><sect1><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:214
+#, no-wrap
+msgid ""
+"<emphasis>vlc_compile_time, vlc_compile_by, vlc_compile_host,\n"
+"vlc_compile_domain, vlc_compiler, vlc_changeset</emphasis>\n"
+": information on the VLC build"
+msgstr ""
+
+# type: Content of: <appendix><sect1><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:220
+#, no-wrap
+msgid ""
+"<emphasis>stream_position, stream_time, stream_length, "
+"stream_state</emphasis>\n"
+": information on the currently playing stream"
+msgstr ""
+
+# type: Content of: <appendix><sect1><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:225
+#, no-wrap
+msgid ""
+"<emphasis>volume</emphasis>\n"
+": current volume setting"
+msgstr ""
+
 # type: Content of: <appendix><sect1><para>
-#: en/http.xml:205
+#: en/http.xml:236
 #, no-wrap
 msgid ""
 "Remark: The stacks, and local variables context is\n"
@@ -4230,19 +4271,19 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><title>
-#: en/http.xml:212
+#: en/http.xml:243
 #, no-wrap
 msgid "The RPN evaluator"
 msgstr ""
 
 # type: Content of: <appendix><sect1><para>
-#: en/http.xml:216
+#: en/http.xml:247
 #, no-wrap
 msgid "RPN means Reverse Polish Notation"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><para>
-#: en/http.xml:224
+#: en/http.xml:255
 #, no-wrap
 msgid ""
 "RPN could look strange but it's a fast and easy way\n"
@@ -4250,7 +4291,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><para>
-#: en/http.xml:229
+#: en/http.xml:260
 #, no-wrap
 msgid ""
 "Instead of writing ( 1 + 2 ) * 5 you just use 1 2 +\n"
@@ -4258,7 +4299,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><para>
-#: en/http.xml:234
+#: en/http.xml:265
 #, no-wrap
 msgid ""
 "The idea beyond it is: if we have a number or a\n"
@@ -4269,7 +4310,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><para><programlisting>
-#: en/http.xml:243
+#: en/http.xml:274
 #, no-wrap
 msgid ""
 "stack:      Word processed\n"
@@ -4282,13 +4323,13 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><title>
-#: en/http.xml:256
+#: en/http.xml:287
 #, no-wrap
 msgid "Operators"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><para>
-#: en/http.xml:259
+#: en/http.xml:290
 #, no-wrap
 msgid ""
 "Notation: ST(1) means the first stack\n"
@@ -4296,7 +4337,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><para>
-#: en/http.xml:264
+#: en/http.xml:295
 #, no-wrap
 msgid ""
 "You have access to\n"
@@ -4306,71 +4347,403 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para>
-#: en/http.xml:272
+#: en/http.xml:303
 #, no-wrap
 msgid ""
-"Standard arithmetics operators: +, -, *, /, %:\n"
+"Standard arithmetics operators: <emphasis>+, -, *, /, %</emphasis>:\n"
 "these ones push the result of ST(1) op ST(2) to the stack"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para>
-#: en/http.xml:277
+#: en/http.xml:308
 #, no-wrap
 msgid ""
-"Binary operators: ! (push !ST(1)); ^, &amp;, |: push\n"
+"Binary operators: <emphasis>!</emphasis> (push !ST(1));\n"
+"<emphasis>^, &amp;, |</emphasis>: push\n"
 "the result ST(1) op ST(2)"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para>
-#: en/http.xml:282
+#: en/http.xml:314
 #, no-wrap
 msgid ""
-"test: =, &lt;, &lt;=, &gt;, &gt;=: execute ST(1) op\n"
+"test: <emphasis>=, &lt;, &lt;=, &gt;, &gt;=</emphasis>: execute ST(1) op\n"
 "ST(2) and push -1 if true else 0"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para>
-#: en/http.xml:288
+#: en/http.xml:320
+#, no-wrap
+msgid "string functions:"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:325
 #, no-wrap
 msgid ""
-"string: strcat pushes the result of 'ST(1)ST(2)',\n"
-"strcmp compares ST(1) and ST(2), pushes -1 if ST(1)&lt;ST(2), 0 if\n"
-"equal, 1 else, strlen pushes the length of ST(1)."
+"<emphasis>strcat</emphasis>\n"
+": pushes the result of 'ST(1)ST(2)"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:330
+#, no-wrap
+msgid ""
+"<emphasis>strcmp</emphasis>\n"
+": compares ST(1) and ST(2) (0 if equal)"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:335
+#, no-wrap
+msgid ""
+"<emphasis>strncmp</emphasis>\n"
+": compares the first ST(1) characters of ST(2) and ST(3) (0 if equal)"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:340
+#, no-wrap
+msgid ""
+"<emphasis>strsub</emphasis>\n"
+": extracts characters ST(1) to ST(2) of streaing ST(3)"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:345
+#, no-wrap
+msgid ""
+"<emphasis>strlen</emphasis>\n"
+": pushes the length of ST(1)"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:350
+#, no-wrap
+msgid ""
+"<emphasis>str_replace</emphasis>\n"
+": replaces string ST(2) with ST(1) in ST(3)"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:355
+#, no-wrap
+msgid ""
+"<emphasis>url_encode</emphasis>\n"
+": encodes non-alphanumeric characters of ST(1) as %XX so that they can be\n"
+"safely passed as GET or POST variables"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:361
+#, no-wrap
+msgid ""
+"<emphasis>url_extract</emphasis>\n"
+": performs the reverse operation of url_encode"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:366
+#, no-wrap
+msgid ""
+"<emphasis>addslashes</emphasis>\n"
+": protects single quotes (&#039;) and double quotes (&quot;) of ST(1) with\n"
+"backslashes (\\) so that they can be safely passed to a VLC playlist "
+"function"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:372
+#, no-wrap
+msgid ""
+"<emphasis>stripslashes</emphasis>\n"
+": performs the reverse operation of addslashes"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:377
+#, no-wrap
+msgid ""
+"<emphasis>htmlspecialchars</emphasis>\n"
+": encodes &amp;, &quot;, &#039;, &lt; and &gt; of ST(1) as their "
+"&amp;stuff;\n"
+"HTML counterpart, so that they don't interact with HTML tags"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:383
+#, no-wrap
+msgid ""
+"<emphasis>realpath</emphasis>\n"
+": parses ST(1) as a filename path, and pushes an absolute path to that "
+"file,\n"
+"removing ~ and ../"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para>
-#: en/http.xml:295
+#: en/http.xml:394
+#, no-wrap
+msgid "stack manipulation:"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:399
 #, no-wrap
 msgid ""
-"stack manipulation: dup duplicates ST(1), drop\n"
-"removes ST(1), swap exchanges ST(1) and ST(2), and flush empties the\n"
-"stack."
+"<emphasis>dup</emphasis>\n"
+": pops ST(1) and pushes the same string twice"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:404
+#, no-wrap
+msgid ""
+"<emphasis>drop</emphasis>\n"
+": pops ST(1) and drops it"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:409
+#, no-wrap
+msgid ""
+"<emphasis>swap</emphasis>\n"
+": exchanges ST(1) and ST(2)"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:414
+#, no-wrap
+msgid ""
+"<emphasis>flush</emphasis>\n"
+": empties the stack"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para>
-#: en/http.xml:302
+#: en/http.xml:423
+#, no-wrap
+msgid "variables manipulation:"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:428
 #, no-wrap
 msgid ""
-"variables manipulation: store stores ST(2) in a\n"
-"local variable named ST(1), value pushes the value of the local variable\n"
-"named ST(1), url_extract pushes the value of the ST(1) part of the url\n"
-"parameters."
+"<emphasis>store</emphasis>\n"
+": stores ST(2) in a local variable named ST(1)"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:433
+#, no-wrap
+msgid ""
+"<emphasis>value</emphasis>\n"
+": pushes the value of the local variable named ST(1)"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para>
+#: en/http.xml:442
+#, no-wrap
+msgid "player control:"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:447
+#, no-wrap
+msgid ""
+"<emphasis>vlc_play</emphasis>\n"
+": plays the playlist item whose ID is ST(1), and pushes the return value of "
+"the\n"
+"play function (0 in case of success); see playlist functions below"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:453
+#, no-wrap
+msgid ""
+"<emphasis>vlc_stop</emphasis>\n"
+": stops the playlist"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:458
+#, no-wrap
+msgid ""
+"<emphasis>vlc_pause</emphasis>\n"
+": pauses the playlist"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:463
+#, no-wrap
+msgid ""
+"<emphasis>vlc_next</emphasis>\n"
+": plays the next playlist item"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:468
+#, no-wrap
+msgid ""
+"<emphasis>vlc_previous</emphasis>\n"
+": plays the previous playlist item"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:473
+#, no-wrap
+msgid ""
+"<emphasis>vlc_seek</emphasis>\n"
+": seeks the current input to a location defined in ST(1), for instance\n"
+"+3m (minutes), -20s, 45%, 1:12, 1h12m25s"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:479
+#, no-wrap
+msgid ""
+"<emphasis>vlc_var_type</emphasis>\n"
+": pushes the type of the variable ST(2) of object ST(1);\n"
+"the type is one of these strings\n"
+"<emphasis>VLC_VAR_BOOL, VLC_VAR_INTEGER, VLC_VAR_HOTKEY, VLC_VAR_STRING,\n"
+"VLC_VAR_MODULE, VLC_VAR_FILE, VLC_VAR_DIRECTORY, VLC_VAR_VARIABLE,\n"
+"VLC_VAR_FLOAT, UNDEFINED</emphasis> (no such variable) or\n"
+"<emphasis>INVALID</emphasis> (no input stream); the object is one of\n"
+"<emphasis>VLC_OBJECT_ROOT, VLC_OBJECT_VLC, VLC_OBJECT_INTF, "
+"VLC_OBJECT_PLAYLIST,\n"
+"VLC_OBJECT_INPUT, VLC_OBJECT_VOUT, VLC_OBJECT_AOUT</emphasis> or\n"
+"<emphasis>VLC_OBJECT_SOUT</emphasis>"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:492
+#, no-wrap
+msgid ""
+"<emphasis>vlc_var_set</emphasis>\n"
+": sets variable ST(2) of object ST(1) to ST(3)"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:497
+#, no-wrap
+msgid ""
+"<emphasis>vlc_var_get</emphasis>\n"
+": pushes the value of the variable ST(2) of object ST(1)"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:502
+#, no-wrap
+msgid ""
+"<emphasis>vlc_config_type</emphasis>\n"
+": pushes the type of the configuration variable ST(1); see\n"
+"<emphasis>vlc_var_type</emphasis> for a list of types"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:508
+#, no-wrap
+msgid ""
+"<emphasis>vlc_config_set</emphasis>\n"
+": sets configuration variable ST(1) to ST(2)"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:513
+#, no-wrap
+msgid ""
+"<emphasis>vlc_config_get</emphasis>\n"
+": pushes the value of the configuration variable ST(1)"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:518
+#, no-wrap
+msgid ""
+"<emphasis>vlc_config_save</emphasis>\n"
+": saves the modification made to the configuration variables of module\n"
+"ST(1) to the configuration file (ST(1) may be empty, in which case the\n"
+"whole configuration is saved) and pushes the return status (0 in case\n"
+"of success)"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:526
+#, no-wrap
+msgid ""
+"<emphasis>vlc_config_reset</emphasis>\n"
+": resets the configuration file to the default value (use with caution)"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para>
+#: en/http.xml:535
+#, no-wrap
+msgid "playlist functions:"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:540
+#, no-wrap
+msgid ""
+"<emphasis>playlist_add</emphasis>\n"
+": adds MRL ST(1) to the playlist, with name ST(2) and returns the playlist "
+"ID\n"
+"associated to this item; special characters must be escaped with\n"
+"addslashes first; it is very convenient to call 'toto.mpg' playlist_add "
+"vlc_play"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:547
+#, no-wrap
+msgid ""
+"<emphasis>playlist_empty</emphasis>\n"
+": clears the playlist of all items"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:552
+#, no-wrap
+msgid ""
+"<emphasis>playlist_move</emphasis>\n"
+": moves playlist item at position ST(2) to position ST(1)"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:557
+#, no-wrap
+msgid ""
+"<emphasis>playlist_delete</emphasis>\n"
+": deletes playlist item ID ST(1)"
 msgstr ""
 
 # type: Content of: <appendix><sect1><title>
-#: en/http.xml:314
+#: en/http.xml:571
 #, no-wrap
 msgid "The macros"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><title>
-#: en/http.xml:318
+#: en/http.xml:575
 #, no-wrap
 msgid "The <emphasis>control</emphasis> macro"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><para>
-#: en/http.xml:322
+#: en/http.xml:578
+#, no-wrap
+msgid ""
+"<emphasis>\n"
+"The use of the control macro is now deprecated in favour of the RPN "
+"functions\n"
+"above. The documentation is provided here for the maintainance of\n"
+"HTML pages still using this old API. The main problem with this API\n"
+"is that there is no way to retrieve the playlist ID of the last added\n"
+"item.\n"
+"</emphasis>"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><para>
+#: en/http.xml:587
 #, no-wrap
 msgid ""
 "When asking for a page, you can pass\n"
@@ -4383,7 +4756,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><para>
-#: en/http.xml:330
+#: en/http.xml:595
 #, no-wrap
 msgid ""
 "Some commands require an argument that must be\n"
@@ -4391,169 +4764,169 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><table><title>
-#: en/http.xml:335
+#: en/http.xml:600
 #, no-wrap
 msgid "URL commands"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><table><tgroup><thead><row><entry>
-#: en/http.xml:341
+#: en/http.xml:606
 #, no-wrap
 msgid "Name"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><table><tgroup><thead><row><entry>
-#: en/http.xml:342
+#: en/http.xml:607
 #, no-wrap
 msgid "Argument"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><table><tgroup><thead><row><entry>
-#: en/http.xml:344
+#: en/http.xml:609
 #, no-wrap
 msgid "Description"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/http.xml:352
+#: en/http.xml:617
 #, no-wrap
 msgid "play"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/http.xml:354 en/http.xml:408
+#: en/http.xml:619 en/http.xml:673
 #, no-wrap
 msgid "item (integer)"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/http.xml:359
+#: en/http.xml:624
 #, no-wrap
 msgid "Play the specified playlist item"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/http.xml:365
+#: en/http.xml:630
 #, no-wrap
 msgid "stop"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/http.xml:367
+#: en/http.xml:632
 #, no-wrap
 msgid "Stop"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/http.xml:373
+#: en/http.xml:638
 #, no-wrap
 msgid "pause"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/http.xml:374
+#: en/http.xml:639
 #, no-wrap
 msgid "Pause"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/http.xml:377
+#: en/http.xml:642
 #, no-wrap
 msgid "next"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/http.xml:379
+#: en/http.xml:644
 #, no-wrap
 msgid "Go to next playlist item"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/http.xml:385
+#: en/http.xml:650
 #, no-wrap
 msgid "previous"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/http.xml:387
+#: en/http.xml:652
 #, no-wrap
 msgid "Go to previous playlist item"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/http.xml:393
+#: en/http.xml:658
 #, no-wrap
 msgid "add"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/http.xml:395
+#: en/http.xml:660
 #, no-wrap
 msgid "mrl (string)"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/http.xml:400
+#: en/http.xml:665
 #, no-wrap
 msgid "Add a MRL (Media Resource Locator) to the playlist"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/http.xml:406
+#: en/http.xml:671
 #, no-wrap
 msgid "delete"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/http.xml:413
+#: en/http.xml:678
 #, no-wrap
 msgid "Delete the specified playlist item or list of playlist items"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/http.xml:419
+#: en/http.xml:684
 #, no-wrap
 msgid "empty"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/http.xml:421
+#: en/http.xml:686
 #, no-wrap
 msgid "Empty the playlist"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/http.xml:427
+#: en/http.xml:692
 #, no-wrap
 msgid "close"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/http.xml:429
+#: en/http.xml:694
 #, no-wrap
 msgid "id (hexa)"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/http.xml:434
+#: en/http.xml:699
 #, no-wrap
 msgid "Close a specific connection"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/http.xml:440
+#: en/http.xml:705
 #, no-wrap
 msgid "shutdown"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><table><tgroup><tbody><row><entry>
-#: en/http.xml:442
+#: en/http.xml:707
 #, no-wrap
 msgid "Quit VLC"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><para>
-#: en/http.xml:452
+#: en/http.xml:717
 #, no-wrap
 msgid ""
 "For example, you can restrict execution of the\n"
@@ -4563,13 +4936,27 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><title>
-#: en/http.xml:459
+#: en/http.xml:725
+#, no-wrap
+msgid "The <emphasis>include</emphasis> macro"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><para>
+#: en/http.xml:729
+#, no-wrap
+msgid ""
+"This macro is replaced by the contents of the file param1. If the file\n"
+"contains vlc macros, they are correctly parsed and replaced."
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><title>
+#: en/http.xml:736
 #, no-wrap
 msgid "The <emphasis>get</emphasis> macro"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><para>
-#: en/http.xml:463
+#: en/http.xml:740
 #, no-wrap
 msgid ""
 "This macro will be replaced by the value of the\n"
@@ -4578,7 +4965,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><para>
-#: en/http.xml:469
+#: en/http.xml:746
 #, no-wrap
 msgid ""
 "param1 must be the name of an existing configuration\n"
@@ -4588,7 +4975,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><para>
-#: en/http.xml:478
+#: en/http.xml:755
 #, no-wrap
 msgid ""
 "Example: &lt;vlc id=\"get\" param1=\"sout\"\n"
@@ -4597,13 +4984,13 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><title>
-#: en/http.xml:485
+#: en/http.xml:762
 #, no-wrap
 msgid "The <emphasis>set</emphasis> macro"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><para>
-#: en/http.xml:489
+#: en/http.xml:766
 #, no-wrap
 msgid ""
 "This macro allows to set the value of a\n"
@@ -4613,7 +5000,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><para>
-#: en/http.xml:496
+#: en/http.xml:773
 #, no-wrap
 msgid ""
 "For example, if player.html contains &lt;vlc\n"
@@ -4624,13 +5011,13 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><title>
-#: en/http.xml:505
+#: en/http.xml:782
 #, no-wrap
 msgid "The <emphasis>rpn</emphasis> macro"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><para>
-#: en/http.xml:508
+#: en/http.xml:785
 #, no-wrap
 msgid ""
 "This macro allows you to interpret RPN commands.\n"
@@ -4638,13 +5025,13 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><title>
-#: en/http.xml:514
+#: en/http.xml:791
 #, no-wrap
 msgid "The <emphasis>if,else,end</emphasis> macro"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><para>
-#: en/http.xml:518
+#: en/http.xml:795
 #, no-wrap
 msgid ""
 "This macro allows you to control the parsing of the\n"
@@ -4652,7 +5039,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><para>
-#: en/http.xml:523
+#: en/http.xml:800
 #, no-wrap
 msgid ""
 "If param1 isn't empty, it is first executed with the\n"
@@ -4661,7 +5048,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><para><programlisting>
-#: en/http.xml:530
+#: en/http.xml:807
 #, no-wrap
 msgid ""
 "&lt;vlc id=\"if\" param1=\"1 2 =\" /&gt;\n"
@@ -4672,19 +5059,19 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><para>
-#: en/http.xml:540
+#: en/http.xml:817
 #, no-wrap
 msgid "You can also just use \"if\" and \"end\"."
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><title>
-#: en/http.xml:546
+#: en/http.xml:823
 #, no-wrap
 msgid "The <emphasis>value</emphasis> macro"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><para>
-#: en/http.xml:550
+#: en/http.xml:827
 #, no-wrap
 msgid ""
 "If param1 isn't empty, it is first executed with the\n"
@@ -4693,7 +5080,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><para>
-#: en/http.xml:556
+#: en/http.xml:833
 #, no-wrap
 msgid ""
 "Note: If the element is the name of a local\n"
@@ -4701,13 +5088,13 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><title>
-#: en/http.xml:563
+#: en/http.xml:840
 #, no-wrap
 msgid "The <emphasis>foreach,end</emphasis> macro"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><para>
-#: en/http.xml:568
+#: en/http.xml:845
 #, no-wrap
 msgid ""
 "param1 is the name of the variable that will be used for the loop. param2 is "
@@ -4715,7 +5102,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para>
-#: en/http.xml:574
+#: en/http.xml:851
 #, no-wrap
 msgid ""
 "<emphasis>integer</emphasis>: take\n"
@@ -4726,7 +5113,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para>
-#: en/http.xml:582
+#: en/http.xml:859
 #, no-wrap
 msgid ""
 "<emphasis>directory</emphasis>: take the first\n"
@@ -4736,31 +5123,31 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/http.xml:591
+#: en/http.xml:868
 #, no-wrap
 msgid "name: file/directory name"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/http.xml:595
+#: en/http.xml:872
 #, no-wrap
 msgid "type: \"directory\" or \"file\" or \"unknown\""
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/http.xml:599
+#: en/http.xml:876
 #, no-wrap
 msgid "size: size of the file"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/http.xml:603
+#: en/http.xml:880
 #, no-wrap
 msgid "date"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para>
-#: en/http.xml:611
+#: en/http.xml:888
 #, no-wrap
 msgid ""
 "playlist: set based on the playlist with fields:\n"
@@ -4770,44 +5157,48 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para>
-#: en/http.xml:618
+#: en/http.xml:895
 #, no-wrap
 msgid ""
-"\"informations\": Create informations for the current\n"
+"\"information\": Create information for the current\n"
 "playing stream. name is the name of the category, value is its value,\n"
 "info is a new set that can be parsed with a new foreach (subfields of\n"
 "info are name and value)."
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para>
-#: en/http.xml:625
+#: en/http.xml:922
 #, no-wrap
 msgid ""
-"\"hosts\": Create the list of host we are listening.\n"
-"Contains the \"id\" (opaque id), host, ip and port fields."
+"input variables such as \"program\", \"title\", \"chapter\", \"audio-es\",\n"
+"\"video-es\" and \"spu-es\": Create lists for the current\n"
+"playing stream. Every list has the following fields:"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:929
+#, no-wrap
+msgid ""
+"name: item name (language for elementary streams, tracks, etc.) to\n"
+"display in places where a human-readable format is preferred"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:934
+#, no-wrap
+msgid ""
+"id: item ID to pass to the RPN function vlc_var_set, and returned by\n"
+"vlc_var_get"
+msgstr ""
+
+# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/http.xml:939
+#, no-wrap
+msgid "selected: 1 if the item is selected, 0 otherwise"
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para>
-#: en/http.xml:630
-#, no-wrap
-msgid ""
-"\"urls\": Create the list of urls currently\n"
-"available. Fields are id, stream (1 if we have a stream, 0 else), url,\n"
-"mime, protected (1 if protected, 0 else), used (is it currently used\n"
-"?)."
-msgstr ""
-
-# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para>
-#: en/http.xml:637
-#, no-wrap
-msgid ""
-"\"connections\": Create the list of current\n"
-"connections. Fields are: id, an opaque id that can be used in the close\n"
-"command, ip, url, and status (HTTP error code)."
-msgstr ""
-
-# type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><para>
-#: en/http.xml:643
+#: en/http.xml:947
 #, no-wrap
 msgid ""
 "the name of a foreach variable if it's a set of set\n"
@@ -4815,10 +5206,10 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><itemizedlist><listitem><programlisting>
-#: en/http.xml:647
+#: en/http.xml:951
 #, no-wrap
 msgid ""
-";&lt;vlc id=\"foreach\" param1=\"cat\" param2=\"informations\" /&gt;\n"
+"&lt;vlc id=\"foreach\" param1=\"cat\" param2=\"informations\" /&gt;\n"
 "                &lt;p&gt; &lt;vlc id=\"value\" param1=\"cat.name\" /&gt;\n"
 "                &lt;ul&gt;\n"
 "                &lt;vlc id=\"foreach\" param1=\"info\" param2=\"cat.info\" "
@@ -4834,7 +5225,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <appendix><sect1><sect2><para>
-#: en/http.xml:664
+#: en/http.xml:968
 #, no-wrap
 msgid ""
 "For more details, have a look at the share/http\n"

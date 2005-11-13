@@ -455,15 +455,13 @@ doit être disponible pour le chemin.</para>
 rien changer pour ceux là. Les sous titres OGM et Matroska des textes, donc vous 
 pouvez changer quelques options.</para>
 
-<para>Les options de rendu du textes peuvent être changées dans les préférences. Dans la 
-section <emphasis>Modules</emphasis>, au niveau de la sous section 
-<emphasis>text renderer</emphasis>, ouvrez la page <emphasis>freetype</emphasis> 
-Vous pouvez alors régler la police de caractère du texte et sa taille. Pour la police de caractères, vous devez 
-choisir un fichier de police de caractères. Sous Windows, ils peuvent être trouvés dans 
-<emphasis>C:\Windows\Fonts</emphasis>. sous MacOS X, ils sont dans 
-<emphasis>/System/Library/Fonts</emphasis><!-- FIXME: Linux
--->. La taille peut être changée soit relativement soit comme un 
-nombre de pixels</para>
+<para>Text rendering options
+can be changed in the Preferences. In the <emphasis>Modules</emphasis>
+section, <emphasis>text renderer</emphasis> subsection, open the
+<emphasis>freetype</emphasis> page. You can then set the font and its
+size. For the font, you have to select a font file. Under Windows, they
+can be found in <emphasis>C:\Windows\Fonts</emphasis>. Under MacOS X,
+they are in <emphasis>/System/Library/Fonts</emphasis>. Size can be set either relatively or as a number of pixels.</para>
 
 <para>Vous devez redémarrer votre flux pour que les modifications de la police de caractère 
 prennent effet.</para>
@@ -632,13 +630,7 @@ d'écoute peuvent être réglés.</para>
 
 </sect1>
 
-<!--
-<sect1><title>Misc</title>
 
-<para>TODO</para>
-
-</sect1>
--->
 
 <sect1><title>Dépannage de base</title>
 

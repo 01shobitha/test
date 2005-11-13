@@ -3,15 +3,15 @@
  Utilisation avancée de VLC 
 </title>
 
-<!-- TODO: write me ! -->
 
 
-<!-- ************************************************************* SECTION -->
+
+
 <sect1>
 
 <title>Utilisez la ligne de commande</title>
 
-<!-- TODO: completely outdated -->
+
 
 <para>Toutes les opérations standard de VLC devraient être disponibles dans l'interface graphique (GUI).
 Cependant, quelques opérations complexes peuvent être faites seulement à 
@@ -88,9 +88,9 @@ Démarrez VLC avec :
 
 <para>Pour un DVD avec menus :</para>
 
-<!-- Do not wrap me -->
+
 <screen>
-<prompt>% </prompt><userinput>vlc dvd://[device][@raw_device][@[title][,[chapter][,angle]]]</userinput>
+<prompt>% </prompt><userinput>vlc dvd://[device][@raw_device][@[title][:[chapter][:angle]]]</userinput>
 </screen>
 
 <para>Dans la plupart des cas  <userinput>vlc dvd://</userinput> ou <userinput>vlc dvd://[périphérique]</userinput> suffiront. [périphérique] est par exemple <userinput>/dev/dvd</userinput> sous GNU/Linux ou <userinput>D:</userinput> sur Windows (le chemin complet de votre lecteur de DVDs).</para>
@@ -102,7 +102,7 @@ ou
 (DVD sans menus) :</para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc dvdsimple://[device][@raw_device][@[title][,[chapter][,angle]]]</userinput>
+<prompt>% </prompt><userinput>vlc dvdsimple://[device][@raw_device][@[title][:[chapter][:angle]]]</userinput>
 </screen>
 
 <para>
@@ -110,7 +110,7 @@ ou
 
 (VCD):</para>
 
-<!-- Do not wrap me -->
+
 <screen>
 <prompt>% </prompt><userinput>vlc vcd://[device][@{E|P|E|T|S}[number]]</userinput>
 </screen>
@@ -121,7 +121,7 @@ ou
 
 (Audio CD):</para>
 
-<!-- Do not wrap me -->
+
 <screen>
 <prompt>% </prompt><userinput>vlc cdda://[device][@[track]]</userinput>
 </screen>
@@ -489,7 +489,7 @@ après l'élément concerné</para>
 
 </sect1>
 
-<!-- ************************************************************* SECTION -->
+
 <sect1><title>Utilisation avancée des filtres</title>
 
 <sect2><title>Les filtres</title>
@@ -688,7 +688,7 @@ une transparence complète à 255 pour une opacité complète).</para></listitem
 
 </sect1>
 
-<!-- ************************************************************* SECTION -->
+
 <sect1><title>L'interface HTTP</title>
 
 <para>
@@ -749,7 +749,7 @@ veuillez consulter le <ulink url="http://www.videolan.org/doc/streaming-howto/en
 
 </sect1>
 
-<!-- ************************************************************* SECTION -->
+
 <sect1><title>Autres interfaces de contôle</title>
 
 <para>VLC inclut un certain nombre de prétendues interfaces qui ne sont pas 
@@ -850,14 +850,11 @@ lançant VLC avec <emphasis>--browse-dir</emphasis> option :</para>
 de la souris.  TODO</para>
 </sect2>
 
-<!--
-<sect2><title>Joystick</title> <para>Joystick (only for GNU/Linux)
-provides control of VLC using a joystick. TODO </para> </sect2>
--->
+
 
 </sect1>
 
-<!-- ************************************************************* SECTION -->
+
 <sect1><title>Le plugin Mozilla</title>
 
 <para> VLC peut aussi être embarqué dans un navigateur web! Pour l'instant, cette fonctionalité n'est disponible que sur <ulink url="http://www.mozilla.org/">Mozilla</ulink> ou <ulink url="http://www.mozilla.org/products/firefox/">Firefox</ulink>.

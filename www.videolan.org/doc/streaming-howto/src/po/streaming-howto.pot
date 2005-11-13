@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-07-09 10:55+0200\n"
+"POT-Creation-Date: 2005-11-13 19:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -269,7 +269,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
-#: en/dvd.xml:37 en/file.xml:17 en/dvb.xml:73 en/dvb.xml:128 en/vlm-vod.xml:330 en/vlm-vod.xml:360 en/ipv6.xml:115 en/receive.xml:132 en/encoding-cards.xml:275
+#: en/dvd.xml:37 en/file.xml:17 en/dvb.xml:82 en/vlm-vod.xml:330 en/vlm-vod.xml:360 en/ipv6.xml:115 en/receive.xml:132 en/encoding-cards.xml:275
 #, no-wrap
 msgid "where:"
 msgstr ""
@@ -324,7 +324,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/dvd.xml:59 en/file.xml:32 en/dvb.xml:89 en/encoding-cards.xml:362
+#: en/dvd.xml:59 en/file.xml:32 en/dvb.xml:98 en/encoding-cards.xml:362
 #, no-wrap
 msgid ""
 "the IP address of the machine you want to unicast\n"
@@ -332,7 +332,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/dvd.xml:65 en/file.xml:37 en/dvb.xml:94 en/encoding-cards.xml:367
+#: en/dvd.xml:65 en/file.xml:37 en/dvb.xml:103 en/encoding-cards.xml:367
 #, no-wrap
 msgid ""
 "or the DNS name the machine you want to unicast\n"
@@ -340,13 +340,13 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/dvd.xml:71 en/file.xml:42 en/dvb.xml:99 en/encoding-cards.xml:126 en/encoding-cards.xml:206 en/encoding-cards.xml:373 en/encoding-cards.xml:427
+#: en/dvd.xml:71 en/file.xml:42 en/dvb.xml:108 en/encoding-cards.xml:126 en/encoding-cards.xml:206 en/encoding-cards.xml:373 en/encoding-cards.xml:427
 #, no-wrap
 msgid "or a multicast IP address."
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
-#: en/dvd.xml:79 en/file.xml:49 en/dvb.xml:104 en/vlm-vod.xml:332 en/ipv6.xml:144 en/encoding-cards.xml:133 en/encoding-cards.xml:213 en/encoding-cards.xml:379
+#: en/dvd.xml:79 en/file.xml:49 en/dvb.xml:113 en/vlm-vod.xml:332 en/ipv6.xml:144 en/encoding-cards.xml:133 en/encoding-cards.xml:213 en/encoding-cards.xml:379
 #, no-wrap
 msgid ""
 "<emphasis>12</emphasis>\n"
@@ -973,7 +973,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "if you use a Linux 2.6.x kernel, you just need to\n"
-"compile the right modules."
+"select the right modules in your kernel configuration."
 msgstr ""
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
@@ -987,48 +987,48 @@ msgid ""
 "Project."
 msgstr ""
 
-# type: Content of: <chapter><sect1><sect2><sect3><para>
-#: en/dvb.xml:45 en/encoding-cards.xml:160
+# type: Content of: <chapter><sect1><para>
+#: en/dvb.xml:45
 #, no-wrap
 msgid ""
-"Uncompress the tarball and follow the instructions\n"
-"written in the"
-msgstr ""
-
-# type: Content of: <chapter><sect1><sect2><sect3><para><filename>
-#: en/dvb.xml:46 en/encoding-cards.xml:161
-#, no-wrap
-msgid "INSTALL"
-msgstr ""
-
-# type: Content of: <chapter><sect1><sect2><sect3><para>
-#: en/dvb.xml:46 en/encoding-cards.xml:161
-#, no-wrap
-msgid ""
-"file to compile and install\n"
-"the drivers."
+"The following sections assume that you have a working linux-dvb "
+"installation,\n"
+"either from stock kernel 2.6 or from kernel 2.4 with DVB patches. If you\n"
+"have any problem with the linux-dvb drivers, please report the problem\n"
+"to the maintainers of the drivers, not to us. Thanks."
 msgstr ""
 
 # type: Content of: <chapter><sect1><title>
-#: en/dvb.xml:53
+#: en/dvb.xml:54
 #, no-wrap
 msgid "Stream with VLS"
 msgstr ""
 
+# type: Content of: <chapter><sect1><note><para>
+#: en/dvb.xml:58
+#, no-wrap
+msgid ""
+"VLS is currently deprecated and hasn't been maintained for years. It is\n"
+"strongly advised to use VLC instead, which now supports the same features\n"
+"as VLS, and many more. The only advantage of VLS is to support the dvbrc\n"
+"file syntax, and it requires a bit less CPU horsepower. However, we do\n"
+"not support VLS any longer."
+msgstr ""
+
 # type: Content of: <chapter><sect1><para>
-#: en/dvb.xml:57
+#: en/dvb.xml:66
 #, no-wrap
 msgid "Put a"
 msgstr ""
 
 # type: Content of: <chapter><sect1><para><filename>
-#: en/dvb.xml:57
+#: en/dvb.xml:66
 #, no-wrap
 msgid ".dvbrc"
 msgstr ""
 
 # type: Content of: <chapter><sect1><para>
-#: en/dvb.xml:57
+#: en/dvb.xml:66
 #, no-wrap
 msgid ""
 "file containing\n"
@@ -1038,7 +1038,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><para>
-#: en/dvb.xml:64
+#: en/dvb.xml:73
 #, no-wrap
 msgid ""
 "Run VLS with the following command line\n"
@@ -1046,7 +1046,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><screen>
-#: en/dvb.xml:69
+#: en/dvb.xml:78
 #, no-wrap
 msgid ""
 "<prompt>% </prompt><userinput>vls -vv -d udp:192.168.0.42 dvb:\"EUROSPORT\" "
@@ -1054,7 +1054,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
-#: en/dvb.xml:78
+#: en/dvb.xml:87
 #, no-wrap
 msgid ""
 "<emphasis>\"EUROSPORT\"</emphasis>\n"
@@ -1063,13 +1063,13 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
-#: en/dvb.xml:80
+#: en/dvb.xml:89
 #, no-wrap
 msgid "~/.dvbrc"
 msgstr ""
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
-#: en/dvb.xml:80
+#: en/dvb.xml:89
 #, no-wrap
 msgid ""
 "file\n"
@@ -1077,7 +1077,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
-#: en/dvb.xml:83
+#: en/dvb.xml:92
 #, no-wrap
 msgid ""
 "<emphasis>192.168.0.42</emphasis>\n"
@@ -1086,168 +1086,336 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
-#: en/dvb.xml:115 en/encoding-cards.xml:58 en/encoding-cards.xml:259
+#: en/dvb.xml:124 en/encoding-cards.xml:58 en/encoding-cards.xml:259
 #, no-wrap
 msgid "Stream with VLC"
 msgstr ""
 
 # type: Content of: <chapter><sect1><note><para>
-#: en/dvb.xml:119
+#: en/dvb.xml:128
 #, no-wrap
 msgid ""
-"For this, you can use the SVN version of VLC and compile\n"
-"it with <command>./configure --enable-dvb</command> This feature should\n"
-"still be considered as experimental. You can find it in the official release "
-"since the version 0.7.2."
+"VLC has many more features than VLS. First you can use the\n"
+"advanced stream output options such as transcoding and all kinds of\n"
+"output supports. Second VLC can take advantage of the Common Interface\n"
+"supported by some DVB adapters to descramble one or several services.\n"
+"Currently released versions of VLC only support the low-level API so\n"
+"some adapters won't work (budget-ci cards work, twinhan doesn't).\n"
+"Some CAM modules aren't compatible with some DVB cards, check the\n"
+"linux-dvb documentation for more information. So-called \"professional\"\n"
+"CAM modules are able to descramble up to twelve services, whereas\n"
+"customer-oriented modules are often limited to one or two services unless\n"
+"otherwise specified."
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/dvb.xml:142
+#, no-wrap
+msgid ""
+"VLC must be compiled with --enable-dvb and you need the linux-dvb headers\n"
+"installed in your system. An example command-line is as follows :"
 msgstr ""
 
 # type: Content of: <chapter><sect1><screen>
-#: en/dvb.xml:124
+#: en/dvb.xml:147
 #, no-wrap
 msgid ""
-"<prompt>% </prompt><userinput>vlc -vvv --color --ttl 12  --ts-es-id-pid "
-"--programs 8508,8505 dvb: --dvb-adapter=0 --dvb-frequency=11739000 "
-"--dvb-srate=27500000 --dvb-voltage=13 --dvb-fec=3 --dvb-budget-mode --sout "
-"'#duplicate{dst=std{access=udp,mux=ts,url=address:3001},select=\"program=8508\",dst=std{access=udp,mux=ts,url=address:3002},select=\"program=8505\"}'</userinput>"
+"<prompt>% </prompt>\n"
+"<userinput>vlc -vvv --color --ttl 12  --ts-es-id-pid --programs=8508,8505 "
+"dvb: \\\n"
+"--dvb-frequency=11739000 --dvb-srate=27500000 --dvb-voltage=13 \\\n"
+"--sout-standard-access=udp --sout-standard-mux=ts --sout \\\n"
+"'#duplicate{dst=std{url=address1},select=\"program=8508\",dst=std{url=address2},select=\"program=8505\"}'\n"
+"</userinput>"
 msgstr ""
 
-# type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
-#: en/dvb.xml:134
-#, no-wrap
-msgid "ts-es-id-pid"
-msgstr ""
-
-# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
-#: en/dvb.xml:134
-#, no-wrap
-msgid "is necessary to duplicate"
-msgstr ""
-
-# type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
-#: en/dvb.xml:137
-#, no-wrap
-msgid "8508"
-msgstr ""
-
-# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
-#: en/dvb.xml:137
+# type: Content of: <chapter><sect1><para>
+#: en/dvb.xml:155
 #, no-wrap
 msgid ""
-"is the SID of the DVB\n"
-"channel you would like to stream, expressed as a decimal number"
-msgstr ""
-
-# type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
-#: en/dvb.xml:142
-#, no-wrap
-msgid "0"
+"The example above shows the minimum set of options needed to stream out\n"
+"two services. Here is a list of frontend options, depending on the\n"
+"frontend type:"
 msgstr ""
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
-#: en/dvb.xml:142
+#: en/dvb.xml:162
 #, no-wrap
-msgid "is the id of the dvb card (0 for dvb0)"
-msgstr ""
-
-# type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
-#: en/dvb.xml:145
-#, no-wrap
-msgid "11739000"
-msgstr ""
-
-# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
-#: en/dvb.xml:145
-#, no-wrap
-msgid ""
-"is the frequency of the\n"
-"transponder you want to stream from in Hz"
-msgstr ""
-
-# type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
-#: en/dvb.xml:149
-#, no-wrap
-msgid "27500000"
-msgstr ""
-
-# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
-#: en/dvb.xml:149
-#, no-wrap
-msgid ""
-"is the transponder\n"
-"symbolrate in Hz"
-msgstr ""
-
-# type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
-#: en/dvb.xml:153
-#, no-wrap
-msgid "13"
-msgstr ""
-
-# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
-#: en/dvb.xml:153
-#, no-wrap
-msgid "is the polarization (13 for vertical and 18 for horizontal)"
-msgstr ""
-
-# type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
-#: en/dvb.xml:156
-#, no-wrap
-msgid "3"
-msgstr ""
-
-# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
-#: en/dvb.xml:156
-#, no-wrap
-msgid ""
-"is the FEC (3 for 3/4), if you don't put the option it will auto-detect the "
-"value"
-msgstr ""
-
-# type: Content of: <chapter><sect1><itemizedlist><listitem><para><filename>
-#: en/dvb.xml:159
-#, no-wrap
-msgid "dvb-budget-mode"
-msgstr ""
-
-# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
-#: en/dvb.xml:159
-#, no-wrap
-msgid "if your card support this mode"
-msgstr ""
-
-# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
-#: en/dvb.xml:161
-#, no-wrap
-msgid ""
-"<emphasis>address</emphasis>\n"
-" is either:"
-msgstr ""
-
-# type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/dvb.xml:167 en/encoding-cards.xml:421
-#, no-wrap
-msgid "the IP address of the machine you want to unicast to"
-msgstr ""
-
-# type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/dvb.xml:171 en/encoding-cards.xml:424
-#, no-wrap
-msgid "or the DNS name the machine you want to unicast to"
+msgid "<emphasis>common options</emphasis>"
 msgstr ""
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
-#: en/dvb.xml:175
+#: en/dvb.xml:166
 #, no-wrap
-msgid "or the multicast IP address."
+msgid ""
+"<emphasis>dvb-adapter</emphasis>\n"
+": specifies the adapter to use in case you have several adapters in your\n"
+"machine (by default use adapter 0)"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/dvb.xml:172
+#, no-wrap
+msgid ""
+"<emphasis>dvb-device</emphasis>\n"
+": specifies the name of the DVB device to use (should not be needed with\n"
+"a standard linux-dvb installation)"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/dvb.xml:178
+#, no-wrap
+msgid ""
+"<emphasis>dvb-srate</emphasis>\n"
+": specifies the symbol rate of the modulated signal, in symbols/s"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/dvb.xml:183
+#, no-wrap
+msgid ""
+"<emphasis>dvb-inversion</emphasis>\n"
+": specifies whether the signal is inverted or not (default is automatic\n"
+"detection)"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/dvb.xml:189
+#, no-wrap
+msgid ""
+"<emphasis>dvb-budget-mode</emphasis>\n"
+": enters a special mode where all PIDs are retrieved by the driver; it\n"
+"should no longer be necessary as VLC should filter wanted PIDs"
 msgstr ""
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
-#: en/dvb.xml:182
+#: en/dvb.xml:197
+#, no-wrap
+msgid "<emphasis>satellite frontend (QPSK)</emphasis>"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/dvb.xml:201
 #, no-wrap
 msgid ""
-"<emphasis>12</emphasis> is the value of the TTL (Time\n"
-"To Live) of your IP packets (which means that the stream will be able to "
-"cross 11 routers)."
+"<emphasis>dvb-frequency</emphasis>\n"
+": specifies the frequency to tune to in kHz; according to the frequency\n"
+"range, VLC auto-detects the band to use: S (2.5-2.7 GHz), C-lower (3.4-4.2 "
+"GHz),\n"
+"C-higher (4.5-4.8 GHz), Ku (10.7-13.25 GHz) or direct BIS frequency "
+"(0.95-2.15\n"
+"GHz); it is mandatory to supply the <emphasis>dvb-srate</emphasis> option\n"
+"to satellite frontends"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/dvb.xml:210
+#, no-wrap
+msgid ""
+"<emphasis>dvb-voltage</emphasis>\n"
+": specifies the voltage to apply on the IF; most LNBs behave differently\n"
+"when supplied with 13 V or 18 V; universal LNBs select vertical\n"
+"polarity with 13 V and horizontal with 18 V; you can also select 0 V if\n"
+"your LNB has another power supply (default is 13 V)"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/dvb.xml:218
+#, no-wrap
+msgid ""
+"<emphasis>dvb-tone</emphasis>\n"
+": specifies whether to send a 22 kHz pulse tone to the LNB; universal\n"
+"LNBs switch to high-band when this pulse is sent; by default VLC "
+"automatically\n"
+"adopts the correct behaviour if the frequency supplied is in the Ku\n"
+"band (other bands do not need this)"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/dvb.xml:226
+#, no-wrap
+msgid ""
+"<emphasis>dvb-fec</emphasis>\n"
+": specifies the code-rate to use for Forward Error Correction; type in\n"
+"the first number of the code-rate, for 2/3 use --dvb-rate=2, etc. (default\n"
+"is 9, meaning automatic detection)"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/dvb.xml:233
+#, no-wrap
+msgid ""
+"<emphasis>dvb-high-voltage</emphasis>\n"
+": enables a special mode of the DVB adapter to compensate for the\n"
+"voltage loss in very long cables (AFAIK it is present in the API, but\n"
+"no DVB adapter actually implements it)"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/dvb.xml:240
+#, no-wrap
+msgid ""
+"<emphasis>dvb-lnb-lof1, dvb-lnb-lof2, dvb-lnb-slof</emphasis>\n"
+": specifies the frequencies of the first and second local oscillators,\n"
+"and the frequency at which the 22 kHz pulse should be activated to enable "
+"the\n"
+"second oscillator; by default VLC uses the values for universal LNBs\n"
+"if the frequency supplied is in the Ku band (other bands do not need\n"
+"this)"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/dvb.xml:250
+#, no-wrap
+msgid "<emphasis>cable frontend (QAM)</emphasis>"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/dvb.xml:254
+#, no-wrap
+msgid ""
+"<emphasis>dvb-frequency</emphasis>\n"
+": specifies the frequency to tune to in Hz; it is mandatory to supply the\n"
+"<emphasis>dvb-srate</emphasis> option to cable frontends"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/dvb.xml:260
+#, no-wrap
+msgid ""
+"<emphasis>dvb-modulation</emphasis>\n"
+": specifies the modulation of the analog signal; valid values are\n"
+"-1 (QPSK), 0 (automatic QAM, default), 16 (QAM16), 32 (QAM32), 64 (QAM64)\n"
+"128 (QAM128), 256 (QAM256)"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/dvb.xml:268
+#, no-wrap
+msgid "<emphasis>terrestrial frontend (OFDM)</emphasis>"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/dvb.xml:272
+#, no-wrap
+msgid ""
+"<emphasis>dvb-frequency</emphasis>\n"
+": specifies the frequency to tune to in Hz; it is mandatory to supply the\n"
+"<emphasis>dvb-bandwidth</emphasis> option, all other parameters are optional"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/dvb.xml:278
+#, no-wrap
+msgid ""
+"<emphasis>dvb-bandwidth</emphasis>\n"
+": specifies the bandwidth of the OFDM channel (6, 7 or 8 MHz depending\n"
+"on the country)"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/dvb.xml:284
+#, no-wrap
+msgid ""
+"<emphasis>dvb-hierarchy</emphasis>\n"
+": specifies if the OFDM channel uses hierarchic information; allowed\n"
+"values are -1 (no hierarchy), 0 (automatic, default), 1, 2 and 4"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/dvb.xml:290
+#, no-wrap
+msgid ""
+"<emphasis>dvb-code-rate-hp, dvb-code-rate-lp</emphasis>\n"
+": specifies the code-rate to use for higher and lower hierarchies\n"
+"respectively (default auto, same syntax as <emphasis>dvb-fec</emphasis>)"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/dvb.xml:296
+#, no-wrap
+msgid ""
+"<emphasis>dvb-guard</emphasis>\n"
+": specifies the guard interval; valid values are 0 (automatic, default),\n"
+"4 (1/4), 8 (1/8), 16 (1/16) and 32 (1/32)"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/dvb.xml:302
+#, no-wrap
+msgid ""
+"<emphasis>dvb-transmission</emphasis>\n"
+": specifies the transmission mode; valid values are 0 (automatic, "
+"default),\n"
+"2 (2K) and 8 (8K)"
+msgstr ""
+
+# type: Content of: <chapter><sect1><para>
+#: en/dvb.xml:313
+#, no-wrap
+msgid ""
+"We also ought to explain the other non-dvb-specific options of the\n"
+"example command-line:"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/dvb.xml:320
+#, no-wrap
+msgid ""
+"<emphasis>ts-es-id-pid</emphasis>\n"
+": this option is necessary if you use the <emphasis>#duplicate</emphasis>\n"
+"stream output filter\n"
+"to split the multiplex in several outputs; there is no need to use\n"
+"<emphasis>#duplicate</emphasis> neither <emphasis>ts-es-id-pid</emphasis>\n"
+"if you have one program only"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/dvb.xml:329
+#, no-wrap
+msgid ""
+"<emphasis>programs, program, sout-all</emphasis>\n"
+": there are several ways of specifying the services to select (and\n"
+"optionally descramble):"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/dvb.xml:335
+#, no-wrap
+msgid ""
+"<emphasis>programs</emphasis>\n"
+": used to specify one or serveral programs to select; VLC selects all\n"
+"known elementary streams of these programs; this is the currently\n"
+"recommended way"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/dvb.xml:342
+#, no-wrap
+msgid ""
+"<emphasis>program</emphasis>\n"
+": used to specify one program to select; it differs from using\n"
+"<emphasis>programs</emphasis> with only one program in that this\n"
+"option only select the first audio stream, and no subtitle stream; it\n"
+"should be used if you plan to switch programs and audio with a GUI"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para><itemizedlist><listitem><para>
+#: en/dvb.xml:350
+#, no-wrap
+msgid ""
+"<emphasis>sout-all</emphasis>\n"
+": tells VLC to select all programs; this is discouraged because of\n"
+"the extra CPU load needed to demultiplex unwanted programs, and\n"
+"because it is not compatible with CAM descrambling"
+msgstr ""
+
+# type: Content of: <chapter><sect1><itemizedlist><listitem><para>
+#: en/dvb.xml:360
+#, no-wrap
+msgid ""
+"The other options are standard stream output options and are described\n"
+"in the other chapters of this documentation."
 msgstr ""
 
 # type: Content of: <chapter><title>
@@ -5465,6 +5633,28 @@ msgid ""
 "site</ulink>."
 msgstr ""
 
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/encoding-cards.xml:160
+#, no-wrap
+msgid ""
+"Uncompress the tarball and follow the instructions\n"
+"written in the"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para><filename>
+#: en/encoding-cards.xml:161
+#, no-wrap
+msgid "INSTALL"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><para>
+#: en/encoding-cards.xml:161
+#, no-wrap
+msgid ""
+"file to compile and install\n"
+"the drivers."
+msgstr ""
+
 # type: Content of: <chapter><sect1><sect2><sect3><note><para>
 #: en/encoding-cards.xml:166
 #, no-wrap
@@ -5830,4 +6020,16 @@ msgstr ""
 msgid ""
 "<emphasis>239.255.42.12</emphasis>\n"
 " is either:"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:421
+#, no-wrap
+msgid "the IP address of the machine you want to unicast to"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><itemizedlist><listitem><para>
+#: en/encoding-cards.xml:424
+#, no-wrap
+msgid "or the DNS name the machine you want to unicast to"
 msgstr ""

@@ -2,17 +2,7 @@
 <chapter id="cmdline"><title id="tcmdline">
 Utilisation avancée du flux de sortie en ligne de commande</title>
 
-<!-- TODO : 
-      
-    Update all this 
-    Improve texts
-    Video Filters
-    update of syntax
-    other modules ?
-    gather
-    
 
--->
 
 <sect1><title>Structure du flux de sortie</title>
 

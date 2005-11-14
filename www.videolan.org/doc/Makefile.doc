@@ -30,7 +30,6 @@ $(LINGUAS:%=recurse-%): recurse-%: FORCE
 	$(RECURSEMAKE) -C $* LNG=$* build-dir
 
 build-dir: prepare-dir $(TARGETS)
-	echo $@
 
 prepare-dir: images screen.css .htaccess
 

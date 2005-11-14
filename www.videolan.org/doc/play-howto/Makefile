@@ -1,66 +1,98 @@
 # Makefile for the VideoLAN Documentation in DocBook XML
 # Written by Alexis de Lattre <alexis@videolan.org>
-# To build another language than the default one, do 'make LANG=foo'
+# Mostly rewritten by Rémi Denis-Courmont <rem at videolan dot org>
+# To build another language than the default one, do 'make LNG=foo'
 
 # Document name
 DOC := play-howto
+# All available languages 
+LINGUAS := en fr
 
 # XML declaration
 XML_DECL1 = /usr/lib/sgml/declaration/xml.decl
 XML_DECL2 = /usr/share/sgml/declaration/xml.decl
 XML_DECL = `test -f $(XML_DECL1) && echo $(XML_DECL1) || echo $(XML_DECL2)`
 
-# Default language (English)
-LANG = en
+JADE = SP_CHARSET_FIXED=YES SP_ENCODING=XML jade
+RECURSEMAKE = $(MAKE) DOC=$(DOC) -f ../Makefile
+SINGLEZIP = rm -f $@ && zip $@ $<
 
-XSL= ../common/videolan-doc.xsl
+# Default language : en
+# DON'T USE «LANG» for that, it defines the system locale !!!
+LNG = en
 
-# All available languages (used in 'make clean')
-ALL_LANG = en fr
+XSL = ../../common/videolan-doc.xsl
+XML = ../src/$(LNG)/$(DOC).xml
 
 # Build HTML, PDF, RTF and TXT outputs (for the web site)
-all: $(LANG)/$(DOC)-$(LANG).html $(LANG)/$(DOC)-$(LANG).rtf $(LANG)/$(DOC)-$(LANG).txt $(LANG)/$(DOC)-$(LANG).pdf
+TYPES = html pdf rtf txt
+TARGETS = $(TYPES:%=$(DOC)-$(LNG).%) $(TYPES:%=$(DOC)-$(LNG).%.zip)
 
-init-$(LANG):
-	mkdir -p $(LANG)
-	ln -sf ../../../images/documentation $(LANG)/images
-	cp ../common/screen.css $(LANG)
-	cp ../common/htaccess $(LANG)/.htaccess
+all: recurse-$(LNG)
+
+$(LINGUAS:%=recurse-%): recurse-%: FORCE
+	mkdir -p $*
+	$(RECURSEMAKE) -C $* LNG=$* build-dir
+
+build-dir: prepare-dir $(TARGETS)
+	echo $@
+
+prepare-dir: images screen.css .htaccess
+
+images:
+	ln -sf ../../../images/documentation images
+
+screen.css:
+	cp ../../common/screen.css .
+
+.htaccess:
+	cp ../../common/htaccess .htaccess
 
 # HTML output
-$(LANG)/$(DOC)-$(LANG).html: init-$(LANG)
-	xsltproc $(XSL) src/$(LANG)/$(DOC).xml > $(LANG)/$(DOC)-$(LANG).html
-	mv *.html $(LANG)
-	cd $(LANG) && cp index.html $(DOC)-$(LANG).html && cd ..
-	rm -f $(LANG)/$(DOC)-$(LANG)-html.zip
-	cd $(LANG) && zip $(DOC)-$(LANG)-html.zip *.html images/*.gif
+$(DOC)-$(LNG).html: $(XML)
+	xsltproc $(XSL) $<
+	cp index.html $@
+
+$(DOC)-$(LNG).html.zip: $(DOC)-$(LNG).html
+	rm -f $@
+	zip $@ *.html images/*.gif
 
 # PDF output
-$(LANG)/$(DOC)-$(LANG).pdf: init-$(LANG)
-	jade -t tex -d ../common/stylesheet-print-noicones.dsl -o $(LANG)/$(DOC)-$(LANG).tex $(XML_DECL) src/$(LANG)/$(DOC).xml
-	cd $(LANG) && pdfjadetex $(DOC)-$(LANG).tex
-	cd $(LANG) && pdfjadetex $(DOC)-$(LANG).tex
-	cd $(LANG) && pdfjadetex $(DOC)-$(LANG).tex
-	cd $(LANG) && rm -f *.tex *.out *.aux *.log
-	cd $(LANG) && zip $(DOC)-$(LANG)-pdf.zip $(DOC)-$(LANG).pdf
+$(DOC)-$(LNG).pdf: $(XML)
+	$(JADE) -t tex -d ../../common/stylesheet-print-noicones.dsl -o $(DOC)-$(LNG).tex $(XML_DECL) $<
+	-pdfjadetex $(DOC)-$(LNG).tex
+	-pdfjadetex $(DOC)-$(LNG).tex
+	-pdfjadetex $(DOC)-$(LNG).tex
+	rm -f *.tex *.out *.aux *.log
+
+%.pdf.zip: %.pdf
+	$(SINGLEZIP)
 
 # RTF output
-$(LANG)/$(DOC)-$(LANG).rtf:init-$(LANG)
-	cd $(LANG) && jade -t rtf -d ../../common/stylesheet-print-noicones.dsl -o $(DOC)-$(LANG).rtf $(XML_DECL) ../src/$(LANG)/$(DOC).xml
-	rm -f $(LANG)/$(DOC)-$(LANG)-rtf.zip
-	cd $(LANG) && zip $(DOC)-$(LANG)-rtf.zip $(DOC)-$(LANG).rtf
+$(DOC)-$(LNG).rtf: $(XML)
+	$(JADE) -t rtf -d ../../common/stylesheet-print-noicones.dsl -o $@ $(XML_DECL) $<
+
+%.rtf.zip: %.rtf
+	$(SINGLEZIP)
 
 # TXT output
-$(LANG)/$(DOC)-$(LANG).txt:init-$(LANG)
-	jade -t sgml -d ../common/stylesheet-txt.dsl -V nochunks $(XML_DECL) src/$(LANG)/$(DOC).xml > $(LANG)/dumpfortxt.html
-	lynx -force_html -dump $(LANG)/dumpfortxt.html > $(LANG)/$(DOC)-$(LANG).txt
-	rm -f $(LANG)/dumpfortxt.html
+$(DOC)-$(LNG).txt: $(XML)
+	$(JADE) -t sgml -d ../common/stylesheet-txt.dsl -V nochunks $(XML_DECL) $(XML) > dumpfortxt.html
+	lynx -force_html -dump dumpfortxt.html > $@
+	rm -f dumpfortxt.html
+
+%.txt.zip: %.txt
+	$(SINGLEZIP)
 
 # Delete all outputs
 clean:
-	rm -rf $(ALL_LANG)
+	rm -Rf $(LINGUAS)
+
+mostlyclean: clean
+distclean: clean
 
 # All languages
-all-lang:
-	for l in $(ALL_LANG); do $(MAKE) LANG=$$l || exit 1; done
+all-lang: $(LINGUAS:%=recurse-%)
+
+.PHONY: clean all FORCE
 

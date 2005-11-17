@@ -2,6 +2,8 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+17 November 2005| Purchase of a Powermac G5| Thanks to the numerous contributions we received from everywhere, we were finally able to buy a second hand dual G5 1.8 GHz. This will be used to debug sound playback on Powermacs and to host the VLC nightly builds. We particularly wish to thank <a href="http://www.macbidouille.com/">MacBidouille</a> and <a href="http://www.avosmac.com/">à Vos Macs</a> for their important support.
+
 |15 October 2005| Release: miniSAPserver 0.3.2| This release cumulates fixes for regressions introduced in 0.3.1. You are encouraged to upgrade to this new version: <a href="/streaming/download-sap-server.html">download it here</a>.
 
 |11 October 2005| 10 million downloads for VLC 0.8.2| VLC 0.8.2 has been downloaded ten million times since its release, on June 26th! The whole VideoLAN team is very happy of this overwhelming result. We would like to thank all of our users, sponsors and partners, who made this result possible. Stay tuned !

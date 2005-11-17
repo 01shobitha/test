@@ -2,7 +2,7 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
-17 November 2005| Purchase of a Powermac G5| Thanks to the numerous contributions we received from everywhere, we were finally able to buy a second hand dual G5 1.8 GHz. This will be used to debug sound playback on Powermacs and to host the VLC nightly builds. We particularly wish to thank <a href="http://www.macbidouille.com/">MacBidouille</a> and <a href="http://www.avosmac.com/">à Vos Macs</a> for their important support.
+|17 November 2005| Purchase of a Powermac G5| Thanks to the numerous contributions we received from everywhere, we were finally able to buy a second hand dual G5 1.8 GHz. This will be used to debug sound playback on Powermacs and to host the VLC nightly builds. We particularly wish to thank <a href="http://www.macbidouille.com/">MacBidouille</a> and <a href="http://www.avosmac.com/">à Vos Macs</a> for their important support.
 
 |15 October 2005| Release: miniSAPserver 0.3.2| This release cumulates fixes for regressions introduced in 0.3.1. You are encouraged to upgrade to this new version: <a href="/streaming/download-sap-server.html">download it here</a>.
 

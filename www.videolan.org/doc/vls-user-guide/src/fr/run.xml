@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--revision:1.1 -->
 <chapter id="run"><title id="trun">
 
@@ -11,12 +11,12 @@ Utilisation de VLS
 
 <para>
 
-Si vous désirez utiliser l'interface telnet, lancer
-VLS est très simple: tapez juste <command>vls</command> dans une console
+Si vous dÃ©sirez utiliser l'interface telnet, lancer
+VLS est trÃ¨s simple: tapez juste <command>vls</command> dans une console
 et c'est tout. Lancer <command>vlsd</command> lancera VLS en tant que
-démon et le détachera de la console. Souvenez-vous que VLS va essayer
+dÃ©mon et le dÃ©tachera de la console. Souvenez-vous que VLS va essayer
 de charger son fichier de configuration (<filename>vls.cfg</filename>)
-depuis le répertoire courant, et si il ne l'y trouve pas, depuis
+depuis le rÃ©pertoire courant, et si il ne l'y trouve pas, depuis
 <filename>SYSCONF_DIR/etc/videolan</filename> (voir la section <xref linkend="config" endterm="tconfig"/>)
 
 .</para>
@@ -25,7 +25,7 @@ depuis le répertoire courant, et si il ne l'y trouve pas, depuis
 
 Si votre fichier de log est
 <filename>vls.log</filename>, comme dans l'exemple, VLS aura besoin de
-l'accès en écriture au répertoire courant, ou vous verrez quelque chose
+l'accÃ¨s en Ã©criture au rÃ©pertoire courant, ou vous verrez quelque chose
 comme
 
 :</para>
@@ -38,7 +38,7 @@ Permission denied
 
 <para>
 
-Souvenez-vous que vous devez être
+Souvenez-vous que vous devez Ãªtre
 root quand vous utilisez l'option "Interface" du fichier
 <filename>vls.cfg</filename>
 
@@ -65,7 +65,7 @@ VideoLAN Server v 0.5.3 (Jun  6 2003) - (c)1999-2003 VideoLAN
 
 <para>
 
-Ce que vous verrez à l'écran (stderr)
+Ce que vous verrez Ã  l'Ã©cran (stderr)
 est exactement ce que vous verrez dans le fichier de log
 <filename>vls.log</filename>
 
@@ -73,8 +73,8 @@ est exactement ce que vous verrez dans le fichier de log
 
 <para>
 
-Une fois que VLS a démarré, il ne prend pas
-d'argument sur son entrée standard, et vous pouvez le mettre en tâche de
+Une fois que VLS a dÃ©marrÃ©, il ne prend pas
+d'argument sur son entrÃ©e standard, et vous pouvez le mettre en tÃ¢che de
 fond (vous pouvez utiliser l'utilitaire <emphasis>screen</emphasis> pour
 cela
 
@@ -82,8 +82,8 @@ cela
 
 <para>
 
-Si vous désirez utiliser l'interface
-en ligne de commande, merci de vous réferer au <ulink url="http://www.videolan.org/doc/">VideoLAN HOWTO</ulink>
+Si vous dÃ©sirez utiliser l'interface
+en ligne de commande, merci de vous rÃ©ferer au <ulink url="http://www.videolan.org/doc/">VideoLAN HOWTO</ulink>
 
 .</para>
 
@@ -97,8 +97,8 @@ Utilisation de l'interface telnet
 
 <para>
 
-Après le lancement de VLS, un serveur telnet est
-ouvert, sur le port 9999 par défaut. Vous pouvez vous y connecter à
+AprÃ¨s le lancement de VLS, un serveur telnet est
+ouvert, sur le port 9999 par dÃ©faut. Vous pouvez vous y connecter Ã 
 l'aide de la commande
 
 :</para>
@@ -125,9 +125,9 @@ Login:
 
 <para>
 
-Vous devez ensuite vous authentifier à l'aide du
-couple login/password défini dans le fichier de configuration. Une fois
-l'authentification réalisée, vous devriez voir une invite du type
+Vous devez ensuite vous authentifier Ã  l'aide du
+couple login/password dÃ©fini dans le fichier de configuration. Une fois
+l'authentification rÃ©alisÃ©e, vous devriez voir une invite du type
 
 :</para>
 
@@ -139,8 +139,8 @@ admin@vls&gt;
 <para>
 
 Vous pouvez ensuite taper les commandes
-définies dans le paragraphe suivant. Pour voud délogguer, tapez
-<command>logout</command> à l'invite
+dÃ©finies dans le paragraphe suivant. Pour voud dÃ©logguer, tapez
+<command>logout</command> Ã  l'invite
 
 .</para>
 
@@ -162,9 +162,9 @@ Utilisation: help [commande]
 
 <para>
 
-Appellée sans argument, la commande donne la liste
+AppellÃ©e sans argument, la commande donne la liste
 de toutes les commandes (disponibles ou non). Avec un argument, elle
-donne le détail de l'utilisation de la commande spécifiée
+donne le dÃ©tail de l'utilisation de la commande spÃ©cifiÃ©e
 
 .</para>
 
@@ -174,15 +174,15 @@ donne le détail de l'utilisation de la commande spécifiée
 
 <para>
 
-Utilisation: browse [entrée]
+Utilisation: browse [entrÃ©e]
 
 .</para>
 
 <para>
 
 Sans argument, la commande liste les programmes
-des entrées. Avec un argument, elle donne les programmes de l'entrée
-spécifiée. Le status de chaque programme est donnée
+des entrÃ©es. Avec un argument, elle donne les programmes de l'entrÃ©e
+spÃ©cifiÃ©e. Le status de chaque programme est donnÃ©e
 
 .</para>
 
@@ -193,16 +193,16 @@ spécifiée. Le status de chaque programme est donnée
 <para>
 
 
-Utilisation: start &lt;programme&gt; &lt;sortie&gt; &lt;entrée&gt; [--loop] [--rtp]
+Utilisation: start &lt;programme&gt; &lt;sortie&gt; &lt;entrÃ©e&gt; [--loop] [--rtp]
 
 </para>
 
 <para>
 
-lance le programme spécifié de l'entrée spécifiée
-sur la sortie spécifiée. L'option --loop fait que le programme se
-répète. L'option --rtp fait que les paquets TS sont envoyés en utilisant
-le protocole RTP, défini dans les RFC 1889 et 2250
+lance le programme spÃ©cifiÃ© de l'entrÃ©e spÃ©cifiÃ©e
+sur la sortie spÃ©cifiÃ©e. L'option --loop fait que le programme se
+rÃ©pÃ¨te. L'option --rtp fait que les paquets TS sont envoyÃ©s en utilisant
+le protocole RTP, dÃ©fini dans les RFC 1889 et 2250
 
 .</para>
 
@@ -216,7 +216,7 @@ Utilisation: stop &lt;sortie&gt;
 </para>
 <para>
 
-"stop" arrête la diffusion sur la sortie spécifiée
+"stop" arrÃªte la diffusion sur la sortie spÃ©cifiÃ©e
 
 .</para>
 </simplesect>
@@ -231,8 +231,8 @@ Utilisation: forward &lt;sortie&gt; &lt;vitesse&gt;
 
 <para>
 
-Avance dans la sortie donnée à la vitesse
-donnée. Ceci ne fonctionne pas lors de la lecture depuis une carte
+Avance dans la sortie donnÃ©e Ã  la vitesse
+donnÃ©e. Ceci ne fonctionne pas lors de la lecture depuis une carte
 d'acquisition, d'encodage, ou une carte DVB
 
 .</para>
@@ -248,8 +248,8 @@ Utilisation: rewind &lt;sortie&gt; &lt;vitesse&gt;
 </para>
 <para>
 
-Recule dans la sortie donnée à la vitesse
-donnée. Ceci ne fonctionne pas lors de la lecture depuis une carte
+Recule dans la sortie donnÃ©e Ã  la vitesse
+donnÃ©e. Ceci ne fonctionne pas lors de la lecture depuis une carte
 d'acquisition, d'encodage, ou une carte DVB
 
 .</para>
@@ -263,7 +263,7 @@ Utilisation: suspend &lt;sortie&gt;
 </para>
 <para>
 
-interrompt la diffusion sur la sortie spécifiée
+interrompt la diffusion sur la sortie spÃ©cifiÃ©e
 
 .</para>
 
@@ -279,7 +279,7 @@ Utilisation: resume &lt;sortie&gt;
 
 <para>
 
-Reprend la diffusion de la sortie spécifiée
+Reprend la diffusion de la sortie spÃ©cifiÃ©e
 
 .</para>
 
@@ -311,7 +311,7 @@ Utilisation: shutdown
 
 <para>
 
-Stoppe les diffusions et arrête VLS
+Stoppe les diffusions et arrÃªte VLS
 
 .</para>
 

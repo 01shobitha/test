@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!-- revision:1.1 -->
 
 <chapter id="install"><title id="tinstall">
-Instalación de VLS
+InstalaciÃ³n de VLS
 </title>
 
 <sect1><title>
-Instalación de VLS
+InstalaciÃ³n de VLS
 </title>
 &install-vls;
 </sect1>
 
 <sect1><title>
-Desinstalación de VLS
+DesinstalaciÃ³n de VLS
 </title>
 &uninstall-vls;
 </sect1>

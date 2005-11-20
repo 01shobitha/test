@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- revision:1.1 -->
 <chapter id="config">
 <title id="tconfig">
-Configuración
+ConfiguraciÃ³n
 </title>
 
 <para>
-VLS carga su configuración del fichero de
-configuración <filename>vls.cfg</filename>, que se
+VLS carga su configuraciÃ³n del fichero de
+configuraciÃ³n <filename>vls.cfg</filename>, que se
 supone que se encuentra en el directorio actual o
 en <filename>SYSCONF_DIR/videolan/vls</filename> (donde
 <emphasis>SYSCONF_DIR</emphasis> es <filename>/usr/local/etc</filename>
@@ -26,8 +26,8 @@ Estructura general
 </title>
 
 <para>
-El fichero de configuración <filename>vls.cfg</filename>
-está dividido en secciones, y cada sección puede contener varias
+El fichero de configuraciÃ³n <filename>vls.cfg</filename>
+estÃ¡ dividido en secciones, y cada secciÃ³n puede contener varias
 variables:
 </para>
 
@@ -49,11 +49,11 @@ END
 </programlisting>
 
 <para>
-Todos los nombres de sección, nombres de variable y valores
-no son case-sensitive. Puede haber secciones y subsecciones vacías. Los
-comentarios deben comenzar con un carácter <keycap>#</keycap>. Algunas variables tienen
+Todos los nombres de secciÃ³n, nombres de variable y valores
+no son case-sensitive. Puede haber secciones y subsecciones vacÃ­as. Los
+comentarios deben comenzar con un carÃ¡cter <keycap>#</keycap>. Algunas variables tienen
 un valor por defecto; por lo que se puede omitir declararlas,
-y tendrán su valor por defecto.
+y tendrÃ¡n su valor por defecto.
 </para>
 
 </sect1>
@@ -64,14 +64,14 @@ Construyendo un <filename>vls.cfg</filename>
 </title>
 
 <para>
-A continuación se explican todas las secciones
+A continuaciÃ³n se explican todas las secciones
 que se pueden encontrar en el fichero <filename>vls.cfg</filename>:
 </para>
 
 <sect2><title>Section "VLS"</title>
 
 <para>
-Esta sección contiene los parámetros globales.
+Esta secciÃ³n contiene los parÃ¡metros globales.
 </para>
 
 <programlisting>
@@ -79,7 +79,7 @@ LogFile = "name"
 </programlisting>
 
 <para>
-Nombre del fichero de logs de VLS. Si se deja vacío "", no
+Nombre del fichero de logs de VLS. Si se deja vacÃ­o "", no
 se crea fichero de logs. Por defecto es "vls.log".
 </para>
 
@@ -88,14 +88,14 @@ SystemLog = "[disable|enable]"
 </programlisting>
 
 <para>
-Generando Logs en el SystemLog. De momento, sólo está implementado
-el SystemLog usando syslogd: compile con la opción <command>./configure
+Generando Logs en el SystemLog. De momento, sÃ³lo estÃ¡ implementado
+el SystemLog usando syslogd: compile con la opciÃ³n <command>./configure
 --enable-syslog</command>.
 </para>
 
 <caution><para>
 Si VLS es ejecutado como <command>vlsd</command>, entonces
-la siguiente configuración es obligatoria:
+la siguiente configuraciÃ³n es obligatoria:
 </para>
 
 <programlisting>
@@ -135,9 +135,9 @@ Section "Groups"
 </title>
 
 <para>
-En esta sección, se pueden definir lo grupos de usuarios,
-y qué comandos son permitidos para estos usuarios. Para
-cada grupo que se quiera definir, se debe añadir una línea en
+En esta secciÃ³n, se pueden definir lo grupos de usuarios,
+y quÃ© comandos son permitidos para estos usuarios. Para
+cada grupo que se quiera definir, se debe aÃ±adir una lÃ­nea en
 el siguiente formato:
 </para>
 
@@ -146,8 +146,8 @@ groupname = "command1|command2|..."
 </programlisting>
 
 <para>
-Esto añade un grupo "groupname", y sus usuarios
-tienen permitido ejecutar el comando1, comando2, y así sucesivamente. Por el momento, los
+Esto aÃ±ade un grupo "groupname", y sus usuarios
+tienen permitido ejecutar el comando1, comando2, y asÃ­ sucesivamente. Por el momento, los
 comandos disponibles son: help, browse, start, suspend, resume, forward,
 rewind, stop, shutdown, logout.
 </para>
@@ -170,9 +170,9 @@ Section "Users"
 </title>
 
 <para>
-Esta sección contiene una lista de los usuarios con permisos para
-controlar VLS a través de una interfaz de administración. Por cada usuario,
-se debe añadir una línea con el siguiente formato:
+Esta secciÃ³n contiene una lista de los usuarios con permisos para
+controlar VLS a travÃ©s de una interfaz de administraciÃ³n. Por cada usuario,
+se debe aÃ±adir una lÃ­nea con el siguiente formato:
 </para>
 
 <programlisting>
@@ -180,21 +180,21 @@ username = "password:groupname"
 </programlisting>
 
 <para>
-Esto añade un usuario "username", que pertenece al
-grupo "groupname" (definido en la sección "Groups") y que puede
-autenticarse con la contraseña "password".
+Esto aÃ±ade un usuario "username", que pertenece al
+grupo "groupname" (definido en la secciÃ³n "Groups") y que puede
+autenticarse con la contraseÃ±a "password".
 </para>
 
 <itemizedlist>
 
 <listitem><para>
-Bajo Unix/Linux, la contraseña debe estar encriptada,
+Bajo Unix/Linux, la contraseÃ±a debe estar encriptada,
 con una herramienta como <command>mkpasswd</command>, o con la
-función UNIX "crypt".
+funciÃ³n UNIX "crypt".
 </para></listitem>
 
 <listitem><para>
-Bajo Windows, la contraseña debe estar en limpio.
+Bajo Windows, la contraseÃ±a debe estar en limpio.
 </para></listitem>
 
 </itemizedlist>
@@ -217,8 +217,8 @@ Section "Telnet"
 </title>
 
 <para>
-En esta sección, se puede configurar la interfaz de
-administración Telnet.
+En esta secciÃ³n, se puede configurar la interfaz de
+administraciÃ³n Telnet.
 </para>
 
 <programlisting>
@@ -226,7 +226,7 @@ LocalPort = "port"
 </programlisting>
 
 <para>
-Define qué puerto será utilizado por el servidor
+Define quÃ© puerto serÃ¡ utilizado por el servidor
 Telnet. El puerto por defecto es "9999"
 
 
@@ -247,8 +247,8 @@ LocalAddress = "IP address"
 </programlisting>
 
 <para>
-Define en qué dirección IP estará escuchando el servidor Telnet
-para aceptar peticiones. Por defecto es "0.0.0.0" (ó "0::0" con
+Define en quÃ© direcciÃ³n IP estarÃ¡ escuchando el servidor Telnet
+para aceptar peticiones. Por defecto es "0.0.0.0" (Ã³ "0::0" con
 IPv6).
 </para>
 
@@ -268,7 +268,7 @@ Section "NativeAdmin"
 </title>
 
 <para>
-Usa la misma sintaxis que "Telnet". No se utiliza todavía.
+Usa la misma sintaxis que "Telnet". No se utiliza todavÃ­a.
 </para>
 
 </sect2>
@@ -278,8 +278,8 @@ Section "Inputs"
 </title>
 
 <para>
-En esta sección, se puede definir qué entradas se quieren
-usar. Por cada entrada que se necesite, se debe añadir una línea
+En esta secciÃ³n, se puede definir quÃ© entradas se quieren
+usar. Por cada entrada que se necesite, se debe aÃ±adir una lÃ­nea
 en el siguiente formato:
 </para>
 
@@ -288,8 +288,8 @@ InputName = "Type"
 </programlisting>
 
 <para>
-Esto añade una entrada con el nombre "InputName", del tipo
-"Type". Como se explicó anteriormente, existen varios tipos de
+Esto aÃ±ade una entrada con el nombre "InputName", del tipo
+"Type". Como se explicÃ³ anteriormente, existen varios tipos de
 entradas:
 </para>
 
@@ -314,8 +314,8 @@ entradas:
 </itemizedlist>
 
 <para>
-Cada entrada debe estar configurada en su propia sección
-(ver el siguiente párrafo).
+Cada entrada debe estar configurada en su propia secciÃ³n
+(ver el siguiente pÃ¡rrafo).
 </para>
 
 <para>
@@ -333,14 +333,14 @@ END
 </sect2>
 
 <sect2><title>
-Configuración de entradas
+ConfiguraciÃ³n de entradas
 </title>
 
 <para>
-Para cada entrada declarada en la sección "Inputs",
-excepto para las entradas "local", se debe añadir una sección con el mismo nombre que
+Para cada entrada declarada en la secciÃ³n "Inputs",
+excepto para las entradas "local", se debe aÃ±adir una secciÃ³n con el mismo nombre que
 la entrada correspondiente. Por ejemplo, si se declara una entrada "pvr",
-debe haber también una sección llamada "pvr". La sintaxis de cada sección
+debe haber tambiÃ©n una secciÃ³n llamada "pvr". La sintaxis de cada secciÃ³n
 depende del tipo de la entrada correspondiente.
 </para>
 
@@ -358,13 +358,13 @@ END
 
 <para>
 "Local1" es el nombre de la entrada local que se quiere
-configurar. "ProgramCount" es el número de programas asignados a esta
+configurar. "ProgramCount" es el nÃºmero de programas asignados a esta
 entrada. "TrickPlay" es la estrategia trickplay que se usa en esta entrada
 (por defecto "normal").
 </para>
 
 <para>
-Para configurar una entrada video, se debe añadir una entrada en el
+Para configurar una entrada video, se debe aÃ±adir una entrada en el
 siguiente formato:
 </para>
 
@@ -376,10 +376,10 @@ END
 </programlisting>
 
 <para>
-"VideoInputName" es el nombre de la entrada de vídeo que
+"VideoInputName" es el nombre de la entrada de vÃ­deo que
 se quiere configurar. "Device" es la ruta de la tarjeta codificadora MPEG
 de la que se quiere leer (por defecto es "/dev/video"). "Type" puede ser "Mpeg2-PS"
-o "Mpeg2-TS", dependiendo de la configuración de la tarjeta (por defecto es
+o "Mpeg2-TS", dependiendo de la configuraciÃ³n de la tarjeta (por defecto es
 "Mpeg2-PS").
 </para>
 
@@ -395,7 +395,7 @@ END
 </programlisting>
 
 <para>
-Para configurar una entrada dvb, se debe añadir una sección en el
+Para configurar una entrada dvb, se debe aÃ±adir una secciÃ³n en el
 siguiente formato:
 </para>
 
@@ -409,13 +409,13 @@ END
 <para>
 "DvbInputName" es el nombre de la entrada dvb que se
 quiere configurar. Se debe poner "SendMethod" a "0" si se quiere transmitir
-el flujo DVB completo o se debe poner a "1" si sólo se quieren transmitir
-los flujos MPEG de audio y vídeo (por defecto es "0"). "DeviceNumber"
-es el número de la tarjeta DVB de la que se quiere leer (lee
+el flujo DVB completo o se debe poner a "1" si sÃ³lo se quieren transmitir
+los flujos MPEG de audio y vÃ­deo (por defecto es "0"). "DeviceNumber"
+es el nÃºmero de la tarjeta DVB de la que se quiere leer (lee
 de <filename>/dev/ost/dvr&lt;devicenumber&gt;</filename>,
-por defecto es ""). El fichero de configuración dvb es definido por el
+por defecto es ""). El fichero de configuraciÃ³n dvb es definido por el
 driver. Se puede encontrar en <filename>$HOME/.dvbrc</filename> para
-/dev/dvb/adapter0 ó en <filename>$HOME/.dvbrc.X</filename> para
+/dev/dvb/adapter0 Ã³ en <filename>$HOME/.dvbrc.X</filename> para
 <filename>/dev/dvb/adapterX</filename>.
 </para>
 
@@ -437,8 +437,8 @@ Section "Channels"
 </title>
 
 <para>
-En esta sección, se pueden definir las salidas que se
-quieren utilizar. Para cada salida, se debe escribir una línea en el
+En esta secciÃ³n, se pueden definir las salidas que se
+quieren utilizar. Para cada salida, se debe escribir una lÃ­nea en el
 siguiente formato:
 </para>
 
@@ -447,9 +447,9 @@ ChannelName = "Type"
 </programlisting>
 
 <para>
-Esto añade una salida llamada "ChannelName", del tipo
+Esto aÃ±ade una salida llamada "ChannelName", del tipo
 "Type". "Type" debe ser "network" o "file". Como las entradas,
-las salidas deben ser configuradas en su propia sección.
+las salidas deben ser configuradas en su propia secciÃ³n.
 </para>
 
 <para>
@@ -470,17 +470,17 @@ END
 </sect2>
 
 <sect2><title>
-Configuración de las salidas
+ConfiguraciÃ³n de las salidas
 </title>
 
 <para>
-Para cada salida declarada en la sección "Channels",
-se debe añadir una sección con el mismo nombre que su salida correspondiente.
-La sintaxis de cada sección depende del tipo de salida.
+Para cada salida declarada en la secciÃ³n "Channels",
+se debe aÃ±adir una secciÃ³n con el mismo nombre que su salida correspondiente.
+La sintaxis de cada secciÃ³n depende del tipo de salida.
 </para>
 
 <para>
-Para configurar una salida de red, se debe añadir una sección en el
+Para configurar una salida de red, se debe aÃ±adir una secciÃ³n en el
 siguiente formato:
 </para>
 
@@ -514,39 +514,39 @@ o "inet6" si se usa IPv6 (por defecto es "inet4")
 <listitem><para>
 "Type" puede ser "unicast", "broadcast" o
 "multicast" (por defecto es "unicast"), dependiendo de lo que se quiera hacer
-(en la dirección "DstHost").
+(en la direcciÃ³n "DstHost").
 </para></listitem>
 
 <listitem><para>
-"SourceHost" es la dirección IP (o nombre DNS) desde
-la cual VLS enviará el flujo.
+"SourceHost" es la direcciÃ³n IP (o nombre DNS) desde
+la cual VLS enviarÃ¡ el flujo.
 </para></listitem>
 
 <listitem><para>
-"SourcePort" es el puerto UDP desde el que se enviará
+"SourcePort" es el puerto UDP desde el que se enviarÃ¡
 el flujo.
 </para></listitem>
 
 <listitem><para>
-"DestHost" es la dirección IP (o nombre DNS) a
-la cual se enviará el flujo.
+"DestHost" es la direcciÃ³n IP (o nombre DNS) a
+la cual se enviarÃ¡ el flujo.
 </para></listitem>
 
 <listitem><para>
-"DestPort" es el puerto UDP al que se enviará el flujo
+"DestPort" es el puerto UDP al que se enviarÃ¡ el flujo
 (por defecto es "1234").
 </para></listitem>
 
 <listitem><para>
-"TTL" es una opción válida sólamente si "Type" es
+"TTL" es una opciÃ³n vÃ¡lida sÃ³lamente si "Type" es
 "multicast" (el valor por defecto es "0"). Se puede usar para incremententar el TTL
 de los paquetes multicast si estos tienen que cruzar varios routers.
 </para></listitem>
 
 <listitem><para>
-"Interface" es una opción sólo soportada bajo
-GNU/Linux, para forzar que el flujo sea enviado a través de una interfaz
-de red dada ("eth1" por ejemplo). Para usar esta opción, se deben tener
+"Interface" es una opciÃ³n sÃ³lo soportada bajo
+GNU/Linux, para forzar que el flujo sea enviado a travÃ©s de una interfaz
+de red dada ("eth1" por ejemplo). Para usar esta opciÃ³n, se deben tener
 permisos de superusuario.
 </para></listitem>
 
@@ -557,7 +557,7 @@ permisos de superusuario.
 </para></note>
 
 <para>
-Para configurar una salida a fichero, se debe añadir una sección en el
+Para configurar una salida a fichero, se debe aÃ±adir una secciÃ³n en el
 siguiente formato:
 </para>
 
@@ -571,8 +571,8 @@ END
 <para>
 "FileChannelName" es el nombre de la salida a fichero que se
 quiere configurar. "file" es el nombre del fichero donde se
-guardará el flujo (por defecto "fileout.ts"). "append" puede se "yes" o
-"no", e indica si VLS tiene que añadir el flujo al final del fichero
+guardarÃ¡ el flujo (por defecto "fileout.ts"). "append" puede se "yes" o
+"no", e indica si VLS tiene que aÃ±adir el flujo al final del fichero
 file, o sobreescribirlo.
 </para>
 
@@ -581,7 +581,7 @@ Ejemplo:
 </para>
 
 <programlisting>
-BEGIN "localhost"         # El cliente está en la misma máquina que el servidor
+BEGIN "localhost"         # El cliente estÃ¡ en la misma mÃ¡quina que el servidor
   DstHost = "localhost"
   DstPort = "1234"
 END
@@ -619,12 +619,12 @@ END
 </programlisting>
 
 <caution><para>
-Si se usa, se deberían especificar los campos "SrcHost"
+Si se usa, se deberÃ­an especificar los campos "SrcHost"
 y "SrcPort". Por ejemplo:
 </para>
 
 <programlisting>
-BEGIN "client1"         # El cliente está en la misma máquina que el servidor
+BEGIN "client1"         # El cliente estÃ¡ en la misma mÃ¡quina que el servidor
   SrcHost = "192.168.1.1"  # IP de VLS
   SrcPort = "1242"         # Puerto Origen : el valor no es importante
   DstHost = "192.168.1.2"  # IP del cliente
@@ -637,13 +637,13 @@ END
 </sect2>
 
 <sect2><title>
-Configuración de los Programas
+ConfiguraciÃ³n de los Programas
 </title>
 
 <para>
 Como se ha explicado anteriormente, se deben definir programas.
 Cada uno es un flujo MPEG (un fichero, por ejemplo). Para hacer esto, se debe
-añadir una sección "Input" en el fichero <filename>vls.cfg</filename>. Cada sección
+aÃ±adir una secciÃ³n "Input" en el fichero <filename>vls.cfg</filename>. Cada secciÃ³n
 "Input" debe tener la siguiente sintaxis:
 </para>
 
@@ -656,13 +656,13 @@ END
 
 <para>
 "path" es la ruta donde se encuentran los ficheros MPEG
-(por defecto es el directorio actual). "count" es el número de
+(por defecto es el directorio actual). "count" es el nÃºmero de
 programas definidos ("0" por defecto).
 </para>
 
 <para>
-Para cada programa que se quiera definir, se debe añadir una
-sección con el siguiente formato:
+Para cada programa que se quiera definir, se debe aÃ±adir una
+secciÃ³n con el siguiente formato:
 </para>
 
 <programlisting>
@@ -677,35 +677,35 @@ END
 <itemizedlist>
 
 <listitem><para>
-"number" es el número de programa: el primer programa
-tiene el número 1, el segundo 2, y así sucesivamente.
+"number" es el nÃºmero de programa: el primer programa
+tiene el nÃºmero 1, el segundo 2, y asÃ­ sucesivamente.
 
 
 </para></listitem>
 
 <listitem><para>
-"name" es el nombre del programa, por el cual se le dirá
-a VLS que arranque dicho programa (ver el siguiente capítulo "Ejecutando VLS").
+"name" es el nombre del programa, por el cual se le dirÃ¡
+a VLS que arranque dicho programa (ver el siguiente capÃ­tulo "Ejecutando VLS").
 </para></listitem>
 
 <listitem><para>
 "type" puede ser "Mpeg1-PS", "Mpeg2-PS", "Mpeg2-TS",
 o "DVD". Si el flujo es guardado en un fichero MPEG (*.mpeg, *.mpg,
-*.vob, y demás...), es probable que se encuentre en formato Mpeg1-PS o Mpeg2-PS.
+*.vob, y demÃ¡s...), es probable que se encuentre en formato Mpeg1-PS o Mpeg2-PS.
 </para></listitem>
 
 <listitem><para>
 si "type" se fija a "Mpeg1-PS", "Mpeg2-PS", o
-"Mpeg2-TS", VLS asumirá que el flujo es guardado en el fichero "file", en
-el directorio "path" (siendo "path" la variable definida en la sección
+"Mpeg2-TS", VLS asumirÃ¡ que el flujo es guardado en el fichero "file", en
+el directorio "path" (siendo "path" la variable definida en la secciÃ³n
 "Input").
 </para></listitem>
 
 <listitem><para>
-si "type" es "DVD", la variable "Device" será
+si "type" es "DVD", la variable "Device" serÃ¡
 utilizada en lugar de "FileName" (la variable "FilesPath" no se refiere
 al nombre del lector !). La variable "Device" es el lector DVD
-("/dev/hdc" o "/dev/cdrom" por ejemplo). Se puede leer también de un DVD
+("/dev/hdc" o "/dev/cdrom" por ejemplo). Se puede leer tambiÃ©n de un DVD
 copiado en el disco duro: entonces "Device" es el directorio donde se han guardado
 los ficheros .vob ("/mnt/data/VIDEO_TS" por ejemplo).
 </para></listitem>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="install"><title id="tinstall">
 
 Installation de VLS
@@ -15,7 +15,7 @@ Installation de VLS
 
 <sect1><title>
 
-Désinstallation de VLS
+DÃ©sinstallation de VLS
 
 </title>
 &uninstall-vls;

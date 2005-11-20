@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- revision:1.1 -->
-<chapter id="overview"><title id="toverview">Visión general y conceptos básicos</title>
+<chapter id="overview"><title id="toverview">VisiÃ³n general y conceptos bÃ¡sicos</title>
 
 <sect1><title>Estructura de VLS</title>
 
@@ -101,7 +101,7 @@ Los conversores
 El papel de un <emphasis>conversor</emphasis> es el de
 recibir un flujo de una entrada, y convertirlo en formato MPEG-TS.
 VLS es capaz de convertir flujos PS (de DVDs, por ejemplo) a flujos TS
-(conversor ps2ts). Por supuesto, también puede leer flujos TS, y
+(conversor ps2ts). Por supuesto, tambiÃ©n puede leer flujos TS, y
 repararlos manejando las discontinuidades en el flujo (conversor ts2ts).
 </para>
 
@@ -115,11 +115,11 @@ Salidas
 Una salida recibe un flujo de un conversor,
 y lo manda a un destino dado (red, fichero, ...). Actualmente
 existen dos tipos de salidas soportadas: <emphasis>network</emphasis> y
-<emphasis>file</emphasis>. Nótese que,
-por el momento, VLS sólo soporta una salida por flujo,
+<emphasis>file</emphasis>. NÃ³tese que,
+por el momento, VLS sÃ³lo soporta una salida por flujo,
 por lo que no se puede enviar al mismo tiempo a una red y escribir
 a un fichero. La salida de red es bastante configurable:
-se puede elegir qué interfaz de red se quiere utilizar, y especificar
+se puede elegir quÃ© interfaz de red se quiere utilizar, y especificar
 las direcciones IP de origen y destino.
 </para>
 
@@ -131,22 +131,22 @@ El gestor
 
 <para>
 El <emphasis>gestor</emphasis> controla
-el modo en el que son enviados los flujos. A través de una <emphasis>interfaz de
-administración</emphasis>, se le puede decir al gestor que comience, pare,
+el modo en el que son enviados los flujos. A travÃ©s de una <emphasis>interfaz de
+administraciÃ³n</emphasis>, se le puede decir al gestor que comience, pare,
 suspenda, o reinicie los diferentes programas. Se puede
-también conseguir la lista de todos los programas disponibles en la Tabla
-de Programas. El gestor consigue esta tabla del fichero de configuración de VLS
+tambiÃ©n conseguir la lista de todos los programas disponibles en la Tabla
+de Programas. El gestor consigue esta tabla del fichero de configuraciÃ³n de VLS
 (<filename>vls.cfg</filename>), por lo que no puede ser modificado una vez que VLS
-es arrancado. Por el momento, no se puede preguntar al gestor si un flujo está
+es arrancado. Por el momento, no se puede preguntar al gestor si un flujo estÃ¡
 siendo enviado, pero devuelve un mensaje de error si se intenta parar
-un flujo que no está siendo transmitido.
+un flujo que no estÃ¡ siendo transmitido.
 </para>
 
 </simplesect>
 </sect1>
 
 <sect1><title>
-Interfaz de administración
+Interfaz de administraciÃ³n
 </title>
 
 <para>
@@ -156,13 +156,13 @@ Actualmente existen dos modos de controlar VLS:
 <itemizedlist>
 
 <listitem><para>
-se puede usar la <emphasis>línea de comandos</emphasis> para
+se puede usar la <emphasis>lÃ­nea de comandos</emphasis> para
 proporcionarle argumentos en el arranque;
 </para></listitem>
 
 <listitem><para>
 o se puede usar la <emphasis>interfaz
-Telnet</emphasis> para arrancar/parar/pausar el envío siempre que se
+Telnet</emphasis> para arrancar/parar/pausar el envÃ­o siempre que se
 quiera.
 </para></listitem>
 
@@ -172,7 +172,7 @@ quiera.
 Cuando se usa el interfaz Telnet, hay que
 autenticarse antes de escribir comandos, para prevenir que usuarios
 no deseados sean libres de hacerlo (esto se debe configurar en el
-fichero de configuración <filename>vls.cfg</filename>).
+fichero de configuraciÃ³n <filename>vls.cfg</filename>).
 </para>
 
 </sect1>

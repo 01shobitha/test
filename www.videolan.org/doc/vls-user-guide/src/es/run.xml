@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- revision:1.1 -->
 <chapter id="run">
 
@@ -11,19 +11,19 @@ Uso de VLS
 <para>
 Si se quiere usar el interfaz telnet, ejecutar
 VLS es muy sencillo: simplemente escriba <command>vls</command> en una consola
-de comandos, y eso es todo. Ejecutando <command>vlsd</command> hará
-que VLS ejecute como un demonio y será independiente de la consola.
-Recuerda que VLS intentará cargar el fichero de configuración
+de comandos, y eso es todo. Ejecutando <command>vlsd</command> harÃ¡
+que VLS ejecute como un demonio y serÃ¡ independiente de la consola.
+Recuerda que VLS intentarÃ¡ cargar el fichero de configuraciÃ³n
 (<filename>vls.cfg</filename>) desde el directorio actual, y si no hay
-un fichero <filename>vls.cfg</filename> en él, intentará cargarlo
-desde <filename>SYSCONF_DIR/etc/videolan</filename> (vea la sección <xref
+un fichero <filename>vls.cfg</filename> en Ã©l, intentarÃ¡ cargarlo
+desde <filename>SYSCONF_DIR/etc/videolan</filename> (vea la secciÃ³n <xref
 linkend="config" endterm="tconfig"/>).
 </para>
 
 <caution><para>
 Si su fichero de logs es <filename>vls.log</filename>, como
-en el ejemplo, VLS requerirá permisos de escritura en el directorio actual, o
-verá algo como esto:
+en el ejemplo, VLS requerirÃ¡ permisos de escritura en el directorio actual, o
+verÃ¡ algo como esto:
 </para>
 
 <screen><computeroutput>
@@ -33,15 +33,15 @@ Permission denied
 </computeroutput></screen>
 
 <para>
-Recuerde también que debe ser root cuando use la
-opción "Interface" en el fichero <filename>vls.cfg</filename>
+Recuerde tambiÃ©n que debe ser root cuando use la
+opciÃ³n "Interface" en el fichero <filename>vls.cfg</filename>
 <filename>vls.cfg</filename>.
 </para>
 
 </caution>
 
 <para>
-Si todo va bien, verá algo como esto:
+Si todo va bien, verÃ¡ algo como esto:
 </para>
 
 <screen><computeroutput>
@@ -55,19 +55,19 @@ VideoLAN Server v 0.5.3 (Jun  6 2003) - (c)1999-2003 VideoLAN
 
 <para>
 Lo que se ve en la pantalla (stderr) es exactamente
-lo que se guardará en el fichero de logs <filename>vls.log</filename>.
+lo que se guardarÃ¡ en el fichero de logs <filename>vls.log</filename>.
 </para>
 
 <para>
 Cuando VLS se ha ejecutado correctamente, no recoge
-ningún comando de su entrada estándar, por lo que se puede poner en segundo
+ningÃºn comando de su entrada estÃ¡ndar, por lo que se puede poner en segundo
 plano (background) (se puede usar la utilidad <emphasis>screen</emphasis> para
 ello).
 </para>
 
 <para>
-Si se desea usar la interfaz en línea de comandos,
-por favor, refiérase a <ulink
+Si se desea usar la interfaz en lÃ­nea de comandos,
+por favor, refiÃ©rase a <ulink
 url="http://www.videolan.org/doc/">VideoLAN HOWTO</ulink>.
 </para>
 
@@ -88,7 +88,7 @@ con el siguiente comando:
 </screen>
 
 <para>
-Se debería ver algo como esto:
+Se deberÃ­a ver algo como esto:
 </para>
 
 <screen><computeroutput>
@@ -102,9 +102,9 @@ Login:
 </computeroutput></screen>
 
 <para>
-Debe autenticarse con un usario/contraseña
+Debe autenticarse con un usario/contraseÃ±a
 definidos en el fichero <filename>vls.cfg</filename>. Cuando se haya
-autenticado correctamente, debería verse un 'prompt' como este:
+autenticado correctamente, deberÃ­a verse un 'prompt' como este:
 </para>
 
 
@@ -114,7 +114,7 @@ admin@vls&gt;
 
 <para>
 Se puede escribir los comandos, que son explicados
-en el siguiente párrafo. Para salir, escriba <command>logout</command> después
+en el siguiente pÃ¡rrafo. Para salir, escriba <command>logout</command> despuÃ©s
 del prompt del telnet.
 </para>
 
@@ -133,7 +133,7 @@ Uso: help [comando].
 <para>
 Sin argumentos, "help" proporciona la lista de
 todos los comandos (disponibles o no). Con un argumentos, proporciona
-detalles acerca de cómo utilizar un comando específico.
+detalles acerca de cÃ³mo utilizar un comando especÃ­fico.
 </para>
 
 </simplesect>
@@ -161,8 +161,8 @@ Uso: start &lt;programa&gt; &lt;salida&gt; &lt;entrada&gt; [--loop] [--rtp]
 <para>
 "start" ejecuta el programa seleccionado de la
 entrada seleccionada y lo transmite por la salida especificada. La
-opción "--loop" hace que el programa se repita indefinidamente. La
-opción "--rtp" hace que el paquete TS sea enviado por el protocolo RTP,
+opciÃ³n "--loop" hace que el programa se repita indefinidamente. La
+opciÃ³n "--rtp" hace que el paquete TS sea enviado por el protocolo RTP,
 como se define en RFC 1889 y RFC 2250.
 </para>
 
@@ -174,7 +174,7 @@ Uso: stop &lt;channel&gt;
 </para>
 
 <para>
-"stop" finaliza el envío del canal especificado.
+"stop" finaliza el envÃ­o del canal especificado.
 </para>
 </simplesect>
 
@@ -185,7 +185,7 @@ Uso: forward &lt;channel&gt; &lt;speed&gt;
 </para>
 
 <para>
-"forward" produce el avance rápido del vídeo a la velocidad dada.
+"forward" produce el avance rÃ¡pido del vÃ­deo a la velocidad dada.
 No funciona cuando se lee directamente de un dispositivo como una
 tarjeta codificadora MPEG, una tarjeta DVB o una tarjeta capturadora.
 </para>
@@ -199,7 +199,7 @@ Uso: rewind &lt;channel&gt; &lt;speed&gt;
 </para>
 
 <para>
-"rewind" produce el retoriceso rápido del vídeo a la velocidad dada.
+"rewind" produce el retoriceso rÃ¡pido del vÃ­deo a la velocidad dada.
 No funciona cuando se lee directamente de un dispositivo como una
 tarjeta codificadora MPEG, una tarjeta DVB o una tarjeta capturadora.
 </para>
@@ -212,7 +212,7 @@ Uso: suspend &lt;channel&gt;
 
 </para>
 <para>
-"suspend" detiene la transmisión de la salida especificada.
+"suspend" detiene la transmisiÃ³n de la salida especificada.
 </para>
 
 </simplesect>
@@ -224,7 +224,7 @@ Uso: resume &lt;channel&gt;
 </para>
 
 <para>
-"resume" continua la transmisión de la salida especificada.
+"resume" continua la transmisiÃ³n de la salida especificada.
 </para>
 
 </simplesect>
@@ -238,8 +238,8 @@ Uso: logout
 </para>
 
 <para>
-"logout" cierra la actual sesión de administración y la
-conexión remota.
+"logout" cierra la actual sesiÃ³n de administraciÃ³n y la
+conexiÃ³n remota.
 </para>
 
 </simplesect>
@@ -253,7 +253,7 @@ Uso: shutdown
 </para>
 
 <para>
-"shutdown" detiene todos los programas y termina la ejecución de VLS.
+"shutdown" detiene todos los programas y termina la ejecuciÃ³n de VLS.
 </para>
 
 </simplesect>

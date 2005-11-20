@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="run"><title id="trun">Benutzung von VLS</title>
 
 <sect1><title>
@@ -26,7 +26,7 @@ zu laden (siehe Sektion <xref linkend="config" endterm="tconfig"/>).
 
 
 Wenn Ihre Log-Datei <filename>vls.log</filename> wie
-im Beispiel ist, benötigt VLS Schreibzugriff auf das aktuelle Verzeichnis oder Sie
+im Beispiel ist, benÃ¶tigt VLS Schreibzugriff auf das aktuelle Verzeichnis oder Sie
 werden etwas vergleichbares mit dem Folgenden sehen.
 :</para>
 
@@ -39,7 +39,7 @@ Permission denied
 <para>
 
 
-Beachten Sie außerdem, dass Sie Sie root sein müssen,
+Beachten Sie auÃŸerdem, dass Sie Sie root sein mÃ¼ssen,
 wenn Sie die "Interface"-Option in <filename>vls.cfg</filename> benutzen.
 
 </para>
@@ -50,7 +50,7 @@ wenn Sie die "Interface"-Option in <filename>vls.cfg</filename> benutzen.
 
 
 
-Wenn alles in Ordnung ist, werden Sie ähnliches wie das Folgende
+Wenn alles in Ordnung ist, werden Sie Ã¤hnliches wie das Folgende
 sehen
 :</para>
 
@@ -74,9 +74,9 @@ dasselbe wie in der Log-Datei <filename>vls.log</filename>.
 <para>
 
 
-Wenn VLS erfolgreich gestartet wurde, übernimmt es
+Wenn VLS erfolgreich gestartet wurde, Ã¼bernimmt es
 keinen Befehl aus dessen Standardinput, sodass Sie ihn in den Hintergrund
-verlagern können (sie können das <emphasis>screen</emphasis>-Utility
+verlagern kÃ¶nnen (sie kÃ¶nnen das <emphasis>screen</emphasis>-Utility
 dazu benutzen).
 
 </para>
@@ -85,7 +85,7 @@ dazu benutzen).
 
 
 Wenn Sie aber das Befehlszeileninterface benutzen
-möchten, schauen Sie bitte in das Dokument <ulink url="http://www.videolan.org/doc/">VideoLAN HOWTO</ulink>.
+mÃ¶chten, schauen Sie bitte in das Dokument <ulink url="http://www.videolan.org/doc/">VideoLAN HOWTO</ulink>.
 
 </para>
 
@@ -100,8 +100,8 @@ Benutzung des Telnet-Interfaces
 <para>
 
 
-Nachdem VLS gestartet wurde, öffnet es einen
-Telnet-Server (standardmäßig auf dem Port 9999). Sie können sich mit
+Nachdem VLS gestartet wurde, Ã¶ffnet es einen
+Telnet-Server (standardmÃ¤ÃŸig auf dem Port 9999). Sie kÃ¶nnen sich mit
 dem folgenden Befehl mit diesem Server in Verbindung setzen
 :</para>
 
@@ -112,7 +112,7 @@ dem folgenden Befehl mit diesem Server in Verbindung setzen
 <para>
 
 
-Sie sollten etwas ähnliches wie das Folgende sehen
+Sie sollten etwas Ã¤hnliches wie das Folgende sehen
 :</para>
 
 <screen><computeroutput>
@@ -128,7 +128,7 @@ Login:
 <para>
 
 
-Danach müssen Sie sich mit einem Loginnamen und
+Danach mÃ¼ssen Sie sich mit einem Loginnamen und
 entsprechendem Passwort authentifizieren, wie Sie es in der Datei
 <filename>vls.cfg</filename> festgelegt haben. Wenn Sie sich erfolgreich
 authentifiziert haben, sollten Sie inetwa folgende Eingabeaufforderung 
@@ -143,7 +143,7 @@ admin@vls&gt;
 <para>
 
 
-Sie können nun die im folgenden Paragraph erklärten
+Sie kÃ¶nnen nun die im folgenden Paragraph erklÃ¤rten
 Befehle benutzen. Um sich abzumelden, geben Sie <command>logout</command>
 nach der Telnet-Eingabeaufforderung ein.
 
@@ -170,7 +170,7 @@ Benutzung: help [Befehl].
 
 
 Ohne Argument aufgerufen, gibt "help" die Liste
-aller Befehle aus, ob sie nun verfügbar sind oder nicht. Mit einem
+aller Befehle aus, ob sie nun verfÃ¼gbar sind oder nicht. Mit einem
 Argument aufgerufen, zeigt es an, wie der jeweilige Befehl benutzt wird.
 
 </para>
@@ -211,9 +211,9 @@ Benutzung: start &lt;Programm&gt; &lt;Channel&gt; &lt;Input&gt; [--loop] [--rtp]
 
 
 "start" startet das angegebene Programm des angegebenen
-Inputs und gibt es über den angebenen Channel aus. Durch die "--loop"-Option
+Inputs und gibt es Ã¼ber den angebenen Channel aus. Durch die "--loop"-Option
 wird das Programm unendlich wiederholt. Durch die "--rtp"-Option werden
-die TS-Pakete über das RTP-Protokoll gesendet, wie es in RFC 1889 und 2250 festgelegt ist
+die TS-Pakete Ã¼ber das RTP-Protokoll gesendet, wie es in RFC 1889 und 2250 festgelegt ist
 .
 
 </para>
@@ -246,7 +246,7 @@ Benutzung: forward &lt;Channel&gt; &lt;Geschwindigkeit&gt;
 
 
 "forward" beschleunigt den Channel um die angegebene Geschwindigkeit.
-Dies funktioniert nicht, wenn direkt aus einem Gerät, wie einer MPEG-Kodierungskarte,
+Dies funktioniert nicht, wenn direkt aus einem GerÃ¤t, wie einer MPEG-Kodierungskarte,
 einer DVB-Karte oder einer Eingangskarte, gelesen wird.
 
 </para>
@@ -264,7 +264,7 @@ Benutzung: rewind &lt;Channel&gt; &lt;Geschwindigkeit&gt;
 
 
 "rewind" verlangsamt den Channel um die angebene Geschwindigkeit.
-Dies funktioniert nicht, wenn direkt aus einem Gerät, wie einer MPEG-Kodierungskarte,
+Dies funktioniert nicht, wenn direkt aus einem GerÃ¤t, wie einer MPEG-Kodierungskarte,
 einer DVB-Karte oder einer Eingangskarte, gelesen wird.
 
 </para>
@@ -315,7 +315,7 @@ Benutzung: logout
 <para>
 
 
-"logout" schließt die derzeitige Administrationssitzung
+"logout" schlieÃŸt die derzeitige Administrationssitzung
 und die entsprechende Verbindung.
 
 </para>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!-- revision:1.1 -->
 
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.1//EN" "/usr/share/sgml/docbook/dtd/xml/4.1/docbookx.dtd"
@@ -22,7 +22,7 @@
 <bookinfo>
 
 <title>
-Guía de usuario de VLS
+GuÃ­a de usuario de VLS
 </title>
 
 <authorgroup>
@@ -69,7 +69,7 @@ The text of the license can be found in the appendix.
 <abstract>
 
 <para>
-Este documento es la guía de usuario completa de VLS
+Este documento es la guÃ­a de usuario completa de VLS
 .</para>
 
 </abstract>

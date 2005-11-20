@@ -1,29 +1,29 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="modules"><title id="tmodules">
 Modules et options de VLC
 </title>
 
 <sect1><title>Les modules</title>
 
-<para>VLC utilise un système modulaire, ce qui permet un ajout simplifié
+<para>VLC utilise un systÃ¨me modulaire, ce qui permet un ajout simplifiÃ©
 de nouvelles fonctions et de nouveaux formats. Ceci est un description
 de presque tous les modules du VLC. Un certain nombre de modules
-"internes" ne seront pas détaillés ici.. Pour une liste exhaustive de
-tous les modules de VLC, référez vous au fichier LIST qui se trouve dans
-le sous-répertoire "modules" des sources de VLC.</para>
-<para>Si vous avez installé VLC par un fichier binaire, vous aurez tous
-les modules par défaut. Si vous désirez peronnaliser VLC, vous devrez le
+"internes" ne seront pas dÃ©taillÃ©s ici.. Pour une liste exhaustive de
+tous les modules de VLC, rÃ©fÃ©rez vous au fichier LIST qui se trouve dans
+le sous-rÃ©pertoire "modules" des sources de VLC.</para>
+<para>Si vous avez installÃ© VLC par un fichier binaire, vous aurez tous
+les modules par dÃ©faut. Si vous dÃ©sirez peronnaliser VLC, vous devrez le
 compiler depuis ses sources.</para>
-<para>La lecture de cette partie peut-être utile si vous désirez compiler
-VLC ou si vous voulez connaître les options disponibles pour les modules que vous utilisez.</para>
-<para>La compilation en elle-même sera expliquée dans le chapitre suivant.</para>
+<para>La lecture de cette partie peut-Ãªtre utile si vous dÃ©sirez compiler
+VLC ou si vous voulez connaÃ®tre les options disponibles pour les modules que vous utilisez.</para>
+<para>La compilation en elle-mÃªme sera expliquÃ©e dans le chapitre suivant.</para>
 
 
 
 <para>
 
-Si vous désirez compiler un module qui est marqué
-<emphasis>désactivé par défaut</emphasis>, vous devrez lancer le script de 
+Si vous dÃ©sirez compiler un module qui est marquÃ©
+<emphasis>dÃ©sactivÃ© par dÃ©faut</emphasis>, vous devrez lancer le script de 
 configuration avec :
 
 </para>
@@ -34,8 +34,8 @@ configuration avec :
 
 <para>
 
-A l'inverse, si vous désirez désactiver un module qui est
-<emphasis>activé par défaut</emphasis>, vous devrez utiliser :
+A l'inverse, si vous dÃ©sirez dÃ©sactiver un module qui est
+<emphasis>activÃ© par dÃ©faut</emphasis>, vous devrez utiliser :
 
 </para>
 
@@ -44,7 +44,7 @@ A l'inverse, si vous désirez désactiver un module qui est
 
 <para>
 
-Chaque module VLC possède sa propre aide et ses
+Chaque module VLC possÃ¨de sa propre aide et ses
 options. Pour toutes les voir, utilisez :
 
 </para>
@@ -53,8 +53,8 @@ options. Pour toutes les voir, utilisez :
 
 <para>
 
-ou utilisez la fenêtre de préférences de votre 
-interface graphique préférée
+ou utilisez la fenÃªtre de prÃ©fÃ©rences de votre 
+interface graphique prÃ©fÃ©rÃ©e
 
 .</para>
 

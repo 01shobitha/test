@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 
 <sect1><title>
-Support de systèmes d'exploitation
+Support de systÃ¨mes d'exploitation
 </title>
 
 <para>
-Ces modules permettent de supporter différents OSs
+Ces modules permettent de supporter diffÃ©rents OSs
 .</para>
 
 <sect2>
@@ -28,19 +28,19 @@ Divers
 </title>
 
 <para>
-Cette section décrit quelques modules qui n'entrent
-dans aucune des catégories décrites
+Cette section dÃ©crit quelques modules qui n'entrent
+dans aucune des catÃ©gories dÃ©crites
 .</para>
 
 <sect2><title>sout</title>
 &enabled;
 <para>
-Le Stream Output est une fonctionnalité de VLC qui
+Le Stream Output est une fonctionnalitÃ© de VLC qui
 lui permet de devenir serveur de streaming MPEG, DivX, ou DVD
 .</para>
 
 <para>
-Pour plus de détails, veuillez voir la section
+Pour plus de dÃ©tails, veuillez voir la section
 <xref linkend="cmdline" endterm="tcmdline"/>
 .</para>
 
@@ -49,14 +49,14 @@ Pour plus de détails, veuillez voir la section
 <sect2><title>test-suite</title>
 &disabled;
 <para>
-Ceci fait un VLC spécial, pour des tests
+Ceci fait un VLC spÃ©cial, pour des tests
 .</para>
 </sect2>
 
 <sect2><title>mozilla</title>
 &disabled;
 <para>
-Ceci n'est pas un module, mais permet de créer un plugin
+Ceci n'est pas un module, mais permet de crÃ©er un plugin
 Mozilla VLC
 .</para>
 
@@ -81,8 +81,8 @@ Options de compilation
 </title>
 
 <para>
-Il y a quelques options que vous pouvez régler par
-le script de configuration, qui ne sont pas liées aux modules
+Il y a quelques options que vous pouvez rÃ©gler par
+le script de configuration, qui ne sont pas liÃ©es aux modules
 .</para>
 
 <para>
@@ -94,21 +94,21 @@ Vous pouvez voir ces options en faisant
 </screen>
 
 <para>
-Vous pouvez par exemple régler les répertoires
-d'installation, le système sur lequel vous désirez compiler VLC
+Vous pouvez par exemple rÃ©gler les rÃ©pertoires
+d'installation, le systÃ¨me sur lequel vous dÃ©sirez compiler VLC
 (normalement automatique), ...
 </para>
 
 <para>
-Vous pouvez également activer ou désactiver des
+Vous pouvez Ã©galement activer ou dÃ©sactiver des
 optimisations.
 </para>
 
 <sect2><title>--disable-plugins</title>
 
 <para>
-Si vous sélectionnez cette option, aucun plugin ne
-sera compilé. Ce n'est pas recommandé: vous obtenez un VLC très pauvre.
+Si vous sÃ©lectionnez cette option, aucun plugin ne
+sera compilÃ©. Ce n'est pas recommandÃ©: vous obtenez un VLC trÃ¨s pauvre.
 Vous ne devriez utiliser ceci que pour des tests
 .</para>
 

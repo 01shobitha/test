@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="http"><title id="thttp">
 Das HTTP-Interface
 </title>
 
-<sect1><title>Einführung</title>
+<sect1><title>EinfÃ¼hrung</title>
 
 <para><emphasis>
-Diese Seite ist nicht vollständig.
+Diese Seite ist nicht vollstÃ¤ndig.
 
 </emphasis></para>
 
 <sect2><title>
-Präsentation
+PrÃ¤sentation
 </title>
 
 <para>
-VLC enthält einen kleinen HTTP-Server. Er kann zum 
-Streamen über HTTP und für das HTTP-Fernsteuerungsinterface benutzt
+VLC enthÃ¤lt einen kleinen HTTP-Server. Er kann zum 
+Streamen Ã¼ber HTTP und fÃ¼r das HTTP-Fernsteuerungsinterface benutzt
 werden.
 
 </para>
@@ -31,21 +31,21 @@ Sie folgendes:</para>
 
 <para>
 Das HTTP-Interface wird beginnen, unter host:port
-(standardmäßig localhost:8080) nach Anfragen zu hören und die Struktur von
-/directory unter http://host:port / zu reproduzieren (standardmäßig
+(standardmÃ¤ÃŸig localhost:8080) nach Anfragen zu hÃ¶ren und die Struktur von
+/directory unter http://host:port / zu reproduzieren (standardmÃ¤ÃŸig
 vlc_quell_pfad/share/http).
 
 </para>
 
 <para>
 VLC wird mit einer Reihe von Dateien ausgeliefert, die
-für übliche Zwecke ausreichend sein sollten. Der Rest dieses Kapitels wird die
-Wege aufzeigen, diese Seiten dem persönlichen Bedarf anzupassen.
+fÃ¼r Ã¼bliche Zwecke ausreichend sein sollten. Der Rest dieses Kapitels wird die
+Wege aufzeigen, diese Seiten dem persÃ¶nlichen Bedarf anzupassen.
 
 </para>
 
 <para>
-Einige Dateien müssen besonders behandelt werden 
+Einige Dateien mÃ¼ssen besonders behandelt werden 
 :</para>
 
 <itemizedlist>
@@ -55,12 +55,12 @@ Datei, die mit "." beginnen, werden nicht exportiert.
 
 </para></listitem>
 <listitem><para>
-Eine '.access'-Datei wird geöffnet werden und das
+Eine '.access'-Datei wird geÃ¶ffnet werden und das
 HTTP-Interface wird in der ersten Zeile einen Loginnamen/Passwort
 (geschrieben als Loginname:Passwort) erwarten. Dieser Loginname/Passwort
 werden zum Schutz aller Dateien in diesem Verzeichnis benutzt. Bitte beachten
-Sie, dass nur Dateien in diesem Verzeichnis geschützt werden.
-(Unterverzeichnisse werden nicht geschützt.)
+Sie, dass nur Dateien in diesem Verzeichnis geschÃ¼tzt werden.
+(Unterverzeichnisse werden nicht geschÃ¼tzt.)
 </para></listitem>
 <listitem><para>
 Die Datei &lt;dir&gt;/index.html wird als 
@@ -74,13 +74,13 @@ index.html.
 <para>
 Der MIME-Typ wird durch einen Blick an die
 Dateiendung festgelegt und kann durch eine Einstellungsdatei weder
-angegeben noch verändert werden. Unbekannte Endungen haben 
+angegeben noch verÃ¤ndert werden. Unbekannte Endungen haben 
 "application/octet-stream" als MIME-Typ.
 
 </para>
 
 <para>
-Sie sollten den Export von großen Dateien
+Sie sollten den Export von groÃŸen Dateien
 vermeiden. Jede Datei wird erst in den Speicher geladen, bevor sie an
 den Client gesendet wird. Seien Sie also vorsichtig.
 </para>
@@ -95,23 +95,23 @@ VLC-Makros
 
 Jede angeforderte .html/.htm - Seite wird von
 VLC geparst, bevor sie gesendet wird. Der Parser sucht nach VLC-Makros
-und führt sie aus oder ersetzt sie. Desweiteren können von der GET-Methode
-empfangene Argumente ausgeführt werden
+und fÃ¼hrt sie aus oder ersetzt sie. Desweiteren kÃ¶nnen von der GET-Methode
+empfangene Argumente ausgefÃ¼hrt werden
  .</para>
 <para>
-Ein VLC-Makro sieht folgendermaßen aus:
+Ein VLC-Makro sieht folgendermaÃŸen aus:
 <emphasis>&lt;vlc id="Makro-Name" param1="Macro-Parameter1"
 param2="Makro-Parameters2" /&gt;</emphasis>.
 </para>
 <para>
 "id" ist das einzige zwingend erforderliche Feld, param1
-und param2 können präsent sein oder nicht und sind angewiesen auf "id".
+und param2 kÃ¶nnen prÃ¤sent sein oder nicht und sind angewiesen auf "id".
 </para>
 
 <para>
 Sie sollten darauf achten, dass Sie diese Syntax
-respektieren müssen, da VLC keine ungültige Syntax mag (diese könnte leicht
-zu Abstürzen führen).
+respektieren mÃ¼ssen, da VLC keine ungÃ¼ltige Syntax mag (diese kÃ¶nnte leicht
+zu AbstÃ¼rzen fÃ¼hren).
 
 </para>
 
@@ -129,7 +129,7 @@ param1="version" &gt; </emphasis> (fehlendes Tag-Ende),
 </para>
 
 <para>
-Gültige Makros sind:
+GÃ¼ltige Makros sind:
 </para>
 
 <itemizedlist>
@@ -181,7 +181,7 @@ Gültige Makros sind:
 </itemizedlist>
 
 <para>
-Für fortgeschrittene Makros können Sie diese Werkzeuge
+FÃ¼r fortgeschrittene Makros kÃ¶nnen Sie diese Werkzeuge
 benutzen:</para>
 
 <itemizedlist>
@@ -192,12 +192,12 @@ RPN-Bewerter (siehe Teil 2)
 
 <listitem><para>
 Stapel: Der Stapel ist ein Platz, an den Sie Nummern
-und Zeichenketten schieben und von dort zurückholen können. Er wird
+und Zeichenketten schieben und von dort zurÃ¼ckholen kÃ¶nnen. Er wird
 mit dem RPN-Bewerter benutzt.
 </para></listitem>
 <listitem><para>
-Lokale Variablen: Sie können dynamische neue
-Variablen erzeugen und deren Werte ändern. Einige lokale Variablen sind
+Lokale Variablen: Sie kÃ¶nnen dynamische neue
+Variablen erzeugen und deren Werte Ã¤ndern. Einige lokale Variablen sind
 vordefiniert:
 
 <itemizedlist>
@@ -230,7 +230,7 @@ vordefiniert:
 
 <para>
 Anmerkung: Die Stapel und die lokalen Variablen
-werden vor der Ausführung der Seite zurückgesetzt.
+werden vor der AusfÃ¼hrung der Seite zurÃ¼ckgesetzt.
 
 </para>
 
@@ -243,26 +243,26 @@ Der RPN-Bewerter
 </title>
 
 <para>
-RPN steht für "umgekehrte polnische Notation" (Reverse Polish Notation)
+RPN steht fÃ¼r "umgekehrte polnische Notation" (Reverse Polish Notation)
 </para>
 
 <sect2><title>
-Einführung
+EinfÃ¼hrung
 </title>
 
 <para>
-RPN kann merkwürdig aussehen, ist aber ein einfacher und schneller Weg,
-um Ausdrücke zu schreiben. Es vermeidet außerdem die Benutzung von ( und ).
+RPN kann merkwÃ¼rdig aussehen, ist aber ein einfacher und schneller Weg,
+um AusdrÃ¼cke zu schreiben. Es vermeidet auÃŸerdem die Benutzung von ( und ).
 </para>
 
 <para>
-Anstatt ( 1 + 2 ) * 5 können Sie einfach 1 2 + 5 * schreiben.
+Anstatt ( 1 + 2 ) * 5 kÃ¶nnen Sie einfach 1 2 + 5 * schreiben.
 </para>
 
 <para>
 Die Idee dahinter ist: Wenn man eine Nummer oder eine Zeichenkette hat, legt man
 sie auf den Stapel. Wenn man einen Operator (wie +) hat, nimmt man die Argumente
-vom Stapel, führt die Operatoren aus und legt das Ergebnis wieder auf den Stapel. Das Ergebnis der RPN-Sequenz ist der oberste Wert des Stapels.
+vom Stapel, fÃ¼hrt die Operatoren aus und legt das Ergebnis wieder auf den Stapel. Das Ergebnis der RPN-Sequenz ist der oberste Wert des Stapels.
 </para>
 
 <para>
@@ -299,12 +299,12 @@ Diese legen das Ergebnis von ST(1) op ST(2) auf den Stapel
 </para></listitem>
 
 <listitem><para>
-Die binären Operatoren: ! (bearbeitet !ST(1)); ^, &amp;, | :
+Die binÃ¤ren Operatoren: ! (bearbeitet !ST(1)); ^, &amp;, | :
 legen das Ergebnis von ST(1) op ST(2) ab
 </para></listitem>
 
 <listitem><para>
-Tests: =, &lt;, &lt;=, &gt;, &gt;= : führen  ST(1) op
+Tests: =, &lt;, &lt;=, &gt;, &gt;= : fÃ¼hren  ST(1) op
 ST(2) aus und legen -1 ab, wenn das Ergebnis wahr oder 0 wenn nicht
 </para>
 </listitem>
@@ -313,7 +313,7 @@ ST(2) aus und legen -1 ab, wenn das Ergebnis wahr oder 0 wenn nicht
 Zeichenketten: strcat legt das Ergebnis von
 'ST(1)ST(2)' ab, strcmp vergleicht ST(1) und ST(2) und legt -1 ab, wenn 
 ST(1)&lt;ST(2), 0 wenn sie gleich sind und 1, wenn nicht. strlen legt die
-Länge von ST(1) ab.
+LÃ¤nge von ST(1) ab.
 </para>
 </listitem>
 
@@ -344,14 +344,14 @@ Das <emphasis>control</emphasis>-Makro
 </title>
 
 <para>
-Wenn Sie eine Seite abrufen, können Sie dieser Argumente durch
+Wenn Sie eine Seite abrufen, kÃ¶nnen Sie dieser Argumente durch
 die URL geben. Beispielsweise: http://host:port/page.html?var=value&amp;var2=value2&amp;...
 Das "control"-Makro gibt einer Seite Bescheid, diese Argumente zu parsen und die erlaubten
-auszuführen. param1 dieses Makros sagt aus, welche Befehle erlaubt sind. Wenn es leer ist,
+auszufÃ¼hren. param1 dieses Makros sagt aus, welche Befehle erlaubt sind. Wenn es leer ist,
 sind alle Befehle erlaubt.
 </para>
 <para>
-Einige Befehle benötigen ein Argument, welches auch über die URL
+Einige Befehle benÃ¶tigen ein Argument, welches auch Ã¼ber die URL
 mitgegeben werden muss.
 
 </para>
@@ -393,7 +393,7 @@ Die URL-Befehle
 <row>
  <entry>next</entry><entry/>
  <entry>>
-    Zum nächsten Wiedergabelistenobjekt gehen
+    Zum nÃ¤chsten Wiedergabelistenobjekt gehen
  </entry>
 </row>
 <row>
@@ -408,7 +408,7 @@ Die URL-Befehle
     mrl (Zeichenkette)
  </entry>
  <entry>>
-    Fügt eine MRL (Media Resource Locator) der Wiedergabeliste hinzu
+    FÃ¼gt eine MRL (Media Resource Locator) der Wiedergabeliste hinzu
  </entry>
 </row>
 <row>
@@ -417,7 +417,7 @@ Die URL-Befehle
     Objekt (Ganzzahl)
  </entry>
  <entry>>
-    Löscht das angegebene Wiedergabelistenobjekt oder die angegebene Liste
+    LÃ¶scht das angegebene Wiedergabelistenobjekt oder die angegebene Liste
  </entry>
 </row>
 <row>
@@ -432,7 +432,7 @@ Die URL-Befehle
         ID (hexadezimal)
     </entry>
  <entry>>
-    Schließt die angegebene Verbindung
+    SchlieÃŸt die angegebene Verbindung
  </entry>
 </row>
 <row>
@@ -446,10 +446,10 @@ Die URL-Befehle
 </table>
 
 <para>
-Beispielsweise können Sie die Ausführung des 
-<command>shutdown</command>-Befehls auf geschützte Seiten (durch eine
-<emphasis>.access</emphasis>-Datei) beschränken, in dem Sie das control-Makro
-in allen ungeschützten Seiten benutzen.
+Beispielsweise kÃ¶nnen Sie die AusfÃ¼hrung des 
+<command>shutdown</command>-Befehls auf geschÃ¼tzte Seiten (durch eine
+<emphasis>.access</emphasis>-Datei) beschrÃ¤nken, in dem Sie das control-Makro
+in allen ungeschÃ¼tzten Seiten benutzen.
 </para>
 </sect2>
 <sect2><title>
@@ -464,7 +464,7 @@ ersetzt, die param1 gespeichert ist und deren Typ durch param2 bestimmt wird.
 <para>
 param1 muss der Name einer existierenden Einstellungsvariablen
 sein. param2 muss der richtige Typ der Variablen sein. Dies kann einer der folgenden sein:
-<emphasis>int</emphasis> (Ganzzahl), <emphasis>float</emphasis> (Fließkommazahl)
+<emphasis>int</emphasis> (Ganzzahl), <emphasis>float</emphasis> (FlieÃŸkommazahl)
 oder <emphasis>string</emphasis> (Zeichenkette). 
 </para>
 
@@ -481,17 +481,17 @@ Das <emphasis>set</emphasis>-Makro
 
 <para>
 Dieses Makro erlaubt Ihnen den Wert einer
-Konfigurationsvariablen einzustellen. Der Name wird über param1 und der
-Typ param2 gesteuert (wie bei get). Der Wert wird der URL, über den in param1
+Konfigurationsvariablen einzustellen. Der Name wird Ã¼ber param1 und der
+Typ param2 gesteuert (wie bei get). Der Wert wird der URL, Ã¼ber den in param1
 angegebenen Namen, entnommen.
 </para>
 
 <para>
 Zum Beispiel: Wenn player.html &lt;vlc
-id="set" param1="sout" param2="string" /&gt; enthält und die URL
+id="set" param1="sout" param2="string" /&gt; enthÃ¤lt und die URL
 <emphasis> http://host:ip/player.html?sout=sout_value</emphasis> ist,
 wird die sout-Variable den Wert "sout_value" erhalten. Wenn die URL nicht
-sout enthält, wird nichts geschehen.
+sout enthÃ¤lt, wird nichts geschehen.
 </para>
 
 </sect2>
@@ -515,7 +515,7 @@ zu kontrollieren.
 
 <para>
 Wenn param1 nicht leer ist, wird es mit dem 
-RPN-Bewerter ausgeführt. Wenn das erste Element auf dem Stapel nicht 0
+RPN-Bewerter ausgefÃ¼hrt. Wenn das erste Element auf dem Stapel nicht 0
 ist, ist der Testwert wahr, sonst unwahr .
 
 </para>
@@ -532,7 +532,7 @@ ist, ist der Testwert wahr, sonst unwahr .
 </para>
 
 <para>
-Sie können auch einfach "if" und "end" benutzen.
+Sie kÃ¶nnen auch einfach "if" und "end" benutzen.
 
 </para>
 
@@ -543,8 +543,8 @@ Das <emphasis>value</emphasis>-Makro
 </title>
 
 <para>
-Wenn param1 nicht leer ist, wird es über den
-RPN-Bewerter ausgeführt. Das Makro ersetzt den Wert des ersten Elements
+Wenn param1 nicht leer ist, wird es Ã¼ber den
+RPN-Bewerter ausgefÃ¼hrt. Das Makro ersetzt den Wert des ersten Elements
 des Stapels.
 </para>
 
@@ -561,7 +561,7 @@ Das <emphasis>foreach,end</emphasis> Makro
 
 <para>
 
-param1 ist der Name der Variable, die für die
+param1 ist der Name der Variable, die fÃ¼r die
 Schleife benutzt wird. param2 ist der Name der Variable, deren Werte
 benutzt werden:
 
@@ -571,7 +571,7 @@ benutzt werden:
 <listitem><para>
 <emphasis>integer</emphasis>: nimmt das
 erste Element des Stapels um ein Set von Ganzzahlen zu erzeugen. Das
-Stapelelement sollte folgendermaßen aussehen:
+Stapelelement sollte folgendermaÃŸen aussehen:
 <emphasis>erste:letzte[:Schritt][,erste2:letzte2[:Schritt2][,...]</emphasis>
 (Beispiel: 1:5:2,6:8:1 wird zu 1,3,5,6,7,8)
 </para></listitem>
@@ -594,7 +594,7 @@ oder "unknown" (unbekannt)
 </para></listitem>
 
 <listitem><para>
-size: die Größe der Datei
+size: die GrÃ¶ÃŸe der Datei
 </para></listitem>
 
 <listitem><para>
@@ -607,29 +607,29 @@ date: das Datum
 
 <listitem><para>
 playlist: ein auf der Wiedergabeliste mit folgenden
-Feldern basierendes Set: current ist 1, wenn das Objekt derzeit ausgewählt
+Feldern basierendes Set: current ist 1, wenn das Objekt derzeit ausgewÃ¤hlt
 ist, sonst 0. index ist der Index-Wert, der von den play oder delete - Befehlen
 benutzt werden kann. name ist der Name des Objekts .
 
 </para></listitem>
 
 <listitem><para>
-"informations": Erzeugt Informationen für den derzeit
+"informations": Erzeugt Informationen fÃ¼r den derzeit
 abgespielten Stream. name ist der Name der Kategorie, value ist dessen Wert,
-info ist ein neues Set, dass Sie erneut parsen können (Unterfelder von info
+info ist ein neues Set, dass Sie erneut parsen kÃ¶nnen (Unterfelder von info
 sind name und value).
 
 </para></listitem>
 
 <listitem><para>
-"hosts": Erzeugt eine Liste von hörenden Hosts.
-Enthält die "id" (interne ID), host, ip und port-Felder.
+"hosts": Erzeugt eine Liste von hÃ¶renden Hosts.
+EnthÃ¤lt die "id" (interne ID), host, ip und port-Felder.
 </para></listitem>
 
 <listitem><para>
-"urls": Erzeugt eine Liste der derzeit verfügbaren
+"urls": Erzeugt eine Liste der derzeit verfÃ¼gbaren
 URLs. Felder sind id, stream (1 wenn wir einen Stream haben, sonst 0),
-url, mime, protected (1 wenn geschützt, sonst 0), used (wird es derzeit
+url, mime, protected (1 wenn geschÃ¼tzt, sonst 0), used (wird es derzeit
 benutzt?).
 </para></listitem>
 
@@ -664,7 +664,7 @@ Set von eingestellten Werten ist.
 
 <para>
 
-Schauen Sie für weitere Details in das share/http
+Schauen Sie fÃ¼r weitere Details in das share/http
 - Verzeichnis der Quellen von VLC...
 </para>
 

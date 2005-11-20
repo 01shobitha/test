@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="cmdline"><title id="tcmdline">
 
 Utilisation de la ligne de commande
@@ -15,7 +15,7 @@ Introduction
 <para>
 
 Un certain nombre d'options ne sont disponibles
-qu'en utilisant la ligne de commande. Elles sont détaillées ici
+qu'en utilisant la ligne de commande. Elles sont dÃ©taillÃ©es ici
 
 .</para>
 
@@ -30,7 +30,7 @@ Ouvrir un flux
 <para>
 
 Les commandes suivantes lancent VLC et ajoutent un
-élément à la liste de lecture
+Ã©lÃ©ment Ã  la liste de lecture
 
 .</para>
 
@@ -42,7 +42,7 @@ Ouvrir un fichier
 
 <para>
 
-Démarrez VLC 
+DÃ©marrez VLC 
 
 :</para>
 
@@ -52,11 +52,11 @@ Démarrez VLC
 
 <para>
 
-Dans la grande majorité des cas, VLC
+Dans la grande majoritÃ© des cas, VLC
 reconnaitra automatiquement le type de fichier, mais vous pouvez
-également lui spécifier quel codec utiliser, avec l'option
-<emphasis>--codec</emphasis>. Par exemple, pour lire my_file.mpg à
-l'aide du codec audio/vidéo "ffmpeg", utilisez 
+Ã©galement lui spÃ©cifier quel codec utiliser, avec l'option
+<emphasis>--codec</emphasis>. Par exemple, pour lire my_file.mpg Ã 
+l'aide du codec audio/vidÃ©o "ffmpeg", utilisez 
 
 :</para>
 
@@ -67,7 +67,7 @@ l'aide du codec audio/vidéo "ffmpeg", utilisez
 <para>
 
  Une liste de tous les codecs audio
-et vidéo supportés par VLC est disponible sur la <ulink url="http://www.videolan.org/vlc/features.html">page des fonctionnalités
+et vidÃ©o supportÃ©s par VLC est disponible sur la <ulink url="http://www.videolan.org/vlc/features.html">page des fonctionnalitÃ©s
 de VLC</ulink>
 
 .</para>
@@ -117,7 +117,7 @@ ou
 
 <para>
 
-où périphérique est le chemin complet à votre
+oÃ¹ pÃ©riphÃ©rique est le chemin complet Ã  votre
 lecteur de DVD ou de CD
 
 .</para>
@@ -126,13 +126,13 @@ lecteur de DVD ou de CD
 
 <sect2><title>
 
-Recevoir un flux réseau
+Recevoir un flux rÃ©seau
 
 </title>
 
 <para>
 
-Pour recevoir un flux unicast UDP (envoyé par VLC ou
+Pour recevoir un flux unicast UDP (envoyÃ© par VLC ou
 par le stream output de VLC), lancez VLC avec
 
 :</para>
@@ -143,7 +143,7 @@ par le stream output de VLC), lancez VLC avec
 
 <para>
 
-Pour recevoir un flux multicast UDP (envoyé par VLC
+Pour recevoir un flux multicast UDP (envoyÃ© par VLC
 ou par le stream output de VLC), lancez VLC avec
 
  :</para>
@@ -176,17 +176,17 @@ Pour recevoir un flux RTSP, lancez VLC avec
 
 <sect1><title>
 
-Sélection des modules
+SÃ©lection des modules
 
 </title>
 
 <para>
 
-VLC essaie de sélectionner l'interface, et les
-modules d'entrée/sortie les plus adaptés parmi ceux qui sont disponibles
-sur votre système, selon le flux à lire. Toutefois, vous pouvez
-également forcer l'utilisation d'un module particulier, avec les
-options suivantes (pour une liste complète des modules, voir la <xref linkend="modules" endterm="tmodules"/> section modules)
+VLC essaie de sÃ©lectionner l'interface, et les
+modules d'entrÃ©e/sortie les plus adaptÃ©s parmi ceux qui sont disponibles
+sur votre systÃ¨me, selon le flux Ã  lire. Toutefois, vous pouvez
+Ã©galement forcer l'utilisation d'un module particulier, avec les
+options suivantes (pour une liste complÃ¨te des modules, voir la <xref linkend="modules" endterm="tmodules"/> section modules)
 
 :</para>
 
@@ -198,8 +198,8 @@ vous permet de choisir le module d'interface
 .</para></listitem>
 <listitem><para><emphasis>--extraintf  &lt;module&gt;</emphasis>
 
-vous permet de sélectionner des interfaces
-supplémentaires qui seront lancées en plus de l'interface
+vous permet de sÃ©lectionner des interfaces
+supplÃ©mentaires qui seront lancÃ©es en plus de l'interface
 principale
 
 .</para></listitem>
@@ -210,17 +210,17 @@ vous permet de choisir la sortie audio
 .</para></listitem>
 <listitem><para><emphasis>--vout  &lt;module&gt;</emphasis>
 
-vous permet de choisir la sortie vidéo
+vous permet de choisir la sortie vidÃ©o
 
 .</para></listitem>
 <listitem><para><emphasis>--filter  &lt;module&gt;</emphasis>
 
-vous permet d'ajouter un filtre vidéo
+vous permet d'ajouter un filtre vidÃ©o
 
 .</para></listitem>
 <listitem><para><emphasis>--memcpy  &lt;module&gt;</emphasis>
 
-vous permet de choisir un module de copie de mémoire
+vous permet de choisir un module de copie de mÃ©moire
 
 
 .</para></listitem>
@@ -249,7 +249,7 @@ Options audio
 <itemizedlist>
 <listitem><para><emphasis>--noaudio</emphasis> 
 
-désactive le son
+dÃ©sactive le son
 
 .</para></listitem>
 <listitem><para><emphasis>--mono</emphasis>
@@ -259,17 +259,17 @@ force le mode audio mono
 .</para></listitem>
 <listitem><para><emphasis>--volume  &lt;entier&gt;</emphasis> 
 
-règle le volume audio
+rÃ¨gle le volume audio
 
 .</para></listitem>
 <listitem><para><emphasis>--aout-rate  &lt;entier&gt;</emphasis>
 
-règle la fréquence de la sortie audio en Hz
+rÃ¨gle la frÃ©quence de la sortie audio en Hz
 
 .</para></listitem>
 <listitem><para><emphasis>--desync  &lt;entier&gt;</emphasis>
 
-compense la désynchronisation audio (ms)
+compense la dÃ©synchronisation audio (ms)
 
 .</para></listitem>
 <listitem><para><emphasis>--headphone</emphasis>
@@ -279,7 +279,7 @@ du casque
 .</para></listitem>
 <listitem><para><emphasis>--headphone-dim</emphasis>
 
- règle la dimension caractéristique du casque
+ rÃ¨gle la dimension caractÃ©ristique du casque
 
 .</para></listitem>
 </itemizedlist>
@@ -288,7 +288,7 @@ du casque
 
 <sect2><title>
 
-Options vidéo
+Options vidÃ©o
 
 </title>
 
@@ -296,31 +296,31 @@ Options vidéo
 
 <listitem><para><emphasis>--novideo</emphasis> 
 
-désactive la vidéo
+dÃ©sactive la vidÃ©o
 
 .</para></listitem>
 
 <listitem><para><emphasis>--greyscale</emphasis>
 
-passe en nuances de gris la vidéo
+passe en nuances de gris la vidÃ©o
 
 .</para></listitem>
 
 <listitem><para><emphasis>--fullscreen</emphasis>
 
-active le mode plein écran
+active le mode plein Ã©cran
 
 .</para></listitem>
 
 <listitem><para><emphasis>--nooverlay</emphasis>
-désactive l'accélération matérielle de la 
-sortie vidéo
+dÃ©sactive l'accÃ©lÃ©ration matÃ©rielle de la 
+sortie vidÃ©o
 
 .</para></listitem>
 
 <listitem><para><emphasis>--width, --height &lt;entier&gt;</emphasis>
 
-règle la taille de la fenêtre vidéo
+rÃ¨gle la taille de la fenÃªtre vidÃ©o
 
 .</para></listitem>
 
@@ -356,19 +356,19 @@ Options de liste de lecture
 
 <listitem><para><emphasis>--playlist</emphasis>
 
-lance la liste de lecture au démarrage
+lance la liste de lecture au dÃ©marrage
 
 .</para></listitem>
 
 <listitem><para><emphasis>--random</emphasis>
 
-les fichiers sont lus indéfiniment et aléatoirement
+les fichiers sont lus indÃ©finiment et alÃ©atoirement
 
 .</para></listitem>
 
 <listitem><para><emphasis>--enqueue</emphasis>
 
-met les items à la queue
+met les items Ã  la queue
 
 .</para></listitem>
 
@@ -384,7 +384,7 @@ la liste de lecture boucle
 
 <sect2><title>
 
-Options réseaux
+Options rÃ©seaux
 
 </title>
 
@@ -392,25 +392,25 @@ Options réseaux
 
 <listitem><para><emphasis>--server-port  &lt;entier&gt;</emphasis>
 
-règle le port UDP
+rÃ¨gle le port UDP
 
 .</para></listitem>
 
-<listitem><para><emphasis>--iface  &lt;chaîne&gt;</emphasis> 
+<listitem><para><emphasis>--iface  &lt;chaÃ®ne&gt;</emphasis> 
 
-spécifie l'interface réseau à utiliser
+spÃ©cifie l'interface rÃ©seau Ã  utiliser
 
 .</para></listitem>
 
-<listitem><para><emphasis>--iface-addr  &lt;chaîne&gt;</emphasis>
+<listitem><para><emphasis>--iface-addr  &lt;chaÃ®ne&gt;</emphasis>
 
-spécifie l'adresse IP de l'interface réseau
+spÃ©cifie l'adresse IP de l'interface rÃ©seau
 
 .</para></listitem>
 
 <listitem><para><emphasis>--mtu  &lt;entier&gt;</emphasis>
 
-spécifie le MTU de l'interface réseau
+spÃ©cifie le MTU de l'interface rÃ©seau
 
 .</para></listitem>
 
@@ -440,25 +440,25 @@ Options de processeur
 
 <listitem><para><emphasis>--nommx</emphasis>
 
-empêche l'utilisation des extensions MMX du CPU
+empÃªche l'utilisation des extensions MMX du CPU
 
 .</para></listitem>
 
 <listitem><para><emphasis>--no3dn</emphasis>
 
-empêche l'utilisation des extensions 3D Now! du CPU
+empÃªche l'utilisation des extensions 3D Now! du CPU
 
 .</para></listitem>
 
 <listitem><para><emphasis>--nommxext</emphasis>
 
-empêche l'utilisation des extensions MMX Ext du CPU
+empÃªche l'utilisation des extensions MMX Ext du CPU
 
 .</para></listitem>
 
 <listitem><para><emphasis>--nosse</emphasis> 
 
-empêche l'utilisation des extensions SSE du CPU
+empÃªche l'utilisation des extensions SSE du CPU
 
 .</para></listitem>
 
@@ -486,51 +486,51 @@ Options diverses
 
 .</para></listitem>
 
-<listitem><para><emphasis>--search-path  &lt;chaîne&gt;</emphasis>
+<listitem><para><emphasis>--search-path  &lt;chaÃ®ne&gt;</emphasis>
 
-spécifie le chemin de recherche
-
-.</para></listitem>
-
-<listitem><para><emphasis>--plugin-path  &lt;chaîne&gt;</emphasis>
-
-spécifie le chemin de recherche des plugins
+spÃ©cifie le chemin de recherche
 
 .</para></listitem>
 
-<listitem><para><emphasis>--dvd  &lt;chaîne&gt;</emphasis> 
+<listitem><para><emphasis>--plugin-path  &lt;chaÃ®ne&gt;</emphasis>
 
-spécifie le périphérique DVD par défaut
+spÃ©cifie le chemin de recherche des plugins
 
 .</para></listitem>
 
-<listitem><para><emphasis>--vcd  &lt;chaîne&gt;</emphasis>
+<listitem><para><emphasis>--dvd  &lt;chaÃ®ne&gt;</emphasis> 
 
-spécifie le périphérique VCD par défaut
+spÃ©cifie le pÃ©riphÃ©rique DVD par dÃ©faut
+
+.</para></listitem>
+
+<listitem><para><emphasis>--vcd  &lt;chaÃ®ne&gt;</emphasis>
+
+spÃ©cifie le pÃ©riphÃ©rique VCD par dÃ©faut
 
 .</para></listitem>
 
 <listitem><para><emphasis>--program  &lt;;entier&gt;</emphasis>
 
-spécifie le programme (SID) (pour les flux multi-programmes, tels les flux satellites)
+spÃ©cifie le programme (SID) (pour les flux multi-programmes, tels les flux satellites)
 
 .</para></listitem>
 
 <listitem><para><emphasis>--audio-type  &lt;entier&gt;</emphasis>
 
-spécifie le type audio par défaut pour les DVDs
+spÃ©cifie le type audio par dÃ©faut pour les DVDs
  
 .</para></listitem>
 
 <listitem><para><emphasis>--audio-channel  &lt;entier&gt;</emphasis>
 
-spécifie le canal audio par défaut pour les DVDs
+spÃ©cifie le canal audio par dÃ©faut pour les DVDs
 
 .</para></listitem>
 
 <listitem><para><emphasis>--spu-channel  &lt;entier&gt;</emphasis>
 
-spécifie le canal de sous-titre par défaut pour les DVDs
+spÃ©cifie le canal de sous-titre par dÃ©faut pour les DVDs
 
 .</para></listitem>
 
@@ -546,9 +546,9 @@ Options d'aide
 
 <itemizedlist>
 
-<listitem><para><emphasis>--verbose  &lt;verbosité&gt;</emphasis>
+<listitem><para><emphasis>--verbose  &lt;verbositÃ©&gt;</emphasis>
 
-spécifie le niveau de verbosité
+spÃ©cifie le niveau de verbositÃ©
 
 .</para></listitem>
 
@@ -560,7 +560,7 @@ vous donne toutes les options disponibles
 
 <listitem><para><emphasis>--longhelp</emphasis> 
 
-affiche l'aide détaillée
+affiche l'aide dÃ©taillÃ©e
 
 .</para></listitem>
 
@@ -578,7 +578,7 @@ affiche la liste des modules disponibles
 
 <listitem><para><emphasis>--module  &lt;module&gt;</emphasis> 
 
-affiche l'aide du module spécifié
+affiche l'aide du module spÃ©cifiÃ©
 
 .</para></listitem>
 

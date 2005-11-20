@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 
 <sect1><title>
 Interface-Module
@@ -6,7 +6,7 @@ Interface-Module
 
 <para>
 Diese Module erlauben Ihnen die Wahl des oder der
-Interfaces, die Sie benutzen möchten (graphische oder
+Interfaces, die Sie benutzen mÃ¶chten (graphische oder
 Kontrollinterfaces).
 </para>
 
@@ -14,7 +14,7 @@ Kontrollinterfaces).
 &always;
 <para>
 Benutzen Sie dieses Interface, wenn Sie <emphasis>kein</emphasis>
-Interface möchten. Dabei müssen Sie nur eine Befehlszeile übergeben.</para>
+Interface mÃ¶chten. Dabei mÃ¼ssen Sie nur eine Befehlszeile Ã¼bergeben.</para>
 
 <para>
 Zum Beispiel:
@@ -28,7 +28,7 @@ Zum Beispiel:
 <sect2><title>gestures</title>
 &always;
 <para>
-Dieses Modul erlaubt Ihnen VLC über Mausgesten
+Dieses Modul erlaubt Ihnen VLC Ã¼ber Mausgesten
 zu steuern.
 </para>
 &options-st;
@@ -36,11 +36,11 @@ zu steuern.
 <listitem>
 <para><emphasis>--gestures-threshold </emphasis>:
 Das Argument, eine Ganzzahl, ist der Umfang
-einer Mausbewegung, der benötigt wird, damit eine Gestik registriert
+einer Mausbewegung, der benÃ¶tigt wird, damit eine Gestik registriert
 wird
 </para></listitem>
 <listitem><para><emphasis>--gestures-button {left,middle,right} </emphasis>:
-Die Taste, die vor einer Geste gedrückt wird
+Die Taste, die vor einer Geste gedrÃ¼ckt wird
 </para>
 </listitem>
 </itemizedlist>
@@ -50,7 +50,7 @@ Die Taste, die vor einer Geste gedrückt wird
 &disabled;
 &linux-only;
 <para>
-Dies ist das Gnome-Interface. Es benötigt die gnome-Bibliotheken
+Dies ist das Gnome-Interface. Es benÃ¶tigt die gnome-Bibliotheken
 (das <emphasis>libgnome32</emphasis>-Paket unter Debian) und -Header (das
 <emphasis>libgnome-dev</emphasis>-Paket unter Debian) zur Kompilierung.
 Achtung: Dieses Interfaces wird nicht mehr gewartet und ist veraltet.
@@ -59,14 +59,14 @@ Achtung: Dieses Interfaces wird nicht mehr gewartet und ist veraltet.
 <itemizedlist>
 <listitem>
 <para><emphasis>--gnome-tooltips, --no-gnome-tooltips </emphasis>:
-Aktiviert die Anzeige von Tooltips (standardmäßig aktiviert)
+Aktiviert die Anzeige von Tooltips (standardmÃ¤ÃŸig aktiviert)
 </para></listitem>
 <listitem><para><emphasis>--gnome-toolbartext, --no-gnome-toolbartext </emphasis>:
-Aktiviert die Anzeige von Texten auf den Knöpfen
-(standardmäßig aktiviert)
+Aktiviert die Anzeige von Texten auf den KnÃ¶pfen
+(standardmÃ¤ÃŸig aktiviert)
 </para></listitem>
 <listitem><para><emphasis>--gnome-prefs-maxh </emphasis>:
-Das Argument ist eine Ganzzahl, die die maximale Höhe
+Das Argument ist eine Ganzzahl, die die maximale HÃ¶he
     von Einstellungsfenstern festlegt 
 </para>
 </listitem>
@@ -76,7 +76,7 @@ Das Argument ist eine Ganzzahl, die die maximale Höhe
 <sect2><title>gtk</title>
 &enabled;
 <para>
-Dies ist das GTK+-Interface. Es benötigt die
+Dies ist das GTK+-Interface. Es benÃ¶tigt die
 gtk-Bibliotheken and -Header zur Kompilierung. Beachten Sie, dass es
 auch unter Windows benutzt werden kann. Achtung: Dieses Interface wird
 nicht mehr gewartet und ist veraltet.
@@ -86,8 +86,8 @@ nicht mehr gewartet und ist veraltet.
 <sect2><title>http</title>
 &always;
 <para>
-Dieses Modul erlaubt Ihnen VLC über einen Webbrowser
-fernzusteuern. Sie können eigene Webseiten erzeugen.
+Dieses Modul erlaubt Ihnen VLC Ã¼ber einen Webbrowser
+fernzusteuern. Sie kÃ¶nnen eigene Webseiten erzeugen.
 </para>
 &options-st;
 <itemizedlist>
@@ -95,9 +95,9 @@ fernzusteuern. Sie können eigene Webseiten erzeugen.
 <para><emphasis>--http-host </emphasis>:
 Das Argument, eine Zeichenkette, gibt die Hostadresse in
 der Form Adresse[:Port] an, wobei die Adresse eine IP-Adresse oder ein DNS-Name
-sein kann und der Port der Port ist, über den das HTTP-Interface verfügbar sein
-wird (standardmäßig 8080). Die standardmäßige Adresse ist localhost, was
-für nahezu jeden in Ordnung sein sollte
+sein kann und der Port der Port ist, Ã¼ber den das HTTP-Interface verfÃ¼gbar sein
+wird (standardmÃ¤ÃŸig 8080). Die standardmÃ¤ÃŸige Adresse ist localhost, was
+fÃ¼r nahezu jeden in Ordnung sein sollte
 </para></listitem>
 <listitem><para><emphasis>--http-src </emphasis>:
 Gibt den Pfad zu den zu liefernden HTML-Seiten an.
@@ -116,7 +116,7 @@ mit vielen Optionen zu steuern.
 &disabled;
 &linux-only;
 <para>
-Dies ist das KDE-Interfacemodul. Sie benötigen die Bibliotheken
+Dies ist das KDE-Interfacemodul. Sie benÃ¶tigen die Bibliotheken
 (das <emphasis>kdelibs3</emphasis>-Paket unter Debian) und die Header
 (das <emphasis>kde-devel</emphasis>-Paket unter Debian) zur Kompilierung.
 Achtung: dieses Interface wird nicht mehr gewartet und ist veraltet.
@@ -135,7 +135,7 @@ Pfad zur <filename>ui.rc</filename>-Datei
 &disabled;
 &linux-only;
 <para>
-Dieses Interfacemodul erlaubt Ihnen VLC über
+Dieses Interfacemodul erlaubt Ihnen VLC Ã¼ber
 eine Fernbedienung zu steuern. Ein lircrc-Beispiel wird mitgeliefert, um Ihnen
 bei der Konfiguration Ihrer eigenen Fernbedienung zu helfen (siehe
 <filename>doc/lirc/example.lircrc</filename>).
@@ -146,21 +146,21 @@ bei der Konfiguration Ihrer eigenen Fernbedienung zu helfen (siehe
 &linux-only;
 <para>
 Dies ist ein textbasiertes Interface, welches die ncurses-Bibliothek
-benutzt. Sie benötigen die ncurses-Header zur Kompilierung 
+benutzt. Sie benÃ¶tigen die ncurses-Header zur Kompilierung 
 (das <emphasis>libncurses5-dev</emphasis>-Paket unter Debian).
 </para></sect2>
 
 <sect2><title>opie</title>
 &disabled;
 <para>
-Dies ist ein Interfaceplugin für die Qt
-Embedded-Bibliothek (für iPaq).
+Dies ist ein Interfaceplugin fÃ¼r die Qt
+Embedded-Bibliothek (fÃ¼r iPaq).
 </para></sect2>
 
 <sect2><title>qt</title>
 &disabled;
 <para>
-Das ist das QT-Intefacemodul. Sie benötigen die Bibliotheken
+Das ist das QT-Intefacemodul. Sie benÃ¶tigen die Bibliotheken
 (das <emphasis>libqt2</emphasis>-Paket unter Debian) und die Header
 (das <emphasis>libqt-dev</emphasis>-Paket unter Debian) zur Kompilierung.
 Achtung: dieses Interface wird nicht mehr gewartet und ist veraltet.
@@ -170,8 +170,8 @@ Achtung: dieses Interface wird nicht mehr gewartet und ist veraltet.
 &always;
 <para>
 Dies ist das Fernbedienungsinterfacemodul. Es erlaubt
-Ihnen VLC über Befehle (wie <emphasis>play</emphasis>,
-<emphasis>stop</emphasis>, etc.) oder über ein Skript zu steuern. Dieses Interface
+Ihnen VLC Ã¼ber Befehle (wie <emphasis>play</emphasis>,
+<emphasis>stop</emphasis>, etc.) oder Ã¼ber ein Skript zu steuern. Dieses Interface
 ist textbasiert, sodass Sie sie benutzen sollten, wenn Sie sich im console-Modus
 befinden.
 </para>
@@ -180,11 +180,11 @@ befinden.
 <listitem>
 <para><emphasis>--rc-show-pos, --no-rc-show-pos </emphasis>:
 Legt fest, ob die Position im Stream angezeigt werden soll
-(standardmäßig deaktiviert)
+(standardmÃ¤ÃŸig deaktiviert)
 </para></listitem>
 <listitem><para><emphasis>--fake-tty, --no-fake-tty </emphasis>:
 Aktiviert oder deaktiviert die Emulation eines virtuellen
-TTY-Terminals (standardmäßig deaktiviert)
+TTY-Terminals (standardmÃ¤ÃŸig deaktiviert)
 </para>
 </listitem>
 </itemizedlist>
@@ -194,7 +194,7 @@ TTY-Terminals (standardmäßig deaktiviert)
 &enabled;
 <para>
 Dieses Skins-Interfacemodul arbeitet unter Win32
-und X11. Sie können Ihre eigenen Skins sehr einfach mit XML-Dateien erzeugen.
+und X11. Sie kÃ¶nnen Ihre eigenen Skins sehr einfach mit XML-Dateien erzeugen.
 </para>
 &options-st;
 <itemizedlist>
@@ -209,12 +209,12 @@ und X11. Sie können Ihre eigenen Skins sehr einfach mit XML-Dateien erzeugen.
   </para></listitem>
   <listitem><para><emphasis>--show_in_tray, --noshow_in_tray</emphasis>:
     Legt fest, ob das Programm in der Systembar
-     angezeigt werden muss oder nicht (standardmäßig deaktiviert).
+     angezeigt werden muss oder nicht (standardmÃ¤ÃŸig deaktiviert).
   </para></listitem>
   <listitem><para><emphasis>
 	--show_in_taskbar, --noshow_in_taskbar</emphasis>:
     Legt fest, ob das Programm in der Taskbar
-     anzeigt werden muss oder nicht (standardmäßig deaktiviert).
+     anzeigt werden muss oder nicht (standardmÃ¤ÃŸig deaktiviert).
   </para>
  </listitem>
 </itemizedlist>
@@ -224,7 +224,7 @@ und X11. Sie können Ihre eigenen Skins sehr einfach mit XML-Dateien erzeugen.
 &enabled;
 <para>
 Das wxWindows-Interface ist eine portierbares Interface, die
-derzeit unter GNU/Linux und Windows läuft. Es ist das derzeit aktuellste graphische
+derzeit unter GNU/Linux und Windows lÃ¤uft. Es ist das derzeit aktuellste graphische
 Interface unter Windows und GNU/Linux.
 </para></sect2>
 </sect1>

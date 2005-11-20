@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 
 <sect1><title>
 Zugriffsmodule
@@ -7,7 +7,7 @@ Zugriffsmodule
 <para>
 Diese Module erlauben VLC Streams aus 
 unterschiedlichen Quellen zu lesen. VLC versucht, dass am Besten passende
-Modul zur Laufzeit zu wählen. Sie können aber auch VLC mit der folgenden
+Modul zur Laufzeit zu wÃ¤hlen. Sie kÃ¶nnen aber auch VLC mit der folgenden
 Option zur Benutzung eines bestimmten zwingen:
 <emphasis>--access modulename</emphasis></para>
 
@@ -18,16 +18,16 @@ Dies ist der Audio-CD-Input. Wenn Sie
 ausreichend aktuelle Versionen von libvcdinfo (vom <ulink
 url="http://www.vcdimager.org/index.phtml">vcdimager</ulink>) und
 <ulink url="http://www.gnu.org/software/libcdio">libcdio</ulink> haben,
-erhalten Sie derzeit das neuere navigationsfähige Plugin. Wenn libcdio ausgereifter
-wird und mehr Betriebssysteme unterstützt, wird das ältere Plugin verschwinden. Die
+erhalten Sie derzeit das neuere navigationsfÃ¤hige Plugin. Wenn libcdio ausgereifter
+wird und mehr Betriebssysteme unterstÃ¼tzt, wird das Ã¤ltere Plugin verschwinden. Die
 Datei <filename>doc/intf-vcd.txt</filename> in den Quellen von VLC gibt detailiertere
-Informationen über dieses Plugin.
+Informationen Ã¼ber dieses Plugin.
 </para></sect2>
 
 <sect2><title>dvb</title>
 &disabled;
 <para><emphasis>
-Nur für GNU/Linux
+Nur fÃ¼r GNU/Linux
 </emphasis></para>
 <para>
 Dieses Modul erlaubt das Lesen von DVB-S, DVB-T
@@ -41,7 +41,7 @@ vorhanden ist.
 &enabled;
 <para>
 Dies ist das alte DVD Zugriffsmodul. Es benutzt
-<emphasis>libdvdcss</emphasis> zur DVD-Entschlüsselung (siehe
+<emphasis>libdvdcss</emphasis> zur DVD-EntschlÃ¼sselung (siehe
 <ulink url="http://developers.videolan.org/libdvdcss/">libdvdcss
 Seite</ulink>).
 
@@ -50,8 +50,8 @@ Seite</ulink>).
 <sect2><title>dvdplay</title>
 &enabled;
 <para>
-Dies ist das übliche DVD-Zugriffsmodul. Es benötigt
-<emphasis>libdvdcss</emphasis> zur DVD-Entschlüsselung (siehe <ulink
+Dies ist das Ã¼bliche DVD-Zugriffsmodul. Es benÃ¶tigt
+<emphasis>libdvdcss</emphasis> zur DVD-EntschlÃ¼sselung (siehe <ulink
 url="http://developers.videolan.org/libdvdcss/">libdvdcss Seite</ulink>)
 und <emphasis>libdvdplay</emphasis> zur DVD-Navigation (siehe <ulink
 url="http://developers.videolan.org/libdvdplay/">libdvdplay</ulink>
@@ -66,14 +66,14 @@ Dies ist eine Alternative zu den vorherigen. Es
 benutzt <emphasis>libdvdread</emphasis> zum Lesen der DVDs (siehe
 <ulink url="http://www.dtek.chalmers.se/groups/dvd/downloads.shtml">
 Ogle Downloadseite</ulink>) und <emphasis>libdvdcss</emphasis> zur
-DVD-Entschlüsselung (siehe <ulink url="http://developers.videolan.org/libdvdcss/">
+DVD-EntschlÃ¼sselung (siehe <ulink url="http://developers.videolan.org/libdvdcss/">
 libdvdcss Seite</ulink>).
 </para>
 </sect2>
 
 <sect2><title>dshow</title>
 &enabled;
-<para><emphasis>Nur für Microsoft Windows</emphasis></para>
+<para><emphasis>Nur fÃ¼r Microsoft Windows</emphasis></para>
 <para>
 Dieses Modul erlaubt VLC Eingangskarten auszulesen, die einen
 DirectShow-Treiber haben. Die meisten Webcams und Zugangskarten haben
@@ -85,14 +85,14 @@ solch einen Treiber.
 &always;
 <para>
 Dies sind Standardeingangsmodule.
-Der HTTP-Input kann für Video On Demand benutzt werden.
+Der HTTP-Input kann fÃ¼r Video On Demand benutzt werden.
 
 </para></sect2>
 
 <sect2><title>pvr</title>
 &disabled;
 <para><emphasis>
-Nur für GNU/Linux
+Nur fÃ¼r GNU/Linux
 </emphasis></para>
 <para>
 Diese Module erlauben das Lesen von Hauppauge PVR - Karten.
@@ -102,7 +102,7 @@ Diese Module erlauben das Lesen von Hauppauge PVR - Karten.
 <sect2><title>rstp/rtp/sdp (livedotcom)</title>
 &enabled;
 <para>
-Dieses Modul erlaubt das Lesen von VOD-Streams über das RTSP-Protokoll.
+Dieses Modul erlaubt das Lesen von VOD-Streams Ã¼ber das RTSP-Protokoll.
 Es benutzt die liveMedia-Bibliothek von
 <ulink url="http://live.com/">live.com</ulink>.
 </para></sect2>
@@ -111,8 +111,8 @@ Es benutzt die liveMedia-Bibliothek von
 &disabled;
 <para>
 Dies ist ein Eingangsmodul, das direktes Lesen von Daten
-einer Hauppauge WinTV Nova - Karte unter GNU/Linux ermöglicht.
-Es benötigt die Version 0.9.4, verfügbar unter
+einer Hauppauge WinTV Nova - Karte unter GNU/Linux ermÃ¶glicht.
+Es benÃ¶tigt die Version 0.9.4, verfÃ¼gbar unter
 <ulink url="http://www.linuxtv.org/">linuxtv.org</ulink>.
 </para></sect2>
 
@@ -120,13 +120,13 @@ Es benötigt die Version 0.9.4, verfügbar unter
 &enabled;
 <para>
 Dieses Modul erlaubt Ihnen die Namen und Adressen
-der Streams zu erhalten, die über das SLP-Protokoll angekündigt werden.
+der Streams zu erhalten, die Ã¼ber das SLP-Protokoll angekÃ¼ndigt werden.
 </para></sect2>
 
 <sect2><title>v4l</title>
 &disabled;
 <para><emphasis>
-Nur für GNU/Linux
+Nur fÃ¼r GNU/Linux
 </emphasis></para>
 <para>
 Dieses Modul erlaubt Ihnen Video4Linux - Streams
@@ -142,10 +142,10 @@ Dieses Modul ist der VideoCD-Eingang. Wenn Sie
 ausreichend neue Versionen von libvcdinfo (von <ulink
 url="http://www.vcdimager.org/index.phtml">vcdimager</ulink>) und 
 <ulink url="http://www.gnu.org/software/libcdio">libcdio</ulink> haben,
-werden Sie das neuere Plugin mit Navigationsunterstützung erhalten.
-Wenn libcdio ausgereifter wird und mehr Betriebssysteme unterstützt, wird
+werden Sie das neuere Plugin mit NavigationsunterstÃ¼tzung erhalten.
+Wenn libcdio ausgereifter wird und mehr Betriebssysteme unterstÃ¼tzt, wird
 das alte Plugin verschwinden. Die Datei <filename>doc/intf-vcd.txt</filename>
-enthält detailierte Informationen über dieses Plugin.
+enthÃ¤lt detailierte Informationen Ã¼ber dieses Plugin.
 </para></sect2>
 
 </sect1>

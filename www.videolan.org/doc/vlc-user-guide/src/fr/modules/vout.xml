@@ -1,30 +1,30 @@
-<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 
 <sect1><title>
-Modules de sortie vidéo
+Modules de sortie vidÃ©o
 </title>
 
 <para>
-Les modules de sortie vidéo permettent d'afficher de la vidéo sur votre
-écran. Au lancement, VLC essaie de deviner le module de sortie vidéo le plus adapté à votre
-système. Si vous désirez toutefois forcer un module particulier, lancez VLC avec l'option:
+Les modules de sortie vidÃ©o permettent d'afficher de la vidÃ©o sur votre
+Ã©cran. Au lancement, VLC essaie de deviner le module de sortie vidÃ©o le plus adaptÃ© Ã  votre
+systÃ¨me. Si vous dÃ©sirez toutefois forcer un module particulier, lancez VLC avec l'option:
 --vout modulename
 </para>
 
 <sect2><title>directx</title>
 <para><emphasis>
-Activé par défaut sur Windows
+ActivÃ© par dÃ©faut sur Windows
 </emphasis></para>
 <para><emphasis>
 Pour Windows seulement
 </emphasis></para>
 <para>
-Cette sortie vidéo utilise les librairies Microsoft 
-Direct X. Elle est recommandée sous Windows.
+Cette sortie vidÃ©o utilise les librairies Microsoft 
+Direct X. Elle est recommandÃ©e sous Windows.
 </para>
 <para>
 Vous pouvez indiquer le chemin des librairies et
-en-têtes DirectX, avec l'option <command>--with-directx=PATH</command>
+en-tÃªtes DirectX, avec l'option <command>--with-directx=PATH</command>
 du script de configuration.
 </para>
 </sect2>
@@ -32,35 +32,35 @@ du script de configuration.
 <sect2><title>x11</title>
 &enabled;
 <para><emphasis>
-Seulement sur systèmes Unix avec serveur X11
+Seulement sur systÃ¨mes Unix avec serveur X11
 </emphasis></para>
 <para>
-Ceci est la sortie vidéo X11 basique.
+Ceci est la sortie vidÃ©o X11 basique.
 Elle ne requiert pour fonctionner qu'un serveur X11. Vous
-aurez besoin des en-têtes xlibs pour la compiler (paquetage
-<emphasis>xlibs-dev</emphasis> sur le système Debian GNU/Linux)
+aurez besoin des en-tÃªtes xlibs pour la compiler (paquetage
+<emphasis>xlibs-dev</emphasis> sur le systÃ¨me Debian GNU/Linux)
 </para>
 &options-st;
 <itemizedlist>
 <listitem>
 <para>--x11-display &lt;string&gt;
-nom du display X11 à utiliser
+nom du display X11 Ã  utiliser
 </para>
 </listitem>
 <listitem>
 <para><emphasis>--x11-altfullscreen, --no-x11-altfullscreen </emphasis> :
-mode plein écran alternatif, pour surpasser les gestionnaires de fenêtres (désactivé par défaut)
-(standardmäßig deaktiviert)
+mode plein Ã©cran alternatif, pour surpasser les gestionnaires de fenÃªtres (dÃ©sactivÃ© par dÃ©faut)
+(standardmÃ¤ÃŸig deaktiviert)
 </para>
 </listitem>
 <listitem>
 <para><emphasis>--x11-shm, --no-x11-shm </emphasis>:
-utiliser la mémoire partagée (activé par défaut)
+utiliser la mÃ©moire partagÃ©e (activÃ© par dÃ©faut)
 </para>
 </listitem>
 <listitem>
 <para><emphasis>--x11-xineramascreen &lt;integer&gt; </emphasis>:
-permet de choisir l'écran qui sera utilisé en mode plein écran, en xinerama
+permet de choisir l'Ã©cran qui sera utilisÃ© en mode plein Ã©cran, en xinerama
 </para>
 </listitem>
 </itemizedlist>
@@ -70,37 +70,37 @@ permet de choisir l'écran qui sera utilisé en mode plein écran, en xinerama
 &enabled;
 &linux-only;
 <para>
-Cette sortie vidéo, qui utilise l'accélération
-matérielle pour la transformation YUV et la mise à l'échelle, nécessite
-une carte vidéo supportant xvidéo. (C'est le cas de presque toutes les
+Cette sortie vidÃ©o, qui utilise l'accÃ©lÃ©ration
+matÃ©rielle pour la transformation YUV et la mise Ã  l'Ã©chelle, nÃ©cessite
+une carte vidÃ©o supportant xvidÃ©o. (C'est le cas de presque toutes les
 cartes modernes).
 </para>
 &options-st;
 <itemizedlist>
 <listitem>
 <para><emphasis>--xvideo-display &lt;string&gt; </emphasis>:
-nom du display X11 à utiliser
+nom du display X11 Ã  utiliser
 </para>
 </listitem>
 <listitem>
 <para><emphasis>--xvideo-adaptor &lt;integer&gt; </emphasis>:
-numéro de l'adaptateur xvideo
+numÃ©ro de l'adaptateur xvideo
 </para>
 </listitem>
 <listitem>
 <para><emphasis>--xvideo-altfullscreen, --no-xvideo-altfullscreen </emphasis>:
-mode plein écran alternatif, pour surpasser les gestionnaires
-de fenêtres (désactivé par défaut)
+mode plein Ã©cran alternatif, pour surpasser les gestionnaires
+de fenÃªtres (dÃ©sactivÃ© par dÃ©faut)
 </para>
 </listitem>
 <listitem>
 <para><emphasis>--xvideo-shm, --no-xvideo-shm </emphasis>:
-utiliser la mémoire partagée (activé par défaut)
+utiliser la mÃ©moire partagÃ©e (activÃ© par dÃ©faut)
 </para>
 </listitem>
 <listitem>
 <para><emphasis>--xvideo-xineramascreen &lt;integer&gt; </emphasis>:
-permet de choisir l'écran qui sera utilisé en mode plein écran, en xinerama
+permet de choisir l'Ã©cran qui sera utilisÃ© en mode plein Ã©cran, en xinerama
 </para>
 </listitem>
 <listitem>
@@ -114,8 +114,8 @@ format de chroma XVimage
 <sect2><title>sdl</title>
 &enabled;
 <para>
- Cette sortie vidéo utilise les librairies SDL. 
-Vous avez besoin d'une version supérieure ou égale à 1.1.6 de ces librairies
+ Cette sortie vidÃ©o utilise les librairies SDL. 
+Vous avez besoin d'une version supÃ©rieure ou Ã©gale Ã  1.1.6 de ces librairies
 </para>
 <para>
 Vous pouvez indiquer le chemin du programme
@@ -127,34 +127,34 @@ Vous pouvez indiquer le chemin du programme
 
 <sect2><title>wingdi</title>
 <para><emphasis>
-Activé par défaut sur Windows
+ActivÃ© par dÃ©faut sur Windows
 </emphasis></para>
 <para><emphasis>
 Pour Windows seulement
 </emphasis></para>
 <para>
-Cette sortie vidéo utilise la bibliothèque GDI. Elle est connçue
-pour les utilisateurs n'ayant pas Direct X. Ses performances étant mauvaises, ne
+Cette sortie vidÃ©o utilise la bibliothÃ¨que GDI. Elle est connÃ§ue
+pour les utilisateurs n'ayant pas Direct X. Ses performances Ã©tant mauvaises, ne
 l'utilisez pas si vous pouvez utiliser DirectX.
 </para>
 </sect2>
 
 <sect2><title>fb</title>
 <para><emphasis>
-Activé par défaut sur GNU/Linux
+ActivÃ© par dÃ©faut sur GNU/Linux
 </emphasis></para>
 <para><emphasis>
 Pour GNU/Linux seulement
 </emphasis></para>
 <para>
-Cette sortie vidéo utilise le framebuffer. Vous
+Cette sortie vidÃ©o utilise le framebuffer. Vous
 devez activer le support du framebuffer dans votre noyau Linux pour l'utiliser.
 </para>
 &options-st;
 <itemizedlist>
 <listitem>
 <para><emphasis>--fbdev &lt;string&gt; </emphasis>:
-périphérique du framebuffer (la valeur par défaut est /dev/fb0)
+pÃ©riphÃ©rique du framebuffer (la valeur par dÃ©faut est /dev/fb0)
 </para>
 </listitem>
 </itemizedlist>
@@ -163,8 +163,8 @@ périphérique du framebuffer (la valeur par défaut est /dev/fb0)
 <sect2><title>glide</title>
 &disabled;
 <para>
-Cette sortie vidéo utilise les librairies Glide, 
-qui fournissent une accélération matérielle pour les cartes 3Dfx).
+Cette sortie vidÃ©o utilise les librairies Glide, 
+qui fournissent une accÃ©lÃ©ration matÃ©rielle pour les cartes 3Dfx).
 </para>
 <para>
 Vous pouvez indiquer le chemin de la librairie, avec
@@ -177,7 +177,7 @@ l'option <command>--with-glide=PATH</command> du script de configuration si vous
 Pour GNU/Linux seulement
 </emphasis></para>
 <para>
-Ce module permet une accélération matérielle avec les 
+Ce module permet une accÃ©lÃ©ration matÃ©rielle avec les 
 cartes Matrox sous GNU/Linux.
 </para></sect2>
 
@@ -188,8 +188,8 @@ cartes Matrox sous GNU/Linux.
 <sect2><title>aa</title>
 &disabled;
 <para>
-Cette sortie vidéo affiche de l'ASCII art, en 
-utilisant la bibliothèque aalib. Vous avez besoin des en-têtes aalib
+Cette sortie vidÃ©o affiche de l'ASCII art, en 
+utilisant la bibliothÃ¨que aalib. Vous avez besoin des en-tÃªtes aalib
 (paquet <emphasis>aalib1-dev</emphasis> sous Debian GNU/Linux) pour
 la compilation.
 </para>
@@ -200,7 +200,7 @@ la compilation.
 <para><emphasis>
 Pour GNU/Linux seulement
 </emphasis></para><para>
-Cette sortie vidéo utilise la librairie SVGAlib.
+Cette sortie vidÃ©o utilise la librairie SVGAlib.
 </para></sect2>
 
 <sect2><title>qte</title>
@@ -208,8 +208,8 @@ Cette sortie vidéo utilise la librairie SVGAlib.
 <para><emphasis>
 Pour iPaq seulement
 </emphasis></para><para>
-Cette sortie vidéo utilise QT Embedded, une 
-librairie graphique spécifique à l'iPaq.
+Cette sortie vidÃ©o utilise QT Embedded, une 
+librairie graphique spÃ©cifique Ã  l'iPaq.
 .</para> </sect2>
 
 </sect1>

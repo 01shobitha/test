@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 
 <sect1><title>
-Démultiplexeurs
+DÃ©multiplexeurs
 </title>
 
 <para>
-Dans un flux, les signaux vidéo et audio sont
-toujours inclus dans un format "conteneur". Les démultiplexeurs
-extraient les flux de ce conteneur et les envoient aux décodeurs
+Dans un flux, les signaux vidÃ©o et audio sont
+toujours inclus dans un format "conteneur". Les dÃ©multiplexeurs
+extraient les flux de ce conteneur et les envoient aux dÃ©codeurs
 .</para>
 
 <para>
-Par exemple, un fichier AVI peut contenir une vidéo
-encodée en MPEG-4, ou une vidéo non compressée. AVI est seulement un
+Par exemple, un fichier AVI peut contenir une vidÃ©o
+encodÃ©e en MPEG-4, ou une vidÃ©o non compressÃ©e. AVI est seulement un
 format de stockage, pas un format de compression
 .</para>
 
@@ -26,13 +26,13 @@ Ce module vous permet de lire les fichiers
 <itemizedlist>
  <listitem>
   <para><emphasis>--avi-interleaved, --no-avi-interleaved </emphasis>:
-   Active ou désactive le mode entrelacé (desactivé par défaut)
+   Active ou dÃ©sactive le mode entrelacÃ© (desactivÃ© par dÃ©faut)
   </para>
  </listitem>
  <listitem>
   <para><emphasis>--avi-index, --no-avi-index </emphasis>:
-   Force la création d'un index, ce qui peut aider
-     la lecture de flux buggés (désactivé par défaut)
+   Force la crÃ©ation d'un index, ce qui peut aider
+     la lecture de flux buggÃ©s (dÃ©sactivÃ© par dÃ©faut)
   </para>
  </listitem>
 </itemizedlist>
@@ -90,8 +90,8 @@ format Matroska
 <itemizedlist>
 <listitem>
 <para><emphasis>--mkv-seek-percent, --no-mkv-seek-percent</emphasis> :
-   Avec cette option (activée par défaut), le 
-	déplacement dans le fichier se fait selon le pourcentage et non suivant le temps
+   Avec cette option (activÃ©e par dÃ©faut), le 
+	dÃ©placement dans le fichier se fait selon le pourcentage et non suivant le temps
    
 </para>
 </listitem>
@@ -102,18 +102,18 @@ format Matroska
 &always;
 <para>
 Ces modules vous permettent de lire les flux
-encapsulés en MPEG2-Program Stream ou Transport Stream
+encapsulÃ©s en MPEG2-Program Stream ou Transport Stream
 .</para>
 &options-st;  
 <itemizedlist>
 <listitem>
 <para><emphasis>--vls-backward-compat, --no-vls-backward-compat</emphasis> :
-    Activez cette option pour pouvoir lire des flux MPEG 2 TS diffusés
-   par des VLS antérieurs 0.4
+    Activez cette option pour pouvoir lire des flux MPEG 2 TS diffusÃ©s
+   par des VLS antÃ©rieurs 0.4
   </para></listitem>
   <listitem><para><emphasis>--buggy-psi, --no-buggy-psi (ts module) </emphasis>:
-    Activez cette option pour améliorer la 
-     prise en charge des flux ayant des PSI bugguées.
+    Activez cette option pour amÃ©liorer la 
+     prise en charge des flux ayant des PSI bugguÃ©es.
   </para>
  </listitem>
 </itemizedlist>

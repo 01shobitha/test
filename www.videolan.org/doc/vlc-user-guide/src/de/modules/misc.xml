@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 
 <sect1><title>
-Betriebssystemunterstützungsmodule
+BetriebssystemunterstÃ¼tzungsmodule
 </title>
 
 <para>
-Die folgenden Module fügen Unterstützung für
+Die folgenden Module fÃ¼gen UnterstÃ¼tzung fÃ¼r
 verschiedene Betriebsysteme hinzu.
 
 </para>
@@ -13,14 +13,14 @@ verschiedene Betriebsysteme hinzu.
 <sect2>
 <title>macosx</title>
 <para>
-Dies ist das MacOS X Unterstützungsmodul inklusive eines nativen
+Dies ist das MacOS X UnterstÃ¼tzungsmodul inklusive eines nativen
 Interfaces.
 
 </para></sect2>
 
 <sect2><title>qnx</title>
 <para>
-Dies ist das QNX RTOS Unterstützungsmodul.
+Dies ist das QNX RTOS UnterstÃ¼tzungsmodul.
 
 </para></sect2>
 
@@ -33,7 +33,7 @@ Verschiedenes
 
 <para>
 Diese Sektion beschreibt einige weitere Module, die zu
-keiner bisher beschriebenen Kategorie gehören.
+keiner bisher beschriebenen Kategorie gehÃ¶ren.
 
 </para>
 
@@ -47,7 +47,7 @@ DVD erlaubt.
 </para>
 
 <para>
-Schauen Sie für weitere Details in in die <xref
+Schauen Sie fÃ¼r weitere Details in in die <xref
 linkend="cmdline" endterm="tcmdline"/>-Sektion.
 
 </para>
@@ -57,7 +57,7 @@ linkend="cmdline" endterm="tcmdline"/>-Sektion.
 <sect2><title>test-suite</title>
 &disabled;
 <para>
-Dies erzeugt ein spezielles VLC für Testzwecke.
+Dies erzeugt ein spezielles VLC fÃ¼r Testzwecke.
 
 </para>
 </sect2>
@@ -75,7 +75,7 @@ ein VLC-basiertes Mozillaplugin erstellt.
 <sect2><title>xosd</title>
 &disabled;
 <para><emphasis>
-Nur für Unix
+Nur fÃ¼r Unix
 </emphasis></para>
 
 <para>
@@ -94,13 +94,13 @@ Kompilierungsoptionen
 
 <para>
 Es gibt einige wenige Optionen, die Sie einstellen
-können, wenn Sie das configure-Skript ausführen, die sich nicht auf Module
+kÃ¶nnen, wenn Sie das configure-Skript ausfÃ¼hren, die sich nicht auf Module
 beziehen.
 
 </para>
 
 <para>
-Sie können einen Blick auf diese werfen, indem Sie
+Sie kÃ¶nnen einen Blick auf diese werfen, indem Sie
 folgendes eingeben:</para>
 
 <screen>
@@ -108,14 +108,14 @@ folgendes eingeben:</para>
 </screen>
 
 <para>
-Sie können beispielsweise alle Installationsverzeichnisse,
-das System wofür VLC erstellt wird (falls nicht richtig erkannt),
+Sie kÃ¶nnen beispielsweise alle Installationsverzeichnisse,
+das System wofÃ¼r VLC erstellt wird (falls nicht richtig erkannt),
 usw. kontrollieren.
 </para>
 
 <para>
-Sie können auch die Aktivierung oder Deaktivierung
-einiger Optimierungen wählen.
+Sie kÃ¶nnen auch die Aktivierung oder Deaktivierung
+einiger Optimierungen wÃ¤hlen.
 </para>
 
 <sect2><title>--disable-plugins</title>
@@ -123,7 +123,7 @@ einiger Optimierungen wählen.
 <para>
 Wenn Sie dies aktivieren werden keine Plugins aktiviert.
 Dies ist wirklich nicht empfehlenswert, weil Sie ein sehr armes VLC erhalten
-werden. Sie sollten dies nur für Testzwecke benutzen.
+werden. Sie sollten dies nur fÃ¼r Testzwecke benutzen.
 
 </para>
 

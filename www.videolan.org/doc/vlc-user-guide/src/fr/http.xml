@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="http"><title id="thttp">
-L'interface de contrôle HTTP
+L'interface de contrÃ´le HTTP
 </title>
 
 <sect1><title>Introduction</title>
@@ -11,19 +11,19 @@ Ce page n'est pas complet
 
 .</emphasis></para>
 
-<sect2><title>Présentation</title>
+<sect2><title>PrÃ©sentation</title>
 
 <para>
 
 VLC inclut un petit serveur HTTP, qui lui permet 
-de diffuser en HTTP, mais également de proposer une interface de contrôle
-à distance utilisant HTTP
+de diffuser en HTTP, mais Ã©galement de proposer une interface de contrÃ´le
+Ã  distance utilisant HTTP
 
 .</para>
 
 <para>
 
-Pour démarrer VLC avec l'interface HTTP, faites 
+Pour dÃ©marrer VLC avec l'interface HTTP, faites 
 
 :</para>
 
@@ -33,23 +33,23 @@ Pour démarrer VLC avec l'interface HTTP, faites
 
 <para>
 
-L'interface HTTP se mettra en écoute sur host:port
-(localhost:8080 par défaut), et reproduira la structure de /directory
-sur http://host:port/ ( rép_source_vlc/share/http par défaut)
+L'interface HTTP se mettra en Ã©coute sur host:port
+(localhost:8080 par dÃ©faut), et reproduira la structure de /directory
+sur http://host:port/ ( rÃ©p_source_vlc/share/http par dÃ©faut)
 
 .</para>
 
 <para>
 
 VLC est fourni avec un certain nombre de fichiers
-qui devraient suffire pour des besoins génériques. La suite de ce
+qui devraient suffire pour des besoins gÃ©nÃ©riques. La suite de ce
 chapitre explique comment personnaliser ces pages
 
 .</para>
 
 <para>
 
-Certains fichiers sont traités spécialement
+Certains fichiers sont traitÃ©s spÃ©cialement
  
 :</para>
 
@@ -57,7 +57,7 @@ Certains fichiers sont traités spécialement
 
 <listitem><para>
 
-Les fichiers commençant par '.' ne sont pas exportés
+Les fichiers commenÃ§ant par '.' ne sont pas exportÃ©s
 
 .</para></listitem>
 
@@ -65,17 +65,17 @@ Les fichiers commençant par '.' ne sont pas exportés
 <listitem><para>
 
 Le fichier '.access' sera ouvert. L'interface HTTP
-va chercher dans la première ligne un login/mot de passe (écrit sous la
-forme login:mot_de_passe). Ce couple sera utilisé pour protéger tous les
-fichiers de ce répertoire. Attention: seuls les fichiers du répertoire
-seront protégés (les fichiers des sous-répertoires ne le seront pas.).
+va chercher dans la premiÃ¨re ligne un login/mot de passe (Ã©crit sous la
+forme login:mot_de_passe). Ce couple sera utilisÃ© pour protÃ©ger tous les
+fichiers de ce rÃ©pertoire. Attention: seuls les fichiers du rÃ©pertoire
+seront protÃ©gÃ©s (les fichiers des sous-rÃ©pertoires ne le seront pas.).
 
 </para></listitem>
 
 
 <listitem><para>
 
-Le fichier &lt;rép&gt; sera exporté en tant que
+Le fichier &lt;rÃ©p&gt; sera exportÃ© en tant que
 &lt;rep&gt; et &lt;rep&gt;/ mais pas en tant que index.html
 
 .</para></listitem>
@@ -85,7 +85,7 @@ Le fichier &lt;rép&gt; sera exporté en tant que
 <para>
 
 Le type MIME est choisi selon l'extension du fichier
-et ne peut pas être forcé ou modifié pour un fichier particulier.
+et ne peut pas Ãªtre forcÃ© ou modifiÃ© pour un fichier particulier.
 Les fichiers d'extension inconnue seront servis avec le type MIME
 "application/octet-stream"
 
@@ -93,8 +93,8 @@ Les fichiers d'extension inconnue seront servis avec le type MIME
 
 <para>
 
-Essayez d'éviter l'export de gros fichiers. En
-effet, chaque page est tout d'abord chargée en mémoire avant l'envoi,
+Essayez d'Ã©viter l'export de gros fichiers. En
+effet, chaque page est tout d'abord chargÃ©e en mÃ©moire avant l'envoi,
 donc soyez prudents...
 
 </para>
@@ -112,9 +112,9 @@ Macros VLC
 <para> 
 
 Tous les fichiers .html/.htm sont lus par VLC avant
-d'être envoyés. Les macros VLC sont alors exécutées ou substituées.
-De plus, les arguments de l'URL, obtenus par un GET, peuvent être
-interprétés
+d'Ãªtre envoyÃ©s. Les macros VLC sont alors exÃ©cutÃ©es ou substituÃ©es.
+De plus, les arguments de l'URL, obtenus par un GET, peuvent Ãªtre
+interprÃ©tÃ©s
 
 
  .</para>
@@ -132,7 +132,7 @@ Une macro VLC est de la forme :
 <para>
 
  Seul le champ "id" est obligatoire, param1 et
-param2 peuvent ne pas être présent selon la valeur de "id".
+param2 peuvent ne pas Ãªtre prÃ©sent selon la valeur de "id".
 
 </para>
 
@@ -177,49 +177,49 @@ Les macros valides sont :
 
 <listitem><para>
 
-<emphasis>control</emphasis> (1 paramètre facultatif)
+<emphasis>control</emphasis> (1 paramÃ¨tre facultatif)
 
 </para>
 </listitem>
 
 <listitem><para>
 
-<emphasis>get</emphasis> (2 paramètres)
+<emphasis>get</emphasis> (2 paramÃ¨tres)
 
 </para>
 </listitem>
 
 <listitem><para>
 
-<emphasis>set</emphasis> (2 paramètres)
+<emphasis>set</emphasis> (2 paramÃ¨tres)
 
 </para>
 </listitem>
 
 <listitem><para>
 
-<emphasis>rpn</emphasis> (1 paramètre)
+<emphasis>rpn</emphasis> (1 paramÃ¨tre)
 
 </para>
 </listitem>
 
 <listitem><para>
 
-<emphasis>if</emphasis> (1 paramètre facultatif)
+<emphasis>if</emphasis> (1 paramÃ¨tre facultatif)
 
 </para>
 </listitem>
 
 <listitem><para>
 
-<emphasis>else</emphasis> (pas de paramètre)
+<emphasis>else</emphasis> (pas de paramÃ¨tre)
 
 </para>
 </listitem>
 
 <listitem><para>
 
-<emphasis>end</emphasis> (pas de paramètre)
+<emphasis>end</emphasis> (pas de paramÃ¨tre)
 
 </para>
 </listitem>
@@ -227,14 +227,14 @@ Les macros valides sont :
 
 <listitem><para>
 
-<emphasis>value</emphasis> (1 paramètre facultatif)
+<emphasis>value</emphasis> (1 paramÃ¨tre facultatif)
 
 </para>
 </listitem>
 
 <listitem><para>
 
-<emphasis>foreach</emphasis> (2 paramètres)
+<emphasis>foreach</emphasis> (2 paramÃ¨tres)
 
 </para>
 </listitem>
@@ -243,7 +243,7 @@ Les macros valides sont :
 
 <para>
 
-Pour des utilisations avancées, ces outils sont à votre
+Pour des utilisations avancÃ©es, ces outils sont Ã  votre
 disposition
 
 :</para>
@@ -259,17 +259,17 @@ Evaluateur RPN (voir la partie 2)
 <listitem><para>
 
 Piles: La pile est un endroit dans lequel vous
-pouvez mettre des nombres et des chaînes de caractère et les récupérer.
-Elle est utilisée en conjonction de l'évaluateur RPN.
+pouvez mettre des nombres et des chaÃ®nes de caractÃ¨re et les rÃ©cupÃ©rer.
+Elle est utilisÃ©e en conjonction de l'Ã©valuateur RPN.
 
 </para></listitem>
 
 
 <listitem><para>
 
-Variables locales: Vous pouvez créer dynamiquement
+Variables locales: Vous pouvez crÃ©er dynamiquement
 de nouvelles variables et modifier leurs valeurs. Un certain nombre de
-variables locales sont prédéfinies:
+variables locales sont prÃ©dÃ©finies:
 
 
 <itemizedlist>
@@ -277,7 +277,7 @@ variables locales sont prédéfinies:
 <listitem><para>
 <emphasis>url_value</emphasis>
 
-: paramètre de l'URL
+: paramÃ¨tre de l'URL
 
 </para></listitem>
 
@@ -311,7 +311,7 @@ variables locales sont prédéfinies:
 <para>
 
 Remarque: les piles et les variables locales sont
-remises à zéro avant l'exécution de la page
+remises Ã  zÃ©ro avant l'exÃ©cution de la page
 
 .</para>
 
@@ -321,13 +321,13 @@ remises à zéro avant l'exécution de la page
 
 <sect1><title>
 
-L'évaluateur RPN
+L'Ã©valuateur RPN
 
 </title>
 
 <para>
 
-RPN signifie Notation Polonaise Inversée (Reverse
+RPN signifie Notation Polonaise InversÃ©e (Reverse
 Polish Notation)
 
 </para>
@@ -340,25 +340,25 @@ Introduction
 
 <para>
 
- RPN peut sembler assez étrange au premier abord,
-mais c'est en fait un moyen simple et rapide d'écrire des expressions.
-Il permet également d'éviter l'utilisation des parenthèses.
+ RPN peut sembler assez Ã©trange au premier abord,
+mais c'est en fait un moyen simple et rapide d'Ã©crire des expressions.
+Il permet Ã©galement d'Ã©viter l'utilisation des parenthÃ¨ses.
 
 </para>
 
 <para>
 
-Au lieu d'écrire ( 1 + 2 ) * 5, vous devrez écrire 1
+Au lieu d'Ã©crire ( 1 + 2 ) * 5, vous devrez Ã©crire 1
 2 + 5 *.
 
 </para>
 
 <para>
 
-L'idée derrière cela est : si on a un nombre ou une
-chaine de caractères, on l'empile. Si on a un opérateur (tel que +), on
-prend les arguments sur la pile, on exécute l'opérateur, et on remet le
-résultat sur la pile. Le résultat du calcul RPN est la valeur sur le sommet
+L'idÃ©e derriÃ¨re cela est : si on a un nombre ou une
+chaine de caractÃ¨res, on l'empile. Si on a un opÃ©rateur (tel que +), on
+prend les arguments sur la pile, on exÃ©cute l'opÃ©rateur, et on remet le
+rÃ©sultat sur la pile. Le rÃ©sultat du calcul RPN est la valeur sur le sommet
 de la pile
  
 .</para>
@@ -379,19 +379,19 @@ de la pile
 
 <sect2><title>
 
-Les opérateurs
+Les opÃ©rateurs
 
 </title>
 
 <para> 
-Notation : ST(1) signifie le premier élément de la
-pile, ST(2) le second, ... et op l'opérateur. 
+Notation : ST(1) signifie le premier Ã©lÃ©ment de la
+pile, ST(2) le second, ... et op l'opÃ©rateur. 
 
 </para>
 
 <para>
 
-Vous avez accès à
+Vous avez accÃ¨s Ã 
 
 :</para>
 
@@ -399,21 +399,21 @@ Vous avez accès à
 
 <listitem><para>
 
-Les opérateurs arithmétiques standards: +, -, *, /,
-% : ils mettent le résultat de ST(1) op ST(2) sur la pile
+Les opÃ©rateurs arithmÃ©tiques standards: +, -, *, /,
+% : ils mettent le rÃ©sultat de ST(1) op ST(2) sur la pile
 
 </para></listitem>
 
 <listitem><para>
 
-Opérateur binaires: ! (place !ST(1)); ^, &amp;, | :
-place le résultat de ST(1) op ST(2)
+OpÃ©rateur binaires: ! (place !ST(1)); ^, &amp;, | :
+place le rÃ©sultat de ST(1) op ST(2)
 
 </para></listitem>
 
 <listitem><para>
 
-tests: =, &lt;, &lt;=, &gt;, &gt;= : exécute ST(1) op
+tests: =, &lt;, &lt;=, &gt;, &gt;= : exÃ©cute ST(1) op
 ST(2), place -1 si vrai, 0 sinon
 
 </para>
@@ -421,9 +421,9 @@ ST(2), place -1 si vrai, 0 sinon
 
 <listitem><para>
 
-chaines de caractères: strcat place le résultat de
+chaines de caractÃ¨res: strcat place le rÃ©sultat de
 'ST(1)ST(2)', strcmp compare ST(1) et ST(2), place -1 si ST(1)&lt;ST(2),
-0 en cas d'égalité et 1 sinon, strlen place la taille de ST(1).
+0 en cas d'Ã©galitÃ© et 1 sinon, strlen place la taille de ST(1).
 
 </para>
 </listitem>
@@ -431,7 +431,7 @@ chaines de caractères: strcat place le résultat de
 <listitem><para>
 
 manipulation de la pile: dup duplique ST(1), drop
-enlève ST(1) de la pile, swap échange ST(1) et ST(2), et flush vide la
+enlÃ¨ve ST(1) de la pile, swap Ã©change ST(1) et ST(2), et flush vide la
 pile.
 
 </para>
@@ -442,7 +442,7 @@ pile.
 manipulation de variables: store stocke ST(2) dans
 une variable locale dont le nom est la valeur de ST(1), value place la
 valeur de la variable dont le nom est ST(1), et url_extract place la
-valeur de la partie contenue de ST(1) des paramètres d'URL
+valeur de la partie contenue de ST(1) des paramÃ¨tres d'URL
 
 </para></listitem>
 
@@ -467,19 +467,19 @@ La macro <emphasis>control</emphasis>
 
 <para>
 
-Lors de la requête d'une page,
-vous pouvez lui passer des arguments à travers l'URL.
+Lors de la requÃªte d'une page,
+vous pouvez lui passer des arguments Ã  travers l'URL.
 (par exemple, en utilisant un &lt;form&gt;). Exemple:
 http://host:port/page.html?var=value&amp;var2=value2&amp;... La macro "control"
-dit à la page de lire ces arguments, et d'exécuter les commandes
-autorisées qu'ils contiennent. Le param1 contient la liste des commandes
-autorisées. S'il est vide, toutes les commandes sont autorisées.
+dit Ã  la page de lire ces arguments, et d'exÃ©cuter les commandes
+autorisÃ©es qu'ils contiennent. Le param1 contient la liste des commandes
+autorisÃ©es. S'il est vide, toutes les commandes sont autorisÃ©es.
 
 </para>
 <para>
 
-Certaines commandes requièrent des arguments qui
-doivent être passés dans l'URL
+Certaines commandes requiÃ¨rent des arguments qui
+doivent Ãªtre passÃ©s dans l'URL
 
 .</para>
 
@@ -606,10 +606,10 @@ Commandes d'URL
 
 <para>
 
-Vous pouvez par exemple restreindre l'exécution de
-la commande <command>shutdown</command> à une page protégée (par un
+Vous pouvez par exemple restreindre l'exÃ©cution de
+la commande <command>shutdown</command> Ã  une page protÃ©gÃ©e (par un
 fichier <emphasis>.access</emphasis>) en utilisant la macro control dans
-toutes les pages non protégées.
+toutes les pages non protÃ©gÃ©es.
 
 </para>
 
@@ -625,17 +625,17 @@ La macro <emphasis>get</emphasis>
 
 <para>
 
-Cette macro sera remplacée par la variable de
-configuration dont le nom est donné en param1 et dont le type es
-donné en param2.
+Cette macro sera remplacÃ©e par la variable de
+configuration dont le nom est donnÃ© en param1 et dont le type es
+donnÃ© en param2.
 
 </para>
 
 <para>
 
-param1 doit être le nom d'une variable de
-configuration existente, et param2 doit Ãtre son type, qui peut
-être <emphasis>int</emphasis>, <emphasis>float</emphasis>, ou
+param1 doit Ãªtre le nom d'une variable de
+configuration existente, et param2 doit Ãƒtre son type, qui peut
+Ãªtre <emphasis>int</emphasis>, <emphasis>float</emphasis>, ou
 <emphasis>string</emphasis>.
  
 </para>
@@ -643,7 +643,7 @@ configuration existente, et param2 doit Ãtre son type, qui peut
 <para>
 
 Exemple: lt;vlc id="get" param1="sout"
-param2="string" /&gt; sera remplacée dans la page de sortie par la
+param2="string" /&gt; sera remplacÃ©e dans la page de sortie par la
 valeur de sout. 
 
 </para>
@@ -659,10 +659,10 @@ La macro <emphasis>set</emphasis>
 
 <para>
 
-Cette macro permet de rÃgler la valeur d'une
-variable de configuration. Le nom est donnÃ©par param1 et le type par
-param2, comme pour get. La valeur est recopiÃe depuis l'URL en utilisant
-le nom donnÃ©en param1.
+Cette macro permet de rÃƒgler la valeur d'une
+variable de configuration. Le nom est donnÃƒÂ©par param1 et le type par
+param2, comme pour get. La valeur est recopiÃƒe depuis l'URL en utilisant
+le nom donnÃƒÂ©en param1.
 
 </para>
 
@@ -670,7 +670,7 @@ le nom donnÃ©en param1.
 
 Par exemple, si player.html contient
 &lt;vlc id="set" param1="sout" param2="string" /&gt; et
-si vous allez à l'adresse <emphasis> http://host:ip/pl
+si vous allez Ã  l'adresse <emphasis> http://host:ip/pl
 ayer.html?sout=sout_value</emphasis>, la variable sout prendra
 comme valeur sout_value. Si l'URL ne contient pas sout, rien ne se
 passera.
@@ -687,7 +687,7 @@ La macro <emphasis>rpn</emphasis>
 </title>
 <para>
 
-Cette macro vous permet d'interpréter des commandes
+Cette macro vous permet d'interprÃ©ter des commandes
 RPN (voir II).
 
 </para>
@@ -708,8 +708,8 @@ la page HTML.
 
 <para>
 
-Si param1 n'est pas vide, il est exécuté par
-l'évaluateur RPN. Si le premier élément de la pile n'est pas nul, la
+Si param1 n'est pas vide, il est exÃ©cutÃ© par
+l'Ã©valuateur RPN. Si le premier Ã©lÃ©ment de la pile n'est pas nul, la
 valeur du test est vraie, sinon, elle est fausse
  
 .</para>
@@ -720,7 +720,7 @@ valeur du test est vraie, sinon, elle est fausse
 <programlisting> &lt;vlc id="if" param1="1 2 =" /&gt;
     &lt;!-- Jamais atteint --&gt;
  &lt;vlc id="else" /&gt;
-    &lt;p&gt; Le test à réussi: 1 n'est pas égal à 2 &lt;/p&gt;
+    &lt;p&gt; Le test Ã  rÃ©ussi: 1 n'est pas Ã©gal Ã  2 &lt;/p&gt;
  &lt;vlc id="end" /&gt;
 </programlisting>
 
@@ -743,16 +743,16 @@ La macro <emphasis>value</emphasis>
 
 <para>
 
-Si param1 n'est pas vide, il est exécuté par
-l'évaluateur RPN. La macro est ensuite remplacée par la valeur du
-premier élément de la pile.
+Si param1 n'est pas vide, il est exÃ©cutÃ© par
+l'Ã©valuateur RPN. La macro est ensuite remplacÃ©e par la valeur du
+premier Ã©lÃ©ment de la pile.
 
 </para>
 
 <para>
 
-Si l'élément est le nom d'une variable locale, la
-valeur sera affichée et non le nom
+Si l'Ã©lÃ©ment est le nom d'une variable locale, la
+valeur sera affichÃ©e et non le nom
 
 </para>
 
@@ -767,7 +767,7 @@ La macro <emphasis>foreach,end</emphasis>
 <para>
 
 
-param1 est le nom de la variable utilisée pour la boucle, param2 est le nom de la plage de valeurs à utiliser :
+param1 est le nom de la variable utilisÃ©e pour la boucle, param2 est le nom de la plage de valeurs Ã  utiliser :
 
 
 </para>
@@ -778,8 +778,8 @@ param1 est le nom de la variable utilisée pour la boucle, param2 est le nom de l
 <listitem><para>
 
 <emphasis>integer</emphasis> : prend
-le premier élément de la pile pour construire une plage
-d'entiers. L'élément doit etre une chaine de caractères du type:
+le premier Ã©lÃ©ment de la pile pour construire une plage
+d'entiers. L'Ã©lÃ©ment doit etre une chaine de caractÃ¨res du type:
 <emphasis>premier:dernier[:pas][,premier2:dernier2[:pas2]][,...]</emphasis> (Exemple: 1:5:2 ,6:8:1 deviendra 1,3,5,6,7,8)
 
 </para></listitem>
@@ -787,8 +787,8 @@ d'entiers. L'élément doit etre une chaine de caractères du type:
 <listitem><para>
 
 <emphasis>directory</emphasis> : prend le premier
-élément de la pile comme répertoire et construit un ensemble de noms de
-fichiers contenus dans ce répertoire. Chaque élément comporte les champs
+Ã©lÃ©ment de la pile comme rÃ©pertoire et construit un ensemble de noms de
+fichiers contenus dans ce rÃ©pertoire. Chaque Ã©lÃ©ment comporte les champs
 suivants:
 
 </para>
@@ -797,7 +797,7 @@ suivants:
 
 <listitem><para>
 
-name : nom du fichier/répertoire
+name : nom du fichier/rÃ©pertoire
 
 </para></listitem>
 
@@ -825,42 +825,42 @@ date
 
 <listitem><para>
 
-Construit un ensemble basé sur la liste de lecture.
-Les champs sont: current qui vaut 1 si l'élément est sélectionné, 0
-sinon. index est la valeur de l'index à utiliser dans les commandes delete
-ou play. name est le nom de l'élément
+Construit un ensemble basÃ© sur la liste de lecture.
+Les champs sont: current qui vaut 1 si l'Ã©lÃ©ment est sÃ©lectionnÃ©, 0
+sinon. index est la valeur de l'index Ã  utiliser dans les commandes delete
+ou play. name est le nom de l'Ã©lÃ©ment
  
 .</para></listitem>
 
 <listitem><para>
 
-"informations" : crée des informations sur la
-lecture en cours. name est le nom de la catégorie, value est sa valeur,
-info est un nouvel ensemble sur lequel vous pouvez à nouveau appliquer
+"informations" : crÃ©e des informations sur la
+lecture en cours. name est le nom de la catÃ©gorie, value est sa valeur,
+info est un nouvel ensemble sur lequel vous pouvez Ã  nouveau appliquer
 foreach, et qui contient deux champs name et value)
 
 .</para></listitem>
 
 <listitem><para>
 
-"hosts" : Crée une liste des hotes en écoute.
+"hosts" : CrÃ©e une liste des hotes en Ã©coute.
 Contient les champs "id" (identifiant interne), host, ip et port.
 
 </para></listitem>
 
 <listitem><para>
 
-"urls" : Crée une liste des urls disponibles.
+"urls" : CrÃ©e une liste des urls disponibles.
 Les champs sont id, stream (1 si c'est un flux, 0 sinon), url, mime,
-protected (1 si le fichier est protégé, 0 sinon), utilisé (1 si utilisé
+protected (1 si le fichier est protÃ©gÃ©, 0 sinon), utilisÃ© (1 si utilisÃ©
 actuellement).
 
 </para></listitem>
 
 <listitem><para>
 
-"connections" : Crée la liste des connections en
-cours. Les champs sont: id, un identifiant utilisé par la commande
+"connections" : CrÃ©e la liste des connections en
+cours. Les champs sont: id, un identifiant utilisÃ© par la commande
 close, ip, url et status (Code de retour HTTP).
 
 </para></listitem>
@@ -890,7 +890,7 @@ sous-ensemble.
 </itemizedlist>
 
 <para>
-Pour plus de détails, voyez le répertoire share/http
+Pour plus de dÃ©tails, voyez le rÃ©pertoire share/http
 des sources de VLC...
 
 </para>

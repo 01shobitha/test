@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 
 <sect1><title>
 Demuxer
@@ -30,13 +30,13 @@ Dieses Modul erlaubt Ihnen
  <listitem>
   <para><emphasis>--avi-interleaved, --no-avi-interleaved </emphasis>:
    Aktiviert oder deaktiviert den Verschachtelungsmodus
-   (standardmäßig deaktiviert)
+   (standardmÃ¤ÃŸig deaktiviert)
   </para>
  </listitem>
  <listitem>
   <para><emphasis>--avi-index, --no-avi-index </emphasis>:
    Erzwingt die Erzeugung eines Indexes. Dies kann
-   bei fehlerhaften Streams helfen (standardmäßig deaktiviert)
+   bei fehlerhaften Streams helfen (standardmÃ¤ÃŸig deaktiviert)
   </para>
  </listitem>
 </itemizedlist>
@@ -60,7 +60,7 @@ zu lesen.
 <itemizedlist>
 <listitem>
 <para><emphasis>--mkv-seek-percent, --no-mkv-seek-percent</emphasis> :
-   Wenn diese Option aktiviert ist (dies ist standardmäßig so),
+   Wenn diese Option aktiviert ist (dies ist standardmÃ¤ÃŸig so),
    basiert die Suche auf dem prozentualen Anteil und nicht auf der Zeit
 </para>
 </listitem>
@@ -80,52 +80,52 @@ mt2, psm). MOD-Dateien sind Tondateien, die auf AMIGA-Computern benutzt werden.
 
 <listitem>
 <para><emphasis>--mod-noisereduction, --no-mod-noisereduction</emphasis>: 
-Standardmäßig deaktiviert. Hiermit können Sie Lärmreduzierung aktivieren.</para>
+StandardmÃ¤ÃŸig deaktiviert. Hiermit kÃ¶nnen Sie LÃ¤rmreduzierung aktivieren.</para>
 </listitem>
 
 <listitem>
 <para><emphasis>--mod-reverb, --no-mod-reverb</emphasis>: 
-Standardmäßig deaktiviert. Hiermit können Sie Hall aktivieren-</para>
+StandardmÃ¤ÃŸig deaktiviert. Hiermit kÃ¶nnen Sie Hall aktivieren-</para>
 </listitem>
 
 <listitem>
 <para><emphasis>--mod-reverb-level &lt;integer&gt;</emphasis>:
-Halllstärke (0-100, standardmäßig 0)</para>
+HalllstÃ¤rke (0-100, standardmÃ¤ÃŸig 0)</para>
 </listitem>
 
 <listitem>
 <para><emphasis>--mod-reverb-delay &lt;integer&gt;</emphasis>:
-Hallverzögerung in ms. 0 bis 1000 ms, standardmäßig 40, üblicherweise 40-200ms).</para>
+HallverzÃ¶gerung in ms. 0 bis 1000 ms, standardmÃ¤ÃŸig 40, Ã¼blicherweise 40-200ms).</para>
 </listitem>
 
 <listitem>
 <para><emphasis>--mod-megabass, --no-mod-megabass</emphasis>:
-Standardmäßig deaktiviert. Fügt MegaBass-Verstärkung hinzu.</para>
+StandardmÃ¤ÃŸig deaktiviert. FÃ¼gt MegaBass-VerstÃ¤rkung hinzu.</para>
 </listitem>
 
 <listitem>
 <para><emphasis>--mod-megabass-level &lt;integer&gt;</emphasis>: 
-MegaBass-Niveau (0-100, standardmäßig 0).</para>
+MegaBass-Niveau (0-100, standardmÃ¤ÃŸig 0).</para>
 </listitem>
 
 <listitem>
 <para><emphasis>--mod-megabass-range &lt;integer&gt;</emphasis>: 
-MegaBass-Begrenzung (10-100 Hz, standardmäßig 10).</para>
+MegaBass-Begrenzung (10-100 Hz, standardmÃ¤ÃŸig 10).</para>
 </listitem>
 
 <listitem>
 <para><emphasis>--mod-surround, --no-mod-surround</emphasis>:
-Standardmäßig deaktiviert. Fügt Surround-Erweiterungen hinzu.</para>
+StandardmÃ¤ÃŸig deaktiviert. FÃ¼gt Surround-Erweiterungen hinzu.</para>
 </listitem>
 
 <listitem>
 <para><emphasis>--mod-surround-level &lt;integer&gt;</emphasis>: 
-Surround-Niveau (0-100, standardmäßig 0).</para>
+Surround-Niveau (0-100, standardmÃ¤ÃŸig 0).</para>
 </listitem>
 
 <listitem>
 <para><emphasis>--mod-surround-level &lt;integer&gt;</emphasis>:
-Surround-Verzögerung (0-1000 ms, standardmäßig 5, üblicherweise 5-40ms).</para>
+Surround-VerzÃ¶gerung (0-1000 ms, standardmÃ¤ÃŸig 5, Ã¼blicherweise 5-40ms).</para>
 </listitem>
 </itemizedlist>
 </sect2>
@@ -135,8 +135,8 @@ Surround-Verzögerung (0-1000 ms, standardmäßig 5, üblicherweise 5-40ms).</para>
 &enabled;
 <para>
 Dieses Modul erlaubt Ihnen NSV (Nullsoft Streaming Video) - Streams zu lesen.
-Die meisten NSV-Streams benutzen den VP6-Codec, der derzeit von VLC nicht unterstützt
-wird. VLC unterstützt im Moment nur VP1 und VP3.
+Die meisten NSV-Streams benutzen den VP6-Codec, der derzeit von VLC nicht unterstÃ¼tzt
+wird. VLC unterstÃ¼tzt im Moment nur VP1 und VP3.
 </para>
 </sect2>
 
@@ -150,7 +150,7 @@ Diese Module erlauben Ihnen als MPEG2-PS oder MPEG2-TS kodierte Streams zu lesen
 <listitem>
 <para><emphasis>--vls-backward-compat, --no-vls-backward-compat</emphasis> :
     Aktivieren Sie diese Option, wenn Sie MPEG 2 TS - Streams, die von
-   VLS &lt; 0.4 gesendet werden, lesen möchten.
+   VLS &lt; 0.4 gesendet werden, lesen mÃ¶chten.
   </para></listitem>
   <listitem><para><emphasis>--buggy-psi, --no-buggy-psi (ts module) </emphasis>:
     Aktivieren Sie diese Option um den Umgang mit Dateien mit
@@ -171,22 +171,22 @@ geliefert werden.
 <sect2><title>real</title>
 &always;
 <para>
-Mit diesem Modul können Sie RealMedia (.rm) - Dateien lesen.
+Mit diesem Modul kÃ¶nnen Sie RealMedia (.rm) - Dateien lesen.
 Anmerkung: Nur sehr alte Toncodecs (rv10) werden von VLC derzeit in RealMedia-Dateien
-unterstützt.
+unterstÃ¼tzt.
 </para>
 </sect2>
 
 <sect2><title>rawdv</title>
 &always;
 <para>
-Mit diesem Modul können Sie DV-Dateien lesen.
+Mit diesem Modul kÃ¶nnen Sie DV-Dateien lesen.
 </para></sect2>
 
 <sect2><title>dvbpsi</title>
 &enabled;
 <para>
-Mit diesem Modul können Sie Streams von einer Satellitenkarte lesen.
+Mit diesem Modul kÃ¶nnen Sie Streams von einer Satellitenkarte lesen.
 </para></sect2>
 
 <sect2><title>id3,m3u</title>

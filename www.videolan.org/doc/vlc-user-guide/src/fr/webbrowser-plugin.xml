@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="webbrowser-plugin"><title id="twebbrowser-plugin">
 Le plugin Mozilla
 </title>
 
 <para>
 
-VLC peut également être utilisé en tant que plugin
+VLC peut Ã©galement Ãªtre utilisÃ© en tant que plugin
 de navigateur web. Pour le moment, cette fonction n'est disponible que
 pour le navigateur<ulink url="http://www.mozilla.org/">Mozilla</ulink>
 sous GNU/Linux
@@ -17,7 +17,7 @@ sous GNU/Linux
 <sect2><title>GNU/Linux Debian</title>
 
 <para>
-Vous devriez déjà avoir, dans votre fichier 
+Vous devriez dÃ©jÃ  avoir, dans votre fichier 
 <filename>/etc/apt/sources.list</filename>
 , les lignes suivantes, si vous utilisez Debian Woody :
 
@@ -30,7 +30,7 @@ Vous devriez déjà avoir, dans votre fichier
 
 <para>
 
- La dernière version packagée de VLC est toujours disponible dans la branche Unstable (Sid) de Debian. Toutefois vous devez utiliser ces lignes si vous souhaitez utiliser la derniere version de libdvdcss :
+ La derniÃ¨re version packagÃ©e de VLC est toujours disponible dans la branche Unstable (Sid) de Debian. Toutefois vous devez utiliser ces lignes si vous souhaitez utiliser la derniere version de libdvdcss :
 
 </para>
 
@@ -54,13 +54,13 @@ Installez le paquet
 
 <sect2><title>
 
-Compilez vous-même les sources
+Compilez vous-mÃªme les sources
 
 </title>
 
 <para>
 
-Installez le paquet de développement de Mozilla
+Installez le paquet de dÃ©veloppement de Mozilla
 (<emphasis>mozilla-dev</emphasis> sous Debian)
 
 .</para>
@@ -69,15 +69,15 @@ Installez le paquet de développement de Mozilla
 
 Installez les librairies requises, comme pour une installation
 classique de VLC (depuis les sources, ou depuis les paquets, avec les
-paquets de développement
+paquets de dÃ©veloppement
 .</para>
 
 <para>
 
- Téléchargez les sources de la dernière version :
-récupérez le fichier <filename>vlc-version.tar.gz</filename> depuis la
+ TÃ©lÃ©chargez les sources de la derniÃ¨re version :
+rÃ©cupÃ©rez le fichier <filename>vlc-version.tar.gz</filename> depuis la
 <ulink url="http://www.videolan.org/vlc/download-sources.html">page
-de téléchargement des sources de VLC</ulink>. Décompressez-le,
+de tÃ©lÃ©chargement des sources de VLC</ulink>. DÃ©compressez-le,
 configurez-le, compilez et installez
 
 :</para>
@@ -117,7 +117,7 @@ Exemple 1
 <para>
 
 Dans cet exemple, le plugin va lire un flux HTTP
-depuis la page web. Si l'utilisateur active le mode plein-écran,
+depuis la page web. Si l'utilisateur active le mode plein-Ã©cran,
 il devra presser la touche <keycap>f</keycap> pour revenir en mode
 normal
 
@@ -155,7 +155,7 @@ Exemple
 
 <para> 
 Dans cet exemple, le plugin va lire un flux UDP
-multicast, dans une fenêtre vidéo dédiée
+multicast, dans une fenÃªtre vidÃ©o dÃ©diÃ©e
 
 .</para>
 

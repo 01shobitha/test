@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 
 <sect1><title>
-Modules de filtre vidéo
+Modules de filtre vidÃ©o
 </title>
 
 <para>
-Ces modules vous permettent de modifier l'image (désentrelacement,
-réglage du trio teinte/constraste/saturation, recadrage etc.). Pour les activer, utilisez l'option
+Ces modules vous permettent de modifier l'image (dÃ©sentrelacement,
+rÃ©glage du trio teinte/constraste/saturation, recadrage etc.). Pour les activer, utilisez l'option
 suivante pour VLC :
 --filter filter1,filter2,...
 </para>
@@ -15,28 +15,28 @@ suivante pour VLC :
 &always;
 <para>
 Ce filtre vous permet de modifier le contraste, la
-teinte, la saturation, et la luminosité.
+teinte, la saturation, et la luminositÃ©.
 </para>
 &options-st;
 <itemizedlist>
 <listitem>
 <para><emphasis>--contrast &lt;float&gt; </emphasis>:
-réglage du contraste (flottant compris entre 0 et 2, 1 par défaut)
+rÃ©glage du contraste (flottant compris entre 0 et 2, 1 par dÃ©faut)
 </para>
 </listitem>
 <listitem>
 <para><emphasis>--brightness &lt;float&gt; </emphasis>:
-réglage de la luminosité (flottant compris entre 0 et 2, 1 par défaut)
+rÃ©glage de la luminositÃ© (flottant compris entre 0 et 2, 1 par dÃ©faut)
 </para>
 </listitem>
 <listitem>
 <para><emphasis>--hue &lt;integer&gt; </emphasis>:
-réglage de la teinte (entier compris entre 0 et 360, 0 par défaut)
+rÃ©glage de la teinte (entier compris entre 0 et 360, 0 par dÃ©faut)
 </para>
 </listitem>
 <listitem>
 <para><emphasis>--saturation &lt;float&gt; </emphasis>:
-réglage de la saturation (flottant compris entre 0 et 3, 1 par défaut)
+rÃ©glage de la saturation (flottant compris entre 0 et 3, 1 par dÃ©faut)
 </para>
 </listitem>
 </itemizedlist>
@@ -45,14 +45,14 @@ réglage de la saturation (flottant compris entre 0 et 3, 1 par défaut)
 <sect2><title>deinterlace</title>
 &always;
 <para>
-Ce filtre effectue le désentrelacement de la vidéo
-et est utile pour les flux venant d'un satellite ou de télévision
+Ce filtre effectue le dÃ©sentrelacement de la vidÃ©o
+et est utile pour les flux venant d'un satellite ou de tÃ©lÃ©vision
 .</para>
 &options-st;
 <itemizedlist>
 <listitem>
 <para><emphasis>--deinterlace-mode {discard,blend,mean,bob,linear} </emphasis>:
-mode de désentrelacement (discard par défaut)
+mode de dÃ©sentrelacement (discard par dÃ©faut)
 </para>
 </listitem>
 </itemizedlist>
@@ -67,13 +67,13 @@ Ce filtre vous permet de rogner des parties de l'image.
 <itemizedlist>
 <listitem>
 <para><emphasis>--crop-geometry &lt;string&gt; </emphasis>:
-Indiquez la géométrie de la zone à réduire. Cela se fixe
-par largeur x hauteur + position à gauche + position supérieure (en pixels).
+Indiquez la gÃ©omÃ©trie de la zone Ã  rÃ©duire. Cela se fixe
+par largeur x hauteur + position Ã  gauche + position supÃ©rieure (en pixels).
 </para>
 </listitem>
 <listitem>
 <para><emphasis>--autocrop, --noautocrop </emphasis>:
-rédutcion automatique des marges noires (désactivé par défaut)
+rÃ©dutcion automatique des marges noires (dÃ©sactivÃ© par dÃ©faut)
 </para>
 </listitem>
 </itemizedlist>
@@ -83,7 +83,7 @@ rédutcion automatique des marges noires (désactivé par défaut)
 &always;
 <para>
 
-Ce filtre vous permet de tourner l'image de plusieurs façons.
+Ce filtre vous permet de tourner l'image de plusieurs faÃ§ons.
 </para>
 &options-st;
 <itemizedlist>
@@ -97,7 +97,7 @@ type de transformation : '90', '180', '270', 'hflip' ou 'vflip'
 <sect2><title>distort</title>
 &always;
 <para>
-Ce filtre créée un effet de distortion de la vidéo.
+Ce filtre crÃ©Ã©e un effet de distortion de la vidÃ©o.
 Comment ca, inutile ? :-)
 </para>
 &options-st;
@@ -120,14 +120,14 @@ Ce filtre inverse les couleurs.
 <sect2><title>motionblur</title>
 &always;
 <para>
-Ce filtre donne un effet de "flou de mouvement" à 
+Ce filtre donne un effet de "flou de mouvement" Ã  
 l'image.
 </para>
 &options-st;
 <itemizedlist>
 <listitem>
 <para><emphasis>--blur-factor &lt;integer&gt; </emphasis>:
-degré de flou, de 1 à 127
+degrÃ© de flou, de 1 Ã  127
 </para>
 </listitem>
 </itemizedlist>
@@ -136,25 +136,25 @@ degré de flou, de 1 à 127
 <sect2><title>wall</title>
 &always;
 <para>
-Ce filtre vous permet de découper la vidéo sur
-plusieurs fenêtres que vous pouvez déplacer indépendamment. Vous pouvez
-l'utiliser pour générer des murs d'images avec plusieurs sources.
+Ce filtre vous permet de dÃ©couper la vidÃ©o sur
+plusieurs fenÃªtres que vous pouvez dÃ©placer indÃ©pendamment. Vous pouvez
+l'utiliser pour gÃ©nÃ©rer des murs d'images avec plusieurs sources.
 </para>
 &options-st;
 <itemizedlist>
 <listitem>
 <para><emphasis>--wall-cols &lt;integer&gt; </emphasis>:
-Indiquez le nombre de fenêtres dans lesquelles découper verticalement la vidéo
+Indiquez le nombre de fenÃªtres dans lesquelles dÃ©couper verticalement la vidÃ©o
 </para>
 </listitem>
 <listitem>
 <para><emphasis>--wall-rows &lt;integer&gt; </emphasis>:
-Indiquez le nombre de fenêtres dans lesquelles découper horizontalement la vidéo
+Indiquez le nombre de fenÃªtres dans lesquelles dÃ©couper horizontalement la vidÃ©o
 </para>
 </listitem>
 <listitem>
 <para><emphasis>--wall-active &lt;string&gt; </emphasis>:
-liste des fenêtre actives (séparée par des virgules). La valeur par défaut affecte toutes les fenêtres
+liste des fenÃªtre actives (sÃ©parÃ©e par des virgules). La valeur par dÃ©faut affecte toutes les fenÃªtres
 </para>
 </listitem>
 </itemizedlist>
@@ -168,12 +168,12 @@ Ce filtre vous permet de dupliquer l'image.
 <itemizedlist>
 <listitem>
 <para><emphasis>--clone-count &lt;integer&gt; </emphasis>:
-nombre de fenêtres vidéo dans lesquelles cloner la vidéo
+nombre de fenÃªtres vidÃ©o dans lesquelles cloner la vidÃ©o
 </para>
 </listitem>
 <listitem>
 <para><emphasis>--clone-vout-list &lt;string&gt; </emphasis>:
-modules de sortie vidéo à activer
+modules de sortie vidÃ©o Ã  activer
 </para>
 </listitem>
 </itemizedlist>

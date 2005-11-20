@@ -1,32 +1,32 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="cmdline"><title id="tcmdline">
 
 Das Befehlszeileninterface
 </title>
 <sect1>
 <title>
-Einführung
+EinfÃ¼hrung
 </title>
 <para>
 
-Viele Optionen sind nur über die Befehlszeile verfügbar.
-Sie werden hier aufgeführt und erklärt.
+Viele Optionen sind nur Ã¼ber die Befehlszeile verfÃ¼gbar.
+Sie werden hier aufgefÃ¼hrt und erklÃ¤rt.
 
 </para>
 </sect1>
 <sect1><title>
 
-Das Öffnen von Streams
+Das Ã–ffnen von Streams
 </title>
 <para>
 
-Die folgenden Befehle starten VLC und fügen das
+Die folgenden Befehle starten VLC und fÃ¼gen das
 erste Element der Wiedergabeliste hinzu.
 
 </para>
 <sect2><title>
 
-Das Öffnen einer Datei
+Das Ã–ffnen einer Datei
 </title>
 <para>
 
@@ -38,7 +38,7 @@ Starten Sie VLC mit
 <para>
 
 Obwohl VLC in der Lage sein sollte, den Dateityp 
-zu erkennen, können Sie VLC den zu benutzenden Codec mit der 
+zu erkennen, kÃ¶nnen Sie VLC den zu benutzenden Codec mit der 
 <emphasis>--codec</emphasis>-Option mitteilen. Um beispielsweise 
 die Datei my_file.mpg mit dem ffmpeg Ton/Bild - Dekoder wiederzugeben,
 machen Sie folgendes
@@ -48,15 +48,15 @@ machen Sie folgendes
 </screen>
 <para>
 
-Eine Liste aller von VLC unterstützten Audio- und 
+Eine Liste aller von VLC unterstÃ¼tzten Audio- und 
 Videocodecs ist auf der Seite <ulink url="http://www.videolan.org/vlc/features.html">VLC features list</ulink>
-verfügbar.
+verfÃ¼gbar.
 
 </para>
 </sect2>
 <sect2><title>
 
-Das Öffnen einer DVD, VCD oder einer Audio-CD
+Das Ã–ffnen einer DVD, VCD oder einer Audio-CD
 </title>
 <para>
 
@@ -64,7 +64,7 @@ Starten Sie VLC mit
 :</para>
 <!-- Do not wrap me -->
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv dvd://[Gerät][@Gerät_raw][@[Titel][,[Kapitel][,Winkel]]]
+<prompt>% </prompt><userinput>vlc -vvv dvd://[GerÃ¤t][@GerÃ¤t_raw][@[Titel][,[Kapitel][,Winkel]]]
 </userinput>
 </screen>
 <para>
@@ -73,7 +73,7 @@ oder
 (VCD):</para>
 <!-- Do not wrap me -->
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv vcd://[Gerät][@{E|P|S|T}[Titel]]</userinput>
+<prompt>% </prompt><userinput>vlc -vvv vcd://[GerÃ¤t][@{E|P|S|T}[Titel]]</userinput>
 </screen>
 <para>
 
@@ -81,12 +81,12 @@ oder
 (Audio CD):</para>
 <!-- Do not wrap me -->
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv cdda://[Gerät][@[Spur]]</userinput>
+<prompt>% </prompt><userinput>vlc -vvv cdda://[GerÃ¤t][@[Spur]]</userinput>
 </screen>
 
 <para>
 
-Wobei das Gerät der komplette Pfad zu Ihrer DVD oder
+Wobei das GerÃ¤t der komplette Pfad zu Ihrer DVD oder
 Ihrer CD-ROM ist.
 
 </para>
@@ -137,41 +137,41 @@ Auswahl der Module
 <para>
 
 VLC versucht das am Besten passende Interface und die entsprechenden
-Input- und Ausgabemodule unter den auf Ihrem System verfügbaren für den
-zu lesenden Stream zu wählen. Trotzdem möchten Sie eventuell die Benutzung
+Input- und Ausgabemodule unter den auf Ihrem System verfÃ¼gbaren fÃ¼r den
+zu lesenden Stream zu wÃ¤hlen. Trotzdem mÃ¶chten Sie eventuell die Benutzung
 eines bestimmten Moduls mit den folgenden Optionen erzwingen (Schauen Sie
-für die komplette Liste von Modulen in die <xref linkend="modules" endterm="tmodules"/>Module-Sektion)
+fÃ¼r die komplette Liste von Modulen in die <xref linkend="modules" endterm="tmodules"/>Module-Sektion)
 :</para>
 <itemizedlist>
 <listitem><para><emphasis>--intf  &lt;module&gt;</emphasis>
 
-erlaubt Ihnen das Interface-Modul zu wählen.
+erlaubt Ihnen das Interface-Modul zu wÃ¤hlen.
 
 </para></listitem>
 <listitem><para><emphasis>--extraintf  &lt;module&gt;</emphasis>
 
-Erlaubt Ihnen zusätzliche Interface-Module auszuwählen,
-die zusätzlich zum Hauptinterface gestartet werden.
+Erlaubt Ihnen zusÃ¤tzliche Interface-Module auszuwÃ¤hlen,
+die zusÃ¤tzlich zum Hauptinterface gestartet werden.
 
 </para></listitem>
 <listitem><para><emphasis>--aout  &lt;module&gt;</emphasis>
 
-Erlaubt Ihnen das Tonausgabemodul zu wählen.
+Erlaubt Ihnen das Tonausgabemodul zu wÃ¤hlen.
 
 </para></listitem>
 <listitem><para><emphasis>--vout  &lt;module&gt;</emphasis>
 
-Erlaubt Ihnen das Bildausgabemodul zu wählen.
+Erlaubt Ihnen das Bildausgabemodul zu wÃ¤hlen.
 
 </para></listitem>
 <listitem><para><emphasis>--filter  &lt;module&gt;</emphasis>
 
-Erlaubt Ihnen Bildfilter hinzuzufügen.
+Erlaubt Ihnen Bildfilter hinzuzufÃ¼gen.
 
 </para></listitem>
 <listitem><para><emphasis>--memcpy  &lt;module&gt;</emphasis>
 
-Erlaubt Ihnen ein Speicherkopiermodul zu wählen.
+Erlaubt Ihnen ein Speicherkopiermodul zu wÃ¤hlen.
 
 </para></listitem>
 </itemizedlist>
@@ -200,7 +200,7 @@ Zwingt VLC Monoton zu anzuwenden.
 </para></listitem>
 <listitem><para><emphasis>--volume  &lt;Ganzzahl&gt;</emphasis> 
 
-Stellt die Lautstärke ein.
+Stellt die LautstÃ¤rke ein.
 
 </para></listitem>
 <listitem><para><emphasis>--aout-rate  &lt;Ganzzahl&gt;</emphasis>
@@ -214,12 +214,12 @@ Gleicht die Desynchronisation des Tons aus (ms).
 
 </para></listitem>
 <listitem><para><emphasis>--headphone</emphasis>
-Aktiviert den virtuellen Raumklangeffekt für Kopfhörer.
+Aktiviert den virtuellen Raumklangeffekt fÃ¼r KopfhÃ¶rer.
 
 </para></listitem>
 <listitem><para><emphasis>--headphone-dim</emphasis>
 
-Stellt die charakteristische Dimension des Kopfhörers ein.
+Stellt die charakteristische Dimension des KopfhÃ¶rers ein.
 
 </para></listitem>
 </itemizedlist>
@@ -245,7 +245,7 @@ Aktiviert die Vollbildausgabe.
 
 </para></listitem>
 <listitem><para><emphasis>--nooverlay</emphasis>
-Deaktiviert Hardwarebeschleunigung für die
+Deaktiviert Hardwarebeschleunigung fÃ¼r die
 Bildausgabe.
 
 </para></listitem>
@@ -254,14 +254,14 @@ Bildausgabe.
 Stellt die Dimensionen des Bildausgabefensters ein.
 
 </para></listitem>
-<listitem><para><emphasis>--zoom &lt;Fließkommazahl&gt;</emphasis>
+<listitem><para><emphasis>--zoom &lt;FlieÃŸkommazahl&gt;</emphasis>
 
-Fügt einen Vergrößerungsfaktor hinzu.
+FÃ¼gt einen VergrÃ¶ÃŸerungsfaktor hinzu.
 
 </para></listitem>
 <listitem><para><emphasis>--aspect-ratio &lt;mode&gt;</emphasis>
 
-Forciert das Seitenverhältnis.
+Forciert das SeitenverhÃ¤ltnis.
 
 </para></listitem>
 <listitem><para><emphasis>--spumargin  &lt;Ganzzahl&gt;</emphasis> 
@@ -283,12 +283,12 @@ Startet die Wiedergabeliste beim Start von VLC.
 </para></listitem>
 <listitem><para><emphasis>--random</emphasis>
 
-Gibt die Datei immer in zufälliger Reihenfolge wieder.
+Gibt die Datei immer in zufÃ¤lliger Reihenfolge wieder.
 
 </para></listitem>
 <listitem><para><emphasis>--enqueue</emphasis>
 
-Fügt die Objekte der Wiedergabeliste hinzu.
+FÃ¼gt die Objekte der Wiedergabeliste hinzu.
 
 </para></listitem>
 <listitem><para><emphasis>--loop</emphasis>
@@ -379,7 +379,7 @@ Diverse Optionen
 </para></listitem>
 <listitem><para><emphasis>--search-path  &lt;Zeichenkette&gt;</emphasis>
 
-Legt den standardmäßigen Interface-Suchpfad fest.
+Legt den standardmÃ¤ÃŸigen Interface-Suchpfad fest.
 
 </para></listitem>
 <listitem><para><emphasis>--plugin-path  &lt;Zeichenkette&gt;</emphasis>
@@ -389,33 +389,33 @@ Legt den Plugin-Suchpfad fest.
 </para></listitem>
 <listitem><para><emphasis>--dvd  &lt;Zeichenkette&gt;</emphasis> 
 
-Legt das standardmäßige DVD-Gerät fest.
+Legt das standardmÃ¤ÃŸige DVD-GerÃ¤t fest.
 
 </para></listitem>
 <listitem><para><emphasis>--vcd  &lt;Zeichenkette&gt;</emphasis>
 
-Legt das standardmäßige VCD-Gerät fest.
+Legt das standardmÃ¤ÃŸige VCD-GerÃ¤t fest.
 
 </para></listitem>
 <listitem><para><emphasis>--program  &lt;;Ganzzahl&gt;</emphasis>
 
-Gibt das Programm (SID) an (für Streams mit mehreren Programmen, wie
+Gibt das Programm (SID) an (fÃ¼r Streams mit mehreren Programmen, wie
 die von Satelliten).
 
 </para></listitem>
 <listitem><para><emphasis>--audio-type  &lt;&gt;</emphasis>
 
-Legt den standardmäßigen Audiotyp bei DVDs fest .
+Legt den standardmÃ¤ÃŸigen Audiotyp bei DVDs fest .
 
 </para></listitem>
 <listitem><para><emphasis>--audio-channel  &lt;Ganzzahl&gt;</emphasis>
 
-Legt den standardmäßigen Tonkanal bei DVDs fest.
+Legt den standardmÃ¤ÃŸigen Tonkanal bei DVDs fest.
 
 </para></listitem>
 <listitem><para><emphasis>--spu-channel  &lt;Ganzzahl&gt;</emphasis>
 
-Legt den standardmäßigen Untertitelkanal bei DVDs fest.
+Legt den standardmÃ¤ÃŸigen Untertitelkanal bei DVDs fest.
 
 </para></listitem>
 </itemizedlist>
@@ -433,28 +433,28 @@ ausgegeben werden.
 </para></listitem>
 <listitem><para><emphasis>--help</emphasis>
 
-Zeigt Ihnen alle verfügbaren Optionen an.
+Zeigt Ihnen alle verfÃ¼gbaren Optionen an.
 
 </para></listitem>
 <listitem><para><emphasis>--longhelp</emphasis> 
 
-Zeigt Ihnen eine detailierte Hilfe über alle verfügbaren
+Zeigt Ihnen eine detailierte Hilfe Ã¼ber alle verfÃ¼gbaren
 Optionen an.
 
 </para></listitem>
 <listitem><para><emphasis>--version</emphasis> 
 
-Zeigt Ihnen Informationen über die Version von VLC an.
+Zeigt Ihnen Informationen Ã¼ber die Version von VLC an.
 
 </para></listitem>
 <listitem><para><emphasis>--list</emphasis> 
 
-Zeigt Ihnen eine Liste aller verfügbaren Plugins an.
+Zeigt Ihnen eine Liste aller verfÃ¼gbaren Plugins an.
 
 </para></listitem>
 <listitem><para><emphasis>--module  &lt;module&gt;</emphasis> 
 
-Zeigt Hilfe über das angegebene Modul an.
+Zeigt Hilfe Ã¼ber das angegebene Modul an.
 
 </para></listitem>
 </itemizedlist>

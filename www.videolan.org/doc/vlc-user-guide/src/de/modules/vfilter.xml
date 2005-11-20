@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 
 <sect1><title>
 Bildfiltermodule
 </title>
 
 <para>
-Diese Module erlauben Ihnen Änderungen
-am gerendeten Bild machen zu können (Deinterlacing,
-Farbton-/Kontrast-/Sättigungsjustierungen, Beschneidungen usw.). Um sie
+Diese Module erlauben Ihnen Ã„nderungen
+am gerendeten Bild machen zu kÃ¶nnen (Deinterlacing,
+Farbton-/Kontrast-/SÃ¤ttigungsjustierungen, Beschneidungen usw.). Um sie
 zu aktivieren, benutzen Sie die folgende Befehlszeilenoption:
 --filter filter1,filter2,...
 </para>
@@ -15,29 +15,29 @@ zu aktivieren, benutzen Sie die folgende Befehlszeilenoption:
 <sect2><title>adjust</title>
 &always;
 <para>
-Dieser Filter erlaubt Ihnen Bildkontrast,-farbton, -sättigung und -helligkeit
-zu ändern.
+Dieser Filter erlaubt Ihnen Bildkontrast,-farbton, -sÃ¤ttigung und -helligkeit
+zu Ã¤ndern.
 </para>
 &options-st;
 <itemizedlist>
 <listitem>
 <para><emphasis>--contrast &lt;float&gt; </emphasis>:
-stellt den Bildkontrast zwischen 0 und 2 ein. Standardmäßig 1.
+stellt den Bildkontrast zwischen 0 und 2 ein. StandardmÃ¤ÃŸig 1.
 </para>
 </listitem>
 <listitem>
 <para><emphasis>--brightness &lt;float&gt; </emphasis>:
-stellt die Bildhelligkeit zwischen 0 und 2 ein. Standardmäßig 1.
+stellt die Bildhelligkeit zwischen 0 und 2 ein. StandardmÃ¤ÃŸig 1.
 </para>
 </listitem>
 <listitem>
 <para><emphasis>--hue &lt;integer&gt; </emphasis>:
-Stellt den Bildfarbton zwischen 0 und 360 ein. Standardmäßig 0.
+Stellt den Bildfarbton zwischen 0 und 360 ein. StandardmÃ¤ÃŸig 0.
 </para>
 </listitem>
 <listitem>
 <para><emphasis>--saturation &lt;float&gt; </emphasis>:
-Stellt die Bildsättigung zwischen 0 und 3 ein. Standardmäßig 1.
+Stellt die BildsÃ¤ttigung zwischen 0 und 3 ein. StandardmÃ¤ÃŸig 1.
 </para>
 </listitem>
 </itemizedlist>
@@ -47,15 +47,15 @@ Stellt die Bildsättigung zwischen 0 und 3 ein. Standardmäßig 1.
 &always;
 <para>
 Dieser Filter betrifft das Deinterlacing des Bildes. Es ist
-nützlich bei Streams, die von einem digitalen Satellitenkanal oder digitalen terrestrischen
-Fernsehkanälen stammen.
+nÃ¼tzlich bei Streams, die von einem digitalen Satellitenkanal oder digitalen terrestrischen
+FernsehkanÃ¤len stammen.
 
 </para>
 &options-st;
 <itemizedlist>
 <listitem>
 <para><emphasis>--deinterlace-mode {discard,blend,mean,bob,linear} </emphasis>:
-Deinterlacingmodus (standardmäßig discard)
+Deinterlacingmodus (standardmÃ¤ÃŸig discard)
 </para>
 </listitem>
 </itemizedlist>
@@ -71,12 +71,12 @@ Dieser Filter erlaubt Ihnen Teile des Bildes zu beschneiden.
 <listitem>
 <para><emphasis>--crop-geometry &lt;string&gt; </emphasis>:
 Stellt die Geometrie der zu beschneidenden Zone in der Form
-Breite x Höhe + Abstand von links + Abstand von oben (in Pixeln) ein.
+Breite x HÃ¶he + Abstand von links + Abstand von oben (in Pixeln) ein.
 </para>
 </listitem>
 <listitem>
 <para><emphasis>--autocrop, --noautocrop </emphasis>:
-automatisches Beschneiden des schwarzen Randes (standardmäßig deaktiviert)
+automatisches Beschneiden des schwarzen Randes (standardmÃ¤ÃŸig deaktiviert)
 </para>
 </listitem>
 </itemizedlist>
@@ -100,7 +100,7 @@ Transformationstyp: '90', '180', '270', 'hflip' oder 'vflip'
 <sect2><title>distort</title>
 &always;
 <para>
-Dieser Filter fügt einen Verzerrungseffekt im Bild hinzu. Wer sagte,
+Dieser Filter fÃ¼gt einen Verzerrungseffekt im Bild hinzu. Wer sagte,
 dies sei nutzlos?:-)
 </para>
 &options-st;
@@ -123,14 +123,14 @@ Dieser Filter invertiert die Farben.
 <sect2><title>motionblur</title>
 &always;
 <para>
-Dieser Filter fügt einen "Bewegungsunschärfe"-Effekt
+Dieser Filter fÃ¼gt einen "BewegungsunschÃ¤rfe"-Effekt
 dem Bild hinzu.
 </para>
 &options-st;
 <itemizedlist>
 <listitem>
 <para><emphasis>--blur-factor &lt;integer&gt; </emphasis>:
-Der Grad der Unschärfe von 1 bis 127
+Der Grad der UnschÃ¤rfe von 1 bis 127
 </para>
 </listitem>
 </itemizedlist>
@@ -140,25 +140,25 @@ Der Grad der Unschärfe von 1 bis 127
 &always;
 <para>
 Dieser Filter erlaubt Ihnen das Bild in mehrere
-Stücke in mehreren Fenstern aufzuteilen, die Sie nach Belieben anordnen
-können. Er kann zur Erstellung von Bilderwänden mit mehreren Quellen benutzt
+StÃ¼cke in mehreren Fenstern aufzuteilen, die Sie nach Belieben anordnen
+kÃ¶nnen. Er kann zur Erstellung von BilderwÃ¤nden mit mehreren Quellen benutzt
 werden.
 </para>
 &options-st;
 <itemizedlist>
 <listitem>
 <para><emphasis>--wall-cols &lt;integer&gt; </emphasis>:
-Wählen Sie die Anzahl von vertikalen Bildfenstern, auf die das Bild verteilt wird
+WÃ¤hlen Sie die Anzahl von vertikalen Bildfenstern, auf die das Bild verteilt wird
 </para>
 </listitem>
 <listitem>
 <para><emphasis>--wall-rows &lt;integer&gt; </emphasis>:
-Wählen Sie die Anzahl von horizontalen Bildfenstern, auf die das Bild verteilt wird
+WÃ¤hlen Sie die Anzahl von horizontalen Bildfenstern, auf die das Bild verteilt wird
 </para>
 </listitem>
 <listitem>
 <para><emphasis>--wall-active &lt;string&gt; </emphasis>:
-Liste von aktiven Fenstern (getrennt durch Kommata); standardmäßig alle
+Liste von aktiven Fenstern (getrennt durch Kommata); standardmÃ¤ÃŸig alle
 </para>
 </listitem>
 </itemizedlist>
@@ -167,8 +167,8 @@ Liste von aktiven Fenstern (getrennt durch Kommata); standardmäßig alle
 <sect2><title>logo</title>
 &always;
 <para>
-Mit diesem Filter können Sie ein png-Logo im Bild des Videos darstellen. Seine
-transparenz können Sie mit dem Mausrad einstellen. Sie können es mit der Maus
+Mit diesem Filter kÃ¶nnen Sie ein png-Logo im Bild des Videos darstellen. Seine
+transparenz kÃ¶nnen Sie mit dem Mausrad einstellen. Sie kÃ¶nnen es mit der Maus
 verschieben.
 </para>
 &options-st;
@@ -180,19 +180,19 @@ Dateiname des Logos. (Die Datei muss im PNG RGBA 8bits - Format sein)
 </listitem>
 <listitem>
 <para><emphasis>--logo-x &lt;integer&gt; </emphasis>:
-X-Koordinate des Logos. Sie können das Logo bewegen, in dem Sie mit der
+X-Koordinate des Logos. Sie kÃ¶nnen das Logo bewegen, in dem Sie mit der
 linken Maustaste darauf klicken.
 </para>
 </listitem>
 <listitem>
 <para><emphasis>--logo-y &lt;integer&gt; </emphasis>:
-Y-Koordinate des Logos. Sie können das Logo bewegen, in dem Sie mit der
+Y-Koordinate des Logos. Sie kÃ¶nnen das Logo bewegen, in dem Sie mit der
 linken Maustaste darauf klicken.
 </para>
 </listitem>
 <listitem>
-<para><emphasis>--logo-transparency  &lt;integer&gt; </emphasis>:
-Die Transparenz des Logos (255-0). Sie können sie ändern, in dem Sie mit
+<para><emphasis>--logo-transparency Â &lt;integer&gt; </emphasis>:
+Die Transparenz des Logos (255-0). Sie kÃ¶nnen sie Ã¤ndern, in dem Sie mit
 der mittleren Taste auf das Logo klicken und die Maus nach links oder rechts
 bewegen.
 </para>
@@ -213,7 +213,7 @@ Anzahl von Bildfenstern, in die das Bild geklont werden soll
 </listitem>
 <listitem>
 <para><emphasis>--clone-vout-list &lt;string&gt; </emphasis>:
-spezielle Bildausgabe(sog. "vout"-)module, die Sie aktivieren möchten
+spezielle Bildausgabe(sog. "vout"-)module, die Sie aktivieren mÃ¶chten
 </para>
 </listitem>
 </itemizedlist>

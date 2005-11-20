@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="other"><title id="tother">
 Les autres interfaces
 </title>
 
 <para>
-Pour sélectionner une interface: si vous voulez
+Pour sÃ©lectionner une interface: si vous voulez
 qu'il s'agisse de votre interface principale, lancez VLC depuis la
 ligne de commande avec <emphasis>--intf NomInterface</emphasis>, ou
-utilisez le panneau de préférences pour régler l'option <emphasis>Module
+utilisez le panneau de prÃ©fÃ©rences pour rÃ©gler l'option <emphasis>Module
 d'interface</emphasis>. Pour les interfaces graphiques, il est possible
-que le programme d'installation ait créé des raccourcis. Si vous voulez
+que le programme d'installation ait crÃ©Ã© des raccourcis. Si vous voulez
 que la nouvelle interface soit une interface additionnelle, utilisez la
-fenêtre de préférences de votre interface graphique pour régler l'option
-<emphasis>Modules d'interface supplémentaires</emphasis>. Vous pouvez
-également utiliser l'option <emphasis>--extraintf</emphasis> de la ligne
+fenÃªtre de prÃ©fÃ©rences de votre interface graphique pour rÃ©gler l'option
+<emphasis>Modules d'interface supplÃ©mentaires</emphasis>. Vous pouvez
+Ã©galement utiliser l'option <emphasis>--extraintf</emphasis> de la ligne
 de commande.
 </para>
 
@@ -23,7 +23,7 @@ de commande.
 <para>
 
 VLC inclut plusieurs interfaces graphiques selon
-votre système d'exploitation
+votre systÃ¨me d'exploitation
 
 </para>
 
@@ -33,9 +33,9 @@ votre système d'exploitation
 
 <para>
 
-Il existe deux interfaces graphiques différentes
-pour Windows. Des raccourcis sont créés pour les deux dans le menu
-Démarrer
+Il existe deux interfaces graphiques diffÃ©rentes
+pour Windows. Des raccourcis sont crÃ©Ã©s pour les deux dans le menu
+DÃ©marrer
 
 .</para>
 
@@ -43,9 +43,9 @@ Démarrer
 
 <para>
 
-Cette interface fonctionne à la fois sous Linux et
-Windows. Il s'agit actuellement de l'interface la plus complète et 
-qui possède le plus de fonctionnalités
+Cette interface fonctionne Ã  la fois sous Linux et
+Windows. Il s'agit actuellement de l'interface la plus complÃ¨te et 
+qui possÃ¨de le plus de fonctionnalitÃ©s
 
 .</para>
 
@@ -53,9 +53,9 @@ qui possède le plus de fonctionnalités
 
 <para>
 
- Cette interface fonctionne également à la fois
+ Cette interface fonctionne Ã©galement Ã  la fois
 pour Linux et Windows. Elle permet de fortement modifier l'aspect et le
-comportement de votre VLC. Elle est toujours de développement.
+comportement de votre VLC. Elle est toujours de dÃ©veloppement.
 
 </para>
 
@@ -68,7 +68,7 @@ comportement de votre VLC. Elle est toujours de développement.
 Il existe plusieurs interfaces graphiques pour
 GNU/Linux (GTK+, Gnome, QT, KDE), mais seulement deux sont actuellement
 maintenues: wxWindows et les Skins. Vous devriez probablement utiliser
-une de ces deux-là.
+une de ces deux-lÃ .
 
 </para>
 
@@ -79,7 +79,7 @@ une de ces deux-là.
 <para>
 
 Il n'existe qu'une seule interface, native, pour ce
-système
+systÃ¨me
 
 .</para>
 
@@ -89,14 +89,14 @@ système
 
 <sect1><title>
 
-Interfaces de contrôle
+Interfaces de contrÃ´le
 
 </title>
 
 <para>
 
-Les interfaces de contrôle vous permettent de
-prendre le contrôle de votre VLC de plusieurs façons différentes.
+Les interfaces de contrÃ´le vous permettent de
+prendre le contrÃ´le de votre VLC de plusieurs faÃ§ons diffÃ©rentes.
 
 </para>
 
@@ -105,7 +105,7 @@ prendre le contrôle de votre VLC de plusieurs façons différentes.
 <para>
 
 Cette interface a fait l'objet du chapitre
-précédent. Elle permet de contrôler VLC à l'aide d'une page web
+prÃ©cÃ©dent. Elle permet de contrÃ´ler VLC Ã  l'aide d'une page web
  
 .</para>
 
@@ -115,11 +115,11 @@ précédent. Elle permet de contrôler VLC à l'aide d'une page web
 
 <para>
 
-Ceci vous permet de contrôler VLC par des mouvements
-de la souris dans la fenêtre de sortie vidéo. Le bouton à utiliser par
-défaut est celui de droite. Les mouvements disponibles sont : à gauche
-(précédent), à droite (suivant), en haut à droite (plein écran), en bas
-à droite (stop).
+Ceci vous permet de contrÃ´ler VLC par des mouvements
+de la souris dans la fenÃªtre de sortie vidÃ©o. Le bouton Ã  utiliser par
+dÃ©faut est celui de droite. Les mouvements disponibles sont : Ã  gauche
+(prÃ©cÃ©dent), Ã  droite (suivant), en haut Ã  droite (plein Ã©cran), en bas
+Ã  droite (stop).
 
 </para>
 
@@ -129,7 +129,7 @@ défaut est celui de droite. Les mouvements disponibles sont : à gauche
 
 <para>
 
-Cette interface vous permet de contrôler VLC en utilisant
+Cette interface vous permet de contrÃ´ler VLC en utilisant
 CORBA
 
 .</para>
@@ -155,8 +155,8 @@ CORBA
 
 <para>
 
-Cette interface vous permet de contrôler VLC par des
-commandes tapées dans sa fenêtre de terminal.
+Cette interface vous permet de contrÃ´ler VLC par des
+commandes tapÃ©es dans sa fenÃªtre de terminal.
 
 </para>
 </sect2>
@@ -166,7 +166,7 @@ commandes tapées dans sa fenêtre de terminal.
 <para>
 
 Sous GNU/Linux, cette interface vous permet de
-contrôler VLC à l'aide d'une télécommande infrarouge.
+contrÃ´ler VLC Ã  l'aide d'une tÃ©lÃ©commande infrarouge.
 
 </para>
 </sect2>
@@ -176,7 +176,7 @@ contrôler VLC à l'aide d'une télécommande infrarouge.
 <para>
 
 Sous GNU/Linux, cette interface vous permet de
-contrôler VLC à l'aide d'un joystick
+contrÃ´ler VLC Ã  l'aide d'un joystick
 
 .</para>
 

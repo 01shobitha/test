@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="webbrowser-plugin"><title id="twebbrowser-plugin">
 Das Mozilla-Plugin
 </title>
@@ -7,8 +7,8 @@ Das Mozilla-Plugin
 VLC kann auch in einen Webbrowser integriert werden.
 Momentan steht diese Funktion nur mit
 <ulink url="http://www.mozilla.org/">Mozilla</ulink> unter GNU/Linux zur
-Verfügung. Ein experimentelles Plugin steht auch für Mac OS X und Microsoft Windows
-zur Verfügung.</para>
+VerfÃ¼gung. Ein experimentelles Plugin steht auch fÃ¼r Mac OS X und Microsoft Windows
+zur VerfÃ¼gung.</para>
 
 <sect1><title>
 
@@ -37,7 +37,7 @@ Sie sollten bereits die folgenden Zeilen in Ihrer
 
 
 VLCs neueste gepackte Version ist immer im offiziellen Debian unstable-branch.
-Dennoch sollten Sie unsere apt-get - Zeile benutzen, wenn Sie libdvdcss in dessen neuester Version benötigen:
+Dennoch sollten Sie unsere apt-get - Zeile benutzen, wenn Sie libdvdcss in dessen neuester Version benÃ¶tigen:
 </para>
 
 <programlisting>
@@ -74,7 +74,7 @@ Installieren Sie das Mozilla Entwicklungspaket
 
 <para>
 
-Installieren Sie die benötigten Bibliotheken wie für eine normale
+Installieren Sie die benÃ¶tigten Bibliotheken wie fÃ¼r eine normale
 VLC-Installation (aus den Quellen oder aus den Paketen mit den
 Entwicklungspaketen).
 
@@ -127,8 +127,8 @@ Beispiel 1
 
 In diesem Beispiel wird das Plugin einen HTTP-Stream
 innerhalb der Webseite lesen. Wenn der Anwender in den Vollbildmodus geht,
-wird er <keycap>f</keycap> drücken müssen, um in die normale Ansicht
-zurückzugelangen.
+wird er <keycap>f</keycap> drÃ¼cken mÃ¼ssen, um in die normale Ansicht
+zurÃ¼ckzugelangen.
 
 </para>
 

@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 
 <sect1><title>
 Modules de sortie audio
 </title>
 
 <para>
-Ces modules vous permettent de choisir le système de
-sortie du son. VLC essaie de deviner le module de sortie audio le plus adapté à votre système. Si vous souhaitez toutefois forcer l'utilisation d'un module spécifique, lancer VLC avec l'option suivante :
+Ces modules vous permettent de choisir le systÃ¨me de
+sortie du son. VLC essaie de deviner le module de sortie audio le plus adaptÃ© Ã  votre systÃ¨me. Si vous souhaitez toutefois forcer l'utilisation d'un module spÃ©cifique, lancer VLC avec l'option suivante :
 --aout modulename
 </para>
 
 
 <sect2><title>coreaudio</title>
 <para><emphasis>
-Activé par défaut sous Mac OS X
+ActivÃ© par dÃ©faut sous Mac OS X
 </emphasis></para>
 <para><emphasis>
 Pour Mac OS X seulement
@@ -24,7 +24,7 @@ Cette sortie audio utilise CoreAudio, sous Mac OS X
 <itemizedlist>
 <listitem>
 <para><emphasis>--coreaudio-dev &lt;integer&gt; </emphasis>:
-forcer l'utilisation d'un périphérique audio
+forcer l'utilisation d'un pÃ©riphÃ©rique audio
 </para>
 </listitem>
 </itemizedlist>
@@ -32,7 +32,7 @@ forcer l'utilisation d'un périphérique audio
 
 <sect2><title>directx</title>
 <para><emphasis>
-Activé par défaut sous Windows
+ActivÃ© par dÃ©faut sous Windows
 </emphasis></para>
 <para><emphasis>
 Pour Windows seulement
@@ -44,7 +44,7 @@ Cette sortie audio utilise directX under Windows
 
 <sect2><title>oss</title>
 <para><emphasis>
-Activé par défaut sur GNU/Linux
+ActivÃ© par dÃ©faut sur GNU/Linux
 </emphasis></para>
 <para><emphasis>
 Pour GNU/Linux et Unix seulement
@@ -52,20 +52,20 @@ Pour GNU/Linux et Unix seulement
 <para>
 Cette sortie son utilise OSS (Open Sound System)
 (<filename>/dev/dsp</filename>, par exemple, sous GNU/Linux). Votre
-noyau doit avoir été compilé avec le support de votre carte mère, ou, si
-vous utilisez ALSA (Advanced Linux Sound System), la couche d'émulation
-OSS doit être activée
+noyau doit avoir Ã©tÃ© compilÃ© avec le support de votre carte mÃ¨re, ou, si
+vous utilisez ALSA (Advanced Linux Sound System), la couche d'Ã©mulation
+OSS doit Ãªtre activÃ©e
 </para>
 &options-st;
 <itemizedlist>
 <listitem>
 <para><emphasis>--dspdev &lt;string&gt; </emphasis>:
-choisir un périphérique dsp OSS
+choisir un pÃ©riphÃ©rique dsp OSS
 </para>
 </listitem>
 <listitem>
 <para><emphasis>--oss-buggy, --no-oss-buggy </emphasis>
-Si le son est très haché en utilisant la sortie OSS, alors pvous pouvez peut-être résoudre le problème en activant cette option (désactivée par défaut)
+Si le son est trÃ¨s hachÃ© en utilisant la sortie OSS, alors pvous pouvez peut-Ãªtre rÃ©soudre le problÃ¨me en activant cette option (dÃ©sactivÃ©e par dÃ©faut)
 </para>
 </listitem>
 </itemizedlist>
@@ -78,14 +78,14 @@ Pour GNU/Linux seulement
 </emphasis></para>
 <para>
 Cette sortie audio, qui utilise ALSA (Advanced Linux
-Sound Architecture), ne fonctionne que sous GNU/Linux, et nécessite
-l'installation préalable des pilotes et librairies ALSA
+Sound Architecture), ne fonctionne que sous GNU/Linux, et nÃ©cessite
+l'installation prÃ©alable des pilotes et librairies ALSA
 </para>
 &options-st;
 <itemizedlist>
 <listitem>
 <para><emphasis>--alsadev &lt;string&gt; </emphasis>:
-Nom du périphérique ALSA
+Nom du pÃ©riphÃ©rique ALSA
 </para>
 </listitem>
 </itemizedlist>
@@ -98,8 +98,8 @@ Pour GNU/Linux &amp; Unix seulement
 </emphasis></para>
 <para>
 Cette sortie audio utilise ESD (Enlightened Sound
-Daemon) qui est généralement utilisé avec Gnome. Vous devez avoir le
-démon et ses librairies.
+Daemon) qui est gÃ©nÃ©ralement utilisÃ© avec Gnome. Vous devez avoir le
+dÃ©mon et ses librairies.
 </para></sect2>
 
 <sect2><title>arts</title>
@@ -109,24 +109,24 @@ Pour GNU/Linux &amp; Unix seulement
 </emphasis></para>
 <para>
 Cette sortie audio utilise aRts (le serveur de son
-de KDE). Vous devez avoir le démon et ses librairies
+de KDE). Vous devez avoir le dÃ©mon et ses librairies
 .</para></sect2>
 
 <sect2><title>waveout</title>
 <para><emphasis>
-Activé par défaut sous Windows
+ActivÃ© par dÃ©faut sous Windows
 </emphasis></para>
 <para><emphasis>
 Pour Windows seulement
 </emphasis></para><para>
-Cette sortie WAV est utilisée sous Windows.
+Cette sortie WAV est utilisÃ©e sous Windows.
 </para></sect2>
 
 <sect2><title>sdl</title>
 &enabled;
 <para>
 Cette sortie audio utilise SDL. Voir dans les sorties
-vidéo.
+vidÃ©o.
 </para></sect2>
 
 </sect1>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 
 <sect1><title>
 Dekoder
@@ -6,7 +6,7 @@ Dekoder
 
 <para>
 Die folgenden Module erlauben VLC diverse Codecs
-(d.h. Kompressionsformate) zu unterstützen.
+(d.h. Kompressionsformate) zu unterstÃ¼tzen.
 
 </para>
 
@@ -42,26 +42,26 @@ Dies ist ein freier MPEG-4/DivX/OpenDivX/Xvid Codec (siehe
 <itemizedlist>
 <listitem>
 <para><emphasis>--ffmpeg-dr, --no-ffmpeg-dr </emphasis>:
-Aktiviert oder deaktiviert direktes Rendering (standardmäßig aktiviert)
+Aktiviert oder deaktiviert direktes Rendering (standardmÃ¤ÃŸig aktiviert)
 </para></listitem>
 <listitem><para><emphasis>--ffmpeg-error-resilience </emphasis>:
 Ganzzahl zur Einstellung des Fehlerwiderstandsniveau von -1 bis 99
 (-1 deaktiviert die Fehlerkorrektur komplett)
 </para></listitem>
 <listitem><para><emphasis>--ffmpeg-workaround-bugs </emphasis>:
-Versucht einige Fehler zu umgehen. Fügen Sie die Werte entsprechend der Fehler, die
-Sie beheben möchten hinzu und übergeben Sie sie als Argument: 1 = autodetect, 2 = old msmpeg4, 4 = xvid interlaces, 8 = ump4, 16 = no padding, 32 = ac vlc, 64 = Qpel chroma
+Versucht einige Fehler zu umgehen. FÃ¼gen Sie die Werte entsprechend der Fehler, die
+Sie beheben mÃ¶chten hinzu und Ã¼bergeben Sie sie als Argument: 1 = autodetect, 2 = old msmpeg4, 4 = xvid interlaces, 8 = ump4, 16 = no padding, 32 = ac vlc, 64 = Qpel chroma
 </para></listitem>
 <listitem><para><emphasis>--ffmpeg-hurry-up, --no-ffmpeg-hurry-up </emphasis>:
 Erlaubt dem Dekoder Frames nur teilweise oder gar nicht zu dekodieren, wenn er in
-Verzug gerät. Dies kann auf langsameren Rechnern nützlich sein, wird aber eine schlechtere Bildqualität zur
+Verzug gerÃ¤t. Dies kann auf langsameren Rechnern nÃ¼tzlich sein, wird aber eine schlechtere BildqualitÃ¤t zur
 Folge haben.
 </para></listitem>
 <listitem><para><emphasis>--ffmpeg-truncated </emphasis>:
-Kürzt den Stream:  -1=automatisch, 0=deaktiviert, 1=aktiviert
+KÃ¼rzt den Stream:  -1=automatisch, 0=deaktiviert, 1=aktiviert
 </para></listitem>
 <listitem><para><emphasis>--ffmpeg-pp-q </emphasis>:
-Nachbearbeitungsqualität (Ganzzahl zwischen 0 und 6). Ein höheres Niveau benötigt
+NachbearbeitungsqualitÃ¤t (Ganzzahl zwischen 0 und 6). Ein hÃ¶heres Niveau benÃ¶tigt
 mehr Prozessorleistung und produziert bessere Bilder.
 </para></listitem>
 <listitem><para><emphasis>--ffmpeg-pp-name </emphasis>:
@@ -83,7 +83,7 @@ Dieser Codec erlaubt MPEG2-Dateien zu lesen.
 <para>
 Dieser Codec ist ein sehr eleganter MP3-Dekoder, der nur
 Ganzzahl benutzt. Dies erlaubt die Benutzung auf Prozessoren, die keine
-Fließkommaunterstützung haben, wie beispielsweise auf PDAs.
+FlieÃŸkommaunterstÃ¼tzung haben, wie beispielsweise auf PDAs.
 
 </para>
 </sect2>
@@ -124,7 +124,7 @@ farbige Untertitel und Transparenzen nicht verarbeitet.
 </para>
 
 <para>
-Siehe für eine Beschreibung derartiger Formate: <ulink url="http://sam.zoy.org/writings/dvd/subtitles">http://sam.zoy.org/writings/dvd/subtitles</ulink>.
+Siehe fÃ¼r eine Beschreibung derartiger Formate: <ulink url="http://sam.zoy.org/writings/dvd/subtitles">http://sam.zoy.org/writings/dvd/subtitles</ulink>.
 
 </para>
 </sect2>
@@ -149,7 +149,7 @@ theora ist ein neuer, experimenteller Codec des Ogg Projekts
 &disabled;
 <para>
 Dieser ist ein Ogg/Vorbis Codec, der nur Ganzzahlberechnungen
-macht. Dies erlaubt die Benutzung auf Prozessoren ohne Fließkommazahlunterstützung
+macht. Dies erlaubt die Benutzung auf Prozessoren ohne FlieÃŸkommazahlunterstÃ¼tzung
 (siehe <ulink url="http://www.vorbis.com">Ogg Vorbis Website</ulink>).
 
 </para></sect2>
@@ -165,7 +165,7 @@ lesen.
 <sect2><title>xvid</title>
 &disabled;
 <para>
-Dieser Codec erlaubt Ihnen mit Xvid über die xvidcore-Bibliothek
+Dieser Codec erlaubt Ihnen mit Xvid Ã¼ber die xvidcore-Bibliothek
 kodierte Dateien zu lesen (siehe <ulink url="http://www.xvid.org/">Xvid Website</ulink>).
 
 </para></sect2> 

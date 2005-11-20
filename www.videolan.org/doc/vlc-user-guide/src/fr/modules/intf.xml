@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 
 <sect1><title>
 Modules d'interface
@@ -14,7 +14,7 @@ interfaces (interface graphique ou interface de controle).
 <para>
 L'interface wxWindows est une interface graphique
 portable qui fonctionne sous GNU/Linux et Windows. C'est maintenant l'interface
-graphique la plus à jour pour ces deux systèmes
+graphique la plus Ã  jour pour ces deux systÃ¨mes
 .</para></sect2>
 
 
@@ -22,7 +22,7 @@ graphique la plus à jour pour ces deux systèmes
 &enabled;
 <para>
 Cette interface skinnable, qui fonctionne sous Win32
-et X11 vous permet de très simplement créer vos propres skins, à l'aide
+et X11 vous permet de trÃ¨s simplement crÃ©er vos propres skins, Ã  l'aide
 de fichiers XML
 .</para>
 &options-st;
@@ -30,20 +30,20 @@ de fichiers XML
 <listitem>
   <para><emphasis>--skin_last</emphasis> :
     Cette option vous permet de donner la 
-     dernière skin utilisée (l'argument est une chaîne).
+     derniÃ¨re skin utilisÃ©e (l'argument est une chaÃ®ne).
   </para></listitem>
   <listitem><para><emphasis>--skin_config</emphasis> :
     Cette option vous permet de donner la 
-     configuration de la skin (l'argument est une chaîne).
+     configuration de la skin (l'argument est une chaÃ®ne).
   </para></listitem>
   <listitem><para><emphasis>--show_in_tray, --noshow_in_tray</emphasis> :
-    Indique si l'application doit être visible
-     dans la barre système (désactivé par défaut).
+    Indique si l'application doit Ãªtre visible
+     dans la barre systÃ¨me (dÃ©sactivÃ© par dÃ©faut).
   </para></listitem>
   <listitem><para><emphasis>
 	--show_in_taskbar, --noshow_in_taskbar</emphasis> :
-    Indique si l'application doit être visible
-     dans la barre des tâches (activé par défaut).
+    Indique si l'application doit Ãªtre visible
+     dans la barre des tÃ¢ches (activÃ© par dÃ©faut).
   </para>
  </listitem>
 </itemizedlist>
@@ -52,10 +52,10 @@ de fichiers XML
 <sect2><title>gtk</title>
 &enabled;
 <para>
-Ceci est l'interface GTK+, qui peut également être
-utilisée sous Windows. Vous devez disposer des librairies GTK et de
-en-têtes pour la compilation. Attention, cette interface n'est plus maintenue, et
-ne présente pas toutes les possibilités actuelles de VLC.
+Ceci est l'interface GTK+, qui peut Ã©galement Ãªtre
+utilisÃ©e sous Windows. Vous devez disposer des librairies GTK et de
+en-tÃªtes pour la compilation. Attention, cette interface n'est plus maintenue, et
+ne prÃ©sente pas toutes les possibilitÃ©s actuelles de VLC.
 .</para>
 </sect2>
 
@@ -65,22 +65,22 @@ ne présente pas toutes les possibilités actuelles de VLC.
 <para>
 Ceci est l'interface Gnome. Vous aurez besoin des
 librairies Gnome (<emphasis>libgnome32</emphasis> sous Debian GNU/Linux)
-et des en-têtes pour la compilation (<emphasis>libgnome-dev</emphasis>
-sous Debian GNU/Linux). Attention, cette interface n'est plus maintenue, et ne présente
-pas toutes les possibilités actuelles de VLC.
+et des en-tÃªtes pour la compilation (<emphasis>libgnome-dev</emphasis>
+sous Debian GNU/Linux). Attention, cette interface n'est plus maintenue, et ne prÃ©sente
+pas toutes les possibilitÃ©s actuelles de VLC.
 .</para>
 &options-st;
 <itemizedlist>
 <listitem>
 <para><emphasis>--gnome-tooltips, --no-gnome-tooltips </emphasis>:
-Active l'affichage des bulles d'aide (activé par défaut)
+Active l'affichage des bulles d'aide (activÃ© par dÃ©faut)
 </para></listitem>
 <listitem><para><emphasis>--gnome-toolbartext, --no-gnome-toolbartext </emphasis>:
-Active l'affichage du texte sur les boutons (activé par défaut)
+Active l'affichage du texte sur les boutons (activÃ© par dÃ©faut)
 </para></listitem>
 <listitem><para><emphasis>--gnome-prefs-maxh </emphasis>:
 L'argument (un entier) donne la hauteur maximale des
-	fenêtres de configuration
+	fenÃªtres de configuration
 </para>
 </listitem>
 </itemizedlist>
@@ -91,9 +91,9 @@ L'argument (un entier) donne la hauteur maximale des
 <para>
 Ceci est le module d'interface QT. Vous aurez besoin
 des librairies QT (<emphasis>libqt2</emphasis> sous Debian GNU/Linux) et
-des en-têtes pour la compilation (<emphasis>libqt-dev</emphasis> sous
-Debian GNU/Linux). Attention, cette interface n'est plus maintenue, et ne présente pas
-toutes les possibilités actuelles de VLC.
+des en-tÃªtes pour la compilation (<emphasis>libqt-dev</emphasis> sous
+Debian GNU/Linux). Attention, cette interface n'est plus maintenue, et ne prÃ©sente pas
+toutes les possibilitÃ©s actuelles de VLC.
 .</para></sect2>
 
 <sect2><title>kde</title>
@@ -102,9 +102,9 @@ toutes les possibilités actuelles de VLC.
 <para>
 Ceci est le module d'interface KDE. Vous
 aurez besoin des librairies Kde (<emphasis>kdelibs3</emphasis>
-sous Debian GNU/Linux) et des en-têtes pour la compilation
+sous Debian GNU/Linux) et des en-tÃªtes pour la compilation
 ((<emphasis>kde-devel</emphasis> sous Debian GNU/Linux). Attention, cette interface
-n'est plus maintenue, et ne présente pas toutes les possibilités actuelles de VLC.
+n'est plus maintenue, et ne prÃ©sente pas toutes les possibilitÃ©s actuelles de VLC.
 .</para>
 &options-st;
 <itemizedlist>
@@ -119,21 +119,21 @@ Chemin du fichier <filename>ui.rc</filename>
 <sect2><title>rc</title>
 &always;
 <para>
-Ceci est un module de contrôle à distance,
+Ceci est un module de contrÃ´le Ã  distance,
 qui fonctionne en mode texte depuis une console. Vous pouvez
-ainsi contrôler le VLC par des scripts ou des commandes, comme
+ainsi contrÃ´ler le VLC par des scripts ou des commandes, comme
 <emphasis>play</emphasis>,<emphasis>stop</emphasis>, etc....
 .</para>
 &options-st;
 <itemizedlist>
 <listitem>
 <para><emphasis>--rc-show-pos, --no-rc-show-pos </emphasis> :
-Active ou désactive un compteur qui indique
-chaque seconde la position dans le flux (désactivé par défaut)
+Active ou dÃ©sactive un compteur qui indique
+chaque seconde la position dans le flux (dÃ©sactivÃ© par dÃ©faut)
 </para></listitem>
 <listitem><para><emphasis>--fake-tty, --no-fake-tty </emphasis>:
-Active ou désactive l'émulation d'un terminal virtuel
-TTY (désactivé par défaut)
+Active ou dÃ©sactive l'Ã©mulation d'un terminal virtuel
+TTY (dÃ©sactivÃ© par dÃ©faut)
 </para>
 </listitem>
 </itemizedlist>
@@ -143,22 +143,22 @@ TTY (désactivé par défaut)
 <sect2><title>http</title>
 &always;
 <para>
-Ce module vous permet de contrôler VLC à distance
-par un navigateur web. Vous pouvez créer vos propres pages web de
-contrôle.
+Ce module vous permet de contrÃ´ler VLC Ã  distance
+par un navigateur web. Vous pouvez crÃ©er vos propres pages web de
+contrÃ´le.
 .</para>
 &options-st;
 <itemizedlist>
 <listitem>
 <para><emphasis>--http-host </emphasis>:
-L'argument, une chaîne, donne l'adresse locale, sous
-la forme adresse[:port], où l'adresse est soit une adresse IP, soit un 
-nom DNS, et où port et le port sur lequel l'interface HTTP sera disponible
-Le port par défaut est 8080. L'adresse par défaut est localhost; ceci
-devrait être bon pour presque tout le monde
+L'argument, une chaÃ®ne, donne l'adresse locale, sous
+la forme adresse[:port], oÃ¹ l'adresse est soit une adresse IP, soit un 
+nom DNS, et oÃ¹ port et le port sur lequel l'interface HTTP sera disponible
+Le port par dÃ©faut est 8080. L'adresse par dÃ©faut est localhost; ceci
+devrait Ãªtre bon pour presque tout le monde
 </para></listitem>
 <listitem><para><emphasis>--http-src </emphasis>:
-Chemin du répertoire contenant les pages HTML à 
+Chemin du rÃ©pertoire contenant les pages HTML Ã  
 servir.
 </para></listitem></itemizedlist>
 </sect2>
@@ -168,8 +168,8 @@ servir.
 &linux-only;
 <para>
 Cette interface en mode texte utilise la
-bibliothèque ncurses. Pour la compiler, vous devez avoir les
-en-têtes ncurses (<emphasis>libncurses5-dev</emphasis> sous Debian
+bibliothÃ¨que ncurses. Pour la compiler, vous devez avoir les
+en-tÃªtes ncurses (<emphasis>libncurses5-dev</emphasis> sous Debian
 GNU/Linux)
 .</para></sect2>
 
@@ -177,8 +177,8 @@ GNU/Linux)
 &disabled;
 &linux-only;
 <para>
-Ce module permet de contrôler VLC par une
-télécommande. Afin de vous aider, un fichier lircrc est fourni (voir
+Ce module permet de contrÃ´ler VLC par une
+tÃ©lÃ©commande. Afin de vous aider, un fichier lircrc est fourni (voir
 <filename>doc/lirc/example.lircrc</filename>)
 .</para></sect2>
 
@@ -192,18 +192,18 @@ Embedded (pour iPaq)
 <sect2><title>gestures</title>
 &always;
 <para>
-Ce module vous permet de contrôler VLC par des
+Ce module vous permet de contrÃ´ler VLC par des
 mouvements de souris
 .</para>
 &options-st;
 <itemizedlist>
 <listitem>
 <para><emphasis>--gestures-threshold </emphasis>:
-L'argument, un entier, est la quantité de 
-mouvement requise avant qu'un mouvement ne soit enregistré
+L'argument, un entier, est la quantitÃ© de 
+mouvement requise avant qu'un mouvement ne soit enregistrÃ©
 </para></listitem>
 <listitem><para><emphasis>--gestures-button {left,middle,right} </emphasis>:
-Le bouton choisi devra être enfoncé avant
+Le bouton choisi devra Ãªtre enfoncÃ© avant
 de faire le mouvement
 </para>
 </listitem>
@@ -214,7 +214,7 @@ de faire le mouvement
 &disabled;
 &linux-only;
 <para>
-Ce module vous permet de contrôler VLC à l'aide d'un
+Ce module vous permet de contrÃ´ler VLC Ã  l'aide d'un
 joystick et est hautement configurable.
 .</para></sect2>
 </sect1>

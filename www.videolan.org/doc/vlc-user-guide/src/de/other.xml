@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="other"><title id="tother">
 Weitere Interfaces
 </title>
@@ -6,17 +6,17 @@ Weitere Interfaces
 <para>
 
 
-Ein Interface auswählen: Wenn Sie es zum
-Hauptinterface machen möchten, starten Sie VLC entweder über die
+Ein Interface auswÃ¤hlen: Wenn Sie es zum
+Hauptinterface machen mÃ¶chten, starten Sie VLC entweder Ã¼ber die
 Befehlszeile mit <emphasis>--intf MeinInterface</emphasis> oder
 benutzen Sie das Einstellungsfenster, um die 
-<emphasis>Interface-Modul</emphasis>-Option einzustellen. Für
-graphische Interfaces haben Sie eventuell bereits Verknüpfungen bzw.
+<emphasis>Interface-Modul</emphasis>-Option einzustellen. FÃ¼r
+graphische Interfaces haben Sie eventuell bereits VerknÃ¼pfungen bzw.
 Aliase, die vom Installationsprogramm erzeugt wurden. Wenn Sie das
-Interface zusätzlich zu einem anderen benutzen möchten, nutzen
+Interface zusÃ¤tzlich zu einem anderen benutzen mÃ¶chten, nutzen
 Sie Ihr Einstellungsfenster zur Festlegung der
 <emphasis>Extra Interface-Module</emphasis>-Option. Alternativ
-dazu können Sie die <emphasis>--extraintf</emphasis>-Befehlszeilenoption
+dazu kÃ¶nnen Sie die <emphasis>--extraintf</emphasis>-Befehlszeilenoption
 benutzen.
 </para>
 
@@ -30,7 +30,7 @@ Graphische Interfaces
 <para>
 
 
-VLC enthält mehrere graphische Interfaces entsprechend
+VLC enthÃ¤lt mehrere graphische Interfaces entsprechend
 Ihres Betriebssystems
 </para>
 
@@ -42,7 +42,7 @@ Ihres Betriebssystems
 
 
 Es gibt zwei unterschiedliche graphische Interfaces
-für Windows. Es sind Verknüpfungen für beide im Startmenü erzeugt
+fÃ¼r Windows. Es sind VerknÃ¼pfungen fÃ¼r beide im StartmenÃ¼ erzeugt
 worden.
 
 </para>
@@ -52,7 +52,7 @@ worden.
 <para>
 
 
-Dieses Interface läuft unter Linux und Windows. Sie
+Dieses Interface lÃ¤uft unter Linux und Windows. Sie
 ist das derzeit kompletteste, funktionsreichste.
 
 </para>
@@ -60,8 +60,8 @@ ist das derzeit kompletteste, funktionsreichste.
 <para><emphasis>Skins</emphasis></para>
 
 <para>
-Dieses Interface läuft auch unter Linux und Windows.
-Sie erlaubt drastische Änderungen des Look-and-Feels von VLC. Sie ist noch
+Dieses Interface lÃ¤uft auch unter Linux und Windows.
+Sie erlaubt drastische Ã„nderungen des Look-and-Feels von VLC. Sie ist noch
 in Entwicklung.
 </para>
 
@@ -70,7 +70,7 @@ in Entwicklung.
 <listitem><para><emphasis>GNU/Linux</emphasis></para>
 
 <para>
-Viele graphische Interfaces sind für GNU/Linux verfügbar
+Viele graphische Interfaces sind fÃ¼r GNU/Linux verfÃ¼gbar
 (GTK+, Gnome, QT, KDE), aber nur zwei von ihnen werden derzeit gewartet:
 wxWindows und das Skins-Interface. Sie sollten eine von diesen benutzen.
 </para>
@@ -80,7 +80,7 @@ wxWindows und das Skins-Interface. Sie sollten eine von diesen benutzen.
 <listitem><para><emphasis>Mac OS X</emphasis></para>
 
 <para>
-Es existiert nur ein natives Interface für dieses
+Es existiert nur ein natives Interface fÃ¼r dieses
 System.
 </para>
 
@@ -100,7 +100,7 @@ Kontrolle von VLC zu benutzen.
 <sect2><title>corba</title>
 
 <para>
-Dies erlaubt Ihnen VLC über CORBA zu kontrollieren.
+Dies erlaubt Ihnen VLC Ã¼ber CORBA zu kontrollieren.
 </para>
 
 </sect2>
@@ -109,7 +109,7 @@ Dies erlaubt Ihnen VLC über CORBA zu kontrollieren.
 
 <para>
 Benutzen Sie dieses Interface, wenn Sie <emphasis>kein</emphasis>
-Interface möchten! Damit erhalten Sie nur einen selbst-enthaltenen Befehlszeilenstring.
+Interface mÃ¶chten! Damit erhalten Sie nur einen selbst-enthaltenen Befehlszeilenstring.
 </para>
 
 <para>
@@ -124,10 +124,10 @@ Zum Beispiel:</para>
 <sect2><title>gestures</title>
 
 <para>
-Dies erlaubt Ihnen VLC über Mausgesten im
-Bildausgabefenster zu steuern. Standardmäßig wird es über Rechtsklicken
+Dies erlaubt Ihnen VLC Ã¼ber Mausgesten im
+Bildausgabefenster zu steuern. StandardmÃ¤ÃŸig wird es Ã¼ber Rechtsklicken
 und Machen der Gesten benutzt. Gesten sind: links (Vorheriges),
-rechts (nächstes), nach oben-rechts (Vollbild), nach unten-rechts (Stopp).
+rechts (nÃ¤chstes), nach oben-rechts (Vollbild), nach unten-rechts (Stopp).
 </para>
 
 </sect2>
@@ -136,7 +136,7 @@ rechts (nächstes), nach oben-rechts (Vollbild), nach unten-rechts (Stopp).
 
 <para>
 Dieses Interface wurde im vorherigen Kapitel besprochen.
-Sie erlaubt die entfernte oder lokale Kontrolle von VLC über eine Webseite.
+Sie erlaubt die entfernte oder lokale Kontrolle von VLC Ã¼ber eine Webseite.
 </para>
 
 </sect2>
@@ -144,7 +144,7 @@ Sie erlaubt die entfernte oder lokale Kontrolle von VLC über eine Webseite.
 <sect2><title>joystick</title>
 
 <para>
-Unter GNU/Linux können Sie mit diesem Interface VLC mit einem
+Unter GNU/Linux kÃ¶nnen Sie mit diesem Interface VLC mit einem
 Joystick steuern.
 </para>
 
@@ -153,7 +153,7 @@ Joystick steuern.
 <sect2><title>lirc</title>
 
 <para>
-Unter GNU/Linux erlaubt Ihnen dies VLC über eine
+Unter GNU/Linux erlaubt Ihnen dies VLC Ã¼ber eine
 Intrarotfernbedienung zu steuern.
 </para>
 </sect2>
@@ -161,7 +161,7 @@ Intrarotfernbedienung zu steuern.
 <sect2><title>rc</title>
 
 <para>
-Dies erlaubt Ihnen VLC über die Eingabe von Befehlen in dessen
+Dies erlaubt Ihnen VLC Ã¼ber die Eingabe von Befehlen in dessen
 Terminalfenster zu steuern.
 </para>
 </sect2>

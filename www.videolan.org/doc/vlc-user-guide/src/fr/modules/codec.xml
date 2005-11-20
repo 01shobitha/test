@@ -1,67 +1,67 @@
-<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 
 <sect1><title>
-Décodeurs
+DÃ©codeurs
 </title>
 
 <para>
-Ces modules permettent à VLC de supporter de
+Ces modules permettent Ã  VLC de supporter de
 nombreux codecs (formats de compression)
 .</para>
 
 <sect2><title>a52</title>
 &enabled;
 <para>
-Ce décodeur utilise liba52 (voir le <ulink
+Ce dÃ©codeur utilise liba52 (voir le <ulink
 url="http://liba52.sourceforge.net/">site liba52</ulink>
 ).</para></sect2>
 
 <sect2><title>cinepak</title>
 &enabled;
 <para>
-Ce décodeur lit le format Cinepak
+Ce dÃ©codeur lit le format Cinepak
 .</para></sect2>
 
 <sect2><title>faad</title>
 &disabled;
 <para>
-Faas est un décodeur audio MPEG-4
+Faas est un dÃ©codeur audio MPEG-4
 .</para></sect2>
 
 <sect2><title>ffmpeg</title>
 &enabled;
 <para>
-Ceci est un décodeur MPEG-4/DivX/OpenDivX/Xvid (voir le
+Ceci est un dÃ©codeur MPEG-4/DivX/OpenDivX/Xvid (voir le
 <ulink url="http://ffmpeg.sourceforge.net/"> site ffmpeg</ulink>)
 .</para>
 &options-st;
 <itemizedlist>
 <listitem>
 <para><emphasis>--ffmpeg-dr, --no-ffmpeg-dr </emphasis>:
-Active ou désactive le rendu direct (activé par défaut)
+Active ou dÃ©sactive le rendu direct (activÃ© par dÃ©faut)
 </para></listitem>
 <listitem><para><emphasis>--ffmpeg-error-resilience </emphasis>:
-Un entier qui permet de régler le niveau de résistance aux 
-erreurs sur les flux, entre -1 et 99 (-1 désactive toute correction d'erreur)
+Un entier qui permet de rÃ©gler le niveau de rÃ©sistance aux 
+erreurs sur les flux, entre -1 et 99 (-1 dÃ©sactive toute correction d'erreur)
 </para></listitem>
 <listitem><para><emphasis>--ffmpeg-workaround-bugs </emphasis>:
-Règle quelques problèmes. Ajoutez les valeurs correspondants aux problèmes à régler, et entrez ceci comme argument:  1 = autodetect, 2 = old msmpeg4, 4 = xvid interlaces, 8 = ump4, 16 = no padding, 32 = ac vlc, 64 = Qpel chroma.
-Sie beheben möchten hinzu und übergeben Sie sie als Argument: 1 = autodetect, 2 = old msmpeg4, 4 = xvid interlaces, 8 = ump4, 16 = no padding, 32 = ac vlc, 64 = Qpel chroma
+RÃ¨gle quelques problÃ¨mes. Ajoutez les valeurs correspondants aux problÃ¨mes Ã  rÃ©gler, et entrez ceci comme argument:  1 = autodetect, 2 = old msmpeg4, 4 = xvid interlaces, 8 = ump4, 16 = no padding, 32 = ac vlc, 64 = Qpel chroma.
+Sie beheben mÃ¶chten hinzu und Ã¼bergeben Sie sie als Argument: 1 = autodetect, 2 = old msmpeg4, 4 = xvid interlaces, 8 = ump4, 16 = no padding, 32 = ac vlc, 64 = Qpel chroma
 </para></listitem>
 <listitem><para><emphasis>--ffmpeg-hurry-up, --no-ffmpeg-hurry-up </emphasis>:
-Activer cette option permet au décodeur de ne décoder que partiellement, voir pas du tout, certaines images, s'il est en retard. Ceci est utile sur les machines peu puissantes, mais produit des images de mauvaise qualité.
-Verzug gerät. Dies kann auf langsameren Rechnern nützlich sein, wird aber eine schlechtere Bildqualität zur
+Activer cette option permet au dÃ©codeur de ne dÃ©coder que partiellement, voir pas du tout, certaines images, s'il est en retard. Ceci est utile sur les machines peu puissantes, mais produit des images de mauvaise qualitÃ©.
+Verzug gerÃ¤t. Dies kann auf langsameren Rechnern nÃ¼tzlich sein, wird aber eine schlechtere BildqualitÃ¤t zur
 Folge haben.
 </para></listitem>
 <listitem><para><emphasis>--ffmpeg-truncated </emphasis>:
-Tronquer le flux:  -1=auto, 0=désactivé, 1=activé
+Tronquer le flux:  -1=auto, 0=dÃ©sactivÃ©, 1=activÃ©
 </para></listitem>
 <listitem><para><emphasis>--ffmpeg-pp-q </emphasis>:
-Qualité du post-traitement (entier entre 0 et 6). Un nombre plus élevé demande plus de puissance, mais produira un meilleur flux.
+QualitÃ© du post-traitement (entier entre 0 et 6). Un nombre plus Ã©levÃ© demande plus de puissance, mais produira un meilleur flux.
 mehr Prozessorleistung und produziert bessere Bilder.
 </para></listitem>
 <listitem><para><emphasis>--ffmpeg-pp-name </emphasis>:
-Série de filtre de postraitement
+SÃ©rie de filtre de postraitement
 </para></listitem>
 
 </itemizedlist>
@@ -76,27 +76,27 @@ Ceci permet de lire les fichiers MPEG2
 <sect2><title>mad</title>
 &enabled;
 <para>
-Ce décodeur décode les MP3 en n'utilisant que des
+Ce dÃ©codeur dÃ©code les MP3 en n'utilisant que des
 nombres entiers, ce qui permet de l'utiliser sur les PDAs
 .</para>
 </sect2>
 
 <sect2><title>ogt</title>
 &enabled;
-<para> OGT gères les sous-titres SVCD (Philips Overlay Graphics Text ou
-OGT) et les sous-titres utilisés par les VCD Chaoji (connus sous le nom
+<para> OGT gÃ¨res les sous-titres SVCD (Philips Overlay Graphics Text ou
+OGT) et les sous-titres utilisÃ©s par les VCD Chaoji (connus sous le nom
 de CVD).</para>
 <para>Utilisez l'option
  <filename>--spu-channel</filename> <emphasis>&lt;entier&gt;</emphasis>
-pour sélectionner une piste de sous-titres à afficher. L'entier devrait
-être entre -1 et 3. (les formats de sous-titres des CVD et SVCD autorisent
-jusqu'à 4 sous-titres). La valeur -1 déselectionne les sous-titres..</para>
+pour sÃ©lectionner une piste de sous-titres Ã  afficher. L'entier devrait
+Ãªtre entre -1 et 3. (les formats de sous-titres des CVD et SVCD autorisent
+jusqu'Ã  4 sous-titres). La valeur -1 dÃ©selectionne les sous-titres..</para>
 </sect2>
 
 <sect2><title>spudec</title>
 &enabled;
 <para>
-spudec gère les sous-titres DVD. Les sous-titres en vraies couleurs 
+spudec gÃ¨re les sous-titres DVD. Les sous-titres en vraies couleurs 
 et la transparence ne sont pas pris en charge.
 </para>
 </sect2>
@@ -104,14 +104,14 @@ et la transparence ne sont pas pris en charge.
 <sect2><title>tarkin</title>
 &disabled;
 <para>
-tarkin est décodeur expréimental du projet Ogg (voir
+tarkin est dÃ©codeur exprÃ©imental du projet Ogg (voir
 <ulink url="http://www.vorbis.com">le site Ogg/Vorbis</ulink>)
 .</para></sect2>
 
 <sect2><title>theora</title>
 &disabled;
 <para>
-theora est décodeur expréimental du projet Ogg (voir
+theora est dÃ©codeur exprÃ©imental du projet Ogg (voir
 <ulink url="http://www.vorbis.com">le site Ogg/Vorbis</ulink>)
 .</para></sect2>
 
@@ -127,14 +127,14 @@ Ogg/Vorbis</ulink>)
 <sect2><title>vorbis</title>
 &enabled;
 <para>
-Ce décodeur vous permet de lire les fichiers audio
-encodés en Vorbis
+Ce dÃ©codeur vous permet de lire les fichiers audio
+encodÃ©s en Vorbis
 .</para></sect2>
 
 <sect2><title>xvid</title>
 &disabled;
 <para>
-Ce décodeur vous permet de décoder les fichiers Xvid grâce à la librairie xvidcore.
+Ce dÃ©codeur vous permet de dÃ©coder les fichiers Xvid grÃ¢ce Ã  la librairie xvidcore.
 (voir le <ulink url="http://www.xvid.org/">site Xvid</ulink>)
 .</para></sect2> 
 </sect1>

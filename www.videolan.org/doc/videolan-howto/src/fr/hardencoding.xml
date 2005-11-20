@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="hardencoding"><title id="thardencoding">
 Diffusez depuis une carte d'encodage MPEG
 </title>
@@ -32,7 +32,7 @@ Hauppauge WinTV-PVR-250 et WinTV-PVR-350,
 <para>
 
 Les Hauppauge WinTV-PVR-250/350 donne de bien meilleurs
-résultats et est moins chère que la Visiontech Kfir
+rÃ©sultats et est moins chÃ¨re que la Visiontech Kfir
 
 
 .</para>
@@ -63,11 +63,11 @@ sur <ulink url="http://bytesex.org/v4l/">Video4Linux HQ</ulink>
 
 <para>
 
-Quand votre noyau est prêt,
+Quand votre noyau est prÃªt,
 installez la version CVS des drivers Linux pour la
 Hauppauge WinTV-PVR-250/350. Vous les trouverez sur <ulink url="http://ivtv.sourceforge.net/">ivtv.sourceforge.net</ulink>.
-Ensuite, vous devrez créer les périphériques et charger les modules;
-pour celà, référez vous à la documentation des drivers
+Ensuite, vous devrez crÃ©er les pÃ©riphÃ©riques et charger les modules;
+pour celÃ , rÃ©fÃ©rez vous Ã  la documentation des drivers
 
 
 .</para>
@@ -84,7 +84,7 @@ Diffusez avec VLC
 <note><para>
 
 Vous devez ajouter <command>--enable-pvr</command>
-à <command>./configure</command> our cela.
+Ã  <command>./configure</command> our cela.
 
 
 </para></note>
@@ -96,7 +96,7 @@ bitrate=3000000:maxbitrate=4000000 --sout udp:192.168.0.42 --ttl 12 --cr-average
 
 <para>
 
-où
+oÃ¹
  
 
 :</para>
@@ -105,30 +105,30 @@ où
 
 <listitem><para><emphasis>/dev/video0</emphasis> 
 
-est l'adresse correspondant à la carte
+est l'adresse correspondant Ã  la carte
 
 
 ,</para></listitem>
 
 <listitem><para><emphasis>norm=secam</emphasis>
 
-est le nom du standard du signal analogique (celà
-peut être pal, secam ou ntsc
+est le nom du standard du signal analogique (celÃ 
+peut Ãªtre pal, secam ou ntsc
 
 
 ,</para></listitem>
 
 <listitem><para><emphasis>size=720x576</emphasis>
 
-est la taille de la vidéo que vous diffusez
+est la taille de la vidÃ©o que vous diffusez
 
 
 ,</para></listitem>
 
 <listitem><para><emphasis>frequency=567250</emphasis>
 
-est la fréquence en kHz de la chaîne que vous
-désirez diffuser
+est la frÃ©quence en kHz de la chaÃ®ne que vous
+dÃ©sirez diffuser
 
 
 ,</para></listitem>
@@ -158,14 +158,14 @@ est le taux de compression maximal du flux
 <listitem><para>
 
 l'adresse IP de la machine vers laquelle vous
-désirez diffuser en unicast
+dÃ©sirez diffuser en unicast
 
 
 ;</para></listitem>
 
 <listitem><para>
 
-le nom DNS de la machine vers laquelle vous désirez
+le nom DNS de la machine vers laquelle vous dÃ©sirez
 envoyer en unicast
 
 
@@ -192,7 +192,7 @@ IP (cela signifie qu'ils pourront traverser 11 routeurs)
 
 <listitem><para><emphasis>1000</emphasis>
 
- est un paramètre secret qui permet de contourner un bug de la carte
+ est un paramÃ¨tre secret qui permet de contourner un bug de la carte
 
 
 .</para></listitem>
@@ -219,7 +219,7 @@ Vous devez utiliser la version SVN de VLS
 <para>
 
 Il n'existe pas de ligne de commande pour ce
-type d'entrée pour l'instant, vous devez donc utiliser le fichier de
+type d'entrÃ©e pour l'instant, vous devez donc utiliser le fichier de
 configuration
 
 
@@ -320,7 +320,7 @@ end
 
 <para>
 
-Une fois que vous avez adapté ce fichier de
+Une fois que vous avez adaptÃ© ce fichier de
 configuration, lancez VLS
 
 
@@ -349,11 +349,11 @@ Installez les drivers
 
 <para>
 
-Si vous désirez diffuser depuis une
+Si vous dÃ©sirez diffuser depuis une
 carte Visiontech Kfir, vous devez installer les drivers pour
-Linux. Téléchargez la dernière version des drivers depuis
+Linux. TÃ©lÃ©chargez la derniÃ¨re version des drivers depuis
 la <ulink url="http://www.linuxtv.org/download/mpeg2/">page
-de téléchargement des drivers</ulink> du projet <ulink url="http://www.linuxtv.org/">LinuxTV</ulink>
+de tÃ©lÃ©chargement des drivers</ulink> du projet <ulink url="http://www.linuxtv.org/">LinuxTV</ulink>
 
 
 .</para>
@@ -361,7 +361,7 @@ de téléchargement des drivers</ulink> du projet <ulink url="http://www.linuxtv.o
 
 <para>
 
-Décompressez le fichier et suivez les instructions
+DÃ©compressez le fichier et suivez les instructions
 du fichier <filename>INSTALL</filename> pour compiler et installer les
 drivers
 
@@ -370,7 +370,7 @@ drivers
 
 <note><para>
 
-Si vous avez un chipset VIA, vous devez désactiver
+Si vous avez un chipset VIA, vous devez dÃ©sactiver
 USB dans le BIOS
 
 
@@ -391,7 +391,7 @@ Diffusez avec VLC
 </screen>
 
 <para>
-où
+oÃ¹
 
 
  :</para>
@@ -400,7 +400,7 @@ où
 
 <listitem><para><filename>/dev/video</filename>
 
-est l'adresse correspondant à la Kfir
+est l'adresse correspondant Ã  la Kfir
 
 
 ,</para></listitem>
@@ -416,14 +416,14 @@ est l'adresse correspondant à la Kfir
 <listitem><para>
 
 l'adresse IP de la machine vers laquelle vous
-désirez diffuser en unicast
+dÃ©sirez diffuser en unicast
 
 
 ;</para></listitem>
 
 <listitem><para>
 
-le nom DNS de la machine vers laquelle vous désirez
+le nom DNS de la machine vers laquelle vous dÃ©sirez
 envoyer en unicast
 
 
@@ -526,7 +526,7 @@ END
 
 <para>
 
-Une fois que vous avez adapté ce fichier de
+Une fois que vous avez adaptÃ© ce fichier de
 configuration, lancez VLS
 
 

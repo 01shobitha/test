@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="dvb"><title id="tdvb">
 
-Diffusez un flux DVB (satellite ou télévision
-numérique terrestre)
+Diffusez un flux DVB (satellite ou tÃ©lÃ©vision
+numÃ©rique terrestre)
 
 
 </title>
@@ -24,7 +24,7 @@ Installez les drivers DVB
 
 <para>
 
-Pour pouvoir streamer depuis une carte DVB (une carte satélite ou de télévision numérique terrestre), il est nécessire d'installer préalablement les drivers DVB :
+Pour pouvoir streamer depuis une carte DVB (une carte satÃ©lite ou de tÃ©lÃ©vision numÃ©rique terrestre), il est nÃ©cessire d'installer prÃ©alablement les drivers DVB :
 
 
 
@@ -50,9 +50,9 @@ compiler les bons modules ;
 
 
 si vous utilisez un noyau Linux 2.4.x,
-vous devez télécharger la dernière version des drivers DVB depuis la
+vous devez tÃ©lÃ©charger la derniÃ¨re version des drivers DVB depuis la
 <ulink url="http://www.linuxtv.org/download/dvb/">page de
-téléchargement des drivers DVB</ulink> du projet <ulink url="http://www.linuxtv.org/">LinuxTV</ulink>.
+tÃ©lÃ©chargement des drivers DVB</ulink> du projet <ulink url="http://www.linuxtv.org/">LinuxTV</ulink>.
 
 
 
@@ -66,7 +66,7 @@ téléchargement des drivers DVB</ulink> du projet <ulink url="http://www.linuxtv.
 
 <para>
 
-Décompressez le fichier et suivez les instructions
+DÃ©compressez le fichier et suivez les instructions
 du fichier <filename moreinfo="none">INSTALL</filename> pour compiler et installer les
 drivers
 
@@ -86,9 +86,9 @@ Diffusez avec VLS
 <para>
 
 Mettez un fichier <filename moreinfo="none">.dvbrc</filename>
-contenant les chaînes DVB que vous désirez diffuser dans
-votre répertoire utilisateur (certains sont fournis dans
-<emphasis>libdvb</emphasis> pour les chaînes satellites)
+contenant les chaÃ®nes DVB que vous dÃ©sirez diffuser dans
+votre rÃ©pertoire utilisateur (certains sont fournis dans
+<emphasis>libdvb</emphasis> pour les chaÃ®nes satellites)
 
 
 
@@ -108,7 +108,7 @@ Lancez VLS avec cette ligne de commande
 
 <para>
 
-où 
+oÃ¹ 
 
 
 :</para>
@@ -117,8 +117,8 @@ où
 
 <listitem><para><emphasis>"EUROSPORT"</emphasis>
 
-est la chaîne que vous désirez diffuser, comme
-décrit dans votre fichier <filename moreinfo="none">~/.dvbrc</filename>
+est la chaÃ®ne que vous dÃ©sirez diffuser, comme
+dÃ©crit dans votre fichier <filename moreinfo="none">~/.dvbrc</filename>
 
 
 ,</para></listitem>
@@ -134,14 +134,14 @@ décrit dans votre fichier <filename moreinfo="none">~/.dvbrc</filename>
 <listitem><para>
 
 l'adresse IP de la machine vers laquelle vous
-désirez diffuser en unicast
+dÃ©sirez diffuser en unicast
 
 
 ;</para></listitem>
 
 <listitem><para>
 
-le nom DNS de la machine vers laquelle vous désirez
+le nom DNS de la machine vers laquelle vous dÃ©sirez
 envoyer en unicast
 
 
@@ -192,7 +192,7 @@ Diffusez avec VLC
 
 <para>
 
-où
+oÃ¹
 
 
  :</para>

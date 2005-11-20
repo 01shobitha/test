@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="receive"><title id="treceive">
 
 
@@ -42,7 +42,7 @@ Einen Multicast-Stream empfangen
 
 
 wobei <emphasis>239.255.12.42</emphasis> die
-Multicast-IP-Adresse ist, an der Sie teilnehmen möchten.
+Multicast-IP-Adresse ist, an der Sie teilnehmen mÃ¶chten.
 
 </para>
 
@@ -122,7 +122,7 @@ MMS-Adresse des Streams ist.
 
 
 
-Erhalten eines RTP-Streams, der per RTSP verfügbar ist 
+Erhalten eines RTP-Streams, der per RTSP verfÃ¼gbar ist 
 </title>
 
 <screen>
@@ -165,9 +165,9 @@ Einen Stream mit VLC speichern
 
 
 VLC kann den Stream auf der Festplatte speichern. Um dies
-zu tun, benutzen Sie die Stream-Ausgabe von VLC: Sie können dies über das
+zu tun, benutzen Sie die Stream-Ausgabe von VLC: Sie kÃ¶nnen dies Ã¼ber das
 grafische Interface tun oder der Befehlszeile das folgende Argument 
-hinzufügen
+hinzufÃ¼gen
  :</para>
 
 <screen>
@@ -197,21 +197,21 @@ z.B.
  
  
  
-  für das AVI-Format
+  fÃ¼r das AVI-Format
 ,</para></listitem>
 
 <listitem><para><emphasis>ogg</emphasis>
  
  
  
-  für das OGG-Format
+  fÃ¼r das OGG-Format
 ,</para></listitem>
 
 <listitem><para><emphasis>ps</emphasis> 
  
  
  
-  für das MPEG2-PS-Format
+  fÃ¼r das MPEG2-PS-Format
 ,</para></listitem>
 
 <listitem><para><emphasis>ts</emphasis> or
@@ -219,7 +219,7 @@ z.B.
  
   
  
-   für das MPEG2-PS-Format (der zweite nutzt
+   fÃ¼r das MPEG2-PS-Format (der zweite nutzt
 <emphasis>libdvbpsi</emphasis>).
 
 </para></listitem>
@@ -233,7 +233,7 @@ z.B.
 
 
 und <filename>stream.xyz</filename> ist der Name der
-Datei mit dem richtigen Suffix, in der Sie den Stream speichern möchten.
+Datei mit dem richtigen Suffix, in der Sie den Stream speichern mÃ¶chten.
 
 </para></listitem>
 
@@ -252,12 +252,12 @@ Einen Stream mit einer Set-Top-Box empfangen
 
 
 
-Einige Set-Top-Boxen mit Ethernet-Karten können
-MPEG2-TS-Streams über UDP empfangen und unterstützen Multicast.
+Einige Set-Top-Boxen mit Ethernet-Karten kÃ¶nnen
+MPEG2-TS-Streams Ã¼ber UDP empfangen und unterstÃ¼tzen Multicast.
 Dies ist der Fall bei den <ulink url="http://www.pace.co.uk">Pace</ulink>
 und <ulink url="http://www.aminocom.com">Aminocom</ulink> - 
 Set-Top-Boxen. Wir haben die <emphasis>AmiNET 100</emphasis> 
-Set-Top-Box von Aminocom getestet: sie ist schön und klein und arbeitet
+Set-Top-Box von Aminocom getestet: sie ist schÃ¶n und klein und arbeitet
 sehr gut mit VideoLAN.
 
 </para>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="file"><title id="tfile">
 
 
@@ -45,7 +45,7 @@ donde
 <listitem><para>
 
 
-la dirección IP de la máquina a la que se quiere
+la direcciÃ³n IP de la mÃ¡quina a la que se quiere
 transmitir en unicast
 
 ;</para></listitem>
@@ -53,7 +53,7 @@ transmitir en unicast
 <listitem><para>
 
 
-o el nombre DNS de la máquina a la que se quiere transmitir
+o el nombre DNS de la mÃ¡quina a la que se quiere transmitir
 en unicast
 
 ;</para></listitem>
@@ -61,7 +61,7 @@ en unicast
 <listitem><para>
 
 
-o una dirección IP multicast
+o una direcciÃ³n IP multicast
 
 .</para></listitem>
 
@@ -73,7 +73,7 @@ o una dirección IP multicast
 
 
  es el valor TTL (Time To Live) de los
-paquetes IP (lo que significa que el flujo atravesará 11 routers)
+paquetes IP (lo que significa que el flujo atravesarÃ¡ 11 routers)
 
 .</para></listitem>
 </itemizedlist>
@@ -82,7 +82,7 @@ paquetes IP (lo que significa que el flujo atravesará 11 routers)
 
 
 Si se quiere transmitir el fichero de manera ininterrumpida,
-se debe añadir la opción <emphasis>--loop</emphasis>
+se debe aÃ±adir la opciÃ³n <emphasis>--loop</emphasis>
 
 .</para>
 
@@ -126,7 +126,7 @@ donde
 <listitem><para>
 
 
-la dirección IP de la máquina a la que se quiere
+la direcciÃ³n IP de la mÃ¡quina a la que se quiere
 transmitir en unicast
 
 ;</para></listitem>
@@ -134,7 +134,7 @@ transmitir en unicast
 <listitem><para>
 
 
-o el nombre de la máquina a la que se quiere transmitir
+o el nombre de la mÃ¡quina a la que se quiere transmitir
 en unicast
 
 ;</para></listitem>
@@ -142,7 +142,7 @@ en unicast
 <listitem><para>
 
 
-o una dirección IP multicast
+o una direcciÃ³n IP multicast
 
 .</para></listitem>
 
@@ -155,7 +155,7 @@ o una dirección IP multicast
 
 
  es el valor TTL (Time To Live) de vuestros
-paquetes IP (lo que significa que el flujo atravesará 11 routers)
+paquetes IP (lo que significa que el flujo atravesarÃ¡ 11 routers)
 
 .</para></listitem>
 
@@ -166,7 +166,7 @@ paquetes IP (lo que significa que el flujo atravesará 11 routers)
 
 
 
-Cuando se quiera detener VLS, se debe utilizar la siguiente combinación de teclas
+Cuando se quiera detener VLS, se debe utilizar la siguiente combinaciÃ³n de teclas
 
 <keycombo><keycap>Ctrl</keycap><keycap>c</keycap></keycombo>.</para>
 
@@ -174,7 +174,7 @@ Cuando se quiera detener VLS, se debe utilizar la siguiente combinación de tecla
 
 
 Si se quiere transmitir el fichero de forma continua,
-se debe añadir la opción <emphasis>--loop</emphasis>
+se debe aÃ±adir la opciÃ³n <emphasis>--loop</emphasis>
 
 .</para>
 

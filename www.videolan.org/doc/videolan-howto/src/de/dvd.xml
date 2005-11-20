@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="dvd"><title id="tdvd">
 Eine DVD streamen
 </title>
@@ -9,10 +9,10 @@ Eine DVD streamen
 
 
 
-Unter Unix/Linux müssen Sie schreibzugriff auf das Device haben, das Ihrem
+Unter Unix/Linux mÃ¼ssen Sie schreibzugriff auf das Device haben, das Ihrem
 DVD-Laufwerk entspricht. Dazu sollte Sie in der <emphasis>disk</emphasis>
 or <emphasis>cdrom</emphasis> Gruppe sein (schauen auf die Rechte in
-<filename>/dev</filename>). Wenn Sie dies nicht sind, fügen Sie sichselbst
+<filename>/dev</filename>). Wenn Sie dies nicht sind, fÃ¼gen Sie sichselbst
 der Gruppe hinzu
 :</para>
 
@@ -72,7 +72,7 @@ kopiert haben
 
 
 die IP-Adresse des Rechners, den Sie via Unicast erreichen
-möchten
+mÃ¶chten
 ;</para></listitem>
 
 <listitem><para>
@@ -80,7 +80,7 @@ möchten
 
 
 oder der DNS-Name des Rechners, den Sie via Unicast
-erreichen möchten
+erreichen mÃ¶chten
 ;</para></listitem>
 
 <listitem><para>
@@ -100,7 +100,7 @@ oder eine Multicast-IP-Adresse.
 
 
  ist der Wert der TTL (Time To Live) Ihrer IP-Pakete (was
-bedeutet, dass der Stream in der Lage sein wird, 11 Router zu überqueren).
+bedeutet, dass der Stream in der Lage sein wird, 11 Router zu Ã¼berqueren).
 
 </para></listitem>
 </itemizedlist>
@@ -110,7 +110,7 @@ bedeutet, dass der Stream in der Lage sein wird, 11 Router zu überqueren).
 
 
 
-Wenn Sie die DVD fortlaufend streamen möchten, fügen
+Wenn Sie die DVD fortlaufend streamen mÃ¶chten, fÃ¼gen
 Sie die Option <emphasis>--loop</emphasis> hinzu.
 
 </para>
@@ -129,7 +129,7 @@ Eine DVD mit VLS streamen
 
 
 
-Dies ist nur unter GNU/Linux möglich.
+Dies ist nur unter GNU/Linux mÃ¶glich.
 
 </para></note>
 
@@ -169,7 +169,7 @@ ist, in das Sie Ihre DVD kopiert haben
 
 
 
-die IP-Adresse des Rechners, den Sie via Unicast erreichen möchten
+die IP-Adresse des Rechners, den Sie via Unicast erreichen mÃ¶chten
 ;</para></listitem>
 
 <listitem><para>
@@ -177,7 +177,7 @@ die IP-Adresse des Rechners, den Sie via Unicast erreichen möchten
 
 
 oder der DNS-Name des Rechners, den Sie via Unicast
-erreichen möchten
+erreichen mÃ¶chten
 ;</para></listitem>
 
 <listitem><para>
@@ -198,7 +198,7 @@ oder eine Multicast-IP-Adresse.
 
 
  ist der Wert der TTL (Time To Live) Ihrer IP-Pakete (was
-bedeutet, dass der Stream in der Lage sein wird, 11 Router zu überqueren).
+bedeutet, dass der Stream in der Lage sein wird, 11 Router zu Ã¼berqueren).
 
 </para></listitem>
 
@@ -208,7 +208,7 @@ bedeutet, dass der Stream in der Lage sein wird, 11 Router zu überqueren).
 
 
 
-Wenn Sie die DVD fortlaufend streamen möchten, fügen Sie
+Wenn Sie die DVD fortlaufend streamen mÃ¶chten, fÃ¼gen Sie
 die Option <emphasis>--loop</emphasis> hinzu.
 
 </para>

@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="usesout"><title id="tusesout">
 
 
-Utilización avanzada de la salida de transmisión de VLC
-(transcodificación, múltiples transmisiones, etc...)
+UtilizaciÃ³n avanzada de la salida de transmisiÃ³n de VLC
+(transcodificaciÃ³n, mÃºltiples transmisiones, etc...)
 
 </title>
 
@@ -17,8 +17,8 @@ La sintaxis
 <para>
 
 
-Por favor consulte el capítulo <emphasis>interfaz de línea de comandos</emphasis> de la guía de usuario de VLC para aprender
-la sintaxis de la salida de transmisión de VLC. Puedes encontrar la guía de usuario de VLC en la página de documentación <ulink url="http://www.videolan.org/doc/"/>
+Por favor consulte el capÃ­tulo <emphasis>interfaz de lÃ­nea de comandos</emphasis> de la guÃ­a de usuario de VLC para aprender
+la sintaxis de la salida de transmisiÃ³n de VLC. Puedes encontrar la guÃ­a de usuario de VLC en la pÃ¡gina de documentaciÃ³n <ulink url="http://www.videolan.org/doc/"/>
 
 .</para>
 
@@ -34,7 +34,7 @@ Ejemplos
 <sect2><title>
 
 
-Transcodificación
+TranscodificaciÃ³n
 
 </title>
 
@@ -42,7 +42,7 @@ Transcodificación
 
 
 Transcodificar el flujo de entrada y enviarlo a una
-dirección IP multicast con el correspondiente anuncio SAP asociado
+direcciÃ³n IP multicast con el correspondiente anuncio SAP asociado
 
 :</para>
 
@@ -55,7 +55,7 @@ standard{access=udp,mux=ts,url=239.255.12.42,sap,name="TestStream"}'</userinput>
 
 
  Mostrar el flujo de entrada, transcodificarlo y enviarlo
-a la dirección multicast con el correspondiente anuncio SAP asociado
+a la direcciÃ³n multicast con el correspondiente anuncio SAP asociado
 
 :</para>
 
@@ -69,7 +69,7 @@ standard{access=udp,mux=ts,url=239.255.12.42,sap,name="TestStream"}"}'</userinpu
 
 
 Transcodificar el flujo de entrada, mostrar el flujo transcodificado
-y enviarlo a la dirección IP multicast con el correspondiente anuncio SAP asociado
+y enviarlo a la direcciÃ³n IP multicast con el correspondiente anuncio SAP asociado
 
 :</para>
 
@@ -83,15 +83,15 @@ duplicate{dst=display,dst=standard{access=udp,mux=ts,url=239.255.12.42,sap,name=
 <sect2><title>
 
 
-Transmisión múltiple
+TransmisiÃ³n mÃºltiple
 
 </title>
 
 <para>
 
 
-Enviar un flujo a una dirección IP multicast y a una
-dirección IP unicast
+Enviar un flujo a una direcciÃ³n IP multicast y a una
+direcciÃ³n IP unicast
 
 :</para>
 
@@ -121,7 +121,7 @@ dst=standard{access=udp,mux=ts,url=192.168.1.42}}'</userinput>
 
 
 
-Transcodificación y transmisión múltiple
+TranscodificaciÃ³n y transmisiÃ³n mÃºltiple
 
 </title>
 
@@ -129,8 +129,8 @@ Transcodificación y transmisión múltiple
 
 
 Transcodificar el flujo de entrada, mostrar el flujo
-transcodificado y enviarlo a una dirección IP multicast con el correspondiente
-anuncio SAP asociado y a una dirección IP unicast
+transcodificado y enviarlo a una direcciÃ³n IP multicast con el correspondiente
+anuncio SAP asociado y a una direcciÃ³n IP unicast
 
 :</para>
 
@@ -158,8 +158,8 @@ dst=standard{access=udp,mux=ts,url=192.168.1.12}"}'</userinput>
 <para>
 
 
-Enviar el flujo de entrada a una dirección IP multicast
-y el flujo transcodificado a otra dirección IP multicast con los
+Enviar el flujo de entrada a una direcciÃ³n IP multicast
+y el flujo transcodificado a otra direcciÃ³n IP multicast con los
 correspondientes anuncios SAP asociados
 
 :</para>
@@ -176,7 +176,7 @@ standard{access=udp,mux=ts,url=239.255.1.3,sap,name="TranscodedStream"}"}'</user
 <sect2><title>
 
 
-Transmisión HTTP
+TransmisiÃ³n HTTP
 
 </title>
 
@@ -220,7 +220,7 @@ en el/los cliente(s), ejecuta
 <para>
 
 
-Transcodificación y transmisión en HTTP
+TranscodificaciÃ³n y transmisiÃ³n en HTTP
 
 :</para>
 
@@ -247,7 +247,7 @@ standard{access=http,mux=ogg,url=server.example.org:8080}'</userinput>
 <sect2><title>
 
 
-Transmisión RTP
+TransmisiÃ³n RTP
 
 </title>
 
@@ -314,14 +314,14 @@ FIXME
 <sect2><title>
 
 
-Utilización del módulo <emphasis>es</emphasis>
+UtilizaciÃ³n del mÃ³dulo <emphasis>es</emphasis>
 
 </title>
 
 <para>
 
 
-Separa el audio y el vídeo en dos fichero PS
+Separa el audio y el vÃ­deo en dos fichero PS
 
 :</para>
 
@@ -345,7 +345,7 @@ Extrae la pista de sonido del flujo de entrada a un fichero TS
 
 
  Transmite en unicast la pista de sonido en un puerto y el
-vídeo en otro
+vÃ­deo en otro
 
 :</para>
 
@@ -380,7 +380,7 @@ en la parte cliente: para recibir el audio
 <para>
 
 
-para recibir el vídeo
+para recibir el vÃ­deo
 
 :</para>
 
@@ -395,7 +395,7 @@ para recibir el vídeo
 <para>
 
 
-Transmite el vídeo en multicast y envía el audio a
+Transmite el vÃ­deo en multicast y envÃ­a el audio a
 un fichero
 
 :</para>
@@ -408,8 +408,8 @@ access_audio=file,mux_audio=ps,url_audio=audio-%c.%m}'</userinput>
 <note><para>
 
 
-Se puede combinar también el módulo <emphasis>es</emphasis> 
-con otros módulos para elaborar soluciones incluso más complicadas
+Se puede combinar tambiÃ©n el mÃ³dulo <emphasis>es</emphasis> 
+con otros mÃ³dulos para elaborar soluciones incluso mÃ¡s complicadas
 
 .</para></note>
 

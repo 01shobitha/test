@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="receive"><title id="treceive">
 Recevez et sauvegardez un flux
 </title>
@@ -36,7 +36,7 @@ Recevez un flux multicast
 
 <para>
 
-où <emphasis>239.255.12.42</emphasis> est l'adresse
+oÃ¹ <emphasis>239.255.12.42</emphasis> est l'adresse
 IP multicast du flux
 
 
@@ -68,7 +68,7 @@ Utilisez l'une de ces lignes de commande
 
 <para>
 
-où <emphasis>http://example/stream.xyz</emphasis>
+oÃ¹ <emphasis>http://example/stream.xyz</emphasis>
 est l'adresse HTTP du flux
 
 
@@ -84,7 +84,7 @@ est l'adresse HTTP du flux
 
 <para>
 
-où <emphasis>ftp://example/stream.xyz</emphasis>
+oÃ¹ <emphasis>ftp://example/stream.xyz</emphasis>
 est l'adresse FTP du flux
 
 
@@ -101,7 +101,7 @@ est l'adresse FTP du flux
 
 <para>
 
-où
+oÃ¹
 <emphasis>mms://viptvr.yacast.fr/encoderfranceinfo</emphasis> est
 l'adresse MMS du flux
 
@@ -126,7 +126,7 @@ Recevez un flux RTP disponible par RTSP
 
 <para>
 
-où <emphasis>rtsp://www.hardradio.com/tonbeme.mov</emphasis> est l'adresse du flux RTSP
+oÃ¹ <emphasis>rtsp://www.hardradio.com/tonbeme.mov</emphasis> est l'adresse du flux RTSP
 
 
 .</para>
@@ -135,7 +135,7 @@ où <emphasis>rtsp://www.hardradio.com/tonbeme.mov</emphasis> est l'adresse du fl
 
 <sect2><title>
 
-Recevez un flux décrit par un fichier SDP
+Recevez un flux dÃ©crit par un fichier SDP
 
 
 </title>
@@ -157,7 +157,7 @@ Enregistrez un flux avec VLC
 <para>
 
 VLC peut sauvegarder le flux vers le disque. Pour
-celà, utilisez le Stream Output de VLC : vous pouvez faire ceci via
+celÃ , utilisez le Stream Output de VLC : vous pouvez faire ceci via
 l'interface graphique, ou en utilisant cet argument de la ligne de
 commande
 
@@ -170,7 +170,7 @@ commande
 
 <para>
 
-où
+oÃ¹
 
 
 :</para>
@@ -179,8 +179,8 @@ où
 
 <listitem><para><emphasis>muxer</emphasis> 
 
-est l'un des formats supportés par le stream output
-de VLC, càd
+est l'un des formats supportÃ©s par le stream output
+de VLC, cÃ d
 
 
 :</para>
@@ -224,7 +224,7 @@ de VLC, càd
 <listitem><para>
 
 et <filename>stream.xyz</filename> est le nom du
-fichier sous lequel vous désirez sauvegarder le flux, avec la bonne
+fichier sous lequel vous dÃ©sirez sauvegarder le flux, avec la bonne
 extension
 
 
@@ -243,11 +243,11 @@ Recevez un flux avec un set-top-box
 
 <para>
 
-Certaines set-top-boxs, possédant une
+Certaines set-top-boxs, possÃ©dant une
 carte Ethernet, sont capables de recevoir des flux MPEG2-TS
-par UDP, et supportent le Multicast. C'st le cas de <ulink url="http://www.pace.co.uk">Pace</ulink> et d' <ulink url="http://www.aminocom.com">Aminocom</ulink>. Nous avons testé
+par UDP, et supportent le Multicast. C'st le cas de <ulink url="http://www.pace.co.uk">Pace</ulink> et d' <ulink url="http://www.aminocom.com">Aminocom</ulink>. Nous avons testÃ©
 l'<emphasis>AmiNET 100</emphasis> d'Aminocom: elle est petite, et
-fonctionne très bien avec VideoLAN
+fonctionne trÃ¨s bien avec VideoLAN
 
 
 .</para>

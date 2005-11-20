@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="softencoding"><title id="tsoftencoding">
 
 Diffusez depuis une carte d'acquisition ou 
@@ -20,10 +20,10 @@ Installez les drivers Video for Linux
 
 <para>
 
-Si vous désirez diffuser depuis une carte
+Si vous dÃ©sirez diffuser depuis une carte
 d'acquisition ou une webcam, un driver video4linux doit
-être disponible. Vous pouvez trouver plus d'informations
-sur video4linux et les périphériques supportés <ulink url="http://www.exploits.org/v4l">ici</ulink>
+Ãªtre disponible. Vous pouvez trouver plus d'informations
+sur video4linux et les pÃ©riphÃ©riques supportÃ©s <ulink url="http://www.exploits.org/v4l">ici</ulink>
 
 
 
@@ -31,9 +31,9 @@ sur video4linux et les périphériques supportés <ulink url="http://www.exploits.o
 
 <para>
 
-Compilez le bon module pour votre périphérique,
-et insérez le dans le noyau (certains modules video4linux sont livrés
-avec les noyaux Linux 2.4.x). Vous pouvez tester votre périphérique,
+Compilez le bon module pour votre pÃ©riphÃ©rique,
+et insÃ©rez le dans le noyau (certains modules video4linux sont livrÃ©s
+avec les noyaux Linux 2.4.x). Vous pouvez tester votre pÃ©riphÃ©rique,
 en utilisant l'un des programmes de la section <emphasis>Video: TV and
 PVR/DVR</emphasis> de <ulink url="http://www.exploits.org/v4l/">cette
 page</ulink>
@@ -45,7 +45,7 @@ page</ulink>
 <para>
 
 Remarque: les modules v4l2 fonctionneront
-également
+Ã©galement
 
 
 
@@ -61,8 +61,8 @@ Diffusez avec VLC
 
 <note><para>
 
-Vous devez ajouter <command>--enable-v4l</command> à
-<command>./configure</command> pour celà
+Vous devez ajouter <command>--enable-v4l</command> Ã 
+<command>./configure</command> pour celÃ 
 
 
 
@@ -75,7 +75,7 @@ Vous devez ajouter <command>--enable-v4l</command> à
 </screen>
 
 <para>
-où 
+oÃ¹ 
 
 
 :</para>
@@ -83,16 +83,16 @@ où
 
 <listitem><para><filename>/dev/video</filename>
 
-est l'adresse correspondant à votre carte
-d'acquisition ou à votre webcam
+est l'adresse correspondant Ã  votre carte
+d'acquisition ou Ã  votre webcam
 
 
 ,</para></listitem>
 
 <listitem><para><emphasis>norm=secam</emphasis>
 
-est le nom du standard du signal analogique (celà
-peut être pal, secam ou ntsc
+est le nom du standard du signal analogique (celÃ 
+peut Ãªtre pal, secam ou ntsc
 
 
 
@@ -100,9 +100,9 @@ peut être pal, secam ou ntsc
 
 <listitem><para><emphasis>frequency=543250</emphasis>
 
-est la fréquence en kHz de la
-chaîne(<emphasis>Attention:</emphasis>avec VLC &lt; 0.6.1, la fréquence
-est la fréquence du canal en MHz, multipliée par 16)
+est la frÃ©quence en kHz de la
+chaÃ®ne(<emphasis>Attention:</emphasis>avec VLC &lt; 0.6.1, la frÃ©quence
+est la frÃ©quence du canal en MHz, multipliÃ©e par 16)
 
 
 ,</para></listitem>
@@ -110,7 +110,7 @@ est la fréquence du canal en MHz, multipliée par 16)
 <listitem><para>
 
 <emphasis>size=640x480</emphasis> est la taille
-de la vidéo que vous désirez diffuser (vous pouvez également indiquer
+de la vidÃ©o que vous dÃ©sirez diffuser (vous pouvez Ã©galement indiquer
 une taille standard, telle que <emphasis>subqcif</emphasis> (128x96),
 <emphasis>qsif</emphasis> (160x120), <emphasis>qcif</emphasis>
 (176x144), <emphasis>sif</emphasis> (320x240), <emphasis>cif</emphasis>
@@ -121,8 +121,8 @@ une taille standard, telle que <emphasis>subqcif</emphasis> (128x96),
 
 <listitem><para><emphasis>channel=0</emphasis> 
 
-est le numéro du canal (généralement, 0 pour le
-tuner, 1 pour le composite, et 2 pour Svidéo)
+est le numÃ©ro du canal (gÃ©nÃ©ralement, 0 pour le
+tuner, 1 pour le composite, et 2 pour SvidÃ©o)
 
 
 
@@ -130,22 +130,22 @@ tuner, 1 pour le composite, et 2 pour Svidéo)
 
 <listitem><para><emphasis>adev=/dev/dsp</emphasis>
 
-est le périphérique audio
+est le pÃ©riphÃ©rique audio
 
 
 ,</para></listitem>
 
 <listitem><para><emphasis>audio=1</emphasis> 
 
-est le numéro du canal audio (généralement, 0 pour
-mono et 1 pour stéréo)
+est le numÃ©ro du canal audio (gÃ©nÃ©ralement, 0 pour
+mono et 1 pour stÃ©rÃ©o)
 
 
 ,</para></listitem>
 
 <listitem><para><emphasis>vcodec=mp4v</emphasis> 
 
-est le format d'encodage vidéo
+est le format d'encodage vidÃ©o
 (<emphasis>mp4v</emphasis> pour MPEG-4, <emphasis>mpgv</emphasis> pour
 MPEG-1, mais aussi
 <emphasis>h263</emphasis>, <emphasis>DIV1</emphasis>,
@@ -165,7 +165,7 @@ est le format audio d'encodage
 
 <listitem><para><emphasis>vb=3000</emphasis>
 
- est le taux de compression vidéo en Kbps
+ est le taux de compression vidÃ©o en Kbps
 
 
 ,</para></listitem>
@@ -177,7 +177,7 @@ est le format audio d'encodage
 
 <listitem><para><emphasis>vt=800000</emphasis>
 
- est la tolérance sur le bitrate vidéo en bps
+ est la tolÃ©rance sur le bitrate vidÃ©o en bps
 
 
 ,</para></listitem>
@@ -193,7 +193,7 @@ est le nombre maximal d'image entre deux images
 
 <listitem><para><emphasis>deinterlace</emphasis>
 
-pour désentrelacer le flux à la volée
+pour dÃ©sentrelacer le flux Ã  la volÃ©e
 
 
 ,</para></listitem>
@@ -210,14 +210,14 @@ pour désentrelacer le flux à la volée
 <listitem><para>
 
 l'adresse IP de la machine vers laquelle vous
-désirez diffuser en unicast
+dÃ©sirez diffuser en unicast
 
 
 ;</para></listitem>
 
 <listitem><para>
 
-le nom DNS de la machine vers laquelle vous désirez
+le nom DNS de la machine vers laquelle vous dÃ©sirez
 envoyer en unicast
 
 
@@ -258,7 +258,7 @@ Vous devez avoir la version SVN de VLS. Quand vous
 la compilez, vous devez utiliser <command>./bootstrap</command> puis
  <command>./configure --enable-v4l
 --with-ffmpeg=PATH</command> (avec <emphasis>PATH</emphasis> le chemin
-absolu vers le répertoire où vous avez compilé ffmpeg, et non pas le
+absolu vers le rÃ©pertoire oÃ¹ vous avez compilÃ© ffmpeg, et non pas le
 chemin relatif !)
 
 
@@ -268,7 +268,7 @@ chemin relatif !)
 <para>
 
 Il n'existe pas de ligne de commande pour ce
-type d'entrée pour l'instant, vous devez utiliser le fichier de
+type d'entrÃ©e pour l'instant, vous devez utiliser le fichier de
 configuration
 
 
@@ -277,7 +277,7 @@ configuration
 <para>
 
 Voici un fichier <filename>vls.cfg</filename>typique
-pour faire marcher VLS avec un périphérique v4l
+pour faire marcher VLS avec un pÃ©riphÃ©rique v4l
 
 
 :</para>
@@ -374,7 +374,7 @@ END
 
 <para>
 
-Une fois que vous avez adapté ce fichier de
+Une fois que vous avez adaptÃ© ce fichier de
 configuration, lancez VLS
 
 

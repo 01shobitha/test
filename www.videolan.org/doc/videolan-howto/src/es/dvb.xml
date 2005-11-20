@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="dvb"><title id="tdvb">
-Transmisión de un canal DVB (satélite o televisión digital
+TransmisiÃ³n de un canal DVB (satÃ©lite o televisiÃ³n digital
 terrestre)
 
 </title>
@@ -8,7 +8,7 @@ terrestre)
 <note><para>
 
 
-Esto sólo es posible bajo GNU/Linux
+Esto sÃ³lo es posible bajo GNU/Linux
 
 
 .</para></note>
@@ -23,7 +23,7 @@ Instalar los drivers DVB
 <para>
 
 
-Si se quiere transmitir desde una tarjeta DVB (tarjeta de satélite o de TV digital terrestre), se necesita instalar los drivers DVB:
+Si se quiere transmitir desde una tarjeta DVB (tarjeta de satÃ©lite o de TV digital terrestre), se necesita instalar los drivers DVB:
 
 
 </para>
@@ -36,7 +36,7 @@ Si se quiere transmitir desde una tarjeta DVB (tarjeta de satélite o de TV digit
 
 
 
-si se utiliza un kernel Linux 2.6.x, sólo se necesita compilar los módulos adecuados;
+si se utiliza un kernel Linux 2.6.x, sÃ³lo se necesita compilar los mÃ³dulos adecuados;
 
 
 
@@ -48,8 +48,8 @@ si se utiliza un kernel Linux 2.6.x, sólo se necesita compilar los módulos adecu
 
 
 
-si se está usando un kernel Linux 2.4.x, 
-se debe descargar la última versión de los drivers DVB desde la <ulink url="http://www.linuxtv.org/download/dvb/">página de descarga de drivers DVB
+si se estÃ¡ usando un kernel Linux 2.4.x, 
+se debe descargar la Ãºltima versiÃ³n de los drivers DVB desde la <ulink url="http://www.linuxtv.org/download/dvb/">pÃ¡gina de descarga de drivers DVB
 </ulink> del proyecto <ulink url="http://www.linuxtv.org/">LinuxTV</ulink>
 Project.
 
@@ -76,7 +76,7 @@ los drivers
 <sect1><title>
 
 
-Transmisión con VLS
+TransmisiÃ³n con VLS
 
 </title>
 
@@ -84,9 +84,9 @@ Transmisión con VLS
 
 
 Crear un fichero <filename>.dvbrc</filename> que contenga 
-los canales DVB (canales de satélite o de televisión digital terrestre) que se 
+los canales DVB (canales de satÃ©lite o de televisiÃ³n digital terrestre) que se 
 quieren transmitir en el directorio raiz (algunos de ellos se proporcionan en el
-tarball <emphasis>libdvb</emphasis> para canales de satélite)
+tarball <emphasis>libdvb</emphasis> para canales de satÃ©lite)
 
 
 .</para>
@@ -94,7 +94,7 @@ tarball <emphasis>libdvb</emphasis> para canales de satélite)
 <para>
 
 
-Ejecutar VLS con la siguiente línea de comandos
+Ejecutar VLS con la siguiente lÃ­nea de comandos
 
 
  :</para>
@@ -131,7 +131,7 @@ donde
 <listitem><para>
 
 
-la dirección IP de la máquina a la que se quiere hacer unicast
+la direcciÃ³n IP de la mÃ¡quina a la que se quiere hacer unicast
 
 
 ;</para></listitem>
@@ -139,7 +139,7 @@ la dirección IP de la máquina a la que se quiere hacer unicast
 <listitem><para>
 
 
-o el DNS de la máquina a la que se quiere hacer unicast
+o el DNS de la mÃ¡quina a la que se quiere hacer unicast
 
 
 ;</para></listitem>
@@ -147,7 +147,7 @@ o el DNS de la máquina a la que se quiere hacer unicast
 <listitem><para>
 
 
-o una dirección IP multicast
+o una direcciÃ³n IP multicast
 
 
 .</para></listitem>
@@ -161,7 +161,7 @@ o una dirección IP multicast
 
 
  es el valor del TTL (Time To
-Live) de los paquetes IP (lo que significa que el stream será capaz
+Live) de los paquetes IP (lo que significa que el stream serÃ¡ capaz
 de cruzar por 11 routers)
 
 
@@ -174,15 +174,15 @@ de cruzar por 11 routers)
 <sect1><title>
 
 
-Transmisión con VLC
+TransmisiÃ³n con VLC
 
 </title>
 
 <note><para>
 
-Para esto, se debería utilizar la versión SVN de VLC y compilarla
-con <command>./configure --enable-dvb</command> Esta característica debería
-ser considerada todavía como experimental.
+Para esto, se deberÃ­a utilizar la versiÃ³n SVN de VLC y compilarla
+con <command>./configure --enable-dvb</command> Esta caracterÃ­stica deberÃ­a
+ser considerada todavÃ­a como experimental.
 
 </para></note>
 
@@ -216,7 +216,7 @@ transpondedor que se quiere transmitir, en Hz
 
 <listitem><para>
 
-<filename>0</filename> es la polarización (0 para
+<filename>0</filename> es la polarizaciÃ³n (0 para
 vertical, 1 para horizontal)
 
 ;</para></listitem>
@@ -224,14 +224,14 @@ vertical, 1 para horizontal)
 <listitem><para>
 
 <filename>3</filename> es el FEC (3 para 3/4, 9 para
-automático)
+automÃ¡tico)
 
 ;</para></listitem>
 
 <listitem><para>
 
 <filename>27500000</filename> es la tasa de
-símbolos (symbolrate) del transpondedor, en Hz
+sÃ­mbolos (symbolrate) del transpondedor, en Hz
 
 ;</para></listitem>
 
@@ -245,21 +245,21 @@ símbolos (symbolrate) del transpondedor, en Hz
 
 <listitem><para>
 
-la dirección IP de la máquina a la que se quiere transmitir en unicast
+la direcciÃ³n IP de la mÃ¡quina a la que se quiere transmitir en unicast
 
 
 ;</para></listitem>
 
 <listitem><para>
 
-o el nombre DNS de la máquina a la que se quiere transmitir en unicast
+o el nombre DNS de la mÃ¡quina a la que se quiere transmitir en unicast
 
 
 ;</para></listitem>
 
 <listitem><para>
 
-o la dirección IP multicast.
+o la direcciÃ³n IP multicast.
 
 </para></listitem>
 

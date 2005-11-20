@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="softencoding"><title id="tsoftencoding">
 
 
-Transmisión desde una tarjeta capturadora o una webcam
+TransmisiÃ³n desde una tarjeta capturadora o una webcam
 
 </title>
 
 <note><para>
 
 
-Esto sólo es posible bajo GNU/Linux
+Esto sÃ³lo es posible bajo GNU/Linux
 
 .</para></note>
 
@@ -28,7 +28,7 @@ Instalar los drivers Video for Linux
 
 Si se quiere transmitir desde una tarjeta capturadora
 o una webcam, debe tener disponible un driver video4linux. Puede encontrar
-más información sobre video4linux y los dispositivos soportados aquí<ulink url="http://www.exploits.org/v4l"/>
+mÃ¡s informaciÃ³n sobre video4linux y los dispositivos soportados aquÃ­<ulink url="http://www.exploits.org/v4l"/>
 
 
 .</para>
@@ -36,10 +36,10 @@ más información sobre video4linux y los dispositivos soportados aquí<ulink url="
 <para>
 
 
-Compile el módulo adecuado para su dispositivo, e insértelo 
-dentro del kernel (algunos módulos video4linux están disponibles en los kernels Linux 2.4.x).
-Puede probar su dispositivo usando cualquier programa listado en la sección
-<emphasis>Video: TV and PVR/DVR</emphasis> de la página
+Compile el mÃ³dulo adecuado para su dispositivo, e insÃ©rtelo 
+dentro del kernel (algunos mÃ³dulos video4linux estÃ¡n disponibles en los kernels Linux 2.4.x).
+Puede probar su dispositivo usando cualquier programa listado en la secciÃ³n
+<emphasis>Video: TV and PVR/DVR</emphasis> de la pÃ¡gina
 <ulink url="http://www.exploits.org/v4l/"/>
 
 
@@ -48,7 +48,7 @@ Puede probar su dispositivo usando cualquier programa listado en la sección
 <para>
 
 
-Nota: el módulo v4l2 también funcionará con VLC
+Nota: el mÃ³dulo v4l2 tambiÃ©n funcionarÃ¡ con VLC
 
 
 .</para>
@@ -58,7 +58,7 @@ Nota: el módulo v4l2 también funcionará con VLC
 <sect1><title>
 
 
-Transmisión con VLC
+TransmisiÃ³n con VLC
 
 
 </title>
@@ -66,8 +66,8 @@ Transmisión con VLC
 <note><para>
 
 
-Se debe añadir <command>--enable-v4l</command> a
-<command>./configure</command> para usar esta característica
+Se debe aÃ±adir <command>--enable-v4l</command> a
+<command>./configure</command> para usar esta caracterÃ­stica
 
 
 .</para></note>
@@ -98,7 +98,7 @@ o su webcam
 <listitem><para><emphasis>norm=secam</emphasis>
 
 
- es el nombre del estandar de la señal analógica 
+ es el nombre del estandar de la seÃ±al analÃ³gica 
 (los posibles valores son pal, secam, y ntsc)
 
 
@@ -108,7 +108,7 @@ o su webcam
 
 
  es la frecuencia del canal en kHz
-(<emphasis>Precaución :</emphasis> para VLC &lt; 0.6.1, La frecuencia es la frecuencia del canal en MHz multiplicada por 16)
+(<emphasis>PrecauciÃ³n :</emphasis> para VLC &lt; 0.6.1, La frecuencia es la frecuencia del canal en MHz multiplicada por 16)
 
 ,</para></listitem>
 
@@ -116,7 +116,7 @@ o su webcam
 
 
 <emphasis>size=640x480</emphasis>
-es la resolución de vídeo deseada (se pueden elegir resoluciones 
+es la resoluciÃ³n de vÃ­deo deseada (se pueden elegir resoluciones 
 standard como <emphasis>subqcif</emphasis> (128x96),
 <emphasis>qsif</emphasis> (160x120), <emphasis>qcif</emphasis>
 (176x144), <emphasis>sif</emphasis> (320x240), <emphasis>cif</emphasis>
@@ -127,7 +127,7 @@ standard como <emphasis>subqcif</emphasis> (128x96),
 <listitem><para><emphasis>channel=0</emphasis> 
 
 
-es el número del canal (generalmente 0 es para
+es el nÃºmero del canal (generalmente 0 es para
 el sintonizador (tuner), 1 para compuesto y 2 para svideo)
 
 
@@ -143,8 +143,8 @@ es el dispositivo de audio
 <listitem><para><emphasis>audio=1</emphasis> 
 
 
-es el número del canal de audio
-(generalmente 0 es para mono y 1 para estéreo)
+es el nÃºmero del canal de audio
+(generalmente 0 es para mono y 1 para estÃ©reo)
 
 ,</para></listitem>
 
@@ -153,7 +153,7 @@ es el número del canal de audio
 
 es el formato de video en el que se quiere codificar
 (<emphasis>mp4v</emphasis> es MPEG-4, <emphasis>mpgv</emphasis> es
-MPEG-1, y hay también
+MPEG-1, y hay tambiÃ©n
 
 <emphasis>h263</emphasis>, <emphasis>DIV1</emphasis>,
 <emphasis>DIV2</emphasis>, <emphasis>DIV3</emphasis>,
@@ -187,15 +187,15 @@ es el formato de audio en el que se quiere codificar
 <listitem><para><emphasis>vt=800000</emphasis>
 
 
- es la tolerancia del bitrate de vídeo en bit/s
+ es la tolerancia del bitrate de vÃ­deo en bit/s
 
 ,</para></listitem>
 
 <listitem><para><emphasis>keyint=80</emphasis>
 
 
- es el intervalo máximo entre dos imagenes "I" medido en
-número de imagenes
+ es el intervalo mÃ¡ximo entre dos imagenes "I" medido en
+nÃºmero de imagenes
 
 
 ,</para></listitem>
@@ -203,7 +203,7 @@ número de imagenes
 <listitem><para><emphasis>deinterlace</emphasis>
 
 
-indica a VLC desentrelazar el vídeo en el aire
+indica a VLC desentrelazar el vÃ­deo en el aire
 
 ,</para></listitem>
 
@@ -219,7 +219,7 @@ indica a VLC desentrelazar el vídeo en el aire
 <listitem><para>
 
 
-la dirección IP de la máquina a la que se quiere hacer unicast
+la direcciÃ³n IP de la mÃ¡quina a la que se quiere hacer unicast
 
 
 ;</para></listitem>
@@ -227,7 +227,7 @@ la dirección IP de la máquina a la que se quiere hacer unicast
 <listitem><para>
 
 
-o el DNS de la máquina a la que se quiere hacer unicast
+o el DNS de la mÃ¡quina a la que se quiere hacer unicast
 
 
 ;</para></listitem>
@@ -235,7 +235,7 @@ o el DNS de la máquina a la que se quiere hacer unicast
 <listitem><para>
 
 
-o una dirección IP multicast
+o una direcciÃ³n IP multicast
 
 .</para></listitem>
 
@@ -247,7 +247,7 @@ o una dirección IP multicast
 
 
  es el valor del TTL (Time To
-Live) de los paquetes IP (lo que significa que el stream será capaz
+Live) de los paquetes IP (lo que significa que el stream serÃ¡ capaz
 de cruzar por 11 routers)
 
 .</para></listitem>
@@ -259,14 +259,14 @@ de cruzar por 11 routers)
 <sect1><title>
 
 
-Transmisión con VLS
+TransmisiÃ³n con VLS
 
 </title>
 
 <note><para>
 
 
-Se necesita la versión SVN de VLS. Cuando se compila,
+Se necesita la versiÃ³n SVN de VLS. Cuando se compila,
 se debe hacer un <command>./bootstrap</command> y un <command>./configure --enable-v4l
 --with-ffmpeg=PATH</command> (donde <emphasis>PATH</emphasis> es la ruta absoluta al directorio donde se compile ffmpeg, y no la ruta relativa !)
 
@@ -276,15 +276,15 @@ se debe hacer un <command>./bootstrap</command> y un <command>./configure --enab
 <para>
 
 
-No hay interfaz de línea de comandos para esta opción
-por el momento, así que se tiene que usar el fichero de configuración
+No hay interfaz de lÃ­nea de comandos para esta opciÃ³n
+por el momento, asÃ­ que se tiene que usar el fichero de configuraciÃ³n
 
 .</para>
 
 <para>
 
 
-Aquí esta el fichero de configuración típico
+AquÃ­ esta el fichero de configuraciÃ³n tÃ­pico
 <filename>vls.cfg</filename> para ejecutar VLS con un dispositivo v4l
 
 :</para>
@@ -382,7 +382,7 @@ END
 <para>
 
 
-Una vez adaptado el archivo de configuración superior, 
+Una vez adaptado el archivo de configuraciÃ³n superior, 
 ejecutar VLS
 
 :</para>

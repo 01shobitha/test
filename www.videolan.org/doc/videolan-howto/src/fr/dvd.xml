@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="dvd"><title id="tdvd">
 Diffusez un DVD
 </title>
@@ -6,11 +6,11 @@ Diffusez un DVD
 <note><para>
 
 
-Sous Unix et GNU/Linux, vous devez avoir un accès
-en écriture sur le périphérique correspondant à votre lecteur de DVD.
-Pour cela, vous devez être dans le groupe <emphasis>disk</emphasis>
+Sous Unix et GNU/Linux, vous devez avoir un accÃ¨s
+en Ã©criture sur le pÃ©riphÃ©rique correspondant Ã  votre lecteur de DVD.
+Pour cela, vous devez Ãªtre dans le groupe <emphasis>disk</emphasis>
 ou <emphasis>cdrom</emphasis> (regardez les permissions dans
-<filename>/dev</filename>). Si vous n'y êtes pas, ajoutez-vous y
+<filename>/dev</filename>). Si vous n'y Ãªtes pas, ajoutez-vous y
 
 
 :</para>
@@ -39,7 +39,7 @@ Diffusez un DVD avec VLC
 
 <para>
 
-où 
+oÃ¹ 
 
 
 :</para>
@@ -50,7 +50,7 @@ où
 
 est le nom de votre lecteur de DVD (mettez
 <filename>D:</filename> sous Windows, si c'est la lettre de votre
-lecteur) ou le dossier où vous avez copié votre DVD
+lecteur) ou le dossier oÃ¹ vous avez copiÃ© votre DVD
 
 
 ,</para></listitem>
@@ -67,14 +67,14 @@ lecteur) ou le dossier où vous avez copié votre DVD
 <listitem><para>
 
 l'adresse IP de la machine vers laquelle vous
-désirez diffuser en unicast
+dÃ©sirez diffuser en unicast
 
 
 ;</para></listitem>
 
 <listitem><para>
 
-le nom DNS de la machine vers laquelle vous désirez
+le nom DNS de la machine vers laquelle vous dÃ©sirez
 envoyer en unicast
 
 
@@ -103,7 +103,7 @@ IP (cela signifie qu'ils pourront traverser 11 routeurs)
 
 <para>
 
-Si vous désirez diffuser un continu, ajoutez
+Si vous dÃ©sirez diffuser un continu, ajoutez
 l'option <emphasis>--loop</emphasis>
 
 
@@ -131,7 +131,7 @@ Ceci n'est possible que sous GNU/Linux
 </screen>
 
 <para>
-où
+oÃ¹
 
 
 :</para>
@@ -143,7 +143,7 @@ où
 
 
 est le nom de votre lecteur de DVD
- ou le dossier où vous avez copié votre DVD
+ ou le dossier oÃ¹ vous avez copiÃ© votre DVD
 
 
  
@@ -161,14 +161,14 @@ est le nom de votre lecteur de DVD
 <listitem><para>
 
 l'adresse IP de la machine vers laquelle vous
-désirez diffuser en unicast
+dÃ©sirez diffuser en unicast
 
 
 ;</para></listitem>
 
 <listitem><para>
 
-le nom DNS de la machine vers laquelle vous désirez
+le nom DNS de la machine vers laquelle vous dÃ©sirez
 envoyer en unicast
 
 
@@ -198,7 +198,7 @@ IP (cela signifie qu'ils pourront traverser 11 routeurs)
 
 <para>
 
-Si vous désirez diffuser un continu, ajoutez
+Si vous dÃ©sirez diffuser un continu, ajoutez
 l'option <emphasis>--loop</emphasis>
 
 

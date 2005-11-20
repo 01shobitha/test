@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="dvb"><title id="tdvb">
 Einen DVB-Kanal (Satellit oder digitales terrestrisches
 TV) streamen
 </title>
 
 <note><para>
-Dies ist nur unter GNU/Linux möglich.
+Dies ist nur unter GNU/Linux mÃ¶glich.
 
 </para></note>
 
@@ -15,7 +15,7 @@ Installieren Sie die DVB-Treiber
 
 <para>
 Wenn Sie von einer DVB-Karte (eine Satelliten- oder eine
-digitale terrestrische TV-Karte) streamen möchten, müssen Sie die DVB-Treiber
+digitale terrestrische TV-Karte) streamen mÃ¶chten, mÃ¼ssen Sie die DVB-Treiber
 installieren:
 
 </para>
@@ -24,14 +24,14 @@ installieren:
 
 <listitem><para>
 
-Wenn Sie einen Linux 2.6.x Kernel benutzen, müssen Sie
+Wenn Sie einen Linux 2.6.x Kernel benutzen, mÃ¼ssen Sie
 nur die richtigen Module komplieren,
 
 </para></listitem>
 
 <listitem><para>
 
-Wenn Sie einen Linux 2.4.x Kernel benutzen, müssen Sie
+Wenn Sie einen Linux 2.4.x Kernel benutzen, mÃ¼ssen Sie
 die neueste Version der DVB-Treiber von der
 <ulink url="http://www.linuxtv.org/download/dvb/">
 DVB-Treiber-Downloadseite</ulink> des <ulink url="http://www.linuxtv.org/">LinuxTV</ulink>-Projektes herunterladen.
@@ -54,8 +54,8 @@ Streaming mit VLS
 
 <para>
 Legen Sie eine <filename>.dvbrc</filename>-Datei, die
-die DVB-Kanäle enthält, die Sie streamen möchten in Ihr Benutzer-Verzeichnis
-(einige für Satellitenkanäle werden im <emphasis>libdvd</emphasis>-Tarball
+die DVB-KanÃ¤le enthÃ¤lt, die Sie streamen mÃ¶chten in Ihr Benutzer-Verzeichnis
+(einige fÃ¼r SatellitenkanÃ¤le werden im <emphasis>libdvd</emphasis>-Tarball
 mitgeliefert).
 
 </para>
@@ -79,7 +79,7 @@ wobei
 <itemizedlist>
 
 <listitem><para><emphasis>"EUROSPORT"</emphasis>
-der Kanal ist, den Sie streamen möchten, wie Sie es in Ihre
+der Kanal ist, den Sie streamen mÃ¶chten, wie Sie es in Ihre
 <filename>~/.dvbrc</filename>-Datei geschrieben haben
 ,</para></listitem>
 
@@ -89,11 +89,11 @@ der Kanal ist, den Sie streamen möchten, wie Sie es in Ihre
 <itemizedlist>
 <listitem><para>
 die IP-Adresse des Rechners, den Sie via Unicast erreichen
-möchten;</para></listitem>
+mÃ¶chten;</para></listitem>
 
 <listitem><para>
 oder der DNS-Name des Rechners, den Sie via Unicast
-erreichen möchten;</para></listitem>
+erreichen mÃ¶chten;</para></listitem>
 
 <listitem><para>
 oder eine Multicast-IP-Adresse.
@@ -104,7 +104,7 @@ oder eine Multicast-IP-Adresse.
 <listitem><para><emphasis>12</emphasis>
  ist der Wert der TTL (Time To Live) Ihrer IP-Pakete (was
 bedeutet, dass der Stream in der Lage sein wird, 11 Router zu
-überqueren).</para></listitem>
+Ã¼berqueren).</para></listitem>
 
 </itemizedlist>
 
@@ -114,7 +114,7 @@ bedeutet, dass der Stream in der Lage sein wird, 11 Router zu
 Streaming mit VLC
 </title>
 
-<note><para>Dazu benötigen Sie die SVN-Version von VLC und sie mit
+<note><para>Dazu benÃ¶tigen Sie die SVN-Version von VLC und sie mit
 <command>./configure --enable-dvb</command> kompilieren. Dieses Feature
 sollte noch als experimentell angesehen werden.
 </para></note>
@@ -130,16 +130,16 @@ wobei
 <itemizedlist>
 
 <listitem><para><filename>8211</filename> ist die PID des DVB-Kanals,
-den Sie streamen möchten, ausgedrückt als Dezimalzahl
+den Sie streamen mÃ¶chten, ausgedrÃ¼ckt als Dezimalzahl
 ;</para></listitem>
 
 <listitem><para><filename>12597000</filename> ist die Frequenz des
-Transponders, den Sie streamen möchten, in Hz;</para></listitem>
+Transponders, den Sie streamen mÃ¶chten, in Hz;</para></listitem>
 
-<listitem><para><filename>0</filename> ist die Polarisierung (0 für
-vertikal, 1 für horizontal);</para></listitem>
+<listitem><para><filename>0</filename> ist die Polarisierung (0 fÃ¼r
+vertikal, 1 fÃ¼r horizontal);</para></listitem>
 
-<listitem><para><filename>3</filename> ist die FEC (3 für 3/4, 9 für
+<listitem><para><filename>3</filename> ist die FEC (3 fÃ¼r 3/4, 9 fÃ¼r
 automatisch);</para></listitem>
 
 <listitem><para><filename>27500000</filename> ist die 
@@ -150,10 +150,10 @@ Transpondersymbolrate in Hz;</para></listitem>
 <itemizedlist>
 
 <listitem><para>die IP-Adresse des Rechners, den Sie via Unicast erreichen
-möchten;</para></listitem>
+mÃ¶chten;</para></listitem>
 
 <listitem><para>oder der DNS-Name des Rechners, den Sie via Unicast
-erreichen möchten;</para></listitem>
+erreichen mÃ¶chten;</para></listitem>
 
 <listitem><para>oder die Multicast-IP-Adresse.
 </para></listitem>
@@ -164,7 +164,7 @@ erreichen möchten;</para></listitem>
 
 <listitem><para><emphasis>12</emphasis> ist der Wert der TTL (Time To
 Live) Ihrer IP-Pakete (was bedeutet, dass der Stream in der Lage sein wird, 11
-Router zu überqueren).
+Router zu Ã¼berqueren).
 </para></listitem>
 
 </itemizedlist>

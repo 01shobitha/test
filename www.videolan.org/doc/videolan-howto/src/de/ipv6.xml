@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="ipv6"><title id="tipv6">
 
 Streamen in IPv6
@@ -19,12 +19,12 @@ Voraussetzungen
 
 <para>
 
-Sie benötigen eine IPv6 kompatibles Betriebssystem, wie
+Sie benÃ¶tigen eine IPv6 kompatibles Betriebssystem, wie
 Linux 2.4 oder 2.6 mit geladenem <emphasis>ipv6</emphasis> Modul, 
 Windows 2000 mit dem IPv6 Stack, Windows XP Service Pack 1 oder
-Mac OS X Version 10.2 oder höher. Bitte schauen Sie auf die Features-Seiten
+Mac OS X Version 10.2 oder hÃ¶her. Bitte schauen Sie auf die Features-Seiten
 auf der <ulink url="http://www.videolan.org">VideoLAN Website</ulink>, um
-den Status von IPv6 in VLC und VLS für jedes System zu erfahren.
+den Status von IPv6 in VLC und VLS fÃ¼r jedes System zu erfahren.
 
 </para>
 
@@ -32,8 +32,8 @@ den Status von IPv6 in VLC und VLS für jedes System zu erfahren.
 
 
 
-Unter Windows 2000 müssen Sie per Hand eine 
-standardmäßige IPv6-Route mit folgendem Befehl festlegen:
+Unter Windows 2000 mÃ¼ssen Sie per Hand eine 
+standardmÃ¤ÃŸige IPv6-Route mit folgendem Befehl festlegen:
 
 </para>
 
@@ -56,8 +56,8 @@ IPv6-Interfaces zu erhalten, starten Sie den Befehl
 
 
 
-Unter Windows XP können Sie Probleme mit einer
-verborgenen IPv6-Firewall haben. Um das Problem zu lösen, gehen Sie zur Liste
+Unter Windows XP kÃ¶nnen Sie Probleme mit einer
+verborgenen IPv6-Firewall haben. Um das Problem zu lÃ¶sen, gehen Sie zur Liste
 der Windows-Dienste und stoppen Sie den IPv6-Firewall-Dienst.
 
 </para></warning>
@@ -65,7 +65,7 @@ der Windows-Dienste und stoppen Sie den IPv6-Firewall-Dienst.
 <warning><para>
 
 Wenn Sie VMware unter Linux benutzen, werden Sie
-VMware stoppen müssen und die VMware-Kernelmodule beenden, da wir bemerkt
+VMware stoppen mÃ¼ssen und die VMware-Kernelmodule beenden, da wir bemerkt
 haben, das es IPv6-Streaming verhindert!
 </para></warning>
 
@@ -88,7 +88,7 @@ wobei:</para>
 
 <listitem><para><filename>video1.xyz</filename>
 
- ist die Datei, die Sie streamen möchten (Sie können auch
+ ist die Datei, die Sie streamen mÃ¶chten (Sie kÃ¶nnen auch
 <command>dvdsimple:/dev/dvd</command> zum Streamen einer DVD
 benutzen)
 ,</para></listitem>
@@ -102,7 +102,7 @@ ist entweder
 
 <listitem><para>
 
-die IPv6-Adresse des Rechners, den Sie via Unicast erreichen möchten
+die IPv6-Adresse des Rechners, den Sie via Unicast erreichen mÃ¶chten
 ;</para></listitem>
 
 <listitem><para>
@@ -119,7 +119,7 @@ oder die Multicast-IPv6-Adresse.
 
  ist der Wert der TTL (Time To Live) Ihrer IP-Paket (was
 bedeutet, dass der Stream in der Lage sein wird, 11 Router zu 
-überqueren).
+Ã¼berqueren).
 
 </para></listitem>
 
@@ -127,8 +127,8 @@ bedeutet, dass der Stream in der Lage sein wird, 11 Router zu
 
 <note><para>
 
-Unter Unix/Linux müssen Sie eventuell die eckigen
-Klammern um die IPv6-Adresse schützen
+Unter Unix/Linux mÃ¼ssen Sie eventuell die eckigen
+Klammern um die IPv6-Adresse schÃ¼tzen
 :</para>
 
 <screen>
@@ -139,8 +139,8 @@ Klammern um die IPv6-Adresse schützen
 
 <note><para>
 
-Es ist möglich, dass Sie das Ausgabe-Netzwerkinterface
-angeben müssen:</para>
+Es ist mÃ¶glich, dass Sie das Ausgabe-Netzwerkinterface
+angeben mÃ¼ssen:</para>
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv video1.xyz --ipv6 --sout udp:[ff08::1%eth0] --ttl 12</userinput>
@@ -167,10 +167,10 @@ Streamen mit VLS
 
 <para>
 
-Sie werden die Konfigurationsdatei benutzen müssen
+Sie werden die Konfigurationsdatei benutzen mÃ¼ssen
 <filename>vls.cfg</filename>. Bitte schauen Sie in den 
 <ulink url="http://www.videolan.org/doc/">VLC-Userguide</ulink>, um zu
-erfahren, wie sie eine für IPv6-Streaming in Uni- oder Multicast 
+erfahren, wie sie eine fÃ¼r IPv6-Streaming in Uni- oder Multicast 
 schreiben.
 
 </para>
@@ -205,7 +205,7 @@ Einen Multicast-Stream empfangen
 <note><para>
 
 Unter Unix/Linux kann es notwendig sein, dass Sie die
-Klammern um die IPv6-Adresse "beschützen" müssen
+Klammern um die IPv6-Adresse "beschÃ¼tzen" mÃ¼ssen
 :</para>
 
 <screen>
@@ -216,8 +216,8 @@ Klammern um die IPv6-Adresse "beschützen" müssen
 
 <note><para>
 
-Es ist möglich, dass Sie das Ausgabe-Netzwerkinterface
-festlegen müssen:</para>
+Es ist mÃ¶glich, dass Sie das Ausgabe-Netzwerkinterface
+festlegen mÃ¼ssen:</para>
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv video1.xyz --ipv6 --sout udp:[ff08::1%eth0] --ttl 12</userinput>

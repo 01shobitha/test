@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="receive"><title id="treceive">
 
 
@@ -41,7 +41,7 @@ Recibir un flujo multicast
 
 
  donde <emphasis>239.255.12.42</emphasis> es la
-dirección IP multicast del flujo
+direcciÃ³n IP multicast del flujo
 
 .</para>
 
@@ -73,7 +73,7 @@ Utilice uno de los siquientes comandos
 
 
 donde <emphasis>http://example/stream.xyz</emphasis>
-es la dirección HTTP del flujo
+es la direcciÃ³n HTTP del flujo
 
  ;</para>
 
@@ -89,7 +89,7 @@ es la dirección HTTP del flujo
 
 
 donde <emphasis>ftp://example/stream.xyz</emphasis>
-es la dirección FTP del flujo
+es la direcciÃ³n FTP del flujo
 
  ;</para>
 
@@ -107,7 +107,7 @@ es la dirección FTP del flujo
 
 donde
 <emphasis>mms://viptvr.yacast.fr/encoderfranceinfo</emphasis> es
-la dirección MMS del flujo
+la direcciÃ³n MMS del flujo
 
 .</para>
 
@@ -131,7 +131,7 @@ Recibir un flujo RTP disponible por RTSP
 
 
  donde <emphasis>rtsp://www.hardradio.com/tonbeme.mov</emphasis> es la
-dirección del flujo RTSP
+direcciÃ³n del flujo RTSP
 
 .</para>
 
@@ -162,8 +162,8 @@ Guardar un flujo con VLC
 
 
 VLC puede guardar el flujo a un disco. Para
-hacer esto, utilice el Stream Output de VLC : puede hacerlo a través del
-interfaz gráfico, o a través de la línea de comandos con el siguiente
+hacer esto, utilice el Stream Output de VLC : puede hacerlo a travÃ©s del
+interfaz grÃ¡fico, o a travÃ©s de la lÃ­nea de comandos con el siguiente
 argumento
 
  :</para>
@@ -229,7 +229,7 @@ de VLC, esto es
 
 
 y <filename>stream.xyz</filename> es el nombre
-del fichero donde se quiere guardar el flujo, con la extensión adecuada
+del fichero donde se quiere guardar el flujo, con la extensiÃ³n adecuada
 
 .</para></listitem>
 
@@ -251,7 +251,7 @@ Algunos set-top-boxes con tarjeta Ethernet son capaces de
 recibir flujo MPEG2-TS sobre UDP, y soportan multicast. Este es el caso
 de los set-top-boxes de <ulink url="http://www.pace.co.uk">Pace</ulink> y <ulink url="http://www.aminocom.com">Aminocom</ulink>. Hemos realizado pruebas
 con el <emphasis>AmiNET 100</emphasis> de Aminocom: es
-pequeño, y trabaja muy bien con VideoLAN
+pequeÃ±o, y trabaja muy bien con VideoLAN
 
 .</para>
 

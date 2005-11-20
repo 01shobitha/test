@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="ipv6"><title id="tipv6">
 Diffusez en IPv6
 </title>
@@ -20,13 +20,13 @@ Requis
 
 <para> 
 
-Vous devez avoir un système d'exploitation
+Vous devez avoir un systÃ¨me d'exploitation
 compatible IPv6, comme, par exemple, Linux 2.4 ou 2.6 avec le module
-<emphasis>ipv6</emphasis> chargé, Windows 2000 avec la stack IPv6,
+<emphasis>ipv6</emphasis> chargÃ©, Windows 2000 avec la stack IPv6,
 Windows XP Service Pack 1, ou Mac OS X version 10.2 ou plus. Veuillez
-vous référer au <ulink url="http://www.videolan.org">site web
-VideoLAN</ulink> pour connaître le status de l'IPv6 dans VLC et VLS pour
-chaque système. 
+vous rÃ©fÃ©rer au <ulink url="http://www.videolan.org">site web
+VideoLAN</ulink> pour connaÃ®tre le status de l'IPv6 dans VLC et VLS pour
+chaque systÃ¨me. 
 
 
 .</para>
@@ -41,8 +41,8 @@ chaque système.
 
 
 
-Sous Windows 2000, vous devez ajouter à la main une
-route de multicast IPv6 par défaut:
+Sous Windows 2000, vous devez ajouter Ã  la main une
+route de multicast IPv6 par dÃ©faut:
 
 
 
@@ -58,9 +58,9 @@ route de multicast IPv6 par défaut:
 
 
 
-où le dernier nombre (<emphasis>4</emphasis> dans
-cet exemple) est le numéro de votre vraie interface IPv6. Pour avoir
-la liste de vos interfaces IPv6, lançez la commande <command>ipv6
+oÃ¹ le dernier nombre (<emphasis>4</emphasis> dans
+cet exemple) est le numÃ©ro de votre vraie interface IPv6. Pour avoir
+la liste de vos interfaces IPv6, lanÃ§ez la commande <command>ipv6
 if</command>.
 
 
@@ -74,8 +74,8 @@ if</command>.
 
 
 Sous Windows XP, vous aurez probablement des ennuis
-à cause d'un firewall IPv6 caché. Pour résoudre le problème, allez
-dans la liste des services Windows et arrêtez le service de parre-feu
+Ã  cause d'un firewall IPv6 cachÃ©. Pour rÃ©soudre le problÃ¨me, allez
+dans la liste des services Windows et arrÃªtez le service de parre-feu
 IPv6.
 
 
@@ -87,8 +87,8 @@ IPv6.
 <warning><para>
 
 Si vous utilisez VMWare sous Linux, vous devrez
-l'arrêter et décharger les modules noyau de VMWare, car nous avons
-constaté qu'ils empêchent la diffusion IPv6 !
+l'arrÃªter et dÃ©charger les modules noyau de VMWare, car nous avons
+constatÃ© qu'ils empÃªchent la diffusion IPv6 !
 
 
 </para></warning>
@@ -108,7 +108,7 @@ Diffusez avec VLC
 
 <para>
 
-où
+oÃ¹
 
 
  :</para>
@@ -117,7 +117,7 @@ où
 
 <listitem><para><filename>video1.xyz</filename>
 
- est le fichier que vous désirez diffuser (vous
+ est le fichier que vous dÃ©sirez diffuser (vous
 pouvez par exemple, utiliser <command>dvdsimple:/dev/dvd</command>, pour
 diffuser un DVD, ....)
 
@@ -136,7 +136,7 @@ est soit
 <listitem><para>
 
 l'adresse IPv6 de la machine vers laquelle vous
-désirez diffuser en unicast
+dÃ©sirez diffuser en unicast
 
 
 ;</para></listitem>
@@ -165,7 +165,7 @@ IP (cela signifie qu'ils pourront traverser 11 routeurs)
 <note><para>
 
 Sous Unix ou GNU/Linux, il est possible que vous
-deviez "protéger" les crochets autour de l'adresse IPv6
+deviez "protÃ©ger" les crochets autour de l'adresse IPv6
 
 
 :</para>
@@ -178,8 +178,8 @@ deviez "protéger" les crochets autour de l'adresse IPv6
 
 <note><para>
 
-Il est possible que vous deviez spécifier
-l'interface réseau de sortie
+Il est possible que vous deviez spÃ©cifier
+l'interface rÃ©seau de sortie
 
 
  :</para>
@@ -190,11 +190,11 @@ l'interface réseau de sortie
 
 <para>
 
-où <emphasis>eth0</emphasis> est
-le nom de l'interface réseau (sous Linux, elles sont
-nommées <emphasis>ethX</emphasis>, sous Mac OS X, c'est
+oÃ¹ <emphasis>eth0</emphasis> est
+le nom de l'interface rÃ©seau (sous Linux, elles sont
+nommÃ©es <emphasis>ethX</emphasis>, sous Mac OS X, c'est
 <emphasis>enX</emphasis>, et <emphasis>X</emphasis> sous Windows, avec
-<emphasis>X</emphasis> le numéro approprié)
+<emphasis>X</emphasis> le numÃ©ro appropriÃ©)
 
 
 .</para>
@@ -214,7 +214,7 @@ Diffusez avec VLS
 
 Vous devez utiliser le fichier de configuration
 <filename>vls.cfg</filename>. Merci de voir le <ulink url="http://www.videolan.org/doc/">guide de l'utilisateur de VLS</ulink>
-pour plus de détails
+pour plus de dÃ©tails
 
 
 .</para>
@@ -257,7 +257,7 @@ Recevez un flux multicast
 <note><para>
 
 Sous Unix ou GNU/Linux, il est possible que vous
-deviez "protéger" les crochets autour de l'adresse IPv6
+deviez "protÃ©ger" les crochets autour de l'adresse IPv6
 
 
 :</para>
@@ -270,8 +270,8 @@ deviez "protéger" les crochets autour de l'adresse IPv6
 
 <note><para>
 
-Il est possible que vous deviez spécifier
-l'interface réseau de sortie
+Il est possible que vous deviez spÃ©cifier
+l'interface rÃ©seau de sortie
 
 
  :</para>
@@ -282,11 +282,11 @@ l'interface réseau de sortie
 
 <para>
 
-où <emphasis>eth0</emphasis> est
-le nom de l'interface réseau (sous Linux, elles sont
-nommées <emphasis>ethX</emphasis>, sous Mac OS X, c'est
+oÃ¹ <emphasis>eth0</emphasis> est
+le nom de l'interface rÃ©seau (sous Linux, elles sont
+nommÃ©es <emphasis>ethX</emphasis>, sous Mac OS X, c'est
 <emphasis>enX</emphasis>, et <emphasis>X</emphasis> sous Windows, avec
-<emphasis>X</emphasis> le numéro approprié)
+<emphasis>X</emphasis> le numÃ©ro appropriÃ©)
 
 
 .</para>

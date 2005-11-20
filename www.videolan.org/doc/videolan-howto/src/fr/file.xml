@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="file"><title id="tfile">
 
 Diffusez un fichier
@@ -19,7 +19,7 @@ Diffusez un fichier avec VLC
 
 <para>
 
-où 
+oÃ¹ 
 
 
 :</para>
@@ -28,7 +28,7 @@ où
 
 <listitem><para><filename>video1.xyz</filename>
 
- est le fichier que vous désirez diffuser
+ est le fichier que vous dÃ©sirez diffuser
 
 
 ,</para></listitem>
@@ -45,14 +45,14 @@ où
 <listitem><para>
 
 l'adresse IP de la machine vers laquelle vous
-désirez diffuser en unicast
+dÃ©sirez diffuser en unicast
 
 
 ;</para></listitem>
 
 <listitem><para>
 
-le nom DNS de la machine vers laquelle vous désirez
+le nom DNS de la machine vers laquelle vous dÃ©sirez
 envoyer en unicast
 
 
@@ -80,7 +80,7 @@ IP (cela signifie qu'ils pourront traverser 11 routeurs)
 
 <para>
 
-Si vous désirez diffuser un continu, ajoutez
+Si vous dÃ©sirez diffuser un continu, ajoutez
 l'option <emphasis>--loop</emphasis>
 
 
@@ -100,7 +100,7 @@ Diffusez un fichier avec VLS
 </screen>
 
 <para>
-où
+oÃ¹
 
 
  :</para>
@@ -110,7 +110,7 @@ où
 
 <listitem><para><filename>video1.xyz</filename>
 
- est le fichier que vous désirez diffuser
+ est le fichier que vous dÃ©sirez diffuser
 
 
 ,</para></listitem>
@@ -126,14 +126,14 @@ où
 <listitem><para>
 
 l'adresse IP de la machine vers laquelle vous
-désirez diffuser en unicast
+dÃ©sirez diffuser en unicast
 
 
 ;</para></listitem>
 
 <listitem><para>
 
-le nom DNS de la machine vers laquelle vous désirez
+le nom DNS de la machine vers laquelle vous dÃ©sirez
 envoyer en unicast
 
 
@@ -165,14 +165,14 @@ IP (cela signifie qu'ils pourront traverser 11 routeurs)
 <para>
 
 
-Quand vous désirez stopper VLS, faites :
+Quand vous dÃ©sirez stopper VLS, faites :
 
 
 <keycombo><keycap>Ctrl</keycap><keycap>c</keycap></keycombo>.</para>
 
 <para>
 
-Si vous désirez diffuser un continu, ajoutez
+Si vous dÃ©sirez diffuser un continu, ajoutez
 l'option <emphasis>--loop</emphasis>
 
 

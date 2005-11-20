@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="dvd"><title id="tdvd">
 
 
@@ -11,8 +11,8 @@ Transmitir un DVD
 
 
 Bajo Unix/Linux, debe tener permiso de escritura en el dispositivo que corresponda a su DVD. 
-Para ello, debería estar en el grupo del disco o cdrom (mire
-los permisos en <filename>/dev</filename>). Si no lo está, debe añadirse al grupo 
+Para ello, deberÃ­a estar en el grupo del disco o cdrom (mire
+los permisos en <filename>/dev</filename>). Si no lo estÃ¡, debe aÃ±adirse al grupo 
 
 :</para>
 
@@ -23,7 +23,7 @@ los permisos en <filename>/dev</filename>). Si no lo está, debe añadirse al grup
 <para>
 
 
-y entonces reiniciar su sesión
+y entonces reiniciar su sesiÃ³n
 
 .</para></note>
 
@@ -52,7 +52,7 @@ donde
 
 es el nombre de su lector de DVD (debe poner
 <filename>D:</filename> bajo Windows si <filename>D</filename> es
-la letra de su DVD) o el directorio donde copió un DVD
+la letra de su DVD) o el directorio donde copiÃ³ un DVD
 
 ,</para></listitem>
 
@@ -68,21 +68,21 @@ la letra de su DVD) o el directorio donde copió un DVD
 <listitem><para>
 
 
-la dirección IP de la máquina a la que se quiere hacer unicast
+la direcciÃ³n IP de la mÃ¡quina a la que se quiere hacer unicast
 
 ;</para></listitem>
 
 <listitem><para>
 
 
-o el nombre DNS de la máquina a la que se quiere hacer unicast
+o el nombre DNS de la mÃ¡quina a la que se quiere hacer unicast
 
 ;</para></listitem>
 
 <listitem><para>
 
 
-o una dirección IP multicast
+o una direcciÃ³n IP multicast
 
 .</para></listitem>
 
@@ -94,7 +94,7 @@ o una dirección IP multicast
 
 
  es el valor TTL (Time To
-Live) de los paquetes IP (lo que significa que el flujo será capaz de pasar a través de 11 routers)
+Live) de los paquetes IP (lo que significa que el flujo serÃ¡ capaz de pasar a travÃ©s de 11 routers)
 
 .</para></listitem>
 </itemizedlist>
@@ -103,7 +103,7 @@ Live) de los paquetes IP (lo que significa que el flujo será capaz de pasar a tr
 <para>
 
 
-Si se quiere transmitir un DVD de forma ininterrumpida, añada la opción
+Si se quiere transmitir un DVD de forma ininterrumpida, aÃ±ada la opciÃ³n
 <emphasis>--loop</emphasis>
 
 .</para>
@@ -121,7 +121,7 @@ Transmitir un DVD con VLS
 <note><para>
 
 
-Esto sólo es posible bajo GNU/Linux
+Esto sÃ³lo es posible bajo GNU/Linux
 
 .</para></note>
 
@@ -144,7 +144,7 @@ donde
 
 
 es el nombre de su lector de DVD
- o el directorio donde copió un DVD
+ o el directorio donde copiÃ³ un DVD
  
 
 ,</para></listitem>
@@ -160,21 +160,21 @@ es el nombre de su lector de DVD
 <listitem><para>
 
 
-la dirección IP de la máquina a la que se quiere hacer unicast
+la direcciÃ³n IP de la mÃ¡quina a la que se quiere hacer unicast
 
 ;</para></listitem>
 
 <listitem><para>
 
 
-o el nombre DNS de la máquina a la que se quiere hacer unicast
+o el nombre DNS de la mÃ¡quina a la que se quiere hacer unicast
 
 ;</para></listitem>
 
 <listitem><para>
 
 
-o una dirección IP multicast
+o una direcciÃ³n IP multicast
 
 .</para></listitem>
 
@@ -187,7 +187,7 @@ o una dirección IP multicast
 
 
  es el valor TTL (Time To
-Live) de los paquetes (lo que significa que que el flujo será capaz de pasar a través de 11 routers)
+Live) de los paquetes (lo que significa que que el flujo serÃ¡ capaz de pasar a travÃ©s de 11 routers)
 
 .</para></listitem>
 
@@ -196,7 +196,7 @@ Live) de los paquetes (lo que significa que que el flujo será capaz de pasar a t
 <para>
 
 
-Si se quiere transmitir un DVD de forma ininterrumpida, añada la opción
+Si se quiere transmitir un DVD de forma ininterrumpida, aÃ±ada la opciÃ³n
 <emphasis>--loop</emphasis>
 
 .</para>

@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="vod"><title id="tvod">
-Vídeo Bajo Demanda
+VÃ­deo Bajo Demanda
 </title>
 	
 <sect1><title>
-Visión General
+VisiÃ³n General
 </title>
 
 
@@ -12,18 +12,18 @@ Visión General
 
 
 
-<para>El vídeo bajo demanda (VOD) permite al usuario visualizar el vídeo,
-cuando el quiera, hacer pausas y rebobinar. Ésta es la principal ventaja de la difusión de vídeo
-mediante flujo de datos, en pocas palabras: el sueño de cualquier usuario.</para>
+<para>El vÃ­deo bajo demanda (VOD) permite al usuario visualizar el vÃ­deo,
+cuando el quiera, hacer pausas y rebobinar. Ã‰sta es la principal ventaja de la difusiÃ³n de vÃ­deo
+mediante flujo de datos, en pocas palabras: el sueÃ±o de cualquier usuario.</para>
 
 <para>VOD es una de las principales fuentes de consumo de recursos
 tanto de la red como del servidor. VOD es unicast, no multicast : esto significa que los recursos
-de la red y del servidor necesarios, son directamente proporcionales al número de clientes.</para>
+de la red y del servidor necesarios, son directamente proporcionales al nÃºmero de clientes.</para>
 
-<para>La solución que VideoLAN's VOD propone es muy simple. La idea es hacer una 
-difusión HTTP, por ejemplo: encapsular el flujo de datos de vídeo (MPEG) en HTTP.
+<para>La soluciÃ³n que VideoLAN's VOD propone es muy simple. La idea es hacer una 
+difusiÃ³n HTTP, por ejemplo: encapsular el flujo de datos de vÃ­deo (MPEG) en HTTP.
 El control del flujo de datos entre el cliente y el servidor se hace automaticamente 
-mediante TCP. Con HTTP versión  1.1, existe la posibilidad de buscar en un fichero descargado,	
+mediante TCP. Con HTTP versiÃ³n  1.1, existe la posibilidad de buscar en un fichero descargado,	
 que es lo que nosotros hacemos para buscar el video</para>
 
 
@@ -43,8 +43,8 @@ Parte servidor
 
 
 <para>En un servidor de VOD se necesita un servidor Web. 			
-Por ejemplo, se podría usar el Servidor de Linux Apache. Otros sistemas operativos
-y servidores web deberían funcionar también, pero no se ha comprobado.</para>
+Por ejemplo, se podrÃ­a usar el Servidor de Linux Apache. Otros sistemas operativos
+y servidores web deberÃ­an funcionar tambiÃ©n, pero no se ha comprobado.</para>
 
 <para>Esto hace que los ficheros MPEG-1, MPEG-2 or MPEG-4 / DivX
 esten disponibles para los clientes.</para>
@@ -83,8 +83,8 @@ Parte cliente
 
 
 
-<para>VLC empieza a leer el flujo de datos casi inmediatamente, y además le permite 
-hacer búsquedas, pausas etc...como si el flujo de datos fuera un fichero local </para>
+<para>VLC empieza a leer el flujo de datos casi inmediatamente, y ademÃ¡s le permite 
+hacer bÃºsquedas, pausas etc...como si el flujo de datos fuera un fichero local </para>
 
 
 

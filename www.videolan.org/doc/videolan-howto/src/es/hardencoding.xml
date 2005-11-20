@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="hardencoding"><title id="thardencoding">
-Transmisión desde una tarjeta de codificación MPEG2
+TransmisiÃ³n desde una tarjeta de codificaciÃ³n MPEG2
 </title>
 
 <note><para>
 
 
-Esto sólo es posible bajo GNU/Linux
+Esto sÃ³lo es posible bajo GNU/Linux
 
 .</para></note>
 
@@ -45,22 +45,22 @@ y son menos caras que la VisionTech Kfir
 <sect1><title>
 
 
-Transmisión con la Hauppauge WinTV-PVR-250/350
+TransmisiÃ³n con la Hauppauge WinTV-PVR-250/350
 
 </title>
 
 <sect2><title>
 
 
-Instalación de los drivers
+InstalaciÃ³n de los drivers
 
 </title>
 
 <para>
 
 
-Primero, tendrá que parchear el kernel para dar soporte
-al API v412 (Video 4 Linux version 2). El patch está disponible en
+Primero, tendrÃ¡ que parchear el kernel para dar soporte
+al API v412 (Video 4 Linux version 2). El patch estÃ¡ disponible en
 <ulink url="http://bytesex.org/v41/">VideoLinux HQ</ulink>
 
 .</para>
@@ -68,11 +68,11 @@ al API v412 (Video 4 Linux version 2). El patch está disponible en
 <para>
 
 
-Una vez que el kernel está listo, instale la versión
-CVS de los drivers Linux para la Hauppauge WinTV-PVR-250/350. Están 
+Una vez que el kernel estÃ¡ listo, instale la versiÃ³n
+CVS de los drivers Linux para la Hauppauge WinTV-PVR-250/350. EstÃ¡n 
 disponibles en <ulink url="http://ivtv.sourceforge.net/">ivtv.sourceforge.net</ulink>.
-Después tendrá que crear el dispositivo y cargar los módulos; para esto
-por favor consulte la documentación de los drivers
+DespuÃ©s tendrÃ¡ que crear el dispositivo y cargar los mÃ³dulos; para esto
+por favor consulte la documentaciÃ³n de los drivers
 
 .</para>
 
@@ -81,15 +81,15 @@ por favor consulte la documentación de los drivers
 <sect2><title>
 
 
-Transmisión con VLC
+TransmisiÃ³n con VLC
 
 </title>
 
 <note><para>
 
 
-Se debe añadir <command>--enable-pvr</command>
-a <command>./configure</command> para poder usar esta característica.
+Se debe aÃ±adir <command>--enable-pvr</command>
+a <command>./configure</command> para poder usar esta caracterÃ­stica.
 
 </para></note>
 
@@ -117,7 +117,7 @@ es el dispositivo correspondiente a la tarjeta
 <listitem><para><emphasis>norm=secam</emphasis>
 
 
-es el nombre del estándar de la señal analógica
+es el nombre del estÃ¡ndar de la seÃ±al analÃ³gica
 (los valores posibles son pal, secam, ntsc)
 
 ,</para></listitem>
@@ -125,7 +125,7 @@ es el nombre del estándar de la señal analógica
 <listitem><para><emphasis>size=720x576</emphasis>
 
 
-es el tamaño del video a transmitir
+es el tamaÃ±o del video a transmitir
 
 ,</para></listitem>
 
@@ -140,14 +140,14 @@ transmitir
 <listitem><para><emphasis>bitrate=3000000</emphasis> 
 
 
-es la tasa de compresión media del stream
+es la tasa de compresiÃ³n media del stream
 
 ,</para></listitem>
 
 <listitem><para><emphasis>maxbitrate=4000000</emphasis>
 
 
-es la tasa de compresión máxima del stream
+es la tasa de compresiÃ³n mÃ¡xima del stream
 
 ,</para></listitem>
 
@@ -162,7 +162,7 @@ es la tasa de compresión máxima del stream
 <listitem><para>
 
 
-la dirección IP de la máquina a la que se quiere
+la direcciÃ³n IP de la mÃ¡quina a la que se quiere
 enviar el flujo unicast
 
 ;</para></listitem>
@@ -170,7 +170,7 @@ enviar el flujo unicast
 <listitem><para>
 
 
-o bien el nombre DNS de la máquina a la que se
+o bien el nombre DNS de la mÃ¡quina a la que se
 quiere enviar el flujo unicast
 
 ;</para></listitem>
@@ -178,7 +178,7 @@ quiere enviar el flujo unicast
 <listitem><para>
 
 
-o bien una dirección IP multicast
+o bien una direcciÃ³n IP multicast
 
 .</para></listitem>
 
@@ -190,15 +190,15 @@ o bien una dirección IP multicast
 
 
  es el valor del TTL (Time To Live)
-de los paquetes IP (quiere decir que el stream podrá pasar a 
-través de 11 routers
+de los paquetes IP (quiere decir que el stream podrÃ¡ pasar a 
+travÃ©s de 11 routers
 
 .</para></listitem>
 
 <listitem><para><emphasis>1000</emphasis>
 
 
- es una parámetro secreto que permite evitar un bug de la tarjeta
+ es una parÃ¡metro secreto que permite evitar un bug de la tarjeta
 
 .</para></listitem>
 
@@ -210,14 +210,14 @@ través de 11 routers
 <sect2><title>
 
 
-Transmisión con VLS
+TransmisiÃ³n con VLS
 
 </title>
 
 <para>
 
 
-Debe usar la versión SVN de VLS
+Debe usar la versiÃ³n SVN de VLS
 
 .</para>
 
@@ -225,14 +225,14 @@ Debe usar la versión SVN de VLS
 
 
 No hay interfaz de comandos para este tipo de 
-entrada por el momento. Debe usar el fichero de configuración
+entrada por el momento. Debe usar el fichero de configuraciÃ³n
 
 .</para>
 
 <para>
 
 
-Éste es un fichero típico de configuración
+Ã‰ste es un fichero tÃ­pico de configuraciÃ³n
 <filename>vls.cfg</filename> para la Hauppauge WinTV-PVR-250/350
 
 :</para>
@@ -325,7 +325,7 @@ end
 <para>
 
 
-Una vez adaptado el fichero de configuración
+Una vez adaptado el fichero de configuraciÃ³n
 anterior, ejecute VLS
 
 :</para>
@@ -340,14 +340,14 @@ anterior, ejecute VLS
 <sect1><title>
 
 
-Transmisión con la Visiontech Kfir
+TransmisiÃ³n con la Visiontech Kfir
 
 </title>
 
 <sect2><title>
 
 
-Instalación de los drivers
+InstalaciÃ³n de los drivers
 
 </title>
 
@@ -356,8 +356,8 @@ Instalación de los drivers
 
 Si desea transmitir con una tarjeta
 Visiontech Kfir, necesita instalar los drivers Linux.
-Descargue la última versión de los drivers desde la
-<ulink url="http://www.linuxtv.org/download/mpeg2/">página de descargas
+Descargue la Ãºltima versiÃ³n de los drivers desde la
+<ulink url="http://www.linuxtv.org/download/mpeg2/">pÃ¡gina de descargas
 </ulink> de la web <ulink url="http://www.linuxtv.org/">LinuxTV</ulink>
 
 .</para>
@@ -386,7 +386,7 @@ USB en la BIOS
 
 
 
-Transmisión con VLC
+TransmisiÃ³n con VLC
 
 </title>
 
@@ -420,7 +420,7 @@ es el dispositivo correspondiente a la tarjeta Kfir
 <listitem><para>
 
 
-la dirección IP de la máquina a la que se quiere
+la direcciÃ³n IP de la mÃ¡quina a la que se quiere
 enviar el flujo unicast
 
 ;</para></listitem>
@@ -428,7 +428,7 @@ enviar el flujo unicast
 <listitem><para>
 
 
-o bien el nombre DNS de la máquina a la que se quiere
+o bien el nombre DNS de la mÃ¡quina a la que se quiere
 enviar el flujo unicast
 
 ;</para></listitem>
@@ -436,7 +436,7 @@ enviar el flujo unicast
 <listitem><para>
 
 
-o bien una dirección multicast
+o bien una direcciÃ³n multicast
 
 .</para></listitem>
 
@@ -448,8 +448,8 @@ o bien una dirección multicast
 
 
  es el valor del TTL (Time To Live)
-de los paquetes IP (quiere decir que el stream podrá pasar a 
-través de 11 routers
+de los paquetes IP (quiere decir que el stream podrÃ¡ pasar a 
+travÃ©s de 11 routers
 
 .</para></listitem>
 
@@ -468,14 +468,14 @@ través de 11 routers
 
 
 No hay interfaz de comandos para este tipo de 
-entrada por el momento. Debe usar el fichero de configuración
+entrada por el momento. Debe usar el fichero de configuraciÃ³n
 
 .</para>
 
 <para>
 
 
-Éste es un fichero típico de configuración
+Ã‰ste es un fichero tÃ­pico de configuraciÃ³n
 <filename>vls.cfg</filename> para la Visiontech Kfir
 
 :</para>
@@ -533,7 +533,7 @@ END
 <para>
 
 
-Una vez adaptado el fichero de configuración
+Una vez adaptado el fichero de configuraciÃ³n
 anterior, ejecute VLS
 
 :</para>

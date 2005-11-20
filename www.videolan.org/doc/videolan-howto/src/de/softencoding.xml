@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="softencoding"><title id="tsoftencoding">
 Streamen von einer Eingangskarte oder einer Webcam
 </title>
 
 <note><para>
-Dies ist nur unter GNU/Linux möglich.
+Dies ist nur unter GNU/Linux mÃ¶glich.
 
 </para></note>
 
@@ -15,17 +15,17 @@ Installation der Video for Linux-Treiber
 
 <para>
 Wenn Sie von einer Eingangskarte oder einer Webcam
-streamen möchten, muss eine video4linux-Treiber dafür verfügbar sein. Sie
-können mehr Informationen über video4linux und unterstützte Geräte
+streamen mÃ¶chten, muss eine video4linux-Treiber dafÃ¼r verfÃ¼gbar sein. Sie
+kÃ¶nnen mehr Informationen Ã¼ber video4linux und unterstÃ¼tzte GerÃ¤te
 <ulink url="http://www.exploits.org/v4l">hier</ulink> finden.
 </para>
 
 <para>
-Kompilieren Sie das richtige Modul für Ihr Gerät und
-fügen Sie es Ihrem Kernel hinzu (einige video4linux-Module werden mit den
-Linux 2.4.x Kernel mitgeliefert). Sie können Ihr Gerät mit jedem in der Sektion
+Kompilieren Sie das richtige Modul fÃ¼r Ihr GerÃ¤t und
+fÃ¼gen Sie es Ihrem Kernel hinzu (einige video4linux-Module werden mit den
+Linux 2.4.x Kernel mitgeliefert). Sie kÃ¶nnen Ihr GerÃ¤t mit jedem in der Sektion
 <emphasis>Video: TV and PVR/DVR</emphasis> auf
-<ulink url="http://www.exploits.org/v4l/">dieser Seite</ulink> aufgeführtem
+<ulink url="http://www.exploits.org/v4l/">dieser Seite</ulink> aufgefÃ¼hrtem
 Programm testen.
 </para>
 
@@ -40,9 +40,9 @@ Streaming mit VLC
 </title>
 
 <note><para>
-Sie müssen <command>--enable-v4l</command> zu
-<command>./configure</command> hinzufügen, um dieses Feature nutzen zu
-können.
+Sie mÃ¼ssen <command>--enable-v4l</command> zu
+<command>./configure</command> hinzufÃ¼gen, um dieses Feature nutzen zu
+kÃ¶nnen.
 </para></note>
 
 <screen>
@@ -62,7 +62,7 @@ Webcam entspricht,
 </para></listitem>
 
 <listitem><para><emphasis>norm=secam</emphasis>
- ist der Name des analogen Signalstandards (mögliche
+ ist der Name des analogen Signalstandards (mÃ¶gliche
 Werte sind pal, secam und ntsc),
 
 </para></listitem>
@@ -74,8 +74,8 @@ Warnung:</emphasis> bei VLC &lt; 0.6.1 ist die Frequenz die mit
 </para></listitem>
 
 <listitem><para>
-<emphasis>size=640x480</emphasis> ist die Größe des
-Bildes, die Sie möchten (Sie können auch die eine Standardgröße eingeben wie
+<emphasis>size=640x480</emphasis> ist die GrÃ¶ÃŸe des
+Bildes, die Sie mÃ¶chten (Sie kÃ¶nnen auch die eine StandardgrÃ¶ÃŸe eingeben wie
 <emphasis>subqcif</emphasis> (128x96), <emphasis>qsif</emphasis>
 (160x120), <emphasis>qcif</emphasis> (176x144), <emphasis>sif
 </emphasis> (320x240), <emphasis>cif</emphasis>
@@ -83,24 +83,24 @@ Bildes, die Sie möchten (Sie können auch die eine Standardgröße eingeben wie
 </para></listitem>
 
 <listitem><para><emphasis>channel=0</emphasis> 
-ist die Nummer des Kanals (üblicherweise ist 0 für Tuner,
-1 für composite und 2 für svideo),
+ist die Nummer des Kanals (Ã¼blicherweise ist 0 fÃ¼r Tuner,
+1 fÃ¼r composite und 2 fÃ¼r svideo),
 
 </para></listitem>
 
 <listitem><para><emphasis>adev=/dev/dsp</emphasis>
-ist das Audiogerät,
+ist das AudiogerÃ¤t,
 </para></listitem>
 
 <listitem><para><emphasis>audio=1</emphasis> 
-ist die Nummer des Tonkanals (üblicherweise ist 0 für
-Mono und 1 für Stereo),
+ist die Nummer des Tonkanals (Ã¼blicherweise ist 0 fÃ¼r
+Mono und 1 fÃ¼r Stereo),
 </para></listitem>
 
 <listitem><para><emphasis>vcodec=mp4v</emphasis> 
-ist das Videoformat in dem Sie kodieren möchten 
+ist das Videoformat in dem Sie kodieren mÃ¶chten 
 (<emphasis>mp4v</emphasis> ist MPEG-4, <emphasis>mpgv</emphasis> ist
-MPEG-1 und es gibt außerdem
+MPEG-1 und es gibt auÃŸerdem
 <emphasis>h263</emphasis>, <emphasis>DIV1</emphasis>,
 <emphasis>DIV2</emphasis>, <emphasis>DIV3</emphasis>,
 <emphasis>I420</emphasis>, <emphasis>I422</emphasis>,
@@ -108,7 +108,7 @@ MPEG-1 und es gibt außerdem
 <emphasis>YUY2</emphasis>),</para></listitem>
 
 <listitem><para><emphasis>acodec=mpga</emphasis> 
-ist das Tonformat, in dem Sie kodieren möchten
+ist das Tonformat, in dem Sie kodieren mÃ¶chten
 (<emphasis>mpga</emphasis> ist MPEG audio layer 2,
 <emphasis>a52</emphasis> ist A52 bzw. AC3),
 </para></listitem>
@@ -143,12 +143,12 @@ benutzen,
 <itemizedlist>
 <listitem><para>
 die Adresse des Rechners, den Sie via Unicast erreichen 
-möchten;
+mÃ¶chten;
 </para></listitem>
 
 <listitem><para>
 oder der DNS-Name des Rechners, den Sie via Unicast erreichen
-möchten;
+mÃ¶chten;
 </para></listitem>
 
 <listitem><para>
@@ -162,7 +162,7 @@ oder eine Multicast-IP-Adresse.
 
 <listitem><para><emphasis>12</emphasis>
  ist der Wert der TTL (Time To Live) Ihrer IP-Pakete (was 
-bedeutet, dass der Stream in der Lage sein wird, 11 Router zu überqueren).
+bedeutet, dass der Stream in der Lage sein wird, 11 Router zu Ã¼berqueren).
 </para></listitem>
 
 </itemizedlist>
@@ -174,22 +174,22 @@ Streaming mit VLS
 </title>
 
 <note><para>
-Sie benötigen die SVN-Version von VLS. Wenn Sie sie 
-kompilieren, müssen Sie <command>./bootstrap</command> und 
+Sie benÃ¶tigen die SVN-Version von VLS. Wenn Sie sie 
+kompilieren, mÃ¼ssen Sie <command>./bootstrap</command> und 
 <command>./configure --enable-v4l 
---with-ffmpeg=PATH</command> ausführen, wobei 
+--with-ffmpeg=PATH</command> ausfÃ¼hren, wobei 
 <emphasis>PATH</emphasis> der absolute Pfad zu dem Verzeichnis ist, in dem Sie
 ffmpeg kompiliert haben und nicht der relative Pfad!
 </para></note>
 
 <para>
-Es gibt derzeit kein Befehlszeileninterface für diesen Input,
-weshalb Sie die Konfigurationsdatei benutzen müssen.
+Es gibt derzeit kein Befehlszeileninterface fÃ¼r diesen Input,
+weshalb Sie die Konfigurationsdatei benutzen mÃ¼ssen.
 </para>
 
 <para>
 Hier ist eine typische Konfigurationsdatei <filename>vls.cfg
-</filename> zur Benutzung von VLS mit einem v4l-Gerät:</para>
+</filename> zur Benutzung von VLS mit einem v4l-GerÃ¤t:</para>
 
 <programlisting>
 # vls.cfg (VLS configuration file)
@@ -283,7 +283,7 @@ END
 
 <para>
 Nachdem Sie die obige Konfigurationdatei adaptiert haben,
-führen Sie VLS aus:</para>
+fÃ¼hren Sie VLS aus:</para>
 
 <screen>
 <prompt>% </prompt><userinput>vls -vv -f vls.cfg</userinput>

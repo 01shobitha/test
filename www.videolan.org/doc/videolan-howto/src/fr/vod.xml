@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="vod"><title id="tvod">
-Video à la demande
+Video Ã  la demande
 </title>
 	
 <sect1><title>
@@ -8,19 +8,19 @@ Apercu
 </title>
 
 
-<para>A l'aide de la Vidéo à la Demande (VOD, Video On Demand),
-l'utilisateur peut démarrer la vidéo, mettre en pause, avancer et
-reculer, ... Il est évident qu'il s'agit d'un must pour la diffusion
-vidéo et le rêve de chaque utilisateur.</para><para>La VOD nécessite d'importantes ressources système sur le serveur
-et sur le réseau. La VOD fonctionne en unicast, pas en multicast: cela
-signifie que le les ressources nécessaires sur le serveur et sur le
-réseau sont directement proportionnelles au nombre de clients</para><para>Le principe de la solution de VOD VideoLAN est extrèmement simple.
-L'idée est de faire du streaming HTTP, c'est à dire diffuser un flux
-vidéo MPEG encapsulé dans de l'HTTP. La régulation du débit entre le
+<para>A l'aide de la VidÃ©o Ã  la Demande (VOD, Video On Demand),
+l'utilisateur peut dÃ©marrer la vidÃ©o, mettre en pause, avancer et
+reculer, ... Il est Ã©vident qu'il s'agit d'un must pour la diffusion
+vidÃ©o et le rÃªve de chaque utilisateur.</para><para>La VOD nÃ©cessite d'importantes ressources systÃ¨me sur le serveur
+et sur le rÃ©seau. La VOD fonctionne en unicast, pas en multicast: cela
+signifie que le les ressources nÃ©cessaires sur le serveur et sur le
+rÃ©seau sont directement proportionnelles au nombre de clients</para><para>Le principe de la solution de VOD VideoLAN est extrÃ¨mement simple.
+L'idÃ©e est de faire du streaming HTTP, c'est Ã  dire diffuser un flux
+vidÃ©o MPEG encapsulÃ© dans de l'HTTP. La rÃ©gulation du dÃ©bit entre le
 client et le serveur se fait automatiquement par le protocole TCP. Avec
-le protocole HTTP 1.1, il est possible de se déplacer dans un fichier
-téléchargé, et c'est ce que nous utilisons pour permettre le déplacement
-dans la vidéo.</para>
+le protocole HTTP 1.1, il est possible de se dÃ©placer dans un fichier
+tÃ©lÃ©chargÃ©, et c'est ce que nous utilisons pour permettre le dÃ©placement
+dans la vidÃ©o.</para>
 
 
 
@@ -32,16 +32,16 @@ Sur le serveur
 
 <para>Sur le serveur de VOD, vous avez besoin d'un serveur Web. Vous
 pouvez par exemple utiliser un serveur Linux utilisant le serveur
-Apache. D'autres systèmes d'exploitations et d'autres serveurs Web
-devraient marcher, mais n'ont jamais été testés.</para><para>Rendez vos fichier MPEG-1, MPEG-2 ou MPEG-4 / DivX disponibles
+Apache. D'autres systÃ¨mes d'exploitations et d'autres serveurs Web
+devraient marcher, mais n'ont jamais Ã©tÃ© testÃ©s.</para><para>Rendez vos fichier MPEG-1, MPEG-2 ou MPEG-4 / DivX disponibles
 pour les clients sur le serveur web.</para><para>Par exemple, si vous avez un serveur web dont le nom DNS est
-<emphasis>serveurlocal</emphasis>; sur ce serveur, nous mettons un fichier MPEG <filename>video1.mpg</filename>, qui sera disponible pour les clients à l'URL
+<emphasis>serveurlocal</emphasis>; sur ce serveur, nous mettons un fichier MPEG <filename>video1.mpg</filename>, qui sera disponible pour les clients Ã  l'URL
 <filename>http://serveurlocal/video1.mpg</filename>.</para>
 
 
 
 </sect1><sect1><title>
-Du côté client
+Du cÃ´tÃ© client
 </title>
 
 <screen>
@@ -53,8 +53,8 @@ Du côté client
 
 
 
-<para>VLC commence à lire le flux presque immédiatement, et vous pouvez
-vous déplacer dans le flux, faire des pauses, ... comme si le flux était
+<para>VLC commence Ã  lire le flux presque immÃ©diatement, et vous pouvez
+vous dÃ©placer dans le flux, faire des pauses, ... comme si le flux Ã©tait
 un fichier local.</para>
 
 

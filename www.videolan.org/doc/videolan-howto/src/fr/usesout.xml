@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="usesout"><title id="tusesout">
 
-Utilisation avancée du stream output de VLC
+Utilisation avancÃ©e du stream output de VLC
 (transcodage, diffusion multiple, ...)
 
 
@@ -16,7 +16,7 @@ La syntaxe
 
 <para>
 
-Merci de vous référer au chapitre <emphasis>Ligne
+Merci de vous rÃ©fÃ©rer au chapitre <emphasis>Ligne
 de commande</emphasis> du guide de l'utilisateur de VLC,
 pour apprendre la syntaxe du stream output du VLC. Vous
 pouvez trouver le guide de l'utilisateur de VLC sur la <ulink url="http://www.videolan.org/doc/">page documentation</ulink>
@@ -42,8 +42,8 @@ Transcodage
 
 <para>
 
-Transcodez le flux d'entrée et envoyez le vers une
-adresse IP multicast, avec l'annonce SAP associée
+Transcodez le flux d'entrÃ©e et envoyez le vers une
+adresse IP multicast, avec l'annonce SAP associÃ©e
 
 
 :</para>
@@ -55,8 +55,8 @@ standard{access=udp,mux=ts,url=239.255.12.42,sap,name="TestStream"}'</userinput>
 
 <para>
 
-Affichez le flux d'entrée, transcodez le, et envoyez
-le sur une adresse IP multicast, avec l'annonce SAP associée
+Affichez le flux d'entrÃ©e, transcodez le, et envoyez
+le sur une adresse IP multicast, avec l'annonce SAP associÃ©e
 
 
 :</para>
@@ -69,9 +69,9 @@ standard{access=udp,mux=ts,url=239.255.12.42,sap,name="TestStream"}"}'</userinpu
 
 <para>
 
-Transcodez le flux d'entrée, affichez le flux
-transcodé, et envoyez le sur une adresse IP multicast, avec l'annonce
-SAP associée
+Transcodez le flux d'entrÃ©e, affichez le flux
+transcodÃ©, et envoyez le sur une adresse IP multicast, avec l'annonce
+SAP associÃ©e
 
 
 :</para>
@@ -130,9 +130,9 @@ Transcodage et diffusion multiple
 
 <para>
 
-Transcodez le flux d'entrée, affichez le flux
-transcodé, envoyez le sur une adresse IP multicast avec l'annonce SAP
-aossiciée, et sur une adresse IP unicast
+Transcodez le flux d'entrÃ©e, affichez le flux
+transcodÃ©, envoyez le sur une adresse IP multicast avec l'annonce SAP
+aossiciÃ©e, et sur une adresse IP unicast
 
 
 :</para>
@@ -145,7 +145,7 @@ dst=standard{access=udp,mux=ts,url=192.168.1.2}}'</userinput>
 
 <para>
 
-Affichez le flux d'entrée, transcodez-le, et
+Affichez le flux d'entrÃ©e, transcodez-le, et
 envoyez-le sur deux adresses IP unicast
 
 
@@ -160,9 +160,9 @@ dst=standard{access=udp,mux=ts,url=192.168.1.12}"}'</userinput>
 
 <para>
 
-Envoyez le flux d'entrée sur une adresse IP
-multicast et le flux transcodé sur une autre adresse IP multicast, avec
-les annonces SAP associées
+Envoyez le flux d'entrÃ©e sur une adresse IP
+multicast et le flux transcodÃ© sur une autre adresse IP multicast, avec
+les annonces SAP associÃ©es
 
 
 :</para>
@@ -234,7 +234,7 @@ standard{access=http,mux=ogg,url=server.example.org:8080}'</userinput>
 
 <para>
 
-Par exemple, si vous désirez diffuser un CD audio en
+Par exemple, si vous dÃ©sirez diffuser un CD audio en
 Ogg/Vorbis sur HTTP
 
 
@@ -306,7 +306,7 @@ sur le(s) client(s), lancez
 <prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#rtp{port=1234,sdp=rtsp://server.example.org:8080/test.sdp}'</userinput>
 </screen>
 
-permet au serveur d'envoyer le flux à tout client en faisant la demande
+permet au serveur d'envoyer le flux Ã  tout client en faisant la demande
 
 
 .</para></note>
@@ -327,7 +327,7 @@ Utilisation du module <emphasis>es</emphasis>
 
 <para>
 
-Séparez l'audio et la vidéo en deux fichiers PS
+SÃ©parez l'audio et la vidÃ©o en deux fichiers PS
 
 
 :</para>
@@ -352,7 +352,7 @@ TS
 <para>
 
 Diffusez, en unicast, la piste audio sur un port et
-la piste vidéo sur un autre
+la piste vidÃ©o sur un autre
 
 
 :</para>
@@ -361,7 +361,7 @@ la piste vidéo sur un autre
 
 <listitem><para>
 
-Côté serveur
+CÃ´tÃ© serveur
 
 
 :</para>
@@ -375,7 +375,7 @@ Côté serveur
 
 <listitem><para>
 
-côté client: pour recevoir l'audio
+cÃ´tÃ© client: pour recevoir l'audio
 
 
 :</para>
@@ -387,7 +387,7 @@ côté client: pour recevoir l'audio
 
 <para>
 
-pour recevoir la vidéo
+pour recevoir la vidÃ©o
 
 
 :</para>
@@ -402,7 +402,7 @@ pour recevoir la vidéo
 
 <para>
 
-Diffusez la vidéo en multicast et envoyez l'audio
+Diffusez la vidÃ©o en multicast et envoyez l'audio
 dans un fichier
 
 
@@ -415,8 +415,8 @@ access_audio=file,mux_audio=ps,url_audio=audio-%c.%m}'</userinput>
 
 <note><para>
 
-Vous pouvez également combiner le module
-<emphasis>es</emphasis> avec les autres modules pour élaborer des
+Vous pouvez Ã©galement combiner le module
+<emphasis>es</emphasis> avec les autres modules pour Ã©laborer des
 solutions encore plus complexes
 
 

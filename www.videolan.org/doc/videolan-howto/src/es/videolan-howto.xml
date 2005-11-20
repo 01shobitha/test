@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.1//EN" "/usr/share/sgml/docbook/dtd/xml/4.1/docbookx.dtd"
 
 [
@@ -43,7 +43,7 @@
     <surname>Daoud</surname>
   </author>
   <author>
-    <firstname>Clément</firstname>
+    <firstname>ClÃ©ment</firstname>
     <surname>Stenac</surname>
   </author>
 
@@ -85,7 +85,7 @@ The text of the license can be found in the appendix
 <abstract>
 
 <para>
-Este documento describe la utilización de la solución
+Este documento describe la utilizaciÃ³n de la soluciÃ³n
 de streaming VideoLan.
 </para>
 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="softencoding"><title id="tsoftencoding">
 Stream from an acquisition card or a webcam
 </title>
@@ -109,7 +109,7 @@ in (<emphasis>mpga</emphasis> is MPEG audio layer 2,
 <listitem><para><emphasis>vb=3000</emphasis>
  is the video bitrate in Kbit/s
 
- es el bitrate de vídeo en Kbit/s
+ es el bitrate de vÃ­deo en Kbit/s
 ,
 </para></listitem>
 

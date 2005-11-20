@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="iso8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <chapter id="hardencoding"><title id="thardencoding">
 Streaming der Daten einer MPEG-Kodierungskarte
 </title>
 
 <note><para>
-Dies ist nur unter GNU/Linux möglich.
+Dies ist nur unter GNU/Linux mÃ¶glich.
 </para></note><para>
-VideoLAN unterstützt zwei Arten von MPEG-2-Kodierungskarten:</para>
+VideoLAN unterstÃ¼tzt zwei Arten von MPEG-2-Kodierungskarten:</para>
 
 <itemizedlist>
 
@@ -20,7 +20,7 @@ Hauppauge WinTV-PVR-250 und WinTV-PVR-350,
 
 <para>
 Die Hauppauge WinTV-PVR-250/350 erzielt bessere Ergebnisse
-und ist günstiger als die Visiontech Kfir.
+und ist gÃ¼nstiger als die Visiontech Kfir.
 </para><sect1><title>
 Streaming mit der Hauppauge WinTV-PVR-250/350 - Karte
 </title>
@@ -30,16 +30,16 @@ Installation der Treiber
 </title>
 
 <para>
-Zuerst müssen Sie Ihren Kernel patchen, sodass er das 
-v4l2 API (Video 4 Linux version 2) unterstützt. Der Patch ist verfügbar bei
+Zuerst mÃ¼ssen Sie Ihren Kernel patchen, sodass er das 
+v4l2 API (Video 4 Linux version 2) unterstÃ¼tzt. Der Patch ist verfÃ¼gbar bei
 <ulink url="http://bytesex.org/v4l/">Video4Linux HQ</ulink>.
 </para>
 
 <para>
 Wenn Ihr Kernel fertig ist, installieren Sie die 
-CVS-Version der Linux-Treiber für die Hauppauge WinTV-PVR-250/350. Sie sind verfügbar 
+CVS-Version der Linux-Treiber fÃ¼r die Hauppauge WinTV-PVR-250/350. Sie sind verfÃ¼gbar 
 auf <ulink url="http://ivtv.sourceforge.net">ivtv.sourceforge.net</ulink>.  Danach 
-müssen Sie das Device erzeugen und die Module laden. Beachten Sie dafür bitte
+mÃ¼ssen Sie das Device erzeugen und die Module laden. Beachten Sie dafÃ¼r bitte
 die den Treibern beiliegende Dokumentation.
 </para>
 
@@ -50,8 +50,8 @@ Streaming mit VLC
 </title>
 
 <note><para>
-Sie müssen <command>--enable-pvr</command> zu
-<command>./configure</command> dafür hinzufügen.
+Sie mÃ¼ssen <command>--enable-pvr</command> zu
+<command>./configure</command> dafÃ¼r hinzufÃ¼gen.
 </para></note>
 
 <screen>
@@ -70,15 +70,15 @@ ist das Device, welches der Kodierungskarte entspricht,
 
 <listitem><para><emphasis>norm=secam</emphasis>
  ist der Name des analogen Signalstandards 
-(mögliche Werte sind pal, secam und ntsc),
+(mÃ¶gliche Werte sind pal, secam und ntsc),
 </para></listitem>
 
 <listitem><para><emphasis>size=720x576</emphasis>
-ist die Größe des Videos, das Sie streamen möchten,
+ist die GrÃ¶ÃŸe des Videos, das Sie streamen mÃ¶chten,
 </para></listitem>
 
 <listitem><para><emphasis>frequency=567250</emphasis>
-ist die Frequenz des Kanals in kHz, den Sie streamen möchten,
+ist die Frequenz des Kanals in kHz, den Sie streamen mÃ¶chten,
 </para></listitem>
 
 <listitem><para><emphasis>bitrate=3000000</emphasis> 
@@ -95,12 +95,12 @@ ist die maximale Bitrate des Streams,
 <itemizedlist>
 <listitem><para>
 die IP-Adresse des Rechners, den Sie via unicast 
-erreichen möchten;
+erreichen mÃ¶chten;
 </para></listitem>
 
 <listitem><para>
 oder der DNS-Name des Rechners, den Sie via
-unicast erreichen möchten;
+unicast erreichen mÃ¶chten;
 </para></listitem>
 
 <listitem><para>
@@ -113,8 +113,8 @@ oder eine Multicast-IP-Adresse.
 
 <listitem><para><emphasis>12</emphasis>
  ist der Wert der TTL (Time To Live) 
-Ihrer IP-Pakete (was heißt, dass der Stream in der Lage sein wird, 
-11 Router zu überqueren).
+Ihrer IP-Pakete (was heiÃŸt, dass der Stream in der Lage sein wird, 
+11 Router zu Ã¼berqueren).
 </para></listitem>
 
 <listitem><para><emphasis>1000</emphasis>
@@ -128,12 +128,12 @@ Streaming mit VLS
 </title>
 
 <para>
-Sie müssen die SVN-Version von VLS benutzen.
+Sie mÃ¼ssen die SVN-Version von VLS benutzen.
 </para>
 
 <para>
-Es gibt derzeit kein Befehlszeileninterface für diesen
-Input, weshalb Sie die Konfigurationsdatei benutzen müssen.
+Es gibt derzeit kein Befehlszeileninterface fÃ¼r diesen
+Input, weshalb Sie die Konfigurationsdatei benutzen mÃ¼ssen.
 </para>
 
 <para>
@@ -247,7 +247,7 @@ Installation der Treiber
 
 <para>
 Wenn Sie von einer Visiontech Kfir Karte 
-streamen möchten, müssen Sie deren Linux-Treiber installieren.
+streamen mÃ¶chten, mÃ¼ssen Sie deren Linux-Treiber installieren.
 Laden Sie die neueste Version der Treiber von der <ulink url="http://www.linuxtv.org/download/mpeg2/"> Treiber-Downloadseite </ulink>
 der <ulink url="http://www.linuxtv.org/">LinuxTV Website </ulink> herunter.
 </para><para>
@@ -257,7 +257,7 @@ und Installation der Treiber.
 </para>
 
 <note><para>
-Wenn Sie einen VIA Chipsatz haben, müssen Sie USB
+Wenn Sie einen VIA Chipsatz haben, mÃ¼ssen Sie USB
 im BIOS deaktivieren.
 </para></note>
 
@@ -287,12 +287,12 @@ ist entweder:</para>
 <itemizedlist>
 <listitem><para>
 die IP-Adresse des Rechners, den Sie via Unicast
-erreichen möchten;
+erreichen mÃ¶chten;
 </para></listitem>
 
 <listitem><para>
 oder der DNS-Name des Rechners, den Sie via Unicast
-erreichen möchten;
+erreichen mÃ¶chten;
 </para></listitem>
 
 <listitem><para>
@@ -306,7 +306,7 @@ oder eine Multicast-IP-Adresse.
 <listitem><para><emphasis>12</emphasis>
  ist der Wert der TTL (Time To Live) 
 Ihrer IP-Pakete (was bedeutet, das der Stream in der Lage sein 
-wird, 11 Router zu überqueren).
+wird, 11 Router zu Ã¼berqueren).
 </para></listitem>
 
 </itemizedlist>
@@ -318,8 +318,8 @@ Streaming mit VLS
 </title>
 
 <para>
-Es gibt derzeit kein Befehlszeileninterface für diesen
-Input, sodass Sie die Konfigurationsdatei benutzen werden müssen.
+Es gibt derzeit kein Befehlszeileninterface fÃ¼r diesen
+Input, sodass Sie die Konfigurationsdatei benutzen werden mÃ¼ssen.
 </para>
 
 <para>

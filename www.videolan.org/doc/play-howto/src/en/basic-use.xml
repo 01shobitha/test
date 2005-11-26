@@ -6,7 +6,7 @@ Basic use of VLC
 <sect1 id="desc"><title id="tdesc">General interface description</title>
 
 <para>VLC has several interfaces: a cross-platform interface, for
-Windows and GNU/Linux, called wxWindows, a MacOS X native interface and
+Windows and GNU/Linux, called wxWidgets, a MacOS X native interface and
 a skinnable interface for Windows and GNU/Linux.</para>
 
 <sect2><title>Windows and GNU/Linux</title>
@@ -19,8 +19,8 @@ Windows.</para>
   <imageobject>
     <imagedata fileref="images/play-howto/intf-wx.jpg" format="JPG" />
   </imageobject>
-  <textobject><para>The wxWindows interface</para></textobject>
-  <caption><para>The wxWindows interface</para></caption>
+  <textobject><para>The wxWidgets interface</para></textobject>
+  <caption><para>The wxWidgets interface</para></caption>
 </mediaobject>
 
 <para>This interface also features an <emphasis>Extended GUI</emphasis> which contains many additional features. To display or hide it, go to the <emphasis>Settings</emphasis> menu and click <emphasis>Extended GUI</emphasis>.</para>
@@ -29,11 +29,33 @@ Windows.</para>
   <imageobject>
     <imagedata fileref="images/play-howto/intf-wx-extended.jpg" format="JPG" />
   </imageobject>
-  <textobject><para>The wxWindows interface with extended GUI</para></textobject>
-  <caption><para>The wxWindows interface with extended GUI</para></caption>
+  <textobject><para>The wxWidgets interface with extended GUI</para></textobject>
+  <caption><para>The wxWidgets interface with extended GUI</para></caption>
 </mediaobject>
 
 </sect2>
+
+<sect2><title>Native Mac OS X (Cocoa)</title>
+<para>The is the default interface on Mac OS X.</para>
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/play-howto/intf-osx.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>The Mac OS X interface</para></textobject>
+  <caption><para>The Mac OS X interface</para></caption>
+</mediaobject>
+
+<para>This interface features an <emphasis>Extended GUI</emphasis> as well.
+It is called "Extended Controls" and can be opened through the Window-menu.</para>
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/play-howto/intf-osx-extended.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>The Mac OSX interface with with the extended controls panel</para></textobject>
+  <caption><para>The Mac OSX interface with with the extended controls panel</para></caption>
+</mediaobject>
 
 </sect1>
 
@@ -53,8 +75,8 @@ playlist window from the file explorer (Finder on MacOS X).</para>
   <imageobject>
     <imagedata fileref="images/play-howto/intf-wx-file-menu.jpg" format="JPG" />
   </imageobject>
-  <textobject><para>The File menu - wxWindows interface</para></textobject>
-  <caption><para>The File menu - wxWindows interface</para></caption>
+  <textobject><para>The File menu - wxWidgets interface</para></textobject>
+  <caption><para>The File menu - wxWidgets interface</para></caption>
 </mediaobject>
 
 <mediaobject>
@@ -69,8 +91,8 @@ playlist window from the file explorer (Finder on MacOS X).</para>
   <imageobject>
     <imagedata fileref="images/play-howto/intf-wx-open-file.jpg" format="JPG" />
   </imageobject>
-  <textobject><para>The Open file dialog - wxWindows interface</para></textobject>
-  <caption><para>The Open file dialog - wxWindows interface</para></caption>
+  <textobject><para>The Open file dialog - wxWidgets interface</para></textobject>
+  <caption><para>The Open file dialog - wxWidgets interface</para></caption>
 </mediaobject>
 
 <mediaobject>
@@ -88,7 +110,7 @@ To Play a CD, VCD or a DVD, open the <emphasis>File</emphasis> menu, and
 select the <emphasis>Open Disc...</emphasis> menu item. In the Open Disk 
 Dialog Box, select the type of media (DVD, VCD or Audio CD). When reading a DVD,
  you can enable DVD menus by selecting the <emphasis>DVD (menus)</emphasis> 
-Disc type in the wxWindows Interface. In the MacOS X interface, 
+Disc type in the wxWidgets Interface. In the MacOS X interface, 
 this can be done by selecting the "Use DVD menus" dialog box.
 </para>
 <para>You can select the drive from which the media should be read by giving 
@@ -104,8 +126,8 @@ button.</para>
   <imageobject>
     <imagedata fileref="images/play-howto/intf-wx-open-disk.jpg" format="JPG" />
   </imageobject>
-  <textobject><para>The Open disk dialog - wxWindows interface</para></textobject>
-  <caption><para>The Open disk dialog - wxWindows interface</para></caption>
+  <textobject><para>The Open disk dialog - wxWidgets interface</para></textobject>
+  <caption><para>The Open disk dialog - wxWidgets interface</para></caption>
 </mediaobject>
 
 <mediaobject>
@@ -142,7 +164,7 @@ with the MacOS X interface.
 </para></listitem>
 <listitem><para>
 To open a RTSP stream (sent by Darwin Streaming Server, VLC, etc), 
-in the wxWindows interface, select "RTSP" and give the URL in the text input.
+in the wxWidgets interface, select "RTSP" and give the URL in the text input.
 </para></listitem></itemizedlist>
 
 <para>You can start playback by selecting the <emphasis>Ok</emphasis> button.
@@ -158,8 +180,8 @@ in its buffer before starting playback.
   <imageobject>
     <imagedata fileref="images/play-howto/intf-wx-open-net.jpg" format="JPG" />
   </imageobject>
-  <textobject><para>The Open network dialog - wxWindows interface</para></textobject>
-  <caption><para>The Open network dialog - wxWindows interface</para></caption>
+  <textobject><para>The Open network dialog - wxWidgets interface</para></textobject>
+  <caption><para>The Open network dialog - wxWidgets interface</para></caption>
 </mediaobject>
 
 <mediaobject>
@@ -194,8 +216,8 @@ of the input (the way colors are encoded) and the size of the input buffer.
   <imageobject>
     <imagedata fileref="images/play-howto/intf-wx-open-capture.jpg" format="JPG" />
   </imageobject>
-  <textobject><para>The Open Capture device dialog and a device configuration windows- wxWindows interface</para></textobject>
-  <caption><para>The Open Capture device dialog and a device configuration windows - wxWindows interface</para></caption>
+  <textobject><para>The Open Capture device dialog and a device configuration windows- wxWidgets interface</para></textobject>
+  <caption><para>The Open Capture device dialog and a device configuration windows - wxWidgets interface</para></caption>
 </mediaobject>
 
 <para>On Linux, supported cards include webcams, TV cards, acquisition cards, provided they are supported by the Video4Linux architecture. Haupaugge PVR 250/350 cards are also supported, using the  <ulink 
@@ -214,8 +236,8 @@ encoded) and the size of the input buffer.</para></listitem>
   <imageobject>
     <imagedata fileref="images/play-howto/intf-wx-open-v4l.jpg" format="JPG" />
   </imageobject>
-  <textobject><para>The Open Video4Linux dialog- wxWindows interface</para></textobject>
-  <caption><para>The Open Video4Linux dialog - wxWindows interface</para></caption>
+  <textobject><para>The Open Video4Linux dialog- wxWidgets interface</para></textobject>
+  <caption><para>The Open Video4Linux dialog - wxWidgets interface</para></caption>
 </mediaobject>
 
 <itemizedlist>
@@ -236,8 +258,8 @@ settings, such as the size of the encoded video (in pixels), its framerate
   <imageobject>
     <imagedata fileref="images/play-howto/intf-wx-open-pvr.jpg" format="JPG" />
   </imageobject>
-  <textobject><para>The Open PVR dialog- wxWindows interface</para></textobject>
-  <caption><para>The Open PVR dialog - wxWindows interface</para></caption>
+  <textobject><para>The Open PVR dialog- wxWidgets interface</para></textobject>
+  <caption><para>The Open PVR dialog - wxWidgets interface</para></caption>
 </mediaobject>
 
 
@@ -263,8 +285,8 @@ Double-click one to have it played.</para>
   <imageobject>
     <imagedata fileref="images/play-howto/intf-wx-playlist.jpg" format="JPG" />
   </imageobject>
-  <textobject><para>The Playlist - wxWindows interface</para></textobject>
-  <caption><para>The Playlist - wxWindows interface</para></caption>
+  <textobject><para>The Playlist - wxWidgets interface</para></textobject>
+  <caption><para>The Playlist - wxWidgets interface</para></caption>
 </mediaobject>
 <mediaobject>
   <imageobject>
@@ -277,7 +299,7 @@ Double-click one to have it played.</para>
 
 <sect2><title>Adding items, saving and loading playlists</title>
 
-<para>In the wxWindows interface, the <emphasis>Manage</emphasis> menu
+<para>In the wxWidgets interface, the <emphasis>Manage</emphasis> menu
 allows you to append an item at the end of the playlist (its playback
 won't start immediately), to save the playlist as a M3U or PLS file, or
 to import a playlist file.</para>
@@ -292,7 +314,7 @@ File...</emphasis> menu item.</para>
 
 <sect2><title>Sorting</title>
 
-<para>In the wxWindows interface, <emphasis>Sort</emphasis> allows
+<para>In the wxWidgets interface, <emphasis>Sort</emphasis> allows
 you to sort the playlist according to several criteria, or to shuffle
 it. You can also sort by clicking the header of the column</para>
 
@@ -306,7 +328,7 @@ sorting.</para>
 
 <para>The playlist supports several playback modes.</para>
 
-<para>In the wxWindows interface, the toolbar contains three playlist
+<para>In the wxWidgets interface, the toolbar contains three playlist
 mode buttons. They allow to enable random mode, to repeat the whole playlist or
 to repeat one item.</para>
 
@@ -328,7 +350,7 @@ to cycle between all matching items.</para>
 
 <sect3><title>Moving items</title>
 
-<para>In the wxWindows interface, the <emphasis>Up</emphasis> and
+<para>In the wxWidgets interface, the <emphasis>Up</emphasis> and
 <emphasis>Down</emphasis> buttons at the bottom of the playlist window
 allow you to move an item. Select an item and use these buttons to move
 it.</para>
@@ -376,7 +398,7 @@ location of the item to play.</para>
 <para>Most of VLC functions are accessible using hotkeys</para>
 
 <para>The list of the available hotkeys and their binding can be retrieved 
-and altered in the preferences panel of the player. In the wxWindows interface, 
+and altered in the preferences panel of the player. In the wxWidgets interface, 
 preferences are available in the "Settings" menu, "Preferences" menu item. 
 In the MacOS X interface, open the "VLC" menu, and select "Preferences". 
 Select the "Hot keys" panel in the dialog. For each  function of VLC, you 
@@ -393,8 +415,8 @@ the <emphasis>Save</emphasis> button to apply the changes.</para>
   <imageobject>
     <imagedata fileref="images/play-howto/intf-wx-hotkeys.jpg" format="JPG" />
   </imageobject>
-  <textobject><para>The Hotkeys Panel - wxWindows interface</para></textobject>
-  <caption><para>The Hotkeys Panel - wxWindows interface</para></caption>
+  <textobject><para>The Hotkeys Panel - wxWidgets interface</para></textobject>
+  <caption><para>The Hotkeys Panel - wxWidgets interface</para></caption>
 </mediaobject>
 <mediaobject>
   <imageobject>
@@ -543,7 +565,7 @@ filtering.</para>
 <para>VLC features several filters able to change the video (distortion,
 brightness adjustment, motion blurring, ...).</para>
 
-<para>With the wxWindows interface, filters can be easily enabled using
+<para>With the wxWidgets interface, filters can be easily enabled using
 the Extended GUI. In the Video tab, simply select the filters to enable.
 Image settings can be easily adjusted.</para>
 
@@ -551,22 +573,31 @@ Image settings can be easily adjusted.</para>
   <imageobject>
     <imagedata fileref="images/play-howto/intf-wx-vfilters.jpg" format="JPG" />
   </imageobject>
-  <textobject><para>Video filters selection in the wxWindows interface</para></textobject>
-  <caption><para>Video filters selection in the wxWindows interface</para></caption>
+  <textobject><para>Video filters selection in the wxWidgets interface</para></textobject>
+  <caption><para>Video filters selection in the wxWidgets interface</para></caption>
 </mediaobject>
 
+<para>You can enable these filters through the <emphasis>Extended Controls panel</emphasis> on Mac OS X. Click on the triangle next to <emphasis>Video filters</emphasis> to select your filters or expand the <emphasis>Adjust Image</emphasis> section to change the contrast, hue, etc.</para>
 
-<para>Under MacOS X, or for better control, you need to go
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/play-howto/intf-wx-vfilters.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>Video filters selection in the Mac OS X interface</para></textobject>
+  <caption><para>Video filters selection in the Mac OS X interface</para></caption>
+</mediaobject>
+
+<para>For better control, you need to go
 to the preferences. To select the filters to be enabled,
-go to <emphasis>General Settings</emphasis>, then to
-<emphasis>Video</emphasis>. In the "video filter module" box, enter
+go to <emphasis>Video</emphasis>, then to
+<emphasis>Filters</emphasis>. In the "video filter module" box, enter
 the names of the filters to enable, separated by semicommas. Filters
 will be applied in the selected order. Valid names are "clone", "wall",
 "transform", "adjust", "crop", "deinterlace", "distort", "motionblur"
 and "logo".</para>
 
 <para>If you want to tune the behavior of these filters, go to
-<emphasis>Modules, video filter </emphasis>. For each filter, you will
+<emphasis>Video, Filters, [your filter] </emphasis>. For each filter, you will
 find a short description and the options</para>
 
 </sect2>
@@ -577,7 +608,7 @@ find a short description and the options</para>
 <sect3><title>Equalizer</title>
 
 <para>VLC features a 10-band graphical equalizer. You can display it
-by activating the advanced GUI on wxWindows or by clicking the
+by activating the advanced GUI on wxWidgets or by clicking the
 <emphasis>Equalizer</emphasis> button on the MacOS X interface.</para>
 
 
@@ -585,8 +616,8 @@ by activating the advanced GUI on wxWindows or by clicking the
   <imageobject>
     <imagedata fileref="images/play-howto/intf-wx-equalizer.jpg" format="JPG" />
   </imageobject>
-  <textobject><para>The equalizer in the wxWindows interface</para></textobject>
-  <caption><para>The equalizer in the wxWindows interface</para></caption>
+  <textobject><para>The equalizer in the wxWidgets interface</para></textobject>
+  <caption><para>The equalizer in the wxWidgets interface</para></caption>
 </mediaobject>
 
 
@@ -598,27 +629,27 @@ by activating the advanced GUI on wxWindows or by clicking the
   <caption><para>The equalizer in the MacOS X interface</para></caption>
 </mediaobject>
 
-<para>Presets are available in the Audio menu in wxWindows, or in the
+<para>Presets are available in the Audio menu in wxWidgets, or in the
 Equalizer window in the MacOS X interface</para>
 
 </sect3>
 
 <sect3><title>Other audio filters</title>
 
-<para>At the moment, VLC features two other audio filters : a volume
+<para>At the moment, VLC features two other audio filters: a volume
 normalizer and a filter providing sound spatialization with a headphone.
 They can be enabled in the Audio tab of the extended GUI for the
-wxWindows interface.</para>
+wxWidgets interface and in the Audio section of the Extended Controls panel of the Mac OS X interface.</para>
 
-<para>Under MacOS X, or for better control, you need to go
+<para>For better control, you need to go
 to the preferences. To select the filters to be enabled,
-go to <emphasis>General Settings</emphasis>, then to
-<emphasis>Audio</emphasis>. In the "audio filters" box, enter the
+go to <emphasis>Audio</emphasis>, then to
+<emphasis>Filters</emphasis>. In the "audio filters" box, enter the
 names of the filters to enable, separated by commas. Valid names are
 "equalizer", "normvol" and "headphone".</para>
 
 <para>If you want to tune the behavior of these filters, go to
-<emphasis>Modules/audio_filter</emphasis>. The equalizer and headphone
+<emphasis>Audio, Filters, [your filter]</emphasis>. The equalizer and headphone
 filters can be tuned.</para>
 
 </sect3>
@@ -654,8 +685,8 @@ stream. Look for error messages (red messages)</para>
   <imageobject>
     <imagedata fileref="images/play-howto/intf-wx-messages.jpg" format="JPG" />
   </imageobject>
-  <textobject><para>The wxWindows messages window</para></textobject>
-  <caption><para>The wxWindows messages window</para></caption>
+  <textobject><para>The wxWidgets messages window</para></textobject>
+  <caption><para>The wxWidgets messages window</para></caption>
 </mediaobject>
 
 <para>In this example, the file contains a IV41 video stream, a codec

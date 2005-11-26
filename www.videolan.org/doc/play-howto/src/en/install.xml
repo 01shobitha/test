@@ -199,7 +199,9 @@ icon that was created during installation</para>
 <para>
 Drag the VLC application to your trash can. You can also
 remove the configuration file and the cache files in
-<filename>~/Library/Preferences/VLC/</filename>.
+<filename>~/Library/Preferences/VLC/</filename>. There is
+an AppleScript on the disk-image which lets you do this
+automatically.
 </para>
 
 </sect2>

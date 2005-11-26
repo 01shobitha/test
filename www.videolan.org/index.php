@@ -36,8 +36,8 @@
      <li>It needs little CPU power</li>
     </ul>
     <div class="download">
-    <p><a class="download" href="/mirror.php?mirror=http://downloads.videolan.org/pub/videolan/&amp;file=vlc/0.8.2/win32/vlc-0.8.2-win32.exe">Download Now</a> for Windows (7.9 MB)</p>
-    <p><a class="download" href="/mirror.php?mirror=http://downloads.videolan.org/pub/videolan/&amp;file=vlc/0.8.2/macosx/vlc-0.8.2.dmg">Download Now</a> for MacOS X (11 MB)</p>
+    <p><a class="download" href="/mirror.php?mirror=http://downloads.videolan.org/pub/videolan/&amp;file=vlc/0.8.4/win32/vlc-0.8.4-win32.exe">Download Now</a> for Windows (7.9 MB)</p>
+    <p><a class="download" href="/mirror.php?mirror=http://downloads.videolan.org/pub/videolan/&amp;file=vlc/0.8.4/macosx/vlc-0.8.4.dmg">Download Now</a> for MacOS X (11 MB)</p>
     <p><a  href="/vlc/">Others systems, learn more</a></p>
     </div>
   </div>

@@ -2,6 +2,16 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+|26 November 2005| Release: VLC media player 0.8.4| This new release
+features many improvements including a new VLC cone, new Mac OS X
+wizard and extend controls dialogs, tree playlist skins2 support, HTTP
+interface CGI handling, linux binary codecs loader, UPnP and Bonjour
+service discovery, shoutcast stream forwarding, new languages ...<br />
+Have a look <a href="http://developers.videolan.org/vlc/NEWS">here</a>
+for the full list of changes.<br />
+Binary packages and the source code are available on the <a href="/vlc/">
+VLC download page</a>.<br />
+
 |17 November 2005| Purchase of a Powermac G5| Thanks to the numerous contributions we received from everywhere, we were finally able to buy a second hand dual G5 1.8 GHz. This will be used to debug sound playback on Powermacs and to host the VLC nightly builds. We particularly wish to thank <a href="http://www.macbidouille.com/">MacBidouille</a> and <a href="http://www.avosmac.com/">à Vos Macs</a> for their important support.
 
 |15 October 2005| Release: miniSAPserver 0.3.2| This release cumulates fixes for regressions introduced in 0.3.1. You are encouraged to upgrade to this new version: <a href="/streaming/download-sap-server.html">download it here</a>.

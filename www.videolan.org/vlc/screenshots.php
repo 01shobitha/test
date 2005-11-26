@@ -15,7 +15,7 @@ echo"    <td class='center'><a href='$img'><img
 
 <h1> VLC screenshots </h1>
 
-<h2>Latest screenshots (0.8.4-test1)</h2>
+<h2>Latest screenshots 0.8.4</h2>
 
 <table cellspacing="5" cellpadding="5" border="0"><tbody><tr>
 <?php

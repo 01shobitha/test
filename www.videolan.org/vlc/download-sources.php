@@ -12,14 +12,14 @@
 
 <h2>Tarballs</h2>
 
-<p> Latest VLC source code tarball (0.8.2): </p>
+<p> Latest VLC source code tarball (0.8.4): </p>
 
 <ul>
   <?php
-     pkgitem("0.8.2","vlc-0.8.2.tar.gz","vlc");
-     pkgitem("0.8.2","vlc-0.8.2.tar.bz2","vlc");
+     pkgitem("0.8.4","vlc-0.8.4.tar.gz","vlc");
+     pkgitem("0.8.4","vlc-0.8.4.tar.bz2","vlc");
   ?>
-  <li><a href="http://downloads.videolan.org/pub/videolan/vlc/0.8.2/"><i>browse the list</i></a></li>
+  <li><a href="http://downloads.videolan.org/pub/videolan/vlc/0.8.4/"><i>browse the list</i></a></li>
 </ul>
 
 <p> Latest required libraries: </p>
@@ -67,7 +67,7 @@
      pkgitem("0.8.4/contrib","zlib-1.2.3.tar.gz","vlc","(A losless data-compression library)");
   ?>
   <li>
-<a href="http://downloads.videolan.org/pub/videolan/vlc/0.8.2/contrib"><i>browse the list</i></a></li>
+<a href="http://downloads.videolan.org/pub/videolan/vlc/0.8.4/contrib"><i>browse the list</i></a></li>
 </ul>
 
 <h2>SVN</h2>

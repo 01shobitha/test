@@ -6,24 +6,24 @@ http://130.89.175.1/pub/software/videolan/ Twente University (Netherlands) [http
 ftp://ftp.crans.org/pub/videolan/ Cr@ns, ENS Cachan (France) [ftp]
 #
 # contact : hsunchang at gmail dot com
-ftp://videolan.cs.pu.edu.tw/Windows/VideoLAN/ Providence University (Taiwan) [ftp]
+#ftp://videolan.cs.pu.edu.tw/Windows/VideoLAN/ Providence University (Taiwan) [ftp]
 #
 # contact : juan dot mussini at pucpr dot br
-ftp://ftp.pucpr.br/videolan/ Pontifícia Universidade Católica do Paraná (Brazil) [ftp]
+#ftp://ftp.pucpr.br/videolan/ Pontifícia Universidade Católica do Paraná (Brazil) [ftp]
 #
 # seems broken. i can't find the email address to join the mantainer
 # contact : ???
 # http://194.83.42.78/videolan/ Orbital (United Kingdom) [http]
 #
 # contact : erik at yi dot se
-ftp://ftp.yi.se/pub/software/videolan/ Young Insurgents (Sweden) [ftp]
+#ftp://ftp.yi.se/pub/software/videolan/ Young Insurgents (Sweden) [ftp]
 #
 # contact : dysarz at ciaccess dot com
 ######## FIXME/Disabled for now - down ?
 #ftp://f33r.net/ F33r Internet services (Canada) [ftp]
 #
 # contact : James Laver, james dot laver at gmail dot com
-http://mirror1.wefixtech.co.uk/videolan/ We-FIX Technology Mirror Project (UK) [http]
+#http://mirror1.wefixtech.co.uk/videolan/ We-FIX Technology Mirror Project (UK) [http]
 #
 # contact : ryan at xlogicgroup dot com
 #http://mirrors.gohuge.net/videolan/ gohuge.net (Florida, USA) [http]

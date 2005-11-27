@@ -32,7 +32,7 @@
  </head>
  <body>
   <p>Click <a href="<?php echo $mirror.$file ?>">here</a> if your download doesn't start</p>
-  <p>If you want to put a direct download link on your website, please use <?php echo "<a href=\"http://www.videolan.org/mirror.php?file=$file\">http://www.videolan.org/mirror.php?file=$file</a>. <br />Please don't use a direct link. This script allows us to distribute the network load across our mirrors. Thanks."; ?> .</p>
+  <p>If you want to put a direct download link on your website, please use <?php echo "<a href=\"http://www.videolan.org/mirror.php?file=$file\">http://www.videolan.org/mirror.php?file=$file</a>. <br />Please don't use a direct link. This script allows us to distribute the network load across our mirrors. Thanks."; ?> </p>
  </body>
 </html>
 

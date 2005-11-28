@@ -25,7 +25,7 @@
 <!--<p class="menu"><a class="menu"
 href="http://bugzilla.videolan.org/">Bugzilla</a></p>-->
 <p class="menu"><a class="menu"
-href="http://www.videolan.org/cgi-bin/irc/irc.cgi">IRCWeb</a></p>
+href="http://krishna.videolan.org/cgi-bin/irc/irc.cgi">IRCWeb</a></p>
 </td></tr>
 </table>
 <br>

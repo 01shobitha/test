@@ -18,7 +18,7 @@
 
 	while( !isset( $mirror ) )
         {
-	     $index = rand( 0, sizeof( $mirrors ) );
+	     $index = rand( 0, sizeof( $mirrors ) - 1 );
 	     if( substr( $mirrors[ $index] , 0, 1 ) == "#" ) continue;
              $esp = strpos( $mirrors[ $index] , " " );
 	     $mirror = substr( $mirrors[ $index ], 0, $esp );

@@ -22,8 +22,8 @@
 <p class="menu"><a class="menu" href="/svn.html">Subversion</a></p>
 <p class="menu"><a class="menu" href="/lists.html">Mailing lists</a></p>
 <p class="menu"><a class="menu" href="https://trac.videolan.org/">Trac - project management</a></p>
-<p class="menu"><a class="menu"
-href="http://bugzilla.videolan.org/">Bugzilla</a></p>
+<!--<p class="menu"><a class="menu"
+href="http://bugzilla.videolan.org/">Bugzilla</a></p>-->
 <p class="menu"><a class="menu"
 href="http://www.videolan.org/cgi-bin/irc/irc.cgi">IRCWeb</a></p>
 </td></tr>

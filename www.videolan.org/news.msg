@@ -11,6 +11,12 @@ Have a look <a href="http://developers.videolan.org/vlc/NEWS">here</a>
 for the full list of changes.<br />
 Binary packages and the source code are available on the <a href="/vlc/">
 VLC download page</a>.<br />
+You can get help concerning this new release on the <a href="/doc/"
+>Documentation Page</a>, <a href="http://forum.videolan.org/"
+>Forum</a>, <a href="http://wiki.videolan.org" >Wiki</a>, <a
+href="/support/lists.html" >Mailing Lists</a> or on #videolan on
+Freenode. Remember to reset your preferences if you experience problems
+after upgrading from a previous version.
 
 |17 November 2005| Purchase of a Powermac G5| Thanks to the numerous contributions we received from everywhere, we were finally able to buy a second hand dual G5 1.8 GHz. This will be used to debug sound playback on Powermacs and to host the VLC nightly builds. We particularly wish to thank <a href="http://www.macbidouille.com/">MacBidouille</a> and <a href="http://www.avosmac.com/">à Vos Macs</a> for their important support.
 

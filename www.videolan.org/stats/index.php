@@ -1,4 +1,4 @@
-<?
+<?php
    $title = "VideoLAN - Statistics";
    $lang = "en";
    $date = "06 April 2002";

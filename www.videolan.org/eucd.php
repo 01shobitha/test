@@ -17,7 +17,7 @@
 
 <p>
 
-	This law is the french transcription of the european EUCD (European Union Copyright Directive) text, which itself comes from the american DMCA (Digital Millenium Copyright Act).<br />
+	This law is the French transcription of the european EUCD (European Union Copyright Directive) text, which itself comes from the american DMCA (Digital Millenium Copyright Act).<br />
 
 The main goal of this law is to restrict the rights of digital content purchasers. It most notably forbids them from working around technical content protection measures. <br />
 
@@ -25,7 +25,7 @@ Doing so, writing or publishing software allowing to do so, or even merely talki
 
 <p>
 <strong>
-VideoLAN is directly impacted, most notably for its DVD reading capability (all Linux DVD reading software have the same problem). Should this law be passed, this would seriously hinder VLC's development.
+VideoLAN is directly impacted, most notably for its DVD reading capability (all Linux DVD reading software has the same problem). Should this law be passed, this would seriously hinder VLC's development.
 </strong>
 </p>
 
@@ -62,7 +62,7 @@ prison et 300 000 euros d'amende.</p>
 
 <p> <strong> VideoLAN est directement concerné, notamment pour sa       
 capacité à lire les DVD (tous les logiciels de lecture de DVD sous      
-Linux se retrouverait illégaux). L'acceptation de cette loi aurait un   
+Linux se retrouveraient illégaux). L'adoption de cette loi aurait un   
 effet négatif très fort sur le développement de VLC. </strong> </p>     
 
 <p> <strong>Vous</strong> pouvez aider les nombreuses associations      

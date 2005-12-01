@@ -1,8 +1,14 @@
 # Contact: thedj
 http://ftp.snt.utwente.nl/pub/software/videolan/ Twente University (Netherlands) [http]
 #
-# RR between durga and ganesh: Contact : VIA
+# RR between durga and ganesh: Contact: VIA
+# Bandwidth: 100 Mbits
 http://downloads.videolan.org/pub/videolan/ VIA Centrale Réseaux (France) [http]
+#
+# Contact : mirrormaster at ircam dot fr
+# Bandwidth: 1 GBit
+ftp://mirrors.ircam.fr/pub/videolan/ IRCAM (France) [ftp]
+http://mirrors.ircam.fr/pub/videolan/ IRCAM (France) [http]
 #
 # Contact: vinceII on irc.rezosup.net - We must update it . Pwd pb (29/11)
 ftp://ftp.crans.org/pub/videolan/ Cr@ns, ENS Cachan (France) [ftp]

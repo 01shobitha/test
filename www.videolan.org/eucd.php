@@ -29,8 +29,10 @@ VideoLAN is directly impacted, most notably for its DVD reading capability (all 
 </strong>
 </p>
 
-<p>The french website <a href="http://eucd.info">eucd.info</a> collects
-a large number of related articles and documentation</p>
+<p>The french website <a                                                
+href="http://eucd.info/index.php?English-readers">eucd.info</a>         
+collects a large number of related articles and documentation, and has a 
+dedicated english-speaking section.</p>       
 
 
 <h1> Français, ceci vous concerne directement.</h1>

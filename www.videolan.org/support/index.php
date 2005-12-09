@@ -48,7 +48,7 @@ Also consider the timezone. Most people in this chatroom are from Europe.</p>
 </ul>
 
 <p> You can connect with any IRC client. If you cannot connect from your
-place, try the web-based <a href="/cgi-bin/irc/irc.cgi">IRCWeb</a> interface.
+place, try the web-based <a href="http://krishna.videolan.org/cgi-bin/irc/irc.cgi">IRCWeb</a> interface.
 </p>
 
 <h2>Consulting services</h2>

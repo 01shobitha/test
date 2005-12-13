@@ -146,7 +146,7 @@ StartHtml( ereg_replace( "<[^>]*>" , "" , $title ) , $enable_live) ;
 	<a href="/eucd.html">
 	<span style="color: red; font-size:20px; font-style: bold;">VideoLAN might disappear due to new French/European legislation.</span>
 	</a>
-        </span><br />
+        <br />
 	<a href="/eucd.html">Learn more</a>
     </td>
   </tr>  

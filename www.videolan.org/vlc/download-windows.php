@@ -14,18 +14,18 @@
 
 <h1> VLC media player for Windows </h1>
 
-<h2>Latest packages (0.8.4)</h2>
+<h2>Latest packages (0.8.4a)</h2>
 
 <p> Windows self-extracting package: </p>
 
 <ul>
-  <?php pkgitem("0.8.4/win32","vlc-0.8.4-win32.exe","vlc"); ?>
+  <?php pkgitem("0.8.4a/win32","vlc-0.8.4a-win32.exe","vlc"); ?>
 </ul>
 
 <p> Windows zip package (identical to the above but without the installer): </p>
 
 <ul>
-  <?php pkgitem("0.8.4/win32","vlc-0.8.4-win32.zip","vlc"); ?>
+  <?php pkgitem("0.8.4a/win32","vlc-0.8.4a-win32.zip","vlc"); ?>
 </ul>
 
 <p> <span style="color: red;"><b>Virus warning</b></span>: we have had several

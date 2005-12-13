@@ -2,6 +2,22 @@
 # Et les nouveaux topics par un "|" (Attention donc au découpage!!
 #
 
+|13 December 2005| Bugfix release: VLC media player 0.8.4a| This minor
+update to VLC 0.8.4 fixes a few annoying bugs. OSX S/PDIF has been fixed
+(thanks to the donations we got for the G5), and so has A/52 over S/PDIF
+in Linux ALSA. MusePack is also now enabled in Windows version. Have a look
+<a href="http://developers.videolan.org/vlc/NEWS">here</a> for the full
+list of changes.<br />
+Binary packages and the source code are available on the <a href="/vlc/">
+VLC download page</a>. We have at least updated the BeOS package.<br />
+You can get help concerning this new release on the <a href="/doc/"
+>Documentation Page</a>, <a href="http://forum.videolan.org/"
+>Forum</a>, <a href="http://wiki.videolan.org" >Wiki</a>, <a
+href="/support/lists.html" >Mailing Lists</a> or on #videolan on
+Freenode. Remember to reset your preferences if you experience problems
+after upgrading from a previous version.
+
+
 |26 November 2005| Release: VLC media player 0.8.4| This new release
 features many improvements including a new VLC cone, new Mac OS X
 wizard and extend controls dialogs, tree playlist skins2 support, HTTP

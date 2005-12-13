@@ -22,11 +22,11 @@
 
 <p><b>Note:</b> There is not, and there will never be, a version for Mac OS 9.</p>
 
-<h2>Latest Mac OS X package for 10.2, 10.3 and 10.4 (release 0.8.4)</h2>
+<h2>Latest Mac OS X package for 10.2, 10.3 and 10.4 (release 0.8.4a)</h2>
 
 <p>(Requires <a href="http://www.apple.com/support/downloads/quicktime652formac.html">QuickTime 6.5.2</a> or later)</p>
 <ul>
-<?php pkgitem("0.8.4/macosx","vlc-0.8.4.dmg","vlc"); ?>
+<?php pkgitem("0.8.4a/macosx","vlc-0.8.4a.dmg","vlc"); ?>
 </ul>
 
 <h2>Last Mac OS X package for 10.1 (release 0.7.0)</h2>

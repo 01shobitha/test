@@ -1,16 +1,13 @@
-# RR between durga and ganesh: Contact: VIA
-# Bandwidth: 100 Mbits
+# RR between durga and ganesh: Contact: VIA - BW : 1GB
 http://downloads.videolan.org/pub/videolan/ VIA Centrale Réseaux (France) [http]
 #
-# Contact: thedj
+# Contact: thedj - BW: 1GB
 http://ftp.snt.utwente.nl/pub/software/videolan/ Twente University (Netherlands) [http]
 #
-# Contact : mirrormaster at ircam dot fr
-# Bandwidth: 1 GBit
-ftp://mirrors.ircam.fr/pub/videolan/ IRCAM (France) [ftp]
+# Contact : mirrormaster at ircam dot fr - BW : 1 GBit
 http://mirrors.ircam.fr/pub/videolan/ IRCAM (France) [http]
 #
-# Contact: vinceII on irc.rezosup.net - We must update it . Pwd pb (29/11)
+# Contact: vinceII on irc.rezosup.net - 
 ftp://ftp.crans.org/pub/videolan/ Cr@ns, ENS Cachan (France) [ftp]
 #
 # Contact : hsunchang at gmail dot com
@@ -25,8 +22,8 @@ ftp://ftp.yi.se/pub/software/videolan/ Young Insurgents (Sweden) [ftp]
 # Contact : dysarz at ciaccess dot com - Not up to date (last is 0.8.1) (29/11)
 #ftp://f33r.net/ F33r Internet services (Canada) [ftp]
 #
-# Contact : James Laver,james . laver at gmail dot com - BW exceeded (29/11/05)
-http://mirror1.wefixtech.co.uk/videolan/ We-FIX Technology Mirror Project (UK) [http]
+# Contact : James Laver,james . laver at gmail dot com - Does not respond
+#http://mirror1.wefixtech.co.uk/videolan/ We-FIX Technology Mirror Project (UK) [http]
 #
 # Contact : ryan at xlogicgroup dot com - DNS unresolvable (29/11/05)
 #http://mirrors.gohuge.net/videolan/ gohuge.net (Florida, USA) [http]

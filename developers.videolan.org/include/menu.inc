@@ -33,9 +33,10 @@ href="http://krishna.videolan.org/cgi-bin/irc/irc.cgi">IRCWeb</a></p>
 <table width="100%" cellspacing=0 cellpadding=0>
 <tr><th class="menu">Links</th></tr>
 <tr><td class="menu">
-<p class="menu"><a class="menu" href="http://www.videolan.org/">http://www.videolan.org/</a></p>
-<p class="menu"><a class="menu" href="http://forum.videolan.org/">http://forum.videolan.org/</a></p>
-<p class="menu"><a class="menu" href="http://nightlies.videolan.org/">http://nightlies.videolan.org/</a></p>
+<p class="menu"><a class="menu" href="http://www.videolan.org/">The VideoLAN Website</a></p>
+<p class="menu"><a class="menu" href="http://forum.videolan.org/">The VideoLAN Forums</a></p>
+<p class="menu"><a class="menu" href="http://wiki.videolan.org/">The VideoLAN Wiki</a></p>
+<p class="menu"><a class="menu" href="http://nightlies.videolan.org/">VLC nightly builds and source snapshots</a></p>
 </td></tr>
 </table>
 <br>

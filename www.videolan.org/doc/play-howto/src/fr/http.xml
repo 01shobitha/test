@@ -25,6 +25,16 @@ Les fichiers commencant par '.' ne sont pas exportés.
 Un fichier '.access' sera ouvert et l'interface http s'attendra à trouver à la première ligne un login et un mot de passe (sous la forme login:mot de passe). Ce login et mot de passe seront utilisés pour restreindre l'accès aux fichiers dans le répertoire. Attention : seuls les fichiers situés dans le répertoire seront protégés (les sous-répertoires ne sont pas protégés).
 </para></listitem>
 <listitem><para>
+A '.hosts' file will be opened and the http
+interface will expect to find a list of network/mask pairs separated
+by new line, for instance 192.168.0.0/255.255.255.0. If this file is
+present, then the default behaviour is to deny access from hosts
+which don't match any of the network/mask pairs to all the files of the
+directory. If the file is not present, then any host has access to the
+files of the directory. Be careful that only files in this
+directory will be protected. (sub-directories won't be protected.)
+</para></listitem>
+<listitem><para>
 Le fichier &lt;dir&gt;/index.html sera exporté comme &lt;dir&gt; et &lt;dir&gt;/ mais pas comme index.html.
 </para></listitem>
 
@@ -84,6 +94,11 @@ Les macros valides sont :
 
 <listitem><para>
 <emphasis>control</emphasis> (1 paramètre optionnel)
+</para>
+</listitem>
+
+<listitem><para>
+<emphasis>include</emphasis> (1 parameter)
 </para>
 </listitem>
 
@@ -168,6 +183,22 @@ Les variables locales : Il est possible de créer dynamiquement de nouvelles var
 : le copyright de VLC
 </para></listitem>
 
+<listitem><para>
+<emphasis>vlc_compile_time, vlc_compile_by, vlc_compile_host,
+vlc_compile_domain, vlc_compiler, vlc_changeset</emphasis>
+: information on the VLC build
+</para></listitem>
+
+<listitem><para>
+<emphasis>stream_position, stream_time, stream_length, stream_state</emphasis>
+: information on the currently playing stream
+</para></listitem>
+
+<listitem><para>
+<emphasis>volume</emphasis>
+: current volume setting
+</para></listitem>
+
 </itemizedlist>
 
 </para></listitem>
@@ -234,31 +265,266 @@ Sont utilisables
 <itemizedlist>
 
 <listitem><para>
-Les opérateurs mathématiques standards: +, -, *, /, %:
-ils placent le résultat de ST(1) op ST(2) au sommet de la pile
+Standard arithmetics operators: <emphasis>+, -, *, /, %</emphasis>:
+these ones push the result of ST(1) op ST(2) to the stack
 </para></listitem>
 
 <listitem><para>
-Les opérateurs binaires: ! (renvoie !ST(1)); ^, &amp;, |: renvoient le résultat de ST(1) op ST(2)
+Binary operators: <emphasis>!</emphasis> (push !ST(1));
+<emphasis>^, &amp;, |</emphasis>: push
+the result ST(1) op ST(2)
 </para></listitem>
 
 <listitem><para>
-Les tests: =, &lt;, &lt;=, &gt;=: exécute ST(1) op ST(2) et renvoie -1 si vrai, 0 sinon
+test: <emphasis>=, &lt;, &lt;=, &gt;, &gt;=</emphasis>: execute ST(1) op
+ST(2) and push -1 if true else 0
 </para>
 </listitem>
 
 <listitem><para>
-Les opérateurs de chaînes de caractères: strcat renvoie 'ST(1)ST(2)', strcmp compare ST(1) et ST(2), et renvoie -1 si ST(1)&lt;ST(2), 0 si les deux chaînes sont identiques, 1 sinon, strlen renvoie la taille de ST(1).
+string functions:
+
+<itemizedlist>
+
+<listitem><para>
+<emphasis>strcat</emphasis>
+: pushes the result of 'ST(1)ST(2)
+</para></listitem>
+
+<listitem><para>
+<emphasis>strcmp</emphasis>
+: compares ST(1) and ST(2) (0 if equal)
+</para></listitem>
+
+<listitem><para>
+<emphasis>strncmp</emphasis>
+: compares the first ST(1) characters of ST(2) and ST(3) (0 if equal)
+</para></listitem>
+
+<listitem><para>
+<emphasis>strsub</emphasis>
+: extracts characters ST(1) to ST(2) of streaing ST(3)
+</para></listitem>
+
+<listitem><para>
+<emphasis>strlen</emphasis>
+: pushes the length of ST(1)
+</para></listitem>
+
+<listitem><para>
+<emphasis>str_replace</emphasis>
+: replaces string ST(2) with ST(1) in ST(3)
+</para></listitem>
+
+<listitem><para>
+<emphasis>url_encode</emphasis>
+: encodes non-alphanumeric characters of ST(1) as %XX so that they can be
+safely passed as GET or POST variables
+</para></listitem>
+
+<listitem><para>
+<emphasis>url_extract</emphasis>
+: performs the reverse operation of url_encode
+</para></listitem>
+
+<listitem><para>
+<emphasis>addslashes</emphasis>
+: protects single quotes (&#039;) and double quotes (&quot;) of ST(1) with
+backslashes (\) so that they can be safely passed to a VLC playlist function
+</para></listitem>
+
+<listitem><para>
+<emphasis>stripslashes</emphasis>
+: performs the reverse operation of addslashes
+</para></listitem>
+
+<listitem><para>
+<emphasis>htmlspecialchars</emphasis>
+: encodes &amp;, &quot;, &#039;, &lt; and &gt; of ST(1) as their &amp;stuff;
+HTML counterpart, so that they don't interact with HTML tags
+</para></listitem>
+
+<listitem><para>
+<emphasis>realpath</emphasis>
+: parses ST(1) as a filename path, and pushes an absolute path to that file,
+removing ~ and ../
+</para></listitem>
+
+</itemizedlist>
+
 </para>
 </listitem>
 
 <listitem><para>
-Les opérations sur la pile: dup réplique ST(1), drop supprime ST(1), swap échange ST(1) et ST(2), et flush vide la pile.
-</para>
-</listitem>
+stack manipulation:
+
+<itemizedlist>
 
 <listitem><para>
-Opérations sur les variables: store affecte ST(2) dans une variable locale appelée ST(1), value place sur la pile la valeur de la variable locale nommée ST(1), url_extract place sur la pile la valeur de la partie des paramètres de l'url définis par ST(1).
+<emphasis>dup</emphasis>
+: pops ST(1) and pushes the same string twice
+</para></listitem>
+
+<listitem><para>
+<emphasis>drop</emphasis>
+: pops ST(1) and drops it
+</para></listitem>
+
+<listitem><para>
+<emphasis>swap</emphasis>
+: exchanges ST(1) and ST(2)
+</para></listitem>
+
+<listitem><para>
+<emphasis>flush</emphasis>
+: empties the stack
+</para></listitem>
+
+</itemizedlist>
+
+</para></listitem>
+
+<listitem><para>
+variables manipulation:
+
+<itemizedlist>
+
+<listitem><para>
+<emphasis>store</emphasis>
+: stores ST(2) in a local variable named ST(1)
+</para></listitem>
+
+<listitem><para>
+<emphasis>value</emphasis>
+: pushes the value of the local variable named ST(1)
+</para></listitem>
+
+</itemizedlist>
+
+</para></listitem>
+
+<listitem><para>
+player control:
+
+<itemizedlist>
+
+<listitem><para>
+<emphasis>vlc_play</emphasis>
+: plays the playlist item whose ID is ST(1), and pushes the return value of the
+play function (0 in case of success); see playlist functions below
+</para></listitem>
+
+<listitem><para>
+<emphasis>vlc_stop</emphasis>
+: stops the playlist
+</para></listitem>
+
+<listitem><para>
+<emphasis>vlc_pause</emphasis>
+: pauses the playlist
+</para></listitem>
+
+<listitem><para>
+<emphasis>vlc_next</emphasis>
+: plays the next playlist item
+</para></listitem>
+
+<listitem><para>
+<emphasis>vlc_previous</emphasis>
+: plays the previous playlist item
+</para></listitem>
+
+<listitem><para>
+<emphasis>vlc_seek</emphasis>
+: seeks the current input to a location defined in ST(1), for instance
++3m (minutes), -20s, 45%, 1:12, 1h12m25s
+</para></listitem>
+
+<listitem><para>
+<emphasis>vlc_var_type</emphasis>
+: pushes the type of the variable ST(2) of object ST(1);
+the type is one of these strings
+<emphasis>VLC_VAR_BOOL, VLC_VAR_INTEGER, VLC_VAR_HOTKEY, VLC_VAR_STRING,
+VLC_VAR_MODULE, VLC_VAR_FILE, VLC_VAR_DIRECTORY, VLC_VAR_VARIABLE,
+VLC_VAR_FLOAT, UNDEFINED</emphasis> (no such variable) or
+<emphasis>INVALID</emphasis> (no input stream); the object is one of
+<emphasis>VLC_OBJECT_ROOT, VLC_OBJECT_VLC, VLC_OBJECT_INTF, VLC_OBJECT_PLAYLIST,
+VLC_OBJECT_INPUT, VLC_OBJECT_VOUT, VLC_OBJECT_AOUT</emphasis> or
+<emphasis>VLC_OBJECT_SOUT</emphasis>
+</para></listitem>
+
+<listitem><para>
+<emphasis>vlc_var_set</emphasis>
+: sets variable ST(2) of object ST(1) to ST(3)
+</para></listitem>
+
+<listitem><para>
+<emphasis>vlc_var_get</emphasis>
+: pushes the value of the variable ST(2) of object ST(1)
+</para></listitem>
+
+<listitem><para>
+<emphasis>vlc_config_type</emphasis>
+: pushes the type of the configuration variable ST(1); see
+<emphasis>vlc_var_type</emphasis> for a list of types
+</para></listitem>
+
+<listitem><para>
+<emphasis>vlc_config_set</emphasis>
+: sets configuration variable ST(1) to ST(2)
+</para></listitem>
+
+<listitem><para>
+<emphasis>vlc_config_get</emphasis>
+: pushes the value of the configuration variable ST(1)
+</para></listitem>
+
+<listitem><para>
+<emphasis>vlc_config_save</emphasis>
+: saves the modification made to the configuration variables of module
+ST(1) to the configuration file (ST(1) may be empty, in which case the
+whole configuration is saved) and pushes the return status (0 in case
+of success)
+</para></listitem>
+
+<listitem><para>
+<emphasis>vlc_config_reset</emphasis>
+: resets the configuration file to the default value (use with caution)
+</para></listitem>
+
+</itemizedlist>
+
+</para></listitem>
+
+<listitem><para>
+playlist functions:
+
+<itemizedlist>
+
+<listitem><para>
+<emphasis>playlist_add</emphasis>
+: adds MRL ST(1) to the playlist, with name ST(2) and returns the playlist ID
+associated to this item; special characters must be escaped with
+addslashes first; it is very convenient to call 'toto.mpg' playlist_add vlc_play
+</para></listitem>
+
+<listitem><para>
+<emphasis>playlist_empty</emphasis>
+: clears the playlist of all items
+</para></listitem>
+
+<listitem><para>
+<emphasis>playlist_move</emphasis>
+: moves playlist item at position ST(2) to position ST(1)
+</para></listitem>
+
+<listitem><para>
+<emphasis>playlist_delete</emphasis>
+: deletes playlist item ID ST(1)
+</para></listitem>
+
+</itemizedlist>
+
 </para></listitem>
 
 </itemizedlist>
@@ -273,6 +539,14 @@ Les macros
 <sect2><title>
 La macro <emphasis>control</emphasis>
 </title>
+
+<para><emphasis>
+The use of the control macro is now deprecated in favour of the RPN functions
+above. The documentation is provided here for the maintainance of
+HTML pages still using this old API. The main problem with this API
+is that there is no way to retrieve the playlist ID of the last added
+item.
+</emphasis></para>
 
 <para>
 Lorsqu'une page est appelée, des arguments peuvent lui être passés à travers l'URL. (par ex: en utilisant &lt;form&gt;). Ex: http://host:port/page.html?var=value&amp;var2=value2&amp;.. La macro "control" demande à la page de vérifier ces arguments et d'exécuter ceux qui sont autorisés. Le paramètre param1 de cette macro spécifie les commandes autorisées, s'il est vide, toutes les commandes seront permises.
@@ -402,6 +676,18 @@ Les commandes dans l'URL
 Par exemple, vous pouvez restreindre l'exécution de la commande <command>shutdown</command> à une page protégée (par un fichier <emphasis>.acces</emphasis>), tout en utilisant la macro control dans toutes les pages non protégées.
 </para>
 </sect2>
+
+<sect2><title>
+The <emphasis>include</emphasis> macro
+</title>
+
+<para>
+This macro is replaced by the contents of the file param1. If the file
+contains vlc macros, they are correctly parsed and replaced.
+</para>
+
+</sect2>
+
 <sect2><title>
 La macro <emphasis>get</emphasis>
 </title>
@@ -538,27 +824,44 @@ playlist: ensemble basé sur la playlist avec les champs suivants: current est �
 </para></listitem>
 
 <listitem><para>
-"informations": Crée des informations concernant le flux diffusé. name est le nom de la catégorie, value est sa valeur, info est un nouvel ensemble qui peut être rempli à chaque fois (les champs secondaires de info sont name et value
+"information": Create information for the current
+playing stream. name is the name of the category, value is its value,
+info is a new set that can be parsed with a new foreach (subfields of
+info are name and value).
+</para></listitem>
+
+
+
+<listitem><para>
+input variables such as "program", "title", "chapter", "audio-es",
+"video-es" and "spu-es": Create lists for the current
+playing stream. Every list has the following fields:
+
+<itemizedlist>
+
+<listitem><para>
+name: item name (language for elementary streams, tracks, etc.) to
+display in places where a human-readable format is preferred
 </para></listitem>
 
 <listitem><para>
-"hosts": Crée une liste des serveurs écoutés.
-Contient les champs "id" (id opaque), host, ip et port.
+id: item ID to pass to the RPN function vlc_var_set, and returned by
+vlc_var_get
 </para></listitem>
 
 <listitem><para>
-"urls": Crée la liste des urls actuellemnt disponibles. Les champs sont id, stream (1 si un flux est diffusé, 0 sinon), url, mime, protected (1 si protégé, 0 sinon, used (est-il actuellement utilisé ?).
+selected: 1 if the item is selected, 0 otherwise
 </para></listitem>
 
-<listitem><para>
-"connections": Crée la liste des connexions actuelles. Les champs sont: id, une id opaque qui peut être utilisée par la commande close, ip, url, et statut (code d'erreur HTTP).
+</itemizedlist>
+
 </para></listitem>
 
 <listitem><para>
 le nom d'une variable foreach si c'est un ensemble d'ensembles de valeurs.
 </para>
 
-<programlisting>;&lt;vlc id="foreach" param1="cat" param2="informations" /&gt;
+<programlisting>&lt;vlc id="foreach" param1="cat" param2="informations" /&gt;
                 &lt;p&gt; &lt;vlc id="value" param1="cat.name" /&gt;
                 &lt;ul&gt;
                 &lt;vlc id="foreach" param1="info" param2="cat.info" /&gt;

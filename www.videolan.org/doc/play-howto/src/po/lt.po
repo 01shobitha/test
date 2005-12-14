@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-11-13 19:39+0100\n"
+"POT-Creation-Date: 2005-12-14 23:23+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -147,7 +147,7 @@ msgid "MPEG-4"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/play-howto.xml:71 en/basic-use.xml:420
+#: en/play-howto.xml:71 en/basic-use.xml:443
 #, no-wrap
 msgid "DVD"
 msgstr ""
@@ -193,7 +193,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "VLC has several interfaces: a cross-platform interface, for\n"
-"Windows and GNU/Linux, called wxWindows, a MacOS X native interface and\n"
+"Windows and GNU/Linux, called wxWidgets, a MacOS X native interface and\n"
 "a skinnable interface for Windows and GNU/Linux."
 msgstr ""
 
@@ -215,7 +215,7 @@ msgstr ""
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:22 en/basic-use.xml:23
 #, no-wrap
-msgid "The wxWindows interface"
+msgid "The wxWidgets interface"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
@@ -227,23 +227,55 @@ msgstr ""
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:32 en/basic-use.xml:33
 #, no-wrap
-msgid "The wxWindows interface with extended GUI"
+msgid "The wxWidgets interface with extended GUI"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><title>
+#: en/basic-use.xml:38
+#, no-wrap
+msgid "Native Mac OS X (Cocoa)"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/basic-use.xml:39
+#, no-wrap
+msgid "This is the default interface on Mac OS X."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
+#: en/basic-use.xml:45 en/basic-use.xml:46
+#, no-wrap
+msgid "The Mac OS X interface"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/basic-use.xml:49
+#, no-wrap
+msgid ""
+"This interface features an <emphasis>Extended GUI</emphasis> as well.\n"
+"It is called \"Extended Controls\" and can be opened through the Window-menu."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
+#: en/basic-use.xml:56 en/basic-use.xml:57
+#, no-wrap
+msgid "The Mac OSX interface with with the extended controls panel"
 msgstr ""
 
 # type: Content of: <chapter><sect1><title>
-#: en/basic-use.xml:40
+#: en/basic-use.xml:63
 #, no-wrap
 msgid "Simple play"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><title>
-#: en/basic-use.xml:42
+#: en/basic-use.xml:65
 #, no-wrap
 msgid "Play a file"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:43
+#: en/basic-use.xml:66
 #, no-wrap
 msgid ""
 "To open a file, open the <emphasis>File</emphasis> menu, and select \n"
@@ -253,7 +285,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:49
+#: en/basic-use.xml:72
 #, no-wrap
 msgid ""
 "An alternative is to Drag'n'Drop your file on the VLC main interface or \n"
@@ -261,49 +293,49 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/basic-use.xml:56 en/basic-use.xml:57
+#: en/basic-use.xml:79 en/basic-use.xml:80
 #, no-wrap
-msgid "The File menu - wxWindows interface"
+msgid "The File menu - wxWidgets interface"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/basic-use.xml:64 en/basic-use.xml:65
+#: en/basic-use.xml:87 en/basic-use.xml:88
 #, no-wrap
 msgid "The File menu - MacOS X interface"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/basic-use.xml:72 en/basic-use.xml:73
+#: en/basic-use.xml:95 en/basic-use.xml:96
 #, no-wrap
-msgid "The Open file dialog - wxWindows interface"
+msgid "The Open file dialog - wxWidgets interface"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/basic-use.xml:80 en/basic-use.xml:81
+#: en/basic-use.xml:103 en/basic-use.xml:104
 #, no-wrap
 msgid "The Open file dialog - MacOS X interface"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><title>
-#: en/basic-use.xml:85
+#: en/basic-use.xml:108
 #, no-wrap
 msgid "Play a CD/DVD/VCD"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:87
+#: en/basic-use.xml:110
 #, no-wrap
 msgid ""
 "To Play a CD, VCD or a DVD, open the <emphasis>File</emphasis> menu, and \n"
 "select the <emphasis>Open Disc...</emphasis> menu item. In the Open Disk \n"
 "Dialog Box, select the type of media (DVD, VCD or Audio CD). When reading a DVD,\n"
 " you can enable DVD menus by selecting the <emphasis>DVD (menus)</emphasis> \n"
-"Disc type in the wxWindows Interface. In the MacOS X interface, \n"
+"Disc type in the wxWidgets Interface. In the MacOS X interface, \n"
 "this can be done by selecting the \"Use DVD menus\" dialog box."
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:94
+#: en/basic-use.xml:117
 #, no-wrap
 msgid ""
 "You can select the drive from which the media should be read by giving \n"
@@ -312,7 +344,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:97
+#: en/basic-use.xml:120
 #, no-wrap
 msgid ""
 "If you want to start the DVD or VCD playback from a given title and \n"
@@ -321,7 +353,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:100
+#: en/basic-use.xml:123
 #, no-wrap
 msgid ""
 "You can start playback by selecting the <emphasis>Ok</emphasis> \n"
@@ -329,25 +361,25 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/basic-use.xml:107 en/basic-use.xml:108
+#: en/basic-use.xml:130 en/basic-use.xml:131
 #, no-wrap
-msgid "The Open disk dialog - wxWindows interface"
+msgid "The Open disk dialog - wxWidgets interface"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/basic-use.xml:115 en/basic-use.xml:116
+#: en/basic-use.xml:138 en/basic-use.xml:139
 #, no-wrap
 msgid "The Open disk dialog - MacOS X interface"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><title>
-#: en/basic-use.xml:120
+#: en/basic-use.xml:143
 #, no-wrap
 msgid "Play a network stream (WebRadio, WebTV, ...)"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:122
+#: en/basic-use.xml:145
 #, no-wrap
 msgid ""
 "To open a network stream, open the \"File\" menu and select the \"Open Network \n"
@@ -355,7 +387,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/basic-use.xml:126
+#: en/basic-use.xml:149
 #, no-wrap
 msgid ""
 "To open a UDP unicast stream, select <emphasis>UDP/RTP\n"
@@ -364,7 +396,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/basic-use.xml:131
+#: en/basic-use.xml:154
 #, no-wrap
 msgid ""
 "To open a UDP multicast stream, select <emphasis>UDP/RTP\n"
@@ -374,7 +406,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/basic-use.xml:136
+#: en/basic-use.xml:159
 #, no-wrap
 msgid ""
 "To open a stream sent over http (Webradios, WebTVs, Shoutcast, Icecast...), \n"
@@ -386,21 +418,21 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/basic-use.xml:144
+#: en/basic-use.xml:167
 #, no-wrap
 msgid ""
 "To open a RTSP stream (sent by Darwin Streaming Server, VLC, etc), \n"
-"in the wxWindows interface, select \"RTSP\" and give the URL in the text input."
+"in the wxWidgets interface, select \"RTSP\" and give the URL in the text input."
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:148
+#: en/basic-use.xml:171
 #, no-wrap
 msgid "You can start playback by selecting the <emphasis>Ok</emphasis> button."
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:150
+#: en/basic-use.xml:173
 #, no-wrap
 msgid ""
 "If you get some stuttering during playback, you can try to increase the \n"
@@ -411,25 +443,25 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/basic-use.xml:161 en/basic-use.xml:162
+#: en/basic-use.xml:184 en/basic-use.xml:185
 #, no-wrap
-msgid "The Open network dialog - wxWindows interface"
+msgid "The Open network dialog - wxWidgets interface"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/basic-use.xml:169 en/basic-use.xml:170
+#: en/basic-use.xml:192 en/basic-use.xml:193
 #, no-wrap
 msgid "The Open network dialog - MacOS X interface"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><title>
-#: en/basic-use.xml:174
+#: en/basic-use.xml:197
 #, no-wrap
 msgid "Play from an acquisition card"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:175
+#: en/basic-use.xml:198
 #, no-wrap
 msgid ""
 "This currently only possible on Linux and Windows. Open the File menu, \n"
@@ -437,7 +469,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:179
+#: en/basic-use.xml:202
 #, no-wrap
 msgid ""
 "On Windows, supported cards include webcams, TV cards, acquisition \n"
@@ -455,19 +487,19 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><textobject><para>
-#: en/basic-use.xml:197
+#: en/basic-use.xml:220
 #, no-wrap
-msgid "The Open Capture device dialog and a device configuration windows- wxWindows interface"
+msgid "The Open Capture device dialog and a device configuration windows- wxWidgets interface"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/basic-use.xml:198
+#: en/basic-use.xml:221
 #, no-wrap
-msgid "The Open Capture device dialog and a device configuration windows - wxWindows interface"
+msgid "The Open Capture device dialog and a device configuration windows - wxWidgets interface"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:201
+#: en/basic-use.xml:224
 #, no-wrap
 msgid ""
 "On Linux, supported cards include webcams, TV cards, acquisition cards, provided they are supported by the Video4Linux architecture. Haupaugge PVR 250/350 cards are also supported, using the  <ulink \n"
@@ -475,7 +507,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/basic-use.xml:206
+#: en/basic-use.xml:229
 #, no-wrap
 msgid ""
 "For Video4Linux devices, you can set the name of the video and audio \n"
@@ -486,19 +518,19 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><textobject><para>
-#: en/basic-use.xml:217
+#: en/basic-use.xml:240
 #, no-wrap
-msgid "The Open Video4Linux dialog- wxWindows interface"
+msgid "The Open Video4Linux dialog- wxWidgets interface"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/basic-use.xml:218
+#: en/basic-use.xml:241
 #, no-wrap
-msgid "The Open Video4Linux dialog - wxWindows interface"
+msgid "The Open Video4Linux dialog - wxWidgets interface"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/basic-use.xml:223
+#: en/basic-use.xml:246
 #, no-wrap
 msgid ""
 "To use a Hauppauge PVR card, select the PVR tab in the \"Open\" dialog box. \n"
@@ -512,31 +544,31 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:233
+#: en/basic-use.xml:256
 #, no-wrap
 msgid "After having set all the required parameters, you can start the capture by selecting the \"Ok\" button."
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><textobject><para>
-#: en/basic-use.xml:239
+#: en/basic-use.xml:262
 #, no-wrap
-msgid "The Open PVR dialog- wxWindows interface"
+msgid "The Open PVR dialog- wxWidgets interface"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/basic-use.xml:240
+#: en/basic-use.xml:263
 #, no-wrap
-msgid "The Open PVR dialog - wxWindows interface"
+msgid "The Open PVR dialog - wxWidgets interface"
 msgstr ""
 
 # type: Content of: <chapter><sect1><title>
-#: en/basic-use.xml:248
+#: en/basic-use.xml:271
 #, no-wrap
 msgid "Using the playlist"
 msgstr ""
 
 # type: Content of: <chapter><sect1><para>
-#: en/basic-use.xml:250
+#: en/basic-use.xml:273
 #, no-wrap
 msgid ""
 "VLC can of course store a list several files to play one after the other, \n"
@@ -546,7 +578,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><para>
-#: en/basic-use.xml:255
+#: en/basic-use.xml:278
 #, no-wrap
 msgid ""
 "Each time you use the Open dialog box, the stream you select is\n"
@@ -554,7 +586,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><para>
-#: en/basic-use.xml:258
+#: en/basic-use.xml:281
 #, no-wrap
 msgid ""
 "The playlist window shows all the streams available in the playlist.\n"
@@ -562,35 +594,35 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><mediaobject><caption><para>
-#: en/basic-use.xml:266 en/basic-use.xml:267
+#: en/basic-use.xml:289 en/basic-use.xml:290
 #, no-wrap
-msgid "The Playlist - wxWindows interface"
+msgid "The Playlist - wxWidgets interface"
 msgstr ""
 
 # type: Content of: <chapter><sect1><mediaobject><caption><para>
-#: en/basic-use.xml:273 en/basic-use.xml:274
+#: en/basic-use.xml:296 en/basic-use.xml:297
 #, no-wrap
 msgid "The Playlist - MacOS X interface"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><title>
-#: en/basic-use.xml:278
+#: en/basic-use.xml:301
 #, no-wrap
 msgid "Adding items, saving and loading playlists"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:280
+#: en/basic-use.xml:303
 #, no-wrap
 msgid ""
-"In the wxWindows interface, the <emphasis>Manage</emphasis> menu\n"
+"In the wxWidgets interface, the <emphasis>Manage</emphasis> menu\n"
 "allows you to append an item at the end of the playlist (its playback\n"
 "won't start immediately), to save the playlist as a M3U or PLS file, or\n"
 "to import a playlist file."
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:285
+#: en/basic-use.xml:308
 #, no-wrap
 msgid ""
 "In the MacOS X interface, saving a playlist can be done\n"
@@ -601,22 +633,22 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><title>
-#: en/basic-use.xml:293
+#: en/basic-use.xml:316
 #, no-wrap
 msgid "Sorting"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:295
+#: en/basic-use.xml:318
 #, no-wrap
 msgid ""
-"In the wxWindows interface, <emphasis>Sort</emphasis> allows\n"
+"In the wxWidgets interface, <emphasis>Sort</emphasis> allows\n"
 "you to sort the playlist according to several criteria, or to shuffle\n"
 "it. You can also sort by clicking the header of the column"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:299
+#: en/basic-use.xml:322
 #, no-wrap
 msgid ""
 "In the MacOS X interface, sorting can be done by clicking\n"
@@ -625,28 +657,28 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><title>
-#: en/basic-use.xml:305
+#: en/basic-use.xml:328
 #, no-wrap
 msgid "Playlist modes"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:307
+#: en/basic-use.xml:330
 #, no-wrap
 msgid "The playlist supports several playback modes."
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:309
+#: en/basic-use.xml:332
 #, no-wrap
 msgid ""
-"In the wxWindows interface, the toolbar contains three playlist\n"
+"In the wxWidgets interface, the toolbar contains three playlist\n"
 "mode buttons. They allow to enable random mode, to repeat the whole playlist or\n"
 "to repeat one item."
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:313
+#: en/basic-use.xml:336
 #, no-wrap
 msgid ""
 "In the MacOS X interface, random mode can be enabled by selecting\n"
@@ -655,19 +687,19 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><title>
-#: en/basic-use.xml:319
+#: en/basic-use.xml:342
 #, no-wrap
 msgid "Misc"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
-#: en/basic-use.xml:321
+#: en/basic-use.xml:344
 #, no-wrap
 msgid "Search"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
-#: en/basic-use.xml:323
+#: en/basic-use.xml:346
 #, no-wrap
 msgid ""
 "You also have a search tool. Enter a search string and hit search.\n"
@@ -676,23 +708,23 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
-#: en/basic-use.xml:329
+#: en/basic-use.xml:352
 #, no-wrap
 msgid "Moving items"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
-#: en/basic-use.xml:331
+#: en/basic-use.xml:354
 #, no-wrap
 msgid ""
-"In the wxWindows interface, the <emphasis>Up</emphasis> and\n"
+"In the wxWidgets interface, the <emphasis>Up</emphasis> and\n"
 "<emphasis>Down</emphasis> buttons at the bottom of the playlist window\n"
 "allow you to move an item. Select an item and use these buttons to move\n"
 "it."
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
-#: en/basic-use.xml:336
+#: en/basic-use.xml:359
 #, no-wrap
 msgid ""
 "In the MacOS X interface, you can move an item with the mouse,\n"
@@ -700,13 +732,13 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
-#: en/basic-use.xml:342
+#: en/basic-use.xml:365
 #, no-wrap
 msgid "Contextual menu"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
-#: en/basic-use.xml:344
+#: en/basic-use.xml:367
 #, no-wrap
 msgid ""
 "By right-clicking an item, a contextual menu will appear, giving\n"
@@ -715,7 +747,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
-#: en/basic-use.xml:348
+#: en/basic-use.xml:371
 #, no-wrap
 msgid ""
 "If you ask for info, an <emphasis>item info</emphasis> dialog box will \n"
@@ -724,35 +756,35 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><mediaobject><caption><para>
-#: en/basic-use.xml:356 en/basic-use.xml:357
+#: en/basic-use.xml:379 en/basic-use.xml:380
 #, no-wrap
 msgid "Item Info Dialog - wx Interface"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><mediaobject><caption><para>
-#: en/basic-use.xml:363 en/basic-use.xml:364
+#: en/basic-use.xml:386 en/basic-use.xml:387
 #, no-wrap
 msgid "Item Info Dialog - MacOS X interface"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><title>
-#: en/basic-use.xml:374 en/advanced-use.xml:767
+#: en/basic-use.xml:397 en/advanced-use.xml:767
 #, no-wrap
 msgid "Hotkeys"
 msgstr ""
 
 # type: Content of: <chapter><sect1><para>
-#: en/basic-use.xml:376
+#: en/basic-use.xml:399
 #, no-wrap
 msgid "Most of VLC functions are accessible using hotkeys"
 msgstr ""
 
 # type: Content of: <chapter><sect1><para>
-#: en/basic-use.xml:378
+#: en/basic-use.xml:401
 #, no-wrap
 msgid ""
 "The list of the available hotkeys and their binding can be retrieved \n"
-"and altered in the preferences panel of the player. In the wxWindows interface, \n"
+"and altered in the preferences panel of the player. In the wxWidgets interface, \n"
 "preferences are available in the \"Settings\" menu, \"Preferences\" menu item. \n"
 "In the MacOS X interface, open the \"VLC\" menu, and select \"Preferences\". \n"
 "Select the \"Hot keys\" panel in the dialog. For each  function of VLC, you \n"
@@ -763,7 +795,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><para>
-#: en/basic-use.xml:388
+#: en/basic-use.xml:411
 #, no-wrap
 msgid ""
 "To change the binding of a hotkey, select or deselect boxes corresponding \n"
@@ -772,37 +804,37 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><mediaobject><caption><para>
-#: en/basic-use.xml:396 en/basic-use.xml:397
+#: en/basic-use.xml:419 en/basic-use.xml:420
 #, no-wrap
-msgid "The Hotkeys Panel - wxWindows interface"
+msgid "The Hotkeys Panel - wxWidgets interface"
 msgstr ""
 
 # type: Content of: <chapter><sect1><mediaobject><caption><para>
-#: en/basic-use.xml:403 en/basic-use.xml:404
+#: en/basic-use.xml:426 en/basic-use.xml:427
 #, no-wrap
 msgid "The Hotkeys Panel - MacOS X interface"
 msgstr ""
 
 # type: Content of: <chapter><sect1><title>
-#: en/basic-use.xml:410
+#: en/basic-use.xml:433
 #, no-wrap
 msgid "Using subtitles"
 msgstr ""
 
 # type: Content of: <chapter><sect1><para>
-#: en/basic-use.xml:412
+#: en/basic-use.xml:435
 #, no-wrap
 msgid "VLC supports many kinds of subtitles."
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><title>
-#: en/basic-use.xml:414
+#: en/basic-use.xml:437
 #, no-wrap
 msgid "Media with included subtitles"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:416
+#: en/basic-use.xml:439
 #, no-wrap
 msgid ""
 "Many types of media can have embedded subtitles. VLC can read\n"
@@ -810,25 +842,25 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/basic-use.xml:421
+#: en/basic-use.xml:444
 #, no-wrap
 msgid "SVCD"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/basic-use.xml:422
+#: en/basic-use.xml:445
 #, no-wrap
 msgid "OGM files"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/basic-use.xml:423
+#: en/basic-use.xml:446
 #, no-wrap
 msgid "Matroska (MKV) files"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:426
+#: en/basic-use.xml:449
 #, no-wrap
 msgid ""
 "Subtitles are disabled by default. To enable them, go to\n"
@@ -839,19 +871,19 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/basic-use.xml:436 en/basic-use.xml:437
+#: en/basic-use.xml:459 en/basic-use.xml:460
 #, no-wrap
 msgid "Select a subtitles track under Windows or Linux"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/basic-use.xml:444 en/basic-use.xml:445
+#: en/basic-use.xml:467 en/basic-use.xml:468
 #, no-wrap
 msgid "Select a subtitles track under MacOS X"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:448
+#: en/basic-use.xml:471
 #, no-wrap
 msgid ""
 "DVD and SVCD subtitles are merely images, so you won't be able to\n"
@@ -860,7 +892,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:452
+#: en/basic-use.xml:475
 #, no-wrap
 msgid ""
 "Text rendering options\n"
@@ -873,7 +905,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:461
+#: en/basic-use.xml:484
 #, no-wrap
 msgid ""
 "You need to restart your stream for the font modifications to take\n"
@@ -881,13 +913,13 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><title>
-#: en/basic-use.xml:466
+#: en/basic-use.xml:489
 #, no-wrap
 msgid "Subtitles files"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:468
+#: en/basic-use.xml:491
 #, no-wrap
 msgid ""
 "While modern file formats like Matroska or OGM can handle\n"
@@ -898,43 +930,43 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:474
+#: en/basic-use.xml:497
 #, no-wrap
 msgid "VLC can handle these types of subtitles files:"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/basic-use.xml:477
+#: en/basic-use.xml:500
 #, no-wrap
 msgid "MicroDVD"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/basic-use.xml:478
+#: en/basic-use.xml:501
 #, no-wrap
 msgid "SubRIP"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/basic-use.xml:479
+#: en/basic-use.xml:502
 #, no-wrap
 msgid "SubViewer"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/basic-use.xml:480
+#: en/basic-use.xml:503
 #, no-wrap
 msgid "SSA"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/basic-use.xml:481
+#: en/basic-use.xml:504
 #, no-wrap
 msgid "Sami"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><itemizedlist><listitem><para>
-#: en/basic-use.xml:482
+#: en/basic-use.xml:505
 #, no-wrap
 msgid ""
 "Vobsub (this one is quite special: it is not made from text\n"
@@ -942,7 +974,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:486
+#: en/basic-use.xml:509
 #, no-wrap
 msgid ""
 "To open a subtitles file, use the Advanced Open dialog\n"
@@ -952,13 +984,13 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/basic-use.xml:496 en/basic-use.xml:497
+#: en/basic-use.xml:519 en/basic-use.xml:520
 #, no-wrap
 msgid "Select a subtitles file under Windows or Linux"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:500
+#: en/basic-use.xml:523
 #, no-wrap
 msgid ""
 "You can then select the subtitles file by clicking the\n"
@@ -970,7 +1002,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><note><para>
-#: en/basic-use.xml:507
+#: en/basic-use.xml:530
 #, no-wrap
 msgid ""
 "For Vobsub subtitles, you need to select the\n"
@@ -978,7 +1010,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><note><para>
-#: en/basic-use.xml:509
+#: en/basic-use.xml:532
 #, no-wrap
 msgid ""
 "Encoding, alignment and size won't have any effect for Vobsub\n"
@@ -986,19 +1018,19 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:513
+#: en/basic-use.xml:536
 #, no-wrap
 msgid "Font can be changed as explained in the previous section."
 msgstr ""
 
 # type: Content of: <chapter><sect1><title>
-#: en/basic-use.xml:519
+#: en/basic-use.xml:542
 #, no-wrap
 msgid "Video and audio filters"
 msgstr ""
 
 # type: Content of: <chapter><sect1><para>
-#: en/basic-use.xml:521
+#: en/basic-use.xml:544
 #, no-wrap
 msgid ""
 "VLC includes a system of <emphasis>filters</emphasis> that allow\n"
@@ -1006,13 +1038,13 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><title>
-#: en/basic-use.xml:524
+#: en/basic-use.xml:547
 #, no-wrap
 msgid "Deinterlacement and Post Processing"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:526
+#: en/basic-use.xml:549
 #, no-wrap
 msgid ""
 "VLC is able to deinterlace a video stream using different deinterlacement \n"
@@ -1023,7 +1055,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:532
+#: en/basic-use.xml:555
 #, no-wrap
 msgid ""
 "On some particular streams (MPEG 4, DIVX, XVID, Sorenson, ...), some \n"
@@ -1035,13 +1067,13 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><title>
-#: en/basic-use.xml:541
+#: en/basic-use.xml:564
 #, no-wrap
 msgid "Video filters"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:543
+#: en/basic-use.xml:566
 #, no-wrap
 msgid ""
 "VLC features several filters able to change the video (distortion,\n"
@@ -1049,28 +1081,40 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:546
+#: en/basic-use.xml:569
 #, no-wrap
 msgid ""
-"With the wxWindows interface, filters can be easily enabled using\n"
+"With the wxWidgets interface, filters can be easily enabled using\n"
 "the Extended GUI. In the Video tab, simply select the filters to enable.\n"
 "Image settings can be easily adjusted."
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/basic-use.xml:554 en/basic-use.xml:555
+#: en/basic-use.xml:577 en/basic-use.xml:578
 #, no-wrap
-msgid "Video filters selection in the wxWindows interface"
+msgid "Video filters selection in the wxWidgets interface"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:559
+#: en/basic-use.xml:581
+#, no-wrap
+msgid "You can enable these filters through the <emphasis>Extended Controls panel</emphasis> on Mac OS X. Click on the triangle next to <emphasis>Video filters</emphasis> to select your filters or expand the <emphasis>Adjust Image</emphasis> section to change the contrast, hue, etc."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
+#: en/basic-use.xml:587 en/basic-use.xml:588
+#, no-wrap
+msgid "Video filters selection in the Mac OS X interface"
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/basic-use.xml:591
 #, no-wrap
 msgid ""
-"Under MacOS X, or for better control, you need to go\n"
+"For better control, you need to go\n"
 "to the preferences. To select the filters to be enabled,\n"
-"go to <emphasis>General Settings</emphasis>, then to\n"
-"<emphasis>Video</emphasis>. In the \"video filter module\" box, enter\n"
+"go to <emphasis>Video</emphasis>, then to\n"
+"<emphasis>Filters</emphasis>. In the \"video filter module\" box, enter\n"
 "the names of the filters to enable, separated by semicommas. Filters\n"
 "will be applied in the selected order. Valid names are \"clone\", \"wall\",\n"
 "\"transform\", \"adjust\", \"crop\", \"deinterlace\", \"distort\", \"motionblur\"\n"
@@ -1078,112 +1122,112 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:568
+#: en/basic-use.xml:600
 #, no-wrap
 msgid ""
 "If you want to tune the behavior of these filters, go to\n"
-"<emphasis>Modules, video filter </emphasis>. For each filter, you will\n"
+"<emphasis>Video, Filters, [your filter] </emphasis>. For each filter, you will\n"
 "find a short description and the options"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><title>
-#: en/basic-use.xml:575
+#: en/basic-use.xml:607
 #, no-wrap
 msgid "Audio filters"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
-#: en/basic-use.xml:577
+#: en/basic-use.xml:609
 #, no-wrap
 msgid "Equalizer"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
-#: en/basic-use.xml:579
+#: en/basic-use.xml:611
 #, no-wrap
 msgid ""
 "VLC features a 10-band graphical equalizer. You can display it\n"
-"by activating the advanced GUI on wxWindows or by clicking the\n"
+"by activating the advanced GUI on wxWidgets or by clicking the\n"
 "<emphasis>Equalizer</emphasis> button on the MacOS X interface."
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><mediaobject><caption><para>
-#: en/basic-use.xml:588 en/basic-use.xml:589
+#: en/basic-use.xml:620 en/basic-use.xml:621
 #, no-wrap
-msgid "The equalizer in the wxWindows interface"
+msgid "The equalizer in the wxWidgets interface"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><mediaobject><caption><para>
-#: en/basic-use.xml:597 en/basic-use.xml:598
+#: en/basic-use.xml:629 en/basic-use.xml:630
 #, no-wrap
 msgid "The equalizer in the MacOS X interface"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
-#: en/basic-use.xml:601
+#: en/basic-use.xml:633
 #, no-wrap
 msgid ""
-"Presets are available in the Audio menu in wxWindows, or in the\n"
+"Presets are available in the Audio menu in wxWidgets, or in the\n"
 "Equalizer window in the MacOS X interface"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
-#: en/basic-use.xml:606
+#: en/basic-use.xml:638
 #, no-wrap
 msgid "Other audio filters"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
-#: en/basic-use.xml:608
+#: en/basic-use.xml:640
 #, no-wrap
 msgid ""
-"At the moment, VLC features two other audio filters : a volume\n"
+"At the moment, VLC features two other audio filters: a volume\n"
 "normalizer and a filter providing sound spatialization with a headphone.\n"
 "They can be enabled in the Audio tab of the extended GUI for the\n"
-"wxWindows interface."
+"wxWidgets interface and in the Audio section of the Extended Controls panel of the Mac OS X interface."
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
-#: en/basic-use.xml:613
+#: en/basic-use.xml:645
 #, no-wrap
 msgid ""
-"Under MacOS X, or for better control, you need to go\n"
+"For better control, you need to go\n"
 "to the preferences. To select the filters to be enabled,\n"
-"go to <emphasis>General Settings</emphasis>, then to\n"
-"<emphasis>Audio</emphasis>. In the \"audio filters\" box, enter the\n"
+"go to <emphasis>Audio</emphasis>, then to\n"
+"<emphasis>Filters</emphasis>. In the \"audio filters\" box, enter the\n"
 "names of the filters to enable, separated by commas. Valid names are\n"
 "\"equalizer\", \"normvol\" and \"headphone\"."
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
-#: en/basic-use.xml:620
+#: en/basic-use.xml:652
 #, no-wrap
 msgid ""
 "If you want to tune the behavior of these filters, go to\n"
-"<emphasis>Modules/audio_filter</emphasis>. The equalizer and headphone\n"
+"<emphasis>Audio, Filters, [your filter]</emphasis>. The equalizer and headphone\n"
 "filters can be tuned."
 msgstr ""
 
 # type: Content of: <chapter><sect1><title>
-#: en/basic-use.xml:638
+#: en/basic-use.xml:670
 #, no-wrap
 msgid "Basic troubleshooting"
 msgstr ""
 
 # type: Content of: <chapter><sect1><note><para>
-#: en/basic-use.xml:640
+#: en/basic-use.xml:672
 #, no-wrap
 msgid "This is very incomplete"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><title>
-#: en/basic-use.xml:642
+#: en/basic-use.xml:674
 #, no-wrap
 msgid "File does not play, only sound or only video"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:644
+#: en/basic-use.xml:676
 #, no-wrap
 msgid ""
 "Maybe the file you are trying to read is not fully supported. VLC\n"
@@ -1194,7 +1238,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:650
+#: en/basic-use.xml:682
 #, no-wrap
 msgid ""
 "To find out, open the Messages Window (View menu) and restart your\n"
@@ -1202,13 +1246,13 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
-#: en/basic-use.xml:657 en/basic-use.xml:658
+#: en/basic-use.xml:689 en/basic-use.xml:690
 #, no-wrap
-msgid "The wxWindows messages window"
+msgid "The wxWidgets messages window"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:661
+#: en/basic-use.xml:693
 #, no-wrap
 msgid ""
 "In this example, the file contains a IV41 video stream, a codec\n"
@@ -1216,7 +1260,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:664
+#: en/basic-use.xml:696
 #, no-wrap
 msgid ""
 "You may of course have other messages. If you post to a VideoLAN\n"
@@ -1225,13 +1269,13 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><title>
-#: en/basic-use.xml:670
+#: en/basic-use.xml:702
 #, no-wrap
 msgid "Weird VLC behavior (\"stopped working\")"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:672
+#: en/basic-use.xml:704
 #, no-wrap
 msgid ""
 "A very common thing is a bogus preferences file. Don't hesitate to\n"
@@ -1240,13 +1284,13 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><title>
-#: en/basic-use.xml:678
+#: en/basic-use.xml:710
 #, no-wrap
 msgid "Computer crashes / Video is corrupted"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:680
+#: en/basic-use.xml:712
 #, no-wrap
 msgid ""
 "Another common problem is buggy video drivers. Try upgrading them\n"
@@ -1254,7 +1298,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/basic-use.xml:683
+#: en/basic-use.xml:715
 #, no-wrap
 msgid ""
 "Also, you can try disabling Overlay (Preferences/General/Video,\n"
@@ -3484,7 +3528,7 @@ msgid ")."
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><title>
-#: en/install.xml:48 en/install.xml:208
+#: en/install.xml:48 en/install.xml:210
 #, no-wrap
 msgid "BeOS"
 msgstr ""
@@ -3499,7 +3543,7 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><title>
-#: en/install.xml:60 en/install.xml:218
+#: en/install.xml:60 en/install.xml:220
 #, no-wrap
 msgid "Debian GNU/Linux"
 msgstr ""
@@ -3683,61 +3727,70 @@ msgid "~/Library/Preferences/VLC/"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/install.xml:202 en/install.xml:213
+#: en/install.xml:202
 #, no-wrap
-msgid "."
+msgid ""
+". There is\n"
+"an AppleScript on the disk-image which lets you do this\n"
+"automatically."
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/install.xml:211
+#: en/install.xml:213
 #, no-wrap
 msgid "Delete the"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para><filename>
-#: en/install.xml:211
+#: en/install.xml:213
 #, no-wrap
 msgid "vlc-version"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/install.xml:212
+#: en/install.xml:214
 #, no-wrap
 msgid "directory. You can also remove the configuration file"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para><filename>
-#: en/install.xml:213
+#: en/install.xml:215
 #, no-wrap
 msgid "/boot/home/config/settings/vlcrc"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/install.xml:221
+#: en/install.xml:215
+#, no-wrap
+msgid "."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><para>
+#: en/install.xml:223
 #, no-wrap
 msgid "Remove the packages that you installed:"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><screen>
-#: en/install.xml:225
+#: en/install.xml:227
 #, no-wrap
 msgid "<prompt># </prompt><userinput>apt-get remove --purge wxvlc vlc-mad libdvdcss2 libdvbpsi1</userinput>"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><title>
-#: en/install.xml:230
+#: en/install.xml:232
 #, no-wrap
 msgid "GNU/Linux Redhat, Mandrake and SuSE"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/install.xml:233
+#: en/install.xml:235
 #, no-wrap
 msgid "Uninstall the RPM packages that you installed:"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><screen>
-#: en/install.xml:237
+#: en/install.xml:239
 #, no-wrap
 msgid ""
 "<prompt># </prompt><userinput>rpm -e vlc-version vlc-mad-version wxvlc-version\n"
@@ -3745,13 +3798,13 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><title>
-#: en/install.xml:244
+#: en/install.xml:246
 #, no-wrap
 msgid "If you compiled VLC from sources"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/install.xml:248
+#: en/install.xml:250
 #, no-wrap
 msgid ""
 "Go to the directory containing VLC sources and\n"
@@ -3759,13 +3812,13 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><screen>
-#: en/install.xml:251
+#: en/install.xml:253
 #, no-wrap
 msgid "<prompt># </prompt><userinput>make uninstall</userinput>"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><para>
-#: en/install.xml:254
+#: en/install.xml:256
 #, no-wrap
 msgid "You can then remove the VLC sources."
 msgstr ""

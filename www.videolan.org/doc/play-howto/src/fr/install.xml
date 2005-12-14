@@ -174,7 +174,9 @@ Désinstaller VLC
 
 <para>
 Déplacez en maintenant le bouton enfoncé l'application VLC vers la corbeille. Vous pouvez aussi supprimer le fichier de configuration et les fichiers temporaires situés dans
-<filename>~/Library/Preferences/VLC/</filename>.
+<filename>~/Library/Preferences/VLC/</filename>. There is
+an AppleScript on the disk-image which lets you do this
+automatically.
 </para>
 
 </sect2>

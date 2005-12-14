@@ -10,10 +10,10 @@
 
 <h1>VLC media player for BeOS </h1>
 
-<h2>Latest BeOS package (0.8.4a)</h2>
+<h2>Latest BeOS package (0.8.4b)</h2>
 
 <ul>
-  <?php pkgitem("0.8.4a/beos","vlc-0.8.4a-beos-i586.zip","vlc"); ?>
+  <?php pkgitem("0.8.4a/beos","vlc-0.8.4b-beos-i586.zip","vlc"); ?>
 </ul>
 
 <h2>Older versions</h2>

@@ -499,6 +499,11 @@ VLC_OBJECT_INPUT, VLC_OBJECT_VOUT, VLC_OBJECT_AOUT</emphasis> or
 </para></listitem>
 
 <listitem><para>
+<empahsis>vlc_object_exists</emphasis>
+: checks if object ST(1) exists
+</para></listitem>
+
+<listitem><para>
 <emphasis>vlc_config_type</emphasis>
 : pushes the type of the configuration variable ST(1); see
 <emphasis>vlc_var_type</emphasis> for a list of types

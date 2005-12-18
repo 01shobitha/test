@@ -113,7 +113,7 @@ and licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/"
 <ul>
 <li>Use "rpm ivh --prefix=&lt;newpath&gt; videolan-backgrounds-base-2-1.noarch.rpm" to relocated the installed images to a new location on e.g: SuSE systems.
 </li>
-</li>Download the rpm here: <a href="/images/videolan-backgrounds-base-2-1.noarch.rpm">videolan-backgrounds-base-2-1.noarch.rpm</a>. This package is built on FC 4, but should also be useable on SuSe, Mandrake and other RPM-based distros.
+<li>Download the rpm here: <a href="/images/videolan-backgrounds-base-2-1.noarch.rpm">videolan-backgrounds-base-2-1.noarch.rpm</a>. This package is built on FC 4, but should also be useable on SuSe, Mandrake and other RPM-based distros.
 </li>
 <li>The source package can be found <a href="/images/videolan-backgrounds-base-2-1.src.rpm">here</a>.
 </li>

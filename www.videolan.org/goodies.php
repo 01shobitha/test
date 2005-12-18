@@ -108,7 +108,15 @@ and licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/"
 
 <h2>Background images</h2>
 
-<p>All videolan background images can now be downloaded in one RPM package. The (relocateble) package has been built by Jean-Paul Saman on RH 9.0, but should also be useable on SuSE, Mandrake and other RedHat systems. Use "rpm ivh --prefix=&lt;newpath&gt; videolan-backgrounds-base-1-1.noarch.rpm" to relocated the installed images to a new location on e.g: SuSE systems. Download the rpm here: <a href="/images/videolan-backgrounds-base-1-1.noarch.rpm">videolan-backgrounds-base-1-1.noarch.rpm</a>, or the spec file here: <a href="/images/videolan-background-base.spec">videolan-backgrounds-base.spec</a>.</p>
+<p>All videolan background images can now be downloaded in one RPM package. The (relocateble) package has been built by <a href="http://home.wxs.nl/~jpsaman">Jean-Paul Saman</a> on RH 9.0, but should also be useable on SuSE, Mandrake and other RedHat systems. <p>
+<p>To install the package:</br>
+<ul>
+<li>Use "rpm ivh --prefix=&lt;newpath&gt; videolan-backgrounds-base-2-1.noarch.rpm" to relocated the installed images to a new location on e.g: SuSE systems. Download the rpm here: <a href="/images/videolan-backgrounds-base-2-1.noarch.rpm">videolan-backgrounds-base-2-1.noarch.rpm</a>, or the spec file here: <a href="/images/videolan-background-base.spec">videolan-backgrounds-base.spec</a>. This package is built on FC 4, but should also be useable on SuSe, Mandrake and other RPM-based distros.
+</li>
+<li>The source package can be found <a href="/images/videolan-backgrounds-base-2-1.src.rpm">here</a>.
+</li>
+</ul>
+</p>
 
 <p>Jason Jaeger made this VLC background:</p>
 

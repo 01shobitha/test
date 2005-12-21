@@ -24,8 +24,6 @@
 
 <p> Latest required libraries: </p>
 
-<p style="color : red;">Warning, this package list is mostly outdated.</p>
-
 <ul>
   <?php
      pkgitem("0.8.4a/contrib","a52dec-0.7.4.tar.gz","vlc","(A52 - also known as AC3 - audio decoder)");

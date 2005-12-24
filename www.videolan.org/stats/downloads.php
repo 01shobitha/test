@@ -75,3 +75,5 @@
 
     pg_close($connect);
 ?>
+<?php footer('$Id$'); ?>
+

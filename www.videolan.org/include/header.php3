@@ -144,10 +144,8 @@ StartHtml( ereg_replace( "<[^>]*>" , "" , $title ) , $enable_live) ;
   <tr align="center">  
     <td valign="top" colspan="2" align="center" style="background-color:white; border: 3px solid red;">  
 	<a href="/eucd.html">
-	<span style="color: red; font-size:20px; font-style: bold;">VideoLAN might disappear due to new French/European legislation.</span>
+	<span style="color: red; font-size:18px; font-style: bold;">Learn more about the dangers of the new "DADVSI" french law</span>
 	</a>
-        <br />
-	<a href="/eucd.html">Learn more</a>
     </td>
   </tr>  
 <!-- End of DADVSI banner -->

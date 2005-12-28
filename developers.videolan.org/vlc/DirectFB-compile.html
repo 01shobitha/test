@@ -1,0 +1,113 @@
+<?php
+   $title = "VideoLAN Client - DirectFB plugin Compile HOWTO";
+   $lang = "en";
+   $date = "28 December 2005";
+?>
+
+<h1>HOWTO compile DirectFB plugin</h1>
+
+<p>This HOWTO explains howto build and install DirectFB for use with the VLC directfb plugin. For more details on DirectFB and its requirements you need to check the Internet site of <a href="http://www.directfb.org">DirectFB</a></p>
+
+<h2>Building DirectFB on Linux</h2>
+
+<p>Download the following DirectFB tarballs:</p>
+
+<ul>
+<li>Mandatory tarballs:<br>
+    <ul><li>DirectFB-0.9.24.tar.gz</li>
+	<li>linux-fusion-1.1.tar.gz</li></ul>
+</li>
+<li>Optional tarballs:<br>
+    <ul><li>DirectFBGL-0.9.23.tar.gz</li>
+	<li>FusionSound-0.9.23.tar.gz</li></ul>
+</li>
+</ul>
+
+<p>Read the DirectFB documentation carefully. You will need it to properly configure your system for use with DirectFB.</p>
+
+<p>Unpack DirectFB-0.9.24.tar.gz:<br>
+<table border="0" width="100%">
+  <tr><td class="code">
+      $> tar -xzvf DirectFB-0.9.24.tar.gz -C <directory_where_to_unpack>
+</td></tr>
+</table>
+</p>
+
+<h3>Build Fusion DirectFB driver</h3>
+<p>To build the fusion device driver the source for the Linux kernel your system is running must be installed. If this is the case then continue with the following sequence of actions. If not then skip this chapter and continue with building DirectFB itself.</p>
+
+<p>Unpack Linux Fusion driver (linux-fusion-1.1.tar.gz):<br>
+<table border="0" width="100%">
+  <tr><td class="code">
+      $> tar -xzvf linux-fusion-1.1.tar.gz -C <directory_where_to_unpack>
+</td></tr>
+</table>
+</p>
+
+<p>Build the DirectFB's fusion driver:<br>
+<table border="0" width="100%">
+  <tr><td class="code">
+      $> cd <directory>/linux-fusion-1.1/
+      $> make
+</td></tr>
+</table>
+</p>
+
+<p>And as root (hint: su - root):<br>
+<table border="0" width="100%">
+  <tr><td class="code">
+       $> make install
+  </td></tr>
+</table>
+</p>
+
+<p>Copy fusion.h into /usr/include/linux directory:<br>
+<table border="0" width="100%">
+  <tr><td class="code">
+      $> cp linux/include/linux/fusion.h /usr/include/linux
+  </td></tr>
+</table>
+</p>
+
+<h3>Buildign DirectFB</h3>
+
+<p>Unpack DirectFB-0.9.24.tar.gz:<br>
+<table border="0" width="100%">
+  <tr><td class="code">
+      $> tar -xzvf DirectFB-0.9.24.tar.gz -C <directory_where_to_unpack>
+  </td></tr>
+</table>
+</p>
+
+<p>Configure DirectFB:<br>
+<table border="0" width="100%">
+  <tr><td class="code">
+      $> cd <directory>/DirectFB-0.9.24/
+  </td></tr>
+</table>
+</p>
+
+<p>If the Fusion DirectFB driver has been compiled and installed against your running version of the Linux kernel, then the DirectFB configure-line looks like this: (If not the --enable-multi can be omitted.)<br>
+<table border="0" width="100%">
+  <tr><td class="code">
+      $> ./configure --enable-multi
+      $> make
+  </td></tr>
+</table>
+</p>
+
+<h2>Compiling VideoLAN VLC</h2>
+
+<p>Checkout the SVN version from the trunk directory or download one of the nightly snapshots. See <a href="http://developers.videolan.org/svn.html">http://developers.videolan.org/svn.html</a> for more information. Then configure VLC using the following commandline:<br>
+<table border="0" width="100%">
+  <tr><td class="code">
+      $> ./bootstrap
+      $> ./configure --prefix=/usr <other_options> --enable-directfb --with-directfb=<directory>/DirectFB-0.9.24
+      $> make
+  </td></tr>
+</table>
+</p>
+
+<p>
+<b>Written by Jean-Paul Saman <a href="mailto:jpsaman_at_videolan_dot_org">jpsaman_at_videolan_dot_org</a>, for the VideoLAN Team.</b>
+</p>

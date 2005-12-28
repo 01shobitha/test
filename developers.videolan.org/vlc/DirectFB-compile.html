@@ -28,7 +28,7 @@
 <p>Unpack DirectFB-0.9.24.tar.gz:<br>
 <table border="0" width="100%">
   <tr><td class="code">
-      $> tar -xzvf DirectFB-0.9.24.tar.gz -C <directory_where_to_unpack>
+      $> tar -xzvf DirectFB-0.9.24.tar.gz -C directory_where_to_unpack
 </td></tr>
 </table>
 </p>
@@ -39,7 +39,7 @@
 <p>Unpack Linux Fusion driver (linux-fusion-1.1.tar.gz):<br>
 <table border="0" width="100%">
   <tr><td class="code">
-      $> tar -xzvf linux-fusion-1.1.tar.gz -C <directory_where_to_unpack>
+      $> tar -xzvf linux-fusion-1.1.tar.gz -C directory_where_to_unpack
 </td></tr>
 </table>
 </p>
@@ -47,7 +47,7 @@
 <p>Build the DirectFB's fusion driver:<br>
 <table border="0" width="100%">
   <tr><td class="code">
-      $> cd <directory>/linux-fusion-1.1/
+      $> cd <directory>/linux-fusion-1.1/<br>
       $> make
 </td></tr>
 </table>
@@ -74,7 +74,7 @@
 <p>Unpack DirectFB-0.9.24.tar.gz:<br>
 <table border="0" width="100%">
   <tr><td class="code">
-      $> tar -xzvf DirectFB-0.9.24.tar.gz -C <directory_where_to_unpack>
+      $> tar -xzvf DirectFB-0.9.24.tar.gz -C directory_where_to_unpack
   </td></tr>
 </table>
 </p>
@@ -90,7 +90,7 @@
 <p>If the Fusion DirectFB driver has been compiled and installed against your running version of the Linux kernel, then the DirectFB configure-line looks like this: (If not the --enable-multi can be omitted.)<br>
 <table border="0" width="100%">
   <tr><td class="code">
-      $> ./configure --enable-multi
+      $> ./configure --enable-multi<br>
       $> make
   </td></tr>
 </table>
@@ -101,8 +101,8 @@
 <p>Checkout the SVN version from the trunk directory or download one of the nightly snapshots. See <a href="http://developers.videolan.org/svn.html">http://developers.videolan.org/svn.html</a> for more information. Then configure VLC using the following commandline:<br>
 <table border="0" width="100%">
   <tr><td class="code">
-      $> ./bootstrap
-      $> ./configure --prefix=/usr <other_options> --enable-directfb --with-directfb=<directory>/DirectFB-0.9.24
+      $> ./bootstrap<br>
+      $> ./configure --prefix=/usr --enable-directfb --with-directfb=directory_where_to_unpack/DirectFB-0.9.24<br>
       $> make
   </td></tr>
 </table>

@@ -77,7 +77,7 @@ syntax that you must use:
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc input_stream --sout "#module1{option1=parameter1{parameter-option1},option2=parameter2}:#module2{option1=...,option2=...}:..."</userinput>
+<prompt>% </prompt><userinput>vlc input_stream --sout "#module1{option1=parameter1{parameter-option1},option2=parameter2}:module2{option1=...,option2=...}:..."</userinput>
 </screen>
 
 <note><para>Some of the module options (option1 in the example) have to

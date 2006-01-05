@@ -159,7 +159,7 @@ En effet, Cette solution est très couteuse en terme de bande passante et en term
 <p>Pour pouvoir les regarder, il suffit de suivre la démarche suivante:
 <ul>
 <li>Aller dans Fichier puis Ouvrir un flux réseau</li>
-<li>Dans l'onglet Réseau cocher HTTP/HTTPS/FTP/MMS <li>
+<li>Dans l'onglet Réseau cocher HTTP/HTTPS/FTP/MMS </li>
 <li>Copier-coller l'adresse de la chaine correspondante dans le zone URL</li>
 </ul></p>
 

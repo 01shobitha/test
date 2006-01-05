@@ -166,8 +166,8 @@ En effet, Cette solution est très couteuse en terme de bande passante et en term
 <p>Cette adresse est </p>
 <p>
 <ul>
-<li>138.195.131.60:8880/fr2 pour France2</li>
-<li>138.195.131.60:8880/tf1 pour TF1 </li>
+<li>wifi.videolan.org:8880/fr2 pour France2</li>
+<li>wifi.videolan.org:8880/tf1 pour TF1 </li>
 </ul>
 </p>
 

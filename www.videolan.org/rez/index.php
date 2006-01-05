@@ -149,6 +149,28 @@ fenêtre vidéo, appuie de nouveau sur "f".</p>
 <p>Pour changer de langue ou de sous-titre, fais un clic droit sur
 l'image et sélectionne la langue ou le sous-titre dans les sous menus
 "audio" et "vidéo".</p>
+<h2> Je veux regarder la télévision via le réseau Wifi</h2>
+
+<p>Les tests effectués récemment ont montré que cela est possible pour quelques chaînes afin de ne pas saturer le réseau et ne pas écrouler le serveur qui fait la diffusion. 
+En effet, Cette solution est très couteuse en terme de bande passante et en terme de load du serveur qui diffuse ces chaînes.</p>
+
+<p> Dans un premier temps, deux chaînes sont disponibles qui sont TF1 et France 2. </p>
+
+<p>Pour pouvoir les regarder, il suffit de suivre la démarche suivante:
+<ul>
+<li>Aller dans Fichier puis Ouvrir un flux réseau</li>
+<li>Dans l'onglet Réseau cocher HTTP/HTTPS/FTP/MMS <li>
+<li>Copier-coller l'adresse de la chaine correspondante dans le zone URL</li>
+</ul></p>
+
+<p>Cette adresse est </p>
+<p>
+<ul>
+<li>138.195.131.60:8880/fr2 pour France2</li>
+<li>138.195.131.60:8880/tf1 pour TF1 </li>
+</ul>
+</p>
+
 
 <h2>Je veux donner mon avis</h2>
 <h3>Voter pour une chaîne</h3>

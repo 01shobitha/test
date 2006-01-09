@@ -25,7 +25,7 @@
  <?php
      $path = "/var/www/local/developers.videolan.org/i18n";
      $reffile = "$path/vlc-stats.ref";
-     $lgfile = "$path/langages";
+     $lgfile = "$path/languages";
 
      $file_id= fopen($reffile,"r");
      $contents = fread ($file_id, filesize($reffile) );
@@ -37,11 +37,11 @@
      $contents = fread ($file_id, filesize($lgfile) );
      fclose ($file_id );
      
-     $langages = explode( "\n", $contents );
+     $languages = explode( "\n", $contents );
 
-     for($i=0;$i< count($langages) -1;$i++)
+     for($i=0;$i< count($languages) -1;$i++)
      {
-	list($lg,$po,$a,$b) = explode('|',$langages[$i] );
+	list($lg,$po,$a,$b) = explode('|',$languages[$i] );
 	$names[$po]=$lg;
      }
 

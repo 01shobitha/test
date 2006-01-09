@@ -23,6 +23,10 @@ screenshot( "/vlc/screenshots/0.8.4/vista_screenshot.png",
             "/vlc/screenshots/0.8.4/tm_vista_screenshot.png",
             "wxWidgets",
             "wxMSW Windows Vista Beta1 (1280x1024)" );
+screenshot( "/vlc/screenshots/0.8.4/zeta_R1.1.jpg",
+            "/vlc/screenshots/0.8.4/tm_zeta_R1.1.jpg",
+            "ZetaOS",
+            "ZetaOS R1.1 (1280x1024)" );
 ?>
 <td></td></tr></tbody></table>
 

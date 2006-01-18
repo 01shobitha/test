@@ -39,17 +39,20 @@ and opposition were very aware of the possible impact of this law on
 Free Software, and there was a real debate on the first part of the
 law.<br />
 
-The most important parts (mostly about DRM and Peer-To-Peer) will take
-place in January, so the battle is not over. <strong>It is thus very
-important to keep spreading the word about the dangers of this law.</strong>
-</p>
-
 <p>
 We would like to thank all the people involved in miscellaneous
 information actions, and the MPs that raised concerns concerns about
 this text, thus allowing a general public awareness about these issues.
 </p>
 
+<p>
+The most important parts (mostly about DRM and Peer-To-Peer) will take
+place in February, so the battle is not over. <strong>It is thus very
+important to keep spreading the word about the dangers of this law.</strong>
+</p>
+
+
+<p><strong>Update</strong> (January 18th) : The french Ministry of Culture has started presenting a new text for this Feburary session. Good news ! With the old version, users and developers of VideoLAN could be threatened with 3 years in jail and a 300 000 euros fine. Now, users could only get a small fine (something like 40 euros), and developers would <em>only</em> get one year in jail and a 100 000 euros fine.</p>
 
 <h1> Français, ceci vous concerne directement.</h1>
 
@@ -90,6 +93,16 @@ l'Assemblée Nationale. Au cours de ce débat, de nombreux députés de
 tous partis ont mis en avant les dangers de ce texte, notamment pour le
 Logiciel Libre.<br />
 
+<p>Nous tenons à remercier toutes les personnes participant à
+l'information à propos de DADVSI, notamment l'initiative eucd.info.<br
+/>
+
+Nous remercions également les nombreux députés ayant attiré l'attention
+sur les dangers de ce texte.</p>
+
+
+
+
 La suite du débat, notamment les parties concernant directement         
 les logiciels libres (articles contre le contournement des mesures      
 techniques de protection, pour l'interopérabilité, et sur la            
@@ -98,11 +111,6 @@ partir du 17 Janvier 2006 à l'Assemblée Nationale. <strong>Il importe
 donc de rester mobilisés et de continuer les actions d'information à    
 propos des dangers de ce texte.</strong></p>                            
 
-<p>Nous tenons à remercier toutes les personnes participant à
-l'information à propos de DADVSI, notamment l'initiative eucd.info.<br
-/>
-
-Nous remercions également les nombreux députés ayant attiré l'attention
-sur les dangers de ce texte.</p>
+<p><strong>Mise à jour</strong> (18 janvier) : Le Ministre de la Culture a commencé à présenter son projet de loi amélioré. Il y a des améliorations : alors que dans la première version, tant les utilisateurs que les développeurs pouvaient être reconnus coupables de contrefaçon et condamnés à 300 000 euros d'amende et 3 ans de prison, dans la nouvelle version, les utilisateurs ne s'exposeraient plus qu'à une amende de première classe (38 euros) et les développeurs ne pourraient plus risquer qu'un an de prison et 100 000 euros d'amende.</p>
 
 

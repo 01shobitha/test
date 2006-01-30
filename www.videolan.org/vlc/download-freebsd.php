@@ -17,11 +17,13 @@ So you can simply installl VLC with <i>pkg_add</i>.</p>
 <p>However you will get a very bare bones version of VLC. We advice to compile with the following commad: 
 </p>
 <pre>
-# cd /usr/ports/multimedia/vlc &amp;&amp; make deinstall clean &amp;&amp; make WITH_SKINS=yes WITH_WXWINDOWS=yes \
-              WITHOUT_DTS=no WITH_LAME=yes WITHOUT_VORBIS=no WITH_AALIB=yes WITH_LIBCACA=yes WITHOUT_SDL=no \ 
-              WITH_SVG=yes WITH_SVGALIB=yes WITH_XOSD=yes WITHOUT_TRANSCODE=no WITHOUT_DVD=no \
-              WITHOUT_LIVEMEDIA=no WITH_MOZILLA_PLUGIN=firefox WITH_OPENGL=yes WITH_OPTIMIZED_CFLAGS=yes \
-              WITH_DVD_DEVICE=/dev/acd0 FORCE_PKG_REGISTER=yes reinstall clean
+# cd /usr/ports/multimedia/vlc &amp;&amp; make deinstall clean 
+# make WITH_SKINS=yes WITH_WXWINDOWS=yes \
+       WITHOUT_DTS=no WITH_LAME=yes WITHOUT_VORBIS=no  WITHOUT_SDL=no \ 
+       WITH_SVG=yes WITH_XOSD=yes WITHOUT_TRANSCODE=no WITHOUT_DVD=no \
+       WITHOUT_LIVEMEDIA=no WITH_MOZILLA_PLUGIN=firefox WITH_OPENGL=yes \
+       WITH_OPTIMIZED_CFLAGS=yes WITH_DVD_DEVICE=/dev/acd0 \
+       FORCE_PKG_REGISTER=yes reinstall clean
 </pre>
 
 <h2>Older versions</h2>

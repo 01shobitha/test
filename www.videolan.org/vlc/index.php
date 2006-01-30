@@ -111,7 +111,7 @@ libraries and build them yourself:</p>
       style="vertical-align: middle; border-width: 1px;"
       alt="OpenBSD" width="32" height="32" /></a>&nbsp;OpenBSD
 </td><td>
-   <a href="download-sources.html"><img src="/images/icons/freebsd.gif"
+   <a href="download-freebsd.html"><img src="/images/icons/freebsd.gif"
       style="vertical-align: middle; border-width: 1px;"
       alt="FreeBSD" width="32" height="32" /></a>&nbsp;FreeBSD
 </td>

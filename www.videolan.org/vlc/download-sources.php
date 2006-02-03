@@ -58,7 +58,7 @@
      pkgitem("0.8.4a/contrib","mpeg2dec-20050802.tar.gz","vlc","(MPEG-2 video decoder)");
      pkgitem("0.8.4a/contrib","openslp-1.0.11.tar.gz","vlc","(SLP library)");
      pkgitem("0.8.4a/contrib","pa-v19-20041022.tar.gz","vlc","(Portaudio audiooutput)");
-     pkgitem("0.8.4a/contrib","twolame-0.3.3.gz","vlc","(MP3 audio encoder)");
+     pkgitem("0.8.4a/contrib","twolame-0.3.3.tar.gz","vlc","(MP3 audio encoder)");
      pkgitem("0.8.4a/contrib","vcdimager-0.7.21.tar.gz","vlc","(VCDimager library)");
      pkgitem("0.8.4a/contrib","wxWidgets-2.6.2.tar.gz","vlc","(WxWidgets, a GUI toolkit)");
      pkgitem("0.8.4a/contrib","x264-20051126.tar.bz2","vlc","(AVC/H.264 video encoder)");

@@ -38,7 +38,7 @@
      pkgitem("0.8.4a/contrib","lame-3.96.1.tar.gz","vlc","(MP3 audio encoder)");
      pkgitem("0.8.4a/contrib","libcddb-0.9.6.tar.gz","vlc","(Audio CD CDDB library)");
      pkgitem("0.8.4a/contrib","libcdio-0.72.tar.gz","vlc","(CD,VCD,SVCD,CDDA library)");
-     pkgitem("0.8.4a/contrib","libdvbpsi3-0.1.5.tar.gz","vlc","(MPEG TS and DVB PSI tables library)");
+     pkgitem("0.8.4a/contrib","libdvbpsi4-0.1.5.tar.gz","vlc","(MPEG TS and DVB PSI tables library)");
      pkgitem("0.8.4a/contrib","libdvdcss-1.2.8.tar.bz2","vlc","(DVD decryption library)");
      pkgitem("0.8.4a/contrib","libdvdnav-20050211.tar.bz2","vlc","(DVD menus navigation library)");
      pkgitem("0.8.4a/contrib","libdvdread-20041028.tar.bz2","vlc","(DVD reading library)");

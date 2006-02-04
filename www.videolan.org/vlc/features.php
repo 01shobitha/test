@@ -1472,7 +1472,7 @@ those platforms this library is available.
 [9] CDDB information provided by libcddb via libcdio. Support is
 available on those platforms both of these libraries are
 available. libcddb runs on BeOS although libcdio doesn't. On Microsoft
-Windows, libcddb doesn't compile yet using without POSIX emulation.
+Windows, libcddb doesn't compile yet without POSIX emulation.
 </p>
 
 <?php footer('$Id$'); ?>

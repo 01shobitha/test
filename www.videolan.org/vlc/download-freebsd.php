@@ -9,14 +9,14 @@
 
 <h1> VLC media player for FreeBSD</h1>
 
-<h2>Install VLC trough the Ports Collection</h2>
+<h2>Install VLC through the Ports Collection</h2>
 
 <p>VLC is included in the <a href="http://www.freebsd.org/ports/index.html">Ports Collection</a>  of the <a
-href="http://www.freebsd.org/">Freebsd</a> operating system.
-So you can simply installl VLC with <i>pkg_add</i>.</p>
-<p>However you will get a very bare bones version of VLC. We advice to compile with the following commad: 
+href="http://www.freebsd.org/">FreeBSD</a> operating system.
+So you can simply install VLC with <i>pkg_add</i>.</p>
+<p>However you will get a very bare-bone version of VLC. We recommend you to compile it with the following command: 
 </p>
-<pre>
+<p><pre>
 # cd /usr/ports/multimedia/vlc &amp;&amp; make deinstall clean 
 # make WITH_SKINS=yes WITH_WXWINDOWS=yes \
        WITHOUT_DTS=no WITH_LAME=yes WITHOUT_VORBIS=no  WITHOUT_SDL=no \ 
@@ -24,7 +24,7 @@ So you can simply installl VLC with <i>pkg_add</i>.</p>
        WITHOUT_LIVEMEDIA=no WITH_MOZILLA_PLUGIN=firefox WITH_OPENGL=yes \
        WITH_OPTIMIZED_CFLAGS=yes WITH_DVD_DEVICE=/dev/acd0 \
        FORCE_PKG_REGISTER=yes reinstall clean
-</pre>
+</pre></p>
 
 <h2>Older versions</h2>
 
@@ -33,6 +33,6 @@ So you can simply installl VLC with <i>pkg_add</i>.</p>
 
 <h2>Source code</h2>
 
-<p>If you want, you can download the <a href="download-sources.html">sourcecode</a> of VLC media player.</p>
+<p>If you want, you can download the <a href="download-sources.html">source code</a> of VLC media player.</p>
 
 <?php footer('$Id$'); ?>

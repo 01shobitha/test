@@ -148,7 +148,7 @@ installed in your system. An example command-line is as follows :
 <userinput>vlc -vvv --color --ttl 12  --ts-es-id-pid --programs=8508,8505 dvb: \
 --dvb-frequency=11739000 --dvb-srate=27500000 --dvb-voltage=13 \
 --sout-standard-access=udp --sout-standard-mux=ts --sout \
-'#duplicate{dst=std{url=address1},select="program=8508",dst=std{url=address2},select="program=8505"}'
+'#duplicate{dst=std{dst=address1},select="program=8508",dst=std{dst=address2},select="program=8505"}'
 </userinput></screen>
 
 <para>

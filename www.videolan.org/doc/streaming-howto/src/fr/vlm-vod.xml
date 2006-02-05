@@ -287,16 +287,16 @@ est un dièse # est considérée comme un commentaire, et donc ignorée.</para>
 <sect3><title>Diffusion simple en broadcast</title>
 
 <programlisting>
-new canal1 broadcast enabled
-setup canal1 input http://machine.mondomaine/film.mpeg
-setup canal1 output #standard{mux=ts,access=udp,url=239.255.1.1,sap,name="Canall 1"}
+new channel1 broadcast enabled
+setup channel1 input http://host.mydomain/movie.mpeg
+setup channel1 output #standard{mux=ts,access=udp,dst=239.255.1.1,sap,name="Channel 1"}
 
-new canal2 broadcast enabled
-setup canal2 input udp://@239.255.12.42
-setup canal2 output #standard{mux=ts,access=udp,url=239.255.1.2,sap,name="Canal 2"}
+new channel2 broadcast enabled
+setup channel2 input udp://@239.255.12.42
+setup channel2 output #standard{mux=ts,access=udp,dst=239.255.1.2,sap,name="Channel 2"}
 
-control canal1 play
-control canal2 play
+control channel1 play
+control channel2 play
 </programlisting>
 
 </sect3>
@@ -304,13 +304,13 @@ control canal2 play
 <sect3><title>Diffusion planifiée en broadcast</title>
 
 <programlisting>
-new mon_media broadcast enabled
-setup mon_media input ma_video.mpeg input mon_autre_film.mpeg
-setup mon_media output #standard{mux=ts,access=udp,url=239.255.1.1,sap,name="Mon Média"}
+new my_media broadcast enabled
+setup my_media input my_video.mpeg input my_other_movie.mpeg
+setup my_media output #standard{mux=ts,access=udp,dst=239.255.1.1,sap,name="My Media"}
 
-new mon_prog schedule enabled
-setup mon_prog date 2012/12/12-12:12:12
-setup mon_prog append control mon_media play
+new my_sched schedule enabled
+setup my_sched date 2012/12/12-12:12:12
+setup my_sched append control my_media play
 </programlisting>
 
 </sect3></sect2>

@@ -295,11 +295,11 @@ character is a # is considered as a comment.</para>
 <programlisting>
 new channel1 broadcast enabled
 setup channel1 input http://host.mydomain/movie.mpeg
-setup channel1 output #standard{mux=ts,access=udp,url=239.255.1.1,sap,name="Channel 1"}
+setup channel1 output #standard{mux=ts,access=udp,dst=239.255.1.1,sap,name="Channel 1"}
 
 new channel2 broadcast enabled
 setup channel2 input udp://@239.255.12.42
-setup channel2 output #standard{mux=ts,access=udp,url=239.255.1.2,sap,name="Channel 2"}
+setup channel2 output #standard{mux=ts,access=udp,dst=239.255.1.2,sap,name="Channel 2"}
 
 control channel1 play
 control channel2 play
@@ -312,7 +312,7 @@ control channel2 play
 <programlisting>
 new my_media broadcast enabled
 setup my_media input my_video.mpeg input my_other_movie.mpeg
-setup my_media output #standard{mux=ts,access=udp,url=239.255.1.1,sap,name="My Media"}
+setup my_media output #standard{mux=ts,access=udp,dst=239.255.1.1,sap,name="My Media"}
 
 new my_sched schedule enabled
 setup my_sched date 2012/12/12-12:12:12

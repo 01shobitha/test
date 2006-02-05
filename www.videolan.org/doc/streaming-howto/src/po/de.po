@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-11-13 19:42+0100\n"
+"POT-Creation-Date: 2006-02-05 23:23+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1094,7 +1094,7 @@ msgid ""
 "<userinput>vlc -vvv --color --ttl 12  --ts-es-id-pid --programs=8508,8505 dvb: \\\n"
 "--dvb-frequency=11739000 --dvb-srate=27500000 --dvb-voltage=13 \\\n"
 "--sout-standard-access=udp --sout-standard-mux=ts --sout \\\n"
-"'#duplicate{dst=std{url=address1},select=\"program=8508\",dst=std{url=address2},select=\"program=8505\"}'\n"
+"'#duplicate{dst=std{dst=address1},select=\"program=8508\",dst=std{dst=address2},select=\"program=8505\"}'\n"
 "</userinput>"
 msgstr ""
 
@@ -1409,7 +1409,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128,deinterlace}:\n"
-"standard{access=udp,mux=ts,url=239.255.12.42,sap,name=\"TestStream\"}'</userinput>"
+"standard{access=udp,mux=ts,dst=239.255.12.42,sap,name=\"TestStream\"}'</userinput>"
 msgstr ""
 
 # type: Content of: <chapter><sect1><para>
@@ -1426,7 +1426,7 @@ msgstr ""
 msgid ""
 "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#duplicate{dst=display,dst=\n"
 "\"transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128,deinterlace}:\n"
-"standard{access=udp,mux=ts,url=239.255.12.42,sap,name=\"TestStream\"}\"}'</userinput>"
+"standard{access=udp,mux=ts,dst=239.255.12.42,sap,name=\"TestStream\"}\"}'</userinput>"
 msgstr ""
 
 # type: Content of: <chapter><sect1><para>
@@ -1443,7 +1443,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128,deinterlace}:\n"
-"duplicate{dst=display,dst=standard{access=udp,mux=ts,url=239.255.12.42,sap,name=\"TestStream\"}}'</userinput>"
+"duplicate{dst=display,dst=standard{access=udp,mux=ts,dst=239.255.12.42,sap,name=\"TestStream\"}}'</userinput>"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><title>
@@ -1465,8 +1465,8 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#duplicate{dst=\n"
-"standard{access=udp,mux=ts,url=239.255.12.42,sap,name=\"TestStream\"},\n"
-"dst=standard{access=udp,mux=ts,url=192.168.1.2}}'</userinput>"
+"standard{access=udp,mux=ts,dst=239.255.12.42,sap,name=\"TestStream\"},\n"
+"dst=standard{access=udp,mux=ts,dst=192.168.1.2}}'</userinput>"
 msgstr ""
 
 # type: Content of: <chapter><sect1><para>
@@ -1482,8 +1482,8 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#duplicate{dst=display,dst=\n"
-"standard{access=udp,mux=ts,url=192.168.1.12},\n"
-"dst=standard{access=udp,mux=ts,url=192.168.1.42}}'</userinput>"
+"standard{access=udp,mux=ts,dst=192.168.1.12},\n"
+"dst=standard{access=udp,mux=ts,dst=192.168.1.42}}'</userinput>"
 msgstr ""
 
 # type: Content of: <chapter><sect1><para>
@@ -1497,8 +1497,8 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<prompt>% </prompt><userinput>vlc -vvv multiple_program_input_stream \n"
-"--sout '#duplicate{dst=standard{access=udp,mux=ts,url=239.255.12.42},select=\"program=12345\",\n"
-"dst=standard{access=udp,mux=ts,url=239.255.12.43}, select=\"video,program=1234-2345\"}'</userinput>"
+"--sout '#duplicate{dst=standard{access=udp,mux=ts,dst=239.255.12.42},select=\"program=12345\",\n"
+"dst=standard{access=udp,mux=ts,dst=239.255.12.43}, select=\"video,program=1234-2345\"}'</userinput>"
 msgstr ""
 
 # type: Content of: <chapter><sect1><para>
@@ -1530,8 +1530,8 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128,deinterlace}:\n"
-"duplicate{dst=display,dst=standard{access=udp,mux=ts,url=239.255.12.42,sap,name=\"TestStream\"},\n"
-"dst=standard{access=udp,mux=ts,url=192.168.1.2}}'</userinput>"
+"duplicate{dst=display,dst=standard{access=udp,mux=ts,dst=239.255.12.42,sap,name=\"TestStream\"},\n"
+"dst=standard{access=udp,mux=ts,dst=192.168.1.2}}'</userinput>"
 msgstr ""
 
 # type: Content of: <chapter><sect1><para>
@@ -1548,8 +1548,8 @@ msgstr ""
 msgid ""
 "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#duplicate{dst=display,\n"
 "dst=\"transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128}:\n"
-"duplicate{dst=standard{access=udp,mux=ts,url=192.168.1.2},\n"
-"dst=standard{access=udp,mux=ts,url=192.168.1.12}\"}'</userinput>"
+"duplicate{dst=standard{access=udp,mux=ts,dst=192.168.1.2},\n"
+"dst=standard{access=udp,mux=ts,dst=192.168.1.12}\"}'</userinput>"
 msgstr ""
 
 # type: Content of: <chapter><sect1><para>
@@ -1566,9 +1566,9 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#duplicate{dst=\n"
-"standard{access=udp,mux=ts,url=239.255.1.2,sap,name=\"OriginalStream\"},\n"
+"standard{access=udp,mux=ts,dst=239.255.1.2,sap,name=\"OriginalStream\"},\n"
 "dst=\"transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128}:\n"
-"standard{access=udp,mux=ts,url=239.255.1.3,sap,name=\"TranscodedStream\"}\"}'</userinput>"
+"standard{access=udp,mux=ts,dst=239.255.1.3,sap,name=\"TranscodedStream\"}\"}'</userinput>"
 msgstr ""
 
 # type: Content of: <chapter><sect1><title>
@@ -1592,7 +1592,7 @@ msgstr ""
 # type: Content of: <chapter><sect1><itemizedlist><listitem><screen>
 #: en/examples.xml:145
 #, no-wrap
-msgid "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#standard{access=http,mux=ogg,url=server.example.org:8080}'</userinput>"
+msgid "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#standard{access=http,mux=ogg,dst=server.example.org:8080}'</userinput>"
 msgstr ""
 
 # type: Content of: <chapter><sect1><itemizedlist><listitem><para>
@@ -1618,7 +1618,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128}:\n"
-"standard{access=http,mux=ogg,url=server.example.org:8080}'</userinput>"
+"standard{access=http,mux=ogg,dst=server.example.org:8080}'</userinput>"
 msgstr ""
 
 # type: Content of: <chapter><sect1><para>
@@ -1634,7 +1634,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<prompt>% </prompt><userinput>vlc -vvv cdda:/dev/cdrom --sout '#transcode{acodec=vorb,ab=128}:\n"
-"standard{access=http,mux=ogg,url=server.example.org:8080}'</userinput>"
+"standard{access=http,mux=ogg,dst=server.example.org:8080}'</userinput>"
 msgstr ""
 
 # type: Content of: <chapter><sect1><title>
@@ -1692,7 +1692,7 @@ msgstr ""
 # type: Content of: <chapter><sect1><screen>
 #: en/examples.xml:233
 #, no-wrap
-msgid "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#transcode{vcodec=DIV3,vb=256,scale=1,acodec=mp3,ab=32,channels=2}:std{access=mmsh,mux=asfh,url=:8080}'</userinput>"
+msgid "<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#transcode{vcodec=DIV3,vb=256,scale=1,acodec=mp3,ab=32,channels=2}:std{access=mmsh,mux=asfh,dst=:8080}'</userinput>"
 msgstr ""
 
 # type: Content of: <chapter><sect1><para>
@@ -2396,11 +2396,11 @@ msgstr ""
 msgid ""
 "new channel1 broadcast enabled\n"
 "setup channel1 input http://host.mydomain/movie.mpeg\n"
-"setup channel1 output #standard{mux=ts,access=udp,url=239.255.1.1,sap,name=\"Channel 1\"}\n"
+"setup channel1 output #standard{mux=ts,access=udp,dst=239.255.1.1,sap,name=\"Channel 1\"}\n"
 "\n"
 "new channel2 broadcast enabled\n"
 "setup channel2 input udp://@239.255.12.42\n"
-"setup channel2 output #standard{mux=ts,access=udp,url=239.255.1.2,sap,name=\"Channel 2\"}\n"
+"setup channel2 output #standard{mux=ts,access=udp,dst=239.255.1.2,sap,name=\"Channel 2\"}\n"
 "\n"
 "control channel1 play\n"
 "control channel2 play"
@@ -2418,7 +2418,7 @@ msgstr ""
 msgid ""
 "new my_media broadcast enabled\n"
 "setup my_media input my_video.mpeg input my_other_movie.mpeg\n"
-"setup my_media output #standard{mux=ts,access=udp,url=239.255.1.1,sap,name=\"My Media\"}\n"
+"setup my_media output #standard{mux=ts,access=udp,dst=239.255.1.1,sap,name=\"My Media\"}\n"
 "\n"
 "new my_sched schedule enabled\n"
 "setup my_sched date 2012/12/12-12:12:12\n"
@@ -3166,7 +3166,7 @@ msgstr ""
 # type: Content of: <chapter><sect1><screen>
 #: en/cmdline.xml:80
 #, no-wrap
-msgid "<prompt>% </prompt><userinput>vlc input_stream --sout \"#module1{option1=parameter1{parameter-option1},option2=parameter2}:#module2{option1=...,option2=...}:...\"</userinput>"
+msgid "<prompt>% </prompt><userinput>vlc input_stream --sout \"#module1{option1=parameter1{parameter-option1},option2=parameter2}:module2{option1=...,option2=...}:...\"</userinput>"
 msgstr ""
 
 # type: Content of: <chapter><sect1><note><para>
@@ -3529,9 +3529,9 @@ msgid ""
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
-#: en/cmdline.xml:259 en/cmdline.xml:477
+#: en/cmdline.xml:259 en/cmdline.xml:379 en/cmdline.xml:586 en/cmdline.xml:914
 #, no-wrap
-msgid "url="
+msgid "dst="
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
@@ -3546,7 +3546,7 @@ msgstr ""
 #: en/cmdline.xml:264
 #, no-wrap
 msgid ""
-"Here is the meaning of the <emphasis>url</emphasis> option\n"
+"Here is the meaning of the <emphasis>dst</emphasis> option\n"
 "depending on the parameter used for the <emphasis>access</emphasis>\n"
 "option."
 msgstr ""
@@ -3555,7 +3555,7 @@ msgstr ""
 #: en/cmdline.xml:269
 #, no-wrap
 msgid ""
-"If the <emphasis>file</emphasis> output method is used, url is\n"
+"If the <emphasis>file</emphasis> output method is used, dst is\n"
 "the complete path where the file should be saved."
 msgstr ""
 
@@ -3564,7 +3564,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "If the <emphasis>udp</emphasis> or <emphasis>rtp</emphasis>\n"
-"output method is used, url is the unicast or multicast\n"
+"output method is used, dst is the unicast or multicast\n"
 "destination address and, optionally, UDP port, in the form\n"
 "<emphasis>address:port</emphasis>."
 msgstr ""
@@ -3575,7 +3575,7 @@ msgstr ""
 msgid ""
 "If the <emphasis>http</emphasis>,\n"
 "<emphasis>https</emphasis> or <emphasis>mmsh</emphasis> output method is\n"
-"chosen, url is the address, port and path of the local network interface\n"
+"chosen, dst is the address, port and path of the local network interface\n"
 "on which the server should listen for requests. If no address is given,\n"
 "VLC will listen on all the network interfaces. These information\n"
 "have to be supplied using the <emphasis>address:port/path</emphasis>\n"
@@ -3766,12 +3766,6 @@ msgstr ""
 msgid "The different available options are:"
 msgstr ""
 
-# type: Content of: <chapter><sect1><sect2><sect3><title>
-#: en/cmdline.xml:379 en/cmdline.xml:586 en/cmdline.xml:914
-#, no-wrap
-msgid "dst="
-msgstr ""
-
 # type: Content of: <chapter><sect1><sect2><sect3><para>
 #: en/cmdline.xml:381
 #, no-wrap
@@ -3932,6 +3926,12 @@ msgstr ""
 msgid ""
 "This option can be used to give an additional description of the\n"
 "stream."
+msgstr ""
+
+# type: Content of: <chapter><sect1><sect2><sect3><title>
+#: en/cmdline.xml:477
+#, no-wrap
+msgid "url="
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><para>
@@ -5530,7 +5530,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "<prompt>% </prompt><userinput>vlc -vvv --color v4l:/dev/video:norm=secam:frequency=543250:size=640x480:channel=0:adev=/dev/dsp:audio=0\n"
-"--sout '#transcode{vcodec=mp4v,acodec=mpga,vb=3000,ab=256,venc=ffmpeg{keyint=80,hurry-up,vt=800000},deinterlace}:std{access=udp,mux=ts,url=239.255.12.13}' --ttl 12</userinput>"
+"--sout '#transcode{vcodec=mp4v,acodec=mpga,vb=3000,ab=256,venc=ffmpeg{keyint=80,hurry-up,vt=800000},deinterlace}:std{access=udp,mux=ts,dst=239.255.12.13}' --ttl 12</userinput>"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><sect3><note><para>
@@ -5703,7 +5703,7 @@ msgstr ""
 # type: Content of: <chapter><sect1><sect2><para><screen>
 #: en/encoding-cards.xml:397
 #, no-wrap
-msgid "<prompt>% </prompt><userinput>C:\\Program Files\\VideoLAN\\VLC\\vlc.exe -vvv -I rc --ttl 12 dshow:// vdev=\"VGA USB Camera\" adev=\"USB Camera\" size=\"640x480\" --sout=#std{mux=ts,access=udp,url=239.255.42.12}</userinput>"
+msgid "<prompt>% </prompt><userinput>C:\\Program Files\\VideoLAN\\VLC\\vlc.exe -vvv -I rc --ttl 12 dshow:// vdev=\"VGA USB Camera\" adev=\"USB Camera\" size=\"640x480\" --sout=#std{mux=ts,access=udp,dst=239.255.42.12}</userinput>"
 msgstr ""
 
 # type: Content of: <chapter><sect1><sect2><note><para>

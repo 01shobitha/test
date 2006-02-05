@@ -223,7 +223,7 @@ Vous devez ajouter <command>--enable-v4l</command> a votre <command>./configure<
 <screen>
 
 <prompt>% </prompt><userinput>vlc -vvv --color v4l:/dev/video:norm=secam:frequency=543250:size=640x480:channel=0:adev=/dev/dsp:audio=0
---sout '#transcode{vcodec=mp4v,acodec=mpga,vb=3000,ab=256,venc=ffmpeg{keyint=80,hurry-up,vt=800000},deinterlace}:std{access=udp,mux=ts,url=239.255.12.13}' --ttl 12</userinput>
+--sout '#transcode{vcodec=mp4v,acodec=mpga,vb=3000,ab=256,venc=ffmpeg{keyint=80,hurry-up,vt=800000},deinterlace}:std{access=udp,mux=ts,dst=239.255.12.13}' --ttl 12</userinput>
 </screen>
 
 <note><para>You can find all transcode options on this page : <xref linkend="cmdline" endterm="tcmdline" /> .</para></note>
@@ -328,7 +328,7 @@ signifie que le flux peut traverser 11 routeurs maximum).</para></listitem>
 <para>Vous devez installer votre périphérique sous Windows avec les pilotes appropriés. Rien d'autre n'est nécessaire.</para>
 </sect2>
 <sect2><title>Diffuser avec VLC an ligne de commande</title>
-<para><screen><prompt>% </prompt><userinput>C:\Program Files\VideoLAN\VLC\vlc.exe -vvv -I rc --ttl 12 dshow:// vdev="VGA USB Camera" adev="USB Camera" size="640x480" --sout=#std{mux=ts,access=udp,url=239.255.42.12}</userinput></screen></para>
+<para><screen><prompt>% </prompt><userinput>C:\Program Files\VideoLAN\VLC\vlc.exe -vvv -I rc --ttl 12 dshow:// vdev="VGA USB Camera" adev="USB Camera" size="640x480" --sout=#std{mux=ts,access=udp,dst=239.255.42.12}</userinput></screen></para>
 <note>
 <para>Vous devez préciser le chemin complet vers VLC ou éxecuter la commande depuis le bon répertoire.</para>
 </note>

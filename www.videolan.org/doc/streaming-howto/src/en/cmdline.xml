@@ -256,27 +256,27 @@ muxer.</para></listitem>
 </itemizedlist>
 </sect3>
 
-<sect3><title>url=</title>
+<sect3><title>dst=</title>
 
 <para>This option allows to give informations about the location
 where the stream should actually be saved or sent.</para>
 
-<para>Here is the meaning of the <emphasis>url</emphasis> option
+<para>Here is the meaning of the <emphasis>dst</emphasis> option
 depending on the parameter used for the <emphasis>access</emphasis>
 option.</para>
 
 <itemizedlist>
-<listitem><para>If the <emphasis>file</emphasis> output method is used, url is
+<listitem><para>If the <emphasis>file</emphasis> output method is used, dst is
 the complete path where the file should be saved.</para></listitem>
 
 <listitem><para>If the <emphasis>udp</emphasis> or <emphasis>rtp</emphasis>
-output method is used, url is the unicast or multicast
+output method is used, dst is the unicast or multicast
 destination address and, optionally, UDP port, in the form
 <emphasis>address:port</emphasis>.</para></listitem>
 
 <listitem><para>If the <emphasis>http</emphasis>,
 <emphasis>https</emphasis> or <emphasis>mmsh</emphasis> output method is
-chosen, url is the address, port and path of the local network interface
+chosen, dst is the address, port and path of the local network interface
 on which the server should listen for requests. If no address is given,
 VLC will listen on all the network interfaces. These information
 have to be supplied using the <emphasis>address:port/path</emphasis>

@@ -13,7 +13,7 @@ Transcoder le flux d'entrée et l'envoier vers une adresse multicast avec l'anno
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128,deinterlace}:
-standard{access=udp,mux=ts,url=239.255.12.42,sap,name="TestStream"}'</userinput>
+standard{access=udp,mux=ts,dst=239.255.12.42,sap,name="TestStream"}'</userinput>
 </screen>
 
 <para>
@@ -23,7 +23,7 @@ standard{access=udp,mux=ts,url=239.255.12.42,sap,name="TestStream"}'</userinput>
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#duplicate{dst=display,dst=
 "transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128,deinterlace}:
-standard{access=udp,mux=ts,url=239.255.12.42,sap,name="TestStream"}"}'</userinput>
+standard{access=udp,mux=ts,dst=239.255.12.42,sap,name="TestStream"}"}'</userinput>
 </screen>
 
 <para>
@@ -32,7 +32,7 @@ Transcoder, afficher le flux transcodé et l'envoyer vers une adresse multicast 
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128,deinterlace}:
-duplicate{dst=display,dst=standard{access=udp,mux=ts,url=239.255.12.42,sap,name="TestStream"}}'</userinput>
+duplicate{dst=display,dst=standard{access=udp,mux=ts,dst=239.255.12.42,sap,name="TestStream"}}'</userinput>
 </screen>
 
 </sect1>
@@ -47,8 +47,8 @@ Envoyer le flux vers une adresses IP multicast et une adresse IP unicast:
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#duplicate{dst=
-standard{access=udp,mux=ts,url=239.255.12.42,sap,name="TestStream"},
-dst=standard{access=udp,mux=ts,url=192.168.1.2}}'</userinput>
+standard{access=udp,mux=ts,dst=239.255.12.42,sap,name="TestStream"},
+dst=standard{access=udp,mux=ts,dst=192.168.1.2}}'</userinput>
 </screen>
 
 <para>
@@ -57,8 +57,8 @@ Afficher le flux et l'envoyer vers deux adresses IP unicast:
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#duplicate{dst=display,dst=
-standard{access=udp,mux=ts,url=192.168.1.12},
-dst=standard{access=udp,mux=ts,url=192.168.1.42}}'</userinput>
+standard{access=udp,mux=ts,dst=192.168.1.12},
+dst=standard{access=udp,mux=ts,dst=192.168.1.42}}'</userinput>
 </screen>
 
 <para>Envoyer des parties d'un flux d'entrée multiple:
@@ -66,8 +66,8 @@ dst=standard{access=udp,mux=ts,url=192.168.1.42}}'</userinput>
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv multiple_program_input_stream 
---sout '#duplicate{dst=standard{access=udp,mux=ts,url=239.255.12.42},select="program=12345",
-dst=standard{access=udp,mux=ts,url=239.255.12.43}, select="video,program=1234-2345"}'</userinput>
+--sout '#duplicate{dst=standard{access=udp,mux=ts,dst=239.255.12.42},select="program=12345",
+dst=standard{access=udp,mux=ts,dst=239.255.12.43}, select="video,program=1234-2345"}'</userinput>
 </screen>
 
 <para>Cette commande envoie le programme du flux d'entrée dont le numéro est 12345 vers l'adresses 239.255.12.42 et tous les programmes dont le numeros est compris entre 1234 et 2345 vers l'adresse 239.255.12.43.</para>
@@ -85,8 +85,8 @@ Transcoder le flux d'entrée, afficher le flux transcodé et l'envoyer vers une 
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128,deinterlace}:
-duplicate{dst=display,dst=standard{access=udp,mux=ts,url=239.255.12.42,sap,name="TestStream"},
-dst=standard{access=udp,mux=ts,url=192.168.1.2}}'</userinput>
+duplicate{dst=display,dst=standard{access=udp,mux=ts,dst=239.255.12.42,sap,name="TestStream"},
+dst=standard{access=udp,mux=ts,dst=192.168.1.2}}'</userinput>
 </screen>
 
 <para>
@@ -96,8 +96,8 @@ Afficher le flux d'entrée, le transcoder et l'envoyer vers deux adresses IP uni
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#duplicate{dst=display,
 dst="transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128}:
-duplicate{dst=standard{access=udp,mux=ts,url=192.168.1.2},
-dst=standard{access=udp,mux=ts,url=192.168.1.12}"}'</userinput>
+duplicate{dst=standard{access=udp,mux=ts,dst=192.168.1.2},
+dst=standard{access=udp,mux=ts,dst=192.168.1.12}"}'</userinput>
 </screen>
 
 <para>
@@ -106,9 +106,9 @@ Envoyer le flux d'entrée vers une adresses IP multiicast, et le flux trancodée
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#duplicate{dst=
-standard{access=udp,mux=ts,url=239.255.1.2,sap,name="OriginalStream"},
+standard{access=udp,mux=ts,dst=239.255.1.2,sap,name="OriginalStream"},
 dst="transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128}:
-standard{access=udp,mux=ts,url=239.255.1.3,sap,name="TranscodedStream"}"}'</userinput>
+standard{access=udp,mux=ts,dst=239.255.1.3,sap,name="TranscodedStream"}"}'</userinput>
 </screen>
 
 </sect1>
@@ -128,7 +128,7 @@ Sur le serveur, lancer
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#standard{access=http,mux=ogg,url=server.example.org:8080}'</userinput>
+<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#standard{access=http,mux=ogg,dst=server.example.org:8080}'</userinput>
 </screen>
 
 </listitem>
@@ -151,7 +151,7 @@ Transcoder et diffuser en HTTP:
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#transcode{vcodec=mp4v,acodec=mpga,vb=800,ab=128}:
-standard{access=http,mux=ogg,url=server.example.org:8080}'</userinput>
+standard{access=http,mux=ogg,dst=server.example.org:8080}'</userinput>
 </screen>
 
 <para>
@@ -160,7 +160,7 @@ Par exemple, si vous voulez diffuser un CD audio en Ogg/Vorbis par HTTP:
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv cdda:/dev/cdrom --sout '#transcode{acodec=vorb,ab=128}:
-standard{access=http,mux=ogg,url=server.example.org:8080}'</userinput>
+standard{access=http,mux=ogg,dst=server.example.org:8080}'</userinput>
 </screen>
 
 </sect1>
@@ -215,7 +215,7 @@ the sdp file using one of these methods instead of rtsp.</para></note>
 </title>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#transcode{vcodec=DIV3,vb=256,scale=1,acodec=mp3,ab=32,channels=2}:std{access=mmsh,mux=asfh,url=:8080}'</userinput>
+<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#transcode{vcodec=DIV3,vb=256,scale=1,acodec=mp3,ab=32,channels=2}:std{access=mmsh,mux=asfh,dst=:8080}'</userinput>
 </screen>
 
 <para>VLC media player peut s'y connecter en utilisant l'URL suivante mmsh://server_ip_address:8080 .</para>

@@ -69,7 +69,7 @@ devez employer :
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc flux_d'entrée --sout "#module1{option1=paramètre1{option-du-paramètre1},option2=paramètre2}:#module2{option1=...,option2=...}:..."</userinput>
+<prompt>% </prompt><userinput>vlc input_stream --sout "#module1{option1=parameter1{parameter-option1},option2=parameter2}:module2{option1=...,option2=...}:..."</userinput>
 </screen>
 
 <note><para>Certaines des options des modules sont requises (option1 dans cet exemple),
@@ -245,28 +245,31 @@ piste audio.</para> <para>Aucune option n'est disponible pour ce muxer.</para></
 </itemizedlist>
 </sect3>
 
-<sect3><title>url=</title>
+<sect3><title>dst=</title>
 
 <para>Cette option permet de donner les informations sur l'emplacement où le flux
 doit être enregistré ou envoyé.</para>
 
-<para>Le sens de l'option <emphasis>url</emphasis> dépend du paramètre utilisé à
-l'option <emphasis>access</emphasis>.</para>
+<para>Here is the meaning of the <emphasis>dst</emphasis> option
+depending on the parameter used for the <emphasis>access</emphasis>
+option.</para>
 
 <itemizedlist>
-<listitem><para>Si la méthode de sortie est <emphasis>file</emphasis>, url est le chemin
-complet où le fichier doit être enregistré.</para></listitem>
+<listitem><para>If the <emphasis>file</emphasis> output method is used, dst is
+the complete path where the file should be saved.</para></listitem>
 
-<listitem><para>Si la méthode de sortie est <emphasis>udp</emphasis> ou <emphasis>rtp
-</emphasis>, url est l'adresse unicast ou multicast de destination, et
-éventuellement le port UDP, dans la forme <emphasis>adresse:port</emphasis>.</para></listitem>
+<listitem><para>If the <emphasis>udp</emphasis> or <emphasis>rtp</emphasis>
+output method is used, dst is the unicast or multicast
+destination address and, optionally, UDP port, in the form
+<emphasis>address:port</emphasis>.</para></listitem>
 
-<listitem><para>Si la méthode de sortie est <emphasis>http</emphasis>, <emphasis>https
-</emphasis> ou <emphasis>mmsh</emphasis>, url est l'adresse, le port, et le
-chemin réseau local sur lequel le server doit attendre des requètes. Si
-aucune adresse est donnée, VLC écoutera sur toutes les interfaces réseau.
-Cette information doit être de la forme <emphasis>adresse:port/chemin
-</emphasis>.</para></listitem>
+<listitem><para>If the <emphasis>http</emphasis>,
+<emphasis>https</emphasis> or <emphasis>mmsh</emphasis> output method is
+chosen, dst is the address, port and path of the local network interface
+on which the server should listen for requests. If no address is given,
+VLC will listen on all the network interfaces. These information
+have to be supplied using the <emphasis>address:port/path</emphasis>
+syntax.</para></listitem>
 
 </itemizedlist>
 

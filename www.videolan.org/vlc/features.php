@@ -289,12 +289,12 @@
 
 <tr>
 <td class="type">DTS Wav</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
+<td class="yes">No longer</td>
+<td class="yes">No longer</td>
+<td class="yes">No longer</td>
+<td class="yes">No longer</td>
+<td class="yes">No longer</td>
+<td class="yes">No longer</td>
 </tr>
 
 <tr>

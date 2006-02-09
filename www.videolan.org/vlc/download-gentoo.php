@@ -9,7 +9,7 @@
 
 <h1> VLC media player for Gentoo Linux</h1>
 
-<h2>Install VLC trough emerge</h2>
+<h2>Install VLC through emerge</h2>
 
 <p>VLC is included in the <a href="http://www.gentoo.org/doc/en/portage-user.xml">Portage</a> package system of the <a
 href="http://www.gentoo.org/">Gentoo Linux</a> distribution.

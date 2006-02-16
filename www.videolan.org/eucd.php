@@ -6,6 +6,8 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 
+<p>(English, French and German version available)</p>
+
 <h1>What is DADVSI ?</h1>
 
 <p>The DADVSI (roughly "Author Rights and other Rights in the
@@ -113,4 +115,55 @@ propos des dangers de ce texte.</strong></p>
 
 <p><strong>Mise à jour</strong> (18 janvier) : Le Ministre de la Culture a commencé à présenter son projet de loi amélioré. Il y a des améliorations : alors que dans la première version, tant les utilisateurs que les développeurs pouvaient être reconnus coupables de contrefaçon et condamnés à 300 000 euros d'amende et 3 ans de prison, dans la nouvelle version, les utilisateurs ne s'exposeraient plus qu'à une amende de première classe (38 euros) et les développeurs ne pourraient plus risquer qu'un an de prison et 100 000 euros d'amende.</p>
 
+<h1>Was ist DADVSI?</h1>
 
+  <p>Die DADVSI (grob &uuml;bersetzt "Authoren Rechte und andere Rechte in
+  der Informationsgesellschaft") ist die franz&ouml;sische Umschrift des
+  europ&auml;ischen EUCD (European Union Copyright Directive) Textes,
+  welcher sich von dem amerikanischen DMCA (Digital Millenium Copyright
+  Act) ableitet.<br />
+  Das Hauptziel dieses Gesetzes ist es die Rechte der K&auml;ufer
+  digitalen Inhalts einzuschr&auml;nken. Am wichtigsten ist das Verbot der
+  Umgehung von technischen Schutzmechanismen.<br />
+
+  Eine solche Umgehung zu begehen, die Entwicklung und Publikation von
+  Software welche das tut, oder sogar nur zu besprechen, w&uuml;rden damit
+  ein Delikt, welches mit bis zu drei Jahren Gef&auml;ngnis bestraft
+  werden k&ouml;nnte.<p>
+
+<p><strong>VideoLAN ist davon direkt betroffen, insbesondere wegen der
+  F&auml;higkeit, DVD's zu lesen (und alle Linux DVD-reader haben das
+  gleiche Problem). Sollte dieses Gesetz in seiner Form zugelassen werden,
+  w&uuml;rde das die Entwicklung von VLC betr&auml;chtlich
+  behindern.</strong></p>
+
+  <p>Die franz&ouml;sische Webseite <a href="http://eucd.info" title="
+  <http://eucd.info/index.php?English-readers>EUCD.INFO : sauvons le droit
+  d\'auteur !" >eucd.info</a> sammelt eine betr&auml;chtliche Menge an Informationen und
+  Dokumentation und hat eine englischsprachige Sektion.</p>
+
+  <p>Die Diskussion um dieses Gesetz hat in der franz&ouml;sischen
+  Nationalversammlung begonnen.<br />
+  Ein Punkt ist, dass viele Abgeordnete, sowohl von Regierung als auch von
+  der Opposition, sich den m&ouml;glichen Folgen dieses Gesetzes auf die
+  freie Software hat und es ergab sich eine richtige Debatte um den ersten
+  Teil des Gesetzes.</p>
+
+  <p>Wir m&ouml;chten sowohl allen danken, welche sich bei verschiedenen
+  Informationsveranstaltungen beteiligt haben, als auch den Abgeordneten,
+  welche ihre Bedenken zu diesem Text ge&auml;u&szlig;ert haben und somit
+  der breiten Bev&ouml;lkerung ein Bewusstsein der Lage vermitteln
+  konnten.</p>
+
+  <p>Die wichtigsten Teil des Gesetzes werden im Februar verhandelt
+  werden, somit ist die Schlacht noch nicht geschlagen. <strong>Es ist
+  deshalb sehr wichtig, die Kunde &uuml;ber die Gefahren eines solchen
+  Gesetzes zu verbreiten.</strong></p>
+
+  <p><strong>Update</strong> (18ter Januar): Das franz&ouml;sische
+  Kulturministerium hat begonnen einen neuen Text f&uuml;r den Februar
+  vorzuschlagen. TOLL! Vorher konnten Benutzer und Entwickler von VideoLan
+  (und anderer Linux Software) mit 3 Jahren Gef&auml;ngnis und 300 000
+  Euro Strafe rechnen. Nun w&uuml;rden Benutzer nur etwa 38 Euro Strafe
+  zahlen und die Entwickler m&uuml;ssen <em>nur</em> ein Jahr in den Knast
+  und zahlen 100 000 Euro Strafe.</p>

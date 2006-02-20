@@ -30,7 +30,7 @@ integration of high quality video streaming solutions.</td>
 <tr>
 <td>
   <a href="http://www.m2x.nl/">
-  <img src="/images/m2x.png" alt="M2X" width="200" height="57" />
+  <img src="/images/m2x.png" alt="M2X" width="224" height="103" />
   </a>
 </td>
 <td>M2X is an ICT company that is specialized in using Open Source software for providing solutions to IT problem areas of Networking (wired or wireless), Embedded and Multimedia. The founder of the company is a VideoLAN developer Jean-Paul Saman (see the <a href="/team/">VideoLAN team page</a> for more information on his contributions).</td>

@@ -4023,7 +4023,8 @@ msgstr ""
 "<emphasis>autor=&lt;auteur&gt;</emphasis>,\n"
 "<emphasis>copyright=&lt;message de copyright&gt;</emphasis>,\n"
 "<emphasis>comment=&lt;commentaires&gt;</emphasis>,\n"
-"<emphasis>rating=&lt;rating&gt;</emphasis> allow you to set what will be displayed in the according field of the stream comments."
+"<emphasis>rating=&lt;rating&gt;</emphasis> vous permet de fixer ce qui sera affiché dans \n"
+"les champs correspondants des commentaires du flux."
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:236

@@ -4773,7 +4773,7 @@ msgid ""
 "This option can be used instead of both\n"
 "<emphasis>dst-video</emphasis> and <emphasis>dst-audio</emphasis>\n"
 "options, when they share the same setting."
-msgstr "Cette option peut être utilisée àla place d'àla fois <emphasis>dst-video</emphasis> et <emphasis>dst-audio</emphasis>, quand elles partagent les mêmes réglages."
+msgstr "Cette option peut être utilisée à la place d'à la fois <emphasis>dst-video</emphasis> et <emphasis>dst-audio</emphasis>, quand elles partagent les mêmes réglages."
 
 # type: Content of: <chapter><sect1><sect2><title>
 #: en/cmdline.xml:596
@@ -4848,7 +4848,7 @@ msgstr "venc="
 #: en/cmdline.xml:630
 #, no-wrap
 msgid "This allows to set the encoder to use to encode the videos stream. Available options are:"
-msgstr "Ceci permet de régler l'encodeur àutiliser pour encoder les vidéos. Les options disponibles sont :"
+msgstr "Ceci permet de régler l'encodeur à utiliser pour encoder les vidéos. Les options disponibles sont :"
 
 # type: Content of: <chapter><sect1><sect2><sect3><itemizedlist><listitem><para>
 #: en/cmdline.xml:633 en/cmdline.xml:801
@@ -4965,7 +4965,7 @@ msgid ""
 "This options allows to set the framerate of the transcoded\n"
 "video, in frame per second. reducing the framerate of a video can help\n"
 "decreasing its bitrate."
-msgstr "Cette option permet de régler le framerate d'une vidéo transcodée, en images par seconde, réduire le framerate d'une vidéo peut aider àdiminuer son débit."
+msgstr "Cette option permet de régler le framerate d'une vidéo transcodée, en images par seconde, réduire le framerate d'une vidéo peut aider à diminuer son débit."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:718

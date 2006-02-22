@@ -285,8 +285,8 @@ un fichier:
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#es{access_video=udp,mux_video=ts,url_video=239.255.12.42,
-access_audio=file,mux_audio=ps,url_audio=audio-%c.%m}'</userinput>
+<prompt>% </prompt><userinput>vlc -vvv input_stream --sout '#es{access-video=udp,mux-video=ts,dst-video=239.255.12.42,
+access-audio=file,mux-audio=ps,dst-audio=audio-%c.%m}'</userinput>
 </screen>
 
 <note><para>

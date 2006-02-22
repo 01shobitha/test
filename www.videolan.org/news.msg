@@ -1,6 +1,11 @@
-# Les commentaires commencent par un # en premier position 
-# Et les nouveaux topics par un "|" (Attention donc au découpage!!
+# Comments begin with a #
+# New topics begin with a "|"
 #
+
+|25-26 Feb 2006| VideoLAN at FOSDEM | The VideoLAN team will have a
+booth at <a href="http://www.fosdem.org/2006">FOSDEM</a> in Brussels. If
+you have some time to spare, drop by and we'll be happy to welcome you
+on our booth.
 
 |13 December 2005| Bugfix release: VLC media player 0.8.4a| This minor
 update to VLC 0.8.4 fixes a few annoying bugs. OSX S/PDIF has been fixed

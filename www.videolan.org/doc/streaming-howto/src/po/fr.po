@@ -4800,7 +4800,7 @@ msgid ""
 "a consequence, streaming of a real time transcoded stream can lead to\n"
 "dropped frames or a jerky image and sound in some cases, when running\n"
 "out of resources."
-msgstr "Selon le débit original du flux et les options choisies, transcoder peut être une tache très intensive pour le processeur. En conséquence, la diffusion du flux transcodé en temps réel peut mener àdes pertes de frame ou une mauvaise image dans certains cas, quand il manque des ressources."
+msgstr "Selon le débit original du flux et les options choisies, transcoder peut être une tache très intensive pour le processeur. En conséquence, la diffusion du flux transcodé en temps réel peut mener à des pertes de frame ou une mauvaise image dans certains cas, quand il manque des ressources."
 
 # type: Content of: <chapter><sect1><sect2><sect3><title>
 #: en/cmdline.xml:611

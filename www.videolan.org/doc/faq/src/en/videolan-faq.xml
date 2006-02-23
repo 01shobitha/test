@@ -8,7 +8,7 @@
 <title>VideoLAN FAQ</title>
 
 <copyright>
-<year>2002 - 2004</year>
+<year>2002 - 2006</year>
 <holder>
 the VideoLAN project
 </holder>
@@ -307,6 +307,10 @@ If you are convinced that
 it is a bug in VLC, have a look at the <ulink
 url="http://www.videolan.org/support/bug-reporting.html">bug reporting
 page</ulink>.
+</para>
+
+<para>
+On Debian Sarge, if it segfaults on TS or V4L, try removing <filename>/usr/lib/vlc/demux/libty_plugin.so</filename>.
 </para>
 
 </answer></qandaentry>

@@ -90,7 +90,7 @@ and licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/"
 >this Creative Commons License</a>.
 </p>
 
-<p>An other banner made by Gen</p>
+<p>Another banner made by Gen:</p>
 <p><a href="/vlc/index.html"><img width="80" height="15"
       src="/images/getvlc.png"
       style="vertical-align: middle; border-width: 0px;"
@@ -98,7 +98,7 @@ and licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/"
 </p>
 
 
-<p>An older banner</p>
+<p>An older banner:</p>
 <p><a href="/vlc/index.html"><img width="100" height="32"
       src="/images/getvlcnow.png"
       style="vertical-align: middle; border-width: 0px;"
@@ -108,7 +108,7 @@ and licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/"
 
 <h2>Background images</h2>
 
-<p>All videolan background images can now be downloaded in one RPM package. The (relocateble) package has been built by <a href="http://home.wxs.nl/~jpsaman">Jean-Paul Saman</a> on RH 9.0, but should also be useable on SuSE, Mandrake and other RedHat systems. <p>
+<p>All videolan background images can now be downloaded in one RPM package. The (relocatable) package has been built by <a href="http://home.wxs.nl/~jpsaman">Jean-Paul Saman</a> on RH 9.0, but should also be useable on SuSE, Mandrake and other RedHat systems. <p>
 <p>To install the package:</br>
 <ul>
 <li>Use "rpm ivh --prefix=&lt;newpath&gt; videolan-backgrounds-base-2-1.noarch.rpm" to relocated the installed images to a new location on e.g: SuSE systems.
@@ -246,6 +246,31 @@ and licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/"
 
 <td>
 <a href="/images/videolan-wikingsoft2.png">Image 1024x768</a> (56 kB)
+</td>
+
+</tr>
+
+</table>
+
+
+<p>This background image was made by <a href="mailto:asim@xtremestuff.net">Asim Siddiqui</a>:</p>
+
+<table border="0">
+
+<tr>
+
+<td>
+  <img src="/images/tn_videolan_org.png" alt="Background" width="250" height="187" />
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+<a href="/images/videolan_org_1024x768.png">Image 1024x768</a> (15 kB)<br />
+<a href="/images/videolan_org_1280x960.png">Image 1280x960</a> (19 kB)<br />
+<a href="/images/videolan_org_1600x1200.png">Image 1600x1200</a> (26 kB)
 </td>
 
 </tr>

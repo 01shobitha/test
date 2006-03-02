@@ -110,11 +110,11 @@ graphics software might ease the job, though :-)</p>
    "vplayer.vlt" );
 ?>
 
-<h2>Media Player</h2>
+<h2>MediaPlayer</h2>
 <?php AddSkin(
    "MediaPlayer.png",
-   "Skin made by Asim",
-   "MediaPlayer.zip" );
+   "Skin made by Asim Siddiqui",
+   "MediaPlayer.vlt" );
 ?>
 
 <h2>PsVLC</h2>

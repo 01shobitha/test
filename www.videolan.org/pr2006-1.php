@@ -16,7 +16,7 @@ and decryption open-source libraries, and IP network streaming tools.
 </p>
 <p>
 Ever since its inception in 1996 by visionary students, the project has
-been hosted on the campus of the &Eacute;cole Centrale Paris,
+been hosted on the campus of the &Eacute;cole Centrale Paris (ECP),
 a famous French engineering university (&quot;Grande &Eacute;cole&quot;).
 The project eventually went open-source in early 2001.
 From then on, contributors from all over the world started contributing,
@@ -25,28 +25,35 @@ and VLC was ported to Windows within about 3 months.
 <p>
 As VLC popularity rose, so did the bandwidth usage of our main web server.
 We did upgrade our web server since then (thanks to HP and IBM), and the
-campus network connection from 10 to 100&nbsp;Mbps.
+campus network connection from 10 to 100&nbsp;Mbps... not enough yet.
+</p>
+<p>Little did we expect, the request for bandwidth usage
+<strong>reduction</strong>! It turns out being the host of a big <a
+href="http://www.gnu.org/copyleft/gpl.html">free software</a> project is
+cool, so long as you get the fame, and you have nothing to care about.
 </p>
 <p>
-Unfortunately, while the hardware is now fairly sufficient, the network
-bandwidth turned out to be insufficient, and keeps being saturated within
-the days following a new release of our masterpiece.
+Given that none of the currently active developers remain involved in
+the ECP campus network association, and the obvious lack of interest in
+continued support of the VideoLAN project infrastructure from the ECP,
+we had no alternative but to put an end to 10&nbsp;years of shared
+history.
 </p>
-<p>We hoped that with a 3&nbsp;gigabits/s (and possibly times more) capable
-backbone, and recently upgraded gigabit connection between the campus and
-the university would ultimately put an end to these issues...
-<br />
-We were obviously too gullible.
-
+<p>
+In the perceived interest of our users and contributors, we have hence
+decided to leave our historical <em>home</em>. As of now, our main
+server will be hosted by French ISP Free S.A.S. which we thank a lot for
+its generous offer and its precious help.
+</p>
 <p>
 R&eacute;mi Denis-Courmont,<br/>
-Public Relations, the VideoLAN project<br/>
+VideoLAN project<br/>
 <a href="mailto:videolan@videolan.org">videolan@videolan.org</a>
 </p>
-
-
 <p>References&nbsp;:</p>
 <dl>
+<dt>Free&nbsp;:</dt>
+<dd><a href="http://www.free.fr/">http://www.free.fr/</a></dd>
 <dt>&Eacute;cole Centrale Paris&nbsp;:</dt>
 <dd><a href="http://www.ecp.fr/">http://www.ecp.fr/</a></dd>
 </dl>

@@ -263,6 +263,8 @@ ul.big {
 dl {
   font-size: 1em;
   font-family: inherit;
+  margin-left: 30px;
+  margin-right: 10px;
 }
 
 dt {

@@ -49,7 +49,7 @@ VideoLAN project<br/>
 </p>
 <p>References&nbsp;:</p>
 <dl>
-<dt>VideoLAN project&nbsp;:<dt>
+<dt>VideoLAN project&nbsp;:</dt>
 <dd><a href="http://www.videolan.org/">http://www.videolan.org/</a></dd>
 <dt>Free&nbsp;:</dt>
 <dd><a href="http://www.free.fr/">http://www.free.fr/</a></dd>

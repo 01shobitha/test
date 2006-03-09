@@ -18,7 +18,7 @@ and decryption open-source libraries, and IP network streaming tools.
 <p>
 Ever since its inception in 1996 by visionary students, the project has
 been hosted on the campus of the &Eacute;cole Centrale Paris (ECP),
-a famous French engineering university (&quot;Grande&Eacute;cole&quot;).
+a famous French engineering university (&quot;Grande &Eacute;cole&quot;).
 Internet bandwidth was provided by ECP, while the actual hosting was
 carried out by <a href="http://www.via.ecp.fr">VIA Centrale Réseaux</a>,
 the student association that manages the campus network.
@@ -32,8 +32,7 @@ and VLC was ported to Windows within about 3 months.
 <p>
 As VLC popularity rose, so did the bandwidth usage of our main web
 server. We did upgrade our web server since then (thanks to HP and IBM),
-and the campus network connection from 10 to 100&nbsp;Mbps.<br />
-
+and the campus network connection from 10 to 100&nbsp;Mbps.
 However, our needs kept growing, beyond what the School could provide us
 with. At that time, the French ISP <a
 href="http://www.iliad.fr">Free S.A.S.</a> offered us a free hosting in

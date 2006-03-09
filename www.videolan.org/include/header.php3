@@ -170,7 +170,7 @@ foreach( $menu as $module )
                  echo preg_replace('/\.php$/', '.html', $_SERVER['PHP_SELF']);
               ?>'">
           <?php
-          $web_mirrors = array("videolan.org" => "Main site (VIA)",
+          $web_mirrors = array("videolan.org" => "Main site (free.fr)",
                                "fr.videolan.org" => "Mirror site (Zoy)");
           foreach($web_mirrors as $web_mirror_addr => $web_mirror_desc){
             echo '<option value="www.'.$web_mirror_addr.'" >'.$web_mirror_desc

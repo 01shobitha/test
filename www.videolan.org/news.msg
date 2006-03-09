@@ -8,7 +8,8 @@ learn more about this move, you can read our <a
 href="/pr2006-1.html">Press Release</a>. During the move, several
 VideoLAN services will be down: forum, trac, SVN, and developers
 website. The move should last about 4 hours, starting at 3 PM, Paris
-Time. We apologize for any inconvenience.
+Time. We apologize for any inconvenience.<br/>
+<b>Update:</b> The server is now at its new home. Enjoy :)
 
 |25-26 Feb 2006| VideoLAN at FOSDEM | The VideoLAN team will have a
 booth at <a href="http://www.fosdem.org/2006">FOSDEM</a> in Brussels. If

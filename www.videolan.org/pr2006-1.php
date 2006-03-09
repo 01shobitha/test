@@ -1,7 +1,7 @@
 <?php
    $title = "VideoLAN - Press Release";
    $lang = "en";
-   $date = "8 March 2006";
+   $date = "9 March 2006";
    $menu = array( "home" );
    require($_SERVER["DOCUMENT_ROOT"]."include/header.php3");
 ?>
@@ -14,31 +14,46 @@ VLC&nbsp;media&nbsp;player (VLC), a cross-platform media player and
 streaming solution, some widely used audio/video encoding/decoding
 and decryption open-source libraries, and IP network streaming tools.
 </p>
+
 <p>
 Ever since its inception in 1996 by visionary students, the project has
 been hosted on the campus of the &Eacute;cole Centrale Paris (ECP),
-a famous French engineering university (&quot;Grande &Eacute;cole&quot;).
-The project eventually went open-source in early 2001.
+a famous French engineering university (&quot;Grande&Eacute;cole&quot;).
+Internet bandwidth was provided by ECP, while the actual hosting was
+carried out by <a href="http://www.via.ecp.fr">VIA Centrale Réseaux</a>,
+the student association that manages the campus network.
+</p>
+
+<p>The project eventually went open-source in early 2001.
 From then on, contributors from all over the world started contributing,
 and VLC was ported to Windows within about 3 months.
 </p>
+
 <p>
-As VLC popularity rose, so did the bandwidth usage of our main web server.
-We did upgrade our web server since then (thanks to HP and IBM), and the
-campus network connection from 10 to 100&nbsp;Mbps... still insufficent,
-but already more than the ECP could afford.
+As VLC popularity rose, so did the bandwidth usage of our main web
+server. We did upgrade our web server since then (thanks to HP and IBM),
+and the campus network connection from 10 to 100&nbsp;Mbps.<br />
+
+However, our needs kept growing, beyond what the School could provide us
+with. At that time, the French ISP <a
+href="http://www.iliad.fr">Free S.A.S.</a> offered us a free hosting in
+one of their datacenters near Paris, with an upgraded network bandwidth.</p>
+
+<p>In the perceived interest of our users and contributors, we have
+hence decided to leave our historical home and to accept this offer.</p>
+
+<p>We wish to thank both Free for their generous offer and their
+precious help, and ECP for its support during the last 8 years, since
+the very beginning of the project.<br />
+We hope that the relationship between VideoLAN and VIA will continue for
+a long time.
 </p>
+
 <p>
-In the perceived interest of our users and contributors, we have hence
-decided to move from our historical <em>home</em> to a new provider.
-As of now, our main server will be hosted by French ISP Free S.A.S.
-which we thank a lot for its generous offer and its precious help.
-</p>
-<p>
-R&eacute;mi Denis-Courmont,<br/>
-VideoLAN project<br/>
+The VideoLAN project<br />
 <a href="mailto:videolan@videolan.org">videolan@videolan.org</a>
 </p>
+
 <p>References&nbsp;:</p>
 <dl>
 <dt>VideoLAN project&nbsp;:</dt>

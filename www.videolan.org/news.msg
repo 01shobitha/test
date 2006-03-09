@@ -2,6 +2,14 @@
 # New topics begin with a "|"
 #
 
+|9 March 2006| VideoLAN website gets a new home | VideoLAN's main
+server, Ganesh, will be moving to a new home at the French ISP Free. To
+learn more about this move, you can read our <a
+href="/pr2006-1.html">Press Release</a>. During the move, several
+VideoLAN services will be down: forum, trac, SVN, and developers
+website. The move should last about 4 hours, starting at 2 PM, Paris
+Time. We apologize for any inconvenience.
+
 |25-26 Feb 2006| VideoLAN at FOSDEM | The VideoLAN team will have a
 booth at <a href="http://www.fosdem.org/2006">FOSDEM</a> in Brussels. If
 you have some time to spare, drop by and we'll be happy to welcome you

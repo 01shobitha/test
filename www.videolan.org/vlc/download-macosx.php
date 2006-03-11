@@ -25,6 +25,7 @@
 <h2>Latest Mac OS X package for 10.2, 10.3 and 10.4 (release 0.8.4a)</h2>
 
 <p>(Requires <a href="http://www.apple.com/support/downloads/quicktime652formac.html">QuickTime 6.5.2</a> or later)</p>
+<p><b>This release does not support Intel-Macs. Check the <a href="http://nightlies.videolan.org">Nightly Builds</a> for this platform.<br/>Look for known issues and provide feedback on these pre-release builds <a href="http://forum.videolan.org/viewtopic.php?t=16725">here</a>.</b></p>
 <ul>
 <?php pkgitem("0.8.4a/macosx","vlc-0.8.4a.dmg","vlc"); ?>
 </ul>

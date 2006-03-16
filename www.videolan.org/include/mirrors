@@ -25,15 +25,9 @@ ftp://videolan.cs.pu.edu.tw/Windows/VideoLAN/ Providence University (Taiwan) [ft
 # Contact : erik at telia dot com - round robin 100Mbits Stockholm 100Mbits Gothenburg
 ftp://ftp.endpoint.nu/pub/software/videolan/ Endpoint Corporation (Sweden) [ftp]
 #
-# Contact : dysarz at ciaccess dot com - Not up to date (last is 0.8.1) (29/11)
-#ftp://f33r.net/ F33r Internet services (Canada) [ftp]
-#
 # Contact : James Laver,james . laver at gmail dot com
 # Contact2 : Tony Dodd tony at wefixtech dot co dot uk
 http://mirror1.wefixtech.co.uk/videolan/ We-FIX Technology Mirror Project (UK) [http]
-#
-# Contact : ryan at xlogicgroup dot com - DNS unresolvable (29/11/05)
-#http://mirrors.gohuge.net/videolan/ gohuge.net (Florida, USA) [http]
 #
 # Contact : frank at caf dot info - BW 100 Mbits
 http://online.caf.info/vlc/ caf.info (USA) [http]

@@ -156,53 +156,35 @@ les effets nÈfastes. </p>
 
 <h1>Was ist DADVSI?</h1>
 
-  <p>Die DADVSI (grob &uuml;bersetzt "Autorenrechte und andere Rechte in
-  der Informationsgesellschaft") ist die franz&ouml;sische Umschrift des
-  europ&auml;ischen EUCD (European Union Copyright Directive) Textes,
-  welcher sich von dem amerikanischen DMCA (Digital Millenium Copyright
-  Act) ableitet.<br />
-  Das Hauptziel dieses Gesetzes ist die Rechte der K&auml;ufer
-  digitalen Inhalts einzuschr&auml;nken. Am wichtigsten ist die
-  Umgehung von technischen Schutzmechanismen verboten.<br />
+<p>
+Die DADVSI (grob &uuml;bersetzt "Autorenrechte und andere Rechte in der Informationsgesellschaft") ist die franz&ouml;sische Umsetzung des europ&auml;ischen EUCD-Textes (European Union Copyright Directive), welcher dem amerikanischen DMCA (Digital Millenium Copyright Act) recht &auml;hnlich ist.<br />
 
-  Um eine solche Umgehung zu begehen, die Entwicklung und Publikation von
-  Software welche das tut, oder sogar nur zu besprechen, w&uuml;rden damit
-  ein Delikt, welches mit bis zu drei Jahren Gef&auml;ngnis bestraft
-  werden k&ouml;nnte.<p>
+Das Hauptziel dieses Gesetzes ist die Rechte der K&auml;ufer digitaler Inhalte einzuschr&auml;nken. Insbesondere verbietet es ihnen technische Schutzmechanismen zu umgehen. (dabei weder definiert, was eine technische Kopierschutzmethode ist, noch was als Umgehung betrachtet wird)<br />
 
-<p><strong>VideoLAN ist davon direkt betroffen, insbesondere wegen der
-  F&auml;higkeit, DVD's zu lesen (und alle Linux DVD-reader haben das
-  gleiche Problem). Sollte dieses Gesetz in seiner Form zugelassen werden,
-  w&uuml;rde das die Entwicklung von VLC betr&auml;chtlich
-  behindern.</strong></p>
+Dies zu tun, Software zu entwickeln oder zu veröffentlichen, die dies erm&ouml;glicht oder sogar nur über M&ouml;glichkeiten zu sprechen, wird mit diesem Gesetz illegal werden</p>
 
-  <p>Die franz&ouml;sische Webseite <a href="http://eucd.info" title="
-  <http://eucd.info/index.php?English-readers>EUCD.INFO : sauvons le droit
-  d\'auteur !" >eucd.info</a> sammelt eine betr&auml;chtliche Menge an Informationen und
-  Dokumentation und hat eine englischsprachige Sektion.</p>
+<p><strong>VideoLAN ist davon direkt betroffen, insbesondere wegen der F&auml;higkeit, DVDs zu lesen.</strong></p>
 
-  <p>Die Diskussion um dieses Gesetz hat in der franz&ouml;sischen
-  Nationalversammlung begonnen.<br />
-  Ein Punkt ist, dass viele Abgeordnete, sowohl von Regierung als auch von
-  der Opposition, sich den m&ouml;glichen Folgen dieses Gesetzes auf die
-  freie Software hat und es ergab sich eine richtige Debatte um den ersten
-  Teil des Gesetzes.</p>
+<p>Dies bedeutet, dass VLC in Frankreich als illegal angesehen werden wird, wenn das Gesetz offiziell verabschiedet wird. Die Strafe für das Vertreiben oder Bewerben von Software, die DRM umgeht, wird <strong>6 Monate im Gef&auml;ngnis und eine Geldstrafe &uuml;ber 30.000 Euro</strong> betragen.</p>
 
-  <p>Wir m&ouml;chten sowohl allen danken, welche sich bei verschiedenen
-  Informationsveranstaltungen beteiligt haben, als auch den Abgeordneten,
-  welche ihre Bedenken zu diesem Text ge&auml;u&szlig;ert haben und somit
-  der breiten Bev&ouml;lkerung ein Bewusstsein der Lage vermitteln
-  konnten.</p>
+<p>Hier eine unvollständige Liste von betroffener freier Software:</p>
 
-  <p>Die wichtigsten Teile des Gesetzes werden im Februar verhandelt
-  werden, somit ist die Schlacht noch nicht geschlagen. <strong>Es ist
-  deshalb sehr wichtig, die Kunde &uuml;ber die Gefahren eines solchen
-  Gesetzes zu verbreiten.</strong></p>
+<ul>
+<li>VLC (liest DVDs, umgeht das DRM von iTunes)</li>
+<li>MPlayer (liest DVDs)</li>
+<li>Totem (liest DVDs)</li>
+<li>Allgemeiner, jeder freie DVD-Player</li>
+<li>Bittorent (P2P, k&ouml;nnte f&uuml;r illegales Kopieren benutzt werden)</li>
+<li>eMule und alle seiner Varianten (P2P, k&ouml;nnte f&uuml;r illegales Kopieren benutzt werden)</li>
+<li>Sharpmusique (umgeht das DRM von iTunes)</li>
+<li>FairTunes (umgeht das DRM von iTunes)</li>
+<li>Jede Software, die jegliches DRM umgeht; von Musikdateien oder anderen</li>
+<li>...</li>
+</ul>
 
-  <p><strong>Update</strong> (18ter Januar): Das franz&ouml;sische
-  Kulturministerium hat begonnen einen neuen Text f&uuml;r den Februar
-  vorzuschlagen. TOLL! Vorher konnten Benutzer und Entwickler von VideoLan
-  (und anderer Linux Software) mit 3 Jahren Gef&auml;ngnis und 300 000
-  Euro Strafe rechnen. Nun w&uuml;rden Benutzer nur etwa 38 Euro Strafe
-  zahlen und die Entwickler m&uuml;ssen <em>nur</em> ein Jahr in den Knast
-  und zahlen 100 000 Euro Strafe.</p>
+<p>Die franz&ouml;sische Webseite <a href="http://eucd.info/index.php?English-readers">eucd.info</a> enth&auml;t eine betr&auml;chtliche Menge von Artikeln und Dokumentation. Sie hat eine englischsprachige Sparte.</p>
+
+<p>We m&ouml;chten uns bei allen Personen bedanken, die &uuml;ber DVDVSI und insbesondere &uuml;ber EUCD.info informieren.<br />
+Wir m&ouml;chten auch den Abgeordneten danken, welche versuchen auf die Gefahren des Gesetzestextes aufmerksam zu machen und dessen negative Auswirkungen zu beschr&auml;nken.</p>
+
+<?php footer('$Id:$'); ?>

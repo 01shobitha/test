@@ -11,12 +11,12 @@
 <h1>What is DADVSI ?</h1>
 
 <p>The DADVSI (roughly "Author Rights and other Rights in the
-Information Society") is the French transcription of the european EUCD
+Information Society") is the French transcription of the European EUCD
 (European Union Copyright Directive) text, which itself is very similar
-to the american DMCA (Digital Millenium Copyright Act).<br />
+to the American DMCA (Digital Millenium Copyright Act).<br />
 
 The main goal of this law is to restrict the rights of digital content
-purchasers. It most notably forbids them from working around technical
+purchasers. It most notably forbids them to work around technical
 content protection measures (oh, by the way, it does not precisely
 describe was a technical content protection measure is, neither what is
 considered as working around). <br />
@@ -28,10 +28,10 @@ merely talking about ways to do so is illegal with this law.</p>
 Nationale" (House of Representatives).<br />
 
 Despite the promises made by the French Ministry of Culture, this law
-does not protect Free Software, or working around DRM for "legal"
+does not protect Free Software, nor working around DRM for "legal"
 purposes.</p>
 
-<p>Moreover, an amendment was adopted, which punishes with 3 years in
+<p>Moreover, an amendment was adopted that punishes with 3 years in
 jail any person that would write, distribute or promote a software that
 is "obviously" aimed at illegal file sharing (except if it is "only"
 aimed at legal sharing). This amendment is nicknamed the
@@ -61,10 +61,10 @@ others</li>
 <li>...</li>
 </ul>
 
-<p>The french website <a                                                
+<p>The French website <a                                                
 href="http://eucd.info/index.php?English-readers">eucd.info</a>         
 collects a large number of related articles and documentation, and has a 
-dedicated english-speaking section.</p> 
+dedicated English-speaking section.</p> 
 
 <p>We would like to thank all the people who are working on spreading
 information about DADVSI, most notably EUCD.info.<br />
@@ -156,16 +156,16 @@ les effets néfastes. </p>
 
 <h1>Was ist DADVSI?</h1>
 
-  <p>Die DADVSI (grob &uuml;bersetzt "Authoren Rechte und andere Rechte in
+  <p>Die DADVSI (grob &uuml;bersetzt "Autorenrechte und andere Rechte in
   der Informationsgesellschaft") ist die franz&ouml;sische Umschrift des
   europ&auml;ischen EUCD (European Union Copyright Directive) Textes,
   welcher sich von dem amerikanischen DMCA (Digital Millenium Copyright
   Act) ableitet.<br />
-  Das Hauptziel dieses Gesetzes ist es die Rechte der K&auml;ufer
-  digitalen Inhalts einzuschr&auml;nken. Am wichtigsten ist das Verbot der
-  Umgehung von technischen Schutzmechanismen.<br />
+  Das Hauptziel dieses Gesetzes ist die Rechte der K&auml;ufer
+  digitalen Inhalts einzuschr&auml;nken. Am wichtigsten ist die
+  Umgehung von technischen Schutzmechanismen verboten.<br />
 
-  Eine solche Umgehung zu begehen, die Entwicklung und Publikation von
+  Um eine solche Umgehung zu begehen, die Entwicklung und Publikation von
   Software welche das tut, oder sogar nur zu besprechen, w&uuml;rden damit
   ein Delikt, welches mit bis zu drei Jahren Gef&auml;ngnis bestraft
   werden k&ouml;nnte.<p>
@@ -194,7 +194,7 @@ les effets néfastes. </p>
   der breiten Bev&ouml;lkerung ein Bewusstsein der Lage vermitteln
   konnten.</p>
 
-  <p>Die wichtigsten Teil des Gesetzes werden im Februar verhandelt
+  <p>Die wichtigsten Teile des Gesetzes werden im Februar verhandelt
   werden, somit ist die Schlacht noch nicht geschlagen. <strong>Es ist
   deshalb sehr wichtig, die Kunde &uuml;ber die Gefahren eines solchen
   Gesetzes zu verbreiten.</strong></p>

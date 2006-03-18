@@ -48,6 +48,14 @@ href="/vlc/skins2-create.html">create a better one</a>!<br/>
 Don't worry, you don't need any programming skills... Some knowledge about
 graphics software might ease the job, though :-)</p>
 
+<h2>D-GFX Dark Skin</h2>
+
+<?php AddSkin(
+   "D-GFX_Dark_Skin.png",
+   "Skin made by aLtgLasS",
+   "D-GFX_Dark_Skin.vlt" );
+?>
+
 <h2>WB Kids</h2>
 
 <?php AddSkin(

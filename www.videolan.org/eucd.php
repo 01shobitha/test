@@ -161,11 +161,11 @@ Die DADVSI (grob &uuml;bersetzt "Autorenrechte und andere Rechte in der Informat
 
 Das Hauptziel dieses Gesetzes ist die Rechte der K&auml;ufer digitaler Inhalte einzuschr&auml;nken. Insbesondere verbietet es ihnen technische Schutzmechanismen zu umgehen. (dabei weder definiert, was eine technische Kopierschutzmethode ist, noch was als Umgehung betrachtet wird)<br />
 
-Dies zu tun, Software zu entwickeln oder zu veröffentlichen, die dies erm&ouml;glicht oder sogar nur über M&ouml;glichkeiten zu sprechen, wird mit diesem Gesetz illegal werden</p>
+Dies zu tun, Software zu entwickeln oder zu veröffentlichen, die dies erm&ouml;glicht oder sogar nur &uuml;ber M&ouml;glichkeiten zu sprechen, wird mit diesem Gesetz illegal werden</p>
 
 <p><strong>VideoLAN ist davon direkt betroffen, insbesondere wegen der F&auml;higkeit, DVDs zu lesen.</strong></p>
 
-<p>Dies bedeutet, dass VLC in Frankreich als illegal angesehen werden wird, wenn das Gesetz offiziell verabschiedet wird. Die Strafe für das Vertreiben oder Bewerben von Software, die DRM umgeht, wird <strong>6 Monate im Gef&auml;ngnis und eine Geldstrafe &uuml;ber 30.000 Euro</strong> betragen.</p>
+<p>Dies bedeutet, dass VLC in Frankreich als illegal angesehen werden wird, wenn das Gesetz offiziell verabschiedet ist. Die Strafe f&uuml;r das Vertreiben oder Bewerben von Software, die DRM umgeht, wird <strong>6 Monate im Gef&auml;ngnis und eine Geldstrafe &uuml;ber 30.000 Euro</strong> betragen.</p>
 
 <p>Hier eine unvollständige Liste von betroffener freier Software:</p>
 

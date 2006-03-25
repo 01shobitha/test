@@ -140,7 +140,7 @@ StartHtml( ereg_replace( "<[^>]*>" , "" , $title ) , $enable_live) ;
 
 ?><table class="menu-back" cellspacing="0" cellpadding="0">
 
-<!--  EUCD/DAVDSI Banner -->
+<!--  EUCD/DAVDSI Banner 
   <tr align="center">  
     <td valign="top" colspan="2" align="center" style="background-color:white; border: 3px solid red;">  
 	<a href="/eucd.html">
@@ -149,7 +149,7 @@ StartHtml( ereg_replace( "<[^>]*>" , "" , $title ) , $enable_live) ;
 	</a>
     </td>
   </tr>  
-<!-- End of DADVSI banner -->
+     End of DADVSI banner -->
 
 
   <tr align="center">

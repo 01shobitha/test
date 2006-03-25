@@ -43,19 +43,6 @@ tell you if we are interested and give you our snail-mail address. </p>
 
 <h2><a name="money"></a>Donate money</h2>
 
-<h3>Special project : Fund a Mac G5</h3>
-
-<p><b>Update:</b> We have <a href="http://www.videolan.org/#NEWS5">raised</a> the money for the G5.
-Thanks everyone for your help. We are now looking at various suppliers and G5 configurations, 
-to see what suits our needs best for the least amount of money.
-
-Status bar : <img src="/images/green-pix.png" style="border: 0px;
-padding: 0px; margin:0px" height="10px" width="160px" alt="ok" /><img
-src="/images/red-pix.png" style="border: 0px; padding: 0px; margin:0px"
-height="10px" width="0px" alt="not ok" /> (green is what is already
-available, red is what we still need in order to buy the G5)</p>
-
-
 <h3>What is the legal structure of VideoLAN?</h3>
 
 <p> VideoLAN is a project of the association <a
@@ -156,7 +143,7 @@ be able to transfer money to VideoLAN's PayPal account.</li>
 </table>
 
 <p> If you encounter problems or if you have questions, you
-can write to VideoLAN's Treasurer, Pierre-Antoine Rappenne (<a
+can write to VideoLAN's Treasurer, Antoine Cellerier (<a
 href="mailto:treasurer -AT- videolan -DOT- org">treasurer -AT- videolan -DOT- org</a>). </p>
 
 <h3>Remember VideoLAN is free software...</h3>

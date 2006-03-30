@@ -21,7 +21,7 @@ function mirrordir($dir)
 	$mirror_name = substr( $mirror, $esp+1, strlen( $mirror ) - $esp -1 );
   $country = ereg_replace( "\).*$", "", ereg_replace( "^.*\(", "", $mirror_name ) );
   $mirror_name = ereg_replace( "\(.*\)", "", $mirror_name );
-	echo " <li><a href=\"http://www.videolan.org/mirror.html?mirror=$url&amp;file=$dir/\"><img src='/images/flags/$country.gif' alt=''/> $mirror_name</a></li>\n "; 
+	echo " <li><a href=\"http://www.videolan.org/mirror.html?mirror=$url&amp;file=$dir/\"><img src='/images/flags/$country.gif' alt='$country'/> $mirror_name</a></li>\n "; 
     }
   echo '</ul></li>';
  }

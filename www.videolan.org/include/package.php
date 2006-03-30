@@ -32,7 +32,8 @@ function pkgitem($version,$name,$top,$description="")
 	$esp = strpos( $mirror, " " );
 	$url = substr( $mirror, 0, $esp );
 	$mirror_name = substr( $mirror, $esp+1, strlen( $mirror ) - $esp -1 );
-	echo " <li><a href=\"http://www.videolan.org/mirror.html?mirror=$url&amp;file=$top/$version/$name\">$mirror_name</a></li>\n "; 
+  $country = ereg_replace( "\).*$", "", ereg_replace( "^.*\(", "", $mirror_name ) );
+	echo " <li><a href=\"http://www.videolan.org/mirror.html?mirror=$url&amp;file=$top/$version/$name\"><img src='/images/flags/$country.gif' alt=''/> $mirror_name</a></li>\n "; 
     }
   echo '</ul></li>';
  }

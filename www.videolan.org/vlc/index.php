@@ -48,21 +48,21 @@ echo " <td>
 ?>
  <table cellspacing="10">
  <tr>
-<?php addos( "Windows", "windows.jpg" "download-windows.html" );
-      addos( "Mac&nbsp;OS&nbsp;X", "macosx.gif" "download-macosx.html" );
-      addos( "BeOS", "beos.gif" "download-beos.html" ); ?>
+<?php addos( "Windows", "windows.jpg", "download-windows.html" );
+      addos( "Mac&nbsp;OS&nbsp;X", "macosx.gif", "download-macosx.html" );
+      addos( "BeOS", "beos.gif", "download-beos.html" ); ?>
  </tr><tr>
-<?php addos( "Debian GNU/Linux", "debian.gif" "download-debian.html" );
-      addos( "Mandrake Linux", "mandrake.gif" "download-mandrake.html" );
-      addos( "Fedora Core", "fedora.png" "download-fedora.html" ); ?>
+<?php addos( "Debian GNU/Linux", "debian.gif", "download-debian.html" );
+      addos( "Mandrake Linux", "mandrake.gif", "download-mandrake.html" );
+      addos( "Fedora Core", "fedora.png", "download-fedora.html" ); ?>
 </tr><tr>
-<?php addos( "Familiar Linux", "familiar.gif" "download-familiar.html" );
-      addos( "YOPY/Linupy", "yopy.gif" "download-linupy.html" );
-      addos( "Zaurus", "zaurus.png" "download-zaurus.html" ); ?>
+<?php addos( "Familiar Linux", "familiar.gif", "download-familiar.html" );
+      addos( "YOPY/Linupy", "yopy.gif", "download-linupy.html" );
+      addos( "Zaurus", "zaurus.png", "download-zaurus.html" ); ?>
  </tr><tr>
-<?php addos( "SUSE Linux", "suse.gif" "download-suse.html" );
-      addos( "Red Hat Linux", "redhat.gif" "download-redhat.html" );
-      addos( "WinCE / PocketPC", "zaurus.png" "download-wince.html" ); ?>
+<?php addos( "SUSE Linux", "suse.gif", "download-suse.html" );
+      addos( "Red Hat Linux", "redhat.gif", "download-redhat.html" );
+      addos( "WinCE / PocketPC", "zaurus.png", "download-wince.html" ); ?>
  </tr>
  </table>
 
@@ -72,15 +72,15 @@ libraries and build them yourself:</p>
 
 <table cellspacing="10">
 <tr>
-<?php addos( "NetBSD", "netbsd.gif" "download-sources.html" );
-      addos( "OpenBSD", "openbsd.gif" "download-sources.html" );
-      addos( "FreeBSD", "freebsd.gif" "download-freebsd.html" ); ?>
+<?php addos( "NetBSD", "netbsd.gif", "download-sources.html" );
+      addos( "OpenBSD", "openbsd.gif", "download-sources.html" );
+      addos( "FreeBSD", "freebsd.gif", "download-freebsd.html" ); ?>
 </tr><tr>
-<?php addos( "Solaris", "solaris.gif" "download-sources.html" );
-      addos( "QNX", "qnx.gif" "download-sources.html" );
-      addos( "Gentoo Linux", "gentoo.gif" "download-gentoo.html" ); ?>
+<?php addos( "Solaris", "solaris.gif", "download-sources.html" );
+      addos( "QNX", "qnx.gif", "download-sources.html" );
+      addos( "Gentoo Linux", "gentoo.gif", "download-gentoo.html" ); ?>
 </tr><tr>
-<?php addos( "Crux Linux", "cruxlinux.png" "download-crux.html" ); ?>
+<?php addos( "Crux Linux", "cruxlinux.png", "download-crux.html" ); ?>
 <td>
 </td><td>
 </td>
@@ -91,7 +91,7 @@ libraries and build them yourself:</p>
 
 <table cellspacing="10">
 <tr>
-<?php addos( "Source Code", "source.gif" "download-sources.html" ); ?>
+<?php addos( "Source Code", "source.gif", "download-sources.html" ); ?>
 <td>
 </td><td>
 </td>

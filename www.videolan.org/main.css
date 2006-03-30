@@ -245,6 +245,11 @@ a.skins-download:hover
   border-color: #FFFFF0 #C0C0A0 #C0C0A0 #FFFFF0;
 }
 
+a img
+{
+  border: 0px;
+}
+
 ol, ul, ul.small {
   font-size: 1em;
   font-family: inherit;

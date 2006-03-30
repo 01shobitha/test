@@ -297,11 +297,11 @@ dd {
 blockquote.center,p.center,td.center,h2.center { text-align: center; }
 blockquote.right, p.right, td.right  { text-align: right; }
 
-.downloados a
+a.downloados
 {
   text-decoration: none;
 }
-.downloados a img
+a.downloados img
 {
   vertical-align: middle;
   border-width: 1px;

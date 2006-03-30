@@ -42,57 +42,57 @@ screenshots</a>. </p>
  <td>
    <a href="download-windows.html"><img src="/images/icons/windows.jpg"
       style="vertical-align: middle; border-width: 1px;"
-      alt="Windows" width="32" height="32" /></a> Windows
+      alt="Windows" width="32" height="32" /> Windows</a>
  </td><td style="white-space: nowrap;">
    <a href="download-macosx.html"><img src="/images/icons/macosx.gif"
       style="vertical-align: middle; border-width: 1px;"
-      alt="Mac OS X" width="32" height="32" /></a> Mac OS X
+      alt="Mac OS X" width="32" height="32" /> Mac OS X</a>
  </td><td>
    <a href="download-beos.html"><img src="/images/icons/beos.gif"
       style="vertical-align: middle; border-width: 1px;"
-      alt="BeOS" width="32" height="32" /></a> BeOS
+      alt="BeOS" width="32" height="32" /> BeOS</a>
  </td>
  </tr><tr>
  <td>
   <a href="download-debian.html"><img src="/images/icons/debian.gif"
       style="vertical-align: middle; border-width: 1px;"
-      alt="Linux Debian" width="32" height="32" /></a> Debian GNU/Linux
+      alt="Linux Debian" width="32" height="32" /> Debian GNU/Linux</a>
  </td><td>
    <a href="download-mandrake.html"><img src="/images/icons/mandrake.gif"
       style="vertical-align: middle; border-width: 1px;"
-      alt="Linux Mandrake" width="32" height="32" /></a> Mandrake Linux
+      alt="Linux Mandrake" width="32" height="32" /> Mandrake Linux</a>
  </td><td>
    <a href="download-fedora.html"><img src="/images/icons/fedora.png"
       style="vertical-align: middle; border-width: 1px;"
-      alt="Fedora Core" width="32" height="32" /></a>Fedora Core
+      alt="Fedora Core" width="32" height="32" /> Fedora Core</a>
  </td>
 </tr><tr>
  <td style="white-space: nowrap;">
    <a href="download-familiar.html"><img src="/images/icons/familiar.gif"
       style="vertical-align: middle; border-width: 1px;"
-      alt="Familiar Linux" width="32" height="32" /></a> Familiar Linux
+      alt="Familiar Linux" width="32" height="32" /> Familiar Linux</a>
  </td><td>
    <a href="download-linupy.html"><img src="/images/icons/yopy.png"
       style="vertical-align: middle; border-width: 1px;"
-      alt="YOPY" width="32" height="32" /></a>YOPY/Linupy
+      alt="YOPY" width="32" height="32" /> YOPY/Linupy</a>
  </td><td>
    <a href="download-zaurus.html"><img src="/images/icons/zaurus.png"
       style="vertical-align: middle; border-width: 1px;"
-      alt="Zaurus" width="32" height="32" /></a>Zaurus
+      alt="Zaurus" width="32" height="32" /> Zaurus</a>
  </td>
  </tr><tr>
  <td align="left" style="white-space: nowrap;">
    <a href="download-suse.html"><img src="/images/icons/suse.gif"
       style="vertical-align: middle; border-width: 1px;"
-      alt="SUSE Linux" width="32" height="32" /></a>SuSE Linux
+      alt="SUSE Linux" width="32" height="32" /> SuSE Linux</a>
  </td><td>
    <a href="download-redhat.html"><img src="/images/icons/redhat.gif"
       style="vertical-align: middle; border-width: 1px;"
-      alt="Linux Red Hat" width="32" height="32" /></a> Red Hat Linux
+      alt="Linux Red Hat" width="32" height="32" /> Red Hat Linux</a>
  </td><td>
    <a href="download-wince.html"><img src="/images/icons/zaurus.png"
       style="vertical-align: middle; border-width: 1px;"
-      alt="Zaurus" width="32" height="32" /></a>WinCE / PocketPC
+      alt="Zaurus" width="32" height="32" /> WinCE / PocketPC</a>
  </td><td>
  </td>
  </tr>
@@ -107,35 +107,35 @@ libraries and build them yourself:</p>
 <td>
   <a href="download-sources.html"><img src="/images/icons/netbsd.gif"
       style="vertical-align: middle; border-width: 1px;"
-      alt="NetBSD" width="32" height="32" /></a>&nbsp;NetBSD
+      alt="NetBSD" width="32" height="32" /> NetBSD</a>
 </td><td>
    <a href="download-sources.html"><img src="/images/icons/openbsd.gif"
       style="vertical-align: middle; border-width: 1px;"
-      alt="OpenBSD" width="32" height="32" /></a>&nbsp;OpenBSD
+      alt="OpenBSD" width="32" height="32" /> OpenBSD</a>
 </td><td>
    <a href="download-freebsd.html"><img src="/images/icons/freebsd.gif"
       style="vertical-align: middle; border-width: 1px;"
-      alt="FreeBSD" width="32" height="32" /></a>&nbsp;FreeBSD
+      alt="FreeBSD" width="32" height="32" /> FreeBSD</a>
 </td>
 </tr><tr>
 <td>
    <a href="download-sources.html"><img src="/images/icons/solaris.gif"
       style="vertical-align: middle; border-width: 1px;"
-      alt="Solaris" width="32" height="32" /></a>&nbsp;Solaris
+      alt="Solaris" width="32" height="32" /> Solaris</a>
 </td><td>
    <a href="download-sources.html"><img src="/images/icons/qnx.gif"
       style="vertical-align: middle; border-width: 1px;"
-      alt="QNX" width="32" height="32" /></a>&nbsp;QNX
+      alt="QNX" width="32" height="32" /> QNX</a>
 </td><td>
    <a href="download-gentoo.html"><img src="/images/icons/gentoo.gif"
       style="vertical-align: middle; border-width: 1px;"
-      alt="Gentoo" width="31" height="32" /></a>&nbsp;Gentoo&nbsp;Linux
+      alt="Gentoo" width="31" height="32" /> Gentoo Linux</a>
 </td>
 </tr><tr>
 <td>
    <a href="download-crux.html"><img src="/images/icons/cruxlinux.png"
       style="vertical-align: middle; border-width: 1px;"
-      alt="Crux Linux" width="32" height="32" /></a>Crux Linux
+      alt="Crux Linux" width="32" height="32" /> Crux Linux</a>
 </td><td>
 </td><td>
 </td>

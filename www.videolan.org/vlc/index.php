@@ -57,7 +57,7 @@ echo " <td>
       addos( "Fedora Core", "fedora.png", "download-fedora.html" ); ?>
 </tr><tr>
 <?php addos( "Familiar Linux", "familiar.gif", "download-familiar.html" );
-      addos( "YOPY/Linupy", "yopy.gif", "download-linupy.html" );
+      addos( "YOPY/Linupy", "yopy.png", "download-linupy.html" );
       addos( "Zaurus", "zaurus.png", "download-zaurus.html" ); ?>
  </tr><tr>
 <?php addos( "SUSE Linux", "suse.gif", "download-suse.html" );

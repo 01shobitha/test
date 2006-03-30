@@ -247,7 +247,7 @@ a.skins-download:hover
 
 a img
 {
-  border: 0px;
+  border-width: 0px;
 }
 
 ol, ul, ul.small {
@@ -296,6 +296,16 @@ dd {
 
 blockquote.center,p.center,td.center,h2.center { text-align: center; }
 blockquote.right, p.right, td.right  { text-align: right; }
+
+.downloados a
+{
+  text-decoration: none;
+}
+.downloados a img
+{
+  vertical-align: middle;
+  border-width: 1px;
+}
 
 
 /**********

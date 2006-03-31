@@ -7,9 +7,14 @@
 ?>
 
 <?php
-  function AddSkin( $img, $text, $vlt )
+  require_once '/home/videolan/etc/db-www.php';
+  if( !($connect = pg_connect( $connect_string )) )
+    die( "connection to database failed" );
+
+  function AddSkin( $name, $author, $img, $url, $date, $dl )
   {
 ?>
+<h2><?php echo $name; ?></h2>
 <table class="skins-download">
  <tr>
   <td>
@@ -23,8 +28,11 @@
     <tr><td class="skins-comment">
       <?php echo $text; ?>
     </td></tr>
+    <tr><td class="skins-comment">
+      <?php echo "$dl downloads since $date"; ?>
+    </td></tr>
     <?php if(strlen($vlt) > 2) { ?><tr>
-<td><a class="skins-download" href="/vlc/skins2/<?php echo "$vlt"; ?>">Download VLT file</a>
+<td><a class="skins-download" href="download-skins2-go.php?url=<?php echo "$url"; ?>">Download VLT file</a>
     </td></tr> <?php } ?>
    </table>
   </td>
@@ -48,89 +56,16 @@ href="/vlc/skins2-create.html">create a better one</a>!<br/>
 Don't worry, you don't need any programming skills... Some knowledge about
 graphics software might ease the job, though :-)</p>
 
-<h2>D-GFX Dark Skin</h2>
-
-<?php AddSkin(
-   "D-GFX_Dark_Skin.png",
-   "Skin made by aLtgLasS",
-   "D-GFX_Dark_Skin.vlt" );
+<?php
+  $q = pg_query( $connect, "SELECT * FROM skins ORDER BY downloads DESC" );
+  while( $r = pg_fetch_array( $q ) )
+  {
+    AddSkin( $r['name'], $r['author'], $r['image'],
+             $r['url'], $r['downloads'], $r['date_added'] );
+  }
+  pg_close( $connect );
 ?>
 
-<h2>WB Kids</h2>
-
-<?php AddSkin(
-   "WB.png",
-   "Skin made by Petrol Designs and ported by Mohammed Adnène Trojette",
-   "WB.vlt" );
-?>
-
-<h2>DPlayer</h2>
-
-<?php AddSkin(
-   "DPlayer.png",
-   "Skin made by Mazlum Alptekin",
-   "DPlayer.vlt" );
-?>
-
-<h2>Winamp5</h2>
-<?php AddSkin(
-   "winamp5.jpg",
-   "Skin made by kty0ne, improved by Jérôme Guilbaud and ported<br/>
-    to skins2 by Olivier Teulière ",
-   "winamp5.vlt" );
-?>
-
-<h2>Chaos</h2>
-<?php AddSkin(
-   "chaos.jpg",
-   "Based on the xmms Chaos skin by Omar Hussain, ported by Cyril<br/>
-    Deguet<br/> ",
-   "chaos.vlt" );
-?>
-
-<h2>Void</h2>
-<?php AddSkin(
-   "void.jpg",
-   "By Black",
-   "void.vlt" );
-?>
-
-
-<h2>iTunes</h2>
-<?php AddSkin(
-   "itunes.jpg",
-   "Skin made by mdi, improved and ported to skins2 by Steven Sheehy",
-   "itunes.vlt" );
-?>
-
-
-<h2>Solar</h2>
-<?php AddSkin(
-   "solar.png",
-   "Skin made by Piers Cornwell, icons by Jakub Steiner",
-   "solar.vlt" );
-?>
-
-<h2>Vplayer</h2>
-<?php AddSkin(
-   "vplayer.jpg",
-   "Skin made by scahoo",
-   "vplayer.vlt" );
-?>
-
-<h2>MediaPlayer</h2>
-<?php AddSkin(
-   "MediaPlayer.png",
-   "Skin made by Asim Siddiqui",
-   "MediaPlayer.vlt" );
-?>
-
-<h2>PsVLC</h2>
-<?php AddSkin(
-   "psvlc.jpg",
-   "Skin made by jix",
-   "psvlc.vlt" );
-?>
 
 <h2>Skins VS skins2</h2>
 

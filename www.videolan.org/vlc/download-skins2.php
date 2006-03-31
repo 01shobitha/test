@@ -69,7 +69,7 @@ graphics software might ease the job, though :-)</p>
 
 <h2>Skins VS skins2</h2>
 
-<p><span style="color: red;"><b>Important note:</b></span><br> VLC had two
+<p><span style="color: red;"><b>Important note:</b></span><br/> VLC had two
 different skins modules, named <i>skins</i> and <i>skins2</i>, the latter being
 a complete rewrite of the former. The <i>skins</i> module is now deprecated,
 and is no more included in VLC releases since version 0.8.0.</p>

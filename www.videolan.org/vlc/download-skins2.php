@@ -46,7 +46,7 @@
           echo round($rating,1)."/5 ($count votes)"; 
           for( $i=0; $i<5; $i++ )
           {
-            $v = min(10,max(0,round($i-$rating,1)));
+            $v = round(min(1,max(0,$rating-$i)),1)*10;
             echo "<img alt='".($v>0?'+':'-')."' src='/vlc/skins2/cone-$v.png' />";
           }
         }

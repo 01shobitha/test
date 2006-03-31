@@ -109,8 +109,8 @@ graphics software might ease the job, though :-)</p>
       $query = 'SELECT skins.id as id, name, author, downloads, date_added, image, url, SUM(rating)*10/COUNT(rating) as rating, COUNT(rating) as count FROM skins INNER JOIN "skins-rating" ON skins.id = "skins-rating".skin_id GROUP BY skins.id, skins.name, skins.author, skins.downloads, skins.date_added, skins.image, skins.url ORDER BY rating DESC, count DESC';
       break;
     case "downloads":
-      break;
       $query = "SELECT * FROM skins ORDER BY downloads DESC, date_added DESC";
+      break;
     case "date_added":
     default:
       $query = "SELECT * FROM skins ORDER BY date_added DESC, downloads DESC";

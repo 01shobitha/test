@@ -58,17 +58,17 @@ graphics software might ease the job, though :-)</p>
 
 <h2>Downloads...</h2>
 
-Sort by <a href="?sort=date_added">date</a> or <a href="?sort=downloads">downloads</a>.
+<p>Sort by <a href="?sort=date_added">date</a> or <a href="?sort=downloads">downloads</a>.</p>
 
 <?php
   switch( $_GET["sort"] )
   {
     case "downloads":
-      $q = pg_query( $connect, "SELECT * FROM skins ORDER BY date_added DESC" );
+      $q = pg_query( $connect, "SELECT * FROM skins ORDER BY downloads DESC" );
       break;
     case "date_added":
     default:
-      $q = pg_query( $connect, "SELECT * FROM skins ORDER BY downloads DESC" );
+      $q = pg_query( $connect, "SELECT * FROM skins ORDER BY date_added DESC" );
       break;
   }
   while( $r = pg_fetch_array( $q ) )

@@ -11,7 +11,7 @@
   if( !($connect = pg_connect( $connect_string )) )
     die( "connection to database failed" );
 
-  function AddSkin( $id, $name, $author, $img, $url, $dl, $date, $rating )
+  function AddSkin( $id, $name, $author, $img, $url, $dl, $date, $rating, $count )
   {
 ?>
 <h3><?php echo $name; ?></h3>
@@ -43,7 +43,7 @@
         }
         else
         {
-          echo "$rating/5"; 
+          echo round($rating,1)."/5 ( $count votes)"; 
           for( $i=0; $i<$rating; $i++ )
           {
             echo "<img alt='+' src='/vlc/skins2/cone-plus.png' />";
@@ -119,7 +119,7 @@ graphics software might ease the job, though :-)</p>
     $r_r = pg_fetch_row( $q_r );
     AddSkin( $r['id'], $r['name'], $r['author'], $r['image'],
              $r['url'], $r['downloads'], $r['date_added'],
-             $r_r[1] ? $r_r[0]/$r_r[1] : -1 );
+             $r_r[1] ? $r_r[0]/$r_r[1] : -1, $r_r[1] );
   }
   pg_close( $connect );
 ?>

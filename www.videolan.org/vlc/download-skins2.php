@@ -44,13 +44,10 @@
         else
         {
           echo round($rating,1)."/5 ($count votes)"; 
-          for( $i=0; $i<$rating; $i++ )
+          for( $i=0; $i<5; $i++ )
           {
-            echo "<img alt='+' src='/vlc/skins2/cone-plus.png' />";
-          }
-          for( ; $i<5; $i++ )
-          {
-            echo "<img alt='-' src='/vlc/skins2/cone-minus.png' />";
+            $v = min(10,max(0,round($i-$rating,1)));
+            echo "<img alt='".($v>0?'+':'-')."' src='/vlc/skins2/cone-$v.png' />";
           }
         }
       ?>

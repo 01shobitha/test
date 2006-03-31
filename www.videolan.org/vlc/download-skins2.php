@@ -14,7 +14,7 @@
   function AddSkin( $name, $author, $img, $url, $dl, $date )
   {
 ?>
-<h2><?php echo $name; ?></h2>
+<h3><?php echo $name; ?></h3>
 <table class="skins-download">
  <tr>
   <td>
@@ -56,8 +56,21 @@ href="/vlc/skins2-create.html">create a better one</a>!<br/>
 Don't worry, you don't need any programming skills... Some knowledge about
 graphics software might ease the job, though :-)</p>
 
+<h2>Downloads...</h2>
+
+Sort by <a href="?sort=date_added">date</a> or <a href="?sort=downloads">downloads</a>.
+
 <?php
-  $q = pg_query( $connect, "SELECT * FROM skins ORDER BY downloads DESC" );
+  switch( $_GET["sort"] )
+  {
+    case "downloads":
+      $q = pg_query( $connect, "SELECT * FROM skins ORDER BY date_added DESC" );
+      break;
+    case "date_added":
+    default:
+      $q = pg_query( $connect, "SELECT * FROM skins ORDER BY downloads DESC" );
+      break;
+  }
   while( $r = pg_fetch_array( $q ) )
   {
     AddSkin( $r['name'], $r['author'], $r['image'],

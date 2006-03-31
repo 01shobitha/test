@@ -98,7 +98,7 @@ graphics software might ease the job, though :-)</p>
 <?php
   if( isset( $_POST["skin_id"] ) && isset( $_POST["rating"] ) )
   {
-    pg_query( "INSERT INTO \"skins-rating\" (\"skin_id\", \"rating\") VALUES ('{$_POST["skin_id"]}','{$_POST["rating"]}'" );
+    pg_query( "INSERT INTO \"skins-rating\" (\"skin_id\", \"rating\") VALUES ('{$_POST["skin_id"]}','{$_POST["rating"]}')" );
   }
 
   switch( $_GET["sort"] )

@@ -106,7 +106,7 @@ graphics software might ease the job, though :-)</p>
   {
     case "rating":
       /* FIXME: I can't get the skins with no rating with this query */
-      $query = 'SELECT skins.id as id, name, author, downloads, date_added, image, url, SUM(rating)*10/COUNT(rating) as rating, COUNT(rating) as count FROM skins INNER JOIN "skins-rating" ON skins.id = "skins-rating".skin_id GROUP BY skins.id, skins.name, skins.author, skins.downloads, skins.date_added, skins.image, skins.url ORDER BY rating DESC, count DESC';
+      $query = 'SELECT skins.id as id, name, author, downloads, date_added, image, url, SUM(rating)*10/COUNT(rating) as rating, COUNT(rating) as count FROM skins INNER JOIN "skins-rating" ON skins.id = "skins-rating".skin_id GROUP BY skins.id, skins.name, skins.author, skins.downloads, skins.date_added, skins.image, skins.url ORDER BY rating DESC, downloads DESC';
       break;
     case "downloads":
       $query = "SELECT * FROM skins ORDER BY downloads DESC, date_added DESC";

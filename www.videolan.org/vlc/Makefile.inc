@@ -1,1 +1,1 @@
-PHP_IGNORES = download-skins2.php download-skins2-go.php
+PHP_IGNORES = download-skins2 download-skins2-go

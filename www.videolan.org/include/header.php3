@@ -33,7 +33,7 @@ echo "<?xml version=\"1.0\" encoding=\"iso-8859-1\" ?>\n";
 </head>
 <?php if( $enable_live == true ) { ?>
    <body onload="get_count();">
-<? } else { ?>
+<?php } else { ?>
    <body>
 <?php
    }

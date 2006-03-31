@@ -43,7 +43,7 @@
         }
         else
         {
-          echo round($rating,1)."/5 ( $count votes)"; 
+          echo round($rating,1)."/5 ($count votes)"; 
           for( $i=0; $i<$rating; $i++ )
           {
             echo "<img alt='+' src='/vlc/skins2/cone-plus.png' />";
@@ -55,16 +55,16 @@
         }
       ?>
       <form method="post" action="" style="display:inline;">
-        <input type="radio" name="rating" value="1" id="rate_1" />
-        <label for="rate_1">1</label> - 
-        <input type="radio" name="rating" value="2" id="rate_2" />
-        <label for="rate_2">2</label> - 
-        <input type="radio" name="rating" value="3" id="rate_3" />
-        <label for="rate_3">3</label> - 
-        <input type="radio" name="rating" value="4" id="rate_4" />
-        <label for="rate_4">4</label> - 
-        <input type="radio" name="rating" value="5" id="rate_5" />
-        <label for="rate_5">5</label> - 
+        <input type="radio" name="rating" value="1" id="rate_1_<?php echo $id; ?>" />
+        <label for="rate_1_<?php echo $id; ?>">1</label> 
+        <input type="radio" name="rating" value="2" id="rate_2_<?php echo $id; ?>" />
+        <label for="rate_2_<?php echo $id; ?>">2</label> 
+        <input type="radio" name="rating" value="3" id="rate_3_<?php echo $id; ?>" />
+        <label for="rate_3_<?php echo $id; ?>">3</label> 
+        <input type="radio" name="rating" value="4" id="rate_4_<?php echo $id; ?>" />
+        <label for="rate_4_<?php echo $id; ?>">4</label> 
+        <input type="radio" name="rating" value="5" id="rate_5_<?php echo $id; ?>" />
+        <label for="rate_5_<?php echo $id; ?>">5</label> 
         <input type="hidden" name="skin_id" value="<?php echo $id; ?>" />
         <input type="submit" value="Rate skin" />
       </form>

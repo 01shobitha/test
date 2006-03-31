@@ -64,11 +64,11 @@ graphics software might ease the job, though :-)</p>
   switch( $_GET["sort"] )
   {
     case "downloads":
-      $q = pg_query( $connect, "SELECT * FROM skins ORDER BY downloads, date_added DESC" );
+      $q = pg_query( $connect, "SELECT * FROM skins ORDER BY downloads DESC, date_added DESC" );
       break;
     case "date_added":
     default:
-      $q = pg_query( $connect, "SELECT * FROM skins ORDER BY date_added, downloads DESC" );
+      $q = pg_query( $connect, "SELECT * FROM skins ORDER BY date_added DESC, downloads DESC" );
       break;
   }
   while( $r = pg_fetch_array( $q ) )

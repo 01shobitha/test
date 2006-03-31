@@ -93,7 +93,7 @@ graphics software might ease the job, though :-)</p>
 
 <h2>Downloads...</h2>
 
-<p>Sort by <a href="?sort=date_added">date</a> or <a href="?sort=downloads">downloads</a>.</p>
+<p>Sort by <a href="?sort=date_added">date</a>, <a href="?sort=downloads">downloads</a> or <a href="?sort=rating">rating</a>.</p>
 
 <?php
   if( isset( $_POST["skin_id"] ) && isset( $_POST["rating"] ) )
@@ -101,25 +101,39 @@ graphics software might ease the job, though :-)</p>
     pg_query( "INSERT INTO \"skins-rating\" (\"skin_id\", \"rating\") VALUES ('{$_POST["skin_id"]}','{$_POST["rating"]}')" );
   }
 
-  switch( $_GET["sort"] )
+  $sort = $_GET["sort"];
+  switch( $sort )
   {
+    case "rating":
+      /* FIXME: I can't get the skins with no rating with this query */
+      $query = 'SELECT skins.id as id, name, author, downloads, date_added, image, url, SUM(rating)*10/COUNT(rating) as rating, COUNT(rating) as count FROM skins INNER JOIN "skins-rating" ON skins.id = "skins-rating".skin_id GROUP BY skins.id, skins.name, skins.author, skins.downloads, skins.date_added, skins.image, skins.url ORDER BY rating DESC, count DESC;'
+      break;
     case "downloads":
       break;
-      $order = "downloads DESC, date_added DESC";
+      $query = "SELECT * FROM skins ORDER BY downloads DESC, date_added DESC";
     case "date_added":
     default:
-      $order = "date_added DESC, downloads DESC";
+      $query = "SELECT * FROM skins ORDER BY date_added DESC, downloads DESC";
       break;
   }
 
-  $q = pg_query( $connect, "SELECT * FROM skins ORDER BY $order" );
+  $q = pg_query( $connect, $query );
   while( $r = pg_fetch_array( $q ) )
   {
-    $q_r = pg_query( $connect, "SELECT SUM(\"rating\"), COUNT(\"rating\") FROM \"skins-rating\" WHERE \"skin_id\"='{$r["id"]}'" );
-    $r_r = pg_fetch_row( $q_r );
-    AddSkin( $r['id'], $r['name'], $r['author'], $r['image'],
-             $r['url'], $r['downloads'], $r['date_added'],
-             $r_r[1] ? $r_r[0]/$r_r[1] : -1, $r_r[1] );
+    if( $sort == "rating" )
+    {
+      AddSkin( $r['id'], $r['name'], $r['author'], $r['image'],
+               $r['url'], $r['downloads'], $r['date_added'],
+               $r['rating']/10, $r['count'] );
+    }
+    else
+    {
+      $q_r = pg_query( $connect, "SELECT SUM(\"rating\"), COUNT(\"rating\") FROM \"skins-rating\" WHERE \"skin_id\"='{$r["id"]}'" );
+      $r_r = pg_fetch_row( $q_r );
+      AddSkin( $r['id'], $r['name'], $r['author'], $r['image'],
+               $r['url'], $r['downloads'], $r['date_added'],
+               $r_r[1] ? $r_r[0]/$r_r[1] : -1, $r_r[1] );
+    }
   }
   pg_close( $connect );
 ?>

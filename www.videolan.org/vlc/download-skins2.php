@@ -11,7 +11,7 @@
   if( !($connect = pg_connect( $connect_string )) )
     die( "connection to database failed" );
 
-  function AddSkin( $name, $author, $img, $url, $date, $dl )
+  function AddSkin( $name, $author, $img, $url, $dl, $date )
   {
 ?>
 <h2><?php echo $name; ?></h2>
@@ -26,14 +26,14 @@
   <td>
    <table>
     <tr><td class="skins-comment">
-      <?php echo $text; ?>
+      Made by <?php echo $author; ?>
     </td></tr>
     <tr><td class="skins-comment">
       <?php echo "$dl downloads since $date"; ?>
     </td></tr>
-    <?php if(strlen($vlt) > 2) { ?><tr>
+    <tr>
 <td><a class="skins-download" href="download-skins2-go.php?url=<?php echo "$url"; ?>">Download VLT file</a>
-    </td></tr> <?php } ?>
+    </td></tr>
    </table>
   </td>
  </tr>

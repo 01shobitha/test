@@ -11,7 +11,7 @@
   if( !($connect = pg_connect( $connect_string )) )
     die( "connection to database failed" );
 
-  function AddSkin( $name, $author, $img, $url, $dl, $date )
+  function AddSkin( $id, $name, $author, $img, $url, $dl, $date, $rating )
   {
 ?>
 <h3><?php echo $name; ?></h3>
@@ -33,6 +33,41 @@
     </td></tr>
     <tr>
 <td><a class="skins-download" href="download-skins2-go.php?url=<?php echo "$url"; ?>">Download VLT file</a>
+    </td></tr>
+    <tr><td class="skins-comment">
+      Rating:
+      <?php
+        if( $rating == -1 )
+        {
+          echo "Not rated";
+        }
+        else
+        {
+          echo "$rating/5"; 
+          for( $i=0; $i<$rating; $i++ )
+          {
+            echo "<img alt='+' src='/vlc/skins2/cone-plus.png' />";
+          }
+          for( ; $i<5; $i++ )
+          {
+            echo "<img alt='-' src='/vlc/skins2/cone-minus.png' />";
+          }
+        }
+      ?>
+      <form method="post" action="" style="display:inline;">
+        <input type="radio" name="rating" value="1" id="rate_1" />
+        <label for="rate_1">1</label> - 
+        <input type="radio" name="rating" value="2" id="rate_2" />
+        <label for="rate_2">2</label> - 
+        <input type="radio" name="rating" value="3" id="rate_3" />
+        <label for="rate_3">3</label> - 
+        <input type="radio" name="rating" value="4" id="rate_4" />
+        <label for="rate_4">4</label> - 
+        <input type="radio" name="rating" value="5" id="rate_5" />
+        <label for="rate_5">5</label> - 
+        <input type="hidden" name="skin_id" value="<?php echo $id; ?>" />
+        <input type="submit" value="Rate skin" />
+      </form>
     </td></tr>
    </table>
   </td>
@@ -61,20 +96,30 @@ graphics software might ease the job, though :-)</p>
 <p>Sort by <a href="?sort=date_added">date</a> or <a href="?sort=downloads">downloads</a>.</p>
 
 <?php
+  if( isset( $_POST["skin_id"] ) && isset( $_POST["rating"] ) )
+  {
+    pg_query( "INSERT INTO \"skins-rating\" (\"skin_id\", \"rating\") VALUES ('{$_POST["skin_id"]}','{$_POST["rating"]}'" );
+  }
+
   switch( $_GET["sort"] )
   {
     case "downloads":
-      $q = pg_query( $connect, "SELECT * FROM skins ORDER BY downloads DESC, date_added DESC" );
       break;
+      $order = "downloads DESC, date_added DESC";
     case "date_added":
     default:
-      $q = pg_query( $connect, "SELECT * FROM skins ORDER BY date_added DESC, downloads DESC" );
+      $order = "date_added DESC, downloads DESC";
       break;
   }
+
+  $q = pg_query( $connect, "SELECT * FROM skins ORDER BY $order" );
   while( $r = pg_fetch_array( $q ) )
   {
-    AddSkin( $r['name'], $r['author'], $r['image'],
-             $r['url'], $r['downloads'], $r['date_added'] );
+    $q_r = pg_query( $connect, "SELECT SUM(\"rating\"), COUNT(\"rating\") FROM \"skins-rating\" WHERE \"skin_id\"='{$r["id"]}'" );
+    $r_r = pg_fetch_row( $q_r );
+    AddSkin( $r['id'], $r['name'], $r['author'], $r['image'],
+             $r['url'], $r['downloads'], $r['date_added'],
+             $r_r[1] ? $r_r[0]/$r_r[1] : -1 );
   }
   pg_close( $connect );
 ?>

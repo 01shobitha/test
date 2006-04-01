@@ -2,22 +2,7 @@
 # New topics begin with a "|"
 #
 
-|1 April 2006| Apple-VideoLAN partnership announced, Mac VLC to be Intel only | In an effort to help Apple with its Intel transition, the VideoLAN team, distributor of the industry leading cross-platform media player VLC, announced its intent to drop support for the now outdated G4 and G5 based series of Mac computers. Read the full <a href="/pr2006-1.html">Press Release</a>.
-
-|1 April 2006| VideoLAN sells VLC to Microsoft |
-After 10 years of open source development, the VideoLAN developers
-have decided to throw in the towel.<br />
-With mixed emotions the VideoLAN team announces the acquisition of
-the VideoLAN source code by Microsoft for an undisclosed amount.<br />
-A Microsoft spokesperson said they would use the code to enhance
-the Windows Media player but could not confirm if the improvements
-would already be part of the upcoming Windows Vista release in
-early 2007.<br />
-Although this might come as a shock to the open source community
-the VideoLAN team decided this was the best approach due to recent
-hardened European legislation.<br />
-The VLC team has however made an agreement with Microsoft that the binary 
-packages up to 0.8.4a could remain publicly available.
+|1 April 2006| Apple-VideoLAN partnership announced, Mac VLC to be Intel only | In an effort to help Apple with its Intel transition, the VideoLAN team, distributor of the industry leading cross-platform media player VLC, announced its intent to drop support for the now outdated G4 and G5 based series of Mac computers. Read the full <a href="/pr2006-2.html">Press Release</a>.
 
 |9 March 2006| VideoLAN website gets a new home | VideoLAN's main
 server, Ganesh, will be moving to a new home at the French ISP Free. To

@@ -389,7 +389,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/H264" target="_blank">H264</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/H264" target="_blank">H.264</a></td>
 <td class="partial">Experimental</td>
 <td class="partial">Experimental</td>
 <td class="partial">Experimental</td>
@@ -653,7 +653,7 @@
 
 <tr>
 
-<td class="category" rowspan="7"><b>Video Filters</b></td>
+<td class="category" rowspan="9"><b>Video Filters</b></td>
 <td class="type">Deinterlace</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -738,10 +738,34 @@
 
 <tr>
 
+<td class="type">Magnify-Gradient-Bluescreen</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="no">No</td>
+
+</tr>
+
+<tr>
+
+<td class="type">RSS/Atom feeds</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="partial">Untested</td>
+<td class="partial">Untested</td>
+<td class="no">No</td>
+
+</tr>
+
+<tr>
+
 <td class="category" rowspan="9"><b>Video Output</b></td>
 <td class="type">Native</td>
 <td class="yes">DirectX<br />GDI</td>
-<td class="yes">QuickTime</td>
+<td class="yes">OpenGL<br />Quartz</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -800,7 +824,7 @@
 <tr>
 <td class="type">ASCII art</td>
 <td class="no">No</td>
-<td class="no">No</td>
+<td class="partial">Source Only</td>
 <td class="yes">Yes</td>
 <td class="no">No</td>
 <td class="yes">Yes</td>
@@ -808,7 +832,7 @@
 </tr>
 
 <tr>
-<td class="type">colored ASCII art</td>
+<td class="type">Colored ASCII art</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -972,10 +996,10 @@
 <td class="type"><a href="http://wiki.videolan.org/index.php/codec" target="_blank">QDM2/QDMC (QuickTime)</a></td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
+<td class="yes">Yes</td>
+<td class="partial">Untested</td>
+<td class="yes">Yes</td>
+<td class="partial">Untested</td>
 </tr>
 
 <tr>
@@ -999,12 +1023,12 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Real+Media+Video" target="_blank">Real Audio</a></td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Real+Media+Video" target="_blank">Real Audio <sup>[11]</sup></a></td>
+<td class="partial">Incomplete</td>
+<td class="partial">Incomplete</td>
+<td class="partial">Incomplete</td>
+<td class="partial">Untested</td>
+<td class="partial">Untested</td>
 <td class="no">No</td>
 </tr>
 
@@ -1020,7 +1044,7 @@
 
 <tr>
 
-<td class="category" rowspan="7"><b>Audio Output</b></td>
+<td class="category" rowspan="8"><b>Audio Output</b></td>
 <td class="type">Native</td>
 <td class="yes">DirectX<br />WaveOut</td>
 <td class="yes">Yes</td>
@@ -1105,6 +1129,19 @@
 
 <tr>
 
+
+<td class="type">JACK</td>
+<td class="none">-</td>
+<td class="partial">Source Only</td>
+<td class="yes">Yes</td>
+<td class="none">-</td>
+<td class="partial">Untested</td>
+<td class="partial">Untested</td>
+
+</tr>
+
+<tr>
+
 <td class="category"><b>Stream Output</b></td>
 <td colspan="6">See the <a href="/streaming/features.html">Streaming features page</a></td>
 
@@ -1175,7 +1212,7 @@
 
 <td class="type">WxWidgets</td>
 <td class="yes">Yes</td>
-<td class="no">No</td>
+<td class="partial">Source Only <sup>[10]</sup></td>
 <td class="yes">Yes</td>
 <td class="none">-</td>
 <td class="yes">Yes</td>
@@ -1356,7 +1393,7 @@
 
 <td class="type">CD-Text <sup>[8]</sup></td>
 <td class="yes">Yes</td>
-<td class="no">No</td>
+<td class="no">no</td>
 <td class="yes">Yes</td>
 <td class="no">no</td>
 <td class="partial">Untested</td>
@@ -1368,7 +1405,7 @@
 
 <td class="type">CDDB CD info <sup>[9]</sup></td>
 <td class="no">No</td>
-<td class="partial">Untested</td>
+<td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="no">No</td>
 <td class="partial">Untested</td>
@@ -1448,7 +1485,7 @@
 [2] DVD navigation is done through the libdvdplay library.
 <br />
 [3] supported CPU extensions are MMX, MMXEXT, SSE and 3D Now! on x86
-processors, and AltiVec on G4 processors.
+processors, and AltiVec on G4/G5 processors.
 <br />
 [4] the OpenBSD 2.9 default assembler does not support MMX.
 <br />
@@ -1473,6 +1510,14 @@ those platforms this library is available.
 available on those platforms both of these libraries are
 available. libcddb runs on BeOS although libcdio doesn't. On Microsoft
 Windows, libcddb doesn't compile yet without POSIX emulation.
+<br />
+[10] The current releases of WxWidgets for Mac are too unstable to be 
+used by VLC in production environments. Additionally, the resulting 
+interface isn't as Mac-like as we want VLC to be.
+<br />
+[11] Real Audio playback is provided through the FFmpeg-library
+which does only support the Cook (RealAudio G2 / RealAudio 8)
+decoder at the moment.
 </p>
 
 <?php footer('$Id$'); ?>

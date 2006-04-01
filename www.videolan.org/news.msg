@@ -2,6 +2,8 @@
 # New topics begin with a "|"
 #
 
+|1 April 2006| Apple-VideoLAN partnership announced, Mac VLC to be Intel only | In an effort to help Apple with its Intel transition, the VideoLAN team, distributor of the industry leading cross-platform media player VLC, announced its intent to drop support for the now outdated G4 and G5 based series of Mac computers. Read the full <a href="/pr2006-1.html">Press Release</a>.
+
 |1 April 2006| VideoLAN sells VLC to Microsoft |
 After 10 years of open source development, the VideoLAN developers
 have decided to throw in the towel.<br />

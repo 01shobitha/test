@@ -14,6 +14,8 @@ early 2007.<br />
 Although this might come as a shock to the open source community
 the VideoLAN team decided this was the best approach due to recent
 hardened European legislation.<br />
+The VLC team has however made an agreement with Microsoft that the binary 
+packages up to 0.8.4a could remain publicly available.
 
 |9 March 2006| VideoLAN website gets a new home | VideoLAN's main
 server, Ganesh, will be moving to a new home at the French ISP Free. To

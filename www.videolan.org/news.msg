@@ -2,11 +2,18 @@
 # New topics begin with a "|"
 #
 
-|1 April 2006| VideoLAN sells VLC to Microsoft | After 10 years of open
-source developement, the VideoLAN developers have decided that time had
-come for VLC's users to pay. We have thus agreed to sell VLC to Bill
-Gate's Microsoft for $10.000.000. This website will be shut down once we
-get the money on our bank account in Luxembourg. Open source suxx !
+|1 April 2006| VideoLAN sells VLC to Microsoft |
+After 10 years of open source development, the VideoLAN developers
+have decided to throw in the towel.<br />
+With mixed emotions the VideoLAN team announces the acquisition of
+the VideoLAN source code by Microsoft for an undisclosed amount.<br />
+A Microsoft spokesperson said they would use the code to enhance
+the Windows Media player but could not confirm if the improvements
+would already be part of the upcoming Windows Vista release in
+early 2007.<br />
+Although this might come as a shock to the open source community
+the VideoLAN team decided this was the best approach due to recent
+hardened European legislation.<br />
 
 |9 March 2006| VideoLAN website gets a new home | VideoLAN's main
 server, Ganesh, will be moving to a new home at the French ISP Free. To

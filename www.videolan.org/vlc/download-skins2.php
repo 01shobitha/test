@@ -150,4 +150,4 @@ module are still kept in case someone wants to port old skins to the
 
 <p>On this page you will only find skins for the new <i>skins2</i> module.</p>
 
-<?php footer('$Id: download-skins.html 2517 2004-05-23 17:11:06Z ipkiss $'); ?>
+<?php footer('$Id$'); ?>

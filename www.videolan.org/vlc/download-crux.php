@@ -22,4 +22,4 @@
    # cd /usr/ports/yhafri/vlc && pkgmk -d -i && rm vlc-0.8.1.tar.gz
 </pre>
 
-<?php footer('$Id: download-crux.php 0 2000-01-01 01:01:01 dionoea $'); ?>
+<?php footer('$Id$'); ?>

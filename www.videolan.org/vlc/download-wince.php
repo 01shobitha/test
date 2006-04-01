@@ -18,4 +18,4 @@
 
 <p>If you want, you can download the <a href="download-sources.html">sourcecode</a> of VLC media player.</p>
 
-<?php footer('$Id: download-wince.html 2844 2004-11-03 11:49:07Z hartman $'); ?>
+<?php footer('$Id$'); ?>

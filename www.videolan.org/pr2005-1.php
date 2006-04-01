@@ -79,4 +79,4 @@ GPL : <a href="http://www.gnu.org/copyleft/gpl.html">http://www.gnu.org/copyleft
 </li>
 </ul>
 
-<?php footer('$Id: news.php 2907 2004-11-23 14:41:24Z courmisch $'); ?>
+<?php footer('$Id$'); ?>

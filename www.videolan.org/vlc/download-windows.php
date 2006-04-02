@@ -28,6 +28,11 @@
   <?php pkgitem("0.8.4a/win32","vlc-0.8.4a-win32.zip","vlc"); ?>
 </ul>
 
+<p><em>Windows 95/98/Me users:</em> Please note that these versions of Windows are 
+not officially supported. No VideoLAN developer uses any of these systems, which
+makes them hard to support.<br />
+VLC should mostly work with them, but some incompatibilities might appear.</p>
+
 <p> <span style="color: red;"><b>Virus warning</b></span>: we have had several
 reports of trojaned VLC binaries (Sophos detected Troj/Momma-B, and Panda
 detected Bck/Optix). These are <b>false positives</b>, our packages are <b>not

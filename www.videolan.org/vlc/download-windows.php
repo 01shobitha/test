@@ -31,7 +31,7 @@
 <p><em>Windows 95/98/Me users:</em> Please note that these versions of Windows are 
 not officially supported. No VideoLAN developer uses any of these systems, which
 makes them hard to support.<br />
-VLC should mostly work with them, but some incompatibilities might appear.</p>
+VLC should mostly work with them, but some incompatibilities might appear. You might need to install the <a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=73BA7BD7-ED06-4F0D-80A4-2A7EEAEE17E2&displaylang=en">Microsoft Layer for Unicode on Windows 95, 98 and Me systems</a> in order to get VLC to work.</p>
 
 <p> <span style="color: red;"><b>Virus warning</b></span>: we have had several
 reports of trojaned VLC binaries (Sophos detected Troj/Momma-B, and Panda

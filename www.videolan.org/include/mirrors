@@ -30,7 +30,7 @@ ftp://ftp.endpoint.nu/pub/software/videolan/ Endpoint Corporation (Sweden) [ftp]
 http://mirror1.wefixtech.co.uk/videolan/ We-FIX Technology Mirror Project (UK) [http]
 #
 # Contact : frank at caf dot info - BW 100 Mbits - Texas
-http://online.caf.info/vlc/ caf.info (USA) [http]
+#http://online.caf.info/vlc/ caf.info (USA) [http]
 #
 # Contact : richard at optralan dot com - BW 100 Mbits - East coast
 http://mirrors.optralan.com/videolan/ Optralan (USA) [http]

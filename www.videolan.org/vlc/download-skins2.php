@@ -19,7 +19,7 @@
  <tr>
   <td>
    <a href="/vlc/skins2/<?php echo $img; ?>">
-   <img width="200" src="/vlc/skins2/<?php echo $img; ?>"
+   <img width="200" src="/vlc/skins2/tm_<?php echo $img; ?>"
      class="skins-screenshot" alt="screenshot"/>
    </a>
   </td>

@@ -112,7 +112,7 @@ graphics software might ease the job, though :-)</p>
   switch( $sort )
   {
     case "rating":
-      $query .= ' ORDER BY rating DESC, downloads DESC';
+      $query .= ' ORDER BY avg DESC, downloads DESC';
       break;
     case "downloads":
       $query .= " ORDER BY downloads DESC, date_added DESC";

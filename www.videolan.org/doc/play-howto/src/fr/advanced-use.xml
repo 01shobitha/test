@@ -90,7 +90,7 @@ Démarrez VLC avec :
 
 
 <screen>
-<prompt>% </prompt><userinput>vlc dvd://[device][@raw_device][@[title][:[chapter][:angle]]]</userinput>
+<prompt>% </prompt><userinput>vlc dvd://[périphérique][@périphérique "brut"][@[titre][:[chapitre][:angle]]]</userinput>
 </screen>
 
 <para>Dans la plupart des cas  <userinput>vlc dvd://</userinput> ou <userinput>vlc dvd://[périphérique]</userinput> suffiront. [périphérique] est par exemple <userinput>/dev/dvd</userinput> sous GNU/Linux ou <userinput>D:</userinput> sur Windows (le chemin complet de votre lecteur de DVDs).</para>
@@ -102,7 +102,7 @@ ou
 (DVD sans menus) :</para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc dvdsimple://[device][@raw_device][@[title][:[chapter][:angle]]]</userinput>
+<prompt>% </prompt><userinput>vlc dvdsimple://[périphérique][@périphérique "brut"][@[titre][:[chapitre][:angle]]]</userinput>
 </screen>
 
 <para>

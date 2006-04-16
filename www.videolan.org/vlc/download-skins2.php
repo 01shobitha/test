@@ -11,7 +11,7 @@
   if( !($connect = pg_connect( $connect_string )) )
     die( "connection to database failed" );
 
-  function AddSkin( $id, $name, $author, $img, $url, $dl, $date, $rating, $count )
+  function AddSkin( $id, $name, $author, $img, $url, $dl, $date, $rating, $count, $old_rating, $old_count, $sign )
   {
 ?>
 <h3><?php echo $name; ?></h3>
@@ -44,6 +44,12 @@
         else
         {
           echo round($rating,1)."/5 ($count votes)"; 
+          if( $sign > 0 )
+            echo "[Up]";
+          else if( $sign == 0 )
+            echo "[==]";
+          else
+            echo "[Down]";
           for( $i=0; $i<5; $i++ )
           {
             $v = round(min(1,max(0,$rating-$i)),1)*10;
@@ -101,38 +107,28 @@ graphics software might ease the job, though :-)</p>
   }
 
   $sort = $_GET["sort"];
+  $query='SELECT avg_new.*, avg_old.avg as avg_old, avg_new.count as count, avg_old.count as count_old, sign( avg_new.avg-avg_old.avg ) FROM (SELECT skin_id, AVG( rating ), COUNT( rating ) FROM "skins-rating" WHERE age( date ) > \'7 days\' GROUP BY skin_id UNION SELECT id as skin_id, 0 as avg, 0 as count FROM skins WHERE age( date_added ) <= \'7 days\' ) AS avg_old, (SELECT AVG( rating ), COUNT( rating ), skins.id as id, name, author, downloads, date_added, image, url FROM skins INNER JOIN "skins-rating" ON skins.id="skins-rating".skin_id GROUP BY skins.id, skins.name, skins.author, skins.downloads, skins.date_added, skins.image, skins.url) AS avg_new WHERE avg_old.skin_id = avg_new.id';
   switch( $sort )
   {
     case "rating":
-      /* FIXME: I can't get the skins with no rating with this query */
-      $query = 'SELECT skins.id as id, name, author, downloads, date_added, image, url, SUM(rating)*10/COUNT(rating) as rating, COUNT(rating) as count FROM skins INNER JOIN "skins-rating" ON skins.id = "skins-rating".skin_id GROUP BY skins.id, skins.name, skins.author, skins.downloads, skins.date_added, skins.image, skins.url ORDER BY rating DESC, downloads DESC';
+      $query .= ' ORDER BY rating DESC, downloads DESC';
       break;
     case "downloads":
-      $query = "SELECT * FROM skins ORDER BY downloads DESC, date_added DESC";
+      $query .= " ORDER BY downloads DESC, date_added DESC";
       break;
     case "date_added":
     default:
-      $query = "SELECT * FROM skins ORDER BY date_added DESC, downloads DESC";
+      $query .= " ORDER BY date_added DESC, downloads DESC";
       break;
   }
 
   $q = pg_query( $connect, $query );
   while( $r = pg_fetch_array( $q ) )
   {
-    if( $sort == "rating" )
-    {
-      AddSkin( $r['id'], $r['name'], $r['author'], $r['image'],
-               $r['url'], $r['downloads'], $r['date_added'],
-               $r['rating']/10, $r['count'] );
-    }
-    else
-    {
-      $q_r = pg_query( $connect, "SELECT SUM(\"rating\"), COUNT(\"rating\") FROM \"skins-rating\" WHERE \"skin_id\"='{$r["id"]}'" );
-      $r_r = pg_fetch_row( $q_r );
-      AddSkin( $r['id'], $r['name'], $r['author'], $r['image'],
-               $r['url'], $r['downloads'], $r['date_added'],
-               $r_r[1] ? $r_r[0]/$r_r[1] : -1, $r_r[1] );
-    }
+    AddSkin( $r['id'], $r['name'], $r['author'], $r['image'],
+             $r['url'], $r['downloads'], $r['date_added'],
+             $r['avg'], $r['count'], $r['avg_old'], $r['count_old'],
+             $r['sign'] );
   }
   pg_close( $connect );
 ?>

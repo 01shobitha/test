@@ -585,7 +585,7 @@ choisissez simplement les filtres à activer. Les réglages de l'image peuvent
   <caption><para>La sélection des filtres vidéo dans l'interface wxWidgets</para></caption>
 </mediaobject>
 
-<para>Vous pouvez activer ces filtre via les <empahsis>contrôles étendus</emphasis> sur Mac OS X. Cliquez sur le triangle à coté de <emphasis>Filtres vidéo</emphasis> pour sélectionner vos filtres ou étendez la section <emphasis>Ajuster l'image</emphasis> pour changer le contraste, la luminosité, etc.</para>
+<para>Vous pouvez activer ces filtre via les <emphasis>contrôles étendus</emphasis> sur Mac OS X. Cliquez sur le triangle à coté de <emphasis>Filtres vidéo</emphasis> pour sélectionner vos filtres ou étendez la section <emphasis>Ajuster l'image</emphasis> pour changer le contraste, la luminosité, etc.</para>
 
 <mediaobject>
   <imageobject>

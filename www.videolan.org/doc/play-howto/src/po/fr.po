@@ -1338,7 +1338,7 @@ msgstr "La sélection des filtres vidéo dans l'interface wxWidgets"
 #: en/basic-use.xml:581
 #, no-wrap
 msgid "You can enable these filters through the <emphasis>Extended Controls panel</emphasis> on Mac OS X. Click on the triangle next to <emphasis>Video filters</emphasis> to select your filters or expand the <emphasis>Adjust Image</emphasis> section to change the contrast, hue, etc."
-msgstr "Vous pouvez activer ces filtre via les <empahsis>contrôles étendus</emphasis> sur Mac OS X. Cliquez sur le triangle à coté de <emphasis>Filtres vidéo</emphasis> pour sélectionner vos filtres ou étendez la section <emphasis>Ajuster l'image</emphasis> pour changer le contraste, la luminosité, etc."
+msgstr "Vous pouvez activer ces filtre via les <emphasis>contrôles étendus</emphasis> sur Mac OS X. Cliquez sur le triangle à coté de <emphasis>Filtres vidéo</emphasis> pour sélectionner vos filtres ou étendez la section <emphasis>Ajuster l'image</emphasis> pour changer le contraste, la luminosité, etc."
 
 # type: Content of: <chapter><sect1><sect2><mediaobject><caption><para>
 #: en/basic-use.xml:587

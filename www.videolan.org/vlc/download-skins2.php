@@ -92,6 +92,8 @@ graphics software might ease the job, though :-)</p>
 
 <p>Sort by <a href="?sort=date_added">date</a>, <a href="?sort=downloads">downloads</a> or <a href="?sort=rating">rating</a>.</p>
 
+<p><span style="color: red;">Warning:</span> Some of these skins require VLC 0.8.5 or later to run.</p>
+
 <?php
   if( isset( $_POST["skin_id"] ) && isset( $_POST["rating"] ) )
   {

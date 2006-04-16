@@ -43,13 +43,14 @@
         }
         else
         {
-          echo round($rating,1)."/5 ($count votes)"; 
+          echo round($rating,1)."/5 "; 
           if( $sign > 0 )
-            echo "[Up]";
+            echo "<img alt='Up' src='/vlc/skins2/cone-u.png' title='old rating: $rating_old'/>";
           else if( $sign == 0 )
-            echo "[==]";
+            echo "<img alt='Equal' src='/vlc/skins2/cone-e.png' title='old rating: $rating_old'/>";
           else
-            echo "[Down]";
+            echo "<img alt='Down' src='/vlc/skins2/cone-d.png' title='old rating: $rating_old'/>";
+          echo " ($count votes)";
           for( $i=0; $i<5; $i++ )
           {
             $v = round(min(1,max(0,$rating-$i)),1)*10;

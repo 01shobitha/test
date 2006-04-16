@@ -45,11 +45,11 @@
         {
           echo round($rating,1)."/5 "; 
           if( $sign > 0 )
-            echo "<img alt='Up' src='/vlc/skins2/cone-u.png' title='last week\'s rating: $old_rating'/>";
+            echo "<img alt='Up' src='/vlc/skins2/cone-u.png' title=\"last week's rating: '.round($old_rating,1).'\"/>";
           else if( $sign == 0 )
-            echo "<img alt='Equal' src='/vlc/skins2/cone-e.png' title='last week\'s rating: $old_rating'/>";
+            echo "<img alt='Equal' src='/vlc/skins2/cone-e.png' title=\"last week's rating: '.round($old_rating,1).'\"/>";
           else
-            echo "<img alt='Down' src='/vlc/skins2/cone-d.png' title='last week\'s rating: $old_rating'/>";
+            echo "<img alt='Down' src='/vlc/skins2/cone-d.png' title=\"last week's rating: '.round($old_rating,1).'\"/>";
           echo " ($count votes)";
           for( $i=0; $i<5; $i++ )
           {

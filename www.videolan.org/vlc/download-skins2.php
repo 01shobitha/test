@@ -1,4 +1,20 @@
 <?php
+  require_once '/home/videolan/etc/db-www.php';
+  if( !($connect = pg_connect( $connect_string )) )
+    die( "connection to database failed" );
+
+  if( isset( $_POST["skin_id"] ) && isset( $_POST["rating"] ) )
+  {
+    if( $_COOKIE["skinrated_{$_POST["skin_id"]}"] != $_POST["skin_id"] )
+    {
+      pg_query( "INSERT INTO \"skins-rating\" (\"skin_id\", \"rating\") VALUES ('{$_POST["skin_id"]}','{$_POST["rating"]}')" );
+      setcookie( "skinrated_{$_POST["skin_id"]}", $_POST["skin_id"], time()+24*60*60, "/", ".videolan.org" );
+      $_COOKIE["skinrated_{$_POST["skin_id"]}"] = $_POST["skin_id"];
+    }
+  }
+?>
+
+<?php
    $title = "VLC media player - Download Skins";
    $lang = "en";
    $date = "28 March 2003";
@@ -7,9 +23,6 @@
 ?>
 
 <?php
-  require_once '/home/videolan/etc/db-www.php';
-  if( !($connect = pg_connect( $connect_string )) )
-    die( "connection to database failed" );
 
   function AddSkin( $id, $name, $author, $img, $url, $dl, $date, $rating, $count, $old_rating, $old_count, $sign )
   {
@@ -58,6 +71,10 @@
           }
         }
       ?>
+      <?php
+        if( $_COOKIE["skinrated_$id"] != $id )
+        {
+      ?>
       <form method="post" action="" style="display:inline;">
         <input type="radio" name="rating" value="1" id="rate_1_<?php echo $id; ?>" />
         <label for="rate_1_<?php echo $id; ?>">1</label> 
@@ -72,6 +89,7 @@
         <input type="hidden" name="skin_id" value="<?php echo $id; ?>" />
         <input type="submit" value="Rate skin" />
       </form>
+      <?php } ?>
     </td></tr>
    </table>
   </td>
@@ -102,10 +120,6 @@ graphics software might ease the job, though :-)</p>
 <p><span style="color: red;">Warning:</span> Some of these skins require VLC 0.8.5 or later to run.</p>
 
 <?php
-  if( isset( $_POST["skin_id"] ) && isset( $_POST["rating"] ) )
-  {
-    pg_query( "INSERT INTO \"skins-rating\" (\"skin_id\", \"rating\") VALUES ('{$_POST["skin_id"]}','{$_POST["rating"]}')" );
-  }
 
   $sort = $_GET["sort"];
   $query='SELECT avg_new.*, avg_old.avg as avg_old, avg_new.count as count, avg_old.count as count_old, sign( avg_new.avg-avg_old.avg ) FROM (SELECT skin_id, AVG( rating ), COUNT( rating ) FROM "skins-rating" WHERE age( date ) > \'7 days\' GROUP BY skin_id UNION SELECT id as skin_id, 0 as avg, 0 as count FROM skins WHERE age( date_added ) <= \'7 days\' ) AS avg_old, (SELECT AVG( rating ), COUNT( rating ), skins.id as id, name, author, downloads, date_added, image, url FROM skins INNER JOIN "skins-rating" ON skins.id="skins-rating".skin_id GROUP BY skins.id, skins.name, skins.author, skins.downloads, skins.date_added, skins.image, skins.url) AS avg_new WHERE avg_old.skin_id = avg_new.id';

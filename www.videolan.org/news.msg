@@ -2,7 +2,7 @@
 # New topics begin with a "|"
 #
 
-|1 April 2006| Apple-VideoLAN partnership announced, Mac VLC to be Intel only (April's fool) | In an effort to help Apple with its Intel transition, the VideoLAN team, distributor of the industry leading cross-platform media player VLC, announced its intent to drop support for the now outdated G4 and G5 based series of Mac computers. Read the full <a href="/pr2006-2.html">Press Release</a>.<br/>
+|1 April 2006| Apple-VideoLAN partnership announced, Mac VLC to be Intel only (April fool's) | In an effort to help Apple with its Intel transition, the VideoLAN team, distributor of the industry leading cross-platform media player VLC, announced its intent to drop support for the now outdated G4 and G5 based series of Mac computers. Read the full <a href="/pr2006-2.html">Press Release</a>.<br/>
 <span style="color:red;"><b>Note:</b> Look at the date...</span>
 
 |9 March 2006| VideoLAN website gets a new home | VideoLAN's main

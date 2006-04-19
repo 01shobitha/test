@@ -6,7 +6,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."include/header.php3");
 ?>
 
-<p style='size: 4em'><b>Note:</b> look at the date...</p>
+<p style='color: red; font-size: 4em'><b>Note:</b> look at the date...</p>
 
 <h1>Apple-VideoLAN partnership announced, Mac VLC to be Intel only</h1>
 

@@ -99,7 +99,7 @@ a downloaded skin.</p>
 <h2>Winamp5 skin</h2>
 <?php AddSkin(
    "winamp5.jpg",
-   "This is a Winamp5-like skin, made by kty0ne and improved by Jérôme Guilbaud.",
+   "This is a Winamp5-like skin, made by kty0ne and improved by JÃ©rÃ´me Guilbaud.",
    "winamp5.vlt",
    "winamp5.zip" );
 ?>

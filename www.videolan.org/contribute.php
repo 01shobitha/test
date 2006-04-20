@@ -33,7 +33,7 @@ questions in the user mailing-lists if you can, etc... </p>
 VCD or SVCD? You have a satellite card or an MPEG encoding card that is not
 supported by VideoLAN? </p>
 
-<p> You can donate it to the developers at the École Centrale and it may
+<p> You can donate it to the developers at the Ã‰cole Centrale and it may
 motivate them to work on your suggestion! In any case, you do not have any
 warranty that your wish will be taken into account. </p>
 
@@ -46,11 +46,11 @@ tell you if we are interested and give you our snail-mail address. </p>
 <h3>What is the legal structure of VideoLAN?</h3>
 
 <p> VideoLAN is a project of the association <a
-href="http://www.via.ecp.fr/">Centrale Réseaux</a>, which is a French
-non-profit organisation based at the <a href="http://www.ecp.fr/">École
+href="http://www.via.ecp.fr/">Centrale RÃ©seaux</a>, which is a French
+non-profit organisation based at the <a href="http://www.ecp.fr/">Ã‰cole
 Centrale Paris</a>. VideoLAN has its own bank account and is responsible of
 its finance in front of the <a href="http://www.via.ecp.fr/via/ca.html">board
-of Centrale Réseaux</a>. </p>
+of Centrale RÃ©seaux</a>. </p>
 
 <h3>What are the financial needs of VideoLAN?</h3>
 
@@ -70,9 +70,9 @@ Expo Paris, Annual presentation Day,...)</li>
 
 <ul>
 
-<li>the <a href="http://www.via.ecp.fr/">Centrale Réseaux</a> association,</li>
+<li>the <a href="http://www.via.ecp.fr/">Centrale RÃ©seaux</a> association,</li>
 
-<li>the <a href="http://www.ecp.fr/">École Centrale Paris</a> and its <a
+<li>the <a href="http://www.ecp.fr/">Ã‰cole Centrale Paris</a> and its <a
 href="http://www.msio.ecp.fr/">SIO Master</a> (Open Information Systems).</li>
 
 <li>you, with your donations!</li>
@@ -167,7 +167,7 @@ compagnies and institutions who helped VideoLAN.</p>
   <li><strong>Julian Cain</strong>, who made a $1000 donation to the VideoLAN project</li>
   <li>The french website <strong>MacBidouille</strong> gave 500 
 euros to help us buy a PowerMac G5</li> 
-  <li>The french magazine <strong>à vos MAC</strong> gave 500 euros to 
+  <li>The french magazine <strong>Ã  vos MAC</strong> gave 500 euros to 
 help us buy a PowerMac G5</li>
 </ul>
 

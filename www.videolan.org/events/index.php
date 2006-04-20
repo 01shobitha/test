@@ -117,7 +117,7 @@ back!</p>
 
 <p>The VIA and VideoLAN teams organized a presentation of their         
 activity and they projects for the future to their partners and all the 
-companies and institutions interested on March 21th 2003 at the École   
+companies and institutions interested on March 21th 2003 at the Ã‰cole   
 Centrale Paris.</p>                                                     
 
 <p><a href="20030321/index.html">Slides of the presentation (in french)</a></p>
@@ -151,7 +151,7 @@ Johansen (alias jlj).</p>
 <h2>1-2 November 2002 - VideoLAN at the Free Software days in Lyons
 (<i>Lyon</i>)</h2>
 
-<p>VideoLAN was present at the Free Software Days (<i>Journées du Libre</i>)  
+<p>VideoLAN was present at the Free Software Days (<i>JournÃ©es du Libre</i>)  
 in Lyons (<i>Lyon</i>), France: we had a stand with a running demo of         
 VideoLAN and we made a conference presenting VideoLAN with the first public   
 demo of VLC as a plug-in for Mozilla under Linux! This event was organized   
@@ -172,12 +172,12 @@ alt="Click to see a bigger picture" width="400" height="300" /></a></p>
 
 <p>From left to right: Jean-Paul Saman, Christophe Massiot (alias      
 Meuuh) and Tristan Leteurtre (alias tooney). Picture taken in the       
-beautiful Sceaux Park by the new mascot of our IRC channel, Aliénor Salin (alias  
+beautiful Sceaux Park by the new mascot of our IRC channel, AliÃ©nor Salin (alias  
 ali).</p>                                                               
 
 <h2>May 2002 - The new network and the new test campaign at the Ecole Centrale</h2>
 
-<p><a href="http://www.via.ecp.fr/">VIA Centrale Réseaux</a>, the        
+<p><a href="http://www.via.ecp.fr/">VIA Centrale RÃ©seaux</a>, the        
 association which manages the network of the student residence of the   
 <a href="http://www.ecp.fr/">Ecole Centrale Paris</a>, has set up a      
 brand new network from Extreme Networks. It is a full multicast and     
@@ -214,7 +214,7 @@ events that we organise around VideoLAN.</p>
 <p>The team organized a conference to present the project and its       
 possible applications to companies who could be interested in technical 
 or commercial partnerships. It took place on February 28th 2002 at the  
-<a href="http://www.ecp.fr/">École Centrale Paris</a>. Thanks for those  
+<a href="http://www.ecp.fr/">Ã‰cole Centrale Paris</a>. Thanks for those  
 of you who joined the presentation.</p>                                 
 
 <p><a href="20020228/slides/index.html">Slides of the presentation (in french)</a></p>

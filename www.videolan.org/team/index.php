@@ -10,7 +10,7 @@
 <h1> Team / Contact </h1>
 
 <p> The VideoLAN team is made up of students of the <a
-href="http://www.ecp.fr/">…cole Centrale Paris</a> and developers
+href="http://www.ecp.fr/">√âcole Centrale Paris</a> and developers
 from all over the world:</p>
 
 <p class="center">
@@ -35,10 +35,10 @@ In case you write an article about VideoLAN, we would be very glad to have a cop
 </p>
 <pre  style="margin-left: 60px;">
 VideoLAN
-Club VIA Centrale RÈseaux
-RÈsidence Ecole Centrale
+Club VIA Centrale R√©seaux
+R√©sidence Ecole Centrale
 2, avenue Sully Prudhomme
-92 290 Ch‚tenay Malabry
+92 290 Ch√¢tenay Malabry
 France
 </pre>
 
@@ -54,7 +54,7 @@ France
 
 <h2>Supreme counsellor and mascot of the project</h2>
 
-<p><a href="mailto:ali@videolan.org">AliÈnor Salin</a>, alias <b>ali</b>.</p>
+<p><a href="mailto:ali@videolan.org">Ali√©nor Salin</a>, alias <b>ali</b>.</p>
 
 <h2>The teachers</h2>
 
@@ -176,10 +176,10 @@ part with '@'. </p>
 </p>
 
 <pre style="margin-left: 60px;">
-VIA Centrale RÈseaux
-RÈsidence des ÈlËves de l'…cole Centrale
+VIA Centrale R√©seaux
+R√©sidence des √©l√®ves de l'√âcole Centrale
 2, avenue Sully Prudhomme
-92 290 Ch‚tenay Malabry
+92 290 Ch√¢tenay Malabry
 France
 </pre>
 </div>

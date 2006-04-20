@@ -24,7 +24,7 @@ considered as working around). <br />
 Doing so, writing or publishing software allowing to do so, or even
 merely talking about ways to do so is illegal with this law.</p>
 
-<p>On March 14th and 15th, this law was passed at the French "Assemblée
+<p>On March 14th and 15th, this law was passed at the French "AssemblÃ©e
 Nationale" (House of Representatives).<br />
 
 Despite the promises made by the French Ministry of Culture, this law
@@ -73,62 +73,62 @@ We also thank the MPs who have tried to raise attention on the dangers
 of this text and who have tried (but failed) to limit its nefarious
 effects.</p>
 
-<h1> Français, ceci vous concerne directement.</h1>
+<h1> FranÃ§ais, ceci vous concerne directement.</h1>
 
 <p>
 
-La loi DADVSI (Droits d'Auteur et Droits Voisins dans la Société de     
-l'Information) est la transcription en droit français de la directive   
-EUCD (European Union Copyright Directive), qui est elle même inspirée   
-du DMCA (Digital Millenium Copyright Act) américain.<br />              
+La loi DADVSI (Droits d'Auteur et Droits Voisins dans la SociÃ©tÃ© de     
+l'Information) est la transcription en droit franÃ§ais de la directive   
+EUCD (European Union Copyright Directive), qui est elle mÃªme inspirÃ©e   
+du DMCA (Digital Millenium Copyright Act) amÃ©ricain.<br />              
 
 L'effet principal de ce texte est de restreindre fortement les droits
 des particuliers achetant des produits culturels. DADVSI s'oppose ainsi
-directement à l'exception de copie privée en autorisant les producteurs
-de contenu à mettre en place des mesures techniques (DRM) l'interdisant, et
-surtout en interdisant aux acquéreurs de contourner ces mesures. (La loi
-ne définit toutefois pas précisément ni la notion de mesure technique de
+directement Ã  l'exception de copie privÃ©e en autorisant les producteurs
+de contenu Ã  mettre en place des mesures techniques (DRM) l'interdisant, et
+surtout en interdisant aux acquÃ©reurs de contourner ces mesures. (La loi
+ne dÃ©finit toutefois pas prÃ©cisÃ©ment ni la notion de mesure technique de
 protection, ni la notion de contournement).<br />
 
-Contourner une mesure de protection, écrire ou diffuser un logiciel
-permettant de la contourner, ou faire connaître des moyens de le faire
-sont considérés comme illégaux dans le cadre de cette loi.</p>
+Contourner une mesure de protection, Ã©crire ou diffuser un logiciel
+permettant de la contourner, ou faire connaÃ®tre des moyens de le faire
+sont considÃ©rÃ©s comme illÃ©gaux dans le cadre de cette loi.</p>
 
-<p>Les éléments principaux de cette loi ont été adoptés les 14 et 15
-mars 2006 à l'Assemblée Nationale par une grande partie de la majorité
+<p>Les Ã©lÃ©ments principaux de cette loi ont Ã©tÃ© adoptÃ©s les 14 et 15
+mars 2006 Ã  l'AssemblÃ©e Nationale par une grande partie de la majoritÃ©
 UMP.<br />
 
-Malgré les promesses et les dénégations du Ministre de la Culture, M.
-Renaud Donnedieu de Vabres, cette loi ne protège en aucun cas le
-Logiciel Libre ni le contournement des DRM à des fins d'usage licite
-d'une oeuvre légalement acquise.</p>
+MalgrÃ© les promesses et les dÃ©nÃ©gations du Ministre de la Culture, M.
+Renaud Donnedieu de Vabres, cette loi ne protÃ¨ge en aucun cas le
+Logiciel Libre ni le contournement des DRM Ã  des fins d'usage licite
+d'une oeuvre lÃ©galement acquise.</p>
 
-<p>De plus, un amendement, surnommé <em>Amendement
-Vivendi-Universal</em> a été adopté. Celui-ci punit de 3 ans de prison
-et 300 000 euros d'amende toute personne développant, distribuant,
-faisant la promotion, ou parlant d'un logiciel "manifestement" destiné
-au partage illicite de fichier (à l'exception des logiciels uniquement
-destinés au partage légal).</p>
+<p>De plus, un amendement, surnommÃ© <em>Amendement
+Vivendi-Universal</em> a Ã©tÃ© adoptÃ©. Celui-ci punit de 3 ans de prison
+et 300 000 euros d'amende toute personne dÃ©veloppant, distribuant,
+faisant la promotion, ou parlant d'un logiciel "manifestement" destinÃ©
+au partage illicite de fichier (Ã  l'exception des logiciels uniquement
+destinÃ©s au partage lÃ©gal).</p>
 
 <p><strong>Cette loi concerne directement VLC, notamment pour ses
-capacités à lire les DVD</strong></p>
+capacitÃ©s Ã  lire les DVD</strong></p>
 
-<p>Dès la promulgation de cette loi en France, VLC sera considéré comme
-illégal, et les développeurs et distributeurs passibles de <strong>6
+<p>DÃ¨s la promulgation de cette loi en France, VLC sera considÃ©rÃ© comme
+illÃ©gal, et les dÃ©veloppeurs et distributeurs passibles de <strong>6
 mois de prison et 30 000 euros d'amende</strong>.</p>
 
-<p>Voici une liste non-exhaustive de logiciels libres touchés par ces
+<p>Voici une liste non-exhaustive de logiciels libres touchÃ©s par ces
 mesures:</p>
 
 <ul>
 <li>VLC (lecture de DVD, contournement des DRM iTunes)</li>
 <li>Mplayer (lecture de DVD)</li>
 <li>Totem (lecture de DVD)</li>
-<li>Plus généralement, tous les lecteurs de DVD libres</li>
-<li>Bittorent (logiciel de P2P, pouvant être utilisé pour du partage
-illégal)</li>
-<li>eMule et toutes ses variantes (logiciels de P2P, pouvant être
-utilisés pour du partage illégal)</li>
+<li>Plus gÃ©nÃ©ralement, tous les lecteurs de DVD libres</li>
+<li>Bittorent (logiciel de P2P, pouvant Ãªtre utilisÃ© pour du partage
+illÃ©gal)</li>
+<li>eMule et toutes ses variantes (logiciels de P2P, pouvant Ãªtre
+utilisÃ©s pour du partage illÃ©gal)</li>
 <li>Sharpmusique (contournement des DRM iTunes)</li>
 <li>FairTunes (contournement des DRM iTunes)</li>
 <li>Tout logiciel qui contournerait les DRM, que ce soit sur des
@@ -138,20 +138,20 @@ fichiers musicaux ou autres</li>
 
 
 <p> <strong>Vous</strong> pouvez aider les nombreuses associations      
-(d'artistes, de développeurs, d'enseignants, de consommateurs,          
+(d'artistes, de dÃ©veloppeurs, d'enseignants, de consommateurs,          
 ...) luttant contre cette proposition "liberticide", de <a               
 href="http://eucd.info/index.php?2005/11/16/182-appel-defendons-nos-dro 
-its-et-libertes">nombreuses façons différentes</a>. </p>                
+its-et-libertes">nombreuses faÃ§ons diffÃ©rentes</a>. </p>                
 
 <p>L'initiative <a href="http://eucd.info">eucd.info</a> rassemble des
-informations détaillées sur ce problème et des dossiers complets.</p>
+informations dÃ©taillÃ©es sur ce problÃ¨me et des dossiers complets.</p>
 
 
-<p>Nous tenons à remercier toutes les personnes participant à
-l'information à propos de DADVSI, notamment l'initiative eucd.info.<br />
-Nous remercions également les nombreux députés ayant attiré l'attention
-sur les dangers de ce texte et ayant tenté, sans succès, d'en limiter
-les effets néfastes. </p>
+<p>Nous tenons Ã  remercier toutes les personnes participant Ã 
+l'information Ã  propos de DADVSI, notamment l'initiative eucd.info.<br />
+Nous remercions Ã©galement les nombreux dÃ©putÃ©s ayant attirÃ© l'attention
+sur les dangers de ce texte et ayant tentÃ©, sans succÃ¨s, d'en limiter
+les effets nÃ©fastes. </p>
 
 
 <h1>Was ist DADVSI?</h1>
@@ -161,13 +161,13 @@ Die DADVSI (grob &uuml;bersetzt "Autorenrechte und andere Rechte in der Informat
 
 Das Hauptziel dieses Gesetzes ist die Rechte der K&auml;ufer digitaler Inhalte einzuschr&auml;nken. Insbesondere verbietet es ihnen technische Schutzmechanismen zu umgehen. (dabei weder definiert, was eine technische Kopierschutzmethode ist, noch was als Umgehung betrachtet wird)<br />
 
-Dies zu tun, Software zu entwickeln oder zu veršffentlichen, die dies erm&ouml;glicht oder sogar nur &uuml;ber M&ouml;glichkeiten zu sprechen, wird mit diesem Gesetz illegal werden</p>
+Dies zu tun, Software zu entwickeln oder zu verÂšffentlichen, die dies erm&ouml;glicht oder sogar nur &uuml;ber M&ouml;glichkeiten zu sprechen, wird mit diesem Gesetz illegal werden</p>
 
 <p><strong>VideoLAN ist davon direkt betroffen, insbesondere wegen der F&auml;higkeit, DVDs zu lesen.</strong></p>
 
 <p>Dies bedeutet, dass VLC in Frankreich als illegal angesehen werden wird, wenn das Gesetz offiziell verabschiedet ist. Die Strafe f&uuml;r das Vertreiben oder Bewerben von Software, die DRM umgeht, wird <strong>6 Monate im Gef&auml;ngnis und eine Geldstrafe &uuml;ber 30.000 Euro</strong> betragen.</p>
 
-<p>Hier eine unvollstŠndige Liste von betroffener freier Software:</p>
+<p>Hier eine unvollstÂŠndige Liste von betroffener freier Software:</p>
 
 <ul>
 <li>VLC (liest DVDs, umgeht das DRM von iTunes)</li>
@@ -187,4 +187,4 @@ Dies zu tun, Software zu entwickeln oder zu veršffentlichen, die dies erm&ouml;g
 <p>We m&ouml;chten uns bei allen Personen bedanken, die &uuml;ber DVDVSI und insbesondere &uuml;ber EUCD.info informieren.<br />
 Wir m&ouml;chten auch den Abgeordneten danken, welche versuchen auf die Gefahren des Gesetzestextes aufmerksam zu machen und dessen negative Auswirkungen zu beschr&auml;nken.</p>
 
-<?php footer('$Id:$'); ?>
+<?php footer('$Id$'); ?>

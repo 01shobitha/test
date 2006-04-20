@@ -10,7 +10,7 @@
 
 <h1>VLC media player for Linux Mandrake x86</h1>
 
-<p>Thanks to Götz Waschk who maintains these packages !</p>
+<p>Thanks to GÃ¶tz Waschk who maintains these packages !</p>
 
 <h2>Mandrake 10.2, 10.1, 10.0, 9.1, 9.2, Community and Cooker</h2>
 

@@ -38,11 +38,11 @@ states that:
 </p>
 
 <blockquote>
-« [...] Cinema on Web. (the "Licensor") grants to you this personal,
+Â« [...] Cinema on Web. (the "Licensor") grants to you this personal,
 limited, non-exclusive, non-transferable, non-assignable license solely
 to use in a single copy of the Licensed Works on a single computer for
 use by a single concurrent user only, and solely provided that you
-adhere to all of the terms and conditions of this Agreement. [...] »
+adhere to all of the terms and conditions of this Agreement. [...] Â»
 </blockquote>
 
 <p>
@@ -66,7 +66,7 @@ software's GNU GPL license.
 
 <p>
 Antoine Cellerier,<br/>
-Public Relations, the VideoLAN project, VIA Centrale Réseaux<br/>
+Public Relations, the VideoLAN project, VIA Centrale RÃ©seaux<br/>
 videolan@videolan.org
 </p>
 

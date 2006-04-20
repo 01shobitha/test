@@ -7,7 +7,7 @@
 function StartHtml( $title, $enable_live = false ) {
 
 global $HTTP_GET_VARS;
-echo "<?xml version=\"1.0\" encoding=\"iso-8859-1\" ?>\n";
+echo "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n";
 
  ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
@@ -15,7 +15,7 @@ echo "<?xml version=\"1.0\" encoding=\"iso-8859-1\" ?>\n";
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 
 <head>
-   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
    <meta name="GENERATOR" content="vim [GNU/Linux], GNU Emacs" />
    <meta name="Author" content="videolan@videolan.org (VideoLAN team)" />
    <meta name="Keywords" content="DVD, MPEG, MPEG2, MPEG4, DivX, VideoLAN,

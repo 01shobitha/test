@@ -10,7 +10,7 @@
 
 <h1>VLC media player for Crux Linux</h1>
 
-<p>Thanks to Younès Hafri who maintains these packages !</p>
+<p>Thanks to YounÃ¨s Hafri who maintains these packages !</p>
 
 <h2>Installation process</h2>
 

@@ -51,7 +51,7 @@ href="/support/lists.html" >Mailing Lists</a> or on #videolan on
 Freenode. Remember to reset your preferences if you experience problems
 after upgrading from a previous version.
 
-|17 November 2005| Purchase of a Powermac G5| Thanks to the numerous contributions we received from everywhere, we were finally able to buy a second hand dual G5 1.8 GHz. This will be used to debug sound playback on Powermacs and to host the VLC nightly builds. We particularly wish to thank <a href="http://www.macbidouille.com/">MacBidouille</a> and <a href="http://www.avosmac.com/">à Vos Macs</a> for their important support.
+|17 November 2005| Purchase of a Powermac G5| Thanks to the numerous contributions we received from everywhere, we were finally able to buy a second hand dual G5 1.8 GHz. This will be used to debug sound playback on Powermacs and to host the VLC nightly builds. We particularly wish to thank <a href="http://www.macbidouille.com/">MacBidouille</a> and <a href="http://www.avosmac.com/">Ã  Vos Macs</a> for their important support.
 
 |15 October 2005| Release: miniSAPserver 0.3.2| This release cumulates fixes for regressions introduced in 0.3.1. You are encouraged to upgrade to this new version: <a href="/streaming/download-sap-server.html">download it here</a>.
 
@@ -104,11 +104,11 @@ after upgrading from a previous version.
 
 |31 May 2005| New HP webserver| The VideoLAN website is now running on a HP DL 385 server with two AMD opteron 2.4 GHz CPUs and 8 GB RAM. The developers, forum, trac and wiki websites will be moved to this new server shortly. The VideoLAN team would like to thank Jean-Marie Verdun from HP France for this nice donation. It will hopefully fix the many problems we've been having durring the last year concerning website avaibility. (Photos of the new webserver will be uploaded shortly)
 
-|27 May 2005| VideoLAN wins award at Trophées du Libre| The VideoLAN team won the first prize in the « Multimedia » category at international free software contest <a href="http://www.tropheesdulibre.org">Trophées du Libre</a> (<a href="http://www.tropheesdulibre.org/article.php3?id_article=47">awards list</a>). We thus got a brand new HP laptop and a nice trophy. The laptop is already making friends in the cone community (<a href="http://download.videolan.org/images/sirius1.png">cones watching</a> <a href="http://download.videolan.org/images/sirius2.png">Roland Garros</a>).
+|27 May 2005| VideoLAN wins award at TrophÃ©es du Libre| The VideoLAN team won the first prize in the Â« Multimedia Â» category at international free software contest <a href="http://www.tropheesdulibre.org">TrophÃ©es du Libre</a> (<a href="http://www.tropheesdulibre.org/article.php3?id_article=47">awards list</a>). We thus got a brand new HP laptop and a nice trophy. The laptop is already making friends in the cone community (<a href="http://download.videolan.org/images/sirius1.png">cones watching</a> <a href="http://download.videolan.org/images/sirius2.png">Roland Garros</a>).
 
 |26 May 2005| VideoLAN T-Shirts now available| VideoLAN T-Shirts are now available for download on <a href="/goodies.html">the goodies page</a> ! Thanks to Lorenzo Milito for the winning design. Use a standard inkjet printer to get one ... You can also get one if you donate 12 EUR or 16 USD to the VideoLAN project. More info is available on <a href="/goodies.html">the goodies page</a>.
 
-|14-15 May 2005| Linux Cambrésis| The VideoLAN team will be present at <a href="http://linuxcambresis.org/">Linux Cambrésis</a> in Northen France. We will also hold conferences on Saturday and Sunday.
+|14-15 May 2005| Linux CambrÃ©sis| The VideoLAN team will be present at <a href="http://linuxcambresis.org/">Linux CambrÃ©sis</a> in Northen France. We will also hold conferences on Saturday and Sunday.
 
 |27 April 2005| Network Downtime| Due to a network upgrade, some VideoLAN services will be down for some time today around noon (CEST). The main website and downloads will keep working, but forum, wiki, SVN and mailing lists will be down during that time. Sorry for the inconvenience
 
@@ -117,9 +117,9 @@ Screenshots can be found <a href="http://download.videolan.org/pub/videolan/vlc/
 <b>NOTE:</b> Look at the posting date before downloading this version. <b>This is an April Fool's Joke.</b>
 
 
-|24 March 2005| Journées Federez| The VIA and VideoLAN teams are
+|24 March 2005| JournÃ©es Federez| The VIA and VideoLAN teams are
 pleased to invite you to their annual presentation day at the
-Ecole Centrale Paris (châtenay-Malabry, France). This year's
+Ecole Centrale Paris (chÃ¢tenay-Malabry, France). This year's
 edition is organised with networking associations from more than
 a dozen French engineering schools and universities. There will
 be a presentation of VideoLAN in French at 9:00 a.m. and a small
@@ -232,7 +232,7 @@ soon.
 
 |8 April 2004| VIA and VideoLAN annual presentation day| The VIA
 and VideoLAN teams are pleased to invite you to their annual
-presentation day at the Ecole Centrale Paris (Châtenay-Malabry,
+presentation day at the Ecole Centrale Paris (ChÃ¢tenay-Malabry,
 France). There will be a presentation of VideoLAN in French at
 10:45 a.m. with a full demonstration. If you are interested, please
 visit <a href="http://www.via.ecp.fr/via/journeevia2004.html">this
@@ -373,7 +373,7 @@ this will help improve user support, communication between VideoLAN
 users, and sharing of ideas. Have fun !
 
 |31 Oct - 1 Nov 2003| 5th Free software days in Lyons| VideoLAN
-will be present at the 5th Free Software (<i>Journées du Libre</i>)
+will be present at the 5th Free Software (<i>JournÃ©es du Libre</i>)
 in Lyons, France. We will have a demo of the streaming solution
 on our booth ! For more information about the event, see the <a
 href="http://www.aldil.org/agenda/journees/2003/">ALDIL web site</a>.
@@ -533,7 +533,7 @@ for the Web site : enjoy !
 
 |21 Mar 2003| VIA and VideoLAN annual presentation day| The VIA
 and VideoLAN teams are pleased to invite you to their annual
-presentation day at the Ecole Centrale Paris (Châtenay-Malabry,
+presentation day at the Ecole Centrale Paris (ChÃ¢tenay-Malabry,
 France). There will be a presentation of VideoLAN in French at
 10:45 a.m. with a full demonstration. If you are interested, please
 visit <a href="http://www.via.ecp.fr/via/journeevia2003.html">this
@@ -615,7 +615,7 @@ download the sources or the binaires.
 |29 Jan 2003| VideoLAN at Linux Expo Paris | VideoLAN will have a booth
 at <a href="http://www.linuxsolutions.fr">Linux Expo Paris 2003</a>
 (4-5-6 February 2003 at the CNIT). The VideoLAN team will welcome you at
-the booth and invites you to its <a href="http://www.linuxsolutions.fr/EN/home/index.php?site=conferences_programme">conference</a> (Conference n°5, February
+the booth and invites you to its <a href="http://www.linuxsolutions.fr/EN/home/index.php?site=conferences_programme">conference</a> (Conference nÂ°5, February
 5th afternoon).
 
 |19 Jan 2003| New VideoLAN Quickstart | The VideoLAN Quickstart has been
@@ -646,7 +646,7 @@ slides of the Free Software Days in Lyons are online: see the <a
 href="/events/">events page</a>.
 
 |1-2 Nov 2002| Free Software days in Lyons | VideoLAN will be
-present at the Free Software Days (<i>Journées du Libre</i>) in Lyons
+present at the Free Software Days (<i>JournÃ©es du Libre</i>) in Lyons
 (France): four developers will have a stand with a running demo of
 VideoLAN. This event is organized by ALDIL, and you will have all the
 information about the stands, the conferences and a site map on <a
@@ -734,7 +734,7 @@ href="http://www.ecp.fr">Ecole Centrale Paris</a>. We are streaming
 network (Gigabit Ethernet backbone and 100 Mbit/s switches on
 the periphery from our partner <a href="partners.html">Extreme
 Networks</a>) of the <a href="http://www.via.ecp.fr">VIA Centrale
-Réseaux</a> association. The students are invited to visit <a
+RÃ©seaux</a> association. The students are invited to visit <a
 href="tests/">www.videolan.org/tests/</a> for instructions.
 
 |23 May 2002| Release: vlc 0.4.0 | This is a major release which
@@ -997,7 +997,7 @@ reported bugs. As usual, <a href="/vlc/download.html">download</a> it
 quickly!
 
 |15 feb 2001| Hurricane vandalizes CVS repository | Bozo
-"weeeeuuuuaaaaaaaaahhhhhhhhh, toupétéééééééé" Hurricane launched today
+"weeeeuuuuaaaaaaaaahhhhhhhhh, toupÃ©tÃ©Ã©Ã©Ã©Ã©Ã©Ã©Ã©" Hurricane launched today
 his vls code cleaning, which means he broke everything, but also that
 vls is almost ready for a release.
 
@@ -1011,7 +1011,7 @@ href="/vlc/download.html">download</a> section!
 because the old one was reported as confusing. Here it is, in all its
 valid XHTML glory.
 
-|2 feb 2001| First official release! | Director of École Centrale Paris
+|2 feb 2001| First official release! | Director of Ã‰cole Centrale Paris
 has <a href="/images/paper.jpeg">signed</a> the authorization to release
 all the VideoLAN components under the GPL.
 

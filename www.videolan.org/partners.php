@@ -15,7 +15,7 @@ cooperation of our partners, on both technical and financial sides: </p>
 
   <tr>
     <td colspan="2">
-        <h2> École Centrale</h2>
+        <h2> Ã‰cole Centrale</h2>
     </td>
   </tr>
   <tr>
@@ -25,7 +25,7 @@ cooperation of our partners, on both technical and financial sides: </p>
     </td>
     <td>
 
-        <p>The <a href="http://www.ecp.fr/">École Centrale Paris</a> and      
+        <p>The <a href="http://www.ecp.fr/">Ã‰cole Centrale Paris</a> and      
         it's <a href="http://www.msio.ecp.fr/">Master in Open Information     
         System</a> are historic partners of the project. The Master in Open   
         Information System aims to enable the student to acquire a real       
@@ -60,7 +60,7 @@ cooperation of our partners, on both technical and financial sides: </p>
          href="http://download.videolan.org/images/sirius1.png">nice    
          HP laptop</a> at <a                                            
          href="http://www.tropheesdulibre.org/article.php3?id_article=47"
-         >Journées du Libre</a>.</p>                                 
+         >JournÃ©es du Libre</a>.</p>                                 
 
     </td>
   </tr>
@@ -82,8 +82,8 @@ cooperation of our partners, on both technical and financial sides: </p>
         href="http://www.via.ecp.fr/inauguration.html">see picture</a>  
         - Nov 2000) and an xSeries server (<a href="http://www.via.ecp.fr/membres/vie/montage-ibm-2005/">April 2005</a>) to the <a        
         href="http://www.via.ecp.fr/via/index.html?lang=en">VIA         
-        Centrale Réseaux</a> association which manages the network of   
-        the student campus of the <a href="http://www.ecp.fr/">École    
+        Centrale RÃ©seaux</a> association which manages the network of   
+        the student campus of the <a href="http://www.ecp.fr/">Ã‰cole    
         Centrale Paris</a>. These servers now run the <a                
         href="http://developers.videolan.org/lists.html">mailing        
         lists</a>, <a                                                   
@@ -147,9 +147,9 @@ cooperation of our partners, on both technical and financial sides: </p>
     <td>
 
  <p>The network of the student residence of the <a                      
- href="http://www.ecp.fr/">École Centrale Paris</a> managed by          
+ href="http://www.ecp.fr/">Ã‰cole Centrale Paris</a> managed by          
  the <a href="http://www.via.ecp.fr/via/index.html?lang=en">VIA         
- Centrale Réseaux</a> association is a brand new <a                     
+ Centrale RÃ©seaux</a> association is a brand new <a                     
  href="http://www.extremenetworks.com">Extreme Networks</a> network.    
  It is a full multicast and full layer 3 network with an Ethernet  
  Gigabit backbone and 100 Mbit/s switches on the periphery. This is     
@@ -235,7 +235,7 @@ cooperation of our partners, on both technical and financial sides: </p>
     </td>
     <td>
 	<p>Bouygues is an historic partner of the <a
-	href="http://www.ecp.fr/">École Centrale Paris</a> and helped to build
+	href="http://www.ecp.fr/">Ã‰cole Centrale Paris</a> and helped to build
 	and finance the network of the student residence of the school.</p>
     </td>
   </tr>

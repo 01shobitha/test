@@ -1,66 +1,66 @@
       Description peu technique de libdvdcss (v2.1)
 
 
-   libdvdcss est une bibliothèque de fonctions. Un programme peut
+   libdvdcss est une bibliothÃ¨que de fonctions. Un programme peut
  utiliser libdvdcss pour exploiter le contenu d'un DVD.
 
 
-    1/ Les « zones » DVD
+    1/ Les Â« zones Â» DVD
 
-   Tous les DVD et tous les lecteurs distribués dans le commerce
- comportent une information de « zone ». Ces informations combinées
- visent à limiter les pays dans lesquels peuvent être utilisés ces DVD
+   Tous les DVD et tous les lecteurs distribuÃ©s dans le commerce
+ comportent une information de Â« zone Â». Ces informations combinÃ©es
+ visent Ã  limiter les pays dans lesquels peuvent Ãªtre utilisÃ©s ces DVD
  et ces lecteurs. Il faut que les zones correspondent entre DVD et
  lecteur.
 
 
     2/ Le CSS
 
-   Le CSS (Content Scrambling System, système de brouillage du contenu)
- protège la grande majorité des DVD du commerce.
-   Les éditeurs de logiciels de lecture de DVD achètent au DVD CCA (DVD
- Copy Control Association) des clés leur permettant de décrypter le
- CSS. Ils obtiennent en même temps les instructions d'utilisation du
- CSS, tenues secrètes.
-   À l'aide de sa clé, et durant toute la lecture du DVD, un logiciel
+   Le CSS (Content Scrambling System, systÃ¨me de brouillage du contenu)
+ protÃ¨ge la grande majoritÃ© des DVD du commerce.
+   Les Ã©diteurs de logiciels de lecture de DVD achÃ¨tent au DVD CCA (DVD
+ Copy Control Association) des clÃ©s leur permettant de dÃ©crypter le
+ CSS. Ils obtiennent en mÃªme temps les instructions d'utilisation du
+ CSS, tenues secrÃ¨tes.
+   Ã€ l'aide de sa clÃ©, et durant toute la lecture du DVD, un logiciel
  dialogue avec le lecteur de DVD pour obtenir les informations de
- décryptage.
+ dÃ©cryptage.
 
 
     3/ La copie de DVD
 
-   Les systèmes présentés ne protègent pas de la copie de DVD. À l'aide
- d'un équipement adéquat on peut réaliser une copie physique du média
- (souvent appelée « bit à bit ») qui sera exploitable de la même façon.
-   De plus, puisque le média doit être décrypté par le logiciel de
- lecture pour être affiché à l'écran, le contenu décrypté du média sera
- accessible durant la lecture - quel que soit le système employé.
+   Les systÃ¨mes prÃ©sentÃ©s ne protÃ¨gent pas de la copie de DVD. Ã€ l'aide
+ d'un Ã©quipement adÃ©quat on peut rÃ©aliser une copie physique du mÃ©dia
+ (souvent appelÃ©e Â« bit Ã  bit Â») qui sera exploitable de la mÃªme faÃ§on.
+   De plus, puisque le mÃ©dia doit Ãªtre dÃ©cryptÃ© par le logiciel de
+ lecture pour Ãªtre affichÃ© Ã  l'Ã©cran, le contenu dÃ©cryptÃ© du mÃ©dia sera
+ accessible durant la lecture - quel que soit le systÃ¨me employÃ©.
 
 
     4/ Les faiblesses de CSS
 
-   CSS a été l'objet d'études universitaires qui ont, par
- rétro-analyse, découvert son fonctionnement ainsi que l'algorithme de
- brouillage employé.
-   Ces études ont ensuite montré que les clés utilisées par CSS sont
- très faibles sur le plan cryptographique, ce qui a conduit à des
- algorithmes plus efficaces de décryptage et de découverte des clés. Il
+   CSS a Ã©tÃ© l'objet d'Ã©tudes universitaires qui ont, par
+ rÃ©tro-analyse, dÃ©couvert son fonctionnement ainsi que l'algorithme de
+ brouillage employÃ©.
+   Ces Ã©tudes ont ensuite montrÃ© que les clÃ©s utilisÃ©es par CSS sont
+ trÃ¨s faibles sur le plan cryptographique, ce qui a conduit Ã  des
+ algorithmes plus efficaces de dÃ©cryptage et de dÃ©couverte des clÃ©s. Il
  est possible d'en obtenir une liste exhaustive en quelques minutes sur
  un ordinateur de bureau moderne.
 
 
     5/ Le fonctionnement de libdvdcss
 
-   La liste des clés du CSS est donc parfaitement connue, et un
- échantillon de celle-ci est distribué avec libdvdcss.
-   libdvdcss adopte le même comportement qu'un logiciel de lecture de
- DVD en utilisant une clé de cet échantillon. Si toutes les clés de
- l'échantillon échouent, libdvdcss cherche mathématiquement l'ensemble
- des clés et les essaye.
+   La liste des clÃ©s du CSS est donc parfaitement connue, et un
+ Ã©chantillon de celle-ci est distribuÃ© avec libdvdcss.
+   libdvdcss adopte le mÃªme comportement qu'un logiciel de lecture de
+ DVD en utilisant une clÃ© de cet Ã©chantillon. Si toutes les clÃ©s de
+ l'Ã©chantillon Ã©chouent, libdvdcss cherche mathÃ©matiquement l'ensemble
+ des clÃ©s et les essaye.
 
-   Il est possible que tout cela échoue, en particulier dans le cas
- où DVD et lecteur ne sont pas dans la même zone. En dernier recours,
- libdvdcss passe outre l'intégralité du système et décrypte le flux
- brouillé directement en exploitant la faiblesse cryptographique de CSS.
+   Il est possible que tout cela Ã©choue, en particulier dans le cas
+ oÃ¹ DVD et lecteur ne sont pas dans la mÃªme zone. En dernier recours,
+ libdvdcss passe outre l'intÃ©gralitÃ© du systÃ¨me et dÃ©crypte le flux
+ brouillÃ© directement en exploitant la faiblesse cryptographique de CSS.
 
 

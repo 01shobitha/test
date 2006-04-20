@@ -20,7 +20,7 @@ Ever since its inception in 1996 by visionary students, the project has
 been hosted on the campus of the &Eacute;cole Centrale Paris (ECP),
 a famous French engineering university (&quot;Grande &Eacute;cole&quot;).
 Internet bandwidth was provided by ECP, while the actual hosting was
-carried out by <a href="http://www.via.ecp.fr">VIA Centrale Réseaux</a>,
+carried out by <a href="http://www.via.ecp.fr">VIA Centrale RÃ©seaux</a>,
 the student association that manages the campus network.
 </p>
 

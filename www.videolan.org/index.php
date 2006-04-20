@@ -77,7 +77,7 @@
   href="http://www.gnu.org/copyleft/gpl.html">General Public
   License</a>. <br />
   It started as a student project at the French <a
-  href="http://www.ecp.fr/">École Centrale Paris</a> but is now a worldwide
+  href="http://www.ecp.fr/">Ã‰cole Centrale Paris</a> but is now a worldwide
   project with <a href="/team/index.html">developers</a> from 20 countries.</p>
 
 

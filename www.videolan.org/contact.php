@@ -38,10 +38,10 @@ at the following address :</p>
 
 <pre style="margin-left: 60px;">
 VideoLAN
-Club VIA Centrale RÈseaux
-RÈsidence Ecole Centrale
+Club VIA Centrale R√©seaux
+R√©sidence Ecole Centrale
 2, avenue Sully Prudhomme
-92 290 Ch‚tenay Malabry
+92 290 Ch√¢tenay Malabry
 France
 </pre>
 
@@ -51,10 +51,10 @@ France
 </p>
 
 <pre style="margin-left: 60px;">
-VIA Centrale RÈseaux
-RÈsidence des ÈlËves de l'…cole Centrale
+VIA Centrale R√©seaux
+R√©sidence des √©l√®ves de l'√âcole Centrale
 2, avenue Sully Prudhomme
-92 290 Ch‚tenay Malabry
+92 290 Ch√¢tenay Malabry
 France
 </pre>
 

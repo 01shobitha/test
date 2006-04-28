@@ -215,7 +215,7 @@ Video is choppy
 <answer>
 
 <para>
-Your system is too slow to decode all pictures. It
+Your system might be too slow to decode all pictures. It
 might be that your CPU basically is not fast enough. It can also be that
 the subsystem is misconfigured/misdriven, this happens for example under
 Redhat Linux. Here are some elements to improve speed:
@@ -268,6 +268,15 @@ xvideo plug-in is effectively used with:
 <listitem><para>
 Stop other running applications...
 </para></listitem>
+
+<listitem><para>Try disabling framedropping. Framedropping allows VLC
+not to decode some pictures when the CPU is overloaded, but can result
+in choppier playback under certain conditions.</para>
+
+<para>Framedropping behaviour can be configured in the Video preferences
+of VLC.</para>
+
+</listitem>
 
 </itemizedlist>
 

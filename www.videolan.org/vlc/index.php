@@ -33,8 +33,6 @@ screenshots</a>. </p>
 
       <h2>Download VLC</h2>
 
-<p><b>Note:</b>The VLC media player 0.8.5-test4 beta release is available <a href="http://forum.videolan.org/viewtopic.php?t=19622">here</a>.</p> 
-
 <p> Select your operating system to download precompiled binaries: </p>
 
 <?php
@@ -137,7 +135,7 @@ libraries and build them yourself:</p>
    </td><td>
 
       <div class="livecounter">
-       <h3 style="text-align:center;">VLC 0.8.4 Downloads<br /><span style="font-weight: bold" id="vlccounter">Loading...</span></h3>
+       <h3 style="text-align:center;">VLC 0.8.5 Downloads<br /><span style="font-weight: bold" id="vlccounter">Loading...</span></h3>
        <p style="text-align:center;"><span id="dlrate">Calculating...</span> downloads/second</p>
        <p style="text-align:center;"><a href="/stats/downloads.php">Full statistics</a></p>
       </div>

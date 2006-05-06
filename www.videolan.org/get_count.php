@@ -20,7 +20,7 @@
 	die;
     }
     
-    $request = pg_query($connect, "SELECT sum(number) FROM mirrors WHERE file like '%0.8.4%'" );
+    $request = pg_query($connect, "SELECT sum(number) FROM mirrors WHERE file like '%0.8.5%'" );
     if( $row = pg_fetch_array($request) )
     {
         $new = date( "U" )." ".$row[0]."\n";

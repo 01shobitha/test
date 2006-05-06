@@ -27,7 +27,7 @@
 
 <div class="solutions"> 
    <div class="solution1">
-    <h3>VLC media player</h3>
+    <h3>VLC media player 0.8.5</h3>
     <p><a href="vlc/">VLC</a> is a free cross-platform media player.</p>
     <ul>
      <li>It supports a <a href="/vlc/features.html">large number of multimedia

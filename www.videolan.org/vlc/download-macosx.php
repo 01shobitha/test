@@ -24,7 +24,6 @@
 
 <h2>Lasest Mac OS X package for 10.3.9 up to 10.4 (release 0.8.5)</h2>
 
-<p>(Requires <a href="http://www.apple.com/support/downloads/quicktime652formac.html">QuickTime 6.5.2</a> or later)</p>
 <h3>PowerPC package</h3>
 <ul>
 <?php pkgitem("0.8.5/macosx/powerpc","vlc-0.8.5.dmg","vlc"); ?>

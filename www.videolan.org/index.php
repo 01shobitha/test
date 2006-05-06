@@ -37,9 +37,11 @@
     </ul>
     <div class="download">
     <p><a class="download"
-    href="/mirror.php?mirror=http://downloads.videolan.org/pub/videolan/&amp;file=vlc/0.8.4a/win32/vlc-0.8.4a-win32.exe">Download Now</a> for Windows (9.0 MB)</p>
+    href="/mirror.php?mirror=http://downloads.videolan.org/pub/videolan/&amp;file=vlc/0.8.5/win32/vlc-0.8.5-win32.exe">Download Now</a> for Windows (7.9 MB)</p>
     <p><a class="download"
-    href="/mirror.php?mirror=http://downloads.videolan.org/pub/videolan/&amp;file=vlc/0.8.4a/macosx/vlc-0.8.4a.dmg">Download Now</a> for MacOS X (13 MB)</p>
+    href="/mirror.php?mirror=http://downloads.videolan.org/pub/videolan/&amp;file=vlc/0.8.5/macosx/powerpc/vlc-0.8.5.dmg">Download Now</a> for MacOS X PowerPC (12 MB)</p>
+    <p><a class="download"
+    href="/mirror.php?mirror=http://downloads.videolan.org/pub/videolan/&amp;file=vlc/0.8.5/macosx/intel/vlc-0.8.5-intel.dmg">Download Now</a> for MacOS X Intel (13 MB)</p>
     <p><a  href="/vlc/">Others systems, learn more</a></p>
     </div>
   </div>

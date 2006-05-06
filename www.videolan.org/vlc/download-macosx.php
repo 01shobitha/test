@@ -22,10 +22,25 @@
 
 <p><b>Note:</b> There is not, and there will never be, a version for Mac OS 9.</p>
 
-<h2>Latest Mac OS X package for 10.2, 10.3 and 10.4 (release 0.8.4a)</h2>
+<h2>Lasest Mac OS X package for 10.3.9 up to 10.4 (release 0.8.5)</h2>
 
 <p>(Requires <a href="http://www.apple.com/support/downloads/quicktime652formac.html">QuickTime 6.5.2</a> or later)</p>
-<p><b>This release does not support Intel-Macs. Check the <a href="http://nightlies.videolan.org">Nightly Builds</a> for this platform.<br/>Look for known issues and provide feedback on these pre-release builds <a href="http://forum.videolan.org/viewtopic.php?t=16725">here</a>.</b></p>
+<h3>PowerPC package</h3>
+<ul>
+<?php pkgitem("0.8.5/macosx/powerpc","vlc-0.8.5.dmg","vlc"); ?>
+</ul>
+<h3>Intel package</h3>
+<ul>
+<?php pkgitem("0.8.5/macosx/intel","vlc-0.8.5-intel.dmg","vlc"); ?>
+</ul>
+<h3>PowerPC mozilla/safari plugin package</h3>
+<ul>
+<?php pkgitem("0.8.5/macosx/powerpc","vlc-plugin-0.8.5.dmg","vlc"); ?>
+</ul>
+
+<h2>Last Mac OS X package for 10.2, 10.3 up to 10.3.8 (release 0.8.4a)</h2>
+
+<p>(Requires <a href="http://www.apple.com/support/downloads/quicktime652formac.html">QuickTime 6.5.2</a> or later)</p>
 <ul>
 <?php pkgitem("0.8.4a/macosx","vlc-0.8.4a.dmg","vlc"); ?>
 </ul>

@@ -14,24 +14,25 @@
 
 <h1> VLC media player for Windows </h1>
 
-<h2>Latest packages (0.8.4a)</h2>
+<h2>Latest packages (0.8.5)</h2>
 
 <p> Windows self-extracting package: </p>
 
 <ul>
-  <?php pkgitem("0.8.4a/win32","vlc-0.8.4a-win32.exe","vlc"); ?>
+  <?php pkgitem("0.8.5/win32","vlc-0.8.5-win32.exe","vlc"); ?>
 </ul>
 
-<p> Windows zip package (identical to the above but without the installer): </p>
+<p> Windows 7zip and zip packages (identical to the above but without the installer): </p>
 
 <ul>
-  <?php pkgitem("0.8.4a/win32","vlc-0.8.4a-win32.zip","vlc"); ?>
+  <?php pkgitem("0.8.5/win32","vlc-0.8.5-win32.7z","vlc"); ?>
+  <?php pkgitem("0.8.5/win32","vlc-0.8.5-win32.zip","vlc"); ?>
 </ul>
 
 <p><em>Windows 95/98/Me users:</em> Please note that these versions of Windows are 
 not officially supported. No VideoLAN developer uses any of these systems, which
 makes them hard to support.<br />
-VLC should mostly work with them, but some incompatibilities might appear.</p>
+VLC should mostly work with them, but some incompatibilities might appear. You might need to download <a href="http://www.microsoft.com.nsatc.net/globaldev/handson/dev/mslu_announce.mspx">The Microsoft Layer for Unicode on Windows 95/98/Me Systems</a>.</p>
 
 <p> <span style="color: red;"><b>Virus warning</b></span>: we have had several
 reports of trojaned VLC binaries (Sophos detected Troj/Momma-B, and Panda

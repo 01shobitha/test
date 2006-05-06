@@ -12,14 +12,14 @@
 
 <h2>Tarballs</h2>
 
-<p> Latest VLC source code tarball (0.8.4a): </p>
+<p> Latest VLC source code tarball (0.8.5): </p>
 
 <ul>
   <?php
-     pkgitem("0.8.4a","vlc-0.8.4a.tar.gz","vlc");
-     pkgitem("0.8.4a","vlc-0.8.4a.tar.bz2","vlc");
+     pkgitem("0.8.5","vlc-0.8.5.tar.gz","vlc");
+     pkgitem("0.8.5","vlc-0.8.5.tar.bz2","vlc");
   ?>
-  <li><a href="http://downloads.videolan.org/pub/videolan/vlc/0.8.4a/"><i>browse the list</i></a></li>
+  <li><a href="http://downloads.videolan.org/pub/videolan/vlc/0.8.5/"><i>browse the list</i></a></li>
 </ul>
 
 <p> Latest required libraries: </p>

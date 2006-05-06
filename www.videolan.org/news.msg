@@ -2,6 +2,19 @@
 # New topics begin with a "|"
 #
 
+|6 May 2006| Release: VLC media player 0.8.5 | This new Release features many improvements, including MacIntel support, a statistic system, the support of DV inputs on Linux, improvements in the Audio CD playback (CDDB), many new and improved video filters, a new AJAX HTTP interface, Winamp 2 Skins support, a Mozilla plugin on Mac OS X (PowerPC only), a new default skin ...<br />
+Have a look <a href="http://developers.videolan.org/vlc/NEWS">here</a>
+for the full list of changes.<br />
+Binary packages and the source code are available on the <a href="/vlc/">
+VLC download page</a>.<br />
+You can get help concerning this new release on the <a href="/doc/"
+>Documentation Page</a>, <a href="http://forum.videolan.org/"
+>Forum</a>, <a href="http://wiki.videolan.org" >Wiki</a>, <a
+href="/support/lists.html" >Mailing Lists</a> or on #videolan on
+Freenode. Remember to reset your preferences if you experience problems
+after upgrading from a previous version.
+
+
 |1 April 2006| Apple-VideoLAN partnership announced, Mac VLC to be Intel only (April fool's) | In an effort to help Apple with its Intel transition, the VideoLAN team, distributor of the industry leading cross-platform media player VLC, announced its intent to drop support for the now outdated G4 and G5 based series of Mac computers. Read the full <a href="/pr2006-2.html">Press Release</a>.<br/>
 <span style="color:red;"><b>Note:</b> Look at the date...</span>
 

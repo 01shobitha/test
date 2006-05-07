@@ -55,7 +55,7 @@ Stream with DV
 </title>
 
 <para>
-Connect the DV camcorder with a Firewire cable to your computer, and check the creation of the file <filename>/dev/raw1394</filename>. This is a symlink to <filename>/dev/raw/raw1394</filename>.
+Connect the DV camcorder with a Firewire cable to your computer, and check the creation of the file <filename>/dev/raw1394</filename>.
 </para>
 
 <para>
@@ -82,11 +82,11 @@ where:
 ,</para></listitem>
 
 <listitem><para><emphasis>sout</emphasis>
- is the stream output chain that is used to stream the DV camcorder as a multimedia stream over the network. The <emphasis>transcode</emphasis> syntax is explained in the chapter about transcoding. The example as given above generates a multimedia stream that is compatible with Windows Media Player.
+ is the stream output chain that is used to stream the DV camcorder as a multimedia stream over the network. The <emphasis>transcode</emphasis> syntax is explained in the chapter about transcoding. The example as given above generates a multimedia stream that is compatible with Windows Media Player
 ,</para></listitem>
 
 <listitem><para><emphasis>sout-transcode-fps</emphasis>
- is the number of pictures per second <emphasis>25.0</emphasis>that the transcode module should generate of the requested audio/video codec.
+ is the number of pictures per second <emphasis>25.0</emphasis> that the transcode module should generate of the requested audio/video codec.
 </para></listitem>
 </itemizedlist>
 

@@ -8,28 +8,23 @@ http://ftp2.via.ecp.fr/pub/videolan/ VIA Centrale Reseaux, École Centrale Paris
 http://ftp.snt.utwente.nl/pub/software/videolan/ Twente University (Netherlands) [http]
 #
 # Contact : mirrormaster at ircam dot fr - BW : 1 GBit
-#Waiting for update 
-#http://mirrors.ircam.fr/pub/videolan/ IRCAM (France) [http]
+http://mirrors.ircam.fr/pub/videolan/ IRCAM (France) [http]
 #
 # Contact : Emmanuel dot Blindauer at urs dot u-strasbg dot fr - BW : 1 GBit
-#Waiting for update 
-#ftp://ftp.u-strasbg.fr/pub/videolan/ Université de Strasbourg (France) [ftp]
+ftp://ftp.u-strasbg.fr/pub/videolan/ Université de Strasbourg (France) [ftp]
 #
 # Contact: vinceII on irc.rezosup.net - 
-#Waiting for update 
-#ftp://ftp.crans.org/pub/videolan/ Cr@ns, ENS Cachan (France) [ftp]
+ftp://ftp.crans.org/pub/videolan/ Cr@ns, ENS Cachan (France) [ftp]
 #
 # Contact : hsunchang at gmail dot com
 #Waiting for update 
 #ftp://videolan.cs.pu.edu.tw/Windows/VideoLAN/ Providence University (Taiwan) [ftp]
 #
 # Contact : erik at telia dot com - round robin 100Mbits Stockholm 100Mbits Gothenburg
-#Waiting for update 
-#ftp://ftp.endpoint.nu/pub/software/videolan/ Endpoint Corporation (Sweden) [ftp]
+ftp://ftp.endpoint.nu/pub/software/videolan/ Endpoint Corporation (Sweden) [ftp]
 #
 # Contact : richard at optralan dot com - BW 100 Mbits - East coast
-#Waiting for update 
-#http://mirrors.optralan.com/videolan/ Optralan (USA) [http]
+http://mirrors.optralan.com/videolan/ Optralan (USA) [http]
 #
 ############ Permanently disabled #############
 #

@@ -36,12 +36,57 @@
      <li>It needs little CPU power</li>
     </ul>
     <div class="download">
-    <p><a class="download"
-    href="/mirror.php?mirror=http://downloads.videolan.org/pub/videolan/&amp;file=vlc/0.8.5/win32/vlc-0.8.5-win32.exe">Download Now</a> for Windows (7.9 MB)</p>
-    <p><a class="download"
-    href="/mirror.php?mirror=http://downloads.videolan.org/pub/videolan/&amp;file=vlc/0.8.5/macosx/powerpc/vlc-0.8.5.dmg">Download Now</a> for MacOS X PowerPC (12 MB)</p>
-    <p><a class="download"
-    href="/mirror.php?mirror=http://downloads.videolan.org/pub/videolan/&amp;file=vlc/0.8.5/macosx/intel/vlc-0.8.5-intel.dmg">Download Now</a> for MacOS X Intel (13 MB)</p>
+<?php
+$dlwin32='<p><a class="download" href="/mirror.php?mirror=http://downloads.videolan.org/pub/videolan/&amp;file=vlc/0.8.5/win32/vlc-0.8.5-win32.exe">Download Now</a> for Windows (7.9 MB)</p>';
+$dlmacosxppc='<p><a class="download" href="/mirror.php?mirror=http://downloads.videolan.org/pub/videolan/&amp;file=vlc/0.8.5/macosx/powerpc/vlc-0.8.5.dmg">Download Now</a> for MacOS X PowerPC (12 MB)</p>';
+$dlmacosxintel='<p><a class="download" href="/mirror.php?mirror=http://downloads.videolan.org/pub/videolan/&amp;file=vlc/0.8.5/macosx/intel/vlc-0.8.5-intel.dmg">Download Now</a> for MacOS X Intel (13 MB)</p>';
+$dllinux='<p><a class="download" href="/vlc/">Download Now</a> for Linux and other OSes</p>';
+$dlmacos9='<p>Haha Mac OS 9 is dead! (if you\\\'re not using Mac OS 9 ... please write us a mail so we can fix this OS detection script)</p>';
+?>
+<script type="text/javascript">
+<!--
+if (navigator.platform.indexOf("Win32") != -1)
+{
+  document.writeln( '<?php echo $dlwin32; ?>' );
+}
+else if (navigator.platform.indexOf("Linux") != -1)
+{
+  document.writeln( '<?php echo $dllinux; ?>' );
+}
+else if (    navigator.userAgent.indexOf("Mac OS X") != -1
+          || navigator.userAgent.indexOf("MSIE 5.2") != -1 )
+{
+  if( navigator.platform.indexOf("MacPPC") != -1 )
+  {
+    document.writeln( '<?php echo $dlmacosxppc; ?>' );
+  }
+  else if( navigator.platform.indexOf("Intel") != -1 )
+  {
+    document.writeln( '<?php echo $dlmacosxintel; ?>' );
+  }
+  else
+  {
+    document.writeln( '<?php echo $dlmacosxppc; ?>' );
+    document.writeln( '<?php echo $dlmacosxintel; ?>' );
+  }
+}
+else if ( navigator.platform.indexOf("Mac") != -1 )
+{
+    document.writeln( '<?php echo $dlmacos9; ?>' );
+}
+else
+{
+  document.writeln( '<?php echo $dlwin32; ?>' );
+  document.writeln( '<?php echo $dlmacosxppc; ?>' );
+  document.writeln( '<?php echo $dlmacosxintel; ?>' );
+}
+//-->
+</script>
+<noscript>
+  <?php echo $dlwin32; ?>
+  <?php echo $dlmacosxppc; ?>
+  <?php echo $dlmacosxintel; ?>
+</noscript>
     <p><a  href="/vlc/">Others systems, learn more</a></p>
     </div>
   </div>

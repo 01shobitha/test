@@ -33,7 +33,7 @@ if you want to install the libraries from the source then you must download them
 </para></listitem>
 
 <listitem><para>
-if you have a distribution that uses <ulink url="http://kernel.org/pub/linux/utils/kernel/hotplug">udev</ulink>, then you must add/change the following line to the file 50-udev.rules in your /etc/udev/rules.d directory.</br>
+if you have a distribution that uses <ulink url="http://kernel.org/pub/linux/utils/kernel/hotplug">udev</ulink>, then you must add/change the following line to the file 50-udev.rules in your /etc/udev/rules.d directory.
 <screen>
 <prompt>%</prompt><userinput>vi /etc/udev/rules.d/50-udev.rules</userinput>
 <userinput># IEEE1394 (firewire) devices (must be before raw devices below)</userinput>

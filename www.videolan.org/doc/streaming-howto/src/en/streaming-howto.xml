@@ -18,6 +18,7 @@
   <!ENTITY dvd SYSTEM "dvd.xml">
   <!ENTITY dvb SYSTEM "dvb.xml">
   <!ENTITY encoding-cards SYSTEM "encoding-cards.xml">
+  <!ENTITY dv-camcorder SYSTEM "dv.xml">
 
   <!-- Misc -->
   <!ENTITY ipv6 SYSTEM "ipv6.xml"> <!-- FIXME: useful ? -->
@@ -53,10 +54,14 @@
     <firstname>Antoine</firstname>
     <surname>Cellerier</surname>
   </author>
+  <author>
+    <firstname>Jean-Paul</firstname>
+    <surname>Saman</surname>
+  </author>
 </authorgroup>
 
 <copyright>
-    <year>2002-2004</year>
+    <year>2002-2005</year>
     <holder>
      the VideoLAN project
      </holder>

@@ -34,6 +34,7 @@ Streaming, Muxers and Codecs</title>
 <listitem><para>MPEG-1, MPEG-2 and MPEG-4 / DivX files from a hard disk, a CD-ROM drive, ...</para></listitem>
 <listitem><para>DVDs and VCDs</para></listitem>
 <listitem><para>from a satellite card (DVB-S)</para></listitem>
+<listitem><para>from a camcorder (DV)</para></listitem>
 <listitem><para>MPEG-1, MPEG-2 and MPEG-4 streams from the network sent by VLS or VLC's stream output</para></listitem>
 </itemizedlist>
 <para>VLC can also be used as a server to stream:</para>
@@ -41,6 +42,7 @@ Streaming, Muxers and Codecs</title>
 <listitem><para>MPEG-1, MPEG-2 and MPEG-4 / DivX files,</para></listitem>
 <listitem><para>DVDs,</para></listitem>
 <listitem><para>from an MPEG encoding card,</para></listitem>
+<listitem><para>from a camcorder DV,</para></listitem>
 </itemizedlist>
 <para>to:</para>
 <itemizedlist>

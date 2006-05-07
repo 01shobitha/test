@@ -86,6 +86,8 @@ The text of the license can be found in the appendix.
     <keyword>MPEG-1</keyword>
     <keyword>MPEG-2</keyword>
     <keyword>MPEG-4</keyword>
+    <keyword>DV</keyword>
+    <keyword>DVB</keyword>
     <keyword>DVD</keyword>
     <keyword>DivX</keyword>
 </keywordset>
@@ -117,6 +119,7 @@ This document explains how to stream, transcode and save streams using the Video
 &dvd;
 &dvb;
 &encoding-cards;
+&dv;
 
 &ipv6;
 &gpl;

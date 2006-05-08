@@ -1,5 +1,6 @@
 Redirect /mirror.html http://www.videolan.org/mirror.php
 Redirect /vlc/download-skins2.html http://www.videolan.org/vlc/download-skins2.php
+Redirect /vlc/download-mandrake.html http://www.videolan.org/vlc/download-mandriva.php
 
 ErrorDocument 403 /403.html
 ErrorDocument 404 /404.html

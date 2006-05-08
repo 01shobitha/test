@@ -64,18 +64,18 @@
 <a href="/doc/play-howto/fr/play-howto-fr.html">FR</a>
 </td>
 <td class="yes">
-<a href="/doc/play-howto/en/play-howto-en-html.zip">EN</a>
-<a href="/doc/play-howto/fr/play-howto-fr-html.zip">FR</a>
+<a href="/doc/play-howto/en/play-howto-en.html.zip">EN</a>
+<a href="/doc/play-howto/fr/play-howto-fr.html.zip">FR</a>
 </td>
 <td class="yes">
 <a href="/doc/play-howto/en/play-howto-en.pdf">EN</a>
-(<a href="/doc/play-howto/en/play-howto-en-pdf.zip">zip</a>)
+(<a href="/doc/play-howto/en/play-howto-en.pdf.zip">zip</a>)
 <a href="/doc/play-howto/fr/play-howto-fr.pdf">FR</a>
-(<a href="/doc/play-howto/fr/play-howto-fr-pdf.zip">zip</a>)
+(<a href="/doc/play-howto/fr/play-howto-fr.pdf.zip">zip</a>)
 </td>
 <td class="yes">
-<a href="/doc/play-howto/en/play-howto-en-rtf.zip">EN</a>
-<a href="/doc/play-howto/fr/play-howto-fr-rtf.zip">FR</a>
+<a href="/doc/play-howto/en/play-howto-en.rtf.zip">EN</a>
+<a href="/doc/play-howto/fr/play-howto-fr.rtf.zip">FR</a>
 </td>
 <td class="yes">
 <a href="/doc/play-howto/en/play-howto-en.txt">EN</a>
@@ -94,18 +94,18 @@
 <a href="/doc/streaming-howto/fr/streaming-howto-fr.html">FR</a>
 </td>
 <td class="yes">
-<a href="/doc/streaming-howto/en/streaming-howto-en-html.zip">EN</a>
-<a href="/doc/streaming-howto/fr/streaming-howto-fr-html.zip">FR</a>
+<a href="/doc/streaming-howto/en/streaming-howto-en.html.zip">EN</a>
+<a href="/doc/streaming-howto/fr/streaming-howto-fr.html.zip">FR</a>
 </td>
 <td class="yes">
 <a href="/doc/streaming-howto/en/streaming-howto-en.pdf">EN</a>
-(<a href="/doc/streaming-howto/en/streaming-howto-en-pdf.zip">zip</a>)
+(<a href="/doc/streaming-howto/en/streaming-howto-en.pdf.zip">zip</a>)
 <a href="/doc/streaming-howto/fr/streaming-howto-fr.pdf">FR</a>
-(<a href="/doc/streaming-howto/fr/streaming-howto-fr-pdf.zip">zip</a>)
+(<a href="/doc/streaming-howto/fr/streaming-howto-fr.pdf.zip">zip</a>)
 </td>
 <td class="yes">
-<a href="/doc/streaming-howto/en/streaming-howto-en-rtf.zip">EN</a>
-<a href="/doc/streaming-howto/fr/streaming-howto-fr-rtf.zip">FR</a>
+<a href="/doc/streaming-howto/en/streaming-howto-en.rtf.zip">EN</a>
+<a href="/doc/streaming-howto/fr/streaming-howto-fr.rtf.zip">FR</a>
 </td>
 <td class="yes">
 <a href="/doc/streaming-howto/en/streaming-howto-en.txt">EN</a>

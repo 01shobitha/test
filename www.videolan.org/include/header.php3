@@ -32,7 +32,7 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n";
    <?php } ?>
 </head>
 <?php if( $enable_live == true ) { ?>
-   <body onload="get_count();">
+   <body onload="getCount();">
 <?php } else { ?>
    <body>
 <?php

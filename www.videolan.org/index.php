@@ -37,11 +37,30 @@
     </ul>
     <div class="download">
 <?php
+/* Windows */
 $dlwin32='<p><a class="download" href="/mirror.php?mirror=http://downloads.videolan.org/pub/videolan/&amp;file=vlc/0.8.5/win32/vlc-0.8.5-win32.exe">Download Now</a> for Windows (7.9 MB)</p>';
+
+/* Mac OS */
 $dlmacosxppc='<p><a class="download" href="/mirror.php?mirror=http://downloads.videolan.org/pub/videolan/&amp;file=vlc/0.8.5/macosx/powerpc/vlc-0.8.5.dmg">Download Now</a> for MacOS X PowerPC (12 MB)</p>';
 $dlmacosxintel='<p><a class="download" href="/mirror.php?mirror=http://downloads.videolan.org/pub/videolan/&amp;file=vlc/0.8.5/macosx/intel/vlc-0.8.5-intel.dmg">Download Now</a> for MacOS X Intel (13 MB)</p>';
-$dllinux='<p><a class="download" href="/vlc/">Download Now</a> for Linux and other OSes</p>';
 $dlmacos9='<p>Haha Mac OS 9 is dead! (if you\\\'re not using Mac OS 9 ... please write us a mail so we can fix this OS detection script)</p>';
+
+/* Linux */
+$dllinux='<p><a class="download" href="/vlc/">Download Now</a> for Linux and other OSes</p>';
+$dldebian='<p><a class="download" href="/vlc/download-debian.html">Download Now</a> for Debian GNU/Linux</p>';
+$dlubuntu='<p><a class="download" href="/vlc/download-ubuntu.html">Download Now</a> for Ubuntu Linux</p>';
+$dlfedora='<p><a class="download" href="/vlc/download-fedora.html">Download Now</a> for Fedora Linux</p>';
+$dlredhat='<p><a class="download" href="/vlc/download-redhat.html">Download Now</a> for Red Hat Linux</p>';
+$dlmandriva='<p><a class="download" href="/vlc/download-mandriva.html">Download Now</a> for Mandriva Linux</p>';
+$dlgentoo='<p><a class="download" href="/vlc/download-gentoo.html">Download Now</a> for Gentoo Linux</p>';
+$dlsuse='<p><a class="download" href="/vlc/download-suse.html">Download Now</a> for Suse Linux</p>';
+
+/* BeOS */
+$dlbeos='<p><a class="download" href="/vlc/download-beos.html">Download Now</a> for BeOS</p>';
+
+/* *BSD */
+$dlfreenbsd='<p><a class="download" href="/vlc/download-freebsd.html">Download Now</a> for FreeBSD</p>';
+
 ?>
 <script type="text/javascript">
 <!--
@@ -51,7 +70,44 @@ if (navigator.platform.indexOf("Win32") != -1)
 }
 else if (navigator.platform.indexOf("Linux") != -1)
 {
-  document.writeln( '<?php echo $dllinux; ?>' );
+  if(    navigator.userAgent.indexOf("Ubuntu") != -1
+      || navigator.userAgent.indexOf("ubuntu") != -1 )
+  {
+    document.writeln( '<?php echo $dlubuntu; ?>' );
+  }
+  else if( navigator.userAgent.indexOf("Fedora") != -1 )
+  {
+    document.writeln( '<?php echo $dlfedora; ?>' );
+  }
+  else if( navigator.userAgent.indexOf("SUSE") != -1 )
+  {
+    document.writeln( '<?php echo $dlsuse; ?>' );
+  }
+  else if( navigator.userAgent.indexOf("Debian") != -1 )
+  {
+    document.writeln( '<?php echo $dldebian; ?>' );
+  }
+  else if( navigator.userAgent.indexOf("Mandriva") != -1 )
+  {
+    document.writeln( '<?php echo $dlmandriva; ?>' );
+  }
+  else if( navigator.userAgent.indexOf("Red Hat") != -1 )
+  {
+    document.writeln( '<?php echo $dlredhat; ?>' );
+  }
+  else if( navigator.userAgent.indexOf("gentoo") != -1 )
+  {
+    document.writeln( '<?php echo $dlgentoo; ?>' );
+  }
+  else
+  {
+    document.writeln( '<?php echo $dllinux; ?>' );
+  }
+}
+else if(    navigator.userAgent.indexOf("freebsd") != -1
+         || navigator.userAgent.indexOf("FreeBSD") != -1 )
+{
+  document.writeln( '<?php echo $dlfreebsd; ?>' );
 }
 else if (    navigator.userAgent.indexOf("Mac OS X") != -1
           || navigator.userAgent.indexOf("MSIE 5.2") != -1 )

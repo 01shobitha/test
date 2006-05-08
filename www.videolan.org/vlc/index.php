@@ -101,6 +101,10 @@ libraries and build them yourself:</p>
 </tr>
 </table>
 
+<p>You couldn't find your OS / Distribution in this list but
+know where to find VLC media player builds elsewhere? Please <a
+href="/team/">Contact us</a> so we can add a link.</p>
+
       <h2>Documentation</h2>
 
 <p>See the <a href="/doc/">documentation page</a>.</p>

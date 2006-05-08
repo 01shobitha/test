@@ -64,7 +64,7 @@ echo " <td>
  </tr>
  <tr>
 <?php addos( "Slackware Linux", "slackware.jpg", "download-slackware.html" ); ?>
- <td></td>
+<?php addos( "Ubuntu Linux", "ubuntu.png", "download-ubuntu.html" ); ?>
  <td></td>
  </tr>
  </table>

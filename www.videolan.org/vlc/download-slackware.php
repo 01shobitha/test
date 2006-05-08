@@ -10,7 +10,7 @@
 <h1>VLC media player for Linux Slackware</h1>
 
 <h2>Unofficial packages</h2>
-<p>Pallansson build a tgz for VLC 0.8.5:</p>
+<p><a href="http://pallansson.homeip.net/vlc/index.html">Per Allansson</a> build a tgz for VLC 0.8.5:</p>
 <ul>
   <?php pkgitem("0.8.5/slackware","vlc-0.8.5-i686-1.tgz","vlc"); ?>
 </ul>

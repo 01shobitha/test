@@ -62,6 +62,11 @@ echo " <td>
       addos( "Red Hat Linux", "redhat.gif", "download-redhat.html" );
       addos( "WinCE / PocketPC", "zaurus.png", "download-wince.html" ); ?>
  </tr>
+ <tr>
+<?php addos( "Slackware Linux", "slackware.jpg", "download-slackware.html" ); ?>
+ <td></td>
+ <td></td>
+ </tr>
  </table>
 
 <p>For the other operating systems supported, there are no precompiled

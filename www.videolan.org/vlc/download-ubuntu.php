@@ -13,8 +13,8 @@
 
 <h2>Install the latest stable version</h2>
 <pre>
-   # apt-get update
-   # apt-get install vlc vlc-plugin-esd
+   % sudo apt-get update
+   % sudo apt-get install vlc vlc-plugin-esd
 </pre>
 
 <h2>Developement snapshots</h2>

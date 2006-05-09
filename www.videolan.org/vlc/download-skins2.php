@@ -108,10 +108,11 @@ a downloaded skin.</p>
 
 <h2>Create your own skin!</h2>
 
-<p>You don't like the skins listed on this page? Just <a
-href="/vlc/skins2-create.html">create a better one</a>!<br/>
-Don't worry, you don't need any programming skills... Some knowledge about
-graphics software might ease the job, though :-)</p>
+<p>In addition to the skins listed below, VLC now supports all the Winamp2 and
+XMMS skins (.wsz files). But if you still don't find any skin you like, why not
+<a href="/vlc/skins2-create.html">creating a better one</a>?<br/> Don't worry,
+you don't need any programming skills... Some knowledge about graphics software
+might ease the job, though :-)</p>
 
 <h2>Downloads...</h2>
 

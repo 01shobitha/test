@@ -7,7 +7,7 @@
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
 ?>
 
-<h1>VLC media player for ALT Linux</h1>
+<h1>VLC media player for <a href="http://www.altlinux.com/">ALT Linux</a></h1>
 
 <h2>ALT Linux Sisyphus (unstable)</h2>
 <p>Sisyphus packages repository always contains one of the latest development

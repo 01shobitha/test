@@ -9,7 +9,7 @@
 
 <?php function pkgitem($version,$name,$comment) { ?><li><a href="http://download.videolan.org/pub/videolan/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a> <?php echo $comment; ?> </li><?php } ?>
 
-<h1>VLC media player for Ubuntu Linux</h1>
+<h1>VLC media player for <a href="http://www.ubuntu.com/">Ubuntu Linux</a></h1>
 
 <h2>Install the latest stable version</h2>
 <pre>

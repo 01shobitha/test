@@ -7,7 +7,7 @@
    include($_SERVER["DOCUMENT_ROOT"]."/include/mirrordir.php");
 ?>
 
-<h1> VLC media player for Gentoo Linux</h1>
+<h1> VLC media player for <a href="http://www.gentoo.org/">Gentoo Linux</a></h1>
 
 <h2>Install VLC through emerge</h2>
 

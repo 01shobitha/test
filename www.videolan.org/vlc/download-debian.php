@@ -9,7 +9,7 @@
 
 <?php function pkgitem($version,$name,$comment) { ?><li><a href="http://download.videolan.org/pub/videolan/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a> <?php echo $comment; ?> </li><?php } ?>
 
-<h1> VLC media player for Debian GNU/Linux</h1>
+<h1> VLC media player for <a href="http://debian.org">Debian GNU/Linux</a></h1>
 
 <h2> Debian stable (sarge) </h2>
 

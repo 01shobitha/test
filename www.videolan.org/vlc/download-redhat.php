@@ -9,7 +9,7 @@
 
 <?php function pkgitem($version,$name,$comment) { ?><li><a href="http://download.videolan.org/pub/videolan/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a> <?php echo $comment; ?> </li><?php } ?>
 
-<h1>VLC media player for Red Hat Linux</h1>
+<h1>VLC media player for <a href="http://www.redhat.com/">Red Hat Linux</a></h1>
 
 <h2>Red Hat packages for i386</h2>
 

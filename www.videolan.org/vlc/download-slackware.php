@@ -7,7 +7,7 @@
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
 ?>
 
-<h1>VLC media player for Linux Slackware</h1>
+<h1>VLC media player for <a href="http://slackware.com/">Linux Slackware</a></h1>
 
 <h2>Unofficial packages</h2>
 <p><a href="http://pallansson.homeip.net/vlc/index.html">Per Allansson (click here for packages changelog)</a> build a tgz for VLC 0.8.5:</p>

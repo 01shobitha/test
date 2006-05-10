@@ -7,7 +7,7 @@
    include($_SERVER["DOCUMENT_ROOT"]."/include/mirrordir.php");
 ?>
 
-<h1> VLC media player for FreeBSD</h1>
+<h1> VLC media player for <a href="http://www.freebsd.org/">FreeBSD</a></h1>
 
 <h2>Install VLC through the Ports Collection</h2>
 

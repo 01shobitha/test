@@ -32,7 +32,7 @@
 <p><em>Windows 95/98/Me users:</em> Please note that these versions of Windows are 
 not officially supported. No VideoLAN developer uses any of these systems, which
 makes them hard to support.<br />
-VLC should mostly work with them, but some incompatibilities might appear. You might need to download <a href="http://www.microsoft.com.nsatc.net/globaldev/handson/dev/mslu_announce.mspx">The Microsoft Layer for Unicode on Windows 95/98/Me Systems</a>.</p>
+VLC should mostly work with them, but some incompatibilities might appear. You might need to download <a href="http://www.microsoft.com.nsatc.net/globaldev/handson/dev/mslu_announce.mspx">The Microsoft Layer for Unicode on Windows 95/98/Me Systems</a>. The two MSLU files need to be put in the C:\Windows\System32\ folder.</p>
 
 <p> <span style="color: red;"><b>Virus warning</b></span>: we have had several
 reports of trojaned VLC binaries (Sophos detected Troj/Momma-B, and Panda

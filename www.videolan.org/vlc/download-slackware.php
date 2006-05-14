@@ -15,6 +15,11 @@
   <?php pkgitem("0.8.5/slackware","vlc-0.8.5-i686-3.tgz","vlc"); ?>
 </ul>
 
+<p>Use the following command to install the package:</p>
+<pre>
+  # installpkg vlc-0.8.5-i686-3.tgz 
+</pre>
+
 <p>Another VLC tgz are also available on <a href="http://www.slacky.it/index.php?option=com_remository&Itemid=29&func=fileinfo&parent=folder&filecatid=1120">Italian Slackware Community</a>.</p>
 
 <?php footer('$Id$'); ?>

@@ -68,6 +68,10 @@ if (navigator.platform.indexOf("Win32") != -1)
 {
   document.writeln( '<?php echo $dlwin32; ?>' );
 }
+else if (navigator.platform.indexOf("BeOS") != -1 )
+{
+  document.writeln( '<?php echo $dlbeos; ?>' );
+}
 else if (navigator.platform.indexOf("Linux") != -1)
 {
   if(    navigator.userAgent.indexOf("Ubuntu") != -1

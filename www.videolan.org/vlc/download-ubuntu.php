@@ -12,6 +12,13 @@
 <h1>VLC media player for <a href="http://www.ubuntu.com/">Ubuntu Linux</a></h1>
 
 <h2>Install the latest stable version</h2>
+<h3>Graphical way</h3>
+<p>Open Synaptic (System -&gt; Administration -&gt; Synaptic Package Manager). 
+In Settings -&gt; Repositories, make sure you have a &quot;universe&quot; 
+repository activated.</p>
+<p>Search for vlc and install it. You should also install vlc-plugin-esd.</p>
+<h3>Command line way</h3>
+<p>You need to check that you have a &quot;universe&quot; mirror in your /etc/apt/sources.list.</p>
 <pre>
    % sudo apt-get update
    % sudo apt-get install vlc vlc-plugin-esd

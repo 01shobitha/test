@@ -25,6 +25,11 @@ ftp://ftp.endpoint.nu/pub/software/videolan/ Endpoint Corporation (Sweden) [ftp]
 # Contact : richard at optralan dot com - BW 100 Mbits - East coast
 http://mirrors.optralan.com/videolan/ Optralan (USA) [http]
 #
+# Contact : jason andrade - jason at aarnet dot edu dot au - BW 10Gbit (?)
+# Australian Academic and Research Network
+http://mirror.aarnet.edu.au/pub/videolan/ AARNet (Australia) [http]
+ftp://mirror.aarnet.edu.au/pub/videolan/ AARNet (Australia) [ftp]
+#
 ############ Permanently disabled #############
 #
 # Contact : juan dot mussini at pucpr dot br - Last is 0.8.2 (29/11/05)

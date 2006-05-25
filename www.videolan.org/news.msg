@@ -2,6 +2,9 @@
 # New topics begin with a "|"
 #
 
+|25 May 2006| Website redesign contest| Those of you browsing the web with text only console browsers might think that <a href="http://www.videolan.org">this website's design</a> is great, all the others wouldn't agree (some might even dare compare it with VLC's default interface on windows and linux). We've thus decided to give you the opportunity to change it.<br/>
+Rules are available on the <a href="http://wiki.videolan.org/index.php/WebsiteRedesign">wiki</a>. All discussion and posts relative to the contest will be made in the <a href="http://forum.videolan.org/viewforum.php?f=10">Website discussion forum</a>.
+
 |6 May 2006| Release: VLC media player 0.8.5 | This new Release features many improvements, including MacIntel support, a statistic system, the support of DV inputs on Linux, improvements in the Audio CD playback (CDDB), many new and improved video filters, a new AJAX HTTP interface, Winamp 2 Skins support, a Mozilla plugin on Mac OS X (PowerPC only), a new default skin ...<br />
 Have a look <a href="http://developers.videolan.org/vlc/NEWS">here</a>
 for the full list of changes.<br />

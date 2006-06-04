@@ -41,15 +41,15 @@ We try to answer all your mails, posts and reports, but there are so many that s
 <li>The <b>hardware</b> you use. Make sure to name all the audio and video hardware in question that might be related to VLC's usage.<br />
         <i>For instance: iMac G4 or Pentium4 with GeForce3, with an external USB dolby surround output device.</i></li>
 <li>The <b>version</b> of VLC you use.<br />
-	<i>For instance: VLC 0.8.2 (You should always use the latest version of course)</i></li>
+	<i>For instance: VLC 0.8.5 (You should always use the latest version of course)</i></li>
 <li>The exact <b>situation</b> in which the problem occurred. Please describe in as much detail as possible.<br />
 	<i>For instance: I pressed the play button while fast-forwarding and VLC crashed.</i></li>
 <li>Can you always <b>reproduce</b> the problem in a certain way?<br />
 	<i>For instance: The crash always occurs with the 'Matrix' DVD after 10 minutes.</i></li>
-<li>The type of <b>movie</b> you were playing. And wether or not the issuesis present on other types of movies.<br />
+<li>The type of <b>movie</b> you were playing. And whether or not the issue is present on other types of movies.<br />
 	<i>For instance: DVD, Divx or mpeg.</i></li>
 <li>The video<b>sample</b> in question:<br />
-	 If the issue is specific to a certain movie, it can help a lot if we have the movie itself. In this case please upload as much of the file as you can to our <a href="ftp://streams.videolan.org/incoming">FTP samplesserver</a>. Give the file a distinct name, and upload a textfile with the same name in which you again describe the problem. Report this upload in your forum posting and tell us the name of your file. This makes sure we can more easily find back your sample.</li>
+	 If the issue is specific to a certain movie, it can help a lot if we have the movie itself. In this case please upload as much of the file as you can to our <a href="ftp://streams.videolan.org/incoming">FTP samples server</a>. Give the file a distinct name, and upload a text file with the same name in which you again describe the problem. Report this upload in your forum posting and tell us the name of your file. This makes sure we can more easily find back your sample.</li>
 </ul>
 
 <h2>Additional remarks</h2>

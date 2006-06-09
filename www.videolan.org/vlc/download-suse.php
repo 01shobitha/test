@@ -21,6 +21,6 @@ In the mean time, you could try this unofficial and by VideoLAN unsupported SuSE
 
 <h2>Useful information?</h2>
 <p>
-<a href="http://forum.videolan.org/viewtopic.php?t=1092">Forum post</a> with possibly useful information.</p>
+<a href="http://forum.videolan.org/viewtopic.php?t=21707">Forum post</a> (<a href="http://forum.videolan.org/viewtopic.php?t=1092">old forum post</a> for 0.7.*) with possibly useful information.</p>
 
 <?php footer('$Id$'); ?>

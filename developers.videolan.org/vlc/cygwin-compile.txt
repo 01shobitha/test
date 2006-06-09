@@ -1,0 +1,1339 @@
+This document is still under construction (last updated 22 feb. 2006)
+=====================================================================
+
+Document   : Cygwin environment under Windows (XP/2000/2003)
+
+Version    : 20050627 Initial version
+             20050628 Updated some more exceptions
+             20050628 Some info added about FFMpeg compiling with AMR
+             20050629 Finalized FFMpeg compiling
+             20050630 Cross-compiling
+             20050724 Some extra compile explanations
+             20050726 Removed cross-compiling (was for linux -> win32)
+                      Patching source code with .diff files
+             20050823 Added zlib error
+             20050923 --enable-sdl --with-sdl-config-path=/usr/win32/bin added
+                      to configure. Added debug section
+             20051102 Changed ffmpeg lib names
+             20051128 Detailed Cygwin upgrade/downgrade for gcc 3.3
+                      Renamed some update scripts. Added ffmpeg CVS update.
+                      --disable-gnomevfs added to configure (only used on linux)
+             20060121 PKG_CONFIG_PATH=/usr/win32/lib/pkgconfig added to configure
+             20060128 Added curl and libtool to Cygwin for those that want to be
+                      able to build extras/contrib themselves
+             20060217 Added make install-libs install-headers to FFMpeg compile
+             20060222 Remark about missing "gettext" libs for Cygwin during install
+             20060225 ./bootstrap: you need libtool
+
+Maintainer : Trax
+
+Based on   : "Win32 Cygwin Environment" Rev. B (20041003)
+             by Mark Moriarty
+             "Win32 Compile HOWTO" (20050513)
+             by Gildas Bazin and Olivier Teulière  
+
+This document also describes several optional parts which are NOT required
+for the Cygwin environment but are mentioned for convenience and advanced
+usage. If you want the "quick" howto for building VLC using the Cygwin
+environment then you should just ignore any OPTIONAL sections with:
+
+- Compiling FFMpeg with additional AMR support
+- Compiling FFMpeg from CVS snapshot
+- Compiling x264
+- live555 (formerly known as live.com)
+
+These compiling sections are for advanced usage and meant to test new or 
+additional features or bugfixes in FFMpeg, x264 or live555 etc. which
+are not (yet) part of the latest "official" contrib package.
+
+
+1)      Installation requirements
+=================================
+
+Create a download/installation folder where you can put all the installation
+files:
+
+C:\Downloads          (example)
+
+
+1.1      SVN/Subversion
+=======================
+
+The subversion tool can be found at the following location:
+
+http://subversion.tigris.org/project_packages.html#binary-packages
+
+The latest command-line binaries for Windows are refered to at the
+"Windows NT, 2000, XP and 2003" section and should link to:
+
+http://subversion.tigris.org/servlets/ProjectDocumentList?folderID=91
+
+Download the latest stable "Windows installer with the basic win32 binaries"
+
+svn-1.2.3-setup.exe          (example)
+
+Perform a basic installation.
+
+If you are upgrading from a previous version make sure to first uninstall the
+older version otherwise upgrading runs into problems with the inability to
+overwrite some .dll files.
+
+NOTE: For Windows 9x and Windows ME users there is a possible notice/warning
+at the end of the installation.
+
+
+1.2     Additional libraries for Cygwin
+=======================================
+
+VLC depends on other libraries to provide some features like ac3 audio decoding
+or mpeg4 video decoding etc.
+
+Depending on your needs you will have to compile/install some or all of these
+external libraries which can be found here (source code):
+
+http://download.videolan.org/pub/testing/contrib/
+
+A package with all the libraries already compiled so it's actually really easy
+to compile a full-featured version of vlc can be found here:
+
+http://download.videolan.org/pub/testing/win32/
+
+
+1.2.1   Precompiled "contrib" package
+=====================================
+
+Download the latest version of a "contrib" package for win32
+
+contrib-20051104-win32-bin-gcc3.3.1-only.tar.bz2          (example)
+
+Check if the download has not been "accidentily" renamed by Internet Explorer
+in your download folder to something with the extension .tar.tar (IE has a habit
+of doing that to bz2 files). If so then simple rename the files back to .tar.bz2
+
+NOTE: Remember the 3.3.1 part in the "contrib" package filename since it relates
+to the gcc version that needs to be installed in Cygwin lateron!
+
+
+1.3     FFMpeg compilation (with or without AMR support) (OPTIONAL) 
+===================================================================
+
+The following section describes how to compile VLC with experimental AMR
+support in FFMpeg by including AMR reference codecs or by using the most
+current "CVS snapshot"
+
+
+1.3.1   FFMpeg package used by VLC (OPTIONAL)
+=============================================
+
+The external FFMpeg library that is used in VLC can be found at:
+
+http://download.videolan.org/pub/testing/contrib/
+
+Download the latest version of the FFMpeg package for win32
+
+ffmpeg-20051126.tar.bz2          (example)
+
+NOTE: For reference VLC 0.8.2 was built with the ffmpeg-20050624.tar.bz file.
+ 
+
+1.3.1.1 AMR sources (OPTIONAL)
+==============================
+
+The AMR (Adaptive Multi Rate) codec is designed to encode/decode speech with
+acceptable quality for transmission over relatively low bandwidth channels
+with minimal latency, typically used in mobile networks or voice message
+applications.
+
+The AMR codec usually is referred to as:
+
+AMR-NB for Narrow Band (fourcc/codec name samr)
+AMR-WB for Wide Band (fourcc/codec name samw)
+
+NOTE: The reason as to why VLC currently doesn't include AMR (both encoding
+and decoding) by default in the binary is because the sources for AMR are
+(in the VLC interpretation) not fully compatible with GPL.
+
+The AMR reference codecs can be found on the 3GPP website http://www.3gpp.org at
+the following download location for zipped source code packages:
+
+http://www.3gpp.org/ftp/Specs/2004-03/Rel-5/26_series/
+
+- AMR
+
+Download the latest 26073 package:
+
+http://www.3gpp.org/ftp/Specs/2004-03/Rel-5/26_series/26073-530.zip          (example)
+
+3GPP TS 26.073 V5.3.0 (2004-03) ANSI-C code for the
+Adaptive Multi Rate (AMR) speech codec (Release 5)
+
+- AMR_FLOAT
+
+Download the latest 26104 package:
+
+http://www.3gpp.org/ftp/Specs/2004-03/Rel-5/26_series/26104-540.zip          (example)
+
+3GPP TS 26.104 V 5.4.0 (2004-03) ANSI-C code for the
+Floating-point Adaptive Multi Rate (AMR) speech codec (Release 5)
+
+- AMRWB_FLOAT
+
+Download the latest 26204 package:
+
+http://www.3gpp.org/ftp/Specs/2004-03/Rel-5/26_series/26204-520.zip          (example)
+
+3GPP TS 26.204 V5.2.0 (2003-09) ANSI-C code for
+Floating-point Adaptive Multi Rate Wideband (AMR-WB) speech codec (Release 5)
+
+
+1.3.2   FFMpeg package "CVS snapshot" (OPTIONAL)
+================================================
+
+Alternatively you can find the latest archived CVS snapshot at:
+
+http://ffmpeg.sourceforge.net/download.php
+
+Download the latest version of the FFMpeg package for win32
+
+FFMpeg-20050724.tar.bz2          (example)
+
+NOTE: you can also use FFMpeg-current.tar.bz2
+
+
+1.3.2.1  FFMpeg CVS update script (OPTIONAL)
+============================================
+
+Another way of getting the CVS snapshot is by using CVS under Cygwin
+
+Create a new text document at your download/install location with the
+following line:
+
+cvs -z9 -d:pserver:anonymous@mplayerhq.hu:/cvsroot/ffmpeg checkout ffmpeg
+
+Save as filename:
+
+update-ffmpeg          (example)
+
+NOTE: This file has no extension (save using "All files" and not "Text files"
+otherwise Windows might append the extension .txt).
+
+This script will receive a snapshot from the CVS server by doing a complete
+checkout (which will also create a folder ffmpeg in your "home directory").
+
+Copy the script file into your home directory:
+
+C:\cygwin\home\Administrator
+
+This update script should be started from within Cygwin.
+
+
+1.4     Live555.com package (OPTIONAL)
+======================================
+
+The Live555.com streaming media (formerly known as live.com) can be found at:
+
+http://www.live555.com/liveMedia/public
+
+Download the latest version of the Live555.com package:
+
+live.2005.07.23.tar.gz         (example)
+
+NOTE: you can also use live555-latest.tar.gz
+
+
+2       Installing Cygwin
+=========================
+
+More info about Cygwin can be found at
+
+http://www.cygwin.com
+
+
+2.1     Selecting packagages for Cygwin installation
+====================================================
+
+Open the following executable
+
+http://www.cygwin.com/setup.exe
+
+Installation type        :  Install from Internet (default)
+Root Install directory   :  C:\cygwin (default)
+Local Package directory  :  C:\Downloads\Cygwin (your download location)
+Internet Connection      :  Direct Connection (preferred, if it fails try other)
+Download Site            :  Choose a download site closest to you (FTP preferred)
+
+NOTE: There have been reports of problems of missing packages during install
+(particularly gettext: cyggettextsrc-0-14-1.dll not found). If you run into
+these problems try selecting another Download Site from the mirror list.
+Personally I always use funet.fi or sunet.se and never had these problems..
+
+You will need to make sure you install at least the gcc-g++, gcc-mingw,
+mingw-runtime and win32-api packages.
+
+The gcc version used for compilation should match the version specified in the
+contrib package so in our case gcc3.3.1-only. The specific 3.3.1 version is
+not available in Cygwin but 3.3.3-3 and 3.4.4-1 are. 
+
+The only current compatibility issue with using 3.4 is that it doesn't support
+the compiling of the matroska container .mkv with the precompiled 3.3.1 contrib
+package. So there are 2 options:
+
+1) Use gcc 3.3.3-3 with the current 3.3.1-only contrib
+2) Use gcc 3.4 or newer but disable matroska support (--disable-mkv in configure)
+
+If you use the older gcc-g++ and gcc-core versions you HAVE to change the
+gcc-mingw-core and gcc-mingw-g++ back to the older versions as well (this
+is also discussed in the APPENDIX).
+
+Select the following packages (open the category by clicking on the +)
+
++ Archive
+
+1) ->   5.50-55         unzip           (recommended: goes hand in hand with zip utility)
+2) ->   2.3-6           zip             (required: to make self contained zip packages)
+
++ Devel
+
+3) ->   1.9.5-1         automake1.9     (> 1.5 required)
+        2.59-2          autoconf        autoselected
+        2.13-1          autoconf2.1     autoselected
+        2.59-1          autoconf2.5     autoselected
+4) ->	1.11.17-1       cvs		(optional: for ffmpeg CVS snapshots)
+5) ->	3.4.4-1         gcc-g++                      ->  CHANGE to 3.3.3-3 (see NOTE)
+	3.4.4-1         gcc-core        autoselected ->  CHANGE to 3.3.3-3 (see NOTE)
+6) ->	20040810-1      gcc-mingw
+        20050522-1      gcc-mingw-core  autoselected ->  CHANGE to 20040810-1 (see NOTE)
+        20050522-1      gcc-mingw-g++ 	autoselected ->  CHANGE to 20040810-1 (see NOTE)
+7) ->   0.14.1-1        gettext
+8) ->   0.14.1-1        gettext-devel
+9) ->   20041228-3      gdb             (optional: for debugging purposes)  
+10 ->	1.5.20-2	libtool1.5
+11)->   3.80-1          make
+	3.7-1           mingw-runtime   autoselected
+12)->   0.98.39-1       nasm            (optional: for compiling x264 encoder)	
+13)->	0.2.30-1        patchutils      (optional: for patching source files with .diff files)
+14)->   0.17.2-2        pkgconfig	(recommended: otherwise ./configure will complain about accuracy)
+
++ Libs
+        3.2.1           w32api          autoselected
+
++ Web
+15)->	7.15.1-1	curl		(optional: for building extras/contrib)
+	
+NOTE: We choose to use .mkv support and stick to the gcc 3.3 version and related
+mingw versions. All other package versions are just representations of what was
+the most current one available at the time this document was written, any newer
+versions should work fine as well.
+
+
+2.2     Creating the Cygwin environment (home directory)
+========================================================
+
+Start Cygwin from the icon on your desktop. If run for the first time it will automatically
+create a home\"username" folder in the Cygwin environment for which the user is the currently
+logged on Windows user. Let's just assume that is Administrator for easy reference...
+
+C:\cygwin\home\Administrator          (example)
+
+
+3       Updating the SVN code 
+=============================
+
+In order to make sure you have the most current version of the vlc code you need to
+update SVN
+
+
+3.1     Creating SVN update scripts
+===================================
+
+
+3.1.1   VLC update scripts
+==========================
+
+Create a new text document at your download/install location with the following lines:
+
+"C:\Program Files\Subversion\bin\svn" checkout svn://svn.videolan.org/vlc/trunk vlc-trunk
+pause
+
+Save as filename:
+
+update-vlc.bat          (example)
+
+NOTE: This file has the .bat extension (save using "All files" and not "Text files"
+otherwise Windows might append the extension .txt). The double " (quote) signs are
+required in the first part because the foldername has a space in it.
+
+This script will pull a complete svn trunk. This seems a bit double (as with CVS update)
+but this will always recreate the vlc-trunk folder.
+
+Copy the script file into your home directory:
+
+C:\cygwin\home\Administrator
+
+NOTE: The file is now also stored in your download/installation folder for backup purposes
+
+
+3.1.2    SVN update script for x264 (OPTIONAL)
+==============================================
+
+A source trunk of x264 can be created in a similar way as with VLC. Just replace the vlc
+instances with x264:
+
+"C:\Program Files\Subversion\bin\svn" checkout svn://svn.videolan.org/x264/trunk x264-trunk
+pause
+
+Save the file as:
+
+update-x264.bat
+
+NOTE: the SVN source for x264 is hosted at svn.videolan.org
+
+
+3.2     Updating the SVN trunk
+==============================
+
+
+3.2.1    Updating the SVN trunk for VLC
+=======================================
+
+Double click the following batch file in your home folder:
+
+update-vlc.bat          (example)
+
+This will do a "pull" (download) of the current subversion trunk into your home
+directory into the directory specified in the batchfile:
+
+C:\cygwin\home\Administrator\vlc-trunk          (example)
+
+The pause line in the batchfile will make sure the result like "Checked out revision
+11670" is shown on the screen.
+
+The vlc-trunk folder will get over-written/updated the next time you run the
+batchfile. If you want to save a so called "snapshot" of the existing vlc-trunk,
+rename or copy the current directory into something desired (like 20050624-vlc-trunk).
+
+
+3.2.2    Updating the SVN trunk for x264 (OPTIONAL)
+===================================================
+
+Updating the SVN trunk for x264 works the same for x264 as with vlc, just use
+the batch file update-x264.bat.
+
+
+3.3     Patching sources with .diff files (OPTIONAL)
+====================================================
+
+Frequently patches to source codes are presented or discussed in forums or mailing
+lists in so called .diff format (these are "differences" to the source code).
+
+You can apply those patches yourself to the source code...
+
+Download a so called .diff file:
+
+sse2-pixel-routines-v3.diff          (example)
+
+NOTE: make sure the file doesn't get a .txt extension, so Save as ttype "All Files"
+instead of "Text Document" (IE has a habit of renaming to .txt. If that happens just
+simply rename to .diff)
+
+Copy the .diff file into the appropriate source folder
+
+x264-trunk          (example)
+
+Apply the patch as follows
+
+patch -p0 < sse2-pixel-routines-v3.diff          (example)
+
+NOTE: replace sse2-pixel-routines-v3.diff with your "patch"
+
+This will output something like:
+
+patching file common/i386/pixel.h
+patching file common/i386/pixel-a.asm
+patching file common/pixel.c
+
+Your source code is now patched!
+
+NOTE: If you want to revert to the original version you can use the -R option
+with the patch command or alternatively you can just delete the changed files
+and just do an SVN update to get the original/latest SVN version back.
+
+
+3.4      Updating the CVS snapshot for FFMpeg (OPTIONAL)
+========================================================
+
+Start Cygwin from the icon on your desktop. You should be located in your
+"home directory".
+
+C:\cygwin\home\Administrator          (example)
+
+Now use the FFMpeg update script:
+
+./update-ffmpeg
+
+This wil create the ffmpeg subfolder in your home directory with a CVS
+snapshot of the most recent code.
+
+NOTE: cvs has to be installed in Cygwin
+
+
+4        Installing additional libraries
+========================================
+
+For proper usage of VLC the additional libraries have to be installed in Cygwin.
+
+
+4.1      Extracting the "contrib" package
+=========================================
+
+Copy the "contrib" package from your download/install location to the home directory:
+
+C:\cygwin\home\Administrator
+
+Start Cygwin and enter the following command in your shell:
+
+tar xjvf contrib-20050915-win32-bin-gcc3.3.1-only.tar.bz2 -C /          (example)
+
+Replace with your version of the "contrib" file and DON'T FORGET THE / (backslash)
+at the end.
+
+This will extract the contents of the file into usr/win32 folder within your Cygwin
+environment.
+
+NOTE: Make sure to DELETE your old version instead of extracting a new version on
+top of it.
+
+
+4.2      Keeping the "contrib" up-to-date
+=========================================
+
+For maintenance purposes periodically check:
+
+http://download.videolan.org/pub/testing/win32/
+
+to see if a newer "contrib" is available. If that is the case you should DELETE
+the existing directory structure which is for the precompiled "contrib" package:
+
+C:\cygwin\home\usr\win32          (example)
+
+Download the newer file(s) and follow the installation instructions the same as before
+so you will end up with the most up-to-date version.
+
+NOTE: Make sure to DELETE your old version instead of extracting a new version on
+top of it.
+
+
+4.3      Extracting the FFMpeg "package" (OPTIONAL) 
+===================================================
+
+This is only needed if you decide to compile FFMpeg yourself (for example to include
+AMR support). This is not required for normal operation because then you would just
+use the precompiled "contrib" package.
+
+
+4.3.1    Extracting the FFMpeg "package" (OPTIONAL)
+=======================================================
+
+Copy the FFMpeg "contrib" package from your download/install location to the home directory:
+
+C:\cygwin\home\Administrator
+
+Start Cygwin and enter the following command in your shell:
+
+tar xjvf ffmpeg-20050624.tar.bz2 -C .          (example)
+
+Replace with your version of the FFMpeg "package" and DON'T FORGET THE . (dot)
+at the end.
+
+This will extract the content of the file into the current folder creating a ffmpeg-20050624
+(or newer depending on the version used) subfolder within your Cygwin environment.
+
+NOTE: there is a space AND a . (dot) at the end in the command. The single dot means you are
+extracting to the "current" folder.
+
+
+4.3.2    Using AMR reference codec sources in FFMpeg (OPTIONAL) 
+===============================================================
+
+NOTE: this section assumes you are using the same FFMpeg build that is being used
+in VLC contrib package.
+
+This part is only needed if you decide to include the AMR reference codec sources
+into FFMpeg and this is not required for normal operation.
+
+The following AMR reference packages should be in your download/install location:
+
+26073-530.zip          (example)
+26104-540.zip          (example)
+26204-520.zip          (example)
+
+Using your favourite unzipper (Windows internal extraction wizard, WinZIP, WinRAR etc.) extract
+the zip files in the into the current folder (Windows wizard would use "Extract All" and WinZIP
+or WinRAR would use "Extract to 'foldername' which is the same as the .zip package name").
+
+This will create the following folders:
+
+C:\Downloads\26073-530         
+C:\Downloads\26104-540         
+C:\Downloads\26204-520         
+
+Within those folders another .zip package exists. Again unpack those zip files into the current folder:
+
+26073-530_ANSI_C_source_code      
+26104-540_ANSI_C_source_code      
+26204-520_ANSI-C_source_code      
+
+Now each unpacked source code package has an individual folder named "c-code".
+
+Rename the c-code subfolders within each package to amr, amr_float and amrwb_float:
+
+C:\Downloads\26073-530\26073-530_ANSI_C_source_code\c-code to amr                  
+C:\Downloads\26104-540\26104-540_ANSI_C_source_code\c-code to amr_float            
+C:\Downloads\26204-520\26204-520_ANSI-C_source_code\c-code to amrwb_float          
+
+NOTE: the 530, 540 to 520 order looks a bit confusing but those are actually just version numbers
+and the folders are shown in the correct alphabetical order.
+
+Copy each of the the following folders (including content, so just select the whole folder itself):
+
+amr                
+amr_float         
+amrwb_float       
+
+to the Cygwin home directory into the libavcodec subfolder of where the FFMpeg package was extracted:
+
+C:\cygwin\home\Administrator\ffmpeg-20050624\libavcodec          (example)
+
+
+4.4      Updating Cygwin packages
+=================================
+
+If for you need to update or install additional packages you can just run the
+Cygwin setup.exe from your download location:
+
+C:\Downloads\cygwin\setup.exe          (example)
+
+You should be aware that Cygwin automatically selects the latest versions
+for gcc-g++ and gcc-mingw so if you want to CONTINUE to use your OLD version
+(in our example 3.3.3-3 and the accompanied 20040810-1 packages for mingw)
+you need to CHANGE those versions to KEEP for EVERY TIME YOU USE THE UPDATE
+PROCESS.
+
+NOTE: You can click on the "View" button a few times untill you see "Partial"
+next to it. This will give you an overview of some "Current" packages that
+will be updated to "New" versions.
+
+select the View button untill it reaches: Partial
+
+3.3.3.3 	gcc-core 	-> change the new version 3.4.4-1 to KEEP
+3.3.3.3 	gcc-g++  	-> change the new version 3.4.4-1 to KEEP
+20040810-1	gcc-mingw-core 	-> change the new version 20050522-1 to KEEP
+20040810-1	gcc-mingw-g++  	-> change the new version 20050522-1 to KEEP
+
+Selecting the 3.4.4-1 version automatically changes the gcc-mingw-core and
+gcc-mingw-g++ to the 20050522-1 (or newer) versions as well.
+
+
+4.4.1     Downgrading Cygwin GCC packages
+=========================================
+
+If your Cygwin gcc versions are already the latest and you wish to downgrade
+to gcc 3.3.3-3 then it's not possible to downgrade the gcc-core/g++ and the
+mingw packages all at the same time, it has to be done in two steps.
+
+select the View button untill it reaches: Up To Date
+
+gcc-core -> change to 3.3.3-3
+gcc-g++  -> change to 3.3.3-3
+
+Install, OK
+
+Restart Cygwin update process.
+
+Select the View button untill it reaches: Partial
+
+gcc-core -> change to Keep
+gcc-g++  -> change to Keep
+
+select the View button untill it reaches: Up To Date
+
+gcc-mingw-core -> change to 20040810-1
+gcc-mingw-g++  -> change to 20040810-1
+
+Install, OK.
+
+Again, for any new update process remember to change back those versions!
+
+
+5        Creating configure scripts
+===================================
+
+In order to make our lives just a bit easier the following section describes
+what commandline options should be used for compiling and those will be put
+into a "script".
+
+
+5.1      Configure script for compiling VLC with Cygwin
+=======================================================
+
+If you are using Cygwin, you can build VLC with or without the POSIX
+emulation layer. Without is usually better and with POSIX emulation
+hasn't been tested in about a year or so. So to build without the
+emulation layer, use something like this:
+
+  ./bootstrap && \
+  CPPFLAGS="-I/usr/win32/include -I/usr/win32/include/ebml" \
+  LDFLAGS=-L/usr/win32/lib \
+  PKG_CONFIG_PATH=/usr/win32/lib/pkgconfig \
+  CC="gcc -mno-cygwin" CXX="g++ -mno-cygwin" \
+  ./configure \
+      --enable-sdl --with-sdl-config-path=/usr/win32/bin --disable-gtk \
+      --enable-nls \
+      --enable-ffmpeg --with-ffmpeg-mp3lame --with-ffmpeg-faac \
+      --with-ffmpeg-zlib --enable-faad --enable-flac --enable-theora \
+      --with-wx-config-path=/usr/win32/bin \
+      --with-freetype-config-path=/usr/win32/bin \
+      --with-fribidi-config-path=/usr/win32/bin \
+      --enable-livedotcom --with-livedotcom-tree=/usr/win32/live.com \
+      --enable-caca --with-caca-config-path=/usr/win32/bin \
+      --with-xml2-config-path=/usr/win32/bin \
+      --with-dvdnav-config-path=/usr/win32/bin \
+      --disable-cddax --disable-vcdx --enable-goom \
+      --enable-twolame --enable-dvdread \
+      --disable-gnomevfs \
+      --enable-debug
+
+If you want to use the emulation layer, then just omit the CC="gcc -mno-cygwin"
+CXX="g++ -mno-cygwin" line. You're on your own though...
+
+Create a new text document at the download location with the above mentioned
+lines and save as filename:
+
+configure-vlc
+
+NOTE: This file does not have an extension (save using "All files" and not 
+"Text files" otherwise Windows might append the extension .txt)
+
+Copy the file into your home directory:
+
+C:\cygwin\home\Administrator  
+
+NOTE: The file is also in your download/installation folder for backup purposes
+
+
+5.2      Configure script for compiling FFMpeg (with AMR support) (OPTIONAL)
+============================================================================
+
+NOTE: This compile script assumes you are also using the same FFMpeg version as is used
+in the contrib package (this is why the cflags and ldflags also point to the win32 folder
+where the contrib package was extracted).
+
+Create a new text document at the download location with following lines:
+
+./configure --enable-mingw32 --enable-memalign-hack \
+    --extra-cflags=-I/usr/win32/include \
+    --extra-ldflags=-L/usr/win32/lib \
+    --prefix=/usr/win32 \
+    --cc="gcc -mno-cygwin" \
+    --enable-faac --enable-mp3lame --enable-pp --enable-gpl \
+    --enable-amr_nb --enable-amr_wb
+
+Save as filename:
+
+configure-ffmpeg          (example)
+
+NOTE: The amr_nb and amr_wb options are only needed for AMR support.
+
+Copy the file into your home directory:
+
+C:\cygwin\home\Administrator      
+
+NOTE: The file is also in your download/installation folder for backup purposes
+
+
+5.3      Configure script for compiling FFMpeg "CVS snapshot" (OPTIONAL)
+========================================================================
+
+This section is only if FFMpeg compiling is required and the precompiled package is
+not used.
+
+Create a new text document at the download location with following lines:
+
+./configure --enable-mingw32 --enable-memalign-hack \
+   --prefix=/usr/win32 \
+    --cc="gcc -mno-cygwin" \
+    --enable-pp --enable-gpl 
+
+Save as filename:
+
+configure-ffmpeg-cvs          (example)
+
+
+6        Compiling the source
+=============================
+
+It's time to open your Cygwin shell again...
+
+
+6.1      Compiling FFMpeg (OPTIONAL)
+====================================
+
+This section is only required for FFMpeg compiling.
+
+Change to the appropriate FFMpeg folder
+
+cd ffmpeg-20050624          (example)
+
+NOTE: the following line is optional, only use that if you have problems compiling.
+
+make distclean
+
+(this will haved remove everything except code related stuff, VLC uses a "toolbox" script
+which can clean a bit more)
+
+../configure-ffmpeg     
+
+
+6.1.1    Preparations for AMR support
+=====================================
+
+If you included the AMR reference codec sources in FFMpeg you should see that AMR-NB and WB
+"float support" should be working:
+
+AMR-NB float support yes
+AMR-NB fixed support no
+AMR-WB float support yes
+AMR-WB IF2 support no
+network support      no
+License: GPL
+
+AMR WB FLOAT NOTICE ! Make sure you have downloaded TS26.204
+V5.1.0 from
+http://www.3gpp.org/ftp/Specs/archive/26_series/26.204/26204-510.zip
+and extracted the source to libavcodec/amrwb_float
+
+AMR NB FLOAT NOTICE ! Make sure you have downloaded TS26.104
+REL-5 V5.1.0 from
+http://www.3gpp.org/ftp/Specs/latest/Rel-5/26_series/26104-5??.zip
+and extracted the source to libavcodec/amr_float
+and if u try this on an alpha, u may need to change Word32 to int in amr/typede.h
+
+You can ignore these notices since we are already use the latest versions.
+
+
+6.2      Building FFMpeg (OPTIONAL)
+===================================
+
+Now build FFMpeg with the following command:
+
+make       
+
+If the make proceeded without errors you will have compiled two new "library" files:
+
+C:\cygwin\home\Administrator\ffmpeg-20051020\libavcodec\libavcodec.a            (example)
+C:\cygwin\home\Administrator\ffmpeg-20051020\libavformat\libavformat.a          (example)
+
+To copy the appropriate libs and header files to the contrib folder use:
+
+make install-libs install-headers
+
+For historical reasons the "old" method is still described here as well:
+
+Copy the library files (with the .a extension) into the Cygwin usr/win32 folder:
+
+C:\cygwin\usr\win32\lib          (example)
+
+NOTE: This will overwrite libavcodec.a and libavformat.a from the precompiled contrib package!
+
+For backup reasons you can first copy or rename the original files in the contrib package
+(so you won't have to reinstall the complete contrib package but can simply copy these again)
+
+C:\cygwin\usr\win32\lib\libavcodec.a to libavcodec.a.org
+C:\cygwin\usr\win32\lib\libavformat.a to libavformat.a.org
+
+In older versions of ffmpeg the libraries had other names:
+
+C:\cygwin\home\Administrator\ffmpeg-20050624\libavcodec\avcodec.lib            (example)
+C:\cygwin\home\Administrator\ffmpeg-20050624\libavformat\avformat.lib          (example)
+
+Rename those files (in Windows Explorer):
+
+avcodec.lib to libavcodec.a
+avformat.lib to libavformat.a
+
+Then copy those library files into the Cygwin usr/win32 folder.
+
+
+
+6.2      Compiling x264 (OPTIONAL)
+==================================
+
+This section is only required for x264 compiling where you want to compile x264 yourself.
+
+
+6.2.1    Compiling
+==================
+
+Change to the appropriate x264 folder
+
+cd x264-trunk          (example)
+
+NOTE: the following lines make sure there are no traces of any previous compiles.
+
+make clean
+make distclean
+
+(this will haved remove everything except code related stuff, VLC uses a "toolbox" script
+which can clean a bit more)
+
+./configure
+
+make
+
+If the make proceeded without errors you will have compiled a new library file:
+
+C:\cygwin\home\Administrator\x64-trunk\libx264.a            (example)
+
+Copy this file into the Cygwin usr/win32 folder:
+
+C:\cygwin\usr\win32\lib          (example)
+
+Also take the following file .h file:
+
+C:\cygwin\home\Administrator\x64-trunk\x264.h            (example)
+
+Copy this file into the usr/win32/include folder:
+
+C:\cygwin\usr\win32\include        (example)
+
+NOTE: This will overwrite the x264.h and libx264.a from the precompiled contrib package!
+
+
+6.2.2    Reverting to an older version
+======================================
+
+If for some reason you want to revert to an older version (let's say you are using
+revision 307 but would like to test with 306) then use the svn "update" but with
+a revision number..
+
+svn up -r 306
+
+And you'll see something like this:
+
+U    common\i386\mc-a.asm
+U    common\i386\mc-c.c
+U    common\amd64\mc-a.asm
+Updated to revision 306.
+
+
+6.3      Compiling VLC
+======================
+
+This is were the good stuff begins...
+
+Enter the following commands in your Cygwin shell:
+
+cd vlc-trunk
+
+(you can check with the pwd command to see in which folder you are and with just the cd
+command without any additional parameters you can change back to your home directory).
+
+NOTE: the following line is optional, only use that if you have problems compiling
+
+./toolbox --distclean
+
+(this will have removed everything except code related stuff)
+
+../configure-vlc          
+
+make
+
+(cross your fingers)
+
+NOTE: ./ means you run the application/script from the "current folder"
+(which is vlc-trunk) and ../ points to "one directory up" (which is where
+the configure_vlc is).
+
+
+6.3      Self contained packages
+================================
+
+Once the compilation is done, you can either run VLC directly from the source
+tree or you can build self-contained VLC packages with the following
+"make" commands:
+
+
+6.3.1    Packages for win32
+===========================
+
+make package-win32-base
+
+(this will create a subdirectory named vlc-x.x.x with all the binaries "stripped"
+without any debugging symbols).
+
+make package-win32-zip
+
+(Same as above but will package the directory in a zip file).
+
+make package-win32
+
+(Same as above but will also create an auto-installer package. You will need
+to have NSIS installed in its default location for this to work).
+
+
+7        Debugging (OPTIONAL)
+=============================
+
+This section requires that you install the gdb (Gnu Debugger)
+
+
+7.1      Using GDB
+==================
+
+This is a typical example of creating a crashlog
+
+cd vlc-trunk
+gdb vlc.exe
+
+In the debugger mode run the program and make sure you reset the preferences!
+
+(gdb) run --fast-mutex --reset-config --reset-plugins-cache
+
+NOTE: the (gdb) is just a prompt which means you are in the debugger mode
+
+It will now take a lot longer than usual for VLC to start :)
+
+Now operate VLC as you would normally do. As soon as a crash issue occurs
+you'll notice a line like this:
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0041394c in playlist_ItemGetById (p_playlist=0x19ec4f8, i_id=29)
+    at src/playlist/item-ext.c:459
+---Type <return> to continue, or q <return> to quit---
+459             i = i_bottom + ( i_top - i_bottom ) / 2;
+
+Now you can do a "backtrace" by using the bt command:
+
+(gdb) bt
+
+And output similar to this will be created:
+
+#0  0x0041394c in playlist_ItemGetById (p_playlist=0x19ec4f8, i_id=29)
+    at src/playlist/item-ext.c:459
+#1  0x0b26bbf7 in wxvlc::Playlist::CountItems (this=0x1822e288, root=
+      {m_pItem = 0x29fef8}) at playlist.cpp:695
+#2  0x0b26bc83 in wxvlc::Playlist::CountItems (this=0x1822e288, root=
+      {m_pItem = 0x29e8b0}) at playlist.cpp:689
+#3  0x0b26bc83 in wxvlc::Playlist::CountItems (this=0x1822e288, root=
+      {m_pItem = 0x29a818}) at playlist.cpp:689
+#4  0x0b26bc83 in wxvlc::Playlist::CountItems (this=0x1822e288, root=
+      {m_pItem = 0x299718}) at playlist.cpp:689
+#5  0x0b26bc83 in wxvlc::Playlist::CountItems (this=0x1822e288, root=
+      {m_pItem = 0xffff0000}) at playlist.cpp:689
+#6  0x0b26bf49 in wxvlc::Playlist::AppendItem (this=0x1822e288,
+    event=@0x1827afd0) at playlist.cpp:564
+#7  0x0b2757fc in wxvlc::Playlist::OnPlaylistEvent (this=0x1822e288,
+    event=@0x1827afd0) at playlist.cpp:1438
+#8  0x0b3771b8 in wxEvtHandler::ProcessEventIfMatches ()
+    at /usr/win32/include/wx-2.6/wx/event.h:2183
+#9  0x0b376a1c in wxEventHashTable::HandleEvent ()
+    at /usr/win32/include/wx-2.6/wx/event.h:2183
+#10 0x0b37730d in wxEvtHandler::ProcessEvent ()
+    at /usr/win32/include/wx-2.6/wx/event.h:2183
+#11 0x0b37711b in wxEvtHandler::ProcessPendingEvents ()
+    at /usr/win32/include/wx-2.6/wx/event.h:2183
+---Type <return> to continue, or q <return> to quit---
+#12 0x0b376017 in wxAppConsole::ProcessPendingEvents ()
+    at /usr/win32/include/wx-2.6/wx/event.h:2183
+#13 0x0b3ec75a in wxIdleWakeUpModule::MsgHookProc ()
+    at /usr/win32/include/wx-2.6/wx/bmpbuttn.h:81
+#14 0x773aca2d in USER32!GetScrollRange ()
+   from /cygdrive/c/WINDOWS/system32/user32.dll
+#15 0x00000000 in ?? () from
+(gdb)
+
+These are the log outputs that are more usefull to developers than
+just mentioning "it crashes"!
+
+NOTE: In GDB mode there are sometimes situations where GDB initially
+"crashes" on certain network activity (opening network shares,
+network traffic) which in normal operation does not occur.
+Just select c for continue untill "normal" operation continues.
+
+
+APPENDIX
+========
+
+This appendix mentions some frequently encountered problems during compile and
+installation procedures.
+
+
+A        Make just waits indefinately with just 0% CPU usage "making all in ..."
+================================================================================
+
+Make seems to "stall" at a certain point and nothing happens for example:
+
+Making all in mpeg
+make[5]: Entering directory `/home/Administrator/vlc-trunk/modules/mux/mpeg'
+
+Another example:
+
+Making all in cmml
+make[5]: Entering directory `/home/Administrator/vlc-trunk/modules/codec/cmml'
+
+FIX: in the vlc-trunk do a ./toolbox --distclean before doing a ../configure_vlc
+
+
+B        C compiler cannot create executables
+=============================================
+
+The ../configure-vlc gives the following error:
+
+checking for gcc... gcc -mno-cygwin
+checking for C compiler default output file name... configure: error: C compiler
+ cannot create executables
+
+FIX: it's very likely you are using the gcc 3.3 version but with the wrong mingw
+packages (the ones that come with 3.4). Reinstall the following gcc-mingw packages
+but make sure to use the older version!!!
+
+20050522-1      gcc-mingw-core  autoselected ->  change to 20040810-1
+20050522-1      gcc-mingw-g++ 	autoselected ->  change to 20040810-1
+
+You can check what version of gcc you are version in the Cygwin shell by using 
+the following command:
+
+gcc --version 
+
+
+C        Collect2: ld returned 1 exit status
+============================================
+
+A make fails with the following error:
+
+/usr/win32/lib/libebml.a(EbmlMaster.o):EbmlMaster.cpp:(.text$_ZNSt14__simple_all
+ocISsSt24__default_alloc_templateILb1ELi0EEE10deallocateEPSsj[std::__simple_allo
+c<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::_
+_default_alloc_template<true, 0> >::deallocate(std::basic_string<char, std::char
+_traits<char>, std::allocator<char> >*, unsigned int)]+0x1d): undefined referenc
+e to `std::__default_alloc_template<true, 0>::deallocate(void*, unsigned int)'
+/usr/win32/lib/libebml.a(EbmlMaster.o):EbmlMaster.cpp:(.text$_ZNSt14__simple_all
+ocISsSt24__default_alloc_templateILb1ELi0EEE8allocateEj[std::__simple_alloc<std:
+:basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__defau
+lt_alloc_template<true, 0> >::allocate(unsigned int)]+0x1d): undefined reference
+ to `std::__default_alloc_template<true, 0>::allocate(unsigned int)'
+/usr/win32/lib/libebml.a(EbmlMaster.o):EbmlMaster.cpp:(.text$_ZNSt14__simple_all
+ocIPN7libebml11EbmlElementESt24__default_alloc_templateILb1ELi0EEE8allocateEj[st
+d::__simple_alloc<libebml::EbmlElement*, std::__default_alloc_template<true, 0>
+>::allocate(unsigned int)]+0x1d): undefined reference to `std::__default_alloc_t
+emplate<true, 0>::allocate(unsigned int)'
+/usr/win32/lib/libebml.a(EbmlMaster.o):EbmlMaster.cpp:(.text$_ZNSt14__simple_all
+ocIPN7libebml11EbmlElementESt24__default_alloc_templateILb1ELi0EEE10deallocateEP
+S2_j[std::__simple_alloc<libebml::EbmlElement*, std::__default_alloc_template<tr
+ue, 0> >::deallocate(libebml::EbmlElement**, unsigned int)]+0x1d): undefined ref
+erence to `std::__default_alloc_template<true, 0>::deallocate(void*, unsigned in
+t)'
+collect2: ld returned 1 exit status
+make[2]: *** [vlc.exe] Error 1
+
+This problem is because libEbml is a C++ lib and it doesn't seem to link with
+gcc 3.4.
+
+FIX: Use gcc 3.3 with the according 3.3 "contrib" package version or use a
+"contrib" package for 3.4 (or even better try compiling it yourself).
+
+WORKAROUND for gcc 3.4: Use --disable-mkv in configure-vlc.
+
+
+D        Zip: command not found
+===============================
+
+A make package fails with the following error:
+
+zip -r vlc-0.8.4-svn-win32.zip vlc-0.8.4-svn
+/bin/bash: line 1: zip: command not found
+make: *** [package-win32-base-zip] Error 127
+
+FIX: doh! forgot to install the zip package in Cygwin :P
+
+
+E        /usr/include/sys/unistd.h:203: error: parse error before '(' token
+===========================================================================
+
+A make (compile) of FFMpeg results in the following error:
+
+/usr/include/sys/unistd.h:203: error: parse error before '(' token
+make[1]: *** [ffm.o] Error 1
+
+It's very likely you are usix the POSIX emulater which you shouldn't...
+
+FIX: compile with the option -mno-cygwin
+
+
+F         invalid conversion from `const void*' to `void*
+=========================================================
+
+src/theme_loader.cpp: In function `int gzwrite_frontend(int, const void*, size_t)':
+src/theme_loader.cpp:599: error: invalid conversion from `const void*' to `void*'
+src/theme_loader.cpp:599: error:   initializing argument 2 of `int gzwrite(void*, void*, unsigned int)'
+make[6]: *** [libskins2_plugin_a-theme_loader.o] Error 1
+
+FIX: This is related to a problem with the zlib library, updating to at
+least 1.2.2-1 but preferably 1.2.3 or newer is required
+
+
+G         error: cannot convert `const wxChar*' to `const char*
+===============================================================
+
+if g++ -mno-cygwin -DHAVE_CONFIG_H -I. -I. -I../../..   -I/usr/win32/include -I/
+usr/win32/include/ebml -D_OFF_T_ -D_off_t=long -DSYS_MINGW32 -I../../../include
+`top_builddir="../../.." ../../../vlc-config --cxxflags plugin wxwidgets` -Wsign
+-compare -Wsign-compare -Wall  -mms-bitfields -pipe -MT libwxwidgets_plugin_a-wx
+widgets.o -MD -MP -MF ".deps/libwxwidgets_plugin_a-wxwidgets.Tpo" -c -o libwxwid
+gets_plugin_a-wxwidgets.o `test -f 'wxwidgets.cpp' || echo './'`wxwidgets.cpp; \
+
+then mv -f ".deps/libwxwidgets_plugin_a-wxwidgets.Tpo" ".deps/libwxwidgets_plugi
+n_a-wxwidgets.Po"; else rm -f ".deps/libwxwidgets_plugin_a-wxwidgets.Tpo"; exit
+1; fi
+In file included from /usr/win32/include/wx-2.6/wx/debug.h:22,
+                 from /usr/win32/include/wx-2.6/wx/defs.h:452,
+                 from /usr/win32/include/wx-2.6/wx/wxprec.h:13,
+                 from wxwidgets.h:40,
+                 from wxwidgets.cpp:39:
+/usr/win32/include/wx-2.6/wx/wxchar.h: In function `size_t wxStrlen(const wxChar
+*)':
+/usr/win32/include/wx-2.6/wx/wxchar.h:759: error: cannot convert `const wxChar*'
+ to `const char*' for argument `1' to `size_t strlen(const char*)'
+In file included from /usr/win32/include/wx-2.6/wx/memory.h:20,
+                 from /usr/win32/include/wx-2.6/wx/object.h:25,
+                 from /usr/win32/include/wx-2.6/wx/wx.h:16,
+                 from wxwidgets.h:41,
+                 from wxwidgets.cpp:39:
+/usr/win32/include/wx-2.6/wx/string.h: In constructor `wxString::wxString(const
+wxChar*)':
+
+FIX: update wxwidgets; try a different/newer contrib package
+
+
+H         FFMpeg: undefined reference to `_av_parser_change'
+============================================================
+
+ffmpeg.o: In function `output_packet':
+/home/Administrator/FFMpeg-20050724/ffmpeg.c:1414: undefined reference to `_av_p
+arser_change'
+/home/Administrator/FFMpeg-20050724/ffmpeg.c:1415: undefined reference to `_av_d
+estruct_packet'
+collect2: ld returned 1 exit status
+make: *** [ffmpeg_g.exe] Error 1
+
+this is a possible conflict when you use normal configure-ffmpeg (uses /usr/win32
+contrib) instead of configure-ffmpeg-cvs
+
+
+I         FFMpeg:undefined reference to `_pp_get_context'
+=========================================================
+
+./modules/codec/ffmpeg/libffmpeg.a(libffmpeg_a-postprocess.o): In function `Init
+Postproc__ffmpeg':
+/home/Administrator/vlc-trunk/modules/codec/ffmpeg/postprocess.c:164: undefined
+reference to `_pp_get_context'
+./modules/codec/ffmpeg/libffmpeg.a(libffmpeg_a-postprocess.o): In function `PPQC
+allback':
+/home/Administrator/vlc-trunk/modules/codec/ffmpeg/postprocess.c:244: undefined
+reference to `_pp_get_mode_by_name_and_quality'
+./modules/codec/ffmpeg/libffmpeg.a(libffmpeg_a-postprocess.o): In function `Post
+procPict__ffmpeg':
+/home/Administrator/vlc-trunk/modules/codec/ffmpeg/postprocess.c:191: undefined
+reference to `_pp_postprocess'
+$
+ePostproc__ffmpeg':
+/home/Administrator/vlc-trunk/modules/codec/ffmpeg/postprocess.c:209: undefined
+reference to `_pp_free_mode'
+/home/Administrator/vlc-trunk/modules/codec/ffmpeg/postprocess.c:210: undefined
+reference to `_pp_free_context'
+collect2: ld returned 1 exit status
+make[2]: *** [vlc.exe] Error 1
+make[2]: Leaving directory `/home/Administrator/vlc-trunk'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/home/Administrator/vlc-trunk'
+make: *** [all] Error 2
+
+FFMpeg was not compiled with post processing support. To do so the following
+options need to be added to the configure lines for FFMpeg:
+
+--enable-pp --enable-gpl
+
+Postprocessing code is under GPL.
+
+
+J         SVN conflicts
+=======================
+
+In file included from /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../include/w32
+api/windows.h:52,
+                 from ../../../include/vlc_common.h:459,
+                 from ../../../include/vlc/vlc.h:153,
+                 from dshow.cpp:31:
+/usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../include/w32api/wingdi.h:3:1: warn
+ing: this is the location of the previous definition
+In file included from /usr/win32/include/dshow.h:35,
+                 from common.h:45,
+                 from dshow.cpp:35:
+/usr/win32/include/ddraw.h:14: warning: ignoring #pragma warning
+In file included from /usr/win32/include/dshow.h:35,
+                 from common.h:45,
+                 from dshow.cpp:35:
+/usr/win32/include/ddraw.h:5552: warning: ignoring #pragma warning
+In file included from /usr/win32/include/dshow.h:45,
+                 from common.h:45,
+                 from dshow.cpp:35:
+/usr/win32/include/strmif.h:2: warning: ignoring #pragma warning
+In file included from /usr/win32/include/dsound.h:13,
+                 from /usr/win32/include/amaudio.h:18,
+                 from /usr/win32/include/dshow.h:47,
+                 from common.h:45,
+                 from dshow.cpp:35:
+/usr/win32/include/d3dtypes.h:22: warning: ignoring #pragma warning
+/usr/win32/include/d3dtypes.h:1813: warning: ignoring #pragma warning
+In file included from /usr/win32/include/dshow.h:48,
+                 from common.h:45,
+                 from dshow.cpp:35:
+/usr/win32/include/control.h:2: warning: ignoring #pragma warning
+dshow.cpp: In function `int CommonOpen(vlc_object_t*, access_sys_t*, vlc_bool_t)
+':
+dshow.cpp:456: error: expected primary-expression before '<<' token
+dshow.cpp:456: error: expected primary-expression before '<<' token
+dshow.cpp:456: error: expected primary-expression before '<<' token
+dshow.cpp:456: error: expected primary-expression before '<' token
+dshow.cpp:456: error: expected primary-expression before '.' token
+dshow.cpp:470: error: expected primary-expression before '==' token
+dshow.cpp:470: error: expected primary-expression before '==' token
+dshow.cpp:470: error: expected primary-expression before '==' token
+dshow.cpp:470: error: expected primary-expression before '=' token
+dshow.cpp:484: error: expected primary-expression before '>>' token
+dshow.cpp:484: error: expected primary-expression before '>>' token
+dshow.cpp:484: error: expected primary-expression before '>>' token
+dshow.cpp:484: error: expected primary-expression before '>' token
+dshow.cpp:484: error: expected primary-expression before '.' token
+dshow.cpp:485: error: expected `;' before "IAMCrossbar"
+dshow.cpp:491: error: `pXbar' undeclared (first use this function)
+dshow.cpp:491: error: (Each undeclared identifier is reported only once for each
+function it appears in.)
+make[6]: *** [libdshow_plugin_a-dshow.o] Error 1
+make[6]: Leaving directory `/home/Administrator/vlc-trunk/modules/access/dshow'
+make[5]: *** [all-modules] Error 1
+make[5]: Leaving directory `/home/Administrator/vlc-trunk/modules/access/dshow'
+make[4]: *** [all-recursive] Error 1
+make[4]: Leaving directory `/home/Administrator/vlc-trunk/modules/access'
+make[3]: *** [all] Error 2
+
+Basically in case of conflict svn adds "<<< mine" and "=======" and ">>>> r1242"
+which makes gcc complains.
+
+FIX: revert the offending file
+
+
+configure: error: Could not find ffmpeg on your system: you may get it from http
+://ffmpeg.sf.net/ (cvs version is recommended). Alternatively you can use --disa
+ble-ffmpeg to disable the ffmpeg plugins.
+make: *** [config.status] Error 1

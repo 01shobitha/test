@@ -331,28 +331,22 @@ How can I take screenshots?
 <answer>
 
 <para>
-To take normal screen capture of the video displayed
-by VLC:
+To take a snapshot of the video displayed by VLC, you just need to press the pre-defined snapshot hotkey:
 </para>
 
 <itemizedlist>
 
-<listitem><para>
-Under XFree, add the <command>-V x11</command>
-option to the command line. You'll have to find a X11 screenshot utility somewhere.
-</para></listitem>
+  <listitem><para>Windows / Linux / Unix:
+    <command>Ctrl-Alt-s</command></para></listitem>
 
-<listitem><para>
-Under Windows, add the <command>--nooverlay</command>
-option to the command line and use Prt Sc button to put a screenshot on your pasteboard.
-You can then paste this picture in a picture editor or a Word document or something.
-</para></listitem>
-
-<listitem><para>
-On Mac OS X just press command-option-3.
-</para></listitem>
+<listitem><para>Mac OS X:
+    <command>Command-Alt-s</command></para></listitem>
 
 </itemizedlist>
+
+<para>
+  To change it, go to Preferences -> Interface -> Hotkeys settings, check Advanced options, and set <emphasis>Take video snapshot</emphasis>.
+</para>
 
 </answer></qandaentry>
 

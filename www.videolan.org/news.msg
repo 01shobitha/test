@@ -2,6 +2,9 @@
 # New topics begin with a "|"
 #
 
+|19 June 2006|VideoLAN needs your help|There are many things that we would like to improve in VLC, but that we don't, because we simply don't have enough time. That's why we are currently looking for some help. We have identified several small projects that prospective developers could work on. Knowledge of C and/or C++ programming will certainly be useful, but you don't need to be an expert, nor a video expert. Existing VLC developers will be able to help you on these projects. You can find the list and some instructions at <a href="http://wiki.videolan.org/index.php/Mini_Projects">http://wiki.videolan.org/index.php/Mini_Projects</a>. Don't hesitate to come on <a href="http://www.videolan.org/support/">IRC</a> on the <a href="http://www.videolan.org/support/lists.html">mailing-lists</a>. We are waiting for you ! 
+
+
 |25 May 2006| Website redesign contest| Those of you browsing the web with text only console browsers might think that <a href="http://www.videolan.org">this website's design</a> is great, all the others wouldn't agree (some might even dare compare it with VLC's default interface on windows and linux). We've thus decided to give you the opportunity to change it.<br/>
 Rules are available on the <a href="http://wiki.videolan.org/index.php/WebsiteRedesign">wiki</a>. All discussion and posts relative to the contest will be made in the <a href="http://forum.videolan.org/viewforum.php?f=10">Website discussion forum</a>.
 

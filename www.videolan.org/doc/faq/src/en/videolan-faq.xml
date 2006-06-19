@@ -357,6 +357,35 @@ On Mac OS X just press command-option-3.
 </answer></qandaentry>
 
 <qandaentry><question><para>
+Where are my screenshots?
+</para></question>
+
+<answer>
+
+<para>
+If you haven't changed the snapshot directory in your preferences, your screenshots should go to:
+</para>
+
+<itemizedlist>
+
+<listitem><para>Windows:
+    <filename>My Documents\My Pictures\</filename></para></listitem>
+
+<listitem><para>Linux / Unix:
+    <filename>$(HOME)/.vlc/</filename></para></listitem>
+
+<listitem><para>Mac OS X:
+    <filename>Desktop/</filename></para></listitem>
+
+</itemizedlist>
+
+<para>
+To change it, go to Preferences -> Video -> Video snapshot directory.
+</para>
+
+</answer></qandaentry>
+
+<qandaentry><question><para>
 My file doesn't seem to work!
 </para></question>
 

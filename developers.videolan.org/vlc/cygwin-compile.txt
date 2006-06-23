@@ -1,4 +1,4 @@
-This document is constantly under construction :P
+This documentDownload the following 3 packages to a subfolder in your download/install location: is constantly under construction :P
 =================================================
 
 Document : Cygwin environment under Windows (9x/ME/XP/2000/2003)
@@ -115,9 +115,9 @@ and save it into a subfolder in your download location:
 
 C:\Downloads\VLC\src        (example)
 
-Check if the downloaded file has not been "accidentily" renamed by Internet
-Explorer in your download folder to something with the extension .tar.tar and
-if so then simple rename the files back to .tar.gz
+Check if the downloaded file has not been renamed by Internet Explorer in your
+download folder to something with the extension .tar.tar and if so then simple
+rename the files back to .tar.gz
 
 
 3       Adding libraries to the source code
@@ -148,9 +148,9 @@ and save it into a subfolder in your download location:
 
 C:\Downloads\VLC\contrib          (example)
 
-Check if the file has not been "accidentily" renamed by Internet Explorer in
-your download folder to something with the extension .tar.tar and if so then
-simple rename the file back to .tar.bz2
+Check if the file has not been renamed by Internet Explorer in your download
+folder to something with the extension .tar.tar and if so then simple rename
+the file back to .tar.bz2
 
 Also remember the "gcc-3.4.5" part in the "contrib" package filename since it
 relates to the GCC version that needs to be installed in Cygwin lateron!
@@ -206,9 +206,9 @@ and save it into a subfolder in your download location:
 
 C:\Downloads\VLC\src        (example)
 
-Check if the downloaded file has not been "accidentily" renamed by Internet
-Explorer in your download folder to something with the extension .tar.tar and
-if so then simple rename the files back to .tar.gz
+Check if the downloaded file has not been renamed by Internet Explorer in your
+download folder to something with the extension .tar.tar and if so then simple
+rename the files back to .tar.gz
 
 
 4        Cygwin
@@ -596,8 +596,8 @@ The AMR codec is usually referred to as:
 - Narrow Band (AMR-NB, fourcc samr) for low quality
 - Wide Band (AMR-WB, fourcc samw) for high quality
 
-The sources for AMR are (in the VLC interpretation) not fully compatible with
-GPL and FFmpeg (and therefore VLC) does not include AMR by default.
+The sources for AMR are not compatible with the GPL (General Public License).
+AMR support is disabled by default.
 
 
 7.2.1.1  Getting the AMR reference codecs
@@ -704,6 +704,9 @@ Create a new text document with the following lines:
 NOTE: For AMR encoding/decoding support also add the following options:
 
 --enable-amr_nb --enable-amr_wb
+
+NOTE: VLC uses the x264 lib directly and not through ffmpeg so there is
+no need to add --enable-x264
 
 Save as filename:
 
@@ -1056,11 +1059,11 @@ for gcc-g++ and gcc-mingw so if you are using older versions of those
 to continue to use them you need to CHANGE those versions to KEEP for
 EVERY TIME YOU USE THE UPDATE PROCESS.
 
-NOTE: You can click on the "View" button a few times untill you see "Partial"
+NOTE: You can click on the "View" button a few times until you see "Partial"
 next to it. This will give you an overview of some "Current" packages that
 will be updated to "New" versions.
 
-select the View button untill it reaches: Partial
+select the View button until it reaches: Partial
 
 3.3.3.3 	gcc-core 	-> change the new version 3.4.4-1 to KEEP
 3.3.3.3 	gcc-g++  	-> change the new version 3.4.4-1 to KEEP
@@ -1078,7 +1081,7 @@ If your Cygwin gcc versions are already the latest and you wish to downgrade
 to gcc 3.3.3-3 then it's not possible to downgrade the gcc-core/g++ and the
 mingw packages all at the same time, it has to be done in two steps.
 
-select the View button untill it reaches: Up To Date
+select the View button until it reaches: Up To Date
 
 gcc-core -> change to 3.3.3-3
 gcc-g++  -> change to 3.3.3-3
@@ -1087,12 +1090,12 @@ Install, OK
 
 Restart Cygwin update process.
 
-Select the View button untill it reaches: Partial
+Select the View button until it reaches: Partial
 
 gcc-core -> change to Keep
 gcc-g++  -> change to Keep
 
-select the View button untill it reaches: Up To Date
+select the View button until it reaches: Up To Date
 
 gcc-mingw-core -> change to 20040810-1
 gcc-mingw-g++  -> change to 20040810-1
@@ -1174,7 +1177,7 @@ mentioning "it crashes"!
 
 NOTE: In GDB mode there are sometimes situations where GDB initially "crashes"
 on certain network activity (opening network shares, network traffic) which in
-normal operation does not occur. Just select c for continue untill "normal"
+normal operation does not occur. Just select c for continue until "normal"
 operation continues.
 
 

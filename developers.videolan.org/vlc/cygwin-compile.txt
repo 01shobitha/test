@@ -1,4 +1,4 @@
-This documentDownload the following 3 packages to a subfolder in your download/install location: is constantly under construction :P
+This document is constantly under construction :P
 =================================================
 
 Document : Cygwin environment under Windows (9x/ME/XP/2000/2003)
@@ -346,7 +346,7 @@ Create a new text document with 2 following lines:
 "C:\Program Files\Subversion\bin\svn" checkout svn://svn.videolan.org/vlc/trunk vlc-trunk
 pause
 
-Save as filename:
+Save as filename in your "scripts" folder at your download/install location:
 
 update-vlc.bat          (example)
 
@@ -376,7 +376,7 @@ Create a new text document with 2 following lines:
 "C:\Program Files\Subversion\bin\svn" checkout svn://svn.videolan.org/x264/trunk x264-trunk
 pause
 
-Save as filename:
+Save as filename in your "scripts" folder at your download/install location:
 
 update-x264.bat
 
@@ -393,7 +393,7 @@ Create a new text document with 2 following lines:
 "C:\Program Files\Subversion\bin\svn" checkout svn://svn.mplayerhq.hu/ffmpeg/trunk ffmpeg-trunk
 pause
 
-Save as filename:
+Save as filename in your "scripts" folder at your download/install location:
 
 update-ffmpeg.bat
 
@@ -543,7 +543,7 @@ crash reports:
 
 --enable-debug
 
-Save as filename:
+Save as filename in your "scripts" folder at your download/install location:
 
 configure-vlc
 
@@ -688,7 +688,7 @@ C:\cygwin\home\Administrator\ffmpeg-trunk\libavcodec          (example)
 7.2.2    FFmpeg configure script with "contrib" package
 =======================================================
 
-NOTE: This compile script assumes you are also using the same FFMpeg version
+NOTE: This compile script assumes you are also using the same FFmpeg version
 as is used in the "contrib" package (this is why the cflags and ldflags also
 point to the win32 folder where the "contrib" package was extracted).
 
@@ -708,7 +708,7 @@ NOTE: For AMR encoding/decoding support also add the following options:
 NOTE: VLC uses the x264 lib directly and not through ffmpeg so there is
 no need to add --enable-x264
 
-Save as filename:
+Save as filename in your "scripts" folder at your download/install location:
 
 configure-ffmpeg          (example)
 
@@ -745,7 +745,7 @@ default /usr/local):
     --extra-ldflags=-L/usr/local/lib \
     --prefix=/usr/local \
 
-Save as filename:
+Save as filename in your "scripts" folder at your download/install location:
 
 configure-ffmpeg-svn          (example)
 
@@ -762,7 +762,7 @@ NOTE: for debugging purposes you can add the following option:
 
 --enable-debug
 
-Save as filename:
+Save as filename in your "scripts" folder at your download/install location:
 
 configure-x264
 
@@ -852,7 +852,7 @@ Cygwin environment with the naming convention something like:
 live        (example)
 
 
-8.1.3    Compiling FFMpeg (OPTIONAL)
+8.1.3    Compiling FFmpeg (OPTIONAL)
 ====================================
 
 This section is only required for FFmpeg compiling.
@@ -899,10 +899,10 @@ If you try this on alpha, you may need to change Word32 to int in amr/typedef.h
 NOTE: These warnings/notices can be ignored since we are using more recent versions.
 
 
-8.1.3.2  Building FFMpeg
+8.1.3.2  Building FFmpeg
 ========================
 
-Now build FFMpeg with the following command:
+Now build FFmpeg with the following command:
 
 make       
 
@@ -1449,9 +1449,9 @@ FIX: update wxwidgets or try a different/newer "contrib" package.
 ============================================================
 
 ffmpeg.o: In function `output_packet':
-/home/Administrator/FFMpeg-20050724/ffmpeg.c:1414: undefined reference to `_av_p
+/home/Administrator/FFmpeg-20050724/ffmpeg.c:1414: undefined reference to `_av_p
 arser_change'
-/home/Administrator/FFMpeg-20050724/ffmpeg.c:1415: undefined reference to `_av_d
+/home/Administrator/FFmpeg-20050724/ffmpeg.c:1415: undefined reference to `_av_d
 estruct_packet'
 collect2: ld returned 1 exit status
 make: *** [ffmpeg_g.exe] Error 1

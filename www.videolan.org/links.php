@@ -18,7 +18,7 @@ player for Linux.</li>
 <li> <a href="http://www.dtek.chalmers.se/groups/dvd/">Ogle</a>, a DVD
 player for Linux, developed at Chalmers University, Sweden.</li>
 
-<li><a href="http://www.mplayerhq.hu/homepage/">Mplayer</a>, a
+<li><a href="http://www.mplayerhq.hu/">Mplayer</a>, a
 media player for Unix, Linux and Mac OS X.</li>
 
 </ul>
@@ -53,7 +53,7 @@ patent-free lossless audio codec.</li>
 <li><a href="http://www.theora.org">Theora</a> : a free and patent-free
 video format and codec.</li>
 
-<li><a href="http://faac.sourceforge.net/">FAAC</a> : free MPEG-4 audio
+<li><a href="http://www.audiocoding.com/">FAAC</a> : free MPEG-4 audio
 codecs.</li>
 
 <li><a href="http://www.mars.org/home/rob/proj/mpeg/">Mad</a> : a free
@@ -75,7 +75,7 @@ library to access the DVB drivers.</li>
 <li><a href="http://bytesex.org/v4l/">Video4Linux</a> : the video       
 capture API of the Linux kernel.</li>                                   
 
-<li><a href="http://ivtv.sourceforge.net/">IvyTV</a> : free Linux
+<li><a href="http://ivtvdriver.org/">IvTV</a> : free Linux
 drivers for for the iTVC15 family of MPEG codecs, found in the
 Hauppauge WinTV-PVR-250.</li>
 

@@ -183,8 +183,9 @@ cooperation of our partners, on both technical and financial sides: </p>
  <p>VTHR is the first digital network for High-Resolution               
  Video Transmission. We have developed the satellite input,             
  deinterlacing routines and support for 4:2:2 MPEG-2 in VLC             
- for them. VTHR gave us a computer which is now hosting the <a          
- href="http://vthr.videolan.org/~videolan/">VLC nightly builds</a>.</p> 
+ for them. VTHR gave us a computer which used to host the <a          
+ href="http://nightlies.videolan.org/">VLC nightly builds</a> 
+ and is still used for development.</p> 
 
     </td>
   </tr>
@@ -196,7 +197,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   </tr>
   <tr>
     <td>
-	<p><a href="http://www.sncf.com/co/index.htm"><img
+	<p><a href="http://recherche.sncf.com/"><img
 	src="/images/sncf.jpeg" alt="SNCF" width="146" height="61" /></a></p>
     </td>
     <td>

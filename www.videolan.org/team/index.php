@@ -66,7 +66,7 @@ France
 at the school,</li>
 
 <li>Mr Dimitri Dagot, director of the <a
-href="http://www.etudes.ecp.fr/option-it/">Computer-science and Telecom
+href="http://www.it.ecp.fr/">Computer-science and Telecom
 option</a> of the school.</li>
 
 </ul>

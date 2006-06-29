@@ -4,9 +4,9 @@
 
 |19 June 2006|VideoLAN needs your help|There are many things that we would like to improve in VLC, but that we don't, because we simply don't have enough time. That's why we are currently looking for some help. We have identified several small projects that prospective developers could work on. Knowledge of C and/or C++ programming will certainly be useful, but you don't need to be an expert, nor a video expert. Existing VLC developers will be able to help you on these projects. You can find the list and some instructions at <a href="http://wiki.videolan.org/index.php/Mini_Projects">http://wiki.videolan.org/index.php/Mini_Projects</a>. Don't hesitate to join us on <a href="http://www.videolan.org/support/">IRC</a> or on the <a href="http://www.videolan.org/support/lists.html">mailing-lists</a>. We are waiting for you ! 
 
-
 |25 May 2006| Website redesign contest| Those of you browsing the web with text only console browsers might think that <a href="http://www.videolan.org">this website's design</a> is great, all the others wouldn't agree (some might even dare compare it with VLC's default interface on windows and linux). We've thus decided to give you the opportunity to change it.<br/>
-Rules are available on the <a href="http://wiki.videolan.org/index.php/WebsiteRedesign">wiki</a>. All discussion and posts relative to the contest will be made in the <a href="http://forum.videolan.org/viewforum.php?f=10">Website discussion forum</a>.
+Rules are available on the <a href="http://wiki.videolan.org/index.php/WebsiteRedesign">wiki</a>. All discussion and posts relative to the contest will be made in the <a href="http://forum.videolan.org/viewforum.php?f=10">Website discussion forum</a>.</br>
+<b>Update:</b> The deadline for this contest is set to Friday 14/07. You can have a look at current proposals on <a href="http://wiki.videolan.org/index.php/WebsiteDesign">this wiki page</a>.
 
 |6 May 2006| Release: VLC media player 0.8.5 | This new Release features many improvements, including MacIntel support, a statistic system, the support of DV inputs on Linux, improvements in the Audio CD playback (CDDB), many new and improved video filters, a new AJAX HTTP interface, Winamp 2 Skins support, a Mozilla plugin on Mac OS X (PowerPC only), a new default skin ...<br />
 Have a look <a href="http://developers.videolan.org/vlc/NEWS">here</a>

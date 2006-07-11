@@ -79,7 +79,7 @@ either : </p><ul>
 	    As root, run : <pre>wget -O /dev/stdout http://nightlies.videolan.org/key|apt-key add - </pre></li>
 	<li>Import it in your gnupg installation, either from the <a href="key">file</a> or from any keyserver, and check it (it is signed by several VideoLAN developers).<br />
 	<pre>
-	gpg --keyserver subkeys.hkp.net --recv-keys 81CACA84
+	gpg --keyserver subkeys.pgp.net --recv-keys 81CACA84
 	gpg --list-sigs 81CACA84 (check for errors)
 	gpg --export 81CACA84 -a|sudo apt-key add -</pre>
 	</li></ul></li><li>

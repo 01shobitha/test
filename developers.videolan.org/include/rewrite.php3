@@ -80,7 +80,7 @@
     }
   }
   else
-  if( $isindex )
+  if( $isindex && $dir != "include" )
   {
     $listing = array();
     $handle = opendir( $dir );

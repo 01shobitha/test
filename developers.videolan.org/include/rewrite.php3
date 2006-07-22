@@ -102,7 +102,13 @@
     }
   }
   else
+  {
     include( '404.html' );
+    if( !strncmp( $dir, "pub", 3 ) )
+    {
+      echo "<p>Are you looking for <a href='http://downloads.videolan.org/$dir/'>http://downloads.videolan.org/$dir/</a> ?</p>";
+    }
+  }
 ?>
 
 <br><br>

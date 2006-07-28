@@ -114,9 +114,12 @@ else if(    navigator.userAgent.indexOf("freebsd") != -1
   document.writeln( '<?php echo $dlfreebsd; ?>' );
 }
 else if (    navigator.userAgent.indexOf("Mac OS X") != -1
-          || navigator.userAgent.indexOf("MSIE 5.2") != -1 )
+          || navigator.userAgent.indexOf("MSIE 5.2") != -1
+          || (    navigator.userAgent.indexOf("Mac")
+               && navigator.userAgent.indexOf("Opera") ) )
 {
-  if( navigator.platform.indexOf("MacPPC") != -1 )
+  if(    navigator.platform.indexOf("MacPPC") != -1 
+      || navigator.platform.indexOf("PowerPC") != -1 )
   {
     document.writeln( '<?php echo $dlmacosxppc; ?>' );
   }

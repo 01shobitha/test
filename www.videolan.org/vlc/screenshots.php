@@ -23,6 +23,10 @@ screenshot( "/vlc/screenshots/0.8.5/VLC-screenshot-0.8.5.JPG",
             "/vlc/screenshots/0.8.5/tm_VLC-screenshot-0.8.5.JPG",
             "Skins2 - Blista skin",
             "Skins2 - Blista skin (1280x1024)" );
+screenshot( "/vlc/screenshots/0.8.5/VLC-default-skin.jpg",
+            "/vlc/screenshots/0.8.5/tm_VLC-default-skin.jpg",
+            "Skins2 - New default skin",
+            "Skins2 - New default skin (1024x768)" );
 ?>
 <td></td></tr></tbody></table>
 

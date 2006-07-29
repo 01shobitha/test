@@ -15,7 +15,18 @@ echo"    <td class='center'><a href='$img'><img
 
 <h1> VLC screenshots </h1>
 
-<h2>Latest screenshots 0.8.4</h2>
+<h2>Latest screenshots 0.8.5</h2>
+
+<table cellspacing="5" cellpadding="5" border="0"><tbody><tr>
+<?php
+screenshot( "/vlc/screenshots/0.8.5/VLC-screenshot-0.8.5.JPG",
+            "/vlc/screenshots/0.8.5/tm_VLC-screenshot-0.8.5.JPG",
+            "Skins2 - Blista skin",
+            "Skins2 - Blista skin (1280x1024)" );
+?>
+<td></td></tr></tbody></table>
+
+<h2>0.8.4</h2>
 
 <table cellspacing="5" cellpadding="5" border="0"><tbody><tr>
 <?php

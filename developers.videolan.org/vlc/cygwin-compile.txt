@@ -25,6 +25,7 @@ Version  : 20050627 Initial version
            20060222 Remark about missing "gettext" libs for Cygwin during install
            20060225 ./bootstrap: you need libtool
            20060618 Updated GCC to 3.4 version and added FFmpeg SVN and DTS support
+           20060805 Added note about using older binutils and gdb for Cygwin!
 
 Based on : "Win32 Cygwin Environment" Rev. B (20041003)
            by Mark Moriarty
@@ -142,7 +143,7 @@ http://download.videolan.org/pub/testing/win32/
 
 Download the latest version of a "contrib" package for win32
 
-contrib-20060526-win32-bin-gcc-3.4.5-only.tar.bz2          (example)
+contrib-20060730-win32-bin-gcc-3.4.5-only.tar.bz2          (example)
 
 and save it into a subfolder in your download location:
 
@@ -249,18 +250,19 @@ Select the following packages (open the category by clicking on the + sign)
         2.59-2          autoconf        autoselected
         2.13-1          autoconf2.1     autoselected
         2.59-2          autoconf2.5     autoselected
+        20060709-1      binutils        autoselected ->	CHANGE to 20050610-01
 4.  ->  1.11.17-1       cvs             (required for autopoint)
 5.  ->  3.4.4-1         gcc-g++
         3.4.4-1         gcc-core        autoselected
 6.  ->  20040810-1      gcc-mingw
         20050522-1      gcc-mingw-core  autoselected
         20050522-1      gcc-mingw-g++ 	autoselected
-7.  ->  20041228-3      gdb             (optional: for debugging purposes)  
+7.  ->  20060706-2      gdb             (optional: for debugging purposes) -> CHANGE to 20041228-3
 8.  ->  0.14.5-1        gettext-devel
         0.14.5-1        gettext         autoselected
 9.  ->  1.5.22-1        libtool1.5
-10. ->  3.80-1          make
-        3.9-2           mingw-runtime   autoselected
+10. ->  3.81-1          make
+        3.10-1          mingw-runtime   autoselected
 11. ->  0.98.39-1       nasm            (optional: for compiling x264 encoder)	
 12. ->  0.2.31-1        patchutils      (optional: for patching source files with .diff files)
 13. ->  0.20-1          pkgconfig       (recommended: otherwise ./configure will complain about accuracy)
@@ -270,7 +272,14 @@ Select the following packages (open the category by clicking on the + sign)
 
 The package version numbers are just representations of what was the most
 current version available at the time this document was written. Any newer
-versions should work fine as well.
+versions should work fine as well with the exception of binutils and gdb!
+
+NOTE: It is extremely important to DOWNGRADE binutils from 20060709-1 to
+20050610-01 (will otherwise give weird results like VLC gui not opening)
+and also to DOWNGRADE gdb from 20060706-2 to 20041228-3 if you decided to
+install that (will otherwise crash on opening VLC). Whenever new packages
+are installed or updated through the Cygwin installer, make sure not to
+update these packages by keeping the old versions (using the "Keep" option).
 
 NOTE: There have been reports of problems of missing packages during install
 (particularly gettext: cyggettextsrc-0-14-1.dll not found). If you run into

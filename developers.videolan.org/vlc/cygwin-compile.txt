@@ -239,7 +239,18 @@ Local Package directory  :  C:\Downloads\cygwin (your download location)
 Internet Connection      :  Direct Connection (preferred, if it fails try other)
 Download Site            :  Choose a download site closest to you (FTP preferred)
 
-Select the following packages (open the category by clicking on the + sign)
+At the "Select Packages" section of the installation process you can select
+packages by clicking the button with the rotating 2 arrows. (This is under
+the "New" section). It shows "Skip" next to the button if the package isn't
+selected yet.
+
+Clicking the button a few times will rotate through the possible package
+versions including "Skip" (meaning do not install or remove if installed)
+and "Keep" (meaning keep using the current installed version). If a package
+was already installed it will also show the "Current" version just to the
+left of it.
+
+Select the following packages (open the category by clicking on the + sign):
 
 + Archive
 1.  ->  5.50-5          unzip           (recommended: goes hand in hand with zip utility)
@@ -493,7 +504,7 @@ http://download.videolan.org/pub/testing/win32/
 to see if a newer "contrib" is available. If that is the case you should DELETE
 the existing directory structure which is for the precompiled "contrib" package:
 
-C:\cygwin\home\usr\win32          (example)
+C:\cygwin\usr\win32          (example)
 
 Download the newer file and follow the installation instructions the same as
 before so you will end up with the most up-to-date version.

@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<para>
+Es gibt vorkompilierte Programme von VLC für viele, aber nicht für alle
+unterstützten Betriebssysteme. Wenn es keine binäre Version für Ihr System
+gibt oder Sie Änderungen an den standardmäßigen Einstellungen machen
+möchten, können Sie VLC aus dessen Quellen kompilieren.
+</para>
+
+<sect2><title>Windows</title>
+
+<para>
+VLC arbeitet unter Windows 95/98/ME/2000/XP.
+Laden Sie die selbstextrahierende Datei von der <ulink
+url="http://www.videolan.org/vlc/download-windows.html">VLC Windows
+Downloadseite</ulink> herunter. Starten Sie die <filename>.exe</filename> um
+VLC zu installieren.
+
+</para>
+
+</sect2>
+
+<sect2><title>BeOS</title>
+
+<para>
+
+Laden Sie die ZIP-Datei von der <ulink
+url="http://www.videolan.org/vlc/download-beos.html">VLC BeOS 
+Downloadseite</ulink> herunter. Entzippen Sie die Datei in einem
+Verzeichnis um VLC zu installieren.
+
+</para>
+
+</sect2>
+
+<sect2><title>Mac OS X</title>
+<para>
+
+Laden Sie das Mac OS X Paket von der <ulink
+url="http://www.videolan.org/vlc/download-macosx.html">VLC
+MacOS X Downloadseite</ulink>. Doppelklicken Sie auf das Icon des
+Pakets. Ein Symbol wird neben Ihren Laufwerken auf dem Schreibtisch
+erscheinen. Öffnen Sie es und ziehen Sie das VLC Programm an den Ort,
+an dem Sie VLC installieren möchten (es sollte <filename>/Programme
+</filename> sein).
+
+</para>
+
+</sect2>
+
+<sect2><title>Debian GNU/Linux</title>
+
+<simplesect><title>Debian stable (woody)</title>
+
+<para>
+Fügen Sie folgende Zeilen dieser Datei hinzu:
+<filename>/etc/apt/sources.list</filename>:</para>
+
+<programlisting>
+     deb http://download.videolan.org/pub/videolan/debian woody main
+     deb-src http://download.videolan.org/pub/videolan/debian woody main
+</programlisting>
+
+<para>
+Machen Sie dann für eine normale Installation:
+</para>
+
+<screen>
+<prompt># </prompt><userinput>apt-get update</userinput>
+<prompt># </prompt><userinput>apt-get install gnome-vlc libdvdcss2</userinput>
+</screen>
+
+</simplesect>
+
+<simplesect><title>Debian unstable (sid)</title>
+
+<para>
+Fügen Sie die folgenden Zeilen hier hinzu 
+<filename>/etc/apt/sources.list</filename>:</para>
+
+<programlisting>
+     deb http://download.videolan.org/pub/videolan/debian sid main
+     deb-src http://download.videolan.org/pub/videolan/debian sid main</programlisting>
+
+<para>
+Machen Sie dann für eine normale Installation:
+</para>
+
+<screen>
+<prompt># </prompt><userinput>apt-get update</userinput>
+<prompt># </prompt><userinput>apt-get install wxvlc libdvdcss2</userinput>
+</screen>
+
+</simplesect>
+
+<simplesect><title>Debian testing (sarge)</title>
+
+<para>
+
+Sie sollten nicht die "testing"-Variante von Debian verwenden, außer wenn
+Sie wirklich wissen, was SIe tun. Es ist nachzu unmöglich die "testing"-Variante
+von Debian zu unterstützen und es gibt keine Pläne dies zu tun.
+Für weitere Informationen über die "testing"-Variante von Debian schauen Sie
+bitte auf die Seite dieser <ulink url="http://www.debian.org/devel/testing">
+Distribution</ulink>
+
+</para>
+
+</simplesect>
+
+</sect2>
+
+<sect2><title>Linux Mandrake</title>
+
+<para>
+Es gibt VLC Pakete für Mandrake 9.1 und "cooker"
+</para>
+
+<para>
+Um Sie zu installieren, fügen Sie die folgenden Quellen
+für entweder Mandrake 9.1 oder Cooker hinzu (Sie können <ulink
+url="http://plf.zarb.org/~nanardon/">Easy urpmi</ulink> dafür benutzen):
+<emphasis>contrib</emphasis> von der Kerndistribution und
+<emphasis>plf</emphasis> (Penguin Liberation Front) von den externen
+Add-ons.
+</para>
+
+<para>
+Installieren Sie danach die benötigten Pakete mit
+<command>urpmi</command>:</para>
+
+<screen>
+<prompt># </prompt><userinput>urpmi libdvdcss2 libdvdplay0 wxvlc vlc-plugin-a52 vlc-plugin-ogg vlc-plugin-mad</userinput>
+</screen>
+
+</sect2>
+
+<sect2><title>Linux Redhat</title>
+
+<para>
+Laden Sie das RPM-Paket <emphasis>vlc</emphasis> und die Pakete, die 
+in der Sektion <emphasis>required libraries and codecs</emphasis> auf
+der <ulink url="http://www.videolan.org/vlc/download-redhat.html">
+VLC Red Hat Downloadseite</ulink> aufgeführt sind herunter und legen Sie
+sie alle in das gleicher Verzeichnis.</para>
+<para>Installieren Sie dann die RPM-Pakete, die Sie heruntergeladen haben:</para>
+
+
+<screen>
+<prompt># </prompt><userinput>rpm -U *.rpm</userinput>
+</screen>
+
+<para>
+
+Wenn Sie nicht alle RPM-Pakete installiert haben, die mit Ihrer Distribution
+mitgeliefert worden sind, werden Sie eventuell gefragt werden, diese 
+zuerst zu installieren.
+</para>
+
+</sect2>
+
+<sect2><title>
+
+  Die Quellen selbst kompilieren (für jedes andere System)
+</title>
+
+
+<para>Die unten stehende Mathode läuft auf jedem von VLC unterstützten
+Unixsystem, für das keine Pakete zur Verfügung stehen. Sie erklärt, wie
+VLC udn die benötigten Bibliotheken aus deren Quellcodes kompiliert und
+installiert werden.</para>
+<para>Sie können so gleichermaßen auch VLC unter Linux kompilieren, wenn
+Sie die standardmäßig unterstützten Module ändern möchten.</para>
+
+
+<sect3><title>
+Installation der Bibliotheken
+</title>
+
+<para>
+Viele Bibliotheken werden benötigt:
+</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>libdvbpsi</emphasis>
+(obligatorisch)
+,</para></listitem>
+
+<listitem><para><emphasis>mpeg2dec</emphasis>
+(obligatorisch)
+,</para></listitem>
+
+<listitem><para><emphasis>libdvdcss</emphasis>
+wenn Sie verschlüsselte DVDs lesen möchten können
+,</para></listitem>
+
+<listitem><para><emphasis>libdvdplay</emphasis>
+wenn Sie DVD-Menü-Navigation möchten
+,</para></listitem>
+
+<listitem><para><emphasis>a52dec</emphasis>
+wenn Sie AC3 (d.h. A52) - Ton, der oft in DVDs benutzt
+ wird, dekodieren möchten
+,</para></listitem>
+
+<listitem><para><emphasis>ffmpeg</emphasis>, <emphasis>libmad</emphasis>,
+ <emphasis>faad2</emphasis>
+wenn Sie MPEG 4 / DivX - Dateien lesen möchten
+,</para></listitem>
+
+<listitem><para><emphasis>libogg</emphasis> &amp;
+<emphasis>libvorbis</emphasis>
+wenn Sie Ogg Vorbis Dateien lesen möchten
+.</para></listitem>
+
+</itemizedlist>
+
+<para>
+Sie können die Bibliotheken entweder von der <ulink
+url="http://www.videolan.org/vlc/download-sources.html">VLC Quellen
+Downloadseite</ulink> herunterladen und sie, wie im nächsten Abschnitt
+beschrieben, kompilieren oder sich die Bibliotheken, respektive der
+Development-Header, bei Ihrem bevorzugten Distributeur (z.B. via .deb oder
+.rpm Pakete) besorgen. Wie dem auch sei, nur Tarballs von unserer Website
+werden offiziell unterstützt.
+</para>
+
+<para>
+Für jede Bibliothek:
+</para>
+
+<itemizedlist>
+
+<listitem><para>
+Dekomprimieren:
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>tar xvzf library.tar.gz</userinput>
+</screen>
+
+<para>
+oder
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>tar xvjf library.tar.bz2</userinput>
+</screen>
+
+</listitem>
+
+<listitem><para>
+Konfigurieren:
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>cd library</userinput>
+<prompt>% </prompt><userinput>./configure</userinput>
+</screen>
+
+<para>
+Hinweis: ffmpeg muss mit --enable-pp konfiguriert werden
+</para>
+
+</listitem>
+
+<listitem><para>
+Kompilieren und Installieren:
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>make</userinput>
+<prompt># </prompt><userinput>make install</userinput>
+</screen>
+
+</listitem>
+
+</itemizedlist>
+
+<para>
+
+Überprüfen Sie, dass die Konfigurationsdatei <filename>/etc/ld.so.conf
+</filename> die folgende Zeile enthält:
+</para>
+
+<programlisting>
+/usr/local/lib
+</programlisting>
+
+<para>
+
+Wenn die Zeile nicht existiert, fügen Sie sie hinzu und lassen Sie dann (als root)
+laufen:
+</para>
+
+<screen>
+<prompt># </prompt><userinput>ldconfig</userinput>
+</screen>
+
+</sect3>
+
+<sect3><title>
+Installation von VLC
+</title>
+
+<para>
+
+Laden Sie die Quellen der neuesten Version herunter: besorgen Sie sich
+die Datei <filename>vlc-version.tar.gz</filename> von der <ulink
+url="http://www.videolan.org/vlc/download-sources.html">VLC Quellen
+Downloadseite</ulink>. Dekomprimieren Sie sie:
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>tar xvzf vlc-version.tar.gz</userinput>
+<prompt>% </prompt><userinput>cd vlc-version</userinput>
+</screen>
+
+<!-- bootstrap is already done is the tarballs -->
+<para>
+Wenn Sie Quellen aus SVN benutzen, müssen Sie
+folgendes ausführen:
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>./bootstrap</userinput>
+</screen>
+
+<para>
+Bei sogenannten Tarballs wurde 'bootstrap' bereits ausgeführt.
+</para>
+
+<para>
+
+Um die Liste der Konfigurationsoptionen zu erhalten, machen Sie folgendes:
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>./configure --help</userinput>
+</screen>
+
+<para>
+Beachten Sie, dass alle Module in der <emphasis>Modules</emphasis>-Sektion
+des <ulink url="http://www.videolan.org/doc/vlc-user-guide/">VLC Benutzerhandbuches</ulink> beschrieben sind.
+</para>
+
+
+<para>
+Beispiele von sehr einfachen Konfigurationen:
+</para>
+
+<itemizedlist>
+
+<listitem><para>
+wenn Sie ein einfaches VLC möchten, machen Sie folgendes: </para>
+
+<screen>
+<prompt>% </prompt><userinput>./configure</userinput>
+</screen>
+
+</listitem>
+
+<listitem><para>
+wenn Sie das Gnome-Interface anstatt des
+GTK-Interface möchten (Sie benötigen die Development-Pakete von Gnome):
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>./configure --enable-gnome</userinput>
+</screen>
+
+</listitem>
+
+</itemizedlist>
+
+<para>
+Kompilieren und installieren Sie danach:
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>make</userinput>
+<prompt>% </prompt><userinput>su</userinput>
+<prompt>Password: </prompt><userinput> [Root Password]</userinput>
+<prompt># </prompt><userinput>make install</userinput>
+</screen>
+
+<para>
+Bitte beachten Sie, dass die Installation (<command>make install</command>)
+nicht verbindlich ist. Sie können VLC auch von dort ausführen, wo Sie es
+kompiliert haben.
+</para>
+
+</sect3>
+</sect2>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="iso8859-1" ?>
+
+
+
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.1//EN" "/usr/share/sgml/docbook/dtd/xml/4.1/docbookx.dtd"
+
+[
+  <!ENTITY intro SYSTEM "../common/intro.xml">
+  <!ENTITY codec-demux SYSTEM "../common/codec-demux.xml">
+  <!ENTITY vlc SYSTEM "vlc.xml">
+  <!ENTITY vlc-streamoutput SYSTEM "vlc-streamoutput.xml">
+  <!ENTITY vod SYSTEM "vod.xml">
+  <!ENTITY vlc-sap SYSTEM "vlc-sap.xml">
+  <!ENTITY conclusion SYSTEM "conclusion.xml">
+  <!ENTITY install-vlc SYSTEM "../common/install-vlc.xml">
+  <!ENTITY fdl SYSTEM "../common/fdl.xml">
+
+]>
+
+<book id="videolan-quickstart">
+
+<bookinfo>
+
+<title>VideoLAN Quickstart</title>
+
+<authorgroup>
+  <author>
+    <firstname>Alexis</firstname>
+    <surname>de Lattre</surname>
+  </author>
+  <author>
+    <firstname>Bill</firstname>
+    <surname>Eldridge</surname>
+  </author>
+  <author>
+    <firstname>Anil</firstname>
+    <surname>Daoud</surname>
+  </author>
+  <author>
+    <firstname>Mathieu</firstname>
+    <surname>Gautier</surname>
+  </author>
+  <author>
+    <firstname>Clément</firstname>
+    <surname>Stenac</surname>
+  </author>
+</authorgroup>
+
+<copyright>
+    <year>2002, 2003</year>
+    <holder>
+      <span xml:lang="en">the VideoLAN project</span>
+      <span xml:lang="fr">Le projet VideoLAN</span>
+    </holder>
+</copyright>
+
+<legalnotice>
+
+<para> Permission is granted to copy, distribute and/or modify this
+document under the terms of the GNU Free Documentation License, Version
+1.2 or any later version published by the Free Software Foundation ;
+with no Invariant Sections, with no Front-Cover Texts, and with no
+Back-Cover Texts. The text of the license can be found in the appendix
+<xref linkend="gfdl" endterm="tgfdl"/>.</para>
+
+</legalnotice>
+
+<keywordset>
+    <keyword>VideoLAN</keyword>
+    <keyword>Quickstart</keyword>
+    <keyword>vlc</keyword>
+    <keyword>VLC</keyword>
+    <keyword>vls</keyword>
+    <keyword>VLS</keyword>
+    <keyword>vod</keyword>
+    <keyword>sap</keyword>
+    <keyword>stream</keyword>
+    <keyword>multicast</keyword>
+    <keyword>MPEG-1</keyword>
+    <keyword>MPEG-2</keyword>
+    <keyword>MPEG-4</keyword>
+    <keyword>DVD</keyword>
+    <keyword>DivX</keyword>
+</keywordset>
+
+<abstract>
+
+<para>
+ <span xml:lang="en">This document describes how to start using VideoLAN quickly.</span>
+ <span xml:lang="fr">Ce document explique brièvement les bases de l'utilisation de VideoLAN</span>
+</para>
+
+</abstract>
+
+
+</bookinfo>
+
+
+<toc></toc>
+
+&intro;
+&vlc;
+&vlc-streamoutput;
+&vod;
+&vlc-sap;
+&conclusion;
+&fdl;
+
+</book>
+

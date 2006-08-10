@@ -1,0 +1,55 @@
+<?php
+   $title = "VLC media player for Debian GNU/Linux";
+   $lang = "en";
+   $date = "14 February 2003";
+   $menu = array( "vlc", "download" );
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
+   include($_SERVER["DOCUMENT_ROOT"]."/include/mirrordir.php");
+?>
+
+<?php function pkgitem($version,$name,$comment) { ?><li><a href="http://download.videolan.org/pub/videolan/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a> <?php echo $comment; ?> </li><?php } ?>
+
+<h1> VLC media player for <a href="http://debian.org">Debian GNU/Linux</a></h1>
+
+<h2> Debian stable (sarge) </h2>
+
+<p> A fairly recent version (between 0.8.1 and 0.8.2) is packaged in Sarge.
+However, if you want libdvdcss (DVD decryption) support, you will need to add the following lines to your <b>/etc/apt/sources.list</b>:</p>
+
+<pre>
+     deb http://download.videolan.org/pub/videolan/debian sarge main
+     deb-src http://download.videolan.org/pub/videolan/debian sarge main
+</pre>
+
+<p> For a normal install, do:</p>
+
+<pre>
+   # apt-get update
+   # apt-get install vlc libdvdcss2
+</pre>
+
+<h2> Debian unstable (sid) </h2>
+
+<p> VLC's latest packaged version is always in the official Debian unstable
+branch. However you should still use our apt-get line if you need libdvdcss: </p>
+
+<pre>
+     deb http://download.videolan.org/pub/videolan/debian sid main
+     deb-src http://download.videolan.org/pub/videolan/debian sid main
+</pre>
+
+<p> For a normal install, do:</p>
+
+<pre>
+   # apt-get update
+   # apt-get install vlc libdvdcss2
+</pre>
+
+
+<h2> Debian testing (etch) </h2>
+
+<p> VLC is probably available too in testing, but due to the way testing works, we can't guarantee which version is currently available. </p>
+
+<?php
+  footer('$Id$');
+?>

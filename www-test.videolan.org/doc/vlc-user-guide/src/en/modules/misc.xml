@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<sect1><title>
+OS support modules
+</title>
+
+<para>
+The following modules add support for different OSs.
+</para>
+
+<sect2>
+<title>macosx</title>
+<para>
+This is the MacOS X support module, including a native
+interface.
+</para></sect2>
+
+<sect2><title>qnx</title>
+<para>
+This is the QNX RTOS support module.
+</para></sect2>
+
+</sect1>
+
+
+<sect1><title>
+Miscellaneous
+</title>
+
+<para>
+This section describes a few more modules that don't
+belong to any of the categories described before.
+</para>
+
+<sect2><title>sout</title>
+&enabled;
+<para>
+Stream Output is a new feature of VLC that allows
+it to stream an MPEG-1, MPEG-2 or MPEG-4/DivX file or a DVD.
+</para>
+
+<para>
+For more details, please have a look at the <xref
+linkend="cmdline" endterm="tcmdline"/> section.
+</para>
+
+</sect2>
+
+<sect2><title>test-suite</title>
+&disabled;
+<para>
+This builds a special VLC, for testing purposes only.
+</para>
+</sect2>
+
+<sect2><title>mozilla</title>
+&disabled;
+<para>
+This is not really a module. When enabled, a VLC-based
+Mozilla plugin is built.
+</para>
+
+</sect2>
+
+<sect2><title>xosd</title>
+&disabled;
+<para><emphasis>
+For Unix only
+</emphasis></para>
+
+<para>
+
+This module outputs the current stream to an "OSD" (On Screen Display).
+</para>
+
+</sect2>
+</sect1>
+
+
+<sect1><title>
+Compilation Options
+</title>
+
+<para>
+There are a few options that you can set when
+running the configure script, which are not related to modules.
+</para>
+
+<para>
+You can have a look at these options by typing:
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>./configure --help</userinput>
+</screen>
+
+<para>
+You can for example control all the installation
+directories, the system for which you want to build VLC for (if not
+guessed correctly),...
+</para>
+
+<para>
+You can also choose to enable or disable some
+optimizations.
+</para>
+
+<sect2><title>--disable-plugins</title>
+
+<para>
+If you select this option, no plugins will be
+enabled. This is definitely not recommended, as you would get a very
+poor VLC, and should only be used for testing purposes.
+</para>
+
+</sect2>
+</sect1>

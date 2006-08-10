@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<sect2><title>Windows</title>
+
+<para>
+Go to the <emphasis>Control Panel</emphasis>,
+click on <emphasis>Add and remove programs</emphasis>, select
+<emphasis>VLS</emphasis> and click on <emphasis>Modify/Remove</emphasis>
+and follow the steps to uninstall the program.
+</para>
+
+</sect2>
+
+<sect2><title>
+If you compiled VLS from sources
+</title>
+
+<para>
+Go to the directory containing VLS sources and run:
+</para>
+
+<screen>
+<prompt># </prompt><userinput>make uninstall</userinput>
+</screen>
+
+<para>
+Then you can remove the VLS sources.
+</para>
+
+</sect2>

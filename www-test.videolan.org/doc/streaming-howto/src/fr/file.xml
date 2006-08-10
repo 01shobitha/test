@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="file"><title id="tfile">
+Diffuser un fichier
+</title>
+
+
+
+<sect1><title>
+Diffuser un fichier avec VLC
+</title>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv video1.xyz --sout udp:192.168.0.42 --ttl 12</userinput>
+</screen>
+
+<para>
+où :
+</para>
+
+<itemizedlist>
+
+<listitem><para><filename>video1.xyz</filename>
+ est le fichier que vous voulez diffuser,</para></listitem>
+
+<listitem><para><emphasis>192.168.0.42</emphasis>
+est soit :
+</para>
+
+<itemizedlist>
+
+<listitem><para>
+l'adresse IP de la machine vers laquelle vous voulez émettre en
+unicast;
+</para></listitem>
+
+<listitem><para>
+ou le nom DNS de la machine vers laquelle vous vous voulez émettre
+en unicast;
+</para></listitem>
+
+<listitem><para>
+ou une adresse IP multicast.
+</para></listitem>
+
+</itemizedlist>
+
+</listitem>
+
+<listitem><para><emphasis>12</emphasis>
+est la valeur du TTL (Time To Live) de vos paquets IP (ce qui
+signifie que le flux peut traverser 11 routeurs maximum).
+</para></listitem>
+</itemizedlist>
+
+<para>
+Si vous voulez diffuser un fichier en continu, ajoutez l'option
+<emphasis>--loop</emphasis>.
+</para>
+
+</sect1>
+
+</chapter>

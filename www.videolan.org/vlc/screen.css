@@ -1,31 +1,197 @@
-/* screen.css
-*/
+/*
+ * Copyright (c) 2001, 2003 The FreeBSD Documentation Project
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ * ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+ * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ * OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ *
+ *
+ * Customized for VideoLAN.
+ */
 
-a:link          {color: blue; text-decoration: underline}
-a:active        {color: red; text-decoration: underline}
-a:visited       {color: darkblue; text-decoration: underline}
 
-body            {font-family: "Verdana", Georgia, Times; font-size: 1em; color: #000000; background-color: #FFFFFF; margin: 1em 1em 1em 1em;}
-h1              {font-size: 1.4em; margin: 0em 0em 0em 0em;}
-h2              {font-size: 1.2em; margin: 0em 0em 0em 0em;}
-h3              {font-size: 1em; margin: 0em 0em 0em 0em;}
-h4              {font-size: 1.2em; margin: 0em 0em 0em 0em;}
-h5              {font-size: 1em; margin: 0em 0em 0em 0em;}
-p               {font-size: 1em; margin: 0em 0em 0.5em 0em;}
-tt              {font-family: "Courier New"; font-weight: bold;}
-hr		{height: 1px;}
+BODY ADDRESS {
+    line-height: 1.3;
+    margin: .6em 0;
+}
 
-.navheader      {}
-/* .navfooter      {} */
-.revhistory table { border: none; padding: 0px 0px 0px 0px; margin: 1em 0em 1em 0em;}
-.revhistory th { border: none; padding: 0px 0px 0px 0px	;}
-.revhistory td { border: none; padding: 0px 0px 0px 0px	;}
-.note { border: 1px solid #CCCC99; background-color: #F5F5E7; padding: 0.5em 0.5em 0.5em 0.5em; margin: 1em 0em 1em 0em; }
-.caution { border: 1px solid #F6EA00; background-color: #FFFFC9; padding: 0.5em 0.5em 0.5em 0.5em;  margin: 1em 0em 1em 0em;}
-.tipp { background-color: #F5F5DC }
-.important { font-family: "Courier New"; font-size: 0.8em; border: 1px solid #F95E00; background-color: #F9CDB3; padding: 0.5em 0.5em 0.5em 0.5em; margin: 2em 0em 2em 0em;}
-.screen { font-family: "Courier New"; font-size: 0.8em; border: 1px solid #999999; background-color: #EBEBEB; padding: 0.5em 0.5em 0.5em 0.5em; margin: 2em 0em 2em 0em;}
-.programlisting { font-family: "Courier New"; font-size: 0.8em; border: 1px solid #B2DBFF; background-color: #F0F8FF; padding: 0.5em 0.5em 0.5em 0.5em; margin: 2em 0em 2em 0em;}
-.important .programlisting { font-family: "Courier New"; font-size: 1em; border: 1px solid #B2DBFF; background-color: #F0F8FF; padding: 0.5em 0.5em 0.5em 0.5em; margin: 2em 0em 2em 0em;}
-.important .screen { font-family: "Courier New"; font-size: 1em; border: 1px solid #999999; background-color: #EBEBEB; padding: 0.5em 0.5em 0.5em 0.5em; margin: 2em 0em 2em 0em;}
-.informalexample { font-family: "Courier New"; font-size: 0.8em; border: 1px solid #B2DBFF; background-color: #F0F8FF; padding: 0.5em 0.5em 0.5em 0.5em; margin: 2em 0em 2em 0em;}
+BODY BLOCKQUOTE {
+    margin-top: .75em;
+    line-height: 1.5;
+    margin-bottom: .75em;
+}
+
+HTML BODY {
+    margin: 1em 8% 1em 10%;
+    line-height: 1.2;
+}
+
+.legalnotice {
+    font-size: small;
+/*     font-variant: small-caps; */
+    padding: 10px 0 10px 0;
+}
+
+.copyright
+{
+    text-align: center;
+    margin: 15px 15px 15px 15px;
+}
+
+BODY DIV {
+    margin: 0;
+}
+
+DL {
+    line-height: 1.2;
+}
+
+BODY FORM {
+    margin: .6em 0;
+}
+
+H1, H2, H3, H4, H5, H6,
+DIV.example P B,
+.question,
+HR,
+DIV.table P B,
+DIV.toc P B,
+DIV.abstract P B,
+DIV.procedure P B {
+    color: #990000;
+}
+
+DIV.toc P B,
+DIV.abstract P B {
+    font-size: 150%;
+    margin: .8em 0 0 -4%;
+}
+
+DIV.note H3 {
+    font-size: 90%;
+    padding: 0 0 0.5em 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+DIV.note {
+    border: solid 1px #CCCC99;
+    background-color: #F5F5E7;
+    padding: 0.3em 2em 0.3em 2em;
+    margin-bottom: 0.5em;
+}
+
+DIV.note P {
+    margin: 0;
+}
+
+H3.author
+{
+    text-align: center;
+    margin: 15px 15px 15px 15px;
+}
+
+BODY H1, BODY H2, BODY H3, BODY H4, BODY H5, BODY H6 {
+    line-height: 1.3;
+    margin-left: 0;
+}
+
+BODY H1 {
+    text-align: center;
+    margin: .8em 0 0 0;
+}
+
+BODY H2 {
+    margin: .8em 0 0 -4%;
+    border-bottom: solid 2px;
+}
+
+BODY H3 {
+    margin: .8em 0 0 -3%;
+}
+
+BODY H4 {
+    margin: .8em 0 0 -2%;
+}
+
+BODY H5 {
+    margin: .8em 0 0 -2%;
+}
+
+BODY H6 {
+    margin: .8em 0 0 -1%;
+}
+
+BODY HR {
+/*     margin: .6em; */
+    border-style: solid;
+    border-bottom: solid 1px;
+    margin: 0 0 0 -4%;
+}
+
+BODY IMG.navheader {
+    margin: 0 0 0 -4%;
+}
+
+OL {
+    margin: 0 0 0 5%;
+    line-height: 1.2;
+}
+
+BODY PRE {
+    margin: .75em 0;
+    line-height: 1.0;
+    color: #461b7e;
+}
+
+BODY TD, BODY TH {
+    line-height: 1.2;
+}
+
+UL, BODY DIR, BODY MENU {
+    margin: 0 0 0 5%;
+    line-height: 1.2;
+}
+
+HTML {
+    margin: 0;
+    padding: 0;
+}
+
+.filename {
+    color: #007a00;
+}
+
+.guimenu, .guimenuitem, .guisubmenu,
+.guilabel, .interface, .guibutton,
+.shortcut, .shortcut .keycap {
+    background-color: #F0F0F0;
+}
+
+.accel {
+    background-color: #F0F0F0;
+    text-decoration: underline;
+}
+
+.programlisting, .screen {
+    margin-left: 3ex;
+}
+

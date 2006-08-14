@@ -129,7 +129,7 @@ rempli avant d'envoyer les paquets.</para> </listitem>
 <listitem><para>http : diffuse par HTTP.</para> <para>Elément
 les options sont : <emphasis>user=&lt;nom d'utilisateur&gt;</emphasis>
 pour activer l'authentification basique par HTTP et définir l'utilisateur,
-<emphasis>^wd=&lt;mot de passe&gt;</emphasis> pour définir le mot de passe
+<emphasis>pwd=&lt;mot de passe&gt;</emphasis> pour définir le mot de passe
 <emphasis>mime=&lt;type mime&gt;</emphasis> pour définir le type MIME
 retourné par le serveru.</para></listitem>
 

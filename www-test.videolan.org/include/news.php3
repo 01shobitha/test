@@ -37,16 +37,17 @@
                         } else {
 			    echo ("<div class=\"item-really-old\">\n");
                         }
-                        $date = "<a class=\"link\" href=\"http://www.videolan.org/news.html#NEWS$max\" /><a id=\"NEWS$max\"><span class=\"date\">".date("Y-m-d", strtotime( $date) )."</span>".$date."</a>";
-                        echo ("<p><b><span class=\"title\">".$title."</span></b> (".$date.")\n");
-                        echo ("<span class=\"description\">".$text."</span>\n");
-                        echo ("</p></div>\n");
+                        echo ("<h3>".$title."</h3>\n" );
+                        echo ("<p class=\"date\">".date("Y-m-d", strtotime( $date) )."</p>\n");
+                        echo ("<p>".$text."</p>\n");
+                        echo ("</div>\n");
                     }
+/* Unused 
                     elseif( $style == "title" )
                     {
                         echo "$date: <b><a href=\"#NEWS$max\">$title</a></b>\n";
                         if( $max > 1 ) echo "<br />\n";
-                    }
+                    } */
 
                     $max--; if($max == 0) return;
                     $msg="";

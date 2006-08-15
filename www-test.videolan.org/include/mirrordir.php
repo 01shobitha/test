@@ -1,9 +1,12 @@
 <?php
 function mirrordir($dir)
 { ?>
-  <li>Choose a download location:
-<ul>
-<!--<li><a href="http://download.videolan.org/pub/videolan/<?php echo $dir ?>">VIA, Ecole Centrale Paris (France)</a></li>-->
+<table>
+  <tbody><tr>
+    <th>Mirror</th>
+    <th>Location</th>
+    <th>Download</th>
+  </tr>
 <?php
     $file = $_SERVER["DOCUMENT_ROOT"]."/include/mirrors";
     $file_id = fopen( $file , "r" );
@@ -21,8 +24,10 @@ function mirrordir($dir)
 	$mirror_name = substr( $mirror, $esp+1, strlen( $mirror ) - $esp -1 );
   $country = ereg_replace( "\).*$", "", ereg_replace( "^.*\(", "", $mirror_name ) );
   $mirror_name = ereg_replace( "\(.*\)", "", $mirror_name );
-	echo " <li><a href=\"http://www.videolan.org/mirror.html?mirror=$url&amp;file=$dir/\"><img src='/images/flags/$country.gif' alt='$country'/> $mirror_name</a></li>\n "; 
+	echo " <tr><td>$mirror_name</td><td>$country</td><td><a href=\"http://www.videolan.org/mirror.html?mirror=$url&amp;file=$dir/\">Download<a></td></tr>\n "; 
     }
-  echo '</ul></li>';
+?>
+</tbody></table>
+<?php
  }
  ?>

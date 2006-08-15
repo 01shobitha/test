@@ -9,161 +9,112 @@
 
 <h1> VLC media player </h1>
 
-<table border="0" cellspacing="10">
-  <tr>
-    <td style="width: 100%;">
+<div class="vlc-screenshot">
+  <img src="/images/vlc-screenshot.png" alt="VLC screen windows"/>
+</div>
 
-      <h2>VLC - the cross-platform media player and streaming server</h2>
+<div id="description">
+  <h2>VLC - the cross-platform media player and streaming server</h2>
 
-<p> VLC (initially VideoLAN Client) is a highly portable <b>multimedia
-player</b> for various audio and video formats (MPEG-1, MPEG-2, MPEG-4,
-DivX, mp3, ogg, ...) as well as <b>DVD</b>s, <b>VCD</b>s, and various
-<b>streaming</b> protocols. It can also be used as a server to stream in
-unicast or <b>multicast</b> in IPv4 or <b>IPv6</b> on a high-bandwidth
-network. </p>
+  <p> VLC (initially VideoLAN Client) is a highly portable
+  <strong>multimedia player</strong> for various audio and video
+  formats (MPEG-1, MPEG-2, MPEG-4, DivX, mp3, ogg, ...) as well
+  as <strong>DVD</strong>s, <strong>VCD</strong>s, and various
+  <strong>streaming</strong> protocols. It can also be used as a
+  server to stream in unicast or <strong>multicast</strong> in IPv4 or
+  <strong>IPv6</strong> on a high-bandwidth network. </p>
 
-<p> If you like VLC, please rate it on the <a href="http://freshmeat.net/projects/vlc">Freshmeat</a> and <a href="http://www.versiontracker.com/dyn/moreinfo/macosx/14738">versiontracker</a> entries! </p>
+  <p> If you like VLC, please rate it on the <a href="http://freshmeat.net/projects/vlc">Freshmeat</a> and <a href="http://www.versiontracker.com/dyn/moreinfo/macosx/14738">versiontracker</a> entries!</p>
+</div>
 
-      <h2>Features</h2>
+<div id="left">
 
-<p> For more information about what features are supported on your operating
-system, please see the <a href="/vlc/features.html">full features list</a>.
-You can also have a look at some <a href="/vlc/screenshots.html">VLC
-screenshots</a>. </p>
+  <h2>Download VLC</h2>
 
-      <h2>Download VLC</h2>
-
-<p> Select your operating system to download precompiled binaries: </p>
+  <p>Select your operating system to download precompiled binaries:</p>
 
 <?php
-function addos( $name, $img, $url )
+function addos( $name, $class, $url, $bold=false )
 {
-echo " <td>
-   <a href='$url' class='downloados'><img src='/images/icons/$img'
-      alt='$name' width='32' height='32' /> $name</a>
- </td>";
+if( $bold ) $style=' style="font-weight:bold"';
+else $style='';
+echo "<li class='$class' $style><a href='$url'>$name</a></li>";
 }
 ?>
- <table cellspacing="10">
- <tr>
-<?php addos( "Windows", "windows.jpg", "download-windows.html" );
-      addos( "Mac&nbsp;OS&nbsp;X", "macosx.gif", "download-macosx.html" );
-      addos( "BeOS", "beos.gif", "download-beos.html" ); ?>
- </tr><tr>
-<?php addos( "Debian GNU/Linux", "debian.gif", "download-debian.html" );
-      addos( "Mandriva Linux", "mandrake.gif", "download-mandriva.html" );
-      addos( "Fedora Core", "fedora.png", "download-fedora.html" ); ?>
-</tr><tr>
-<?php addos( "Familiar Linux", "familiar.gif", "download-familiar.html" );
-      addos( "YOPY/Linupy", "yopy.png", "download-linupy.html" );
-      addos( "Zaurus", "zaurus.png", "download-zaurus.html" ); ?>
- </tr><tr>
-<?php addos( "SUSE Linux", "suse.gif", "download-suse.html" );
-      addos( "Red Hat Linux", "redhat.gif", "download-redhat.html" );
-      addos( "WinCE / PocketPC", "zaurus.png", "download-wince.html" ); ?>
- </tr>
- <tr>
-<?php addos( "Slackware Linux", "slackware.jpg", "download-slackware.html" ); ?>
-<?php addos( "Ubuntu Linux", "ubuntu.png", "download-ubuntu.html" ); ?>
-<?php addos( "ALT Linux", "altlinux.png", "download-altlinux.html" ); ?>
- </tr>
- </table>
+  <ul class="os">
+<?php addos( "Windows", "windows", "download-windows.html", true );
+      addos( "Mac&nbsp;OS&nbsp;X", "macosx", "download-macosx.html", true );
+      addos( "BeOS", "beos", "download-beos.html" );
+      addos( "Debian GNU/Linux", "debian", "download-debian.html" );
+      addos( "Ubuntu Linux", "ubuntu", "download-ubuntu.html" );
+      addos( "Mandriva Linux", "mandrake", "download-mandriva.html" );
+      addos( "Fedora Core", "fedora", "download-fedora.html" );
+      addos( "Familiar Linux", "familiar", "download-familiar.html" );
+      addos( "YOPY/Linupy", "linupy", "download-linupy.html" );
+      addos( "Zaurus", "zaurus", "download-zaurus.html" );
+      addos( "SUSE Linux", "suse", "download-suse.html" );
+      addos( "Red Hat Linux", "redhat", "download-redhat.html" );
+      addos( "WinCE / PocketPC", "wince", "download-wince.html" );
+      addos( "Slackware Linux", "slackware", "download-slackware.html" );
+      addos( "ALT Linux", "altlinux", "download-altlinux.html" );
+?>
+  </ul>
 
 <p>For the other operating systems supported, there are no precompiled
 binaries. You will have to get the source code for VLC and its required
 libraries and build them yourself:</p>
 
-<table cellspacing="10">
-<tr>
-<?php addos( "NetBSD", "netbsd.gif", "download-sources.html" );
-      addos( "OpenBSD", "openbsd.gif", "download-sources.html" );
-      addos( "FreeBSD", "freebsd.gif", "download-freebsd.html" ); ?>
-</tr><tr>
-<?php addos( "Solaris", "solaris.gif", "download-sources.html" );
-      addos( "QNX", "qnx.gif", "download-sources.html" );
-      addos( "Gentoo Linux", "gentoo.gif", "download-gentoo.html" ); ?>
-</tr><tr>
-<?php addos( "Crux Linux", "cruxlinux.png", "download-crux.html" ); ?>
-<td>
-</td><td>
-</td>
-</tr>
-</table>
+  <ul class="otheros">
+<?php addos( "NetBSD", "netbsd", "download-sources.html" );
+      addos( "OpenBSD", "openbsd", "download-sources.html" );
+      addos( "FreeBSD", "freebsd", "download-freebsd.html" );
+      addos( "Solaris", "solaris", "download-sources.html" );
+      addos( "QNX", "qnx", "download-sources.html" );
+      addos( "Gentoo Linux", "gentoo", "download-gentoo.html" );
+      addos( "Crux Linux", "cruxlinux", "download-crux.html" );
+?>
+  </ul>
 
-<p>You can also directly get the source code:</p>
+  <p>You can also directly get the <a href="download-sources.html">
+  source code</a>.</p>
 
-<table cellspacing="10">
-<tr>
-<?php addos( "Source Code", "source.gif", "download-sources.html" ); ?>
-<td>
-</td><td>
-</td>
-</tr>
-</table>
+  <p>You couldn't find your OS / Distribution in this list but
+  know where to find VLC media player builds elsewhere? Please <a
+  href="/team/">Contact us</a> so we can add a link.</p>
 
-<p>You couldn't find your OS / Distribution in this list but
-know where to find VLC media player builds elsewhere? Please <a
-href="/team/">Contact us</a> so we can add a link.</p>
+</div>
 
-      <h2>Documentation</h2>
+<div id="right">
+  <div class="panel-blue">
+    <div class="hd">
+      <div class="c"></div>
+    </div>
 
-<p>See the <a href="/doc/">documentation page</a>.</p>
-
-<!-- <table border="0">
-
-<tr>
-  <td  class="type"><b>Document</b></td>
-  <td  class="type"><b>Status</b></td>
-  <td  class="type"><b>Download</b></td>
-</tr>
-
-<tr>
-  <td class="category">VLC user guide</td>
-  <td class="no">Out-of-date</td>
-  <td>
-     <a href="/doc/vlc-user-guide/en/vlc-user-guide-en.html">English</a>
-     <a href="/doc/vlc-user-guide/fr/vlc-user-guide-fr.html">French</a>
-     <a href="/doc/vlc-user-guide/de/vlc-user-guide-de.html">German</a>
-   </td>
-</tr>
-
-<tr>
-  <td class="category">VideoLAN FAQ</td>
-  <td class="yes">Up-to-date</td>
-  <td>
-     <a href="/doc/faq/en/videolan-faq-en.html">English</a>
-     <a href="/doc/faq/fr/videolan-faq-fr.html">French</a>
-     <a href="/doc/faq/de/videolan-faq-de.html">German</a>
-     <a href="/doc/faq/it/videolan-faq-it.html">Italian</a>
-     <a href="/doc/faq/es/videolan-faq-es.html">Spanish</a>
-   </td>
-</tr>
-
-</table> -->
- 
-   </td><td>
-
-      <div class="livecounter">
-       <h3 style="text-align:center;">VLC 0.8.5 Downloads<br /><span style="font-weight: bold" id="vlccounter">Loading...</span></h3>
-       <p style="text-align:center;"><span id="dlrate">Calculating...</span> downloads/second</p>
-       <p style="text-align:center;"><a href="/stats/downloads.php">Full statistics</a></p>
+    <div class="bd">
+      <div class="c">
+        <!-- main content goes here -->
+        <p><span class="vlcversion">VLC 0.8.5 downloads: <span id="vlccounter">Loading...</span></span></p>
+        <p><span id="dlrate">Calculating...</span> downloads per second</p>
+        <div class="more"><a href="/stats/downloads.php">Full statistics</a></div>
       </div>
-      <a href="/vlc/screenshots.html">
-      <img width="300" height="240"
-      src="/vlc/screenshots/mi_20040602-windows-wxembed-3.jpg"
-      alt="Windows screenshot" /></a>
-    <br />
-      <a href="/vlc/screenshots.html">
-      <img width="300" height="225"
-      src="/vlc/screenshots/mi_20040531-osx-1.jpg"
-      alt="Mac OS X screenshot" /></a>
-    <br />
-      <a href="/vlc/screenshots.html">
-      <img width="300" height="240"
-      src="/vlc/screenshots/0.8.2/mi_linux-wxwin-playlist.jpg"
-      alt="Linux screenshot" /></a>
-    </td>
-  </tr>
-</table>
+    </div>
+
+    <div class="ft">
+      <div class="c"></div>
+    </div>
+  </div> <!-- end panel -->
+
+  <h2>Features</h2>
+
+  <p> For more information about what features are supported on your operating
+  system, please see the <a href="/vlc/features.html">full features list</a>.
+  You can also have a look at some <a href="/vlc/screenshots.html">VLC
+  screenshots</a>. </p>
+
+  <h2>Documentation</h2>
+
+  <p>See the <a href="/doc/">documentation page</a>.</p>
+
+</div> <!-- RIGHT -->
 
 <?php footer('$Id$'); ?>

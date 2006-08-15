@@ -11,12 +11,16 @@ function DownloadSize($file) {
   return round($size, 1).$ext;
 }
 
-function pkgitem($version,$name,$top,$description="")
-{ ?>
-  <li><code><?php echo $name." ".$description; ?></code> (<?php echo DownloadSize("{$_SERVER["DOCUMENT_ROOT"]}pub/videolan/$top/$version/$name"); ?>) :
-<br/>Select a download location :
-<ul>
-<!--<li><a href="http://download.videolan.org/pub/videolan/<?php echo $top."/".$version."/".$name; ?>">VIA, Ecole Centrale Paris (France)</a></li>-->
+function pkgitem($description,$version,$name,$top)
+{
+  echo "<p>$description. (".DownloadSize("{$_SERVER["DOCUMENT_ROOT"]}pub/videolan/$top/$version/$name").")</p>";
+?>
+  <table>
+    <tbody><tr>
+      <th>Mirror</th>
+      <th>Location</th>
+      <th>Download</th>
+    </tr>
 <?php
     $file = $_SERVER["DOCUMENT_ROOT"]."/include/mirrors";
     $file_id = fopen( $file , "r" );
@@ -34,8 +38,10 @@ function pkgitem($version,$name,$top,$description="")
 	$mirror_name = substr( $mirror, $esp+1, strlen( $mirror ) - $esp -1 );
   $country = ereg_replace( "\).*$", "", ereg_replace( "^.*\(", "", $mirror_name ) );
   $mirror_name = ereg_replace( "\(.*\)", "", $mirror_name );
-	echo " <li><a href=\"http://www.videolan.org/mirror.html?mirror=$url&amp;file=$top/$version/$name\"><img src='/images/flags/$country.gif' alt='$country'/> $mirror_name</a></li>\n "; 
+	echo " <tr><td>$mirror_name</td><td>$country</td><td><a href=\"http://www.videolan.org/mirror.html?mirror=$url&amp;file=$top/$version/$name\">Download</td></tr>\n "; 
     }
-  echo '</ul></li>';
+ ?>
+  </tbody></table>
+ <?php
  }
  ?>

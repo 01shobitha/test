@@ -37,14 +37,18 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n";
    <body>
 <?php
    }
+?>
+
+  <div id="spacer"></div>
+
+  <div id="pagecontainer">
+<?php
 
 }
 
 
 function DrawMenu( $file, $mod )
 {
-  echo '<table class="menu" cellspacing="3"><tr>';
-
   if( $m = fopen( "menu/$file", "r", 1 ) )
   {
     while( $l = fgets( $m, 300 ) )
@@ -52,39 +56,15 @@ function DrawMenu( $file, $mod )
       $l = rtrim( $l );
       if( $l == "sep" )
       {
-        echo '<td><div class="sep"></div></td>';
       }
       else
       {
         list( $name, $text, $link, $icon, $width, $height ) =
             split( "[\t;]+", $l );
-        if( $name == $mod )
-        {
-          echo '<td class="button-down">';
-        }
-        else
-        {
-          echo '<td class="button" onmouseout="this.className=\'button\'"'.
-               ' onmouseover="this.className=\'button-up\'"'.
-	       ' onmousedown="this.className=\'button-down\'"'.
-	       ' onclick="window.location=\''.htmlentities($link).
-	       '\'; return true;">';
-        }
-	echo '<table cellpadding="1" cellspacing="0" style="margin: 0px;">'.
-	     '<tr>';
-        if( $icon != "" )
-        {
-          echo '<td><a href="'.htmlentities($link).'"><img '.
-	       ' class="button" src="/images/menu/'.htmlentities($icon).'"'.
-	       ' alt="'.htmlentities($name).'" width="'.$width.'"'.
-	       ' height="'.$height.'" /></a></td>';
-        }
-        echo "<td class=\"button-text\"><a href=\"$link\">$text</a></td>";
-	echo '</tr></table></td>';
+        echo "<li><a href=\"$link\">$text</a></li>";
       }
     }
   }
-  echo '</tr></table>';
 }
 
 
@@ -93,30 +73,29 @@ function DrawMenu( $file, $mod )
 function footer($tag) {
    global $language; ?>
 
-<table class="footer" cellspacing="3" cellpadding="2">
-  <tr>
-    <td align="left">
-      <a href="/">VideoLAN</a> &nbsp;-&nbsp;
+	</div> <!-- MAINCONTENT -->
+</div> <!-- PAGECONTAINER -->
+
+<div id="footer">
+  <p> <a href="/">VideoLAN</a> &nbsp;-&nbsp;
       See the
      <a href="http://www.videolan.org/stats">statistics</a>
      &nbsp;-&nbsp; <?php echo $tag; ?>
-    </td>
-    <td align="right" style="white-space: nowrap;">
+  </p>
+  <p>
     <?php if($language=="fr") { } else { echo 'valid'; } ?>
     <a href="http://validator.w3.org/check/referer">XHTML 1.1</a>
     and 
     <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>
     <?php if($language=="fr") { echo 'valides'; } else { } ?>
-    </td>
-  </tr>
-</table>
+    - <a href="http://www.videolan.org/videolan-news.rss">RSS v1.0</a>
+  </p>
+</div>
+
+</body>
+</html>
 
 <?php
-
-    /*
-     * end of the body
-     */
-  echo '</body></html>';
 }
 
 
@@ -138,35 +117,15 @@ if( !isset( $enable_live ) )
 StartHtml( ereg_replace( "<[^>]*>" , "" , $title ) , $enable_live) ;
 
 
-?><table class="menu-back" cellspacing="0" cellpadding="0">
-
-<!--  EUCD/DAVDSI Banner 
-  <tr align="center">  
-    <td valign="top" colspan="2" align="center" style="background-color:white; border: 3px solid red;">  
-	<a href="/eucd.html">
-	<span style="color: red; font-size:22px; font-style: bold;">The
-	"DADVSI" french law, the end of VideoLAN ?</span>
-	</a>
-    </td>
-  </tr>  
-     End of DADVSI banner -->
-
-
-  <tr align="center">
-    <td valign="top">
-<?php
-$file = "menu.txt";
-foreach( $menu as $module )
-{
-  DrawMenu( $file, $module );
-  $file = "$module.$file";
-}
 ?>
-    </td>
-    <td valign="middle">
-      <div>Mirror&nbsp;:
+<div id="header">
+  <div id="navmenucontainer">
+	  <ul id="navmenu">
+			<?php DrawMenu( "menu.txt", $menu[0] ); ?>
+		</ul>
+		<div id="mirror">
       <form action="#" method="get">
-        <div><select name="mirror"
+        <div>mirror: <select name="mirror"
                onchange="window.location='http://'+this.value+'/<?php
                  echo preg_replace('/\.php$/', '.html', $_SERVER['PHP_SELF']);
               ?>'">
@@ -180,8 +139,17 @@ foreach( $menu as $module )
           ?>
         </select></div>
       </form>
-      </div>
-    </td>
+    </div>
+  </div>
+	
+	<div id="submenucontainer">
+		<div class="videolan-logo">
+			<a href="/"><img src="/images/videolan-logo.png" alt="VideoLAN"/></a>
+		</div>
+		<ul id="submenu">
+			<?php DrawMenu( $menu[0].".menu.txt", $menu[1] ); ?>
+		</ul>
+	</div>
+</div>
 
-  </tr>
-</table>
+<div id="maincontent">

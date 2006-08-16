@@ -10,11 +10,11 @@
 
 <h1> MiniSAPserver for Linux, BSD and Mac OS X</h1>
 
-<p>Latest miniSAPserver tarball (0.3.2) (suggests VLC 0.8.2 or higher):</p>
+<div id="fullwidth">
 
-<ul>
-  <?php pkgitem("0.3.2","minisapserver-0.3.2.tar.bz2","miniSAPserver"); ?>
-</ul>
+<?php pkgitem( "Latest miniSAPserver tarball (0.3.2) (suggests VLC 0.8.2 or higher)", "0.3.2","minisapserver-0.3.2.tar.bz2","miniSAPserver"); ?>
+
+</div>
 
 <?php
   footer('$Id$');

@@ -9,6 +9,8 @@
 
 <?php function pkgitem($version,$name,$comment) { ?><li><a href="http://download.videolan.org/pub/videolan/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a> <?php echo $comment; ?> </li><?php } ?>
 
+<div id="fullwidth">
+
 <h1>VLC media player for <a href="http://fedora.redhat.com/">Fedora Core</a> 3</h1>
 
 <h2>Unofficial Fedora Core packages</h1>
@@ -62,5 +64,6 @@ uncompress them in the same directory :</p>
 <p> Older versions can be found by browsing our FTP site :</p>
 <ul> <?php mirrordir("vlc"); ?> </ul>
 
+</div>
 
 <?php footer('$Id$'); ?>

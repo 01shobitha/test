@@ -8,6 +8,8 @@
 
 <h1> VideoLAN - Tests de diffusion sur la Rez </h1>
 
+<div id="fullwidth">
+
 <h2>Si tu n'as aucune idée de ce qu'est VideoLAN</h2>
 
 <p> Tu es probablement GPA et tu viens d'arriver sur la rez, il y a peu
@@ -260,4 +262,7 @@ Les messages en rouge, plus particulièrement, signalent habituellement
 des erreurs.</li>
 
 </ul>
+
+</div>
+
 <?php footer('$Id$'); ?>

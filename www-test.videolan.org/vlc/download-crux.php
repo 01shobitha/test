@@ -8,6 +8,8 @@
 
 <?php function pkgitem($version,$name,$comment) { ?><li><a href="http://download.videolan.org/pub/videolan/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a> <?php echo $comment; ?> </li><?php } ?>
 
+<div id="fullwidth">
+
 <h1>VLC media player for <a href="http://crux.nu/">Crux Linux</a></h1>
 
 <p>Thanks to Younès Hafri who maintains these packages !</p>
@@ -21,5 +23,7 @@
 <pre>
    # cd /usr/ports/yhafri/vlc && pkgmk -d -i && rm vlc-0.8.1.tar.gz
 </pre>
+
+</div>
 
 <?php footer('$Id$'); ?>

@@ -8,6 +8,8 @@
 
 <h1> User mailing-lists </h1>
 
+<div id="fullwidth">
+
 <p>The VideoLAN user mailing-lists are dedicated to:</p>
 <ul>
 <li>user support for VideoLAN software,</li>
@@ -66,5 +68,7 @@ the developers Web site.</p>
 <p>Our mailing-list manager is called Ecartis.
 Experienced users can issue their commands to
 <a href="mailto:ecartis@videolan.org">ecartis@videolan.org</a>.</p>
+
+</div>
 
 <?php footer('$Id$'); ?>

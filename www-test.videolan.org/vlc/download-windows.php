@@ -12,9 +12,9 @@
 
 <?php function pkgitemdev($version,$name) { ?><li><a href="http://downloads.videolan.org/pub/videolan/testing/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a></li><?php } ?>
 
-<div id="left">
+<h1> VLC media player for Windows </h1>
 
-  <h1> VLC media player for Windows </h1>
+<div id="left">
 
   <h2>Latest packages (0.8.5)</h2>
 
@@ -40,14 +40,7 @@
 
   <p>If you want, you can download the <a href="download-sources.html">sourcecode</a> of VLC media player.</p>
 
-  <div class="panel-gray"> <!-- begin panel -->
-    <div class="hd">
-      <div class="c"></div>
-    </div>
-
-    <div class="bd">
-      <div class="c">
-        <!-- main content goes here -->
+  <?php panel_start( "gray" ); ?>
         <p><strong>Windows 95/98/Me users:</strong> Please note that these versions of Windows are not officially supported. No VideoLAN developer uses any of these systems, which makes them hard to support. VLC should mostly work with them, but some incompatibilities might appear. You might need to download <a href="http://www.microsoft.com.nsatc.net/globaldev/handson/dev/mslu_announce.mspx">The Microsoft Layer for Unicode on Windows 95/98/Me Systems</a>. The two MSLU files need to be put in the <code>C:\Windows\System32\</code> folder.</p>
 
         <p> <strong class="note">Virus warning</strong>: we have had several
@@ -56,13 +49,7 @@ detected Bck/Optix). These are <strong>false positives</strong>, our packages ar
 trojaned</strong>. The Windows version is compiled on a Linux box, it is highly
 unlikely that a Windows virus would end there. However be aware, to only 
 download VLC from the above mentioned locations. </p>
-      </div>
-    </div>
-
-    <div class="ft">
-      <div class="c"></div>
-    </div>
-  </div> <!-- end panel -->
+  <?php panel_end(); ?>
 
 </div> <!-- RIGHT -->
 

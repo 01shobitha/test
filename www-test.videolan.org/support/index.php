@@ -8,6 +8,8 @@
 
 <h1> User support </h1>
 
+<div id="fullwidth">
+
 <p>VideoLAN is free software, so the user support is provided by the
 VideoLAN user and developer community.</p>
 
@@ -55,5 +57,7 @@ place, try the web-based <a href="http://krishna.videolan.org/cgi-bin/irc/irc.cg
 
 <p>Some companies provide professionnal support on VideoLAN. They are
 listed on the <a href="consultants.html">consultants</a> page.</p>
+
+</div>
 
 <?php footer('$Id$'); ?>

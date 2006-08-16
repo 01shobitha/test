@@ -6,6 +6,8 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 
+<div id="fullwidth">
+
 <h1>Links</h1>
 
 <h2>Related projects</h2>
@@ -85,5 +87,6 @@ interfaces.</li>
 
 </ul>
 
+</div>
 
 <?php footer('$Id$'); ?>

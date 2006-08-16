@@ -11,6 +11,8 @@
 
 <h1>VLC media player for <a href="http://www.ubuntu.com/">Ubuntu Linux</a></h1>
 
+<div id="left">
+
 <h2>Install the latest stable version</h2>
 <h3>Graphical way</h3>
 <p>Open Synaptic (System -&gt; Administration -&gt; Synaptic Package Manager). 
@@ -24,8 +26,16 @@ repository activated.</p>
    % sudo apt-get install vlc vlc-plugin-esd
 </pre>
 
-<h2>Developement snapshots</h2>
+</div>
+
+<div id="right">
+
+<?php panel_start( "gray" ); ?>
+<h1>Developement snapshots</h1>
 <p>Developement snapshots are available on <a href="http://nightlies.videolan.org">nightlies.videolan.org</a>.</p>
+<?php panel_end(); ?>
+
+</div>
 
 <?php
   footer('$Id$');

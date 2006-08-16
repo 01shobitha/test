@@ -18,14 +18,7 @@
   </div>
 
   <div id="right">
-    <div class="panel-blue"> <!-- begin panel 1 -->
-      <div class="hd">
-        <div class="c"></div>
-      </div>
-
-      <div class="bd">
-        <div class="c">
-          <!-- main content goes here -->
+    <?php panel_start( "blue" ); ?>
           <h1>VLC media player 0.8.5</h1>
           
           <ul class="panel-blue-bullet">
@@ -155,22 +148,9 @@ else
 </noscript>
           </div>
           <div class="more"><a  href="/vlc/">Others Operating Systems, learn more</a></div>
-        </div>
-      </div>
+    <?php panel_end(); ?>
 
-      <div class="ft">
-        <div class="c"></div>
-      </div>
-    </div> <!-- end panel 1 -->
-
-    <div class="panel-orange"> <!-- begin panel 2 -->
-      <div class="hd">
-        <div class="c"></div>
-      </div>
-
-      <div class="bd">
-        <div class="c">
-          <!-- main content goes here -->
+    <?php panel_start( "orange" ); ?>
           <h1>Streaming solution</h1>
           <ul class="panel-orange-bullet">
             <li>VLC can also be used as a streaming server</li>
@@ -181,13 +161,7 @@ else
           <div class="more">
             <a href="/streaming">Learn more</a></p>
           </div>
-        </div>
-      </div>
-
-      <div class="ft">
-        <div class="c"></div>
-      </div>
-    </div> <!-- end panel 2 -->
+    <?php panel_end(); ?>
 
   <h2>Project</h2>
 

@@ -7,6 +7,8 @@
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
 ?>
 
+<div id="fullwidth">
+
 <h1>VLC media player for <a href="http://www.altlinux.com/">ALT Linux</a></h1>
 
 <h2>ALT Linux Sisyphus (unstable)</h2>
@@ -32,5 +34,7 @@ lines in your /etc/apt/sources.list:</p>
 <p>Currently released ALT distributions, such as Master 2.4 and Compact 3.0
 contain outdated 0.7.2 version of VLC. However, you can check backports to
 find backported current versions of VLC (will be available soon).</p>
+
+</div>
 
 <?php footer('$Id$'); ?>

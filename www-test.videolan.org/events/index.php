@@ -8,6 +8,8 @@
 
 <h1> Events </h1>
 
+<div id="fullwidth">
+
 <h2>26/27 February 2005 - VideoLAN is hot at FOSDEM</h2>
 
 <p>Like last year we again attended FOSDEM. And this year we were HOT. People flocked around our demo's. There were several multicasted streams and the 7 laptops all did something different with them.</p>
@@ -235,5 +237,7 @@ and streaming.</p>
 <h2>April 2001 - VideoLAN at the OpenSource days in Lyon</h2>
 
 <p><a href="20010407/index.html">Slides of the presentation (in french)</a></p>
+
+</div>
 
 <?php footer('$Id$'); ?>

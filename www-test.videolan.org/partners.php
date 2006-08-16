@@ -6,6 +6,8 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 
+<div id="fullwidth">
+
 <h1> Partners </h1>
 
 <p> Such an experience would never have been born without the invaluable      
@@ -260,5 +262,7 @@ cooperation of our partners, on both technical and financial sides: </p>
 
 
 </table>
+
+</div>
 
 <?php footer('$Id$'); ?>

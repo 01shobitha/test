@@ -10,6 +10,8 @@
 
 <h1>VLC media player for <a href="http://www.mandriva.com/">Linux Mandrake</a> x86</h1>
 
+<div id="fullwidth">
+
 <p>Thanks to Götz Waschk who maintains these packages !</p>
 
 <h2>Mandrake 10.2, 10.1, 10.0, 9.1, 9.2, Community and Cooker</h2>
@@ -29,5 +31,7 @@ that):</p>
 <pre>
    # urpmi libdvdcss2 libdvdplay0 wxvlc vlc-plugin-a52 vlc-plugin-ogg vlc-plugin-mad
 </pre>
+
+</div>
 
 <?php footer('$Id$'); ?>

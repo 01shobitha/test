@@ -6,6 +6,8 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 
+<div id="fullwidth">
+
 <h1>Contacting the VideoLAN team</h1>
 
 <p> User questions can be sent to the appropriate <i>English-speaking</i>
@@ -60,4 +62,7 @@ France
 
 <p>Antoine Cellerier is responsible for the website's publication.
 </p>
+
+</div>
+
 <?php footer('$Id$'); ?>

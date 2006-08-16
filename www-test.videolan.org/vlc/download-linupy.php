@@ -8,9 +8,9 @@
 
 <?php function pkgitem($version,$name) { ?><li><a href="http://download.videolan.org/pub/videolan/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a></li><?php } ?>
 
-<table width="100%" border="0">
-  <tr><td>
-      <h1> VLC for YOPY/Linupy </h1>
+<h1> VLC for YOPY/Linupy </h1>
+
+<div id="left">
 
 <h2>Looking for a YOPY package maintainer</h2>
 
@@ -75,10 +75,11 @@ here:</p>
 ?>
 </ul>
 
-</td><td valign="top">
-<img src="/images/yopy-vlc-small.jpg" alt="VLC on Yopy"
-     width="250" height="388" />
-</td></tr>
-</table>
+</div>
+
+<div id="right">
+  <img src="/images/yopy-vlc-small.jpg" alt="VLC on Yopy"
+       width="250" height="388" />
+</div>
 
 <?php footer('$Id$'); ?>

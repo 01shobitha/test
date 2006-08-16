@@ -5,6 +5,9 @@
     $menu = array( "home", "overview" );
     require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
+
+<div id="fullwidth">
+
     <p>These stats were started at the end of february 2005</p>
 
     <p>We don't show Linux download statistics as most downloads for this 
@@ -75,5 +78,8 @@
 
     pg_close($connect);
 ?>
+
+</div>
+
 <?php footer('$Id$'); ?>
 

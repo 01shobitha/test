@@ -6,6 +6,8 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 
+<div id="fullwidth">
+
 <p>
 <img width="300" height="75" alt="VideoLAN" src="images/videolan-new4.png" />
 </p>
@@ -28,5 +30,7 @@ want to contact VideoLAN's Treasurer, write a mail to Pierre-Antoine Rappenne
 (<a href="mailto:treasurer@videolan.org">treasurer@videolan.org</a>).                 
 
 </p>
+
+</div>
 
 <?php footer('$Id$'); ?>

@@ -8,6 +8,8 @@
 
 <h1> Streaming features list </h1>
 
+<div id="fullwidth">
+
 <h2>VLC Stream output</h2>
 
 <p></p>
@@ -725,6 +727,8 @@ interoperable).</p>
 
 <p>[4] VLS supports two kinds MPEG-2 encoding cards: Hauppauge          
 WinTV-PVR-250/350 and Visiontech Kfir.</p>                              
+
+</div>
 
 <?php
   footer('$Id$');

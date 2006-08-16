@@ -9,6 +9,8 @@
 
 <h1> VLC media player for <a href="http://www.freebsd.org/">FreeBSD</a></h1>
 
+<div id="left">
+
 <h2>Install VLC through the Ports Collection</h2>
 
 <p>VLC is included in the <a href="http://www.freebsd.org/ports/index.html">Ports Collection</a>  of the <a
@@ -31,8 +33,13 @@ So you can simply install VLC with <i>pkg_add</i>.</p>
 <p> Older versions can be found by browsing our FTP site :</p>
 <ul> <?php mirrordir("vlc"); ?> </ul>
 
+</div>
+
+<div id="right">
 <h2>Source code</h2>
 
 <p>If you want, you can download the <a href="download-sources.html">source code</a> of VLC media player.</p>
+
+</div>
 
 <?php footer('$Id$'); ?>

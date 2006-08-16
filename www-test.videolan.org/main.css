@@ -314,10 +314,15 @@ img { border: none; }
 	padding-bottom: 55px;
 }
 
+#fullwidth {
+	padding-bottom: 55px;
+}
+
 #left { float: left; }
 #right { float: right; }
+#fullwidth { float: left; }
 
-#left p, #right p {
+#left p, #right p, #fullwidth p {
 	margin: 0;
 	padding: 0 0 10px 0;
 	line-height: 135%;

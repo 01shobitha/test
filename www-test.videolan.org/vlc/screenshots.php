@@ -15,6 +15,8 @@ echo"    <td class='center'><a href='$img'><img
 
 <h1> VLC screenshots </h1>
 
+<div id="fullwidth" >
+
 <h2>Latest screenshots 0.8.5</h2>
 
 <table cellspacing="5" cellpadding="5" border="0"><tbody><tr>
@@ -391,5 +393,7 @@ screenshot( "/vlc/screenshots/20000529-00.jpeg",
 
 <p> For very old screenshots, you can <a href="/vlc/screenshots/">browse</a>
 the screenshot directory. </p>
+
+</div>
 
 <?php footer('$Id$'); ?>

@@ -6,6 +6,8 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 
+<div id="fullwidth">
+
 <h1> How to contribute to VideoLAN </h1>
 
 <h2>Contribute time</h2>
@@ -170,5 +172,7 @@ euros to help us buy a PowerMac G5</li>
   <li>The french magazine <strong>à vos MAC</strong> gave 500 euros to 
 help us buy a PowerMac G5</li>
 </ul>
+
+</div>
 
 <?php footer('$Id$'); ?>

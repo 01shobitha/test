@@ -8,6 +8,8 @@
 
 <h1> Skins </h1>
 
+<div id="left">
+
 <h2>Features</h2>
 
 <p>Here is a short overview of the main features provided by the skins2
@@ -56,8 +58,13 @@ interface:</p>
 href="/vlc/skins2-create.html">create your own skin</a>, it does not require
 any programming skill. We will be glad to add your new skin to the website!</p>
 
+</div>
 
-<h2>Skins VS skins2</h2>
+<div id="right">
+
+<?php panel_start( "gray" ); ?>
+
+<h1>Skins VS skins2</h1>
 
 <p><span style="color: red;"><b>Important note:</b></span><br> VLC had two
 different skins modules, named <i>skins</i> and <i>skins2</i>, the latter being
@@ -69,5 +76,8 @@ href="/vlc/download-skins.html">download section</a> for the <i>skins</i>
 module are still kept in case someone wants to port old skins to the
 <i>skins2</i> module, but they are going to disappear one day or other...</p>
 
+<?php panel_end(); ?>
+
+</div>
 
 <?php footer('$Id$'); ?>

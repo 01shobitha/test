@@ -8,6 +8,8 @@
 
 <h1> Consulting services </h1>
 
+<div id="fullwidth">
+
 <p>The following is a list of individuals and/or companies who claim to
 be experts in video streaming using VideoLAN. You may contact them
 for professional services to order.</p>
@@ -37,5 +39,7 @@ integration of high quality video streaming solutions.</td>
 </tr>
 
 </table>
+
+</div>
 
 <?php footer('$Id$'); ?>

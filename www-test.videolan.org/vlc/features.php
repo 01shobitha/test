@@ -8,6 +8,8 @@
 
 <h1> VLC features list </h1>
 
+<div id="fullwidth">
+
 <table border="0">
 
 <tr>
@@ -1519,5 +1521,7 @@ interface isn't as Mac-like as we want VLC to be.
 which does only support the Cook (RealAudio G2 / RealAudio 8)
 decoder at the moment.
 </p>
+
+</div>
 
 <?php footer('$Id$'); ?>

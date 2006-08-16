@@ -9,13 +9,11 @@
 <?php function pkgitem($version,$name) { ?><li><a href="http://download.videolan.org/pub/videolan/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a></li><?php } ?>
 
 <h1>VLC media player for Zaurus</h1>
-                                                                                                             
+
+<div id="left">
+
 <p>VLC for Zaurus is still in an experimental state. It has been reporting working on several Zaurus setups but may not working on others. No member of the project owns a Zaurus so we depend on your feedback. Please tell us if VLC works on your Zaurus and also if it doesn't. We need your feedback to keep this page up to date.</p>
 
-<h2>Looking for a Zaurus package maintainer</h2>
-                                                                                                             
-<p>The VLC team is looking for a package maintainer that wants to support VLC media player for Zaurus PDA's. The Zaurus port of VLC is already for a year in experimental stage and could use an active supporter. Knowledge on compiling VLC media player for an ARM cpu (StrongArm/XScale) is available in the team. Send an e-mail to vlc-devel mailing list and I (Jean-Paul Saman) or others will try to answer your questions.
-</p>
 
 <h2>Package download </h2>
 
@@ -62,4 +60,17 @@
 # ipkg install zaurus-vlc_0.5.4_arm.ipk
 </pre>
 
+</div>
+
+<div id="right">
+
+<?php panel_start( "blue" ); ?>
+
+<h1>Looking for a Zaurus package maintainer</h1>                                                                                                             
+<p>The VLC team is looking for a package maintainer that wants to support VLC media player for Zaurus PDA's. The Zaurus port of VLC is already for a year in experimental stage and could use an active supporter. Knowledge on compiling VLC media player for an ARM cpu (StrongArm/XScale) is available in the team. Send an e-mail to vlc-devel mailing list and I (Jean-Paul Saman) or others will try to answer your questions.
+</p>
+
+<?php panel_end(); ?>
+
+</div>
 <?php footer('$Id$'); ?>

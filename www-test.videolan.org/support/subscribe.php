@@ -8,6 +8,8 @@
 
 <h1> User mailing-lists subscription </h1>
 
+<div id="fullwidth">
+
 <?php
     $from = $_POST["from"];
     $videolanannounce = $_POST["videolanannounce"];
@@ -97,5 +99,7 @@
 
     }
 ?>
+
+</div>
 
 <?php footer('$Id$'); ?>

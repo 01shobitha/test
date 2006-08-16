@@ -6,6 +6,8 @@
    require($_SERVER["DOCUMENT_ROOT"]."include/header.php3");
 ?>
 
+<div id="fullwidth">
+
 <p><span style="font-weight: bold;">Update :</span> Following our
 request, Cinema On Web has removed the download from their web site. We
 would like to thank them for their quick response.</p>
@@ -78,5 +80,7 @@ Related documents :
 GPL : <a href="http://www.gnu.org/copyleft/gpl.html">http://www.gnu.org/copyleft/gpl.html</a>
 </li>
 </ul>
+
+</div>
 
 <?php footer('$Id$'); ?>

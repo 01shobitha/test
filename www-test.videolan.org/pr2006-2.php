@@ -6,6 +6,8 @@
    require($_SERVER["DOCUMENT_ROOT"]."include/header.php3");
 ?>
 
+<div id="fullwidth">
+
 <p style='color: red; font-size: 4em'><b>Note:</b> look at the date...</p>
 
 <h1>Apple-VideoLAN partnership announced, Mac VLC to be Intel only</h1>
@@ -61,5 +63,7 @@
  users about how their PowerPC-based computer was twice as expensive, but also
  twice as powerful as the Intel-based counterpart. Now, thanks to the Intel
  transition, Apple computers are only twice as expensive. </p>
+
+</div>
 
 <?php footer('$Id$'); ?>

@@ -9,6 +9,8 @@
 
 <h1> Team / Contact </h1>
 
+<div id="fullwidth">
+
 <p> The VideoLAN team is made up of students of the <a
 href="http://www.ecp.fr/">École Centrale Paris</a> and developers
 from all over the world:</p>
@@ -182,6 +184,8 @@ Résidence des élèves de l'École Centrale
 92 290 Châtenay Malabry
 France
 </pre>
+</div>
+
 </div>
 
 <?php footer('$Id$'); ?>

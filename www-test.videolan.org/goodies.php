@@ -6,6 +6,8 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 
+<div id="fullwidth">
+
 <h1>VideoLAN goodies</h1>
 
 <p>You are now a true VideoLAN fan? Help yourself in this page!</p>
@@ -300,5 +302,7 @@ copyright:</p>
 may be used or modified by anyone to refer to the VideoLAN project
 or any product developed by the VideoLAN team, but does not indicate
 endorsement by the project.</pre>
+
+</div>
 
 <?php footer('$Id$'); ?>

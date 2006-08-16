@@ -8,7 +8,7 @@
 
 <h1> Documentation </h1>
 
-<p></p>
+<div id="left">
 
 <table border="0">
 
@@ -294,9 +294,12 @@
 
 <p>DE = German, EN = English, ES = Spanish, FR = French, IT = Italian.</p>
 
+</div>
+
+<div id="right">
+
+<?php panel_start( "blue" ); ?>
  <h1> VideoLAN Wiki </h1> 	 
-  	 
- <p></p> 	 
   	 
  <p>The VideoLAN Wiki is at <a 	 
  href="http://wiki.videolan.org">http://wiki.videolan.org/</a></p> 	 
@@ -304,10 +307,14 @@
  <p>The Wiki is a website that anyone can change. Its goal is to document 	 
  all that is not in the official documentation: tips and tricks for each 	 
  O.S., graphical interfaces, etc...</p>
+<?php panel_end(); ?>
 
+<?php panel_start( "orange" ); ?>
  <h1>Still lost?</h1>
 
 <p>Try <a href="http://forum.videolan.org/search.php">searching</a> the VideoLAN <a href="http://forum.videolan.org">Forum</a>. A lot of information can be found here.</p>
+<?php panel_end(); ?>
 
+</div>
 
 <?php footer('$Id$'); ?>

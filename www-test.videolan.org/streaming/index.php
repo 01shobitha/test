@@ -8,6 +8,8 @@
 
 <h1> Streaming </h1>
 
+<div id="fullwidth">
+
 <h2>Overview of the VideoLAN streaming solution</h2>
 
 <p>The VideoLAN streaming solution includes:</p>
@@ -175,5 +177,7 @@ below:</p>
 
 
 </table>
+
+</div>
 
 <?php footer('$Id$'); ?>

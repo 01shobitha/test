@@ -101,18 +101,7 @@
 
 <h1>Download skins</h1>
 
-<h2>How to use these skins?</h2>
-
-<p>See <a href="/vlc/skins.html">this page</a> for more details on how to load
-a downloaded skin.</p>
-
-<h2>Create your own skin!</h2>
-
-<p>In addition to the skins listed below, VLC now supports all the Winamp2 and
-XMMS skins (.wsz files). But if you still don't find any skin you like, why not
-<a href="/vlc/skins2-create.html">creating a better one</a>?<br/> Don't worry,
-you don't need any programming skills... Some knowledge about graphics software
-might ease the job, though :-)</p>
+<div id="left">
 
 <h2>Downloads...</h2>
 
@@ -149,19 +138,45 @@ might ease the job, though :-)</p>
   pg_close( $connect );
 ?>
 
+</div>
 
-<h2>Skins VS skins2</h2>
+<div id="right">
 
-<p><span style="color: red;"><b>Important note:</b></span><br/> VLC had two
+<?php panel_start( "orange" ); ?>
+<h1>How to use these skins?</h1>
+
+<p>See <a href="/vlc/skins.html">this page</a> for more details on how to load
+a downloaded skin.</p>
+<?php panel_end(); ?>
+
+<?php panel_start( "blue" ); ?>
+<h1>Create your own skin!</h1>
+
+<p>In addition to the skins listed below, VLC now supports all the Winamp2 and
+XMMS skins (.wsz files). But if you still don't find any skin you like, why not
+<a href="/vlc/skins2-create.html">creating a better one</a>?<br/> Don't worry,
+you don't need any programming skills... Some knowledge about graphics software
+might ease the job, though :-)</p>
+<?php panel_end(); ?>
+
+<?php panel_start( "gray" ); ?>
+<h1>Skins VS skins2</h1>
+
+<p><strong class="note">Important note:</strong></p>
+<p>VLC had two
 different skins modules, named <i>skins</i> and <i>skins2</i>, the latter being
 a complete rewrite of the former. The <i>skins</i> module is now deprecated,
 and is no more included in VLC releases since version 0.8.0.</p>
 
-<p>The <a href="/vlc/skins-create.html">documentation</a> and <a
+<!-- <p>The <a href="/vlc/skins-create.html">documentation</a> and <a
 href="/vlc/download-skins.html">download section</a> for the <i>skins</i>
 module are still kept in case someone wants to port old skins to the
-<i>skins2</i> module, but they are going to disappear one day or other...</p>
+<i>skins2</i> module, but they are going to disappear one day or other...</p>-->
 
 <p>On this page you will only find skins for the new <i>skins2</i> module.</p>
+
+<?php panel_end(); ?>
+
+</div>
 
 <?php footer('$Id$'); ?>

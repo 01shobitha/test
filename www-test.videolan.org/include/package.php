@@ -1,7 +1,7 @@
 <?php
 
 function DownloadSize($file) {
-  $size = filesize($file);
+  $size = @filesize($file);
   $sizes = Array('B', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB');
   $ext = $sizes[0];
   for ($i=1; (($i < count($sizes)) && ($size >= 1024)); $i++) {
@@ -11,9 +11,9 @@ function DownloadSize($file) {
   return round($size, 1).$ext;
 }
 
-function pkgitem($description,$version,$name,$top)
+function pkgitem($description,$version,$name,$top,$extradescription="")
 {
-  echo "<p>$description. (".DownloadSize("{$_SERVER["DOCUMENT_ROOT"]}pub/videolan/$top/$version/$name").")</p>";
+  echo "<p>$description. <i>$extradescription</i> (".DownloadSize("{$_SERVER["DOCUMENT_ROOT"]}pub/videolan/$top/$version/$name").")</p>";
 ?>
   <table>
     <tbody><tr>

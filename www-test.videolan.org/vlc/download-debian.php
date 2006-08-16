@@ -7,7 +7,7 @@
    include($_SERVER["DOCUMENT_ROOT"]."/include/mirrordir.php");
 ?>
 
-<?php function pkgitem($version,$name,$comment) { ?><li><a href="http://download.videolan.org/pub/videolan/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a> <?php echo $comment; ?> </li><?php } ?>
+<div id="fullwidth">
 
 <h1> VLC media player for <a href="http://debian.org">Debian GNU/Linux</a></h1>
 
@@ -49,6 +49,8 @@ branch. However you should still use our apt-get line if you need libdvdcss: </p
 <h2> Debian testing (etch) </h2>
 
 <p> VLC is probably available too in testing, but due to the way testing works, we can't guarantee which version is currently available. </p>
+
+</div>
 
 <?php
   footer('$Id$');

@@ -8,6 +8,8 @@
 
 <h1> Streaming statistics list </h1>
 
+<div id="fullwidth">
+
 <p>The streaming statistics list is a place where user reported statistics about systems used for transcoding and streaming are documented. It is by no means intended as scientific proof and only reflects what users use.</p>
 
 <h2>VLC Stream output</h2>
@@ -553,6 +555,6 @@
 </tr>
 </table>
 
-<p></p>
+</div>
 
 <?php footer('$Id$'); ?>

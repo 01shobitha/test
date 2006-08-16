@@ -6,6 +6,8 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 
+<div id="fullwidth">
+
 <h1> VLC media player for Familiar Linux </h1>
 
 <h2>Download Options</h2>
@@ -100,6 +102,8 @@ Older version for your iPaq configuration:
 <h2>Source code</h2>
 
 <p>If you want, you can download the <a href="download-sources.html">source code</a> of VLC media player.</p>
+
+</div>
 
 <?php
   footer('$Id$');

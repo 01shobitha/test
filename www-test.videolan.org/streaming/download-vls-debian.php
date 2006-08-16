@@ -16,6 +16,8 @@ function pkgitem($version,$name)
 
 <h1> VLS for Debian GNU/Linux </h1>
 
+<div id="fullwidth">
+
 <h2>Install VLS with apt-get</h2>
 
 <p> Add the following lines to your <b>/etc/apt/sources.list</b>:</p>
@@ -60,6 +62,8 @@ function pkgitem($version,$name)
 
 <p>Older versions can be found by <a
 href="http://download.videolan.org/pub/vls/">browsing</a> our FTP site.</p>
+
+</div>
 
 <?php
   footer('$Id$');

@@ -8,6 +8,8 @@
 
 <h1> Bug reporting </h1>
 
+<div id="fullwidth">
+
 <p>If you find any bugs, or if you experience any crashes, then we would very much like to hear of these problems/suggestions. To make dealing with these as easy as possible, we have created this checklist for you.
 </p>
 
@@ -80,5 +82,7 @@ Please make sure you send the last crash (at the bottom of the file) and that it
 <p>
 <b>Written by Derk-Jan Hartman, for the VideoLAN Team.</b>
 </p>
+
+</div>
 
 <?php footer('$Id$'); ?>

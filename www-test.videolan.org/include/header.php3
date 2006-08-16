@@ -49,7 +49,7 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n";
 
 function DrawMenu( $file, $mod )
 {
-  if( $m = fopen( "menu/$file", "r", 1 ) )
+  if( $m = @fopen( "menu/$file", "r", 1 ) )
   {
     while( $l = fgets( $m, 300 ) )
     {
@@ -95,6 +95,33 @@ function footer($tag) {
 </body>
 </html>
 
+<?php
+}
+
+function panel_start( $color )
+{
+?>
+  <div class="panel-<?php echo $color; ?>"> <!-- begin panel -->
+    <div class="hd">
+      <div class="c"></div>
+    </div>
+
+    <div class="bd">
+      <div class="c">
+        <!-- main content goes here -->
+<?php
+}
+
+function panel_end( )
+{
+?>
+      </div>
+    </div>
+
+    <div class="ft">
+      <div class="c"></div>
+    </div>
+  </div> <!-- end panel -->
 <?php
 }
 

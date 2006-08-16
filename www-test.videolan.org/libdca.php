@@ -6,6 +6,8 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 
+<div id="fullwidth">
+
 <h1>libdca - a free DTS Coherent Acoustics decoder</h1>
 
 <p>libdca is a free library for decoding DTS Coherent Acoustics streams. The code is written by <a href="mailto:gbazin@videolan.org">Gildas Bazin</a> and was based on the <a href="http://liba52.sourceforge.net/">a52dec</a> project. It is released under the terms of the GPL license.</p>
@@ -77,5 +79,7 @@ please consult your lawyer before downloading it</p>
 <h2>Where to find DTS Coherent Acoustics samples</h2>
 
 <p>Some very good samples are available on the <a href="http://www.sr.se/multikanal/english/e_index.stm">swedish radio website</a>.</p>
+
+</div>
 
 <?php footer('$Id: dtsdca.html 2743 2004-09-13 12:46:05Z dionoea $'); ?>

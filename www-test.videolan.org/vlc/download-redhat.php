@@ -11,6 +11,8 @@
 
 <h1>VLC media player for <a href="http://www.redhat.com/">Red Hat Linux</a></h1>
 
+<div id="fullwidth">
+
 <h2>Red Hat packages for i386</h2>
 
 <p>Latest RPM x86 packages tarballs for Red Hat 9.0: </p>
@@ -22,5 +24,7 @@
 
 <p> Older versions can be found by browsing our FTP site :</p>
 <ul> <?php mirrordir("vlc"); ?> </ul>
+
+</div>
 
 <?php footer('$Id$'); ?>

@@ -8,6 +8,8 @@
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php3");
 ?>
 
+<div id="fullwidth">
+
 <h1>Web Statistics</h1>
 
 <?php include( $_SERVER["DOCUMENT_ROOT"]."/stats/web.inc" ); ?>
@@ -15,6 +17,8 @@
 <h1>Download statistics</h1>
 
 <p><a href="/stats/downloads.php">View download statistics</a></p>
+
+</div>
 
 <?php footer('$Id: index.php 3321 2005-06-25 13:53:44Z zorglub $'); ?>
 

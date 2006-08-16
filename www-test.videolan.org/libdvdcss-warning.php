@@ -8,6 +8,8 @@
 
 <?php function pkgitem($version,$name) { ?><li><a href="http://download.videolan.org/pub/videolan/vlc/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a></li><?php } ?>
 
+<div id="fullwidth">
+
 <h1> Warning regarding libdvdcss </h1>
 
 <h2>What is libdvdcss ?</h2>
@@ -33,5 +35,6 @@ If you want to read more on this subject, we publish a <a
 href="libdvdcss.txt">french non-technical description of libdvdcss</a>
 and we will try to translate it soon.
 
+</div>
 
 <?php footer('$Id$'); ?>

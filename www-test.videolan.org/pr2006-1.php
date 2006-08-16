@@ -6,6 +6,8 @@
    require($_SERVER["DOCUMENT_ROOT"]."include/header.php3");
 ?>
 
+<div id="fullwidth">
+
 <h1>The VideoLAN website gets a new home</h1>
 
 <p>
@@ -64,5 +66,7 @@ The VideoLAN project<br />
 <dt>VIA Centrale R&eacute;seaux (campus network student association)&nbsp;:</dt>
 <dd><a href="http://www.via.ecp.fr/">http://www.via.ecp.fr/</a></dd>
 </dl>
+
+</div>
 
 <?php footer('$Id$'); ?>

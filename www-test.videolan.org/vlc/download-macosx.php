@@ -46,12 +46,6 @@
 <?php pkgitem( "Last Mac OS X package for 10.1 (release 0.7.0)", "0.7.0/macosx","vlc-0.7.0.dmg","vlc"); ?>
 </ul>
 
-<h2>How to install</h2>
-
-<p> VLC for Mac OS X is distributed as a disk image. Download the
-<code>.dmg</code> file, open it, and copy it to your hard drive
-(for instance the <code>/Applications</code> folder). Open VLC by
-double-clicking on it. </p>
 <h2>Older versions</h2>
 
 <p> Older versions can be found by browsing our FTP site:</p>
@@ -60,14 +54,25 @@ double-clicking on it. </p>
 
 <div id="right">
 
+
+  <?php panel_start( "orange" ); ?>
+  <h1>How to install</h1>
+
+  <p> VLC for Mac OS X is distributed as a disk image. Download the
+  <code>.dmg</code> file, open it, and copy it to your hard drive
+  (for instance the <code>/Applications</code> folder). Open VLC by
+  double-clicking on it. </p>
+  <?php panel_end(); ?>
+
+  <?php panel_start( "gray" ); ?>
+  <p><strong>Note:</strong> There is not, and there will never be, a version for Mac&nbsp;OS&nbsp;9.</p>
+  <?php panel_end(); ?>
+
   <h2>Source code</h2>
 
   <p>If you want, you can download the <a href="download-sources.html">
   source code</a> of VLC media player.</p>
 
-  <?php panel_start( "gray" ); ?>
-  <p><strong>Note:</strong> There is not, and there will never be, a version for Mac&nbsp;OS&nbsp;9.</p>
-  <?php panel_end(); ?>
 
 </div>
 <?php footer('$Id$'); ?>

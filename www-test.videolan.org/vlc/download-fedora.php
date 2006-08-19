@@ -3,17 +3,15 @@
    $lang = "en";
    $date = "21 June 2004";
    $menu = array( "vlc", "download" );
-   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
-   include($_SERVER["DOCUMENT_ROOT"]."/include/mirrordir.php");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
 ?>
-
-<?php function pkgitem($version,$name,$comment) { ?><li><a href="http://download.videolan.org/pub/videolan/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a> <?php echo $comment; ?> </li><?php } ?>
 
 <div id="fullwidth">
 
 <h1>VLC media player for <a href="http://fedora.redhat.com/">Fedora Core</a> 3</h1>
 
-<h2>Unofficial Fedora Core packages</h1>
+<h1>Unofficial Fedora Core packages</h1>
 
 <p>rpm.livna.org maintains some Fedora Core Packages for VLC: <a href="http://rpm.livna.org/">get them here</a>.</p>
 
@@ -43,26 +41,22 @@ uncompress them in the same directory :</p>
 
 <p>Latest RPM x86 packages tarballs for Fedora Core 3 : </p>
 
-<ul>
-<?php pkgitem("vlc/0.8.1/rpm/fedora/fc3","vlc-binary.tar.gz","(VLC Binaries packages)");?>
+<ul><li>
+<?php pkgitem( "VLC Binary packages","vlc/0.8.1/rpm/fedora/fc3","vlc-binary.tar.gz","");?></li>
 </ul>
 
 <p>Optional components:</p>
 
-<ul><?php
-    pkgitem("vlc/0.8.1/rpm/fedora/fc3","vlc-devel.tar.gz","(VLC Development headers)");
-    pkgitem("vlc/0.8.1/rpm/fedora/fc3","vlc-source.tar.gz","(VLC Source Code)");
-?></ul>
+<ul><li><?php  pkgitem_nomirr( "VLC Development headers","vlc/0.8.1/rpm/fedora/fc3","vlc-devel.tar.gz","");?></li>
+<li><?php pkgitem_nomirr("VLC Source Code", "vlc/0.8.1/rpm/fedora/fc3","vlc-source.tar.gz","") ?></li>
+</ul>
 
-<p>You can also browse the packages directory of our FTP site : </p>
-<ul> <?php mirrordir("vlc/0.8.1/rpm/fedora/fc3/vlc"); ?> </ul>
+<p>You can also browse the <a href="http://download.videolan.org/pub/videolan/vlc/0.8.1/rpm/fedora/fc3/vlc">packages directory of our FTP site</a>.</p>
 
 <p>Thank to Jason Luka who maintains these packages</p>
 
 <h2>Older versions</h2>
-
-<p> Older versions can be found by browsing our FTP site :</p>
-<ul> <?php mirrordir("vlc"); ?> </ul>
+<?php browse_old("vlc") ; ?>
 
 </div>
 

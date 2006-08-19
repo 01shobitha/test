@@ -1,7 +1,7 @@
 <?php
    $title = "404 not found";
    $menu = array( "vlc", "" );
-   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
 <h1 class="error">404 error: page not found</h1>

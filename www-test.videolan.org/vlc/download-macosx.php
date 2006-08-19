@@ -3,7 +3,7 @@
    $lang = "en";
    $date = "16 April 2001";
    $menu = array( "vlc", "download" );
-   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/mirrordir.php");
@@ -38,18 +38,18 @@
 
 <p><b>Requires <a href="http://www.apple.com/support/downloads/quicktime652formac.html">QuickTime 6.5.2</a> or later</b></p>
 <ul>
-<?php pkgitem( "Last Mac OS X package for 10.2, 10.3 up to 10.3.8 (release 0.8.4a)", "0.8.4a/macosx","vlc-0.8.4a.dmg","vlc"); ?>
+<li>
+<?php pkgitem_nomirr( "Last Mac OS X package for 10.2, 10.3 up to 10.3.8 (release 0.8.4a)", "0.8.4a/macosx","vlc-0.8.4a.dmg","vlc"); ?>
+</li>
 </ul>
 
 <h2>Last Mac OS X package for 10.1 (release 0.7.0)</h2>
-<ul>  
-<?php pkgitem( "Last Mac OS X package for 10.1 (release 0.7.0)", "0.7.0/macosx","vlc-0.7.0.dmg","vlc"); ?>
+<ul>  <li>
+<?php pkgitem_nomirr( "Last Mac OS X package for 10.1 (release 0.7.0)", "0.7.0/macosx","vlc-0.7.0.dmg","vlc"); ?></li>
 </ul>
 
 <h2>Older versions</h2>
-
-<p> Older versions can be found by browsing our FTP site:</p>
-<ul> <?php mirrordir("vlc"); ?> </ul>
+<?php browse_old( "vlc" ); ?> 
 </div>
 
 <div id="right">

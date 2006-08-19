@@ -3,7 +3,7 @@
    $lang = "fr";
    $date = "5 Juin 2004";
    $menu = array( "home", "overview" );
-   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
 <h1> VideoLAN - Tests de diffusion sur la Rez </h1>

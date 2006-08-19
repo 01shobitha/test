@@ -48,7 +48,7 @@ function pkgitem($description,$version,$name,$top,$extradescription="")
 	$mirror_name = substr( $mirror, $esp+1, strlen( $mirror ) - $esp -1 );
   $country = ereg_replace( "\).*$", "", ereg_replace( "^.*\(", "", $mirror_name ) );
   $mirror_name = ereg_replace( "\(.*\)", "", $mirror_name );
-	echo " <tr><td>$mirror_name</td><td>$country</td><td><a href=\"http://www.videolan.org/mirror.html?mirror=$url&amp;file=$top/$version/$name\">Download</td></tr>\n "; 
+	echo " <tr><td>$mirror_name</td><td>$country</td><td><a href=\"http://www.videolan.org/mirror.html?mirror=$url&amp;file=$top/$version/$name\">Download</a></td></tr>\n "; 
     }
  ?>
   </tbody></table>

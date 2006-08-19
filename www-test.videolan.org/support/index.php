@@ -3,7 +3,7 @@
    $lang = "en";
    $date = "13 January 2002";
    $menu = array( "vlc", "support" );
-   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3"); 
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php"); 
 ?>
 
 <h1> User support </h1>

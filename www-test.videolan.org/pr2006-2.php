@@ -3,7 +3,7 @@
    $lang = "en";
    $date = "1 April 2006";
    $menu = array( "vlc" );
-   require($_SERVER["DOCUMENT_ROOT"]."include/header.php3");
+   require($_SERVER["DOCUMENT_ROOT"]."include/header.php");
 ?>
 
 <div id="fullwidth">

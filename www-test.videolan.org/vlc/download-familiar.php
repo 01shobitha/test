@@ -3,7 +3,7 @@
    $lang = "en";
    $date = "01 March 2004";
    $menu = array( "vlc", "download" );
-   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
 <div id="fullwidth">
@@ -35,11 +35,11 @@ Packages from VLC version 0.4.5 onwards support <b>Familiar Linux version 0.6</b
 <h2>Familiar Linux Gtk+/GPE</h2>
 
 <p>
-The packages for Familiar GPE are being split up in two separate uses. 
-<ul>
-  <li>One for use on small sized flash discs iPAQ's, like H3600 and H3800.<li>
+The packages for Familiar GPE are being split up in two separate uses.</p>
+<ul class="bullets">
+  <li>One for use on small sized flash discs iPAQ's, like H3600 and H3800.</li>
   <li>The other for more functionality and codec support targeted at PXA (XScale) iPAQ's.</li>
-</ul></p>
+</ul>
 <p>The latest VLC packages for Familiar Linux 0.7.1 are here:</p>
 
 <h3>GPE (H3600/H3800)</h3>

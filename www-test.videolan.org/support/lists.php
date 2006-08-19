@@ -3,7 +3,7 @@
    $lang = "en";
    $date = "14 February 2001";
    $menu = array( "support", "mail" );
-   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
 <h1> User mailing-lists </h1>

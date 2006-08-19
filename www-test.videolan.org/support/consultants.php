@@ -3,7 +3,7 @@
    $lang = "en";
    $date = "10 July 2003";
    $menu = array( "support", "consultants" );
-   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
 <h1> Consulting services </h1>

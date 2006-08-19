@@ -3,7 +3,7 @@
    $lang = "en";
    $date = "14 Octobre 2001";
   $menu = array( "home", "links" );
-   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
 <div id="fullwidth">

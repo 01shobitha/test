@@ -3,7 +3,7 @@
    $lang = "en";
    $date = "16 April 2001";
    $menu = array( "vlc", "windows" );
-   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/mirrordir.php");

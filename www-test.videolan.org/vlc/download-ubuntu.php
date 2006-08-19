@@ -3,7 +3,7 @@
    $lang = "en";
    $date = "8 May 2006";
    $menu = array( "vlc", "download" );
-   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/mirrordir.php");
 ?>
 
@@ -30,7 +30,7 @@ repository activated.</p>
 
 <div id="right">
 
-<?php panel_start( "gray" ); ?>
+<?php panel_start( "blue" ); ?>
 <h1>Developement snapshots</h1>
 <p>Developement snapshots are available on <a href="http://nightlies.videolan.org">nightlies.videolan.org</a>.</p>
 <?php panel_end(); ?>

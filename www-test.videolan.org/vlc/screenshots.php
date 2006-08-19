@@ -3,7 +3,7 @@
    $lang = "en";
    $date = "14 February 2001";
    $menu = array( "vlc", "screenshots" );
-   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
 function screenshot($img,$thumb,$alt,$descr){
 echo"    <td class='center'><a href='$img'><img

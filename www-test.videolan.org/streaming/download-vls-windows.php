@@ -3,7 +3,7 @@
    $lang = "en";
    $date = "9 October 2001";
    $menu = array( "streaming", "" );
-   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/mirrordir.php");
 ?>

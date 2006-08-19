@@ -3,7 +3,7 @@
    $lang = "en";
    $date = "28 March 2003";
    $menu = array( "vlc", "skins-download" );
-   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
 <?php

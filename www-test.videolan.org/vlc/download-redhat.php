@@ -3,11 +3,9 @@
    $lang = "en";
    $date = "21 June 2004";
    $menu = array( "vlc", "download" );
-   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
-   include($_SERVER["DOCUMENT_ROOT"]."/include/mirrordir.php");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
+   include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
 ?>
-
-<?php function pkgitem($version,$name,$comment) { ?><li><a href="http://download.videolan.org/pub/videolan/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a> <?php echo $comment; ?> </li><?php } ?>
 
 <h1>VLC media player for <a href="http://www.redhat.com/">Red Hat Linux</a></h1>
 
@@ -21,9 +19,7 @@
 <p><b>NOTE:</b> Be sure to run the RH9 update package listed beneath the FC2 package.</p>
 
 <h2>Older versions</h2>
-
-<p> Older versions can be found by browsing our FTP site :</p>
-<ul> <?php mirrordir("vlc"); ?> </ul>
+<?php browse_old( "vlc" ); ?>
 
 </div>
 

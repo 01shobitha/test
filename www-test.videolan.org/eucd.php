@@ -3,7 +3,7 @@
    $lang = "en";
    $date = "16 November 2005";
    $menu = array( "vlc" );
-   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
 <p>(English, French and German version available)</p>

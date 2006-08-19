@@ -3,7 +3,7 @@
    $lang = "en";
    $date = "17 March 2004";
    $menu = array( "vlc", "features" );
-   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
 <h1> VLC features list </h1>

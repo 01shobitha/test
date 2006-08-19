@@ -3,7 +3,7 @@
    $lang = "en";
    $date = "25 January 2003";
    $menu = array( "support", "report" );
-   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
 <h1> Bug reporting </h1>

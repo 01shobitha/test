@@ -3,7 +3,7 @@
    $lang = "en";
    $date = "8 May 2006";
    $menu = array( "vlc", "download" );
-   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
 ?>
 
@@ -13,9 +13,9 @@
 
 <h2>Unofficial packages</h2>
 <p><a href="http://pallansson.homeip.net/vlc/index.html">Per Allansson (click here for packages changelog)</a> build a tgz for VLC 0.8.5:</p>
-<ul>
+<ul><li>
   <?php pkgitem( "VLC 0.8.5",
-                 "0.8.5/slackware","vlc-0.8.5-i686-3.tgz","vlc"); ?>
+                 "0.8.5/slackware","vlc-0.8.5-i686-3.tgz","vlc"); ?></li>
 </ul>
 
 <p>Use the following command to install the package:</p>

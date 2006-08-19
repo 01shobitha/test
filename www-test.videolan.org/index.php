@@ -3,9 +3,9 @@
    $lang = "en";
    $date = "06 April 2002";
    $menu = array( "vlc", "overview" );
-   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
-   include($_SERVER["DOCUMENT_ROOT"]."/include/news.php3");
+   include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");
 ?>
 
   <h1>Latest news</h1>
@@ -22,7 +22,7 @@
           <h1>VLC media player 0.8.5</h1>
           
           <ul class="panel-blue-bullet">
-            <li>It is a free cross-platform media player</p>
+            <li>It is a free cross-platform media player</li>
             <li>It supports a <a href="/vlc/features.html">large number of multimedia formats</a>, without the need for additional codecs</li>
             <li>It is available for almost every OS</li>
             <li>It needs little CPU power</li>
@@ -159,7 +159,7 @@ else
                 on the fly transcoding, ...)</li>
           </ul>
           <div class="more">
-            <a href="/vlc/streaming.html">Learn more</a></p>
+            <a href="/vlc/streaming.html">Learn more</a>
           </div>
     <?php panel_end(); ?>
 

@@ -3,7 +3,7 @@
    $lang = "en";
    $date = "28 October 2003";
    $menu = array( "streaming", "statistics" );
-   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
 <h1> Streaming statistics list </h1>

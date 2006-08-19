@@ -2,7 +2,7 @@
    $title = "VideoLAN - List of CSS-free DVDs";
    $lang = "en";
    $date = "06 April 2002";
-   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
 <h1>List of CSS-free DVDs</h1>

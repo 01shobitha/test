@@ -3,7 +3,7 @@
    $lang = "en";
    $date = "6 April 2002";
    $menu = array( "project", "events" );
-   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
 <h1> Events </h1>

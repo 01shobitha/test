@@ -3,13 +3,12 @@
    $lang = "en";
    $date = "14 February 2003";
    $menu = array( "vlc", "download" );
-   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/mirrordir.php");
 ?>
 
-<div id="fullwidth">
-
 <h1> VLC media player for <a href="http://debian.org">Debian GNU/Linux</a></h1>
+<div id="left">
 
 <h2> Debian stable (sarge) </h2>
 
@@ -49,6 +48,15 @@ branch. However you should still use our apt-get line if you need libdvdcss: </p
 <h2> Debian testing (etch) </h2>
 
 <p> VLC is probably available too in testing, but due to the way testing works, we can't guarantee which version is currently available. </p>
+
+</div>
+
+<div id="right">
+
+<?php panel_start( "blue" ); ?>
+<h1>Developement snapshots</h1>
+<p>Developement snapshots are available on <a href="http://nightlies.videolan.org">nightlies.videolan.org</a>.</p>
+<?php panel_end(); ?>
 
 </div>
 

@@ -4,7 +4,7 @@
    $menu = array( "vlc", "download" );
    $date = "14 February 2001";
    $enable_live = true;
-   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
 <h1> VLC media player </h1>

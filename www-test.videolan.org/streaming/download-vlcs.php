@@ -3,7 +3,7 @@
    $lang = "en";
    $date = "14 January 2003";
    $menu = array( "streaming", "" );
-   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
 <?php

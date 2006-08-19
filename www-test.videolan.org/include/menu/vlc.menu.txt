@@ -1,7 +1,7 @@
 overview;Overview;/
 download;Download;/vlc/
-features;Features;/vlc/features.html
+features;Features;http://wiki.videolan.org/index.php/VLCFeatures
 streaming;Streaming;/vlc/streaming.html
 screenshots;Screenshots;/vlc/screenshots.html
 skins;Skins;/vlc/skins.html
-support;Support;/vlc/support.html
+support;Support;/support/index.html

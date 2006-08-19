@@ -6,10 +6,9 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 
-
 <h1> Team / Contact </h1>
 
-<div id="fullwidth">
+<div id="left">
 
 <p> The VideoLAN team is made up of students of the <a
 href="http://www.ecp.fr/">École Centrale Paris</a> and developers
@@ -17,64 +16,9 @@ from all over the world:</p>
 
 <p class="center">
 <a href="/images/developers-map.png">
-  <img src="/images/developers-map.jpg" alt="VideoLAN developers map"
-       width="300" height="225" />
+  <img src="/images/developers-map.jpg" alt="VideoLAN developers map" />
 </a></p>
 
-<div class="others">
-<div class="others1">
-<h2>Contacting us</h2>
-
-<p>For user-related questions, please see our <a href="/support">Support section</a></p>
-
-<p>
-If you want to contact the French team of the Ecole Centrale Paris, about partnerships for example, please write to <a href="mailto:videolan@videolan.org">videolan@videolan.org</a> in French or English.</p>
-
-<p>
-If you want to redistribute some VideoLAN software (VLC, VLS...) in a magazine for example, you don't need to ask us the permission ! You can distribute an original or a modified version as long as you comply with its license terms, i.e. the GNU General Public License Version 2. The easiest way to conform to this licence is to accompany the software with its sources. For example, if you plan to distribute a binary version of VLC on a CD, you should also include on the same CD all the files listed on the VLC source code page.
-</p><p>
-In case you write an article about VideoLAN, we would be very glad to have a copy of it to add to our press book. You can send us the article at the following address :
-</p>
-<pre  style="margin-left: 60px;">
-VideoLAN
-Club VIA Centrale Réseaux
-Résidence Ecole Centrale
-2, avenue Sully Prudhomme
-92 290 Châtenay Malabry
-France
-</pre>
-
-</div>
-
-<div class="others2">
-<h2>The project leader</h2>
-<p><a href="mailto:antoine.cellerier&#64;videolan.org">Antoine Cellerier</a></p>
-
-<h2>The Treasurer</h2>
-
-<p><a href="mailto:treasurer@videolan.org">Pierre-Antoine Rappenne</a></p>
-
-<h2>Supreme counsellor and mascot of the project</h2>
-
-<p><a href="mailto:ali@videolan.org">Aliénor Salin</a>, alias <b>ali</b>.</p>
-
-<h2>The teachers</h2>
-
-<p>Two teachers of the Ecole Centrale Paris supervise the project:</p>
-
-<ul>
-
-<li>Mr Jean-Philippe Rey, responsible for the Information Technologies
-at the school,</li>
-
-<li>Mr Dimitri Dagot, director of the <a
-href="http://www.it.ecp.fr/">Computer-science and Telecom
-option</a> of the school.</li>
-
-</ul>
-</div>
-</div>
-<div class="others">
 <h2>The developers</h2>
 
 <p>There is a description of what they worked on, so that you can spot
@@ -148,7 +92,7 @@ part with '@'. </p>
 
       if(!file_exists('AUTHORS.'.$module)) return;
 
-      echo "<h3>the $module team</h3>";
+      echo "<h3>The $module team</h3>";
       $file = file('AUTHORS.'.$module);
       $count = 0;
 
@@ -169,10 +113,8 @@ part with '@'. </p>
    closedir($handle); 
 
 ?>
-</div>
 
-<div class="others">
-<h1>Legal contact</h1>
+<h2>Legal contact</h2>
 
 <p>Hosting for the VideoLAN project is provided by&nbsp;:
 </p>
@@ -189,6 +131,45 @@ France
 </p>
 
 </div>
+
+<div id="right">
+
+<?php panel_start("blue"); ?>
+<h1>Contacting us</h1>
+
+<p>For user-related questions, please see our <a href="/support">Support
+section</a></p>
+
+<p>If you want to contact the French team of the Ecole Centrale
+Paris, about partnerships for example, please write to <a
+href="mailto:videolan@videolan.org">videolan@videolan.org</a> in French
+or English.</p>
+
+<p> If you want to redistribute some VideoLAN software (VLC, VLS...)
+in a magazine for example, you don't need to ask us the permission !
+You can distribute an original or a modified version as long as you
+comply with its license terms, i.e. the GNU General Public License
+Version 2. The easiest way to conform to this licence is to accompany
+the software with its sources. For example, if you plan to distribute a
+binary version of VLC on a CD, you should also include on the same CD
+all the files listed on the VLC source code page.</p>
+
+<p>In case you write an article about VideoLAN, we would be very glad to
+have a copy of it to add to our press book. You can send us the article
+at the following address :</p>
+
+<pre  style="margin-left: 60px;">
+VideoLAN
+Club VIA Centrale Réseaux
+Résidence Ecole Centrale
+2, avenue Sully Prudhomme
+92 290 Châtenay Malabry
+France
+</pre>
+<?php panel_end(); ?>
+
+<h2>The project leader</h2>
+<p><a href="mailto:antoine.cellerier&#64;videolan.org">Antoine Cellerier</a></p>
 
 </div>
 

@@ -278,6 +278,11 @@ ul {
 	padding: 0;
 }
 
+ul.bullets {
+	list-style-type: disc; 
+	padding-left: 1em;
+}
+
 img { border: none; }
 
 #pagecontainer {

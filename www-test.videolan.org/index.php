@@ -159,9 +159,24 @@ else
                 on the fly transcoding, ...)</li>
           </ul>
           <div class="more">
-            <a href="/streaming">Learn more</a></p>
+            <a href="/vlc/streaming.html">Learn more</a></p>
           </div>
     <?php panel_end(); ?>
+
+  <?php panel_start( 'gray' ); ?>
+  <h1>Help</h1>
+  <p> For setup instructions, see the <a href="/doc/">documentation</a>
+  section.</p>
+  <p>If you have a problem that is not
+  covered in the documentation, look at the <a href="/vlc/support/">support</a>  page 
+  <a href="http://forum.videolan.org">web forums</a>, the
+  <a href="/support/lists.html">user mailing-lists</a> and other support
+  methods.</p>
+<?php panel_end(); ?>
+
+
+
+
 
   <h2>Project</h2>
 
@@ -174,16 +189,6 @@ else
   href="http://www.ecp.fr/">École Centrale Paris</a> but is now a worldwide
   project with <a href="/team/index.html">developers</a> from 20 countries.</p>
 
-
-<h2>Help</h2>
-  <p> For setup instructions, see the <a href="/doc/">documentation</a>
-  section.</p>
-  <p>If you have a problem that is not
-  covered in the documentation, look at the <a
-  href="/support/">support</a> section to know about the 
-  <a href="http://forum.videolan.org">web forums</a>, the
-  <a href="/support/lists.html">user mailing-lists</a> and other support
-  methods.</p>
 
 <h2>Contribute!</h2>
 

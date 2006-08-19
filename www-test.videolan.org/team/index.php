@@ -2,7 +2,7 @@
    $title = "the VideoLAN team";
    $lang = "en";
    $date = "7 April 2002";
-   $menu = array( "home", "team" );
+   $menu = array( "project", "team" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 
@@ -184,6 +184,10 @@ Résidence des élèves de l'École Centrale
 92 290 Châtenay Malabry
 France
 </pre>
+
+<p>Antoine Cellerier is responsible for the website's publication.</p>
+</p>
+
 </div>
 
 </div>

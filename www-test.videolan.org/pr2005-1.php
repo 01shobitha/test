@@ -2,7 +2,7 @@
    $title = "VideoLAN - Press Release";
    $lang = "en";
    $date = "19 January 2005";
-   $menu = array( "home" );
+   $menu = array( "vlc" );
    require($_SERVER["DOCUMENT_ROOT"]."include/header.php3");
 ?>
 

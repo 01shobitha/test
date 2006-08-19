@@ -2,7 +2,7 @@
    $title = "VideoLAN - Thank you for your donation";
    $lang = "en";
    $date = "06 July 2002";
-   $menu = array( "home", "contribute" );
+   $menu = array( "project", "contribute" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 

@@ -10,6 +10,16 @@ function DownloadSize($file) {
   }
   return round($size, 1).$ext;
 }
+function browse_old( $fold )
+{
+ echo "<p> Older versions can be found by browsing ";
+ echo "<a href=\"http://download.videolan.org/pub/videolan/$fold\">our FTP archive</a></p>";
+}
+
+function pkgitem_nomirr($description,$version,$name,$top,$extradescription="")
+{
+  echo "<p><a href=\"http://download.videolan.org/pub/videolan/$top/$version/$name\">$description</a>. <i>$extradescription</i> (".DownloadSize("{$_SERVER["DOCUMENT_ROOT"]}pub/videolan/$top/$version/$name").")</p>";
+}
 
 function pkgitem($description,$version,$name,$top,$extradescription="")
 {

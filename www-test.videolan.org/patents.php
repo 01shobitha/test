@@ -2,7 +2,7 @@
    $title = "VideoLAN - And the issue of software patents";
    $lang = "en";
    $date = "06 April 2005";
-   $menu = array( "home" );
+   $menu = array( "vlc" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 

@@ -1,6 +1,6 @@
 <?php
    $title = "403 forbidden";
-   $menu = array( "home", "" );
+   $menu = array( "vlc", "" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 

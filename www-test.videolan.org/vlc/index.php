@@ -16,12 +16,13 @@
 <div id="description">
   <h2>VLC - the cross-platform media player and streaming server</h2>
 
-  <p> VLC (initially VideoLAN Client) is a highly portable
+  <p> VLC media player is a highly portable
   <strong>multimedia player</strong> for various audio and video
   formats (MPEG-1, MPEG-2, MPEG-4, DivX, mp3, ogg, ...) as well
   as <strong>DVD</strong>s, <strong>VCD</strong>s, and various
   <strong>streaming</strong> protocols. It can also be used as a
-  server to stream in unicast or <strong>multicast</strong> in IPv4 or
+  <a href="/vlc/streaming.html">server to stream</a> in unicast or
+  <strong>multicast</strong> in IPv4 or
   <strong>IPv6</strong> on a high-bandwidth network. </p>
 
   <p> If you like VLC, please rate it on the <a href="http://freshmeat.net/projects/vlc">Freshmeat</a> and <a href="http://www.versiontracker.com/dyn/moreinfo/macosx/14738">versiontracker</a> entries!</p>
@@ -31,7 +32,7 @@
 
   <h2>Download VLC</h2>
 
-  <p>Select your operating system to download precompiled binaries:</p>
+  <p>Select your operating system to download VLC binaries:</p>
 
 <?php
 function addos( $name, $class, $url, $bold=false )

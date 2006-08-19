@@ -2,7 +2,7 @@
    $title = "VideoLAN - the events";
    $lang = "en";
    $date = "6 April 2002";
-   $menu = array( "home", "events" );
+   $menu = array( "project", "events" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 

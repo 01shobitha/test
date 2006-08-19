@@ -1,6 +1,6 @@
 <?php
    $title = "404 not found";
-   $menu = array( "home", "" );
+   $menu = array( "vlc", "" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 

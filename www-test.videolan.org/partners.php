@@ -2,7 +2,7 @@
    $title = "VideoLAN - our partners";
    $lang = "en";
    $date = "5 February 2002";
-   $menu = array( "home", "partners" );
+   $menu = array( "project", "partners" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 
@@ -135,41 +135,6 @@ cooperation of our partners, on both technical and financial sides: </p>
     </td>
   </tr>
 
-
-  <tr>
-    <td colspan="2">
-	<h2> Extreme Networks / Silicomp </h2>
-    </td>
-  </tr>
-  <tr>
-    <td>
-	<p><a href="http://www.extremenetworks.com"><img
-	src="/images/extreme.gif" width="140" alt="Extreme" height="33" /></a></p>
-    </td>
-    <td>
-
- <p>The network of the student residence of the <a                      
- href="http://www.ecp.fr/">École Centrale Paris</a> managed by          
- the <a href="http://www.via.ecp.fr/via/index.html?lang=en">VIA         
- Centrale Réseaux</a> association is a brand new <a                     
- href="http://www.extremenetworks.com">Extreme Networks</a> network.    
- It is a full multicast and full layer 3 network with an Ethernet  
- Gigabit backbone and 100 Mbit/s switches on the periphery. This is     
- where we test the VideoLAN solution.</p>                               
-
-    </td>
-  </tr>
-  <tr>
-    <td>
-	<p><a href="http://www.silicomp.fr"><img
-	src="/images/silicomp.gif" width="100" alt="Silicomp" height="62" /></a>
-        </p>
-    </td>
-    <td>
-	<p>The network was provided to us by <a href="http://www.silicomp.fr">Silicomp</a>.</p>
-    </td>
-  </tr>
-
   <tr>
     <td colspan="2">
 	<h2> VTHR </h2>
@@ -225,23 +190,6 @@ cooperation of our partners, on both technical and financial sides: </p>
     </td>
   </tr>
 
-
-  <tr>
-    <td colspan="2">
-	<h2> Bouygues </h2>
-    </td>
-  </tr>
-  <tr>
-    <td>
-	<p><a href="http://www.bouygues.fr/"><img
-	src="/images/bouygues.gif" width="132" alt="Bouygues" height="68"/></a></p>
-    </td>
-    <td>
-	<p>Bouygues is an historic partner of the <a
-	href="http://www.ecp.fr/">École Centrale Paris</a> and helped to build
-	and finance the network of the student residence of the school.</p>
-    </td>
-  </tr>
   <tr>
     <td colspan="2">
 	<h2> LaCie </h2>
@@ -259,9 +207,42 @@ cooperation of our partners, on both technical and financial sides: </p>
     </td>
   </tr>
 
+</table>
 
+<h1> Consulting services </h1>
+
+<p>The following is a list of individuals and/or companies who claim to
+be experts in video streaming using VideoLAN. You may contact them
+for professional services to order.</p>
+
+<table>
+
+<tr><td colspan="2"><h2>Anevia</h2></td></tr>
+<tr>
+<td>
+  <a href="http://www.anevia.com/">
+  <img src="/images/anevia.png" alt="Anevia" width="200" height="57" />
+  </a>
+</td>
+<td>French company founded by four members of the VideoLAN team (Brieuc
+Jeunhomme, Tristan Leteurtre, Damien Lucas and Alexis de Lattre - to
+know more about them, see the <a href="/team/">VideoLAN team page</a>).
+Anevia sells professional video servers and provides development and
+integration of high quality video streaming solutions.</td>
+</tr>
+
+<tr><td colspan="2"><h2>M2X</h2></td></tr>
+<tr>
+<td>
+  <a href="http://www.m2x.nl/">
+  <img src="/images/m2x.png" alt="M2X" width="224" height="103" />
+  </a>
+</td>
+<td>M2X is an ICT company that is specialized in using Open Source software for providing solutions to IT problem areas of Networking (wired or wireless), Embedded and Multimedia. The founder of the company is a VideoLAN developer Jean-Paul Saman (see the <a href="/team/">VideoLAN team page</a> for more information on his contributions).</td>
+</tr>
 
 </table>
+
 
 </div>
 

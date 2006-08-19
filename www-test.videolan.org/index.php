@@ -2,7 +2,7 @@
    $title = "VideoLAN - Free Software and Open Source video streaming solution for every OS!";
    $lang = "en";
    $date = "06 April 2002";
-   $menu = array( "home", "overview" );
+   $menu = array( "vlc", "overview" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php3");

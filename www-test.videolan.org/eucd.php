@@ -2,7 +2,7 @@
    $title = "VideoLAN - DADVSI";
    $lang = "en";
    $date = "16 November 2005";
-   $menu = array( "home" );
+   $menu = array( "vlc" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php3");
 ?>
 

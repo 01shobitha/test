@@ -28,10 +28,7 @@
 ?>
 
   <h2>Older versions</h2>
-
-  <p> Older versions can be found by browsing our FTP site :</p>
-
-<?php mirrordir("vlc"); ?>
+  <?php browse_old("vlc") ?>
 
 </div> <!-- LEFT -->
 

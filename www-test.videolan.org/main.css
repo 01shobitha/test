@@ -284,7 +284,8 @@ ul.bullets {
 	margin-bottom: 1em;
 }
 
-img { border: none; }
+img { border: none; 
+	behavior: url("/pngbehavior.htc");}
 
 #pagecontainer {
 	width: 86%;

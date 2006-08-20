@@ -27,9 +27,6 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n";
    <link rel="stylesheet" type="text/css" href="/main.css" />
    <link rel="shortcut icon" type="image/x-icon"
          href="/images/icons/favicon.ico" />
-   <!--[if lt IE 7]>
-	<script defer type="text/javascript" src="/pngfix.js"></script>
-   <![endif]-->
    <?php if( $enable_live == true ) {?>
 	<script src="/ffcounter.js" type="text/javascript"></script>
    <?php } ?>
@@ -171,7 +168,7 @@ StartHtml( ereg_replace( "<[^>]*>" , "" , $title ) , $enable_live) ;
 	
 	<div id="submenucontainer">
 		<div class="videolan-logo">
-			<a href="/"><img src="/images/videolan-logo.png" alt="VideoLAN"/></a>
+			<a href="/"><img src="/images/videolan-logo.png" alt="VideoLAN" width="100" height="47"/></a>
 		</div>
 		<ul id="submenu">
 			<?php DrawMenu( $menu[0].".menu.txt", $menu[1] ); ?>

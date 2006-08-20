@@ -114,12 +114,12 @@ href="/images/videolan-backgrounds-base-2-1.src.rpm">here</a>.</p>
 </div>
 <p>These nice logos where drawn by BRi7X:</p>
 <p>
-<a href="/images/goodies/videolan-bri7x-6.png"><img src="/images/goodies/tn_videolan-bri7x-6.png" alt="Yet another VideoLAN logo" /></a>
-<a href="/images/goodies/videolan-bri7x-5.png"><img src="/images/goodies/tn_videolan-bri7x-5.png" alt="Yet another VideoLAN logo" /></a>
-<a href="/images/goodies/videolan-bri7x-4.png"><img src="/images/goodies/tn_videolan-bri7x-4.png" alt="Yet another VideoLAN logo" /></a>
-<a href="/images/goodies/videolan-bri7x-3.png"><img src="/images/goodies/tn_videolan-bri7x-3.png" alt="Yet another VideoLAN logo" /></a>
-<a href="/images/goodies/videolan-bri7x-2.png"><img src="/images/goodies/tn_videolan-bri7x-2.png" alt="Yet another VideoLAN logo" /></a>
-<a href="/images/goodies/videolan-bri7x-1.png"><img src="/images/goodies/tn_videolan-bri7x-1.png" alt="Yet another VideoLAN logo" /></a>
+<a href="/images/goodies/videolan-bri7x-6.png"><img src="/images/goodies/tn_videolan-bri7x-6.png" alt="Yet another VideoLAN logo" width="130" height="89"/></a>
+<a href="/images/goodies/videolan-bri7x-5.png"><img src="/images/goodies/tn_videolan-bri7x-5.png" alt="Yet another VideoLAN logo"  width="130" height="89"/></a>
+<a href="/images/goodies/videolan-bri7x-4.png"><img src="/images/goodies/tn_videolan-bri7x-4.png" alt="Yet another VideoLAN logo"  width="130" height="89"/></a>
+<a href="/images/goodies/videolan-bri7x-3.png"><img src="/images/goodies/tn_videolan-bri7x-3.png" alt="Yet another VideoLAN logo"  width="130" height="89"/></a>
+<a href="/images/goodies/videolan-bri7x-2.png"><img src="/images/goodies/tn_videolan-bri7x-2.png" alt="Yet another VideoLAN logo"  width="130" height="89"/></a>
+<a href="/images/goodies/videolan-bri7x-1.png"><img src="/images/goodies/tn_videolan-bri7x-1.png" alt="Yet another VideoLAN logo"  width="130" height="89"/></a>
 </p>
 
 
@@ -172,7 +172,7 @@ endorsement by the project.</pre>
 <h1>Banners</h1>
 
 <p class="center"><a href="http://www.videolan.org/vlc" title="Get VLC media player - It plays, it streams, it kills WiMPs!!">
-<img  src="http://download.videolan.org/images/buttons/GetVLC_110.png" alt="Get VLC media player" /></a></p>
+<img  src="http://download.videolan.org/images/buttons/GetVLC_110.png" width="110" height="45" alt="Get VLC media player" /></a></p>
 <p>
 Use the following code to include this banner in your site:</p>
 <pre>
@@ -181,8 +181,8 @@ Use the following code to include this banner in your site:</p>
         It plays, it streams, it kills WiMPs!!"&gt;
 &lt;img
  src="http://www.videolan.org/images/
-buttons/GetVLC_110.png"
- alt="Get VLC media player" /&gt;&lt;/a&gt;
+buttons/GetVLC_110.png" width="110"
+height="45" alt="Get VLC media player" /&gt;&lt;/a&gt;
 </pre>
 <p>
 The following sizes are available:</p>

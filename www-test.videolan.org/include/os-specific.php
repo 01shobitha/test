@@ -32,12 +32,12 @@
     {
 	$scr = array();
 	$scr["Win32"] = array( "/images/screenshots/vlc-win32.png" , 
-			       "VLC on Windows" );
+			       "VLC on Windows", 300, 200 );
 	$scr["Linux"] = array( "/images/screenshots/vlc-linux.png" ,
-			       "VLC on Linux" );
+			       "VLC on Linux", 300, 200 );
 	$scr["OSX"] = array( "/images/screenshots/vlc-osx.png" ,
-	   		     "VLC on MacOS X" );
-	echo "document.writeln('<img src=\"".$scr[$os][0]."\" alt=\"";
+	   		     "VLC on MacOS X", 300, 200 );
+	echo "document.writeln('<img width=\"".$scr[$os][2]."\" height=\"".$scr[$os][3]."\" src=\"".$scr[$os][0]."\" alt=\"";
 	echo $scr[$os][1]."\" />');";
     }
     function DoDL( $os, $with_js=1 )

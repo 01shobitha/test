@@ -171,6 +171,11 @@ select {
 	text-align: right;
 }
 
+#notes {
+	color: #75818A;
+	font-size: 9px;
+}
+
 .vlcversion { font-size: 16px; }
 #vlccounter { font-weight: bold; }
 #spacer { font-size: 1px; /* to make sure width is not overridden */ }
@@ -254,7 +259,7 @@ body { background: #fff url("images/bg.png") repeat-x top; }
 
 h1 {
 	margin: 0;
-	padding: 35px 0 4px;
+	padding: 35px 0 12px;
 	line-height: 19px;
 }
 
@@ -293,7 +298,7 @@ img { border: none;
 	margin: 0 auto;
 }
 
-.note { background: #D8FFCC; }
+.note { background: #CCFFCC; }
 
 #description {
 	padding: 0 0 15px;
@@ -350,10 +355,39 @@ table {
 	background: #D4E0F7;
 }
 
+#maincontent table th img {
+	padding: 5px 0;
+	vertical-align: middle;
+}
+
 #maincontent table td {
 	padding: 0 7px;
 	line-height: 2.1em;
 	border-top: 1px solid #E4E7E9;
+	background: #F4F7FD;
+}
+
+#maincontent table td.yes {
+	background: #cfc;
+}
+
+#maincontent table td.no {
+	background: #fcc;
+}
+
+#maincontent table td.partial {
+	background: #ffa;
+}
+
+#maincontent table td.none {
+	background: #F4F7FD;
+}
+
+#maincontent table td.type {
+	background: #EBF0FA;
+}
+
+#maincontent table td.category {
 	background: #F4F7FD;
 }
 				

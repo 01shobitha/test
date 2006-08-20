@@ -17,23 +17,23 @@
 <th></th>
 <th></th>
 <th class="os"><a href="/vlc/download-windows.html">
-  <img src="/images/icons/windows.gif" alt="Windows" width="32" height="32" />
+  <img src="/images/icons/winvista.png" alt="Windows" width="32" height="32" />
 </a></th>
 <th class="os"><a href="/vlc/download-macosx.html">
-  <img src="/images/icons/macosx.gif" alt="Mac OS X" width="32" height="32" />
+  <img src="/images/icons/macosx.png" alt="Mac OS X" width="32" height="32" />
 </a></th>
 <th class="os"><a href="/vlc/index.html">
-  <img src="/images/icons/linux.gif" alt="Linux" width="32" height="32" />
+  <img src="/images/icons/linux.png" alt="Linux" width="32" height="32" />
 </a></th>
 <th class="os"><a href="/vlc/download-beos.html">
-  <img src="/images/icons/beos.gif" alt="BeOS" width="32" height="32" />
+  <img src="/images/icons/beos.png" alt="BeOS" width="32" height="32" />
 </a></th>
 <th class="os"><a href="/vlc/download-sources.html">
-  <img src="/images/icons/freebsd.gif" alt="FreeBSD" width="32" height="32" />
-  <img src="/images/icons/openbsd.gif" alt="OpenBSD" width="32" height="32" />
+  <img src="/images/icons/freebsd.png" alt="FreeBSD" width="32" height="32" />
+  <img src="/images/icons/openbsd.png" alt="OpenBSD" width="32" height="32" />
 </a></th>
 <th class="os"><a href="/vlc/download-familiar.html">
-  <img src="/images/icons/familiar.gif" alt="Familiar Linux"
+  <img src="/images/icons/familiar.png" alt="Familiar Linux"
        width="32" height="32" />
 </a></th>
 
@@ -471,12 +471,12 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" target="_blank">WMV</a> 3</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/codec" target="_blank">WMV</a> 3 / <a href="http://wiki.videolan.org/index.php/codec" target="_blank">VC-1</a></td>
+<td class="yes">Yes<sup>[12], [13]</sup></td>
+<td class="yes">Yes<sup>[12]</sup></td>
+<td class="yes">Yes<sup>[12], [13]</sup></td>
+<td class="yes">Yes<sup>[12]</sup></td>
+<td class="yes">Yes<sup>[12]</sup></td>
 <td class="no">No</td>
 </tr>
 
@@ -961,6 +961,17 @@
 
 </tr>
 
+<tr>
+
+<td class="type"><a href="http://wiki.videolan.org/index.php/codec" target="_blank">WMA 3</a></td>
+<td class="yes">Yes<sup>[13]</sup></td>
+<td class="no">No</td>
+<td class="partial">Yes<sup>[13]</sup></td>
+<td class="no">No</td>
+<td class="no">No</td>
+<td class="no">No</td>
+
+</tr>
 
 <tr>
 
@@ -1458,69 +1469,78 @@
 <th></th>
 <th></th>
 <th class="os"><a href="/vlc/download-windows.html">
-  <img src="/images/icons/windows.gif" alt="Windows" width="32" height="32" />
+  <img src="/images/icons/winvista.png" alt="Windows" width="32" height="32" />
 </a></th>
 <th class="os"><a href="/vlc/download-macosx.html">
-  <img src="/images/icons/macosx.gif" alt="Mac OS X" width="32" height="32" />
+  <img src="/images/icons/macosx.png" alt="Mac OS X" width="32" height="32" />
 </a></th>
 <th class="os"><a href="/vlc/index.html">
-  <img src="/images/icons/linux.gif" alt="Linux" width="32" height="32" />
+  <img src="/images/icons/linux.png" alt="Linux" width="32" height="32" />
 </a></th>
 <th class="os"><a href="/vlc/download-beos.html">
-  <img src="/images/icons/beos.gif" alt="BeOS" width="32" height="32" />
+  <img src="/images/icons/beos.png" alt="BeOS" width="32" height="32" />
 </a></th>
 <th class="os"><a href="/vlc/download-sources.html">
-  <img src="/images/icons/freebsd.gif" alt="FreeBSD" width="32" height="32" />
-  <img src="/images/icons/openbsd.gif" alt="OpenBSD" width="32" height="32" />
+  <img src="/images/icons/freebsd.png" alt="FreeBSD" width="32" height="32" />
+  <img src="/images/icons/openbsd.png" alt="OpenBSD" width="32" height="32" />
 </a></th>
 <th class="os"><a href="/vlc/download-familiar.html">
-  <img src="/images/icons/familiar.gif" alt="Familiar Linux"
+  <img src="/images/icons/familiar.png" alt="Familiar Linux"
        width="32" height="32" />
 </a></th>
 </tr>
 
 </table>
 
-<p>
-[1] DVD decryption is done through the libdvdcss library.
-<br />
-[2] DVD navigation is done through the libdvdplay library.
-<br />
-[3] supported CPU extensions are MMX, MMXEXT, SSE and 3D Now! on x86
-processors, and AltiVec on G4/G5 processors.
-<br />
-[4] the OpenBSD 2.9 default assembler does not support MMX.
-<br />
-[5] VLC for GNU/Linux supports two kinds of MPEG-2 encoding cards: Hauppauge WinTV-PVR-250/350
-and Visiontech Kfir.
-<br />
-[6] VLC on GNU/Linux, Solaris, and Microsoft Windows has playback
-control support via libcdio and libvcdinfo. On other platforms
-SVCD support varies depending on the availability of these libraries.
-(Volunteers for adding support is always welcome.). Handling still
-frames (often used in menus) and switching between different video
-formats is a problem.
-<br /> 
-[7] Full color for YUV-type chromas is not handled, only the gray-scale
-value. Subtitle transparency is not fully supported for all
-chromas. Some chromas are not handled at all.
-<br /> 
-[8] CD-Text information provided via libcdio. Support is available on
-those platforms this library is available.
-<br />
-[9] CDDB information provided by libcddb via libcdio. Support is
-available on those platforms both of these libraries are
-available. libcddb runs on BeOS although libcdio doesn't. On Microsoft
-Windows, libcddb doesn't compile yet without POSIX emulation.
-<br />
-[10] The current releases of WxWidgets for Mac are too unstable to be 
-used by VLC in production environments. Additionally, the resulting 
-interface isn't as Mac-like as we want VLC to be.
-<br />
-[11] Real Audio playback is provided through the FFmpeg-library
-which does only support the Cook (RealAudio G2 / RealAudio 8)
-decoder at the moment.
-</p>
+<div id="notes">
+
+  <p>
+  [1] DVD decryption is done through the libdvdcss library.
+  <br />
+  [2] DVD navigation is done through the libdvdplay library.
+  <br />
+  [3] supported CPU extensions are MMX, MMXEXT, SSE and 3D Now! on x86
+  processors, and AltiVec on G4/G5 processors.
+  <br />
+  [4] the OpenBSD 2.9 default assembler does not support MMX.
+  <br />
+  [5] VLC for GNU/Linux supports two kinds of MPEG-2 encoding cards: Hauppauge WinTV-PVR-250/350
+  and Visiontech Kfir.
+  <br />
+  [6] VLC on GNU/Linux, Solaris, and Microsoft Windows has playback
+  control support via libcdio and libvcdinfo. On other platforms
+  SVCD support varies depending on the availability of these libraries.
+  (Volunteers for adding support is always welcome.). Handling still
+  frames (often used in menus) and switching between different video
+  formats is a problem.
+  <br /> 
+  [7] Full color for YUV-type chromas is not handled, only the gray-scale
+  value. Subtitle transparency is not fully supported for all
+  chromas. Some chromas are not handled at all.
+  <br /> 
+  [8] CD-Text information provided via libcdio. Support is available on
+  those platforms this library is available.
+  <br />
+  [9] CDDB information provided by libcddb via libcdio. Support is
+  available on those platforms both of these libraries are
+  available. libcddb runs on BeOS although libcdio doesn't. On Microsoft
+  Windows, libcddb doesn't compile yet without POSIX emulation.
+  <br />
+  [10] The current releases of WxWidgets for Mac are too unstable to be 
+  used by VLC in production environments. Additionally, the resulting 
+  interface isn't as Mac-like as we want VLC to be.
+  <br />
+  [11] Real Audio playback is provided through the FFmpeg-library
+  which does only support the Cook (RealAudio G2 / RealAudio 8)
+  decoder at the moment.
+  <br />
+  [12] WMV-3 / WMV-9 / VC-1 playback is through the FFmpeg-library
+  since VLC 0.8.6. Some videos might still have problems playing.
+  <br />
+  [13] Windows dmo codecs can be used by VLC on intel 32bit platforms.
+  This allows WMV-3/WMA-3 decoding.
+  </p>
+</div>
 
 </div>
 

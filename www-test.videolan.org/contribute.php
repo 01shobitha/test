@@ -164,7 +164,7 @@ donations. </p>
 through their remaks, bug reports or donations. We're particulerly grateful 
 to the following people whose contributions made some important projects 
 possible. The <a href="/partners.html">partners</a> page also lists some 
-compagnies and institutions who helped VideoLAN.</p>
+companies and institutions who helped VideoLAN.</p>
 
 <ul class="bullets">
   <li><strong>Julian Cain</strong>, who made a $1000 donation to the VideoLAN project</li>

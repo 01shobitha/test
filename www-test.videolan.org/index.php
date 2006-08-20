@@ -104,7 +104,7 @@
   <p> For setup instructions, see the <a href="/doc/">documentation</a>
   section.</p>
   <p>If you have a problem that is not
-  covered in the documentation, look at the <a href="/vlc/support/">support</a>  page 
+  covered in the documentation, look at the <a href="/support/">support</a>  page 
   <a href="http://forum.videolan.org">web forums</a>, the
   <a href="/support/lists.html">user mailing-lists</a> and other support
   methods.</p>

@@ -60,7 +60,7 @@
             echo "<img alt='Equal' src='/vlc/skins2/cone-e.png' title=\"last week's rating: ".round($old_rating,1)."\"/>";
           else
             echo "<img alt='Down' src='/vlc/skins2/cone-d.png' title=\"last week's rating: ".round($old_rating,1)."\"/>";
-          echo " ($count votes)";
+          echo " ($count votes)<br />";
           for( $i=0; $i<5; $i++ )
           {
             $v = round(min(1,max(0,$rating-$i)),1)*10;
@@ -72,6 +72,7 @@
         if( $_COOKIE["skinrated_$id"] != $id )
         {
       ?>
+	<br />
       <form method="post" action="" style="display:inline;">
         <input type="radio" name="rating" value="1" id="rate_1_<?php echo $id; ?>" />
         <label for="rate_1_<?php echo $id; ?>">1</label> 
@@ -84,7 +85,7 @@
         <input type="radio" name="rating" value="5" id="rate_5_<?php echo $id; ?>" />
         <label for="rate_5_<?php echo $id; ?>">5</label> 
         <input type="hidden" name="skin_id" value="<?php echo $id; ?>" />
-        <input type="submit" value="Rate skin" />
+        <input type="submit" value="Vote" />
       </form>
       <?php } ?>
     </td></tr>

@@ -593,6 +593,8 @@ p.center { text-align:center;}
 .os1 { float:left; }
 .os2 { float:left;margin-left:3em; }
 .clearme { clear:both; }
+div.screenshot{ float:left; margin-right: 3em; text-align:center; }
+
 
 /* Flags */
 

@@ -52,7 +52,7 @@ RewriteRule ^vlc/download-source.html$ /vlc/download-sources.html [R=permanent,L
 Redirect /vlc/download-mandrake.html http://www.videolan.org/vlc/download-mandriva.php
 
 # Features
-RewriteRule ^vlc/features(.*)$ http://wiki.videolan.org/index.php/VLCFeatures [R=permanent,L]
+#RewriteRule ^vlc/features(.*)$ http://wiki.videolan.org/index.php/VLCFeatures [R=permanent,L]
 RewriteRule ^vlc/beos.html$ /vlc/features.html [R=permanent,L]
 RewriteRule ^vlc/linux.html$ /vlc/features.html [R=permanent,L]
 RewriteRule ^vlc/macosx.html$ /vlc/features.html [R=permanent,L]
@@ -69,7 +69,7 @@ RewriteRule ^vlc/skins-(.*)$ /vlc/skins.php [R=permanent,L]
 
 ##################### Streaming #####################
 
-RewriteRule ^/streaming/.*$ /vlc/streaming.html [R=permanent,L]
+RewriteRule ^streaming/$ /vlc/streaming.html [R=permanent,L]
 RewriteRule ^intro.html$ /vlc/streaming.html [R=permanent,L]
 
 RewriteRule ^vlcs(.*)$ /network$1 [R=permanent,L]

@@ -27,7 +27,7 @@ multicast. Most of the VLS functionality can now be found VLC.
 
 </ul>
 
-<p>Complete details of <a href="http://wiki.videolan.org/index.php/StreamingFeatures">the streaming features are available</a>.</p>
+<p>Complete details of <a href="/streaming-features.html">the streaming features are available</a>.</p>
 
 <p class="center">
 <img src="/images/documentation/global-diagram.jpg"

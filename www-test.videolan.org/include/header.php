@@ -27,6 +27,9 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n";
    <link rel="stylesheet" type="text/css" href="/main.css" />
    <link rel="shortcut icon" type="image/x-icon"
          href="/images/icons/favicon.ico" />
+   <!--[if lt IE 7]>
+	<script defer type="text/javascript" src="/pngfix.js"></script>
+   <![endif]-->
    <?php if( $enable_live == true ) {?>
 	<script src="/ffcounter.js" type="text/javascript"></script>
    <?php } ?>
@@ -38,14 +41,10 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n";
 <?php
    }
 ?>
-
   <div id="spacer"></div>
-
   <div id="pagecontainer">
 <?php
-
 }
-
 
 function DrawMenu( $file, $mod )
 {

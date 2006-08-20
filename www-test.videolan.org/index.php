@@ -4,14 +4,14 @@
    $date = "06 April 2002";
    $menu = array( "vlc", "overview" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
-
+   require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");
 ?>
 
   <h1>Latest news</h1>
   
   <div id="left">
-    <h2><a href="http://www.videolan.org/videolan-news.rss"><img src="/images/feed-icon-12.png" alt="RSS 1.0" /> News subscription</a></h2>
+    <h2><a href="http://www.videolan.org/videolan-news.rss"><img src="/images/icons/rss-feed.gif" alt="RSS 1.0" /> News subscription</a></h2>
     <div>
       <?php shownews("full",5); ?>
     </div>
@@ -25,145 +25,71 @@
             <li>It is a free cross-platform media player</li>
             <li>It supports a <a href="/vlc/features.html">large number of multimedia formats</a>, without the need for additional codecs</li>
             <li>It is available for almost every OS</li>
-            <li>It needs little CPU power</li>
+            <li>It can also be used as a streaming server, with extended 
+		features (video on demand, on the fly transcoding, ...)</li>
           </ul>
+
+	<p class="center"> 
+	<script type="text/javascript">
+	if( <?php echo $is_win32; ?> ) 
+	{ <?php Screenshot( "Win32" ); ?> }
+	else if( <?php echo $is_beos; ?> )
+	{ <?php Screenshot( "BeOS" ); ?> }
+	else if( <?php echo $is_linux; ?> )
+	{ <?php Screenshot( "Linux" ); ?> }
+	else if( <?php echo $is_osx; ?> )
+	{ <?php Screenshot( "OSX" ); ?> }
+	else 
+	{ <?php Screenshot("Win32" ); ?> }
+	</script>
+	<noscript>
+  	   <img src="/images/screenshots/vlc-win32.png" alt="VLC on Windows" />
+	</noscript>
+	</p>
+
 
           <hr/>
 
           <div class="download">
             <div class="vlc-logo"></div>
-<?php
-/* Windows */
-$dlwin32='<p><a class="download" href="/mirror.php?mirror=http://downloads.videolan.org/pub/videolan/&amp;file=vlc/0.8.5/win32/vlc-0.8.5-win32.exe">Download Now</a> for Windows (7.9 MB)</p>';
-
-/* Mac OS */
-$dlmacosxppc='<p><a class="download" href="/mirror.php?mirror=http://downloads.videolan.org/pub/videolan/&amp;file=vlc/0.8.5/macosx/powerpc/vlc-0.8.5.dmg">Download Now</a> for MacOS X PowerPC (12 MB)</p>';
-$dlmacosxintel='<p><a class="download" href="/mirror.php?mirror=http://downloads.videolan.org/pub/videolan/&amp;file=vlc/0.8.5/macosx/intel/vlc-0.8.5-intel.dmg">Download Now</a> for MacOS X Intel (13 MB)</p>';
-$dlmacos9='<p>Haha Mac OS 9 is dead! (if you\\\'re not using Mac OS 9 ... please write us a mail so we can fix this OS detection script)</p>';
-
-/* Linux */
-$dllinux='<p><a class="download" href="/vlc/">Download Now</a> for Linux and other OSes</p>';
-$dldebian='<p><a class="download" href="/vlc/download-debian.html">Download Now</a> for Debian GNU/Linux</p>';
-$dlubuntu='<p><a class="download" href="/vlc/download-ubuntu.html">Download Now</a> for Ubuntu Linux</p>';
-$dlfedora='<p><a class="download" href="/vlc/download-fedora.html">Download Now</a> for Fedora Linux</p>';
-$dlredhat='<p><a class="download" href="/vlc/download-redhat.html">Download Now</a> for Red Hat Linux</p>';
-$dlmandriva='<p><a class="download" href="/vlc/download-mandriva.html">Download Now</a> for Mandriva Linux</p>';
-$dlgentoo='<p><a class="download" href="/vlc/download-gentoo.html">Download Now</a> for Gentoo Linux</p>';
-$dlsuse='<p><a class="download" href="/vlc/download-suse.html">Download Now</a> for Suse Linux</p>';
-
-/* BeOS */
-$dlbeos='<p><a class="download" href="/vlc/download-beos.html">Download Now</a> for BeOS</p>';
-
-/* *BSD */
-$dlfreenbsd='<p><a class="download" href="/vlc/download-freebsd.html">Download Now</a> for FreeBSD</p>';
-
-?>
-<script type="text/javascript">
-<!--
-if (navigator.platform.indexOf("Win32") != -1)
-{
-  document.writeln( '<?php echo $dlwin32; ?>' );
-}
-else if (navigator.platform.indexOf("BeOS") != -1 )
-{
-  document.writeln( '<?php echo $dlbeos; ?>' );
-}
-else if (navigator.platform.indexOf("Linux") != -1)
-{
-  if(    navigator.userAgent.indexOf("Ubuntu") != -1
-      || navigator.userAgent.indexOf("ubuntu") != -1 )
-  {
-    document.writeln( '<?php echo $dlubuntu; ?>' );
-  }
-  else if( navigator.userAgent.indexOf("Fedora") != -1 )
-  {
-    document.writeln( '<?php echo $dlfedora; ?>' );
-  }
-  else if( navigator.userAgent.indexOf("SUSE") != -1 )
-  {
-    document.writeln( '<?php echo $dlsuse; ?>' );
-  }
-  else if( navigator.userAgent.indexOf("Debian") != -1 )
-  {
-    document.writeln( '<?php echo $dldebian; ?>' );
-  }
-  else if( navigator.userAgent.indexOf("Mandriva") != -1 )
-  {
-    document.writeln( '<?php echo $dlmandriva; ?>' );
-  }
-  else if( navigator.userAgent.indexOf("Red Hat") != -1 )
-  {
-    document.writeln( '<?php echo $dlredhat; ?>' );
-  }
-  else if( navigator.userAgent.indexOf("gentoo") != -1 )
-  {
-    document.writeln( '<?php echo $dlgentoo; ?>' );
-  }
-  else
-  {
-    document.writeln( '<?php echo $dllinux; ?>' );
-  }
-}
-else if(    navigator.userAgent.indexOf("freebsd") != -1
-         || navigator.userAgent.indexOf("FreeBSD") != -1 )
-{
-  document.writeln( '<?php echo $dlfreebsd; ?>' );
-}
-else if (    navigator.userAgent.indexOf("Mac OS X") != -1
-          || navigator.userAgent.indexOf("MSIE 5.2") != -1
-          || (    navigator.userAgent.indexOf("Mac")
-               && navigator.userAgent.indexOf("Opera") ) )
-{
-  if(    navigator.platform.indexOf("MacPPC") != -1 
-      || navigator.platform.indexOf("PowerPC") != -1 )
-  {
-    document.writeln( '<?php echo $dlmacosxppc; ?>' );
-  }
-  else if( navigator.platform.indexOf("Intel") != -1 )
-  {
-    document.writeln( '<?php echo $dlmacosxintel; ?>' );
-  }
-  else
-  {
-    document.writeln( '<?php echo $dlmacosxppc; ?>' );
-    document.writeln( '<?php echo $dlmacosxintel; ?>' );
-  }
-}
-else if ( navigator.platform.indexOf("Mac") != -1 )
-{
-    document.writeln( '<?php echo $dlmacos9; ?>' );
-}
-else
-{
-  document.writeln( '<?php echo $dlwin32; ?>' );
-  document.writeln( '<?php echo $dlmacosxppc; ?>' );
-  document.writeln( '<?php echo $dlmacosxintel; ?>' );
-}
-//-->
-</script>
-<noscript>
-  <?php echo $dlwin32; ?>
-  <?php echo $dlmacosxppc; ?>
-  <?php echo $dlmacosxintel; ?>
-</noscript>
+	    <script type="text/javascript">
+	    if ( <?php echo $is_win32; ?> ) { <?php DoDL("Win32"); ?> }
+	    else if( <?php echo $is_beos; ?> ) { <?php DoDL("BeOS"); ?> }
+	    else if( <?php echo $is_linux; ?> )
+	    {
+	      if( <?php echo $is_ubuntu; ?> ) { <?php DoDL("Ubuntu"); ?> }
+	      else if( <?php echo $is_fedora; ?> ) { <?php DoDL("Fedora"); ?>}
+	      else if( <?php echo $is_suse; ?> ) { <?php DoDL("Suse"); ?> }
+	      else if( <?php echo $is_debian; ?> ) { <?php DoDL("Debian"); ?> }
+	      else if( <?php echo $is_mandriva; ?> ) { <?php DoDL("Mandriva"); ?> }
+	      else if( <?php echo $is_redhat; ?> ) { <?php DoDL("RedHat"); ?> }
+	      else if( <?php echo $is_gentoo; ?> ) { <?php DoDL("Gentoo"); ?> }
+	      else { <?php DoDL("Linux"); ?> }
+	    }
+	    else if( <?php echo $is_freebsd; ?> ) { <?php DoDL("FreeBSD"); ?> }
+	    else if( <?php echo $is_osx; ?> )
+	    {
+	      if( <?php echo $is_ppc; ?> ) { <?php DoDL("OSX-PPC"); ?> }
+	      else if( <?php echo $is_mactel; ?> ) { <?php DoDL("OSX-Intel");?>}
+   	      else  { <?php DoDL("OSX-PPC"); DoDL("OSX-Intel"); ?> }
+	    }
+	    else if( navigator.platform.indexOf("Mac") != -1 )
+	    {	
+		document.writeln( "<p>Haha Mac OS 9 is dead! (if you\\\'re not using Mac OS 9 ... please write us a mail so we can fix this OS detection script)</p>'" );
+	    }
+	    else
+	    {	
+		<?php DoDL("Win32");DoDL("OSX-PPC"); DoDL("OSX-Intel"); ?>
+	    }
+	    </script>
+	    <noscript>
+		<?php DoDL("Win32",0);DoDL("OSX-PPC",0);DoDL("OSX-Intel",0); ?>
+	    </noscript>
           </div>
           <div class="more"><a  href="/vlc/">Others Operating Systems, learn more</a></div>
     <?php panel_end(); ?>
 
-    <?php panel_start( "orange" ); ?>
-          <h1>Streaming solution</h1>
-          <ul class="panel-orange-bullet">
-            <li>VLC can also be used as a streaming server</li>
-            <li>VLC can use a large number of input devices</li>
-            <li>It features extended streaming features (video on demand,
-                on the fly transcoding, ...)</li>
-          </ul>
-          <div class="more">
-            <a href="/vlc/streaming.html">Learn more</a>
-          </div>
-    <?php panel_end(); ?>
-
-  <?php panel_start( 'gray' ); ?>
+  <?php panel_start( 'orange' ); ?>
   <h1>Help</h1>
   <p> For setup instructions, see the <a href="/doc/">documentation</a>
   section.</p>

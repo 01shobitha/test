@@ -10,7 +10,7 @@
 <h1> VLC media player </h1>
 
 <div class="vlc-screenshot">
-  <img src="/images/vlc-screenshot.png" alt="VLC screen windows"/>
+  <img src="/images/screenshots/vlc-win32-300.png" alt="VLC on Windows"/>
 </div>
 
 <div id="description">

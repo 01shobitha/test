@@ -162,7 +162,7 @@
 	and XMMS skins (.wsz files).
    </li>
 
-  <li>Once VLC is started with the <em>skinsned interface</em>,
+  <li>Once VLC is started with the <em>skinned interface</em>,
      you can use the CTRL+S shortcut to load the new one.
   Enjoy!</li>
 </ul>

@@ -50,6 +50,7 @@ RewriteRule ^vlc/download-unix.html$ /vlc/download-sources.html [R=permanent,L]
 RewriteRule ^vlc/download-linux.html$ /vlc/index.html [R=permanent,L]
 RewriteRule ^vlc/download-source.html$ /vlc/download-sources.html [R=permanent,L]
 Redirect /vlc/download-mandrake.html http://www.videolan.org/vlc/download-mandriva.php
+RewriteRule ^vlc/partners.html /partners.html [R=permanent,L]
 
 # Features
 #RewriteRule ^vlc/features(.*)$ http://wiki.videolan.org/index.php/VLCFeatures [R=permanent,L]

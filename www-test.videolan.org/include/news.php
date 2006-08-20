@@ -56,10 +56,10 @@
 		//echo "<div id=\"news-$count\">";
                 echo ("<p class=\"date\">".date("Y-m-d", strtotime( $date) )."</p>\n");
                 echo "<p>".$short."<span id=\"news-$count\">$remain</span> ";
-		echo "<script type=\"text/javascript\">";
+		echo "<script type=\"text/javascript\"><!--";
 		echo "document.writeln('<br /><a id=\"read-$count\" ";
  		echo "onclick=\"javascript:toggle(\'$count\')\">(Read more...)";
-	        echo "</a>');toggle( $count );</script>";
+	        echo "</a>');toggle( $count );--></script>";
 		echo "</p>\n</div>\n";
 
              	$max--; if($max == 0) return;

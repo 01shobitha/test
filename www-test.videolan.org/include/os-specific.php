@@ -1,5 +1,8 @@
 <?php
     $is_win32 = "navigator.platform.indexOf(\"Win32\") != -1";
+
+    $is_ie = "navigator.userAgent.indexOf(\"MSIE\") != -1";
+
     $is_beos = "navigator.platform.indexOf(\"BeOS\") != -1";
 
     $is_linux = "navigator.platform.indexOf(\"Linux\") != -1";
@@ -35,7 +38,7 @@
 	$scr["OSX"] = array( "/images/screenshots/vlc-osx.png" ,
 	   		     "VLC on MacOS X" );
 	echo "document.writeln('<img src=\"".$scr[$os][0]."\" alt=\"";
-	echo $scr[$os][1]."\"');";
+	echo $scr[$os][1]."\" />');";
     }
     function DoDL( $os, $with_js=1 )
     {
@@ -62,7 +65,7 @@
 	}
 	else
 	{
-		echo "'<p><a class=\"download\" " ;
+		echo "<p><a class=\"download\" " ;
 		echo "href=\"".$dl[$os][0]."\">Download Now";
 		echo "</a> for ".$dl[$os][1]."</p>";
 	}

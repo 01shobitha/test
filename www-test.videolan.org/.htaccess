@@ -135,6 +135,13 @@ RewriteRule ^libdvdplay.* http://developers.videolan.org/libdvdplay/index.html [
 Redirect permanent /developers http://developers.videolan.org
 Redirect permanent /cvs http://developers.videolan.org/cvs.html
 
+###################### Images #########################"""
+
+RewriteRule ^images/([^/]*)bri7x(.*)$ /images/goodies/$1bri7x$2 [R=permanent,L]
+RewriteRule ^images/videolan_org(.*)$ /images/goodies/videolan_org$1 [R=permanent,L]
+RewriteRule ^images/cone-soppera(.*)$ images/goodies/cone-soppera$1 [R=permanent,L]
+
+
 ##################### Unsorted misc stuff ####################
 
 RewriteRule ^tests/(.*)$ /rez/ [R=permanent,L]

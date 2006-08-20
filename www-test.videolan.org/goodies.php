@@ -22,13 +22,13 @@
 
 <p>The actual version made by Stephane Soppera (with Blender):</p>
 
-<a href="/images/cone-soppera10.png">
-<img src="/images/cone-soppera10-moyen.png" alt="Stephane Soppera's cone"
+<a href="/images/goodies/cone-soppera10.png">
+<img src="/images/goodies/cone-soppera10-moyen.png" alt="Stephane Soppera's cone"
  width="77" height="100" />
 </a>
 
 <p>Download the Blender sources <a
-href="/images/cone10-soppera.blend">here</a>.</p>
+href="/images/goodies/cone10-soppera.blend">here</a>.</p>
 
 </li>
 
@@ -167,12 +167,12 @@ href="/images/videolan-backgrounds-base-2-1.src.rpm">here</a>.</p>
 <p>These nice logos where drawn by BRi7X:</p>
 
 <p>
-<a href="/images/videolan-bri7x-6.png"><img src="/images/tn_videolan-bri7x-6.png" alt="Yet another VideoLAN logo" /></a>
-<a href="/images/videolan-bri7x-5.png"><img src="/images/tn_videolan-bri7x-5.png" alt="Yet another VideoLAN logo" /></a>
-<a href="/images/videolan-bri7x-4.png"><img src="/images/tn_videolan-bri7x-4.png" alt="Yet another VideoLAN logo" /></a>
-<a href="/images/videolan-bri7x-3.png"><img src="/images/tn_videolan-bri7x-3.png" alt="Yet another VideoLAN logo" /></a>
-<a href="/images/videolan-bri7x-2.png"><img src="/images/tn_videolan-bri7x-2.png" alt="Yet another VideoLAN logo" /></a>
-<a href="/images/videolan-bri7x-1.png"><img src="/images/tn_videolan-bri7x-1.png" alt="Yet another VideoLAN logo" /></a>
+<a href="/images/goodies/videolan-bri7x-6.png"><img src="/images/goodies/tn_videolan-bri7x-6.png" alt="Yet another VideoLAN logo" /></a>
+<a href="/images/goodies/videolan-bri7x-5.png"><img src="/images/goodies/tn_videolan-bri7x-5.png" alt="Yet another VideoLAN logo" /></a>
+<a href="/images/goodies/videolan-bri7x-4.png"><img src="/images/goodies/tn_videolan-bri7x-4.png" alt="Yet another VideoLAN logo" /></a>
+<a href="/images/goodies/videolan-bri7x-3.png"><img src="/images/goodies/tn_videolan-bri7x-3.png" alt="Yet another VideoLAN logo" /></a>
+<a href="/images/goodies/videolan-bri7x-2.png"><img src="/images/goodies/tn_videolan-bri7x-2.png" alt="Yet another VideoLAN logo" /></a>
+<a href="/images/goodies/videolan-bri7x-1.png"><img src="/images/goodies/tn_videolan-bri7x-1.png" alt="Yet another VideoLAN logo" /></a>
 </p>
 
 
@@ -214,7 +214,7 @@ href="/images/videolan-backgrounds-base-2-1.src.rpm">here</a>.</p>
 <tr>
 
 <td>
-  <img src="/images/tn_videolan_org.png" alt="Background" width="250" height="187" />
+  <img src="/images/goodies/tn_videolan_org.png" alt="Background" width="250" height="187" />
 </td>
 
 </tr>
@@ -222,9 +222,9 @@ href="/images/videolan-backgrounds-base-2-1.src.rpm">here</a>.</p>
 <tr>
 
 <td>
-<a href="/images/videolan_org_1024x768.png">Image 1024x768</a> (15 kB)<br />
-<a href="/images/videolan_org_1280x960.png">Image 1280x960</a> (19 kB)<br />
-<a href="/images/videolan_org_1600x1200.png">Image 1600x1200</a> (26 kB)
+<a href="/images/goodies/videolan_org_1024x768.png">Image 1024x768</a> (15 kB)<br />
+<a href="/images/goodies/videolan_org_1280x960.png">Image 1280x960</a> (19 kB)<br />
+<a href="/images/goodies/videolan_org_1600x1200.png">Image 1600x1200</a> (26 kB)
 </td>
 
 </tr>
@@ -238,12 +238,12 @@ href="/images/videolan-backgrounds-base-2-1.src.rpm">here</a>.</p>
 
 <p>Karibu also made a VideoLAN LILO bootscreen:</p>
 
-<p><a href="/images/lilo-videolan.jpg">
-<img src="/images/lilo-videolan-small.jpg" alt="LILO bootscreen"
+<p><a href="/images/goodies/lilo-videolan.jpg">
+<img src="/images/goodies/lilo-videolan-small.jpg" alt="LILO bootscreen"
      width="401" height="300" /></a></p>
 
 <p>Download the image and the instructions: <a
-href="/images/lilo-videolan.tar.gz">lilo-videolan.tar.gz</a>.</p>
+href="/images/goodies/lilo-videolan.tar.gz">lilo-videolan.tar.gz</a>.</p>
 
 <h2>Copyright notice</h2>
 

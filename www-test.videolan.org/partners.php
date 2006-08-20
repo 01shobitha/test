@@ -23,7 +23,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   <tr>
     <td>
         <p><a href="http://www.ecp.fr/"><img
-        src="/images/logoecp.gif" width="100" alt="ECP" height="81" /></a></p>
+        src="/images/partners/logoecp.gif" width="100" alt="ECP" height="81" /></a></p>
     </td>
     <td>
 
@@ -46,7 +46,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   <tr>
     <td>
         <p><a href="http://www.hp.com"><img
-        src="/images/hpinvent.gif" alt="HP" /></a></p>
+        src="/images/partners/hpinvent.gif" alt="HP" /></a></p>
     </td>
     <td>
 
@@ -76,7 +76,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   <tr>
     <td>
         <p><a href="http://www.ibm.com"><img
-        src="/images/ibm.png" width="107" alt="IBM" height="45" /></a></p>
+        src="/images/partners/ibm.png" width="107" alt="IBM" height="45" /></a></p>
     </td>
     <td>
 
@@ -106,7 +106,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   <tr>
     <td>
 	<p><a href="http://www.btexact.com/"><img
-	src="/images/BTexact.jpg" width="160" height="56" alt="BTexact
+	src="/images/partners/BTexact.jpg" width="160" height="56" alt="BTexact
 	Technologies" /></a></p>
     </td>
     <td>
@@ -124,7 +124,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   <tr>
     <td>
         <p><a href="http://www.att.com/"><img
-        src="/images/att.gif" width="150" height="79" alt="AT&amp;T" /></a></p>
+        src="/images/partners/att.gif" width="150" height="79" alt="AT&amp;T" /></a></p>
     </td>
     <td>
 
@@ -143,7 +143,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   <tr>
     <td>
 	<p><a href="http://www.vthr.com/"><img
-	src="/images/vthr.png" width="149" height="50" alt="VTHR" /></a></p>
+	src="/images/partners/vthr.png" width="149" height="50" alt="VTHR" /></a></p>
     </td>
     <td>
 
@@ -165,7 +165,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   <tr>
     <td>
 	<p><a href="http://recherche.sncf.com/"><img
-	src="/images/sncf.jpeg" alt="SNCF" width="146" height="61" /></a></p>
+	src="/images/partners/sncf.jpeg" alt="SNCF" width="146" height="61" /></a></p>
     </td>
     <td>
 	<p>SNCF - Direction de la Recherche (French Railways - Research
@@ -182,7 +182,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   <tr>
     <td>
 	<p><a href="http://www.idm.fr"><img
-	src="/images/idm.gif" alt="IDM" width="162" height="64" /></a></p>
+	src="/images/partners/idm.gif" alt="IDM" width="162" height="64" /></a></p>
     </td>
     <td>
 	<p>I.D.M hired Simon Latapie, a VLC developer, to work on enhancing VideoLAN.
@@ -198,7 +198,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   <tr>
     <td>
 	<p><a href="http://www.lacie.com"><img
-	src="/images/LaCie.gif" alt="LaCie" width="147" height="61" /></a></p>
+	src="/images/partners/LaCie.gif" alt="LaCie" width="147" height="61" /></a></p>
     </td>
     <td>
 	<p>LaCie offered the team four DVD burners and a 1.6 Terabytes
@@ -221,7 +221,7 @@ for professional services to order.</p>
 <tr>
 <td>
   <a href="http://www.anevia.com/">
-  <img src="/images/anevia.png" alt="Anevia" width="200" height="57" />
+  <img src="/images/partners/anevia.png" alt="Anevia" width="200" height="57" />
   </a>
 </td>
 <td>French company founded by four members of the VideoLAN team (Brieuc
@@ -235,7 +235,7 @@ integration of high quality video streaming solutions.</td>
 <tr>
 <td>
   <a href="http://www.m2x.nl/">
-  <img src="/images/m2x.png" alt="M2X" width="224" height="103" />
+  <img src="/images/partners/m2x.png" alt="M2X" width="224" height="103" />
   </a>
 </td>
 <td>M2X is an ICT company that is specialized in using Open Source software for providing solutions to IT problem areas of Networking (wired or wireless), Embedded and Multimedia. The founder of the company is a VideoLAN developer Jean-Paul Saman (see the <a href="/team/">VideoLAN team page</a> for more information on his contributions).</td>

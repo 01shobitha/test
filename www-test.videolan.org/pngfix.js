@@ -9,7 +9,8 @@ if ((version >= 5.5) && (document.body.filters))
    {
       var img = document.images[i]
       var imgName = img.src.toUpperCase()
-      if (imgName.substring(imgName.length-3, imgName.length) == "PNG")
+      if (imgName.substring(imgName.length-3, imgName.length) == "PNG" && 
+          ( img.className && img.className != "nofix" || !img.className ) )
       {
          var imgID = (img.id) ? "id='" + img.id + "' " : ""
          var imgClass = (img.className) ? "class='" + img.className + "' " : ""

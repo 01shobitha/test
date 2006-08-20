@@ -6,20 +6,12 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-<div id="fullwidth">
 
 <h1>VideoLAN goodies</h1>
 
+<div id="left">
+
 <p>You are now a true VideoLAN fan? Help yourself in this page!</p>
-
-<h2>T-Shirts</h2>
-
-<p>VideoLAN T-Shirts are now available ! You can get one for every 12 euros or 16 USD you donate to the VideoLAN project. <a href="http://download.videolan.org/images/tshirts-big.jpg"><img src="http://download.videolan.org/images/tshirts-small.jpg" alt="VideoLAN T-Shirts"/></a></p>
-
-<p>See the <a href="contribute.html#money">Contribute page</a> to make a donation to the VideoLAN project. Be sure to mention how many T-Shirts you want, the size (S, M, L or XL), the address you want them to be shipped to and an e-mail (just in case). (If you are using PayPal to make the donation, you can specify these informations in the note field.)</p>
-
-<p>See all design proposals on <a href="http://wiki.videolan.org/index.php/T-Shirt_Design_Contest">The VideoLAN T-Shirt design contest wiki page</a></p>
-
 <h2>Cones</h2>
 
 <p>There has been many many versions of the VideoLAN cone: </p>
@@ -59,68 +51,28 @@ for Mac OS X:</p>
 </li>
 </ul>
 
-<h2>Banners</h2>
-
-<p>The current version of the banner</p>
-
-<p><a href="http://www.videolan.org/vlc" title="Get VLC media player - It plays, it streams, it kills WiMPs!!">
-<img src="http://download.videolan.org/images/buttons/GetVLC_110.png" alt="Get VLC media player" /></a></p>
-<p>
-Use the following code to include this banner in your site:</p>
-<pre>
-&lt;a href="http://www.videolan.org/vlc" title="Get VLC media player - It plays, it streams, it kills WiMPs!!"&gt;
-&lt;img src="http://download.videolan.org/images/buttons/GetVLC_110.png" alt="Get VLC media player" /&gt;&lt;/a&gt;
-</pre>
-<p>
-The following sizes are available:</p>
-<ul><li>
-<a href="http://download.videolan.org/images/buttons/GetVLC_110.png"
->Small banner</a></li>
-<li>
-<a href="http://download.videolan.org/images/buttons/GetVLC_120.png"
->Medium banner</a></li>
-<li><a href="http://download.videolan.org/images/buttons/GetVLC_150.png"
->Large banner</a></li>
-<li><a href="http://download.videolan.org/images/buttons/GetVLC.png"
->Supersized banner</a></li>
-<li><a href="http://download.videolan.org/images/buttons/GetVLC.psd"
->Original Photoshop document</a></li>
-</ul>
-<p>This banner was created by
-<a href="http://www.sidequest.org">Derk-Jan Hartman</a>
-and licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/"
->this Creative Commons License</a>.
-</p>
-
-<p>Another banner made by Gen:</p>
-<p><a href="/vlc/index.html"><img width="80" height="15"
-      src="/images/getvlc.png"
-      style="vertical-align: middle; border-width: 0px;"
-      alt="get VLC !" /></a>
-</p>
-
-
-<p>An older banner:</p>
-<p><a href="/vlc/index.html"><img width="100" height="32"
-      src="/images/getvlcnow.png"
-      style="vertical-align: middle; border-width: 0px;"
-      alt="get VLC NOW!" /></a>
-</p>
-
-
 <h2>Background images</h2>
 
-<p>All videolan background images can now be downloaded in one RPM package. The (relocatable) package has been built by <a href="http://home.wxs.nl/~jpsaman">Jean-Paul Saman</a> on RH 9.0, but should also be useable on SuSE, Mandrake and other RedHat systems. <p>
+<p>All videolan background images can now be downloaded in one
+RPM package. The (relocatable) package has been built by <a
+href="http://home.wxs.nl/~jpsaman">Jean-Paul Saman</a> on RH 9.0,
+but should also be useable on SuSE, Mandrake and other RPM-aware
+distributions. <p>
+
 <p>To install the package:</br>
-<ul>
-<li>Use "rpm ivh --prefix=&lt;newpath&gt; videolan-backgrounds-base-2-1.noarch.rpm" to relocated the installed images to a new location on e.g: SuSE systems.
-</li>
-<li>Download the rpm here: <a href="/images/videolan-backgrounds-base-2-1.noarch.rpm">videolan-backgrounds-base-2-1.noarch.rpm</a>. This package is built on FC 4, but should also be useable on SuSe, Mandrake and other RPM-based distros.
-</li>
-<li>The source package can be found <a href="/images/videolan-backgrounds-base-2-1.src.rpm">here</a>.
-</li>
+
+<ul class="bullets">
+<li>Download the rpm here: <a
+href="/images/videolan-backgrounds-base-2-1.noarch.rpm">videolan-backgrounds-base-2-1.noarch.rpm</a>.</li>
+
+<li>Use "rpm ivh --prefix=&lt;newpath&gt;
+videolan-backgrounds-base-2-1.noarch.rpm" to relocated the installed
+images to a new location on e.g: SuSE systems.</li>
 </ul>
-</p>
+<p>The source package can be found <a
+href="/images/videolan-backgrounds-base-2-1.src.rpm">here</a>.</p>
+
+<hr />
 
 <p>Jason Jaeger made this VLC background:</p>
 
@@ -304,5 +256,89 @@ or any product developed by the VideoLAN team, but does not indicate
 endorsement by the project.</pre>
 
 </div>
+
+<div id="right">
+
+<?php panel_start("blue" ); ?>
+<h1>T-Shirts</h1>
+
+<p>VideoLAN T-Shirts are now available ! You can get one for
+every 12 euros or 16 USD you donate to the VideoLAN project.</p>
+<p class="center">
+<a href="http://download.videolan.org/images/tshirts-big.jpg">
+  <img 
+	src="http://download.videolan.org/images/tshirts-small.jpg"
+	alt="VideoLAN T-Shirts"/></a></p>
+</a></p>
+
+
+
+<p>See the <a href="contribute.html#money">Contribute page</a> to
+make a donation to the VideoLAN project. Be sure to mention how many
+T-Shirts you want, the size (S, M, L or XL), the address you want them
+to be shipped to and an e-mail (just in case). (If you are using PayPal
+to make the donation, you can specify these informations in the note
+field.)</p>
+<p>See all design proposals on <a href="http://wiki.videolan.org/index.php/T-Shirt_Design_Contest">The VideoLAN T-Shirt design contest wiki page</a></p>
+<?php panel_end(); ?>
+
+<?php panel_start("orange" ); ?>
+<h1>Banners</h1>
+
+<p class="center"><a href="http://www.videolan.org/vlc" title="Get VLC media player - It plays, it streams, it kills WiMPs!!">
+<img src="http://download.videolan.org/images/buttons/GetVLC_110.png" alt="Get VLC media player" /></a></p>
+<p>
+Use the following code to include this banner in your site:</p>
+<pre>
+&lt;a href="http://www.videolan.org/vlc"
+ title="Get VLC media player -
+        It plays, it streams, it kills WiMPs!!"&gt;
+&lt;img
+ src="http://www.videolan.org/images/buttons/GetVLC_110.png"
+ alt="Get VLC media player" /&gt;&lt;/a&gt;
+</pre>
+<p>
+The following sizes are available:</p>
+<ul class="bullets">
+<li>
+<a href="http://download.videolan.org/images/buttons/GetVLC_110.png"
+>Small banner</a></li>
+<li>
+<a href="http://download.videolan.org/images/buttons/GetVLC_120.png"
+>Medium banner</a></li>
+<li><a href="http://download.videolan.org/images/buttons/GetVLC_150.png"
+>Large banner</a></li>
+<li><a href="http://download.videolan.org/images/buttons/GetVLC.png"
+>Supersized banner</a></li>
+<li><a href="http://download.videolan.org/images/buttons/GetVLC.psd"
+>Original Photoshop document</a></li>
+</ul>
+
+<p>This banner was created by
+<a href="http://www.sidequest.org">Derk-Jan Hartman</a>
+and licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/"
+>this Creative Commons License</a>.
+</p>
+
+<p>Another banner made by Gen:</p>
+<p><a href="/vlc/index.html"><img width="80" height="15"
+      src="/images/getvlc.png"
+      style="vertical-align: middle; border-width: 0px;"
+      alt="get VLC !" /></a>
+</p>
+
+
+<p>An older banner:</p>
+<p><a href="/vlc/index.html"><img width="100" height="32"
+      src="/images/getvlcnow.png"
+      style="vertical-align: middle; border-width: 0px;"
+      alt="get VLC NOW!" /></a>
+</p>
+
+
+<?php panel_end(); ?>
+
+</div>
+
 
 <?php footer('$Id$'); ?>

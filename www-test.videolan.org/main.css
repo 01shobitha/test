@@ -281,6 +281,7 @@ ul {
 ul.bullets {
 	list-style-type: disc; 
 	padding-left: 1em;
+	margin-bottom: 1em;
 }
 
 img { border: none; }
@@ -503,6 +504,8 @@ table {
 	min-width: 200px;
 	max-width: 792px;
 }
+
+p.center { text-align:center;} 
 
 .panel-orange .hd .c,
 .panel-orange .ft .c { height: 8px; }

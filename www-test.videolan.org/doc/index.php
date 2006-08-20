@@ -16,7 +16,6 @@
 
 <td class="type"><b>Document</b></td>
 <td class="type"><b>Description</b></td>
-<td class="type"><b>Status</b></td>
 <td class="type"><b>HTML online</b></td>
 <td class="type"><b>HTML offline</b></td>
 <td class="type"><b>PDF</b></td>
@@ -58,7 +57,6 @@
 
 <td class="category"><b>VLC Play-Howto</b></td>
 <td>Complete user guide for the client aspects of VLC</td>
-<td class="yes">Up-to-date</td>
 <td class="yes">
 <a href="/doc/play-howto/en/play-howto-en.html">EN</a>
 <a href="/doc/play-howto/fr/play-howto-fr.html">FR</a>
@@ -88,7 +86,6 @@
 
 <td class="category"><b>VLC Streaming-Howto</b></td>
 <td>Complete user guide for the server aspects of VLC</td>
-<td class="yes">Up-to-date</td>
 <td class="yes">
 <a href="/doc/streaming-howto/en/streaming-howto-en.html">EN</a>
 <a href="/doc/streaming-howto/fr/streaming-howto-fr.html">FR</a>
@@ -118,7 +115,6 @@
 
 <td class="category"><b>VLS user guide</b></td>
 <td>User guide for VLS</td>
-<td class="yes">Up-to-date</td>
 <td class="yes">
 <a href="/doc/vls-user-guide/en/vls-user-guide-en.html">EN</a>
 <a href="/doc/vls-user-guide/es/vls-user-guide-es.html">ES</a>
@@ -156,7 +152,6 @@
 
 <td class="category"><b>VideoLAN FAQ</b></td>
 <td>Frequently Asked Questions about VideoLAN</td>
-<td class="yes">Up-to-date</td>
 
 <td class="yes">
 

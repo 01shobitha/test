@@ -43,7 +43,8 @@ warranty that your wish will be taken into account. </p>
 href="mailto:videolan@videolan.org">videolan@videolan.org</a> so that we can
 tell you if we are interested and give you our snail-mail address. </p>
 
-<h2><a name="money"></a>Donate money</h2>
+<h2>Donate money</h2>
+<a id="money"></a>
 
 <h3>What is the legal structure of VideoLAN?</h3>
 
@@ -56,7 +57,7 @@ of Centrale Réseaux</a>. </p>
 
 <h3>What are the financial needs of VideoLAN?</h3>
 
-<ul>
+<ul class="bullets">
 
 <li>Buy hardware for developing and testing purposes (servers,
 satellite cards and antenna, MPEG encoding cards,...)</li>
@@ -70,18 +71,18 @@ Expo Paris, Annual presentation Day,...)</li>
 
 <h3>Who funds VideoLAN?</h3>
 
-<ul>
+<ul class="bullets">
 
-<li>the <a href="http://www.via.ecp.fr/">Centrale Réseaux</a> association,</li>
+<li>The <a href="http://www.via.ecp.fr/">Centrale Réseaux</a> association.</li>
 
-<li>the <a href="http://www.ecp.fr/">École Centrale Paris</a> and its <a
+<li>The <a href="http://www.ecp.fr/">École Centrale Paris</a> and its <a
 href="http://www.msio.ecp.fr/">SIO Master</a> (Open Information Systems).</li>
 
-<li>you, with your donations!</li>
+<li>You, with your donations!</li>
 
 </ul>
-<a name="paypal">
 <h3>Donate to VideoLAN via PayPal</h3>
+<a id="paypal"></a>
 
 <p> You can donate money to the project through VideoLAN's <a
 href="http://www.paypal.com/">PayPal</a> account. The money collected is
@@ -91,7 +92,7 @@ for your donation. </p>
 <p> If you click on one of the buttons below, you will be taken the secure
 PayPal Web site. Enter the amount of the donation you want to make. </p>
 
-<ul>
+<ul class="bullets">
 
 <li>If you are not already a PayPal member, you will be asked to enter  
 your name, your Credit Card number (VISA, MasterCard, American Express, 
@@ -165,7 +166,7 @@ to the following people whose contributions made some important projects
 possible. The <a href="/partners.html">partners</a> page also lists some 
 compagnies and institutions who helped VideoLAN.</p>
 
-<ul>
+<ul class="bullets">
   <li><strong>Julian Cain</strong>, who made a $1000 donation to the VideoLAN project</li>
   <li>The french website <strong>MacBidouille</strong> gave 500 
 euros to help us buy a PowerMac G5</li> 

@@ -8,13 +8,23 @@
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");
 ?>
 
-  <h1>Latest news</h1>
+  <h1>VideoLAN - VLC media player</h1>
   
   <div id="left">
+  <h2>About VideoLAN</h2>
+  <p>VideoLAN is a software project, which produces
+  <a href="http://www.gnu.org/philosophy/free-sw.html">free
+  software</a> for video, released under the GNU <a
+  href="http://www.gnu.org/copyleft/gpl.html">General Public
+  License</a>.<br />
+  <a href="/project">Learn more</a> about the VideoLAN project.</p>
+  <p>Our main product is the cross-platform VLC media player.</p>
+
     <h2><a href="http://www.videolan.org/videolan-news.rss"><img src="/images/icons/rss-feed.gif" alt="RSS 1.0" /> News subscription</a></h2>
     <div>
       <?php shownews("full",5); ?>
     </div>
+    <h4><a href="/news.html">Show all news</a></h4>
   </div>
 
   <div id="right">
@@ -99,22 +109,6 @@
   <a href="/support/lists.html">user mailing-lists</a> and other support
   methods.</p>
 <?php panel_end(); ?>
-
-
-
-
-
-  <h2>Project</h2>
-
-  <p>VideoLAN produces
-  <a href="http://www.gnu.org/philosophy/free-sw.html">free
-  software</a> for video, released under the GNU <a
-  href="http://www.gnu.org/copyleft/gpl.html">General Public
-  License</a>. </p>
-  <p>It started as a student project at the French <a
-  href="http://www.ecp.fr/">École Centrale Paris</a> but is now a worldwide
-  project with <a href="/team/index.html">developers</a> from 20 countries.</p>
-
 
 <h2>Contribute!</h2>
 

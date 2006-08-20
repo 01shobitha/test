@@ -33,6 +33,7 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n";
    <?php if( $enable_live == true ) {?>
 	<script src="/ffcounter.js" type="text/javascript"></script>
    <?php } ?>
+
 </head>
 <?php if( $enable_live == true ) { ?>
    <body onload="getCount();">

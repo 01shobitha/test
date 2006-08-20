@@ -3,7 +3,7 @@
 <?php
 
     /* Open data */
-    $lines = file( "counter.data" );
+    $lines = file( "/var/www/local/www.videolan.org/counter.data" );
 
     if( $lines == FALSE )
     {

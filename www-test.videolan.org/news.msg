@@ -2,13 +2,13 @@
 # New topics begin with a "|"
 #
 
-|19 June 2006|VideoLAN needs your help|There are many things that we would like to improve in VLC, but that we don't, because we simply don't have enough time. That's why we are currently looking for some help. We have identified several small projects that prospective developers could work on. Knowledge of C and/or C++ programming will certainly be useful, but you don't need to be an expert, nor a video expert. Existing VLC developers will be able to help you on these projects. You can find the list and some instructions at <a href="http://wiki.videolan.org/index.php/Mini_Projects">http://wiki.videolan.org/index.php/Mini_Projects</a>. Don't hesitate to join us on <a href="http://www.videolan.org/support/">IRC</a> or on the <a href="http://www.videolan.org/support/lists.html">mailing-lists</a>. We are waiting for you ! 
+|19 June 2006|VideoLAN needs your help|There are many things that we would like to improve in VLC, but that we don't, because we simply don't have enough time. That's why we are currently looking for some help. We have identified several small projects that prospective developers could work on.| Knowledge of C and/or C++ programming will certainly be useful, but you don't need to be an expert, nor a video expert. Existing VLC developers will be able to help you on these projects. You can find the list and some instructions at <a href="http://wiki.videolan.org/index.php/Mini_Projects">http://wiki.videolan.org/index.php/Mini_Projects</a>. Don't hesitate to join us on <a href="http://www.videolan.org/support/">IRC</a> or on the <a href="http://www.videolan.org/support/lists.html">mailing-lists</a>. We are waiting for you ! 
 
-|25 May 2006| Website redesign contest| Those of you browsing the web with text only console browsers might think that <a href="http://www.videolan.org">this website's design</a> is great, all the others wouldn't agree (some might even dare compare it with VLC's default interface on windows and linux). We've thus decided to give you the opportunity to change it.<br/>
+|25 May 2006| Website redesign contest| Those of you browsing the web with text only console browsers might think that <a href="http://www.videolan.org">this website's design</a> is great, all the others wouldn't agree (some might even dare compare it with VLC's default interface on windows and linux). We've thus decided to give you the opportunity to change it.|<br/>
 Rules are available on the <a href="http://wiki.videolan.org/index.php/WebsiteRedesign">wiki</a>. All discussion and posts relative to the contest will be made in the <a href="http://forum.videolan.org/viewforum.php?f=10">Website discussion forum</a>.<br/>
 <b>Update:</b> The deadline for this contest is set to Friday 14/07. You can have a look at current proposals on <a href="http://wiki.videolan.org/index.php/WebsiteDesign">this wiki page</a>.
 
-|6 May 2006| Release: VLC media player 0.8.5 | This new Release features many improvements, including MacIntel support, a statistic system, the support of DV inputs on Linux, improvements in the Audio CD playback (CDDB), many new and improved video filters, a new AJAX HTTP interface, Winamp 2 Skins support, a Mozilla plugin on Mac OS X (PowerPC only), a new default skin ...<br />
+|6 May 2006| Release: VLC media player 0.8.5 | This new Release features many improvements, including MacIntel support, a statistic system, the support of DV inputs on Linux, improvements in the Audio CD playback (CDDB), many new and improved video filters, a new AJAX HTTP interface, Winamp 2 Skins support, a Mozilla plugin on Mac OS X (PowerPC only), a new default skin ...|<br />
 Have a look <a href="http://developers.videolan.org/vlc/NEWS">here</a>
 for the full list of changes.<br />
 Binary packages and the source code are available on the <a href="/vlc/">
@@ -21,13 +21,13 @@ Freenode. Remember to reset your preferences if you experience problems
 after upgrading from a previous version.
 
 
-|1 April 2006| Apple-VideoLAN partnership announced, Mac VLC to be Intel only (April fool's) | In an effort to help Apple with its Intel transition, the VideoLAN team, distributor of the industry leading cross-platform media player VLC, announced its intent to drop support for the now outdated G4 and G5 based series of Mac computers. Read the full <a href="/pr2006-2.html">Press Release</a>.<br/>
+|1 April 2006| Apple-VideoLAN partnership announced, Mac VLC to be Intel only (April fool's) | In an effort to help Apple with its Intel transition, the VideoLAN team, distributor of the industry leading cross-platform media player VLC, announced its intent to drop support for the now outdated G4 and G5 based series of Mac computers.| Read the full <a href="/pr2006-2.html">Press Release</a>.<br/>
 <span style="color:red;"><b>Note:</b> Look at the date...</span>
 
 |9 March 2006| VideoLAN website gets a new home | VideoLAN's main
 server, Ganesh, will be moving to a new home at the French ISP Free. To
 learn more about this move, you can read our <a
-href="/pr2006-1.html">Press Release</a>. During the move, several
+href="/pr2006-1.html">Press Release</a>.| During the move, several
 VideoLAN services will be down: forum, trac, SVN, and developers
 website. The move should last about 4 hours, starting at 3 PM, Paris
 Time. We apologize for any inconvenience.<br/>
@@ -41,7 +41,7 @@ on our booth.
 |13 December 2005| Bugfix release: VLC media player 0.8.4a| This minor
 update to VLC 0.8.4 fixes a few annoying bugs. OSX S/PDIF has been fixed
 (thanks to the donations we got for the G5), and so has A/52 over S/PDIF
-in Linux ALSA. MusePack is also now enabled in Windows version. Have a look
+in Linux ALSA.| MusePack is also now enabled in Windows version. Have a look
 <a href="http://developers.videolan.org/vlc/NEWS">here</a> for the full
 list of changes.<br />
 Binary packages and the source code are available on the <a href="/vlc/">
@@ -58,7 +58,7 @@ after upgrading from a previous version.
 features many improvements including a new VLC cone, new Mac OS X
 wizard and extend controls dialogs, tree playlist skins2 support, HTTP
 interface CGI handling, linux binary codecs loader, UPnP and Bonjour
-service discovery, shoutcast stream forwarding, new languages ...<br />
+service discovery, shoutcast stream forwarding, new languages ...<br />|
 Have a look <a href="http://developers.videolan.org/vlc/NEWS">here</a>
 for the full list of changes.<br />
 Binary packages and the source code are available on the <a href="/vlc/">
@@ -70,7 +70,7 @@ href="/support/lists.html" >Mailing Lists</a> or on #videolan on
 Freenode. Remember to reset your preferences if you experience problems
 after upgrading from a previous version.
 
-|17 November 2005| Purchase of a Powermac G5| Thanks to the numerous contributions we received from everywhere, we were finally able to buy a second hand dual G5 1.8 GHz. This will be used to debug sound playback on Powermacs and to host the VLC nightly builds. We particularly wish to thank <a href="http://www.macbidouille.com/">MacBidouille</a> and <a href="http://www.avosmac.com/">à Vos Macs</a> for their important support.
+|17 November 2005| Purchase of a Powermac G5| Thanks to the numerous contributions we received from everywhere, we were finally able to buy a second hand dual G5 1.8 GHz.| This will be used to debug sound playback on Powermacs and to host the VLC nightly builds. We particularly wish to thank <a href="http://www.macbidouille.com/">MacBidouille</a> and <a href="http://www.avosmac.com/">à Vos Macs</a> for their important support.
 
 |15 October 2005| Release: miniSAPserver 0.3.2| This release cumulates fixes for regressions introduced in 0.3.1. You are encouraged to upgrade to this new version: <a href="/streaming/download-sap-server.html">download it here</a>.
 

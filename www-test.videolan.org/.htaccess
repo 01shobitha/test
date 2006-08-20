@@ -38,6 +38,7 @@ RewriteRule ^vlc/bug-reporting.html$ /support/bug-reporting.html [R=permanent,L]
 RewriteRule ^packages(.*)$ /pub/vlc$1 [R=permanent,L]
 RewriteRule ^vlc/doc.html$ /vlc/index.html [R=permanent,L]
 RewriteRule ^screenshots(.*)$ /vlc/screenshots$1 [R=permanent,L]
+RewriteRule ^live.(.*)$ /vlc/index.html [R=permanent,L]
 
 # Downloads
 Redirect /mirror.html http://www.videolan.org/mirror.php

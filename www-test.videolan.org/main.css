@@ -129,7 +129,6 @@ select {
 	font-weight: bold;
 }
 
-.panel-blue p { font-size: 11px; }
 .panel-blue a, .panel-blue a:visited { color: #039; }
 .panel-blue a:hover, .panel-blue a:active { color: #000; }
 
@@ -143,7 +142,6 @@ select {
 	font-weight: bold;
 }
 
-.panel-gray p { font-size: 11px; }
 .panel-gray a, .panel-gray a:visited { color: #2D58AE; }
 .panel-gray a:hover, .panel-gray a:active { color: #000; }
 

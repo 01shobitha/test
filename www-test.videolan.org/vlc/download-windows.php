@@ -39,13 +39,6 @@
 
   <?php panel_start( "gray" ); ?>
         <p><strong>Windows 95/98/Me users:</strong> Please note that these versions of Windows are not officially supported. No VideoLAN developer uses any of these systems, which makes them hard to support. VLC should mostly work with them, but some incompatibilities might appear. You might need to download <a href="http://www.microsoft.com.nsatc.net/globaldev/handson/dev/mslu_announce.mspx">The Microsoft Layer for Unicode on Windows 95/98/Me Systems</a>. The two MSLU files need to be put in the <code>C:\Windows\System32\</code> folder.</p>
-
-        <p> <strong class="note">Virus warning</strong>: we have had several
-reports of trojaned VLC binaries (Sophos detected Troj/Momma-B, and Panda
-detected Bck/Optix). These are <strong>false positives</strong>, our packages are <strong>not
-trojaned</strong>. The Windows version is compiled on a Linux box, it is highly
-unlikely that a Windows virus would end there. However be aware, to only 
-download VLC from the above mentioned locations. </p>
   <?php panel_end(); ?>
 
 </div> <!-- RIGHT -->

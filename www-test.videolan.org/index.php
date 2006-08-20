@@ -39,8 +39,8 @@
 		features (video on demand, on the fly transcoding, ...)</li>
           </ul>
 
-	<p class="center"> 
-	<script type="text/javascript">
+	<script type="text/javascript"><!--
+	document.writeln( '<p class="center">' );
 	if( <?php echo $is_win32; ?> ) 
 	{ <?php Screenshot( "Win32" ); ?> }
 	else if( <?php echo $is_beos; ?> )
@@ -51,18 +51,20 @@
 	{ <?php Screenshot( "OSX" ); ?> }
 	else 
 	{ <?php Screenshot("Win32" ); ?> }
-	</script>
+	document.writeln( '</p>' );
+	--></script>
 	<noscript>
+	<p class="center"> 
   	   <img src="/images/screenshots/vlc-win32.png" alt="VLC on Windows" />
-	</noscript>
 	</p>
+	</noscript>
 
 
           <hr/>
 
           <div class="download">
             <div class="vlc-logo"></div>
-	    <script type="text/javascript">
+	    <script type="text/javascript"><!--
 	    if ( <?php echo $is_win32; ?> ) { <?php DoDL("Win32"); ?> }
 	    else if( <?php echo $is_beos; ?> ) { <?php DoDL("BeOS"); ?> }
 	    else if( <?php echo $is_linux; ?> )
@@ -91,7 +93,7 @@
 	    {	
 		<?php DoDL("Win32");DoDL("OSX-PPC"); DoDL("OSX-Intel"); ?>
 	    }
-	    </script>
+	    -->  </script>
 	    <noscript>
 		<?php DoDL("Win32",0);DoDL("OSX-PPC",0);DoDL("OSX-Intel",0); ?>
 	    </noscript>

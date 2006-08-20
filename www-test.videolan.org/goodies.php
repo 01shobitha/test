@@ -6,10 +6,8 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-
-<h1>VideoLAN goodies</h1>
-
 <div id="left">
+<h1>VideoLAN goodies</h1>
 
 <p>You are now a true VideoLAN fan? Help yourself in this page!</p>
 <h2>Cones</h2>

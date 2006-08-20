@@ -130,7 +130,6 @@ screenshot( "/vlc/screenshots/20040602-beos-2.png",
 
 <h2 class="clearme">0.7.0</h2>
 
-<table cellspacing="5" cellpadding="5" border="0"><tbody><tr>
 <?php
 screenshot( "/vlc/screenshots/20040110-osx-00.jpg",
             "/vlc/screenshots/tn_20040110-osx-00.jpg",
@@ -252,7 +251,6 @@ selection. The second one shows the similar <b>Gtk+</b> interface, then
 we have a preview of the work-in-progress <b>Qt</b> interface, and
 eventually a <b>BeOS</b> screenshot. </p>
 
-<table cellspacing="5" cellpadding="5" border="0"><tbody><tr>
 <?php
 screenshot( "/vlc/screenshots/20010409-00.png",
             "/vlc/screenshots/tn_20010409-00.jpeg",

@@ -6,9 +6,8 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-<h1> Team / Contact </h1>
-
 <div id="left">
+<h1> Team / Contact </h1>
 
 <p> The VideoLAN team is made up of students of the <a
 href="http://www.ecp.fr/">École Centrale Paris</a> and developers

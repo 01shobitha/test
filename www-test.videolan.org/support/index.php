@@ -6,9 +6,8 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php"); 
 ?>
 
-<h1> User support </h1>
-
 <div id="left">
+<h1> User support </h1>
 
 <p>VideoLAN is free software, so the user support is provided by the
 VideoLAN user and developer community.</p>
@@ -169,21 +168,24 @@ experienced, or an earlier one.</li>
 
 <h2>Getting help</h2>
 
-<?php panel_start("blue") ; ?>
+<?php panel_start("blue"); ?>
+<h1>The forums</h1>
+
+<p>Our <a href="http://forum.videolan.org">Web forums</a> can help you
+finding answers to your questions or problems. Please check that your
+question has not yet been answered before asking.</p>
+
+<?php panel_end(); ?>
+
+
+
+<?php panel_start("orange"); ?>
 <h1>The mailing-lists</h1>
 
 <p>The user mailing-lists are dedicated to user support and
 announces for VideoLAN releases and events. Please see the <a
 href="lists.html">mailing-lists</a> page to subscribe, unsubscribe,
 consult the archives and read about the rules and restrictions.</p>
-<?php panel_end(); ?>
-
-<?php panel_start("orange"); ?>
-<h1>The forums</h1>
-
-<p>Our <a href="http://forum.videolan.org">Web forums</a> can help you
-finding answers to your questions or problems. Please check that your
-question has not yet been answered before asking.</p>
 
 <?php panel_end(); ?>
 

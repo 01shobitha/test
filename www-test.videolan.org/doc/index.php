@@ -6,9 +6,8 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-<h1> Documentation </h1>
-
 <div id="left">
+<h1> Documentation </h1>
 
 <table border="0">
 

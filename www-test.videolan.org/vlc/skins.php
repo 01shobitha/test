@@ -97,11 +97,8 @@
   }
 ?>
 
-
-
-<h1>Download skins</h1>
-
 <div id="left">
+<h1>Download skins</h1>
 
 <h2>Downloads...</h2>
 
@@ -158,7 +155,11 @@
   menu. You can also start VLC from command-line, in a DOS window.</li>
    </ul>
    <li>If you don't want to use the default skin, just download another one 
-	here.<br />
+	here. If you want to have it automatically detected, place it in the skins subfolder of your VLC installation:
+	<ul>
+	<li>Windows users: Put it in <em>C:\Program Files\VideoLAN\VLC\skins</em></li>
+	<li>Linux users: Put it in <em>~/.vlc/skins2</em></li>
+	</ul>
 	In addition to the skins listed below, VLC supports all the Winamp2 
 	and XMMS skins (.wsz files).
    </li>

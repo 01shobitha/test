@@ -58,7 +58,7 @@
                 echo "<p>".$short."<span id=\"news-$count\">$remain</span> ";
 		echo "<script type=\"text/javascript\"><!--\n";
 		echo "document.writeln('<br /><a id=\"read-$count\" ";
- 		echo "onclick=\"javascript:toggle(\'$count\')\">(Read more...)";
+ 		echo "href=\"javascript:toggle(\'$count\')\">(Read more...)";
 	        echo "</a>');toggle( $count );\n--></script>";
 		echo "</p>\n</div>\n";
 

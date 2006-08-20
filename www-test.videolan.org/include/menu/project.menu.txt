@@ -1,4 +1,4 @@
-overview;The VideoLAN project;/project/
+overview;VideoLAN;/project/
 news;News;/news.html
 events;Events;/events/
 partners;Partners/Consultants;/partners.html

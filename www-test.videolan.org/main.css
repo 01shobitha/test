@@ -590,6 +590,10 @@ p.center { text-align:center;}
 	padding-left: 25px;
 }
 
+.os1 { float:left; }
+.os2 { float:left;margin-left:3em; }
+.clearme { clear:both; }
+
 /* Flags */
 
 .mirror li { padding-left: 25px; }
@@ -599,41 +603,6 @@ ul li.nl { background: url(images/flags/nl.png) left no-repeat; }
 ul li.se { background: url(images/flags/se.png) left no-repeat; }
 ul li.tw { background: url(images/flags/tw.png) left no-repeat; }
 ul li.us { background: url(images/flags/us.png) left no-repeat; }
-
-/* Bring the first item of each column 
-back up to the level of item 1.
-Vertical return = items * height.
-Here, 8 items * 20px line-height = 160px */
-
-/* IS THIS AN UGLY HACK ? (it would be better to use em instead of px) */
-ul li.linupy { margin-top: -160px; }
-ul li.qnx { margin-top: -80px; }
-
-/* horizontal position of each column */
-
-ul li.windows,
-ul li.macosx,
-ul li.beos,
-ul li.debian,
-ul li.ubuntu,
-ul li.mandrake
-ul li.fedora,
-ul li.familiar,
-ul li.netbsd,
-ul li.openbsd,
-ul li.freebsd,
-ul li.solaris { margin-left: 0em; }
-ul li.linupy,
-ul li.zaurus,
-ul li.suse,
-ul li.redhat,
-ul li.wince,
-ul li.slackware,
-ul li.altlinux,
-ul li.qnx,
-ul li.gentoo,
-ul li.cruxlinux { margin-left: 13em; }
-
 
 /* Footer Layout -------------------------------------------------------------------------- */
 

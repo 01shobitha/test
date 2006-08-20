@@ -33,7 +33,6 @@
   <h2>Download VLC</h2>
 
   <p>Select your operating system to download VLC binaries:</p>
-
 <?php
 function addos( $name, $class, $url, $bold=false )
 {
@@ -42,6 +41,7 @@ else $style='';
 echo "<li class='$class' $style><a href='$url'>$name</a></li>";
 }
 ?>
+<div class="os1">
   <ul class="os">
 <?php addos( "Windows", "windows", "download-windows.html", true );
       addos( "Mac&nbsp;OS&nbsp;X", "macosx", "download-macosx.html", true );
@@ -51,6 +51,11 @@ echo "<li class='$class' $style><a href='$url'>$name</a></li>";
       addos( "Mandriva Linux", "mandrake", "download-mandriva.html" );
       addos( "Fedora Core", "fedora", "download-fedora.html" );
       addos( "Familiar Linux", "familiar", "download-familiar.html" );
+?>
+</ul>
+</div><div class="os2">
+<ul class="os">
+<?php
       addos( "YOPY/Linupy", "linupy", "download-linupy.html" );
       addos( "Zaurus", "zaurus", "download-zaurus.html" );
       addos( "SUSE Linux", "suse", "download-suse.html" );
@@ -59,30 +64,39 @@ echo "<li class='$class' $style><a href='$url'>$name</a></li>";
       addos( "Slackware Linux", "slackware", "download-slackware.html" );
       addos( "ALT Linux", "altlinux", "download-altlinux.html" );
 ?>
-  </ul>
+  </ul></div>
+
+<div class="clearme">
 
 <p>For the other operating systems supported, there are no precompiled
 binaries. You will have to get the source code for VLC and its required
 libraries and build them yourself:</p>
-
+</div>
+<div class="os1">
   <ul class="otheros">
 <?php addos( "NetBSD", "netbsd", "download-sources.html" );
       addos( "OpenBSD", "openbsd", "download-sources.html" );
       addos( "FreeBSD", "freebsd", "download-freebsd.html" );
       addos( "Solaris", "solaris", "download-sources.html" );
+?>
+</div>
+<div class="os2">
+<ul class="otheros"> 
+<?php
       addos( "QNX", "qnx", "download-sources.html" );
       addos( "Gentoo Linux", "gentoo", "download-gentoo.html" );
       addos( "Crux Linux", "cruxlinux", "download-crux.html" );
 ?>
   </ul>
-
+</div>
+<div class="clearme">
   <p>You can also directly get the <a href="download-sources.html">
   source code</a>.</p>
 
   <p>You couldn't find your OS / Distribution in this list but
   know where to find VLC media player builds elsewhere? Please <a
   href="/team/">Contact us</a> so we can add a link.</p>
-
+</div>
 </div>
 
 <div id="right">

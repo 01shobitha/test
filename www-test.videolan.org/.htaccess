@@ -65,6 +65,7 @@ RewriteRule ^vlc/windows.html$ /vlc/features.html [R=permanent,L]
 # Skins
 RewriteRule ^vlc/skins.html$ /vlc/skins.php [R=permanent,L]
 RewriteRule ^vlc/download-skins2.*$ /vlc/skins.php [R=permanent,L]
+RewriteRule ^vlc/skins-(.*)$ /vlc/skins.php [R=permanent,L]
 
 ##################### Streaming #####################
 

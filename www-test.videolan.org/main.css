@@ -112,6 +112,7 @@ p.center { text-align:center;}
 	font-weight: normal; color: #2D58AE;font-size: 17px;
 	text-decoration: none;text-shadow: 0.2em 0.2em;
 	float: left; padding: 14px 20px 10px 0;
+	text-transform: lowercase;
 }
 
 #submenu li a:hover, #submenu li a:active {	

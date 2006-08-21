@@ -1,4 +1,4 @@
-overview;VideoLAN;/project/
+overview;project;/project/
 news;News;/news.html
 events;Events;/events/
 partners;Partners;/partners.html

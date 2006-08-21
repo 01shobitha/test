@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<sect1><title>
+Video filters modules
+</title>
+
+<para>
+These modules allow you to perform modifications on
+the rendered image (deinterlacing, hue/contrast/saturation adjusting, cropping and so on).
+To enable them use the following VLC command-line switch:
+--filter filter1,filter2,...
+</para>
+
+<sect2><title>adjust</title>
+&always;
+<para>
+This filter allows you to alter image contrast, hue,
+saturation and brightness.
+</para>
+&options-st;
+<itemizedlist>
+<listitem>
+<para><emphasis>--contrast &lt;float&gt; </emphasis>:
+set the image contrast, between 0 and 2. Defaults to 1
+</para>
+</listitem>
+<listitem>
+<para><emphasis>--brightness &lt;float&gt; </emphasis>:
+set the image brightness, between 0 and 2. Defaults to 1
+</para>
+</listitem>
+<listitem>
+<para><emphasis>--hue &lt;integer&gt; </emphasis>:
+Set the image hue, between 0 and 360. Defaults to 0
+</para>
+</listitem>
+<listitem>
+<para><emphasis>--saturation &lt;float&gt; </emphasis>:
+Set the image saturation, between 0 and 3. Defaults to 1
+</para>
+</listitem>
+</itemizedlist>
+</sect2>
+
+<sect2><title>deinterlace</title>
+&always;
+<para>
+ This filter deinterlaces video. It is useful with
+streams coming from a digital satellite channel or digital terrestial
+television channels
+.</para>
+&options-st;
+<itemizedlist>
+<listitem>
+<para><emphasis>--deinterlace-mode {discard,blend,mean,bob,linear} </emphasis>:
+deinterlacing mode (default: discard)
+</para>
+</listitem>
+</itemizedlist>
+</sect2>
+
+<sect2><title>crop</title>
+&always;
+<para>
+This filter allows you to crop parts of the image.
+</para>
+&options-st;
+<itemizedlist>
+<listitem>
+<para><emphasis>--crop-geometry &lt;string&gt; </emphasis>:
+set the geometry of the zone to crop. This is set
+as width x heigth + left offset + top offset (in pixels).
+</para>
+</listitem>
+<listitem>
+<para><emphasis>--autocrop, --noautocrop </emphasis>:
+automatic black border cropping (default disabled)
+</para>
+</listitem>
+</itemizedlist>
+</sect2>
+
+<sect2><title>transform</title>
+&always;
+<para>
+This filter allows to rotate the video in several ways
+.
+</para>
+&options-st;
+<itemizedlist>
+<listitem>
+<para><emphasis>--transform-type {90,180,270,hflip,vflip} </emphasis>:
+transformation type, one of '90', '180', '270', 'hflip' and 'vflip'.
+</para>
+</listitem></itemizedlist>
+</sect2>
+
+<sect2><title>distort</title>
+&always;
+<para>
+This filter adds a distortion effect to the video.
+Who said it was useless ? :-)
+</para>
+&options-st;
+<itemizedlist>
+<listitem>
+<para><emphasis>--distort-mode {wave,ripple} </emphasis>:
+distortion mode, one of "wave" and "ripple"
+</para>
+</listitem>
+</itemizedlist>
+</sect2>
+
+<sect2><title>invert</title>
+&always;
+<para>
+This filter inverses colors.
+</para>
+</sect2>
+
+<sect2><title>motionblur</title>
+&always;
+<para>
+This filter adds a "motion blur" effect to the image.
+</para>
+&options-st;
+<itemizedlist>
+<listitem>
+<para><emphasis>--blur-factor &lt;integer&gt; </emphasis>:
+the degree of blurring from 1 to 127
+</para>
+</listitem>
+</itemizedlist>
+</sect2>
+
+<sect2><title>wall</title>
+&always;
+<para>
+This filter allows you to have the video cut in
+pieces in several windows, which you can order as you wish. It can be
+used to generate image walls with several sources.
+</para>
+&options-st;
+<itemizedlist>
+<listitem>
+<para><emphasis>--wall-cols &lt;integer&gt; </emphasis>:
+Select the number of vertical videowindows in which to split the video
+</para>
+</listitem>
+<listitem>
+<para><emphasis>--wall-rows &lt;integer&gt; </emphasis>:
+Select the number of horizontal videowindows in which to split the video
+</para>
+</listitem>
+<listitem>
+<para><emphasis>--wall-active &lt;string&gt; </emphasis>:
+comma separated list of active windows, defaults to all
+</para>
+</listitem>
+</itemizedlist>
+</sect2>
+
+<sect2><title>logo</title>
+&always;
+<para>
+This filter allows you to insert a png logo inside the video, adjust its transparency with the mouse wheel and move it around using the mouse.
+</para>
+&options-st;
+<itemizedlist>
+<listitem>
+<para><emphasis>--logo-file &lt;string&gt; </emphasis>:
+Logo filename (The file must be in PNG RGBA 8bits format).
+</para>
+</listitem>
+<listitem>
+<para><emphasis>--logo-x &lt;integer&gt; </emphasis>:
+X coordinate of the logo, You can move the logo by left-clicking on it.
+</para>
+</listitem>
+<listitem>
+<para><emphasis>--logo-y &lt;integer&gt; </emphasis>:
+Y coordinate of the logo, You can move the logo by left-clicking on it.
+</para>
+</listitem>
+<listitem>
+<para><emphasis>--logo-transparency  &lt;integer&gt; </emphasis>:
+Transparency of the logo (255-0). You can change it by middle-clicking and moving mouse left or right.
+</para>
+</listitem>
+</itemizedlist>
+</sect2>
+
+
+<sect2><title>clone</title>
+&always;
+<para>
+This filter allows you to clone the image.
+</para>
+<itemizedlist>
+<listitem>
+<para><emphasis>--clone-count &lt;integer&gt; </emphasis>:
+number of video windows in which to clone the video
+</para>
+</listitem>
+<listitem>
+<para><emphasis>--clone-vout-list &lt;string&gt; </emphasis>:
+specific vout modules that you want to activate
+</para>
+</listitem>
+</itemizedlist>
+</sect2>
+</sect1>

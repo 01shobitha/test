@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<sect2><title> 
+<span xml:lang="en">Description of the stream output</span>
+<span xml:lang="fr">Description du stream output</span>
+<span xml:lang="es">Description del stream output</span>
+<span xml:lang="de">Beschreibung der Streamausgabe</span>
+</title>
+
+<para>
+<span xml:lang="en">VLC's stream output allows VLC to be used as
+a streaming server instead of a client ! It has very extended
+capabilities</span>
+<span xml:lang="fr">Le stream output du VLC permet à ce dernier de
+servir de serveur de streaming et non de client, et possède des
+fonctionnalités très étendues</span>
+<span xml:lang="es">El stream output de VLC permite que éste sea
+usado como un servidor de streaming en lugar de como cliente.
+Posee un gran número de funcionalidades</span>
+<span xml:lang="de">Die Streamausgabe von VLC erlaubt dessen
+Benutzung als Streamingserver anstelle eines Clients. Dieser hat eine große
+Zahl von Funktionen</span>
+:</para>
+
+<itemizedlist>
+
+<listitem><para>
+<span xml:lang="en">stream in unicast and multicast on an IPv4 or
+IPv6 network everything that VLC is able to read, via UDP, RTP or
+HTTP</span>
+<span xml:lang="fr">envoi en unicast et en multicast, en IPv4 ou en
+IPv6, tout ce que VLC est capable de lire, par UDP, RTP, ou HTTP</span>
+<span xml:lang="es">transmite tanto en unicast como en multicast, sobre IPv4
+o IPv6, todo lo que VLC es capaz de leer, vía UDP, RTP o HTTP</span>
+<span xml:lang="de">Streamen von allem, was VLC lesen kann, über
+ein IPv4 oder IPv6 Netzwerk per UDP, RTP oder HTTP</span>
+;</para></listitem>
+
+<listitem><para>
+<span xml:lang="en">save the input stream to a file in AVI, PS, TS or
+OGG format</span>
+<span xml:lang="fr">sauvegarde du flux d'entrée vers un fichier AVI, PS,
+TS ou OGG</span>
+<span xml:lang="es">guardar el flujo de entrada como un fichero AVI, PS, TS o
+OGG</span>
+<span xml:lang="de">Sichern des Eingangsstream in eine Datei im AVI, PS, TS
+oder OGG Format</span>
+;</para></listitem>
+
+<listitem><para>
+<span xml:lang="en">transcode an input stream, and then, send it, to the
+network or to a file</span>
+<span xml:lang="fr">transcodage du flux d'entrée et envoi</span>
+<span xml:lang="es">transcodificar un flujo de entrada, y después enviarlo a una
+red o a un fichero</span>
+<span xml:lang="de">Umkodieren eines Eingangsstreamen und anschließendes
+senden über das Netzwerk oder speichern in einer Datei</span>
+.</para></listitem>
+
+</itemizedlist>
+
+<para>
+<span xml:lang="en">To know about the full possibilities of VLC's stream
+output, see the <ulink url="http://www.videolan.org/streaming/features.html">
+streaming features page</ulink></span>
+<span xml:lang="fr">Pour connaître toutes les possibilités du stream output,
+merci de regarder la <ulink url="http://www.videolan.org/streaming/features.html">
+page de fonctionnalités de streaming</ulink></span>
+<span xml:lang="es">Para saber más acerca de las funcionalidades del
+stream output de VLC, mírese la <ulink url="http://www.videolan.org/streaming/features.html">
+página de funcionalidades de streaming</ulink></span>
+<span xml:lang="de">Um alle Möglichkeiten der Streamausgabe von VLC zu erfahren,
+schauen Sie bitte auf die <ulink url="http://www.videolan.org/streaming/features.html">
+Streamingfeatures Seite</ulink></span>
+.</para>
+
+</sect2>
+
+<sect2><title>
+<span xml:lang="en">Architecture and syntax</span>
+<span xml:lang="fr">Architecture et syntaxe</span>
+<span xml:lang="es">Arquitectura y sintaxis</span>
+<span xml:lang="de">Architektur und Syntax</span>
+</title>
+
+<para>
+<span xml:lang="en">the stream output has a powerful architecture
+that uses modules. Each module has capabilities, and you
+can <emphasis>chain</emphasis> the modules to enhance the
+possibilities</span>
+<span xml:lang="fr">le stream output possède une puissante architecture
+qui utilise des modules. Chaque module apporte des fonctionnalités,
+et il est possible de <emphasis>chaîner</emphasis> les modules pour
+combiner ces possibilités</span>
+<span xml:lang="es">el stream output posee una poderosa arquitectura
+que utiliza módulos. Cada módulo aporta una serie de funcionalidades,
+y es posible <emphasis>encadenar</emphasis> los módulos para combinar
+estas posibilidades</span>
+<span xml:lang="de">Die Streamausgabe hat eine leistungsfähige Architektur,
+die Module benutzt. Jedes Modul bringt Funktionen mit. Sie können die Modul
+untereinander <emphasis>verketten</emphasis>, um die Möglichkeiten zu
+erweitern</span>
+.</para>
+
+<para>
+<span xml:lang="en">Here is the list of the modules currently available</span>
+<span xml:lang="fr">Voici la liste des modules disponibles</span>
+<span xml:lang="es">Esta es la lista de módulos disponibles actualmente</span>
+<span xml:lang="de">Hier ist eine Liste der derzeit verfügbaren Module</span>
+:</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>standard</emphasis>
+<span xml:lang="en">"sends" the stream via an <emphasis>access
+output</emphasis> module: for example, UDP, file, HTTP, ... You will
+probably want to use this module at the end of your chains</span>
+<span xml:lang="fr">"envoie" le flux grâce à un <emphasis>module de
+sortie</emphasis>: par exemple, UDP, fichier, HTTP, ... vous utiliserez
+probablement ce module à la fin de vos chaînes</span>
+<span xml:lang="es">"transmite" el flujo a través de un <emphasis>módulo de
+salida</emphasis>: por ejemplo, UDP, fichero, HTTP, ... Probablemente,
+usted utilizará este módulo al final de sus cadenas</span>
+<span xml:lang="de">Sendet den Stream über ein <emphasis>Zugriffsmodul</emphasis>,
+beispielsweise UDP, file, HTTP usw. Sie werden dieses Modul wahrscheinlich am
+Ende Ihrer Ketten benutzen</span>
+.</para></listitem>
+
+<listitem><para><emphasis>transcode</emphasis>
+
+<span xml:lang="en"> allows you to transcode the audio and the video
+of the input stream "on the fly" (if your computer is powerful enough)</span>
+<span xml:lang="fr"> vous permet de transcoder à la volée l'audio 
+et la vidéo de votre flux d'entrée (si votre ordinateur dispose de 
+suffisament de puissance)</span>
+<span xml:lang="es"> le permite transcodificar el audio y el vídeo del
+flujo de entrada "al vuelo" (si su computadora es suficientemente potente)</span>
+<span xml:lang="de">Erlaubt Ihnen Ton und Bild des Eingangsstreams
+"on the fly" umzukodieren (wenn Ihr Computer leistungsfähig genug ist)</span>
+.</para></listitem>
+
+<listitem><para><emphasis>duplicate</emphasis>
+<span xml:lang="en"> allows you to create a second chain, where the
+stream will be handled in an independant way</span>
+<span xml:lang="fr"> vous permet de créer une seconde chaîne dans
+laquelle le flux sera traité séparément</span>
+<span xml:lang="de">Erlaubt Ihnen eine zweite Kette zu erzeugen, wo
+der Stream unabhängig von der ersten bearbeitet wird</span>
+.</para></listitem>
+
+<listitem><para><emphasis>display</emphasis> 
+
+<span xml:lang="en">allows you to display the input stream, as VLC
+would normally do. Used with the <emphasis>duplicate</emphasis>
+module, this allows you to view the stream as you send it</span>
+<span xml:lang="fr">vous permet d'afficher le flux d'entrée,
+comme VLC le ferait normalement. Utilisé avec le module
+<emphasis>duplicate</emphasis>, il vous permet de voir le flux en même
+temps que vous l'envoyez</span>
+<span xml:lang="es">le permite mostrar el flujo de entrada, como lo haría
+VLC normalmente. Usado junto al módulo <emphasis>duplicate</emphasis>,
+le permitirá ver el flujo al mismo tiempo que lo envía</span>
+<span xml:lang="de">Erlaubt Ihnen den Eingangsstream anzuzeigen, wie
+es VLC normalerweise tun würde. Wenn dieses Modul gemeinsam mit dem
+<emphasis>duplicate</emphasis>-Modul benutzt wird, können Sie den
+Stream während des Sendens betrachten</span>
+.</para></listitem>
+
+<listitem><para><emphasis>rtp</emphasis>
+<span xml:lang="en">streams over RTP (one UDP port for each elementary stream)</span>
+<span xml:lang="fr">envoie en RTP (un port UDP par flux élémentaire)</span>
+<span xml:lang="es">FIXME</span>
+<span xml:lang="de">FIXME</span>
+.</para></listitem>
+
+<listitem><para><emphasis>es</emphasis> 
+<span xml:lang="en">allows you to make separate Elementary Streams (ES)
+out of an input stream</span>
+<span xml:lang="fr">vous permet de séparer les flux élémentaires (ES)
+d'un flux d'entrée</span>
+<span xml:lang="es">le permite separar los Elementary Streams (ES)
+de un flujo de entrada</span>
+<span xml:lang="de">Erlaubt Ihnen seperate Elementary Streams (ES) aus
+einem Eingangsstream zu erstellen</span>
+.</para></listitem>
+
+</itemizedlist>
+
+<para>
+<span xml:lang="en">Each of these modules may take options. Here is the
+syntax that you must use</span>
+<span xml:lang="fr">Chaque module prend des options. Voici la syntaxe à
+utiliser</span>
+<span xml:lang="es">Cada uno de estos módulos acepta opciones. Esta es la
+sintaxis que debe usar</span>
+<span xml:lang="de">Jedes dieser Modul kann Optionen verarbeiten. Hier ist
+die Syntax, die Sie benutzen müssen</span>
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc input_stream --sout '#module1{option1=...,option2=...}:#module2{option1=...,option2=...}:...'</userinput>
+</screen>
+
+<para>
+<span xml:lang="en">For example, to transcode a stream and send it, use</span>
+<span xml:lang="fr">Par exemple, pour transcoder et envoyer un flux</span>
+<span xml:lang="es">Por ejemplo, para transcodificar un flujo y enviarlo, use</span>
+<span xml:lang="de">Benutzen Sie beispielsweise zum Umkodieren und Senden
+eines Streams</span>
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc input_stream --sout '#transcode{options}:#standard{options}'</userinput>
+</screen>
+
+</sect2>
+
+<sect2><title>
+<span xml:lang="en">Description of the modules</span>
+<span xml:lang="fr">Description des modules</span>
+<span xml:lang="es">Descripción de los módulos</span>
+<span xml:lang="de">Beschreibung der Module</span>
+</title>
+
+<sect3><title>standard (alias std)</title>
+
+<para>
+<span xml:lang="en">Sends a stream</span>
+<span xml:lang="fr">Envoie un flux</span>
+<span xml:lang="es">Transmite un flujo</span>
+<span xml:lang="de">Sendet einen Stream</span>
+.</para>
+
+<para>
+<span xml:lang="en">Options</span>
+<span xml:lang="fr">Options</span>
+<span xml:lang="es">Options</span>
+<span xml:lang="de">Optionen</span>
+:</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>access</emphasis>: 
+<span xml:lang="en">how to send</span>
+<span xml:lang="fr">comment envoyer</span>
+<span xml:lang="es">cómo enviar</span>
+<span xml:lang="de">wie gesendet wird (eine der folgenden Methoden)</span>:
+<emphasis>file</emphasis>, <emphasis>udp</emphasis>,
+<emphasis>rtp</emphasis>, <emphasis>http</emphasis>
+.</para></listitem>
+
+<listitem><para><emphasis>mux</emphasis>: 
+<span xml:lang="en">which muxer (ie, which format) will be used. It can
+be one of </span>
+<span xml:lang="fr">quel multiplexeur (format) utiliser ? Doit
+être:</span>
+<span xml:lang="es">qué multiplexor (formato) utilizar?. Puede ser
+uno de éstos:</span>
+<span xml:lang="de">Welcher Muxer (d.h. welches Format) benutzt werden wid.
+Dies kann einer der folgenden sein:</span>
+<emphasis>avi</emphasis>
+  <span xml:lang="en">(for AVI format)</span>
+  <span xml:lang="fr">(format AVI)</span>
+  <span xml:lang="es">(formato AVI)</span>
+  <span xml:lang="de">(für das AVI-Format)</span>,
+<emphasis>ogg</emphasis> 
+  <span xml:lang="en">(for OGG format)</span>
+  <span xml:lang="fr">(format Ogg)</span>
+  <span xml:lang="es">(formato Ogg)</span>
+  <span xml:lang="de">(für das Ogg-Format)</span>,
+<emphasis>ps</emphasis>
+  <span xml:lang="en">(for MPEG2-PS format)</span>
+  <span xml:lang="fr">(format MPEG2-PS)</span>
+  <span xml:lang="es">(formato MPEG2-PS)</span>
+  <span xml:lang="de">(für das MPEG2-PS-Format)</span>,
+<emphasis>ts</emphasis> 
+   <span xml:lang="en">(for MPEG2-TS format)</span>
+   <span xml:lang="fr">(format MPEG2-TS)</span>
+   <span xml:lang="es">(formato MPEG2-TS)</span>
+   <span xml:lang="de">(für das MPEG2-TS-Format)</span>
+.</para></listitem>
+
+<listitem><para><emphasis>url</emphasis>: 
+<span xml:lang="en">if you use the
+<emphasis>file</emphasis> access, it will be the location where to
+store the stream; if you use another access, it will be the unicast or
+multicast IP address where you want to stream</span>
+<span xml:lang="fr">Si vous utilisez l'access <emphasis>file</emphasis>, 
+l'emplacement du fichier, sinon, l'adresse IP multicast ou unicast</span>
+<span xml:lang="es">si utiliza el acceso
+<emphasis>file</emphasis>, será la localización donde se
+guardará el flujo; si usa otro accceso, será la dirección unicast o multicast
+a la cual quiere transmitir</span>
+<span xml:lang="de">Wenn Sie den <emphasis>file</emphasis>-Zugriff
+benutzen ist der Ort, an dem der Stream gespeichert wird. Sonst ist es die
+Uni- oder Multicast-Adresse</span>
+.</para></listitem>
+
+<listitem><para><emphasis>sap</emphasis>: 
+<span xml:lang="en">if you use the <emphasis>udp</emphasis> or
+<emphasis>rtp</emphasis> accesses, use this option to announce your
+stream, using SAP/SDP. This option contains the name under which you
+want to announce the program</span>
+<span xml:lang="fr">si vous utilisez l'access <emphasis>udp</emphasis>
+ou <emphasis>rtp</emphasis>, utilisez ceci pour annoncer le flux
+par SAP/SDP. L'option contient le nom sous lequel le programme sera
+annoncé</span>
+<span xml:lang="es">si utiliza los accesos <emphasis>udp</emphasis> o
+<emphasis>rtp</emphasis>, use esta opción para anunciar el flujo
+usando SAP/SDP. Esta opción contiene el nombre con el cual será anunciado
+el programa</span>
+<span xml:lang="de">wenn sie die <emphasis>udp</emphasis> oder
+<emphasis>rtp</emphasis> Ausgänge benutzen, nehmen Sie diese Option
+zum Ankündigen Ihres Streams über SAP/SDP. Diese Option enthält den Namen
+unter dem Sie den Stream ankündigen möchten</span>
+.</para></listitem>
+
+<listitem><para><emphasis>slp</emphasis>: 
+<span xml:lang="en">like sap, but use the SLP protocol. You need
+to have libslp on your system</span>
+<span xml:lang="fr">comme sap, en utilisant le protocole SLP. Vous 
+aurez besoin de libslp</span>
+<span xml:lang="es">como sap, pero utiliza el protocolo SLP. Necesita
+tener instalado libslp en su sistema</span>
+<span xml:lang="de">Dieses Modul ist wie sap, benutzt aber das
+SLP-Protokoll. Sie benötigen dazu libslp</span>
+.</para></listitem>
+
+<listitem><para><emphasis>sap_ipv</emphasis>: 
+<span xml:lang="en">if you use the <emphasis>sap</emphasis> option,
+use this option to specify if you want to send the SAP announces in
+IPv4 or IPv6. The value of this option is <emphasis>4</emphasis> or
+<emphasis>6</emphasis></span>
+<span xml:lang="en">si vous utilisez <emphasis>sap</emphasis>, utilisez
+ceci pour spécifier si vous désirez envoyer les annonces SAP en IPv4
+-défaut- ou IPv6. La valeur à utiliser est <emphasis>4</emphasis> ou
+<emphasis>6</emphasis></span>
+<span xml:lang="es">si utiliza la opción <emphasis>sap</emphasis>,
+utilice esta opción para especificar si quiere enviar los anuncios SAP
+sobre IPv4 or IPv6. El valor de esta opción es <emphasis>4</emphasis> ó
+<emphasis>6</emphasis></span>
+<span xml:lang="de">Wenn Sie die <emphasis>sap</emphasis>-Option
+benutzen, nehmen Sie diese Option um festzulegen, ob die SAP-Ankündigungen
+per IPv4 oder IPv6 gesendet werden. Der Wert dieser Option ist entweder
+<emphasis>4</emphasis> oder <emphasis>6</emphasis></span>
+.</para></listitem>
+
+</itemizedlist>
+
+<note><para>
+<span xml:lang="en">If you are streaming in multicast, you may want to
+use the global option <command>--ttl 12</command> to set the TTL to a
+value superior to 1</span>
+<span xml:lang="fr">Si vous utilisez le multicast, vous pouvez utiliser
+l'option globale <command>--ttl 12</command> pour régler le TTL</span>
+<span xml:lang="es">Si está transmitiendo en multicast, puede utilizar
+la opción global <command>--ttl 12</command> para establecer el valor de
+TTL a un valor superior a 1</span>
+<span xml:lang="de">Wenn Sie per Multicast streamen, können SIe die globale
+Option <command>--ttl 12</command> zur Einstellung der TTL auf einen
+höheren Wert als 1 benutzen</span>
+.</para></note>
+
+</sect3>
+
+<sect3><title>display</title>
+
+<para>
+<span xml:lang="en">Displays the stream</span>
+<span xml:lang="fr">Affiche le flux</span>
+<span xml:lang="es">Muestra el flujo</span>
+<span xml:lang="de">Zeigt den Stream an</span>
+.</para>
+
+<para>
+<span xml:lang="en">Options:</span>
+<span xml:lang="fr">Options:</span>
+<span xml:lang="es">Options:</span>
+<span xml:lang="de">Optionen:</span>
+</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>noaudio</emphasis>:
+<span xml:lang="en">Ignore audio</span>
+<span xml:lang="fr">Pas d'audio</span>
+<span xml:lang="es">Ignorar el audio</span>
+<span xml:lang="de">Den Ton ignorieren</span>
+.</para></listitem>
+
+<listitem><para><emphasis>novideo</emphasis>:
+<span xml:lang="en">Ignore video</span>
+<span xml:lang="fr">Pas de vidéo</span>
+<span xml:lang="es">Ignorar el vídeo</span>
+<span xml:lang="de">Das Bild ignorieren</span>
+.</para></listitem>
+
+</itemizedlist>
+
+</sect3>
+
+<sect3><title>duplicate</title>
+
+<para>
+<span xml:lang="en">Duplicates the stream to a new stream output chain</span>
+<span xml:lang="fr">Duplique le flux vers une nouvelle chaîne</span>
+<span xml:lang="es">Duplica el flujo a una nueva cadena</span>
+<span xml:lang="de">Dupliziert den Stream zu einer neuen Streamausgabekette</span>
+.</para>
+
+<para>
+<span xml:lang="en">Options:</span>
+<span xml:lang="fr">Options:</span>
+<span xml:lang="es">Options:</span>
+<span xml:lang="de">Optionen:</span>
+</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>dst</emphasis>: 
+<span xml:lang="en">A new stream output chain of modules, as described
+earlier</span>
+<span xml:lang="fr">Une nouvelle chaîne de modules, comme décrit plus
+haut</span>
+<span xml:lang="es">Una nueva cadena de módulos, como se describe
+anteriormente</span>
+<span xml:lang="de">Eine neue Streamausgabekette von Modulen, wie sie
+bereits vorher beschrieben wurde</span>
+.</para></listitem>
+
+</itemizedlist>
+
+</sect3>
+
+<sect3><title>transcode</title>
+
+<para>
+<span xml:lang="en">Changes the codec and/or bitrates for a stream</span>
+<span xml:lang="fr">Change le format de compression et/ou le taux de
+compression d'un flux</span>
+<span xml:lang="es">Cambia el formato de compresión y/o la tasa de
+compresión de un flujo</span>
+<span xml:lang="de">Ändert das Kompressionsformat und/oder die
+Datenrate eines Streams</span>
+.</para>
+
+<para>
+<span xml:lang="en">Options:</span>
+<span xml:lang="fr">Options:</span>
+<span xml:lang="es">Options:</span>
+<span xml:lang="de">Optionen:</span>
+</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>acodec</emphasis>: 
+<span xml:lang="en">the new audio codec. It can be one of
+<emphasis>mpga</emphasis> (MPEG audio layer 2), <emphasis>a52</emphasis>
+or <emphasis>ac3</emphasis> (AC3 sound) or <emphasis>vorb</emphasis>
+(Vorbis)</span>
+<span xml:lang="fr">Nouveau format audio. Peut être un de
+<emphasis>mpga</emphasis> (MPEG audio layer 2), <emphasis>a52</emphasis>
+ou <emphasis>ac3</emphasis> (son AC3) ou <emphasis>vorb</emphasis>
+(Vorbis)</span>
+<span xml:lang="es">nuevo formato de audio. Puede ser uno de los siguientes: 
+<emphasis>mpga</emphasis> (MPEG audio layer 2), <emphasis>a52</emphasis>
+or <emphasis>ac3</emphasis> (sonido AC3) o <emphasis>vorb</emphasis>
+(Vorbis)</span>
+<span xml:lang="de">Das neue Tonformat. Es kann eines der folgenden sein:
+<emphasis>mpga</emphasis> (MPEG audio layer 2), <emphasis>a52</emphasis>
+oder <emphasis>ac3</emphasis> (AC3 Ton) oder <emphasis>vorb</emphasis>
+(Vorbis)</span>
+.</para>
+</listitem>
+
+<listitem><para><emphasis>ab</emphasis>: 
+<span xml:lang="en">audio bitrate in Kbps</span>
+<span xml:lang="fr">taux de compression audio, en Kbps</span>
+<span xml:lang="es">tasa de compresión de audio, en Kbps</span>
+<span xml:lang="de">Tondatenrate in Kbps</span>
+.</para></listitem>
+
+<!-- UNIMPLEMENTED for the moment 
+<listitem><para><emphasis>samplerate</emphasis>: audio encoding rate in Hz
+(44000 for a CD, for example).</para></listitem> -->
+
+<!-- UNIMPLMENETED <listitem><para><emphasis>channels</emphasis>: number of audio
+channels.</para></listitem>  -->
+
+<listitem><para><emphasis>vcodec</emphasis>: 
+<span xml:lang="en">the new video codec. It can be one of
+<emphasis>mp4v</emphasis> (MPEG4), <emphasis>mpgv</emphasis>
+(MPEG1), <emphasis>DIV1</emphasis>, <emphasis>DIV2</emphasis>,
+<emphasis>DIV3</emphasis> (DivX 1,2,3), <emphasis>H263</emphasis>
+(H263), <emphasis>I263</emphasis> (H263I), <emphasis>WMV1</emphasis>
+or <emphasis>WMV2</emphasis> (Windows Media Video 1 or 2),
+<emphasis>MJPG</emphasis> (MJPEG), <emphasis>MJPB</emphasis>
+(MJPEGB)</span>
+<span xml:lang="fr">Nouveau format vidéo. Peut être un de
+<emphasis>mp4v</emphasis> (MPEG4), <emphasis>mpgv</emphasis>
+(MPEG1), <emphasis>DIV1</emphasis>, <emphasis>DIV2</emphasis>,
+<emphasis>DIV3</emphasis> (DivX 1,2,3), <emphasis>H263</emphasis>
+(H263), <emphasis>I263</emphasis> (H263I), <emphasis>WMV1</emphasis>
+or <emphasis>WMV2</emphasis> (Windows Media Video 1 or 2),
+<emphasis>MJPG</emphasis> (MJPEG), <emphasis>MJPB</emphasis>
+(MJPEGB)</span>
+<span xml:lang="es">nuevo formato de vídeo. Puede ser uno de los siguiente: 
+<emphasis>mp4v</emphasis> (MPEG4), <emphasis>mpgv</emphasis>
+(MPEG1), <emphasis>DIV1</emphasis>, <emphasis>DIV2</emphasis>,
+<emphasis>DIV3</emphasis> (DivX 1,2,3), <emphasis>H263</emphasis>
+(H263), <emphasis>I263</emphasis> (H263I), <emphasis>WMV1</emphasis>
+or <emphasis>WMV2</emphasis> (Windows Media Video 1 or 2),
+<emphasis>MJPG</emphasis> (MJPEG), <emphasis>MJPB</emphasis>
+(MJPEGB)</span>
+<span xml:lang="de">Das neue Bildkompressionsformat. Es kann eines der
+folgenden sein:
+<emphasis>mp4v</emphasis> (MPEG4), <emphasis>mpgv</emphasis>
+(MPEG1), <emphasis>DIV1</emphasis>, <emphasis>DIV2</emphasis>,
+<emphasis>DIV3</emphasis> (DivX 1,2,3), <emphasis>H263</emphasis>
+(H263), <emphasis>I263</emphasis> (H263I), <emphasis>WMV1</emphasis>
+or <emphasis>WMV2</emphasis> (Windows Media Video 1 oder 2),
+<emphasis>MJPG</emphasis> (MJPEG), <emphasis>MJPB</emphasis>
+(MJPEGB)</span>
+.</para></listitem>
+
+<listitem><para><emphasis>width</emphasis>:
+<span xml:lang="en">video width</span>
+<span xml:lang="fr">largeur de la vidéo</span>
+<span xml:lang="es">ancho del video</span>
+<span xml:lang="de">Die Bildbreite</span>
+.</para></listitem>
+
+<listitem><para><emphasis>height</emphasis>:
+<span xml:lang="en">video height</span>
+<span xml:lang="fr">hauteur de la vidéo</span>
+<span xml:lang="es">alto del vídeo</span>
+<span xml:lang="de">Die Bildhöhe</span>
+.</para></listitem>
+
+<listitem><para><emphasis>vb</emphasis>: 
+<span xml:lang="en">video bitrate in kbps</span>
+<span xml:lang="fr">taux de compression vidéo, en Kbps</span>
+<span xml:lang="es">tasa de compresión de vídeo, en kbps</span>
+<span xml:lang="de">Die Bilddatenrate in Kbps</span>
+.</para></listitem>
+
+<listitem><para><emphasis>vt</emphasis>: 
+<span xml:lang="en">video bitrate tolerance in bps</span>
+<span xml:lang="fr">tolérance sur le bitrate vidéo, en bps</span>
+<span xml:lang="es">tolerancia del bitrate de vídeo, en bps</span>
+<span xml:lang="de">Die Bilddatenratentoleranz in bps</span>
+.</para></listitem>
+
+<listitem><para><emphasis>deinterlace</emphasis>: 
+<span xml:lang="en">deinterlace the stream</span>
+<span xml:lang="fr">active le désentrelacement</span>
+<span xml:lang="es">activa el desentrelazado</span>
+<span xml:lang="de">Deinterlacing des Streams aktivieren</span>
+.</para></listitem>
+
+<listitem><para><emphasis>croptop</emphasis>: 
+<span xml:lang="en">number of pixels removed from the top of the video</span>
+<span xml:lang="fr">nombre de pixels rognés sur le haut de la vidéo</span>
+<span xml:lang="es">número de pixels eliminados de la parte superior del vídeo</span>
+<span xml:lang="de">Anzahl von Pixeln, die von oben vom Bild entfernt werden</span>
+.</para></listitem>
+
+<listitem><para><emphasis>cropbottom</emphasis>: 
+<span xml:lang="en">number of pixel removed from the bottom of the video</span>
+<span xml:lang="fr">nombre de pixels rognés sur le bas de la vidéo</span>
+<span xml:lang="es">número de pixels eliminados de la parte inferior del vídeo</span>
+<span xml:lang="de">Anzahl von Pixeln, die von unten vom Bild entfernt werden</span>
+.</para></listitem>
+
+<listitem><para><emphasis>cropleft</emphasis>: 
+<span xml:lang="en">number of pixels removed from the left of the video</span>
+<span xml:lang="fr">nombre de pixels rognés sur la gauche de la vidéo</span>
+<span xml:lang="es">número de pixels eliminados de la parte izquierda del vídeo</span>
+<span xml:lang="de">Anzahl von Pixeln, die von links vom Bild entfernt werden</span>
+.</para></listitem>
+
+<listitem><para><emphasis>cropright</emphasis>: 
+<span xml:lang="en">number of pixels removed from the right of the video</span>
+<span xml:lang="fr">nombre de pixels rognés sur la droite de la vidéo</span>
+<span xml:lang="es">número de píxels eliminados de la parte derecha del vídeo</span>
+<span xml:lang="de">Anzahl von Pixeln, die von rechts vom Bild entfernt werden</span>
+.</para></listitem>
+
+<listitem><para><emphasis>hq</emphasis>: 
+<span xml:lang="en"> high quality transcoding (uses more CPU)</span>
+<span xml:lang="fr">Haute qualité (nécessite plus de puissance)</span>
+<span xml:lang="es">alta calidad de transcodificación (usa más CPU)</span>
+<span xml:lang="de">hoch qualitatives Umkodieren (benötigt mehr
+Prozessorleistung)</span>
+.</para></listitem>
+
+<listitem><para><emphasis>qmin</emphasis>: 
+<span xml:lang="en">minimum video quantiser scale (VBR)</span>
+<span xml:lang="fr">FIXME</span>
+<span xml:lang="es">FIXME</span>
+<span xml:lang="de">minimale Bildskalierung (VBR)</span>
+</para></listitem>
+
+<listitem><para><emphasis>qmax</emphasis>:
+<span xml:lang="en">maximum video quantiser scale (VBR)</span>
+<span xml:lang="fr">FIXME</span>
+<span xml:lang="es">FIXME</span>
+<span xml:lang="de">maximale Bildskalierung (VBR)</span>
+.</para></listitem>
+
+</itemizedlist>
+
+</sect3>
+
+<sect3><title>rtp</title>
+<para>
+<span xml:lang="en">Sends a stream over RTP</span>
+<span xml:lang="fr">envoie un stream en RTP</span>
+<span xml:lang="es">FIXME</span>
+<span xml:lang="de">FIXME</span>
+</para>
+
+<para>
+<span xml:lang="en">Options:</span>
+<span xml:lang="fr">Options:</span>
+<span xml:lang="es">Options:</span>
+<span xml:lang="de">Optionen:</span>
+</para>
+
+<itemizedlist>
+                                                                                
+<listitem><para><emphasis>dst</emphasis>:
+<span xml:lang="en">destination IP address (unicast or multicast)</span>
+<span xml:lang="fr">Addresse IP de destination (unicast ou multicast)</span>
+<span xml:lang="es">FIXME</span>
+<span xml:lang="de">FIXME</span>
+.</para></listitem>
+
+<listitem><para><emphasis>port</emphasis>:
+<span xml:lang="en">destination UDP port</span>
+<span xml:lang="fr">port UDP de destination</span>
+<span xml:lang="es">FIXME</span>
+<span xml:lang="de">FIXME</span>
+.</para></listitem>
+
+<listitem><para><emphasis>sdp</emphasis>:
+<span xml:lang="en">how to send the sdp file: <emphasis>http://server_ip:server_port/path</emphasis> for http, or <emphasis>rtsp://server_ip:server_port/path</emphasis> for rtsp, where <emphasis>server_ip</emphasis> is the address of one of the server's interface, and <emphasis>path</emphasis> where the sdp file will be accessible on the server</span>
+<span xml:lang="fr">La façon d'envoyer le fichier sdp <emphasis>http://server_ip:server_port/path</emphasis> pour de l'http, ou <emphasis>rtsp://server_ip:server_port/path</emphasis> pour du rtsp, où <emphasis>server_ip</emphasis> est l'adresse d'une dezs interfaces du serveur, et <emphasis>path</emphasis> l'emplacement ou le fichier sdp sera accessible sur le serveur</span>
+<span xml:lang="es">FIXME</span>
+<span xml:lang="de">FIXME</span>
+.</para></listitem>
+
+<note><para>
+<span xml:lang="en">When using <emphasis>sdp=rtsp</emphasis>, it is possible not to give any destination address. VLC will then send the stream to any client that connects to it</span>
+<span xml:lang="fr">Avec l'option <emphasis>sdp=rtsp</emphasis>, il est possible de ne pas donner d'adresse de destination. VLC envoiera le flux à tout client se connectant au serveur.</span>
+<span xml:lang="es">FIXME</span>
+<span xml:lang="de">FIXME</span>
+.</para></note>
+
+</itemizedlist>
+
+
+
+<sect3>
+
+<sect3><title>es</title>
+
+<para>
+<span xml:lang="en">Make separate Elementary Streams</span>
+<span xml:lang="fr">Sépare les flux élémentaires</span>
+<span xml:lang="es">Separa los Elementary Streams</span>
+<span xml:lang="de">Seperate Elementary Streams erzeugen</span>
+.</para>
+
+<para>Options:</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>access_audio</emphasis>:
+<span xml:lang="en">how to send the audio track:
+<emphasis>file</emphasis>, <emphasis>udp</emphasis>,
+<emphasis>rtp</emphasis> or <emphasis>http</emphasis></span>
+<span xml:lang="fr">Comment envouyer la piste audio :
+<emphasis>file</emphasis>, <emphasis>udp</emphasis>,
+<emphasis>rtp</emphasis> ou <emphasis>http</emphasis></span>
+<span xml:lang="es">cómo enviar la pista de audio:
+<emphasis>file</emphasis>, <emphasis>udp</emphasis>,
+<emphasis>rtp</emphasis> o <emphasis>http</emphasis></span>
+<span xml:lang="de">Wie die Tonspur gesendet wird:
+<emphasis>file</emphasis>, <emphasis>udp</emphasis>,
+<emphasis>rtp</emphasis> oder <emphasis>http</emphasis></span>
+.</para></listitem>
+
+<listitem><para><emphasis>access_video</emphasis>: 
+<span xml:lang="en">how to send the vidéo track:
+<emphasis>file</emphasis>, <emphasis>udp</emphasis>,
+<emphasis>rtp</emphasis> or <emphasis>http</emphasis></span>
+<span xml:lang="fr">Comment envouyer la piste vidéo :
+<emphasis>file</emphasis>, <emphasis>udp</emphasis>,
+<emphasis>rtp</emphasis> ou <emphasis>http</emphasis></span>
+<span xml:lang="es">cómo enviar la pista de vídeo:
+<emphasis>file</emphasis>, <emphasis>udp</emphasis>,
+<emphasis>rtp</emphasis> o <emphasis>http</emphasis></span>
+<span xml:lang="de">Wie die Bildspur gesendet wird:
+<emphasis>file</emphasis>, <emphasis>udp</emphasis>,
+<emphasis>rtp</emphasis> oder <emphasis>http</emphasis></span>
+.</para></listitem>
+
+<listitem><para><emphasis>access</emphasis>:
+<span xml:lang="en"> if you want the audio and the video tracks to use
+the same access, use this option instead of the two above</span>
+<span xml:lang="fr"> si vous utilisez le même access pour l'audio et la
+vidéo, utilisez cette option au lieu des deux précédentes</span>
+<span xml:lang="es"> si desea utilizar el mismo acceso para el audio y
+el vídeo, utilice esta opción en lugar de las dos anteriores</span>
+<span xml:lang="de">Wenn Sie möchten, dass die Bild- und Tonspuren
+den gleichen Zugriff benutzen, nehmen Sie diese Option anstatt
+der beiden oberen</span>
+.</para></listitem>
+
+
+<listitem><para><emphasis>mux_audio</emphasis>: 
+<span xml:lang="en">which muxer (ie, which format) will be used for the
+audio track. It can be one of <emphasis>avi</emphasis> (for AVI format),
+<emphasis>ogg</emphasis> (for OGG format), <emphasis>ps</emphasis> (for
+MPEG2-PS format), <emphasis>ts</emphasis> (for MPEG2-TS format)</span>
+<span xml:lang="fr">quel multiplexeur (format) sera employé pour la
+piste audio ? Peut être un de <emphasis>avi</emphasis> (format AVI)
+<emphasis>ogg</emphasis> (format OGG), <emphasis>ps</emphasis> (format
+MPEG2-PS), <emphasis>ts</emphasis> (format MPEG2-TS)</span>
+<span xml:lang="es">qué multiplexor (formato) será empleado para
+la pista de audio. Puede ser: <emphasis>avi</emphasis> (formato AVI),
+<emphasis>ogg</emphasis> (formato OGG), <emphasis>ps</emphasis> (formato
+MPEG2-PS), <emphasis>ts</emphasis> (formato MPEG2-TS)</span>
+<span xml:lang="de">Welcher Muxer (d.h. welches Kompressionsformat) für
+die Tonspur benutzt wird. Dies kann einer der folgenden sein: 
+<emphasis>avi</emphasis> (für das AVI-Format), <emphasis>ogg</emphasis>
+(für das Ogg-Format), <emphasis>ps</emphasis> (für das MPEG2-PS-Format),
+<emphasis>ts</emphasis> (für das MPEG2-TS-Format)</span>
+.</para></listitem>
+
+<listitem><para><emphasis>mux_video</emphasis>:
+<span xml:lang="en">which muxer (ie, which format) will be used for the
+video track. It can be one of <emphasis>avi</emphasis> (for AVI format),
+<emphasis>ogg</emphasis> (for OGG format), <emphasis>ps</emphasis> (for
+MPEG2-PS format), <emphasis>ts</emphasis> (for MPEG2-TS format)</span>
+<span xml:lang="fr">quel multiplexeur (format) sera employé pour la
+piste vidéo ? Peut être un de <emphasis>avi</emphasis> (format AVI)
+<emphasis>ogg</emphasis> (format OGG), <emphasis>ps</emphasis> (format
+MPEG2-PS), <emphasis>ts</emphasis> (format MPEG2-TS)</span>
+<span xml:lang="es">qué multiplexor (formato) será usado para la
+pista de vídeo. Puede ser: <emphasis>avi</emphasis> (formato AVI),
+<emphasis>ogg</emphasis> (formato OGG), <emphasis>ps</emphasis> (formato
+MPEG2-PS), <emphasis>ts</emphasis> (formato MPEG2-TS)</span>
+<span xml:lang="de">Welcher Muxer (d.h. welches Kompressionsformat) für die
+Bildspur benutzt wird. Dies kann einer der folgenden sein:
+<emphasis>avi</emphasis> (für das AVI-Format), <emphasis>ogg</emphasis>
+(für das Ogg-Format), <emphasis>ps</emphasis> (für das MPEG2-PS-Format),
+<emphasis>ts</emphasis> (für das MPEG2-TS-Format)</span>
+.</para></listitem>
+
+<listitem><para><emphasis>mux</emphasis>: 
+<span xml:lang="en"> if you want the audio and the video tracks to use
+the same muxer, use this option instead of the two above</span>
+<span xml:lang="fr"> si vous utilisez le même format pour l'audio et la
+vidéo, utilisez cette option au lieu des deux précédentes</span>
+<span xml:lang="es"> si desea utilizar el mismo multiplexor para el audio
+y el vídeo, utilice esta opción en lugar de las dos anteriores</span>
+<span xml:lang="de">Wenn Sie möchten, dass die Ton- und die Bildspur
+den gleichen Muxer benutzen, nehmen Sie diese Option anstatt der beiden
+oberen</span>
+.</para></listitem>
+
+
+<listitem><para><emphasis>url_audio</emphasis>: 
+<span xml:lang="en">if you use the <emphasis>file</emphasis> access, it
+will be the location where to store the audio track; if you use another
+access, it will be the unicast or multicast IP address where you want to
+stream</span>
+<span xml:lang="fr">Si vous utilisez l'access <emphasis>file</emphasis>,
+l'emplacement du fichier de la piste audio, sinon, l'adresse IP
+multicast ou unicast</span>
+<span xml:lang="es">si utiliza el acceso <emphasis>file</emphasis>, será
+la localización en la que se guardará la pista de audio; si utiliza otro
+acceso, será la dirección IP unicast o multicast a la que se
+transmitirá</span>
+<span xml:lang="de">Wenn Sie den <emphasis>file</emphasis>-Zugriff
+benutzen, ist es der Ort, an dem die Tonspur gespeichert wird. Sonst ist
+es die Unicast- oder Multicast-IP-Adresse sein</span>
+.</para></listitem>
+
+<listitem><para><emphasis>url_video</emphasis>: 
+<span xml:lang="en">if you use the <emphasis>file</emphasis> access, it
+will be the location where to store the vidéo track; if you use another
+access, it will be the unicast or multicast IP address where you want to
+stream</span>
+<span xml:lang="fr">Si vous utilisez l'access <emphasis>file</emphasis>,
+l'emplacement du fichier de la piste vidéo, sinon, l'adresse IP multicast ou
+unicast</span>
+<span xml:lang="es">si utiliza el acceso <emphasis>file</emphasis>,
+será la localización en la que se guardará la pista de vídeo; si utiliza otro
+acceso, será la dirección IP unicast o multicast a la que se
+transmitirá</span>
+<span xml:lang="de">Wenn Sie den <emphasis>file</emphasis>-Zugriff
+benutzen, ist es der Ort, an dem die Bildspur gespeichert wird. Sonst ist es
+die Uni- oder Multicast-IP-Adresse</span>
+.</para></listitem>
+
+<listitem><para><emphasis>url</emphasis>:
+<span xml:lang="en"> if you want the audio and the video tracks to use
+the same url, use this option instead of the two above</span>
+<span xml:lang="fr"> si vous utilisez la même addresse pour l'audio et la
+vidéo, utilisez cette option au lieu des deux précédentes</span>
+<span xml:lang="es"> si desea que el audio y el video utilicen la misma dirección,
+utilice esta opción en lugar de las dos anteriores</span>
+<span xml:lang="de">Wenn Sie die gleiche Adresse für Ton- und Bildspuren
+benutzen möchten, nehmen Sie diese Option anstatt der beiden oberen</span>
+.</para></listitem>
+
+</itemizedlist>
+
+<note><para>
+<span xml:lang="en">In the <emphasis>url</emphasis> options, if you use
+the <emphasis>file</emphasis> access, you can use the following macros
+in the filename:</span>
+<span xml:lang="fr">Dans les options <emphasis>url</emphasis>, si vous
+utilisez l'access <emphasis>file</emphasis>, vous pouvez utiliser ces
+macros dans le nom de fichier:</span>
+<span xml:lang="es">En las opciones <emphasis>url</emphasis>, si utiliza el
+acceso <emphasis>file</emphasis>, puede utilizar las siguientes macros en el
+nombre del fichero:</span>
+<span xml:lang="de">Wenn Sie den <emphasis>file</emphasis>-Zugriff benutzen,
+können Sie in den <emphasis>url</emphasis>-Optionen die folgenden Makros
+benutzen:</span>
+</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>%n</emphasis> = 
+<span xml:lang="en">stream number</span>
+<span xml:lang="fr">numéro de flux</span>
+<span xml:lang="es">número de flujo</span>
+<span xml:lang="de">Anzahl der Streams</span> ;</para></listitem>
+<listitem><para><emphasis>%c</emphasis> = FOURCC ;</para></listitem>
+<listitem><para><emphasis>%m</emphasis> =
+<span xml:lang="en">muxer</span>
+<span xml:lang="fr">format</span>
+<span xml:lang="es">formato</span>
+<span xml:lang="de">Format</span>
+ ;</para></listitem>
+<listitem><para><emphasis>%a</emphasis> = access.</para></listitem>
+
+</itemizedlist>
+
+</note>
+
+</sect3>
+
+<sect3><title>
+<span xml:lang="en">Miscellaneous</span>
+<span xml:lang="fr">Divers</span>
+<span xml:lang="es">Miscelánea</span>
+<span xml:lang="de">Verschiedenes</span>
+</title>
+
+<para>
+<span xml:lang="en">Here are a few additional global options</span>
+<span xml:lang="fr">Voici quelques options globales supplémentaires</span>
+<span xml:lang="es">Éstas son algunas opciones globales suplementaras</span>
+<span xml:lang="de">Hier sind einige zusätzliche globale Optionen</span>
+</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>--no-sout-audio</emphasis>
+<span xml:lang="en">disables audio stream output</span>
+<span xml:lang="fr">désactive le stream output audio</span>
+<span xml:lang="es">desactiva el flujo de salida de audio</span>
+<span xml:lang="de">deaktiviert die Ausgabe des Tonstreams</span> 
+.</para></listitem>
+
+<listitem><para><emphasis>--no-sout-video</emphasis> 
+<span xml:lang="en">disables video stream output</span>
+<span xml:lang="fr">désactive le stream output vidéo</span>
+<span xml:lang="es">desactiva el flujo de salida de vídeo</span>
+<span xml:lang="de">deaktiviert die Ausgabe des Bildstreams</span>
+.</para></listitem>
+
+</itemizedlist>
+
+<para>
+<span xml:lang="en"> The stream output also offers a simplified syntax,
+with which you can only you use the <emphasis>standard</emphasis> module
+main options</span>
+<span xml:lang="fr">Le stream output offre également une syntaxe
+simplifiée, qui ne vous permet que d'utiliser les options principales du
+module <emphasis>standard</emphasis></span>
+<span xml:lang="es"> El stream output también ofrece una sintaxis
+simplificada, que le permite utilizar las principales opciones del
+módulo <emphasis>standard</emphasis></span>
+<span xml:lang="de">Die Streamausgabe bietet außerdem eine vereinfachte
+Syntax, mit der Sie nur die Hauptoptionen des <emphasis>standard</emphasis>
+-Moduls ansprechen können</span>
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc input_stream --sout access/mux:url</userinput>
+</screen>
+
+<para>
+<span xml:lang="en"> where <emphasis>access</emphasis>,
+<emphasis>mux</emphasis> and <emphasis>url</emphasis> are as defined in
+the options of the standard module</span>
+<span xml:lang="fr">où <emphasis>access</emphasis>,
+<emphasis>mux</emphasis> et <emphasis>url</emphasis> sont telles que
+définies plus haut dans les options du module standard</span>
+<span xml:lang="es"> donde <emphasis>access</emphasis>,
+<emphasis>mux</emphasis> y <emphasis>url</emphasis> son como las definidas en
+las opciones del módulo standard</span>
+<span xml:lang="de"> wobei <emphasis>access</emphasis>,
+<emphasis>mux</emphasis> und <emphasis>url</emphasis> so definiert sind,
+wie in den Optionen des standard-Moduls</span>
+.</para>
+
+</sect3>
+
+</sect2>
+
+<sect2><title>
+<span xml:lang="en">Examples</span>
+<span xml:lang="fr">Exemples</span>
+<span xml:lang="es">Ejemplos</span>
+<span xml:lang="de">Beispiele</span>
+</title>
+
+<para>
+<span xml:lang="en">To understand fully the complex syntax of VLC's
+stream output, please look at the use cases of the VideoLAN HOWTO</span>
+<span xml:lang="fr">Pour comprendere pleinement la complexe syntaxe du
+stream output du VLC, veuillez voir les exemples d'utilisation, dans le
+VideoLAN Howto</span>
+<span xml:lang="es">Para entender completamente la compleja sintaxis del
+stream output de VLC, por favor, mire los ejemplos de utilización del
+VideoLAN HOWTO</span>
+<span xml:lang="de">Um die komplexe Syntax der Streamausgabe komplett
+zu verstehen, schauen Sie sich bitte die Anwendungsbeispiele aus VideoLAN
+HOWTO an</span>
+.</para>
+
+</sect2>

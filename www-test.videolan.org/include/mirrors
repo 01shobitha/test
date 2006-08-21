@@ -1,0 +1,44 @@
+# Ganesh - Contact VideoLAN - 1 Gbit
+http://downloads.videolan.org/pub/videolan/|VideoLAN primary mirror|France|fr|HTTP
+#
+# Durga - Contact VIA - 30 Mbit
+http://ftp2.via.ecp.fr/pub/videolan/|VIA Centrale Reseaux, École Centrale Paris|France|fr|HTTP
+#
+# Contact: thedj - BW: 1GB
+http://ftp.snt.utwente.nl/pub/software/videolan/|Twente University|Netherlands|nl|HTTP
+#
+# Contact : mirrormaster at ircam dot fr - BW : 1 GBit
+http://mirrors.ircam.fr/pub/videolan/|IRCAM|France|fr|HTTP
+#
+# Contact : Emmanuel dot Blindauer at urs dot u-strasbg dot fr - BW : 1 GBit
+ftp://ftp.u-strasbg.fr/pub/videolan/|Université de Strasbourg|France|fr|FTP
+#
+# Contact: vinceII on irc.rezosup.net - 
+ftp://ftp.crans.org/pub/videolan/|Cr@ns, ENS Cachan|France|fr|FTP
+#
+# Contact : hsunchang at gmail dot com
+ftp://videolan.cs.pu.edu.tw/Windows/VideoLAN/|Providence University|Taiwan|tw|FTP
+#
+# Contact : erik at telia dot com - round robin 100Mbits Stockholm 100Mbits Gothenburg
+ftp://ftp.endpoint.nu/pub/software/videolan/|Endpoint Corporation|Sweden|se|FTP
+#
+# Contact : richard at optralan dot com - BW 100 Mbits - East coast
+http://mirrors.optralan.com/videolan/|Optralan|USA|us|HTTP
+#
+# Contact : jason andrade - jason at aarnet dot edu dot au - BW 10Gbit (?)
+# Australian Academic and Research Network
+http://mirror.aarnet.edu.au/pub/videolan/|AARNet|Australia|au|HTTP
+#
+############ Permanently disabled #############
+#
+# Contact : juan dot mussini at pucpr dot br - Last is 0.8.2 (29/11/05)
+#ftp://ftp.pucpr.br/videolan/ Pontifícia Universidade Católica do Paraná (Brazil) [ftp]
+#
+# Contact : James Laver,james . laver at gmail dot com
+# Contact2 : Tony Dodd tony at wefixtech dot co dot uk
+#http://mirror1.wefixtech.co.uk/videolan/ We-FIX Technology Mirror Project (UK) [http]
+#
+# Contact : frank at caf dot info - BW 100 Mbits - Texas
+# The windows installer always gets corrupted on their mirror
+#http://online.caf.info/vlc/ caf.info (USA) [http]
+#

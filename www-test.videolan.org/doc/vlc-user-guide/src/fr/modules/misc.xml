@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<sect1><title>
+Support de systèmes d'exploitation
+</title>
+
+<para>
+Ces modules permettent de supporter différents OSs
+.</para>
+
+<sect2>
+<title>macosx</title>
+<para>
+Ce module permet le support de MacOS X, avec une interface
+native
+.</para></sect2>
+
+<sect2><title>qnx</title>
+<para>
+Ce module permet le support de QNX RTOS
+.</para></sect2>
+
+</sect1>
+
+
+<sect1><title>
+Divers
+</title>
+
+<para>
+Cette section décrit quelques modules qui n'entrent
+dans aucune des catégories décrites
+.</para>
+
+<sect2><title>sout</title>
+&enabled;
+<para>
+Le Stream Output est une fonctionnalité de VLC qui
+lui permet de devenir serveur de streaming MPEG, DivX, ou DVD
+.</para>
+
+<para>
+Pour plus de détails, veuillez voir la section
+<xref linkend="cmdline" endterm="tcmdline"/>
+.</para>
+
+</sect2>
+
+<sect2><title>test-suite</title>
+&disabled;
+<para>
+Ceci fait un VLC spécial, pour des tests
+.</para>
+</sect2>
+
+<sect2><title>mozilla</title>
+&disabled;
+<para>
+Ceci n'est pas un module, mais permet de créer un plugin
+Mozilla VLC
+.</para>
+
+</sect2>
+
+<sect2><title>xosd</title>
+&disabled;
+<para><emphasis>
+Pour Unix seulement
+</emphasis></para>
+
+<para>
+Ceci envoie le flux sur un "OSD" (On Screen Display)
+.</para>
+
+</sect2>
+</sect1>
+
+
+<sect1><title>
+Options de compilation
+</title>
+
+<para>
+Il y a quelques options que vous pouvez régler par
+le script de configuration, qui ne sont pas liées aux modules
+.</para>
+
+<para>
+Vous pouvez voir ces options en faisant
+ :</para>
+
+<screen>
+<prompt>% </prompt><userinput>./configure --help</userinput>
+</screen>
+
+<para>
+Vous pouvez par exemple régler les répertoires
+d'installation, le système sur lequel vous désirez compiler VLC
+(normalement automatique), ...
+</para>
+
+<para>
+Vous pouvez également activer ou désactiver des
+optimisations.
+</para>
+
+<sect2><title>--disable-plugins</title>
+
+<para>
+Si vous sélectionnez cette option, aucun plugin ne
+sera compilé. Ce n'est pas recommandé: vous obtenez un VLC très pauvre.
+Vous ne devriez utiliser ceci que pour des tests
+.</para>
+
+</sect2>
+</sect1>

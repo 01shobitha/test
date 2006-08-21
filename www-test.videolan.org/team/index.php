@@ -1,0 +1,175 @@
+<?php
+   $title = "the VideoLAN team";
+   $lang = "en";
+   $date = "7 April 2002";
+   $menu = array( "project", "team" );
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
+?>
+
+<div id="left">
+<h1> Team / Contact </h1>
+
+<p> The VideoLAN team is made up of students of the <a
+href="http://www.ecp.fr/">École Centrale Paris</a> and developers
+from all over the world:</p>
+
+<p class="center">
+<a href="/images/developers-map.png">
+  <img src="/images/developers-map.jpg" alt="VideoLAN developers map" />
+</a></p>
+
+<h2>The developers</h2>
+
+<p>There is a description of what they worked on, so that you can spot
+cool dudes. Note that dudes with a SVN account are very cool dudes. If
+you want to email a dude you will need to replace the '-replacewith@-'
+part with '@'. </p>
+
+<?php
+   /* Return the next line */
+   function nextline()
+   {
+      global $count, $file;
+      if( $count >= count($file) ) return('');
+
+      $line = ereg_replace("\n", '',$file[$count]);
+      $count++;
+
+      if( ereg('^[ #]+', $line) ) return('');
+
+      return htmlspecialchars($line);
+   }
+
+   /* Return the next dude */
+   function nextdude()
+   {
+      global $count, $file;
+
+      /* Find a non-empty line */
+      do {
+         if( $count >= count($file) ) return('');
+         $line = nextline();
+      } while( $line == '' );
+
+      /* Fill stuff until we find an empty line */
+      do {
+
+         $item = $line[0];
+         $line = substr($line,3);
+
+         switch( $item )
+         {
+            case 'N': $dude = $line; break;
+            case 'E': $email = $line; break;
+            case 'C': $cvs = $line; break;
+            default: $job[] = $line; break;
+         }
+
+         if( $count >= count($file) ) break;
+         $line = nextline();
+
+      } while( $line != '' );
+
+      /* Format stuff */
+      if( !$dude ) return'';
+      if( $email ) $email = str_replace("@","-replacewith@-",$email);
+      if( $email ) $dude = '<a href="mailto:'.$email.'">'.$dude.'</a>';
+      if( $cvs ) $dude .= " (SVN login: <code>$cvs</code>)";
+      if( !$job ) return $dude;
+      while (list ($key, $val) = each ($job)) {
+         $dude .= "<br /> - $val";
+      }
+
+      $dude .= $description;
+
+      return($dude);
+   }
+
+   /* Parse a dude list */
+   function parselist($module) {
+      global $count, $file;
+
+      if(!file_exists('AUTHORS.'.$module)) return;
+
+      echo "<h3>The $module team</h3>";
+      $file = file('AUTHORS.'.$module);
+      $count = 0;
+
+      while($count < count($file))
+      {
+          ?><p><?php
+          echo nextdude();
+          ?></p><?php
+      }
+   }
+
+   $handle=opendir('.'); 
+   while (false!=($f = readdir($handle))) { 
+      if(ereg("AUTHORS",$f)) {
+         parselist(substr($f,8));
+      } 
+   }
+   closedir($handle); 
+
+?>
+
+<h2>Legal contact</h2>
+
+<p>Hosting for the VideoLAN project is provided by&nbsp;:
+</p>
+
+<pre style="margin-left: 60px;">
+VIA Centrale Réseaux
+Résidence des élèves de l'École Centrale
+2, avenue Sully Prudhomme
+92 290 Châtenay Malabry
+France
+</pre>
+
+<p>Antoine Cellerier is responsible for the website's publication.</p>
+</p>
+
+</div>
+
+<div id="right">
+
+<?php panel_start("blue"); ?>
+<h1>Contacting us</h1>
+
+<p>For user-related questions, please see our <a href="/support">Support
+section</a></p>
+
+<p>If you want to contact the French team of the Ecole Centrale
+Paris, about partnerships for example, please write to <a
+href="mailto:videolan@videolan.org">videolan@videolan.org</a> in French
+or English.</p>
+
+<p> If you want to redistribute some VideoLAN software (VLC, VLS...)
+in a magazine for example, you don't need to ask us the permission !
+You can distribute an original or a modified version as long as you
+comply with its license terms, i.e. the GNU General Public License
+Version 2. The easiest way to conform to this licence is to accompany
+the software with its sources. For example, if you plan to distribute a
+binary version of VLC on a CD, you should also include on the same CD
+all the files listed on the VLC source code page.</p>
+
+<p>In case you write an article about VideoLAN, we would be very glad to
+have a copy of it to add to our press book. You can send us the article
+at the following address :</p>
+
+<pre  style="margin-left: 60px;">
+VideoLAN
+Club VIA Centrale Réseaux
+Résidence Ecole Centrale
+2, avenue Sully Prudhomme
+92 290 Châtenay Malabry
+France
+</pre>
+<?php panel_end(); ?>
+
+<h2>The project leader</h2>
+<p><a href="mailto:antoine.cellerier&#64;videolan.org">Antoine Cellerier</a></p>
+
+</div>
+
+<?php footer('$Id$'); ?>

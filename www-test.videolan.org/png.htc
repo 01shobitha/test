@@ -1,0 +1,16 @@
+<public:component lightWeight="true">
+<public:attach event="oncontentready" onevent="parse()" />
+<public:method name="parse" />
+<script>
+    function parse(){
+        if(/.*?[.]png$/i.test(src) && parentNode.className != "DXImageTransformed"){ 
+            applyElement(element.document.createElement("span"));
+            parentNode.className ="DXImageTransformed";
+            try{       
+                runtimeStyle.filter = "progid:DXImageTransform.Microsoft.Alpha(opacity='0');";
+                parentNode.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='"+src +"',sizingMethod='scale');";
+        }catch(e){return;}
+        }else{  return;}
+    }
+</script>
+</public:component>

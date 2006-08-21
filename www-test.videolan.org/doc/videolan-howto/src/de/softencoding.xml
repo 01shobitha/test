@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="softencoding"><title id="tsoftencoding">
+Streamen von einer Eingangskarte oder einer Webcam
+</title>
+
+<note><para>
+Dies ist nur unter GNU/Linux möglich.
+
+</para></note>
+
+
+<sect1><title>
+Installation der Video for Linux-Treiber
+</title>
+
+<para>
+Wenn Sie von einer Eingangskarte oder einer Webcam
+streamen möchten, muss eine video4linux-Treiber dafür verfügbar sein. Sie
+können mehr Informationen über video4linux und unterstützte Geräte
+<ulink url="http://www.exploits.org/v4l">hier</ulink> finden.
+</para>
+
+<para>
+Kompilieren Sie das richtige Modul für Ihr Gerät und
+fügen Sie es Ihrem Kernel hinzu (einige video4linux-Module werden mit den
+Linux 2.4.x Kernel mitgeliefert). Sie können Ihr Gerät mit jedem in der Sektion
+<emphasis>Video: TV and PVR/DVR</emphasis> auf
+<ulink url="http://www.exploits.org/v4l/">dieser Seite</ulink> aufgeführtem
+Programm testen.
+</para>
+
+<para>
+Beachten Sie, dass v4l2-Module auch mit VLC arbeiten.
+</para>
+
+</sect1>
+
+<sect1><title>
+Streaming mit VLC
+</title>
+
+<note><para>
+Sie müssen <command>--enable-v4l</command> zu
+<command>./configure</command> hinzufügen, um dieses Feature nutzen zu
+können.
+</para></note>
+
+<screen>
+<!-- We cut the lines when they are too long, so that it looks OK in PDF format ! -->
+<prompt>% </prompt><userinput>vlc -vvv v4l:/dev/video:norm=secam:frequency=543250:size=640x480:channel=0:adev=/dev/dsp:audio=0
+--sout '#transcode{vcodec=mp4v,acodec=mpga,vb=3000,ab=256,vt=800000,keyint=80,deinterlace}:std{access=udp,mux=ts,url=239.255.12.13}' --ttl 12</userinput>
+</screen>
+
+<para>wobei:</para>
+
+
+<itemizedlist>
+
+<listitem><para><filename>/dev/video</filename>
+ das Device ist, welches Ihrer Eingangskarte oder Ihrer
+Webcam entspricht,
+</para></listitem>
+
+<listitem><para><emphasis>norm=secam</emphasis>
+ ist der Name des analogen Signalstandards (mögliche
+Werte sind pal, secam und ntsc),
+
+</para></listitem>
+
+<listitem><para><emphasis>frequency=543250</emphasis>
+ ist die Frequenz des Kanals in kHz (<emphasis>
+Warnung:</emphasis> bei VLC &lt; 0.6.1 ist die Frequenz die mit
+16 multiplizierte Frequenz des Kanals),
+</para></listitem>
+
+<listitem><para>
+<emphasis>size=640x480</emphasis> ist die Größe des
+Bildes, die Sie möchten (Sie können auch die eine Standardgröße eingeben wie
+<emphasis>subqcif</emphasis> (128x96), <emphasis>qsif</emphasis>
+(160x120), <emphasis>qcif</emphasis> (176x144), <emphasis>sif
+</emphasis> (320x240), <emphasis>cif</emphasis>
+(352x288) oder <emphasis>vga</emphasis> (640x480)),
+</para></listitem>
+
+<listitem><para><emphasis>channel=0</emphasis> 
+ist die Nummer des Kanals (üblicherweise ist 0 für Tuner,
+1 für composite und 2 für svideo),
+
+</para></listitem>
+
+<listitem><para><emphasis>adev=/dev/dsp</emphasis>
+ist das Audiogerät,
+</para></listitem>
+
+<listitem><para><emphasis>audio=1</emphasis> 
+ist die Nummer des Tonkanals (üblicherweise ist 0 für
+Mono und 1 für Stereo),
+</para></listitem>
+
+<listitem><para><emphasis>vcodec=mp4v</emphasis> 
+ist das Videoformat in dem Sie kodieren möchten 
+(<emphasis>mp4v</emphasis> ist MPEG-4, <emphasis>mpgv</emphasis> ist
+MPEG-1 und es gibt außerdem
+<emphasis>h263</emphasis>, <emphasis>DIV1</emphasis>,
+<emphasis>DIV2</emphasis>, <emphasis>DIV3</emphasis>,
+<emphasis>I420</emphasis>, <emphasis>I422</emphasis>,
+<emphasis>I444</emphasis>, <emphasis>RV24</emphasis>,
+<emphasis>YUY2</emphasis>),</para></listitem>
+
+<listitem><para><emphasis>acodec=mpga</emphasis> 
+ist das Tonformat, in dem Sie kodieren möchten
+(<emphasis>mpga</emphasis> ist MPEG audio layer 2,
+<emphasis>a52</emphasis> ist A52 bzw. AC3),
+</para></listitem>
+
+<listitem><para><emphasis>vb=3000</emphasis>
+ ist die Bild-Bitrate in kbit/s,
+</para></listitem>
+
+<listitem><para><emphasis>ab=256</emphasis>
+ ist die Ton-Bitrate in kbit/s
+</para></listitem>
+
+<listitem><para><emphasis>vt=800000</emphasis>
+ ist die Bild-Bitratentoleranz in bit/s,
+</para></listitem>
+
+<listitem><para><emphasis>keyint=80</emphasis>
+ ist das maximale Bilderintervall zwischen zwei
+"I"-Bildern in der Anzahl von Bildern,
+
+</para></listitem>
+
+<listitem><para><emphasis>deinterlace</emphasis>
+teilt VLC mit, den Deinterlace-Filter on the fly zu
+benutzen,
+</para></listitem>
+
+<listitem><para><emphasis>192.168.0.42</emphasis>
+ ist entweder:
+</para>
+
+<itemizedlist>
+<listitem><para>
+die Adresse des Rechners, den Sie via Unicast erreichen 
+möchten;
+</para></listitem>
+
+<listitem><para>
+oder der DNS-Name des Rechners, den Sie via Unicast erreichen
+möchten;
+</para></listitem>
+
+<listitem><para>
+oder eine Multicast-IP-Adresse.
+
+</para></listitem>
+
+</itemizedlist>
+
+</listitem>
+
+<listitem><para><emphasis>12</emphasis>
+ ist der Wert der TTL (Time To Live) Ihrer IP-Pakete (was 
+bedeutet, dass der Stream in der Lage sein wird, 11 Router zu überqueren).
+</para></listitem>
+
+</itemizedlist>
+
+</sect1>
+
+<sect1><title>
+Streaming mit VLS
+</title>
+
+<note><para>
+Sie benötigen die SVN-Version von VLS. Wenn Sie sie 
+kompilieren, müssen Sie <command>./bootstrap</command> und 
+<command>./configure --enable-v4l 
+--with-ffmpeg=PATH</command> ausführen, wobei 
+<emphasis>PATH</emphasis> der absolute Pfad zu dem Verzeichnis ist, in dem Sie
+ffmpeg kompiliert haben und nicht der relative Pfad!
+</para></note>
+
+<para>
+Es gibt derzeit kein Befehlszeileninterface für diesen Input,
+weshalb Sie die Konfigurationsdatei benutzen müssen.
+</para>
+
+<para>
+Hier ist eine typische Konfigurationsdatei <filename>vls.cfg
+</filename> zur Benutzung von VLS mit einem v4l-Gerät:</para>
+
+<programlisting>
+# vls.cfg (VLS configuration file)
+# Example of the VideoLAN HOWTO for the Video for Linux input
+
+BEGIN "Inputs"
+
+  webcam       = "v4l"
+
+END
+
+BEGIN "webcam"
+
+  # V4L device
+  Device        = "/dev/video"
+
+  # Channel Source : Webcam is often "0"
+  #                  TV Card, may be Tuner(0), Composite(1), Svideo(2)
+  Channel       = "0"
+
+  # Norm: PAL=0, NTSC=1, SECAM=2
+  Norm          = "0"
+
+  # Frequency of the channel in Mhz, multiplied by 16 (tuner cards only)
+  Frequency     = "7668"
+
+  # Size possibilities: can be either:
+  # - empty string : default size
+  # - width x height
+  # - subQCIF(128x96), QSIF(160x120), QCIF(176x144), SIF(320x240),
+  #   CIF(352x288), VGA (640x480)
+  Size          = ""
+
+  # DeInterlace: "0" = no ; "1" = yes
+  DeInterlace   = "0"
+
+  # Video compression format: "mpeg1" or "mpeg4"
+  Compression   = "mpeg4"
+
+  # Video bitrate (approx.) in kbps
+  Bitrate       = "500"
+
+  # Quality: "1.0" (good) to "31.0" (bad)
+  Quality       = "1.0"
+
+  # Sound device
+  AudioDevice   = "/dev/dsp"
+
+  # Audio compression format: "mp2", "mp3" or "ogg"
+  AudioCompression = "mp2"
+
+  # Audio bitrate in kpbs
+  AudioBitrate  = "64"
+
+  # Audio frequency ("16000", "22050", "24000", "32000", "44100" or "48000")
+  AudioFreq     = "16000"
+
+  # Audio channel: "1" = mono ; "2" = stereo
+  AudioChannel  = "2"
+
+END
+
+BEGIN "Channels"
+
+  channel1       = "network"
+
+END
+
+BEGIN "channel1"
+
+  # Unicast or multicast IP address
+  DstHost = "192.168.0.42"
+
+  # Destination port
+  DstPort = "1234"
+
+  # If it's a multicast IP address, uncomment the line below
+  #Type    = "multicast"
+
+  # If it's a multicast IP address, set the "Time To Live" below
+  #TTL     = "12"
+
+END
+
+BEGIN "LaunchOnStartUp"
+
+  command1 = "start video channel1 webcam"
+
+END
+</programlisting>
+
+<para>
+Nachdem Sie die obige Konfigurationdatei adaptiert haben,
+führen Sie VLS aus:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vls -vv -f vls.cfg</userinput>
+</screen>
+
+</sect1>
+</chapter>

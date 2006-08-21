@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="other"><title id="tother">
+Other interfaces
+
+
+</title>
+
+<para>
+To select an interface: if you want it to be
+your main interface, either start VLC from the command line with
+<emphasis>--intf Myinterface</emphasis>, or use the Preferences
+Panel to set the <emphasis>Interface Module</emphasis> option. For
+Graphical User Interfaces, you might also have shortcuts created by
+the install program. If you want the interface to be an additionnal
+one, use the preferences window of your GUI to set the <emphasis>extra
+interface modules</emphasis> option. Alternatively, you can use the
+<emphasis>--extraintf</emphasis> command line option.
+</para>
+
+
+<sect1><title>Graphical user interfaces</title>
+
+<para>
+VLC includes several graphical user interfaces
+(GUI), according to your operating system
+
+
+</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>Windows</emphasis></para>
+
+<para>
+There are two different graphical user interfaces
+for Windows. Shortcuts are created for both of them in the Start
+menu.
+</para>
+
+<para><emphasis>wxWindows</emphasis></para>
+
+<para>
+This interface works both for Linux and Windows. It
+is currently the most complete and fully-featured interface.
+</para>
+
+<para><emphasis>Skins</emphasis></para>
+
+<para>
+ This interface also works both for Linux and
+Windows. It allows dramatic modifications of the look and feel of your
+VLC. This is still under development.
+</para>
+
+</listitem>
+
+<listitem><para><emphasis>GNU/Linux</emphasis></para>
+
+<para>
+Many graphical user interfaces are available for
+GNU/Linux (GTK+, Gnome, QT, KDE), but only two of them are currently
+maintained: the wxWindows and the Skins interface. You should probably
+use one of these.
+</para>
+
+</listitem>
+
+<listitem><para><emphasis>Mac OS X</emphasis></para>
+
+<para>
+Only one native GUI exists for this OS.
+</para>
+
+</listitem>
+</itemizedlist>
+</sect1>
+
+<sect1><title>Control Interfaces</title>
+
+<para>
+Control interfaces are here to provide alternative
+ways to control your VLC.
+</para>
+
+<sect2><title>http</title>
+
+<para>
+This interface was discussed in the previous
+chapter. It allows to remotely or locally control VLC through a
+webpage
+
+ 
+.</para>
+
+</sect2>
+
+<sect2><title>gestures</title>
+
+<para>
+This allows you to control your VLC by doing
+mouse gestures in the video output window. By default, it is used by
+right-clicking and doing the gestures. Gestures are : left (previous),
+right (next), up-right (fullscreen), down-right (stop).
+</para>
+
+</sect2>
+
+<sect2><title>corba</title>
+
+<para>
+This allows you to control VLC using CORBA.
+</para>
+</sect2>
+<sect2><title>dummy</title>
+ <para>
+ Use this interface when you want
+ <emphasis>no</emphasis> interface! That is you just want to give a
+ self-contained command-line string
+ </para>
+ <para>
+ For example :</para>
+
+ <screen>
+ <prompt>% </prompt><userinput>vlc --intf dummy vcd://</userinput>
+ </screen>
+</sect2>
+
+<sect2><title>rc</title>
+
+<para>
+This allows you to control VLC by typing commands in
+its terminal window.
+</para>
+</sect2>
+
+
+
+<sect2><title>lirc</title>
+
+<para>
+Under GNU/Linux, this allows you to control VLC
+through an infrared remote control.
+</para>
+</sect2>
+
+<sect2><title>joystick</title>
+
+<para>
+Under GNU/Linux, this allows you to control VLC
+using a joystick.
+</para>
+
+</sect2>
+
+</sect1>
+
+</chapter>

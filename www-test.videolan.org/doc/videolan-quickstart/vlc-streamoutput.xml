@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<chapter id="vlc-streamoutput"><title id="tvlc-streamoutput">
+<span xml:lang="en">Stream and receive with VLC</span>
+<span xml:lang="fr">Diffuser et recevoir avec VLC</span>
+
+
+</title>
+
+<sect1><title>
+<span xml:lang="en">Unicast an MPEG-1, MPEG-2, or MPEG-4 / DivX file</span>
+<span xml:lang="fr">Diffuser un fichier MPEG-1, MPEG-2, ou MPEG-4 / DivX en unicast</span>
+</title>
+
+<simplesect><title>
+<span xml:lang="en">Start VLC on the server</span>
+<span xml:lang="fr">Lancer VLC sur le serveur</span>
+</title>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv video1.xyz --sout udp:client.example.org</userinput>
+</screen>
+
+<span xml:lang="en">
+<para>where <filename>video1.xyz</filename> is the file you want
+to stream and <emphasis>client.example.org</emphasis> is the DNS
+name of the client you want to stream to (you can put an IP address
+instead).</para>
+</span>
+
+<span xml:lang="fr">
+<para>où <filename>video1.xyz</filename> est le fichier que vous désirez diffuser et <emphasis>client.example.org</emphasis> est le nom DNS du client vers lequel vous désirez diffuser (vous pouvez également mettre une addresse IP).</para>
+</span>
+
+</simplesect>
+
+<simplesect><title>
+<span xml:lang="en">Start VLC on the client</span>
+<span xml:lang="fr">Lancer VLC sur le client</span>
+</title>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv udp:</userinput>
+</screen>
+
+</simplesect>
+</sect1>
+
+<sect1><title>
+<span xml:lang="en">Unicast a DVD</span>
+<span xml:lang="fr">Diffuser un DVD en unicast</span>
+</title>
+
+<simplesect><title>
+<span xml:lang="en">Start VLC on the server</span>
+<span xml:lang="fr">Lancer VLC sur le serveur</span>
+</title>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv dvdold:/dev/dvd --sout udp:client.example.org</userinput>
+</screen>
+
+<span xml:lang="en">
+
+<para>where <filename>/dev/dvd</filename> is the name of your DVD drive
+(put <filename>D:</filename> under Windows if <filename>D</filename> is
+the letter of your DVD drive) or the directory where you copied your
+DVD, and <emphasis>client.example.org</emphasis> is the DNS name of the
+client you want to stream to (you can put an IP address instead).</para>
+
+<note><para>Under Unix/Linux, you must have write access to the device
+corresponding to your DVD drive. For that, you should be in the
+<emphasis>disk</emphasis> or <emphasis>cdrom</emphasis> group (look
+at the permissions in <filename>/dev</filename>). If you're not, add
+yourself to the group :</para>
+
+<screen>
+<prompt># </prompt><userinput>adduser your_login disk_or_cdrom</userinput>
+</screen>
+
+<para>and then restart your session.</para></note>
+</span>
+
+<span xml:lang="fr">
+<para>où <filename>/dev/dvd</filename> est le nom de votre lecteur DVD (mettez <filename>d:</filename> sous Windows si <filename>D</filename> est la lettre de votre lecteur DVD) ou le répertoire où vous avez copié votre DVD, et <emphasis>client.example.org</emphasis> est le nom DNS du client vers lequel vous voulez diffuser (vous pouvez également mettre une addresse IP)</para>
+
+<note><para>Sous Unix/Linux, vous devez avoir les droits d'accès en écriture au périphérique correspondant à votre lecteur DVD. Pour cela, vous devez être dans le groupe <emphasis>disk</emphasis> ou <emphasis>cdrom</emphasis> (regardez les permissions dans <filename>/dev</filename>). Si vous n'y êtes pas, ajoutez-y-vous en tapant:</para>
+
+<screen>
+<prompt># </prompt><userinput>adduser votre_login disk_ou_cdrom</userinput>
+</screen>
+
+<para>et redémarrez ensuite votre session.</para></note>
+
+</span>
+
+</simplesect>
+
+<simplesect><title>
+<span xml:lang="en">Start VLC on the server</span>
+<span xml:lang="fr">Lancer VLC sur le serveur</span>
+</title>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv udp:</userinput>
+</screen>
+
+</simplesect>
+</sect1>
+
+<sect1><title>
+<span xml:lang="en">Multicast to several VLC's</span>
+<span xml:lang="fr">Diffuser en multicast vers plusieurs VLCs</span>
+</title>
+
+<simplesect><title>
+<span xml:lang="en">What is multicast ?</span>
+<span xml:lang="fr">Qu'est ce que le multicast ?</span>
+</title>
+
+<span xml:lang="en">
+<para>Multicast is a norm implemented in all modern network hardware
+(switches, routers, ...). It provides an intelligent manner to send a
+stream to a dynamic group of machines. If you want to use multicast,
+make sure that all your network hardware support it.</para>
+
+<para>In multicast streaming, the stream is sent to a multicast IP
+address (the IP addresses reserved for this purpose are from 224.0.0.0
+to 239.255.255.255). Then, any machine on the network can join the
+multicast group by sending a request on the network, and it will
+automatically receive the stream. When it sends a request to leave the
+group, it will automatically stop receiving the stream. The advantage
+of multicast streaming is that only the machines that want to receive
+the stream actually receive it, and the streaming server only sends one
+stream even if there are multiple clients receiving it.</para>
+</span>
+
+<span xml:lang="fr">
+<para>Multicast est une norme reconnue par tout le matériel réseau moderne (switches, routeurs, ...). Elle fournit un moyen "intelligent" d'envoyer un flux à un groupe dynamique de machines. Si vous désirez utiliser le multicast, vous devez vous assurer que tout votre matériel réseau le supporte.</para>
+
+<para>Dans la diffusion multicast, le flux est envoyé à une addresse IP de multicast (les addresses IP de 224.0.0.0 à 239.255.255.255 sont réservées à cet usage). Toute machine du réseau peut alors joindre le groupe multicast en envoyant une requête sur le réseau, et elle commencera à recevoir le flux. Quand elle envoie une requête afin de quitter le groupe, elle arrêtera automatiquement de recevoir le flux. L'avantage de la diffusion multicast est que seules les machines qui désirent recevoir le flux le recoivent, et le serveur de streaming ne l'envoie qu'une seule fois sur le réseau, même si plusieurs clients le demandent.</para>
+</span>
+
+
+</simplesect>
+
+<simplesect><title>
+<span xml:lang="en">Start VLC on the server</span>
+<span xml:lang="fr">Lancer VLC sur le serveur</span>
+</title>
+
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv video1.xyz --sout udp:239.255.12.42 --ttl 12</userinput>
+</screen>
+
+<span xml:lang="en">
+<para>where <filename>video1.xyz</filename> is the file you
+want to stream (remplace it with <emphasis>dvdold:/dev/dvd</emphasis>
+under Unix or <emphasis>dvdold:D:</emphasis> under Windows if you want
+to multicast a DVD), <emphasis>239.255.12.42</emphasis> is the multicast
+IP address you want to stream on and <emphasis>12</emphasis> is the
+value of the TTL (Time To Live) of your IP packets (which means that the
+multicast stream will be able to cross 12 routers).</para>
+</span>
+
+<span xml:lang="fr">
+<para>où <filename>video1.xyz</filename> est le fichier que vous désirez diffuser (remplacez par <emphasis>dvdold:/dev/dvd</emphasis> sous Unix ou <emphasis>dvdold:D:</emphasis> sous Windows si vous désirez diffuser un DVD), <emphasis>239.255.12.42</emphasis> est l'addresse IP multicast à laquelle vous désirez envoyer le flux et <emphasis>12</emphasis> est la valeur du TTL (Time To Live) de votre paquet IP (ce qui signifie qu'il pourra traverser 12 routeurs).</para>
+</span>
+
+</simplesect>
+
+<simplesect><title>
+<span xml:lang="en">Start VLC on the client(s)</span>
+<span xml:lang="fr">Lancer VLC sur le(s) client(s)</span>
+</title>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv udp:@239.255.12.42</userinput>
+</screen>
+
+</simplesect>
+</sect1>
+</chapter>

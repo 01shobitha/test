@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<chapter id="intro"><title id="tintro">
+<span xml:lang="en">Introduction</span>
+<span xml:lang="fr">Introduction</span>
+<span xml:lang="es">Introducción</span>
+<span xml:lang="de">Einführung</span>
+</title>
+
+<sect1><title>
+<span xml:lang="en">What is the VideoLAN project ?</span>
+<span xml:lang="fr">Qu'est ce que le projet VideoLAN ?</span>
+<span xml:lang="es">¿Qué es el projecto VideoLAN?</span>
+<span xml:lang="de">Was ist das VideoLAN Projekt?</span>
+</title>
+
+<sect2><title>
+<span xml:lang="en">Overview</span>
+<span xml:lang="fr">Aperçu</span>
+<span xml:lang="es">Descripción general</span>
+<span xml:lang="de">Überblick</span>
+</title>
+
+<span xml:lang="en">
+<para>VideoLAN is a complete software solution for video streaming, developed
+by students of the <ulink url="http://www.ecp.fr">Ecole Centrale
+Paris</ulink> and developers from all over the world, under the
+<ulink url="http://www.gnu.org/copyleft/gpl.html">GNU General Public
+License</ulink> (GPL). VideoLAN is designed to stream MPEG videos on high
+bandwidth networks.</para>
+
+<para>The VideoLAN solution includes :</para>
+
+</span>
+
+<span xml:lang="fr">
+
+<para>VideoLAN est une solution logicielle complète de diffusion vidéo,
+développée par des étudiants de l'<ulink url="http://www.ecp.fr">Ecole
+Centrale Paris</ulink> et des développeurs du monde entier, sous licnese
+<ulink url="http://www.gnu.org/copyleft/gpl.html">GNU General Public
+License</ulink> (GPL). VideoLAN est conçu pour diffuser des vidéos MPEG
+sur des réseauxhaut déit.</para>
+
+<para>La solution VideoLAN comprend :</para>
+
+</span>
+
+<span xml:lang="es">
+<para>VideoLAN es una solución de software completa para transmisión de vídeo, desarrollada
+por estudiantes de <ulink url="http://www.ecp.fr">Ecole Centrale
+Paris</ulink> y desarrolladores de todo el mundo, dentro de
+<ulink url="http://www.gnu.org/copyleft/gpl.html">GNU General Public
+License</ulink> (GPL). VideoLAN está diseñado para transmitir vídeo MPEG en redes con
+gran capacidad de ancho de banda.</para>
+
+<para>La solución VideoLAN incluye :</para>
+
+</span>
+
+<span xml:lang="de">
+<para>VideoLAN ist eine komplette Softwarelösung für Video-Streaming,
+entwickelt von Studenten der <ulink url="http://www.ecp.fr">Ecole Centrale
+Paris</ulink> und Entwicklern von der ganzen Welt, unter der
+<ulink url="http://www.gnu.org/copyleft/gpl.html">GNU General Public
+License</ulink> (GPL). VideoLAN ist ausgelegt auf das Streamen von
+MPEG-Videos in Netzwerken mit hoher Bandbreite.</para>
+
+<para>Die VideoLAN-Lösung umfasst :</para>
+
+</span>
+
+
+<itemizedlist>
+
+<span xml:lang="en">
+<listitem><para>VLS (VideoLAN Server), which can stream MPEG-1, MPEG-2
+and MPEG-4 files, DVDs, digital satellite channels, digital terrestial
+television channels and live videos on the network in unicast or
+multicast,</para></listitem>
+</span>
+
+<span xml:lang="fr">
+<listitem><para>VLS (VideoLAN Server), qui est capable de diffuser des fichiers MPEG-1, MPEG-2 et MPEG-4, des DVDs, des canaux satellite numériques, des chaînes de télévision numérique terrestre, et de la vidéo en temps réel sur un réseau en unicast ou multicast,</para></listitem>
+</span>
+
+<span xml:lang="es">
+<listitem><para>VLS (Servidor VideoLAN), el cual puede transmitir archivos MPEG-1, MPEG-2
+y MPEG-4, DVDs, canales digitales de satélite, canales digitales de televisión terrestre
+y vídeo en vivo sobre la red en unicast o multicast,</para></listitem>
+</span>
+
+
+<span xml:lang="de">
+<listitem><para>VLS (VideoLAN Server), der MPEG-1, MPEG-2 und MPEG-4
+Dateien, DVDs, digitale Satellitenkanäle, digitale terrestrische Fernsehkanäle
+und Live-Videos über das Netzwerk in Uni- oder Multicast streamen kann,
+</para></listitem>
+</span>
+
+<span xml:lang="en">
+<listitem><para>VLC (initially VideoLAN Client), which can be used as
+a server to stream MPEG-1, MPEG-2 and MPEG-4 files, DVDs and live
+videos on the network in unicast or multicast ; or used as a client
+to receive, decode and display MPEG streams under multiple operating
+systems.</para></listitem>
+</span>
+
+<span xml:lang="fr">
+<listitem><para>VLC (à l'origine, VideoLAN Client), qui peut être utilisé en tant que serveur, pour diffuser des fichiers MPEG-1, MPEG-2 et MPEG-4, des DVDs, ou de la vidéo en temps réel sur un réseau en unicast ou multicast ; ou utilisé en temps que client pour recevoir, décoder et afficher des flux vidéo sous de nombreux systèmes d'exploitation.</para></listitem>
+</span>
+
+<span xml:lang="es">
+<listitem><para>VLC (inicialmente cliente VideoLAN), el cual puede ser usado como 
+servidor para transmitir archivos MPEG-1, MPEG-2 y MPEG-4, DVDs y vídeo en vivo
+sobre la red en unicast o multicast; o usado como cliente para recibir, decodificar y visualizar
+flujos MPEG sobre varios sistemas operativos.</para></listitem>
+</span>
+
+<span xml:lang="de">
+<listitem><para>VLC (anfänglich VideoLAN Client), welches als Server zum
+Streamen von MPEG-1, MPEG-2 und MPEG-4 Dateien, DVDs und Live-Videos
+über das Netzwerk per Uni- oder Multicast und als Client zum Empfangen,
+Dekodieren und Anzeigen von MPEG-Streams unter multiplen Betriebssystemen
+benutzt werden kann.</para></listitem>
+</span>
+
+</itemizedlist>
+
+<span xml:lang="en">
+<para>Here is an illustration of the complete VideoLAN solution :</para>
+</span>
+
+<span xml:lang="fr">
+<para>Voici le schéma global de la solution VideoLAN complète :</para>
+</span>
+
+<span xml:lang="es">
+<para>A continuación se muestra una ilustración de la solución VideoLAN completa :</para>
+</span>
+
+<span xml:lang="de">
+<para>Hier ist eine Illustration der kompletten VideoLAN-Lösung: </para>
+</span>
+
+<figure><title>
+<span xml:lang="en">Global VideoLAN solution</span>
+<span xml:lang="fr">La solution VideoLAN globale</span>
+<span xml:lang="es">La solución VideoLAN global</span>
+<span xml:lang="de">Die globale VideoLAN-Lösung</span>
+</title>
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/global-diagram.jpg" format="JPG" scalefit="1" scale="60" />
+  </imageobject>
+</mediaobject>
+</figure>
+
+<span xml:lang="en">
+<para>More details about the project can be found on the <ulink
+url="http://www.videolan.org/">VideoLAN Web site</ulink>.</para>
+</span>
+<span xml:lang="fr">
+<para>De plus amples détails sur le projet peuvent être trouvés sur le  <ulink
+url="http://www.videolan.org/">Site web de VideoLAN</ulink>.</para>
+</span>
+<span xml:lang="es">
+<para>Más detalles sobre el proyecto se pueden encontrar en la web de VideoLAN <ulink
+url="http://www.videolan.org/"></ulink>.</para>
+</span>
+<span xml:lang="de">
+<para>Mehr Details über das Projekt können auf der <ulink
+url="http://www.videolan.org/">VideoLAN Website</ulink> gefunden werden.
+</para></span>
+</sect2>
+
+<sect2><title>
+<span xml:lang="en">VideoLAN software</span>
+<span xml:lang="fr">Logiciels VideoLAN</span>
+<span xml:lang="es">Software VideoLAN</span>
+<span xml:lang="de">VideoLAN Software</span>
+</title>
+
+<simplesect><title>VLC</title>
+
+<span xml:lang="en">
+<para>VLC works on many platforms : Linux, Windows, Mac OS X, BeOS,
+*BSD, Solaris, Familiar Linux, Yopy/Linupy and QNX. It can read :</para>
+</span>
+
+<span xml:lang="fr">
+<para>VLC fonctionne sur de nombreuses plateformes : Linux, Windows, Mac OS X, BeOS,
+*BSD, Solaris, Familiar Linux, Yopy/Linupy et QNX. Il est capable de lire :</para>
+</span>
+
+<span xml:lang="es">
+<para>VLC trabaja sobre muchas plataformas : Linux, Windows, Mac OS X, BeOS,
+*BSD, Solaris, Familiar Linux, Yopy/Linupy y QNX. Puede leer :</para>
+</span>
+
+<span xml:lang="de">
+<para>VLC läuft auf vielen Plattformen: Linux, Windows, Mac OS X, BeOS,
+*BSD, Solaris, Familiar Linux, Yopy/Linupy und QNX. Es kann lesen:</para>
+</span>
+
+<itemizedlist>
+
+<span xml:lang="en">
+<listitem><para>MPEG-1, MPEG-2 and MPEG-4 / DivX files from a hard disk, 
+a CD-ROM drive, ...</para></listitem>
+</span>
+<span xml:lang="fr">
+<listitem><para>Des fichiers MPEG-1, MPEG-2 et MPEG-4 / DivX 
+depuis un disque dur, un lecteur de CD-ROM, ...</para></listitem>
+</span>
+<span xml:lang="es">
+<listitem><para>Archivos MPEG-1, MPEG-2 y MPEG-4 / DivX desde un disco duro, 
+un CD-ROM, ...</para></listitem>
+</span>
+<span xml:lang="de">
+<listitem><para>MPEG-1, MPEG-2 und MPEG-4 / DivX Dateien von einer
+Festplatte, einem CD-ROM-Laufwerk,...</para></listitem>
+</span>
+
+<span xml:lang="en">
+<listitem><para>DVDs and VCDs,</para></listitem>
+</span>
+<span xml:lang="fr">
+<listitem><para>Des DVDs et VCDs,</para></listitem>
+</span>
+<span xml:lang="es">
+<listitem><para>DVDs y VCDs,</para></listitem>
+</span>
+<span xml:lang="de">
+<listitem><para>DVDs und VCDs,</para></listitem>
+</span>
+
+<span xml:lang="en">
+<listitem><para>from a satellite card (DVB-S),</para></listitem>
+</span>
+<span xml:lang="fr">
+<listitem><para>depuis une carte satellite (DVB-S),</para></listitem>
+</span>
+<span xml:lang="es">
+<listitem><para>desde un tarjeta receptora de satélite (DVB-S),</para></listitem>
+</span>
+<span xml:lang="de">
+<listitem><para>von einer Satellitenkarte (DVB-S),</para></listitem>
+</span>
+
+<span xml:lang="en">
+<listitem><para>MPEG-1, MPEG-2 and MPEG-4 streams from the
+network sent by VLS or VLC's stream output.</para></listitem>
+</span>
+<span xml:lang="fr">
+<listitem><para>Des flux MPEG-1, MPEG-2 et MPEG-4 envoyés sur le réseau 
+par un VLS ou un VLC.</para></listitem>
+</span>
+<span xml:lang="es">
+<listitem><para>Flujos MPEG-1, MPEG-2 and MPEG-4 desde la red 
+enviados por la salida de VLS o VLC's.</para></listitem>
+</span>
+<span xml:lang="de">
+<listitem><para>MPEG-1, MPEG-2 und MPEG-4 Streams aus dem Netzwerk,
+gesendet von VLS oder VLCs Streamausgabe.</para></listitem>
+</span>
+
+</itemizedlist>
+
+<para>
+<span xml:lang="en">VLC can also be used as a server to stream :</span>
+<span xml:lang="fr">VLC peut également être employé en tant que serveur
+ pour diffuser:</span>
+<span xml:lang="es">VLC también puede ser usado como servidor para transmitir :</span>
+<span xml:lang="de">VLC kann auch als Streaming-Server benutzt werden:</span>
+</para>
+
+<itemizedlist>
+
+<span xml:lang="en">
+<listitem><para>MPEG-1, MPEG-2 and MPEG-4 / DivX files,</para></listitem>
+</span>
+<span xml:lang="fr">
+<listitem><para>Des fichiers MPEG-1, MPEG-2 et MPEG-4 / DivX ,</para></listitem>
+</span>
+<span xml:lang="es">
+<listitem><para>archivos MPEG-1, MPEG-2 y MPEG-4 / DivX ,</para></listitem>
+</span>
+<span xml:lang="de">
+<listitem><para>MPEG-1, MPEG-2 und MPEG-4 / DivX-Dateien,</para>
+</listitem></span>
+
+<span xml:lang="en">
+<listitem><para>DVDs,</para></listitem>
+</span>
+<span xml:lang="fr">
+<listitem><para>des DVDs,</para></listitem>
+</span>
+<span xml:lang="es">
+<listitem><para>DVDs,</para></listitem>
+</span>
+<span xml:lang="de">
+<listitem><para>DVDs,</para></listitem>
+</span>
+
+<span xml:lang="en">
+<listitem><para>from an MPEG encoding card,</para></listitem>
+</span>
+<span xml:lang="fr">
+<listitem><para>depuis une carte d'encodage MPEG,</para></listitem>
+</span>
+<span xml:lang="es">
+<listitem><para>desde una tarjeta codificadora MPEG,</para></listitem>
+</span>
+<span xml:lang="de">
+<listitem><para>von einer MPEG-Kodierungskarte,</para></listitem>
+</span>
+
+</itemizedlist>
+
+<para>
+ <span xml:lang="en">to :</span>
+ <span xml:lang="fr">vers :</span>
+ <span xml:lang="es">a :</span>
+ <span xml:lang="de">an:</span>
+</para>
+
+<itemizedlist>
+
+<span xml:lang="en">
+<listitem><para>one machine (i.e. to one IP address) : this is called
+<emphasis>unicast</emphasis>,</para></listitem>
+</span>
+<span xml:lang="fr">
+<listitem><para>une machine (c'est à dire à une addresse IP) :
+ ceci est appelé  <emphasis>unicast</emphasis>,</para></listitem>
+</span>
+<span xml:lang="es">
+<listitem><para>una máquina (p.e. a una dirección IP) : esto es lo que se llama
+<emphasis>unicast</emphasis>,</para></listitem>
+</span>
+<span xml:lang="de">
+<listitem><para>einen Rechner (d.h. an eine IP-Adresse): dies wird
+<emphasis>Unicast</emphasis> genannt,</para></listitem>
+</span>
+
+<span xml:lang="en">
+<listitem><para>a dynamic group of machines that the clients can
+join or leave (i.e. to a multicast IP address) : this is called
+<emphasis>multicast</emphasis>,</para></listitem>
+</span>
+<span xml:lang="fr">
+<listitem><para>Un groupe dynamique de machines que les clients
+rejoignent ou quittent (une addresse IP multicast): ceci est appelé
+<emphasis>multicast</emphasis>,</para></listitem>
+</span>
+<span xml:lang="es">
+<listitem><para>un grupo dinámico de máquinas a las que el cliente puede
+conectarse o desconectarse (p.e. a una dirección IP multicast) : esto es lo que se llama
+<emphasis>multicast</emphasis>,</para></listitem>
+</span>
+<span xml:lang="de">
+<listitem><para>eine dynamische Gruppe von Rechner, an der Clients
+teilnehmen oder diese verlassen können (d.h. an eine Multicast-IP-Adresse):
+dies wird <emphasis>Multicast</emphasis> genannt,</para></listitem>
+</span>
+
+</itemizedlist>
+
+<para><span xml:lang="en">in IPv4 or IPv6</span>
+      <span xml:lang="fr">en IPv4 ou en IPv6</span>
+      <span xml:lang="es">en IPv4 o IPv6</span>
+      <span xml:lang="de">per IPv4 oder IPv6</span>
+.</para>
+
+<span xml:lang="en">
+<para>To get the complete list of VLC's possibilities
+on each plateform supported, see the <ulink
+url="http://www.videolan.org/vlc/features.html">VLC features
+page</ulink>.</para>
+</span>
+
+<span xml:lang="fr">
+<para>Pour la liste complète des fonctionnalités de VLC pour chaque plateforme, regardez la <ulink
+url="http://www.videolan.org/vlc/features.html">page des fonctionnalités
+</ulink> (en anglais).</para>
+</span>
+
+<span xml:lang="es">
+<para>Para conseguir la lista completa de las funcionalidades de VLC en cada plataforma, vea la página de 
+características de VLC <ulink url="http://www.videolan.org/vlc/features.html"></ulink>.</para>
+</span>
+
+<span xml:lang="de">
+<para>Um die komplette Liste von VLCs Fähigkeiten auf jeder entsprechenden
+Plattform zu erhalten, schauen Sie auf die 
+<ulink url="http://www.videolan.org/vlc/features.html">VLC-Features-Seite
+</ulink> (auf Englisch).</para>
+</span>
+
+
+<note><para>
+<span xml:lang="en">VLC doesn't work on Mac OS 9, and will
+probably never do.</span>
+<span xml:lang="fr">VLC ne fonctionna pas sous Mac OS 9, et ne 
+fonctionnera probablement jamais sur cette plateforme.</span>
+<span xml:lang="es">VLC no trabaja en Mac OS 9, y probablemente no lo hará nunca.</span>
+<span xml:lang="de">VLC läuft nicht unter Mac OS 9 und wird es wahrscheinlich
+nie tun.</span>
+</para></note>
+
+</simplesect>
+
+<simplesect><title>VLS</title>
+
+<para>
+ <span xml:lang="en">VLS can stream :</span>
+ <span xml:lang="fr">VLS est capable de diffuser:</span>
+ <span xml:lang="es">VLS puede transmitir :</span>
+ <span xml:lang="de">VLS kann streamen:</span>
+</para>
+
+<itemizedlist>
+
+<listitem><para>
+<span xml:lang="en">an MPEG-1, MPEG-2 or MPEG-4 files stored on a hard drive
+or on a CD,</span>
+<span xml:lang="fr">des fichiers MPEG-1, MPEG-2 ou MPEG-4 stockés sur un disque dur, un CD, ...,</span>
+<span xml:lang="es">un fichero MPEG-1, MPEG-2 o MPEG-4 almacenado en un
+disco duro, un CD, ...,</span>
+<span xml:lang="de">MPEG-1, MPEG-2 oder MPEG-4 - Dateien, die auf einer
+Festplatte oder auf einer CD gespeichert sind,</span>
+</para></listitem>
+
+<listitem><para>
+<span xml:lang="en">a DVD located in a local DVD drive or copied on a hard
+disk,</span>
+<span xml:lang="fr">un DVD dans un lecteur local ou copié sur un disque
+dur,</span>
+<span xml:lang="es">un DVD insertado en un lector de DVD, o copiado en
+un disco duro,</span>
+<span xml:lang="de">DVDs in einem lokalen DVD-Laufwerk oder kopiert auf
+eine Festplatte,</span>
+</para></listitem>
+
+<listitem><para>
+<span xml:lang="en">a satellite card (DVB-S) or a digital terrestial
+television card (DVB-T)</span>
+<span xml:lang="es">una tarjeta receptora de satélite (DVB-S) o una tarjeta de televisión
+digital terrestre (DVB-T)</span>
+<span xml:lang="fr">une carte satellite (DVB-S) ou une carte de télévision
+numérique terrestre (DVB-T)</span>
+<span xml:lang="de">Daten einer Satellitenkarte (DVB-S) oder einer digitalen terrestrischen
+TV-Karte (DVB-T)</span>
+,</para></listitem>
+
+<listitem><para>
+<span xml:lang="en">an MPEG encoding card</span>
+<span xml:lang="fr">une carte d'encodage MPEG</span>
+<span xml:lang="es">una tarjeta codificadora MPEG</span>
+<span xml:lang="de">Daten einer MPEG-Kodierungskarte</span>
+ ;</para></listitem>
+
+</itemizedlist>
+
+<para>
+<span xml:lang="en">to</span>
+<span xml:lang="fr">vers</span>
+<span xml:lang="es">a</span>
+<span xml:lang="de">an</span>
+:</para>
+
+<itemizedlist>
+
+<span xml:lang="en">
+<listitem><para>one machine (i.e. to one IP address) : this is called
+<emphasis>unicast</emphasis>,</para></listitem>
+</span>
+<span xml:lang="fr">
+<listitem><para>une machine (c'est à dire à une addresse IP) :
+ ceci est appelé  <emphasis>unicast</emphasis>,</para></listitem>
+</span>
+<span xml:lang="es">
+<listitem><para>una máquina (p.e. a una dirección IP) : esto es lo que se llama
+<emphasis>unicast</emphasis>,</para></listitem>
+</span>
+<span xml:lang="de">
+<listitem><para>einen Rechner (d.h. an eine IP-Adresse): dies wird
+<emphasis>Unicast</emphasis> genannt,</para></listitem>
+</span>
+
+<span xml:lang="en">
+<listitem><para>a dynamic group of machines that the clients can
+join or leave (i.e. to a multicast IP address) : this is called
+<emphasis>multicast</emphasis>,</para></listitem>
+</span>
+<span xml:lang="fr">
+<listitem><para>Un groupe dynamique de machines que les clients
+rejoignent ou quittent (une addresse IP multicast): ceci est appelé
+<emphasis>multicast</emphasis>,</para></listitem>
+</span>
+<span xml:lang="es">
+<listitem><para>un grupo dinámico de máquinas a las que el cliente puede
+conectarse o desconectarse (p.e. a una dirección IP multicast) : esto es lo que se llama
+<emphasis>multicast</emphasis>,</para></listitem>
+</span>
+<span xml:lang="de">
+<listitem><para>eine dynamische Gruppe von Rechnern, an der die Clients
+teilnehmen, diese aber auch wieder verlassen können (d.h. an eine
+Multicast-IP-Adresse): dies wird <emphasis>Multicast</emphasis> genannt,
+</para></listitem>
+</span>
+
+</itemizedlist>
+
+<para>
+<span xml:lang="en">in IPv4 or IPv6</span>
+<span xml:lang="fr">en IPv4 ou en IPv6</span>
+<span xml:lang="es">en IPv4 o en IPv6</span>
+<span xml:lang="de">per IPv4 oder IPv6</span>
+.</para>
+
+<span xml:lang="en">
+<para>A Pentium 100 MHz with 32 MB of memory should be enough to send one
+stream on the network. When streaming a lot of videos stored on a
+hard drive, the actual limitation is not the processor but the hard
+drive and the network connection.</para>
+</span>
+<span xml:lang="fr">
+<para>Une machine à base de Pentium 100 MHz munie de 32 Mo de mémoire
+devrait suffire pour diffuser un flux sur un réseau. Si vous diffusez de
+nombreuses vidéos, stockées sur un disque dur, la vraie limitation ne
+vient pas du processeur mais du disque dur et de la connexion réseau.
+</para>
+</span>
+<span xml:lang="es">
+<para>Un Pentium a 100 MHz con 32 MB de memoria debería ser suficiente para enviar un
+flujo a la red. Cuando se transmiten muchos vídeos almacenados en un disco duro, la limitación 
+no es el procesador sino el disco duro y la conexión de red.</para>
+</span>
+<span xml:lang="de">
+<para>Ein Rechner mit einem Pentium-Prozessor mit 100 MHz und 32 MB Arbeitsspeicher
+sollte ausreichend sein, um einen Stream über das Netzwerk zu versenden. Wenn
+viele auf einer Festplatte gespeicherte Videos gestreamt werden, ist die wirkliche
+Beschränkung nicht der Prozessor, sondern die Festplatte und die 
+Netzwerkanbindung.
+</para>
+</span>
+
+<span xml:lang="en">
+<para>VLS works under Linux and Windows. To get the complete
+list of VLS's possibilities on each plateform supported, see the <ulink
+url="http://www.videolan.org/streaming/features.html">streaming features
+page</ulink>.</para>
+</span>
+
+<span xml:lang="fr">
+<para>VLS fonctionne sous Linux et Windows. Pour la liste complète des 
+possibilités de VLS sur chaque plateforme, référez-vous à la <ulink
+url="http://www.videolan.org/streaming/features.html">page des fonctionnalités
+de diffusion</ulink>.</para>
+</span>
+
+<span xml:lang="es">
+<para>VLS trabaja bajo Linux y Windows. Para conseguir la lista completa de las funcionalidades
+de VLS en cada plataforma, vea la página de características de transmisión  <ulink
+url="http://www.videolan.org/streaming/features.html"></ulink>.</para>
+</span>
+
+<span xml:lang="de">
+<para>VLS läuft unter Linux und Windows. Um die komplette Liste von VLS'
+Möglichkeiten auf der jeweiligen Plattform zu erhalten, schauen Sie auf die <ulink
+url="http://www.videolan.org/streaming/features.html">
+Streaming-Features-Seite</ulink>.</para>
+</span>
+
+</simplesect>
+
+<simplesect><title>Mini-SAP-server</title>
+
+<para>
+<span xml:lang="en">You can add a channel information service based on the SAP/SDP
+standard to the VideoLAN solution. The mini-SAP-server sends announces
+about the multicast programs on the network in IPv4 or IPv6, and VLCs
+receive these annouces and automatically add the programs announced to
+their playlist.</span>
+<span xml:lang="fr">Vous pouvez ajouter un service de découverte de
+services utilisant le standard SAP/SDP sur la solution VideoLAN. Le
+mini-SAP-server envoie des annonces indiquant les programmes multicast
+sur le réseau en IPv4 ou en IPv6 et les VLCs reçoivent ces annonces
+et ajoutent automatiquement les programmes annoncés à leur liste de
+lecture.</span>
+<span xml:lang="es">Se puede añadir información de servicio a un canal basado en el estándar SAP/SDP
+para la solución VideoLAN. El mini-servidor-SAP envía anuncios acerca de los programas multicast en la red
+en IPv4 o IPv6, y VLC recibe estos anuncios y automáticamente añade los anuncios de programas a su
+lista de reproducción.</span>
+<span xml:lang="de">Sie können einen Kanal-Informationsdienst, basierend auf
+dem SAP/SDP-Standard, der VideoLAN-Lösung hinzufügen. Der mini-SAP-Server
+sendet Ankündigungen über die Multicast-Programme im Netzwerk in IPv4 und
+IPv6. VLC-Anwendungen erhalten diese Ankündigungen und fügen die
+Programme automatisch ihrer Wiedergabeliste hinzu.</span>
+</para>
+
+<para>
+<span xml:lang="en">The mini-SAP-server works under Linux and Mac OS X.</span>
+<span xml:lang="fr">Le mini-SAP-server fonctionne sous Linux et Mac OS X.</span>
+<span xml:lang="es">El mini-servidor-SAP trabaja bajo Linux y Mac OS X.</span>
+<span xml:lang="de">Der mini-SAP-Server läuft unter Linux und Mac OS X.</span>
+</para>
+
+</simplesect>
+</sect2>
+</sect1>
+
+<sect1><title>
+<span xml:lang="en">What is a codec ?</span>
+<span xml:lang="fr">Qu'est-ce qu'un codec ?</span>
+<span xml:lang="es">¿Qué es un codec?</span>
+<span xml:lang="de">Was ist ein Codec?</span>
+</title>
+
+&codec-demux;
+
+</sect1>
+
+<sect1><title>
+<span xml:lang="en">How can I use VideoLAN ?</span>
+<span xml:lang="fr">Utilisation de VideoLAN ?</span>
+<span xml:lang="es">¿Cómo se usa VideoLAN?</span>
+<span xml:lang="de">Wie benutze ich VideoLAN?</span>
+</title>
+
+<sect2><title>
+<span xml:lang="en">Documentation</span>
+<span xml:lang="fr">Documentation</span>
+<span xml:lang="es">Documentación</span>
+<span xml:lang="de">Dokumentation</span>
+</title>
+
+<para>
+<span xml:lang="en">The user documentation of VideoLAN is made up of 4 documents :</span>
+<span xml:lang="fr">La documentation utilisateur de VideoLAN comporte 4 documents :</span>
+<span xml:lang="es">La documentación de usuario de VideoLAN se compone de 4 documentos :</span>
+<span xml:lang="de">Die Benutzerdokumentation von VideoLAN besteht aus
+4 Dokumenten:</span>
+
+</para>
+
+<itemizedlist>
+
+<listitem><para> <span xml:lang="en">the <emphasis>VideoLAN
+HOWTO</emphasis>. This document is the complete guide of the VideoLAN
+streaming solution. It will give you practical examples to set up your
+streaming solution.</span>
+
+<span xml:lang="fr">le  <emphasis>VideoLAN HOWTO</emphasis>. Ce 
+document est le guide complet de la solution de streaming VideoLAN.
+Ses exemples concrets vous aideront à mettre en place votre solution de 
+diffusion.</span>
+
+<span xml:lang="es"><emphasis>VideoLAN
+HOWTO</emphasis>. Este documento es la guía completa de la solución de streaming VideoLAN.
+Le mostrará ejemplos prácticos para la instalación de su solución de streaming.</span>
+
+<span xml:lang="de">Das <emphasis>VideoLAN HOWTO</emphasis>-Dokument
+ist das komplette Handbuch über die VideoLAN-Streaming-Lösung. Es enthält
+praktische Beispiele zur Aufsetzung Ihrer Streaming-Lösung.</span>
+
+</para></listitem>
+
+<listitem><para>
+<span xml:lang="en">the <emphasis>VLC user guide</emphasis>. This document
+is the complete guide for VLC.</span>
+<span xml:lang="fr">Le <emphasis>VLC user guide</emphasis>. Ce document 
+est le guide complet de VLC</span>
+<span xml:lang="es"><emphasis>VLC user guide</emphasis>. Este documento es la guía completa
+para VLC.</span>
+<span xml:lang="de">Der <emphasis>VLC user guide</emphasis>. Dieses 
+Dokument ist das komplette Handbuch für VLC.</span>
+</para></listitem>
+
+<listitem><para>
+<span xml:lang="en">the <emphasis>VLS user guide</emphasis>. This document
+is the complete guide for VLS.</span>
+<span xml:lang="fr">Le <emphasis>VLS user guide</emphasis>. Ce document 
+est le guide complet de VLS.</span>
+<span xml:lang="es"><emphasis>VLS user guide</emphasis>. Este documentos es la guía completa
+para VLS.</span>
+<span xml:lang="de">Der <emphasis>VLS user guide</emphasis>. Dieses Dokument
+ist das komplette Handbuch für VLS.</span>
+</para></listitem>
+
+<listitem><para>
+<span xml:lang="en">The <emphasis>VideoLAN FAQ</emphasis>.
+This document contains Frequently Asked Questions about
+VideoLAN.</span>
+<span xml:lang="fr">La <emphasis>FAQ de VideoLAN</emphasis>.
+Ce document contient la Foire Aux Questions de VideoLAN</span>
+<span xml:lang="es"><emphasis>VideoLAN FAQ</emphasis>.
+Este documento contiene preguntas frecuentes sobre VideoLAN.</span>
+<span xml:lang="de">Die <emphasis>VideoLAN-FAQ</emphasis>. Dieses Dokument
+enthält oft gestellte Fragen über VideoLAN.</span>
+</para></listitem>
+
+</itemizedlist>
+
+<para>
+<span xml:lang="en">
+The latest version of these documents can be found on the <ulink
+url="http://www.videolan.org/doc/">documentation page</ulink>
+</span>
+<span xml:lang="fr">
+La denière version de ces documents se trouve sur la <ulink
+url="http://www.videolan.org/doc/">page documentation</ulink>
+</span>
+<span xml:lang="es">
+La última versión de estos documentos se puede encontrar en la página de documentación <ulink
+url="http://www.videolan.org/doc/"></ulink>
+</span>
+<span xml:lang="de">
+Die neueste Version dieser Dokumente kann auf der
+<ulink url="http://www.videolan.org/doc/">Dokumentationseite</ulink>
+gefunden werden</span>
+.</para>
+
+</sect2>
+
+<sect2><title>
+<span xml:lang="en">User support</span>
+<span xml:lang="fr">Support aux utilisateurs</span>
+<span xml:lang="es">Soporte de usuario</span>
+<span xml:lang="de">Benutzersupport</span>
+</title>
+
+<para>
+<span xml:lang="en">
+If you have problems using VideoLAN, and if you don't find the
+answer to your problems in the documentation, please look at the <ulink
+url="http://www.via.ecp.fr/via/ml/videolan.html">online
+archive of the mailing-lists</ulink>. There are two English-speaking
+mailing-lists for the users :
+</span>
+<span xml:lang="fr">
+Si vous éprouvez des difficultés pour utiliser VideoLAN et que vous ne 
+trouvez pas la réponse à vos problèmes dans la documentation, merci de 
+regarder dans l'<ulink url="http://www.via.ecp.fr/via/ml/videolan-en.html">
+archive en-ligne des mailing-lists</ulink>. Il existe deux listes anglophones
+pour les utilisateurs :</span>
+<span xml:lang="es">
+Si tiene problemas usando VideoLAN, y no encuentra la respuesta a esos problemas
+en la documentación, por favor mire la documentación online de las listas de correo <ulink
+url="http://www.via.ecp.fr/via/ml/videolan-en.html"></ulink>. Hay dos listas de correo en inglés
+para los usuarios :
+</span>
+<span xml:lang="de">
+Wenn Sie Probleme bei der Benutzung von VideoLAN haben und die Antwort auf
+Ihre Probleme in der Dokumentation nicht finden können, auf Sie bitte in das
+<ulink url="http://www.via.ecp.fr/via/ml/videolan-en.html">
+Onlinearchiv der Mailinglisten</ulink>. Es gibt zwei englischsprachige Mailinglisten
+für die Benutzer:</span>
+</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>vlc@videolan.org</emphasis>
+ <span xml:lang="en">for the questions on VLC</span>
+ <span xml:lang="fr">pour les questions relatives à VLC</span>
+ <span xml:lang="es">para las preguntas sobre VLC</span>
+ <span xml:lang="de">für die Fragen über VLC</span>
+,</para></listitem>
+
+<listitem><para><emphasis>streaming@videolan.org</emphasis> 
+ <span xml:lang="en">for the questions on VLS, mini-SAP-server
+    and the network</span>
+ <span xml:lang="fr">pour les questions relatives à VLS, au mini-SAP-server,
+  et au réseau</span>
+ <span xml:lang="es">para las preguntas sobre VLS, el mini-servidor-SAP y la red</span>
+ <span xml:lang="de">für die Fragen über VLS, mini-SAP-Server und
+  das Netzwerk</span>
+.</para></listitem>
+
+</itemizedlist>
+
+<para>
+<span xml:lang="en">
+If you want to subscribe or unsubscribe to the mailing-lists,
+please go to the <ulink url="http://www.videolan.org/support/lists.html">
+mailing-list page</ulink>.
+</span>
+<span xml:lang="fr">
+Pour vous inscrire ou vous désinscrire de ces mailing-lists,
+merci de voir la <ulink url="http://www.videolan.org/support/lists.html">
+page mailing-lists</ulink>.
+</span>
+<span xml:lang="es">
+Si desea subscribirse o darse de baja en las listas de correo, por favor vaya a la página de 
+listas de correo <ulink url="http://www.videolan.org/support/lists.html"></ulink>.
+</span>
+<span xml:lang="de">
+Wenn Sie sich bei einer dieser Listen einschreiben oder austragen möchten,
+gehen Sie bitte auf die <ulink url="http://www.videolan.org/support/lists.html">
+Mailinglisten Seite</ulink>.
+</span>
+</para>
+
+<para>
+<span xml:lang="en">You can also talk with VideoLAN users and developers on IRC :
+server <emphasis>irc.freenode.net</emphasis>, channel
+<emphasis>#videolan</emphasis></span>
+<span xml:lang="fr">Vous pouvez également parler aux utilisateurs et développeurs
+VideoLAN sur IRC, sur le serveur <emphasis>irc.freenode.net</emphasis>, et le
+channel <emphasis>#videolan</emphasis></span>
+<span xml:lang="es">Puede hablar con usuarios y desarrolladores de VideoLAN en el IRC :
+servidor <emphasis>irc.freenode.net</emphasis>, canal
+<emphasis>#videolan</emphasis></span>
+<span xml:lang="de">Sie können auch mit VideoLAN Benutzern und Entwicklern über
+IRC sprechen: Server <emphasis>irc.freenode.net</emphasis>, Channel
+<emphasis>#videolan</emphasis></span>
+.</para>
+
+<para>
+<span xml:lang="en">If you find a bug, please follow the instructions on 
+the <ulink url="http://www.videolan.org/support/bug-reporting.html">
+bug reporting page</ulink></span>
+<span xml:lang="fr">Si vous découvrez un bug, merci de bien vouloir suivre
+les instructions de la page 
+<ulink url="http://www.videolan.org/support/bug-reporting.html">report de bug
+</ulink></span>
+<span xml:lang="es">Si encuentra un bug, por favor siga las instrucciones de la página de informe de bugs
+<ulink url="http://www.videolan.org/support/bug-reporting.html"></ulink></span>
+<span xml:lang="de">Wenn Sie einen Fehler finden, folgen Sie bitte der
+Anleitung auf der  <ulink url="http://www.videolan.org/support/bug-reporting.html">
+Fehlermeldeseite</ulink></span>
+.</para>
+
+</sect2>
+</sect1>
+
+<sect1><title>
+<span xml:lang="en">Command line usage</span>
+<span xml:lang="fr">Utilisation de la ligne de commande</span>
+<span xml:lang="es">Utilización de la línea de comandos</span>
+<span xml:lang="de">Befehlszeilenbenutzung</span>
+</title>
+
+<itemizedlist>
+
+
+<listitem><para>
+<span xml:lang="en">
+VLC has many different graphical interfaces, that
+are organized quite differently in order to be in harmony with the
+guidelines of each operating system supported. Documenting the use
+of each graphical interface is too long, and some features are only
+available via the command line interface. Therefore we decided to
+document only the command line interface, but in many cases it shoud
+be easy to guess how to use the graphical interface for the same use
+!
+</span>
+<span xml:lang="fr">
+VLC possède un certain nombre d'interfaces graphiques différentes, qui
+sont organisées de façon assez diverses, de façon à s'harmoniser avec
+le style de chaque système d'exploitation. Documenter l'utilisation de
+chaque interface graphique serait très long et certaines fonctionnalités
+ne sont accessibles que depuis l'interface en ligne de commande. C'est
+pourquoi nous avons décidé de ne documenter que l'interface en ligne de
+commande, mais dans la plupart des cas, il devrait être assez facile
+de deviner comment utiliser l'interface graphique pour le même usage
+!</span>
+<span xml:lang="es">
+VLC tiene varias interfaces gráficas, que están organizadas de forma diferente
+con el fin de estar en harmonía con las líneas generales de cada sistema operativo. Documentar el
+uso de cada interfaz gráfica es demasiado largo, y algunas características son sólo disponibles a través de la
+interfaz de línea de comandos. Por lo tanto decidimos documentar sólo la interfaz de línea de comandos, 
+¡pero en muchos casos debería ser fácil averiguar cómo usar la interfaz gráfica con el mismo propósito!
+</span>
+<span xml:lang="de">
+VLC hat viele unterschiedliche grafische Oberflächen, die sehr unterschiedlich
+aufgebaut sind, um mit den Richtlinien des jeweiligen System zu entsprechen.
+Die Funktionalität jeder Oberfläche zu dokumentieren, wäre zu aufwendig und
+einige Features sind nur über die Befehlszeile verfügbar. Deshalb haben wir
+uns entschieden, nur die Befehlszeilenoberfläche zu dokumentieren, aber
+in vielen Fällen sollte es einfach zu erraten sein, wie die grafische Oberfläche
+entsprechend zu benutzen ist!
+</span>
+</para></listitem>
+
+<listitem><para>
+<span xml:lang="en">VLS has a command line and a telnet interface, but no
+graphical interface !</span>
+<span xml:lang="fr">VLS est doté d'une interface en ligne de commande, et 
+d'une interface Telnet, mais n'a pas d'interface graphique !</span>
+<span xml:lang="es">VLS tiene una línea de comandos y una interfaz telnet, ¡pero no una interfaz gráfica!
+</span>
+<span xml:lang="de">VLS hat eine Befehlszeilen- und eine Telnet-Oberfläche,
+aber keine grafische!</span>
+</para></listitem>
+
+</itemizedlist>
+
+<para>
+<span xml:lang="en">
+All the commands that show up in this document should be typed
+inside a terminal.</span>
+<span xml:lang="fr">Toutes les commandes que vous voyez dans ce document
+doivent être tapées dans un terminal</span>
+<span xml:lang="es">
+Todos los comandos que se describen en este documento deben ser tecleados dentro de un terminal</span>
+<span xml:lang="de">Alle Befehle, die in diesem Dokument auftauchen, sollten
+in ein Terminal eingeben werden.</span>
+.</para>
+
+<sect2><title>
+<span xml:lang="en">Open a terminal</span>
+<span xml:lang="fr">Ouvrez un terminal</span>
+<span xml:lang="es">Abrir un terminal</span>
+<span xml:lang="de">Öffnen Sie ein Terminal</span>
+</title>
+
+<simplesect><title>Windows</title>
+
+<para>
+<span xml:lang="en">Click on <emphasis>Start</emphasis>,
+<emphasis>Run</emphasis> and type :</span>
+<span xml:lang="fr">Cliquez sur <emphasis>Démarrer</emphasis>,
+<emphasis>Exécuter</emphasis> and tapez :</span>
+<span xml:lang="es">Pinchar en <emphasis>Inicio</emphasis>,
+<emphasis>Ejecutar</emphasis> y teclear :</span>
+<span xml:lang="de">Klicken Sie auf <emphasis>Start</emphasis>,
+<emphasis>Ausführen</emphasis> und geben Sie ein:</span>
+</para>
+
+<itemizedlist>
+
+<listitem><para><command>cmd</command> <keycap>Enter</keycap>
+(Windows 2000 / XP),</para></listitem>
+
+<listitem><para><command>command</command> <keycap>Enter</keycap>
+(Windows 95 / 98 / ME).</para></listitem>
+
+</itemizedlist>
+
+<para>
+<span xml:lang="en">The terminal appears</span>
+<span xml:lang="fr">Le terminal apparait</span>
+<span xml:lang="es">En el terminal aparece</span>
+<span xml:lang="de">Das Terminal erscheint</span>
+</para>
+
+<figure><title>Windows terminal</title>
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/terminal-windows.jpg" format="JPG" scalefit="1" scale="60" />
+  </imageobject>
+</mediaobject>
+</figure>
+
+<note><para>
+<span xml:lang="en">Under Windows, you need to be in the directory where the
+program is installed to run it.</span>
+<span xml:lang="fr">Sous Windows, vous devez vous situer dans le dossier où 
+le programme est installé pour le lancer</span>
+<span xml:lang="es">Bajo Windows, se necesita estar en el directorio donde está instalado
+el programa para ejecutarlo.</span>
+<span xml:lang="de">Unter Windows müssen Sie in dem Verzeichnis sein, wohin
+das Programm installiert wurde, um es auszuführen.</span>
+</para></note>
+
+</simplesect>
+
+<simplesect><title>Linux / Unix</title>
+
+<para>
+<span xml:lang="en">Open a terminal</span>
+<span xml:lang="fr">Ouvrez un terminal</span>
+<span xml:lang="es">Abrir un terminal</span>
+<span xml:lang="de">Öffnen Sie ein Terminal</span>
+ :</para>
+
+<figure><title>Linux X terminal</title>
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/terminal-linux.jpg" format="JPG" scalefit="1" scale="60" />
+  </imageobject>
+</mediaobject>
+</figure>
+
+<para>
+<span xml:lang="en">In the documentation, we adopt the following 
+conventions for the Unix commands :</span>
+<span xml:lang="fr">Dans la documentation, nous adoptons les conventions
+suivantes pour les commandes Unix :</span>
+<span xml:lang="es">En la documentación, adoptamos la siguiente convención para 
+los comandos Unix :</span>
+<span xml:lang="de">In der Dokumentation adoptieren wir die folgenden
+Konventionen für die Unix-Befehle:</span>
+</para>
+
+<itemizedlist>
+
+<listitem><para>
+<span xml:lang="en">commands that should be typed as
+<emphasis>root</emphasis> have a <command>#</command> prompt :</span>
+<span xml:lang="fr">Les commandes devant être lancées en tant que 
+<emphasis>root</emphasis> commencent par un <command>#</command> :</span>
+<span xml:lang="es">los comandos que deben ser tecleados como
+<emphasis>root</emphasis> tienen un <command>#</command> prompt :</span>
+<span xml:lang="de">Befehle, die als <emphasis>root</emphasis> eingegeben werden
+sollten, beginnen mit einem <command>#</command>:</span>
+</para>
+
+<screen>
+<prompt># </prompt>
+<userinput>
+<span xml:lang="en">command_to_be_typed_as_root</span>
+<span xml:lang="fr">commande_a_lancer_en_root</span>
+<span xml:lang="es">comando_a_ser_tecleado_como_root</span>
+<span xml:lang="de">befehl_der_als_root_eingegeben_werden_soll</span>
+</userinput>
+</screen>
+
+</listitem>
+
+<listitem><para>
+<span xml:lang="en">commands that should be typed as a regular user have a
+<command>%</command> prompt :</span>
+<span xml:lang="fr">Les commandes devant être lancées en tant qu'utilisateur
+normal commencent par un <command>%</command> :</span>
+<span xml:lang="es">los comandos que deben ser tecleados como un usuario normal tienen un
+<command>%</command> prompt :</span>
+<span xml:lang="de">Befehle, die als normaler Benutzer eingeben werden sollten,
+beginnen mit einem <command>%</command>:</span>
+</para>
+
+<screen>
+<prompt>% </prompt>
+<userinput>
+<span xml:lang="en">command_to_be_typed_as_regular_user</span>
+<span xml:lang="fr">commande_a_lancer_en_tant_qu_utilisateur</span>
+<span xml:lang="es">comandos_a_ser_tecleados_como_usuario_normal</span>
+<span xml:lang="de">befehl_der_als_normaler_benutzer_eingegeben_werden_sollte</span>
+</userinput>
+</screen>
+
+</listitem>
+
+</itemizedlist>
+
+</simplesect>
+
+<simplesect><title>Mac OS X</title>
+
+<para>
+
+<span xml:lang="en">Go to <emphasis>Applications</emphasis>, open the
+folder <emphasis>Utilities</emphasis> and double-click on
+<emphasis>Terminal</emphasis></span>
+<span xml:lang="fr">Allez dans <emphasis>Applications</emphasis>, ouvrez le
+dossier  <emphasis>Utilitaires</emphasis> et double-cliquez sur
+<emphasis>Terminal</emphasis></span>
+<span xml:lang="es">Ir a <emphasis>Aplicaciones</emphasis>, abrir la carpeta
+<emphasis>Utilidades</emphasis> y hacer doble-click en
+<emphasis>Terminal</emphasis></span>
+<span xml:lang="de">Gehen Sie in den Ordner <emphasis>Programme</emphasis>,
+öffnen Sie den Ordner <emphasis>Dienstprogramme</emphasis> und doppelklicken Sie
+auf <emphasis>Terminal</emphasis></span>
+ :</para>
+
+<figure><title>Mac OS X terminal</title>
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/terminal-macosx.jpg" format="JPG" scalefit="1" scale="60" />
+  </imageobject>
+</mediaobject>
+</figure>
+
+<note><para>
+<span xml:lang="en">Under Mac OS X, you need to be in the directory where
+the program is installed to run it, and start the command with
+<command>./</command> </span>
+<span xml:lang="fr">Sous Max OS X, vous devez vous situer dans le dossier où 
+le programme est installé pour le lancer, et le lancer avec 
+<command>./</command> </span>
+<span xml:lang="es">Bajo Mac OS X, se necesita estar en el directorio donde el programa ha sido instalado
+para ejecutarlo, y empezar el comando con <command>./</command> </span>
+<span xml:lang="de">Unter Mac OS X müssen Sie in dem Ordner sein, in dem das Programm
+installiert wurde, um es auszuführen und der Befehl muss mit
+<command>./</command> beginnen</span>
+.</para></note>
+
+</simplesect>
+
+<simplesect><title>BeOS</title>
+
+<para>
+<span xml:lang="en">In the deskbar, go to <emphasis>Application</emphasis> and then
+<emphasis>Terminal</emphasis> :</span>
+<span xml:lang="fr">Dans la barre de bureau, allez à <emphasis>Application</emphasis>
+et sur <emphasis>Terminal</emphasis> :</span>
+<span xml:lang="es">En la barra de herramientas, vaya a <emphasis>Aplicaciones</emphasis> y después a
+<emphasis>Terminal</emphasis> :</span>
+<span xml:lang="de">In der Schreibtischleiste gehen Sie auf <emphasis>Application</emphasis>
+und dann auf <emphasis>Terminal</emphasis>:</span>
+</para>
+
+<figure><title>BeOS terminal</title>
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/terminal-beos.jpg" format="JPG" scalefit="1" scale="60" />
+  </imageobject>
+</mediaobject>
+</figure>
+
+<note><para>
+<span xml:lang="en">Under BeOS, you need to be in the directory where
+the program is installed to run it, and start the command with
+<command>./</command></span>
+<span xml:lang="fr">Sous BeOS, vous devez vous situer dans le dossier où 
+le programme est installé pour le lancer, et le lancer avec
+<command>./</command></span>
+<span xml:lang="es">Bajo BeOS, se necesita estar en el directorio donde el programa ha sido instalado
+para ejecutarlo, y empezar el comando con <command>./</command></span>
+<span xml:lang="de">Unter BeOS müssen Sie in dem Verzeichnis sein, wo das Programm
+installiert wurde, um es auszuführen und der Befehl muss mit
+<command>./</command>beginnen</span>
+.</para></note>
+
+</simplesect>
+</sect2>
+</sect1>
+
+</chapter>

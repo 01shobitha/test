@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<sect1><title>
+Démultiplexeurs
+</title>
+
+<para>
+Dans un flux, les signaux vidéo et audio sont
+toujours inclus dans un format "conteneur". Les démultiplexeurs
+extraient les flux de ce conteneur et les envoient aux décodeurs
+.</para>
+
+<para>
+Par exemple, un fichier AVI peut contenir une vidéo
+encodée en MPEG-4, ou une vidéo non compressée. AVI est seulement un
+format de stockage, pas un format de compression
+.</para>
+
+<sect2><title>avi</title>
+&always;
+<para>
+Ce module vous permet de lire les fichiers
+<filename>.avi</filename>
+.</para>
+&options-st;
+<itemizedlist>
+ <listitem>
+  <para><emphasis>--avi-interleaved, --no-avi-interleaved </emphasis>:
+   Active ou désactive le mode entrelacé (desactivé par défaut)
+  </para>
+ </listitem>
+ <listitem>
+  <para><emphasis>--avi-index, --no-avi-index </emphasis>:
+   Force la création d'un index, ce qui peut aider
+     la lecture de flux buggés (désactivé par défaut)
+  </para>
+ </listitem>
+</itemizedlist>
+</sect2>
+
+<sect2><title>asf</title>
+&always;
+<para>
+Ce module vous permet de lire les fichiers
+<filename>.asf</filename>
+</para></sect2>
+
+<sect2><title>aac</title>
+&always;
+<para>
+Ce module vous permet de lire les fichiers
+ AAC
+</para></sect2>
+
+<sect2><title>ogg</title>
+&enabled;
+<para>
+Ce module vous permet de lire les fichiers
+<filename>.ogg</filename>
+</para></sect2>
+
+<sect2><title>rawdv</title>
+&always;
+<para>
+Ce module vous permet de lire les fichiers
+ DV
+</para></sect2>
+
+<sect2><title>dvbpsi</title>
+&enabled;
+<para>
+Ce module vous permet de lire les flux d'une carte
+satellite.
+</para></sect2>
+
+<sect2><title>mp4</title>
+&always;
+<para>
+Ce module vous permet de lire les fichiers
+<filename>.mp4</filename>
+</para></sect2>
+
+<sect2><title>mkv</title>
+&enabled;
+<para>
+Ce module permet de lire les fichiers utilisant le
+format Matroska
+.</para>
+&options-st;  
+<itemizedlist>
+<listitem>
+<para><emphasis>--mkv-seek-percent, --no-mkv-seek-percent</emphasis> :
+   Avec cette option (activée par défaut), le 
+	déplacement dans le fichier se fait selon le pourcentage et non suivant le temps
+   
+</para>
+</listitem>
+</itemizedlist>
+</sect2>
+
+<sect2><title>ps,ts</title>
+&always;
+<para>
+Ces modules vous permettent de lire les flux
+encapsulés en MPEG2-Program Stream ou Transport Stream
+.</para>
+&options-st;  
+<itemizedlist>
+<listitem>
+<para><emphasis>--vls-backward-compat, --no-vls-backward-compat</emphasis> :
+    Activez cette option pour pouvoir lire des flux MPEG 2 TS diffusés
+   par des VLS antérieurs 0.4
+  </para></listitem>
+  <listitem><para><emphasis>--buggy-psi, --no-buggy-psi (ts module) </emphasis>:
+    Activez cette option pour améliorer la 
+     prise en charge des flux ayant des PSI bugguées.
+  </para>
+ </listitem>
+</itemizedlist>
+</sect2>
+
+<sect2><title>id3,m3u</title>
+&always;
+<para>
+Ces modules vous permettent de lire les playlists
+M3U, B4S, PLS, et ASX, ainsi que les tags ID3
+.</para></sect2>
+
+</sect1>

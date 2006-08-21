@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<sect1><title>
+Betriebssystemunterstützungsmodule
+</title>
+
+<para>
+Die folgenden Module fügen Unterstützung für
+verschiedene Betriebsysteme hinzu.
+
+</para>
+
+<sect2>
+<title>macosx</title>
+<para>
+Dies ist das MacOS X Unterstützungsmodul inklusive eines nativen
+Interfaces.
+
+</para></sect2>
+
+<sect2><title>qnx</title>
+<para>
+Dies ist das QNX RTOS Unterstützungsmodul.
+
+</para></sect2>
+
+</sect1>
+
+
+<sect1><title>
+Verschiedenes
+</title>
+
+<para>
+Diese Sektion beschreibt einige weitere Module, die zu
+keiner bisher beschriebenen Kategorie gehören.
+
+</para>
+
+<sect2><title>sout</title>
+&enabled;
+<para>
+Die Streamausgabe ist ein neues Feature von VLC, das
+das Streamen einer MPEG-1, MPEG-2 oder MPEG-4/DivX - Datei oder einer
+DVD erlaubt.
+
+</para>
+
+<para>
+Schauen Sie für weitere Details in in die <xref
+linkend="cmdline" endterm="tcmdline"/>-Sektion.
+
+</para>
+
+</sect2>
+
+<sect2><title>test-suite</title>
+&disabled;
+<para>
+Dies erzeugt ein spezielles VLC für Testzwecke.
+
+</para>
+</sect2>
+
+<sect2><title>mozilla</title>
+&disabled;
+<para>
+Dies ist kein wirkliches Modul. Wenn es aktiviert ist, wird
+ein VLC-basiertes Mozillaplugin erstellt.
+
+</para>
+
+</sect2>
+
+<sect2><title>xosd</title>
+&disabled;
+<para><emphasis>
+Nur für Unix
+</emphasis></para>
+
+<para>
+Dieses Plugin gibt den derzeitigen Stream an ein "OSD"
+(On Screen Display) aus.
+
+</para>
+
+</sect2>
+</sect1>
+
+
+<sect1><title>
+Kompilierungsoptionen
+</title>
+
+<para>
+Es gibt einige wenige Optionen, die Sie einstellen
+können, wenn Sie das configure-Skript ausführen, die sich nicht auf Module
+beziehen.
+
+</para>
+
+<para>
+Sie können einen Blick auf diese werfen, indem Sie
+folgendes eingeben:</para>
+
+<screen>
+<prompt>% </prompt><userinput>./configure --help</userinput>
+</screen>
+
+<para>
+Sie können beispielsweise alle Installationsverzeichnisse,
+das System wofür VLC erstellt wird (falls nicht richtig erkannt),
+usw. kontrollieren.
+</para>
+
+<para>
+Sie können auch die Aktivierung oder Deaktivierung
+einiger Optimierungen wählen.
+</para>
+
+<sect2><title>--disable-plugins</title>
+
+<para>
+Wenn Sie dies aktivieren werden keine Plugins aktiviert.
+Dies ist wirklich nicht empfehlenswert, weil Sie ein sehr armes VLC erhalten
+werden. Sie sollten dies nur für Testzwecke benutzen.
+
+</para>
+
+</sect2>
+</sect1>

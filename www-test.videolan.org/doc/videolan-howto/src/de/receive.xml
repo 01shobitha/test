@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="receive"><title id="treceive">
+
+
+
+Einen Stream empfangen und speichern
+</title>
+
+<sect1><title>
+
+
+
+Einen Stream mit VLC empfangen
+</title>
+
+<sect2><title>
+
+
+
+Einen Unicast-Stream empfangen
+</title>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv udp:</userinput>
+</screen>
+
+</sect2>
+
+<sect2><title>
+
+
+
+Einen Multicast-Stream empfangen
+</title>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv udp:@239.255.12.42</userinput>
+</screen>
+
+<para>
+
+
+
+wobei <emphasis>239.255.12.42</emphasis> die
+Multicast-IP-Adresse ist, an der Sie teilnehmen möchten.
+
+</para>
+
+</sect2>
+
+<sect2><title>
+
+
+
+Einen HTTP/FTP/MMS-Stream empfangen
+</title>
+
+<para>
+
+
+
+Nutzen Sie eine der folgenden Befehlszeilen
+ :</para>
+
+<itemizedlist>
+
+<listitem>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv http://example/stream.xyz</userinput>
+</screen>
+
+<para>
+
+
+
+wobei <emphasis>http://example/stream.xyz
+</emphasis> die HTTP-Adresse des Streams ist
+ ;</para>
+
+</listitem>
+
+<listitem>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv ftp://example/stream.xyz</userinput>
+</screen>
+
+<para>
+
+
+
+wobei <emphasis>ftp://example/stream.xyz</emphasis>
+die FTP-Adresse des Streams ist
+ ;</para>
+
+
+</listitem>
+
+<listitem>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv mms://viptvr.yacast.fr/encoderfranceinfo</userinput>
+</screen>
+
+<para>
+
+
+
+wobei
+<emphasis>mms://viptvr.yacast.fr/encoderfranceinfo</emphasis> die
+MMS-Adresse des Streams ist.
+
+</para>
+
+</listitem>
+</itemizedlist>
+
+</sect2>
+
+<sect2><title>
+
+
+
+Erhalten eines RTP-Streams, der per RTSP verfügbar ist 
+</title>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv rtsp://www.hardradio.com/tonbeme.mov</userinput>
+</screen>
+
+<para>
+
+
+
+wobei <emphasis>rtsp://www.hardradio.com/tonbeme.mov</emphasis> die Adresse des Streams ist.
+
+</para>
+
+</sect2>
+
+<sect2><title>
+
+
+
+Erhalten eines per SDP-Datei beschriebenen Streams
+</title>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv http://server.example.org/stream.sdp</userinput>
+</screen>
+
+</sect2>
+</sect1>
+
+<sect1><title>
+
+
+
+Einen Stream mit VLC speichern
+</title>
+
+<para>
+
+
+
+VLC kann den Stream auf der Festplatte speichern. Um dies
+zu tun, benutzen Sie die Stream-Ausgabe von VLC: Sie können dies über das
+grafische Interface tun oder der Befehlszeile das folgende Argument 
+hinzufügen
+ :</para>
+
+<screen>
+<userinput>--sout file/muxer:stream.xyz</userinput>
+</screen>
+
+<para>
+
+
+
+wobei
+:</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>muxer</emphasis> 
+
+
+
+ein von VLC's Stream-Ausgabe benutztes Format ist,
+z.B.
+:</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>avi</emphasis>
+ 
+ 
+ 
+  für das AVI-Format
+,</para></listitem>
+
+<listitem><para><emphasis>ogg</emphasis>
+ 
+ 
+ 
+  für das OGG-Format
+,</para></listitem>
+
+<listitem><para><emphasis>ps</emphasis> 
+ 
+ 
+ 
+  für das MPEG2-PS-Format
+,</para></listitem>
+
+<listitem><para><emphasis>ts</emphasis> or
+<emphasis>ts_dvbpsi</emphasis> 
+ 
+  
+ 
+   für das MPEG2-PS-Format (der zweite nutzt
+<emphasis>libdvbpsi</emphasis>).
+
+</para></listitem>
+
+</itemizedlist>
+
+</listitem>
+
+<listitem><para>
+
+
+
+und <filename>stream.xyz</filename> ist der Name der
+Datei mit dem richtigen Suffix, in der Sie den Stream speichern möchten.
+
+</para></listitem>
+
+</itemizedlist>
+
+</sect1>
+
+<sect1><title>
+
+
+
+Einen Stream mit einer Set-Top-Box empfangen
+</title>
+
+<para>
+
+
+
+Einige Set-Top-Boxen mit Ethernet-Karten können
+MPEG2-TS-Streams über UDP empfangen und unterstützen Multicast.
+Dies ist der Fall bei den <ulink url="http://www.pace.co.uk">Pace</ulink>
+und <ulink url="http://www.aminocom.com">Aminocom</ulink> - 
+Set-Top-Boxen. Wir haben die <emphasis>AmiNET 100</emphasis> 
+Set-Top-Box von Aminocom getestet: sie ist schön und klein und arbeitet
+sehr gut mit VideoLAN.
+
+</para>
+
+</sect1>
+</chapter>

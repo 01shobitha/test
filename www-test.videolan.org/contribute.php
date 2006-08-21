@@ -16,7 +16,7 @@
 can help us develop the software. Read the <a                           
 href="http://developers.videolan.org/">developer documentations</a>,    
 subscribe to the <a href="/support/lists.html">mailing-lists</a>, have  
-a look at the <a href="http://bugzilla.videolan.org/">bug-tracking      
+a look at the <a href="http://trac.videolan.org/">bug-tracking      
 system</a>, join the <a href="/support/">IRC channel</a> and start to   
 code! Send your code to the developer mailing-lists under the form of   
 patches for the current <a href="http://developers.videolan.org/svn.html">

@@ -27,7 +27,7 @@ echo "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n";
    <link rel="stylesheet" type="text/css" href="/main.css" />
    <!--[if lt IE 7]>
 	<style type="text/css">
-           @media screen{ #page {behavior:url("/width.htc");} }
+           @media screen{ body{behavior:url("/width.htc");} }
         </style>
    <![endif]-->
    <link rel="shortcut icon" type="image/x-icon"

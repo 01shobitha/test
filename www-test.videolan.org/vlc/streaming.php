@@ -43,12 +43,7 @@ streaming features are available</a>.</p>
 			archive</a>.</li>
 
 		</ul>
-	<?php panel_end(); ?>
-
-	<?php panel_start('orange' ); ?>
-		<h1>Documentation</h1>
-		<p>The VideoLAN streaming solution is <a href="/doc">documented in our documentation section</a></p>
-	<?php panel_end(); ?>
+  <?php panel_end(); ?>
 </div>
 
 <div style="float:left">
@@ -71,7 +66,9 @@ digital television card or a MPEG-2 encoding card,</li>
 		</ul>
 		<p></p>
 		<p>VLC is able to announce its streams using the SAP/SDP standard, or using Zeroconf (also known as Bonjour).</p>
+		<h2>Documentation</h2>
+		<p>The VideoLAN streaming solution is <a href="/doc">documented in our documentation section</a></p>
 	</div>
 </div>
-<div style="min-height:1em;"></div>
+<div style="min-height:3em;"></div>
 <?php footer('$Id: index.php 3765 2006-08-16 16:19:00Z dionoea $'); ?>

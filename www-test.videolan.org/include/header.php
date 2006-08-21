@@ -174,4 +174,4 @@ StartHtml( ereg_replace( "<[^>]*>" , "" , $title ) , $enable_live) ;
 	</div>
 </div>
 
-<div id="maincontent" class="clearfix">
+<div id="maincontent">

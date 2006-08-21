@@ -634,12 +634,12 @@ div.screenshot{ float:left; margin-right: 3em; text-align:center; }
 /* Flags */
 
 .mirror li { padding-left: 25px; }
-ul li.au { background: url(images/flags/au.png) left no-repeat; }
-ul li.fr { background: url(images/flags/fr.png) left no-repeat; }
-ul li.nl { background: url(images/flags/nl.png) left no-repeat; }
-ul li.se { background: url(images/flags/se.png) left no-repeat; }
-ul li.tw { background: url(images/flags/tw.png) left no-repeat; }
-ul li.us { background: url(images/flags/us.png) left no-repeat; }
+#maincontent table td.au { padding-left:2em;background: url(images/flags/au.png) left no-repeat; }
+#maincontent table td.fr { padding-left:2em;background: url(images/flags/fr.png) left no-repeat; }
+#maincontent table td.nl { padding-left:2em; background: url(images/flags/nl.png) left no-repeat; }
+#maincontent table td.se { padding-left:2em;background: url(images/flags/se.png) left no-repeat; }
+#maincontent table td.tw { padding-left:2em;background: url(images/flags/tw.png) left no-repeat; }
+#maincontent table td.us { padding-left:2em;background: url(images/flags/us.png) left no-repeat;}
 
 /* Footer Layout -------------------------------------------------------------------------- */
 

@@ -67,7 +67,7 @@ a DVD navigation library.</li>
 
 <h2>Events</h2>
 
-<p>We regularly attend to computing events, like FOSDEM (Free-software
+<p>We regularly attend computing events, like FOSDEM (Free-software
 and Open Source Developers European Meeting). We generally come back
 with some <a href="/events">photos and stories</a>.</p>
 

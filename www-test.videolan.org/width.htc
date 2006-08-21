@@ -5,7 +5,7 @@
 <script>				
 	function setWidth(){
 		var windowWidth = element.document.compatMode == 'CSS1Compat' ? element.document.documentElement.clientWidth : element.document.body.clientWidth;
-		element.runtimeStyle.width = windowWidth < 756 ? 756 : 100+'%';
+		element.runtimeStyle.width = windowWidth < 750 ? 750 : 100+'%';
 	}
 </script>
 </public:component>

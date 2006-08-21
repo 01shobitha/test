@@ -52,13 +52,13 @@ cooperation of our partners, on both technical and financial sides: </p>
 
   <tr>
     <td colspan="2">
-        <h2> École Centrale</h2>
+        <h2> École Centrale Paris</h2>
     </td>
   </tr>
   <tr>
     <td>
         <p><a href="http://www.ecp.fr/"><img
-        src="/images/partners/logoecp.gif" width="100" alt="ECP" height="81" /></a></p>
+        src="/images/partners/logoECP.png" width="100" alt="ECP" height="81" /></a></p>
     </td>
     <td>
 

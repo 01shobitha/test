@@ -12,7 +12,7 @@
 <p>You are now a true VideoLAN fan? Help yourself in this page!</p>
 <h2>Cones</h2>
 
-<p>There has been many many versions of the VideoLAN cone: </p>
+<p>There have been many many versions of the VideoLAN cone: </p>
 
 <ul>
 

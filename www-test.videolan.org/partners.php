@@ -18,10 +18,10 @@ for professional services to order.</p>
 
 <tr><td colspan="2"><h2>Anevia</h2></td></tr>
 <tr>
-<td>
+<td><p class="center">
   <a href="http://www.anevia.com/">
   <img src="/images/partners/anevia.png" alt="Anevia" width="200" height="57" />
-  </a>
+  </a></p>
 </td>
 <td>French company founded by four members of the VideoLAN team (Brieuc
 Jeunhomme, Tristan Leteurtre, Damien Lucas and Alexis de Lattre - to
@@ -32,10 +32,10 @@ integration of high quality video streaming solutions.</td>
 
 <tr><td colspan="2"><h2>M2X</h2></td></tr>
 <tr>
-<td>
+<td><p class="center">
   <a href="http://www.m2x.nl/">
   <img src="/images/partners/m2x.png" alt="M2X" width="224" height="103" />
-  </a>
+  </a></p>
 </td>
 <td>M2X is an ICT company that is specialized in using Open Source software for providing solutions to IT problem areas of Networking (wired or wireless), Embedded and Multimedia. The founder of the company is a VideoLAN developer Jean-Paul Saman (see the <a href="/team/">VideoLAN team page</a> for more information on his contributions).</td>
 </tr>

@@ -58,7 +58,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   <tr>
     <td>
         <p><a href="http://www.ecp.fr/"><img
-        src="/images/partners/logoECP.png" width="100" alt="ECP" height="81" /></a></p>
+        src="/images/partners/logoECP.png" width="100" alt="ECP" height="80" /></a></p>
     </td>
     <td>
 
@@ -159,7 +159,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   <tr>
     <td>
         <p><a href="http://www.att.com/"><img
-        src="/images/partners/att.gif" width="150" height="79" alt="AT&amp;T" /></a></p>
+        src="/images/partners/att.png" width="57" height="87" alt="AT&amp;T" /></a></p>
     </td>
     <td>
 

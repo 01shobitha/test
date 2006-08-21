@@ -95,7 +95,10 @@ select {
 	text-decoration: underline;
 }
 
-#maincontent { text-align: left; }
+#maincontent {
+	text-align: left;
+	min-width: 780px;
+}
 
 #maincontent table a {
 	color: #2D58AE;

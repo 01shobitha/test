@@ -1,13 +1,36 @@
 /* Table of Contents:
-
-	Typography
+	CSS Hacks
+	General layouts
 	Header Layout
 	Middle Layout
 	Footer Layout
 	
 */
 
-/* Typography ----------------------------------------------------------------------------- */
+/************************* CSS Hacks *************************/
+
+/* Clearing floats easily, for all browsers */
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+/* PNG support for IE */
+img { border: none; behavior: url("/png.htc");}
+.DXImageTransformed { display: inline-block; }
+
+
+
+
+/********************* General Typography ************************/
 
 a, a:link, a:visited { color: #f60; }
 a:hover { color: #333; }
@@ -289,11 +312,6 @@ ul.bullets {
 	padding-left: 1em;
 	margin-bottom: 1em;
 }
-
-img { border: none; 
-     behavior: url("/png.htc"); 
-}
-.DXImageTransformed { display: inline-block; }
 
 #pagecontainer {
 	width: 86%;

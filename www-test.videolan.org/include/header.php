@@ -16,7 +16,7 @@ echo "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n";
 
 <head>
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-   <meta name="GENERATOR" content="vim [GNU/Linux], GNU Emacs" />
+   <meta name="Generator" content="vim [GNU/Linux], GNU Emacs" />
    <meta name="Author" content="videolan@videolan.org (VideoLAN team)" />
    <meta name="Keywords" content="DVD, MPEG, MPEG2, MPEG4, DivX, VideoLAN,
      VLC, VLS, Linux, Unix, BeOS, BSD, MacOS, MacOS X, OSX, QNX,
@@ -40,7 +40,7 @@ echo "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n";
    }
 ?>
   <div id="spacer"></div>
-  <div id="pagecontainer">
+  <div id="pagecontainer" class="clearfix">
 <?php
 }
 
@@ -71,7 +71,6 @@ function footer($tag) {
    global $language; ?>
 
 	</div> <!-- MAINCONTENT -->
-	   <div style="clear:both"></div>
 </div> <!-- PAGECONTAINER -->
 <div id="footer">
   <p> <a href="/">VideoLAN</a> &nbsp;-&nbsp;
@@ -165,7 +164,6 @@ StartHtml( ereg_replace( "<[^>]*>" , "" , $title ) , $enable_live) ;
       </form>
     </div>
   </div>
-	
 	<div id="submenucontainer">
 		<div class="videolan-logo">
 			<a href="/"><img src="/images/videolan-logo.png" alt="VideoLAN" width="100" height="47"/></a>
@@ -176,4 +174,4 @@ StartHtml( ereg_replace( "<[^>]*>" , "" , $title ) , $enable_live) ;
 	</div>
 </div>
 
-<div id="maincontent">
+<div id="maincontent" class="clearfix">

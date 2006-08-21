@@ -54,7 +54,7 @@ a DVD navigation library.</li>
 
 <h2>Hosted SVN projects</h2>
 
-<p>The project is also helping some projects by providing Subversion server:
+<p>The project is also helping some projects by providing Subversion server:</p>
 
 <ul class="bullets">
 
@@ -63,7 +63,6 @@ a DVD navigation library.</li>
 <li><a href="http://libmpeg2.sourceforge.net/">libmpeg2</a>, a free MPEG-2 video stream decoder</li>
 
 </ul>
-
 
 
 <h2>Events</h2>

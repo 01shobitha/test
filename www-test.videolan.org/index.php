@@ -34,7 +34,6 @@
           <ul class="panel-blue-bullet">
             <li>It is a free cross-platform media player</li>
             <li>It supports a <a href="/vlc/features.html">large number of multimedia formats</a>, without the need for additional codecs</li>
-            <li>It is available for almost every OS</li>
             <li>It can also be used as a streaming server, with extended 
 		features (video on demand, on the fly transcoding, ...)</li>
           </ul>

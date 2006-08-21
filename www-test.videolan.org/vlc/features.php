@@ -403,12 +403,13 @@
 
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/H264" target="_blank">H.264</a></td>
-<td class="partial">Experimental</td>
-<td class="partial">Experimental</td>
-<td class="partial">Experimental</td>
-<td class="partial">Experimental</td>
-<td class="partial">Experimental</td>
-<td class="partial">Experimental</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
 </tr>
 
 <tr>
@@ -1272,7 +1273,7 @@
 
 <tr>
 
-<td class="category" rowspan="2"><b>Service Information</b></td>
+<td class="category" rowspan="3"><b>Service Information</b></td>
 
 <td class="type"><a href="http://wiki.videolan.org/index.php/SAP" target="_blank">SAP</a> / <a href="http://wiki.videolan.org/index.php/SDP" target="_blank">SDP</a></td>
 <td class="yes">Yes</td>
@@ -1295,6 +1296,19 @@
 <td class="yes">Yes</td>
 
 </tr>
+
+<tr>
+
+<td class="type"><a href="http://wiki.videolan.org/index.php/protocol" target="_blank">Bonjour</a></td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="partial">Untested</td>
+<td class="partial">Untested</td>
+<td class="partial">Untested</td>
+
+</tr>
+
 
 <tr>
 
@@ -1523,7 +1537,7 @@
   <br />
   [2] DVD navigation is done through the libdvdplay library.
   <br />
-  [3] supported CPU extensions are MMX, MMXEXT, SSE and 3D Now! on x86
+  [3] supported CPU extensions are MMX, MMXEXT, SSE, SSE2 and 3D Now! on x86
   processors, and AltiVec on G4/G5 processors.
   <br />
   [4] the OpenBSD 2.9 default assembler does not support MMX.

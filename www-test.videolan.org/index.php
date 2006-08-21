@@ -24,7 +24,7 @@
     <div>
       <?php shownews("full",5); ?>
     </div>
-    <h4><a href="/news.html">Show all news</a></h4>
+    <h4><a href="/news.html">Read older news</a></h4>
   </div>
 
   <div id="right">

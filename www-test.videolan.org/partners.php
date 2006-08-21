@@ -233,7 +233,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   <tr>
     <td>
 	<p><a href="http://www.lacie.com"><img
-	src="/images/partners/LaCie.gif" alt="LaCie" width="147" height="61" /></a></p>
+	src="/images/partners/LaCie.gif" alt="LaCie" width="142" height="61" /></a></p>
     </td>
     <td>
 	<p>LaCie offered the team four DVD burners and a 1.6 Terabytes

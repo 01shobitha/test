@@ -41,16 +41,30 @@ decryption.</li>
 <li><a href="http://developers.videolan.org/libdvbpsi/">libdvbpsi</a>, a
 C library de decode and generate MPEG TS and DVB PSI tables.</li>
 
-<li><a href="http://developers.videolan.org/x264/">x264</a>, a H264 /
+<li><a href="http://developers.videolan.org/x264.html">x264</a>, a H264 /
 AVC encoder.</li>
 
-<li><a href="http://developers.videolan.org/libdca/">libdca</a>, a DTS
+<li><a href="http://developers.videolan.org/libdca.html">libdca</a>, a DTS
 Coherent Acoustics decoder.</li>
 
 <li><a href="http://developers.videolan.org/libdvdplay">libdvdplay</a>,
 a DVD navigation library.</li>
 
 </ul>
+
+<h2>Hosted SVN projects</h2>
+
+<p>The project is also helping some projects by providing Subversion server:
+
+<ul class="bullets">
+
+<li><a href="http://liba52.sourceforge.net/">liba52</a>, a free ATSC A/52 stream decoder.</li>
+
+<li><a href="http://libmpeg2.sourceforge.net/">libmpeg2</a>, a free MPEG-2 video stream decoder</li>
+
+</ul>
+
+
 
 <h2>Events</h2>
 

@@ -13,7 +13,7 @@
 <div id="left">
 	<h2>Overview of the VideoLAN streaming solution</h2>
   <p>The VideoLAN streaming solution includes two programs:</p>
-	<ul>
+	<ul class="bullets">
     <li><a href="/vlc">VLC media player</a> which can be used as a
 		<em>server</em> and as a <em>client</em> to stream and receive network
 		streams. VLC is able to stream all that it can read.</li>

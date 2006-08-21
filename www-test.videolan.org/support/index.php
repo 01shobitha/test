@@ -39,8 +39,8 @@ Double check that your issue still exists. </li>
 <li>Some things are simply NOT supported by VLC.
 We have a <a href="/vlc/features.html">list</a>
 of features that are supported in VLC and a <a
-href="https://trac.videolan.org/vlc/query?action=view&severity=enhanceme
-nt&order=priority">list of things</a> we would like to
+href="https://trac.videolan.org/vlc/query?action=view&type=enhancement&
+order=priority">list of things</a> we would like to
 implement in the future. If your suggestion is not on this
 list, you might want to make a <i>feature request</i> in the
 <a href="http://forum.videolan.org/viewforum.php?f=7">Requests

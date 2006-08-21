@@ -288,7 +288,9 @@ ul.bullets {
 }
 
 img { border: none; 
-	behavior: url("/pngbehavior.htc");}
+     behavior: url("/png.htc"); 
+}
+.DXImageTransformed { display: inline-block; }
 
 #pagecontainer {
 	width: 86%;

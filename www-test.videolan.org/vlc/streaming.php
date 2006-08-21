@@ -36,8 +36,12 @@ streaming features are available</a>.</p>
 			<li>To download VLC, go to the <a href="/vlc/index.html">VLC download 
 			page</a>.</li>
 			<li>To download VLS, you can <a
-			href="http://download.videolan.org/pub/videolan/vls">browse our FTP
+			href="http://download.videolan.org/pub/videolan/vls/">browse our FTP
 			archive</a>.</li>
+			<li>To download miniSAPserver, you can <a
+			href="http://download.videolan.org/pub/videolan/miniSAPserver/">browse our FTP
+			archive</a>.</li>
+
 		</ul>
 	<?php panel_end(); ?>
 

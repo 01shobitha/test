@@ -52,7 +52,7 @@
 	--></script>
 	<noscript>
 	   <p class="center">
-  	   <img src="/images/screenshots/vlc-win32.png" alt="VLC on Windows" />
+  	   <img src="/images/screenshots/vlc-win32.jpg" alt="VLC on Windows" />
 	   </p>
 	</noscript>
 	</p>

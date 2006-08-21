@@ -34,7 +34,7 @@
 	$scr["Win32"] = array( "/images/screenshots/vlc-win32.png" , 
 			       "VLC on Windows", 300, 200 );
 	$scr["Linux"] = array( "/images/screenshots/vlc-linux.jpg" ,
-			       "VLC on Linux", 300, 200 );
+			       "VLC on Linux", 300, 262 );
 	$scr["OSX"] = array( "/images/screenshots/vlc-osx.png" ,
 	   		     "VLC on MacOS X", 300, 200 );
 	echo "document.writeln('<img width=\"".$scr[$os][2]."\" height=\"".$scr[$os][3]."\" src=\"".$scr[$os][0]."\" alt=\"";

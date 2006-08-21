@@ -79,6 +79,7 @@ libraries and build them yourself:</p>
       addos( "FreeBSD", "freebsd", "download-freebsd.html" );
       addos( "Solaris", "solaris", "download-sources.html" );
 ?>
+  </ul>
 </div>
 <div class="os2">
 <ul class="otheros"> 

@@ -211,7 +211,7 @@
 
 
 <tr>
-<td class="category" rowspan="14"><b>Input formats</b></td>
+<td class="category" rowspan="15"><b>Input formats</b></td>
 <td class="type">MPEG <a href="http://wiki.videolan.org/index.php/container" target="_blank">ES</a>/<a href="http://wiki.videolan.org/index.php/container" target="_blank">PS</a>/<a href="http://wiki.videolan.org/index.php/container" target="_blank">TS</a>/<a href="http://wiki.videolan.org/index.php/container" target="_blank">PVA</a>/<a href="http://wiki.videolan.org/index.php/codec" target="_blank">mp3</a></td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -348,6 +348,17 @@
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 </tr>
+
+<tr>
+<td class="type"><a href="http://wiki.videolan.org/index.php/codec" target="_blank">FLV</a></td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="partial">Untested</td>
+<td class="partial">Untested</td>
+<td class="partial">Untested</td>
+</tr>
+
 
 <tr>
 <td class="category" rowspan="16"><b>Video Codecs</b></td>
@@ -870,7 +881,7 @@
 
 <tr>
 
-<td class="category" rowspan="16"><b>Audio Codecs</b></td>
+<td class="category" rowspan="17"><b>Audio Codecs</b></td>
 <td class="type"><a href="http://wiki.videolan.org/index.php/codec" target="_blank">MPEG Layer 1 and 2</a></td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -1287,7 +1298,7 @@
 
 <tr>
 
-<td class="category" rowspan="14"><b>Misc</b></td>
+<td class="category" rowspan="16"><b>Misc</b></td>
 <td class="type">Command line</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -1345,6 +1356,19 @@
 <td class="no">No</td>
 
 </tr>
+
+<tr>
+
+<td class="type">ActiveX plugin</td>
+<td class="yes">Yes</td>
+<td class="none">-</td>
+<td class="none">-</td>
+<td class="none">-</td>
+<td class="none">-</td>
+<td class="none">-</td>
+
+</tr>
+
 
 <tr>
 <td class="type">DVD Menus <sup>[2]</sup></td>

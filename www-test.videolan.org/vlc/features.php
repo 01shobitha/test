@@ -917,11 +917,11 @@
 
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/codec" target="_blank">DTS</a></td>
-<td class="partial">No</td>
-<td class="partial">No</td>
-<td class="partial">Yes</td>
-<td class="partial">Yes</td>
-<td class="partial">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
 <td class="no">No</td>
 </tr>
 

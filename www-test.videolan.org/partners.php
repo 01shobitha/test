@@ -57,7 +57,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   </tr>
   <tr>
     <td>
-        <p><a href="http://free.fr/"><img
+        <p class="center"><a href="http://free.fr/"><img
         src="/images/partners/free.gif" width="150" alt="Free" height="75" /></a></p>
     </td>
     <td>
@@ -78,7 +78,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   </tr>
   <tr>
     <td>
-        <p><a href="http://www.ecp.fr/"><img
+        <p class="center"><a href="http://www.ecp.fr/"><img
         src="/images/partners/logoECP.png" width="100" alt="ECP" height="80" /></a></p>
     </td>
     <td>
@@ -100,8 +100,8 @@ cooperation of our partners, on both technical and financial sides: </p>
     </td>
   </tr>
   <tr>
-    <td>
-        <p><a href="http://www.hp.com"><img
+    <td  style="text-align:-center">
+        <p class="center"><a href="http://www.hp.com"><img
         src="/images/partners/hpinvent.gif" alt="HP" /></a></p>
     </td>
     <td>
@@ -131,7 +131,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   </tr>
   <tr>
     <td>
-        <p><a href="http://www.ibm.com"><img
+        <p class="center"><a href="http://www.ibm.com"><img
         src="/images/partners/ibm.png" width="107" alt="IBM" height="45" /></a></p>
     </td>
     <td>
@@ -161,7 +161,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   </tr>
   <tr>
     <td>
-	<p><a href="http://www.btexact.com/"><img
+	<p class="center"><a href="http://www.btexact.com/"><img
 	src="/images/partners/BTexact.png" width="160" height="56" alt="BTexact
 	Technologies" /></a></p>
     </td>
@@ -179,7 +179,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   </tr>
   <tr>
     <td>
-        <p><a href="http://www.att.com/"><img
+        <p class="center"><a href="http://www.att.com/"><img
         src="/images/partners/att.png" width="57" height="87" alt="AT&amp;T" /></a></p>
     </td>
     <td>
@@ -198,7 +198,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   </tr>
   <tr>
     <td>
-	<p><a href="http://www.vthr.com/"><img
+	<p class="center"><a href="http://www.vthr.com/"><img
 	src="/images/partners/vthr.png" width="149" height="50" alt="VTHR" /></a></p>
     </td>
     <td>
@@ -220,8 +220,8 @@ cooperation of our partners, on both technical and financial sides: </p>
   </tr>
   <tr>
     <td>
-	<p><a href="http://recherche.sncf.com/"><img
-	src="/images/partners/sncf.jpeg" alt="SNCF" width="146" height="61" /></a></p>
+	<p class="center"><a href="http://recherche.sncf.com/"><img
+	src="/images/partners/sncf.png" alt="SNCF" width="146" height="61" /></a></p>
     </td>
     <td>
 	<p>SNCF - Direction de la Recherche (French Railways - Research
@@ -237,7 +237,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   </tr>
   <tr>
     <td>
-	<p><a href="http://www.idm.fr"><img
+	<p class="center"><a href="http://www.idm.fr"><img
 	src="/images/partners/idm.png" alt="IDM" width="64" height="64" /></a></p>
     </td>
     <td>
@@ -253,7 +253,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   </tr>
   <tr>
     <td>
-	<p><a href="http://www.lacie.com"><img
+	<p class="center"><a href="http://www.lacie.com"><img
 	src="/images/partners/LaCie.png" alt="LaCie" width="142" height="61" /></a></p>
     </td>
     <td>

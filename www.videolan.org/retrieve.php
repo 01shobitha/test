@@ -16,6 +16,12 @@
     $rate = ($new[1] - $old[1] ) / ( $new[0] - $old[0] ) ;
     $delay = $now - $new[0] ;
 
+    # how evil !
+    if( $rate >= 50.0 ) 
+    {
+	$rate = 1.0;
+    }
+
     echo "<counter><count>".$new[1]."</count>";
     echo "<rate>".sprintf( "%.1f" , $rate )."</rate>";
     echo "<delay>".$delay."</delay>";

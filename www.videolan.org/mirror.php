@@ -44,20 +44,34 @@
     {
 	die;
     }
-    
+
+    $now = localtime(time(),true);
+    if( $now['tm_hour'] < 6 || ($now['tm_hour'] == 6 && $now['tm_hour'] <= 25 ) )
+    {
+	$now = localtime( time() - 86400,true );
+    }
+    $d = $now['tm_mday'];
+    $m = $now['tm_mon'];
+    $y = $now['tm_year'];
+
+    $y += 1900;
+    $m++;
+    if( $m < 10 ) { $m=sprintf("%02d", $m); }
+    if( $d < 10 ) { $d = sprintf( "%02d", $d ); }
+
     $request = pg_query($connect, "SELECT * FROM mirrors ".
-                                   "WHERE address='$mirror' AND file='$file' AND date=current_date"); 
+                                   "WHERE address='$mirror' AND file='$file' AND date='$y-$m-$d'"); 
  
     $done = 0;
     if( $row = pg_fetch_array($request) )
-    {
-        pg_query($connect, "UPDATE mirrors SET number=number+1 WHERE address='$mirror' AND file='$file' AND date=current_date"); 
+    {	
+        pg_query($connect, "UPDATE mirrors SET number=number+1 WHERE address='$mirror' AND file='$file' AND date='$y-$m-$d'"); 
     }
     else
     {
 	pg_query($connect, "INSERT INTO mirrors (address, file, number,date)".
 	                    "VALUES ('" . $mirror . "', '" . $file . "', 1,".
-			    "current_date)");
+			    "'$y-$m-$d')");
     }
     pg_close($connect);
 ?>

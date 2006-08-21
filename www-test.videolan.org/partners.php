@@ -162,7 +162,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   <tr>
     <td>
 	<p><a href="http://www.btexact.com/"><img
-	src="/images/partners/BTexact.jpg" width="160" height="56" alt="BTexact
+	src="/images/partners/BTexact.png" width="160" height="56" alt="BTexact
 	Technologies" /></a></p>
     </td>
     <td>
@@ -238,7 +238,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   <tr>
     <td>
 	<p><a href="http://www.idm.fr"><img
-	src="/images/partners/idm.gif" alt="IDM" width="162" height="64" /></a></p>
+	src="/images/partners/idm.png" alt="IDM" width="64" height="64" /></a></p>
     </td>
     <td>
 	<p>I.D.M hired Simon Latapie, a VLC developer, to work on enhancing VideoLAN.
@@ -254,7 +254,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   <tr>
     <td>
 	<p><a href="http://www.lacie.com"><img
-	src="/images/partners/LaCie.gif" alt="LaCie" width="142" height="61" /></a></p>
+	src="/images/partners/LaCie.png" alt="LaCie" width="142" height="61" /></a></p>
     </td>
     <td>
 	<p>LaCie offered the team four DVD burners and a 1.6 Terabytes

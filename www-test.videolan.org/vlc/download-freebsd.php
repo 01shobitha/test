@@ -4,7 +4,7 @@
    $date = "24 June 2005";
    $menu = array( "vlc", "download" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
-   include($_SERVER["DOCUMENT_ROOT"]."/include/mirrordir.php");
+   include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
 ?>
 
 <h1> VLC media player for <a href="http://www.freebsd.org/">FreeBSD</a></h1>
@@ -29,9 +29,7 @@ So you can simply install VLC with <i>pkg_add</i>.</p>
 </pre></p>
 
 <h2>Older versions</h2>
-
-<p> Older versions can be found by browsing our FTP site :</p>
-<ul> <?php mirrordir("vlc"); ?> </ul>
+<?php browse_old("vlc" ); ?>
 
 </div>
 

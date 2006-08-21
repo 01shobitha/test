@@ -5,7 +5,6 @@
    $menu = array( "vlc", "download" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
-   include($_SERVER["DOCUMENT_ROOT"]."/include/mirrordir.php");
 ?>
 
 <h1>VLC media player for BeOS </h1>
@@ -20,6 +19,7 @@
   <h2>Older versions</h2>
    <?php browse_old( "vlc" );?>
 
+</div>
 <div id="right">
 
   <h2>Source code</h2>

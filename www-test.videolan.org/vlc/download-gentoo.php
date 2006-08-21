@@ -4,7 +4,7 @@
    $date = "4 May 2003";
    $menu = array( "vlc", "download" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
-   include($_SERVER["DOCUMENT_ROOT"]."/include/mirrordir.php");
+   include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
 ?>
 
 <h1> VLC media player for <a href="http://www.gentoo.org/">Gentoo Linux</a></h1>
@@ -22,10 +22,7 @@ When you don't set the correct USE variables, you will get a very bare bones ver
 </p>
 
   <h2>Older versions</h2>
-
-  <p> Older versions can be found by browsing our FTP site :</p>
-  <ul> <?php mirrordir("vlc"); ?> </ul>
-
+   <?php browse_old("vlc" ); ?>
 </div>
 
 <div id="right">

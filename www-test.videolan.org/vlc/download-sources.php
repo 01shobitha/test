@@ -5,7 +5,6 @@
    $menu = array( "vlc", "download" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
-   include($_SERVER["DOCUMENT_ROOT"]."/include/mirrordir.php");
 ?>
 
 <h1> VLC media player source code </h1>

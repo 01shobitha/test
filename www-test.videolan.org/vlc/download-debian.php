@@ -4,7 +4,6 @@
    $date = "14 February 2003";
    $menu = array( "vlc", "download" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
-   include($_SERVER["DOCUMENT_ROOT"]."/include/mirrordir.php");
 ?>
 
 <h1> VLC media player for <a href="http://debian.org">Debian GNU/Linux</a></h1>

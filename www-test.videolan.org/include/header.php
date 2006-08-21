@@ -70,9 +70,9 @@ function DrawMenu( $file, $mod )
 function footer($tag) {
    global $language; ?>
 
+	   <div style="clear:both"></div>
 	</div> <!-- MAINCONTENT -->
 </div> <!-- PAGECONTAINER -->
-
 <div id="footer">
   <p> <a href="/">VideoLAN</a> &nbsp;-&nbsp;
       See the

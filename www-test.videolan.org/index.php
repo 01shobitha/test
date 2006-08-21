@@ -8,9 +8,9 @@
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");
 ?>
 
+  <h1>VideoLAN - VLC media player</h1>
   
   <div id="left">
-  <h1>VideoLAN - VLC media player</h1>
   <h2>About VideoLAN</h2>
   <p>VideoLAN is a software project, which produces
   <a href="http://www.gnu.org/philosophy/free-sw.html">free

@@ -13,7 +13,6 @@
 <?php function pkgitemdev($version,$name) { ?><li><a href="http://downloads.videolan.org/pub/videolan/testing/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a></li><?php } ?>
 
 <h1> VLC media player for Windows </h1>
-
 <div id="left">
 
   <h2>Latest packages (0.8.5)</h2>

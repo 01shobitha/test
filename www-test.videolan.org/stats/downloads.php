@@ -2,11 +2,12 @@
     $title = "VideoLAN - Download Statistics";
     $lang = "en";
     $date = "06 April 2002";
-    $menu = array( "home", "overview" );
+    $menu = array( "vlc", "overview" );
     require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
 <div id="fullwidth">
+    <h1>VLC download statistics</h1>
 
     <p>These stats were started at the end of february 2005</p>
 
@@ -17,12 +18,13 @@
     <table border="0">
     <tr>
     <th>Version</th>
-    <th class="os"><img src="/images/icons/windows.gif" alt="Windows" width="32" height="32" />
+    <th class="os"><img src="/images/icons/winvista.png" alt="Windows" width="32" height="32" />
     </th>
-    <th class="os"><img src="/images/icons/macosx.gif" alt="Mac OS X" width="32" height="32" />
+    <th class="os"><img src="/images/icons/macosx.png" alt="Mac OS X" width="32" height="32" />
     </th>
     <th class="os"><img src="/images/icons/source.gif" alt="Source code" width="32" height="32" />
     </th>
+    <th>Total</th>
     </tr>
 
     <?php
@@ -49,7 +51,7 @@
 	{
 	    $versiontotal += $row[0];
 	    $wintotal += $row[0];
-	    echo "<td class=\"yes\">".$row[0]."</td>";
+	    echo "<td>".$row[0]."</td>";
 	}
 	$macrequest = pg_query( $connect, "SELECT sum(number) FROM mirrors
 		WHERE file LIKE '%$v%dmg%'" );
@@ -57,7 +59,7 @@
 	{
 	    $versiontotal += $row[0];
 	    $mactotal += $row[0];
-	    echo "<td class=\"yes\">".$row[0]."</td>";
+	    echo "<td>".$row[0]."</td>";
 	}
 	$srcrequest = pg_query( $connect, "SELECT sum(number) FROM mirrors
 		WHERE file LIKE '%$v%tar%'" );
@@ -65,14 +67,14 @@
 	{
 	    $versiontotal += $row[0];
 	    $srctotal += $row[0];
-	    echo "<td class=\"yes\">".$row[0]."</td>";
+	    echo "<td>".$row[0]."</td>";
 	}
-	echo "<td class=\"yes\">".$versiontotal."</td></tr>\n";
+	echo "<td>".$versiontotal."</td></tr>\n";
     }
     echo "<tr><td class=\"category\"><strong>Total</strong></td>\n";
-    echo "<td class=\"yes\">".$wintotal."</td>";
-    echo "<td class=\"yes\">".$mactotal."</td>";
-    echo "<td class=\"yes\">".$srctotal."</td></tr>\n";
+    echo "<td>".$wintotal."</td>";
+    echo "<td>".$mactotal."</td>";
+    echo "<td>".$srctotal."</td></tr>\n";
 
     echo "</table>";
 

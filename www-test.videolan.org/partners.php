@@ -50,6 +50,27 @@ cooperation of our partners, on both technical and financial sides: </p>
 
 <table border="0" cellspacing="0">
 
+<tr>
+    <td colspan="2">
+        <h2> Free </h2>
+    </td>
+  </tr>
+  <tr>
+    <td>
+        <p><a href="http://free.fr/"><img
+        src="/images/partners/free.gif" width="150" alt="Free" height="75" /></a></p>
+    </td>
+    <td>
+
+	<p>The French ISP <a href="http://free.fr/">Free S.A.S</a> is hosting the project 
+	main server in one of their datacenters near Paris.<br />
+	Free is also using VLC for their FreePlayer project.
+	</p>
+
+
+    </td>
+  </tr>
+
   <tr>
     <td colspan="2">
         <h2> École Centrale Paris</h2>

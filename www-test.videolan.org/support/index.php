@@ -202,7 +202,7 @@ href="lists.html">mailing-lists</a>.<br />
 Also consider the timezone. Most people in this chatroom are from Europe.</p>
 
 <ul class="bullets">
-  <li>IRC network: <code>irc.freenode.net</code></li>
+  <li>IRC network: <code>irc.videolan.org</code></li>
   <li>Channel: <code>#videolan</code></li>
 </ul>
 

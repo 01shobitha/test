@@ -96,7 +96,7 @@ cooperation of our partners, on both technical and financial sides: </p>
          RAM and 4 36 GB SCSI hard drives. VideoLAN also won a <a       
          href="http://download.videolan.org/images/sirius1.png">nice    
          HP laptop</a> at <a                                            
-         href="http://www.tropheesdulibre.org/article.php?id_article=47"
+         href="http://www.tropheesdulibre.org/article.php3?id_article=47"
          >Journées du Libre</a>.</p>                                 
 
     </td>

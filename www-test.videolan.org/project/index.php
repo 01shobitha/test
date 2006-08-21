@@ -39,7 +39,7 @@ a C library to access DVDs without having to bother about the
 decryption.</li>
 
 <li><a href="http://developers.videolan.org/libdvbpsi/">libdvbpsi</a>, a
-C library de decode and generate MPEG TS and DVB PSI tables.</li>
+C library to decode and generate MPEG TS and DVB PSI tables.</li>
 
 <li><a href="http://developers.videolan.org/x264.html">x264</a>, a H264 /
 AVC encoder.</li>

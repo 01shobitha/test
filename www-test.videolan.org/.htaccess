@@ -32,6 +32,10 @@ RewriteRule ^support/bug-reporting.* /support/index.html [R=permanent,L]
 
 RewriteRule ^vlc/bug-reporting.html$ /support/bug-reporting.html [R=permanent,L]
 
+# Contribute
+RewriteRule ^project/contribute.html$ /contribute.html [R=permanent,L]
+
+
 #################### VLC ###########################
 
 # Misc
@@ -77,9 +81,7 @@ RewriteRule ^vlcs(.*)$ /network$1 [R=permanent,L]
 RewriteRule ^vls/(.*)$ /streaming/index.html [R=permanent,L]
 RewriteRule ^vlms/(.*)$ /streaming/index.html [R=permanent,L]
 RewriteRule ^network/(.*)$ /streaming/index.html [R=permanent,L]
-RewriteRule ^streaming/download.html$ /vlc/streaming.html [R=permanent,L]
-RewriteRule ^streaming/download-linux.html$ /vlc/streaming.html [R=permanent,L]
-RewriteRule ^streaming/download-windows.html$ /vlc/streaming.html [R=permanent,L]
+RewriteRule ^streaming/download.*$ /vlc/streaming.html [R=permanent,L]
 
 #################### Documentation ######################
 

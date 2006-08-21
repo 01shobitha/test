@@ -1168,7 +1168,7 @@
 <tr>
 
 <td class="category"><b>Stream Output</b></td>
-<td colspan="6">See the <a href="/streaming/features.html">Streaming features page</a></td>
+<td colspan="7">See the <a href="/streaming-features.html">Streaming features page</a></td>
 
 </tr>
 

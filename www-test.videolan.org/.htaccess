@@ -155,7 +155,3 @@ RewriteRule ^freedvd.html$ /removed/freedvd.html [R=permanent,L]
 
 # We get many 404 for this one
 Redirect permanent debian/ http://www.videolan.org
-
-
-
-

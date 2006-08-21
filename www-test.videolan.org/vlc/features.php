@@ -1531,7 +1531,7 @@
 </table>
 
 <div id="notes">
-<a id="bottom_notes" />
+<a id="bottom_notes">Note</a>
   <p>
   [1] DVD decryption is done through the libdvdcss library.
   <br />

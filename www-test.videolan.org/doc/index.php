@@ -121,10 +121,10 @@
 <a href="/doc/vls-user-guide/de/vls-user-guide-de.html">DE</a>
 </td>
 <td class="yes">
-<a href="/doc/vls-user-guide/en/vls-user-guide-en-html.zip">EN</a>
-<a href="/doc/vls-user-guide/es/vls-user-guide-es-html.zip">ES</a>
-<a href="/doc/vls-user-guide/fr/vls-user-guide-fr-html.zip">FR</a>
-<a href="/doc/vls-user-guide/de/vls-user-guide-de-html.zip">DE</a>
+<a href="/doc/vls-user-guide/en/vls-user-guide-en.html.zip">EN</a>
+<a href="/doc/vls-user-guide/es/vls-user-guide-es.html.zip">ES</a>
+<a href="/doc/vls-user-guide/fr/vls-user-guide-fr.html.zip">FR</a>
+<a href="/doc/vls-user-guide/de/vls-user-guide-de.html.zip">DE</a>
 </td>
 <td class="yes">
 <a href="/doc/vls-user-guide/en/vls-user-guide-en.pdf">EN</a>
@@ -133,10 +133,10 @@
 <a href="/doc/vls-user-guide/de/vls-user-guide-de.pdf">DE</a>
 </td>
 <td class="yes">
-<a href="/doc/vls-user-guide/en/vls-user-guide-en-rtf.zip">EN</a>
-<a href="/doc/vls-user-guide/es/vls-user-guide-es-rtf.zip">ES</a>
-<a href="/doc/vls-user-guide/fr/vls-user-guide-fr-rtf.zip">FR</a>
-<a href="/doc/vls-user-guide/de/vls-user-guide-de-rtf.zip">DE</a>
+<a href="/doc/vls-user-guide/en/vls-user-guide-en.rtf.zip">EN</a>
+<a href="/doc/vls-user-guide/es/vls-user-guide-es.rtf.zip">ES</a>
+<a href="/doc/vls-user-guide/fr/vls-user-guide-fr.rtf.zip">FR</a>
+<a href="/doc/vls-user-guide/de/vls-user-guide-de.rtf.zip">DE</a>
 </td>
 <td class="yes">
 <a href="/doc/vls-user-guide/en/vls-user-guide-en.txt">EN</a>

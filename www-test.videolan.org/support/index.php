@@ -39,7 +39,7 @@ Double check that your issue still exists. </li>
 <li>Some things are simply NOT supported by VLC.
 We have a <a href="/vlc/features.html">list</a>
 of features that are supported in VLC and a <a
-href="https://trac.videolan.org/vlc/query?action=view&type=enhancement&
+href="https://trac.videolan.org/vlc/query?action=view&amp;type=enhancement&
 order=priority">list of things</a> we would like to
 implement in the future. If your suggestion is not on this
 list, you might want to make a <i>feature request</i> in the
@@ -54,7 +54,7 @@ develop on VLC.</li>
 
 <li>Many bugs are already known. Sometimes they are
 already fixed for the next version of VLC. Please <a
-href="https://trac.videolan.org/vlc/search?q=&ticket=on">search</a> the
+href="https://trac.videolan.org/vlc/search?q=&amp;ticket=on">search</a> the
 list of known and fixed issues. If you find your issue, see if it is
 already closed. The page of the issue will then show something like:
 <i>Ticket #87 (Closed: fixed)</i>.</li>

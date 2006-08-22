@@ -54,7 +54,7 @@ href="http://home.wxs.nl/~jpsaman">Jean-Paul Saman</a> on RH 9.0,
 but should also be useable on SuSE, Mandrake and other RPM-aware
 distributions. </p>
 
-<p>To install the package:<br />
+<p>To install the package:</p>
 
 <ul class="bullets">
 <li>Download the rpm here: <a
@@ -244,7 +244,7 @@ field.)</p>
 <a href="http://download.videolan.org/images/tshirts-big.jpg">
   <img 
 	src="http://download.videolan.org/images/tshirts-small.jpg"
-	alt="VideoLAN T-Shirts"/></a></p>
+	alt="VideoLAN T-Shirts"/>
 </a></p>
 
 </div>

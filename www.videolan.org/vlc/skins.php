@@ -74,6 +74,7 @@
       ?>
 	<br />
       <form method="post" action="" style="display:inline;">
+        <div>
         <input type="radio" name="rating" value="1" id="rate_1_<?php echo $id; ?>" />
         <label for="rate_1_<?php echo $id; ?>">1</label> 
         <input type="radio" name="rating" value="2" id="rate_2_<?php echo $id; ?>" />
@@ -86,6 +87,7 @@
         <label for="rate_5_<?php echo $id; ?>">5</label> 
         <input type="hidden" name="skin_id" value="<?php echo $id; ?>" />
         <input type="submit" value="Vote" />
+        </div>
       </form>
       <?php } ?>
     </td></tr>
@@ -149,11 +151,12 @@
   <li>Launch VLC:
    <ul>
      <li>Linux users: Launch VLC with the following command-line:
-	    <tt>vlc -I skins2</tt><br>
+	    <tt>vlc -I skins2</tt><br />
      </li>
      <li>Windows users: Launch VLC using the appropriate shortcut in the Start
   menu. You can also start VLC from command-line, in a DOS window.</li>
    </ul>
+   </li>
    <li>If you don't want to use the default skin, just download another one 
 	here. If you want to have it automatically detected, place it in the skins subfolder of your VLC installation:
 	<ul>

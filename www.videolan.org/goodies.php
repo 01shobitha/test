@@ -52,9 +52,9 @@ for Mac OS X:</p>
 RPM package. The (relocatable) package has been built by <a
 href="http://home.wxs.nl/~jpsaman">Jean-Paul Saman</a> on RH 9.0,
 but should also be useable on SuSE, Mandrake and other RPM-aware
-distributions. <p>
+distributions. </p>
 
-<p>To install the package:</br>
+<p>To install the package:<br />
 
 <ul class="bullets">
 <li>Download the rpm here: <a

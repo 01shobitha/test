@@ -156,6 +156,7 @@
      <li>Windows users: Launch VLC using the appropriate shortcut in the Start
   menu. You can also start VLC from command-line, in a DOS window.</li>
    </ul>
+   </li>
    <li>If you don't want to use the default skin, just download another one 
 	here. If you want to have it automatically detected, place it in the skins subfolder of your VLC installation:
 	<ul>

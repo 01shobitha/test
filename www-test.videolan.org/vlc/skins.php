@@ -74,7 +74,7 @@
       ?>
 	<br />
       <form method="post" action="" style="display:inline;">
-        <span>
+        <div>
         <input type="radio" name="rating" value="1" id="rate_1_<?php echo $id; ?>" />
         <label for="rate_1_<?php echo $id; ?>">1</label> 
         <input type="radio" name="rating" value="2" id="rate_2_<?php echo $id; ?>" />
@@ -87,7 +87,7 @@
         <label for="rate_5_<?php echo $id; ?>">5</label> 
         <input type="hidden" name="skin_id" value="<?php echo $id; ?>" />
         <input type="submit" value="Vote" />
-        </span>
+        </div>
       </form>
       <?php } ?>
     </td></tr>

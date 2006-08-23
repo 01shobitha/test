@@ -26,7 +26,7 @@
 <pre>
 [base]
 name=VLC 0.8.5 - $basearch - Base
-baseurl=http://download.videolan.org/pub/videolan/vlc/0.8.5/fedora/4/i386/vlc/0.8.5/base/
+baseurl=http://download.videolan.org/pub/videolan/vlc/0.8.5/fedora/$releasever/$basearch/vlc/0.8.5/base
 enabled=1
 gpgcheck=1
 </pre>
@@ -35,7 +35,7 @@ gpgcheck=1
 <pre>
 [contrib]
 name=VLC 0.8.5 - $basearch - Contrib
-baseurl=http://download.videolan.org/pub/videolan/vlc/0.8.5/fedora/4/i386/vlc/0.8.5/contrib/
+baseurl=http://download.videolan.org/pub/videolan/vlc/0.8.5/fedora/$releasever/$basearch/vlc/0.8.5/contrib
 enabled=1
 gpgcheck=1
 </pre>
@@ -44,7 +44,7 @@ gpgcheck=1
 <pre>
 [devel]
 name=VLC 0.8.5 - $basearch - Devel
-baseurl=http://download.videolan.org/pub/videolan/vlc/0.8.5/fedora/4/i386/vlc/0.8.5/devel/
+baseurl=http://download.videolan.org/pub/videolan/vlc/0.8.5/fedora/$releasever/$basearch/vlc/0.8.5/devel
 enabled=1
 gpgcheck=1
 </pre>
@@ -53,7 +53,7 @@ gpgcheck=1
 <pre>
 [source]
 name=VLC 0.8.5 - $basearch - Source
-baseurl=http://download.videolan.org/pub/videolan/vlc/0.8.5/fedora/4/i386/vlc/0.8.5/source/
+baseurl=http://download.videolan.org/pub/videolan/vlc/0.8.5/fedora/$releasever/$basearch/vlc/0.8.5/source
 enabled=1
 gpgcheck=1
 </pre>

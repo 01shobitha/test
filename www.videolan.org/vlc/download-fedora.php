@@ -22,7 +22,7 @@
 
 <p>Add the following files to your /etc/yum.repos.d directory for updating and installing VLC from a YUM repository. Change the baseurl to a mirror closest to you (see below for a list of mirrors). You will need at minimum <b>vlc.repo</b> and <b>vlc-contrib.repo</b> :</p>
 
-<p>file: vlc.repo</p>
+<p>file: vlc.repo<br>
 <pre>
 [base]
 name=VLC 0.8.5 - $basearch - Base
@@ -30,8 +30,9 @@ baseurl=http://download.videolan.org/pub/videolan/vlc/0.8.5/fedora/4/i386/vlc/0.
 enabled=1
 gpgcheck=1
 </pre>
+</p>
 
-<p>file: vlc-contrib.repo</p>
+<p>file: vlc-contrib.repo</br>
 <pre>
 [contrib]
 name=VLC 0.8.5 - $basearch - Contrib
@@ -39,8 +40,9 @@ baseurl=http://download.videolan.org/pub/videolan/vlc/0.8.5/fedora/4/i386/vlc/0.
 enabled=1
 gpgcheck=1
 </pre>
+</p>
 
-<p>file: vlc-devel.repo</p>
+<p>file: vlc-devel.repo<br>
 <pre>
 [devel]
 name=VLC 0.8.5 - $basearch - Devel
@@ -48,8 +50,9 @@ baseurl=http://download.videolan.org/pub/videolan/vlc/0.8.5/fedora/4/i386/vlc/0.
 enabled=1
 gpgcheck=1
 </pre>
+</p>
 
-<p>file: vlc-source.repo</p>
+<p>file: vlc-source.repo<br>
 <pre>
 [source]
 name=VLC 0.8.5 - $basearch - Source
@@ -57,6 +60,7 @@ baseurl=http://download.videolan.org/pub/videolan/vlc/0.8.5/fedora/4/i386/vlc/0.
 enabled=1
 gpgcheck=1
 </pre>
+</p>
 
 <p>The yum repository is mirrored to :</p>
 

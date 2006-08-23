@@ -22,7 +22,7 @@
 
 <p>Add the following files to your <b>/etc/yum.repos.d</b> directory for updating and installing VLC from a YUM repository. Change the baseurl to a mirror closest to you (see below for a list of mirrors). You will need at minimum <b>vlc.repo</b> and <b>vlc-contrib.repo</b> :</p>
 
-<p>file: vlc.repo<br>
+<p>file: vlc.repo
 <pre>
 [base]
 name=VLC 0.8.5 - $basearch - Base
@@ -32,7 +32,7 @@ gpgcheck=1
 </pre>
 </p>
 
-<p>file: vlc-contrib.repo<br>
+<p>file: vlc-contrib.repo
 <pre>
 [contrib]
 name=VLC 0.8.5 - $basearch - Contrib
@@ -42,7 +42,7 @@ gpgcheck=1
 </pre>
 </p>
 
-<p>file: vlc-devel.repo<br>
+<p>file: vlc-devel.repo
 <pre>
 [devel]
 name=VLC 0.8.5 - $basearch - Devel
@@ -52,7 +52,7 @@ gpgcheck=1
 </pre>
 </p>
 
-<p>file: vlc-source.repo<br>
+<p>file: vlc-source.repo
 <pre>
 [source]
 name=VLC 0.8.5 - $basearch - Source
@@ -81,7 +81,7 @@ gpgcheck=1
 <p>Then, as root, install the packages (use -ivh for installation and -Uvh for upgrade) :</p>
 
 <pre>
-    # rpm -ivh fedora/4/i386/vlc/0.8.5/base/*.rpm fedora/4/i386/vlc/0.8.5/contrib/*.rpm
+    $ rpm -ivh fedora/4/i386/vlc/0.8.5/base/*.rpm fedora/4/i386/vlc/0.8.5/contrib/*.rpm
 </pre>
 
 <h1>Unofficial Fedora Core packages</h1>

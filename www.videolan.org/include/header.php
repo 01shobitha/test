@@ -67,7 +67,13 @@ function DrawMenu( $file, $mod )
       }
     }
   }
+  else
+  {
+    echo "<li>&nbsp;</li>";
+  }
 }
+
+
 
 
 

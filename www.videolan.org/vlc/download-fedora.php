@@ -20,7 +20,7 @@
    $> rpm --import gpg_pubkey_jean-paul.saman.asc
 </pre>
 
-<p>Add the following files to your /etc/yum.repos.d directory for updating and installing VLC from a YUM repository. Change the baseurl to a mirror closest to you (see below for a list of mirrors). You will need at minimum <b>vlc.repo</b> and <b>vlc-contrib.repo</b> :</p>
+<p>Add the following files to your <b>/etc/yum.repos.d</b> directory for updating and installing VLC from a YUM repository. Change the baseurl to a mirror closest to you (see below for a list of mirrors). You will need at minimum <b>vlc.repo</b> and <b>vlc-contrib.repo</b> :</p>
 
 <p>file: vlc.repo<br>
 <pre>
@@ -32,7 +32,7 @@ gpgcheck=1
 </pre>
 </p>
 
-<p>file: vlc-contrib.repo</br>
+<p>file: vlc-contrib.repo<br>
 <pre>
 [contrib]
 name=VLC 0.8.5 - $basearch - Contrib

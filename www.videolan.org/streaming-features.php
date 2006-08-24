@@ -21,7 +21,7 @@
 <th></th>
 <th></th>
 <th class="os"><a href="/vlc/download-windows.html">
-  <img src="/images/icons/windows.png" alt="Windows" width="32" height="32" />
+  <img src="/images/icons/winvista.png" alt="Windows" width="32" height="32" />
 </a></th>
 <th class="os"><a href="/vlc/download-macosx.html">
   <img src="/images/icons/macosx.png" alt="Mac OS X" width="32" height="32" />
@@ -548,7 +548,7 @@ interoperable).</p>
   <img src="/images/icons/linux.png" alt="Linux" width="32" height="32" />
 </a></th>
 <th class="os"><a href="/streaming/download-vls-windows.html">
-  <img src="/images/icons/windows.png" alt="Windows" width="32" height="32" />
+  <img src="/images/icons/winvista.png" alt="Windows" width="32" height="32" />
 </a></th>
 <th class="os"><a href="/streaming/download-vls-sources.html">
   <img src="/images/icons/macosx.png" alt="Mac OS X" width="32" height="32" />

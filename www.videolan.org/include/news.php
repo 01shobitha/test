@@ -59,7 +59,7 @@
                 echo "<p class=\"descr\">".$short;
     if( $remain )
     {
-    echo "<span id=\"news-$count\">$remain</span> ";
+    echo "<span id=\"news-span-$count\">$remain</span> ";
 		echo "<script type=\"text/javascript\"><!--\n";
 		echo "document.writeln('<br /><a id=\"read-$count\" ";
  		echo "href=\"javascript:toggle(\'$count\')\">(Read more...)";

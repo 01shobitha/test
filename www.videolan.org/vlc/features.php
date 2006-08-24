@@ -1559,7 +1559,7 @@
   [8] CD-Text information provided via libcdio. This service is available
   on all platforms supported by the library.
   <br />
-  [9] CDDB information provided by libcddb on all supported platforms except BeOS.
+  [9] CDDB information provided by libcddb on all supported platforms excepting BeOS.
   <br />
   [10] The current releases of WxWidgets for Mac are too unstable to be 
   used by VLC in production environments. Additionally, the resulting 

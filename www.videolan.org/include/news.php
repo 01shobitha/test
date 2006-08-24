@@ -8,7 +8,7 @@
     ?>
     <script type="text/javascript">
     function toggle(count) {
-	var text = "news-"+count;
+	var text = "news-span-"+count;
 	var read = "read-"+count;
 	if(document.getElementById(text)) 
 	{

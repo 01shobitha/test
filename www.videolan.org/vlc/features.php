@@ -1223,7 +1223,7 @@
 
 <tr>
 
-<td class="type">Qt4 <a href="#bottom_notes"><sup>[14]</sup></a></td>
+<td class="type">Qt4 <sup><a href="#bottom_notes">[14]</a></sup></td>
 <td class="yes">Yes</td>
 <td class="none">No</td>
 <td class="yes">Yes</td>
@@ -1361,9 +1361,9 @@
 
 <tr>
 
-<td class="type">Mozilla plugin</td>
+<td class="type">Mozilla/Firefox plugin</td>
 <td class="yes">Yes</td>
-<td class="partial">Source Only</td>
+<td class="yes">Yes <sup><a href="#bottom_notes">[15]</a></sup></td>
 <td class="yes">Yes</td>
 <td class="no">No</td>
 <td class="no">No</td>
@@ -1444,9 +1444,9 @@
 
 <td class="type">CD-Text <sup><a href="#bottom_notes">[8]</a></sup></td>
 <td class="yes">Yes</td>
-<td class="no">no</td>
+<td class="no">No</td>
 <td class="yes">Yes</td>
-<td class="no">no</td>
+<td class="no">No</td>
 <td class="partial">Untested</td>
 <td class="yes">Yes</td>
 
@@ -1455,7 +1455,7 @@
 <tr>
 
 <td class="type">CDDB CD info <sup><a href="#bottom_notes">[9]</a></sup></td>
-<td class="no">No</td>
+<td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="no">No</td>
@@ -1578,6 +1578,9 @@
   <br />
   [14] A new Qt4 interface is to-be-introduced by VLC's 0.8.6 release. It is
   already enabled in the nightly builds with limited functionality.
+  <br />
+  [15] The Mozilla Plugin for Mac is only available for PowerPC-based Macs and Intel-based Macs running Mozilla in the Rosetta-mode. A port to the new Macs
+  will be provided within the 0.8.6 release.
   </p>
 </div>
 

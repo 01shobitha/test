@@ -1053,7 +1053,7 @@
 <td class="partial">Incomplete</td>
 <td class="partial">Incomplete</td>
 <td class="partial">Untested</td>
-<td class="partial">Untested</td>
+<td class="partial">Incomplete</td>
 <td class="no">No</td>
 </tr>
 
@@ -1063,7 +1063,7 @@
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="partial">Untested</td>
-<td class="partial">Untested</td>
+<td class="yes">Yes</td>
 <td class="partial">Untested</td>
 </tr>
 

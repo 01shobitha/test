@@ -95,7 +95,7 @@
 		<?php DoDL("Win32",0);DoDL("OSX-PPC",0);DoDL("OSX-Intel",0); ?>
 	    </noscript>
           </div>
-          <div class="more"><a  href="/vlc/">Others Operating Systems, learn more</a></div>
+          <div class="more"><a  href="/vlc/">Other Operating Systems, learn more</a></div>
     <?php panel_end(); ?>
 
   <?php panel_start( 'orange' ); ?>

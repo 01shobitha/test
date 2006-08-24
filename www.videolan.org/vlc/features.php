@@ -1572,8 +1572,8 @@
   which does only support the Cook (RealAudio G2 / RealAudio 8)
   decoder at the moment.
   <br />
-  [12] WMV-3 / WMV-9 / VC-1 playback is through the FFmpeg-library
-  since VLC 0.8.6. Some videos might still have problems playing.
+  [12] WMV-3 / WMV-9 / VC-1 playback will be availabe through the FFmpeg-library
+  in VLC 0.8.6. It is already enabled in the nightly builds. Some videos might still have problems playing.
   <br />
   [13] Windows dmo codecs can be used by VLC on intel 32bit platforms.
   This allows WMV-3/WMA-3 decoding.

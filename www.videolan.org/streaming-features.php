@@ -21,23 +21,23 @@
 <th></th>
 <th></th>
 <th class="os"><a href="/vlc/download-windows.html">
-  <img src="/images/icons/windows.gif" alt="Windows" width="32" height="32" />
+  <img src="/images/icons/windows.png" alt="Windows" width="32" height="32" />
 </a></th>
 <th class="os"><a href="/vlc/download-macosx.html">
-  <img src="/images/icons/macosx.gif" alt="Mac OS X" width="32" height="32" />
+  <img src="/images/icons/macosx.png" alt="Mac OS X" width="32" height="32" />
 </a></th>
 <th class="os"><a href="/vlc/download-linux.html">
-  <img src="/images/icons/linux.gif" alt="Linux" width="32" height="32" />
+  <img src="/images/icons/linux.png" alt="Linux" width="32" height="32" />
 </a></th>
 <th class="os"><a href="/vlc/download-beos.html">
-  <img src="/images/icons/beos.gif" alt="BeOS" width="32" height="32" />
+  <img src="/images/icons/beos.png" alt="BeOS" width="32" height="32" />
 </a></th>
 <th class="os"><a href="/vlc/download-sources.html">
-  <img src="/images/icons/freebsd.gif" alt="FreeBSD" width="32" height="32" />
-  <img src="/images/icons/openbsd.gif" alt="OpenBSD" width="32" height="32" />
+  <img src="/images/icons/freebsd.png" alt="FreeBSD" width="32" height="32" />
+  <img src="/images/icons/openbsd.png" alt="OpenBSD" width="32" height="32" />
 </a></th>
 <th class="os"><a href="/vlc/download-familiar.html">
-  <img src="/images/icons/familiar.gif" alt="Familiar Linux"
+  <img src="/images/icons/familiar.png" alt="Familiar Linux"
        width="32" height="32" />
 </a></th>
 
@@ -545,13 +545,13 @@ interoperable).</p>
 <th></th>
 <th></th>
 <th class="os"><a href="/streaming/download-vls-sources.html">
-  <img src="/images/icons/linux.gif" alt="Linux" width="32" height="32" />
+  <img src="/images/icons/linux.png" alt="Linux" width="32" height="32" />
 </a></th>
 <th class="os"><a href="/streaming/download-vls-windows.html">
-  <img src="/images/icons/windows.gif" alt="Windows" width="32" height="32" />
+  <img src="/images/icons/windows.png" alt="Windows" width="32" height="32" />
 </a></th>
 <th class="os"><a href="/streaming/download-vls-sources.html">
-  <img src="/images/icons/macosx.gif" alt="Mac OS X" width="32" height="32" />
+  <img src="/images/icons/macosx.png" alt="Mac OS X" width="32" height="32" />
 </a></th>
 
 
@@ -738,7 +738,7 @@ interoperable).</p>
 
 </table>
 
-<p>[4] VLS supports two kinds MPEG-2 encoding cards: Hauppauge          
+<p>[4] VLS supports two kinds of MPEG-2 encoding cards: Hauppauge          
 WinTV-PVR-250/350 and Visiontech Kfir.</p>                              
 
 </div>

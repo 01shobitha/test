@@ -51,7 +51,7 @@
 
                 if( $count ++ < 15 ) { echo ("<div class=\"item\">\n"); }
 		else { echo ("<div class=\"item-really-old\">\n"); }
-		echo "<a name=\"news-$count\" href=\"/news.html#news-$count\"></a>";
+		echo "<a id=\"news-$count\" href=\"/news.html#news-$count\"></a>";
                 
 		echo ("<h3>".$title."</h3>\n" );
 		//echo "<div id=\"news-$count\">";

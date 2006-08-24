@@ -42,7 +42,7 @@
 <tr>
 
 <td class="category" rowspan="14"><b>Inputs</b></td>
-<td class="type"><a href="http://wiki.videolan.org/index.php/UDP" >UDP</a> Unicast / <a href="http://wiki.videolan.org/index.php/multicast" >Multicast</a></td>
+<td class="type">UDP Unicast / Multicast</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -54,7 +54,7 @@
 
 <tr>
 
-<td class="type"><a href="http://wiki.videolan.org/index.php/RTP" >RTP</a> Unicast / <a href="http://wiki.videolan.org/index.php/multicast" >Multicast</a></td>
+<td class="type">RTP Unicast / Multicast</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -66,7 +66,7 @@
 
 <tr>
 
-<td class="type"><a href="http://wiki.videolan.org/index.php/HTTP" >HTTP</a></td>
+<td class="type">HTTP</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -78,7 +78,7 @@
 
 <tr>
 
-<td class="type"><a href="http://wiki.videolan.org/index.php/protocol" >FTP</a></td>
+<td class="type">FTP</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -90,7 +90,7 @@
 
 <tr>
 
-<td class="type"><a href="http://wiki.videolan.org/index.php/protocol" >MMS</a></td>
+<td class="type">MMS</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -212,7 +212,7 @@
 
 <tr>
 <td class="category" rowspan="15"><b>Input formats</b></td>
-<td class="type">MPEG <a href="http://wiki.videolan.org/index.php/container" >ES</a>/<a href="http://wiki.videolan.org/index.php/container" >PS</a>/<a href="http://wiki.videolan.org/index.php/container" >TS</a>/<a href="http://wiki.videolan.org/index.php/container" >PVA</a>/<a href="http://wiki.videolan.org/index.php/codec" >mp3</a></td>
+<td class="type">MPEG ES/PS/TS/PVA/mp3</a></td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -221,7 +221,7 @@
 <td class="yes">Yes</td>
 </tr>
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/AVI" >AVI</a></td>
+<td class="type">AVI</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -230,17 +230,7 @@
 <td class="yes">Yes</td>
 </tr>
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/ASF" >ASF</a>/<a href="http://wiki.videolan.org/index.php/codec" >wmv</a>/<a href="http://wiki.videolan.org/index.php/codec" >wma</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-</tr>
-
-<tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/container" >Ogg</a>/<a href="http://wiki.videolan.org/index.php/container" >OGM</a>/<a href="http://wiki.videolan.org/index.php/container" >Annodex</a></td>
+<td class="type">ASF/wmv/wma</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -250,7 +240,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/container" >MP4</a>/<a href="http://wiki.videolan.org/index.php/container" >MOV</a>/3gpp</td>
+<td class="type">Ogg/OGM/Annodex</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -260,7 +250,17 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/container" >Matroska</a></td>
+<td class="type">MP4/MOV/3gpp</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+</tr>
+
+<tr>
+<td class="type">Matroska/MKV</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -270,7 +270,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/container" >Real</a></td>
+<td class="type">Real</td>
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="no">No</td>
@@ -280,7 +280,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/container" >Wav</a></td>
+<td class="type">Wav</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -300,7 +300,7 @@
 </tr>
 
 <tr>
-<td class="type">Raw <a href="http://wiki.videolan.org/index.php/codec" >DV</a></td>
+<td class="type">Raw DV</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -310,7 +310,7 @@
 </tr>
 
 <tr>
-<td class="type">Raw <a href="http://wiki.videolan.org/index.php/Advanced+Audio+Coding" >AAC</a></td>
+<td class="type">Raw AAC</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -320,7 +320,7 @@
 </tr>
 
 <tr>
-<td class="type">Raw <a href="http://wiki.videolan.org/index.php/codec" >ac3/a52</a> audio</td>
+<td class="type">Raw ac3/a52 audio</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -340,7 +340,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >FLAC</a> audio</td>
+<td class="type">FLAC audio</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -350,7 +350,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >FLV</a></td>
+<td class="type">FLV</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -362,7 +362,7 @@
 
 <tr>
 <td class="category" rowspan="16"><b>Video Codecs</b></td>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >MPEG-1</a></td>
+<td class="type">MPEG-1</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -372,7 +372,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >MPEG-2</a></td>
+<td class="type">MPEG-2</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -382,7 +382,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >DivX 1/2/3</a></td>
+<td class="type">DivX 1/2/3</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -392,7 +392,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >MPEG-4</a>/<a href="http://wiki.videolan.org/index.php/codec" >DivX 5</a>/<a href="http://wiki.videolan.org/index.php/codec" >XviD</a>/<a href="http://wiki.videolan.org/index.php/codec" >3ivX D4</a></td>
+<td class="type">MPEG-4/DivX 5/XviD/3ivX D4</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -402,7 +402,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/H264" >H.264</a></td>
+<td class="type">H.264</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -413,7 +413,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Sorenson+Video" >Sorenson (SVQ 1/3)</a></td>
+<td class="type">Sorenson (SVQ 1/3)</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -423,7 +423,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >DV</a></td>
+<td class="type">DV</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -433,7 +433,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >Cinepak</a></td>
+<td class="type">Cinepak</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -443,7 +443,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >Theora</a> (alpha 3)</td>
+<td class="type">Theora (alpha 3)</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -453,7 +453,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >H263/H263i</a></td>
+<td class="type">H263/H263i</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -463,7 +463,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >MJPEG</a> A/B</td>
+<td class="type">MJPEG A/B</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -473,7 +473,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >WMV</a> 1/2</td>
+<td class="type">WMV 1/2</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -483,7 +483,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >WMV</a> 3 / <a href="http://wiki.videolan.org/index.php/codec" >VC-1</a></td>
+<td class="type">WMV 3 / WMV-9 / VC-1</td>
 <td class="yes">Yes<sup><a href="#bottom_notes">[12], [13]</a></sup></td>
 <td class="yes">Yes<sup><a href="#bottom_notes">[12]</a></sup></td>
 <td class="yes">Yes<sup><a href="#bottom_notes">[12], [13]</a></sup></td>
@@ -493,7 +493,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >Indeo Video</a> v3 (IV32)</td>
+<td class="type">Indeo Video v3 (IV32)</td>
 <td class="yes">Yes</td>
 <td class="no">No</td>
 <td class="partial">No PPC support</td>
@@ -503,7 +503,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >Indeo Video</a> v4-5 (IV41)(IV51)</td>
+<td class="type">Indeo Video v4-5 (IV41)(IV51)</td>
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="no">No</td>
@@ -513,7 +513,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Real+Media+Video" >Real Video</a></td>
+<td class="type">Real Video</td>
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="no">No</td>
@@ -575,7 +575,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/container" >OGM</a></td>
+<td class="type">OGM</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -585,7 +585,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/container" >Matroska</a></td>
+<td class="type">Matroska/MKV</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -883,7 +883,7 @@
 <tr>
 
 <td class="category" rowspan="17"><b>Audio Codecs</b></td>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >MPEG Layer 1 and 2</a></td>
+<td class="type">MPEG Layer 1 and 2</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -895,7 +895,7 @@
 
 <tr>
 
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >MP3</a></td>
+<td class="type">MP3</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -906,7 +906,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >AC3 (i.e. A52)</a></td>
+<td class="type">AC3 (i.e. A/52)</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -916,7 +916,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >DTS</a></td>
+<td class="type">DTS</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -927,7 +927,7 @@
 
 <tr>
 
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >LPCM</a></td>
+<td class="type">LPCM</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -939,7 +939,7 @@
 
 <tr>
 
-<td class="type"><a href="http://wiki.videolan.org/index.php/Advanced+Audio+Coding" >AAC</a></td>
+<td class="type">AAC</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -951,7 +951,7 @@
 
 <tr>
 
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >Vorbis</a></td>
+<td class="type">Vorbis</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -963,7 +963,7 @@
 
 <tr>
 
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >WMA 1/2</a></td>
+<td class="type">WMA 1/2</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -975,7 +975,7 @@
 
 <tr>
 
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >WMA 3</a></td>
+<td class="type">WMA 3</td>
 <td class="yes">Yes<sup><a href="#bottom_notes">[13]</a></sup></td>
 <td class="no">No</td>
 <td class="partial">Yes<sup><a href="#bottom_notes">[13]</a></sup></td>
@@ -987,7 +987,7 @@
 
 <tr>
 
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >ADPCM</a></td>
+<td class="type">ADPCM</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -998,7 +998,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >DV Audio</a></td>
+<td class="type">DV Audio</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -1008,7 +1008,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >FLAC</a></td>
+<td class="type">FLAC</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -1018,7 +1018,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >QDM2/QDMC (QuickTime)</a></td>
+<td class="type">QDM2/QDMC (QuickTime)</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -1028,7 +1028,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >MACE</a></td>
+<td class="type">MACE</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -1038,17 +1038,17 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >AMR (3GPP)</a></td>
+<td class="type">AMR (3GPP)</td>
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="no">No</td>
-<td class="partial">FFmpeg Untested</td>
+<td class="no">No</td>
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Real+Media+Video" >Real Audio <sup><a href="#bottom_notes">[11]</a></sup></a></td>
+<td class="type">Real Audio <sup><a href="#bottom_notes">[11]</a></sup></td>
 <td class="partial">Incomplete</td>
 <td class="partial">Incomplete</td>
 <td class="partial">Incomplete</td>
@@ -1058,7 +1058,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >Speex</a></td>
+<td class="type">Speex</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -1211,18 +1211,6 @@
 
 <tr>
 
-<td class="type">QT (unmaintained)</td>
-<td class="none">-</td>
-<td class="none">-</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-
-</tr>
-
-<tr>
-
 <td class="type">KDE (unmaintained)</td>
 <td class="none">-</td>
 <td class="none">-</td>
@@ -1230,6 +1218,18 @@
 <td class="none">-</td>
 <td class="yes">Yes</td>
 <td class="none">-</td>
+
+</tr>
+
+<tr>
+
+<td class="type">Qt4 <a href="#bottom_notes"><sup>[14]</sup></a></td>
+<td class="yes">Yes</td>
+<td class="none">No</td>
+<td class="yes">Yes</td>
+<td class="none">-</td>
+<td class="partial">untested</td>
+<td class="no">No</td>
 
 </tr>
 
@@ -1275,7 +1275,7 @@
 
 <td class="category" rowspan="3"><b>Service Information</b></td>
 
-<td class="type"><a href="http://wiki.videolan.org/index.php/SAP" >SAP</a> / <a href="http://wiki.videolan.org/index.php/SDP" >SDP</a></td>
+<td class="type">SAP / SDP</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -1287,7 +1287,7 @@
 
 <tr>
 
-<td class="type"><a href="http://wiki.videolan.org/index.php/protocol" >SLP</a></td>
+<td class="type">SLP</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -1299,7 +1299,7 @@
 
 <tr>
 
-<td class="type"><a href="http://wiki.videolan.org/index.php/protocol" >Bonjour</a></td>
+<td class="type">Bonjour</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -1466,7 +1466,7 @@
 
 <tr>
 
-<td class="type"><a href="http://wiki.videolan.org/index.php/IP" >IPv6</a></td>
+<td class="type">IPv6</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -1535,34 +1535,31 @@
   <p>
   [1] DVD decryption is done through the libdvdcss library.
   <br />
-  [2] DVD navigation is done through the libdvdplay library.
+  [2] DVD navigation is done through the libdvdnav library.
   <br />
-  [3] supported CPU extensions are MMX, MMXEXT, SSE, SSE2 and 3D Now! on x86
+  [3] Supported CPU extensions are MMX, MMXEXT, SSE, SSE2 and 3D Now! on x86
   processors, and AltiVec on G4/G5 processors.
   <br />
-  [4] the OpenBSD 2.9 default assembler does not support MMX.
+  [4] The OpenBSD 2.9 default assembler does not support MMX.
   <br />
   [5] VLC for GNU/Linux supports two kinds of MPEG-2 encoding cards: Hauppauge WinTV-PVR-250/350
   and Visiontech Kfir.
   <br />
   [6] VLC on GNU/Linux, Solaris, and Microsoft Windows has playback
-  control support via libcdio and libvcdinfo. On other platforms
+  control support via libcdio and libvcdinfo. On other platforms,
   SVCD support varies depending on the availability of these libraries.
-  (Volunteers for adding support is always welcome.). Handling still
+  (Volunteers for adding support are always welcome.). Handling still
   frames (often used in menus) and switching between different video
-  formats is a problem.
+  formats is problematic.
   <br /> 
   [7] Full color for YUV-type chromas is not handled, only the gray-scale
   value. Subtitle transparency is not fully supported for all
   chromas. Some chromas are not handled at all.
   <br /> 
-  [8] CD-Text information provided via libcdio. Support is available on
-  those platforms this library is available.
+  [8] CD-Text information provided via libcdio. This service is available
+  on all platforms supported by the library.
   <br />
-  [9] CDDB information provided by libcddb via libcdio. Support is
-  available on those platforms both of these libraries are
-  available. libcddb runs on BeOS although libcdio doesn't. On Microsoft
-  Windows, libcddb doesn't compile yet without POSIX emulation.
+  [9] CDDB information provided by libcddb on all supported platforms except BeOS.
   <br />
   [10] The current releases of WxWidgets for Mac are too unstable to be 
   used by VLC in production environments. Additionally, the resulting 
@@ -1572,11 +1569,15 @@
   which does only support the Cook (RealAudio G2 / RealAudio 8)
   decoder at the moment.
   <br />
-  [12] WMV-3 / WMV-9 / VC-1 playback will be availabe through the FFmpeg-library
-  in VLC 0.8.6. It is already enabled in the nightly builds. Some videos might still have problems playing.
+  [12] WMV-3 / WMV-9 / VC-1 playback will be available through the FFmpeg-library
+  in VLC 0.8.6. It is already enabled in the nightly builds. The playback of some
+  videos can still be problematic due to the pre-beta nature of the decoder.
   <br />
-  [13] Windows dmo codecs can be used by VLC on intel 32bit platforms.
-  This allows WMV-3/WMA-3 decoding.
+  [13] Windows DMO codecs can be used by VLC on 32-bit x86 platforms.
+  This allows WMV-3/WMA-3 decoding. This feature is untested on Intel-based Macs.
+  <br />
+  [14] A new Qt4 interface is to-be-introduced by VLC's 0.8.6 release. It is
+  already enabled in the nightly builds with limited functionality.
   </p>
 </div>
 

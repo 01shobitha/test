@@ -268,7 +268,7 @@ feature( "WMA 1/2", YES, YES, YES, YES, YES, YES );
 <?php
 feature("ADPCM", YES, YES, YES, YES, YES, NO );
 feature("DV Audio", YES, YES, YES, YES, YES, YES );
-feature("FLAC", YES, YES, YES, YES, UNT, YES );
+feature("FLAC", YES, YES, YES, YES, YES, YES );
 feature( "QDM2/QDMC (QuickTime)", YES, YES, YES, UNT, YES, UNT );
 feature( "MACE", YES, YES, YES, YES, YES, YES );
 feature( "AMR (3GPP", NO, NO , NO ,NO ,NO ,NO );
@@ -392,7 +392,7 @@ feature( "ActiveX plugin", YES, NONE, NONE, NONE, NONE, NONE );
 feature( "SVCD Menus", PART, NO, PART, NO, PART, NO );
 feature( "Localization", YES, YES, YES, YES, YES, YES );
 feature( "CD-Text <sup><a href=\"#bottom_notes\">[10]</a></sup>", YES, NO, YES, NO, UNT, NONE );
-feature( "CDDB CD info <sup><a href=\"#bottom_notes\">[11]</a></sup>", YES, YES, YES, NO, UNT, NONE );
+feature( "CDDB CD info <sup><a href=\"#bottom_notes\">[11]</a></sup>", YES, YES, YES, NO, YES, NONE );
 feature( "IPv6", YES, YES, YEs, NO, YES, YES );
 ?>
 <tr>

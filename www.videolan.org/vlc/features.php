@@ -42,31 +42,7 @@
 <tr>
 
 <td class="category" rowspan="14"><b>Inputs</b></td>
-<td class="type">UDP Unicast / Multicast</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="partial">unicast only</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="type">RTP Unicast / Multicast</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="partial">unicast only</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="type">HTTP</td>
+<td class="type">UDP/RTP Unicast</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -78,7 +54,19 @@
 
 <tr>
 
-<td class="type">FTP</td>
+<td class="type">UDP/RTP Multicast</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+<td class="no">No</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes</td>
+
+</tr>
+
+<tr>
+
+<td class="type">HTTP / FTP</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -114,7 +102,7 @@
 
 <tr>
 
-<td class="type">DVD <sup><a href="#bottom_notes">[1]</a></sup></td>
+<td class="type">DVD <sup><a href="#bottom_notes">[1]</a></sup><sup><a href="#bottom_notes">[2]</a></sup>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -290,7 +278,7 @@
 </tr>
 
 <tr>
-<td class="type">DTS Wav</td>
+<td class="type">DTS (Raw or Wav)</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -330,17 +318,7 @@
 </tr>
 
 <tr>
-<td class="type">Raw DTS audio</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-</tr>
-
-<tr>
-<td class="type">FLAC audio</td>
+<td class="type">FLAC</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -362,17 +340,7 @@
 
 <tr>
 <td class="category" rowspan="16"><b>Video Codecs</b></td>
-<td class="type">MPEG-1</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-</tr>
-
-<tr>
-<td class="type">MPEG-2</td>
+<td class="type">MPEG-1/2</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -595,7 +563,7 @@
 </tr>
 
 <tr>
-<td class="type">MicroDVD</td>
+<td class="type">Text subtitles<br />(MicroDVD,SubRIP, SubViewer, SSA1-5, SAMI, VPlayer)</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -613,57 +581,6 @@
 <td class="yes">Yes</td>
 <td class="none">-</td>
 </tr>
-
-<tr>
-<td class="type">SubRIP</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-</tr>
-
-<tr>
-<td class="type">SubViewer (v1 &amp; v2)</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-</tr>
-
-<tr>
-<td class="type">SSA1-4</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-</tr>
-
-<tr>
-<td class="type">SAMI</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-</tr>
-
-<tr>
-<td class="type">Vplayer</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-</tr>
-
 
 <tr>
 
@@ -716,19 +633,7 @@
 
 <tr>
 
-<td class="type">Rotate</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="type">Upside down</td>
+<td class="type">Rotate / Mirror</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -1185,44 +1090,6 @@
 
 </tr>
 
-<tr>
-
-<td class="type">GTK+ (unmaintained)</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="type">Gnome (unmaintained)</td>
-<td class="none">-</td>
-<td class="none">-</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-
-</tr>
-
-<tr>
-
-<td class="type">KDE (unmaintained)</td>
-<td class="none">-</td>
-<td class="none">-</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-
-</tr>
-
-<tr>
-
 <td class="type">Qt4 <sup><a href="#bottom_notes">[14]</a></sup></td>
 <td class="yes">Yes</td>
 <td class="none">No</td>
@@ -1287,18 +1154,6 @@
 
 <tr>
 
-<td class="type">SLP<sup><a href="#bottom_notes">[16]</a></sup></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="partial">Untested</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
 <td class="type">Bonjour</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -1314,18 +1169,6 @@
 
 <td class="category" rowspan="16"><b>Misc</b></td>
 <td class="type">Command line</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="type">RTSP client</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -1383,16 +1226,6 @@
 
 </tr>
 
-
-<tr>
-<td class="type">DVD Menus <sup><a href="#bottom_notes">[2]</a></sup></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-</tr>
 
 <tr>
 <td class="type">SVCD Menus <sup><a href="#bottom_notes">[6]</a></sup></td>

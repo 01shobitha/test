@@ -378,11 +378,19 @@ feature( "Infrared", NO, NO, YES, NO, NO, NO );
 
 feature( "SAP/SDP announces", YES, YES, YES, NO, YES, NO );
 feature( "Bonjour protocol", YES, YES, YES, UNT, UNT, UNT );
-feature( "Mozilla/Firefox plugin", YES, YES, YES, NO, NO,NO );
+<tr>
+<td class="type">Mozilla/Firefox plugin</td>
+<td class="yes">Yes</td>
+<td class="yes">Yes <sup><a href="#bottom_notes">[12]</a></sup></td>
+<td class="yes">Yes</td>
+<td class="yes">No</td>
+<td class="yes">No</td>
+<td class="no">No</td>
+</tr>
 feature( "ActiveX plugin", YES, NONE, NONE, NONE, NONE, NONE );
 feature( "SVCD Menus", PART, NO, PART, NO, PART, NO );
 feature( "Localization", YES, YES, YES, YES, YES, YES );
-feature( "CD-Test <sup><a href=\"#bottom_notes\">[10]</a></sup>", YES, NO, YES, NO, UNT, NONE );
+feature( "CD-Text <sup><a href=\"#bottom_notes\">[10]</a></sup>", YES, NO, YES, NO, UNT, NONE );
 feature( "CDDB CD info <sup><a href=\"#bottom_notes\">[11]</a></sup>", YES, YES, YES, NO, UNT, NONE );
 feature( "IPv6", YES, YES, YEs, NO, YES, YES );
 ?>
@@ -398,7 +406,7 @@ feature( "IPv6", YES, YES, YEs, NO, YES, YES );
 
 
 <tr>
-<td class="type">CPU acceleration <sup><a href="#bottom_notes">[12]</a></sup></td>
+<td class="type">CPU acceleration <sup><a href="#bottom_notes">[14]</a></sup></td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>

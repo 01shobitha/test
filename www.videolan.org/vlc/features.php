@@ -387,7 +387,7 @@ feature( "Bonjour protocol", YES, YES, YES, UNT, UNT, UNT );
 <td class="yes">No</td>
 <td class="no">No</td>
 </tr>
-<?php feature_table( false );
+<?php
 feature( "ActiveX plugin", YES, NONE, NONE, NONE, NONE, NONE );
 feature( "SVCD Menus", PART, NO, PART, NO, PART, NO );
 feature( "Localization", YES, YES, YES, YES, YES, YES );

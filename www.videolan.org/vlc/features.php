@@ -143,7 +143,7 @@
 <td class="partial">Incomplete</td>
 <td class="partial">Incomplete</td>
 <td class="no">No</td>
-<td class="partial">Untested</td>
+<td class="partial">Incomplete</td>
 <td class="partial">Incomplete</td>
 
 </tr>

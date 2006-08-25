@@ -367,7 +367,7 @@ p.center { text-align:center;}
 div.screenshot{ float:left; margin-right: 3em; text-align:center; }
 
 /* Misc */
-#notes { color: #75818A; font-size: 9px;}
+.notes { color: #75818A; font-size: 9px;}
 
 .vlcversion { font-size: 16px; }
 #vlccounter { font-weight: bold; }

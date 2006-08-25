@@ -89,12 +89,12 @@ feature( "UDP/RTP Multicast", YES, YES, YES, NO, YES, YES );
 feature( "HTTP / FTP", YES, YES, YES, YES, YES, YES ); 
 feature( "MMS", YES, YES, YES, YES, YES, NONE ); 
 feature( "File", YES, YES, YES, YES, YES, YES ); 
-feature( "DVD <sup><a href=\"#bottom_notes\">[1]</a></sup><sup><a href=\"#bottom_notes\">[2]</a></sup>", YES, YES, YES, YES, YES, NONE );
+feature( "DVD <sup><a href=\"#input_notes\">[1]</a></sup><sup><a href=\"#bottom_notes\">[2]</a></sup>", YES, YES, YES, YES, YES, NONE );
 feature( "VCD", YES,YES, YES, NO, YES, NONE );
-feature( "SVCD <sup><a href=\"#bottom_notes\">[6]</a></sup>", PART, PART, PART, NO, PART, NONE );
+feature( "SVCD <sup><a href=\"#input_notes\">[2]</a></sup>", PART, PART, PART, NO, PART, NONE );
 feature( "Audio CD (without DTS)", YES, YES, YES, NO, YES, NONE );
 feature( "DVB (Satellite, <br />Digital TV, Cable TV)", NO, NO, YES, NO, NO, NONE );
-feature( "MPEG encoder <sup><a href=\"#bottom_notes\">[5]</a></sup>", YES, NO, YES, NO, NO, NONE );
+feature( "MPEG encoder <sup><a href=\"#input_notes\">[3]</a></sup>", YES, NO, YES, NO, NO, NONE );
 ?>
 <tr>
 <td class="type">Video acquisition</td>
@@ -125,6 +125,20 @@ feature( "FLV (Flash)", YES, YES, YES, UNT, UNT, UNT );
 ?>
 </table>
 
+<div class="notes">
+  <a id="input_notes">Note</a>
+  <p>
+  [1] DVD decryption is done through the libdvdcss library.<br />
+  [2] VLC on GNU/Linux, Solaris, and Microsoft Windows has playback
+  control support via libcdio and libvcdinfo. On other platforms,
+  SVCD support varies depending on the availability of these libraries.
+  (Volunteers for adding support are always welcome.). Handling still
+  frames (often used in menus) and switching between different video
+  formats is problematic.<br />
+  [3] VLC for GNU/Linux supports two kinds of MPEG-2 encoding cards: Hauppauge WinTV-PVR-250/350 and Visiontech Kfir.
+  </p>
+</div>
+
 <h2>Video</h2>
 
 <?php feature_table( true ); ?>
@@ -146,11 +160,11 @@ feature( "WMV 1/2", YES, YES, YES, YES, YES, YES );
 ?>
 <tr>
 <td class="type">WMV 3 / WMV-9 / VC-1</td>
-<td class="yes">Yes<sup><a href="#bottom_notes">[12], [13]</a></sup></td>
-<td class="yes">Yes<sup><a href="#bottom_notes">[12]</a></sup></td>
-<td class="yes">Yes<sup><a href="#bottom_notes">[12], [13]</a></sup></td>
-<td class="yes">Yes<sup><a href="#bottom_notes">[12]</a></sup></td>
-<td class="yes">Yes<sup><a href="#bottom_notes">[12]</a></sup></td>
+<td class="yes">Yes<sup><a href="#video_notes">[4], [5]</a></sup></td>
+<td class="yes">Yes<sup><a href="#video_notes">[4]</a></sup></td>
+<td class="yes">Yes<sup><a href="#video_notes">[4], [5]</a></sup></td>
+<td class="yes">Yes<sup><a href="#video_notes">[4]</a></sup></td>
+<td class="yes">Yes<sup><a href="#video_notes">[4]</a></sup></td>
 <td class="no">No</td>
 </tr>
 
@@ -172,7 +186,7 @@ feature( "Real Video", NO,NO,NO,NO,NO,NO );
 <td class="category" rowspan="8"><b>Subtitles</b></td>
 
 <?php
-feature( "DVD <sup><a href=\"#bottom_notes\">[7]</a></sup>",
+feature( "DVD <sup><a href=\"#video_notes\">[6]</a></sup>",
 	PART,PART,PART,PART,PART,NONE, true );
 feature( "SVCD / CVD", YES, UNT,YES,UNT,YES,NONE );
 feature( "DVB", YES, YES, YES, YES, YES, NONE );
@@ -213,6 +227,20 @@ feature( "ASCII Art", YES, YES, YES, UNT,YES, NO );
 ?>
 </table>
 
+<div class="notes">
+  <a id="video_notes">Notes</a>
+  <p>
+  [4] WMV-3 / WMV-9 / VC-1 playback will be available through the FFmpeg-library
+  in VLC 0.8.6. It is already enabled in the nightly builds. The playback of some
+  videos can still be problematic due to the pre-beta nature of the decoder.<br />
+  [5] Windows DMO codecs can be used by VLC on 32-bit x86 platforms.
+  This allows WMV-3/WMA-3 decoding. This feature is untested on Intel-based Macs.<br />
+  [6] Full color for YUV-type chromas is not handled, only the gray-scale
+  value. Subtitle transparency is not fully supported for all
+  chromas. Some chromas are not handled at all.</p>
+</div>
+ 
+
 <h2>Audio</h2>
 
 <?php feature_table(true); ?>
@@ -230,9 +258,9 @@ feature( "WMA 1/2", YES, YES, YES, YES, YES, YES );
 ?>
 <tr>
 <td class="type">WMA 3</td>
-<td class="yes">Yes<sup><a href="#bottom_notes">[13]</a></sup></td>
+<td class="yes">Yes<sup><a href="#audio_notes">[7]</a></sup></td>
 <td class="no">No</td>
-<td class="partial">Yes<sup><a href="#bottom_notes">[13]</a></sup></td>
+<td class="partial">Yes<sup><a href="#audio_notes">[7]</a></sup></td>
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="no">No</td>
@@ -244,7 +272,7 @@ feature("FLAC", YES, YES, YES, YES, UNT, YES );
 feature( "QDM2/QDMC (QuickTime)", YES, YES, YES, UNT, YES, UNT );
 feature( "MACE", YES, YES, YES, YES, YES, YES );
 feature( "AMR (3GPP", NO, NO , NO ,NO ,NO ,NO );
-feature( "Real Audio <sup><a href=\"#bottom_notes\">[11]</a></sup>",
+feature( "Real Audio <sup><a href=\"#bottom_notes\">[8]</a></sup>",
 	PART,PART,PART,UNT,PART,NO );
 feature( "Speex", YES, YES, YES, UNT, YES, UNT );
 ?>
@@ -302,6 +330,17 @@ feature( "JACK", NONE, PART, YES, NONE, UNT, UNT );
 ?>
 </table>
 
+<div class="notes">
+  <a id="audio_notes">Notes:</a>
+  <p>
+  [7] Windows DMO codecs can be used by VLC on 32-bit x86 platforms.
+  This allows WMV-3/WMA-3 decoding. This feature is untested on Intel-based Macs.<br />
+  [8] Real Audio playback is provided through the FFmpeg-library
+  which does only support the Cook (RealAudio G2 / RealAudio 8)
+  decoder at the moment.
+</p>
+</div>
+
 <h2>Streaming</h2>
 <p>See the <a href="/streaming-features.html">Streaming features page</a></p>
 
@@ -318,7 +357,7 @@ feature( "JACK", NONE, PART, YES, NONE, UNT, UNT );
 </tr>
 
 <?php
-feature( "Qt 4  <sup><a href=\"#bottom_notes\">[14]</a></sup>", YES, NO, YES, NONE, UNT, NO );
+feature( "Qt 4  <sup><a href=\"#intf_notes\">[9]</a></sup>", YES, NO, YES, NONE, UNT, NO );
 feature( "Skins", YES, NO, YES, NO, NO, NO );
 feature( "Web", YES, YES, YES, YES, YES, YES );
 feature( "Telnet", YES, YES, YES, YES, YES, YES );
@@ -326,6 +365,13 @@ feature( "Command line", YES, YES, YES, YES, YES, YES );
 feature( "Infrared", NO, NO, YES, NO, NO, NO );
 ?>
 </table>
+<div class="notes">
+<a id="intf_notes">Notes:</a>
+<p>
+  [9] A new Qt4 interface is to-be-introduced by VLC's 0.8.6 release. It is
+  already enabled in the nightly builds with limited functionality.
+</p>
+</div>
 
 <h2>Miscellaneous</h2>
 <?php feature_table( false );
@@ -334,10 +380,10 @@ feature( "SAP/SDP announces", YES, YES, YES, NO, YES, NO );
 feature( "Bonjour protocol", YES, YES, YES, UNT, UNT, UNT );
 feature( "Mozilla/Firefox plugin", YES, YES, YES, NO, NO,NO );
 feature( "ActiveX plugin", YES, NONE, NONE, NONE, NONE, NONE );
-feature( "SVCD Menus <sup><a href=\"#bottom_notes\">[6]</a></sup>", PART, NO, PART, NO, PART, NO );
+feature( "SVCD Menus", PART, NO, PART, NO, PART, NO );
 feature( "Localization", YES, YES, YES, YES, YES, YES );
-feature( "CD-Test <sup><a href=\"#bottom_notes\">[8]</a></sup>", YES, NO, YES, NO, UNT, NONE );
-feature( "CDDB CD info <sup><a href=\"#bottom_notes\">[9]</a></sup>", YES, YES, YES, NO, UNT, NONE );
+feature( "CD-Test <sup><a href=\"#bottom_notes\">[10]</a></sup>", YES, NO, YES, NO, UNT, NONE );
+feature( "CDDB CD info <sup><a href=\"#bottom_notes\">[11]</a></sup>", YES, YES, YES, NO, UNT, NONE );
 feature( "IPv6", YES, YES, YEs, NO, YES, YES );
 ?>
 <tr>
@@ -352,71 +398,34 @@ feature( "IPv6", YES, YES, YEs, NO, YES, YES );
 
 
 <tr>
-<td class="type">CPU acceleration <sup><a href="#bottom_notes">[3]</a></sup></td>
+<td class="type">CPU acceleration <sup><a href="#bottom_notes">[12]</a></sup></td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
-<td class="yes">Yes <sup><a href="#bottom_notes">[4]</a></sup></td>
+<td class="yes">Yes <sup><a href="#bottom_notes">[13]</a></sup></td>
 <td class="no">No</td>
 </tr>
 
 </table>
 
-<div id="notes">
-<a id="bottom_notes">Note</a>
-  <p>
-  [1] DVD decryption is done through the libdvdcss library.
-  <br />
-  [2] DVD navigation is done through the libdvdnav library.
-  <br />
-  [3] Supported CPU extensions are MMX, MMXEXT, SSE, SSE2 and 3D Now! on x86
-  processors, and AltiVec on G4/G5 processors.
-  <br />
-  [4] The OpenBSD 2.9 default assembler does not support MMX.
-  <br />
-  [5] VLC for GNU/Linux supports two kinds of MPEG-2 encoding cards: Hauppauge WinTV-PVR-250/350
-  and Visiontech Kfir.
-  <br />
-  [6] VLC on GNU/Linux, Solaris, and Microsoft Windows has playback
-  control support via libcdio and libvcdinfo. On other platforms,
-  SVCD support varies depending on the availability of these libraries.
-  (Volunteers for adding support are always welcome.). Handling still
-  frames (often used in menus) and switching between different video
-  formats is problematic.
-  <br /> 
-  [7] Full color for YUV-type chromas is not handled, only the gray-scale
-  value. Subtitle transparency is not fully supported for all
-  chromas. Some chromas are not handled at all.
-  <br /> 
-  [8] CD-Text information provided via libcdio. This service is available
+<div class="notes">
+<a id="bottom_notes">Notes:</a>
+<p>
+  [10] CD-Text information provided via libcdio. This service is available
   on all platforms supported by the library.
   <br />
-  [9] CDDB information provided by libcddb on all supported platforms excepting BeOS.
-  <br />
-  [10] The current releases of WxWidgets for Mac are too unstable to be 
-  used by VLC in production environments. Additionally, the resulting 
-  interface isn't as Mac-like as we want VLC to be.
-  <br />
-  [11] Real Audio playback is provided through the FFmpeg-library
-  which does only support the Cook (RealAudio G2 / RealAudio 8)
-  decoder at the moment.
-  <br />
-  [12] WMV-3 / WMV-9 / VC-1 playback will be available through the FFmpeg-library
-  in VLC 0.8.6. It is already enabled in the nightly builds. The playback of some
-  videos can still be problematic due to the pre-beta nature of the decoder.
-  <br />
-  [13] Windows DMO codecs can be used by VLC on 32-bit x86 platforms.
-  This allows WMV-3/WMA-3 decoding. This feature is untested on Intel-based Macs.
-  <br />
-  [14] A new Qt4 interface is to-be-introduced by VLC's 0.8.6 release. It is
-  already enabled in the nightly builds with limited functionality.
-  <br />
-  [15] The Mozilla Plugin for Mac is only available for PowerPC-based Macs and Intel-based Macs running Mozilla in the Rosetta-mode. A port to the new Macs
+  [11] CDDB information provided by libcddb on all supported platforms excepting BeOS.
+ <br />
+ <br />
+  [12] The Mozilla Plugin for Mac is only available for PowerPC-based Macs and Intel-based Macs running Mozilla in the Rosetta-mode. A port to the new Macs
   will be provided within the 0.8.6 release.
+  [13] The OpenBSD 2.9 default assembler does not support MMX.
   <br />
-  [16] SLP is deprecated and support has been dropped in 0.8.5.
- 
+  [14] Supported CPU extensions are MMX, MMXEXT, SSE, SSE2 and 3D Now! on x86
+  processors, and AltiVec on G4/G5 processors.
+  <br />
+ <br /> 
   </p>
 </div>
 

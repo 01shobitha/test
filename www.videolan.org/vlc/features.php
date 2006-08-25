@@ -155,7 +155,7 @@
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="no">No</td>
-<td class="partial">Untested</td>
+<td class="yes">Yes</td>
 <td class="none">-</td>
 
 </tr>
@@ -540,7 +540,7 @@
 <td class="partial">Untested</td>
 <td class="yes">Yes</td>
 <td class="partial">Untested</td>
-<td class="partial">Untested</td>
+<td class="yes">Yes</td>
 <td class="yes">Yes</td>
 </tr>
 
@@ -769,7 +769,7 @@
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="partial">Untested</td>
-<td class="partial">Untested</td>
+<td class="yes">Yes</td>
 <td class="no">No</td>
 
 </tr>
@@ -851,7 +851,7 @@
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="partial">Untested</td>
-<td class="partial">Untested</td>
+<td class="yes">Yes</td>
 <td class="no">No</td>
 </tr>
 
@@ -1287,7 +1287,7 @@
 
 <tr>
 
-<td class="type">SLP</td>
+<td class="type">SLP<sup><a href="#bottom_notes">[16]</a></sup></td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
@@ -1400,7 +1400,7 @@
 <td class="no">No</td>
 <td class="partial">Incomplete</td>
 <td class="no">No</td>
-<td class="partial">Untested</td>
+<td class="partial">Incomplete</td>
 <td class="partial">Incomplete</td>
 </tr>
 
@@ -1581,6 +1581,9 @@
   <br />
   [15] The Mozilla Plugin for Mac is only available for PowerPC-based Macs and Intel-based Macs running Mozilla in the Rosetta-mode. A port to the new Macs
   will be provided within the 0.8.6 release.
+  <br />
+  [16] SLP is deprecated and support has been dropped in 0.8.5.
+ 
   </p>
 </div>
 

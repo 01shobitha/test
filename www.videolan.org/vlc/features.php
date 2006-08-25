@@ -347,11 +347,11 @@ feature( "JACK", NONE, PART, YES, NONE, UNT, UNT );
 <h2>Interfaces and control</h2>
 <?php feature_table( false ); ?>
 <tr>
-<td class="type">Native</td>
-<td class="yes">Yes</td>
+<td class="type">Default</td>
+<td class="yes">WxWidgets</td>
 <td class="yes">Cocoa</td>
-<td class="none">-</td>
-<td class="yes">Yes</td>
+<td class="yes">WxWidgets</td>
+<td class="yes">Native</td>
 <td class="none">-</td>
 <td class="yes">GPE</td>
 </tr>
@@ -417,9 +417,9 @@ feature( "IPv6", YES, YES, YEs, NO, YES, YES );
   <br />
   [11] CDDB information provided by libcddb on all supported platforms excepting BeOS.
  <br />
- <br />
   [12] The Mozilla Plugin for Mac is only available for PowerPC-based Macs and Intel-based Macs running Mozilla in the Rosetta-mode. A port to the new Macs
   will be provided within the 0.8.6 release.
+  <br />
   [13] The OpenBSD 2.9 default assembler does not support MMX.
   <br />
   [14] Supported CPU extensions are MMX, MMXEXT, SSE, SSE2 and 3D Now! on x86

@@ -81,7 +81,7 @@
 <h2>Input</h2>
 <?php feature_table( true ); ?>
 <tr>
-<td class="category" rowspan="12"><b>Inputs</b></td>
+<td class="category" rowspan="12"><b>Input media</b></td>
 
 <?php
 feature( "UDP/RTP Unicast", YES, YES, YES, YES, YES, YES, true ); 
@@ -195,7 +195,7 @@ feature( "Image distortion", YES, YES, YES, YES, YES, NO );
 feature( "Bluescreen", YES, YES, YES, YES, YES, NO );
 feature( "RSS/Atom feeds", YES, YES, YES, UNT, YES, NO );
 ?>
-<tr><td class="category" rowspan="8"><b>Video Output</b></td>
+<tr><td class="category" rowspan="8"><b>Outputs</b></td>
 <td class="type">Native</td>
 <td class="yes">DirectX<br />GDI</td>
 <td class="yes">OpenGL<br />Quartz</td>
@@ -249,7 +249,13 @@ feature( "Real Audio <sup><a href=\"#bottom_notes\">[11]</a></sup>",
 feature( "Speex", YES, YES, YES, UNT, YES, UNT );
 ?>
 
-<tr><td class="category" rowspan="7"><b>Output</b></td>
+<tr><td class="category" rowspan="2"><b>Filters</b></td>
+<?php
+feature( "Visualization effects", YES, YES, YES, YES, YES, YES, true );
+feature( "Equalizer", YES, YES, YES, YES, YES, YES );
+?>
+
+<tr><td class="category" rowspan="7"><b>Outputs</b></td>
 <td class="type">Native</td>
 <td class="yes">DirectX<br />WaveOut</td>
 <td class="yes">Yes</td>
@@ -294,20 +300,14 @@ feature( "ESD", NONE, NONE, YES, NONE, YES, YES );
 feature( "aRts", NONE, NONE, YES, NONE, YES, NONE );
 feature( "JACK", NONE, PART, YES, NONE, UNT, UNT );
 ?>
-
-<tr><td class="category" rowspan="2"><b>Filters</b></td>
-<?php
-feature( "Visualization effects", YES, YES, YES, YES, YES, YES, true );
-feature( "Equalizer", YES, YES, YES, YES, YES, YES );
-?>
 </table>
 
 <h2>Streaming</h2>
 <p>See the <a href="/streaming-features.html">Streaming features page</a></p>
 
 <h2>Interfaces and control</h2>
-<?php feature_table( true ); ?>
-<tr><td class="category" rowspan="8"><b>Interfaces</b></td>
+<?php feature_table( false ); ?>
+<tr>
 <td class="type">Native</td>
 <td class="yes">Yes</td>
 <td class="yes">Cocoa</td>

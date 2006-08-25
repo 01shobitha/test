@@ -375,9 +375,9 @@ feature( "Infrared", NO, NO, YES, NO, NO, NO );
 
 <h2>Miscellaneous</h2>
 <?php feature_table( false );
-
 feature( "SAP/SDP announces", YES, YES, YES, NO, YES, NO );
 feature( "Bonjour protocol", YES, YES, YES, UNT, UNT, UNT );
+?>
 <tr>
 <td class="type">Mozilla/Firefox plugin</td>
 <td class="yes">Yes</td>
@@ -387,6 +387,7 @@ feature( "Bonjour protocol", YES, YES, YES, UNT, UNT, UNT );
 <td class="yes">No</td>
 <td class="no">No</td>
 </tr>
+<?php feature_table( false );
 feature( "ActiveX plugin", YES, NONE, NONE, NONE, NONE, NONE );
 feature( "SVCD Menus", PART, NO, PART, NO, PART, NO );
 feature( "Localization", YES, YES, YES, YES, YES, YES );

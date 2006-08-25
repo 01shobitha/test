@@ -115,13 +115,13 @@ feature( "AVI", YES, YES, YES, YES, YES, YES );
 feature( "ASF / WMV / WMA" , YES, YES, YES, YES, YES, YES );
 feature( "MP4 / MOV / 3GP", YES, YES, YES, YES, YES, YES );
 feature( "OGG / OGM / Annodex", YES, YES, YES, YES, YES, YES );
-feature( "Matroska (MKV)", YES, YES, YES, YES, UNT, NO );
+feature( "Matroska (MKV)", YES, YES, YES, YES, YES, NO );
 feature( "Real", NO, NO, NO, NO, NO, NO );
 feature( "WAV (incuding DTS)", YES, YES, YES, YES, YES, YES );
 feature( "Raw Audio: DTS, AAC, AC3/A52", YES, YES, YES, YES, YES, YES );
 feature( "Raw DV", YES, YES, YES, YES, YES, YES );
 feature( "FLAC", YES, YES, YES, YES, YES, YES );
-feature( "FLV (Flash)", YES, YES, YES, UNT, UNT, UNT );
+feature( "FLV (Flash)", YES, YES, YES, UNT, YES, UNT );
 ?>
 </table>
 
@@ -192,7 +192,7 @@ feature( "SVCD / CVD", YES, UNT,YES,UNT,YES,NONE );
 feature( "DVB", YES, YES, YES, YES, YES, NONE );
 feature( "Closed captions", NO,NO,NO,NO,NO,NONE );
 feature( "OGM", YES, YES, YES, YES, YES, NONE );
-feature( "Matroska",YES, YES, YES, YES, UNT, NONE );
+feature( "Matroska",YES, YES, YES, YES, YES, NONE );
 feature( "Text files (MicroDVD,<br />SubRIP, SubViewer, SSA1-5, SAMI, VPlayer)",YES,YES,YES,YES,YES,NONE );
 feature( "Vobsub",YES,YES,YES,YES,YES,NONE );
 ?>
@@ -207,7 +207,7 @@ feature( "Logo overlay", YES, YES, YES, YES, YES, NO );
 feature( "Magnification", YES, YES, YES, YES, YES, NO );
 feature( "Image distortion", YES, YES, YES, YES, YES, NO );
 feature( "Bluescreen", YES, YES, YES, YES, YES, NO );
-feature( "RSS/Atom feeds", YES, YES, YES, UNT, YES, NO );
+feature( "RSS/Atom feeds", YES, YES, YES, YES, YES, NO );
 ?>
 <tr><td class="category" rowspan="8"><b>Outputs</b></td>
 <td class="type">Native</td>

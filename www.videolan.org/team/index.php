@@ -9,6 +9,8 @@
 <div id="left">
 <h1> Team / Contact </h1>
 
+
+
 <p> The VideoLAN team is made up of students of the <a
 href="http://www.ecp.fr/">École Centrale Paris</a> and developers
 from all over the world:</p>
@@ -119,10 +121,10 @@ part with '@'. </p>
 </p>
 
 <pre style="margin-left: 60px;">
-VIA Centrale Réseaux
-Résidence des élèves de l'École Centrale
+VIA Centrale RÃ©seaux
+RÃ©sidence des Ã©lÃšves de l'Ãcole Centrale
 2, avenue Sully Prudhomme
-92 290 Châtenay Malabry
+92 290 ChÃ¢tenay Malabry
 France
 </pre>
 
@@ -159,10 +161,10 @@ at the following address :</p>
 
 <pre  style="margin-left: 60px;">
 VideoLAN
-Club VIA Centrale Réseaux
-Résidence Ecole Centrale
+Club VIA Centrale RÃ©seaux
+RÃ©sidence Ecole Centrale
 2, avenue Sully Prudhomme
-92 290 Châtenay Malabry
+92 290 ChÃ¢tenay Malabry
 France
 </pre>
 <?php panel_end(); ?>

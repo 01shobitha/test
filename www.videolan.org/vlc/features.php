@@ -110,7 +110,7 @@ feature( "MPEG encoder <sup><a href=\"#input_notes\">[3]</a></sup>", YES, NO, YE
 <td class="category" rowspan="13"><b>Input formats</b></td>
 <?php
 feature( "MPEG (ES,PS,TS,PVA,MP3)", YES, YES, YES, YES, YES, YES, true );
-feature( "ID3 tags", YES, YES, YES, YES, YEs, YES );
+feature( "ID3 tags", YES, YES, YES, YES, YES, YES );
 feature( "AVI", YES, YES, YES, YES, YES, YES );
 feature( "ASF / WMV / WMA" , YES, YES, YES, YES, YES, YES );
 feature( "MP4 / MOV / 3GP", YES, YES, YES, YES, YES, YES );
@@ -352,13 +352,13 @@ feature( "JACK", NONE, PART, YES, NONE, UNT, UNT );
 <td class="yes">Cocoa</td>
 <td class="yes">WxWidgets</td>
 <td class="yes">Native</td>
-<td class="none">-</td>
+<td class="yes">WxWidgets</td>
 <td class="yes">GPE</td>
 </tr>
 
 <?php
 feature( "Qt 4  <sup><a href=\"#intf_notes\">[9]</a></sup>", YES, NO, YES, NONE, UNT, NO );
-feature( "Skins", YES, NO, YES, NO, NO, NO );
+feature( "Skins", YES, NO, YES, NO, YES, NO );
 feature( "Web", YES, YES, YES, YES, YES, YES );
 feature( "Telnet", YES, YES, YES, YES, YES, YES );
 feature( "Command line", YES, YES, YES, YES, YES, YES );
@@ -384,15 +384,15 @@ feature( "Bonjour protocol", YES, YES, YES, UNT, UNT, UNT );
 <td class="yes">Yes <sup><a href="#bottom_notes">[12]</a></sup></td>
 <td class="yes">Yes</td>
 <td class="yes">No</td>
-<td class="yes">No</td>
+<td class="yes">Yes</td>
 <td class="no">No</td>
 </tr>
 <?php
 feature( "ActiveX plugin", YES, NONE, NONE, NONE, NONE, NONE );
 feature( "SVCD Menus", PART, NO, PART, NO, PART, NO );
 feature( "Localization", YES, YES, YES, YES, YES, YES );
-feature( "CD-Text <sup><a href=\"#bottom_notes\">[10]</a></sup>", YES, NO, YES, NO, UNT, NONE );
-feature( "CDDB CD info <sup><a href=\"#bottom_notes\">[11]</a></sup>", YES, YES, YES, NO, YES, NONE );
+feature( "CD-Text <sup><a href=\"#bottom_notes\">[10]</a></sup>", YES, NO, YES, NO, PART, NONE );
+feature( "CDDB CD info <sup><a href=\"#bottom_notes\">[11]</a></sup>", YES, YES, YES, NO, PART, NONE );
 feature( "IPv6", YES, YES, YEs, NO, YES, YES );
 ?>
 <tr>

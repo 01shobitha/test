@@ -121,10 +121,10 @@ part with '@'. </p>
 </p>
 
 <pre style="margin-left: 60px;">
-VIA Centrale RÃ©seaux
-RÃ©sidence des Ã©lÃšves de l'Ãcole Centrale
+VIA Centrale Réseaux
+Résidence des Élèves de l'École Centrale
 2, avenue Sully Prudhomme
-92 290 ChÃ¢tenay Malabry
+92 290 Châtenay Malabry
 France
 </pre>
 
@@ -161,10 +161,10 @@ at the following address :</p>
 
 <pre  style="margin-left: 60px;">
 VideoLAN
-Club VIA Centrale RÃ©seaux
-RÃ©sidence Ecole Centrale
+Club VIA Centrale Réseaux
+Résidence Ecole Centrale
 2, avenue Sully Prudhomme
-92 290 ChÃ¢tenay Malabry
+92 290 Châtenay Malabry
 France
 </pre>
 <?php panel_end(); ?>

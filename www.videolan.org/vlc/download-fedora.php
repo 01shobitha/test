@@ -24,36 +24,36 @@
 
 <p>file: vlc.repo</p>
 <pre>
-[base]
-name=VLC 0.8.5 - $basearch - Base
-baseurl=http://download.videolan.org/pub/videolan/vlc/0.8.5/fedora/$releasever/$basearch/vlc/0.8.5/base
+[vlc]
+name=VLC 0.8.5 - $basearch - VLC Base
+baseurl=http://download.videolan.org/pub/videolan/vlc/0.8.5/fedora/$releasever/$basearch/vlc/0.8.5/vlc
 enabled=1
 gpgcheck=1
 </pre>
 
 <p>file: vlc-contrib.repo</p>
 <pre>
-[contrib]
+[vlc-contrib]
 name=VLC 0.8.5 - $basearch - Contrib
-baseurl=http://download.videolan.org/pub/videolan/vlc/0.8.5/fedora/$releasever/$basearch/vlc/0.8.5/contrib
+baseurl=http://download.videolan.org/pub/videolan/vlc/0.8.5/fedora/$releasever/$basearch/vlc/0.8.5/vlc-contrib
 enabled=1
 gpgcheck=1
 </pre>
 
 <p>file: vlc-devel.repo</p>
 <pre>
-[devel]
+[vlc-devel]
 name=VLC 0.8.5 - $basearch - Devel
-baseurl=http://download.videolan.org/pub/videolan/vlc/0.8.5/fedora/$releasever/$basearch/vlc/0.8.5/devel
+baseurl=http://download.videolan.org/pub/videolan/vlc/0.8.5/fedora/$releasever/$basearch/vlc/0.8.5/vlc-devel
 enabled=1
 gpgcheck=1
 </pre>
 
 <p>file: vlc-source.repo</p>
 <pre>
-[source]
+[vlc-source]
 name=VLC 0.8.5 - $basearch - Source
-baseurl=http://download.videolan.org/pub/videolan/vlc/0.8.5/fedora/$releasever/$basearch/vlc/0.8.5/source
+baseurl=http://download.videolan.org/pub/videolan/vlc/0.8.5/fedora/$releasever/$basearch/vlc/0.8.5/vlc-source
 enabled=1
 gpgcheck=1
 </pre>

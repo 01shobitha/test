@@ -58,6 +58,12 @@ enabled=1
 gpgcheck=1
 </pre>
 
+<p>The first thing you must do after creating the above file is to run <b>yum update</b> as root user. This will update the repository meta information on you system. After this you can install vlc.</p>
+
+<pre>
+  $ yum update
+  $ yum install vlc
+</pre>
 <p>The yum repository is mirrored to :</p>
 
 <?php  pkgitem( "VLC Fedora Core Yum repository","vlc/0.8.5/fedora/4/i386/vlc/0.8.5/","","");?>

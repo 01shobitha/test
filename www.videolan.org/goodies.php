@@ -132,7 +132,7 @@ href="/images/videolan-backgrounds-base-2-1.src.rpm">here</a>.</p>
 <a href="/images/videolan-wikingsoft2.png">Image 1024x768</a> (56 kB)
 </div>
 
-<p>This background image was made by <a href="mailto:asim@xtremestuff.net">Asim Siddiqui</a>:</p>
+<p>This background image was made by <a href="http://www.xtremestuff.net">Asim Siddiqui</a>:</p>
 
 <div>
   <img src="/images/goodies/tn_videolan_org.png" alt="Background" width="250" height="187" /><br />

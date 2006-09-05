@@ -1131,7 +1131,13 @@ Input object
 <para>read/write properties</para>
 <itemizedlist>
 <listitem><para><command>vlc.input.position</command> : normalized position in multimedia stream item given as a float value between [0.0 - 1.0]</para></listitem>
-<listitem><para><command>vlc.input.time</command> : the absolute position in time given in milliseconds</para></listitem>
+<listitem><para><command>vlc.input.time</command> : the absolute position in time given in milliseconds, this property can be used to seek through the stream
+<programlisting>
+&lt;!-- absolute seek in stream !--&gt;
+vlc.input.time = &lt;absolute seek&gt;
+&lt;!-- relative seek in stream !--&gt;
+vlc.input.time = vlc.input.time + &lt;relative seek&gt;
+</programlisting></para></listitem>
 <listitem><para><command>vlc.input.state</command> : current state of the input chain given as enumeration (IDLE/CLOSE=0, OPENING=1, BUFFERING=2, PLAYING=3, PAUSED=4, STOPPING=5)</para></listitem>
 <listitem><para><command>vlc.input.rate</command> : input speed given as float (1.0 for normal speed, 0.5 for half speed, 2.0 for twice as fast, etc.)</para></listitem>
 </itemizedlist>

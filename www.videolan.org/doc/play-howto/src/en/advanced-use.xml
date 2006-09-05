@@ -917,10 +917,11 @@ Firefox\plugins</emphasis>).</para>
 
 <sect3><title>MacOS X</title>
 
-<para><empahais>The Mozilla/Safari plugin for MacOS X is only available from vlc version 0.8.5.1 and onwards.</emphasis></para>
+<para><empahasis>The Mozilla/Safari plugin for MacOS X is only available from vlc version 0.8.5.1 and onwards.</emphasis></para>
 <para>Quit Safari browser</para>
 <para>Download the Mozilla/safari plugin package from <ulink url="http://www.videolan.org/vlc/download-macosx.html">MacOS X download page</ulink>.</para>
 <para>Run the installer from the dmg image.</para>
+</sect3>
 
 <sect3><title>
 Compile the sources yourself
@@ -943,7 +944,7 @@ video.</para>
 </sect2>
 
 <sect2><title>
-Build HTML pages that use the plugin (version <= 0.8.5)
+Build HTML pages that use the plugin (version &lt;= 0.8.5)
 </title>
 
 <para><emphasis>The following API description is only valid uptill version 0.8.5 of the mozilla plugin.</emphasis></para>
@@ -1053,7 +1054,7 @@ multicast UDP stream in a dedicated video output window.
 </sect2>
 
 <sect2><title>
-Build HTML pages that use the plugin (version > 0.8.5.1)
+Build HTML pages that use the plugin (version &gt; 0.8.5.1)
 </title>
 
 <para>Additionally to viewing video on all pages, you can build

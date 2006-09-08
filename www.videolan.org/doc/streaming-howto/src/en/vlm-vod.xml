@@ -62,7 +62,7 @@ options</emphasis> checkbox).</para>
 url="http://www.videolan.org/doc/">Play-with-VLC Howto.</ulink></para>
 
 <para>To access the vlm section of the http interface, use the following
-URL: <emphasis> http://host:port/vlm/</emphasis>.</para>
+URL: <emphasis> http://host:port/vlm.html</emphasis> (<emphasis>http://host:port/vlm/</emphasis> for VLC 0.8.4 and older).</para>
 
 </sect3></sect2>
 

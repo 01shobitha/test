@@ -35,7 +35,7 @@
 <li><?php     pkgitem_nomirr("lame 3.96.1", "0.8.5/contrib","lame-3.96.1.tar.gz","vlc","(MP3 audio encoder)");?></li>
 <li><?php     pkgitem_nomirr("libcddb 0.9.6", "0.8.5/contrib","libcddb-0.9.6.tar.gz","vlc","(Audio CD CDDB library)");?></li>
 <li><?php     pkgitem_nomirr("libcdio 0.72", "0.8.5/contrib","libcdio-0.72.tar.gz","vlc","(CD,VCD,SVCD,CDDA library)");?></li>
-<li><?php     pkgitem_nomirr("libdvbpsi3 0.1.5", "0.8.5/contrib","libdvbpsi3-0.1.5.tar.gz","vlc","(MPEG TS and DVB PSI tables library)");?></li>
+<li><?php     pkgitem_nomirr("libdvbpsi4 0.1.5", "0.8.5/contrib","libdvbpsi4-0.1.5.tar.gz","vlc","(MPEG TS and DVB PSI tables library)");?></li>
 <li><?php     pkgitem_nomirr("libdvdcss 1.2.8", "0.8.5/contrib","libdvdcss-1.2.8.tar.bz2","vlc","(DVD decryption library)");?></li>
 <li><?php     pkgitem_nomirr("libdvdnav 2005/02/11", "0.8.5/contrib","libdvdnav-20050211.tar.bz2","vlc","(DVD menus navigation library)");?></li>
 <li><?php     pkgitem_nomirr("libdvdread 2004/10/28", "0.8.5/contrib","libdvdread-20041028.tar.bz2","vlc","(DVD reading library)");?></li>

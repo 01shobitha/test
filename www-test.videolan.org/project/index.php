@@ -16,9 +16,7 @@
   <p>VideoLAN produces
   <a href="http://www.gnu.org/philosophy/free-sw.html">free
   software</a> for video, released under the GNU <a
-  href="http://www.gnu.org/copyleft/gpl.html">General Public
-3C
-  License</a>. </p>
+  href="http://www.gnu.org/copyleft/gpl.html">General Public License</a>. </p>
   <p>It started as a student project at the French <a
   href="http://www.ecp.fr/">École Centrale Paris</a> but is now a worldwide
   project with <a href="/team/index.html">developers</a> from 20 countries.</p>

@@ -14,7 +14,9 @@ VideoLAN user and developer community.</p>
 
 <h2>Reporting a bug</h2>
 
-<p>If you find any bugs, or if you experience any crashes, then we would very much like to hear of these problems/suggestions. Here are some detailed information on how to submit useful bug reports.</p>
+<p>If you find any bugs, or if you experience any crashes, then we would
+very much like to hear of these problems/suggestions. Here are some
+detailed information on how to submit useful bug reports.</p>
 
 <h3>Is it truly a new bug?</h3>
 
@@ -66,20 +68,23 @@ already closed. The page of the issue will then show something like:
 href="http://forum.videolan.org">forums</a>. <a
 href="http://forum.videolan.org/search.php">Search</a> them and
 see if someone else has asked a similar question or has seen a
-similar bug. If not, post your question or problem in the <a
-href="http://forum.videolan.org/">relevant forum</a> and make sure you
-include as much information as possible (see also the pointers below).
-Of course you can also mail us with your problems when you subscribe to
-the <a href="/support/lists.html">mailinglist</a>.</p>
+similar bug.</p>
 
-<p>When the bug has been confirmed by a developer or forum moderator, it
-can be entered into our <a href="https://trac.videolan.org/vlc/">Trac
-system</a> by one of them. Normal users cannot add new issues.
+<p>If you are still unsure about your bug, please post your question or
+problem in the <a href="http://forum.videolan.org/">relevant forum</a>
+and make sure you include as much information as possible (see also the
+pointers below). Of course you can also mail us with your problems
+to the <a href="/support/lists.html">mailinglist</a>.</p>
 
-</p>
+<p>If you are sure that you found a bug and that you have
+all information needed, you can enter a bug in our <a
+href="https://trac.videolan.org/vlc/">Trac system</a>. You will need
+to register here to enter a bug. Don't forget to enter a valid e-mail
+address if you want to receive notifications when your bug is handled.</p>
 
-<p>When you post on the forum or email us, please provide as much
-information as possible in your report. <br />
+
+<p>When you post on the forum, email us or enter a bug report, please
+provide as much information as possible in your report. <br />
 We try to answer all your mails, posts and reports, but there are so
 many that sometimes we simply don't have the time to do so. The more
 sound details you provide about your issue, the better the chance that

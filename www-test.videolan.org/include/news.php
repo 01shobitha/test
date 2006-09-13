@@ -8,7 +8,7 @@
     ?>
     <script type="text/javascript">
     function toggle(count) {
-	var text = "news-"+count;
+	var text = "news-span-"+count;
 	var read = "read-"+count;
 	if(document.getElementById(text)) 
 	{
@@ -51,14 +51,15 @@
 
                 if( $count ++ < 15 ) { echo ("<div class=\"item\">\n"); }
 		else { echo ("<div class=\"item-really-old\">\n"); }
+		echo "<a id=\"news-$count\" href=\"/news.html#news-$count\"></a>";
                 
 		echo ("<h3>".$title."</h3>\n" );
 		//echo "<div id=\"news-$count\">";
                 echo ("<p class=\"date\">".date("Y-m-d", strtotime( $date) )."</p>\n");
-                echo "<p>".$short;
+                echo "<p class=\"descr\">".$short;
     if( $remain )
     {
-    echo "<span id=\"news-$count\">$remain</span> ";
+    echo "<span id=\"news-span-$count\">$remain</span> ";
 		echo "<script type=\"text/javascript\"><!--\n";
 		echo "document.writeln('<br /><a id=\"read-$count\" ";
  		echo "href=\"javascript:toggle(\'$count\')\">(Read more...)";

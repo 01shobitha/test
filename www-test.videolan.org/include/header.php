@@ -25,11 +25,16 @@ echo "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n";
    <title><?php echo $title; ?></title>
    <link rel="alternate" type="application/rss+xml" title="RSS - News" href="/videolan-news.rss" />
    <link rel="stylesheet" type="text/css" href="/main.css" />
-   <!--[if lt IE 7]>
-	<style type="text/css">
-           @media screen{ #pagecontainer {behavior:url("/width.htc");} }
-        </style>
-   <![endif]-->
+
+<!--[if lt IE 7]>
+   <style type="text/css">
+      @media screen{ body{behavior:url("/width.htc");} }
+        /* PNG support for IE */
+        img {  behavior: url("/png.htc");}
+        .DXImageTransformed { display: inline-block; }
+      </style>
+<![endif]-->
+
    <link rel="shortcut icon" type="image/x-icon"
          href="/images/icons/favicon.ico" />
    <?php if( $enable_live == true ) {?>
@@ -44,7 +49,7 @@ echo "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n";
 <?php
    }
 ?>
-  <div id="pagecontainer" class="clearfix">
+  <div id="pagecontainer">
 <?php
 }
 
@@ -66,6 +71,10 @@ function DrawMenu( $file, $mod )
       }
     }
   }
+  else
+{
+echo "<li>&nbsp;</li>";
+}
 }
 
 
@@ -86,7 +95,8 @@ function footer($tag) {
     <?php if($language=="fr") { } else { echo 'valid'; } ?>
     <a href="http://validator.w3.org/check/referer">XHTML 1.1</a>
     and 
-    <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>
+<?php echo '<a href="http://jigsaw.w3.org/css-validator/validator?uri='.$_SERVER['DOCUMENT_ROOT'].$_SERVER['REQUEST_URI'];
+echo 'check/referer">CSS</a>';?>
     <?php if($language=="fr") { echo 'valides'; } else { } ?>
     - <a href="http://www.videolan.org/videolan-news.rss">RSS v1.0</a>
   </p>

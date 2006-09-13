@@ -4,19 +4,52 @@
    $date = "17 March 2004";
    $menu = array( "vlc", "features" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
+
+   define( "NO", 0 );
+   define( "YES", 1 );
+   define( "PART", 2 );
+   define( "NONE", 3 );
+   define( "UNT", 4 );
+
+    function ynp( $os )
+    {
+	switch( $os )
+	{
+	case YES:
+	    echo "<td class=\"yes\">Yes</td>\n";
+	    break;
+	case NO:
+	    echo "<td class=\"no\">No</td>\n";
+	    break;
+	case PART:
+	    echo "<td class=\"partial\">Partial</td>\n";
+	    break;
+	case UNT:
+	    echo "<td class=\"partial\">Untested</td>\n";
+	    break;
+	case NONE:
+	    echo "<td class=\"none\">-</td>\n";
+	    break;
+	}
+    }
+
+    function feature( $n, $win, $osx, $lin, $be, $bsd, $fam, $first = false )
+    {
+	if( $first == false ) echo "<tr>";
+	echo "<td class=\"type\">$n</td>";
+	ynp( $win ); ynp( $osx ); ynp( $lin ); ynp( $be );
+	ynp( $bsd ) ; ynp( $fam );
+	echo "</tr>\n";
+    }
+
+    function feature_table( $double_header )
+    {
 ?>
-
-<h1> VLC features list </h1>
-
-<div id="fullwidth">
-
-<table border="0">
-
-<tr>
-
-<th></th>
-<th></th>
-<th class="os"><a href="/vlc/download-windows.html">
+	<table border="0">
+	 <tr>
+	  <th></th>
+<?php if( $double_header == true ) { echo "<th></th>\n"; } ?>
+	  <th class="os"><a href="/vlc/download-windows.html">
   <img src="/images/icons/winvista.png" alt="Windows" width="32" height="32" />
 </a></th>
 <th class="os"><a href="/vlc/download-macosx.html">
@@ -36,464 +69,107 @@
   <img src="/images/icons/familiar.png" alt="Familiar Linux"
        width="32" height="32" />
 </a></th>
-
 </tr>
+<?php
+    }
+?>
 
+<h1> VLC features list </h1>
+
+<div id="fullwidth">
+
+<h2>Input</h2>
+<?php feature_table( true ); ?>
 <tr>
+<td class="category" rowspan="12"><b>Input media</b></td>
 
-<td class="category" rowspan="14"><b>Inputs</b></td>
-<td class="type"><a href="http://wiki.videolan.org/index.php/UDP" >UDP</a> Unicast / <a href="http://wiki.videolan.org/index.php/multicast" >Multicast</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="partial">unicast only</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
+<?php
+feature( "UDP/RTP Unicast", YES, YES, YES, YES, YES, YES, true ); 
+feature( "UDP/RTP Multicast", YES, YES, YES, NO, YES, YES ); 
+feature( "HTTP / FTP", YES, YES, YES, YES, YES, YES ); 
+feature( "MMS", YES, YES, YES, YES, YES, NONE ); 
+feature( "File", YES, YES, YES, YES, YES, YES ); 
+feature( "DVD <sup><a href=\"#input_notes\">[1]</a></sup><sup><a href=\"#bottom_notes\">[2]</a></sup>", YES, YES, YES, YES, YES, NONE );
+feature( "VCD", YES,YES, YES, NO, YES, NONE );
+feature( "SVCD <sup><a href=\"#input_notes\">[2]</a></sup>", PART, PART, PART, NO, PART, NONE );
+feature( "Audio CD (without DTS)", YES, YES, YES, NO, YES, NONE );
+feature( "DVB (Satellite, <br />Digital TV, Cable TV)", NO, NO, YES, NO, NO, NONE );
+feature( "MPEG encoder <sup><a href=\"#input_notes\">[3]</a></sup>", YES, NO, YES, NO, NO, NONE );
+?>
 <tr>
-
-<td class="type"><a href="http://wiki.videolan.org/index.php/RTP" >RTP</a> Unicast / <a href="http://wiki.videolan.org/index.php/multicast" >Multicast</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="partial">unicast only</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="type"><a href="http://wiki.videolan.org/index.php/HTTP" >HTTP</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="type"><a href="http://wiki.videolan.org/index.php/protocol" >FTP</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="type"><a href="http://wiki.videolan.org/index.php/protocol" >MMS</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-
-</tr>
-
-<tr>
-
-<td class="type">File</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="type">DVD <sup><a href="#bottom_notes">[1]</a></sup></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-
-</tr>
-
-<tr>
-
-<td class="type">VCD</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-
-</tr>
-
-<tr>
-
-<td class="type">SVCD <sup><a href="#bottom_notes">[6]</a></sup></td>
-<td class="partial">Incomplete</td>
-<td class="partial">Incomplete</td>
-<td class="partial">Incomplete</td>
-<td class="no">No</td>
-<td class="partial">Untested</td>
-<td class="partial">Incomplete</td>
-
-</tr>
-
-<tr>
-
-<td class="type">Audio CD</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="partial">Untested</td>
-<td class="none">-</td>
-
-</tr>
-
-<tr>
-
-<td class="type">DTS Audio CD</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="none">-</td>
-
-</tr>
-
-<tr>
-
-<td class="type">DVB-S/C/T</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="yes">V4L2</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="none">-</td>
-
-</tr>
-
-<tr>
-
-<td class="type">MPEG encoding card <sup><a href="#bottom_notes">[5]</a></sup></td>
-<td class="yes">Direct Show</td>
-<td class="no">No</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="none">-</td>
-
-</tr>
-
-<tr>
-
 <td class="type">Video acquisition</td>
 <td class="yes">Direct Show</td>
 <td class="no">No</td>
 <td class="yes">V4L</td>
 <td class="no">No</td>
 <td class="no">No</td>
-<td class="partial">V4L Untested</td>
-
-</tr>
-
-
-
-<tr>
-<td class="category" rowspan="15"><b>Input formats</b></td>
-<td class="type">MPEG <a href="http://wiki.videolan.org/index.php/container" >ES</a>/<a href="http://wiki.videolan.org/index.php/container" >PS</a>/<a href="http://wiki.videolan.org/index.php/container" >TS</a>/<a href="http://wiki.videolan.org/index.php/container" >PVA</a>/<a href="http://wiki.videolan.org/index.php/codec" >mp3</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-</tr>
-<tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/AVI" >AVI</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-</tr>
-<tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/ASF" >ASF</a>/<a href="http://wiki.videolan.org/index.php/codec" >wmv</a>/<a href="http://wiki.videolan.org/index.php/codec" >wma</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
+<td class="partial">V4L (Untested)</td>
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/container" >Ogg</a>/<a href="http://wiki.videolan.org/index.php/container" >OGM</a>/<a href="http://wiki.videolan.org/index.php/container" >Annodex</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-</tr>
+<td class="category" rowspan="13"><b>Input formats</b></td>
+<?php
+feature( "MPEG (ES,PS,TS,PVA,MP3)", YES, YES, YES, YES, YES, YES, true );
+feature( "ID3 tags", YES, YES, YES, YES, YES, YES );
+feature( "AVI", YES, YES, YES, YES, YES, YES );
+feature( "ASF / WMV / WMA" , YES, YES, YES, YES, YES, YES );
+feature( "MP4 / MOV / 3GP", YES, YES, YES, YES, YES, YES );
+feature( "OGG / OGM / Annodex", YES, YES, YES, YES, YES, YES );
+feature( "Matroska (MKV)", YES, YES, YES, YES, YES, NO );
+feature( "Real", NO, NO, NO, NO, NO, NO );
+feature( "WAV (incuding DTS)", YES, YES, YES, YES, YES, YES );
+feature( "Raw Audio: DTS, AAC, AC3/A52", YES, YES, YES, YES, YES, YES );
+feature( "Raw DV", YES, YES, YES, YES, YES, YES );
+feature( "FLAC", YES, YES, YES, YES, YES, YES );
+feature( "FLV (Flash)", YES, YES, YES, UNT, YES, UNT );
+?>
+</table>
+
+<div class="notes">
+  <a id="input_notes">Note</a>
+  <p>
+  [1] DVD decryption is done through the libdvdcss library.<br />
+  [2] VLC on GNU/Linux, Solaris, and Microsoft Windows has playback
+  control support via libcdio and libvcdinfo. On other platforms,
+  SVCD support varies depending on the availability of these libraries.
+  (Volunteers for adding support are always welcome.). Handling still
+  frames (often used in menus) and switching between different video
+  formats is problematic.<br />
+  [3] VLC for GNU/Linux supports two kinds of MPEG-2 encoding cards: Hauppauge WinTV-PVR-250/350 and Visiontech Kfir.
+  </p>
+</div>
+
+<h2>Video</h2>
+
+<?php feature_table( true ); ?>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/container" >MP4</a>/<a href="http://wiki.videolan.org/index.php/container" >MOV</a>/3gpp</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-</tr>
-
+<td class="category" rowspan="15"><b>Decoders</b></td>
+<?php
+feature( "MPEG-1/2", YES, YES, YES, YES, YES, YES, true );
+feature( "DIVX (1/2/3)", YES, YES, YES, YES, YES, YES );
+feature( "MPEG-4, DivX 5, XviD, 3ivX D4", YES, YES, YES, YES, YES, YES );
+feature( "H.264", YES, YES, YES, YES, YES, YES );
+feature( "Sorenson 1/3 (Quicktime)", YES, YES, YES, YES, YES, YES );
+feature( "DV", YES, YES, YES, YES, YES, YES );
+feature( "Cinepak", YES, YES, YES, YES, YES, NO );
+feature( "Theora (alpha 3)",  YES, YES, YES, YES, YES, NO );
+feature( "H.263 / H.263i",  YES, YES, YES, YES, YES, YES );
+feature( "MJPEG (A/B)", YES, YES, YES, YES, YES, YES );
+feature( "WMV 1/2", YES, YES, YES, YES, YES, YES );
+?>
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/container" >Matroska</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="partial">Untested</td>
+<td class="type">WMV 3 / WMV-9 / VC-1</td>
+<td class="yes">Yes<sup><a href="#video_notes">[4], [5]</a></sup></td>
+<td class="yes">Yes<sup><a href="#video_notes">[4]</a></sup></td>
+<td class="yes">Yes<sup><a href="#video_notes">[4], [5]</a></sup></td>
+<td class="yes">Yes<sup><a href="#video_notes">[4]</a></sup></td>
+<td class="yes">Yes<sup><a href="#video_notes">[4]</a></sup></td>
 <td class="no">No</td>
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/container" >Real</a></td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-</tr>
-
-<tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/container" >Wav</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-</tr>
-
-<tr>
-<td class="type">DTS Wav</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-</tr>
-
-<tr>
-<td class="type">Raw <a href="http://wiki.videolan.org/index.php/codec" >DV</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-</tr>
-
-<tr>
-<td class="type">Raw <a href="http://wiki.videolan.org/index.php/Advanced+Audio+Coding" >AAC</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-</tr>
-
-<tr>
-<td class="type">Raw <a href="http://wiki.videolan.org/index.php/codec" >ac3/a52</a> audio</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-</tr>
-
-<tr>
-<td class="type">Raw DTS audio</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-</tr>
-
-<tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >FLAC</a> audio</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-</tr>
-
-<tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >FLV</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="partial">Untested</td>
-<td class="partial">Untested</td>
-<td class="partial">Untested</td>
-</tr>
-
-
-<tr>
-<td class="category" rowspan="16"><b>Video Codecs</b></td>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >MPEG-1</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-</tr>
-
-<tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >MPEG-2</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-</tr>
-
-<tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >DivX 1/2/3</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-</tr>
-
-<tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >MPEG-4</a>/<a href="http://wiki.videolan.org/index.php/codec" >DivX 5</a>/<a href="http://wiki.videolan.org/index.php/codec" >XviD</a>/<a href="http://wiki.videolan.org/index.php/codec" >3ivX D4</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-</tr>
-
-<tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/H264" >H.264</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Sorenson+Video" >Sorenson (SVQ 1/3)</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-</tr>
-
-<tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >DV</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">FFmpeg</td>
-</tr>
-
-<tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >Cinepak</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-</tr>
-
-<tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >Theora</a> (alpha 3)</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-</tr>
-
-<tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >H263/H263i</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-</tr>
-
-<tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >MJPEG</a> A/B</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-</tr>
-
-<tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >WMV</a> 1/2</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-</tr>
-
-<tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >WMV</a> 3 / <a href="http://wiki.videolan.org/index.php/codec" >VC-1</a></td>
-<td class="yes">Yes<sup><a href="#bottom_notes">[12], [13]</a></sup></td>
-<td class="yes">Yes<sup><a href="#bottom_notes">[12]</a></sup></td>
-<td class="yes">Yes<sup><a href="#bottom_notes">[12], [13]</a></sup></td>
-<td class="yes">Yes<sup><a href="#bottom_notes">[12]</a></sup></td>
-<td class="yes">Yes<sup><a href="#bottom_notes">[12]</a></sup></td>
-<td class="no">No</td>
-</tr>
-
-<tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >Indeo Video</a> v3 (IV32)</td>
+<td class="type">Indeo Video v3 (IV32)</td>
 <td class="yes">Yes</td>
 <td class="no">No</td>
 <td class="partial">No PPC support</td>
@@ -502,281 +178,38 @@
 <td class="yes">Yes</td>
 </tr>
 
+<?php
+feature("Indeo Video 4/5 (IV41, IV51)",NO,NO,NO,NO,NO,NO );
+feature( "Real Video", NO,NO,NO,NO,NO,NO );
+?>
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >Indeo Video</a> v4-5 (IV41)(IV51)</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-</tr>
+<td class="category" rowspan="8"><b>Subtitles</b></td>
 
-<tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Real+Media+Video" >Real Video</a></td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-</tr>
-
-<tr>
-
-<td class="category" rowspan="14"><b>Subtitles</b></td>
-<td class="type">DVD <sup><a href="#bottom_notes">[7]</a></sup></td>
-<td class="partial">Incomplete</td>
-<td class="partial">Incomplete</td>
-<td class="partial">Incomplete</td>
-<td class="partial">Incomplete</td>
-<td class="partial">Icomplete</td>
-<td class="none">-</td>
-</tr>
-
-<tr>
-<td class="type">SVCD</td>
-<td class="yes">Yes</td>
-<td class="partial">Untested</td>
-<td class="yes">Yes</td>
-<td class="partial">Untested</td>
-<td class="partial">Untested</td>
-<td class="yes">Yes</td>
-</tr>
-
-<tr>
-<td class="type">CVD</td>
-<td class="yes">Yes</td>
-<td class="partial">Untested</td>
-<td class="yes">Yes</td>
-<td class="partial">Untested</td>
-<td class="partial">Untested</td>
-<td class="yes">Yes</td>
-</tr>
-
-<tr>
-<td class="type">DVB</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-</tr>
-
-<tr>
-<td class="type">Closed Captioning</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="none">-</td>
-</tr>
-
-<tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/container" >OGM</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-</tr>
-
-<tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/container" >Matroska</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="partial">Untested</td>
-<td class="none">-</td>
-</tr>
-
-<tr>
-<td class="type">MicroDVD</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-</tr>
-
-<tr>
-<td class="type">Vobsub</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-</tr>
-
-<tr>
-<td class="type">SubRIP</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-</tr>
-
-<tr>
-<td class="type">SubViewer (v1 &amp; v2)</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-</tr>
-
-<tr>
-<td class="type">SSA1-4</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-</tr>
-
-<tr>
-<td class="type">SAMI</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-</tr>
-
-<tr>
-<td class="type">Vplayer</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-</tr>
-
-
-<tr>
-
-<td class="category" rowspan="9"><b>Video Filters</b></td>
-<td class="type">Deinterlace</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="type">Crop</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="type">Image Wall</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="type">Brightness-Saturation-Contrast</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="type">Rotate</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="type">Upside down</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="type">Logo overlay</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-
-</tr>
-
-<tr>
-
-<td class="type">Magnify-Gradient-Bluescreen</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-
-</tr>
-
-<tr>
-
-<td class="type">RSS/Atom feeds</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="partial">Untested</td>
-<td class="partial">Untested</td>
-<td class="no">No</td>
-
-</tr>
-
-<tr>
-
-<td class="category" rowspan="9"><b>Video Output</b></td>
+<?php
+feature( "DVD <sup><a href=\"#video_notes\">[6]</a></sup>",
+	PART,PART,PART,PART,PART,NONE, true );
+feature( "SVCD / CVD", YES, UNT,YES,UNT,YES,NONE );
+feature( "DVB", YES, YES, YES, YES, YES, NONE );
+feature( "Closed captions", NO,NO,NO,NO,NO,NONE );
+feature( "OGM", YES, YES, YES, YES, YES, NONE );
+feature( "Matroska",YES, YES, YES, YES, YES, NONE );
+feature( "Text files (MicroDVD,<br />SubRIP, SubViewer, SSA1-5, SAMI, VPlayer)",YES,YES,YES,YES,YES,NONE );
+feature( "Vobsub",YES,YES,YES,YES,YES,NONE );
+?>
+<tr><td class="category" rowspan="10"><b>Filters</b></td>
+<?php
+feature( "Deinterlace", YES, YES, YES, YES, YES, YES, true );
+feature( "Cropping",  YES, YES, YES, YES, YES, YES );
+feature( "Image wall", YES, YES, YES, YES, YES, YES );
+feature( "Image adjust", YES, YES, YES, YES, YES, YES );
+feature( "Rotate/Mirror", YES, YES, YES, YES, YES, YES );
+feature( "Logo overlay", YES, YES, YES, YES, YES, NO );
+feature( "Magnification", YES, YES, YES, YES, YES, NO );
+feature( "Image distortion", YES, YES, YES, YES, YES, NO );
+feature( "Bluescreen", YES, YES, YES, YES, YES, NO );
+feature( "RSS/Atom feeds", YES, YES, YES, YES, YES, NO );
+?>
+<tr><td class="category" rowspan="8"><b>Outputs</b></td>
 <td class="type">Native</td>
 <td class="yes">DirectX<br />GDI</td>
 <td class="yes">OpenGL<br />Quartz</td>
@@ -784,292 +217,73 @@
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Qte/X11</td>
-
 </tr>
+<?php
+feature( "X11",NONE,NONE,YES,NONE,YES,YES );
+feature( "XVideo", NONE,NONE,YES,NONE,YES,NONE );
+feature( "SDL", YES, NO, YES, UNT,YES, YES );
+feature( "FrameBuffer", NONE,NONE,YES,NONE,NONE,NO );
+feature( "ASCII Art", YES, YES, YES, UNT,YES, NO );
+?>
+</table>
 
+<div class="notes">
+  <a id="video_notes">Notes</a>
+  <p>
+  [4] WMV-3 / WMV-9 / VC-1 playback will be available through the FFmpeg-library
+  in VLC 0.8.6. It is already enabled in the nightly builds. The playback of some
+  videos can still be problematic due to the pre-beta nature of the decoder.<br />
+  [5] Windows DMO codecs can be used by VLC on 32-bit x86 platforms.
+  This allows WMV-3/WMA-3 decoding. This feature is untested on Intel-based Macs.<br />
+  [6] Full color for YUV-type chromas is not handled, only the gray-scale
+  value. Subtitle transparency is not fully supported for all
+  chromas. Some chromas are not handled at all.</p>
+</div>
+ 
+
+<h2>Audio</h2>
+
+<?php feature_table(true); ?>
+
+<tr><td class="category" rowspan="17"><b>Decoders</b></td>
+<?php
+feature( "MPEG Layer 1/2",YES, YES, YES, YES, YES, YES, true );
+feature( "MP3", YES, YES, YES, YES, YES, YES );
+feature( "AC3 - A/52", YES, YES, YES, YES, YES, YES );
+feature( "DTS", YES, YES, YES, YES, YES, NO );
+feature( "LPCM",  YES, YES, YES, YES, YES, YES );
+feature( "AAC",  YES, YES, YES, YES, YES, YES );
+feature( "Vorbis",  YES, YES, YES, YES, YES, YES );
+feature( "WMA 1/2", YES, YES, YES, YES, YES, YES );
+?>
 <tr>
-
-<td class="type">X11</td>
-<td class="none">-</td>
-<td class="partial">Source Only</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="type">Xvideo</td>
-<td class="none">-</td>
-<td class="none">-</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-
-</tr>
-
-<tr>
-
-<td class="type">SDL</td>
-<td class="yes">Yes</td>
+<td class="type">WMA 3</td>
+<td class="yes">Yes<sup><a href="#audio_notes">[7]</a></sup></td>
 <td class="no">No</td>
-<td class="yes">Yes</td>
-<td class="partial">Untested</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="type">Framebuffer</td>
-<td class="none">-</td>
-<td class="none">-</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-<td class="none">-</td>
-<td class="no">No</td>
-
-</tr>
-
-<tr>
-<td class="type">ASCII art</td>
-<td class="no">No</td>
-<td class="partial">Source Only</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-</tr>
-
-<tr>
-<td class="type">Colored ASCII art</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="partial">Untested</td>
-<td class="partial">Untested</td>
-<td class="no">No</td>
-</tr>
-
-<tr>
-<td class="type">MGA</td>
-<td class="none">-</td>
-<td class="none">-</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-<td class="none">-</td>
-<td class="none">-</td>
-
-</tr>
-
-<tr>
-
-<td class="type">GGI</td>
-<td class="none">-</td>
-<td class="none">-</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-<td class="partial">Untested</td>
-<td class="none">-</td>
-
-</tr>
-
-
-
-<tr>
-
-<td class="category" rowspan="17"><b>Audio Codecs</b></td>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >MPEG Layer 1 and 2</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >MP3</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >AC3 (i.e. A52)</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-</tr>
-
-<tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >DTS</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-</tr>
-
-<tr>
-
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >LPCM</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="type"><a href="http://wiki.videolan.org/index.php/Advanced+Audio+Coding" >AAC</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >Vorbis</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >WMA 1/2</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >WMA 3</a></td>
-<td class="yes">Yes<sup><a href="#bottom_notes">[13]</a></sup></td>
-<td class="no">No</td>
-<td class="partial">Yes<sup><a href="#bottom_notes">[13]</a></sup></td>
+<td class="partial">Yes<sup><a href="#audio_notes">[7]</a></sup></td>
 <td class="no">No</td>
 <td class="no">No</td>
 <td class="no">No</td>
-
 </tr>
+<?php
+feature("ADPCM", YES, YES, YES, YES, YES, NO );
+feature("DV Audio", YES, YES, YES, YES, YES, YES );
+feature("FLAC", YES, YES, YES, YES, YES, YES );
+feature( "QDM2/QDMC (QuickTime)", YES, YES, YES, UNT, YES, UNT );
+feature( "MACE", YES, YES, YES, YES, YES, YES );
+feature( "AMR (3GPP", NO, NO , NO ,NO ,NO ,NO );
+feature( "Real Audio <sup><a href=\"#bottom_notes\">[8]</a></sup>",
+	PART,PART,PART,UNT,PART,NO );
+feature( "Speex", YES, YES, YES, UNT, YES, UNT );
+?>
 
-<tr>
+<tr><td class="category" rowspan="2"><b>Filters</b></td>
+<?php
+feature( "Visualization effects", YES, YES, YES, YES, YES, YES, true );
+feature( "Equalizer", YES, YES, YES, YES, YES, YES );
+?>
 
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >ADPCM</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-
-</tr>
-
-<tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >DV Audio</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-</tr>
-
-<tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >FLAC</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="partial">Untested</td>
-<td class="yes">Yes</td>
-</tr>
-
-<tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >QDM2/QDMC (QuickTime)</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="partial">Untested</td>
-<td class="yes">Yes</td>
-<td class="partial">Untested</td>
-</tr>
-
-<tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >MACE</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-</tr>
-
-<tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >AMR (3GPP)</a></td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="partial">FFmpeg Untested</td>
-</tr>
-
-<tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Real+Media+Video" >Real Audio <sup><a href="#bottom_notes">[11]</a></sup></a></td>
-<td class="partial">Incomplete</td>
-<td class="partial">Incomplete</td>
-<td class="partial">Incomplete</td>
-<td class="partial">Untested</td>
-<td class="partial">Untested</td>
-<td class="no">No</td>
-</tr>
-
-<tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/codec" >Speex</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="partial">Untested</td>
-<td class="partial">Untested</td>
-<td class="partial">Untested</td>
-</tr>
-
-<tr>
-
-<td class="category" rowspan="8"><b>Audio Output</b></td>
+<tr><td class="category" rowspan="7"><b>Outputs</b></td>
 <td class="type">Native</td>
 <td class="yes">DirectX<br />WaveOut</td>
 <td class="yes">Yes</td>
@@ -1077,11 +291,9 @@
 <td class="yes">Yes</td>
 <td class="yes">OSS</td>
 <td class="yes">Yes</td>
-
 </tr>
 
 <tr>
-
 <td class="type">S/PDIF</td>
 <td class="yes">DirectX<br />WaveOut</td>
 <td class="yes">Yes</td>
@@ -1089,23 +301,19 @@
 <td class="no">No</td>
 <td class="partial">Untested</td>
 <td class="none">-</td>
-
 </tr>
 
 <tr>
-
-<td class="type">multi-channel</td>
+<td class="type">Multi-channel</td>
 <td class="yes">DirectX<br />WaveOut</td>
 <td class="yes">Yes</td>
 <td class="yes">OSS<br />ALSA</td>
 <td class="no">No</td>
 <td class="partial">Untested</td>
 <td class="no">No</td>
-
 </tr>
 
 <tr>
-
 <td class="type">SDL</td>
 <td class="yes">Yes</td>
 <td class="partial">Source Only</td>
@@ -1113,371 +321,81 @@
 <td class="partial">Untested</td>
 <td class="yes">Yes</td>
 <td class="partial">Source Only</td>
-
 </tr>
 
+<?php
+feature( "ESD", NONE, NONE, YES, NONE, YES, YES );
+feature( "aRts", NONE, NONE, YES, NONE, YES, NONE );
+feature( "JACK", NONE, PART, YES, NONE, UNT, UNT );
+?>
+</table>
+
+<div class="notes">
+  <a id="audio_notes">Notes:</a>
+  <p>
+  [7] Windows DMO codecs can be used by VLC on 32-bit x86 platforms.
+  This allows WMV-3/WMA-3 decoding. This feature is untested on Intel-based Macs.<br />
+  [8] Real Audio playback is provided through the FFmpeg-library
+  which does only support the Cook (RealAudio G2 / RealAudio 8)
+  decoder at the moment.
+</p>
+</div>
+
+<h2>Streaming</h2>
+<p>See the <a href="/streaming-features.html">Streaming features page</a></p>
+
+<h2>Interfaces and control</h2>
+<?php feature_table( false ); ?>
 <tr>
-
-<td class="type">ESD</td>
-<td class="none">-</td>
-<td class="none">-</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-<td class="yes">Yes</td>
-<td class="yes">ESDDSP</td>
-
-</tr>
-
-<tr>
-
-<td class="type">aRts</td>
-<td class="none">-</td>
-<td class="none">-</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-
-</tr>
-
-<tr>
-
-<td class="type">File</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-
-<td class="type">JACK</td>
-<td class="none">-</td>
-<td class="partial">Source Only</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-<td class="partial">Untested</td>
-<td class="partial">Untested</td>
-
-</tr>
-
-<tr>
-
-<td class="category"><b>Stream Output</b></td>
-<td colspan="7">See the <a href="/streaming-features.html">Streaming features page</a></td>
-
-</tr>
-
-<tr>
-
-<td class="category" rowspan="8"><b>Interfaces</b></td>
-<td class="type">Native</td>
-<td class="yes">Yes</td>
+<td class="type">Default</td>
+<td class="yes">WxWidgets</td>
 <td class="yes">Cocoa</td>
-<td class="none">-</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
+<td class="yes">WxWidgets</td>
+<td class="yes">Native</td>
+<td class="yes">WxWidgets</td>
 <td class="yes">GPE</td>
-
 </tr>
 
+<?php
+feature( "Qt 4  <sup><a href=\"#intf_notes\">[9]</a></sup>", YES, NO, YES, NONE, UNT, NO );
+feature( "Skins", YES, NO, YES, NO, YES, NO );
+feature( "Web", YES, YES, YES, YES, YES, YES );
+feature( "Telnet", YES, YES, YES, YES, YES, YES );
+feature( "Command line", YES, YES, YES, YES, YES, YES );
+feature( "Infrared", NO, NO, YES, NO, NO, NO );
+?>
+</table>
+<div class="notes">
+<a id="intf_notes">Notes:</a>
+<p>
+  [9] A new Qt4 interface is to-be-introduced by VLC's 0.8.6 release. It is
+  already enabled in the nightly builds with limited functionality.
+</p>
+</div>
+
+<h2>Miscellaneous</h2>
+<?php feature_table( false );
+feature( "SAP/SDP announces", YES, YES, YES, NO, YES, NO );
+feature( "Bonjour protocol", YES, YES, YES, UNT, UNT, UNT );
+?>
 <tr>
-
-<td class="type">GTK+ (unmaintained)</td>
+<td class="type">Mozilla/Firefox plugin</td>
 <td class="yes">Yes</td>
-<td class="none">-</td>
+<td class="yes">Yes <sup><a href="#bottom_notes">[12]</a></sup></td>
 <td class="yes">Yes</td>
-<td class="none">-</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="type">Gnome (unmaintained)</td>
-<td class="none">-</td>
-<td class="none">-</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
+<td class="yes">No</td>
 <td class="yes">Yes</td>
 <td class="no">No</td>
-
 </tr>
-
+<?php
+feature( "ActiveX plugin", YES, NONE, NONE, NONE, NONE, NONE );
+feature( "SVCD Menus", PART, NO, PART, NO, PART, NO );
+feature( "Localization", YES, YES, YES, YES, YES, YES );
+feature( "CD-Text <sup><a href=\"#bottom_notes\">[10]</a></sup>", YES, NO, YES, NO, PART, NONE );
+feature( "CDDB CD info <sup><a href=\"#bottom_notes\">[11]</a></sup>", YES, YES, YES, NO, PART, NONE );
+feature( "IPv6", YES, YES, YEs, NO, YES, YES );
+?>
 <tr>
-
-<td class="type">QT (unmaintained)</td>
-<td class="none">-</td>
-<td class="none">-</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-
-</tr>
-
-<tr>
-
-<td class="type">KDE (unmaintained)</td>
-<td class="none">-</td>
-<td class="none">-</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-
-</tr>
-
-<tr>
-
-<td class="type">WxWidgets</td>
-<td class="yes">Yes</td>
-<td class="partial">Source Only <sup><a href="#bottom_notes">[10]</a></sup></td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-
-</tr>
-
-<tr>
-
-<td class="type">Skins</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-
-</tr>
-
-<tr>
-
-<td class="type">HTTP/Webpage</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-
-
-<tr>
-
-<td class="category" rowspan="3"><b>Service Information</b></td>
-
-<td class="type"><a href="http://wiki.videolan.org/index.php/SAP" >SAP</a> / <a href="http://wiki.videolan.org/index.php/SDP" >SDP</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-
-</tr>
-
-<tr>
-
-<td class="type"><a href="http://wiki.videolan.org/index.php/protocol" >SLP</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="partial">Untested</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="type"><a href="http://wiki.videolan.org/index.php/protocol" >Bonjour</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="partial">Untested</td>
-<td class="partial">Untested</td>
-<td class="partial">Untested</td>
-
-</tr>
-
-
-<tr>
-
-<td class="category" rowspan="16"><b>Misc</b></td>
-<td class="type">Command line</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="type">RTSP client</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="type">Remote Control</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="type">Infrared</td>
-<td class="no">No</td>
-<td class="partial">Source Only</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-
-</tr>
-
-<tr>
-
-<td class="type">Mozilla plugin</td>
-<td class="yes">Yes</td>
-<td class="partial">Source Only</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-
-</tr>
-
-<tr>
-
-<td class="type">ActiveX plugin</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-<td class="none">-</td>
-<td class="none">-</td>
-<td class="none">-</td>
-<td class="none">-</td>
-
-</tr>
-
-
-<tr>
-<td class="type">DVD Menus <sup><a href="#bottom_notes">[2]</a></sup></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="none">-</td>
-</tr>
-
-<tr>
-<td class="type">SVCD Menus <sup><a href="#bottom_notes">[6]</a></sup></td>
-<td class="partial">Incomplete</td>
-<td class="no">No</td>
-<td class="partial">Incomplete</td>
-<td class="no">No</td>
-<td class="partial">Untested</td>
-<td class="partial">Incomplete</td>
-</tr>
-
-<tr>
-
-<td class="type">Audio Visualization Effects</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="type">Localization</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="type">ID3 tags</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="type">CD-Text <sup><a href="#bottom_notes">[8]</a></sup></td>
-<td class="yes">Yes</td>
-<td class="no">no</td>
-<td class="yes">Yes</td>
-<td class="no">no</td>
-<td class="partial">Untested</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="type">CDDB CD info <sup><a href="#bottom_notes">[9]</a></sup></td>
-<td class="no">No</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="partial">Untested</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
-<td class="type"><a href="http://wiki.videolan.org/index.php/IP" >IPv6</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-
-</tr>
-
-<tr>
-
 <td class="type">IGMPv3</td>
 <td class="yes">Win XP</td>
 <td class="no">No</td>
@@ -1485,98 +403,38 @@
 <td class="no">No</td>
 <td class="partial">Untested</td>
 <td class="yes">Yes</td>
-
 </tr>
 
 
 <tr>
-
-<td class="type">CPU acceleration <sup><a href="#bottom_notes">[3]</a></sup></td>
+<td class="type">CPU acceleration <sup><a href="#bottom_notes">[14]</a></sup></td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
 <td class="yes">Yes</td>
-<td class="yes">Yes <sup><a href="#bottom_notes">[4]</a></sup></td>
+<td class="yes">Yes <sup><a href="#bottom_notes">[13]</a></sup></td>
 <td class="no">No</td>
-
-</tr>
-
-
-<tr>
-
-<th></th>
-<th></th>
-<th class="os"><a href="/vlc/download-windows.html">
-  <img src="/images/icons/winvista.png" alt="Windows" width="32" height="32" />
-</a></th>
-<th class="os"><a href="/vlc/download-macosx.html">
-  <img src="/images/icons/macosx.png" alt="Mac OS X" width="32" height="32" />
-</a></th>
-<th class="os"><a href="/vlc/index.html">
-  <img src="/images/icons/linux.png" alt="Linux" width="32" height="32" />
-</a></th>
-<th class="os"><a href="/vlc/download-beos.html">
-  <img src="/images/icons/beos.png" alt="BeOS" width="32" height="32" />
-</a></th>
-<th class="os"><a href="/vlc/download-sources.html">
-  <img src="/images/icons/freebsd.png" alt="FreeBSD" width="32" height="32" />
-  <img src="/images/icons/openbsd.png" alt="OpenBSD" width="32" height="32" />
-</a></th>
-<th class="os"><a href="/vlc/download-familiar.html">
-  <img src="/images/icons/familiar.png" alt="Familiar Linux"
-       width="32" height="32" />
-</a></th>
 </tr>
 
 </table>
 
-<div id="notes">
-<a id="bottom_notes">Note</a>
-  <p>
-  [1] DVD decryption is done through the libdvdcss library.
+<div class="notes">
+<a id="bottom_notes">Notes:</a>
+<p>
+  [10] CD-Text information provided via libcdio. This service is available
+  on all platforms supported by the library.
   <br />
-  [2] DVD navigation is done through the libdvdplay library.
+  [11] CDDB information provided by libcddb on all supported platforms excepting BeOS.
+ <br />
+  [12] The Mozilla Plugin for Mac is only available for PowerPC-based Macs and Intel-based Macs running Mozilla in the Rosetta-mode. A port to the new Macs
+  will be provided within the 0.8.6 release.
   <br />
-  [3] supported CPU extensions are MMX, MMXEXT, SSE, SSE2 and 3D Now! on x86
+  [13] The OpenBSD 2.9 default assembler does not support MMX.
+  <br />
+  [14] Supported CPU extensions are MMX, MMXEXT, SSE, SSE2 and 3D Now! on x86
   processors, and AltiVec on G4/G5 processors.
   <br />
-  [4] the OpenBSD 2.9 default assembler does not support MMX.
-  <br />
-  [5] VLC for GNU/Linux supports two kinds of MPEG-2 encoding cards: Hauppauge WinTV-PVR-250/350
-  and Visiontech Kfir.
-  <br />
-  [6] VLC on GNU/Linux, Solaris, and Microsoft Windows has playback
-  control support via libcdio and libvcdinfo. On other platforms
-  SVCD support varies depending on the availability of these libraries.
-  (Volunteers for adding support is always welcome.). Handling still
-  frames (often used in menus) and switching between different video
-  formats is a problem.
-  <br /> 
-  [7] Full color for YUV-type chromas is not handled, only the gray-scale
-  value. Subtitle transparency is not fully supported for all
-  chromas. Some chromas are not handled at all.
-  <br /> 
-  [8] CD-Text information provided via libcdio. Support is available on
-  those platforms this library is available.
-  <br />
-  [9] CDDB information provided by libcddb via libcdio. Support is
-  available on those platforms both of these libraries are
-  available. libcddb runs on BeOS although libcdio doesn't. On Microsoft
-  Windows, libcddb doesn't compile yet without POSIX emulation.
-  <br />
-  [10] The current releases of WxWidgets for Mac are too unstable to be 
-  used by VLC in production environments. Additionally, the resulting 
-  interface isn't as Mac-like as we want VLC to be.
-  <br />
-  [11] Real Audio playback is provided through the FFmpeg-library
-  which does only support the Cook (RealAudio G2 / RealAudio 8)
-  decoder at the moment.
-  <br />
-  [12] WMV-3 / WMV-9 / VC-1 playback is through the FFmpeg-library
-  since VLC 0.8.6. Some videos might still have problems playing.
-  <br />
-  [13] Windows dmo codecs can be used by VLC on intel 32bit platforms.
-  This allows WMV-3/WMA-3 decoding.
+ <br /> 
   </p>
 </div>
 

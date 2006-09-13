@@ -1,3 +1,4 @@
+/* Made by Furu systems - furusystems.com */
 <public:component lightWeight="true">
 <public:attach event="oncontentready" onevent="setWidth()" />
 <public:attach for="window" event="onresize" onevent="setWidth()" />

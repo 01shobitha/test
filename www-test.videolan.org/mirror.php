@@ -20,7 +20,7 @@
         {
 	     $index = rand( 0, sizeof( $mirrors ) - 1 );
 	     if( substr( $mirrors[ $index] , 0, 1 ) == "#" ) continue;
-             $esp = strpos( $mirrors[ $index] , " " );
+             $esp = strpos( $mirrors[ $index] , "|" );
 	     $mirror = substr( $mirrors[ $index ], 0, $esp );
 	}
    }
@@ -47,7 +47,6 @@
     
     $request = pg_query($connect, "SELECT * FROM mirrors ".
                                    "WHERE address='$mirror' AND file='$file' AND date=current_date"); 
- 
     $done = 0;
     if( $row = pg_fetch_array($request) )
     {

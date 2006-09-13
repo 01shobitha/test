@@ -49,7 +49,7 @@ streaming features are available</a>.</p>
 <div style="float:left">
 	<p class="center" style="margin-top:-1em">
 		<img src="/images/documentation/global-diagram.jpg" 
-			 alt="VideoLAN solution overview" width="800" height="435" />
+			 alt="VideoLAN solution overview" width="800" height="560" />
 	</p>
 	<div style="width:55%">
 	  <p>The network on which you setup the VideoLAN solution can be as

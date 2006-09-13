@@ -23,9 +23,9 @@
 
 </tr>
 
-<tr>
 
 <!--
+<tr>
 <td class="category"><b>VideoLAN Quickstart</b></td>
 <td>Quick overview of VLC, VLC's stream output and the VOD solution</td>
 <td class="yes">Up-to-date</td>

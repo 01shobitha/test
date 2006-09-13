@@ -66,6 +66,7 @@ RewriteRule ^vlc/solaris.html$ /vlc/features.html [R=permanent,L]
 RewriteRule ^vlc/familiar.html$ /vlc/features.html [R=permanent,L]
 RewriteRule ^vlc/todo.html$ /vlc/features.html [R=permanent,L]
 RewriteRule ^vlc/windows.html$ /vlc/features.html [R=permanent,L]
+RewriteRule ^streaming/features.html$ /streaming-features.html [R=permanent,L]
 
 # Skins
 RewriteRule ^vlc/skins.html$ /vlc/skins.php [R=permanent,L]

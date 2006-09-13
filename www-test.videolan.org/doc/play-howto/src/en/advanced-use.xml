@@ -862,9 +862,7 @@ provides control of VLC using a joystick. TODO </para> </sect2>
 <!-- ************************************************************* SECTION -->
 <sect1><title>The Mozilla plugin</title>
 
-<para> VLC can also be embedded in a web browser ! At
-the moment, this function is only available with <ulink
-url="http://www.mozilla.org/">Mozilla</ulink> or <ulink url="http://www.mozilla.org/products/firefox/">Firefox</ulink>.
+<para> VLC can also be embedded in a web browser ! The following browsers are supported <ulink url="http://www.mozilla.org/">Mozilla</ulink>, <ulink url="http://www.mozilla.org/products/firefox/">Firefox</ulink> and <ulink url="http://www.apple.com/macosx/features/safari">Safari</ulink>.
 </para>
 
 <sect2><title>Install the plugin</title>
@@ -917,6 +915,14 @@ Firefox\plugins</emphasis>).</para>
 
 </sect3>
 
+<sect3><title>MacOS X</title>
+
+<para><emphasis>The Mozilla/Safari plugin for MacOS X is only available from vlc version 0.8.5.1 and onwards.</emphasis></para>
+<para>Quit Safari browser</para>
+<para>Download the Mozilla/safari plugin package from <ulink url="http://www.videolan.org/vlc/download-macosx.html">MacOS X download page</ulink>.</para>
+<para>Run the installer from the dmg image.</para>
+</sect3>
+
 <sect3><title>
 Compile the sources yourself
 </title>
@@ -938,8 +944,10 @@ video.</para>
 </sect2>
 
 <sect2><title>
-Build HTML pages that use the plugin
+Build HTML pages that use the plugin (version &lt;= 0.8.5)
 </title>
+
+<para><emphasis>The following API description is only valid uptill version 0.8.5 of the mozilla plugin.</emphasis></para>
 
 <para>Additionally to viewing video on all pages, you can build
 custom pages that will use the advanced features of the plugin, using
@@ -1014,7 +1022,7 @@ inside the web page. If the user goes fullscreen, he will have to press
 </simplesect>
 
 <simplesect><title>
-Example 
+Example 2
 </title>
 
 <para> In this example, the plugin will read a
@@ -1044,6 +1052,154 @@ multicast UDP stream in a dedicated video output window.
 
 </simplesect>
 </sect2>
+
+<sect2><title>
+Build HTML pages that use the plugin (version &gt; 0.8.5.1)
+</title>
+
+<para>Additionally to viewing video on all pages, you can build
+custom pages that will use the advanced features of the plugin, using
+Javascript functions to control playback or extract information from the
+plugin.</para>
+
+<para>The vlc plugin exports serveral objects that can be accessed for setting and getting information. When used improperly the API's will throw an exception that includes a string that explains what happened. For example when asking for vlc.input.length when there is no playlist item playing.</para>
+
+<para>The vlc plugin knows the following objects:</para>
+
+<itemizedlist>
+<listitem><para><command>audio</command>    : Access audio properties.</para></listitem>
+<listitem><para><command>input</command>    : Access input properties.</para></listitem>
+<listitem><para><command>playlist</command> : Access playlist properties.</para></listitem>
+<listitem><para><command>video</command>    : Access video properties.</para></listitem>
+</itemizedlist>
+
+<para>The following JavaScript code shows howto get a reference to the vlc plugin. This reference can then be used to access the objects of the vlc plugin.
+</para>
+
+<programlisting>
+&lt;html&gt;
+&lt;title&gt;VLC Mozilla plugin test page&lt;/title&gt;
+&lt;body&gt;
+&lt;embed type="application/x-vlc-plugin" pluginspage="http://www.videolan.org" version="VideoLAN.VLCPlugin.2"
+    width="640"
+    height="480"
+    id="vlc"&gt;
+&lt;/embed&gt;
+&lt;script language="Javascript"&gt;
+&lt;!--
+var vlc = document.getElementById("vlc");
+vlc.audio.toggleMute();
+!--&gt;
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</programlisting>
+
+<simplesect><title>
+Audio object
+</title>
+
+<para>readonly properties</para>
+<itemizedlist>
+<listitem><para><command>none</command></para></listitem>
+</itemizedlist>
+
+<para>read/write properties</para>
+<itemizedlist>
+<listitem><para><command>vlc.audio.mute</command> : boolean value to mute and ummute the audio</para></listitem>
+<listitem><para><command>vlc.audio.volume</command> : a value between [0-200] which indicates a percentage of the volume.</para></listitem>
+</itemizedlist>
+
+<para>methods</para>
+<itemizedlist>
+<listitem><para><command>vlc.audio.toggleMute()</command> : boolean toggle that mutes and unmutes the audio based upon the previous state</para></listitem>
+</itemizedlist>
+
+</simplesect>
+
+<simplesect><title>
+Input object
+</title>
+
+<para>readonly properties</para>
+<itemizedlist>
+<listitem><para><command>vlc.input.length</command> : length of the input file in number of milliseconds</para></listitem>
+<listitem><para><command>vlc.input.fps</command> : frames per second returned as a float</para></listitem>
+<listitem><para><command>vlc.input.hasVout</command> : a boolean that returns true when the video is being displayed, it returns false when video is not displayed</para></listitem>
+</itemizedlist>
+
+<para>read/write properties</para>
+<itemizedlist>
+<listitem><para><command>vlc.input.position</command> : normalized position in multimedia stream item given as a float value between [0.0 - 1.0]</para></listitem>
+<listitem><para><command>vlc.input.time</command> : the absolute position in time given in milliseconds, this property can be used to seek through the stream
+<programlisting>
+&lt;!-- absolute seek in stream !--&gt;
+vlc.input.time = &lt;absolute seek&gt;
+&lt;!-- relative seek in stream !--&gt;
+vlc.input.time = vlc.input.time + &lt;relative seek&gt;
+</programlisting></para></listitem>
+<listitem><para><command>vlc.input.state</command> : current state of the input chain given as enumeration (IDLE/CLOSE=0, OPENING=1, BUFFERING=2, PLAYING=3, PAUSED=4, STOPPING=5)</para></listitem>
+<listitem><para><command>vlc.input.rate</command> : input speed given as float (1.0 for normal speed, 0.5 for half speed, 2.0 for twice as fast, etc.)</para></listitem>
+</itemizedlist>
+
+<para>methods</para>
+<itemizedlist>
+<listitem><para><command>none</command></para></listitem>
+</itemizedlist>
+</simplesect>
+
+<simplesect><title>
+Playlist object
+</title>
+
+<para>readonly properties</para>
+<itemizedlist>
+<listitem><para><command>vlc.playlist.itemCount</command> : number that returns the amount of items currently in the playlist</para></listitem>
+<listitem><para><command>vlc.playlist.isPlaying</command> : a boolean that returns true if the current playlist item is playing and false when it is not playing</para></listitem>
+</itemizedlist>
+
+<para>read/write properties</para>
+<itemizedlist>
+<listitem><para><command>none</command></para></listitem>
+</itemizedlist>
+
+<para>methods</para>
+<itemizedlist>
+<listitem><para><command>vlc.playlist.add()</command> : add a playlist item as MRL (Multimedia Resource Locator). The MRL must be given as a string.</para></listitem>
+<listitem><para><command>vlc.playlist.play()</command> : start playing the current playlist item</para></listitem>
+<listitem><para><command>vlc.playlist.togglePause()</command> : toggle the pause state for the current playlist item</para></listitem>
+<listitem><para><command>vlc.playlist.stop()</command> : stop playing the current playlist item</para></listitem>
+<listitem><para><command>vlc.playlist.next()</command> : iterate to the next playlist item</para></listitem>
+<listitem><para><command>vlc.playlist.prev()</command> : iterate to the previous playlist item</para></listitem>
+<listitem><para><command>vlc.playlist.clear()</command> : empty the current playlist, all items will be deleted from the playlist</para></listitem>
+<listitem><para><command>vlc.playlist.removeItem()</command> : remove the given item number (which cannot be greater then vlc.playlist.itemCount)</para></listitem>
+</itemizedlist>
+</simplesect>
+
+<simplesect><title>
+Video object
+</title>
+
+<para>readonly properties</para>
+<itemizedlist>
+<listitem><para><command>vlc.video.width</command> : returns the horizontal size of the video</para></listitem>
+<listitem><para><command>vlc.video.height</command> : returns the vertical size of the video</para></listitem>
+</itemizedlist>
+
+<para>read/write properties</para>
+<itemizedlist>
+<listitem><para><command>vlc.video.fullscreen</command> : when set to true the video will be displayed in fullscreen mode, when set to false the video will be shown inside the video output size. The property takes a boolean as input.</para></listitem>
+</itemizedlist>
+
+<para>methods</para>
+<itemizedlist>
+<listitem><para><command>vlc.video.toggleFullscreen()</command> : toggle the fullscreen mode based on the previous setting</para></listitem>
+</itemizedlist>
+
+</simplesect>
+
+</sect2>
+
 </sect1>
 
 </chapter>

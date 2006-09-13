@@ -52,9 +52,9 @@ for Mac OS X:</p>
 RPM package. The (relocatable) package has been built by <a
 href="http://home.wxs.nl/~jpsaman">Jean-Paul Saman</a> on RH 9.0,
 but should also be useable on SuSE, Mandrake and other RPM-aware
-distributions. <p>
+distributions. </p>
 
-<p>To install the package:</br>
+<p>To install the package:</p>
 
 <ul class="bullets">
 <li>Download the rpm here: <a
@@ -132,7 +132,7 @@ href="/images/videolan-backgrounds-base-2-1.src.rpm">here</a>.</p>
 <a href="/images/videolan-wikingsoft2.png">Image 1024x768</a> (56 kB)
 </div>
 
-<p>This background image was made by <a href="mailto:asim@xtremestuff.net">Asim Siddiqui</a>:</p>
+<p>This background image was made by <a href="http://www.xtremestuff.net">Asim Siddiqui</a>:</p>
 
 <div>
   <img src="/images/goodies/tn_videolan_org.png" alt="Background" width="250" height="187" /><br />
@@ -244,7 +244,7 @@ field.)</p>
 <a href="http://download.videolan.org/images/tshirts-big.jpg">
   <img 
 	src="http://download.videolan.org/images/tshirts-small.jpg"
-	alt="VideoLAN T-Shirts"/></a></p>
+	alt="VideoLAN T-Shirts"/>
 </a></p>
 
 </div>

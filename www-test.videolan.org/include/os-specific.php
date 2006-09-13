@@ -46,7 +46,7 @@
 	$dl["Win32"] = array("/mirror.php?mirror=http://downloads.videolan.org/pub/videolan/&amp;file=vlc/0.8.5/win32/vlc-0.8.5-win32.exe", "Windows (7.9MB)" );
 	$dl["OSX-PPC"] = array("/mirror.php?mirror=http://downloads.videolan.org/pub/videolan/&amp;file=vlc/0.8.5/macosx/powerpc/vlc-0.8.5.dmg", "MacOS X PowerPC (12 MB)" );
 	$dl["OSX-Intel"] = array( "/mirror.php?mirror=http://downloads.videolan.org/pub/videolan/&amp;file=vlc/0.8.5/macosx/intel/vlc-0.8.5-intel.dmg","MacOS X Intel (13 MB)" );
-	$dl["Linux"] =array("/vlc/", "Linux ad other OSes" );
+	$dl["Linux"] =array("/vlc/", "Linux and other OSes" );
 	$dl["Debian"] = array( "/vlc/download-debian.html", "Debian GNU/Linux" );
 	$dl["Ubuntu"] = array( "/vlc/download-ubuntu.html", "Ubuntu Linux");
 	$dl["Fedora"] = array( "/vlc/download-fedora.html", "Fedora Linux");

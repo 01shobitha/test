@@ -118,7 +118,7 @@ p.center { text-align:center;}
 	color: #2E3A6B;	text-decoration: underline;
 }
 
-#pagecontainer { width: 86%; height: 100%; margin: 0 auto; }
+#pagecontainer { min-width: 780px; width: 86%; height: 100%; margin: 0 auto; }
 
 #header { margin: 0; padding: 0; }
 

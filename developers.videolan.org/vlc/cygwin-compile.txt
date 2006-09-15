@@ -26,6 +26,8 @@ Version  : 20050627 Initial version
            20060225 ./bootstrap: you need libtool
            20060618 Updated GCC to 3.4 version and added FFmpeg SVN and DTS support
            20060805 Added note about using older binutils and gdb for Cygwin!
+           20060915 Added note about updating autoconf from extras/contrib for
+                    an OBJC problem during configure
 
 Based on : "Win32 Cygwin Environment" Rev. B (20041003)
            by Mark Moriarty
@@ -1594,3 +1596,53 @@ This can happen when you do a make without doing a configure and the
 configure.ac file in the source code recently updated.
 
 FIX: do a full configure (using ../configure-vlc) and then run the make process
+
+
+10.12    Objective C source seen but `OBJC' is undefined
+========================================================
+
+The configure process stops halfway.
+
++ aclocal-1.9 -I m4
++ autoconf
++ autoheader
++ automake-1.9 --add-missing --copy -Wall
+configure.ac: installing `autotools/install-sh'
+configure.ac: installing `autotools/missing'
+activex/Makefile.am:143: shell $(VLC_CONFIG: non-POSIX variable name
+activex/Makefile.am:143: (probably a GNU make extension)
+activex/Makefile.am: installing `autotools/compile'
+activex/Makefile.am: installing `autotools/depcomp'
+modules/gui/macosx/Makefile.am: Objective C source seen but `OBJC' is undefined
+modules/misc/testsuite/Makefile.am: Objective C source seen but `OBJC' is undefi
+ned
+src/Makefile.am: Objective C source seen but `OBJC' is undefined
+Makefile.am:282: user target `vlc$(EXEEXT)' defined here...
+/usr/share/automake-1.9/am/program.am: ... overrides Automake target `vlc$(EXEEX
+T)' defined here
+Makefile.am:230:   while processing program `vlc'
+make: *** No targets specified and no makefile found.  Stop.
+
+This problem is related to a warning earlier on and only occured in a few
+revisions where a built-in workaround wasn't working properly:
+
++ echo 'Enabling provisional autoconf 2.59 work-around. Update autoconf ASAP.'
+Enabling provisional autoconf 2.59 work-around. Update autoconf ASAP.
+
+FIX: update autoconf to 2.60 or newer. If Cygwin doesn't provide this version yet
+then build it yourself from extras/contrib.
+
+Enter the following commands in your Cygwin shell:
+
+cd vlc-trunk/extras/contrib
+
+./bootstrap
+
+cd src
+
+make .autoconf
+
+There should now be compiled autoconf version (probably 2.60 or newer) in
+extras/contrib that the bootstrap process will use.
+
+Now start the whole "Compile VLC" process from the start again.

@@ -160,11 +160,11 @@ feature( "WMV 1/2", YES, YES, YES, YES, YES, YES );
 ?>
 <tr>
 <td class="type">WMV 3 / WMV-9 / VC-1</td>
-<td class="yes">Yes<sup><a href="#video_notes">[4], [5]</a></sup></td>
-<td class="yes">Yes<sup><a href="#video_notes">[4]</a></sup></td>
-<td class="yes">Yes<sup><a href="#video_notes">[4], [5]</a></sup></td>
-<td class="yes">Yes<sup><a href="#video_notes">[4]</a></sup></td>
-<td class="yes">Yes<sup><a href="#video_notes">[4]</a></sup></td>
+<td class="yes"><img src="/images/tick.png" alt="Yes" /> <sup><a href="#video_notes">[4], [5]</a></sup></td>
+<td class="yes"><img src="/images/tick.png" alt="Yes" /> <sup><a href="#video_notes">[4]</a></sup></td>
+<td class="yes"><img src="/images/tick.png" alt="Yes" /> <sup><a href="#video_notes">[4], [5]</a></sup></td>
+<td class="yes"><img src="/images/tick.png" alt="Yes" /> <sup><a href="#video_notes">[4]</a></sup></td>
+<td class="yes"><img src="/images/tick.png" alt="Yes" /> <sup><a href="#video_notes">[4]</a></sup></td>
 <td class="no"><img src="/images/cross.png" alt="No" /></td>
 </tr>
 
@@ -258,9 +258,9 @@ feature( "WMA 1/2", YES, YES, YES, YES, YES, YES );
 ?>
 <tr>
 <td class="type">WMA 3</td>
-<td class="yes">Yes<sup><a href="#audio_notes">[7]</a></sup></td>
+<td class="yes"><img src="/images/tick.png" alt="Yes" /> <sup><a href="#audio_notes">[7]</a></sup></td>
 <td class="no"><img src="/images/cross.png" alt="No" /></td>
-<td class="partial">Yes<sup><a href="#audio_notes">[7]</a></sup></td>
+<td class="partial">Yes <sup><a href="#audio_notes">[7]</a></sup></td>
 <td class="no"><img src="/images/cross.png" alt="No" /></td>
 <td class="no"><img src="/images/cross.png" alt="No" /></td>
 <td class="no"><img src="/images/cross.png" alt="No" /></td>
@@ -368,7 +368,7 @@ feature( "Infrared", NO, NO, YES, NO, NO, NO );
 <div class="notes">
 <a id="intf_notes">Notes:</a>
 <p>
-  [9] A new Qt4 interface is to-be-introduced by VLC's 0.8.6 release. It is
+  [9] A new Qt4 interface is to-be-introduced by VLC's 0.9.0 release. It is
   already enabled in the nightly builds with limited functionality.
 </p>
 </div>
@@ -381,7 +381,7 @@ feature( "Bonjour protocol", YES, YES, YES, UNT, UNT, UNT );
 <tr>
 <td class="type">Mozilla/Firefox plugin</td>
 <td class="yes"><img src="/images/tick.png" alt="Yes" /></td>
-<td class="yes">Yes <sup><a href="#bottom_notes">[12]</a></sup></td>
+<td class="yes"><img src="/images/tick.png" alt="Yes" /> <sup><a href="#bottom_notes">[12]</a></sup></td>
 <td class="yes"><img src="/images/tick.png" alt="Yes" /></td>
 <td class="yes">No</td>
 <td class="yes"><img src="/images/tick.png" alt="Yes" /></td>
@@ -412,7 +412,7 @@ feature( "IPv6", YES, YES, YES, NO, YES, YES );
 <td class="yes"><img src="/images/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/tick.png" alt="Yes" /></td>
-<td class="yes">Yes <sup><a href="#bottom_notes">[13]</a></sup></td>
+<td class="yes"><img src="/images/tick.png" alt="Yes" /> <sup><a href="#bottom_notes">[13]</a></sup></td>
 <td class="no"><img src="/images/cross.png" alt="No" /></td>
 </tr>
 
@@ -427,7 +427,7 @@ feature( "IPv6", YES, YES, YES, NO, YES, YES );
   [11] CDDB information provided by libcddb on all supported platforms excepting BeOS.
  <br />
   [12] The Mozilla Plugin for Mac is only available for PowerPC-based Macs and Intel-based Macs running Mozilla in the Rosetta-mode. A port to the new Macs
-  will be provided within the 0.8.6 release.
+  will be provided within VLC's 0.8.6 release.
   <br />
   [13] The OpenBSD 2.9 default assembler does not support MMX.
   <br />

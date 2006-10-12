@@ -260,7 +260,7 @@ feature( "WMA 1/2", YES, YES, YES, YES, YES, YES );
 <td class="type">WMA 3</td>
 <td class="yes"><img src="/images/tick.png" alt="Yes" /> <sup><a href="#audio_notes">[7]</a></sup></td>
 <td class="no"><img src="/images/cross.png" alt="No" /></td>
-<td class="partial">Yes <sup><a href="#audio_notes">[7]</a></sup></td>
+<td class="yes"><img src="/images/tick.png" alt="Yes" /> <sup><a href="#audio_notes">[7]</a></sup></td>
 <td class="no"><img src="/images/cross.png" alt="No" /></td>
 <td class="no"><img src="/images/cross.png" alt="No" /></td>
 <td class="no"><img src="/images/cross.png" alt="No" /></td>

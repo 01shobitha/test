@@ -125,28 +125,32 @@ p.center { text-align:center;}
 /******************* Main page content - Global ***********************/
 
 #maincontent {text-align: left; min-width: 780px; }
-
-#maincontent table a {color: #2D58AE;}
-#maincontent table a:hover, #maincontent table a:active {color: #000;}
+#maincontent table { border: none; }
+#maincontent table a { color: #2D58AE; }
+#maincontent table a:hover, #maincontent table a:active { color: #000;}
 
 #maincontent table th {
-	font-size: 12px;text-align: left;
+	font-size: 12px; text-align: left;
 	padding: 0 7px; line-height: 2.5em;
-        background: #D4E0F7;
+   background: #DFE8F9;
 }
-#maincontent table th img { padding: 5px 0;vertical-align: middle; }
 
-#maincontent table td { font-size: 11px;
-	padding: 0 7px;	line-height: 2.1em;
-	border-top: 1px solid #E4E7E9;
+#maincontent table th img { padding: 5px 0; vertical-align: middle; }
+
+#maincontent table td { 
+	font-size: 11px;
+	padding: 0 7px;
+	line-height: 2.1em;
+	border-top: 1px solid #D4E0F7;
 	background: #F4F7FD;
 }
-#maincontent table td.yes { background: #cfc; }
-#maincontent table td.no { background: #fcc; }
-#maincontent table td.partial { background: #ffa;}
-#maincontent table td.none { background: #F4F7FD;}
-#maincontent table td.type { background: #EBF0FA;}
-#maincontent table td.category { background: #F4F7FD;}
+
+#maincontent table td.yes { color: #333333; background: #EBF0FA; }
+#maincontent table td.no { color: #333333; background: #EBF0FA; }
+#maincontent table td.partial { color: #333333; background: #F4F7FD; }
+#maincontent table td.none { background: #F4F7FD; }
+#maincontent table td.type { background: #EBF0FA; }
+#maincontent table td.category { background: #F4F7FD; }
 	
 #left {	float:left;width: 56%; padding-bottom: 55px; }
 #right { float:right; width: 40%; padding-bottom: 55px; }
@@ -367,12 +371,12 @@ p.center { text-align:center;}
 div.screenshot{ float:left; margin-right: 3em; text-align:center; }
 
 /* Misc */
-.notes { color: #75818A; font-size: 9px;}
+.notes { font-size: 9px;}
 
 .vlcversion { font-size: 16px; }
 #vlccounter { font-weight: bold; }
 
-.note { background: #CCFFCC; }
+.note { background: #C9FFB4; }
 
 #description { padding: 0 0 15px; border-bottom: 2px dotted #E4E7E9;}
 #description p { margin: 0; padding: 0 0 15px 0; line-height: 19px; }

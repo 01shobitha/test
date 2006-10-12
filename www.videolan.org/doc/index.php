@@ -13,13 +13,13 @@
 
 <tr>
 
-<td class="type"><b>Document</b></td>
-<td class="type"><b>Description</b></td>
-<td class="type"><b>HTML online</b></td>
-<td class="type"><b>HTML offline</b></td>
-<td class="type"><b>PDF</b></td>
-<td class="type"><b>RTF</b></td>
-<td class="type"><b>Text</b></td>
+<th><b>Document</b></th>
+<th><b>Description</b></th>
+<th><b>HTML online</b></th>
+<th><b>HTML offline</b></th>
+<th><b>PDF</b></th>
+<th><b>RTF</b></th>
+<th><b>Text</b></th>
 
 </tr>
 

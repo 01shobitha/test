@@ -16,13 +16,13 @@
 	switch( $os )
 	{
 	case YES:
-	    echo "<td class=\"yes\"><img src=\"/images/tick.png\" alt=\"Yes\" /></td>\n";
+	    echo "<td class=\"yes\"><img src=\"/images/features/tick.png\" alt=\"Yes\" /></td>\n";
 	    break;
 	case NO:
-	    echo "<td class=\"no\"><img src=\"/images/cross.png\" alt=\"No\" /></td>\n";
+	    echo "<td class=\"no\"><img src=\"/images/features/cross.png\" alt=\"No\" /></td>\n";
 	    break;
 	case PART:
-	    echo "<td class=\"partial\">Partial</td>\n";
+	    echo "<td class=\"partial\"><img src=\"/images/features/partial.png\" alt=\"Partial\" /></td>\n";
 	    break;
 	case UNT:
 	    echo "<td class=\"partial\">Untested</td>\n";
@@ -99,10 +99,10 @@ feature( "MPEG encoder <sup><a href=\"#input_notes\">[3]</a></sup>", YES, NO, YE
 <tr>
 <td class="type">Video acquisition</td>
 <td class="yes">Direct Show</td>
-<td class="no"><img src="/images/cross.png" alt="No" /></td>
+<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes">V4L</td>
-<td class="no"><img src="/images/cross.png" alt="No" /></td>
-<td class="no"><img src="/images/cross.png" alt="No" /></td>
+<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="partial">V4L (Untested)</td>
 </tr>
 
@@ -160,22 +160,22 @@ feature( "WMV 1/2", YES, YES, YES, YES, YES, YES );
 ?>
 <tr>
 <td class="type">WMV 3 / WMV-9 / VC-1</td>
-<td class="yes"><img src="/images/tick.png" alt="Yes" /> <sup><a href="#video_notes">[4], [5]</a></sup></td>
-<td class="yes"><img src="/images/tick.png" alt="Yes" /> <sup><a href="#video_notes">[4]</a></sup></td>
-<td class="yes"><img src="/images/tick.png" alt="Yes" /> <sup><a href="#video_notes">[4], [5]</a></sup></td>
-<td class="yes"><img src="/images/tick.png" alt="Yes" /> <sup><a href="#video_notes">[4]</a></sup></td>
-<td class="yes"><img src="/images/tick.png" alt="Yes" /> <sup><a href="#video_notes">[4]</a></sup></td>
-<td class="no"><img src="/images/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">[4], [5]</a></sup></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">[4]</a></sup></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">[4], [5]</a></sup></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">[4]</a></sup></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">[4]</a></sup></td>
+<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 </tr>
 
 <tr>
 <td class="type">Indeo Video v3 (IV32)</td>
-<td class="yes"><img src="/images/tick.png" alt="Yes" /></td>
-<td class="no"><img src="/images/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="partial">No PPC support</td>
-<td class="yes"><img src="/images/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="partial">No PPC support</td>
-<td class="yes"><img src="/images/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <?php
@@ -213,9 +213,9 @@ feature( "RSS/Atom feeds", YES, YES, YES, YES, YES, NO );
 <td class="type">Native</td>
 <td class="yes">DirectX<br />GDI</td>
 <td class="yes">OpenGL<br />Quartz</td>
-<td class="yes"><img src="/images/tick.png" alt="Yes" /></td>
-<td class="yes"><img src="/images/tick.png" alt="Yes" /></td>
-<td class="yes"><img src="/images/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes">Qte/X11</td>
 </tr>
 <?php
@@ -258,12 +258,12 @@ feature( "WMA 1/2", YES, YES, YES, YES, YES, YES );
 ?>
 <tr>
 <td class="type">WMA 3</td>
-<td class="yes"><img src="/images/tick.png" alt="Yes" /> <sup><a href="#audio_notes">[7]</a></sup></td>
-<td class="no"><img src="/images/cross.png" alt="No" /></td>
-<td class="yes"><img src="/images/tick.png" alt="Yes" /> <sup><a href="#audio_notes">[7]</a></sup></td>
-<td class="no"><img src="/images/cross.png" alt="No" /></td>
-<td class="no"><img src="/images/cross.png" alt="No" /></td>
-<td class="no"><img src="/images/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#audio_notes">[7]</a></sup></td>
+<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#audio_notes">[7]</a></sup></td>
+<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 </tr>
 <?php
 feature("ADPCM", YES, YES, YES, YES, YES, NO );
@@ -286,19 +286,19 @@ feature( "Equalizer", YES, YES, YES, YES, YES, YES );
 <tr><td class="category" rowspan="7"><b>Outputs</b></td>
 <td class="type">Native</td>
 <td class="yes">DirectX<br />WaveOut</td>
-<td class="yes"><img src="/images/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes">OSS<br />ALSA</td>
-<td class="yes"><img src="/images/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes">OSS</td>
-<td class="yes"><img src="/images/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
 <td class="type">S/PDIF</td>
 <td class="yes">DirectX<br />WaveOut</td>
-<td class="yes"><img src="/images/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes">OSS<br />ALSA</td>
-<td class="no"><img src="/images/cross.png" alt="No" /></td>
+<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="partial">Untested</td>
 <td class="none">-</td>
 </tr>
@@ -306,20 +306,20 @@ feature( "Equalizer", YES, YES, YES, YES, YES, YES );
 <tr>
 <td class="type">Multi-channel</td>
 <td class="yes">DirectX<br />WaveOut</td>
-<td class="yes"><img src="/images/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes">OSS<br />ALSA</td>
-<td class="no"><img src="/images/cross.png" alt="No" /></td>
+<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="partial">Untested</td>
-<td class="no"><img src="/images/cross.png" alt="No" /></td>
+<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 </tr>
 
 <tr>
 <td class="type">SDL</td>
-<td class="yes"><img src="/images/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="partial">Source Only</td>
-<td class="yes"><img src="/images/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="partial">Untested</td>
-<td class="yes"><img src="/images/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="partial">Source Only</td>
 </tr>
 
@@ -380,12 +380,12 @@ feature( "Bonjour protocol", YES, YES, YES, UNT, UNT, UNT );
 ?>
 <tr>
 <td class="type">Mozilla/Firefox plugin</td>
-<td class="yes"><img src="/images/tick.png" alt="Yes" /></td>
-<td class="yes"><img src="/images/tick.png" alt="Yes" /> <sup><a href="#bottom_notes">[12]</a></sup></td>
-<td class="yes"><img src="/images/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#bottom_notes">[12]</a></sup></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes">No</td>
-<td class="yes"><img src="/images/tick.png" alt="Yes" /></td>
-<td class="no"><img src="/images/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 </tr>
 <?php
 feature( "ActiveX plugin", YES, NONE, NONE, NONE, NONE, NONE );
@@ -398,22 +398,22 @@ feature( "IPv6", YES, YES, YES, NO, YES, YES );
 <tr>
 <td class="type">IGMPv3</td>
 <td class="yes">Win XP</td>
-<td class="no"><img src="/images/cross.png" alt="No" /></td>
-<td class="yes"><img src="/images/tick.png" alt="Yes" /></td>
-<td class="no"><img src="/images/cross.png" alt="No" /></td>
+<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="partial">Untested</td>
-<td class="yes"><img src="/images/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 
 <tr>
 <td class="type">CPU acceleration <sup><a href="#bottom_notes">[14]</a></sup></td>
-<td class="yes"><img src="/images/tick.png" alt="Yes" /></td>
-<td class="yes"><img src="/images/tick.png" alt="Yes" /></td>
-<td class="yes"><img src="/images/tick.png" alt="Yes" /></td>
-<td class="yes"><img src="/images/tick.png" alt="Yes" /></td>
-<td class="yes"><img src="/images/tick.png" alt="Yes" /> <sup><a href="#bottom_notes">[13]</a></sup></td>
-<td class="no"><img src="/images/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#bottom_notes">[13]</a></sup></td>
+<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 </tr>
 
 </table>

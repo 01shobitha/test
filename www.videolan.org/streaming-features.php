@@ -127,11 +127,11 @@
 <tr>
 
 <td class="type">Send DVD subtitles</td>
-<td class="partial"><img src="/images/features/partial.png" alt="" />Partial</td>
-<td class="partial"><img src="/images/features/partial.png" alt="" />Partial</td>
-<td class="partial"><img src="/images/features/partial.png" alt="" />Partial</td>
-<td class="partial"><img src="/images/features/partial.png" alt="" />Partial</td>
-<td class="partial"><img src="/images/features/partial.png" alt="" />Partial</td>
+<td class="partial"><img src="/images/features/partial.png" alt="Partial" /></td>
+<td class="partial"><img src="/images/features/partial.png" alt="Partial" /></td>
+<td class="partial"><img src="/images/features/partial.png" alt="Partial" /></td>
+<td class="partial"><img src="/images/features/partial.png" alt="Partial" /></td>
+<td class="partial"><img src="/images/features/partial.png" alt="Partial" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 
 </tr>
@@ -142,9 +142,9 @@
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-<td class="partial"><img src="/images/features/partial.png" alt="" />Untested</td>
+<td class="partial">Untested</td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-<td class="partial"><img src="/images/features/partial.png" alt="" />Untested</td>
+<td class="partial">Untested</td>
 
 </tr>
 
@@ -310,7 +310,7 @@
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">DivX 1/2/3 video</a></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> [1]</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /><sup>[1]</sup></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
@@ -322,7 +322,7 @@
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">WMV 1/2</a></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> [1]</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /><sup>[1]</sup></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
@@ -334,7 +334,7 @@
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">H/I 263</a></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> [1]</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /><sup> [1]</sup></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
@@ -346,7 +346,7 @@
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">MJPEG</a></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> [1]</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /><sup>[1]</sup></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
@@ -504,7 +504,7 @@ interoperable).</p>
 
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">MPEG Layer 3 audio</a></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> [2]</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /><sup> [2]</sup></td>
 </tr>
 
 
@@ -515,7 +515,7 @@ interoperable).</p>
 
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Advanced+Audio+Coding">MPEG-4 audio (i.e. AAC)</a></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> [3]</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /><sup>[3]</sup></td>
 </tr>
 
 <tr>

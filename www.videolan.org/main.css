@@ -382,6 +382,21 @@ div.screenshot{ float:left; margin-right: 3em; text-align:center; }
 #description p { margin: 0; padding: 0 0 15px 0; line-height: 19px; }
 #description ul { padding: 35px 0 15px; line-height: 19px;}
 
+
+.feature-icon-container {
+	float: left;
+	border-top: 2px dotted #E4E7E9;
+	padding-top: 5px;
+	width: 100%;
+}
+
+.feature-icon li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+}
+
+
 /************************ Footer Layout ****************************/
 #spacer {
 	float: left;

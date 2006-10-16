@@ -437,7 +437,14 @@ feature( "IPv6", YES, YES, YES, NO, YES, YES );
  <br /> 
   </p>
 </div>
-
+<div class="feature-icon-container">
+	<ul class="feature-icon">
+		<li><img src="images/tick.png" alt="Yes" /> = Yes</li>
+		<li><img src="images/partial.png" alt="Partial" /> = Partial</li>
+		<li><img src="images/cross.png" alt="No" /> = No</li>
+		<li><img src="images/untested.png" alt="Untested" /> = Untested</li>
+	</ul>
+</div>
 </div>
 
 <?php footer('$Id$'); ?>

@@ -55,96 +55,96 @@
 
 <td class="category" rowspan="5"><b>Output</b></td>
 <td class="type"><a href="http://wiki.videolan.org/index.php/UDP">UDP</a> Unicast / <a href="http://wiki.videolan.org/index.php/multicast">Multicast</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="partial">unicast only</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="partial"><img src="/images/features/partial.png" alt="" />unicast only</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 
 </tr>
 
 <tr>
 
 <td class="type"><a href="http://wiki.videolan.org/index.php/RTP">RTP</a> Unicast / <a href="http://wiki.videolan.org/index.php/multicast">Multicast</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="partial">unicast only</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="partial"><img src="/images/features/partial.png" alt="" />unicast only</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 
 </tr>
 
 <tr>
 
 <td class="type">File</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 
 </tr>
 
 <tr>
 
 <td class="type"><a href="http://wiki.videolan.org/index.php/HTTP">HTTP</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 
 </tr>
 
 <tr>
 
 <td class="type"><a href="http://wiki.videolan.org/index.php/protocol">MMSH</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 
 </tr>
 
 <tr>
 <td class="category" rowspan="3"><b>Misc</b></td>
 <td class="type">Transcoding</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 
 </tr>
 
 <tr>
 
 <td class="type">Send DVD subtitles</td>
-<td class="partial">Partial</td>
-<td class="partial">Partial</td>
-<td class="partial">Partial</td>
-<td class="partial">Partial</td>
-<td class="partial">Partial</td>
-<td class="no">No</td>
+<td class="partial"><img src="/images/features/partial.png" alt="" />Partial</td>
+<td class="partial"><img src="/images/features/partial.png" alt="" />Partial</td>
+<td class="partial"><img src="/images/features/partial.png" alt="" />Partial</td>
+<td class="partial"><img src="/images/features/partial.png" alt="" />Partial</td>
+<td class="partial"><img src="/images/features/partial.png" alt="" />Partial</td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 
 </tr>
 
 <tr>
 
 <td class="type">Send <a href="http://wiki.videolan.org/index.php/SAP">SAP</a> announces</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="partial">Untested</td>
-<td class="yes">Yes</td>
-<td class="partial">Untested</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="partial"><img src="/images/features/partial.png" alt="" />Untested</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="partial"><img src="/images/features/partial.png" alt="" />Untested</td>
 
 </tr>
 
@@ -177,74 +177,74 @@
 
 <tr>
 <td class="category"><a href="http://wiki.videolan.org/index.php/container">PS</a></td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
 <td class="category"><a href="http://wiki.videolan.org/index.php/container">TS</a></td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
 <td class="category"><a href="http://wiki.videolan.org/index.php/container">Ogg</a></td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
 <td class="category"><a href="http://wiki.videolan.org/index.php/ASF">ASF</a></td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
 <td class="category"><a href="http://wiki.videolan.org/index.php/container">MP4</a></td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
 <td class="category"><a href="http://wiki.videolan.org/index.php/container">QuickTime</a></td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
 <td class="category">Raw</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
 <td class="category"><a href="http://wiki.videolan.org/index.php/MPJPEG">MPJPEG</a></td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="partial">SVN only</td>
-<td class="no">No</td>
-<td class="partial">SVN only</td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="partial"><img src="/images/features/partial.png" alt="" />SVN only</td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="partial"><img src="/images/features/partial.png" alt="" />SVN only</td>
 </tr>
 
 </table>
@@ -273,172 +273,172 @@
 <tr>
 <td class="category" rowspan="9"><b>Video formats</b></td>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">MPEG-1 video</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">MPEG-2 video</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">MPEG-4 video</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">DivX 1/2/3 video</a></td>
-<td class="no">No</td>
-<td class="yes">Yes [1]</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> [1]</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 </tr>
 
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">WMV 1/2</a></td>
-<td class="no">No</td>
-<td class="yes">Yes [1]</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> [1]</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 </tr>
 
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">H/I 263</a></td>
-<td class="no">No</td>
-<td class="yes">Yes [1]</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> [1]</td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 </tr>
 
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">MJPEG</a></td>
-<td class="no">No</td>
-<td class="yes">Yes [1]</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="partial">SVN only</td>
-<td class="no">No</td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> [1]</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="partial"><img src="/images/features/partial.png" alt="" />SVN only</td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 </tr>
 
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">Theora</a></td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 </tr>
 
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">H.264/MPEG-4 AVC</a></td>
-<td class="no">No</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="no">No</td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 </tr>
 
 
 <tr>
 <td class="category" rowspan="5"><b>Audio formats</b></td>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">MPEG Layer 1/2/3 audio</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">AC3 (i.e. A52)</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Advanced+Audio+Coding">MPEG-4 audio (i.e. AAC)</a></td>
-<td class="no">No</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="no">No</td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 </tr>
 
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">Vorbis/Speex</a></td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 </tr>
 
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">FLAC</a></td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 </table>
@@ -457,75 +457,75 @@ interoperable).</p>
 <tr>
 <td class="category" rowspan="8"><b>Video formats</b></td>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">MPEG-1 video</a></td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">MPEG-2 video</a></td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">MPEG-4 video</a></td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">DivX 1/2/3 video</a></td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">WMV 1/2</a></td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">H/I 263</a></td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">MJPEG</a></td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">Theora</a></td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 
 <tr>
 <td class="category" rowspan="6"><b>Audio formats</b></td>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">MPEG Layer 2 audio</a></td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">MPEG Layer 3 audio</a></td>
-<td class="yes">Yes [2]</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> [2]</td>
 </tr>
 
 
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">AC3 (i.e. A52)</a></td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Advanced+Audio+Coding">MPEG-4 audio (i.e. AAC)</a></td>
-<td class="yes">Yes [3]</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> [3]</td>
 </tr>
 
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">Vorbis/Speex</a></td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">FLAC</a></td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 </table>
@@ -561,72 +561,72 @@ interoperable).</p>
 
 <td class="category" rowspan="8"><b>Inputs</b></td>
 <td class="type">File</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 
 </tr>
 
 <tr>
 
 <td class="type">DVD</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="no">No</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 
 </tr>
 
 <tr>
 
 <td class="type">DVB-S (Hauppauge Nova-S / Nexus)</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="no">No</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 
 </tr>
 
 <tr>
 
 <td class="type">DVB-C (Hauppauge DVB-C)</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="no">No</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 
 </tr>
 
 <tr>
 
 <td class="type">DVB-T (Hauppauge Nova-t)</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="no">No</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 
 </tr>
 
 <tr>
 
 <td class="type">MPEG encoding card [4]</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="no">No</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 
 </tr>
 
 <tr>
 
 <td class="type">ASI card</td>
-<td class="partial">SVN Only</td>
-<td class="no">No</td>
-<td class="no">No</td>
+<td class="partial"><img src="/images/features/partial.png" alt="" />SVN Only</td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 
 </tr>
 
 <tr>
 
 <td class="type">V4L device</td>
-<td class="partial">SVN Only</td>
-<td class="no">No</td>
-<td class="no">No</td>
+<td class="partial"><img src="/images/features/partial.png" alt="" />SVN Only</td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 
 </tr>
 
@@ -634,18 +634,18 @@ interoperable).</p>
 
 <td class="category" rowspan="2"><b>Output</b></td>
 <td class="type">UDP Unicast / Multicast</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 
 </tr>
 
 <tr>
 
 <td class="type">File</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 
 </tr>
 
@@ -653,18 +653,18 @@ interoperable).</p>
 
 <td class="category" rowspan="2"><b>Input formats</b></td>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Container">TS</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 
 </tr>
 
 <tr>
 
 <td class="type"><a href="http://wiki.videolan.org/index.php/Container">PS</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 
 
 </tr>
@@ -673,9 +673,9 @@ interoperable).</p>
 
 <td class="category" rowspan="1"><b>Output format</b></td>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Container">TS</a></td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 
 </tr>
 
@@ -683,18 +683,18 @@ interoperable).</p>
 
 <td class="category" rowspan="2"><b>Control</b></td>
 <td class="type">Command line</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 
 </tr>
 
 <tr>
 
 <td class="type">Telnet</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
-<td class="yes">Yes</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 
 </tr>
 
@@ -702,36 +702,36 @@ interoperable).</p>
 
 <td class="category" rowspan="4"><b>Misc</b></td>
 <td class="type"><a href="http://wiki.videolan.org/index.php/IP">IPv6</a></td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="no">No</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 
 </tr>
 
 <tr>
 
 <td class="type">Send DVD subtitles</td>
-<td class="yes">Yes</td>
-<td class="no">No</td>
-<td class="no">No</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 
 </tr>
 
 <tr>
 
 <td class="type">Send <a href="http://wiki.videolan.org/index.php/SAP">SAP</a> announces</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 
 </tr>
 
 <tr>
 
 <td class="type">Transcoding</td>
-<td class="no">No</td>
-<td class="no">No</td>
-<td class="no">No</td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 
 </tr>
 

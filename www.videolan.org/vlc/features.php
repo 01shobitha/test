@@ -98,9 +98,9 @@ feature( "MPEG encoder <sup><a href=\"#input_notes\">[3]</a></sup>", YES, NO, YE
 ?>
 <tr>
 <td class="type">Video acquisition</td>
-<td class="yes">Direct Show</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> Direct Show</td>
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-<td class="yes">V4L</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> V4L</td>
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="partial">V4L (Untested)</td>
@@ -172,9 +172,9 @@ feature( "WMV 1/2", YES, YES, YES, YES, YES, YES );
 <td class="type">Indeo Video v3 (IV32)</td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-<td class="partial">No PPC support</td>
+<td class="partial"><img src=\"/images/features/partial.png\" alt=\"Partial\" />No PPC support</td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-<td class="partial">No PPC support</td>
+<td class="partial"><img src=\"/images/features/partial.png\" alt=\"Partial\" />No PPC support</td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
@@ -397,7 +397,7 @@ feature( "IPv6", YES, YES, YES, NO, YES, YES );
 ?>
 <tr>
 <td class="type">IGMPv3</td>
-<td class="yes">Win XP</td>
+<td class="yes"><img src=\"/images/features/partial.png\" alt=\"Partial\" />Win XP</td>
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>

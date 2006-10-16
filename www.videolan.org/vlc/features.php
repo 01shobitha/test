@@ -172,9 +172,9 @@ feature( "WMV 1/2", YES, YES, YES, YES, YES, YES );
 <td class="type">Indeo Video v3 (IV32)</td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-<td class="partial"><img src=\"/images/features/partial.png\" alt=\"Partial\" />No PPC support</td>
+<td class="partial"><img src="/images/features/partial.png" alt="Partial" />No PPC support</td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-<td class="partial"><img src=\"/images/features/partial.png\" alt=\"Partial\" />No PPC support</td>
+<td class="partial"><img src="/images/features/partial.png" alt="Partial" />No PPC support</td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 

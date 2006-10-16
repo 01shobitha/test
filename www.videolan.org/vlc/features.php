@@ -439,10 +439,10 @@ feature( "IPv6", YES, YES, YES, NO, YES, YES );
 </div>
 <div class="feature-icon-container">
 	<ul class="feature-icon">
-		<li><img src="images/tick.png" alt="Yes" /> = Yes</li>
-		<li><img src="images/partial.png" alt="Partial" /> = Partial</li>
-		<li><img src="images/cross.png" alt="No" /> = No</li>
-		<li><img src="images/untested.png" alt="Untested" /> = Untested</li>
+		<li><img src="/images/features/tick.png" alt="Yes" /> = Yes</li>
+		<li><img src="/images/features/partial.png" alt="Partial" /> = Partial</li>
+		<li><img src="/images/features/cross.png" alt="No" /> = No</li>
+<?php /*		<li><img src="images/untested.png" alt="Untested" /> = Untested</li>*/?>
 	</ul>
 </div>
 </div>

@@ -89,7 +89,7 @@ feature( "UDP/RTP Multicast", YES, YES, YES, NO, YES, YES );
 feature( "HTTP / FTP", YES, YES, YES, YES, YES, YES ); 
 feature( "MMS", YES, YES, YES, YES, YES, NONE ); 
 feature( "File", YES, YES, YES, YES, YES, YES ); 
-feature( "DVD <sup><a href=\"#input_notes\">1</a></sup><sup><a href=\"#bottom_notes\">2</a></sup>", YES, YES, YES, YES, YES, NONE );
+feature( "DVD <sup><a href=\"#input_notes\">1</a></sup>", YES, YES, YES, YES, YES, NONE );
 feature( "VCD", YES,YES, YES, NO, YES, NONE );
 feature( "SVCD <sup><a href=\"#input_notes\">2</a></sup>", PART, PART, PART, NO, PART, NONE );
 feature( "Audio CD (without DTS)", YES, YES, YES, NO, YES, NONE );
@@ -364,11 +364,10 @@ feature( "Infrared", NO, NO, YES, NO, NO, NO );
 ?>
 </table>
 <div class="notes">
-<a id="intf_notes">Notes:</a>
-<p>
-  [9] A new Qt4 interface is to-be-introduced by VLC's 0.9.0 release. It is
-  already enabled in the nightly builds with limited functionality.
-</p>
+<ol start="9" id="intf_notes">
+<li>A new Qt4 interface is to-be-introduced by VLC's 0.9.0 release. It is
+  already enabled in the nightly builds with limited functionality.</li>
+</ol>
 </div>
 
 <h2>Miscellaneous</h2>

@@ -103,7 +103,7 @@ feature( "MPEG encoder <sup><a href=\"#input_notes\">3</a></sup>", YES, NO, YES,
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /> V4L</td>
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-<td class="partial"><img src="images/untested.png" alt="Untested" />V4L</td>
+<td class="partial"><img src="/images/features/untested.png" alt="Untested" />V4L</td>
 </tr>
 
 <tr>
@@ -394,7 +394,7 @@ feature( "IPv6", YES, YES, YES, NO, YES, YES );
 ?>
 <tr>
 <td class="type">IGMPv3</td>
-<td class="yes"><img src=\"/images/features/partial.png\" alt=\"Partial\" />Win XP</td>
+<td class="yes"><img src="/images/features/partial.png" alt="Partial" />Win XP</td>
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>

@@ -12,31 +12,26 @@
 
 <h2>VLC Stream output</h2>
 
-<p></p>
-
 <table border="0">
-
 <tr>
-
-<th></th>
-<th></th>
-<th class="os"><a href="/vlc/download-windows.html">
+<th class="category"></th><th class="type"></th>
+<th class="th-os"><a href="/vlc/download-windows.html">
   <img src="/images/icons/winvista.png" alt="Windows" width="32" height="32" />
 </a></th>
-<th class="os"><a href="/vlc/download-macosx.html">
+<th class="th-os"><a href="/vlc/download-macosx.html">
   <img src="/images/icons/macosx.png" alt="Mac OS X" width="32" height="32" />
 </a></th>
-<th class="os"><a href="/vlc/download-linux.html">
+<th class="th-os"><a href="/vlc/download-linux.html">
   <img src="/images/icons/linux.png" alt="Linux" width="32" height="32" />
 </a></th>
-<th class="os"><a href="/vlc/download-beos.html">
+<th class="th-os"><a href="/vlc/download-beos.html">
   <img src="/images/icons/beos.png" alt="BeOS" width="32" height="32" />
 </a></th>
-<th class="os"><a href="/vlc/download-sources.html">
+<th class="th-os"><a href="/vlc/download-sources.html">
   <img src="/images/icons/freebsd.png" alt="FreeBSD" width="32" height="32" />
   <img src="/images/icons/openbsd.png" alt="OpenBSD" width="32" height="32" />
 </a></th>
-<th class="os"><a href="/vlc/download-familiar.html">
+<th class="th-os"><a href="/vlc/download-familiar.html">
   <img src="/images/icons/familiar.png" alt="Familiar Linux"
        width="32" height="32" />
 </a></th>
@@ -310,7 +305,7 @@
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">DivX 1/2/3 video</a></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /><sup>[1]</sup></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /><sup><a href="#muxer_notes">1</a></sup></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
@@ -322,7 +317,7 @@
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">WMV 1/2</a></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /><sup>[1]</sup></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /><sup><a href="#muxer_notes">1</a></sup></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
@@ -334,7 +329,7 @@
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">H/I 263</a></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /><sup> [1]</sup></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /><sup><a href="#muxer_notes">1</a></sup></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
@@ -346,7 +341,7 @@
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">MJPEG</a></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /><sup>[1]</sup></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /><sup><a href="#muxer_notes">1</a></sup></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
@@ -443,14 +438,13 @@
 
 </table>
 
-<p>[1] This feature is possible with VideoLAN but not standard (so not
-interoperable).</p>
-
-<p></p>
+<div class="notes">
+	<ol id="muxer_notes">
+		<li> This feature is possible with VideoLAN but not standard (so not interoperable).</li>
+	</ol>
+</div>
 
 <h3>Possible output formats for the transcoding module</h3>
-
-<p></p>
 
 <table border="0">
 
@@ -504,7 +498,7 @@ interoperable).</p>
 
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">MPEG Layer 3 audio</a></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /><sup> [2]</sup></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /><sup><a href="#possible_notes">2</a></sup></td>
 </tr>
 
 
@@ -515,7 +509,7 @@ interoperable).</p>
 
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Advanced+Audio+Coding">MPEG-4 audio (i.e. AAC)</a></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /><sup>[3]</sup></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /><sup><a href="#possible_notes">3</a></sup></td>
 </tr>
 
 <tr>
@@ -530,27 +524,28 @@ interoperable).</p>
 
 </table>
 
-<p>[2] For this, you have to compile ffmpeg with <i>libmp3lame</i> support.</p>
-<p>[3] For this, you have to compile ffmpeg with <i>libfaac</i> support.</p>
+<div class="notes">
+	<ol start="2" id="possible_notes"> 
+		<li>For this, you have to compile ffmpeg with <i>libmp3lame</i> support.</li>
+		<li>For this, you have to compile ffmpeg with <i>libfaac</i> support.</li>
+	</ol>
+</div>
 
-<p></p>
 
 <h2>VLS</h2>
 
-<p></p>
 <table border="0">
 
 <tr>
 
-<th></th>
-<th></th>
-<th class="os"><a href="/streaming/download-vls-sources.html">
+<th class="category"></th><th class="type"></th>
+<th class="th-os"><a href="/streaming/download-vls-sources.html">
   <img src="/images/icons/linux.png" alt="Linux" width="32" height="32" />
 </a></th>
-<th class="os"><a href="/streaming/download-vls-windows.html">
+<th class="th-os"><a href="/streaming/download-vls-windows.html">
   <img src="/images/icons/winvista.png" alt="Windows" width="32" height="32" />
 </a></th>
-<th class="os"><a href="/streaming/download-vls-sources.html">
+<th class="th-os"><a href="/streaming/download-vls-sources.html">
   <img src="/images/icons/macosx.png" alt="Mac OS X" width="32" height="32" />
 </a></th>
 
@@ -735,14 +730,24 @@ interoperable).</p>
 
 </tr>
 
-
 </table>
 
-<p>[4] VLS supports two kinds of MPEG-2 encoding cards: Hauppauge          
-WinTV-PVR-250/350 and Visiontech Kfir.</p>                              
-
+<div class="notes">
+	<ol start="4" id="vls_notes">
+<li>VLS supports two kinds of MPEG-2 encoding cards: Hauppauge          
+WinTV-PVR-250/350 and Visiontech Kfir.</li>
+</ol>
 </div>
 
+<div class="feature-icon-container">
+	<ul class="feature-icon">
+	<li><img src="images/tick.png" alt="Yes" /> = Yes</li>
+	<li><img src="images/partial.png" alt="Partial" /> = Partial</li>
+	<li><img src="images/untested.png" alt="Untested" /> = Untested</li>
+	<li><img src="images/cross.png" alt="No" /> = No</li>
+	</ul>
+</div>
+</div>
 <?php
   footer('$Id$');
 ?>

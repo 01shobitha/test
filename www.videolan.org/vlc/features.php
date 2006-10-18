@@ -25,7 +25,7 @@
 	    echo "<td class=\"partial\"><img src=\"/images/features/partial.png\" alt=\"Partial\" /></td>\n";
 	    break;
 	case UNT:
-	    echo "<td class=\"partial\">Untested</td>\n";
+	    echo "<td class=\"partial\"><img src=\"/images/features/untested.png\" alt=\"Untested\" /></td>\n";
 	    break;
 	case NONE:
 	    echo "<td class=\"none\">-</td>\n";
@@ -47,25 +47,25 @@
 ?>
 	<table border="0">
 	 <tr>
-	  <th></th>
-<?php if( $double_header == true ) { echo "<th></th>\n"; } ?>
-	  <th class="os"><a href="/vlc/download-windows.html">
+	  <th class="category"></th>
+<?php if( $double_header == true ) { echo "<th class=\"type\"></th>"; } ?>
+	  <th class="th-os"><a href="/vlc/download-windows.html">
   <img src="/images/icons/winvista.png" alt="Windows" width="32" height="32" />
 </a></th>
-<th class="os"><a href="/vlc/download-macosx.html">
+<th class="th-os"><a href="/vlc/download-macosx.html">
   <img src="/images/icons/macosx.png" alt="Mac OS X" width="32" height="32" />
 </a></th>
-<th class="os"><a href="/vlc/index.html">
+<th class="th-os"><a href="/vlc/index.html">
   <img src="/images/icons/linux.png" alt="Linux" width="32" height="32" />
 </a></th>
-<th class="os"><a href="/vlc/download-beos.html">
+<th class="th-os"><a href="/vlc/download-beos.html">
   <img src="/images/icons/beos.png" alt="BeOS" width="32" height="32" />
 </a></th>
-<th class="os"><a href="/vlc/download-sources.html">
+<th class="th-os"><a href="/vlc/download-sources.html">
   <img src="/images/icons/freebsd.png" alt="FreeBSD" width="32" height="32" />
   <img src="/images/icons/openbsd.png" alt="OpenBSD" width="32" height="32" />
 </a></th>
-<th class="os"><a href="/vlc/download-familiar.html">
+<th class="th-os"><a href="/vlc/download-familiar.html">
   <img src="/images/icons/familiar.png" alt="Familiar Linux"
        width="32" height="32" />
 </a></th>
@@ -89,12 +89,12 @@ feature( "UDP/RTP Multicast", YES, YES, YES, NO, YES, YES );
 feature( "HTTP / FTP", YES, YES, YES, YES, YES, YES ); 
 feature( "MMS", YES, YES, YES, YES, YES, NONE ); 
 feature( "File", YES, YES, YES, YES, YES, YES ); 
-feature( "DVD <sup><a href=\"#input_notes\">[1]</a></sup><sup><a href=\"#bottom_notes\">[2]</a></sup>", YES, YES, YES, YES, YES, NONE );
+feature( "DVD <sup><a href=\"#input_notes\">1</a></sup><sup><a href=\"#bottom_notes\">2</a></sup>", YES, YES, YES, YES, YES, NONE );
 feature( "VCD", YES,YES, YES, NO, YES, NONE );
-feature( "SVCD <sup><a href=\"#input_notes\">[2]</a></sup>", PART, PART, PART, NO, PART, NONE );
+feature( "SVCD <sup><a href=\"#input_notes\">2</a></sup>", PART, PART, PART, NO, PART, NONE );
 feature( "Audio CD (without DTS)", YES, YES, YES, NO, YES, NONE );
 feature( "DVB (Satellite, <br />Digital TV, Cable TV)", NO, NO, YES, NO, NO, NONE );
-feature( "MPEG encoder <sup><a href=\"#input_notes\">[3]</a></sup>", YES, NO, YES, NO, NO, NONE );
+feature( "MPEG encoder <sup><a href=\"#input_notes\">3</a></sup>", YES, NO, YES, NO, NO, NONE );
 ?>
 <tr>
 <td class="type">Video acquisition</td>
@@ -103,7 +103,7 @@ feature( "MPEG encoder <sup><a href=\"#input_notes\">[3]</a></sup>", YES, NO, YE
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /> V4L</td>
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-<td class="partial">V4L (Untested)</td>
+<td class="partial"><img src="images/untested.png" alt="Untested" />V4L</td>
 </tr>
 
 <tr>
@@ -126,17 +126,16 @@ feature( "FLV (Flash)", YES, YES, YES, UNT, YES, UNT );
 </table>
 
 <div class="notes">
-  <a id="input_notes">Note</a>
-  <p>
-  [1] DVD decryption is done through the libdvdcss library.<br />
-  [2] VLC on GNU/Linux, Solaris, and Microsoft Windows has playback
+	<ol id="input_notes">
+  <li>DVD decryption is done through the libdvdcss library.</li>
+  <li>VLC on GNU/Linux, Solaris, and Microsoft Windows has playback
   control support via libcdio and libvcdinfo. On other platforms,
   SVCD support varies depending on the availability of these libraries.
   (Volunteers for adding support are always welcome.). Handling still
   frames (often used in menus) and switching between different video
-  formats is problematic.<br />
-  [3] VLC for GNU/Linux supports two kinds of MPEG-2 encoding cards: Hauppauge WinTV-PVR-250/350 and Visiontech Kfir.
-  </p>
+  formats is problematic.</li>
+  <li>VLC for GNU/Linux supports two kinds of MPEG-2 encoding cards: Hauppauge WinTV-PVR-250/350 and Visiontech Kfir.</li>
+	</ol>
 </div>
 
 <h2>Video</h2>
@@ -160,11 +159,11 @@ feature( "WMV 1/2", YES, YES, YES, YES, YES, YES );
 ?>
 <tr>
 <td class="type">WMV 3 / WMV-9 / VC-1</td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">[4], [5]</a></sup></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">[4]</a></sup></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">[4], [5]</a></sup></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">[4]</a></sup></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">[4]</a></sup></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">4, 5</a></sup></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">4</a></sup></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">4, 5</a></sup></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">4</a></sup></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">4</a></sup></td>
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 </tr>
 
@@ -186,7 +185,7 @@ feature( "Real Video", NO,NO,NO,NO,NO,NO );
 <td class="category" rowspan="8"><b>Subtitles</b></td>
 
 <?php
-feature( "DVD <sup><a href=\"#video_notes\">[6]</a></sup>",
+feature( "DVD <sup><a href=\"#video_notes\">6</a></sup>",
 	PART,PART,PART,PART,PART,NONE, true );
 feature( "SVCD / CVD", YES, UNT,YES,UNT,YES,NONE );
 feature( "DVB", YES, YES, YES, YES, YES, NONE );
@@ -228,16 +227,16 @@ feature( "ASCII Art", YES, YES, YES, UNT,YES, NO );
 </table>
 
 <div class="notes">
-  <a id="video_notes">Notes</a>
-  <p>
-  [4] WMV-3 / WMV-9 / VC-1 playback will be available through the FFmpeg-library
+<ol start="4" id="video_notes">
+  <li>WMV-3 / WMV-9 / VC-1 playback will be available through the FFmpeg-library
   in VLC 0.8.6. It is already enabled in the nightly builds. The playback of some
-  videos can still be problematic due to the pre-beta nature of the decoder.<br />
-  [5] Windows DMO codecs can be used by VLC on 32-bit x86 platforms.
-  This allows WMV-3/WMA-3 decoding. This feature is untested on Intel-based Macs.<br />
-  [6] Full color for YUV-type chromas is not handled, only the gray-scale
+  videos can still be problematic due to the pre-beta nature of the decoder.</li>
+  <li>Windows DMO codecs can be used by VLC on 32-bit x86 platforms.
+  This allows WMV-3/WMA-3 decoding. This feature is untested on Intel-based Macs.</li>
+  <li>Full color for YUV-type chromas is not handled, only the gray-scale
   value. Subtitle transparency is not fully supported for all
-  chromas. Some chromas are not handled at all.</p>
+  chromas. Some chromas are not handled at all.</li>
+</ol>
 </div>
  
 
@@ -258,9 +257,9 @@ feature( "WMA 1/2", YES, YES, YES, YES, YES, YES );
 ?>
 <tr>
 <td class="type">WMA 3</td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#audio_notes">[7]</a></sup></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#audio_notes">7</a></sup></td>
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#audio_notes">[7]</a></sup></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#audio_notes">7</a></sup></td>
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
@@ -272,7 +271,7 @@ feature("FLAC", YES, YES, YES, YES, YES, YES );
 feature( "QDM2/QDMC (QuickTime)", YES, YES, YES, UNT, YES, UNT );
 feature( "MACE", YES, YES, YES, YES, YES, YES );
 feature( "AMR (3GPP", NO, NO , NO ,NO ,NO ,NO );
-feature( "Real Audio <sup><a href=\"#bottom_notes\">[8]</a></sup>",
+feature( "Real Audio <sup><a href=\"#bottom_notes\">8</a></sup>",
 	PART,PART,PART,UNT,PART,NO );
 feature( "Speex", YES, YES, YES, UNT, YES, UNT );
 ?>
@@ -299,7 +298,7 @@ feature( "Equalizer", YES, YES, YES, YES, YES, YES );
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes">OSS<br />ALSA</td>
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-<td class="partial">Untested</td>
+<td class="partial"><img src="/images/features/untested.png" alt="Untested" /></td>
 <td class="none">-</td>
 </tr>
 
@@ -309,7 +308,7 @@ feature( "Equalizer", YES, YES, YES, YES, YES, YES );
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes">OSS<br />ALSA</td>
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-<td class="partial">Untested</td>
+<td class="partial"><img src="/images/features/untested.png" alt="Untested" /></td>
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 </tr>
 
@@ -318,7 +317,7 @@ feature( "Equalizer", YES, YES, YES, YES, YES, YES );
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="partial">Source Only</td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-<td class="partial">Untested</td>
+<td class="partial"><img src="/images/features/untested.png" alt="Untested" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="partial">Source Only</td>
 </tr>
@@ -331,14 +330,13 @@ feature( "JACK", NONE, PART, YES, NONE, UNT, UNT );
 </table>
 
 <div class="notes">
-  <a id="audio_notes">Notes:</a>
-  <p>
-  [7] Windows DMO codecs can be used by VLC on 32-bit x86 platforms.
-  This allows WMV-3/WMA-3 decoding. This feature is untested on Intel-based Macs.<br />
-  [8] Real Audio playback is provided through the FFmpeg-library
+<ol start="7" id="audio_notes">
+  <li>Windows DMO codecs can be used by VLC on 32-bit x86 platforms.
+  This allows WMV-3/WMA-3 decoding. This feature is untested on Intel-based Macs.</li>
+  <li>Real Audio playback is provided through the FFmpeg-library
   which does only support the Cook (RealAudio G2 / RealAudio 8)
-  decoder at the moment.
-</p>
+  decoder at the moment.</li>
+</ol>
 </div>
 
 <h2>Streaming</h2>
@@ -357,7 +355,7 @@ feature( "JACK", NONE, PART, YES, NONE, UNT, UNT );
 </tr>
 
 <?php
-feature( "Qt 4  <sup><a href=\"#intf_notes\">[9]</a></sup>", YES, NO, YES, NONE, UNT, NO );
+feature( "Qt 4  <sup><a href=\"#intf_notes\">9</a></sup>", YES, NO, YES, NONE, UNT, NO );
 feature( "Skins", YES, NO, YES, NO, YES, NO );
 feature( "Web", YES, YES, YES, YES, YES, YES );
 feature( "Telnet", YES, YES, YES, YES, YES, YES );
@@ -381,7 +379,7 @@ feature( "Bonjour protocol", YES, YES, YES, UNT, UNT, UNT );
 <tr>
 <td class="type">Mozilla/Firefox plugin</td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#bottom_notes">[12]</a></sup></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#bottom_notes">12</a></sup></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes">No</td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -391,8 +389,8 @@ feature( "Bonjour protocol", YES, YES, YES, UNT, UNT, UNT );
 feature( "ActiveX plugin", YES, NONE, NONE, NONE, NONE, NONE );
 feature( "SVCD Menus", PART, NO, PART, NO, PART, NO );
 feature( "Localization", YES, YES, YES, YES, YES, YES );
-feature( "CD-Text <sup><a href=\"#bottom_notes\">[10]</a></sup>", YES, NO, YES, NO, PART, NONE );
-feature( "CDDB CD info <sup><a href=\"#bottom_notes\">[11]</a></sup>", YES, YES, YES, NO, PART, NONE );
+feature( "CD-Text <sup><a href=\"#bottom_notes\">10</a></sup>", YES, NO, YES, NO, PART, NONE );
+feature( "CDDB CD info <sup><a href=\"#bottom_notes\">11</a></sup>", YES, YES, YES, NO, PART, NONE );
 feature( "IPv6", YES, YES, YES, NO, YES, YES );
 ?>
 <tr>
@@ -401,48 +399,47 @@ feature( "IPv6", YES, YES, YES, NO, YES, YES );
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-<td class="partial">Untested</td>
+<td class="partial"><img src="/images/features/untested.png" alt="Untested" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 
 <tr>
-<td class="type">CPU acceleration <sup><a href="#bottom_notes">[14]</a></sup></td>
+<td class="type">CPU acceleration <sup><a href="#bottom_notes">14</a></sup></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#bottom_notes">[13]</a></sup></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#bottom_notes">13</a></sup></td>
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 </tr>
 
 </table>
 
 <div class="notes">
-<a id="bottom_notes">Notes:</a>
-<p>
-  [10] CD-Text information provided via libcdio. This service is available
+<ol start="10" id="bottom_notes">
+  <li>CD-Text information provided via libcdio. This service is available
   on all platforms supported by the library.
-  <br />
-  [11] CDDB information provided by libcddb on all supported platforms excepting BeOS.
- <br />
-  [12] The Mozilla Plugin for Mac is only available for PowerPC-based Macs and Intel-based Macs running Mozilla in the Rosetta-mode. A port to the new Macs
+  </li>
+  <li>CDDB information provided by libcddb on all supported platforms excepting BeOS.
+ </li>
+  <li> The Mozilla Plugin for Mac is only available for PowerPC-based Macs and Intel-based Macs running Mozilla in the Rosetta-mode. A port to the new Macs
   will be provided within VLC's 0.8.6 release.
-  <br />
-  [13] The OpenBSD 2.9 default assembler does not support MMX.
-  <br />
-  [14] Supported CPU extensions are MMX, MMXEXT, SSE, SSE2 and 3D Now! on x86
+  </li>
+  <li> The OpenBSD 2.9 default assembler does not support MMX.
+  </li>
+  <li> Supported CPU extensions are MMX, MMXEXT, SSE, SSE2 and 3D Now! on x86
   processors, and AltiVec on G4/G5 processors.
-  <br />
- <br /> 
-  </p>
+  </li>
+  </ol>
+
 </div>
 <div class="feature-icon-container">
 	<ul class="feature-icon">
 		<li><img src="/images/features/tick.png" alt="Yes" /> = Yes</li>
 		<li><img src="/images/features/partial.png" alt="Partial" /> = Partial</li>
 		<li><img src="/images/features/cross.png" alt="No" /> = No</li>
-<?php /*		<li><img src="images/untested.png" alt="Untested" /> = Untested</li>*/?>
+ 		<li><img src="/images/features/untested.png" alt="Untested" /> = Untested</li>
 	</ul>
 </div>
 </div>

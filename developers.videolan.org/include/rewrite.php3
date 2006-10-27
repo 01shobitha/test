@@ -53,6 +53,7 @@
   <title><?php echo $title; ?></title>
   <link type="text/css" href="/main.css" rel="stylesheet">
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
 </head>
 <body bgcolor="#ffffff">
 <table width="100%" cellspacing=0 cellpadding=10>

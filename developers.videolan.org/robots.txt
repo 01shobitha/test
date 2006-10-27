@@ -24,11 +24,4 @@ Disallow: /
 User-Agent: NPBot
 Disallow: /
 
-# "iThenticate® is a new service we have developed to combat the piracy
-# of intellectual property and ensure the originality of written work for#
-# publishers, non-profit agencies, corporations, and newspapers."
-# (http://www.slysearch.com/)
-#  --> fuck off.
-User-Agent: SlySearch
-Disallow: /
-
+# "iThenticate

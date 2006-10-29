@@ -1096,6 +1096,27 @@ vlc.audio.toggleMute();
 </programlisting>
 
 <simplesect><title>
+Root object
+</title>
+
+<para>readonly properties</para>
+<itemizedlist>
+<listitem><para><command>VersionInfo</command> : returns version information string</para></listitem>
+</itemizedlist>
+
+<para>read/write properties</para>
+<itemizedlist>
+<listitem><para><command>none</command></para></listitem>
+</itemizedlist>
+
+<para>methods</para>
+<itemizedlist>
+<listitem><para><command>vlc.versionInfo()</command> : returns version information string</para></listitem>
+</itemizedlist>
+
+</simplesect>
+
+<simplesect><title>
 Audio object
 </title>
 

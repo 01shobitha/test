@@ -971,7 +971,7 @@ plugin.</para>
 <listitem><para><command>get_bool_variable(var_name)</command> : </para></listitem>
 <listitem><para><command>get_str_variable(var_name)</command> : </para></listitem>
 <listitem><para><command>clear_playlist()</command> : Clear the playlist.</para></listitem>
-<listitem><para><command>add_item(mrl>)</command> : Append an item whose location is given by the Media Resource Locator to the playlist.</para></listitem>
+<listitem><para><command>add_item(mrl)</command> : Append an item whose location is given by the Media Resource Locator to the playlist.</para></listitem>
 <listitem><para><command>next()</command></para></listitem>
 <listitem><para><command>previous()</command></para></listitem>
 <listitem><para><command>isplaying()</command> : return true if the plugin is playing something.</para></listitem>

@@ -255,7 +255,6 @@ du coté serveur:
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv input_stream --sout
-'#es{access=rtp,mux=ts,url_audio=192.168.1.2:1212,url_video=192.168.1.2:1213}'</userinput><prompt>% </prompt><userinput>vlc -vvv input_stream --sout
 '#es{access=rtp,mux=ts,url_audio=192.168.1.2:1212,url_video=192.168.1.2:1213}'</userinput>
 </screen>
 

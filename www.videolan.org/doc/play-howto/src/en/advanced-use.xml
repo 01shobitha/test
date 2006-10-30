@@ -1159,7 +1159,7 @@ vlc.input.time = &lt;absolute seek&gt;
 &lt;!-- relative seek in stream !--&gt;
 vlc.input.time = vlc.input.time + &lt;relative seek&gt;
 </programlisting></para></listitem>
-<listitem><para><command>vlc.input.state</command> : current state of the input chain given as enumeration (IDLE/CLOSE=0, OPENING=1, BUFFERING=2, PLAYING=3, PAUSED=4, STOPPING=5)</para></listitem>
+<listitem><para><command>vlc.input.state</command> : current state of the input chain given as enumeration (IDLE/CLOSE=0, OPENING=1, BUFFERING=2, PLAYING=3, PAUSED=4, STOPPING=5, ERROR=6)</para></listitem>
 <listitem><para><command>vlc.input.rate</command> : input speed given as float (1.0 for normal speed, 0.5 for half speed, 2.0 for twice as fast, etc.)</para></listitem>
 </itemizedlist>
 
@@ -1186,14 +1186,15 @@ Playlist object
 
 <para>methods</para>
 <itemizedlist>
-<listitem><para><command>vlc.playlist.add()</command> : add a playlist item as MRL (Multimedia Resource Locator). The MRL must be given as a string.</para></listitem>
+<listitem><para><command>vlc.playlist.add(mrl)</command> : add a playlist item as MRL (Multimedia Resource Locator). The MRL must be given as a string.</para></listitem>
+<listitem><para><command>vlc.playlist.add(mrl,name,options)</command> : add a playlist item as MRL (Multimedia Resource Locator), with metaname 'name' and options 'options'. All input values must be given as string.</para></listitem>
 <listitem><para><command>vlc.playlist.play()</command> : start playing the current playlist item</para></listitem>
 <listitem><para><command>vlc.playlist.togglePause()</command> : toggle the pause state for the current playlist item</para></listitem>
 <listitem><para><command>vlc.playlist.stop()</command> : stop playing the current playlist item</para></listitem>
 <listitem><para><command>vlc.playlist.next()</command> : iterate to the next playlist item</para></listitem>
 <listitem><para><command>vlc.playlist.prev()</command> : iterate to the previous playlist item</para></listitem>
 <listitem><para><command>vlc.playlist.clear()</command> : empty the current playlist, all items will be deleted from the playlist</para></listitem>
-<listitem><para><command>vlc.playlist.removeItem()</command> : remove the given item number (which cannot be greater then vlc.playlist.itemCount)</para></listitem>
+<listitem><para><command>vlc.playlist.removeItem(number)</command> : remove the given item number (which cannot be greater then vlc.playlist.itemCount)</para></listitem>
 </itemizedlist>
 </simplesect>
 
@@ -1210,6 +1211,7 @@ Video object
 <para>read/write properties</para>
 <itemizedlist>
 <listitem><para><command>vlc.video.fullscreen</command> : when set to true the video will be displayed in fullscreen mode, when set to false the video will be shown inside the video output size. The property takes a boolean as input.</para></listitem>
+<listitem><para><command>vlc.video.aspectRatio</command> : get and set the aspect ratio to use in the video screen. The property takes a string as input value. Valid values are: "1:1", "4:3", "16:9", "16:10", "221:100" and "5:4" </para></listitem>
 </itemizedlist>
 
 <para>methods</para>

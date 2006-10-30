@@ -132,7 +132,8 @@ p.center { text-align:center;}
 #maincontent table th {
 	font-size: 11px; text-align: left;
 	padding: 0 7px; line-height: 2.5em;
-   background: #DFE8F9;
+	background: #D4E0F7;
+	border-bottom: 1px solid #FFF;
 }
 
 #maincontent table th img { padding: 3px 0; vertical-align: middle; }
@@ -159,12 +160,12 @@ p.center { text-align:center;}
 	vertical-align: top;
 }
 
-#maincontent table td.yes { color: #333333; background: #EBF0FA; width: 10%; }
-#maincontent table td.no { color: #333333; background: #EBF0FA; width: 10%; }
-#maincontent table td.partial { color: #333333; background: #F4F7FD; width: 10%; }
-#maincontent table td.none { background: #F4F7FD; width: 10%; }
-#maincontent table td.type { background: #EBF0FA; width: 20%; }
-#maincontent table td.category { background: #F4F7FD; width: 10%; }
+#maincontent table td.yes { color: #333333; background: #EAF0FB; width: 10%; }
+#maincontent table td.no { color: #333333; background: #F3F6FD; width: 10%; }
+#maincontent table td.partial { color: #333333; background: #E1E9F9; width: 10%; }
+#maincontent table td.none { background: #F3F6FD; width: 10%; }
+#maincontent table td.type { background: #EAF0FB; width: 20%; }
+#maincontent table td.category { background: #F3F6FD; width: 10%; }
 
 #maincontent table th.type { width: 20%; }
 #maincontent table th.category { width: 10%; }

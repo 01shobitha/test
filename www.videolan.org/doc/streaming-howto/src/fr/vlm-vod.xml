@@ -56,7 +56,7 @@ telnet</emphasis> (cochez la case <emphasis>Options avancées</emphasis>).</para
 url="http://www.videolan.org/doc/">Play-with-VLC Howto.</ulink></para>
 
 <para>Pour accéder à la rubrique VLM de l'interface HTTP, utilisez l'URL
-qui suit: <emphasis> http://hôte:port/vlm/</emphasis>.</para>
+    qui suit: <emphasis> http://hôte:port/vlm.html</emphasis> (<emphasis>http://host:port/vlm/</emphasis> pour VLC 0.8.4 et les versions antérieures).</para>
 
 </sect3></sect2>
 

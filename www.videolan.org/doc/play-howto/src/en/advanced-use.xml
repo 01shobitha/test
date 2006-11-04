@@ -1071,6 +1071,9 @@ plugin.</para>
 <listitem><para><command>input</command>    : Access input properties.</para></listitem>
 <listitem><para><command>playlist</command> : Access playlist properties.</para></listitem>
 <listitem><para><command>video</command>    : Access video properties.</para></listitem>
+<listitem><para><command>log</command>      : Access log properties.</para></listitem>
+<listitem><para><command>messages</command> : Access to log message properties.</para></listitem>
+<listitem><para><command>iterator</command> : Access to log iterator properties.</para></listitem>
 </itemizedlist>
 
 <para>The following JavaScript code shows howto get a reference to the vlc plugin. This reference can then be used to access the objects of the vlc plugin.
@@ -1217,6 +1220,74 @@ Video object
 <para>methods</para>
 <itemizedlist>
 <listitem><para><command>vlc.video.toggleFullscreen()</command> : toggle the fullscreen mode based on the previous setting</para></listitem>
+</itemizedlist>
+
+</simplesect>
+
+<simplesect><title>
+Log object
+</title>
+
+<para>readonly properties</para>
+<itemizedlist>
+<listitem><para><command>vlc.log.messages</command> : returns a messages object</para></listitem>
+</itemizedlist>
+
+<para>read/write properties</para>
+<itemizedlist>
+<listitem><para><command>vlc.log.verbosity</command> : write number [-1,0,1,2,3] for changing the verbosity level of the log messages. The numbers have the following meaning: -1 disable, 0 info, 1 error, 2 warning, 3 debug.</para></listitem>
+</itemizedlist>
+
+<para>methods</para>
+<itemizedlist>
+<listitem><para><command>none</command></para></listitem>
+</itemizedlist>
+
+</simplesect>
+
+<simplesect><title>
+Messages object
+</title>
+
+<para>readonly properties</para>
+<itemizedlist>
+<listitem><para><command>messages.count</command> : returns number of messages in the log</para></listitem>
+<listitem><para><command>messages.severity</command> : number that indicates the severity of the log message (0 = info, 1 = error, 2 = warning, 3 = debug)</para></listitem>
+<listitem><para><command>message.name</command> : name of VLC module that printed the log message (e.g: main, http< directx, etc...)</para></listitem>
+<listitem><para><command>message.type</command> : type of VLC module that printed the log message (eg: input, access, vout, sout, etc...)</para></listitem>
+<listitem><para><command>message.message</command> : the message text</para></listitem>
+</itemizedlist>
+
+<para>read/write properties</para>
+<itemizedlist>
+<listitem><para><command>none</command></para></listitem>
+</itemizedlist>
+
+<para>methods</para>
+<itemizedlist>
+<listitem><para><command>messages.clear()</command> : clear the current log buffer. It should be called as frequently as possible to not overflow the plugins logging buffer. Call this method after the log messages of interest are read.</para></listitem>
+<listitem><para><command>messages.iterator()</command> : returns a messages iterator object, which is used to iterate over the messages in the log. <b>Don't clear the log buffer while holding an iterator object.</b></para></listitem>
+</itemizedlist>
+
+</simplesect>
+
+<simplesect><title>
+Iterator object
+</title>
+
+<para>readonly properties</para>
+<itemizedlist>
+<listitem><para><command>iterator.hasNext</command> : returns a boolean that indicates when true, that wheter vlc.log.messages.next() returns the next message.</para></listitem>
+</itemizedlist>
+
+<para>read/write properties</para>
+<itemizedlist>
+<listitem><para><command>none</command></para></listitem>
+</itemizedlist>
+
+<para>methods</para>
+<itemizedlist>
+<listitem><para><command>iterator.next()</command> : returns the next message object it the log</para></listitem>
 </itemizedlist>
 
 </simplesect>

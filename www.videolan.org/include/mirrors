@@ -32,13 +32,13 @@ http://mirror.aarnet.edu.au/pub/videolan/|AARNet|Australia|au|HTTP
 ############ Permanently disabled #############
 #
 # Contact : juan dot mussini at pucpr dot br - Last is 0.8.2 (29/11/05)
-#ftp://ftp.pucpr.br/videolan/ Pontifícia Universidade Católica do Paraná (Brazil) [ftp]
+#ftp://ftp.pucpr.br/videolan/|Pontifícia Universidade Católica do Paraná|Brazil|br|ftp
 #
 # Contact : James Laver,james . laver at gmail dot com
 # Contact2 : Tony Dodd tony at wefixtech dot co dot uk
-#http://mirror1.wefixtech.co.uk/videolan/ We-FIX Technology Mirror Project (UK) [http]
+#http://mirror1.wefixtech.co.uk/videolan/|We-FIX Technology Mirror Project|UK|uk|http
 #
 # Contact : frank at caf dot info - BW 100 Mbits - Texas
 # The windows installer always gets corrupted on their mirror
-#http://online.caf.info/vlc/ caf.info (USA) [http]
+#http://online.caf.info/vlc/|caf.info|USA|usa|http
 #

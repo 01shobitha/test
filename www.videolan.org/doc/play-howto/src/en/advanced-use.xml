@@ -1253,7 +1253,7 @@ Messages object
 <itemizedlist>
 <listitem><para><command>messages.count</command> : returns number of messages in the log</para></listitem>
 <listitem><para><command>messages.severity</command> : number that indicates the severity of the log message (0 = info, 1 = error, 2 = warning, 3 = debug)</para></listitem>
-<listitem><para><command>message.name</command> : name of VLC module that printed the log message (e.g: main, http< directx, etc...)</para></listitem>
+<listitem><para><command>message.name</command> : name of VLC module that printed the log message (e.g: main, http, directx, etc...)</para></listitem>
 <listitem><para><command>message.type</command> : type of VLC module that printed the log message (eg: input, access, vout, sout, etc...)</para></listitem>
 <listitem><para><command>message.message</command> : the message text</para></listitem>
 </itemizedlist>
@@ -1266,7 +1266,7 @@ Messages object
 <para>methods</para>
 <itemizedlist>
 <listitem><para><command>messages.clear()</command> : clear the current log buffer. It should be called as frequently as possible to not overflow the plugins logging buffer. Call this method after the log messages of interest are read.</para></listitem>
-<listitem><para><command>messages.iterator()</command> : returns a messages iterator object, which is used to iterate over the messages in the log. <b>Don't clear the log buffer while holding an iterator object.</b></para></listitem>
+<listitem><para><command>messages.iterator()</command> : returns a messages iterator object, which is used to iterate over the messages in the log. <emphasis>Don't clear the log buffer while holding an iterator object.</emphasis></para></listitem>
 </itemizedlist>
 
 </simplesect>

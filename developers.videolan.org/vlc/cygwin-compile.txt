@@ -1,3 +1,7 @@
+NOTE: Cygwin environment is presently broken for compilation, this document
+is no longer usable!
+
+
 This document is constantly under construction :P
 =================================================
 
@@ -28,6 +32,8 @@ Version  : 20050627 Initial version
            20060805 Added note about using older binutils and gdb for Cygwin!
            20060915 Added note about updating autoconf from extras/contrib for
                     an OBJC problem during configure
+           20061108 Added note this document is no longer usable since Cygwin has
+                    been unusable probably related to some bash/dos2unix change
 
 Based on : "Win32 Cygwin Environment" Rev. B (20041003)
            by Mark Moriarty

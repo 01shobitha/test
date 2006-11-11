@@ -73,12 +73,13 @@
   }
   else if( $_GET['changelog'] )
   {
-    $changelogfile = file( 'ChangeLog' );
+    echo "<p>Page moved... <a href='http://trac.videolan.org/vlc/browser/trunk/ChangeLog?format=txt'>http://trac.videolan.org/vlc/browser/trunk/ChangeLog?format=txt</a>.</p>";
+    /*$changelogfile = file( 'ChangeLog' );
     while( list( $line_number, $line ) = each( $changelogfile ) )
     {
       $line = htmlspecialchars( $line, ENT_QUOTES );
       echo "$line<br />";
-    }
+    }*/
   }
   else
   if( $isindex && $dir != "include" && is_dir( $dir ) )

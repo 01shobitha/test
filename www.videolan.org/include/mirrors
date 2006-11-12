@@ -34,15 +34,15 @@ http://videolan.kn.vutbr.cz|Brno University of Technology|Czech Republic|cz|HTTP
 ftp://mirror.kn.vutbr.cz/pub/ftp.videolan.org|Brno University of Technology|Czech Republic|cz|FTP
 #
 # Contact : juan dot mussini at pucpr dot br
-ftp://ftp.pucpr.br/videolan/|Pontifícia Universidade Católica do Paraná|Brazil|br|ftp
+ftp://ftp.pucpr.br/videolan/|Pontifícia Universidade Católica do Paraná|Brazil|br|FTP
 #
 ############ Permanently disabled #############
 #
 # Contact : James Laver,james . laver at gmail dot com
 # Contact2 : Tony Dodd tony at wefixtech dot co dot uk
-#http://mirror1.wefixtech.co.uk/videolan/|We-FIX Technology Mirror Project|UK|uk|http
+#http://mirror1.wefixtech.co.uk/videolan/|We-FIX Technology Mirror Project|UK|uk|HTTP
 #
 # Contact : frank at caf dot info - BW 100 Mbits - Texas
 # The windows installer always gets corrupted on their mirror
-#http://online.caf.info/vlc/|caf.info|USA|usa|http
+#http://online.caf.info/vlc/|caf.info|USA|usa|HTTP
 #

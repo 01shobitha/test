@@ -29,6 +29,10 @@ http://mirrors.optralan.com/videolan/|Optralan|USA|us|HTTP
 # Australian Academic and Research Network
 http://mirror.aarnet.edu.au/pub/videolan/|AARNet|Australia|au|HTTP
 #
+# Contact : zdenek bill - maser at kn dot vutbr dot cz - BW 1Gbit
+http://videolan.kn.vutbr.cz|Brno University of Technology|Czech Republic|cz|HTTP
+ftp://mirror.kn.vutbr.cz/pub/ftp.videolan.org|Brno University of Technology|Czech Republic|cz|FTP
+#
 ############ Permanently disabled #############
 #
 # Contact : juan dot mussini at pucpr dot br - Last is 0.8.2 (29/11/05)

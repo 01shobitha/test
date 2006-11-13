@@ -30,8 +30,8 @@ http://mirrors.optralan.com/videolan/|Optralan|USA|us|HTTP
 http://mirror.aarnet.edu.au/pub/videolan/|AARNet|Australia|au|HTTP
 #
 # Contact : zdenek bill - maser at kn dot vutbr dot cz - BW 1Gbit
-http://videolan.kn.vutbr.cz|Brno University of Technology|Czech Republic|cz|HTTP
-ftp://mirror.kn.vutbr.cz/pub/ftp.videolan.org|Brno University of Technology|Czech Republic|cz|FTP
+http://videolan.kn.vutbr.cz/|Brno University of Technology|Czech Republic|cz|HTTP
+ftp://mirror.kn.vutbr.cz/pub/ftp.videolan.org/|Brno University of Technology|Czech Republic|cz|FTP
 #
 # Contact : juan dot mussini at pucpr dot br
 ftp://ftp.pucpr.br/videolan/|Pontifícia Universidade Católica do Paraná|Brazil|br|FTP

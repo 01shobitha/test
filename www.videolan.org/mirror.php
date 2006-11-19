@@ -37,6 +37,10 @@
 </html>
 
 <?php
+    if( $mirror == "http://downloads.videolan.org/pub/videolan/" )
+    {
+	exit;
+    }
     /* Load saved data */
     $connect = pg_connect( $connect_string );
   

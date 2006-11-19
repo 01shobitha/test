@@ -1,4 +1,4 @@
-This document is still under construction (last updated 10 nov. 2006)
+This document is still under construction (last updated 19 nov. 2006)
 =====================================================================
 
 Document   : MSYS/MinGW environment under Windows (XP/2000/2003)
@@ -6,6 +6,12 @@ Document   : MSYS/MinGW environment under Windows (XP/2000/2003)
 Version    : 20060926 Initial version
              20060928 Reworked layout
              20061011 Added troubleshooting section
+             20061119 Added FFmpeg and x264
+                      Removed unicode warning from troubleshooting
+
+TODO       : GPAC, NSIS, PKG-Config
+             More than just setting up the environment..
+
 Maintainer : Trax
 
 
@@ -484,6 +490,118 @@ Rename the file to nasm.exe and copy it to the following location:
 C:\msys\mingw\bin
 
 
+3.5 GPAC
+========
+
+GPAC is required for building the x264 library with mp4 output support.
+
+Start the MSYS shell and do the following commands:
+
+cvs -z3 -d:pserver:anonymous@gpac.cvs.sourceforge.net:/cvsroot/gpac co -P gpac
+
+This will download the latest GPAC version from CVS.
+
+cd gpac
+
+./configure
+
+make lib
+
+TODO: copy GPAC files to appropriate folder automagically
+
+
+3.6 x264
+========
+
+Start the MSYS shell and do the following commands:
+
+svn co svn://svn.videolan.org/x264/trunk x264-trunk
+
+cd x264-trunk
+
+
+For generic purposes:
+
+./configure
+
+make
+
+
+For VLC:
+
+./configure --prefix=/usr/win32
+
+make
+
+make install
+
+This will copy the appropriate libs and .h to the prefix folder which will
+also be used by VLC for building the contrib
+
+
+For compiling "stand-alone with mp4 output support":
+
+(this requires GPAC)
+
+./configure --enable-mp4-output
+
+make
+
+If you wish to compile FFmpeg stand-alone with x264 support then also do this
+
+make install
+
+This will copy the appropriate libs and .h files to the default /usr/lib and
+/usr/include
+
+
+3.7 FFmpeg
+==========
+
+Start the MSYS shell and do the following commands:
+
+svn co svn://svn.mplayerhq.hu/ffmpeg/trunk ffmpeg-trunk
+
+cd ffmpeg-trunk
+
+For generic purposes:
+
+./configure --enable-mingw32 --enable-memalign-hack \
+    --enable-gpl --enable-pp
+
+make
+
+For compiling with x264 support:
+
+(this assumes you did a "make install" for x264 which will have copied
+the appropriate lib and .h files into lib/include).
+
+./configure --enable-mingw32 --enable-memalign-hack \
+    --extra-cflags=-I/usr/local/include \
+    --extra-ldflags=-L/usr/local/lib \
+    --enable-gpl --enable-pp --enable-x264
+
+make
+
+For compiling into VLC:
+
+(this does not need x264 lib in FFmpeg since VLC uses that directly, also
+prefix and extra flags are used to point to the "contrib" folder):
+
+./configure --enable-mingw32 --enable-memalign-hack \
+    --extra-cflags=-I/usr/win32/include \
+    --extra-ldflags=-L/usr/win32/lib \
+    --prefix=/usr/win32 \
+    --enable-faac --enable-mp3lame --enable-gpl --enable-pp
+
+make
+
+make install-libs install-headers
+
+This will copy all the appropriate libs and .h files into usr/win32/include
+and lib so they can be used by VLC compilation.
+
+
 4. Troubleshooting
 ==================
 
@@ -545,14 +663,6 @@ configure: WARNING: only static linking is available, you must provide a gme-tre
 
 ./configure: line 54814: --exists: command not found
 
-  Warning: No config found to match: /usr/win32/bin/wx-config --unicode
-           in /usr/win32/lib/wx/config
-  If you require this configuration, please install the desired
-  library build.  If this is part of an automated configuration
-  test and no other errors occur, you may safely ignore it.
-  You may use wx-config --list to see all configs available in
-  the default prefix.
-
 configure: WARNING: Probe disc disabled because ok libcdio library not found
 configure: WARNING: VCD information on Probe disc disabled because ok libvcdinfo                                              not found
 configure: WARNING: QT4 library not found
@@ -569,9 +679,3 @@ unix2dos: problems converting file ./vlc-0.9.0-svn/AUTHORS.txt
 unix2dos: converting file ./vlc-0.9.0-svn/MAINTAINERS.txt to DOS format ...
 unix2dos: converting file ./vlc-0.9.0-svn/THANKS.txt to DOS format ...
 unix2dos: can not write to output file
-
-
-TODO
-====
-
-http://pkgconfig.freedesktop.org/releases/pkg-config-0.21.tar.gz

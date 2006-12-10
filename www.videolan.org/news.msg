@@ -2,7 +2,7 @@
 # New topics begin with a "|"
 #
 
-|10 December 2006| Release VLC 0.8.6 media player | Building on feedback from the 29 million downloads of VLC media player 0.8.5, we bring you version 0.8.6 with many bugfixes, as well as a couple of new features we think you will truly enjoy. Most prominent are probably Windows Media Video 9 and Flash Video. Other important changes are improved H.264 decoding, better Windows Unicode support, a Fullscreen controller and Apple Remote support for Mac OS X. |<br />
+|10 December 2006| Release VLC 0.8.6 media player | Building on feedback from the 29 million downloads of VLC media player 0.8.5, we bring you version 0.8.6 with many bugfixes, as well as a couple of new features we think you will truly enjoy. Most prominent are probably Windows Media Video 9 and Flash Video. Other important changes are improved H.264 decoding, better Windows Unicode support, a Fullscreen controller and Apple Remote support for Mac OS X. <br /><b>Note: </b>If you have problems running the Mac OS X Intel version, please download again.|<br />
 Have a look <a href="http://developers.videolan.org/vlc/NEWS">here</a> for the full list of changes.<br />
 Binary packages and the source code are available on the <a href="/vlc/">
 VLC download page</a>.<br />

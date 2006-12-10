@@ -12,16 +12,20 @@
 <div id="left">
 <h2>Tarballs</h2>
 
-<p> Latest VLC source code tarball (0.8.5): </p>
+<p> Latest VLC source code tarball (0.8.6): </p>
 
 <ul class="bullets">
 <li>
-  <?php  pkgitem_nomirr("VLC source code tar.gz", "0.8.5","vlc-0.8.5.tar.gz","vlc");?></li>
-<li><?php pkgitem_nomirr("VLC source code tar.bz2", "0.8.5","vlc-0.8.5.tar.bz2","vlc"); ?></li>
+  <?php  pkgitem_nomirr("VLC source code tar.gz", "0.8.6","vlc-0.8.6.tar.gz","vlc");?></li>
+<li><?php pkgitem_nomirr("VLC source code tar.bz2", "0.8.6","vlc-0.8.6.tar.bz2","vlc"); ?></li>
 </ul>
 
 <h2> Latest required libraries: </h2>
+<p>
+The list of required libraries is not yet updated for 0.8.6
+</p>
 
+<!--
 <ul class="bullets">
 <li><?php     pkgitem_nomirr("a52dec 0.7.4", "0.8.5/contrib","a52dec-0.7.4.tar.gz","vlc","(A52 - also known as AC3 - audio decoder)");?></li>
 <li><?php     pkgitem_nomirr("faac 1.24", "0.8.5/contrib","faac-1.24.tar.bz2","vlc","(AAC audio encoder)");?></li>
@@ -61,8 +65,8 @@
 <li><?php     pkgitem_nomirr("x264 2005/11/26", "0.8.5/contrib","x264-20051126.tar.bz2","vlc","(AVC/H.264 video encoder)");?></li>
 <li><?php     pkgitem_nomirr("zlib 1.2.3", "0.8.5/contrib","zlib-1.2.3.tar.gz","vlc","(A losless data-compression library)");?></li>
 </ul>
-<p><a href="http://downloads.videolan.org/pub/videolan/vlc/0.8.5/contrib"><i>Browse the list</i></a></p>
-
+<p><a href="http://downloads.videolan.org/pub/videolan/vlc/0.8.6/contrib"><i>Browse the list</i></a></p>
+-->
 
 <h2>Older versions</h2>
 <?php browse_old("vlc"); ?>

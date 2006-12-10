@@ -2,6 +2,15 @@
 # New topics begin with a "|"
 #
 
+|10 December 2006| Release VLC 0.8.6 media player | Building on feedback from the 29 million downloads of VLC media player 0.8.5, we bring you version 0.8.6 with many bugfixes, as well as a couple of new features we think you will truly enjoy. Most prominent are probably Windows Media Video 9 and Flash Video. Other important changes are improved H.264 decoding, better Windows Unicode support, a Fullscreen controller and Apple Remote support for Mac OS X. |<br />
+Have a look <a href="http://developers.videolan.org/vlc/NEWS">here</a>for the full list of changes.<br />
+Binary packages and the source code are available on the <a href="/vlc/">
+VLC download page</a>.<br />
+You can get help concerning this new release on the <a href="/doc/">Documentation Page</a>, <a href="http://forum.videolan.org/">Forum</a>, <a href="http://wiki.videolan.org" >Wiki</a>, <a
+href="/support/lists.html" >Mailing Lists</a> or in #videolan on Freenode. 
+Remember to reset your preferences if you experience problems
+after upgrading from a previous version.
+
 |29 August 2006| New MacIntel server| The builds for Mac OS X Intel were still being produced on a Development Kit Intel machine from Apple. It's time to bring that machine back to Apple and as a replacement the VideoLAN team has used the donations of our users in order to purchase a new server. The original idea was to get a MacMini, but in the configuration we wanted it, we could just as well get an iMac. Which is what we did. We <a href="http://sidekick.student.utwente.nl/gallery/album01/DSC00244?full=1">received</a> the machine last week, and now it's <a href="http://sidekick.student.utwente.nl/gallery/album01/DSC00245?full=1">setup</a>, and <a href="http://buildbot.videolan.org">keeping an eye</a> on VLC for MacIntel. We would like to thank all the people who made <a href="http://www.videolan.org/contribute.html">donations</a> very much. You people keep the project running. 
 
 |22 August 2006| Website redesign contest: we have a winner!| We'd first like to thank the <a href="http://wiki.videolan.org/index.php/WebsiteDesign">13 web designers</a>. All the designs were great and we really had a hard time choosing a winner. So here it comes: the winner is ... &lt;drums&gt; ... <a href="http://j0nzj.deviantart.com">j0nzj</a>'s design, congratulations! We'd especially like to thank <a href="http://www.tombigel.com">Tombigel</a> who was runner up with <a href="http://wiki.videolan.org/index.php/WebsiteDesign#Tombigel">another great design</a>.

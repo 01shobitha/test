@@ -109,7 +109,7 @@ libraries and build them yourself:</p>
     <div class="bd">
       <div class="c">
         <!-- main content goes here -->
-        <p><span class="vlcversion">VLC 0.8.5 downloads: <span id="vlccounter">Loading...</span></span></p>
+        <p><span class="vlcversion">VLC 0.8.6 downloads: <span id="vlccounter">Loading...</span></span></p>
         <p><span id="dlrate">Calculating...</span> downloads per second</p>
         <div class="more"><a href="/stats/downloads.php">Full statistics</a></div>
       </div>

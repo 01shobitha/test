@@ -17,7 +17,7 @@ ftp://ftp.u-strasbg.fr/pub/videolan/|Université de Strasbourg|France|fr|FTP
 #ftp://ftp.crans.org/pub/videolan/|Cr@ns, ENS Cachan|France|fr|FTP
 #
 # Contact : hsunchang at gmail dot com
-#ftp://videolan.cs.pu.edu.tw/Windows/VideoLAN/|Providence University|Taiwan|tw|FTP
+ftp://videolan.cs.pu.edu.tw/Windows/VideoLAN/|Providence University|Taiwan|tw|FTP
 #
 # Contact : erik at telia dot com - round robin 100Mbits Stockholm 100Mbits Gothenburg
 ftp://ftp.endpoint.nu/pub/software/videolan/|Endpoint Corporation|Sweden|se|FTP
@@ -30,8 +30,8 @@ ftp://ftp.endpoint.nu/pub/software/videolan/|Endpoint Corporation|Sweden|se|FTP
 # http://mirror.aarnet.edu.au/pub/videolan/|AARNet|Australia|au|HTTP
 #
 # Contact : zdenek bill - maser at kn dot vutbr dot cz - BW 1Gbit
-#http://videolan.kn.vutbr.cz/|Brno University of Technology|Czech Republic|cz|HTTP
-#ftp://mirror.kn.vutbr.cz/pub/ftp.videolan.org/|Brno University of Technology|Czech Republic|cz|FTP
+http://videolan.kn.vutbr.cz/|Brno University of Technology|Czech Republic|cz|HTTP
+ftp://mirror.kn.vutbr.cz/pub/ftp.videolan.org/|Brno University of Technology|Czech Republic|cz|FTP
 #
 # Contact : juan dot mussini at pucpr dot br
 #ftp://ftp.pucpr.br/videolan/|Pontifícia Universidade Católica do Paraná|Brazil|br|FTP

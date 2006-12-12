@@ -5,9 +5,9 @@ Welcome slashdot
 </title>
 </head>
 <body>
-<h1>Welcom <a href="http://linux.slashdot.org/article.pl?sid=06/12/11/208229">Slashdot</a></h1>
+<h1>Welcome <a href="http://linux.slashdot.org/article.pl?sid=06/12/11/208229">Slashdot</a></h1>
 <p>
-As you might see we are experiencing some heavy traffic that is causing the website to be not so responsive. This page will be temporary untill we get back on our feet.
+As you might see we are experiencing some heavy traffic that is causing the website to be not so responsive. This page will be temporary until we get back on our feet.
 So here is the news:</p>
 
 <p>

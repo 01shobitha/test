@@ -8,7 +8,7 @@
 
 <?php function pkgitem($version,$name,$comment) { ?><li><a href="http://download.videolan.org/pub/videolan/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a> <?php echo $comment; ?> </li><?php } ?>
 
-<h1>VLC media player for SUSE Linux x86</h1>
+<h1>VLC media player for <a href="http://www.opensuse.org/">SUSE Linux x86 and x86_64</a></h1>
 
 <div id="left">
 
@@ -48,14 +48,14 @@ The repository is signed with a GPG Key (KeyID.... Fingerprint:.....).
 Accept this key in YaST and it will warn you in case there is something
 suspect with the repository.<br />
 
-Accept everything by clicking *Finish*</p>
+Accept everything by clicking <b>Finish</b></p>
 
 <p>
 Go to Software Management and enter VLC in the searchbox and search for
-it. Select it and click *Accept* to install it with all it's
+it. Select it and click <b>Accept</b> to install it with all it's
 dependencies. This might require the SUSE CD or DVD.</p>
 
-<p>If you want the vlc Mozillaplugin, you have to select the
+<p>If you want the vlc Mozilla Plugin, you have to select the
 vlc-mozillaplugin manually. It does not get installed by dependencies.</p>
 
 <p>
@@ -65,14 +65,6 @@ Have a lot of Fun.
 
 </div>
 
-<div id="right">
 
-<?php panel_start( "gray" ); ?>
-<h1>Useful information?</h1>
-<p>
-<a href="http://forum.videolan.org/viewtopic.php?t=21707">Forum post</a> (<a href="http://forum.videolan.org/viewtopic.php?t=1092">old forum post</a> for 0.7.*) with possibly useful information.</p>
-<?php panel_end(); ?>
-
-</div>
 
 <?php footer('$Id$'); ?>

@@ -28,9 +28,9 @@ Software -> Installation Sources)</p>
 Add the following Repository:
 <pre>
 Type: HTTP / Servername: download.videolan.org /
-Directory: /pub/videolan/vlc/0.8.6/SuSE/<SUSE Version>
+Directory: /pub/videolan/vlc/0.8.6/SuSE/&lt;SUSE Version&gt;
 </pre>
-Replace <SUSE Version> in the Directory above with your installed
+Replace &lt;SUSE Version&gt; in the Directory above with your installed
 Version. Supported at this time are :
 <pre>
 9.3

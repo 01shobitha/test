@@ -11,16 +11,56 @@
 <h1>VLC media player for SUSE Linux x86</h1>
 
 <div id="left">
+<p>In order to install VLC on a SUSE Linux/openSUSE, you have several
+options (besides downloading and installing the RPMs manually).
 
-<h2>Looking for SUSE package maintainer</h2>
+The instructions here are to be followed using YaST, the native
+SUSE/openSUSE Package manager, which exists in all versions.
 
-<p>We currently do not have an official VLC media player package for SUSE. This is because we have no SUSE maintainer. A package could easily be created if someone offered to invest some time into this. Please contact the <a href="mailto:vlc-devel@videolan.org">mailinglist</a> if you would like to port our Mandrake and Redhat/Fedora spec file to the SUSE distribution.
 </p>
 
-<h2>Download VLC media player for SUSE Linux</h2>
+<h2>Download VLC media player for SUSE Linux using YaST</h2>
 <p>
-In the mean time, you could try this unofficial and by VideoLAN unsupported SuSE rpm:<br />
-<a href="http://packman.links2linux.de/?action=377">RPM by Quentin Denis</a></p>
+First, add a new repository (installation source) in YaST (YaST2 ->
+Software -> Installation Sources)</p>
+
+<p>
+Add the following Repository:
+<pre>
+Type: HTTP / Servername: download.videolan.org /
+Directory: /pub/videolan/vlc/0.8.6/SuSE/<SUSE Version>
+</pre>
+Replace <SUSE Version> in the Directory above with your installed
+Version. Supported at this time are :
+<ul>
+<li>9.3</li>
+<li>10.0</li>
+<li>10.1</li>
+<li>10.2</li>
+</ul>
+
+Confirm the addition.
+</p>
+
+<p>
+The repository is signed with a GPG Key (KeyID.... Fingerprint:.....).
+Accept this key in YaST and it will warn you in case there is something
+suspect with the repository.<br />
+
+Accept everything by clicking *Finish*</p>
+
+<p>
+Go to Software Management and enter VLC in the searchbox and search for
+it. Select it and click *Accept* to install it with all it's
+dependencies. This might require the SUSE CD or DVD.</p>
+
+<p>If you want the vlc Mozillaplugin, you have to select the
+vlc-mozillaplugin manually. It does not get installed by dependencies.</p>
+
+<p>
+You're done with the installation.
+Have a lot of Fun.
+</p>
 
 </div>
 

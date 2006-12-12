@@ -30,10 +30,13 @@
 
 <?php pkgitem( "PowerPC package",
                "0.8.6/macosx","vlc-0.8.6-powerpc.dmg","vlc"); ?>
-<!--
-<?php pkgitem( "PowerPC mozilla/safari plugin package",
-               "0.8.6/macosx/powerpc","vlc-plugin-0.8.5.dmg","vlc" ); ?>
--->
+
+<?php pkgitem( "Intel Firefox/Safari Plugin package",
+               "0.8.6/macosx","vlc-plugin-0.8.6-intel.dmg","vlc" ); ?>
+
+<?php pkgitem( "PowerPC Firefox/Safari Plugin package",
+               "0.8.6/macosx","vlc-plugin-0.8.6-powerpc.dmg","vlc" ); ?>
+
 <h2>Last Mac OS X package for 10.2, 10.3 up to 10.3.8 (release 0.8.4a)</h2>
 
 <p><b>Requires <a href="http://www.apple.com/support/downloads/quicktime652formac.html">QuickTime 6.5.2</a> or later</b></p>

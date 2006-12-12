@@ -11,12 +11,12 @@
 <h1>VLC media player for SUSE Linux x86</h1>
 
 <div id="left">
+
 <p>In order to install VLC on a SUSE Linux/openSUSE, you have several
-options (besides downloading and installing the RPMs manually).
+options (besides downloading and installing the RPMs manually).</p>
 
-The instructions here are to be followed using YaST, the native
+<p>The instructions here are to be followed using YaST, the native
 SUSE/openSUSE Package manager, which exists in all versions.
-
 </p>
 
 <h2>Download VLC media player for SUSE Linux using YaST</h2>
@@ -32,14 +32,15 @@ Directory: /pub/videolan/vlc/0.8.6/SuSE/<SUSE Version>
 </pre>
 Replace <SUSE Version> in the Directory above with your installed
 Version. Supported at this time are :
-<ul>
-<li>9.3</li>
-<li>10.0</li>
-<li>10.1</li>
-<li>10.2</li>
-</ul>
+<pre>
+9.3
+10.0
+10.1
+10.2
+</pre>
 
 Confirm the addition.
+
 </p>
 
 <p>

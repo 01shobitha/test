@@ -30,7 +30,7 @@ Add the following Repository:
 Type: HTTP / Servername: download.videolan.org /
 Directory: /pub/videolan/vlc/0.8.6/SuSE/&lt;SUSE Version&gt;
 </pre>
-Replace &lt;SUSE Version&gt; in the Directory above with your SuSE installed
+Replace &lt;SUSE Version&gt; in the Directory above with your installed SuSE
 Version. Supported at this time are :
 <pre>
 9.3

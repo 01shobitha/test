@@ -26,6 +26,11 @@ repository activated.</p>
    % sudo apt-get install vlc vlc-plugin-esd
 </pre>
 
+<p>To install libdvdcss2 (DVD region free software) add "deb http://packages.freecontrib.org/ubuntu/plf/ edgy-plf free non-free" to your /etc/apt/sources.list file and run:</p>
+<pre>
+  % sudo apt-get install libdvdcss2
+</pre>
+
 </div>
 
 <div id="right">

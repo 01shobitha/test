@@ -38,13 +38,13 @@ Version. Supported at this time are :
 10.1
 10.2
 </pre>
-
 Confirm the addition.
 
 </p>
 
 <p>
-The repository is signed with a GPG Key (KeyID.... Fingerprint:.....).
+The repository is signed with a GPG Key 
+(gpg key C8DA93D2 fingerprint  BC8D 780D E330 8581 B2E0  7085 33DE 8FB7 C8DA 93D2).
 Accept this key in YaST and it will warn you in case there is something
 suspect with the repository.<br />
 

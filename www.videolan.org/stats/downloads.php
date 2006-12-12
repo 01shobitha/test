@@ -45,24 +45,21 @@
     {
         $versiontotal= 0;
         echo "<tr><td class=\"category\"><strong>$v</strong></td>\n";
-	$winrequest = pg_query( $connect, "SELECT sum(number) FROM mirrors
-		WHERE file LIKE '%$v%win32%'" );
+	$winrequest = pg_query( $connect, "select sum(number) from (select * from mirrors where file like '%$v%win32%' union select * from mirrors_archive where file like '%$v%win32%') as allmirrors;");
         if( $row  =pg_fetch_array( $winrequest ) )
 	{
 	    $versiontotal += $row[0];
 	    $wintotal += $row[0];
 	    echo "<td>".$row[0]."</td>";
 	}
-	$macrequest = pg_query( $connect, "SELECT sum(number) FROM mirrors
-		WHERE file LIKE '%$v%dmg%'" );
+	$macrequest = pg_query( $connect, "select sum(number) from (select * from mirrors where file like '%$v%dmg%' union select * from mirrors_archive where file like '%$v%dmg%') as allmirrors;" );
         if( $row  =pg_fetch_array( $macrequest ) )
 	{
 	    $versiontotal += $row[0];
 	    $mactotal += $row[0];
 	    echo "<td>".$row[0]."</td>";
 	}
-	$srcrequest = pg_query( $connect, "SELECT sum(number) FROM mirrors
-		WHERE file LIKE '%$v%tar%'" );
+	$srcrequest = pg_query( $connect, "select sum(number) from (select * from mirrors where file like '%$v%tar%' union select * from mirrors_archive where file like '%$v%tar%') as allmirrors;" );
         if( $row  =pg_fetch_array( $srcrequest ) )
 	{
 	    $versiontotal += $row[0];

@@ -1,4 +1,4 @@
-<html
+<html>
 <head>
 <title>
 Welcome slashdot
@@ -29,6 +29,8 @@ Highlights of the new features and improvements:
 </p>
 
 <h1><a href="http://ftp.snt.utwente.nl/pub/software/videolan/vlc/0.8.6/">Download Here</a></h1> 
+
+<h4><a href="http://www.videolan.org/doc">VLC documentation</a></h4>
 
 </body>
 </html>

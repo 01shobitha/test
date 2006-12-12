@@ -30,7 +30,7 @@ Add the following Repository:
 Type: HTTP / Servername: download.videolan.org /
 Directory: /pub/videolan/vlc/0.8.6/SuSE/&lt;SUSE Version&gt;
 </pre>
-Replace &lt;SUSE Version&gt; in the Directory above with your installed
+Replace &lt;SUSE Version&gt; in the Directory above with your SuSE installed
 Version. Supported at this time are :
 <pre>
 9.3
@@ -38,8 +38,7 @@ Version. Supported at this time are :
 10.1
 10.2
 </pre>
-Confirm the addition.
-
+Confirm the addition.<br />
 </p>
 
 <p>
@@ -48,7 +47,7 @@ The repository is signed with a GPG Key
 Accept this key in YaST and it will warn you in case there is something
 suspect with the repository.<br />
 
-Accept everything by clicking <b>Finish</b></p>
+Accept everything by clicking <b>Finish</b>.</p>
 
 <p>
 Go to Software Management and enter VLC in the searchbox and search for

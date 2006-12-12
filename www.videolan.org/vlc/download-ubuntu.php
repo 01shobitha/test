@@ -17,7 +17,8 @@
 <p>Open Synaptic (System -&gt; Administration -&gt; Synaptic Package Manager). 
 In Settings -&gt; Repositories, make sure you have a &quot;universe&quot; 
 repository activated.</p>
-<p>Search for vlc and install it. You should also install vlc-plugin-esd.</p>
+<p>Note: to get libdvdcss (DVD region free software), you'll need to add the following repository to synaptic: deb http://packages.freecontrib.org/ubuntu/plf/ edgy-plf free non-free. (replace "edgy" with your ubuntu version name)</p>
+<p>Search for vlc and install it. You should also install vlc-plugin-esd (and libdvdcss2).</p>
 <h3>Command line way</h3>
 <p>You need to check that you have a &quot;universe&quot; mirror in your /etc/apt/sources.list.</p>
 <pre>

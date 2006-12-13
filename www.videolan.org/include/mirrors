@@ -37,6 +37,9 @@ ftp://mirror.kn.vutbr.cz/pub/ftp.videolan.org/|Brno University of Technology|Cze
 # Contact : juan dot mussini at pucpr dot br
 ftp://ftp.pucpr.br/videolan/|Pontifícia Universidade Católica do Paraná|Brazil|br|FTP
 #
+# Contact Dave Schroeder  das at doit dot wisc dot edu
+http://mirror.services.wisc.edu/mirrors/videolan/|University of Wisconsin - Madison|USA|us|HTTP
+ftp://mirror.services.wisc.edu/mirrors/videolan/|University of Wisconsin - Madison|USA|us|FTP
 ############ Permanently disabled #############
 #
 # Contact : James Laver,james . laver at gmail dot com

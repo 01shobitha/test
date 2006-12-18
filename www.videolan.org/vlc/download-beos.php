@@ -12,8 +12,10 @@
 <div id="left">
 
   <ul><li>
-    <?php pkgitem("Latest BeOS package (0.8.5)",
-                  "0.8.5/beos","vlc-0.8.5-beos-i586.zip","vlc"); ?>
+    <?php pkgitem("Latest BeOS package (0.8.6)",
+                  "0.8.6/BeOS","vlc-0.8.6-BeOS.zip","vlc"); 
+          pkgitem("Latest ZETA package (0.8.6)",
+                  "0.8.6/BeOS","vlc-0.8.6-ZETA.zip","vlc"); ?>
   </li></ul>
 
   <h2>Older versions</h2>

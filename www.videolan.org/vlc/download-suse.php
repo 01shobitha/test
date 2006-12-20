@@ -61,19 +61,20 @@ vlc-mozillaplugin manually. It does not get installed by dependencies.</p>
 You're done with the installation.
 Have a lot of Fun.
 </p>
+</div>
 
 <div id="right">
 
 <?php panel_start( "gray" ); ?>
 <b>For SUSE Linux 10.1:</b><br />
 You may need to add a SUSE Repository as well to solve several dependencies. <br />
-It could be  http://ftp4.gwdg.de/pub/opensuse/distribution/SL-10.1/inst-source/suse , for example.
-
+It could be  http://ftp4.gwdg.de/pub/opensuse
+/distribution/SL-10.1/inst-source
+/suse , for example.
 
 <?php panel_end(); ?>
 </div>
 
-</div>
 
 
 <?php footer('$Id$'); ?>

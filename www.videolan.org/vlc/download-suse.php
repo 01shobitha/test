@@ -69,8 +69,7 @@ Have a lot of Fun.
 <b>For SUSE Linux 10.1:</b><br />
 You may need to add a SUSE Repository as well to solve several dependencies. <br />
 It could be  http://ftp4.gwdg.de/pub/opensuse
-/distribution/SL-10.1/inst-source
-/suse , for example.
+/distribution/SL-10.1/inst-source/suse , for example.
 
 <?php panel_end(); ?>
 </div>

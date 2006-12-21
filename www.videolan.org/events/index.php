@@ -14,7 +14,7 @@
 
 <p>VideoLAN will attend the Solutions Linux expo in Paris. This year, we'll have a booth in the free associations area. Don't forget to drop by !</p>
 <p>
-<a href="http://www.solutionslinux.fr/fr/"><img src="http://troll3.parinux.org/~seyman/Linux-468x60.gif" alt="Solutions Linux 2007"/></a></img>
+<a href="http://www.solutionslinux.fr/fr/"><img src="http://troll3.parinux.org/~seyman/Linux-468x60.gif" alt="Solutions Linux 2007"/></a>
 </p>
 
 <h2>26/27 February 2005 - VideoLAN is hot at FOSDEM</h2>

@@ -46,19 +46,22 @@ one can remove the affected plugins manually from the VLC plugin
 &quot;<code>access</code>&quot; directory.
 Relevant filenames are as follow:
 </p>
-<ul>
- <li><code>access/libcdda_plugin.dll</code> and
-     <code>access/libvcdx_plugin.dll</code> on Windows,
- </li>
- <li><code>access/libcdda_plugin.dylib</code> and
-     <code>access/libvcdx_plugin.dylib</code> on MacOS X,
- </li>
- <li><code>access/libcdda_plugin.so</code> and
-     <code>access/libvcdx_plugin.so</code> on other operating systems
-     (typically found in <code>/usr/lib</code>
-      or <code>/usr/local/lib</code>).
- </li>
-</ul>
+<dl>
+<dt>Microsoft Windows</dt>
+<dd><code>access/libcdda_plugin.dll</code> and
+    <code>access/libvcdx_plugin.dll</code>
+</dd>
+<dt>Apple MacOS X</dt>
+<dd><code>access/libcdda_plugin.dylib</code> and
+    <code>access/libvcdx_plugin.dylib</code>
+</dd>
+<dt>Other (Linux, BSD...)</dt>
+<dd><code>access/libcdda_plugin.so</code> and
+    <code>access/libvcdx_plugin.so</code> on other operating systems
+    (typically found in <code>/usr/lib</code>
+     or <code>/usr/local/lib</code>).
+</dd>
+</dl>
 <p>Otherwise,
 browser plugins and network-based service discovery mechanisms
 (SAP, UPnP, Bonjour...) should be disabled,
@@ -77,32 +80,54 @@ The VideoLAN project apologizes for any user inconvenience;
 as a volunteer activity,
 we cannot keep up with a zero-day security vulnerability disclosure.
 </p>
+<p>Landon Fuller has reportedly released a patch for VLC 0.8.6 on MacOS X,
+however the VideoLAN project cannot make any statement on its accuracy
+at the moment.
+</p>
 <h2>Credits</h2>
-<p>This bug was reported by Kevin Finisterre
+<p>This bug was publicized and reported by Kevin Finisterre
 as part of the <cite>Month Of Apple Bugs</cite> activity.
 </p>
 <h2>References</h2>
-<ul>
-<li>Public announce:
- <a href="http://applefun.blogspot.com/2007/01/moab-02-01-2007-vlc-media-player-udp.html"
- >http://applefun.blogspot.com/2007/01/moab-02-01-2007-vlc-media-player-udp.html</a>
-</li>
-<li>Initial bug report:
- <a href="http://www.via.ecp.fr/via/ml/vlc-devel/2007-01/msg00005.html"
+<dl>
+<dt>Initial bug report</dt>
+<dd><a
+ href="http://www.via.ecp.fr/via/ml/vlc-devel/2007-01/msg00005.html"
  >http://www.via.ecp.fr/via/ml/vlc-devel/2007-01/msg00005.html</a>
-</li>
-<li>Initial patch: <a href="http://trac.videolan.org/vlc/changeset/18481"
+</dd>
+<dt>Initial patch</dt>
+<dd><a href="http://trac.videolan.org/vlc/changeset/18481"
  >http://trac.videolan.org/vlc/changeset/18481</a>
-</li>
-<li>Month of Apple Bugs: <a href="http://applefun.blogspot.com/"
- >http://applefun.blogspot.com/</a>
-</li>
-<li>The VideoLAN project: <a href="http://www.videolan.org/"
- >http://www.videolan.org/</a>
-</li>
-</ul>
+</dd>
+<dt>VLC 0.8.6 official <strong>source code</strong> patch</dt>
+<dd><a href="patches/vlc-0.8.6-MOAB-02-01-2007.patch"
+ >http://www.videolan.org/patches/vlc-0.8.6-MOAB-02-01-2007.patch</a>
+</dd>
+<dd><a href="patches/vlc-0.8.6-MOAB-02-01-2007.patch.asc"
+ >http://www.videolan.org/patches/vlc-0.8.6-MOAB-02-01-2007.patch.asc</a>
+</dd>
+<dt>The VideoLAN project</dt>
+<dd><a href="http://www.videolan.org/">http://www.videolan.org/</a>
+</dd>
+<dt>Public announce</dt>
+<dd><a
+ href="http://applefun.blogspot.com/2007/01/moab-02-01-2007-vlc-media-player-udp.html"
+ >http://applefun.blogspot.com/2007/01/moab-02-01-2007-vlc-media-player-udp.html</a>
+</dd>
+<dt>Month of Apple Bugs</dt>
+<dd><a href="http://applefun.blogspot.com/">http://applefun.blogspot.com/</a>
+</dd>
+<dt>MacOS X patch from Landon Fuller<dt>
+<dd><a
+ href="http://landonf.bikemonkey.org/code/macosx/MOAB_Day_2.20070103045559.6753.timor.html"
+ >http://landonf.bikemonkey.org/code/macosx/MOAB_Day_2.20070103045559.6753.timor.html</a>
+</dd>
+</dl>
 <h2>History</h2>
 <dl>
+<dt>Pending</dt>
+<dd>VLC 0.8.6a bugfix release</dd>
+<dd>Binaries for Windows and MacOS X</dd>
 <dt>03 January 2006</dt>
 <dd>Initial advisory</dd>
 <dd>Patch provided against VLC 0.8.6 source code</dd>

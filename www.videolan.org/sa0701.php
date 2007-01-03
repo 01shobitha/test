@@ -117,7 +117,7 @@ as part of the <cite>Month Of Apple Bugs</cite> activity.
 <dt>Month of Apple Bugs</dt>
 <dd><a href="http://applefun.blogspot.com/">http://applefun.blogspot.com/</a>
 </dd>
-<dt>MacOS X patch from Landon Fuller<dt>
+<dt>MacOS X patch from Landon Fuller</dt>
 <dd><a
  href="http://landonf.bikemonkey.org/code/macosx/MOAB_Day_2.20070103045559.6753.timor.html"
  >http://landonf.bikemonkey.org/code/macosx/MOAB_Day_2.20070103045559.6753.timor.html</a>

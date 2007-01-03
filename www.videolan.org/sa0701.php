@@ -23,7 +23,7 @@ The bug occurs when handling error and debug messages
 from underlying library <code>libcdio</code>.
 </p>
 <p>Because the VCDX plugins probes every media resource location unless
-another plugin succesfully opened the resource,
+another plugin successfully opened the resource,
 almost any invalid location can trigger the bug.
 </p>
 <h2>Impact</h2>
@@ -72,13 +72,10 @@ and untrusted playlist files should not be used.
  <a href="patches/vlc-0.8.6-MOAB-02-01-2007.patch">here</a>
  (<a href="patches/vlc-0.8.6-MOAB-02-01-2007.patch.asc">GPG signature</a>).
 </p>
-<p>Linux and BSD users should get relevant software upgrade
+<p>Linux and BSD users should get relevant software upgrades
 from their respective distribution/OS vendor.
 </p>
-<p>Updated binaries for Windows and MacOS X are not available yet.
-The VideoLAN project apologizes for any user inconvenience;
-as a volunteer activity,
-we cannot keep up with a zero-day security vulnerability disclosure.
+<p>Updated binaries for Windows and MacOS X will be published within the next few hours.
 </p>
 <p>Landon Fuller has reportedly released a patch for VLC 0.8.6 on MacOS X,
 however the VideoLAN project cannot make any statement on its accuracy

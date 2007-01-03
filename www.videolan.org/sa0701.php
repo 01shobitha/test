@@ -57,7 +57,7 @@ Relevant filenames are as follow:
 </dd>
 <dt>Other (Linux, BSD...)</dt>
 <dd><code>access/libcdda_plugin.so</code> and
-    <code>access/libvcdx_plugin.so</code> on other operating systems
+    <code>access/libvcdx_plugin.so</code>
     (typically found in <code>/usr/lib</code>
      or <code>/usr/local/lib</code>).
 </dd>

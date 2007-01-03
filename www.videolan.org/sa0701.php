@@ -139,4 +139,6 @@ as part of the <cite>Month Of Apple Bugs</cite> activity.
 <address>R&eacute;mi Denis-Courmont,<br />
 on behalf of the VideoLAN project</address>
 
+</div>
+
 <?php footer('$Id$'); ?>

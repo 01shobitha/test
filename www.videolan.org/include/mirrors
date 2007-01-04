@@ -3,13 +3,13 @@
 http://downloads.videolan.org/pub/videolan/|VideoLAN primary mirror|France|fr|HTTP
 #
 # Contact: thedj - BW: 1GB
-http://ftp.snt.utwente.nl/pub/software/videolan/|Twente University|Netherlands|nl|HTTP
+# http://ftp.snt.utwente.nl/pub/software/videolan/|Twente University|Netherlands|nl|HTTP
 #
 # Contact : mirrormaster at ircam dot fr - BW : 1 GBit
 http://mirrors.ircam.fr/pub/videolan/|IRCAM|France|fr|HTTP
 #
 # Contact : Emmanuel dot Blindauer at urs dot u-strasbg dot fr - BW : 1 GBit
-ftp://ftp.u-strasbg.fr/pub/videolan/|Université de Strasbourg|France|fr|FTP
+# ftp://ftp.u-strasbg.fr/pub/videolan/|Université de Strasbourg|France|fr|FTP
 #
 # Durga - Contact VIA - 30 Mbit
 #http://ftp2.via.ecp.fr/pub/videolan/|VIA Centrale Reseaux, École Centrale Paris|France|fr|HTTP
@@ -18,7 +18,7 @@ ftp://ftp.u-strasbg.fr/pub/videolan/|Université de Strasbourg|France|fr|FTP
 ftp://ftp.crans.org/pub/videolan/|Cr@ns, ENS Cachan|France|fr|FTP
 #
 # Contact : hsunchang at gmail dot com
-ftp://videolan.cs.pu.edu.tw/Windows/VideoLAN/|Providence University|Taiwan|tw|FTP
+# ftp://videolan.cs.pu.edu.tw/Windows/VideoLAN/|Providence University|Taiwan|tw|FTP
 #
 # Contact : erik at telia dot com - round robin 100Mbits Stockholm 100Mbits Gothenburg
 ftp://ftp.endpoint.nu/pub/software/videolan/|Endpoint Corporation|Sweden|se|FTP
@@ -28,19 +28,19 @@ http://mirrors.optralan.com/videolan/|Optralan|USA|us|HTTP
 #
 # Contact : jason andrade - jason at aarnet dot edu dot au - BW 10Gbit (?)
 # Australian Academic and Research Network
-http://mirror.aarnet.edu.au/pub/videolan/|AARNet|Australia|au|HTTP
+# http://mirror.aarnet.edu.au/pub/videolan/|AARNet|Australia|au|HTTP
 #
 # Contact : zdenek bill - maser at kn dot vutbr dot cz - BW 1Gbit
 http://videolan.kn.vutbr.cz/|Brno University of Technology|Czech Republic|cz|HTTP
 #
 # Contact : juan dot mussini at pucpr dot br
-ftp://ftp.pucpr.br/videolan/|Pontifícia Universidade Católica do Paraná|Brazil|br|FTP
+# ftp://ftp.pucpr.br/videolan/|Pontifícia Universidade Católica do Paraná|Brazil|br|FTP
 #
 # Contact Dave Schroeder  das at doit dot wisc dot edu
 http://mirror.services.wisc.edu/mirrors/videolan/|University of Wisconsin - Madison|USA|us|HTTP
 #
 # Contact : Ionic, ionic at root24 dot de - 100 Mbit
-ftp://root24.eu/pub/videolan/|Root24|Germany|de|FTP
+# ftp://root24.eu/pub/videolan/|Root24|Germany|de|FTP
 #
 # Contact : James Laver,james . laver at gmail dot com
 # Contact2 : Tony Dodd tony at wefixtech dot co dot uk

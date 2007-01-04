@@ -12,12 +12,12 @@
 <div id="left">
 <h2>Tarballs</h2>
 
-<p> Latest VLC source code tarball (0.8.6): </p>
+<p> Latest VLC source code tarball (0.8.6a): </p>
 
 <ul class="bullets">
 <li>
-  <?php  pkgitem_nomirr("VLC source code tar.gz", "0.8.6","vlc-0.8.6.tar.gz","vlc");?></li>
-<li><?php pkgitem_nomirr("VLC source code tar.bz2", "0.8.6","vlc-0.8.6.tar.bz2","vlc"); ?></li>
+  <?php  pkgitem_nomirr("VLC source code tar.gz", "0.8.6a","vlc-0.8.6a.tar.gz","vlc");?></li>
+<li><?php pkgitem_nomirr("VLC source code tar.bz2", "0.8.6a","vlc-0.8.6a.tar.bz2","vlc"); ?></li>
 </ul>
 
 <h2> Latest required libraries: </h2>

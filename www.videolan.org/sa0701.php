@@ -72,10 +72,12 @@ and untrusted playlist files should not be used.
  <a href="patches/vlc-0.8.6-MOAB-02-01-2007.patch">here</a>
  (<a href="patches/vlc-0.8.6-MOAB-02-01-2007.patch.asc">GPG signature</a>).
 </p>
+<p>VLC media player 0.8.6a, published on 4th January 2007 adresses this issue and introduces further usability fixes.
+</p>
+<p>Pre-compiled packages for Mac OS X and MS Windows are available at the usual download locations.
+</p>
 <p>Linux and BSD users should get relevant software upgrades
 from their respective distribution/OS vendor.
-</p>
-<p>Updated binaries for Windows and MacOS X will be published within the next few hours.
 </p>
 <p>Landon Fuller has reportedly released a patch for VLC 0.8.6 on MacOS X,
 however the VideoLAN project cannot make any statement on its accuracy

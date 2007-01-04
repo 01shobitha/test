@@ -124,13 +124,13 @@ as part of the <cite>Month Of Apple Bugs</cite> activity.
 </dl>
 <h2>History</h2>
 <dl>
-<dt>Pending</dt>
+<dt>04 January 2007</dt>
 <dd>VLC 0.8.6a bugfix release</dd>
 <dd>Binaries for Windows and MacOS X</dd>
-<dt>03 January 2006</dt>
+<dt>03 January 2007</dt>
 <dd>Initial advisory</dd>
 <dd>Patch provided against VLC 0.8.6 source code</dd>
-<dt>02 January 2006</dt>
+<dt>02 January 2007</dt>
 <dd>Patch applied to VLC development tree</dd>
 <dd>Bug reported and publicized by Kevin Finisterre</dd>
 </dl>

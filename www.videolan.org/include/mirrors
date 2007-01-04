@@ -9,7 +9,7 @@ http://downloads.videolan.org/pub/videolan/|VideoLAN primary mirror|France|fr|HT
 http://mirrors.ircam.fr/pub/videolan/|IRCAM|France|fr|HTTP
 #
 # Contact : Emmanuel dot Blindauer at urs dot u-strasbg dot fr - BW : 1 GBit
-# ftp://ftp.u-strasbg.fr/pub/videolan/|Université de Strasbourg|France|fr|FTP
+ftp://ftp.u-strasbg.fr/pub/videolan/|Université de Strasbourg|France|fr|FTP
 #
 # Durga - Contact VIA - 30 Mbit
 #http://ftp2.via.ecp.fr/pub/videolan/|VIA Centrale Reseaux, École Centrale Paris|France|fr|HTTP
@@ -18,7 +18,7 @@ http://mirrors.ircam.fr/pub/videolan/|IRCAM|France|fr|HTTP
 ftp://ftp.crans.org/pub/videolan/|Cr@ns, ENS Cachan|France|fr|FTP
 #
 # Contact : hsunchang at gmail dot com
-# ftp://videolan.cs.pu.edu.tw/Windows/VideoLAN/|Providence University|Taiwan|tw|FTP
+ftp://videolan.cs.pu.edu.tw/Windows/VideoLAN/|Providence University|Taiwan|tw|FTP
 #
 # Contact : erik at telia dot com - round robin 100Mbits Stockholm 100Mbits Gothenburg
 ftp://ftp.endpoint.nu/pub/software/videolan/|Endpoint Corporation|Sweden|se|FTP
@@ -34,7 +34,7 @@ http://mirrors.optralan.com/videolan/|Optralan|USA|us|HTTP
 http://videolan.kn.vutbr.cz/|Brno University of Technology|Czech Republic|cz|HTTP
 #
 # Contact : juan dot mussini at pucpr dot br
-# ftp://ftp.pucpr.br/videolan/|Pontifícia Universidade Católica do Paraná|Brazil|br|FTP
+ftp://ftp.pucpr.br/videolan/|Pontifícia Universidade Católica do Paraná|Brazil|br|FTP
 #
 # Contact Dave Schroeder  das at doit dot wisc dot edu
 http://mirror.services.wisc.edu/mirrors/videolan/|University of Wisconsin - Madison|USA|us|HTTP

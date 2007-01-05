@@ -14,6 +14,7 @@ Summary           : URL format string injection in CDDA and VCDX plugins
 Date              : 02 January 2007
 Affected versions : VLC media player 0.8.6 down to 0.7.0
 ID                : VideoLAN-SA-0701, MOAB-02-01-2007
+CVE reference     : CVE-2007-0017
 </pre>
 <h2>Details</h2>
 <p>VLC media player CDDA (CD Digital Audio) and VCDX (Video CD) plugins
@@ -124,6 +125,8 @@ as part of the <cite>Month Of Apple Bugs</cite> activity.
 </dl>
 <h2>History</h2>
 <dl>
+<dt>05 January 2007</dt>
+<dd>Added CVE candidate ID reference</dd>
 <dt>04 January 2007</dt>
 <dd>VLC 0.8.6a bugfix release</dd>
 <dd>Binaries for Windows and MacOS X</dd>

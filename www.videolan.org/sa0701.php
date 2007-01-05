@@ -11,7 +11,7 @@
 <h1>Security Advisory 0701</h1>
 <pre>
 Summary           : URL format string injection in CDDA and VCDX plugins
-Date              : 01 January 2007
+Date              : 02 January 2007
 Affected versions : VLC media player 0.8.6 down to 0.7.0
 ID                : VideoLAN-SA-0701, MOAB-02-01-2007
 </pre>

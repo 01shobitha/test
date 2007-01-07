@@ -1132,8 +1132,8 @@ Audio object
 <itemizedlist>
 <listitem><para><command>vlc.audio.mute</command> : boolean value to mute and ummute the audio</para></listitem>
 <listitem><para><command>vlc.audio.volume</command> : a value between [0-200] which indicates a percentage of the volume.</para></listitem>
-<listitem><para><command>vlc.audio.track</command> : a value between [0-65535] which indicates the audio track to play or that is playing.</para> (supported in vlc version > 0.8.6)</listitem>
-<listitem><para><command>vlc.audio.channel</command> : string that indicates which audio channel mode is used, values can be: "reverse", "stereo", "left", "right", "dolby"</para> (supported in vlc version > 0.8.6</listitem>
+<listitem><para><command>vlc.audio.track</command> : a value between [0-65535] which indicates the audio track to play or that is playing.</para> (supported in vlc version &gt; 0.8.6)</listitem>
+<listitem><para><command>vlc.audio.channel</command> : an integer between 1 and 5 that indicates which audio channel mode is used, values can be: "1=stereo", "2=reverse stereo", "3=left", "4=right", "5=dolby". Use vlc.audio.channel to chekc if setting of the new audio channel has succeeded.</para> (supported in vlc version &gt; 0.8.6)</listitem>
 </itemizedlist>
 
 <para>methods</para>

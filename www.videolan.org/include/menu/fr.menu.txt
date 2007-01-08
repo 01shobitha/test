@@ -1,2 +1,4 @@
 VideoLAN;VideoLAN;/
-VLC media player;Download;/vlc.html
+vlc;VLC media player;/vlc.html
+Doc;Documentation;/doc.html
+Support;Support;/support.html

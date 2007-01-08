@@ -304,7 +304,7 @@
 <?php panel_end(); ?>
 
 <?php panel_start( "orange" ); ?>
- <h1>Still lost?</h1>
+ <h1>Still lost? - Forums</h1>
 
 <p>Try <a href="http://forum.videolan.org/search.php">searching</a> the VideoLAN <a href="http://forum.videolan.org">Forum</a>. A lot of information can be found here.</p>
 <?php panel_end(); ?>

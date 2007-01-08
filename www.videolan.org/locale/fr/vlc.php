@@ -26,6 +26,17 @@
   <strong>IPv6</strong> sur les réseaux à haut débit. </p>
 
   <p> Si vous aimez VLC, notez le sur <a href="http://freshmeat.net/projects/vlc">Freshmeat</a> et <a href="http://www.versiontracker.com/dyn/moreinfo/macosx/14738">versiontracker</a> !</p>
+
+<h2>Features</h2>
+
+  <p> Pour plus d'informations sur les fonctionnalités supportées sur votre système
+  d'exploitation veuillez consulter la <a href="/vlc/features.html">liste complète des fonctionnalités</a> et celles du <a href="streaming-features.html">streaming</a> 
+  Vous pouvez aussi consulter <a href="/vlc/screenshots.html">les
+  copies d'écrans de VLC</a>. </p>
+  <p>Afin de personnaliser le look de votre VLC media player, utilisez des 
+  <a href="/vlc/skins.php">Skins</a> !
+  </p>
+
 </div>
 
 <div id="left">
@@ -120,14 +131,7 @@ requises et les assembler vous même:</p>
     </div>
   </div> <!-- end panel -->
 
-  <h2>Features</h2>
-
-  <p> Pour plus d'informations sur les fonctionnalités supportées sur votre système
-  d'exploitation veuillez consulter la <a href="/vlc/features.html">liste complète des fonctionnalités</a> et celles du <a href="streaming-features.html">streaming</a> 
-  Vous pouvez aussi consulter <a href="/vlc/screenshots.html">les
-  copies d'écrans de VLC</a>. </p>
-
-  <h2>Documentation</h2>
+    <h2>Documentation</h2>
 
   <p>Regardez la <a href="doc.html">documentation</a>, et allez sur les 
   <a href="http://forum.videolan.org">forum</a> et regardez la 

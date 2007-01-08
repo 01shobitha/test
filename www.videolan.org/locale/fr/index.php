@@ -7,6 +7,8 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
 ?>
 
+<p class="disclaimer">Seules les pages principales du site sont traduites pour des raisons de maintenabilité.Mais les pages restantes n'ont que peu de textes.</p>
+
 <h1>Projet VideoLAN</h1>
 
 <div id="left">
@@ -30,7 +32,7 @@ majoritairement destinés aux développeurs:</p>
 
 <ul class="bullets">
 
-<li><a href="/vlc/streaming.html">VLS (Serveur VideoLAN)</a>, notre serveur
+<li><a href="/vlc/streaming.html" class="en">VLS (Serveur VideoLAN)</a>, notre serveur
 de streaming historique, qui est à présent remplacé par VLC.</li>
 
 <li><a href="http://developers.videolan.org/libdvdcss/">libdvdcss</a>,
@@ -138,16 +140,16 @@ une librairie de navigation DVD.</li>
   <h1>Aide</h1>
   <p> Pour de l'aide sur la mise en oeuvre, regardez la <a href="doc.html">documentation</a>.</p>
   <p>Si vous rencontrez des problèmes qui ne sont pas expliquées dans la documentation,  regardez dans la page du <a href="support.html">support</a>, les
-  <a href="http://forum.videolan.org">forums</a>, la
-  <a href="http://wiki.videolan.org">base de connaissance</a>, les 
-  <a href="/support/lists.html">mailing-lists</a> et les autres formes de support.</p>
+  <a href="http://forum.videolan.org/">forums</a>, la
+  <a href="http://wiki.videolan.org/">base de connaissance</a>, les 
+  <a href="/support/lists.html" class="en">mailing-lists</a> et les autres formes de support.</p>
 <?php panel_end(); ?>
 
 <h2>Participez !</h2>
 
   <p>VideoLAN accueille toutes les formes de contribution au project !
   Vous pouvez donner de votre temps libre (dévelopement, documentation, tests, support, ...), du matériel ou même de l'argent.
-  Plus d'info sur la page de  <a href="/contribute.html">contribution</a>!</p>
+  Plus d'info sur la page de  <a href="/contribute.html" class="en">contribution</a>!</p>
 
 </div> <!-- RIGHT -->
 

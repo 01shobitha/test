@@ -1,7 +1,7 @@
 <?php
    $title = "VLC media player - Overview";
    $lang = "en";
-   $menu = array( "vlc", "download" );
+   $menu = array( "fr", "download" );
    $date = "14 February 2001";
    $enable_live = true;
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
@@ -110,7 +110,7 @@ requises et les assembler vous même:</p>
       <div class="c">
         <!-- main content goes here -->
         <p><span class="vlcversion">Téléchargements de VLC 0.8.6: <span id="vlccounter">Loading...</span></span></p>
-        <p><span id="dlrate">Calcul en cours...</span> téléchargements par second</p>
+        <p><span id="dlrate">Calcul en cours...</span> téléchargements par seconde.</p>
         <div class="more"><a href="/stats/downloads.php">Statistiques complètes</a></div>
       </div>
     </div>

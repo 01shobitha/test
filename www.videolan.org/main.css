@@ -430,8 +430,8 @@ div.screenshot{ float:left; margin-right: 3em; text-align:center; }
 }
 
 a.en {
-     padding-right: 25px;
-     background: transparent url(/images/flags-old/UK.gif) no-repeat center right;
+    padding-right: 18px;
+         background: transparent url(/images/flags/us.png) no-repeat top right;
 }
 /************************ Footer Layout ****************************/
 

@@ -45,24 +45,24 @@ echo "<li class='$class' $style><a href='$url'>$name</a></li>";
   <ul class="os">
 <?php addos( "Windows", "windows", "download-windows.html", true );
       addos( "Mac&nbsp;OS&nbsp;X", "macosx", "download-macosx.html", true );
-      addos( "BeOS", "beos", "download-beos.html" );
-      addos( "Debian GNU/Linux", "debian", "download-debian.html" );
-      addos( "Ubuntu Linux", "ubuntu", "download-ubuntu.html" );
-      addos( "Mandriva Linux", "mandrake", "download-mandriva.html" );
-      addos( "Fedora Core", "fedora", "download-fedora.html" );
-      addos( "Familiar Linux", "familiar", "download-familiar.html" );
+      addos( "BeOS", "beos", "/download-beos.html" );
+      addos( "Debian GNU/Linux", "debian", "/download-debian.html" );
+      addos( "Ubuntu Linux", "ubuntu", "/download-ubuntu.html" );
+      addos( "Mandriva Linux", "mandrake", "/download-mandriva.html" );
+      addos( "Fedora Core", "fedora", "/download-fedora.html" );
+      addos( "Familiar Linux", "familiar", "/download-familiar.html" );
 ?>
 </ul>
 </div><div class="os2">
 <ul class="os">
 <?php
-      addos( "YOPY/Linupy", "linupy", "download-linupy.html" );
-      addos( "Zaurus", "zaurus", "download-zaurus.html" );
-      addos( "SUSE Linux", "suse", "download-suse.html" );
-      addos( "Red Hat Linux", "redhat", "download-redhat.html" );
-      addos( "WinCE / PocketPC", "wince", "download-wince.html" );
-      addos( "Slackware Linux", "slackware", "download-slackware.html" );
-      addos( "ALT Linux", "altlinux", "download-altlinux.html" );
+      addos( "YOPY/Linupy", "linupy", "/download-linupy.html" );
+      addos( "Zaurus", "zaurus", "/download-zaurus.html" );
+      addos( "SUSE Linux", "suse", "/download-suse.html" );
+      addos( "Red Hat Linux", "redhat", "/download-redhat.html" );
+      addos( "WinCE / PocketPC", "wince", "/download-wince.html" );
+      addos( "Slackware Linux", "slackware", "/download-slackware.html" );
+      addos( "ALT Linux", "altlinux", "/download-altlinux.html" );
 ?>
   </ul></div>
 
@@ -74,10 +74,10 @@ requises et les assembler vous même:</p>
 </div>
 <div class="os1">
   <ul class="otheros">
-<?php addos( "NetBSD", "netbsd", "download-sources.html" );
-      addos( "OpenBSD", "openbsd", "download-sources.html" );
-      addos( "FreeBSD", "freebsd", "download-freebsd.html" );
-      addos( "Solaris", "solaris", "download-sources.html" );
+<?php addos( "NetBSD", "netbsd", "/download-sources.html" );
+      addos( "OpenBSD", "openbsd", "/download-sources.html" );
+      addos( "FreeBSD", "freebsd", "/download-freebsd.html" );
+      addos( "Solaris", "solaris", "/download-sources.html" );
 ?>
   </ul>
 </div>

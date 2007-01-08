@@ -23,19 +23,19 @@
 <h2>Dernier paquetage Mac OS X pour 10.3.9 à 10.4 (version 0.8.6)</h2>
 
 <?php pkgitem( "Universal Binary",
-               "0.8.6/macosx","vlc-0.8.6.dmg","vlc"); ?>
+               "0.8.6a/macosx","vlc-0.8.6.dmg","vlc"); ?>
 
 <?php pkgitem( "Intel package",
-               "0.8.6/macosx","vlc-0.8.6-intel.dmg","vlc"); ?>
+               "0.8.6a/macosx","vlc-0.8.6-intel.dmg","vlc"); ?>
 
 <?php pkgitem( "PowerPC package",
-               "0.8.6/macosx","vlc-0.8.6-powerpc.dmg","vlc"); ?>
+               "0.8.6a/macosx","vlc-0.8.6-powerpc.dmg","vlc"); ?>
 
 <?php pkgitem( "Intel Firefox/Safari Plugin package",
-               "0.8.6/macosx","vlc-plugin-0.8.6-intel.dmg","vlc" ); ?>
+               "0.8.6a/macosx","vlc-plugin-0.8.6-intel.dmg","vlc" ); ?>
 
 <?php pkgitem( "PowerPC Firefox/Safari Plugin package",
-               "0.8.6/macosx","vlc-plugin-0.8.6-powerpc.dmg","vlc" ); ?>
+               "0.8.6a/macosx","vlc-plugin-0.8.6-powerpc.dmg","vlc" ); ?>
 
 <h2>Dernier paquetage Mac OS X pour 10.2, 10.3 à 10.3.8 (version 0.8.4a)</h2>
 

@@ -1,4 +1,4 @@
-VideoLAN;VideoLAN;/
-vlc;VLC media player;/vlc.html
-Doc;Documentation;/doc.html
-Support;Support;/support.html
+VideoLAN;VideoLAN;/fr/
+vlc;VLC media player;/fr/vlc.html
+Doc;Documentation;/fr/doc.html
+Support;Support;/fr/support.html

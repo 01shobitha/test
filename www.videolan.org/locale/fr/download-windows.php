@@ -12,15 +12,15 @@
 <h1> VLC media player pour Windows </h1>
 <div id="left">
 
-  <h2>Dernier paquetage (0.8.6)</h2>
+  <h2>Dernier paquetage (0.8.6a)</h2>
 
 <?php
     pkgitem( "Windows self-extracting package",
-                   "0.8.6/win32","vlc-0.8.6-win32.exe","vlc");
+                   "0.8.6a/win32","vlc-0.8.6a-win32.exe","vlc");
     pkgitem("Windows 7zip (identical to the above but without the installer)",
-                  "0.8.6/win32","vlc-0.8.6-win32.7z","vlc");
+                  "0.8.6a/win32","vlc-0.8.6a-win32.7z","vlc");
     pkgitem("Windows zip packages (identical to the above)",
-                  "0.8.6/win32","vlc-0.8.6-win32.zip","vlc");
+                  "0.8.6a/win32","vlc-0.8.6a-win32.zip","vlc");
 ?>
 
   <h2>Anciennes versions</h2>
@@ -31,7 +31,7 @@
 <div id="right">
   <h2>Code source</h2>
 
-  <p>Si vous voulez télécharger le <a href="download-sources.html">code source</a> de VLC media player.</p>
+  <p>Si vous voulez télécharger le <a href="/download-sources.html">code source</a> de VLC media player.</p>
 
   <?php panel_start( "gray" ); ?>
         <p><strong>Utilisateurs de Windows 95/98/Me:</strong> Veuillez noter que ces versions de Windows ne sont pas officiellement supportées. Aucun développeur VideoLAN n'utilise ces versions de système, ce qui les rend difficiles à supporter. VLC devrait globalement fonctionner avec ces versions, mes certaines incompatibilités peuvent apparaître. Vous pouvez avoir besoin de télécharger <a href="http://www.microsoft.com.nsatc.net/globaldev/handson/dev/mslu_announce.mspx">le support Microsoft pour Unicode sur les systèmes Windows 95/98/Me</a>. Les deux fichiers MSLU doivent être copiés dans le répertoire <code>C:\Windows\System\</code>.</p>

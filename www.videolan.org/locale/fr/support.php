@@ -34,7 +34,7 @@ la version courante de VLC.</li>
 
 <li>Avez-vous déjà réinitialisé vos préférences et redémarré VLC? Souvent
 des préférences et option incorrectes sont la cause du problème que vous
-constatez. La <a href="/doc/faq/en/index.html#id239188">FAQ</a> décrit
+constatez. La <a href="/doc/faq/fr/index.html#id239188">FAQ</a> décrit
 comment le faire. (Désinstaller VLC n'efface pas les anciennes options.)
 Vérifiez par deux foix que le problème persiste. </li>
 
@@ -188,7 +188,7 @@ question n'a pas déjà reçue une réponse avant de la poser.</p>
 
 <p>Les listes de diffusion utilisateur sont dédiées au support utilisateur et
 aux annonces de versions ou d'événements de VideoLAN. Veuillez consulter la page des <a
-href="lists.html">listes de diffusion</a> pour vous abonner, vous désabonner,
+href="/support/lists.html">listes de diffusion</a> pour vous abonner, vous désabonner,
 consulter les archives et prendre connaissance des règles et restrictions.</p>
 
 <?php panel_end(); ?>
@@ -202,7 +202,7 @@ fait cela sur son temps libre. N'exigez pas une réponse
 immédiate. Parfois les participants n'ont pas la maîtrise de
 ce subjet particulier. Parfois aucun participant n'est présent. Si vous voulez
 d'obtenir une VRAIE réponse il est souvent préférable d'aller sur les <a
-href="lists.html">listes de diffusions</a>.<br />
+href="/support/lists.html">listes de diffusions</a>.<br />
 Prenez également en compte les problèmes de fuseaux horaires.
 La majorité des participants sont en Europe.</p>
 

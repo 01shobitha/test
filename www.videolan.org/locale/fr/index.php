@@ -25,7 +25,7 @@
 
 <h2>Projets hébergés</h2>
 
-<p>Bien que <a href="/">VLC media player</a> est le plus connu des
+<p>Bien que <a href="/vlc.html">VLC media player</a> est le plus connu des
 projets VideoLAN, nous hébergeons plusieur autres projets liés à la vidéo,
 majoritairement destinés aux développeurs:</p>
 
@@ -132,13 +132,13 @@ une librairie de navigation DVD.</li>
 		<?php DoDL("Win32",0);DoDL("OSX-PPC",0);DoDL("OSX-Intel",0); ?>
 	    </noscript>
           </div>
-          <div class="more"><a  href="/vlc/">Autres Systèmes d'exploitation, en savoir plus</a></div>
+          <div class="more"><a href="vlc.html">Autres Systèmes d'exploitation, en savoir plus</a></div>
     <?php panel_end(); ?>
 
   <?php panel_start( 'orange' ); ?>
   <h1>Aide</h1>
-  <p> Pour de l'aide sur la mise en oeuvre, regardez la <a href="/doc/">documentation</a>.</p>
-  <p>Si vous rencontrez des problèmes qui ne sont pas expliquées dans la documentation,  regardez dans la page du <a href="/support/">support</a>, les
+  <p> Pour de l'aide sur la mise en oeuvre, regardez la <a href="doc.html">documentation</a>.</p>
+  <p>Si vous rencontrez des problèmes qui ne sont pas expliquées dans la documentation,  regardez dans la page du <a href="support.html">support</a>, les
   <a href="http://forum.videolan.org">forums</a>, la
   <a href="http://wiki.videolan.org">base de connaissance</a>, les 
   <a href="/support/lists.html">mailing-lists</a> et les autres formes de support.</p>
@@ -148,7 +148,7 @@ une librairie de navigation DVD.</li>
 
   <p>VideoLAN accueille toutes les formes de contribution au project !
   Vous pouvez donner de votre temps libre (dévelopement, documentation, tests, support, ...), du matériel ou même de l'argent.
-  Plus d'info sur la page de  <a href="contribute.html">contribution</a>!</p>
+  Plus d'info sur la page de  <a href="/contribute.html">contribution</a>!</p>
 
 </div> <!-- RIGHT -->
 

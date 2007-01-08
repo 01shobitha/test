@@ -129,7 +129,7 @@ requises et les assembler vous même:</p>
 
   <h2>Documentation</h2>
 
-  <p>Regardez la <a href="/doc/">documentation</a>, et allez sur les 
+  <p>Regardez la <a href="doc.html">documentation</a>, et allez sur les 
   <a href="http://forum.videolan.org">forum</a> et regardez la 
   <a href="http://wiki.videolan.org">base de connaissance</a>.</p>
 

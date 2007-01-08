@@ -295,7 +295,7 @@
 <?php panel_start( "blue" ); ?>
  <h1> Wiki VideoLAN </h1> 	 
   	 
- <p>Le Wiki VideoLAN est à <a 	 
+ <p>Le Wiki VideoLAN se trouve sur<a 	 
  href="http://wiki.videolan.org">http://wiki.videolan.org/</a></p> 	 
   	 
  <p>Le Wiki VideoLAN est un site Web que tout le monde peut modifier. Son objectif est de documenter 	 

@@ -23,7 +23,7 @@
  <h2>VLC media player</h2>
   <p>Le projet le plus connu est le lecteur VLC media player, libre et multi-plateforme.</p>
 
-<h2>Projets hebérgés</h2>
+<h2>Projets hébergés</h2>
 
 <p>Bien que <a href="/">VLC media player</a> est le plus connu des
 projets VideoLAN, nous hébergeons plusieur autres projets liés à la vidéo,
@@ -61,7 +61,6 @@ une librairie de navigation DVD.</li>
 <li><a href="http://liba52.sourceforge.net/">liba52</a>, un décodeur de flux ATSC A/52 libre.</li>
 
 <li><a href="http://libmpeg2.sourceforge.net/">libmpeg2</a>, un décodeur de flux MPEG-2 libre</li>
-
 </ul>
 
   </div>
@@ -70,10 +69,10 @@ une librairie de navigation DVD.</li>
           <h1>VLC media player 0.8.6</h1>
           
           <ul class="panel-blue-bullet">
-            <li>It is a free cross-platform media player</li>
-            <li>It supports a <a href="/vlc/features.html">large number of multimedia formats</a>, without the need for additional codecs</li>
-            <li>It can also be used as a streaming server, with extended 
-		features (video on demand, on the fly transcoding, ...)</li>
+            <li>C'est un lecteur multi-média multi-plateformes</li>
+            <li>Qui supporte un <a href="/vlc/features.html" class="en">grand nombre de formats multimédias</a>, de façon native</li>
+            <li>Qui est aussi un serveur de streaming, avec de nombreuses 
+            capacités (video on demand, transcoding en temps réel, ...)</li>
           </ul>
 	<p class="center">
 	<script type="text/javascript"><!--
@@ -156,4 +155,4 @@ une librairie de navigation DVD.</li>
 
 </div> <!-- RIGHT -->
 
-<?php footer('$Id: index.php 3999 2006-12-12 08:18:13Z zorglub $'); ?>
+<?php footer('$Id$'); ?>

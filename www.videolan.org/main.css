@@ -425,6 +425,14 @@ div.screenshot{ float:left; margin-right: 3em; text-align:center; }
 	padding-right: 20px;
 }
 
+#disclaimer {
+    font-style: italic;
+}
+
+a.en {
+     padding-right: 25px;
+     background: transparent url(/images/flags-old/UK.gif) no-repeat center right;
+}
 /************************ Footer Layout ****************************/
 
 #spacer {

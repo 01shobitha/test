@@ -66,7 +66,7 @@ une librairie de navigation DVD.</li>
   </div>
   <div id="right">
     <?php panel_start( "blue" ); ?>
-          <h1>VLC media player 0.8.6</h1>
+          <h1>VLC media player 0.8.6a</h1>
           
           <ul class="panel-blue-bullet">
             <li>C'est un lecteur multi-média multi-plateformes</li>
@@ -132,26 +132,23 @@ une librairie de navigation DVD.</li>
 		<?php DoDL("Win32",0);DoDL("OSX-PPC",0);DoDL("OSX-Intel",0); ?>
 	    </noscript>
           </div>
-          <div class="more"><a  href="/vlc/">Other Operating Systems, learn more</a></div>
+          <div class="more"><a  href="/vlc/">Autres Systèmes d'exploitation, en savoir plus</a></div>
     <?php panel_end(); ?>
 
   <?php panel_start( 'orange' ); ?>
-  <h1>Help</h1>
-  <p> For setup instructions, see the <a href="/doc/">documentation</a>
-  section.</p>
-  <p>If you have a problem that is not
-  covered in the documentation, look at the <a href="/support/">support</a>  page 
-  <a href="http://forum.videolan.org">web forums</a>, the
-  <a href="/support/lists.html">user mailing-lists</a> and other support
-  methods.</p>
+  <h1>Aide</h1>
+  <p> Pour de l'aide sur la mise en oeuvre, regardez la <a href="/doc/">documentation</a>.</p>
+  <p>Si vous rencontrez des problèmes qui ne sont pas expliquées dans la documentation,  regardez dans la page du <a href="/support/">support</a>, les
+  <a href="http://forum.videolan.org">forums</a>, la
+  <a href="http://wiki.videolan.org">base de connaissance</a>, les 
+  <a href="/support/lists.html">mailing-lists</a> et les autres formes de support.</p>
 <?php panel_end(); ?>
 
-<h2>Contribute!</h2>
+<h2>Participez !</h2>
 
-  <p>VideoLAN welcomes all contributions to the project! You can contribute
-  time (development, documentation, packaging, tests, user support, ...),
-  material or even money. See the <a href="contribute.html">contribution
-  page</a> for more information.</p>
+  <p>VideoLAN accueille toutes les formes de contribution au project !
+  Vous pouvez donner de votre temps libre (dévelopement, documentation, tests, support, ...), du matériel ou même de l'argent.
+  Plus d'info sur la page de  <a href="contribute.html">contribution</a>!</p>
 
 </div> <!-- RIGHT -->
 

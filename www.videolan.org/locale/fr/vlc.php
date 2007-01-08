@@ -1,6 +1,6 @@
 <?php
    $title = "VLC media player - Overview";
-   $lang = "en";
+   $lang = "fr";
    $menu = array( "fr", "download" );
    $date = "14 February 2001";
    $enable_live = true;

@@ -2,7 +2,7 @@
    $title = "VLC media player for Mac OS X";
    $lang = "en";
    $date = "16 April 2001";
-   $menu = array( "vlc", "download" );
+   $menu = array( "fr", "download" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
 ?>

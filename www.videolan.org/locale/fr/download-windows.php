@@ -9,6 +9,8 @@
 
 <?php function pkgitemdev($version,$name) { ?><li><a href="http://downloads.videolan.org/pub/videolan/testing/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a></li><?php } ?>
 
+<p id="disclaimer">Attention ! Seules les pages principales du site sont traduites pour des raisons de maintenabilité. Mais les pages restantes n'ont que peu de textes.</p>
+
 <h1> VLC media player pour Windows </h1>
 <div id="left">
 

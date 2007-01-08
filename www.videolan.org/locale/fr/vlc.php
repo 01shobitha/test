@@ -7,6 +7,8 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
+<p id="disclaimer">Attention ! Seules les pages principales du site sont traduites pour des raisons de maintenabilité. Mais les pages restantes n'ont que peu de textes.</p>
+
 <h1> VLC media player </h1>
 
 <div class="vlc-screenshot">

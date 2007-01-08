@@ -7,7 +7,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
 ?>
 
-<p class="disclaimer">Seules les pages principales du site sont traduites pour des raisons de maintenabilité.Mais les pages restantes n'ont que peu de textes.</p>
+<p id="disclaimer">Attention ! Seules les pages principales du site sont traduites pour des raisons de maintenabilité. Mais les pages restantes n'ont que peu de textes.</p>
 
 <h1>Projet VideoLAN</h1>
 

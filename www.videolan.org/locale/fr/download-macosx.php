@@ -9,7 +9,9 @@
 
 <?php function pkgitemdev($version,$name) { ?><li><a href="http://download.videolan.org/pub/videolan/testing/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a></li><?php } ?>
 
-<h1> VLC media player for Mac OS X </h1>
+<p id="disclaimer">Attention ! Seules les pages principales du site sont traduites pour des raisons de maintenabilité. Mais les pages restantes n'ont que peu de textes.</p>
+
+<h1> VLC media player pour Mac OS X </h1>
 
 <div id="left">
 

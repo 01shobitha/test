@@ -25,11 +25,12 @@
       <?php shownews("full",5); ?>
     </div>
     <h4><a href="/news.html">Read older news</a></h4>
+    <h4><a href="http://planet.videolan.org">Read developers' news - planet</a></h4>
   </div>
 
   <div id="right">
     <?php panel_start( "blue" ); ?>
-          <h1>VLC media player 0.8.6</h1>
+          <h1>VLC media player 0.8.6a</h1>
           
           <ul class="panel-blue-bullet">
             <li>It is a free cross-platform media player</li>
@@ -105,6 +106,7 @@
   <p>If you have a problem that is not
   covered in the documentation, look at the <a href="/support/">support</a>  page 
   <a href="http://forum.videolan.org">web forums</a>, the
+  <a href="http://wiki.videolan.org">Wiki</a>, the
   <a href="/support/lists.html">user mailing-lists</a> and other support
   methods.</p>
 <?php panel_end(); ?>

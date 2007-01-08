@@ -7,8 +7,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
 ?>
 
-  <h1>VideoLAN - VLC media player</h1>
-  
+<h1>Projet VideoLAN</h1>
 
 <div id="left">
 
@@ -21,11 +20,11 @@
 
    <h4><a href="/news.html" class="en">Les dernières nouvelles du projet.</a></h4>
  <h2>VLC media player</h2>
-  <p>Le projet le plus connu est le lecteur VLC media player, libre et multi-plateforme.</p>
+  <p>Le projet le plus connu est le lecteur <a href="vlc.html">VLC media player</a>, libre et multi-plateforme.</p>
 
 <h2>Projets hébergés</h2>
 
-<p>Bien que <a href="/vlc.html">VLC media player</a> est le plus connu des
+<p>Bien que <a href="vlc.html">VLC media player</a> est le plus connu des
 projets VideoLAN, nous hébergeons plusieur autres projets liés à la vidéo,
 majoritairement destinés aux développeurs:</p>
 

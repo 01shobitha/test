@@ -123,7 +123,7 @@ requises et les assembler vous même:</p>
   <h2>Features</h2>
 
   <p> Pour plus d'informations sur les fonctionnalités supportées sur votre système
-  d'exploitation veuillez consulter la <a href="/vlc/features.html">liste complète des fonctionnalités</a>.
+  d'exploitation veuillez consulter la <a href="/vlc/features.html">liste complète des fonctionnalités</a> et celles du <a href="streaming-features.html">streaming</a> 
   Vous pouvez aussi consulter <a href="/vlc/screenshots.html">les
   copies d'écrans de VLC</a>. </p>
 

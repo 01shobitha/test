@@ -1135,6 +1135,25 @@ Audio object
 <listitem><para><command>vlc.audio.track</command> : a value between [0-65535] which indicates the audio track to play or that is playing.</para> (supported in vlc version &gt; 0.8.6)</listitem>
 <listitem><para><command>vlc.audio.channel</command> : an integer between 1 and 5 that indicates which audio channel mode is used, values can be: "1=stereo", "2=reverse stereo", "3=left", "4=right", "5=dolby". Use vlc.audio.channel to chekc if setting of the new audio channel has succeeded.</para> (supported in vlc version &gt; 0.8.6)</listitem>
 </itemizedlist>
+<programlisting>
+Audio Channel:
+&lt;SELECT readonly onChange='doAudioChannel(this.value)'&gt;
+   &lt;OPTION value=1>Stereo&lt;/OPTION'&gt;
+   &lt;OPTION value=2>Reverse stereo&lt;/OPTION'&gt;
+   &lt;OPTION value=3>Left&lt;/OPTION'&gt;
+   &lt;OPTION value=4>Right&lt;/OPTION'&gt;
+   &lt;OPTION value=5>Dolby&lt;/OPTION'&gt;
+&lt;/SELECT'&gt;
+&lt;SCRIPT language="javascript"'&gt;
+&lt;!--
+function doAudioChannel(value)
+{
+   var vlc = getVLC("vlc");
+   vlc.audio.channel = parseInt(value);
+   alert(vlc.audio.channel);
+};
+--'&gt;
+</programlisting>
 
 <para>methods</para>
 <itemizedlist>

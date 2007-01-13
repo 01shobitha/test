@@ -12,15 +12,16 @@
 <h1>VLC media player for <a href="http://www.altlinux.com/">ALT Linux</a></h1>
 
 <h2>ALT Linux Sisyphus (unstable)</h2>
-<p>Sisyphus packages repository always contains one of the latest development
-version of VLC (svn trunk). In order to acquire it you should have those
-lines in your /etc/apt/sources.list:</p>
+<p>Sisyphus packages repository always contains one of the latest versions
+of VLC (stable branch or svn trunk, depending on trunk usability/state). 
+In order to acquire it you should have those lines in your /etc/apt/sources.list:</p>
 <pre>
    rpm [alt] ftp://ftp.altlinux.com/pub/distributions/ALTLinux/Sisyphus i586 classic
    rpm [alt] ftp://ftp.altlinux.com/pub/distributions/ALTLinux/Sisyphus noarch classic
 </pre>
 <p>If your arch is x86_64, substitute i586 to x86_64 in a corresponding line.</p>
-<p>For a normal install, do:</p>
+<p>For a normal install, including support for reading almost all audio/video formats, 
+dvd playback and X11 video output do the following:</p>
 <pre>
    # apt-get update
    # apt-get install vlc-normal

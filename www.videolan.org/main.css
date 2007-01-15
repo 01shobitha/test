@@ -347,6 +347,8 @@ p.center { text-align:center;}
  { padding-left:2em;background: url(images/flags/tw.png) left no-repeat; }
 #maincontent table td.us
  { padding-left:2em;background: url(images/flags/us.png) left no-repeat;}
+#maincontent table td.de
+ { padding-left:2em;background: url(images/flags/de.png) left no-repeat;}
 
 /* DL */
 .download {

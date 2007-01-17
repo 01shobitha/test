@@ -1,7 +1,9 @@
 <?php
-   $title = "VLC media player";
-   $lang = "en";
-   $date = "14 February 2001";
+   $title ="VideoLAN developers - VLC media player";
+      $lang = "en";
+      $date = "18 January 2007";
+         $menu = array( "developers", "vlc" );
+         require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
 <h1>VLC media player</h1>

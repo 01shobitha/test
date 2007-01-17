@@ -1,7 +1,9 @@
 <?php
    $title = "VideoLAN Server - Developers reference";
    $lang = "en";
-   $date = "25 July 2002";
+      $date = "18 January 2007";
+      $menu = array( "developers", "vls" );
+         require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
 <h1>VideoLAN Server</h1>

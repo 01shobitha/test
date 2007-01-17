@@ -1,8 +1,11 @@
 <?php
-   $title = "Libdvdplay - Overview";
+   $title ="VideoLAN developers - libdvdplay";
    $lang = "en";
-   $date = "1 February 2003";
+      $date = "18 January 2007";
+      $menu = array( "developers", "libdvdplay" );
+         require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
+
 
 <h1>libdvdplay</h1>
 

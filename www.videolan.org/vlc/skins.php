@@ -21,10 +21,11 @@
 ?>
 <?php
 
-  function AddSkin( $id, $name, $author, $img, $url, $dl, $date, $rating, $count, $old_rating, $old_count, $sign )
+  function AddSkin( $id, $name, $author, $img, $url, $dl, $date, $date_mod, $rating, $count, $old_rating, $old_count, $sign )
   {
 ?>
-<h3><?php echo $name; ?></h3>
+<h3><?php echo $name; 
+if ($date_mod <> $date) echo " (updated)"; ?></h3>
 <table class="skins-download">
  <tr>
   <td>
@@ -37,6 +38,9 @@
    <table>
     <tr><td class="skins-comment">
       Made by <?php echo $author; ?>
+    </td></tr>
+    <tr><td class="skins-comment">
+	Last update on <?php echo $date_mod; ?>
     </td></tr>
     <tr><td class="skins-comment">
       <?php echo "$dl downloads since $date"; ?>
@@ -104,14 +108,14 @@
 
 <h2>Downloads...</h2>
 
-<p>Sort by <a href="?sort=date_added">date</a>, <a href="?sort=downloads">downloads</a> or <a href="?sort=rating">rating</a>.</p>
+<p>Sort by <a href="?sort=date_mod">last update date</a>, <a href="?sort=date_added">creation date</a>, <a href="?sort=downloads">downloads</a> or <a href="?sort=rating">rating</a>.</p>
 
 <p><span style="color: red;">Warning:</span> Some of these skins require VLC 0.8.5 or later to run. Others require 0.8.6 or later to run.</p>
 
 <?php
 
   $sort = $_GET["sort"];
-  $query='SELECT avg_new.*, avg_old.avg as avg_old, avg_new.count as count, avg_old.count as count_old, sign( avg_new.avg-avg_old.avg ) FROM (SELECT skin_id, AVG( rating ), COUNT( rating ) FROM "skins-rating" WHERE age( date ) > \'7 days\' GROUP BY skin_id UNION SELECT id as skin_id, 0 as avg, 0 as count FROM skins WHERE age( date_added ) <= \'7 days\' ) AS avg_old, (SELECT AVG( rating ), COUNT( rating ), skins.id as id, name, author, downloads, date_added, image, url FROM skins INNER JOIN "skins-rating" ON skins.id="skins-rating".skin_id GROUP BY skins.id, skins.name, skins.author, skins.downloads, skins.date_added, skins.image, skins.url) AS avg_new WHERE avg_old.skin_id = avg_new.id';
+  $query='SELECT avg_new.*, avg_old.avg as avg_old, avg_new.count as count, avg_old.count as count_old, sign( avg_new.avg-avg_old.avg ) FROM (SELECT skin_id, AVG( rating ), COUNT( rating ) FROM "skins-rating" WHERE age( date ) > \'7 days\' GROUP BY skin_id UNION SELECT id as skin_id, 0 as avg, 0 as count FROM skins WHERE age( date_added ) <= \'7 days\' ) AS avg_old, (SELECT AVG( rating ), COUNT( rating ), skins.id as id, name, author, downloads, date_added, date_modified, image, url FROM skins INNER JOIN "skins-rating" ON skins.id="skins-rating".skin_id GROUP BY skins.id, skins.name, skins.author, skins.downloads, skins.date_added, skins.date_modified, skins.image, skins.url) AS avg_new WHERE avg_old.skin_id = avg_new.id';
   switch( $sort )
   {
     case "rating":
@@ -121,8 +125,11 @@
       $query .= " ORDER BY downloads DESC, date_added DESC";
       break;
     case "date_added":
-    default:
       $query .= " ORDER BY date_added DESC, downloads DESC";
+      break;
+    case "date_mod":
+    default:
+      $query .= " ORDER BY date_modified DESC, date_added DESC, downloads DESC";
       break;
   }
 
@@ -130,7 +137,7 @@
   while( $r = pg_fetch_array( $q ) )
   {
     AddSkin( $r['id'], $r['name'], $r['author'], $r['image'],
-             $r['url'], $r['downloads'], $r['date_added'],
+             $r['url'], $r['downloads'], $r['date_added'], $r['date_modified'],
              $r['avg'], $r['count'], $r['avg_old'], $r['count_old'],
              $r['sign'] );
   }

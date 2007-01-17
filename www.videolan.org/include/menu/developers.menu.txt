@@ -1,0 +1,10 @@
+developers;developers;index.html
+vlc;VLC;vlc.html
+vls;VLS;vls.html
+x264;x264;x264.html
+libdca;libdca;libdca.html
+libdvdcss;libdvdcss;libdvdcss.html
+libdvbpsi;libdvbpsi;libdvbpsi.html
+libdvdplay;libdvdplay;libdvdplay.html
+translations;Translations;i18n/
+wiki;wiki;http://wiki.videolan.org/Developers_Corner

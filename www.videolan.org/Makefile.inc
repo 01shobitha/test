@@ -1,5 +1,5 @@
 # Subdirectories to be preprocessed
-SUBDIR = doc events removed rez support team vlc project
+SUBDIR = doc events removed rez support team vlc project developers
 
 # Files to be preprocessed
 #PHP_FILES = # automatic

@@ -25,7 +25,7 @@
   {
 ?>
 <h3><?php echo $name; 
-if ($date_mod <> $date) echo ' <img src="/images/updated.png" />'; ?></h3>
+if ($date_mod <> $date) echo '&nbsp; <img src="/images/updated.png" />'; ?></h3>
 <table class="skins-download">
  <tr>
   <td>

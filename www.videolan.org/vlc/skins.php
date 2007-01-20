@@ -189,6 +189,12 @@ you don't need any programming skills... Some knowledge about graphics software
 might ease the job, though :-)</p>
 <?php panel_end(); ?>
 
+<?php panel_start( "gray" ); ?>
+<h1>Skin pack</h1>
+
+<p>Download all the skins at once <a href='/vlc/skins2/vlc-skins.zip'>here</a> (5 MB).</p>
+<?php panel_end(); ?>
+
 </div>
 
 <?php footer('$Id$'); ?>

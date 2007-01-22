@@ -145,7 +145,7 @@ This page remains here for compatibility reasons.</p>
      Incomplete
   </td>
    <td>
-     <a href="arm-crosscompile.html">HTML</a>
+     <a href="http://wiki.videolan.org/ARM-XCompile">Wiki</a>
    </td>
    <td>
      <a href="mailto:jpsaman_at_videolan_dot_org">Jean-Paul Saman</a>
@@ -210,7 +210,7 @@ This page remains here for compatibility reasons.</p>
      Up-to-date
    </td>
   <td>
-     <a href="http://wiki.videolan.org/BeOSCompile">HTML</a>
+     <a href="http://wiki.videolan.org/BeOSCompile">Wiki</a>
    </td>
    <td>
      <a href="mailto:titer@videolan.org">Eric Petit</a>
@@ -220,7 +220,7 @@ This page remains here for compatibility reasons.</p>
 <tr>
   <td class="category">DirectFB plugin Compile HOWTO</td>
   <td class="yes">Up-to-date</td>   
-  <td><a href="http://wiki.videolan.org/DirectFB_Compile">HTML</a></td>
+  <td><a href="http://wiki.videolan.org/DirectFB_Compile">Wiki</a></td>
   <td><a href="mailto:jpsaman_@_videolan_dot_org">Jean-Paul Saman</a>
 </tr>
 
@@ -237,9 +237,13 @@ start.</p>
 <h2>Bugs, todo and roadmaps</h2>
 
 <p>We would very much appreciate if you inform us of any bugs you run into. We would be even happier if you would also fix them.</p>
-<p>When making bugreports please beware of our bugreport <a href="http://www.videolan.org/support/bug-reporting.html">policy</a>. When you are an experienced user/developer and you are positive that it is a real bug that we are not yet aware of, please file it in <a href="http://bugzilla.videolan.org/">Bugzilla</a>.</p>
+<p>When making bugreports please beware of our bugreport <a href="http://www.videolan.org/support/bug-reporting.html">policy</a>. When you are an experienced user/developer and you are positive that it is a real bug that we are not yet aware of, please file it in <a href="http://trac.videolan.org/">trac</a>.</p>
+<p>You'll find roadmaps and todo on <a href="http://trac.videolan.org">Trac</a>.</p>
 
 <h2 id="3rdparty">Third party libraries used by VLC</h2>
+
+<p>You'll find a complete list on the <a href="http://wiki.videolan.org/Contrib_Status">wiki</a>.<br />
+But, here are the most important libraries.</p>
 
 <b>Audio/Video codecs</b>
 
@@ -277,7 +281,7 @@ audio decoder<br />
 <a href="http://www.xvid.org/">libxvidcore (xvid)</a> - an ISO MPEG-4
 compliant video codec (deprecated in favor of libavcodec)<br />
 
-<a href="http://www.videolan.org/libdca.html">libdca</a> - A DTS Coherent Acoustics
+<a href="libdca.html">libdca</a> - A DTS Coherent Acoustics
 decoding library.<br />
 
 </p>
@@ -313,7 +317,7 @@ video framebuffer<br />
 <b>Miscellaneous libraries</b>
 
 <p>
-<a href="/libdvdcss/">libdvdcss</a> - a library
+<a href="libdvdcss.html">libdvdcss</a> - a library
 for accessing encrypted DVDs<br />
 
 <a href="http://dvd.sf.net">libdvdnav</a> - a library
@@ -322,7 +326,7 @@ for DVD navigation<br />
 <a href="http://www.dtek.chalmers.se/groups/dvd/development.shtml">libdvdread
 </a> - a library for reading DVD-Video images<br />
 
-<a href="/libdvbpsi/">libdvbpsi</a> - a library
+<a href="libdvbpsi.html">libdvbpsi</a> - a library
 designed for decoding and generation of MPEG TS and DVB PSI tables<br />
 
 <a href="http://www.openslp.org/">libopenslp</a> - an open-source

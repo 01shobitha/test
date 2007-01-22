@@ -28,8 +28,10 @@ browsing the <a href="http://www.videolan.org/pub/vlc/">releases</a>. </p>
 
 <h2>Developer Documentation</h2>
 
-<p></p>
-
+<p>Some documentation is still on this website, but since VLC evolves fast, some has 
+been moved to the 
+<a href="http://wiki.videolan.org/Developers_Corner">developers' wiki</a>. 
+</p>
 <table border="0">
 <tr>
   <td class="type"><b>Document</b></td>
@@ -69,6 +71,49 @@ browsing the <a href="http://www.videolan.org/pub/vlc/">releases</a>. </p>
 href="mailto:sam@videolan.org">Samuel Hocevar</a>
    </td>
 </tr>
+
+<tr>
+  <td class="category">Localization stats & Translations</td>
+   <td class="yes">
+     Up-to-date
+   </td>
+  <td>
+     <a href="../i18n/vlc.html">HTML</a>
+     <a href="../i18n/vlc-howto.html">Howto - HTML</a>
+   </td>
+   <td>
+     <a href="mailto:zorglub_@_via.ecp.fr">Cl&#233;ment Stenac</a>
+     <a href="mailto:hartman_@_videolan_dot_org">Derk-Jan Hartman</a>
+   </td>
+</tr>
+</table>
+
+<h2>Wiki Documentation</h2>
+
+<p>This part of the documentation has been moved to the 
+<a href="http://wiki.videolan.org/Developers_Corner">developers' wiki</a>. 
+This page remains here for compatibility reasons.</p>
+<table border="0">
+<tr>
+  <td class="type"><b>Document</b></td>
+  <td class="type"><b>Status</b></td>
+  <td class="type"><b>Download</b></td>
+  <td class="type"><b>Original Writters</b></td>
+</tr>
+
+<tr>
+  <td class="category">String handling</td>
+   <td class="yes">
+     Up-to-date
+   </td>
+  <td>
+     <a href="http://wiki.videolan.org/index.php/VideolanStringGuidelines">Wiki</a>
+   </td>
+   <td>
+     <a href="mailto:hartman_@_videolan_dot_org">Derk-Jan Hartman</a>
+   </td>
+</tr>
+
 
 <tr>
   <td class="category">*nix Compile HOWTO</td>
@@ -161,45 +206,6 @@ href="mailto:sam@videolan.org">Samuel Hocevar</a>
    </td>
 </tr>
 
-<tr>
-  <td class="category">Translations HOWTO</td>
-   <td class="yes">
-     Up-to-date
-   </td>
-  <td>
-     <a href="vlc/doc/translations.txt">TXT</a>
-   </td>
-   <td>
-     <a href="mailto:hartman_@_videolan_dot_org">Derk-Jan Hartman</a>
-   </td>
-</tr>
-
-<tr>
-  <td class="category">Localization stats & more infos</td>
-   <td class="yes">
-     Up-to-date
-   </td>
-  <td>
-     <a href="../i18n/vlc.html">HTML</a>
-   </td>
-   <td>
-     <a href="mailto:zorglub_@_via.ecp.fr">Cl&#233;ment Stenac</a>
-   </td>
-</tr>
-
-<tr>
-  <td class="category">String handling</td>
-   <td class="yes">
-     Up-to-date
-   </td>
-  <td>
-     <a href="vlc/doc/strings.txt">TXT</a>
-   </td>
-   <td>
-     <a href="mailto:hartman_@_videolan_dot_org">Derk-Jan Hartman</a>
-   </td>
-</tr>
-
 <tr> 
   <td class="category">Mozilla plugin Compile HOWTO</td>
   <td class="yes">Up-to-date</td>
@@ -223,13 +229,7 @@ on IRC (<code>#videolan</code>, <code>irc.videolan.org</code> or
 any Freenode server) if you want to help us but don't know where to
 start.</p>
 
-<h2>Todo</h2>
-
-<p>We maintain a Todo list for VLC.</p>
-
-<p><a href="todo.html">VLC media player Todo</a></p>
-
-<h2>Bugs</h2>
+<h2>Bugs, todo and roadmaps</h2>
 
 <p>We would very much appreciate if you inform us of any bugs you run into. We would be even happier if you would also fix them.</p>
 <p>When making bugreports please beware of our bugreport <a href="http://www.videolan.org/support/bug-reporting.html">policy</a>. When you are an experienced user/developer and you are positive that it is a real bug that we are not yet aware of, please file it in <a href="http://bugzilla.videolan.org/">Bugzilla</a>.</p>

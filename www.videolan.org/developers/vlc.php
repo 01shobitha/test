@@ -135,6 +135,7 @@ This page remains here for compatibility reasons.</p>
    </td>
    <td>
      <a href="mailto:hartman_@_videolan_dot_org">Derk-Jan Hartman</a>
+     <a href="mailto:j-b_@_videolan_dot_org">Jean-Baptiste Kempf</a>
    </td>
 </tr>
 
@@ -157,7 +158,7 @@ This page remains here for compatibility reasons.</p>
      Up-to-date
    </td>
  <td>
-     <a href="vlc/INSTALL.win32">TXT</a>
+     <a href="http://trac.videolan.org/vlc/browser/trunk/INSTALL.win32?format=raw">TXT</a>
    </td>
    <td>
      <a href="mailto:gbazin@netcourrier.com">Gildas Bazin</a> and <a href="mailto:ipkiss@videolan.org">Olivier Teuli&egrave;re</a>
@@ -166,11 +167,11 @@ This page remains here for compatibility reasons.</p>
 
 <tr>
   <td class="category">Win32 Cygwin Environment<br>and Compile HOWTO</td>
-   <td class="partial">
-     Incomplete
+   <td class="yes">
+     Up-to-date
    </td>
  <td>
-     <a href="cygwin-compile.txt">TXT</a>
+     <a href="http://wiki.videolan.org/Win32CompileCygwin">Wiki</a>
    </td>
    <td>
      <a href="mailto:trax_@_videolan_dot_org">Trax</a>
@@ -179,11 +180,11 @@ This page remains here for compatibility reasons.</p>
 
 <tr>
   <td class="category">Win32 MSYS/MinGW Environment<br></td>
-   <td class="partial">
-     Incomplete
+   <td class="yes">
+     Up-to-date
    </td>
  <td>
-     <a href="msys-compile.txt">TXT</a>
+     <a href="http://wiki.videolan.org/Win32CompileMSYS">Wiki</a>
    </td>
    <td>
      <a href="mailto:trax_@_videolan_dot_org">Trax</a>
@@ -196,7 +197,7 @@ This page remains here for compatibility reasons.</p>
      Up-to-date
   </td>
    <td>
-     <a href="osx-compile.html">HTML</a>
+     <a href="http://wiki.videolan.org/OSXCompile">Wiki</a>
    </td>
    <td>
      <a href="mailto:hartman_@_videolan_dot_org">Derk-Jan Hartman</a>
@@ -209,23 +210,17 @@ This page remains here for compatibility reasons.</p>
      Up-to-date
    </td>
   <td>
-     <a href="beos-compile.html">HTML</a>
+     <a href="http://wiki.videolan.org/BeOSCompile">HTML</a>
    </td>
    <td>
      <a href="mailto:titer@videolan.org">Eric Petit</a>
    </td>
 </tr>
 
-<tr> 
-  <td class="category">Mozilla plugin Compile HOWTO</td>
-  <td class="yes">Up-to-date</td>
-  <td><a href="mozilla-plugin-compile.html">HTML</a></td>
-  <td><a href="mailto:jpsaman_@_videolan_dot_org">Jean-Paul Saman</a>
-</tr>
-
 <tr>
   <td class="category">DirectFB plugin Compile HOWTO</td>
-  <td class="yes">Up-to-date</td>   <td><a href="DirectFB-compile.html">HTML</a></td>
+  <td class="yes">Up-to-date</td>   
+  <td><a href="http://wiki.videolan.org/DirectFB_Compile">HTML</a></td>
   <td><a href="mailto:jpsaman_@_videolan_dot_org">Jean-Paul Saman</a>
 </tr>
 

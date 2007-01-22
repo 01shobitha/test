@@ -8,21 +8,31 @@
 
 <h1>VLC media player</h1>
 
-<p>This is the VLC media player's developer page. See the <a href="http://www.videolan.org/vlc/">VLC page</a> if you are looking for the normal page. </p>
+<p>This is the VLC media player's developer page. <br />
+See the <a href="http://www.videolan.org/vlc/">VLC page</a> if you are not willing to develop VLC media player. </p>
+
+<h2>Developers' Wiki</h2>
+<p>As VLC media player evolves really fast, a lot of the documentation and tools information 
+has move to a <a href="http://wiki.videolan.org/Developers_Corner">wiki</a>.
+Check it out!</p>
 
 <h2>Get VLC Sourcecode</h2>
 
-<p><code>VLC</code> is available through <a href="http://wiki.videolan.org/Subversion">Subversion</a> or by
-browsing the <a href="http://www.videolan.org/pub/vlc/">releases</a>. </p>
+<p><code>VLC</code> is available through 
+<a href="http://wiki.videolan.org/Subversion">Subversion</a> or by
+browsing the <a href="http://www.videolan.org/pub/vlc/">releases</a>.</p>
 
 <p> You can also see the 
 <a href="http://trac.videolan.org/vlc/browser/trunk/NEWS?format=txt">release notes</a> and the 
-<a href="http://trac.videolan.org/vlc/file/trunk/ChangeLog?format=txt">ChangeLog</a>.</p>
+<a href="http://trac.videolan.org/vlc/file/trunk/ChangeLog?format=txt">ChangeLog</a>.
+You can also give an eye on the <a href="http://wiki.videolan.org/GetTheSource">"Get the source" wiki page</a>.</p>
+
 
 <h2>Coding VLC</h2>
 
-<p>VLC media player is a fast changing and ever evolving project. It is very important to keep up to date with the latest developments. Therefore we advise everyone who makes changes to the VLC sourcecode, to sign up with the vlc-devel <a href="lists.html">Mailinglist</a> so you can keep up with the latest changes and developments.</p>
-<p>Please try to keep to our <a href="vlc/doc/developer/html/ch01.html#id288821">code conventions</a>. They are very simple and help to keep all code readable. When you write new stuff please comment it heavily or add doxygen documentation for your sources.</p>
+<p>VLC media player is a fast changing and ever evolving project. It is very important to keep up to date with the latest developments.<br /> 
+Therefore we advise everyone who makes changes to the VLC sourcecode, to sign up with the vlc-devel <a href="lists.html">Mailinglist</a> so you can keep up with the latest changes and developments.</p>
+<p>Please try to keep to our <a href="http://wiki.videolan.org/Code_Conventions">code conventions</a>. They are very simple and help to keep all code readable. When you write new stuff please comment it heavily or add doxygen documentation for your sources.</p>
 <p>New code can be submitted to the vlc-devel mailinglist and will be evaluated for inclusion to the SVN tree. You should put <code>[PATCH]</code> in your subject header. All patches need to be against the HEAD <a href="http://wiki.videolan.org/Subversion/svn.html">SVN tree</a>. You can create them by running <code>svn diff</code> in the VLC source directory.</p>
 <p>Before you start be sure to read the HACKING file in the main VLC source directory, some of the documentation listed below.</p>
 
@@ -121,7 +131,7 @@ This page remains here for compatibility reasons.</p>
      Up-to-date
   </td>
    <td>
-     <a href="nix-compile.html">HTML</a>
+     <a href="http://wiki.videolan.org/UnixCompile">Wiki</a>
    </td>
    <td>
      <a href="mailto:hartman_@_videolan_dot_org">Derk-Jan Hartman</a>

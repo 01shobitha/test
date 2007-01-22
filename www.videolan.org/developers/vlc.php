@@ -1,29 +1,30 @@
 <?php
    $title ="VideoLAN developers - VLC media player";
-      $lang = "en";
-      $date = "18 January 2007";
-         $menu = array( "developers", "vlc" );
-         require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
+   $lang = "en";
+   $date = "18 January 2007";
+   $menu = array( "developers", "vlc" );
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
 <h1>VLC media player</h1>
 
-<p> See the <a href="http://www.videolan.org/vlc/">VLC page</a> on
-www.videolan.org. </p>
+<p>This is the VLC media player's developer page. See the <a href="http://www.videolan.org/vlc/">VLC page</a> if you are looking for the normal page. </p>
 
 <h2>Get VLC Sourcecode</h2>
 
-<p> <code>VLC</code> is available through <a href="/svn.html">Subversion</a> or by
+<p><code>VLC</code> is available through <a href="http://wiki.videolan.org/Subversion">Subversion</a> or by
 browsing the <a href="http://www.videolan.org/pub/vlc/">releases</a>. </p>
 
-<p> You can also see the <a href="/vlc/NEWS">release notes</a> and the <a href="http://trac.videolan.org/vlc/file/trunk/ChangeLog?format=txt">ChangeLog</a>.</p>
+<p> You can also see the 
+<a href="http://trac.videolan.org/vlc/browser/trunk/NEWS?format=txt">release notes</a> and the 
+<a href="http://trac.videolan.org/vlc/file/trunk/ChangeLog?format=txt">ChangeLog</a>.</p>
 
 <h2>Coding VLC</h2>
 
-<p>VLC media player is a fast changing and ever evolving project. It is very important to keep up to date with the latest developments. Therefore we advise everyone who makes changes to the VLC sourcecode, to sign up with the vlc-devel <a href="/lists.html">Mailinglist</a> so you can keep up with the latest changes and developments.</p>
+<p>VLC media player is a fast changing and ever evolving project. It is very important to keep up to date with the latest developments. Therefore we advise everyone who makes changes to the VLC sourcecode, to sign up with the vlc-devel <a href="lists.html">Mailinglist</a> so you can keep up with the latest changes and developments.</p>
 <p>Please try to keep to our <a href="vlc/doc/developer/html/ch01.html#id288821">code conventions</a>. They are very simple and help to keep all code readable. When you write new stuff please comment it heavily or add doxygen documentation for your sources.</p>
-<p>New code can be submitted to the vlc-devel mailinglist and will be evaluated for inclusion to the SVN tree. You should put <code>[PATCH]</code> in your subject header. All patches need to be against the HEAD <a href="/svn.html">SVN tree</a>. You can create them by running <code>svn diff</code> in the VLC source directory.</p>
-<p>Before you start be sure to read the HACKING file in the main VLC source directory, some of the documentation listed below,  as well the <a href="todo.html">VLC media player Todo list</a>.</p>
+<p>New code can be submitted to the vlc-devel mailinglist and will be evaluated for inclusion to the SVN tree. You should put <code>[PATCH]</code> in your subject header. All patches need to be against the HEAD <a href="http://wiki.videolan.org/Subversion/svn.html">SVN tree</a>. You can create them by running <code>svn diff</code> in the VLC source directory.</p>
+<p>Before you start be sure to read the HACKING file in the main VLC source directory, some of the documentation listed below.</p>
 
 <h2>Developer Documentation</h2>
 

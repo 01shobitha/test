@@ -52,7 +52,7 @@ que nous faisons tous cela sur notre temps libre. Il n'y a pas de limite
 à l'implémentation de ces extensions et nous ne faisons
 AUCUNE promesse sur le moment où nous les ajouterons à VLC. Si vous voulez
 réellement quelque chose immédiatement, le plus simple est de l'implémenter vous même. Regardez <a
-href="http://developers.videolan.org/vlc">ici</a> pour voir comment vous pouvez
+href="/developers/vlc.html">ici</a> pour voir comment vous pouvez
 développer sur VLC.</li>
 
 <li>De nombreux bug sont déjà connue. Parfois ils sont déjà
@@ -152,7 +152,7 @@ que vous avez rencontré, et pas un autre rencontré plus tôt.</li>
 
 <h4>Problèmes de compilation</h4>
 <ul>
-<li>Assurez-vous que vous avez lu la <a href="http://developers.videolan.org/vlc/">documentation</a> développeur.</li>
+<li>Assurez-vous que vous avez lu la <a href="/developers/vlc.html">documentation</a> développeur.</li>
 <li>Fournissez le log complet décrivant le problème
 <blockquote>
   <p>

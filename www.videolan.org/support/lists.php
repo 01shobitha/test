@@ -60,7 +60,7 @@ subscription or unsubscription.</p>
 
 <p>In addition to these mailing-lists, users can also
 subscribe to the developers mailing-lists: see the <a
-href="http://developers.videolan.org/lists.html">mailing-lists</a> page on
+href="/developers/lists.html">mailing-lists</a> page on
 the developers Web site.</p>
 
 <h2>Subscribe / Unsubscribe using e-mail</h2>

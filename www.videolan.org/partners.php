@@ -110,8 +110,8 @@ cooperation of our partners, on both technical and financial sides: </p>
          most of the VideoLAN web sites and developement                
          tools : <a href="http://www.videolan.org">WWW</a>,             
          <a href="http://forum.videolan.org">Forum</a>, <a              
-         href="http://download.videolan.org/pub/videolan/">Downloads</a>, <a          
-         href="http://developers.videolan.org/svn.html">SVN</a> and     
+	 href="http://download.videolan.org/pub/videolan/">Downloads</a>, 
+<a href="http://wiki.videolan.org/Subversion">SVN</a> and     
          <a href="https://trac.videolan.org">Trac</a>. This web         
          server was shipped with two AMD opteron 2.4 GHz CPUs, 8 GB     
          RAM and 4 36 GB SCSI hard drives. VideoLAN also won a <a       
@@ -143,7 +143,7 @@ cooperation of our partners, on both technical and financial sides: </p>
         Centrale Réseaux</a> association which manages the network of   
         the student campus of the <a href="http://www.ecp.fr/">École    
         Centrale Paris</a>. These servers now run the <a                
-        href="http://developers.videolan.org/lists.html">mailing        
+        href="/developers/lists.html">mailing        
         lists</a>, <a                                                   
         href="ftp://ftp.videolan.org/pub/videolan/">FTP</a>, <a href="http://wiki.videolan.org">Wiki</a>
         and DNS services. IBM also awarded VideoLAN in the <a           

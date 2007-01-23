@@ -77,13 +77,13 @@ The list of required libraries is not yet updated for 0.8.6
 <h1>SVN</h1>
 
 <p> Find more about the SVN source code repository on the <a
-href="http://developers.videolan.org/">developers website</a>. </p>
+href="/developers/">developers website</a>. </p>
 <?php panel_end(); ?>
 
 <?php panel_start( "blue" ); ?>
 <h1>How to compile?</h1>
 
-<p> Please have a look at VLC's sub-page on the <a href="http://developers.videolan.org/vlc/">developers website</a>. There are detailed descriptions for most systems, supported by VLC. If something is not mentioned there, searching the <a href="http://forum.videolan.org/">forum</a> is worth a try. </p>
+<p> Please have a look at VLC's sub-page on the <a href="/developers/vlc.html">developers website</a>. There are detailed descriptions for most systems, supported by VLC. If something is not mentioned there, searching the <a href="http://forum.videolan.org/">forum</a> is worth a try. </p>
 
 <?php panel_end(); ?>
 

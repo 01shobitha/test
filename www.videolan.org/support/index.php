@@ -50,7 +50,7 @@ we all do this in our spare time. There is no timeline whatsoever
 for the implementation of these enhancements and we do not make
 ANY promises as to when we will add them to VLC. If you really
 want something right now, you best implement it yourself. Look <a
-href="http://developers.videolan.org/vlc">here</a> to see how you can
+href="/developers/vlc.html">here</a> to see how you can
 develop on VLC.</li>
 
 <li>Many bugs are already known. Sometimes they are
@@ -150,7 +150,7 @@ experienced, or an earlier one.</li>
 
 <h4>Compile problems</h4>
 <ul>
-<li>Make sure you have read the developer <a href="http://developers.videolan.org/vlc/">documentation</a>.</li>
+<li>Make sure you have read the developer <a href="/developers/vlc.html">documentation</a>.</li>
 <li>Give the full log showing the problem
 <blockquote>
   <p>

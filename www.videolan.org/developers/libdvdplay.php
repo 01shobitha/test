@@ -27,7 +27,6 @@ should work on almost any platform. </p>
 <a href="http://wiki.videolan.org/Subversion">Subversion</a> or by browsing the <a
 href="http://www.videolan.org/pub/libdvdplay/">releases</a>. </p>
 
-<p> You can also see the <a href="NEWS">release notes</a>.
 
 <h2>Documentation</h2>
 

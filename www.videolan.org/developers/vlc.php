@@ -88,8 +88,8 @@ href="mailto:sam@videolan.org">Samuel Hocevar</a>
      Up-to-date
    </td>
   <td>
-     <a href="../i18n/vlc.html">HTML</a>
-     <a href="../i18n/vlc-howto.html">Howto - HTML</a>
+     <a href="i18n/vlc.html">HTML</a>
+     <a href="i18n/vlc-howto.html">Howto - HTML</a>
    </td>
    <td>
      <a href="mailto:zorglub_@_via.ecp.fr">Cl&#233;ment Stenac</a>

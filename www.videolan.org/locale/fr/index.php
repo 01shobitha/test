@@ -35,20 +35,20 @@ majoritairement destinés aux développeurs:</p>
 <li><a href="/vlc/streaming.html" class="en">VLS (Serveur VideoLAN)</a>, notre serveur
 de streaming historique, qui est à présent remplacé par VLC.</li>
 
-<li><a href="http://developers.videolan.org/libdvdcss/">libdvdcss</a>,
+<li><a href="/developers/libdvdcss.html">libdvdcss</a>,
 une librairie C pour accéder aux DVDs sans avoir à se soucier du
 cryptage.</li>
 
-<li><a href="http://developers.videolan.org/libdvbpsi/">libdvbpsi</a>, a
+<li><a href="/developers/libdvbpsi.html">libdvbpsi</a>, a
 librairie C pour décoder et générer des tables MPEG TS et DVB PSI.</li>
 
-<li><a href="http://developers.videolan.org/x264.html">x264</a>, un encodeur
+<li><a href="/developers/x264.html">x264</a>, un encodeur
 H264 /AVC encoder.</li>
 
-<li><a href="http://developers.videolan.org/libdca.html">libdca</a>, un
+<li><a href="/developers/libdca.html">libdca</a>, un
 décodeurs DTS Coherent Acoustics.</li>
 
-<li><a href="http://developers.videolan.org/libdvdplay">libdvdplay</a>,
+<li><a href="/developers/libdvdplay.html">libdvdplay</a>,
 une librairie de navigation DVD.</li>
 
 </ul>

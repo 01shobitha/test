@@ -24,7 +24,7 @@ should work on almost any platform. </p>
 
 <h2>Get libdvbpsi</h2>
 
-<p> <code>libdvbpsi</code> is available through <a href="/svn.html">Subversion</a> or
+<p> <code>libdvbpsi</code> is available through <a href="http://wiki.videolan.org/Subversion">Subversion</a> or
 by browsing the <a href="http://www.videolan.org/pub/libdvbpsi/">releases</a>.
 </p>
 
@@ -57,3 +57,4 @@ by browsing the <a href="http://www.videolan.org/pub/libdvbpsi/">releases</a>.
 
 </table>
 
+<?php footer('$Id$'); ?>

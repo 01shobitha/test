@@ -12,7 +12,7 @@
 <p> <code>libdvdplay</code> is a simple library
 designed for DVD navigation. It depends on <a
 href="http://freshmeat.net/projects/libdvdread/"><code>libdvdread</code></a>
-(which can optionally use <a href="/libdvdcss/"><code>libdvdcss</code></a>).
+(which can optionally use <a href="libdvdcss.html"><code>libdvdcss</code></a>).
 </p>
 
 <p><b>NOTE: </b>libdvdplay is no longer under active development. VLC has switched
@@ -24,7 +24,7 @@ should work on almost any platform. </p>
 <h2>Get libdvdplay</h2>
 
 <p> <code>libdvdplay</code> is available through
-<a href="/svn.html">Subversion</a> or by browsing the <a
+<a href="http://wiki.videolan.org/Subversion">Subversion</a> or by browsing the <a
 href="http://www.videolan.org/pub/libdvdplay/">releases</a>. </p>
 
 <p> You can also see the <a href="NEWS">release notes</a>.
@@ -33,3 +33,4 @@ href="http://www.videolan.org/pub/libdvdplay/">releases</a>. </p>
 
 <p> No documentation is available yet. </p>
 
+<?php footer('$Id$'); ?>

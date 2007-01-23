@@ -20,3 +20,4 @@ with a SVN account. You just have to checkout the
 <code>developers.videolan.org</code> module and commit your changes:
 the web site will be automatically updated a few minutes later.
 </p>
+<?php footer('$Id$'); ?>

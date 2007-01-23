@@ -28,7 +28,7 @@ DVDs like a block device without having to bother about the decryption. </p>
 
 <h2>Get libdvdcss</h2>
 
-<p> <code>libdvdcss</code> is available through <a href="/svn.html">Subversion</a> or
+<p> <code>libdvdcss</code> is available through <a href="http://wiki.videolan.org/Subversion">Subversion</a> or
 by browsing the <a href="http://www.videolan.org/pub/libdvdcss/">releases</a>.
 </p>
 
@@ -61,3 +61,4 @@ href="ChangeLog.html">ChangeLog</a>.</p>
 </tr>
 </table>
 
+<?php footer('$Id$'); ?>

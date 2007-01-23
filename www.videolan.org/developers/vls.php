@@ -8,16 +8,19 @@
 
 <h1>VideoLAN Server</h1>
 
-<p> See the <a href="http://www.videolan.org/streaming/">streaming page</a> on
+<p><span style="color:red"><strong>VLS is deprecated and unmaintained.</strong></span> 
+Use <a href="vlc.html">VLC media player</a> instead.
+
+<p> See the <a href="/streaming/">streaming page</a> on
 www.videolan.org. </p>
 
 <h2>Get VLS</h2>
 
-<p> <code>VLS</code> is available through <a href="/svn.html">Subversion</a> or by
-browsing the <a href="http://www.videolan.org/pub/vls/">releases</a>. </p>
+<p> <code>VLS</code> is available through <a href="http://wiki.videolan.org/Svn">Subversion</a> or by
+browsing the <a href="http://www.videolan.org/pub/vls/">releases</a>.</p>
 
-<p>For informations about the versions, see the <a
-href="ChangeLog.html">ChangeLog</a>.</p>
+<p>For informations about the versions, see the 
+<a href="ChangeLog.html">ChangeLog</a>.</p>
 
 <h2>Documentation</h2>
 
@@ -40,7 +43,7 @@ href="ChangeLog.html">ChangeLog</a>.</p>
      <a href="vls/doc/developer/vls-devel.ps">PS</a>
    </td>
    <td>
-     <a href="mailto:tooney@videolan.org">Tristan Leteurtre</a>
+     <a href="mailto:tooney_@_videolan.org">Tristan Leteurtre</a>
    </td>
 </tr>
 
@@ -56,13 +59,13 @@ start.</p>
 <h2>Third party libraries used by VLS</h2>
 
 <p>
-<a href="/libdvdcss/">libdvdcss</a> - a library
+<a href="libdvdcss.html">libdvdcss</a> - a library
 for accessing encrypted DVDs<br />
 
 <a href="http://www.dtek.chalmers.se/groups/dvd/development.shtml">libdvdread
 </a> - a library for reading DVD-Video images<br />
 
-<a href="/libdvbpsi/">libdvbpsi</a> - a library
+<a href="libdvbpsi.html">libdvbpsi</a> - a library
 designed for decoding and generation of MPEG TS and DVB PSI tables<br />
 
 <a href="http://www.metzlerbros.org/dvb/">libdvb</a> - a library

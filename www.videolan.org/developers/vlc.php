@@ -33,7 +33,7 @@ You can also give an eye on the <a href="http://wiki.videolan.org/GetTheSource">
 <p>VLC media player is a fast changing and ever evolving project. It is very important to keep up to date with the latest developments.<br /> 
 Therefore we advise everyone who makes changes to the VLC sourcecode, to sign up with the vlc-devel <a href="lists.html">Mailinglist</a> so you can keep up with the latest changes and developments.</p>
 <p>Please try to keep to our <a href="http://wiki.videolan.org/Code_Conventions">code conventions</a>. They are very simple and help to keep all code readable. When you write new stuff please comment it heavily or add doxygen documentation for your sources.</p>
-<p>New code can be submitted to the vlc-devel mailinglist and will be evaluated for inclusion to the SVN tree. You should put <code>[PATCH]</code> in your subject header. All patches need to be against the HEAD <a href="http://wiki.videolan.org/Subversion/svn.html">SVN tree</a>. You can create them by running <code>svn diff</code> in the VLC source directory.</p>
+<p>New code can be submitted to the vlc-devel mailinglist and will be evaluated for inclusion to the SVN tree. You should put <code>[PATCH]</code> in your subject header. All patches need to be against the HEAD <a href="http://wiki.videolan.org/Subversion">SVN tree</a>. You can create them by running <code>svn diff</code> in the VLC source directory.</p>
 <p>Before you start be sure to read the HACKING file in the main VLC source directory, some of the documentation listed below.</p>
 
 <h2>Developer Documentation</h2>
@@ -237,13 +237,13 @@ start.</p>
 <h2>Bugs, todo and roadmaps</h2>
 
 <p>We would very much appreciate if you inform us of any bugs you run into. We would be even happier if you would also fix them.</p>
-<p>When making bugreports please beware of our bugreport <a href="http://www.videolan.org/support/bug-reporting.html">policy</a>. When you are an experienced user/developer and you are positive that it is a real bug that we are not yet aware of, please file it in <a href="http://trac.videolan.org/">trac</a>.</p>
+<p>When making bugreports please beware of our bugreport <a href="http://www.videolan.org/support/bug-reporting.html">policy</a>. When you are an experienced user/developer and you are positive that it is a real bug that we are not yet aware of, please file it in <a href="http://trac.videolan.org/">Trac</a>.</p>
 <p>You'll find roadmaps and todo on <a href="http://trac.videolan.org">Trac</a>.</p>
 
 <h2 id="3rdparty">Third party libraries used by VLC</h2>
 
-<p>You'll find a complete list on the <a href="http://wiki.videolan.org/Contrib_Status">wiki</a>.<br />
-But, here are the most important libraries.</p>
+<p>You'll find a complete list on the <a href="http://wiki.videolan.org/Contrib_Status">wiki</a>.</p>
+<p>But, here are the most important libraries.</p>
 
 <b>Audio/Video codecs</b>
 

@@ -33,9 +33,9 @@
 
 <h2>Getting x264</h2>
 
-<p>The latest x264 source code can always be found by anonymous SVN repository:</p>
+<p>The latest x264 source code can always be found by anonymous <a href="http://wiki.videolan.org/Subversion">SVN</a>repository:</p>
 
-<p># svn co svn://svn.videolan.org/x264/trunk x264</p>
+<p><code># svn co svn://svn.videolan.org/x264/trunk x264</code></p>
 
 <p>Or grab a <a href="ftp://ftp.videolan.org/pub/videolan/x264/snapshots/">daily tarball</a>.</p>
 
@@ -45,7 +45,7 @@
 
 <p>For support information and to ask questions, you have the following possibilities:</p>
 
-<p>A mailing list (<a href="/lists.html">x264-devel</a>), a forum (<a href="http://forum.doom9.org/forumdisplay.php?f=77">Doom9</a>), and IRC (<a href="irc://irc.freenode.net/x264">#x264@freenode</a>).</p>
+<p>A mailing list (<a href="lists.html">x264-devel</a>), a forum (<a href="http://forum.doom9.org/forumdisplay.php?f=77">Doom9</a>), and IRC (<a href="irc://irc.freenode.net/x264">#x264@freenode</a>).</p>
 
 <h2>Bugs</h2>
 <p>Please report any bugs to the <a href="http://developers.videolan.org/lists.html">mailing list</a>. If it is a crash, then compile x264 with `./configure --enable-debug` and follow the <a href="http://ffmpeg.mplayerhq.hu/bugreports.html">ffmpeg bugreporting guidelines</a>.</p>

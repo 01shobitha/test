@@ -2,9 +2,17 @@
    $title = "VLC media player internationalization";
    $lang = "en";
    $date = "6 February 2004";
+   $menu = array( "developers", "i18n" );
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
 ?>
 
+
 <h1>VideoLAN internationalization</h1>
+
+<p>This page is dedicated to the various <abbr title="Internationalization is the fact of building a multilingual-enabled architectur.">internationalization</abbr> (i18n) and <abbr title="Localization is the fact of translating what is needed in various languages">localization</abbr> (l10n) efforts in the VideoLAN project</p>
+
+<p>Now, only <a href="/developers/vlc.html">VLC media player</a> is been processed through internalization.</p>
 
 <h2>VLC media player internationalization</h2>
 
@@ -53,4 +61,4 @@ for($i=0;$i<count($langs) -1;$i++ )
 ?>
 </table>
 
-
+<?php footer('$Id$'); ?>

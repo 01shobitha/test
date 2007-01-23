@@ -2,6 +2,9 @@
    $title = "VLC media player internationalization";
    $lang = "en";
    $date = "6 February 2004";
+   $menu = array( "developers", "i18n" );
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
 ?>
 
 <h1>VideoLAN internationalization</h1>
@@ -63,3 +66,5 @@ fuzzy"</i> comment.</p>
 <p><i>Written by Christophe Massiot &lt;massiot at via dot ecp dot
 fr&gt; and Derk-Jan Hartman &lt;hartman at videolan dot org&gt;</i></p>
 
+
+<?php footer('$Id$'); ?>

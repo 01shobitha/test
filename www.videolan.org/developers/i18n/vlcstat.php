@@ -2,6 +2,9 @@
    $title = "VLC media player localization";
    $lang = "en";
    $date = "6 February 2004";
+   $menu = array( "developers", "i18n" );
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
 ?>
 
 
@@ -23,7 +26,7 @@
  </tr>
 
  <?php
-     $path = "/var/www/local/developers.videolan.org/i18n";
+     $path = "/var/www/local/www.videolan.org/developers/i18n";
      $reffile = "$path/vlc-stats.ref";
      $lgfile = "$path/languages";
 
@@ -84,3 +87,6 @@
 ?>
 
 </table>
+
+
+<?php footer('$Id$'); ?>

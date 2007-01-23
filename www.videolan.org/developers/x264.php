@@ -48,7 +48,7 @@
 <p>A mailing list (<a href="lists.html">x264-devel</a>), a forum (<a href="http://forum.doom9.org/forumdisplay.php?f=77">Doom9</a>), and IRC (<a href="irc://irc.freenode.net/x264">#x264@freenode</a>).</p>
 
 <h2>Bugs</h2>
-<p>Please report any bugs to the <a href="http://developers.videolan.org/lists.html">mailing list</a>. If it is a crash, then compile x264 with `./configure --enable-debug` and follow the <a href="http://ffmpeg.mplayerhq.hu/bugreports.html">ffmpeg bugreporting guidelines</a>.</p>
+<p>Please report any bugs to the <a href="/developers/lists.html">mailing list</a>. If it is a crash, then compile x264 with `./configure --enable-debug` and follow the <a href="http://ffmpeg.mplayerhq.hu/bugreports.html">ffmpeg bugreporting guidelines</a>.</p>
 
 <h2>Software using x264</h2>
 

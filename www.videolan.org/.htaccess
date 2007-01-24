@@ -121,8 +121,8 @@ RewriteRule ^doc/faq/videolan-faq.html$ /doc/faq/ [R=permanent,L]
 Redirect /cgi-bin http://krishna.videolan.org/cgi-bin
 
 RewriteRule ^dtsdec.html /developers/libdca.html [R=permanent,L]
-Redirect permanent /x264.html /developers/x264.html
-Redirect permanent /libdca.html /developers/libdca.html
+RewriteRule ^x264.html /developers/x264.html [R=permanent,L]
+RewriteRule ^libdca.html /developers/libdca.html [R=permanent,L]
 
 RewriteRule ^vlc/changelog.html /developers/vlc/ChangeLog [R=permanent,L]
 RewriteRule ^vls/changelog.html /developers/vls/ChangeLog [R=permanent,L]

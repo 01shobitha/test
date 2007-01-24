@@ -1,3 +1,4 @@
+## General configuration
 ErrorDocument 404 /404.html
 ErrorDocument 403 /403.html
 
@@ -5,22 +6,29 @@ ErrorDocument 403 /403.html
 AddType application/x-httpd-php .html .php3
 
 RewriteEngine on
-
 # yet another kludge to hide .svn directories
 RewriteRule \.svn /404.html [L]
+
+RewriteRule ^libdvbpsi/index.html http://www.videolan.org/developers/libdvbpsi.html [R=permanent,L]
+RewriteRule ^libdvbpsi/libdvbpsi/.* http://www.videolan.org/developers/libdvbpsi/$1 [R=permanent,L]
+RewriteRule ^libdvdcss/index.html http://www.videolan.org/developers/libdvdcss.html [R=permanent,L]
+RewriteRule ^libdvdcss/libdvdcss/.* http://www.videolan.org/developers/libdvdcss/$1 [R=permanent,L]
+RewriteRule ^libdvdplay/index.html http://www.videolan.org/developers/libdvdplay.html [R=permanent,L]
+RewriteRule ^libdvdplay/libdvdplay/.* http://www.videolan.org/developers/libdvdplay/$1 [R=permanent,L]
+
+RewriteRule ^vlc/index.html http://www.videolan.org/developers/vlc.html [R=permanent,L]
+RewriteRule ^vlc/vlc/.* http://www.videolan.org/developers/vlc/$1 [R=permanent,L]
+RewriteRule ^vls/index.html http://www.videolan.org/developers/vls.html [R=permanent,L]
+RewriteRule ^vls/vls/.* http://www.videolan.org/developers/vls/$1 [R=permanent,L]
 
 # directory/ -> directory/index.html
 RewriteRule ^(.*)/$ $1/index.html
 RewriteRule ^$ index.html
+
+RewriteRule ^(.*) http://www.videolan.org/developers/$1
 
 # fichier.html -> ../include/default.php3?page=fichier
 RewriteRule ^(vlc/vlc/doc/.*html)$ $1 [L]
 RewriteRule ^(libdvbpsi/libdvbpsi/doc/.*html)$ $1 [L]
 RewriteRule ^(libdvdcss/libdvdcss/doc/.*html)$ $1 [L]
 RewriteRule ^([^/]+)\.html$ include/rewrite.php3?page=$1
-
-# rep/fichier.html -> ../include/default.php3?dir=rep&page=fichier
-RewriteRule ^(.*)/([^/]+)\.html$ include/rewrite.php3?dir=$1&page=$2
-
-# changelog
-RewriteRule ^(.*)/ChangeLog$ include/rewrite.php3?dir=$1&changelog=1

@@ -32,8 +32,8 @@ DVDs like a block device without having to bother about the decryption. </p>
 by browsing the <a href="http://www.videolan.org/pub/libdvdcss/">releases</a>.
 </p>
 
-<p> You can also see the <a href="NEWS">release notes</a> and the <a
-href="ChangeLog.html">ChangeLog</a>.</p>
+<p> You can also see the <a href="libdvdcss/NEWS">release notes</a> and the <a
+href="libdvdcss/ChangeLog.html">ChangeLog</a>.</p>
 
 <h2>Documentation</h2>
 

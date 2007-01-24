@@ -28,7 +28,7 @@ should work on almost any platform. </p>
 by browsing the <a href="http://www.videolan.org/pub/libdvbpsi/">releases</a>.
 </p>
 
-<p> You can also see the <a href="ChangeLog.html">ChangeLog</a>.</p>
+<p> You can also see the <a href="libdvbpsi/ChangeLog.html">ChangeLog</a>.</p>
 
 <h2>Documentation</h2>
 

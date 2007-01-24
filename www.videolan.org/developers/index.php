@@ -47,13 +47,11 @@ the web site will be automatically updated a few minutes later.
 <div id="right">
   <?php panel_start( 'orange' ); ?>
 <h1>Useful Resources</h1>
-<p>
-<a href="http://wiki.videolan.org/Developers_Corner">Developers Wiki</a>
-<a href="http://wiki.videolan.org/Subversion">Subversion</a>
-<a href="lists.html">Mailing lists</a>
-<a href="https://trac.videolan.org/">Trac - project management</a>
-<a href="http://krishna.videolan.org/cgi-bin/irc/irc.cgi">IRCWeb</a>
-</p>
+<p><a href="http://wiki.videolan.org/Developers_Corner">Developers Wiki</a></p>
+<p><a href="http://wiki.videolan.org/Subversion">Subversion</a></p>
+<p><a href="lists.html">Mailing lists</a></p>
+<p><a href="https://trac.videolan.org/">Trac - project management</a></p>
+<p><a href="http://krishna.videolan.org/cgi-bin/irc/irc.cgi">IRCWeb</a></p>
  <?php panel_end(); ?>
 </div>
 

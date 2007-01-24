@@ -9,6 +9,11 @@ RewriteEngine on
 # yet another kludge to hide .svn directories
 RewriteRule \.svn /404.html [L]
 
+# directory/ -> directory/index.html
+RewriteRule ^(.*)/$ $1/index.html
+RewriteRule ^$ index.html
+
+
 RewriteRule ^libdvbpsi/index.html http://www.videolan.org/developers/libdvbpsi.html [R=permanent,L]
 RewriteRule ^libdvbpsi/libdvbpsi/.* http://www.videolan.org/developers/libdvbpsi/$1 [R=permanent,L]
 RewriteRule ^libdvdcss/index.html http://www.videolan.org/developers/libdvdcss.html [R=permanent,L]
@@ -20,10 +25,6 @@ RewriteRule ^vlc/index.html http://www.videolan.org/developers/vlc.html [R=perma
 RewriteRule ^vlc/vlc/.* http://www.videolan.org/developers/vlc/$1 [R=permanent,L]
 RewriteRule ^vls/index.html http://www.videolan.org/developers/vls.html [R=permanent,L]
 RewriteRule ^vls/vls/.* http://www.videolan.org/developers/vls/$1 [R=permanent,L]
-
-# directory/ -> directory/index.html
-RewriteRule ^(.*)/$ $1/index.html
-RewriteRule ^$ index.html
 
 RewriteRule ^(.*) http://www.videolan.org/developers/$1
 

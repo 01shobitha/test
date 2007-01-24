@@ -118,29 +118,27 @@ RewriteRule ^doc/faq/videolan-faq.html$ /doc/faq/ [R=permanent,L]
 
 ####################### Moved to developers #########################
 
-Redirect /cgi-bin http://developers.videolan.org/cgi-bin
+Redirect /cgi-bin http://krishna.videolan.org/cgi-bin
 
+RewriteRule ^dtsdec.html /developers/libdca.html [R=permanent,L]
+Redirect permanent /x264.html /developers/x264.html
+Redirect permanent /libdca.html /developers/libdca.html
 
-RewriteRule ^dtsdec.html http://developers.videolan.org/libdca.html [R=permanent,L]
-Redirect permanent /x264.html http://developers.videolan.org/x264.html
-Redirect permanent /libdca.html http://developers.videolan.org/libdca.html
+RewriteRule ^vlc/changelog.html /developers/vlc/ChangeLog [R=permanent,L]
+RewriteRule ^vls/changelog.html /developers/vls/ChangeLog [R=permanent,L]
+RewriteRule ^cvs.html http://wiki.videolan.org/Subversion [R=permanent,L]
+RewriteRule ^vlc/developers.html /developers/vlc/devel_doc.html [R=permanent,L]
+RewriteRule ^vls/developers.html /developers/vls/devel_doc.html [R=permanent,L]
+RewriteRule ^libdvdcss/download.html http://www.videolan.org/pub/videolan/libdvdcss/ [R=permanent,L]
+RewriteRule ^libdvdcss.* /developers/libdvdcss.html [R=permanent,L]
+RewriteRule ^libdvbpsi/download.html http://www.videolan.org/pub/videolan/libdvbpsi/ [R=permanent,L]
+RewriteRule ^libdvbpsi.* /developers/libdvbpsi.html [R=permanent,L]
+RewriteRule ^libdvdplay/download.html http://www.videolan.org/pub/videolan/libdvdplay/ [R=permanent,L]
+RewriteRule ^libdvdplay.* /developers/libdvdplay.html [R=permanent,L]
 
-RewriteRule ^vlc/changelog.html http://developers.videolan.org/vlc/ChangeLog [R=permanent,L]
-RewriteRule ^vls/changelog.html http://developers.videolan.org/vls/ChangeLog [R=permanent,L]
-RewriteRule ^cvs.html http://developers.videolan.org/cvs.html [R=permanent,L]
-RewriteRule ^vlc/developers.html http://developers.videolan.org/vlc/devel_doc.html [R=permanent,L]
-RewriteRule ^vls/developers.html http://developers.videolan.org/vls/devel_doc.html [R=permanent,L]
-RewriteRule ^libdvdcss/download.html http://developers.videolan.org/pub/videolan/libdvdcss/ [R=permanent,L]
-RewriteRule ^libdvdcss.* http://developers.videolan.org/libdvdcss/index.html [R=permanent,L]
-RewriteRule ^libdvbpsi/download.html http://developers.videolan.org/pub/videolan/libdvbpsi/ [R=permanent,L]
-RewriteRule ^libdvbpsi.* http://developers.videolan.org/libdvbpsi/index.html [R=permanent,L]
-RewriteRule ^libdvdplay/download.html http://developers.videolan.org/pub/videolan/libdvdplay/ [R=permanent,L]
-RewriteRule ^libdvdplay.* http://developers.videolan.org/libdvdplay/index.html [R=permanent,L]
+Redirect permanent /cvs http://wiki.videolan.org/Subversion
 
-Redirect permanent /developers http://developers.videolan.org
-Redirect permanent /cvs http://developers.videolan.org/cvs.html
-
-###################### Images #########################"""
+###################### Images ############################
 
 RewriteRule ^images/([^/]*)bri7x(.*)$ /images/goodies/$1bri7x$2 [R=permanent,L]
 RewriteRule ^images/videolan_org(.*)$ /images/goodies/videolan_org$1 [R=permanent,L]

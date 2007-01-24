@@ -20,7 +20,7 @@ www.videolan.org. </p>
 browsing the <a href="http://www.videolan.org/pub/vls/">releases</a>.</p>
 
 <p>For informations about the versions, see the 
-<a href="ChangeLog.html">ChangeLog</a>.</p>
+<a href="vls/ChangeLog.html">ChangeLog</a>.</p>
 
 <h2>Documentation</h2>
 

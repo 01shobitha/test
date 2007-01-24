@@ -2,6 +2,9 @@
    $title = "VideoLAN - mailing-lists subscription";
    $lang = "en";
    $date = "30 March 2001";
+
+   $menu = array( "developers", "main" );
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
 <?php
@@ -116,5 +119,7 @@
         reason: <b><?php echo $error; ?></b>. </p> <?php
 
     }
+
+footer('$Id$'); 
 ?>
 

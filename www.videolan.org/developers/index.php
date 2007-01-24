@@ -6,7 +6,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-
+<div id="left">
 <h2>Welcome!</h2>
 
 <p>Welcome to the new VideoLAN developers web site!</p>
@@ -24,7 +24,7 @@ There is a <a href="http://wiki.videolan.org/Developers_Corner">Developer's Corn
 <p><b>We need you</b>, so if you can, - developer or not -, please 
 <a href="http://wiki.videolan.org/Help_VideoLAN">help us</a>.<br />
 Don't forget to see us on <a href="irc://irc.videolan.org#videolan">IRC</a> 
-or on the <a href="list.html">Mailing-lists</a>.</p>
+or on the <a href="lists.html">Mailing-lists</a>.</p>
 
 
 <h2>Help</h2>
@@ -32,7 +32,7 @@ or on the <a href="list.html">Mailing-lists</a>.</p>
 <ul>
 <li><a href="http://wiki.videolan.org/Developers_Corner">Dev Wiki</a></li>
 <li><a href="http://forum.videolan.org">Forums</a></li>
-<li><a href="list.html">Mailing-lists</a></li>
+<li><a href="lists.html">Mailing-lists</a></li>
 <li><a href="irc://irc.videolan.org#videolan">IRC on irc.videolan.org #videolan</a></li>
 </ul>
 
@@ -42,5 +42,19 @@ with a SVN account. You just have to checkout the
 <code>www.videolan.org/developers/</code> module and commit your changes:
 the web site will be automatically updated a few minutes later.
 </p>
+</div>
+
+<div id="right">
+  <?php panel_start( 'orange' ); ?>
+<h1>Useful Resources</h1>
+<p>
+<a href="http://wiki.videolan.org/Developers_Corner">Developers Wiki</a>
+<a href="http://wiki.videolan.org/Subversion">Subversion</a>
+<a href="lists.html">Mailing lists</a>
+<a href="https://trac.videolan.org/">Trac - project management</a>
+<a href="http://krishna.videolan.org/cgi-bin/irc/irc.cgi">IRCWeb</a>
+</p>
+ <?php panel_end(); ?>
+</div>
 
 <?php footer('$Id$'); ?>

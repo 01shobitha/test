@@ -2,6 +2,8 @@
    $title = "VideoLAN - mailing-lists";
    $lang = "en";
    $date = "14 February 2001";
+    $menu = array( "developers", "main" );
+    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
 <h1>VideoLAN mailing-lists</h1>
@@ -71,3 +73,5 @@ subscription or unsubscription.</p>
 Experienced users can issue their commands to
 <a href="mailto:ecartis@videolan.org">ecartis@videolan.org</a>.</p>
 
+
+<?php footer('$Id$'); ?>

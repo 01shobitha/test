@@ -7,14 +7,14 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
 ?>
 
-<p id="disclaimer">Attention ! Seules les pages principales du site sont traduites pour des raisons de maintenabilité. Mais les pages restantes n'ont que peu de textes.</p>
+<p id="disclaimer">Attention ! Seules les pages principales du site ont été traduites pour des raisons de maintenabilité. Les pages restantes sont accessibles en langue anglaise.</p>
 
 <h1>Projet VideoLAN</h1>
 
 <div id="left">
 
 <h2>Le projet VideoLAN</h2>
-<p>VideoLAN produit  <a href="http://www.gnu.org/philosophy/free-sw.html">des
+<p>VideoLAN produit  <a href="http://www.gnu.org/philosophy/free-sw.fr.html">des
  logiciels libres</a> pour la vidéo, sous la license GNU
  <a href="http://www.gnu.org/copyleft/gpl.html">General Public License</a>. </p>
  <p>Le projet a commencé comme un projet étudiant à
@@ -43,7 +43,7 @@ cryptage.</li>
 librairie C pour décoder et générer des tables MPEG TS et DVB PSI.</li>
 
 <li><a href="/developers/x264.html">x264</a>, un encodeur
-H264 /AVC encoder.</li>
+H264 /AVC.</li>
 
 <li><a href="/developers/libdca.html">libdca</a>, un
 décodeurs DTS Coherent Acoustics.</li>

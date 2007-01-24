@@ -33,7 +33,7 @@ e-mail address below. You will be sent an email-based confirmation
 request a few minutes later. Reply to the email to confirm the
 subscription or unsubscription.</p>
 
-<form action="subscribe.html" method="post">
+<form action="subscribe.php" method="post">
 
 <p>Your email address: <input type="text" name="from" size="30" /></p>
 

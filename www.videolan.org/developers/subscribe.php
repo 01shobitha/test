@@ -44,7 +44,7 @@
             $error = "invalid submit query";
         }
     }
-
+echo $ok;
     if( $ok != "" ) {
         /* Lame syntax checking. More than enough. */
         $from = ereg_replace("[\\\\|\\(\\)\n]","",$from);

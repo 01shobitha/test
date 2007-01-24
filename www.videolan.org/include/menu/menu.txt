@@ -1,4 +1,4 @@
 vlc;VLC media player;/;cone.gif;18,24
 project;Project;/project;home.gif;24;24
 doc;Documentation;/doc/;doc.gif;31;24
-developers;Developers;http://developers.videolan.org/;tool.gif;24;24
+developers;Developers;/developers/;tool.gif;24;24

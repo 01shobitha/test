@@ -138,6 +138,10 @@ if ($date_mod <> $date) echo '&nbsp; <img src="/images/updated.png" />'; ?></h3>
              $r['avg'], $r['count'], $r['avg_old'], $r['count_old'],
              $r['sign'], $r['min_version'] );
   }
+  $query = "SELECT downloads FROM skins_pack WHERE id=0"
+  $q = pg_query( $connect, $query );
+  $r = pg_fetch_array( $q );
+  $sp_dl = $r['downloads'];
   pg_close( $connect );
 ?>
 
@@ -189,7 +193,7 @@ might ease the job, though :-)</p>
 <?php panel_start( "gray" ); ?>
 <h1>Skin pack</h1>
 
-<p>Download all the skins at once <a href='/vlc/skins2/vlc-skins.zip'>here</a> (5 MB).</p>
+<p>Download all the skins at once <a href='download-skins2-go.php?url=vlc-skins.zip'>here</a> (5 MB).<br/>Downloaded <?php echo $sp_dl; ?> times since January 2007.</p>
 <?php panel_end(); ?>
 
 </div>

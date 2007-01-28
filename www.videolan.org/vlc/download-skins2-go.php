@@ -12,7 +12,14 @@ $url = $_GET["url"];
   require_once '/home/videolan/etc/db-www.php';
   if( !($connect = pg_connect( $connect_string )) )
      die( "connection to database failed" );
-  pg_query( "UPDATE skins SET downloads=downloads+1 WHERE url='$url'" );
+  if( $url == "vlc-skins.zip" )
+  {
+    pg_query( "UPDATE skins_pack SET downloads=downloads+1 WHERE id=0'" );
+  }
+  else
+  {
+    pg_query( "UPDATE skins SET downloads=downloads+1 WHERE url='$url'" );
+  }
   pg_close( $connect );
 ?>          
   </body>

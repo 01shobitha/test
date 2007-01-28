@@ -1,6 +1,6 @@
 <?php
 
-function DownloadSize( $filename )
+function DownloadSize( $file )
 {
   $size = @filesize( $file );
   return FormatSize( $size );

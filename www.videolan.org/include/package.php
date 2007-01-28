@@ -1,15 +1,11 @@
 <?php
 
-function DownloadSize($file) {
-  $size = @filesize($file);
-  $sizes = Array('B', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB');
-  $ext = $sizes[0];
-  for ($i=1; (($i < count($sizes)) && ($size >= 1024)); $i++) {
-   $size = $size / 1024;
-   $ext  = $sizes[$i];
-  }
-  return round($size, 1).$ext;
+function DownloadSize( $filename )
+{
+  $size = @filesize( $file );
+  return FormatSize( $size );
 }
+
 function browse_old( $fold )
 {
  echo "<p> Older versions can be found by browsing ";

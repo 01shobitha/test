@@ -14,7 +14,7 @@ $url = $_GET["url"];
      die( "connection to database failed" );
   if( $url == "vlc-skins.zip" )
   {
-    pg_query( "UPDATE skins_pack SET downloads=downloads+1 WHERE id=0'" );
+    pg_query( "UPDATE skins_pack SET downloads=downloads+1 WHERE id=0" );
   }
   else
   {

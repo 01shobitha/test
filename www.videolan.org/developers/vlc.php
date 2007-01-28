@@ -83,12 +83,12 @@ href="mailto:sam@videolan.org">Samuel Hocevar</a>
 </tr>
 
 <tr>
-  <td class="category">Localization stats & Translations</td>
+  <td class="category">Localization stats &amp; Translations</td>
    <td class="yes">
      Up-to-date
    </td>
   <td>
-     <a href="i18n/vlc.html">HTML</a>
+     <a href="i18n/">HTML</a>
      <a href="i18n/vlc-howto.html">Howto - HTML</a>
    </td>
    <td>

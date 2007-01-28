@@ -26,6 +26,8 @@ moderated.</p>
 <p>You can consult the
 <a href="http://www.via.ecp.fr/via/ml/videolan-en.html">online archives</a> hosted at
 VIA.</p>
+<p>You can also consult the <a href="http://dir.gmane.org/index.php?prefix=gmane.comp.video.videolan">Gmane</a> archives of the mailing-lists.</p>
+
 <h2>Subscription / Unsubscription</h2>
 
 <p>You can subscribe or unsubscribe from the web. Just enter your

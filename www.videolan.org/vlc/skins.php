@@ -138,7 +138,7 @@ if ($date_mod <> $date) echo '&nbsp; <img src="/images/updated.png" />'; ?></h3>
              $r['avg'], $r['count'], $r['avg_old'], $r['count_old'],
              $r['sign'], $r['min_version'] );
   }
-  $query = "SELECT downloads FROM skins_pack WHERE id=0"
+  $query = "SELECT downloads FROM skins_pack WHERE id=0";
   $q = pg_query( $connect, $query );
   $r = pg_fetch_array( $q );
   $sp_dl = $r['downloads'];

@@ -46,7 +46,7 @@ if ($date_mod <> $date) echo '&nbsp; <img src="/images/updated.png" />'; ?></h3>
       <?php echo "$dl downloads since $date"; ?>
     </td></tr>
     <tr>
-<td><a class="skins-download" href="download-skins2-go.php?url=<?php echo "$url"; ?>">Download VLT file</a> (<?php FormatSize( size ); ?>. Requires VLC <?php echo $min_version; ?> or newer)
+<td><a class="skins-download" href="download-skins2-go.php?url=<?php echo "$url"; ?>">Download VLT file</a> (<?php FormatSize( $size ); ?>. Requires VLC <?php echo $min_version; ?> or newer)
     </td></tr>
     <tr><td class="skins-comment">
       Rating:

@@ -185,8 +185,8 @@ if ($date_mod <> $date) echo '&nbsp; <img src="/images/updated.png" />'; ?></h3>
 <?php panel_start( "blue" ); ?>
 <h1>Create your own skin!</h1>
 
-<p>If you still don't find any skin you like, why not
-<a href="/vlc/skins2-create.html">creating a better one</a>?<br/> Don't worry,
+<p>If you still don't find any skin you like, why don't you
+<a href="/vlc/skins2-create.html">create a better one</a>?<br/> Don't worry,
 you don't need any programming skills... Some knowledge about graphics software
 might ease the job, though :-)</p>
 <?php panel_end(); ?>

@@ -378,7 +378,7 @@ feature( "Bonjour protocol", YES, YES, YES, UNT, UNT, UNT );
 <tr>
 <td class="type">Mozilla/Firefox plugin</td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#bottom_notes">12</a></sup></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes">No</td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -404,12 +404,12 @@ feature( "IPv6", YES, YES, YES, NO, YES, YES );
 
 
 <tr>
-<td class="type">CPU acceleration <sup><a href="#bottom_notes">14</a></sup></td>
+<td class="type">CPU acceleration <sup><a href="#bottom_notes">13</a></sup></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#bottom_notes">13</a></sup></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#bottom_notes">12</a></sup></td>
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 </tr>
 
@@ -422,9 +422,6 @@ feature( "IPv6", YES, YES, YES, NO, YES, YES );
   </li>
   <li>CDDB information provided by libcddb on all supported platforms excepting BeOS.
  </li>
-  <li> The Mozilla Plugin for Mac is only available for PowerPC-based Macs and Intel-based Macs running Mozilla in the Rosetta-mode. A port to the new Macs
-  will be provided within VLC's 0.8.6 release.
-  </li>
   <li> The OpenBSD 2.9 default assembler does not support MMX.
   </li>
   <li> Supported CPU extensions are MMX, MMXEXT, SSE, SSE2 and 3D Now! on x86

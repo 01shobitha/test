@@ -49,8 +49,14 @@ for Mac OS X:</p>
 
 <h2>Misc Images</h2>
 
-<p>PlayItsAll from <a href="http://www.xtremestuff.net">Asim Siddiqui</a>: </p>
-<img src="/images/goodies/vlc_playsitall.png" />
+<p>PlayItsAll made by <a href="http://www.xtremestuff.net">Asim Siddiqui</a>: </p>
+<img src="/images/goodies/vlc_playsitall.png" /><img src="/images/goodies/cone_blue_strip_bluetriangle.png" />
+
+<p>Cone Icons with blue strip made by <a href="http://www.xtremestuff.net">Asim Siddiqui</a>: </p>
+
+<img src="/images/goodies/cone_blue_strip_orangeround.png" /><img src="/images/goodies/cone_blue_strip.png" />
+
+<img src="/images/goodies/cone_blue_strip-audio64.png" /><img src="/images/goodies/cone_blue_strip-video64.png" /><img src="/images/goodies/cone_blue_strip-dvd64.png" />
 
 <h2>Background images</h2>
 

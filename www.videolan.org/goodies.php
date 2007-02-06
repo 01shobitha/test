@@ -46,6 +46,12 @@ for Mac OS X:</p>
 
 </li>
 </ul>
+
+<h2>Misc Images</h2>
+
+<p>PlayItsAll from <a href="http://www.xtremestuff.net">Asim Siddiqui</a>: </p>
+<img src="/images/goodies/vlc_playsitall.png" />
+
 <h2>Background images</h2>
 
 <p>All videolan background images can now be downloaded in one

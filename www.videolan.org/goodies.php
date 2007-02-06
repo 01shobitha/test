@@ -49,7 +49,7 @@ for Mac OS X:</p>
 
 <h2>Misc Images</h2>
 
-<p>PlayItsAll made by <a href="http://www.xtremestuff.net">Asim Siddiqui</a>: </p>
+<p>PlaysItAll made by <a href="http://www.xtremestuff.net">Asim Siddiqui</a>: </p>
 <img src="/images/goodies/vlc_playsitall.png" /><img src="/images/goodies/cone_blue_strip_bluetriangle.png" />
 
 <p>Cone Icons with blue strip made by <a href="http://www.xtremestuff.net">Asim Siddiqui</a>: </p>

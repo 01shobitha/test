@@ -31,12 +31,15 @@
 <?php pkgitem( "PowerPC package",
                "0.8.6a/macosx","vlc-0.8.6a-powerpc.dmg","vlc"); ?>
 
-<h2>Last Mac OS X package for 10.2, 10.3 up to 10.3.8 (release 0.8.4a)</h2>
+<?php pkgitem( "Web Browser plugin for PowerPC",
+               "0.8.6a/macosx","vlc-plugin-0.8.6a-powerpc.dmg","vlc"); ?>
+
+<h2>Last Mac OS X package for 10.2 (release 0.8.4a)</h2>
 
 <p><b>Requires <a href="http://www.apple.com/support/downloads/quicktime652formac.html">QuickTime 6.5.2</a> or later</b></p>
 <ul>
 <li>
-<?php pkgitem_nomirr( "Last Mac OS X package for 10.2, 10.3 up to 10.3.8 (release 0.8.4a)", "0.8.4a/macosx","vlc-0.8.4a.dmg","vlc"); ?>
+<?php pkgitem_nomirr( "Last Mac OS X package for 10.2 (release 0.8.4a)", "0.8.4a/macosx","vlc-0.8.4a.dmg","vlc"); ?>
 </li>
 </ul>
 

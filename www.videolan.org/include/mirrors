@@ -21,8 +21,8 @@ ftp://ftp.crans.org/pub/videolan/|Cr@ns, ENS Cachan|France|fr|FTP
 ftp://videolan.cs.pu.edu.tw/Windows/VideoLAN/|Providence University|Taiwan|tw|FTP
 #
 # Contact : erik at telia dot com - round robin 100Mbits Stockholm 100Mbits Gothenburg
-#Seems to require auth now
-#ftp://ftp.endpoint.nu/pub/software/videolan/|Endpoint Corporation|Sweden|se|FTP
+#Directory listing is disabled.
+ftp://ftp.endpoint.nu/pub/software/videolan/|Endpoint Corporation|Sweden|se|FTP
 #
 # Contact : richard at optralan dot com - BW 100 Mbits - East coast
 http://mirrors.optralan.com/videolan/|Optralan|USA|us|HTTP

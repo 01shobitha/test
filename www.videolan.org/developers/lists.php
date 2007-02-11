@@ -61,6 +61,8 @@ subscription or unsubscription.</p>
           <code><b>libdca-devel@videolan.org</b></code> (libdca development)<br />
       <input type="checkbox" name="x264devel" />
           <code><b>x264-devel@videolan.org</b></code> (x264 development)<br />
+      <input type="checkbox" name="mpris" />
+          <code><b>mpris@videolan.org</b></code> (discussion about MPRIS)<br />
       <input type="checkbox" name="wwwdoc" />
           <code><b>www-doc@videolan.org</b></code> (website and documentation)<br />
 

@@ -22,6 +22,7 @@
     $libdvdcssdevel = $_POST["libdvdcssdevel"];
     $libdcadevel = $_POST["libdcadevel"];
     $x264devel = $_POST["x264devel"];
+    $mpris = $_POST["mpris"];
     $wwwdoc = $_POST["wwwdoc"];
 
 
@@ -85,6 +86,9 @@ echo $ok;
             }
             if( $managerdevel != "" ) {
                 $message.= $prefix."subscribe manager-devel $from\n"; $valid = 1;
+            }
+            if( $mpris != "" ) {
+                $message.= $prefix."subscribe mpris $from\n"; $valid = 1;
             }
             if( $wwwdoc != "" ) {
                 $message.= $prefix."subscribe www-doc $from\n"; $valid = 1;

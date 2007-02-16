@@ -25,8 +25,8 @@ field You can always ask vlc-devel@videolan.org for assistance.</p>
 <h3>How to start a new language ?</h3>
 
 <p>If there is no localization file for your language, send a mail to
-<i>vlc-devel@videolan.org</i>. In return we will send you a localization file,
-along with a special VLC binary for your tests.</p>
+<i>vlc-devel@videolan.org</i>. In return we will send you a localization file.
+</p>
 
 <h3>How to test your localization on UNIX ?</h3>
 

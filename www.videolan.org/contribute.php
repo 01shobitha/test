@@ -172,6 +172,7 @@ companies and institutions who helped VideoLAN.</p>
 euros to help us buy a PowerMac G5</li> 
   <li>The french magazine <strong>à vos MAC</strong> gave 500 euros to 
 help us buy a PowerMac G5</li>
+  <li><strong>Laurent Dupuy</strong>, who made a 540&euro; donation to the VideoLAN project</li>
 </ul>
 
 </div>

@@ -28,6 +28,9 @@
 <?php pkgitem( "Intel package",
                "0.8.6a/macosx","vlc-0.8.6a-intel.dmg","vlc"); ?>
 
+<?php pkgitem( "Web Browser plugin for Intel",
+               "0.8.6a/macosx","vlc-plugin-0.8.6a-intel.dmg","vlc"); ?>
+
 <?php pkgitem( "PowerPC package",
                "0.8.6a/macosx","vlc-0.8.6a-powerpc.dmg","vlc"); ?>
 

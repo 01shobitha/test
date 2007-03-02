@@ -56,13 +56,13 @@ echo "<li class='$class' $style><a href='$url'>$name</a></li>";
 </div><div class="os2">
 <ul class="os">
 <?php
-      addos( "YOPY/Linupy", "linupy", "download-linupy.html" );
-      addos( "Zaurus", "zaurus", "download-zaurus.html" );
       addos( "SUSE Linux", "suse", "download-suse.html" );
       addos( "Red Hat Linux", "redhat", "download-redhat.html" );
-      addos( "WinCE / PocketPC", "wince", "download-wince.html" );
       addos( "Slackware Linux", "slackware", "download-slackware.html" );
       addos( "ALT Linux", "altlinux", "download-altlinux.html" );
+      addos( "YOPY/Linupy", "linupy", "download-linupy.html" );
+      addos( "Zaurus", "zaurus", "download-zaurus.html" );
+      addos( "WinCE / PocketPC", "wince", "download-wince.html" );
 ?>
   </ul></div>
 

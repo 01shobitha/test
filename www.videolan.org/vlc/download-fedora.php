@@ -9,6 +9,24 @@
 
 <div id="fullwidth">
 
+
+<h1>VLC media player for <a href="http://fedora.redhat.com/">Fedora Core</a></h1>
+<p>The only version we officially support is VLC 0.8.5 for Fedora Core 4.<br />
+<b>BUT</b>, you can find VLC 0.8.6 for all the other flavours of fedora:</p>
+
+<h2>Fedora Core 6</h2>
+<p>Use <a href="http://rpm.livna.org/">RPM - LIVNA</a> for FC6.</p>
+
+<h2>Fedora Core 4 and 5</h2>
+<p>For those two versions, VLC 0.8.6 is not available. You can have 0.8.5 here 
+for FC 4 and on <a href="http://freshrpms.net">FreshRPMs</a></p>.
+
+<h2>Fedora Core 1, 2 and 3</h2>
+<p>Use <a href="http://dag.wieers.com/">Dag wieers</a> to have 0.8.6 for those old versions!!</p>
+
+<h2>Other versions - Search</h2>
+<p>Use <a href="http://rpm.pbone.net/">PBone.net</a> to search a lot of other versions of VLC for fedora or fedora compatible distributions.</p>
+
 <h1>VLC media player for <a href="http://fedora.redhat.com/">Fedora Core</a> 4</h1>
 
 <h2>Yum repository</h2>
@@ -85,12 +103,6 @@ gpgcheck=1
 <pre>
     $ rpm -ivh fedora/4/i386/vlc/0.8.5/base/*.rpm fedora/4/i386/vlc/0.8.5/contrib/*.rpm
 </pre>
-
-<h1>Unofficial Fedora Core packages</h1>
-
-<p>rpm.livna.org maintains some Fedora Core Packages for VLC: <a href="http://rpm.livna.org/">get them here</a>.</p>
-
-<p>Matthias Saou from freshrpms.net also maintains some Fedora Core Packages: <a href="http://freshrpms.net">get them here</a>.</p>
 
 <h2>Older versions</h2>
 <?php browse_old("vlc") ; ?>

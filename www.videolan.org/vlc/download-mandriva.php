@@ -18,7 +18,7 @@
 
 <p>To install the latest VLC packages,
 add the following sources for your Mandrake version (you
-can use <a href="http://plf.zarb.org/">Easy urpmi</a> for
+can use <a href="http://easyurpmi.zarb.org/">Easy urpmi</a> for
 that):</p>
 
 <ul>

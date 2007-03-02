@@ -11,7 +11,10 @@
 
 <div id="fullwidth">
 
-<h2>Red Hat packages for i386</h2>
+<h2>Unofficial packages for RHEL 4</h2>
+<p>Use <a href="http://dag.wieers.com/rpm/packages/vlc/">Dag wieers</a> to have 0.8.6 for this version!</p>
+
+<h2>Red Hat 9.0 packages for i386</h2>
 
 <p>Latest RPM x86 packages tarballs for Red Hat 9.0: </p>
 

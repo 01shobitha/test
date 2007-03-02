@@ -22,7 +22,7 @@
 for FC 4 and on <a href="http://freshrpms.net">FreshRPMs</a></p>.
 
 <h2>Fedora Core 1, 2 and 3</h2>
-<p>Use <a href="http://dag.wieers.com/">Dag wieers</a> to have 0.8.6 for those old versions!!</p>
+<p>Use <a href="http://dag.wieers.com/rpm/packages/vlc/">Dag wieers</a> to have 0.8.6 for those old versions!!</p>
 
 <h2>Other versions - Search</h2>
 <p>Use <a href="http://rpm.pbone.net/">PBone.net</a> to search a lot of other versions of VLC for fedora or fedora compatible distributions.</p>

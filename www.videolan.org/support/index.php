@@ -12,9 +12,9 @@
 
 <p>VideoLAN is free software, and has neither a big company nor paid developers,
 so the user support is provided by the VideoLAN user and developer community
-on their free time.</p>
-<p>However, there are lots of ressources and informations to get support and 
-help for VideoLAN software.</p>
+on their free time. </p>
+<p>However, here are <b>lots</b> of ressources and informations to get support and 
+help for VideoLAN software. We will do our best.</p>
 
 
 <h2>Getting help</h2>
@@ -79,6 +79,7 @@ do it by <a href="mailto:videolan@REMOVETHIS@videolan.org">mail</a> or IRC.</p>
 <p>As we have a lot of spam and lots of e-mail, be sure to state in the subject that
 you want to speak about VideoLAN. Try to not write HTML mails, thanks.</p>
 </div>
+
 <div id="right">
 <?php panel_start("orange"); ?>
 <h1>The forums</h1>
@@ -99,7 +100,6 @@ question has not yet been answered before asking.</p>
  all that is not in the official documentation: tips and tricks for each
  O.S., graphical interfaces, etc...</p>
 <?php panel_end(); ?>
-S
 
 <?php panel_start("orange"); ?>
 <h1>The mailing-lists</h1>

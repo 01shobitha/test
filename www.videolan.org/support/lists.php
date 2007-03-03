@@ -48,9 +48,9 @@ subscription or unsubscription.</p>
           <code><b>videolan-announce@videolan.org</b></code>
           (low-traffic and moderated announce list for VideoLAN releases and events)<br />
       <input type="checkbox" name="vlc" />
-          <code><b>vlc@videolan.org</b></code> (user discussions about VLC)<br />
+          <code><b>vlc@videolan.org</b></code> (<b>users</b> discussions about VLC)<br />
       <input type="checkbox" name="streaming" />
-          <code><b>streaming@videolan.org</b></code> (user discussions about the streaming solution: VLS, mini-SAP-server, the network...)<br />
+          <code><b>streaming@videolan.org</b></code> (<b>users</b> discussions about the streaming solution: VLC, VLS, mini-SAP-server, the network...)<br />
       </p>
 
       <p><input type="submit" name="subscribe" value="Subscribe" />
@@ -59,7 +59,7 @@ subscription or unsubscription.</p>
 </form>
 
 <p>In addition to these mailing-lists, users can also
-subscribe to the developers mailing-lists: see the <a
+subscribe to the <b>developers</b> mailing-lists: see the <a
 href="/developers/lists.html">mailing-lists</a> page on
 the developers Web site.</p>
 

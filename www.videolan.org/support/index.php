@@ -1,178 +1,86 @@
 <?php
-   $title = "VideoLAN - User support";
+   $title = "VideoLAN - User support and help";
    $lang = "en";
-   $date = "13 January 2002";
+   $date = "3 march 2007";
    $menu = array( "vlc", "support" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php"); 
 ?>
 
 <div id="left">
-<h1> User support </h1>
 
-<p>VideoLAN is free software, so the user support is provided by the
-VideoLAN user and developer community.</p>
+<h1> User support - Help</h1>
 
-<h2>Reporting a bug</h2>
-
-<p>If you find any bugs, or if you experience any crashes, then we would
-very much like to hear of these problems/suggestions. Here are some
-detailed information on how to submit useful bug reports.</p>
-
-<h3>Is it truly a new bug?</h3>
-
-<p>It may sound strange, but many of the bugreports we get are not
-really bugs at all, or have been know for months. Please check the
-following:</p>
-
-<ul class="bullets">
-
-<li>Are you using the latest version of VLC? Bug reports on older
-versions of VLC are likely to be ignored, because changes in the program
-may make it impossible to reproduce the bug, or may even have fixed it.
-Always make sure the issue you want to report is still present in the
-current version of VLC.</li>
-
-<li>Have you reset your preferences and restarted VLC yet? Often old
-preferences and incorrect settings are the cause of an issue you are
-seeing. Ouf <a href="/doc/faq/en/index.html#id239188">FAQ</a> details
-how to do this. (Uninstalling VLC does not remove it's old settings.)
-Double check that your issue still exists. </li>
-
-<li>Some things are simply NOT supported by VLC.
-We have a <a href="/vlc/features.html">list</a>
-of features that are supported in VLC and a <a
-href="https://trac.videolan.org/vlc/query?action=view&amp;type=enhancement&amp;order=priority">list of things</a> we would like to
-implement in the future. If your suggestion is not on this
-list, you might want to make a <i>feature request</i> in the
-<a href="http://forum.videolan.org/viewforum.php?f=7">Requests
-Forum</a>, asking the developers to support this. Remember that
-we all do this in our spare time. There is no timeline whatsoever
-for the implementation of these enhancements and we do not make
-ANY promises as to when we will add them to VLC. If you really
-want something right now, you best implement it yourself. Look <a
-href="/developers/vlc.html">here</a> to see how you can
-develop on VLC.</li>
-
-<li>Many bugs are already known. Sometimes they are
-already fixed for the next version of VLC. Please <a
-href="https://trac.videolan.org/vlc/search?q=&amp;ticket=on">search</a> the
-list of known and fixed issues. If you find your issue, see if it is
-already closed. The page of the issue will then show something like:
-<i>Ticket #87 (Closed: fixed)</i>.</li>
-
-</ul>
-
-<h3>So you still think you found a bug?</h3>
-
-<p>Then it is time to start looking at the <a
-href="http://forum.videolan.org">forums</a>. <a
-href="http://forum.videolan.org/search.php">Search</a> them and
-see if someone else has asked a similar question or has seen a
-similar bug.</p>
-
-<p>If you are still unsure about your bug, please post your question or
-problem in the <a href="http://forum.videolan.org/">relevant forum</a>
-and make sure you include as much information as possible (see also the
-pointers below). Of course you can also mail us with your problems
-to the <a href="/support/lists.html">mailinglist</a>.</p>
-
-<p>If you are sure that you found a bug and that you have
-all information needed, you can enter a bug in our <a
-href="https://trac.videolan.org/vlc/">Trac system</a>. You will need
-to register here to enter a bug. Don't forget to enter a valid e-mail
-address if you want to receive notifications when your bug is handled.</p>
-
-
-<p>When you post on the forum, email us or enter a bug report, please
-provide as much information as possible in your report. <br />
-We try to answer all your mails, posts and reports, but there are so
-many that sometimes we simply don't have the time to do so. The more
-sound details you provide about your issue, the better the chance that
-we will investigate it fully.</p>
-
-<h3>What to include in your report</h3>
-
-<p>Please gather the following information and send it along with your
-report.</p>
-
-<ul class="bullets">
-
-<li>Make sure you are registered on the forum, or that your email has a
-valid reply address, so we can get back to you with possible additional
-questions.</li>
-
-<li>Your operating <b>system</b> and the <b>version</b> you use. VLC
-runs on many systems and this information is really important.<br
-/><em>For instance: WinXP, MacOSX 10.2 or Mandrake 8.1</em></li>
-
-<li>The <b>hardware</b> you use. Make sure to name all the audio and
-video hardware in question that might be related to VLC's usage.<br />
-<i>For instance: iMac G4 or Pentium4 with GeForce3, with an external USB
-dolby surround output device.</i></li>
-
-<li>The <b>version</b> of VLC you use.<br /><em>For instance: VLC 0.8.5 (You should always use the latest version of course)</em></li>
-
-<li>The exact <b>situation</b> in which the problem occurred. Please describe in as much detail as possible.<br /><em>For instance: I pressed the play button while fast-forwarding and VLC crashed.</em></li>
-
-<li>Can you always <b>reproduce</b> the problem in a certain way?<br />	<em>For instance: The crash always occurs with the 'Matrix' DVD after 10 minutes.</em></li>
-
-<li>The type of <b>movie</b> you were playing. And whether or not the issue is present on other types of movies.<br /><em>For instance: DVD, Divx or mpeg.</em></li>
-
-<li>If possible, the video<b>sample</b> in question:<br /> 
-If the issue
-is specific to a certain movie, it can help a lot if we have the movie
-itself. In this case please upload as much of the file as you can to our
-<a href="ftp://streams.videolan.org/incoming">FTP samples server</a>.
-Give the file a distinct name, and upload a text file with the same name
-in which you again describe the problem. Report this upload in your
-forum posting and tell us the name of your file. This makes sure we can
-more easily find back your sample.</li>
-
-</ul>
-
-<h3>Additional remarks</h3>
-
-<p>If you can, or if it applies to you try to take into account the following.</p>
-
-<h4>Mac OS X users</h4>
-<ul>
-
-<li>Please send along the last part of
-~/Library/Logs/CrashReporter/VLC.crash.log if you can. Many crashes of
-VLC are logged in this file. You can open the file from VLC by going to
-the menu Window and choosing Messages. Now click the "Open CrashLog"
-button.<br />
-Please make sure you send the last crash (at the bottom of the file) and
-that it actually is the crash you described. The Date/Time field reports
-the time of the crash so that way you can check if it is the crash you
-experienced, or an earlier one.</li>
-</ul>
-
-<h4>Compile problems</h4>
-<ul>
-<li>Make sure you have read the developer <a href="/developers/vlc.html">documentation</a>.</li>
-<li>Give the full log showing the problem
-<blockquote>
-  <p>
-  ./configure &lt;options&gt; &gt; logfile.txt 2&gt;&amp;1 <br />
-  make 2&gt;&amp;1 > logfile.txt 2&gt;&amp;1
-  </p>
-</blockquote>
-</li>
-<li>When dealing with a ./configure issue, please provide the generated config.log file.</li>
-<li>Your compiler brand and version may be relevant here as well.</li>
-</ul>
-
-<p><em>>Written by Derk-Jan Hartman, for the VideoLAN Team.</em>
-</p>
-
-</div>
+<p>VideoLAN is free software, and has neither a big company nor paid developers,
+so the user support is provided by the VideoLAN user and developer community
+on their free time.</p>
+<p>However, there are lots of ressources and informations to get support and 
+help for VideoLAN software.</p>
 
 <div id="right">
 
 <h2>Getting help</h2>
 
-<?php panel_start("blue"); ?>
+<h3>FAQ</h3>
+<p>If you have any questions about VideoLAN, about VLC media player, you should
+<strong>always start</strong> by reading the <a href="http://wiki.videolan.org/Frequently_Asked_Questions">Official FAQ</a>.</p>
+
+<h3>HOW TO</h3>
+<p>If you have a question about how to do something with VLC media player or
+other VideoLAN software, you should:</p>
+<ul>
+<li> read the <a href="/doc/">Documentation</a>,</li>
+<li>browse our <a href="http://wiki.videolan.org/">wiki</a> and its knowledge 
+database.</li>
+</ul>
+
+<h3>Problems</h3>
+<p>If you are experimenting problems using our software, you should:</p>
+<ul>
+<li> read the <a href="http://wiki.videolan.org/Common_Problems">Common problems</a> page in our wiki.</li>
+<li> <a href="http://forum.videolan.org/search.php">search</a> the official 
+<a href="http://forum.videolan.org/">forum</a> for an answer.</li>
+</ul>
+
+<h3>Ask a question</h3>
+<p>If this is not enough, which can happen, ask a question. For that, you need
+to get information and prepare a correct report for people to help you. 
+The <a href="http://wiki.videolan.org/VLC_report">VLC report page</a> on our
+<a href="http://wiki.videolan.org">Wiki</a> will help you to do it.</p>
+<p>Then ask your question, on:</p>
+<ul>
+<li>the <a href="http://forum.videolan.org">Forum</a>, in the correct section;</li>
+<li>the <a href="lists.html">users mailing-lists</a>;</li>
+<li>the IRC channel (<em>irc.videolan.org, #videolan</em>, for live answers.
+Use the web-based <a href="http://krishna.videolan.org/cgi-bin/irc/irc.cgi">IRCWeb</a> interface,
+if you need it.</li></ul>
+
+<h2>Developers and Reporting bugs</h2>
+
+<h3>Developers</h3>
+<p>You are a developer and you want to help the project or build a project around our software?</p>
+<p>Read the <a href="/developers/">developers</a> section of this website or go and finds lots of
+info on the <a href="http://wiki.videolan.org/Developers_Corner">Developer's corner</a>. You
+should also use the <a href="/developers/lists.html">developers mailing-lists</a> and IRC.</p>
+
+<h3>Report a bug</h3>
+<p> Read and conform yourself to our <a href="http://wiki.videolan.org/Report_bugs">Reporting Bugs</a>
+ policy and look on our <a href="http://trac.videolan.org">Bugtracking</a>.</p>
+
+<h2>Professional questions and other questions</h2>
+
+<h3>Consulting services</h3>
+
+<p>If you are a professionnal, and need services around our products, 
+some companies provide professionnal support on VideoLAN. They are
+listed on the <a href="/vlc/partners.html">consultants</a> page.</p>
+
+<h3>Contacting the team</h3>
+<p>If your matter is not answered yet, and you need to contact the <a href="/team/">team</a>,
+do it by <a href="mailto:videolan@REMOVETHIS@videolan.org">mail</a> or IRC.</p>
+<p>As we have a lot of spam and lots of e-mail, be sure to state in the subject that
+you want to speak about VideoLAN. Try to not write HTML mails, thanks.</p>
+
+<?php panel_start("orange"); ?>
 <h1>The forums</h1>
 
 <p>Our <a href="http://forum.videolan.org">Web forums</a> can help you
@@ -181,7 +89,17 @@ question has not yet been answered before asking.</p>
 
 <?php panel_end(); ?>
 
+<?php panel_start( "blue" ); ?>
+ <h1> VideoLAN Wiki </h1>
+	 
+ <p>The VideoLAN Wiki is at <a   
+ href="http://wiki.videolan.org">http://wiki.videolan.org/</a></p>
 
+ <p>The Wiki is a website that anyone can change. Its goal is to document
+ all that is not in the official documentation: tips and tricks for each
+ O.S., graphical interfaces, etc...</p>
+<?php panel_end(); ?>
+S
 
 <?php panel_start("orange"); ?>
 <h1>The mailing-lists</h1>

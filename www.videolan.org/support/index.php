@@ -16,7 +16,6 @@ on their free time.</p>
 <p>However, there are lots of ressources and informations to get support and 
 help for VideoLAN software.</p>
 
-<div id="right">
 
 <h2>Getting help</h2>
 
@@ -79,7 +78,8 @@ listed on the <a href="/vlc/partners.html">consultants</a> page.</p>
 do it by <a href="mailto:videolan@REMOVETHIS@videolan.org">mail</a> or IRC.</p>
 <p>As we have a lot of spam and lots of e-mail, be sure to state in the subject that
 you want to speak about VideoLAN. Try to not write HTML mails, thanks.</p>
-
+</div>
+<div id="right">
 <?php panel_start("orange"); ?>
 <h1>The forums</h1>
 

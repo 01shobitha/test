@@ -180,6 +180,7 @@ if ($date_mod <> $date) echo '&nbsp; <img src="/images/updated.png" />'; ?></h3>
      you can use the CTRL+S shortcut to load the new one.
   Enjoy!</li>
 </ul>
+<p><i>Please note that current releases of VLC do not support Skins on Mac OS X.</i></p>
 <?php panel_end(); ?>
 
 <?php panel_start( "blue" ); ?>

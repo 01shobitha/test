@@ -14,12 +14,12 @@ function browse_old( $fold )
 
 function pkgitem_nomirr($description,$version,$name,$top,$extradescription="")
 {
-  echo "<p><a href=\"http://download.videolan.org/pub/videolan/$top/$version/$name\">$description</a>. <i>$extradescription</i> (".DownloadSize("{$_SERVER["DOCUMENT_ROOT"]}pub/videolan/$top/$version/$name").")</p>";
+  echo "<p><a href=\"http://download.videolan.org/pub/videolan/$top/$version/$name\">$description</a> <i>$extradescription</i> (".DownloadSize("{$_SERVER["DOCUMENT_ROOT"]}pub/videolan/$top/$version/$name").")</p>";
 }
 
 function pkgitem($description,$version,$name,$top,$extradescription="")
 {
-  echo "<p>$description. <i>$extradescription</i> (".DownloadSize("{$_SERVER["DOCUMENT_ROOT"]}pub/videolan/$top/$version/$name").")</p>";
+  echo "<p>$description <i>$extradescription</i> (".DownloadSize("{$_SERVER["DOCUMENT_ROOT"]}pub/videolan/$top/$version/$name").")</p>";
 ?>
   <table>
     <tbody><tr>

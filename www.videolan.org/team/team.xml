@@ -2,7 +2,7 @@
 
 <markers>
 
-<marker username="dionoea" website="http://www.videolan.org" fullname="Antoine Cellerier" location="Marly le Roi, France" blurb="" lat="48.874325" lon="2.07857" title="Developper" />
+<marker username="dionoea" website="http://www.videolan.org" fullname="Antoine Cellerier" location="Marly le Roi, France" blurb="" lat="48.874325" lon="2.07857" title="Developer" />
 
 <marker username="jpsaman" website="http://www.videolan.org" fullname="Jean-Paul Saman" location="Helmond, The Netherlands" blurb="" lat="51.461377" lon="5.620376" title="Developer" />
 
@@ -10,7 +10,7 @@
 
 <marker username="feepk" website="http://www.videolan.org" fullname="Felix Paul Kühne" location="Berlin, Germany" blurb="" lat="52.312562" lon="13.244282" title="Developer" />
 
-<marker username="Xtophe" fullname="Christophe Mutricy" location="Bristol, England" title="Developper" lat="51.5015" lon="-2.6071" blurb="" website="http://people.nxtelevision.com/~xtophe" picture="http://people.nxtelevision.com/~xtophe/avatar.jpg" pic_width="100" pic_height="100" />
+<marker username="Xtophe" fullname="Christophe Mutricy" location="Bristol, England" title="Developer" lat="51.5015" lon="-2.6071" blurb="" website="http://people.nxtelevision.com/~xtophe" picture="http://people.nxtelevision.com/~xtophe/avatar.jpg" pic_width="100" pic_height="100" />
 
 <marker username="thresh" fullname="Pavlov Konstantin" location="Korolev, Russia" blurb="Пользуясь случаем, хочу передать привет маме." lat="55.923402" lon="37.843502" title="Developer" picture="http://userpic.livejournal.com/58543448/6016243" pic_width="100" pic_height="99" />
 

@@ -2,7 +2,9 @@
 
 <markers>
 
-<marker username="dionoea" website="http://www.videolan.org" fullname="Antoine Cellerier" location="Marly le Roi, France" blurb="random text" lat="48.874325" lon="2.07857" title="Developper" picture="http://download.videolan.org/images/cone-soppera10.png" pic_width="60" pic_height="80" />
+<marker username="dionoea" website="http://www.videolan.org" fullname="Antoine Cellerier" location="Marly le Roi, France" blurb="random text" lat="48.874325" lon="2.07857" title="Developer" picture="http://download.videolan.org/images/cone-soppera10.png" pic_width="120" pic_height="159" />
+
+<marker username="jpsaman" website="http://www.videolan.org" fullname="Jean-Paul Saman" location="Helmond, The Netherlands" blurb="random text" lat="51.461377" long="5.620376" title="Developer" picture="http://download.videolan.org/images/cone-soppera10.png" pic_width="120" pic_height="159" />
 
 <markers username="Xtophe" fullname="Christophe Mutricy" location="Bristol, England" title="Developper" lat="51.5015" lon="-2.6071"  />
 

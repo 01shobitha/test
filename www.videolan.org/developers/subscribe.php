@@ -105,7 +105,7 @@ echo $ok;
 
     if( $valid ) {
 
-        $header = "From: ecartis@via.ecp.fr\n";
+        $header = "From: ecartis@videolan.org\n";
         $message .= "-- \nSent via http://www.videolan.org/lists.html\n";
 
         mail("ecartis@videolan.org", "(no subject)", $message, $header);

@@ -37,7 +37,15 @@ function load() {
                             
                             // Compile all the user's information and format it for the pin popup.                                  
                             pintext =       "<table width='350' cellpadding='0' cellspacing='0' border='0' id='pinTextTable'>";
-                            pintext +=      "<tr><td width='100' nowrap='nowrap' valign='top' rowspan='2' class='imgTD'><img src='" + markers[i].getAttribute("picture") + "' width='" + markers[i].getAttribute("pic_width") + "px' height='" + markers[i].getAttribute("pic_height") + "px' /></td>";
+                            pintext +=      "<tr>"
+                            if( markers[i].getAttribute("picture") && markers[i].getAttribute("pic_width") && markers[i].getAttribute("pic_height") )
+                            {
+                                pintext += "<td width='100' nowrap='nowrap' valign='top' rowspan='2' class='imgTD'><img src='" + markers[i].getAttribute("picture") + "' width='" + markers[i].getAttribute("pic_width") + "px' height='" + markers[i].getAttribute("pic_height") + "px' /></td>";
+                            }
+                            else
+                            {
+                                pintext += "<td width='100' nowrap='nowrap' valign='top' rowspan='2' class='imgTD'><img src='http://download.videolan.org/images/cone-soppera10.png' width='60px' height='80px' /></td>";
+                            }
                             
                             pintext +=      "<td valign='top' class='contentTD'>"
                             pintext +=      "<div class='name' style='white-space: nowrap;'>";

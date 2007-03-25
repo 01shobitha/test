@@ -3,6 +3,7 @@
    $lang = "en";
    $date = "7 April 2002";
    $menu = array( "project", "team" );
+   $enable_map = true;
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
@@ -15,10 +16,7 @@
 href="http://www.ecp.fr/">École Centrale Paris</a> and developers
 from all over the world:</p>
 
-<p class="center">
-<a href="/images/developers-map.png">
-  <img src="/images/developers-map.jpg" alt="VideoLAN developers map" />
-</a></p>
+<div id="map" style="width: 700px; height: 500px" class="center"></div>
 
 <h2>The developers</h2>
 

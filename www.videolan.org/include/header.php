@@ -14,7 +14,7 @@ function FormatSize($size) {
 *  starthtml: beginning of the page
 */
 
-function StartHtml( $title, $enable_live = false ) {
+function StartHtml( $title, $enable_live = false, $enable_map = false ) {
 
 global $HTTP_GET_VARS;
 echo "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n";
@@ -48,10 +48,16 @@ echo "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n";
    <?php if( $enable_live == true ) {?>
 	<script src="/ffcounter.js" type="text/javascript"></script>
    <?php } ?>
+   <?php if( $enable_map == true ) {?>
+   <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAA_tTjXf27pXx7GJjiXjfLTBTZ23S2gbgYlUkGxVa_77E2Yr1JbRRZDHGiGaM9ko8-hG5M1z9nS5bFXA" type="text/javascript"></script>
+   <script src="map.js" type="text/javascript"></script>
+   <?php } ?>
 
 </head>
 <?php if( $enable_live == true ) { ?>
    <body onload="getCount();">
+<?php } else if( $enable_map == true ) { ?>
+  <body onload="load();" onunload="GUnload();">
 <?php } else { ?>
    <body>
 <?php
@@ -159,9 +165,13 @@ if( !isset( $enable_live ) )
 {
     $enable_live = false;
 }
+if( !isset( $enable_map ) )
+{
+    $enable_map = true;
+}
 
 // HTML header
-StartHtml( ereg_replace( "<[^>]*>" , "" , $title ) , $enable_live) ;
+StartHtml( ereg_replace( "<[^>]*>" , "" , $title ) , $enable_live, $enable_map ) ;
 
 
 ?>

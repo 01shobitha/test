@@ -9,7 +9,7 @@ function load() {
             map.setMapType( G_SATELLITE_MAP );
             
             globalMap = map; // So we can reference the map outside of this load function
-    //map.setCenter(new GLatLng(37.4419, -122.1419), 13);
+
             // Function to create a pin and its popup.
             function createMarker(point, icon, pintext) {
                     var marker = new GMarker(point, icon);

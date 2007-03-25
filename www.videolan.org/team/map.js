@@ -19,7 +19,7 @@ function load()
       var marker = new GMarker(point, icon);
       GEvent.addListener(marker, "click", function()
       {
-        marker.openInfoWindowHtml(pintext);
+        marker.openInfoWindowHtml(pintext, {maxWidth: 350});
       });
       return marker;
     }

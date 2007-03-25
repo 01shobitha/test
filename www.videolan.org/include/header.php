@@ -167,7 +167,7 @@ if( !isset( $enable_live ) )
 }
 if( !isset( $enable_map ) )
 {
-    $enable_map = true;
+    $enable_map = false;
 }
 
 // HTML header

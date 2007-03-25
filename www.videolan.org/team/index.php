@@ -16,7 +16,7 @@
 href="http://www.ecp.fr/">École Centrale Paris</a> and developers
 from all over the world:</p>
 
-<div id="map" style="width: 700px; height: 500px" class="center"></div>
+<div id="map" style="width: 100%; height: 500px" class="center"></div>
 
 <h2>The developers</h2>
 

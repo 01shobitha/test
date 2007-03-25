@@ -79,7 +79,7 @@
 
     if( $valid ) {
 
-        $header = "From: ecartis@krishna.via.ecp.fr\n";
+        $header = "From: ecartis@videolan.org\n";
         $message .= "-- \n";
         $message .= "Sent via http://www.videolan.org/support/lists.html\n";
 

@@ -18,6 +18,6 @@
 
 <marker username="DJ"  fullname="David J LaBarre" location="Koloa Hi" blurb="" lat="21.89790" lon="-159.46661" title="Moderator" /> 
 
-<marker username="courmisch" website="http://www.remlab.net/" fullname="Rémi Denis-Courmont" location="Espoo, Finland" blurb="" lat="60.177588,24.800048" lon="24.800048" title="Developer" />
+<marker username="courmisch" website="http://www.remlab.net/" fullname="Rémi Denis-Courmont" location="Espoo, Finland" blurb="" lat="60.177588" lon="24.800048" title="Developer" />
 
 </markers>

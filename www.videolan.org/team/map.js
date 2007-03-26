@@ -30,7 +30,7 @@ function load()
     {
       var xml = GXml.parse(data);
       var markers = xml.documentElement.getElementsByTagName("marker");
-      var bounds = GLatLngBounds();
+      var bounds = new GLatLngBounds();
 
       for (var i = 0; i < markers.length; i++)
       {
@@ -110,7 +110,7 @@ function load()
         map.addOverlay(createMarker(point, icon, pintext));
         bounds.extend( point );
       }
-      map.setCenter(new GLatLng(25.0, 7.5), map.getBoundsZoomLevel(bounds));
+      map.setCenter(bounds.getCenter(), map.getBoundsZoomLevel(bounds));
     });
   }
 }

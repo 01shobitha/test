@@ -30,6 +30,8 @@ function load()
     {
       var xml = GXml.parse(data);
       var markers = xml.documentElement.getElementsByTagName("marker");
+      var bounds = GLatLngBounds();
+
       for (var i = 0; i < markers.length; i++)
       {
         // Generate the pin image and its proper color.
@@ -106,7 +108,9 @@ function load()
 
         // Plot the pin on the map.
         map.addOverlay(createMarker(point, icon, pintext));
+        bounds.extend( point );
       }
+      map.setCenter(new GLatLng(25.0, 7.5), map.getBoundsZoomLevel(bounds));
     });
   }
 }

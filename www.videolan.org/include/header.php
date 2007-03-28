@@ -109,7 +109,7 @@ function footer($tag) {
      &nbsp;-&nbsp; <?php echo $tag; ?>
   </p>
   <p>
-  All rights reserved to VideoLAN team. -&nbsp;
+  All rights reserved to the VideoLAN team. -&nbsp;
     <?php if($language=="fr") { } else { echo 'valid'; } ?>
     <a href="http://validator.w3.org/check/referer">XHTML 1.1</a>
     and 

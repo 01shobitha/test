@@ -29,7 +29,12 @@ that):</p>
 <p>Then install the required packages with <b>urpmi</b>:</p>
 
 <pre>
-   # urpmi libdvdcss2 libdvdplay0 wxvlc vlc-plugin-a52 vlc-plugin-ogg vlc-plugin-mad
+   # urpmi libdvdplay0 wxvlc vlc-plugin-a52 vlc-plugin-ogg vlc-plugin-mad libmatroska0
+</pre>
+
+<p>You might also try to install libdvdcss2:</p>
+<pre>
+   # urpmi libdvdcss2
 </pre>
 
 </div>

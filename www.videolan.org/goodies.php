@@ -225,7 +225,7 @@ and licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/"
 </p>
 
 <p>And another one by snis:</p>
-<p><img src="/images/googdies/videolan-community.png" alt="VideoLAN.org Community Member"/><br/><img src="/images/googdies/videolan-community-small.png" alt="VideoLAN.org Community Member"/></p>
+<p><img src="/images/goodies/videolan-community.png" alt="VideoLAN.org Community Member"/><br/><img src="/images/goodies/videolan-community-small.png" alt="VideoLAN.org Community Member"/></p>
 <p>Get <a href="/image/goodies/videolan-community.xcf">the sources</a>.</p>
 
 

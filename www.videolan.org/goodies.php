@@ -224,6 +224,10 @@ and licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/"
       alt="get VLC !" /></a>
 </p>
 
+<p>And another one by snis:</p>
+<p><img src="/images/googdies/videolan-community.png" alt="VideoLAN.org Community Member"/><br/><img src="/images/googdies/videolan-community-small.png" alt="VideoLAN.org Community Member"/></p>
+<p>Get <a href="/image/goodies/videolan-community.xcf">the sources</a>.</p>
+
 
 <p>An older banner:</p>
 <p><a href="/vlc/index.html"><img width="100" height="32"

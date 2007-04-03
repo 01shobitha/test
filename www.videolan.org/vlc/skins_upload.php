@@ -163,7 +163,7 @@ if (isset($HTTP_POST_VARS["author"]))  // if the form has already been submitted
       die( "connection to database failed" );
   
     $aujourdhui = date("Y-m-d");
-    $query="INSERT INTO skins (accepted,name,author,downloads,date_added,date_modified,image,url,min_version,size) VALUES ('0', '$name', '$author', '0', '$aujourdhui', '$aujourdhui', '$name_file2', '$name_file', '$version', '$size')";
+    $query="INSERT INTO skins (accepted,name,author,downloads,date_added,date_modified,image,url,min_version,size) VALUES ('false', '$name', '$author', '0', '$aujourdhui', '$aujourdhui', '$name_file2', '$name_file', '$version', '$size')";
   
     $q = pg_query($query);
     pg_close( $connect );

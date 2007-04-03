@@ -118,7 +118,7 @@ if ($date_mod <> $date) echo '&nbsp; <img src="/images/updated.png" />'; ?></h3>
   $query='SELECT AVG(rating) as avg, COUNT(rating) as count,
   skins.id as id, name, author, downloads, date_added, date_modified, 
   image, url, min_version, size FROM skins  INNER JOIN "skins-rating" ON 
-  skins.id="skins-rating".skin_id WHERE skins.accepted="1" GROUP BY skins.id, skins.name, skins.author, 
+  skins.id="skins-rating".skin_id WHERE skins.accepted=true GROUP BY skins.id, skins.name, skins.author, 
   skins.downloads, skins.date_added, skins.date_modified, skins.image, skins.url, 
   skins.min_version, skins.size';
   

@@ -27,7 +27,7 @@ if (isset($HTTP_POST_VARS["action"]))  // if the form has been submitted
     @rename(SKIN2_PATH.$url, SKIN2_PATH.$new_url);
     @rename(SKIN2_PATH.$image, SKIN2_PATH.$new_image);
     @rename(SKIN2_PATH."tm_".$image, SKIN2_PATH."tm_".$new_image);
-    $q="UPDATE skins SET accepted='1', image='$new_image', url='$new_url' WHERE id='$id'";
+    $q="UPDATE skins SET accepted=true, image='$new_image', url='$new_url' WHERE id='$id'";
     pg_query($q);
     
     $q="INSERT INTO skins-rating (skin_id,rating) VALUES ('$id', '3')"; 
@@ -216,11 +216,11 @@ echo "<select name='skin_to_update'>".$selection."</select>";
 
 <h2>Validations...</h2>
 <?php
-  $query='SELECT skins.id as id, skins.name, skins.author, skins.date_added, skins.date_modified, skins.image, skins.url, skins.min_version, skins.size FROM skins WHERE skins.accepted="0" GROUP BY skins.id, skins.name, skins.author, skins.date_added, skins.date_modified, skins.image, skins.url, skins.min_version, skins.size';
+  $query='SELECT skins.id as id, skins.name, skins.author, skins.date_added, skins.date_modified, skins.image, skins.url, skins.min_version, skins.size FROM skins WHERE skins.accepted=false GROUP BY skins.id, skins.name, skins.author, skins.date_added, skins.date_modified, skins.image, skins.url, skins.min_version, skins.size';
   $query .= " ORDER BY skins.date_modified DESC, skins.date_added DESC";
 
   $q = pg_query($query);
-  $q2 = pg_query("SELECT id, name FROM skins WHERE accepted='1' ORDER BY id");
+  $q2 = pg_query("SELECT id, name FROM skins WHERE accepted=false ORDER BY id");
   $selection = "";
   while ($skin = pg_fetch_array($q2))
   {   

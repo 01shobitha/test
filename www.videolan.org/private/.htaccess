@@ -1,0 +1,8 @@
+AuthName "Skin administration"
+AuthUserFile /var/www/local/videolan.htpasswd
+AuthGroupFile /dev/null
+AuthType Basic
+
+<limit POST GET>
+require valid-user
+</Limit>

@@ -1,4 +1,5 @@
 <?php
+  
   require_once '/home/videolan/etc/db-www.php';
   if( !($connect = pg_connect( $connect_string )) )
     die( "connection to database failed" );
@@ -18,6 +19,7 @@
    $date = "28 March 2003";
    $menu = array( "vlc", "skins" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
+   
 ?>
 <?php
 
@@ -73,11 +75,11 @@ if ($date_mod <> $date) echo '&nbsp; <img src="/images/updated.png" />'; ?></h3>
         }
       ?>
       <?php
-        if( $_COOKIE["skinrated_$id"] != $id )
+         if( $_COOKIE["skinrated_$id"] != $id )
         {
       ?>
 	<br />
-      <form method="post" action="" style="display:inline;">
+      <form method="post" action="skins.php" style="display:inline;">
         <div>
         <input type="radio" name="rating" value="1" id="rate_1_<?php echo $id; ?>" />
         <label for="rate_1_<?php echo $id; ?>">1</label> 
@@ -112,7 +114,15 @@ if ($date_mod <> $date) echo '&nbsp; <img src="/images/updated.png" />'; ?></h3>
 
 <?php
   $sort = $_GET["sort"];
-  $query='SELECT AVG( rating ) as avg, COUNT( rating ) as count, skins.id as id, name, author, downloads, date_added, date_modified, image, url, min_version, size FROM skins INNER JOIN "skins-rating" ON skins.id="skins-rating".skin_id GROUP BY skins.id, skins.name, skins.author, skins.downloads, skins.date_added, skins.date_modified, skins.image, skins.url, skins.min_version, skins.size';
+  
+  $query='SELECT AVG(rating) as avg, COUNT(rating) as count,
+  skins.id as id, name, author, downloads, date_added, date_modified, 
+  image, url, min_version, size FROM skins  INNER JOIN "skins-rating" ON 
+  skins.id="skins-rating".skin_id WHERE skins.accepted="1" GROUP BY skins.id, skins.name, skins.author, 
+  skins.downloads, skins.date_added, skins.date_modified, skins.image, skins.url, 
+  skins.min_version, skins.size';
+  
+  
   switch( $sort )
   {
     case "rating":
@@ -187,15 +197,22 @@ if ($date_mod <> $date) echo '&nbsp; <img src="/images/updated.png" />'; ?></h3>
 <h1>Create your own skin!</h1>
 
 <p>If you still don't find any skin you like, why don't you
-<a href="/vlc/skins2-create.html">create a better one</a>?<br/> Don't worry,
+<a href="/vlc/skins2-create.html">create a better one</a>?<br /> Don't worry,
 you don't need any programming skills... Some knowledge about graphics software
 might ease the job, though :-)</p>
+<?php panel_end(); ?>
+
+<?php panel_start( "blue" ); ?>
+<h1>Upload your own skin</h1>
+
+<p>If you have made a new skin and want it to be downloadable, please click  
+<a href="skins_upload.php">here</a> and fill out the form.<br />As soon as one webmaster has checked it, it will be displayed on this page.</p>
 <?php panel_end(); ?>
 
 <?php panel_start( "gray" ); ?>
 <h1>Skin pack</h1>
 
-<p>Download all the skins at once <a href='download-skins2-go.php?url=vlc-skins.zip'>here</a> (<?php echo $sp_size; ?>).<br/>Downloaded <?php echo $sp_dl; ?> times since January 2007.</p>
+<p>Download all the skins at once <a href='download-skins2-go.php?url=vlc-skins.zip'>here</a> (<?php echo $sp_size; ?>).<br />Downloaded <?php echo $sp_dl; ?> times since January 2007.</p>
 <?php panel_end(); ?>
 
 </div>

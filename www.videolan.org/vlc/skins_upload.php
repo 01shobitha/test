@@ -1,5 +1,7 @@
 <?php
 
+define ('UPLOAD_PATH', "./skin2/uploaded/"); // directory where the skin are uploaded, before validation.
+
 // Function used to generate a 4 character random string 
  function randomString( $length = 4, $char = 'abcdefghijklmnopqrstuvwxyz' ) 
 {
@@ -69,7 +71,7 @@ if (isset($HTTP_POST_VARS["author"]))  // if the form has already been submitted
   		$erreur .= "&erreur5=Your skin file has not a valid format (.vlt)";
     }
     // we copy the skin file in the destination folder
-    elseif( !move_uploaded_file($tmp_file, "./skins2/".$name_file ) )
+    elseif( !move_uploaded_file($tmp_file, UPLOAD_PATH.$name_file ) )
     {
         $nb_erreur += 1;
   		  $erreur .= "&erreur6=Your skin file has not been copied in the destination file";
@@ -109,7 +111,7 @@ if (isset($HTTP_POST_VARS["author"]))  // if the form has already been submitted
         $image_p = imagecreatetruecolor($width, $height);
         $image = imagecreatefromjpeg($tmp_file2);
         imagecopyresampled($image_p, $image, 0, 0, 0, 0, $width, $height, $width_orig, $height_orig);
-        imagejpeg($image_p, "./skins2/tm_".$name_file2);
+        imagejpeg($image_p, UPLOAD_PATH."/tm_".$name_file2);
         imagedestroy($image_p);
       }
       else if ( $type_file2 == 1 ) // GIF
@@ -117,7 +119,7 @@ if (isset($HTTP_POST_VARS["author"]))  // if the form has already been submitted
         $image_p = imagecreate($width, $height);
         $image = imagecreatefromgif($tmp_file2);
         imagecopyresampled($image_p, $image, 0, 0, 0, 0, $width, $height, $width_orig, $height_orig);
-        imagegif($image_p, "./skins2/tm_".$name_file2);
+        imagegif($image_p, UPLOAD_PATH."tm_".$name_file2);
         imagedestroy($image_p);
       }
       else if ( $type_file2 == 3 ) // PNG
@@ -125,12 +127,12 @@ if (isset($HTTP_POST_VARS["author"]))  // if the form has already been submitted
         $image_p = imagecreatetruecolor($width, $height);
         $image = imagecreatefrompng($tmp_file2);
         imagecopyresampled($image_p, $image, 0, 0, 0, 0, $width, $height, $width_orig, $height_orig);
-        imagepng($image_p, "./skins2/tm_".$name_file2);
+        imagepng($image_p, UPLOAD_PATH."tm_".$name_file2);
         imagedestroy($image_p);
       }
       
       // we copy the original image in the destination folder
-      if( !move_uploaded_file($tmp_file2, "./skins2/".$name_file2 ) )
+      if( !move_uploaded_file($tmp_file2, UPLOAD_PATH.$name_file2 ) )
       {
         $nb_erreur += 1;
   		  $erreur .= "&erreur9=Your image has not been copied in the destination file";
@@ -140,9 +142,9 @@ if (isset($HTTP_POST_VARS["author"]))  // if the form has already been submitted
    
   if ($nb_erreur > 0)
   {
-    @unlink ("./skins2/".$name_file); //try to delete the destination files
-    @unlink ("./skins2/".$name_file2);
-    @unlink ("./skins2/tm_".$name_file2);
+    @unlink (UPLOAD_PATH.$name_file); //try to delete the destination files
+    @unlink (UPLOAD_PATH.$name_file2);
+    @unlink (UPLOAD_PATH."tm_".$name_file2);
     
     if( $update == 0 ) { $action="create_skin"; }
     else {$action="update_skin";}

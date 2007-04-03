@@ -1,5 +1,5 @@
 AuthName "Skin administration"
-AuthUserFile /var/www/local/videolan.htpasswd
+AuthUserFile /var/www/local/.htpasswd.videolan
 AuthGroupFile /dev/null
 AuthType Basic
 

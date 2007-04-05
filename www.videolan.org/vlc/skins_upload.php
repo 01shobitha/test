@@ -32,14 +32,14 @@ function displayError( $index, $error ) // in the html form (table)
 $error = array();
 $error[0] = true; // if upload and no error occur => set to false
 
-$update = ( isset($HTTP_POST_VARS['update']) )? 1 : 0 ;
-$author = ( isset($HTTP_POST_VARS['author']) )? trim($HTTP_POST_VARS["author"]) : '' ;
-$name = ( isset($HTTP_POST_VARS['name']) )? trim($HTTP_POST_VARS['name']) : '' ;
-$version = ( isset($HTTP_POST_VARS['version']) )? trim($HTTP_POST_VARS['version']) : '' ;
-$email = ( isset($HTTP_POST_VARS['email']) )? trim($HTTP_POST_VARS['email']) : '' ;
+$update = ( isset($_POST['update']) )? 1 : 0 ;
+$author = ( isset($_POST['author']) )? trim($_POST["author"]) : '' ;
+$name = ( isset($_POST['name']) )? trim($_POST['name']) : '' ;
+$version = ( isset($_POST['version']) )? trim($_POST['version']) : '' ;
+$email = ( isset($_POST['email']) )? trim($_POST['email']) : '' ;
 
 
-if( isset($HTTP_POST_VARS["author"]) ) // if the form has already been submitted
+if( isset($_POST["author"]) ) // if the form has already been submitted
 {
   $error[0] = false;
   // Check the fields author, name, version and email
@@ -121,11 +121,14 @@ if( isset($HTTP_POST_VARS["author"]) ) // if the form has already been submitted
       // WARNING : need the GD library
       if( $type_file2 == 2) // JPEG
       {
+        /*
         $image_p = imagecreatetruecolor($width, $height);
         $image = imagecreatefromjpeg($tmp_file2);
         imagecopyresampled($image_p, $image, 0, 0, 0, 0, $width, $height, $width_orig, $height_orig);
-        imagejpeg($image_p, SKIN_UPLOAD_DIR."/tm_".$name_file2);
+        imagejpeg($image_p, SKIN_UPLOAD_DIR."tm_".$name_file2);
         imagedestroy($image_p);
+      */
+        /*copy($_FILES['image']['tmp_name'], SKIN_UPLOAD_DIR."tm_".$name_file2 );*/
       }
       else if ( $type_file2 == 1 ) // GIF
       { 
@@ -171,16 +174,9 @@ if( isset($HTTP_POST_VARS["author"]) ) // if the form has already been submitted
   
     $q = pg_query($query);
     pg_close( $connect );
-    if($update)
-    {
-      @mail("admin@videolan.org","Skin validation",$author." has updated the following skin: ".$name.". He thanks you for checking his skin and displaying it on the page : http://www.videolan.org/vlc/skins.php. Click on the following link to check the skin : http://www.videolan.org/vlc/skins_validation.php. The email address of ".$author." is ".$email, 'Content-Type: text/plain; charset=utf-8');
-    }
-    else
-    {
-      @mail("admin@videolan.org","Skin validation",$author." has created a new skin : ".$name.". He thanks you for checking his skin and displaying it on the page : http://www.videolan.org/vlc/skins.php. Click on the following link to check the skin : http://www.videolan.org/vlc/skins_validation.php. The email address of ".$author." is ".$email, 'Content-Type: text/plain; charset=utf-8');
-    }
+    @mail("admin@videolan.org","Skin validation", "$author has ". ($update ? "updated" : "created") ." the following skin: $name. He thanks you for checking his skin and displaying it on the page : http://www.videolan.org/vlc/skins.php. Click on the following link to check the skin : http://www.videolan.org/private/skins_validation.php. The email address of $author is $email", "Content-Type: text/plain; charset=utf-8\nReply-To: $email");
   } 
-} // end of : if(isset($HTTP_POST_VARS["author"]))
+} // end of : if(isset($_POST["author"]))
 
 
 // Begining of the html display
@@ -220,11 +216,11 @@ else
         <?php displayError(1, $error); // empty field error ?>
         <tr>
           <td>Author : </td>
-          <td><input type="texte" name="author" value="<?= $author ?>" /></td>
+          <td><input type="texte" name="author" value="<?php echo $author; ?>" /></td>
         </tr>
         <tr>
           <td>Name of your skin : </td>
-          <td><input type="texte" name="name" value="<?= $name ?>" /></td>
+          <td><input type="texte" name="name" value="<?php echo $name; ?>" /></td>
         </tr>
         <tr>
           <td>Update of an already existing skin ?</td>
@@ -243,12 +239,12 @@ else
         <?php displayError(3, $error); // VLC version error ?>
         <tr>
           <td>Required vlc version to use your skin : <br />(example : 0.8.5)</td>
-          <td><input type="texte" name="version" value="<?= $version ?>" />
+          <td><input type="texte" name="version" value="<?php echo $version; ?>" />
         </tr>
         <?php displayError(2, $error); // mail invalid format error ?>
         <tr>
           <td>Your Email address : </td>
-          <td><input type="texte" name="email" value="<?= $email ?>" /></td>
+          <td><input type="texte" name="email" value="<?php echo $email; ?>" /></td>
         </tr>
         <tr>
           <td colspan='2'><input type="submit" value="Submit" /></td>

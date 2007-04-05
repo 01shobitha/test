@@ -10,8 +10,8 @@ if( !($connect = pg_connect( $connect_string )) )
   die( "connection to database failed" );
 
 /* Init variables */
-$id = ( isset($HTTP_POST_VARS["id"]) )? (int) $HTTP_POST_VARS["id"] : 0 ;
-$action = ( isset($HTTP_POST_VARS["action"]) )? (int) $HTTP_POST_VARS["action"] : 0 ;
+$id = ( isset($_POST["id"]) )? (int) $_POST["id"] : 0 ;
+$action = ( isset($_POST["action"]) )? (int) $_POST["action"] : 0 ;
 $message = "";
 
 if ($action != 0) // if the form has been submitted
@@ -35,8 +35,8 @@ if ($action != 0) // if the form has been submitted
     $q = "UPDATE skins SET accepted=true, image='$new_image', url='$new_url' WHERE id='$id'";
     pg_query($q);
 
-    $q = "INSERT INTO skins-rating (skin_id,rating) VALUES ('$id', '3')"; 
-    /* it may be not be necessary to add a vote, but when I tested without doing it, an error occured in skins.php because of the query : SELECT AVG(rating)...*/
+    $q = "INSERT INTO \"skins-rating\" (skin_id,rating) VALUES ('$id', '5')"; 
+    /* Due to the crappy SQL request in vlc/skins.php we have to vote at least once for the skin ... and since we're optimistic, we vote 5 :) */
     pg_query($q);
     
     $message = "The skin \"$name\" has been validated";
@@ -47,7 +47,7 @@ if ($action != 0) // if the form has been submitted
     $r=pg_fetch_array($q);
     $url = $r['url'];
     $image = $r['image'];
-    $q="DELETE FROM skins WHERE id='$id' LIMIT 1";
+    $q="DELETE FROM skins WHERE id='$id'";
     pg_query($q);
     unlink (SKIN_UPLOAD_DIR.$url);
     unlink (SKIN_UPLOAD_DIR.$image);
@@ -57,9 +57,9 @@ if ($action != 0) // if the form has been submitted
   }
   elseif ($action == 2) // action = update an already existing skin
   {
-    if (isset($HTTP_POST_VARS["skin_to_update"]))
+    if (isset($_POST["skin_to_update"]))
     {
-      $skin_to_update = (int) $HTTP_POST_VARS["skin_to_update"];
+      $skin_to_update = (int) $_POST["skin_to_update"];
       
       $q=pg_query("SELECT author, image, url, name FROM skins WHERE id='$skin_to_update'");
       $r=pg_fetch_array($q);
@@ -95,14 +95,14 @@ if ($action != 0) // if the form has been submitted
       
       $q="UPDATE skins SET author='$author', date_modified='$date_modified', image='$new_image', url='$new_url', min_version='$version', size='$size' WHERE id='$skin_to_update'";
       pg_query($q);
-      $q="DELETE FROM skins WHERE id='$id' LIMIT 1";
+      $q="DELETE FROM skins WHERE id='$id'";
       pg_query($q);
       
       /* Just a comment : you may think that it would have been easier to update the skin $id instead of $skin_to_update, i.e. to update the new skin with the informations of the old one. But I remind you that there is also the table skins-rating in the database, and you would have had to change all the votes in that table, which would have been very long */
       
       $message = "The skin \"$name\" have been updated.";
     }
-    else // if(isset($HTTP_POST_VARS["skin_to_update"]))
+    else // if(isset($_POST["skin_to_update"]))
     {
       $message = "If you want to update a skin, you have to select that skin in the scroll menu.";
     }

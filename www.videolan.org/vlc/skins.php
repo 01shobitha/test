@@ -137,7 +137,7 @@ while( $r = pg_fetch_array( $q ) )
            $r['avg'], $r['count'], /*$r['avg_old'], $r['count_old'],*/
            0/*$r['sign']*/, $r['min_version'], $r['size'] );
 }
-$query = 'SELECT downloads, size FROM skins-pack WHERE id=0';
+$query = 'SELECT downloads, size FROM skins_pack WHERE id=0';
 $q = pg_query( $connect, $query );
 $r = pg_fetch_array( $q );
 $sp_dl = $r['downloads'];

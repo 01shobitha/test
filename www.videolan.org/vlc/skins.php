@@ -201,7 +201,7 @@ might ease the job, though :-)</p>
 <?php panel_start( "gray" ); ?>
 <h1>Skin pack</h1>
 
-<p>Download all the skins at once <a href='download-skins2-go.php?url=vlc-skins.zip'>here</a> (<?php echo $sp_size; ?>).<br />Downloaded <?php echo $sp_dl; ?> times since January 2007.</p>
+<p>Download all the skins at once <a href='download-skins2-go.php?url=vlc-skins.zip'>here</a> (<?php echo $sp_size; ?>).<br />Downloaded <?php echo $sp_dl; ?> times since January 2007. (This pack is updated daily)</p>
 <?php panel_end(); ?>
 
 </div>

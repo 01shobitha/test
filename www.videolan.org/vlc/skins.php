@@ -188,7 +188,7 @@ pg_close( $connect );
 <p>If you still don't find any skin you like, why don't you
 <a href="/vlc/skins2-create.html">create a better one</a>?<br /> Don't worry,
 you don't need any programming skills... Some knowledge about graphics software
-might ease the job, though :-)</p>
+might ease the job, though :-)<br />Need more skinning resources? Come join our <a href="http://forum.videolan.org/viewforum.php?f=15">friendly community</a> over at the VideoLAN Forums!</p>
 <?php panel_end(); ?>
 
 <?php panel_start( "blue" ); ?>

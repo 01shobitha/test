@@ -258,7 +258,7 @@ else
 <?php panel_start( "orange" ); ?>
   <h1>Do you encounter a problem ?</h1>
   <br />
-  <p>If you have a problem to upload your files, you can join the developpers on the <a href="http://forum.videolan.org/">Web forum</a> or on the <a href="mailto:videolan@REMOVETHIS@videolan.org">mailling-list</a>.<br /><br />Your request will be taken into account as soon as possible.</p>
+  <p>If you have a problem to upload your files, you can join the developpers on the <a href="http://forum.videolan.org/">Web forum</a> or on the <a href="mailto:videolan@videolan.org">mailling-list</a>.<br /><br />Your request will be taken into account as soon as possible.</p>
 <?php panel_end(); ?>
 </div>
       

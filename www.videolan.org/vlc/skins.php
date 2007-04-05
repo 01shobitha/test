@@ -1,38 +1,34 @@
 <?php
-  
-  require_once '/home/videolan/etc/db-www.php';
-  if( !($connect = pg_connect( $connect_string )) )
-    die( "connection to database failed" );
+require_once '/home/videolan/etc/db-www.php';
+if( !($connect = pg_connect( $connect_string )) )
+  die( "connection to database failed" );
 
-  if( isset( $_POST["skin_id"] ) && isset( $_POST["rating"] ) )
+if( isset( $_POST["skin_id"] ) && isset( $_POST["rating"] ) )
+{
+  if( $_COOKIE["skinrated_{$_POST["skin_id"]}"] != $_POST["skin_id"] )
   {
-    if( $_COOKIE["skinrated_{$_POST["skin_id"]}"] != $_POST["skin_id"] )
-    {
-      pg_query( "INSERT INTO \"skins-rating\" (\"skin_id\", \"rating\") VALUES ('{$_POST["skin_id"]}','{$_POST["rating"]}')" );
-      setcookie( "skinrated_{$_POST["skin_id"]}", $_POST["skin_id"], time()+24*60*60, "/", ".videolan.org" );
-      $_COOKIE["skinrated_{$_POST["skin_id"]}"] = $_POST["skin_id"];
-    }
+    pg_query( "INSERT INTO \"skins-rating\" (\"skin_id\", \"rating\") VALUES ('{$_POST["skin_id"]}','{$_POST["rating"]}')" );
+    setcookie( "skinrated_{$_POST["skin_id"]}", $_POST["skin_id"], time()+24*60*60, "/", ".videolan.org" );
+    $_COOKIE["skinrated_{$_POST["skin_id"]}"] = $_POST["skin_id"];
   }
+}
 
-   $title = "VLC media player - Skins";
-   $lang = "en";
-   $date = "28 March 2003";
-   $menu = array( "vlc", "skins" );
-   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
-   
-?>
-<?php
+$title = "VLC media player - Skins";
+$lang = "en";
+$date = "28 March 2003";
+$menu = array( "vlc", "skins" );
+require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
-  function AddSkin( $id, $name, $author, $img, $url, $dl, $date, $date_mod, $rating, $count, /*$old_rating, $old_count,*/ $sign, $min_version, $size )
-  {
+function AddSkin( $id, $name, $author, $img, $url, $dl, $date, $date_mod, $rating, $count, /*$old_rating, $old_count,*/ $sign, $min_version, $size )
+{
 ?>
 <h3><?php echo $name; 
 if ($date_mod <> $date) echo '&nbsp; <img src="/images/updated.png" />'; ?></h3>
 <table class="skins-download">
  <tr>
   <td>
-   <a href="/vlc/skins2/<?php echo $img; ?>">
-   <img width="200" src="/vlc/skins2/tm_<?php echo $img; ?>"
+   <a href="./skins2/<?php echo $img; ?>">
+   <img width="200" src="./skins2/tm_<?php echo $img; ?>"
      class="skins-screenshot" alt="screenshot"/>
    </a>
   </td>
@@ -102,7 +98,7 @@ if ($date_mod <> $date) echo '&nbsp; <img src="/images/updated.png" />'; ?></h3>
  </tr>
 </table>
 <?php
-  }
+}
 ?>
 
 <div id="left">
@@ -113,47 +109,40 @@ if ($date_mod <> $date) echo '&nbsp; <img src="/images/updated.png" />'; ?></h3>
 <p>Sort by <a href="?sort=date_mod">last update date</a>, <a href="?sort=date_added">creation date</a>, <a href="?sort=downloads">downloads</a> or <a href="?sort=rating">rating</a>.</p>
 
 <?php
-  $sort = $_GET["sort"];
+$sort = ( isset($_GET["sort"]) )? $_GET["sort"] : "date_mod" ;
+$query='SELECT AVG(rating) as avg, COUNT(rating) as count, skins.id as id, name, author, downloads, date_added, date_modified, image, url, min_version, size FROM skins INNER JOIN "skins-rating" ON skins.id="skins-rating".skin_id WHERE skins.accepted=true GROUP BY skins.id, skins.name, skins.author, skins.downloads, skins.date_added, skins.date_modified, skins.image, skins.url, skins.min_version, skins.size';
   
-  $query='SELECT AVG(rating) as avg, COUNT(rating) as count,
-  skins.id as id, name, author, downloads, date_added, date_modified, 
-  image, url, min_version, size FROM skins  INNER JOIN "skins-rating" ON 
-  skins.id="skins-rating".skin_id WHERE skins.accepted=true GROUP BY skins.id, skins.name, skins.author, 
-  skins.downloads, skins.date_added, skins.date_modified, skins.image, skins.url, 
-  skins.min_version, skins.size';
-  
-  
-  switch( $sort )
-  {
-    case "rating":
-      $query .= ' ORDER BY avg DESC, downloads DESC';
-      break;
-    case "downloads":
-      $query .= " ORDER BY downloads DESC, date_added DESC";
-      break;
-    case "date_added":
-      $query .= " ORDER BY date_added DESC, downloads DESC";
-      break;
-    case "date_mod":
-    default:
-      $query .= " ORDER BY date_modified DESC, date_added DESC, downloads DESC";
-      break;
-  }
+switch( $sort )
+{
+  case "rating":
+    $query .= ' ORDER BY avg DESC, downloads DESC';
+    break;
+  case "downloads":
+    $query .= " ORDER BY downloads DESC, date_added DESC";
+    break;
+  case "date_added":
+    $query .= " ORDER BY date_added DESC, downloads DESC";
+    break;
+  case "date_mod":
+  default:
+    $query .= " ORDER BY date_modified DESC, date_added DESC, downloads DESC";
+    break;
+}
 
-  $q = pg_query( $connect, $query );
-  while( $r = pg_fetch_array( $q ) )
-  {
-    AddSkin( $r['id'], $r['name'], $r['author'], $r['image'],
-             $r['url'], $r['downloads'], $r['date_added'], $r['date_modified'],
-             $r['avg'], $r['count'], /*$r['avg_old'], $r['count_old'],*/
-             $r['sign'], $r['min_version'], $r['size'] );
-  }
-  $query = "SELECT downloads, size FROM skins_pack WHERE id=0";
-  $q = pg_query( $connect, $query );
-  $r = pg_fetch_array( $q );
-  $sp_dl = $r['downloads'];
-  $sp_size = FormatSize( $r['size'] );
-  pg_close( $connect );
+$q = pg_query( $connect, $query );
+while( $r = pg_fetch_array( $q ) )
+{
+  AddSkin( $r['id'], $r['name'], $r['author'], $r['image'],
+           $r['url'], $r['downloads'], $r['date_added'], $r['date_modified'],
+           $r['avg'], $r['count'], /*$r['avg_old'], $r['count_old'],*/
+           0/*$r['sign']*/, $r['min_version'], $r['size'] );
+}
+$query = 'SELECT downloads, size FROM skins-pack WHERE id=0';
+$q = pg_query( $connect, $query );
+$r = pg_fetch_array( $q );
+$sp_dl = $r['downloads'];
+$sp_size = FormatSize( $r['size'] );
+pg_close( $connect );
 ?>
 
 </div>
@@ -205,7 +194,7 @@ might ease the job, though :-)</p>
 <?php panel_start( "blue" ); ?>
 <h1>Upload your own skin</h1>
 
-<p>If you have made a new skin and want it to be downloadable, please click  
+<p>You have made a new skin and want to share it ? Please click  
 <a href="skins_upload.php">here</a> and fill out the form.<br />As soon as one webmaster has checked it, it will be displayed on this page.</p>
 <?php panel_end(); ?>
 

@@ -2,17 +2,9 @@
 
 define ('SKIN_UPLOAD_DIR', "../private/uploaded/"); // directory where the skin are uploaded, before validation.
 
-// Function used to generate a 4 character random string 
-function randomString( $length = 4, $char = 'abcdefghijklmnopqrstuvwxyz' ) 
-{
-  $str = '';
-  $max = strlen($char)-1;
-  for ($i=1; $i<=$length; $i++)
-  {
-    $str .= $char[ rand(0, $max) ];
-  }
-  return $str;
-}
+// we generate a 4 character random string + '-'
+$char = 'abcdefghijklmnopqrstuvwxyz';
+$str_random = $char[rand(0, 25)].$char[rand(0, 25)].$char[rand(0, 25)].$char[rand(0, 25)].'-';
 
 function displayError( $index, $error ) // in the html form (table)
 {
@@ -72,9 +64,8 @@ if( isset($_POST["author"]) ) // if the form has already been submitted
     $tmp_file = $_FILES['fichier']['tmp_name'];
       
     /* We form the skin file name by concatenating a random string and the name the autor has chosen, in order to avoid the deletion of an already existing file because of two similar names */
-    $name_file = randomString();
-    $name_file .= $_FILES['fichier']['name'];
-      
+    $name_file = $str_random.$_FILES['fichier']['name'];
+
     $size=filesize($_FILES['fichier']['tmp_name']);
   
     // we check the file extension (.vlt)
@@ -111,8 +102,7 @@ if( isset($_POST["author"]) ) // if the form has already been submitted
     }
     else
     {
-      $name_file2 = randomString(); //we generate a 4 character random string 
-      $name_file2 .= $_FILES['image']['name'];
+      $name_file2 = $str_random.$_FILES['image']['name'];
       
       // we create a miniature of the image that we place in the destination folder
       $width = 200; //fixed width of the miniature
@@ -216,11 +206,11 @@ else
         <?php displayError(1, $error); // empty field error ?>
         <tr>
           <td>Author : </td>
-          <td><input type="texte" name="author" value="<?php echo $author; ?>" /></td>
+          <td><input type="text" name="author" value="<?php echo $author; ?>" /></td>
         </tr>
         <tr>
           <td>Name of your skin : </td>
-          <td><input type="texte" name="name" value="<?php echo $name; ?>" /></td>
+          <td><input type="text" name="name" value="<?php echo $name; ?>" /></td>
         </tr>
         <tr>
           <td>Update of an already existing skin ?</td>
@@ -239,12 +229,12 @@ else
         <?php displayError(3, $error); // VLC version error ?>
         <tr>
           <td>Required vlc version to use your skin : <br />(example : 0.8.5)</td>
-          <td><input type="texte" name="version" value="<?php echo $version; ?>" />
+          <td><input type="text" name="version" value="<?php echo $version; ?>" />
         </tr>
         <?php displayError(2, $error); // mail invalid format error ?>
         <tr>
           <td>Your Email address : </td>
-          <td><input type="texte" name="email" value="<?php echo $email; ?>" /></td>
+          <td><input type="text" name="email" value="<?php echo $email; ?>" /></td>
         </tr>
         <tr>
           <td colspan='2'><input type="submit" value="Submit" /></td>

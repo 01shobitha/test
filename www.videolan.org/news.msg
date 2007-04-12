@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|12 April 2007| Google Summer of Code 2007 (2)| The official applications, selected by VideoLAN and Google, are on <a href="http://code.google.com/soc/videolan/about.html">Google Summer of Code Website</a>. We have been given 7 slots for 46 applications. The choice was very hard, since many students submitted very high quality propositions. We thanks every student, accepted or not, for their application. We wish good luck to all our selected students.
+
 |15 March 2007| Google Summer of Code 2007| VideoLAN has been accepted as an official Mentoring organisation for <a href="http://code.google.com/soc">Google Summer of Code 2007</a>. We are therefore proposing to the students eligible to that program to join us. You will have to register on Google before 24 March 2007 and propose applications to our project. You can find VideoLAN's ideas on  <a href="http://wiki.videolan.org/SoC_2007">VideoLAN's wiki</a>. Note that you can also propose new ideas.
 
 |4 January 2007| VideoLAN Security Advisory 0701, VLC media player 0.8.6a | VLC media player versions 0.7.0 to 0.8.6 suffer from a Format String security vulnerability in the CDDA and VCDX modules. <a href="http://www.videolan.org/sa0701.html">Refer to our advisory</a> for technical details. An updated release of VLC is available now, which also improves the Fullscreen Controller on Mac OS X. We strongly recommend all users to update to this new version.

@@ -224,12 +224,12 @@ else
         <?php displayError(4, $error); displayError(5, $error); displayError(6, $error); //vlt file errrors ?>
         <tr>
           <td>Skin file : </td>
-          <td><input type='file' size='40' name="fichier" /></td>
+          <td><input type='file' name="fichier" /></td>
         </tr>
         <?php displayError(7, $error); displayError(8, $error); displayError(9, $error); //image file errrors ?>
         <tr>
           <td>Image of your skin : </td>
-          <td><input type='file' size='40' name="image" /></td>
+          <td><input type='file' name="image" /></td>
         </tr>
         <?php displayError(3, $error); // VLC version error ?>
         <tr>

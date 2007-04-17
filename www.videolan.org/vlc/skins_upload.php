@@ -88,6 +88,11 @@ if( isset($_POST["author"]) ) // if the form has already been submitted
       $error[0] = true;
 		  $error[7] = "Your image file has not been uploaded correctly";
   }
+  elseif( !eregi("(.jpeg|.jpg|.png|.gif)$", $_FILES['image']['name']) )
+  {
+      $error[0] = true;
+  		$error[7] = "Your image file has not a valid format (.jpg / .png / .gif)";
+  }
   else
   {
     $tmp_file2 = $_FILES['image']['tmp_name'];
@@ -228,8 +233,15 @@ else
         </tr>
         <?php displayError(3, $error); // VLC version error ?>
         <tr>
-          <td>Required vlc version to use your skin : <br />(example : 0.8.5)</td>
-          <td><input type="text" name="version" value="<?php echo $version; ?>" />
+          <td>Required vlc version to use your skin : </td>
+          <td>
+            <select name='version'>
+              <option value='0.9.0'>0.9.0</option>
+              <option value='0.8.6'>0.8.6</option>
+              <option value='0.8.5'>0.8.5</option>
+              <option value='0.8.0'>0.8.0</option>
+            </select>
+          </td>
         </tr>
         <?php displayError(2, $error); // mail invalid format error ?>
         <tr>

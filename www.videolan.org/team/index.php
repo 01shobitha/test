@@ -126,7 +126,6 @@ Résidence des Élèves de l'École Centrale
 France
 </pre>
 
-<p>Antoine Cellerier is responsible for the website's publication.</p>
 </p>
 
 </div>

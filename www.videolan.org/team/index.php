@@ -154,7 +154,7 @@ all the files listed on the VLC source code page.</p>
 
 <p>In case you write an article about VideoLAN, we would be very glad to
 have a copy of it to add to our press book. You can send us the article
-at the following address :</p>
+at the following address:</p>
 
 <pre  style="margin-left: 60px;">
 VideoLAN

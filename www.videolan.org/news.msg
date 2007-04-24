@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|24 April 2007| Windows Binaries for 0.8.6b updated | The windows binaries built for 0.8.6b on our main server from our release seemed to have a few problems on Unicode support and H.264 encoding.<br /> These issues have been repaired on our main FTP and our mirrors will follow soon.<br /> Sorry for the disturbance.
+
 |19 April 2007| Release VLC 0.8.6b media player | From the feedback we have had so far on the latest version of VLC media player, 0.8.6a, we are proud to introduce a new bugfix release, namely 0.8.6b, aimed at fixing some annoying bugs. But with a few improvements too. <br /> It includes a new teletext subtitles decoder, new flash video decoders and Mac OS X interface improvements. It fixes many crashes, especially during fullscreen on Mac OS X, on Vista and the browser plugin.<br />Have a look <a href="http://developers.videolan.org/vlc/NEWS">here</a> for the full list of changes.<br />We hope you will enjoy that new version.
 
 |12 April 2007| Google Summer of Code 2007 (2)| The official applications, selected by VideoLAN and Google, are on <a href="http://code.google.com/soc/videolan/about.html">Google Summer of Code Website</a>. We have been given 7 slots for 46 applications. The choice was very hard, since many students submitted very high quality propositions. We thanks every student, accepted or not, for their application. We wish good luck to all our selected students.

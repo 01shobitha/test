@@ -116,17 +116,14 @@ if( isset($_POST["author"]) ) // if the form has already been submitted
       // WARNING : need the GD library
       if( $type_file2 == 2) // JPEG
       {
-        /*
         $image_p = imagecreatetruecolor($width, $height);
         $image = imagecreatefromjpeg($tmp_file2);
         imagecopyresampled($image_p, $image, 0, 0, 0, 0, $width, $height, $width_orig, $height_orig);
         imagejpeg($image_p, SKIN_UPLOAD_DIR."tm_".$name_file2);
         imagedestroy($image_p);
-      */
-        /*copy($_FILES['image']['tmp_name'], SKIN_UPLOAD_DIR."tm_".$name_file2 );*/
       }
       else if ( $type_file2 == 1 ) // GIF
-      { 
+      {
         $image_p = imagecreate($width, $height);
         $image = imagecreatefromgif($tmp_file2);
         imagecopyresampled($image_p, $image, 0, 0, 0, 0, $width, $height, $width_orig, $height_orig);

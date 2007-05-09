@@ -8,16 +8,16 @@
 
 <?php function pkgitem($version,$name,$comment) { ?><li><a href="http://download.videolan.org/pub/videolan/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a> <?php echo $comment; ?> </li><?php } ?>
 
-<h1>VLC media player for <a href="http://www.mandriva.com/">Linux Mandrake</a> x86</h1>
+<h1>VLC media player for <a href="http://www.mandriva.com/">Mandriva Linux</a> x86</h1>
 
 <div id="fullwidth">
 
 <p>Thanks to Götz Waschk who maintains these packages !</p>
 
-<h2>Mandrake 10.2, 10.1, 10.0, 9.1, 9.2, Community and Cooker</h2>
+<h2>Mandriva Linux 2007 Spring and older (since 9.2 )</h2>
 
 <p>To install the latest VLC packages,
-add the following sources for your Mandrake version (you
+add the following sources for your Mandriva version (you
 can use <a href="http://easyurpmi.zarb.org/">Easy urpmi</a> for
 that):</p>
 

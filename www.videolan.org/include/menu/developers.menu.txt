@@ -8,3 +8,4 @@ libdvbpsi;libdvbpsi;/developers/libdvbpsi.html
 libdvdplay;libdvdplay;/developers/libdvdplay.html
 translations;Translations;/developers/i18n/
 wiki;wiki;http://wiki.videolan.org/Developers_Corner
+trac;trac;http://trac.videolan.org/

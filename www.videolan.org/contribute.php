@@ -40,7 +40,7 @@ motivate them to work on your suggestion! In any case, you do not have any
 warranty that your wish will be taken into account. </p>
 
 <p> If you want to donate materials, please write to <a
-href="mailto:videolan@videolan.org">videolan@videolan.org</a> so that we can
+href="mailto:videolan@REMOVETHIS@videolan.org">videolan - at - videolan.org</a> so that we can
 tell you if we are interested and give you our snail-mail address. </p>
 
 <h2>Donate money</h2>

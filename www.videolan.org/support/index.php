@@ -77,7 +77,7 @@ listed on the <a href="/vlc/partners.html">consultants</a> page.</p>
 
 <h3>Contacting the team</h3>
 <p>If your matter is not answered yet, and you need to contact the <a href="/team/">team</a>,
-do it by <a href="mailto:videolan@REMOVETHIS@videolan.org">mail</a> or IRC.</p>
+do it by IRC or <a href="mailto:videolan@REMOVETHIS@videolan.org">mail</a>, <em>But please prefer the users mailing-list first for support</em> .</p>
 <p>As we have a lot of spam and lots of e-mail, be sure to state in the subject that
 you want to speak about VideoLAN. Try to not write HTML mails, thanks.</p>
 </div>

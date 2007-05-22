@@ -135,13 +135,14 @@ France
 <?php panel_start("blue"); ?>
 <h1>Contacting us</h1>
 
-<p>For user-related questions, please see our <a href="/support">Support
-section</a></p>
+<p>For VLC media player user-related questions, 
+please see our <a href="/support">Support
+section</a> and the users <a href="/support/lists.html">Mailing-lists</a></p>
 
-<p>If you want to contact the French team of the Ecole Centrale
-Paris, about partnerships for example, please write to <a
-href="mailto:videolan@videolan.org">videolan@videolan.org</a> in French
-or English.</p>
+<p>If you want to contact the VideoLAN team, about partnerships for example 
+and all non-support related questions, please write to 
+<a href="mailto:videolan@REMOVETHIS@videolan.org">videolan - at - videolan.org</a> 
+in French or English.</p>
 
 <p> If you want to redistribute some VideoLAN software (VLC, VLS...)
 in a magazine for example, you don't need to ask us the permission !

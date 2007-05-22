@@ -54,7 +54,7 @@
 
 <tr>
 
-<td class="category"><b>VLC Play-Howto</b></td>
+<td class="category"><b>VLC Play Howto</b></td>
 <td>Complete user guide for the client aspects of VLC</td>
 <td class="yes">
 <a href="/doc/play-howto/en/play-howto-en.html">EN</a>
@@ -83,7 +83,7 @@
 
 <tr>
 
-<td class="category"><b>VLC Streaming-Howto</b></td>
+<td class="category"><b>VLC Streaming Howto</b></td>
 <td>Complete user guide for the server aspects of VLC</td>
 <td class="yes">
 <a href="/doc/streaming-howto/en/streaming-howto-en.html">EN</a>

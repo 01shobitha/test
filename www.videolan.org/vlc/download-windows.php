@@ -12,6 +12,8 @@
 <h1> VLC media player for Windows </h1>
 <div id="left">
 
+<p>All mirrors include all the available translations.</p>
+
   <h2>Latest packages (0.8.6b)</h2>
 
 <?php

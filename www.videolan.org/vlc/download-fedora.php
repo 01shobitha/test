@@ -14,8 +14,8 @@
 <p>The only version we officially support is VLC 0.8.5 for Fedora Core 4.<br />
 <b>BUT</b>, you can find VLC 0.8.6 for all the other flavours of fedora:</p>
 
-<h2>Fedora Core 6 and 7</h2>
-<p>Use <a href="http://rpm.livna.org/">RPM - LIVNA</a> for FC6.</p>
+<h2>Fedora Core 6 and Fedora 7</h2>
+<p>Use <a href="http://rpm.livna.org/">RPM - LIVNA</a> for FC6 and F7.</p>
 
 <h2>Fedora Core 4 and 5</h2>
 <p>For those two versions, VLC 0.8.6 is not available. You can have 0.8.5 here 

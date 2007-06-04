@@ -26,6 +26,11 @@ screenshot( "/vlc/screenshots/0.8.6/VLC-0.8.6-beryl.jpg",
 screenshot( "/vlc/screenshots/0.8.6/VLC-0.8.6-beryl-ubuntu.jpg",
 	    "/vlc/screenshots/0.8.6/tm_VLC-0.8.6-beryl-ubuntu.jpg",
 	    "GNU/Linux Ubuntu - Beryl", "1024x768" );
+
+screenshot( "/vlc/screenshots/0.8.6/VLC-mac-Fullscreen.jpg",
+	    "/vlc/screenshots/0.8.6/tm_VLC-mac-Fullscreen.jpg",
+	    "Mac OS X - FullScreen Controller", "1280x800" );
+
 ?>
 
 

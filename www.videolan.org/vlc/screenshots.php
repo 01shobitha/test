@@ -16,7 +16,20 @@ echo"    <div class=\"screenshot\"><a href='$img'><img
 
 <div id="fullwidth" >
 
-<h2>Latest screenshots 0.8.5</h2>
+
+<h2>Latest screenshots 0.8.6</h2>
+<?php
+screenshot( "/vlc/screenshots/0.8.6/VLC-0.8.6-beryl.jpg",
+	    "/vlc/screenshots/0.8.6/tm_VLC-0.8.6-beryl.jpg",
+	    "GNU/Linux Debian - Beryl", "1680x1050" );
+
+screenshot( "/vlc/screenshots/0.8.6/VLC-0.8.6-beryl-ubuntu.jpg",
+	    "/vlc/screenshots/0.8.6/tm_VLC-0.8.6-beryl-ubuntu.jpg",
+	    "GNU/Linux Ubuntu - Beryl", "1024x768" );
+?>
+
+
+<h2 class="clearme">0.8.5</h2>
 
 <?php
 screenshot( "/vlc/screenshots/0.8.5/VLC-screenshot-0.8.5.JPG",

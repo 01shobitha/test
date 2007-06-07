@@ -33,7 +33,6 @@ Directory: /pub/videolan/vlc/SuSE/&lt;SUSE Version&gt;
 Replace &lt;SUSE Version&gt; in the Directory above with your installed SuSE
 Version. Supported at this time are :
 <pre>
-9.3
 10.0
 10.1
 10.2

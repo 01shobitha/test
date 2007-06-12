@@ -81,7 +81,7 @@ available at the usual download locations.
 respective distribution/OS vendor.
 </p>
 <h2>Credits</h2>
-<p>This bug was responsibly reported by David&nbsp;Thiel
+<p>This bug responsibly reported by David&nbsp;Thiel
 from iSEC&nbsp;Partners&nbsp;Inc, originally for the Ogg/Vorbis plugin,
 and was found to affect other plugins after further internal analysis.
 </p>

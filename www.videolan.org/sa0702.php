@@ -11,6 +11,7 @@
 <h1>Security Advisory 0702</h1>
 <pre>
 Summary           : Format string injection in Vorbis, Theora, SAP
+                    and CDDA plugins
 Date              : 12 June 2007
 Affected versions : VLC media player 0.8.6b and older
 ID                : VideoLAN-SA-0702

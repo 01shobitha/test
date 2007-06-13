@@ -35,8 +35,8 @@ or crash the player instance.
 <h2>Threat mitigation</h2>
 <p>Exploitation of this bug requires getting VLC to read a crafted Ogg
 file, an Audio CD with a crafted CDDB entry.
-If the SAP service discovery is affected, the bug can be exploited by
-sending a crafted multicast packets on the network.
+If SAP service discovery is enabled, the bug can be exploited
+by sending a crafted multicast packets on the network.
 </p>
 <h2>Workarounds</h2>
 <p>If support for Audio CDs and ogg files are not used,
@@ -98,7 +98,7 @@ and was found to affect other plugins after further internal analysis.
 <dl>
 <!--<dt>XX June 2007</dt>
 <dd>Added CVE candidate ID reference</dd>-->
-<!--<dt>XX June 2007</dt>
+<!--<dt>13 June 2007</dt>
 <dd>VLC 0.8.6c bugfix release</dd>
 <dd>Binaries for Windows and MacOS X</dd>-->
 <dt>07 June 2007</dt>

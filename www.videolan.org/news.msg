@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|13 June 2007| VideoLAN won a Lut&egrave;ce d'or | VideoLAN was awarded a Lutèce d'Or during the latest <a href="http://www.paris-libre.org/">Paris Capitale du Libre</a> event, a technology event aimed to recognize achievements in open source development.<br /> VideoLAN received "The best Free Software development" prize for VLC media player, one year after the <a href="http://www.mozilla.org">Mozilla Foundation</a> received it for <a href="http://www.mozilla.org/firefox">Firefox</a>.
+
 |24 April 2007| Windows Binaries for VLC 0.8.6b updated | The VLC 0.8.6b Windows binaries seemed to have a few problems with Unicode support and H.264 encoding.<br /> These issues have been fixed on our main FTP and our mirrors will follow soon.<br /> Sorry for the disturbance.
 
 |19 April 2007| Release VLC 0.8.6b media player | From the feedback we have had so far on the latest version of VLC media player, 0.8.6a, we are proud to introduce a new bugfix release, namely 0.8.6b, aimed at fixing some annoying bugs. But with a few improvements too. <br /> It includes a new teletext subtitles decoder, new flash video decoders and Mac OS X interface improvements. It fixes many crashes, especially during fullscreen on Mac OS X, on Vista and the browser plugin.<br />Have a look <a href="http://developers.videolan.org/vlc/NEWS">here</a> for the full list of changes.<br />We hope you will enjoy that new version.

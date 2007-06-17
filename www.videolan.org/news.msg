@@ -1,7 +1,7 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
-|17 June 2007|VideoLAN Security Advisory 0702, VLC media player 0.8.6c | VLC media player versions 0.8.6b and lower suffer from a security vulnerability in the CDDA, Vorbis, Theora and SAP plugins. More technical details are available in our <a href="http://www.videolan.org/sa0702.html">advisory</a>.<br /> An updated release of VLC isavailable which includes a few other fixes as well.The full list of changes can be found <a href="http://developers.videolan.org/vlc/NEWS>here</a>.<br />We strongly recommend all users to update to thisnew version.
+|17 June 2007|VLC media player 0.8.6c, VideoLAN Security Advisory 0702 | VLC media player versions 0.8.6b and lower suffer from a security vulnerability in the CDDA, Vorbis, Theora and SAP plugins. More technical details are available in our <a href="http://www.videolan.org/sa0702.html">advisory</a>.<br /> An updated release of VLC is available which includes a few other fixes as well.The full list of changes can be found <a href="http://developers.videolan.org/vlc/NEWS">here</a>.<br />We strongly recommend all users to update to thisnew version.
 
 |13 June 2007| VideoLAN won a Lut&egrave;ce d'or | VideoLAN was awarded a Lutèce d'Or during the latest <a href="http://www.paris-libre.org/">Paris Capitale du Libre</a> event, a technology event aimed to recognize achievements in open source development.<br /> VideoLAN received "The best Free Software development" prize for VLC media player, one year after the <a href="http://www.mozilla.org">Mozilla Foundation</a> received it for <a href="http://www.mozilla.org/firefox">Firefox</a>.
 

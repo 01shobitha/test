@@ -14,15 +14,15 @@
 
 <p>All mirrors include all the available translations.</p>
 
-  <h2>Latest packages (0.8.6b)</h2>
+  <h2>Latest packages (0.8.6c)</h2>
 
 <?php
     pkgitem( "Windows self-extracting package",
-                   "0.8.6b/win32","vlc-0.8.6b-win32.exe","vlc");
+                   "0.8.6c/win32","vlc-0.8.6c-win32.exe","vlc");
     pkgitem("Windows 7zip (identical to the above but without the installer)",
-                  "0.8.6b/win32","vlc-0.8.6b-win32.7z","vlc");
+                  "0.8.6c/win32","vlc-0.8.6c-win32.7z","vlc");
     pkgitem("Windows zip packages (identical to the above)",
-                  "0.8.6b/win32","vlc-0.8.6b-win32.zip","vlc");
+                  "0.8.6c/win32","vlc-0.8.6c-win32.zip","vlc");
 ?>
 
   <h2>Older versions</h2>

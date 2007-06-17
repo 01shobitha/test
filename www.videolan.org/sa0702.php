@@ -13,7 +13,7 @@
 Summary           : Format string injection in Vorbis, Theora, SAP
                     and CDDA plugins
 Date              : 12 June 2007
-Affected versions : VLC media player 0.8.6b and older
+Affected versions : VLC media player 0.8.6b and earlier
 ID                : VideoLAN-SA-0702
 CVE reference     : not currently available
 </pre>
@@ -98,9 +98,9 @@ and was found to affect other plugins after further internal analysis.
 <dl>
 <!--<dt>XX June 2007</dt>
 <dd>Added CVE candidate ID reference</dd>-->
-<!--<dt>13 June 2007</dt>
+<dt>17 June 2007</dt>
 <dd>VLC 0.8.6c bugfix release</dd>
-<dd>Binaries for Windows and MacOS X</dd>-->
+<dd>Binaries for Windows and Mac OS X</dd>
 <dt>07 June 2007</dt>
 <dd>Source code fixes for VLC 0.8.6b and development tree</dd>
 <dt>06 June 2007</dt>

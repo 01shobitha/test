@@ -20,7 +20,7 @@
   <a href="/project">Learn more</a> about the VideoLAN project.</p>
   <p>Our main product is the cross-platform VLC media player.</p>
 
-    <h2><a href="http://www.videolan.org/videolan-news.rss"><img src="/images/icons/rss-feed.gif" alt="RSS 1.0" /> News subscription</a></h2>
+    <h2><a href="http://www.videolan.org/videolan-news.rss"><img src="http://download.videolan.org/images/icons/rss-feed.gif" alt="RSS 1.0" /> News subscription</a></h2>
     <div>
       <?php shownews("full",5); ?>
     </div>
@@ -53,7 +53,7 @@
 	--></script>
 	<noscript>
 	   <p class="center">
-  	   <img src="/images/screenshots/vlc-win32.jpg" alt="VLC on Windows" />
+  	   <img src="http://www.videolan.org/images/screenshots/vlc-win32.jpg" alt="VLC on Windows" />
 	   </p>
 	</noscript>
 	</p>

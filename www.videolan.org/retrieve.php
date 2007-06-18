@@ -1,7 +1,5 @@
-<?php header('Content-Type: text/xml'); ?>
-<?xml version="1.0"?>
-<?php
-
+<?php header('Content-Type: text/xml');
+    echo "<?xml version=\"1.0\"?>";
     /* Open data */
     $lines = file( "/var/www/local/www.videolan.org/counter.data" );
 

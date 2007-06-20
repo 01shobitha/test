@@ -36,6 +36,7 @@ Version. Supported at this time are :
 10.0
 10.1
 10.2
+10.3
 </pre>
 Confirm the addition.<br />
 </p>

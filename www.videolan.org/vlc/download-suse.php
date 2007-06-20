@@ -8,7 +8,7 @@
 
 <?php function pkgitem($version,$name,$comment) { ?><li><a href="http://download.videolan.org/pub/videolan/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a> <?php echo $comment; ?> </li><?php } ?>
 
-<h1>VLC media player for <a href="http://www.opensuse.org/">SUSE Linux x86 and x86_64</a></h1>
+<h1>VLC media player for <a href="http://www.opensuse.org/">SUSE Linux</a> x86 and x86_64</h1>
 
 <div id="left">
 
@@ -20,6 +20,7 @@ SUSE/openSUSE Package manager, which exists in all versions.
 </p>
 
 <h2>Download VLC media player for SUSE Linux using YaST</h2>
+<h3>Add VideoLAN's repository</h3>
 <p>
 First, add a new repository (installation source) in YaST (YaST2 ->
 Software -> Installation Sources)</p>
@@ -40,6 +41,7 @@ Version. Supported at this time are :
 </pre>
 Confirm the addition.<br />
 </p>
+
 <p>
 The repository is signed with a GPG Key 
 (gpg key C8DA93D2 fingerprint  BC8D 780D E330 8581 B2E0  7085 33DE 8FB7 C8DA 93D2).
@@ -48,6 +50,7 @@ suspect with the repository.<br />
 
 Accept everything by clicking <b>Finish</b>.</p>
 
+<h3>Installation</h3>
 <p>
 Go to Software Management and enter VLC in the searchbox and search for
 it. Select it and click <b>Accept</b> to install it with all it's

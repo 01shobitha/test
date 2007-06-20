@@ -39,7 +39,9 @@ Version. Supported at this time are :
 10.3
 </pre>
 Confirm the addition.<br />
-<strong>For SUSE Linux Enterprise Desktop (SLED) 10</strong><br />
+</p>
+<p>
+<strong>Note for SUSE Linux Enterprise Desktop (SLED) 10</strong><br />
 
 SLED is based on SUSE Linux 10.1, so please be sure to select the 10.1 repository (not 10.0).
 </p>

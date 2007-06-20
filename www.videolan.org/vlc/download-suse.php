@@ -25,21 +25,20 @@ SUSE/openSUSE Package manager, which exists in all versions.
 First, add a new repository (installation source) in YaST (YaST2 ->
 Software -> Installation Sources)</p>
 
-<p>
-Add the following Repository:
+<p>Add the following Repository:</p>
 <pre>
 Type: HTTP / Servername: download.videolan.org /
 Directory: /pub/videolan/vlc/SuSE/&lt;SUSE Version&gt;
 </pre>
-Replace &lt;SUSE Version&gt; in the Directory above with your installed SuSE
-Version. Supported at this time are :
+<p>Replace &lt;SUSE Version&gt; in the Directory above with your installed SuSE
+Version. Supported at this time are :</p>
 <pre>
 10.0
 10.1
 10.2
 10.3
 </pre>
-Confirm the addition.<br />
+<p>Confirm the addition.<br />
 </p>
 
 <p>

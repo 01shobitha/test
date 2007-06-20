@@ -41,12 +41,6 @@ Version. Supported at this time are :
 Confirm the addition.<br />
 </p>
 <p>
-<strong>Note for SUSE Linux Enterprise Desktop (SLED) 10</strong><br />
-
-SLED is based on SUSE Linux 10.1, so please be sure to select the 10.1 repository (not 10.0).
-</p>
-
-<p>
 The repository is signed with a GPG Key 
 (gpg key C8DA93D2 fingerprint  BC8D 780D E330 8581 B2E0  7085 33DE 8FB7 C8DA 93D2).
 Accept this key in YaST and it will warn you in case there is something
@@ -75,6 +69,13 @@ Have a lot of Fun.
 You may need to add a SUSE Repository as well to solve several dependencies. <br />
 It could be  http://ftp4.gwdg.de/pub/opensuse
 /distribution/SL-10.1/inst-source/suse , for example.
+
+<?php panel_end(); ?>
+
+<?php panel_start( "blue" ); ?>
+<strong>Note for SUSE Linux Enterprise Desktop (SLED) 10</strong><br />
+
+SLED is based on SUSE Linux 10.1, so please be sure to select the 10.1 repository (not 10.0).
 
 <?php panel_end(); ?>
 </div>

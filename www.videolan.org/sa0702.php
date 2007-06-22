@@ -15,7 +15,7 @@ Summary           : Format string injection in Vorbis, Theora, SAP
 Date              : 12 June 2007
 Affected versions : VLC media player 0.8.6b and earlier
 ID                : VideoLAN-SA-0702
-CVE reference     : not currently available
+CVE reference     : CVE-2007-3316
 </pre>
 <h2>Details</h2>
 <p>VLC media player Ogg/Vorbis, Ogg/Theora, CDDA (CD Digital Audio) and
@@ -96,8 +96,8 @@ and was found to affect other plugins after further internal analysis.
 </dl>
 <h2>History</h2>
 <dl>
-<!--<dt>XX June 2007</dt>
-<dd>Added CVE candidate ID reference</dd>-->
+<dt>22 June 2007</dt>
+<dd>Added CVE candidate ID reference</dd>
 <dt>17 June 2007</dt>
 <dd>VLC 0.8.6c bugfix release</dd>
 <dd>Binaries for Windows and Mac OS X</dd>

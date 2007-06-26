@@ -71,7 +71,7 @@ $(DOC)-$(LNG).rtf: $(XML)
 
 # TXT output
 $(DOC)-$(LNG).txt: $(XML)
-	$(JADE) -t sgml -d ../common/stylesheet-txt.dsl -V nochunks $(XML_DECL) $(XML) > dumpfortxt.html
+	$(JADE) -t sgml -d ../../common/stylesheet-txt.dsl -V nochunks $(XML_DECL) $(XML) > dumpfortxt.html
 	lynx -force_html -dump dumpfortxt.html > $@
 	rm -f dumpfortxt.html
 

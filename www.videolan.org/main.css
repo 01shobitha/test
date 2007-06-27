@@ -142,7 +142,6 @@ p.center { text-align:center;}
 #maincontent table th.th-os { 
 	white-space: nowrap;
 	overflow: hidden;
-	-o-text-overflow: ellipsis;
 	text-overflow: ellipsis;
 	width: 10%;
 }

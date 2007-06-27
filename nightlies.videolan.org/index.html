@@ -83,53 +83,52 @@
 </div>
 <div class="os2">
 	<ul class="os" style="padding-bottom:10px">
-		<li style="background:none">The packages for the following operating systems<br> are <b>not</b> automatically built every night:</li>
+		<li style="background:none">The packages for the following operating systems<br /> are <b>not</b> automatically built every night:</li>
 		<li class='ubuntu' ><a href='/build/breezy-i386'>Ubuntu Breezy I386 (stable) snapshot</a></li>
 		<li class='ubuntu' ><a href='/build/dapper-i386'>Ubuntu Dapper I386 (dapper) snapshot</a></li>
 	</ul>
 </div>
 <div class="clearme">
 	<h2>Source-code snapshots</h2>
-	<p><a href="/build/source/?C=M;O=D">Download here</a></p>
+	<p><a href="/build/source/?C=M;O=D">Download here</a> the tarballs (bz2) or use <a href="http://wiki.videolan.org/Subversion">SVN</a> to get the more recent trunk.</p>
 
 	<h2>Debian and Ubuntu repositiories</h2>
-	<p>For Debian Sid I386 (unstable) add the following line to your sources.list:<br>
+	<p>For Debian Sid I386 (unstable) add the following line to your sources.list:</p>
 	<pre>deb http://nightlies.videolan.org/build/sid-i386/arch ./</pre>
-	For Debian Sid AMD64 (unstable) add the following line to your sources.list:<br>
+	<p>For Debian Sid AMD64 (unstable) add the following line to your sources.list:</p>
 	<pre>deb http://nightlies.videolan.org/build/sid-amd64/arch ./</pre>
-	</p>
-	<br>
+	<br />
 	<p>Those repositories contain a <i>vlc-dbg</i> package that you 
 	can install so you can run <i>gdb</i> to provide usefull backtrace when reporting bugs.</p>
-	<p>Our debian archives are signed using <a href="key">this key</a> (AA5F4DE6). To use it, either 
+	<p>Our debian archives are signed using <a href="key">this key</a> (AA5F4DE6). To use it, either:</p> 
 	<ul class="list">
-		<li>Retrieve it directly (but you don't really check the key):<br>
+		<li>Retrieve it directly (but you don't really check the key):<br />
 		    As root, run : <pre>wget -O /dev/stdout http://nightlies.videolan.org/key|apt-key add - </pre>
 		</li>
-		<li>Import it in your gnupg installation, either from the <a href="key">file</a> or from any keyserver, and check it (it is signed by several VideoLAN developers).<br>
+		<li>Import it in your gnupg installation, either from the <a href="key">file</a> or from any keyserver, and check it (it is signed by several VideoLAN developers).
 		<pre>gpg --keyserver subkeys.pgp.net --recv-keys AA5F4DE6
 gpg --list-sigs AA5F4DE6 (check for errors)
 gpg --export AA5F4DE6 -a|sudo apt-key add -</pre>
 		</li>
 	</ul>
-	</p><br>
-	<p>For Ubuntu Breezy I386 (stable) snapshot add the following line to your sources.list:<br>
+	<br />
+	<p>For Ubuntu Breezy I386 (stable) snapshot add the following line to your sources.list:</p>
 	<pre>deb http://nightlies.videolan.org/build/breezy-i386 /</pre>
-	This package is <b>not</b> automatically built every night.
+	<p>This package is <b>not</b> automatically built every night.
 	Our breezy archive is signed using this key (AA5F4DE6). To use it, you may follow the same steps as for our debian archive's key.
 	</p>
-	<p>For Ubuntu Dapper I386 (dapper) snapshot add the following line to your sources.list:<br>
+	<p>For Ubuntu Dapper I386 (dapper) snapshot add the following line to your sources.list:</p>
 	<pre>deb http://nightlies.videolan.org/build/dapper-i386 /</pre>
-	This package is <b>not</b> automatically built every night.
+	<p>This package is <b>not</b> automatically built every night.
 	Our breezy archive is signed using this key (AA5F4DE6). To use it, you may follow the same steps as for our debian archive's key.
 	</p>
 </div>
-<br>
+<br />
 </div> <!-- MAINCONTENT -->
 </div> <!-- PAGECONTAINER -->
 <div id="footer">
   <p> <a href="http://www.videolan.org/">VideoLAN</a> 
-  <p>
+  <br />
   All rights reserved to the VideoLAN team. -&nbsp;
     valid    <a href="http://validator.w3.org/check/referer">XHTML 1.1</a>
 

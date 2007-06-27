@@ -52,6 +52,7 @@ the web site will be automatically updated a few minutes later.
 <p><a href="lists.html">Mailing lists</a></p>
 <p><a href="https://trac.videolan.org/">Trac - project management</a></p>
 <p><a href="http://krishna.videolan.org/cgi-bin/irc/irc.cgi">IRCWeb</a></p>
+<p><a href="http://nightlies.videolan.org/">Nightly Builds</a></p>
  <?php panel_end(); ?>
 </div>
 

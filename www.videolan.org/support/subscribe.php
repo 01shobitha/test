@@ -21,6 +21,7 @@
     $valid = 0;
     $message = "";
     $ok = 0;
+    $domain = "@videolan.org";
 
     if( $subscribe != "" ) {
         if( $unsubscribe != "" ) {
@@ -44,28 +45,43 @@
 
         if( ereg( "[a-z0-9]+.*@([a-z0-9-]+\.)*[a-z0-9-]+[\.]*$", $from ) ) {
             if( $videolanannounce != "" ) {
-                $message.= $prefix."subscribe videolan-announce $from\n"; $valid = 1;
+//                $message.= $prefix."subscribe videolan-announce $from\n"; $valid = 1;
+		$to="videolan-announce-".$prefix."subscribe".$domain;$valid = 1;
+
             }
             if( $vlc != "" ) {
-                $message.= $prefix."subscribe vlc $from\n"; $valid = 1;
+                //$message.= $prefix."subscribe vlc $from\n"; $valid = 1;
+		$to="vlc-".$prefix."subscribe".$domain;$valid = 1;
+
             }
             if( $streaming != "" ) {
-                $message.= $prefix."subscribe streaming $from\n"; $valid = 1;
+//                $message.= $prefix."subscribe streaming $from\n"; $valid = 1;
+		$to="streaming-".$prefix."subscribe".$domain;$valid = 1;
+
             }
             if( $vlcdevel != "" ) {
-                $message.= $prefix."subscribe vlc-devel $from\n"; $valid = 1;
+                //$message.= $prefix."subscribe vlc-devel $from\n"; $valid = 1;
+		$to="vlc-devel-".$prefix."subscribe".$domain;$valid = 1;
+
             }
             if( $vlsdevel != "" ) {
-                $message.= $prefix."subscribe vls-devel $from\n"; $valid = 1;
+                //$message.= $prefix."subscribe vls-devel $from\n"; $valid = 1;
+		$to="vls-devel-".$prefix."subscribe".$domain;$valid = 1;
+
             }
-            if( $vlcsdevel != "" ) {
-                $message.= $prefix."subscribe vlcs-devel $from\n"; $valid = 1;
-            }
+/*            if( $vlcsdevel != "" ) {
+                //$message.= $prefix."subscribe vlcs-devel $from\n"; $valid = 1;
+		$to="streaming-".$prefix."subscribe".$domain;
+}*/
             if( $libdvbpsidevel != "" ) {
-                $message.= $prefix."subscribe libdvbpsi-devel $from\n"; $valid = 1;
+                //$message.= $prefix."subscribe libdvbpsi-devel $from\n"; $valid = 1;
+		$to="libdvbpsi-devel-".$prefix."subscribe".$domain;$valid = 1;
+
             }
             if( $libdvdcssdevel != "" ) {
-                $message.= $prefix."subscribe libdvdcss-devel $from\n"; $valid = 1;
+//                $message.= $prefix."subscribe libdvdcss-devel $from\n"; $valid = 1;
+		$to="libdvdcss-devel-".$prefix."subscribe".$domain;$valid = 1;
+
             }
             if( !$valid ) {
                 $error = "no mailing-list specified";
@@ -79,14 +95,14 @@
 
     if( $valid ) {
 
-        $header = "From: ecartis@videolan.org\n";
+        $header = "From: ".$from."\n";
         $message .= "-- \n";
         $message .= "Sent via http://www.videolan.org/support/lists.html\n";
 
-        mail("ecartis@videolan.org", "(no subject)", $message, $header);
+        mail($to, "(no subject)", $message, $header);
 
         ?><p> The following request has been sent to <a
-        href="mailto:ecartis@videolan.org">ecartis@videolan.org</a>:
+        href="mailto:mailman@videolan.org">mailman@videolan.org</a>:
         </p> <pre><?php echo $header."\n".$message; ?></pre> <p> You
         should receive a confirmation request within the next few
         minutes. Reply to this email to confirm you subscription or

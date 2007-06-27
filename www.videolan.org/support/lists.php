@@ -65,9 +65,9 @@ the developers Web site.</p>
 
 <h2>Subscribe / Unsubscribe using e-mail</h2>
 
-<p>Our mailing-list manager is called Ecartis.
+<p>Our mailing-list manager is called Mailman.
 Experienced users can issue their commands to
-<a href="mailto:ecartis@videolan.org">ecartis@videolan.org</a>.</p>
+<a href="mailto:mailman@videolan.org">mailman@videolan.org</a>.</p>
 
 </div>
 

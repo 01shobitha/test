@@ -1,126 +1,145 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+       "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 
-  <head>
-    <title>VLC Nightly builds</title>
-    <style type="text/css">
-      p {
-        text-align: justify;
-      }
-      a:link, a:visited, a:active {
-        color: blue;
-      }
-      a:hover {
-        color: red;
-      }
-      pre {
-        background-color: #ddd;
-        padding-left: 10px;
-      }
-    </style>
-  </head>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <meta name="Generator" content="vim [GNU/Linux], GNU Emacs" />
+   <meta name="Author" content="videolan@videolan.org (VideoLAN team)" />
+   <meta name="Keywords" content="DVD, MPEG, MPEG2, MPEG4, DivX, VideoLAN,
+     VLC, VLS, Linux, Unix, BeOS, BSD, MacOS, MacOS X, OSX, QNX,
+     Familiar Linux, iPAQ, multicast, IPv6" />
+   <meta name="Description" content="VideoLAN developers" />
+   <title>VLC Media Player nightly builds</title>
 
-  <body style="background-image: url('cone-soppera10-30.png')" >
-    <div style="margin: 0px auto; width: 600px; background-color: white; border: black 1px solid; padding: 10px 50px;">
-      <h1>VLC media player nightly builds</h1>
+   <link rel="alternate" type="application/rss+xml" title="RSS - News" href="http://www.videolan.org/videolan-news.rss" />
+   <link rel="stylesheet" type="text/css" href="http://www.videolan.org/main.css" />
+   <style type="text/css">
+	ul.list {
+		list-style:none;
+		font-size:12px;
+	}
+	ul.list li {
+		background: url(bullet.png) left top no-repeat;
+		padding: 0 0 4px 16px;
+	}
+  </style>
+<!--[if lt IE 7]>
+   <style type="text/css">
+      @media screen{ body{behavior:url("/width.htc");} }
+        /* PNG support for IE */
+        img {  behavior: url("/png.htc");}
+        .DXImageTransformed { display: inline-block; }
+      </style>
+<![endif]-->
+   <link rel="shortcut icon" type="image/x-icon"
+         href="http://www.videolan.org/images/icons/favicon.ico" />
+      
+</head>
+   <body>
+  <div id="spacer"></div>
+  <div id="pagecontainer" class="clearfix">
+<div id="header">
+  <div id="navmenucontainer">
 
+	  <ul id="navmenu">
+			<li><a href="http://www.videolan.org/">VLC media player</a></li><li><a href="http://www.videolan.org/project">Project and Community</a></li><li><a href="http://www.videolan.org/doc/">Documentation</a></li><li><a href="http://wiki.videolan.org/">Wiki</a></li><li><a href="http://forum.videolan.org/">Forum</a></li><li><a href="http://www.videolan.org/developers/">Developers</a></li>		</ul>		
+  </div>
+	<div id="submenucontainer">
+		<div class="videolan-logo">
+			<a href="http://www.videolan.org/"><img src="http://www.videolan.org/images/videolan-logo.png" alt="VideoLAN" width="100" height="47"/></a>
+		
+		</div>
+		<ul id="submenu">
+			<li><a href="http://www.videolan.org/vlc/">Download latest stable release</a></li>
+			<li><a href="http://www.videolan.org/support/index.html">Support</a></li>
+		</ul>
+	</div>
+</div>
 
-      <p>Here you can download experimental versions of VLC that are daily 
-generated from the VLC code that is currently in development. Several issues that existed in previous versions of VLC might be fixed here, but since this version of VLC is not yet finished, you should expect other problems and issues.</p>
-       <p>You can find now versions from branch 0.8.6-bugfix  and versions from the trunk (future 0.9.0). You can see the differences with their names (branch-xxx against trunk-xxx) in the same directories.</p>
+<div id="maincontent">
+<h1>VLC media player nightly builds</h1>
+<div class="vlc-screenshot">
+  <img width="246" height="170" src="screenshot.png" alt="VLC on Windows"/>
+</div>
+<div id="description">
+	<h2>Welcome!</h2>
 
-      <ul>
-        <li>
-          <h4>
-            <a href="/build/win32/?C=M;O=D">Windows builds</a>
-          </h4>
-        </li>
-	<li>
-          <h4>
-            <a href="/build/wince/?C=M;O=D">WindowsCE / PocketPC builds</a>
-          </h4>
-	</li>
-	<li>
-          <h4>
-            <a href="/build/macosx/?C=M;O=D">Mac OS X PowerPC builds</a> 
-          </h4>
-        </li><li>
-          <h4>
-            <a href="/build/macosx-intel/?C=M;O=D">Mac OS X Intel builds </a> 
-          </h4>
-        </li><li>
-          <h4>
-            <a href="/build/beos/?C=M;O=D">BeOS builds</a> 
-          </h4>
-        </li><li>
-          <h4>
-            Debian Sid I386 (unstable): add the following line to your 
-sources.list
-            <pre>deb http://nightlies.videolan.org/build/sid-i386/arch ./</pre>
-          </h4>
-          <h4><a href="/build/sid-i386/?C=M;O=D">or download here</a></h4>
-	  </li>
-	  <!--<li>
-          <h4>
-            Debian Experimental I386: add the following line to your 
-sources.list
-            <pre>deb http://nightlies.videolan.org/build/exp-i386/arch ./</pre>
-          </h4>
-          <h4><a href="/build/exp-i386">or download here</a></h4>
-	  </li>-->
-	  <li>
-          <h4>
-            Debian Sid AMD64 (unstable): add the following line to your 
-sources.list
-            <pre>deb http://nightlies.videolan.org/build/sid-amd64/arch ./</pre>
-          </h4>
-          <h4><a href="/build/sid-amd64/?C=M;O=D">or download here</a></h4>
-	  <p>Those repositories contain a <i>vlc-dbg</i> package that you 
-	  can install so you can run <i>gdb</i> to provide usefull backtrace when reporting bugs.</p>
-	<p>Our debian archives are signed using <a href="key">this key</a> (AA5F4DE6). To use it, 
-either : </p><ul>
-	<li>Retrieve it directly (but you don't really check the key):<br />
-	    As root, run : <pre>wget -O /dev/stdout http://nightlies.videolan.org/key|apt-key add - </pre></li>
-	<li>Import it in your gnupg installation, either from the <a href="key">file</a> or from any keyserver, and check it (it is signed by several VideoLAN developers).<br />
-	<pre>
-	gpg --keyserver subkeys.pgp.net --recv-keys AA5F4DE6
-	gpg --list-sigs AA5F4DE6 (check for errors)
-	gpg --export AA5F4DE6 -a|sudo apt-key add -</pre>
-	</li></ul></li><li>
-          <h4>
-            Ubuntu Breezy I386 (stable) snapshot: add the following line to your 
-sources.list
-            <pre>deb http://nightlies.videolan.org/build/breezy-i386 /</pre>
-          </h4>
-          <h4><a href="/build/breezy-i386">or download here</a></h4>
+	<p>Here you can download experimental versions of VLC that are daily generated from the VLC code that is currently in development. Several issues that existed in previous versions of VLC might be fixed here, but since this version of VLC is not yet finished, you should expect other problems and issues.</p>
+</div>
+<h2>Download nightly builds</h2>
+<p>You can find now versions from branch 0.8.6-bugfix and versions from the trunk (future 0.9.0). You can see the differences with their names (branch-xxx against trunk-xxx) in the same directories.</p>
+<p>Select your operating system to download VLC binaries:</p>
+<div class="os1">
+	<ul class="os" style="padding-bottom:10px">
+		<li class='windows'  style="font-weight:bold"><a href='/build/win32/?C=M;O=D'>Windows</a></li>
+		<li class='macosx'  style="font-weight:bold"><a href='/build/macosx/?C=M;O=D'>Mac&nbsp;OS&nbsp;X PowerPC</a></li>
+		<li class='macosx'  style="font-weight:bold"><a href='/build/macosx-intel/?C=M;O=D'>Mac&nbsp;OS&nbsp;X Intel</a></li>
+		<li class='beos' ><a href='/build/beos/?C=M;O=D'>BeOS</a></li>
+		<li class='debian' ><a href='/build/sid-i386/?C=M;O=D'>Debian Sid I386</a></li>
+		<li class='debian' ><a href='/build/sid-amd64/?C=M;O=D'>Debian Sid AMD64</a></li>
+	</ul>
+</div>
+<div class="os2">
+	<ul class="os" style="padding-bottom:10px">
+		<li style="background:none">The packages for the following operating systems<br> are <b>not</b> automatically built every night:</li>
+		<li class='ubuntu' ><a href='/build/breezy-i386'>Ubuntu Breezy I386 (stable) snapshot</a></li>
+		<li class='ubuntu' ><a href='/build/dapper-i386'>Ubuntu Dapper I386 (dapper) snapshot</a></li>
+	</ul>
+</div>
+<div class="clearme">
+	<h2>Debian and Ubuntu repositiories</h2>
+	<p>For Debian Sid I386 (unstable) add the following line to your sources.list:<br>
+	<pre>deb http://nightlies.videolan.org/build/sid-i386/arch ./</pre>
+	For Debian Sid AMD64 (unstable) add the following line to your sources.list:<br>
+	<pre>deb http://nightlies.videolan.org/build/sid-amd64/arch ./</pre>
+	</p>
+	<br>
+	<p>Those repositories contain a <i>vlc-dbg</i> package that you 
+	can install so you can run <i>gdb</i> to provide usefull backtrace when reporting bugs.</p>
+	<p>Our debian archives are signed using <a href="key">this key</a> (AA5F4DE6). To use it, either 
+	<ul class="list">
+		<li>Retrieve it directly (but you don't really check the key):<br>
+		    As root, run : <pre>wget -O /dev/stdout http://nightlies.videolan.org/key|apt-key add - </pre>
+		</li>
+		<li>Import it in your gnupg installation, either from the <a href="key">file</a> or from any keyserver, and check it (it is signed by several VideoLAN developers).<br>
+		<pre>gpg --keyserver subkeys.pgp.net --recv-keys AA5F4DE6
+gpg --list-sigs AA5F4DE6 (check for errors)
+gpg --export AA5F4DE6 -a|sudo apt-key add -</pre>
+		</li>
+	</ul>
+	</p><br>
+	<p>For Ubuntu Breezy I386 (stable) snapshot add the following line to your sources.list:<br>
+	<pre>deb http://nightlies.videolan.org/build/breezy-i386 /</pre>
+	This package is <b>not</b> automatically built every night.
+	Our breezy archive is signed using this key (AA5F4DE6). To use it, you may follow the same steps as for our debian archive's key.
+	</p>
+	<p>For Ubuntu Dapper I386 (dapper) snapshot add the following line to your sources.list:<br>
+	<pre>deb http://nightlies.videolan.org/build/dapper-i386 /</pre>
+	This package is <b>not</b> automatically built every night.
+	Our breezy archive is signed using this key (AA5F4DE6). To use it, you may follow the same steps as for our debian archive's key.
+	</p>
+	<h2>Source-code snapshots</h2>
+	<p><a href="/build/source/?C=M;O=D">Download here</a></p>
+</div>
+<br>
+</div> <!-- MAINCONTENT -->
+</div> <!-- PAGECONTAINER -->
+<div id="footer">
+  <p> <a href="http://www.videolan.org/">VideoLAN</a> 
+  <p>
+  All rights reserved to the VideoLAN team. -&nbsp;
+    valid    <a href="http://validator.w3.org/check/referer">XHTML 1.1</a>
 
-        <p>This package is <strong>not</strong> automatically built every night.</p>
-        <p>Our breezy archive is signed using <a href="key">this key</a> (AA5F4DE6). To use it, you may follow the same steps as for our debian archive's key.</p>
+    and 
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>
+        - <a href="http://www.videolan.org/videolan-news.rss">RSS v1.0</a>
+  </p>
+</div>
+<div class="right">
 
-         </li><li>
-          <h4>
-            Ubuntu Dapper I386 (dapper) snapshot: add the following line to your 
-sources.list
-            <pre>deb http://nightlies.videolan.org/build/dapper-i386 /</pre>
-          </h4>
-          <h4><a href="/build/dapper-i386">or download here</a></h4>
-
-        <p>This package is <strong>not</strong> automatically built every night.</p>
-        <p>Our dapper archive is signed using <a href="key">this key</a> (AA5F4DE6). To use it, you may follow the same steps as for our debian archive's key.</p>
-
-         </li><li>
-
-          <h4>
-            <a href="/build/source/?C=M;O=D">Source-code snapshots</a>
-          </h4>
-
-       </li>
-      </ul>
-
-      <h4>
-        <a href="http://www.videolan.org">Looking for the VideoLAN website?</a>
-      </h4>
-    </div>
-  </body>
-
+</div>
+</body>
 </html>
+

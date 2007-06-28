@@ -6,8 +6,8 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
 function screenshot($img,$thumb,$desc,$size){
-echo"    <div class=\"screenshot\"><a href='http://download.videolan.org/$img'><img
-    src='http://download.videolan.org/$thumb' alt='$desc' width='150' /></a>
+echo"    <div class=\"screenshot\"><a href='http://download.videolan.org$img'><img
+    src='http://download.videolan.org$thumb' alt='$desc' width='150' /></a>
     <br />  $desc<br />($size) </div>";
 }
 ?>
@@ -19,16 +19,16 @@ echo"    <div class=\"screenshot\"><a href='http://download.videolan.org/$img'><
 
 <h2>Latest screenshots 0.8.6</h2>
 <?php
-screenshot( "vlc/screenshots/0.8.6/VLC-0.8.6-beryl.jpg",
-	    "vlc/screenshots/0.8.6/tm_VLC-0.8.6-beryl.jpg",
+screenshot( "/vlc/screenshots/0.8.6/VLC-0.8.6-beryl.jpg",
+	    "/vlc/screenshots/0.8.6/tm_VLC-0.8.6-beryl.jpg",
 	    "GNU/Linux Debian - Beryl", "1680x1050" );
 
-screenshot( "vlc/screenshots/0.8.6/VLC-0.8.6-beryl-ubuntu.jpg",
-	    "vlc/screenshots/0.8.6/tm_VLC-0.8.6-beryl-ubuntu.jpg",
+screenshot( "/vlc/screenshots/0.8.6/VLC-0.8.6-beryl-ubuntu.jpg",
+	    "/vlc/screenshots/0.8.6/tm_VLC-0.8.6-beryl-ubuntu.jpg",
 	    "GNU/Linux Ubuntu - Beryl", "1024x768" );
 
-screenshot( "vlc/screenshots/0.8.6/VLC-mac-Fullscreen.jpg",
-	    "vlc/screenshots/0.8.6/tm_VLC-mac-Fullscreen.jpg",
+screenshot( "/vlc/screenshots/0.8.6/VLC-mac-Fullscreen.jpg",
+	    "/vlc/screenshots/0.8.6/tm_VLC-mac-Fullscreen.jpg",
 	    "Mac OS X - FullScreen Controller", "1280x800" );
 
 ?>

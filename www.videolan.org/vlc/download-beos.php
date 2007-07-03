@@ -13,9 +13,9 @@
 
   <ul><li>
     <?php pkgitem("Latest BeOS package (0.8.6)",
-                  "0.8.6/BeOS","vlc-0.8.6-BeOS.zip","vlc"); 
+                  "0.8.6/BeOS","vlc-0.8.6c-BeOS.zip","vlc"); 
           pkgitem("Latest ZETA package (0.8.6)",
-                  "0.8.6/BeOS","vlc-0.8.6-ZETA.zip","vlc"); ?>
+                  "0.8.6/BeOS","vlc-0.8.6c-Zeta.zip","vlc"); ?>
   </li></ul>
 
   <h2>Older versions</h2>

@@ -31,10 +31,18 @@ dvd playback and X11 video output do the following:</p>
    # apt-get install vlc-maxi
 </pre>
 
-<h2>Stable distributions</h2>
-<p>Currently released ALT distributions, such as Master 2.4 and Compact 3.0
-contain outdated 0.7.2 version of VLC. However, you can check backports to
-find backported current versions of VLC (will be available soon).</p>
+<h2>Current stable distributions</h2>
+<h3>4.0</h3>
+<p><b>Server</b> distribution does not have vlc package in 'main' component.</p>
+<p>In order to install vlc, one should enable 'classic' component and perform the following:</p>
+<pre>
+  # apt-get update
+  # apt-get install vlc-normal
+</pre>
+
+<h2>Older distributions</h2>
+<p>Master 2.4 and Compact 3.0 contain outdated 0.7.2 version of VLC. There are no official
+ backports done by ALT Linux Team, so you're encouraged to update if you want recent VLC.</p>
 
 </div>
 

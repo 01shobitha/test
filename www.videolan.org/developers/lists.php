@@ -35,7 +35,7 @@ e-mail address below. You will be sent an email-based confirmation
 request a few minutes later. Reply to the email to confirm the
 subscription or unsubscription.</p>
 
-<form action="subscribe.php" method="post">
+<form action="../include/subscribe.php" method="post">
 
 <p>Your email address: <input type="text" name="from" size="30" /></p>
 
@@ -73,9 +73,9 @@ subscription or unsubscription.</p>
 
 <h2>Subscribe / Unsubscribe using e-mail</h2>
 
-<p>Our mailing-list manager is called Ecartis.
+<p>Our mailing-list manager is called Mailman.
 Experienced users can issue their commands to
-<a href="mailto:ecartis@videolan.org">ecartis@videolan.org</a>.</p>
+<a href="mailto:mailman@videolan.org">mailman@videolan.org</a>.</p>
 
 
 <?php footer('$Id$'); ?>

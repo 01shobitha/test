@@ -105,6 +105,46 @@
 	        mail($to, "(no subject)", $message, $header);
 
             }
+            if( $wwwdoc != "" ) {
+                //$message.= $prefix."subscribe vlc-devel $from\n"; $valid = 1;
+		$to="www-doc-".$prefix."subscribe".$domain;$valid = 1;
+	        $header = "from: ".$from."\n"; $message = "-- \n";
+	        $message .= "sent via http://www.videolan.org/support/lists.html\n";
+	        mail($to, "(no subject)", $message, $header);
+
+            }
+            if( $libdcadevel != "" ) {
+                //$message.= $prefix."subscribe vlc-devel $from\n"; $valid = 1;
+		$to="libdca-devel-".$prefix."subscribe".$domain;$valid = 1;
+	        $header = "from: ".$from."\n"; $message = "-- \n";
+	        $message .= "sent via http://www.videolan.org/support/lists.html\n";
+	        mail($to, "(no subject)", $message, $header);
+
+            }
+            if( $libdvdplaydevel != "" ) {
+                //$message.= $prefix."subscribe vlc-devel $from\n"; $valid = 1;
+		$to="libdvdplay-devel-".$prefix."subscribe".$domain;$valid = 1;
+	        $header = "from: ".$from."\n"; $message = "-- \n";
+	        $message .= "sent via http://www.videolan.org/support/lists.html\n";
+	        mail($to, "(no subject)", $message, $header);
+
+            }
+            if( $x264devel != "" ) {
+                //$message.= $prefix."subscribe vlc-devel $from\n"; $valid = 1;
+		$to="x264-devel-".$prefix."subscribe".$domain;$valid = 1;
+	        $header = "from: ".$from."\n"; $message = "-- \n";
+	        $message .= "sent via http://www.videolan.org/support/lists.html\n";
+	        mail($to, "(no subject)", $message, $header);
+
+            }
+            if( $mpris != "" ) {
+                //$message.= $prefix."subscribe vlc-devel $from\n"; $valid = 1;
+		$to="mpris-".$prefix."subscribe".$domain;$valid = 1;
+	        $header = "from: ".$from."\n"; $message = "-- \n";
+	        $message .= "sent via http://www.videolan.org/support/lists.html\n";
+	        mail($to, "(no subject)", $message, $header);
+
+            }
             if( !$valid ) {
                 $error = "no mailing-list specified";
             }

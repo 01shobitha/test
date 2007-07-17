@@ -38,6 +38,9 @@ RewriteRule ^project/contribute.html$ /contribute.html [R=permanent,L]
 
 #################### VLC ###########################
 
+# Typo
+RewriteRule ^vic/(.*)$ /vlc/$1 [R=permanent,L]
+
 # Misc
 RewriteRule ^packages(.*)$ /pub/vlc$1 [R=permanent,L]
 RewriteRule ^vlc/doc.html$ /vlc/index.html [R=permanent,L]
@@ -153,6 +156,9 @@ RewriteRule ^vlc/dx7headers.tgz http://download.videolan.org/pub/videolan/testin
 RewriteRule ^vlc/(.*).tgz$ /removed/$1.tgz [R=permanent,L]
 RewriteRule ^vlc/(.*).bz2$ /removed/$1.bz2 [R=permanent,L]
 RewriteRule ^freedvd.html$ /removed/freedvd.html [R=permanent,L]
+
+#typos
+RewriteRule ^vic(.*)$ /vlc/ [R=permanent,L]
 
 # We get many 404 for this one
 Redirect permanent debian/ http://www.videolan.org

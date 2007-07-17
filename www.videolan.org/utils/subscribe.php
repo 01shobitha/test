@@ -15,6 +15,16 @@
     $videolanannounce = $_POST["videolanannounce"];
     $vlc = $_POST["vlc"];
     $streaming = $_POST["streaming"];
+    $vlcdevel = $_POST["vlcdevel"];
+    $vlsdevel = $_POST["vlsdevel"];
+    $libdvbpsidevel = $_POST["libdvbpsidevel"];
+    $libdvdcssdevel = $_POST["libdvdcssdevel"];
+    $libdvdplaydevel = $_POST["libdvdplaydevel"];
+    $libdcadevel = $_POST["libdcadevel"];
+    $x264devel = $_POST["x264devel"];
+    $mpris = $_POST["mpris"];
+    $wwwdoc = $_POST["wwwdoc"];
+    
     $subscribe =$_POST["subscribe"];
     $unsubscribe =$_POST["unsubscribe"];
 

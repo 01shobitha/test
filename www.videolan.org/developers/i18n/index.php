@@ -42,7 +42,7 @@ should contact him to coordinate help.</p>
 <tr><td class="type">Language</td><td class="type">Maintainer</td></tr>
 
 <?php
-$lgfile="/var/www/local/developers.videolan.org/i18n/languages";
+$lgfile="languages";
 
 $file_id=fopen($lgfile,"r");
 $contents = fread ($file_id, filesize($lgfile) );

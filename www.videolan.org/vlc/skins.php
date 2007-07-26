@@ -92,6 +92,7 @@ if ($date_mod <> $date) echo '&nbsp; <img src="/images/updated.png" />'; ?></h3>
         </div>
       </form>
       <?php } ?>
+      <br/><a href="http://forum.videolan.org/viewforum.php?f=26">Comments...</a>
     </td></tr>
    </table>
   </td>

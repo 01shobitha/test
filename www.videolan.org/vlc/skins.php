@@ -62,7 +62,9 @@ if ($date_mod <> $date) echo '&nbsp; <img src="/images/updated.png" />'; ?></h3>
             echo "<img alt='Equal' src='/vlc/skins2/cone-e.png' title=\"last week's rating: ".round($old_rating,1)."\"/>";
           else
             echo "<img alt='Down' src='/vlc/skins2/cone-d.png' title=\"last week's rating: ".round($old_rating,1)."\"/>";*/
-          echo " ($count votes)<br />";
+          echo " ($count votes)";
+          echo ' <a href="http://forum.videolan.org/viewforum.php?f=26">Comments...</a>';
+          echo " <br />";
           for( $i=0; $i<5; $i++ )
           {
             $v = round(min(1,max(0,$rating-$i)),1)*10;
@@ -70,7 +72,6 @@ if ($date_mod <> $date) echo '&nbsp; <img src="/images/updated.png" />'; ?></h3>
           }
         }
       ?>
-      <a href="http://forum.videolan.org/viewforum.php?f=26">Comments...</a>
       <?php
          if( $_COOKIE["skinrated_$id"] != $id )
         {

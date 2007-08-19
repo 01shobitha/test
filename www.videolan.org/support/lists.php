@@ -46,9 +46,9 @@ subscription or unsubscription.</p>
       <p>
       <input type="checkbox" name="videolanannounce" />
           <code><b>videolan-announce@videolan.org</b></code>
-          (low-traffic and moderated announce list for VideoLAN releases and events)<br />
+          (low-traffic and moderated announce list for VideoLAN releases and events)<br /><br />
       <input type="checkbox" name="vlc" />
-          <code><b>vlc@videolan.org</b></code> (<b>users</b> discussions about VLC)<br />
+          <code><b>vlc@videolan.org</b></code> (<b>users</b> discussions about VLC)<br /><br />
       <input type="checkbox" name="streaming" />
           <code><b>streaming@videolan.org</b></code> (<b>users</b> discussions about the streaming solution: VLC, VLS, mini-SAP-server, the network...)<br />
       </p>

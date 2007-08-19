@@ -138,9 +138,9 @@ France
 <p>For VLC media player user-related questions, 
 please see our <a href="/support">Support
 section</a> and the users <a href="/support/lists.html">Mailing-lists</a></p>
-
+<p>Support questions for VLC media player should be mailed <a href="mailto:vlc@REMOVETHIS@videolan.org">vlc - at - videolan.org</a>.</p>
 <p>If you want to contact the VideoLAN team, about partnerships for example 
-and all non-support related questions, please write to 
+and all non-support related questions (, please write to 
 <a href="mailto:videolan@REMOVETHIS@videolan.org">videolan - at - videolan.org</a> 
 in French or English.</p>
 

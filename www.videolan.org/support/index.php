@@ -50,7 +50,7 @@ The <a href="http://wiki.videolan.org/VLC_report">VLC report page</a> on our
 <p>Then ask your question, on:</p>
 <ul>
 <li>the <a href="http://forum.videolan.org">Forum</a>, in the correct section;</li>
-<li>the <a href="lists.html">users mailing-lists</a>;</li>
+<li>the <a href="lists.html">users mailing-lists</a>, especially <a href="mailto:vlc@REMOVETHIS@videolan.org">vlc - at - videolan.org</a>;</li>
 <li>the IRC channel (<em>irc.videolan.org, #videolan</em>, for live answers.
 Use the web-based <a href="http://krishna.videolan.org/cgi-bin/irc/irc.cgi">IRCWeb</a> interface,
 if you need it.</li></ul>

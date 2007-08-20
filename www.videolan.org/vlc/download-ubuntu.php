@@ -12,29 +12,9 @@
 
 <div id="left">
 
-<h2>Ubuntu Dapper Drake LTS 6.06</h2>
-<p>Dapper will be supported until June 2009 by Canonical. But VLC version is 
-very old in Dapper, so use our packages to get the latest VLC version.</p>
-<p>Add our repository:</p>
-<ul>
-<li>
-Use the following repository, with universe checked, for graphic installation:
-<pre>ftp://ftp.videolan.org/pub/videolan/ubuntu</pre>
-Search and install vlc vlc-plugin-esd mozilla-plugin-vlc and libdvdcss2
-</li>
-<li>
-Or add to your /etc/apt/sources.list:
-<pre>deb ftp://ftp.videolan.org/pub/videolan/ubuntu dapper universe</pre>
-And run
-<pre>
- % sudo apt-get update
- % sudo apt-get install vlc vlc-plugin-esd mozilla-plugin-vlc libdvdcss2
-</pre>
-</li>
-</ul>
-
+<h2>Ubuntu Gutsy Gibbon 7.10</h2>
+<h2>Ubuntu Feisty Fawn 7.04</h2>
 <h2>Ubuntu Edgy Eft 6.10</h2>
-<p>A pretty new version is already in Universe:</p>
 
 <h3>Graphical way</h3>
 <p>Open Synaptic (System -&gt; Administration -&gt; Synaptic Package Manager). 
@@ -49,13 +29,30 @@ repository activated.</p>
    % sudo apt-get install vlc vlc-plugin-esd mozilla-plugin-vlc
 </pre>
 
-<h2>Ubuntu Feisty Fawn 7.04</h2>
-<p>Do the same as for Edgy, you should get the latest VLC version</p>
+<h2>Ubuntu Dapper Drake LTS 6.06</h2>
+<p>Dapper will be supported until June 2009 by Canonical. But VLC version is 
+very old in Dapper, so use our packages to get the latest VLC version.</p>
+<p>Add our repository that way:</p>
+<ul><li>
+Be sure to have universe repository enabled.
+And type these commands in a terminal:
+<pre>
+echo "deb ftp://ftp.videolan.org/pub/videolan/ubuntu dapper universe" > /etc/apt/sources.list.d/vlc.list
+sudo apt-get update
+sudo apt-get install vlc vlc-plugin-esd mozilla-plugin-vlc libdvdcss2
+</pre>
+</li>
+</ul>
 
-<h2>Ubuntu Breezy and Older</h2>
-<p> You really should upgrade !</p>
+<h2>Ubuntu Breezy Badger 5.10</h2>
+<p>You really should upgrade ! We don't provide up-to-date binaries for this release.</p>
+<p>Moreover, you should not that this version is subject to several unpatched vulnerabilities !</p>
+<p>If you're really desperate, you can find a not so old version for Breezy</p>
+<p> on <a href="http://nightlies.videolan.org/build/breezy-i386">nightlies.videolan.org</a>.</p>
 
-<p>You can find a not so old version for breezy on <a href="http://nightlies.videolan.org">nightlies.videolan.org</a>.</p>
+<h2>Ubuntu Hoary Hedgehog 5.04</h2>
+<p>You really should upgrade ! We don't provide up-to-date binaries for this release.</p>
+<p>Moreover, you should not that this version is subject to several unpatched vulnerabilities !</p>
 
 </div>
 

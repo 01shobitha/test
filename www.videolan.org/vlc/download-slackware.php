@@ -23,7 +23,7 @@
   # installpkg vlc-0.8.5-i686-3.tgz 
 </pre>
 
-<p>Another VLC tgz are also available on <a href="http://www.slacky.it/index.php?option=com_repository&Itemid=29&func=fileinfo&parent=folder&filecatid=1120">Italian Slackware Community</a>.</p>
+<p>A VLC 0.8.6c tgz is also available on <a href="http://www.slacky.eu/repository/slackware-11.0/multimedia/vlc/0.8.6c/">Italian Slackware Community</a>.</p>
 
 </div>
 

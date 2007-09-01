@@ -67,7 +67,8 @@ the developers Web site.</p>
 
 <p>Our mailing-list manager is called Mailman.
 Experienced users can issue their commands to
-<a href="mailto:mailman@videolan.org">mailman@videolan.org</a>.</p>
+<a href="mailto:mailman@videolan.org">mailman@videolan.org</a> or
+browse <a href="http://mailman.videolan.org/">http://mailman.videolan.org</a>.</p>
 
 </div>
 

@@ -160,4 +160,4 @@ RewriteRule ^vic(.*)$ /vlc$1 [R=permanent,L]
 # We get many 404 for this one
 Redirect permanent debian/ http://www.videolan.org
 
-Redirect permanent webirc/ http://krishna.videolan.org/cgi-bin/irc/irc.cgi
+Redirect permanent /webirc http://krishna.videolan.org/cgi-bin/irc/irc.cgi

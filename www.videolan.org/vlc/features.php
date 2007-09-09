@@ -380,18 +380,13 @@ feature( "SVCD Menus", PART, NO, PART, NO, PART, NO );
 feature( "Localization", YES, YES, YES, YES, YES, YES );
 feature( "CD-Text <sup><a href=\"#bottom_notes\">10</a></sup>", YES, NO, YES, NO, PART, NONE );
 feature( "CDDB CD info <sup><a href=\"#bottom_notes\">11</a></sup>", YES, YES, YES, NO, PART, NONE );
-feature( "IPv6", YES, YES, YES, NO, YES, YES );
+feature( "IGMPv3 <sup><a href=\"#bottom_notes\">12</a></sup>",
+                 YES, NO, YES, NO, YES, YES );
+feature( "IPv6 <sup><a href=\"#bottom_notes\">12</a></sup>",
+               YES, YES, YES, NO, YES, YES );
+feature( "MLDv2 <sup><a href=\"#bottom_notes\">12</a></sup>",
+                 YES, NO, YES, NO, YES, YES );
 ?>
-<tr>
-<td class="type">IGMPv3</td>
-<td class="yes"><img src="/images/features/partial.png" alt="Partial" />Win XP</td>
-<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-<td class="partial"><img src="/images/features/untested.png" alt="Untested" /></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-</tr>
-
 
 <tr>
 <td class="type">CPU acceleration <sup><a href="#bottom_notes">13</a></sup></td>
@@ -399,7 +394,7 @@ feature( "IPv6", YES, YES, YES, NO, YES, YES );
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#bottom_notes">12</a></sup></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#bottom_notes">14</a></sup></td>
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 </tr>
 
@@ -410,15 +405,15 @@ feature( "IPv6", YES, YES, YES, NO, YES, YES );
   <li>CD-Text information provided via libcdio. This service is available
   on all platforms supported by the library.
   </li>
-  <li>CDDB information provided by libcddb on all supported platforms excepting BeOS.
- </li>
-  <li> The OpenBSD 2.9 default assembler does not support MMX.
+  <li>CDDB information provided by libcddb on all supported platforms
+  excepting BeOS.</li>
+  <li>Depending on operating system version support.</li>
+  <li>The OpenBSD 2.9 default assembler does not support MMX.
   </li>
-  <li> Supported CPU extensions are MMX, MMXEXT, SSE, SSE2 and 3D Now! on x86
+  <li>Supported CPU extensions are MMX, MMXEXT, SSE, SSE2 and 3D Now! on x86
   processors, and AltiVec on G4/G5 processors.
   </li>
   </ol>
-
 </div>
 <div class="feature-icon-container">
 	<ul class="feature-icon">

@@ -62,7 +62,7 @@
 
 <tr>
 
-<td class="type"><a href="http://wiki.videolan.org/index.php/RTSP">RTSP</a> (IPv4 only)</td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/RTSP">RTSP</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>

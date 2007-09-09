@@ -12,9 +12,12 @@
 
 <div id="fullwidth">
 
-<h2>Development version</h2>
+<h2>Port discontinued</h2>
 
-<p>The WinCE port of VLC is still experimental but you can get <a href="http://nightlies.videolan.org">nightly builds</a> for the Xscale platform. Use at your own risk ;)</p>
+<p>The experimental WinCE port of VLC has been <strong>discontinued</strong>.
+There are currently no plan to resume it,
+due to lack of developper interest and proper toolchain.
+</p>
 
 <h2>Source code</h2>
 

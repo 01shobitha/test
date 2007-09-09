@@ -42,7 +42,7 @@
 
 <td class="category"><b>Inputs</b></td>
 <td class="type"></td>
-<td colspan="6" class="yes">See the <a href="/vlc/features.html">VLC features page</a></td>
+<td colspan="7" class="yes">See the <a href="/vlc/features.html">VLC features page</a></td>
 
 </tr>
 

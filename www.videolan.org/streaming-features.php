@@ -49,7 +49,8 @@
 <tr>
 
 <td class="category" rowspan="5"><b>Output</b></td>
-<td class="type"><a href="http://wiki.videolan.org/index.php/UDP">UDP</a> Unicast / <a href="http://wiki.videolan.org/index.php/multicast">Multicast</a></td>
+
+<td class="type"><a href="http://wiki.videolan.org/index.php/RTP">RTP</a> Unicast / <a href="http://wiki.videolan.org/index.php/multicast">Multicast</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -61,7 +62,19 @@
 
 <tr>
 
-<td class="type"><a href="http://wiki.videolan.org/index.php/RTP">RTP</a> Unicast / <a href="http://wiki.videolan.org/index.php/multicast">Multicast</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/RTSP">RTSP</a> (IPv4 only)</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+
+</tr>
+
+<tr>
+
+<td class="type"><a href="http://wiki.videolan.org/index.php/UDP">Raw UDP</a> Unicast / <a href="http://wiki.videolan.org/index.php/multicast">Multicast</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -173,7 +186,7 @@
 <tr>
 <td class="category"><a href="http://wiki.videolan.org/index.php/container">PS</a></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
-<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -182,7 +195,7 @@
 <tr>
 <td class="category"><a href="http://wiki.videolan.org/index.php/container">TS</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>

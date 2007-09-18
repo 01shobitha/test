@@ -55,3 +55,8 @@ ftp://root24.eu/pub/videolan/|Root24|Germany|de|FTP
 # The windows installer always gets corrupted on their mirror
 #http://online.caf.info/vlc/|caf.info|USA|usa|HTTP
 #
+# JAIST, JP
+# Contact Kazuhiro Fujieda: fujieda  ---  at jaist.ac dot jp 
+# 			    ftp-admin --- at  jaist.ac   dot jp
+http://ftp.jaist.ac.jp/pub/videolan/|JAIST|Japan|jp|HTTP
+

@@ -9,7 +9,7 @@ echo "Two months ago, we were on : $DATEMIN";
 cd build/;
 
 #those have folder in it
-for i in win32 sid-i386 sid-amd64
+for i in win32 sid-i386 sid-amd64 feisty-i386
 do 
 	echo "Entering folder $i...";
 	cd  $i;

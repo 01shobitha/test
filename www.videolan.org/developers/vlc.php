@@ -293,14 +293,7 @@ decoding library.<br />
 <a href="http://www.wxwidgets.org/">wxWidgets</a> - a cross-platform C++
 GUI framework that keeps the look and feel of each platform<br />
 
-<a href="http://www.gnome.org/">GNOME1/2</a> - a powerful application
-framework<br />
-
-<a href="http://www.gtk.org/">GTK+1/2</a> - a multi-platform toolkit for
-creating graphical user interfaces<br />
-
-<a href="http://www.kde.org/">KDE</a> - an application development
-Framework<br />
+<a href="http://trolltech.com/developer/downloads/qt/index">QT4</a> - a C++ Cross-Platform Rich Client Development Framework<br />
 
 </p>
 

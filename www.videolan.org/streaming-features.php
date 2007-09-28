@@ -459,7 +459,7 @@
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
-<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 </tr>
 

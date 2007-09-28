@@ -42,15 +42,28 @@
 
 <td class="category"><b>Inputs</b></td>
 <td class="type"></td>
-<td colspan="7" class="yes">See the <a href="/vlc/features.html">VLC features page</a></td>
+<td colspan="6" class="yes">See the <a href="/vlc/features.html">VLC features page</a></td>
 
 </tr>
 
 <tr>
 
-<td class="category" rowspan="5"><b>Output</b></td>
+<td class="category" rowspan="8"><b>Output</b></td>
 
-<td class="type"><a href="http://wiki.videolan.org/index.php/RTP">RTP</a> Unicast / <a href="http://wiki.videolan.org/index.php/multicast">Multicast</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/RTP">RTP</a>/UDP</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="partial"><img src="/images/features/partial.png" alt="" />unicast only</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+
+</tr>
+
+<tr>
+
+<td class="type"><a href="http://wiki.videolan.org/index.php/RTP">RTP</a>/UDP
+ <a href="http://wiki.videolan.org/index.php/multicast">Multicast</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -67,6 +80,18 @@
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+
+</tr>
+
+<tr>
+
+<td class="type">RTP/<a href="http://wiki.videolan.org/index.php/DCCP">DCCP</a></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="partial"><img src="/images/features/partial.png" alt="" />unicast only</td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 

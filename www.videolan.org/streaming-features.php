@@ -424,7 +424,7 @@
 
 
 <tr>
-<td class="category" rowspan="5"><b>Audio formats</b></td>
+<td class="category" rowspan="6"><b>Audio formats</b></td>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">MPEG Layer 1/2/3 audio</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>

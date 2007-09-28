@@ -54,7 +54,7 @@
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-<td class="partial"><img src="/images/features/partial.png" alt="" />unicast only</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 
@@ -67,7 +67,7 @@
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-<td class="partial"><img src="/images/features/partial.png" alt="" />unicast only</td>
+<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 
@@ -88,12 +88,12 @@
 <tr>
 
 <td class="type">RTP/<a href="http://wiki.videolan.org/index.php/DCCP">DCCP</a></td>
+<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-<td class="partial"><img src="/images/features/partial.png" alt="" />unicast only</td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="partial">Untested</td>
 
 </tr>
 

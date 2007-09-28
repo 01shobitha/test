@@ -62,19 +62,6 @@
 
 <tr>
 
-<td class="type"><a href="http://wiki.videolan.org/index.php/RTP">RTP</a>/UDP
- <a href="http://wiki.videolan.org/index.php/multicast">Multicast</a></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-
-</tr>
-
-<tr>
-
 <td class="type"><a href="http://wiki.videolan.org/index.php/RTSP">RTSP</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -99,11 +86,24 @@
 
 <tr>
 
-<td class="type"><a href="http://wiki.videolan.org/index.php/UDP">Raw UDP</a> Unicast / <a href="http://wiki.videolan.org/index.php/multicast">Multicast</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/UDP">Raw UDP</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-<td class="partial"><img src="/images/features/partial.png" alt="" />unicast only</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+
+</tr>
+
+<tr>
+
+<td class="type">(RTP or raw)
+ <a href="http://wiki.videolan.org/index.php/multicast">Multicast</a></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 
@@ -135,7 +135,7 @@
 
 <tr>
 
-<td class="type"><a href="http://wiki.videolan.org/index.php/protocol">MMSH</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/MMSH">MMSH</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -300,6 +300,7 @@
 <td class="matrixhead"><a href="http://wiki.videolan.org/index.php/container">MP4</a></td>
 <td class="matrixhead"><a href="http://wiki.videolan.org/index.php/container">MOV</a></td>
 <td class="matrixhead"><a href="http://wiki.videolan.org/index.php/MPMJPEG">MPMJPEG</a></td>
+<td class="matrixhead"><a href="http://wiki.videolan.org/index.php/RTP">RTP</a></td>
 <td class="matrixhead">Raw</td>
 </tr>
 
@@ -309,6 +310,7 @@
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
@@ -326,6 +328,7 @@
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
@@ -338,6 +341,7 @@
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
@@ -346,6 +350,7 @@
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /><sup><a href="#muxer_notes">1</a></sup></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
@@ -362,6 +367,7 @@
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 </tr>
 
 <tr>
@@ -373,6 +379,7 @@
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 </tr>
 
@@ -386,6 +393,7 @@
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="partial"><img src="/images/features/partial.png" alt="" />SVN only</td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 </tr>
 
 <tr>
@@ -393,6 +401,7 @@
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
@@ -409,6 +418,7 @@
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 </tr>
 
@@ -424,6 +434,7 @@
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
@@ -435,6 +446,7 @@
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
@@ -448,10 +460,11 @@
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">Vorbis/Speex</a></td>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">Vorbis</a></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -459,6 +472,20 @@
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+</tr>
+
+<tr>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">Speex</a></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 </tr>
 
@@ -467,6 +494,7 @@
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>

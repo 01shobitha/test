@@ -1,7 +1,7 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
-|29 September 2007| VLC to remain under GPL version 2 | Future versions of VLC media player as published by VideoLAN.org will be licensed under GPL version 2 inspite of the newly released GPL version 3. See the press release <a href="/pr2005-1.html">here</a>.
+|29 September 2007| VLC to remain under GPL version 2 | Future versions of VLC media player as published by VideoLAN.org will be licensed under GPL version 2 inspite of the newly released GPL version 3. See the press release <a href="/pr2007-1.html">here</a>.
 
 |25 June 2007| Updated Mac OS X packages for VLC 0.8.6c | The previous VLC 0.8.6c binaries for Mac OS X fail to run on non-administrator accounts due to a packaging problem.<br />If you need to run VLC on restricted accounts, please download the package again. There is no security issue involved and no other platform was affected.<br />Sorry for the disturbance.
 

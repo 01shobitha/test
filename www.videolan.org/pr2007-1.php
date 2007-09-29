@@ -61,7 +61,7 @@ and would help foster the long-term significance and quality
 of open-source softwares.
 In particular, we welcome:
 </p>
-<ul>
+<ul class="bullets">
 <li>the extended compatibility with other open-source licenses,
 </li>
 <li>making the license terms less specific to the US legal system

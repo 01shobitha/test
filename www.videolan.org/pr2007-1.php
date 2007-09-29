@@ -1,13 +1,14 @@
 <?php
-   $title = "VideoLAN - DRAFT"; // Press Release";
+   $title = "VideoLAN - Press Release";
    $lang = "en";
-   $date = "19 January 2005";
+   $date = "29 September 2007";
    $menu = array( "vlc" );
    require($_SERVER["DOCUMENT_ROOT"]."include/header.php");
 ?>
 
 <div id="fullwidth">
 
+<?php /*
 <hr />
 <p><span style="font-weight: bold;">DISCLAIMER:
 This document is work-in-progress draft press release
@@ -21,6 +22,7 @@ an inappropriate misrepresentation of the VideoLAN project position
 </span>
 </p>
 <hr />
+*/ ?>
 
 <h1>VLC media player to remain under GNU GPL version 2</h1>
 
@@ -107,20 +109,6 @@ would currently not be in the best interest of our community as a whole.
 Consequently, we plan to keep distributing future versions of
 VLC media player under the terms of the GPL version 2.
 </p>
-
-<hr />
-<p><span style="font-weight: bold;">DISCLAIMER:
-This document is work-in-progress draft press release
-of the VideoLAN project.
-It has not been approved as a press release.
-It does not represent the position of the VideoLAN project
-or any of its contributors.
-Citing or quoting this document otherwise may constitute
-an inappropriate misrepresentation of the VideoLAN project position
-(or lack thereof) on the covered subject.
-</span>
-</p>
-<hr />
 
 <p>
 We would however like to remind our users that,

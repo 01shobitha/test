@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|29 September 2007| VLC to remain under GPL version 2 | Future versions of VLC media player as published by VideoLAN.org will be licensed under GPL version 2 inspite of the newly released GPL version 3. See the press release <a href="/pr2005-1.html">here</a>.
+
 |25 June 2007| Updated Mac OS X packages for VLC 0.8.6c | The previous VLC 0.8.6c binaries for Mac OS X fail to run on non-administrator accounts due to a packaging problem.<br />If you need to run VLC on restricted accounts, please download the package again. There is no security issue involved and no other platform was affected.<br />Sorry for the disturbance.
 
 |17 June 2007|VLC media player 0.8.6c, VideoLAN Security Advisory 0702 | VLC media player versions 0.8.6b and lower suffer from a security vulnerability in the CDDA, Vorbis, Theora and SAP plugins. More technical details are available in our <a href="http://www.videolan.org/sa0702.html">advisory</a>.<br /> An updated release of VLC is available which includes a few other fixes as well.The full list of changes can be found <a href="http://developers.videolan.org/vlc/NEWS">here</a>.<br />We strongly recommend all users to update to thisnew version.

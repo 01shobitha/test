@@ -129,7 +129,7 @@ we may be forced into distributing certain, if not all,
 of our official binary releases under GPL version 3,
 should any single of those libraries switch to a license
 that is incompatible with GPL version 2
-(at the time of writing, the only identified case is libsmb
+(at the time of writing, the only identified case is libsmbclient
  from the Samba project).
 We expect that third-party binary releases
 (such as those made by Linux and BSD distributions)

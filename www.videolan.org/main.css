@@ -434,6 +434,25 @@ a.en {
     padding-right: 18px;
          background: transparent url(http://download.videolan.org/images/flags/us.png) no-repeat top right;
 }
+
+.installbtn {
+	float: right;
+	width: 135px;
+	height: 38px;
+	text-align: center;
+	background: transparent url(http://download.videolan.org/images/inst_btn.png) no-repeat scroll
+	top left;
+}
+
+.installbtn a {
+	  display: block;
+	  height: 38px;
+	  line-height: 36px;
+	  margin-left: 25px;
+	  text-decoration: none!important;
+}
+
+
 /************************ Footer Layout ****************************/
 
 #spacer {

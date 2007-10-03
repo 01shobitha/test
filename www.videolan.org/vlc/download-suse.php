@@ -16,8 +16,13 @@
 options (besides downloading and installing the RPMs manually).</p>
 
 <p>The instructions here are to be followed using YaST, the native
-SUSE/openSUSE Package manager, which exists in all versions.
+SUSE/openSUSE Package manager, which exists in all versions. For SUSE 10.3,
+use the one click installer.
 </p>
+
+<h2>Installing VLC on openSUSE 10.3</h2>
+<div class="installbtn" style="float: none;">
+<a href="http://download.videolan.org/pub/vlc/SuSE/10.3/vlc.ymp">1-Click Install</a></div>
 
 <h2>Download VLC media player for SUSE Linux using YaST</h2>
 <h3>Add VideoLAN's repository</h3>

@@ -116,7 +116,7 @@
   <p>VideoLAN welcomes all contributions to the project! You can contribute
   time (development, documentation, packaging, tests, user support, ...),
   material or even money. See the <a href="/contribute.html">contribution
-  page</a> for more information.</p>
+  page</a> for more information.<br>Developers can join us by undertaking one of the <a href="http://wiki.videolan.org/index.php/Mini_Projects">Mini Projects</a></p>
 
 </div> <!-- RIGHT -->
 

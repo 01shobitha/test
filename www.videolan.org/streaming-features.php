@@ -424,7 +424,7 @@
 
 
 <tr>
-<td class="category" rowspan="6"><b>Audio formats</b></td>
+<td class="category" rowspan="8"><b>Audio formats</b></td>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">MPEG Layer 1/2/3 audio</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -502,6 +502,31 @@
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
+<tr>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">PCM</a> (Wave)</td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+</tr>
+
+<tr>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">µ-law/A-law</a></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+</tr>
 </table>
 
 <div class="notes">
@@ -557,7 +582,7 @@
 
 
 <tr>
-<td class="category" rowspan="6"><b>Audio formats</b></td>
+<td class="category" rowspan="8"><b>Audio formats</b></td>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">MPEG Layer 2 audio</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
@@ -585,6 +610,16 @@
 
 <tr>
 <td class="type"><a href="http://wiki.videolan.org/index.php/Codec">FLAC</a></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+</tr>
+
+<tr>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">PCM</a></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+</tr>
+
+<tr>
+<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">µ-law/A-law</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 

@@ -20,7 +20,7 @@
 -->
 
 
-<h2>Latest Mac OS X package for 10.3.9 up to 10.4 (release 0.8.6c)</h2>
+<h2>Latest Mac OS X package for 10.3.9 up to 10.5 (release 0.8.6c)</h2>
 
 <?php pkgitem( "Universal Binary",
                "0.8.6c/macosx","vlc-0.8.6c.dmg","vlc"); ?>

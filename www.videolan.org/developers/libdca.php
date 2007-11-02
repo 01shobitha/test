@@ -26,7 +26,7 @@
 
 <h2>Getting libdca</h2>
 
-<p>Current release is <a href="http://download.videolan.org/pub/videolan/libdca/0.0.2/libdca-0.0.2.tar.gz">libdca-0.0.2.tar.gz</a></p>
+<p>Current release is <a href="http://download.videolan.org/pub/videolan/libdca/0.0.5/libdca-0.0.5.tar.bz2">libdca-0.0.5.tar.bz2</a></p>
 
 <p>The latest libdca source code can always be found by anonymous <a href="http://wiki.videolan.org/Subversion">SVN</a> repository:</p>
 

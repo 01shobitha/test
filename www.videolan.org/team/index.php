@@ -167,9 +167,6 @@ France
 </pre>
 <?php panel_end(); ?>
 
-<h2>The project leader</h2>
-<p><a href="mailto:antoine.cellerier&#64;videolan.org">Antoine Cellerier</a></p>
-
 </div>
 
 <?php footer('$Id$'); ?>

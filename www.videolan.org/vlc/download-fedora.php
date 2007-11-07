@@ -15,7 +15,7 @@
 <p>Most of our packages for fedora can be found on livna <a href="http://rpm.livna.org/">RPM - LIVNA</a><br />
 You can also use this repository from distribution derived from <a href="http://fedoraproject.org/">Fedora</a>
 
-<p>Please report "packaging bugs on <a href="http://bugzilla.livna.org/">Bugzilla - LIVNA</a></p>
+<p>Please report "packaging bugs" on <a href="http://bugzilla.livna.org/">Bugzilla - LIVNA</a></p>
 
 <p>You can also find an old version we officially support: VLC 0.8.5 for Fedora Core 4.</p>
 

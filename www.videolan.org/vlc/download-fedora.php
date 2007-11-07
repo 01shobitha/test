@@ -34,7 +34,7 @@ Install <a href="http://rpm.livna.org/livna-release-8.rpm">livna-release-8.rpm</
 
 <h2>Fedora 7</h2>
 
-<p>Use <a href="http://rpm.livna.org/">RPM - LIVNA</a> for F7 (available for x76, x76_64 and ppc)<br />
+<p>Use <a href="http://rpm.livna.org/">RPM - LIVNA</a> for F7 (available for x86, x86_64 and ppc)<br />
 
 Install <a href="http://rpm.livna.org/livna-release-7.rpm">livna-release-7.rpm</a> for F7</p>
 
@@ -47,7 +47,7 @@ Install <a href="http://rpm.livna.org/livna-release-7.rpm">livna-release-7.rpm</
 
 <h2>Fedora 6</h2>
 
-<p>Use <a href="http://rpm.livna.org/">RPM - LIVNA</a> for F6 (available for x66, x66_64 and ppc)<br />
+<p>Use <a href="http://rpm.livna.org/">RPM - LIVNA</a> for F6 (available for x86, x86_64 and ppc)<br />
 
 Install <a href="http://rpm.livna.org/livna-release-6.rpm">livna-release-6.rpm</a> for F6</p>
 

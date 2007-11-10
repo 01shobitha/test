@@ -101,7 +101,7 @@ this section must be accompanied by the Installation Information.
 </blockquote>
 
 <p>
-There is strong concern that these new additionnal requirements might not
+There is strong concern that these new additional requirements might not
 match the industrial and economic reality of our time,
 especially in the market of consumer electronics.
 It is our belief that changing our licensing terms to GPL version 3

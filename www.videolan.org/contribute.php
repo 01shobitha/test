@@ -146,7 +146,7 @@ be able to transfer money to VideoLAN's PayPal account.</li>
 </table>
 
 <p> If you encounter problems or if you have questions, you
-can write to VideoLAN's Treasurer, Antoine Cellerier (<a
+can write to VideoLAN's Treasurer (<a
 href="mailto:treasurer -AT- videolan -DOT- org">treasurer -AT- videolan -DOT- org</a>). </p>
 
 <h3>Remember VideoLAN is free software...</h3>

@@ -19,8 +19,10 @@ are grouped in a <i>.po</i> file.</p>
 <h3>How to translate strings ?</h3>
 
 <p>Edit the appropriate file (for instance <i>fr.po</i> for French     
-translation) Write the translation of "msgid" strings into the "msgstr"
+translation). Write the translation of "msgid" strings into the "msgstr"
 field You can always ask vlc-devel@videolan.org for assistance.</p>
+<p>You can edit <i>.po</i> files with <a href="http://www.poedit.net/">poEdit</a>.</p>
+
 
 <h3>How to start a new language ?</h3>
 

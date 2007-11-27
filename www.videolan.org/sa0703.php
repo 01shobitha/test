@@ -1,7 +1,7 @@
 <?php
    $title = "VideoLAN security advisory 0703";
    $lang = "en";
-   $date = "18 November 2007";
+   $date = "27 November 2007";
    $menu = array( "vlc" );
    require($_SERVER["DOCUMENT_ROOT"]."include/header.php");
 ?>
@@ -36,15 +36,17 @@ release vulnerability when being used within specifically crafted websites.
 <h2>Impact</h2>
 <p>If successful, a malicious third party could use this vulnerability
 to overwrite memory zones and execute arbitrary code within the context 
-of VLC media player (i.e. acquire local user privileges on the vulnerable system).
+of the VLC media player's ActiveX plugin
+(i.e. acquire local user privileges on the vulnerable system).
 </p>
 <h2>Threat mitigation</h2>
 <p>Exploitation of this bug requires the user to visit a malicious
 crafted website using VLC media player's ActiveX plugin.
 </p>
 <h2>Workarounds</h2>
-<p>The user may use VLC media player's Mozilla plugin for Mozilla Firefox and Seamonkey 
-on MS Windows, which is not affected by this issue and provides the same feature set.
+<p>The user may use VLC media player's Mozilla plugin
+for Mozilla Firefox or Seamonkey,
+which are not affected by this issue and provide the same features set.
 </p>
 <p>
 Otherwise, websites from untrusted sources should not be opened.
@@ -71,7 +73,7 @@ the Exploit Writers team of Core Security Technologies.
 </dl>
 <h2>History</h2>
 <dl>
-<dt>23 November 2007</dt>
+<dt>xx November 2007</dt>
 <dd>VLC 0.8.6d bugfix release</dd>
 <dd>Binaries for MS Windows</dd>
 <dt>17 November 2007</dt>
@@ -80,7 +82,7 @@ the Exploit Writers team of Core Security Technologies.
 <dd>Bug reported by Ricardo Narvaja</dd>
 </dl>
 
-<address>R&eacute;mi Denis-Courmont, Damien Fouilleul, Felix Paul K&uuml;hne,<br />
+<address>Damien Fouilleul, Felix Paul K&uuml;hne,<br />
 on behalf of the VideoLAN project</address>
 
 </div>

@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|30 November 2007|VLC media player 0.8.6d, VideoLAN Security Advisory 0703 | VLC media player versions 0.8.6 to 0.8.6c suffer from a security vulnerability in the ActiveX plugin. More technical details are available in our <a href="http://www.videolan.org/sa0703.html">advisory</a>.<br /> An updated release of VLC is available which includes a few other fixes as well, notably better compatibility with MacOSX 10.5 Leopard. The full list of changes can be found <a href="http://trac.videolan.org/vlc/browser/tags/0.8.6d/NEWS">here</a>.<br />We strongly recommend all users to update to this new version.<br /> Note that early and broken Win32 binaries have been distributed by third party website. Make sure to download from an official VideoLAN mirror to avoid disapointment.
+
 |29 September 2007| VLC to remain under GPL version 2 | Future versions of VLC media player as published by VideoLAN.org will be licensed under GPL version 2 inspite of the newly released GPL version 3. See the press release <a href="/pr2007-1.html">here</a>.
 
 |25 June 2007| Updated Mac OS X packages for VLC 0.8.6c | The previous VLC 0.8.6c binaries for Mac OS X fail to run on non-administrator accounts due to a packaging problem.<br />If you need to run VLC on restricted accounts, please download the package again. There is no security issue involved and no other platform was affected.<br />Sorry for the disturbance.

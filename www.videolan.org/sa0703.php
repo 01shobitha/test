@@ -1,7 +1,7 @@
 <?php
    $title = "VideoLAN security advisory 0703";
    $lang = "en";
-   $date = "27 November 2007";
+   $date = "30 November 2007";
    $menu = array( "vlc" );
    require($_SERVER["DOCUMENT_ROOT"]."include/header.php");
 ?>
@@ -12,7 +12,7 @@
 <pre>
 Summary           : Recursive plugin release vulnerability in
                     Active X plugin
-Date              : 18 November 2007
+Date              : 30 November 2007
 Affected versions : VLC media player 0.8.6 to 0.8.6c
 ID                : VideoLAN-SA-0703, CORE-2007-1004
 CVE reference     : 

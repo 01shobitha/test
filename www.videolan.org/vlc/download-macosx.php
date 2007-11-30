@@ -20,22 +20,33 @@
 -->
 
 
-<h2>Latest Mac OS X package for 10.3.9 up to 10.5 (release 0.8.6c)</h2>
+<h2>Latest Mac OS X package for 10.4 up to 10.5 (release 0.8.6d)</h2>
 
 <?php pkgitem( "Universal Binary",
-               "0.8.6c/macosx","vlc-0.8.6c.dmg","vlc"); ?>
+               "0.8.6d/macosx","vlc-0.8.6d.dmg","vlc"); ?>
 
 <?php pkgitem( "Intel package",
-               "0.8.6c/macosx","vlc-0.8.6c-intel.dmg","vlc"); ?>
+               "0.8.6d/macosx","vlc-0.8.6d-intel.dmg","vlc"); ?>
 
 <?php pkgitem( "Web Browser plugin for Intel",
-               "0.8.6c/macosx","vlc-plugin-0.8.6c-intel.dmg","vlc"); ?>
+               "0.8.6d/macosx","vlc-plugin-0.8.6d-intel.dmg","vlc"); ?>
 
 <?php pkgitem( "PowerPC package",
-               "0.8.6c/macosx","vlc-0.8.6c-powerpc.dmg","vlc"); ?>
+               "0.8.6d/macosx","vlc-0.8.6d-powerpc.dmg","vlc"); ?>
 
 <?php pkgitem( "Web Browser plugin for PowerPC",
-               "0.8.6c/macosx","vlc-plugin-0.8.6c-powerpc.dmg","vlc"); ?>
+               "0.8.6d/macosx","vlc-plugin-0.8.6d-powerpc.dmg","vlc"); ?>
+
+<h2>Last Mac OS X package for 10.3 (release 0.8.6c)</h2>
+<ul>
+<li>
+<?php pkgitem_nomirr( "Last VLC Mac OS X package for 10.3 (release 0.8.6c)", "0.8.6c/macosx","vlc-0.8.6c-powerpc.dmg","vlc"); ?>
+</li>
+<li>
+<?php pkgitem_nomirr( "Last VLC Mac OS X Web Browser plugin for 10.3 (release 0.8.6c)", "0.8.6c/macosx","vlc-plugin-0.8.6c-powerpc.dmg","vlc"); ?>
+</li>
+</ul>
+
 
 <h2>Last Mac OS X package for 10.2 (release 0.8.4a)</h2>
 

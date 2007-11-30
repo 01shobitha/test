@@ -8,18 +8,6 @@
 
 <div id="fullwidth">
 
-<p><span style="font-weight: bold;">DISCLAIMER:
-This document is work-in-progress security advisory
-of the VideoLAN project.
-It has not been approved as a security advisory.
-It does not represent the position of the VideoLAN project
-or any of its contributors.
-Citing or quoting this document otherwise may constitute
-an inappropriate misrepresentation of the VideoLAN project position
-(or lack thereof) on the covered subject.
-</span>
-</p>
-
 <h1>Security Advisory 0703</h1>
 <pre>
 Summary           : Recursive plugin release vulnerability in
@@ -73,7 +61,7 @@ the Exploit Writers team of Core Security Technologies.
 </dl>
 <h2>History</h2>
 <dl>
-<dt>xx November 2007</dt>
+<dt>30 November 2007</dt>
 <dd>VLC 0.8.6d bugfix release</dd>
 <dd>Binaries for MS Windows</dd>
 <dt>17 November 2007</dt>

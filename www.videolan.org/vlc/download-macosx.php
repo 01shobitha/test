@@ -38,6 +38,7 @@
                "0.8.6d/macosx","vlc-plugin-0.8.6d-powerpc.dmg","vlc"); ?>
 
 <h2>Last Mac OS X package for 10.3 (release 0.8.6c)</h2>
+<p><b>Requires <a href="http://www.apple.com/support/downloads/quicktime73forpanther.html">QuickTime 7</a> or later for best results</b></p>
 <ul>
 <li>
 <?php pkgitem_nomirr( "Last VLC Mac OS X package for 10.3 (release 0.8.6c)", "0.8.6c/macosx","vlc-0.8.6c-powerpc.dmg","vlc"); ?>

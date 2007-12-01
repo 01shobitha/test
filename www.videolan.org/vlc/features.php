@@ -179,13 +179,13 @@ feature( "WMV 1/2", YES, YES, YES, YES, YES, YES );
 
 <?php
 feature("Indeo Video 4/5 (IV41, IV51)",NO,NO,NO,NO,NO,NO );
-feature( "Real Video", NO,NO,NO,NO,NO,NO );
+feature( "Real Video <sup><a href=\"#video_notes\">6</a></sup>", NO,NO,NO,NO,NO,NO );
 ?>
 <tr>
 <td class="category" rowspan="8"><b>Subtitles</b></td>
 
 <?php
-feature( "DVD <sup><a href=\"#video_notes\">6</a></sup>",
+feature( "DVD <sup><a href=\"#video_notes\">7</a></sup>",
 	PART,PART,PART,PART,PART,NONE, true );
 feature( "SVCD / CVD", YES, UNT,YES,UNT,YES,NONE );
 feature( "DVB", YES, YES, YES, YES, YES, NONE );
@@ -211,7 +211,7 @@ feature( "RSS/Atom feeds", YES, YES, YES, YES, YES, NO );
 <tr><td class="category" rowspan="8"><b>Outputs</b></td>
 <td class="type">Native</td>
 <td class="yes">DirectX<br />GDI</td>
-<td class="yes">OpenGL<br />Quartz</td>
+<td class="yes">OpenGL<br />Quartz <sup><a href="#video_notes">8</a></sup></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -228,14 +228,17 @@ feature( "ASCII Art", YES, YES, YES, UNT,YES, NO );
 
 <div class="notes">
 <ol start="4" id="video_notes">
-  <li>WMV-3 / WMV-9 / VC-1 playback will be available through the FFmpeg-library
-  in VLC 0.8.6. It is already enabled in the nightly builds. The playback of some
-  videos can still be problematic due to the pre-beta nature of the decoder.</li>
-  <li>Windows DMO codecs can be used by VLC on 32-bit x86 platforms.
-  This allows WMV-3/WMA-3 decoding. This feature is untested on Intel-based Macs.</li>
+  <li>WMV-3 / WMV-9 / VC-1 playback is provided through the FFmpeg-library
+  starting with VLC 0.8.6.</li>
+  <li>Windows DMO codecs can be used by VLC on 32-bit x86 platforms and
+  allow WMV-3/WMA-3 decoding. This feature is untested on Intel-based Macs.</li>
+  <li>VLC's 0.9.0 release will introduce support for RV30 and RV40 based upon
+  the additions to the FFmpeg-library by one their Google Summer of Code 2007
+  projects.</li>
   <li>Full color for YUV-type chromas is not handled, only the gray-scale
   value. Subtitle transparency is not fully supported for all
   chromas. Some chromas are not handled at all.</li>
+  <li>The Quartz module is available on PowerPC-based Macs only.</li>
 </ol>
 </div>
  
@@ -257,9 +260,9 @@ feature( "WMA 1/2", YES, YES, YES, YES, YES, YES );
 ?>
 <tr>
 <td class="type">WMA 3</td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#audio_notes">7</a></sup></td>
-<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#audio_notes">7</a></sup></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#audio_notes">9</a></sup></td>
+<td class="no"><img src="/images/features/cross.png" alt="No" /> <sup><a href="#audio_notes">9</a></sup></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#audio_notes">9</a></sup></td>
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
@@ -271,7 +274,7 @@ feature("FLAC", YES, YES, YES, YES, YES, YES );
 feature( "QDM2/QDMC (QuickTime)", YES, YES, YES, UNT, YES, UNT );
 feature( "MACE", YES, YES, YES, YES, YES, YES );
 feature( "AMR (3GPP", NO, NO , NO ,NO ,NO ,NO );
-feature( "Real Audio <sup><a href=\"#bottom_notes\">8</a></sup>",
+feature( "Real Audio <sup><a href=\"#bottom_notes\">10</a></sup>",
 	PART,PART,PART,UNT,PART,NO );
 feature( "Speex", YES, YES, YES, UNT, YES, UNT );
 ?>
@@ -330,12 +333,11 @@ feature( "JACK", NONE, PART, YES, NONE, UNT, UNT );
 </table>
 
 <div class="notes">
-<ol start="7" id="audio_notes">
-  <li>Windows DMO codecs can be used by VLC on 32-bit x86 platforms.
-  This allows WMV-3/WMA-3 decoding. This feature is untested on Intel-based Macs.</li>
+<ol start="9" id="audio_notes">
+  <li>Windows DMO codecs can be used by VLC on 32-bit x86 platforms and 
+  allow WMV-3/WMA-3 decoding. This feature is untested on Intel-based Macs.</li>
   <li>Real Audio playback is provided through the FFmpeg-library
-  which does only support the Cook (RealAudio G2 / RealAudio 8)
-  decoder at the moment.</li>
+  which does only support a limited number of RA derivatives.</li>
 </ol>
 </div>
 
@@ -355,7 +357,7 @@ feature( "JACK", NONE, PART, YES, NONE, UNT, UNT );
 </tr>
 
 <?php
-feature( "Qt 4  <sup><a href=\"#intf_notes\">9</a></sup>", YES, NO, YES, NONE, UNT, NO );
+feature( "Qt 4  <sup><a href=\"#intf_notes\">11</a></sup>", YES, NO, YES, NONE, UNT, NO );
 feature( "Skins", YES, NO, YES, NO, YES, NO );
 feature( "Web", YES, YES, YES, YES, YES, YES );
 feature( "Telnet", YES, YES, YES, YES, YES, YES );
@@ -364,7 +366,7 @@ feature( "Infrared", NO, NO, YES, NO, NO, NO );
 ?>
 </table>
 <div class="notes">
-<ol start="9" id="intf_notes">
+<ol start="11" id="intf_notes">
 <li>A new Qt4 interface is to-be-introduced by VLC's 0.9.0 release. It is
   already enabled in the nightly builds with limited functionality.</li>
 </ol>
@@ -378,40 +380,40 @@ feature( "Mozilla/Firefox plugin", YES, YES, YES, NO, YES, NO );
 feature( "ActiveX plugin", YES, NONE, NONE, NONE, NONE, NONE );
 feature( "SVCD Menus", PART, NO, PART, NO, PART, NO );
 feature( "Localization", YES, YES, YES, YES, YES, YES );
-feature( "CD-Text <sup><a href=\"#bottom_notes\">10</a></sup>", YES, NO, YES, NO, PART, NONE );
-feature( "CDDB CD info <sup><a href=\"#bottom_notes\">11</a></sup>", YES, YES, YES, NO, PART, NONE );
-feature( "IGMPv3 <sup><a href=\"#bottom_notes\">12</a></sup>",
+feature( "CD-Text <sup><a href=\"#bottom_notes\">12</a></sup>", YES, NO, YES, NO, PART, NONE );
+feature( "CDDB CD info <sup><a href=\"#bottom_notes\">13</a></sup>", YES, YES, YES, NO, PART, NONE );
+feature( "IGMPv3 <sup><a href=\"#bottom_notes\">14</a></sup>",
                  YES, NO, YES, NO, YES, YES );
-feature( "IPv6 <sup><a href=\"#bottom_notes\">12</a></sup>",
+feature( "IPv6 <sup><a href=\"#bottom_notes\">14</a></sup>",
                YES, YES, YES, NO, YES, YES );
-feature( "MLDv2 <sup><a href=\"#bottom_notes\">12</a></sup>",
+feature( "MLDv2 <sup><a href=\"#bottom_notes\">14</a></sup>",
                  YES, NO, YES, NO, YES, YES );
 ?>
 
 <tr>
-<td class="type">CPU acceleration <sup><a href="#bottom_notes">13</a></sup></td>
+<td class="type">CPU acceleration <sup><a href="#bottom_notes">15</a></sup></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#bottom_notes">14</a></sup></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#bottom_notes">16</a></sup></td>
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 </tr>
 
 </table>
 
 <div class="notes">
-<ol start="10" id="bottom_notes">
+<ol start="11" id="bottom_notes">
   <li>CD-Text information provided via libcdio. This service is available
   on all platforms supported by the library.
   </li>
   <li>CDDB information provided by libcddb on all supported platforms
   excepting BeOS.</li>
-  <li>Depending on operating system version support.</li>
-  <li>The OpenBSD 2.9 default assembler does not support MMX.
-  </li>
+  <li>Depending on the operating system's support.</li>
   <li>Supported CPU extensions are MMX, MMXEXT, SSE, SSE2 and 3D Now! on x86
   processors, and AltiVec on G4/G5 processors.
+  </li>
+  <li>The OpenBSD 2.9 default assembler does not support MMX.
   </li>
   </ol>
 </div>

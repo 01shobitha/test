@@ -381,34 +381,32 @@ feature( "ActiveX plugin", YES, NONE, NONE, NONE, NONE, NONE );
 feature( "SVCD Menus", PART, NO, PART, NO, PART, NO );
 feature( "Localization", YES, YES, YES, YES, YES, YES );
 feature( "CD-Text <sup><a href=\"#bottom_notes\">12</a></sup>", YES, NO, YES, NO, PART, NONE );
-feature( "CDDB CD info <sup><a href=\"#bottom_notes\">13</a></sup>", YES, YES, YES, NO, PART, NONE );
-feature( "IGMPv3 <sup><a href=\"#bottom_notes\">14</a></sup>",
+feature( "CDDB CD info", YES, YES, YES, NO, PART, NONE );
+feature( "IGMPv3 <sup><a href=\"#bottom_notes\">13</a></sup>",
                  YES, NO, YES, NO, YES, YES );
-feature( "IPv6 <sup><a href=\"#bottom_notes\">14</a></sup>",
+feature( "IPv6 <sup><a href=\"#bottom_notes\">13</a></sup>",
                YES, YES, YES, NO, YES, YES );
-feature( "MLDv2 <sup><a href=\"#bottom_notes\">14</a></sup>",
+feature( "MLDv2 <sup><a href=\"#bottom_notes\">13</a></sup>",
                  YES, NO, YES, NO, YES, YES );
 ?>
 
 <tr>
-<td class="type">CPU acceleration <sup><a href="#bottom_notes">15</a></sup></td>
+<td class="type">CPU acceleration <sup><a href="#bottom_notes">14</a></sup></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#bottom_notes">16</a></sup></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#bottom_notes">15</a></sup></td>
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 </tr>
 
 </table>
 
 <div class="notes">
-<ol start="11" id="bottom_notes">
+<ol start="12" id="bottom_notes">
   <li>CD-Text information provided via libcdio. This service is available
   on all platforms supported by the library.
   </li>
-  <li>CDDB information provided by libcddb on all supported platforms
-  excepting BeOS.</li>
   <li>Depending on the operating system's support.</li>
   <li>Supported CPU extensions are MMX, MMXEXT, SSE, SSE2 and 3D Now! on x86
   processors, and AltiVec on G4/G5 processors.

@@ -292,10 +292,10 @@ in 8 bpp, and an example of its <b>scaling</b> capabilities. </p>
 
 <p> And there is the necessary <b>babe</b>. The last
 screenshot is merely a joke, to show how we compare with <a
-href="http://www.linuxvideo.org/oms/"><code>OMS</code></a> from our
-friends at <a href="http://www.linuxvideo.org/">linuxvideo.org</a>.
+href="http://web.archive.org/web/20010223201058/www.linuxvideo.org/oms/"><code>OMS</code></a> from our
+friends at <a href="http://web.archive.org/web/20070708085735/http://linuxvideo.org/">linuxvideo.org</a>.
 They have a similar screenshot <a
-href="http://www.linuxvideo.org/oms/oms-screenshotbig.jpeg">here</a>.
+href="http://web.archive.org/web/20010603101909/www.linuxvideo.org/oms/oms-screenshotbig.jpeg">here</a>. (Note: Pages from <a href="http://http://www.archive.org/index.php">Archive.org</a>'s WayBackMachine.)
 </p>
 
 <?php

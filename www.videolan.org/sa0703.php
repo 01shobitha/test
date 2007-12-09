@@ -15,7 +15,7 @@ Summary           : Recursive plugin release vulnerability in
 Date              : 30 November 2007
 Affected versions : VLC media player 0.8.6 to 0.8.6c
 ID                : VideoLAN-SA-0703, CORE-2007-1004
-CVE reference     : 
+CVE reference     : CVE-2007-6262 
 </pre>
 <h2>Details</h2>
 <p>VLC media player's ActiveX plugin is prone to a recursive plugin 
@@ -54,6 +54,7 @@ the Exploit Writers team of Core Security Technologies.
 <dl>
 <dt>CORE Security Technologies</dt>
 <dd><a href="http://www.coresecurity.com/">http://www.coresecurity.com/</a>
+<a href="http://www.coresecurity.com/index.php5?module=ContentMod&action=item&id=2035">Advisory CORE-2007-1004</a>
 </dd>
 <dt>The VideoLAN project</dt>
 <dd><a href="http://www.videolan.org/">http://www.videolan.org/</a>
@@ -61,6 +62,8 @@ the Exploit Writers team of Core Security Technologies.
 </dl>
 <h2>History</h2>
 <dl>
+<dt>3 December 2007</dt>
+<dd>Core Security advisory published</dd>
 <dt>30 November 2007</dt>
 <dd>VLC 0.8.6d bugfix release</dd>
 <dd>Binaries for MS Windows</dd>

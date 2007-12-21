@@ -236,6 +236,9 @@ and licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/"
       alt="get VLC NOW!" /></a>
 </p>
 
+<p>A christmas icon made by Geoffrey Roussel:</p>
+<p><img src="images/goodies/CNoyel128.png" alt="Nowwwel"/></p>
+<p>Download the Blender sources <a href="/images/goodies/vlcNoyel.blend">here</a>.</p>
 
 <?php panel_end(); ?>
 

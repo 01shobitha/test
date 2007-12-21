@@ -45,6 +45,13 @@ for Mac OS X:</p>
 <img src="/images/cone-osx.png" alt="VideoLAN" width="115" height="127" />
 
 </li>
+<li>
+
+<p>A christmas icon made by Geoffrey Roussel:</p>
+<p><img src="images/goodies/CNoyel128.png" alt="Nowwwel"/></p>
+<p>Download the Blender sources <a href="/images/goodies/vlcNoyel.blend">here</a>.</p>
+
+</li>
 </ul>
 
 <h2>Misc Images</h2>
@@ -235,10 +242,6 @@ and licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/"
       style="vertical-align: middle; border-width: 0px;"
       alt="get VLC NOW!" /></a>
 </p>
-
-<p>A christmas icon made by Geoffrey Roussel:</p>
-<p><img src="images/goodies/CNoyel128.png" alt="Nowwwel"/></p>
-<p>Download the Blender sources <a href="/images/goodies/vlcNoyel.blend">here</a>.</p>
 
 <?php panel_end(); ?>
 

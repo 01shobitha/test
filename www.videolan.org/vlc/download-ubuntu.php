@@ -45,14 +45,14 @@ sudo apt-get install vlc vlc-plugin-esd mozilla-plugin-vlc libdvdcss2
 </ul>
 
 <h2>Ubuntu Breezy Badger 5.10</h2>
-<p>You really should upgrade ! We don't provide up-to-date binaries for this release.</p>
-<p>Moreover, you should not that this version is subject to several unpatched vulnerabilities !</p>
+<p>You really should upgrade! We don't provide up-to-date binaries for this release.</p>
+<p>Moreover, you should know that this version is subject to several unpatched vulnerabilities!</p>
 <p>If you're really desperate, you can find a not so old version for Breezy</p>
 <p> on <a href="http://nightlies.videolan.org/build/breezy-i386">nightlies.videolan.org</a>.</p>
 
 <h2>Ubuntu Hoary Hedgehog 5.04</h2>
-<p>You really should upgrade ! We don't provide up-to-date binaries for this release.</p>
-<p>Moreover, you should not that this version is subject to several unpatched vulnerabilities !</p>
+<p>You really should upgrade! We don't provide up-to-date binaries for this release.</p>
+<p>Moreover, you should know that this version is subject to several unpatched vulnerabilities!</p>
 
 </div>
 

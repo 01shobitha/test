@@ -13,7 +13,7 @@
 
 <h2>Install VLC through the Ports Collection</h2>
 
-<p>VLC is included in the <a href="http://www.freebsd.org/ports/index.html">Ports Collection</a>  of the <a
+<p>VLC is included in the <a href="http://www.freebsd.org/ports/index.html">Ports Collection</a> of the <a
 href="http://www.freebsd.org/">FreeBSD</a> operating system.
 So you can simply install VLC with <i>pkg_add</i>.</p>
 <p>However you will get a very bare-bone version of VLC. We recommend you to compile it with the following command: 

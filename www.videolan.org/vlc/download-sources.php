@@ -76,8 +76,8 @@ The list of required libraries is not yet updated for 0.8.6d
 <?php panel_start( "orange" ); ?>
 <h1>SVN</h1>
 
-<p> Find more about the SVN source code repository on the <a
-href="/developers/">developers website</a>. </p>
+<p>More information about the SVN source code repository is available on the <a
+href="/developers/">developer's website</a>. </p>
 <?php panel_end(); ?>
 
 <?php panel_start( "blue" ); ?>

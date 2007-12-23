@@ -24,7 +24,7 @@ following line <i>"media-video/vlc ~x86"</i> to the file
 you should create it.</p>
 
 <p> When you don't set the correct USE variables, you will get a very
-bare bones version of VLC. We advice to emerge with the following USE
+bare bones version of VLC. We recommend to emerge with the following USE
 variables:</p>
 
 <pre>dvd ffmpeg mpeg mad wxwindows aac dts a52 ogg flac theora

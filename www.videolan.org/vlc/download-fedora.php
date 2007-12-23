@@ -65,7 +65,7 @@ Install <a href="http://rpm.livna.org/livna-release-6.rpm">livna-release-6.rpm</
 
 <h2>Fedora Core 4 and 5</h2>
 <p>For those two versions, VLC 0.8.6 is not available. You can have 0.8.5 here 
-for FC 4 and on <a href="http://freshrpms.net">FreshRPMs</a>.</p>
+for FC 4 and 5 on <a href="http://freshrpms.net">FreshRPMs</a>.</p>
 
 <h2>Fedora Core 1, 2 and 3</h2>
 <p>Use <a href="http://dag.wieers.com/rpm/packages/vlc/">Dag wieers</a> to have 0.8.6 for those old versions!</p>

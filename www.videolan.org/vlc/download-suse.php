@@ -60,7 +60,7 @@ Go to Software Management and enter VLC in the searchbox and search for
 it. Select it and click <b>Accept</b> to install it with all it's
 dependencies. This might require the SUSE CD or DVD.</p>
 
-<p>If you want the vlc Mozilla Plugin, you have to select the
+<p>If you want VLC's Mozilla Plugin, you have to select the
 vlc-mozillaplugin manually. It does not get installed by dependencies.</p>
 
 <p>

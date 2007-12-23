@@ -78,7 +78,7 @@
   <h1>How to install</h1>
 
   <p> VLC for Mac OS X is distributed as a disk image. Download the
-  <code>.dmg</code> file, open it, and copy it to your hard drive
+  <code>.dmg</code> file, open it, and copy VLC to your hard drive
   (for instance the <code>/Applications</code> folder). Open VLC by
   double-clicking on it. </p>
   <?php panel_end(); ?>

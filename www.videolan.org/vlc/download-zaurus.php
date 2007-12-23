@@ -12,7 +12,7 @@
 
 <div id="left">
 
-<p>VLC for Zaurus is still in an experimental state. It has been reporting working on several Zaurus setups but may not working on others. No member of the project owns a Zaurus so we depend on your feedback. Please tell us if VLC works on your Zaurus and also if it doesn't. We need your feedback to keep this page up to date.</p>
+<p>VLC for Zaurus is still in an experimental state. It has been reported working on several Zaurus setups but may not work on others. No member of the project owns a Zaurus so we depend on your feedback. Please tell us if VLC works on your Zaurus and also if it doesn't. We need your feedback to keep this page up to date.</p>
 
 
 <h2>Package download </h2>
@@ -27,7 +27,7 @@
 
 <h2>User Interface</h2>
 
-<p>VLC for zaurus comes currently without a user interface and is thus only accessible through the commandline. There is a script called zaurus-vlc that will aid you to launch vlc in the Opie environment.</p>
+<p>VLC for zaurus is currently delivered without a user interface and is thus only accessible through the commandline. There is a script called zaurus-vlc that will help you to launch vlc in the Opie environment.</p>
 
 <h2>Additional libraries needed</h2>
 
@@ -67,7 +67,7 @@
 <?php panel_start( "blue" ); ?>
 
 <h1>Looking for a Zaurus package maintainer</h1>                                                                                                             
-<p>The VLC team is looking for a package maintainer that wants to support VLC media player for Zaurus PDA's. The Zaurus port of VLC is already for a year in experimental stage and could use an active supporter. Knowledge on compiling VLC media player for an ARM cpu (StrongArm/XScale) is available in the team. Send an e-mail to vlc-devel mailing list and I (Jean-Paul Saman) or others will try to answer your questions.
+<p>The VLC team is looking for a package maintainer who wants to support VLC media player for Zaurus PDA's. The Zaurus port of VLC is already for a year in experimental stage and could use an active supporter. Knowledge on compiling VLC media player for an ARM cpu (StrongArm/XScale) is available in the team. Send an e-mail to vlc-devel mailing list and I (Jean-Paul Saman) or others will try to answer your questions.
 </p>
 
 <?php panel_end(); ?>

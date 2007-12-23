@@ -16,7 +16,7 @@
 
 <p>The experimental WinCE port of VLC has been <strong>discontinued</strong>.
 There are currently no plan to resume it,
-due to lack of developper interest and proper toolchain.
+due to lack of interested developers and proper toolchains.
 </p>
 
 <h2>Source code</h2>

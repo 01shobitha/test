@@ -60,8 +60,8 @@ branch. However you should still use our apt-get line if you need libdvdcss: </p
 <div id="right">
 
 <?php panel_start( "blue" ); ?>
-<h1>Developement snapshots</h1>
-<p>Developement snapshots are available on <a href="http://nightlies.videolan.org">nightlies.videolan.org</a>.</p>
+<h1>Development snapshots</h1>
+<p>Development snapshots are available on <a href="http://nightlies.videolan.org">nightlies.videolan.org</a>.</p>
 <?php panel_end(); ?>
 
 </div>

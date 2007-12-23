@@ -12,9 +12,9 @@
 
 <div id="fullwidth">
 
-<p>Thanks to Götz Waschk who maintains these packages !</p>
+<p>Thanks to Götz Waschk who maintains these packages!</p>
 
-<h2>Mandriva Linux 2007 Spring and older (since 9.2 )</h2>
+<h2>Mandriva Linux 2007 Spring and older (since 9.2)</h2>
 
 <p>To install the latest VLC packages,
 add the following sources for your Mandriva version (you

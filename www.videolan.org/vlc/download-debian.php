@@ -33,7 +33,8 @@ vlc, mozilla-plugin-vlc, the usual way you do it. </p>
 
 <h2> Debian testing (lenny) </h2>
 
-<p> VLC is available too in testing, with a pretty recent version. Install 
+<p> VLC is potentially available in testing. But due to the way testing works,
+ we can't guarantee which version, if any, is currently available. Install 
 vlc, mozilla-plugin-vlc, the usual way you do it. </p>
 
 

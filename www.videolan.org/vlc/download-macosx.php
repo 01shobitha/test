@@ -20,25 +20,29 @@
 -->
 
 
-<h2>Latest Mac OS X package for 10.4 up to 10.5 (release 0.8.6d)</h2>
+<h2>Latest Mac OS X package for 10.4 and 10.5 (release 0.8.6d)</h2>
 
 <?php pkgitem( "Universal Binary",
                "0.8.6d/macosx","vlc-0.8.6d.dmg","vlc"); ?>
 
+<h2>Platform specific packages for 10.4 and 10.5 (release 0.8.6d)</h2
+
 <?php pkgitem( "Intel package",
                "0.8.6d/macosx","vlc-0.8.6d-intel.dmg","vlc"); ?>
 
-<?php pkgitem( "Web Browser plugin for Intel",
-               "0.8.6d/macosx","vlc-plugin-0.8.6d-intel.dmg","vlc"); ?>
-
 <?php pkgitem( "PowerPC package",
                "0.8.6d/macosx","vlc-0.8.6d-powerpc.dmg","vlc"); ?>
+
+<h2>Web browser plugins for 10.4 and 10.5 (release 0.8.6d)</h2>
+
+<?php pkgitem( "Web Browser plugin for Intel",
+               "0.8.6d/macosx","vlc-plugin-0.8.6d-intel.dmg","vlc"); ?>
 
 <?php pkgitem( "Web Browser plugin for PowerPC",
                "0.8.6d/macosx","vlc-plugin-0.8.6d-powerpc.dmg","vlc"); ?>
 
 <h2>Last Mac OS X package for 10.3 (release 0.8.6c)</h2>
-<p><b>Requires <a href="http://www.apple.com/support/downloads/quicktime73forpanther.html">QuickTime 7</a> or later for best results</b></p>
+<p><b><a href="http://www.apple.com/quicktime/download/">QuickTime 7</a> or later is recommended for best results</b></p>
 <ul>
 <li>
 <?php pkgitem_nomirr( "Last VLC Mac OS X package for 10.3 (release 0.8.6c)", "0.8.6c/macosx","vlc-0.8.6c-powerpc.dmg","vlc"); ?>

@@ -73,7 +73,7 @@ and untrusted playlist files should not be used.
  <a href="patches/vlc-0.8.6-MOAB-02-01-2007.patch">here</a>
  (<a href="patches/vlc-0.8.6-MOAB-02-01-2007.patch.asc">GPG signature</a>).
 </p>
-<p>VLC media player 0.8.6a, published on 4th January 2007 adresses this issue and introduces further usability fixes.
+<p>VLC media player 0.8.6a, published on 4th January 2007 addresses this issue and introduces further usability fixes.
 </p>
 <p>Pre-compiled packages for Mac OS X and MS Windows are available at the usual download locations.
 </p>

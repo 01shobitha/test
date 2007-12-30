@@ -10,7 +10,7 @@
 
 <h1>Security Advisory 0703</h1>
 <pre>
-Summary           : Misusable Stream Output features of the webbrowser plugins
+Summary           : Misuseable Stream Output features of the webbrowser plugins
                     and the M3U Playlist Parser 
 Date              : 5 January 2008
 Affected versions : VLC media player 0.8.6d and earlier
@@ -18,22 +18,22 @@ ID                : VideoLAN-SA-0802
 CVE reference     : 
 </pre>
 <h2>Details</h2>
-<p>Using VLC media player's webbrowser plugins or its M3U Playlist Parser could lead to unwanted file system action within the user's local priviledges.
+<p>Using VLC media player's webbrowser plugins or its M3U Playlist Parser could lead to unwanted file system action within the user's local privileges.
 </p>
 <h2>Impact</h2>
-<p>If successful, a malicious third party could missuse the Stream Output features of VLC media player's webbrowser plugins and the M3U Playlist Parser to write arbitrary data to all accessible file system locations within the user's priviledges without notifying the user about its actions.
+<p>If successful, a malicious third party could misuse the Stream Output features of VLC media player's webbrowser plugins and the M3U Playlist Parser to write arbitrary data to all accessible file system locations within the user's priviledges without notifying the user about its actions.
 </p>
 <h2>Threat mitigation</h2>
 <p>Exploitation of these design issues requires the user to visit a malicious
-crafted website using VLC media player's webbrowser plugins or by opening a specifically crafted M3U playlist file.
+crafted website using VLC media player's webbrowser plugins or to open a specifically crafted M3U playlist file.
 </p>
 <h2>Workarounds</h2>
-<p>The user may use stop using VLC media player's <code>--m3u-extvlcopt</code> option, which enables the parsing of exploitable playlist item options. Note the the authors of some M3U files require these options for correct functionality.
+<p>The user may stop using VLC media player's <code>--m3u-extvlcopt</code> setting, which enables parsing of exploitable playlist item options. Note that authors of some M3U files require these options for correct functionality.</p>
 <p>
 VLC media player's webbrowser plugins should be disabled until further action or websites from untrusted sources should not be opened, as there is no work-around available.
 </p>
 <h2>Solution</h2>
-<p>VLC media player 0.8.6e adresses this issue and introduces further
+<p>VLC media player 0.8.6e addresses these design issues and introduces further
 usability fixes.
 </p>
 <p>Pre-compiled packages will be available shortly at the usual download locations.

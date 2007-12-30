@@ -18,22 +18,22 @@ ID                : VideoLAN-SA-0801
 CVE reference     : 
 </pre>
 <h2>Details</h2>
-<p>VLC media player's web interface suffers from a format string vulnerability when using specifically crafted clients.
+<p>VLC media player's web interface suffers from a format string vulnerability when using specially crafted requests.
 </p>
 <p>Its subtitle demuxer is prone to multiple buffer-overflows triggered by parsing maliciously crafted files.
 </p>
 <h2>Impact</h2>
-<p>If successful, a malicious third party could remotely use the Web interface or locally use the subtitles parser to execute arbitrary code within the context of VLC media player or crash the current player instance.</p>
+<p>If successful, a malicious third party could remotely use the Web interface or trigger the subtitles parser locally to execute arbitrary code within the context of VLC media player or crash the current player instance.</p>
 <h2>Threat mitigation</h2>
-<p>Exploitation of the Web interface problem requires the user to actively enable this interface. It is disabled by default.</p>
-<p>The subtitle parsing issue could be exploited by specifically crafted files  both automatically opened because of a similar name to movies being played by the user and by actively opened files.
+<p>Exploitation of the Web interface problem requires the user to explicitly enable this interface. It is disabled by default.</p>
+<p>Subtitle files can be manually opened by the user or automatically based on the filename of the movie. Both ways may lead to exploitation of the Subtitle Parser's buffer-overflow.
 </p>
 <h2>Workarounds</h2>
-<p>The user may refrain from using the Web interface until an update is installed. VLC media player can also be controlled remotely through the RC and telnet interfaces.
+<p>The user may refrain from using the Web interface until an update is installed or limit its usage to secure environments. VLC media player can also be controlled remotely through the RC and telnet interfaces.
 </p>
-<p>Automatic detection of subtitle files can be disabled in the Subtitle category inside VLC's Video preferences or by providing <code>--no-sub-autodetect-file</code> when using VLC media player through the command-line. The user is asked to use subtitle files authored by trusted sources only.</p>
+<p>Automatic detection of subtitle files can be disabled by unchecking the "Autodetect subtitle files" option in the Subtitle category inside the Video preferences. Note that you need to restart VLC media player for this change to take effect. In case that you use VLC media player through the command-line, provide <code>--no-sub-autodetect-file</code> to override its default behavior.</p><p>The user is asked to use subtitle files authored by trusted sources only.</p>
 <h2>Solution</h2>
-<p>VLC media player 0.8.6e adresses this issue and introduces further
+<p>VLC media player 0.8.6e addresses these issues and introduces further
 usability fixes.
 </p>
 <p>Pre-compiled packages will be available at the usual download locations shortly.

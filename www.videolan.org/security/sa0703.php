@@ -40,7 +40,7 @@ which are not affected by this issue and provide the same features set.
 Otherwise, websites from untrusted sources should not be opened.
 </p>
 <h2>Solution</h2>
-<p>VLC media player 0.8.6d adresses this issue and introduces further
+<p>VLC media player 0.8.6d addresses this issue and introduces further
 usability fixes.
 </p>
 <p>Pre-compiled packages for MS Windows are available at the

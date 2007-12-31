@@ -33,7 +33,7 @@ CVE reference     :
 </p>
 <p>Automatic detection of subtitle files can be disabled by unchecking the "Autodetect subtitle files" option in the Subtitle category inside the Video preferences. Note that you need to restart VLC media player for this change to take effect. In case that you use VLC media player through the command-line, provide <code>--no-sub-autodetect-file</code> to override its default behavior.</p><p>The user is asked to use subtitle files authored by trusted sources only.</p>
 <h2>Solution</h2>
-<p>VLC media player 0.8.6e adresses these issues and introduces further
+<p>VLC media player 0.8.6e addresses these issues and introduces further
 usability fixes.
 </p>
 <p>Pre-compiled packages will be available at the usual download locations shortly.

@@ -8,6 +8,18 @@
 
 <div id="fullwidth">
 
+<p><span style="font-weight: bold;">DISCLAIMER:
+This document is work-in-progress security advisory
+of the VideoLAN project.
+It has not been approved as a security advisory.
+It does not represent the position of the VideoLAN project
+or any of its contributors.
+Citing or quoting this document otherwise may constitute
+an inappropriate misrepresentation of the VideoLAN project position
+(or lack thereof) on the covered subject.
+</span>
+</p>
+
 <h1>Security Advisory 0801</h1>
 <pre>
 Summary           : Format string vulnerability in the Web interface

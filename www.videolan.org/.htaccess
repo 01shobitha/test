@@ -145,6 +145,10 @@ RewriteRule ^images/videolan_org(.*)$ /images/goodies/videolan_org$1 [R=permanen
 RewriteRule ^images/cone-soppera(.*)$ images/goodies/cone-soppera$1 [R=permanent,L]
 
 
+############### Security advisories ######################
+
+RewriteRule ^sa(.*).html$ /security/sa$1.html [R=permanent,L]
+
 ##################### Unsorted misc stuff ####################
 
 RewriteRule ^tests/(.*)$ /rez/ [R=permanent,L]

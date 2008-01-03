@@ -22,8 +22,8 @@ an inappropriate misrepresentation of the VideoLAN project position
 
 <h1>Security Advisory 0703</h1>
 <pre>
-Summary           : Misuseable Stream Output features of the webbrowser plugins
-                    and the M3U Playlist Parser 
+Summary           : Arbitrary file overwrite and other abuses
+                    through M3U parser and browsers plugins
 Date              : 5 January 2008
 Affected versions : VLC media player 0.8.6d and earlier
 ID                : VideoLAN-SA-0802

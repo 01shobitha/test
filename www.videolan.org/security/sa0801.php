@@ -23,7 +23,7 @@ an inappropriate misrepresentation of the VideoLAN project position
 <h1>Security Advisory 0801</h1>
 <pre>
 Summary           : Format string vulnerability in the Web interface
-                    Buffer overflow in the Subtitles demuxer
+                    Stack-based buffer overflow in the Subtitles demuxer
 Date              : 5 January 2008
 Affected versions : VLC media player 0.8.6d and earlier
 ID                : VideoLAN-SA-0801

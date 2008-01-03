@@ -20,7 +20,7 @@ an inappropriate misrepresentation of the VideoLAN project position
 </span>
 </p>
 
-<h1>Security Advisory 0703</h1>
+<h1>Security Advisory 0802</h1>
 <pre>
 Summary           : Arbitrary file overwrite and other abuses
                     through M3U parser and browsers plugins

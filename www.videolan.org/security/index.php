@@ -30,4 +30,6 @@
 <dd>Recursive plugin release vulnerability in the Active X plugin. <a href="sa0703.php">Details</a></dd></p>
 </dl>
 
+</div>
+
 <?php footer('$Id$'); ?>

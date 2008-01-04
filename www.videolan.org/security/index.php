@@ -16,8 +16,8 @@
 <h2>2007</h2>
 
 <dl>
-<dt>VideoLAN-SA-0701, MOAB-02-01-2007 (CVE-2007-0017)</dt>
-<dd>URL format string injection in CDDA and VCDX plugins. <a href="sa0701.php">Details</a></dd></p>
+<dt>VideoLAN-SA-0703, CORE-2007-1004 (CVE-2007-6262)</dt>
+<dd>Recursive plugin release vulnerability in the Active X plugin. <a href="sa0703.php">Details</a></dd></p>
 </dl>
 
 <dl>
@@ -26,8 +26,8 @@
 </dl>
 
 <dl>
-<dt>VideoLAN-SA-0703, CORE-2007-1004 (CVE-2007-6262)</dt>
-<dd>Recursive plugin release vulnerability in the Active X plugin. <a href="sa0703.php">Details</a></dd></p>
+<dt>VideoLAN-SA-0701, MOAB-02-01-2007 (CVE-2007-0017)</dt>
+<dd>URL format string injection in CDDA and VCDX plugins. <a href="sa0701.php">Details</a></dd></p>
 </dl>
 
 </div>

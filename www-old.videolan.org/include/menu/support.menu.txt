@@ -1,6 +1,0 @@
-overview;Overview;/support/
-report;Report a bug;/support/bug-reporting.html
-mail;Mailing-lists;/support/lists.html
-forum;Web forums;http://forum.videolan.org/
-irc;IRCWeb;http://krishna.videolan.org/cgi-bin/irc/irc.cgi
-consultants;Consultants;/support/consultants.html

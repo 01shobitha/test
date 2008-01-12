@@ -1,3 +1,0 @@
-download;Download;/streaming/
-features;Features;/streaming/features.html
-statistis;Statistics;/streaming/statistics.html

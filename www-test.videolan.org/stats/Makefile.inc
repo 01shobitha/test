@@ -1,1 +1,0 @@
-PHP_IGNORES = downloads

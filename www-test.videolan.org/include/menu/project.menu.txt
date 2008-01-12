@@ -1,7 +1,0 @@
-overview;project;/project/
-news;News;/news.html
-events;Events;/events/
-partners;Partners;/partners.html
-team;Team;/team/
-contribute;Contribute;/contribute.html
-goodies;Goodies;/goodies.html

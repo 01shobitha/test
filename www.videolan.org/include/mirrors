@@ -61,3 +61,7 @@ ftp://root24.eu/pub/videolan/|Root24|Germany|de|FTP
 # Contact Kazuhiro Fujieda: fujieda  ---  at jaist.ac dot jp 
 # 			    ftp-admin --- at  jaist.ac   dot jp
 http://ftp.jaist.ac.jp/pub/videolan/|JAIST|Japan|jp|HTTP
+#
+# Yandex, Moscow, Russia
+# Contact opensource --- at --- yandex-team dot ru
+ftp://mirror.yandex.ru/mirrors/ftp.videolan.org/|Yandex|Russia|ru|FTP

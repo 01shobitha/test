@@ -348,6 +348,12 @@ p.center { text-align:center;}
  { padding-left:2em;background: url(http://download.videolan.org/images/flags/us.png) left no-repeat;}
 #maincontent table td.de
  { padding-left:2em;background: url(http://download.videolan.org/images/flags/de.png) left no-repeat;}
+#maincontent table td.cz
+ { padding-left:2em;background: url(http://download.videolan.org/images/flags/cz.png) left no-repeat;}
+#maincontent table td.ru
+ { padding-left:2em;background: url(http://download.videolan.org/images/flags/ru.png) left no-repeat;}
+#maincontent table td.jp
+ { padding-left:2em;background: url(http://download.videolan.org/images/flags/jp.png) left no-repeat;}
 
 /* DL */
 .download {

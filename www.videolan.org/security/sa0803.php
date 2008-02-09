@@ -59,7 +59,7 @@ The source code patch can be downloaded separately here:
 at the usual download locations shortly.
 </p>
 <h2>Credits</h2>
-<p>Felipe Manzano and Anibal Sacoo from Core Security Technologies
+<p>Felipe Manzano and Anibal Sacco from Core Security Technologies
 are credited with the discovery of this security issue.
 </p> 
 <h2>References</h2>

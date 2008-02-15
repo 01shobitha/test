@@ -25,7 +25,7 @@ an inappropriate misrepresentation of the VideoLAN project position
 Summary           : Arbitrary memory overwrite in the MP4 demuxer
 Date              : 8 February 2008
 Affected versions : VLC media player 0.8.6d and earlier
-ID                : VideoLAN-SA-0803, CORE-2008-0130
+ID                : VideoLAN-SA-0802, CORE-2008-0130
 CVE reference     : CVE-2008-????
 </pre>
 <h2>Details</h2>

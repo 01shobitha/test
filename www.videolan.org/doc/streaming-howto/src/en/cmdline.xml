@@ -454,9 +454,48 @@ to Live) of the sent UDP packets.</para>
 <para>This option allows to set the encapsulation method used to
 send the stream. See <emphasis>mux=</emphasis> options of the
 <emphasis>standard</emphasis> module for a description of the available
-method. Only <emphasis>ts</emphasis> and <emphasis>raw</emphasis>
-(no encpasulation) are possible values for <emphasis>RTP</emphasis>
-streams. Default is RAW.</para>
+method.
+Only <emphasis>ts</emphasis> is possible for RTP streams.
+By default, each elementary stream is sent as a separate RTP media,
+i.e. no encapsulation is done.
+</para>
+
+</sect3>
+
+<sect3><title>rtcp-mux</title>
+
+<para>This options enables RTP/RTCP multiplexing
+(see draft-ietf-avt-rtp-and-rtcp-mux),
+i.e. sends and receives RTCP packets on the same port numbers as RTP packets.
+By default, RTCP packets are sent and received on the next port.
+</para>
+
+</sect3>
+
+<sect3><title>dccp</title>
+
+<para>This options uses DCCP instead of UDP as a transport protocol
+for RTP and RTCP packets.
+The server will serve as the passive side of DCCP connections.
+</para>
+
+</sect3>
+
+<sect3><title>tcp</title>
+
+<para>This options uses TCP instead of UDP as the transport protocol
+for RTP and RTCP packets (using RTP framing, RFC4571).
+The server will serve as the passive side of TCP connections.
+This option is not implemented yet.
+</para>
+
+</sect3>
+
+<sect3><title>udplite</title>
+
+<para>This options uses UDP-Lite instead of UDP as the transport protocol
+for RTP and RTCP packets.
+</para>
 
 </sect3>
 

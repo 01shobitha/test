@@ -13,8 +13,8 @@
 
 <h2>ALT Linux Sisyphus (unstable)</h2>
 <p>Sisyphus packages repository always contains one of the latest versions
-of VLC (stable branch or svn trunk, depending on trunk usability/state). 
-In order to acquire it you should have those lines in your /etc/apt/sources.list:</p>
+of VLC (stable branch or svn trunk, depending on trunk usability/state).</p>
+<p>In order to acquire it you should have those lines in your /etc/apt/sources.list:</p>
 <pre>
    rpm [alt] ftp://ftp.altlinux.com/pub/distributions/ALTLinux/Sisyphus i586 classic
    rpm [alt] ftp://ftp.altlinux.com/pub/distributions/ALTLinux/Sisyphus noarch classic
@@ -24,7 +24,7 @@ In order to acquire it you should have those lines in your /etc/apt/sources.list
 dvd playback and X11 video output do the following:</p>
 <pre>
    # apt-get update
-   # apt-get install vlc-normal
+   # apt-get install vlc
 </pre>
 <p>or for full install with all possible plugins:</p>
 <pre>
@@ -37,7 +37,7 @@ dvd playback and X11 video output do the following:</p>
 <p>In order to install vlc, one should enable 'classic' component and perform the following:</p>
 <pre>
   # apt-get update
-  # apt-get install vlc-normal
+  # apt-get install vlc
 </pre>
 
 <h2>Older distributions</h2>

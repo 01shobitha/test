@@ -24,52 +24,14 @@ the <code><b>videolan-announce</b></code> list, which is fully
 moderated.</p>
 
 <p>You can consult the
-<a href="http://www.via.ecp.fr/via/ml/videolan-en.html">online archives</a> hosted at
+<a href="http://mailman.videolan.org/">online archives</a> hosted at
 VIA.</p>
 <p>You can also consult the <a href="http://dir.gmane.org/index.php?prefix=gmane.comp.video.videolan">Gmane</a> archives of the mailing-lists.</p>
 
 <h2>Subscription / Unsubscription</h2>
 
-<p>You can subscribe or unsubscribe from the web. Just enter your
-e-mail address below. You will be sent an email-based confirmation
-request a few minutes later. Reply to the email to confirm the
-subscription or unsubscription.</p>
-
-<form action="../utils/subscribe.php" method="post">
-
-<p>Your email address: <input type="text" name="from" size="30" /></p>
-
-      <p>Subscribe/Unsubscribe to/from the following lists:</p>
-      <input type="checkbox" name="videolanannounce" />
-          <code><b>videolan-announce@videolan.org</b></code>
-          (low-traffic and moderated announce list for VideoLAN releases and events)<br />
-      <input type="checkbox" name="vlc" />
-          <code><b>vlc@videolan.org</b></code> (user discussions about vlc)<br />
-      <input type="checkbox" name="streaming" />
-          <code><b>streaming@videolan.org</b></code> (user discussions about streaming)<br />
-      <input type="checkbox" name="vlcdevel" />
-          <code><b>vlc-devel@videolan.org</b></code> (vlc development)<br />
-      <input type="checkbox" name="vlsdevel" />
-          <code><b>vls-devel@videolan.org</b></code> (vls development)<br />
-      <input type="checkbox" name="libdvbpsidevel" />
-          <code><b>libdvbpsi-devel@videolan.org</b></code> (libdvbpsi development)<br />
-      <input type="checkbox" name="libdvdcssdevel" />
-          <code><b>libdvdcss-devel@videolan.org</b></code> (libdvdcss development)<br />
-      <input type="checkbox" name="libdvdplaydevel" />
-          <code><b>libdvdplay-devel@videolan.org</b></code> (libdvdplay development)<br />
-      <input type="checkbox" name="libdcadevel" />
-          <code><b>libdca-devel@videolan.org</b></code> (libdca development)<br />
-      <input type="checkbox" name="x264devel" />
-          <code><b>x264-devel@videolan.org</b></code> (x264 development)<br />
-      <input type="checkbox" name="mpris" />
-          <code><b>mpris@videolan.org</b></code> (discussion about MPRIS)<br />
-      <input type="checkbox" name="wwwdoc" />
-          <code><b>www-doc@videolan.org</b></code> (website and documentation)<br />
-
-      <p><input type="submit" name="subscribe" value="Subscribe" />
-      <input type="submit" name="unsubscribe" value="Unsubscribe" /></p>
-
-</form>
+<p>You can <a href="http://mailman.videolan.org">subscribe or unsubscribe</a>
+from the web.</p>
 
 <h2>Subscribe / Unsubscribe using e-mail</h2>
 

@@ -24,20 +24,12 @@ the <code><b>videolan-announce</b></code> list, which is fully
 moderated.</p>
 
 <p>You can consult the
-<a href="http://mailman.videolan.org/">online archives</a> hosted at
-VIA.</p>
+<a href="http://mailman.videolan.org/">online archives</a>.</p>
 <p>You can also consult the <a href="http://dir.gmane.org/index.php?prefix=gmane.comp.video.videolan">Gmane</a> archives of the mailing-lists.</p>
 
 <h2>Subscription / Unsubscription</h2>
 
 <p>You can <a href="http://mailman.videolan.org">subscribe or unsubscribe</a>
 from the web.</p>
-
-<h2>Subscribe / Unsubscribe using e-mail</h2>
-
-<p>Our mailing-list manager is called Mailman.
-Experienced users can issue their commands to
-<a href="mailto:mailman@videolan.org">mailman@videolan.org</a>.</p>
-
 
 <?php footer('$Id$'); ?>

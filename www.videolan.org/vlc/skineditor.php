@@ -1,7 +1,7 @@
 <?php
    $title = "VLC media player - Skin Editor";
    $lang = "en";
-   $menu = array( "vlc", "download" );
+   $menu = array( "vlc", "skineditor" );
    $date = "21 February 2008";
    $enable_live = true;
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
@@ -10,7 +10,7 @@
 <h1> VLC media player Skin Editor</h1>
 
 <div class="vlc-screenshot">
-  <img width="300" height="225" src="/images/screenshots/skineditor-win32.jpg" alt="VLC on Windows"/>
+  <img width="300" height="225" src="/images/screenshots/skineditor-linux.jpg" alt="VLC on Windows"/>
 </div>
 
 <div id="description">
@@ -26,23 +26,7 @@ Note that it uses some features that are not supported by VLC 0.8.6c and older.
 </div>
 
 <div id="left">
-  <h2>Download</h2>
-  <p style="font-weight:bold;color:#ef2929;">
-  This program requires the Java Runtime Environment (JRE) 6 or later. If you do not have it, download it at <a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">java.sun.com</a>.
-  </p>
-  <br>
-  <img src="http://download.videolan.org/images/12-em-down.png" alt="">
-  <a href="http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?f=VLCSkinEditor_0_6_1_b.zip" target="_blank">Download v. 0.6.1b</a>
-</div>
-
-<div id="right"><!--start panel-->
-  <div class="panel-blue">
-    <div class="hd">
-      <div class="c"></div>
-    </div>
-    <div class="bd">
-      <div class="c">
-        <h2>Features</h2>
+  <h2>Features</h2>
         <ul class="panel-blue-bullet">
         <li>Absolutely no XML knowledge required</li>
         <li>Add images and fonts directly from files</li>
@@ -54,7 +38,23 @@ Note that it uses some features that are not supported by VLC 0.8.6c and older.
         <li>Position your skin's items with the mouse or the arrow keys</li>
         <li>Hierarchic display of skins content</li>
         <li>Makes the creation of action sequences comfortable</li>
-        <li>Can also handle skins that were created by hand if they meet certain requirements:<ul><li>One XML tag per line</li><li>No line breaks inside a XML tag</li></ul></li>
+        <li>Can also handle skins that were created by hand if they meet certain requirements:<ul><li>One XML tag per line</li><li>No line breaks inside a XML tag</li></ul></li>  
+</div>
+
+<div id="right"><!--start panel-->
+  <div class="panel-blue">
+    <div class="hd">
+      <div class="c"></div>
+    </div>
+    <div class="bd">
+      <div class="c">
+        <h2>Download</h2>
+        <p style="font-weight:bold;color:#ef2929;">
+        This program requires the Java Runtime Environment (JRE) 6 or later. If you do not have it, download it at <a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">java.sun.com</a>.
+        </p>
+        <br>
+        <img src="http://download.videolan.org/images/12-em-down.png" alt="">
+        <a href="http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?f=VLCSkinEditor_0_6_1_b.zip" target="_blank">Download v. 0.6.1b</a>
       </div>      
     </div>
     <div class="ft">
@@ -64,4 +64,4 @@ Note that it uses some features that are not supported by VLC 0.8.6c and older.
  </div>
 </div>
 
-<?php footer('$Id: skineditor.php 4455 2008-02-21 17:15 altglass$'); ?>
+<?php footer('$Id: skineditor.php 4456 2008-02-21 17:20 altglass$'); ?>

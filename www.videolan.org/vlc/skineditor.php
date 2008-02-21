@@ -10,7 +10,7 @@
 <h1> VLC media player Skin Editor</h1>
 
 <div class="vlc-screenshot">
-  <img width="300" height="225" src="/images/screenshots/skineditor-linux.jpg" alt="VLC on Windows"/>
+  <img width="300" height="200" src="/images/screenshots/skineditor-linux.jpg" alt="VLC on Windows"/>
 </div>
 
 <div id="description">

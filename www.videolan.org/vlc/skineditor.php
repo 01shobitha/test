@@ -4,7 +4,7 @@
    $menu = array( "vlc", "download" );
    $date = "21 February 2008";
    $enable_live = true;
-   require($_SERVER["DOCUMENT_ROOT"]."/VLC/www.videolan.org/include/header.php");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
 <h1> VLC media player Skin Editor</h1>
@@ -33,4 +33,19 @@ This program requires the Java Runtime Environment (JRE) 6 or later. If you do n
     <li><a href="http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?f=VLCSkinEditor_0_6_1_b.zip" target="_blank">Download v. 0.6.1b</a></li>
   </ul>
 </div>
+<p>
+<h2>Features</h2>
+<ul>
+<li>Absolutely no XML knowledge required</li>
+<li>Add images and fonts directly from files</li>
+<li>Helpful visual aid to create SubBitmaps</li>
+<li>Direct preview of how the skin will look</li>
+<li>Preview of how your skin looks in different situations (playing, paused, etc.)</li>
+<li>Import and export of VLT files (packed VLC Skins)</li>
+<li>Easily add and modify items of your skin</li>
+<li>Position your skin's items with the mouse or the arrow keys</li>
+<li>Hierarchic display of skins content</li>
+<li>Makes the creation of action sequences comfortable</li>
+<li>Can also handle skins that were created by hand if they meet certain requirements:<ul><li>One XML tag per line</li><li>No line breaks inside a XML tag</li></ul></li>
+</p>
 <?php footer('$Id: Whatever... $'); ?>

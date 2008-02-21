@@ -28,11 +28,13 @@ Note that it uses some features that are not supported by the VLC 0.8.6c and old
 <p style="font-weight:bold;color:#ef2929;">
 This program requires the Java Runtime Environment (JRE) 6 or later. If you do not have it, download it at <a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">java.sun.com</a>.
 </p>
+<p>
 <div class="os1">
   <ul class="os">
     <li><a href="http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?f=VLCSkinEditor_0_6_1_b.zip" target="_blank">Download v. 0.6.1b</a></li>
   </ul>
 </div>
+</p>
 <p>
 <h2>Features</h2>
 <ul>
@@ -48,4 +50,4 @@ This program requires the Java Runtime Environment (JRE) 6 or later. If you do n
 <li>Makes the creation of action sequences comfortable</li>
 <li>Can also handle skins that were created by hand if they meet certain requirements:<ul><li>One XML tag per line</li><li>No line breaks inside a XML tag</li></ul></li>
 </p>
-<?php footer('$Id: Whatever... $'); ?>
+<?php footer('$Id: skineditor.php 4452 2008-02-21 17:00 altglass$'); ?>

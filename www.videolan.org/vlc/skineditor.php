@@ -21,17 +21,19 @@ Now they have an easy alternative: The <a href="http://en.wikipedia.org/wiki/WYS
 </p>
 <p>
 The program is still under development and is fully compatible to VLC 0.9.0.
-Note that it uses some features that are not supported by the VLC 0.8.6c and older.
+Note that it uses some features that are not supported by VLC 0.8.6c and older.
 </p>
 </div>
-<p>
-<h2>Download</h2>
-<p style="font-weight:bold;color:#ef2929;">
-This program requires the Java Runtime Environment (JRE) 6 or later. If you do not have it, download it at <a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">java.sun.com</a>.
-<br>
-<img src="http://download.videolan.org/images/12-em-down.png" alt="">
-<a href="http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?f=VLCSkinEditor_0_6_1_b.zip" target="_blank">Download v. 0.6.1b</a>
-</p>
+
+<div id="left">
+  <h2>Download</h2>
+  <p style="font-weight:bold;color:#ef2929;">
+  This program requires the Java Runtime Environment (JRE) 6 or later. If you do not have it, download it at <a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">java.sun.com</a>.
+  </p>
+  <br>
+  <img src="http://download.videolan.org/images/12-em-down.png" alt="">
+  <a href="http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?f=VLCSkinEditor_0_6_1_b.zip" target="_blank">Download v. 0.6.1b</a>
+</div>
 
 <div id="right"><!--start panel-->
   <div class="panel-blue">
@@ -41,7 +43,7 @@ This program requires the Java Runtime Environment (JRE) 6 or later. If you do n
     <div class="bd">
       <div class="c">
         <h2>Features</h2>
-        <ul>
+        <ul class="panel-blue-bullet">
         <li>Absolutely no XML knowledge required</li>
         <li>Add images and fonts directly from files</li>
         <li>Helpful visual aid to create SubBitmaps</li>
@@ -62,4 +64,4 @@ This program requires the Java Runtime Environment (JRE) 6 or later. If you do n
  </div>
 </div>
 
-<?php footer('$Id: skineditor.php 4454 2008-02-21 17:10 altglass$'); ?>
+<?php footer('$Id: skineditor.php 4455 2008-02-21 17:15 altglass$'); ?>

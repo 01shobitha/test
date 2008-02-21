@@ -10,7 +10,7 @@
 <h1> VLC media player Skin Editor</h1>
 
 <div class="vlc-screenshot">
-  <img width="300" height="200" src="/images/screenshots/skineditor-linux.jpg" alt="VLC on Windows"/>
+  <img src="/images/screenshots/skineditor-linux.jpg" alt="VLC on Windows"/>
 </div>
 
 <div id="description">
@@ -64,4 +64,4 @@ Note that it uses some features that are not supported by VLC 0.8.6c and older.
  </div>
 </div>
 
-<?php footer('$Id: skineditor.php 4456 2008-02-21 17:20 altglass$'); ?>
+<?php footer('$Id: skineditor.php 4458 2008-02-21 17:23 altglass$'); ?>

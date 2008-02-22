@@ -27,18 +27,29 @@ Note that it uses some features that are not supported by VLC 0.8.6c and older.
 
 <div id="left">
   <h2>Features</h2>
-        <ul class="panel-blue-bullet">
-        <li>Absolutely no XML knowledge required</li>
-        <li>Add images and fonts directly from files</li>
-        <li>Helpful visual aid to create SubBitmaps</li>
-        <li>Direct preview of how the skin will look</li>
-        <li>Preview of how your skin looks in different situations (playing, paused, etc.)</li>
-        <li>Import and export of VLT files (packed VLC Skins)</li>
-        <li>Easily add and modify items of your skin</li>
-        <li>Position your skin's items with the mouse or the arrow keys</li>
-        <li>Hierarchic display of skins content</li>
-        <li>Makes the creation of action sequences comfortable</li>
-        <li>Can also handle skins that were created by hand if they meet certain requirements:<ul><li>One XML tag per line</li><li>No line breaks inside a XML tag</li></ul></li>  
+  <ul class="blue-bullet">
+      <li>Absolutely no XML knowledge required</li>
+      <li>Add images and fonts directly from files</li>
+      <li>Helpful visual aid to create SubBitmaps</li>
+      <li>Direct preview of how the skin will look</li>
+      <li>Preview of how your skin looks in different situations (playing, paused, etc.)</li>
+      <li>Import and export of VLT files (packed VLC Skins)</li>
+      <li>Easily add and modify items of your skin</li>
+      <li>Position your skin's items with the mouse or the arrow keys</li>
+      <li>Hierarchic display of skins content</li>
+      <li>Makes the creation of action sequences comfortable</li>
+      <li>Can also handle skins that were created by hand if they meet certain requirements:
+        <ul>
+          <li>One XML tag per line</li>
+          <li>No line breaks inside a XML tag</li>
+        </ul>
+      </li>  
+  </ul>
+        
+  <h2>How to help</h2>
+  <p>The project needs testers who check the program for usability and identify bugs.<br>
+  If you have knowledge of Java feel free to join the developer team. Check the
+  <a href="http://trac.videolan.org/skin-designer" target="_blank">Trac page</a> for more information.</p>
 </div>
 
 <div id="right"><!--start panel-->
@@ -60,8 +71,37 @@ Note that it uses some features that are not supported by VLC 0.8.6c and older.
     <div class="ft">
       <div class="c"></div>
     </div>
-  </div> <!-- end panel -->
+  </div>
  </div>
+ <div class="panel-orange">
+    <div class="hd">
+      <div class="c"></div>
+    </div>
+    <div class="bd">
+      <div class="c">
+        <h2>Development plans</h2>
+        <ul class="panel-orange-bullet">
+          <li>Bug finding and fixing</li>    
+          <li><b>version 0.7</b>
+            <ul>
+              <li>SliderBackground Generator enhancement</li>        
+              <li>Enable/enhance duplication of Resources/Windows/Layouts/Items</li>
+
+            </ul>
+          </li>    
+          <li><b>version 0.7.*</b></li>
+            <ul>
+              <li>Enhanced online help &amp; tutorials</li>
+              <li>New Layout for editing dialogs that look better on Linux</li>
+            </ul>
+        </ul>
+      </div>      
+    </div>
+    <div class="ft">
+      <div class="c"></div>
+    </div>
+  </div>
+ </div> 
 </div>
 
-<?php footer('$Id: skineditor.php 4458 2008-02-21 17:23 altglass$'); ?>
+<?php footer('$Id: skineditor.php 4459 2008-02-22 17:50 altglass$'); ?>

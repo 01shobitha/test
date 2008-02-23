@@ -200,7 +200,7 @@ else
   require("../include/header.php");
   ?>
 <div id="left">
-  <h1>Thanks to fill out the form...</h1>
+  <h1>Skin upload form</h1>
 
   <form enctype="multipart/form-data" method="post" action="skins_upload.php">
     <table>
@@ -225,7 +225,7 @@ else
         </tr>
         <?php displayError(7, $error); displayError(8, $error); displayError(9, $error); //image file errrors ?>
         <tr>
-          <td>Image of your skin : </td>
+          <td>Preview image of your skin : </td>
           <td><input type='file' name="image" /></td>
         </tr>
         <?php displayError(3, $error); // VLC version error ?>

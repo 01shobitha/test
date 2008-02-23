@@ -104,7 +104,7 @@
   <p> For setup instructions, see the <a href="/doc/">documentation</a>
   section.</p>
   <p>If you have a problem that is not
-  covered in the documentation, look at the <a href="/support/">support</a>  page 
+  covered in the documentation, look at the <a href="/support/">support page</a>, 
   <a href="http://forum.videolan.org">web forums</a>, the
   <a href="http://wiki.videolan.org">Wiki</a>, the
   <a href="/support/lists.html">user mailing-lists</a> and other support
@@ -120,4 +120,4 @@
 
 </div> <!-- RIGHT -->
 
-<?php footer('$Id$'); ?>
+<?php footer('$Id: index.php 4462 2008-02-23 13:20 altglass$'); ?>

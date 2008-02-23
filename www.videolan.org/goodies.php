@@ -1,7 +1,7 @@
 <?php
    $title = "VideoLAN - Goodies";
    $lang = "en";
-   $date = "9 March 2003";
+   $date = "23 February 2008";
    $menu = array( "project", "goodies" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
@@ -18,7 +18,7 @@
 
 <li>
 
-<p>The actual version made by Stephane Soppera (with Blender):</p>
+<p>The version made by Stephane Soppera (with Blender):</p>
 <a href="/images/goodies/cone-soppera10.png">
 <img src="/images/goodies/cone-soppera10-moyen.png" alt="Stephane Soppera's cone"
  width="77" height="100" />
@@ -52,6 +52,37 @@ for Mac OS X:</p>
 <p>Download the Blender sources <a href="/images/goodies/vlcNoyel.blend">here</a>.</p>
 
 </li>
+
+<li>
+<p>Two 3D cones made by Daniel Dreibrodt:</p>
+<p>
+<a href="http://d-gfx.kognetwork.ch/VLC/cone_altglass.png" target="_blank">
+<img src="http://d-gfx.kognetwork.ch/VLC/cone_altglass_128.png" alt="Cone"/>
+</a>
+
+<a href="http://d-gfx.kognetwork.ch/VLC/cone_altglass_2.png" target="_blank">
+<img src="http://d-gfx.kognetwork.ch/VLC/cone_altglass_2_128.png" alt="Cone"/>
+</a>
+</p>
+
+<p>
+<a href="http://d-gfx.kognetwork.ch/VLC/cone_altglass.ico">Download cone #1 as Windows XP/Vista icon</a><br/>
+<a href="http://d-gfx.kognetwork.ch/VLC/cone_altglass.blend">Download Blender sources of cone #1</a><br/>
+<a href="http://d-gfx.kognetwork.ch/VLC/cone_altglass_2.ico">Download cone #2 as Windows XP/Vista icon</a><br/>
+<a href="http://d-gfx.kognetwork.ch/VLC/cone_altglass_2.blend">Download Blender sources of cone #1</a><br/>
+</p>
+</li>
+
+<li>
+<p>A nightly build cone based on the current icon made by Daniel Dreibrodt:</p>
+<p>
+<img src="http://d-gfx.kognetwork.ch/VLC/nightly_notext.png" alt="Nightly cone"/>
+</p>
+<p>
+<a href="http://d-gfx.kognetwork.ch/VLC/nightly_notext.ico">Download it as a Windows icon.</a>
+</p>
+</li>
+
 </ul>
 
 <h2>Misc Images</h2>
@@ -272,4 +303,4 @@ field.)</p>
 </div>
 
 
-<?php footer('$Id$'); ?>
+<?php footer('$Id: goodies.php  4462 2008-02-23 13:20 altglass$'); ?>

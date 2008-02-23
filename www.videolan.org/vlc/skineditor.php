@@ -2,7 +2,7 @@
    $title = "VLC media player - Skin Editor";
    $lang = "en";
    $menu = array( "vlc", "skineditor" );
-   $date = "21 February 2008";
+   $date = "23 February 2008";
    $enable_live = true;
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
@@ -10,7 +10,7 @@
 <h1> VLC media player Skin Editor</h1>
 
 <div class="vlc-screenshot">
-  <img src="/images/screenshots/skineditor-linux.jpg" alt="VLC on Windows"/>
+  <img src="/images/screenshots/skineditor-linux.jpg" alt="VLC Skin Editor on Ubuntu Linux" title="VLC Skin Editor on Ubuntu Linux"/>
 </div>
 
 <div id="description">
@@ -52,34 +52,45 @@ Note that it uses some features that are not supported by VLC 0.8.6c and older.
   <a href="http://trac.videolan.org/skin-designer" target="_blank">Trac page</a> for more information.</p>
 </div>
 
-<div id="right"><!--start panel-->
+<div id="right">
   <div class="panel-blue">
     <div class="hd">
       <div class="c"></div>
     </div>
     <div class="bd">
       <div class="c">
-        <h2>Download</h2>
+        <h1>Download</h1>
         <p style="font-weight:bold;color:#ef2929;">
         This program requires the Java Runtime Environment (JRE) 6 or later. If you do not have it, download it at <a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">java.sun.com</a>.
         </p>
         <br>
-        <img src="http://download.videolan.org/images/12-em-down.png" alt="">
-        <a href="http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?f=VLCSkinEditor_0_6_1_b.zip" target="_blank">Download v. 0.6.1b</a>
+        Last stable build:<br>
+        <img src="http://download.videolan.org/images/12-em-down.png" alt=""/>        
+        <a href="http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?dlmajor" target="_blank">Download Version 
+          <? echo file_get_contents("http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?getmajorv"); ?>
+        </a>
+        <br>
+        Last development build:<br>
+        <img src="http://download.videolan.org/images/12-em-down.png" alt=""/>        
+        <a href="http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?dldev" target="_blank">Download Build 
+          <? echo file_get_contents("http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?getdevv"); ?>
+        </a>
+        <br>
+        <i>Number of downloads:
+        <? echo file_get_contents("http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php"); ?></i>
       </div>      
     </div>
     <div class="ft">
       <div class="c"></div>
     </div>
   </div>
- </div>
- <div class="panel-orange">
+  <div class="panel-orange">
     <div class="hd">
       <div class="c"></div>
     </div>
     <div class="bd">
       <div class="c">
-        <h2>Development plans</h2>
+        <h1>Development plans</h1>
         <ul class="panel-orange-bullet">
           <li>Bug finding and fixing</li>    
           <li><b>version 0.7</b>
@@ -102,6 +113,5 @@ Note that it uses some features that are not supported by VLC 0.8.6c and older.
     </div>
   </div>
  </div> 
-</div>
 
-<?php footer('$Id: skineditor.php 4459 2008-02-22 17:50 altglass$'); ?>
+<?php footer('$Id: skineditor.php 4460 2008-02-23 12:20 altglass$'); ?>

@@ -13,7 +13,7 @@
   <img src="/images/screenshots/skineditor-linux.jpg" alt="VLC Skin Editor on Ubuntu Linux" title="VLC Skin Editor on Ubuntu Linux"/>
 </div>
 
-<div id="description">
+<div id="description" style="height:200px">
 <p>
 The VLC Skin Editor aims at giving designers an easy opportunity to create skins for the VLC Media Player.
 Until now skin designers had to have knowledge of the VLC Skins2 XML System to create their skins.
@@ -22,6 +22,9 @@ Now they have an easy alternative: The <a href="http://en.wikipedia.org/wiki/WYS
 <p>
 The program is still under development and is fully compatible to VLC 0.9.0.
 Note that it uses some features that are not supported by VLC 0.8.6c and older.
+</p>
+<p>
+For support and further information turn to the <a href="http://forum.videolan.org/viewtopic.php?f=15&t=38973">forum thread about the Skin Editor</a>.
 </p>
 </div>
 
@@ -46,8 +49,8 @@ Note that it uses some features that are not supported by VLC 0.8.6c and older.
       </li>  
   </ul>
         
-  <h2>How to help</h2>
-  <p>The project needs testers who check the program for usability and identify bugs.<br>
+  <h2>How to support the project</h2>
+  <p>The project needs testers who check the program for usability and identify bugs.<br/>
   If you have knowledge of Java feel free to join the developer team. Check the
   <a href="http://trac.videolan.org/skin-designer" target="_blank">Trac page</a> for more information.</p>
 </div>
@@ -60,24 +63,26 @@ Note that it uses some features that are not supported by VLC 0.8.6c and older.
     <div class="bd">
       <div class="c">
         <h1>Download</h1>
-        <p style="font-weight:bold;color:#ef2929;">
-        This program requires the Java Runtime Environment (JRE) 6 or later. If you do not have it, download it at <a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">java.sun.com</a>.
+        <p style="color:#ef2929;">
+          This program requires the Java Runtime Environment (JRE) 6 or later.
+          If you do not have it, download it at <a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">java.sun.com</a>.
+        </p>        
+        <p>
+          The ZIP packages include the Skin Editor as a compiled JAR file that can be run on all platforms that support Java.<br/>
+          Additionally a launcher program for Windows is included as an EXE file.<br/><br/>
+          <b>Last stable build:</b><br/>
+          <img src="http://download.videolan.org/images/12-em-down.png" alt=""/>        
+          <a href="http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?dlmajor" target="_blank">Download Version 
+            <? echo file_get_contents("http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?getmajorv"); ?></a>
+          <br/><br/>
+          <b>Last development build:</b><br/>
+          <img src="http://download.videolan.org/images/12-em-down.png" alt=""/>        
+          <a href="http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?dldev" target="_blank">Download Build 
+            <? echo file_get_contents("http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?getdevv"); ?></a>
+          <br/><br/>
+          <i>Number of downloads:
+          <? echo file_get_contents("http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php"); ?></i>
         </p>
-        <br>
-        Last stable build:<br>
-        <img src="http://download.videolan.org/images/12-em-down.png" alt=""/>        
-        <a href="http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?dlmajor" target="_blank">Download Version 
-          <? echo file_get_contents("http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?getmajorv"); ?>
-        </a>
-        <br>
-        Last development build:<br>
-        <img src="http://download.videolan.org/images/12-em-down.png" alt=""/>        
-        <a href="http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?dldev" target="_blank">Download Build 
-          <? echo file_get_contents("http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?getdevv"); ?>
-        </a>
-        <br>
-        <i>Number of downloads:
-        <? echo file_get_contents("http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php"); ?></i>
       </div>      
     </div>
     <div class="ft">
@@ -93,18 +98,17 @@ Note that it uses some features that are not supported by VLC 0.8.6c and older.
         <h1>Development plans</h1>
         <ul class="panel-orange-bullet">
           <li>Bug finding and fixing</li>    
-          <li><b>version 0.7</b>
+          <li><b>Still to be done until version 0.7.0.b</b>
             <ul>
-              <li>SliderBackground Generator enhancement</li>        
-              <li>Enable/enhance duplication of Resources/Windows/Layouts/Items</li>
-
+              <li>SliderBackground generator enhancement</li>              
             </ul>
           </li>    
-          <li><b>version 0.7.*</b></li>
+          <li><b>version 0.7.*</b>
             <ul>
               <li>Enhanced online help &amp; tutorials</li>
               <li>New Layout for editing dialogs that look better on Linux</li>
             </ul>
+          </li>
         </ul>
       </div>      
     </div>
@@ -114,4 +118,4 @@ Note that it uses some features that are not supported by VLC 0.8.6c and older.
   </div>
  </div> 
 
-<?php footer('$Id: skineditor.php 4460 2008-02-23 12:20 altglass$'); ?>
+<?php footer('$Id: skineditor.php 4461 2008-02-23 12:47 altglass$'); ?>

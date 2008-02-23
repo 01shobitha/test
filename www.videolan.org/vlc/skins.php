@@ -15,7 +15,7 @@ if( isset( $_POST["skin_id"] ) && isset( $_POST["rating"] ) )
 
 $title = "VLC media player - Skins";
 $lang = "en";
-$date = "28 March 2003";
+$date = "23 February 2008";
 $menu = array( "vlc", "skins" );
 require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
@@ -187,9 +187,12 @@ pg_close( $connect );
 <?php panel_start( "blue" ); ?>
 <h1>Create your own skin!</h1>
 
-<p>If you still don't find any skin you like, why don't you
-<a href="/vlc/skins2-create.html">create a better one</a>?<br /> Don't worry,
-you don't need any programming skills... Some knowledge about graphics software
+<p>If you still don't find any skin you like, why don't you create a better one? Look at the following to get to know how to do that:<br />
+<ul class="panel-blue-bullet">
+  <li><a href="/vlc/skins2-create.html">How skins are made up</a></li>
+  <li><a href="/vlc/skineditor.php">The VLC Skin Editor (under development)</a></li>
+</ul>
+Don't worry, you don't need any programming skills... Some knowledge about graphics software
 might ease the job, though :-)<br />Need more skinning resources? Come join our <a href="http://forum.videolan.org/viewforum.php?f=15">friendly community</a> over at the VideoLAN Forums!</p>
 <?php panel_end(); ?>
 
@@ -208,4 +211,4 @@ might ease the job, though :-)<br />Need more skinning resources? Come join our 
 
 </div>
 
-<?php footer('$Id$'); ?>
+<?php footer('$Id: skins.php 4461 2008-02-23 12:47 altglass$'); ?>

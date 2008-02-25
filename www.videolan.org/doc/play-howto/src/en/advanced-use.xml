@@ -130,27 +130,27 @@ Receiving a network stream
 </title>
 
 <para>
-To receive an unicast UDP stream (sent by VLS or
-VLC's stream output), start VLC with:
+To receive an unicast RTP/UDP stream (sent by VLC's stream output),
+start VLC with:
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc  udp:[@:server_port]</userinput>
+<prompt>% </prompt><userinput>vlc rtp://[@:server_port]</userinput>
 </screen>
 
-<para>If you use the default port (1234), <userinput>vlc udp:</userinput> will do. For more information, look at the Streaming Howto</para>
+<para>If you use the default port (1234), <userinput>vlc rtp://</userinput> will do. For more information, look at the Streaming Howto</para>
 
 <para>
-To receive an multicast UDP stream (sent by VLS or
-VLC's stream output), start VLC with:
+To receive an multicast RTP/UDP stream (sent by VLC's stream output),
+start VLC with:
 </para>
 <screen>
-<prompt>% </prompt><userinput>vlc udp:@multicast_address[:server_port]</userinput>
+<prompt>% </prompt><userinput>vlc rtp://@multicast_address[:server_port]</userinput>
 </screen>
 
 <para>To receive a SSM (source specific multicast) stream, you can use:</para> 
 <screen>
-<prompt>% </prompt><userinput>vlc udp:server_address@multicast_address[:server_port]</userinput>
+<prompt>% </prompt><userinput>vlc rtp://server_address@multicast_address[:server_port]</userinput>
 </screen>
 
 <para>This only works on OSs that support SSM (Windows XP and recent Linux kernels)</para>
@@ -1026,7 +1026,7 @@ Example 2
 </title>
 
 <para> In this example, the plugin will read a
-multicast UDP stream in a dedicated video output window.
+multicast RTP/UDP stream in a dedicated video output window.
 </para>
 
 <programlisting>
@@ -1040,7 +1040,7 @@ multicast UDP stream in a dedicated video output window.
 &lt;embed type="application/x-vlc-plugin"
          name="video2"
          autoplay="no" loop="no" hidden="yes"
-         target="udp:@239.255.12.42" /&gt;
+         target="rtp://@239.255.12.42" /&gt;
 &lt;br /&gt;
   &lt;a href="javascript:;" onclick='document.video2.play()'&gt;Play video2&lt;/a&gt;
   &lt;a href="javascript:;" onclick='document.video2.stop()'&gt;Stop video2&lt;/a&gt;

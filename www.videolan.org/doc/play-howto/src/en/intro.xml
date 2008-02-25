@@ -35,8 +35,8 @@ a CD-ROM drive, ...</para></listitem>
 
 <listitem><para>from  satellite card (DVB-S),</para></listitem>
 
-<listitem><para>Several types of network stream : UDP Unicast,
-UDP Multicast (MPEG-TS), HTTP, RTP/RTSP, MMS, etc .</para></listitem>
+<listitem><para>Several types of network stream : RTP/UDP Unicast,
+RTP/UDP Multicast, HTTP, RTSP, MMS, etc .</para></listitem>
 
 <listitem><para>From acquisition or encoding cards (on GNU/Linux and
 Windows only)</para></listitem>

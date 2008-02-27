@@ -11,8 +11,18 @@
 
 
 <h2>2008</h2>
-<p>None published</p>
-<br />
+
+<dl>
+<dt>VideoLAN-SA-0802, CORE-2008-0130 (CVE-2008-0984)</dt>
+<dd>Format string injection in Vorbis, Theora, SAP and CDDA plugins. <a href="sa0702.php">Details</a></dd></p>
+</dl>
+
+<dl>
+<dt>VideoLAN-SA-0801 (CVE-2007-6681, CVE-2007-6682, CVE-2008-0295, CVE-2008-0296)</dt>
+<dd>Format string vulnerability in the Web interface. Stack-based buffer overflow in the Subtitles demuxer. String buffer overflows in the Real RTSP demuxer.
+	<a href="sa0801.php">Details</a></dd></p>
+</dl>
+
 <h2>2007</h2>
 
 <dl>

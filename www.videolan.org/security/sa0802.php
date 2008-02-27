@@ -1,24 +1,12 @@
 <?php
    $title = "VideoLAN Security Advisory 0802";
    $lang = "en";
-   $date = "February 2008";
+   $date = "27 February 2008";
    $menu = array( "vlc" );
    require($_SERVER["DOCUMENT_ROOT"]."include/header.php");
 ?>
 
 <div id="fullwidth">
-
-<p><span style="font-weight: bold;">DISCLAIMER:
-This document is work-in-progress security advisory
-of the VideoLAN project.
-It has not been approved as a security advisory.
-It does not represent the position of the VideoLAN project
-or any of its contributors.
-Citing or quoting this document otherwise may constitute
-an inappropriate misrepresentation of the VideoLAN project position
-(or lack thereof) on the covered subject.
-</span>
-</p>
 
 <h1>Security Advisory 0802</h1>
 <pre>
@@ -26,7 +14,7 @@ Summary           : Arbitrary memory overwrite in the MP4 demuxer
 Date              : 8 February 2008
 Affected versions : VLC media player 0.8.6d and earlier
 ID                : VideoLAN-SA-0802, CORE-2008-0130
-CVE reference     : CVE-2008-????
+CVE reference     : CVE-2008-0984
 </pre>
 <h2>Details</h2>
 <p>VLC media player's MPEG-4 file format parser (a.k.a. the MP4 demuxer)
@@ -73,7 +61,7 @@ are credited with the discovery of this security issue.
 </dl>
 <h2>History</h2>
 <dl>
-<dt>Pending</dt>
+<dt>27 February 2008</dt>
 <dd>VLC 0.8.6e bugfix release</dd>
 <dd>Public disclosure</dd>
 <dt>7 February 2008</dt>

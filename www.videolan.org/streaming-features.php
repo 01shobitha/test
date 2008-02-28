@@ -247,7 +247,7 @@
 <tr>
 <td class="category"><a href="http://wiki.videolan.org/index.php/container">MP4</a></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
-<td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>

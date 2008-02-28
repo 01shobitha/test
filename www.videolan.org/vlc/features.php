@@ -88,6 +88,8 @@ feature( "UDP/RTP Unicast", YES, YES, YES, YES, YES, YES, true );
 feature( "UDP/RTP Multicast", YES, YES, YES, NO, YES, YES ); 
 feature( "HTTP / FTP", YES, YES, YES, YES, YES, YES ); 
 feature( "MMS", YES, YES, YES, YES, YES, NONE ); 
+feature( "UDP/TCP Unicast", YES, YES, YES, YES, YES, YES ); 
+feature( "UDP/DCCP Unicast", NO, NO, YES, NO, NO, UNT ); 
 feature( "File", YES, YES, YES, YES, YES, YES ); 
 feature( "DVD <sup><a href=\"#input_notes\">1</a></sup>", YES, YES, YES, YES, YES, NONE );
 feature( "VCD", YES,YES, YES, NO, YES, NONE );
@@ -122,6 +124,8 @@ feature( "Raw Audio: DTS, AAC, AC3/A52", YES, YES, YES, YES, YES, YES );
 feature( "Raw DV", YES, YES, YES, YES, YES, YES );
 feature( "FLAC", YES, YES, YES, YES, YES, YES );
 feature( "FLV (Flash)", YES, YES, YES, UNT, YES, UNT );
+feature( "Standard MIDI", UNT, UNT, YES, UNT, UNT, UNT );
+feature( "Creative&trade; Voice", YES, YES, YES, YES, YES, YES );
 ?>
 </table>
 
@@ -257,6 +261,8 @@ feature( "LPCM",  YES, YES, YES, YES, YES, YES );
 feature( "AAC",  YES, YES, YES, YES, YES, YES );
 feature( "Vorbis",  YES, YES, YES, YES, YES, YES );
 feature( "WMA 1/2", YES, YES, YES, YES, YES, YES );
+feature( "Alaw/µlaw", YES, YES, YES, YES, YES, YES );
+feature( "MIDI", UNT, UNT, YES, UNT, UNT, UNT, UNT );
 ?>
 <tr>
 <td class="type">WMA 3</td>
@@ -273,7 +279,7 @@ feature("DV Audio", YES, YES, YES, YES, YES, YES );
 feature("FLAC", YES, YES, YES, YES, YES, YES );
 feature( "QDM2/QDMC (QuickTime)", YES, YES, YES, UNT, YES, UNT );
 feature( "MACE", YES, YES, YES, YES, YES, YES );
-feature( "AMR (3GPP", NO, NO , NO ,NO ,NO ,NO );
+feature( "AMR (3GPP)", NO, NO , NO ,NO ,NO ,NO );
 feature( "Real Audio <sup><a href=\"#bottom_notes\">10</a></sup>",
 	PART,PART,PART,UNT,PART,NO );
 feature( "Speex", YES, YES, YES, UNT, YES, UNT );

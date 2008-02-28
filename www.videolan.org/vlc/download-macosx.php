@@ -41,18 +41,6 @@
 <?php pkgitem( "Web Browser plugin for PowerPC",
                "0.8.6e/macosx","vlc-plugin-0.8.6e-powerpc.dmg","vlc"); ?>
 
-<h2>Last Mac OS X package for 10.3 (release 0.8.6c)</h2>
-<p><b><a href="http://www.apple.com/quicktime/download/">QuickTime 7</a> or later is recommended for best results</b></p>
-<ul>
-<li>
-<?php pkgitem_nomirr( "Last VLC Mac OS X package for 10.3 (release 0.8.6c)", "0.8.6c/macosx","vlc-0.8.6c-powerpc.dmg","vlc"); ?>
-</li>
-<li>
-<?php pkgitem_nomirr( "Last VLC Mac OS X Web Browser plugin for 10.3 (release 0.8.6c)", "0.8.6c/macosx","vlc-plugin-0.8.6c-powerpc.dmg","vlc"); ?>
-</li>
-</ul>
-
-
 <h2>Last Mac OS X package for 10.2 (release 0.8.4a)</h2>
 
 <p><b>Requires <a href="http://www.apple.com/support/downloads/quicktime652formac.html">QuickTime 6.5.2</a> or later</b></p>

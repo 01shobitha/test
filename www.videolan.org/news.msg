@@ -1,6 +1,9 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|27 February 2008| VLC media player 0.8.6e, VideoLAN Security 0801 and 0802|
+This is a bugfix release. VLC media player 0.8.6d and earlier versions suffer from security vulnerabilities in the Web interface, Subtitle demuxer, Real RTSP demuxer, SDL_image library and MP4 demuxer.<br /> Technical details are available in our advisories: <a href="http://www.videolan.org/security/sa0801.php">SA-0801</a> and <a href="http://www.videolan.org/security/sa0802.php">SA-0802</a>.<br /> The usual collection of assorted changes and improvements can be found <a href="http://trac.videolan.org/vlc/browser/tags/0.8.6e/NEWS">here</a>.<br /> This release fully supports Mac OS X 10.3.9 once again. <br />We <b>strongly</b> recommend all users to update to this new version.
+
 |30 November 2007|VLC media player 0.8.6d, VideoLAN Security Advisory 0703 | VLC media player versions 0.8.6 to 0.8.6c suffer from a security vulnerability in the ActiveX plugin. More technical details are available in our <a href="http://www.videolan.org/sa0703.html">advisory</a>.<br /> An updated release of VLC is available which includes a few other fixes as well, notably better compatibility with MacOSX 10.5 Leopard. The full list of changes can be found <a href="http://trac.videolan.org/vlc/browser/tags/0.8.6d/NEWS">here</a>.<br />We strongly recommend all users to update to this new version.<br /> Note that early and broken Win32 binaries have been distributed by third party websites. Make sure to download from an official VideoLAN mirror to avoid disappointment.
 
 |29 September 2007| VLC to remain under GPL version 2 | Future versions of VLC media player as published by VideoLAN.org will be licensed under GPL version 2 inspite of the newly released GPL version 3. See the press release <a href="/pr2007-1.html">here</a>.

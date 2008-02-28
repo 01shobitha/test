@@ -81,7 +81,7 @@
 <h2>Input</h2>
 <?php feature_table( true ); ?>
 <tr>
-<td class="category" rowspan="12"><b>Input media</b></td>
+<td class="category" rowspan="14"><b>Input media</b></td>
 
 <?php
 feature( "UDP/RTP Unicast", YES, YES, YES, YES, YES, YES, true ); 
@@ -109,7 +109,7 @@ feature( "MPEG encoder <sup><a href=\"#input_notes\">3</a></sup>", YES, NO, YES,
 </tr>
 
 <tr>
-<td class="category" rowspan="13"><b>Input formats</b></td>
+<td class="category" rowspan="15"><b>Input formats</b></td>
 <?php
 feature( "MPEG (ES,PS,TS,PVA,MP3)", YES, YES, YES, YES, YES, YES, true );
 feature( "ID3 tags", YES, YES, YES, YES, YES, YES );
@@ -251,7 +251,7 @@ feature( "ASCII Art", YES, YES, YES, UNT,YES, NO );
 
 <?php feature_table(true); ?>
 
-<tr><td class="category" rowspan="17"><b>Decoders</b></td>
+<tr><td class="category" rowspan="19"><b>Decoders</b></td>
 <?php
 feature( "MPEG Layer 1/2",YES, YES, YES, YES, YES, YES, true );
 feature( "MP3", YES, YES, YES, YES, YES, YES );

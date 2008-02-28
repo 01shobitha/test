@@ -43,7 +43,7 @@ http://videolan.kn.vutbr.cz/|Brno University of Technology|Czech Republic|cz|HTT
 #ftp://ftp.pucpr.br/videolan/|Pontifícia Universidade Católica do Paraná|Brazil|br|FTP|100
 #
 # Contact Dave Schroeder  das at doit dot wisc dot edu
-# http://mirror.services.wisc.edu/mirrors/videolan/|University of Wisconsin - Madison|USA|us|HTTP|100
+http://mirror.services.wisc.edu/mirrors/videolan/|University of Wisconsin - Madison|USA|us|HTTP|100
 #
 # Contact : Ionic, ionic at root24 dot de - 100 Mbit
 ftp://root24.eu/pub/videolan/|Root24|Germany|de|FTP|100
@@ -63,7 +63,7 @@ ftp://root24.eu/pub/videolan/|Root24|Germany|de|FTP|100
 # JAIST, JP
 # Contact Kazuhiro Fujieda: fujieda  ---  at jaist.ac dot jp 
 # 			    ftp-admin --- at  jaist.ac   dot jp
-# http://ftp.jaist.ac.jp/pub/videolan/|JAIST|Japan|jp|HTTP|100
+http://ftp.jaist.ac.jp/pub/videolan/|JAIST|Japan|jp|HTTP|100
 #
 # Yandex, Moscow, Russia
 # Contact opensource --- at --- yandex-team dot ru

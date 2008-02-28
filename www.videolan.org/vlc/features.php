@@ -124,7 +124,7 @@ feature( "Raw Audio: DTS, AAC, AC3/A52", YES, YES, YES, YES, YES, YES );
 feature( "Raw DV", YES, YES, YES, YES, YES, YES );
 feature( "FLAC", YES, YES, YES, YES, YES, YES );
 feature( "FLV (Flash)", YES, YES, YES, UNT, YES, UNT );
-feature( "Standard MIDI", UNT, UNT, YES, UNT, UNT, UNT );
+feature( "Standard MIDI", YES, YES, YES, YES, YES, YES );
 feature( "Creative&trade; Voice", YES, YES, YES, YES, YES, YES );
 ?>
 </table>

@@ -159,11 +159,12 @@ Note that only a small part of the MMS protocol is supported (MMS
 encapsulated in HTTP).</para>
 <para>Item options are the same as for the http module.</para></listitem>
 
-<listitem><para>rtp: streams over RTP. Please note that this is
-a legacy module. It doesn't allow RTSP and can only be used to stream
-TS streams. Please have a look at the <emphasis>rtp</emphasis> stream
-output module for a more compliant and complete RTP streamer.</para>
-<para>Options are the same as for the <emphasis>udp</emphasis> setting.</para></listitem>
+<listitem><para>rtp: streams over RTP
+This can only be used to stream MPEG-TS over plain RTP.
+Support for this option has been removed in VLC 0.9.0 and latter.
+You should use the <emphasis>rtp</emphasis> stream output module instead.
+<para>Options are the same as for the <emphasis>udp</emphasis> setting.</para>
+</listitem>
 
 </itemizedlist>
 </sect3>

@@ -4,43 +4,43 @@ http://downloads.videolan.org/pub/videolan/|VideoLAN primary mirror|France|fr|HT
 #
 # Contact: thedj - BW: 1GB
 # Contact2: ftpcom_at_snt.utwente.nl
-http://ftp.snt.utwente.nl/pub/software/videolan/|Twente University|Netherlands|nl|HTTP|1000
+##http://ftp.snt.utwente.nl/pub/software/videolan/|Twente University|Netherlands|nl|HTTP|1000
 #
 # Contact : mirrormaster at ircam dot fr - BW : 1 GBit
-http://mirrors.ircam.fr/pub/videolan/|IRCAM|France|fr|HTTP|1000
+##http://mirrors.ircam.fr/pub/videolan/|IRCAM|France|fr|HTTP|1000
 #
 # Contact : Emmanuel dot Blindauer at urs dot u-strasbg dot fr - BW : 1 GBit
-ftp://ftp.u-strasbg.fr/pub/videolan/|Université de Strasbourg|France|fr|FTP|1000
+##ftp://ftp.u-strasbg.fr/pub/videolan/|Université de Strasbourg|France|fr|FTP|1000
 #
 # Durga - Contact VIA - 30 Mbit
 #http://ftp2.via.ecp.fr/pub/videolan/|VIA Centrale Reseaux, École Centrale Paris|France|fr|HTTP|30
 #
 # Contact: #crans on irc.rezosup.net - 
 # Contact: roots at crans dot org
-ftp://ftp.crans.org/pub/videolan/|Cr@ns, ENS Cachan|France|fr|FTP|100
+##ftp://ftp.crans.org/pub/videolan/|Cr@ns, ENS Cachan|France|fr|FTP|100
 #
 # Contact : hsunchang at gmail dot com
-ftp://videolan.cs.pu.edu.tw/Windows/VideoLAN/|Providence University|Taiwan|tw|FTP|100
+##ftp://videolan.cs.pu.edu.tw/Windows/VideoLAN/|Providence University|Taiwan|tw|FTP|100
 #
 # Contact : erik at telia dot com - round robin 100Mbits Stockholm 100Mbits Gothenburg
 #Directory listing is disabled.
 http://ftp.endpoint.nu/pub/software/videolan/|Endpoint Corporation|Sweden|se|HTTP|200
 #
 # Contact : richard at flazdesk dot com - BW 100 Mbits - East coast
-http://mirrors.optralan.com/videolan/|Optralan|USA|us|HTTP|100
+##http://mirrors.optralan.com/videolan/|Optralan|USA|us|HTTP|100
 #
 # Contact : jason andrade - jason at aarnet dot edu dot au - BW 10Gbit (?)
 # Australian Academic and Research Network
 # http://mirror.aarnet.edu.au/pub/videolan/|AARNet|Australia|au|HTTP|10000
 #
 # Contact : zdenek bill - maser at kn dot vutbr dot cz - BW 1Gbit
-http://videolan.kn.vutbr.cz/|Brno University of Technology|Czech Republic|cz|HTTP|1000
+##http://videolan.kn.vutbr.cz/|Brno University of Technology|Czech Republic|cz|HTTP|1000
 #
 # Contact : juan dot mussini at pucpr dot br
 #ftp://ftp.pucpr.br/videolan/|Pontifícia Universidade Católica do Paraná|Brazil|br|FTP|100
 #
 # Contact Dave Schroeder  das at doit dot wisc dot edu
-http://mirror.services.wisc.edu/mirrors/videolan/|University of Wisconsin - Madison|USA|us|HTTP|100
+##http://mirror.services.wisc.edu/mirrors/videolan/|University of Wisconsin - Madison|USA|us|HTTP|100
 #
 # Contact : Ionic, ionic at root24 dot de - 100 Mbit
 ftp://root24.eu/pub/videolan/|Root24|Germany|de|FTP|100
@@ -60,8 +60,8 @@ ftp://root24.eu/pub/videolan/|Root24|Germany|de|FTP|100
 # JAIST, JP
 # Contact Kazuhiro Fujieda: fujieda  ---  at jaist.ac dot jp 
 # 			    ftp-admin --- at  jaist.ac   dot jp
-http://ftp.jaist.ac.jp/pub/videolan/|JAIST|Japan|jp|HTTP|100
+##http://ftp.jaist.ac.jp/pub/videolan/|JAIST|Japan|jp|HTTP|100
 #
 # Yandex, Moscow, Russia
 # Contact opensource --- at --- yandex-team dot ru
-http://mirror.yandex.ru/mirrors/ftp.videolan.org/|Yandex|Russia|ru|HTTP|1000
+##http://mirror.yandex.ru/mirrors/ftp.videolan.org/|Yandex|Russia|ru|HTTP|1000

@@ -12,7 +12,7 @@ Receive an unicast stream
 </title>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv udp:</userinput>
+<prompt>% </prompt><userinput>vlc -vvv rtp://</userinput>
 </screen>
 
 </sect2>
@@ -23,7 +23,7 @@ Receive a multicast stream
 </title>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv udp:@239.255.12.42</userinput>
+<prompt>% </prompt><userinput>vlc -vvv rtp://@239.255.12.42</userinput>
 </screen>
 
 <para>

@@ -174,7 +174,7 @@ Ogg/Vorbis over HTTP:
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv cdda:/dev/cdrom --sout '#transcode{acodec=vorb,ab=128}:
+<prompt>% </prompt><userinput>vlc -vvv cdda:///dev/cdrom --sout '#transcode{acodec=vorb,ab=128}:
 standard{access=http,mux=ogg,dst=server.example.org:8080}'</userinput>
 </screen>
 
@@ -282,13 +282,13 @@ on the client side: to receive the audio:
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc udp:@:1212</userinput>
+<prompt>% </prompt><userinput>vlc rtp://@:1212</userinput>
 </screen><para>
 to receive the video:
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc udp:@:1213</userinput>
+<prompt>% </prompt><userinput>vlc rtp://@:1213</userinput>
 </screen>
 
 </listitem>

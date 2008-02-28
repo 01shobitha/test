@@ -108,7 +108,7 @@ the use of IPv6 by default (ie. IPv6 is always attempted before IPv4).
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv video1.xyz --ipv6 --sout udp:[ff08::1] --ttl 12</userinput>
+<prompt>% </prompt><userinput>vlc -vvv video1.xyz --sout '#rtp{mux=ts,dst=ff08::1}' --ttl 12</userinput>
 </screen>
 
 <para>
@@ -119,7 +119,7 @@ where:
 
 <listitem><para><filename>video1.xyz</filename>
  is the file you want to stream (you can also put
-<command>dvdsimple:/dev/dvd</command> to stream a DVD or any other input
+<command>dvdsimple:///dev/dvd</command> to stream a DVD or any other input
 configuration)
 ,</para></listitem>
 
@@ -150,23 +150,11 @@ able to cross 11 routers).
 </itemizedlist>
 
 <note><para>
-Under Unix/Linux, you may have to protect the square
-brackets around the IPv6 address:
+You may have to specify the output network interface:
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv video1.xyz --ipv6 --sout udp:\[ff08::1\] --ttl 12</userinput>
-</screen>
-
-</note>
-
-<note><para>
-You may have to specify the output network
-interface:
-</para>
-
-<screen>
-<prompt>% </prompt><userinput>vlc -vvv video1.xyz --ipv6 --sout udp:[ff08::1%eth0] --ttl 12</userinput>
+<prompt>% </prompt><userinput>vlc -vvv video1.xyz --sout '#rtp{mux=ts,dst=ff02::1%eth0}' --ttl 12</userinput>
 </screen>
 
 <para>
@@ -198,12 +186,10 @@ addresses syntax is the same as that explained in the
 </sect3>
 
 <sect3><title>From the command line</title>
-<para>As for streaming, the <userinput>--ipv6</userinput> command line
-option force the use of IPv6 by default (ie. IPv6 is always attempted
-before IPv4).
+<para>IPv6 is used automatically if available (with version 0.8.6 or more).
 </para>
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv --ipv6 udp:@[ff08::1]</userinput>
+<prompt>% </prompt><userinput>vlc -vvv --ipv6 rtp://@[ff08::1]</userinput>
 </screen>
 
 <note><para>
@@ -212,7 +198,7 @@ brackets around the IPv6 address:
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv --ipv6 udp:@\[ff08::1\]</userinput>
+<prompt>% </prompt><userinput>vlc -vvv -rtp:@//\[ff08::1\]</userinput>
 </screen>
 
 </note>
@@ -222,7 +208,7 @@ You may have to specify the output network interface:
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv video1.xyz --ipv6 --sout udp:[ff08::1%eth0] --ttl 12</userinput>
+<prompt>% </prompt><userinput>vlc -vvv rtp://@[ff02::1%eth0] --ttl 12</userinput>
 </screen>
 
 <para>

@@ -20,12 +20,12 @@
 -->
 
 
-<h2>Latest Mac OS X package for 10.4 and 10.5 (release 0.8.6e)</h2>
+<h2>Latest Mac OS X package for 10.3.9, 10.4 and 10.5 (release 0.8.6e)</h2>
 
 <?php pkgitem( "Universal Binary",
                "0.8.6e/macosx","vlc-0.8.6e.dmg","vlc"); ?>
 
-<h2>Platform specific packages for 10.4 and 10.5 (release 0.8.6e)</h2
+<h2>Platform specific packages for 10.3.9, 10.4 and 10.5 (release 0.8.6e)</h2
 
 <?php pkgitem( "Intel package",
                "0.8.6e/macosx","vlc-0.8.6e-intel.dmg","vlc"); ?>
@@ -33,7 +33,7 @@
 <?php pkgitem( "PowerPC package",
                "0.8.6e/macosx","vlc-0.8.6e-powerpc.dmg","vlc"); ?>
 
-<h2>Web browser plugins for 10.4 and 10.5 (release 0.8.6e)</h2>
+<h2>Web browser plugins for 10.3.9, 10.4 and 10.5 (release 0.8.6e)</h2>
 
 <?php pkgitem( "Web Browser plugin for Intel",
                "0.8.6e/macosx","vlc-plugin-0.8.6e-intel.dmg","vlc"); ?>

@@ -163,7 +163,7 @@ encapsulated in HTTP).</para>
 This can only be used to stream MPEG-TS over plain RTP.
 Support for this option has been removed in VLC 0.9.0 and latter.
 You should use the <emphasis>rtp</emphasis> stream output module instead.
-<para>Options are the same as for the <emphasis>udp</emphasis> setting.</para>
+Options are the same as for the <emphasis>udp</emphasis> setting.</para>
 </listitem>
 
 </itemizedlist>
@@ -473,30 +473,40 @@ By default, RTCP packets are sent and received on the next port.
 
 </sect3>
 
-<sect3><title>dccp</title>
+<sect3><title>proto=</title>
 
-<para>This options uses DCCP instead of UDP as a transport protocol
-for RTP and RTCP packets.
-The server will serve as the passive side of DCCP connections.
+<para>This selects the transport protocol to carry RTP packets.
+Possible values include:
 </para>
+<itemizedlist>
 
-</sect3>
+<listitem><para><emphasis>dccp</emphasis>:
+accept incoming DCCP connections at the specified IP address (dst=),
+</para></listitem>
 
-<sect3><title>tcp</title>
+<listitem><para><emphasis>sctp</emphasis>:
+accept SCTP connections at the specified IP address (dst=),
+not implemented yet,
+</para></listitem>
 
-<para>This options uses TCP instead of UDP as the transport protocol
-for RTP and RTCP packets (using RTP framing, RFC4571).
-The server will serve as the passive side of TCP connections.
-This option is not implemented yet.
-</para>
+<listitem><para><emphasis>tcp</emphasis>:
+accept TCP connections at the specified IP address (dst=)
+and use RFC4571 RTP framing, not implemented yet,
+</para></listitem>
 
-</sect3>
+<listitem><para><emphasis>udp</emphasis>:
+send UDP packets to the specified destination
+(either unicast or multicast)
+- this is the default value,
+</para></listitem>
 
-<sect3><title>udplite</title>
+<listitem><para><emphasis>udplite</emphasis>:
+send UDP-Lite packets to the specified destination
+(either unicast or multicast).
+</para></listitem>
 
-<para>This options uses UDP-Lite instead of UDP as the transport protocol
-for RTP and RTCP packets.
-</para>
+
+</itemizedlist>
 
 </sect3>
 

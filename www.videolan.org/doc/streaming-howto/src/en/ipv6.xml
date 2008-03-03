@@ -189,7 +189,7 @@ addresses syntax is the same as that explained in the
 <para>IPv6 is used automatically if available (with version 0.8.6 or more).
 </para>
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv --ipv6 rtp://@[ff08::1]</userinput>
+<prompt>% </prompt><userinput>vlc -vvv --ipv6 rtp://@[ff08::1]:5004</userinput>
 </screen>
 
 <note><para>
@@ -198,7 +198,7 @@ brackets around the IPv6 address:
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv -rtp:@//\[ff08::1\]</userinput>
+<prompt>% </prompt><userinput>vlc -vvv -rtp:@//\[ff08::1\]:5004</userinput>
 </screen>
 
 </note>
@@ -208,7 +208,7 @@ You may have to specify the output network interface:
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv rtp://@[ff02::1%eth0] --ttl 12</userinput>
+<prompt>% </prompt><userinput>vlc -vvv rtp://@[ff02::1%eth0]:5004 --ttl 12</userinput>
 </screen>
 
 <para>

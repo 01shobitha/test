@@ -12,7 +12,7 @@ Receive an unicast stream
 </title>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv rtp://</userinput>
+<prompt>% </prompt><userinput>vlc -vvv rtp://@:5004</userinput>
 </screen>
 
 </sect2>
@@ -23,13 +23,13 @@ Receive a multicast stream
 </title>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv rtp://@239.255.12.42</userinput>
+<prompt>% </prompt><userinput>vlc -vvv rtp://@239.255.12.42:5004</userinput>
 </screen>
 
 <para>
  where <emphasis>239.255.12.42</emphasis> is the
-multicast IP address you want to join.
-
+multicast IP address you want to join,
+and <emphasis>5004</emphasis> UDP port number.
 </para>
 
 </sect2>

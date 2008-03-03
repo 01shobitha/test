@@ -274,7 +274,7 @@ on the server side:
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv input_stream --sout
-'#es{access=rtp,mux=ts,url_audio=192.168.1.2:1212,url_video=192.168.1.2:1213}'</userinput>
+'#es{access=rtp,mux=ts,url_audio=192.168.1.2:50002,url_video=192.168.1.2:50004}'</userinput>
 </screen>
 
 </listitem>
@@ -284,13 +284,13 @@ on the client side: to receive the audio:
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc rtp://@:1212</userinput>
+<prompt>% </prompt><userinput>vlc rtp://@:50002</userinput>
 </screen><para>
 to receive the video:
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc rtp://@:1213</userinput>
+<prompt>% </prompt><userinput>vlc rtp://@:50004</userinput>
 </screen>
 
 </listitem>
@@ -298,8 +298,7 @@ to receive the video:
 </itemizedlist>
 
 <para>
-Stream in multicast the video and dump the audio in
-a file:
+Stream in multicast the video and dump the audio in a file:
 </para>
 
 <screen>

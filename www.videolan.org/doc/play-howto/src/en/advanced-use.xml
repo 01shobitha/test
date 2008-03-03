@@ -135,31 +135,30 @@ start VLC with:
 </para>
 
 <screen>
-<prompt>% </prompt><userinput>vlc rtp://[@:server_port]</userinput>
+<prompt>% </prompt><userinput>vlc rtp://@:5004</userinput>
 </screen>
 
-<para>If you use the default port (1234), <userinput>vlc rtp://</userinput> will do. For more information, look at the Streaming Howto</para>
+<para>If 5004 is the port to which packets are sent.
+1234 is another commonly used port number.
+For more information, look at the Streaming Howto</para>
 
 <para>
 To receive an multicast RTP/UDP stream (sent by VLC's stream output),
 start VLC with:
 </para>
 <screen>
-<prompt>% </prompt><userinput>vlc rtp://@multicast_address[:server_port]</userinput>
+<prompt>% </prompt><userinput>vlc rtp://@multicast_address:port</userinput>
 </screen>
 
 <para>To receive a SSM (source specific multicast) stream, you can use:</para> 
 <screen>
-<prompt>% </prompt><userinput>vlc rtp://server_address@multicast_address[:server_port]</userinput>
+<prompt>% </prompt><userinput>vlc rtp://server_address@multicast_address:port</userinput>
 </screen>
 
-<para>This only works on OSs that support SSM (Windows XP and recent Linux kernels)</para>
+<para>This only works on OSs that support SSM (Windows XP and Linux)</para>
 
 <para>
-To receive a HTTP stream, start VLC with
-
-
- :</para>
+To receive a HTTP stream, start VLC with :</para>
 
 <screen>
 <prompt>% </prompt><userinput>vlc http://www.example.org/your_file.mpg</userinput>
@@ -1040,7 +1039,7 @@ multicast RTP/UDP stream in a dedicated video output window.
 &lt;embed type="application/x-vlc-plugin"
          name="video2"
          autoplay="no" loop="no" hidden="yes"
-         target="rtp://@239.255.12.42" /&gt;
+         target="rtp://@239.255.12.42:5004" /&gt;
 &lt;br /&gt;
   &lt;a href="javascript:;" onclick='document.video2.play()'&gt;Play video2&lt;/a&gt;
   &lt;a href="javascript:;" onclick='document.video2.stop()'&gt;Stop video2&lt;/a&gt;

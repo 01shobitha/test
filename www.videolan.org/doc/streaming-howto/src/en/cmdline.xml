@@ -379,35 +379,38 @@ look at the description of the VLM module for that.</para></note>
 
 <sect3><title>dst=</title>
 
-<para>This option allow to give the destination UDP address. This can
-be the address of a host or a multicast group. This option has to be
-given, unless the <emphasis>sdp=rtsp://</emphasis>option is given (see
-below). In the latter case, the stream will be sent to the host doing the
-<emphasis>RTSP</emphasis> request.</para>
-
-</sect3>
-
-<sect3><title>port=</title>
-
-<para>This option allows to set the UDP port used to send the first <emphasis>elementary stream</emphasis>. This port has to be even. Other streams will be streamed using even ports directly above this one.</para>
+<para>This option allow to give the destination IP address
+(for UDP and UDP-Lite) or the listening IP address (for DCCP, SCTP and TCP).
+It can be a host address or a multicast group address.
+</para>
 
 </sect3>
 
 <sect3><title>port-video=</title>
 
-<para>This option allows to set the UDP port used to send the first
-video <emphasis>elementary stream</emphasis>. This port has to be
-even.</para>
+<para>This option defines the port number
+the first video <emphasis>elementary stream</emphasis> will be sent to.
+This port has to be even.</para>
 
 </sect3>
 
 <sect3><title>port-audio=</title>
 
-<para>This option allows to set the UDP port used to send the first
-audio <emphasis>elementary stream</emphasis>. This port has to be
-even.</para>
+<para>This option defines the port number
+the first audio <emphasis>elementary stream</emphasis> will be sent to.
+This port has to be even.</para>
 
 </sect3>
+
+<sect3><title>port=</title>
+
+<para>This option specifies which port number
+the first other <emphasis>elementary stream</emphasis> will be sent to.
+This port has to be even.
+Other streams will be streamed using even ports directly above this one.</para>
+
+</sect3>
+
 
 <sect3><title>sdp=</title>
 

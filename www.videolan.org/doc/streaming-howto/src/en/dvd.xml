@@ -30,7 +30,7 @@ Stream a DVD with VLC
 </title>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv --color dvdsimple:///dev/dvd --sout '#rtp{mux=ts,dst=192.168.0.12}' --ttl 12 --sout-all</userinput>
+<prompt>% </prompt><userinput>vlc -vvv --color dvdsimple:///dev/dvd --sout '#rtp{mux=ts,dst=192.168.0.12,port=5004}' --ttl 12 --sout-all</userinput>
 </screen>
 
 <para>

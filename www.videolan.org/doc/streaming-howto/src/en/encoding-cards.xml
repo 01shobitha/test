@@ -66,7 +66,7 @@ feature.
 
 <screen>
 <prompt>% </prompt><userinput>vlc -vvv --color pvr:///dev/video0:norm=secam:size=720x576:frequency=576250:
-bitrate=3000000:maxbitrate=4000000 --cr-average 1000 --sout '#rtp{mux=ts,dst=192.168.0.42}' --ttl 12</userinput>
+bitrate=3000000:maxbitrate=4000000 --cr-average 1000 --sout '#rtp{mux=ts,dst=192.168.0.42,port=5004}' --ttl 12</userinput>
 </screen>
 
 <para>
@@ -175,7 +175,7 @@ Stream
 </title>
 
 <screen>
-<prompt>% </prompt><userinput>vlc -vvv --color kfir:///dev/video --sout '#rtp{mux=ts,dst=192.168.0.42}' --ttl 12</userinput>
+<prompt>% </prompt><userinput>vlc -vvv --color kfir:///dev/video --sout '#rtp{mux=ts,dst=192.168.0.42,port=5004}' --ttl 12</userinput>
 </screen>
 
 <para>where
@@ -267,7 +267,7 @@ You must add <command>--enable-v4l</command> to
 <screen>
 <!-- We cut the lines when they are too long, so that it looks OK in PDF format ! -->
 <prompt>% </prompt><userinput>vlc -vvv --color v4l:///dev/video:norm=secam:frequency=543250:size=640x480:channel=0:adev=/dev/dsp:audio=0
---sout '#transcode{vcodec=mp4v,acodec=mpga,vb=3000,ab=256,venc=ffmpeg{keyint=80,hurry-up,vt=800000},deinterlace}:std{access=udp,mux=ts,dst=239.255.12.13}' --ttl 12</userinput>
+--sout '#transcode{vcodec=mp4v,acodec=mpga,vb=3000,ab=256,venc=ffmpeg{keyint=80,hurry-up,vt=800000},deinterlace}:rtp{mux=ts,dst=239.255.12.13,port=5004}' --ttl 12</userinput>
 </screen>
 
 <note><para>You can find all transcode options on this page : <xref linkend="cmdline" endterm="tcmdline" /> .</para></note>
@@ -394,7 +394,7 @@ able to cross 11 routers).</para></listitem>
 <para>You need to install your peripherals under Windows with the appropriate drivers. Nothing else is necessary.</para>
 </sect2>
 <sect2><title>Stream with VLC in command line</title>
-<para><screen><prompt>% </prompt><userinput>C:\Program Files\VideoLAN\VLC\vlc.exe -vvv -I rc --ttl 12 dshow:// vdev="VGA USB Camera" adev="USB Camera" size="640x480" --sout=#std{mux=ts,access=udp,dst=239.255.42.12}</userinput></screen></para>
+<para><screen><prompt>% </prompt><userinput>C:\Program Files\VideoLAN\VLC\vlc.exe -vvv -I rc --ttl 12 dshow:// vdev="VGA USB Camera" adev="USB Camera" size="640x480" --sout=#rtp{mux=ts,dst=239.255.42.12,port=5004}</userinput></screen></para>
 <note>
 <para>You need to precise the complete path to find vlc program or to launch the command from the correct directory.</para>
 </note>

@@ -24,7 +24,7 @@ The program is still under development and is fully compatible to VLC 0.9.0.
 Note that it uses some features that are not supported by VLC 0.8.6c and older.
 </p>
 <p>
-For support and further information turn to the <a href="http://forum.videolan.org/viewtopic.php?f=15&t=38973">forum thread about the Skin Editor</a>.
+For tutorials and help on the usage of the Skin Editor turn to the <a href="skinedhlp">online help</a>.
 </p>
 </div>
 
@@ -100,12 +100,12 @@ For support and further information turn to the <a href="http://forum.videolan.o
           <li>Bug finding and fixing</li>    
           <li><b>Still to be done until version 0.7.0.b</b>
             <ul>
-              <li>SliderBackground generator enhancement</li>              
+              <li>SliderBackground generator enhancement</li>
+              <li>Enhanced online help &amp; tutorials</li>              
             </ul>
           </li>    
           <li><b>version 0.7.*</b>
-            <ul>
-              <li>Enhanced online help &amp; tutorials</li>
+            <ul>              
               <li>New Layout for editing dialogs that look better on Linux</li>
             </ul>
           </li>
@@ -118,4 +118,4 @@ For support and further information turn to the <a href="http://forum.videolan.o
   </div>
  </div> 
 
-<?php footer('$Id: skineditor.php 4461 2008-02-23 12:47 altglass$'); ?>
+<?php footer('$Id: skineditor.php 4498 2008-03-15 16:00 altglass$'); ?>

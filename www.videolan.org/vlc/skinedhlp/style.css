@@ -1,6 +1,6 @@
 body {
 	font-family: Calibri, Andale Sans, Verdana, Helvetica, Arial, sans-serif;
-	background: url('bg.png') repeat-x;
+	background: url('http://download.videolan.org/images/skinedhlp/bg.png') repeat-x;
 }
 h1{
 	font-family: Cambria, Garamond, Times New Romans, serif;
@@ -54,6 +54,5 @@ span.gui {
 	border-top: 1px solid #eeeeec;
 	border-left: 1px solid #eeeeec;
 	border-bottom: 1px solid #babdb6;
-	border-right: 1px solid #babdb6;
-	/*font-style: italic;*/
+	border-right: 1px solid #babdb6;	
 }

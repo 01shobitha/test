@@ -30,9 +30,9 @@ a:active {
 	text-decoration: none;
 	color: #cc0000;
 }
-p.last {
-	border-bottom: #3465a4 1px solid;
-	padding-bottom: 2px;	
+p.see {
+	border-top: #3465a4 1px solid;
+	padding-top: 2px;	
 }
 p.important {
 	color: #cc0000;

@@ -23,8 +23,8 @@ Check it out!</p>
 browsing the <a href="http://www.videolan.org/pub/vlc/">releases</a>.</p>
 
 <p> You can also see the 
-<a href="http://trac.videolan.org/vlc/browser/trunk/NEWS?format=txt">release notes</a> and the 
-<a href="http://trac.videolan.org/vlc/file/trunk/ChangeLog?format=txt">ChangeLog</a>.
+<a href="http://trac.videolan.org/vlc/browser/NEWS?format=txt">release notes</a> and the 
+<a href="http://trac.videolan.org/vlc/browser/ChangeLog?format=txt">ChangeLog</a>.
 You can also give an eye on the <a href="http://wiki.videolan.org/GetTheSource">"Get the source" wiki page</a>.</p>
 
 
@@ -158,7 +158,7 @@ This page remains here for compatibility reasons.</p>
      Up-to-date
    </td>
  <td>
-     <a href="http://trac.videolan.org/vlc/browser/trunk/INSTALL.win32?format=raw">TXT</a>
+     <a href="http://trac.videolan.org/vlc/browser/INSTALL.win32?format=raw">TXT</a>
    </td>
    <td>
      <a href="mailto:gbazin@netcourrier.com">Gildas Bazin</a> and <a href="mailto:ipkiss@videolan.org">Olivier Teuli&egrave;re</a>

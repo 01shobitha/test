@@ -33,7 +33,7 @@
 
 <h2>Getting x264</h2>
 
-<p>The latest x264 source code can always be found by anonymous <a href="http://wiki.videolan.org/Git">Git</a>repository:</p>
+<p>The latest x264 source code can always be found by anonymous <a href="http://wiki.videolan.org/Git">Git</a> repository:</p>
 
 <p><code># git clone git://git.videolan.org/x264.git</code></p>
 

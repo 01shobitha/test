@@ -50,7 +50,7 @@ For tutorials and help on the usage of the Skin Editor turn to the <a href="skin
   </ul>
         
   <h2>How to support the project</h2>
-  <p>The project needs testers who check the program for usability and identify bugs.<br/>
+  <p>The project needs developers, but especially also testers who check the program for usability and identify bugs.<br/>
   If you have knowledge of Java feel free to join the developer team. Check the
   <a href="http://trac.videolan.org/skin-designer" target="_blank">Trac page</a> for more information.</p>
 </div>

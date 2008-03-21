@@ -19,10 +19,10 @@ subscribe to the <a href="/support/lists.html">mailing-lists</a>, have
 a look at the <a href="http://trac.videolan.org/">bug-tracking      
 system</a>, join the <a href="/support/">IRC channel</a> and start to   
 code! Send your code to the developer mailing-lists under the form of   
-patches for the current <a href="http://wiki.videolan.org/Subversion">
+patches for the current <a href="http://wiki.videolan.org/Git">
 Version Controlled Sources</a>. If you often make good contributions, the  
-VideoLAN team will give you a <a href="http://wiki.videolan.org/Subversion">
-Subversion</a> write account. </p>                   
+VideoLAN team will give you a <a href="http://wiki.videolan.org/Git">
+Git</a> write account. </p>                   
 
 <p> If you have time but no programming skills, you can help with the   
 documentation, the translation of the VLC interface and the VideoLAN    

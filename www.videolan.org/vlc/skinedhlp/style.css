@@ -1,6 +1,7 @@
 body {
 	font-family: Calibri, Andale Sans, Verdana, Helvetica, Arial, sans-serif;
 	background: url('http://download.videolan.org/images/skinedhlp/bg.png') repeat-x;
+	font-size:12pt;
 }
 h1{
 	font-family: Cambria, Garamond, Times New Romans, serif;
@@ -34,6 +35,11 @@ p.see {
 	border-top: #3465a4 1px solid;
 	padding-top: 2px;	
 }
+p.license {
+	border-top: #3465a4 1px solid;
+	padding-top: 2px;	
+	font-size:10pt;
+}
 p.important {
 	color: #cc0000;
 	font-weight: bold;
@@ -41,7 +47,7 @@ p.important {
 p.footer {	
 	border-top: #3465a4 1px solid;
 	padding-top: 1px;
-	font-size:10px;
+	font-size:8pt;
 	color: #3465a4;	
 }
 div.header {

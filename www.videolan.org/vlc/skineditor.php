@@ -70,10 +70,15 @@ For tutorials and help on the usage of the Skin Editor turn to the <a href="skin
         <p>
           The ZIP packages include the Skin Editor as a compiled JAR file that can be run on all platforms that support Java.<br/>
           Additionally a launcher program for Windows is included as an EXE file.<br/><br/>
-          <b>Last stable build:</b><br/>
+          <b>Last official release:</b><br/>
+          <s>
           <img src="http://download.videolan.org/images/12-em-down.png" alt=""/>        
           <a href="http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?dlmajor" target="_blank">Download Version 
             <? echo file_get_contents("http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?getmajorv"); ?></a>
+          </s><br>
+          <span style="color:#ef2929">
+          The last official release contains major bugs, please use the development build instead.
+          </span>
           <br/><br/>
           <b>Last development build:</b><br/>
           <img src="http://download.videolan.org/images/12-em-down.png" alt=""/>        

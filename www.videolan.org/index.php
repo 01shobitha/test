@@ -20,6 +20,18 @@
   <a href="/project">Learn more</a> about the VideoLAN project.</p>
   <p>Our main product is the cross-platform VLC media player.</p>
 
+  <h2>About VLC media player</h2>
+  <p> VLC media player is a highly portable
+  <strong>multimedia player</strong> for various audio and video
+  formats (MPEG-1, MPEG-2, MPEG-4, DivX, mp3, ogg, ...) as well
+  as <strong>DVD</strong>s, <strong>VCD</strong>s, and various
+  <strong>streaming</strong> protocols.<br /> It can also be used as a
+  <a href="/vlc/streaming.html">server to stream</a> in unicast or
+  <strong>multicast</strong> in IPv4 or
+  <strong>IPv6</strong> on a high-bandwidth network.<br />
+  It doesn't need any external codec or program to work.</p>
+
+
     <h2><a href="http://www.videolan.org/videolan-news.rss"><img src="http://download.videolan.org/images/icons/rss-feed.gif" alt="RSS 1.0" /> News subscription</a></h2>
     <div>
       <?php shownews("full",5); ?>

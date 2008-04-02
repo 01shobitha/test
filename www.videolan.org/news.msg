@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|2 April 2008|VLC media player 0.8.6f release|We are pleased to announce the release of VLC media player 0.8.6f.<br />This is a bugfix release. VLC media player 0.8.6e and earlierversions suffer from security vulnerabilities in the Subtitle demuxer,Real RTSP demuxer, MP4 demuxer and Cinepak codec.<br />This release also includes improved video output on multi-screen setupsrunning Mac OS X and compatibility with Windows 9x/ME has been restored.<br />We strongly recommend all users to update to this new version.
+
 |20 March 2008| Google Summer of Code 2008|As some of you might have noticed, VideoLAN has been accepted as an official mentoring organisation for <a href="http://code.google.com/soc/2008">Google's 2008 edition of Summer of Code</a>. Official student applications will be begin on the 24th and will last until the 31th. Students can apply for <a href="http://wiki.videolan.org/SoC_2008">VLC related projects</a> and <a href="http://wiki.videolan.org/SoC_x264">x264 related projects</a>. Feel free to drop by on IRC or e-mail the vlc-devel@ mailing list if you have any questions.<br/><b>Update:</b> The application deadline has been extended to the 7th of April by the Google folks.
 
 |27 February 2008| VLC media player 0.8.6e, VideoLAN Security 0801 and 0802|

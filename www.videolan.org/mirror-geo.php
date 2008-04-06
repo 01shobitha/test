@@ -11,13 +11,13 @@ if( !isset( $file ) ) { die; }
 
 if( !isset( $mirror ) )
 {
-
   require $_SERVER["DOCUMENT_ROOT"]."/include/continents.php";
 
   $code = apache_note("GEOIP_COUNTRY_CODE");
   $name = apache_note("GEOIP_COUNTRY_NAME");
+  echo "Your country is: $code ($name)\n";
   $continent = $continents[$code];
-echo "$code : $name\n";
+  echo "Your continent is: $continent\n";
 
   $listfile = $_SERVER["DOCUMENT_ROOT"]."/include/mirrors";
   $fp = fopen( $listfile, "r" );
@@ -27,16 +27,16 @@ echo "$code : $name\n";
   array_pop( $mirrors );
 
   /* Country */
-  $cbw = 0;
-  $ccount = 0;
+  $cbw = 0;    /* Available bandwidth in country */
+  $ccount = 0; /* Number of mirrors in country */
 
   /* Continent */
-  $Cbw = 0;
-  $Ccount = 0;
+  $Cbw = 0;    /* Available bandwidth in continent */
+  $Ccount = 0; /* Number of mirrors in continent */
 
   /* Total */
-  $tbw = 0;
-  $tcount = 0;
+  $tbw = 0;    /* Total available bandwidth */
+  $tcount = 0; /* Number of mirrors */
 
   foreach( $mirrors as $mirror )
   {
@@ -59,19 +59,24 @@ echo "$code : $name\n";
     $tbw += $bw;
   }
 
-  $r = rand(0,1000000)/1000000.;
+  $r = rand(0,1000000)/1000000.; /* Random value between 0 and 1 used to choose
+                                  * the mirror. */
 
-  $cweight = 50;
-  $Cweight = 10;
-  $tweight = 1;
-  $threshold = 4;
+  $cweight = 50; /* Weight used for mirrors in the same country */
+  $Cweight = 10; /* Weight used for mirrors in the same continent */
+  $tweight = 1;  /* Weight used for other mirrors */
+
+  $threshold = 4; /* Number of mirrors needed in a given country or continent
+                   * before we discard all the other mirrors */
   if( $ccount >= $threshold ) $Cweight = 0;
   if( $Ccount >= $threshold ) $tweight = 0;
 
-  $dbw = $cweight * $cbw + $Cweight * ( $Cbw - $cbw ) + $tweight * ( $tbw - $cbw - $Cbw );
+  $dbw = $cweight * $cbw + $Cweight * ( $Cbw - $cbw ) + $tweight * ( $tbw - $cbw - $Cbw ); /* Weight adjusted bandwidth */ 
+
   foreach( $mirrors as $mirror )
   {
     if( substr( $mirror, 0, 1 ) == "#" ) continue;
+
     $ex=explode("|",$mirror);
     $mirror_url = $ex[0];
     $mirror_name = $ex[1];
@@ -79,6 +84,8 @@ echo "$code : $name\n";
     $country_short = $ex[3];
     $bw = $ex[5];
     $COUNTRY_SHORT = strtoupper( $country_short );
+
+    /* Get the current mirror's probability of being choosen */
     if( $COUNTRY_SHORT == $code )
     {
       $p = $cweight * $bw / $dbw;
@@ -92,16 +99,23 @@ echo "$code : $name\n";
       $p = $tweight * $bw / $dbw;
     }
     echo "$mirror_name, $country: $p\n";
-    if( $r > 0 )
+
+    /* Substract the mirror's probability to our random value. If we cross
+     * O then we've found our lucky winner */
+    $r -= $p;
+    if( $r <= 0 )
     {
-      $r -= $p;
-      if( $r <= 0 )
-      {
-        echo "This one.\n";
-        break;
-      }
+      echo "This one.\n";
+      break;
     }
   }
+}
+else
+{
+  /* TODO: we could get the mirror name and country but that requires parsing
+   * the mirrors list */
+  $mirror_name = "Forced mirror";
+  $country = "N/A";
 }
 ?>
 -->

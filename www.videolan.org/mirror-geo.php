@@ -116,7 +116,7 @@ echo "$code : $name\n";
  </head>
  <body>
   <p>Downloading from <?php echo $mirror_name; ?>, <?php echo $country; ?>. Click <a href="<?php echo $mirror_url.$file ?>">here</a> if your download doesn't start. Refresh the page to download from another mirror.</p>
-  <p>If you want to put a direct download link on your website, please use <?php echo "http://www.videolan.org/mirror-geo.php?file=$file.<br />Please don't use a direct link. This script allows us to distribute the network load across our mirrors. Thanks."; ?> </p>
+  <p>If you want to put a direct download link on your website, please use <?php echo "http://www.videolan.org/mirror-geo.php?file=$file"; ?> .<br />Please don't use a direct link. This script allows us to distribute the network load across our mirrors. Thanks. </p>
  </body>
 </html>
 

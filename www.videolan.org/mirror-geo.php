@@ -89,10 +89,7 @@ echo "$code : $name\n";
     {
       $p = $tweight * $bw / $dbw;
     }
-    echo $mirror_name;
-    echo ": ";
-    echo $p;
-    echo "\n";
+    echo "$mirror_name, $country: $p\n";
     if( $r > 0 )
     {
       $r -= $p;

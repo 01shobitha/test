@@ -1,3 +1,5 @@
+<!-- Location based randomisation -->
+<!--
 <?php
 
 $mirror = $_GET["mirror"];
@@ -13,6 +15,7 @@ if( !isset( $mirror ) )
   $code = apache_note("GEOIP_COUNTRY_CODE");
   $name = apache_note("GEOIP_COUNTRY_NAME");
   $continent = $continents[$code];
+echo "$code : $name\n";
 
   $listfile = $_SERVER["DOCUMENT_ROOT"]."/include/mirrors";
   $fp = fopen( $listfile, "r" );
@@ -86,17 +89,23 @@ if( !isset( $mirror ) )
     {
       $p = $tweight * $bw / $dbw;
     }
+    echo $mirror_name;
+    echo ": ";
+    echo $p;
+    echo "\n";
     if( $r > 0 )
     {
       $r -= $p;
       if( $r <= 0 )
       {
+        echo "This one.\n";
         break;
       }
     }
   }
 }
 ?>
+-->
 
 <!-- Web page -->
 

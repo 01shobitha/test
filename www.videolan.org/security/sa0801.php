@@ -30,7 +30,7 @@ CVE references    : CVE-2007-6681, CVE-2007-6682, CVE-2008-0295, CVE-2008-0296
 <p>Exploitation of the Web interface problem requires the user to explicitly enable this interface. It is disabled by default.</p>
 <p>Subtitle files can be manually opened by the user or automatically based on the filename of the movie. Both ways may lead to exploitation of the Subtitle Parser's buffer-overflow.
 </p>
-<p>Exploitation of the Real RTSP problems requires the user to explicitly open streams provided by maliciously third parties.</p>
+<p>Exploitation of the Real RTSP problems requires the user to explicitly open streams provided by malicious third parties.</p>
 <h2>Workarounds</h2>
 <p>The user may refrain from using the Web interface until an update is installed or limit its usage to secure environments. VLC media player can also be controlled remotely through the RC and telnet interfaces.
 </p>

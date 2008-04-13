@@ -1,7 +1,7 @@
 <?php
    $title = "VideoLAN Security Advisory 0803";
    $lang = "en";
-   $date = "4 April 2008";
+   $date = "13 April 2008";
    $menu = array( "vlc" );
    require($_SERVER["DOCUMENT_ROOT"]."include/header.php");
 ?>
@@ -11,7 +11,7 @@
 <h1>Security Advisory 0803</h1>
 <pre>
 Summary           : Buffer overflows in multiple modules
-Date              : April 2008
+Date              : 13 April 2008
 Affected versions : VLC media player 0.8.6e and earlier
 ID                : VideoLAN-SA-0803
 CVE reference     : CVE-2008-0073, CVE-2008-1489
@@ -50,7 +50,7 @@ usability fixes.
 <dd>VLC 0.8.6f bugfix release</dd>
 <dt>March 2008</dt>
 <dd>Source code fixes for VLC 0.8.6f and development tree</dd>
-<dd>Vulnerity reports</dd>
+<dd>Vulnerability reports</dd>
 </dl>
 
 <address>Felix Paul K&uuml;hne,<br />

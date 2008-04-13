@@ -13,7 +13,7 @@
 Summary           : Format string vulnerability in the Web interface
                     Stack-based buffer overflow in the Subtitles demuxer
                     String buffer overflows in the Real RTSP demuxer
-Date              : 27 February 2008
+Date              : 27 February 2008, 2 April 2008
 Affected versions : VLC media player 0.8.6d and earlier
 ID                : VideoLAN-SA-0801
 CVE references    : CVE-2007-6681, CVE-2007-6682, CVE-2008-0295, CVE-2008-0296
@@ -38,7 +38,7 @@ CVE references    : CVE-2007-6681, CVE-2007-6682, CVE-2008-0295, CVE-2008-0296
 <p>The user is asked to only open Real RTSP streams from trusted content providers. In case of uncertainess, it is recommended not to open this kind of streams. RTSP streams can easily be identified by the <code>rtsp</code> prefix of their URL/MRL.</p>
 <h2>Solution</h2>
 <p>VLC media player 0.8.6e addresses these issues and introduces further
-usability fixes.
+usability fixes. Version 0.8.6f implements additional security improvements to the Subtitle Parser.
 </p>
 <p>Pre-compiled packages will be available at the usual download locations shortly.
 </p>
@@ -61,6 +61,8 @@ usability fixes.
 </dl>
 <h2>History</h2>
 <dl>
+<dt>2 April 2008</dt>
+<dd>VLC 0.8.6f bugfix release</dd>
 <dt>27 February 2008</dt>
 <dd>VLC 0.8.6e bugfix release</dd>
 <dt>20 January 2008</dt>

@@ -13,7 +13,7 @@
 <h2>2008</h2>
 
 <dl>
-<dt>VideoLAN-SA-0803 (CVE-2008-0073, CVE-2008-1489)</dt>
+<dt>VideoLAN-SA-0803 (CVE-2008-0073, CVE-2008-1489, CVE-2008-1768, CVE-2008-1769)</dt>
 <dd>Arbitrary memory overwrite vulnerabilities in multiple modules:
 Real RTSP demuxer, MP4 demuxer, Cinepak decoder. <a href="sa0803.html">Details</a></dd></p>
 </dl>

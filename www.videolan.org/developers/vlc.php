@@ -19,7 +19,7 @@ Check it out!</p>
 <h2>Get VLC Sourcecode</h2>
 
 <p><code>VLC</code> is available through 
-<a href="http://wiki.videolan.org/Subversion">Subversion</a> or by
+<a href="http://wiki.videolan.org/Git">Git</a> or by
 browsing the <a href="http://www.videolan.org/pub/vlc/">releases</a>.</p>
 
 <p> You can also see the 
@@ -33,7 +33,7 @@ You can also give an eye on the <a href="http://wiki.videolan.org/GetTheSource">
 <p>VLC media player is a fast changing and ever evolving project. It is very important to keep up to date with the latest developments.<br /> 
 Therefore we advise everyone who makes changes to the VLC sourcecode, to sign up with the vlc-devel <a href="lists.html">Mailinglist</a> so you can keep up with the latest changes and developments.</p>
 <p>Please try to keep to our <a href="http://wiki.videolan.org/Code_Conventions">code conventions</a>. They are very simple and help to keep all code readable. When you write new stuff please comment it heavily or add doxygen documentation for your sources.</p>
-<p>New code can be submitted to the vlc-devel mailinglist and will be evaluated for inclusion to the SVN tree. You should put <code>[PATCH]</code> in your subject header. All patches need to be against the HEAD <a href="http://wiki.videolan.org/Subversion">SVN tree</a>. You can create them by running <code>svn diff</code> in the VLC source directory.</p>
+<p>New code can be submitted to the vlc-devel mailinglist and will be evaluated for inclusion to the Git tree. You should put <code>[PATCH]</code> in your subject header. All patches need to be against the master head, you could follow <a href="http://wiki.videolan.org/Git#Submitting_patches_to_the_vlc-devel">those instructions</a>.</p>
 <p>Before you start be sure to read the HACKING file in the main VLC source directory, some of the documentation listed below.</p>
 
 <h2>Developer Documentation</h2>
@@ -65,6 +65,7 @@ been moved to the
    </td>
 </tr>
 
+<!-- disabled: broken links
 <tr>
   <td class="category">VLC developer documentation</td>
    <td class="partial">
@@ -81,6 +82,7 @@ been moved to the
 href="mailto:sam@videolan.org">Samuel Hocevar</a>
    </td>
 </tr>
+                                                             -->
 
 <tr>
   <td class="category">Localization stats &amp; Translations</td>
@@ -117,7 +119,7 @@ This page remains here for compatibility reasons.</p>
      Up-to-date
    </td>
   <td>
-     <a href="http://wiki.videolan.org/index.php/VideolanStringGuidelines">Wiki</a>
+     <a href="http://wiki.videolan.org/VideolanStringGuidelines">Wiki</a>
    </td>
    <td>
      <a href="mailto:hartman_@_videolan_dot_org">Derk-Jan Hartman</a>
@@ -273,7 +275,7 @@ audio decoder<br />
 
 <a href="http://www.xiph.org/">libtheora</a> - a Theora video decoder<br />
 
-<a href="http://faac.sourceforge.net/">libfaad2</a> - an AAC audio decoder<br />
+<a href="http://www.audiocoding.com/">libfaad2</a> - an AAC audio decoder<br />
 
 <a href="http://libdv.sourceforge.net">libdv</a> - a DV video decoder
 (deprecated in favor of libavcodec)<br />

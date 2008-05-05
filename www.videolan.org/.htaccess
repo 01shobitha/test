@@ -57,7 +57,7 @@ Redirect /vlc/download-mandrake.html http://www.videolan.org/vlc/download-mandri
 RewriteRule ^vlc/partners.html /partners.html [R=permanent,L]
 
 # Features
-#RewriteRule ^vlc/features(.*)$ http://wiki.videolan.org/index.php/VLCFeatures [R=permanent,L]
+#RewriteRule ^vlc/features(.*)$ http://wiki.videolan.org/VLCFeatures [R=permanent,L]
 RewriteRule ^vlc/beos.html$ /vlc/features.html [R=permanent,L]
 RewriteRule ^vlc/linux.html$ /vlc/features.html [R=permanent,L]
 RewriteRule ^vlc/macosx.html$ /vlc/features.html [R=permanent,L]

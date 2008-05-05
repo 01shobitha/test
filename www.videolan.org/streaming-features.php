@@ -50,7 +50,7 @@
 
 <td class="category" rowspan="8"><b>Output</b></td>
 
-<td class="type"><a href="http://wiki.videolan.org/index.php/RTP">RTP</a>/UDP</td>
+<td class="type"><a href="http://wiki.videolan.org/RTP">RTP</a>/UDP</td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -62,7 +62,7 @@
 
 <tr>
 
-<td class="type"><a href="http://wiki.videolan.org/index.php/RTSP">RTSP</a></td>
+<td class="type"><a href="http://wiki.videolan.org/RTSP">RTSP</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -74,7 +74,7 @@
 
 <tr>
 
-<td class="type">RTP/<a href="http://wiki.videolan.org/index.php/DCCP">DCCP</a></td>
+<td class="type">RTP/<a href="http://wiki.videolan.org/DCCP">DCCP</a></td>
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -86,7 +86,7 @@
 
 <tr>
 
-<td class="type"><a href="http://wiki.videolan.org/index.php/UDP">Raw UDP</a></td>
+<td class="type"><a href="http://wiki.videolan.org/UDP">Raw UDP</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -99,7 +99,7 @@
 <tr>
 
 <td class="type">(RTP or raw)
- <a href="http://wiki.videolan.org/index.php/multicast">Multicast</a></td>
+ <a href="http://wiki.videolan.org/multicast">Multicast</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -123,7 +123,7 @@
 
 <tr>
 
-<td class="type"><a href="http://wiki.videolan.org/index.php/HTTP">HTTP</a></td>
+<td class="type"><a href="http://wiki.videolan.org/HTTP">HTTP</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -135,7 +135,7 @@
 
 <tr>
 
-<td class="type"><a href="http://wiki.videolan.org/index.php/MMSH">MMSH</a></td>
+<td class="type"><a href="http://wiki.videolan.org/MMSH">MMSH</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -171,7 +171,7 @@
 
 <tr>
 
-<td class="type">Send <a href="http://wiki.videolan.org/index.php/SAP">SAP</a> announces</td>
+<td class="type">Send <a href="http://wiki.videolan.org/SAP">SAP</a> announces</td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -201,15 +201,15 @@
 
 <tr>
 <td></td>
-<td class="matrixhead"><a href="http://wiki.videolan.org/index.php/UDP">UDP</a></td>
-<td class="matrixhead"><a href="http://wiki.videolan.org/index.php/RTP">RTP</a></td>
-<td class="matrixhead"><a href="http://wiki.videolan.org/index.php/HTTP">HTTP</a></td>
-<td class="matrixhead"><a href="http://wiki.videolan.org/index.php/protocol">MMSH</a></td>
+<td class="matrixhead"><a href="http://wiki.videolan.org/UDP">UDP</a></td>
+<td class="matrixhead"><a href="http://wiki.videolan.org/RTP">RTP</a></td>
+<td class="matrixhead"><a href="http://wiki.videolan.org/HTTP">HTTP</a></td>
+<td class="matrixhead"><a href="http://wiki.videolan.org/protocol">MMSH</a></td>
 <td class="matrixhead">File</td>
 </tr>
 
 <tr>
-<td class="category"><a href="http://wiki.videolan.org/index.php/container">PS</a></td>
+<td class="category"><a href="http://wiki.videolan.org/container">PS</a></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -218,7 +218,7 @@
 </tr>
 
 <tr>
-<td class="category"><a href="http://wiki.videolan.org/index.php/container">TS</a></td>
+<td class="category"><a href="http://wiki.videolan.org/container">TS</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -227,7 +227,7 @@
 </tr>
 
 <tr>
-<td class="category"><a href="http://wiki.videolan.org/index.php/container">Ogg</a></td>
+<td class="category"><a href="http://wiki.videolan.org/container">Ogg</a></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -236,7 +236,7 @@
 </tr>
 
 <tr>
-<td class="category"><a href="http://wiki.videolan.org/index.php/ASF">ASF</a></td>
+<td class="category"><a href="http://wiki.videolan.org/ASF">ASF</a></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -245,7 +245,7 @@
 </tr>
 
 <tr>
-<td class="category"><a href="http://wiki.videolan.org/index.php/container">MP4</a></td>
+<td class="category"><a href="http://wiki.videolan.org/container">MP4</a></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
@@ -254,7 +254,7 @@
 </tr>
 
 <tr>
-<td class="category"><a href="http://wiki.videolan.org/index.php/container">QuickTime</a></td>
+<td class="category"><a href="http://wiki.videolan.org/container">QuickTime</a></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
@@ -272,7 +272,7 @@
 </tr>
 
 <tr>
-<td class="category"><a href="http://wiki.videolan.org/index.php/MPJPEG">MPJPEG</a></td>
+<td class="category"><a href="http://wiki.videolan.org/MPJPEG">MPJPEG</a></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="partial"><img src="/images/features/partial.png" alt="" />SVN only</td>
@@ -293,20 +293,20 @@
 <tr>
 <td></td>
 <td></td>
-<td class="matrixhead"><a href="http://wiki.videolan.org/index.php/container">PS</a></td>
-<td class="matrixhead"><a href="http://wiki.videolan.org/index.php/container">TS</a></td>
-<td class="matrixhead"><a href="http://wiki.videolan.org/index.php/container">Ogg</a></td>
-<td class="matrixhead"><a href="http://wiki.videolan.org/index.php/ASF">ASF</a></td>
-<td class="matrixhead"><a href="http://wiki.videolan.org/index.php/container">MP4</a></td>
-<td class="matrixhead"><a href="http://wiki.videolan.org/index.php/container">MOV</a></td>
-<td class="matrixhead"><a href="http://wiki.videolan.org/index.php/MPMJPEG">MPMJPEG</a></td>
-<td class="matrixhead"><a href="http://wiki.videolan.org/index.php/RTP">RTP</a></td>
+<td class="matrixhead"><a href="http://wiki.videolan.org/container">PS</a></td>
+<td class="matrixhead"><a href="http://wiki.videolan.org/container">TS</a></td>
+<td class="matrixhead"><a href="http://wiki.videolan.org/container">Ogg</a></td>
+<td class="matrixhead"><a href="http://wiki.videolan.org/ASF">ASF</a></td>
+<td class="matrixhead"><a href="http://wiki.videolan.org/container">MP4</a></td>
+<td class="matrixhead"><a href="http://wiki.videolan.org/container">MOV</a></td>
+<td class="matrixhead"><a href="http://wiki.videolan.org/MPMJPEG">MPMJPEG</a></td>
+<td class="matrixhead"><a href="http://wiki.videolan.org/RTP">RTP</a></td>
 <td class="matrixhead">Raw</td>
 </tr>
 
 <tr>
 <td class="category" rowspan="9"><b>Video formats</b></td>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">MPEG-1 video</a></td>
+<td class="type"><a href="http://wiki.videolan.org/Codec">MPEG-1 video</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -319,7 +319,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">MPEG-2 video</a></td>
+<td class="type"><a href="http://wiki.videolan.org/Codec">MPEG-2 video</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -332,7 +332,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">MPEG-4 video</a></td>
+<td class="type"><a href="http://wiki.videolan.org/Codec">MPEG-4 video</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -345,7 +345,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">DivX 1/2/3 video</a></td>
+<td class="type"><a href="http://wiki.videolan.org/Codec">DivX 1/2/3 video</a></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /><sup><a href="#muxer_notes">1</a></sup></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -358,7 +358,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">WMV 1/2</a></td>
+<td class="type"><a href="http://wiki.videolan.org/Codec">WMV 1/2</a></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /><sup><a href="#muxer_notes">1</a></sup></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -371,7 +371,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">H/I 263</a></td>
+<td class="type"><a href="http://wiki.videolan.org/Codec">H/I 263</a></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /><sup><a href="#muxer_notes">1</a></sup></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
@@ -384,7 +384,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">MJPEG</a></td>
+<td class="type"><a href="http://wiki.videolan.org/Codec">MJPEG</a></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /><sup><a href="#muxer_notes">1</a></sup></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -397,7 +397,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">Theora</a></td>
+<td class="type"><a href="http://wiki.videolan.org/Codec">Theora</a></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -410,7 +410,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">H.264/MPEG-4 AVC</a></td>
+<td class="type"><a href="http://wiki.videolan.org/Codec">H.264/MPEG-4 AVC</a></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
@@ -425,7 +425,7 @@
 
 <tr>
 <td class="category" rowspan="8"><b>Audio formats</b></td>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">MPEG Layer 1/2/3 audio</a></td>
+<td class="type"><a href="http://wiki.videolan.org/Codec">MPEG Layer 1/2/3 audio</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -438,7 +438,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">AC3 (i.e. A52)</a></td>
+<td class="type"><a href="http://wiki.videolan.org/Codec">AC3 (i.e. A52)</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -451,7 +451,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Advanced+Audio+Coding">MPEG-4 audio (i.e. AAC)</a></td>
+<td class="type"><a href="http://wiki.videolan.org/Advanced+Audio+Coding">MPEG-4 audio (i.e. AAC)</a></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
@@ -464,7 +464,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">Vorbis</a></td>
+<td class="type"><a href="http://wiki.videolan.org/Codec">Vorbis</a></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -477,7 +477,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">Speex</a></td>
+<td class="type"><a href="http://wiki.videolan.org/Codec">Speex</a></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -490,7 +490,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">FLAC</a></td>
+<td class="type"><a href="http://wiki.videolan.org/Codec">FLAC</a></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -503,7 +503,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">PCM</a> (Wave)</td>
+<td class="type"><a href="http://wiki.videolan.org/Codec">PCM</a> (Wave)</td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
@@ -516,7 +516,7 @@
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">µ-law/A-law</a></td>
+<td class="type"><a href="http://wiki.videolan.org/Codec">µ-law/A-law</a></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
@@ -541,85 +541,85 @@
 
 <tr>
 <td class="category" rowspan="8"><b>Video formats</b></td>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">MPEG-1 video</a></td>
+<td class="type"><a href="http://wiki.videolan.org/Codec">MPEG-1 video</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">MPEG-2 video</a></td>
+<td class="type"><a href="http://wiki.videolan.org/Codec">MPEG-2 video</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">MPEG-4 video</a></td>
+<td class="type"><a href="http://wiki.videolan.org/Codec">MPEG-4 video</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">DivX 1/2/3 video</a></td>
+<td class="type"><a href="http://wiki.videolan.org/Codec">DivX 1/2/3 video</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">WMV 1/2</a></td>
+<td class="type"><a href="http://wiki.videolan.org/Codec">WMV 1/2</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">H/I 263</a></td>
+<td class="type"><a href="http://wiki.videolan.org/Codec">H/I 263</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">MJPEG</a></td>
+<td class="type"><a href="http://wiki.videolan.org/Codec">MJPEG</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">Theora</a></td>
+<td class="type"><a href="http://wiki.videolan.org/Codec">Theora</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 
 <tr>
 <td class="category" rowspan="8"><b>Audio formats</b></td>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">MPEG Layer 2 audio</a></td>
+<td class="type"><a href="http://wiki.videolan.org/Codec">MPEG Layer 2 audio</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">MPEG Layer 3 audio</a></td>
+<td class="type"><a href="http://wiki.videolan.org/Codec">MPEG Layer 3 audio</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /><sup><a href="#possible_notes">2</a></sup></td>
 </tr>
 
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">AC3 (i.e. A52)</a></td>
+<td class="type"><a href="http://wiki.videolan.org/Codec">AC3 (i.e. A52)</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Advanced+Audio+Coding">MPEG-4 audio (i.e. AAC)</a></td>
+<td class="type"><a href="http://wiki.videolan.org/Advanced+Audio+Coding">MPEG-4 audio (i.e. AAC)</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /><sup><a href="#possible_notes">3</a></sup></td>
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">Vorbis/Speex</a></td>
+<td class="type"><a href="http://wiki.videolan.org/Codec">Vorbis/Speex</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">FLAC</a></td>
+<td class="type"><a href="http://wiki.videolan.org/Codec">FLAC</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">PCM</a></td>
+<td class="type"><a href="http://wiki.videolan.org/Codec">PCM</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Codec">µ-law/A-law</a></td>
+<td class="type"><a href="http://wiki.videolan.org/Codec">µ-law/A-law</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
@@ -748,7 +748,7 @@
 <tr>
 
 <td class="category" rowspan="2"><b>Input formats</b></td>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Container">TS</a></td>
+<td class="type"><a href="http://wiki.videolan.org/Container">TS</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -757,7 +757,7 @@
 
 <tr>
 
-<td class="type"><a href="http://wiki.videolan.org/index.php/Container">PS</a></td>
+<td class="type"><a href="http://wiki.videolan.org/Container">PS</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -768,7 +768,7 @@
 <tr>
 
 <td class="category" rowspan="1"><b>Output format</b></td>
-<td class="type"><a href="http://wiki.videolan.org/index.php/Container">TS</a></td>
+<td class="type"><a href="http://wiki.videolan.org/Container">TS</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -797,7 +797,7 @@
 <tr>
 
 <td class="category" rowspan="4"><b>Misc</b></td>
-<td class="type"><a href="http://wiki.videolan.org/index.php/IP">IPv6</a></td>
+<td class="type"><a href="http://wiki.videolan.org/IP">IPv6</a></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
@@ -815,7 +815,7 @@
 
 <tr>
 
-<td class="type">Send <a href="http://wiki.videolan.org/index.php/SAP">SAP</a> announces</td>
+<td class="type">Send <a href="http://wiki.videolan.org/SAP">SAP</a> announces</td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="/images/features/cross.png" alt="No" /></td>

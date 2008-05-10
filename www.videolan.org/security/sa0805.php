@@ -65,6 +65,7 @@ untrusted content, such as directories writeable by untrusted users.
 <dt>?? May 2008</dt>
 <dd>VLC 0.8.6g bugfix release</dd>
 <dt>10 May 2008</dt>
+<dd>Patch applied to VLC development tree</dd>
 <dd>Patch provided against VLC 0.8.6 source code</dd>
 <dd>Ticket opened</dd>
 </dl>

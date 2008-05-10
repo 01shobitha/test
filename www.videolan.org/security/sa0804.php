@@ -25,9 +25,9 @@ an inappropriate misrepresentation of the VideoLAN project position
 Summary           : Arbitrary file overwrite and other abuses
                     through M3U parser and browsers plugins
 Date              : February 2008
-Affected versions : VLC media player 0.8.6f and earlier
+Affected versions : VLC media player 0.8.6g and earlier
 ID                : VideoLAN-SA-0804
-CVE reference     : 
+CVE reference     : CVE-2007-6683
 </pre>
 <h2>Details</h2>
 <p>Using VLC media player's webbrowser plugins or its M3U Playlist Parser could lead to unwanted file system action within the user's local privileges.
@@ -62,7 +62,18 @@ usability fixes.
 </dl>
 <h2>History</h2>
 <dl>
+<dt>?? May 2008</dt>
+<dd>VLC 0.8.6g bugfix release (browsers)</dd>
+<dt>10 May 2008</dt>
+<dd>Patch provided against VLC 0.8.6 source code (browsers)</dd>
+<dd>Added CVE ID reference</dd>
+<dt>08 May 2008</dt>
+<dd>Patch applied to VLC development tree (browsers)</dd>
+<dt>30 November 2007<dt>
+<dd>VLC 0.8.6d bugfix release (M3U)</dd>
 <dt>20 November 2007</dt>
+<dd>Patch provided against VLC 0.8.6 source code (M3U)</dd>
+<dd>Patch applied to VLC development tree (M3U)</dd>
 <dd>Ticket opened</dd>
 </dl>
 

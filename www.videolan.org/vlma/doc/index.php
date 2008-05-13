@@ -11,25 +11,26 @@
 
 <h2>Generalities</h2>
 
-<p>The VLMa daemon saves its state in the file 'data.xml' in a subdirectory '.vlma' of the user home.
-Be carefull : each time you make a modification, it isn't automaticaly saved. You need to click on 'Save' in the left menu 
-if you want to. If you stop the deamon whitout having saved, you won't find your modification the next time you run 
+<p>The VLMa daemon saves its state in the file 'data.xml' in a subdirectory '.vlma' of the current user's home directory.
+Be careful: modifications are not automatically saved. You need to click on 'Save' in the left menu if you want to do so. If you stop the deamon without saving, your modification will not be available the next time you run 
 the daemon.</p>
 
-<p>VLMa also save its configuration in the file 'config.xml' in a subdirectory '.vlma' of the user home.</p>
+<p>VLMa also saves its configuration in the file 'config.xml' in the subdirectory '.vlma' of the current user's home directory.</p>
 
 <h2>Contents</h2>
 
-<p>Here you can find some documentation about the VLMa thanks to Thanh-tra Nguyen about:</p>
+<p>Here you can find some documentation about VLMa:</p>
 
 <ul class="bullets">
-  <li><a href="/vlma/doc/server.html">servers,</a></li>
-  <li><a href="/vlma/doc/media.html">medias,</a> (satellite and Digital terrestrial television channels)</li>
-  <li><a href="/vlma/doc/fileChannel.html">file channels,</a></li>
-  <li><a href="/vlma/doc/satellite.html">satellites,</a></li>
-  <li><a href="/vlma/doc/schedule.html">how to schedule a media,</a></li>
-  <li><a href="/vlma/doc/troubleshooting.html">and troubleshooting.</a></li>
+  <li><a href="/vlma/doc/server.html">server</a></li>
+  <li><a href="/vlma/doc/media.html">media</a> (satellite and Digital terrestrial television channels)</li>
+  <li><a href="/vlma/doc/fileChannel.html">file channels</a></li>
+  <li><a href="/vlma/doc/satellite.html">satellites</a></li>
+  <li><a href="/vlma/doc/schedule.html">how to schedule a media</a></li>
+  <li><a href="/vlma/doc/troubleshooting.html">and troubleshooting</a></li>
 </ul>
+
+<p>Thanks to Thanh-tra Nguyen.</p>
 
 </div>
 

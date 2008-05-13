@@ -59,7 +59,7 @@
         <!-- main content goes here -->
         <h1>Git</h1>
 
-        <p>VLMa source code is available under git version control at</p>
+        <p>VLMa's source code is available through Git at</p>
         <pre>git://git.videolan.org/vlma.git</pre>
         <p>or browseable online using 
         <a href="http://git.videolan.org/?p=vlma.git;a=summary">GitWeb</a></p>

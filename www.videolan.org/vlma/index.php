@@ -11,22 +11,20 @@
 
 <h2>About VLMa</h2>
 
-<p>VLMa is a program of management of the broadcasting of the channels of the digital terrestrial
-television and the satellite under the interface of a Web site which is programmed in Java.
-It is now capable of streaming files (audio, video). VLMa consists of a deamon (called VLMad)
+<p>VLMa is an application to manage broadcasts of TV channels, received through digital terrestrial or satellite ways. Its interface is provided as a web-site written in Java.
+It is also capable of streaming audio and video files. VLMa consists of a deamon (called VLMad)
 and a web interface (called VLMaw).</p>
-<p>VLMa is released under the GNU <a href="http://www.gnu.org/copyleft/gpl.html">General Public
-License</a> like VLC Media Player.</p>
+<p>VLMa is released under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU General Public License</a> like VLC media player.</p>
 
 <h2>Features</h2>
 
 <ul class="bullets">
-  <li>gives orders to VLM instances through VLC telnet interface,</li>
-  <li>monitors streaming,</li>
-  <li>assigns streaming dynamically (fallback if a server is unavailable),</li>
-  <li>monitors streamers' state using SNMP,</li>
-  <li>draws RRD graphs of streamers' state,</li>
-  <li>owns the web interface currently in french and english.</li>
+  <li>giving orders to VLM instances through VLC's telnet interface</li>
+  <li>monitoring of current streams</li>
+  <li>dynamic stream assignments (incl. fallback if a server is unavailable)</li>
+  <li>monitoring the streamers' state using SNMP</li>
+  <li>drawing of the streams stats as RRD graphs</li>
+  <li>localized web interface in French and English</li>
 </ul>
 
 <h2>Support</h2>
@@ -55,7 +53,7 @@ License</a> like VLC Media Player.</p>
         <!-- main content goes here -->
         <h1>Download</h1>
 
-        <p>To download VLMa, go to the <a href="/vlma/download.html">VLMa download page</a>.</p>
+        <p>To download VLMa, go to the <a href="/vlma/download.html">download page</a>.</p>
 
       </div>
     </div>
@@ -74,7 +72,7 @@ License</a> like VLC Media Player.</p>
     <div class="bd">
       <div class="c">
 
-          <h1>Screenshot (with french localization)</h1>
+          <h1>Screenshot (with French localization)</h1>
           <div align="center">
             <img style="border: 1px solid #ccc" src="http://download.videolan.org/vlma/screenshot/welcome.png" />
           </div>

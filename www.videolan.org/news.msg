@@ -3,7 +3,7 @@
 #
 
 
-|13 May 2008|VLMa release|The VideoLAN team is pleased to announce the release of VideoLAN Manager 0.1.<br />VideoLAN Manager (VLMa) is a Java application which aims at providing an easy way to manage several servers running VLC to stream over a multicast network.<br />More information at <a href="http://www.videolan.org/vlma">http://www.videolan.org/vlma</a>.
+|13 May 2008|VLMa release|The VideoLAN team is pleased to announce the release of VideoLAN Manager 0.1.<br />VideoLAN Manager (VLMa) is a Java application which aims to provide an easy way to manage several servers running VLC to stream over a multicast network.<br />More information at <a href="http://www.videolan.org/vlma">http://www.videolan.org/vlma</a>.
 
 |21 April 2008| Google Summer of Code 2008 (2)|The VideoLAN project was assigned 14 slots by Google. 10 of those went to VLC related projects and 4 to x264 projects. <a href="http://code.google.com/soc/2008/videolan/about.html">Official results</a> are available on Google's website. Thanks to all the students who posted an application. Sorry to those who weren't chosen ... and start coding if you were!
 

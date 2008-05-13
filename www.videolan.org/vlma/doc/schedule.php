@@ -8,11 +8,11 @@
 
 <div id="fullwidth">
 
-<h1>Schedule a program</h1>
+<h1>Scheduling a program</h1>
 
 <p>In fact, there are three kinds of channels: TNT, Satellite and File channels.</p>
 
-<h2>Schedule a TNT/digital terrestrial channel</h2>
+<h2>Scheduling a TNT/digital terrestrial channel</h2>
 
 <p>After having added a TNT channel, you can check it out in the Media tab: 'TNT channel list'. If the channel is there, 
 it is ready to be scheduled.</p>
@@ -31,7 +31,7 @@ Thus, the channel with priority 10 will be streamed first. If the server is stil
 <p>It's done! VLMa assigns a multicast IP address of its pool to your channel and sends the streaming commands to the respective server.</p>
 <p>VLMa's home page will show that the channel is ready to be streamed now, if the servers are not too busy.</p>
 
-<h2>Schedule a Satellite channel</h2>
+<h2>Scheduling a Satellite channel</h2>
 
 <p>The Satellite channels are listed in the 'Satellite channel list'.</p>
 
@@ -40,7 +40,7 @@ For example, you want to stream CCTV9, search it in the list and click on "Progr
 
 <p>After that, choose a priority for this channel (the default value is 10) and a SAP announcement name.</p>
 
-<h2>Schedule a File channel</h2>
+<h2>Scheduling a File channel</h2>
 
 <p>The procedure is the same as for satellite and TNT channels.</p>
 

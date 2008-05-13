@@ -1,0 +1,3 @@
+overview;Overview;/vlma
+download;Download;/vlma/download.html
+documentation;Documentation;/vlma/doc/index.html

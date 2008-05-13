@@ -15,7 +15,7 @@ Summary           : Arbitrary code execution
 Date              : May 2008
 Affected versions : VLC media player 0.8.6f and earlier
 ID                : VideoLAN-SA-0805
-CVE reference     : CVE-xxxx-xxxx
+CVE reference     : CVE-2008-2147
 </pre>
 <h2>Details</h2>
 <p>When initializing its plugins cache, VLC will look for dynamically loadable

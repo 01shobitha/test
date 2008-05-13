@@ -1,6 +1,10 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+
+
+|13 May 2008|VLMa release|The VideoLAN team is pleased to announce the release of VideoLAN Manager 0.1.<br />VideoLAN Manager (VLMa) is a Java application which aims at providing an easy way to manage several servers running VLC to stream over a multicast network.<br />More information at <a href="http://www.videolan.org/vlma">http://www.videolan.org/vlma</a>.
+
 |21 April 2008| Google Summer of Code 2008 (2)|The VideoLAN project was assigned 14 slots by Google. 10 of those went to VLC related projects and 4 to x264 projects. <a href="http://code.google.com/soc/2008/videolan/about.html">Official results</a> are available on Google's website. Thanks to all the students who posted an application. Sorry to those who weren't chosen ... and start coding if you were!
 
 |2 April 2008|VLC media player 0.8.6f release|We are pleased to announce the release of VLC media player 0.8.6f.<br />This is a bugfix release. VLC media player 0.8.6e and earlier versions suffer from security vulnerabilities in the Subtitle demuxer, Real RTSP demuxer, MP4 demuxer and Cinepak codec.<br />This release also includes improved video output on multi-screen setups running Mac OS X and compatibility with Windows 9x/ME has been restored.<br />We strongly recommend all users to update to this new version.<br />More information can be found in our <a href="security/sa0803.php">Security Advisory</a> and in the <a href="http://wiki.videolan.org/Changelog/0.8.6f">Release Notes</a>.

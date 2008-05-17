@@ -10,6 +10,16 @@
 
 <div id="fullwidth">
 
+<h2>23, 24 February 2008 - FOSDEM</h2>
+
+<p>Once again, a few of us attended <a href="http://www.fosdem.org/2008/">FOSDEM</a> this year. We didn't hold any presentation but it was a nice occasion for us developers to meet in real life and to discuss about VideoLAN future, especially the migration from SVN to GIT and the release of VLC 0.9.</p>
+
+<img src="http://download.videolan.org/events/20080223/crew.jpg" alt="FOSDEM 2008" />
+<p>From left to right: ivoire, LeJo, phytos, jpountz, jb, JPeg, jpsaman, dionoea and Remiii.</p>
+
+<p><a href="http://download.videolan.org/events/20080223">Here</a> you can find other photos of the VideoLAN team at this event thanks to ivoire and phytos.</p>
+
+
 <h2>30/31 January - 1 February 2007 - Solutions Linux</h2>
 
 <p>VideoLAN will attend the Solutions Linux expo in Paris. This year, we'll have a booth in the free associations area. Don't forget to drop by !</p>

@@ -62,7 +62,7 @@ untrusted content, such as directories writeable by untrusted users.
 </dl>
 <h2>History</h2>
 <dl>
-<dt>?? May 2008</dt>
+<dt>18 May 2008</dt>
 <dd>VLC 0.8.6g bugfix release</dd>
 <dt>10 May 2008</dt>
 <dd>Patch applied to VLC development tree</dd>

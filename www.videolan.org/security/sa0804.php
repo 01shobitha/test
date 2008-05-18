@@ -1,7 +1,7 @@
 <?php
    $title = "VideoLAN Security Advisory 0804";
    $lang = "en";
-   $date = "Spring 2008";
+   $date = "November 2007";
    $menu = array( "vlc" );
    require($_SERVER["DOCUMENT_ROOT"]."include/header.php");
 ?>
@@ -12,7 +12,7 @@
 <pre>
 Summary           : Arbitrary file overwrite and other abuses
                     through M3U parser and browsers plugins
-Date              : February 2008
+Date              : November 2007
 Affected versions : VLC media player 0.8.6f and earlier
 ID                : VideoLAN-SA-0804
 CVE reference     : CVE-2007-6683
@@ -50,7 +50,7 @@ usability fixes.
 </dl>
 <h2>History</h2>
 <dl>
-<dt>?? May 2008</dt>
+<dt>18 May 2008</dt>
 <dd>VLC 0.8.6g bugfix release (browsers)</dd>
 <dt>10 May 2008</dt>
 <dd>Patch provided against VLC 0.8.6 source code (browsers)</dd>

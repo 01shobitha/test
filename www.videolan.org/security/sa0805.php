@@ -40,7 +40,7 @@ Therefore, this attack is only likely to succeed on multi-user systems.
 <p>This issue is only present on platforms where VLC uses installation paths
 set at build-time, such as Linux, BSD and Sun Solaris.
 <strong>This issue does not affect VLC running on Windows, Windows CE,
-MacOS X or BeoS</strong>.
+Mac OS X or BeOS</strong>.
 </p>
 <h2>Workarounds</h2>
 <p>The user should not start VLC media player from directories with potentially

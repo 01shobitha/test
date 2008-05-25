@@ -1,7 +1,7 @@
 <?php
    $title = "VideoLAN Security Advisories";
    $lang = "en";
-   $date = "16 April 2001";
+   $date = "18 May 2008";
    $menu = array( "vlc" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
@@ -11,6 +11,16 @@
 
 
 <h2>2008</h2>
+
+<dl>
+<dt>VideoLAN-SA-0805 (CVE-2008-2147)</dt>
+<dd>Arbitrary code execution through rogue VLC plugins in the current directory. <a href="sa0805.html">Details</a></dd></p>
+</dl>
+
+<dl>
+<dt>VideoLAN-SA-0804 (CVE-2007-6683)</dt>
+<dd>Arbitrary file overwrite and other abuses through M3U parser and browsers plugins. <a href="sa0804.html">Details</a></dd></p>
+</dl>
 
 <dl>
 <dt>VideoLAN-SA-0803 (CVE-2008-0073, CVE-2008-1489, CVE-2008-1768, CVE-2008-1769)</dt>

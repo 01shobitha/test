@@ -22,11 +22,12 @@
 <h2> Packages </h2>
 
 You can use package from <a href="http://web.syllable.org/pages/resources.html">Syllable resources</a>. Just download it and then run:
+</p>
 
 <pre>
      unzip name-version.resource -d /usr
      package register name
 </pre>
-</p>
 
+</div>
 <?php footer('$Id: download-altlinux.php 4447 2008-02-17 23:39:55Z thresh $'); ?>

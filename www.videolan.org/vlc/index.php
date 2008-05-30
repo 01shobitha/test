@@ -64,6 +64,7 @@ echo "<li class='$class' $style><a href='$url'>$name</a></li>";
       addos( "Zaurus", "zaurus", "download-zaurus.html" );
       //addos( "WinCE / PocketPC", "wince", "download-wince.html" );
       addos( "Arch Linux", "archlinux", "download-archlinux.html" );
+      addos( "Syllable", "syllable", "download-syllable.html" );
 ?>
   </ul></div>
 

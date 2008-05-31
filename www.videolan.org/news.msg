@@ -3,10 +3,9 @@
 #
 
 
-|31 May 2008|VLC media player 0.8.6h release|We are pleased to announce the release of VLC media player 0.8.6h.<br />This is a bugfix release. VLC media player 0.8.6g (a source code release) and earlier versions suffer from security
-vulnerabilities in the libraries GnuTLS, libgcrypt and libxml2.<br />VLC media player 0.8.6f and earlier versions suffer from security vulnerabilities in the Mozilla and ActiveX plugins, in the libraries libpng, libid3tag, libvorbis and in the Speex codec.<br />
-Technical details are available in our <a href="http://www.videolan.org/security/">security advisories</a>. More information on this update can be found in the release notes for <a href="http://wiki.videolan.org/Changelog/0.8.6g">0.8.6g</a> and <a href="http://wiki.videolan.org/Changelog/0.8.6g">0.8.6h</a>.<br/>
-We strongly recommend all users to update to this new version.
+#|31 May 2008|VLC media player 0.8.6h release|We are pleased to announce the release of VLC media player 0.8.6h.<br />This is a bugfix release. VLC media player 0.8.6g (a source code release) and earlier versions suffer from security vulnerabilities in the libraries GnuTLS, libgcrypt and libxml2.<br />VLC media player 0.8.6f and earlier versions suffer from security vulnerabilities in the Mozilla and ActiveX plugins, in the libraries libpng, libid3tag, libvorbis and in the Speex codec.<br />
+#Technical details are available in our <a href="http://www.videolan.org/security/">security advisories</a>. More information on this update can be found in the release notes for <a href="http://wiki.videolan.org/Changelog/0.8.6g">0.8.6g</a> and <a href="http://wiki.videolan.org/Changelog/0.8.6g">0.8.6h</a>.<br/>
+#We strongly recommend all users to update to this new version.
 
 |13 May 2008|VLMa release|The VideoLAN team is pleased to announce the release of VideoLAN Manager 0.1.<br />VideoLAN Manager (VLMa) is a Java application which aims to provide an easy way to manage several servers running VLC to stream over a multicast network.<br />More information at <a href="http://www.videolan.org/vlma">http://www.videolan.org/vlma</a>.
 

@@ -3,7 +3,7 @@
 #
 
 
-|6 June 2008|VLC media player 0.8.6h release|We are pleased to announce the release of VLC media player 0.8.6h.<br />This is a bugfix release. VLC media player 0.8.6g (a source code release) and earlier versions suffer from security vulnerabilities in the libraries GnuTLS, libgcrypt and libxml2.<br />VLC media player 0.8.6f and earlier versions suffer from security vulnerabilities in the Mozilla and ActiveX plugins, in the libpng, libid3tag, libvorbis libraries and in the Speex codec.<br />
+|6 June 2008|VLC media player 0.8.6h release|We are pleased to announce the release of VLC media player 0.8.6h.<br />This is a bugfix release. VLC media player 0.8.6g (a source code release) and earlier versions suffer from security vulnerabilities in the GnuTLS, libgcrypt and libxml2 libraries.<br />VLC media player 0.8.6f and earlier versions suffer from security vulnerabilities in the Mozilla and ActiveX plugins, in the libpng, libid3tag, libvorbis libraries and in the Speex codec.<br />
 Technical details are available in our <a href="http://www.videolan.org/security/">security advisories</a>. This update also includes reliability improvements in multiple modules. More information can be found in the release notes for <a href="http://wiki.videolan.org/Changelog/0.8.6g">0.8.6g</a> and <a href="http://wiki.videolan.org/Changelog/0.8.6g">0.8.6h</a>.<br/>
 We strongly recommend all users to update to this new version.
 

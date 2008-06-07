@@ -3,26 +3,35 @@
    $mirror = $_GET["mirror"];
    $file = $_GET["file"];
 
-
    if( !isset($file) ) { die; }
-  
-   # Pick up a random mirror  
-   if( !isset( $mirror ) )
-   {
-	$listfile = $_SERVER["DOCUMENT_ROOT"]."/include/mirrors";
-        $file_id = fopen( $listfile , "r" );
-        $all = fread( $file_id, filesize( $listfile ) );
-        fclose( $file_id );
-        $mirrors = explode( "\n", $all );
-        array_pop( $mirrors );
 
-	while( !isset( $mirror ) )
+   $listfile = $_SERVER["DOCUMENT_ROOT"]."/include/mirrors";
+   $file_id = fopen( $listfile, "r" );
+   $all = fread ( $file_id, filesize( $listfile ) );
+   fclose ( $file_id );
+   $mirrors = explode ( "\n", $all );
+
+   if ( isset($mirror) )
+   {
+       $len = sizeof( $mirrors );
+       for ( $i = 0; $i < $len; $i++ ) {
+           $url = explode ( "|", $mirrors[$i] );
+           if( $mirror === $url[0] ) $found = true;
+       }
+
+       !$found && die;
+   }
+   else
+   # Pick up a random mirror  
+   {
+       array_pop( $mirrors );
+       while( !isset( $mirror ) )
         {
-	     $index = rand( 0, sizeof( $mirrors ) - 1 );
-	     if( substr( $mirrors[ $index] , 0, 1 ) == "#" ) continue;
-             $esp = strpos( $mirrors[ $index] , "|" );
-	     $mirror = substr( $mirrors[ $index ], 0, $esp );
-	}
+            $index = rand( 0, sizeof( $mirrors ) - 1 );
+            if( substr( $mirrors[ $index] , 0, 1 ) == "#" ) continue;
+            $esp = strpos( $mirrors[ $index] , "|" );
+            $mirror = substr( $mirrors[ $index ], 0, $esp );
+        }
    }
 ?>
 <html>

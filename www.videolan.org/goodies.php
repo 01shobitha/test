@@ -100,7 +100,7 @@ for Mac OS X:</p>
 
 <p>All videolan background images can now be downloaded in one
 RPM package. The (relocatable) package has been built by <a
-href="http://home.wxs.nl/~jpsaman">Jean-Paul Saman</a> on RH 9.0,
+href="http://www.jpsaman.org">Jean-Paul Saman</a> on RH 9.0,
 but should also be useable on SuSE, Mandrake and other RPM-aware
 distributions. </p>
 

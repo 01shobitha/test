@@ -142,8 +142,8 @@ References:
 <dd><a href="http://www.videolan.org/vlc/">http://www.videolan.org/vlc/</a>
 </dd>
 <dt>GNU General Public License</dt>
-<dd><a href="http://www.gnu.org/copyleft/gpl.html"
-     >http://www.gnu.org/copyleft/gpl.html</a>
+<dd><a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
+     >http://www.gnu.org/licenses/old-licenses/gpl-2.0.html</a>
 </dd>
 <dt>Free Software Foundation</dt>
 <dd><a href="http://www.fsf.org/">http://www.fsf.org/</a>

@@ -15,7 +15,7 @@
   <p>VideoLAN is a software <a href="/project">project</a>, which produces
   <a href="http://www.gnu.org/philosophy/free-sw.html">free
   software</a> for video, released under the GNU <a
-  href="http://www.gnu.org/copyleft/gpl.html">General Public
+  href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">General Public
   License</a>.<br />
   <a href="/project">Learn more</a> about the VideoLAN project.</p>
   <p>Our main product is the cross-platform VLC media player.</p>

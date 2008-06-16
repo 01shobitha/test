@@ -14,7 +14,7 @@
 <p>VLMa is an application to manage broadcasts of TV channels, received through digital terrestrial or satellite ways. Its interface is provided as a web-site written in Java.
 It is also capable of streaming audio and video files. VLMa consists of a deamon (called VLMad)
 and a web interface (called VLMaw).</p>
-<p>VLMa is released under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU General Public License</a> like VLC media player.</p>
+<p>VLMa is released under the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General Public License</a> like VLC media player.</p>
 
 <h2>Features</h2>
 

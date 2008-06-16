@@ -152,7 +152,7 @@ href="mailto:treasurer -AT- videolan -DOT- org">treasurer -AT- videolan -DOT- or
 <h3>Remember VideoLAN is free software...</h3>
 
 <p> VideoLAN software is released under the <a
-href="http://www.gnu.org/copyleft/gpl.html">GNU General Public Licence</a>,
+href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General Public Licence</a>,
 and can be used and distributed freely, according to the terms of this
 licence. There is absolutely no requirement to donate money (this is not
 shareware software). But if you want to help us move faster, we welcome

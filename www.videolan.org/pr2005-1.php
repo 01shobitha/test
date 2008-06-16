@@ -77,7 +77,7 @@ Related documents :
 </p>
 <ul>
 <li>
-GPL : <a href="http://www.gnu.org/copyleft/gpl.html">http://www.gnu.org/copyleft/gpl.html</a>
+GPL : <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">http://www.gnu.org/licenses/old-licenses/gpl-2.0.html</a>
 </li>
 </ul>
 

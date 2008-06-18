@@ -108,8 +108,6 @@ murray and jpsaman. Chris was our host in Brussels and goon also dropped in.</p>
 
 <p>Jean-Paul Saman held a short VideoLAN presentation highlighting its history, present and future developments. The presentation in OpenOffice format is <a href="http://www.jpsaman.org/jpsaman/sites/default/files/videolan-fosdem-2004.sxi">here</a> and a PDF version is <a href="http://www.jpsaman.org/jpsaman/sites/default/files/videolan-fosdem-2004.pdf">here.</a></p>
 
-<p><a href="http://roy.via.ecp.fr/~murray/photos/fosdem/">Pictures</a>
- made by Murray</p>
 <p>Arnaud Limbourgh made a small <a href="20040222/fosdem_2004_vlc.avi">
 movie</a> of our booth with the demo setup.</p>
 <p>Some more pictures made by FOSDEM attendees are gathered <a href=

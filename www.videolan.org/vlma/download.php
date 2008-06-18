@@ -33,7 +33,7 @@
 
 <h1>VLMa - Installation</h1>
 
-<p>Installing the VLMa is very simple.</p>
+<p>Installing the VLMa is very simple. This <a href="doc/setup.html">screencast</a> explains the procedure.</p>
 
 <ul class="bullets">
   <li>The daemon:<br/>

@@ -17,7 +17,11 @@ the daemon.</p>
 
 <p>VLMa also saves its configuration in the file 'config.xml' in the subdirectory '.vlma' of the current user's home directory.</p>
 
-<h2>Contents</h2>
+<h2>Installation</h2>
+
+<p>This <a href="setup.html">video</a> explains how to install VLMa on your system.</p>
+
+<h2>Content</h2>
 
 <p>Here you can find some documentation about VLMa:</p>
 

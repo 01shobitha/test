@@ -21,12 +21,12 @@ SUSE/openSUSE Package manager, which exists in all versions. For SUSE 11.0 or 10
 
 <h2>Installing VLC on openSUSE 11.0</h2>
 <div class="installbtn" style="float: none;">
-<a href="http://download.videolan.org/pub/vlc/SuSE/11.0/vlc.ymp">1-Click Install on 11.0</a></div>
-
+<a href="http://download.videolan.org/pub/vlc/SuSE/11.0/vlc.ymp">1-Click Install </a></div>
+<br />
 <h2>Installing VLC on openSUSE 10.3</h2>
 <div class="installbtn" style="float: none;">
-<a href="http://download.videolan.org/pub/vlc/SuSE/10.3/vlc.ymp">1-Click Install on 10.3</a></div>
-
+<a href="http://download.videolan.org/pub/vlc/SuSE/10.3/vlc.ymp">1-Click Install </a></div>
+<br />
 <h2>Download VLC media player for SUSE Linux using YaST</h2>
 <h3>Add VideoLAN's repository</h3>
 <p>
@@ -41,7 +41,6 @@ Directory: /pub/videolan/vlc/SuSE/&lt;SUSE Version&gt;
 <p>Replace &lt;SUSE Version&gt; in the Directory above with your installed SuSE
 Version. Supported at this time are :</p>
 <pre>
-10.0
 10.1
 10.2
 10.3
@@ -78,15 +77,14 @@ Have a lot of Fun.
 <?php panel_start( "gray" ); ?>
 <b>For SUSE Linux 10.1:</b><br />
 You may need to add a SUSE Repository as well to solve several dependencies. <br />
-It could be  http://ftp4.gwdg.de/pub/opensuse
-/distribution/SL-10.1/inst-source/suse , for example.
+It could be  http://ftp4.gwdg.de/pub/opensuse/distribution/SL-10.1/inst-source/suse , for example.
 
 <?php panel_end(); ?>
 
 <?php panel_start( "blue" ); ?>
 <strong>Note for SUSE Linux Enterprise Desktop (SLED) 10</strong><br />
 
-SLED is based on SUSE Linux 10.1, so please be sure to select the 10.1 repository (not 10.0).
+SLED is based on SUSE Linux 10.1, so please be sure to select the 10.1 repository.
 
 <?php panel_end(); ?>
 </div>

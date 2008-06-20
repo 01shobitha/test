@@ -6,5 +6,6 @@ libdca;libdca;/developers/libdca.html
 libdvdcss;libdvdcss;/developers/libdvdcss.html
 libdvbpsi;libdvbpsi;/developers/libdvbpsi.html
 libdvdplay;libdvdplay;/developers/libdvdplay.html
+libdvbcsa;libdvbcsa;/developers/libdvbcsa.html
 translations;Translations;/developers/i18n/
 trac;trac;http://trac.videolan.org/

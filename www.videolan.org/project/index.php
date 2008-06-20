@@ -45,6 +45,9 @@ Coherent Acoustics decoder.</li>
 <li><a href="/developers/libdvdplay.html">libdvdplay</a>,
 a DVD navigation library.</li>
 
+<li><a href="/developers/libdvbcsa.html">libdvbcsa</a>,
+a free implementation of the DVB Common Scrambling Algorithm.</li>
+
 <li><a href="/vlc/streaming.html">VLS (VideoLAN Server)</a>, our legacy
 streaming server, which is now mostly replaced by VLC.</li>
 

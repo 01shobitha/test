@@ -21,7 +21,7 @@ You can also use this repository from distribution derived from <a href="http://
 
 <h2>Fedora 9</h2>
 
-<p>Use <a href="http://rpm.livna.org/">RPM - LIVNA</a> for F8 (available for x86, x86_64 and ppc)<br />
+<p>Use <a href="http://rpm.livna.org/">RPM - LIVNA</a> for F9 (available for x86, x86_64 and ppc)<br />
 
 Install <a href="http://rpm.livna.org/livna-release-9.rpm">livna-release-9.rpm</a> for F9</p>
 

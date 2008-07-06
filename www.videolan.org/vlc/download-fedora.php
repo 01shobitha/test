@@ -19,6 +19,20 @@ You can also use this repository from distribution derived from <a href="http://
 
 <p>You can also find an old version we officially support: VLC 0.8.5 for Fedora Core 4.</p>
 
+<h2>Fedora 9</h2>
+
+<p>Use <a href="http://rpm.livna.org/">RPM - LIVNA</a> for F8 (available for x86, x86_64 and ppc)<br />
+
+Install <a href="http://rpm.livna.org/livna-release-9.rpm">livna-release-9.rpm</a> for F9</p>
+
+<pre>
+    $> su -
+    #> rpm -ivh http://rpm.livna.org/livna-release-9.rpm
+    #> yum install vlc
+    #> yum install python-vlc mozilla-vlc (optionnal)
+</pre>
+
+
 <h2>Fedora 8</h2>
 
 <p>Use <a href="http://rpm.livna.org/">RPM - LIVNA</a> for F8 (available for x86, x86_64 and ppc)<br />

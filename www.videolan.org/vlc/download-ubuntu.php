@@ -59,7 +59,7 @@ sudo apt-get install vlc vlc-plugin-esd mozilla-plugin-vlc libdvdcss2
 <div id="right">
 
 <?php panel_start( "blue" ); ?>
-<h1>HowTO Add repositories</h1>
+<h1>How To Add repositories</h1>
 <p>If you don't know how to add repositories, follow the guides:<br />
 <ul>
 <li><a href="http://www.debianadmin.com/simple-package-management-with-synaptic-package-manager-in-ubuntu.html">Graphical Way</a></li>

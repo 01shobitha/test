@@ -54,7 +54,6 @@ echo "<li class='$class' $style><a href='$url'>$name</a></li>";
 ?>
   </ul>
 </div>
-<div class="clearme">
 
   <p>GNU/Linux:</p>
 <div class="os1">

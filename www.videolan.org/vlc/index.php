@@ -41,6 +41,7 @@ else $style='';
 echo "<li class='$class' $style><a href='$url'>$name</a></li>";
 }
 ?>
+
 <div class="os1">
   <ul class="os">
 <?php addos( "Windows", "windows", "download-windows.html", true );
@@ -55,7 +56,9 @@ echo "<li class='$class' $style><a href='$url'>$name</a></li>";
   </ul>
 </div>
 
-  <p>GNU/Linux:</p>
+<div class="clearme">
+  <h3>GNU/Linux:</h3>
+</div>
 <div class="os1">
   <ul class="os">
 <?php

@@ -45,18 +45,32 @@ echo "<li class='$class' $style><a href='$url'>$name</a></li>";
   <ul class="os">
 <?php addos( "Windows", "windows", "download-windows.html", true );
       addos( "Mac&nbsp;OS&nbsp;X", "macosx", "download-macosx.html", true );
-      addos( "BeOS", "beos", "download-beos.html" );
+?>
+  </ul>
+</div><div class="os2">
+  <ul class="os">
+<?php addos( "BeOS", "beos", "download-beos.html" );
+      addos( "Syllable", "syllable", "download-syllable.html" );
+?>
+  </ul>
+</div>
+<div class="clearme">
+
+  <p>GNU/Linux:</p>
+<div class="os1">
+  <ul class="os">
+<?php
       addos( "Debian GNU/Linux", "debian", "download-debian.html" );
-      addos( "Ubuntu Linux", "ubuntu", "download-ubuntu.html" );
+      addos( "Ubuntu", "ubuntu", "download-ubuntu.html" );
       addos( "Mandriva Linux", "mandrake", "download-mandriva.html" );
-      addos( "Fedora Core", "fedora", "download-fedora.html" );
+      addos( "Fedora", "fedora", "download-fedora.html" );
+      addos( "openSUSE", "suse", "download-suse.html" );
       addos( "Familiar Linux", "familiar", "download-familiar.html" );
 ?>
 </ul>
 </div><div class="os2">
 <ul class="os">
 <?php
-      addos( "SUSE Linux", "suse", "download-suse.html" );
       addos( "Red Hat Linux", "redhat", "download-redhat.html" );
       addos( "Slackware Linux", "slackware", "download-slackware.html" );
       addos( "ALT Linux", "altlinux", "download-altlinux.html" );
@@ -64,7 +78,6 @@ echo "<li class='$class' $style><a href='$url'>$name</a></li>";
       addos( "Zaurus", "zaurus", "download-zaurus.html" );
       //addos( "WinCE / PocketPC", "wince", "download-wince.html" );
       addos( "Arch Linux", "archlinux", "download-archlinux.html" );
-      addos( "Syllable", "syllable", "download-syllable.html" );
 ?>
   </ul></div>
 

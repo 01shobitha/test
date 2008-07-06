@@ -7,7 +7,7 @@
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
 ?>
 
-<h1>VLC media player for <a href="http://www.redhat.com/">Red Hat Linux</a></h1>
+<h1>VLC media player for <a href="http://www.redhat.com/rhel/">Red Hat Enterprise Linux</a></h1>
 
 <div id="fullwidth">
 

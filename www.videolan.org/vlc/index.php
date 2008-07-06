@@ -73,7 +73,7 @@ echo "<li class='$class' $style><a href='$url'>$name</a></li>";
 </div><div class="os2">
 <ul class="os">
 <?php
-      addos( "Red Hat Linux", "redhat", "download-redhat.html" );
+      addos( "Red Hat Enterprise Linux", "redhat", "download-redhat.html" );
       addos( "Slackware Linux", "slackware", "download-slackware.html" );
       addos( "ALT Linux", "altlinux", "download-altlinux.html" );
       addos( "YOPY/Linupy", "linupy", "download-linupy.html" );

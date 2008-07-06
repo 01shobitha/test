@@ -1,5 +1,5 @@
 <?php
-   $title = "VideoLAN - Free Software and Open Source video streaming solution for every OS!";
+   $title = "VideoLAN - Free and Open Source software and video streaming solutions for every OS!";
    $lang = "en";
    $date = "06 April 2002";
    $menu = array( "vlc", "overview" );
@@ -13,8 +13,8 @@
   <div id="left">
   <h2>About VideoLAN</h2>
   <p>VideoLAN is a software <a href="/project">project</a>, which produces
-  <a href="http://www.gnu.org/philosophy/free-sw.html">free
-  software</a> for video, released under the GNU <a
+  <a href="http://www.gnu.org/philosophy/free-sw.html">free and open source
+ software</a> for video, released under the GNU <a
   href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">General Public
   License</a>.<br />
   <a href="/project">Learn more</a> about the VideoLAN project.</p>

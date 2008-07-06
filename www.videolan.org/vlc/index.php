@@ -76,10 +76,10 @@ echo "<li class='$class' $style><a href='$url'>$name</a></li>";
       addos( "Red Hat Enterprise Linux", "redhat", "download-redhat.html" );
       addos( "Slackware Linux", "slackware", "download-slackware.html" );
       addos( "ALT Linux", "altlinux", "download-altlinux.html" );
+      addos( "Arch Linux", "archlinux", "download-archlinux.html" );
       addos( "YOPY/Linupy", "linupy", "download-linupy.html" );
       addos( "Zaurus", "zaurus", "download-zaurus.html" );
       //addos( "WinCE / PocketPC", "wince", "download-wince.html" );
-      addos( "Arch Linux", "archlinux", "download-archlinux.html" );
 ?>
   </ul></div>
 

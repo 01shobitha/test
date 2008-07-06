@@ -12,6 +12,7 @@
 
 <div id="left">
 
+<h2>Ubuntu Hardy Heron 8.04</h2>
 <h2>Ubuntu Gutsy Gibbon 7.10</h2>
 <h2>Ubuntu Feisty Fawn 7.04</h2>
 <h2>Ubuntu Edgy Eft 6.10</h2>

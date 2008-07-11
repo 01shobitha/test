@@ -8,18 +8,6 @@
 
 <div id="fullwidth">
 
-<p><span style="font-weight: bold;">DISCLAIMER:
-This document is work-in-progress security advisory
-of the VideoLAN project.
-It has not been approved as a security advisory.
-It does not represent the position of the VideoLAN project
-or any of its contributors.
-Citing or quoting this document otherwise may constitute
-an inappropriate misrepresentation of the VideoLAN project position
-(or lack thereof) on the covered subject.
-</span>
-</p>
-
 <h1>Security Advisory 0806</h1>
 <pre>
 Summary           : Heap-overflow in the VLC WAV demuxer
@@ -65,7 +53,7 @@ and adds further sanity checks to the RIFF WAVE demuxers.
 </dl>
 <h2>History</h2>
 <dl>
-<dt>xx July 2008</dt>
+<dt>12 July 2008</dt>
 <dd>VLC 0.8.6i bugfix release</dd>
 <dt>28 June 2008</dt>
 <dd>Source code fixes for VLC 0.8.6h and development tree</dd>

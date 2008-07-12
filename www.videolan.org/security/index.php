@@ -1,7 +1,7 @@
 <?php
    $title = "VideoLAN Security Advisories";
    $lang = "en";
-   $date = "18 May 2008";
+   $date = "12 July 2008";
    $menu = array( "vlc" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
@@ -11,6 +11,11 @@
 
 
 <h2>2008</h2>
+
+<dl>
+<dt>VideoLAN-SA-0806 (CVE-2008-2430)</dt>
+<dd>Arbitrary code execution through potential heap-overflows in VLC's WAV demuxer. <a href="sa0805.html">Details</a></dd></p>
+</dl>
 
 <dl>
 <dt>VideoLAN-SA-0805 (CVE-2008-2147)</dt>

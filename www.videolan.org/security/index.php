@@ -14,7 +14,7 @@
 
 <dl>
 <dt>VideoLAN-SA-0806 (CVE-2008-2430)</dt>
-<dd>Arbitrary code execution through potential heap-overflows in VLC's WAV demuxer. <a href="sa0805.html">Details</a></dd></p>
+<dd>Arbitrary code execution through potential heap-overflows in VLC's WAV demuxer. <a href="sa0806.html">Details</a></dd></p>
 </dl>
 
 <dl>

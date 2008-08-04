@@ -262,7 +262,7 @@ feature( "AAC",  YES, YES, YES, YES, YES, YES );
 feature( "Vorbis",  YES, YES, YES, YES, YES, YES );
 feature( "WMA 1/2", YES, YES, YES, YES, YES, YES );
 feature( "Alaw/µlaw", YES, YES, YES, YES, YES, YES );
-feature( "MIDI", UNT, UNT, YES, UNT, UNT, UNT, UNT );
+feature( "MIDI", UNT, UNT, YES, UNT, UNT, UNT );
 ?>
 <tr>
 <td class="type">WMA 3</td>

@@ -118,47 +118,34 @@ libraries and build them yourself:</p>
 </div>
 
 <div id="right">
-  <div class="panel-blue">
-    <div class="hd">
-      <div class="c"></div>
-    </div>
-
-    <div class="bd">
-      <div class="c">
-        <!-- main content goes here -->
+<?php panel_start( "blue" ); ?>
         <p><span class="vlcversion">VLC 0.8.6 downloads: <span id="vlccounter">Loading...</span></span></p>
         <p><span id="dlrate">Calculating...</span> downloads per second</p>
         <div class="more"><a href="/stats/downloads.php">Full statistics</a></div>
-      </div>
-    </div>
+<?php panel_end(); ?>
 
-    <div class="ft">
-      <div class="c"></div>
-    </div>
-  </div> <!-- end panel -->
-
-  <div class="panel-blue">
+<?php panel_start( "blue" ); ?>
   <h2>Features</h2>
 
   <p> For more information about what features are supported on your operating
   system, please see the <a href="/vlc/features.html">full features list</a>.
   You can also have a look at some <a href="/vlc/screenshots.html">VLC
   screenshots</a>. </p>
-  </div> <!-- end panel -->
+<?php panel_end(); ?>
 
-  <div class="panel-blue">
+<?php panel_start( "blue" ); ?>
     <h2>Documentation</h2>
 
     <p>See the <a href="/doc/">documentation page</a>.</p>
-  </div> <!-- end panel -->
+<?php panel_end(); ?>
 
-  <div class="panel-blue">
+<?php panel_start( "orange" ); ?>
     <h3>PlayOgg</h3>
-    <img src="http://www.fsf.org/resources/formats/ogg_data/play_ogg_large.png"/>
-    <p>Join PlayOgg, a campaign to promote the use of free media
+    <img src="http://www.fsf.org/resources/formats/ogg_data/play_ogg_large.png" alt="PlayOgg"/>
+    <p>Join <a href="http://playogg.org">PlayOgg</a>, a campaign to promote the use of free media
              formats including Ogg Vorbis and Ogg Theora.
     </p>
-  </div> <!-- end panel -->
+<?php panel_end(); ?>
 </div> <!-- RIGHT -->
 
 <?php footer('$Id$'); ?>

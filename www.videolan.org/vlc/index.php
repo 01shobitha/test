@@ -139,7 +139,8 @@ libraries and build them yourself:</p>
 
 <?php panel_start( "orange" ); ?>
     <h3>PlayOgg</h3>
-    <img src="http://www.fsf.org/resources/formats/ogg_data/play_ogg_large.png" alt="PlayOgg"/>
+	<a href="http://playogg.org">
+        <img src="http://www.fsf.org/resources/formats/ogg_data/play_ogg_large.png" alt="PlayOgg"/></a>
     <p>Join <a href="http://playogg.org">PlayOgg</a>, a campaign to promote the use of free media
              formats including Ogg Vorbis and Ogg Theora.
     </p>

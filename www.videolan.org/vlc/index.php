@@ -137,17 +137,28 @@ libraries and build them yourself:</p>
     </div>
   </div> <!-- end panel -->
 
+  <div class="panel-blue">
   <h2>Features</h2>
 
   <p> For more information about what features are supported on your operating
   system, please see the <a href="/vlc/features.html">full features list</a>.
   You can also have a look at some <a href="/vlc/screenshots.html">VLC
   screenshots</a>. </p>
+  </div> <!-- end panel -->
 
-  <h2>Documentation</h2>
+  <div class="panel-blue">
+    <h2>Documentation</h2>
 
-  <p>See the <a href="/doc/">documentation page</a>.</p>
+    <p>See the <a href="/doc/">documentation page</a>.</p>
+  </div> <!-- end panel -->
 
+  <div class="panel-blue">
+    <h3>PlayOgg</h3>
+    <img src="http://www.fsf.org/resources/formats/ogg_data/play_ogg_large.png"/>
+    <p>Join PlayOgg, a campaign to promote the use of free media
+             formats including Ogg Vorbis and Ogg Theora.
+    </p>
+  </div> <!-- end panel -->
 </div> <!-- RIGHT -->
 
 <?php footer('$Id$'); ?>

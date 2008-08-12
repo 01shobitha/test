@@ -131,9 +131,7 @@ libraries and build them yourself:</p>
   system, please see the <a href="/vlc/features.html">full features list</a>.
   You can also have a look at some <a href="/vlc/screenshots.html">VLC
   screenshots</a>. </p>
-<?php panel_end(); ?>
 
-<?php panel_start( "blue" ); ?>
     <h2>Documentation</h2>
 
     <p>See the <a href="/doc/">documentation page</a>.</p>

@@ -81,15 +81,16 @@ There is absolutely NO SUPPORT for it from the VideoLAN Team.
 		<li class='macosx'  style="font-weight:bold"><a href='/build/macosx-intel/?C=M;O=D'>Mac&nbsp;OS&nbsp;X Intel</a></li>
 		<li class='debian' ><a href='#debian'>Debian Sid I386</a></li>
 		<li class='debian' ><a href='#debian'>Debian Sid AMD64</a></li>
-		<li class='debian' ><a href='#debian'>Ubuntu Hardy I386</a></li>
-                <li class='suse'><a href='#suse'>openSuse 10.2 and 10.3</a></li>
+		<li class='debian' ><a href='#debian'>Ubuntu Intrepid I386</a></li>
+    <li class='suse'><a href='#suse'>openSuse 10.2 and 10.3</a></li>
 		<li class='gentoo'><a href='#gentoo'>Gentoo</a></li>
 	</ul>
 </div>
 <div class="os2">
 	<ul class="os" style="padding-bottom:10px">
 		<li style="background:none">The packages for the following operating systems<br /> are <b>not</b> automatically built every night:</li>
-		<li class='ubuntu' ><a href='/build/breezy-i386'>Ubuntu Breezy I386 (stable) snapshot</a></li>
+		<li class='ubuntu' ><a href='/build/hardy-i386'>Ubuntu Hardy I386 (stable) snapshot</a></li>
+		<li class='ubuntu' ><a href='/build/breezy-i386'>Ubuntu Breezy I386 (Breezy) snapshot</a></li>
 		<li class='ubuntu' ><a href='/build/dapper-i386'>Ubuntu Dapper I386 (dapper) snapshot</a></li>
         <li class='beos' ><a href='/build/beos/?C=M;O=D'>BeOS</a></li>
 	</ul>
@@ -102,8 +103,8 @@ There is absolutely NO SUPPORT for it from the VideoLAN Team.
 	<pre>deb http://nightlies.videolan.org/build/sid-i386/arch ./</pre>
 	<p>For Debian Sid AMD64 (unstable) add the following line to your sources.list:</p>
 	<pre>deb http://nightlies.videolan.org/build/sid-amd64/arch ./</pre>
-	<p>For Ubuntu Hardy I386 add the following line to your sources.list:</p>
-	<pre>deb http://nightlies.videolan.org/build/hardy-i386/arch ./</pre>
+	<p>For Ubuntu Intrepid I386 add the following line to your sources.list:</p>
+	<pre>deb http://nightlies.videolan.org/build/intrepid-i386/arch ./</pre>
 	<br />
 	<p>Those repositories contain a <i>vlc-dbg</i> package that you 
 	can install so you can run <i>gdb</i> to provide usefull backtrace when reporting bugs.</p>
@@ -119,7 +120,12 @@ gpg --export AA5F4DE6 -a|sudo apt-key add -</pre>
 		</li>
 	</ul>-->
 	<br />
-	<p>For Ubuntu Breezy I386 (stable) snapshot add the following line to your sources.list:</p>
+	<p>For Ubuntu Hardy I386 (stable) snapshot add the following line to your sources.list:</p>
+	<pre>deb http://nightlies.videolan.org/build/hardy-i386 /</pre>
+	<p>This package is <b>not</b> automatically built every night.
+	<!--	Our breezy archive is signed using this key (AA5F4DE6). To use it, you may follow the same steps as for our debian archive's key.-->
+	</p>
+	<p>For Ubuntu Breezy I386 (Breezy) snapshot add the following line to your sources.list:</p>
 	<pre>deb http://nightlies.videolan.org/build/breezy-i386 /</pre>
 	<p>This package is <b>not</b> automatically built every night.
 	<!--	Our breezy archive is signed using this key (AA5F4DE6). To use it, you may follow the same steps as for our debian archive's key.-->

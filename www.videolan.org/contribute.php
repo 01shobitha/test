@@ -25,7 +25,7 @@ VideoLAN team will give you a <a href="http://wiki.videolan.org/Git">
 Git</a> write account. </p>                   
 
 <p> If you have time but no programming skills, you can help with the   
-documentation, the translation of the VLC interface and the VideoLAN    
+documentation, the <a href="/developers/i18n/">translation</a> of the VLC interface and the VideoLAN    
 documentation, the packaging, the tests before the releases, answer the 
 questions in the user mailing-lists if you can, etc... </p>             
 

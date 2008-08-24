@@ -9,6 +9,10 @@
 <div id="left">
 <h1> Documentation </h1>
 
+<p>The VLC documentation is available on the <a href='http://wiki.videolan.org/Documentation:Documentation'>VideoLAN wiki.</a></p>
+
+<h1> Outdated Documentation </h1>
+
 <table border="0">
 
 <tr>

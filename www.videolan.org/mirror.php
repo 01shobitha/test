@@ -33,10 +33,10 @@
 <html>
  <head>
   <title>VideoLAN - Download from mirror</title>
-  <meta http-equiv="refresh" content="0; url=<?php echo $url.$file ?>" />
+  <meta http-equiv="refresh" content="0; url=<?php echo $mirror_url.$file ?>" />
  </head>
  <body>
-  <p>Downloading from <?php echo $mirror_name; ?>, <?php echo $country; ?>. Click <a href="<?php echo $url.$file ?>">here</a> if your download doesn't start. Refresh the page to download from another mirror.</p>
+  <p>Downloading from <?php echo $mirror_name; ?>, <?php echo $country; ?>. Click <a href="<?php echo $mirror_url.$file ?>">here</a> if your download doesn't start. Refresh the page to download from another mirror.</p>
   <p>If you want to put a direct download link on your website, please use <?php echo "http://www.videolan.org/mirror.php?file=$file"; ?>.<br />Please don't use a direct link. This script allows us to distribute the network load across our mirrors. Thanks."; </p>
  </body>
 </html>
@@ -55,16 +55,16 @@
     }
     
     $request = pg_query($connect, "SELECT * FROM mirrors ".
-                                   "WHERE address='$mirror' AND file='$file' AND date=current_date"); 
+                                   "WHERE address='$mirror_url' AND file='$file' AND date=current_date"); 
     $done = 0;
     if( $row = pg_fetch_array($request) )
     {
-        pg_query($connect, "UPDATE mirrors SET number=number+1 WHERE address='$mirror' AND file='$file' AND date=current_date"); 
+        pg_query($connect, "UPDATE mirrors SET number=number+1 WHERE address='$mirror_url' AND file='$file' AND date=current_date"); 
     }
     else
     {
 	pg_query($connect, "INSERT INTO mirrors (address, file, number,date)".
-	                    "VALUES ('" . $mirror . "', '" . $file . "', 1,".
+	                    "VALUES ('" . $mirror_url . "', '" . $file . "', 1,".
 			    "current_date)");
     }
     pg_close($connect);

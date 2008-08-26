@@ -5,7 +5,7 @@
 
   if( !isset($file) ) { die; }
 
-  require $_SERVER["DOCUMENT_ROOT"]."/include/mirrors";
+  require $_SERVER["DOCUMENT_ROOT"]."/include/mirrors.php";
 
   if( isset($mirror_url) )
   {

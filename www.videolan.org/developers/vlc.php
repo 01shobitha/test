@@ -16,7 +16,7 @@ See the <a href="http://www.videolan.org/vlc/">VLC page</a> if you are not willi
 has move to a <a href="http://wiki.videolan.org/Developers_Corner">wiki</a>.
 Check it out!</p>
 
-<h2>Get VLC Sourcecode</h2>
+<h2>Get VLC Source Code</h2>
 
 <p><code>VLC</code> is available through 
 <a href="http://wiki.videolan.org/Git">Git</a> or by

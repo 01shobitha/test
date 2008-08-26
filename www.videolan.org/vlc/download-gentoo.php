@@ -49,7 +49,7 @@ these USE flags. You can loose more functionality than you might expect.
 <div id="right">
   <h2>Source code</h2>
 
-  <p>If you want, you can download the <a href="download-sources.html">sourcecode</a> of VLC media player.</p>
+  <p>If you want, you can download the <a href="download-sources.html">source code</a> of VLC media player.</p>
 
 </div>
 <?php footer('$Id$'); ?>

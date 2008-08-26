@@ -14,15 +14,16 @@
 
 <p>All mirrors include all the available translations.</p>
 
-  <h2>Latest packages (0.8.6i)</h2>
+<?php $vlc_version = '0.8.6i'; ?>
+  <h2>Latest packages (<?php echo $vlc_version; ?>)</h2>
 
 <?php
     pkgitem( "Windows self-extracting package",
-                   "0.8.6i/win32","vlc-0.8.6i-win32.exe","vlc");
+                   "$vlc_version/win32","vlc-$vlc_version-win32.exe","vlc");
     pkgitem("Windows 7zip (identical to the above but without the installer)",
-                  "0.8.6i/win32","vlc-0.8.6i-win32.7z","vlc");
+                  "$vlc_version/win32","vlc-$vlc_version-win32.7z","vlc");
     pkgitem("Windows zip packages (identical to the above)",
-                  "0.8.6i/win32","vlc-0.8.6i-win32.zip","vlc");
+                  "$vlc_version/win32","vlc-$vlc_version-win32.zip","vlc");
 ?>
 
   <h2>Older versions</h2>
@@ -33,7 +34,7 @@
 <div id="right">
   <h2>Source code</h2>
 
-  <p>If you want, you can download the <a href="download-sources.html">sourcecode</a> of VLC media player.</p>
+  <p>If you want, you can download the <a href="download-sources.html">source code</a> of VLC media player.</p>
 
   <?php panel_start( "gray" ); ?>
         <p><strong>Windows 95/98/Me users:</strong> Please note that these versions of Windows are not officially supported. No VideoLAN developer uses any of these systems, which makes them hard to support. VLC should mostly work with them, but some incompatibilities might appear. You might need to download <a href="http://www.microsoft.com.nsatc.net/globaldev/handson/dev/mslu_announce.mspx">The Microsoft Layer for Unicode on Windows 95/98/Me Systems</a>. The two MSLU files need to be put in the <code>C:\Windows\System\</code> folder.</p>

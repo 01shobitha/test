@@ -21,7 +21,7 @@ due to lack of interested developers and proper toolchains.
 
 <h2>Source code</h2>
 
-<p>If you want, you can download the <a href="download-sources.html">sourcecode</a> of VLC media player.</p>
+<p>If you want, you can download the <a href="download-sources.html">source code</a> of VLC media player.</p>
 
 </div>
 

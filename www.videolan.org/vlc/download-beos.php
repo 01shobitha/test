@@ -27,7 +27,7 @@
   <h2>Source code</h2>
 
   <p>If you want, you can download the
-  <a href="download-sources.html">sourcecode</a> of VLC media player.</p>
+  <a href="download-sources.html">source code</a> of VLC media player.</p>
 </div>
 
 <?php

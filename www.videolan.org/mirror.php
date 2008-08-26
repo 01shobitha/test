@@ -1,5 +1,4 @@
 <?php
-  require '/home/videolan/etc/db.php';
   $mirror_url = $_GET["mirror"];
   $file = $_GET["file"];
 
@@ -46,6 +45,7 @@
     {
 	exit;
     }
+  require '/home/videolan/etc/db.php';
     /* Load saved data */
     $connect = pg_connect( $connect_string );
   

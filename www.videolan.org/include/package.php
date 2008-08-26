@@ -34,7 +34,7 @@ function pkgitem($description,$version,$name,$top,$extradescription="")
 	$url = $mirror[0]; $mirror_name = $mirror[1];
 	$country = $mirror[2]; $country_short = $mirror[3];
 	$type = $mirror[4];
-	echo " <tr><td>$mirror_name</td><td class=\"$country_short\">$country</td><td><a href=\"http://www.videolan.org/mirror.html?mirror=$url&amp;file=$top/$version/$name\">Download</a> ($type)</td></tr>\n "; 
+	echo " <tr><td>$mirror_name</td><td class=\"$country_short\">$country</td><td><a href=\"http://www.videolan.org/mirror.php?mirror=$url&amp;file=$top/$version/$name\">Download</a> ($type)</td></tr>\n "; 
     }
  ?>
   </tbody></table>

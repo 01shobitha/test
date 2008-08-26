@@ -72,3 +72,8 @@ http://mirror.yandex.ru/mirrors/ftp.videolan.org/|Yandex|Russia|ru|HTTP|1000
 # Armenian Datacom Company, Armenia
 #  Tigran Afrikyan <mirrors  qt adc dot am> 
 http://vlc.mirrors.adc.am/|Armenian Datacom Company|Armenia|am|HTTP|200
+#
+# Technotop Networks, The Netherlands
+# Robbert van Hulsentop <robbert at technotop dot nl>
+# Base directory listing is disabled. Listing of subdirectories works.
+http://videolan.mirror.technotop.nl|Technotop Networks|Netherlands|nl|HTTP|1000

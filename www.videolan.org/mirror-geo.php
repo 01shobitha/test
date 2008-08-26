@@ -5,27 +5,21 @@
 <!--
 <?php
 
-$mirror = $_GET["mirror"];
+$mirror_url = $_GET["mirror"];
 $file = $_GET["file"];
 
 if( !isset( $file ) ) { die; }
 
-if( !isset( $mirror ) )
+if( !isset( $mirror_url ) )
 {
   require $_SERVER["DOCUMENT_ROOT"]."/include/continents.php";
+  require $_SERVER["DOCUMENT_ROOT"]."/include/mirrors.php";
 
   $code = apache_note("GEOIP_COUNTRY_CODE");
   $name = apache_note("GEOIP_COUNTRY_NAME");
   echo "Your country is: $code ($name)\n";
   $continent = $continents[$code];
   echo "Your continent is: $continent\n";
-
-  $listfile = $_SERVER["DOCUMENT_ROOT"]."/include/mirrors";
-  $fp = fopen( $listfile, "r" );
-  $all = fread( $fp, filesize( $listfile ) );
-  fclose( $fp );
-  $mirrors = explode( "\n", $all );
-  array_pop( $mirrors );
 
   /* Country */
   $cbw = 0;    /* Available bandwidth in country */
@@ -41,10 +35,8 @@ if( !isset( $mirror ) )
 
   foreach( $mirrors as $mirror )
   {
-    if( substr( $mirror, 0, 1 ) == "#" ) continue;
-    $ex=explode("|",$mirror);
-    $country_short = $ex[3];
-    $bw = $ex[5];
+    $country_short = $mirror[3];
+    $bw = $mirror[5];
     $COUNTRY_SHORT = strtoupper( $country_short );
     if( $COUNTRY_SHORT == $code )
     {
@@ -76,14 +68,11 @@ if( !isset( $mirror ) )
 
   foreach( $mirrors as $mirror )
   {
-    if( substr( $mirror, 0, 1 ) == "#" ) continue;
-
-    $ex=explode("|",$mirror);
-    $mirror_url = $ex[0];
-    $mirror_name = $ex[1];
-    $country = $ex[2];
-    $country_short = $ex[3];
-    $bw = $ex[5];
+    $mirror_url = $mirror[0];
+    $mirror_name = $mirror[1];
+    $country = $mirror[2];
+    $country_short = $mirror[3];
+    $bw = $mirror[5];
     $COUNTRY_SHORT = strtoupper( $country_short );
 
     /* Get the current mirror's probability of being choosen */

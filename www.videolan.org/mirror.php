@@ -1,47 +1,43 @@
 <?php
-   require '/home/videolan/etc/db.php';
-   $mirror = $_GET["mirror"];
-   $file = $_GET["file"];
+  require '/home/videolan/etc/db.php';
+  $mirror_url = $_GET["mirror"];
+  $file = $_GET["file"];
 
-   if( !isset($file) ) { die; }
+  if( !isset($file) ) { die; }
 
-   $listfile = $_SERVER["DOCUMENT_ROOT"]."/include/mirrors";
-   $file_id = fopen( $listfile, "r" );
-   $all = fread ( $file_id, filesize( $listfile ) );
-   fclose ( $file_id );
-   $mirrors = explode ( "\n", $all );
+  require $_SERVER["DOCUMENT_ROOT"]."/include/mirrors";
 
-   if ( isset($mirror) )
-   {
-       $len = sizeof( $mirrors );
-       for ( $i = 0; $i < $len; $i++ ) {
-           $url = explode ( "|", $mirrors[$i] );
-           if( $mirror === $url[0] ) $found = true;
-       }
+  if( isset($mirror_url) )
+  {
+    foreach( $mirrors as $mirror )
+    {
+      if( $mirror_url === $mirror[0] )
+      {
+        $found = true; break;
+      }
+    }
 
-       !$found && die;
-   }
-   else
-   # Pick up a random mirror  
-   {
-       array_pop( $mirrors );
-       while( !isset( $mirror ) )
-        {
-            $index = rand( 0, sizeof( $mirrors ) - 1 );
-            if( substr( $mirrors[ $index] , 0, 1 ) == "#" ) continue;
-            $esp = strpos( $mirrors[ $index] , "|" );
-            $mirror = substr( $mirrors[ $index ], 0, $esp );
-        }
-   }
+    !$found && die;
+  }
+  else
+  # Pick up a random mirror  
+  {
+    $index = rand( 0, sizeof( $mirrors ) - 1 );
+    $mirror = $mirrors[$index];
+    $mirror_url = $mirror[0];
+  }
+
+  $mirror_name = $mirror[1];
+  $country = $mirror[2];
 ?>
 <html>
  <head>
   <title>VideoLAN - Download from mirror</title>
-  <meta http-equiv="refresh" content="0; url=<?php echo $mirror.$file ?>" />
+  <meta http-equiv="refresh" content="0; url=<?php echo $url.$file ?>" />
  </head>
  <body>
-  <p>Click <a href="<?php echo $mirror.$file ?>">here</a> if your download doesn't start</p>
-  <p>If you want to put a direct download link on your website, please use <?php echo "http://www.videolan.org/mirror.php?file=$file.<br />Please don't use a direct link. This script allows us to distribute the network load across our mirrors. Thanks."; ?> </p>
+  <p>Downloading from <?php echo $mirror_name; ?>, <?php echo $country; ?>. Click <a href="<?php echo $url.$file ?>">here</a> if your download doesn't start. Refresh the page to download from another mirror.</p>
+  <p>If you want to put a direct download link on your website, please use <?php echo "http://www.videolan.org/mirror.php?file=$file"; ?>.<br />Please don't use a direct link. This script allows us to distribute the network load across our mirrors. Thanks."; </p>
  </body>
 </html>
 

@@ -28,21 +28,12 @@ function pkgitem($description,$version,$name,$top,$extradescription="")
       <th>Download</th>
     </tr>
 <?php
-    $file = $_SERVER["DOCUMENT_ROOT"]."/include/mirrors";
-    $file_id = fopen( $file , "r" );
-    $all = fread( $file_id, filesize( $file ) );
-    fclose( $file_id );
-    $mirrors = explode( "\n", $all );    
-
-    array_pop($mirrors);
-
+    require $_SERVER["DOCUMENT_ROOT"]."/include/mirrors.php";
     foreach( $mirrors as $mirror )
     {
-	if( substr( $mirror, 0, 1 ) == "#" ) continue;
-	$ex=explode("|",$mirror);
-	$url = $ex[0]; $mirror_name = $ex[1];
-	$country = $ex[2]; $country_short = $ex[3];
-	$type = $ex[4];
+	$url = $mirror[0]; $mirror_name = $mirror[1];
+	$country = $mirror[2]; $country_short = $mirror[3];
+	$type = $mirror[4];
 	echo " <tr><td>$mirror_name</td><td class=\"$country_short\">$country</td><td><a href=\"http://www.videolan.org/mirror.html?mirror=$url&amp;file=$top/$version/$name\">Download</a> ($type)</td></tr>\n "; 
     }
  ?>

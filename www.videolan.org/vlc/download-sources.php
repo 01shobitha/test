@@ -1,7 +1,7 @@
 <?php
    $title = "VLC media player source code";
    $lang = "en";
-   $date = "13 December 2005";
+   $date = "30 August 2008";
    $menu = array( "vlc", "download" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
@@ -12,17 +12,17 @@
 <div id="left">
 <h2>Tarballs</h2>
 
-<p> Latest VLC source code tarball (0.8.6i): </p>
+<p> Latest VLC source code tarball (0.9.1): </p>
 
 <ul class="bullets">
 <li>
-  <?php  pkgitem_nomirr("VLC source code tar.gz", "0.8.6i","vlc-0.8.6i.tar.gz","vlc");?></li>
-<li><?php pkgitem_nomirr("VLC source code tar.bz2", "0.8.6i","vlc-0.8.6i.tar.bz2","vlc"); ?></li>
+  <?php  pkgitem_nomirr("VLC source code tar.gz", "0.9.1","vlc-0.9.1.tar.gz","vlc");?></li>
+<li><?php pkgitem_nomirr("VLC source code tar.bz2", "0.9.1","vlc-0.9.1.tar.bz2","vlc"); ?></li>
 </ul>
 
 <h2> Latest required libraries: </h2>
 <p>
-The list of required libraries is not yet updated for 0.8.6i
+The list of required libraries is not yet updated for 0.9.1
 </p>
 
 <!--

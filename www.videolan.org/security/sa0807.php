@@ -64,12 +64,12 @@ from the official VLC source code repository.
 <dd>TTA source code fixes for VLC 0.9.</dd>
 <dt>21 August 2008</dt>
 <dd>TTA source code fixes for VLC 0.8.6.</dd>
-<dt>24 June 2008</dt>
+<dt>24 August 2008</dt>
 <dd>MMS vulnerability public disclosure.</dd>
 <dt>Vendor notified by third parties.</dt>
 <dd>MMS source code fixes for VLC 0.8.6 and 0.9.</dd>
 <dd>VLC media player 0.9.0 released.</dd>
-<dt>30 June 2008</dt>
+<dt>30 August 2008</dt>
 <dd>Initial security advisory.</dt>
 </dl>
 

@@ -60,7 +60,7 @@ from the official VLC source code repository.
 <dt>16 August 2008</dt>
 <dd>TTA vulnerability public disclosure.</dd>
 <dt>20 August 2008</dt>
-<dt>Vendor notified by third parties.</dt>
+<dd>Vendor notified by third parties.</dd>
 <dd>TTA source code fixes for VLC 0.9.</dd>
 <dt>21 August 2008</dt>
 <dd>TTA source code fixes for VLC 0.8.6.</dd>

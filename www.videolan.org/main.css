@@ -74,6 +74,7 @@ select {
 }
 
 p.center { text-align:center;} 
+img.center { display: block; margin: auto; }
 .hidden { display:none; }
 .clearme { clear:both; }
 .date { color: #75818A;	font-family: Verdana, Arial, Helvetica, sans-serif;

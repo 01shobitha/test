@@ -6,7 +6,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-<div id="fullwidth">
+<div id="left">
 <h1>VLMa - User documentation</h1>
 
 <h2>Generalities</h2>
@@ -35,6 +35,14 @@ the daemon.</p>
 </ul>
 
 <p>Thanks to Thanh-tra Nguyen.</p>
+
+</div>
+
+<div id="right">
+
+  <div class="panel-blue">
+    <img style="border: 1px solid #bbb;" class="center" alt="VLMa logo" src="http://download.videolan.org/vlma/VLMa.png" />
+  </div>
 
 </div>
 

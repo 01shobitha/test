@@ -75,7 +75,7 @@ and a web interface (called VLMaw).</p>
 
           <h1>Screenshot (with French localization)</h1>
           <div>
-            <img style="border: 1px solid #ccc; margin: auto; display: block" alt="VLMa screenshot" src="http://download.videolan.org/vlma/screenshot/welcome.png" />
+            <img style="border: 1px solid #ccc;" class="center" alt="VLMa screenshot" src="http://download.videolan.org/vlma/screenshot/welcome.png" />
           </div>
 
       </div>

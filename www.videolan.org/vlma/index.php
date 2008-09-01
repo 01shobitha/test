@@ -42,6 +42,7 @@ and a web interface (called VLMaw).</p>
 </div>
 
 <div id="right">
+
   <div class="panel-orange"> <!-- begin panel -->
 
     <div class="hd">
@@ -73,8 +74,8 @@ and a web interface (called VLMaw).</p>
       <div class="c">
 
           <h1>Screenshot (with French localization)</h1>
-          <div align="center">
-            <img style="border: 1px solid #ccc" src="http://download.videolan.org/vlma/screenshot/welcome.png" />
+          <div>
+            <img style="border: 1px solid #ccc; margin: auto; display: block" alt="VLMa screenshot" src="http://download.videolan.org/vlma/screenshot/welcome.png" />
           </div>
 
       </div>

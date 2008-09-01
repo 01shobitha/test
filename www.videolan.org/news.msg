@@ -2,6 +2,8 @@
 # New topics begin with a "|"
 #
 
+|30 August 2008| VideoLAN Security Advisory 0807 | VLC media player versions 0.8.6i and older suffer from multiple buffer overflow vulnerabilities. <a href="http://www.videolan.org/sa0807.html">Refer to our advisory</a> for technical details. Fixes for these issues are available in VLC 0.9. We strongly recommend all users to update to this new version.
+
 |12 July 2008|VLC media player 0.8.6i release|We are pleased to announce the release of VLC media player 0.8.6i.<br />This is a bugfix release. VLC media player 0.8.6h and earlier versions suffer from security vulnerabilities in the WAV demuxer.<br />This release also includes improved audio visualizations on FreeBSD and miscellaneous bug fixes in multiple modules.<br />More information can be found in our <a href="security/sa0806.html">Security Advisory</a> and in the <a href="http://wiki.videolan.org/Changelog/0.8.6i">Release Notes</a>.<br />We strongly recommend all users to update to this new version.
 
 |6 June 2008|VLC media player 0.8.6h release|We are pleased to announce the release of VLC media player 0.8.6h.<br />This is a bugfix release. VLC media player 0.8.6g (a source code release) and earlier versions suffer from security vulnerabilities in the GnuTLS, libgcrypt and libxml2 libraries.<br />VLC media player 0.8.6f and earlier versions suffer from security vulnerabilities in the Mozilla and ActiveX plugins, in the libpng, libid3tag, libvorbis libraries and in the Speex codec.<br />

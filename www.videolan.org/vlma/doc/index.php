@@ -6,8 +6,23 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-<div id="left">
+<div id="fullwidth">
 <h1>VLMa - User documentation</h1>
+
+<h2>Typical VLMa installation</h2>
+
+<p>Servers running VLC have one or more DVB-S or DVB-T cards in order to acquire
+signal. VLMa periodically checks that medias are really streamed. If not it
+sends new orders to VLC servers through their telnet interfaces. Note that you
+can also use VLMa to stream file channels or to stream existing streams (for
+example if you want to stream in multicast an existing HTTP stream).</p>
+
+<p>Although servers have to run VLC (VLMa doesn't know about other softwares'
+syntax / way of sending commands), clients do not have to run VLC but any media
+player that is able to read UDP (or HTTP in case of a network that does not
+support multicast) streams.</p>
+
+<img style="border: 1px solid #ccc; padding:5px" class="center" alt="VLMa typical installation" src="http://download.videolan.org/vlma/vlma-arch.png" />
 
 <h2>Generalities</h2>
 
@@ -35,14 +50,6 @@ the daemon.</p>
 </ul>
 
 <p>Thanks to Thanh-tra Nguyen.</p>
-
-</div>
-
-<div id="right">
-
-  <div class="panel-blue">
-    <img style="border: 1px solid #bbb;" class="center" alt="VLMa logo" src="http://download.videolan.org/vlma/VLMa.png" />
-  </div>
 
 </div>
 

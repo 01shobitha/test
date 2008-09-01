@@ -43,6 +43,10 @@ and a web interface (called VLMaw).</p>
 
 <div id="right">
 
+  <div class="panel-blue">
+    <img style="border: 1px solid #bbb; padding: 1px" class="center" alt="VLMa logo" src="http://download.videolan.org/vlma/VLMa.png" />
+  </div>
+
   <div class="panel-orange"> <!-- begin panel -->
 
     <div class="hd">

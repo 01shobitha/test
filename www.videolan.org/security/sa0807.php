@@ -66,7 +66,7 @@ from the official VLC source code repository.
 <dd>TTA source code fixes for VLC 0.8.6.</dd>
 <dt>24 August 2008</dt>
 <dd>MMS vulnerability public disclosure.</dd>
-<dt>Vendor notified by third parties.</dt>
+<dd>Vendor notified by third parties.</dd>
 <dd>MMS source code fixes for VLC 0.8.6 and 0.9.</dd>
 <dd>VLC media player 0.9.0 released.</dd>
 <dt>30 August 2008</dt>

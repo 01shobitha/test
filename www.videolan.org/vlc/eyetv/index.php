@@ -14,6 +14,10 @@
 
   <p>Here you will soon be able to download a plugin for EyeTV. With this plugin you can open with VLC, mpeg streams produced by the EyeTV application.</p>
 
+  <h2>Download</h2>
+  <?php pkgitem( "EyeTV VLC plugin",
+               "eyetv","eyetv_vlcplugin_installer.zip","vlc"); ?>
+
 </div>
 
 <?php footer('$Id$'); ?>

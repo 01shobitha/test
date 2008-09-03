@@ -25,16 +25,18 @@
   <?php pkgitem( "EyeTV VLC plugin",
                "eyetv","eyetv_vlcplugin_installer.zip","vlc"); ?>
 
-</div>
+</div> <!-- div left -->
 
 <div id="right">
 
 <?php panel_start( "orange" ); ?>
 <h1>Screenshots</h1>
 <div class="screenshot"><a href='http://download.videolan.org/vlc/screenshots/eyetv/eyetv_and_vlc.jpg'>
-    <img src='http://download.videolan.org/vlc/screenshots/eyetv/tm_eyetv_and_vlc.jpg' alt='Selecting an EyeTV channel before recording' width='150' /></a>
-    <br />  Selecting an EyeTV channel before recording
+    <img src='http://download.videolan.org/vlc/screenshots/eyetv/tn_eyetv_and_vlc.jpg' alt='Selecting an EyeTV channel before recording' width='150' /></a>
+    <p>Selecting an EyeTV channel before recording</p>
 </div>
 <?php panel_end(); ?>
+
+</div> <!-- div right -->
 
 <?php footer('$Id$'); ?>

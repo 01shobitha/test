@@ -354,11 +354,11 @@ feature( "JACK", NONE, PART, YES, NONE, UNT, UNT );
 <?php feature_table( false ); ?>
 <tr>
 <td class="type">Default</td>
-<td class="yes">WxWidgets</td>
+<td class="yes">Qt4</td>
 <td class="yes">Cocoa</td>
-<td class="yes">WxWidgets</td>
+<td class="yes">Qt4</td>
 <td class="yes">Native</td>
-<td class="yes">WxWidgets</td>
+<td class="yes">Qt4</td>
 <td class="yes">GPE</td>
 </tr>
 

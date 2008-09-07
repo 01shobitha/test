@@ -6,8 +6,8 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
 function screenshot($img,$thumb,$desc,$size){
-echo"    <div class=\"screenshot\"><a href='http://download.videolan.org$img'><img
-    src='http://download.videolan.org$thumb' alt='$desc' width='150' /></a>
+echo"    <div class=\"screenshot\"><a href='http://download.videolan.org/vlc/screenshots/$img'><img
+    src='http://download.videolan.org/vlc/screenshots/$thumb' alt='$desc' width='150' /></a>
     <br />  $desc<br />($size) </div>";
 }
 ?>
@@ -20,26 +20,26 @@ echo"    <div class=\"screenshot\"><a href='http://download.videolan.org$img'><i
 <h2>Latest screenshots 0.9.2</h2>
 
 <?php
-screenshot( "/vlc/screenshots/0.9.2/qt-albumart.jpg",
-            "/vlc/screenshots/0.9.2/tm_qt-albumart.jpg",
+screenshot( "0.9.2/qt-albumart.jpg",
+            "0.9.2/tm_qt-albumart.jpg",
             "GNU/Linux Debian - Qt interface and album art", "1280x800" );
-screenshot( "/vlc/screenshots/0.9.2/qt-fullscreen.jpg",
-            "/vlc/screenshots/0.9.2/tm_qt-fullscreen.jpg",
+screenshot( "0.9.2/qt-fullscreen.jpg",
+            "0.9.2/tm_qt-fullscreen.jpg",
             "GNU/Linux Debian - Qt fullscreen interface", "1042x794" );
 ?>
 
 <h2 class="clearme">0.8.6</h2>
 <?php
-screenshot( "/vlc/screenshots/0.8.6/VLC-0.8.6-beryl.jpg",
-	    "/vlc/screenshots/0.8.6/tm_VLC-0.8.6-beryl.jpg",
+screenshot( "0.8.6/VLC-0.8.6-beryl.jpg",
+	    "0.8.6/tm_VLC-0.8.6-beryl.jpg",
 	    "GNU/Linux Debian - Beryl", "1680x1050" );
 
-screenshot( "/vlc/screenshots/0.8.6/VLC-0.8.6-beryl-ubuntu.jpg",
-	    "/vlc/screenshots/0.8.6/tm_VLC-0.8.6-beryl-ubuntu.jpg",
+screenshot( "0.8.6/VLC-0.8.6-beryl-ubuntu.jpg",
+	    "0.8.6/tm_VLC-0.8.6-beryl-ubuntu.jpg",
 	    "GNU/Linux Ubuntu - Beryl", "1024x768" );
 
-screenshot( "/vlc/screenshots/0.8.6/VLC-mac-Fullscreen.jpg",
-	    "/vlc/screenshots/0.8.6/tm_VLC-mac-Fullscreen.jpg",
+screenshot( "0.8.6/VLC-mac-Fullscreen.jpg",
+	    "0.8.6/tm_VLC-mac-Fullscreen.jpg",
 	    "Mac OS X - FullScreen Controller", "1280x800" );
 
 ?>
@@ -48,137 +48,137 @@ screenshot( "/vlc/screenshots/0.8.6/VLC-mac-Fullscreen.jpg",
 <h2 class="clearme">0.8.5</h2>
 
 <?php
-screenshot( "/vlc/screenshots/0.8.5/VLC-screenshot-0.8.5.JPG",
-            "/vlc/screenshots/0.8.5/tm_VLC-screenshot-0.8.5.JPG",
+screenshot( "0.8.5/VLC-screenshot-0.8.5.JPG",
+            "0.8.5/tm_VLC-screenshot-0.8.5.JPG",
             "Skins2 - Blista skin","1280x1024" );
-screenshot( "/vlc/screenshots/0.8.5/VLC-default-skin.jpg",
-            "/vlc/screenshots/0.8.5/tm_VLC-default-skin.jpg",
+screenshot( "0.8.5/VLC-default-skin.jpg",
+            "0.8.5/tm_VLC-default-skin.jpg",
             "Skins2 - New default skin", "1024x768" );
 ?>
 <h2 class="clearme">0.8.4</h2>
 
 <?php
-screenshot( "/vlc/screenshots/0.8.4/vista_screenshot.png",
-            "/vlc/screenshots/0.8.4/tm_vista_screenshot.png",
+screenshot( "0.8.4/vista_screenshot.png",
+            "0.8.4/tm_vista_screenshot.png",
             "Windows Vista Beta 1","1280x1024" );
-screenshot( "/vlc/screenshots/0.8.4/zeta_R1.1.jpg",
-            "/vlc/screenshots/0.8.4/tm_zeta_R1.1.jpg",
+screenshot( "0.8.4/zeta_R1.1.jpg",
+            "0.8.4/tm_zeta_R1.1.jpg",
             "ZetaOS R1.1", "1280x1024" );
 ?>
 
 <h2 class="clearme">0.8.2</h2>
 
 <?php
-screenshot( "/vlc/screenshots/0.8.2/linux-wxwin-playlist.png",
-            "/vlc/screenshots/0.8.2/tm_linux-wxwin-playlist.png",
+screenshot( "0.8.2/linux-wxwin-playlist.png",
+            "0.8.2/tm_linux-wxwin-playlist.png",
             "Linux - Playlist", "1280x1024" );
-screenshot( "/vlc/screenshots/0.8.2/linux-wxwin-prefs.png",
-            "/vlc/screenshots/0.8.2/tm_linux-wxwin-prefs.png",
+screenshot( "0.8.2/linux-wxwin-prefs.png",
+            "0.8.2/tm_linux-wxwin-prefs.png",
             "Linux - Preferences", "1280x1024" );
-screenshot( "/vlc/screenshots/0.8.2/linux-skins2-MediaPlayer.jpg",
-            "/vlc/screenshots/0.8.2/tm_linux-skins2-MediaPlayer.jpg",
+screenshot( "0.8.2/linux-skins2-MediaPlayer.jpg",
+            "0.8.2/tm_linux-skins2-MediaPlayer.jpg",
             "Skins - Media Player skin", "1024x768" );
-screenshot( "/vlc/screenshots/0.8.2/linux-wxwin-mosaic.jpg",
-            "/vlc/screenshots/0.8.2/tm_linux-wxwin-mosaic.jpg",
+screenshot( "0.8.2/linux-wxwin-mosaic.jpg",
+            "0.8.2/tm_linux-wxwin-mosaic.jpg",
             "Mosaïc" , "1024x768" );
 ?>
 <p class="clearme"></p>
 <?php
-screenshot( "/vlc/screenshots/0.8.2/windows-wxwin-hdtv.png",
-            "/vlc/screenshots/0.8.2/tm_windows-wxwin-hdtv.png",
+screenshot( "0.8.2/windows-wxwin-hdtv.png",
+            "0.8.2/tm_windows-wxwin-hdtv.png",
             "Windows - HD TV", "1280x1024" );
-screenshot( "/vlc/screenshots/0.8.2/windows-wxwin-playlist.png",
-            "/vlc/screenshots/0.8.2/tm_windows-wxwin-playlist.png",
+screenshot( "0.8.2/windows-wxwin-playlist.png",
+            "0.8.2/tm_windows-wxwin-playlist.png",
             "Windows - Playlist", "1280x1024" );
-screenshot( "/vlc/screenshots/0.8.2/macosx-mp3.jpg",
-            "/vlc/screenshots/0.8.2/tm_macosx-mp3.jpg",
+screenshot( "0.8.2/macosx-mp3.jpg",
+            "0.8.2/tm_macosx-mp3.jpg",
             "Mac OS X - Playlist", "1024x768") ;
-screenshot( "/vlc/screenshots/0.8.2/macosx-serenity.jpg",
-            "/vlc/screenshots/0.8.2/tm_macosx-serenity.jpg",
+screenshot( "0.8.2/macosx-serenity.jpg",
+            "0.8.2/tm_macosx-serenity.jpg",
             "Mac OS X - Video","1024x768" );
 ?>
 <p class="clearme"></p>
 <?php 
-screenshot( "/vlc/screenshots/0.8.2/linux-wxwin-all.png",
-            "/vlc/screenshots/0.8.2/tm_linux-wxwin-all.png",
+screenshot( "0.8.2/linux-wxwin-all.png",
+            "0.8.2/tm_linux-wxwin-all.png",
             "Linux", "1280x1024" );
-screenshot( "/vlc/screenshots/0.8.2/neutron-osx-screenshot.jpg",
-            "/vlc/screenshots/0.8.2/tm_neutron-osx-screenshot.jpg",
+screenshot( "0.8.2/neutron-osx-screenshot.jpg",
+            "0.8.2/tm_neutron-osx-screenshot.jpg",
             "Mac OS X - Video","1024x768" );
-screenshot( "/vlc/screenshots/0.8.2/zeta_R1_Screenie.jpg",
-            "/vlc/screenshots/0.8.2/tm_zeta_R1_Screenie.jpg",
+screenshot( "0.8.2/zeta_R1_Screenie.jpg",
+            "0.8.2/tm_zeta_R1_Screenie.jpg",
             "Zeta (BeOS) - Video", "1280x1024" );
 ?>
 
 <h2 class="clearme">0.7.2</h2>
 
 <?php
-screenshot( "/vlc/screenshots/20040531-osx-1.jpg",
-            "/vlc/screenshots/tn_20040531-osx-1.jpg",
+screenshot( "20040531-osx-1.jpg",
+            "tn_20040531-osx-1.jpg",
             "Mac OS X", "1280x960" );
-screenshot( "/vlc/screenshots/20040531-osx-2.jpg",
-            "/vlc/screenshots/tn_20040531-osx-2.jpg",
+screenshot( "20040531-osx-2.jpg",
+            "tn_20040531-osx-2.jpg",
             "Mac OS X", "1024x768" );
-screenshot( "/vlc/screenshots/20040531-linux-1.jpg",
-            "/vlc/screenshots/tn_20040531-linux-1.jpg",
+screenshot( "20040531-linux-1.jpg",
+            "tn_20040531-linux-1.jpg",
             "wxGTK Linux", "1280x960");
-screenshot( "/vlc/screenshots/20040531-linux-2.jpg",
-            "/vlc/screenshots/tn_20040531-linux-2.jpg",
+screenshot( "20040531-linux-2.jpg",
+            "tn_20040531-linux-2.jpg",
             "wxGTK Linux", "1280x960" );
 ?>
 <p class="clearme"></p>
 <?php
-screenshot( "/vlc/screenshots/20040601-linux-wx-subs.jpg",
-            "/vlc/screenshots/tn_20040601-linux-wx-subs.jpg",
+screenshot( "20040601-linux-wx-subs.jpg",
+            "tn_20040601-linux-wx-subs.jpg",
             "Linux (UTF8 subtitles)", "1152x864" );
-screenshot( "/vlc/screenshots/20040601-linux-skins2-6.jpg",
-            "/vlc/screenshots/tn_20040601-linux-skins2-6.jpg",
+screenshot( "20040601-linux-skins2-6.jpg",
+            "tn_20040601-linux-skins2-6.jpg",
             "Linux Skins2", "1280x1024" );
-screenshot( "/vlc/screenshots/20040601-windows-skins2-1.jpg",
-            "/vlc/screenshots/tn_20040601-windows-skins2-1.jpg",
+screenshot( "20040601-windows-skins2-1.jpg",
+            "tn_20040601-windows-skins2-1.jpg",
             "Windows Skins2", "1280x1024" );
-screenshot( "/vlc/screenshots/20040602-windows-wxembed-2.jpg",
-            "/vlc/screenshots/tn_20040602-windows-wxembed-2.jpg",
+screenshot( "20040602-windows-wxembed-2.jpg",
+            "tn_20040602-windows-wxembed-2.jpg",
             "Windows WxWidgets", "1280x1024" );
 ?>
 <p class="clearme"></p>
 <?php
-screenshot( "/vlc/screenshots/20040602-windows-wxembed-4.jpg",
-            "/vlc/screenshots/tn_20040602-windows-wxembed-4.jpg",
+screenshot( "20040602-windows-wxembed-4.jpg",
+            "tn_20040602-windows-wxembed-4.jpg",
             "Windows with Goom", "1280x1024" );
-screenshot( "/vlc/screenshots/20040602-windows-wxembed-5.jpg",
-            "/vlc/screenshots/tn_20040602-windows-wxembed-5.jpg",
+screenshot( "20040602-windows-wxembed-5.jpg",
+            "tn_20040602-windows-wxembed-5.jpg",
             "Windows with Goom", "1280x1024" );
-screenshot( "/vlc/screenshots/20040602-beos-1.png",
-            "/vlc/screenshots/tn_20040602-beos-1.png",
+screenshot( "20040602-beos-1.png",
+            "tn_20040602-beos-1.png",
             "BeOS", "800x550" );
-screenshot( "/vlc/screenshots/20040602-beos-2.png",
-            "/vlc/screenshots/tn_20040602-beos-2.png",
+screenshot( "20040602-beos-2.png",
+            "tn_20040602-beos-2.png",
             "BeOS", "1072x766" );
 ?>
 
 <h2 class="clearme">0.7.0</h2>
 
 <?php
-screenshot( "/vlc/screenshots/20040110-osx-00.jpg",
-            "/vlc/screenshots/tn_20040110-osx-00.jpg",
+screenshot( "20040110-osx-00.jpg",
+            "tn_20040110-osx-00.jpg",
             "MacOS X","1051x651" );
-screenshot( "/vlc/screenshots/20040303-osx-00.jpg",
-            "/vlc/screenshots/tn_20040303-osx-00.jpg",
+screenshot( "20040303-osx-00.jpg",
+            "tn_20040303-osx-00.jpg",
             "MacOS X","1024x768" );
 ?>
 
 <h2 class="clearme">VLC for Familiar Linux screenshots</h2>
 
 <?php
-screenshot( "/vlc/screenshots/familiar20021121-02.png",
-            "/vlc/screenshots/familiar20021121-02.png",
+screenshot( "familiar20021121-02.png",
+            "familiar20021121-02.png",
             "iPaq", "" );
-screenshot( "/vlc/screenshots/familiar20021121-00.png",
-            "/vlc/screenshots/familiar20021121-00.png",
+screenshot( "familiar20021121-00.png",
+            "familiar20021121-00.png",
             "iPaq Familiar interface", "" );
-screenshot( "/vlc/screenshots/familiar20021121-04.png",
-            "/vlc/screenshots/familiar20021121-04.png",
+screenshot( "familiar20021121-04.png",
+            "familiar20021121-04.png",
             "iPaq Familiar interface", "" );
 ?>
 
@@ -187,64 +187,64 @@ screenshot( "/vlc/screenshots/familiar20021121-04.png",
 <h3>VLC 0.6.1</h3>
 
 <?php
-screenshot( "/vlc/screenshots/20030731-wxgtk-00.png",
-            "/vlc/screenshots/tn_20030731-wxgtk-00.jpg",
+screenshot( "20030731-wxgtk-00.png",
+            "tn_20030731-wxgtk-00.jpg",
             "wxWindows Linux","1024x768" );
-screenshot( "/vlc/screenshots/20030731-wxgtk-01.png",
-            "/vlc/screenshots/tn_20030731-wxgtk-01.jpg",
+screenshot( "20030731-wxgtk-01.png",
+            "tn_20030731-wxgtk-01.jpg",
             "wxWindows Linux", "1024x768" );
-screenshot( "/vlc/screenshots/20030731-wxgtk-02.png",
-            "/vlc/screenshots/tn_20030731-wxgtk-02.jpg",
+screenshot( "20030731-wxgtk-02.png",
+            "tn_20030731-wxgtk-02.jpg",
             "wxWindows Linux", "1024x768" );
-screenshot( "/vlc/screenshots/20030731-wxgtk-03.png",
-            "/vlc/screenshots/tn_20030731-wxgtk-03.jpg",
+screenshot( "20030731-wxgtk-03.png",
+            "tn_20030731-wxgtk-03.jpg",
             "wxWindows Linux", "1024x768" );
 ?>
 <p class="clearme"></p>
 <?php
-screenshot( "/vlc/screenshots/20030810-beos.jpg",
-            "/vlc/screenshots/tn_20030810-beos.jpg",
+screenshot( "20030810-beos.jpg",
+            "tn_20030810-beos.jpg",
             "BeOS", "1280x1024" );
 ?>
 
 <h3 class="clearme">VLC 0.5.0</h3>
 
 <?php
-screenshot( "/vlc/screenshots/20030228-gnome-01.png",
-            "/vlc/screenshots/tn_20030228-gnome-01.jpg",
+screenshot( "20030228-gnome-01.png",
+            "tn_20030228-gnome-01.jpg",
             "Gnome screenshot", "1024x768" );
-screenshot( "/vlc/screenshots/20030228-gnome-02.png",
-            "/vlc/screenshots/tn_20030228-gnome-02.jpg",
+screenshot( "20030228-gnome-02.png",
+            "tn_20030228-gnome-02.jpg",
             "Gnome screenshot", "1024x768" );
-screenshot( "/vlc/screenshots/20030228-gnome-03.png",
-            "/vlc/screenshots/tn_20030228-gnome-03.jpg",
+screenshot( "20030228-gnome-03.png",
+            "tn_20030228-gnome-03.jpg",
             "Gnome screenshot", "1024x768" );
-screenshot( "/vlc/screenshots/20030202-win32-01.png",
-            "/vlc/screenshots/tn_20030202-win32-01.jpg",
+screenshot( "20030202-win32-01.png",
+            "tn_20030202-win32-01.jpg",
             "Windows screenshot", "1024x768" );
 ?>
 <p class="clearme"> </p>
 <?php
-screenshot( "/vlc/screenshots/20030202-osx-00.jpg",
-            "/vlc/screenshots/tn_20030202-osx-00.jpg",
+screenshot( "20030202-osx-00.jpg",
+            "tn_20030202-osx-00.jpg",
             "Mac OS X screenshot","1152x768" );
-screenshot( "/vlc/screenshots/20030202-osx-01.jpg",
-            "/vlc/screenshots/tn_20030202-osx-01.jpg",
+screenshot( "20030202-osx-01.jpg",
+            "tn_20030202-osx-01.jpg",
             "Mac OS X screenshot", "1152x768" );
-screenshot( "/vlc/screenshots/20030202-osx-02.jpg",
-            "/vlc/screenshots/tn_20030202-osx-02.jpg",
+screenshot( "20030202-osx-02.jpg",
+            "tn_20030202-osx-02.jpg",
             "Mac OS X screenshot",  "1152x768" );
-screenshot( "/vlc/screenshots/20030202-osx-03.jpg",
-            "/vlc/screenshots/tn_20030202-osx-03.jpg",
+screenshot( "20030202-osx-03.jpg",
+            "tn_20030202-osx-03.jpg",
             "Mac OS X screenshot", "1152x768" );
 ?>
 <p class="clearme"> </p>
 <?php
-screenshot( "/vlc/screenshots/20030202-osx-04.jpg",
-            "/vlc/screenshots/tn_20030202-osx-04.jpg",
+screenshot( "20030202-osx-04.jpg",
+            "tn_20030202-osx-04.jpg",
             "Mac OS X screenshot", "1152x768" );
-screenshot( "/vlc/screenshots/20030202-osx-05.jpg",
-            "/vlc/screenshots/tn_20030202-osx-05.jpg",
+screenshot( "20030202-osx-05.jpg",
+            "tn_20030202-osx-05.jpg",
             "Mac OS X screenshot", "1152x768" );
 ?>
 
@@ -252,23 +252,23 @@ screenshot( "/vlc/screenshots/20030202-osx-05.jpg",
 <h3 class="clearme">VLC 0.3.0</h3>
 
 <?php
-screenshot( "/vlc/screenshots/20020406-00.jpeg",
-            "/vlc/screenshots/tn_20020406-00.jpeg",
+screenshot( "20020406-00.jpeg",
+            "tn_20020406-00.jpeg",
             "Gnome screenshot","1024x768" );
-screenshot( "/vlc/screenshots/20020406-01.jpeg",
-            "/vlc/screenshots/tn_20020406-01.jpeg",
+screenshot( "20020406-01.jpeg",
+            "tn_20020406-01.jpeg",
             "Gnome screenshot","1024x768" );
-screenshot( "/vlc/screenshots/20020406-02.jpeg",
-            "/vlc/screenshots/tn_20020406-02.jpeg",
+screenshot( "20020406-02.jpeg",
+            "tn_20020406-02.jpeg",
             "Gnome screenshot","1024x768" );
-screenshot( "/vlc/screenshots/20020411-00.jpeg",
-            "/vlc/screenshots/tn_20020411-00.jpeg",
+screenshot( "20020411-00.jpeg",
+            "tn_20020411-00.jpeg",
             "Mac OS X screenshot", "1152x768" );
 ?>
 <p class="clearme"> </p>
 <?php
-screenshot( "/vlc/screenshots/20020424-00.jpeg",
-            "/vlc/screenshots/tn_20020424-00.jpeg",
+screenshot( "20020424-00.jpeg",
+            "tn_20020424-00.jpeg",
             "Windows screenshot", "1024x768" );
 ?>
 
@@ -281,17 +281,17 @@ we have a preview of the work-in-progress <b>Qt</b> interface, and
 eventually a <b>BeOS</b> screenshot. </p>
 
 <?php
-screenshot( "/vlc/screenshots/20010409-00.png",
-            "/vlc/screenshots/tn_20010409-00.jpeg",
+screenshot( "20010409-00.png",
+            "tn_20010409-00.jpeg",
             "Gnome screenshot", "1024x768" );
-screenshot( "/vlc/screenshots/20010409-01.png",
-            "/vlc/screenshots/tn_20010409-01.jpeg",
+screenshot( "20010409-01.png",
+            "tn_20010409-01.jpeg",
             "Gtk+ screenshot", "1024x768" );
-screenshot( "/vlc/screenshots/20010409-02.png",
-            "/vlc/screenshots/tn_20010409-02.jpeg",
+screenshot( "20010409-02.png",
+            "tn_20010409-02.jpeg",
             "Qt screenshot", "1024x768" );
-screenshot( "/vlc/screenshots/20010412-00.png",
-            "/vlc/screenshots/tn_20010412-00.jpeg",
+screenshot( "20010412-00.png",
+            "tn_20010412-00.jpeg",
             "BeOS screenshot", "1152x864" );
 ?>
 
@@ -310,23 +310,23 @@ href="http://web.archive.org/web/20010603101909/www.linuxvideo.org/oms/oms-scree
 </p>
 
 <?php
-screenshot( "/vlc/screenshots/20010214-00.png",
-            "/vlc/screenshots/tn_20010214-00.jpeg",
+screenshot( "20010214-00.png",
+            "tn_20010214-00.jpeg",
             "MPEG-1", "1024x768" );
-screenshot( "/vlc/screenshots/20010215-00.jpeg",
-            "/vlc/screenshots/tn_20010215-00.jpeg",
+screenshot( "20010215-00.jpeg",
+            "tn_20010215-00.jpeg",
             "Xinerama", "2560x1024" );
-screenshot( "/vlc/screenshots/20000708-00.png",
-            "/vlc/screenshots/tn_20000708-00.jpeg",
+screenshot( "20000708-00.png",
+            "tn_20000708-00.jpeg",
             "Dithering" ,"686x512" );
-screenshot( "/vlc/screenshots/20000624-00.png",
-            "/vlc/screenshots/tn_20000624-00.jpeg",
+screenshot( "20000624-00.png",
+            "tn_20000624-00.jpeg",
             "Scaling", "1600x1200" );
 ?>
 <p class="clearme"> </p>
 <?php
-screenshot( "/vlc/screenshots/20000529-00.jpeg",
-            "/vlc/screenshots/tn_20000529-00.jpeg",
+screenshot( "20000529-00.jpeg",
+            "tn_20000529-00.jpeg",
             "The babe", "1152x864");
 ?>
 

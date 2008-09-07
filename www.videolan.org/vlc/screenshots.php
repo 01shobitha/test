@@ -25,16 +25,16 @@ screenshot( "0.9.2/qt-albumart.jpg",
             "GNU/Linux Debian - Gnome - Qt interface and album art", "1280x800" );
 screenshot( "0.9.2/qt-fullscreen.jpg",
             "0.9.2/tm_qt-fullscreen.jpg",
-            "GNU/Linux Debian - Gnome - Qt fullscreen interface", "1042x794" );
+            "GNU/Linux Debian - Gnome - Qt fullscreen controller", "1042x794" );
 screenshot( "0.9.2/qt-info.jpg",
             "0.9.2/tm_qt-info.jpg",
             "GNU/Linux Debian - KDE - Qt interface and compiz", "1280x800" );
 screenshot( "0.9.2/fullscreen_1.jpg",
             "0.9.2/tm_fullscreen_1.jpg",
-            "Windows XP - Qt F11 fullscreen interface", "1280x800" );
+            "Windows XP - Qt fullscreen interface", "1280x800" );
 screenshot( "0.9.2/fullscreen_osd_4.jpg",
             "0.9.2/tm_fullscreen_osd_4.jpg",
-            "Windows XP - Qt fullscreen interface", "1280x800" );
+            "Windows XP - Qt fullscreen controller", "1280x800" );
 ?>
 
 <h2 class="clearme">0.8.6</h2>

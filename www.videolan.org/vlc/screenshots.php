@@ -17,7 +17,18 @@ echo"    <div class=\"screenshot\"><a href='http://download.videolan.org$img'><i
 <div id="fullwidth" >
 
 
-<h2>Latest screenshots 0.8.6</h2>
+<h2>Latest screenshots 0.9.2</h2>
+
+<?php
+screenshot( "/vlc/screenshots/0.9.2/qt-albumart.jpg",
+            "/vlc/screenshots/0.9.2/tm_qt-albumart.jpg",
+            "GNU/Linux Debian - Qt interface and album art", "1280x800" );
+screenshot( "/vlc/screenshots/0.9.2/qt-fullscreen.jpg",
+            "/vlc/screenshots/0.9.2/tm_qt-fullscreen.jpg",
+            "GNU/Linux Debian - Qt fullscreen interface", "1042x794" );
+?>
+
+<h2>0.8.6</h2>
 <?php
 screenshot( "/vlc/screenshots/0.8.6/VLC-0.8.6-beryl.jpg",
 	    "/vlc/screenshots/0.8.6/tm_VLC-0.8.6-beryl.jpg",

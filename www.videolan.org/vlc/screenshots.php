@@ -171,14 +171,14 @@ screenshot( "/vlc/screenshots/20040303-osx-00.jpg",
 <h2 class="clearme">VLC for Familiar Linux screenshots</h2>
 
 <?php
-screenshot( "/screenshots/familiar20021121-02.png",
-            "/screenshots/familiar20021121-02.png",
+screenshot( "/vlc/screenshots/familiar20021121-02.png",
+            "/vlc/screenshots/familiar20021121-02.png",
             "iPaq", "" );
-screenshot( "/screenshots/familiar20021121-00.png",
-            "/screenshots/familiar20021121-00.png",
+screenshot( "/vlc/screenshots/familiar20021121-00.png",
+            "/vlc/screenshots/familiar20021121-00.png",
             "iPaq Familiar interface", "" );
-screenshot( "/screenshots/familiar20021121-04.png",
-            "/screenshots/familiar20021121-04.png",
+screenshot( "/vlc/screenshots/familiar20021121-04.png",
+            "/vlc/screenshots/familiar20021121-04.png",
             "iPaq Familiar interface", "" );
 ?>
 

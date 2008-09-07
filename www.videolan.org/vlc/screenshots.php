@@ -22,10 +22,13 @@ echo"    <div class=\"screenshot\"><a href='http://download.videolan.org/vlc/scr
 <?php
 screenshot( "0.9.2/qt-albumart.jpg",
             "0.9.2/tm_qt-albumart.jpg",
-            "GNU/Linux Debian - Qt interface and album art", "1280x800" );
+            "GNU/Linux Debian - Gnome - Qt interface and album art", "1280x800" );
 screenshot( "0.9.2/qt-fullscreen.jpg",
             "0.9.2/tm_qt-fullscreen.jpg",
-            "GNU/Linux Debian - Qt fullscreen interface", "1042x794" );
+            "GNU/Linux Debian - Gnome - Qt fullscreen interface", "1042x794" );
+screenshot( "0.9.2/qt-albumart.jpg",
+            "0.9.2/tm_qt-albumart.jpg",
+            "GNU/Linux Debian - KDE - Qt interface and compiz", "1280x800" );
 screenshot( "0.9.2/fullscreen_1.jpg",
             "0.9.2/tm_fullscreen_1.jpg",
             "Windows XP - Qt F11 fullscreen interface", "1280x800" );

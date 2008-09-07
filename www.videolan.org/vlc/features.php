@@ -102,10 +102,10 @@ feature( "MPEG encoder <sup><a href=\"#input_notes\">3</a></sup>", YES, NO, YES,
 <td class="type">Video acquisition</td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /> Direct Show</td>
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> V4L</td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> V4L, V4L2</td>
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-<td class="partial"><img src="/images/features/untested.png" alt="Untested" />V4L</td>
+<td class="partial"><img src="/images/features/untested.png" alt="Untested" />V4L, V4L2</td>
 </tr>
 
 <tr>
@@ -138,7 +138,7 @@ feature( "Creative&trade; Voice", YES, YES, YES, YES, YES, YES );
   (Volunteers for adding support are always welcome.). Handling still
   frames (often used in menus) and switching between different video
   formats is problematic.</li>
-  <li>VLC for GNU/Linux supports two kinds of MPEG-2 encoding cards: Hauppauge WinTV-PVR-250/350 and Visiontech Kfir.</li>
+  <li>VLC for GNU/Linux supports V4L2 compatible encoding cards as well as two kinds of MPEG-2 encoding cards: Hauppauge WinTV-PVR-250/350 and Visiontech Kfir.</li>
 	</ol>
 </div>
 

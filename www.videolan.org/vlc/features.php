@@ -214,7 +214,7 @@ feature( "RSS/Atom feeds", YES, YES, YES, YES, YES, NO );
 ?>
 <tr><td class="category" rowspan="8"><b>Outputs</b></td>
 <td class="type">Native</td>
-<td class="yes">DirectX<br />GDI</td>
+<td class="yes">Direct3D<br />DirectX<br />GDI</td>
 <td class="yes">OpenGL<br />Quartz <sup><a href="#video_notes">8</a></sup></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>

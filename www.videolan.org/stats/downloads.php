@@ -17,14 +17,14 @@
     <h1>Downloads by version and by OS</h1>
     <table border="0">
     <tr>
-    <th>Version</th>
-    <th class="os"><img src="/images/icons/winvista.png" alt="Windows" width="32" height="32" />
+    <th style="text-align: right;">Version</th>
+    <th class="os" style="text-align: right;"><img src="/images/icons/winvista.png" alt="Windows" width="32" height="32" />
     </th>
-    <th class="os"><img src="/images/icons/macosx.png" alt="Mac OS X" width="32" height="32" />
+    <th class="os" style="text-align: right;"><img src="/images/icons/macosx.png" alt="Mac OS X" width="32" height="32" />
     </th>
-    <th class="os"><img src="/images/icons/source.gif" alt="Source code" width="32" height="32" />
+    <th class="os" style="text-align: right;"><img src="/images/icons/source.gif" alt="Source code" width="32" height="32" />
     </th>
-    <th>Total</th>
+    <th style="text-align: right;">Total</th>
     </tr>
 
     <?php
@@ -41,37 +41,44 @@
     $wintotal = 0;
     $mactotal = 0;
     $srctotal = 0;
+
+    function f( $n )
+    {
+        echo "<td style='text-align: right;'>".number_format($n,0,"."," ")."</ts>";
+    }
     foreach( $requests as $v )
     {
         $versiontotal= 0;
-        echo "<tr><td class=\"category\"><strong>$v</strong></td>\n";
+        echo "<tr><td class=\"category\" style=\"text-align: right;\"><strong>$v</strong></td>\n";
 	$winrequest = pg_query( $connect, "select sum(number) from (select * from mirrors where file like '%$v%win32%' union select * from mirrors_archive where file like '%$v%win32%') as allmirrors;");
         if( $row  =pg_fetch_array( $winrequest ) )
 	{
 	    $versiontotal += $row[0];
 	    $wintotal += $row[0];
-	    echo "<td>".$row[0]."</td>";
+	    f($row[0]);
 	}
 	$macrequest = pg_query( $connect, "select sum(number) from (select * from mirrors where file like '%$v%dmg%' union select * from mirrors_archive where file like '%$v%dmg%') as allmirrors;" );
         if( $row  =pg_fetch_array( $macrequest ) )
 	{
 	    $versiontotal += $row[0];
 	    $mactotal += $row[0];
-	    echo "<td>".$row[0]."</td>";
+	    f($row[0]);
 	}
 	$srcrequest = pg_query( $connect, "select sum(number) from (select * from mirrors where file like '%$v%tar%' union select * from mirrors_archive where file like '%$v%tar%') as allmirrors;" );
         if( $row  =pg_fetch_array( $srcrequest ) )
 	{
 	    $versiontotal += $row[0];
 	    $srctotal += $row[0];
-	    echo "<td>".$row[0]."</td>";
+	    f($row[0]);
 	}
-	echo "<td>".$versiontotal."</td></tr>\n";
+	f($versiontotal);
+        echo "\n";
     }
-    echo "<tr><td class=\"category\"><strong>Total</strong></td>\n";
-    echo "<td>".$wintotal."</td>";
-    echo "<td>".$mactotal."</td>";
-    echo "<td>".$srctotal."</td></tr>\n";
+    echo "<tr><td class=\"category\" style=\"text-align: right;\"><strong>Total</strong></td>\n";
+    f($wintotal);
+    f($mactotal);
+    f($srctotal);
+    echo "<td></td></tr>\n";
 
     echo "</table>";
 

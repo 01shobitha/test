@@ -17,7 +17,7 @@ echo"    <div class=\"screenshot\"><a href='http://download.videolan.org/vlc/scr
 <div id="fullwidth" >
 
 
-<h2>Latest screenshots 0.9.2</h2>
+<h2 class="clearme">Latest screenshots 0.9.2</h2>
 
 <?php
 screenshot( "0.9.2/qt-albumart.jpg",

@@ -28,7 +28,7 @@ screenshot( "/vlc/screenshots/0.9.2/qt-fullscreen.jpg",
             "GNU/Linux Debian - Qt fullscreen interface", "1042x794" );
 ?>
 
-<h2>0.8.6</h2>
+<h2 class="clearme">0.8.6</h2>
 <?php
 screenshot( "/vlc/screenshots/0.8.6/VLC-0.8.6-beryl.jpg",
 	    "/vlc/screenshots/0.8.6/tm_VLC-0.8.6-beryl.jpg",

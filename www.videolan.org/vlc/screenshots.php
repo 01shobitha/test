@@ -28,7 +28,10 @@ screenshot( "0.9.2/qt-fullscreen.jpg",
             "GNU/Linux Debian - Gnome - Qt fullscreen controller", "1042x794" );
 screenshot( "0.9.2/qt-info.jpg",
             "0.9.2/tm_qt-info.jpg",
-            "GNU/Linux Debian - KDE - Qt interface and compiz", "1280x800" );
+            "GNU/Linux Debian - KDE 3 - Qt interface and compiz", "1280x800" );
+screenshot( "0.9.2/screenshot-kde4.jpg",
+            "0.9.2/tm_screenshot-kde4.jpg",
+            "Arch Linux - KDE 4 - Qt interface, album art and simple preferences", "1680x1050" );
 screenshot( "0.9.2/fullscreen_1.jpg",
             "0.9.2/tm_fullscreen_1.jpg",
             "Windows XP - Qt fullscreen interface", "1280x800" );

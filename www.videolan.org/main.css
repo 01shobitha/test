@@ -396,7 +396,12 @@ img.center { display: block; margin: auto; }
 	background: url(http://download.videolan.org/images/vlc-logo.gif) left top no-repeat;
 }
 
-div.screenshot{ float:left; margin-right: 3em; text-align:center; }
+div.screenshot{
+	float:left;
+	margin-right: 3em;
+	text-align:center;
+	width: 150px;
+}
 
 /* Misc */
 .notes { font-size: 9px; }

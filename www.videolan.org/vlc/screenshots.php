@@ -22,25 +22,25 @@ echo"    <div class=\"screenshot\"><a href='http://download.videolan.org/vlc/scr
 <?php
 screenshot( "0.9.2/qt-albumart.jpg",
             "0.9.2/tm_qt-albumart.jpg",
-            "GNU/Linux Debian - Gnome<br/>Qt interface and album art", "1280x800" );
+            "GNU/Linux Debian - Gnome - Qt interface and album art", "1280x800" );
 screenshot( "0.9.2/qt-fullscreen.jpg",
             "0.9.2/tm_qt-fullscreen.jpg",
-            "GNU/Linux Debian - Gnome<br/>Qt fullscreen controller", "1042x794" );
+            "GNU/Linux Debian - Gnome - Qt fullscreen controller", "1042x794" );
 screenshot( "0.9.2/qt-info.jpg",
             "0.9.2/tm_qt-info.jpg",
-            "GNU/Linux Debian - KDE 3<br/>Qt interface and compiz", "1280x800" );
+            "GNU/Linux Debian - KDE 3 - Qt interface and compiz", "1280x800" );
 screenshot( "0.9.2/screenshot-kde4.jpg",
             "0.9.2/tm_screenshot-kde4.jpg",
-            "Arch Linux - KDE 4<br/>Qt interface, album art and simple preferences", "1680x1050" );
+            "Arch Linux - KDE 4 - Qt interface, album art and simple preferences", "1680x1050" );
 ?>
 <p class="clearme"></p>
 <?php
 screenshot( "0.9.2/fullscreen_1.jpg",
             "0.9.2/tm_fullscreen_1.jpg",
-            "Windows XP<br/>Qt fullscreen interface", "1280x800" );
+            "Windows XP - Qt fullscreen interface", "1280x800" );
 screenshot( "0.9.2/fullscreen_osd_4.jpg",
             "0.9.2/tm_fullscreen_osd_4.jpg",
-            "Windows XP<br/>Qt fullscreen controller", "1280x800" );
+            "Windows XP - Qt fullscreen controller", "1280x800" );
 ?>
 
 <h2 class="clearme">0.8.6</h2>

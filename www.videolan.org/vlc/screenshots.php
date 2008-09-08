@@ -32,6 +32,9 @@ screenshot( "0.9.2/qt-info.jpg",
 screenshot( "0.9.2/screenshot-kde4.jpg",
             "0.9.2/tm_screenshot-kde4.jpg",
             "Arch Linux - KDE 4<br/>Qt interface, album art and simple preferences", "1680x1050" );
+?>
+<p class="clearme"></p>
+<?php
 screenshot( "0.9.2/fullscreen_1.jpg",
             "0.9.2/tm_fullscreen_1.jpg",
             "Windows XP<br/>Qt fullscreen interface", "1280x800" );

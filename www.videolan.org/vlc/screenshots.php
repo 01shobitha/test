@@ -41,6 +41,9 @@ screenshot( "0.9.2/fullscreen_1.jpg",
 screenshot( "0.9.2/fullscreen_osd_4.jpg",
             "0.9.2/tm_fullscreen_osd_4.jpg",
             "Windows XP - Qt fullscreen controller", "1280x800" );
+screenshot( "0.9.2/vista_colorthreshold.jpg",
+            "0.9.2/tm_vista_colorthreshold.jpg",
+            "Windows Vista - Qt interface and filters", "1280x1024" );
 ?>
 
 <h2 class="clearme">0.8.6</h2>

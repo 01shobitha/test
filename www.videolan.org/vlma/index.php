@@ -31,7 +31,7 @@ and a web interface (called VLMaw).</p>
 
 <p>For support information, have a look <a href="/support/">here</a>.</p>
 
-<p>A <a href="http://mailman.videolan.org/listinfo/vlma">mailing-list</a> is also available.</p>
+<p>A <a href="http://mailman.videolan.org/listinfo/vlma">mailing-list</a> and a <a href="http://forum.videolan.org/viewforum.php?f=30">forum</a> are also available.</p>
 
 <h2>People using VLMa</h2>
 

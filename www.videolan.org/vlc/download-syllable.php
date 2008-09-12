@@ -12,22 +12,29 @@
 <h1>VLC media player for <a href="http://www.syllable.org/">Syllable</a></h1>
 
 <h2>Through Builder</h2>
-<p>You can get VLC on Syllable via our Building system called Builder, just run at terminal.</p>
+<p>You can get VLC on Syllable via the Building system called Builder.
+From the terminal, just run:</p>
+<blockquote>
 <pre>
-     build vlc-0.8.6f
-     su
-     build install vlc-0.8.6f
+build vlc-0.8.6f
+su
+build install vlc-0.8.6f
 </pre>
+</blockquote>
 
-<h2> Packages </h2>
+<h2>Packages</h2>
 
-You can use package from <a href="http://web.syllable.org/pages/resources.html">Syllable resources</a>. Just download it and then run:
+You can use the package from
+<a href="http://web.syllable.org/pages/resources.html">Syllable resources</a>.
+Just download it and then run:
 </p>
 
+<blockquote>
 <pre>
-     unzip name-version.resource -d /usr
-     package register name
+ unzip name-version.resource -d /usr
+package register name
 </pre>
+</blockquote>
 
 </div>
-<?php footer('$Id: download-altlinux.php 4447 2008-02-17 23:39:55Z thresh $'); ?>
+<?php footer('$Id$'); ?>

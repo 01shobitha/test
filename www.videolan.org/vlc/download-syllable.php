@@ -31,7 +31,7 @@ Just download it and then run:
 
 <blockquote>
 <pre>
- unzip name-version.resource -d /usr
+unzip name-version.resource -d /usr
 package register name
 </pre>
 </blockquote>

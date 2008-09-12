@@ -15,7 +15,7 @@
 <p> Latest VLC source code tarball (0.9.1): </p>
 
 <ul class="bullets">
-<li><?php pkgitem_nomirr("VLC source code tar.bz2", "0.9.1","vlc-0.9.1.tar.bz2","vlc"); ?></li>
+<li><?php pkgitem("VLC source code tar.bz2", "0.9.1","vlc-0.9.1.tar.bz2","vlc"); ?></li>
 </ul>
 
 <h2> Latest required libraries: </h2>

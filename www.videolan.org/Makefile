@@ -50,8 +50,9 @@ clean: clean-recursive
 		rm -f $(HERE)$@.tmp ; \
 		exit 1 ; \
 	fi
-	@$(STRIP_HEADERS) < $@.tmp > $@
-	@rm -f $@.tmp
+	@$(STRIP_HEADERS) < $@.tmp > $@.tmp2
+	@mv -v $@.tmp2 $@
+	@rm -f $@.tmp $@.tmp2
 
 $(ROOT)/include/mirrors.php: $(ROOT)/include/mirrors
 	@echo "Processing $< ..."

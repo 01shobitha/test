@@ -24,7 +24,7 @@ build install vlc-0.8.6f
 
 <h2>Packages</h2>
 
-You can use the package from
+<p>You can use the package from
 <a href="http://web.syllable.org/pages/resources.html">Syllable resources</a>.
 Just download it and then run:
 </p>

@@ -12,13 +12,38 @@ function browse_old( $fold )
  echo "<a href=\"http://download.videolan.org/pub/videolan/$fold\">our FTP archive</a></p>";
 }
 
+function pkgversion($name,$version)
+{
+  $latest = array("vlc" => "0.9.1");
+
+  if (!$latest[$name])
+    return;
+  /* Not quite a version comparison. It works as long as we have < 10 numbers.
+   * FIXME */
+  if (strcmp($version, $latest[$name]) >= 0)
+    return;
+?><p> <strong>Warning:</strong>
+  The following package is not up-to-date with the latest official version
+  of the software.
+  When using an out-of-date version, you may encounter important bugs
+  or security holes.
+  If you wish to use the latest version of the software,
+  you may need to <a href="./download-sources.html">download source code</a>
+  and compile the software manually,
+  or wait for someone else to do it.
+</p><?
+} 
+
 function pkgitem_nomirr($description,$version,$name,$top,$extradescription="")
 {
+  pkgversion($top, $version);
   echo "<p><a href=\"http://download.videolan.org/pub/videolan/$top/$version/$name\">$description</a> <i>$extradescription</i> (".DownloadSize("{$_SERVER["DOCUMENT_ROOT"]}pub/videolan/$top/$version/$name").")</p>";
 }
 
 function pkgitem($description,$version,$name,$top,$extradescription="")
 {
+  pkgversion($top, $version);
+
   echo "<p>$description <i>$extradescription</i> (".DownloadSize("{$_SERVER["DOCUMENT_ROOT"]}pub/videolan/$top/$version/$name").")</p>";
 ?>
   <table>

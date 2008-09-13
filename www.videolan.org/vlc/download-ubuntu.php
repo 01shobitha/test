@@ -69,7 +69,8 @@ sudo apt-get install vlc vlc-plugin-esd mozilla-plugin-vlc libdvdcss2
 
 <?php panel_start( "blue" ); ?>
 <h1>How To Add repositories</h1>
-<p>If you don't know how to add repositories, follow the guides:<br />
+<p>If you don't know how to add repositories, follow the guides:
+</p>
 <ul>
 <li><a href="http://www.debianadmin.com/simple-package-management-with-synaptic-package-manager-in-ubuntu.html">Graphical Way</a></li>
 <li><a href="https://help.ubuntu.com/community/Repositories/CommandLine#head-927a60f6dbb71bf70af641185e9e0a76f5db28a2">Command-Line Way</a></li>
@@ -78,7 +79,8 @@ sudo apt-get install vlc vlc-plugin-esd mozilla-plugin-vlc libdvdcss2
 
 <?php panel_start( "orange" ); ?>
 <h1>Kubuntu users</h1>
-<p>The instructions for Ubuntu also apply to Kubuntu. But you should:<br />
+<p>The instructions for Ubuntu also apply to Kubuntu. But you should:
+</p>
 <ul>
 <li>Use Adept instead of Synaptic;</li>
 <li>Install vlc-plugin-arts instead of vlc-plugin-esd</li>

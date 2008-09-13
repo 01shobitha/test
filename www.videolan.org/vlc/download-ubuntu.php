@@ -85,7 +85,6 @@ sudo apt-get install vlc vlc-plugin-esd mozilla-plugin-vlc libdvdcss2
 <li>Use Adept instead of Synaptic;</li>
 <li>Install vlc-plugin-arts instead of vlc-plugin-esd</li>
 </ul>
-<p>
 <?php panel_end(); ?>
 <?php /*
 <?php panel_start( "orange" ); ?>

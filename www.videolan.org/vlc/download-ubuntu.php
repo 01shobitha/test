@@ -21,7 +21,7 @@ repository activated.</p>
 <p>Search for vlc and install it. You should also install vlc-plugin-esd, mozilla-plugin-vlc (and libdvdcss2).</p>
 
 <h3>Command line way</h3>
-<p>You need to check that a &quot;universe&quot; mirror is listed
+<p>You need to check that a &quot;multiverse&quot; mirror is listed
 in your /etc/apt/sources.list.</p>
 <blockquote>
 <pre>

@@ -14,9 +14,22 @@
 
 <p>All mirrors include all the available translations.</p>
 
-<?php $vlc_version = '0.8.6i'; ?>
+<?php $vlc_version = '0.9.2'; ?>
   <h2>Latest packages (<?php echo $vlc_version; ?>)</h2>
 
+<?php
+    pkgitem( "Windows self-extracting package",
+                   "$vlc_version/win32","vlc-$vlc_version-win32.exe","vlc");
+    pkgitem("Windows 7zip (identical to the above but without the installer)",
+                  "$vlc_version/win32","vlc-$vlc_version-win32.7z","vlc");
+    pkgitem("Windows zip packages (identical to the above)",
+                  "$vlc_version/win32","vlc-$vlc_version-win32.zip","vlc");
+?>
+
+  <h2>Windows 95/98/Me</h2>
+<p>VLC 0.8.6 is the latest release with support for this operating system.</p>
+<p>Please note that these versions of Windows are not officially supported. No VideoLAN developer uses any of these systems, which makes them hard to support. VLC should mostly work with them, but some incompatibilities might appear. You might need to download <a href="http://www.microsoft.com.nsatc.net/globaldev/handson/dev/mslu_announce.mspx">The Microsoft Layer for Unicode on Windows 95/98/Me Systems</a>. The two MSLU files need to be put in the <code>C:\Windows\System\</code> folder.</p>
+<?php $vlc_version = '0.8.6.i'; ?>
 <?php
     pkgitem( "Windows self-extracting package",
                    "$vlc_version/win32","vlc-$vlc_version-win32.exe","vlc");
@@ -36,9 +49,6 @@
 
   <p>If you want, you can download the <a href="download-sources.html">source code</a> of VLC media player.</p>
 
-  <?php panel_start( "gray" ); ?>
-        <p><strong>Windows 95/98/Me users:</strong> Please note that these versions of Windows are not officially supported. No VideoLAN developer uses any of these systems, which makes them hard to support. VLC should mostly work with them, but some incompatibilities might appear. You might need to download <a href="http://www.microsoft.com.nsatc.net/globaldev/handson/dev/mslu_announce.mspx">The Microsoft Layer for Unicode on Windows 95/98/Me Systems</a>. The two MSLU files need to be put in the <code>C:\Windows\System\</code> folder.</p>
-  <?php panel_end(); ?>
 
 </div> <!-- RIGHT -->
 

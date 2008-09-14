@@ -37,13 +37,14 @@
 <h2>Web browser plugins for 10.3.9, 10.4 and 10.5 (release 0.8.6i)</h2>
 
 <?php pkgitem( "Web Browser plugin for Intel",
-               "$vlc_version/macosx","vlc-plugin-$vlc_version-intel.dmg","vlc"); ?>
+               "0.8.6i/macosx","vlc-plugin-0.8.6i-intel.dmg","vlc"); ?>
 
 <?php pkgitem( "Web Browser plugin for PowerPC",
-               "$vlc_version/macosx","vlc-plugin-$vlc_version-powerpc.dmg","vlc"); ?>
+               "0.8.6i/macosx","vlc-plugin-0.8.6i-powerpc.dmg","vlc"); ?>
 
 <h2>Last Mac OS X package for 10.3 (release 0.8.6i)</h2>
 
+<p><b>Requires QuickTime 7 or later</b></p>
 <ul>
 <li>
 <?php pkgitem_nomirr( "Last Mac OS X package for 10.3 Universal Binary (release 0.8.6i)", "0.8.6i/macosx","vlc-0.8.6i.dmg","vlc"); ?>

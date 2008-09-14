@@ -8,12 +8,12 @@ A   <a ref="http://wiki.videolan.org/What_is_cool_in_0.9">comprehensive  list  o
 <a href="http://www.videolan.org/developers/vlc/NEWS">notes</a>.|
 <p>Binary packages for <a href="vlc/download-windows.html">Windows</a> and < a href="vlc/download-macosx">MacOSX</a>,  as well as source code tarballs
 are available for download.</p>
+
 <p>
 Help is available, as usual, in many places:
 <ul>
-<li> The documentation (we need help keeping it up to date!):
-   http://wiki.videolan.org/Documentation:Documentation/</li>
-<li> The forum: http://forum.videolan.org</li>
+<li>< a href="http://wiki.videolan.org/Documentation:Documentation/"> The documentation</a> (we need help keeping it up to date!)</li>
+<li> The <a href=" http://forum.videolan.org">Forums</a></li>
 <li> Mailing lists: http://www.videolan.org/support/lists.html</li>
 <li> IRC: videolan on Freenode </li>
 </ul>

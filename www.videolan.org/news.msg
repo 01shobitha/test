@@ -4,7 +4,7 @@
 
 |15 September 2008|VLC media player 0.9.2 Grishenko release| The VideoLAN Team is pleased to announce the release of VLC media player 0.9.2 - Grishenko.<br />
 Resulting of 2 years of development, it features many new functionnalities,including with a new interface for Windows and Linux.<br />
-A   <a ref="http://wiki.videolan.org/What_is_cool_in_0.9">comprehensive  list  of  new  features</a>  can  be  found  on  our <a ref="http://wiki.videolan.org/"> wiki</a> or by reading the release
+A   <a href="http://wiki.videolan.org/What_is_cool_in_0.9">comprehensive  list  of  new  features</a>  can  be  found  on  our <a href="http://wiki.videolan.org/"> wiki</a> or by reading the release
 <a href="http://www.videolan.org/developers/vlc/NEWS">notes</a>.|
 <p>Binary packages for <a href="vlc/download-windows.html">Windows</a> and <a href="vlc/download-macosx">MacOSX</a>,  as well as source code tarballs
 are available for download.</p>

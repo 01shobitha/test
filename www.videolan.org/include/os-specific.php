@@ -34,7 +34,7 @@
 	$scr["Win32"] = array( "http://download.videolan.org/images/screenshots/vlc-win32.jpg" ,
 			       "VLC on Windows", 300, 200 );
 	$scr["Linux"] = array( "http://download.videolan.org/images/screenshots/vlc-linux.jpg" ,
-			       "VLC on Linux", 300, 262 );
+			       "VLC on Linux", 300, 233 );
 	$scr["OSX"] = array( "http://download.videolan.org/images/screenshots/vlc-osx.jpg" ,
 	   		     "VLC on MacOS X", 300, 200 );
 	echo "document.writeln('<img width=\"".$scr[$os][2]."\" height=\"".$scr[$os][3]."\" src=\"".$scr[$os][0]."\" alt=\"";

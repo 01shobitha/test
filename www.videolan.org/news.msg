@@ -11,12 +11,10 @@ are available for download.
 <br />
 <br />
 Help is available, as usual, in many places:
-<ul>
-<li><a href="http://wiki.videolan.org/Documentation:Documentation/"> The documentation</a> (we need help keeping it up to date!)</li>
-<li> The <a href=" http://forum.videolan.org">Forums</a></li>
-<li> Mailing lists: http://www.videolan.org/support/lists.html</li>
-<li> IRC: videolan on Freenode </li>
-</ul>
+<a href="http://wiki.videolan.org/Documentation:Documentation/"> The documentation</a> (we need help keeping it up to date!)<br />
+The <a href=" http://forum.videolan.org">Forums</a><br />
+ Mailing lists: http://www.videolan.org/support/lists.html<br />
+IRC: videolan on Freenode <br />
 <br />
 We'd like  to thank all our  contributors, testers and users  around the
 world for their support and help making this release possible.

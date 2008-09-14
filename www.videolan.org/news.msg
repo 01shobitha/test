@@ -9,6 +9,7 @@ A <a href="http://wiki.videolan.org/What_is_cool_in_0.9"> comprehensive  list  o
 <br />Binary packages for <a href="vlc/download-windows.html">Windows</a> and <a href="vlc/download-macosx">MacOSX</a>,  as well as source code tarballs
 are available for download.
 <br />
+<br />
 Help is available, as usual, in many places:
 <ul>
 <li><a href="http://wiki.videolan.org/Documentation:Documentation/"> The documentation</a> (we need help keeping it up to date!)</li>

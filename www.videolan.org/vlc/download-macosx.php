@@ -73,6 +73,9 @@
 
   <?php panel_start( "gray" ); ?>
   <p><strong>Note:</strong> There is not, and there will never be, a version for Mac&nbsp;OS&nbsp;9.</p>
+  <br />
+  <h1>Platform specific packages</h1>
+  <p>These packages are provided to save download time and more importantly disk space. Installed, each of these is half as big as the Universal Binary. If you are unsure about your Mac's architecture, <a href="http://support.apple.com/kb/HT1531">click here</a>.</p>
   <?php panel_end(); ?>
 
   <h2>Source code</h2>

@@ -2,6 +2,27 @@
 # New topics begin with a "|"
 #
 
+|15 September 2008|VLC media player 0.9.2 Grishenko release| The VideoLAN Team is pleased to announce the release of VLC media player 0.9.2 - Grishenko.<br />
+Resulting of 2 years of development, it features many new functionnalities,including with a new interface for Windows and Linux.<br />
+A   <a ref="http://wiki.videolan.org/What_is_cool_in_0.9">comprehensive  list  of  new  features</a>  can  be  found  on  our <a ref="http://wiki.videolan.org/"> wiki</a> or by reading the release
+<a href="http://www.videolan.org/developers/vlc/NEWS">notes</a>.|
+<p>Binary packages for <a href="vlc/download-windows.html">Windows</a> and < a href="vlc/download-macosx">MacOSX</a>,  as well as source code tarballs
+are available for download.</p>
+<p>
+Help is available, as usual, in many places:
+<ul>
+<li> The documentation (we need help keeping it up to date!):
+   http://wiki.videolan.org/Documentation:Documentation/</li>
+<li> The forum: http://forum.videolan.org</li>
+<li> Mailing lists: http://www.videolan.org/support/lists.html</li>
+<li> IRC: videolan on Freenode </li>
+</ul>
+</p>
+<p>
+We'd like  to thank all our  contributors, testers and users  around the
+world for their support and help making this release possible.
+</p>
+
 |30 August 2008| VideoLAN Security Advisory 0807 | VLC media player versions 0.8.6i and older suffer from multiple buffer overflow vulnerabilities. <a href="http://www.videolan.org/sa0807.html">Refer to our advisory</a> for technical details. Fixes for these issues are available in VLC 0.9. We strongly recommend all users to update to this new version.<br/><b>Note:</b> a binary VLC 0.9 release should be available for Windows and Mac OS X users in a few days.
 
 |12 July 2008|VLC media player 0.8.6i release|We are pleased to announce the release of VLC media player 0.8.6i.<br />This is a bugfix release. VLC media player 0.8.6h and earlier versions suffer from security vulnerabilities in the WAV demuxer.<br />This release also includes improved audio visualizations on FreeBSD and miscellaneous bug fixes in multiple modules.<br />More information can be found in our <a href="security/sa0806.html">Security Advisory</a> and in the <a href="http://wiki.videolan.org/Changelog/0.8.6i">Release Notes</a>.<br />We strongly recommend all users to update to this new version.

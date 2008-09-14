@@ -43,9 +43,9 @@
     function DoDL( $os, $with_js=1 )
     {
 	$dl = array();
-	$dl["Win32"] = array("/mirror-geo.php?file=vlc/0.8.6i/win32/vlc-0.8.6i-win32.exe", "Windows (9 MB)" );
-	$dl["OSX-PPC"] = array("/mirror-geo.php?file=vlc/0.8.6i/macosx/vlc-0.8.6i-powerpc.dmg", "Mac OS X PowerPC (14 MB)" );
-	$dl["OSX-Intel"] = array( "/mirror-geo.php?file=vlc/0.8.6i/macosx/vlc-0.8.6i-intel.dmg","Mac OS X Intel (14 MB)" );
+	$dl["Win32"] = array("/mirror-geo.php?file=vlc/0.9.2/win32/vlc-0.9.2-win32.exe", "Windows (14 MB)" );
+	$dl["OSX-PPC"] = array("/mirror-geo.php?file=vlc/0.9.2/macosx/vlc-0.9.2-powerpc.dmg", "Mac OS X PowerPC (18 MB)" );
+	$dl["OSX-Intel"] = array( "/mirror-geo.php?file=vlc/0.9.2/macosx/vlc-0.9.2-intel.dmg","Mac OS X Intel (18 MB)" );
 	$dl["Linux"] =array("/vlc/", "Linux and other OSes" );
 	$dl["Debian"] = array( "/vlc/download-debian.html", "Debian GNU/Linux" );
 	$dl["Ubuntu"] = array( "/vlc/download-ubuntu.html", "Ubuntu Linux");

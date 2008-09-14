@@ -4,12 +4,11 @@
 
 |15 September 2008|VLC media player 0.9.2 Grishenko release| The VideoLAN Team is pleased to announce the release of VLC media player 0.9.2 - Grishenko.<br />
 Resulting of 2 years of development, it features many new functionnalities,including with a new interface for Windows and Linux.<br />
-A   <a href="http://wiki.videolan.org/What_is_cool_in_0.9">comprehensive  list  of  new  features</a>  can  be  found  on  our <a href="http://wiki.videolan.org/"> wiki</a> or by reading the release
+A <a href="http://wiki.videolan.org/What_is_cool_in_0.9"> comprehensive  list  of  new  features</a>  can  be  found  on  our <a href="http://wiki.videolan.org/"> wiki</a> or by reading the release
 <a href="http://www.videolan.org/developers/vlc/NEWS">notes</a>.|
-<p>Binary packages for <a href="vlc/download-windows.html">Windows</a> and <a href="vlc/download-macosx">MacOSX</a>,  as well as source code tarballs
-are available for download.</p>
-
-<p>
+<br />Binary packages for <a href="vlc/download-windows.html">Windows</a> and <a href="vlc/download-macosx">MacOSX</a>,  as well as source code tarballs
+are available for download.
+<br />
 Help is available, as usual, in many places:
 <ul>
 <li>< a href="http://wiki.videolan.org/Documentation:Documentation/"> The documentation</a> (we need help keeping it up to date!)</li>
@@ -17,11 +16,9 @@ Help is available, as usual, in many places:
 <li> Mailing lists: http://www.videolan.org/support/lists.html</li>
 <li> IRC: videolan on Freenode </li>
 </ul>
-</p>
-<p>
+<br />
 We'd like  to thank all our  contributors, testers and users  around the
 world for their support and help making this release possible.
-</p>
 
 |30 August 2008| VideoLAN Security Advisory 0807 | VLC media player versions 0.8.6i and older suffer from multiple buffer overflow vulnerabilities. <a href="http://www.videolan.org/sa0807.html">Refer to our advisory</a> for technical details. Fixes for these issues are available in VLC 0.9. We strongly recommend all users to update to this new version.<br/><b>Note:</b> a binary VLC 0.9 release should be available for Windows and Mac OS X users in a few days.
 

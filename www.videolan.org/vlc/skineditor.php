@@ -103,7 +103,7 @@ For tutorials and help on the usage of the Skin Editor turn to the <a href="skin
         <h1>Development plans</h1>
         <ul class="panel-orange-bullet">
           <li>Bug finding and fixing</li>    
-          <li><b>Still to be done until version 0.7.0.b</b>
+          <li><b>Still to be done until version 0.7.0</b>
             <ul>
               <li>SliderBackground generator enhancement</li>
               <li>Enhanced online help &amp; tutorials</li>              
@@ -112,6 +112,11 @@ For tutorials and help on the usage of the Skin Editor turn to the <a href="skin
           <li><b>version 0.7.*</b>
             <ul>              
               <li>New Layout for editing dialogs that look better on Linux</li>
+            </ul>
+          </li>
+          <li><b>version 0.8</b>
+            <ul>
+              <li>New parsing system that can handle all valid skin files</li>
             </ul>
           </li>
         </ul>
@@ -123,4 +128,4 @@ For tutorials and help on the usage of the Skin Editor turn to the <a href="skin
   </div>
  </div> 
 
-<?php footer('$Id: skineditor.php 4498 2008-03-15 16:00 altglass$'); ?>
+<?php footer('$Id: skineditor.php 4737 2008-09-15 17:00 altglass$'); ?>

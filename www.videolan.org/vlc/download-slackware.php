@@ -17,17 +17,9 @@
 <a href="http://repository.slacky.eu/slackware-12.1/multimedia/vlc/">Italian Slackware Community</a>.</p>
 
 <h2>Unofficial packages</h2>
-<p><a href="http://pallansson.homeip.net/vlc/index.html">Per Allansson (click here for packages changelog)</a> build a tgz for VLC 0.8.5:</p>
-<ul><li>
-  <?php pkgitem( "VLC 0.8.5",
-                 "0.8.5/slackware","vlc-0.8.5-i686-3.tgz","vlc"); ?></li>
-</ul>
+<p>Unofficial VLC 0.9 builds are available from <a href="http://www.slackware.com/~alien/slackbuilds/vlctest/">http://www.slackware.com/~alien/slackbuilds/vlctest/</a>.</p>
 
-<p>Use the following command to install the package:</p>
-<pre>
-  # installpkg vlc-0.8.5-i686-3.tgz 
-</pre>
-
+<p>Builds of the 0.8.6 branch are also available at <a href="http://www.slackware.com/~alien/slackbuilds/vlc/">http://www.slackware.com/~alien/slackbuilds/vlc/</a>.</p>
 
 </div>
 

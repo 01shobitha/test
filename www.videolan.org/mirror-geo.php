@@ -5,8 +5,8 @@
 <!--
 <?php
 
-$mirror_url = $_GET["mirror"];
-$file = $_GET["file"];
+$mirror_url = pg_escape_string($_GET["mirror"]);
+$file = pg_escape_string($_GET["file"]);
 
 if( !isset( $file ) ) { die; }
 

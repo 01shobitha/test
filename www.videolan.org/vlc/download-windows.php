@@ -29,7 +29,7 @@
   <h2>Windows 95/98/Me</h2>
 <p>VLC 0.8.6 is the latest release with support for this operating system.</p>
 <p>Please note that these versions of Windows are not officially supported. No VideoLAN developer uses any of these systems, which makes them hard to support. VLC should mostly work with them, but some incompatibilities might appear. You might need to download <a href="http://www.microsoft.com.nsatc.net/globaldev/handson/dev/mslu_announce.mspx">The Microsoft Layer for Unicode on Windows 95/98/Me Systems</a>. The two MSLU files need to be put in the <code>C:\Windows\System\</code> folder.</p>
-<?php $vlc_version = '0.8.6.i'; ?>
+<?php $vlc_version = '0.8.6i'; ?>
 <?php
     pkgitem( "Windows self-extracting package",
                    "$vlc_version/win32","vlc-$vlc_version-win32.exe","vlc");

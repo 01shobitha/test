@@ -20,7 +20,7 @@ ftp://ftp.u-strasbg.fr/pub/videolan/|Université de Strasbourg|France|fr|FTP|100
 #
 # Contact: #crans on irc.rezosup.net - 
 # Contact: roots at crans dot org
- ftp://ftp.crans.org/pub/videolan/|Cr@ns, ENS Cachan|France|fr|FTP|100
+ftp://ftp.crans.org/pub/videolan/|Cr@ns, ENS Cachan|France|fr|FTP|100
 #
 # Contact : hsunchang at gmail dot com
 ftp://videolan.cs.pu.edu.tw/others/VideoLAN/|Providence University|Taiwan|tw|FTP|100
@@ -43,10 +43,10 @@ http://videolan.kn.vutbr.cz/|Brno University of Technology|Czech Republic|cz|HTT
 #ftp://ftp.pucpr.br/videolan/|Pontifícia Universidade Católica do Paraná|Brazil|br|FTP|100
 #
 # Contact Dave Schroeder  das at doit dot wisc dot edu
-#ttp://mirror.services.wisc.edu/mirrors/videolan/|University of Wisconsin - Madison|USA|us|HTTP|100
+#http://mirror.services.wisc.edu/mirrors/videolan/|University of Wisconsin - Madison|USA|us|HTTP|100
 #
 # Contact : Ionic, ionic at root24 dot de - 100 Mbit
-#tp://root24.eu/pub/videolan/|Root24|Germany|de|FTP|100
+#ftp://root24.eu/pub/videolan/|Root24|Germany|de|FTP|100
 #
 # contact=Attn:System Administrator mail=admin at 301networks.com, Maryland, 
 #http://www.301networks.com/Mirrors/VLC/|301NETWORKS|USA|us|HTTP|100

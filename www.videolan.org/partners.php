@@ -115,7 +115,7 @@ cooperation of our partners, on both technical and financial sides: </p>
          <a href="https://trac.videolan.org">Trac</a>. This web         
          server was shipped with two AMD opteron 2.4 GHz CPUs, 8 GB     
          RAM and 4 36 GB SCSI hard drives. VideoLAN also won a <a       
-         href="http://download.videolan.org/images/sirius1.png">nice    
+         href="http://download2.videolan.org/imagess/sirius1.png">nice    
          HP laptop</a> at <a                                            
          href="http://www.tropheesdulibre.org/article.php3?id_article=47"
          >Journées du Libre</a>.</p>                                 

@@ -95,7 +95,7 @@ feature( "DVD <sup><a href=\"#input_notes\">1</a></sup>", YES, YES, YES, YES, YE
 feature( "VCD", YES,YES, YES, NO, YES, NONE );
 feature( "SVCD <sup><a href=\"#input_notes\">2</a></sup>", PART, PART, PART, NO, PART, NONE );
 feature( "Audio CD (without DTS)", YES, YES, YES, NO, YES, NONE );
-feature( "DVB (Satellite, <br />Digital TV, Cable TV)", NO, NO, YES, NO, NO, NONE );
+feature( "DVB (Satellite, <br />Digital TV, Cable TV)", YES, NO, YES, NO, NO, NONE );
 feature( "MPEG encoder <sup><a href=\"#input_notes\">3</a></sup>", YES, NO, YES, NO, NO, NONE );
 ?>
 <tr>

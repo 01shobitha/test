@@ -1,6 +1,6 @@
 <?php
-  $mirror_url = pg_escape_string($_GET["mirror"]);
-  $file = pg_escape_string($_GET["file"]);
+  $mirror_url = $_GET["mirror"];
+  $file = $_GET["file"];
 
   if( !isset($file) ) { die; }
 
@@ -53,6 +53,8 @@
     {
 	die;
     }
+  $mirror_url = pg_escape_string($mirror_url);
+  $file = pg_escape_string($file);
     
     $request = pg_query($connect, "SELECT * FROM mirrors ".
                                    "WHERE address='$mirror_url' AND file='$file' AND date=current_date"); 

@@ -19,7 +19,7 @@
 </ul>
 
 <h2> Latest required libraries: </h2>
-<p>
+<p style='font-size:4em;'>
 The list of required libraries is not yet updated for 0.9.2
 </p>
 

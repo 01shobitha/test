@@ -52,6 +52,35 @@ echo "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n";
    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAA_tTjXf27pXx7GJjiXjfLTBTZ23S2gbgYlUkGxVa_77E2Yr1JbRRZDHGiGaM9ko8-hG5M1z9nS5bFXA" type="text/javascript"></script>
    <script src="map.js" type="text/javascript"></script>
    <?php } ?>
+<script type="text/javascript">
+// <![CDATA[
+function ShowMirrors( start, stop )
+{
+  var i;
+  for( i = start; i < stop; i++ )
+  {
+    var e = document.getElementById('mirror_row_'+i);
+    if( e ) e.style.display = '';
+  }
+  var e = document.getElementById('mirror_row_random_'+start);
+  if( e ) e.style.display = 'none';
+  e = document.getElementById('mirror_row_show_'+stop);
+  if( e ) e.style.display = 'none';
+}
+function HideMirrors()
+{
+  <?php/* IE6 fails to set the page height correctly otherwise ... */?>
+  var i = 0;
+  while( true )
+  {
+    var e = document.getElementById('mirror_row_'+i);
+    if( !e ) break;
+    e.style.display = 'none';
+    i++;
+  }
+}
+// ]]>
+</script>
 
 </head>
 <?php if( $enable_live == true ) { ?>
@@ -59,7 +88,7 @@ echo "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n";
 <?php } else if( $enable_map == true ) { ?>
   <body onload="load();" onunload="GUnload();">
 <?php } else { ?>
-   <body>
+   <body onload="HideMirrors();">
 <?php
    }
 ?>

@@ -1,5 +1,4 @@
 <?php
-
 function DownloadSize( $file )
 {
   $size = @filesize( $file );
@@ -42,6 +41,7 @@ function pkgitem_nomirr($description,$version,$name,$top,$extradescription="")
 
 function pkgitem($description,$version,$name,$top,$extradescription="")
 {
+  static $mirror_row = 0;
   pkgversion($top, $version);
 
   echo "<p>$description <i>$extradescription</i> (".DownloadSize("{$_SERVER["DOCUMENT_ROOT"]}pub/videolan/$top/$version/$name").")</p>";
@@ -54,14 +54,18 @@ function pkgitem($description,$version,$name,$top,$extradescription="")
     </tr>
 <?php
     require $_SERVER["DOCUMENT_ROOT"]."/include/mirrors.php";
+    $mirror_start = $mirror_row;
+    echo " <tr id='mirror_row_random_$mirror_row'><td>Random mirror</td><td>Not too far away</td><td><a href='http://www.videolan.org/mirror-geo.php?file=$top/$version/$name'>Download</a></td></tr>\n ";
     foreach( $mirrors as $mirror )
     {
 	$url = $mirror[0]; $mirror_name = $mirror[1];
 	$country = $mirror[2]; $country_short = $mirror[3];
 	$type = $mirror[4];
-	echo " <tr><td>$mirror_name</td><td class=\"$country_short\">$country</td><td><a href=\"http://www.videolan.org/mirror.php?mirror=$url&amp;file=$top/$version/$name\">Download</a> ($type)</td></tr>\n "; 
+	echo " <tr id='mirror_row_$mirror_row'><!-- style='display:none;'--><td>$mirror_name</td><td class='$country_short'>$country</td><td><a href='http://www.videolan.org/mirror.php?mirror=$url&amp;file=$top/$version/$name'>Download</a> ($type)</td></tr>\n "; 
+        $mirror_row++;
     }
  ?>
+    <tr id='mirror_row_show_<?php echo $mirror_row; ?>'><td colspan="3"><a href="javascript:ShowMirrors(<?php echo $mirror_start; ?>,<?php echo $mirror_row; ?>);">Show full mirrors list</a></td></tr>
   </tbody></table>
  <?php
  }

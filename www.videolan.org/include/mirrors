@@ -77,3 +77,8 @@ http://mirror.yandex.ru/mirrors/ftp.videolan.org/|Yandex|Russia|ru|HTTP|1000
 # Robbert van Hulsentop <robbert at technotop dot nl>
 # Base directory listing is disabled. Listing of subdirectories works.
 http://videolan.mirror.technotop.nl/|Technotop Networks|Netherlands|nl|HTTP|1000
+#
+# Free, France
+# Laurent Frigault <lolo at troll dot free dot org>
+# FTP version is also available.
+http://ftp.free.org/mirrors/videolan/|Free|France|fr|HTTP|1000

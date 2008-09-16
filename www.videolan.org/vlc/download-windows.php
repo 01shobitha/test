@@ -13,10 +13,10 @@
 <div id="left">
 
 <p>All mirrors include all the available translations.</p>
-<p>This release only supports Windows 2000 and later. Windows 95, 98 and Me users, please click <a href="#win98">here</a>.</p>
 
 <?php $vlc_version = '0.9.2'; ?>
   <h2>Latest packages (<?php echo $vlc_version; ?>)</h2>
+<p>This release only supports Windows 2000 and later. Windows 95, 98 and Me users, please click <a href="#win98">here</a>.</p>
 
 <?php
     pkgitem( "Windows self-extracting package",

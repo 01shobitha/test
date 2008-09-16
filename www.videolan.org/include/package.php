@@ -26,10 +26,12 @@ function pkgversion($name,$version)
   of the software.
   When using an out-of-date version, you may encounter important bugs
   or security holes.
+<?php if( isset($nosource) ) { ?>
   If you wish to use the latest version of the software,
   you may need to <a href="./download-sources.html">download source code</a>
   and compile the software manually,
   or wait for someone else to do it.
+<?php } ?>
 </p><?
 } 
 

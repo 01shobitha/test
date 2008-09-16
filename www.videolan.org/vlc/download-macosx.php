@@ -47,6 +47,7 @@
 <p><b>Requires QuickTime 7 or later</b></p>
 <ul>
 <li>
+<?php $nosource = true; ?>
 <?php pkgitem_nomirr( "Last Mac OS X package for 10.3 Universal Binary (release 0.8.6i)", "0.8.6i/macosx","vlc-0.8.6i.dmg","vlc"); ?>
 <?php pkgitem_nomirr( "Last Mac OS X package for 10.3 Intel (release 0.8.6i)", "0.8.6i/macosx","vlc-0.8.6i-intel.dmg","vlc"); ?>
 <?php pkgitem_nomirr( "Last Mac OS X package for 10.3 PowerPC (release 0.8.6i)", "0.8.6i/macosx","vlc-0.8.6i-powerpc.dmg","vlc"); ?>

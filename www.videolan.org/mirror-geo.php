@@ -141,14 +141,7 @@ else
 $mirror_url = pg_escape_string($mirror_url);
 $file = pg_escape_string($file);
     
-    $request = pg_query($connect, "SELECT * FROM mirrors ".
-                                   "WHERE address='$mirror_url' AND file='$file' AND date=current_date"); 
-    $done = 0;
-    if( $row = pg_fetch_array($request) )
-    {
-        pg_query($connect, "UPDATE mirrors SET number=number+1 WHERE address='$mirror_url' AND file='$file' AND date=current_date"); 
-    }
-    else
+    if( pg_affected_rows(pg_query($connect, "UPDATE mirrors SET number=number+1 WHERE address='$mirror_url' AND file='$file' AND date=current_date")) == 0 ) 
     {
 	pg_query($connect, "INSERT INTO mirrors (address, file, number,date)".
 	                    "VALUES ('" . $mirror_url . "', '" . $file . "', 1,".

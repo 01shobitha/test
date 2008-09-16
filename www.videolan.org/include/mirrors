@@ -79,6 +79,6 @@ http://mirror.yandex.ru/mirrors/ftp.videolan.org/|Yandex|Russia|ru|HTTP|1000
 http://videolan.mirror.technotop.nl/|Technotop Networks|Netherlands|nl|HTTP|1000
 #
 # Free, France
-# Laurent Frigault <lolo at troll dot free dot org>
+# ftpmaint@free.org
 # FTP version is also available.
-http://ftp.free.org/mirrors/videolan/|Free|France|fr|HTTP|1000
+http://ftp.free.org/mirrors/videolan/|Free|France|fr|HTTP|2000

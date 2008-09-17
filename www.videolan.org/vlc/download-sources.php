@@ -1,7 +1,6 @@
 <?php
    $title = "VLC media player source code";
    $lang = "en";
-   $date = "30 August 2008";
    $menu = array( "vlc", "download" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");

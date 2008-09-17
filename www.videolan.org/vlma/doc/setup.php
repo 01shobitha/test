@@ -1,7 +1,6 @@
 <?php
    $title ="VideoLAN Manager - Installation";
    $lang = "en";
-   $date = "16 June 2008";
    $menu = array( "vlma", "documentation" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>

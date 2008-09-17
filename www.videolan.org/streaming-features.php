@@ -1,7 +1,6 @@
 <?php
    $title = "VideoLAN Streaming - Features list";
    $lang = "en";
-   $date = "11 January 2002";
    $menu = array( "streaming", "features" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>

@@ -1,7 +1,6 @@
 <?php
    $title = "VideoLAN Security Advisory 0804";
    $lang = "en";
-   $date = "November 2007";
    $menu = array( "vlc" );
    require($_SERVER["DOCUMENT_ROOT"]."include/header.php");
 ?>

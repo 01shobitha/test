@@ -1,7 +1,6 @@
 <?php
    $title = "VideoLAN - Statistics";
    $lang = "en";
-   $date = "06 April 2002";
    $menu = array( "home", "overview" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 

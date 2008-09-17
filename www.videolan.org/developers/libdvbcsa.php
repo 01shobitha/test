@@ -1,9 +1,8 @@
 <?php
    $title ="VideoLAN developers - libdvbcsa";
    $lang = "en";
-      $date = "20 June 2008";
-      $menu = array( "developers", "libdvbcsa" );
-         require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
+   $menu = array( "developers", "libdvbcsa" );
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
 <h1>libdvbcsa</h1>

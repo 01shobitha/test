@@ -1,7 +1,6 @@
 <?php
    $title = "VLC media player for Zaurus";
    $lang = "en";
-   $date = "18 August 2003";
    $menu = array( "vlc", "download" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>

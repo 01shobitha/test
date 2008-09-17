@@ -1,7 +1,6 @@
 <?php
    $title = "Apple-VideoLAN partnership announced, Mac VLC to be Intel only";
    $lang = "en";
-   $date = "1 April 2006";
    $menu = array( "vlc" );
    require($_SERVER["DOCUMENT_ROOT"]."include/header.php");
 ?>

@@ -1,7 +1,6 @@
 <?php
    $title = "VLC media player for openSUSE";
    $lang = "en";
-   $date = "14 February 2003";
    $menu = array( "vlc", "download" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>

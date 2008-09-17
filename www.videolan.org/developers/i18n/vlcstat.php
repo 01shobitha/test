@@ -1,7 +1,6 @@
 <?php
    $title = "VLC media player localization";
    $lang = "en";
-   $date = "6 February 2004";
    $menu = array( "developers", "i18n" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");

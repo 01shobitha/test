@@ -15,7 +15,6 @@ if( isset( $_POST["skin_id"] ) && isset( $_POST["rating"] ) )
 
 $title = "VLC media player - Skins";
 $lang = "en";
-$date = "23 February 2008";
 $menu = array( "vlc", "skins" );
 require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 

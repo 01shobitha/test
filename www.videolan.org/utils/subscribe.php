@@ -1,7 +1,6 @@
 <?php
    $title = "VideoLAN - mailing-lists subscription";
    $lang = "en";
-   $date = "30 March 2001";
    $menu = array( "support", "" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>

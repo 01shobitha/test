@@ -2,7 +2,6 @@
    $title = "VLC media player - Skin Editor";
    $lang = "en";
    $menu = array( "vlc", "skineditor" );
-   $date = "23 February 2008";
    $enable_live = true;
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>

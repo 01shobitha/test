@@ -1,7 +1,6 @@
 <?php
    $title = "VLC media player for Linux Slackware";
    $lang = "en";
-   $date = "15 Sept 2008";
    $menu = array( "vlc", "download" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");

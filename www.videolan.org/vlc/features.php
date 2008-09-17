@@ -1,7 +1,6 @@
 <?php
    $title = "VLC - Features";
    $lang = "en";
-   $date = "17 March 2004";
    $menu = array( "vlc", "features" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 

@@ -1,8 +1,7 @@
 <?php
    $title = "VideoLAN - links";
    $lang = "en";
-   $date = "14 Octobre 2001";
-  $menu = array( "home", "links" );
+   $menu = array( "home", "links" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 

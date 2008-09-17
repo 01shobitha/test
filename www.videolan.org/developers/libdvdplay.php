@@ -1,9 +1,8 @@
 <?php
    $title ="VideoLAN developers - libdvdplay";
    $lang = "en";
-      $date = "18 January 2007";
-      $menu = array( "developers", "libdvdplay" );
-         require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
+   $menu = array( "developers", "libdvdplay" );
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
 

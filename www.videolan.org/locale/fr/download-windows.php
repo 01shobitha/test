@@ -1,7 +1,6 @@
 <?php
    $title = "VLC media player for Windows";
    $lang = "fr";
-   $date = "16 April 2001";
    $menu = array( "fr", "windows" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");

@@ -1,7 +1,6 @@
 <?php
    $title = "VideoLAN - Tests sur la Residence de l'Ecole Centrale !";
    $lang = "fr";
-   $date = "5 Juin 2004";
    $menu = array( "home", "overview" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>

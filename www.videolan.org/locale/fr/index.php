@@ -1,7 +1,6 @@
 <?php
    $title = "VideoLAN - Free Software and Open Source video streaming solution for every OS!";
    $lang = "fr";
-   $date = "06 April 2002";
    $menu = array( "fr", "overview" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");

@@ -1,7 +1,6 @@
 <?php
    $title = "VideoLAN - the events";
    $lang = "en";
-   $date = "6 April 2002";
    $menu = array( "project", "events" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>

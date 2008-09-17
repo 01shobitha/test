@@ -1,7 +1,6 @@
 <?php
    $title = "the VideoLAN team";
    $lang = "en";
-   $date = "7 April 2002";
    $menu = array( "project", "team" );
    $enable_map = true;
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");

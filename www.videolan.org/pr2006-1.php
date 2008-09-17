@@ -1,7 +1,6 @@
 <?php
    $title = "VideoLAN - Press Release";
    $lang = "en";
-   $date = "9 March 2006";
    $menu = array( "vlc" );
    require($_SERVER["DOCUMENT_ROOT"]."include/header.php");
 ?>

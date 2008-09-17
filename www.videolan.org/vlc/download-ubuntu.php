@@ -1,7 +1,6 @@
 <?php
    $title = "VLC media player for Ubuntu Linux";
    $lang = "en";
-   $date = "8 May 2006";
    $menu = array( "vlc", "download" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>

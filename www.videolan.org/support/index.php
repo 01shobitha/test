@@ -1,7 +1,6 @@
 <?php
    $title = "VideoLAN - User support and help";
    $lang = "en";
-   $date = "3 march 2007";
    $menu = array( "vlc", "support" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php"); 
 ?>

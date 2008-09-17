@@ -4,7 +4,6 @@
 <?php
    $title = "VideoLAN - The streaming solution";
    $lang = "en";
-   $date = "11 January 2002";
    $menu = array( "vlc", "streaming" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>

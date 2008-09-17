@@ -1,9 +1,8 @@
 <?php
    $title = "VideoLAN - mailing-lists";
    $lang = "en";
-   $date = "14 February 2001";
-    $menu = array( "developers", "main" );
-    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
+   $menu = array( "developers", "main" );
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
 <h1>VideoLAN mailing-lists</h1>

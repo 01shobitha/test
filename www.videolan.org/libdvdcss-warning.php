@@ -1,7 +1,6 @@
 <?php
    $title = "Warning regarding libdvdcss";
    $lang = "en";
-   $date = "28 April 2003";
    $menu = array( "vlc", "download" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>

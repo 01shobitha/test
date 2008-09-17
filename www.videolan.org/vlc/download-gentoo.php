@@ -1,7 +1,6 @@
 <?php
    $title = "VLC media player for Gentoo Linux";
    $lang = "en";
-   $date = "4 May 2003";
    $menu = array( "vlc", "download" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");

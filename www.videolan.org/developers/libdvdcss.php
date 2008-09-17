@@ -1,9 +1,8 @@
 <?php
    $title ="VideoLAN developers - libdvdcss";
    $lang = "en";
-      $date = "18 January 2007";
-      $menu = array( "developers", "libdvdcss" );
-         require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
+   $menu = array( "developers", "libdvdcss" );
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
 <h1>libdvdcss</h1>

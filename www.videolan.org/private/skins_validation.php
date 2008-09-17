@@ -169,7 +169,6 @@ if ($action != 0 && $id != 0) // if the form has been submitted
 // begining of the HTML content (form, skin's list, ...)
 $title = "VLC media player - Skins";
 $lang = "en";
-$date = "28 March 2003";
 $menu = array( "vlc", "skins" );
 // require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 require("../include/header.php");

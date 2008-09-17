@@ -2,7 +2,6 @@
    $title = "VLC media player - Overview";
    $lang = "en";
    $menu = array( "vlc", "download" );
-   $date = "14 February 2001";
    $enable_live = true;
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>

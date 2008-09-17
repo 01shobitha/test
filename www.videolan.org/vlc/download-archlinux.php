@@ -1,7 +1,6 @@
 <?php
    $title = "VLC media player for ALT Linux";
    $lang = "en";
-   $date = "15 Sept 2008";
    $menu = array( "vlc", "download" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>

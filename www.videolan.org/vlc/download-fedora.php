@@ -1,7 +1,6 @@
 <?php
    $title = "VLC media player for Fedora";
    $lang = "en";
-   $date = "21 June 2004";
    $menu = array( "vlc", "download" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/package.php");

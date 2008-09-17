@@ -1,7 +1,6 @@
 <?php
    $title ="VideoLAN developers - libdca ";
    $lang = "en";
-   $date = "18 January 2007";
    $menu = array( "developers", "libdca" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>

@@ -1,7 +1,6 @@
 <?php
    $title = "VLC media player for FreeBSD";
    $lang = "en";
-   $date = "24 June 2005";
    $menu = array( "vlc", "download" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");

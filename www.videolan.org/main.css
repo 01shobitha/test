@@ -357,6 +357,8 @@ img.center { display: block; margin: auto; }
  { padding-left:2em;background: url(http://download2.videolan.org/images/flags/jp.png) left no-repeat;}
 #maincontent table td.am
  { padding-left:2em;background: url(http://download2.videolan.org/images/flags/am.png) left no-repeat;}
+#maincontent table td.ch
+ { padding-left:2em;background: url(http://download2.videolan.org/images/flags/ch.png) left no-repeat;}
 
 /* DL */
 .download {

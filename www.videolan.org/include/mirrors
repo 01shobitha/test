@@ -82,3 +82,7 @@ http://videolan.mirror.technotop.nl/|Technotop Networks|Netherlands|nl|HTTP|1000
 # ftpmaint@free.org
 # FTP version is also available.
 http://ftp.free.org/mirrors/videolan/|Free|France|fr|HTTP|2000
+#
+# EDSI-Tech, Suisse
+# Philippe Bonvin - EDSI-Tech Sàrl <p.bonvin at edsi-tech doc com>
+http://vlc.edsi-tech.com/|EDSI-Tech|Switzerland|ch|HTTP|100

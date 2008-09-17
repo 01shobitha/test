@@ -333,33 +333,6 @@ img.center { display: block; margin: auto; }
 
 /************** Main page content - Specific styles ******************/
 
-/* Flags */
-.mirror li { padding-left: 25px; }
-#maincontent table td.au 
- { padding-left:2em; background: url(http://download2.videolan.org/images/flags/au.png) left no-repeat; }
-#maincontent table td.fr
- { padding-left:2em;background: url(http://download2.videolan.org/images/flags/fr.png) left no-repeat; }
-#maincontent table td.nl
- { padding-left:2em; background: url(http://download2.videolan.org/images/flags/nl.png) left no-repeat; }
-#maincontent table td.se
- { padding-left:2em;background: url(http://download2.videolan.org/images/flags/se.png) left no-repeat; }
-#maincontent table td.tw
- { padding-left:2em;background: url(http://download2.videolan.org/images/flags/tw.png) left no-repeat; }
-#maincontent table td.us
- { padding-left:2em;background: url(http://download2.videolan.org/images/flags/us.png) left no-repeat;}
-#maincontent table td.de
- { padding-left:2em;background: url(http://download2.videolan.org/images/flags/de.png) left no-repeat;}
-#maincontent table td.cz
- { padding-left:2em;background: url(http://download2.videolan.org/images/flags/cz.png) left no-repeat;}
-#maincontent table td.ru
- { padding-left:2em;background: url(http://download2.videolan.org/images/flags/ru.png) left no-repeat;}
-#maincontent table td.jp
- { padding-left:2em;background: url(http://download2.videolan.org/images/flags/jp.png) left no-repeat;}
-#maincontent table td.am
- { padding-left:2em;background: url(http://download2.videolan.org/images/flags/am.png) left no-repeat;}
-#maincontent table td.ch
- { padding-left:2em;background: url(http://download2.videolan.org/images/flags/ch.png) left no-repeat;}
-
 /* DL */
 .download {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -501,3 +474,6 @@ a.en {
 }
 
 #footer p { margin: 0;padding: 0;line-height: 20px; }
+
+/* Flags */
+.mirror li { padding-left: 25px; }

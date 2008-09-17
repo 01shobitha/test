@@ -2,6 +2,10 @@
 # New topics begin with a "|"
 #
 
+|17 September 2008|VLC media player at IBC 2008|<a href="http://www.ibc.org">IBC 2008</a> is the 2nd largest conference and exhibition on Broadcasting technology in the world. Though VLC media player does not have a stand (terribly expensive), it is used on many stands by the attending companies. As every year, several of the VLC media player developers were present on the floor and Derk-Jan Hartman made a <a href="http://picasaweb.google.com/d.j.hartman/IBC2008#">photo report</a> showing some of the uses, by companies like: HP, Cisco, Anystream, Fraunhofer, BBC and many smaller companies.|
+It is the industries 'dirty little secret' you could say. Much of the IPTV based work starts by testing the IPTV streams with VLC media player. New features are sometimes even implemented in VLC media player for internal development, and then once it works, the engineers write a new program based on their experiences, which they deliver to their customers. However sometimes VLC media player even makes it into the endproduct. Big name HP clearly <a href="http://picasaweb.google.com/d.j.hartman/IBC2008#5246709674847748114">uses VLC media player in this product of theirs</a>. 
+
+
 |15 September 2008|VLC media player 0.9.2 Grishenko release| The VideoLAN Team is pleased to announce the release of VLC media player 0.9.2 - Grishenko.<br />
 Resulting of 2 years of development, it features many new functionalities, including a new interface for Windows and Linux.<br />
 A <a href="http://wiki.videolan.org/What_is_cool_in_0.9"> comprehensive list of new features</a> can be found on our <a href="http://wiki.videolan.org/">our wiki</a> or by reading the <a href="http://www.videolan.org/developers/vlc/NEWS">release notes</a>.|

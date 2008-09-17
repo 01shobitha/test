@@ -2,18 +2,17 @@
      "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<title>VLC Skin Editor - Online Help - Button</title>
+<title>VLC Skin Editor - Online Help - Text</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 </head>
 <body>
 <div class="header">
-<a href="index.html">VLC Skin Editor - Online Help</a> &gt; Documentation &gt; Items &gt; Button
+<a href="index.html">VLC Skin Editor - Online Help</a> &gt; Documentation &gt; Items &gt; Text
 </div>
-<h1>Button</h1>
+<h1>Text</h1>
 <p>
-A clickable button, that triggers a certain action. A button has three states: Up, Over and Down. 
-These correspond to the mouse interaction with the button.
+Displays a text in the skin.
 </p>
 <h3>General Attributes</h3>
 <p>
@@ -45,35 +44,27 @@ Indicate whether the items relative horizontal and vertical positions in the par
 Help text for the current control. The text variable <i>$H</i> will be set to this value when the mouse moves over the item.<br>
 <small><i>XML-attribute name: help</i></small>
 </p>
-<h3>Button Attributes</h3>
+<h3>Text Attributes</h3>
 <p>
-<b>Normal image</b><br>
-The bitmap that is displayed when the button is in its normal state.
-<br><small><i>XML-attribute name: up</i></small>
+<b>Font</b><br>
+The font used to render the text.
 </p>
-<p>
-<b>Mouse-over image</b><br>
-The bitmap that is displayed when the mouse is over the button.
-<br><small><i>XML-attribute name: over</i></small>
-</p>
-<p>
-<b>Mouse-click image</b><br>
-The bitmap that is displayed when the button is clicked.
-<br><small><i>XML-attribute name: down</i></small>
+<b>Text</b><br>
+The text to be displayed.
 </p>
 <p>
 <b>Action</b><br>
-The action that is triggered when the button is clicked.
+The action that is triggered when you click on the image. <i>Move</i> enables the user to move the window by dragging the image.
+The <i>resize</i> actions enable the user to resize the window into the given direction (East, South or South-East) by dragging the image.
 </p>
 <p>
-<b>Tooltiptext</b><br>
-The text that is displayed as a tooltip, when the button is hovered by the mouse.
-You can also use the available <a href="textvars.html">text variables</a>.
+<b>Double-click action</b><br>
+The action that is triggered when the image is double-clicked.
+<br><small><i>XML-attribute name: action2</i></small>
 </p>
 <p>
 <p class="see">
 <b>See also:</b><br>
-<a href="res-bitmap.html">Bitmap resources</a><br>
 <a href="textvars.html">Text variables</a>
 </p>
 <p class="footer">

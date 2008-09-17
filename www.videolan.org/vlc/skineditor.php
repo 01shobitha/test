@@ -102,21 +102,17 @@ For tutorials and help on the usage of the Skin Editor turn to the <a href="skin
       <div class="c">
         <h1>Development plans</h1>
         <ul class="panel-orange-bullet">
-          <li>Bug finding and fixing</li>    
-          <li><b>Still to be done until version 0.7.0</b>
-            <ul>
-              <li>SliderBackground generator enhancement</li>
-              <li>Enhanced online help &amp; tutorials</li>              
-            </ul>
-          </li>    
+          <li>Bug finding and fixing</li>          
           <li><b>version 0.7.*</b>
             <ul>              
               <li>New Layout for editing dialogs that look better on Linux</li>
+              <li>Slider background generating for vertical sliders.</li>
             </ul>
           </li>
           <li><b>version 0.8</b>
             <ul>
               <li>New parsing system that can handle all valid skin files</li>
+              <li>Slider editing with the mouse</li>
             </ul>
           </li>
         </ul>

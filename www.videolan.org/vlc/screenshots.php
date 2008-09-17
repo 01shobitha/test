@@ -32,6 +32,27 @@ screenshot( "0.9.2/qt-info.jpg",
 screenshot( "0.9.2/screenshot-kde4.jpg",
             "0.9.2/tm_screenshot-kde4.jpg",
             "Arch Linux - KDE 4 - Qt interface, album art and simple preferences", "1680x1050" );
+screenshot( "0.9.2/osx-0.9.2-ASS-softsubs.jpg",
+            "0.9.2/tm_osx-0.9.2-ASS-softsubs.jpg",
+            "Mac OS X 10.5.4 - Substation Alpha subtitle rendering in matroska files", "1680x1050" );
+screenshot( "0.9.2/osx-0.9.2-equalizer.jpg",
+            "0.9.2/tm_osx-0.9.2-equalizer.jpg",
+            "Mac OS X 10.5.4 - Equalizer, folded controller  and Dirac encoded video", "958x473" );
+screenshot( "0.9.2/osx-0.9.2-goom-albumart-tag.jpg",
+            "0.9.2/tm_osx-0.9.2-goom-albumart-tag.jpg",
+            "Mac OS X 10.5.4 - MP3 tag editing and Goom visualization", "978x693" );
+screenshot( "0.9.2/osx-0.9.2-prefs.jpg",
+            "0.9.2/tm_osx-0.9.2-prefs.jpg",
+            "Mac OS X 10.5.4 - Video section of the simplified Preferences", "650x568" );
+screenshot( "0.9.2/osx-0.9.2-gradient.jpg",
+            "0.9.2/tm_osx-0.9.2-gradient.jpg",
+            "Mac OS X 10.5.4 - Video filter panel with the Gradient filter applied", "909x564" );
+screenshot( "0.9.2/osx-0.9.2-inverted.jpg",
+            "0.9.2/tm_osx-0.9.2-inverted.jpg",
+            "Mac OS X 10.5.4 - Image adjust panel with the Inverted colors-filter applied", "866x572" );
+screenshot( "0.9.2/osx-0.9.2-teletext.jpg",
+            "0.9.2/tm_osx-0.9.2-teletext.jpg",
+            "Mac OS X 10.5.4 - Teletext presentation on EyeTV captured Digital Terrestial television signal", "1004x705" );
 ?>
 <p class="clearme"></p>
 <?php

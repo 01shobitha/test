@@ -2,28 +2,31 @@
      "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<title>VLC Skin Editor - Online Help - Panel</title>
+<title>VLC Skin Editor - Online Help - Video</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 </head>
 <body>
 <div class="header">
-<a href="index.html">VLC Skin Editor - Online Help</a> &gt; Documentation &gt; Items &gt; Panel
+<a href="index.html">VLC Skin Editor - Online Help</a> &gt; Documentation &gt; Items &gt; Slider Background
 </div>
-<h1>Panel</h1>
+<h1>Slider Background</h1>
 <p>
-A Panel can be seen as an enhanced Group. 
-It also adds an offset to the elements it contains, but in addition it becomes their reference for the lefttop, rightbottom, xkeepratio and ykeepratio attributes.
-Panels can be nested.
+<i>Under Construction</i>
 </p>
 <h3>General Attributes</h3>
 <p>
-<b>X and Y</b><br>
-The coordinates of the item relative to the parent container (Layout, Panel or Group).
+<b>ID</b><br>
+A unique identifier for the item.
 </p>
 <p>
-<b>Width and Height</b><br>
-Initial width and height of the panel.
+<b>Visibility</b><br>
+A <a href="boolexpr.html">boolean expression</a> indicating whether the item is shown or hidden.<br>
+<small><i>XML-attribute name: visible</i></small>
+</p>
+<p>
+<b>X and Y</b><br>
+The coordinates of the item relative to the parent container (Layout, Panel or Group).
 </p>
 <p>
 <b>Lefttop and Rightbottom</b><br>
@@ -36,9 +39,16 @@ Indicate whether the items relative horizontal and vertical positions in the par
 <i>See also: <a href="resizable.html">"How to create a resizable window"</a></i><br>
 <small><i>XML-attribute name: xkeepratio &amp; ykeepratio</i></small>
 </p>
+<p>
+<b>Help text</b><br>
+Help text for the current control. The text variable <i>$H</i> will be set to this value when the mouse moves over the item.<br>
+<small><i>XML-attribute name: help</i></small>
+</p>
+<h3>Slider Background Attributes</h3>
+<p><i>Under construction</i></p>
 <p class="see">
 <b>See also:</b><br>
-<a href="i-group.html">Group</a>
+<a href="sbgwizard.html">How to use the SliderBackground Generator</a>
 </p>
 <p class="footer">
 &copy; 2008 All rights reserved to the VideoLAN team.

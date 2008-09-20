@@ -66,14 +66,14 @@ For tutorials and help on the usage of the Skin Editor turn to the <a href="skin
           This program requires the Java Runtime Environment (JRE) 6 or later.
           If you do not have it, download it at <a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">java.sun.com</a>.
         </p>        
-        <p>
-          The ZIP packages include the Skin Editor as a compiled JAR file that can be run on all platforms that support Java.<br/>
-          Additionally a launcher program for Windows is included as an EXE file.<br/><br/>
-          <b>Last official release:</b><br/>
-          <s>
-          <img src="http://download2.videolan.org/images/12-em-down.png" alt=""/>        
-          <a href="http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?dlmajor" target="_blank">Download Version 
-            <? echo file_get_contents("http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?getmajorv"); ?></a>
+        <p>          
+          <b>Version <? echo file_get_contents("http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?getmajorv"); ?></b><br>
+          <img src="http://download2.videolan.org/images/12-em-down.png" alt=""/>
+          <a href="http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?dlsetupw32" target="_blank">Download for Windows (Installer)</a><br>
+          <img src="http://download2.videolan.org/images/12-em-down.png" alt=""/>
+          <a href="http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?dlmajor" target="_blank">Download for Windows (ZIP)</a><br>
+          <img src="http://download2.videolan.org/images/12-em-down.png" alt=""/>
+          <a href="http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?dltargz" target="_blank">Download for other operating systems (TAR+GZIP)</a><br>
           </s><br>
           <span style="color:#ef2929">
           The last official release contains major bugs, please use the development build instead.
@@ -123,4 +123,4 @@ For tutorials and help on the usage of the Skin Editor turn to the <a href="skin
   </div>
  </div> 
 
-<?php footer('$Id: skineditor.php 4737 2008-09-15 17:00 altglass$'); ?>
+<?php footer('$Id: skineditor.php 4777 2008-09-20 17:30 altglass$'); ?>

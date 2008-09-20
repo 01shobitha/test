@@ -74,7 +74,7 @@ For tutorials and help on the usage of the Skin Editor turn to the <a href="skin
           <a href="http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?dlmajor" target="_blank">Download for Windows (ZIP)</a><br>
           <img src="http://download2.videolan.org/images/12-em-down.png" alt=""/>
           <a href="http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?dltargz" target="_blank">Download for other operating systems (TAR+GZIP)</a><br>
-          </s><br>
+          <!--<br>
           <span style="color:#ef2929">
           The last official release contains major bugs, please use the development build instead.
           </span>
@@ -85,7 +85,7 @@ For tutorials and help on the usage of the Skin Editor turn to the <a href="skin
             <? echo file_get_contents("http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?getdevv"); ?></a>
           <br/><br/>
           <i>Number of downloads:
-          <? echo file_get_contents("http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php"); ?></i>
+          <? echo file_get_contents("http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php"); ?></i>-->
         </p>
       </div>      
     </div>
@@ -123,4 +123,4 @@ For tutorials and help on the usage of the Skin Editor turn to the <a href="skin
   </div>
  </div> 
 
-<?php footer('$Id: skineditor.php 4777 2008-09-20 17:30 altglass$'); ?>
+<?php footer('$Id: skineditor.php 4778 2008-09-20 17:35 altglass$'); ?>

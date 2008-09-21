@@ -40,7 +40,6 @@ Directory: /pub/videolan/vlc/SuSE/&lt;SUSE Version&gt;
 <p>Replace &lt;SUSE Version&gt; in the Directory above with your installed SuSE
 Version. Supported at this time are :</p>
 <pre>
-10.1
 10.2
 10.3
 11.0
@@ -73,19 +72,6 @@ Have a lot of Fun.
 
 <div id="right">
 
-<?php panel_start( "gray" ); ?>
-<b>For SUSE Linux 10.1:</b><br />
-You may need to add a SUSE Repository as well to solve several dependencies. <br />
-It could be  http://ftp4.gwdg.de/pub/opensuse/distribution/SL-10.1/inst-source/suse , for example.
-
-<?php panel_end(); ?>
-
-<?php panel_start( "blue" ); ?>
-<strong>Note for SUSE Linux Enterprise Desktop (SLED) 10</strong><br />
-
-SLED is based on SUSE Linux 10.1, so please be sure to select the 10.1 repository.
-
-<?php panel_end(); ?>
 </div>
 
 

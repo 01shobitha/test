@@ -28,6 +28,7 @@ if( !isset( $mirror_url ) )
 
   foreach( $mirrors as $mirror )
   {
+    if( $mirror[4] != 'HTTP' ) continue;
     $country_short = $mirror[3];
     $bw = $mirror[5];
     $COUNTRY_SHORT = strtoupper( $country_short );
@@ -61,6 +62,7 @@ if( !isset( $mirror_url ) )
 
   foreach( $mirrors as $mirror )
   {
+    if( $mirror[4] != 'HTTP' ) continue;
     $mirror_url = $mirror[0];
     $mirror_name = $mirror[1];
     $country = $mirror[2];

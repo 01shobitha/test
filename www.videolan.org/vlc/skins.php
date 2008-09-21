@@ -188,11 +188,11 @@ pg_close( $connect );
 
 <p>If you still don't find any skin you like, why don't you create a better one? Look at the following to get to know how to do that:<br />
 <ul class="panel-blue-bullet">
-  <li><a href="/vlc/skins2-create.html">How skins are made up</a></li>
-  <li><a href="/vlc/skineditor.php">The VLC Skin Editor (under development)</a></li>
+  <li><a href="/vlc/skineditor.php">The VLC Skin Editor</a></li>
+  <li><a href="/vlc/skins2-create.html">How skins are made up</a></li>  
 </ul>
 Don't worry, you don't need any programming skills... Some knowledge about graphics software
-might ease the job, though :-)<br />Need more skinning resources? Come join our <a href="http://forum.videolan.org/viewforum.php?f=15">friendly community</a> over at the VideoLAN Forums!</p>
+might ease the job, though.<br />Need more skinning resources? Come join our <a href="http://forum.videolan.org/viewforum.php?f=15">friendly community</a> over at the VideoLAN Forums!</p>
 <?php panel_end(); ?>
 
 <?php panel_start( "blue" ); ?>

@@ -2,6 +2,14 @@
 # New topics begin with a "|"
 #
 
+|21 September 2008|VLC Skin Editor 0.7 release|The VideoLAN Team is pleased to announce the release of VLC Skin Editor 0.7.<br/>
+After more than a year of development finally the first official stable release is there.<br/><br/>
+The Skin Editor enables designers to create skins for VLC without having them to  learn about XML and the internal makeup of skins2.
+It provides an easy-to-use WYIWYG editing interface giving full control over all of the skin's features.|<br/><br/>
+Binary packages for windows, including an installer can be found at <a href="vlc/skineditor.php">the Skin Editor page</a>.
+There can also be found a build for all other operating systems for which exist a Java Runtime Environment 6 SE.<br/><br/>
+We'd like to thank all contributors and testers for having made this release possible.
+
 |17 September 2008|VLC media player at IBC 2008|<a href="http://www.ibc.org">IBC 2008</a> is the 2nd largest conference and exhibition on Broadcasting technology in the world. Though VLC media player does not have a stand (terribly expensive), it is used on many stands by the attending companies. As every year, several of the VLC media player developers were present on the floor and Derk-Jan Hartman made a <a href="http://picasaweb.google.com/d.j.hartman/IBC2008#">photo report</a> showing some of the uses, by companies like: HP, Cisco, Anystream, Fraunhofer, BBC and many smaller companies.|
 It is the industries 'dirty little secret' you could say. Much of the IPTV based work starts by testing the IPTV streams with VLC media player. New features are sometimes even implemented in VLC media player for internal development, and then once it works, the engineers write a new program based on their experiences, which they deliver to their customers. However sometimes VLC media player even makes it into the endproduct. Big name HP clearly <a href="http://picasaweb.google.com/d.j.hartman/IBC2008#5246709674847748114">uses VLC media player in this product of theirs</a>. 
 

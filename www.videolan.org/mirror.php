@@ -45,8 +45,8 @@
     {
 	exit;
     }
-  require '/home/videolan/etc/db.php';
-    /* Load saved data */
+
+    require '/home/videolan/etc/db.php';
     $connect = pg_connect( $connect_string );
   
     if( !$connect )

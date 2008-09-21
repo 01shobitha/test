@@ -101,12 +101,19 @@ else
   $country = "N/A";
 }
 
-   require '/home/videolan/etc/db.php';
+    header('Location: '.$mirror_url.$file);
+
+    if( strrchr($file,'.') == '.asc' )
+    {
+        exit;
+    }
+
     if( $mirror_url == "http://downloads.videolan.org/pub/videolan/" )
     {
 	exit;
     }
-    /* Load saved data */
+
+    require '/home/videolan/etc/db.php';
     $connect = pg_connect( $connect_string );
   
     if( !$connect )
@@ -123,6 +130,4 @@ $file = pg_escape_string($file);
 			    "current_date)");
     }
     pg_close($connect);
-
-    header('Location: '.$mirror_url.$file);
 ?>

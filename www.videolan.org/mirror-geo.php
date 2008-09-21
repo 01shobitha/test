@@ -126,12 +126,12 @@ else
 <!-- Stats -->
 
 <?php
-   require '/home/videolan/etc/db.php';
     if( $mirror_url == "http://downloads.videolan.org/pub/videolan/" )
     {
 	exit;
     }
-    /* Load saved data */
+
+    require '/home/videolan/etc/db.php';
     $connect = pg_connect( $connect_string );
   
     if( !$connect )

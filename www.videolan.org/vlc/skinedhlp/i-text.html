@@ -53,8 +53,28 @@ The font used to render the text.
 The text to be displayed.
 </p>
 <p>
-<i>Under construction</i>
+<b>Color</b><br>
+The color of the text in hexadecimal format.
 </p>
+<p>
+<b>Width</b><br>
+Width of the text in pixels. If set to "0", the width is automatically calculated to fit with the current text.
+</p>
+<p>
+<b>Alignment</b><br>
+Alignment of the text inside the control. The <i>right</i> and <i>center</i> alignments are computed using the <i>width</i> attribute.
+Thus if <i>width</i> is set to 0, <i>center</i> and <i>right</i> alignment won't have an effect.
+</p>
+<p>
+<b>Scrolling</b><br>
+Scrolling behaviour of the text (only when it doesn't fit in the width of the control). 
+Possible values are <i>auto</i>, <i>manual</i> and <i>none</i>. 
+If this attribute is set to <i>auto</i>, the text automatically starts scrolling. 
+The user can drag the text, and click on it to start/stop the scrolling. 
+If this attribute is set to <i>manual</i>, the text only scrolls when dragged by the user. 
+If this attribute is set to <i>none</i>, no scrolling is possible at all.
+</p>
+<p>
 <p class="see">
 <b>See also:</b><br>
 <a href="textvars.html">Text variables</a>

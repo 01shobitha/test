@@ -206,7 +206,7 @@ href="/images/goodies/lilo-videolan.tar.gz">lilo-videolan.tar.gz</a>.</p>
 <p>You may freely use these VideoLAN logos using the following
 copyright:</p>
 
-<pre>Copyright (c) 1996-2004 VideoLAN. This logo or a modified version
+<pre>Copyright (c) 1996-2008 VideoLAN. This logo or a modified version
 may be used or modified by anyone to refer to the VideoLAN project
 or any product developed by the VideoLAN team, but does not indicate
 endorsement by the project.</pre>

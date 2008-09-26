@@ -118,7 +118,7 @@ libraries and build them yourself:</p>
 
 <div id="right">
 <?php panel_start( "blue" ); ?>
-        <p><span class="vlcversion">VLC 0.9.2 downloads: <span id="vlccounter">Loading...</span></span></p>
+        <p><span class="vlcversion">VLC 0.9.3 downloads: <span id="vlccounter">Loading...</span></span></p>
         <p><span id="dlrate">Calculating...</span> downloads per second</p>
         <div class="more"><a href="/stats/downloads.php">Full statistics</a></div>
 <?php panel_end(); ?>

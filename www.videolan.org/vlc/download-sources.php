@@ -11,15 +11,15 @@
 <div id="left">
 <h2>Tarballs</h2>
 
-<p> Latest VLC source code tarball (0.9.2): </p>
+<p> Latest VLC source code tarball (0.9.3): </p>
 
 <ul class="bullets">
-<li><?php pkgitem("VLC source code tar.bz2", "0.9.2","vlc-0.9.2.tar.bz2","vlc"); ?></li>
+<li><?php pkgitem("VLC source code tar.bz2", "0.9.3","vlc-0.9.3.tar.bz2","vlc"); ?></li>
 </ul>
 
 <h2> Latest required libraries: </h2>
 <p>
-The list of required libraries is not yet updated for 0.9.2
+The list of required libraries is not yet updated for 0.9.3
 </p>
 
 <!--

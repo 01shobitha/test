@@ -2,6 +2,12 @@
 # New topics begin with a "|"
 #
 
+|26 September 2008|VLC media player 0.9.3 and Call for Windows developers|On the heels of 0.9.2 the VideoLAN team presents version 0.9.3, the first bugfix release of the 0.9 series. We are also putting a call out for new Windows developers for our team.<br /> |
+Binary packages for <a href="vlc/download-macosx">Mac OS X</a> and source code tarballs are available for download. Windows binaries might follow at a later time.<br /> Help is available, as usual, in many places: <ul class="bullets"><li>The <a href="http://wiki.videolan.org/Documentation:Documentation/">documentation</a> (we need help keeping it up to date!)</li><li>The <a href=" http://forum.videolan.org">forums</a></li><li>The <a href="http://www.videolan.org/support/lists.html">mailing lists</a></li><li>IRC: #videolan on Freenode</li></ul><br/>
+We'd like to thank all our contributors, testers and users around the world for their support and help making this release possible.<br /><br />
+We are putting out a call for NEW Windows developers. At the moment, our Windows-port is sorely missing some much needed love from a true Windows developer. Our team has been without a Windows developer for several months now, which is blocking us from supporting our largest usergroup in the manner we want to. We are therefore looking for developers to help our team in the areas of debugging crashes, Direct X, A/V capturing, ActiveX and Windows integration, so we can hopefully resume supporting our largest group of users in the best possible way. If we are unable to find new developers, new versions of VLC media player for Windows might become less frequent and severely out of sync with the Linux and Mac OS X versions.<br /><br />
+So, no donations for work on the Windows-port and no "opportunities"-emails, for Windows we only require: Developers, Developers, Developers !!!!!
+
 |21 September 2008|VLC Skin Editor 0.7 release|The VideoLAN Team is pleased to announce the release of VLC Skin Editor 0.7.<br/>
 After more than a year of development finally the first official stable release is there.<br/><br/>
 The Skin Editor enables designers to create skins for VLC without having them to  learn about XML and the internal makeup of skins2.

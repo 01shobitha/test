@@ -8,10 +8,11 @@
 <div id="fullwidth">
     <h1>VLC download statistics</h1>
 
-    <p>These stats were started at the end of february 2005</p>
+    <p>These stats were started at the end of February 2005 and are likely
+       to be inaccurate.</p>
 
     <p>We don't show Linux download statistics as most downloads for this 
-       OS are made through distributions</p>
+       OS are made through distributions.</p>
 
     <h1>Downloads by version and by OS</h1>
     <table border="0">

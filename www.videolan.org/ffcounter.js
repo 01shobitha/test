@@ -27,7 +27,7 @@
 
 // Make sure to change these based on your settings!
 
-var counterURL = "/retrieve.php";	// The URL of your local counter mirror.
+var counterURL = "/retrieve.xml";	// The URL of your local counter mirror.
 var counterID = "vlccounter";	// The ID of the counter element.
 
 /******************************************************************************

@@ -22,12 +22,12 @@ function AddSkin( $id, $name, $author, $img, $url, $dl, $date, $date_mod, $ratin
 {
 ?>
 <h3><?php echo $name; 
-if ($date_mod <> $date) echo '&nbsp; <img src="/images/updated.png" />'; ?></h3>
+if ($date_mod <> $date) echo '&nbsp; <img src="http://download2.videolan.org/images/updated.png" />'; ?></h3>
 <table class="skins-download">
  <tr>
   <td>
-   <a href="./skins2/<?php echo $img; ?>">
-   <img width="200" src="./skins2/tm_<?php echo $img; ?>"
+   <a href="http://download2.videolan.org/vlc/skins2/<?php echo $img; ?>">
+   <img width="200" src="http://download2.videolan.org/vlc/skins2/tm_<?php echo $img; ?>"
      class="skins-screenshot" alt="screenshot"/>
    </a>
   </td>
@@ -67,7 +67,7 @@ if ($date_mod <> $date) echo '&nbsp; <img src="/images/updated.png" />'; ?></h3>
           for( $i=0; $i<5; $i++ )
           {
             $v = round(min(1,max(0,$rating-$i)),1)*10;
-            echo "<img alt='".($v>0?'+':'-')."' src='/vlc/skins2/cone-$v.png' />";
+            echo "<img alt='".($v>0?'+':'-')."' src='http://download2.videolan.org/vlc/skins2/cone-$v.png' />";
           }
         }
       ?>
@@ -189,7 +189,7 @@ pg_close( $connect );
 <p>If you still don't find any skin you like, why don't you create a better one? Look at the following to get to know how to do that:<br />
 <ul class="panel-blue-bullet">
   <li><a href="/vlc/skineditor.php">The VLC Skin Editor</a></li>
-  <li><a href="/vlc/skins2-create.html">How skins are made up</a></li>  
+  <li><a href="/vlc/skins2-create.html">How skins are made up</a></li>
 </ul>
 Don't worry, you don't need any programming skills... Some knowledge about graphics software
 might ease the job, though.<br />Need more skinning resources? Come join our <a href="http://forum.videolan.org/viewforum.php?f=15">friendly community</a> over at the VideoLAN Forums!</p>

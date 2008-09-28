@@ -5,16 +5,12 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-<div id="fullwidth">
+<div id="left">
 
-<h1>Scheduling a program</h1>
+<h1>Scheduling a channel</h1>
 
-<p>In fact, there are three kinds of channels: TNT, Satellite and File channels.</p>
-
-<h2>Scheduling a TNT/digital terrestrial channel</h2>
-
-<p>After having added a TNT channel, you can check it out in the Media tab: 'TNT channel list'. If the channel is there, 
-it is ready to be scheduled.</p>
+<p>After having added a channel, you can check it out in the Media tab: if the
+channel is there, it is ready to be scheduled.</p>
 <p>To schedule a channel, you have to click on "Program" on the right side of the channel. Afterwards,  you choose its priority and hit "Program".</p>
 
 <p>What does priority mean? The bigger priority is, the most likely it is to be streamed on the network.</p>
@@ -28,21 +24,15 @@ Thus, the channel with priority 10 will be streamed first. If the server is stil
 <p>You have also to choose a name for the SAP announce that will appear in the user's player.</p>
 
 <p>It's done! VLMa assigns a multicast IP address of its pool to your channel and sends the streaming commands to the respective server.</p>
-<p>VLMa's home page will show that the channel is ready to be streamed now, if the servers are not too busy.</p>
-
-<h2>Scheduling a Satellite channel</h2>
-
-<p>The Satellite channels are listed in the 'Satellite channel list'.</p>
-
-<p>To schedule a Satellite channel, the procedure is the same as with TNT channels. 
-For example, you want to stream CCTV9, search it in the list and click on "Program".</p>
-
-<p>After that, choose a priority for this channel (the default value is 10) and a SAP announcement name.</p>
-
-<h2>Scheduling a File channel</h2>
-
-<p>The procedure is the same as for satellite and TNT channels.</p>
+<p>VLMa home page will show that the channel is ready to be streamed now, if the servers are not too busy.</p>
 
 </div>
 
-<?php footer('$Id$') ?>
+<div id="right">
+
+<a href="http://download.videolan.org/vlma/screenshot/0.2.0/schedule.png"><img style="width:100%; border: 1px solid #ccc; margin-top: 90px" alt="Schedule a channel" src="http://download.videolan.org/vlma/screenshot/0.2.0/schedule.png" /></a>
+
+</div>
+
+
+<?php footer('') ?>

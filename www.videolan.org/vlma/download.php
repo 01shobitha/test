@@ -9,21 +9,22 @@
 
 <h1>VLMa - Download</h1>
 
-<h2>Jars</h2>
+<h2>Binary packages</h2>
 
-<p>Latest VLMa jars (0.1):</p>
+<p>Latest binary packages (0.2.0):</p>
 <ul class="bullets">
-  <li><a href="http://download.videolan.org/pub/videolan/vlma/0.1/vlmad.jar">VLMad jar</a> (4.5 MB)</li>
-  <li><a href="http://download.videolan.org/pub/videolan/vlma/0.1/vlmaw.war">VLMaw war</a> (5.6 MB)</li>
+  <li><a href="http://download.videolan.org/pub/videolan/vlma/0.2.0/vlma-0.2.0-bin.zip">VLMa (zip)</a> (13.3 MB)</li>
+  <li><a href="http://download.videolan.org/pub/videolan/vlma/0.2.0/vlma-0.2.0-bin.tar.gz">VLMa (tar.gz)</a> (13.3 MB)</li>
+  <li><a href="http://download.videolan.org/pub/videolan/vlma/0.2.0/vlma-0.2.0-bin.tar.bz2">VLMa (tar.bz2)</a> (13.3 MB)</li>
 </ul>
 
 <h2>Tarballs</h2>
 
-<p>Latest VLMa source tarballs (0.1):</p>
-<ul>
-  <li><a href="http://download.videolan.org/pub/videolan/vlma/0.1/vlma.zip">VLMa zip</a> (212 KB)</li>
-  <li><a href="http://download.videolan.org/pub/videolan/vlma/0.1/vlma.tar.gz">VLMa tar.gz</a> (88 KB)</li>
-  <li><a href="http://download.videolan.org/pub/videolan/vlma/0.1/vlma.tar.bz2">VLMa tar.bz2</a> (72 KB)</li>
+<p>Latest VLMa source tarballs (0.2.0):</p>
+<ul class="bullets">
+  <li><a href="http://download.videolan.org/pub/videolan/vlma/0.2.0/vlma-0.2.0-src.zip">VLMa (zip)</a> (328 KB)</li>
+  <li><a href="http://download.videolan.org/pub/videolan/vlma/0.2.0/vlma-0.2.0-src.tar.gz">VLMa (tar.gz)</a> (136 KB)</li>
+  <li><a href="http://download.videolan.org/pub/videolan/vlma/0.2.0/vlma-0.2.0-src.tar.bz2">VLMa (tar.bz2)</a> (112 KB)</li>
 </ul>
 
 <h2>Older versions</h2>
@@ -32,17 +33,7 @@
 
 <h1>VLMa - Installation</h1>
 
-<p>Installing the VLMa is very simple. This <a href="doc/setup.html">screencast</a> explains the procedure.</p>
-
-<ul class="bullets">
-  <li>The daemon:<br/>
-  This package contains all dependencies. You have just to run the deamon using Java VM :<br/>
-  java -jar vlmad.jar</li>
-
-  <li>The Web Application:<br/>
-  Deploy the vlmaw.war archive using your favorite servlet container. If you don't have any, take a look
-  at <a href="http://tomcat.apache.org">Tomcat</a>.</li>
-</ul>
+<p>Build and installation instructions are detailed in the INSTALL file distributed with VLMa and on <a href="/vlma/doc/setup.html">the setup page</a>.</p>
 
 </div>
 
@@ -86,14 +77,14 @@
         <h2>Running VLMa</h2>
 
         <ul>
-          <li>JRE >= 5.0</li>
+          <li>Java 2 SDK 5.0 or later</li>
           <li>A servlet container (like Tomcat or Jetty)</li>
         </ul>
 
-        <h2>Building VLMa</h2>
+        <h2>Building VLMa from source</h2>
 
         <ul>
-          <li>JDK >= 5.0</li>
+          <li>Java 2 SDK 5.0 or later</li>
           <li>Maven 2</li>
         </ul>
 

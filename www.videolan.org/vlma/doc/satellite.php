@@ -5,7 +5,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-<div id="fullwidth">
+<div id="left">
 <h1>Satellites</h1>
 
 <h2>Adding a new satellite</h2>
@@ -21,6 +21,10 @@ http://www.satcodx.com</a>. This information lets VLMa know which satellite chan
 
 <p>After having added a satellite, you can edit it to modify its coverage list whenever you want.<p>
 
+</div>
+
+<div id="right">
+<a href="http://download.videolan.org/vlma/screenshot/0.2.0/satelliteadd.png"><img style="width:100%; border: 1px solid #ccc; margin-top: 20px" alt="Add a satellite" src="http://download.videolan.org/vlma/screenshot/0.2.0/satelliteadd.png" /></a>
 </div>
 
 <?php footer('$Id$') ?>

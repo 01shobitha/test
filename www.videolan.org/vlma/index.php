@@ -23,6 +23,7 @@ and a web interface (called VLMaw).</p>
   <li>dynamic stream assignments (incl. fallback if a server is unavailable)</li>
   <li>monitoring the streamers' state using SNMP</li>
   <li>drawing of the streams stats as RRD graphs</li>
+  <li>notifications by mail or IM (IRC and MSN)</li>
   <li>localized web interface in French and English</li>
 </ul>
 
@@ -34,7 +35,7 @@ and a web interface (called VLMaw).</p>
 
 <h2>People using VLMa</h2>
 
-<p><a href="http://via.ecp.fr">Via Centrale Réseaux</a> - to stream television on the campus.</p>
+<p><a href="http://www.via.ecp.fr">VIA Centrale Réseaux</a> - to stream television on the campus.</p>
 
 <p>If you use VLMa in another institution or company, please let us know.</p>
 
@@ -55,9 +56,9 @@ and a web interface (called VLMaw).</p>
     <div class="bd">
       <div class="c">
         <!-- main content goes here -->
-        <h1>Download</h1>
+        <h1>Download and install</h1>
 
-        <p>To download VLMa, go to the <a href="/vlma/download.html">download page</a>.</p>
+        <p>To download VLMa, go to the <a href="/vlma/download.html">download page</a>. Installation instructions can be found <a href="/vlma/doc/setup.html">here</a></p>
 
       </div>
     </div>
@@ -76,9 +77,10 @@ and a web interface (called VLMaw).</p>
     <div class="bd">
       <div class="c">
 
-          <h1>Screenshot (with French localization)</h1>
+          <h1>Screenshot</h1>
           <div>
-            <img style="border: 1px solid #ccc;" class="center" alt="VLMa screenshot" src="http://download.videolan.org/vlma/screenshot/welcome.png" />
+            <a href="http://download.videolan.org/vlma/screenshot/0.2.0/channellist.png"><img style="width:100%; border: 1px solid #ccc;" alt="DTT channel list" src="http://download.videolan.org/vlma/screenshot/0.2.0/channellist.png" /></a>
+
           </div>
 
       </div>
@@ -91,4 +93,4 @@ and a web interface (called VLMaw).</p>
 
 </div>
 
-<?php footer('$Id$') ?>
+<?php footer('') ?>

@@ -25,31 +25,25 @@ support multicast) streams.</p>
 
 <h2>Generalities</h2>
 
-<p>The VLMa daemon saves its state in the file 'data.xml' in a subdirectory '.vlma' of the current user's home directory.
-Be careful: modifications are not automatically saved. You need to click on 'Save' in the left menu if you want to do so. If you stop the deamon without saving, your modification will not be available the next time you run 
-the daemon.</p>
-
-<p>VLMa also saves its configuration in the file 'config.xml' in the subdirectory '.vlma' of the current user's home directory.</p>
-
-<h2>Installation</h2>
-
-<p>This <a href="setup.html">video</a> explains how to install VLMa on your system.</p>
+<p>VLMa daemon saves its state in the <i>data.xml</i> file located in the
+<i>data</i> folder and its configuration in the <i>config.properties</i>
+file located in the <i>conf</i> folder.</p>
 
 <h2>Content</h2>
 
-<p>Here you can find some documentation about VLMa:</p>
+<p>First <a href="/vlma/doc/setup.html">setup VLMa</a></p>
 
+<p>To setup VLMa, you basically need to follow these steps:</p>
 <ul class="bullets">
-  <li><a href="/vlma/doc/server.html">server</a></li>
-  <li><a href="/vlma/doc/media.html">media</a> (satellite and Digital terrestrial television channels)</li>
-  <li><a href="/vlma/doc/fileChannel.html">file channels</a></li>
-  <li><a href="/vlma/doc/satellite.html">satellites</a></li>
-  <li><a href="/vlma/doc/schedule.html">how to schedule a media</a></li>
-  <li><a href="/vlma/doc/troubleshooting.html">and troubleshooting</a></li>
+<li>Add <a href="/vlma/doc/satellite.html">satellites</a> to VLMa database (Hotbird, Astra, etc.).</li>
+<li>Tell VLMa which <a href="/vlma/doc/server.html">servers</a> are available for streaming and what they have as DVB cards.</li>
+<li>Add <a href="/vlma/doc/media.html">medias</a> to VLMa database.</li>
 </ul>
 
-<p>Thanks to Thanh-tra Nguyen.</p>
+<p>Then you will be able to <a href="/vlma/doc/schedule.html">schedule medias</a> for broadcasting.</p>
+
+<p>For information about troubleshooting, have a look <a href="/vlma/doc/troubleshooting.html">here</a>.</p>
 
 </div>
 
-<?php footer('$Id$') ?>
+<?php footer('') ?>

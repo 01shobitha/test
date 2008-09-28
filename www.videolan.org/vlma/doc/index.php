@@ -31,7 +31,7 @@ file located in the <i>conf</i> folder.</p>
 
 <h2>Content</h2>
 
-<p>First <a href="/vlma/doc/setup.html">setup VLMa</a></p>
+<p>First <a href="/vlma/doc/setup.html">install VLMa</a>.</p>
 
 <p>To setup VLMa, you basically need to follow these steps:</p>
 <ul class="bullets">

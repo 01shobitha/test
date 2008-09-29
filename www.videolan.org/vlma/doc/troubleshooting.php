@@ -19,7 +19,7 @@ The only way to solve this situation is restarting VLC and waiting for VLMa to r
 
 <h2>VLMa</h2>
 
-<p>Please let us know if you find any bugs either by asking on the <a href="http://mailman.videolan.org/listinfo/vlma">mailing list</a> or by adding a ticket to the <a href="http://trac.videolan.org/vlma/">Trac</a></p>
+<p>Please let us know if you find any bugs either by asking on the <a href="http://mailman.videolan.org/listinfo/vlma">mailing list</a> or by adding a ticket to the <a href="http://trac.videolan.org/vlma/">Trac</a>.</p>
 
 </div>
 

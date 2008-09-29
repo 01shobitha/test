@@ -58,7 +58,7 @@ and a web interface (called VLMaw).</p>
         <!-- main content goes here -->
         <h1>Download and install</h1>
 
-        <p>To download VLMa, go to the <a href="/vlma/download.html">download page</a>. Installation instructions can be found <a href="/vlma/doc/setup.html">here</a></p>
+        <p>To download VLMa, go to the <a href="/vlma/download.html">download page</a>. Installation instructions can be found <a href="/vlma/doc/setup.html">here</a>.</p>
 
       </div>
     </div>

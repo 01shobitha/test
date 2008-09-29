@@ -120,7 +120,7 @@ libraries and build them yourself:</p>
 <?php panel_start( "blue" ); ?>
         <p><span class="vlcversion">VLC 0.9 downloads: <span id="vlccounter">Loading...</span></span></p>
         <p><span id="dlrate">Calculating...</span> downloads per second</p>
-        <div class="more"><a href="/stats/downloads.php">Full statistics</a></div>
+        <div class="more"><a href="/stats/downloads.html">Full statistics</a></div>
 <?php panel_end(); ?>
 
 <?php panel_start( "blue" ); ?>

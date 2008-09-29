@@ -15,7 +15,7 @@
 
 <h1>Download statistics</h1>
 
-<p><a href="/stats/downloads.php">View download statistics</a></p>
+<p><a href="/stats/downloads.html">View download statistics</a></p>
 
 </div>
 

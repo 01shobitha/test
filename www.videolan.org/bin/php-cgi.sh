@@ -6,7 +6,7 @@
 # $Id: phpcgi.sh 1960 2004-11-01 16:52:30Z dionoea $
 
 # It won't work if you call the PHP CLI usually in /usr/bin or /usr/local/bin
-PHP=/usr/lib/cgi-bin/php4
+PHP=/usr/lib/cgi-bin/php5
 
 # CGI/1.1 interface variables
 export SERVER_SOFTWARE="Shell CGI/0.1"
@@ -20,7 +20,7 @@ export PATH_INFO=`echo "$1" | cut -d '?' -f1`
 
 export PATH_TRANSLATED="${2}${PATH_INFO}"
 
-export SCRIPT_NAME="/cgi-bin/php4"
+export SCRIPT_NAME="/cgi-bin/php5"
 export QUERY_STRING=`echo "$1" | cut -d '?' -f2`
 export REMOTE_HOST="localhost"
 export REMOTE_ADDR="127.0.0.1"

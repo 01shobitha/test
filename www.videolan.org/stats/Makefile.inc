@@ -1,1 +1,1 @@
-PHP_IGNORES = downloads
+PHP_IGNORES = index downloads

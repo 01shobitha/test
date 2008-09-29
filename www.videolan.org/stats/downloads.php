@@ -83,6 +83,8 @@
     echo "</table>";
 
     pg_close($connect);
+
+    echo "<p>Page generated on ".date("r").".</p>";
 ?>
 
 </div>

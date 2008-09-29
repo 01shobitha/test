@@ -67,8 +67,8 @@ run VLMa daemon by running the following command:</p>
 <p>Ensure that the JAVA_HOME environment variable has been set and that it
 points to a valid JDK installation. To do this, have a look at:</p>
 <ul class="bullets">
-  <li>http://support.microsoft.com/kb/310519 for Windows XP,</li>
-  <li>http://support.microsoft.com/kb/931715 for Windows Vista.</li>
+  <li><a href="http://support.microsoft.com/kb/310519">http://support.microsoft.com/kb/310519</a> for Windows XP,</li>
+  <li><a href="http://support.microsoft.com/kb/931715">http://support.microsoft.com/kb/931715</a> for Windows Vista.</li>
 </ul>
 
 <p>Then open a prompt and change directory to where you extracted VLMa. You can

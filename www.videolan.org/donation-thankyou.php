@@ -8,7 +8,7 @@
 <div id="fullwidth">
 
 <p>
-<img width="300" height="75" alt="VideoLAN" src="images/videolan-new4.png" />
+<img width="300" height="75" alt="VideoLAN" src="http://images.videolan.org/images/videolan-new4.png" />
 </p>
 
 <h1>Thank you!</h1>

@@ -54,7 +54,7 @@ function load()
         }
         else
         {
-          pintext += "<td width='100' nowrap='nowrap' valign='top' rowspan='2' class='imgTD'><img src='http://download.videolan.org/images/cone-soppera10.png' width='60px' height='80px' /></td>";
+          pintext += "<td width='100' nowrap='nowrap' valign='top' rowspan='2' class='imgTD'><img src='http://images.videolan.org/images/cone-soppera10.png' width='60px' height='80px' /></td>";
         }
 
         pintext += "<td valign='top' class='contentTD'>"

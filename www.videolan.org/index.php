@@ -64,7 +64,7 @@
 	--></script>
 	<noscript>
 	   <p class="center">
-  	   <img src="http://www.videolan.org/images/screenshots/vlc-win32.jpg" alt="VLC on Windows" />
+  	   <img src="http://images.videolan.org/images/screenshots/vlc-win32.jpg" alt="VLC on Windows" />
 	   </p>
 	</noscript>
 	</p>

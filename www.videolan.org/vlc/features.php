@@ -49,23 +49,23 @@
 	  <th class="category"></th>
 <?php if( $double_header == true ) { echo "<th class=\"type\"></th>"; } ?>
 	  <th class="th-os"><a href="/vlc/download-windows.html">
-  <img src="/images/icons/winvista.png" alt="Windows" width="32" height="32" />
+  <img src="http://images.videolan.org/images/icons/winvista.png" alt="Windows" width="32" height="32" />
 </a></th>
 <th class="th-os"><a href="/vlc/download-macosx.html">
-  <img src="/images/icons/macosx.png" alt="Mac OS X" width="32" height="32" />
+  <img src="http://images.videolan.org/images/icons/macosx.png" alt="Mac OS X" width="32" height="32" />
 </a></th>
 <th class="th-os"><a href="/vlc/index.html">
-  <img src="/images/icons/linux.png" alt="Linux" width="32" height="32" />
+  <img src="http://images.videolan.org/images/icons/linux.png" alt="Linux" width="32" height="32" />
 </a></th>
 <th class="th-os"><a href="/vlc/download-beos.html">
-  <img src="/images/icons/beos.png" alt="BeOS" width="32" height="32" />
+  <img src="http://images.videolan.org/images/icons/beos.png" alt="BeOS" width="32" height="32" />
 </a></th>
 <th class="th-os"><a href="/vlc/download-sources.html">
-  <img src="/images/icons/freebsd.png" alt="FreeBSD" width="32" height="32" />
-  <img src="/images/icons/openbsd.png" alt="OpenBSD" width="32" height="32" />
+  <img src="http://images.videolan.org/images/icons/freebsd.png" alt="FreeBSD" width="32" height="32" />
+  <img src="http://images.videolan.org/images/icons/openbsd.png" alt="OpenBSD" width="32" height="32" />
 </a></th>
 <th class="th-os"><a href="/vlc/download-familiar.html">
-  <img src="/images/icons/familiar.png" alt="Familiar Linux"
+  <img src="http://images.videolan.org/images/icons/familiar.png" alt="Familiar Linux"
        width="32" height="32" />
 </a></th>
 </tr>
@@ -99,12 +99,12 @@ feature( "MPEG encoder <sup><a href=\"#input_notes\">3</a></sup>", YES, NO, YES,
 ?>
 <tr>
 <td class="type">Video acquisition</td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> Direct Show</td>
-<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> V4L, V4L2</td>
-<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-<td class="partial"><img src="/images/features/untested.png" alt="Untested" />V4L, V4L2</td>
+<td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> Direct Show</td>
+<td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> V4L, V4L2</td>
+<td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
+<td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
+<td class="partial"><img src="http://images.videolan.org/images/features/untested.png" alt="Untested" />V4L, V4L2</td>
 </tr>
 
 <tr>
@@ -162,22 +162,22 @@ feature( "WMV 1/2", YES, YES, YES, YES, YES, YES );
 ?>
 <tr>
 <td class="type">WMV 3 / WMV-9 / VC-1</td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">4, 5</a></sup></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">4</a></sup></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">4, 5</a></sup></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">4</a></sup></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">4</a></sup></td>
-<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">4, 5</a></sup></td>
+<td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">4</a></sup></td>
+<td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">4, 5</a></sup></td>
+<td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">4</a></sup></td>
+<td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">4</a></sup></td>
+<td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
 </tr>
 
 <tr>
 <td class="type">Indeo Video v3 (IV32)</td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-<td class="partial"><img src="/images/features/partial.png" alt="Partial" />No PPC support</td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-<td class="partial"><img src="/images/features/partial.png" alt="Partial" />No PPC support</td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
+<td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
+<td class="partial"><img src="http://images.videolan.org/images/features/partial.png" alt="Partial" />No PPC support</td>
+<td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
+<td class="partial"><img src="http://images.videolan.org/images/features/partial.png" alt="Partial" />No PPC support</td>
+<td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <?php
@@ -215,9 +215,9 @@ feature( "RSS/Atom feeds", YES, YES, YES, YES, YES, NO );
 <td class="type">Native</td>
 <td class="yes">Direct3D<br />DirectX<br />GDI</td>
 <td class="yes">OpenGL<br />Quartz <sup><a href="#video_notes">8</a></sup></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
 <td class="yes">Qte/X11</td>
 </tr>
 <?php
@@ -265,12 +265,12 @@ feature( "MIDI", UNT, UNT, YES, UNT, UNT, UNT );
 ?>
 <tr>
 <td class="type">WMA 3</td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#audio_notes">9</a></sup></td>
-<td class="no"><img src="/images/features/cross.png" alt="No" /> <sup><a href="#audio_notes">9</a></sup></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#audio_notes">9</a></sup></td>
-<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> <sup><a href="#audio_notes">9</a></sup></td>
+<td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /> <sup><a href="#audio_notes">9</a></sup></td>
+<td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> <sup><a href="#audio_notes">9</a></sup></td>
+<td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
+<td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
+<td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
 </tr>
 <?php
 feature("ADPCM", YES, YES, YES, YES, YES, NO );
@@ -293,40 +293,40 @@ feature( "Equalizer", YES, YES, YES, YES, YES, YES );
 <tr><td class="category" rowspan="7"><b>Outputs</b></td>
 <td class="type">Native</td>
 <td class="yes">DirectX<br />WaveOut</td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
 <td class="yes">OSS<br />ALSA</td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
 <td class="yes">OSS</td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 <tr>
 <td class="type">S/PDIF</td>
 <td class="yes">DirectX<br />WaveOut</td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
 <td class="yes">OSS<br />ALSA</td>
-<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-<td class="partial"><img src="/images/features/untested.png" alt="Untested" /></td>
+<td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
+<td class="partial"><img src="http://images.videolan.org/images/features/untested.png" alt="Untested" /></td>
 <td class="none">-</td>
 </tr>
 
 <tr>
 <td class="type">Multi-channel</td>
 <td class="yes">DirectX<br />WaveOut</td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
 <td class="yes">OSS<br />ALSA</td>
-<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-<td class="partial"><img src="/images/features/untested.png" alt="Untested" /></td>
-<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
+<td class="partial"><img src="http://images.videolan.org/images/features/untested.png" alt="Untested" /></td>
+<td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
 </tr>
 
 <tr>
 <td class="type">SDL</td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
 <td class="partial">Source Only</td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-<td class="partial"><img src="/images/features/untested.png" alt="Untested" /></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
+<td class="partial"><img src="http://images.videolan.org/images/features/untested.png" alt="Untested" /></td>
+<td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
 <td class="partial">Source Only</td>
 </tr>
 
@@ -397,12 +397,12 @@ feature( "MLDv2 <sup><a href=\"#bottom_notes\">13</a></sup>",
 
 <tr>
 <td class="type">CPU acceleration <sup><a href="#bottom_notes">14</a></sup></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-<td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#bottom_notes">15</a></sup></td>
-<td class="no"><img src="/images/features/cross.png" alt="No" /></td>
+<td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
+<td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> <sup><a href="#bottom_notes">15</a></sup></td>
+<td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
 </tr>
 
 </table>
@@ -422,10 +422,10 @@ feature( "MLDv2 <sup><a href=\"#bottom_notes\">13</a></sup>",
 </div>
 <div class="feature-icon-container">
 	<ul class="feature-icon">
-		<li><img src="/images/features/tick.png" alt="Yes" /> = Yes</li>
-		<li><img src="/images/features/partial.png" alt="Partial" /> = Partial</li>
-		<li><img src="/images/features/cross.png" alt="No" /> = No</li>
- 		<li><img src="/images/features/untested.png" alt="Untested" /> = Untested</li>
+		<li><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> = Yes</li>
+		<li><img src="http://images.videolan.org/images/features/partial.png" alt="Partial" /> = Partial</li>
+		<li><img src="http://images.videolan.org/images/features/cross.png" alt="No" /> = No</li>
+ 		<li><img src="http://images.videolan.org/images/features/untested.png" alt="Untested" /> = Untested</li>
 	</ul>
 </div>
 </div>

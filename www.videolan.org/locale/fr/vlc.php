@@ -11,7 +11,7 @@
 <h1> VLC media player </h1>
 
 <div class="vlc-screenshot">
-  <img width="300" height="200" src="/images/screenshots/vlc-win32.png" alt="VLC on Windows"/>
+  <img width="300" height="200" src="http://images.videolan.org/images/screenshots/vlc-win32.png" alt="VLC on Windows"/>
 </div>
 
 <div id="description">

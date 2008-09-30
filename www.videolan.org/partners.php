@@ -19,7 +19,7 @@ for professional services to order.</p>
 <tr>
 <td><p class="center">
   <a href="http://www.anevia.com/">
-  <img src="/images/partners/anevia.png" alt="Anevia" width="200" height="57" />
+  <img src="http://images.videolan.org/images/partners/anevia.png" alt="Anevia" width="200" height="57" />
   </a></p>
 </td>
 <td>French company founded by four members of the VideoLAN team (Brieuc
@@ -33,7 +33,7 @@ integration of high quality video streaming solutions.</td>
 <tr>
 <td><p class="center">
   <a href="http://www.m2x.nl/">
-  <img src="/images/partners/m2x.png" alt="M2X" width="224" height="103" />
+  <img src="http://images.videolan.org/images/partners/m2x.png" alt="M2X" width="224" height="103" />
   </a></p>
 </td>
 <td>M2X is an ICT company that is specialized in using Open Source software for providing solutions to IT problem areas of Networking (wired or wireless), Embedded and Multimedia. The founder of the company is a VideoLAN developer Jean-Paul Saman (see the <a href="/team/">VideoLAN team page</a> for more information on his contributions).</td>
@@ -57,7 +57,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   <tr>
     <td>
         <p class="center"><a href="http://free.fr/"><img
-        src="/images/partners/free.gif" width="150" alt="Free" height="75" /></a></p>
+        src="http://images.videolan.org/images/partners/free.gif" width="150" alt="Free" height="75" /></a></p>
     </td>
     <td>
 
@@ -78,7 +78,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   <tr>
     <td>
         <p class="center"><a href="http://www.ecp.fr/"><img
-        src="/images/partners/logoECP.png" width="100" alt="ECP" height="80" /></a></p>
+        src="http://images.videolan.org/images/partners/logoECP.png" width="100" alt="ECP" height="80" /></a></p>
     </td>
     <td>
 
@@ -101,7 +101,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   <tr>
     <td  style="text-align:-center">
         <p class="center"><a href="http://www.hp.com"><img
-        src="/images/partners/hpinvent.gif" alt="HP" /></a></p>
+        src="http://images.videolan.org/images/partners/hpinvent.gif" alt="HP" /></a></p>
     </td>
     <td>
 
@@ -131,7 +131,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   <tr>
     <td>
         <p class="center"><a href="http://www.ibm.com"><img
-        src="/images/partners/ibm.png" width="107" alt="IBM" height="45" /></a></p>
+        src="http://images.videolan.org/images/partners/ibm.png" width="107" alt="IBM" height="45" /></a></p>
     </td>
     <td>
 
@@ -161,7 +161,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   <tr>
     <td>
 	<p class="center"><a href="http://www.btexact.com/"><img
-	src="/images/partners/BTexact.png" width="160" height="56" alt="BTexact
+	src="http://images.videolan.org/images/partners/BTexact.png" width="160" height="56" alt="BTexact
 	Technologies" /></a></p>
     </td>
     <td>
@@ -179,7 +179,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   <tr>
     <td>
         <p class="center"><a href="http://www.att.com/"><img
-        src="/images/partners/att.png" width="57" height="87" alt="AT&amp;T" /></a></p>
+        src="http://images.videolan.org/images/partners/att.png" width="57" height="87" alt="AT&amp;T" /></a></p>
     </td>
     <td>
 
@@ -198,7 +198,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   <tr>
     <td>
 	<p class="center"><a href="http://www.vthr.com/"><img
-	src="/images/partners/vthr.png" width="149" height="50" alt="VTHR" /></a></p>
+	src="http://images.videolan.org/images/partners/vthr.png" width="149" height="50" alt="VTHR" /></a></p>
     </td>
     <td>
 
@@ -220,7 +220,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   <tr>
     <td>
 	<p class="center"><a href="http://recherche.sncf.com/"><img
-	src="/images/partners/sncf.png" alt="SNCF" width="146" height="61" /></a></p>
+	src="http://images.videolan.org/images/partners/sncf.png" alt="SNCF" width="146" height="61" /></a></p>
     </td>
     <td>
 	<p>SNCF - Direction de la Recherche (French Railways - Research
@@ -237,7 +237,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   <tr>
     <td>
 	<p class="center"><a href="http://www.idm.fr"><img
-	src="/images/partners/idm.png" alt="IDM" width="64" height="64" /></a></p>
+	src="http://images.videolan.org/images/partners/idm.png" alt="IDM" width="64" height="64" /></a></p>
     </td>
     <td>
 	<p>I.D.M hired Simon Latapie, a VLC developer, to work on enhancing VideoLAN.
@@ -253,7 +253,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   <tr>
     <td>
 	<p class="center"><a href="http://www.lacie.com"><img
-	src="/images/partners/LaCie.png" alt="LaCie" width="142" height="61" /></a></p>
+	src="http://images.videolan.org/images/partners/LaCie.png" alt="LaCie" width="142" height="61" /></a></p>
     </td>
     <td>
 	<p>LaCie offered the team four DVD burners and a 1.6 Terabytes

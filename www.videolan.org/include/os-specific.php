@@ -31,11 +31,11 @@
    function Screenshot( $os )
     {
 	$scr = array();
-	$scr["Win32"] = array( "http://download2.videolan.org/images/screenshots/vlc-win32.jpg" ,
+	$scr["Win32"] = array( "http://images.videolan.org/images/screenshots/vlc-win32.jpg" ,
 			       "VLC on Windows", 300, 200 );
-	$scr["Linux"] = array( "http://download2.videolan.org/images/screenshots/vlc-linux.jpg" ,
+	$scr["Linux"] = array( "http://images.videolan.org/images/screenshots/vlc-linux.jpg" ,
 			       "VLC on Linux", 300, 233 );
-	$scr["OSX"] = array( "http://download2.videolan.org/images/screenshots/vlc-osx.jpg" ,
+	$scr["OSX"] = array( "http://images.videolan.org/images/screenshots/vlc-osx.jpg" ,
 	   		     "VLC on MacOS X", 300, 200 );
 	echo "document.writeln('<img width=\"".$scr[$os][2]."\" height=\"".$scr[$os][3]."\" src=\"".$scr[$os][0]."\" alt=\"";
 	echo $scr[$os][1]."\" />');";

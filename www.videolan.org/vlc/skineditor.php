@@ -68,11 +68,11 @@ For tutorials and help on the usage of the Skin Editor turn to the <a href="skin
         </p>        
         <p>          
           <b>Version <? echo file_get_contents("http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?getmajorv"); ?></b><br>
-          <img src="http://download2.videolan.org/images/12-em-down.png" alt=""/>
+          <img src="http://images.videolan.org/images/12-em-down.png" alt=""/>
           <a href="http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?dlsetupw32" target="_blank">Download for Windows (Installer)</a><br>
-          <img src="http://download2.videolan.org/images/12-em-down.png" alt=""/>
+          <img src="http://images.videolan.org/images/12-em-down.png" alt=""/>
           <a href="http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?dlmajor" target="_blank">Download for Windows (ZIP)</a><br>
-          <img src="http://download2.videolan.org/images/12-em-down.png" alt=""/>
+          <img src="http://images.videolan.org/images/12-em-down.png" alt=""/>
           <a href="http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?dltargz" target="_blank">Download for other operating systems (TAR+GZIP)</a><br>
           <br>
           <i>Number of downloads: <? echo file_get_contents("http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php"); ?></i>

@@ -62,7 +62,7 @@ $(ROOT)/main.css: $(ROOT)/include/mirrors $(ROOT)/main.css.in $(ROOT)Makefile
 	@echo "Processing $@.in ..."
 	echo "/* Auto generated. Do not edit. */" > $@
 	cat $@.in >> $@
-	awk -F '|' '!/^#/ { print $$4; }' $<|sort|uniq|awk '{ print "#maincontent table td."$$1; print " { padding-left:2em; background: url(http://download2.videolan.org/images/flags/"$$1".png) left no-repeat; }" }' >> $@
+	awk -F '|' '!/^#/ { print $$4; }' $<|sort|uniq|awk '{ print "#maincontent table td."$$1; print " { padding-left:2em; background: url(http://images.videolan.org/images/flags/"$$1".png) left no-repeat; }" }' >> $@
 
 .PHONY: clean all
 

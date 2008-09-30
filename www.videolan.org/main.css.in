@@ -17,7 +17,7 @@ html, body {
 	border: 0; margin: 0; padding: 0;
 }
 
-body { 	background: #fff url(http://download2.videolan.org/images/bg.png) repeat-x top; 
+body { 	background: #fff url(http://images.videolan.org/images/bg.png) repeat-x top; 
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 12px; color: #333; text-align: center;
 }
@@ -189,36 +189,36 @@ img.center { display: block; margin: auto; }
 .panel-orange .ft .c { height: 8px; font-size: 1px; }
 
 .panel-orange .hd {
-	background: transparent url(http://download2.videolan.org/images/panel-orange/tl.gif) no-repeat 0 0;
+	background: transparent url(http://images.videolan.org/images/panel-orange/tl.gif) no-repeat 0 0;
 	margin-right: 8px; /* space for right corner */
 }
 .panel-orange .hd .c {
-	background: transparent url(http://download2.videolan.org/images/panel-orange/tr.gif) no-repeat right;
+	background: transparent url(http://images.videolan.org/images/panel-orange/tr.gif) no-repeat right;
 	margin-right: -8px; /* space for right corner */
 }
 
 .panel-orange .bd {
-	background: transparent url(http://download2.videolan.org/images/panel-orange/ml.gif) repeat-y 0 0;
+	background: transparent url(http://images.videolan.org/images/panel-orange/ml.gif) repeat-y 0 0;
 	margin-right: 8px;
 }
 .panel-orange .bd .c {
 	margin-right: -8px;
 	padding: 10px;
-	background: transparent url(http://download2.videolan.org/images/panel-orange/mr.gif) repeat-y right;
+	background: transparent url(http://images.videolan.org/images/panel-orange/mr.gif) repeat-y right;
 }
  
 .panel-orange .ft {
-	background: transparent url(http://download2.videolan.org/images/panel-orange/bl.gif) no-repeat 0 0;
+	background: transparent url(http://images.videolan.org/images/panel-orange/bl.gif) no-repeat 0 0;
 	margin-right: 8px;
 }
 .panel-orange .ft .c {
-	background: transparent url(http://download2.videolan.org/images/panel-orange/br.gif) no-repeat right;
+	background: transparent url(http://images.videolan.org/images/panel-orange/br.gif) no-repeat right;
 	margin-right: -8px;
 }
 
 .panel-orange-bullet { 	padding: 0;line-height: 19px; }
 .panel-orange-bullet li {
-	background: url(http://download2.videolan.org/images/bullet-orange.png) left top no-repeat;
+	background: url(http://images.videolan.org/images/bullet-orange.png) left top no-repeat;
 	padding: 0 0 4px 25px;
 }
 
@@ -240,36 +240,36 @@ img.center { display: block; margin: auto; }
 .panel-blue .ft .c { height: 8px; font-size: 1px; }
 
 .panel-blue .hd {
-	background: transparent url(http://download2.videolan.org/images/panel-blue/tl.gif) no-repeat 0 0;
+	background: transparent url(http://images.videolan.org/images/panel-blue/tl.gif) no-repeat 0 0;
 	margin-right: 8px; /* space for right corner */
 }
 .panel-blue .hd .c {
-	background: transparent url(http://download2.videolan.org/images/panel-blue/tr.gif) no-repeat right;
+	background: transparent url(http://images.videolan.org/images/panel-blue/tr.gif) no-repeat right;
 	margin-right: -8px; /* space for right corner */
 }
 
 .panel-blue .bd {
-	background: transparent url(http://download2.videolan.org/images/panel-blue/ml.gif) repeat-y 0 0;
+	background: transparent url(http://images.videolan.org/images/panel-blue/ml.gif) repeat-y 0 0;
 	margin-right: 8px;
 }
 .panel-blue .bd .c {
 	margin-right: -8px;
 	padding: 10px;
-	background: transparent url(http://download2.videolan.org/images/panel-blue/mr.gif) repeat-y right;
+	background: transparent url(http://images.videolan.org/images/panel-blue/mr.gif) repeat-y right;
 }
 
 .panel-blue .ft {
-	background: transparent url(http://download2.videolan.org/images/panel-blue/bl.gif) no-repeat 0 0;
+	background: transparent url(http://images.videolan.org/images/panel-blue/bl.gif) no-repeat 0 0;
 	margin-right: 8px;
 }
 .panel-blue .ft .c {
-	background: transparent url(http://download2.videolan.org/images/panel-blue/br.gif) no-repeat right;
+	background: transparent url(http://images.videolan.org/images/panel-blue/br.gif) no-repeat right;
 	margin-right: -8px;
 }
 
 .panel-blue-bullet { padding: 0 0 20px 0;line-height: 19px;}
 .panel-blue-bullet li {
-	background: url(http://download2.videolan.org/images/bullet-blue.png) left top no-repeat;
+	background: url(http://images.videolan.org/images/bullet-blue.png) left top no-repeat;
 	padding: 0 0 4px 25px;
 }
 
@@ -291,36 +291,36 @@ img.center { display: block; margin: auto; }
 .panel-gray .ft .c { height: 8px; font-size: 1px;}
 
 .panel-gray .hd {
-	background: transparent url(http://download2.videolan.org/images/panel-gray/tl.gif) no-repeat 0 0;
+	background: transparent url(http://images.videolan.org/images/panel-gray/tl.gif) no-repeat 0 0;
 	margin-right: 8px; /* space for right corner */
 }
 .panel-gray .hd .c {
-	background: transparent url(http://download2.videolan.org/images/panel-gray/tr.gif) no-repeat right;
+	background: transparent url(http://images.videolan.org/images/panel-gray/tr.gif) no-repeat right;
 	margin-right: -8px; /* space for right corner */
 }
 
 .panel-gray .bd {
-	background: transparent url(http://download2.videolan.org/images/panel-gray/ml.gif) repeat-y 0 0;
+	background: transparent url(http://images.videolan.org/images/panel-gray/ml.gif) repeat-y 0 0;
 	margin-right: 8px;
 }
 .panel-gray .bd .c {
 	margin-right: -8px;
 	padding: 10px;
-	background: transparent url(http://download2.videolan.org/images/panel-gray/mr.gif) repeat-y right;
+	background: transparent url(http://images.videolan.org/images/panel-gray/mr.gif) repeat-y right;
 }
  
 .panel-gray .ft {
-	background: transparent url(http://download2.videolan.org/images/panel-gray/bl.gif) no-repeat 0 0;
+	background: transparent url(http://images.videolan.org/images/panel-gray/bl.gif) no-repeat 0 0;
 	margin-right: 8px;
 }
 .panel-gray .ft .c {
-	background: transparent url(http://download2.videolan.org/images/panel-gray/br.gif) no-repeat right;
+	background: transparent url(http://images.videolan.org/images/panel-gray/br.gif) no-repeat right;
 	margin-right: -8px;
 }
 
 .panel-gray-bullet { padding: 0; line-height: 19px; }
 .panel-gray-bullet li {
-	background: url(http://download2.videolan.org/images/bullet-black.png) left top no-repeat;
+	background: url(http://images.videolan.org/images/bullet-black.png) left top no-repeat;
 	padding: 0 0 4px 25px;
 }
 
@@ -350,7 +350,7 @@ img.center { display: block; margin: auto; }
 .otheros, .mirror { padding: 0 0 35px 15px; line-height: 20px; }
 
 .os li, .otheros li {
-	background: url(http://download2.videolan.org/images/12-em-down.png) left no-repeat;
+	background: url(http://images.videolan.org/images/12-em-down.png) left no-repeat;
 	padding-left: 25px;
 }
 
@@ -368,7 +368,7 @@ img.center { display: block; margin: auto; }
 .vlc-logo {
 	float: left;width: 64px;height: 64px;
 	margin-left: -5px; padding-bottom: 15px;
-	background: url(http://download2.videolan.org/images/vlc-logo.gif) left top no-repeat;
+	background: url(http://images.videolan.org/images/vlc-logo.gif) left top no-repeat;
 }
 
 div.screenshot{
@@ -421,7 +421,7 @@ div.screenshot{
 
 a.en {
     padding-right: 18px;
-         background: transparent url(http://download2.videolan.org/images/flags/us.png) no-repeat top right;
+         background: transparent url(http://images.videolan.org/images/flags/us.png) no-repeat top right;
 }
 
 .installbtn {
@@ -429,7 +429,7 @@ a.en {
 	width: 135px;
 	height: 38px;
 	text-align: center;
-	background: transparent url(http://download2.videolan.org/images/inst_btn.png) no-repeat scroll
+	background: transparent url(http://images.videolan.org/images/inst_btn.png) no-repeat scroll
 	top left;
 }
 
@@ -443,7 +443,7 @@ a.en {
 
 .blue-bullet { padding: 0 0 20px 0;line-height: 19px;}
 .blue-bullet li {
-	background: url(http://download2.videolan.org/images/bullet-blue-trans.png) left top no-repeat;
+	background: url(http://images.videolan.org/images/bullet-blue-trans.png) left top no-repeat;
 	padding: 0 0 4px 25px;
 }
 

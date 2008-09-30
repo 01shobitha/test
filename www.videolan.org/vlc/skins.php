@@ -22,12 +22,12 @@ function AddSkin( $id, $name, $author, $img, $url, $dl, $date, $date_mod, $ratin
 {
 ?>
 <h3><?php echo $name; 
-if ($date_mod <> $date) echo '&nbsp; <img src="http://download2.videolan.org/images/updated.png" />'; ?></h3>
+if ($date_mod <> $date) echo '&nbsp; <img src="http://images.videolan.org/images/updated.png" />'; ?></h3>
 <table class="skins-download">
  <tr>
   <td>
-   <a href="http://download2.videolan.org/vlc/skins2/<?php echo $img; ?>">
-   <img width="200" src="http://download2.videolan.org/vlc/skins2/tm_<?php echo $img; ?>"
+   <a href="http://images.videolan.org/vlc/skins2/<?php echo $img; ?>">
+   <img width="200" src="http://images.videolan.org/vlc/skins2/tm_<?php echo $img; ?>"
      class="skins-screenshot" alt="screenshot"/>
    </a>
   </td>
@@ -67,7 +67,7 @@ if ($date_mod <> $date) echo '&nbsp; <img src="http://download2.videolan.org/ima
           for( $i=0; $i<5; $i++ )
           {
             $v = round(min(1,max(0,$rating-$i)),1)*10;
-            echo "<img alt='".($v>0?'+':'-')."' src='http://download2.videolan.org/vlc/skins2/cone-$v.png' />";
+            echo "<img alt='".($v>0?'+':'-')."' src='http://images.videolan.org/vlc/skins2/cone-$v.png' />";
           }
         }
       ?>

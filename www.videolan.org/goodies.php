@@ -219,7 +219,7 @@ endorsement by the project.</pre>
 <h1>Banners</h1>
 
 <p class="center"><a href="http://www.videolan.org/vlc" title="Get VLC media player - It plays, it streams, it kills WiMPs!!">
-<img  src="http://download2.videolan.org/images/buttons/GetVLC_110.png" width="110" height="45" alt="Get VLC media player" /></a></p>
+<img  src="http://images.videolan.org/images/buttons/GetVLC_110.png" width="110" height="45" alt="Get VLC media player" /></a></p>
 <p>
 Use the following code to include this banner in your site:</p>
 <pre>
@@ -235,16 +235,16 @@ height="45" alt="Get VLC media player" /&gt;&lt;/a&gt;
 The following sizes are available:</p>
 <ul class="bullets">
 <li>
-<a href="http://download2.videolan.org/images/buttons/GetVLC_110.png"
+<a href="http://images.videolan.org/images/buttons/GetVLC_110.png"
 >Small banner</a></li>
 <li>
-<a href="http://download2.videolan.org/images/buttons/GetVLC_120.png"
+<a href="http://images.videolan.org/images/buttons/GetVLC_120.png"
 >Medium banner</a></li>
-<li><a href="http://download2.videolan.org/images/buttons/GetVLC_150.png"
+<li><a href="http://images.videolan.org/images/buttons/GetVLC_150.png"
 >Large banner</a></li>
-<li><a href="http://download2.videolan.org/images/buttons/GetVLC.png"
+<li><a href="http://images.videolan.org/images/buttons/GetVLC.png"
 >Supersized banner</a></li>
-<li><a href="http://download2.videolan.org/images/buttons/GetVLC.psd"
+<li><a href="http://images.videolan.org/images/buttons/GetVLC.psd"
 >Original Photoshop document</a></li>
 </ul>
 
@@ -293,9 +293,9 @@ field.)</p>
 
 <?php panel_end(); ?>
 <p>&nbsp;</p><p class="center">
-<a href="http://download2.videolan.org/images/tshirts-big.jpg">
+<a href="http://images.videolan.org/images/tshirts-big.jpg">
   <img 
-	src="http://download2.videolan.org/images/tshirts-small.jpg"
+	src="http://images.videolan.org/images/tshirts-small.jpg"
 	alt="VideoLAN T-Shirts"/>
 </a></p>
 

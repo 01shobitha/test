@@ -5,8 +5,8 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
 function screenshot($img,$thumb,$desc,$size){
-echo"    <div class=\"screenshot\"><a href='http://download2.videolan.org/vlc/screenshots/$img'><img
-    src='http://download2.videolan.org/vlc/screenshots/$thumb' alt='$desc' width='150' /></a>
+echo"    <div class=\"screenshot\"><a href='http://images.videolan.org/vlc/screenshots/$img'><img
+    src='http://images.videolan.org/vlc/screenshots/$thumb' alt='$desc' width='150' /></a>
     <br />  $desc<br />($size) </div>";
 }
 ?>

@@ -31,7 +31,7 @@
   It doesn't need any external codec or program to work.</p>
 
 
-    <h2><a href="http://www.videolan.org/videolan-news.rss"><img src="http://download2.videolan.org/images/icons/rss-feed.gif" alt="RSS 1.0" /> News subscription</a></h2>
+    <h2><a href="http://www.videolan.org/videolan-news.rss"><img src="http://images.videolan.org/images/icons/rss-feed.gif" alt="RSS 1.0" /> News subscription</a></h2>
     <div>
       <?php shownews("full",5); ?>
     </div>

@@ -19,10 +19,6 @@ Until now skin designers had to have knowledge of the VLC Skins2 XML System to c
 Now they have an easy alternative: The <a href="http://en.wikipedia.org/wiki/WYSIWYG" target="_blank" class="wiki">WYSIWYG</a> VLC Skin Editor.
 </p>
 <p>
-The program is still under development and is fully compatible to VLC 0.9.0.
-Note that it uses some features that are not supported by VLC 0.8.6c and older.
-</p>
-<p>
 For tutorials and help on the usage of the Skin Editor turn to the <a href="skinedhlp">online help</a>.
 </p>
 </div>
@@ -74,6 +70,8 @@ For tutorials and help on the usage of the Skin Editor turn to the <a href="skin
           <a href="http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?dlmajor" target="_blank">Download for Windows (ZIP)</a><br>
           <img src="http://images.videolan.org/images/12-em-down.png" alt=""/>
           <a href="http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?dltargz" target="_blank">Download for other operating systems (TAR+GZIP)</a><br>
+          <br>
+          If those downloads don't work for you, try getting them from <a href="http://altglass.al.funpic.de/VLC/skineditor">this mirror</a>.<br>
           <br>
           <i>Number of downloads: <? echo file_get_contents("http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php"); ?></i>
         </p>

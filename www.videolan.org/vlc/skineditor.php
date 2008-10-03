@@ -34,11 +34,11 @@ For tutorials and help on the usage of the Skin Editor turn to the <a href="skin
   </p> 
   <?php
       pkgitem("Windows installer",
-                     "$latestv/win32","VLCSkinEditor_".str_replace(".","_",$latestv)."_setup.exe","skin-designer");
+                     "$latestv/win32","VLCSkinEditor_".str_replace(".","_",$latestv)."_setup.exe","skin-editor");
       pkgitem("Windows ZIP (without the installer)",
-                     "$latestv/win32","VLCSkinEditor_".str_replace(".","_",$latestv).".zip","skin-designer");
+                     "$latestv/win32","VLCSkinEditor_".str_replace(".","_",$latestv).".zip","skin-editor");
       pkgitem("Unix/Linux TAR-GZIP",
-                     "$latestv/","VLCSkinEditor_".str_replace(".","_",$latestv).".tar.gz","skin-designer");
+                     "$latestv/","VLCSkinEditor_".str_replace(".","_",$latestv).".tar.gz","skin-editor");
   ?>
 
   <h2>Features</h2>
@@ -97,4 +97,4 @@ For tutorials and help on the usage of the Skin Editor turn to the <a href="skin
   </div>
  </div> 
 
-<?php footer('$Id: skineditor.php 4778 2008-09-20 17:35 altglass$'); ?>
+<?php footer('$Id: skineditor.php 4781 2008-10-03 11:00 altglass$'); ?>

@@ -53,6 +53,8 @@ streaming server, which is now mostly replaced by VLC.</li>
 <li><a href="/vlma">VLMa (VideoLAN Manager)</a>,
 a Java application to manage multiple VLC instances through their telnet interface.</li>
 
+<li><a href="/vlc/skineditor.html">VLC Skin Editor</a>, a Java application to create skins for VLC media player.</li>
+
 </ul>
 
 <h2>Hosted SVN projects</h2>

@@ -2,7 +2,6 @@
    $title = "VLC media player - Skin Editor";
    $lang = "en";
    $menu = array( "vlc", "skineditor" );
-   $enable_live = true;
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
    
@@ -97,4 +96,4 @@ For tutorials and help on the usage of the Skin Editor turn to the <a href="skin
   </div>
  </div> 
 
-<?php footer('$Id: skineditor.php 4781 2008-10-03 11:00 altglass$'); ?>
+<?php footer('$Id: skineditor.php 4821 2008-10-03 11:00 altglass$'); ?>

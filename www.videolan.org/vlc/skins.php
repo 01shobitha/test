@@ -188,7 +188,7 @@ pg_close( $connect );
 
 <p>If you still don't find any skin you like, why don't you create a better one? Look at the following to get to know how to do that:<br />
 <ul class="panel-blue-bullet">
-  <li><a href="/vlc/skineditor.php">The VLC Skin Editor</a></li>
+  <li><a href="/vlc/skineditor.html">The VLC Skin Editor</a></li>
   <li><a href="/vlc/skins2-create.html">How skins are made up</a></li>
 </ul>
 Don't worry, you don't need any programming skills... Some knowledge about graphics software

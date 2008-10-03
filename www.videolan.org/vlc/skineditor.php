@@ -4,9 +4,12 @@
    $menu = array( "vlc", "skineditor" );
    $enable_live = true;
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
+   include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
+   
+   $latestv = "0.7";
 ?>
 
-<h1> VLC media player Skin Editor</h1>
+<h1>VLC media player Skin Editor</h1>
 
 <div class="vlc-screenshot">
   <img src="/images/screenshots/skineditor-linux.jpg" alt="VLC Skin Editor on Ubuntu Linux" title="VLC Skin Editor on Ubuntu Linux"/>
@@ -24,6 +27,20 @@ For tutorials and help on the usage of the Skin Editor turn to the <a href="skin
 </div>
 
 <div id="left">
+  <h2>Download</h2>
+  <p style="color:#ef2929;">
+  This program requires the Java Runtime Environment (JRE) 5 or later.
+  If you do not have it, download it at <a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">the Java download page</a>.
+  </p> 
+  <?php
+      pkgitem("Windows installer",
+                     "$latestv/win32","VLCSkinEditor_".str_replace(".","_",$latestv)."_setup.exe","skin-designer");
+      pkgitem("Windows ZIP (without the installer)",
+                     "$latestv/win32","VLCSkinEditor_".str_replace(".","_",$latestv).".zip","skin-designer");
+      pkgitem("Unix/Linux TAR-GZIP",
+                     "$latestv/","VLCSkinEditor_".str_replace(".","_",$latestv).".tar.gz","skin-designer");
+  ?>
+
   <h2>Features</h2>
   <ul class="blue-bullet">
       <li>Absolutely no XML knowledge required</li>
@@ -49,38 +66,7 @@ For tutorials and help on the usage of the Skin Editor turn to the <a href="skin
   If you have knowledge of Java feel free to join the developer team. Check the
   <a href="http://trac.videolan.org/skin-designer" target="_blank">Trac page</a> for more information.</p>
 </div>
-
 <div id="right">
-  <div class="panel-blue">
-    <div class="hd">
-      <div class="c"></div>
-    </div>
-    <div class="bd">
-      <div class="c">
-        <h1>Download</h1>
-        <p style="color:#ef2929;">
-          This program requires the Java Runtime Environment (JRE) 6 or later.
-          If you do not have it, download it at <a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">java.sun.com</a>.
-        </p>        
-        <p>          
-          <b>Version <? echo file_get_contents("http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?getmajorv"); ?></b><br>
-          <img src="http://images.videolan.org/images/12-em-down.png" alt=""/>
-          <a href="http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?dlsetupw32" target="_blank">Download for Windows (Installer)</a><br>
-          <img src="http://images.videolan.org/images/12-em-down.png" alt=""/>
-          <a href="http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?dlmajor" target="_blank">Download for Windows (ZIP)</a><br>
-          <img src="http://images.videolan.org/images/12-em-down.png" alt=""/>
-          <a href="http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?dltargz" target="_blank">Download for other operating systems (TAR+GZIP)</a><br>
-          <br>
-          If those downloads don't work for you, try getting them from <a href="http://altglass.al.funpic.de/VLC/skineditor">this mirror</a>.<br>
-          <br>
-          <i>Number of downloads: <? echo file_get_contents("http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php"); ?></i>
-        </p>
-      </div>      
-    </div>
-    <div class="ft">
-      <div class="c"></div>
-    </div>
-  </div>
   <div class="panel-orange">
     <div class="hd">
       <div class="c"></div>

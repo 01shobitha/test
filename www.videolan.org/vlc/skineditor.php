@@ -28,7 +28,7 @@ For tutorials and help on the usage of the Skin Editor turn to the <a href="skin
 <div id="left">
   <h2>Download</h2>
   <p style="color:#ef2929;">
-  This program requires the Java Runtime Environment (JRE) 5 or later.
+  This program requires the Java Runtime Environment (JRE) 6 or later.
   If you do not have it, download it at <a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">the Java download page</a>.
   </p> 
   <?php
@@ -37,7 +37,7 @@ For tutorials and help on the usage of the Skin Editor turn to the <a href="skin
       pkgitem("Windows ZIP (without the installer)",
                      "$latestv/win32","VLCSkinEditor_".str_replace(".","_",$latestv).".zip","skin-editor");
       pkgitem("Unix/Linux TAR-GZIP",
-                     "$latestv/","VLCSkinEditor_".str_replace(".","_",$latestv).".tar.gz","skin-editor");
+                     "$latestv","VLCSkinEditor_".str_replace(".","_",$latestv).".tar.gz","skin-editor");
   ?>
 
   <h2>Features</h2>
@@ -96,4 +96,4 @@ For tutorials and help on the usage of the Skin Editor turn to the <a href="skin
   </div>
  </div> 
 
-<?php footer('$Id: skineditor.php 4821 2008-10-03 11:00 altglass$'); ?>
+<?php footer('$Id: skineditor.php 4823 2008-10-05 18:00 altglass$'); ?>

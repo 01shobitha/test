@@ -1,6 +1,6 @@
 #
 # Ganesh - Contact VideoLAN - 1 Gbit
-http://downloads.videolan.org/pub/videolan/|VideoLAN primary mirror|France|fr|HTTP|300
+http://downloads.videolan.org/pub/videolan/|VideoLAN primary mirror|France|fr|HTTP|1000
 #
 # Skanda - Contact VideoLAN - 1 Gbit
 #http://download2.videolan.org/pub/videolan/|VideoLAN secondary mirror|France|fr|HTTP|1000
@@ -71,7 +71,7 @@ http://mirror.yandex.ru/mirrors/ftp.videolan.org/|Yandex|Russia|ru|HTTP|1000
 #
 # Armenian Datacom Company, Armenia
 #  Tigran Afrikyan <mirrors  qt adc dot am> 
-http://vlc.mirrors.adc.am/|Armenian Datacom Company|Armenia|am|HTTP|200
+#http://vlc.mirrors.adc.am/|Armenian Datacom Company|Armenia|am|HTTP|200
 #
 # Technotop Networks, The Netherlands
 # Robbert van Hulsentop <robbert at technotop dot nl>
@@ -82,4 +82,4 @@ http://videolan.mirror.technotop.nl/|Technotop Networks|Netherlands|nl|HTTP|1000
 # Free, France
 # ftpmaint@free.org
 # FTP version is also available.
-#http://ftp.free.org/mirrors/videolan/|Free|France|fr|HTTP|2000
+http://ftp.free.org/mirrors/videolan/|Free|France|fr|HTTP|2000

@@ -1,9 +1,9 @@
 <?php
-$cver = file_get_contents("http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?getmajorv");
-$cdl = file_get_contents("http://d-gfx.kognetwork.ch/VLC/skineditor/dl.php?getmajorurl");
+$latestv = "0.7";
+$cdl = "http://d-gfx.kognetwork.ch/VLC/skineditor/vlcse_update_0_7_1.zip";
 
 echo "SKINEDITORUPDATEPAGE\n";
-echo $cver."\n";
+echo $latestver."\n";
 echo $cdl."\n";
 
 ?>

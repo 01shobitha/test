@@ -1,0 +1,67 @@
+/********************* Skins list *************************/
+
+.skin {
+	/*display: inline-block;*/
+	float:left;
+	text-align: center;
+	width:200px;
+	height:200px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.skin-content {	
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.8;
+	opacity:0.8;
+}
+.skin-content img {
+	max-width:190px;
+	max-height:190px;
+}
+
+#skinbox{
+	background-color:#eee;
+	padding: 10px;
+	border-bottom: 2px solid #666;
+	border-right: 2px solid #666;
+	}
+#skinboxDetails{
+	font-size: 0.8em;
+	padding-top: 0.4em;
+	}	
+#skinboxCaption{ 
+	float: left; 
+	text-align:left;
+}
+#keyboardMsg{ float: right; }
+#closeButton{ top: 5px; right: 5px; }
+
+#skinbox img{ border: none; clear: both;} 
+#overlay img{ border: none; }
+
+#overlay{ background-image: url(http://images.videolan.org/images/skinlist/overlay.png); }
+
+* html #overlay{
+	background-color: #333;
+	back\ground-color: transparent;
+	background-image: url(blank.gif);
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://images.videolan.org/images/skinlist/overlay.png", sizingMethod="scale");
+}
+
+.skin-title {
+	font-weight: bold;
+	font-size: 10pt;
+}
+.skin-date {
+	font-style: italic;
+	color: #666;
+}
+.skin-dl {
+	background: transparent url(http://images.videolan.org/images/12-em-down.png) no-repeat scroll left center;
+	padding-left: 16px;
+}
+.skin-dls {
+	font-style: italic;
+	color: #666;
+}

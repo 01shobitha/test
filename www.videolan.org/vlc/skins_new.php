@@ -29,7 +29,7 @@ function AddSkin( $id, $name, $author, $img, $url, $dl, $date, $date_mod, $ratin
 <img src="http://images.videolan.org/vlc/skins2/tm_<?php echo $img; ?>"
      onmouseover="new Effect.Opacity(this,{ from: 0.9, to: 1.0, duration: 0.2 });"
      onmouseout="new Effect.Opacity(this,{ from: 1.0, to: 0.9, duration: 0.2 });"
-     onclick="showSkinBox(<?php echo $id; ?>, '<?php echo $name; ?>', '<?php echo $date_mod; ?>', '<?php echo dl; ?>', '<?php echo $url; ?>', '<?php echo $rating; ?> , <?php echo $count; ?>, 'http://images.videolan.org/vlc/skins2/<?php echo $img; ?>', <?php if( $_COOKIE["skinrated_$id"] != $id ) echo "true"; else echo "false";?>); return false"
+     onclick="showSkinBox(<?php echo $id; ?>, '<?php echo $name; ?>', '<?php echo $date_mod; ?>', '<?php echo dl; ?>', '<?php echo $url; ?>', <?php echo $rating; ?> , <?php echo $count; ?>, 'http://images.videolan.org/vlc/skins2/<?php echo $img; ?>', <?php if( $_COOKIE["skinrated_$id"] != $id ) echo "true"; else echo "false";?>); return false"
      >
 </div>
 </div>

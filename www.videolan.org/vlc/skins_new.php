@@ -25,7 +25,7 @@ function AddSkin( $id, $name, $author, $img, $url, $dl, $date, $date_mod, $ratin
 ?>
 <div class="skin" 
      style="background-image:url('http://images.videolan.org/vlc/skins2/tm_<?php echo $img; ?>')"
-     onclick="showSkinBox(<?php echo $id; ?>, '<?php echo $name; ?>', '<?php echo $date_mod; ?>', '<?php echo dl; ?>', '<?php echo $url; ?>', <?php echo $rating; ?> , <?php echo $count; ?>, 'http://images.videolan.org/vlc/skins2/<?php echo $img; ?>', <?php if( $_COOKIE["skinrated_$id"] != $id ) echo "true"; else echo "false";?>); return false">
+     onclick="showSkinBox(<?php echo $id; ?>, '<?php echo $name; ?>', '<?php echo $date_mod; ?>', '<?php echo $dl; ?>', '<?php echo $url; ?>', <?php echo $rating; ?> , <?php echo $count; ?>, 'http://images.videolan.org/vlc/skins2/<?php echo $img; ?>', <?php if( $_COOKIE["skinrated_$id"] != $id ) echo "true"; else echo "false";?>); return false">
 <span class="skin-title-list"><?php echo $name; ?></span>
 </div>
 <?php

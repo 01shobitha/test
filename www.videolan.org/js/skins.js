@@ -106,11 +106,14 @@ function showSkinBox(id, name, author, date, downloads, file, size, rating, vote
 		objLoadingImage.style.display = 'block';
 	}
   
-
+  console.debug("set overlay dimensions");
+  
 	// set height of Overlay to take up whole page and show
 	objOverlay.style.height = (arrayPageSize[1] + 'px');
 	objOverlay.style.display = 'block';
-
+   
+  console.log("Creating preloader"); 
+   
 	// preload image
 	imgPreload = new Image();
 
@@ -194,7 +197,7 @@ function showSkinBox(id, name, author, date, downloads, file, size, rating, vote
 
 		return false;
   }
-    
+    console.debug("Setting preloader to load "+screenshot);
     imgPreload.src = screenshot;
 }
 

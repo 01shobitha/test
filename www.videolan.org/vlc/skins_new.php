@@ -13,13 +13,12 @@ if( isset( $_POST["skin_id"] ) && isset( $_POST["rating"] ) )
   }
 }
 
-$title = "VLC media player - Skins";
-$lang = "en";
-$menu = array( "vlc", "skins" );
+ $title = "VLC media player - Skins";
+ $lang = "en";
+ $menu = array( "vlc", "skins" );
 
-$enable_skinbox = true;
-
-require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
+ $enable_skinbox = true;
+ require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
 function AddSkin( $id, $name, $author, $img, $url, $dl, $date, $date_mod, $rating, $count, /*$old_rating, $old_count,*/ $sign, $min_version, $size )
 {

@@ -14,7 +14,7 @@ function FormatSize($size) {
 *  starthtml: beginning of the page
 */
 
-function StartHtml( $title, $enable_live = false, $enable_map = false ) {
+function StartHtml( $title, $enable_live = false, $enable_map = false, $enable_skinbox = false ) {
 
 global $HTTP_GET_VARS;
 echo "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n";
@@ -207,9 +207,13 @@ if( !isset( $enable_map ) )
 {
     $enable_map = false;
 }
+if( !isset( $enable_skinbox ) )
+{
+    $enable_skinbox = false;
+}
 
 // HTML header
-StartHtml( ereg_replace( "<[^>]*>" , "" , $title ) , $enable_live, $enable_map ) ;
+StartHtml( ereg_replace( "<[^>]*>" , "" , $title ) , $enable_live, $enable_map, $enable_skinbox ) ;
 
 
 ?>

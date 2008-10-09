@@ -36,7 +36,7 @@ echo "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n";
    <link rel="alternate" type="application/rss+xml" title="RSS - News" href="/videolan-news.rss" />
    <link rel="stylesheet" type="text/css" href="/main.css" />
    <?php if( $enable_skinbox == true ) {?>
-     <link rel="stylesheet" type="text/css" href="skins.css" />
+   <link rel="stylesheet" type="text/css" href="skins.css" />
    <?php } ?>
 <!--[if lt IE 7]>
    <style type="text/css">
@@ -49,17 +49,17 @@ echo "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n";
    <link rel="shortcut icon" type="image/x-icon"
          href="/images/icons/favicon.ico" />
    <?php if( $enable_live == true ) {?>
-	<script src="/ffcounter.js" type="text/javascript"></script>
+	 <script src="/ffcounter.js" type="text/javascript"></script>
    <?php } ?>
    <?php if( $enable_map == true ) {?>
    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAA_tTjXf27pXx7GJjiXjfLTBTZ23S2gbgYlUkGxVa_77E2Yr1JbRRZDHGiGaM9ko8-hG5M1z9nS5bFXA" type="text/javascript"></script>
    <script src="map.js" type="text/javascript"></script>
    <?php } ?>
    <?php if( $enable_skinbox == true ) {?>
-      <script src="../js/prototype.js" type="text/javascript"></script>
-      <script src="../js/scriptaculous.js" type="text/javascript"></script>
-      <script src="../js/skins.js" type="text/javascript"></script>     
-   <?php } ?>
+   <script src="/js/prototype.js" type="text/javascript"></script>
+   <script src="/js/scriptaculous.js" type="text/javascript"></script>
+   <script src="/js/skins.js" type="text/javascript"></script>     
+   <?php } else { echo "<!-- Debug: SBOX false -->"; }?>
 <script type="text/javascript">
 // <![CDATA[
 function ShowMirrors( start, stop )

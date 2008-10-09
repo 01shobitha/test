@@ -24,17 +24,11 @@ require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 function AddSkin( $id, $name, $author, $img, $url, $dl, $date, $date_mod, $rating, $count, /*$old_rating, $old_count,*/ $sign, $min_version, $size )
 {
 ?>
-<div class="skin">
-<div class="skin-content">
-<img src="http://images.videolan.org/vlc/skins2/tm_<?php echo $img; ?>"
-     onmouseover="new Effect.Opacity(this,{ from: 0.9, to: 1.0, duration: 0.2 });"
-     onmouseout="new Effect.Opacity(this,{ from: 1.0, to: 0.9, duration: 0.2 });"
-     onclick="showSkinBox(<?php echo $id; ?>, '<?php echo $name; ?>', '<?php echo $date_mod; ?>', '<?php echo dl; ?>', '<?php echo $url; ?>', <?php echo $rating; ?> , <?php echo $count; ?>, 'http://images.videolan.org/vlc/skins2/<?php echo $img; ?>', <?php if( $_COOKIE["skinrated_$id"] != $id ) echo "true"; else echo "false";?>); return false"
-     >
+<div class="skin" 
+     style="background-image:url(http://images.videolan.org/vlc/skins2/tm_<?php echo $img; ?>)"
+     onclick="showSkinBox(<?php echo $id; ?>, '<?php echo $name; ?>', '<?php echo $date_mod; ?>', '<?php echo dl; ?>', '<?php echo $url; ?>', <?php echo $rating; ?> , <?php echo $count; ?>, 'http://images.videolan.org/vlc/skins2/<?php echo $img; ?>', <?php if( $_COOKIE["skinrated_$id"] != $id ) echo "true"; else echo "false";?>); return false">
+<span class="skin-title-list"><?php echo $name; ?></span>
 </div>
-</div>
-      
-
 <?php
 }
 ?>
@@ -87,6 +81,19 @@ pg_close( $connect );
 
 <div id="right">
 
+<?php panel_start( "blue" ); ?>
+<h1>Upload your own skin</h1>
+
+<p>You have made a new skin and want to share it ? Please click  
+<a href="skins_upload.php">here</a> and fill out the form.<br />As soon as one webmaster has checked it, it will be displayed on this page.</p>
+<?php panel_end(); ?>
+
+<?php panel_start( "gray" ); ?>
+<h1>Skin pack</h1>
+
+<p>Download all the skins at once <a href='download-skins2-go.php?url=vlc-skins.zip'>here</a> (<?php echo $sp_size; ?>).<br />Downloaded <?php echo $sp_dl; ?> times since January 2007. (This pack is updated daily)</p>
+<?php panel_end(); ?>
+
 <?php panel_start( "orange" ); ?>
 <h1>How to use these skins?</h1>
 
@@ -130,19 +137,6 @@ pg_close( $connect );
 </ul>
 Don't worry, you don't need any programming skills... Some knowledge about graphics software
 might ease the job, though.<br />Need more skinning resources? Come join our <a href="http://forum.videolan.org/viewforum.php?f=15">friendly community</a> over at the VideoLAN Forums!</p>
-<?php panel_end(); ?>
-
-<?php panel_start( "blue" ); ?>
-<h1>Upload your own skin</h1>
-
-<p>You have made a new skin and want to share it ? Please click  
-<a href="skins_upload.php">here</a> and fill out the form.<br />As soon as one webmaster has checked it, it will be displayed on this page.</p>
-<?php panel_end(); ?>
-
-<?php panel_start( "gray" ); ?>
-<h1>Skin pack</h1>
-
-<p>Download all the skins at once <a href='download-skins2-go.php?url=vlc-skins.zip'>here</a> (<?php echo $sp_size; ?>).<br />Downloaded <?php echo $sp_dl; ?> times since January 2007. (This pack is updated daily)</p>
 <?php panel_end(); ?>
 
 </div>

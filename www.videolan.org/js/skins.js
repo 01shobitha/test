@@ -97,7 +97,7 @@ function showSkinBox(id, name, author, date, downloads, file, size, rating, vote
 	var arrayPageSize = getPageSize();
 	var arrayPageScroll = getPageScroll();
 
-	// center loadingImage if it exists
+  // center loadingImage if it exists
 	if (objLoadingImage) {
 		objLoadingImage.style.top = (arrayPageScroll[1] + ((arrayPageSize[3] - 35 - objLoadingImage.height) / 2) + 'px');
 		objLoadingImage.style.left = (((arrayPageSize[0] - 20 - objLoadingImage.width) / 2) + 'px');
@@ -121,7 +121,6 @@ function showSkinBox(id, name, author, date, downloads, file, size, rating, vote
 		
 		objSkinBox.style.top = (skinboxTop < 0) ? "0px" : skinboxTop + "px";
 		objSkinBox.style.left = (skinboxLeft < 0) ? "0px" : skinboxLeft + "px";
-
 
 		objSkinBoxDetails.style.width = imgPreload.width + 'px';
 		
@@ -162,14 +161,7 @@ function showSkinBox(id, name, author, date, downloads, file, size, rating, vote
     
     objCaption.style.display = 'block';
     objCaption.innerHTML = caption;
-    
 		
-		// A small pause between the image loading and displaying is required with IE,
-		// this prevents the previous image displaying for a short burst causing flicker.
-		if (navigator.appVersion.indexOf("MSIE")!=-1){
-			pause(250);
-		} 
-
 		if (objLoadingImage) {	objLoadingImage.style.display = 'none'; }
 
 		// Hide select boxes as they will 'peek' through the image in IE

@@ -56,10 +56,8 @@ echo "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n";
    <script src="map.js" type="text/javascript"></script>
    <?php } ?>
    <?php if( $enable_skinbox == true ) {?>
-   <script src="/js/prototype.js" type="text/javascript"></script>
-   <script src="/js/scriptaculous.js" type="text/javascript"></script>
    <script src="/js/skins.js" type="text/javascript"></script>     
-   <?php } else { echo "<!-- Debug: SBOX false -->"; }?>
+   <?php } ?>
 <script type="text/javascript">
 // <![CDATA[
 function ShowMirrors( start, stop )

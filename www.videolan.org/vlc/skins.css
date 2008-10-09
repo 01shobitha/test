@@ -12,16 +12,13 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	cursor:pointer;
+	margin:5px;
 }
 .skin:hover {
 	background-color: #AAA;
 }
 .skin-title-list {
 	background: #000;
-	border-top: 1px solid #AAA;
-	border-left: 1px solid #AAA;
-	border-right: 1px solid #666;
-	border-bottom: 1px solid #666;
 	padding:2px;
 	color: #FFF;
 }

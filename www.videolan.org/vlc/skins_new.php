@@ -27,7 +27,7 @@ function AddSkin( $id, $name, $author, $img, $url, $dl, $date, $date_mod, $ratin
 <?php
   echo "style=\"background-image:url('http://images.videolan.org/vlc/skins2/tm_".$img."')\" ";
   $canvote = ($_COOKIE["skinrated_$id"] != $id);
-  echo "onload=\"showSkinBox(".$id.",'".$name."','".$author."','".$date_mod."','".$dl."','".$url."','".FormatSize( $size )."',".$rating.",".$count.",'".$img."',".$canvote.")\"";
+  echo "onclick=\"showSkinBox(".$id.",'".$name."','".$author."','".$date_mod."','".$dl."','".$url."','".FormatSize( $size )."',".$rating.",".$count.",'http://images.videolan.org/vlc/skins2/".$img."',".$canvote.")\"";
 ?>
 >
 <span class="skin-title-list"><?php echo $name; ?></span>
@@ -144,4 +144,4 @@ might ease the job, though.<br />Need more skinning resources? Come join our <a 
 
 </div>
 
-<?php footer('$Id: skins_new.php 4461 2008-02-23 12:47 altglass$'); ?>
+<?php footer('$Id: skins_new.php 4844 2008-10-09 15:20 altglass$'); ?>

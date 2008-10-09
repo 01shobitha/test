@@ -141,9 +141,9 @@ function showSkinBox(id, name, author, date, downloads, file, size, rating, vote
       }
       caption+= "<img alt='' src='http://images.videolan.org/vlc/skins2/cone-"+v+".png' />";
     }
-        
-    if(canvote==1) {
-      caption += " ("+rating+" with "+votes+" votes)<br>";
+    rating = Math.round(rating*100)/100;
+    caption += " ("+rating+" with "+votes+" votes)<br>";        
+    if(canvote==1) {      
       caption += "<form method=\"post\" action=\"skins.php\" style=\"display:inline;\"><div>"
       caption += "<input type=\"radio\" name=\"rating\" value=\"1\" id=\"rate_1_"+id+"\" />";
       caption += "<label for=\"rate_1_"+id+"\">1</label>"; 

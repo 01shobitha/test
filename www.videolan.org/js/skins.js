@@ -96,8 +96,6 @@ function showSkinBox(id, name, author, date, downloads, file, size, rating, vote
 	
 	var arrayPageSize = getPageSize();
 	var arrayPageScroll = getPageScroll();
-
-  console.debug("centering loadingImage");
   
   // center loadingImage if it exists
 	if (objLoadingImage) {
@@ -106,23 +104,18 @@ function showSkinBox(id, name, author, date, downloads, file, size, rating, vote
 		objLoadingImage.style.display = 'block';
 	}
   
-  console.debug("set overlay dimensions");
   
 	// set height of Overlay to take up whole page and show
 	objOverlay.style.height = (arrayPageSize[1] + 'px');
 	objOverlay.style.display = 'block';
-   
-  console.log("Creating preloader"); 
-   
+      
 	// preload image
 	imgPreload = new Image();
 
 	imgPreload.onload=function(){
-    console.debug("imgPreload loaded");
   
 		objImage.src = screenshot;
 
-    console.debug("centering skinbox");
 		// center skinbox and make sure that the top and left values are not negative
 		// and the image placed outside the viewport
 		var skinboxTop = arrayPageScroll[1] + ((arrayPageSize[3] - 35 - imgPreload.height) / 2);
@@ -132,15 +125,11 @@ function showSkinBox(id, name, author, date, downloads, file, size, rating, vote
 		objSkinBox.style.left = (skinboxLeft < 0) ? "0px" : skinboxLeft + "px";
 
 		objSkinBoxDetails.style.width = imgPreload.width + 'px';
-		
-    console.debug("Creating caption");
-    
+		    
     caption = "<span class=\"skin-title\">"+name+"</span> by "+author+" - <span class=\"skin-date\">Last updated on "+date+"</span><br>";    
     caption += "<a class=\"skin-dl\" href=\"download-skins2-go.php?url="+file+"\">Download</a> ("+size+") - <span class=\"skin-dls\">"+downloads+" Downloads</span><br>";
     caption += "<br>Rating: ";
-    
-    console.debug("Creating rating for caption");
-    
+        
     for( i=0; i<5; i++ )   {      
     
       v = 0;
@@ -152,9 +141,7 @@ function showSkinBox(id, name, author, date, downloads, file, size, rating, vote
       }
       caption+= "<img alt='' src='http://images.videolan.org/vlc/skins2/cone-"+v+".png' />";
     }
-    
-    console.debug("Creating voting form");
-    
+        
     if(canvote==true) {
       caption += " ("+rating+" with "+votes+" votes)<br>";
       caption += "<form method=\"post\" action=\"skins.php\" style=\"display:inline;\"><div>"
@@ -172,9 +159,7 @@ function showSkinBox(id, name, author, date, downloads, file, size, rating, vote
       caption += "&nbsp;<input type=\"submit\" value=\"Vote\" />";
       caption += "</div></form>";
     }
-    
-    console.debug("Setting caption");
-    
+        
     objCaption.style.display = 'block';
     objCaption.innerHTML = caption;
 		
@@ -185,8 +170,6 @@ function showSkinBox(id, name, author, date, downloads, file, size, rating, vote
         for (i = 0; i != selects.length; i++) {
                 selects[i].style.visibility = "hidden";
         }
-
-	  console.debug("Setting skinbox to display");
   
 		objSkinBox.style.display = 'block';
 
@@ -197,7 +180,6 @@ function showSkinBox(id, name, author, date, downloads, file, size, rating, vote
 
 		return false;
   }
-    console.debug("Setting preloader to load "+screenshot);
     imgPreload.src = screenshot;
 }
 

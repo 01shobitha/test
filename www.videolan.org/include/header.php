@@ -93,6 +93,8 @@ function HideMirrors()
    <body onload="getCount();">
 <?php } else if( $enable_map == true ) { ?>
   <body onload="load();" onunload="GUnload();">
+<?php } else if( $enable_skinbox == true ) { ?>
+  <body onload="initSkinBox()">
 <?php } else { ?>
    <body onload="HideMirrors();">
 <?php

@@ -50,8 +50,8 @@ tell you if we are interested and give you our snail-mail address. </p>
 <p> VideoLAN is a project of the association <a
 href="http://www.via.ecp.fr/">Centrale Réseaux</a>, which is a French
 non-profit organisation based at the <a href="http://www.ecp.fr/">École
-Centrale Paris</a>. VideoLAN has its own bank account and is responsible of
-its finance in front of the <a href="http://www.via.ecp.fr/via/ca.html">board
+Centrale Paris</a>. VideoLAN has its own bank account and is responsible for
+its finances to the <a href="http://www.via.ecp.fr/via/ca.html">board
 of Centrale Réseaux</a>. </p>
 
 <h3>What are the financial needs of VideoLAN?</h3>
@@ -172,6 +172,8 @@ euros to help us buy a PowerMac G5</li>
   <li>The french magazine <strong>à vos MAC</strong> gave 500 euros to 
 help us buy a PowerMac G5</li>
   <li><strong>Laurent Dupuy</strong>, who made a 540&euro; donation to the VideoLAN project</li>
+  <li>The dutch website <a href="http://www.pepermunt.net">Pepermunt.net</a>, 
+who made a 500 euros donation to the VideoLAN project.</li>
 </ul>
 
 </div>

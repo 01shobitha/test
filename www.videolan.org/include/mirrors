@@ -86,7 +86,6 @@ http://ftp.free.org/mirrors/videolan/|Free|France|fr|HTTP|2000
 #
 # Location: Dallas, Texas, USA
 # Connection: 100Mbps, unlimited transfer per month
-# HTTP Link: http://mirror.nexcast.net/vlc/
 # James DeVincentis admin __ __nexcast.net
 #
 http://mirror.nexcast.net/vlc/|Nexcast|USA|us|HTTP|100

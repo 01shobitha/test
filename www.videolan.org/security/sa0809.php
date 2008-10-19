@@ -50,6 +50,9 @@ from the official VLC source code repository 0.9-bugfix branch.
 <dt>The VideoLAN project</dt>
 <dd><a href="http://www.videolan.org/">http://www.videolan.org/</a>
 </dd>
+<dt>VLC official GIT repository</dt>
+<dd><a href="http://git.videolan.org/?p=vlc.git">http://git.videolan.org/?p=vlc.git;a=shortlog;h=deb738bab3da02d925b365979e026efd15157da6</a>
+</dd>
 <dt>Tobias Klein</dt>
 <dd><a href="http://www.trapkit.de/advisories/"
   >http://www.trapkit.de/advisories/</a>

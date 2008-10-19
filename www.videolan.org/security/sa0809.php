@@ -62,7 +62,7 @@ from the official VLC source code repository 0.9-bugfix branch.
 <dd>Patch for VLC development version and 0.9-bugfix tree.</dd>
 <dd>Initial security advisory.</dd>
 <dt>?? October 2008</dt>
-<dd>VLC media player 0.9.5 released.</dt>
+<dd>VLC media player 0.9.5 released.</dd>
 </dl>
 
 <address>R&eacute;mi Denis-Courmont,<br />

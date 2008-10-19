@@ -39,7 +39,7 @@ This will prevent opening of TiVo files.
 </p>
 <h2>Solution</h2>
 <p>VLC media player 0.9.5 <del>addresses</del>will address this issue.
-Patch for older versions is available
+Patches for older versions are available
 from the official VLC source code repository 0.9-bugfix branch.
 </p>
 <h2>Credits</h2>
@@ -51,7 +51,7 @@ from the official VLC source code repository 0.9-bugfix branch.
 <dd><a href="http://www.videolan.org/">http://www.videolan.org/</a>
 </dd>
 <dt>VLC official GIT repository</dt>
-<dd><a href="http://git.videolan.org/?p=vlc.git">http://git.videolan.org/?p=vlc.git;a=shortlog;h=deb738bab3da02d925b365979e026efd15157da6</a>
+<dd><a href="http://git.videolan.org/?p=vlc.git;a=shortlog;h=deb738bab3da02d925b365979e026efd15157da6">http://git.videolan.org/?p=vlc.git</a>
 </dd>
 <dt>Tobias Klein</dt>
 <dd><a href="http://www.trapkit.de/advisories/"

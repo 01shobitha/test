@@ -11,7 +11,7 @@
 <pre>
 Summary           : Buffer overflow in VLC TiVo demuxer
 Date              : October 2008
-Affected versions : VLC media player 0.9.4 down to 0.8.2
+Affected versions : VLC media player 0.9.4 down to 0.9.0
 ID                : VideoLAN-SA-0809
 CVE reference     : CVE-2008-????
 </pre>

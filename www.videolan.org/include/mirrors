@@ -89,3 +89,8 @@ http://ftp.free.org/mirrors/videolan/|Free|France|fr|HTTP|2000
 # James DeVincentis admin __ __nexcast.net
 #
 http://mirror.nexcast.net/vlc/|Nexcast|USA|us|HTTP|100
+#
+# Location: USA
+# Connection: unknown
+# shadowz shadowz __A__ beyond-innovation d0t org
+# http://mirror.beyondi.org/vlc|Beyond Innovation|USA|us|HTTP|100

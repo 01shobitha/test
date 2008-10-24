@@ -1,6 +1,18 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|24 October 2008|VLC media player 0.9.5|The VideoLAN team is pleased to announce the release of VLC media player 0.9.5.
+
+This is a bugfix release. VLC media player 0.9.4 and earlier versions suffer from security vulnerability in TiVo demuxer. More technical details are available in <a href="http://www.videolan.org/security/sa0809.html">our advisory</a> (CVE-2008-4654, CVE-2008-4686). Also, libpng was updated in Windows and MacOS builds to fix its security issue (CVE-2008-3964).
+
+This release also improves media keys support under Windows, file access under all OSes, QT interface usability as well as fixing few more other bugs. Full list of changes can be found <a href="http://www.videolan.org/developers/vlc/NEWS">here</a>.
+
+We strongly recommend all users to update to this new version.
+
+Binary packages for <a href="http://www.videolan.org/vlc/download-macosx.html">Mac OS X</a> and source code tarballs are available for download. Windows binaries might at a later time.
+Help is available, as usual, in many places: <ul class="bullets"><li>The <a href="http://wiki.videolan.org/Documentation:Documentation/">documentation</a> (we need help keeping it up to date!)</li><li>The <a href=" http://forum.videolan.org">forums</a></li><li>The <a href="http://www.videolan.org/support/lists.html">mailing lists</a></li><li>IRC: #videolan on Freenode</li></ul><br/>
+We'd like to thank all our contributors, testers and users around the world for their support and help making this release possible.
+
 |9 October 2008|A problem with Mac OS X PPC 0.9.4 binary|We accidently released the 0.9.3 Mac OS X PowerPC binary as the 0.9.4 download. We apologize for this, and corrected PowerPC and Universal downloads have been uploaded to our main mirror. It will take up to a day for these binaries to be distributed to some of our mirrors. If you want you can download the file <a href="http://download.videolan.org/pub/videolan/vlc/0.9.4/macosx/vlc-0.9.4-powerpc.dmg">directly from our main server</a>.
 
 |7 October 2008|VLC media player 0.9.4 and Call for Windows developers|We present you with VLC media player 0.9.4, the latest increment of our 0.9 series. This release brings Windows users all the 0.9.3 enhancements and fixes (please see our call for Windows developers below) as well as fixing a few more bugs for the other platforms.|

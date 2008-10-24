@@ -12,6 +12,17 @@
 <h2>2008</h2>
 
 <dl>
+<dt>VideoLAN-SA-0809 (CVE-2008-4654, CVE-2008-4686:wq
+)</dt>
+<dd>Buffer overflow in VLC TiVo demuxer. <a href="sa0809.html">Details</a></dd></p>
+</dl>
+
+<dl>
+<dt>VideoLAN-SA-0807 (CVE-2008-3732, CVE-2008-3794)</dt>
+<dd>Multiple overflows in VLC demuxers. <a href="sa0807.html">Details</a></dd></p>
+</dl>
+
+<dl>
 <dt>VideoLAN-SA-0806 (CVE-2008-2430)</dt>
 <dd>Arbitrary code execution through potential heap-overflows in VLC's WAV demuxer. <a href="sa0806.html">Details</a></dd></p>
 </dl>

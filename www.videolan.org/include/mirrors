@@ -13,7 +13,7 @@ http://downloads.videolan.org/pub/videolan/|VideoLAN primary mirror|France|fr|HT
 #http://mirrors.ircam.fr/pub/videolan/|IRCAM|France|fr|HTTP|1000
 #
 # Contact : Emmanuel dot Blindauer at urs dot u-strasbg dot fr - BW : 1 GBit
-#ftp://ftp.u-strasbg.fr/pub/videolan/|Université de Strasbourg|France|fr|FTP|1000
+ftp://ftp.u-strasbg.fr/pub/videolan/|Université de Strasbourg|France|fr|FTP|1000
 #
 # Durga - Contact VIA - 30 Mbit
 #http://ftp2.via.ecp.fr/pub/videolan/|VIA Centrale Reseaux, École Centrale Paris|France|fr|HTTP|30
@@ -67,7 +67,7 @@ http://mirrors.optralan.com/videolan/|Optralan|USA|us|HTTP|100
 #
 # Yandex, Moscow, Russia
 # Contact opensource --- at --- yandex-team dot ru
-#http://mirror.yandex.ru/mirrors/ftp.videolan.org/|Yandex|Russia|ru|HTTP|1000
+http://mirror.yandex.ru/mirrors/ftp.videolan.org/|Yandex|Russia|ru|HTTP|1000
 #
 # Armenian Datacom Company, Armenia
 #  Tigran Afrikyan <mirrors  qt adc dot am> 

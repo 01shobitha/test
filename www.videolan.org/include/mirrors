@@ -1,19 +1,19 @@
 #
 # Ganesh - Contact VideoLAN - 1 Gbit
-#http://downloads.videolan.org/pub/videolan/|VideoLAN primary mirror|France|fr|HTTP|1000
+http://downloads.videolan.org/pub/videolan/|VideoLAN primary mirror|France|fr|HTTP|1000
 #
 # Skanda - Contact VideoLAN - 1 Gbit
 #http://download2.videolan.org/pub/videolan/|VideoLAN secondary mirror|France|fr|HTTP|1000
 #
 # Contact: thedj - BW: 1GB
 # Contact2: ftpcom_at_snt.utwente.nl
-http://ftp.snt.utwente.nl/pub/software/videolan/|Twente University|Netherlands|nl|HTTP|1000
+#http://ftp.snt.utwente.nl/pub/software/videolan/|Twente University|Netherlands|nl|HTTP|1000
 #
 # Contact : mirrormaster at ircam dot fr - BW : 1 GBit
-http://mirrors.ircam.fr/pub/videolan/|IRCAM|France|fr|HTTP|1000
+#http://mirrors.ircam.fr/pub/videolan/|IRCAM|France|fr|HTTP|1000
 #
 # Contact : Emmanuel dot Blindauer at urs dot u-strasbg dot fr - BW : 1 GBit
-ftp://ftp.u-strasbg.fr/pub/videolan/|Université de Strasbourg|France|fr|FTP|1000
+#ftp://ftp.u-strasbg.fr/pub/videolan/|Université de Strasbourg|France|fr|FTP|1000
 #
 # Durga - Contact VIA - 30 Mbit
 #http://ftp2.via.ecp.fr/pub/videolan/|VIA Centrale Reseaux, École Centrale Paris|France|fr|HTTP|30
@@ -23,7 +23,7 @@ ftp://ftp.u-strasbg.fr/pub/videolan/|Université de Strasbourg|France|fr|FTP|100
 ftp://ftp.crans.org/pub/videolan/|Cr@ns, ENS Cachan|France|fr|FTP|100
 #
 # Contact : hsunchang at gmail dot com
-ftp://videolan.cs.pu.edu.tw/others/VideoLAN/|Providence University|Taiwan|tw|FTP|100
+#ftp://videolan.cs.pu.edu.tw/others/VideoLAN/|Providence University|Taiwan|tw|FTP|100
 #
 # Contact : erik at telia dot com (e-mail address doesn't work) - round robin 100Mbits Stockholm 100Mbits Gothenburg
 #Directory listing is disabled.
@@ -37,16 +37,16 @@ http://mirrors.optralan.com/videolan/|Optralan|USA|us|HTTP|100
 # http://mirror.aarnet.edu.au/pub/videolan/|AARNet|Australia|au|HTTP|10000
 #
 # Contact : zdenek bill - maser at kn dot vutbr dot cz - BW 1Gbit
-http://videolan.kn.vutbr.cz/|Brno University of Technology|Czech Republic|cz|HTTP|1000
+#http://videolan.kn.vutbr.cz/|Brno University of Technology|Czech Republic|cz|HTTP|1000
 #
 # Contact : juan dot mussini at pucpr dot br
-ftp://ftp.pucpr.br/videolan/|Pontifícia Universidade Católica do Paraná|Brazil|br|FTP|100
+#ftp://ftp.pucpr.br/videolan/|Pontifícia Universidade Católica do Paraná|Brazil|br|FTP|100
 #
 # Contact Dave Schroeder  das at doit dot wisc dot edu
-http://mirror.services.wisc.edu/mirrors/videolan/|University of Wisconsin - Madison|USA|us|HTTP|100
+#http://mirror.services.wisc.edu/mirrors/videolan/|University of Wisconsin - Madison|USA|us|HTTP|100
 #
 # Contact : Ionic, ionic at root24 dot de - 100 Mbit
-ftp://root24.eu/pub/videolan/|Root24|Germany|de|FTP|100
+#ftp://root24.eu/pub/videolan/|Root24|Germany|de|FTP|100
 #
 # contact=Attn:System Administrator mail=admin at 301networks.com, Maryland, 
 #http://www.301networks.com/Mirrors/VLC/|301NETWORKS|USA|us|HTTP|100
@@ -63,15 +63,15 @@ ftp://root24.eu/pub/videolan/|Root24|Germany|de|FTP|100
 # JAIST, JP
 # Contact Kazuhiro Fujieda: fujieda  ---  at jaist.ac dot jp 
 # 			    ftp-admin --- at  jaist.ac   dot jp
-http://ftp.jaist.ac.jp/pub/videolan/|JAIST|Japan|jp|HTTP|100
+#http://ftp.jaist.ac.jp/pub/videolan/|JAIST|Japan|jp|HTTP|100
 #
 # Yandex, Moscow, Russia
 # Contact opensource --- at --- yandex-team dot ru
-http://mirror.yandex.ru/mirrors/ftp.videolan.org/|Yandex|Russia|ru|HTTP|1000
+#http://mirror.yandex.ru/mirrors/ftp.videolan.org/|Yandex|Russia|ru|HTTP|1000
 #
 # Armenian Datacom Company, Armenia
 #  Tigran Afrikyan <mirrors  qt adc dot am> 
-http://vlc.mirrors.adc.am/|Armenian Datacom Company|Armenia|am|HTTP|200
+#http://vlc.mirrors.adc.am/|Armenian Datacom Company|Armenia|am|HTTP|200
 #
 # Technotop Networks, The Netherlands
 # Robbert van Hulsentop <robbert at technotop dot nl>
@@ -93,4 +93,4 @@ http://mirror.nexcast.net/vlc/|Nexcast|USA|us|HTTP|100
 # Location: USA
 # Connection: 1000
 # shadowz shadowz __A__ beyond-innovation d0t org
-http://mirror.beyondi.org/vlc/|Beyond !nnovation|USA|us|HTTP|100
+#http://mirror.beyondi.org/vlc/|Beyond !nnovation|USA|us|HTTP|100

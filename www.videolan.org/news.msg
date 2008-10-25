@@ -3,13 +3,13 @@
 #
 |24 October 2008|VLC media player 0.9.5|The VideoLAN team is pleased to announce the release of VLC media player 0.9.5.
 
-This is a bugfix release. VLC media player 0.9.4 and earlier versions suffer from security vulnerability in TiVo demuxer. More technical details are available in <a href="http://www.videolan.org/security/sa0809.html">our advisory</a> (CVE-2008-4654, CVE-2008-4686). Also, libpng was updated in Windows and MacOS builds to fix its security issue (CVE-2008-3964).
+This is a bugfix release. VLC media player 0.9.4 and earlier versions suffer from security vulnerability in TiVo demuxer. More technical details are available in <a href="http://www.videolan.org/security/sa0809.html">our advisory</a> (CVE-2008-4654, CVE-2008-4686). Also, libpng was updated in Windows and MacOS builds to fix its security issue (CVE-2008-3964).<br />|
 
-This release also improves media keys support under Windows, file access under all OSes, QT interface usability as well as fixing few more other bugs. Full list of changes can be found <a href="http://www.videolan.org/developers/vlc/NEWS">here</a>.
+This release also improves media keys support under Windows, file access under all OSes, QT interface usability as well as fixing few more other bugs. Full list of changes can be found <a href="http://www.videolan.org/developers/vlc/NEWS">here</a>.<br />
 
-We strongly recommend all users to update to this new version.
+We strongly recommend all users to update to this new version.<br />
 
-Binary packages for <a href="http://www.videolan.org/vlc/download-macosx.html">Mac OS X</a> and source code tarballs are available for download. Windows binaries might arrive at a later time.
+Binary packages for <a href="http://www.videolan.org/vlc/download-macosx.html">Mac OS X</a> and source code tarballs are available for download. Windows binaries might arrive at a later time.<br />
 Help is available, as usual, in many places: <ul class="bullets"><li>The <a href="http://wiki.videolan.org/Documentation:Documentation/">documentation</a> (we need help keeping it up to date!)</li><li>The <a href=" http://forum.videolan.org">forums</a></li><li>The <a href="http://www.videolan.org/support/lists.html">mailing lists</a></li><li>IRC: #videolan on Freenode</li></ul><br/>
 We'd like to thank all our contributors, testers and users around the world for their support and help making this release possible.
 

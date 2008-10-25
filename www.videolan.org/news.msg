@@ -9,7 +9,7 @@ This release also improves media keys support under Windows, file access under a
 
 We strongly recommend all users to update to this new version.
 
-Binary packages for <a href="http://www.videolan.org/vlc/download-macosx.html">Mac OS X</a> and source code tarballs are available for download. Windows binaries might at a later time.
+Binary packages for <a href="http://www.videolan.org/vlc/download-macosx.html">Mac OS X</a> and source code tarballs are available for download. Windows binaries might arrive at a later time.
 Help is available, as usual, in many places: <ul class="bullets"><li>The <a href="http://wiki.videolan.org/Documentation:Documentation/">documentation</a> (we need help keeping it up to date!)</li><li>The <a href=" http://forum.videolan.org">forums</a></li><li>The <a href="http://www.videolan.org/support/lists.html">mailing lists</a></li><li>IRC: #videolan on Freenode</li></ul><br/>
 We'd like to thank all our contributors, testers and users around the world for their support and help making this release possible.
 

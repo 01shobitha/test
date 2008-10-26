@@ -1,11 +1,17 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|26 October 2008|End of support for VLC 0.8.6 series|The VideoLAN team ceases all form of support for VLC media player the 0.8.6-bugfix tree.
+
+Due to lack of interest from the developpers community, source code maintenance efforts for the VLC media player 0.8.6-bugfix branch will be stopped. This is effective immediately; there will be no more security and critical fixes for VLC 0.8.6. Binary releases of the 0.8.6-bugfix branch had already stopped as of July 2008.
+
+The VideoLAN team will continue to provide major or security-related bug fixes for the VLC media player 0.9-bugfix branch. If you have not already upgraded to VLC version 0.9.5, please do so now.
+
 |24 October 2008|VLC media player 0.9.5|The VideoLAN team is pleased to announce the release of VLC media player 0.9.5.
 
 This is a bugfix release. VLC media player 0.9.4 and earlier versions suffer from security vulnerability in TiVo demuxer. More technical details are available in <a href="http://www.videolan.org/security/sa0809.html">our advisory</a> (CVE-2008-4654, CVE-2008-4686). Also, libpng was updated in Windows and MacOS builds to fix its security issue (CVE-2008-3964).<br />|
 
-This release also improves media keys support under Windows, file access under all OSes, QT interface usability as well as fixing few more other bugs. Full list of changes can be found <a href="http://www.videolan.org/developers/vlc/NEWS">here</a>.<br />
+This release also improves media keys support under Windows, file access under all OSes, Qt interface usability as well as fixing few more other bugs. Full list of changes can be found <a href="http://www.videolan.org/developers/vlc/NEWS">here</a>.<br />
 
 We strongly recommend all users to update to this new version.<br />
 

@@ -38,7 +38,7 @@ can be removed manually from the VLC plugin installation directory.
 This will prevent opening of TiVo files.
 </p>
 <h2>Solution</h2>
-<p>VLC media player 0.9.5 <del>addresses</del>will address this issue.
+<p>VLC media player 0.9.5 addresses this issue.
 Patches for older versions are available
 from the official VLC source code repository 0.9-bugfix branch.
 </p>

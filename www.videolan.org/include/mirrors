@@ -82,7 +82,7 @@ http://videolan.mirror.technotop.nl/|Technotop Networks|Netherlands|nl|HTTP|1000
 # Free, France
 # ftpmaint@free.org
 # FTP version is also available.
-http://ftp.free.org/mirrors/videolan/|Free|France|fr|HTTP|2000
+#http://ftp.free.org/mirrors/videolan/|Free|France|fr|HTTP|2000
 #
 # Location: Dallas, Texas, USA
 # Connection: 100Mbps, unlimited transfer per month

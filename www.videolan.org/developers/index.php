@@ -15,7 +15,7 @@ this website has been merged with the main VideoLAN website.</p>
 <h2>Wiki</h2>
 <p>You will find here basic information about the most famous
 VideoLAN projects. <br />
-A lot of information, like those concerning CVS/SVN repository, documentation,
+A lot of information, like those concerning SVN/git repository, documentation,
 HowTos have migrated to the <a href="http://wiki.videolan.org">wiki</a>.<br />
 There is a <a href="http://wiki.videolan.org/Developers_Corner">Developer's Corner</a> on this wiki where you will find a lot of information.</p>
 
@@ -47,6 +47,7 @@ the web site will be automatically updated a few minutes later.
   <?php panel_start( 'orange' ); ?>
 <h1>Useful Resources</h1>
 <p><a href="http://wiki.videolan.org/Developers_Corner">Developers Wiki</a></p>
+<p><a href="http://wiki.videolan.org/Git">Git</a></p>
 <p><a href="http://wiki.videolan.org/Subversion">Subversion</a></p>
 <p><a href="lists.html">Mailing lists</a></p>
 <p><a href="https://trac.videolan.org/">Trac - project management</a></p>

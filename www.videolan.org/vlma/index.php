@@ -29,7 +29,7 @@ and a web interface (called VLMaw).</p>
 
 <h2>Support</h2>
 
-<p>For support information, have a look <a href="/support/">here</a>.</p>
+<p>For support information, have a look at <a href="/support/">our support page</a>.</p>
 
 <p>A <a href="http://mailman.videolan.org/listinfo/vlma">mailing-list</a> and a <a href="http://forum.videolan.org/viewforum.php?f=30">forum</a> are also available.</p>
 
@@ -58,7 +58,7 @@ and a web interface (called VLMaw).</p>
         <!-- main content goes here -->
         <h1>Download and install</h1>
 
-        <p>To download VLMa, go to the <a href="/vlma/download.html">download page</a>. Installation instructions can be found <a href="/vlma/doc/setup.html">here</a>.</p>
+        <p>To download VLMa, go to the <a href="/vlma/download.html">download page</a>. <a href="/vlma/doc/setup.html">Installation instructions</a> are available in <a href="/vlma/doc/">VLMa documentation</a>.</p>
 
       </div>
     </div>

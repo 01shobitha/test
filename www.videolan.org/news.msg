@@ -151,7 +151,7 @@ after upgrading from a previous version.
 |19 June 2006|VideoLAN needs your help|There are many things that we would like to improve in VLC, but that we don't, because we simply don't have enough time. That's why we are currently looking for some help. We have identified several small projects that prospective developers could work on.<br />
 Knowledge of C and/or C++ programming will certainly be useful, but you don't need to be an expert, nor a video expert. Existing VLC developers will be able to help you on these projects. You can find the list and some instructions on <a href="http://wiki.videolan.org/Mini_Projects">the dedicated Wiki page</a>. Don't hesitate to join us on <a href="http://www.videolan.org/support/">IRC</a> or on the <a href="http://www.videolan.org/support/lists.html">mailing-lists</a>. We are waiting for you ! 
 
-|25 May 2006| Website redesign contest| Those of you browsing the web with text only console browsers might think that <a href="http://www.videolan.org">this website's design</a> is great, all the others wouldn't agree (some might even dare compare it with VLC's default interface on windows and linux). We've thus decided to give you the opportunity to change it.|<br/>
+|25 May 2006| Website redesign contest| Those of you browsing the web with text only console browsers might think that <a href="http://www.videolan.org">this website's design</a> is great, all the others wouldn't agree (some might even dare compare it with VLC's default interface on windows and linux). We've thus decided to give you the opportunity to change it.<br/>
 Rules are available on the <a href="http://wiki.videolan.org/WebsiteRedesign">wiki</a>. All discussion and posts relative to the contest will be made in the <a href="http://forum.videolan.org/viewforum.php?f=10">Website discussion forum</a>.<br/>
 <b>Update:</b> The deadline for this contest is set to Friday 14/07. You can have a look at current proposals on <a href="http://wiki.videolan.org/WebsiteDesign">this wiki page</a>.
 
@@ -168,13 +168,15 @@ Freenode. Remember to reset your preferences if you experience problems
 after upgrading from a previous version.
 
 
-|1 April 2006| Apple-VideoLAN partnership announced, Mac VLC to be Intel only (April fool's) | In an effort to help Apple with its Intel transition, the VideoLAN team, distributor of the industry leading cross-platform media player VLC, announced its intent to drop support for the now outdated G4 and G5 based series of Mac computers.| Read the full <a href="/pr2006-2.html">Press Release</a>.<br/>
+|1 April 2006| Apple-VideoLAN partnership announced, Mac VLC to be Intel only (April fool's) | In an effort to help Apple with its Intel transition, the VideoLAN team, distributor of the industry leading cross-platform media player VLC, announced its intent to drop support for the now outdated G4 and G5 based series of Mac computers.<br />
+ Read the full <a href="/pr2006-2.html">Press Release</a>.<br/>
 <span style="color:red;"><b>Note:</b> Look at the date...</span>
 
 |9 March 2006| VideoLAN website gets a new home | VideoLAN's main
 server, Ganesh, will be moving to a new home at the French ISP Free. To
 learn more about this move, you can read our <a
-href="/pr2006-1.html">Press Release</a>.| During the move, several
+href="/pr2006-1.html">Press Release</a>.<br />
+During the move, several
 VideoLAN services will be down: forum, trac, SVN, and developers
 website. The move should last about 4 hours, starting at 3 PM, Paris
 Time. We apologize for any inconvenience.<br/>
@@ -188,7 +190,8 @@ on our booth.
 |13 December 2005| Bugfix release: VLC media player 0.8.4a| This minor
 update to VLC 0.8.4 fixes a few annoying bugs. OSX S/PDIF has been fixed
 (thanks to the donations we got for the G5), and so has A/52 over S/PDIF
-in Linux ALSA.| MusePack is also now enabled in Windows version. Have a look
+in Linux ALSA.<br />
+MusePack is also now enabled in Windows version. Have a look
 <a href="http://developers.videolan.org/vlc/NEWS">here</a> for the full
 list of changes.<br />
 Binary packages and the source code are available on the <a href="/vlc/">

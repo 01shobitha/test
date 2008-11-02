@@ -28,8 +28,11 @@ We utmostly recommend all users upgrade to this new version.<br />
 
 Binary packages for <a href="http://www.videolan.org/vlc/download-macosx.html">Mac OS X</a> and <a href="http://www.videolan.org/vlc/download-sources.html">source code tarballs</a> are available for download. Windows binary release is indefinitely postponed pending volunteers taking over the Windows port.<br />
 
-Help is available, as usual, in many places: <ul class="bullets"><li>The <a href="http://wiki.videolan.org/Documentation:Documentation/">documentation</a> (we need help keeping it up to date!)</li><li>The <a href=" http://forum.videolan.org">forums</a></li><li>The <a href="http://www.videolan.org/support/lists.html">mailing lists</a></li><li>IRC: #videolan on Freenode</li></ul><br/>
-We'd like to thank all our contributors, testers and users around the world for their support and help making this release possible.
+Help is available, as usual, in many places:
+</p>
+<ul class="bullets"><li>The <a href="http://wiki.videolan.org/Documentation:Documentation/">documentation</a> (we need help keeping it up to date!)</li><li>The <a href=" http://forum.videolan.org">forums</a></li><li>The <a href="http://www.videolan.org/support/lists.html">mailing lists</a></li><li>IRC: #videolan on Freenode</li></ul>
+
+<p>We'd like to thank all our contributors, testers and users around the world for their support and help making this release possible.
 
 |9 October 2008|A problem with Mac OS X PPC 0.9.4 binary|We accidently released the 0.9.3 Mac OS X PowerPC binary as the 0.9.4 download. We apologize for this, and corrected PowerPC and Universal downloads have been uploaded to our main mirror. It will take up to a day for these binaries to be distributed to some of our mirrors. If you want you can download the file <a href="http://download.videolan.org/pub/videolan/vlc/0.9.4/macosx/vlc-0.9.4-powerpc.dmg">directly from our main server</a>.
 

@@ -26,7 +26,7 @@ For tutorials and help on the usage of the Skin Editor turn to the <a href="skin
 </div>
 
 <div id="left">
-  <h2>Download</h2>
+  <h2>Download version <?php echo $latestv; ?></h2>
   <p style="color:#ef2929;">
   This program requires the Java Runtime Environment (JRE) 6 or later.
   If you do not have it, download it at <a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">the Java download page</a>.
@@ -74,10 +74,15 @@ For tutorials and help on the usage of the Skin Editor turn to the <a href="skin
       <div class="c">
         <h1>Development plans</h1>
         <ul class="panel-orange-bullet">
-          <li>Bug finding and fixing</li>          
+          <li>Bug finding and fixing</li>
+          <li><b>version 0.7.5</b>
+            <ul>
+              <li>New layout for msot dialogs that looks better</li>
+              <li>Multi-language support</li>
+            </ul>
+          </li>
           <li><b>version 0.7.*</b>
             <ul>              
-              <li>New Layout for editing dialogs that look better on Linux</li>
               <li>Slider background generating for vertical sliders.</li>
             </ul>
           </li>
@@ -96,4 +101,4 @@ For tutorials and help on the usage of the Skin Editor turn to the <a href="skin
   </div>
  </div> 
 
-<?php footer('$Id: skineditor.php 4823 2008-10-05 18:00 altglass$'); ?>
+<?php footer('$Id: skineditor.php 4885 2008-11-02 14:00 altglass$'); ?>

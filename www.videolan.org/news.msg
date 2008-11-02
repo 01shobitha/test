@@ -73,18 +73,18 @@ So, no donations for work on the Windows-port and no "opportunities"-emails, for
 |21 September 2008|VLC Skin Editor 0.7 release|The VideoLAN Team is pleased to announce the release of VLC Skin Editor 0.7.<br/>
 After more than a year of development finally the first official stable release is there.<br/><br/>
 The Skin Editor enables designers to create skins for VLC without having them to  learn about XML and the internal makeup of skins2.
-It provides an easy-to-use WYIWYG editing interface giving full control over all of the skin's features.|<br/><br/>
+It provides an easy-to-use WYIWYG editing interface giving full control over all of the skin's features.<br/><br/>
 Binary packages for windows, including an installer can be found at <a href="vlc/skineditor.php">the Skin Editor page</a>.
 There can also be found a build for all other operating systems for which exist a Java Runtime Environment 6 SE.<br/><br/>
 We'd like to thank all contributors and testers for having made this release possible.
 
-|17 September 2008|VLC media player at IBC 2008|<a href="http://www.ibc.org">IBC 2008</a> is the 2nd largest conference and exhibition on Broadcasting technology in the world. Though VLC media player does not have a stand (terribly expensive), it is used on many stands by the attending companies. As every year, several of the VLC media player developers were present on the floor and Derk-Jan Hartman made a <a href="http://picasaweb.google.com/d.j.hartman/IBC2008#">photo report</a> showing some of the uses, by companies like: HP, Cisco, Anystream, Fraunhofer, BBC and many smaller companies.|
+|17 September 2008|VLC media player at IBC 2008|<a href="http://www.ibc.org">IBC 2008</a> is the 2nd largest conference and exhibition on Broadcasting technology in the world. Though VLC media player does not have a stand (terribly expensive), it is used on many stands by the attending companies. As every year, several of the VLC media player developers were present on the floor and Derk-Jan Hartman made a <a href="http://picasaweb.google.com/d.j.hartman/IBC2008#">photo report</a> showing some of the uses, by companies like: HP, Cisco, Anystream, Fraunhofer, BBC and many smaller companies.<br />
 It is the industries 'dirty little secret' you could say. Much of the IPTV based work starts by testing the IPTV streams with VLC media player. New features are sometimes even implemented in VLC media player for internal development, and then once it works, the engineers write a new program based on their experiences, which they deliver to their customers. However sometimes VLC media player even makes it into the endproduct. Big name HP clearly <a href="http://picasaweb.google.com/d.j.hartman/IBC2008#5246709674847748114">uses VLC media player in this product of theirs</a>. 
 
 
 |15 September 2008|VLC media player 0.9.2 Grishenko release| The VideoLAN Team is pleased to announce the release of VLC media player 0.9.2 - Grishenko.<br />
 Resulting of 2 years of development, it features many new functionalities, including a new interface for Windows and Linux.<br />
-A <a href="http://wiki.videolan.org/What_is_cool_in_0.9"> comprehensive list of new features</a> can be found on our <a href="http://wiki.videolan.org/">our wiki</a> or by reading the <a href="http://www.videolan.org/developers/vlc/NEWS">release notes</a>.|
+A <a href="http://wiki.videolan.org/What_is_cool_in_0.9"> comprehensive list of new features</a> can be found on our <a href="http://wiki.videolan.org/">our wiki</a> or by reading the <a href="http://www.videolan.org/developers/vlc/NEWS">release notes</a>.<br />
 Binary packages for <a href="vlc/download-windows.html">Windows</a> and <a href="vlc/download-macosx">Mac OS X</a>, as well as source code tarballs are available for download.<br />
 Help is available, as usual, in many places:
 </p>
@@ -204,7 +204,7 @@ after upgrading from a previous version.
 features many improvements including a new VLC cone, new Mac OS X
 wizard and extend controls dialogs, tree playlist skins2 support, HTTP
 interface CGI handling, linux binary codecs loader, UPnP and Bonjour
-service discovery, shoutcast stream forwarding, new languages ...<br />|
+service discovery, shoutcast stream forwarding, new languages ...<br />
 Have a look <a href="http://developers.videolan.org/vlc/NEWS">here</a>
 for the full list of changes.<br />
 Binary packages and the source code are available on the <a href="/vlc/">
@@ -926,11 +926,11 @@ with the different streaming methods (unicast, broadcast,
 multicast), the issue of IPv6, the use of channel tools, Video on
 Demand and the design of a complete solution. It has been written
 by <a href="mailto:marcari@videolan.org">Marc Ariberti</a> and <a
-href="mailto:alexis@videolan.org">Alexis de Lattre</a>.|
+href="mailto:alexis@videolan.org">Alexis de Lattre</a>.
 
 |14 May 2002| Release: vlms 0.2.1| This release adds a few
 convenient options. It is now possible to change the TTL value
-and to make the vlms repeat its playlist.|
+and to make the vlms repeat its playlist.
 
 |13 may 2002| Release: vls 0.3.3 | This new release adds a long
 awaited Windows port for the vls! Get it now from the

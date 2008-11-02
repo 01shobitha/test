@@ -109,7 +109,8 @@ new version.
 
 |24 April 2007| Windows Binaries for VLC 0.8.6b updated | The VLC 0.8.6b Windows binaries seemed to have a few problems with Unicode support and H.264 encoding.<br /> These issues have been fixed on our main FTP and our mirrors will follow soon.<br /> Sorry for the disturbance.
 
-|19 April 2007| Release VLC 0.8.6b media player | From the feedback we have had so far on the latest version of VLC media player, 0.8.6a, we are proud to introduce a new bugfix release, namely 0.8.6b, aimed at fixing some annoying bugs. But with a few improvements too. <br /> It includes a new teletext subtitles decoder, new flash video decoders and Mac OS X interface improvements. It fixes many crashes, especially during fullscreen on Mac OS X, on Vista and the browser plugin.<br />Have a look <a href="http://wiki.videolan.org/Changelog/0.8.6b">here</a> for the full list of changes.<br />We hope you will enjoy that new version.
+|19 April 2007| Release VLC 0.8.6b media player | From the feedback we have had so far on the latest version of VLC media player, 0.8.6a, we are proud to introduce a new bugfix release, namely 0.8.6b, aimed at fixing some annoying bugs. But with a few improvements too. <br /> It includes a new teletext subtitles decoder, new flash video decoders and Mac OS X interface improvements. It fixes many crashes, especially during fullscreen on Mac OS X, on Vista and the browser plugin.<br />
+Have a look <a href="http://wiki.videolan.org/Changelog/0.8.6b">here</a> for the full list of changes.<br />We hope you will enjoy that new version.
 
 |12 April 2007| Google Summer of Code 2007 (2)| The official applications, selected by VideoLAN and Google, are on <a href="http://code.google.com/soc/videolan/about.html">Google Summer of Code Website</a>. We have been given 7 slots for 46 applications. The choice was very hard, since many students submitted very high quality propositions. We thanks every student, accepted or not, for their application. We wish good luck to all our selected students.
 
@@ -117,7 +118,7 @@ new version.
 
 |4 January 2007| VideoLAN Security Advisory 0701, VLC media player 0.8.6a | VLC media player versions 0.7.0 to 0.8.6 suffer from a Format String security vulnerability in the CDDA and VCDX modules. <a href="http://www.videolan.org/sa0701.html">Refer to our advisory</a> for technical details. An updated release of VLC is available now, which also improves the Fullscreen Controller on Mac OS X. We strongly recommend all users to update to this new version.
 
-|10 December 2006| Release VLC 0.8.6 media player | Building on feedback from the 29 million downloads of VLC media player 0.8.5, we bring you version 0.8.6 with many bugfixes, as well as a couple of new features we think you will truly enjoy. Most prominent are probably Windows Media Video 9 and Flash Video. Other important changes are improved H.264 decoding, better Windows Unicode support, a Fullscreen controller and Apple Remote support for Mac OS X. <br /><b>Note: </b>If you have problems running the Mac OS X Intel version, please download again.|<br />
+|10 December 2006| Release VLC 0.8.6 media player | Building on feedback from the 29 million downloads of VLC media player 0.8.5, we bring you version 0.8.6 with many bugfixes, as well as a couple of new features we think you will truly enjoy. Most prominent are probably Windows Media Video 9 and Flash Video. Other important changes are improved H.264 decoding, better Windows Unicode support, a Fullscreen controller and Apple Remote support for Mac OS X. <br /><b>Note: </b>If you have problems running the Mac OS X Intel version, please download again.<br />
 Have a look <a href="http://developers.videolan.org/vlc/NEWS">here</a> for the full list of changes.<br />
 Binary packages and the source code are available on the <a href="/vlc/">
 VLC download page</a>.<br />
@@ -198,7 +199,9 @@ href="/support/lists.html" >Mailing Lists</a> or on #videolan on
 Freenode. Remember to reset your preferences if you experience problems
 after upgrading from a previous version.
 
-|17 November 2005| Purchase of a Powermac G5| Thanks to the numerous contributions we received from everywhere, we were finally able to buy a second hand dual G5 1.8 GHz.| This will be used to debug sound playback on Powermacs and to host the VLC nightly builds. We particularly wish to thank <a href="http://www.macbidouille.com/">MacBidouille</a> and <a href="http://www.avosmac.com/">à Vos Macs</a> for their important support.
+|17 November 2005| Purchase of a Powermac G5| Thanks to the numerous contributions we received from everywhere,
+we were finally able to buy a second hand dual G5 1.8 GHz.<br />
+This will be used to debug sound playback on Powermacs and to host the VLC nightly builds. We particularly wish to thank <a href="http://www.macbidouille.com/">MacBidouille</a> and <a href="http://www.avosmac.com/">à Vos Macs</a> for their important support.
 
 |15 October 2005| Release: miniSAPserver 0.3.2| This release cumulates fixes for regressions introduced in 0.3.1. You are encouraged to upgrade to this new version: <a href="/streaming/download-sap-server.html">download it here</a>.
 

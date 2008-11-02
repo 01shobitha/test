@@ -3,19 +3,31 @@
 #
 |26 October 2008|End of support for VLC 0.8.6 series|The VideoLAN team ceases all form of support for VLC media player the 0.8.6-bugfix tree.
 
-Due to lack of interest from the developpers community, source code maintenance efforts for the VLC media player 0.8.6-bugfix branch will be stopped. This is effective immediately; there will be no more security and critical fixes for VLC 0.8.6. Binary releases of the 0.8.6-bugfix branch had already stopped as of July 2008.
+After several several call for help,
+it is apparent that there is no interest in the community
+to maintain the 0.8.6 branch of the VLC media player.
+As a consequence, it has not been possible to put sufficient efforts
+to ensure adequate continued quality of the 0.8.6-bugfix branch.
+Effective immediately,
+there will be no more security and critical fixes for VLC 0.8.6.
+Binary releases of the 0.8.6-bugfix branch had already stopped as of July 2008.
 
-The VideoLAN team will continue to provide major or security-related bug fixes for the VLC media player 0.9-bugfix branch. If you have not already upgraded to VLC version 0.9.5, please do so now.
+The VideoLAN team will continue to provide major or security-related bug fixes
+for the VLC media player 0.9-bugfix branch.
+If you have not already upgraded to VLC version 0.9.5, please do so urgently
+(exploits for vulnerabilities found in older versions are widely available
+ as of today).
 
 |24 October 2008|VLC media player 0.9.5|The VideoLAN team is pleased to announce the release of VLC media player 0.9.5.
 
-This is a bugfix release. VLC media player 0.9.4 and earlier versions suffer from security vulnerability in TiVo demuxer. More technical details are available in <a href="http://www.videolan.org/security/sa0809.html">our advisory</a> (CVE-2008-4654, CVE-2008-4686). Also, libpng was updated in Windows and MacOS builds to fix its security issue (CVE-2008-3964).<br />|
+This is a bugfix release. VLC media player 0.9.4 and earlier versions suffer from a security vulnerability in TiVo demuxer. Further technical details are available in <a href="http://www.videolan.org/security/sa0809.html">our advisory</a> (CVE-2008-4654, CVE-2008-4686). Also, libpng was updated in Windows and MacOS builds to address a separate security issue (CVE-2008-3964).<br />
 
-This release also improves media keys support under Windows, file access under all OSes, Qt interface usability as well as fixing few more other bugs. Full list of changes can be found <a href="http://www.videolan.org/developers/vlc/NEWS">here</a>.<br />
+This release also improves media keys support under Windows, file access under all OSes, Qt4 interface usability, and fixes a few extra bugs. Full list of changes can be found <a href="http://www.videolan.org/developers/vlc/NEWS">here</a>.<br />
 
-We strongly recommend all users to update to this new version.<br />
+We utmostly recommend all users upgrade to this new version.<br />
 
-Binary packages for <a href="http://www.videolan.org/vlc/download-macosx.html">Mac OS X</a> and source code tarballs are available for download. Windows binaries might arrive at a later time.<br />
+Binary packages for <a href="http://www.videolan.org/vlc/download-macosx.html">Mac OS X</a> and <a href="http://www.videolan.org/vlc/download-sources.html">source code tarballs</a> are available for download. Windows binary release is indefinitely postponed pending volunteers taking over the Windows port.<br />
+
 Help is available, as usual, in many places: <ul class="bullets"><li>The <a href="http://wiki.videolan.org/Documentation:Documentation/">documentation</a> (we need help keeping it up to date!)</li><li>The <a href=" http://forum.videolan.org">forums</a></li><li>The <a href="http://www.videolan.org/support/lists.html">mailing lists</a></li><li>IRC: #videolan on Freenode</li></ul><br/>
 We'd like to thank all our contributors, testers and users around the world for their support and help making this release possible.
 

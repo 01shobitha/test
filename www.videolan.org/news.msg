@@ -1,6 +1,10 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|30 October 2008|VLC media player wins tim Award|<img src=http://www.videolan.org/images/tim_award_2008.jpg alt="tim Award" width="100"> On 30 October 2008 VLC media player won a "tim Award" in category "Multimedia Software" at a PC-WELT event. The awards were announced during a gala diner at 'Bayerische Hof" in Munich. Two famous german TV presenters hosted the event. The VideoLAN team is very honored by winning this award and want to thank its user base for giving us this token of your appreciation. VLC media player could not have won this award without the support and dedication of its users and Open Source developers.
+
+Read more about the event on <a href=http://www.pcwelt.de/start/computer/allgmein/187047/pc_welt_ehrt_top_produkte_mit_dem_tim_award/>PC-WELT</a> website.
+
 |26 October 2008|End of support for VLC 0.8.6 series|The VideoLAN team ceases all form of support for VLC media player the 0.8.6-bugfix tree.
 
 After several several call for help,

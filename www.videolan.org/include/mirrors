@@ -97,7 +97,12 @@ http://mirror.nexcast.net/vlc/|Nexcast|USA|us|HTTP|100
 http://mirror.beyondi.org/vlc/|Beyond !nnovation|USA|us|HTTP|100
 #
 # Location: Ireland
-# Connectio: 10000
+# Connection: 10000
 # mirrors ___ ___ heanet.ie
 # Same for FTP exists.
 http://ftp.heanet.ie/pub/videolan/|HEAnet|Ireland|ie|HTTP|2000
+#
+# Location: GB
+# Connection: 100Mb/S
+# will 47 netmindz . net
+http://videolan.netmindz.net/|Netmindz.net|Uninted Kingdom|gb|HTTP|100

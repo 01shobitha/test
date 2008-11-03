@@ -11,39 +11,57 @@
 
 <h1>VLC media player for <a href="http://fedoraproject.org/">Fedora</a></h1>
 
-<p>Most of our packages for fedora can be found on livna <a href="http://rpm.livna.org/">RPM - LIVNA</a><br />
+<p>Most of our packages for fedora can be found on RPM Fusion <a href="http://rpmfusion.org/">RPM Fusion</a><br />
 You can also use this repository from distribution derived from <a href="http://fedoraproject.org/">Fedora</a>
 
-<p>Please report "packaging bugs" on <a href="http://bugzilla.livna.org/">Bugzilla - LIVNA</a></p>
+<p>Please report "packaging bugs" on <a href="http://bugzilla.rpmfusion.org/">Bugzilla - RPM Fusion</a></p>
 
 <p>You can also find an old version we officially support: VLC 0.8.5 for Fedora Core 4.</p>
 
 <h2>Fedora 9</h2>
 
-<p>Use <a href="http://rpm.livna.org/">RPM - LIVNA</a> for F9 (available for x86, x86_64 and ppc)<br />
+<p>Use <a href="http://rpmfusion.org/Configuration/">RPM Fusion</a> for F9 (available for x86, x86_64, ppc and ppc64)<br />
 
-Install <a href="http://rpm.livna.org/livna-release-9.rpm">livna-release-9.rpm</a> for F9</p>
+Install <a href="http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm">rpmfusion-free-release-stable.noarch.rpm</a> for F9</p>
 
 <pre>
     $> su -
-    #> rpm -ivh http://rpm.livna.org/livna-release-9.rpm
+    #> rpm -ivh http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm
     #> yum install vlc
-    #> yum install python-vlc mozilla-vlc (optionnal)
+    #> yum install mozilla-vlc (optionnal)
 </pre>
 
 
 <h2>Fedora 8</h2>
 
-<p>Use <a href="http://rpm.livna.org/">RPM - LIVNA</a> for F8 (available for x86, x86_64 and ppc)<br />
+<p>Use <a href="http://rpmfusion.org/Configuration/">RPM Fusion</a> for F8 (available for x86, x86_64 and ppc)<br />
 
-Install <a href="http://rpm.livna.org/livna-release-8.rpm">livna-release-8.rpm</a> for F8</p>
+Install <a href="http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm">rpmfusion-free-release-stable.noarch.rpm</a> for F8</p>
 
 <pre>
     $> su -
-    #> rpm -ivh http://rpm.livna.org/livna-release-8.rpm
+    #> rpm -ivh http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm
     #> yum install vlc
-    #> yum install python-vlc mozilla-vlc (optionnal)
+    #> yum install python-vlc mozilla-vlc (optionnals)
 </pre>
+
+<h2>Rawhide (The development version of Fedora)</h2>
+
+<p>Use <a href="http://rpmfusion.org/Configuration/">RPM Fusion</a> for Rawhide (available for x86, x86_64 and ppc)<br />
+
+Install <a href="http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-rawhide.noarch.rpm">rpmfusion-free-release-rawhide.noarch.rpm</a> for Rawhide</p>
+
+<pre>
+    $> su -
+    #> rpm -ivh http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-rawhide.noarch.rpm 
+    #> yum install vlc
+    #> yum install mozilla-vlc (optionnal)
+</pre>
+
+<h1>VLC media player for (older) <a href="http://fedoraproject.org/">Fedora</a></h1>
+<p>Older version of Fedora are not supported anymore by the <a href="http://fedoraproject.org/">Fedora Project</a> (even for security bugfix).<br />
+
+<b>BUT</b>, you can find VLC 0.8.6 for all the other flavours of fedora:</p>
 
 <h2>Fedora 7</h2>
 
@@ -70,11 +88,6 @@ Install <a href="http://rpm.livna.org/livna-release-6.rpm">livna-release-6.rpm</
     #> yum install vlc
     #> yum install python-vlc mozilla-vlc (optionnal)
 </pre>
-
-<h1>VLC media player for (older) <a href="http://fedoraproject.org/">Fedora</a></h1>
-<p>Older version of Fedora are not supported anymore by the <a href="http://fedoraproject.org/">Fedora Project</a> (even for security bugfix).<br />
-
-<b>BUT</b>, you can find VLC 0.8.6 for all the other flavours of fedora:</p>
 
 <h2>Fedora Core 4 and 5</h2>
 <p>For those two versions, VLC 0.8.6 is not available. You can have 0.8.5 here 

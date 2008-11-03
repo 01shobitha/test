@@ -95,3 +95,9 @@ http://mirror.nexcast.net/vlc/|Nexcast|USA|us|HTTP|100
 # Connection: 1000
 # shadowz shadowz __A__ beyond-innovation d0t org
 http://mirror.beyondi.org/vlc/|Beyond !nnovation|USA|us|HTTP|100
+#
+# Location: Ireland
+# Connectio: 10000
+# mirrors ___ ___ heanet.ie
+# Same for FTP exists.
+http://ftp.heanet.ie/pub/videolan/|HEAnet|Ireland|ie|HTTP|2000

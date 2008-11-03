@@ -100,9 +100,9 @@ http://mirror.beyondi.org/vlc/|Beyond !nnovation|USA|us|HTTP|100
 # Connection: 10000
 # mirrors ___ ___ heanet.ie
 # Same for FTP exists.
-http://ftp.heanet.ie/pub/videolan/|HEAnet|Ireland|ie|HTTP|2000
+http://ftp.heanet.ie/pub/videolan/|HEAnet|Ireland|ie|HTTP|4000
 #
 # Location: GB
 # Connection: 100Mb/S
 # will 47 netmindz . net
-http://videolan.netmindz.net/|Netmindz.net|Uninted Kingdom|gb|HTTP|100
+http://videolan.netmindz.net/|Netmindz.net|United Kingdom|gb|HTTP|100

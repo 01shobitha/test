@@ -1,16 +1,41 @@
 <?php
-   $title = "VideoLAN Security Advisories";
+   $title = "VideoLAN security informations";
    $lang = "en";
    $menu = array( "vlc" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-<h1>VideoLAN Security Advisories </h1>
 <div id="left">
+
+<h1>Security contacts</h1>
+
+<p> These are the current security contacts for the VideoLAN project:
+</p>
+<dl>
+<dt>R&eacute;mi Denis-Courmont</dt>
+<dd>rem at videolan dot org
+<pre>
+pub   1024D/DD6D12BD 2004-01-09
+      Key fingerprint = 9480 5833 53E3 34D2 F03F  E80C C3EC 6DBE DD6D 12BD
+</pre>
+</dd>
+<dt>Christophe Mutricy</dt>
+<dd>xtophe at videolan dot org
+<pre>
+pub   1024D/73FAAFF8 2005-10-19
+      Key fingerprint = 08F4 FFC1 0E7C AFFE 8AEC  6A06 2D7B 9A08 73FA AFF8
+</pre>
+</dd>
+</dl>
+
+<h1>Past security advisories</h1>
 
 <h2>2008</h2>
 
 <dl>
+<dt>VideoLAN-SA-0810 (CVE unassigned)</dt>
+<dt>Multiple overflows in VLC demuxers. <a href="sa0810.html">Details</a>
+</dt>
 <dt>VideoLAN-SA-0809 (CVE-2008-4654, CVE-2008-4686)</dt>
 <dd>Buffer overflow in VLC TiVo demuxer. <a href="sa0809.html">Details</a>
 </dd>

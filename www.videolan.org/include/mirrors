@@ -14,14 +14,14 @@ http://downloads.videolan.org/pub/videolan/|VideoLAN primary mirror|France|fr|HT
 #http://mirrors.ircam.fr/pub/videolan/|IRCAM|France|fr|HTTP|1000
 #
 # Contact : Emmanuel dot Blindauer at urs dot u-strasbg dot fr - BW : 1 GBit
-#ftp://ftp.u-strasbg.fr/pub/videolan/|Université de Strasbourg|France|fr|FTP|1000
+ftp://ftp.u-strasbg.fr/pub/videolan/|Université de Strasbourg|France|fr|FTP|1000
 #
 # Durga - Contact VIA - 30 Mbit
 #http://ftp2.via.ecp.fr/pub/videolan/|VIA Centrale Reseaux, École Centrale Paris|France|fr|HTTP|30
 #
 # Contact: #crans on irc.rezosup.net - 
 # Contact: roots at crans dot org
-#ftp://ftp.crans.org/pub/videolan/|Cr@ns, ENS Cachan|France|fr|FTP|100
+ftp://ftp.crans.org/pub/videolan/|Cr@ns, ENS Cachan|France|fr|FTP|100
 #
 # Contact : hsunchang at gmail dot com
 #ftp://videolan.cs.pu.edu.tw/others/VideoLAN/|Providence University|Taiwan|tw|FTP|100

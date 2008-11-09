@@ -1,6 +1,13 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|06 November 2008|VLC media player 0.9.6|The VideoLAN team is pleased to announce the release of VLC media player 0.9.6.
+
+This is a bugfix release. VLC media player 0.9.6 and earlier versions suffer from a security vulnerability in CUE and Realtext subtitle demuxer. Further technical details are available in <a href="http://www.videolan.org/security/sa0810.html">our advisory</a>.<br />
+
+We recommend all users upgrade to this new version.<br />
+
+
 |30 October 2008|VLC media player wins tim Award|
 <img src="http://www.videolan.org/images/tim_award_2008_small.jpg" alt="tim Award" width="100" />
 On 30 October 2008 VLC media player won a &quot;tim Award&quot;

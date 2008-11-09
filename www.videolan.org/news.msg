@@ -2,7 +2,7 @@
 # New topics begin with a "|"
 #
 |30 October 2008|VLC media player wins tim Award|
-<img src="http://www.videolan.org/images/tim_award_2008.jpg" alt="tim Award" width="100" />
+<img src="http://www.videolan.org/images/tim_award_2008_small.jpg" alt="tim Award" width="100" />
 On 30 October 2008 VLC media player won a &quot;tim Award&quot;
 in category &quot;Multimedia Software&quot; at a PC-WELT event.
 The awards were announced during a gala diner at &quot;Bayerische Hof&quot;

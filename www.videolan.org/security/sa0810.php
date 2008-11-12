@@ -13,7 +13,7 @@ Summary           : Buffer overflows in VLC RealText and CUE demuxers
 Date              : November 2008
 Affected versions : VLC media player 0.9.5 down to 0.5.0
 ID                : VideoLAN-SA-0810
-CVE reference     : CVE-2008-xxxx, CVE-2008-xxxx
+CVE reference     : CVE-2008-5032, CVE-2008-5036
 </pre>
 <h2>Details</h2>
 <p>When parsing the header of an invalid CUE image file

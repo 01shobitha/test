@@ -105,6 +105,11 @@ http://mirror.beyondi.org/vlc/|Beyond !nnovation|USA|us|HTTP|100
 http://ftp.heanet.ie/pub/videolan/|HEAnet|Ireland|ie|HTTP|4000
 #
 # Location: GB
-# Connection: 100Mb/S
+# Connection: 100Mb/s
 # will 47 netmindz . net
 http://videolan.netmindz.net/|Netmindz.net|United Kingdom|gb|HTTP|100
+#
+# Location: Armenia
+# Connection: 100 Mb/s
+# Vahan Yerkanian <vahan 47 arminco d0t com>
+http://vlc.mirrors.arminco.com/|Arminco|Armenia|am|HTTP|100

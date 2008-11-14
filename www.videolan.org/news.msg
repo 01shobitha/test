@@ -1,6 +1,9 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|14 October 2008|A problem with Windows 0.9.6 binary|The released the 0.9.6 Windows binary can present some issues in the avformat module that can prevent playback of FLV or MXF files. We apologize for this, and corrected the builds accordingly.<br />
+You can download the correctly builds on <a href="http://www.videolan.org/mirror-geo.php?file=vlc/0.9.6/win32/vlc-0.9.6-win32.exe">your favorite mirror</a>.
+
 |06 November 2008|VLC media player 0.9.6|The VideoLAN team is pleased to announce the release of VLC media player 0.9.6.<br />
 
 This is a bugfix release. VLC media player 0.9.5 and earlier versions suffer from a security vulnerability in CUE and Realtext subtitle demuxer. Further technical details are available in <a href="http://www.videolan.org/security/sa0810.html">our advisory</a>.<br />

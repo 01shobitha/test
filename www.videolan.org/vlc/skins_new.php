@@ -22,25 +22,53 @@ if( isset( $_POST["skin_id"] ) && isset( $_POST["rating"] ) )
 
 function AddSkin( $id, $name, $author, $img, $url, $dl, $date, $date_mod, $rating, $count, /*$old_rating, $old_count,*/ $sign, $min_version, $size )
 {
-?>
-<div class="skin" 
-<?php
-  echo "style=\"background-image:url('http://images.videolan.org/vlc/skins2/tm_".$img."')\" ";
-  $canvote = ($_COOKIE["skinrated_$id"] != $id);
-  echo "onclick=\"showSkinBox(".$id.",'".$name."','".$author."','".$date_mod."','".$dl."','".$url."','".FormatSize( $size )."',".$rating.",".$count.",'http://images.videolan.org/vlc/skins2/".$img."',".$canvote.")\"";
-?>
->
-<span class="skin-title-list"><?php echo $name; ?></span>
-</div>
-<?php
+  echo "<div class=\"skin\""; 
+    echo "style=\"background-image:url('http://images.videolan.org/vlc/skins2/tm_".$img."')\" ";
+    $canvote = ($_COOKIE["skinrated_$id"] != $id);
+    echo "onclick=\"showSkinBox(".$id.",'".$name."','".$author."','".$date_mod."','".$dl."','".$url."','".FormatSize( $size )."',".$rating.",".$count.",'http://images.videolan.org/vlc/skins2/".$img."',".$canvote.",'".$min_version."')\"";
+    echo ">";
+      echo "<span class=\"skin-title-list\">".$name."</span>";
+  echo "</div>";
 }
 ?>
 
-<div id="left">
-<h1>Download skins</h1>
+<h1>Skins</h1>
+<table>
+<tr>
+<td style="border:0px">
+  <?php panel_start( "orange" ); ?>
+  <h1>How to use these skins?</h1>
+  <i>Skins do not work on Mac OS X!</i>
+  <p>
+    Put the downloaded VLT files in the following folder:
+    <ul class="panel-orange-bullet">
+      <li>On Windows: the <i>skins</i> folder in the VLC installation directory (e.g. <i>C:\Program Files\VLC\skins</i>)</li>
+      <li>On Linux/Unix: <i>~/share/vlc/skins2</i> or sth <b>please sbd enter correct path here</b></li>
+    </ul>
+    Then open your VLC settings and change your interface from native to skins.
+    You can choose your desired skin already there or change it when you are in the skins mode by rightclicking somewhere on the skin and going to <i>Interface&gt;Choose Skin</i>.<br>
+    VLC needs to be restarted to change to skins mode.
+  </p>
+  <?php panel_end(); ?>
+</td>
+<td style="border:0px">
+  <?php panel_start( "blue" ); ?>
+  <h1>Create your own skin!</h1>
+  <p>If you wish to create your own skin, check out these links:
+    <ul class="panel-blue-bullet">
+      <li><a href="/vlc/skineditor.html">The VLC Skin Editor</a></li>
+      <li><a href="/vlc/skins2-create.html">How skins are made up</a></li>
+      <li><a href="http://forum.videolan.org/viewforum.php?f=15">The skins forum</a></li>
+    </ul>
+  </p>
+  <p>You have made a new skin and want to share it ? Please click  
+  <a href="skins_upload.php">here</a> and fill out the form.<br />As soon as one webmaster has checked it, it will be displayed on this page.</p>
+  <?php panel_end(); ?>
+</td>
+</table>
 
-<h2>Downloads...</h2>
-
+<h2>Downloads</h2>
+<p>Download all the skins at once <a href='download-skins2-go.php?url=vlc-skins.zip'>here</a> (<?php echo $sp_size; ?>).<br />Downloaded <?php echo $sp_dl; ?> times since January 2007. (This pack is updated daily)</p>
 <p>Sort by <a href="?sort=date_mod">last update date</a>, <a href="?sort=date_added">creation date</a>, <a href="?sort=downloads">downloads</a> or <a href="?sort=rating">rating</a>.</p>
 
 <?php
@@ -80,68 +108,5 @@ $sp_size = FormatSize( $r['size'] );
 pg_close( $connect );
 ?>
 
-</div>
 
-<div id="right">
-
-<?php panel_start( "blue" ); ?>
-<h1>Upload your own skin</h1>
-
-<p>You have made a new skin and want to share it ? Please click  
-<a href="skins_upload.php">here</a> and fill out the form.<br />As soon as one webmaster has checked it, it will be displayed on this page.</p>
-<?php panel_end(); ?>
-
-<?php panel_start( "gray" ); ?>
-<h1>Skin pack</h1>
-
-<p>Download all the skins at once <a href='download-skins2-go.php?url=vlc-skins.zip'>here</a> (<?php echo $sp_size; ?>).<br />Downloaded <?php echo $sp_dl; ?> times since January 2007. (This pack is updated daily)</p>
-<?php panel_end(); ?>
-
-<?php panel_start( "orange" ); ?>
-<h1>How to use these skins?</h1>
-
-<p>To launch VLC with the <i>skinned interface</i>:</p>
-<ul class="panel-orange-bullet">
-  <li>Download and install the <a href="/vlc/">latest VLC version</a></li>
-
-  <li>Launch VLC:
-   <ul>
-     <li>Linux users: Launch VLC with the following command-line:
-	    <tt>vlc -I skins2</tt><br />
-     </li>
-     <li>Windows users: Launch VLC using the appropriate shortcut in the Start
-  menu. You can also start VLC from command-line, in a DOS window.</li>
-   </ul>
-   </li>
-   <li>If you don't want to use the default skin, just download another one 
-	here. If you want to have it automatically detected, place it in the skins subfolder of your VLC installation:
-	<ul>
-	<li>Windows users: Put it in <em>C:\Program Files\VideoLAN\VLC\skins</em></li>
-	<li>Linux users: Put it in <em>~/.vlc/skins2</em></li>
-	</ul>
-	In addition to the skins listed below, VLC supports all the Winamp2 
-	and XMMS skins (.wsz files).
-   </li>
-
-  <li>Once VLC is started with the <em>skinned interface</em>,
-     you can use the CTRL+S shortcut to load the new one.
-  Enjoy!</li>
-</ul>
-<p><i>Please note that current releases of VLC do not support Skins on Mac OS X.</i></p>
-<?php panel_end(); ?>
-
-<?php panel_start( "blue" ); ?>
-<h1>Create your own skin!</h1>
-
-<p>If you still don't find any skin you like, why don't you create a better one? Look at the following to get to know how to do that:<br />
-<ul class="panel-blue-bullet">
-  <li><a href="/vlc/skineditor.html">The VLC Skin Editor</a></li>
-  <li><a href="/vlc/skins2-create.html">How skins are made up</a></li>
-</ul>
-Don't worry, you don't need any programming skills... Some knowledge about graphics software
-might ease the job, though.<br />Need more skinning resources? Come join our <a href="http://forum.videolan.org/viewforum.php?f=15">friendly community</a> over at the VideoLAN Forums!</p>
-<?php panel_end(); ?>
-
-</div>
-
-<?php footer('$Id: skins_new.php 4844 2008-10-09 15:20 altglass$'); ?>
+<?php footer('$Id: skins_new.php 4915 2008-11-14 17:30 altglass$'); ?>

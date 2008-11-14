@@ -1,7 +1,7 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
-|14 October 2008|A problem with Windows 0.9.6 binary|The released 0.9.6 Windows binary presents some issues in the avformat module that can prevent playback of FLV or MXF files. We apologize for this, and corrected the builds accordingly.<br />
+|14 November 2008|A problem with Windows 0.9.6 binary|The released 0.9.6 Windows binary presents some issues in the avformat module that can prevent playback of FLV or MXF files. We apologize for this, and corrected the builds accordingly.<br />
 You can download the correctly builds on <a href="http://www.videolan.org/mirror-geo.php?file=vlc/0.9.6/win32/vlc-0.9.6-win32.exe">your favorite mirror</a>.
 
 |06 November 2008|VLC media player 0.9.6|The VideoLAN team is pleased to announce the release of VLC media player 0.9.6.<br />

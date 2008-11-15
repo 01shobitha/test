@@ -68,7 +68,7 @@ $sp_size = FormatSize( $r['size'] );
     Put the downloaded VLT files in the following folder:
     <ul class="panel-orange-bullet">
       <li>On Windows: the <i>skins</i> folder in the VLC installation directory (e.g. <i>C:\Program Files\VLC\skins</i>)</li>
-      <li>On Linux/Unix: <i>~/share/vlc/skins2</i> or sth <b>please sbd enter correct path here</b></li>
+      <li>On Linux/Unix: <i>~/.share/vlc/skins2</i></li>
     </ul>
     Then open your VLC settings and change your interface from native to skins.
     You can choose your desired skin already there or change it when you are in the skins mode by rightclicking somewhere on the skin and going to <i>Interface&gt;Choose Skin</i>.<br>

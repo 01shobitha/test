@@ -45,8 +45,7 @@ function AddSkin( $id, $name, $author, $img, $url, $dl, $date, $date_mod, $ratin
     }
   }
   echo "  </div>\n";
-  echo "</div>";
-  echo
+  echo "</div>\n";
 }
 
 $query = 'SELECT downloads, size FROM skins_pack WHERE id=0';

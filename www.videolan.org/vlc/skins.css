@@ -73,7 +73,7 @@
 #keyboardMsg{ float: right; }
 #closeButton{ top: 5px; right: 5px; }
 
-#skinbox img{ border: none; clear: both;} 
+#skinbox img{ border: none; clear: both; max-width: 900px;} 
 #overlay img{ border: none; }
 
 #overlay{ background-image: url(http://images.videolan.org/images/skinlist/overlay.png); }

@@ -34,7 +34,7 @@ function AddSkin( $id, $name, $author, $img, $url, $dl, $date, $date_mod, $ratin
   echo " onclick=\"showSkinBox(".$id.",'".$name."','".$author."','".$date_mod."','".$dl."','".$url."','".FormatSize( $size )."',".$rating.",".$count.",'http://images.videolan.org/vlc/skins2/".$img."','".$canvote."','".$min_version."')\"";
   echo ">\n";
   echo "  <div class=\"skin-container-title\">".$name."</div>\n";
-  echo "  <img src=\"http://images.videolan.org/vlc/skins2/tm_".$img."\" alt=\"".$name."\">\n";
+  echo "  <img src=\"http://images.videolan.org/vlc/skins2/tm_".$img."\" alt=\"".$name."\"/>\n";
   echo "  <div class=\"skin-container-rating\">";
   if( $rating == -1 ) {
     echo "Not rated";
@@ -58,40 +58,42 @@ $sp_size = FormatSize( $r['size'] );
 ?>
 
 <h1>Skins</h1>
+<noscript>
 <table>
 <tr>
-<td style="border:0px">
-  <?php panel_start( "orange" ); ?>
-  <h1>How to use these skins?</h1>
-  <i>Skins do not work on Mac OS X!</i>
-  <p>
-    Put the downloaded VLT files in the following folder:
-    <ul class="panel-orange-bullet">
-      <li>On Windows: the <i>skins</i> folder in the VLC installation directory (e.g. <i>C:\Program Files\VLC\skins</i>)</li>
-      <li>On Linux/Unix: <i>~/.share/vlc/skins2</i></li>
-    </ul>
-    Then open your VLC settings and change your interface from native to skins.
-    You can choose your desired skin already there or change it when you are in the skins mode by rightclicking somewhere on the skin and going to <i>Interface&gt;Choose Skin</i>.<br>
-    VLC needs to be restarted to change to skins mode.
-  </p>
-  <?php panel_end(); ?>
-</td>
-<td style="border:0px">
-  <?php panel_start( "blue" ); ?>
-  <h1>Create your own skin!</h1>
-  <p>If you wish to create your own skin, check out these links:
-    <ul class="panel-blue-bullet">
-      <li><a href="/vlc/skineditor.html">The VLC Skin Editor</a></li>
-      <li><a href="/vlc/skins2-create.html">How skins are made up</a></li>
-      <li><a href="http://forum.videolan.org/viewforum.php?f=15">The skins forum</a></li>
-    </ul>
-  </p>
-  <p>You have made a new skin and want to share it ? Please click  
-  <a href="skins_upload.php">here</a> and fill out the form.<br />As soon as one webmaster has checked it, it will be displayed on this page.</p>
-  <?php panel_end(); ?>
-</td>
+  <td style="border:0px">
+    <?php panel_start( "orange" ); ?>
+    <h1>How to use these skins?</h1>
+    <i>Skins do not work on Mac OS X!</i>
+    <p>
+      Put the downloaded VLT files in the following folder:
+      <ul class="panel-orange-bullet">
+        <li>On Windows: the <i>skins</i> folder in the VLC installation directory (e.g. <i>C:\Program Files\VLC\skins</i>)</li>
+        <li>On Linux/Unix: <i>~/.share/vlc/skins2</i></li>
+      </ul>
+      Then open your VLC settings and change your interface from native to skins.
+      You can choose your desired skin already there or change it when you are in the skins mode by rightclicking somewhere on the skin and going to <i>Interface&gt;Choose Skin</i>.<br/>
+      VLC needs to be restarted to change to skins mode.
+    </p>
+    <?php panel_end(); ?>
+  </td>
+  <td style="border:0px">
+    <?php panel_start( "blue" ); ?>
+    <h1>Create your own skin!</h1>
+    <p>If you wish to create your own skin, check out these links:
+      <ul class="panel-blue-bullet">
+        <li><a href="/vlc/skineditor.html">The VLC Skin Editor</a></li>
+        <li><a href="/vlc/skins2-create.html">How skins are made up</a></li>
+        <li><a href="http://forum.videolan.org/viewforum.php?f=15">The skins forum</a></li>
+      </ul>
+    </p>
+    <p>You have made a new skin and want to share it ? Please click  
+    <a href="skins_upload.php">here</a> and fill out the form.<br />As soon as one webmaster has checked it, it will be displayed on this page.</p>
+    <?php panel_end(); ?>
+  </td>
+</tr>
 </table>
-
+</noscript>
 <h2>Downloads</h2>
 <p>Download all the skins at once <a href='download-skins2-go.php?url=vlc-skins.zip'>here</a> (<?php echo $sp_size; ?>).<br />Downloaded <?php echo $sp_dl; ?> times since January 2007. (This pack is updated daily)</p>
 <p>Sort by <a href="?sort=date_mod">last update date</a>, <a href="?sort=date_added">creation date</a>, <a href="?sort=downloads">downloads</a> or <a href="?sort=rating">rating</a>.</p>

@@ -1,11 +1,14 @@
 /********************* Skins list *************************/
 
 .skin-container {
+	cursor:pointer;
+    float:left;
 	position:relative;
 	background:url(http://images.videolan.org/images/panel-skin.gif) no-repeat top;
 	width:200px;
 	height:200px;
 	text-align:center;
+	margin:5px;
 }
 
 .skin-container img {

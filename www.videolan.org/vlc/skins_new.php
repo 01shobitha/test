@@ -29,8 +29,9 @@ function AddSkin( $id, $name, $author, $img, $url, $dl, $date, $date_mod, $ratin
     echo ">";
       echo "<span class=\"skin-title-list\">".$name."</span>";
   echo "</div>";*/
+  $canvote = ($_COOKIE["skinrated_$id"] != $id);
   echo "<div class=\"skin-container\"";
-  echo " onclick=\"showSkinBox(".$id.",'".$name."','".$author."','".$date_mod."','".$dl."','".$url."','".FormatSize( $size )."',".$rating.",".$count.",'http://images.videolan.org/vlc/skins2/".$img."',".$canvote.",'".$min_version."')\"";
+  echo " onclick=\"showSkinBox(".$id.",'".$name."','".$author."','".$date_mod."','".$dl."','".$url."','".FormatSize( $size )."',".$rating.",".$count.",'http://images.videolan.org/vlc/skins2/".$img."','".$canvote."','".$min_version."')\"";
   echo ">\n";
   echo "  <div class=\"skin-container-title\">".$name."</div>\n";
   echo "  <img src=\"http://images.videolan.org/vlc/skins2/tm_".$img."\" alt=\"".$name."\">\n";
@@ -128,4 +129,4 @@ pg_close( $connect );
 ?>
 
 
-<?php footer('$Id: skins_new.php 4916 2008-11-15 17:50 altglass$'); ?>
+<?php footer('$Id: skins_new.php 4927 2008-11-15 17:50 altglass$'); ?>

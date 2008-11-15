@@ -128,4 +128,4 @@ pg_close( $connect );
 ?>
 
 
-<?php footer('$Id: skins_new.php 4927 2008-11-15 17:50 altglass$'); ?>
+<?php footer('$Id: skins_new.php 4935 2008-11-15 20:05 altglass$'); ?>

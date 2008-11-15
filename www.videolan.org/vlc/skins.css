@@ -1,5 +1,37 @@
 /********************* Skins list *************************/
 
+.skin-container {
+	position:relative;
+	background:url(http://images.videolan.org/images/panel-skin.gif) no-repeat top;
+	width:200px;
+	height:200px;
+	text-align:center;
+}
+
+.skin-container img {
+	max-width:200px;
+	max-height: 159px;
+}
+
+.skin-container-title{
+	background:url(http://images.videolan.org/images/panel-skin-dark.gif) no-repeat top;
+	text-align:center;
+	width:200px;
+	height:20px;
+	overflow:hidden;
+}
+
+.skin-container-rating {
+	background:url(http://images.videolan.org/images/panel-skin-dark.gif) no-repeat bottom;
+	text-align:center;
+	width:200px;
+	height:21px;
+	overflow:hidden;	
+	position:absolute;
+	left:0px;
+	bottom:0px;
+}
+
 .skin {
 	/*display: inline-block;*/
 	display: inline;

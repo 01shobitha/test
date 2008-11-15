@@ -19,17 +19,42 @@ if( isset( $_POST["skin_id"] ) && isset( $_POST["rating"] ) )
 
  $enable_skinbox = true;
  require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
-
+ 
 function AddSkin( $id, $name, $author, $img, $url, $dl, $date, $date_mod, $rating, $count, /*$old_rating, $old_count,*/ $sign, $min_version, $size )
 {
-  echo "<div class=\"skin\""; 
+  /*echo "<div class=\"skin\""; 
     echo "style=\"background-image:url('http://images.videolan.org/vlc/skins2/tm_".$img."')\" ";
     $canvote = ($_COOKIE["skinrated_$id"] != $id);
     echo "onclick=\"showSkinBox(".$id.",'".$name."','".$author."','".$date_mod."','".$dl."','".$url."','".FormatSize( $size )."',".$rating.",".$count.",'http://images.videolan.org/vlc/skins2/".$img."',".$canvote.",'".$min_version."')\"";
     echo ">";
       echo "<span class=\"skin-title-list\">".$name."</span>";
+  echo "</div>";*/
+  echo "<div class=\"skin-container\"";
+  echo " onclick=\"showSkinBox(".$id.",'".$name."','".$author."','".$date_mod."','".$dl."','".$url."','".FormatSize( $size )."',".$rating.",".$count.",'http://images.videolan.org/vlc/skins2/".$img."',".$canvote.",'".$min_version."')\"";
+  echo ">\n";
+  echo "  <div class=\"skin-container-title\">".$name."</div>\n";
+  echo "  <img src=\"http://images.videolan.org/vlc/skins2/tm_".$img."\" alt=\"".$name."\">\n";
+  echo "  <div class=\"skin-container-rating\">";
+  if( $rating == -1 ) {
+    echo "Not rated";
+  }
+  else {
+    for( $i=0; $i<5; $i++ ) {
+      $v = round(min(1,max(0,$rating-$i)),1)*10;
+      echo "<img alt='".($v>0?'+':'-')."' src='http://images.videolan.org/vlc/skins2/cone-$v.png' />";
+    }
+  }
+  echo "  </div>\n";
   echo "</div>";
+  echo
 }
+
+$query = 'SELECT downloads, size FROM skins_pack WHERE id=0';
+$q = pg_query( $connect, $query );
+$r = pg_fetch_array( $q );
+$sp_dl = $r['downloads'];
+$sp_size = FormatSize( $r['size'] );
+
 ?>
 
 <h1>Skins</h1>
@@ -100,13 +125,8 @@ while( $r = pg_fetch_array( $q ) )
            $r['avg'], $r['count'], /*$r['avg_old'], $r['count_old'],*/
            0/*$r['sign']*/, $r['min_version'], $r['size'] );
 }
-$query = 'SELECT downloads, size FROM skins_pack WHERE id=0';
-$q = pg_query( $connect, $query );
-$r = pg_fetch_array( $q );
-$sp_dl = $r['downloads'];
-$sp_size = FormatSize( $r['size'] );
 pg_close( $connect );
 ?>
 
 
-<?php footer('$Id: skins_new.php 4915 2008-11-14 17:30 altglass$'); ?>
+<?php footer('$Id: skins_new.php 4916 2008-11-15 17:50 altglass$'); ?>

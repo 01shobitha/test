@@ -83,7 +83,7 @@ function getPageSize(){
 //
 // Shows the skin details
 //
-function showSkinBox(id, name, author, date, downloads, file, size, rating, votes, screenshot, canvote) { 
+function showSkinBox(id, name, author, date, downloads, file, size, rating, votes, screenshot, canvote, minv) { 
 
   // prep objects
 	var objOverlay = document.getElementById('overlay');
@@ -126,7 +126,8 @@ function showSkinBox(id, name, author, date, downloads, file, size, rating, vote
 
 		objSkinBoxDetails.style.width = imgPreload.width + 'px';
 		    
-    caption = "<span class=\"skin-title\">"+name+"</span> by "+author+" - <span class=\"skin-date\">Last updated on "+date+"</span><br>";    
+    caption  = "<span class=\"skin-title\">"+name+"</span> by "+author+" - <span class=\"skin-date\">Last updated on "+date+"</span><br>"; 
+    caption += "<i>Requires VLC "+minv+" or later</i><br>";
     caption += "<a class=\"skin-dl\" href=\"download-skins2-go.php?url="+file+"\">Download</a> ("+size+") - <span class=\"skin-dls\">"+downloads+" Downloads</span><br>";
     caption += "<br>Rating: ";
         

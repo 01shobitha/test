@@ -58,14 +58,13 @@ $sp_size = FormatSize( $r['size'] );
 ?>
 
 <h1>Skins</h1>
-<noscript>This page requires that you enable JavaScript.</noscript>
 <table>
 <tr>
   <td style="border:0px">
     <?php panel_start( "orange" ); ?>
     <h1>How to use these skins?</h1>
     <i>Skins do not work on Mac OS X!</i>    
-      Put the downloaded VLT files in the following folder:<br>
+      Put the downloaded VLT files in the following folder:<br/>
       <ul class="panel-orange-bullet">
         <li>On Windows: the <i>skins</i> folder in the VLC installation directory (e.g. <i>C:\Program Files\VLC\skins</i>)</li>
         <li>On Linux/Unix: <i>~/.share/vlc/skins2</i></li>
@@ -78,14 +77,16 @@ $sp_size = FormatSize( $r['size'] );
   <td style="border:0px">
     <?php panel_start( "blue" ); ?>
     <h1>Create your own skin!</h1>
-    If you wish to create your own skin, check out these links:<br>
+    If you wish to create your own skin, check out these links:<br/>
       <ul class="panel-blue-bullet">
         <li><a href="/vlc/skineditor.html">The VLC Skin Editor</a></li>
         <li><a href="/vlc/skins2-create.html">How skins are made up</a></li>
         <li><a href="http://forum.videolan.org/viewforum.php?f=15">The skins forum</a></li>
       </ul>    
-    <p>You have made a new skin and want to share it ? Please click  
-    <a href="skins_upload.php">here</a> and fill out the form.<br />As soon as one webmaster has checked it, it will be displayed on this page.</p>
+    <p>
+    You have made a new skin and want to share it ? Please click  
+    <a href="skins_upload.php">here</a> and fill out the form.<br/>As soon as one webmaster has checked it, it will be displayed on this page.
+    </p>
     <?php panel_end(); ?>
   </td>
 </tr>

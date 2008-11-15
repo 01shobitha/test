@@ -58,37 +58,32 @@ $sp_size = FormatSize( $r['size'] );
 ?>
 
 <h1>Skins</h1>
-<noscript>
-<span style="font-size:50px;color:red">This page requires that you enable JavaScript.</span>
-</noscript>
+<noscript>This page requires that you enable JavaScript.</noscript>
 <table>
 <tr>
   <td style="border:0px">
     <?php panel_start( "orange" ); ?>
     <h1>How to use these skins?</h1>
-    <i>Skins do not work on Mac OS X!</i>
-    <p>
-      Put the downloaded VLT files in the following folder:
+    <i>Skins do not work on Mac OS X!</i>    
+      Put the downloaded VLT files in the following folder:<br>
       <ul class="panel-orange-bullet">
         <li>On Windows: the <i>skins</i> folder in the VLC installation directory (e.g. <i>C:\Program Files\VLC\skins</i>)</li>
         <li>On Linux/Unix: <i>~/.share/vlc/skins2</i></li>
       </ul>
       Then open your VLC settings and change your interface from native to skins.
       You can choose your desired skin already there or change it when you are in the skins mode by rightclicking somewhere on the skin and going to <i>Interface&gt;Choose Skin</i>.<br/>
-      VLC needs to be restarted to change to skins mode.
-    </p>
+      VLC needs to be restarted to change to skins mode.    
     <?php panel_end(); ?>
   </td>
   <td style="border:0px">
     <?php panel_start( "blue" ); ?>
     <h1>Create your own skin!</h1>
-    <p>If you wish to create your own skin, check out these links:
+    If you wish to create your own skin, check out these links:<br>
       <ul class="panel-blue-bullet">
         <li><a href="/vlc/skineditor.html">The VLC Skin Editor</a></li>
         <li><a href="/vlc/skins2-create.html">How skins are made up</a></li>
         <li><a href="http://forum.videolan.org/viewforum.php?f=15">The skins forum</a></li>
-      </ul>
-    </p>
+      </ul>    
     <p>You have made a new skin and want to share it ? Please click  
     <a href="skins_upload.php">here</a> and fill out the form.<br />As soon as one webmaster has checked it, it will be displayed on this page.</p>
     <?php panel_end(); ?>
@@ -123,7 +118,7 @@ switch( $sort )
 $q = pg_query( $connect, $query );
 while( $r = pg_fetch_array( $q ) )
 {
-  AddSkin( $r['id'], $r['name'], $r['author'], $r['image'],
+  AddSkin( $r['id'], htmlspecialchars($r['name']), htmlspecialchars($r['author']), $r['image'],
            $r['url'], $r['downloads'], $r['date_added'], $r['date_modified'],
            $r['avg'], $r['count'], /*$r['avg_old'], $r['count_old'],*/
            0/*$r['sign']*/, $r['min_version'], $r['size'] );

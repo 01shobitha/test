@@ -17,7 +17,7 @@
 }
 
 .skin-container-title{
-	background:url(http://images.videolan.org/images/panel-skin-dark.gif) no-repeat top;
+	background:url(http://images.videolan.org/images/skinlist/panel-skin-dark.gif) no-repeat top;
 	text-align:center;
 	width:200px;
 	height:20px;
@@ -25,7 +25,7 @@
 }
 
 .skin-container-rating {
-	background:url(http://images.videolan.org/images/panel-skin-dark.gif) no-repeat bottom;
+	background:url(http://images.videolan.org/images/skinlist/panel-skin-dark.gif) no-repeat bottom;
 	text-align:center;
 	width:200px;
 	height:21px;

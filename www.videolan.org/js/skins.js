@@ -113,18 +113,23 @@ function showSkinBox(id, name, author, date, downloads, file, size, rating, vote
 	imgPreload = new Image();
 
 	imgPreload.onload=function(){
+    wd = imgPreload.width;
+    if(wd>900) wd = 900;
+    ht = imgPreload.height;
+    //if(ht>700) ht = 700;
+  
   
 		objImage.src = screenshot;
 
 		// center skinbox and make sure that the top and left values are not negative
 		// and the image placed outside the viewport
-		var skinboxTop = arrayPageScroll[1] + ((arrayPageSize[3] - 35 - imgPreload.height) / 2);
-		var skinboxLeft = ((arrayPageSize[0] - 20 - imgPreload.width) / 2);
+		var skinboxTop = arrayPageScroll[1] + ((arrayPageSize[3] - 35 - ht) / 2);
+		var skinboxLeft = ((arrayPageSize[0] - 20 - wd) / 2);
 		
 		objSkinBox.style.top = (skinboxTop < 0) ? "0px" : skinboxTop + "px";
 		objSkinBox.style.left = (skinboxLeft < 0) ? "0px" : skinboxLeft + "px";
-
-		objSkinBoxDetails.style.width = imgPreload.width + 'px';
+    
+		objSkinBoxDetails.style.width = wd + 'px';
 		    
     caption  = "<span class=\"skin-title\">"+name+"</span> by "+author+" - <span class=\"skin-date\">Last updated on "+date+"</span><br>"; 
     caption += "<i>Requires VLC "+minv+" or later</i><br>";

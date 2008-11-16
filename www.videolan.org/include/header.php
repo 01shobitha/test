@@ -140,7 +140,7 @@ function footer($tag) {
 	</div> <!-- MAINCONTENT -->
 </div> <!-- PAGECONTAINER -->
 <div id="footer">
-  <p> <a href="/">VideoLAN</a> &nbsp;-&nbsp;
+  <p> <a href="/">VideoLAN</a> &nbsp;-&nbsp;<a href="/team">Contact</a>&nbsp;-&nbsp;
       See the
      <a href="http://www.videolan.org/stats">statistics</a>
      &nbsp;-&nbsp; <?php echo $tag; ?>

@@ -170,6 +170,7 @@ RewriteRule ^freedvd.html$ /removed/freedvd.html [R=permanent,L]
 
 #typos
 RewriteRule ^vic(.*)$ /vlc$1 [R=permanent,L]
+RewriteRule ^VLC(.*)$ /vlc$1 [R=permanent,L]
 
 # We get many 404 for this one
 Redirect permanent debian/ http://www.videolan.org

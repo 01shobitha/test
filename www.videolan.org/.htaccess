@@ -30,6 +30,7 @@ RewriteRule ^team.html$ /team/index.html [R=permanent,L]
 
 # Support
 RewriteRule ^lists.html$ /support/lists.html [R=permanent,L]
+RewriteRule ^vlc/lists.html$ /support/lists.html [R=permanent,L]
 RewriteRule ^support/consultants(.*)$ /partners.html [R=permanent,L]
 RewriteRule ^support/irc(.*)$ /support/index.html [R=permanent,L]
 RewriteRule ^irc(.*)$ /support/index.html [R=permanent,L]
@@ -76,6 +77,7 @@ RewriteRule ^vlc/windows.html$ /vlc/features.html [R=permanent,L]
 RewriteRule ^streaming/features.html$ /streaming-features.html [R=permanent,L]
 
 # Skins
+RewriteRule ^download-skins2-go.php /vlc/download-skins2-go.php [R=permanent,L]
 RewriteRule ^vlc/skins.html$ /vlc/skins.php [R=permanent,L]
 RewriteRule ^vlc/download-skins2\..*$ /vlc/skins.php [R=permanent,L]
 RewriteRule ^vlc/skins-(.*)$ /vlc/skins.php [R=permanent,L]

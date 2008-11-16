@@ -1,6 +1,7 @@
 #####################################################################
 # Miscellaneous configuration
 #####################################################################
+
 AddType application/octet-stream .dmg
 AddType application/octet-stream .rpm
 AddType application/octet-stream .ipk
@@ -151,6 +152,7 @@ RewriteRule ^images/cone-soppera(.*)$ images/goodies/cone-soppera$1 [R=permanent
 ############### Security advisories ######################
 
 RewriteRule ^sa(.*).html$ /security/sa$1.html [R=permanent,L]
+RewriteRule /patches/ /security/patches/
 
 ##################### Unsorted misc stuff ####################
 

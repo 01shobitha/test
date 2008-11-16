@@ -11,6 +11,7 @@ ErrorDocument 404 /404.html
 
 RewriteEngine on
 RewriteRule \.svn /404.html [L]
+RewriteRule removed/ /403.html
 
 Redirect /videos http://download2.videolan.org/videos
 

@@ -40,6 +40,8 @@ RewriteRule ^vlc/bug-reporting.html$ /support/bug-reporting.html [R=permanent,L]
 # Contribute
 RewriteRule ^project/contribute.html$ /contribute.html [R=permanent,L]
 
+# Press
+RewriteRule ^pr2(.*)$ /press/2$1 [R=permanent,L]
 
 #################### VLC ###########################
 

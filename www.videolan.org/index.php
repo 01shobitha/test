@@ -17,7 +17,9 @@
   href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">General Public
   License</a>.<br />
   <a href="/project">Learn more</a> about the VideoLAN project.</p>
-  <p>Our main product is the cross-platform VLC media player.</p>
+  <p>Our main software is the cross-platform <a href="/vlc/">VLC media player<a>.</p>
+  <p>We are also hosting <a href="/developers/x264.html">x264</a> and other
+  <a href="/project/"> projects</a>.</p>
 
   <h2>About VLC media player</h2>
   <p> VLC media player is a highly portable

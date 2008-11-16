@@ -152,7 +152,7 @@ RewriteRule ^images/cone-soppera(.*)$ images/goodies/cone-soppera$1 [R=permanent
 ############### Security advisories ######################
 
 RewriteRule ^sa(.*).html$ /security/sa$1.html [R=permanent,L]
-RewriteRule /patches/ /security/patches/
+Redirect permanent /patches http://www.videolan.org/security/patches
 
 ##################### Unsorted misc stuff ####################
 

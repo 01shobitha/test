@@ -250,6 +250,6 @@ StartHtml( ereg_replace( "<[^>]*>" , "" , $title ) , $enable_live, $enable_map, 
 	</div>
 </div>
 
-<div id="temp_april" style="margin-top: 6px;"><a href="http://www.april.org/adherer"><img src="/images/campagne-adhesion-videolan.png" alt="Support April" /> </a></div>
+<div id="temp_april" style="margin-top: 6px;"><a href="http://www.april.org/adherer?referent=VideoLAN"><img src="/images/campagne-adhesion-videolan.png" alt="Support April" /> </a></div>
 
 <div id="maincontent">

@@ -113,3 +113,8 @@ http://videolan.netmindz.net/|Netmindz.net|United Kingdom|gb|HTTP|100
 # Connection: 100 Mb/s
 # Vahan Yerkanian <vahan 47 arminco d0t com>
 http://vlc.mirrors.arminco.com/|Arminco|Armenia|am|HTTP|100
+#
+# Location: USA
+# Neil Bright <neil   .   bright   oit . gatech . edu>
+# Exist in ftp and rsync
+http://www.gtlib.gatech.edu/pub/videolan/|Georgia Tech|us|HTTP|100 

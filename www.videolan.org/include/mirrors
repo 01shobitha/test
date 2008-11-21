@@ -99,7 +99,7 @@ http://mirror.nexcast.net/vlc/|Nexcast|USA|us|HTTP|100
 http://mirror.beyondi.org/vlc/|Beyond !nnovation|USA|us|HTTP|100
 #
 # Location: Ireland
-# Connection: 10000
+# Connection: 10Gbps
 # mirrors ___ ___ heanet.ie
 # Same for FTP exists.
 http://ftp.heanet.ie/pub/videolan/|HEAnet|Ireland|ie|HTTP|4000
@@ -117,4 +117,5 @@ http://vlc.mirrors.arminco.com/|Arminco|Armenia|am|HTTP|100
 # Location: USA
 # Neil Bright <neil   .   bright   oit . gatech . edu>
 # Exist in ftp and rsync
-http://www.gtlib.gatech.edu/pub/videolan/|Georgia Tech|us|HTTP|100 
+# 1Gbps (10Gbps on internet2)
+http://www.gtlib.gatech.edu/pub/videolan/|Georgia Tech|USA|us|HTTP|1000 

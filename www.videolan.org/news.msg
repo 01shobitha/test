@@ -2,7 +2,7 @@
 # New topics begin with a "|"
 #
 |24 November 2008|VLC media player SourceForge Award|<img src="http://people.videolan.org/~jb/SourceForge_Award/thumbnails/012-VLC_SourceForge_Awards-013.jpg.small.jpeg" alt="Sourceforge VLC award" style="float:left; margin-right:5px"/>
-VLC media player won <a href="http://sourceforge.net/community/cca08/" hreflang="en">a Community Choice Award</a> Award, organised by our friends from SourceForge, this summer. We just received the award.<br />
+VLC media player won <a href="http://sourceforge.net/community/cca08/" hreflang="en">a Community Choice Award</a>, organised by our friends from SourceForge, this summer. We just received the award.<br />
 The whole VideoLAN Team would love to thank many times SourceForge and especially Ross Turk.<br />
 You can find more infos <a href="http://people.videolan.org/~jb/SourceForge_Award/">here</a> and <a href="http://www.jbkempf.com/blog/post/2008/11/24/SourceForge-Award-Trophee-for-VLC">there</a>.<br />
 

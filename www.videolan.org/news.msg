@@ -1,6 +1,11 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|24 November 2008|VLC media player SourceForge Award|VLC media player won <a href="http://sourceforge.net/community/cca08/" hreflang="en">a Community Choice Award</a> Award, Organised by our friends from SourceForge, this summer. We just received the award.<br />
+<img src="http://people.videolan.org/~jb/SourceForge_Award/thumbnails/012-VLC_SourceForge_Awards-013.jpg.small.jpeg" alt="Sourceforge VLC award" />
+The whole VideoLAN Team would love to thank many times SourceForge and especially Ross Turk.<br />
+You can find more infos <a href="http://people.videolan.org/~jb/SourceForge_Award/">here</a> and <a href="http://www.jbkempf.com/blog/post/2008/11/24/SourceForge-Award-Trophee-for-VLC">there</a>.<br />
+
 |14 November 2008|A problem with Windows 0.9.6 binary|The released 0.9.6 Windows binary presents some issues in the avformat module that can prevent playback of FLV or MXF files. We apologize for this, and corrected the builds accordingly.<br />
 You can download the correctly builds on <a href="http://www.videolan.org/mirror-geo.php?file=vlc/0.9.6/win32/vlc-0.9.6-win32.exe">your favorite mirror</a>.
 

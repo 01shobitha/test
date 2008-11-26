@@ -12,7 +12,7 @@
 <h1>VLC media player for <a href="http://fedoraproject.org/">Fedora</a></h1>
 
 <p>Most of our packages for fedora can be found on RPM Fusion <a href="http://rpmfusion.org/">RPM Fusion</a><br />
-You can also use this repository from distribution derived from <a href="http://fedoraproject.org/">Fedora</a>
+You can also use this repository from distribution derived from <a href="http://fedoraproject.org/">Fedora</a></p>
 
 <p>Please report "packaging bugs" on <a href="http://bugzilla.rpmfusion.org/">Bugzilla - RPM Fusion</a></p>
 

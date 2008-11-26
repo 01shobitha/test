@@ -16,13 +16,12 @@ You can also use this repository from distribution derived from <a href="http://
 
 <p>Please report "packaging bugs" on <a href="http://bugzilla.rpmfusion.org/">Bugzilla - RPM Fusion</a></p>
 
-<p>You can also find an old version we officially support: VLC 0.8.5 for Fedora Core 4.</p>
 
-<h2>Fedora 9</h2>
+<h2>Fedora 9 and Fedora 10</h2>
 
-<p>Use <a href="http://rpmfusion.org/Configuration/">RPM Fusion</a> for F9 (available for x86, x86_64, ppc and ppc64)<br />
+<p>Use <a href="http://rpmfusion.org/Configuration/">RPM Fusion</a> for F9 and F10 (available for x86, x86_64, ppc and ppc64)<br />
 
-Install <a href="http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm">rpmfusion-free-release-stable.noarch.rpm</a> for F9</p>
+Install <a href="http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm">rpmfusion-free-release-stable.noarch.rpm</a> for F9 and f10</p>
 
 <pre>
     $> su -
@@ -99,6 +98,8 @@ for FC 4 and 5 on <a href="http://freshrpms.net">FreshRPMs</a>.</p>
 <h2>Other versions - Search</h2>
 <p>Use <a href="http://rpm.pbone.net/">PBone.net</a> to search a lot of other versions of VLC for fedora or fedora compatible distributions.</p>
 
+<?php 
+/*
 <h1>VLC media player for Fedora Core 4</h1>
 
 <h2>Yum repository</h2>
@@ -178,6 +179,8 @@ gpgcheck=1
 
 <h2>Older versions</h2>
 <?php browse_old("vlc") ; ?>
+
+*/ ?>
 
 </div>
 

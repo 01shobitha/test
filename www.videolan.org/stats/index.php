@@ -9,9 +9,10 @@
 
 <div id="fullwidth">
 
+<?php /*
 <h1>Web Statistics</h1>
 
-<?php include( $_SERVER["DOCUMENT_ROOT"]."/stats/web.inc" ); ?>
+<?php include( $_SERVER["DOCUMENT_ROOT"]."/stats/web.inc" ); */?>
 
 <h1>Download statistics</h1>
 

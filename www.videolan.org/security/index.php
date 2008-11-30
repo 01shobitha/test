@@ -33,6 +33,9 @@ pub   1024D/73FAAFF8 2005-10-19
 <h2>2008</h2>
 
 <dl>
+<dt>VideoLAN-SA-0811 (CVE-2008-5276)</dt>
+<dd>Buffer overflows in VLC Real demuxers. <a href="sa0811.html">Details</a>
+</dd>
 <dt>VideoLAN-SA-0810 (CVE-2008-5032, CVE-2008-5036)</dt>
 <dd>Multiple overflows in VLC demuxers. <a href="sa0810.html">Details</a>
 </dd>

@@ -65,7 +65,7 @@ from the official VLC source code repository 0.9-bugfix branch.
 <dt>17 November 2008</dt>
 <dd>Internal patches for VLC development version and 0.9-bugfix tree.</dd>
 <dt>28 November 2008</dt>
-<dd>CVE reserved</dt>
+<dd>CVE reserved</dd>
 <dt>30 November 2008</dt>
 <dd>Initial security advisory.</dd>
 <dd>VLC media player 0.9.7 released.</dd>

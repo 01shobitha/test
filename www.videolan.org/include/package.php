@@ -15,7 +15,7 @@ function browse_old( $fold )
 
 function pkgversion($name,$version)
 {
-  $latest = array("vlc" => "0.9.6");
+  $latest = array("vlc" => "0.9.7");
 
   if (!$latest[$name])
     return;

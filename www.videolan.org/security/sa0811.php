@@ -11,7 +11,7 @@
 <pre>
 Summary           : Buffer overflow in Real demuxer
 Date              : November 2008
-Affected versions : VLC media player 0.9.6 down to 0.7.1
+Affected versions : VLC media player 0.9.6 down to 0.9.0
 ID                : VideoLAN-SA-0811
 CVE reference     : CVE-2008-5276
 </pre>

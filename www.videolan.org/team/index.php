@@ -2,7 +2,10 @@
    $title = "the VideoLAN team";
    $lang = "en";
    $menu = array( "project", "team" );
-   $enable_map = true;
+   $additional_js = array("http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAA_tTjXf27pXx7GJjiXjfLTBTZ23S2gbgYlUkGxVa_77E2Yr1JbRRZDHGiGaM9ko8-hG5M1z9nS5bFXA",
+                          "map.js");
+   $body_onload = "load();";
+   $body_onunload = "GUnload();";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 

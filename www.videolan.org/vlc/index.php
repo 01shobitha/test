@@ -2,7 +2,8 @@
    $title = "VLC media player - Overview";
    $lang = "en";
    $menu = array( "vlc", "download" );
-   $enable_live = true;
+   $additional_js = array("/ffcounter.js");
+   $body_onload = "getCount()";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 

@@ -14,7 +14,7 @@ function FormatSize($size) {
 *  starthtml: beginning of the page
 */
 
-function StartHtml( $title, $enable_live = false, $enable_map = false, $enable_skinbox = false ) {
+function StartHtml( $title ) {
 
 global $HTTP_GET_VARS;
 echo "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n";
@@ -35,9 +35,15 @@ echo "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n";
    <title><?php echo $title; ?></title>
    <link rel="alternate" type="application/rss+xml" title="RSS - News" href="/videolan-news.rss" />
    <link rel="stylesheet" type="text/css" href="/main.css" />
-   <?php if( $enable_skinbox == true ) {?>
-   <link rel="stylesheet" type="text/css" href="skins.css" />
-   <?php } ?>
+   <?php 
+      if( isset($additional_css) ) {
+        foreach($additional_css as $css) {
+          ?>
+            <link rel="stylesheet" type="text/css" href="<?php echo $css; ?>" />
+          <?php
+        }
+      }
+   ?>
 <!--[if lt IE 7]>
    <style type="text/css">
       @media screen{ body{behavior:url("/width.htc");} }
@@ -48,16 +54,15 @@ echo "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n";
 <![endif]-->
    <link rel="shortcut icon" type="image/x-icon"
          href="/images/icons/favicon.ico" />
-   <?php if( $enable_live == true ) {?>
-	 <script src="/ffcounter.js" type="text/javascript"></script>
-   <?php } ?>
-   <?php if( $enable_map == true ) {?>
-   <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAA_tTjXf27pXx7GJjiXjfLTBTZ23S2gbgYlUkGxVa_77E2Yr1JbRRZDHGiGaM9ko8-hG5M1z9nS5bFXA" type="text/javascript"></script>
-   <script src="map.js" type="text/javascript"></script>
-   <?php } ?>
-   <?php if( $enable_skinbox == true ) {?>
-   <script src="/js/skins.js" type="text/javascript"></script>     
-   <?php } ?>
+  <?php 
+      if( isset($additional_js) ) {
+        foreach($additional_js as $js) {
+          ?>
+            <script src="<?php echo $js;?>" type="text/javascript"></script>
+          <?php
+        }
+      }
+   ?>
 <script type="text/javascript">
 // <![CDATA[
 function ShowMirrors( start, stop )
@@ -89,17 +94,24 @@ function HideMirrors()
 </script>
 
 </head>
-<?php if( $enable_live == true ) { ?>
-   <body onload="getCount();">
-<?php } else if( $enable_map == true ) { ?>
-  <body onload="load();" onunload="GUnload();">
-<?php } else if( $enable_skinbox == true ) { ?>
-  <body onload="initSkinBox()">
-<?php } else { ?>
-   <body onload="HideMirrors();">
-<?php
-   }
+<body 
+<?php 
+  if( isset($body_onload) ) { 
+    ?>
+      onload="<?php echo $body_onload; ?>"
+    <?php  
+  } else {
+    ?>
+     onload="HideMirrors();"
+    <?php
+  }
+  if( isset($body_onunload) ) {
+    ?>
+      onunload="<?php echo $body_onunload; ?>"
+    <?php
+  }
 ?>
+>
   <div id="spacer"></div>
   <div id="pagecontainer" class="clearfix">
 <?php
@@ -128,11 +140,6 @@ function DrawMenu( $file, $mod )
     echo "<li>&nbsp;</li>";
   }
 }
-
-
-
-
-
 
 function footer($tag) {
    global $language; ?>
@@ -199,21 +206,8 @@ if( $language == "" ) { $language = "en"; }
 
 /* render the page */
 
-if( !isset( $enable_live ) )
-{
-    $enable_live = false;
-}
-if( !isset( $enable_map ) )
-{
-    $enable_map = false;
-}
-if( !isset( $enable_skinbox ) )
-{
-    $enable_skinbox = false;
-}
-
 // HTML header
-StartHtml( ereg_replace( "<[^>]*>" , "" , $title ) , $enable_live, $enable_map, $enable_skinbox ) ;
+StartHtml( ereg_replace( "<[^>]*>" , "" , $title ) ) ;
 
 
 ?>

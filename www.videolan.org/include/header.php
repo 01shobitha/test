@@ -14,7 +14,7 @@ function FormatSize($size) {
 *  starthtml: beginning of the page
 */
 
-function StartHtml( $title ) {
+function StartHtml( $title, $additional_css=array(), $additional_js=array(), $body_onload = "HideMirrors();", $body_onunload = "" ) {
 
 global $HTTP_GET_VARS;
 echo "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n";
@@ -94,24 +94,7 @@ function HideMirrors()
 </script>
 
 </head>
-<body 
-<?php 
-  if( isset($body_onload) ) { 
-    ?>
-      onload="<?php echo $body_onload; ?>"
-    <?php  
-  } else {
-    ?>
-     onload="HideMirrors();"
-    <?php
-  }
-  if( isset($body_onunload) ) {
-    ?>
-      onunload="<?php echo $body_onunload; ?>"
-    <?php
-  }
-?>
->
+<body onload="<?php echo $body_onload;?>" onunload="<?php echo $body_onunload; ?>">
   <div id="spacer"></div>
   <div id="pagecontainer" class="clearfix">
 <?php
@@ -204,10 +187,15 @@ function panel_end( )
 /* default language and date */
 if( $language == "" ) { $language = "en"; }
 
+if(!isset($additional_css)) $additional_css = array();
+if(!isset($additional_js)) $additional_js = array();
+if(!isset($body_onload)) $body_onload = "HideMirrors();";
+if(!isset($body_onunload)) $body_onunload = "";
+
 /* render the page */
 
 // HTML header
-StartHtml( ereg_replace( "<[^>]*>" , "" , $title ) ) ;
+StartHtml( ereg_replace( "<[^>]*>" , "" , $title ), $additional_css, $additional_js, $body_onload, $body_onunload ) ;
 
 
 ?>

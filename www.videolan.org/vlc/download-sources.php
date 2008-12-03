@@ -11,18 +11,16 @@
 <div id="left">
 <h2>Tarballs</h2>
 
-<p> Latest VLC source code tarball (0.9.8): </p>
+<p> Latest VLC source code tarball (0.9.8a): </p>
 
 <ul class="bullets">
-<li><?php pkgitem_nomirr("VLC source code tar.bz2", "0.9.8","vlc-0.9.8.tar.bz2","vlc"); ?></li>
+<li><?php pkgitem_nomirr("VLC source code tar.bz2", "0.9.8a","vlc-0.9.8a.tar.bz2","vlc"); ?></li>
 </ul>
 
+<?php
+/*
 <h2> Latest required libraries: </h2>
-<p>
-The list of required libraries is not yet updated for 0.9.8.
-</p>
 
-<!--
 <ul class="bullets">
 <li><?php     pkgitem_nomirr("a52dec 0.7.4", "0.8.5/contrib","a52dec-0.7.4.tar.gz","vlc","(A52 - also known as AC3 - audio decoder)");?></li>
 <li><?php     pkgitem_nomirr("faac 1.24", "0.8.5/contrib","faac-1.24.tar.bz2","vlc","(AAC audio encoder)");?></li>
@@ -63,7 +61,7 @@ The list of required libraries is not yet updated for 0.9.8.
 <li><?php     pkgitem_nomirr("zlib 1.2.3", "0.8.5/contrib","zlib-1.2.3.tar.gz","vlc","(A losless data-compression library)");?></li>
 </ul>
 <p><a href="http://downloads.videolan.org/pub/videolan/vlc/0.8.6/contrib"><i>Browse the list</i></a></p>
--->
+*/ ?>
 
 <h2>Older versions</h2>
 <?php browse_old("vlc"); ?>

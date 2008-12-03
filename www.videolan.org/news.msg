@@ -2,7 +2,7 @@
 # New topics begin with a "|"
 #
 |03 December 2008| VideoLAN Security Advisory 0811 | VLC media player versions 0.9.8 and older suffer from a critical buffer overflow vulnerabilities.
-<a href="http://www.videolan.org/sa0807.html">Refer to our advisory</a>
+<a href="http://www.videolan.org/sa0811.html">Refer to our advisory</a>
 for technical details.
 Fixes for this issue is available in VLC 0.9.8a.
 We strongly recommend all users to update to this new version.

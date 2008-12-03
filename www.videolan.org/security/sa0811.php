@@ -11,7 +11,7 @@
 <pre>
 Summary           : Buffer overflow in Real demuxer
 Date              : November 2008
-Affected versions : VLC media player 0.9.7 down to 0.9.0
+Affected versions : VLC media player 0.9.8 down to 0.9.0
 ID                : VideoLAN-SA-0811
 CVE reference     : CVE-2008-5276
 </pre>
@@ -38,7 +38,7 @@ until the patch is applied.
 can be removed manually from the VLC plugin installation directory.
 </p>
 <h2>Solution</h2>
-<p>VLC media player 0.9.8 addresses this issue.
+<p>VLC media player 0.9.8a addresses this issue.
 Patches for older versions are available
 from the official VLC source code repository 0.9-bugfix branch.
 </p>
@@ -51,7 +51,7 @@ from the official VLC source code repository 0.9-bugfix branch.
 <dd><a href="http://www.videolan.org/">http://www.videolan.org/</a>
 </dd>
 <dt>VLC official GIT repository</dt>
-<dd><a href="http://git.videolan.org/?p=vlc.git;a=shortlog;h=4bc422b0de26c38e70b87f63ee3391d6b6322ac5">http://git.videolan.org/?p=vlc.git</a>
+<dd><a href="http://git.videolan.org/?p=vlc.git;a=shortlog;h=0.9.8a">http://git.videolan.org/?p=vlc.git</a>
 </dd>
 <dt>Tobias Klein</dt>
 <dd><a href="http://www.trapkit.de/advisories/"
@@ -68,8 +68,8 @@ from the official VLC source code repository 0.9-bugfix branch.
 <dd>CVE reserved</dd>
 <dt>30 November 2008</dt>
 <dd>Initial security advisory.</dd>
-<dt>01 December 2008</dt>
-<dd>VLC media player 0.9.8 released.</dd>
+<dt>03 December 2008</dt>
+<dd>VLC media player 0.9.8a released.</dd>
 </dl>
 
 <address>R&eacute;mi Denis-Courmont,<br />

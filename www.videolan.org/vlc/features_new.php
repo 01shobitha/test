@@ -20,8 +20,9 @@ if(!isset($_GET['c'])) {
     <div class="feature-cat" onclick="loadFeatures('audio')" id="cat-audio">Audio formats</div>
     <div class="feature-cat" onclick="loadFeatures('video')" id="cat-video">Video formats</div>
     <div class="feature-cat" onclick="loadFeatures('sub')" id="cat-sub">Subtitle formats</div>
-    <div class="feature-cat" onclick="loadFeatures('container')" id="cat-container">Input formats</div>
+    <div class="feature-cat" onclick="loadFeatures('input')" id="cat-input">Input formats</div>
     <div class="feature-cat" onclick="loadFeatures('av')" id="cat-av">A/V outputs</div>
+    <div class="feature-cat" onclick="loadFeatures('filters')" id="cat-filters">A/V filters</div>
     <div class="feature-cat" onclick="loadFeatures('intf')" id="cat-intf">Interfaces</div>
     <div class="feature-cat" onclick="loadFeatures('misc')" id="cat-misc">Miscellaneous</div>
     </td>
@@ -919,6 +920,130 @@ Full color for YUV-type chromas is not handled, only the gray-scale value. Subti
 <li>The Quartz module is available on PowerPC-based Macs only.</li>
 </ol>
 </div>
+<?php
+} else if($_GET['c']=="filters") {
+?>
+<table class="feature-list-table">
+  <tr>
+    <th class="category"></th>
+    <th class="type"></th>
+    <th class="th-os"><a href="/vlc/download-windows.html">
+      <img src="http://images.videolan.org/images/icons/winvista.png" alt="Windows" height="32" width="32">
+    </a></th>
+    <th class="th-os"><a href="/vlc/download-macosx.html">
+      <img src="http://images.videolan.org/images/icons/macosx.png" alt="Mac OS X" width="32" height="32" />
+    </a></th>
+    <th class="th-os"><a href="/vlc/index.html">
+      <img src="http://images.videolan.org/images/icons/linux.png" alt="Linux" width="32" height="32" />
+
+    </a></th>
+    <th class="th-os"><a href="/vlc/download-beos.html">
+      <img src="http://images.videolan.org/images/icons/beos.png" alt="BeOS" width="32" height="32" />
+    </a></th>
+    <th class="th-os"><a href="/vlc/download-sources.html">
+      <img src="http://images.videolan.org/images/icons/freebsd.png" alt="FreeBSD" width="32" height="32" />
+      <img src="http://images.videolan.org/images/icons/openbsd.png" alt="OpenBSD" width="32" height="32" />
+    </a></th>
+    <th class="th-os"><a href="/vlc/download-familiar.html">
+      <img src="http://images.videolan.org/images/icons/familiar.png" alt="Familiar Linux"
+           width="32" height="32" />
+    </a></th>
+  </tr>
+<tr>
+<td class="category" rowspan="10"><b>Video Filters</b></td>
+<td class="type">Deinterlace</td><td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+</tr>
+<tr><td class="type">Cropping</td><td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+</tr>
+<tr><td class="type">Image wall</td><td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+</tr>
+<tr><td class="type">Image adjust</td><td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+</tr>
+<tr><td class="type">Rotate/Mirror</td><td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+
+</tr>
+<tr><td class="type">Logo overlay</td><td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="no"><img src="/images/features/cross.png" alt="No"></td>
+</tr>
+<tr><td class="type">Magnification</td><td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="no"><img src="/images/features/cross.png" alt="No"></td>
+</tr>
+
+<tr><td class="type">Image distortion</td><td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="no"><img src="/images/features/cross.png" alt="No"></td>
+</tr>
+<tr><td class="type">Bluescreen</td><td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="no"><img src="/images/features/cross.png" alt="No"></td>
+</tr>
+<tr><td class="type">RSS/Atom feeds</td><td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="no"><img src="/images/features/cross.png" alt="No"></td>
+</tr>
+<tr><td class="category" rowspan="2"><b>Audio Filters</b></td>
+<td class="type">Visualization effects</td><td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+
+</tr>
+<tr><td class="type">Equalizer</td><td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+<td class="yes"><img src="/images/features/tick.png" alt="Yes"></td>
+</tr>
+
+</table>
 <?php
 } else if($_GET['c']=="intf") {
 ?>

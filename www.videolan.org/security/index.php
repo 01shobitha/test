@@ -12,13 +12,13 @@
 <p> These are the current security contacts for the VideoLAN project:
 </p>
 <dl>
-<dt>R&eacute;mi Denis-Courmont</dt>
+<!--dt>R&eacute;mi Denis-Courmont</dt>
 <dd>rem at videolan dot org
 <pre>
 pub   1024D/DD6D12BD 2004-01-09
       Key fingerprint = 9480 5833 53E3 34D2 F03F  E80C C3EC 6DBE DD6D 12BD
 </pre>
-</dd>
+</dd-->
 <dt>Christophe Mutricy</dt>
 <dd>xtophe at videolan dot org
 <pre>

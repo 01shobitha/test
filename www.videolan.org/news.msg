@@ -1,6 +1,12 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|03 December 2008| VideoLAN Security Advisory 0811 | VLC media player versions 0.9.8 and older suffer from a critical buffer overflow vulnerabilities.
+<a href="http://www.videolan.org/sa0807.html">Refer to our advisory</a>
+for technical details.
+Fixes for this issue is available in VLC 0.9.8a.
+We strongly recommend all users to update to this new version.
+
 |24 November 2008|VLC media player SourceForge Award|<img src="http://people.videolan.org/~jb/SourceForge_Award/thumbnails/012-VLC_SourceForge_Awards-013.jpg.small.jpeg" alt="Sourceforge VLC award" style="float:left; margin-right:5px"/>
 VLC media player won <a href="http://sourceforge.net/community/cca08/" hreflang="en">a Community Choice Award</a>, organised by our friends from SourceForge, this summer. We just received the award.<br />
 The whole VideoLAN Team would love to thank many times SourceForge and especially Ross Turk.<br />

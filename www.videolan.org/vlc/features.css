@@ -58,7 +58,9 @@ ul.feature-icon {
 	font-weight: bold;
 	color:#D4E0F7;
 }
-
+.feature-list {
+	background: #7499e0 !important;	
+}
 .feature-div {
 	margin: 5px;	
 }

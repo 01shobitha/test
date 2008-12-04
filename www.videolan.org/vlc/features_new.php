@@ -860,6 +860,9 @@
           <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 
           </tr>
+          <tr style="background:#D4E0F7 !important">
+          <td colspan="8" style="background:#D4E0F7 !important">&nbsp;</td>
+          </tr>
           <tr>
           <td class="category" rowspan="7"><b>Audio Outputs</b></td>
           <td class="type">Native</td>
@@ -968,10 +971,7 @@
                 <img src="http://images.videolan.org/images/icons/familiar.png" alt="Familiar Linux"
                      width="32" height="32" />
               </a></th>
-            </tr>
-          <tr style="background:D4E0F7 !important">
-          <td colspan="8" style="background:D4E0F7 !important">&nbsp;</td>
-          </tr>
+            </tr>          
           <tr>
           <td class="category" rowspan="10"><b>Video Filters</b></td>
 
@@ -1054,7 +1054,9 @@
           <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
           <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
           </tr>
-
+          <tr style="background:#D4E0F7 !important">
+          <td colspan="8" style="background:#D4E0F7 !important">&nbsp;</td>
+          </tr>
           <tr><td class="category" rowspan="2"><b>Audio Filters</b></td>
           <td class="type">Visualization effects</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
           <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>

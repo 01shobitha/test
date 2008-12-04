@@ -29,7 +29,7 @@
       <div class="feature-div">
         <!--The different feature tables -->
         <div id="feature-list-audio">
-        <table class="feature-list-table" id="list-audio" style="display:none">
+        <table class="feature-list-table">
           <tr>
             <th class="type"></th>
             <th class="th-os"><a href="/vlc/download-windows.html">

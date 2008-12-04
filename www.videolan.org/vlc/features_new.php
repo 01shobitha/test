@@ -969,6 +969,9 @@
                      width="32" height="32" />
               </a></th>
             </tr>
+          <tr style="background:D4E0F7 !important">
+          <td colspan="8" style="background:D4E0F7 !important">&nbsp;</td>
+          </tr>
           <tr>
           <td class="category" rowspan="10"><b>Video Filters</b></td>
 

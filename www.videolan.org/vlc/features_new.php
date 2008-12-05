@@ -220,7 +220,6 @@ function headers( $extra )
             <?php writefeature_simple( "ID3 tags", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
             <?php writefeature( "APEv2", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
             <?php writefeature( "Vorbis comment", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
-          </tr>
           </table>
           <div class="notes">
           <ol id="sub_notes">

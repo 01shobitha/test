@@ -34,6 +34,37 @@ function writefeature( $title, $windows, $mac, $linux, $beos, $bsd, $fam )
    echo "</tr>\n";
 }
 
+function headers()
+{
+?>
+       <tr>
+            <th class="type"></th>
+            <th class="th-os"><a href="/vlc/download-windows.html">
+              <img src="http://images.videolan.org/images/icons/winvista.png" alt="Windows" height="32" width="32" />
+            </a></th>
+            <th class="th-os"><a href="/vlc/download-macosx.html">
+              <img src="http://images.videolan.org/images/icons/macosx.png" alt="Mac OS X" width="32" height="32" />
+            </a></th>
+
+            <th class="th-os"><a href="/vlc/index.html">
+              <img src="http://images.videolan.org/images/icons/linux.png" alt="Linux" width="32" height="32" />
+
+            </a></th>
+            <th class="th-os"><a href="/vlc/download-beos.html">
+              <img src="http://images.videolan.org/images/icons/beos.png" alt="BeOS" width="32" height="32" />
+            </a></th>
+            <th class="th-os"><a href="/vlc/download-sources.html">
+              <img src="http://images.videolan.org/images/icons/freebsd.png" alt="FreeBSD" width="32" height="32" />
+
+              <img src="http://images.videolan.org/images/icons/openbsd.png" alt="OpenBSD" width="32" height="32" />
+            </a></th>
+            <th class="th-os"><a href="/vlc/download-familiar.html">
+              <img src="http://images.videolan.org/images/icons/familiar.png" alt="Familiar Linux"
+                   width="32" height="32" />
+            </a></th>
+          </tr>
+<?php
+}
 ?>
 
 <h2>Features</h2>
@@ -60,33 +91,8 @@ function writefeature( $title, $windows, $mac, $linux, $beos, $bsd, $fam )
         <!--The different feature tables -->
         <div id="feature-list-audio" style="display:none">
         <table class="feature-list-table">
-          <tr>
-            <th class="type"></th>
-            <th class="th-os"><a href="/vlc/download-windows.html">
-              <img src="http://images.videolan.org/images/icons/winvista.png" alt="Windows" height="32" width="32" />
-            </a></th>
-            <th class="th-os"><a href="/vlc/download-macosx.html">
-              <img src="http://images.videolan.org/images/icons/macosx.png" alt="Mac OS X" width="32" height="32" />
-            </a></th>
-
-            <th class="th-os"><a href="/vlc/index.html">
-              <img src="http://images.videolan.org/images/icons/linux.png" alt="Linux" width="32" height="32" />
-
-            </a></th>
-            <th class="th-os"><a href="/vlc/download-beos.html">
-              <img src="http://images.videolan.org/images/icons/beos.png" alt="BeOS" width="32" height="32" />
-            </a></th>
-            <th class="th-os"><a href="/vlc/download-sources.html">
-              <img src="http://images.videolan.org/images/icons/freebsd.png" alt="FreeBSD" width="32" height="32" />
-
-              <img src="http://images.videolan.org/images/icons/openbsd.png" alt="OpenBSD" width="32" height="32" />
-            </a></th>
-            <th class="th-os"><a href="/vlc/download-familiar.html">
-              <img src="http://images.videolan.org/images/icons/familiar.png" alt="Familiar Linux"
-                   width="32" height="32" />
-            </a></th>
-          </tr>
-            <?php writefeature( "MPEG Layer 1/2", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+        headers();
+               <?php writefeature( "MPEG Layer 1/2", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "MP3", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "AAC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "Vorbis", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
@@ -143,32 +149,7 @@ function writefeature( $title, $windows, $mac, $linux, $beos, $bsd, $fam )
         </div>
         <div id="feature-list-video" style="display:none">
           <table class="feature-list-table">
-            <tr>
-              <th class="type"></th>
-              <th class="th-os"><a href="/vlc/download-windows.html">
-                <img src="http://images.videolan.org/images/icons/winvista.png" alt="Windows" height="32" width="32" />
-              </a></th>
-              <th class="th-os"><a href="/vlc/download-macosx.html">
-                <img src="http://images.videolan.org/images/icons/macosx.png" alt="Mac OS X" width="32" height="32" />
-              </a></th>
-
-              <th class="th-os"><a href="/vlc/index.html">
-                <img src="http://images.videolan.org/images/icons/linux.png" alt="Linux" width="32" height="32" />
-
-              </a></th>
-              <th class="th-os"><a href="/vlc/download-beos.html">
-                <img src="http://images.videolan.org/images/icons/beos.png" alt="BeOS" width="32" height="32" />
-              </a></th>
-              <th class="th-os"><a href="/vlc/download-sources.html">
-                <img src="http://images.videolan.org/images/icons/freebsd.png" alt="FreeBSD" width="32" height="32" />
-
-                <img src="http://images.videolan.org/images/icons/openbsd.png" alt="OpenBSD" width="32" height="32" />
-              </a></th>
-              <th class="th-os"><a href="/vlc/download-familiar.html">
-                <img src="http://images.videolan.org/images/icons/familiar.png" alt="Familiar Linux"
-                     width="32" height="32" />
-              </a></th>
-            </tr>
+            headers();
             <?php writefeature( "MPEG-1/2", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "DIVX (1/2/3)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "MPEG-4 ASP, DivX 5, XviD, 3ivX D4", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
@@ -229,32 +210,7 @@ function writefeature( $title, $windows, $mac, $linux, $beos, $bsd, $fam )
         </div>
         <div id="feature-list-sub" style="display:none">
           <table class="feature-list-table">
-            <tr>
-              <th class="type"></th>
-              <th class="th-os"><a href="/vlc/download-windows.html">
-                <img src="http://images.videolan.org/images/icons/winvista.png" alt="Windows" height="32" width="32" />
-              </a></th>
-              <th class="th-os"><a href="/vlc/download-macosx.html">
-                <img src="http://images.videolan.org/images/icons/macosx.png" alt="Mac OS X" width="32" height="32" />
-              </a></th>
-
-              <th class="th-os"><a href="/vlc/index.html">
-                <img src="http://images.videolan.org/images/icons/linux.png" alt="Linux" width="32" height="32" />
-
-              </a></th>
-              <th class="th-os"><a href="/vlc/download-beos.html">
-                <img src="http://images.videolan.org/images/icons/beos.png" alt="BeOS" width="32" height="32" />
-              </a></th>
-              <th class="th-os"><a href="/vlc/download-sources.html">
-                <img src="http://images.videolan.org/images/icons/freebsd.png" alt="FreeBSD" width="32" height="32" />
-
-                <img src="http://images.videolan.org/images/icons/openbsd.png" alt="OpenBSD" width="32" height="32" />
-              </a></th>
-              <th class="th-os"><a href="/vlc/download-familiar.html">
-                <img src="http://images.videolan.org/images/icons/familiar.png" alt="Familiar Linux"
-                     width="32" height="32" />
-              </a></th>
-            </tr>
+                headers();           
           <tr>
           <td class="type">DVD <sup><a href="#sub_notes">1</a></sup></td><td class="partial"><img src="/images/features/partial.png" alt="Partial" /></td>
           <td class="partial"><img src="/images/features/partial.png" alt="Partial" /></td>
@@ -333,33 +289,7 @@ function writefeature( $title, $windows, $mac, $linux, $beos, $bsd, $fam )
         </div>
         <div id="feature-list-input">
           <table class="feature-list-table">
-            <tr>
-              <th class="category"></th>
-              <th class="type"></th>
-              <th class="th-os"><a href="/vlc/download-windows.html">
-                <img src="http://images.videolan.org/images/icons/winvista.png" alt="Windows" height="32" width="32" />
-              </a></th>
-              <th class="th-os"><a href="/vlc/download-macosx.html">
-                <img src="http://images.videolan.org/images/icons/macosx.png" alt="Mac OS X" width="32" height="32" />
-
-              </a></th>
-              <th class="th-os"><a href="/vlc/index.html">
-                <img src="http://images.videolan.org/images/icons/linux.png" alt="Linux" width="32" height="32" />
-
-              </a></th>
-              <th class="th-os"><a href="/vlc/download-beos.html">
-                <img src="http://images.videolan.org/images/icons/beos.png" alt="BeOS" width="32" height="32" />
-              </a></th>
-              <th class="th-os"><a href="/vlc/download-sources.html">
-
-                <img src="http://images.videolan.org/images/icons/freebsd.png" alt="FreeBSD" width="32" height="32" />
-                <img src="http://images.videolan.org/images/icons/openbsd.png" alt="OpenBSD" width="32" height="32" />
-              </a></th>
-              <th class="th-os"><a href="/vlc/download-familiar.html">
-                <img src="http://images.videolan.org/images/icons/familiar.png" alt="Familiar Linux"
-                     width="32" height="32" />
-              </a></th>
-            </tr>
+        headers();
           <tr>
           <td class="category" rowspan="14"><b>Input media</b></td>
 
@@ -621,34 +551,8 @@ function writefeature( $title, $windows, $mac, $linux, $beos, $bsd, $fam )
         
         <div id="feature-list-av" style="display:none">
           <table class="feature-list-table">
-            <tr>
-              <th class="category"></th>
-              <th class="type"></th>
-              <th class="th-os"><a href="/vlc/download-windows.html">
-                <img src="http://images.videolan.org/images/icons/winvista.png" alt="Windows" height="32" width="32" />
-              </a></th>
-              <th class="th-os"><a href="/vlc/download-macosx.html">
-                <img src="http://images.videolan.org/images/icons/macosx.png" alt="Mac OS X" width="32" height="32" />
-
-              </a></th>
-              <th class="th-os"><a href="/vlc/index.html">
-                <img src="http://images.videolan.org/images/icons/linux.png" alt="Linux" width="32" height="32" />
-
-              </a></th>
-              <th class="th-os"><a href="/vlc/download-beos.html">
-                <img src="http://images.videolan.org/images/icons/beos.png" alt="BeOS" width="32" height="32" />
-              </a></th>
-              <th class="th-os"><a href="/vlc/download-sources.html">
-
-                <img src="http://images.videolan.org/images/icons/freebsd.png" alt="FreeBSD" width="32" height="32" />
-                <img src="http://images.videolan.org/images/icons/openbsd.png" alt="OpenBSD" width="32" height="32" />
-              </a></th>
-              <th class="th-os"><a href="/vlc/download-familiar.html">
-                <img src="http://images.videolan.org/images/icons/familiar.png" alt="Familiar Linux"
-                     width="32" height="32" />
-              </a></th>
-            </tr>
-          <tr>
+          headers();
+        <tr>
           <td class="category" rowspan="6"><b>Video Outputs</b></td>
 
           <td class="type">Native</td>

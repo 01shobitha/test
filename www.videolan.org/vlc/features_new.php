@@ -178,7 +178,8 @@ function headers( $extra )
             <?php writefeature( "On2 VP3/VP5/VP6", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
             <?php writefeature( "Indeo Video v3 (IV32)", "yes", "yes", "part", "yes", "part", "yes" ); ?>
             <?php writefeature( "Indeo Video 4/5 (IV41, IV51)", "no", "no", "no", "no", "no", "no" ); ?>
-            <?php writefeature( 'Real Video <sup><a href="#video_notes">3</a></sup>', "no", "no", "no", "no", "no", "no" ); ?>
+            <?php writefeature( 'Real Video 1/2', "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( 'Real Video 3/4<sup><a href="#video_notes">3</a></sup>', "no", "no", "no", "no", "no", "no" ); ?>
 
           </table>
           <div class="notes">

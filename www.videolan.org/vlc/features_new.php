@@ -21,14 +21,17 @@ function writeonefeature( $a )
     echo "\n";
 }
 
-function writefeature( $windows, $mac, $linux, $beos, $bsd, $fam )
+function writefeature( $title, $windows, $mac, $linux, $beos, $bsd, $fam )
 {
-   writeonfeature( $windows );
-   writeonfeature( $mac );
-   writeonfeature( $linux );
-   writeonfeature( $beos );
-   writeonfeature( $bsd );
-   writeonfeature( $fam );
+   echo "<tr>\n";
+   echo '<td class="type">'.$title.'</td>';
+   writeonefeature( $windows );
+   writeonefeature( $mac );
+   writeonefeature( $linux );
+   writeonefeature( $beos );
+   writeonefeature( $bsd );
+   writeonefeature( $fam );
+   echo "</tr>\n";
 }
 
 ?>
@@ -83,138 +86,35 @@ function writefeature( $windows, $mac, $linux, $beos, $bsd, $fam )
                    width="32" height="32" />
             </a></th>
           </tr>
-          <tr>
-	    <td class="type">MPEG Layer 1/2</td>
-<?php writefeature( "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-          </tr>
-          <tr><td class="type">MP3</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            </tr>
-
-            <tr><td class="type">AC3 - A/52</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            </tr>
-            <tr><td class="type">DTS</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-            </tr>
-            <tr><td class="type">LPCM</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            </tr>
-            <tr><td class="type">AAC</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            </tr>
-            <tr><td class="type">Vorbis</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            </tr>
-            <tr><td class="type">WMA 1/2</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            </tr>
-            <tr><td class="type">Alaw/&micro;law</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            </tr>
-            <tr><td class="type">MIDI</td><td class="partial"><img src="/images/features/untested.png" alt="Untested" /></td>
-            <td class="partial"><img src="/images/features/untested.png" alt="Untested" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="partial"><img src="/images/features/untested.png" alt="Untested" /></td>
-            <td class="partial"><img src="/images/features/untested.png" alt="Untested" /></td>
-            <td class="partial"><img src="/images/features/untested.png" alt="Untested" /></td>
-            </tr>
+            <?php writefeature( "MPEG Layer 1/2", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "MP3", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "AC3 - A/52", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "DTS", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "LPCM", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "AAC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "Vorbis", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "WMA 1/2", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "Alaw/&micro;law", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "MIDI", "unt", "unt", "yes", "unt", "unt", "unt" ); ?>
             <tr>
             <td class="type">WMA 3</td>
-
             <td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#audio_notes">1</a></sup></td>
-
             <td class="no"><img src="/images/features/cross.png" alt="No" /> <sup><a href="#audio_notes">1</a></sup></td>
             <td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#audio_notes">1</a></sup></td>
             <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
             <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
             <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
             </tr>
-            <tr><td class="type">ADPCM</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+            <?php writefeature( "ADPCM", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
+            <?php writefeature( "QCELP", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
+            <?php writefeature( "DV Audio", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "FLAC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "ALAC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "QDM2/QDMC (QuickTime)", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
+            <?php writefeature( "MACE", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "AMR (3GPP)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "Speex", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
 
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-
-            </tr>
-            <tr><td class="type">DV Audio</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            </tr>
-            <tr><td class="type">FLAC</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            </tr>
-
-            <tr><td class="type">QDM2/QDMC (QuickTime)</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="partial"><img src="/images/features/untested.png" alt="Untested" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="partial"><img src="/images/features/untested.png" alt="Untested" /></td>
-            </tr>
-            <tr><td class="type">MACE</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            </tr>
-            <tr><td class="type">AMR (3GPP)</td><td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-
-            <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-            <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-            <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-            <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-            <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-            </tr>
             <tr><td class="type">Real Audio <sup><a href="#audio_notes">2</a></sup></td><td class="partial"><img src="/images/features/partial.png" alt="Partial" /></td>
 
             <td class="partial"><img src="/images/features/partial.png" alt="Partial" /></td>
@@ -223,13 +123,6 @@ function writefeature( $windows, $mac, $linux, $beos, $bsd, $fam )
             <td class="partial"><img src="/images/features/partial.png" alt="Partial" /></td>
             <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
             </tr>
-            <tr><td class="type">Speex</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="partial"><img src="/images/features/untested.png" alt="Untested" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="partial"><img src="/images/features/untested.png" alt="Untested" /></td>
           </tr>
         </table>
 

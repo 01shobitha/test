@@ -169,93 +169,19 @@ function writefeature( $title, $windows, $mac, $linux, $beos, $bsd, $fam )
                      width="32" height="32" />
               </a></th>
             </tr>
-          <tr>
-          <td class="type">MPEG-1/2</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          </tr>
-          <tr><td class="type">DIVX (1/2/3)</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          </tr>
-
-          <tr><td class="type">MPEG-4, DivX 5, XviD, 3ivX D4</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          </tr>
-          <tr><td class="type">H.264</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          </tr>
-          <tr><td class="type">Sorenson 1/3 (Quicktime)</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          </tr>
-          <tr><td class="type">DV</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          </tr>
-          <tr><td class="type">Cinepak</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          </tr>
-          <tr><td class="type">Theora (alpha 3)</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          </tr>
-          <tr><td class="type">H.263 / H.263i</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          </tr>
-          <tr><td class="type">MJPEG (A/B)</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          </tr>
-          <tr><td class="type">WMV 1/2</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          </tr>
+            <?php writefeature( "MPEG-1/2", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "DIVX (1/2/3)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "MPEG-4 ASP, DivX 5, XviD, 3ivX D4", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "H.264 / MPEG-4 AVC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "Sorenson 1/3 (Quicktime)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "DV", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "Cinepak", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "Theora", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "Dirac", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
+            <?php writefeature( "H.261", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
+            <?php writefeature( "H.263 / H.263i", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
+            <?php writefeature( "MJPEG (A/B)", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
+            <?php writefeature( "WMV 1/2", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
           <tr>
           <td class="type">WMV 3 / WMV-9 / VC-1</td>
           <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">1, 2</a></sup></td>
@@ -267,17 +193,8 @@ function writefeature( $title, $windows, $mac, $linux, $beos, $bsd, $fam )
           <td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
           </tr>
 
-          <tr>
-          <td class="type">Indeo Video v3 (IV32)</td>
-          <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
-          <td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
-          <td class="partial"><img src="http://images.videolan.org/images/features/partial.png" alt="Partial" />No PPC support</td>
-          <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
-          <td class="partial"><img src="http://images.videolan.org/images/features/partial.png" alt="Partial" />No PPC support</td>
-
-          <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
-
-          </tr>
+            <?php writefeature( "On2 VP3/VP5/VP6", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
+            <?php writefeature( "Indeo Video v3 (IV32)", "yes", "yes", "partial", "yes", "partial", "yes" ); ?>
 
           <tr><td class="type">Indeo Video 4/5 (IV41, IV51)</td><td class="no"><img src="/images/features/cross.png" alt="No" /></td>
           <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
@@ -302,7 +219,7 @@ function writefeature( $title, $windows, $mac, $linux, $beos, $bsd, $fam )
             starting with VLC 0.8.6.</li>
             <li>Windows DMO codecs can be used by VLC on 32-bit x86 platforms and
             allow WMV-3/WMA-3 decoding. This feature is untested on Intel-based Macs.</li>
-            <li>VLC's 0.9.0 release will introduce support for RV30 and RV40 based upon
+            <li>VLC's 1.0.0 release will introduce support for RV30 and RV40 based upon
             the additions to the FFmpeg-library by one their Google Summer of Code 2007
             projects.</li>
 

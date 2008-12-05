@@ -294,7 +294,7 @@ function headers( $extra )
           <table class="feature-list-table">
 	<?php headers( "yes" ); ?>
           <tr>
-          <td class="category" rowspan="14"><b>Input media</b></td>
+          <td class="category" rowspan="15"><b>Input media</b></td>
 
           <?php writefeature( "UDP/RTP Unicast", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
           <?php writefeature( "UDP/RTP Multicast", "yes", "yes", "yes", "no", "yes", "yes" ); ?>
@@ -326,7 +326,7 @@ function headers( $extra )
           </tr>
 
           <tr>
-          <td class="category" rowspan="15"><b>Input formats</b></td>
+          <td class="category" rowspan="18"><b>Input formats</b></td>
           <?php writefeature( "MPEG (ES,PS,TS,PVA,MP3)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
           <?php writefeature( "ID3 tags", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
           <?php writefeature( "AVI", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>

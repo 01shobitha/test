@@ -86,7 +86,7 @@ function headers( $extra )
     <div class="feature-cat-sel" onclick="openFeatures('input')" id="cat-input">Input formats</div>
     <div class="feature-cat" onclick="openFeatures('video')" id="cat-video">Video formats</div>
     <div class="feature-cat" onclick="openFeatures('audio')" id="cat-audio">Audio formats</div>
-    <div class="feature-cat" onclick="openFeatures('sub')" id="cat-sub">Subtitle formats</div>
+    <div class="feature-cat" onclick="openFeatures('sub')" id="cat-sub">Subtitle/Tag formats</div>
     <div class="feature-cat" onclick="openFeatures('av')" id="cat-av">A/V outputs</div>
     <div class="feature-cat" onclick="openFeatures('filters')" id="cat-filters">A/V filters</div>
     <div class="feature-cat" onclick="openFeatures('intf')" id="cat-intf">Interfaces</div>
@@ -103,7 +103,7 @@ function headers( $extra )
             <?php writefeature( "AAC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "Vorbis", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "AC3 - A/52 (Dolby Digital)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-	    <?php writefeature( 'E-AC-3 - A/52 (Dolby Digital) <sup><a href="#audio_notes">1 </a></sup>', "no", "no", "no", "no", "no", "no" ); ?>
+	    <?php writefeature( 'E-AC-3 (Dolby Digital Plus) <sup><a href="#audio_notes">3 </a></sup>', "no", "no", "no", "no", "no", "no" ); ?>
             <?php writefeature( "DTS", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
 	    <?php writefeature( 'MLP / TrueHD <sup><a href="#audio_notes">3</a></sup>', "no", "no", "no", "no", "no", "no" ); ?>
             <?php writefeature( "Alaw/&micro;law", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
@@ -126,14 +126,7 @@ function headers( $extra )
             <?php writefeature( "FLAC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "ALAC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "Speex", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
-            <tr><td class="type">Real Audio <sup><a href="#audio_notes">2</a></sup></td><td class="partial"><img src="/images/features/partial.png" alt="Partial" /></td>
-
-            <td class="partial"><img src="/images/features/partial.png" alt="Partial" /></td>
-            <td class="partial"><img src="/images/features/partial.png" alt="Partial" /></td>
-            <td class="partial"><img src="/images/features/untested.png" alt="Untested" /></td>
-            <td class="partial"><img src="/images/features/partial.png" alt="Partial" /></td>
-            <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-            </tr>
+            <?php writefeature( 'Real Audio <sup><a href="#audio_notes">2</a></sup>', "part", "part", "part", "unt", "part", "no" ); ?>
             <?php writefeature( "QDM2/QDMC (QuickTime)", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
             <?php writefeature( "MACE", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "AMR (3GPP)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
@@ -184,23 +177,9 @@ function headers( $extra )
 
             <?php writefeature( "On2 VP3/VP5/VP6", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
             <?php writefeature( "Indeo Video v3 (IV32)", "yes", "yes", "part", "yes", "part", "yes" ); ?>
+            <?php writefeature( "Indeo Video 4/5 (IV41, IV51)", "no", "no", "no", "no", "no", "no" ); ?>
+            <?php writefeature( 'Real Video <sup><a href="#video_notes">3</a></sup>', "no", "no", "no", "no", "no", "no" ); ?>
 
-          <tr><td class="type">Indeo Video 4/5 (IV41, IV51)</td><td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          </tr>
-          <tr><td class="type">Real Video <sup><a href="#video_notes">3</a></sup></td><td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-
-          <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-
-          <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          </tr>
           </table>
           <div class="notes">
           <ol id="video_notes">
@@ -217,72 +196,31 @@ function headers( $extra )
         </div>
         <div id="feature-list-sub" style="display:none">
           <table class="feature-list-table">
-	<?php headers( "no" ); ?>
+	<?php headers( "yes" ); ?>
+        <tr>
+          <td class="category" rowspan="9"><b>Subtitles</b></td>
+            <?php writefeature_simple( 'DVD <sup><a href="#sub_notes">1</a></sup>', "part", "part", "part", "part", "part", "none" ); ?>
+
+            <?php writefeature( "SVCD / CVD", "yes", "unt", "yes", "unt", "yes", "unt" ); ?>
+            <?php writefeature( "DVB", "yes", "yes", "yes", "yes", "yes", "none" ); ?>
+            <?php writefeature( "Closed captions", "no", "yes", "yes", "no", "unt", "unt" ); ?>
+            <?php writefeature( "OGM", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
+            <?php writefeature( "Text files (MicroDVD,<br/>SubRIP, SubViewer, SSA1-5, SAMI, VPlayer)" , "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
+
+            <?php writefeature( "Vobsub", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
+            <?php writefeature( "CMML", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
+            <?php writefeature( "Universal Subtitle Format (USF)", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
+          </tr>
+
+          <tr style="background:#D4E0F7 !important">
+            <td colspan="8" style="background:#D4E0F7 !important">&nbsp;</td>
+          </tr>
+
           <tr>
-          <td class="type">DVD <sup><a href="#sub_notes">1</a></sup></td><td class="partial"><img src="/images/features/partial.png" alt="Partial" /></td>
-          <td class="partial"><img src="/images/features/partial.png" alt="Partial" /></td>
-
-          <td class="partial"><img src="/images/features/partial.png" alt="Partial" /></td>
-          <td class="partial"><img src="/images/features/partial.png" alt="Partial" /></td>
-          <td class="partial"><img src="/images/features/partial.png" alt="Partial" /></td>
-          <td class="none">-</td>
-          </tr>
-          <tr><td class="type">SVCD / CVD</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-
-          <td class="partial"><img src="/images/features/untested.png" alt="Untested" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="partial"><img src="/images/features/untested.png" alt="Untested" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="none">-</td>
-          </tr>
-          <tr><td class="type">DVB</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="none">-</td>
-          </tr>
-          <tr><td class="type">Closed captions</td><td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-
-          <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          <td class="none">-</td>
-          </tr>
-
-          <tr><td class="type">OGM</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="none">-</td>
-          </tr>
-          <tr><td class="type">Matroska</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="none">-</td>
-
-          </tr>
-          <tr><td class="type">Text files (MicroDVD,<br/>SubRIP, SubViewer, SSA1-5, SAMI, VPlayer)</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="none">-</td>
-          </tr>
-
-          <tr><td class="type">Vobsub</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="none">-</td>
+            <td class="category" rowspan="3"><b>Tags</b></td>
+            <?php writefeature( "ID3 tags", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
+            <?php writefeature( "APEv2", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
+            <?php writefeature( "Vorbis comment", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
           </tr>
           </table>
           <div class="notes">
@@ -332,7 +270,6 @@ function headers( $extra )
           <tr>
           <td class="category" rowspan="17"><b>Input formats</b></td>
           <?php writefeature_simple( "MPEG (ES,PS,TS,PVA,MP3)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-          <?php writefeature( "ID3 tags", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
           <?php writefeature( "AVI", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
           <?php writefeature( "ASF / WMV / WMA", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
           <?php writefeature( "MP4 / MOV / 3GP", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>

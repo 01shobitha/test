@@ -58,7 +58,7 @@ function writefeature( $title, $windows, $mac, $linux, $beos, $bsd, $fam )
     <td class="feature-list">
       <div class="feature-div">
         <!--The different feature tables -->
-        <div id="feature-list-audio">
+        <div id="feature-list-audio" style="display:none">
         <table class="feature-list-table">
           <tr>
             <th class="type"></th>
@@ -331,7 +331,7 @@ function writefeature( $title, $windows, $mac, $linux, $beos, $bsd, $fam )
           </div>
 
         </div>
-        <div id="feature-list-input" style="display:none">
+        <div id="feature-list-input">
           <table class="feature-list-table">
             <tr>
               <th class="category"></th>

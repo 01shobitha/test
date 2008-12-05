@@ -88,14 +88,16 @@ function writefeature( $title, $windows, $mac, $linux, $beos, $bsd, $fam )
           </tr>
             <?php writefeature( "MPEG Layer 1/2", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "MP3", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "AC3 - A/52", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "DTS", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "LPCM", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "AAC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "Vorbis", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "WMA 1/2", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "AC3 - A/52 (Dolby Digital)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+	    <?php /* 1.0 only writefeature( "E-AC-3 - A/52 (Dolby Digital)", "yes", "yes", "yes", "yes", "yes", "yes" ); */?>
+            <?php writefeature( "DTS", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+	    <?php  /* 1.0 only writefeature( "MLP / TrueHD", "yes", "yes", "yes", "yes", "yes", "yes" ); */?>
             <?php writefeature( "Alaw/&micro;law", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "MIDI", "unt", "unt", "yes", "unt", "unt", "unt" ); ?>
+            <?php writefeature( "LPCM", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "WMA 1/2", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <tr>
             <td class="type">WMA 3</td>
             <td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#audio_notes">1</a></sup></td>
@@ -105,16 +107,13 @@ function writefeature( $title, $windows, $mac, $linux, $beos, $bsd, $fam )
             <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
             <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
             </tr>
+            <?php writefeature( "Musepack / MPC", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
             <?php writefeature( "ADPCM", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
             <?php writefeature( "QCELP", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
             <?php writefeature( "DV Audio", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "FLAC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "ALAC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "QDM2/QDMC (QuickTime)", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
-            <?php writefeature( "MACE", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "AMR (3GPP)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "Speex", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
-
             <tr><td class="type">Real Audio <sup><a href="#audio_notes">2</a></sup></td><td class="partial"><img src="/images/features/partial.png" alt="Partial" /></td>
 
             <td class="partial"><img src="/images/features/partial.png" alt="Partial" /></td>
@@ -123,7 +122,14 @@ function writefeature( $title, $windows, $mac, $linux, $beos, $bsd, $fam )
             <td class="partial"><img src="/images/features/partial.png" alt="Partial" /></td>
             <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
             </tr>
-          </tr>
+            <?php writefeature( "QDM2/QDMC (QuickTime)", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
+            <?php writefeature( "MACE", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "AMR (3GPP)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "ATRAC 3", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
+            <?php writefeature( "Wavpack", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "TrueAudio (TTA)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+
+                      </tr>
         </table>
 
         <div class="notes">

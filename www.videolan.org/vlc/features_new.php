@@ -38,7 +38,7 @@ function writefeature_simple( $title, $windows, $mac, $linux, $beos, $bsd, $fam 
 function writefeature( $title, $windows, $mac, $linux, $beos, $bsd, $fam )
 {
    echo "<tr>\n";
-   writefeature_simple( $title, $windows, $mac, $linux, $beos, $bsd, $fam _)
+   writefeature_simple( $title, $windows, $mac, $linux, $beos, $bsd, $fam );
 }
 
 function headers( $extra )

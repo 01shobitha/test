@@ -34,11 +34,12 @@ function writefeature( $title, $windows, $mac, $linux, $beos, $bsd, $fam )
    echo "</tr>\n";
 }
 
-function headers()
+function headers( $extra )
 {
 ?>
        <tr>
             <th class="type"></th>
+<?php  if ( $extra == "yes" ) echo  '<th class="category"></th>'; ?>
             <th class="th-os"><a href="/vlc/download-windows.html">
               <img src="http://images.videolan.org/images/icons/winvista.png" alt="Windows" height="32" width="32" />
             </a></th>
@@ -92,7 +93,7 @@ function headers()
         <div id="feature-list-audio" style="display:none">
         <table class="feature-list-table">
 	<?php headers(); ?>
-               <?php writefeature( "MPEG Layer 1/2", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "MPEG Layer 1/2", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "MP3", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "AAC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "Vorbis", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
@@ -149,7 +150,7 @@ function headers()
         </div>
         <div id="feature-list-video" style="display:none">
           <table class="feature-list-table">
-	<?php headers(); ?>
+            <?php headers(); ?>
             <?php writefeature( "MPEG-1/2", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "DIVX (1/2/3)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "MPEG-4 ASP, DivX 5, XviD, 3ivX D4", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
@@ -210,7 +211,7 @@ function headers()
         </div>
         <div id="feature-list-sub" style="display:none">
           <table class="feature-list-table">
-	<?php headers(); ?>
+	<?php headers( ); ?>
           <tr>
           <td class="type">DVD <sup><a href="#sub_notes">1</a></sup></td><td class="partial"><img src="/images/features/partial.png" alt="Partial" /></td>
           <td class="partial"><img src="/images/features/partial.png" alt="Partial" /></td>
@@ -289,7 +290,7 @@ function headers()
         </div>
         <div id="feature-list-input">
           <table class="feature-list-table">
-<?php headers(); ?>
+	<?php headers( "yes" ); ?>
           <tr>
           <td class="category" rowspan="14"><b>Input media</b></td>
 
@@ -551,7 +552,7 @@ function headers()
         
         <div id="feature-list-av" style="display:none">
           <table class="feature-list-table">
-<?php headers(); ?>
+<?php headers( "yes" ); ?>
         <tr>
           <td class="category" rowspan="6"><b>Video Outputs</b></td>
 

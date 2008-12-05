@@ -92,7 +92,7 @@ function headers( $extra )
         <!--The different feature tables -->
         <div id="feature-list-audio" style="display:none">
         <table class="feature-list-table">
-	<?php headers(); ?>
+	<?php headers( "no" ); ?>
             <?php writefeature( "MPEG Layer 1/2", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "MP3", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "AAC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
@@ -150,7 +150,7 @@ function headers( $extra )
         </div>
         <div id="feature-list-video" style="display:none">
           <table class="feature-list-table">
-            <?php headers(); ?>
+            <?php headers( "no" ); ?>
             <?php writefeature( "MPEG-1/2", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "DIVX (1/2/3)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "MPEG-4 ASP, DivX 5, XviD, 3ivX D4", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
@@ -211,7 +211,7 @@ function headers( $extra )
         </div>
         <div id="feature-list-sub" style="display:none">
           <table class="feature-list-table">
-	<?php headers( ); ?>
+	<?php headers( "no" ); ?>
           <tr>
           <td class="type">DVD <sup><a href="#sub_notes">1</a></sup></td><td class="partial"><img src="/images/features/partial.png" alt="Partial" /></td>
           <td class="partial"><img src="/images/features/partial.png" alt="Partial" /></td>
@@ -552,7 +552,7 @@ function headers( $extra )
         
         <div id="feature-list-av" style="display:none">
           <table class="feature-list-table">
-<?php headers( "yes" ); ?>
+        <?php headers( "yes" ); ?>
         <tr>
           <td class="category" rowspan="6"><b>Video Outputs</b></td>
 

@@ -177,7 +177,7 @@ function writefeature( $title, $windows, $mac, $linux, $beos, $bsd, $fam )
             <?php writefeature( "DV", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "Cinepak", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "Theora", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "Dirac", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
+            <?php writefeature( "Dirac / VC-2", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
             <?php writefeature( "H.261", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
             <?php writefeature( "H.263 / H.263i", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
             <?php writefeature( "MJPEG (A/B)", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>

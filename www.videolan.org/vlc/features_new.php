@@ -192,7 +192,7 @@ function writefeature( $title, $windows, $mac, $linux, $beos, $bsd, $fam )
           </tr>
 
             <?php writefeature( "Sorenson 1/3 (Quicktime)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "DV", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "DV (Digital Video)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
 
             <?php writefeature( "On2 VP3/VP5/VP6", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
             <?php writefeature( "Indeo Video v3 (IV32)", "yes", "yes", "part", "yes", "part", "yes" ); ?>
@@ -477,6 +477,9 @@ function writefeature( $title, $windows, $mac, $linux, $beos, $bsd, $fam )
           <td class="partial"><img src="http://images.videolan.org/images/features/untested.png" alt="Untested" />V4L, V4L2</td>
           </tr>
 
+	<tr style="background:#D4E0F7 !important">
+          <td colspan="8" style="background:#D4E0F7 !important">&nbsp;</td>
+          </tr>
           <tr>
           <td class="category" rowspan="15"><b>Input formats</b></td>
           <td class="type">MPEG (ES,PS,TS,PVA,MP3)</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>

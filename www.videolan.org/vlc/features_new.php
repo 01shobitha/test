@@ -217,8 +217,8 @@ function headers( $extra )
           </tr>
 
           <tr>
-            <td class="category" rowspan="3"><b>Tags</b></td>
-            <?php writefeature( "ID3 tags", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
+            <td class="category" rowspan="4"><b>Tags</b></td>
+            <?php writefeature_simple( "ID3 tags", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
             <?php writefeature( "APEv2", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
             <?php writefeature( "Vorbis comment", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
           </tr>

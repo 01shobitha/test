@@ -1,4 +1,4 @@
-lastCat = "audio";
+lastCat = "input";
 
 function loadFeatures(cat) {
   file = "features_new.php?c="+cat;

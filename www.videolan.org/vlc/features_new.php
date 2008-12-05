@@ -99,7 +99,7 @@ function headers( $extra )
         <!--The different feature tables -->
         <div id="feature-list-audio" style="display:none">
         <table class="feature-list-table">
-	<?php headers( "no" ); ?>
+	    <?php headers( "no" ); ?>
             <?php writefeature( "MPEG Layer 1/2", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "MP3", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "AAC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
@@ -299,7 +299,7 @@ function headers( $extra )
           <table class="feature-list-table">
 	<?php headers( "yes" ); ?>
           <tr>
-          <td class="category" rowspan="15"><b>Input media</b></td>
+          <td class="category" rowspan="14"><b>Input media</b></td>
 
           <?php writefeature_simple( "UDP/RTP Unicast", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
           <?php writefeature( "UDP/RTP Multicast", "yes", "yes", "yes", "no", "yes", "yes" ); ?>
@@ -331,8 +331,8 @@ function headers( $extra )
           </tr>
 
           <tr>
-          <td class="category" rowspan="18"><b>Input formats</b></td>
-          <?php writefeature( "MPEG (ES,PS,TS,PVA,MP3)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+          <td class="category" rowspan="17"><b>Input formats</b></td>
+          <?php writefeature_simple( "MPEG (ES,PS,TS,PVA,MP3)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
           <?php writefeature( "ID3 tags", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
           <?php writefeature( "AVI", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
           <?php writefeature( "ASF / WMV / WMA", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>

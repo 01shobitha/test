@@ -172,14 +172,12 @@ function writefeature( $title, $windows, $mac, $linux, $beos, $bsd, $fam )
             <?php writefeature( "MPEG-1/2", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "DIVX (1/2/3)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "MPEG-4 ASP, DivX 5, XviD, 3ivX D4", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "H.261", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
+            <?php writefeature( "H.263 / H.263i", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
             <?php writefeature( "H.264 / MPEG-4 AVC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "Sorenson 1/3 (Quicktime)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "DV", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "Cinepak", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "Theora", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "Dirac / VC-2", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
-            <?php writefeature( "H.261", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
-            <?php writefeature( "H.263 / H.263i", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
             <?php writefeature( "MJPEG (A/B)", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
             <?php writefeature( "WMV 1/2", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
           <tr>
@@ -192,6 +190,9 @@ function writefeature( $title, $windows, $mac, $linux, $beos, $bsd, $fam )
           <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">1</a></sup></td>
           <td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
           </tr>
+
+            <?php writefeature( "Sorenson 1/3 (Quicktime)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "DV", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
 
             <?php writefeature( "On2 VP3/VP5/VP6", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
             <?php writefeature( "Indeo Video v3 (IV32)", "yes", "yes", "partial", "yes", "partial", "yes" ); ?>

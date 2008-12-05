@@ -210,7 +210,6 @@ function headers( $extra )
             <?php writefeature( "Vobsub", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
             <?php writefeature( "CMML", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
             <?php writefeature( "Universal Subtitle Format (USF)", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
-          </tr>
 
           <tr style="background:#D4E0F7 !important">
             <td colspan="8" style="background:#D4E0F7 !important">&nbsp;</td>

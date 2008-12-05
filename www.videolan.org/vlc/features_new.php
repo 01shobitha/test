@@ -6,6 +6,33 @@
    $additional_js = array("/js/prototype.js","/js/scriptaculous.js","/js/features.js");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
+
+<?php
+function writeonefeature( $a )
+{
+    if ( $a == "yes" )
+       echo '<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>';
+    else if ($a == "no" )
+       echo '<td class="no"><img src="/images/features/cross.png" alt="No" /></td>';
+    else if ( $a == "part" )
+       echo '<td class="partial"><img src="/images/features/partial.png" alt="Partial" /></td>';
+    else if ( $a == "unt" )
+       echo '<td class="partial"><img src="/images/features/untested.png" alt="Untested" /></td>';
+    echo "\n";
+}
+
+function writefeature( $windows, $mac, $linux, $beos, $bsd, $fam )
+{
+   writeonfeature( $windows );
+   writeonfeature( $mac );
+   writeonfeature( $linux );
+   writeonfeature( $beos );
+   writeonfeature( $bsd );
+   writeonfeature( $fam );
+}
+
+?>
+
 <h2>Features</h2>
 <table class="feature-table">
   <tr>
@@ -57,12 +84,8 @@
             </a></th>
           </tr>
           <tr>
-            <td class="type">MPEG Layer 1/2</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+	    <td class="type">MPEG Layer 1/2</td>
+<?php writefeature( "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
           </tr>
           <tr><td class="type">MP3</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
             <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>

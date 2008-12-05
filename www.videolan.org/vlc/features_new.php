@@ -387,7 +387,7 @@ function headers( $extra )
         </div>
         <div id="feature-list-filters" style="display:none">
           <table class="feature-list-table">
-	     <?php headers(); ?>
+	     <?php headers( "yes" ); ?>
                     <tr>
           <td class="category" rowspan="10"><b>Video Filters</b></td>
 

@@ -129,7 +129,6 @@ function writefeature( $title, $windows, $mac, $linux, $beos, $bsd, $fam )
             <?php writefeature( "Wavpack", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "TrueAudio (TTA)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
 
-                      </tr>
         </table>
 
         <div class="notes">

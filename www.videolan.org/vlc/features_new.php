@@ -36,7 +36,7 @@ function writefeature( $title, $windows, $mac, $linux, $beos, $bsd, $fam )
 
 function headers()
 {
-?>
+echo '
        <tr>
             <th class="type"></th>
             <th class="th-os"><a href="/vlc/download-windows.html">
@@ -63,7 +63,7 @@ function headers()
                    width="32" height="32" />
             </a></th>
           </tr>
-<?php
+	  ';
 }
 ?>
 

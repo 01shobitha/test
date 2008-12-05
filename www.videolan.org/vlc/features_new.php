@@ -46,10 +46,10 @@ function writefeature( $title, $windows, $mac, $linux, $beos, $bsd, $fam )
   <tr>
     <td class="feature-cat-list">
     <!--Categories-->
-    <div class="feature-cat-sel" onclick="openFeatures('audio')" id="cat-audio">Audio formats</div>
+    <div class="feature-cat-sel" onclick="openFeatures('input')" id="cat-input">Input formats</div>
     <div class="feature-cat" onclick="openFeatures('video')" id="cat-video">Video formats</div>
+    <div class="feature-cat" onclick="openFeatures('audio')" id="cat-audio">Audio formats</div>
     <div class="feature-cat" onclick="openFeatures('sub')" id="cat-sub">Subtitle formats</div>
-    <div class="feature-cat" onclick="openFeatures('input')" id="cat-input">Input formats</div>
     <div class="feature-cat" onclick="openFeatures('av')" id="cat-av">A/V outputs</div>
     <div class="feature-cat" onclick="openFeatures('filters')" id="cat-filters">A/V filters</div>
     <div class="feature-cat" onclick="openFeatures('intf')" id="cat-intf">Interfaces</div>

@@ -195,7 +195,7 @@ function writefeature( $title, $windows, $mac, $linux, $beos, $bsd, $fam )
             <?php writefeature( "DV", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
 
             <?php writefeature( "On2 VP3/VP5/VP6", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
-            <?php writefeature( "Indeo Video v3 (IV32)", "yes", "yes", "partial", "yes", "partial", "yes" ); ?>
+            <?php writefeature( "Indeo Video v3 (IV32)", "yes", "yes", "part", "yes", "part", "yes" ); ?>
 
           <tr><td class="type">Indeo Video 4/5 (IV41, IV51)</td><td class="no"><img src="/images/features/cross.png" alt="No" /></td>
           <td class="no"><img src="/images/features/cross.png" alt="No" /></td>

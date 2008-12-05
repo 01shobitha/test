@@ -23,9 +23,8 @@ function writeonefeature( $a )
     echo "\n";
 }
 
-function writefeature( $title, $windows, $mac, $linux, $beos, $bsd, $fam )
+function writefeature_simple( $title, $windows, $mac, $linux, $beos, $bsd, $fam )
 {
-   echo "<tr>\n";
    echo '<td class="type">'.$title.'</td>';
    writeonefeature( $windows );
    writeonefeature( $mac );
@@ -34,6 +33,12 @@ function writefeature( $title, $windows, $mac, $linux, $beos, $bsd, $fam )
    writeonefeature( $bsd );
    writeonefeature( $fam );
    echo "</tr>\n";
+}
+
+function writefeature( $title, $windows, $mac, $linux, $beos, $bsd, $fam )
+{
+   echo "<tr>\n";
+   writefeature_simple( $title, $windows, $mac, $linux, $beos, $bsd, $fam _)
 }
 
 function headers( $extra )
@@ -296,7 +301,7 @@ function headers( $extra )
           <tr>
           <td class="category" rowspan="15"><b>Input media</b></td>
 
-          <?php writefeature( "UDP/RTP Unicast", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+          <?php writefeature_simple( "UDP/RTP Unicast", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
           <?php writefeature( "UDP/RTP Multicast", "yes", "yes", "yes", "no", "yes", "yes" ); ?>
           <?php writefeature( "HTTP / FTP", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
           <?php writefeature( "MMS", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>

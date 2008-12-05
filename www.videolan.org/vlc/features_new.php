@@ -73,7 +73,7 @@ function headers( $extra )
 }
 ?>
 
-<h2>Features</h2>
+<h2>VLC playback Features</h2>
 <table class="feature-table">
   <tr>
     <td class="feature-table-lefttop">&nbsp;</td>

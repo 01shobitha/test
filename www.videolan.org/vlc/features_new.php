@@ -5,9 +5,7 @@
    $additional_css = array("/vlc/features.css");
    $additional_js = array("/js/prototype.js","/js/scriptaculous.js","/js/features.js");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
-?>
 
-<?php
 function writeonefeature( $a )
 {
     if ( $a == "yes" )
@@ -105,9 +103,9 @@ function headers( $extra )
             <?php writefeature( "AAC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "Vorbis", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "AC3 - A/52 (Dolby Digital)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-	    <?php /* 1.0 only writefeature( "E-AC-3 - A/52 (Dolby Digital)", "yes", "yes", "yes", "yes", "yes", "yes" ); */?>
+	    <?php writefeature( 'E-AC-3 - A/52 (Dolby Digital) <sup><a href="#audio_notes">1 </a></sup>', "no", "no", "no", "no", "no", "no" ); ?>
             <?php writefeature( "DTS", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-	    <?php  /* 1.0 only writefeature( "MLP / TrueHD", "yes", "yes", "yes", "yes", "yes", "yes" ); */?>
+	    <?php writefeature( 'MLP / TrueHD <sup><a href="#audio_notes">3</a></sup>', "no", "no", "no", "no", "no", "no" ); ?>
             <?php writefeature( "Alaw/&micro;law", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "MIDI", "unt", "unt", "yes", "unt", "unt", "unt" ); ?>
             <?php writefeature( "LPCM", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
@@ -123,7 +121,7 @@ function headers( $extra )
             </tr>
             <?php writefeature( "Musepack / MPC", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
             <?php writefeature( "ADPCM", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
-            <?php writefeature( "QCELP", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
+            <?php writefeature( "QCELP", "no", "no", "no", "no", "no", "no" ); ?>
             <?php writefeature( "DV Audio", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "FLAC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "ALAC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
@@ -151,6 +149,7 @@ function headers( $extra )
           allow WMV-3/WMA-3 decoding. This feature is untested on Intel-based Macs.</li>
           <li>Real Audio playback is provided through the FFmpeg-library
           which does only support a limited number of RA derivatives.</li>
+	  <li>E-AC-3, MLP and QCELP codecs will be added in VLC version 1.0</li>
         </ol>
         </div>
 

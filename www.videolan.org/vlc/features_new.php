@@ -391,136 +391,29 @@ function headers( $extra )
                     <tr>
           <td class="category" rowspan="10"><b>Video Filters</b></td>
 
-          <td class="type">Deinterlace</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
+          <?php writefeature_simple( "Deinterlace", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+          <?php writefeature( "Cropping", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+          <?php writefeature( "Image wall", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+          <?php writefeature( "Image adjust", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+          <?php writefeature( "Rotate/Mirror", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+          <?php writefeature( "Logo overlay", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+          <?php writefeature( "Magnification", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+          <?php writefeature( "Image distortion", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+          <?php writefeature( "Bluescreen", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+          <?php writefeature( "RSS/Atom feeds", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
 
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          </tr>
-          <tr><td class="type">Cropping</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          </tr>
-
-          <tr><td class="type">Image wall</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          </tr>
-          <tr><td class="type">Image adjust</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          </tr>
-
-          <tr><td class="type">Rotate/Mirror</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-
-          </tr>
-          <tr><td class="type">Logo overlay</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          </tr>
-
-          <tr><td class="type">Magnification</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          </tr>
-
-          <tr><td class="type">Image distortion</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          </tr>
-
-          <tr><td class="type">Bluescreen</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          </tr>
-          <tr><td class="type">RSS/Atom feeds</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          </tr>
           <tr style="background:#D4E0F7 !important">
           <td colspan="8" style="background:#D4E0F7 !important">&nbsp;</td>
           </tr>
           <tr><td class="category" rowspan="2"><b>Audio Filters</b></td>
-          <td class="type">Visualization effects</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-
-          </tr>
-          <tr><td class="type">Equalizer</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          </tr>
+          <?php writefeature_simple( "Visualization effects", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+          <?php writefeature( "Equalizer", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
 
           </table>
         </div>
         <div id="feature-list-intf" style="display:none">
           <table class="feature-list-table">
-            <tr>
-              <th class="type"></th>
-              <th class="th-os"><a href="/vlc/download-windows.html">
-                <img src="http://images.videolan.org/images/icons/winvista.png" alt="Windows" height="32" width="32" />
-              </a></th>
-              <th class="th-os"><a href="/vlc/download-macosx.html">
-                <img src="http://images.videolan.org/images/icons/macosx.png" alt="Mac OS X" width="32" height="32" />
-              </a></th>
-
-              <th class="th-os"><a href="/vlc/index.html">
-                <img src="http://images.videolan.org/images/icons/linux.png" alt="Linux" width="32" height="32" />
-
-              </a></th>
-              <th class="th-os"><a href="/vlc/download-beos.html">
-                <img src="http://images.videolan.org/images/icons/beos.png" alt="BeOS" width="32" height="32" />
-              </a></th>
-              <th class="th-os"><a href="/vlc/download-sources.html">
-                <img src="http://images.videolan.org/images/icons/freebsd.png" alt="FreeBSD" width="32" height="32" />
-
-                <img src="http://images.videolan.org/images/icons/openbsd.png" alt="OpenBSD" width="32" height="32" />
-              </a></th>
-              <th class="th-os"><a href="/vlc/download-familiar.html">
-                <img src="http://images.videolan.org/images/icons/familiar.png" alt="Familiar Linux"
-                     width="32" height="32" />
-              </a></th>
-            </tr>
+	   <?php headers( "no" ); ?>
           <tr>
           <td class="type">Default</td>
 
@@ -533,115 +426,21 @@ function headers( $extra )
           <td class="yes">GPE</td>
           </tr>
 
-          <tr><td class="type">Qt4</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-
-          <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-
-          <td class="none">-</td>
-          <td class="partial"><img src="/images/features/untested.png" alt="Untested" /></td>
-          <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          </tr>
-          <tr><td class="type">Skins</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          </tr>
-          <tr><td class="type">Web</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          </tr>
-          <tr><td class="type">Telnet</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          </tr>
-          <tr><td class="type">Command line</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          </tr>
-          <tr><td class="type">Infrared</td><td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          </tr>
+          <?php writefeature( "Qt4", "yes", "no", "yes", "none", "unt", "none" ); ?>
+          <?php writefeature( "Skins", "yes", "no", "yes", "no", "unt", "none" ); ?>
+          <?php writefeature( "Web", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+          <?php writefeature( "Telnet", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+          <?php writefeature( "Command line", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+          <?php writefeature( "Infrared", "no", "no", "yes", "no", "no", "no" ); ?>
           </table>
         </div>
         <div id="feature-list-misc" style="display:none">
           <table class="feature-list-table">
-            <tr>
-              <th class="type"></th>
-              <th class="th-os"><a href="/vlc/download-windows.html">
-                <img src="http://images.videolan.org/images/icons/winvista.png" alt="Windows" height="32" width="32" />
-              </a></th>
-              <th class="th-os"><a href="/vlc/download-macosx.html">
-                <img src="http://images.videolan.org/images/icons/macosx.png" alt="Mac OS X" width="32" height="32" />
-              </a></th>
-
-              <th class="th-os"><a href="/vlc/index.html">
-                <img src="http://images.videolan.org/images/icons/linux.png" alt="Linux" width="32" height="32" />
-
-              </a></th>
-              <th class="th-os"><a href="/vlc/download-beos.html">
-                <img src="http://images.videolan.org/images/icons/beos.png" alt="BeOS" width="32" height="32" />
-              </a></th>
-              <th class="th-os"><a href="/vlc/download-sources.html">
-                <img src="http://images.videolan.org/images/icons/freebsd.png" alt="FreeBSD" width="32" height="32" />
-
-                <img src="http://images.videolan.org/images/icons/openbsd.png" alt="OpenBSD" width="32" height="32" />
-              </a></th>
-              <th class="th-os"><a href="/vlc/download-familiar.html">
-                <img src="http://images.videolan.org/images/icons/familiar.png" alt="Familiar Linux"
-                     width="32" height="32" />
-              </a></th>
-            </tr>
-            <tr><td class="type">SAP/SDP announces</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          </tr>
-          <tr><td class="type">Bonjour protocol</td><td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="partial"><img src="/images/features/untested.png" alt="Untested" /></td>
-          <td class="partial"><img src="/images/features/untested.png" alt="Untested" /></td>
-          <td class="partial"><img src="/images/features/untested.png" alt="Untested" /></td>
-          </tr>
-          <tr><td class="type">Mozilla/Firefox plugin</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          </tr>
-          <tr><td class="type">ActiveX plugin</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="none">-</td>
-          <td class="none">-</td>
-          <td class="none">-</td>
-          <td class="none">-</td>
-          <td class="none">-</td>
-
-          </tr>
+	   <?php headers( "no" ); ?>
+           <?php writefeature( "SAP/SDP announces", "yes", "yes", "yes", "no", "yes", "no" ); ?>
+           <?php writefeature( "Bonjour protocol", "no", "yes", "yes", "unt", "unt", "unt" ); ?>
+           <?php writefeature( "Mozilla/Firefox plugin", "yes", "yes", "yes", "no", "yes", "no" ); ?>
+           <?php writefeature( "ActiveX plugin", "yes", "none", "none", "none", "none", "none" ); ?>
           <tr><td class="type">SVCD Menus</td><td class="partial"><img src="/images/features/partial.png" alt="Partial" /></td>
           <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
           <td class="partial"><img src="/images/features/partial.png" alt="Partial" /></td>

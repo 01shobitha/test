@@ -5,7 +5,8 @@
 <a href="http://www.videolan.org/sa0811.html">Refer to our advisory</a>
 for technical details.
 Fixes for this issue is available in VLC 0.9.8a.
-We strongly recommend all users to update to this new version.
+We strongly recommend all users to update to this new version.<br />
+Windows and Mac OS builds are coming at a later date.
 
 |24 November 2008|VLC media player SourceForge Award|<img src="http://people.videolan.org/~jb/SourceForge_Award/thumbnails/012-VLC_SourceForge_Awards-013.jpg.small.jpeg" alt="Sourceforge VLC award" style="float:left; margin-right:5px"/>
 VLC media player won <a href="http://sourceforge.net/community/cca08/" hreflang="en">a Community Choice Award</a>, organised by our friends from SourceForge, this summer. We just received the award.<br />

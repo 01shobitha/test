@@ -74,7 +74,7 @@ http://mirror.yandex.ru/mirrors/ftp.videolan.org/|Yandex|Russia|ru|HTTP|1000
 #  Tigran Afrikyan <mirrors  qt adc dot am> 
 # Not very reliable
 # gives false-positive in the mirror.v.o script
-http://vlc.mirrors.adc.am/|Armenian Datacom Company|Armenia|am|HTTP|200
+#http://vlc.mirrors.adc.am/|Armenian Datacom Company|Armenia|am|HTTP|200
 #
 # Technotop Networks, The Netherlands
 # Robbert van Hulsentop <robbert at technotop dot nl>
@@ -118,4 +118,4 @@ http://vlc.mirrors.arminco.com/|Arminco|Armenia|am|HTTP|100
 # Neil Bright <neil   .   bright   oit . gatech . edu>
 # Exist in ftp and rsync
 # 1Gbps (10Gbps on internet2)
-http://www.gtlib.gatech.edu/pub/videolan/|Georgia Tech|USA|us|HTTP|1000 
+#http://www.gtlib.gatech.edu/pub/videolan/|Georgia Tech|USA|us|HTTP|1000 

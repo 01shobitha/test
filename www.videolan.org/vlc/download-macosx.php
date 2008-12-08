@@ -19,7 +19,7 @@
 -->
 
 
-<?php $vlc_version = "0.9.6"; ?>
+<?php $vlc_version = "0.9.8a"; ?>
 <h2>Latest Mac OS X package for 10.4 and 10.5 (release <?php echo $vlc_version; ?>)</h2>
 
 <?php pkgitem( "Universal Binary",

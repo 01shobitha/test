@@ -17,7 +17,7 @@ options (besides downloading and installing the RPMs manually).</p>
 <p>In order to install VLC on openSUSE, you have multiple options
 (besides downloading and installing the RPMs manually).</p>
 
-<h2>Installing VLC using <a href="http://en.opensuse.org/One_Click_Install/UserFAQ">1-click-installs</a></h2>
+<h2 style="float: clear">Installing VLC using <a href="http://en.opensuse.org/One_Click_Install/UserFAQ">1-click-installs</a></h2>
 <div>
 <div class="installbtn" style="float:left;">
   <a href="http://download.videolan.org/pub/vlc/SuSE/11.1/vlc.ymp">VLC on 11.1</a>
@@ -44,11 +44,11 @@ Directory: /pub/videolan/vlc/SuSE/&lt;SUSE Version&gt;
 </pre>
 <p>Replace &lt;SUSE Version&gt; in the Directory above with your installed SuSE
 Version. Supported at this time are :</p>
-<pre>
-10.3
-11.0
+<p>
+10.3<br />
+11.0<br />
 11.1
-</pre>
+</p>
 <p>Confirm the addition.<br />
 </p>
 
@@ -75,11 +75,11 @@ Have a lot of Fun.
 </p>
 
 <h2>Install using command line<h2>
-<code>
+<pre>
 sudo zypper ar http://download.videolan.org/pub/vlc/SuSE/<openSUSEversion> VLC
 sudo zypper mr -r VLC
 sudo zypper in vlc
-</code>
+</pre>
 
 <p>openSUSEversion can be 10.3, 11.0 or 11.1</p>
 

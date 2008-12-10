@@ -14,19 +14,24 @@
 <p>In order to install VLC on an openSUSE, you have several
 options (besides downloading and installing the RPMs manually).</p>
 
-<p>The instructions here are to be followed using YaST, the native
-SUSE/openSUSE Package manager, which exists in all versions. For SUSE 11.0 or 10.3, use the appropriate one click installer.
-</p>
+<p>In order to install VLC on openSUSE, you have multiple options
+(besides downloading and installing the RPMs manually).</p>
 
-<h2>Installing VLC on openSUSE 11.0</h2>
-<div class="installbtn" style="float: none;">
-<a href="http://download.videolan.org/pub/vlc/SuSE/11.0/vlc.ymp">1-Click Install </a></div>
-<br />
-<h2>Installing VLC on openSUSE 10.3</h2>
-<div class="installbtn" style="float: none;">
-<a href="http://download.videolan.org/pub/vlc/SuSE/10.3/vlc.ymp">1-Click Install </a></div>
-<br />
-<h2>Download VLC media player for SUSE Linux using YaST</h2>
+<h2>Installing VLC using <a href="http://en.opensuse.org/One_Click_Install/UserFAQ">1-click-installs</a></h2>
+<div>
+<div class="installbtn" style="float:left;">
+  <a href="http://download.videolan.org/pub/vlc/SuSE/11.1/vlc.ymp">VLC on 11.1</a>
+</div>
+
+<div class="installbtn" style="float: left;">
+  <a href="http://download.videolan.org/pub/vlc/SuSE/11.0/vlc.ymp">VLC on 11.0</a>
+</div>
+<div class="installbtn" style="float: left;">
+  <a href="http://download.videolan.org/pub/vlc/SuSE/10.3/vlc.ymp">VLC on 10.3</a>
+</div>
+</div>
+
+<h2>Install VLC media player for SUSE Linux using YaST</h2>
 <h3>Add VideoLAN's repository</h3>
 <p>
 First, add a new repository (installation source) in YaST (YaST2 ->
@@ -40,9 +45,9 @@ Directory: /pub/videolan/vlc/SuSE/&lt;SUSE Version&gt;
 <p>Replace &lt;SUSE Version&gt; in the Directory above with your installed SuSE
 Version. Supported at this time are :</p>
 <pre>
-10.2
 10.3
 11.0
+11.1
 </pre>
 <p>Confirm the addition.<br />
 </p>
@@ -68,6 +73,16 @@ vlc-mozillaplugin manually. It does not get installed by dependencies.</p>
 You're done with the installation.
 Have a lot of Fun.
 </p>
+
+<h2>Install using command line<h2>
+<code>
+sudo zypper ar http://download.videolan.org/pub/vlc/SuSE/<openSUSEversion> VLC
+sudo zypper mr -r VLC
+sudo zypper in vlc
+</code>
+
+<p>openSUSEversion can be 10.3, 11.0 or 11.1</p>
+
 </div>
 
 <div id="right">

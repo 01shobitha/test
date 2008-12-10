@@ -255,7 +255,7 @@ function headers( $extra )
           <td class="type">Video acquisition</td>
           <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> Direct Show</td>
 
-          <td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
+          <td class="part"><img src="http://images.videolan.org/images/features/partial.png" alt="part" /> iSight, EyeTV <sup><a href="#input_notes">4</a></sup></td>
           <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> V4L, V4L2</td>
           <td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
           <td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
@@ -297,6 +297,7 @@ function headers( $extra )
             frames (often used in menus) and switching between different video
             formats is problematic.</li>
             <li>VLC for GNU/Linux supports V4L2 compatible encoding cards as well as two kinds of MPEG-2 encoding cards: Hauppauge WinTV-PVR-250/350 and Visiontech Kfir.</li>
+            <li>Starting with version 0.9.0, VLC supports iSight capturing and processing on Mac OS X 10.5 or later (video only). This is unsupported on 10.4. Additionally, on 10.4 or later, VLC is able to grab video and audio from EyeTV applications and therefore all EyeTV-compatible capture devices. The user needs to install a plugin to EyeTV.app in order to use this features. Guidance is provide in the User Interface.</li>
             </ol>
           </div>
 
@@ -311,7 +312,7 @@ function headers( $extra )
 
           <td class="type">Native</td>
           <td class="yes">Direct3D<br/>DirectX<br/>GDI</td>
-          <td class="yes">OpenGL<br/>Quartz <sup><a href="#av_notes">1</a></sup></td>
+          <td class="yes">OpenGL</td>
 
           <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
           <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
@@ -319,7 +320,7 @@ function headers( $extra )
           <td class="yes">Qte/X11</td>
           </tr>
 
-	  <?php writefeature( "X11", "none", "none", "yes", "none", "yes", "yes" ); ?>
+	  <?php writefeature( "X11", "none", "unt", "yes", "none", "yes", "yes" ); ?>
 	  <?php writefeature( "XVideo", "none", "none", "yes", "none", "yes", "yes" ); ?>
 	  <?php writefeature( "SDL", "yes", "no", "yes", "unt", "yes", "yes" ); ?>
 	  <?php writefeature( "FrameBuffer", "none", "none", "yes", "none", "none", "unt" ); ?>
@@ -379,12 +380,6 @@ function headers( $extra )
 	  <?php writefeature( "JACK", "none", "unt", "yes", "none", "unt", "unt" ); ?>
 
           </table>
-
-          <div class="notes">
-          <ol>
-          <li>The Quartz module is available on PowerPC-based Macs only.</li>
-          </ol>
-          </div>
         </div>
         <div id="feature-list-filters" style="display:none">
           <table class="feature-list-table">
@@ -427,7 +422,7 @@ function headers( $extra )
           <td class="yes">GPE</td>
           </tr>
 
-          <?php writefeature( "Qt4", "yes", "no", "yes", "none", "unt", "none" ); ?>
+          <?php writefeature( "Qt4", "yes", "unt", "yes", "none", "unt", "none" ); ?>
           <?php writefeature( "Skins", "yes", "no", "yes", "no", "unt", "none" ); ?>
           <?php writefeature( "Web", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
           <?php writefeature( "Telnet", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>

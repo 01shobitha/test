@@ -95,142 +95,6 @@ function headers( $extra )
     <td class="feature-list">
       <div class="feature-div">
         <!--The different feature tables -->
-        <div id="feature-list-audio" style="display:none">
-        <table class="feature-list-table">
-	    <?php headers( "no" ); ?>
-            <?php writefeature( "MPEG Layer 1/2", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "MP3", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "AAC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "Vorbis", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "AC3 - A/52 (Dolby Digital)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-	    <?php writefeature( 'E-AC-3 (Dolby Digital Plus) <sup><a href="#audio_notes">3 </a></sup>', "no", "no", "no", "no", "no", "no" ); ?>
-            <?php writefeature( "DTS", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-	    <?php writefeature( 'MLP / TrueHD <sup><a href="#audio_notes">3</a></sup>', "no", "no", "no", "no", "no", "no" ); ?>
-            <?php writefeature( "Alaw/&micro;law", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "MIDI", "unt", "unt", "yes", "unt", "unt", "unt" ); ?>
-            <?php writefeature( "LPCM", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "WMA 1/2", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <tr>
-            <td class="type">WMA 3</td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#audio_notes">1</a></sup></td>
-            <td class="no"><img src="/images/features/cross.png" alt="No" /> <sup><a href="#audio_notes">1</a></sup></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#audio_notes">1</a></sup></td>
-            <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-            <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-            <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-            </tr>
-            <?php writefeature( "Musepack / MPC", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
-            <?php writefeature( "ADPCM", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
-            <?php writefeature( "QCELP", "no", "no", "no", "no", "no", "no" ); ?>
-            <?php writefeature( "DV Audio", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "FLAC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "ALAC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "Speex", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
-            <?php writefeature( 'Real Audio <sup><a href="#audio_notes">2</a></sup>', "part", "part", "part", "unt", "part", "no" ); ?>
-            <?php writefeature( "QDM2/QDMC (QuickTime)", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
-            <?php writefeature( "MACE", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "AMR (3GPP)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "ATRAC 3", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
-            <?php writefeature( "Wavpack", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "TrueAudio (TTA)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-
-        </table>
-
-        <div class="notes">
-        <ol id="audio_notes">
-          <li>Windows DMO codecs can be used by VLC on 32-bit x86 platforms and 
-          allow WMV-3/WMA-3 decoding. This feature is untested on Intel-based Macs.</li>
-          <li>Real Audio playback is provided through the FFmpeg-library
-          which does only support a limited number of RA derivatives.</li>
-	  <li>E-AC-3, MLP and QCELP codecs will be added in VLC version 1.0</li>
-        </ol>
-        </div>
-
-        </div>
-        <div id="feature-list-video" style="display:none">
-          <table class="feature-list-table">
-            <?php headers( "no" ); ?>
-            <?php writefeature( "MPEG-1/2", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "DIVX (1/2/3)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "MPEG-4 ASP, DivX 4/5/6, XviD, 3ivX D4", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "H.261", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
-            <?php writefeature( "H.263 / H.263i", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
-            <?php writefeature( "H.264 / MPEG-4 AVC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "Cinepak", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "Theora", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "Dirac / VC-2", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
-            <?php writefeature( "MJPEG (A/B)", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
-            <?php writefeature( "WMV 1/2", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
-          <tr>
-          <td class="type">WMV 3 / WMV-9 / VC-1</td>
-          <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">1, 2</a></sup></td>
-          <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">1</a></sup></td>
-          <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">1, 2</a></sup></td>
-          <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">1</a></sup></td>
-
-          <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">1</a></sup></td>
-          <td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
-          </tr>
-
-            <?php writefeature( "Sorenson 1/3 (Quicktime)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "DV (Digital Video)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-
-            <?php writefeature( "On2 VP3/VP5/VP6", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
-            <?php writefeature( "Indeo Video v3 (IV32)", "yes", "yes", "part", "yes", "part", "yes" ); ?>
-            <?php writefeature( "Indeo Video 4/5 (IV41, IV51)", "no", "no", "no", "no", "no", "no" ); ?>
-            <?php writefeature( 'Real Video 1/2', "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( 'Real Video 3/4<sup><a href="#video_notes">3</a></sup>', "no", "no", "no", "no", "no", "no" ); ?>
-
-          </table>
-          <div class="notes">
-          <ol id="video_notes">
-            <li>WMV-3 / WMV-9 / VC-1 playback is provided through the FFmpeg-library
-            starting with VLC 0.8.6.</li>
-            <li>Windows DMO codecs can be used by VLC on 32-bit x86 platforms and
-            allow WMV-3/WMA-3 decoding. This feature is untested on Intel-based Macs.</li>
-            <li>VLC's 1.0.0 release will introduce support for RV30 and RV40 based upon
-            the additions to the FFmpeg-library by one their Google Summer of Code 2007
-            projects.</li>
-
-          </ol>
-          </div>
-        </div>
-        <div id="feature-list-sub" style="display:none">
-          <table class="feature-list-table">
-	<?php headers( "yes" ); ?>
-        <tr>
-          <td class="category" rowspan="9"><b>Subtitles</b></td>
-            <?php writefeature_simple( 'DVD <sup><a href="#sub_notes">1</a></sup>', "part", "part", "part", "part", "part", "none" ); ?>
-
-            <?php writefeature( "SVCD / CVD", "yes", "unt", "yes", "unt", "yes", "unt" ); ?>
-            <?php writefeature( "DVB", "yes", "yes", "yes", "yes", "yes", "none" ); ?>
-            <?php writefeature( "Closed captions", "no", "yes", "yes", "no", "unt", "unt" ); ?>
-            <?php writefeature( "OGM", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
-            <?php writefeature( "Text files (MicroDVD,<br/>SubRIP, SubViewer, SSA1-5, SAMI, VPlayer)" , "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
-
-            <?php writefeature( "Vobsub", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
-            <?php writefeature( "CMML", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
-            <?php writefeature( "Universal Subtitle Format (USF)", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
-
-          <tr style="background:#D4E0F7 !important">
-            <td colspan="8" style="background:#D4E0F7 !important">&nbsp;</td>
-          </tr>
-
-          <tr>
-            <td class="category" rowspan="4"><b>Tags</b></td>
-            <?php writefeature_simple( "ID3 tags", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
-            <?php writefeature( "APEv2", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
-            <?php writefeature( "Vorbis comment", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
-          </table>
-          <div class="notes">
-          <ol id="sub_notes">
-          <li>
-          Full color for YUV-type chromas is not handled, only the gray-scale value. Subtitle transparency is not fully supported for all chromas. Some chromas are not handled at all.
-          </li>
-          </ol>
-          </div>
-
-        </div>
         <div id="feature-list-input">
           <table class="feature-list-table">
 	<?php headers( "yes" ); ?>
@@ -302,9 +166,144 @@ function headers( $extra )
           </div>
 
         </div>
+        <div id="feature-list-video">
+          <table class="feature-list-table">
+            <?php headers( "no" ); ?>
+            <?php writefeature( "MPEG-1/2", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "DIVX (1/2/3)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "MPEG-4 ASP, DivX 4/5/6, XviD, 3ivX D4", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "H.261", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
+            <?php writefeature( "H.263 / H.263i", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
+            <?php writefeature( "H.264 / MPEG-4 AVC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "Cinepak", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "Theora", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "Dirac / VC-2", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
+            <?php writefeature( "MJPEG (A/B)", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
+            <?php writefeature( "WMV 1/2", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
+          <tr>
+          <td class="type">WMV 3 / WMV-9 / VC-1</td>
+          <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">1, 2</a></sup></td>
+          <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">1</a></sup></td>
+          <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">1, 2</a></sup></td>
+          <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">1</a></sup></td>
+
+          <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">1</a></sup></td>
+          <td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
+          </tr>
+
+            <?php writefeature( "Sorenson 1/3 (Quicktime)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "DV (Digital Video)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+
+            <?php writefeature( "On2 VP3/VP5/VP6", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
+            <?php writefeature( "Indeo Video v3 (IV32)", "yes", "yes", "part", "yes", "part", "yes" ); ?>
+            <?php writefeature( "Indeo Video 4/5 (IV41, IV51)", "no", "no", "no", "no", "no", "no" ); ?>
+            <?php writefeature( 'Real Video 1/2', "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( 'Real Video 3/4<sup><a href="#video_notes">3</a></sup>', "no", "no", "no", "no", "no", "no" ); ?>
+
+          </table>
+          <div class="notes">
+          <ol id="video_notes">
+            <li>WMV-3 / WMV-9 / VC-1 playback is provided through the FFmpeg-library
+            starting with VLC 0.8.6.</li>
+            <li>Windows DMO codecs can be used by VLC on 32-bit x86 platforms and
+            allow WMV-3/WMA-3 decoding. This feature is untested on Intel-based Macs.</li>
+            <li>VLC's 1.0.0 release will introduce support for RV30 and RV40 based upon
+            the additions to the FFmpeg-library by one their Google Summer of Code 2007
+            projects.</li>
+
+          </ol>
+          </div>
+        </div>        
+        <div id="feature-list-audio">
+        <table class="feature-list-table">
+	    <?php headers( "no" ); ?>
+            <?php writefeature( "MPEG Layer 1/2", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "MP3", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "AAC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "Vorbis", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "AC3 - A/52 (Dolby Digital)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+	    <?php writefeature( 'E-AC-3 (Dolby Digital Plus) <sup><a href="#audio_notes">3 </a></sup>', "no", "no", "no", "no", "no", "no" ); ?>
+            <?php writefeature( "DTS", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+	    <?php writefeature( 'MLP / TrueHD <sup><a href="#audio_notes">3</a></sup>', "no", "no", "no", "no", "no", "no" ); ?>
+            <?php writefeature( "Alaw/&micro;law", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "MIDI", "unt", "unt", "yes", "unt", "unt", "unt" ); ?>
+            <?php writefeature( "LPCM", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "WMA 1/2", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <tr>
+            <td class="type">WMA 3</td>
+            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#audio_notes">1</a></sup></td>
+            <td class="no"><img src="/images/features/cross.png" alt="No" /> <sup><a href="#audio_notes">1</a></sup></td>
+            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#audio_notes">1</a></sup></td>
+            <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
+            <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
+            <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
+            </tr>
+            <?php writefeature( "Musepack / MPC", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
+            <?php writefeature( "ADPCM", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
+            <?php writefeature( "QCELP", "no", "no", "no", "no", "no", "no" ); ?>
+            <?php writefeature( "DV Audio", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "FLAC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "ALAC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "Speex", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
+            <?php writefeature( 'Real Audio <sup><a href="#audio_notes">2</a></sup>', "part", "part", "part", "unt", "part", "no" ); ?>
+            <?php writefeature( "QDM2/QDMC (QuickTime)", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
+            <?php writefeature( "MACE", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "AMR (3GPP)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "ATRAC 3", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
+            <?php writefeature( "Wavpack", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "TrueAudio (TTA)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+
+        </table>
+
+        <div class="notes">
+        <ol id="audio_notes">
+          <li>Windows DMO codecs can be used by VLC on 32-bit x86 platforms and 
+          allow WMV-3/WMA-3 decoding. This feature is untested on Intel-based Macs.</li>
+          <li>Real Audio playback is provided through the FFmpeg-library
+          which does only support a limited number of RA derivatives.</li>
+          <li>E-AC-3, MLP and QCELP codecs will be added in VLC version 1.0</li>
+        </ol>
+        </div>
+
+        </div>
+        <div id="feature-list-sub">
+          <table class="feature-list-table">
+	<?php headers( "yes" ); ?>
+        <tr>
+          <td class="category" rowspan="9"><b>Subtitles</b></td>
+            <?php writefeature_simple( 'DVD <sup><a href="#sub_notes">1</a></sup>', "part", "part", "part", "part", "part", "none" ); ?>
+
+            <?php writefeature( "SVCD / CVD", "yes", "unt", "yes", "unt", "yes", "unt" ); ?>
+            <?php writefeature( "DVB", "yes", "yes", "yes", "yes", "yes", "none" ); ?>
+            <?php writefeature( "Closed captions", "no", "yes", "yes", "no", "unt", "unt" ); ?>
+            <?php writefeature( "OGM", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
+            <?php writefeature( "Text files (MicroDVD,<br/>SubRIP, SubViewer, SSA1-5, SAMI, VPlayer)" , "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
+
+            <?php writefeature( "Vobsub", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
+            <?php writefeature( "CMML", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
+            <?php writefeature( "Universal Subtitle Format (USF)", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
         
+          <tr style="background:#D4E0F7 !important">
+            <td colspan="8" style="background:#D4E0F7 !important">&nbsp;</td>
+          </tr>
+
+          <tr>
+            <td class="category" rowspan="4"><b>Tags</b></td>
+            <?php writefeature_simple( "ID3 tags", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
+            <?php writefeature( "APEv2", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
+            <?php writefeature( "Vorbis comment", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
+          </table>
+          <div class="notes">
+          <ol id="sub_notes">
+          <li>
+          Full color for YUV-type chromas is not handled, only the gray-scale value. Subtitle transparency is not fully supported for all chromas. Some chromas are not handled at all.
+          </li>
+          </ol>
+          </div>
+
+        </div>
         
-        <div id="feature-list-av" style="display:none">
+        <div id="feature-list-av">
           <table class="feature-list-table">
         <?php headers( "yes" ); ?>
         <tr>
@@ -381,7 +380,7 @@ function headers( $extra )
 
           </table>
         </div>
-        <div id="feature-list-filters" style="display:none">
+        <div id="feature-list-filters">
           <table class="feature-list-table">
 	     <?php headers( "yes" ); ?>
                     <tr>
@@ -407,7 +406,7 @@ function headers( $extra )
 
           </table>
         </div>
-        <div id="feature-list-intf" style="display:none">
+        <div id="feature-list-intf">
           <table class="feature-list-table">
 	   <?php headers( "no" ); ?>
           <tr>
@@ -430,7 +429,7 @@ function headers( $extra )
           <?php writefeature( "Infrared", "no", "no", "yes", "no", "no", "no" ); ?>
           </table>
         </div>
-        <div id="feature-list-misc" style="display:none">
+        <div id="feature-list-misc">
           <table class="feature-list-table">
 	   <?php headers( "no" ); ?>
            <?php writefeature( "SAP/SDP announces", "yes", "yes", "yes", "no", "yes", "no" ); ?>
@@ -540,6 +539,7 @@ function headers( $extra )
 <h2>Streaming</h2>
 <p>See the <a href="/streaming-features.html">Streaming features page</a></p>
 <br/>
-<?php
-footer('$Id: features.php 4814 2008-12-03 15:00 CEST altglass $'); 
-?>
+<script language="JavaScript">  
+$('feature-list-video', 'feature-list-audio', 'feature-list-sub', 'feature-list-av', 'feature-list-filters', 'feature-list-intf', 'feature-list-misc').invoke('hide');
+</script>
+<?php footer('$Id: features.php 4814 2008-12-12 13:30 CEST altglass $'); ?>

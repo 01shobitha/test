@@ -14,9 +14,6 @@
 <p>In order to install VLC on an openSUSE, you have several
 options (besides downloading and installing the RPMs manually).</p>
 
-<p>In order to install VLC on openSUSE, you have multiple options
-(besides downloading and installing the RPMs manually).</p>
-
 <h2 style="float: clear">Installing VLC using <a href="http://en.opensuse.org/One_Click_Install/UserFAQ">1-click-installs</a></h2>
 <div>
 <div class="installbtn" style="float:left;">
@@ -76,7 +73,7 @@ You're done with the installation.
 Have a lot of Fun.
 </p>
 
-<h2>Install using command line<h2>
+<h2>Install using command line</h2>
 <pre>
 sudo zypper ar http://download.videolan.org/pub/vlc/SuSE/<openSUSEversion> VLC
 sudo zypper mr -r VLC

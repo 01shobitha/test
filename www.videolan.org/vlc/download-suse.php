@@ -31,6 +31,8 @@ options (besides downloading and installing the RPMs manually).</p>
 </div>
 </div>
 
+<br />
+
 <h2>Install VLC media player for SUSE Linux using YaST</h2>
 <h3>Add VideoLAN's repository</h3>
 <p>

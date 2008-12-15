@@ -75,7 +75,7 @@ Have a lot of Fun.
 
 <h2>Install using command line</h2>
 <pre>
-sudo zypper ar http://download.videolan.org/pub/vlc/SuSE/<openSUSEversion> VLC
+sudo zypper ar http://download.videolan.org/pub/vlc/SuSE/&lt;openSUSEversion&gt; VLC
 sudo zypper mr -r VLC
 sudo zypper in vlc
 </pre>

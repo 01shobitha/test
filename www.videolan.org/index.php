@@ -46,9 +46,9 @@
           <h1>VLC media player 0.9.8a</h1>
           
           <ul class="panel-blue-bullet">
-            <li>It is a free cross-platform media player</li>
-            <li>It supports a <a href="/vlc/features.html">large number of multimedia formats</a>, without the need for additional codecs</li>
-            <li>It can also be used as a streaming server, with extended 
+            <li>Free and Open Source cross-platform media player</li>
+            <li>Supports a <a href="/vlc/features.html">large number of multimedia formats</a>, without the need for additional codecs</li>
+            <li>Features a complete streaming server, with extended 
 		features (video on demand, on the fly transcoding, ...)</li>
           </ul>
 	<p class="center">

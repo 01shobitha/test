@@ -119,3 +119,8 @@ http://vlc.mirrors.arminco.com/|Arminco|Armenia|am|HTTP|100
 # Exist in ftp and rsync
 # 1Gbps (10Gbps on internet2)
 #http://www.gtlib.gatech.edu/pub/videolan/|Georgia Tech|USA|us|HTTP|1000 
+#
+# Location: Germany
+# Christian
+# HTTP (but ftp exists too)
+http://mirror.informatik.uni-mannheim.de/pub/mirrors/videolan.org/|Universitaet Mannheim|Germany|de|HTTP|1000

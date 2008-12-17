@@ -539,7 +539,7 @@ function headers( $extra )
 <h2>Streaming</h2>
 <p>See the <a href="/streaming-features.html">Streaming features page</a></p>
 <br/>
-<script language="JavaScript">  
+<script type="text/javascript">
 $('feature-list-video', 'feature-list-audio', 'feature-list-sub', 'feature-list-av', 'feature-list-filters', 'feature-list-intf', 'feature-list-misc').invoke('hide');
 </script>
 <?php footer('$Id: features.php 4814 2008-12-12 13:30 CEST altglass $'); ?>

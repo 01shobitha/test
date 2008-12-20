@@ -9,6 +9,14 @@
 
 <div id="fullwidth">
 
+<h2>20, 21 December 2008 - First Dev Days '08</h2>
+
+<p>
+The VideoLAN community is a fast-evolving and ever-changing community and development happens really fast. While this is fun, it is always difficult to meet and discuss with each other in person.</p>
+
+<p>Here is what it looks like…</p>
+<img src="http://download.videolan.org/events/20081220/live.jpg" alt="Live view" />
+
 <h2>23, 24 February 2008 - FOSDEM</h2>
 
 <p>Once again, a few of us attended <a href="http://www.fosdem.org/2008/">FOSDEM</a> this year. We didn't hold any presentation but it was a nice occasion for us developers to meet in real life and to discuss about VideoLAN future, especially the migration from SVN to GIT and the release of VLC 0.9.</p>

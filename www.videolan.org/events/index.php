@@ -2,6 +2,8 @@
    $title = "VideoLAN - the events";
    $lang = "en";
    $menu = array( "project", "events" );
+   $additional_js = array("/js/prototype.js","/js/scriptaculous.js","/js/features.js");
+
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
@@ -15,8 +17,11 @@
 The VideoLAN community is a fast-evolving and ever-changing community and development happens really fast. While this is fun, it is always difficult to meet and discuss with each other in person.</p>
 
 <p>Here is what it looks like…</p>
-<img src="http://download.videolan.org/events/20081220/live.jpg" alt="Live view" />
-
+<img id='devdaysliveimg' src="http://download.videolan.org/events/20081220/live.jpg" alt="Live view" />
+<script>new PeriodicalExecuter(function(pe) {
+var liveimg = new Image();
+$('devdaysliveimg').src = "http://download.videolan.org/events/20081220/live.jpg?rnd="+Math.random();
+},5); </script>
 <h2>23, 24 February 2008 - FOSDEM</h2>
 
 <p>Once again, a few of us attended <a href="http://www.fosdem.org/2008/">FOSDEM</a> this year. We didn't hold any presentation but it was a nice occasion for us developers to meet in real life and to discuss about VideoLAN future, especially the migration from SVN to GIT and the release of VLC 0.9.</p>

@@ -35,7 +35,7 @@ echo "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n";
    <title><?php echo $title; ?></title>
    <link rel="alternate" type="application/rss+xml" title="RSS - News" href="/videolan-news.rss" />
    <link rel="stylesheet" type="text/css" href="/main.css" />
-   <?php 
+   <?php
       if( isset($additional_css) ) {
         foreach($additional_css as $css) {
           ?>
@@ -54,7 +54,7 @@ echo "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n";
 <![endif]-->
    <link rel="shortcut icon" type="image/x-icon"
          href="/images/icons/favicon.ico" />
-  <?php 
+  <?php
       if( isset($additional_js) ) {
         foreach($additional_js as $js) {
           ?>

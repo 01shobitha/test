@@ -8,7 +8,7 @@ Happy holidays and Merry Christmas to everyone.
 While this is fun, it is always difficult to meet and discuss with each other in person.<br />
 Therefore, we are happy to invite you to: <strong> The VideoLAN Dev Days '08 </strong>, in Paris, France, on the 20-21 December week-end.<br />
 If you are a developper, a VLC fan or press, and you are interested to come or discuss with the team, please <a href="/team/">contact us</a>.<br />
-We would like to thank the three companies that sponsor us: <a href="http://www.anevia.com">Anevia</a>, <a href="http://free.fr">Free</a> and <a href="http://www.uniways.fr">Uniways</a><br />.
+We would like to thank the three companies that sponsor us: <a href="http://www.anevia.com">Anevia</a>, <a href="http://free.fr">Free</a> and <a href="http://www.uniways.fr">Uniways</a>.<br />
 <b>Update:</b> You can have a look at the meeting <a href="http://www.videolan.org/events/">here</a>.
 
 |08 December 2008| VLC 0.9.8a binaries for Windows and Mac OS|VLC media player 0.9.8a binaries for <a href="http://www.videolan.org/vlc/download-windows.html">Windows</a> and <a href="http://www.videolan.org/vlc/download-macosx.html">MacOS</a> are now available.<br />

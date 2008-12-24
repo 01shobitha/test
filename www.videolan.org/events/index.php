@@ -18,10 +18,6 @@ The VideoLAN community is a fast-evolving and ever-changing community and develo
 
 <p>Here is what it looks like…</p>
 <img id='devdaysliveimg' src="http://download.videolan.org/events/20081220/live.jpg" alt="Live view" />
-<script>new PeriodicalExecuter(function(pe) {
-var liveimg = new Image();
-$('devdaysliveimg').src = "http://download.videolan.org/events/20081220/live.jpg?rnd="+Math.random();
-},5); </script>
 <h2>23, 24 February 2008 - FOSDEM</h2>
 
 <p>Once again, a few of us attended <a href="http://www.fosdem.org/2008/">FOSDEM</a> this year. We didn't hold any presentation but it was a nice occasion for us developers to meet in real life and to discuss about VideoLAN future, especially the migration from SVN to GIT and the release of VLC 0.9.</p>

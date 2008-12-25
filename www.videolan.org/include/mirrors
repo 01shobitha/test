@@ -124,3 +124,8 @@ http://vlc.mirrors.arminco.com/|Arminco|Armenia|am|HTTP|100
 # Christian
 # HTTP (but ftp exists too)
 http://mirror.informatik.uni-mannheim.de/pub/mirrors/videolan.org/|Universitaet Mannheim|Germany|de|HTTP|1000
+#
+# Location: UK
+# Melissa, adm 47 existonline.co.uk
+# 250Mbit through GigE, Amsterdam
+http://mirror.exinet.co.uk/videolan/|Exist Online|United Kingdom|uk|HTTP|250

@@ -210,12 +210,12 @@ cooperation of our partners, on both technical and financial sides: </p>
   </tr>
   <tr>
     <td>
-	<p class="center"><a href="http://www.vthr.com/"><img
-	src="http://images.videolan.org/images/partners/vthr.png" width="149" height="50" alt="VTHR" /></a></p>
+	<p class="center"><img
+	src="http://images.videolan.org/images/partners/vthr.png" width="149" height="50" alt="VTHR" /></p>
     </td>
     <td>
 
- <p>VTHR is the first digital network for High-Resolution               
+ <p>VTHR used to be is the first digital network for High-Resolution               
  Video Transmission. We have developed the satellite input,             
  deinterlacing routines and support for 4:2:2 MPEG-2 in VLC             
  for them. VTHR gave us a computer which used to host the <a          

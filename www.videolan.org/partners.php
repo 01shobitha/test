@@ -173,7 +173,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   </tr>
   <tr>
     <td>
-	<p class="center"><a href="http://www.btexact.com/"><img
+	<p class="center"><a href="http://btplc.com/Innovation/"><img
 	src="http://images.videolan.org/images/partners/BTexact.png" width="160" height="56" alt="BTexact
 	Technologies" /></a></p>
     </td>

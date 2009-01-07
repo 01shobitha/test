@@ -15,6 +15,30 @@ for professional services to order.</p>
 
 <table>
 
+<tr><td colspan="2"><h2>M2X</h2></td></tr>
+<tr>
+<td><p class="center">
+  <a href="http://www.m2x.nl/">
+  <img src="http://images.videolan.org/images/partners/m2x.png" alt="M2X" width="224" height="103" />
+  </a></p>
+</td>
+<td>
+<p><a href="http://www.m2x.nl/">M2X</a> is an ICT company that is specialized in using Open Source software
+for providing solutions to IT problem areas of Networking (wired or
+ wireless), Embedded and Multimedia. The founder of the company is a
+VideoLAN developer <a href="http://jpsaman.org">Jean-Paul Saman</a> (see the <a href="/team/">VideoLAN team page</a>
+for more information on his contributions).</p>
+
+<p>In typical modern ICT solutions the three expertise areas Networking,
+   Embedded and Multimedia are present. Either being targeted at consumer
+   electronics (eg: settop boxes) for IPTV solutions or big servers
+   machines.<br />
+   M2X provides innovative solutions for these use cases through
+   its experience in developing and integrating Open Source software like
+   <a href="/vlc/">VLC</a> and embedded linux in customer products.</p>
+   </td>
+</tr>
+
 <tr><td colspan="2"><h2>Anevia</h2></td></tr>
 <tr>
 <td><p class="center">
@@ -28,30 +52,6 @@ know more about them, see the <a href="/team/">VideoLAN team page</a>).
 Anevia sells professional video servers and provides development and
 integration of high quality video streaming solutions.</td>
 </tr>
-
-<tr><td colspan="2"><h2>M2X</h2></td></tr>
-<tr>
-<td><p class="center">
-  <a href="http://www.m2x.nl/">
-  <img src="http://images.videolan.org/images/partners/m2x.png" alt="M2X" width="224" height="103" />
-  </a></p>
-</td>
-<td>
-<p>M2X is an ICT company that is specialized in using Open Source software
-for providing solutions to IT problem areas of Networking (wired or
- wireless), Embedded and Multimedia. The founder of the company is a
-VideoLAN developer Jean-Paul Saman (see the <a href="/team/">VideoLAN team page</a>
-for more information on his contributions).</p>
-
-<p>In typical modern ICT solutions the three expertise areas Networking,
-   Embedded and Multimedia are present. Either being targeted at consumer
-   electronics (eg: settop boxes) for IPTV solutions or big servers
-   machines. M2X provides innovative solutions for these use cases through
-   its experience in developing and integrating Open Source software like
-   VLC and embedded linux in customer products.</p>
-   </td>
-</tr>
-
 </table>
 
 

@@ -16,9 +16,6 @@ http://mirrors.ircam.fr/pub/videolan/|IRCAM|France|fr|HTTP|1000
 # Contact : Emmanuel dot Blindauer at urs dot u-strasbg dot fr - BW : 1 GBit
 ftp://ftp.u-strasbg.fr/pub/videolan/|Université de Strasbourg|France|fr|FTP|1000
 #
-# Durga - Contact VIA - 30 Mbit
-#http://ftp2.via.ecp.fr/pub/videolan/|VIA Centrale Reseaux, École Centrale Paris|France|fr|HTTP|30
-#
 # Contact: #crans on irc.rezosup.net - 
 # Contact: roots at crans dot org
 ftp://ftp.crans.org/pub/videolan/|Cr@ns, ENS Cachan|France|fr|FTP|100
@@ -48,10 +45,6 @@ http://mirror.services.wisc.edu/mirrors/videolan/|University of Wisconsin - Madi
 #
 # Contact : Ionic, ionic at root24 dot de - 100 Mbit
 ftp://root24.eu/pub/videolan/|Root24|Germany|de|FTP|100
-#
-# contact=Attn:System Administrator mail=admin at 301networks.com, Maryland, 
-#http://www.301networks.com/Mirrors/VLC/|301NETWORKS|USA|us|HTTP|100
-#
 #
 # Contact : James Laver,james . laver at gmail dot com
 # Contact2 : Tony Dodd tony at wefixtech dot co dot uk

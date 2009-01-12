@@ -91,7 +91,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   <tr>
     <td>
         <p class="center"><a href="http://uniways.fr/"><img
-        src="http://images.videolan.org/images/partners/uniways.png" width="150" alt="Uniways" height="91" /></a></p>
+        src="http://images.videolan.org/images/partners/uniways.png" width="150" alt="Uniways" height="88" /></a></p>
     </td>
     <td>
 

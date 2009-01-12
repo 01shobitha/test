@@ -28,7 +28,7 @@ ftp://videolan.cs.pu.edu.tw/others/VideoLAN/|Providence University|Taiwan|tw|FTP
 http://ftp.endpoint.nu/pub/software/videolan/|Endpoint Corporation|Sweden|se|HTTP|200
 #
 # Contact : richard at flazdesk dot com - BW 100 Mbits - East coast
-http://mirrors.optralan.com/videolan/|Optralan|USA|us|HTTP|100
+#http://mirrors.optralan.com/videolan/|Optralan|USA|us|HTTP|100
 #
 # Contact : jason andrade - jason at aarnet dot edu dot au - BW 10Gbit (?)
 # Australian Academic and Research Network

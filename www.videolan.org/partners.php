@@ -83,6 +83,27 @@ cooperation of our partners, on both technical and financial sides: </p>
     </td>
   </tr>
 
+<tr>
+    <td colspan="2">
+        <h2> Uniways </h2>
+    </td>
+  </tr>
+  <tr>
+    <td>
+        <p class="center"><a href="http://uniways.fr/"><img
+        src="http://images.videolan.org/images/partners/uniways.png" width="150" alt="Uniways" height="91" /></a></p>
+    </td>
+    <td>
+
+    <p><a href="http://uniways.fr/">Uniways</a> is a leading company in
+        videosurveillance systems. They use VLC media player in some products
+        to send camera video to mobile devices.<br/>
+        They helped us porting VLC media player to Windows Mobile and sponsored our first DevDays in 2008.
+    </p>
+
+    </td>
+  </tr>
+
   <tr>
     <td colspan="2">
         <h2> École Centrale Paris</h2>

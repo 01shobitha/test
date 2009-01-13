@@ -12,8 +12,75 @@
 </div>
 <h1>How to create a resizable window</h1>
 <p>
-This tutorial has yet to be written.
+This tutorial will show you how to create a resizable window with VLC Skin Editor.<br>
+It will show only how a background can made resizable. Resizing from the right side, bottom side and bottom left corner is covered.
 </p>
+<p class="important">
+Please note that this tutorial does not completely cover all aspects of resizable windows. A complete tutorial will be put up in the future.
+</p>
+<h2>1. Preparation</h2>
+First take a png-file you want for your background. Then make a window
+with a window layout and place <br>your background in that window.
+</p><!-- http://images.videolan.org/images/skinedhlp/resizable/ -->
+<img style="height: 600px; width: 800px; float:right" alt="Basic Layout" title="Basic Layout" src="../../images/skinedhlp/resizable/01Basic.jpg"><br>
+<h2>2. Define maximum width and height</h2>
+<p>
+In the example the background image is 400x300 pixels. Because the
+layout must be resizable open the<br>layout settings by double-clicking on Resizable-layout:<br>
+<br>
+<img style="width: 312px; height: 324px;" alt="Layout settings" src="../../images/skinedhlp/resizable/05layoutsettings.jpg"><br>
+<br>
+With the Dimensions you can set the maximum/minimum width and height of the
+layout. Choose it as you like. <br>
+</p>
+<h2>3. Glue corners</h2>
+In the Items Window, now open the Image Settings for the image
+Resizable Background.<br><br><br>
+<img style="width: 250px; height: 490px;" alt="Background settings" src="../../images/skinedhlp/resizable/02bgsettings.jpg">
+
+<br>
+<br>
+Set the general attributes Lefttop and Rightbottom. Lefttop of the
+background sticks to the left top and <br>rightbottom to the rightbottom. <br>When you set Action to move, you can move your window around your screen while holding right mouse button.<br>
+<h2>4. Adding the grips</h2>
+The next step is to add the grips where you can get the window to
+resize it. In this example these grips<br>will be a square in the bottom left corner and
+two bars. One on the bottom side and one on the right side.<br>To make the
+grips add the SubBitmaps Bottomright, Bottombar and Rightbar to the bitmap background&nbsp;in<br>the Resources
+window.<br>
+<br>
+<br>
+Adding a SubBitmap requires to give the top left hand coordinates and
+the dimensions of the SubBitMap.<br>The bottom right square is 20x20
+pixels, the Rightbar 20x260, depending on the height of the background.<br>
+
+<br>
+<img style="width: 338px; height: 360px;" alt="Botom right settings" src="../../images/skinedhlp/resizable/Bottomrightsettings.jpg">
+<img style="width: 337px; height: 358px;" alt="subbitmapsettings" src="../../images/skinedhlp/resizable/04subbitmapsettings.jpg"><br>
+<br><br>When you finish the addition of the subbitmaps your resources window should look like:<br><br>
+<img style="width: 188px; height: 199px;" alt="Subbitmaps" title="Subbitmaps" src="../../images/skinedhlp/resizable/03subbitmaps.jpg"><br><br><br>
+When the subbitmaps are defined add them to the resizable layout in the
+Itemslist as Images. <br>Each time a subbitmap is added fill in their attributes. <br>
+<br>
+<img style="width: 250px; height: 490px;" alt="Bottom right" src="../../images/skinedhlp/resizable/08bottomright2.jpg">
+<img style="width: 250px; height: 490px;" alt="Bottombarresizer" src="../../images/skinedhlp/resizable/bottombarresizer.jpg">
+<img style="width: 250px; height: 490px;" alt="RIghtbar resizer" src="../../images/skinedhlp/resizable/rightbarresizer.jpg"><br>
+<br>
+The bottom right hand resizer should stay in the bottom right corner
+stick both Lefttop and RightBottom to rightbottom.<br>Now choose Action:
+resizeSE. This is horizontal and vertical resizing.<br>
+The bottombarresizer should stick with the corners to leftbotttom and
+rightbottom. Choose resizeS for vertical resizing.<br>
+The rightbarresizer should stick with the top leftcorner and botom
+rightcorner. Choose resizeE for horizontal resizing.<br>
+
+<br>
+The final result will be something like this:<br>
+<br>
+<img style="width: 800px; height: 600px;" alt="Bottomright" src="../../images/skinedhlp/resizable/07bottomright.jpg"><br>
+<h2>5. Finish</h2>Save your work and export the skin as vlt file. If you open VLC, you can go to the newly made skin and see that it works!<br>
+<br>
+<br>
 <p class="footer">
 &copy; 2008 All rights reserved to the VideoLAN team.
 </p>

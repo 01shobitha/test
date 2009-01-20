@@ -78,7 +78,7 @@ cooperation of our partners, on both technical and financial sides: </p>
 	main server in one of their datacenters near Paris.<br />
 	Free is also using VLC for their FreePlayer project.
 	</p>
-
+    <p>Free hosted and sponsored our first DevDays in 2008.</p>
 
     </td>
   </tr>
@@ -100,6 +100,31 @@ cooperation of our partners, on both technical and financial sides: </p>
         to send camera video to mobile devices.<br/>
         They helped us porting VLC media player to Windows Mobile and sponsored our first DevDays in 2008.
     </p>
+
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+        <h2> CYBERVIA </h2>
+    </td>
+  </tr>
+  <tr>
+    <td>
+        <p class="center"><a href="http://www.cybervia.com/"><img
+        src="http://images.videolan.org/images/partners/cybervia.png" width="220" alt="Cybervia" height="88" /></a></p>
+    </td>
+    <td>
+
+    <p><a href="http://www.cybervia.com/">CYBERVIA</a> SAS is a young French company
+    dedicated to the distribution and the selling of digital products for the
+    general public. In 2008 the company released its new product CYBERVIA.
+    CYBERVIA is the first personal HDTV media server accessible in local or
+    remote. CYBERVIA gathers all digital home-life. CYBERVIA is at the same time
+    a smart HDTV programs recorder, a personal server and a media center which
+    provides the digital home-life convergence on every multimedia device.</p>
+
+    <p>CYBERVIA SAS supports VLC being a financial contributor to the hosting of
+    the VideoLAN development server (Skanda server).</p>
 
     </td>
   </tr>

@@ -172,7 +172,7 @@ cooperation of our partners, on both technical and financial sides: </p>
 <h1> Past Partners </h1>
 <h2> We would like to thank other companies that helped us in the past, on both technical and financial sides: </h2>
 
-<p><a href="http://www.ibm.com">IBM</a> gave servers to <a href="http://www.via.ecp.fr/via/index.html?lang=en">VIA</a> to host VideoLAN services and
+<p><a href="http://www.ibm.com">IBM</a> gave servers to <a href="http://www.via.ecp.fr/via/index-en.html">VIA</a> to host VideoLAN services and
 awarded VideoLAN in the <a href="http://www-1.ibm.com/linux/news/ilsc.shtml">Linux Challenge</a>, an international challenge for opensource  projects developed by university students.</p>
 <p><a href="http://btplc.com/Innovation/">British Telecom Exact Technologie</a> developed an IPv6 port of the VideoLAN solution.</p>
 <p><a href="http://www.att.com/">AT&amp;T</a> developed a multicast support for VLC.</p>

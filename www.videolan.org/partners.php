@@ -74,8 +74,8 @@ cooperation of our partners, on both technical and financial sides: </p>
     </td>
     <td>
 
-	<p>The French ISP <a href="http://free.fr/">Free S.A.S</a> is hosting the project 
-	main server in one of their datacenters near Paris.<br />
+	<p>The French ISP <a href="http://free.fr/">Free S.A.S</a> hosts 3 of our
+  servers in one of their datacenters near Paris.<br />
 	Free is also using VLC for their FreePlayer project.
 	</p>
     <p>Free hosted and sponsored our first DevDays in 2008.</p>

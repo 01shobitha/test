@@ -171,147 +171,15 @@ cooperation of our partners, on both technical and financial sides: </p>
 
 <h1> Past Partners </h1>
 <p> We would like to thank other companies that helped us in the past, on both technical and financial sides: </p>
-<table border="0" cellspacing="0">
-  <tr>
-    <td colspan="2">
-        <h2> IBM </h2>
-    </td>
-  </tr>
-  <tr>
-    <td>
-        <p class="center"><a href="http://www.ibm.com"><img
-        src="http://images.videolan.org/images/partners/ibm.png" width="107" alt="IBM" height="45" /></a></p>
-    </td>
-    <td>
 
-        <p>IBM gave two Netfinity servers (<a
-        href="http://www.via.ecp.fr/inauguration.html">see picture</a>
-        - Nov 2000) and an xSeries server (<a href="http://www.via.ecp.fr/membres/vie/montage-ibm-2005/">April 2005</a>) to the <a
-        href="http://www.via.ecp.fr/via/index.html?lang=en">VIA
-        Centrale Réseaux</a> association which manages the network of
-        the student campus of the <a href="http://www.ecp.fr/">École
-        Centrale Paris</a>. These servers now run the <a
-        href="/developers/lists.html">mailing
-        lists</a>, <a
-        href="ftp://ftp.videolan.org/pub/videolan/">FTP</a>, <a href="http://wiki.videolan.org">Wiki</a>
-        and DNS services. IBM also awarded VideoLAN in the <a
-        href="http://www-1.ibm.com/linux/news/ilsc.shtml">Linux
-        Challenge</a>, an international challenge for opensource
-        projects developed by university students.</p>
-
-    </td>
-  </tr>
-
-  <tr>
-    <td colspan="2">
-    <h2> British Telecom Exact Technologies </h2>
-    </td>
-  </tr>
-  <tr>
-    <td>
-    <p class="center"><a href="http://btplc.com/Innovation/"><img
-    src="http://images.videolan.org/images/partners/BTexact.png" width="160" height="56" alt="BTexact
-    Technologies" /></a></p>
-    </td>
-    <td>
-    <p>British Telecom Exact Technologies developed an IPv6 port of
-    the VideoLAN solution, and contributed it back to the VideoLAN project
-    under the GPL license.</p>
-    </td>
-  </tr>
-
-  <tr>
-    <td colspan="2">
-        <h2> AT&amp;T </h2>
-    </td>
-  </tr>
-  <tr>
-    <td>
-        <p class="center"><a href="http://www.att.com/"><img
-        src="http://images.videolan.org/images/partners/att.png" width="57" height="87" alt="AT&amp;T" /></a></p>
-    </td>
-    <td>
-
-        <p>AT&amp;T developed a multicast support for VLC, and
-        contributed it back to the VideoLAN project under the GPL
-        license.</p>
-
-    </td>
-  </tr>
-
-  <tr>
-    <td colspan="2">
-    <h2> VTHR </h2>
-    </td>
-  </tr>
-  <tr>
-    <td>
-    <p class="center"><img
-    src="http://images.videolan.org/images/partners/vthr.png" width="149" height="50" alt="VTHR" /></p>
-    </td>
-    <td>
-
- <p>VTHR used to be is the first digital network for High-Resolution
- Video Transmission. We have developed the satellite input,
- deinterlacing routines and support for 4:2:2 MPEG-2 in VLC
- for them. VTHR gave us a computer which used to host the <a
- href="http://nightlies.videolan.org/">VLC nightly builds</a>
- and is still used for development.</p>
-
-    </td>
-  </tr>
-
-  <tr>
-    <td colspan="2">
-    <h2> SNCF - Direction de la Recherche </h2>
-    </td>
-  </tr>
-  <tr>
-    <td>
-    <p class="center"><a href="http://recherche.sncf.com/"><img
-    src="http://images.videolan.org/images/partners/sncf.png" alt="SNCF" width="146" height="61" /></a></p>
-    </td>
-    <td>
-    <p>SNCF - Direction de la Recherche (French Railways - Research
-    Area) hired Samuel Hocevar, a VLC developer, to work full-time on
-    enhancing VideoLAN.</p>
-    </td>
-  </tr>
-
-  <tr>
-    <td colspan="2">
-    <h2> I.D.M </h2>
-    </td>
-  </tr>
-  <tr>
-    <td>
-    <p class="center"><a href="http://www.idm.fr"><img
-    src="http://images.videolan.org/images/partners/idm.png" alt="IDM" width="64" height="64" /></a></p>
-    </td>
-    <td>
-    <p>I.D.M hired Simon Latapie, a VLC developer, to work on enhancing VideoLAN.
-    </p>
-    </td>
-  </tr>
-
-  <tr>
-    <td colspan="2">
-    <h2> LaCie </h2>
-    </td>
-  </tr>
-  <tr>
-    <td>
-    <p class="center"><a href="http://www.lacie.com"><img
-    src="http://images.videolan.org/images/partners/LaCie.png" alt="LaCie" width="142" height="61" /></a></p>
-    </td>
-    <td>
-    <p>LaCie offered the team four DVD burners and a 1.6 Terabytes
-           Hard Drive.
-    </p>
-    </td>
-  </tr>
-
-</table>
+<p><a href="http://www.ibm.com">IBM</a> gave servers to <a href="http://www.via.ecp.fr/via/index.html?lang=en">VIA</a> to host VideoLAN services and
+awarded VideoLAN in the <a href="http://www-1.ibm.com/linux/news/ilsc.shtml">Linux Challenge</a>, an international challenge for opensource  projects developed by university students.</p>
+<p><a href="http://btplc.com/Innovation/">British Telecom Exact Technologie</a> developed an IPv6 port of the VideoLAN solution.</p>
+<p><a href="http://www.att.com/">AT&amp;T</a> developed a multicast support for VLC.</p>
+<p><a href="http://recherche.sncf.com/">SNCF</a> hired Samuel Hocevar, a VLC developer, to work full-time on enhancing VideoLAN.</p>
+<p><a href="http://www.idm.fr">I.D.M</a> hired Simon Latapie, a VLC developer, to work on enhancing VideoLAN.
+<p><a href="http://www.lacie.com">Lacie</a> offered the team four DVD burners and a 1.6 Terabytes
+Hard Drive.</p>
 
 
 </div>

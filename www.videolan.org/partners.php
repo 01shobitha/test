@@ -177,7 +177,7 @@ awarded VideoLAN in the <a href="http://www-1.ibm.com/linux/news/ilsc.shtml">Lin
 <p><a href="http://btplc.com/Innovation/">British Telecom Exact Technologie</a> developed an IPv6 port of the VideoLAN solution.</p>
 <p><a href="http://www.att.com/">AT&amp;T</a> developed a multicast support for VLC.</p>
 <p><a href="http://recherche.sncf.com/">SNCF</a> hired Samuel Hocevar, a VLC developer, to work full-time on enhancing VideoLAN.</p>
-<p><a href="http://www.idm.fr">I.D.M</a> hired Simon Latapie, a VLC developer, to work on enhancing VideoLAN.
+<p><a href="http://www.idm.fr">I.D.M</a> hired Simon Latapie, a VLC developer, to work on enhancing VideoLAN.</p>
 <p><a href="http://www.lacie.com">Lacie</a> offered the team four DVD burners and a 1.6 Terabytes
 Hard Drive.</p>
 

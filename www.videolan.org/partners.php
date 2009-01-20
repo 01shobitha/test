@@ -111,7 +111,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   <tr>
     <td>
         <p class="center"><a href="http://www.cybervia.com/"><img
-        src="http://images.videolan.org/images/partners/cybervia.png" width="220" alt="Cybervia" height="88" /></a></p>
+        src="http://images.videolan.org/images/partners/cybervia.jpg" width="220" alt="Cybervia" height="88" /></a></p>
     </td>
     <td>
 

@@ -9,6 +9,7 @@ $mirror_url = $_GET["mirror"];
 $file = $_GET["file"];
 
 if( !isset( $file ) ) { die; }
+if( strchr( $file, '<' ) or strchr( $file, '%' ) or strchr( $file, '>' ) ) die();
 
 if( !isset( $mirror_url ) )
 {
@@ -102,6 +103,7 @@ if( !isset( $mirror_url ) )
 }
 else
 {
+  if( strchr( $mirror_url, '<' ) or strchr( $mirror_url, '%' ) or strchr( $mirror_url, '>' ) ) die();
   /* TODO: we could get the mirror name and country but that requires parsing
    * the mirrors list */
   $mirror_name = "Forced mirror";

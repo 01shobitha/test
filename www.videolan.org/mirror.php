@@ -3,6 +3,7 @@
   $file = $_GET["file"];
 
   if( !isset($file) ) { die; }
+  if( strchr( $file, '<' ) or strchr( $file, '%' ) or strchr( $file, '>' ) ) die();
 
   require $_SERVER["DOCUMENT_ROOT"]."/include/mirrors.php";
 

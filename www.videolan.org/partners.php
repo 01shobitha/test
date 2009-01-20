@@ -62,11 +62,7 @@ cooperation of our partners, on both technical and financial sides: </p>
 
 <table border="0" cellspacing="0">
 
-<tr>
-    <td colspan="2">
-        <h2> Free </h2>
-    </td>
-  </tr>
+<tr><td colspan="2"><h2> Free </h2></td></tr>
   <tr>
     <td>
         <p class="center"><a href="http://free.fr/"><img
@@ -74,20 +70,15 @@ cooperation of our partners, on both technical and financial sides: </p>
     </td>
     <td>
 
-	<p>The French ISP <a href="http://free.fr/">Free S.A.S</a> hosts 3 of our
+    <p>The French ISP <a href="http://free.fr/">Free S.A.S</a> hosts 3 of our
   servers in one of their datacenters near Paris.<br />
-	Free is also using VLC for their FreePlayer project.
-	</p>
+    Free is also using VLC for their FreePlayer project.
+    </p>
     <p>Free hosted and sponsored our first DevDays in 2008.</p>
-
     </td>
   </tr>
 
-<tr>
-    <td colspan="2">
-        <h2> Uniways </h2>
-    </td>
-  </tr>
+  <tr><td colspan="2"><h2> Uniways </h2></td></tr>
   <tr>
     <td>
         <p class="center"><a href="http://uniways.fr/"><img
@@ -100,14 +91,10 @@ cooperation of our partners, on both technical and financial sides: </p>
         to send camera video to mobile devices.<br/>
         They helped us porting VLC media player to Windows Mobile and sponsored our first DevDays in 2008.
     </p>
+    </td>
+  </tr>
 
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2">
-        <h2> CYBERVIA </h2>
-    </td>
-  </tr>
+  <tr><td colspan="2"><h2> CYBERVIA </h2></td></tr>
   <tr>
     <td>
         <p class="center"><a href="http://www.cybervia.com/"><img
@@ -182,6 +169,8 @@ cooperation of our partners, on both technical and financial sides: </p>
   </tr>
 
 
+<h1> Past Partners </h1>
+<p> We would like to thank other companies that helped us in the past, on both technical and financial sides: </p>
   <tr>
     <td colspan="2">
         <h2> IBM </h2>

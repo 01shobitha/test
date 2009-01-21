@@ -18,17 +18,23 @@ on a voluntary basis.</p>
 help for VideoLAN software. We will do our best.</p>
 
 
-<h2>Getting help</h2>
+<h2>Documentation</h2>
 
 <h3>FAQ</h3>
 <p>If you have any questions about VideoLAN, about VLC media player, you should
 <strong>always start</strong> by reading the <a href="http://wiki.videolan.org/Frequently_Asked_Questions">Official FAQ</a>.</p>
 
+<h3>Documentation</h3>
+<p>You can access our <a href="http://wiki.videolan.org/Documentation:Documentation">Documentation</a>,
+about <a href="http://wiki.videolan.org/Documentation:Play_HowTo">VLC playback</a> and
+<a href="http://wiki.videolan.org/Documentation:Streaming_HowTo">VLC Streaming</a>.</p>
+
+<h2>Getting help</h2>
 <h3>HOW TO</h3>
 <p>If you have a question about how to do something with VLC media player or
 other VideoLAN software, you should:</p>
 <ul>
-<li> read the <a href="/doc/">Documentation</a>,</li>
+<li> read the <a href="http://wiki.videolan.org/Documentation:Documentation">Documentation</a>,</li>
 <li>browse our <a href="http://wiki.videolan.org/">wiki</a> and its knowledge 
 database.</li>
 </ul>

@@ -1,4 +1,4 @@
-AuthName "Skin administration"
+AuthName "Private pages: Skins/Stats"
 AuthUserFile /var/www/local/.htpasswd.videolan
 AuthGroupFile /dev/null
 AuthType Basic

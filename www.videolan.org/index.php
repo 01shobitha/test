@@ -11,7 +11,7 @@
   
   <div id="left">
   <h2>About VideoLAN</h2>
-  <p>VideoLAN is a software <a href="/project">project</a>, which produces
+  <p>VideoLAN is a software <a href="/project/">project</a>, which produces
   <a href="http://www.gnu.org/philosophy/free-sw.html">free and open source
  software</a> for video, released under the GNU <a
   href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">General Public

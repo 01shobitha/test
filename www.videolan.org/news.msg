@@ -187,7 +187,7 @@ Have a look <a href="http://wiki.videolan.org/Changelog/0.8.6b">here</a> for the
 Have a look <a href="http://developers.videolan.org/vlc/NEWS">here</a> for the full list of changes.<br />
 Binary packages and the source code are available on the <a href="/vlc/">
 VLC download page</a>.<br />
-You can get help concerning this new release on the <a href="/doc/">Documentation Page</a>, <a href="http://forum.videolan.org/">Forum</a>, <a href="http://wiki.videolan.org" >Wiki</a>, <a
+You can get help concerning this new release on the <a href="http://wiki.videolan.org/Documentation:Documentation/">Documentation Page</a>, <a href="http://forum.videolan.org/">Forum</a>, <a href="http://wiki.videolan.org" >Wiki</a>, <a
 href="/support/lists.html" >Mailing Lists</a> or in #videolan on Freenode. 
 Remember to reset your preferences if you experience problems
 after upgrading from a previous version.
@@ -208,7 +208,7 @@ Have a look <a href="http://developers.videolan.org/vlc/NEWS">here</a>
 for the full list of changes.<br />
 Binary packages and the source code are available on the <a href="/vlc/">
 VLC download page</a>.<br />
-You can get help concerning this new release on the <a href="/doc/"
+You can get help concerning this new release on the <a href="http://wiki.videolan.org/Documentation:Documentation/"
 >Documentation Page</a>, <a href="http://forum.videolan.org/"
 >Forum</a>, <a href="http://wiki.videolan.org" >Wiki</a>, <a
 href="/support/lists.html" >Mailing Lists</a> or on #videolan on
@@ -244,7 +244,7 @@ MusePack is also now enabled in Windows version. Have a look
 list of changes.<br />
 Binary packages and the source code are available on the <a href="/vlc/">
 VLC download page</a>. We have at least updated the BeOS package.<br />
-You can get help concerning this new release on the <a href="/doc/"
+You can get help concerning this new release on the <a href="http://wiki.videolan.org/Documentation:Documentation/"
 >Documentation Page</a>, <a href="http://forum.videolan.org/"
 >Forum</a>, <a href="http://wiki.videolan.org" >Wiki</a>, <a
 href="/support/lists.html" >Mailing Lists</a> or on #videolan on
@@ -261,7 +261,7 @@ Have a look <a href="http://developers.videolan.org/vlc/NEWS">here</a>
 for the full list of changes.<br />
 Binary packages and the source code are available on the <a href="/vlc/">
 VLC download page</a>.<br />
-You can get help concerning this new release on the <a href="/doc/"
+You can get help concerning this new release on the <a href="http://wiki.videolan.org/Documentation:Documentation/"
 >Documentation Page</a>, <a href="http://forum.videolan.org/"
 >Forum</a>, <a href="http://wiki.videolan.org" >Wiki</a>, <a
 href="/support/lists.html" >Mailing Lists</a> or on #videolan on
@@ -310,7 +310,7 @@ Have a look <a href="http://developers.videolan.org/vlc/NEWS">here</a>
 for the full list of changes.<br />
 Binary packages and the source code are available on the <a href="/vlc/">
 VLC download page</a>.<br />
-You can get help concerning this new release on the <a href="/doc/"
+You can get help concerning this new release on the <a href="http://wiki.videolan.org/Documentation:Documentation/"
 >Documentation Page</a>, <a href="http://forum.videolan.org/"
 >Forum</a>, <a href="http://wiki.videolan.org" >Wiki</a>, <a
 href="/support/lists.html" >Mailing Lists</a> or on #videolan on
@@ -387,7 +387,7 @@ thank them for their quick response.
 
 |12 December 2004| New: VLC Play HOWTO| VLC's documentation
 rewrite is nearing completion. We are proud to bring you the <a
-href="/doc/">VLC Play HOWTO</a>, a complete guide
+href="http://wiki.videolan.org/Documentation:Documentation/">VLC Play HOWTO</a>, a complete guide
 to VLC's use as a client. Translations and the VLC streaming HOWTO will
 follow shortly.
 
@@ -691,7 +691,7 @@ unicast and multicast at the booth!
 
 |10 June 2003| Documentation update | The VLS user guide is back and
 we have a Spanish translation of the VideoLAN FAQ by Javier Varela
-: see the <a href="/doc/">documentation page</a>. All the VideoLAN
+: see the <a href="http://wiki.videolan.org/Documentation:Documentation/">documentation page</a>. All the VideoLAN
 documentation is now in Docbook XML.
 
 |6 June 2003| Release: VLS 0.5.3 | This release fixes a bug in the
@@ -702,14 +702,14 @@ configuration file and features a new Windows installer.
 stream from a Hauppauge WinTV-PVR-250 (an MPEG-2 encoding card) under
 Linux ! It gives much better results than the Visiontech Kfir card. The
 chapter "Stream from an MPEG encoding card" of the VideoLAN HOWTO has
-been updated, see the <a href="/doc/">documentation page</a>.
+been updated, see the <a href="http://wiki.videolan.org/Documentation:Documentation/">documentation page</a>.
 
 |26 May 2003| Release: mini-SAP-server 0.2.0 | This new release of the
 mini-SAP-server produces packets that should be conform to the RFC and
 adds a "port" option. Only the CVS version of VLC accepts its announces.
 
 |25 May 2003| VLC FAQ becomes VideoLAN FAQ | The new VideoLAN FAQ is
-available in multiple formats on the <a href="/doc/">documentation
+available in multiple formats on the <a href="http://wiki.videolan.org/Documentation:Documentation/">documentation
 page</a>. If you have remarks about it or would like new questions to be
 integrated in it, post in one of the user mailing-lists.
 
@@ -734,7 +734,7 @@ href="http://www.videolan.org/streaming/">streaming page</a>.
 complete and up-to-date. The chapter about the channel information
 service now explains how to do SAP/SDP announces with the new <a
 href="/streaming/download-sap-server.html">mini-SAP-server</a>. See the
-<a href="/doc/">documentation page</a> and report any problem to the
+<a href="http://wiki.videolan.org/Documentation:Documentation/">documentation page</a> and report any problem to the
 <a href="/support/lists.html">user mailing-lists</a>.
 
 |8 Apr 2003| Release: VLC 0.5.3 | This new release features the
@@ -815,7 +815,7 @@ of the website to download the binaries for your OS or the sources.
 A new VLC user guide has been released (it replaces the VLC HOWTO)
 and the VideoLAN Quickstart has been updated to explain the new
 streaming capacity of VLC (with VLC's new stream output) : see the <a
-href="/doc/">documentation page</a>.
+href="http://wiki.videolan.org/Documentation:Documentation/">documentation page</a>.
 
 |3 Feb 2003| Release: libdvdplay 1.0.0 | This is the first release
 of libdvdplay, a DVD navigation library. This library is based on a
@@ -838,7 +838,7 @@ the booth and invites you to its <a href="http://www.linuxsolutions.fr/EN/home/i
 5th afternoon).
 
 |19 Jan 2003| New VideoLAN Quickstart | The VideoLAN Quickstart has been
-completely rewritten. See the <a href="/doc/">documentation page</a>.
+completely rewritten. See the <a href="http://wiki.videolan.org/Documentation:Documentation/">documentation page</a>.
 
 |19 Jan 2003| New web site | Welcome to our new web site:
 it was designed to be simpler and more comprehensive for

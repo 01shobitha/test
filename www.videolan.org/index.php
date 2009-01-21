@@ -114,7 +114,7 @@
 
   <?php panel_start( 'orange' ); ?>
   <h1>Help</h1>
-  <p> For setup instructions, see the <a href="/doc/">documentation</a>
+  <p> For setup instructions, see the <a href="http://wiki.videolan.org/Documentation:Documentation">documentation</a>
   section.</p>
   <p>If you have a problem that is not
   covered in the documentation, look at the <a href="/support/">support page</a>, 

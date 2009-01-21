@@ -9,14 +9,9 @@
 
 <h1> User support - Help</h1>
 
-<p>VideoLAN is free software and provided free of charge;
-besides, it is not backed by any large company,
-and developers are mostly volunteers.
-As such, user support is provided by the VideoLAN users and developers community
-on a voluntary basis.</p>
-<p>However, you can find <b>many</b> resources and informations on how to get support and
-help for VideoLAN software. We will do our best.</p>
-
+<p>VideoLAN is free and open source software; and is not backed by any large company.
+Developers are mostly volunteers.<br />
+Therefore, user support is provided by volunteers.</p>
 
 <h2>Documentation</h2>
 

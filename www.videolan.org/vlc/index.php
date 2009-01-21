@@ -134,7 +134,7 @@ libraries and build them yourself:</p>
 
     <h2>Documentation</h2>
 
-    <p>See the <a href="/doc/">documentation page</a>.</p>
+    <p>See the <a href="http://wiki.videolan.org/Documentation:Documentation">documentation page</a>.</p>
 <?php panel_end(); ?>
 
 <?php panel_start( "orange" ); ?>

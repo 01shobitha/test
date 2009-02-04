@@ -105,7 +105,7 @@ http://videolan.netmindz.net/|Netmindz.net|United Kingdom|gb|HTTP|100
 # Location: Armenia
 # Connection: 100 Mb/s
 # Vahan Yerkanian <vahan 47 arminco d0t com>
-http://vlc.mirrors.arminco.com/|Arminco|Armenia|am|HTTP|100
+#http://vlc.mirrors.arminco.com/|Arminco|Armenia|am|HTTP|100
 #
 # Location: USA
 # Neil Bright <neil   .   bright   oit . gatech . edu>

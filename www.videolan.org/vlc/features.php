@@ -273,15 +273,15 @@ function headers( $extra )
           <td class="category" rowspan="9"><b>Subtitles</b></td>
             <?php writefeature_simple( 'DVD <sup><a href="#sub_notes">1</a></sup>', "part", "part", "part", "part", "part", "none" ); ?>
 
+            <?php writefeature( "Text files (MicroDVD,<br/>SubRIP, SubViewer, SSA1-5, SAMI, VPlayer)" , "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
+            <?php writefeature( "Closed captions", "no", "yes", "yes", "no", "unt", "unt" ); ?>
+            <?php writefeature( "Vobsub", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
+            <?php writefeature( "Universal Subtitle Format (USF)", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
             <?php writefeature( "SVCD / CVD", "yes", "unt", "yes", "unt", "yes", "unt" ); ?>
             <?php writefeature( "DVB", "yes", "yes", "yes", "yes", "yes", "none" ); ?>
-            <?php writefeature( "Closed captions", "no", "yes", "yes", "no", "unt", "unt" ); ?>
             <?php writefeature( "OGM", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
-            <?php writefeature( "Text files (MicroDVD,<br/>SubRIP, SubViewer, SSA1-5, SAMI, VPlayer)" , "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
-
-            <?php writefeature( "Vobsub", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
             <?php writefeature( "CMML", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
-            <?php writefeature( "Universal Subtitle Format (USF)", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
+            <?php writefeature( "Kate", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
         
           <tr style="background:#D4E0F7 !important">
             <td colspan="8" style="background:#D4E0F7 !important">&nbsp;</td>

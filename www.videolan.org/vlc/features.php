@@ -270,7 +270,7 @@ function headers( $extra )
           <table class="feature-list-table">
 	<?php headers( "yes" ); ?>
         <tr>
-          <td class="category" rowspan="9"><b>Subtitles</b></td>
+          <td class="category" rowspan="10"><b>Subtitles</b></td>
             <?php writefeature_simple( 'DVD <sup><a href="#sub_notes">1</a></sup>', "part", "part", "part", "part", "part", "none" ); ?>
 
             <?php writefeature( "Text files (MicroDVD,<br/>SubRIP, SubViewer, SSA1-5, SAMI, VPlayer)" , "yes", "yes", "yes", "yes", "yes", "unt" ); ?>

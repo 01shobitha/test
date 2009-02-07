@@ -134,9 +134,9 @@ http://mirror.leaseweb.com/pub/software/videolan/|LeaseWeb|Netherlands|nl|HTTP|2
 # Location US
 # rosshosman@gmail.com
 # gigabit capped at  300 mbit
-http://mirrors.gigenet.com/videolan/|GigeNET|USA|us|300
+http://mirrors.gigenet.com/videolan/|GigeNET|USA|us|HTTP|300
 #
 # CacheBoy CDN - This is a TEST
 # US
 # Adrian Chadd
-http://videolan.cdn.cacheboy.net/|CacheBoy|USA|us|20
+http://videolan.cdn.cacheboy.net/|CacheBoy|USA|us|HTTP|20

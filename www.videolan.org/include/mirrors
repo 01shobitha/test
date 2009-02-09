@@ -67,7 +67,7 @@ http://mirror.yandex.ru/mirrors/ftp.videolan.org/|Yandex|Russia|ru|HTTP|1000
 #  Tigran Afrikyan <mirrors  qt adc dot am> 
 # Not very reliable
 # gives false-positive in the mirror.v.o script
-#http://vlc.mirrors.adc.am/|Armenian Datacom Company|Armenia|am|HTTP|200
+http://vlc.mirrors.adc.am/|Armenian Datacom Company|Armenia|am|HTTP|200
 #
 # Technotop Networks, The Netherlands
 # Robbert van Hulsentop <robbert at technotop dot nl>

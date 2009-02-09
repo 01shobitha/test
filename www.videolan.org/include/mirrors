@@ -139,4 +139,14 @@ http://mirrors.gigenet.com/videolan/|GigeNET|USA|us|HTTP|300
 # CacheBoy CDN - This is a TEST
 # US
 # Adrian Chadd
-http://videolan.cdn.cacheboy.net/|CacheBoy|USA|us|HTTP|100
+http://videolan.cdn.cacheboy.net/|CacheBoy|Netherlands|nl|HTTP|100
+#
+# CacheBoy CDN - This is a TEST
+# US
+# Adrian Chadd
+http://videolan.cdn.cacheboy.net/|CacheBoy|Canada|ca|HTTP|100
+#
+# CacheBoy CDN - This is a TEST
+# US
+# Adrian Chadd
+http://videolan.cdn.cacheboy.net/|CacheBoy|New-Zealand|nz|HTTP|100

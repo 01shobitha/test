@@ -159,20 +159,20 @@ donations. </p>
 
 <h3>Contributors</h3>
 
-<p>We would like to thank all the people who supported the VideoLAN project 
-through their remaks, bug reports or donations. We're particulerly grateful 
-to the following people whose contributions made some important projects 
-possible. The <a href="/partners.html">partners</a> page also lists some 
+<p>We would like to thank all the people who supported the VideoLAN project
+through their remarks, bug reports or donations. We're particularly grateful
+to the following people whose contributions made some important projects
+possible. The <a href="/partners.html">partners</a> page also lists some
 companies and institutions who helped VideoLAN.</p>
 
 <ul class="bullets">
   <li><strong>Julian Cain</strong>, who made a $1000 donation to the VideoLAN project</li>
-  <li>The french website <strong>MacBidouille</strong> gave 500 
+  <li>The French website <strong>MacBidouille</strong> gave 500 
 euros to help us buy a PowerMac G5</li> 
-  <li>The french magazine <strong>à vos MAC</strong> gave 500 euros to 
+  <li>The French magazine <strong>à vos MAC</strong> gave 500 euros to 
 help us buy a PowerMac G5</li>
   <li><strong>Laurent Dupuy</strong>, who made a 540&euro; donation to the VideoLAN project</li>
-  <li>The dutch website <a href="http://www.pepermunt.net">Pepermunt.net</a>, 
+  <li>The Dutch website <a href="http://www.pepermunt.net">Pepermunt.net</a>, 
 who made a 500 euros donation to the VideoLAN project.</li>
 </ul>
 

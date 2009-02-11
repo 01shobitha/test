@@ -137,16 +137,36 @@ http://mirror.leaseweb.com/pub/software/videolan/|LeaseWeb|Netherlands|nl|HTTP|2
 http://mirrors.gigenet.com/videolan/|GigeNET|USA|us|HTTP|300
 #
 # CacheBoy CDN - This is a TEST
-# US
-# Adrian Chadd
+# Location: BE
+# Adrian Chadd - adrian.chadd@gmail.com / adrian@xenion.com.au
 http://videolan.cdn.cacheboy.net/|CacheBoy|Netherlands|nl|HTTP|100
 #
 # CacheBoy CDN - This is a TEST
-# US
-# Adrian Chadd
+# Location: BE
+# Adrian Chadd - adrian.chadd@gmail.com / adrian@xenion.com.au
+http://videolan.cdn.cacheboy.net/|CacheBoy|Belgium|be|HTTP|100
+#
+# CacheBoy CDN - This is a TEST
+# Location: SE
+# Adrian Chadd - adrian.chadd@gmail.com / adrian@xenion.com.au
+http://videolan.cdn.cacheboy.net/|CacheBoy|Sweden|se|HTTP|100
+#
+# CacheBoy CDN - This is a TEST
+# Location: US
+# Adrian Chadd - adrian.chadd@gmail.com / adrian@xenion.com.au
+http://videolan.cdn.cacheboy.net/|CacheBoy|USA|us|HTTP|100
+#
+# CacheBoy CDN - This is a TEST
+# Location: CA
+# Adrian Chadd - adrian.chadd@gmail.com / adrian@xenion.com.au
 http://videolan.cdn.cacheboy.net/|CacheBoy|Canada|ca|HTTP|100
 #
 # CacheBoy CDN - This is a TEST
-# US
-# Adrian Chadd
+# Location: AU
+# Adrian Chadd - adrian.chadd@gmail.com / adrian@xenion.com.au
 http://videolan.cdn.cacheboy.net/|CacheBoy|New-Zealand|nz|HTTP|100
+#
+# CacheBoy CDN - This is a TEST
+# Location: AU
+# Adrian Chadd - adrian.chadd@gmail.com / adrian@xenion.com.au
+http://videolan.cdn.cacheboy.net/|CacheBoy|Australia|au|HTTP|100

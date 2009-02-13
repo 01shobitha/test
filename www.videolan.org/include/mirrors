@@ -132,9 +132,15 @@ http://mirror.leaseweb.com/pub/software/videolan/|LeaseWeb|Netherlands|nl|HTTP|2
 #
 # GigeNET
 # Location US
-# rosshosman@gmail.com
+# rosshosman  -- -- gmail.com
 # gigabit capped at  300 mbit
 http://mirrors.gigenet.com/videolan/|GigeNET|USA|us|HTTP|300
+#
+# Cavecreek Web Hosting
+# Location US
+# cavecreek.
+# 100 Mbits
+http://vlc.cavecreek.net/|Cavecreek Web Hosting|USA|us|HTTP|100
 #
 # CacheBoy CDN - This is a TEST
 # Location: BE

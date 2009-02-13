@@ -116,6 +116,24 @@ cooperation of our partners, on both technical and financial sides: </p>
     </td>
   </tr>
 
+  <tr><td colspan="2"><h2>Gandi</h2></td></tr>
+  <tr>
+    <td>
+        <p class="center"><a href="http://www.gandi.net/"><img
+        src="http://images.videolan.org/images/partners/gandi.png" alt="Gandi" /></a></p>
+    </td>
+    <td>
+     <p><a href="http://www.gandi.net">Gandi</a> is a one of most popular registar in 
+    France and in Europe. Founded in 1999, and based in Paris and in London, it has had a
+    long history of quality, proximity to people and decent prices.<br />
+    Gandi has always cultivated its difference and humanity and supports many projects
+    following the VideoLAN's ideals.</p>
+
+    <p>Gandi supports VideoLAN by managing their domain names and helping the VideoLAN
+    association in various administrative tasks.</p>
+
+  </tr>
+
   <tr>
     <td colspan="2">
         <h2> École Centrale Paris</h2>

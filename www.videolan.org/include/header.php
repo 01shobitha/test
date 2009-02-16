@@ -114,7 +114,11 @@ function DrawMenu( $file, $mod )
       {
         list( $name, $text, $link, $icon, $width, $height ) =
             split( "[\t;]+", $l );
-        echo "<li><a href=\"$link\">$text</a></li>";
+        if( $mod == $name )
+                echo '<li class="selected">';
+        else
+                echo '<li>';
+        echo "<a href=\"$link\">$text</a></li>\n";
       }
     }
   }

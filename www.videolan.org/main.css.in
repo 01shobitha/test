@@ -90,6 +90,7 @@ img.center { display: block; margin: auto; }
 
 #navmenu { float: left; padding: 4px 0;	vertical-align: middle;}
 #navmenu li { display: inline; margin: 0 16px 0 0; padding: 0; }
+#navmenu li.selected { display: inline; margin: 0 16px 0 0; padding: 0; color: #004; }
 #navmenu li a {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-weight: bold; font-size: 11px; text-decoration: none;color: #039;

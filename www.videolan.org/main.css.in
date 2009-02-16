@@ -157,7 +157,6 @@ img.center { display: block; margin: auto; }
 #maincontent table th.th-os { 
 	white-space: nowrap;
 	overflow: hidden;
-	text-overflow: ellipsis;
 	width: 10%;
 }
 

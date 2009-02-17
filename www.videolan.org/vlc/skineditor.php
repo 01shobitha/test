@@ -2,16 +2,28 @@
    $title = "VLC media player - Skin Editor";
    $lang = "en";
    $menu = array( "vlc", "skineditor" );
-   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
-   include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
    
-   $latestv = "0.7";
+   $additional_css = array("http://images.videolan.org/images/slimbox2/slimbox2.css");
+   $additional_js = array("/js/jquery.js", "/js/slimbox2.js");   
+   
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
+   include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");  
+      
+   $latestv = "0.8";
 ?>
 
 <h1>VLC media player Skin Editor</h1>
 
 <div class="vlc-screenshot">
-  <img src="/images/screenshots/skineditor-linux.jpg" alt="VLC Skin Editor on Ubuntu Linux" title="VLC Skin Editor on Ubuntu Linux"/>
+  <a href="http://images.videolan.org/images/screenshots/skineditor/leopard_zoom.jpg" rel="lightbox-s" title="Editing the Crossover Leopard skin">
+    <img src="http://images.videolan.org/images/screenshots/skineditor/leopard_zoom_s.jpg" alt="VLC Skin Editor"/>
+  </a>
+  <br/>
+  <a href="http://images.videolan.org/images/screenshots/skineditor/winamp5_button.jpg" rel="lightbox-s" title="Editing a button of the Winamp5 skin">Button editing</a>
+  <br/>
+  <a href="http://images.videolan.org/images/screenshots/skineditor/default_sbmp.jpg" rel="lightbox-s" title="Editing a SubBitmap of the Default Remix skin">SubBitmap editing</a>
+  <br/>
+  <a href="http://images.videolan.org/images/screenshots/skineditor/shiftie_action.jpg" rel="lightbox-s" title="Editing an action">Action editing</a>
 </div>
 
 <div id="description" style="height:200px">
@@ -33,11 +45,11 @@ For tutorials and help on the usage of the Skin Editor turn to the <a href="skin
   </p> 
   <?php
       pkgitem("Windows installer",
-                     "$latestv/win32","VLCSkinEditor_".str_replace(".","_",$latestv)."_setup.exe","skin-editor");
+                     "$latestv","VLCSkinEditor_setup.exe","skin-editor");
       pkgitem("Windows ZIP (without the installer)",
-                     "$latestv/win32","VLCSkinEditor_".str_replace(".","_",$latestv).".zip","skin-editor");
+                     "$latestv","VLCSkinEditor_w32.zip","skin-editor");
       pkgitem("Unix/Linux TAR-GZIP",
-                     "$latestv","VLCSkinEditor_".str_replace(".","_",$latestv).".tar.gz","skin-editor");
+                     "$latestv","VLCSkinEditor_unix.tar.gz","skin-editor");
   ?>
 
   <h2>Features</h2>
@@ -52,12 +64,8 @@ For tutorials and help on the usage of the Skin Editor turn to the <a href="skin
       <li>Position your skin's items with the mouse or the arrow keys</li>
       <li>Hierarchic display of skins content</li>
       <li>Makes the creation of action sequences comfortable</li>
-      <li>Can also handle skins that were created by hand if they meet certain requirements:
-        <ul>
-          <li>One XML tag per line</li>
-          <li>No line breaks inside a XML tag</li>
-        </ul>
-      </li>  
+      <li>Can handle all skins created by hand</li>
+      <li>Available in different languages</li>
   </ul>
         
   <h2>How to support the project</h2>
@@ -75,23 +83,8 @@ For tutorials and help on the usage of the Skin Editor turn to the <a href="skin
         <h1>Development plans</h1>
         <ul class="panel-orange-bullet">
           <li>Bug finding and fixing</li>
-          <li><b>version 0.7.5</b>
-            <ul>
-              <li>New layout for msot dialogs that looks better</li>
-              <li>Multi-language support</li>
-            </ul>
-          </li>
-          <li><b>version 0.7.*</b>
-            <ul>              
-              <li>Slider background generating for vertical sliders.</li>
-            </ul>
-          </li>
-          <li><b>version 0.8</b>
-            <ul>
-              <li>New parsing system that can handle all valid skin files</li>
-              <li>Slider editing with the mouse</li>
-            </ul>
-          </li>
+          <li>Slider background generating for vertical sliders.</li>
+          <li>Slider editing with the mouse</li>
         </ul>
       </div>      
     </div>

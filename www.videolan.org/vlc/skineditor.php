@@ -14,30 +14,17 @@
 
 <h1>VLC media player Skin Editor</h1>
 
-<div class="vlc-screenshot">
-  <a href="http://images.videolan.org/images/screenshots/skineditor/leopard_zoom.jpg" rel="lightbox-s" title="Editing the Crossover Leopard skin">
-    <img src="http://images.videolan.org/images/screenshots/skineditor/leopard_zoom_s.jpg" alt="VLC Skin Editor"/>
-  </a>
-  <br/>
-  <a href="http://images.videolan.org/images/screenshots/skineditor/winamp5_button.jpg" rel="lightbox-s" title="Editing a button of the Winamp5 skin">Button editing</a>
-  <br/>
-  <a href="http://images.videolan.org/images/screenshots/skineditor/default_sbmp.jpg" rel="lightbox-s" title="Editing a SubBitmap of the Default Remix skin">SubBitmap editing</a>
-  <br/>
-  <a href="http://images.videolan.org/images/screenshots/skineditor/shiftie_action.jpg" rel="lightbox-s" title="Editing an action">Action editing</a>
-</div>
-
-<div id="description" style="height:200px">
-<p>
-The VLC Skin Editor aims at giving designers an easy opportunity to create skins for the VLC Media Player.
-Until now skin designers had to have knowledge of the VLC Skins2 XML System to create their skins.
-Now they have an easy alternative: The <a href="http://en.wikipedia.org/wiki/WYSIWYG" target="_blank" class="wiki">WYSIWYG</a> VLC Skin Editor.
-</p>
-<p>
-For tutorials and help on the usage of the Skin Editor turn to the <a href="skinedhlp">online help</a>.
-</p>
-</div>
-
 <div id="left">
+
+  <p>
+  The VLC Skin Editor aims at giving designers an easy opportunity to create skins for the VLC Media Player.
+  Until now skin designers had to have knowledge of the VLC Skins2 XML System to create their skins.
+  Now they have an easy alternative: The <a href="http://en.wikipedia.org/wiki/WYSIWYG" target="_blank" class="wiki">WYSIWYG</a> VLC Skin Editor.
+  </p>
+  <p>
+  For tutorials and help on the usage of the Skin Editor turn to the <a href="skinedhlp">online help</a>.
+  </p>
+  
   <h2>Download version <?php echo $latestv; ?></h2>
   <p style="color:#ef2929;">
   This program requires the Java Runtime Environment (JRE) 6 or later.
@@ -74,6 +61,24 @@ For tutorials and help on the usage of the Skin Editor turn to the <a href="skin
   <a href="http://trac.videolan.org/skin-designer" target="_blank">Trac page</a> for more information.</p>
 </div>
 <div id="right">
+  <p>
+    <a href="http://images.videolan.org/images/screenshots/skineditor/leopard_zoom.jpg" rel="lightbox-s" title="Editing the Crossover Leopard skin">
+      <img src="http://images.videolan.org/images/screenshots/skineditor/leopard_zoom_s.jpg" alt="VLC Skin Editor"/>
+    </a>
+    <br/>
+    <a href="http://images.videolan.org/images/screenshots/skineditor/winamp5_button.jpg" rel="lightbox-s" title="Editing a button of the Winamp5 skin">
+      <img src="http://images.videolan.org/images/screenshots/skineditor/winamp5_button_s.jpg" alt="VLC Skin Editor"/>
+    </a>
+    <br/>
+    <a href="http://images.videolan.org/images/screenshots/skineditor/default_sbmp.jpg" rel="lightbox-s" title="Editing a SubBitmap of the Default Remix skin">
+      <img src="http://images.videolan.org/images/screenshots/skineditor/default_sbmp_s.jpg" alt="VLC Skin Editor"/>
+    </a>
+    <br/>
+    <a href="http://images.videolan.org/images/screenshots/skineditor/shiftie_action.jpg" rel="lightbox-s" title="Editing an action">
+      <img src="http://images.videolan.org/images/screenshots/skineditor/shiftie_action_s.jpg" alt="VLC Skin Editor"/>
+    </a>
+  </p>
+
   <div class="panel-orange">
     <div class="hd">
       <div class="c"></div>

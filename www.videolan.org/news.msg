@@ -2,7 +2,7 @@
 # New topics begin with a "|"
 #
 |17 February 2009|VLC Skin Editor 0.8|The VideoLAN team is pleased to announce the release of VLC Skin Editor 0.8.<br />
-It fixes several bugs and brings better performance. Furthermore the program is now availabe in several languages.<br />
+It fixes several bugs and brings better performance. Furthermore the program is now available in several languages.<br />
 All users are recommended to upgrade to this release. You can download it from <a href="http://www.videolan.org/vlc/skineditor.html">the Skin Editor page</a>.
 
 |24 December 2008| End of VideoLAN Dev Days '08| The VideoLAN Dev Days '08, our first real life meeting were a great success. Many development and organisation ideas were discussed there. We want to thank everyone that came to see us and the four companies that sponsored us: <a href="http://www.anevia.com">Anevia</a>, <a href="http://free.fr">Free</a>, <a href="http://m2x.nl">M2X</a> and <a href="http://www.uniways.fr">Uniways</a>.<br />

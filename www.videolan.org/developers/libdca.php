@@ -52,7 +52,7 @@ please consult your lawyer before downloading it</p>
 <li><a href="http://sourceforge.net/projects/guliverkli/">Media Player Classic</a>: a win32 player just like WMP6.4 except that it has a lot more features.</li>
 <li><a href="http://xine.sourceforge.net/">Xine</a>: a free multimedia player.</li>
 
-<li><a href="http://ffmpeg.sourceforge.net/">FFmpeg</a>: a complete solution to record, convert and stream audio and video.</li>
+<li><a href="http://ffmpeg.org/">FFmpeg</a>: a complete solution to record, convert and stream audio and video.</li>
 
 <li><a href="http://www.xboxmediacenter.de/">XboxMediaCenter (XBMC)</a>: a free multimedia player for the Xbox game-console.</li>
 

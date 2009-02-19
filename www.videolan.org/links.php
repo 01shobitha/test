@@ -29,7 +29,7 @@ media player for Unix, Linux and Mac OS X.</li>
 
 <ul>
 
-<li><a href="http://ffmpeg.sourceforge.net/">ffmpeg</a> : a free
+<li><a href="http://ffmpeg.org/">ffmpeg</a> : a free
 MPEG-4/DivX/OpenDivX codec.</li>
 
 <li><a href="http://www.xvid.org/">Xvid</a> : a free MPEG-4 video

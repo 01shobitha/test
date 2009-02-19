@@ -12,7 +12,7 @@
 	VideoLAN is seriously threatened by software patents due to the 
 	numerous patented techniques it implements and uses. Also threatened
 	are the <a href="/links.html">many libraries and projects<a/> which 
-	VLC is built upon, like <a href="http://ffmpeg.sourceforge.net">
+	VLC is built upon, like <a href="http://ffmpeg.org">
 	FFmpeg</a>, and the other fellow Free And Open Source software
 	multimedia players, which include
 	<a href="http://mplayerhq.hu/">MPlayer</a>,

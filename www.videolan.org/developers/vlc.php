@@ -258,7 +258,7 @@ audio decoder<br />
 <a href="http://libmpeg2.sourceforge.net/">libmpeg2</a> - an MPEG1/2
 video decoder<br />
 
-<a href="http://ffmpeg.sourceforge.net/">libavcodec (ffmpeg)</a> - an
+<a href="http://ffmpeg.org/">libavcodec (ffmpeg)</a> - an
 extensive audio/video codec library which supports several formats like
 MPEG4, H263, WMV/A etc...<br />
 

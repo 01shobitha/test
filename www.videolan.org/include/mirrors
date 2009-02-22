@@ -146,39 +146,39 @@ http://vlc.cavecreek.net/|Cavecreek Web Hosting|USA|us|HTTP|100
 #Connectivity: > 100Mbps
 #Sponsoring organization: AussieHQ Pty Ltd http://www.aussiehq.com.au
 #Mirror admin email: mirrors at aussiehq.com.au
-http://videolan.mirror.aussiehq.net.au/|AussieHQ Pty Ltd|Australia|au|http|100
+http://videolan.mirror.aussiehq.net.au/|AussieHQ Pty Ltd|Australia|au|HTTP|100
 #
 # CacheBoy CDN - This is a TEST
 # Location: BE
 # Adrian Chadd - adrian.chadd@gmail.com / adrian@xenion.com.au
-http://videolan.cdn.cacheboy.net/|CacheBoy|Netherlands|nl|HTTP|100
+http://videolan.cdn.cacheboy.net/|CacheBoy|Netherlands|nl|HTTP|200
 #
 # CacheBoy CDN - This is a TEST
 # Location: BE
 # Adrian Chadd - adrian.chadd@gmail.com / adrian@xenion.com.au
-http://videolan.cdn.cacheboy.net/|CacheBoy|Belgium|be|HTTP|100
+http://videolan.cdn.cacheboy.net/|CacheBoy|Belgium|be|HTTP|200
 #
 # CacheBoy CDN - This is a TEST
 # Location: SE
 # Adrian Chadd - adrian.chadd@gmail.com / adrian@xenion.com.au
-http://videolan.cdn.cacheboy.net/|CacheBoy|Sweden|se|HTTP|100
+http://videolan.cdn.cacheboy.net/|CacheBoy|Sweden|se|HTTP|200
 #
 # CacheBoy CDN - This is a TEST
 # Location: US
 # Adrian Chadd - adrian.chadd@gmail.com / adrian@xenion.com.au
-http://videolan.cdn.cacheboy.net/|CacheBoy|USA|us|HTTP|100
+http://videolan.cdn.cacheboy.net/|CacheBoy|USA|us|HTTP|200
 #
 # CacheBoy CDN - This is a TEST
 # Location: CA
 # Adrian Chadd - adrian.chadd@gmail.com / adrian@xenion.com.au
-http://videolan.cdn.cacheboy.net/|CacheBoy|Canada|ca|HTTP|100
+http://videolan.cdn.cacheboy.net/|CacheBoy|Canada|ca|HTTP|200
 #
 # CacheBoy CDN - This is a TEST
 # Location: AU
 # Adrian Chadd - adrian.chadd@gmail.com / adrian@xenion.com.au
-http://videolan.cdn.cacheboy.net/|CacheBoy|New-Zealand|nz|HTTP|100
+http://videolan.cdn.cacheboy.net/|CacheBoy|New-Zealand|nz|HTTP|200
 #
 # CacheBoy CDN - This is a TEST
 # Location: AU
 # Adrian Chadd - adrian.chadd@gmail.com / adrian@xenion.com.au
-http://videolan.cdn.cacheboy.net/|CacheBoy|Australia|au|HTTP|100
+http://videolan.cdn.cacheboy.net/|CacheBoy|Australia|au|HTTP|200

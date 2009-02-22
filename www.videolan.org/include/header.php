@@ -236,8 +236,4 @@ StartHtml( ereg_replace( "<[^>]*>" , "" , $title ), $additional_css, $additional
 	</div>
 </div>
 
-<div id="temp_april" style="margin-top: 6px;">
-<a href="http://www.april.org/fr/tristan-nitot-appelle-a-adherer-a-lapril-pour-soutenir-ses-actions-de-promotion-et-defense-du-logiciel-libre?referent=VideoLAN">
-<img src="/images/campagne-adhesion-videolan.png" alt="Support April" /> </a></div>
-
 <div id="maincontent">

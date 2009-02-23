@@ -9,7 +9,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");  
       
-   $latestv = "0.8";
+   $latestv = "0.8.1";
 ?>
 
 <h1>VLC media player Skin Editor</h1>

@@ -1,7 +1,7 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
-|17 February 2009|VLC Skin Editor 0.8|The VideoLAN team is pleased to announce the release of VLC Skin Editor 0.8.<br />
+|23 February 2009|VLC Skin Editor 0.8.1|The VideoLAN team is pleased to announce the release of VLC Skin Editor 0.8.1.<br />
 It fixes several bugs and brings better performance. Furthermore the program is now available in several languages.<br />
 All users are recommended to upgrade to this release. You can download it from <a href="http://www.videolan.org/vlc/skineditor.html">the Skin Editor page</a>.
 

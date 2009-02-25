@@ -320,7 +320,7 @@ else
   $query .= " ORDER BY skins.date_modified DESC, skins.date_added DESC";
 
   $q = pg_query($query);
-  $q2 = pg_query("SELECT id, name FROM skins WHERE accepted=true ORDER BY id");
+  $q2 = pg_query("SELECT id, name FROM skins WHERE accepted=true ORDER BY name");
   $selection = "";
   while ($skin = pg_fetch_array($q2))
   {   

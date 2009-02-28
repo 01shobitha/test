@@ -96,6 +96,19 @@
             <li><a href="/security/sa0811.html">SA 0811</a></li>
         </ul>
      </td>
+
+     <td>
+        <ul>
+            <li><a href="/press/">Press releases</a></li>
+            <li><a href="/press/eucd.html">EUCD</a></li>
+            <li><a href="/press/patents.html">Software patents</a></li>
+            <li><a href="/press/2005-1.html">VLC and Cinema On Web</a></li>
+            <li><a href="/press/2006-1.html">VideoLAN changes hosting</a></li>
+            <li><a href="/press/2006-2.html">April's fool</a></li>
+            <li><a href="/press/2006-3.html">VLC and GPLv3</a></li>
+        </ul>
+     </td>
+
 </tr>
 
 

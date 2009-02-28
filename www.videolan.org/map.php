@@ -31,9 +31,7 @@
             <li><a href="/streaming-features.html">Streaming Features </a></li>
         </ul>
      </td>
-</tr>
 
-<tr>
     <td>
         <ul>
             <li><a href="/project/">VideoLAN project</a></li>
@@ -42,9 +40,7 @@
             <li><a href="/events">Events</a></li>
         </ul>
      </td>
-</tr>
 
-<tr>
     <td>
         <ul>
             <li><a href="/vlc/">VLC download page</a></li>
@@ -63,9 +59,7 @@
             <!-- to finish -->
         </ul>
      </td>
-</tr>
 
-<tr>
     <td>
         <ul>
             <li><a href="/developers/vlc.html">VLC development</a></li>
@@ -82,9 +76,7 @@
             <li><a href="/developers/i18n/">VLC i18n</a></li>
         </ul>
      </td>
-</tr>
 
-<tr>
     <td>
         <ul>
             <li><a href="/security/">Security page</a></li>

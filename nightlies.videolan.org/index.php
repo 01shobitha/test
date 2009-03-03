@@ -38,7 +38,6 @@ There is absolutely NO SUPPORT for it from the VideoLAN Team.
                 <li style="background:none">The packages for the following operating systems<br /> are <b>not</b> automatically built every night:</li>
     <li class='suse'><a href='#suse'>openSuse 10.2 and 10.3</a></li>
                 <li class='gentoo'><a href='#gentoo'>Gentoo</a></li>
-    <li class='beos' ><a href='/build/beos/?C=M;O=D'>BeOS</a></li>
         </ul>
 </div>
 

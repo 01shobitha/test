@@ -64,8 +64,9 @@ There is absolutely NO SUPPORT for it from the VideoLAN Team.
 <p>For openSUSE 10.2 and 10.3 we offer also RPMs from SVN snapshots. The packages are updated approximatively once per week.</p>
 <p>In order to test it, follow the usual instructions to install VLC as described on <a href="http://www.videolan.org/vlc/download-suse.html">http://www.videolan.org/vlc/download-suse.html</a>, but replace the packagename <b>vlc</b> with <b>vlc-beta</b>. <i>You can only install one version, so either vlc OR vlc-beta. They conflict each other. </i></p>
 
-        <h2><a id='gentoo'>VLC SVN Ebuild for Gentoo</a></h2>
-<p>Alexis Ballier maintains a Ebuild for the SVN version at <a href='http://dev.gentoo.org/~aballier/vlc-9999.ebuild'>http://dev.gentoo.org/~aballier/vlc-9999.ebuild</a>.</p>
+        <h2><a id='gentoo'>VLC Git Ebuild for Gentoo</a></h2>
+<p>Alexis Ballier maintains Ebuilds for both the <a href='http://sources.gentoo.org/viewcvs.py/gentoo-x86/media-video/vlc/vlc-9999.ebuild?rev=1.1&view=log'>master (vlc-9999.ebuild)</a> and <a href='http://sources.gentoo.org/viewcvs.py/gentoo-x86/media-video/vlc/vlc-0.9.9999.ebuild?rev=1.1&view=log'>0.9-bugfix (vlc-0.9.9999.ebuild)</a> Git branches in the Portage tree.</p>
+As they are live ebuilds they come without any keyword so you'll have to put a '**' entry for them in package.keywords in order to be able to install it and when appropriate an entry in package.unmask .
 </div>
 <br />
 

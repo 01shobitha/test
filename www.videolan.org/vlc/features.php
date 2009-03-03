@@ -500,7 +500,7 @@ function headers( $extra )
           <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
           <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
           <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> <sup><a href="#bottom_notes">4</a></sup></td>
+          <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
           <td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
           </tr>
           </table>
@@ -513,8 +513,6 @@ function headers( $extra )
             <li>Depending on the operating system's support.</li>
             <li>Supported CPU extensions are MMX, MMXEXT, SSE, SSE2 and 3D Now! on x86
             processors, and AltiVec on G4/G5 processors.
-            </li>
-            <li>The OpenBSD 2.9 default assembler does not support MMX.
             </li>
             </ol>
           </div>

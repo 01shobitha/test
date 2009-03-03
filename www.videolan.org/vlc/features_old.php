@@ -401,7 +401,7 @@ feature( "MLDv2 <sup><a href=\"#bottom_notes\">13</a></sup>",
 <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
-<td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> <sup><a href="#bottom_notes">15</a></sup></td>
+<td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
 <td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
 </tr>
 
@@ -415,8 +415,6 @@ feature( "MLDv2 <sup><a href=\"#bottom_notes\">13</a></sup>",
   <li>Depending on the operating system's support.</li>
   <li>Supported CPU extensions are MMX, MMXEXT, SSE, SSE2 and 3D Now! on x86
   processors, and AltiVec on G4/G5 processors.
-  </li>
-  <li>The OpenBSD 2.9 default assembler does not support MMX.
   </li>
   </ol>
 </div>

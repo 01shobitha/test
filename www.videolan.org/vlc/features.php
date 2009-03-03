@@ -216,18 +216,15 @@ function headers( $extra )
         </div>        
         <div id="feature-list-audio">
         <table class="feature-list-table">
-	    <?php headers( "no" ); ?>
+        <?php headers( "no" ); ?>
             <?php writefeature( "MPEG Layer 1/2", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "MP3", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "AAC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "MP3 - MPEG Layer 3", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "AAC - MPEG-4 part3", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "Vorbis", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "AC3 - A/52 (Dolby Digital)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-	    <?php writefeature( 'E-AC-3 (Dolby Digital Plus) <sup><a href="#audio_notes">3 </a></sup>', "no", "no", "no", "no", "no", "no" ); ?>
+            <?php writefeature( 'E-AC-3 (Dolby Digital Plus) <sup><a href="#audio_notes">3 </a></sup>', "no", "no", "no", "no", "no", "no" ); ?>
+            <?php writefeature( 'MLP / TrueHD <sup><a href="#audio_notes">3</a></sup>', "no", "no", "no", "no", "no", "no" ); ?>
             <?php writefeature( "DTS", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-	    <?php writefeature( 'MLP / TrueHD <sup><a href="#audio_notes">3</a></sup>', "no", "no", "no", "no", "no", "no" ); ?>
-            <?php writefeature( "Alaw/&micro;law", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "MIDI", "unt", "unt", "yes", "unt", "unt", "unt" ); ?>
-            <?php writefeature( "LPCM", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "WMA 1/2", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <tr>
             <td class="type">WMA 3</td>
@@ -238,20 +235,24 @@ function headers( $extra )
             <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
             <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
             </tr>
-            <?php writefeature( "Musepack / MPC", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
-            <?php writefeature( "ADPCM", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
-            <?php writefeature( "QCELP", "no", "no", "no", "no", "no", "no" ); ?>
-            <?php writefeature( "DV Audio", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "FLAC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "ALAC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "Speex", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
-            <?php writefeature( 'Real Audio <sup><a href="#audio_notes">2</a></sup>', "part", "part", "part", "unt", "part", "no" ); ?>
-            <?php writefeature( "QDM2/QDMC (QuickTime)", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
-            <?php writefeature( "MACE", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "AMR (3GPP)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "Musepack / MPC", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
             <?php writefeature( "ATRAC 3", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
             <?php writefeature( "Wavpack", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "TrueAudio (TTA)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "APE (Monkey Audio)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( 'Real Audio <sup><a href="#audio_notes">2</a></sup>', "part", "part", "part", "unt", "part", "no" ); ?>
+            <?php writefeature( "Alaw/&micro;law", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "AMR (3GPP)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "MIDI", "unt", "unt", "yes", "unt", "unt", "unt" ); ?>
+            <?php writefeature( "LPCM", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "ADPCM", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
+            <?php writefeature( "QCELP", "no", "no", "no", "no", "no", "no" ); ?>
+            <?php writefeature( "DV Audio", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "QDM2/QDMC (QuickTime)", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
+            <?php writefeature( "MACE", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
 
         </table>
 

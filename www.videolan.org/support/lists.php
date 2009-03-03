@@ -18,8 +18,8 @@
 <p>They are <b>English-speaking</b> mailing-lists.</p>
 
 <p>Before posting in those mailing-lists, please see the <a
-href="http://www.via.ecp.fr/via/ml/videolan-en.html">online
-archives</a> hosted at VIA.</p>
+href="http://mailman.videolan.org/">online
+archives</a>.</p>
 
 <p>All the mailing-lists are in "closed-post" mode, which mean
 that messages from people who are not subscribed to the list

@@ -182,3 +182,5 @@ http://videolan.cdn.cacheboy.net/|CacheBoy|New-Zealand|nz|HTTP|1000
 # Location: AU
 # Adrian Chadd - adrian.chadd@gmail.com / adrian@xenion.com.au
 http://videolan.cdn.cacheboy.net/|CacheBoy|Australia|au|HTTP|1000
+# For evaluation of the African traffic
+http://videolan.cdn.cacheboy.net/|CacheBoy|South Africa|za|HTTP|1000

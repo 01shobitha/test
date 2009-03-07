@@ -17,7 +17,7 @@ Therefore, user support is provided by volunteers.</p>
 
 <h3>FAQ</h3>
 <p>If you have any questions about VideoLAN, about VLC media player, you should
-<strong>always start</strong> by reading the <a href="http://wiki.videolan.org/Frequently_Asked_Questions">Official FAQ</a>.</p>
+<strong>always start</strong> by reading the <a href="faq.html">Official FAQ</a>.</p>
 
 <h3>Documentation</h3>
 <p>You can access our <a href="http://wiki.videolan.org/Documentation:Documentation">Documentation</a>,

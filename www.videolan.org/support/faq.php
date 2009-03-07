@@ -221,6 +221,7 @@ Lastly, if running Unix, have a look at your X.Org video driver.</p>
 <pre># hdparm -d1 /dev/dvd</pre></li>
 <li>Under Windows, go to the <cite>System</cite> section of the control panel, and go to the <cite>Hardware manager</cite> (it is sometimes in a separate tab, and sometimes, you have to go to the <cite>Advanced</cite> tab. Then, righ-click on your DVD player, and check the <cite>DMA</cite> checkbox.</li>
 </ul>
+</li>
 <li>Upgrade to the latest driver for your video board.<br />
 If you are running Linux, you can additionnaly upgrade to the latest X.Org version.
 If supported, check that the xvideo plug-in is effectively used with:

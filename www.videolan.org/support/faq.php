@@ -128,7 +128,7 @@ you should also include the <a href="http://www.videolan.org/vlc/download-source
 and the source code for the underlying included libraries on the same media.
 </p>
 
-<p/>If you plan to distribute the latest binary version of VLC on a website,
+<p>If you plan to distribute the latest binary version of VLC on a website,
 you should provide a link to the <a href="http://www.videolan.org/vlc/download-sources.html">VLC source code</a>.
 </p>
 
@@ -193,7 +193,7 @@ If the videos now play with proper lighting, then deinstalling and reinstalling 
 </ul>
 
 <h2>I cannot read DVDs!</h2>
-<p>Here are a few things to check:<p>
+<p>Here are a few things to check:</p>
 <ul>
 <li>If you are on Linux/Unix, did you install the '''''libdvdcss''''' package?</li>
 <li>Do you have write access to your DVD device? For instance, from the console:

@@ -235,6 +235,7 @@ If supported, check that the xvideo plug-in is effectively used with:
 <h2>Audio and video are out of sync</h2>
 <p>Try using another audio output plugin and, under Unix, kill <code>esd</code>, <code>artsd</code> or <code>pulseaudio</code> if they are running.
 If the problem is due to the input file, have a look at the &quot;Audio desynchronisation compensation&quot; option.
+</p>
 <div style="background-color:#ffcd9b; border:1px solid #ff8040; padding: 10px; margin: 20px">
 <div style="font-size: 125%"><strong>Oops, there is an information missing:</strong></div>
 
@@ -246,7 +247,7 @@ Please, for the clueless people arguing that it doesn't work, include the inform
 <span style="font-size: x-small">Please do put this tag into the appropiate location or remove it once it is a documented feature inside the software, agreed?</span></div>
 
 <h2>VLC crashes.</h2>
-<p>Increase the verbosity level (either in the preferences or with a '''-vvvv''' command line option) and look at the debug messages (in the terminal or in the Messages window).</p>
+<p>Increase the verbosity level (either in the preferences or with a <code>-vv</code> command line option) and look at the debug messages (in the terminal or in the Messages window).</p>
 
 <p>If you are convinced that it is a bug in VLC, have a look at the <a href="http://www.videolan.org/support/bug-reporting.html">bug reporting page</a>./<p>
 

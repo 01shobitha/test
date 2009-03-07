@@ -241,6 +241,7 @@ If the problem is due to the input file, have a look at the &quot;Audio desynchr
 
 <div style="margin: 10px; margin-left: 30px; margin-right: 30px; padding-left: 10px; border: 1px dotted black; border-left: 3px solid gray">
 <p>Audio desynchronisation compensation is limited by the cache size depending to the selected access module. This can be altered in the configuration panel.
+</p>
 </div>
 Please, for the clueless people arguing that it doesn't work, include the information mentioned in the <cite>second post</cite> of <a href="http://forum.videolan.org/viewtopic.php?f=12&amp;t=19456&amp;p=61156&amp;hilit=desync#p61156">this thread</a> in The VideoLAN Forums exhaustingly, as by my nearly ever-lasting research on the same issue there are a lot of locations here and there where it isn't being mentioned unfortunately. Best if it was mentioned in the tooltip as well.
 
@@ -249,7 +250,7 @@ Please, for the clueless people arguing that it doesn't work, include the inform
 <h2>VLC crashes.</h2>
 <p>Increase the verbosity level (either in the preferences or with a <code>-vv</code> command line option) and look at the debug messages (in the terminal or in the Messages window).</p>
 
-<p>If you are convinced that it is a bug in VLC, have a look at the <a href="http://www.videolan.org/support/bug-reporting.html">bug reporting page</a>./<p>
+<p>If you are convinced that it is a bug in VLC, have a look at the <a href="http://www.videolan.org/support/bug-reporting.html">bug reporting page</a>.</p>
 
 <h2>How can I take screenshots?</h2>
 <p>To take a snapshot of the video displayed by VLC, you just need to press the pre-defined snapshot hotkey:</p>
@@ -285,6 +286,7 @@ Please, for the clueless people arguing that it doesn't work, include the inform
 <p>Go to <em>Preferences -&gt; Input / Codecs -&gt; Other codecs -&gt; Subtitles</em>, and set <em>Subtitle text encoding</em> to the right one.
 </p>
 <p>See this reference: <a href="http://alis.isoc.org/codage/iso8859/jeuxiso.en.htm">ISO Standard for various characters sets</a>.
+</p>
 
 <h2>Why is my video purple? (a.k.a. the smurf effect)</h2>
 <p>Not sure. But many people have fixed this problem by changing their video output module.</p>
@@ -314,7 +316,7 @@ The streaming features of each program are described on the <a href="http://www.
 </ul>
 
 <h2>Is it not a waste of time to develop both?</h2>
-<p>To understand this situation, you must consider the history of VideoLAN. Before VLC's stream output, we had two very different programs:<p>
+<p>To understand this situation, you must consider the history of VideoLAN. Before VLC's stream output, we had two very different programs:</p>
 <ul>
 <li>VLS, a program written in C++ running under Linux, Mac OS X and Windows only, that is basically a MPEG Transport Stream engine, with a very basic telnet interface, which was used as a server. You'll note VLS is not maintained anymore.</li>
 
@@ -344,4 +346,6 @@ or mail an appropriate <a href="http://www.videolan.org/support/lists.html">mail
 More informations on support provided by the project
 or consulting companies can be found on the <a href="http://www.videolan.org/support/">support page</a>.
 </p>
+
+</div>
 <?php footer('$Id$'); ?>

@@ -61,8 +61,11 @@ You will find all information you need on the
 <h2>May I use the VideoLAN logo?</h2>
 <p>You may freely use the VideoLAN logo using the following copyright:
 </p>
-<blockquote>Copyright (c) 1996-2009 VideoLAN. This logo or a modified version may be used or modified by anyone to refer to the VideoLAN project or any product developed by the VideoLAN team, but does not indicate   endorsement by the project.
-</blockquote>
+<blockquote><p>
+Copyright &copy; 1996-2009 VideoLAN.
+This logo or a modified version may be used or modified by anyone to refer to the VideoLAN project
+or any product developed by the VideoLAN team, but does not indicate endorsement by the project.
+</p></blockquote>
 
 <h2>What are the usage restrictions for VideoLAN software?</h2>
 <p>Short answer: there are none.</p>
@@ -91,11 +94,11 @@ the second paragraph
 of article 52
 of the European Patent Convention (EPC) states:
 </p>
-<blockquote>
+<blockquote><p>
 The following (..) shall not be regarded as [patentable] inventions:
 scientific theories and mathematical methods; (...)
 programs for computers (...).
-</blockquote>
+</p></blockquote>
 <p>The VideoLAN project only provides software, i.e. &quot;programs for computers&quot;.
 Those are outside the scope of patentability.
 Hence there is not need to obtain any patent licenses
@@ -137,7 +140,7 @@ but this should be the simplest one as it does not rely on a contract.
 <p>The use and distribution of the libdvdcss library is controversial in a few countries such as the United States because of a law called the DMCA (Digital Millennium Copyright Act). If you are unsure about the legality of using and distributing this library in your country, please consult your lawyer.
 </p>
 
-<strong>Beware</strong>:
+<p><strong>Beware</strong>:
 VLC media player binaries are distributed with the libdvdcss library included.
 </p>
 
@@ -153,7 +156,7 @@ VLC uses <strong>libdvdcss</strong> and it needs raw access to the DVD drive to 
 So with those drives it is impossible to circumvent the region protection.
 (This goes for all software. You will need to flash your drives firmware, but sometimes there is no alternate firmware available for your drive).
 On other RPC2 drives that <strong>do</strong> allow raw access,
-it might take VLC a <stong>long</strong> time to crack the key.
+it might take VLC a <strong>long</strong> time to crack the key.
 So just pop the disc in your drive and try it out, while you get a coffee.
 RPC1 drives should 'always' work regardless of the regioncode.
 </p>

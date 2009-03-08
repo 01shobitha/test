@@ -135,7 +135,7 @@ function footer($tag) {
 </div> <!-- PAGECONTAINER -->
 <div id="footer">
   <p> <a href="/">VideoLAN</a> &nbsp;-
-  &nbsp;<a href="map.html">Website Map</a>&nbsp;-
+  &nbsp;<a href="/map.html">Website Map</a>&nbsp;-
   &nbsp;<a href="/team/">Contact</a>&nbsp;-&nbsp;
       See the
      <a href="http://www.videolan.org/stats/downloads.html">statistics</a>

@@ -95,6 +95,19 @@ for Mac OS X:</p>
 
 <img src="http://images.videolan.org/images/goodies/cone_blue_strip-audio64.png" /><img src="http://images.videolan.org/images/goodies/cone_blue_strip-video64.png" /><img src="http://images.videolan.org/images/goodies/cone_blue_strip-dvd64.png" />
 
+<h3>Funny cones for VLC preferences</h3>
+<p>Cone icons done by Tom Bigelajzen</p>
+<p><a href="http://images.videolan.org/images/goodies/Cone-Shortcuts-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Shortcuts-small.png" /></a>
+<a href="http://images.videolan.org/images/goodies/Cone-Subs-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Subs-small.png" /></a>
+<a href="http://images.videolan.org/images/goodies/Cone-Forum-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Forum-small.png" /></a>
+<a href="http://images.videolan.org/images/goodies/Cone-Video-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Video-small.png" /></a>
+</p>
+<p>
+<a href="http://images.videolan.org/images/goodies/Cone-Audio-large.png"><img src="http://images.Audiolan.org/images/goodies/Cone-Audio-small.png" /></a>
+<a href="http://images.videolan.org/images/goodies/Cone-Input-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Input-small.png" /></a>
+<a href="http://images.videolan.org/images/goodies/Cone-Interface-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Interface-small.png" /></a>
+<a href="http://images.videolan.org/images/goodies/Cone-List-large.png"><img src="http://images.videolan.org/images/goodies/Cone-List-small.png" /></a>
+</p>
 <h2>Background images</h2>
 
 <p>All videolan background images can now be downloaded in one

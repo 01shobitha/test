@@ -103,7 +103,7 @@ for Mac OS X:</p>
 <a href="http://images.videolan.org/images/goodies/Cone-Video-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Video-small.png" /></a>
 </p>
 <p>
-<a href="http://images.videolan.org/images/goodies/Cone-Audio-large.png"><img src="http://images.Audiolan.org/images/goodies/Cone-Audio-small.png" /></a>
+<a href="http://images.videolan.org/images/goodies/Cone-Audio-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Audio-small.png" /></a>
 <a href="http://images.videolan.org/images/goodies/Cone-Input-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Input-small.png" /></a>
 <a href="http://images.videolan.org/images/goodies/Cone-Interface-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Interface-small.png" /></a>
 <a href="http://images.videolan.org/images/goodies/Cone-List-large.png"><img src="http://images.videolan.org/images/goodies/Cone-List-small.png" /></a>

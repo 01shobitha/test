@@ -96,7 +96,7 @@ for Mac OS X:</p>
 <img src="http://images.videolan.org/images/goodies/cone_blue_strip-audio64.png" /><img src="http://images.videolan.org/images/goodies/cone_blue_strip-video64.png" /><img src="http://images.videolan.org/images/goodies/cone_blue_strip-dvd64.png" />
 
 <h3>Funny cones for VLC preferences</h3>
-<p>Cone icons done by Tom Bigelajzen</p>
+<p>High-Quality Cone icons done by Tom Bigelajzen</p>
 <p><a href="http://images.videolan.org/images/goodies/Cone-Shortcuts-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Shortcuts-small.png" /></a>
 <a href="http://images.videolan.org/images/goodies/Cone-Subs-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Subs-small.png" /></a>
 <a href="http://images.videolan.org/images/goodies/Cone-Forum-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Forum-small.png" /></a>
@@ -172,7 +172,7 @@ href="http://images.videolan.org/images/videolan-backgrounds-base-2-1.src.rpm">h
 <a href="http://images.videolan.org/images/vl4_1024x768.jpg">Image 1024x768</a> (55 kB)
 </div>
 
-<p>These nice logo was done by Tom Bigelajzen</p>
+<p>This nice high-quality image was done by Tom Bigelajzen</p>
 <p>
 <a href="http://images.videolan.org/images/goodies/day-of-the-cones-ex2.jpg"><img src="http://images.videolan.org/images/goodies/day-of-the-cones-small.jpg" /></a>
 </p>

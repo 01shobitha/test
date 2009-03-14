@@ -108,7 +108,6 @@ for Mac OS X:</p>
 <a href="http://images.videolan.org/images/goodies/Cone-Interface-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Interface-small.png" /></a>
 <a href="http://images.videolan.org/images/goodies/Cone-List-large.png"><img src="http://images.videolan.org/images/goodies/Cone-List-small.png" /></a>
 </p>
-<h2>Background images</h2>
 
 <p>All videolan background images can now be downloaded in one
 RPM package. The (relocatable) package has been built by <a
@@ -172,6 +171,12 @@ href="http://images.videolan.org/images/videolan-backgrounds-base-2-1.src.rpm">h
 <a href="http://images.videolan.org/images/vl4_1600x1200.jpg">Image 1600x1200</a> (99 kB)<br />
 <a href="http://images.videolan.org/images/vl4_1024x768.jpg">Image 1024x768</a> (55 kB)
 </div>
+
+<p>These nice logo was done by Tom Bigelajzen</p>
+<p>
+<a href="http://images.videolan.org/images/goodies/day-of-the-cones-ex2.jpg"><img src="http://images.videolan.org/images/goodies/day-of-the-cones-small.jpg" /></a>
+</p>
+
 <p>These nice logos where drawn by BRi7X:</p>
 <p>
 <a href="http://images.videolan.org/images/goodies/videolan-bri7x-6.png"><img src="http://images.videolan.org/images/goodies/tn_videolan-bri7x-6.png" alt="Yet another VideoLAN logo" width="130" height="89"/></a>

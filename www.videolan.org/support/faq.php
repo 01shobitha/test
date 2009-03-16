@@ -70,7 +70,10 @@ or any product developed by the VideoLAN team, but does not indicate endorsement
 <h2>What are the usage restrictions for VideoLAN software?</h2>
 <p>Short answer: there are none.</p>
 
-<p>You can use the software in the way you want, for personal, education, research or professional use.</p>
+<p>You can use the software in the way you want (within the boundary of law),
+for personal, educational, research, military, governmental and/or professional
+purpose.
+</p>
 
 <h2>Can I obtain VideoLAN software under different licensing terms?</h2>
 <p>You would need to negotiate a new copyright license
@@ -142,6 +145,45 @@ but this should be the simplest one as it does not rely on a contract.
 
 <p><strong>Beware</strong>:
 VLC media player binaries are distributed with the libdvdcss library included.
+</p>
+
+<h2>Third parties are selling your software.
+<a name="sale">Is this legal?</a></h2>
+<p>Yes, absolutely.
+</p>
+<p>Our licensing terms explicitly allow selling or sublicensing our software.
+We allow that very much on purpose.
+For instance, we like computer magazines to include our software on their CDs,
+and we also like Linux distributions, PC manufacturers and storage device
+vendors to pre-install our software and make money out of it.
+For us, that is basically zero-cost advertisement.
+See also <a href="http://www.gnu.org/philosophy/selling.html">the rationale
+from the Free Software Foundation</a> (those who wrote our licensing terms).
+</p>
+<p>We reckon that certain form of sales, such as online commercial downloads,
+provide no value to us neither our customers.
+Many people consider those sales to be deceptive, if not outright fraudulent.
+As our software can be downloaded for free from our website and mirrors,
+<cite>there should be no need to pay</cite>.
+Unfortunately, it is impossible to differentiate good and bad sales,
+so we allow all of them.
+Besides, we are open-source enthusiasts, not lawyers.
+</p>
+
+<h2>I bought your software.
+<a name="refund">How do I get a refund?</a></h2>
+<p>The VideoLAN project and its <kbd>videolan.org</kbd> website
+are in no way involved with retail or gross sale of any product.
+As a consequence, the VideoLAN project is unable to provide any refund.
+To put it bluntly, we did not get your money, so we cannot give it back.
+</p>
+<p>If you want a refund for software from the VideoLAN project,
+you must solicit it from the merchant that sold you the product.
+Depending on the applicable consumer protection laws and contractual terms
+you could have agreed to,
+you might consider turning to the financial intermediaries,
+and/or the competent administration for commercial fraud
+(e.g. the DGCCRF in France).
 </p>
 
 <hr />

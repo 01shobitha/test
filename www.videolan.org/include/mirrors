@@ -84,7 +84,7 @@ http://ftp.free.org/mirrors/videolan/|Free|France|fr|HTTP|2000
 # Connection: 100Mbps, unlimited transfer per month
 # James DeVincentis admin __ __nexcast.net
 #
-http://mirror.nexcast.net/vlc/|Nexcast|USA|us|HTTP|100
+http://videolan.mirror.nexcast.net/vlc/|Nexcast|USA|us|HTTP|100
 #
 # Location: USA
 # Connection: 1000

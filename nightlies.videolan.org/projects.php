@@ -1,5 +1,5 @@
 <?php
-   $title = "VidenLAN projects nightly builds";
+   $title = "VideoLAN projects nightly builds";
    $lang = "en";
    $date = "12 september 2008";
    $menu = array( "vlc" );

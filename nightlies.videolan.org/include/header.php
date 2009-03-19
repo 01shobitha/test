@@ -87,7 +87,7 @@ function footer($tag) {
 	</div> <!-- MAINCONTENT -->
 </div> <!-- PAGECONTAINER -->
 <div id="footer">
-  <p> <a href="/">VideoLAN</a>
+  <p> <a href="http://www.videolan.org/">VideoLAN</a>
   </p>
   <p>
   All rights reserved to the VideoLAN team. -&nbsp;

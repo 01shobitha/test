@@ -1,7 +1,7 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
-|25 March 2009|VideoLAN in Google Summer of Code|VideoLAN has been accepted as an official mentoring organisation for <a href="http://code.google.com/soc/2009">Google's 2009 edition of Summer of Code</a>. We are looking for interested students that are free this summer. Students can apply now and suggest projects. See <a href="http://wiki.videolan.org/SoC_2009">VLC related projects</a> and <a href="http://wiki.videolan.org/SoC_2009_x264">x264 related projects</a>. Feel free to drop by on IRC or e-mail the vlc-devel@ mailing list if you have any questions.
+|25 March 2009|VideoLAN in Google Summer of Code|VideoLAN has been accepted as an official mentoring organisation for <a href="http://code.google.com/soc/2009">Google's 2009 edition of Summer of Code</a>. We are looking for interested students that are free this summer. Students can apply now and suggest projects. See <a href="http://wiki.videolan.org/SoC_2009">VLC related projects</a> and <a href="http://wiki.videolan.org/SoC_x264_2009">x264 related projects</a>. Feel free to drop by on IRC or e-mail the vlc-devel@ mailing list if you have any questions.
 
 |23 February 2009|VLC Skin Editor 0.8.1|The VideoLAN team is pleased to announce the release of VLC Skin Editor 0.8.1.<br />
 It fixes several bugs and brings better performance. Furthermore the program is now available in several languages.<br />

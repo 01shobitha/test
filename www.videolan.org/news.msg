@@ -1,7 +1,7 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
-|1 April 2009|A New Logo for a Brighter|<img alt="logo" src="http://images.videolan.org/images/bulldozer-small.gif" style="float:left;"/>After years of faithfull serice, we've decide to retire our old logo, the famous cone. It served its pupose, but we've now decided to drop the passive cone and upgrade to some heavy machinery. The whole team would like to welcome the new VLC logo: <a href="http://images.videolan.org/images/bulldozer.png">Bulldozer</a>! Get ready for some serious earth shatering on the open source multimedia world!
+|1 April 2009|A New Logo for a Brighter|<img alt="logo" src="http://images.videolan.org/images/bulldozer-small.gif" style="float:left;"/>After years of faithfull serice, we've decide to retire our old logo, the famous cone. It served its pupose, but we've now decided to drop the passive cone and upgrade to some heavy machinery. The whole team would like to welcome the new VLC logo: <a href="http://images.videolan.org/images/bulldozer.png">Bulldozer</a>! Get ready for some serious earth shatering on the open source multimedia world!<p class="clearme"> </p>
 
 |25 March 2009|VideoLAN in Google Summer of Code|VideoLAN has been accepted as an official mentoring organisation for <a href="http://socghop.appspot.com/">Google's 2009 edition of Summer of Code</a>. We are looking for interested students that are free this summer. Students can apply now and suggest projects. See <a href="http://wiki.videolan.org/SoC_2009">VLC related projects</a> and <a href="http://wiki.videolan.org/SoC_x264_2009">x264 related projects</a>. Feel free to drop by on IRC or e-mail the vlc-devel@ mailing list if you have any questions.
 

@@ -379,10 +379,9 @@ img.center { display: block; margin: auto; }
 }
 
 .vlc-logo {
-	/*float: left;width: 64px;height: 64px;*/
-	float: left;width: 100px;height: 145px;
+	float: left;width: 64px;height: 64px;
 	margin-left: -5px; padding-bottom: 15px;
-	background: url(http://images.videolan.org/images/bulldozer-very-small.gif) left top no-repeat;
+	background: url(http://images.videolan.org/images/vlc-logo.gif) left top no-repeat;
 }
 
 div.screenshot{

@@ -1,6 +1,11 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|02 April 2009|VLC media player 0.9.9|The VideoLAN team is pleased to announce the release of VLC media player 0.9.9.<br />
+
+This is a bugfix release. Notables bugfixes are: fullscreen behaviour on win32, workaround bug with libxml2 >=2.7.3, video performance on Intel-based Macs, various decoders on win32.</br>
+An experimental decoder for Real Video 3.0 & 4.0 using FFMpeg has also been added.<br />
+
 |1 April 2009|A New Logo for a Brighter Future|<img alt="logo" src="http://images.videolan.org/images/bulldozer-small.gif" style="float:left;"/>After years of faithful service, we've decided to retire our old logo, the famous cone. It served its purpose, but as VLC 1.0.0 is approaching, we are dropping the passive cone and upgrading to some heavy machinery. <br />The whole team would like to welcome the new VLC logo: <a href="http://images.videolan.org/images/bulldozer.png">Bulldozer</a>! Get ready for some serious earth shattering on the open source multimedia world!<br/>VLC 1.0.0 is warming up... maybe it's not going to be fast but it will wreck everything in its path.<p class="clearme"> </p></br>
 <b>Note:</b> Look at the date...
 

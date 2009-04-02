@@ -43,7 +43,7 @@
 
   <div id="right">
     <?php panel_start( "blue" ); ?>
-          <h1>VLC media player 0.9.8a</h1>
+          <h1>VLC media player 0.9.9</h1>
           
           <ul class="panel-blue-bullet">
             <li>Free and Open Source cross-platform media player</li>

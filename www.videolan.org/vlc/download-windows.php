@@ -13,7 +13,7 @@
 
 <p>All mirrors include all the available translations.</p>
 
-<?php $vlc_version = '0.9.8a'; ?>
+<?php $vlc_version = '0.9.9'; ?>
   <h2>Latest packages (<?php echo $vlc_version; ?>)</h2>
 <p>This release only supports Windows 2000 and later. Windows 95, 98 and Me users, please click <a href="#win98">here</a>.</p>
 

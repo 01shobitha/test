@@ -30,7 +30,7 @@ ol, ul {
 }
 
 ul.bullets {
-	list-style-type: disc; 
+	list-style-type: disc;
 	padding-left: 2.5em; margin-bottom: 1em;
 }
 

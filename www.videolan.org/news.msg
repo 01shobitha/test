@@ -4,10 +4,10 @@
 |02 April 2009|VLC media player 0.9.9|The VideoLAN team is very pleased to announce the release of <a href="/vlc/">VLC media player 0.9.9.</a><br /><br />
 This is a <em>bugfix</em> release on the 0.9 branch of VLC. Notables bugfixes are:
 <ul class="bullets">
-<li>fullscreen behaviour on win32 with multiple screens,</li>
+<li>fullscreen behaviour on <a href="/vlc/download-windows.html">Windows</a> with multiple screens,</li>
 <li>workaround bug with libxml2 >=2.7.3,</li>
 <li>video performance on Intel-based Macs,</li>
-<li>various decoders updates on win32.</li>
+<li>various decoders updates on Windows.</li>
 </ul>
 An experimental native decoder for Real Video 3.0 & 4.0 using FFmpeg has been added and many fixes happened in our Real Media demuxer.<br />This should improve Real Media Files support on all platforms.
 

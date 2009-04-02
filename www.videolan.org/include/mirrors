@@ -14,7 +14,7 @@ http://ftp.snt.utwente.nl/pub/software/videolan/|Twente University|Netherlands|n
 http://mirrors.ircam.fr/pub/videolan/|IRCAM|France|fr|HTTP|1000
 #
 # Contact : Emmanuel dot Blindauer at urs dot u-strasbg dot fr - BW : 1 GBit
-ftp://ftp.u-strasbg.fr/pub/videolan/|Université de Strasbourg|France|fr|FTP|1000
+#ftp://ftp.u-strasbg.fr/pub/videolan/|Université de Strasbourg|France|fr|FTP|1000
 #
 # Contact: #crans on irc.rezosup.net - 
 # Contact: roots at crans dot org
@@ -25,7 +25,7 @@ ftp://videolan.cs.pu.edu.tw/others/VideoLAN/|Providence University|Taiwan|tw|FTP
 #
 # Contact : erik at telia dot com (e-mail address doesn't work) - round robin 100Mbits Stockholm 100Mbits Gothenburg
 #Directory listing is disabled.
-http://ftp.endpoint.nu/pub/software/videolan/|Endpoint Corporation|Sweden|se|HTTP|200
+#http://ftp.endpoint.nu/pub/software/videolan/|Endpoint Corporation|Sweden|se|HTTP|200
 #
 # Contact : richard at flazdesk dot com - BW 100 Mbits - East coast
 #http://mirrors.optralan.com/videolan/|Optralan|USA|us|HTTP|100
@@ -89,7 +89,7 @@ http://videolan.mirror.nexcast.net/|Nexcast|USA|us|HTTP|100
 # Location: USA
 # Connection: 1000
 # shadowz shadowz __A__ beyond-innovation d0t org
-http://mirror.beyondi.org/vlc/|Beyond !nnovation|USA|us|HTTP|200
+#http://mirror.beyondi.org/vlc/|Beyond !nnovation|USA|us|HTTP|200
 #
 # Location: Ireland
 # Connection: 10Gbps

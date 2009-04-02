@@ -4,7 +4,7 @@
 |02 April 2009|VLC media player 0.9.9|The VideoLAN team is pleased to announce the release of VLC media player 0.9.9.<br /><br />
 This is a bugfix release on the 0.9 branch of VLC.<br />
 Notables bugfixes are:
-<ul class="panel-blue-bullet">
+<ul class="bullets">
 <li>fullscreen behaviour on win32 with multiple screens,</li>
 <li>workaround bug with libxml2 >=2.7.3,</li>
 <li>video performance on Intel-based Macs,</li>

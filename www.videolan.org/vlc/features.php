@@ -198,7 +198,7 @@ function headers( $extra )
             <?php writefeature( "Indeo Video v3 (IV32)", "yes", "yes", "part", "yes", "part", "yes" ); ?>
             <?php writefeature( "Indeo Video 4/5 (IV41, IV51)", "no", "no", "no", "no", "no", "no" ); ?>
             <?php writefeature( 'Real Video 1/2', "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( 'Real Video 3/4<sup><a href="#video_notes">3</a></sup>', "no", "no", "no", "no", "no", "no" ); ?>
+            <?php writefeature( 'Real Video 3/4', "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
 
           </table>
           <div class="notes">
@@ -207,9 +207,6 @@ function headers( $extra )
             starting with VLC 0.8.6.</li>
             <li>Windows DMO codecs can be used by VLC on 32-bit x86 platforms and
             allow WMV-3/WMA-3 decoding. This feature is untested on Intel-based Macs.</li>
-            <li>VLC's 1.0.0 release will introduce support for RV30 and RV40 based upon
-            the additions to the FFmpeg-library by one their Google Summer of Code 2007
-            projects.</li>
 
           </ol>
           </div>

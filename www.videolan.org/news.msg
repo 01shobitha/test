@@ -2,16 +2,17 @@
 # New topics begin with a "|"
 #
 |02 April 2009|VLC media player 0.9.9|The VideoLAN team is very pleased to announce the release of <a href="/vlc/">VLC media player 0.9.9.</a><br /><br />
-This is a <em>bugfix</em> release on the 0.9 branch of VLC. Notables bugfixes are:
+This is a <em>bugfix</em> release on the 0.9 branch of VLC. Notables bugfixes are:</p>
 <ul class="bullets">
 <li>fullscreen behaviour on <a href="/vlc/download-windows.html">Windows</a> with multiple screens,</li>
 <li>workaround bug with libxml2 >=2.7.3,</li>
 <li>video performance on Intel-based Macs,</li>
 <li>various decoders updates on Windows.</li>
 </ul>
+<p>
 An experimental native decoder for Real Video 3.0 &amp; 4.0 using FFmpeg has been added and many fixes happened in our Real Media demuxer.<br />This should improve Real Media Files support on all platforms.
 
-|1 April 2009|A New Logo for a Brighter Future|<img alt="logo" src="http://images.videolan.org/images/bulldozer-small.gif" style="float:left;"/>After years of faithful service, we've decided to retire our old logo, the famous cone. It served its purpose, but as VLC 1.0.0 is approaching, we are dropping the passive cone and upgrading to some heavy machinery. <br />The whole team would like to welcome the new VLC logo: <a href="http://images.videolan.org/images/bulldozer.png">Bulldozer</a>! Get ready for some serious earth shattering on the open source multimedia world!<br/>VLC 1.0.0 is warming up... maybe it's not going to be fast but it will wreck everything in its path.<p class="clearme"> </p><br/>
+|1 April 2009|A New Logo for a Brighter Future|<img alt="logo" src="http://images.videolan.org/images/bulldozer-small.gif" style="float:left;"/>After years of faithful service, we've decided to retire our old logo, the famous cone. It served its purpose, but as VLC 1.0.0 is approaching, we are dropping the passive cone and upgrading to some heavy machinery. <br />The whole team would like to welcome the new VLC logo: <a href="http://images.videolan.org/images/bulldozer.png">Bulldozer</a>! Get ready for some serious earth shattering on the open source multimedia world!<br/>VLC 1.0.0 is warming up... maybe it's not going to be fast but it will wreck everything in its path.</p><p class="clearme"><br/>
 <span style="color:red;"><b>Note:</b> Look at the date...</span>
 
 |25 March 2009|VideoLAN in Google Summer of Code|VideoLAN has been accepted as an official mentoring organisation for <a href="http://socghop.appspot.com/">Google's 2009 edition of Summer of Code</a>. We are looking for interested students that are free this summer. Students can apply now and suggest projects. See <a href="http://wiki.videolan.org/SoC_2009">VLC related projects</a> and <a href="http://wiki.videolan.org/SoC_x264_2009">x264 related projects</a>. Feel free to drop by on IRC or e-mail the vlc-devel@ mailing list if you have any questions.

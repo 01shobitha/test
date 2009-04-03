@@ -9,7 +9,7 @@ This is a <em>bugfix</em> release on the 0.9 branch of VLC. Notables bugfixes ar
 <li>video performance on Intel-based Macs,</li>
 <li>various decoders updates on Windows.</li>
 </ul>
-An experimental native decoder for Real Video 3.0 & 4.0 using FFmpeg has been added and many fixes happened in our Real Media demuxer.<br />This should improve Real Media Files support on all platforms.
+An experimental native decoder for Real Video 3.0 &amp; 4.0 using FFmpeg has been added and many fixes happened in our Real Media demuxer.<br />This should improve Real Media Files support on all platforms.
 
 |1 April 2009|A New Logo for a Brighter Future|<img alt="logo" src="http://images.videolan.org/images/bulldozer-small.gif" style="float:left;"/>After years of faithful service, we've decided to retire our old logo, the famous cone. It served its purpose, but as VLC 1.0.0 is approaching, we are dropping the passive cone and upgrading to some heavy machinery. <br />The whole team would like to welcome the new VLC logo: <a href="http://images.videolan.org/images/bulldozer.png">Bulldozer</a>! Get ready for some serious earth shattering on the open source multimedia world!<br/>VLC 1.0.0 is warming up... maybe it's not going to be fast but it will wreck everything in its path.<p class="clearme"> </p><br/>
 <span style="color:red;"><b>Note:</b> Look at the date...</span>

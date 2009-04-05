@@ -34,6 +34,7 @@ echo "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n";
    <meta name="Description" content="<?php echo $title; ?>" />
    <title><?php echo $title; ?></title>
    <link rel="alternate" type="application/rss+xml" title="RSS - News" href="/videolan-news.rss" />
+   <link rel="alternate" type="application/rss+xml" title="RSS - News" href="http://planet.videolan.org/rss20.xml" />
    <link rel="stylesheet" type="text/css" href="/main.css" />
    <?php
       if( isset($additional_css) ) {

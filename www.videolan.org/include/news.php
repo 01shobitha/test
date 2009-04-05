@@ -4,24 +4,24 @@
  * $max: number of news to print (0 to print all news)
  *
  */
-  function shownews($style,$max) {
+    function shownews($style,$max) {
     ?>
     <script type="text/javascript">
     function toggle(count) {
-	var text = "news-span-"+count;
-	var read = "read-"+count;
-	if(document.getElementById(text)) 
-	{
+        var text = "news-span-"+count;
+        var read = "read-"+count;
+        if(document.getElementById(text))
+        {
             if(document.getElementById(text).style.display == 'none')
-	    {
-	        document.getElementById(text).style.display = 'inline';
-		document.getElementById(read).innerHTML = "(Read less...)";
-	    }
-	    else
-	    {
-		 document.getElementById(text).style.display = 'none';    
-		document.getElementById(read).innerHTML = "(Read more...)";
-	    }
+            {
+                document.getElementById(text).style.display = 'inline';
+                document.getElementById(read).innerHTML = "(Read less...)";
+            }
+            else
+            {
+                document.getElementById(text).style.display = 'none';    
+                document.getElementById(read).innerHTML = "(Read more...)";
+            }
         }
     }
     </script>
@@ -46,28 +46,28 @@
                 $ex=explode("|",$msg);
                 $date = $ex[1];
                 $title = $ex[2];
-		$short = $ex[3];
+                $short = $ex[3];
                 $remain = $ex[4];
 
                 if( $count ++ < 15 ) { echo ("<div class=\"item\">\n"); }
-		else { echo ("<div class=\"item-really-old\">\n"); }
-		echo "<a id=\"news-$count\" href=\"/news.html#news-$count\"></a>";
-                
-		echo ("<h3>".$title."</h3>\n" );
-		//echo "<div id=\"news-$count\">";
+                else { echo ("<div class=\"item-really-old\">\n"); }
+                echo "<a id=\"news-$count\" href=\"/news.html#news-$count\"></a>";
+
+                echo ("<h3>".$title."</h3>\n" );
+                //echo "<div id=\"news-$count\">";
                 echo ("<p class=\"date\">".date("Y-m-d", strtotime( $date) )."</p>\n");
                 echo "<p class=\"descr\">".$short;
-    if( $remain )
-    {
-    echo "<div id=\"news-span-$count\">$remain</div> ";
-		echo "<script type=\"text/javascript\"><!--\n";
-		echo "document.writeln('<br /><a id=\"read-$count\" ";
- 		echo "href=\"javascript:toggle(\'$count\')\">(Read more...)";
-	        echo "</a>');toggle( $count );\n--></script>";
-    }
-		echo "</p>\n</div>\n";
+                if( $remain )
+                {
+                    echo "<div id=\"news-span-$count\">$remain</div> ";
+                    echo "<script type=\"text/javascript\"><!--\n";
+                    echo "document.writeln('<br /><a id=\"read-$count\" ";
+                    echo "href=\"javascript:toggle(\'$count\')\">(Read more...)";
+                    echo "</a>');toggle( $count );\n--></script>";
+                }
+                echo "</p>\n</div>\n";
 
-             	$max--; if($max == 0) return;
+                $max--; if($max == 0) return;
                 $msg="";
              }
             $msg.=" ".$line;

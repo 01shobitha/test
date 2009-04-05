@@ -18,20 +18,13 @@
 <p>If you would like to join the project, feel free to send us an e-mail to the <a href="/developers/lists.html">vlc-devel mailing list</a> or to contact us through our <a href="http://forum.videolan.org/viewtopic.php?t=3675&amp;start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">forum</a>. </p>
 -->
 
-<?php $vlc_version = "0.9.9"; ?>
-<h2>Latest Mac OS X packages for 10.4 and 10.5 (release <?php echo $vlc_version; ?>)</h2>
-
-<?php pkgitem( "Intel package",
-               "$vlc_version/macosx","vlc-$vlc_version-intel.dmg","vlc"); ?>
-
-
-<?php $vlc_version = "0.9.8a"; ?>
-<h2>Mac OS X package for 10.4 and 10.5 (release <?php echo $vlc_version; ?>)</h2>
+<?php $vlc_version = "0.9.9a"; ?>
+<h2>Latest Mac OS X package for 10.4 and 10.5 (release <?php echo $vlc_version; ?>)</h2>
 
 <?php pkgitem( "Universal Binary",
                "$vlc_version/macosx","vlc-$vlc_version.dmg","vlc"); ?>
 
-<h2>Platform specific packages for 10.4 and 10.5 (release <?php echo $vlc_version; ?>)</h2>
+<h2>Latest platform specific packages for 10.4 and 10.5 (release <?php echo $vlc_version; ?>)</h2>
 
 <?php pkgitem( "Intel package",
                "$vlc_version/macosx","vlc-$vlc_version-intel.dmg","vlc"); ?>
@@ -53,8 +46,6 @@
 <ul>
 <li>
 <?php $nosource = true; ?>
-<?php pkgitem_nomirr( "Last Mac OS X package for 10.3 Universal Binary (release 0.8.6i)", "0.8.6i/macosx","vlc-0.8.6i.dmg","vlc"); ?>
-<?php pkgitem_nomirr( "Last Mac OS X package for 10.3 Intel (release 0.8.6i)", "0.8.6i/macosx","vlc-0.8.6i-intel.dmg","vlc"); ?>
 <?php pkgitem_nomirr( "Last Mac OS X package for 10.3 PowerPC (release 0.8.6i)", "0.8.6i/macosx","vlc-0.8.6i-powerpc.dmg","vlc"); ?>
 </li>
 </ul>

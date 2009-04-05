@@ -1,7 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
-|05 April 2009|VLC media player 0.9.9a|This update is Mac OS X only. It fixes VLC's behaviour on PowerPC-based Macs and includes updated libraries for both platforms. In order to take full advantage of VLC 0.9.9's features, including Real Video playback, we recommend all Mac users to update to this new release. Due to a lack of active Mac OS X developers, these issues remained unnoticed for the last release. We are sorry for the noise and are looking for enthusiastic Mac developers to support us.
+|05 April 2009|VLC media player 0.9.9a for Mac OS X|This update is Mac OS X only. It fixes VLC's behaviour on PowerPC-based Macs and includes updated libraries for all Mac OS X platforms.<br />
+In order to take full advantage of VLC 0.9.9's features, including native Real Video playback, we recommend all Mac users to update to this new release.<br /> Due to a lack of active Mac OS X developers, these issues remained unnoticed for the last release. We are sorry for the noise and are looking for enthusiastic Mac developers to help and support us.
 
 |02 April 2009|VLC media player 0.9.9|The VideoLAN team is very pleased to announce the release of <a href="/vlc/">VLC media player 0.9.9.</a><br /><br />
 This is a <em>bugfix</em> release on the 0.9 branch of VLC. Notables bugfixes are:</p>

@@ -148,6 +148,11 @@ http://vlc.securedservers.com/|Secured Servers LLC|USA|us|HTTP|100
 # Mirror admin email: mirrors at aussiehq.com.au
 http://videolan.mirror.aussiehq.net.au/|AussieHQ Pty Ltd|Australia|au|HTTP|100
 #
+# Location: Location: Burlington, Ontario
+# Connectivity: 1Gbps? 100Mbps
+# Cogeco
+ftp://less.cogeco.net/vlc/|Cogeco|Canada|ca|FTP|100
+#
 # CacheBoy CDN - This is a TEST
 # Location: NL
 # Adrian Chadd - adrian.chadd@gmail.com / adrian@xenion.com.au

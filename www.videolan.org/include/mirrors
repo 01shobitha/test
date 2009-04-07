@@ -151,7 +151,7 @@ http://videolan.mirror.aussiehq.net.au/|AussieHQ Pty Ltd|Australia|au|HTTP|100
 # Location: Location: Burlington, Ontario
 # Connectivity: 1Gbps? 100Mbps
 # Cogeco
-ftp://less.cogeco.net/vlc/|Cogeco|Canada|ca|FTP|100
+http://less.cogeco.net/ftp/vlc/|Cogeco|Canada|ca|HTTP|100
 #
 # CacheBoy CDN - This is a TEST
 # Location: NL

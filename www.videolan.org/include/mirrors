@@ -153,6 +153,10 @@ http://videolan.mirror.aussiehq.net.au/|AussieHQ Pty Ltd|Australia|au|HTTP|100
 # Cogeco
 http://less.cogeco.net/ftp/vlc/|Cogeco|Canada|ca|HTTP|100
 #
+# Location: Berlin, Germany
+# Connectivity: 100Mbps
+http://vlc.bovenschen.biz/|Bovenschen|Germany|de|HTTP|100
+#
 # CacheBoy CDN - This is a TEST
 # Location: NL
 # Adrian Chadd - adrian.chadd@gmail.com / adrian@xenion.com.au

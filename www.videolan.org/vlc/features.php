@@ -238,6 +238,7 @@ function headers( $extra )
             <?php writefeature( "Musepack / MPC", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
             <?php writefeature( "ATRAC 3", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
             <?php writefeature( "Wavpack", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "Mod (.s3m, .it, .mod)", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
             <?php writefeature( "TrueAudio (TTA)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "APE (Monkey Audio)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( 'Real Audio <sup><a href="#audio_notes">2</a></sup>', "part", "part", "part", "unt", "part", "no" ); ?>

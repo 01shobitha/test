@@ -13,15 +13,15 @@
 <h1> VLC media player pour Windows </h1>
 <div id="left">
 
-  <h2>Dernier paquetage (0.8.6a)</h2>
+  <h2>Dernier paquetage (0.9.9)</h2>
 
 <?php
     pkgitem( "Windows self-extracting package",
-                   "0.8.6a/win32","vlc-0.8.6a-win32.exe","vlc");
+                   "0.9.9/win32","vlc-0.9.9-win32.exe","vlc");
     pkgitem("Windows 7zip (identical to the above but without the installer)",
-                  "0.8.6a/win32","vlc-0.8.6a-win32.7z","vlc");
+                  "0.9.9/win32","vlc-0.9.9-win32.7z","vlc");
     pkgitem("Windows zip packages (identical to the above)",
-                  "0.8.6a/win32","vlc-0.8.6a-win32.zip","vlc");
+                  "0.9.9/win32","vlc-0.9.9-win32.zip","vlc");
 ?>
 
   <h2>Anciennes versions</h2>

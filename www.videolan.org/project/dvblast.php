@@ -25,7 +25,7 @@ VLC.</p>
 
 <h2>Current features</h2>
 
-<ul>
+<ul class="panel-blue-bullet">
   <li> Lightweight program designed for extreme memory and CPU conditions</li>
   <li> Only one dependancy : libdvbpsi</li>
   <li> CAM menus (MMI) support via an external application</li>

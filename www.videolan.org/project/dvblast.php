@@ -10,9 +10,9 @@
 <h2>Are you looking for live streaming? Don't look any further!</h2>
 
 <p> <code>DVBlast</code> is a simple and powerful streaming application
-based on the linux-dvb API. It opens a DVB device, tunes it, places
-PID filters, configures a CAM module, and demultiplexes the packets to
-several RTP outputs.</p>
+based on the linux-dvb API.<br />
+It opens a DVB device, tunes it, places PID filters, configures a CAM module,
+and demultiplexes the packets to several RTP outputs.</p>
 
 <p> <code>DVBlast</code> is designed to be the core of a custom IRD or CID,
 based on a PC with Linux-supported DVB cards.</p>
@@ -27,10 +27,9 @@ VLC.</p>
 
 <ul class="panel-blue-bullet">
   <li> Lightweight program designed for extreme memory and CPU conditions</li>
-  <li> Only one dependancy : libdvbpsi</li>
+  <li> Only one dependancy : <em><a href="/developers/libdvbpsi.html">libdvbpsi</a></em></li>
   <li> CAM menus (MMI) support via an external application</li>
-  <li> The configuration file describing outputs can be reloaded without
-losing a single packet</li>
+  <li> The configuration file describing outputs can be reloaded without losing a single packet</li>
   <li> PID-based or service-based filtering</li>
   <li> Support for the new S2API of linux-dvb (compile option)</li>
 </ul>
@@ -50,5 +49,9 @@ href="http://wiki.videolan.org/Subversion">Subversion</a>.</p>
 href="/support/lists.html">streaming</a>
 mailing-list. There is also a developer-oriented <a
 href="/developers/lists.html">mailing-list</a>.</p>
+
+<br />
+<br />
+<br />
 
 <?php footer('$Id$'); ?>

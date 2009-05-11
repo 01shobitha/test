@@ -43,7 +43,9 @@ or <a
 href="ftp://ftp.videolan.org/pub/videolan/dvblast/1.0/dvblast-1.0.tar.bz2">FTP</a>.</p>
 
 <p> Hackers can participate to the development using <a
-href="http://wiki.videolan.org/Subversion">Subversion</a>.</p>
+href="http://wiki.videolan.org/Subversion">Subversion</a>.<br/>
+Code can be found at <code>svn://svn.videolan.org/DVBlast</code> and you can
+<a href="http://svn.videolan.org/listing.php?repname=DVBLast&path=%2F&sc=0">browse source online</a>.</p>
 
 <p>User support is handled in the <a
 href="/support/lists.html">streaming</a>

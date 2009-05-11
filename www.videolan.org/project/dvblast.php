@@ -46,4 +46,9 @@ href="ftp://ftp.videolan.org/pub/videolan/dvblast/1.0/dvblast-1.0.tar.bz2">FTP</
 <p> Hackers can participate to the development using <a
 href="http://wiki.videolan.org/Subversion">Subversion</a>.</p>
 
-<?php footer('$Id: dvblast.php 4771 2008-09-17 21:05:06Z dionoea $'); ?>
+<p>User support is handled in the <a
+href="/support/lists.html">streaming</a>
+mailing-list. There is also a developer-oriented <a
+href="/developers/lists.html">mailing-list</a>.</p>
+
+<?php footer('$Id$'); ?>

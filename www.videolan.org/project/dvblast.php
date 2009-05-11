@@ -31,7 +31,7 @@ VLC.</p>
   <li> CAM menus (MMI) support via an external application</li>
   <li> The configuration file describing outputs can be reloaded without
 losing a single packet</li>
-  <li> PID-based or service-based filtering<li>
+  <li> PID-based or service-based filtering</li>
   <li> Support for the new S2API of linux-dvb (compile option)</li>
 </ul>
 

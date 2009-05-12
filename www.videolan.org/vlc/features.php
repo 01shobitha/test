@@ -112,7 +112,7 @@ function headers( $extra )
           <?php writefeature( "Video CD / VCD ", "yes", "yes", "yes", "no", "yes", "none" ); ?>
           <?php writefeature( 'SVCD <sup><a href="#input_notes">2</a></sup>', "part", "part", "part", "no", "part", "none" ); ?>
           <?php writefeature( "Audio CD (no DTS-CD)", "yes", "yes", "yes", "no", "yes", "none" ); ?>
-          <?php writefeature( "DVB (Satellite, <br/>Digital TV, Cable TV)", "yes", "yes", "no", "yes", "no", "none" ); ?>
+          <?php writefeature( "DVB (Satellite, <br/>Digital TV, Cable TV)", "yes", "no", "yes", "yes", "no", "none" ); ?>
           <?php writefeature( 'MPEG encoder <sup><a href="#input_notes">3</a></sup>', "yes", "no", "yes", "no", "no", "none" ); ?>
 
           <tr>
@@ -146,7 +146,7 @@ function headers( $extra )
           <?php writefeature( "FLV (Flash)", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
           <?php writefeature( "MXF", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
           <?php writefeature( "Nut", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
-          <?php writefeature( "Standard MIDI / SMF", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+          <?php writefeature( "Standard MIDI / SMF", "unt", "yes", "unt", "unt", "unt", "unt" ); ?>
           <?php writefeature( "Creative&trade; Voice", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
 
           </table>

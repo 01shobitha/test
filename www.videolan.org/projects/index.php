@@ -9,7 +9,7 @@
 
 <h1>VideoLAN Software Projects</h1>
 
-<p>Those projects are projects aimed at (power) end-users.</p>
+<p>Those projects are projects aimed at power end-users.</p>
 <p>VideoLAN also hosts <a href="/developers/">development libraries</a></p>
 
 <h2>Projects list</h2>

@@ -24,7 +24,7 @@ mostly aimed at power end-users:</p>
 a Java application to manage multiple VLC instances through their telnet interface.</li>
 
 <li><a href="/projects/dvblast.html">DVBlast</a>,
-a powerful DVB streamer, fast and reliable.</li>
+a simple, fast, reliable and powerful streaming application for linux-dvb devices.</li>
 
 <li><a href="/vlc/streaming.html">VLS (VideoLAN Server)</a>, our legacy
 streaming server, which is now mostly replaced by VLC.</li>

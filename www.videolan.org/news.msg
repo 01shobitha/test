@@ -1,7 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
-|12 May 2009|DVBlast 1.0|<a href="/projects/dvblast.html">DVBlast</a> is a simple and powerful streaming application for linux-dvb devices. It opens a DVB device, tunes it, places PID filters, configures a CAM module, and demultiplexes the packets to several RTP outputs.
+|12 May 2009|DVBlast 1.0|<a href="/projects/dvblast.html">DVBlast</a> is a simple and powerful streaming application for linux-dvb devices. It opens a DVB device, tunes it, places PID filters, configures a CAM module, and demultiplexes the packets to several RTP outputs.<br />
+The VideoLAN project is glad to announce the first public release of this new software, released under the GPLv2 license.
 
 |05 April 2009|VLC media player 0.9.9a for Mac OS X|This update is Mac OS X only. It fixes VLC's behaviour on PowerPC-based Macs and includes updated libraries for all Mac OS X platforms.<br />
 In order to take full advantage of VLC 0.9.9's features, including native Real Video playback, we recommend all Mac users to update to this new release.<br /> Due to a lack of active Mac OS X developers, these issues remained unnoticed for the last release. We are sorry for the noise and are looking for enthusiastic Mac developers to help and support us.

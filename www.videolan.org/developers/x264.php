@@ -7,7 +7,7 @@
 
 <h1>x264 - a free h264/avc encoder</h1>
 
-<p>x264 is a free library for encoding H264/AVC video streams. The code is written from scratch by <a href="mailto:fenrir@videolan.org">Laurent Aimar</a>, <a href="mailto:pengvado@users.sourceforge.net">Loren Merritt</a>, <a href="mailto:titer@videolan.org">Eric Petit</a> (OS X), <a href="mailto:chenm001@163.com">Min Chen</a> (vfw/asm), Justin Clay (vfw), <a href="mailto:mru@mru.ath.cx">M&aring;ns Rullg&aring;rd</a>, Radek Czyz, Christian Heine (asm), Alex Izvorski, and Alex Wright. It is released under the terms of the GPL license.</p>
+<p>x264 is a free library for encoding H264/AVC video streams. The code is written from scratch by <a href="mailto:fenrir@videolan.org">Laurent Aimar</a>, <a href="mailto:pengvado@users.sourceforge.net">Loren Merritt</a>, <a href="mailto:titer@videolan.org">Eric Petit</a> (OS X), <a href="mailto:chenm001@163.com">Min Chen</a> (vfw/asm), Justin Clay (vfw), <a href="mailto:mru@mru.ath.cx">M&aring;ns Rullg&aring;rd</a>, Radek Czyz, Christian Heine (asm), Alex Izvorski, Alex Wright and <a href="mailto:darkshikari@gmail.com">Jason Garrett-Glaser</a>. It is released under the terms of the GPL license.</p>
 
 <h2>Development status</h2>
 

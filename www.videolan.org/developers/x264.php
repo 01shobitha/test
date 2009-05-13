@@ -40,6 +40,8 @@
 
 <p>Or grab a <a href="ftp://ftp.videolan.org/pub/videolan/x264/snapshots/">daily tarball</a>.</p>
 
+<p>You can browse the source <a href="http://git.videolan.org/?p=x264.git;a=summary">on-line</a>.</p>
+
 <p>Unofficial builds for Windows are available from <a href="http://x264.nl/">Jarod</a> or <a href="http://forum.doom9.org/showthread.php?t=89979">Sharktooth</a>.
 
 <h2>Support</h2>

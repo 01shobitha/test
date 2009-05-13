@@ -15,7 +15,7 @@
 
 <p>Encoder features</p>
 
-<ul>
+<ul class="bullets">
 <li>CAVLC/CABAC</li>
 <li>Multi-references</li>
 <li>Intra: all macroblock types (16x16, 8x8, and 4x4 with all predictions)</li>

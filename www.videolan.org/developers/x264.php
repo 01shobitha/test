@@ -16,7 +16,7 @@
 <h3>Encoder features</h3>
 
 <ul class="bullets">
-<li>CAVLC/CABAC</li>
+<li>CAVLC/CABAC Entropy Coding</li>
 <li>Multi-references</li>
 <li>Intra: all macroblock types (16x16, 8x8, and 4x4 with all predictions)</li>
 <li>Inter P: all partitions (from 16x16 down to 4x4)</li>

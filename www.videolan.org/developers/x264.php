@@ -13,7 +13,7 @@
 
 <h2>Development status</h2>
 
-<p>Encoder features</p>
+<h3>Encoder features</h3>
 
 <ul class="bullets">
 <li>CAVLC/CABAC</li>
@@ -53,7 +53,7 @@
 
 <h2>Software using x264</h2>
 
-<ul>
+<ul class="bullets">
 <li><a href="http://avidemux.org/">Avidemux</a></li>
 <li><a href="http://www.funknmary.de/bergdichter/projekte/index.php?page=ELDER">ELDER</a></li>
 <li><a href="http://sourceforge.net/projects/ffdshow">ffdshow</a></li>

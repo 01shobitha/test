@@ -16,20 +16,23 @@
 <h3>Encoder features</h3>
 
 <ul class="bullets">
-<li>CAVLC/CABAC Entropy Coding</li>
-<li>Multi-references</li>
-<li>Intra: all macroblock types (16x16, 8x8, and 4x4 with all predictions)</li>
-<li>Inter P: all partitions (from 16x16 down to 4x4)</li>
-<li>Inter B: partitions from 16x16 down to 8x8 (including skip/direct)</li>
-<li>Ratecontrol: constant quantizer, single or multipass ABR, optional VBV</li>
-<li>Scene cut detection</li>
-<li>Adaptive B-frame placement</li>
-<li>B-frames as references / arbitrary frame order</li>
-<li>8x8 and 4x4 adaptive spatial transform</li>
-<li>Lossless mode</li>
-<li>Custom quantization matrices</li>
-<li>Parallel encoding on multiple CPUs</li>
-<li>Interlacing</li>
+    <li> 8x8 and 4x4 adaptive spatial transform</li>
+    <li> Adaptive B-frame placement</li>
+    <li> B-frames as references / arbitrary frame order</li>
+    <li> CAVLC/CABAC entropy coding</li>
+    <li> Custom quantization matrices</li>
+    <li> Intra: all macroblock types (16x16, 8x8, 4x4, and PCM with all predictions)</li>
+    <li> Inter P: all partitions (from 16x16 down to 4x4)</li>
+    <li> Inter B: partitions from 16x16 down to 8x8 (including skip/direct)</li>
+    <li> Interlacing (MBAFF)</li>
+    <li> Multiple reference frames</li>
+    <li> Ratecontrol: constant quantizer, constant quality, single or multipass ABR, optional VBV</li>
+    <li> Scenecut detection</li>
+    <li> Spatial and temporal direct mode in B-frames, adaptive mode selection</li>
+    <li> Parallel encoding on multiple CPUs</li>
+    <li> Predictive lossless mode</li>
+    <li> Psy optimizations for detail retention (adaptive quantization, psy-RD, psy-trellis)</li>
+    <li> Zones for arbitrarily adjusting bitrate distribution</li>
 </ul>
 
 <h2>Getting x264</h2>

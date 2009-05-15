@@ -27,52 +27,56 @@
   in unicast or <strong>multicast</strong> in IPv4 or
   <strong>IPv6</strong> on networks. </p>
 
-  <p> If you like VLC, please rate it on the <a href="http://freshmeat.net/projects/vlc">Freshmeat</a> and <a href="http://www.versiontracker.com/dyn/moreinfo/macosx/14738">versiontracker</a> entries!</p>
+  <p> If you like VLC, please rate it on the <a href="http://freshmeat.net/projects/vlc/">Freshmeat</a>
+  and <a href="http://www.versiontracker.com/dyn/moreinfo/macosx/14738">versiontracker</a> entries!</p>
 </div>
+
+<?php
+function addos( $name, $class, $url, $bold=false )
+{
+    if( $bold ) $style=' style="font-weight:bold"';
+    else $style='';
+    echo "<li class='$class' $style><a href='$url'>$name</a></li>";
+}
+?>
 
 <div id="left">
 
   <h2>Download VLC</h2>
 
-  <p>Select your operating system to download VLC binaries:</p>
-<?php
-function addos( $name, $class, $url, $bold=false )
-{
-if( $bold ) $style=' style="font-weight:bold"';
-else $style='';
-echo "<li class='$class' $style><a href='$url'>$name</a></li>";
-}
-?>
+  <h3>Binaries</h3>
+    <p>Select your operating system to download VLC binaries:</p>
 
-<div class="os1">
-  <ul class="os">
-<?php addos( "Windows", "windows", "download-windows.html", true );
+    <div class="os1">
+      <ul class="os">
+      <?php addos( "Windows", "windows", "download-windows.html", true );
       addos( "Mac&nbsp;OS&nbsp;X", "macosx", "download-macosx.html", true );
-?>
-  </ul>
-</div><div class="os2">
-  <ul class="os">
-<?php addos( "BeOS", "beos", "download-beos.html" );
+      ?>
+      </ul>
+    </div>
+    <div class="os2">
+      <ul class="os">
+      <?php addos( "BeOS", "beos", "download-beos.html" );
       addos( "Syllable", "syllable", "download-syllable.html" );
-?>
-  </ul>
-</div>
+      ?>
+      </ul>
+    </div>
 
-<div class="clearme">
-  <h3>GNU/Linux:</h3>
+    <div class="clearme">
+      <h3>GNU/Linux:</h3>
 
-<div class="os1">
-  <ul class="os">
-<?php
+    <div class="os1">
+      <ul class="os">
+    <?php
       addos( "Debian GNU/Linux", "debian", "download-debian.html" );
       addos( "Ubuntu", "ubuntu", "download-ubuntu.html" );
       addos( "Mandriva Linux", "mandrake", "download-mandriva.html" );
       addos( "Fedora", "fedora", "download-fedora.html" );
       addos( "openSUSE", "suse", "download-suse.html" );
       addos( "Familiar Linux", "familiar", "download-familiar.html" );
-?>
-</ul>
-</div><div class="os2">
+    ?>
+    </ul>
+    </div><div class="os2">
 <ul class="os">
 <?php
       addos( "Red Hat Enterprise Linux", "redhat", "download-redhat.html" );
@@ -87,6 +91,7 @@ echo "<li class='$class' $style><a href='$url'>$name</a></li>";
 
 <div class="clearme">
 
+      <h3>Source and other operating systems</h3>
 <p>For the other operating systems supported, there are no precompiled
 binaries. You will have to get the source code for VLC and its required
 libraries and build them yourself:</p>

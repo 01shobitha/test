@@ -25,7 +25,7 @@
   It can also be used as a <strong>media converter</strong> or
   a <a href="/vlc/streaming.html"><strong>server to stream</strong></a>
   in unicast or <strong>multicast</strong> in IPv4 or
-  <strong>IPv6</strong> on networks. </p>
+  <strong>IPv6</strong> on networks. See <a href="/vlc/features.html">full features list</a>.</p>
 
   <p> If you like VLC, please rate it on the <a href="http://freshmeat.net/projects/vlc/">Freshmeat</a>
   and <a href="http://www.versiontracker.com/dyn/moreinfo/macosx/14738">versiontracker</a> entries!</p>

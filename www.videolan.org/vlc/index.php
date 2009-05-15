@@ -127,7 +127,7 @@ libraries and build them yourself:</p>
         <div class="more"><a href="/stats/downloads.html">Full statistics</a></div>
 <?php panel_end(); ?>
 
-<?php panel_start( "blue" ); ?>
+<?php panel_start( "orange" ); ?>
   <h2>Features</h2>
 
   <p> For more information about what features are supported on your operating
@@ -140,9 +140,9 @@ libraries and build them yourself:</p>
     <p>See the <a href="http://wiki.videolan.org/Documentation:Documentation">documentation page</a>.</p>
 <?php panel_end(); ?>
 
-<?php panel_start( "orange" ); ?>
-    <h3>PlayOgg</h3>
-	<a href="http://playogg.org">
+<?php panel_start( "blue" ); ?>
+   <h3>PlayOgg</h3>
+   <a href="http://playogg.org">
         <img src="http://images.videolan.org/images/play_ogg_large.png" alt="PlayOgg"/></a>
     <p>Join <a href="http://playogg.org">PlayOgg</a>, a campaign to promote the use of free media
              formats including Ogg Vorbis and Ogg Theora.

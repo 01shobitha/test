@@ -128,14 +128,14 @@ libraries and build them yourself:</p>
 <?php panel_end(); ?>
 
 <?php panel_start( "orange" ); ?>
-  <h2>Features</h2>
+  <h1>Features</h1>
 
   <p> For more information about what features are supported on your operating
   system, please see the <a href="/vlc/features.html">full features list</a>.
   You can also have a look at some <a href="/vlc/screenshots.html">VLC
   screenshots</a>. </p>
 
-    <h2>Documentation</h2>
+    <h1>Documentation</h1>
 
     <p>See the <a href="http://wiki.videolan.org/Documentation:Documentation">documentation page</a>.</p>
 <?php panel_end(); ?>

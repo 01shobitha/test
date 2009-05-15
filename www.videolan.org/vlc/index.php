@@ -131,9 +131,10 @@ libraries and build them yourself:</p>
   <h1>Features</h1>
 
   <p> For more information about what features are supported on your operating
-  system, please see the <a href="/vlc/features.html">full features list</a>.
+  system, please see the <a href="/vlc/features.html">full features list</a>.<br />
   You can also have a look at some <a href="/vlc/screenshots.html">VLC
   screenshots</a>. </p>
+  <br />
 
     <h1>Documentation</h1>
 
@@ -141,7 +142,7 @@ libraries and build them yourself:</p>
 <?php panel_end(); ?>
 
 <?php panel_start( "blue" ); ?>
-   <h3>PlayOgg</h3>
+   <h1>PlayOgg</h1>
    <a href="http://playogg.org">
         <img src="http://images.videolan.org/images/play_ogg_large.png" alt="PlayOgg"/></a>
     <p>Join <a href="http://playogg.org">PlayOgg</a>, a campaign to promote the use of free media

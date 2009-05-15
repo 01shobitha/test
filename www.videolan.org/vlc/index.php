@@ -21,11 +21,11 @@
   capable of reading most audio and video formats
   (MPEG-2, MPEG-4, H.264, DivX, MPEG-1, mp3, ogg, aac ...) as well
   as <strong>DVD</strong>s, <strong>Audio CD</strong>s <strong>VCD</strong>s,
-  and various <strong>streaming</strong> protocols. See the <a href="/vlc/features.html">full features list</a>.</p><br />
+  and various <strong>streaming</strong> protocols. See the <a href="/vlc/features.html">full features list</a>.<br />
   It can also be used as a <strong>media converter</strong> or
   a <a href="/vlc/streaming.html"><strong>server to stream</strong></a>
   in unicast or <strong>multicast</strong> in IPv4 or
-  <strong>IPv6</strong> on networks.
+  <strong>IPv6</strong> on networks.</p>
 
   <p> If you like VLC, please rate it on the <a href="http://freshmeat.net/projects/vlc/">Freshmeat</a>
   and <a href="http://www.versiontracker.com/dyn/moreinfo/macosx/14738">versiontracker</a> entries!</p>

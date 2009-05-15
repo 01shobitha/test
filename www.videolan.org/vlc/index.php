@@ -23,7 +23,7 @@
   as <strong>DVD</strong>s, <strong>Audio CD</strong>s <strong>VCD</strong>s,
   and various <strong>streaming</strong> protocols.<br />
   It can also be used as a <strong>media converter</strong> or
-  a <a href="/vlc/streaming.html">server to stream</a>
+  a <a href="/vlc/streaming.html"><strong>server to stream</strong></a>
   in unicast or <strong>multicast</strong> in IPv4 or
   <strong>IPv6</strong> on networks. </p>
 

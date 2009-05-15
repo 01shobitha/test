@@ -14,7 +14,7 @@
 </div>
 
 <div id="description">
-  <h2>The number 1 cross-platform open-source multimedia framework, player and server</h2>
+  <h2>The cross-platform open-source multimedia framework, player and server</h2>
 
   <p> VLC media player is a highly portable
   <strong>multimedia player</strong> and <strong>multimedia framework</strong>

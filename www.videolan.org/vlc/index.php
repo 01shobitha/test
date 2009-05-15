@@ -10,7 +10,7 @@
 <h1> VLC media player </h1>
 
 <div class="vlc-screenshot">
-  <img width="300" height="200" src="http://images.videolan.org/images/screenshots/vlc-win32.png" alt="VLC on Windows"/>
+  <img width="300" height="200" src="http://images.videolan.org/images/screenshots/vlc-win32.jpg" alt="VLC on Windows"/>
 </div>
 
 <div id="description">
@@ -63,7 +63,7 @@ function addos( $name, $class, $url, $bold=false )
     </div>
 
     <div class="clearme">
-      <h3>GNU/Linux:</h3>
+      <h3>GNU/Linux</h3>
 
     <div class="os1">
       <ul class="os">

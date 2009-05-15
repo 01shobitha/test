@@ -118,6 +118,7 @@ libraries and build them yourself:</p>
   href="/team/">Contact us</a> so we can add a link.</p>
 </div>
 </div>
+</div>
 
 <div id="right">
 <?php panel_start( "blue" ); ?>

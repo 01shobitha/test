@@ -59,7 +59,7 @@ echo "<li class='$class' $style><a href='$url'>$name</a></li>";
 </div>
 
   <h3>GNU/Linux:</h3>
-</div>
+
 <div class="os1">
   <ul class="os">
 <?php

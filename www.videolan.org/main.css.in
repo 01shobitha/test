@@ -44,12 +44,12 @@ a, a:link, a:visited { color: #f60; }
 a:hover { color: #333; }
 
 h1 {	font-family: sans-serif, Helvetica, Arial;
-	font-weight: normal; color: #333; font-size: 28px;
+	font-weight: normal; color: #333; font-size: 26px;
 	margin: 0;padding: 35px 0 12px;
 	line-height: 19px;
 }
 
-h2 { 	color: #2D58AE; font-weight: bold; font-size: 16px;
+h2 { 	color: #2D58AE; font-weight: bold; font-size: 18px;
 	margin: 0; padding: 25px 0 4px;	line-height: 19px;
 }
 
@@ -61,7 +61,7 @@ h2 a, h2 a:link, h2 a:visited {
 h2 a:hover {color: #F60;}
 
 h3 {	font-family: sans-serif, Helvetica, Arial;
-	color: #333;font-weight: bold;font-size: 16px; 
+	color: #333;font-weight: bold;font-size: 15px; 
 	margin: 0; padding: 10px 0 4px;	line-height: 19px;
 	border-bottom: 2px dotted #E4E7E9;
 }
@@ -356,7 +356,7 @@ img.center { display: block; margin: auto; }
 
 .more {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 10px;text-align: right;
+	font-size: 11px;text-align: right;
 }
 
 .os { padding: 0 0 75px 15px; line-height: 20px; }

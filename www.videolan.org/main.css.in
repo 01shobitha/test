@@ -359,7 +359,7 @@ img.center { display: block; margin: auto; }
 	font-size: 11px;text-align: right;
 }
 
-.os { padding: 0 0 45px 15px; line-height: 20px; }
+.os { padding: 0 0 32px 15px; line-height: 20px; }
 .otheros, .mirror { padding: 0 0 35px 15px; line-height: 20px; }
 
 .os li, .otheros li {

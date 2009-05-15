@@ -17,13 +17,15 @@
   <h2>VLC media player - the cross-platform media player and streaming server</h2>
 
   <p> VLC media player is a highly portable
-  <strong>multimedia player</strong> for various audio and video
-  formats (MPEG-1, MPEG-2, MPEG-4, DivX, mp3, ogg, ...) as well
-  as <strong>DVD</strong>s, <strong>VCD</strong>s, and various
-  <strong>streaming</strong> protocols. It can also be used as a
-  <a href="/vlc/streaming.html">server to stream</a> in unicast or
-  <strong>multicast</strong> in IPv4 or
-  <strong>IPv6</strong> on a high-bandwidth network. </p>
+  <strong>multimedia player</strong> and <strong>multimedia framework</strong>
+  capable of reading most audio and video formats
+  (MPEG-2, MPEG-4, H.264, DivX, MPEG-1, mp3, ogg, aac ...) as well
+  as <strong>DVD</strong>s, <strong>Audio CD</strong>s <strong>VCD</strong>s,
+  and various <strong>streaming</strong> protocols.<br />
+  It can also be used as a <strong>media converter</strong> or
+  a <a href="/vlc/streaming.html">server to stream</a>
+  in unicast or <strong>multicast</strong> in IPv4 or
+  <strong>IPv6</strong> on networks. </p>
 
   <p> If you like VLC, please rate it on the <a href="http://freshmeat.net/projects/vlc">Freshmeat</a> and <a href="http://www.versiontracker.com/dyn/moreinfo/macosx/14738">versiontracker</a> entries!</p>
 </div>
@@ -56,7 +58,6 @@ echo "<li class='$class' $style><a href='$url'>$name</a></li>";
   </ul>
 </div>
 
-<div class="clearme">
   <h3>GNU/Linux:</h3>
 </div>
 <div class="os1">

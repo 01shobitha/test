@@ -124,12 +124,14 @@
   methods.</p>
 <?php panel_end(); ?>
 
+  <?php panel_start( 'blue' ); ?>
 <h2>Contribute!</h2>
 
   <p>VideoLAN welcomes all contributions to the project! You can contribute
   time (development, documentation, packaging, tests, user support, ...),
   material or even money. See the <a href="/contribute.html">contribution
   page</a> for more information.<br/>Developers can join us by undertaking one of the <a href="http://wiki.videolan.org/Mini_Projects">Mini Projects</a></p>
+<?php panel_end(); ?>
 
 </div> <!-- RIGHT -->
 

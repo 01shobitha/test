@@ -52,7 +52,7 @@ The <a href="http://wiki.videolan.org/VLC_report">VLC report page</a> on our
 <li>the <a href="http://forum.videolan.org">Forum</a>, in the correct section;</li>
 <li>the <a href="lists.html">users mailing-lists</a>, especially <a href="mailto:vlc@REMOVETHIS@videolan.org">vlc - at - videolan.org</a>;</li>
 <li>the IRC channel on the <a href="http://www.freenode.net">freenode</a> Network (<em>irc.videolan.org, #videolan</em>), for live answers.
-Use the web-based <a href="http://www.videolan.org/webirc/">IRCWeb</a> interface,
+Use the web-based <a href="https://www.mibbit.com/chat/?url=irc%3A%2F%2Firc.videolan.org%2F%23videolan/">Mibbit IRCWeb</a> interface,
 if you need it.</li></ul>
 
 <h2>Developers and Reporting bugs</h2>

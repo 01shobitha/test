@@ -14,7 +14,7 @@
 
 <h2>Projects list</h2>
 
-<p>Although <a href="/">VLC media player</a> is the most well-known
+<p>Although <a href="/vlc/">VLC media player</a> is the most well-known
 VideoLAN project, we do host several other video-related projects,
 mostly aimed at power end-users:</p>
 

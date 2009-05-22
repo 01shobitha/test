@@ -87,6 +87,7 @@ RewriteRule ^vlc/skins-(.*)$ /vlc/skins.php [R=permanent,L]
 
 ##################### Streaming #####################
 
+RewriteRule ^vlma(.*)$ /projects/vlma$1 [R=permanent,L]
 RewriteRule ^streaming/$ /vlc/streaming.html [R=permanent,L]
 RewriteRule ^intro.html$ /vlc/streaming.html [R=permanent,L]
 

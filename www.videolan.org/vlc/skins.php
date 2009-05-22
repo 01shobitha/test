@@ -85,8 +85,8 @@ $sp_size = FormatSize( $r['size'] );
         <li><a href="http://forum.videolan.org/viewforum.php?f=15">The skins forum</a></li>
       </ul>    
     <p>
-    You have made a new skin and want to share it ? Please click  
-    <a href="skins_upload.php">here</a> and fill out the form.<br/>As soon as one webmaster has checked it, it will be displayed on this page.
+    You have made a new skin and want to share it ? Please 
+    <a href="skins_upload.php">Upload it</a> and fill out the form.<br/>As soon as one webmaster has checked it, it will be displayed on this page.
     </p>
     <?php panel_end(); ?>
   </td>

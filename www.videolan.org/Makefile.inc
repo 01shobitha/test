@@ -1,5 +1,5 @@
 # Subdirectories to be preprocessed
-SUBDIR = doc events security support team vlc vlma project projects developers locale press
+SUBDIR = doc events security support team vlc project projects developers locale press
 
 # Files to be preprocessed
 #PHP_FILES = # automatic

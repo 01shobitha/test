@@ -1,7 +1,7 @@
 <?php
    $title ="DVBlast - a new DVB gateway";
    $lang = "en";
-   $menu = array( "project", "DVBlast" );
+   $menu = array( "projects", "DVBlast" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 

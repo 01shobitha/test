@@ -2,7 +2,7 @@
  vim:tabstop=2
  -->
 <?php
-   $title = "VideoLAN - The streaming solution";
+   $title = "VideoLAN - The cross-platform streaming solution";
    $lang = "en";
    $menu = array( "vlc", "streaming" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");

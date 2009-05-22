@@ -1,5 +1,5 @@
 <?php
-   $title = "VLC - screenshots";
+   $title = "VLC - Screenshots";
    $lang = "en";
    $menu = array( "vlc", "screenshots" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");

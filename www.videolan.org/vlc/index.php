@@ -1,5 +1,5 @@
 <?php
-   $title = "VLC media player - Overview";
+   $title = "VLC media player - Open Source Multimedia Framework and Player";
    $lang = "en";
    $menu = array( "vlc", "download" );
    $additional_js = array("/ffcounter.js");

@@ -20,7 +20,7 @@ mostly aimed at power end-users:</p>
 
 <ul class="bullets">
 
-<li><a href="/vlma/">VLMa (VideoLAN Manager)</a>,
+<li><a href="/projects/vlma/">VLMa (VideoLAN Manager)</a>,
 a Java application to manage multiple VLC instances through their telnet interface.</li>
 
 <li><a href="/projects/dvblast.html">DVBlast</a>,

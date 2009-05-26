@@ -153,10 +153,6 @@ http://videolan.mirror.aussiehq.net.au/|AussieHQ Pty Ltd|Australia|au|HTTP|100
 # Cogeco
 http://less.cogeco.net/ftp/vlc/|Cogeco|Canada|ca|HTTP|100
 #
-# Location: Berlin, Germany
-# Connectivity: 100Mbps
-http://vlc.bovenschen.biz/|Bovenschen|Germany|de|HTTP|100
-#
 # Location: UK
 # Connectivity: 100Mbps
 http://mirror.tje.me.uk/pub/mirrors/ftp.videolan.org/|TJE|England|uk|100

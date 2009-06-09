@@ -17,11 +17,11 @@ You can also use this repository from distribution derived from <a href="http://
 <p>Please report "packaging bugs" on <a href="http://bugzilla.rpmfusion.org/">Bugzilla - RPM Fusion</a></p>
 
 
-<h2>Fedora 9 and Fedora 10</h2>
+<h2>Fedora 9 (Sulphur), Fedora 10 (Cambridge) and Fedora 11 (Leonidas) </h2>
 
-<p>Use <a href="http://rpmfusion.org/Configuration/">RPM Fusion</a> for F9 and F10 (available for x86, x86_64, ppc and ppc64)<br />
+<p>Use <a href="http://rpmfusion.org/Configuration/">RPM Fusion</a> for F9, F10 and F11 (available for x86, x86_64, ppc and ppc64)<br />
 
-Install <a href="http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm">rpmfusion-free-release-stable.noarch.rpm</a> for F9 and f10</p>
+Install <a href="http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm">rpmfusion-free-release-stable.noarch.rpm</a> for F9, F10 and F-11.</p>
 
 <pre>
     $> su -
@@ -31,22 +31,9 @@ Install <a href="http://download1.rpmfusion.org/free/fedora/rpmfusion-free-relea
 </pre>
 
 
-<h2>Fedora 8</h2>
-
-<p>Use <a href="http://rpmfusion.org/Configuration/">RPM Fusion</a> for F8 (available for x86, x86_64 and ppc)<br />
-
-Install <a href="http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm">rpmfusion-free-release-stable.noarch.rpm</a> for F8</p>
-
-<pre>
-    $> su -
-    #> rpm -ivh http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm
-    #> yum install vlc
-    #> yum install python-vlc mozilla-vlc (optionnals)
-</pre>
-
 <h2>Rawhide (The development version of Fedora)</h2>
 
-<p>Use <a href="http://rpmfusion.org/Configuration/">RPM Fusion</a> for Rawhide (available for x86, x86_64 and ppc)<br />
+<p>Use <a href="http://rpmfusion.org/Configuration/">RPM Fusion</a> for Rawhide (available for x86, x86_64, ppc and ppc64)<br />
 
 Install <a href="http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-rawhide.noarch.rpm">rpmfusion-free-release-rawhide.noarch.rpm</a> for Rawhide</p>
 
@@ -62,6 +49,19 @@ Install <a href="http://download1.rpmfusion.org/free/fedora/rpmfusion-free-relea
 
 <b>BUT</b>, you can find VLC 0.8.6 for all the other flavours of fedora:</p>
 
+<h2>Fedora 8</h2>
+
+<p>Use <a href="http://rpmfusion.org/Configuration/">RPM Fusion</a> for F8 (available for x86, x86_64 and ppc)<br />
+
+Install <a href="http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm">rpmfusion-free-release-stable.noarch.rpm</a> for F8</p>
+
+<pre>
+    $> su -
+    #> rpm -ivh http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm
+    #> yum install vlc
+    #> yum install python-vlc mozilla-vlc (optionnals)
+</pre>
+
 <h2>Fedora 7</h2>
 
 <p>Use <a href="http://rpm.livna.org/">RPM - LIVNA</a> for F7 (available for x86, x86_64 and ppc)<br />
@@ -75,7 +75,7 @@ Install <a href="http://rpm.livna.org/livna-release-7.rpm">livna-release-7.rpm</
     #> yum install python-vlc mozilla-vlc (optionnal)
 </pre>
 
-<h2>Fedora 6</h2>
+<h2>Fedora Core 6</h2>
 
 <p>Use <a href="http://rpm.livna.org/">RPM - LIVNA</a> for F6 (available for x86, x86_64 and ppc)<br />
 

@@ -155,7 +155,13 @@ http://less.cogeco.net/ftp/vlc/|Cogeco|Canada|ca|HTTP|100
 #
 # Location: UK
 # Connectivity: 100Mbps
-http://mirror.tje.me.uk/pub/mirrors/ftp.videolan.org/|TJE|England|uk|100
+http://mirror.tje.me.uk/pub/mirrors/ftp.videolan.org/|TJE|United Kingdom|gb|HTTP|100
+#
+# NTUA 
+# Location: Greece
+# Panagiotis Christias - p.christias@noc.ntua.gr / ftpadm@ntua.gr
+# Exist also over FTP
+http://ftp.ntua.gr/pub/videolan/|NTUA|Greece|gr|HTTP|1000
 #
 # CacheBoy CDN - This is a TEST
 # Location: NL

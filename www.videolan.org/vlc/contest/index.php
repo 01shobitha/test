@@ -39,7 +39,7 @@ Test this skin</a><br />
     </tr>
   </tbody>
 </table>
-<div style="text-align: center;">
+<div style="margin: 0 auto; text-align: center; width: 250px">
 <br />
 <script type="text/javascript" src="http://www.micropoll.com/akira/MicroPoll?id=176185"></script><!-- END MICROPOLL JAVASCRIPT CODE -->
 

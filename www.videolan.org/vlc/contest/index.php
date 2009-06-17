@@ -41,7 +41,7 @@ Test this skin</a><br />
 </table>
 <div style="text-align: center;">
 <br />
-<script type="text/javascript" src="http://www.micropoll.com/akira/MicroPoll?id=176185"></script><noscript><div><a href="http://www.micropoll.com/akira/mpview/610961-176185">Click Here for Poll</a><a href="http://www.questionpro.com" title="online surveys">Online Survey</a><br /> | <a href="http://www.micropoll.com" title="Website Polls">Website Polls</a><BR> | <a href="http://www.contactpro.com" title="email marketing">Email Marketing</a><BR><BR> | <a href="http://www.ideascale.com" title="crowdsourcing">Crowdsourcing</a><BR><a href="http://www.micropoll.com/akira/MicroPoll?mode=html&id=176185">View MicroPoll</A></div></noscript><!-- END MICROPOLL JAVASCRIPT CODE -->
+<script type="text/javascript" src="http://www.micropoll.com/akira/MicroPoll?id=176185"></script><!-- END MICROPOLL JAVASCRIPT CODE -->
 
 </div>
 

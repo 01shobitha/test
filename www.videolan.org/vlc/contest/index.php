@@ -6,7 +6,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-<h2> Selected skins for the 1.0.0 skins2 contest</h2>
+<h1> Selected skins for the 1.0.0 skins2 contest</h1>
 <table style="text-align: left; width: 100%; margin-left: auto; margin-right: auto;" border="0" cellpadding="2" cellspacing="2">
 
   <tbody>
@@ -39,6 +39,7 @@ Test this skin</a><br />
     </tr>
   </tbody>
 </table>
+<h2>Vote</h2>
 <div style="margin: 0 auto; text-align: center; width: 250px">
 <br />
 <script type="text/javascript" src="http://www.micropoll.com/akira/MicroPoll?id=176185"></script><!-- END MICROPOLL JAVASCRIPT CODE -->

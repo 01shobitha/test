@@ -1,6 +1,9 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|18 June 2009|Skins contest vote and VLC 1.0.0-rc4|The skins contest is now over, and we have 6 skins that fullfilled the requirements. You can <a href="http://www.videolan.org/vlc/contest/">vote now!</a>.<br />At the same time, the VideoLAN project is glad to announce that the fourth release candidate (and hopefully last!) of the <em>Goldeneye</em> version of VLC, numbered <em>1.0.0-rc4</em> is out.<br />
+Source tarballs are ready, but binaries should follow very soon on <a href="http://download.videolan.org/pub/testing/vlc-1.0.0-rc4/">our main website</a>.
+
 |8 June 2009|VLC 1.0.0-rc3 and skins contest|The VideoLAN project is glad to invite you to <span style="color: red;"><strong>test</strong></span> the third release candidate of the <em>Goldeneye</em> version of VLC, numbered <em>1.0.0-rc3</em>.<br /><a href="http://www.videolan.org/mirror-geo.php?file=testing/vlc-1.0.0-rc3/vlc-1.0.0-rc3.tar.bz2">Source tarballs</a>, <a href="http://www.videolan.org/mirror-geo.php?file=testing/vlc-1.0.0-rc3/win32/vlc-1.0.0-rc3-win32.exe"> Windows binaries </a> and <a href="http://ftp.videolan.org/pub/testing/vlc-1.0.0-rc3/macosx/"> Mac OS binaries </a>  are already available for download. Changes can be found <a href="/developers/vlc/NEWS">here</a>.<br />
 VideoLAN would like to mention that the <a href="http://wiki.videolan.org/Skins2_Contest">Skins2 contest</a> is still going on. To develop a skin, you can use our new <a href="/vlc/skineditor.html">VLC Skin Editor</a>. Please share this contest news on your prefered social bookmarking or news site.
 

@@ -1,6 +1,11 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|20 June 2009|VLC 1.0.0 approaches!|Thanks to the continuous efforts made by the developers and the community, the new version of the award-winning VLC media player, numbered 1.0.0, is approaching the end of development. <br />
+The release will very happen early next week.<br />
+We would like to thank all the people involved with it.<br />
+Our skin contest is now closed, thanks for participation.
+
 |18 June 2009|Skins contest vote and VLC 1.0.0-rc4|The skins contest is now over, and we have 6 skins that fullfilled the requirements. You can <a href="http://www.videolan.org/vlc/contest/">vote now!</a>.<br />At the same time, the VideoLAN project is glad to announce that the fourth release candidate (and hopefully last!) of the <em>Goldeneye</em> version of VLC, numbered <em>1.0.0-rc4</em> is out.<br />
 Source tarballs are ready, but binaries should follow very soon on <a href="http://download.videolan.org/pub/testing/vlc-1.0.0-rc4/">our main website</a>.
 

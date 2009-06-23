@@ -274,9 +274,9 @@
 <td class="category"><a href="http://wiki.videolan.org/MPJPEG">MPJPEG</a></td>
 <td class="yes"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
 <td class="yes"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
-<td class="partial"><img src="http://images.videolan.org/images/features/partial.png" alt="" />SVN only</td>
+<td class="partial"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
 <td class="yes"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
-<td class="partial"><img src="http://images.videolan.org/images/features/partial.png" alt="" />SVN only</td>
+<td class="partial"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
 </tr>
 
 </table>

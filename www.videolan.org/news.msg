@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|25 June 2009|VideoLAN at LinuxTAG|Once again, The VideoLAN Team got a booth at <a href="http://www.linuxtag.org">LinuxTAG</a> (June 24 to June 27) in Berlin, Germany. Come around and meet us in hall 7.2a at booth 105. Have a look at the latest and greatest features and see the people behind the cone.
+
 |20 June 2009|VLC 1.0.0 approaches!|Thanks to the continuous efforts made by the developers and the community, the new version of the award-winning VLC media player, numbered 1.0.0, is approaching the end of development. <br />
 The release will very likely happen next week.<br />
 We would like to thank all the people involved with it.<br />

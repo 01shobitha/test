@@ -17,12 +17,12 @@
   <div id="description">
   <h2>Capturing from your EyeTV with VLC media player</h2>
 
-  <p>Here you will soon be able to download a plugin for EyeTV. With this plugin you can open with VLC, mpeg streams produced by the EyeTV application.</p>
+  <p>You can download a plugin for EyeTV here, which you can use to process live streams received by the EyeTV application.</p>
 
   </div>
 
   <h2>Download</h2>
-  <?php pkgitem( "EyeTV VLC plugin",
+  <?php pkgitem( "VLC plugin for EyeTV",
                "eyetv","eyetv_vlcplugin_installer.zip","vlc"); ?>
 
 </div> <!-- div left -->

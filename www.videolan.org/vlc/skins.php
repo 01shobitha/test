@@ -64,15 +64,16 @@ $sp_size = FormatSize( $r['size'] );
   <td style="border:0px">
     <?php panel_start( "orange" ); ?>
     <h1>How to use these skins?</h1>
-    <i>Skins do not work on Mac OS X!</i>    
+    <i>Skins do not work on Mac OS X!</i><br />
       Put the downloaded VLT files in the following folder:<br/>
       <ul class="panel-orange-bullet">
         <li>On Windows: the <i>skins</i> folder in the VLC installation directory (e.g. <i>C:\Program Files\VLC\skins</i>)</li>
         <li>On Linux/Unix: <i>~/.local/share/vlc/skins2</i></li>
       </ul>
+      <br />
       Then open your VLC settings and change your interface from native to skins.
       You can choose your desired skin already there or change it when you are in the skins mode by rightclicking somewhere on the skin and going to <i>Interface&gt;Choose Skin</i>.<br/>
-      VLC needs to be restarted to change to skins mode.    
+      VLC needs to be restarted to change to skins mode.
     <?php panel_end(); ?>
   </td>
   <td style="border:0px">
@@ -85,7 +86,8 @@ $sp_size = FormatSize( $r['size'] );
         <li><a href="http://forum.videolan.org/viewforum.php?f=15">The skins forum</a></li>
       </ul>    
     <p>
-    You have made a new skin and want to share it ? Please 
+    You have made a new skin and want to share it?<br />
+    Please 
     <a href="skins_upload.php">Upload it</a> and fill out the form.<br/>As soon as one webmaster has checked it, it will be displayed on this page.
     </p>
     <?php panel_end(); ?>

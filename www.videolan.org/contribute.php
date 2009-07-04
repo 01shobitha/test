@@ -11,6 +11,8 @@
 
 <h2>Contribute time</h2>
 
+<img src="http://images.videolan.org/images/contribute-time.png" alt="" style="float: left; margin-right: 5px">
+
 <p> If you have time and programming skills, you                        
 can help us develop the software. Read the <a                           
 href="/developers/">developer documentations</a>,    

@@ -275,9 +275,9 @@ img.center { display: block; margin: auto; }
       <input name="currency_code" value="USD" type="hidden">
       <input name="tax" value="0" type="hidden">
       <input src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="Donate money to VideoLAN via PayPal" type="image"> <span style="font-size: 10pt; font-style: italic;">(dollars)</span>
+      </p>
       </form>
 
-      </p>
       </div>
   </div>
   &nbsp;
@@ -343,11 +343,8 @@ img.center { display: block; margin: auto; }
     <h2><a href="http://www.videolan.org/videolan-news.rss">
         News subscription</a></h2>
     <div>
-    </div>
     <h4><a href="/news.html">Read all news</a></h4>
     <h4><a href="http://planet.videolan.org">Read developers' news - planet</a></h4>
-</div>
-
-</div>
+    </div>
 </body>
 </html>

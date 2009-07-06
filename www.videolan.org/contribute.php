@@ -32,6 +32,8 @@ questions in the user mailing-lists if you can, etc... </p>
 
 <h2>Contribute materials</h2>
 
+<img src="http://images.videolan.org/images/contribute-materials.png" alt="" style="float: left; margin-right: 5px">
+
 <p> Your particular DVD does not work with VLC or VLS? VLC does not like your
 VCD or SVCD? You have a satellite card or an MPEG encoding card that is not
 supported by VideoLAN? </p>

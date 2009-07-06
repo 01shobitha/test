@@ -188,13 +188,13 @@ img.center { display: block; margin: auto; }
 
             <li><a href="http://forum.videolan.org/">Forum</a></li>
             <li><a href="/developers/">Developers</a></li>
-        </ul>
-    </div>
-    <div id="submenucontainer">
-        <div class="videolan-logo">
+         </ul>
+       </div>
+       <div id="submenucontainer">
+         <div class="videolan-logo">
             <a href="/"><img src="http://images.videolan.org/images/videolan-logo.png" alt="VideoLAN" width="100" height="47"/></a>
-        </div>
-        <ul id="submenu">
+         </div>
+         <ul id="submenu">
             <li class="selected"><a href="/">Overview</a></li>
 
             <li><a href="/vlc/">Download</a></li>
@@ -202,11 +202,11 @@ img.center { display: block; margin: auto; }
             <li><a href="/vlc/screenshots.html">Screenshots</a></li>
             <li><a href="/vlc/streaming.html">Streaming</a></li>
             <li><a href="/vlc/skins.html">Skins</a></li>
-        </ul>
-    </div>
-</div>
+         </ul>
+         </div>
+       </div>
 
-<div id="maincontent">
+     <div id="maincontent">
 
   <h1 style="text-align: center; width: 100%; margin-bottom: 25px;">VLC media player 1.0.0 -
   <span style="font-style: italic;">Goldeneye</span></h1>
@@ -279,12 +279,11 @@ img.center { display: block; margin: auto; }
       </form>
 
       </div>
-  </div>
   &nbsp;
   </div>
   <hr style="width:50%; margin: 100px auto 0px auto;" />
 
-  <div class="clearme">
+  <div class="clearme"></div>
      <h1>VLC 1.0.0 Features</h1>
      <div id="left" style="text-align: left">
           <ul class="blue-bullet">
@@ -298,7 +297,7 @@ img.center { display: block; margin: auto; }
             <li>New Dirac encoder and MP3 fixed-point encoder</li>
             <li>Video scaling in fullscreen</li>
          </ul>
-     </div> <!-- RIGHT -->
+  </div> <!-- RIGHT -->
   <div style="text-align: right">
           <ul class="blue-bullet2">
             <li>RTSP Trickplay support</li>
@@ -312,7 +311,7 @@ img.center { display: block; margin: auto; }
          </ul>
      </div> <!-- RIGHT -->
 
-  <div class="clearme">
+  <div class="clearme"></div>
 <div style="text-align:left">
   <h2>Press</h2>
 <p>Press related questions should be directed to <a href="mailto:videolan@videolan.org">VideoLAN</a>.</p>
@@ -346,5 +345,6 @@ img.center { display: block; margin: auto; }
     <h4><a href="/news.html">Read all news</a></h4>
     <h4><a href="http://planet.videolan.org">Read developers' news - planet</a></h4>
     </div>
+  </div>
 </body>
 </html>

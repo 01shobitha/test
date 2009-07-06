@@ -214,9 +214,9 @@ img.center { display: block; margin: auto; }
     <div id="pipo">
     Get the best out of your medias!<br />
     Update to the latest version of the open-source multimedia&nbsp;framework and player:
-  <p class=center style="font-style: italic;color:#2D58AE; margin-top: 20px; font-weight: bold; font-size: 36px; margin-bottom: 15pt;">VLC 1.0.0 is out!</p>
+  <p class="center" style="font-style: italic;color:#2D58AE; margin-top: 20px; font-weight: bold; font-size: 36px; margin-bottom: 15pt;">VLC 1.0.0 is out!</p>
   <div style="margin: 0px auto; width: 15%; padding-bottom: 35px;">
-   <img src="/images/vlc128x128.png" />
+   <img src="/images/vlc128x128.png" alt="VLC" />
 </div>
 
   <div id="download">
@@ -253,10 +253,10 @@ img.center { display: block; margin: auto; }
 
     <div class="more"><a  href="/vlc/">Other Operating Systems, learn more</a></div>
       </div>
-      <div id=donate>
+      <div id="donate">
       Donate to VideoLAN:
-      <p>
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+      <p>
       <input name="cmd" value="_xclick" type="hidden">
       <input name="business" value="treasurer@videolan.org" type="hidden">
       <input name="item_name" value="Development and communication of VideoLAN" type="hidden">
@@ -264,10 +264,10 @@ img.center { display: block; margin: auto; }
       <input name="currency_code" value="EUR" type="hidden">
       <input name="tax" value="0" type="hidden">
       <input src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="Donate money to VideoLAN via PayPal" type="image"> <span style="font-size: 10pt; font-style: italic;">(euros)</span>
-      </form>
       </p>
-      <p>
+      </form>
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+      <p>
       <input name="cmd" value="_xclick" type="hidden">
       <input name="business" value="treasurer@videolan.org" type="hidden">
       <input name="item_name" value="Development and communication of VideoLAN" type="hidden">
@@ -348,5 +348,6 @@ img.center { display: block; margin: auto; }
     <h4><a href="http://planet.videolan.org">Read developers' news - planet</a></h4>
 </div>
 
+</div>
 </body>
 </html>

@@ -341,7 +341,7 @@ img.center { display: block; margin: auto; }
 
 
     <h2><a href="http://www.videolan.org/videolan-news.rss">
-        <img src="http://images.videolan.org/images/icons/rss-feed.gif" alt="RSS 1.0" /> News subscription</a></h2>
+        News subscription</a></h2>
     <div>
     </div>
     <h4><a href="/news.html">Read all news</a></h4>

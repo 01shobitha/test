@@ -212,7 +212,7 @@ img.center { display: block; margin: auto; }
   <span style="font-style: italic;">Goldeneye</span></h1>
 
     <div id="pipo">
-    Get the best out of your medias!<br />
+    Get the best out of your multimedia content!<br />
     Update to the latest version of the open-source multimedia&nbsp;framework and player:
   <p class="center" style="font-style: italic;color:#2D58AE; margin-top: 20px; font-weight: bold; font-size: 36px; margin-bottom: 15pt;">VLC 1.0.0 is out!</p>
   <div style="margin: 0px auto; width: 15%; padding-bottom: 35px;">
@@ -345,6 +345,8 @@ img.center { display: block; margin: auto; }
     <h4><a href="/news.html">Read all news</a></h4>
     <h4><a href="http://planet.videolan.org">Read developers' news - planet</a></h4>
     </div>
+  </div>
+  </div>
   </div>
 </body>
 </html>

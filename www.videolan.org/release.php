@@ -216,7 +216,7 @@ img.center { display: block; margin: auto; }
     Update to the latest version of the open-source multimedia&nbsp;framework and player:
   <p class="center" style="font-style: italic;color:#2D58AE; margin-top: 20px; font-weight: bold; font-size: 36px; margin-bottom: 15pt;">VLC 1.0.0 is out!</p>
   <div style="margin: 0px auto; width: 15%; padding-bottom: 35px;">
-   <img src="/images/vlc128x128.png" alt="VLC" />
+   <img src="http://images.videolan.org/images/vlc128x128.png" alt="VLC" />
 </div>
 
   <div id="download">

@@ -180,7 +180,7 @@ img.center { display: block; margin: auto; }
     <div style="margin: 0px auto; width: 15%; padding-bottom: 35px;">
        <img src="http://images.videolan.org/images/vlc128x128.png" alt="VLC"/>
     </div>
-  <div id="download">
+  <div id="download" style="height:55px">
         <script type="text/javascript"><!--
             if ( navigator.platform.indexOf("Win32") != -1 ) { document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.0/win32/vlc-1.0.0-win32.exe">Download Now</a> for Windows (18 MB)</p>'); }
             else if( navigator.platform.indexOf("Linux") != -1 )
@@ -213,8 +213,9 @@ img.center { display: block; margin: auto; }
           <p><a class="download" href="/mirror-geo.php?file=vlc/1.0.0/win32/vlc-1.0.0-win32.exe">Download Now</a> for Windows (16 MB)</p><p><a class="download" href="/mirror-geo.php?file=vlc/1.0.0/macosx/vlc-1.0.0-powerpc.dmg">Download Now</a> for Mac OS X PowerPC (19 MB)</p><p><a class="download" href="/mirror-geo.php?file=vlc/1.0.0/macosx/vlc-1.0.0-intel.dmg">Download Now</a> for Mac OS X Intel (19 MB)</p>       </noscript>
     <div class="more"><a  href="/vlc/index2.html">Other Operating Systems, learn more</a></div>
       </div>
-      <div id="donate">
+      <div id="donate" style="height:55px">
       Donate to VideoLAN:
+      <table style="width:350px"><tr><td>
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
       <p>
       <input name="cmd" value="_xclick" type="hidden"/>
@@ -225,6 +226,7 @@ img.center { display: block; margin: auto; }
       <input name="tax" value="0" type="hidden"/>
       <input src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="Donate money to VideoLAN via PayPal" type="image"/> <span style="font-size: 10pt; font-style: italic;">(euros)</span>
       </p></form>
+      </td><td>
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post"><p>
       <input name="cmd" value="_xclick" type="hidden"/>
       <input name="business" value="treasurer@videolan.org" type="hidden"/>
@@ -234,27 +236,27 @@ img.center { display: block; margin: auto; }
       <input name="tax" value="0" type="hidden"/>
       <input src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="Donate money to VideoLAN via PayPal" type="image"/> <span style="font-size: 10pt; font-style: italic;">(dollars)</span>
       </p> </form>
+      </td></tr></table>
       </div>
-  &nbsp;
   </div> 
 
   <div class="clearme"></div>  
   <hr style="width:50%; margin: 30px auto 0px auto; border: 1px solid #2d58ae;" />
-     <h1>VLC 1.0.0 Features</h1>
-     <div id="left" style="text-align: left">
-          <ul class="blue-bullet">
+     <h1 style="font-weight:bold">VLC 1.0.0 Features</h1>
+     <div style="background:#d4e0f7;border:1px solid #417ADC;-moz-border-radius:10px;-webkit-border-radius:10px;padding: 10px">
+     <table style="width:100%"><tr><td style="text-align:left">
+          <ul class="blue-bullet" style="margin-bottom:-19px">
             <li>Free, Open Source and cross-platform</li>
-            <li>Independant of systems codecs to support most video type</li>
+            <li>Independant of systems codecs to support most video types</li>
             <li>Live recording</li>
             <li>Instant pausing and Frame-by-Frame support</li>
             <li>Finer speed controls</li>
             <li>New HD codecs (AES3, Dolby Digital Plus, TrueHD, Blu-Ray Linear PCM, Real Video 3.0 and 4.0, ...)</li>
-            <li>New formats (Raw Dirac, M2TS, ...) and majors improvements in many formats...</li>
+            <li>New formats (Raw Dirac, M2TS, ...) and major improvements in many formats...</li>
             <li>New Dirac encoder and MP3 fixed-point encoder</li>
             <li>Video scaling in fullscreen</li>
          </ul>
-  </div> <!-- RIGHT -->
-  <div style="text-align: right">
+      </td><td style="text-align:right">
           <ul class="blue-bullet2">
             <li>RTSP Trickplay support</li>
             <li>Zipped file playback</li>
@@ -263,10 +265,10 @@ img.center { display: block; margin: auto; }
             <li>Better integration in Gtk environments</li>
             <li>MTP devices on linux</li>
             <li>AirTunes streaming</li>
-            <li>New skin for skins2 interface</li>
+            <li>New skin for the skins2 interface</li>
          </ul>
-     </div> <!-- RIGHT -->
-
+     </td></tr></table>
+</div>
   <div class="clearme"></div>
 <div style="text-align:left">
   <h2>Press</h2>

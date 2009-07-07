@@ -18,19 +18,31 @@
 <p>If you would like to join the project, feel free to send us an e-mail to the <a href="/developers/lists.html">vlc-devel mailing list</a> or to contact us through our <a href="http://forum.videolan.org/viewtopic.php?t=3675&amp;start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">forum</a>. </p>
 -->
 
-<?php $vlc_version = "0.9.9a"; ?>
-<h2>Latest Mac OS X package for 10.4 and 10.5 (release <?php echo $vlc_version; ?>)</h2>
+<?php $vlc_version = "1.0.0"; ?>
+<h2>Latest Mac OS X package for 10.5 and 10.6 (release <?php echo $vlc_version; ?>)</h2>
 
-<?php pkgitem( "Universal Binary",
+<?php pkgitem( "universal binary",
                "$vlc_version/macosx","vlc-$vlc_version.dmg","vlc"); ?>
 
-<h2>Latest platform specific packages for 10.4 and 10.5 (release <?php echo $vlc_version; ?>)</h2>
+<h2>latest platform specific packages for 10.5 and 10.6 (release <?php echo $vlc_version; ?>)</h2>
 
-<?php pkgitem( "Intel package",
+<?php pkgitem( "intel package",
                "$vlc_version/macosx","vlc-$vlc_version-intel.dmg","vlc"); ?>
 
-<?php pkgitem( "PowerPC package",
+<?php pkgitem( "powerpc package",
                "$vlc_version/macosx","vlc-$vlc_version-powerpc.dmg","vlc"); ?>
+
+<h2>Last Mac OS X package for 10.4 (release 0.9.9a)</h2>
+<?php $vlc_version = "0.9.9a"; ?>
+<?php pkgitem( "universal binary",
+               "$vlc_version/macosx","vlc-$vlc_version.dmg","vlc"); ?>
+
+<?php pkgitem( "intel package",
+               "$vlc_version/macosx","vlc-$vlc_version-intel.dmg","vlc"); ?>
+
+<?php pkgitem( "powerpc package",
+               "$vlc_version/macosx","vlc-$vlc_version-powerpc.dmg","vlc"); ?>
+
 
 <h2>Web browser plugins for 10.3.9, 10.4 and 10.5 (release 0.8.6i)</h2>
 

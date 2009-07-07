@@ -53,10 +53,10 @@
 
 <h2>Web browser plugins for 10.3.9 and 10.4 (release 0.8.6i)</h2>
 
-<?php pkgitem( "Web Browser plugin for Intel",
+<?php pkgitem_nomirr( "Web Browser plugin for Intel",
                "0.8.6i/macosx","vlc-plugin-0.8.6i-intel.dmg","vlc"); ?>
 
-<?php pkgitem( "Web Browser plugin for PowerPC",
+<?php pkgitem_nomirr( "Web Browser plugin for PowerPC",
                "0.8.6i/macosx","vlc-plugin-0.8.6i-powerpc.dmg","vlc"); ?>
 
 <h2>Last Mac OS X package for 10.3 (release 0.8.6i)</h2>

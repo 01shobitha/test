@@ -51,7 +51,7 @@ h3 {    font-family: sans-serif, Helvetica, Arial;
 p.center { text-align:center;}
 img.center { display: block; margin: auto; }
 .hidden { display:none; }
-.clearme { clear:both; }
+.clearme { clear:both;}
 /************************ Header ***********************/
 
 #navmenucontainer, #submenucontainer { width: 100%; margin: 0; padding: 0;}
@@ -131,7 +131,10 @@ img.center { display: block; margin: auto; }
 #footer a { color: #75818A;  text-decoration: underline; }
 #footer a:hover { color: #333; text-decoration: none; }
 #footer p { margin: 0;padding: 0;line-height: 20px; }
-#pipo { padding: 20px 5% 20px 5%; color: #40424b; font-size: 26px; font-family: Times New Roman, Times, serif;   }
+#pipo { padding: 10px 5% 20px 5%; color: #40424b; font-size: 22px; font-family: Lucida Grande, Verdana, Arial, Helvetica, sans-serif;
+  background: #a8e272; border: 1px solid #73d216; margin: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+
+}
     </style>
 </head>
 
@@ -164,16 +167,19 @@ img.center { display: block; margin: auto; }
          </ul> </div>
        </div>
 
-  <div id="maincontent">
-  <h1 style="text-align: center; width: 100%; margin-bottom: 25px;">VLC media player 1.0.0 -
+  <div id="maincontent">  
+    <h1 style="text-align: center; width: 100%; margin-bottom: 10px; font-weight: bold; text-shadow: 0px 2px 3px #DDD;">VLC media player 1.0.0 -
   <span style="font-style: italic;">Goldeneye</span></h1>
     <div id="pipo">
     Get the best out of your multimedia content!<br />
     Update to the latest version of the open-source multimedia&nbsp;framework and player:
-  <p class="center" style="font-style: italic;color:#2D58AE; margin-top: 20px; font-weight: bold; font-size: 36px; margin-bottom: 15pt;">VLC 1.0.0 is out!</p>
-  <div style="margin: 0px auto; width: 15%; padding-bottom: 35px;">
-   <img src="http://images.videolan.org/images/vlc128x128.png" alt="VLC" />
-</div>
+    </div>
+    <p class="center" style="font-style: italic;color:#2D58AE; margin-top: 20px; font-weight: bold; font-size: 36px; margin-bottom: 15pt;text-shadow:0px 3px 5px #AAA">
+    VLC 1.0.0 is out!
+    </p>
+    <div style="margin: 0px auto; width: 15%; padding-bottom: 35px;">
+       <img src="http://images.videolan.org/images/vlc128x128.png" alt="VLC"/>
+    </div>
   <div id="download">
         <script type="text/javascript"><!--
             if ( navigator.platform.indexOf("Win32") != -1 ) { document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.0/win32/vlc-1.0.0-win32.exe">Download Now</a> for Windows (18 MB)</p>'); }
@@ -211,29 +217,29 @@ img.center { display: block; margin: auto; }
       Donate to VideoLAN:
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
       <p>
-      <input name="cmd" value="_xclick" type="hidden">
-      <input name="business" value="treasurer@videolan.org" type="hidden">
-      <input name="item_name" value="Development and communication of VideoLAN" type="hidden">
-      <input name="no_note" value="0" type="hidden">
-      <input name="currency_code" value="EUR" type="hidden">
-      <input name="tax" value="0" type="hidden">
-      <input src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="Donate money to VideoLAN via PayPal" type="image"> <span style="font-size: 10pt; font-style: italic;">(euros)</span>
+      <input name="cmd" value="_xclick" type="hidden"/>
+      <input name="business" value="treasurer@videolan.org" type="hidden"/>
+      <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
+      <input name="no_note" value="0" type="hidden"/>
+      <input name="currency_code" value="EUR" type="hidden"/>
+      <input name="tax" value="0" type="hidden"/>
+      <input src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="Donate money to VideoLAN via PayPal" type="image"/> <span style="font-size: 10pt; font-style: italic;">(euros)</span>
       </p></form>
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post"><p>
-      <input name="cmd" value="_xclick" type="hidden">
-      <input name="business" value="treasurer@videolan.org" type="hidden">
-      <input name="item_name" value="Development and communication of VideoLAN" type="hidden">
-      <input name="no_note" value="0" type="hidden">
-      <input name="currency_code" value="USD" type="hidden">
-      <input name="tax" value="0" type="hidden">
-      <input src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="Donate money to VideoLAN via PayPal" type="image"> <span style="font-size: 10pt; font-style: italic;">(dollars)</span>
+      <input name="cmd" value="_xclick" type="hidden"/>
+      <input name="business" value="treasurer@videolan.org" type="hidden"/>
+      <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
+      <input name="no_note" value="0" type="hidden"/>
+      <input name="currency_code" value="USD" type="hidden"/>
+      <input name="tax" value="0" type="hidden"/>
+      <input src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="Donate money to VideoLAN via PayPal" type="image"/> <span style="font-size: 10pt; font-style: italic;">(dollars)</span>
       </p> </form>
       </div>
   &nbsp;
-  </div>
-  <hr style="width:50%; margin: 100px auto 0px auto;" />
+  </div> 
 
-  <div class="clearme"></div>
+  <div class="clearme"></div>  
+  <hr style="width:50%; margin: 30px auto 0px auto; border: 1px solid #2d58ae;" />
      <h1>VLC 1.0.0 Features</h1>
      <div id="left" style="text-align: left">
           <ul class="blue-bullet">
@@ -288,10 +294,9 @@ img.center { display: block; margin: auto; }
   It doesn't need any external codec or program to work.</p>
 
     <h2><a href="http://www.videolan.org/videolan-news.rss">
-        News subscription</a></h2> <div>
+        News subscription</a></h2>
     <h4><a href="/news.html">Read all news</a></h4>
     <h4><a href="http://planet.videolan.org">Read developers' news - planet</a></h4>
-    </div>
-  </div></div></div>
+    </div></div>
 </body>
 </html>

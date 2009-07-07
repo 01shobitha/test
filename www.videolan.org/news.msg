@@ -1,7 +1,7 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
-|07 July 2009|VLC 1.0.0|The VideoLAN project is pleased to announce the release of the first version of the Goldeneye branch of VLC: 1.0.0.<br />This major release introduces many new features, new formats and new codecs to the VLC multimedia framework and fixes a very high number of bugs that were present in the 0.9.x or 0.8.6 versions.<br />You can <a href="http://www.videolan.org/vlc/">download it now</a>.<br />The VLC project only lives with volunteers and would love help from new users and contributors: time, code, hardware and money would help us a lot. You don't need to be a developer to help.
+|07 July 2009|VLC 1.0.0|<p>The VideoLAN project is pleased to announce the release of the first version of the Goldeneye branch of VLC: 1.0.0.</p>This major release introduces many new features, new formats and new codecs to the VLC multimedia framework and fixes a very high number of bugs that were present in the 0.9.x or 0.8.6 versions.<br />You can <a href="http://www.videolan.org/vlc/">download it now</a>.<br />The VLC project only lives with volunteers and would love help from new users and contributors: time, code, hardware and money would help us a lot. You don't need to be a developer to help.
 
 |25 June 2009|VideoLAN at LinuxTAG|Once again, The VideoLAN Team got a booth at <a href="http://www.linuxtag.org">LinuxTAG</a> (June 24 to June 27) in Berlin, Germany. Come around and meet us in hall 7.2a at booth 105. Have a look at the latest and greatest features and see the people behind the cone.
 

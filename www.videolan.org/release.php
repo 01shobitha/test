@@ -14,13 +14,10 @@ echo '<?xml version="1.0" encoding="utf-8" ?>'; ?>
      Familiar Linux, iPAQ, multicast, IPv6" />
    <meta name="Description" content="VideoLAN - Open Source multimedia and streaming solutions for every OS!" />
    <title>VideoLAN - Open Source multimedia and streaming solutions for every OS!</title>
-
    <link rel="alternate" type="application/rss+xml" title="RSS - VideoLAN News" href="/videolan-news.rss" />
    <link rel="alternate" type="application/rss+xml" title="RSS - Developers' Planet" href="http://planet.videolan.org/rss20.xml" />
-
    <link rel="shortcut icon" type="image/x-icon" href="/images/icons/favicon.ico" />
-
-    <style type="text/css">
+   <style type="text/css">
 
 /* Clearing floats easily, for all browsers */
 .clearfix:after { content: "."; visibility: hidden; height: 0; display: block;clear: both; }
@@ -33,55 +30,40 @@ echo '<?xml version="1.0" encoding="utf-8" ?>'; ?>
 /***************** General Styles *********************/
 * { padding: 0; margin: 0 }
 html, body { width: 100%; min-width: 750px; border: 0; margin: 0; padding: 0; }
-
 body {  background: #fff url(http://images.videolan.org/images/bg.png) repeat-x top; 
-    font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #333; text-align: center;
-}
+    font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #333; text-align: center;}
 
 img { border: none;}
-
 a, a:link, a:visited { color: #f60; }
 a:hover { color: #333; }
-
 h1 {    font-family: sans-serif, Helvetica, Arial;
     font-weight: normal; color: #333; font-size: 26px;
-    padding: 35px 0 12px;
-    line-height: 19px;
-}
+    padding: 35px 0 12px; line-height: 19px; }
 
 h2 {    color: #2D58AE; font-weight: bold; font-size: 18px;
-    padding: 25px 0 4px; line-height: 19px;
-}
+    padding: 25px 0 4px; line-height: 19px; }
 
 h3 {    font-family: sans-serif, Helvetica, Arial;
     color: #333;font-weight: bold;font-size: 15px; 
     margin: 0; padding: 10px 0 4px; line-height: 19px;
-    border-bottom: 2px dotted #E4E7E9;
-}
+    border-bottom: 2px dotted #E4E7E9; }
 
 p.center { text-align:center;}
 img.center { display: block; margin: auto; }
-
 .hidden { display:none; }
 .clearme { clear:both; }
-
 /************************ Header ***********************/
 
 #navmenucontainer, #submenucontainer { width: 100%; margin: 0; padding: 0;}
-
 /* Main menu */
-
 #navmenucontainer { height: 28px; }
-
 #navmenu { float: left; padding: 4px 0; vertical-align: middle;}
 #navmenu li { display: inline; margin: 0 16px 0 0; padding: 0; }
 #navmenu li a {
     font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-weight: bold; font-size: 11px; text-decoration: none;color: #039;
-}
+    font-weight: bold; font-size: 11px; text-decoration: none;color: #039; }
 
-#navmenu li.selected a {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
+#navmenu li.selected a { font-family: Verdana, Arial, Helvetica, sans-serif;
     font-weight: bold; font-size: 11px; text-decoration: none;color: #004; }
 #navmenu li a:hover { color: #004;text-decoration: none;}
 
@@ -94,8 +76,7 @@ img.center { display: block; margin: auto; }
     font-weight: normal; color: #2D58AE;font-size: 17px;
     text-decoration: none;
     float: left; padding: 14px 20px 10px 0;
-    text-transform: lowercase;
-}
+    text-transform: lowercase; }
 
 #submenucontainer ul li.selected a {
     font-family: Geneva, Arial, Helvetica, sans-serif;
@@ -104,12 +85,9 @@ img.center { display: block; margin: auto; }
         font-style: italic;
 /*  text-shadow: 0.2em 0.2em;*/
     float: left; padding: 14px 20px 10px 0;
-    text-transform: lowercase;
-}
+    text-transform: lowercase;}
 
-#submenu li a:hover, #submenu li a:active { 
-    color: #2E3A6B; text-decoration: underline;
-}
+#submenu li a:hover, #submenu li a:active {  color: #2E3A6B; text-decoration: underline; } 
 
 #pagecontainer { min-width: 780px; width: 86%; height: 100%; margin: 0 auto; }
 
@@ -122,11 +100,7 @@ img.center { display: block; margin: auto; }
 #right { float:right; width: 40%; padding-bottom: 55px; }
 #fullwidth { padding-bottom: 55px; float:left; }
 
-#left p, #right p, #fullwidth p {
-    padding: 0 0 10px 0; line-height: 135%;
-}
-
-/* Colored panels */
+#left p, #right p, #fullwidth p {padding: 0 0 10px 0; line-height: 135%; }
 
 /************** Main page content - Specific styles ******************/
 
@@ -138,40 +112,27 @@ img.center { display: block; margin: auto; }
 
 /* Pictures */
 .videolan-logo { float: left; width: 120px; height: 45px; }
-
-.vlc-logo {
-    float: left;width: 64px;height: 64px;
+.vlc-logo {  float: left;width: 64px;height: 64px;
     margin-left: -5px; padding-bottom: 15px;
-    background: url(http://images.videolan.org/images/vlc-logo.gif) left top no-repeat;
-}
+    background: url(http://images.videolan.org/images/vlc-logo.gif) left top no-repeat; }
 
 .blue-bullet { padding: 0 0 20px 0;line-height: 19px; list-style: none}
 .blue-bullet li {
     background: url(http://images.videolan.org/images/bullet-blue-trans.png) left top no-repeat;
-    padding: 0 0 4px 25px;
-}
+    padding: 0 0 4px 25px;}
 .blue-bullet2 { padding: 0 0 20px 0;line-height: 19px; list-style: none}
-.blue-bullet2 li {
-    background: url(http://images.videolan.org/images/bullet-blue-trans.png) right top no-repeat;
-    padding: 0 25px 4px 25px;
-}
-
+.blue-bullet2 li { background: url(http://images.videolan.org/images/bullet-blue-trans.png) right top no-repeat;
+    padding: 0 25px 4px 25px;}
 
 /************************ Footer Layout ****************************/
-
-#footer {   color: #75818A; background: #E4E7E9;
-        font-size: 11px;text-align: center;
-        clear: both; height: 40px; margin: 0;padding: 15px;
-        border-top: 1px solid #C8CDD0;
-}
+#footer {   color: #75818A; background: #E4E7E9; font-size: 11px;text-align: center;
+        clear: both; height: 40px; margin: 0;padding: 15px; border-top: 1px solid #C8CDD0;}
 
 #footer a { color: #75818A;  text-decoration: underline; }
 #footer a:hover { color: #333; text-decoration: none; }
 #footer p { margin: 0;padding: 0;line-height: 20px; }
-
 #pipo { padding: 20px 5% 20px 5%; color: #40424b; font-size: 26px; font-family: Times New Roman, Times, serif;   }
     </style>
-
 </head>
 
 <body>
@@ -185,7 +146,6 @@ img.center { display: block; margin: auto; }
             <li><a href="/projects/">Software Projects</a></li>
             <li><a href="/support/">Documentation/Support</a></li>
             <li><a href="http://wiki.videolan.org/">Wiki</a></li>
-
             <li><a href="http://forum.videolan.org/">Forum</a></li>
             <li><a href="/developers/">Developers</a></li>
          </ul>
@@ -196,21 +156,17 @@ img.center { display: block; margin: auto; }
          </div>
          <ul id="submenu">
             <li class="selected"><a href="/">Overview</a></li>
-
             <li><a href="/vlc/">Download</a></li>
             <li><a href="/vlc/features.html">Features</a></li>
             <li><a href="/vlc/screenshots.html">Screenshots</a></li>
             <li><a href="/vlc/streaming.html">Streaming</a></li>
             <li><a href="/vlc/skins.html">Skins</a></li>
-         </ul>
-         </div>
+         </ul> </div>
        </div>
 
-     <div id="maincontent">
-
+  <div id="maincontent">
   <h1 style="text-align: center; width: 100%; margin-bottom: 25px;">VLC media player 1.0.0 -
   <span style="font-style: italic;">Goldeneye</span></h1>
-
     <div id="pipo">
     Get the best out of your multimedia content!<br />
     Update to the latest version of the open-source multimedia&nbsp;framework and player:
@@ -218,7 +174,6 @@ img.center { display: block; margin: auto; }
   <div style="margin: 0px auto; width: 15%; padding-bottom: 35px;">
    <img src="http://images.videolan.org/images/vlc128x128.png" alt="VLC" />
 </div>
-
   <div id="download">
         <script type="text/javascript"><!--
             if ( navigator.platform.indexOf("Win32") != -1 ) { document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.0/win32/vlc-1.0.0-win32.exe">Download Now</a> for Windows (16 MB)</p>'); }
@@ -250,7 +205,6 @@ img.center { display: block; margin: auto; }
        --></script>
        <noscript>
           <p><a class="download" href="/mirror-geo.php?file=vlc/1.0.0/win32/vlc-1.0.0-win32.exe">Download Now</a> for Windows (16 MB)</p><p><a class="download" href="/mirror-geo.php?file=vlc/1.0.0/macosx/vlc-1.0.0-powerpc.dmg">Download Now</a> for Mac OS X PowerPC (19 MB)</p><p><a class="download" href="/mirror-geo.php?file=vlc/1.0.0/macosx/vlc-1.0.0-intel.dmg">Download Now</a> for Mac OS X Intel (19 MB)</p>       </noscript>
-
     <div class="more"><a  href="/vlc/">Other Operating Systems, learn more</a></div>
       </div>
       <div id="donate">
@@ -264,10 +218,8 @@ img.center { display: block; margin: auto; }
       <input name="currency_code" value="EUR" type="hidden">
       <input name="tax" value="0" type="hidden">
       <input src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="Donate money to VideoLAN via PayPal" type="image"> <span style="font-size: 10pt; font-style: italic;">(euros)</span>
-      </p>
-      </form>
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-      <p>
+      </p></form>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post"><p>
       <input name="cmd" value="_xclick" type="hidden">
       <input name="business" value="treasurer@videolan.org" type="hidden">
       <input name="item_name" value="Development and communication of VideoLAN" type="hidden">
@@ -275,9 +227,7 @@ img.center { display: block; margin: auto; }
       <input name="currency_code" value="USD" type="hidden">
       <input name="tax" value="0" type="hidden">
       <input src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="Donate money to VideoLAN via PayPal" type="image"> <span style="font-size: 10pt; font-style: italic;">(dollars)</span>
-      </p>
-      </form>
-
+      </p> </form>
       </div>
   &nbsp;
   </div>
@@ -315,7 +265,6 @@ img.center { display: block; margin: auto; }
 <div style="text-align:left">
   <h2>Press</h2>
 <p>Press related questions should be directed to <a href="mailto:videolan@videolan.org">VideoLAN</a>.</p>
-
   <h2>About VideoLAN</h2>
   <p>VideoLAN is a software <a href="/project/">project</a>, which produces
   <a href="http://www.gnu.org/philosophy/free-sw.html">free and open source
@@ -338,15 +287,11 @@ img.center { display: block; margin: auto; }
   <strong>IPv6</strong> on a high-bandwidth network.<br />
   It doesn't need any external codec or program to work.</p>
 
-
     <h2><a href="http://www.videolan.org/videolan-news.rss">
-        News subscription</a></h2>
-    <div>
+        News subscription</a></h2> <div>
     <h4><a href="/news.html">Read all news</a></h4>
     <h4><a href="http://planet.videolan.org">Read developers' news - planet</a></h4>
     </div>
-  </div>
-  </div>
-  </div>
+  </div></div></div>
 </body>
 </html>

@@ -247,7 +247,7 @@ img.center { display: block; margin: auto; }
      <table style="width:100%"><tr><td style="text-align:left">
           <ul class="blue-bullet" style="margin-bottom:-19px">
             <li>Free, Open Source and cross-platform</li>
-            <li>Independant of systems codecs to support most video types</li>
+            <li>Independent of systems codecs to support most video types</li>
             <li>Live recording</li>
             <li>Instant pausing and Frame-by-Frame support</li>
             <li>Finer speed controls</li>

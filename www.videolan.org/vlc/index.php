@@ -196,9 +196,9 @@ img.center { display: block; margin: auto; }
             }
              else if( navigator.userAgent.indexOf("Mac OS X") != -1  ||navigator.userAgent.indexOf("MSIE 5.2") != -1 ||( navigator.userAgent.indexOf("Mac")  &&  navigator.userAgent.indexOf("Opera") ) )
             {
-              if( navigator.platform.indexOf("MacPPC") != -1|| navigator.platform.indexOf("PowerPC") != -1 ) { document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.0/macosx/vlc-1.0.0-powerpc.dmg">Download Now</a> for Mac OS X PowerPC (19 MB)</p>'); }
-              else if( navigator.platform.indexOf("Intel") != -1 ) { document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.0/macosx/vlc-1.0.0-intel.dmg">Download Now</a> for Mac OS X Intel (19 MB)</p>');}
-                 else  { document.writeln( '<p><a class="download" href="/mirror-geo.php?file=vlc/1.0.0/macosx/vlc-1.0.0-powerpc.dmg">Download Now</a> for Mac OS X PowerPC (19 MB)</p>');document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.0/macosx/vlc-1.0.0-intel.dmg">Download Now</a> for Mac OS X Intel (19 MB)</p>'); }
+              if( navigator.platform.indexOf("MacPPC") != -1|| navigator.platform.indexOf("PowerPC") != -1 ) { document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.0/macosx/vlc-1.0.0-powerpc.dmg">Download Now</a> for Mac OS X PowerPC (Leopard) (19 MB)</p>'); }
+              else if( navigator.platform.indexOf("Intel") != -1 ) { document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.0/macosx/vlc-1.0.0-intel.dmg">Download Now</a> for Mac OS X Intel (Leopard) (19 MB)</p>');}
+                 else  { document.writeln( '<p><a class="download" href="/mirror-geo.php?file=vlc/1.0.0/macosx/vlc-1.0.0-powerpc.dmg">Download Now</a> for Mac OS X PowerPC (Leopard) (19 MB)</p>');document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.0/macosx/vlc-1.0.0-intel.dmg">Download Now</a> for Mac OS X Intel (Leopard) (19 MB)</p>'); }
             }
             else if( navigator.platform.indexOf("Mac") != -1 )
             {
@@ -207,10 +207,10 @@ img.center { display: block; margin: auto; }
            else if(  navigator.userAgent.indexOf("freebsd") != -1 || navigator.userAgent.indexOf("FreeBSD") != -1 ) { document.writeln( '<p><a class="download" href="/vlc/download-freebsd.html">Download Now</a> for FreeBSD</p>'); }
             else
             {
-            document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.0/win32/vlc-1.0.0-win32.exe">Download Now</a> for Windows (18 MB)</p>');document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.0/macosx/vlc-1.0.0-powerpc.dmg">Download Now</a> for Mac OS X PowerPC (19 MB)</p>');document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.0/macosx/vlc-1.0.0-intel.dmg">Download Now</a> for Mac OS X Intel (19 MB)</p>');            }
+            document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.0/win32/vlc-1.0.0-win32.exe">Download Now</a> for Windows (18 MB)</p>');document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.0/macosx/vlc-1.0.0-powerpc.dmg">Download Now</a> for Mac OS X PowerPC (Leopard) (19 MB)</p>');document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.0/macosx/vlc-1.0.0-intel.dmg">Download Now</a> for Mac OS X Intel (Leopard) (19 MB)</p>');            }
        --></script>
        <noscript>
-          <p><a class="download" href="/mirror-geo.php?file=vlc/1.0.0/win32/vlc-1.0.0-win32.exe">Download Now</a> for Windows (16 MB)</p><p><a class="download" href="/mirror-geo.php?file=vlc/1.0.0/macosx/vlc-1.0.0-powerpc.dmg">Download Now</a> for Mac OS X PowerPC (19 MB)</p><p><a class="download" href="/mirror-geo.php?file=vlc/1.0.0/macosx/vlc-1.0.0-intel.dmg">Download Now</a> for Mac OS X Intel (19 MB)</p>       </noscript>
+          <p><a class="download" href="/mirror-geo.php?file=vlc/1.0.0/win32/vlc-1.0.0-win32.exe">Download Now</a> for Windows (16 MB)</p><p><a class="download" href="/mirror-geo.php?file=vlc/1.0.0/macosx/vlc-1.0.0-powerpc.dmg">Download Now</a> for Mac OS X PowerPC (Leopard) (19 MB)</p><p><a class="download" href="/mirror-geo.php?file=vlc/1.0.0/macosx/vlc-1.0.0-intel.dmg">Download Now</a> for Mac OS X Intel (Leopard) (19 MB)</p>       </noscript>
     <div class="more"><a  href="/vlc/index2.html">Other Operating Systems, learn more</a></div>
       </div>
       <div id="donate" style="height:55px">

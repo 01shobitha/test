@@ -133,11 +133,12 @@ else
 	exit;
     }
 
-    require '/home/videolan/etc/db.php';
-    $connect = pg_connect( $connect_string );
+/* Commented for release. */
+/*    require '/home/videolan/etc/db.php';
+/*    $connect = pg_connect( $connect_string );
   
     if( !$connect )
-    {
+   {
 	die;
     }
 $mirror_url = pg_escape_string($mirror_url);
@@ -149,5 +150,5 @@ $file = pg_escape_string($file);
 	                    "VALUES ('" . $mirror_url . "', '" . $file . "', 1,".
 			    "current_date)");
     }
-    pg_close($connect);
+    pg_close($connect);*/
 ?>

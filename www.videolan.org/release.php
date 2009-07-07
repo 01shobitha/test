@@ -176,7 +176,7 @@ img.center { display: block; margin: auto; }
 </div>
   <div id="download">
         <script type="text/javascript"><!--
-            if ( navigator.platform.indexOf("Win32") != -1 ) { document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.0/win32/vlc-1.0.0-win32.exe">Download Now</a> for Windows (16 MB)</p>'); }
+            if ( navigator.platform.indexOf("Win32") != -1 ) { document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.0/win32/vlc-1.0.0-win32.exe">Download Now</a> for Windows (18 MB)</p>'); }
             else if( navigator.platform.indexOf("Linux") != -1 )
             {
               if( navigator.userAgent.indexOf("Ubuntu") != -1 || navigator.userAgent.indexOf("ubuntu") != -1  ) { document.writeln( '<p><a class="download" href="/vlc/download-ubuntu.html">Download Now</a> for Ubuntu Linux</p>'); }
@@ -201,7 +201,7 @@ img.center { display: block; margin: auto; }
            else if(  navigator.userAgent.indexOf("freebsd") != -1 || navigator.userAgent.indexOf("FreeBSD") != -1 ) { document.writeln( '<p><a class="download" href="/vlc/download-freebsd.html">Download Now</a> for FreeBSD</p>'); }
             else
             {
-            document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.0/win32/vlc-1.0.0-win32.exe">Download Now</a> for Windows (16 MB)</p>');document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.0/macosx/vlc-1.0.0-powerpc.dmg">Download Now</a> for Mac OS X PowerPC (19 MB)</p>');document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.0/macosx/vlc-1.0.0-intel.dmg">Download Now</a> for Mac OS X Intel (19 MB)</p>');            }
+            document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.0/win32/vlc-1.0.0-win32.exe">Download Now</a> for Windows (18 MB)</p>');document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.0/macosx/vlc-1.0.0-powerpc.dmg">Download Now</a> for Mac OS X PowerPC (19 MB)</p>');document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.0/macosx/vlc-1.0.0-intel.dmg">Download Now</a> for Mac OS X Intel (19 MB)</p>');            }
        --></script>
        <noscript>
           <p><a class="download" href="/mirror-geo.php?file=vlc/1.0.0/win32/vlc-1.0.0-win32.exe">Download Now</a> for Windows (16 MB)</p><p><a class="download" href="/mirror-geo.php?file=vlc/1.0.0/macosx/vlc-1.0.0-powerpc.dmg">Download Now</a> for Mac OS X PowerPC (19 MB)</p><p><a class="download" href="/mirror-geo.php?file=vlc/1.0.0/macosx/vlc-1.0.0-intel.dmg">Download Now</a> for Mac OS X Intel (19 MB)</p>       </noscript>

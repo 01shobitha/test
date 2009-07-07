@@ -5,10 +5,10 @@ if( strpos( $url, "/" ) ) $url ="";
 <html>
   <head>
     <title>VideoLAN - Download skin</title>
-    <meta http-equiv="refresh" content="0; url=http://images.videolan.org/vlc/skins2/<?php echo $url; ?>" />
+    <meta http-equiv="refresh" content="0; url=http://www1.videolan.org/vlc/skins2/<?php echo $url; ?>" />
   </head>
   <body>
-    <p>Click <a href="http://images.videolan.org/vlc/skins2/<?php echo $url; ?>">here</a> if your download doesn't start.</p>
+    <p>Click <a href="http://www1.videolan.org/vlc/skins2/<?php echo $url; ?>">here</a> if your download doesn't start.</p>
 <?php
   require_once '/home/videolan/etc/db-www.php';
   if( !($connect = pg_connect( $connect_string )) )

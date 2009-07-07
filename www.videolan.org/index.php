@@ -205,7 +205,7 @@ img.center { display: block; margin: auto; }
        --></script>
        <noscript>
           <p><a class="download" href="/mirror-geo.php?file=vlc/1.0.0/win32/vlc-1.0.0-win32.exe">Download Now</a> for Windows (16 MB)</p><p><a class="download" href="/mirror-geo.php?file=vlc/1.0.0/macosx/vlc-1.0.0-powerpc.dmg">Download Now</a> for Mac OS X PowerPC (19 MB)</p><p><a class="download" href="/mirror-geo.php?file=vlc/1.0.0/macosx/vlc-1.0.0-intel.dmg">Download Now</a> for Mac OS X Intel (19 MB)</p>       </noscript>
-    <div class="more"><a  href="/vlc/">Other Operating Systems, learn more</a></div>
+    <div class="more"><a  href="/vlc/index2.html">Other Operating Systems, learn more</a></div>
       </div>
       <div id="donate">
       Donate to VideoLAN:

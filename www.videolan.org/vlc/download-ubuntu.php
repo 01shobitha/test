@@ -11,8 +11,17 @@
 
 <div id="left">
 
-<h2><!-- Ubuntu Jaunty Jackalope 9.04,
-<br/>-->Ubuntu Intrepid Ibex 8.10,
+<h2>1.0.0 on Jaunty Jackalope</h2>
+<p> In order to get the latest 1.0.0 on your latest ubuntu, you should use use a version from <a href="https://launchpad.net/ubuntu/+ppas">PPA</a>. There is an
+<a href="https://help.launchpad.net/Packaging/PPA#Installing software from a PPA">howto to use a ppa</a>.</p>
+The version can be found on:
+<pre>
+https://launchpad.net/~c-korn/+archive/vlc
+</pre>
+
+
+<h2>Ubuntu Jaunty Jackalope 9.04,
+<br/>Ubuntu Intrepid Ibex 8.10,
 <br/>Ubuntu Hardy Heron LTS 8.04</h2>
 <p>Open Synaptic (System -&gt; Administration -&gt; Synaptic Package Manager).
 In Settings -&gt; Repositories, make sure you have a &quot;multiverse&quot; 

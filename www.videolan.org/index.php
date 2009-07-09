@@ -53,6 +53,7 @@
                 without the need for additional codecs</li>
             <li>Features a complete streaming server, with extended 
                 features (video on demand, on the fly transcoding, ...)</li>
+            <li>Learn more about this release <a href="/release.html">now!</a></li>
           </ul>
     <p class="center">
       <script type="text/javascript"><!--

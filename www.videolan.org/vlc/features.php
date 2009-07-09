@@ -219,8 +219,8 @@ function headers( $extra )
             <?php writefeature( "AAC - MPEG-4 part3", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "Vorbis", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "AC3 - A/52 (Dolby Digital)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( 'E-AC-3 (Dolby Digital Plus) <sup><a href="#audio_notes">3 </a></sup>', "no", "no", "no", "no", "no", "no" ); ?>
-            <?php writefeature( 'MLP / TrueHD <sup><a href="#audio_notes">3</a></sup>', "no", "no", "no", "no", "no", "no" ); ?>
+            <?php writefeature( 'E-AC-3 (Dolby Digital Plus) <sup><a href="#audio_notes">3 </a></sup>', "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( 'MLP / TrueHD <sup><a href="#audio_notes">3</a></sup>', "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "DTS", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "WMA 1/2", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <tr>
@@ -247,7 +247,7 @@ function headers( $extra )
             <?php writefeature( "MIDI", "unt", "unt", "yes", "unt", "unt", "unt" ); ?>
             <?php writefeature( "LPCM", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "ADPCM", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
-            <?php writefeature( "QCELP", "no", "no", "no", "no", "no", "no" ); ?>
+            <?php writefeature( "QCELP", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "DV Audio", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "QDM2/QDMC (QuickTime)", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
             <?php writefeature( "MACE", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>

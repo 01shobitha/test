@@ -115,6 +115,34 @@
     <div class="more"><a  href="/vlc/">Other Operating Systems, learn more</a></div>
     <?php panel_end(); ?>
 
+
+<?php panel_start( 'orange' ); ?>
+      <h1>      Donate to VideoLAN:</h1>
+      <div style="float: left;">
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+      <p>
+      <input name="cmd" value="_xclick" type="hidden"/>
+      <input name="business" value="treasurer@videolan.org" type="hidden"/>
+      <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
+      <input name="no_note" value="0" type="hidden"/>
+      <input name="currency_code" value="EUR" type="hidden"/>
+      <input name="tax" value="0" type="hidden"/>
+      <input src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="Donate money to VideoLAN via PayPal" type="image"/> <span style="font-size: 10pt; font-style: italic;">(euros)</span>
+      </p></form>
+      </div>
+      <div>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post"><p>
+      <input name="cmd" value="_xclick" type="hidden"/>
+      <input name="business" value="treasurer@videolan.org" type="hidden"/>
+      <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
+      <input name="no_note" value="0" type="hidden"/>
+      <input name="currency_code" value="USD" type="hidden"/>
+      <input name="tax" value="0" type="hidden"/>
+      <input src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="Donate money to VideoLAN via PayPal" type="image"/> <span style="font-size: 10pt; font-style: italic;">(dollars)</span>
+      </p> </form>
+      </div>
+    <?php panel_end(); ?>
+
 <?php panel_start( 'orange' ); ?>
 <h1>Help</h1>
   <p> For setup instructions, see the <a href="http://wiki.videolan.org/Documentation:Documentation">documentation</a>

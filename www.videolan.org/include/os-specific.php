@@ -44,10 +44,10 @@ function Screenshot( $os )
 function DoDL( $os, $with_js=1 )
 {
     $dl = array();
-    $version = '0.9.9';
-    $dl["Win32"] = array("/mirror-geo.php?file=vlc/$version/win32/vlc-$version-win32.exe", "Windows (16 MB)" );
-    $dl["OSX-PPC"] = array("/mirror-geo.php?file=vlc/0.9.9a/macosx/vlc-0.9.9a-powerpc.dmg", "Mac OS X PowerPC (19 MB)" );
-    $dl["OSX-Intel"] = array( "/mirror-geo.php?file=vlc/0.9.9a/macosx/vlc-0.9.9a-intel.dmg","Mac OS X Intel (19 MB)" );
+    $version = '1.0.0';
+    $dl["Win32"] = array("/mirror-geo.php?file=vlc/$version/win32/vlc-$version-win32.exe", "Windows (17 MB)" );
+    $dl["OSX-PPC"] = array("/mirror-geo.php?file=vlc/$version/macosx/vlc-$version-powerpc.dmg", "Mac OS X PowerPC (19 MB)" );
+    $dl["OSX-Intel"] = array( "/mirror-geo.php?file=vlc/$version/macosx/vlc-$version-intel.dmg","Mac OS X Intel (19 MB)" );
     $dl["Linux"] =array("/vlc/", "Linux and other OSes" );
     $dl["Debian"] = array( "/vlc/download-debian.html", "Debian GNU/Linux" );
     $dl["Ubuntu"] = array( "/vlc/download-ubuntu.html", "Ubuntu Linux");

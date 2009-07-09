@@ -143,6 +143,15 @@
       </div>
     <?php panel_end(); ?>
 
+<?php panel_start( 'blue' ); ?>
+<h1>Contribute!</h1>
+  <p>VideoLAN welcomes all contributions to the project! You can contribute
+  time (development, documentation, packaging, tests, user support, ...),
+  material or even money. See the <a href="/contribute.html">contribution
+  page</a> for more information.<br/>Developers can join us by undertaking one of the
+  <a href="http://wiki.videolan.org/Mini_Projects">Mini Projects</a></p>
+<?php panel_end(); ?>
+
 <?php panel_start( 'orange' ); ?>
 <h1>Help</h1>
   <p> For setup instructions, see the <a href="http://wiki.videolan.org/Documentation:Documentation">documentation</a>
@@ -153,15 +162,6 @@
   <a href="http://wiki.videolan.org">Wiki</a>, the
   <a href="/support/lists.html">user mailing-lists</a> and other support
   methods.</p>
-<?php panel_end(); ?>
-
-<?php panel_start( 'blue' ); ?>
-<h1>Contribute!</h1>
-  <p>VideoLAN welcomes all contributions to the project! You can contribute
-  time (development, documentation, packaging, tests, user support, ...),
-  material or even money. See the <a href="/contribute.html">contribution
-  page</a> for more information.<br/>Developers can join us by undertaking one of the
-  <a href="http://wiki.videolan.org/Mini_Projects">Mini Projects</a></p>
 <?php panel_end(); ?>
 
 </div> <!-- RIGHT -->

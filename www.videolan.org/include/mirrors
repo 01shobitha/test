@@ -163,6 +163,11 @@ http://mirror.tje.me.uk/pub/mirrors/ftp.videolan.org/|TJE|United Kingdom|gb|HTTP
 # Exist also over FTP
 http://ftp.ntua.gr/pub/videolan/|NTUA|Greece|gr|HTTP|1000
 #
+# University of Idaho
+# Location: Moscow, Idaho, USA
+# Dave Lien -  mirror-manager@uidaho.edu (or davelien@uidaho.edu)
+http://mirror.its.uidaho.edu/pub/videolan/|University of Idaho|USA|us|HTTP|200
+#
 # CacheBoy CDN - This is a TEST
 # Location: NL
 # Adrian Chadd - adrian.chadd@gmail.com / adrian@xenion.com.au

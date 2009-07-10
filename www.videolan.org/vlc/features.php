@@ -425,7 +425,9 @@ function headers( $extra )
           <?php writefeature( "Web", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
           <?php writefeature( "Telnet", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
           <?php writefeature( "Command line", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+          <?php writefeature( "ncurses", "no", "yes", "yes", "unt", "unt", "unt" ); ?>
           <?php writefeature( "Infrared", "no", "no", "yes", "no", "no", "no" ); ?>
+          <?php writefeature( "Mouse Gestures", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
           </table>
         </div>
         <div id="feature-list-misc">

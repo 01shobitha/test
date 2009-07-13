@@ -16,7 +16,14 @@ echo"    <div class=\"screenshot\"><a href='http://images1.videolan.org/vlc/scre
 <div id="fullwidth" >
 
 
-<h2 class="clearme">Latest screenshots 0.9</h2>
+<h2 class="clearme">Latest version: 1.0 - Goldeneye</h2>
+<?php
+screenshot( "1.0.0/VLC_Goldneye.jpg",
+            "1.0.0/tm_VLC_Goldneye.jpg",
+            "Windows Vista - Skins Interface", "834x682" );
+?>
+
+<h2 class="clearme">0.9</h2>
 
 <?php
 screenshot( "0.9.2/qt-albumart.jpg",

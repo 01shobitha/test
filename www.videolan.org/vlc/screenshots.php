@@ -6,7 +6,7 @@
 
 function screenshot($img,$thumb,$desc,$size){
 echo"    <div class=\"screenshot\"><a href='http://images1.videolan.org/vlc/screenshots/$img'><img
-    src='http://images1.videolan.org/vlc/screenshots/$thumb' alt='$desc' width='150' /></a>
+    src='http://images1.videolan.org/vlc/screenshots/$thumb' alt='VLC media player - $desc' width='150' /></a>
     <br />  $desc<br />($size) </div>";
 }
 ?>
@@ -82,16 +82,16 @@ screenshot( "0.9.2/osx-0.9.2-teletext.jpg",
 <h2 class="clearme">0.8.6</h2>
 <?php
 screenshot( "0.8.6/VLC-0.8.6-beryl.jpg",
-	    "0.8.6/tm_VLC-0.8.6-beryl.jpg",
-	    "GNU/Linux Debian - Beryl", "1680x1050" );
+            "0.8.6/tm_VLC-0.8.6-beryl.jpg",
+            "GNU/Linux Debian - Beryl", "1680x1050" );
 
 screenshot( "0.8.6/VLC-0.8.6-beryl-ubuntu.jpg",
-	    "0.8.6/tm_VLC-0.8.6-beryl-ubuntu.jpg",
-	    "GNU/Linux Ubuntu - Beryl", "1024x768" );
+            "0.8.6/tm_VLC-0.8.6-beryl-ubuntu.jpg",
+            "GNU/Linux Ubuntu - Beryl", "1024x768" );
 
 screenshot( "0.8.6/VLC-mac-Fullscreen.jpg",
-	    "0.8.6/tm_VLC-mac-Fullscreen.jpg",
-	    "Mac OS X - FullScreen Controller", "1280x800" );
+            "0.8.6/tm_VLC-mac-Fullscreen.jpg",
+            "Mac OS X - FullScreen Controller", "1280x800" );
 
 ?>
 

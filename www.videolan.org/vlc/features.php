@@ -258,9 +258,7 @@ function headers( $extra )
         <ol id="audio_notes">
           <li>Windows DMO codecs can be used by VLC on 32-bit x86 platforms and 
           allow WMV-3/WMA-3 decoding. This feature is untested on Intel-based Macs.</li>
-          <li>Real Audio playback is provided through the FFmpeg-library
-          which does only support a limited number of RA derivatives.</li>
-          <li>E-AC-3, MLP and QCELP codecs will be added in VLC version 1.0</li>
+          <li>Sipr codec playback is not supported.</li>
         </ol>
         </div>
 

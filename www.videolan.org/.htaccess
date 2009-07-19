@@ -26,6 +26,7 @@ Redirect /videos http://download2.videolan.org/videos
 
 # Contact / Team
 RewriteRule ^contact.htm$ /videolan/index.html [R=permanent,L]
+RewriteRule ^contact.htm$ /videolan/index.html [R=permanent,L]
 RewriteRule ^contact.html$ /videolan/index.html [R=permanent,L]
 RewriteRule ^team.html$ /videolan/team/index.html [R=permanent,L]
 RewriteRule ^team/$ /videolan/team/index.html [R=permanent,L]

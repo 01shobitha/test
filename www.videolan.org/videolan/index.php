@@ -27,11 +27,17 @@
   <p>The project started to open up to developers outside of the École.
   It is now a worldwide project with <a href="/videolan/team/">developers</a> from 20 countries.</p>
   <p>Since 2009, the project is completly separated from École Centrale Paris,
-  and is backed up by an autonomous non-profit organisation</p>.
+  and is backed up by an autonomous non-profit organisation.</p>
 
 <h2>The VideoLAN non-profit organisation</h2>
 <p>The VideoLAN project is backed up by the VideoLAN organisation, based in France.</p>
 <p>The VideoLAN non-profit organisation has a board and members that are part of the VideoLAN project.</p>
+<p>The current board of VideoLAN is composed by:
+<ul class="bullets">
+<li>President: Jean-Baptiste Kempf,</li>
+<li>Treasurer: Rémi Duraffort,</li>
+<li>Secretary: Antoine Cellerier.</li>
+</ul>
 
 <h2>Hosted projects</h2>
 
@@ -92,8 +98,8 @@ with some <a href="/events">photos and stories</a>.</p>
 </div>
 
 <div id="right">
-  <?php panel_start("orange"); ?>
-    <h1>Contribute!</h1>
+  <?php panel_start("blue"); ?>
+    <h1>Contribute to VideoLAN!</h1>
     <p>VideoLAN welcomes all contributions to the project! You can contribute
       time (development, documentation, packaging, tests, user support, ...),
       material or even money. See the <a href="contribute.html">contribution

@@ -2,7 +2,7 @@
    $title = "the VideoLAN team";
    $lang = "en";
    $menu = array( "project", "team" );
-   $additional_js = array("http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAA_tTjXf27pXx7GJjiXjfLTBTZ23S2gbgYlUkGxVa_77E2Yr1JbRRZDHGiGaM9ko8-hG5M1z9nS5bFXA",
+   $additional_js = array("http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAA4WikHyFOEHllsvHRH76zihTplTmqAEFCbK_xv5tRDy86xiE0jRSIeYAd6tv5hvmOt5X01c8BhPqAmg",
                           "map.js");
    $body_onload = "load();";
    $body_onunload = "GUnload();";

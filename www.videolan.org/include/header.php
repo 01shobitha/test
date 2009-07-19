@@ -100,7 +100,7 @@ function DrawMenu( $file, $mod )
       if( $l == "sep" ){}
       else
       {
-        list( $name, $text, $link, $icon, $width, $height ) =
+        list( $name, $text, $link ) =
             split( "[\t;]+", $l );
         if( $mod == $name )
                 echo '<li class="selected">';

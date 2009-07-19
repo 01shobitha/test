@@ -116,8 +116,7 @@ part with '@'. </p>
 
 <h2>Legal contact</h2>
 
-<p>Hosting for the VideoLAN project is provided by&nbsp;:
-</p>
+<p>Hosting for the VideoLAN project is provided by&nbsp;:</p>
 
 <pre style="margin-left: 60px;">
 VideoLAN
@@ -125,8 +124,6 @@ VideoLAN
 75013 Paris
 France
 </pre>
-
-</p>
 
 </div>
 

@@ -12,39 +12,29 @@
 <h2>Contribute time</h2>
 
 <img src="http://images.videolan.org/images/contribute-time.png" alt="" style="float: left; margin-right: 5px">
+<div>
+<p>If you have time, we are welcoming your help on various subjects</p>
+<ul>
+  <li><strong>Programmers</strong>, see the <a href="/developers/">developer documentations</a>,
+      subscribe to the <a href="/support/lists.html">mailing-lists</a>, have
+      a look at the <a href="http://trac.videolan.org/">bug-tracking system</a>,
+      join the <a href="/support/">IRC channel</a> to start the code.</li>
+  <li><strong>Writers</strong>, to help improve the documentations, write release notes, and press releases</li>
+  <li><strong>Translators</strong>, to <a href="/developers/i18n/">translate</a> VLC</li>
+  <li><strong>Helpers</strong>, to answer on the <a href="http://forum.videolan.org">forums</a> and mailing lists</li>
+  <li><strong>Designers</strong>, for this website and VLC</li>
+</ul>
 
-<p> If you have time and programming skills, you                        
-can help us develop the software. Read the <a                           
-href="/developers/">developer documentations</a>,    
-subscribe to the <a href="/support/lists.html">mailing-lists</a>, have  
-a look at the <a href="http://trac.videolan.org/">bug-tracking      
-system</a>, join the <a href="/support/">IRC channel</a> and start to   
-code! Send your code to the developer mailing-lists under the form of   
-patches for the current <a href="http://wiki.videolan.org/Git">
-Version Controlled Sources</a>. If you often make good contributions, the  
-VideoLAN team will give you a <a href="http://wiki.videolan.org/Git">
-Git</a> write account. </p>                   
-
-<p> If you have time but no programming skills, you can help with the   
-documentation, the <a href="/developers/i18n/">translation</a> of the VLC interface and the VideoLAN    
-documentation, the packaging, the tests before the releases, answer the 
-questions in the user mailing-lists if you can, etc... </p>             
+</div>
 
 <h2>Contribute materials</h2>
 
 <img src="http://images.videolan.org/images/contribute-materials.png" alt="" style="float: left; margin-right: 5px">
-
-<p> Your particular DVD does not work with VLC? VLC does not like your
-VCD or SVCD? You have a satellite card or an MPEG encoding card that is not
-supported by VideoLAN? </p>
-
-<p> You can donate it to the developers at the École Centrale and it may
-motivate them to work on your suggestion! In any case, you do not have any
+<p> Your particular DVD, VCD or SVCD does not work with VLC?<br />
+You have a satellite card or an MPEG encoding card that is not supported by some VideoLAN software? </p>
+<p> You can donate it to the developers and it may motivate them to work on your suggestion! In any case, you do not have any
 warranty that your wish will be taken into account. </p>
-
-<p> If you want to donate materials, please write to <a
-href="mailto:videolan@REMOVETHIS@videolan.org">videolan - at - videolan.org</a> so that we can
-tell you if we are interested and give you our snail-mail address. </p>
+<p> If you want to donate materials, please  <a href="/videolan/">contact us.</a>
 
 <h2>Donate money</h2>
 <a id="money"></a>
@@ -58,98 +48,64 @@ VideoLAN has its own bank account and is responsible the VideoLAN servers.
 <h3>What are the financial needs of VideoLAN?</h3>
 
 <ul class="bullets">
-
-<li>Buy hardware for developing and testing purposes (servers,
-satellite cards and antenna, MPEG encoding cards,...)</li>
-
-<li>Buy documentation and specifications (MPEG specifications,...)</li>
-
-<li>Promote the project by organising or participating in events (Linux
-Expo Paris, Annual presentation Day,...)</li>
-
+<li>Buy hardware for developing and testing purposes (DVDs, satellite cards and antenna, MPEG encoding cards,...)</li>
+<li>Maintain the servers and hardware to run VideoLAN services.</li>
+<li>Promote the project by organising or participating in events (FOSDEM, Linux Expo Paris, ...)</li>
 </ul>
 
-<h3>Who funds VideoLAN?</h3>
-
-<ul class="bullets">
-
-<li>You, with your donations!</li>
-
-</ul>
 <h3>Donate to VideoLAN via PayPal</h3>
 <a id="paypal"></a>
 
 <p> You can donate money to the project through VideoLAN's <a
-href="http://www.paypal.com/">PayPal</a> account. The money collected is
-regularly transferred to VideoLAN's bank account. There is no minimal amount
+href="http://www.paypal.com/">PayPal</a> account. There is no minimal amount
 for your donation. </p>
 
 <p> If you click on one of the buttons below, you will be taken the secure
-PayPal Web site. Enter the amount of the donation you want to make. </p>
+PayPal Web site. Enter the amount of the donation you want to make.<br />
+You don't need to have a paypal account to do so.</p>
 
-<ul class="bullets">
+   <div>
+   <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+   <p>
 
-<li>If you are not already a PayPal member, you will be asked to enter  
-your name, your Credit Card number (VISA, MasterCard, American Express, 
-Discover), your address, your e-mail and a password for your PayPal     
-account.</li>                                                           
+   <span style="font-size: 10pt;">Euros:</span>
+   <input name="cmd" value="_xclick" type="hidden"/>
+   <input name="business" value="treasurer@videolan.org" type="hidden"/>
+   <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
+   <input name="no_note" value="0" type="hidden"/>
+   <input name="currency_code" value="EUR" type="hidden"/>
+   <input name="tax" value="0" type="hidden"/>
+   <input src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="Donate money to VideoLAN via PayPal" type="image"/>
+   </p></form>
 
-<li>If you already have a PayPal account, go to the section for those   
-who already have a PayPal account (clic on <i>Login Now</i>): you will 
-then be prompted for you PayPal login and password. You will eventually 
-be able to transfer money to VideoLAN's PayPal account.</li>            
+   </div>
+   <div>
+   <form action="https://www.paypal.com/cgi-bin/webscr" method="post"><p>
+   <span style="font-size: 10pt;">Dollars:</span>
+   <input name="cmd" value="_xclick" type="hidden"/>
+   <input name="business" value="treasurer@videolan.org" type="hidden"/>
+   <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
+   <input name="no_note" value="0" type="hidden"/>
+   <input name="currency_code" value="USD" type="hidden"/>
+   <input name="tax" value="0" type="hidden"/>
 
-</ul>
-
-<table border="1">
-
-<tr>
-<td align="center"><b>US Dollars</b></td>
-<td align="center"><b>Euros</b></td>
-</tr>
-
-<tr>
-<td>
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<p>
-<input type="hidden" name="cmd" value="_xclick" />
-<input type="hidden" name="business" value="treasurer@videolan.org" />
-<input type="hidden" name="item_name" value="Development and communication of VideoLAN" />
-<input type="hidden" name="no_note" value="0" />
-<input type="hidden" name="currency_code" value="USD" />
-<input type="hidden" name="tax" value="0" />
-<input type="image" src="https://www.paypal.com/images/x-click-but21.gif" name="submit" alt="Donate money to VideoLAN via PayPal" />
-</p>
-</form>
-</td>
-
-<td>
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<p>
-<input type="hidden" name="cmd" value="_xclick" />
-<input type="hidden" name="business" value="treasurer@videolan.org" />
-<input type="hidden" name="item_name" value="Development and communication of VideoLAN" />
-<input type="hidden" name="no_note" value="0" />
-<input type="hidden" name="currency_code" value="EUR" />
-<input type="hidden" name="tax" value="0" />
-<input type="image" src="https://www.paypal.com/images/x-click-but21.gif" name="submit" alt="Donate money to VideoLAN via PayPal" />
-</p>
-</form>
-</td>
-</tr>
-
-</table>
+   <input src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="Donate money to VideoLAN via PayPal" type="image"/>
+   </p> </form>
+   </div>
 
 <p> If you encounter problems or if you have questions, you
 can write to VideoLAN's Treasurer (<a
 href="mailto:treasurer -AT- videolan -DOT- org">treasurer -AT- videolan -DOT- org</a>). </p>
 
+<h3>Donate to VideoLAN via Bank account</h3>
+Please <a href="/videolan/team/">Contact us</a>.
 <h3>Remember VideoLAN is free software...</h3>
 
 <p> VideoLAN software is released under the <a
 href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General Public Licence</a>,
 and can be used and distributed freely, according to the terms of this
-licence. There is absolutely no requirement to donate money (this is not
+licence.<br />
+There is absolutely no requirement to donate money (this is not
 shareware software). But if you want to help us move faster, we welcome
 donations. </p>
 

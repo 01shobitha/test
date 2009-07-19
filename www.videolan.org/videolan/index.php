@@ -32,7 +32,7 @@
 <h2>The VideoLAN non-profit organisation</h2>
 <p>The VideoLAN project is backed up by the VideoLAN organisation, based in France.</p>
 <p>The VideoLAN non-profit organisation has a board and members that are part of the VideoLAN project.</p>
-<p>The current board of VideoLAN is composed by:
+<p>The current board of VideoLAN is composed by:</p>
 <ul class="bullets">
 <li>President: Jean-Baptiste Kempf,</li>
 <li>Treasurer: Rémi Duraffort,</li>

@@ -34,7 +34,7 @@ questions in the user mailing-lists if you can, etc... </p>
 
 <img src="http://images.videolan.org/images/contribute-materials.png" alt="" style="float: left; margin-right: 5px">
 
-<p> Your particular DVD does not work with VLC or VLS? VLC does not like your
+<p> Your particular DVD does not work with VLC? VLC does not like your
 VCD or SVCD? You have a satellite card or an MPEG encoding card that is not
 supported by VideoLAN? </p>
 
@@ -51,12 +51,9 @@ tell you if we are interested and give you our snail-mail address. </p>
 
 <h3>What is the legal structure of VideoLAN?</h3>
 
-<p> VideoLAN is a project of the association <a
-href="http://www.via.ecp.fr/">Centrale Réseaux</a>, which is a French
-non-profit organisation based at the <a href="http://www.ecp.fr/">École
-Centrale Paris</a>. VideoLAN has its own bank account and is responsible for
-its finances to the <a href="http://www.via.ecp.fr/via/ca.php">board
-of Centrale Réseaux</a>. </p>
+<p> VideoLAN is a non-profit organisation, under French law.
+VideoLAN has its own bank account and is responsible the VideoLAN servers.
+. </p>
 
 <h3>What are the financial needs of VideoLAN?</h3>
 
@@ -75,11 +72,6 @@ Expo Paris, Annual presentation Day,...)</li>
 <h3>Who funds VideoLAN?</h3>
 
 <ul class="bullets">
-
-<li>The <a href="http://www.via.ecp.fr/">Centrale Réseaux</a> association.</li>
-
-<li>The <a href="http://www.ecp.fr/">École Centrale Paris</a> and its <a
-href="http://www.msio.ecp.fr/">SIO Master</a> (Open Information Systems).</li>
 
 <li>You, with your donations!</li>
 

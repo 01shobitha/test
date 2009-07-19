@@ -146,7 +146,7 @@ libraries and build them yourself:</p>
     <p>See the <a href="http://wiki.videolan.org/Documentation:Documentation">documentation page</a>.</p>
 <?php panel_end(); ?>
 
-<?php panel_start( "blue" ); ?>
+<?php panel_start( "gray" ); ?>
    <h1>PlayOgg</h1>
    <a href="http://playogg.org">
         <img src="http://images.videolan.org/images/play_ogg_large.png" alt="PlayOgg"/></a>

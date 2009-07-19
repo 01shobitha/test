@@ -7,18 +7,31 @@
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");
 ?>
 
-<h1>The VideoLAN Project</h1>
+<h1>VideoLAN</h1>
 
 <div id="left">
 
-<h2>The Project</h2>
+<h2>The VideoLAN Project</h2>
+  <p>The VideoLAN project is a project, lead and composed by a team of volunteers,
+  that believe in the power of open source when dealing with multimedia.</p>
   <p>VideoLAN produces
   <a href="http://www.gnu.org/philosophy/free-sw.html">free
-  software</a> for video, released under the GNU <a
+  software</a> for multimedia, released under the GNU <a
   href="http://www.gnu.org/copyleft/gpl.html">General Public License</a>. </p>
-  <p>It started as a student project at the French <a
-  href="http://www.ecp.fr/">École Centrale Paris</a> but is now a worldwide
-  project with <a href="/team/">developers</a> from 20 countries.</p>
+
+  <h3>History</h3>
+  <p>The project started as a student project at the French <a
+  href="http://www.ecp.fr/">École Centrale Paris</a>, in 1996.
+  After a complete rewrite in 1998, it became Open Source, thanks to the agreement
+  of the École Centrale Paris, in 2001.</p>
+  <p>The project started to open up to developers outside of the École.
+  It is now a worldwide project with <a href="/videolan/team/">developers</a> from 20 countries.</p>
+  <p>Since 2009, the project is completly separated from École Centrale Paris,
+  and is backed up by an autonomous non-profit organisation</p>.
+
+<h2>The VideoLAN non-profit organisation</h2>
+<p>The VideoLAN project is backed up by the VideoLAN organisation, based in France.</p>
+<p>The VideoLAN non-profit organisation has a board and members that are part of the VideoLAN project.</p>
 
 <h2>Hosted projects</h2>
 

@@ -74,6 +74,10 @@ a Java application to manage multiple VLC instances through their telnet interfa
 
 <li><a href="/vlc/skineditor.html">VLC Skin Editor</a>, a Java application to create skins for VLC media player.</li>
 
+<li><a href="/projects/dvblast.html">DVBlast</a>,
+a simple, fast, reliable and powerful streaming application for linux-dvb devices.</li>
+
+
 </ul>
 
 <h2>Hosted SVN projects</h2>

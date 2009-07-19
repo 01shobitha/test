@@ -109,7 +109,7 @@ There is absolutely no requirement to donate money (this is not
 shareware software). But if you want to help us move faster, we welcome
 donations. </p>
 
-<h3>Contributors</h3>
+<h2>Contributors</h2>
 
 <p>We would like to thank all the people who supported the VideoLAN project
 through their remarks, bug reports or donations. We're particularly grateful

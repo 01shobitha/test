@@ -11,8 +11,8 @@
 
   <div id="left">
   <h2>About VideoLAN</h2>
-  <p>VideoLAN is a software <a href="/videolan/">project</a>,
-     funded by a <a href="/videolan/">non-profit organisation</a>,
+  <p>VideoLAN is a software <a href="/videolan/">project</a>, run by volunteers,
+     backed-up by a <a href="/videolan/">non-profit organisation</a>,
      which produces <a href="http://www.gnu.org/philosophy/free-sw.html">free and open source software</a> for multimedia,
      released under the GNU <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">General Public License</a>.</p>
   <p><a href="/videolan/">Learn more</a> about the VideoLAN project.</p>

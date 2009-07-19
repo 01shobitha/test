@@ -49,6 +49,7 @@ RewriteRule ^project/contribute.html$ /contribute.html [R=permanent,L]
 RewriteRule ^pr2(.*)$ /press/2$1 [R=permanent,L]
 RewriteRule ^eucd.html$ /press/eucd.html [R=permanent,L]
 RewriteRule ^patents.html$ /press/patents.html [R=permanent,L]
+RewriteRule ^news.msg$ /news.html [R=permanent,L]
 
 #################### VLC ###########################
 

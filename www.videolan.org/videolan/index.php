@@ -110,6 +110,27 @@ with some <a href="/events">photos and stories</a>.</p>
       material or even money. See the <a href="contribute.html">contribution
      page</a> for more information.</p>
   <?php panel_end(); ?>
+
+  <?php panel_start("blue"); ?>
+<h1>Contacting us</h1>
+
+<p>For VLC media player user-related questions,
+    please see our <a href="/support">Support section</a>
+    and the users <a href="/support/lists.html">Mailing-lists</a>.</p>
+<p>If you want to contact the VideoLAN team, about partnerships, legal aspects or any non-support related questions , please write to 
+<a href="mailto:videolan@REMOVETHIS@videolan.org">videolan - at - videolan.org</a> in French or English.</p>
+<p>In case you write an article about VideoLAN, we would be very glad to
+have a copy of it to add to our press book. You can send us the article
+at the following address:</p>
+
+<pre  style="margin-left: 60px;">
+VideoLAN
+18, rue Charcot
+75013 Paris
+France
+</pre>
+<?php panel_end(); ?>
+
 </div>
 
 <?php footer('$Id: index.php 3765 2006-08-16 16:19:00Z dionoea $'); ?>

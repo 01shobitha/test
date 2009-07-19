@@ -102,7 +102,7 @@ with some <a href="/events">photos and stories</a>.</p>
 </div>
 
 <div id="right">
-<img src="/images/videolan-logo-big.png" style="border: 1px #D4E0F7 solid;"/>
+<img src="/images/videolan-logo-big.png" style="border: 1px #D4E0F7 solid;" alt="VideoLAN"/>
   <?php panel_start("orange"); ?>
     <h1>Contribute to VideoLAN!</h1>
     <p>VideoLAN welcomes all contributions to the project! You can contribute

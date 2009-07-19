@@ -25,14 +25,15 @@ Redirect /videos http://download2.videolan.org/videos
 ################# Project ####################
 
 # Contact / Team
-RewriteRule ^contact.htm$ /team/index.html [R=permanent,L]
-RewriteRule ^contact.html$ /team/index.html [R=permanent,L]
-RewriteRule ^team.html$ /team/index.html [R=permanent,L]
+RewriteRule ^contact.htm$ /videolan/index.html [R=permanent,L]
+RewriteRule ^contact.html$ /videolan/index.html [R=permanent,L]
+RewriteRule ^team.html$ /videolan/team/index.html [R=permanent,L]
+RewriteRule ^team/$ /videolan/team/index.html [R=permanent,L]
 
 # Support
 RewriteRule ^lists.html$ /support/lists.html [R=permanent,L]
 RewriteRule ^vlc/lists.html$ /support/lists.html [R=permanent,L]
-RewriteRule ^support/consultants(.*)$ /partners.html [R=permanent,L]
+RewriteRule ^support/consultants(.*)$ /videolan/partners.html [R=permanent,L]
 RewriteRule ^support/irc(.*)$ /support/index.html [R=permanent,L]
 RewriteRule ^irc(.*)$ /support/index.html [R=permanent,L]
 RewriteRule ^support/bug-reporting.* /support/index.html [R=permanent,L]
@@ -65,7 +66,7 @@ RewriteRule ^vlc/download-unix.html$ /vlc/download-sources.html [R=permanent,L]
 RewriteRule ^vlc/download-linux.html$ /vlc/index.html [R=permanent,L]
 RewriteRule ^vlc/download-source.html$ /vlc/download-sources.html [R=permanent,L]
 Redirect /vlc/download-mandrake.html http://www.videolan.org/vlc/download-mandriva.php
-RewriteRule ^vlc/partners.html /partners.html [R=permanent,L]
+RewriteRule ^vlc/partners.html /videolan/partners.html [R=permanent,L]
 
 # Features
 #RewriteRule ^vlc/features(.*)$ http://wiki.videolan.org/VLCFeatures [R=permanent,L]

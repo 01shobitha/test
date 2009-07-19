@@ -56,7 +56,7 @@ Happy holidays and Merry Christmas to everyone.
 |10 December 2008| VideoLAN Dev Days '08| The VideoLAN community is a fast-evolving and ever-changing community and development happens really fast.
 While this is fun, it is always difficult to meet and discuss with each other in person.<br />
 Therefore, we are happy to invite you to: <strong> The VideoLAN Dev Days '08 </strong>, in Paris, France, on the 20-21 December week-end.<br />
-If you are a developper, a VLC fan or press, and you are interested to come or discuss with the team, please <a href="/team/">contact us</a>.<br />
+If you are a developper, a VLC fan or press, and you are interested to come or discuss with the team, please <a href="/videolan/">contact us</a>.<br />
 We would like to thank the four companies that sponsor us: <a href="http://www.anevia.com">Anevia</a>, <a href="http://free.fr">Free</a>, <a href="http://m2x.nl">M2X</a> and <a href="http://www.uniways.fr">Uniways</a>.<br />
 <b>Update:</b> You can have a look at the meeting <a href="http://www.videolan.org/events/">here</a>.
 

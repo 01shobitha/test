@@ -13,7 +13,6 @@
 <h1> Team / Contact </h1>
 
 
-
 <p> The VideoLAN team is made up of students of the <a
 href="http://www.ecp.fr/">École Centrale Paris</a> and developers
 from all over the world:</p>

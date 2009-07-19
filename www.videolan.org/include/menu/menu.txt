@@ -1,4 +1,4 @@
-project;VideoLAN Project;/project/;home.gif;24;24
+project;VideoLAN Project;/videolan/;home.gif;24;24
 vlc;VLC media player;/;cone.gif;18,24
 projects;Software Projects;/projects/;home.gif;24;24
 support;Documentation/Support;/support/;doc.gif;31;24

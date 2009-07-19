@@ -27,7 +27,7 @@
             <li><a href="/links.html">Links</a></li>
             <li><a href="/news.html">News</a></li>
             <!-- Goodies -->
-            <li><a href="/partners.html">Partners</a></li>
+            <li><a href="/videolan/partners.html">Partners</a></li>
             <li><a href="/streaming-features.html">Streaming Features </a></li>
         </ul>
      </td>

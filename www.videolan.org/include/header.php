@@ -4,8 +4,8 @@ function FormatSize($size) {
   $sizes = Array('B', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB');
   $ext = $sizes[0];
   for ($i=1; (($i < count($sizes)) && ($size >= 1024)); $i++) {
-   $size = $size / 1024;
-   $ext  = $sizes[$i];
+    $size = $size / 1024;
+    $ext  = $sizes[$i];
   }
   return round($size, 1).$ext;
 }
@@ -13,13 +13,10 @@ function FormatSize($size) {
 /*
 *  starthtml: beginning of the page
 */
-
 function StartHtml( $title, $additional_css=array(), $additional_js=array(), $body_onload = "HideMirrors();", $body_onunload = "" ) {
-
 global $HTTP_GET_VARS;
-echo "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n";
-
- ?>
+echo '<?xml version="1.0" encoding="utf-8" ?>';
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
        "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
@@ -27,24 +24,20 @@ echo "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n";
 <head>
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
    <meta name="Generator" content="vim [GNU/Linux], GNU Emacs" />
-   <meta name="Author" content="videolan@videolan.org (VideoLAN team)" />
-   <meta name="Keywords" content="DVD, MPEG, MPEG2, MPEG4, DivX, VideoLAN,
-     VLC, VLS, Linux, Unix, BeOS, BSD, MacOS, MacOS X, OSX, QNX,
-     Familiar Linux, iPAQ, multicast, IPv6" />
+   <meta name="Author" content="videolan@videolan.org (VideoLAN)" />
+   <meta name="Keywords" content="DVD, MPEG, MPEG2, MPEG4, H264, DivX, VideoLAN,
+     VLC, VLS, x264, Windows, Linux, Unix, BeOS, BSD, MacOS, MacOS X, OSX, QNX, Streaming,
+     Familiar Linux, iPAQ, multicast, IPv6, media player, media converter" />
    <meta name="Description" content="<?php echo $title; ?>" />
    <title><?php echo $title; ?></title>
    <link rel="alternate" type="application/rss+xml" title="RSS - VideoLAN News" href="/videolan-news.rss" />
    <link rel="alternate" type="application/rss+xml" title="RSS - Developers' Planet" href="http://planet.videolan.org/rss20.xml" />
    <link rel="stylesheet" type="text/css" href="/main.css" />
-   <?php
-      if( isset($additional_css) ) {
-        foreach($additional_css as $css) {
-          ?>
-            <link rel="stylesheet" type="text/css" href="<?php echo $css; ?>" />
-          <?php
-        }
-      }
-   ?>
+   <?php if( isset($additional_css) ) {
+           foreach($additional_css as $css) {
+              echo  '<link rel="stylesheet" type="text/css" href="'.$css.'" />';
+           }
+         }  ?>
 <!--[if lt IE 7]>
    <style type="text/css">
       @media screen{ body{behavior:url("/width.htc");} }
@@ -53,17 +46,13 @@ echo "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n";
         .DXImageTransformed { display: inline-block; }
       </style>
 <![endif]-->
-   <link rel="shortcut icon" type="image/x-icon"
-         href="/images/icons/favicon.ico" />
+   <link rel="shortcut icon" type="image/x-icon" href="/images/icons/favicon.ico" />
   <?php
       if( isset($additional_js) ) {
         foreach($additional_js as $js) {
-          ?>
-            <script src="<?php echo $js;?>" type="text/javascript"></script>
-          <?php
+          echo '<script src="'.$js.'" type="text/javascript"></script>';
         }
-      }
-   ?>
+      } ?>
 <script type="text/javascript">
 // <![CDATA[
 function ShowMirrors( start, stop )
@@ -108,9 +97,7 @@ function DrawMenu( $file, $mod )
     while( $l = fgets( $m, 300 ) )
     {
       $l = rtrim( $l );
-      if( $l == "sep" )
-      {
-      }
+      if( $l == "sep" ){}
       else
       {
         list( $name, $text, $link, $icon, $width, $height ) =
@@ -132,12 +119,12 @@ function DrawMenu( $file, $mod )
 function footer($tag) {
    global $language; ?>
 
-	</div> <!-- MAINCONTENT -->
+    </div> <!-- MAINCONTENT -->
 </div> <!-- PAGECONTAINER -->
 <div id="footer">
   <p> <a href="/">VideoLAN</a> &nbsp;-
   &nbsp;<a href="/map.html">Website Map</a>&nbsp;-
-  &nbsp;<a href="/team/">Contact</a>&nbsp;-&nbsp;
+  &nbsp;<a href="/videolan/team/">Contact</a>&nbsp;-&nbsp;
       See the
      <a href="http://www.videolan.org/stats/downloads.html">statistics</a>
      &nbsp;-&nbsp; <?php echo $tag; ?>
@@ -156,13 +143,11 @@ function footer($tag) {
 
 </body>
 </html>
-
 <?php
 }
 
 function panel_start( $color )
-{
-?>
+{ ?>
   <div class="panel-<?php echo $color; ?>"> <!-- begin panel -->
     <div class="hd">
       <div class="c"></div>
@@ -171,12 +156,9 @@ function panel_start( $color )
     <div class="bd">
       <div class="c">
         <!-- main content goes here -->
-<?php
-}
-
+<?php }
 function panel_end( )
-{
-?>
+{ ?>
       </div>
     </div>
 
@@ -184,8 +166,7 @@ function panel_end( )
       <div class="c"></div>
     </div>
   </div> <!-- end panel -->
-<?php
-}
+<?php }
 
 
 /*
@@ -204,40 +185,37 @@ if(!isset($body_onunload)) $body_onunload = "";
 
 // HTML header
 StartHtml( ereg_replace( "<[^>]*>" , "" , $title ), $additional_css, $additional_js, $body_onload, $body_onunload ) ;
-
-
 ?>
 <div id="header">
-  <div id="navmenucontainer">
-	  <ul id="navmenu">
-			<?php DrawMenu( "menu.txt", $menu[0] ); ?>
-		</ul>
-		<div id="mirror">
-      <form action="#" method="get">
-        <div>mirror: <select name="mirror"
+   <div id="navmenucontainer">
+      <ul id="navmenu">
+          <?php DrawMenu( "menu.txt", $menu[0] ); ?>
+      </ul>
+      <div id="mirror">
+         <form action="#" method="get">
+            <div>mirror: <select name="mirror"
                onchange="window.location='http://'+this.value+'/<?php
                  echo preg_replace('/\.php$/', '.html', $_SERVER['PHP_SELF']);
               ?>'">
-          <?php
-          $web_mirrors = array("videolan.org" => "Main site (free.fr)",
-                               "fr.videolan.org" => "Mirror site (Zoy)");
-          foreach($web_mirrors as $web_mirror_addr => $web_mirror_desc){
-            echo '<option value="www.'.$web_mirror_addr.'" >'.$web_mirror_desc
-              .'</option>';
-          }
+            <?php
+             $web_mirrors = array("videolan.org" => "Main site (free.fr)",
+                                   "fr.videolan.org" => "Mirror site (Zoy)");
+              foreach($web_mirrors as $web_mirror_addr => $web_mirror_desc){
+                 echo '<option value="www.'.$web_mirror_addr.'" >'.$web_mirror_desc.'</option>';
+              }
           ?>
-        </select></div>
-      </form>
-    </div>
-  </div>
-	<div id="submenucontainer">
-		<div class="videolan-logo">
-			<a href="/"><img src="http://images.videolan.org/images/videolan-logo.png" alt="VideoLAN" width="100" height="47"/></a>
-		</div>
-		<ul id="submenu">
-			<?php DrawMenu( $menu[0].".menu.txt", $menu[1] ); ?>
-		</ul>
-	</div>
+            </select></div>
+        </form>
+      </div>
+   </div>
+   <div id="submenucontainer">
+      <div class="videolan-logo">
+          <a href="/"><img src="http://images.videolan.org/images/videolan-logo.png" alt="VideoLAN" width="100" height="47"/></a>
+      </div>
+      <ul id="submenu">
+         <?php DrawMenu( $menu[0].".menu.txt", $menu[1] ); ?>
+      </ul>
+   </div>
 </div>
 
 <div id="maincontent">

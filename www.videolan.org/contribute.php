@@ -166,7 +166,7 @@ donations. </p>
 <p>We would like to thank all the people who supported the VideoLAN project
 through their remarks, bug reports or donations. We're particularly grateful
 to the following people whose contributions made some important projects
-possible. The <a href="/partners.html">partners</a> page also lists some
+possible. The <a href="/videolan/partners.html">partners</a> page also lists some
 companies and institutions who helped VideoLAN.</p>
 
 <ul class="bullets">

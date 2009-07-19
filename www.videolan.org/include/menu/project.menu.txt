@@ -1,7 +1,7 @@
-overview;project;/project/
+overview;project;/videolan/project/
 news;News;/news.html
 events;Events;/events/
-partners;Partners;/partners.html
-team;Team;/team/
+partners;Partners;/videolan/partners.html
+team;Team;/videolan/team/
 contribute;Contribute;/contribute.html
 goodies;Goodies;/goodies.html

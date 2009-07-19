@@ -2,7 +2,7 @@
    $title = "VLC media player - Overview";
    $lang = "fr";
    $menu = array( "fr", "download" );
-   $additional_js = array("/ffcounter.js");
+   $additional_js = array("/js/ffcounter.js");
    $body_onload = "getCount()";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>

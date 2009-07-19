@@ -2,8 +2,6 @@
    $title = "VLC media player - EyeTV capture plugin";
    $lang = "en";
    $menu = array( "vlc", "download" );
-   $additional_js = array("/ffcounter.js");
-   $body_onload = "getCount()";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
 ?>

@@ -1,11 +1,4 @@
 <?php
-   $title = "VLC - Features";
-   $lang = "en";
-   $menu = array( "vlc", "features" );
-   $additional_css = array("/vlc/features.css");
-   $additional_js = array("/js/prototype.js","/js/scriptaculous.js","/js/features.js");
-   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
-
 function writeonefeature( $a )
 {
     if ( $a == "yes" )
@@ -39,134 +32,82 @@ function writefeature( $title, $windows, $mac, $linux, $beos, $bsd, $fam )
    writefeature_simple( $title, $windows, $mac, $linux, $beos, $bsd, $fam );
 }
 
-function headers( $extra )
-{
+function writeInputFeatures() {
 ?>
-       <tr>
-            <th class="type"></th>
-<?php  if ( $extra == "yes" ) echo  '<th class="category"></th>'; ?>
-            <th class="th-os"><a href="/vlc/download-windows.html">
-              <img src="http://images.videolan.org/images/icons/winvista.png" alt="Windows" height="32" width="32" />
-            </a></th>
-            <th class="th-os"><a href="/vlc/download-macosx.html">
-              <img src="http://images.videolan.org/images/icons/macosx.png" alt="Mac OS X" width="32" height="32" />
-            </a></th>
-
-            <th class="th-os"><a href="/vlc/index.html">
-              <img src="http://images.videolan.org/images/icons/linux.png" alt="Linux" width="32" height="32" />
-
-            </a></th>
-            <th class="th-os"><a href="/vlc/download-beos.html">
-              <img src="http://images.videolan.org/images/icons/beos.png" alt="BeOS" width="32" height="32" />
-            </a></th>
-            <th class="th-os"><a href="/vlc/download-sources.html">
-              <img src="http://images.videolan.org/images/icons/freebsd.png" alt="FreeBSD" width="32" height="32" />
-
-              <img src="http://images.videolan.org/images/icons/openbsd.png" alt="OpenBSD" width="32" height="32" />
-            </a></th>
-            <th class="th-os"><a href="/vlc/download-familiar.html">
-              <img src="http://images.videolan.org/images/icons/familiar.png" alt="Familiar Linux"
-                   width="32" height="32" />
-            </a></th>
-          </tr>
-<?php
-}
-?>
-
-<h2>VLC playback Features</h2>
-<table class="feature-table">
-  <tr>
-    <td class="feature-table-lefttop">&nbsp;</td>
-    <td class="feature-table-top">&nbsp;</td>
-    <td class="feature-table-righttop">&nbsp;</td>
-  </tr>
-  <tr>
-    <td class="feature-cat-list">
-    <!--Categories-->
-    <div class="feature-cat-sel" onclick="openFeatures('input')" id="cat-input">Input formats</div>
-    <div class="feature-cat" onclick="openFeatures('video')" id="cat-video">Video formats</div>
-    <div class="feature-cat" onclick="openFeatures('audio')" id="cat-audio">Audio formats</div>
-    <div class="feature-cat" onclick="openFeatures('sub')" id="cat-sub">Subtitle/Tag formats</div>
-    <div class="feature-cat" onclick="openFeatures('av')" id="cat-av">A/V outputs</div>
-    <div class="feature-cat" onclick="openFeatures('filters')" id="cat-filters">A/V filters</div>
-    <div class="feature-cat" onclick="openFeatures('intf')" id="cat-intf">Interfaces</div>
-    <div class="feature-cat" onclick="openFeatures('misc')" id="cat-misc">Miscellaneous</div>
-    </td>
-    <td class="feature-list">
-      <div class="feature-div">
-        <!--The different feature tables -->
-        <div id="feature-list-input">
+<div id="feature-list-input">
           <table class="feature-list-table">
-	<?php headers( "yes" ); ?>
-          <tr>
-          <td class="category" rowspan="14"><b>Input media</b></td>
+            <?php headers( "yes" ); ?>
+            <tr>
+            <td class="category" rowspan="14"><b>Input media</b></td>
 
-          <?php writefeature_simple( "UDP/RTP Unicast", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-          <?php writefeature( "UDP/RTP Multicast", "yes", "yes", "yes", "no", "yes", "yes" ); ?>
-          <?php writefeature( "HTTP / FTP", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-          <?php writefeature( "MMS", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-          <?php writefeature( "TCP/RTP Unicast", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-          <?php writefeature( "DCCP/RTP Unicast", "no", "no", "yes", "no", "no", "unt" ); ?>
-          <?php writefeature( "File ", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-          <?php writefeature( 'DVD Video <sup><a href="#input_notes">1</a></sup>', "yes", "yes", "yes", "yes", "yes", "none" ); ?>
-          <?php writefeature( "Video CD / VCD ", "yes", "yes", "yes", "no", "yes", "none" ); ?>
-          <?php writefeature( 'SVCD <sup><a href="#input_notes">2</a></sup>', "part", "part", "part", "no", "part", "none" ); ?>
-          <?php writefeature( "Audio CD (no DTS-CD)", "yes", "yes", "yes", "no", "yes", "none" ); ?>
-          <?php writefeature( "DVB (Satellite, <br/>Digital TV, Cable TV)", "yes", "no", "yes", "yes", "no", "none" ); ?>
-          <?php writefeature( 'MPEG encoder <sup><a href="#input_notes">3</a></sup>', "yes", "no", "yes", "no", "no", "none" ); ?>
+            <?php writefeature_simple( "UDP/RTP Unicast", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "UDP/RTP Multicast", "yes", "yes", "yes", "no", "yes", "yes" ); ?>
+            <?php writefeature( "HTTP / FTP", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "MMS", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "TCP/RTP Unicast", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "DCCP/RTP Unicast", "no", "no", "yes", "no", "no", "unt" ); ?>
+            <?php writefeature( "File ", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( 'DVD Video <sup><a href="#input_notes">1</a></sup>', "yes", "yes", "yes", "yes", "yes", "none" ); ?>
+            <?php writefeature( "Video CD / VCD ", "yes", "yes", "yes", "no", "yes", "none" ); ?>
+            <?php writefeature( 'SVCD <sup><a href="#input_notes">2</a></sup>', "part", "part", "part", "no", "part", "none" ); ?>
+            <?php writefeature( "Audio CD (no DTS-CD)", "yes", "yes", "yes", "no", "yes", "none" ); ?>
+            <?php writefeature( "DVB (Satellite, <br/>Digital TV, Cable TV)", "yes", "no", "yes", "yes", "no", "none" ); ?>
+            <?php writefeature( 'MPEG encoder <sup><a href="#input_notes">3</a></sup>', "yes", "no", "yes", "no", "no", "none" ); ?>
 
-          <tr>
-          <td class="type">Video acquisition</td>
-          <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> Direct Show</td>
+            <tr>
+            <td class="type">Video acquisition</td>
+            <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> Direct Show</td>
 
-          <td class="part"><img src="http://images.videolan.org/images/features/partial.png" alt="part" /> iSight, EyeTV <sup><a href="#input_notes">4</a></sup></td>
-          <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> V4L, V4L2</td>
-          <td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
-          <td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
-          <td class="partial"><img src="http://images.videolan.org/images/features/untested.png" alt="Untested" />V4L, V4L2</td>
-          </tr>
+            <td class="part"><img src="http://images.videolan.org/images/features/partial.png" alt="part" /> iSight, EyeTV <sup><a href="#input_notes">4</a></sup></td>
+            <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> V4L, V4L2</td>
+            <td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
+            <td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
+            <td class="partial"><img src="http://images.videolan.org/images/features/untested.png" alt="Untested" />V4L, V4L2</td>
+            </tr>
 
-          <tr style="background:#D4E0F7 !important">
-            <td colspan="8" style="background:#D4E0F7 !important">&nbsp;</td>
-          </tr>
+            <tr style="background:#D4E0F7 !important">
+              <td colspan="8" style="background:#D4E0F7 !important">&nbsp;</td>
+            </tr>
 
-          <tr>
-          <td class="category" rowspan="17"><b>Input formats</b></td>
-          <?php writefeature_simple( "MPEG (ES,PS,TS,PVA,MP3)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-          <?php writefeature( "AVI", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-          <?php writefeature( "ASF / WMV / WMA", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-          <?php writefeature( "MP4 / MOV / 3GP", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-          <?php writefeature( "OGG / OGM / Annodex", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-          <?php writefeature( "Matroska (MKV)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-          <?php writefeature( "Real", "part", "part", "part", "part", "part", "part" ); ?>
-          <?php writefeature( "WAV (incuding DTS)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-          <?php writefeature( "Raw Audio: DTS, AAC, AC3/A52", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-          <?php writefeature( "Raw DV", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-          <?php writefeature( "FLAC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-          <?php writefeature( "FLV (Flash)", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
-          <?php writefeature( "MXF", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
-          <?php writefeature( "Nut", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
-          <?php writefeature( "Standard MIDI / SMF", "unt", "yes", "unt", "unt", "unt", "unt" ); ?>
-          <?php writefeature( "Creative&trade; Voice", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-
+            <tr>
+            <td class="category" rowspan="17"><b>Input formats</b></td>
+            <?php writefeature_simple( "MPEG (ES,PS,TS,PVA,MP3)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "AVI", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "ASF / WMV / WMA", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "MP4 / MOV / 3GP", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "OGG / OGM / Annodex", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "Matroska (MKV)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "Real", "part", "part", "part", "part", "part", "part" ); ?>
+            <?php writefeature( "WAV (incuding DTS)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "Raw Audio: DTS, AAC, AC3/A52", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "Raw DV", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "FLAC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "FLV (Flash)", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
+            <?php writefeature( "MXF", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
+            <?php writefeature( "Nut", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
+            <?php writefeature( "Standard MIDI / SMF", "unt", "yes", "unt", "unt", "unt", "unt" ); ?>
+            <?php writefeature( "Creative&trade; Voice", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
           </table>
           <div class="notes">
-          <ol id="input_notes">
-
-            <li>DVD decryption is done through the libdvdcss library.</li>
-            <li>VLC on GNU/Linux, Solaris, and Microsoft Windows has playback
-            control support via libcdio and libvcdinfo. On other platforms,
-            SVCD support varies depending on the availability of these libraries.
-            (Volunteers for adding support are always welcome.). Handling still
-            frames (often used in menus) and switching between different video
-            formats is problematic.</li>
-            <li>VLC for GNU/Linux supports V4L2 compatible encoding cards as well as two kinds of MPEG-2 encoding cards: Hauppauge WinTV-PVR-250/350 and Visiontech Kfir.</li>
-            <li>Starting with version 0.9.0, VLC supports iSight capturing and processing on Mac OS X 10.5 or later (video only). This is unsupported on 10.4. Additionally, on 10.4 or later, VLC is able to grab video and audio from EyeTV applications and therefore all EyeTV-compatible capture devices. The user needs to install a plugin to EyeTV.app in order to use this features. Guidance is provide in the User Interface.</li>
+            <ol id="input_notes">
+              <li>DVD decryption is done through the libdvdcss library.</li>
+              <li>VLC on GNU/Linux, Solaris, and Microsoft Windows has playback
+              control support via libcdio and libvcdinfo. On other platforms,
+              SVCD support varies depending on the availability of these libraries.
+              (Volunteers for adding support are always welcome.). Handling still
+              frames (often used in menus) and switching between different video
+              formats is problematic.</li>
+              <li>VLC for GNU/Linux supports V4L2 compatible encoding cards as well as two kinds of MPEG-2 encoding cards: Hauppauge WinTV-PVR-250/350 and Visiontech Kfir.</li>
+              <li>Starting with version 0.9.0, VLC supports iSight capturing and processing on Mac OS X 10.5 or later (video only). This is unsupported on 10.4. Additionally, on 10.4 or later, VLC is able to grab video and audio from EyeTV applications and therefore all EyeTV-compatible capture devices. The user needs to install a plugin to EyeTV.app in order to use this features. Guidance is provide in the User Interface.</li>
             </ol>
           </div>
-
         </div>
-        <div id="feature-list-video">
+<?php
+}
+
+function writeVideoFeatures() {
+?>
+<div id="feature-list-video">
           <table class="feature-list-table">
             <?php headers( "no" ); ?>
             <?php writefeature( "MPEG-1/2", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
@@ -210,8 +151,13 @@ function headers( $extra )
 
           </ol>
           </div>
-        </div>        
-        <div id="feature-list-audio">
+        </div>
+<?php
+}
+
+function writeAudioFeatures() {
+?>
+<div id="feature-list-audio">
         <table class="feature-list-table">
         <?php headers( "no" ); ?>
             <?php writefeature( "MPEG Layer 1/2", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
@@ -263,7 +209,11 @@ function headers( $extra )
         </div>
 
         </div>
-        <div id="feature-list-sub">
+<?php
+}
+function writeSubFeatures() {
+?>
+<div id="feature-list-sub">
           <table class="feature-list-table">
 	<?php headers( "yes" ); ?>
         <tr>
@@ -299,8 +249,11 @@ function headers( $extra )
           </div>
 
         </div>
-        
-        <div id="feature-list-av">
+<?php
+}
+function writeAVFeatures() {
+?>
+<div id="feature-list-av">
           <table class="feature-list-table">
         <?php headers( "yes" ); ?>
         <tr>
@@ -377,7 +330,11 @@ function headers( $extra )
 
           </table>
         </div>
-        <div id="feature-list-filters">
+<?php
+}
+function writeFilterFeatures() {
+?>
+<div id="feature-list-filters">
           <table class="feature-list-table">
 	     <?php headers( "yes" ); ?>
                     <tr>
@@ -403,7 +360,11 @@ function headers( $extra )
 
           </table>
         </div>
-        <div id="feature-list-intf">
+<?php
+}
+function writeIntfFeatures() {
+?>
+<div id="feature-list-intf">
           <table class="feature-list-table">
 	   <?php headers( "no" ); ?>
           <tr>
@@ -428,7 +389,11 @@ function headers( $extra )
           <?php writefeature( "Mouse Gestures", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
           </table>
         </div>
-        <div id="feature-list-misc">
+<?php
+}
+function writeMiscFeatures() {
+?>
+<div id="feature-list-misc">
           <table class="feature-list-table">
 	   <?php headers( "no" ); ?>
            <?php writefeature( "SAP/SDP announces", "yes", "yes", "yes", "no", "yes", "no" ); ?>
@@ -516,6 +481,84 @@ function headers( $extra )
           </div>
 
         </div>
+<?php
+}
+function headers( $extra )
+{
+?>
+       <tr>
+            <th class="type"></th>
+<?php  if ( $extra == "yes" ) echo  '<th class="category"></th>'; ?>
+            <th class="th-os"><a href="/vlc/download-windows.html">
+              <img src="http://images.videolan.org/images/icons/winvista.png" alt="Windows" height="32" width="32" />
+            </a></th>
+            <th class="th-os"><a href="/vlc/download-macosx.html">
+              <img src="http://images.videolan.org/images/icons/macosx.png" alt="Mac OS X" width="32" height="32" />
+            </a></th>
+
+            <th class="th-os"><a href="/vlc/index.html">
+              <img src="http://images.videolan.org/images/icons/linux.png" alt="Linux" width="32" height="32" />
+
+            </a></th>
+            <th class="th-os"><a href="/vlc/download-beos.html">
+              <img src="http://images.videolan.org/images/icons/beos.png" alt="BeOS" width="32" height="32" />
+            </a></th>
+            <th class="th-os"><a href="/vlc/download-sources.html">
+              <img src="http://images.videolan.org/images/icons/freebsd.png" alt="FreeBSD" width="32" height="32" />
+
+              <img src="http://images.videolan.org/images/icons/openbsd.png" alt="OpenBSD" width="32" height="32" />
+            </a></th>
+            <th class="th-os"><a href="/vlc/download-familiar.html">
+              <img src="http://images.videolan.org/images/icons/familiar.png" alt="Familiar Linux"
+                   width="32" height="32" />
+            </a></th>
+          </tr>
+<?php
+}
+if(!isset($_GET['fdiv'])) {
+   $title = "VLC - Features";
+   $lang = "en";
+   $menu = array( "vlc", "features" );
+   $additional_css = array("/vlc/features.css");
+   $additional_js = array("/js/prototype.js","/js/scriptaculous.js","/js/features.js");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
+?>
+
+<h2>VLC playback Features</h2>
+<table class="feature-table">
+  <tr>
+    <td class="feature-table-lefttop">&nbsp;</td>
+    <td class="feature-table-top">&nbsp;</td>
+    <td class="feature-table-righttop">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="feature-cat-list">
+    <!--Categories-->
+    <div class="feature-cat-sel" href="?cat=input" onclick="openFeatures('input');return false" id="cat-input">Input formats</div>
+    <div class="feature-cat" href="?cat=video" onclick="openFeatures('video');return false" id="cat-video">Video formats</div>
+    <div class="feature-cat" href="?cat=audio" onclick="openFeatures('audio'); return false" id="cat-audio">Audio formats</div>
+    <div class="feature-cat" href="?cat=sub" onclick="openFeatures('sub'); return false" id="cat-sub">Subtitle/Tag formats</div>
+    <div class="feature-cat" href="?cat=av" onclick="openFeatures('av'); return false" id="cat-av">A/V outputs</div>
+    <div class="feature-cat" href="?cat=filters" onclick="openFeatures('filters'); return false" id="cat-filters">A/V filters</div>
+    <div class="feature-cat" href="?cat=intf" onclick="openFeatures('intf'); return false" id="cat-intf">Interfaces</div>
+    <div class="feature-cat" href="?cat=misc" onclick="openFeatures('misc'); return false" id="cat-misc">Miscellaneous</div>
+    </td>
+    <td class="feature-list">
+      <div class="feature-div">
+        <?php
+          $cat = "input";
+          if(isset($_GET['cat'])) {
+            $cat = $_GET['cat'];
+          }
+          if($cat=="input") writeInputFeatures();
+          else if($cat=="video") writeVideoFeatures();
+          else if($cat=="audio") writeAudioFeatures();
+          else if($cat=="sub") writeSubFeatures();
+          else if($cat=="av") writeAVFeatures();
+          else if($cat=="filters") writeFilterFeatures();
+          else if($cat=="intf") writeIntfFeatures();
+          else if($cat=="misc") writeMiscFeatures();
+        ?>
       </div>
     </td>
     <td class="feature-table-right">&nbsp;</td>
@@ -536,7 +579,17 @@ function headers( $extra )
 <h2>Streaming</h2>
 <p>See the <a href="/streaming-features.html">Streaming features page</a></p>
 <br/>
-<script type="text/javascript">
-$('feature-list-video', 'feature-list-audio', 'feature-list-sub', 'feature-list-av', 'feature-list-filters', 'feature-list-intf', 'feature-list-misc').invoke('hide');
-</script>
 <?php footer('$Id: features.php 4814 2008-12-12 13:30 CEST altglass $'); ?>
+<?php
+} else {
+  $cat = $_GET['fdiv'];
+  if($cat=="input") writeInputFeatures();
+  else if($cat=="video") writeVideoFeatures();
+  else if($cat=="audio") writeAudioFeatures();
+  else if($cat=="sub") writeSubFeatures();
+  else if($cat=="av") writeAVFeatures();
+  else if($cat=="filters") writeFilterFeatures();
+  else if($cat=="intf") writeIntfFeatures();
+  else if($cat=="misc") writeMiscFeatures();
+}
+?>

@@ -11,7 +11,7 @@
     <p>These stats were started at the end of February 2005 and are likely
        to be inaccurate.</p>
 
-    <p>We don't show Linux download statistics as most downloads for this 
+    <p>We don't show Linux download statistics as most downloads for this
        OS are made through distributions.</p>
 
     <h1>Downloads by version and by OS</h1>
@@ -29,12 +29,12 @@
 
     <?php
     require '/home/videolan/etc/db.php';
- 
+
     $connect = pg_connect( $connect_string );
-  
+
     if( !$connect )
     {
-	die;
+        die;
     }
 
     $requests = array(  "0.7.2" , "0.8.0","0.8.1","0.8.2", "0.8.4", "0.8.5", "0.8.6", "0.9.2", "0.9.3", "0.9.4", "0.9.5", "0.9.6", "0.9.8a", "0.9.9", "1.0.0" );
@@ -74,10 +74,12 @@
 	f($versiontotal);
         echo "\n";
     }
+    $maxtotal = $wintotal + $mactotal + $srctotal;
     echo "<tr><td class=\"category\" style=\"text-align: right;\"><strong>Total</strong></td>\n";
     f($wintotal);
     f($mactotal);
     f($srctotal);
+    f($maxtotal);
     echo "<td></td></tr>\n";
 
     echo "</table>";

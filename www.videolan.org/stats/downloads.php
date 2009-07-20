@@ -72,7 +72,7 @@
 	    f($row[0]);
 	}
 	f($versiontotal);
-        echo "\n";
+        echo "</tr>\n";
     }
     $maxtotal = $wintotal + $mactotal + $srctotal;
     echo "<tr><td class=\"category\" style=\"text-align: right;\"><strong>Total</strong></td>\n";

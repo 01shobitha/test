@@ -540,7 +540,7 @@ if(!isset($_GET['fdiv'])) {
             $cat = $_GET['cat'];
           }
     ?>
-    <div class="feature-cat<?php if($cat=="input") echo "-sel"?>" onclick="openFeatures('input')" id="cat-input"><a href="/vlc/features.php?cat=input">Input formats</a></div>
+    <div class="feature-cat<?php if($cat=="input") echo "-sel"?>" onclick="openFeatures('input')" id="cat-input"><a href="/vlc/features.php?cat=input" onclick="return false">Input formats</a></div>
     <div class="feature-cat<?php if($cat=="video") echo "-sel"?>" onclick="openFeatures('video')" id="cat-video"><a href="/vlc/features.php?cat=video" onclick="return false">Video formats</a></div>
     <div class="feature-cat<?php if($cat=="audio") echo "-sel"?>" onclick="openFeatures('audio')" id="cat-audio"><a href="/vlc/features.php?cat=audio" onclick="return false">Audio formats</a></div>
     <div class="feature-cat<?php if($cat=="sub") echo "-sel"?>" onclick="openFeatures('sub')" id="cat-sub"><a href="/vlc/features.php?cat=sub" onclick="return false">Subtitle/Tag formats</a></div>

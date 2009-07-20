@@ -70,3 +70,6 @@ ul.feature-icon {
 #maincontent table.feature-list-table td {
 	border-top: 1px solid #D4E0F7;
 }
+.feature-cat a, .feature-cat-sel a {
+	text-decoration: none;
+}

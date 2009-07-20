@@ -14,11 +14,12 @@
   <p>VideoLAN is a software <a href="/videolan/">project</a>, run by volunteers,
      backed-up by a <a href="/videolan/">non-profit organisation</a>,
      which produces <a href="http://www.gnu.org/philosophy/free-sw.html">free and open source software</a> for multimedia,
-     released under the GNU <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">General Public License</a>.</p>
-  <p><a href="/videolan/">Learn more</a> about the VideoLAN project.</p>
+     released under the GNU <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">General Public License</a>.<br />
+  <a href="/videolan/">Learn more</a> about the <strong>VideoLAN project</strong>.</p>
   <p>Our main software is the cross-platform <a href="/vlc/">VLC media player</a>.</p>
-  <p>We are also the home of <a href="/developers/x264.html">x264</a> and other
-  <a href="/videolan/"> projects</a>.</p>
+  <p>We are also the home of <a href="/developers/x264.html">x264</a> and many other
+  <a href="/videolan/"> projects</a>, like <a href="/projects/dvblast.html">DVBlast</a> or
+  <a href="/developers/libdvdcss.html">libDVDcss</a>.</p>
 
   <h2>About VLC</h2>
   <p> VLC media player is a highly portable

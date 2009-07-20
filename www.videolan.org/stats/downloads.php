@@ -44,7 +44,7 @@
 
     function f( $n )
     {
-        echo "<td style='text-align: right;'>".number_format($n,0,"."," ")."</ts>";
+        echo "<td style='text-align: right;'>".number_format($n,0,"."," ")."</td>";
     }
     foreach( $requests as $v )
     {

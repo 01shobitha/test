@@ -534,22 +534,24 @@ if(!isset($_GET['fdiv'])) {
   <tr>
     <td class="feature-cat-list">
     <!--Categories-->
-    <div class="feature-cat-sel" href="?cat=input" onclick="openFeatures('input');return false" id="cat-input">Input formats</div>
-    <div class="feature-cat" href="?cat=video" onclick="openFeatures('video');return false" id="cat-video">Video formats</div>
-    <div class="feature-cat" href="?cat=audio" onclick="openFeatures('audio'); return false" id="cat-audio">Audio formats</div>
-    <div class="feature-cat" href="?cat=sub" onclick="openFeatures('sub'); return false" id="cat-sub">Subtitle/Tag formats</div>
-    <div class="feature-cat" href="?cat=av" onclick="openFeatures('av'); return false" id="cat-av">A/V outputs</div>
-    <div class="feature-cat" href="?cat=filters" onclick="openFeatures('filters'); return false" id="cat-filters">A/V filters</div>
-    <div class="feature-cat" href="?cat=intf" onclick="openFeatures('intf'); return false" id="cat-intf">Interfaces</div>
-    <div class="feature-cat" href="?cat=misc" onclick="openFeatures('misc'); return false" id="cat-misc">Miscellaneous</div>
-    </td>
-    <td class="feature-list">
-      <div class="feature-div">
-        <?php
+    <?php    
           $cat = "input";
           if(isset($_GET['cat'])) {
             $cat = $_GET['cat'];
           }
+    ?>
+    <div class="feature-cat<?php if($cat=="input") echo "-sel"?>" href="?cat=input" onclick="openFeatures('input')" id="cat-input">Input formats</div>
+    <div class="feature-cat<?php if($cat=="video") echo "-sel"?>" href="?cat=video" onclick="openFeatures('video')" id="cat-video">Video formats</div>
+    <div class="feature-cat<?php if($cat=="audio") echo "-sel"?>" href="?cat=audio" onclick="openFeatures('audio')" id="cat-audio">Audio formats</div>
+    <div class="feature-cat<?php if($cat=="sub") echo "-sel"?>" href="?cat=sub" onclick="openFeatures('sub')" id="cat-sub">Subtitle/Tag formats</div>
+    <div class="feature-cat<?php if($cat=="av") echo "-sel"?>" href="?cat=av" onclick="openFeatures('av')" id="cat-av">A/V outputs</div>
+    <div class="feature-cat<?php if($cat=="filters") echo "-sel"?>" href="?cat=filters" onclick="openFeatures('filters')" id="cat-filters">A/V filters</div>
+    <div class="feature-cat<?php if($cat=="intf") echo "-sel"?>" href="?cat=intf" onclick="openFeatures('intf')" id="cat-intf">Interfaces</div>
+    <div class="feature-cat<?php if($cat=="misc") echo "-sel"?>" href="?cat=misc" onclick="openFeatures('misc')" id="cat-misc">Miscellaneous</div>
+    </td>
+    <td class="feature-list">
+      <div class="feature-div">
+        <?php
           if($cat=="input") writeInputFeatures();
           else if($cat=="video") writeVideoFeatures();
           else if($cat=="audio") writeAudioFeatures();

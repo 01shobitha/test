@@ -540,14 +540,14 @@ if(!isset($_GET['fdiv'])) {
             $cat = $_GET['cat'];
           }
     ?>
-    <div class="feature-cat<?php if($cat=="input") echo "-sel"?>" href="/vlc/features.php?cat=input" onclick="openFeatures('input')" id="cat-input">Input formats</div>
-    <div class="feature-cat<?php if($cat=="video") echo "-sel"?>" href="/vlc/?cat=video" onclick="openFeatures('video')" id="cat-video">Video formats</div>
-    <div class="feature-cat<?php if($cat=="audio") echo "-sel"?>" href="/vlc/?cat=audio" onclick="openFeatures('audio')" id="cat-audio">Audio formats</div>
-    <div class="feature-cat<?php if($cat=="sub") echo "-sel"?>" href="/vlc/?cat=sub" onclick="openFeatures('sub')" id="cat-sub">Subtitle/Tag formats</div>
-    <div class="feature-cat<?php if($cat=="av") echo "-sel"?>" href="/vlc/?cat=av" onclick="openFeatures('av')" id="cat-av">A/V outputs</div>
-    <div class="feature-cat<?php if($cat=="filters") echo "-sel"?>" href="/vlc/?cat=filters" onclick="openFeatures('filters')" id="cat-filters">A/V filters</div>
-    <div class="feature-cat<?php if($cat=="intf") echo "-sel"?>" href="/vlc/?cat=intf" onclick="openFeatures('intf')" id="cat-intf">Interfaces</div>
-    <div class="feature-cat<?php if($cat=="misc") echo "-sel"?>" href="/vlc/?cat=misc" onclick="openFeatures('misc')" id="cat-misc">Miscellaneous</div>
+    <div class="feature-cat<?php if($cat=="input") echo "-sel"?>" onclick="openFeatures('input')" id="cat-input"><a href="/vlc/features.php?cat=input">Input formats</a></div>
+    <div class="feature-cat<?php if($cat=="video") echo "-sel"?>" onclick="openFeatures('video')" id="cat-video"><a href="/vlc/features.php?cat=video" onclick="return false">Video formats</a></div>
+    <div class="feature-cat<?php if($cat=="audio") echo "-sel"?>" onclick="openFeatures('audio')" id="cat-audio"><a href="/vlc/features.php?cat=audio" onclick="return false">Audio formats</a></div>
+    <div class="feature-cat<?php if($cat=="sub") echo "-sel"?>" onclick="openFeatures('sub')" id="cat-sub"><a href="/vlc/features.php?cat=sub" onclick="return false">Subtitle/Tag formats</a></div>
+    <div class="feature-cat<?php if($cat=="av") echo "-sel"?>" onclick="openFeatures('av')" id="cat-av"><a href="/vlc/features.php?cat=av" onclick="return false">A/V outputs</a></div>
+    <div class="feature-cat<?php if($cat=="filters") echo "-sel"?>" onclick="openFeatures('filters')" id="cat-filters"><a href="/vlc/features.php?cat=filters" onclick="return false">A/V filters</a></div>
+    <div class="feature-cat<?php if($cat=="intf") echo "-sel"?>" onclick="openFeatures('intf')" id="cat-intf"><a href="/vlc/features.php?cat=intf" onclick="return false">Interfaces</a></div>
+    <div class="feature-cat<?php if($cat=="misc") echo "-sel"?>" onclick="openFeatures('misc')" id="cat-misc"><a href="/vlc/features.php?cat=misc" onclick="return false">Miscellaneous</a></div>
     </td>
     <td class="feature-list">
       <div class="feature-div">

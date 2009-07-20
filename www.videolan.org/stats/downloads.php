@@ -80,7 +80,7 @@
     f($mactotal);
     f($srctotal);
     f($maxtotal);
-    echo "<td></td></tr>\n";
+    echo "</tr>\n";
 
     echo "</table>";
 

@@ -97,7 +97,10 @@ img.center { display: block; margin: auto; }
 
 #navmenu li.selected a {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-weight: bold; font-size: 11px; text-decoration: none;color: #004; }
+	font-weight: bold; font-size: 11px; text-decoration: none;color: #004;
+	text-shadow: 0px 1px 1px #669;
+}
+
 #navmenu li a:hover { color: #004;text-decoration: none;}
 
 #mirror {
@@ -114,7 +117,6 @@ img.center { display: block; margin: auto; }
 	font-family: Geneva, Arial, Helvetica, sans-serif;
 	font-weight: normal; color: #2D58AE;font-size: 17px;
 	text-decoration: none;
-/*	text-shadow: 0.2em 0.2em;*/
 	float: left; padding: 14px 20px 10px 0;
 	text-transform: lowercase;
 }
@@ -123,8 +125,10 @@ img.center { display: block; margin: auto; }
 	font-family: Geneva, Arial, Helvetica, sans-serif;
 	font-weight: normal; color: #2D58AE;font-size: 17px;
 	text-decoration: none;
-        font-style: italic;
-/*	text-shadow: 0.2em 0.2em;*/
+	font-style: italic;
+	text-shadow: 0px 1px 3px #2D58AE;
+	filter: Shadow(Color=#4D78CE, Direction=180, Strength=2), Shadow(Color=#4D78CE, Direction=150, Strength=1), Shadow(Color=#4D78CE, Direction=210, Strength=1);
+	margin-top: -1px;
 	float: left; padding: 14px 20px 10px 0;
 	text-transform: lowercase;
 }

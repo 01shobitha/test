@@ -1,6 +1,18 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|28 July 2009|VLC 1.0.1 is out!|VideoLAN is pleased to announce the release of the second version of the Goldeneye branch of VLC: <strong>1.0.1</strong>!</p><p>3 weeks after the release of 1.0.0, and with almost 14million downloads, this minor version fixes most of the notable bugs and regressions that were present in the 1.0.0 version.<br />Notable fixes and improvements include:
+<ul class="bullets">
+<li>flv and mpeg2 seeking,</li>
+<li>wmv, wav, rtsp and ssa support,</li>
+<li>fixes for Qt and MacOS interface,</li>
+<li>fix of an integer underflow in Real pseudo-RTSP module</li>
+<li>translations updates,</li>
+<li>port of the ZVBI module to Windows for full teletext support and</li>
+<li>codecs updates for Windows and Mac OS.</li>
+</ul>
+This version is ready to <a href="http://www.videolan.org/vlc/">download</a>!
+
 |10 July 2009|VLC 1.0.0 hits 3 million downloads|After less than 3 days, the 1.0.0 release of VLC has hit more than 3 million downloads on the <a href="/stats/downloads.html">download counter</a>. We would like to thank the people who have downloaded it and especially, people who have donated to our cause.
 
 |07 July 2009|VLC 1.0.0|The VideoLAN project is pleased to announce the release of the first version of the Goldeneye branch of VLC: 1.0.0.</p><p>This major release introduces many new features, new formats and new codecs to the VLC multimedia framework and fixes a very high number of bugs that were present in the 0.9.x or 0.8.6 versions.<br />You can <a href="http://www.videolan.org/vlc/">download it now</a>.<br />The VLC project only lives with volunteers and would love help from new users and contributors: time, code, hardware and money would help us a lot. You don't need to be a developer to help.

@@ -1,7 +1,7 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
-|28 July 2009|VLC 1.0.1 is out!|VideoLAN is pleased to announce the release of the second version of the Goldeneye branch of VLC: <strong>1.0.1</strong>!</p><p>3 weeks after the release of <strong>1.0.0</strong>, and with almost <strong>14 million</strong> downloads, this minor version fixes most of the notable bugs and regressions that were present in the 1.0.0 version.<br />Notable fixes and improvements include:
+|28 July 2009|VLC 1.0.1 is out!|VideoLAN is pleased to announce the release of the second version of the Goldeneye branch of VLC: <strong>1.0.1</strong>!</p><p>3 weeks after the release of <strong>1.0.0</strong>, and with almost <strong>14 million</strong> downloads, this minor version fixes most of the notable bugs and regressions that were present in the 1.0.0 version.<br />Notable fixes and improvements include:</p>
 <ul class="bullets">
 <li>flv and mpeg2 seeking,</li>
 <li>wmv, wav, rtsp and ssa support,</li>
@@ -11,7 +11,7 @@
 <li>port of the ZVBI module to Windows for full teletext support and</li>
 <li>codecs updates for Windows and Mac OS.</li>
 </ul>
-This version is ready to <a href="http://www.videolan.org/vlc/">download</a>! Learn <a href="http://git.videolan.org/?p=vlc.git;a=blob_plain;f=NEWS;hb=refs/heads/1.0-bugfix">more details about this release</a>!<br />Press and related questions should be forwarded to <a href="/contact.html">VideoLAN</a>.
+<p>This version is ready to <a href="http://www.videolan.org/vlc/">download</a>! Learn <a href="http://git.videolan.org/?p=vlc.git;a=blob_plain;f=NEWS;hb=refs/heads/1.0-bugfix">more details about this release</a>!<br />Press and related questions should be forwarded to <a href="/contact.html">VideoLAN</a>.
 
 |10 July 2009|VLC 1.0.0 hits 3 million downloads|After less than 3 days, the 1.0.0 release of VLC has hit more than 3 million downloads on the <a href="/stats/downloads.html">download counter</a>. We would like to thank the people who have downloaded it and especially, people who have donated to our cause.
 

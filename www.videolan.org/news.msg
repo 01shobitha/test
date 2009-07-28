@@ -1,7 +1,7 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
-|28 July 2009|VLC 1.0.1 is out!|VideoLAN is pleased to announce the release of the second version of the Goldeneye branch of VLC: <strong>1.0.1</strong>!</p><p>3 weeks after the release of 1.0.0, and with almost 14million downloads, this minor version fixes most of the notable bugs and regressions that were present in the 1.0.0 version.<br />Notable fixes and improvements include:
+|28 July 2009|VLC 1.0.1 is out!|VideoLAN is pleased to announce the release of the second version of the Goldeneye branch of VLC: <strong>1.0.1</strong>!</p><p>3 weeks after the release of <strong>1.0.0</strong>, and with almost <strong>14 million</strong> downloads, this minor version fixes most of the notable bugs and regressions that were present in the 1.0.0 version.<br />Notable fixes and improvements include:
 <ul class="bullets">
 <li>flv and mpeg2 seeking,</li>
 <li>wmv, wav, rtsp and ssa support,</li>

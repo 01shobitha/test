@@ -3,13 +3,13 @@
 #
 |28 July 2009|VLC 1.0.1 is out!|VideoLAN is pleased to announce the release of the second version of the Goldeneye branch of VLC: <strong>1.0.1</strong>!</p><p>3 weeks after the release of <strong>1.0.0</strong>, and with almost <strong>14 million</strong> downloads, this minor version fixes most of the notable bugs and regressions that were present in the 1.0.0 version.<br />Notable fixes and improvements include:</p>
 <ul class="bullets">
-<li>flv and mpeg2 seeking,</li>
-<li>wmv, wav, rtsp and ssa support,</li>
+<li>fix flv and mpeg2 seeking,</li>
+<li>fixes for wmv, wav, rtsp and ssa support,</li>
 <li>fixes for Qt and Mac OS X interface,</li>
-<li>fix of an integer underflow in Real pseudo-RTSP module,</li>
-<li>translations updates,</li>
+<li>fix an integer underflow in Real pseudo-RTSP module,</li>
+<li>updates of some translations,</li>
 <li>port of the ZVBI module to Windows for full teletext support and</li>
-<li>codecs updates for Windows and Mac OS X.</li>
+<li>codecs updates for Windows and Mac OS X versions. </li>
 </ul>
 <p>This version is ready to <a href="http://www.videolan.org/vlc/">download</a>! Learn <a href="http://wiki.videolan.org/Changelog/1.0.1">more details about this release</a>!<br />Press and related questions should be forwarded to <a href="/contact.html">VideoLAN</a>.
 

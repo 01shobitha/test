@@ -36,7 +36,7 @@ function Screenshot( $os )
     $scr["Linux"] = array( "http://images.videolan.org/images/screenshots/vlc-linux.jpg" ,
             "VLC on Linux", 300, 233 );
     $scr["OSX"] = array( "http://images.videolan.org/images/screenshots/vlc-osx.jpg" ,
-            "VLC on MacOS X", 300, 200 );
+            "VLC on Mac OS X", 300, 200 );
     echo "document.writeln('<img width=\"".$scr[$os][2]."\" height=\"".$scr[$os][3]."\" src=\"".$scr[$os][0]."\" alt=\"";
     echo $scr[$os][1]."\" />');";
 }
@@ -46,8 +46,8 @@ function DoDL( $os, $with_js=1 )
     $dl = array();
     $version = '1.0.1';
     $dl["Win32"] = array("/mirror-geo.php?file=vlc/$version/win32/vlc-$version-win32.exe", "Windows (17 MB)" );
-    $dl["OSX-PPC"] = array("/mirror-geo.php?file=vlc/$version/macosx/vlc-$version-powerpc.dmg", "Mac OS X PowerPC (19 MB)" );
-    $dl["OSX-Intel"] = array( "/mirror-geo.php?file=vlc/$version/macosx/vlc-$version-intel.dmg","Mac OS X Intel (19 MB)" );
+    $dl["OSX-PPC"] = array("/mirror-geo.php?file=vlc/$version/macosx/vlc-$version-powerpc.dmg", "Mac OS X 10.5 PowerPC (19 MB)" );
+    $dl["OSX-Intel"] = array( "/mirror-geo.php?file=vlc/$version/macosx/vlc-$version-intel.dmg","Mac OS X 10.5 Intel (19 MB)" );
     $dl["Linux"] =array("/vlc/", "Linux and other OSes" );
     $dl["Debian"] = array( "/vlc/download-debian.html", "Debian GNU/Linux" );
     $dl["Ubuntu"] = array( "/vlc/download-ubuntu.html", "Ubuntu Linux");

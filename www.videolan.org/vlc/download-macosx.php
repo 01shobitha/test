@@ -40,8 +40,9 @@
 <?php pkgitem( "Web Browser plugin for PowerPC-based Macs",
                "$vlc_version/macosx","vlc-plugin-$vlc_version-powerpc.dmg","vlc"); ?>
 
-<h2>Last Mac OS X package for 10.4 (release 0.9.9a)</h2>
-<?php $vlc_version = "0.9.9a"; ?>
+<h2>Latest Mac OS X package for 10.4 (release 0.9.10)</h2>
+<p><b>We strongly recommend to use Mac OS X 10.4.7 or later.</b></p>
+<?php $vlc_version = "0.9.10"; ?>
 <?php pkgitem( "Universal Binary",
                "$vlc_version/macosx","vlc-$vlc_version.dmg","vlc"); ?>
 
@@ -63,7 +64,6 @@
 </ul>
 
 <h2>Last Mac OS X package for 10.3 (release 0.8.6i)</h2>
-
 <p><b>Requires QuickTime 7 or later</b></p>
 <ul>
 <li>

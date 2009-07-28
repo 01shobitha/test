@@ -5,13 +5,15 @@
 <ul class="bullets">
 <li>flv and mpeg2 seeking,</li>
 <li>wmv, wav, rtsp and ssa support,</li>
-<li>fixes for Qt and MacOS interface,</li>
-<li>fix of an integer underflow in Real pseudo-RTSP module</li>
+<li>fixes for Qt and Mac OS X interface,</li>
+<li>fix of an integer underflow in Real pseudo-RTSP module,</li>
 <li>translations updates,</li>
 <li>port of the ZVBI module to Windows for full teletext support and</li>
-<li>codecs updates for Windows and Mac OS.</li>
+<li>codecs updates for Windows and Mac OS X.</li>
 </ul>
-<p>This version is ready to <a href="http://www.videolan.org/vlc/">download</a>! Learn <a href="http://www.videolan.org/developers/vlc-branch/NEWS">more details about this release</a>!<br />Press and related questions should be forwarded to <a href="/contact.html">VideoLAN</a>.
+<p>This version is ready to <a href="http://www.videolan.org/vlc/">download</a>! Learn <a href="http://wiki.videolan.org/Changelog/1.0.1">more details about this release</a>!<br />Press and related questions should be forwarded to <a href="/contact.html">VideoLAN</a>.
+
+|28 July 2009|VLC 0.9.10|VideoLAN is pleased to announce another bugfix release for the Grishenko branch of VLC.<br />This version mostly targets the Mac OS X 10.4 platform. It includes various improvements and bugfixes for this port as well as updates to access, stream out and decoder modules plus certain third party libraries. The integer underflow fix from VLC 1.0.1 is also included. More <a href="http://wiki.videolan.org/Changelog/0.9.10">details are available on the wiki</a>. <br />We recommend all Mac OS X 10.4 users to update to this release. <strong><a href="http://www.videolan.org/vlc/download-macosx.html">Download now</a>.</strong>
 
 |10 July 2009|VLC 1.0.0 hits 3 million downloads|After less than 3 days, the 1.0.0 release of VLC has hit more than 3 million downloads on the <a href="/stats/downloads.html">download counter</a>. We would like to thank the people who have downloaded it and especially, people who have donated to our cause.
 

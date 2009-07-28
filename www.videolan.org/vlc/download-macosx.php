@@ -18,7 +18,7 @@
 <p>If you would like to join the project, feel free to send us an e-mail to the <a href="/developers/lists.html">vlc-devel mailing list</a> or to contact us through our <a href="http://forum.videolan.org/viewtopic.php?t=3675&amp;start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">forum</a>. </p>
 -->
 
-<?php $vlc_version = "1.0.0"; ?>
+<?php $vlc_version = "1.0.1"; ?>
 <h2>Latest Mac OS X package for 10.5 and 10.6 (release <?php echo $vlc_version; ?>)</h2>
 
 <?php pkgitem( "Universal Binary",

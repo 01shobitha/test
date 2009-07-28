@@ -11,7 +11,7 @@
 <li>port of the ZVBI module to Windows for full teletext support and</li>
 <li>codecs updates for Windows and Mac OS.</li>
 </ul>
-This version is ready to <a href="http://www.videolan.org/vlc/">download</a>!
+This version is ready to <a href="http://www.videolan.org/vlc/">download</a>! Learn <a href="http://git.videolan.org/?p=vlc.git;a=blob_plain;f=NEWS;hb=refs/heads/1.0-bugfix">more details about this release</a>!<br />Press and related questions should be forwarded to <a href="/contact.html">VideoLAN</a>.
 
 |10 July 2009|VLC 1.0.0 hits 3 million downloads|After less than 3 days, the 1.0.0 release of VLC has hit more than 3 million downloads on the <a href="/stats/downloads.html">download counter</a>. We would like to thank the people who have downloaded it and especially, people who have donated to our cause.
 

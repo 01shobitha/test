@@ -85,7 +85,7 @@ function writeInputFeatures() {
             <?php writefeature( "FLV (Flash)", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
             <?php writefeature( "MXF", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
             <?php writefeature( "Nut", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
-            <?php writefeature( "Standard MIDI / SMF", "unt", "yes", "unt", "unt", "unt", "unt" ); ?>
+            <?php writefeature( "Standard MIDI / SMF", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "Creative&trade; Voice", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
           </table>
           <div class="notes">
@@ -190,7 +190,7 @@ function writeAudioFeatures() {
             <?php writefeature( 'Real Audio <sup><a href="#audio_notes">2</a></sup>', "part", "part", "part", "unt", "part", "no" ); ?>
             <?php writefeature( "Alaw/&micro;law", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "AMR (3GPP)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "MIDI", "unt", "unt", "yes", "unt", "unt", "unt" ); ?>
+            <?php writefeature( "MIDI", "no", "unt", "yes", "no", "yes", "unt" ); ?>
             <?php writefeature( "LPCM", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "ADPCM", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
             <?php writefeature( "QCELP", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>

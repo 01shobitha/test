@@ -107,7 +107,7 @@ with some <a href="/events">photos and stories</a>.</p>
     <h1>Contribute to VideoLAN!</h1>
     <p>VideoLAN welcomes all contributions to the project! You can contribute
       time (development, documentation, packaging, tests, user support, ...),
-      material or even money. See the <a href="contribute.html">contribution
+      material or even money. See the <a href="/contribute.html">contribution
      page</a> for more information.</p>
   <?php panel_end(); ?>
 

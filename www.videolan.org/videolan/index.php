@@ -13,7 +13,7 @@
 
 <h2>The VideoLAN Project</h2>
   <p>The VideoLAN project is a project, lead and composed by a team of volunteers,
-  that believe in the power of open source when dealing with multimedia.</p>
+  that believes in the power of open source when dealing with multimedia.</p>
   <p>VideoLAN produces
   <a href="http://www.gnu.org/philosophy/free-sw.html">free
   software</a> for multimedia, released under the GNU <a

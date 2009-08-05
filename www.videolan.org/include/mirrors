@@ -224,3 +224,7 @@ http://ftp.itl.ua/pub/VideoLAN/|ITL|Ukraine|ua|HTTP|500
 # mirrors <at? NullRoute.me
 # also FTP and rSync and IPv6
 http://mirrors.nullroute.me/videolan/|NullRoute.me|United Kingdom|gb|HTTP|1000
+# University of Seville
+# Seville, Spain
+# javierdemiguel at us.es
+http://nervion.us.es/videolan/|University of Seville|Spain|es|HTTP|1000

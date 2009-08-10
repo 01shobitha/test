@@ -112,7 +112,7 @@ without the support and dedication of its users and Open Source developers.
 
 Read more about the event on <a href="http://www.pcwelt.de/start/computer/allgmein/187047/pc_welt_ehrt_top_produkte_mit_dem_tim_award/">PC-WELT</a> website.
 
-|26 October 2008|End of support for VLC 0.8.6 series|The VideoLAN team ceases all form of support for VLC media player the 0.8.6-bugfix tree.
+|26 October 2008|End of support for VLC 0.8.6 series|The VideoLAN team ceases all form of support for VLC media player 0.8.6-bugfix tree.
 
 After several several call for help,
 it is apparent that there is no interest in the community

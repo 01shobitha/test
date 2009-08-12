@@ -1,5 +1,5 @@
 <?php
-   $title = "VideoLAN - Open Source multimedia and streaming solutions for every OS!";
+   $title = "VideoLAN, Free streaming and multimedia solutions for all OS!";
    $lang = "en";
    $menu = array( "vlc", "overview" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
@@ -11,26 +11,26 @@
 
   <div id="left">
   <h2>About VideoLAN</h2>
-  <p>VideoLAN is a software <a href="/videolan/">project</a>, run by volunteers,
+  <p>VideoLAN is a <a href="/videolan/">project</a>, run by volunteers,
      backed-up by a <a href="/videolan/">non-profit organisation</a>,
      which produces <a href="http://www.gnu.org/philosophy/free-sw.html">free and open source software</a> for multimedia,
      released under the GNU <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">General Public License</a>.<br />
-  <a href="/videolan/">Learn more</a> about the <strong>VideoLAN project</strong>.</p>
+  <a href="/videolan/">Learn more</a> about the <strong><a href="/videolan/">VideoLAN project and organisation</a></strong>.</p>
   <p>Our main software is the cross-platform <a href="/vlc/"><strong>VLC media player</strong></a>.</p>
   <p>We are also the home of <a href="/developers/x264.html"><strong>x264</strong></a> and many other
-  <a href="/videolan/"> projects</a>, like <a href="/projects/dvblast.html">DVBlast</a> or
-  <a href="/developers/libdvdcss.html">libDVDcss</a>.</p>
+  <a href="/videolan/"> projects</a>, like <a href="/projects/dvblast.html">DVBlast</a>,
+  <a href="/developers/libdvdcss.html">libDVDcss</a> or <a href="/projects/vlma/">VLMa</a>.</p>
 
   <h2>About VLC</h2>
-  <p> VLC media player is a highly portable
-  <strong>multimedia player</strong> for various audio and video
-  formats (MPEG-1, MPEG-2, MPEG-4, DivX, mp3, ogg, ...) as well
-  as <strong>DVD</strong>s, <strong>VCD</strong>s, and various
-  <strong>streaming</strong> protocols.<br /> It can also be used as a
-  <a href="/vlc/streaming.html">server to stream</a> in unicast or
-  <strong>multicast</strong> in IPv4 or
-  <strong>IPv6</strong> on a high-bandwidth network.<br />
-  It doesn't need any external codec or program to work.</p>
+  <p> <strong>VLC</strong> media player is a highly portable
+  <strong>multimedia player</strong> supporting most audio and video
+  formats (H.264, Ogg, DivX, MKV, TS, MPEG-2, mp3, MPEG-4, aac, ...)
+  as well as Discs (<strong>DVD</strong>s, VCD, Audio-CD) and many network
+  <strong>streaming</strong> protocols.<br />
+
+  It can also <strong>convert</strong> files, transcode and act as a <a href="/vlc/streaming.html">streaming server</a>
+  over unicast or <strong>multicast</strong> and IPv4 or <strong>IPv6</strong>.
+  It doesn't need any external codec, program or codec pack to work.</p>
 
 
     <h2><a href="http://www.videolan.org/videolan-news.rss">

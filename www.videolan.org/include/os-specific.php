@@ -62,13 +62,13 @@ function DoDL( $os, $with_js=1 )
     if( $with_js == 1 )
     {
         echo "document.writeln( '<p><a class=\"download\" " ;
-        echo "href=\"".$dl[$os][0]."\">Download Now";
+        echo "href=\"".$dl[$os][0]."\">Download VLC";
         echo "</a> for ".$dl[$os][1]."</p>');";
     }
     else
     {
         echo "<p><a class=\"download\" " ;
-        echo "href=\"".$dl[$os][0]."\">Download Now";
+        echo "href=\"".$dl[$os][0]."\">Download VLC";
         echo "</a> for ".$dl[$os][1]."</p>";
     }
 }

@@ -327,7 +327,7 @@ img.center { display: block; margin: auto; }
 
 .dl-table {
 	margin-bottom: 5px;
-	background: #FFF;
+	background: #e5ecfc;
 }
 
 .dl-table td {

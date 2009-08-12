@@ -229,7 +229,7 @@ if(!isset($body_onunload)) $body_onunload = "";
 // HTML header
 StartHtml( ereg_replace( "<[^>]*>" , "" , $title ), $additional_css, $additional_js, $body_onload, $body_onunload ) ;
 ?>
-<div id="header" onmouseout="showSubMenu('<?php echo $menu[0]; ?>');">
+<div id="header">
    <div id="navmenucontainer">
       <ul id="navmenu">
           <?php DrawMenu( "menu.txt", $menu[0] ); ?>
@@ -260,4 +260,4 @@ StartHtml( ereg_replace( "<[^>]*>" , "" , $title ), $additional_css, $additional
    </div>
 </div>
 
-<div id="maincontent">
+<div id="maincontent" onmouseover="showSubMenu('<?php echo $menu[0];?>')">

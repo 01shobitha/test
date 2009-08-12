@@ -39,12 +39,12 @@ a:hover { color: #333; }
 
 h1 {	font-family: sans-serif, Helvetica, Arial;
 	font-weight: normal; color: #333; font-size: 26px;
-	margin: 0;padding: 35px 0 12px;
+	padding: 35px 0 12px;
 	line-height: 19px;
 }
 
 h2 { 	color: #2D58AE; font-weight: bold; font-size: 18px;
-	margin: 0; padding: 25px 0 4px;	line-height: 19px;
+	 padding: 25px 0 4px;	line-height: 19px;
 }
 
 h2 a, h2 a:link, h2 a:visited {
@@ -56,7 +56,7 @@ h2 a:hover {color: #F60;}
 
 h3 {	font-family: sans-serif, Helvetica, Arial;
 	color: #333;font-weight: bold;font-size: 15px; 
-	margin: 0; padding: 10px 0 4px;	line-height: 19px;
+	padding: 10px 0 4px;	line-height: 19px;
 	border-bottom: 2px dotted #E4E7E9;
 }
 
@@ -76,7 +76,7 @@ img.center { display: block; margin: auto; }
 
 /************************ Header ***********************/
 
-#navmenucontainer, #submenucontainer { width: 100%; margin: 0; padding: 0;}
+#navmenucontainer, #submenucontainer { width: 100%;}
 
 /* Main menu */
 
@@ -133,7 +133,6 @@ img.center { display: block; margin: auto; }
 
 #pagecontainer { min-width: 780px; width: 86%; height: 100%; margin: 0 auto; }
 
-#header { margin: 0; padding: 0; }
 
 /******************* Main page content - Global ***********************/
 
@@ -166,7 +165,7 @@ img.center { display: block; margin: auto; }
 #fullwidth { padding-bottom: 55px; float:left; }
 
 #left p, #right p, #fullwidth p {
-	margin: 0; padding: 0 0 10px 0;	line-height: 135%;
+	 padding: 0 0 10px 0;	line-height: 135%;
 }
 
 /* Colored panels */
@@ -390,7 +389,7 @@ div.screenshot{
 .note { background: #C9FFB4; }
 
 #description { padding: 0 0 15px; border-bottom: 2px dotted #E4E7E9;}
-#description p { margin: 0; padding: 0 0 15px 0; line-height: 19px; }
+#description p { padding: 0 0 15px 0; line-height: 19px; }
 #description ul { padding: 35px 0 15px; line-height: 19px;}
 
 .feature-icon-container {
@@ -444,13 +443,12 @@ a.en {
 #spacer {
 	float: left;
 	width: 0;height: 95%;
-	padding: 0;margin: 0;
 	font-size: 1px; /* to make sure width is not overridden */
 }
 
 #footer {	color: #75818A;	background: #E4E7E9;
 		font-size: 11px;text-align: center;
-		clear: both; height: 40px; margin: 0;padding: 15px;
+		clear: both; height: 40px; padding: 15px;
 		border-top: 1px solid #C8CDD0;
 }
 
@@ -464,7 +462,7 @@ a.en {
 	text-decoration: none;
 }
 
-#footer p { margin: 0;padding: 0;line-height: 20px; }
+#footer p { line-height: 20px; }
 
 /* Flags */
 .mirror li { padding-left: 25px; }

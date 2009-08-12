@@ -158,10 +158,11 @@ img.center { display: block; margin: auto; }
 #maincontent table th img { padding: 3px 0; vertical-align: middle; }
 #maincontent table th a { text-decoration: none; }
 
-#maincontent table th.th-os { 
+#maincontent table th.th-os {
 	white-space: nowrap;
 	overflow: hidden;
 	width: 10%;
+    text-align: center;
 }
 
 #maincontent table th.th-os:hover {

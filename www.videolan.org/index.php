@@ -47,37 +47,7 @@
 
   <div id="right">
     <?php panel_start( "blue" ); ?>
-          <h1>VLC media player 1.0.1</h1>
-
-          <ul class="panel-blue-bullet">
-            <li>Free and Open Source cross-platform media player</li>
-            <li>Supports a <a href="/vlc/features.html">large number of multimedia formats</a>,
-                without the need for additional codecs</li>
-            <li>Features a complete streaming server, with extended 
-                features (video on demand, on the fly transcoding, ...)</li>
-            <li>Learn more about this release <a href="/release.html">now!</a></li>
-          </ul>
-    <p class="center">
-      <script type="text/javascript"><!--
-        if( <?php echo $is_win32; ?> ) 
-        { <?php Screenshot( "Win32" ); ?> }
-        else if( <?php echo $is_beos; ?> )
-        { <?php Screenshot( "BeOS" ); ?> }
-        else if( <?php echo $is_linux; ?> )
-        { <?php Screenshot( "Linux" ); ?> }
-        else if( <?php echo $is_osx; ?> )
-        { <?php Screenshot( "OSX" ); ?> }
-        else 
-        { <?php Screenshot("Win32" ); ?> }
-        --></script>
-      <noscript>
-       <p class="center">
-         <img src="http://images.videolan.org/images/screenshots/vlc-win32.jpg" alt="VLC on Windows" />
-       </p>
-      </noscript>
-    </p>
-
-    <hr/>
+    <h1>VLC media player 1.0.1</h1>
 
     <div class="download">
       <div class="vlc-logo"></div>
@@ -116,6 +86,37 @@
        </noscript>
       </div>
     <div class="more"><a  href="/vlc/">Other Operating Systems, learn more</a></div>
+
+    <hr />
+
+      <ul class="panel-blue-bullet">
+        <li>Free and Open Source cross-platform media player</li>
+        <li>Supports a <a href="/vlc/features.html">large number of multimedia formats</a>,
+            without the need for additional codecs</li>
+        <li>Features a complete streaming server, with extended 
+            features (video on demand, on the fly transcoding, ...)</li>
+        <li>Learn more about this release <a href="/release.html">now!</a></li>
+      </ul>
+    <p class="center">
+      <script type="text/javascript"><!--
+        if( <?php echo $is_win32; ?> ) 
+        { <?php Screenshot( "Win32" ); ?> }
+        else if( <?php echo $is_beos; ?> )
+        { <?php Screenshot( "BeOS" ); ?> }
+        else if( <?php echo $is_linux; ?> )
+        { <?php Screenshot( "Linux" ); ?> }
+        else if( <?php echo $is_osx; ?> )
+        { <?php Screenshot( "OSX" ); ?> }
+        else 
+        { <?php Screenshot("Win32" ); ?> }
+        --></script>
+      <noscript>
+       <p class="center">
+         <img src="http://images.videolan.org/images/screenshots/vlc-win32.jpg" alt="VLC on Windows" />
+       </p>
+      </noscript>
+    </p>
+
     <?php panel_end(); ?>
 
 

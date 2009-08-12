@@ -34,11 +34,13 @@
 
 
     <h2><a href="http://www.videolan.org/videolan-news.rss">
-        <img src="http://images.videolan.org/images/icons/rss-feed.gif" alt="RSS 1.0" /> News subscription</a></h2>
+        <img src="http://images.videolan.org/images/icons/rss-feed.gif" alt="RSS 1.0" /></a>
+        <a href="/news.html">VideoLAN News</a></h2>
+        <a href="http://www.videolan.org/videolan-news.rss">Subscribe</a>
+
     <div>
       <?php shownews("full",5); ?>
     </div>
-    <h4><a href="/news.html">Read all news</a></h4>
     <h4><a href="http://planet.videolan.org">Read developers' news - planet</a></h4>
 
   </div> <?php /* Left */ ?>

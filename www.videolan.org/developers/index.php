@@ -1,7 +1,7 @@
 <?php
    $title ="VideoLAN developers";
    $lang = "en";
-   $menu = array( "developers", "main" );
+   $menu = array( "developers", "developers" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 

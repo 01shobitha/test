@@ -1,7 +1,7 @@
 <?php
    $title = "VLC media player - Skin Editor";
    $lang = "en";
-   $menu = array( "vlc", "skineditor" );
+   $menu = array( "vlc", "skins" );
    
    $additional_css = array("http://images.videolan.org/images/slimbox2/slimbox2.css");
    $additional_js = array("/js/jquery.js", "/js/slimbox2.js");   
@@ -79,24 +79,6 @@
     </a>
   </p>
 
-  <div class="panel-orange">
-    <div class="hd">
-      <div class="c"></div>
-    </div>
-    <div class="bd">
-      <div class="c">
-        <h1>Development plans</h1>
-        <ul class="panel-orange-bullet">
-          <li>Bug finding and fixing</li>
-          <li>Slider background generating for vertical sliders.</li>
-          <li>Slider editing with the mouse</li>
-        </ul>
-      </div>      
-    </div>
-    <div class="ft">
-      <div class="c"></div>
-    </div>
-  </div>
- </div> 
+</div> 
 
 <?php footer('$Id: skineditor.php 4885 2008-11-02 14:00 altglass$'); ?>

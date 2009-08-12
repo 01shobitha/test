@@ -73,5 +73,24 @@ ul.feature-icon {
 .feature-cat a, .feature-cat-sel a {
 	text-decoration: none;
 }
+
+#maincontent table th.th-os {
+	white-space: nowrap;
+	overflow: hidden;
+	width: 10%;
+    text-align: center;
+}
+
+#maincontent table th.th-os:hover { overflow: visible; }
+#maincontent table td.yes { color: #333333; background: #EAF0FB; width: 10%; }
+#maincontent table td.no { color: #333333; background: #F3F6FD; width: 10%; }
+#maincontent table td.partial { color: #333333; background: #E1E9F9; width: 10%; }
+#maincontent table td.none { background: #F3F6FD; width: 10%; }
+#maincontent table td.type { background: #EAF0FB; width: 20%; }
+#maincontent table td.category { background: #F3F6FD; width: 10%; }
 td.yes, td.no, td.part, td.partial, td.none{ text-align: center; }
+
+#maincontent table th.type { width: 20%; }
+#maincontent table th.category { width: 10%; }
+
 

@@ -4,6 +4,7 @@
 .clearfix:after { content: "."; visibility: hidden; height: 0;
 		  display: block;clear: both; }
 .clearfix {display: inline-block;}
+
 /* Hides from IE-mac \*/
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
@@ -11,11 +12,8 @@
 
 /***************** General Styles *********************/
 
-html, body {
-	width: 100%;
-	min-width: 750px;
-	border: 0; margin: 0; padding: 0;
-}
+* { border: 0; margin: 0; padding: 0; }
+html, body { width: 100%; min-width: 750px; }
 
 body { 	background: #fff url(http://images.videolan.org/images/bg.png) repeat-x top; 
 	font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -24,18 +22,14 @@ body { 	background: #fff url(http://images.videolan.org/images/bg.png) repeat-x 
 
 img { border: none;}
 
-ol, ul {
-	list-style-type: none;
-	margin: 0; padding: 0;
-}
+ol, ul { list-style-type: none; }
 
 ul.bullets {
 	list-style-type: disc;
 	padding-left: 2.5em; margin-bottom: 1em;
 }
 
-form { margin: 0; padding: 4px 0;}
-			
+form { padding: 4px 0;}
 table {	width: 100%; margin: 0 0 25px 0;
 	padding: 0; border-collapse: collapse;
 }
@@ -158,18 +152,7 @@ img.center { display: block; margin: auto; }
 #maincontent table th img { padding: 3px 0; vertical-align: middle; }
 #maincontent table th a { text-decoration: none; }
 
-#maincontent table th.th-os {
-	white-space: nowrap;
-	overflow: hidden;
-	width: 10%;
-    text-align: center;
-}
-
-#maincontent table th.th-os:hover {
-	overflow: visible;
-}
-
-#maincontent table td { 
+#maincontent table td {
 	font-size: 11px;
 	padding: 5px 7px;
 	line-height: 135%;
@@ -178,16 +161,6 @@ img.center { display: block; margin: auto; }
 	vertical-align: top;
 }
 
-#maincontent table td.yes { color: #333333; background: #EAF0FB; width: 10%; }
-#maincontent table td.no { color: #333333; background: #F3F6FD; width: 10%; }
-#maincontent table td.partial { color: #333333; background: #E1E9F9; width: 10%; }
-#maincontent table td.none { background: #F3F6FD; width: 10%; }
-#maincontent table td.type { background: #EAF0FB; width: 20%; }
-#maincontent table td.category { background: #F3F6FD; width: 10%; }
-
-#maincontent table th.type { width: 20%; }
-#maincontent table th.category { width: 10%; }
-	
 #left {	float:left;width: 56%; padding-bottom: 55px; }
 #right { float:right; width: 40%; padding-bottom: 55px; }
 #fullwidth { padding-bottom: 55px; float:left; }

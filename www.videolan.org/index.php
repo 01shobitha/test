@@ -50,7 +50,7 @@
     <h1>VLC media player 1.0.1</h1>
     <table class="dl-table">
         <tr>
-          <td width="64px"><img src="images/dl-vlc.png" alt="Download VLC" /></td>
+          <td style="width:64px;"><img src="images/dl-vlc.png" alt="Download VLC" /></td>
           <td>
           <script type="text/javascript"><!--
             if ( <?php echo $is_win32; ?> ) { <?php DoDL("Win32"); ?> }

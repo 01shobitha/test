@@ -50,7 +50,7 @@
     <h1>VLC media player 1.0.1</h1>
     <table class="dl-table">
         <tr>
-          <td width="64px"><img src="images/dl-vlc.png" alt="Download VLC"></td>
+          <td width="64px"><img src="images/dl-vlc.png" alt="Download VLC" /></td>
           <td>
           <script type="text/javascript"><!--
             if ( <?php echo $is_win32; ?> ) { <?php DoDL("Win32"); ?> }
@@ -135,7 +135,7 @@
         <input name="currency_code" value="EUR" type="hidden"/>
         <input name="tax" value="0" type="hidden"/>
         <input src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="Donate money to VideoLAN via PayPal" type="image"/>
-        <br>
+        <br />
         <span style="font-size: 10pt;">Euro</span>
         </p>      
         </form>
@@ -149,7 +149,7 @@
         <input name="currency_code" value="USD" type="hidden"/>
         <input name="tax" value="0" type="hidden"/>
         <input src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="Donate money to VideoLAN via PayPal" type="image"/> 
-        <br>
+        <br />
         <span style="font-size: 10pt;">Dollar</span>
         </p> </form>
         </td>

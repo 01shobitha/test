@@ -25,7 +25,7 @@
   <p> <strong>VLC</strong> media player is a highly portable
   <strong>multimedia player</strong> supporting most audio and video file
   formats (H.264, Ogg, DivX, MKV, TS, MPEG-2, mp3, MPEG-4, aac, ...)
-  as well as Discs (<strong>DVD</strong>s, VCD, Audio-CD) and many network
+  as well as physical media (<strong>DVD</strong>s, VCD, Audio-CD) and many network
   <strong>streaming</strong> protocols.<br />
 
   It can also <strong>convert</strong> files, transcode and act as a <a href="/vlc/streaming.html">streaming server</a>

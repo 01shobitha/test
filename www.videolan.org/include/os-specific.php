@@ -45,9 +45,9 @@ function DoDL( $os, $with_js=1 )
 {
     $dl = array();
     $version = '1.0.1';
-    $dl["Win32"] = array("/mirror-geo.php?file=vlc/$version/win32/vlc-$version-win32.exe", "Windows (17 MB)" );
-    $dl["OSX-PPC"] = array("/mirror-geo.php?file=vlc/$version/macosx/vlc-$version-powerpc.dmg", "Mac OS X 10.5 PowerPC (19 MB)" );
-    $dl["OSX-Intel"] = array( "/mirror-geo.php?file=vlc/$version/macosx/vlc-$version-intel.dmg","Mac OS X 10.5 Intel (19 MB)" );
+    $dl["Win32"] = array("/mirror-geo.php?file=vlc/$version/win32/vlc-$version-win32.exe", "Windows, 17&nbsp;MB" );
+    $dl["OSX-PPC"] = array("/mirror-geo.php?file=vlc/$version/macosx/vlc-$version-powerpc.dmg", "Mac OS X 10.5 PowerPC (19&nbsp;MB)" );
+    $dl["OSX-Intel"] = array( "/mirror-geo.php?file=vlc/$version/macosx/vlc-$version-intel.dmg","Mac OS X 10.5 Intel, 19&nbsp;MB" );
     $dl["Linux"] =array("/vlc/", "Linux and other OSes" );
     $dl["Debian"] = array( "/vlc/download-debian.html", "Debian GNU/Linux" );
     $dl["Ubuntu"] = array( "/vlc/download-ubuntu.html", "Ubuntu Linux");
@@ -61,15 +61,15 @@ function DoDL( $os, $with_js=1 )
 
     if( $with_js == 1 )
     {
-        echo "document.writeln( '<p><a class=\"download\" " ;
+        echo "document.writeln( '<a class=\"download\" " ;
         echo "href=\"".$dl[$os][0]."\">Download VLC";
-        echo "</a> for ".$dl[$os][1]."</p>');";
+        echo "</a><br><span class=\"dl-info\">(".$dl[$os][1].")</span>');";
     }
     else
     {
         echo "<p><a class=\"download\" " ;
         echo "href=\"".$dl[$os][0]."\">Download VLC";
-        echo "</a> for ".$dl[$os][1]."</p>";
+        echo "</a><br><span class=\"dl-info\">(".$dl[$os][1].")</span>";
     }
 }
 ?>

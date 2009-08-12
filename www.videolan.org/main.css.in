@@ -324,12 +324,25 @@ img.center { display: block; margin: auto; }
 /************** Main page content - Specific styles ******************/
 
 /* DL */
-.download {
+
+.dl-table td {
+	vertical-align: middle !important;
+}
+
+a.download {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 20px;
-	margin: 10px 0; 
+	text-decoration: none;
+	font-weight: bold;
 }
-.download br { line-height: 30px; }
+
+.dl-info {
+	font-size: 12px;
+}
+.dl-other {
+	font-size: 10px;
+	font-style: italic;
+}
 
 .more {
 	font-family: Verdana, Arial, Helvetica, sans-serif;

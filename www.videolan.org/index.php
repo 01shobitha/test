@@ -48,10 +48,11 @@
   <div id="right">
     <?php panel_start( "blue" ); ?>
     <h1>VLC media player 1.0.1</h1>
-
-    <div class="download">
-      <div class="vlc-dl-logo"></div>
-        <script type="text/javascript"><!--
+    <table class="dl-table">
+        <tr>
+          <td width="64px"><img src="images/dl-vlc.png" alt="Download VLC"></td>
+          <td>
+          <script type="text/javascript"><!--
             if ( <?php echo $is_win32; ?> ) { <?php DoDL("Win32"); ?> }
             else if( <?php echo $is_beos; ?> ) { <?php DoDL("BeOS"); ?> }
             else if( <?php echo $is_linux; ?> )
@@ -80,12 +81,15 @@
             {
             <?php DoDL("Win32");DoDL("OSX-PPC"); DoDL("OSX-Intel"); ?>
             }
-       --></script>
-       <noscript>
+        --></script>
+        <noscript>
           <?php DoDL("Win32",0);DoDL("OSX-PPC",0);DoDL("OSX-Intel",0); ?>
-       </noscript>
-      </div>
-    <div class="more"><a  href="/vlc/">Other Operating Systems, learn more</a></div>
+        </noscript>
+        <br>
+        <span class="dl-other"><a  href="/vlc/">Other Operating Systems, learn more</a></span>
+        </td>
+      </tr>
+    </table>
 
     <hr />
 

@@ -81,11 +81,11 @@ function HideMirrors()
     i++;
   }
 }
-var submenuShown = "<?php echo $menu[0]; ?>";
+var submenuShown = "";
 function showSubMenu(cat) {  
-  document.getElementById("submenu-"+submenuShown).style.display="none";
+  if(document.getElementById("submenu-"+submenuShown)!=null) document.getElementById("submenu-"+submenuShown).style.display="none";
   submenuShown = cat;
-  document.getElementById("submenu-"+submenuShown).style.display="screen";
+  if(document.getElementById("submenu-"+submenuShown)!=null) document.getElementById("submenu-"+submenuShown).style.display="screen";
 }
 
 // ]]>
@@ -121,7 +121,7 @@ function DrawMenu( $file, $mod )
   else
   {
     echo "<li>&nbsp;</li>";
-  }
+  }  
 }
 
 function DrawSubMenus( $selcat, $mod )
@@ -255,6 +255,7 @@ StartHtml( ereg_replace( "<[^>]*>" , "" , $title ), $additional_css, $additional
           <a href="/"><img src="http://images.videolan.org/images/videolan-logo.png" alt="VideoLAN" width="100" height="47"/></a>
       </div>
       <?php DrawSubMenus($menu[0], $menu[1]); ?>
+      <script type="text/javascript" language="JavaScript">showSubMenu('<?php echo $menu[0]; ?>');</script>
    </div>
 </div>
 

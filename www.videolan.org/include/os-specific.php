@@ -32,7 +32,7 @@ function Screenshot( $os )
 {
     $scr = array();
     $scr["Win32"] = array( "http://images.videolan.org/images/screenshots/vlc-win32.jpg" ,
-            "VLC on Windows", 300, 272 );
+            "VLC on Windows", 296, 270 );
     $scr["Linux"] = array( "http://images.videolan.org/images/screenshots/vlc-linux.jpg" ,
             "VLC on Linux", 300, 233 );
     $scr["OSX"] = array( "http://images.videolan.org/images/screenshots/vlc-osx.jpg" ,

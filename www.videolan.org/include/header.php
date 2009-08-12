@@ -127,7 +127,7 @@ function DrawMenu( $file, $mod )
 function DrawSubMenus( $selcat, $mod )
 {
   $cats = array("developers", "doc", "fr", "project", "projects", "vlc", "vlma");
-  foreach($cat as $cats) {
+  foreach($cats as $cat) {
     $file = $cat.".menu.txt";
     echo "<ul class=\"submenu\" id=\"submenu-".$cat."\"";
     if($cat!=$selcat) echo " style=\"visibility:hidden\"";

@@ -256,6 +256,7 @@ StartHtml( ereg_replace( "<[^>]*>" , "" , $title ), $additional_css, $additional
           <a href="/"><img src="http://images.videolan.org/images/videolan-logo.png" alt="VideoLAN" width="100" height="47"/></a>
       </div>
       <?php DrawSubMenus($menu[0], $menu[1]); ?>
+      <script language="JavaScript" type="text/javascript">showSubMenu('<?php echo $menu[1]; ?>');</script>
    </div>
 </div>
 

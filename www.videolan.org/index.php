@@ -15,7 +15,7 @@
      backed-up by a <a href="/videolan/">non-profit organisation</a>,
      which produces <a href="http://www.gnu.org/philosophy/free-sw.html">free and open source software</a> for multimedia,
      released under the GNU <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">General Public License</a>.<br />
-  <a href="/videolan/">Learn more</a> about the <strong><a href="/videolan/">VideoLAN project and organisation</a></strong>.</p>
+  Learn more about the <strong><a href="/videolan/">VideoLAN project and organisation</a></strong>.</p>
   <p>Our main software is the cross-platform <a href="/vlc/"><strong>VLC media player</strong></a>.</p>
   <p>We are also the home of <a href="/developers/x264.html"><strong>x264</strong></a> and many other
   <a href="/videolan/"> projects</a>, like <a href="/projects/dvblast.html">DVBlast</a>,
@@ -23,10 +23,10 @@
 
   <h2>About VLC</h2>
   <p> <strong>VLC</strong> media player is a highly portable
-  <strong>multimedia player</strong> supporting most audio and video file
+  <strong>multimedia player</strong> supporting most audio and video
   formats (H.264, Ogg, DivX, MKV, TS, MPEG-2, mp3, MPEG-4, aac, ...)
-  as well as physical media (<strong>DVD</strong>s, VCD, Audio-CD) and many network
-  <strong>streaming</strong> protocols.<br />
+  from files, physical media (<strong>DVD</strong>s, VCD, Audio-CD)
+  TV capture cards and many network <strong>streaming</strong> protocols.<br />
 
   It can also <strong>convert</strong> files, transcode and act as a <a href="/vlc/streaming.html">streaming server</a>
   over unicast or <strong>multicast</strong> and IPv4 or <strong>IPv6</strong>.

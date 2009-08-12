@@ -82,7 +82,8 @@ function HideMirrors()
   }
 }
 var submenuShown = "";
-function showSubMenu(cat) {  
+function showSubMenu(cat) {
+  if(document.getElementById("submenu-"+cat)==null) return;
   if(document.getElementById("submenu-"+submenuShown)!=null) document.getElementById("submenu-"+submenuShown).style.display="none";
   submenuShown = cat;
   if(document.getElementById("submenu-"+submenuShown)!=null) document.getElementById("submenu-"+submenuShown).style.display="block";
@@ -126,7 +127,7 @@ function DrawMenu( $file, $mod )
 
 function DrawSubMenus( $selcat, $mod )
 {
-  $cats = array("developers", "doc", "fr", "project", "projects", "vlc", "vlma");
+  $cats = array("developers", "doc", "fr", "project", "projects", "vlc", "vlma", "support");
   foreach($cats as $cat) {
     $file = $cat.".menu.txt";
     echo "<ul class=\"submenu\" id=\"submenu-".$cat."\"";
@@ -142,7 +143,7 @@ function DrawSubMenus( $selcat, $mod )
         {
           list( $name, $text, $link ) =
               split( "[\t;]+", $l );
-          if( $mod == $name )
+          if( $mod == $name && $cat==$selcat)
                   echo '<li class="selected">';
           else
                   echo '<li>';
@@ -255,7 +256,6 @@ StartHtml( ereg_replace( "<[^>]*>" , "" , $title ), $additional_css, $additional
           <a href="/"><img src="http://images.videolan.org/images/videolan-logo.png" alt="VideoLAN" width="100" height="47"/></a>
       </div>
       <?php DrawSubMenus($menu[0], $menu[1]); ?>
-      <script type="text/javascript" language="JavaScript">showSubMenu('<?php echo $menu[0]; ?>');</script>
    </div>
 </div>
 

@@ -1,4 +1,4 @@
-Overview;overview;/projects/
+projects;overview;/projects/
 VLC;vlc;/vlc/
 x264;x264;/developers/x264.html
 DVBlast;dvblast;/projects/dvblast.html

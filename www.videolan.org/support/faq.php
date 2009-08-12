@@ -1,7 +1,7 @@
 <?php
    $title = 'VideoLAN - Frequently Asked Questions';
    $lang = 'en';
-   $menu = array( "support", "" );
+   $menu = array( "support", "faq" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 

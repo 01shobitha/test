@@ -1,7 +1,7 @@
 <?php
    $title = "VideoLAN - mailing-lists subscription";
    $lang = "en";
-   $menu = array( "support", "" );
+   $menu = array( "support", "lists" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 

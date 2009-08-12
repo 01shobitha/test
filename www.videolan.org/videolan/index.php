@@ -1,7 +1,7 @@
 <?php
    $title = "VideoLAN - Free Software and Open Source video streaming solution for every OS!";
    $lang = "en";
-   $menu = array( "project", "overview" );
+   $menu = array( "project", "videolan" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");

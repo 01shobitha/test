@@ -520,7 +520,7 @@ if(!isset($_GET['fdiv'])) {
    $lang = "en";
    $menu = array( "vlc", "features" );
    $additional_css = array("/vlc/features.css");
-   $additional_js = array("/js/prototype.js","/js/scriptaculous.js","/js/features.js");
+   /*$additional_js = array("/js/prototype.js","/js/scriptaculous.js","/js/features.js");*/
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 

@@ -85,7 +85,7 @@ var submenuShown = "";
 function showSubMenu(cat) {  
   if(document.getElementById("submenu-"+submenuShown)!=null) document.getElementById("submenu-"+submenuShown).style.display="none";
   submenuShown = cat;
-  if(document.getElementById("submenu-"+submenuShown)!=null) document.getElementById("submenu-"+submenuShown).style.display="screen";
+  if(document.getElementById("submenu-"+submenuShown)!=null) document.getElementById("submenu-"+submenuShown).style.display="block";
 }
 
 // ]]>

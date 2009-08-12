@@ -131,7 +131,9 @@ img.center { display: block; margin: auto; }
 #footer a { color: #75818A;  text-decoration: underline; }
 #footer a:hover { color: #333; text-decoration: none; }
 #footer p { margin: 0;padding: 0;line-height: 20px; }
-#pipo { padding: 10px 5% 20px 5%; color: #40424b; font-size: 22px; font-family: Lucida Grande, Verdana, Arial, Helvetica, sans-serif;
+#pipo { 
+padding: 10px 5% 20px 5%; 
+color: #40424b; font-size: 22px; font-family: Lucida Grande, Verdana, Arial, Helvetica, sans-serif;
   background: #a8e272; border: 1px solid #73d216; margin: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
 
 }

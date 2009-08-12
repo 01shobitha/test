@@ -230,8 +230,8 @@ if(!isset($body_onunload)) $body_onunload = "";
 StartHtml( ereg_replace( "<[^>]*>" , "" , $title ), $additional_css, $additional_js, $body_onload, $body_onunload ) ;
 ?>
 <div id="header">
-   <div id="navmenucontainer">
-      <ul id="navmenu" onmouseout="showSubMenu('<?php echo $menu[0]; ?>');">
+   <div id="navmenucontainer" onmouseout="showSubMenu('<?php echo $menu[0]; ?>');">
+      <ul id="navmenu">
           <?php DrawMenu( "menu.txt", $menu[0] ); ?>
       </ul>
       <div id="mirror">

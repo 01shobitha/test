@@ -113,7 +113,8 @@ consult the archives and read about the rules and restrictions.</p>
 
 <?php panel_end(); ?>
 
-<h2>IRC</h2>
+<?php panel_start( "blue" ); ?>
+<h1>IRC</h1>
 
 <p> If you want more real-time stuff, you can meet many VideoLAN
 developers and users on IRC.<br />
@@ -133,12 +134,14 @@ Also consider the timezone. Most people in this chatroom are from Europe.</p>
 <p> You can connect with any IRC client. If you cannot connect from your
 place, try the web-based <a href="http://www.videolan.org/webirc/">IRCWeb</a> interface.
 </p>
+<?php panel_end(); ?>
 
-<h2>Consulting services</h2>
+<?php panel_start("orange"); ?>
+<h1>Consulting services</h1>
 
 <p>Some companies provide professionnal support on VideoLAN. They are
 listed on the <a href="/vlc/partners.html">consultants</a> page.</p>
-
+<?php panel_end(); ?>
 </div>
 
 <?php footer('$Id$'); ?>

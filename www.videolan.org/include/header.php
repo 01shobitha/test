@@ -115,7 +115,7 @@ function DrawMenu( $file, $mod )
                 echo '<li class="selected">';
         else
                 echo '<li>';
-        echo "<a href=\"$link\" onmouseover=\"showSubMenu('".$name."');\" onmouseout=\"showSubMenu('".$mod."');\">$text</a></li>\n";
+        echo "<a href=\"$link\" onmouseover=\"showSubMenu('".$name."');\">$text</a></li>\n";
       }
     }
   }
@@ -231,7 +231,7 @@ StartHtml( ereg_replace( "<[^>]*>" , "" , $title ), $additional_css, $additional
 ?>
 <div id="header">
    <div id="navmenucontainer">
-      <ul id="navmenu">
+      <ul id="navmenu" onmouseout="showSubMenu('<?php echo $menu[0]; ?>');">
           <?php DrawMenu( "menu.txt", $menu[0] ); ?>
       </ul>
       <div id="mirror">

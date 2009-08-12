@@ -52,7 +52,8 @@ echo '<?xml version="1.0" encoding="utf-8" ?>';
         foreach($additional_js as $js) {
           echo '<script src="'.$js.'" type="text/javascript"></script>';
         }
-      } ?>
+      } 
+      ?>
 <script type="text/javascript">
 // <![CDATA[
 function ShowMirrors( start, stop )
@@ -80,6 +81,13 @@ function HideMirrors()
     i++;
   }
 }
+var submenuShown = "<?php echo $menu[0]; ?>";
+function showSubMenu(cat) {  
+  document.getElementById("submenu-"+submenuShown).style.visibility="hidden";
+  submenuShown = cat;
+  document.getElementById("submenu-"+submenuShown).style.visibility="visible";
+}
+
 // ]]>
 </script>
 
@@ -106,13 +114,47 @@ function DrawMenu( $file, $mod )
                 echo '<li class="selected">';
         else
                 echo '<li>';
-        echo "<a href=\"$link\">$text</a></li>\n";
+        echo "<a href=\"$link\" onmouseover=\"showSubMenu('".$name."');\" onmouseout=\"showSubMenu('".$mod."');\">$text</a></li>\n";
       }
     }
   }
   else
   {
     echo "<li>&nbsp;</li>";
+  }
+}
+
+function DrawSubMenus( $selcat, $mod )
+{
+  $cats = array("developers", "doc", "fr", "project", "projects", "vlc", "vlma");
+  foreach($cat as $cats) {
+    $file = $cat.".menu.txt";
+    echo "<ul class=\"submenu\" id=\"submenu-".$cat."\"";
+    if($cat!=$selcat) echo " style=\"visibility:hidden\"";
+    echo ">";
+    if( $m = @fopen( "menu/$file", "r", 1 ) )
+    {
+      while( $l = fgets( $m, 300 ) )
+      {
+        $l = rtrim( $l );
+        if( $l == "sep" ){}
+        else
+        {
+          list( $name, $text, $link ) =
+              split( "[\t;]+", $l );
+          if( $mod == $name )
+                  echo '<li class="selected">';
+          else
+                  echo '<li>';
+          echo "<a href=\"$link\">$text</a></li>\n";
+        }
+      }
+    }
+    else
+    {
+      echo "<li>&nbsp;</li>";
+    }
+    echo "</ul>";
   }
 }
 
@@ -212,9 +254,7 @@ StartHtml( ereg_replace( "<[^>]*>" , "" , $title ), $additional_css, $additional
       <div class="videolan-logo">
           <a href="/"><img src="http://images.videolan.org/images/videolan-logo.png" alt="VideoLAN" width="100" height="47"/></a>
       </div>
-      <ul id="submenu">
-         <?php DrawMenu( $menu[0].".menu.txt", $menu[1] ); ?>
-      </ul>
+      <?php DrawSubMenus($menu[0], $menu[1]); ?>
    </div>
 </div>
 

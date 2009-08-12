@@ -259,7 +259,7 @@ img.center { display: block; margin: auto; }
 
 .panel-blue-bullet { padding: 0 0 20px 0;line-height: 19px;}
 .panel-blue-bullet li {
-	background: url(http://images.videolan.org/images/bullet-blue-trans.png) left top no-repeat;
+	background: url(http://images.videolan.org/images/bullet-blue.png) left top no-repeat;
 	padding: 0 0 4px 25px;
 }
 
@@ -327,6 +327,7 @@ img.center { display: block; margin: auto; }
 
 .dl-table {
 	margin-bottom: 5px;
+	background: #FFF;
 }
 
 .dl-table td {
@@ -457,7 +458,7 @@ a.en {
 
 .blue-bullet { padding: 0 0 20px 0;line-height: 19px;}
 .blue-bullet li {
-	background: url(http://images.videolan.org/images/bullet-blue-trans.png) left top no-repeat;
+	background: url(http://images.videolan.org/images/bullet-blue.png) left top no-repeat;
 	padding: 0 0 4px 25px;
 }
 

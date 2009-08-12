@@ -90,8 +90,6 @@
       </tr>
     </table>
 
-    <hr />
-
       <ul class="panel-blue-bullet">
         <li>Free and Open Source cross-platform media player</li>
         <li>Supports a <a href="/vlc/features.html">large number of multimedia formats</a>,

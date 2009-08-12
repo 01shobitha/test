@@ -83,9 +83,9 @@ function HideMirrors()
 }
 var submenuShown = "<?php echo $menu[0]; ?>";
 function showSubMenu(cat) {  
-  document.getElementById("submenu-"+submenuShown).style.visibility="hidden";
+  document.getElementById("submenu-"+submenuShown).style.display="none";
   submenuShown = cat;
-  document.getElementById("submenu-"+submenuShown).style.visibility="visible";
+  document.getElementById("submenu-"+submenuShown).style.display="screen";
 }
 
 // ]]>
@@ -130,7 +130,7 @@ function DrawSubMenus( $selcat, $mod )
   foreach($cats as $cat) {
     $file = $cat.".menu.txt";
     echo "<ul class=\"submenu\" id=\"submenu-".$cat."\"";
-    if($cat!=$selcat) echo " style=\"visibility:hidden\"";
+    if($cat!=$selcat) echo " style=\"display:none\"";
     echo ">";
     if( $m = @fopen( "menu/$file", "r", 1 ) )
     {

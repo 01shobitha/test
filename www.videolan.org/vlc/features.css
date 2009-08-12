@@ -73,3 +73,5 @@ ul.feature-icon {
 .feature-cat a, .feature-cat-sel a {
 	text-decoration: none;
 }
+td.yes, td.no, td.part, td.partial, td.none{ text-align: center; }
+

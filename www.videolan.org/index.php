@@ -85,7 +85,6 @@
         <noscript>
           <?php DoDL("Win32",0);DoDL("OSX-PPC",0);DoDL("OSX-Intel",0); ?>
         </noscript>
-        <br>
         <span class="dl-other"><a  href="/vlc/">Other Operating Systems, learn more</a></span>
         </td>
       </tr>

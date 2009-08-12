@@ -325,6 +325,10 @@ img.center { display: block; margin: auto; }
 
 /* DL */
 
+.dl-table {
+	margin-bottom: 5px;
+}
+
 .dl-table td {
 	vertical-align: middle !important;
 }

@@ -50,7 +50,7 @@
     <h1>VLC media player 1.0.1</h1>
 
     <div class="download">
-      <div class="vlc-logo"></div>
+      <div class="vlc-dl-logo"></div>
         <script type="text/javascript"><!--
             if ( <?php echo $is_win32; ?> ) { <?php DoDL("Win32"); ?> }
             else if( <?php echo $is_beos; ?> ) { <?php DoDL("BeOS"); ?> }

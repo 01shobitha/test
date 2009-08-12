@@ -358,7 +358,13 @@ img.center { display: block; margin: auto; }
 .vlc-logo {
 	float: left;width: 64px;height: 64px;
 	margin-left: -5px; padding-bottom: 4px;
-	background: url(http://images.videolan.org/images/vlc-logo.gif) left top no-repeat;
+	background: url(http://images.videolan.org/images/vlc64x64.png) left top no-repeat;
+}
+
+.vlc-dl-logo {
+	float: left;width: 64px;height: 64px;
+	margin-left: -5px; padding-bottom: 4px;
+	background: url(http://images.videolan.org/images/dl-vlc.png) left top no-repeat;
 }
 
 div.screenshot{

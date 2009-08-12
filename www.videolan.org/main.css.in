@@ -295,7 +295,7 @@ img.center { display: block; margin: auto; }
 		 color: #2D58AE; font-size: 17px; font-weight: bold;
 }
 .panel-blue p { margin: 0;padding: 0; }
-.panel-blue hr { border: 1px solid #D4E0F7; }
+.panel-blue hr { border: 1px solid #D4E0F7; width: 80%; }
 .panel-blue a, .panel-blue a:visited { color: #039; }
 .panel-blue a:hover, .panel-blue a:active { color: #000; }
 
@@ -385,7 +385,7 @@ img.center { display: block; margin: auto; }
 
 .vlc-logo {
 	float: left;width: 64px;height: 64px;
-	margin-left: -5px; padding-bottom: 15px;
+	margin-left: -5px; padding-bottom: 4px;
 	background: url(http://images.videolan.org/images/vlc-logo.gif) left top no-repeat;
 }
 

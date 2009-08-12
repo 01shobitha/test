@@ -1,7 +1,7 @@
 <?php
    $title ="VideoLAN Manager";
    $lang = "en";
-   $menu = array( "vlma", "documentation" );
+   $menu = array( "vlma", "download" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
@@ -74,14 +74,14 @@
         <!-- main content goes here -->
         <h1>Requirements</h1>
 
-        <h2>Running VLMa</h2>
+        <b>Running VLMa</b>
 
         <ul>
           <li>Java 2 SDK 5.0 or later</li>
           <li>A servlet container (like Tomcat or Jetty)</li>
         </ul>
 
-        <h2>Building VLMa from source</h2>
+        <b>Building VLMa from source</b>
 
         <ul>
           <li>Java 2 SDK 5.0 or later</li>

@@ -73,6 +73,10 @@ img.center { display: block; margin: auto; }
 .clearme { clear:both; }
 .date { color: #75818A;	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 10px;}
+	
+hr {
+	border: 1px solid #2D58AE;
+}
 
 /************************ Header ***********************/
 

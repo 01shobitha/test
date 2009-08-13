@@ -130,7 +130,7 @@
         <li><a href="/projects/vlma">VideoLAN Manager (VLMa)</a></li>
         <li><a href="/projects/dvblast.html">DVBlast</a></li>
         <li><a href="/developers/x264.html">x264</a></li>
-      </div>
+      </ul>
     <?php panel_end(); ?>
 
 

@@ -7,43 +7,43 @@
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");
 ?>
 
-  <h1>VideoLAN - VLC media player</h1>
+<h1>VideoLAN - VLC media player</h1>
 
   <div id="left">
   <h2>About VideoLAN</h2>
-  <p>VideoLAN is a <a href="/videolan/">project</a>, run by volunteers,
-     backed-up by a <a href="/videolan/">non-profit organisation</a>,
-     which produces <a href="http://www.gnu.org/philosophy/free-sw.html">free and open source software</a> for multimedia,
-     released under the GNU <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">General Public License</a>.<br />
-  Learn more about the <strong><a href="/videolan/">VideoLAN project and organisation</a></strong>.</p>
-  <p>Our main software is the cross-platform <a href="/vlc/"><strong>VLC media player</strong></a>.</p>
-  <p>We are also the home of <a href="/developers/x264.html"><strong>x264</strong></a> and many other
-  <a href="/projects/"> projects</a>, like <a href="/projects/dvblast.html">DVBlast</a>,
-  <a href="/developers/libdvdcss.html">libDVDcss</a> or <a href="/projects/vlma/">VLMa</a>.</p>
+      <p>VideoLAN is a <a href="/videolan/">project</a>, run by volunteers,
+         backed-up by a <a href="/videolan/">non-profit organisation</a>,
+         which produces <a href="http://www.gnu.org/philosophy/free-sw.html">free and open source software</a> for multimedia,
+         released under the GNU <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">General Public License</a>.<br />
+      Learn more about the <strong><a href="/videolan/">VideoLAN project and organisation</a></strong>.</p>
+      <p>Our main software is the cross-platform <a href="/vlc/"><strong>VLC media player</strong></a>.</p>
+      <p>We are also the home of <a href="/developers/x264.html"><strong>x264</strong></a> and many other
+      <a href="/projects/"> projects</a>, like <a href="/projects/dvblast.html">DVBlast</a>,
+      <a href="/developers/libdvdcss.html">libDVDcss</a> or <a href="/projects/vlma/">VLMa</a>.</p>
 
   <h2>About VLC</h2>
-  <p style="border-bottom: 1px solid #8bb0d7;">
-  <strong>VLC</strong> media player is a highly portable
-  <strong>multimedia player</strong> supporting most audio and video
-  formats (H.264, Ogg, DivX, MKV, TS, MPEG-2, mp3, MPEG-4, aac, ...)
-  from files, physical media (<strong>DVD</strong>s, VCD, Audio-CD),
-  TV <strong>capture cards</strong> and many network <strong>streaming</strong> protocols.<br />
+      <p style="border-bottom: 3px solid #8bb0d7;">
+      <strong>VLC</strong> media player is a highly portable
+      <strong>multimedia player</strong> supporting most audio and video
+      formats (H.264, Ogg, DivX, MKV, TS, MPEG-2, mp3, MPEG-4, aac, ...)
+      from files, physical media (<strong>DVD</strong>s, VCD, Audio-CD),
+      TV <strong>capture cards</strong> and many network <strong>streaming</strong> protocols.<br />
 
-  It can also <strong>convert</strong> files, transcode and act as a <a href="/vlc/streaming.html">streaming server</a>
-  over unicast or <strong>multicast</strong> and IPv4 or <strong>IPv6</strong>.
-  It doesn't need any external codec, program or codec pack to work.
-  </p>
+      It can also <strong>convert</strong> files, transcode and
+      act as a <a href="/vlc/streaming.html">streaming server</a>
+      over unicast or <strong>multicast</strong> and IPv4 or <strong>IPv6</strong>.
+      It doesn't need any external codec, program or codec pack to work.
+      </p>
 
+  <h2><a href="http://www.videolan.org/videolan-news.rss">
+      <img src="http://images.videolan.org/images/icons/rss-feed.gif" alt="RSS 1.0" /></a>
+      <a href="/news.html">VideoLAN News</a></h2>
 
-    <h2><a href="http://www.videolan.org/videolan-news.rss">
-        <img src="http://images.videolan.org/images/icons/rss-feed.gif" alt="RSS 1.0" /></a>
-        <a href="/news.html">VideoLAN News</a></h2>
-
-    <a href="http://www.videolan.org/videolan-news.rss">Subscribe to newsfeed.</a>
-    <a href="http://planet.videolan.org">Read developers' blogs and news.</a>
-    <div>
-      <?php shownews("full",5); ?>
-    </div>
+  <a href="http://www.videolan.org/videolan-news.rss">Subscribe to newsfeed.</a>
+  <a href="http://planet.videolan.org">Read developers' blogs and news.</a>
+  <div>
+      <?php shownews("full",4); ?>
+  </div>
 
   </div> <?php /* Left */ ?>
 
@@ -97,13 +97,13 @@
         <li>Free and Open Source cross-platform media player</li>
         <li>Supports a <a href="/vlc/features.html">large number of multimedia formats</a>,
             without the need for additional codecs</li>
-        <li>Features a complete streaming server, with extended 
+        <li>Features a complete streaming server, with extended
             features (video on demand, on the fly transcoding, ...)</li>
         <li>Learn more about this release <a href="/release.html">now!</a></li>
       </ul>
     <p class="center">
       <script type="text/javascript"><!--
-        if( <?php echo $is_win32; ?> ) 
+        if( <?php echo $is_win32; ?> )
         { <?php Screenshot( "Win32" ); ?> }
         else if( <?php echo $is_beos; ?> )
         { <?php Screenshot( "BeOS" ); ?> }
@@ -111,7 +111,7 @@
         { <?php Screenshot( "Linux" ); ?> }
         else if( <?php echo $is_osx; ?> )
         { <?php Screenshot( "OSX" ); ?> }
-        else 
+        else
         { <?php Screenshot("Win32" ); ?> }
         --></script>
       <noscript>
@@ -122,7 +122,7 @@
     </p>
 
     <?php panel_end(); ?>
-    
+
     <?php panel_start( 'orange' ); ?>
     <h1>Other VideoLAN projects:</h1>
       <ul class="panel-orange-bullet">
@@ -137,36 +137,36 @@
 <?php panel_start( 'green' ); ?>
         <h1>Donate to VideoLAN:</h1>
         <table style="margin:0px;background:none;">
-        <tr>
-        <td style="background:none;border:0px;text-align:center;padding:0px">
-        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        <p>
-        <input name="cmd" value="_xclick" type="hidden"/>
-        <input name="business" value="treasurer@videolan.org" type="hidden"/>
-        <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
-        <input name="no_note" value="0" type="hidden"/>
-        <input name="currency_code" value="EUR" type="hidden"/>
-        <input name="tax" value="0" type="hidden"/>
-        <input src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="Donate money to VideoLAN via PayPal" type="image"/>
-        <br />
-        <span style="font-size: 10pt;">Euro</span>
-        </p>      
-        </form>
-        </td>
-        <td style="background:none;border:none;text-align:center;padding:0px">
-        <form action="https://www.paypal.com/cgi-bin/webscr" method="post"><p>
-        <input name="cmd" value="_xclick" type="hidden"/>
-        <input name="business" value="treasurer@videolan.org" type="hidden"/>
-        <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
-        <input name="no_note" value="0" type="hidden"/>
-        <input name="currency_code" value="USD" type="hidden"/>
-        <input name="tax" value="0" type="hidden"/>
-        <input src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="Donate money to VideoLAN via PayPal" type="image"/> 
-        <br />
-        <span style="font-size: 10pt;">Dollar</span>
-        </p> </form>
-        </td>
-        </tr>
+          <tr>
+          <td style="background:none;border:0px;text-align:center;padding:0px">
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <p>
+            <input name="cmd" value="_xclick" type="hidden"/>
+            <input name="business" value="treasurer@videolan.org" type="hidden"/>
+            <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
+            <input name="no_note" value="0" type="hidden"/>
+            <input name="currency_code" value="EUR" type="hidden"/>
+            <input name="tax" value="0" type="hidden"/>
+            <input src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="Donate money to VideoLAN via PayPal" type="image"/>
+            <br />
+            <span style="font-size: 10pt;">Euro</span>
+            </p>
+            </form>
+          </td>
+          <td style="background:none;border:none;text-align:center;padding:0px">
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post"><p>
+            <input name="cmd" value="_xclick" type="hidden"/>
+            <input name="business" value="treasurer@videolan.org" type="hidden"/>
+            <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
+            <input name="no_note" value="0" type="hidden"/>
+            <input name="currency_code" value="USD" type="hidden"/>
+            <input name="tax" value="0" type="hidden"/>
+            <input src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="Donate money to VideoLAN via PayPal" type="image"/>
+            <br />
+            <span style="font-size: 10pt;">Dollar</span>
+            </p> </form>
+          </td>
+          </tr>
         </table>
     <p>This is the only source of revenue for VideoLAN, please help!</p>
         <hr />
@@ -183,7 +183,7 @@
   <p> For setup instructions, see the <a href="http://wiki.videolan.org/Documentation:Documentation">documentation</a>
   section.</p>
   <p>If you have a problem that is not
-  covered in the documentation, look at the <a href="/support/">support page</a>, 
+  covered in the documentation, look at the <a href="/support/">support page</a>,
   <a href="http://forum.videolan.org">web forums</a>, the
   <a href="http://wiki.videolan.org">Wiki</a>, the
   <a href="/support/lists.html">user mailing-lists</a> and other support

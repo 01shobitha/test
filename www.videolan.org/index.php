@@ -173,7 +173,7 @@
     <p>VideoLAN welcomes all contributions to the project!<br />
     You can contribute time (documentation, packaging, development, tests, user support, ...),
     material or even money. See the <a href="/contribute.html">contribution
-    page</a> for more information.</a></p>
+    page</a> for more information.</p>
 <?php panel_end(); ?>
 
 <?php panel_start( 'blue' ); ?>

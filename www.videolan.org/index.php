@@ -18,7 +18,7 @@
   Learn more about the <strong><a href="/videolan/">VideoLAN project and organisation</a></strong>.</p>
   <p>Our main software is the cross-platform <a href="/vlc/"><strong>VLC media player</strong></a>.</p>
   <p>We are also the home of <a href="/developers/x264.html"><strong>x264</strong></a> and many other
-  <a href="/videolan/"> projects</a>, like <a href="/projects/dvblast.html">DVBlast</a>,
+  <a href="/projects/"> projects</a>, like <a href="/projects/dvblast.html">DVBlast</a>,
   <a href="/developers/libdvdcss.html">libDVDcss</a> or <a href="/projects/vlma/">VLMa</a>.</p>
 
   <h2>About VLC</h2>

@@ -122,9 +122,19 @@
     </p>
 
     <?php panel_end(); ?>
+    
+    <?php panel_start( 'orange' ); ?>
+    <h1>Other VideoLAN projects:</h1>
+      <ul class="panel-orange-bullet">
+        <li><a href="/vlc/skineditor.html">VLC Skin Editor</a></li>
+        <li><a href="/projects/vlma">VideoLAN Manager (VLMa)</a></li>
+        <li><a href="/projects/dvblast.html">DVBlast</a></li>
+        <li><a href="/developers/x264.html">x264</a></li>
+      </div>
+    <?php panel_end(); ?>
 
 
-<?php panel_start( 'orange' ); ?>
+<?php panel_start( 'green' ); ?>
         <h1>Donate to VideoLAN:</h1>
         <table style="margin:0px;background:none;">
         <tr>
@@ -158,18 +168,15 @@
         </td>
         </tr>
         </table>
-    <?php panel_end(); ?>
-
-<?php panel_start( 'blue' ); ?>
-<h1>Contribute!</h1>
-  <p>VideoLAN welcomes all contributions to the project! You can contribute
-  time (development, documentation, packaging, tests, user support, ...),
-  material or even money. See the <a href="/contribute.html">contribution
-  page</a> for more information.<br/>Developers can join us by undertaking one of the
-  <a href="http://wiki.videolan.org/Mini_Projects">Mini Projects</a></p>
+    <h1>Contribute!</h1>
+    <p>VideoLAN welcomes all contributions to the project! You can contribute
+    time (development, documentation, packaging, tests, user support, ...),
+    material or even money. See the <a href="/contribute.html">contribution
+    page</a> for more information.<br/>Developers can join us by undertaking one of the
+    <a href="http://wiki.videolan.org/Mini_Projects">Mini Projects</a></p>
 <?php panel_end(); ?>
 
-<?php panel_start( 'orange' ); ?>
+<?php panel_start( 'blue' ); ?>
 <h1>Help</h1>
   <p> For setup instructions, see the <a href="http://wiki.videolan.org/Documentation:Documentation">documentation</a>
   section.</p>

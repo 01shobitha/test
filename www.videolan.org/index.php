@@ -22,14 +22,14 @@
       <a href="/developers/libdvdcss.html">libDVDcss</a> or <a href="/projects/vlma/">VLMa</a>.</p>
 
   <h2>About VLC</h2>
-      <p style="border-bottom: 1px solid #8bb0d7; ">
+      <p>
       <strong>VLC</strong> media player is a highly portable
       <strong>multimedia player</strong> supporting most audio and video
       formats (H.264, Ogg, DivX, MKV, TS, MPEG-2, mp3, MPEG-4, aac, ...)
       from files, physical media (<strong>DVD</strong>s, VCD, Audio-CD),
       TV <strong>capture cards</strong> and many network <strong>streaming</strong> protocols.</p>
 
-      <p>It can also <strong>convert</strong> media files, transcode and
+      <p style="border-bottom: 1px solid #8bb0d7; ">It can also <strong>convert</strong> media files, transcode and
       act as a <a href="/vlc/streaming.html">streaming server</a>
       over unicast or <strong>multicast</strong> and IPv4 or <strong>IPv6</strong>.
       It doesn't need any external codec, program or codec pack to work.

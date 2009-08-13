@@ -9,7 +9,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");  
       
-   $latestv = "0.8.1";
+   $latestv = "0.8.5";
 ?>
 
 <h1>VLC media player Skin Editor</h1>
@@ -54,11 +54,15 @@
       <li>Can handle all skins created by hand</li>
       <li>Available in different languages</li>
   </ul>
+  
+  <h2>Download development versions</h2>
+  You can find builds based on the latest development status at the <a href="http://d-gfx.kognetwork.ch/VLC/skineditor" target="_blank">development page</a>.
         
   <h2>How to support the project</h2>
   <p>The project needs developers, but especially also testers who check the program for usability and identify bugs.<br/>
   If you have knowledge of Java feel free to join the developer team. Check the
-  <a href="http://trac.videolan.org/skin-designer" target="_blank">Trac page</a> for more information.</p>
+  <a href="http://d-gfx.kognetwork.ch/VLC/skineditor" target="_blank">development page</a> for more information.</p>
+  
 </div>
 <div id="right">
   <p>

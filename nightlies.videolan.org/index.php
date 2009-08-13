@@ -1,5 +1,5 @@
 <?php
-   $title = "VLC Media Player nightly builds";
+   $title = "VideoLAN, VLC media player continuous nightly builds";
    $lang = "en";
    $date = "11 september 2008";
    $menu = array( "vlc" );

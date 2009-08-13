@@ -11,12 +11,13 @@
 <table>
 <tr>
 <th>Main</th>
-<th>Project</th>
+<th>The VideoLAN Project</th>
 <th>VLC</th>
-<th>developers and libraries</th>
-<th>security</th>
-<th>press</th>
-<th>support</th>
+<th>Developers and libraries</th>
+<th>Projects</th>
+<th>Security</th>
+<th>Press</th>
+<th>Support</th>
 </tr>
 
 <tr>
@@ -34,8 +35,8 @@
 
     <td>
         <ul>
-            <li><a href="/project/">VideoLAN project</a></li>
-            <li><a href="/team/">the VideoLAN Team </a></li>
+            <li><a href="/project/">About the VideoLAN project</a></li>
+            <li><a href="/team/">The VideoLAN Team </a></li>
             <li><a href="/goodies.html">Goodies</a></li>
             <li><a href="/events">Events</a></li>
         </ul>
@@ -76,6 +77,15 @@
             <li><a href="/developers/i18n/">VLC i18n</a></li>
         </ul>
      </td>
+     
+    <td>
+        <ul>
+            <li><a href="http://www.videolan.org/projects/">Overview of hosted projects</a></li>
+            <li><a href="http://www.videolan.org/projects/vlma/">VideoLAN Manager (VLMa)</a></li>
+            <li><a href="http://www.videolan.org/projects/dvblast.html">DVBlast</a></li>
+            <li><a href="http://www.videolan.org/vlc/streaming.html">VLS (outdated)</a></li>
+            <li><a href="http://www.videolan.org/vlc/skineditor.html">VLC Skin Editor</a></li>
+     </td>
 
     <td>
         <ul>
@@ -107,6 +117,15 @@
             <li><a href="/press/2006-2.html">April's fool</a></li>
             <li><a href="/press/2006-3.html">VLC and GPLv3</a></li>
         </ul>
+     </td>
+     
+     <td>
+        <ul>
+            <li><a href="http://www.videolan.org/support/">Documentation</a></li>
+            <li><a href="http://www.videolan.org/support/faq.php">FAQ</a></li>
+            <li><a href="http://www.videolan.org/support/lists.php">Mailing lists</a></li>
+            <li><a href="http://forum.videolan.org">VideoLAN forums</a></li>
+            <li><a href="http://wiki.videolan.org">VideoLAN wiki</a></li>
      </td>
 
 </tr>

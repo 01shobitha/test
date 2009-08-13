@@ -127,9 +127,9 @@
     <h1>Other VideoLAN projects:</h1>
       <ul class="panel-orange-bullet">
         <li><a href="/vlc/skineditor.html">VLC Skin Editor</a></li>
+        <li><a href="/developers/x264.html">x264</a></li>
         <li><a href="/projects/vlma">VideoLAN Manager (VLMa)</a></li>
         <li><a href="/projects/dvblast.html">DVBlast</a></li>
-        <li><a href="/developers/x264.html">x264</a></li>
       </ul>
     <?php panel_end(); ?>
 
@@ -168,12 +168,14 @@
         </td>
         </tr>
         </table>
+    <p>This is the only source of revenue for VideoLAN, please help!</p>
+        <hr />
+        <br />
     <h1>Contribute!</h1>
-    <p>VideoLAN welcomes all contributions to the project! You can contribute
-    time (development, documentation, packaging, tests, user support, ...),
+    <p>VideoLAN welcomes all contributions to the project!<br />
+    You can contribute time (documentation, packaging, development, tests, user support, ...),
     material or even money. See the <a href="/contribute.html">contribution
-    page</a> for more information.<br/>Developers can join us by undertaking one of the
-    <a href="http://wiki.videolan.org/Mini_Projects">Mini Projects</a></p>
+    page</a> for more information.</a></p>
 <?php panel_end(); ?>
 
 <?php panel_start( 'blue' ); ?>

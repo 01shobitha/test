@@ -333,6 +333,7 @@ hr {
 	min-width: 200px;max-width: 792px;
 	color:#4e9a06;
 }
+.panel-green hr { border: 1px solid #4e9a06; width: 80%; margin: 0 auto; }
 .panel-green .hd .c,
 .panel-green .ft .c { height: 8px; font-size: 1px; }
 

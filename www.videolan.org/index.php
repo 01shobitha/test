@@ -29,13 +29,15 @@
       from files, physical media (<strong>DVD</strong>s, VCD, Audio-CD),
       TV <strong>capture cards</strong> and many network <strong>streaming</strong> protocols.</p>
 
-      <p style="border-bottom: 1px solid #8bb0d7; ">It can also <strong>convert</strong> media files, transcode and
+      <p>
+      It can also <strong>convert</strong> media files, transcode and
       act as a <a href="/vlc/streaming.html">streaming server</a>
       over unicast or <strong>multicast</strong> and IPv4 or <strong>IPv6</strong>.
       It doesn't need any external codec, program or codec pack to work.
       </p>
 
-  <h2><a href="http://www.videolan.org/videolan-news.rss">
+      <br />
+  <h2 style="border-top: 1px solid #8bb0d7; "><a href="http://www.videolan.org/videolan-news.rss">
       <img src="http://images.videolan.org/images/icons/rss-feed.gif" alt="RSS 1.0" /></a>
       <a href="/news.html">VideoLAN News</a></h2>
 
@@ -53,8 +55,7 @@
     <table class="dl-table">
         <tr>
           <td style="width:64px;"><img src="images/dl-vlc.png" alt="Download VLC" /></td>
-          <td>
-          <span>
+          <td><span>
           <script type="text/javascript"><!--
             if ( <?php echo $is_win32; ?> ) { <?php DoDL("Win32"); ?> }
             else if( <?php echo $is_beos; ?> ) { <?php DoDL("BeOS"); ?> }
@@ -114,11 +115,9 @@
         else
         { <?php Screenshot("Win32" ); ?> }
         --></script>
-      <noscript>
-       <p class="center">
+      <noscript><p class="center">
          <img src="http://images.videolan.org/images/screenshots/vlc-win32.jpg" alt="VLC on Windows" />
-       </p>
-      </noscript>
+       </p></noscript>
     </p>
 
     <?php panel_end(); ?>
@@ -133,8 +132,7 @@
       </ul>
     <?php panel_end(); ?>
 
-
-<?php panel_start( 'green' ); ?>
+    <?php panel_start( 'green' ); ?>
         <h1>Donate to VideoLAN:</h1>
         <table style="margin:0px;background:none;">
           <tr>

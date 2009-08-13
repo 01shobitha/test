@@ -3,7 +3,7 @@
 #
 |13 August 2009|VLC Skin Editor 0.8.5 is out!|The VideoLAN team is pleased to announce the release of a new version of the VLC Skin Editor.<br/>
 This version brings again bugfixes and performance improvements but also new features. Among these is the ability to edit Slider curves with the
-mouse and support for the generation of vertical slider backgrounds. Downloads are available on the <a href="http://www.videolan.org/vlc/skineditor.html">Skin Editor page</a>
+mouse and support for the generation of vertical slider backgrounds. Downloads are available on the <a href="http://www.videolan.org/vlc/skineditor.html">Skin Editor page</a>.
 
 |28 July 2009|VLC 1.0.1 is out!|VideoLAN is pleased to announce the release of the second version of the Goldeneye branch of VLC: <strong>1.0.1</strong>!</p><p>3 weeks after the release of <strong>1.0.0</strong>, and with almost <strong>14 million</strong> downloads, this minor version fixes most of the notable bugs and regressions that were present in the 1.0.0 version.<br />Notable fixes and improvements include:</p>
 <ul class="bullets">

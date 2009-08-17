@@ -19,12 +19,12 @@
 -->
 
 <?php $vlc_version = "1.0.1"; ?>
-<h2>Latest Mac OS X package for 10.5 and 10.6 (release <?php echo $vlc_version; ?>)</h2>
+<h2>Latest Mac OS X package for 10.5 and later (release <?php echo $vlc_version; ?>)</h2>
 
 <?php pkgitem( "Universal Binary",
                "$vlc_version/macosx","vlc-$vlc_version.dmg","vlc"); ?>
 
-<h2>Latest platform specific packages for 10.5 and 10.6 (release <?php echo $vlc_version; ?>)</h2>
+<h2>Latest platform specific packages for 10.5 and later (release <?php echo $vlc_version; ?>)</h2>
 
 <?php pkgitem( "Package for Intel-based Macs",
                "$vlc_version/macosx","vlc-$vlc_version-intel.dmg","vlc"); ?>
@@ -32,7 +32,7 @@
 <?php pkgitem( "Package for PowerPC-based Macs",
                "$vlc_version/macosx","vlc-$vlc_version-powerpc.dmg","vlc"); ?>
 
-<h2>Latest Web browser plugins for 10.5 and 10.6 (release <?php echo $vlc_version; ?>)</h2>
+<h2>Latest Web browser plugins for 10.5 and later (release <?php echo $vlc_version; ?>)</h2>
 
 <?php pkgitem( "Web Browser plugin for Intel-based Macs",
                "$vlc_version/macosx","vlc-plugin-$vlc_version-intel.dmg","vlc"); ?>

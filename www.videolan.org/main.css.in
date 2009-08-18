@@ -37,10 +37,15 @@ table {	width: 100%; margin: 0 0 25px 0;
 a, a:link, a:visited { color: #f60; }
 a:hover { color: #333; }
 
-h1 {	font-family: sans-serif, Helvetica, Arial;
-	font-weight: normal; color: #333; font-size: 26px;
+h1 {
+	font-family: sans-serif, Helvetica, Arial;
+	font-weight: bold;
+	color: #333;
+	font-size: 26px;
 	padding: 35px 0 12px;
 	line-height: 19px;
+	border-bottom: 1px solid #CCC;
+	
 }
 
 h2 { 	color: #2D58AE; font-weight: bold; font-size: 18px;

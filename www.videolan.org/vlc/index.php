@@ -28,7 +28,7 @@
   <strong>IPv6</strong> on networks.</p>
 
   <p> If you like VLC, please rate it on the <a href="http://freshmeat.net/projects/vlc/">Freshmeat</a>
-  and <a href="http://www.versiontracker.com/dyn/moreinfo/macosx/14738">versiontracker</a> entries!</p>
+  and <a href="http://www.versiontracker.com/dyn/moreinfo/macosx/10210434">versiontracker</a> entries!</p>
 </div>
 
 <?php

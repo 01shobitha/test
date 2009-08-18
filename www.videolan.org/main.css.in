@@ -48,6 +48,10 @@ h1 {
 	
 }
 
+#right h1 {
+	border:none;
+}
+
 h2 { 	color: #2D58AE; font-weight: bold; font-size: 18px;
 	 padding: 25px 0 4px;	line-height: 19px;
 }

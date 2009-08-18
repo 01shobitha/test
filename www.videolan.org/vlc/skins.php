@@ -95,7 +95,7 @@ $sp_size = FormatSize( $r['size'] );
 </tr>
 </table>
 <h2>Downloads</h2>
-<p>Download all the skins at once <a href='download-skins2-go.php?url=vlc-skins.zip'>here</a> (<?php echo $sp_size; ?>).<br />Downloaded <?php echo $sp_dl; ?> times since January 2007. (This pack is updated daily)</p>
+<p><i>Download all the skins at once <a href='download-skins2-go.php?url=vlc-skins.zip'>here</a> (<?php echo $sp_size; ?>).</i><br />Downloaded <?php echo $sp_dl; ?> times since January 2007. (This pack is updated daily)</p>
 <p>Sort by <a href="?sort=date_mod">last update date</a>, <a href="?sort=date_added">creation date</a>, <a href="?sort=downloads">downloads</a> or <a href="?sort=rating">rating</a>.</p>
 
 <?php

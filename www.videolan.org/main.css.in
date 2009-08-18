@@ -39,8 +39,8 @@ a:hover { color: #333; }
 
 h1 {
 	font-family: sans-serif, Helvetica, Arial;
-	font-weight: bold;
-	color: #333;
+	font-weight: normal;
+	color: #666;
 	font-size: 26px;
 	padding: 35px 0 12px;
 	line-height: 19px;

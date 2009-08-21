@@ -5,7 +5,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
 function screenshot($img, $desc) {
-echo"<div style=\"float:left;width:350px;height:250px;text-align:center\">\n  $desc<br/><a href=\"http://download.videolan.org/vlma/screenshot/$img\" style=\"height: 90%\">\n    <img src=\"http://download.videolan.org/vlma/screenshot/$img\" alt=\"$desc\" style=\"border:1px solid #ccc;width:80%\" />\n  </a></div>\n";
+echo"<div style=\"float:left;width:350px;height:250px;text-align:center\">\n  $desc<br/><a href=\"http://download.videolan.org/projects/vlma/screenshot/$img\" style=\"height: 90%\">\n    <img src=\"http://download.videolan.org/projects/vlma/screenshot/$img\" alt=\"$desc\" style=\"border:1px solid #ccc;width:80%\" />\n  </a></div>\n";
 }
 
 ?>

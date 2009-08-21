@@ -16,7 +16,7 @@ var s1 = new SWFObject("http://download.videolan.org/mediaplayer.swf","mediaplay
 s1.addParam("allowfullscreen","true");
 s1.addVariable("width","600");
 s1.addVariable("height","400");
-s1.addVariable("file","http://download.videolan.org/vlma/doc/screencast.flv");
+s1.addVariable("file","http://download.videolan.org/projects/vlma/doc/screencast.flv");
 s1.write("videocontainer");
 </script>
 </div>-->

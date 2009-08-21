@@ -46,7 +46,7 @@ Copy the address of the web page and put it in the "source" text box. Now, click
 </div>
 
 <div id="right">
-<a href="http://download.videolan.org/vlma/screenshot/0.2.0/channeladd.png"><img style="width:100%; border: 1px solid #ccc; margin-top: 100px" alt="Add a media" src="http://download.videolan.org/vlma/screenshot/0.2.0/channeladd.png" /></a>
+<a href="http://download.videolan.org/projects/vlma/screenshot/0.2.0/channeladd.png"><img style="width:100%; border: 1px solid #ccc; margin-top: 100px" alt="Add a media" src="http://download.videolan.org/projects/vlma/screenshot/0.2.0/channeladd.png" /></a>
 </div>
 
 <?php footer('') ?>

@@ -24,7 +24,7 @@ http://www.satcodx.com</a>. This information lets VLMa know which satellite chan
 </div>
 
 <div id="right">
-<a href="http://download.videolan.org/vlma/screenshot/0.2.0/satelliteadd.png"><img style="width:100%; border: 1px solid #ccc; margin-top: 20px" alt="Add a satellite" src="http://download.videolan.org/vlma/screenshot/0.2.0/satelliteadd.png" /></a>
+<a href="http://download.videolan.org/projects/vlma/screenshot/0.2.0/satelliteadd.png"><img style="width:100%; border: 1px solid #ccc; margin-top: 20px" alt="Add a satellite" src="http://download.videolan.org/projects/vlma/screenshot/0.2.0/satelliteadd.png" /></a>
 </div>
 
 <?php footer('$Id$') ?>

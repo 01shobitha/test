@@ -30,7 +30,7 @@ Thus, the channel with priority 10 will be streamed first. If the server is stil
 
 <div id="right">
 
-<a href="http://download.videolan.org/vlma/screenshot/0.2.0/schedule.png"><img style="width:100%; border: 1px solid #ccc; margin-top: 90px" alt="Schedule a channel" src="http://download.videolan.org/vlma/screenshot/0.2.0/schedule.png" /></a>
+<a href="http://download.videolan.org/projects/vlma/screenshot/0.2.0/schedule.png"><img style="width:100%; border: 1px solid #ccc; margin-top: 90px" alt="Schedule a channel" src="http://download.videolan.org/projects/vlma/screenshot/0.2.0/schedule.png" /></a>
 
 </div>
 

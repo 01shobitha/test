@@ -37,9 +37,9 @@ Finally click on "Add" and it will appear in the list of the current server. If 
 
 <div id="right">
 
-<a href="http://download.videolan.org/vlma/screenshot/0.2.0/serveradd.png"><img style="width:100%; border: 1px solid #ccc; margin-top: 90px" alt="Add a server" src="http://download.videolan.org/vlma/screenshot/0.2.0/serveradd.png" /></a>
+<a href="http://download.videolan.org/projects/vlma/screenshot/0.2.0/serveradd.png"><img style="width:100%; border: 1px solid #ccc; margin-top: 90px" alt="Add a server" src="http://download.videolan.org/projects/vlma/screenshot/0.2.0/serveradd.png" /></a>
 
-<a href="http://download.videolan.org/vlma/screenshot/0.2.0/adapteradd.png"><img style="width:100%; border: 1px solid #ccc; margin-top: 80px" alt="Add an input device" src="http://download.videolan.org/vlma/screenshot/0.2.0/adapteradd.png" /></a>
+<a href="http://download.videolan.org/projects/vlma/screenshot/0.2.0/adapteradd.png"><img style="width:100%; border: 1px solid #ccc; margin-top: 80px" alt="Add an input device" src="http://download.videolan.org/projects/vlma/screenshot/0.2.0/adapteradd.png" /></a>
 
 </div>
 

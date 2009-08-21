@@ -44,7 +44,7 @@ and a web interface (called VLMaw).</p>
 <div id="right">
 
   <div class="panel-blue">
-    <img style="border: 1px solid #bbb; padding: 1px" class="center" alt="VLMa logo" src="http://download.videolan.org/vlma/VLMa.png" />
+    <img style="border: 1px solid #bbb; padding: 1px" class="center" alt="VLMa logo" src="http://download.videolan.org/projects/vlma/VLMa.png" />
   </div>
 
   <div class="panel-orange"> <!-- begin panel -->
@@ -79,7 +79,7 @@ and a web interface (called VLMaw).</p>
 
           <h1>Screenshot</h1>
           <div>
-            <a href="http://download.videolan.org/vlma/screenshot/0.2.0/channellist.png"><img style="width:100%; border: 1px solid #ccc;" alt="DTT channel list" src="http://download.videolan.org/vlma/screenshot/0.2.0/channellist.png" /></a>
+            <a href="http://download.videolan.org/projects/vlma/screenshot/0.2.0/channellist.png"><img style="width:100%; border: 1px solid #ccc;" alt="DTT channel list" src="http://download.videolan.org/projects/vlma/screenshot/0.2.0/channellist.png" /></a>
 
           </div>
 

@@ -6,7 +6,6 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");
 ?>
-<?php panel_start ("blue"); ?>
 VideoLAN is a project, run by volunteers, backed-up by a non-profit organisation, which produces free and open source software for multimedia, released under the GNU General Public License.
 Learn more about the VideoLAN project and organisation.
 <hr>
@@ -20,7 +19,7 @@ TODO: Selection between various projects
     </td>
     
     <td>
-      <?php panel_start( "green" ); ?>
+      <?php panel_start( "blue" ); ?>
       <p>
         <h1 style="text-align:center;font-weight:bold;font-size:20pt;text-shadow:0px 1px 5px #999;padding-bottom:10px">VLC media player</h1>
         <ul class="panel-blue-bullet" style="padding-bottom:0px">
@@ -83,7 +82,6 @@ TODO: Selection between various projects
   </tr>
 
 </table>
- <?php panel_end(); ?>
 
 <table class="fronttable">
 <tr>

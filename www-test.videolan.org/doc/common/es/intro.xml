@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<chapter id="intro"><title id="tintro">
+Introducción
+</title>
+
+<sect1><title>
+¿Qué es el projecto VideoLAN?
+</title>
+
+<sect2><title>
+Descripción general
+</title>
+
+
+<para>VideoLAN es una solución de software completa para transmisión de vídeo, desarrollada
+por estudiantes de <ulink url="http://www.ecp.fr">Ecole Centrale
+Paris</ulink> y desarrolladores de todo el mundo, dentro de
+<ulink url="http://www.gnu.org/copyleft/gpl.html">GNU General Public
+License</ulink> (GPL). VideoLAN está diseñado para transmitir vídeo MPEG en redes con
+gran capacidad de ancho de banda.</para>
+
+<para>La solución VideoLAN incluye :</para>
+
+
+
+<itemizedlist>
+
+<listitem><para>VLS (Servidor VideoLAN), el cual puede transmitir
+archivos MPEG-1, MPEG-2 y MPEG-4, DVDs, canales digitales de satélite,
+canales digitales de televisión terrestre y vídeo en vivo sobre la red
+en unicast o multicast,</para></listitem>
+
+<listitem><para>VLC (inicialmente cliente VideoLAN), el cual puede ser
+usado como servidor para transmitir archivos MPEG-1, MPEG-2 y MPEG-4,
+DVDs y vídeo en vivo sobre la red en unicast o multicast; o usado como
+cliente para recibir, decodificar y visualizar flujos MPEG sobre varios
+sistemas operativos.</para></listitem>
+
+</itemizedlist>
+
+
+<para>A continuación se muestra una ilustración de la solución VideoLAN
+completa :</para>
+
+
+<figure><title>
+La solución VideoLAN global
+</title>
+
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/global-diagram.jpg" format="JPG" scalefit="1" scale="60" />
+  </imageobject>
+</mediaobject>
+</figure>
+
+
+<para>Más detalles sobre el proyecto se pueden encontrar en la web de VideoLAN <ulink
+url="http://www.videolan.org/"></ulink>.</para>
+
+</sect2>
+
+<sect2><title>
+Software VideoLAN
+</title>
+
+<simplesect><title>VLC</title>
+
+<para>VLC trabaja sobre muchas plataformas : Linux, Windows, Mac OS X, BeOS,
+*BSD, Solaris, Familiar Linux, Yopy/Linupy y QNX. Puede leer :</para>
+
+<itemizedlist>
+
+<listitem><para>Archivos MPEG-1, MPEG-2 y MPEG-4 / DivX desde un disco
+duro, un CD-ROM, ...</para></listitem>
+
+<listitem><para>DVDs y VCDs,</para></listitem>
+
+
+<listitem><para>desde un tarjeta receptora de satélite
+(DVB-S),</para></listitem>
+
+
+
+<listitem><para>Flujos MPEG-1, MPEG-2 and MPEG-4 desde la red 
+enviados por la salida de VLS o VLC's.</para></listitem>
+
+</itemizedlist>
+
+<para>
+VLC también puede ser usado como servidor para transmitir :
+</para>
+
+<itemizedlist>
+<listitem><para>archivos MPEG-1, MPEG-2 y MPEG-4 / DivX ,</para></listitem>
+<listitem><para>DVDs,</para></listitem>
+<listitem><para>desde una tarjeta codificadora MPEG,</para></listitem>
+</itemizedlist>
+
+<para> a : </para>
+
+<itemizedlist>
+
+<listitem><para>una máquina (p.e. a una dirección IP) : esto es lo que se llama
+<emphasis>unicast</emphasis>,</para></listitem>
+
+<listitem><para>un grupo dinámico de máquinas a las que el cliente puede
+conectarse o desconectarse (p.e. a una dirección IP multicast) : esto es
+lo que se llama <emphasis>multicast</emphasis>,</para></listitem>
+
+</itemizedlist>
+
+<para> en IPv4 o IPv6 .</para>
+
+
+<para>Para conseguir la lista completa de las funcionalidades de VLC en cada plataforma, vea la página de 
+características de VLC <ulink url="http://www.videolan.org/vlc/features.html"></ulink>.</para>
+
+
+
+<note><para>
+VLC no trabaja en Mac OS 9, y probablemente no lo hará nunca.
+</para></note>
+
+</simplesect>
+
+<simplesect><title>VLS</title>
+
+<para>
+ VLS puede transmitir :
+</para>
+
+<itemizedlist>
+
+<listitem><para>
+un fichero MPEG-1, MPEG-2 o MPEG-4 almacenado en un
+disco duro, un CD, ...,
+</para></listitem>
+
+<listitem><para>
+un DVD insertado en un lector de DVD, o copiado en
+un disco duro,
+</para></listitem>
+
+<listitem><para>
+une carte satellite (DVB-S) ou une carte de télévision
+numérique terrestre (DVB-T)
+,</para></listitem>
+
+<listitem><para>
+una tarjeta codificadora MPEG
+ ;</para></listitem>
+
+</itemizedlist>
+
+<para>
+a
+:</para>
+
+<itemizedlist>
+
+
+<listitem><para>una máquina (p.e. a una dirección IP) : esto es lo que se llama
+<emphasis>unicast</emphasis>,</para></listitem>
+
+
+
+<listitem><para>un grupo dinámico de máquinas a las que el cliente puede
+conectarse o desconectarse (p.e. a una dirección IP multicast) : esto es lo que se llama
+<emphasis>multicast</emphasis>,</para></listitem>
+
+</itemizedlist>
+
+<para>
+en IPv4 o en IPv6
+.</para>
+
+
+<para>Un Pentium a 100 MHz con 32 MB de memoria debería ser suficiente para enviar un
+flujo a la red. Cuando se transmiten muchos vídeos almacenados en un disco duro, la limitación 
+no es el procesador sino el disco duro y la conexión de red.</para>
+
+
+
+<para>VLS trabaja bajo Linux y Windows. Para conseguir la lista completa de las funcionalidades
+de VLS en cada plataforma, vea la página de características de transmisión  <ulink
+url="http://www.videolan.org/streaming/features.html"></ulink>.</para>
+
+
+
+</simplesect>
+
+<simplesect><title>Mini-SAP-server</title>
+
+<para>
+Se puede añadir información de servicio a un canal basado en el estándar SAP/SDP
+para la solución VideoLAN. El mini-servidor-SAP envía anuncios acerca de los programas multicast en la red
+en IPv4 o IPv6, y VLC recibe estos anuncios y automáticamente añade los anuncios de programas a su
+lista de reproducción.
+</para>
+
+<para>
+El mini-servidor-SAP trabaja bajo Linux y Mac OS X.
+</para>
+
+</simplesect>
+</sect2>
+</sect1>
+
+<sect1><title>
+¿Qué es un codec?
+</title>
+
+&codec-demux;
+
+</sect1>
+
+<sect1><title>
+¿Cómo se usa VideoLAN?
+</title>
+
+<sect2><title>
+Documentación
+</title>
+
+<para>
+La documentación de usuario de VideoLAN se compone de 4 documentos :
+</para>
+
+<itemizedlist>
+
+<listitem><para>
+<emphasis>VideoLAN
+HOWTO</emphasis>. Este documento es la guía completa de la solución de streaming VideoLAN.
+Le mostrará ejemplos prácticos para la instalación de su solución de streaming.
+
+</para></listitem>
+
+<listitem><para>
+<emphasis>VLC user guide</emphasis>. Este documento es la guía completa
+para VLC.
+</para></listitem>
+
+<listitem><para>
+<emphasis>VLS user guide</emphasis>. Este documentos es la guía completa
+para VLS.
+</para></listitem>
+
+<listitem><para>
+<emphasis>VideoLAN FAQ</emphasis>.
+Este documento contiene preguntas frecuentes sobre VideoLAN.
+</para></listitem>
+
+</itemizedlist>
+
+<para>
+
+La última versión de estos documentos se puede encontrar en la página de documentación <ulink
+url="http://www.videolan.org/doc/"></ulink>
+
+.</para>
+
+</sect2>
+
+<sect2><title>
+Soporte de usuario
+</title>
+
+<para>
+
+Si tiene problemas usando VideoLAN, y no encuentra la respuesta a esos problemas
+en la documentación, por favor mire la documentación online de las listas de correo <ulink
+url="http://www.via.ecp.fr/via/ml/videolan-en.html"></ulink>. Hay dos listas de correo en inglés
+para los usuarios :
+
+</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>vlc@videolan.org</emphasis>
+ para las preguntas sobre VLC
+,</para></listitem>
+
+<listitem><para><emphasis>streaming@videolan.org</emphasis> 
+ para las preguntas sobre VLS, el mini-servidor-SAP y la red
+.</para></listitem>
+
+</itemizedlist>
+
+<para>
+
+Si desea subscribirse o darse de baja en las listas de correo, por favor vaya a la página de 
+listas de correo <ulink url="http://www.videolan.org/support/lists.html"></ulink>.
+
+</para>
+
+<para>
+Puede hablar con usuarios y desarrolladores de VideoLAN en el IRC :
+servidor <emphasis>irc.freenode.net</emphasis>, canal
+<emphasis>#videolan</emphasis>
+.</para>
+
+<para>
+Si encuentra un bug, por favor siga las instrucciones de la página de informe de bugs
+<ulink url="http://www.videolan.org/support/bug-reporting.html"></ulink>
+.</para>
+
+</sect2>
+</sect1>
+
+<sect1><title>
+Utilización de la línea de comandos
+</title>
+
+<itemizedlist>
+
+
+<listitem><para>
+
+VLC tiene varias interfaces gráficas, que están organizadas de forma diferente
+con el fin de estar en harmonía con las líneas generales de cada sistema operativo. Documentar el
+uso de cada interfaz gráfica es demasiado largo, y algunas características son sólo disponibles a través de la
+interfaz de línea de comandos. Por lo tanto decidimos documentar sólo la interfaz de línea de comandos, 
+¡pero en muchos casos debería ser fácil averiguar cómo usar la interfaz gráfica con el mismo propósito!
+
+</para></listitem>
+
+<listitem><para>
+VLS est doté d'une interface en ligne de commande, et 
+d'une interface Telnet, mais n'a pas d'interface graphique !
+</para></listitem>
+
+</itemizedlist>
+
+<para>
+
+Todos los comandos que se describen en este documento deben ser tecleados dentro de un terminal
+.</para>
+
+<sect2><title>
+Abrir un terminal
+</title>
+
+<simplesect><title>Windows</title>
+
+<para>
+Pinchar en <emphasis>Inicio</emphasis>,
+<emphasis>Ejecutar</emphasis> y teclear :
+</para>
+
+<itemizedlist>
+
+<listitem><para><command>cmd</command> <keycap>Enter</keycap>
+(Windows 2000 / XP),</para></listitem>
+
+<listitem><para><command>command</command> <keycap>Enter</keycap>
+(Windows 95 / 98 / ME).</para></listitem>
+
+</itemizedlist>
+
+<para>
+En el terminal aparece
+</para>
+
+<figure><title>Windows terminal</title>
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/terminal-windows.jpg" format="JPG" scalefit="1" scale="60" />
+  </imageobject>
+</mediaobject>
+</figure>
+
+<note><para>
+Bajo Windows, se necesita estar en el directorio donde está instalado
+el programa para ejecutarlo.
+</para></note>
+
+</simplesect>
+
+<simplesect><title>Linux / Unix</title>
+
+<para>
+Abrir un terminal
+ :</para>
+
+<figure><title>Linux X terminal</title>
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/terminal-linux.jpg" format="JPG" scalefit="1" scale="60" />
+  </imageobject>
+</mediaobject>
+</figure>
+
+<para>
+En la documentación, adoptamos la siguiente convención para 
+los comandos Unix :
+</para>
+
+<itemizedlist>
+
+<listitem><para>
+los comandos que deben ser tecleados como
+<emphasis>root</emphasis> tienen un <command>#</command> prompt :
+</para>
+
+<screen>
+<prompt># </prompt>
+<userinput>
+comando_a_ser_tecleado_como_root
+</userinput>
+</screen>
+
+</listitem>
+
+<listitem><para>
+los comandos que deben ser tecleados como un usuario normal tienen un
+<command>%</command> prompt :
+</para>
+
+<screen>
+<prompt>% </prompt>
+<userinput>
+comandos_a_ser_tecleados_como_usuario_normal
+</userinput>
+</screen>
+
+</listitem>
+
+</itemizedlist>
+
+</simplesect>
+
+<simplesect><title>Mac OS X</title>
+
+<para>
+Ir a <emphasis>Aplicaciones</emphasis>, abrir la carpeta
+<emphasis>Utilidades</emphasis> y hacer doble-click en
+<emphasis>Terminal</emphasis>
+ :</para>
+
+<figure><title>Mac OS X terminal</title>
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/terminal-macosx.jpg" format="JPG" scalefit="1" scale="60" />
+  </imageobject>
+</mediaobject>
+</figure>
+
+<note><para>
+Bajo Mac OS X, se necesita estar en el directorio donde el programa ha sido instalado
+para ejecutarlo, y empezar el comando con <command>./</command> 
+.</para></note>
+
+</simplesect>
+
+<simplesect><title>BeOS</title>
+
+<para>
+En la barra de herramientas, vaya a <emphasis>Aplicaciones</emphasis> y después a
+<emphasis>Terminal</emphasis> :
+</para>
+
+<figure><title>BeOS terminal</title>
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/terminal-beos.jpg" format="JPG" scalefit="1" scale="60" />
+  </imageobject>
+</mediaobject>
+</figure>
+
+<note><para>
+Bajo BeOS, se necesita estar en el directorio donde el programa ha sido instalado
+para ejecutarlo, y empezar el comando con <command>./</command>
+.</para></note>
+
+</simplesect>
+</sect2>
+</sect1>
+
+</chapter>

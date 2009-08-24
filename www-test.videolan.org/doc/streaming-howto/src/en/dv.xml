@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="dv"><title id="tdv">
+Stream from a DV camcorder
+</title>
+
+<!-- FIXME: improve, update, needs gui -->
+
+
+<note><para>
+This is possible under GNU/Linux only.
+</para></note>
+
+<sect1><title>
+Install the libraw1394 and libavc1394
+</title>
+
+<para>
+If you want to be able to stream from a DV camcorder, then you need to install the libraries libraw1394 and libavc1394:
+</para>
+
+<itemizedlist>
+
+<listitem><para>
+if you use a Fedora Core distribution then you just need to install the libraries using:
+<screen>
+<prompt>%</prompt><userinput>yum update</userinput>
+<prompt>%</prompt><userinput>yum install libraw1394 libavc1394</userinput>
+</screen>
+</para></listitem>
+
+<listitem><para>
+if you want to install the libraries from the source then you must download them from the <ulink url="http://www.linux1394.org/">libraw1394</ulink> and <ulink url="http://sourceforge.net/projects/libavc1394">libavc1394</ulink> from their projects website.
+</para></listitem>
+
+<listitem><para>
+if you have a distribution that uses <ulink url="http://kernel.org/pub/linux/utils/kernel/hotplug">udev</ulink>, then you must add/change the following line to the file 50-udev.rules in your /etc/udev/rules.d directory.
+<screen>
+<prompt>%</prompt><userinput>vi /etc/udev/rules.d/50-udev.rules</userinput>
+<userinput># IEEE1394 (firewire) devices (must be before raw devices below)</userinput>
+<userinput>KERNEL=="raw1394",              NAME="%k"</userinput>
+<userinput>KERNEL=="dv1394",               NAME="dv1394/%k"</userinput>
+<userinput>KERNEL=="video1394*",           NAME="video1394/%n"</userinput>
+</screen>
+</para></listitem>
+
+</itemizedlist>
+<para>
+The following sections assume that you have a working linux installation with the IEEE 1394 (Firewire) libraries installed, either manually from the source code or through your distributions upgrade mechanism. 
+</para>
+
+</sect1>
+
+<sect1><title>
+Stream with DV
+</title>
+
+<para>
+Connect the DV camcorder with a Firewire cable to your computer, and check the creation of the file <filename>/dev/raw1394</filename>.
+</para>
+
+<para>
+Run VLC with the following command line
+:
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv dv/rawdv:///dev/raw1394 --dv-caching 10000–sout '#transcode{vcodec=WMV2,vb=512,scale=1,acodec=mp3,ab=192,channels=2}:std{access=mmsh,mux=asfh,url=:8080}' --sout-transcode-fps=25.0</userinput>
+</screen>
+
+<para>
+where:
+</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>dv/rawdv://</emphasis>
+ is the DV input and <filename>/dev/raw1394</filename> the device file
+,</para></listitem>
+
+<listitem><para><emphasis>dv-caching</emphasis>
+ is the delay is miliseconds (ms) (start with a high value, 10s or so, and lower it later)
+,</para></listitem>
+
+<listitem><para><emphasis>sout</emphasis>
+ is the stream output chain that is used to stream the DV camcorder as a multimedia stream over the network. The <emphasis>transcode</emphasis> syntax is explained in the chapter about transcoding. The example as given above generates a multimedia stream that is compatible with Windows Media Player
+,</para></listitem>
+
+<listitem><para><emphasis>sout-transcode-fps</emphasis>
+ is the number of pictures per second <emphasis>25.0</emphasis> that the transcode module should generate of the requested audio/video codec.
+</para></listitem>
+</itemizedlist>
+
+</sect1>
+
+</chapter>

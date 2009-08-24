@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="file"><title id="tfile">
+
+
+
+Eine Datei streamen
+</title>
+
+<sect1><title>Eine Datei mit VLC streamen
+</title>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv video1.xyz --sout udp:192.168.0.42 --ttl 12</userinput>
+</screen>
+
+<para>
+wobei:</para>
+
+<itemizedlist>
+
+<listitem><para><filename>video1.xyz</filename>
+
+die Datei ist, die Sie streamen möchten.</para></listitem>
+
+<listitem><para><emphasis>192.168.0.42</emphasis>
+ ist entweder:</para>
+
+<itemizedlist>
+
+<listitem><para>
+die IP-Adresse des Rechners ist, den Sie via Unicast
+erreichen möchten;</para></listitem>
+
+<listitem><para>
+oder der DNS-Name des Rechners ist, den Sie via Unicast
+erreichen möchten;</para></listitem>
+
+<listitem><para>
+oder eine Multicast-IP-Adresse.
+</para></listitem>
+
+</itemizedlist>
+
+</listitem>
+
+<listitem><para><emphasis>12</emphasis>
+ ist der Wert der TTL (Time To Live) Ihrer
+Paket (was bedeutet, dass der Stream in der Lage sein wird, 11 Router zu
+überqueren).
+</para></listitem>
+</itemizedlist>
+
+<para>
+Wenn Sie die Datei fortlaufend streamen möchten,
+fügen Sie die <emphasis>--loop</emphasis>-Option hinzu.
+</para>
+
+</sect1>
+
+<sect1><title>
+Eine Datei mit VLS streamen
+</title>
+
+<screen>
+<prompt>% </prompt><userinput>vls -vv -d udp:192.168.0.42 file:video1.xyz --ttl 12</userinput>
+</screen>
+
+<para>
+wobei:</para>
+
+
+<itemizedlist>
+
+<listitem><para><filename>video1.xyz</filename>
+ist die Datei, die Sie streamen möchten,</para></listitem>
+
+<listitem><para><emphasis>192.168.0.42</emphasis>
+ist entweder:</para>
+
+<itemizedlist>
+<listitem><para>
+die IP-Adresse des Rechners, den Sie via Unicast erreichen
+möchten;</para></listitem>
+
+<listitem><para>
+oder der DNS-Name des Rechners, den Sie via Unicast
+erreichen möchten;</para></listitem>
+
+<listitem><para>
+oder eine Multicast-IP-Adresse.
+</para></listitem>
+
+
+</itemizedlist>
+
+</listitem>
+
+<listitem><para><emphasis>12</emphasis>
+ist der Wert der TTL (Time To Live) Ihrer IP-Pakete
+(was bedeutet, dass der Stream in der Lage sein wird, 11 Router zu
+überqueren).
+
+</para></listitem>
+
+</itemizedlist>
+
+
+<para>
+Wenn Sie VLS anhalten möchten, nutzen Sie die
+Tastenkombination
+<keycombo><keycap>Ctrl</keycap><keycap>c</keycap></keycombo>.</para>
+
+<para>
+Wenn Sie die Datei fortlaufend streamen möchten, fügen
+Sie die Option <emphasis>--loop</emphasis> hinzu.
+</para>
+
+
+<note>
+&streamable-mpeg-file;
+</note>
+
+</sect1>
+</chapter>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<chapter id="install"><title id="tinstall">
+Installer VLC
+</title>
+
+<sect1><title>
+Installer VLC
+</title>
+
+<para>
+
+Il y a des binaires VLC disponibles pour de nombreux OSs, mais pas pour tous ceux supportés. S'il n'y a pas de binaires disponibles pour le votre, ou si vous voulez changer les paramètres par défaut, vous pouvez compiler VLC vous-même à partir des sources.
+
+</para>
+
+<sect2><title>Windows</title>
+
+<para>
+
+VLC est disponible pour Windows 95/98/ME/2000/XP.
+Téléchargez le programme d'installation depuis la page <ulink url="http://www.videolan.org/vlc/download-windows.html">VLC Windows download page</ulink>. Lancez le  <filename>.exe</filename>  pour installer
+VLC.
+
+</para>
+
+</sect2>
+
+
+<sect2><title>Mac OS X</title>
+<para>
+
+Téléchargez le paquet pour Mac OS X depuis la page <ulink url="http://www.videolan.org/vlc/download-macosx.html">VLC Mac OS X download page</ulink>. Double-cliquez sur l'icone du package : une nouvelle icone apparaitra sur votre bureau, juste sous votre (vos) disque(s). Ouvrez-la et déplacez l'application ainsi ouverte vers l'endroit où vous voulez l'installer (ce devrait être
+<filename>/Applications</filename>).
+</para>
+
+</sect2>
+
+<sect2><title>BeOS</title>
+
+<para>
+
+Téléchargez l'archive Zip depuis la page <ulink url="http://www.videolan.org/vlc/download-beos.html">VLC BeOS download page</ulink>. Décompressez le fichier dans un répertoire pour installer VLC.
+
+</para>
+
+</sect2>
+
+<sect2><title>Debian GNU/Linux</title>
+
+<simplesect><title>Debian stable (woody)</title>
+
+<para>
+Ajoutez les lignes suivantes à votre 
+<filename>/etc/apt/sources.list</filename> :</para>
+
+<programlisting>
+          deb http://download.videolan.org/pub/videolan/debian woody mail
+     deb-src http://download.videolan.org/pub/videolan/debian woody main
+</programlisting>
+
+<para>
+Ensuite, pour une installation normale, faites :
+</para>
+
+<screen>
+<prompt># </prompt><userinput>apt-get update</userinput>
+<prompt># </prompt><userinput>apt-get install gnome-vlc libdvdcss2</userinput>
+</screen>
+
+</simplesect>
+
+<simplesect><title>Debian instable (sid)</title>
+
+<para>
+Ajoutez les lignes suivantes à votre 
+<filename>/etc/apt/sources.list</filename> :</para>
+
+<programlisting>
+          deb http://download.videolan.org/pub/videolan/debian sid main
+     deb-src http://download.videolan.org/pub/videolan/debian sid main</programlisting>
+
+<para>
+Ensuite, pour une installation normale, faites :
+</para>
+
+<screen>
+<prompt># </prompt><userinput>apt-get update</userinput>
+<prompt># </prompt><userinput>apt-get install wxvlc libdvdcss2</userinput>
+</screen>
+
+</simplesect>
+
+<simplesect><title>Debian testing (sarge)</title>
+
+<para>
+
+Vous ne devriez pas utiliser la version test de la Debian sans savoir parfaitement ce que vous faites. Il est en effet quasi-impossible de faire un support pour la version test, et il n'est pas prévu d'en faire.
+Pour plus d'informations concernant la version test de la Debian, allez voir:
+<ulink url="http://www.debian.org/devel/testing">testing page</ulink>
+
+</para>
+
+</simplesect>
+
+</sect2>
+
+<sect2><title>Linux Mandrake</title>
+
+<para>
+Il y a des packages pour la Madrake 9.1 et la Cooker
+
+</para>
+
+<para>
+
+Pour les installer, ajoutez les sources suivantes pour la Mandrake 9.1 ou la Cooker (vous pouvez utiliser pour ce faire <ulink url="http://plf.zarb.org/~nanardon/">Easy urpmi</ulink>): <emphasis>contrib</emphasis> depuis la distribution elle-même et <emphasis>plf</emphasis> (Penguin Liberation Front) depuis des modules externes.
+</para>
+
+<para>
+Ensuite installez les packages nécessaires avec
+<command>urpmi</command>:</para>
+
+<screen>
+<prompt># </prompt><userinput>urpmi libdvdcss2 libdvdplay0 wxvlc vlc-plugin-a52 vlc-plugin-ogg vlc-plugin-mad</userinput>
+</screen>
+
+</sect2>
+
+<sect2><title>Linux Redhat</title>
+
+
+<para>
+Téléchargez les packages RPM <emphasis>vlc</emphasis> et les packages listés dans la section <emphasis>required libraries and codecs</emphasis> (les autres packages sont optionnels) de la page <ulink url="http://www.videolan.org/vlc/download-redhat.html">VLC RedHat download page</ulink> et placez les tous dans le même répertoire.</para>
+<para>Ensuite installez les packages RPM que vous venez de télécharger:</para>
+
+
+<screen>
+<prompt># </prompt><userinput>rpm -U *.rpm</userinput>
+</screen>
+
+<para>
+
+Si vous n'avez pas installé tous les packages RPM fournis avec votre disrtibution, il vous sera peut-être demandé d'en installer certains auparavant.
+</para>
+
+</sect2>
+
+<sect2><title>
+
+    Compilez-vous même les sources (pour tous OS)
+</title>
+
+
+<para>Pour plus d'informations sur la facon de compiler vous-même VLC, regardez la documentation sur le <ulink url="http://developers.videolan.org">site web des développeurs</ulink>.</para>
+
+</sect2>
+
+
+</sect1>
+
+<sect1><title>
+Désinstaller VLC
+</title>
+
+<sect2><title>Windows</title>
+
+<para>
+  Cliquez sur l'icone <emphasis>Désinstaller VLC</emphasis> qui a été créée pendant l'installation.</para>
+</sect2>
+
+
+<sect2><title>Mac OS X</title>
+
+<para>
+Déplacez en maintenant le bouton enfoncé l'application VLC vers la corbeille. Vous pouvez aussi supprimer le fichier de configuration et les fichiers temporaires situés dans
+<filename>~/Library/Preferences/VLC/</filename>. There is
+an AppleScript on the disk-image which lets you do this
+automatically.
+</para>
+
+</sect2>
+
+
+<sect2><title>BeOS</title>
+
+<para>
+Supprimez le répertoire  <filename>vlc-version</filename>
+. Vous pouvez aussi supprimer le fichier de configuration :
+<filename>/boot/home/config/settings/vlcrc</filename>.
+</para>
+
+</sect2>
+
+<sect2><title>Debian GNU/Linux</title>
+
+<para>
+Supprimer les packages que vous avez installés :
+</para>
+
+<screen>
+<prompt># </prompt><userinput>apt-get remove --purge wxvlc vlc-mad libdvdcss2 libdvdpsi1</userinput>
+</screen>
+
+</sect2>
+
+<sect2><title>GNU/Linux Redhat, Mandrake and SuSE</title>
+
+<para>
+Désinstaller les packages RPM que vous avez installés :
+</para>
+
+<screen>
+<prompt># </prompt><userinput>rpm -e vlc-version vlc-mad-version wxvlc-version libdvdcss2-version libdvdpsi1-version</userinput>
+</screen>
+
+</sect2>
+
+<sect2><title>
+Si vous avez compilé VLC à partir des sources
+</title>
+
+<para>
+Allez dans le répertoire contenant les sources de VLC et exécutez :</para>
+<screen>
+<prompt># </prompt><userinput>make uninstall</userinput>
+</screen>
+
+<para>Vous pouvez par la suite supprimer le répertoire contenant les sources.</para>
+
+</sect2>
+
+</sect1>
+
+</chapter>

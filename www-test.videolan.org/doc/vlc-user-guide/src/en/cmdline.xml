@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="cmdline"><title id="tcmdline">
+The command line interface</title>
+
+<sect1>
+<title>Introduction</title>
+
+<para>
+Many options are only available through command
+line. They are detailed here.
+</para>
+
+</sect1>
+
+<sect1><title>
+Opening streams
+</title>
+
+<para>
+The following commands start VLC and add the first
+element to the playlist.
+</para>
+
+<sect2><title>
+Opening a file
+</title>
+
+<para>
+Start VLC with:
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv my_file.mpg</userinput>
+</screen>
+
+<para>
+Although VLC should be able to recognize the file
+type, you may tell VLC what codec to use with the
+<emphasis>--codec</emphasis> option. For example to play
+my_file.mpg using ffmpeg auido/video decoder do:
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv --codec ffmpeg my_file.mpg</userinput> 
+</screen>
+
+<para>
+ A list of all video and audio
+codecs supported by VLC is available on the <ulink url="http://www.videolan.org/vlc/features.html">VLC features
+list</ulink>.
+</para>
+
+</sect2>
+
+<sect2><title>
+Opening a DVD or VCD, or an audio CD
+</title>
+
+<para>
+Start VLC with:
+</para>
+
+<!-- Do not wrap me -->
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv dvd://[device][@raw_device][@[title][,[chapter][,angle]]]
+</userinput>
+</screen>
+
+<para>
+or 
+
+
+(VCD):</para>
+
+<!-- Do not wrap me -->
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv vcd://[device][@{E|P|E|T|S}[number]]</userinput>
+</screen>
+
+<para>
+or 
+
+
+(Audio CD):</para>
+
+<!-- Do not wrap me -->
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv cdda://[device][@[track]]</userinput>
+</screen>
+<para>
+where device is the complete path to your DVD or
+CD-ROM drive.
+</para>
+
+</sect2>
+
+<sect2><title>
+Receiving a network stream
+</title>
+
+<para>
+To receive an unicast UDP stream (sent by VLS or
+VLC's stream output), start VLC with:
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv udp:[@:server_port]</userinput>
+</screen>
+
+<para>
+To receive an multicast UDP stream (sent by VLS or
+VLC's stream output), start VLC with:
+</para>
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv udp:@multicast_address[:server_port]</userinput>
+</screen>
+
+<para>
+To receive a HTTP stream, start VLC with
+
+
+ :</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv http://www.example.org/your_file.mpg</userinput>
+</screen>
+
+<para>
+To receive a RTSP stream, start VLC with:</para>
+                                                                                
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv rtsp://www.example.org/your_stream</userinput>
+</screen>
+
+</sect2>
+</sect1>
+
+<sect1><title>Modules selection</title>
+
+<para>
+ VLC tries to select the most appropriate interface,
+input and output modules, among the ones available on the system,
+according to the stream it is given to read. However, you may wish
+to force the use of a specific module with the following options
+(for the complete list of modules, see the <xref linkend="modules" endterm="tmodules"/>modules section)
+
+
+:</para>
+
+<itemizedlist>
+<listitem><para><emphasis>--intf  &lt;module&gt;</emphasis>
+allows you to select the interface module.
+</para></listitem>
+<listitem><para><emphasis>--extraintf  &lt;module&gt;</emphasis>
+allows you to select extra interface modules that
+will be launched in addition to the main one.
+</para></listitem>
+<listitem><para><emphasis>--aout  &lt;module&gt;</emphasis>
+allows you to select the audio output module.
+</para></listitem>
+<listitem><para><emphasis>--vout  &lt;module&gt;</emphasis>
+allows you to select the video output module.
+</para></listitem>
+<listitem><para><emphasis>--filter  &lt;module&gt;</emphasis>
+allows you to add a video filter module.
+</para></listitem>
+<listitem><para><emphasis>--memcpy  &lt;module&gt;</emphasis>
+allows you to choose a memory copy module.
+</para></listitem>
+</itemizedlist>
+
+</sect1>
+
+<sect1><title>
+Stream Output
+</title>
+
+&sout;
+
+</sect1>
+
+<sect1><title>Other Options</title>
+
+<sect2><title>Audio options</title>
+
+<itemizedlist>
+<listitem><para><emphasis>--noaudio</emphasis> 
+disables audio output.
+</para></listitem>
+<listitem><para><emphasis>--mono</emphasis>
+forces VLC to treat the stream in mono audio.
+</para></listitem>
+<listitem><para><emphasis>--volume  &lt;integer&gt;</emphasis> 
+sets the level of audio output.
+</para></listitem>
+<listitem><para><emphasis>--aout-rate  &lt;integer&gt;</emphasis>
+sets the audio output frequency (Hz).
+</para></listitem>
+<listitem><para><emphasis>--desync  &lt;integer&gt;</emphasis>
+compensates desynchronization of audio (ms).
+</para></listitem>
+<listitem><para><emphasis>--headphone</emphasis>
+ activates headphone virtual spatialization effect.
+</para></listitem>
+<listitem><para><emphasis>--headphone-dim</emphasis>
+ sets headphone characteristic dimension.
+</para></listitem>
+</itemizedlist>
+
+</sect2>
+
+<sect2><title>
+Video options
+</title>
+
+<itemizedlist>
+
+<listitem><para><emphasis>--novideo</emphasis> 
+disables video output.
+</para></listitem>
+
+<listitem><para><emphasis>--greyscale</emphasis>
+turns video output into greyscale mode.
+</para></listitem>
+
+<listitem><para><emphasis>--fullscreen</emphasis>
+sets fullscreen video.
+</para></listitem>
+
+<listitem><para><emphasis>--nooverlay</emphasis>
+disables hardware acceleration for the video output.
+</para></listitem>
+
+<listitem><para><emphasis>--width, --height &lt;integer&gt;</emphasis>
+sets the video window dimensions.
+</para></listitem>
+
+<listitem><para><emphasis>--zoom &lt;float&gt;</emphasis>
+adds a zoom factor.
+</para></listitem>
+
+<listitem><para><emphasis>--aspect-ratio &lt;mode&gt;</emphasis>
+forces source aspect ratio.
+</para></listitem>
+
+<listitem><para><emphasis>--spumargin  &lt;integer&gt;</emphasis> 
+forces SPU subtitles postion.
+</para></listitem>
+
+</itemizedlist>
+
+</sect2>
+
+<sect2><title>
+Playlist options
+</title>
+
+<itemizedlist>
+
+<listitem><para><emphasis>--playlist</emphasis>
+launches playlist on startup.
+</para></listitem>
+
+<listitem><para><emphasis>--random</emphasis>
+plays files randomly forever.
+</para></listitem>
+
+<listitem><para><emphasis>--enqueue</emphasis>
+enqueues items in playlist.
+</para></listitem>
+
+<listitem><para><emphasis>--loop</emphasis>
+loops playlist on end.
+</para></listitem>
+
+</itemizedlist>
+
+</sect2>
+
+<sect2><title>
+Network options
+</title>
+
+<itemizedlist>
+
+<listitem><para><emphasis>--server-port  &lt;integer&gt;</emphasis>
+sets server port.
+</para></listitem>
+
+<listitem><para><emphasis>--iface  &lt;string&gt;</emphasis> 
+specifies the network interface to use.
+</para></listitem>
+
+<listitem><para><emphasis>--iface-addr  &lt;string&gt;</emphasis>
+specifies your network interface IP address.
+</para></listitem>
+
+<listitem><para><emphasis>--mtu  &lt;integer&gt;</emphasis>
+specifies the MTU of the network interface.
+</para></listitem>
+
+<listitem><para><emphasis>--ipv6</emphasis>
+forces IPv6.
+</para></listitem>
+
+<listitem><para><emphasis>--ipv4</emphasis>
+forces IPv4.
+</para></listitem>
+
+</itemizedlist>
+
+</sect2>
+
+<sect2><title>
+CPU options
+</title>
+
+<itemizedlist>
+
+<listitem><para><emphasis>--nommx</emphasis>
+disables the use of MMX CPU extensions.
+</para></listitem>
+
+<listitem><para><emphasis>--no3dn</emphasis>
+disables the use of 3D Now! CPU extensions.
+</para></listitem>
+
+<listitem><para><emphasis>--nommxext</emphasis>
+disables the use of MMX Ext CPU extensions.
+</para></listitem>
+
+<listitem><para><emphasis>--nosse</emphasis> 
+disables the use of SSE CPU extensions.
+</para></listitem>
+
+</itemizedlist>
+
+</sect2>
+
+<sect2><title>
+Miscellaneous options
+</title>
+
+<itemizedlist>
+
+<listitem><para><emphasis>--quiet</emphasis>
+ deactivates the console messages.
+</para></listitem>
+
+<listitem><para><emphasis>--color</emphasis>
+ displays color messages.
+</para></listitem>
+
+<listitem><para><emphasis>--search-path  &lt;string&gt;</emphasis>
+specifies interface default search path.
+</para></listitem>
+
+<listitem><para><emphasis>--plugin-path  &lt;string&gt;</emphasis>
+specifies plugin search path.
+</para></listitem>
+
+<listitem><para><emphasis>--dvd  &lt;string&gt;</emphasis> 
+specifies the default DVD device.
+</para></listitem>
+
+<listitem><para><emphasis>--vcd  &lt;string&gt;</emphasis>
+specifies the default VCD device.
+</para></listitem>
+
+<listitem><para><emphasis>--program  &lt;;integer&gt;</emphasis>
+specifies program (SID) (for streams with several programs, like satellite ones).
+</para></listitem>
+
+<listitem><para><emphasis>--audio-type  &lt;integer&gt;</emphasis>
+specifies the default audio type to use with dvds
+
+ 
+.</para></listitem>
+
+<listitem><para><emphasis>--audio-channel  &lt;integer&gt;</emphasis>
+specifies the default audio channel to use with dvds.
+</para></listitem>
+
+<listitem><para><emphasis>--spu-channel  &lt;integer&gt;</emphasis>
+specifies the default subtitle channel to use with dvds.
+</para></listitem>
+
+</itemizedlist>
+
+</sect2>
+
+<sect2><title>
+Help options
+</title>
+
+<itemizedlist>
+
+<listitem><para><emphasis>--verbose  &lt;verbosity&gt;</emphasis>
+specifies verbosity level.
+</para></listitem>
+
+<listitem><para><emphasis>--help</emphasis>
+gives you all available options.
+</para></listitem>
+
+<listitem><para><emphasis>--longhelp</emphasis> 
+gives you a detailled version of the available 
+options.
+</para></listitem>
+
+<listitem><para><emphasis>--version</emphasis> 
+gives you information about the current VLC version.
+</para></listitem>
+
+<listitem><para><emphasis>--list</emphasis> 
+displays a list of available plugins.
+</para></listitem>
+
+<listitem><para><emphasis>--module  &lt;module&gt;</emphasis> 
+displays help about specified module.
+</para></listitem>
+
+</itemizedlist>
+
+</sect2>
+</sect1>
+</chapter>

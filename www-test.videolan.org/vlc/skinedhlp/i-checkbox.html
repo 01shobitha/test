@@ -1,0 +1,90 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+     "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>VLC Skin Editor - Online Help - Checkbox</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+</head>
+<body>
+<div class="header">
+<a href="index.html">VLC Skin Editor - Online Help</a> &gt; Documentation &gt; Items &gt; Checkbox
+</div>
+<h1>Checkbox</h1>
+<p>
+A Button that changes according to a specified condition. Used e.g. for controls that toggle something, like Play/Pause and un-/mute.<br>
+The Checkbox could also be seen as two buttons, of which one always appears according to the set condition. Thus the Checkbox has two sets of mouse-related states (up, over, down).
+</p>
+<h3>General Attributes</h3>
+<p>
+<b>ID</b><br>
+A unique identifier for the item.
+</p>
+<p>
+<b>Visibility</b><br>
+A <a href="boolexpr.html">boolean expression</a> indicating whether the item is shown or hidden.<br>
+<small><i>XML-attribute name: visible</i></small>
+</p>
+<p>
+<b>X and Y</b><br>
+The coordinates of the item relative to the parent container (Layout, Panel or Group).
+</p>
+<p>
+<b>Lefttop and Rightbottom</b><br>
+Indicate to which corners of the parent container the item's corners are attatched to in case of resizing.<br>
+<i>See also: <a href="resizable.html">"How to create a resizable window"</a></i>
+</p>
+<p>
+<b>Keep X/Y ratio</b><br>
+Indicate whether the items relative horizontal and vertical positions in the parent container should be maintained when it is resized.<br>
+<i>See also: <a href="resizable.html">"How to create a resizable window"</a></i><br>
+<small><i>XML-attribute name: xkeepratio &amp; ykeepratio</i></small>
+</p>
+<p>
+<b>Help text</b><br>
+Help text for the current control. The text variable <i>$H</i> will be set to this value when the mouse moves over the item.<br>
+<small><i>XML-attribute name: help</i></small>
+</p>
+<h3>Checkbox Attributes</h3>
+<p>
+<b>Condition</b><br>
+The <a href="boolexpr.html">boolean expression</a> defining in which state the checkbox is. If the expression resolves to <i>true</i>, the checkbox is in state <i>two</i>.
+Else the checkbox is in state <i>one</i>.
+<br><small><i>XML-attribute name: state</i></small>
+</p>
+<p>
+<b>Normal image (1 and 2)</b><br>
+The bitmap that is displayed when the checkbox is in its normal state.
+<br><small><i>XML-attribute name: up1 &amp; up2</i></small>
+</p>
+<p>
+<b>Mouse-over image (1 and 2)</b><br>
+The bitmap that is displayed when the mouse is over the checkbox.
+<br><small><i>XML-attribute name: over1 &amp; over 2</i></small>
+</p>
+<p>
+<b>Mouse-click image (1 and 2)</b><br>
+The bitmap that is displayed when the checkbox is clicked.
+<br><small><i>XML-attribute name: down1 &amp; down2</i></small>
+</p>
+<p>
+<b>Action (1 and 2)</b><br>
+The action that is triggered when the checkbox is clicked.
+</p>
+<p>
+<b>Tooltiptext (1 and 2)</b><br>
+The text that is displayed as a tooltip, when the checkbox is hovered by the mouse. 
+You can also use the available <a href="textvars.html">text variables</a>.
+</p>
+<p class="see">
+<b>See also:</b><br>
+<a href="res-bitmap.html">Bitmap resources</a><br>
+<a href="i-button.html">Button</a><br>
+<a href="boolexpr.html">Boolean Expressions</a><br>
+<a href="textvars.html">Text variables</a>
+</p>
+<p class="footer">
+&copy; 2008 All rights reserved to the VideoLAN team.
+</p>
+</body>
+</html>

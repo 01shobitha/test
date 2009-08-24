@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="other"><title id="tother">
+Weitere Interfaces
+</title>
+
+<para>
+
+
+Ein Interface auswählen: Wenn Sie es zum
+Hauptinterface machen möchten, starten Sie VLC entweder über die
+Befehlszeile mit <emphasis>--intf MeinInterface</emphasis> oder
+benutzen Sie das Einstellungsfenster, um die 
+<emphasis>Interface-Modul</emphasis>-Option einzustellen. Für
+graphische Interfaces haben Sie eventuell bereits Verknüpfungen bzw.
+Aliase, die vom Installationsprogramm erzeugt wurden. Wenn Sie das
+Interface zusätzlich zu einem anderen benutzen möchten, nutzen
+Sie Ihr Einstellungsfenster zur Festlegung der
+<emphasis>Extra Interface-Module</emphasis>-Option. Alternativ
+dazu können Sie die <emphasis>--extraintf</emphasis>-Befehlszeilenoption
+benutzen.
+</para>
+
+
+<sect1><title>
+
+
+Graphische Interfaces
+</title>
+
+<para>
+
+
+VLC enthält mehrere graphische Interfaces entsprechend
+Ihres Betriebssystems
+</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>Windows</emphasis></para>
+
+<para>
+
+
+Es gibt zwei unterschiedliche graphische Interfaces
+für Windows. Es sind Verknüpfungen für beide im Startmenü erzeugt
+worden.
+
+</para>
+
+<para><emphasis>wxWindows</emphasis></para>
+
+<para>
+
+
+Dieses Interface läuft unter Linux und Windows. Sie
+ist das derzeit kompletteste, funktionsreichste.
+
+</para>
+
+<para><emphasis>Skins</emphasis></para>
+
+<para>
+Dieses Interface läuft auch unter Linux und Windows.
+Sie erlaubt drastische Änderungen des Look-and-Feels von VLC. Sie ist noch
+in Entwicklung.
+</para>
+
+</listitem>
+
+<listitem><para><emphasis>GNU/Linux</emphasis></para>
+
+<para>
+Viele graphische Interfaces sind für GNU/Linux verfügbar
+(GTK+, Gnome, QT, KDE), aber nur zwei von ihnen werden derzeit gewartet:
+wxWindows und das Skins-Interface. Sie sollten eine von diesen benutzen.
+</para>
+
+</listitem>
+
+<listitem><para><emphasis>Mac OS X</emphasis></para>
+
+<para>
+Es existiert nur ein natives Interface für dieses
+System.
+</para>
+
+</listitem>
+</itemizedlist>
+</sect1>
+
+<sect1><title>
+Kontrollinterfaces
+</title>
+
+<para>
+Kontrollinterfaces erlauben Ihnen, andere Wege zur
+Kontrolle von VLC zu benutzen.
+</para>
+
+<sect2><title>corba</title>
+
+<para>
+Dies erlaubt Ihnen VLC über CORBA zu kontrollieren.
+</para>
+
+</sect2>
+
+<sect2><title>dummy</title>
+
+<para>
+Benutzen Sie dieses Interface, wenn Sie <emphasis>kein</emphasis>
+Interface möchten! Damit erhalten Sie nur einen selbst-enthaltenen Befehlszeilenstring.
+</para>
+
+<para>
+Zum Beispiel:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc --intf dummy vcd://</userinput>
+</screen>
+
+</sect2>
+
+<sect2><title>gestures</title>
+
+<para>
+Dies erlaubt Ihnen VLC über Mausgesten im
+Bildausgabefenster zu steuern. Standardmäßig wird es über Rechtsklicken
+und Machen der Gesten benutzt. Gesten sind: links (Vorheriges),
+rechts (nächstes), nach oben-rechts (Vollbild), nach unten-rechts (Stopp).
+</para>
+
+</sect2>
+
+<sect2><title>http</title>
+
+<para>
+Dieses Interface wurde im vorherigen Kapitel besprochen.
+Sie erlaubt die entfernte oder lokale Kontrolle von VLC über eine Webseite.
+</para>
+
+</sect2>
+
+<sect2><title>joystick</title>
+
+<para>
+Unter GNU/Linux können Sie mit diesem Interface VLC mit einem
+Joystick steuern.
+</para>
+
+</sect2>
+
+<sect2><title>lirc</title>
+
+<para>
+Unter GNU/Linux erlaubt Ihnen dies VLC über eine
+Intrarotfernbedienung zu steuern.
+</para>
+</sect2>
+
+<sect2><title>rc</title>
+
+<para>
+Dies erlaubt Ihnen VLC über die Eingabe von Befehlen in dessen
+Terminalfenster zu steuern.
+</para>
+</sect2>
+
+</sect1>
+
+</chapter>

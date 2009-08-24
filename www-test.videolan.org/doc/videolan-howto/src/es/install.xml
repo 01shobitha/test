@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="install"><title id="tinstall">
+
+
+Instalación del software y hardware requeridos
+
+</title>
+
+<sect1><title>
+
+
+Instalación de VLC
+
+</title>
+
+  &install-vlc;
+
+</sect1>
+
+<sect1><title>
+
+
+Instalación de VLS
+
+</title>
+
+  &install-vls;
+
+</sect1>
+
+</chapter>

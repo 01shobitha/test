@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<para>
+<span xml:lang="en">
+There are VLC binaries available for the many OSes, but not for
+all supported OSes. If there are no binaries for your OS or if you want
+to change the default settings, you can compile VLC from sources.
+</span>
+<span xml:lang="fr">
+Des binaires précompilés de VLC sont disponibles pour de nombreux
+systèmes, mais pas pour tous ceux supportés par VLC. S'il n'existe pas
+de binaire pour votre OS, ou si vous désirez changer les paramètres,
+vous pouvez compiler VLC depuis ses sources.
+</span>
+<span xml:lang="es">
+Existen binarios de VLC disponibles para la mayoría de sitemas operativos, pero no para todos
+los sitemas operativos soportados. Si no existen binarios para su sistema operativo o si quiere cambiar los
+parámetros por defecto, puede compilar VLC desde las fuentes.
+</span>
+<span xml:lang="de">
+Es gibt vorkompilierte Programme von VLC für viele, aber nicht für alle
+unterstützten Betriebssysteme. Wenn es keine binäre Version für Ihr System
+gibt oder Sie Änderungen an den standardmäßigen Einstellungen machen
+möchten, können Sie VLC aus dessen Quellen kompilieren.
+</span>
+</para>
+
+<sect2><title>Windows</title>
+
+<para>
+<span xml:lang="en">
+VLC works under Windows 95/98/ME/2000/XP.
+Download the self-extracting file from the <ulink
+url="http://www.videolan.org/vlc/download-windows.html">VLC Windows
+download page</ulink>. Launch the <filename>.exe</filename> to install
+VLC.
+</span>
+<span xml:lang="fr">
+VLC fonctionne sous Windows 95/98/Me/2000/XP.
+Téléchargez l'auto-extractible, depuis la
+<ulink url="http://www.videolan.org/vlc/download-windows.html">
+Page de téléchargement du VLC pour Windows</ulink>.
+Lancez le <filename>.exe</filename> pour installer VLC.
+</span>
+<span xml:lang="es">
+VLC trabaja bajo Windows 95/98/ME/2000/XP.
+Descargue el fichero auto-extraible desde la <ulink
+url="http://www.videolan.org/vlc/download-windows.html">página de descarga de VLC para
+Windows</ulink>. Ejecute el fichero <filename>.exe</filename> para instalar
+VLC.</span>
+<span xml:lang="de">VLC arbeitet unter Windows 95/98/ME/2000/XP.
+Laden Sie die selbstextrahierende Datei von der <ulink
+url="http://www.videolan.org/vlc/download-windows.html">VLC Windows
+Downloadseite</ulink> herunter. Starten Sie die <filename>.exe</filename> um
+VLC zu installieren.
+</span>
+</para>
+
+</sect2>
+
+<sect2><title>BeOS</title>
+
+<para>
+<span xml:lang="en">
+Download the Zip file from the <ulink
+url="http://www.videolan.org/vlc/download-beos.html">VLC BeOS download
+page</ulink>. Unzip the file in a directory to install VLC.
+</span>
+<span xml:lang="fr">
+Téléchargez le fichier zip, depuis la
+<ulink url="http://www.videolan.org/vlc/download-beos.html">
+Page de téléchargement du VLC pour BeOS</ulink>.
+Dézippez le fichier dans un répertoire pour installer VLC.
+</span>
+<span xml:lang="es">
+Descargue el fichero Zip de la <ulink
+url="http://www.videolan.org/vlc/download-beos.html">página de descarga de VLC
+para BeOS</ulink>. Descrompima el fichero en un directorio para instalar VLC.
+</span>
+<span xml:lang="de">
+Laden Sie die ZIP-Datei von der <ulink
+url="http://www.videolan.org/vlc/download-beos.html">VLC BeOS 
+Downloadseite</ulink> herunter. Entzippen Sie die Datei in einem
+Verzeichnis um VLC zu installieren.
+</span>
+</para>
+
+</sect2>
+
+<sect2><title>Mac OS X</title>
+<para>
+<span xml:lang="en">
+Download the Mac OS X package from the <ulink
+url="http://www.videolan.org/vlc/download-macosx.html">VLC
+MacOS X download page</ulink>. Double-click on the icon of the
+package : an icon will appear on your Desktop, right beside your
+drive(s). Open it and drag the VLC application from the resulting
+window to the place where you want to install it (it should be
+<filename>/Applications</filename>).</span>
+<span xml:lang="fr">
+Téléchargez le paquetage pour Mac OS X depuis la 
+<ulink url="http://www.videolan.org/vlc/download-macosx.html">
+Page de téléchargement du VLC pour Mac OS X</ulink>.
+Double-cliquez sur l'icone du paquetage, une icone apparaitra sur
+votre Bureau, près du (des) disque(s). Ouvrez le et faites glisser
+l'application VLC de la fenêtre qui s'est ouverte vers l'endroit où
+vous désirez l'installer (ce devrait être: 
+<filename>/Applications</filename>).
+</span>
+<span xml:lang="es">
+Descargue el paquete Mac OS X de la <ulink
+url="http://www.videolan.org/vlc/download-macosx.html">página de descarga de VLC
+para Mac OS X</ulink> . Haga Doble-click en el icono del paquete : 
+ un icono aparecerá en su escritotio, justo al lado de su (sus) disco(s).
+Ábralo y traslade la aplicación VLC de la ventana resultante
+al lugar donde desee su instalación (debería ser
+<filename>/Applications</filename>).</span>
+<span xml:lang="de">
+Laden Sie das Mac OS X Paket von der <ulink
+url="http://www.videolan.org/vlc/download-macosx.html">VLC
+MacOS X Downloadseite</ulink>. Doppelklicken Sie auf das Icon des
+Pakets. Ein Symbol wird neben Ihren Laufwerken auf dem Schreibtisch
+erscheinen. Öffnen Sie es und ziehen Sie das VLC Programm an den Ort,
+an dem Sie VLC installieren möchten (es sollte <filename>/Programme
+</filename> sein).
+</span>
+</para>
+
+</sect2>
+
+<sect2><title>Debian GNU/Linux</title>
+
+<simplesect><title>Debian stable (woody)</title>
+
+<para>
+<span xml:lang="en">Add the following lines to your </span>
+<span xml:lang="fr">Ajoutez les lignes suivantes à votre fichier </span>
+<span xml:lang="es">Añada las siguientes líneas a su fichero </span>
+<span xml:lang="de">Fügen Sie folgende Zeilen dieser Datei hinzu:</span>
+<filename>/etc/apt/sources.list</filename>:</para>
+
+<programlisting>
+     deb http://download.videolan.org/pub/videolan/debian woody main
+     deb-src http://download.videolan.org/pub/videolan/debian woody main
+</programlisting>
+
+<para>
+<span xml:lang="en">Then, for a normal install, do:</span>
+<span xml:lang="fr">Puis, pour une installation standard, faites:</span>
+<span xml:lang="es">Seguidamente, para una instalación normal, hacer:</span>
+<span xml:lang="de">Machen Sie dann für eine normale Installation:</span>
+</para>
+
+<screen>
+<prompt># </prompt><userinput>apt-get update</userinput>
+<prompt># </prompt><userinput>apt-get install gnome-vlc libdvdcss2</userinput>
+</screen>
+
+</simplesect>
+
+<simplesect><title>Debian unstable (sid)</title>
+
+<para>
+<span xml:lang="en">Add the following lines to your </span>
+<span xml:lang="fr">Ajoutez les lignes suivantes à votre fichier </span>
+<span xml:lang="es">Añada las siguientes líneas a su </span>
+<span xml:lang="de">Fügen Sie die folgenden Zeilen hier hinzu </span>
+<filename>/etc/apt/sources.list</filename>:</para>
+
+<programlisting>
+     deb http://download.videolan.org/pub/videolan/debian sid main
+     deb-src http://download.videolan.org/pub/videolan/debian sid main</programlisting>
+
+<para>
+<span xml:lang="en">Then, for a normal install, do:</span>
+<span xml:lang="fr">Puis, pour une installation standard, faites:</span>
+<span xml:lang="es">Seguidamente, para una instalación normal, hacer:</span>
+<span xml:lang="de">Machen Sie dann für eine normale Installation:</span>
+</para>
+
+<screen>
+<prompt># </prompt><userinput>apt-get update</userinput>
+<prompt># </prompt><userinput>apt-get install wxvlc libdvdcss2</userinput>
+</screen>
+
+</simplesect>
+
+<simplesect><title>Debian testing (sarge)</title>
+
+<para>
+<span xml:lang="en">
+You should not be using Debian testing unless you perfectly know
+what you are doing. It is almost impossible to support Debian testing
+and there are no plans to do it.
+For more informations on Debian testing, please look:
+<ulink url="http://www.debian.org/devel/testing">testing page</ulink>
+</span>
+<span xml:lang="fr">
+A moins de savoir très bien ce que vous faites, vous ne devriez pas
+utiliser la distribution "testing". Du fait de son status, il est
+presque impossible de supporter cette distribution, et nous n'avons pas
+l'intention de le faire.
+Pour plus d'informations sur Debian testing, vous pouvez voir:
+<ulink url="http://www.debian.org/devel/testing"> 
+la page de la distribution testing</ulink>
+</span>
+<span xml:lang="es">
+No debería utilizar la distribución de pruebas de Debian ("Testing") a menos que sepa perfectamente lo que está haciendo
+. Es casi imposible dar soporte bajo esta distribución de pruebas de Debian y no hay planes de que
+se haga.
+Para más información sobre la versión de pruebas de Debian, consulte por favor:
+<ulink url="http://www.debian.org/devel/testing">la página de distribución de pruebas</ulink>
+</span>
+<span xml:lang="de">
+Sie sollten nicht die "testing"-Variante von Debian verwenden, außer wenn
+Sie wirklich wissen, was SIe tun. Es ist nachzu unmöglich die "testing"-Variante
+von Debian zu unterstützen und es gibt keine Pläne dies zu tun.
+Für weitere Informationen über die "testing"-Variante von Debian schauen Sie
+bitte auf die Seite dieser <ulink url="http://www.debian.org/devel/testing">
+Distribution</ulink>
+</span>
+</para>
+
+</simplesect>
+
+</sect2>
+
+<sect2><title>Linux Mandrake</title>
+
+<para>
+<span xml:lang="en">There are VLC packages for Mandrake 9.1 and cooker.
+</span>
+<span xml:lang="fr">Il existe des paquetages pour Mandrake 9.1 et "cooker"
+</span>
+<span xml:lang="es">Existen paquetes VLC para Mandrake 9.1 y "cooker".
+</span>
+<span xml:lang="de">Es gibt VLC Pakete für Mandrake 9.1 und "cooker"</span>
+</para>
+
+<para>
+
+<span xml:lang="en">To install them, add the following
+sources for either Mandrake 9.1 or Cooker (you can use <ulink
+url="http://plf.zarb.org/~nanardon/">Easy urpmi</ulink> for that):
+<emphasis>contrib</emphasis> from the core distribution and
+<emphasis>plf</emphasis> (Penguin Liberation Front) from the external
+add-ons.</span>
+
+<span xml:lang="fr">Pour les installer, ajoutez les sources
+suivantes pour Mandrake 9.1 ou Cooker (vous pouvez utiliser <ulink
+url="http://plf.zarb.org/~nanardon/">Easy urpmi</ulink> pour cela)
+: <emphasis>contrib</emphasis> et <emphasis>plf</emphasis> (Penguin
+Liberation Front).</span>
+
+<span xml:lang="es">Para instalarlos, añada las siguientes fuentes 
+para Mandrake 9.1 o Cooker (puede utilizar <ulink
+url="http://plf.zarb.org/~nanardon/">Easy urpmi</ulink> para eso):
+<emphasis>contrib</emphasis> y
+<emphasis>plf</emphasis> (Penguin Liberation Front) </span>
+
+<span xml:lang="de">Um Sie zu installieren, fügen Sie die folgenden Quellen
+für entweder Mandrake 9.1 oder Cooker hinzu (Sie können <ulink
+url="http://plf.zarb.org/~nanardon/">Easy urpmi</ulink> dafür benutzen):
+<emphasis>contrib</emphasis> von der Kerndistribution und
+<emphasis>plf</emphasis> (Penguin Liberation Front) von den externen
+Add-ons.</span>
+
+</para>
+
+<para>
+<span xml:lang="en">Then install the required packages with</span>
+<span xml:lang="fr">Ensuite, installez les paquetages requis avec</span>
+<span xml:lang="es">Seguidamente instale los paquetes necesarios con</span>
+<span xml:lang="de">Installieren Sie danach die benötigten Pakete mit</span>
+<command>urpmi</command>:</para>
+
+<screen>
+<prompt># </prompt><userinput>urpmi libdvdcss2 libdvdplay0 wxvlc vlc-plugin-a52 vlc-plugin-ogg vlc-plugin-mad</userinput>
+</screen>
+
+</sect2>
+
+<sect2><title>Linux Redhat</title>
+
+<span xml:lang="en">
+<para>
+Download the RPM package <emphasis>vlc</emphasis> and the packages
+listed in the <emphasis>required libraries and codecs</emphasis>
+section (the other packages are just optional) from the <ulink
+url="http://www.videolan.org/vlc/download-redhat.html">VLC Red Hat
+download page</ulink> and put them all into the same directory.</para>
+<para>Then install the RPM packages you have downloaded:</para>
+</span>
+<span xml:lang="fr">
+<para> 
+Téléchargez le paquetage RPM <emphasis>vlc</emphasis> et ceux listés
+dans la section <emphasis>librairies requises</emphasis> (les autres 
+sont facultatifs) de la 
+<ulink url="http://www.videolan.org/vlc/download-redhat.html">page de
+téléchargement de VLC pour RedHat</ulink> et mettez les dans le même
+répertoire</para>
+<para>Installez ensuite les paquetages RPM téléchargés:</para>
+</span>
+<span xml:lang="es">
+<para>
+Descargue el paquete RPM <emphasis>vlc</emphasis> y los paquetes
+listados en la sección <emphasis>codecs y librerias necesarias</emphasis>
+(los otros paquetes son sólo opcionales) de la <ulink
+url="http://www.videolan.org/vlc/download-redhat.html">página de descargade VLC
+de Red Hat</ulink> y colóquelosdentro del mismo directorio.</para>
+<para>Seguidamente instale los paquetes RPM que ha descargado:</para>
+</span>
+<span xml:lang="de">
+<para>
+Laden Sie das RPM-Paket <emphasis>vlc</emphasis> und die Pakete, die 
+in der Sektion <emphasis>required libraries and codecs</emphasis> auf
+der <ulink url="http://www.videolan.org/vlc/download-redhat.html">
+VLC Red Hat Downloadseite</ulink> aufgeführt sind herunter und legen Sie
+sie alle in das gleicher Verzeichnis.</para>
+<para>Installieren Sie dann die RPM-Pakete, die Sie heruntergeladen haben:</para>
+</span>
+
+<screen>
+<prompt># </prompt><userinput>rpm -U *.rpm</userinput>
+</screen>
+
+<para>
+<span xml:lang="en">
+If you have not installed all the RPM packages included with your
+distribution, you may be asked to install a few of them first.</span>
+<span xml:lang="fr">
+Si vous n'avez pas installé tous les paquetages RPM inclus avec votre
+distribution, vous pourriez avoir à en installer certains d'abord.</span>
+<span xml:lang="es">
+Si no ha instalado todos los paquetes RPM incluidos en su distribución
+, puede ser que se le pida instalar alguno de ellos previamente.</span>
+<span xml:lang="de">
+Wenn Sie nicht alle RPM-Pakete installiert haben, die mit Ihrer Distribution
+mitgeliefert worden sind, werden Sie eventuell gefragt werden, diese 
+zuerst zu installieren.</span>
+</para>
+
+</sect2>
+
+<sect2><title>
+<span xml:lang="en">
+  Compile the sources by yourself (for every other OS)</span>
+<span xml:lang="fr">
+  Compilez les sources vous-même (tous les autres sytèmes)</span>
+<span xml:lang="es">
+  Compile los ficheros fuente usted mismo (para cualquier otro sistema operativo)</span>  
+<span xml:lang="de">
+  Die Quellen selbst kompilieren (für jedes andere System)</span>
+</title>
+
+<span xml:lang="en">
+<para>The method below is for any Unix system supported by VLC, for
+which there is no packages available. It explains how to compile and
+install VLC and the needed libraries from their source code.</para>
+<para>You can also compile VLC under Linux this way if you want to
+modify the default supported modules.</para></span>
+
+<span xml:lang="fr">
+<para>La méthode décrite ci-dessous fonctionnera pour tout système Unix 
+supporté par VLC, et pour lesquels il n'existe pas de paquetage. Elle 
+explique comment compiler et installer VLC et les librairies requises, 
+depuis leur code source</para>
+<para>Vous pouvez également compiler VLC sous Linux de cette façon, si 
+vous désirez modifier les modules supportés par défaut.</para>
+</span>
+
+<span xml:lang="es">
+<para>El método descrito a continuación es para cualquier sistema Unix soportado por VLC, para
+el que no existan paquetes disponibles. Explica como compilar e instalar
+VLC y las librerias necesarias después de su código fuente.</para>
+<para>También puede compilar VLC bajo Linux de esta forma si desea
+modificar los módulos soportados por defecto.</para></span>
+
+<span xml:lang="de">
+<para>Die unten stehende Mathode läuft auf jedem von VLC unterstützten
+Unixsystem, für das keine Pakete zur Verfügung stehen. Sie erklärt, wie
+VLC udn die benötigten Bibliotheken aus deren Quellcodes kompiliert und
+installiert werden.</para>
+<para>Sie können so gleichermaßen auch VLC unter Linux kompilieren, wenn
+Sie die standardmäßig unterstützten Module ändern möchten.</para>
+</span>
+
+<sect3><title>
+<span xml:lang="en">Install the libraries</span>
+<span xml:lang="fr">Installation des librairies</span>
+<span xml:lang="es">Instale las librerias</span>
+<span xml:lang="de">Installation der Bibliotheken</span>
+</title>
+
+<para>
+<span xml:lang="en">Many libraries are needed :</span>
+<span xml:lang="fr">Un certain nombre de librairies sont requises:</span>
+<span xml:lang="es">Un cierto número de librerias son necesarias:</span>
+<span xml:lang="de">Viele Bibliotheken werden benötigt:</span>
+</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>libdvbpsi</emphasis>
+<span xml:lang="en">(compulsory)</span>
+<span xml:lang="fr">(obligatoire)</span>
+<span xml:lang="es">(obligatoria)</span>
+<span xml:lang="de">(obligatorisch)</span>
+,</para></listitem>
+
+<listitem><para><emphasis>mpeg2dec</emphasis>
+<span xml:lang="en">(compulsory)</span>
+<span xml:lang="fr">(obligatoire)</span>
+<span xml:lang="es">(obligatoria)</span>
+<span xml:lang="de">(obligatorisch)</span>
+,</para></listitem>
+
+<listitem><para><emphasis>libdvdcss</emphasis>
+<span xml:lang="en">if you want to be able to read encrypted DVDs</span>
+<span xml:lang="fr">si vous désirez pouvoir lire des DVD encryptés</span>
+<span xml:lang="es">si desea leer DVDs encriptados</span>
+<span xml:lang="de">wenn Sie verschlüsselte DVDs lesen möchten können</span>
+,</para></listitem>
+
+<listitem><para><emphasis>libdvdplay</emphasis>
+<span xml:lang="en">if you want to have DVD menu navigation</span>
+<span xml:lang="fr">si vous désirez profiter des menus DVD</span>
+<span xml:lang="es">si desea tener un menú de navegación para DVD</span>
+<span xml:lang="de">wenn Sie DVD-Menü-Navigation möchten</span>
+,</para></listitem>
+
+<listitem><para><emphasis>a52dec</emphasis>
+<span xml:lang="en">if you want to be able to decode the AC3 (i.e. A52)
+  sound format often used in DVDs</span>
+<span xml:lang="fr">si vous désirez pouvoir décoder le son AC3 (A52), 
+  souvent utilisé dans les DVDs</span>
+<span xml:lang="es">si desea que sea capaz de descodificar AC3 (A52)
+  formato de sonido utilizado a menudo en DVDs</span>  
+<span xml:lang="de">wenn Sie AC3 (d.h. A52) - Ton, der oft in DVDs benutzt
+ wird, dekodieren möchten</span>
+,</para></listitem>
+
+<listitem><para><emphasis>ffmpeg</emphasis>, <emphasis>libmad</emphasis>,
+ <emphasis>faad2</emphasis>
+<span xml:lang="en">if you want to read MPEG 4 / DivX files</span>
+<span xml:lang="fr">si vous désirez lire des fichiers MPEG 4 / DivX</span>
+<span xml:lang="es">si desea leer ficheros MPEG 4 / DivX </span>
+<span xml:lang="de">wenn Sie MPEG 4 / DivX - Dateien lesen möchten</span>
+,</para></listitem>
+
+<listitem><para><emphasis>libogg</emphasis> &amp;
+<emphasis>libvorbis</emphasis>
+<span xml:lang="en">if you want to read Ogg Vorbis files</span>
+<span xml:lang="fr">si vous désirez pouvoir lire des fichiers Ogg/Vorbis</span>
+<span xml:lang="es">si desea leer ficheros Ogg/Vorbis</span>
+<span xml:lang="de">wenn Sie Ogg Vorbis Dateien lesen möchten</span>
+.</para></listitem>
+
+</itemizedlist>
+
+<para>
+<span xml:lang="en">You can either download the libraries from the <ulink
+url="http://www.videolan.org/vlc/download-sources.html">VLC sources
+download page</ulink> and compile them as described in the next paragraph or get the libraries and the respective development headers from your favorite distributor (via .deb and .rpm packages for example). However only tarballs from our website are officially supported.</span>
+<span xml:lang="fr">Vous pouvez téléchargez les librairies depuis
+<ulink url="http://www.videolan.org/vlc/download-sources.html"> la 
+page de téléchargement des sources du VLC</ulink> et les compiler comme décrits par la suite, ou installer ces librairies et les headers de développement correpondant via votre distibuteur favory (par des packages .deb ou .rpm par exemple). Toutefois seuls les tarballs fournis sur notre site web sont officiellement supportés.</span>
+<span xml:lang="es">Puede descargar las librerias de <ulink
+url="http://www.videolan.org/vlc/download-sources.html">la página
+de descarga de las fuentes VLC</ulink> y compilarlas como se describe en el siguiente párrafo o conseguir las librerias y sus respectivos headers de desarrollo de su distribuidor preferido (para los paquetes .deb and .rpm por ejemplo). Sin embargo sólo de los tarballs de nuestro sitio web se proporciona soporte oficialmente.</span>
+<span xml:lang="de">Sie können die Bibliotheken entweder von der <ulink
+url="http://www.videolan.org/vlc/download-sources.html">VLC Quellen
+Downloadseite</ulink> herunterladen und sie, wie im nächsten Abschnitt
+beschrieben, kompilieren oder sich die Bibliotheken, respektive der
+Development-Header, bei Ihrem bevorzugten Distributeur (z.B. via .deb oder
+.rpm Pakete) besorgen. Wie dem auch sei, nur Tarballs von unserer Website
+werden offiziell unterstützt.</span>
+</para>
+
+<para>
+<span xml:lang="en">For each library :</span>
+<span xml:lang="fr">Pour chacune des librairies :</span>
+<span xml:lang="es">Para cada librería :</span>
+<span xml:lang="de">Für jede Bibliothek:</span>
+</para>
+
+<itemizedlist>
+
+<listitem><para>
+<span xml:lang="en">uncompress :</span>
+<span xml:lang="fr">décompressez :</span>
+<span xml:lang="es">descomprima :</span>
+<span xml:lang="de">Dekomprimieren:</span>
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>tar xvzf library.tar.gz</userinput>
+</screen>
+
+<para>
+<span xml:lang="en">or</span>
+<span xml:lang="fr">ou</span>
+<span xml:lang="es">o</span>
+<span xml:lang="de">oder</span>
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>tar xvjf library.tar.bz2</userinput>
+</screen>
+
+</listitem>
+
+<listitem><para>
+<span xml:lang="en">configure :</span>
+<span xml:lang="fr">configurez :</span>
+<span xml:lang="es">configure :</span>
+<span xml:lang="de">Konfigurieren:</span>
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>cd library</userinput>
+<prompt>% </prompt><userinput>./configure</userinput>
+</screen>
+
+<para>
+<span xml:lang="en">Note: ffmpeg needs to be configured with --enable-pp</span>
+<span xml:lang="fr">Note : Rajoutez l'option de configuration --enable-pp lors de la configuration d'ffmpeg</span>
+<span xml:lang="es">Nota: ffmpeg necesita ser configurado con --enable-pp</span>
+<span xml:lang="de">Hinweis: ffmpeg muss mit --enable-pp konfiguriert werden</span>
+</para>
+
+</listitem>
+
+<listitem><para>
+<span xml:lang="en">compile and install :</span>
+<span xml:lang="fr">compilez et installez :</span>
+<span xml:lang="es">compile e instale :</span>
+<span xml:lang="de">Kompilieren und Installieren:</span>
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>make</userinput>
+<prompt># </prompt><userinput>make install</userinput>
+</screen>
+
+</listitem>
+
+</itemizedlist>
+
+<para>
+<span xml:lang="en">
+Check that the configuration file <filename>/etc/ld.so.conf</filename>
+contains the following line :</span>
+<span xml:lang="fr">
+Vérifiez que le fichier <filename>/etc/ld.so.conf</filename> contient 
+la ligne:</span>
+<span xml:lang="es">
+Compruebe que el fichero de configuración <filename>/etc/ld.so.conf</filename>
+contiene la siguiente línea :</span>
+<span xml:lang="de">
+Überprüfen Sie, dass die Konfigurationsdatei <filename>/etc/ld.so.conf
+</filename> die folgende Zeile enthält:</span>
+</para>
+
+<programlisting>
+/usr/local/lib
+</programlisting>
+
+<para>
+<span xml:lang="en">
+If the line is not present, add-it and then run (as root):</span>
+<span xml:lang="fr">
+Si elle n'y est pas, ajoutez-la, et lancez (en tant que root):</span>
+<span xml:lang="es">
+Si la línea no está presente, añádala y ejecute (como root):</span>
+<span xml:lang="de">
+Wenn die Zeile nicht existiert, fügen Sie sie hinzu und lassen Sie dann (als root)
+laufen:</span>
+</para>
+
+<screen>
+<prompt># </prompt><userinput>ldconfig</userinput>
+</screen>
+
+</sect3>
+
+<sect3><title>
+<span xml:lang="en">Install VLC</span>
+<span xml:lang="fr">Installez VLC</span>
+<span xml:lang="es">Instalación de VLC</span>
+<span xml:lang="de">Installation von VLC</span>
+</title>
+
+<para>
+<span xml:lang="en">
+Download the sources of the lastest release : get the
+file <filename>vlc-version.tar.gz</filename> from the <ulink
+url="http://www.videolan.org/vlc/download-sources.html">VLC sources
+download page</ulink>. Uncompress-it :</span>
+<span xml:lang="fr">
+Téléchargez les sources de la dernière version : récupérez le fichier
+<filename>vlc-version.tar.gz</filename>  de la <ulink 
+url="http://www.videolan.org/vlc/download-sources.html"> page de 
+téléchargement des sources de VLC</ulink>. Décompressez-le :</span>
+<span xml:lang="es">
+Descargue las fuentes de la última versión : consiga el fichero
+<filename>vlc-version.tar.gz</filename> de la <ulink
+url="http://www.videolan.org/vlc/download-sources.html">página de descargas de VLC
+</ulink>. Descomprímalo :</span>
+<span xml:lang="de">
+Laden Sie die Quellen der neuesten Version herunter: besorgen Sie sich
+die Datei <filename>vlc-version.tar.gz</filename> von der <ulink
+url="http://www.videolan.org/vlc/download-sources.html">VLC Quellen
+Downloadseite</ulink>. Dekomprimieren Sie sie:</span>
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>tar xvzf vlc-version.tar.gz</userinput>
+<prompt>% </prompt><userinput>cd vlc-version</userinput>
+</screen>
+
+<!-- bootstrap is already done is the tarballs -->
+<para>
+<span xml:lang="en">If you use sources from SVN, you need to run :</span>
+<span xml:lang="fr">Si vous utilisez des sources venant de SVN et non d'un tarball, vous devez d'abord executer :</span>
+<span xml:lang="es">Si está utilizando las fuentes de SVN, necesita ejecutar :</span>
+<span xml:lang="de">Wenn Sie Quellen aus dem SVN benutzen, müssen Sie
+folgendes laufen lassen:</span>
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>./bootstrap</userinput>
+</screen>
+
+<para>
+<span xml:lang="en">Tarballs are already bootstrapped</span>
+<span xml:lang="fr">Les tarballs sont déjà 'bootstrappés'</span>
+<span xml:lang="es">Los Tarballs se dejarán "bootstrapped"</span>
+<span xml:lang="de">Tarballs sind bereits 'gebootstrapped'</span>
+</para>
+
+<para>
+<span xml:lang="en">
+To get the list of configuration options, do :</span>
+<span xml:lang="fr">
+Pour afficher la liste des options de configuration, faites :</span>
+<span xml:lang="es">
+Para obtener la lista de opciones de configuración, hacer :</span>
+<span xml:lang="de">
+Um die Liste der Konfigurationsoptionen zu erhalten, machen Sie folgendes:</span>
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>./configure --help</userinput>
+</screen>
+
+<para>
+<span xml:lang="en">
+Please note that all the modules are described in
+the <emphasis>Modules</emphasis> section of the <ulink
+url="http://www.videolan.org/doc/vlc-user-guide/">VLC User
+Guide</ulink></span>
+<span xml:lang="fr">
+Remarque: tous les modules sont décrits dans la section 
+<emphasis>Modules</emphasis> du 
+<ulink url="http://www.videolan.org/doc/vlc-user-guide/">Manuel 
+de l'utilisateur du VLC</ulink></span>
+<span xml:lang="es">
+Todos los módulos están descritos en la sección
+<emphasis>Modules</emphasis> de la <ulink
+url="http://www.videolan.org/doc/vlc-user-guide/">Guía de usuario de VLC
+</ulink></span>
+<span xml:lang="de">
+Beachten Sie, dass alle Module in der <emphasis>Modules</emphasis>-Sektion
+des <ulink url="http://www.videolan.org/doc/vlc-user-guide/">VLC User
+Guides</ulink> beschrieben sind.</span>
+.</para>
+
+
+<para>
+<span xml:lang="en">Examples of very simple configurations:</span>
+<span xml:lang="fr">Quelques exemples de configurations très simples:</span>
+<span xml:lang="es">Ejemplos de configuraciones simples:</span>
+<span xml:lang="de">Beispiele von sehr einfachen Konfigurationen:</span>
+</para>
+
+<itemizedlist>
+
+<listitem><para>
+<span xml:lang="en">if you want a basic VLC, do </span>
+<span xml:lang="fr">pour un VLC très basique, utilisez</span>
+<span xml:lang="es">si desea un VLC básico, hacer </span>
+<span xml:lang="de">wenn Sie ein einfaches VLC möchten, machen Sie folgendes</span>
+: </para>
+
+<screen>
+<prompt>% </prompt><userinput>./configure</userinput>
+</screen>
+
+</listitem>
+
+<listitem><para>
+<span xml:lang="en">if you want the Gnome interface instead of the GTK
+interface (you will need the development packages of Gnome) :</span>
+<span xml:lang="fr">
+Si vous désirez l'interface Gnome au lieu de l'interface Gtk 
+(vous aurez besoin des fichiers de développement de Gnome):</span>
+<span xml:lang="es">si desea el interfaz Gnome en vez de el interfaz GTK
+(necesitará los paquetes de desarrollo de Gnome) :</span>
+<span xml:lang="de">wenn Sie die Gnome-Oberfläche anstatt der
+GTK-Oberfläche möchten (Sie benötigen die Development-Pakete von Gnome):</span>
+
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>./configure --enable-gnome</userinput>
+</screen>
+
+</listitem>
+
+</itemizedlist>
+
+<para>
+<span xml:lang="en">Then, compile and install :</span>
+<span xml:lang="fr">Puis, compilez et installez :</span>
+<span xml:lang="es">Entonces, compile e instale :</span>
+<span xml:lang="de">Kompilieren und installieren Sie danach:</span>
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>make</userinput>
+<prompt>% </prompt><userinput>su</userinput>
+<prompt>Password: </prompt><userinput> [Root Password]</userinput>
+<prompt># </prompt><userinput>make install</userinput>
+</screen>
+
+<para>
+<span xml:lang="en">
+Please note that the installation (<command>make install</command>
+command) is not mandatory. You can execute VLC from where you compiled
+it.</span>
+<span xml:lang="fr">
+Remarque: l'installation (<command>make install</command>) n'est pas 
+obligatoire. Vous pouvez également exécuter VLC depuis l'endroit où vous
+l'avez compilé</span>
+<span xml:lang="es">
+Nota: la instalación (<command>make install</command>
+command) no es obligatoria. Puede ejecutar VLC desde donde lo compiló.</span>
+<span xml:lang="de">
+Bitte beachten Sie, dass die Installation (<command>make install</command>)
+nicht verbindlich ist. Sie können VLC auch von dort ausführen, wo Sie es
+kompiliert haben.</span>
+</para>
+
+</sect3>
+</sect2>

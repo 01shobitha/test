@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<sect1><title>
+Modules d'entrée
+</title>
+
+<para>
+Ces modules permettent à VLC de lire depuis
+différentes sources. VLC essaie de choisir le module le plus adapté au
+moment de la lecture. Si vous voulez forcer un module particulier, lancez
+VLC avec l'option :
+<emphasis>--access modulename</emphasis></para>
+
+<sect2><title>cdda</title>
+&enabled;
+<para>
+Module de lecture de CDs audio. Si vous avez la bibliothèque libvcdinfo dans une version assez récente (de <ulink
+url="http://www.vcdimager.org/index.phtml">vcdimager</ulink>) et une bibliothèque <ulink url="http://www.gnu.org/software/libcdio">libcdio</ulink> assez récente, vous aurez le nouveau module gérant la navigation. L'ancien module est appelé à disparaitre. Voir <filename>doc/intf-vcd.txt</filename> pour plus de détails.
+
+</para></sect2>
+
+<sect2><title>dvb</title>
+&disabled;
+<para><emphasis>
+Seulement pour GNU/Linux
+</emphasis></para>
+<para>
+Ce module permet de lire depuis des cartes DVB-S,
+DVB-T et DVB-C, de satellite, télévision numérique terrestre ou cable.
+Il utilise l'API Video4Linux 2, qui n'existe que dans les versions 2.5
+et 2.6 du noyau Linux
+.</para></sect2>
+
+<sect2><title>dvd</title>
+&enabled;
+<para>
+Ceci est l'ancien module de lecture de DVD. Vous
+aurez besoin de <emphasis>libdvdcss</emphasis> pour décrypter les DVD
+(voir <ulink url="http://developers.videolan.org/libdvdcss/">la page
+libdvdcss</ulink>)
+.</para></sect2>
+
+<sect2><title>dvdplay</title>
+&enabled;
+<para>
+Ceci est le module de lecture de DVD standard. Vous
+aurez besoin de <emphasis>libdvdcss</emphasis> pour décrypter les DVD
+(voir <ulink url="http://developers.videolan.org/libdvdcss/">la page
+libdvdcss</ulink>), et de <emphasis>libdvdplay</emphasis> pour les menus
+DVD (voir <ulink url="http://developers.videolan.org/libdvdplay/">la
+page libdvdplay</ulink>)
+.</para></sect2>
+
+<sect2><title>dvdread</title>
+&disabled;
+<para>
+Ce module, alternative au précédent, utilise
+<emphasis>libdvdread</emphasis> pour lire les DVDs (voir la <ulink
+url="http://www.dtek.chalmers.se/groups/dvd/downloads.shtml">page
+de téléchargement d'Ogle</ulink>) et
+<emphasis>libdvdcss</emphasis> pour décrypter les DVD (voir
+<ulink url="http://developers.videolan.org/libdvdcss/">la page
+libdvdcss</ulink>).
+</para>
+</sect2>
+
+<sect2><title>http,ftp,udp,file,directory,mms</title>
+&always;
+<para>
+Ces module sont les modules d'entrée standards.
+Le module HTTP peut être utilisé pour la vidéo à la demande (VOD)
+.</para></sect2>
+
+<sect2><title>pvr</title>
+&disabled;
+<para><emphasis>
+Seulement pour GNU/Linux
+</emphasis></para>
+<para>
+Ce module permet de lire depuis les cartes Hauppauge PVR
+.</para></sect2>
+
+<sect2><title>satellite</title>
+&disabled;
+<para>
+Ce modulee d'entrée permet de lire depuis une carte
+Hauppauge WinTV Nova sous GNU/Linux. Vous aurez besoin des drivers, 
+v0.9.4, disponibles sur <ulink url="http://www.linuxtv.org/">linuxtv.org</ulink>.
+</para></sect2>
+
+<sect2><title>slp</title>
+&enabled;
+<para>
+Ce module vous permet de récupérer les noms et
+addresses pour les flux annoncés à l'aide du protocole SLP.
+</para></sect2>
+
+<sect2><title>v4l</title>
+&disabled;
+<para><emphasis>
+Seulement pour GNU/Linux
+</emphasis></para>
+<para>
+Ce module vous permet de lire des flux Video4Linux
+.</para></sect2>
+
+
+<sect2><title>vcd</title>
+&enabled;
+<para>
+Module de lecture de VideoCD. Si vous avez la bibliothèque
+libvcdinfo dans une version assez récente (de <ulink
+url="http://www.vcdimager.org/index.phtml">vcdimager</ulink>)
+et une bibliothèque <ulink
+url="http://www.gnu.org/software/libcdio">libcdio</ulink> assez récente,
+vous aurez le nouveau module gérant la navigation. L'ancien module est
+appelé à disparaitre. Voir <filename>doc/intf-vcd.txt</filename> pour
+plus de détails.
+
+</para></sect2>
+
+</sect1>

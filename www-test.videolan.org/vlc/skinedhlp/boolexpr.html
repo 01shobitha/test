@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+     "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>VLC Skin Editor - Online Help - Boolean expressions</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+</head>
+<body>
+<div class="header">
+<a href="index.html">VLC Skin Editor - Online Help</a> &gt; Documentation &gt; Boolean expressions
+</div>
+<h1>Boolean expressions</h1>
+<p>
+A boolean expression is a combination of certain boolean variables (variables whose value is either TRUE or FALSE).
+You can combine such variables via the operators AND, OR and NOT. Also you can nest several boolean expressions by using brackets.
+</p>
+<p>
+For example the expression "<i>(not vlc.isPlaying) or vlc.isMute</i>" would resolve to TRUE if VLC plays nothing or if the playback is muted.
+</p>
+<h3>Boolean variables</h3>
+<p>Besides the constant boolean values <b>true</b> and <b>false</b> the following boolean variables can be used in VLC.</p>
+<p>
+<ul>
+<li><b>equalizer.isEnabled</b>: True if the equalizer audio filter is enabled.</li>
+<li><b>vlc.hasVout</b>: True if a video is being played.</li>
+<li><b>vlc.hasAudio</b>: True if audio is being played.</li>
+<li><b>vlc.isFullscreen</b>: True when the video is in fullscreen mode.</li>
+<li><b>vlc.isPlaying</b>: True when VLC is playing, false otherwise.</li>
+<li><b>vlc.isStopped</b>: True when VLC is stopped, false otherwise.</li>
+<li><b>vlc.isPaused</b>: True when VLC is paused, false otherwise.</li>
+<li><b>vlc.isSeekable</b>: True when the stream is seekable, false otherwise. This one can be used if you want to display a slider only when seeking is allowed.</li>
+<li><b>vlc.isMute</b>: True when the sound is mute (in VLC, not on your OS), false otherwise.</li>
+<li><b>vlc.isOnTop</b>: True when the windows have the "Always on top" status.</li>
+<li><b>playlist.isRandom</b>: True when the playlist items are played in a random order, false otherwise.</li>
+<li><b>playlist.isLoop</b>: True when the playlist is looping, false otherwise.</li>
+<li><b>playlist.isRepeat</b>: True when the current playlist item is being repeated, false otherwise.</li>
+<li><b>dvd.isActive</b>: True when a DVD is currently playing.</li>
+<li><b>WindowID.isMaximized</b>: True when the window whose ID is <i>WindowID</i> is maximized, false otherwise.</li>
+<li><b>WindowID.isVisible</b>: True when the window whose ID is <i>WindowID</i> is visible, false otherwise.</li>
+<li><b>LayoutID.isVisible</b>: True when the layout whose ID is <i>LayoutID</i> is the active layout in its window (even if the window is hidden), false otherwise.</li>
+</ul>
+</p>
+<p class="footer">
+&copy; 2008 All rights reserved to the VideoLAN team.
+</p>
+</body>
+</html>

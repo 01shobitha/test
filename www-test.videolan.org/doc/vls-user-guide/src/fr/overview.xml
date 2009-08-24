@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- revision:1.1 -->
+<chapter id="overview"><title id="toverview">
+
+Concepts et mode de fonctionnement
+
+</title>
+
+<sect1><title>Structure de VLS</title>
+
+<para>
+D'un point de vue utilisateur, VLS peut être divisé 
+en quatre composants majeurs:</para>
+
+<itemizedlist>
+
+<listitem><para>
+
+un <emphasis>gestionnaire</emphasis>
+
+,</para></listitem>
+<listitem><para>
+<emphasis>
+des entrées
+
+</emphasis>,</para></listitem>
+<listitem><para><emphasis>
+des convertisseurs
+</emphasis>,</para></listitem>
+<listitem><para>
+et des <emphasis>sorties</emphasis>
+.</para></listitem>
+
+</itemizedlist>
+
+<figure><title>Structure de VLS</title>
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/archi-vls.jpg" format="JPG" scalefit="1" scale="60"/>
+  </imageobject>
+</mediaobject>
+</figure>
+
+<simplesect><title>Entrées</title>
+
+<para>
+Le rôle d'une <emphasis>entrée</emphasis> est
+de lire des flux MPEG depuis une source donnée (fichier, DVD, carte
+DVB, ...), et de les envoyer aux <emphasis>convertisseurs</emphasis>.
+Une entrée peut lire plusieurs flux. Ceux-ci sont alors appellés
+des <emphasis>programmes</emphasis>. Il existe plusieurs types
+d'entrées :</para>
+
+<itemizedlist>
+
+<listitem><para>
+
+l'entrée <emphasis>local</emphasis>, qui peut lire
+depuis des fichiers et des DVDs
+
+,</para></listitem>
+
+<listitem><para>
+l'entrée <emphasis>video</emphasis>, qui
+peut lire des vidéos depuis des cartes d'encodage MPEG
+,</para></listitem>
+
+<listitem><para>,
+l'entrée <emphasis>dvb</emphasis>, qui peut
+lire depuis des cartes DVB
+
+,</para></listitem>
+
+<listitem><para>
+
+l'entrée <emphasis>v4l</emphasis>, qui 
+peut lire depuis les cartes d'acquisition supportées par les
+pilotes Video4Linux
+
+.</para></listitem>
+
+</itemizedlist>
+
+<para>
+Vous pouvez utiliser plusieurs entrées et jouer
+plusieurs programmes en même temps.</para>
+
+</simplesect>
+
+<simplesect><title>Les convertisseurs
+</title>
+
+<para>
+Le rôle d'un <emphasis>convertisseur</emphasis>
+est de recevoir un flux depuis une entrée et de le convertir au format
+MPEG-TS. VLS peut convertir des flux PS (provenant d'un DVD, par
+exemple) en flux TS, en utilisant le convertisseur ps2ts. Bien sûr, il
+peut également lire les flux TS, et les réparer en prenant en charge les
+discontinuités du flux (convertisseur ts2ts).</para>
+
+</simplesect>
+
+<simplesect><title>
+Les sorties
+</title>
+
+<para>
+
+Une sortie recoit le flux depuis le convertisseur,
+et l'envoie vers une destination donnée (réseau, fichier). Actuellement,
+il existe deux types de sorties: <emphasis>network</emphasis> et
+<emphasis>file</emphasis>. Pour l'instant, VLS ne peut utiliser qu'une
+sortie par flux, donc vous ne pouvez pas diffuser un flux sur le réseau
+et l'enregistrer dans un fichier en même temps. La sortie réseau est
+très configuratble: vous pouvez choisir l'interface réseau, et spécifier
+les adresses IP source et destination
+
+
+
+.</para>
+
+</simplesect>
+
+<simplesect><title>
+
+Le gestionnaire
+
+</title>
+
+<para>
+
+Le <emphasis>gestionnaire</emphasis>
+contrôle l'envoi des flux. En utilisant une <emphasis>interface
+d'administration</emphasis>, vous pouvez lancer, arrêter, interrompre,
+ou reprendre les programmes. Vous pouvez également afficher la liste des
+programmes disponibles, lue depuis le fichier de configuration de VLS
+(<filename>vls.cfg</filename>) (c'est pourquoi elle ne peut pas être
+changée après le démarrage). Pour l'instant, vous ne pouvez pas demander
+au gestionnaire si un flux est en cours de diffusion, mais une erreur se
+produira si vous tentez de stopper un flux qui ne l'est pas
+
+
+.</para>
+
+</simplesect>
+</sect1>
+
+<sect1><title>
+
+Interface d'administration
+
+</title>
+
+<para>
+
+Il existe deux moyens de contrôler VLS
+
+:</para>
+
+<itemizedlist>
+
+<listitem><para>
+
+vous pouvez utiliser la <emphasis>ligne de
+commande</emphasis> pour passer des arguments au démarrage;
+
+</para></listitem>
+
+<listitem><para>
+
+ou vous pouvez utiliser l'<emphasis>interface
+Telnet</emphasis> pour contrôler la diffusion à tout moment
+
+.</para></listitem>
+
+</itemizedlist>
+
+<para>
+
+Afin d'utiliser l'interface Telnet, vous devez tout
+d'abord vous authentifier, car tous les utilisateurs ne peuvent exécuter
+toutes les commandes (ceci se règle dans le fichier de configuration
+<filename>vls.cfg</filename>)
+
+.</para>
+
+</sect1>
+</chapter>

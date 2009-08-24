@@ -575,7 +575,12 @@ a.en {
 	
 }
 .projectmenu td {
-	border:1px #bdbdbd solid;
+	border:1px #bdbdbd solid !important;
 	background: none !important;
 	padding: 5px !important;
+	text-align: center;
+}
+.projectmenu a:link, .projectmenu a:visited {
+	text-decoration: none;
+	font-weight: bold;	
 }

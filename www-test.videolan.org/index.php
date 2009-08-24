@@ -7,12 +7,13 @@
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");
 ?>
 <div style="border:1px #bdbdbd solid; -moz-border-radius:10px; -webkit-border-radius:10px; margin-top:10px; background-color: #e9e9e9;padding:0px">
-  <p style="border-bottom:1px #bdbdbd solid;margin:0px;padding:5px">
+  <p>
   VideoLAN is a <a href="/videolan/">project</a>, run by volunteers,
          backed-up by a <a href="/videolan/">non-profit organisation</a>,
          which produces <a href="http://www.gnu.org/philosophy/free-sw.html">free and open source software</a> for multimedia,
          released under the GNU <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">General Public License</a>.<br>
-      Learn more about the <strong><a href="/videolan/">VideoLAN project and organisation</a></strong>.</p>
+      Learn more about the <strong><a href="/videolan/">VideoLAN project and organisation</a></strong>.
+  </p>
 <table class="projectmenu">
   <tr>
     <td class="title">VideoLAN projects:</td>
@@ -25,7 +26,7 @@
 </table>
 <table>
   <tr>
-    <td style="text-align:right">
+    <td style="text-align:right" style="min-width:300px">
       <!-- TODO adapt to users platform -->
       <img src="images/screenshots/windows.png" alt="Windows">
     </td>
@@ -87,7 +88,7 @@
       <?php panel_end(); ?>
     </td>
     
-    <td style="text-align:left">
+    <td style="text-align:left;min-width:300px;">
       <img src="images/screenshots/skins.png" alt="Skins">
     </td>
     

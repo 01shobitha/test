@@ -16,7 +16,7 @@
 <table class="projectmenu">
   <tr>
     <td class="title">VideoLAN projects:</td>
-    <td class="active"><a href="#">VLC media player</a></td>
+    <td class="active">VLC media player</td>
     <td><a href="#">VLC Skin Editor</a></td>
     <td><a href="#">VideoLAN Manager</a></td>
     <td><a href="#">DVBlast</a></td>

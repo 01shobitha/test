@@ -5,9 +5,10 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");
+   include($_SERVER["DOCUMENT_ROOT"]."/include/magpierss/rss_fetch.inc");
 ?>
 <div style="border:1px #bdbdbd solid; -moz-border-radius:10px; -webkit-border-radius:10px; margin-top:10px; background-color: #e9e9e9;padding:0px">
-  <p>
+  <p style="padding:10px">
   VideoLAN is a <a href="/videolan/">project</a>, run by volunteers,
          backed-up by a <a href="/videolan/">non-profit organisation</a>,
          which produces <a href="http://www.gnu.org/philosophy/free-sw.html">free and open source software</a> for multimedia,
@@ -104,12 +105,10 @@
     <a href="videolan-news.rss">RSS</a>
     &bull; 
     <a href="news.html">Read all news</a>
-    &bull;
-    <a href="http://planet.videolan.org">Read developer's blog &amp; news</a>
     </span></h1>
   </td>
   <td>
-    <h1>Other projects</h1>
+    <h1>Planet VideoLAN</h1>
   </td>
   <td>
     <h1>Contribute</h1>
@@ -119,16 +118,25 @@
 <!--Begin news items -->
 <?php
   shownews_mockup("full", 3);
+  $i = 0;
+  $max = 5;
+  echo "<ul class=\"panel-blue-bullet\">\n";
+  foreach($rss->items as $item) {
+    echo "<li><a href=\"".$item['link']."\">";
+    echo $item['title'];
+    echo "</a></li>\n";
+    $i++;
+    if($i>=$max) break;
+  }
+  echo "</ul>";
 ?>
 <!--End news items -->
 <td>
-  VideoLAN is a host to many more projects besides VLC media player.
-  <ul class="panel-blue-bullet">
-    <li><a href="/vlc/skineditor.html">VLC Skin Editor</a></li>
-    <li><a href="/developers/x264.html">x264</a></li>
-    <li><a href="/projects/vlma">VideoLAN Manager (VLMa)</a></li>
-    <li><a href="/projects/dvblast.html">DVBlast</a></li>
-  </ul>
+<!-- Begin VideoLAN Planet -->
+<?php
+  $rss = fetch_rss("http://planet.videolan.org/rss10.xml");
+?>
+<!-- End VideoLAN Planet -->
 </td>
 <td>        
     <p>This is the only source of revenue for VideoLAN, please help!</p>

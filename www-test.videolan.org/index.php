@@ -12,7 +12,7 @@
   VideoLAN is a <a href="/videolan/">project</a>, run by volunteers,
          backed-up by a <a href="/videolan/">non-profit organisation</a>,
          which produces <a href="http://www.gnu.org/philosophy/free-sw.html">free and open source software</a> for multimedia,
-         released under the GNU <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">General Public License</a>.<br>
+         released under the GNU <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">General Public License</a>.<br/>
       Learn more about the <strong><a href="/videolan/">VideoLAN project and organisation</a></strong>.
   </p>
 <table class="projectmenu">
@@ -27,9 +27,9 @@
 </table>
 <table class="presentation">
   <tr>
-    <td style="text-align:right" style="min-width:300px">
+    <td style="text-align:right, min-width:300px">
       <!-- TODO adapt to users platform -->
-      <img src="images/screenshots/windows.png" alt="Windows">
+      <img src="images/screenshots/windows.png" alt="Windows"/>
     </td>
     
     <td>
@@ -90,7 +90,7 @@
     </td>
     
     <td style="text-align:left;min-width:300px;">
-      <img src="images/screenshots/skins.png" alt="Skins">
+      <img src="images/screenshots/skins.png" alt="Skins"/>
     </td>
     
   </tr>
@@ -129,7 +129,7 @@
   echo "<ul class=\"panel-blue-bullet\">\n";
   foreach($rss->items as $item) {
     echo "<li><a href=\"".$item['link']."\">";
-    echo htmlentities($item['title'], ENT_COMPAT, "UTF-8");
+    echo htmlentities($item['title']);
     echo "</a></li>\n";
     $i++;
     if($i>=$max) break;
@@ -140,8 +140,8 @@
 </td>
 <td>        
     <p>This is the only source of revenue for VideoLAN, please help!</p>
-    <br>
-    <p>VideoLAN welcomes all contributions to the project!<br>
+    <br/>
+    <p>VideoLAN welcomes all contributions to the project!<br/>
     You can contribute time (documentation, packaging, development, tests, user support, ...),
     material or even money. See the <a href="/contribute.html">contribution
     page</a> for more information.</p>
@@ -155,7 +155,7 @@
               <input name="currency_code" value="EUR" type="hidden">
               <input name="tax" value="0" type="hidden">
               <input src="http://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="Donate money to VideoLAN via PayPal" type="image">
-              <br>
+              <br/>
               <span style="font-size: 10pt;">Euro</span>
             </p>
           </form>
@@ -170,7 +170,7 @@
               <input name="currency_code" value="USD" type="hidden">
               <input name="tax" value="0" type="hidden">
               <input src="http://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="Donate money to VideoLAN via PayPal" type="image">
-              <br>
+              <br/>
               <span style="font-size: 10pt;">Dollar</span>
             </p>
           </form>
@@ -179,4 +179,4 @@
 </tr>
 </table>
 
-<?php footer('$Id: index.php 4462 2008-02-23 13:20 altglass$'); ?>
+<?php footer('$Id: index.php **** 2009-08-24 altglass$'); ?>

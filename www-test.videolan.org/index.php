@@ -15,7 +15,8 @@
       Learn more about the <strong><a href="/videolan/">VideoLAN project and organisation</a></strong>.</p>
 <table class="projectmenu">
   <tr>
-    <td><a href="#">VLC media player</a></td>
+    <td class="title">VideoLAN projects:</td>
+    <td class="active"><a href="#">VLC media player</a></td>
     <td><a href="#">VLC Skin Editor</a></td>
     <td><a href="#">VideoLAN Manager</a></td>
     <td><a href="#">DVBlast</a></td>
@@ -107,10 +108,10 @@
     </span></h1>
   </td>
   <td>
-    <h1>Contribute</h1>
+    <h1>Other projects</h1>
   </td>
   <td>
-    <h1>Other projects</h1>
+    <h1>Contribute</h1>
   </td>
 </tr>
 <tr>

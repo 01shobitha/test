@@ -24,7 +24,7 @@
     <td><a href="#">x264</a></td>
   </tr>
 </table>
-<table>
+<table class="presentation">
   <tr>
     <td style="text-align:right" style="min-width:300px">
       <!-- TODO adapt to users platform -->

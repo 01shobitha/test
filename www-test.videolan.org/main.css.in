@@ -594,7 +594,7 @@ a.en {
 	text-decoration: none;
 	font-weight: bold;	
 }
-.projectmenu table td {
+.presentation td {
 	vertical-align: middle;
 	border: none !important;
 	background: none !important;

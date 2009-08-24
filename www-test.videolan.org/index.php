@@ -117,7 +117,13 @@
 <tr>
 <!--Begin news items -->
 <?php
-  shownews_mockup("full", 3);
+  shownews_mockup("full", 3); 
+?>
+<!--End news items -->
+<td>
+<!-- Begin VideoLAN Planet -->
+<?php
+  $rss = fetch_rss("http://planet.videolan.org/rss10.xml");
   $i = 0;
   $max = 5;
   echo "<ul class=\"panel-blue-bullet\">\n";
@@ -129,12 +135,6 @@
     if($i>=$max) break;
   }
   echo "</ul>";
-?>
-<!--End news items -->
-<td>
-<!-- Begin VideoLAN Planet -->
-<?php
-  $rss = fetch_rss("http://planet.videolan.org/rss10.xml");
 ?>
 <!-- End VideoLAN Planet -->
 </td>

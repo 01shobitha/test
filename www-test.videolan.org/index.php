@@ -125,11 +125,11 @@
 <?php
   $rss = fetch_rss("http://planet.videolan.org/rss10.xml");
   $i = 0;
-  $max = 5;
+  $max = 7;
   echo "<ul class=\"panel-blue-bullet\">\n";
   foreach($rss->items as $item) {
     echo "<li><a href=\"".$item['link']."\">";
-    echo $item['title'];
+    echo htmlentities($item['title'], ENT_COMPAT, "UTF-8");
     echo "</a></li>\n";
     $i++;
     if($i>=$max) break;

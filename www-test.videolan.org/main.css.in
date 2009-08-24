@@ -560,6 +560,14 @@ a.en {
 .mirror li { padding-left: 25px; }
 
 /**** New front page ****/
+.tabbedpane {
+	border:1px #bdbdbd solid;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	margin-top:10px;
+	background-color: #FFF;
+	padding:0px
+}
 .fronttable {
 	margin-top: 10px;
 	margin-left: auto;

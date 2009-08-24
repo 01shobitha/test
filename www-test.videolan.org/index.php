@@ -7,7 +7,7 @@
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/magpierss/rss_fetch.inc");
 ?>
-<div style="border:1px #bdbdbd solid; -moz-border-radius:10px; -webkit-border-radius:10px; margin-top:10px; background-color: #e9e9e9;padding:0px">
+<div class="tabbedpane">
   <p style="padding:10px">
   VideoLAN is a <a href="/videolan/">project</a>, run by volunteers,
          backed-up by a <a href="/videolan/">non-profit organisation</a>,
@@ -27,7 +27,7 @@
 </table>
 <table class="presentation">
   <tr>
-    <td style="text-align:right, min-width:300px">
+    <td style="text-align:right; min-width:300px">
       <!-- TODO adapt to users platform -->
       <img src="images/screenshots/windows.png" alt="Windows"/>
     </td>

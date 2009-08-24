@@ -23,7 +23,7 @@
     <td><a href="#">x264</a></td>
   </tr>
 </table>
-<table class="fronttable">
+<table>
   <tr>
     <td style="text-align:right">
       <!-- TODO adapt to users platform -->

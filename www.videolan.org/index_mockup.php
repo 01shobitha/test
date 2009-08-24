@@ -6,7 +6,12 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");
 ?>
-
+<?php panel_start ("blue"); ?>
+VideoLAN is a project, run by volunteers, backed-up by a non-profit organisation, which produces free and open source software for multimedia, released under the GNU General Public License.
+Learn more about the VideoLAN project and organisation.
+<hr>
+TODO: Selection between various projects
+<hr>
 <table class="fronttable">
   <tr>
     <td style="text-align:right">
@@ -15,7 +20,7 @@
     </td>
     
     <td>
-      <?php panel_start( "blue" ); ?>
+      <?php panel_start( "green" ); ?>
       <p>
         <h1 style="text-align:center;font-weight:bold;font-size:20pt;text-shadow:0px 1px 5px #999;padding-bottom:10px">VLC media player</h1>
         <ul class="panel-blue-bullet" style="padding-bottom:0px">
@@ -78,6 +83,7 @@
   </tr>
 
 </table>
+ <?php panel_end(); ?>
 
 <table class="fronttable">
 <tr>
@@ -104,6 +110,15 @@
   shownews_mockup("full", 3);
 ?>
 <!--End news items -->
+<td>
+  VideoLAN is a host to many more projects besides VLC media player.
+  <ul class="panel-blue-bullet">
+    <li><a href="/vlc/skineditor.html">VLC Skin Editor</a></li>
+    <li><a href="/developers/x264.html">x264</a></li>
+    <li><a href="/projects/vlma">VideoLAN Manager (VLMa)</a></li>
+    <li><a href="/projects/dvblast.html">DVBlast</a></li>
+  </ul>
+</td>
 <td>        
     <p>This is the only source of revenue for VideoLAN, please help!</p>
     <br>
@@ -111,9 +126,7 @@
     You can contribute time (documentation, packaging, development, tests, user support, ...),
     material or even money. See the <a href="/contribute.html">contribution
     page</a> for more information.</p>
-    <table style="margin: 0px; background: transparent none repeat scroll 0% 0%; -moz-background-clip: border; -moz-background-origin: padding; -moz-background-inline-policy: continuous;">
-      <tr>
-        <td style="border: 0px none ; padding: 0px; background: transparent none repeat scroll 0% 0%; -moz-background-clip: border; -moz-background-origin: padding; -moz-background-inline-policy: continuous; text-align: center;">
+    <p>
           <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
             <p>
               <input name="cmd" value="_xclick" type="hidden">
@@ -127,8 +140,8 @@
               <span style="font-size: 10pt;">Euro</span>
             </p>
           </form>
-        </td>
-        <td style="border: medium none ; padding: 0px; background: transparent none repeat scroll 0% 0%; -moz-background-clip: border; -moz-background-origin: padding; -moz-background-inline-policy: continuous; text-align: center;">
+    </p>
+    <p>
           <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
             <p>
               <input name="cmd" value="_xclick" type="hidden">
@@ -142,17 +155,7 @@
               <span style="font-size: 10pt;">Dollar</span>
             </p>
           </form>
-        </td>
-      </tr>
-    </table>
-</td>
-<td>
-  <ul class="panel-blue-bullet">
-    <li><a href="/vlc/skineditor.html">VLC Skin Editor</a></li>
-    <li><a href="/developers/x264.html">x264</a></li>
-    <li><a href="/projects/vlma">VideoLAN Manager (VLMa)</a></li>
-    <li><a href="/projects/dvblast.html">DVBlast</a></li>
-  </ul>
+    </p>
 </td>
 </tr>
 </table>

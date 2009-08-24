@@ -576,6 +576,7 @@ a.en {
 }
 .projectmenu td {
 	border:1px #bdbdbd solid !important;
+	border-right: 0px !important;
 	background: none !important;
 	padding: 5px !important;
 	text-align: center;

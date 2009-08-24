@@ -33,7 +33,12 @@
     </td>
     
     <td>
-      <?php panel_start( "blue" ); ?>
+    <div class="panel-blue" style="margin-top:0px"> <!-- begin panel -->
+      <div class="hd">
+        <div class="c"></div>
+      </div>
+      <div class="bd">
+        <div class="c">
       <p>
         <h1 style="text-align:center;font-weight:bold;font-size:20pt;text-shadow:0px 1px 5px #999;padding-bottom:10px">VLC media player</h1>
         <ul class="panel-blue-bullet" style="padding-bottom:0px">
@@ -122,11 +127,12 @@
 <!--End news items -->
 <td>
 <!-- Begin VideoLAN Planet -->
+<p>
+<ul class="panel-blue-bullet" style="border-bottom: 1px solid #CCC">
 <?php
   $rss = fetch_rss("http://planet.videolan.org/rss10.xml");
   $i = 0;
   $max = 7;
-  echo "<ul class=\"panel-blue-bullet\">\n";
   foreach($rss->items as $item) {
     echo "<li><a href=\"".$item['link']."\">";
     echo htmlentities($item['title']);
@@ -134,9 +140,11 @@
     $i++;
     if($i>=$max) break;
   }
-  echo "</ul>";
 ?>
+</ul>
+<a href="http://planet.videolan.org">Read more...</a>
 <!-- End VideoLAN Planet -->
+</p>
 </td>
 <td>        
     <p>This is the only source of revenue for VideoLAN, please help!</p>

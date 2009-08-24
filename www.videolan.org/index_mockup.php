@@ -15,6 +15,7 @@
     </td>
     
     <td>
+      <?php panel_start( "blue" ); ?>
       <p>
         <h1 style="text-align:center;font-weight:bold;font-size:20pt;text-shadow:0px 1px 5px #999;padding-bottom:10px">VLC media player</h1>
         <ul class="panel-blue-bullet" style="padding-bottom:0px">
@@ -67,10 +68,11 @@
         </td>
       </tr>
       </table>
+      <?php panel_end(); ?>
     </td>
     
     <td style="text-align:left">
-      <img src="images/skins.png" alt="Skins">
+      <img src="images/screenshots/skins.png" alt="Skins">
     </td>
     
   </tr>

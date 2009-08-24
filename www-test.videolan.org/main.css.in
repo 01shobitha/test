@@ -571,3 +571,11 @@ a.en {
 	background: none !important;
 	padding: 5px !important;
 }
+.projectmenu {
+	
+}
+.projectmenu td {
+	border:1px #bdbdbd solid;
+	background: none !important;
+	padding: 5px !important;
+}

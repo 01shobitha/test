@@ -9,11 +9,11 @@
 ?>
 <div class="tabbedpane">
   <p style="padding:10px">  
-    The <b>VideoLAN project</b> is a non-profit organization that puts its efforts into developing
+    The <b>VideoLAN organisation</b> is a non-profit organization that puts its efforts into developing
     <a href="http://www.gnu.org/philosophy/free-sw.html" target="_blank">free</a> multimedia solutions.
     It's a host to various open source projects, the most prominent being the VLC media player.
     <br/><br/>
-    <a href="/videolan/">Learn more about the VideoLAN project.</a>
+    <a href="/videolan/">Learn more about VideoLAN.</a>
   </p>
 <table class="projectmenu">
   <tr>
@@ -172,6 +172,8 @@
     </span>
     </h1>
   </td>
+</tr>
+<tr>
   <td>
     <?php
       $rss = fetch_rss("http://planet.videolan.org/rss10.xml");
@@ -180,7 +182,7 @@
       foreach($rss->items as $item) {
         echo "<p>";
         echo "<b>".htmlentities($item['title'])."</b><br/>";
-        echo substr(strip_tags($item['content']),0,200);
+        echo substr(strip_tags($item['description']),0,200);
         echo "<a href=\"".$item['link']."\">[...]</a><br/>";
         echo "</p>";
         $i++;

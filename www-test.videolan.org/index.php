@@ -107,7 +107,7 @@
           </table>      
         </div>
       </div>
-      <div class="ft">
+      <div class="ft" style="margin-top:0px; padding-top:0px">
         <div class="c"></div>
       </div>
     </div> <!-- end panel -->

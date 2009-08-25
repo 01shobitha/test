@@ -9,10 +9,11 @@
 ?>
 <div class="tabbedpane">
   <p style="padding:10px">  
-    The <b>VideoLAN project</b> is a non-profit organization that puts its efforts into developing free and open source multimedia solutions.
-  </p>
-  <p style="padding-top:5px">
-  <a href="/videolan/">Learn more about the VideoLAN project.</a>
+    The <b>VideoLAN project</b> is a non-profit organization that puts its efforts into developing
+    <a href="http://www.gnu.org/philosophy/free-sw.html" target="_blank">free</a> multimedia solutions.
+    It's a host to various open source projects, the most prominent being the VLC media player.
+    <br/><br/>
+    <a href="/videolan/">Learn more about the VideoLAN project.</a>
   </p>
 <table class="projectmenu">
   <tr>
@@ -161,26 +162,34 @@
     </p>
 </td>
 </tr>
+<tr>
+  <td colspan="3">
+    <h1 style="position:relative">Planet VideoLAN
+    <span style="position:absolute;right:0px;font-size:10pt">
+    <a href="http://planet.videolan.org/rss10.xml">RSS</a>
+    &bull; 
+    <a href="http://planet.videolan.org">Read all developer's posts</a>
+    </span>
+    </h1>
+  </td>
+  <td>
+    <?php
+      $rss = fetch_rss("http://planet.videolan.org/rss10.xml");
+      $i = 0;
+      $max = 15;
+      foreach($rss->items as $item) {
+        echo "<p>";
+        echo "<b>".htmlentities($item['title'])."</b><br/>";
+        echo substr(strip_tags($item['content']),0,200);
+        echo "<a href=\"".$item['link']."\">[...]</a><br/>";
+        echo "</p>";
+        $i++;
+        if($i>=$max) break;
+        if($i%5==0) echo "</td><td>";
+      }
+    ?>
+  </td>
+</tr>
 </table>
-<h1>Planet VideoLAN</h1>
-<!-- Begin VideoLAN Planet -->
-<p>
-<ul class="panel-blue-bullet" style="border-bottom: 1px solid #CCC">
-<?php
-  $rss = fetch_rss("http://planet.videolan.org/rss10.xml");
-  $i = 0;
-  $max = 7;
-  foreach($rss->items as $item) {
-    echo "<li><a href=\"".$item['link']."\">";
-    echo htmlentities($item['title']);
-    echo "</a></li>\n";
-    $i++;
-    if($i>=$max) break;
-  }
-?>
-</ul>
-<a href="http://planet.videolan.org">Read more...</a>
-</p>
-<!-- End VideoLAN Planet -->
 
 <?php footer('$Id: index.php **** 2009-08-24 altglass$'); ?>

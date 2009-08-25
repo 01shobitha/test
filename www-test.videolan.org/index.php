@@ -8,13 +8,11 @@
    include($_SERVER["DOCUMENT_ROOT"]."/include/magpierss/rss_fetch.inc");
 ?>
 <div class="tabbedpane">
-  <img src="images/videolan-logo-2.png" alt=""/ style="float:left">
   <p style="padding:10px">  
-  VideoLAN is a <a href="/videolan/">project</a>, run by volunteers,
-         backed-up by a <a href="/videolan/">non-profit organisation</a>,
-         which produces <a href="http://www.gnu.org/philosophy/free-sw.html">free and open source software</a> for multimedia,
-         released under the GNU <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">General Public License</a>.<br/>
-      Learn more about the <strong><a href="/videolan/">VideoLAN project and organisation</a></strong>.
+    The <b>VideoLAN project</b> is a non-profit organization that puts its efforts into developing free and open source multimedia solutions.
+  </p>
+  <p style="padding-top:5px">
+  <a href="/videolan/">Learn more about the VideoLAN project.</a>
   </p>
 <table class="projectmenu">
   <tr>

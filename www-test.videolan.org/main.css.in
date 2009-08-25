@@ -606,8 +606,9 @@ a.en {
 	font-weight: bold;	
 }
 .presentation td {
-	vertical-align: middle;
+	vertical-align: middle !important;
 	border: none !important;
 	background: none !important;
 	padding: 5px !important;
+	overflow: hidden;
 }

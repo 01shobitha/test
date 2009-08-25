@@ -134,7 +134,7 @@
 <tr>
 <td class="bl">&nbsp;</td>
 <td class="b">&nbsp;</td>
-<td class="br">&nbsp;</td>
+<td class="bright">&nbsp;</td>
 </tr>
 </table>
 <table class="fronttable">

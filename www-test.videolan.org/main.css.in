@@ -587,7 +587,7 @@ a.en {
 	border-right: 0px !important;
 	padding: 5px !important;
 	text-align: center;
-	background: url('images/tab.png');
+	background: url('images/tab.png') repeat-x;
 }
 .projectmenu td.title {
 	color: #000;
@@ -598,7 +598,7 @@ a.en {
 .projectmenu td.active {
 	color: #000;
 	font-weight: bold;
-	background: url('images/tab-active.png');
+	background: url('images/tab-active.png') repeat-x;
 	border-bottom: 0px !important;
 }
 .projectmenu a:link, .projectmenu a:visited {

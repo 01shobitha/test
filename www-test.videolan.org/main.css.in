@@ -600,7 +600,7 @@ table.tabbedpane .tel {
 }
 
 table.tabbedpane .tc {
-	background: #eeeeec;
+	background: #eeeeec url(images/panel-tabbe/tc.png);
 }
 
 table.tabbedpane .ter {
@@ -613,7 +613,7 @@ table.tabbedpane .bel {
 }
 
 table.tabbedpane .bc {
-	background: #e1e5dc;
+	background: #e1e5dc url(images/panel-tabbe/bc.png);
 }
 
 table.tabbedpane .ber {

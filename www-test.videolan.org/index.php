@@ -7,6 +7,14 @@
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/magpierss/rss_fetch.inc");
 ?>
+<!--[if IE]>
+<style type="text/css">
+.tabbedpane .panel-blue .ft {
+  margin-top: -5px !important;
+  padding-top: 0px !important;  
+}
+</style>
+<![endif]-->
 <table class="tabbedpane">
 <tr>
   <td class="tl">&nbsp;</td>
@@ -107,7 +115,7 @@
           </table>      
         </div>
       </div>
-      <div class="ft" style="margin-top:0px; padding-top:0px">
+      <div class="ft">
         <div class="c"></div>
       </div>
     </div> <!-- end panel -->

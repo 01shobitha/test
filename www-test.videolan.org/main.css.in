@@ -647,6 +647,8 @@ table.tabbedpane .bright {
 }
 .projectmenu {
 	margin: 0px;
+	margin-top: 10px;
+	border-right:1px #bdbdbd solid;
 }
 .projectmenu td {
 	border:1px #bdbdbd solid !important;
@@ -659,6 +661,7 @@ table.tabbedpane .bright {
 	color: #000;
 	font-weight: bold;
 	border-top: 0px !important;
+	border-left: 0px !important;
 	background: none;
 }
 .projectmenu td.active {

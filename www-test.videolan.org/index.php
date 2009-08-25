@@ -48,7 +48,7 @@
           <li>Can play incomplete or broken files</li>
           <li>Features a complete streaming server, with extended 
               features (video on demand, on the fly transcoding, ...)</li>
-          </ul>
+        </ul>
       </p>
       <table class="dl-table">
         <tr>
@@ -91,6 +91,19 @@
         </td>
       </tr>
       </table>
+      <p style="font-size: 8px">
+      VLC media player is a highly portable
+      <strong>multimedia player</strong> and <strong>multimedia framework</strong>
+      capable of reading most audio and video formats
+      (MPEG-2, MPEG-4, H.264, DivX, MPEG-1, mp3, ogg, aac ...) as well
+      as <strong>DVD</strong>s, <strong>Audio CD</strong>s <strong>VCD</strong>s,
+      and various <strong>streaming</strong> protocols. See the <a href="/vlc/features.html">full features list</a>.<br>
+
+      It can also be used as a <strong>media converter</strong> or
+      a <a href="/vlc/streaming.html"><strong>server to stream</strong></a>
+      in unicast or <strong>multicast</strong> in IPv4 or
+      <strong>IPv6</strong> on networks.
+      </p>
       <?php panel_end(); ?>
     </td>
     

@@ -101,7 +101,7 @@
   </tr>
 
 </table>
-<p style="font-size: 8px">
+<p style="font-size: 8px;padding:10px">
       VLC media player is a highly portable
       <strong>multimedia player</strong> and <strong>multimedia framework</strong>
       capable of reading most audio and video formats
@@ -176,7 +176,7 @@
 </td>
 </tr>
 <tr>
-  <td colspan="3">
+  <td colspan="4">
     <h1 style="position:relative">Planet VideoLAN
     <span style="position:absolute;right:0px;font-size:10pt">
     <a href="http://planet.videolan.org/rss10.xml">RSS</a>
@@ -191,7 +191,7 @@
     <?php
       $rss = fetch_rss("http://planet.videolan.org/rss10.xml");
       $i = 0;
-      $max = 15;
+      $max = 12;
       foreach($rss->items as $item) {
         echo "<p>";
         echo "<b>".htmlentities($item['title'])."</b></p>";
@@ -201,7 +201,7 @@
         echo "</p>";
         $i++;
         if($i>=$max) break;
-        if($i%5==0) echo "</td><td>";
+        if($i%3==0) echo "</td><td>";
       }
     ?>
   </td>

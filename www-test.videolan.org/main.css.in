@@ -169,7 +169,7 @@ hr {
 	padding: 5px 7px;
 	line-height: 135%;
 	border-top: 1px solid #D4E0F7;
-	background: #F4F7FD;
+	/*background: #F4F7FD;*/
 	vertical-align: top;
 }
 
@@ -585,18 +585,20 @@ a.en {
 .projectmenu td {
 	border:1px #bdbdbd solid !important;
 	border-right: 0px !important;
-	background: none !important;
 	padding: 5px !important;
 	text-align: center;
+	background: url('images/tab.png');
 }
 .projectmenu td.title {
 	color: #000;
 	font-weight: bold;
 	border-top: 0px !important;
+	background: none;
 }
 .projectmenu td.active {
 	color: #000;
 	font-weight: bold;
+	background: url('images/tab-active.png');
 	border-bottom: 0px !important;
 }
 .projectmenu a:link, .projectmenu a:visited {

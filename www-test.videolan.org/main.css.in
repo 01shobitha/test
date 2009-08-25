@@ -572,58 +572,58 @@ table.tabbedpane {
 	margin-top:10px;
 	padding:0px
 }
-table.tabbedpane tl {
+table.tabbedpane .tl {
 	width: 10px;
 	height: 10px;
 	background: (images/panel-tabbed/tl.png) no-repeat bottom;
 }
 
-table.tabbedpane t {
+table.tabbedpane .t {
 	height: 10px;
 	background: (images/panel-tabbed/t.png) repeat-x bottom;
 }
 
-table.tabbedpane tr {
+table.tabbedpane .tr {
 	width: 10px;
 	height: 10px;
 	background: (images/panel-tabbed/tr.png) no-repeat bottom;
 }
 
-table.tabbedpane tel {
+table.tabbedpane .tel {
 	background: (images/panel-tabbed/tel.png) repeat-y right;
 }
 
-table.tabbedpane tc {
+table.tabbedpane .tc {
 	background: #eeeeec;
 }
 
-table.tabbedpane ter {
+table.tabbedpane .ter {
 	background: (images/panel-tabbed/ter.png) repeat-y left;
 }
 
-table.tabbedpane bel {
+table.tabbedpane .bel {
 	background: (images/panel-tabbed/bel.png) repeat-y right;
 }
 
-table.tabbedpane bc {
+table.tabbedpane .bc {
 	background: #e1e5dc;
 }
 
-table.tabbedpane ber {
+table.tabbedpane .ber {
 	background: (images/panel-tabbed/ber.png) repeat-y left;
 }
 
-table.tabbedpane bl {
+table.tabbedpane .bl {
 	width: 10px;
 	height: 10px;
 	background: (images/panel-tabbed/bl.png) no-repeat top;
 }
 
-table.tabbedpane b{
+table.tabbedpane .b{
 	height: 10px;
 	background: (images/panel-tabbed/b.png) repeat-x top;
 }
-table.tabbedpane br {
+table.tabbedpane .br {
 	width: 10px;
 	height: 10px;
 	background: (images/panel-tabbed/br.png) no-repeat top;

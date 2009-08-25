@@ -180,10 +180,10 @@
       $i = 0;
       $max = 15;
       foreach($rss->items as $item) {
-        echo "<p style=\"margin-bottom:5px\">";
-        echo "<b>".htmlentities($item['title'])."</b><br/>";
-        //echo substr(strip_tags(html_entity_decode($item['content']['encoded'])),0,200);
-        echo substr($item['content']['encoded'],0,200);
+        echo "<p style=\"margin-bottom:5px;\">";
+        echo "<b>".htmlentities($item['title'])."</b></p>";
+        echo "<p style=\"white-space:pre\">";
+        echo substr(strip_tags(html_entity_decode($item['content']['encoded'])),0,200);
         echo "<a href=\"".$item['link']."\">[...]</a><br/>";
         echo "</p>";
         $i++;

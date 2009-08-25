@@ -182,7 +182,7 @@
       foreach($rss->items as $item) {
         echo "<p style=\"margin-bottom:5px;\">";
         echo "<b>".htmlentities($item['title'])."</b></p>";
-        echo "<p style=\"white-space:pre\">";
+        echo "<p style=\"white-space:pre-wrap\">";
         echo substr(strip_tags(html_entity_decode($item['content']['encoded'])),0,200);
         echo "<a href=\"".$item['link']."\">[...]</a><br/>";
         echo "</p>";

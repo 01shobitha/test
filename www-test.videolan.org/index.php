@@ -8,7 +8,8 @@
    include($_SERVER["DOCUMENT_ROOT"]."/include/magpierss/rss_fetch.inc");
 ?>
 <div class="tabbedpane">
-  <p style="padding:10px">
+  <img src="images/videolan-logo-2.png" alt=""/ style="float:left">
+  <p style="padding:10px">  
   VideoLAN is a <a href="/videolan/">project</a>, run by volunteers,
          backed-up by a <a href="/videolan/">non-profit organisation</a>,
          which produces <a href="http://www.gnu.org/philosophy/free-sw.html">free and open source software</a> for multimedia,
@@ -19,10 +20,10 @@
   <tr>
     <td class="title">VideoLAN projects:</td>
     <td class="active">VLC media player</td>
-    <td><a href="#">VLC Skin Editor</a></td>
-    <td><a href="#">VideoLAN Manager</a></td>
+    <td><a href="#">VLC Skin Editor</a></td>    
     <td><a href="#">DVBlast</a></td>
     <td><a href="#">x264</a></td>
+    <td><a href="#">other projects</a></td>
   </tr>
 </table>
 <table class="presentation">
@@ -113,9 +114,6 @@
     </span></h1>
   </td>
   <td>
-    <h1>Planet VideoLAN</h1>
-  </td>
-  <td>
     <h1>Contribute</h1>
   </td>
 </tr>
@@ -125,27 +123,7 @@
   shownews_mockup("full", 3); 
 ?>
 <!--End news items -->
-<td>
-<!-- Begin VideoLAN Planet -->
-<p>
-<ul class="panel-blue-bullet" style="border-bottom: 1px solid #CCC">
-<?php
-  $rss = fetch_rss("http://planet.videolan.org/rss10.xml");
-  $i = 0;
-  $max = 7;
-  foreach($rss->items as $item) {
-    echo "<li><a href=\"".$item['link']."\">";
-    echo htmlentities($item['title']);
-    echo "</a></li>\n";
-    $i++;
-    if($i>=$max) break;
-  }
-?>
-</ul>
-<a href="http://planet.videolan.org">Read more...</a>
-<!-- End VideoLAN Planet -->
-</p>
-</td>
+
 <td>        
     <p>This is the only source of revenue for VideoLAN, please help!</p>
     <br/>
@@ -186,5 +164,25 @@
 </td>
 </tr>
 </table>
+<h1>Planet VideoLAN</h1>
+<!-- Begin VideoLAN Planet -->
+<p>
+<ul class="panel-blue-bullet" style="border-bottom: 1px solid #CCC">
+<?php
+  $rss = fetch_rss("http://planet.videolan.org/rss10.xml");
+  $i = 0;
+  $max = 7;
+  foreach($rss->items as $item) {
+    echo "<li><a href=\"".$item['link']."\">";
+    echo htmlentities($item['title']);
+    echo "</a></li>\n";
+    $i++;
+    if($i>=$max) break;
+  }
+?>
+</ul>
+<a href="http://planet.videolan.org">Read more...</a>
+</p>
+<!-- End VideoLAN Planet -->
 
 <?php footer('$Id: index.php **** 2009-08-24 altglass$'); ?>

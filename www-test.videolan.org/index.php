@@ -7,24 +7,38 @@
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/magpierss/rss_fetch.inc");
 ?>
-<div class="tabbedpane">
-  <p style="padding:10px;">  
+<table class="tabbedpane">
+<tr>
+  <td class="tl">&nbsp;</td>
+  <td class="t">&nbsp;</td>
+  <td class="tr">&nbsp;</td>
+</tr>
+<tr>
+  <td class="tel">&nbsp;</td>
+  <td class="tc">
+  <p>  
     The <b>VideoLAN organisation</b> is a non-profit organization that puts its efforts into developing
     <a href="http://www.gnu.org/philosophy/free-sw.html" target="_blank">free</a> multimedia solutions.
     It's a host to various open source projects, the most prominent being the VLC media player.
     <br/><br/>
     <a href="/videolan/">Learn more about VideoLAN.</a>
   </p>
-<table class="projectmenu">
-  <tr>
-    <td class="title">VideoLAN projects:</td>
-    <td class="active">VLC media player</td>
-    <td><a href="#">VLC Skin Editor</a></td>    
-    <td><a href="#">DVBlast</a></td>
-    <td><a href="#">x264</a></td>
-    <td><a href="#">other projects</a></td>
-  </tr>
-</table>
+  <table class="projectmenu">
+    <tr>
+      <td class="title">VideoLAN projects:</td>
+      <td class="active">VLC media player</td>
+      <td><a href="#">VLC Skin Editor</a></td>    
+      <td><a href="#">DVBlast</a></td>
+      <td><a href="#">x264</a></td>
+      <td><a href="#">other projects</a></td>
+    </tr>
+  </table>
+</td>
+<td class="ter">&nbsp;</td>
+</tr>
+<tr>
+<td class="bel">&nbsp;</td>
+<td class="bc">
 <table class="presentation">
   <tr>
     <td style="text-align:right; min-width:300px">
@@ -113,8 +127,16 @@
       a <a href="/vlc/streaming.html"><strong>server to stream</strong></a>
       in unicast or <strong>multicast</strong> in IPv4 or
       <strong>IPv6</strong> on networks.
-      </p>
-</div>
+</p>
+</td>
+<td class="ber">&nbsp;</td>
+</tr>
+<tr>
+<td class="bl">&nbsp;</td>
+<td class="b">&nbsp;</td>
+<td class="br">&nbsp;</td>
+</tr>
+</table>
 <table class="fronttable">
 <tr>
   <td colspan="3">

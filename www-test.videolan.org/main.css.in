@@ -560,14 +560,76 @@ a.en {
 .mirror li { padding-left: 25px; }
 
 /**** New front page ****/
-.tabbedpane {
+/*.tabbedpane {
 	border:1px #bdbdbd solid;
 	-moz-border-radius:10px;
 	-webkit-border-radius:10px;
 	margin-top:10px;
 	background-color: #eeeeec;
 	padding:0px
+}*/
+table.tabbedpane {
+	margin-top:10px;
+	padding:0px
 }
+table.tabbedpane tl {
+	width: 10px;
+	height: 10px;
+	background: (images/pane-tabbed/tl.png) no-repeat bottom;
+}
+
+table.tabbedpane t {
+	width: 10px;
+	background: (images/pane-tabbed/t.png) repeat-x bottom;
+}
+
+table.tabbedpane tr {
+	width: 10px;
+	height: 10px;
+	background: (images/pane-tabbed/tr.png) no-repeat bottom;
+}
+
+table.tabbedpane tel {
+	background: (images/pane-tabbed/tel.png) repeat-y right;
+}
+
+table.tabbedpane tc {
+	background: #eeeeec;
+}
+
+table.tabbedpane ter {
+	background: (images/pane-tabbed/ter.png) repeat-y left;
+}
+
+able.tabbedpane bel {
+	background: (images/pane-tabbed/bel.png) repeat-y right;
+}
+
+table.tabbedpane bc {
+	background: #e1e5dc;
+}
+
+table.tabbedpane ber {
+	background: (images/pane-tabbed/ber.png) repeat-y left;
+}
+
+table.tabbedpane bl {
+	width: 10px;
+	height: 10px;
+	background: (images/pane-tabbed/bl.png) no-repeat top;
+}
+
+table.tabbedpane b{
+	width: 10px;
+	background: (images/pane-tabbed/b.png) repeat-x top;
+}
+ta
+ble.tabbedpane br {
+	width: 10px;
+	height: 10px;
+	background: (images/pane-tabbed/br.png) no-repeat top;
+}
+
 .fronttable {
 	margin-top: 10px;
 	margin-left: auto;
@@ -580,14 +642,14 @@ a.en {
 	padding: 5px !important;
 }
 .projectmenu {
-	
+	margin: 0px;
 }
 .projectmenu td {
 	border:1px #bdbdbd solid !important;
 	border-right: 0px !important;
 	padding: 5px !important;
 	text-align: center;
-	background: url('images/tab.png') repeat-x;
+	background: url('images/tab.png') repeat-x bottom;
 }
 .projectmenu td.title {
 	color: #000;
@@ -598,17 +660,21 @@ a.en {
 .projectmenu td.active {
 	color: #000;
 	font-weight: bold;
-	background: url('images/tab-active.png') repeat-x;
+	background: url('images/tab-active.png') repeat-x top;
 	border-bottom: 0px !important;
 }
 .projectmenu a:link, .projectmenu a:visited {
 	text-decoration: none;
 	font-weight: bold;	
 }
+.presentation {
+	
+}
 .presentation td {
 	vertical-align: middle !important;
 	border: none !important;
-	background: none !important;
+	background: none !important;	
 	padding: 5px !important;
+	padding-top: 10px !important;
 	overflow: hidden;
 }

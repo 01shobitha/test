@@ -90,8 +90,18 @@
         <span class="dl-other"><a  href="/vlc/">Other Operating Systems, learn more</a></span>
         </td>
       </tr>
-      </table>
-      <p style="font-size: 8px">
+      </table>      
+      <?php panel_end(); ?>
+    </td>
+    
+    <td style="text-align:left;min-width:300px;">
+      <img src="images/screenshots/skins.png" alt="Skins"/>
+    </td>
+    
+  </tr>
+
+</table>
+<p style="font-size: 8px">
       VLC media player is a highly portable
       <strong>multimedia player</strong> and <strong>multimedia framework</strong>
       capable of reading most audio and video formats
@@ -104,16 +114,6 @@
       in unicast or <strong>multicast</strong> in IPv4 or
       <strong>IPv6</strong> on networks.
       </p>
-      <?php panel_end(); ?>
-    </td>
-    
-    <td style="text-align:left;min-width:300px;">
-      <img src="images/screenshots/skins.png" alt="Skins"/>
-    </td>
-    
-  </tr>
-
-</table>
 </div>
 <table class="fronttable">
 <tr>

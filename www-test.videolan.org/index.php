@@ -8,7 +8,7 @@
    include($_SERVER["DOCUMENT_ROOT"]."/include/magpierss/rss_fetch.inc");
 ?>
 <div class="tabbedpane">
-  <p style="padding:10px">  
+  <p style="padding:10px;background:#e0e0e0;">  
     The <b>VideoLAN organisation</b> is a non-profit organization that puts its efforts into developing
     <a href="http://www.gnu.org/philosophy/free-sw.html" target="_blank">free</a> multimedia solutions.
     It's a host to various open source projects, the most prominent being the VLC media player.
@@ -182,7 +182,7 @@
       foreach($rss->items as $item) {
         echo "<p style=\"margin-top:10px;\">";
         echo "<b>".htmlentities($item['title'])."</b></p>";
-        echo "<p style=\"white-space:pre-wrap\">";
+        echo "<p style=\"white-space:pre-wrap;border-bottom: 1px dashed #CCC;\">";
         echo substr(str_replace("\n\n", "\n", strip_tags(html_entity_decode($item['content']['encoded']))),0,140);
         echo " <a href=\"".$item['link']."\">[...]</a><br/>";
         echo "</p>";

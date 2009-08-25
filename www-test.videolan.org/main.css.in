@@ -572,25 +572,30 @@ table.tabbedpane {
 	margin-top:10px;
 	padding:0px
 }
+table.tabbedpane td {
+	padding:0px;
+	margin:0px;
+	border: none;
+}
 table.tabbedpane .tl {
 	width: 10px;
 	height: 10px;
-	background: (images/panel-tabbed/tl.png) no-repeat bottom;
+	background: url(images/panel-tabbed/tl.png) no-repeat bottom;
 }
 
 table.tabbedpane .t {
 	height: 10px;
-	background: (images/panel-tabbed/t.png) repeat-x bottom;
+	background: url(images/panel-tabbed/t.png) repeat-x bottom;
 }
 
 table.tabbedpane .tr {
 	width: 10px;
 	height: 10px;
-	background: (images/panel-tabbed/tr.png) no-repeat bottom;
+	background: url(images/panel-tabbed/tr.png) no-repeat bottom;
 }
 
 table.tabbedpane .tel {
-	background: (images/panel-tabbed/tel.png) repeat-y right;
+	background: url(images/panel-tabbed/tel.png) repeat-y right;
 }
 
 table.tabbedpane .tc {
@@ -598,11 +603,11 @@ table.tabbedpane .tc {
 }
 
 table.tabbedpane .ter {
-	background: (images/panel-tabbed/ter.png) repeat-y left;
+	background: url(images/panel-tabbed/ter.png) repeat-y left;
 }
 
 table.tabbedpane .bel {
-	background: (images/panel-tabbed/bel.png) repeat-y right;
+	background: url(images/panel-tabbed/bel.png) repeat-y right;
 }
 
 table.tabbedpane .bc {
@@ -610,23 +615,23 @@ table.tabbedpane .bc {
 }
 
 table.tabbedpane .ber {
-	background: (images/panel-tabbed/ber.png) repeat-y left;
+	background: url(images/panel-tabbed/ber.png) repeat-y left;
 }
 
 table.tabbedpane .bl {
 	width: 10px;
 	height: 10px;
-	background: (images/panel-tabbed/bl.png) no-repeat top;
+	background: url(images/panel-tabbed/bl.png) no-repeat top;
 }
 
 table.tabbedpane .b{
 	height: 10px;
-	background: (images/panel-tabbed/b.png) repeat-x top;
+	background: url(images/panel-tabbed/b.png) repeat-x top;
 }
 table.tabbedpane .br {
 	width: 10px;
 	height: 10px;
-	background: (images/panel-tabbed/br.png) no-repeat top;
+	background: url(images/panel-tabbed/br.png) no-repeat top;
 }
 
 .fronttable {

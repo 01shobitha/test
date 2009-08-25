@@ -22,12 +22,7 @@
     It's a host to various open source projects, the most prominent being the VLC media player.
     <br/><br/>
     <a href="/videolan/">Learn more about VideoLAN.</a>
-  </p>  
-</td>
-<td class="ter">&nbsp;</td>
-</tr>
-<tr>
-  <td colspan="3">
+  </p>
   <table class="projectmenu">
     <tr>
       <td class="title">VideoLAN projects:</td>
@@ -38,7 +33,8 @@
       <td><a href="#">other projects</a></td>
     </tr>
   </table>
-  </td>
+</td>
+<td class="ter">&nbsp;</td>
 </tr>
 <tr>
 <td class="bel">&nbsp;</td>

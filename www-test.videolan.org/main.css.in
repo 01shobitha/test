@@ -596,6 +596,7 @@ table.tabbedpane .tr {
 
 table.tabbedpane .tel {
 	background: url(images/panel-tabbed/tel.png) repeat-y right;
+	border-bottom: 1px #bdbdbd solid !important;
 }
 
 table.tabbedpane .tc {
@@ -604,6 +605,7 @@ table.tabbedpane .tc {
 
 table.tabbedpane .ter {
 	background: url(images/panel-tabbed/ter.png) repeat-y left;
+	border-bottom: 1px #bdbdbd solid !important;
 }
 
 table.tabbedpane .bel {
@@ -648,7 +650,7 @@ table.tabbedpane .bright {
 .projectmenu {
 	margin: 0px;
 	margin-top: 10px;
-	border-right:1px #bdbdbd solid;
+	border-right:1px #bdbdbd solid !important;
 }
 .projectmenu td {
 	border:1px #bdbdbd solid !important;
@@ -661,6 +663,7 @@ table.tabbedpane .bright {
 	color: #000;
 	font-weight: bold;
 	border-top: 0px !important;
+	border-left: 0px !important;
 	background: none;
 }
 .projectmenu td.active {

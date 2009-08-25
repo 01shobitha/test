@@ -183,7 +183,7 @@
         echo "<p style=\"margin-top:10px;\">";
         echo "<b>".htmlentities($item['title'])."</b></p>";
         echo "<p style=\"white-space:pre-wrap\">";
-        echo substr(strip_tags(html_entity_decode($item['content']['encoded'])),0,140);
+        echo substr(str_replace("\n\n", "\n", strip_tags(html_entity_decode($item['content']['encoded']))),0,140);
         echo " <a href=\"".$item['link']."\">[...]</a><br/>";
         echo "</p>";
         $i++;

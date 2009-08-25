@@ -669,7 +669,7 @@ table.tabbedpane .bright {
 .projectmenu td.active {
 	color: #000;
 	font-weight: bold;
-	background: url('images/tab-active.png') repeat-x top;
+	background: url('images/tab-active.png') repeat-x top #e1e5dc;
 	border-bottom: 0px !important;
 }
 .projectmenu a:link, .projectmenu a:visited {

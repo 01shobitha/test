@@ -114,22 +114,22 @@
             </td>
           </tr>
           </table>
-          <table class="presentation" id="pres-skineditor">
+          <table class="presentation" id="pres-skineditor" style="display:none">
             <tr>
               <td>VLC Skin Editor</td>
             </tr>
           </table>
-          <table class="presentation" id="pres-dvblast">
+          <table class="presentation" id="pres-dvblast" style="display:none">
             <tr>
               <td>DVBlast</td>
             </tr>
           </table>
-          <table class="presentation" id="pres-x264">
+          <table class="presentation" id="pres-x264" style="display:none">
             <tr>
               <td>x264</td>
             </tr>
           </table>
-          <table class="presentation" id="pres-other">
+          <table class="presentation" id="pres-other" style="display:none">
             <tr>
               <td>Other</td>
             </tr>

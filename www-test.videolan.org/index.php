@@ -6,7 +6,9 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");
-   include($_SERVER["DOCUMENT_ROOT"]."/include/magpierss/rss_fetch.inc");   
+   include($_SERVER["DOCUMENT_ROOT"]."/include/magpierss/rss_fetch.inc");
+   $tab = "vlc";
+   if(isset($_GET['tab']) $tab = $_GET['tab'];
 ?>
 <!--[if IE]>
 <style type="text/css">
@@ -35,11 +37,26 @@
   <table class="projectmenu">
     <tr>
       <td class="title">VideoLAN projects:</td>
-      <td class="active" onclick="openTab('vlc')" id="tab-vlc">VLC media player</td>
-      <td onclick="openTab('skineditor')" id="tab-skineditor">VLC Skin Editor</td>    
-      <td onclick="openTab('dvblast')" id="tab-dvblast">DVBlast</td>
-      <td onclick="openTab('x264')" id="tab-x264">x264</td>
-      <td onclick="openTab('other')" id="tab-other">other projects</td>
+      <td <?php if($tab=="vlc") echo "class=\"active\"";?> onclick="openTab('vlc')" id="tab-vlc">
+        <noscript><a href="index.php?tab=vlc">VLC media player</a></noscript>
+        <script type="text/javascript">document.write("VLC media player");</script>        
+      </td>
+      <td <?php if($tab=="skineditor") echo "class=\"active\"";?> onclick="openTab('skineditor')" id="tab-skineditor">
+        <noscript><a href="index.php?tab=skineditor">VLC Skin Editor</a></noscript>
+        <script type="text/javascript">document.write("VLC skin editor");</script>
+      </td>    
+      <td  <?php if($tab=="dvblast") echo "class=\"active\"";?>onclick="openTab('dvblast')" id="tab-dvblast">
+        <noscript><a href="index.php?tab=dvblast">DVBlast</a></noscript>
+        <script type="text/javascript">document.write("DVBlast");</script>
+      </td>
+      <td  <?php if($tab=="x264") echo "class=\"active\"";?>onclick="openTab('x264')" id="tab-x264">
+        <noscript><a href="index.php?tab=x264">x264</a></noscript>
+        <script type="text/javascript">document.write("x264");</script>
+      </td>
+      <td <?php if($tab=="other") echo "class=\"active\"";?> onclick="openTab('other')" id="tab-other">
+        <noscript><a href="index.php?tab=other">other projects</a></noscript>
+        <script type="text/javascript">document.write("other projects");</script>
+      </td>
     </tr>
   </table>
 </td>
@@ -48,7 +65,7 @@
 <tr>
 <td class="bel">&nbsp;</td>
 <td class="bc">
-<div id="pres-vlc">
+<div id="pres-vlc" <?php if($tab!="vlc") echo "style=\"display:none\""; ?>>
 <table class="presentation">
   <tr>
     <td style="text-align:right; min-width:300px">
@@ -145,16 +162,16 @@
       <strong>IPv6</strong> on networks.
 </p>
 </div>
-<div id="pres-skineditor" style="display:none">
+<div id="pres-skineditor" <?php if($tab!="skineditor") echo "style=\"display:none\""; ?>>
 <h1>VLC Skin Editor</h1>
 </div>
-<div id="pres-dvblast" style="display:none">
+<div id="pres-dvblast" <?php if($tab!="dvblast") echo "style=\"display:none\""; ?>>
 <h1>DVBlast</h1>
 </div>
-<div id="pres-x264" style="display:none">
+<div id="pres-x264" <?php if($tab!="x264") echo "style=\"display:none\""; ?>>
 <h1>x264</h1>
 </div>
-<div id="pres-other" style="display:none">
+<div id="pres-other" <?php if($tab!="other") echo "style=\"display:none\""; ?>>
 <h1>Other projects</h1>
 </div>
 </td>

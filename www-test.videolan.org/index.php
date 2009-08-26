@@ -2,11 +2,11 @@
    $title = "VideoLAN, Free streaming and multimedia solutions for all OS!";
    $lang = "en";
    $menu = array( "vlc", "overview" );
+   $additional_js = array("/js/front.js");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");
-   include($_SERVER["DOCUMENT_ROOT"]."/include/magpierss/rss_fetch.inc");
-   $additional_js = array("/js/front.js");
+   include($_SERVER["DOCUMENT_ROOT"]."/include/magpierss/rss_fetch.inc");   
 ?>
 <!--[if IE]>
 <style type="text/css">

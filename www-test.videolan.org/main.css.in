@@ -664,13 +664,14 @@ table.tabbedpane .bright {
 	background: url('images/tab.png') repeat-x bottom;
 	color: #2D58AE;
 	cursor: pointer;
+	height: 25px;
+	font-weight: bold;
 }
 .projectmenu td:hover {
 	color: #000;
 }
 .projectmenu td.title {
 	color: #000;
-	font-weight: bold;
 	border-top: 0px !important;
 	border-left: 0px !important;
 	background: none;
@@ -678,7 +679,6 @@ table.tabbedpane .bright {
 }
 .projectmenu td.active {
 	color: #000;
-	font-weight: bold;
 	background: url('images/tab-active.png') repeat-x top #e1e5dc;
 	border-bottom: 0px !important;
 	cursor: default;
@@ -688,7 +688,7 @@ table.tabbedpane .bright {
 	font-weight: bold;	
 }
 .presentation {
-	
+	margin-top: 10px;
 }
 .presentation td {
 	vertical-align: middle !important;

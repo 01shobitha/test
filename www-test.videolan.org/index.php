@@ -8,7 +8,7 @@
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/magpierss/rss_fetch.inc");
    $tab = "vlc";
-   if(isset($_GET['tab']) $tab = $_GET['tab'];
+   if(isset($_GET['tab'])) $tab = $_GET['tab'];
 ?>
 <!--[if IE]>
 <style type="text/css">

@@ -48,7 +48,8 @@
 <tr>
 <td class="bel">&nbsp;</td>
 <td class="bc">
-<table class="presentation" id="pres-vlc">
+<div id="pres-vlc">
+<table class="presentation">
   <tr>
     <td style="text-align:right; min-width:300px">
       <!-- TODO adapt to users platform -->
@@ -113,27 +114,7 @@
             <span class="dl-other"><a  href="/vlc/">Other Operating Systems, learn more</a></span>
             </td>
           </tr>
-          </table>
-          <table class="presentation" id="pres-skineditor" style="display:none">
-            <tr>
-              <td>VLC Skin Editor</td>
-            </tr>
-          </table>
-          <table class="presentation" id="pres-dvblast" style="display:none">
-            <tr>
-              <td>DVBlast</td>
-            </tr>
-          </table>
-          <table class="presentation" id="pres-x264" style="display:none">
-            <tr>
-              <td>x264</td>
-            </tr>
-          </table>
-          <table class="presentation" id="pres-other" style="display:none">
-            <tr>
-              <td>Other</td>
-            </tr>
-          </table>
+          </table>          
         </div>
       </div>
       <div class="ft">
@@ -163,6 +144,19 @@
       in unicast or <strong>multicast</strong> in IPv4 or
       <strong>IPv6</strong> on networks.
 </p>
+</div>
+<div id="pres-skineditor" style="display:none">
+<h1>VLC Skin Editor</h1>
+</div>
+<div id="pres-dvblast" style="display:none">
+<h1>DVBlast</h1>
+</div>
+<div id="pres-x264" style="display:none">
+<h1>x264</h1>
+</div>
+<div id="pres-other" style="display:none">
+<h1>Other projects</h1>
+</div>
 </td>
 <td class="ber">&nbsp;</td>
 </tr>

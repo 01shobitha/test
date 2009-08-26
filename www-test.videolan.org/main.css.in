@@ -149,7 +149,7 @@ hr {
 
 /******************* Main page content - Global ***********************/
 
-#maincontent {text-align: left; min-width: 780px; }
+#maincontent {clear: both; text-align: left; min-width: 780px; }
 #maincontent table { border: none; table-layout: fixed; }
 #maincontent table a { color: #2D58AE; }
 #maincontent table a:hover, #maincontent table a:active { color: #000;}

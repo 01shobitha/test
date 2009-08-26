@@ -259,7 +259,7 @@
     <?php
       $rss = fetch_rss("http://planet.videolan.org/rss10.xml");
       $i = 0;
-      $max = 12;
+      $max = 8;
       foreach($rss->items as $item) {
         echo "<p>";
         echo "<b>".htmlentities($item['title'])."</b></p>";
@@ -269,7 +269,7 @@
         echo "</p>";
         $i++;
         if($i>=$max) break;
-        if($i%3==0) echo "</td><td>";
+        if($i%2==0) echo "</td><td>";
       }
     ?>
   </td>

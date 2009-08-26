@@ -10,7 +10,7 @@
 
 <h2> Debian stable (lenny) </h2>
 
-<p> VLC is available in etch, with a quite old version. Install
+<p> VLC is available in lenny, with a quite old version. Install
 vlc, mozilla-plugin-vlc, the usual way you do it. </p>
 
 <h2> Debian testing (squeeze) </h2>
@@ -39,12 +39,12 @@ branch. However you should still use our apt-get line if you need libdvdcss: </p
 
 <h2> Debian oldstable (etch) </h2>
 
-<p> A version (0.8.6) is packaged in Etch. 
+<p> A version (0.8.6) is packaged in etch. 
 However, if you want libdvdcss (DVD decryption) support, you will need to add the following lines to your <b>/etc/apt/sources.list</b>:</p>
 
 <pre>
-     deb http://download.videolan.org/pub/videolan/debian sarge main
-     deb-src http://download.videolan.org/pub/videolan/debian sarge main
+     deb http://download.videolan.org/pub/videolan/debian etch main
+     deb-src http://download.videolan.org/pub/videolan/debian etch main
 </pre>
 
 <p> For a normal install, do:</p>

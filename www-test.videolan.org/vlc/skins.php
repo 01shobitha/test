@@ -61,7 +61,7 @@ $sp_size = FormatSize( $r['size'] );
 <h1>Skins</h1>
 <table>
 <tr>
-  <td style="border:0px">
+  <td style="border:0px;padding:5px;">
     <?php panel_start( "orange" ); ?>
     <h1>How to use these skins?</h1>
     <i>Skins do not work on Mac OS X!</i><br />
@@ -76,7 +76,7 @@ $sp_size = FormatSize( $r['size'] );
       VLC needs to be restarted to change to skins mode.
     <?php panel_end(); ?>
   </td>
-  <td style="border:0px">
+  <td style="border:0px;padding: 5px">
     <?php panel_start( "blue" ); ?>
     <h1>Create your own skin!</h1>
     If you wish to create your own skin, check out these links:<br/>

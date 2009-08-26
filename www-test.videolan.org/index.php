@@ -6,6 +6,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/magpierss/rss_fetch.inc");
+   $additional_js = array("/js/front.js");
 ?>
 <!--[if IE]>
 <style type="text/css">
@@ -34,11 +35,11 @@
   <table class="projectmenu">
     <tr>
       <td class="title">VideoLAN projects:</td>
-      <td class="active">VLC media player</td>
-      <td><a href="#">VLC Skin Editor</a></td>    
-      <td><a href="#">DVBlast</a></td>
-      <td><a href="#">x264</a></td>
-      <td><a href="#">other projects</a></td>
+      <td class="active" onclick="openTab('vlc')" id="tab-vlc">VLC media player</td>
+      <td onclick="openTab('skineditor')" id="tab-skineditor">VLC Skin Editor</td>    
+      <td onclick="openTab('dvblast')" id="tab-dvblast">DVBlast</td>
+      <td onclick="openTab('x264')" id="tab-x264">x264</td>
+      <td onclick="openTab('other')" id="tab-other">other projects</td>
     </tr>
   </table>
 </td>
@@ -47,7 +48,7 @@
 <tr>
 <td class="bel">&nbsp;</td>
 <td class="bc">
-<table class="presentation">
+<table class="presentation" id="pres-vlc">
   <tr>
     <td style="text-align:right; min-width:300px">
       <!-- TODO adapt to users platform -->
@@ -112,7 +113,27 @@
             <span class="dl-other"><a  href="/vlc/">Other Operating Systems, learn more</a></span>
             </td>
           </tr>
-          </table>      
+          </table>
+          <table class="presentation" id="pres-skineditor">
+            <tr>
+              <td>VLC Skin Editor</td>
+            </tr>
+          </table>
+          <table class="presentation" id="pres-dvblast">
+            <tr>
+              <td>DVBlast</td>
+            </tr>
+          </table>
+          <table class="presentation" id="pres-x264">
+            <tr>
+              <td>x264</td>
+            </tr>
+          </table>
+          <table class="presentation" id="pres-other">
+            <tr>
+              <td>Other</td>
+            </tr>
+          </table>
         </div>
       </div>
       <div class="ft">

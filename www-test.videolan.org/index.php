@@ -215,7 +215,7 @@
           <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
             <p>
               <input name="cmd" value="_xclick" type="hidden">
-              <input name="business" value="treasurer@videolan.org" type="hidden">
+              <input name="business" value="sponsor@videolan.org" type="hidden">
               <input name="item_name" value="Development and communication of VideoLAN" type="hidden">
               <input name="no_note" value="0" type="hidden">
               <input name="currency_code" value="EUR" type="hidden">
@@ -230,7 +230,7 @@
           <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
             <p>
               <input name="cmd" value="_xclick" type="hidden">
-              <input name="business" value="treasurer@videolan.org" type="hidden">
+              <input name="business" value="sponsor@videolan.org" type="hidden">
               <input name="item_name" value="Development and communication of VideoLAN" type="hidden">
               <input name="no_note" value="0" type="hidden">
               <input name="currency_code" value="USD" type="hidden">

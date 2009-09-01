@@ -27,8 +27,9 @@
   in unicast or <strong>multicast</strong> in IPv4 or
   <strong>IPv6</strong> on networks.</p>
 
-  <p> If you like VLC, please rate it on the <a href="http://freshmeat.net/projects/vlc/">Freshmeat</a>
-  and <a href="http://www.versiontracker.com/dyn/moreinfo/macosx/10210434">versiontracker</a> entries!</p>
+  <p> If you like VLC, please rate it on the <a href="http://freshmeat.net/projects/vlc/">Freshmeat</a>,
+  <a href="http://www.versiontracker.com/dyn/moreinfo/macosx/10210434">versiontracker</a> or
+  <a href="http://alternativeto.net/desktop/vlc-media-player/">AlternativeTo</a> entries!</p>
 </div>
 
 <?php

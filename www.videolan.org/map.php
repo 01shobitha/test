@@ -122,7 +122,7 @@
      <td>
         <ul>
             <li><a href="http://www.videolan.org/support/">Documentation</a></li>
-            <li><a href="http://www.videolan.org/support/faq.php">FAQ</a></li>
+            <li><a href="http://www.videolan.org/support/faq.html">FAQ</a></li>
             <li><a href="http://www.videolan.org/support/lists.php">Mailing lists</a></li>
             <li><a href="http://forum.videolan.org">VideoLAN forums</a></li>
             <li><a href="http://wiki.videolan.org">VideoLAN wiki</a></li>

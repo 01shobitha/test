@@ -247,9 +247,8 @@ mailing-list. There is also a developer-oriented <a href="/developers/lists.html
 <h1>x264 - a free h264/avc encoder</h1>
 
 <p>x264 is a free library for encoding <a href="http://en.wikipedia.org/wiki/H.264">H264/AVC</a> video streams.</p>
-<p>The code is written from scratch by <a href="mailto:fenrir@videolan.org">Laurent Aimar</a>, <a href="mailto:pengvado@users.sourceforge.net">Loren Merritt</a>, <a href="mailto:titer@videolan.org">Eric Petit</a> (OS X), <a href="mailto:chenm001@163.com">Min Chen</a> (vfw/asm), Justin Clay (vfw), <a href="mailto:mru@mru.ath.cx">Måns Rullgård</a>, Radek Czyz, Christian Heine (asm), Alex Izvorski, Alex Wright and <a href="mailto:darkshikari@gmail.com">Jason Garrett-Glaser</a>.
-
-</p><p>It is released under the terms of the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU GPL</a>.</p>
+<p>The code is written from scratch by <a href="mailto:fenrir@videolan.org">Laurent Aimar</a>, <a href="mailto:pengvado@users.sourceforge.net">Loren Merritt</a>, <a href="mailto:titer@videolan.org">Eric Petit</a> (OS X), <a href="mailto:chenm001@163.com">Min Chen</a> (vfw/asm), Justin Clay (vfw), <a href="mailto:mru@mru.ath.cx">M&aring;ns Rullg&aring;rd</a>, Radek Czyz, Christian Heine (asm), Alex Izvorski, Alex Wright and <a href="mailto:darkshikari@gmail.com">Jason Garrett-Glaser</a>.
+<p>It is released under the terms of the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU GPL</a>.</p>
 
 <h2>Development status</h2>
 
@@ -258,19 +257,16 @@ mailing-list. There is also a developer-oriented <a href="/developers/lists.html
 <ul class="bullets">
     <li> 8x8 and 4x4 adaptive spatial transform</li>
     <li> Adaptive B-frame placement</li>
-
     <li> B-frames as references / arbitrary frame order</li>
     <li> CAVLC/CABAC entropy coding</li>
     <li> Custom quantization matrices</li>
     <li> Intra: all macroblock types (16x16, 8x8, 4x4, and PCM with all predictions)</li>
     <li> Inter P: all partitions (from 16x16 down to 4x4)</li>
-
     <li> Inter B: partitions from 16x16 down to 8x8 (including skip/direct)</li>
     <li> Interlacing (MBAFF)</li>
     <li> Multiple reference frames</li>
     <li> Ratecontrol: constant quantizer, constant quality, single or multipass ABR, optional VBV</li>
     <li> Scenecut detection</li>
-
     <li> Spatial and temporal direct mode in B-frames, adaptive mode selection</li>
     <li> Parallel encoding on multiple CPUs</li>
     <li> Predictive lossless mode</li>

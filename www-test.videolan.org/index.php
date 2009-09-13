@@ -68,9 +68,9 @@
 <div id="pres-vlc" <?php if($tab!="vlc") echo "style=\"display:none\""; ?>>
 <table class="presentation">
   <tr>
-    <td style="text-align:right; min-width:300px">
+    <td style="text-align:right; min-width:300px;padding-right: 10px;">
       <!-- TODO adapt to users platform -->
-      <img src="images/screenshots/windows.png" alt="Windows"/>
+      <img src="http://images.videolan.org/images/screenshots/windows.png" alt="Windows"/>
     </td>
     
     <td>
@@ -141,8 +141,8 @@
 
     </td>
     
-    <td style="text-align:left;min-width:300px;">
-      <img src="images/screenshots/skins.png" alt="Skins"/>
+    <td style="text-align:left;min-width:300px;padding-left: 10px">
+      <img src="http://images.videolan.org/images/screenshots/skins.png" alt="Skins"/>
     </td>
     
   </tr>
@@ -163,7 +163,41 @@
 </p>
 </div>
 <div id="pres-skineditor" <?php if($tab!="skineditor") echo "style=\"display:none\""; ?>>
-<h1>VLC Skin Editor</h1>
+  <table class="presentation">
+    <tr>
+      <td style="text-align:right; min-width:300px;padding-right: 10px;">
+        <!-- TODO adapt to users platform -->
+        <img src="http://images.videolan.org/images/screenshots/skineditor/leopard_zoom_s.jpg" alt="Editing the Crossover Leopard Skin"/>
+      </td>
+      <div class="panel-blue" style="margin-top:0px"> <!-- begin panel -->
+      <div class="hd">
+        <div class="c"></div>
+      </div>
+      <div class="bd">
+        <div class="c">
+          <p>
+            <h1 style="text-align:center;font-weight:bold;font-size:20pt;text-shadow:0px 1px 5px #999;padding-bottom:10px">VLC Skin Editor</h1>
+            The VLC Skin Editor enables creative VLC users to easily build their own skins for VLC. It provides a live preview of how your skin
+            will look and many other features that help you create a skin without much knowledge of the system behind VLC skins.
+          </p>
+          <p>
+          For more information go to the <a href="/vlc/skineditor.html">Skin Editor page</a>.
+          </p>
+        </div>
+      </div>
+      <div class="ft">
+        <div class="c"></div>
+      </div>
+    </div> <!-- end panel -->
+      <td>
+      </td>
+      <td style="text-align:left;min-width:300px;padding-left: 10px">
+        <img src="http://images.videolan.org/images/screenshots/skineditor/default_sbmp_s.jpg" alt="Editing the 0.8.6 Default Skin"/>
+      </td>
+      
+    </tr>
+
+  </table>
 </div>
 <div id="pres-dvblast" <?php if($tab!="dvblast") echo "style=\"display:none\""; ?>>
 <h1>DVBlast</h1>

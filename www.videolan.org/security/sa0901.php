@@ -1,5 +1,5 @@
 <?php
-   $title = "VideoLAN Security Advisory 0902";
+   $title = "VideoLAN Security Advisory 0901";
    $lang = "en";
    $menu = array( "vlc" );
    require($_SERVER["DOCUMENT_ROOT"]."include/header.php");
@@ -7,24 +7,13 @@
 
 <div id="fullwidth">
 
-<p><span style="font-weight: bold;">DISCLAIMER:
-This document is work-in-progress security advisory
-of the VideoLAN project.
-It has not been approved as a security advisory.
-It does not represent the position of the VideoLAN project
-or any of its contributors.
-Citing or quoting this document otherwise may constitute
-an inappropriate misrepresentation of the VideoLAN project position
-(or lack thereof) on the covered subject.
-</span>
-</p>
 
 <h1>Security Advisory 0902</h1>
 <pre>
 Summary           : Stack overflow in MPA, AVI and ASF demuxer
 Date              : September 2009
 Affected versions : VLC media player 1.0.1 down to 0.5.0
-ID                : VideoLAN-SA-0902
+ID                : VideoLAN-SA-0901
 CVE reference     : Pending
 </pre>
 <h2>Details</h2>
@@ -76,7 +65,7 @@ from the official VLC source code repository 1.0-bugfix branch.
 <dd>Internal patches for VLC development version and 0.9-bugfix tree.</dd>
 <dt>19 September 2009</dt>
 <dd>Initial security advisory.</dd>
-<dt> ??  September 2009</dt>
+<dt>20 September 2009</dt>
 <dd>VLC media player 1.0.2 released.</dd>
 </dl>
 <br />

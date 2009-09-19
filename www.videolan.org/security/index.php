@@ -22,8 +22,8 @@ pub   1024D/DD6D12BD 2004-01-09
 <dt>Christophe Mutricy</dt>
 <dd>xtophe at videolan dot org
 <pre>
-pub   1024D/73FAAFF8 2005-10-19
-      Key fingerprint = 08F4 FFC1 0E7C AFFE 8AEC  6A06 2D7B 9A08 73FA AFF8
+pub   1024D/AC3E0879 2006-03-01
+      Key fingerprint = 2303 8592 A6B1 A39D 7B22  D2D3 FD21 BC3B AC3E 0879
 </pre>
 </dd>
 </dl>

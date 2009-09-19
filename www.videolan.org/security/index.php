@@ -29,7 +29,13 @@ pub   1024D/AC3E0879 2006-03-01
 </dl>
 
 <h1>Past security advisories</h1>
+<h2>2009</h2>
 
+<dl>
+<dt>VideoLAN-SA-0901</dt>
+<dd>Stack overflows in VLC demuxers. <a href="sa0901.html">Details</a>
+</dd>
+</dl>
 <h2>2008</h2>
 
 <dl>

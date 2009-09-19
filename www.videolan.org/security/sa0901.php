@@ -8,7 +8,7 @@
 <div id="fullwidth">
 
 
-<h1>Security Advisory 0902</h1>
+<h1>Security Advisory 0901</h1>
 <pre>
 Summary           : Stack overflow in MPA, AVI and ASF demuxer
 Date              : September 2009

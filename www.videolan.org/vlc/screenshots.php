@@ -30,7 +30,7 @@ screenshot( "1.0.0/vlc_101_w7.jpg",
 screenshot( "1.0.0/VLC_Qt4.jpg",
             "1.0.0/tm_VLC_Qt4.jpg",
             "Windows Vista - Qt Interface", "1068x837" );
-echo "<p class="clearme"></p>";
+echo '<p class="clearme"></p>';
 screenshot( "1.0.0/VLC_Qt3.jpg",
             "1.0.0/tm_VLC_Qt3.jpg",
             "Windows Vista - Qt Interface", "948x805" );

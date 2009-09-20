@@ -18,6 +18,18 @@ echo"    <div class=\"screenshot\"><a href='http://images1.videolan.org/vlc/scre
 
 <h2 class="clearme">Latest version: 1.0 - Goldeneye</h2>
 <?php
+screenshot( "1.0.0/VLC_Qt4.jpg",
+            "1.0.0/tm_VLC_Qt4.jpg",
+            "Windows Vista - Qt Interface", "1068x837" );
+screenshot( "1.0.0/VLC_Qt3.jpg",
+            "1.0.0/tm_VLC_Qt3.jpg",
+            "Windows Vista - Qt Interface", "948x805" );
+screenshot( "1.0.0/VLC_Qt2.jpg",
+            "1.0.0/tm_VLC_Qt2.jpg",
+            "Windows Vista - Qt Interface", "1088x797" );
+screenshot( "1.0.0/VLC_Qt.jpg",
+            "1.0.0/tm_VLC_Qt.jpg",
+            "Windows Vista - Qt Interface", "1141x904" );
 screenshot( "1.0.0/VLC_Goldneye.jpg",
             "1.0.0/tm_VLC_Goldneye.jpg",
             "Windows Vista - Skins Interface", "834x682" );

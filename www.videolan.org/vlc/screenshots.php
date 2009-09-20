@@ -45,7 +45,7 @@ screenshot( "1.0.0/VLC_Goldneye.jpg",
             "Windows Vista - Skins Interface", "834x682" );
 ?>
 
-<h2 class="clearme">0.9</h2>
+<h2 class="clearme">0.9 - Grishenko</h2>
 
 <?php
 screenshot( "0.9.2/qt-albumart.jpg",
@@ -101,7 +101,7 @@ screenshot( "0.9.2/osx-0.9.2-teletext.jpg",
             "Mac OS X 10.5.4 - Teletext presentation on EyeTV captured Digital Terrestial television signal", "1004x705" );
 ?>
 
-<h2 class="clearme">0.8.6</h2>
+<h2 class="clearme">0.8.6 - Janus</h2>
 <?php
 screenshot( "0.8.6/VLC-0.8.6-beryl.jpg",
             "0.8.6/tm_VLC-0.8.6-beryl.jpg",
@@ -118,7 +118,7 @@ screenshot( "0.8.6/VLC-mac-Fullscreen.jpg",
 ?>
 
 
-<h2 class="clearme">0.8.5</h2>
+<h2 class="clearme">0.8.5 - Janus</h2>
 
 <?php
 screenshot( "0.8.5/VLC-screenshot-0.8.5.JPG",
@@ -128,7 +128,7 @@ screenshot( "0.8.5/VLC-default-skin.jpg",
             "0.8.5/tm_VLC-default-skin.jpg",
             "Skins2 - New default skin", "1024x768" );
 ?>
-<h2 class="clearme">0.8.4</h2>
+<h2 class="clearme">0.8.4 - Janus</h2>
 
 <?php
 screenshot( "0.8.4/vista_screenshot.png",
@@ -139,7 +139,7 @@ screenshot( "0.8.4/zeta_R1.1.jpg",
             "ZetaOS R1.1", "1280x1024" );
 ?>
 
-<h2 class="clearme">0.8.2</h2>
+<h2 class="clearme">0.8.2 - Janus</h2>
 
 <?php
 screenshot( "0.8.2/linux-wxwin-playlist.png",
@@ -183,7 +183,7 @@ screenshot( "0.8.2/zeta_R1_Screenie.jpg",
             "Zeta (BeOS) - Video", "1280x1024" );
 ?>
 
-<h2 class="clearme">0.7.2</h2>
+<h2 class="clearme">0.7.2 - Bond</h2>
 
 <?php
 screenshot( "20040531-osx-1.jpg",
@@ -230,7 +230,7 @@ screenshot( "20040602-beos-2.png",
             "BeOS", "1072x766" );
 ?>
 
-<h2 class="clearme">0.7.0</h2>
+<h2 class="clearme">0.7.0 - Bond</h2>
 
 <?php
 screenshot( "20040110-osx-00.jpg",
@@ -257,7 +257,7 @@ screenshot( "familiar20021121-04.png",
 
 <h2 class="clearme">Old screenshots</h2>
 
-<h3>VLC 0.6.1</h3>
+<h3>VLC 0.6.1 - Trevelyan</h3>
 
 <?php
 screenshot( "20030731-wxgtk-00.png",

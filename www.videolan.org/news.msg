@@ -1,7 +1,7 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
-|22 Septembre 2009|VLC 1.0.2 is out!| After almost 2 months and 27 million downloads of VLC 1.0.1, the VLC team is proud to present the third version of the Goldeneye branch of VLC: <strong>1.0.2</strong>!</p><p>This version introduces many fixes, notably for SSA decoding, v4l2, MacOS interface, ogg/theora, x264 modules and <a href="/security/sa0901.html">security issues</a>. It also introduces the port to 64bits for Mac OS platform and 2 new languages (Kazakh and Croatian).<br /> Because of the security issue, we strongly recommand everybody to update its version of VLC.
+|22 September 2009| VLC 1.0.2 is out!| After almost 2 months and 27 million downloads of VLC 1.0.1, the VLC team is proud to present the third version of the Goldeneye branch of VLC: <strong>1.0.2</strong>!</p><p>This version introduces many fixes, notably for SSA decoding, v4l2, MacOS interface, ogg/theora, x264 modules and <a href="/security/sa0901.html">security issues</a>. It also introduces the port to 64bits for Mac OS platform and 2 new languages (Kazakh and Croatian).<br /> Because of the security issue, we strongly recommand everybody to update its version of VLC.
 
 |13 August 2009|VLC Skin Editor 0.8.5 is out!|The VideoLAN team is pleased to announce the release of a new version of the VLC Skin Editor.<br/>
 This version brings again bugfixes and performance improvements but also new features. Among these is the ability to edit Slider curves with the

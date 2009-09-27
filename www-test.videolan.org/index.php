@@ -294,7 +294,7 @@ For more information go to the <a href="developers/x264.html">x264 page</a>
 </table>
 <table class="fronttable">
 <tr>
-  <td colspan="3">
+  <td colspan="2">
     <h1 style="position:relative">News
     <span style="position:absolute;right:0px;font-size:10pt">
     <a href="videolan-news.rss">RSS</a>

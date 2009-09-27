@@ -322,7 +322,7 @@ For more information go to the <a href="developers/x264.html">x264 page</a>
     <?php
       $rss = fetch_rss("http://planet.videolan.org/rss10.xml");
       $i = 0;
-      $entries_per_column = 2
+      $entries_per_column = 2;
       $columns = 2;
       foreach($rss->items as $item) {
         echo "<p>";

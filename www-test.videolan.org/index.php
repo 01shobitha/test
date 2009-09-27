@@ -34,6 +34,9 @@
     <br/><br/>
     <a href="/videolan/">Learn more about VideoLAN.</a>
   </p>
+  <p>
+    <i>TODO: Put Contribution field here</i>
+  </p>
   <table class="projectmenu">
     <tr>
       <td class="title">VideoLAN projects:</td>
@@ -299,7 +302,7 @@ For more information go to the <a href="developers/x264.html">x264 page</a>
     <a href="news.html">Read all news</a>
     </span></h1>
   </td>
-  <td colspan="4">
+  <td colspan="2">
     <h1 style="position:relative">Planet VideoLAN
     <span style="position:absolute;right:0px;font-size:10pt">
     <a href="http://planet.videolan.org/rss10.xml">RSS</a>
@@ -312,14 +315,15 @@ For more information go to the <a href="developers/x264.html">x264 page</a>
 <tr>
 <!--Begin news items -->
 <?php
-  shownews_mockup("full", 3); 
+  shownews_mockup("full", 2); 
 ?>
 <!--End news items -->
 <td>
     <?php
       $rss = fetch_rss("http://planet.videolan.org/rss10.xml");
       $i = 0;
-      $max = 6;
+      $entries_per_column = 2
+      $columns = 2;
       foreach($rss->items as $item) {
         echo "<p>";
         echo "<b>".htmlentities($item['title'])."</b></p>";
@@ -328,12 +332,13 @@ For more information go to the <a href="developers/x264.html">x264 page</a>
         echo " <a href=\"".$item['link']."\">[...]</a><br/>";
         echo "</p>";
         $i++;
-        if($i>=$max) break;
-        if($i%2==0) echo "</td><td>";
+        if($i>=$columns*$entries_per_column) break;
+        if($i%$entries_per_column==0) echo "</td><td>";
       }
     ?>
   </td>
 </tr>
+<!--
 <tr>
   <td>
     <h1>Contribute</h1>
@@ -378,7 +383,7 @@ For more information go to the <a href="developers/x264.html">x264 page</a>
           </form>
     </p>
 </td>
-</tr>
+</tr>-->
 </table>
 
 <?php footer('$Id: index.php **** 2009-08-24 altglass$'); ?>

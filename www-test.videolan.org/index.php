@@ -299,8 +299,14 @@ For more information go to the <a href="developers/x264.html">x264 page</a>
     <a href="news.html">Read all news</a>
     </span></h1>
   </td>
-  <td>
-    <h1>Contribute</h1>
+  <td colspan="4">
+    <h1 style="position:relative">Planet VideoLAN
+    <span style="position:absolute;right:0px;font-size:10pt">
+    <a href="http://planet.videolan.org/rss10.xml">RSS</a>
+    &bull; 
+    <a href="http://planet.videolan.org">Read all developer's posts</a>
+    </span>
+    </h1>
   </td>
 </tr>
 <tr>
@@ -309,8 +315,32 @@ For more information go to the <a href="developers/x264.html">x264 page</a>
   shownews_mockup("full", 3); 
 ?>
 <!--End news items -->
-
-<td>        
+<td>
+    <?php
+      $rss = fetch_rss("http://planet.videolan.org/rss10.xml");
+      $i = 0;
+      $max = 6;
+      foreach($rss->items as $item) {
+        echo "<p>";
+        echo "<b>".htmlentities($item['title'])."</b></p>";
+        echo "<p style=\"border-bottom: 1px dashed #CCC;padding-bottom:5px;margin-bottom:5px\">";
+        echo substr(strip_tags(html_entity_decode($item['content']['encoded'])),0,140);
+        echo " <a href=\"".$item['link']."\">[...]</a><br/>";
+        echo "</p>";
+        $i++;
+        if($i>=$max) break;
+        if($i%2==0) echo "</td><td>";
+      }
+    ?>
+  </td>
+</tr>
+<tr>
+  <td>
+    <h1>Contribute</h1>
+  </td>
+</tr>
+<tr>
+  <td>        
     <p>This is the only source of revenue for VideoLAN, please help!</p>
     <br/>
     <p>VideoLAN welcomes all contributions to the project!<br/>
@@ -348,37 +378,6 @@ For more information go to the <a href="developers/x264.html">x264 page</a>
           </form>
     </p>
 </td>
-</tr>
-<tr>
-  <td colspan="4">
-    <h1 style="position:relative">Planet VideoLAN
-    <span style="position:absolute;right:0px;font-size:10pt">
-    <a href="http://planet.videolan.org/rss10.xml">RSS</a>
-    &bull; 
-    <a href="http://planet.videolan.org">Read all developer's posts</a>
-    </span>
-    </h1>
-  </td>
-</tr>
-<tr>
-  <td>
-    <?php
-      $rss = fetch_rss("http://planet.videolan.org/rss10.xml");
-      $i = 0;
-      $max = 8;
-      foreach($rss->items as $item) {
-        echo "<p>";
-        echo "<b>".htmlentities($item['title'])."</b></p>";
-        echo "<p style=\"border-bottom: 1px dashed #CCC;padding-bottom:5px;margin-bottom:5px\">";
-        echo substr(strip_tags(html_entity_decode($item['content']['encoded'])),0,140);
-        echo " <a href=\"".$item['link']."\">[...]</a><br/>";
-        echo "</p>";
-        $i++;
-        if($i>=$max) break;
-        if($i%2==0) echo "</td><td>";
-      }
-    ?>
-  </td>
 </tr>
 </table>
 

@@ -73,9 +73,9 @@
 <div id="pres-vlc" <?php if($tab!="vlc") echo "style=\"display:none\""; ?>>
 <table class="presentation">
   <tr>
-    <td style="text-align:right; width:30%;padding-right: 10px;">
+    <td style="text-align:right; width:30%;">
       <!-- TODO adapt to users platform -->
-      <img src="http://images.videolan.org/images/screenshots/windows.png" alt="Windows" style="margin:10px;max-width:100%"/>
+      <img src="http://images.videolan.org/images/screenshots/windows.png" alt="Windows" style="margin:2%;max-width:96%"/>
     </td>
     
     <td>
@@ -147,7 +147,7 @@
     </td>
     
     <td style="text-align:left;width:30%">
-      <img src="http://images.videolan.org/images/screenshots/skins.png" alt="Skins" style="margin:10px;max-width:100%"/>
+      <img src="http://images.videolan.org/images/screenshots/skins.png" alt="Skins" style="margin:2%;max-width:96%"/>
     </td>
     
   </tr>
@@ -172,7 +172,7 @@
     <tr>
       <td style="text-align:right;width: 30%">
         <!-- TODO adapt to users platform -->
-        <img src="http://images.videolan.org/images/screenshots/skineditor/leopard_zoom_s.jpg" alt="Editing the Crossover Leopard Skin" style="margin:10px;max-width: 100%"/>
+        <img src="http://images.videolan.org/images/screenshots/skineditor/leopard_zoom_s.jpg" alt="Editing the Crossover Leopard Skin" style="margin:2%;max-width: 96%"/>
       </td>
       <td>
         <div class="panel-blue" style="margin-top:0px"> <!-- begin panel -->
@@ -197,7 +197,7 @@
       </div> <!-- end panel -->
     </td>
       <td style="text-align:left;width:30%">
-        <img src="http://images.videolan.org/images/screenshots/skineditor/default_sbmp_s.jpg" alt="Editing the 0.8.6 Default Skin" style="margin:10px;max-width: 100%"/>
+        <img src="http://images.videolan.org/images/screenshots/skineditor/default_sbmp_s.jpg" alt="Editing the 0.8.6 Default Skin" style="margin:2%;max-width: 96%"/>
       </td>
       
     </tr>

@@ -73,7 +73,7 @@
 <div id="pres-vlc" <?php if($tab!="vlc") echo "style=\"display:none\""; ?>>
 <table class="presentation">
   <tr>
-    <td style="text-align:right; max-width:30%;padding-right: 10px;">
+    <td style="text-align:right; width:30%;padding-right: 10px;">
       <!-- TODO adapt to users platform -->
       <img src="http://images.videolan.org/images/screenshots/windows.png" alt="Windows" style="margin:10px;max-width:100%"/>
     </td>
@@ -146,7 +146,7 @@
 
     </td>
     
-    <td style="text-align:left;width:25%">
+    <td style="text-align:left;width:30%">
       <img src="http://images.videolan.org/images/screenshots/skins.png" alt="Skins" style="margin:10px;max-width:100%"/>
     </td>
     

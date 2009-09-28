@@ -73,9 +73,9 @@
 <div id="pres-vlc" <?php if($tab!="vlc") echo "style=\"display:none\""; ?>>
 <table class="presentation">
   <tr>
-    <td style="text-align:right; min-width:300px;padding-right: 10px;">
+    <td style="text-align:right; max-width:30%;padding-right: 10px;">
       <!-- TODO adapt to users platform -->
-      <img src="http://images.videolan.org/images/screenshots/windows.png" alt="Windows" style="margin-right:10px"/>
+      <img src="http://images.videolan.org/images/screenshots/windows.png" alt="Windows" style="margin:10px;max-width:100%"/>
     </td>
     
     <td>
@@ -146,8 +146,8 @@
 
     </td>
     
-    <td style="text-align:left;min-width:300px;">
-      <img src="http://images.videolan.org/images/screenshots/skins.png" alt="Skins" style="margin-left:10px"/>
+    <td style="text-align:left;width:25%">
+      <img src="http://images.videolan.org/images/screenshots/skins.png" alt="Skins" style="margin:10px;max-width:100%"/>
     </td>
     
   </tr>
@@ -170,9 +170,9 @@
 <div id="pres-skineditor" <?php if($tab!="skineditor") echo "style=\"display:none\""; ?>>
   <table class="presentation">
     <tr>
-      <td style="text-align:right; min-width:300px;">
+      <td style="text-align:right;width: 30%">
         <!-- TODO adapt to users platform -->
-        <img src="http://images.videolan.org/images/screenshots/skineditor/leopard_zoom_s.jpg" alt="Editing the Crossover Leopard Skin" style="margin-right:10px"/>
+        <img src="http://images.videolan.org/images/screenshots/skineditor/leopard_zoom_s.jpg" alt="Editing the Crossover Leopard Skin" style="margin:10px;max-width: 100%"/>
       </td>
       <td>
         <div class="panel-blue" style="margin-top:0px"> <!-- begin panel -->
@@ -196,8 +196,8 @@
         </div>
       </div> <!-- end panel -->
     </td>
-      <td style="text-align:left;min-width:300px;">
-        <img src="http://images.videolan.org/images/screenshots/skineditor/default_sbmp_s.jpg" alt="Editing the 0.8.6 Default Skin" style="margin-left:10px"/>
+      <td style="text-align:left;width:30%">
+        <img src="http://images.videolan.org/images/screenshots/skineditor/default_sbmp_s.jpg" alt="Editing the 0.8.6 Default Skin" style="margin:10px;max-width: 100%"/>
       </td>
       
     </tr>
@@ -332,7 +332,7 @@ For more information go to the <a href="developers/x264.html">x264 page</a>
         echo "<b>".htmlentities($item['title'])."</b></p>";
         echo "<p style=\"border-bottom: 1px dashed #CCC;padding-bottom:5px;margin-bottom:5px\">";
         echo substr(strip_tags(html_entity_decode($item['content']['encoded'])),0,$chars_per_entry);
-        echo " <a href=\"".$item['link']."\">[...]</a><br/>";
+        echo "<a href=\"".$item['link']."\">[...]</a><br/>";
         echo "</p>";
         $i++;
         if($i>=$columns*$entries_per_column) break;
@@ -341,52 +341,6 @@ For more information go to the <a href="developers/x264.html">x264 page</a>
     ?>
   </td>
 </tr>
-<!--
-<tr>
-  <td>
-    <h1>Contribute</h1>
-  </td>
-</tr>
-<tr>
-  <td>        
-    <p>This is the only source of revenue for VideoLAN, please help!</p>
-    <br/>
-    <p>VideoLAN welcomes all contributions to the project!<br/>
-    You can contribute time (documentation, packaging, development, tests, user support, ...),
-    material or even money. See the <a href="/contribute.html">contribution
-    page</a> for more information.</p>
-    <p>
-          <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-            <p>
-              <input name="cmd" value="_xclick" type="hidden">
-              <input name="business" value="sponsor@videolan.org" type="hidden">
-              <input name="item_name" value="Development and communication of VideoLAN" type="hidden">
-              <input name="no_note" value="0" type="hidden">
-              <input name="currency_code" value="EUR" type="hidden">
-              <input name="tax" value="0" type="hidden">
-              <input src="http://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="Donate money to VideoLAN via PayPal" type="image">
-              <br/>
-              <span style="font-size: 10pt;">Euro</span>
-            </p>
-          </form>
-    </p>
-    <p>
-          <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-            <p>
-              <input name="cmd" value="_xclick" type="hidden">
-              <input name="business" value="sponsor@videolan.org" type="hidden">
-              <input name="item_name" value="Development and communication of VideoLAN" type="hidden">
-              <input name="no_note" value="0" type="hidden">
-              <input name="currency_code" value="USD" type="hidden">
-              <input name="tax" value="0" type="hidden">
-              <input src="http://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="Donate money to VideoLAN via PayPal" type="image">
-              <br/>
-              <span style="font-size: 10pt;">Dollar</span>
-            </p>
-          </form>
-    </p>
-</td>
-</tr>-->
 </table>
 
 <?php footer('$Id: index.php **** 2009-08-24 altglass$'); ?>

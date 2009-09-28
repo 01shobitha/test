@@ -170,21 +170,21 @@ color: #40424b; font-size: 22px; font-family: Lucida Grande, Verdana, Arial, Hel
        </div>
 
   <div id="maincontent">  
-    <h1 style="text-align: center; width: 100%; margin-bottom: 10px; font-weight: bold; text-shadow: 0px 2px 3px #DDD;">VLC media player 1.0.1 -
+    <h1 style="text-align: center; width: 100%; margin-bottom: 10px; font-weight: bold; text-shadow: 0px 2px 3px #DDD;">VLC media player 1.0.2 -
   <span style="font-style: italic;">Goldeneye</span></h1>
     <div id="pipo">
     Get the best out of your multimedia content!<br />
     Update to the latest version of the open-source multimedia&nbsp;framework and player:
     </div>
     <p class="center" style="font-style: italic;color:#2D58AE; margin-top: 20px; font-weight: bold; font-size: 36px; margin-bottom: 15pt;text-shadow:0px 3px 5px #AAA">
-    VLC 1.0.1 is out!
+    VLC 1.0.2 is out!
     </p>
     <div style="margin: 0px auto; width: 15%; padding-bottom: 35px;">
        <img src="http://images.videolan.org/images/vlc128x128.png" alt="VLC"/>
     </div>
   <div id="download" style="height:55px">
         <script type="text/javascript"><!--
-            if ( navigator.platform.indexOf("Win32") != -1 ) { document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.1/win32/vlc-1.0.1-win32.exe">Download Now</a> for Windows (18 MB)</p>'); }
+            if ( navigator.platform.indexOf("Win32") != -1 ) { document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.2/win32/vlc-1.0.2-win32.exe">Download Now</a> for Windows (18 MB)</p>'); }
             else if( navigator.platform.indexOf("Linux") != -1 )
             {
               if( navigator.userAgent.indexOf("Ubuntu") != -1 || navigator.userAgent.indexOf("ubuntu") != -1  ) { document.writeln( '<p><a class="download" href="/vlc/download-ubuntu.html">Download Now</a> for Ubuntu Linux</p>'); }
@@ -198,9 +198,9 @@ color: #40424b; font-size: 22px; font-family: Lucida Grande, Verdana, Arial, Hel
             }
              else if( navigator.userAgent.indexOf("Mac OS X") != -1  ||navigator.userAgent.indexOf("MSIE 5.2") != -1 ||( navigator.userAgent.indexOf("Mac")  &&  navigator.userAgent.indexOf("Opera") ) )
             {
-              if( navigator.platform.indexOf("MacPPC") != -1|| navigator.platform.indexOf("PowerPC") != -1 ) { document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.1/macosx/vlc-1.0.1-powerpc.dmg">Download Now</a> for Mac OS X PowerPC (Leopard) (19 MB)</p>'); }
-              else if( navigator.platform.indexOf("Intel") != -1 ) { document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.1/macosx/vlc-1.0.1-intel.dmg">Download Now</a> for Mac OS X Intel (Leopard) (19 MB)</p>');}
-                 else  { document.writeln( '<p><a class="download" href="/mirror-geo.php?file=vlc/1.0.1/macosx/vlc-1.0.1-powerpc.dmg">Download Now</a> for Mac OS X PowerPC (Leopard) (19 MB)</p>');document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.1/macosx/vlc-1.0.1-intel.dmg">Download Now</a> for Mac OS X Intel (Leopard) (19 MB)</p>'); }
+              if( navigator.platform.indexOf("MacPPC") != -1|| navigator.platform.indexOf("PowerPC") != -1 ) { document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.2/macosx/vlc-1.0.2-powerpc.dmg">Download Now</a> for Mac OS X PowerPC (Leopard) (19 MB)</p>'); }
+              else if( navigator.platform.indexOf("Intel") != -1 ) { document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.2/macosx/vlc-1.0.2-intel.dmg">Download Now</a> for Mac OS X Intel (Leopard) (19 MB)</p>');}
+                 else  { document.writeln( '<p><a class="download" href="/mirror-geo.php?file=vlc/1.0.2/macosx/vlc-1.0.2-powerpc.dmg">Download Now</a> for Mac OS X PowerPC (Leopard) (19 MB)</p>');document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.2/macosx/vlc-1.0.2-intel.dmg">Download Now</a> for Mac OS X Intel (Leopard) (19 MB)</p>'); }
             }
             else if( navigator.platform.indexOf("Mac") != -1 )
             {
@@ -209,10 +209,10 @@ color: #40424b; font-size: 22px; font-family: Lucida Grande, Verdana, Arial, Hel
            else if(  navigator.userAgent.indexOf("freebsd") != -1 || navigator.userAgent.indexOf("FreeBSD") != -1 ) { document.writeln( '<p><a class="download" href="/vlc/download-freebsd.html">Download Now</a> for FreeBSD</p>'); }
             else
             {
-            document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.1/win32/vlc-1.0.1-win32.exe">Download Now</a> for Windows (18 MB)</p>');document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.1/macosx/vlc-1.0.1-powerpc.dmg">Download Now</a> for Mac OS X PowerPC (Leopard) (19 MB)</p>');document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.1/macosx/vlc-1.0.1-intel.dmg">Download Now</a> for Mac OS X Intel (Leopard) (19 MB)</p>');            }
+            document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.2/win32/vlc-1.0.2-win32.exe">Download Now</a> for Windows (18 MB)</p>');document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.2/macosx/vlc-1.0.2-powerpc.dmg">Download Now</a> for Mac OS X PowerPC (Leopard) (19 MB)</p>');document.writeln( '<p><a class="download" href="http://www.videolan.org/mirror-geo.php?file=vlc/1.0.2/macosx/vlc-1.0.2-intel.dmg">Download Now</a> for Mac OS X Intel (Leopard) (19 MB)</p>');            }
        --></script>
        <noscript>
-          <p><a class="download" href="/mirror-geo.php?file=vlc/1.0.1/win32/vlc-1.0.1-win32.exe">Download Now</a> for Windows (16 MB)</p><p><a class="download" href="/mirror-geo.php?file=vlc/1.0.1/macosx/vlc-1.0.1-powerpc.dmg">Download Now</a> for Mac OS X PowerPC (Leopard) (19 MB)</p><p><a class="download" href="/mirror-geo.php?file=vlc/1.0.1/macosx/vlc-1.0.1-intel.dmg">Download Now</a> for Mac OS X Intel (Leopard) (19 MB)</p>       </noscript>
+          <p><a class="download" href="/mirror-geo.php?file=vlc/1.0.2/win32/vlc-1.0.2-win32.exe">Download Now</a> for Windows (16 MB)</p><p><a class="download" href="/mirror-geo.php?file=vlc/1.0.2/macosx/vlc-1.0.2-powerpc.dmg">Download Now</a> for Mac OS X PowerPC (Leopard) (19 MB)</p><p><a class="download" href="/mirror-geo.php?file=vlc/1.0.2/macosx/vlc-1.0.2-intel.dmg">Download Now</a> for Mac OS X Intel (Leopard) (19 MB)</p>       </noscript>
     <div class="more"><a  href="/vlc/index2.html">Other Operating Systems, learn more</a></div>
       </div>
       <div id="donate" style="height:55px">
@@ -244,7 +244,7 @@ color: #40424b; font-size: 22px; font-family: Lucida Grande, Verdana, Arial, Hel
 
   <div class="clearme"></div>  
   <hr style="width:50%; margin: 30px auto 0px auto; border: 1px solid #2d58ae;" />
-     <h1 style="font-weight:bold">VLC 1.0.1 Features</h1>
+     <h1 style="font-weight:bold">VLC 1.0.2 Features</h1>
      <div style="background:#d4e0f7;border:1px solid #417ADC;-moz-border-radius:10px;-webkit-border-radius:10px;padding: 10px">
      <table style="width:100%"><tr><td style="text-align:left">
           <ul class="blue-bullet" style="margin-bottom:-19px">

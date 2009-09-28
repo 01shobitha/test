@@ -34,8 +34,10 @@
     <br/><br/>
     <a href="/videolan/">Learn more about VideoLAN.</a>
   </p>
+  <h3>Contribute to the community</h3>
   <p>
-    <i>TODO: Put Contribution field here</i>
+    There are several ways <i>you</i> can contribute and become a part of the VideoLAN community.
+    Learn more about how you can do that on the <a href="contribute.html">contribute page</a>.
   </p>
   <table class="projectmenu">
     <tr>
@@ -322,13 +324,14 @@ For more information go to the <a href="developers/x264.html">x264 page</a>
     <?php
       $rss = fetch_rss("http://planet.videolan.org/rss10.xml");
       $i = 0;
-      $entries_per_column = 2;
-      $columns = 2;
+      $chars_per_entry = 240;
+      $entries_per_column = 3;
+      $columns = 2;      
       foreach($rss->items as $item) {
         echo "<p>";
         echo "<b>".htmlentities($item['title'])."</b></p>";
         echo "<p style=\"border-bottom: 1px dashed #CCC;padding-bottom:5px;margin-bottom:5px\">";
-        echo substr(strip_tags(html_entity_decode($item['content']['encoded'])),0,140);
+        echo substr(strip_tags(html_entity_decode($item['content']['encoded'])),0,$chars_per_entry);
         echo " <a href=\"".$item['link']."\">[...]</a><br/>";
         echo "</p>";
         $i++;

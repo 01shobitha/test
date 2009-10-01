@@ -232,3 +232,9 @@ http://vlc.qtv.ch/|Ch. Wagner|Swiss|ch|HTTP|100
 # ilipec [AT] fe.up.pt
 # also ftp and ipv6
 http://neacm.fe.up.pt/pub/videolan/|Faculdade de Engenharia da Universidade do Porto|Portugal|pt|HTTP|1000
+# Nautile (ISP) - http://www.nautile.nc/
+# Noumea, New Caledonia
+# Bandwidth : 100Mbps
+# Nicolas Aupetit, admin@nautile.nc
+# Also in ftp and rsync
+http://videolan.nautile.nc/videolan/|Nautile (ISP)|New Caledonia|nc|HTTP|100

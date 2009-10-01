@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|01 October 2009|Meet people from the VideoLAN team on T-DOSE 2009 (3 and 4 October)|The dutch based conference <strong>T-DOSE</strong> is being held for the fourth year in a row and has interesting talks. If you want to meet people from VideoLAN project and know more about VLC 1.0 then meet us at the booth. People from VideoLAN team will be present at the T-Dose conference in the next days. For more information on T-DOSE schedule visit this <a href="http://www.t-dose.org/2009/schedule">link</a>.
+
 |22 September 2009| VLC 1.0.2 is out!| After almost 2 months and 27 million downloads of VLC 1.0.1, the VLC team is proud to present the third version of the Goldeneye branch of VLC: <strong>1.0.2</strong>!</p><p>This version introduces many fixes, notably for SSA decoding, v4l2, MacOS interface, ogg/theora, x264 modules and <a href="/security/sa0901.html">security issues</a>. It also introduces the port to 64bits for Mac OS platform and 2 new languages (Kazakh and Croatian).<br /> Because of the security issues, we strongly recommand everybody to update its version of VLC.
 
 |13 August 2009|VLC Skin Editor 0.8.5 is out!|The VideoLAN team is pleased to announce the release of a new version of the VLC Skin Editor.<br/>

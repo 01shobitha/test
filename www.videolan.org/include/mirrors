@@ -235,6 +235,11 @@ http://neacm.fe.up.pt/pub/videolan/|Faculdade de Engenharia da Universidade do P
 # Nautile (ISP) - http://www.nautile.nc/
 # Noumea, New Caledonia
 # Bandwidth : 100Mbps
-# Nicolas Aupetit, admin@nautile.nc
+# Nicolas Aupetit, admin at nautile.nc
 # Also in ftp and rsync
 http://videolan.nautile.nc/videolan/|Nautile (ISP)|New Caledonia|nc|HTTP|100
+# NetCologne GmbH
+# Köln, Germany
+# Christian Rohmann <crohmann 47 netcologne dot de>
+# Also in ftp, rsync and both IPV4 and v6
+http://mirror.netcologne.de/videolan.org/|NetCologne GmbH|Germany|de|HTTP|2000

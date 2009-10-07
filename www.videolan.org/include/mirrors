@@ -137,10 +137,10 @@ http://mirrors.gigenet.com/videolan/|GigeNET|USA|us|HTTP|300
 # 100 Mbits
 http://vlc.securedservers.com/|Secured Servers LLC|USA|us|HTTP|100
 #
-# Location: Canberra, Australia
-# Connectivity: > 100Mbps
-# Sponsoring organization: AussieHQ Pty Ltd http://www.aussiehq.com.au
-# Mirror admin email: mirrors at aussiehq.com.au
+## Location: Canberra, Australia
+## Connectivity: > 100Mbps
+## Sponsoring organization: AussieHQ Pty Ltd http://www.aussiehq.com.au
+## Mirror admin email: mirrors at aussiehq.com.au
 http://videolan.mirror.aussiehq.net.au/|AussieHQ Pty Ltd|Australia|au|HTTP|100
 #
 # Location: Burlington, Ontario
@@ -232,14 +232,14 @@ http://vlc.qtv.ch/|Ch. Wagner|Swiss|ch|HTTP|100
 # ilipec [AT] fe.up.pt
 # also ftp and ipv6
 http://neacm.fe.up.pt/pub/videolan/|Faculdade de Engenharia da Universidade do Porto|Portugal|pt|HTTP|1000
-# Nautile (ISP) - http://www.nautile.nc/
-# Noumea, New Caledonia
-# Bandwidth : 100Mbps
-# Nicolas Aupetit, admin at nautile.nc
-# Also in ftp and rsync
+## Nautile (ISP) - http://www.nautile.nc/
+## Noumea, New Caledonia
+## Bandwidth : 100Mbps
+## Nicolas Aupetit, admin at nautile.nc
+## Also in ftp and rsync
 http://videolan.nautile.nc/videolan/|Nautile (ISP)|New Caledonia|nc|HTTP|100
-# NetCologne GmbH
-# Köln, Germany
-# Christian Rohmann <crohmann 47 netcologne dot de>
-# Also in ftp, rsync and both IPV4 and v6
+## NetCologne GmbH
+## Köln, Germany
+## Christian Rohmann <crohmann 47 netcologne dot de>
+## Also in ftp, rsync and both IPV4 and v6
 http://mirror.netcologne.de/videolan.org/|NetCologne GmbH|Germany|de|HTTP|2000

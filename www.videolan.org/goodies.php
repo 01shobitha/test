@@ -18,7 +18,7 @@
 <p>VLC promotion movie made by Adam Vian</p>
 <a href="http://images.videolan.org/images/vlc-player.mp4">
 <img src="http://images.videolan.org/images/goodies/vlc-player-promo.png" alt="Adam Vian's movie"
- width="77" height="100" /></a>
+ height="100" /></a>
 </ul>
 
 <h2>Cones</h2>

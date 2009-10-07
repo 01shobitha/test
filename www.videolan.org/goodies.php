@@ -9,6 +9,18 @@
 <h1>VideoLAN goodies</h1>
 
 <p>You are now a true VideoLAN fan? Help yourself in this page!</p>
+<h2>Videos</h2>
+
+<p>Videos about vlc</p>
+
+<ul>
+<li>
+<p>VLC promotion movie made by Adam Vian</p>
+<a href="http://images.videolan.org/images/vlc-player.mp4">
+<img src="http://images.videolan.org/images/goodies/vlc-player-promo.png" alt="Adam Vian's movie"
+ width="77" height="100" /></a>
+</ul>
+
 <h2>Cones</h2>
 
 <p>There have been many many versions of the VideoLAN cone: </p>

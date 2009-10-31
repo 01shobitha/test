@@ -2,7 +2,7 @@
 # New topics begin with a "|"
 #
 |31 October 2009|VLC 1.0.3 Release|This version <a href="http://www.videolan.org/developers/vlc-branch/NEWS">brings a few improvements and fixes</a>, and especially fixes an important issue with Windows® 7 that worsened the video quality of the default output of VLC. VLC 1.0.3 has been tested to meet all of the technical requirements to be «Compatible with Windows® 7»<br />
- This release candidate provides also new deinterlacer filters, fixes for the interface and the WMA Professional support on Windows. <br \>
+ This release also provides new deinterlacer filters, fixes for the interface and the WMA Professional support on Windows. <br \>
 NB: No binaries for MacOS are available for the moment.
 |22 October 2009|VLC 1.0.3 Release Candidate and Windows 7| The VLC developers are very glad to offer you the first release candidate of the third minor update of the popular "Goldeneye" version of VLC.<br />
 This version <a href="http://www.videolan.org/developers/vlc-branch/NEWS">brings a few improvements and fixes</a>, and especially fixes an important issue with Windows® 7 that worsened the video quality of the default output of VLC. As Windows® 7 will be available today, the windows maintainers of VLC wanted to sync with this release.<br />

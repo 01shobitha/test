@@ -146,7 +146,7 @@ http://videolan.mirror.aussiehq.net.au/|AussieHQ Pty Ltd|Australia|au|HTTP|100
 # Location: Burlington, Ontario
 # Connectivity: 1Gbps? 100Mbps
 # Cogeco
-http://less.cogeco.net/ftp/vlc/|Cogeco|Canada|ca|HTTP|100
+#http://less.cogeco.net/ftp/vlc/|Cogeco|Canada|ca|HTTP|100
 #
 # Location: UK
 # Connectivity: 100Mbps
@@ -231,7 +231,7 @@ http://vlc.qtv.ch/|Ch. Wagner|Swiss|ch|HTTP|100
 # Porto, Portugal
 # ilipec [AT] fe.up.pt
 # also ftp and ipv6
-http://neacm.fe.up.pt/pub/videolan/|Faculdade de Engenharia da Universidade do Porto|Portugal|pt|HTTP|1000
+#http://neacm.fe.up.pt/pub/videolan/|Faculdade de Engenharia da Universidade do Porto|Portugal|pt|HTTP|1000
 ## Nautile (ISP) - http://www.nautile.nc/
 ## Noumea, New Caledonia
 ## Bandwidth : 100Mbps

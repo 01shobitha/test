@@ -29,9 +29,8 @@
 <?php pkgitem( "32 bits Package for Intel-based Macs",
                "$vlc_version/macosx","vlc-$vlc_version-intel.dmg","vlc"); ?>
 
-<!--<?php pkgitem( "64 bits Package for Intel-based Macs",
-               "$vlc_version/macosx","vlc-$vlc_version-intel64.dmg","vlc"); ?>
--->
+<?php #pkgitem( "64 bits Package for Intel-based Macs",
+      #         "$vlc_version/macosx","vlc-$vlc_version-intel64.dmg","vlc"); ?>
 <?php pkgitem( "Package for PowerPC-based Macs",
                "$vlc_version/macosx","vlc-$vlc_version-powerpc.dmg","vlc"); ?>
 

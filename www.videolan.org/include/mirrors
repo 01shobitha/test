@@ -11,17 +11,17 @@
 #http://ftp.snt.utwente.nl/pub/software/videolan/|Twente University|Netherlands|nl|HTTP|1000
 #
 # Contact : mirrormaster at ircam dot fr - BW : 1 GBit
-#http://mirrors.ircam.fr/pub/videolan/|IRCAM|France|fr|HTTP|1000
+http://mirrors.ircam.fr/pub/videolan/|IRCAM|France|fr|HTTP|1000
 #
 # Contact : Emmanuel dot Blindauer at urs dot u-strasbg dot fr - BW : 1 GBit
-#ftp://ftp.u-strasbg.fr/pub/videolan/|Université de Strasbourg|France|fr|FTP|1000
+ftp://ftp.u-strasbg.fr/pub/videolan/|Université de Strasbourg|France|fr|FTP|1000
 #
 # Contact: #crans on irc.rezosup.net - 
 # Contact: roots at crans dot org
-#ftp://ftp.crans.org/pub/videolan/|Cr@ns, ENS Cachan|France|fr|FTP|100
+ftp://ftp.crans.org/pub/videolan/|Cr@ns, ENS Cachan|France|fr|FTP|100
 #
 # Contact : hsunchang at gmail dot com
-#ftp://videolan.cs.pu.edu.tw/others/VideoLAN/|Providence University|Taiwan|tw|FTP|100
+ftp://videolan.cs.pu.edu.tw/others/VideoLAN/|Providence University|Taiwan|tw|FTP|100
 #
 # Contact : erik at telia dot com (e-mail address doesn't work) - round robin 100Mbits Stockholm 100Mbits Gothenburg
 #Directory listing is disabled.
@@ -35,16 +35,16 @@ http://ftp.endpoint.nu/pub/software/videolan/|Endpoint Corporation|Sweden|se|HTT
 # http://mirror.aarnet.edu.au/pub/videolan/|AARNet|Australia|au|HTTP|10000
 #
 # Contact : zdenek bill - maser at kn dot vutbr dot cz - BW 1Gbit
-#http://videolan.kn.vutbr.cz/|Brno University of Technology|Czech Republic|cz|HTTP|1000
+http://videolan.kn.vutbr.cz/|Brno University of Technology|Czech Republic|cz|HTTP|1000
 #
 # Contact : juan dot mussini at pucpr dot br
-#ftp://ftp.pucpr.br/videolan/|Pontifícia Universidade Católica do Paraná|Brazil|br|FTP|100
+ftp://ftp.pucpr.br/videolan/|Pontifícia Universidade Católica do Paraná|Brazil|br|FTP|100
 #
 # Contact Dave Schroeder  das at doit dot wisc dot edu
-#http://mirror.services.wisc.edu/mirrors/videolan/|University of Wisconsin - Madison|USA|us|HTTP|100
+http://mirror.services.wisc.edu/mirrors/videolan/|University of Wisconsin - Madison|USA|us|HTTP|100
 #
 # Contact : Ionic, ionic at root24 dot de - 100 Mbit
-#ftp://root24.eu/pub/videolan/|Root24|Germany|de|FTP|100
+ftp://root24.eu/pub/videolan/|Root24|Germany|de|FTP|100
 #
 # Contact : James Laver,james . laver at gmail dot com
 # Contact2 : Tony Dodd tony at wefixtech dot co dot uk
@@ -62,7 +62,7 @@ http://mirror.yandex.ru/mirrors/ftp.videolan.org/|Yandex|Russia|ru|HTTP|1000
 #  Tigran Afrikyan <mirrors  qt adc dot am> 
 # Not very reliable
 # gives false-positive in the mirror.v.o script
-#http://vlc.mirrors.adc.am/|Armenian Datacom Company|Armenia|am|HTTP|200
+http://vlc.mirrors.adc.am/|Armenian Datacom Company|Armenia|am|HTTP|200
 #
 # Technotop Networks, The Netherlands
 # Robbert van Hulsentop <robbert at technotop dot nl>
@@ -106,12 +106,12 @@ http://videolan.netmindz.net/|Netmindz.net|United Kingdom|gb|HTTP|100
 # Neil Bright <neil   .   bright   oit . gatech . edu>
 # Exist in ftp and rsync
 # 1Gbps (10Gbps on internet2)
-#http://www.gtlib.gatech.edu/pub/videolan/|Georgia Tech|USA|us|HTTP|1000 
+http://www.gtlib.gatech.edu/pub/videolan/|Georgia Tech|USA|us|HTTP|1000 
 #
 # Location: Germany
 # Christian
 # HTTP (but ftp exists too)
-#http://mirror.informatik.uni-mannheim.de/pub/mirrors/videolan.org/|Universitaet Mannheim|Germany|de|HTTP|1000
+http://mirror.informatik.uni-mannheim.de/pub/mirrors/videolan.org/|Universitaet Mannheim|Germany|de|HTTP|1000
 #
 # Location: UK
 # Melissa, adm 47 existonline.co.uk
@@ -123,7 +123,7 @@ http://videolan.netmindz.net/|Netmindz.net|United Kingdom|gb|HTTP|100
 # systemadministration@leaseweb.com
 # FTP/HTTP/RSYNC and ipv6
 # 2Gbit
-#http://mirror.leaseweb.com/pub/software/videolan/|LeaseWeb|Netherlands|nl|HTTP|2000
+http://mirror.leaseweb.com/pub/software/videolan/|LeaseWeb|Netherlands|nl|HTTP|2000
 #
 # GigeNET
 # Location US
@@ -166,7 +166,7 @@ http://mirror.its.uidaho.edu/pub/videolan/|University of Idaho|USA|us|HTTP|200
 # POP Internet
 #Location: Brazil
 # Vinicius Lage <vinilage @ gmail.com>
-#http://vlc.pop.com.br/|POP Internet|Brazil|br|HTTP|1000
+http://vlc.pop.com.br/|POP Internet|Brazil|br|HTTP|1000
 #
 #
 # CacheBoy CDN - This is a TEST
@@ -231,7 +231,7 @@ http://nervion.us.es/videolan/|University of Seville|Spain|es|HTTP|1000
 # Porto, Portugal
 # ilipec [AT] fe.up.pt
 # also ftp and ipv6
-#http://neacm.fe.up.pt/pub/videolan/|Faculdade de Engenharia da Universidade do Porto|Portugal|pt|HTTP|1000
+http://neacm.fe.up.pt/pub/videolan/|Faculdade de Engenharia da Universidade do Porto|Portugal|pt|HTTP|1000
 ## Nautile (ISP) - http://www.nautile.nc/
 ## Noumea, New Caledonia
 ## Bandwidth : 100Mbps

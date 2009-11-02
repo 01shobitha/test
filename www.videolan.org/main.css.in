@@ -556,9 +556,6 @@ a.en {
 
 #footer p { line-height: 20px; }
 
-/* Flags */
-.mirror li { padding-left: 25px; }
-
 /**** New front page ****/
 .fronttable {
 	margin-top: 10px;
@@ -571,3 +568,7 @@ a.en {
 	background: none !important;
 	padding: 5px !important;
 }
+
+/* Flags */
+.mirror li { padding-left: 25px; }
+

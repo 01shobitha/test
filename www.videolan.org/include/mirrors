@@ -209,11 +209,11 @@ http://videolan.cdn.cacheboy.net/|CacheBoy|South Africa|za|HTTP|1000
 # Grangefields / Vialtus Solutions
 # London UK
 # Steve Colam steve@colam.co.uk
-#ttp://www.grangefields.co.uk/mirrors/videolan/|Grangefields, Vialtus Solutions|United Kingdom|gb|HTTP|1000
+#http://www.grangefields.co.uk/mirrors/videolan/|Grangefields, Vialtus Solutions|United Kingdom|gb|HTTP|1000
 # ITL
 # Kharkov, Ukraine 
 # mirrors <at> itl.ua
-#ttp://ftp.itl.ua/pub/VideoLAN/|ITL|Ukraine|ua|HTTP|500
+http://ftp.itl.ua/pub/VideoLAN/|ITL|Ukraine|ua|HTTP|500
 # NullRoute.me
 # London, UK
 # mirrors <at? NullRoute.me
@@ -226,7 +226,7 @@ http://nervion.us.es/videolan/|University of Seville|Spain|es|HTTP|1000
 # Qtv
 # Switzerland 
 # Christian Wagner, @qtv.ch
-#ttp://vlc.qtv.ch/|Ch. Wagner|Swiss|ch|HTTP|100
+http://vlc.qtv.ch/|Ch. Wagner|Swiss|ch|HTTP|100
 # Faculdade de Engenharia da Universidade do Porto
 # Porto, Portugal
 # ilipec [AT] fe.up.pt
@@ -237,7 +237,7 @@ http://neacm.fe.up.pt/pub/videolan/|Faculdade de Engenharia da Universidade do P
 ## Bandwidth : 100Mbps
 ## Nicolas Aupetit, admin at nautile.nc
 ## Also in ftp and rsync
-#ttp://videolan.nautile.nc/videolan/|Nautile (ISP)|New Caledonia|nc|HTTP|100
+http://videolan.nautile.nc/videolan/|Nautile (ISP)|New Caledonia|nc|HTTP|100
 ## NetCologne GmbH
 ## Köln, Germany
 ## Christian Rohmann <crohmann 47 netcologne dot de>

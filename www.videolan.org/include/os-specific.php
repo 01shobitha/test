@@ -46,11 +46,8 @@ function DoDL( $os, $with_js=1 )
     $dl = array();
     $version = '1.0.3';
     $dl["Win32"] = array("/mirror-geo.php?file=vlc/$version/win32/vlc-$version-win32.exe", "Windows, 17&nbsp;MB" );
-#    $dl["OSX-PPC"] = array("/mirror-geo.php?file=vlc/$version/macosx/vlc-$version-powerpc.dmg", "Mac OS X 10.5 (PowerPC), 19&nbsp;MB" );
-#    $dl["OSX-Intel"] = array( "/mirror-geo.php?file=vlc/$version/macosx/vlc-$version-intel.dmg","Mac OS X 10.5 or later (Intel 32bit), 19&nbsp;MB" );
-
-    $dl["OSX-PPC"] = array("/mirror-geo.php?file=vlc/1.0.2/macosx/vlc-1.0.2-powerpc.dmg", "Mac OS X 10.5 (PowerPC), 19&nbsp;MB" );
-    $dl["OSX-Intel"] = array( "/mirror-geo.php?file=vlc/1.0.2/macosx/vlc-1.0.2-intel.dmg","Mac OS X 10.5 or later (Intel 32bit), 19&nbsp;MB" );
+    $dl["OSX-PPC"] = array("/mirror-geo.php?file=vlc/$version/macosx/vlc-$version-powerpc.dmg", "Mac OS X 10.5 (PowerPC), 19&nbsp;MB" );
+    $dl["OSX-Intel"] = array( "/mirror-geo.php?file=vlc/$version/macosx/vlc-$version-intel.dmg","Mac OS X 10.5 or later (Intel 32bit), 19&nbsp;MB" );
     $dl["Linux"] =array("/vlc/", "Linux and other OSes" );
     $dl["Debian"] = array( "/vlc/download-debian.html", "Debian GNU/Linux" );
     $dl["Ubuntu"] = array( "/vlc/download-ubuntu.html", "Ubuntu Linux");

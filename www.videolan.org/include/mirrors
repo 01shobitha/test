@@ -250,7 +250,7 @@ http://mirror.openwebster.com/videolan/|OpenWebster|USA|us|HTTP|100
 ## Default Route, Inc.
 ## DR NetOps (ops at defaultroute dot net) 
 ## Seattle and NY, USA
-http://vlc-1.defaultroute.net/|Default Route, Inc.|USA, West coast|us|HTTP|100
-http://vlc-2.defaultroute.net/|Default Route, Inc.|USA, East coast|us|HTTP|100
+http://vlc-1.defaultroute.net/|Default Route, Inc.|USA, West|us|HTTP|100
+http://vlc-2.defaultroute.net/|Default Route, Inc.|USA, East|us|HTTP|100
 # Make sure to not leave a blank line at the end
 # EOF

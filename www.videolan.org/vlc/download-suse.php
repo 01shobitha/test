@@ -47,7 +47,8 @@ Version. Supported at this time are :</p>
 <p>
 10.3<br />
 11.0<br />
-11.1
+11.1<br />
+11.2
 </p>
 <p>Confirm the addition.<br />
 </p>
@@ -81,7 +82,7 @@ sudo zypper mr -r VLC
 sudo zypper in vlc
 </pre>
 
-<p>openSUSEversion can be 10.3, 11.0 or 11.1</p>
+<p>openSUSEversion can be 10.3, 11.0, 11.1 or 11.2 </p>
 
 </div>
 

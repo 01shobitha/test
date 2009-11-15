@@ -18,6 +18,10 @@ echo"    <div class=\"screenshot\"><a href='http://images1.videolan.org/vlc/scre
 
 <h2 class="clearme">Latest version: 1.0 - Goldeneye</h2>
 <?php
+screenshot( "1.0.0/VLC_Gnome.png",
+            "1.0.0/tm_VLC_Gnome.png",
+            "Linux - Gnome", "1280x800" );
+echo '<p class="clearme"></p>';
 screenshot( "1.0.0/vlc_101_w7_2.jpg",
             "1.0.0/tm_vlc_101_w7_2.jpg",
             "Windows 7 - Qt Interface", "1280x800" );

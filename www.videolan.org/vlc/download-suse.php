@@ -16,10 +16,12 @@ options (besides downloading and installing the RPMs manually).</p>
 
 <h2 style="float: clear">Installing VLC using <a href="http://en.opensuse.org/One_Click_Install/UserFAQ">1-click-installs</a></h2>
 <div>
+<div class="installbtn" style="float: left;">
+  <a href="http://download.videolan.org/pub/vlc/SuSE/11.2/vlc.ymp">VLC on 11.2</a>
+</div>
 <div class="installbtn" style="float:left;">
   <a href="http://download.videolan.org/pub/vlc/SuSE/11.1/vlc.ymp">VLC on 11.1</a>
 </div>
-
 <div class="installbtn" style="float: left;">
   <a href="http://download.videolan.org/pub/vlc/SuSE/11.0/vlc.ymp">VLC on 11.0</a>
 </div>

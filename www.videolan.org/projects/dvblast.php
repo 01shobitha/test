@@ -31,16 +31,17 @@ VLC.</p>
   <li> CAM menus (MMI) support via an external application</li>
   <li> The configuration file describing outputs can be reloaded without losing a single packet</li>
   <li> PID-based or service-based filtering</li>
-  <li> Support for the new S2API of linux-dvb (compile option)</li>
+  <li> EIT, SDT and TDT pass-through for EPG information</li>
+  <li> Support for the new S2API of linux-dvb</li>
 </ul>
 
 <h2>Get DVBlast</h2>
 
 <p> The latest official version of <code>DVBlast</code>
-is numbered 1.0, and is available via <a
-href="http://downloads.videolan.org/pub/videolan/dvblast/1.0/dvblast-1.0.tar.bz2">HTTP</a>
+is numbered 1.1, and is available via <a
+href="http://downloads.videolan.org/pub/videolan/dvblast/1.1/dvblast-1.1.tar.bz2">HTTP</a>
 or <a
-href="ftp://ftp.videolan.org/pub/videolan/dvblast/1.0/dvblast-1.0.tar.bz2">FTP</a>.</p>
+href="ftp://ftp.videolan.org/pub/videolan/dvblast/1.1/dvblast-1.1.tar.bz2">FTP</a>.</p>
 
 <p> Hackers can participate to the development using <a
 href="http://wiki.videolan.org/Subversion">Subversion</a>.

@@ -70,7 +70,7 @@ You don't need to have a paypal account to do so.</p>
 
    <span style="font-size: 10pt;">Euros:</span>
    <input name="cmd" value="_xclick" type="hidden"/>
-   <input name="business" value="treasurer@videolan.org" type="hidden"/>
+   <input name="business" value="sponsor@videolan.org" type="hidden"/>
    <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
    <input name="no_note" value="0" type="hidden"/>
    <input name="currency_code" value="EUR" type="hidden"/>
@@ -83,7 +83,7 @@ You don't need to have a paypal account to do so.</p>
    <form action="https://www.paypal.com/cgi-bin/webscr" method="post"><p>
    <span style="font-size: 10pt;">Dollars:</span>
    <input name="cmd" value="_xclick" type="hidden"/>
-   <input name="business" value="treasurer@videolan.org" type="hidden"/>
+   <input name="business" value="sponsor@videolan.org" type="hidden"/>
    <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
    <input name="no_note" value="0" type="hidden"/>
    <input name="currency_code" value="USD" type="hidden"/>

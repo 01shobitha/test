@@ -77,6 +77,7 @@
 
 <h2>People using x264</h2>
 <ul>
+<li><a href="http://www.bitsontherun.com/">Bits on the Run</a></li>
 <li><a href="http://video.google.com/">Google Video</a></li>
 <li><a href="http://www.cs.washington.edu/research/MobileASL/">MobileASL</a></li>
 <li><a href="http://speeddemosarchive.com">Speed Demos Archive</a></li>

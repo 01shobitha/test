@@ -54,11 +54,6 @@ ftp://root24.eu/pub/videolan/|Root24|Germany|de|FTP|100
 # The windows installer always gets corrupted on their mirror
 #http://online.caf.info/vlc/|caf.info|USA|usa|HTTP|100
 #
-# JAIST, JP
-# Contact Kazuhiro Fujieda: fujieda  ---  at jaist.ac dot jp 
-# 			    ftp-admin --- at  jaist.ac   dot jp
-http://ftp.jaist.ac.jp/pub/videolan/|JAIST|Japan|jp|HTTP|100
-#
 # Yandex, Moscow, Russia
 # Contact opensource --- at --- yandex-team dot ru
 http://mirror.yandex.ru/mirrors/ftp.videolan.org/|Yandex|Russia|ru|HTTP|1000
@@ -142,16 +137,16 @@ http://mirrors.gigenet.com/videolan/|GigeNET|USA|us|HTTP|300
 # 100 Mbits
 http://vlc.securedservers.com/|Secured Servers LLC|USA|us|HTTP|100
 #
-# Location: Canberra, Australia
-# Connectivity: > 100Mbps
-# Sponsoring organization: AussieHQ Pty Ltd http://www.aussiehq.com.au
-# Mirror admin email: mirrors at aussiehq.com.au
+## Location: Canberra, Australia
+## Connectivity: > 100Mbps
+## Sponsoring organization: AussieHQ Pty Ltd http://www.aussiehq.com.au
+## Mirror admin email: mirrors at aussiehq.com.au
 http://videolan.mirror.aussiehq.net.au/|AussieHQ Pty Ltd|Australia|au|HTTP|100
 #
 # Location: Burlington, Ontario
 # Connectivity: 1Gbps? 100Mbps
 # Cogeco
-http://less.cogeco.net/ftp/vlc/|Cogeco|Canada|ca|HTTP|100
+#http://less.cogeco.net/ftp/vlc/|Cogeco|Canada|ca|HTTP|100
 #
 # Location: UK
 # Connectivity: 100Mbps
@@ -223,7 +218,7 @@ http://ftp.itl.ua/pub/VideoLAN/|ITL|Ukraine|ua|HTTP|500
 # London, UK
 # mirrors <at? NullRoute.me
 # also FTP and rSync and IPv6
-http://mirrors.nullroute.me/videolan/|NullRoute.me|United Kingdom|gb|HTTP|1000
+#http://mirrors.nullroute.me/videolan/|NullRoute.me|United Kingdom|gb|HTTP|1000
 # University of Seville
 # Seville, Spain
 # javierdemiguel at us.es
@@ -232,3 +227,30 @@ http://nervion.us.es/videolan/|University of Seville|Spain|es|HTTP|1000
 # Switzerland 
 # Christian Wagner, @qtv.ch
 http://vlc.qtv.ch/|Ch. Wagner|Swiss|ch|HTTP|100
+# Faculdade de Engenharia da Universidade do Porto
+# Porto, Portugal
+# ilipec [AT] fe.up.pt
+# also ftp and ipv6
+http://neacm.fe.up.pt/pub/videolan/|Faculdade de Engenharia da Universidade do Porto|Portugal|pt|HTTP|1000
+## Nautile (ISP) - http://www.nautile.nc/
+## Noumea, New Caledonia
+## Bandwidth : 100Mbps
+## Nicolas Aupetit, admin at nautile.nc
+## Also in ftp and rsync
+http://videolan.nautile.nc/videolan/|Nautile (ISP)|New Caledonia|nc|HTTP|100
+## NetCologne GmbH
+## Köln, Germany
+## Christian Rohmann <crohmann 47 netcologne dot de>
+## Also in ftp, rsync and both IPV4 and v6
+http://mirror.netcologne.de/videolan.org/|NetCologne GmbH|Germany|de|HTTP|2000
+## OpenWebster
+## Mike T" <mtu 47 openwebster d0t com>
+## Denver, Colorado, USA
+http://mirror.openwebster.com/videolan/|OpenWebster|USA|us|HTTP|100
+## Default Route, Inc.
+## DR NetOps (ops at defaultroute dot net) 
+## Seattle and NY, USA
+http://vlc-1.defaultroute.net/|Default Route, Inc.|USA, West|us|HTTP|100
+http://vlc-2.defaultroute.net/|Default Route, Inc.|USA, East|us|HTTP|100
+# Make sure to not leave a blank line at the end
+# EOF

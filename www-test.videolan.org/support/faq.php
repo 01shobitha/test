@@ -140,11 +140,24 @@ but this should be the simplest one as it does not rely on a contract.
 </p>
 
 <h2>Is libdvdcss legal?</h2>
-<p>The use and distribution of the libdvdcss library is controversial in a few countries such as the United States because of a law called the DMCA (Digital Millennium Copyright Act). If you are unsure about the legality of using and distributing this library in your country, please consult your lawyer.
+<p> The use and distribution of the libdvdcss library is controversial
+in some signatories countries
+of the <a href="http://www.wipo.int/">WIPO</a> Copyright Treaty,
+and the corresponding European Union Copyright Directive (EUCD) within the EU.
+For instance, the United States of America,
+it is implemented through the DMCA (Digital Millennium Copyright Act).
+</p>
+<p> Different countries implement subtly different restrictions
+on the use of anti-piracy counter-measures.
+If you are unsure about the legality of using and distributing this library
+in your country, please consult your lawyer.
 </p>
 
 <p><strong>Beware</strong>:
-VLC media player binaries are distributed with the libdvdcss library included.
+VLC media player installers for Microsoft Windows and MacOS X
+are distributed with the libdvdcss library included.
+The VLC media player source code does <strong>not</strong> include libdvdcss.
+Also Linux VLC packages normally do not include libdvdcss.
 </p>
 
 <h2>Third parties are selling your software.

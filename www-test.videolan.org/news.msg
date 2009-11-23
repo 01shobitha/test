@@ -1,6 +1,24 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|10 November 2009|VLC 1.0.3 and Mac OS X 10.6.2|The VLC developers are glad to report that Apple's recently announced Mac OS X update to version 10.6.2 includes a fix which let's correctly you use the Apple Remote within VLC again. Prior releases of Apple's Mac OS X 10.6 included a bug, which caused interferences with iTunes or DVD Player when using the Apple Remote in 3rd party applications. According to Apple, this update also addresses video playback and performance issues on certain setups.<br />
+Please note that VLC 1.0.3 is required to use the Apple Remote on Mac OS X 10.6.2. 
+
+|31 October 2009|VLC 1.0.3 Release|The VLC developers are glad to bring you a new version of the award-winning VLC. This version <a href="http://www.videolan.org/developers/vlc-branch/NEWS">brings a various improvements and fixes</a>, and especially an important issue with Windows® 7 that worsened the video quality of the default output of VLC. VLC 1.0.3 has been tested to meet all of the technical requirements to be «Compatible with Windows® 7»<br />
+ This release also provides new deinterlacer filters, fixes for the interface and the WMA Professional support on Windows. <br />
+<b>Update:</b> Binaries for Mac OS X are now available.
+
+|22 October 2009|VLC 1.0.3 Release Candidate and Windows 7| The VLC developers are very glad to offer you the first release candidate of the third minor update of the popular "Goldeneye" version of VLC.<br />
+This version <a href="http://www.videolan.org/developers/vlc-branch/NEWS">brings a few improvements and fixes</a>, and especially fixes an important issue with Windows® 7 that worsened the video quality of the default output of VLC. As Windows® 7 will be available today, the windows maintainers of VLC wanted to sync with this release.<br />
+This release candidate provides also updated translations, new deinterlacer filters, fixes for the interface and the WMA Professional support on Windows. Please <a href="ftp://ftp.videolan.org/pub/testing/vlc-1.0.3-rc/">test</a> this release candidate and report bugs. <a href="ftp://ftp.videolan.org/pub/testing/vlc-1.0.3-rc/win32">Windows binaries</a> are available.<br />
+<b>Update:</b> Binaries for Mac OS X are available <a href="ftp://ftp.videolan.org/pub/testing/vlc-1.0.3-rc/macosx">here</a>.
+
+|10 October 2009|VLC is Compatible with Windows® 7|<img alt="Compatible with Windows 7 Logo" src="http://images.videolan.org/images/partners/EN-w7-comp_rgb_S.png" style="float:left; margin: 15px;"/> The VLC developers are happy to announce that the latest version of VLC, 1.0.2, has been tested to meet all of the technical requirements to be Compatible with Windows® 7. This means that VLC is tested for compatibility and reliability on Windows® 7, has passed Microsoft designed tests to minimize the possibility of crashs, hangs, and reboot and installs cleanly and reliably. <br /> While this shows that you can have confidence in installing VLC on your Windows® 7 installation, there are still bugs on the visual quality, depending on your video driver. See <a href="http://wiki.videolan.org/VLC_Windows7">our wiki</a> for more details.
+
+|01 October 2009|Meet people from the VideoLAN team on T-DOSE 2009 (3 and 4 October)|The dutch based conference <strong>T-DOSE</strong> is being held for the fourth year in a row and has interesting talks. If you want to meet people from VideoLAN project and know more about VLC 1.0 then meet us at the booth. People from VideoLAN team will be present at the T-Dose conference in the next days. For more information on T-DOSE schedule visit this <a href="http://www.t-dose.org/2009/schedule">link</a>.
+
+|22 September 2009| VLC 1.0.2 is out!| After almost 2 months and 27 million downloads of VLC 1.0.1, the VLC team is proud to present the third version of the Goldeneye branch of VLC: <strong>1.0.2</strong>!</p><p>This version introduces many fixes, notably for SSA decoding, v4l2, MacOS interface, ogg/theora, x264 modules and <a href="/security/sa0901.html">security issues</a>. It also introduces the port to 64bits for Mac OS platform and 2 new languages (Kazakh and Croatian).<br /> Because of the security issues, we strongly recommand everybody to update its version of VLC.
+
 |13 August 2009|VLC Skin Editor 0.8.5 is out!|The VideoLAN team is pleased to announce the release of a new version of the VLC Skin Editor.<br/>
 This version brings again bugfixes and performance improvements but also new features. Among these is the ability to edit Slider curves with the
 mouse and support for the generation of vertical slider backgrounds. Downloads are available on the <a href="http://www.videolan.org/vlc/skineditor.html">Skin Editor page</a>.

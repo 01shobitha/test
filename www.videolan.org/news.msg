@@ -1,6 +1,9 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|23 November 2009|DVBlast 1.1|The DVBlast team is happy to announce version 1.1 of DVBlast. DVBlast is a powerful and simple streaming application for DVB cards under Linux. In addition to numerous tuning and descrambling fixes, this new release also brings new features such as EIT pass-through (for EPG) or DVB Diseqc.<br />
+Visit the <a href="http://www.videolan.org/projects/dvblast.html">project page</a> or proceed to download <a href="http://downloads.videolan.org/pub/videolan/dvblast/1.1/dvblast-1.1.tar.bz2">DVBlast</a>. Please note that it requires <a href="http://www.videolan.org/developers/libdvbpsi.html">libdvbpsi</a>.
+
 |10 November 2009|VLC 1.0.3 and Mac OS X 10.6.2|The VLC developers are glad to report that Apple's recently announced Mac OS X update to version 10.6.2 includes a fix which let's correctly you use the Apple Remote within VLC again. Prior releases of Apple's Mac OS X 10.6 included a bug, which caused interferences with iTunes or DVD Player when using the Apple Remote in 3rd party applications. According to Apple, this update also addresses video playback and performance issues on certain setups.<br />
 Please note that VLC 1.0.3 is required to use the Apple Remote on Mac OS X 10.6.2. 
 

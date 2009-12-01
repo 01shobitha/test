@@ -23,6 +23,7 @@ invite you to the multimedia open-source event of this end of year:<br />
 <p>Those meetings are necessary to make the community around the cone to grow.<br />They cost us a lot of money to organise, but we need them to build the future of <a href="/vlc/">VLC</a> and other projects.</p>
 
 <h3>Who? </h3>
+<p><strong>YOU</strong>.
 <p><strong>Anyone</strong> that cares about some VideoLAN projects.<br /> If you are not a technical person, but an enthusiast, we recommend to come to the less technical events, especially at La Cantine.</p>
 
 <h3>When? </h3>
@@ -39,7 +40,7 @@ Events will be at
 <a href="http://epitech.eu/">Epitech</a> and <a href="http://lacantine.org/">La Cantine</a> for most of them.
 
 <h2>Schedule</h2>
-You can find the full schedule here.
+You can find the full schedule <a href="/videolan/events/vdd09.pdf">here</a>.
 
 <h2>Venue</h2>
 <h3>Epitech</h3>

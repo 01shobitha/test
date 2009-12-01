@@ -45,7 +45,9 @@ Events will be at
 
 <?php panel_start( "green" ); ?>
 <h2>Sponsors</h2>
-<p><a href="http://epitech.eu/"><img src="http://www.epitech.eu/images/design/logo-epitech.jpg" alt="epitech"/></a>
+<p><a href="http://epitech.eu/"><img src="http://www.epitech.eu/images/design/logo-epitech.jpg" alt="epitech"/></a> <a href="http://epitech.eu/">Epitech</a> is hosting most of the events and sponsoring some part of the event.</p>
+<br />
+<p><a href="/videolan/team">Your name here!</a></p>
 <?php panel_end(); ?>
 </div>
 

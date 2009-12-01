@@ -71,6 +71,7 @@ You can find the full schedule <a href="/videolan/events/vdd09.pdf">here</a>.
 <p><a href="/videolan/team">Your name here!</a></p>
 <p>Help us organizing the event!</p>
 <?php panel_end(); ?>
+<p><a href="http://events.linkedin.com/VideoLAN-Dev-Days/pub/120441">LinkedIn Event</a>.</p>
 <?php panel_start( "blue" ); ?>
 <h2>VLC</h2>
 <p class="center">

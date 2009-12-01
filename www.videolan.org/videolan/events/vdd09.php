@@ -37,11 +37,16 @@ Events will be at
 <div id="right">
 
 <?php panel_start( "blue" ); ?>
+<h2>VLC</h2>
 <p class="center">
          <img src="http://images.videolan.org/images/screenshots/vlc-win32.jpg" alt="VLC on Windows" />
-                </p>
+</p>
 <?php panel_end(); ?>
 
+<?php panel_start( "green" ); ?>
+<h2>Sponsors</h2>
+<p><a href="http://epitech.eu/"><img src="http://www.epitech.eu/images/design/logo-epitech.jpg" alt="epitech"/></a>
+<?php panel_end(); ?>
 </div>
 
 <?php footer('$Id: index.php 5400 2009-07-19 15:37:21Z jb $'); ?>

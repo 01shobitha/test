@@ -29,11 +29,11 @@ invite you to the multimedia open-source event of this end of year:<br />
 <h3>When? </h3>
 <p>On the <strong>18th, 19th and 20th of december</strong> in <strong>Paris</strong>.</p>
 
-<p>Less technical events will be:
+<p>Less technical events will be:</p>
 <ul>
 <li> Soirée à <strong>La Cantine</strong>, on Friday 19th night </li>
 <li> Meeting developers, on Saturday afternoons </li>
-</ul></p>
+</ul>
 
 <h3>Where? </h3>
 Events will be at

@@ -8,13 +8,13 @@
 ?>
 
 <h1> VideoLAN Dev Days 2009 </h1>
-<h2> A Multimedia Conference that frees the cone in you! </h2>
-<div id="fullwidth">
+<h3> A Multimedia Conference that frees the cone in you! </h3>
+<div id="right">
 
-<h3> Welcome </h3>
+<h2> Welcome </h2>
 <p>The <a href="/videolan/">VideoLAN non-profit organisation</a> is happy to
 invite you to the multimedia open-source event of this end of year:<br />
-<strong>VideoLAN Dev Days '09</strong></p>
+<strong>VideoLAN Dev Days '09</strong>.</p>
 <p>For the second time, people from the VideoLAN community will meet in <strong>Paris</strong> to gather, work, discuss and build a stronger community, on the <strong>18th, 19th and 20th of december</strong>.</p>
 <p>Developers, designers and anonymous people around VLC, DVBlast, VLMa, skin-designer or other multimedia projects will be there.</p>
 
@@ -32,6 +32,15 @@ Events will be at
 
 <h2> Sponsors </h2>
 <a href="http://epitech.eu/">Epitech</a>, one of the best computer science school in France, is sponsoring the event.
+
+</div>
+<div id="left">
+
+<?php panel_start( "blue" ); ?>
+<p class="center">
+         <img src="http://images.videolan.org/images/screenshots/vlc-win32.jpg" alt="VLC on Windows" />
+                </p>
+<?php panel_end(); ?>
 
 </div>
 

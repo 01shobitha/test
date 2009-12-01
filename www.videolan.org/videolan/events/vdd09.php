@@ -42,6 +42,10 @@ Events will be at
 <h2>Schedule</h2>
 You can find the full schedule <a href="/videolan/events/vdd09.pdf">here</a>.
 
+<h2>Register</h2>
+<p>If you want to come to join us, please mail us for your registration.</p>
+<p>Note that the saturday conferences don't need registration.</p>
+
 <h2>Venue</h2>
 <h3>Epitech</h3>
 <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=epitech+paris,+france&amp;sll=49.034267,2.592773&amp;sspn=3.129595,8.453979&amp;ie=UTF8&amp;hq=epitech&amp;hnear=Paris,+France&amp;ll=48.825401,2.36721&amp;spn=0.006139,0.016512&amp;z=14&amp;iwloc=A&amp;cid=7575941540416736667&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=epitech+paris,+france&amp;sll=49.034267,2.592773&amp;sspn=3.129595,8.453979&amp;ie=UTF8&amp;hq=epitech&amp;hnear=Paris,+France&amp;ll=48.825401,2.36721&amp;spn=0.006139,0.016512&amp;z=14&amp;iwloc=A&amp;cid=7575941540416736667" style="color:#0000FF;text-align:left">View Larger Map</a></small>

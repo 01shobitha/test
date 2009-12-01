@@ -2,7 +2,7 @@
 # New topics begin with a "|"
 #
 |1 December 2009|VideoLAN Dev Days '09|The <a href="/videolan/">VideoLAN non-profit organisation</a> is happy to invite you to the multimedia open-source event of this end of year: <br /><strong>VideoLAN Dev Days '09</strong>.</p>
-<p>For the second time, people from the VideoLAN community will meet in <strong>Paris</strong> to gather, work, discuss and build a stronger community, on the <strong>18th, 19th and 20th of december 2009</strong>.</p><p><a href="/videolan/events/vdd09.html">Details and program</a> are available.</p>
+<p>For the second time, people from the VideoLAN community will meet in <strong>Paris</strong> to gather, work, discuss and build a stronger community, on the <strong>18th, 19th and 20th of december 2009</strong>.</p><p><a href="/videolan/events/vdd09.html">Details and program</a> are available.
 
 |23 November 2009|DVBlast 1.1|The DVBlast team is happy to announce version 1.1 of DVBlast. DVBlast is a powerful and simple streaming application for DVB cards under Linux. In addition to numerous tuning and descrambling fixes, this new release also brings new features such as EIT pass-through (for EPG) or DVB Diseqc.<br />
 Visit the <a href="http://www.videolan.org/projects/dvblast.html">project page</a> or proceed to download <a href="http://downloads.videolan.org/pub/videolan/dvblast/1.1/dvblast-1.1.tar.bz2">DVBlast</a>. Please note that it requires <a href="http://www.videolan.org/developers/libdvbpsi.html">libdvbpsi</a>.

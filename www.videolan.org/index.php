@@ -43,6 +43,7 @@
 
   <a href="http://www.videolan.org/videolan-news.rss">Subscribe to newsfeed.</a>
   <a href="http://planet.videolan.org">Read developers' blogs and news.</a>
+  <a href="http://twitter.com/videolan">You should follow us on Twitter.</a>
   <div>
       <?php shownews("full",4); ?>
   </div>

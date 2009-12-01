@@ -19,19 +19,27 @@ invite you to the multimedia open-source event of this end of year:<br />
 <p>Developers, designers and anonymous people around VLC, DVBlast, VLMa, skin-designer or other multimedia projects will be there.</p>
 
 <h2> Who? Where? When? What? </h2>
+<h3>Why? </h3>
+<p>Those meetings are necessary to make the community around the cone to grow.<br />They cost us a lot of money to organise, but we need them to build the future of <a href="/vlc/">VLC</a> and other projects.</p>
+
 <h3>Who? </h3>
-<p><strong>Anyone</strong> that cares about some VideoLAN projects.<br /> If you are not a technical person, but an enthusiast, we recommend to come to the 2 following events.</p>
+<p><strong>Anyone</strong> that cares about some VideoLAN projects.<br /> If you are not a technical person, but an enthusiast, we recommend to come to the less technical events, especially at La Cantine.</p>
+
+<h3>When? </h3>
+<p>On the <strong>18th, 19th and 20th of december</strong> in <strong>Paris</strong>.</p>
+
+<p>Less technical events will be:
 <ul>
-<li><h3> Soirée à La Cantine, on Friday night </h3></li>
-<li><h3> Meeting developers, on Saturday night </h3></li>
-</ul>
+<li> Soirée à <strong>La Cantine</strong>, on Friday 19th night </li>
+<li> Meeting developers, on Saturday afternoons </li>
+</ul></p>
 
 <h3>Where? </h3>
 Events will be at
 <a href="http://epitech.eu/">Epitech</a> and <a href="http://lacantine.org/">La Cantine</a> for most of them.
 
-<h2> Sponsors </h2>
-<a href="http://epitech.eu/">Epitech</a>, one of the best computer science school in France, is sponsoring the event.
+<h2>Schedule</h2>
+You can find the full schedule here.
 
 </div>
 <div id="right">

@@ -9,7 +9,7 @@
 
 <h1> VideoLAN Dev Days 2009 </h1>
 <h3> A Multimedia Conference that frees the cone in you! </h3>
-<div id="right">
+<div id="left">
 
 <h2> Welcome </h2>
 <p>The <a href="/videolan/">VideoLAN non-profit organisation</a> is happy to
@@ -34,7 +34,7 @@ Events will be at
 <a href="http://epitech.eu/">Epitech</a>, one of the best computer science school in France, is sponsoring the event.
 
 </div>
-<div id="left">
+<div id="right">
 
 <?php panel_start( "blue" ); ?>
 <p class="center">

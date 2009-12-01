@@ -43,13 +43,13 @@ You can find the full schedule here.
 
 </div>
 <div id="right">
-
 <?php panel_start( "blue" ); ?>
-<h2>VLC</h2>
+<h2>VideoLAN Dev Days '08</h2>
 <p class="center">
-         <img src="http://images.videolan.org/images/screenshots/vlc-win32.jpg" alt="VLC on Windows" />
+         <img src="http://download.videolan.org/events/20081220/VDD/mq/img-11.jpg" alt="VDD 08" />
 </p>
 <?php panel_end(); ?>
+
 
 <?php panel_start( "green" ); ?>
 <h2>Sponsors</h2>
@@ -57,6 +57,13 @@ You can find the full schedule here.
 <br />
 <p><a href="/videolan/team">Your name here!</a></p>
 <?php panel_end(); ?>
+<?php panel_start( "blue" ); ?>
+<h2>VLC</h2>
+<p class="center">
+         <img src="http://images.videolan.org/images/screenshots/vlc-win32.jpg" alt="VLC on Windows" />
+</p>
+<?php panel_end(); ?>
+
 </div>
 
 <?php footer('$Id: index.php 5400 2009-07-19 15:37:21Z jb $'); ?>

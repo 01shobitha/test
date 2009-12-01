@@ -266,7 +266,6 @@ StartHtml( ereg_replace( "<[^>]*>" , "" , $title ), $additional_css, $additional
 <p>Don't miss the open source multimedia event of the end of year:<br />
 <strong>Join us</strong> at VideoLAN Dev Days 09.</p>
 <p><a href="/videolan/events/vdd09.html">VideoLAN Dev Days '09 details</a>.</p>
-</p>
   <?php panel_end(); ?>
 
 <div id="maincontent" onmouseover="showSubMenu('<?php echo $menu[0];?>')">

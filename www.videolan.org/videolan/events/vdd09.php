@@ -46,6 +46,7 @@ You can find the full schedule <a href="/videolan/events/vdd09.pdf">here</a>.
 <p>If you want to come to join us, please mail us for your registration.</p>
 <p>Note that the saturday conferences don't need registration.</p>
 <p><a href="http://events.linkedin.com/VideoLAN-Dev-Days/pub/120441">LinkedIn Event</a>.</p>
+<p><a href="http://www.facebook.com/event.php?eid=131958622787">Facebook Event</a>.</p>
 
 <h2>Venue</h2>
 <h3>Epitech</h3>

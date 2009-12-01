@@ -15,8 +15,8 @@
 <p>The <a href="/videolan/">VideoLAN non-profit organisation</a> is happy to
 invite you to the multimedia open-source event of this end of year:<br />
 <strong>VideoLAN Dev Days '09</strong>.</p>
-<p>For the second time, people from the VideoLAN community will meet in <strong>Paris</strong> to gather, work, discuss and build a stronger community, on the <strong>18th, 19th and 20th of december</strong>.</p>
-<p>Developers, designers and anonymous people around VLC, DVBlast, VLMa, skin-designer or other multimedia projects will be there.</p>
+<p>For the second time, people from the VideoLAN community will meet in <strong>Paris</strong> to gather, work, discuss and build a stronger community, on the <strong>18th, 19th and 20th of december 2009</strong>.</p>
+<p>Developers, designers and anonymous people around <a href="/vlc/">VLC</a>, <a href="/projects/dvblast.html">DVBlast</a>, VLMa, skin-designer or other multimedia projects will be there.</p>
 
 <h2> Who? Where? When? What? </h2>
 <h3>Why? </h3>

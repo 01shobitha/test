@@ -17,7 +17,7 @@ function adapt() {
 	document.getElementById("ieShadow").style.height = document.getElementById("mainbox").offsetHeight+5;
 	document.getElementById("ieShadow").style.width = document.getElementById("mainbox").offsetWidth;
 	document.getElementById("ieShadow").style.top = document.getElementById("mainbox").offsetTop-5;
-	document.getElementById("ieShadow").style.left = document.getElementById("mainbox").offsetLeft;
+	document.getElementById("ieShadow").style.left = document.getElementById("mainbox").offsetLeft-5;
 
 }
 window.onload = function() {
@@ -46,32 +46,48 @@ window.onresize = function(evt) {
 						<td>
 							<h3>Applications</h3>
 							<p>
-							<b>VLC media player</b> &bull;
-							A cross-platform multimedia player and streamer.
+								<b><a href="vlc">VLC media player</a></b> &bull;
+								A cross-platform multimedia player and streamer.
 							</p>
 							<p>
-							<b>VLC Skin Editor</b> &bull;
-							An editing tool for VLC media player skins.
+								<b><a href="vlc/skineditor.html">"VLC Skin Editor</a></b> &bull;
+								An editing tool for VLC media player skins.
 							</p>
 							<p>
-							<b>DVBlast</b> &bull;
-							A lightweight DVB streaming application for Linux.
+								<b><a href="projects/dvblast.html">DVBlast</a></b> &bull;
+								A lightweight DVB streaming application for Linux.
 							</p>
 							<p>
-							<b>VLMa</b> &bull;
-							A multimedia streaming manager, aimed at streaming TV channels.
+								<b><a href="vlma">VLMa</a></b> &bull;
+								A multimedia streaming manager, aimed at streaming TV channels.
 							</p>
 						</td>
 						<td>
 						<h3>Libraries</h3>
 						<p>
-						<b>libdvdcss</b> &bull;
-						A C library to access DVDs without having to bother about the decryption.
+							<b><a href="developers/x264.html">x264</a></b> &bull;
+							The award-winning H.264 AVC video encoder.
 						</p>
 						<p>
-						<b>libdvbpsi</b> &bull;
-						A C library to decode and generate MPEG TS and DVB PSI tables.
+							<b><a href="developers/libdvdcss.html">libdvdcss</a></b> &bull;
+							A C library to access DVDs without having to bother about the decryption.
 						</p>
+						<p>
+							<b><a href="developers/libdvdplay.html">libdvdplay</a></b> &bull;
+							A DVD navigation library.
+						</p>
+						<p>
+							<b><a href="developers/libdvbpsi.html">libdvbpsi</a></b> &bull;
+							A C library to decode and generate MPEG TS and DVB PSI tables.
+						</p>
+						<p>
+							<b><a href="developers/libdvbcsa.html">libdvbcsa</a></b> &bull;
+							An implementation of the DVB Common Scrambling Algorithm.
+						</p>
+						<p>
+							<b><a href="developers/libdca.html">libdca</a></b> &bull;
+							A DTS Coherent Acoustics decoder.
+						</p>						
 						</td>
 					</tr>
 				</table>
@@ -83,7 +99,7 @@ window.onresize = function(evt) {
 			</td>
 			<td>
 				<h1>VLC media player</h1>
-				<p style="float:right"><img src="images/frontpage/front-screenshot.png" alt="" style="width:100%;"/></p>				
+				<p style="float:right"><img src="images/frontpage/front-screenshot.png" alt=""/></p>				
 				<p>
 					VLC media player is a highly portable multimedia player and multimedia framework  capable of reading most audio and video formats (MPEG-2, MPEG-4, H.264, DivX, MPEG-1, mp3, ogg, aac ...) as well as DVDs, Audio CDs VCDs, and various streaming protocols.
 					See the <a href="vlc/features.html">full features list</a>.

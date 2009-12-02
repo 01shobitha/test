@@ -35,7 +35,7 @@
 
     <td>
         <ul>
-            <li><a href="/project/">About the VideoLAN project</a></li>
+            <li><a href="/videolan/">About the VideoLAN project</a></li>
             <li><a href="/team/">The VideoLAN Team </a></li>
             <li><a href="/goodies.html">Goodies</a></li>
             <li><a href="/events">Events</a></li>

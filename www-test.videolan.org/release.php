@@ -146,7 +146,7 @@ color: #40424b; font-size: 22px; font-family: Lucida Grande, Verdana, Arial, Hel
     <div id="header">
        <div id="navmenucontainer">
          <ul id="navmenu">
-            <li><a href="/project/">VideoLAN Project</a></li>
+            <li><a href="/videolan/">VideoLAN Project</a></li>
             <li class="selected"><a href="/">VLC media player</a></li>
             <li><a href="/projects/">Software Projects</a></li>
             <li><a href="/support/">Documentation/Support</a></li>
@@ -276,15 +276,15 @@ color: #40424b; font-size: 22px; font-family: Lucida Grande, Verdana, Arial, Hel
   <h2>Press</h2>
 <p>Press related questions should be directed to <a href="mailto:videolan@videolan.org">VideoLAN</a>.</p>
   <h2>About VideoLAN</h2>
-  <p>VideoLAN is a software <a href="/project/">project</a>, which produces
+  <p>VideoLAN is a software <a href="/videolan/">project</a>, which produces
   <a href="http://www.gnu.org/philosophy/free-sw.html">free and open source
  software</a> for multimedia, released under the GNU <a
   href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">General Public
   License</a>.<br />
-  <a href="/project">Learn more</a> about the VideoLAN project.</p>
+  <a href="/videolan">Learn more</a> about the VideoLAN project.</p>
   <p>Our main software is the cross-platform <a href="/vlc/">VLC media player</a>.</p>
   <p>We are also the home of <a href="/developers/x264.html">x264</a> and other
-  <a href="/project/"> projects</a>.</p>
+  <a href="/videolan/"> projects</a>.</p>
 
   <h2>About VLC media player</h2>
   <p> VLC media player is a highly portable

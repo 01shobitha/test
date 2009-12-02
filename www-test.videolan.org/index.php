@@ -50,7 +50,7 @@ window.onresize = function(evt) {
 								A cross-platform multimedia player and streamer.
 							</p>
 							<p>
-								<b><a href="vlc/skineditor.html">"VLC Skin Editor</a></b> &bull;
+								<b><a href="vlc/skineditor.html">VLC Skin Editor</a></b> &bull;
 								An editing tool for VLC media player skins.
 							</p>
 							<p>

@@ -561,159 +561,52 @@ a.en {
 #footer p { line-height: 20px; }
 
 /**** New front page ****/
-.fronttable {
-	margin-top: 10px;
-	margin-left: auto;
-	margin-right: auto;
+#mainbox {
+	margin-top: 10px;	
+	height: 400px;
+	background: #FFF bottom center repeat-x url('images/frontpage/background.png');
+  -moz-border-radius: 5px;
+  -webkit-border-radius:  5px;
+  border-radius: 5px;
+  border: 1px solid #F0F0F0;
+  padding: 10px;
+  -moz-box-shadow: 0px 3px 5px #888;
+  -webkit-box-shadow: 0px 3px 5px #888;
+  z-index: 999;
+}
+#ieShadow {
+  position: relative;
+  top: -420px;
+  left: -5px;
+	height: 420px;
+  background: #888;
+  z-index: -999;
+  filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='5', MakeShadow='true', ShadowOpacity='0.50')
+}
+#ieMove {
+  position: relative;
+  top: -400px;
+}
+#mainbox .leftpart {
+  float:left;
+  width: 50%;
+  padding-right: 5px;
+}
+#mainbox .rightpart {
+  float: right;
+  width: 50%;
+  padding-left: 5px;
+}
+#mainbox h1 {
+  font-size: 16pt;
+  font-weight: bold;
+  border: 0px;
+  padding: 0px;
+  padding-top: 5px;
+  margin-bottom: 10px;
+  line-height: 16pt;
 }
 
-.fronttable td {
-	border: none !important;
-	background: none !important;
-	padding: 5px !important;
-}
-
-/* Flags */
-.mirror li { padding-left: 25px; }
-
-
-/**** New front page ****/
-/*.tabbedpane {
-	border:1px #bdbdbd solid;
-	-moz-border-radius:10px;
-	-webkit-border-radius:10px;
-	margin-top:10px;
-	background-color: #eeeeec;
-	padding:0px
-}*/
-
-#maincontent table.tabbedpane td {
-	padding: 0px !important;
-}
-table.tabbedpane {
-	margin-top:10px;
-	padding:0px
-}
-table.tabbedpane td {
-	padding:0px;
-	margin:0px;
-	border: none;
-}
-table.tabbedpane .tl {
-	width: 10px;
-	height: 10px;
-	background: url(images/panel-tabbed/tl.png) no-repeat bottom right;
-}
-
-table.tabbedpane .t {
-	height: 10px;
-	background: url(images/panel-tabbed/t.png) repeat-x bottom;
-}
-
-table.tabbedpane .tr {
-	width: 10px;
-	height: 10px;
-	background: url(images/panel-tabbed/tr.png) no-repeat bottom left;
-}
-
-table.tabbedpane .tel {
-	background: url(images/panel-tabbed/tel.png) repeat-y right;
-	border-bottom: 1px #bdbdbd solid !important;
-}
-
-table.tabbedpane .tc {
-	background: #eeeeec url(images/panel-tabbed/tc.png);
-}
-
-table.tabbedpane .ter {
-	background: url(images/panel-tabbed/ter.png) repeat-y left;
-	border-bottom: 1px #bdbdbd solid !important;
-}
-
-table.tabbedpane .bel {
-	background: url(images/panel-tabbed/bel.png) repeat-y right;
-}
-
-table.tabbedpane .bc {
-	background: #e1e5dc url(images/panel-tabbed/bc.png);
-}
-
-table.tabbedpane .ber {
-	background: url(images/panel-tabbed/ber.png) repeat-y left;
-}
-
-table.tabbedpane .bl {
-	width: 10px;
-	height: 10px;
-	background: url(images/panel-tabbed/bl.png) no-repeat top right;
-}
-
-table.tabbedpane .b{
-	height: 10px;
-	background: url(images/panel-tabbed/b.png) repeat-x top;
-}
-table.tabbedpane .bright {
-	width: 10px;
-	height: 10px;
-	background: url(images/panel-tabbed/br.png) no-repeat top left;
-}
-
-.fronttable {
-	margin-top: 10px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.fronttable td {
-	border: none !important;
-	background: none !important;
-	padding: 5px !important;
-}
-.projectmenu {
-	margin: 0px;
-	margin-top: 10px;
-	border-right:1px #bdbdbd solid !important;
-}
-.projectmenu td {
-	border:1px #bdbdbd solid !important;
-	border-right: 0px !important;
-	padding: 5px !important;
-	vertical-align: middle !important;
-	text-align: center;
-	background: url('images/tab.png') repeat-x bottom;
-	color: #2D58AE;
-	cursor: pointer;
-	height: 25px;
-	font-weight: bold;
-}
-.projectmenu td:hover {
-	color: #000;
-}
-.projectmenu td.title {
-	color: #000;
-	border-top: 0px !important;
-	border-left: 0px !important;
-	background: none;
-	cursor: default;
-}
-.projectmenu td.active {
-	color: #000;
-	background: url('images/tab-active.png') repeat-x top #e1e5dc;
-	border-bottom: 0px !important;
-	cursor: default;
-}
-.projectmenu a:link, .projectmenu a:visited {
-	text-decoration: none;
-	font-weight: bold;	
-}
-.presentation {
-	margin-top: 10px;
-}
-.presentation td {
-	vertical-align: middle !important;
-	border: none !important;
-	background: none !important;	
-	padding: 5px !important;
-	padding-top: 10px !important;
-	overflow: hidden;
+#mainbox p {
+  margin-bottom: 5px;
 }

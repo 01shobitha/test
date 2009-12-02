@@ -2,7 +2,7 @@
    $title = "VideoLAN Dev Days 2009";
    $lang = "en";
    $menu = array( "project", "events" );
-   $additional_js = array("/js/prototype.js","/js/scriptaculous.js","/js/features.js");
+   //$additional_js = array("/js/prototype.js","/js/scriptaculous.js","/js/features.js");
 
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
@@ -31,7 +31,7 @@ invite you to the multimedia open-source event of this end of year: <br />
 
 <p>Less technical events will be:</p>
 <ul>
-<li> Soirée à <strong>La Cantine</strong>, on Friday 19th night </li>
+<li> Soir&eacute; &agrave; <strong>La Cantine</strong>, on Friday 19th night </li>
 <li> Meeting developers, on Saturday afternoons </li>
 </ul>
 
@@ -50,10 +50,10 @@ You can find the full schedule <a href="/videolan/events/vdd09.pdf">here</a>.
 
 <h2>Venue</h2>
 <h3>Epitech</h3>
-<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=epitech+paris,+france&amp;sll=49.034267,2.592773&amp;sspn=3.129595,8.453979&amp;ie=UTF8&amp;hq=epitech&amp;hnear=Paris,+France&amp;ll=48.825401,2.36721&amp;spn=0.006139,0.016512&amp;z=14&amp;iwloc=A&amp;cid=7575941540416736667&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=epitech+paris,+france&amp;sll=49.034267,2.592773&amp;sspn=3.129595,8.453979&amp;ie=UTF8&amp;hq=epitech&amp;hnear=Paris,+France&amp;ll=48.825401,2.36721&amp;spn=0.006139,0.016512&amp;z=14&amp;iwloc=A&amp;cid=7575941540416736667" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+<iframe width="520" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=epitech+paris,+france&amp;sll=49.034267,2.592773&amp;sspn=3.129595,8.453979&amp;ie=UTF8&amp;hq=epitech&amp;hnear=Paris,+France&amp;ll=48.825401,2.36721&amp;spn=0.006139,0.016512&amp;z=14&amp;iwloc=A&amp;cid=7575941540416736667&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=epitech+paris,+france&amp;sll=49.034267,2.592773&amp;sspn=3.129595,8.453979&amp;ie=UTF8&amp;hq=epitech&amp;hnear=Paris,+France&amp;ll=48.825401,2.36721&amp;spn=0.006139,0.016512&amp;z=14&amp;iwloc=A&amp;cid=7575941540416736667" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 
 <h3>La Cantine</h3>
-<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=la+cantine,&amp;sll=48.869775,2.342577&amp;sspn=0.006133,0.016512&amp;ie=UTF8&amp;radius=0.38&amp;rq=1&amp;ev=zi&amp;hq=la+cantine,&amp;hnear=&amp;ll=48.869775,2.342577&amp;spn=0.006133,0.016512&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=la+cantine,&amp;sll=48.869775,2.342577&amp;sspn=0.006133,0.016512&amp;ie=UTF8&amp;radius=0.38&amp;rq=1&amp;ev=zi&amp;hq=la+cantine,&amp;hnear=&amp;ll=48.869775,2.342577&amp;spn=0.006133,0.016512" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+<iframe width="520" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=la+cantine,&amp;sll=48.869775,2.342577&amp;sspn=0.006133,0.016512&amp;ie=UTF8&amp;radius=0.38&amp;rq=1&amp;ev=zi&amp;hq=la+cantine,&amp;hnear=&amp;ll=48.869775,2.342577&amp;spn=0.006133,0.016512&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=la+cantine,&amp;sll=48.869775,2.342577&amp;sspn=0.006133,0.016512&amp;ie=UTF8&amp;radius=0.38&amp;rq=1&amp;ev=zi&amp;hq=la+cantine,&amp;hnear=&amp;ll=48.869775,2.342577&amp;spn=0.006133,0.016512" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 
 </div>
 <div id="right">
@@ -76,7 +76,7 @@ You can find the full schedule <a href="/videolan/events/vdd09.pdf">here</a>.
 <?php panel_start( "blue" ); ?>
 <h2>VLC</h2>
 <p class="center">
-         <img src="http://images.videolan.org/images/screenshots/vlc-win32.jpg" alt="VLC on Windows" />
+         <img src="http://images.videolan.org/images/screenshots/vlc-win32.png" alt="VLC on Windows" />
 </p>
 <?php panel_end(); ?>
 

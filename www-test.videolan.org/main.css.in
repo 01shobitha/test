@@ -610,3 +610,8 @@ a.en {
 #mainbox p {
   margin-bottom: 5px;
 }
+
+#mainbox .download {
+  padding-left: 18px;
+  background: url(images/frontpage/download.png) left center no-repeat;
+}

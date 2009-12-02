@@ -11,23 +11,91 @@
    if(isset($_GET['tab'])) $tab = $_GET['tab'];
 ?>
 <div id="mainbox">
-	<div class="leftpart">
-		<h1>What is VideoLAN?</h1>
-		
-		<p>
-		<b>VideoLAN</b> is a non-profit organization that aims at developing free multimedia related software.
-		</p>
-		
-		<p>It is a host to various open-source multimedia projects, the most prominent being VLC media player.</p>
-		
-		<p><a href="/videolan/">Learn more...</a></p>
-		
-		<h1>VideoLAN projects</h1>
-		<p>
-			<i>fancy display of projects coming soon</i>
-		</p>
-		
-	</div>
+	<table>
+		<tr>
+			<td>
+				<h1>What is VideoLAN?</h1>
+				<p> 
+					The <b>VideoLAN organization</b> is a non-profit organization that puts its efforts into developing
+					<a href="http://www.gnu.org/philosophy/free-sw.html" target="_blank">free</a> multimedia solutions.
+				    It's a host to various open source projects, the most prominent being the VLC media player.
+					<br/><br/>
+					<a href="/videolan/">Learn more about VideoLAN.</a>
+				</p>
+				<h1>VideoLAN projects</h1>
+				<p>
+					<i>TODO</i>
+				</p>
+				<h1>Contribute to the community</h1>
+  				<p>
+				    There are several ways <i>you</i> can contribute and become a part of the VideoLAN community.
+					Learn more about how you can do that on the <a href="contribute.html">contribute page</a>.
+				</p>		
+			</td>
+			<td>
+				<h1>VLC media player</h1>
+				<table style="width:100%">
+					<tr>
+						<td>
+							<p>
+							VLC media player is a highly portable multimedia player and multimedia framework  capable of reading most audio and video formats (MPEG-2, MPEG-4, H.264, DivX, MPEG-1, mp3, ogg, aac ...) as well as DVDs, Audio CDs VCDs, and various streaming protocols.
+							See the <a href="vlc/features.html">full features list</a>.
+							</p>
+							<p>
+							It can also be used as a media converter or a server to stream in unicast or multicast in IPv4 or IPv6 on networks.
+							</p>
+							<p>
+								<table class="dl-table">
+					            <tr>
+					              <td style="width:64px;"><img src="images/dl-vlc.png" alt="Download VLC" /></td>
+					              <td><span>
+					              <script type="text/javascript"><!--
+					                if ( <?php echo $is_win32; ?> ) { <?php DoDL("Win32"); ?> }
+					                else if( <?php echo $is_beos; ?> ) { <?php DoDL("BeOS"); ?> }
+					                else if( <?php echo $is_linux; ?> )
+					                {
+					                  if( <?php echo $is_ubuntu; ?> ) { <?php DoDL("Ubuntu"); ?> }
+					                  else if( <?php echo $is_fedora; ?> ) { <?php DoDL("Fedora"); ?>}
+					                  else if( <?php echo $is_suse; ?> ) { <?php DoDL("Suse"); ?> }
+					                  else if( <?php echo $is_debian; ?> ) { <?php DoDL("Debian"); ?> }
+					                  else if( <?php echo $is_mandriva; ?> ) { <?php DoDL("Mandriva"); ?> }
+					                  else if( <?php echo $is_redhat; ?> ) { <?php DoDL("RedHat"); ?> }
+					                  else if( <?php echo $is_gentoo; ?> ) { <?php DoDL("Gentoo"); ?> }
+					                  else { <?php DoDL("Linux"); ?> }
+					                }
+					                else if( <?php echo $is_freebsd; ?> ) { <?php DoDL("FreeBSD"); ?> }
+					                else if( <?php echo $is_osx; ?> )
+					                {
+					                  if( <?php echo $is_ppc; ?> ) { <?php DoDL("OSX-PPC"); ?> }
+					                  else if( <?php echo $is_mactel; ?> ) { <?php DoDL("OSX-Intel");?>}
+					                     else  { <?php DoDL("OSX-PPC"); DoDL("OSX-Intel"); ?> }
+					                }
+					                else if( navigator.platform.indexOf("Mac") != -1 )
+					                {
+					                document.writeln( "<p>Haha Mac OS 9 is dead! (if you\\\'re not using Mac OS 9 ... please write us a mail so we can fix this OS detection script)</p>'" );
+					                }
+					                else
+					                {
+					                <?php DoDL("Win32");DoDL("OSX-PPC"); DoDL("OSX-Intel"); ?>
+					                }
+					            --></script>
+					            <noscript>
+					              <?php DoDL("Win32",0);DoDL("OSX-PPC",0);DoDL("OSX-Intel",0); ?>
+					            </noscript></span>
+					            <span class="dl-other"><a  href="/vlc/">Other Operating Systems, learn more</a></span>
+					            </td>
+					        	</tr>
+					        	</table>   
+							</p>
+						</td>
+						<td style="width:300px">
+						<img src="images/frontpage/front-screenshot.png" alt=""/>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
 </div>
 <!--[if IE]>
 <div id="ieShadow"></div>
@@ -84,4 +152,4 @@
 <!--[if IE]>
 </div>
 <![endif]-->
-<?php footer('$Id: index.php **** 2009-08-24 altglass$'); ?>
+<?php footer('$Id: index.php **** 2009-12-02 altglass$'); ?>

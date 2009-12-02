@@ -45,11 +45,7 @@
 							It can also be used as a media converter or a server to stream in unicast or multicast in IPv4 or IPv6 on networks.
 							</p>
 							<p>
-								<table class="dl-table">
-					            <tr>
-					              <td style="width:64px;"><img src="images/dl-vlc.png" alt="Download VLC" /></td>
-					              <td><span>
-					              <script type="text/javascript"><!--
+								<script type="text/javascript" language="javascript">
 					                if ( <?php echo $is_win32; ?> ) { <?php DoDL("Win32"); ?> }
 					                else if( <?php echo $is_beos; ?> ) { <?php DoDL("BeOS"); ?> }
 					                else if( <?php echo $is_linux; ?> )
@@ -78,18 +74,15 @@
 					                {
 					                <?php DoDL("Win32");DoDL("OSX-PPC"); DoDL("OSX-Intel"); ?>
 					                }
-					            --></script>
+					            </script>
 					            <noscript>
 					              <?php DoDL("Win32",0);DoDL("OSX-PPC",0);DoDL("OSX-Intel",0); ?>
-					            </noscript></span>
-					            <span class="dl-other"><a  href="/vlc/">Other Operating Systems, learn more</a></span>
-					            </td>
-					        	</tr>
-					        	</table>   
+					            </noscript>
+					            <span class="dl-other"><a  href="/vlc/">Other Operating Systems, learn more</a></span>					           
 							</p>
 						</td>
 						<td style="width:300px">
-						<img src="images/frontpage/front-screenshot.png" alt=""/>
+						<img src="images/frontpage/front-screenshot.png" alt="" style="width:100%;"/>
 						</td>
 					</tr>
 				</table>

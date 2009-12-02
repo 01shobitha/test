@@ -60,7 +60,7 @@ You can find the full schedule <a href="/videolan/events/vdd09.pdf">here</a>.
 <?php panel_start( "blue" ); ?>
 <h2>VideoLAN Dev Days '08</h2>
 <p class="center">
-         <img src="http://download.videolan.org/events/20081220/VDD/mq/img-11.jpg" alt="VDD 08" />
+         <img src="http://download.videolan.org/events/20081220/VDD/mq/img-11.jpg" alt="VDD 08" style="width:100%"/>
 </p>
 <?php panel_end(); ?>
 

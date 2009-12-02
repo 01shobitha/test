@@ -28,30 +28,30 @@
 						<td>
 							<h3>Applications</h3>
 							<p>
-							<b>VLC media player</b><br/>
+							<b>VLC media player</b> &bull;
 							A cross-platform multimedia player and streamer.
 							</p>
 							<p>
-							<b>VLC Skin Editor</b><br/>
+							<b>VLC Skin Editor</b> &bull;
 							An editing tool for VLC media player skins.
 							</p>
 							<p>
-							<b>DVBlast</b><br/>
+							<b>DVBlast</b> &bull;
 							A lightweight DVB streaming application for Linux.
 							</p>
 							<p>
-							<b>VLMa</b><br/>
+							<b>VLMa</b> &bull;
 							A multimedia streaming manager, aimed at streaming TV channels.
 							</p>
 						</td>
 						<td>
 						<h3>Libraries</h3>
 						<p>
-						<b>libdvdcss</b><br/>
+						<b>libdvdcss</b> &bull;
 						A C library to access DVDs without having to bother about the decryption.
 						</p>
 						<p>
-						<b>libdvbpsi</b><br/>
+						<b>libdvbpsi</b> &bull;
 						A C library to decode and generate MPEG TS and DVB PSI tables.
 						</p>
 						</td>

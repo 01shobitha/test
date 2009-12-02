@@ -603,8 +603,17 @@ a.en {
   border: 0px;
   padding: 0px;
   padding-top: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   line-height: 16pt;
+}
+
+#mainbox h3 {
+  line-height: 15px;
+  padding:0px;
+}
+
+#mainbox table {
+  margin-bottom: 5px;
 }
 
 #mainbox p {

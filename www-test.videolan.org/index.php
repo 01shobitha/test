@@ -35,7 +35,7 @@
 			<td>
 				<h1>VLC media player</h1>
 				<table style="width:100%">
-					<tr>
+					<tr id="projectRow">
 						<td>
 							<p>
 							VLC media player is a highly portable multimedia player and multimedia framework  capable of reading most audio and video formats (MPEG-2, MPEG-4, H.264, DivX, MPEG-1, mp3, ogg, aac ...) as well as DVDs, Audio CDs VCDs, and various streaming protocols.
@@ -84,6 +84,9 @@
 						<td style="width:300px">
 						<img src="images/frontpage/front-screenshot.png" alt="" style="width:100%;"/>
 						</td>
+					</tr>
+					<tr id="projectSelector">
+						<b>VLC media player</b> &bull; <a href="#">DVBlast</a> &bull; <a href="#">VLMC</a> &bull; <a href="#">VLMa</a> &bull; <a href="#">x264</a>
 					</tr>
 				</table>
 			</td>

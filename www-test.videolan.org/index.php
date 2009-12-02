@@ -85,10 +85,10 @@
 						<img src="images/frontpage/front-screenshot.png" alt="" style="width:100%;"/>
 						</td>
 					</tr>
-					<tr id="projectSelector">
-						<b>VLC media player</b> &bull; <a href="#">DVBlast</a> &bull; <a href="#">VLMC</a> &bull; <a href="#">VLMa</a> &bull; <a href="#">x264</a>
-					</tr>
 				</table>
+				<p style="border-top: 1px solid #888;">
+					<b>VLC media player</b> &bull; <a href="#">DVBlast</a> &bull; <a href="#">VLMC</a> &bull; <a href="#">VLMa</a> &bull; <a href="#">x264</a>
+				</p>
 			</td>
 		</tr>
 	</table>

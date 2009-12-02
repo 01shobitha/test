@@ -15,9 +15,9 @@
 <script type="text/javascript" language="javascript">
 function adapt() {
 	document.getElementById("ieShadow").style.height = document.getElementById("mainbox").offsetHeight+5;
-	document.getElementById("ieShadow").style.width = document.getElementById("mainbox").offsetWidth+5;
+	document.getElementById("ieShadow").style.width = document.getElementById("mainbox").offsetWidth;
 	document.getElementById("ieShadow").style.top = document.getElementById("mainbox").offsetTop-5;
-	document.getElementById("ieShadow").style.left = document.getElementById("mainbox").offsetLeft-5;
+	document.getElementById("ieShadow").style.left = document.getElementById("mainbox").offsetLeft;
 
 }
 window.onload = function() {
@@ -134,10 +134,6 @@ window.onresize = function(evt) {
 		</tr>
 	</table>
 </div>
-<!--[if IE]>
-<div id="ieShadow"></div>
-<div id="ieMove">
-<![endif]-->
 <table class="fronttable">
 <tr>
   <td colspan="2">
@@ -187,7 +183,4 @@ window.onresize = function(evt) {
   </td>
 </tr>
 </table>
-<!--[if IE]>
-</div>
-<![endif]-->
 <?php footer('$Id: index.php **** 2009-12-02 altglass$'); ?>

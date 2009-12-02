@@ -23,9 +23,40 @@
 					<a href="/videolan/">Learn more about VideoLAN.</a>
 				</p>
 				<h1>VideoLAN projects</h1>
-				<p>
-					<i>TODO</i>
-				</p>
+				<table>
+					<tr>
+						<td>
+							<h3>Applications</h3>
+							<p>
+							<b>VLC media player</b><br/>
+							A cross-platform multimedia player and streamer.
+							</p>
+							<p>
+							<b>VLC Skin Editor</b><br/>
+							An editing tool for VLC media player skins.
+							</p>
+							<p>
+							<b>DVBlast</b><br/>
+							A lightweight DVB streaming application for Linux.
+							</p>
+							<p>
+							<b>VLMa</b><br/>
+							A multimedia streaming manager, aimed at streaming TV channels.
+							</p>
+						</td>
+						<td>
+						<h3>Libraries</h3>
+						<p>
+						<b>libdvdcss</b><br/>
+						A C library to access DVDs without having to bother about the decryption.
+						</p>
+						<p>
+						<b>libdvbpsi</b><br/>
+						A C library to decode and generate MPEG TS and DVB PSI tables.
+						</p>
+						</td>
+					</tr>
+				</table>
 				<h1>Contribute to the community</h1>
   				<p>
 				    There are several ways <i>you</i> can contribute and become a part of the VideoLAN community.
@@ -125,6 +156,7 @@
 <!--End news items -->
 <td>
     <?php
+	  define('MAGPIE_OUTPUT_ENCODING', 'UTF-8');
       $rss = fetch_rss("http://planet.videolan.org/rss10.xml");
       $i = 0;
       $chars_per_entry = 240;

@@ -10,6 +10,24 @@
    $tab = "vlc";
    if(isset($_GET['tab'])) $tab = $_GET['tab'];
 ?>
+<!--[if IE]>
+<div id="ieShadow"></div>
+<script type="text/javascript" language="javascript">
+function adapt() {
+	document.getElementById("ieShadow").style.height = document.getElementById("mainbox").offsetHeight+5;
+	document.getElementById("ieShadow").style.width = document.getElementById("mainbox").offsetWidth+5;
+	document.getElementById("ieShadow").style.top = document.getElementById("mainbox").offsetTop-5;
+	document.getElementById("ieShadow").style.left = document.getElementById("mainbox").offsetLeft-5;
+
+}
+window.onload = function() {
+	adapt();
+}
+window.onresize = function(evt) {
+	adapt();
+}
+</script>
+<![endif]-->
 <div id="mainbox">
 	<table>
 		<tr>
@@ -65,59 +83,51 @@
 			</td>
 			<td>
 				<h1>VLC media player</h1>
-				<table style="width:100%">
-					<tr id="projectRow">
-						<td>
-							<p>
-							VLC media player is a highly portable multimedia player and multimedia framework  capable of reading most audio and video formats (MPEG-2, MPEG-4, H.264, DivX, MPEG-1, mp3, ogg, aac ...) as well as DVDs, Audio CDs VCDs, and various streaming protocols.
-							See the <a href="vlc/features.html">full features list</a>.
-							</p>
-							<p>
-							It can also be used as a media converter or a server to stream in unicast or multicast in IPv4 or IPv6 on networks.
-							</p>
-							<p>
-								<script type="text/javascript" language="javascript">
-					                if ( <?php echo $is_win32; ?> ) { <?php DoDL("Win32"); ?> }
-					                else if( <?php echo $is_beos; ?> ) { <?php DoDL("BeOS"); ?> }
-					                else if( <?php echo $is_linux; ?> )
-					                {
-					                  if( <?php echo $is_ubuntu; ?> ) { <?php DoDL("Ubuntu"); ?> }
-					                  else if( <?php echo $is_fedora; ?> ) { <?php DoDL("Fedora"); ?>}
-					                  else if( <?php echo $is_suse; ?> ) { <?php DoDL("Suse"); ?> }
-					                  else if( <?php echo $is_debian; ?> ) { <?php DoDL("Debian"); ?> }
-					                  else if( <?php echo $is_mandriva; ?> ) { <?php DoDL("Mandriva"); ?> }
-					                  else if( <?php echo $is_redhat; ?> ) { <?php DoDL("RedHat"); ?> }
-					                  else if( <?php echo $is_gentoo; ?> ) { <?php DoDL("Gentoo"); ?> }
-					                  else { <?php DoDL("Linux"); ?> }
-					                }
-					                else if( <?php echo $is_freebsd; ?> ) { <?php DoDL("FreeBSD"); ?> }
-					                else if( <?php echo $is_osx; ?> )
-					                {
-					                  if( <?php echo $is_ppc; ?> ) { <?php DoDL("OSX-PPC"); ?> }
-					                  else if( <?php echo $is_mactel; ?> ) { <?php DoDL("OSX-Intel");?>}
-					                     else  { <?php DoDL("OSX-PPC"); DoDL("OSX-Intel"); ?> }
-					                }
-					                else if( navigator.platform.indexOf("Mac") != -1 )
-					                {
-					                document.writeln( "<p>Haha Mac OS 9 is dead! (if you\\\'re not using Mac OS 9 ... please write us a mail so we can fix this OS detection script)</p>'" );
-					                }
-					                else
-					                {
-					                <?php DoDL("Win32");DoDL("OSX-PPC"); DoDL("OSX-Intel"); ?>
-					                }
-					            </script>
-					            <noscript>
-					              <?php DoDL("Win32",0);DoDL("OSX-PPC",0);DoDL("OSX-Intel",0); ?>
-					            </noscript>
-					            <span class="dl-other"><a  href="/vlc/">Other Operating Systems, learn more</a></span>					           
-							</p>
-						</td>
-						<td style="width:300px">
-						<img src="images/frontpage/front-screenshot.png" alt="" style="width:100%;"/>
-						</td>
-					</tr>
-				</table>
-				<p style="border-top: 1px solid #888;">
+				<p style="float:right"><img src="images/frontpage/front-screenshot.png" alt="" style="width:100%;"/></p>				
+				<p>
+					VLC media player is a highly portable multimedia player and multimedia framework  capable of reading most audio and video formats (MPEG-2, MPEG-4, H.264, DivX, MPEG-1, mp3, ogg, aac ...) as well as DVDs, Audio CDs VCDs, and various streaming protocols.
+					See the <a href="vlc/features.html">full features list</a>.
+				</p>
+				<p>
+					It can also be used as a media converter or a server to stream in unicast or multicast in IPv4 or IPv6 on networks.
+				</p>
+				<p>
+					<script type="text/javascript" language="javascript">
+		                if ( <?php echo $is_win32; ?> ) { <?php DoDL("Win32"); ?> }
+		                else if( <?php echo $is_beos; ?> ) { <?php DoDL("BeOS"); ?> }
+		                else if( <?php echo $is_linux; ?> )
+		                {
+		                  if( <?php echo $is_ubuntu; ?> ) { <?php DoDL("Ubuntu"); ?> }
+		                  else if( <?php echo $is_fedora; ?> ) { <?php DoDL("Fedora"); ?>}
+		                  else if( <?php echo $is_suse; ?> ) { <?php DoDL("Suse"); ?> }
+		                  else if( <?php echo $is_debian; ?> ) { <?php DoDL("Debian"); ?> }
+		                  else if( <?php echo $is_mandriva; ?> ) { <?php DoDL("Mandriva"); ?> }
+		                  else if( <?php echo $is_redhat; ?> ) { <?php DoDL("RedHat"); ?> }
+		                  else if( <?php echo $is_gentoo; ?> ) { <?php DoDL("Gentoo"); ?> }
+		                  else { <?php DoDL("Linux"); ?> }
+		                }
+		                else if( <?php echo $is_freebsd; ?> ) { <?php DoDL("FreeBSD"); ?> }
+		                else if( <?php echo $is_osx; ?> )
+		                {
+		                  if( <?php echo $is_ppc; ?> ) { <?php DoDL("OSX-PPC"); ?> }
+		                  else if( <?php echo $is_mactel; ?> ) { <?php DoDL("OSX-Intel");?>}
+		                     else  { <?php DoDL("OSX-PPC"); DoDL("OSX-Intel"); ?> }
+		                }
+		                else if( navigator.platform.indexOf("Mac") != -1 )
+		                {
+		                document.writeln( "<p>Haha Mac OS 9 is dead! (if you\\\'re not using Mac OS 9 ... please write us a mail so we can fix this OS detection script)</p>'" );
+		                }
+		                else
+		                {
+		                <?php DoDL("Win32");DoDL("OSX-PPC"); DoDL("OSX-Intel"); ?>
+		                }
+		            </script>
+		        	<noscript>
+		            	<?php DoDL("Win32",0);DoDL("OSX-PPC",0);DoDL("OSX-Intel",0); ?>
+		        	</noscript>
+		        	<span class="dl-other"><a  href="/vlc/">Other Operating Systems, learn more</a></span>					           
+				</p>
+				<p style="border-top: 1px solid #888;clear:both">
 					<b>VLC media player</b> &bull; <a href="#">DVBlast</a> &bull; <a href="#">VLMC</a> &bull; <a href="#">VLMa</a> &bull; <a href="#">x264</a>
 				</p>
 			</td>

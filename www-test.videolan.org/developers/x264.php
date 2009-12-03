@@ -45,13 +45,15 @@
 
 <p>You can browse the source <a href="http://git.videolan.org/?p=x264.git;a=summary">on-line</a>.</p>
 
-<p>Unofficial builds for Windows are available from <a href="http://x264.nl/">Jarod</a> or <a href="http://forum.doom9.org/showthread.php?t=89979">Sharktooth</a>.
+<p>Unofficial builds for Windows are available from <a href="http://x264.nl/">Jarod</a>,
+<a href="http://doom10.org/index.php?topic=3.0">techouse</a>, or
+<a href="http://forum.doom9.org/showthread.php?t=89979">Sharktooth</a>.
 
 <h2>Support</h2>
 
 <p>For support information and to ask questions, you have the following possibilities:</p>
 
-<p>A mailing list (<a href="lists.html">x264-devel</a>), a forum (<a href="http://forum.doom9.org/forumdisplay.php?f=77">Doom9</a>), and IRC (<a href="irc://irc.freenode.net/x264">#x264@freenode</a>).</p>
+<p>A mailing list (<a href="lists.html">x264-devel</a>), a forum (<a href="http://doom10.org/index.php?board=5.0">Doom10</a>), and IRC (<a href="irc://irc.freenode.net/x264">#x264@freenode</a>).</p>
 
 <h2>Bugs</h2>
 <p>Please report any bugs to the <a href="/developers/lists.html">mailing list</a>. If it is a crash, then compile x264 with `./configure --enable-debug` and follow the <a href="http://ffmpeg.org/bugreports.html">ffmpeg bugreporting guidelines</a>.</p>

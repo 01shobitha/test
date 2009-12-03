@@ -57,9 +57,10 @@ function addos( $name, $class, $url, $bold=false )
     </div>
     <div class="os2">
       <ul class="os">
-      <?php addos( "BeOS", "beos", "download-beos.html" );
+<?php
       addos( "Syllable", "syllable", "download-syllable.html" );
-      ?>
+      //addos( "WinCE / PocketPC", "wince", "download-wince.html" );
+?>
       </ul>
     </div>
 
@@ -68,14 +69,13 @@ function addos( $name, $class, $url, $bold=false )
 
     <div class="os1">
       <ul class="os">
-    <?php
+<?php
       addos( "Debian GNU/Linux", "debian", "download-debian.html" );
       addos( "Ubuntu", "ubuntu", "download-ubuntu.html" );
       addos( "Mandriva Linux", "mandrake", "download-mandriva.html" );
       addos( "Fedora", "fedora", "download-fedora.html" );
       addos( "openSUSE", "suse", "download-suse.html" );
-      addos( "Familiar Linux", "familiar", "download-familiar.html" );
-    ?>
+?>
     </ul>
     </div><div class="os2">
 <ul class="os">
@@ -84,9 +84,6 @@ function addos( $name, $class, $url, $bold=false )
       addos( "Slackware Linux", "slackware", "download-slackware.html" );
       addos( "ALT Linux", "altlinux", "download-altlinux.html" );
       addos( "Arch Linux", "archlinux", "download-archlinux.html" );
-      addos( "YOPY/Linupy", "linupy", "download-linupy.html" );
-      addos( "Zaurus", "zaurus", "download-zaurus.html" );
-      //addos( "WinCE / PocketPC", "wince", "download-wince.html" );
 ?>
   </ul></div>
 
@@ -99,19 +96,19 @@ libraries and build them yourself:</p>
 </div>
 <div class="os1">
   <ul class="otheros">
-<?php addos( "NetBSD", "netbsd", "download-sources.html" );
-      addos( "OpenBSD", "openbsd", "download-sources.html" );
+<?php
       addos( "FreeBSD", "freebsd", "download-freebsd.html" );
-      addos( "Solaris", "solaris", "download-sources.html" );
+      addos( "NetBSD", "netbsd", "download-sources.html" );
+      addos( "OpenBSD", "openbsd", "download-sources.html" );
 ?>
   </ul>
 </div>
 <div class="os2">
 <ul class="otheros"> 
 <?php
-      addos( "QNX", "qnx", "download-sources.html" );
       addos( "Gentoo Linux", "gentoo", "download-gentoo.html" );
-      addos( "Crux Linux", "cruxlinux", "download-crux.html" );
+      addos( "Solaris", "solaris", "download-sources.html" );
+      addos( "QNX", "qnx", "download-sources.html" );
 ?>
   </ul>
 </div>

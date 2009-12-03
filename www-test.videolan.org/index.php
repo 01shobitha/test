@@ -101,11 +101,8 @@ window.onresize = function(evt) {
 				<h1>VLC media player</h1>
 				<p style="float:right"><img src="images/frontpage/front-screenshot.png" alt=""/></p>				
 				<p>
-					VLC media player is a highly portable multimedia player and multimedia framework  capable of reading most audio and video formats (MPEG-2, MPEG-4, H.264, DivX, MPEG-1, mp3, ogg, aac ...) as well as DVDs, Audio CDs VCDs, and various streaming protocols.
+					VLC media player is the open source multimedia player and ramework capable of reading all your medias.
 					See the <a href="vlc/features.html">full features list</a>.
-				</p>
-				<p>
-					It can also be used as a media converter or a server to stream in unicast or multicast in IPv4 or IPv6 on networks.
 				</p>
 				<p>
 					<script type="text/javascript" language="javascript">

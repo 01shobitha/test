@@ -40,51 +40,7 @@ window.onresize = function(evt) {
 					<br/><br/>
 					<a href="/videolan/">Learn more about VideoLAN.</a>
 				</p>
-				<h1>VideoLAN projects</h1>
-				<table>
-					<tr>
-						<td colspan="2">
-							<h3>Applications</h3>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<b><a href="vlc">VLC media player</a></b> &bull;
-							A cross-platform multimedia player and streamer.
-						</td>
-						<td>
-							<b><a href="vlc/skineditor.html">VLC Skin Editor</a></b> &bull;
-							An editing tool for VLC media player skins.
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<b><a href="projects/dvblast.html">DVBlast</a></b> &bull;
-							A lightweight DVB streaming application for Linux.
-						</td>
-						<td>
-							<b><a href="vlma">VLMa</a></b> &bull;
-							A multimedia streaming manager, aimed at streaming TV channels.
-						</td>
-					</tr>
-					<tr>
-						<td colspan="2">
-							<h3>Libraries</h3>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<b><a href="developers/x264.html" title="The award-winning H.264 AVC video encoder.">x264</a></b><br/>
-							<b><a href="developers/libdvdcss.html" title="A DVD decryption library.">libdvdcss</a></b><br/>
-							<b><a href="developers/libdca.html" title="A DTS coherent acoustics decoder">libdca</a></b>
-						</td>
-						<td>
-							<b><a href="developers/libdvbpsi.html" title="A library to generate PSI tables for MPEG TS and DVB">libdvbpsi</a></b><br/>
-							<b><a href="developers/libdvbcsa.html" title="An implementation of the DVB common scrambling algorithm">libdvbcsa</a></b><br/>
-							<a href="videolan">More...</a>
-						</td>
-					</tr>		
-				</table>
+				
 				<h1>Contribute to the community</h1>
   				<p>
 				    There are several ways <i>you</i> can contribute and become a part of the VideoLAN community.
@@ -137,7 +93,7 @@ window.onresize = function(evt) {
 		        	<span class="dl-other"><a  href="/vlc/">Other Operating Systems, learn more</a></span>					           
 				</p>
 				<p style="border-top: 1px solid #888;clear:both">
-					<b>VLC media player</b> &bull; <a href="#">DVBlast</a> &bull; <a href="#">VLMC</a> &bull; <a href="#">VLMa</a> &bull; <a href="#">x264</a>
+					<b>VLC media player</b> &bull; <a href="#">DVBlast</a> &bull; <a href="#">VLMC</a> &bull; <a href="#">VLMa</a> &bull; <a href="#">x264</a> &bull; <a href="#">Developer libraries</a>
 				</p>
 			</td>
 		</tr>

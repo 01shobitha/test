@@ -26,25 +26,30 @@ window.onresize = function(evt) {
 </script>
 <![endif]-->
 <div id="mainbox">
-<h1>VLC media player</h1>
-<h3 style="margin-bottom:10px;">The cross platform open-source multimedia framework, player and server.</h3>
-<p style="float:right">
-	<a href="screenshots.html"><img src="/images/screenshots/vlc-presentation.png" alt="VLC presentation" title="Click to view some screenshots"/></a>
-</p>
-<p> VLC media player is a highly portable
-  <strong>multimedia player</strong> and <strong>multimedia framework</strong>
-  capable of reading most audio and video formats
-  (MPEG-2, MPEG-4, H.264, DivX, MPEG-1, mp3, ogg, aac ...) as well
-  as <strong>DVD</strong>s, <strong>Audio CD</strong>s <strong>VCD</strong>s,
-  and various <strong>streaming</strong> protocols. See the <a href="/vlc/features.html">full features list</a>.<br />
-  It can also be used as a <strong>media converter</strong> or
-  a <a href="/vlc/streaming.html"><strong>server to stream</strong></a>
-  in unicast or <strong>multicast</strong> in IPv4 or
-  <strong>IPv6</strong> on networks.</p>
+	<h1>VLC media player</h1>
+	<h3 style="margin-bottom:10px;">The cross platform open-source multimedia framework, player and server.</h3>
+	<p style="float:right">
+		<a href="screenshots.html"><img src="/images/screenshots/vlc-presentation.png" alt="VLC presentation" title="Click to view some screenshots"/></a>
+	</p>
+	<p>
+	VLC media players is
+	</p>
+	<ul>
+		<li>a <b>media player</b> that can handle a wide variety of formats. It can play from files, discs, and hardware inputs, like TV cards.</li>
+		<li>a <b>media server</b> that can stream audio and video in uni- or multicast over IPv4 and IPv6 networks.</li>
+		<li>a <b>media converter</b> that can transcode your video and audio files from one format into the other.</li>	
+	</ul>
+	<p>
+	For all this VLC media player needs no additional codecs and it offers you all these functionality absolutely free of charge.
+	</p>
+	<p>
+	See the <a href="features.html">features page</a> for a full list of supported media technologies.
+	</p>
   
-  <p> If you like VLC, please rate it on the <a href="http://freshmeat.net/projects/vlc/">Freshmeat</a>,
-  <a href="http://www.versiontracker.com/dyn/moreinfo/macosx/10210434">versiontracker</a> or
-  <a href="http://alternativeto.net/desktop/vlc-media-player/">AlternativeTo</a> entries!</p>
+  <h2>Download VLC</h2>
+  <img src="/images/dl-vlc.png" alt="Download"> [...]
+  
+  
 </div>
 
 <?php

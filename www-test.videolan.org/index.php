@@ -60,7 +60,7 @@ window.onresize = function(evt) {
 			<a href="vlc" class="product">VLC media player</a>
 			</p>
 			<p>
-			The most awesome multimedia player ever.
+			One player to read them all. One player to stream them all. And its free.
 			</p>
 			</td>
 			<td>
@@ -72,9 +72,32 @@ window.onresize = function(evt) {
 			</p>
 			<p>
 			The award-winning MPEG4 H.264/AVC video encoder.
+			The number one encoder in the movie pirating scene!
 			</p>
-
 			</td>	
+			<td>
+			<p style="float:left;width:64px">
+			<big><strong>VLMa</strong></big>
+			</p>
+			<p>
+			<a href="projects/vlma">VideoLAN Manager</a>
+			</p>
+			<p>
+			Manage broadcasting of several sattelite or DVB TV channels and other streams.
+			</p>
+			</td>
+			<td>
+			<p style="float:left;width:64px">
+			<big><strong>DVBlast</strong></big>
+			</p>
+			<p>
+			<a href="projects/dvblast.html">DVBlast</a>
+			</p>
+			<p>
+				BAM! Blasts your DVB device on Linux.
+			</p>
+			</td>
+
 		</tr>
 	</table>
 </div>

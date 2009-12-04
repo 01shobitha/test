@@ -6,7 +6,6 @@
    $body_onload = "getCount()";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
-
 <!--[if IE]>
 <div id="ieShadow"></div>
 <script type="text/javascript" language="javascript">
@@ -26,30 +25,34 @@ window.onresize = function(evt) {
 </script>
 <![endif]-->
 <div id="mainbox">
-	<h1>VLC media player</h1>
-	<h3 style="margin-bottom:10px;">The cross platform open-source multimedia framework, player and server.</h3>
-	<p style="float:right">
-		<a href="screenshots.html"><img src="/images/screenshots/vlc-presentation.png" alt="VLC presentation" title="Click to view some screenshots"/></a>
-	</p>
-	<p>
-	VLC media players is
-	</p>
-	<ul>
-		<li>a <b>media player</b> that can handle a wide variety of formats. It can play from files, discs, and hardware inputs, like TV cards.</li>
-		<li>a <b>media server</b> that can stream audio and video in uni- or multicast over IPv4 and IPv6 networks.</li>
-		<li>a <b>media converter</b> that can transcode your video and audio files from one format into the other.</li>	
+	<h1 style="font-size:30px;line-height:normal">Free your media!</h1>
+	<ul class="menu">
+		<li>Versatile media player</li>
+		<li><a href="#">Skinnable interface</a></li>
+		<li><a href="#">Full streaming server</a></li>
+		<li><a href="#">Powerful media converter</a></li>
 	</ul>
-	<p>
-	For all this VLC media player needs no additional codecs and it offers you all these functionality absolutely free of charge.
-	</p>
-	<p>
-	See the <a href="features.html">features page</a> for a full list of supported media technologies.
-	</p>
-  
-  <h2>Download VLC</h2>
-  <img src="/images/dl-vlc.png" alt="Download"> [...]
-  
-  
+	<div style="min-height:250px;" id="pres-content">
+		<p style="width:50%;float:right">
+			<img src="/images/formats.png" alt="selection of supported formats" title="Selection of supported formats"/><br/>
+			<small>All logos are copyrighted by their respective copyright holders.</small>
+		</p>
+		<h1>"It plays everything!"</h1>		
+		<p>
+		The media player that fills all your needs. It can handle DVDs, (S)VCDs, Audio CDs, web streams, TV cards and much more.		
+		</p>
+		<p>
+		You don't need to keep track of a dozen codec packs you need to have installed. VLC has all codecs built-in.
+		It comes with support for nearly all codec there is.
+		</p>
+		<p>
+		And what is more it can even play back the file or media if it is damaged! Missing or broken pieces are no stop to VLC,
+		it plays all the video and audio information that's still intact.
+		</p>
+		<p>
+			<a href="features.html">View all supported formats.</a>
+		</p>
+	</div>
 </div>
 
 <?php

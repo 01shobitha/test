@@ -99,7 +99,7 @@ window.onresize = function(evt) {
 			</td>
 			<td>
 				<h1>VLC media player</h1>
-				<p style="float:right;margin-left:5px;"><img src="images/frontpage/front-screenshot.png" alt=""/></p>				
+				<p style="float:right;margin-left:5px;width:50%;max-width:300px"><img style="width:100%" src="images/frontpage/front-screenshot.png" alt=""/></p>				
 				<p style="text-align: justify;">
 					VLC media player is the open source multimedia player and framework capable of reading all your medias.
 				</p>

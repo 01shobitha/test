@@ -54,15 +54,26 @@ window.onresize = function(evt) {
 		<tr>
 			<td>
 			<p style="float:left">
-				<img src="vlc64x64.png" alt="VLC cone logo"/>
+				<img src="images/vlc64x64.png" alt="VLC cone logo"/>
 			</p>
 			<p>
 			<a href="vlc" class="product">VLC media player</a>
+			</p>
+			<p>
 			The most awesome multimedia player ever.
 			</p>
 			</td>
 			<td>
-			<h1 style="font-family: 'Comic Sans MS'">OMG THIS PAGE IS SOOO COOOL</h1>
+			<p style="float:left">
+				<img src="images/x264_64.png" alt="x264 logo"/>
+			</p>
+			<p>
+			<a href="developers/x264.html" class="product">x264</a>
+			</p>
+			<p>
+			The award-winning MPEG4 H.264/AVC video encoder.
+			</p>
+
 			</td>	
 		</tr>
 	</table>

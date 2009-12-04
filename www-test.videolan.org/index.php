@@ -31,7 +31,7 @@ window.onresize = function(evt) {
 <div id="mainbox">
 	<table>
 		<tr>
-			<td style="width:40%">
+			<td>
 				<h1>What is VideoLAN?</h1>
 				<p> 
 					The <b>VideoLAN organization</b> is a non-profit organization that puts its efforts into developing
@@ -40,62 +40,30 @@ window.onresize = function(evt) {
 					<br/><br/>
 					<a href="/videolan/">Learn more about VideoLAN.</a>
 				</p>
-				
+			</td>
+			<td>
 				<h1>Contribute to the community</h1>
   				<p>
 				    There are several ways <i>you</i> can contribute and become a part of the VideoLAN community.
 					Learn more about how you can do that on the <a href="contribute.html">contribute page</a>.
 				</p>		
 			</td>
+		</tr>
+	</table>
+	<table>
+		<tr>
 			<td>
-				<h1>VLC media player</h1>
-				<p style="float:right;margin-left:5px;width:60%;max-width:300px"><img style="width:100%" src="images/frontpage/front-screenshot.png" alt=""/></p>				
-				<p style="text-align: justify;">
-					VLC media player is the open source multimedia player and framework capable of reading all your medias.
-				</p>
-				<p style="text-align: justify;">
-					See the <a href="vlc/features.html">full features list</a> for all supported media and file formats.
-				</p>
-				<p>
-					<script type="text/javascript" language="javascript">
-		                if ( <?php echo $is_win32; ?> ) { <?php DoDL("Win32"); ?> }
-		                else if( <?php echo $is_beos; ?> ) { <?php DoDL("BeOS"); ?> }
-		                else if( <?php echo $is_linux; ?> )
-		                {
-		                  if( <?php echo $is_ubuntu; ?> ) { <?php DoDL("Ubuntu"); ?> }
-		                  else if( <?php echo $is_fedora; ?> ) { <?php DoDL("Fedora"); ?>}
-		                  else if( <?php echo $is_suse; ?> ) { <?php DoDL("Suse"); ?> }
-		                  else if( <?php echo $is_debian; ?> ) { <?php DoDL("Debian"); ?> }
-		                  else if( <?php echo $is_mandriva; ?> ) { <?php DoDL("Mandriva"); ?> }
-		                  else if( <?php echo $is_redhat; ?> ) { <?php DoDL("RedHat"); ?> }
-		                  else if( <?php echo $is_gentoo; ?> ) { <?php DoDL("Gentoo"); ?> }
-		                  else { <?php DoDL("Linux"); ?> }
-		                }
-		                else if( <?php echo $is_freebsd; ?> ) { <?php DoDL("FreeBSD"); ?> }
-		                else if( <?php echo $is_osx; ?> )
-		                {
-		                  if( <?php echo $is_ppc; ?> ) { <?php DoDL("OSX-PPC"); ?> }
-		                  else if( <?php echo $is_mactel; ?> ) { <?php DoDL("OSX-Intel");?>}
-		                     else  { <?php DoDL("OSX-PPC"); DoDL("OSX-Intel"); ?> }
-		                }
-		                else if( navigator.platform.indexOf("Mac") != -1 )
-		                {
-		                document.writeln( "<p>Haha Mac OS 9 is dead! (if you\\\'re not using Mac OS 9 ... please write us a mail so we can fix this OS detection script)</p>'" );
-		                }
-		                else
-		                {
-		                <?php DoDL("Win32");DoDL("OSX-PPC"); DoDL("OSX-Intel"); ?>
-		                }
-		            </script>
-		        	<noscript>
-		            	<?php DoDL("Win32",0);DoDL("OSX-PPC",0);DoDL("OSX-Intel",0); ?>
-		        	</noscript>
-		        	<span class="dl-other"><a  href="/vlc/">Other Operating Systems, learn more</a></span>					           
-				</p>
-				<p style="border-top: 1px solid #888;clear:both">
-					<b>VLC media player</b> &bull; <a href="#">DVBlast</a> &bull; <a href="#">VLMC</a> &bull; <a href="#">VLMa</a> &bull; <a href="#">x264</a> &bull; <a href="#">Developer libraries</a>
-				</p>
+			<p style="float:left">
+				<img src="vlc64x64.png" alt="VLC cone logo"/>
+			</p>
+			<p>
+			<a href="vlc" class="product">VLC media player</a>
+			The most awesome multimedia player ever.
+			</p>
 			</td>
+			<td>
+			<h1 style="font-family: 'Comic Sans MS'">OMG THIS PAGE IS SOOO COOOL</h1>
+			</td>	
 		</tr>
 	</table>
 </div>

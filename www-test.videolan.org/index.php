@@ -43,53 +43,47 @@ window.onresize = function(evt) {
 				<h1>VideoLAN projects</h1>
 				<table>
 					<tr>
-						<td>
+						<td colspan="2">
 							<h3>Applications</h3>
-							<p>
-								<b><a href="vlc">VLC media player</a></b> &bull;
-								A cross-platform multimedia player and streamer.
-							</p>
-							<p>
-								<b><a href="vlc/skineditor.html">VLC Skin Editor</a></b> &bull;
-								An editing tool for VLC media player skins.
-							</p>
-							<p>
-								<b><a href="projects/dvblast.html">DVBlast</a></b> &bull;
-								A lightweight DVB streaming application for Linux.
-							</p>
-							<p>
-								<b><a href="vlma">VLMa</a></b> &bull;
-								A multimedia streaming manager, aimed at streaming TV channels.
-							</p>
-						</td>
-						<td>
-						<h3>Libraries</h3>
-						<p>
-							<b><a href="developers/x264.html">x264</a></b> &bull;
-							The award-winning H.264 AVC video encoder.
-						</p>
-						<p>
-							<b><a href="developers/libdvdcss.html">libdvdcss</a></b> &bull;
-							A C library to access DVDs without having to bother about the decryption.
-						</p>
-						<p>
-							<b><a href="developers/libdvdplay.html">libdvdplay</a></b> &bull;
-							A DVD navigation library.
-						</p>
-						<p>
-							<b><a href="developers/libdvbpsi.html">libdvbpsi</a></b> &bull;
-							A C library to decode and generate MPEG TS and DVB PSI tables.
-						</p>
-						<p>
-							<b><a href="developers/libdvbcsa.html">libdvbcsa</a></b> &bull;
-							An implementation of the DVB Common Scrambling Algorithm.
-						</p>
-						<p>
-							<b><a href="developers/libdca.html">libdca</a></b> &bull;
-							A DTS Coherent Acoustics decoder.
-						</p>						
 						</td>
 					</tr>
+					<tr>
+						<td>
+							<b><a href="vlc">VLC media player</a></b> &bull;
+							A cross-platform multimedia player and streamer.
+						</td>
+						<td>
+							<b><a href="vlc/skineditor.html">VLC Skin Editor</a></b> &bull;
+							An editing tool for VLC media player skins.
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<b><a href="projects/dvblast.html">DVBlast</a></b> &bull;
+							A lightweight DVB streaming application for Linux.
+						</td>
+						<td>
+							<b><a href="vlma">VLMa</a></b> &bull;
+							A multimedia streaming manager, aimed at streaming TV channels.
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<h3>Libraries</h3>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<b><a href="developers/x264.html" title="The award-winning H.264 AVC video encoder.">x264</a></b><br/>
+							<b><a href="developers/libdvdcss.html" title="A DVD decryption library.">libdvdcss</a></b>
+							<b><a href="developers/libdca.html" title="A DTS coherent acoustics decoder">libdca</a></b>
+						</td>
+						<td>
+							<b><a href="developers/libdvbpsi.html" title="A library to generate PSI tables for MPEG TS and DVB">libdvbpsi</a></b><br/>
+							<b><a href="developers/libdvbcsa.html" title="An implementation of the DVB common scrambling algorithm">libdvbcsa</a></b><br/>
+							<a href="videolan">More...</a>
+						</td>
+					</tr>		
 				</table>
 				<h1>Contribute to the community</h1>
   				<p>

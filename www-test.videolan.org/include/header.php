@@ -235,22 +235,6 @@ StartHtml( ereg_replace( "<[^>]*>" , "" , $title ), $additional_css, $additional
       <ul id="navmenu">
           <?php DrawMenu( "menu.txt", $menu[0] ); ?>
       </ul>
-      <div id="mirror">
-         <form action="#" method="get">
-            <div>mirror: <select name="mirror"
-               onchange="window.location='http://'+this.value+'/<?php
-                 echo preg_replace('/\.php$/', '.html', $_SERVER['PHP_SELF']);
-              ?>'">
-            <?php
-             $web_mirrors = array("videolan.org" => "Main site (free.fr)",
-                                   "fr.videolan.org" => "Mirror site (Zoy)");
-              foreach($web_mirrors as $web_mirror_addr => $web_mirror_desc){
-                 echo '<option value="www.'.$web_mirror_addr.'" >'.$web_mirror_desc.'</option>';
-              }
-          ?>
-            </select></div>
-        </form>
-      </div>
    </div>
    <div id="submenucontainer">
       <div class="videolan-logo">

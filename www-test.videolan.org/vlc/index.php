@@ -27,9 +27,9 @@ window.onresize = function(evt) {
 <![endif]-->
 <div id="mainbox">
 <h1>VLC media player</h1>
-<h3>The cross platform open-source multimedia framework, player and server.</h3>
+<h3 style="margin-bottom:10px;">The cross platform open-source multimedia framework, player and server.</h3>
 <p style="float:right">
-<img src="/images/screenshot/vlc-presentation.png" alt="VLC presentation"/>
+	<a href="screenshots.html"><img src="/images/screenshots/vlc-presentation.png" alt="VLC presentation" title="Click to view some screenshots"/></a>
 </p>
 <p> VLC media player is a highly portable
   <strong>multimedia player</strong> and <strong>multimedia framework</strong>

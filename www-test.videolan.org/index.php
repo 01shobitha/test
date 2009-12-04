@@ -100,11 +100,11 @@ window.onresize = function(evt) {
 			<td>
 				<h1>VLC media player</h1>
 				<p style="float:right;margin-left:5px;"><img src="images/frontpage/front-screenshot.png" alt=""/></p>				
-				<p>
+				<p style="text-align: justify;">
 					VLC media player is the open source multimedia player and framework capable of reading all your medias.
-					It can read nearly all file formats, even broken ones. It can play and serve streams,
-					access TV cards, cameras and microphones. It can even convert your medias.
-					<br/>See the <a href="vlc/features.html">full features list</a> for supported media and file formats.
+				</p>
+				<p style="text-align: justify;">
+					See the <a href="vlc/features.html">full features list</a> for all supported media and file formats.
 				</p>
 				<p>
 					<script type="text/javascript" language="javascript">

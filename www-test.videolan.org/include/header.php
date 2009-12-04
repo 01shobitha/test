@@ -262,7 +262,7 @@ StartHtml( ereg_replace( "<[^>]*>" , "" , $title ), $additional_css, $additional
 </div>
 
   <?php panel_start( "blue" ); ?>
-  <table>
+  <table style="margin:5px;">
   <tr>
   	<td>
   	<strong><big>VideoLAN Dev Days '09</big></strong>

@@ -75,7 +75,7 @@ window.onresize = function(evt) {
 					<tr>
 						<td>
 							<b><a href="developers/x264.html" title="The award-winning H.264 AVC video encoder.">x264</a></b><br/>
-							<b><a href="developers/libdvdcss.html" title="A DVD decryption library.">libdvdcss</a></b>
+							<b><a href="developers/libdvdcss.html" title="A DVD decryption library.">libdvdcss</a></b><br/>
 							<b><a href="developers/libdca.html" title="A DTS coherent acoustics decoder">libdca</a></b>
 						</td>
 						<td>

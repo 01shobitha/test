@@ -7,16 +7,31 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-<h1> VLC media player </h1>
+<!--[if IE]>
+<div id="ieShadow"></div>
+<script type="text/javascript" language="javascript">
+function adapt() {
+	document.getElementById("ieShadow").style.height = document.getElementById("mainbox").offsetHeight+5;
+	document.getElementById("ieShadow").style.width = document.getElementById("mainbox").offsetWidth;
+	document.getElementById("ieShadow").style.top = document.getElementById("mainbox").offsetTop-5;
+	document.getElementById("ieShadow").style.left = document.getElementById("mainbox").offsetLeft-5;
 
-<div class="vlc-screenshot">
-  <img height="230" src="http://images.videolan.org/images/screenshots/vlc-win32.jpg" alt="VLC on Windows"/>
-</div>
-
-<div id="description">
-  <h2>The cross-platform open-source multimedia framework, player and server</h2>
-
-  <p> VLC media player is a highly portable
+}
+window.onload = function() {
+	adapt();
+}
+window.onresize = function(evt) {
+	adapt();
+}
+</script>
+<![endif]-->
+<div id="mainbox">
+<h1>VLC media player</h1>
+<h3>The cross platform open-source multimedia framework, player and server.</h3>
+<p style="float:right">
+<img src="/images/screenshot/vlc-presentation.png" alt="VLC presentation"/>
+</p>
+<p> VLC media player is a highly portable
   <strong>multimedia player</strong> and <strong>multimedia framework</strong>
   capable of reading most audio and video formats
   (MPEG-2, MPEG-4, H.264, DivX, MPEG-1, mp3, ogg, aac ...) as well
@@ -26,7 +41,7 @@
   a <a href="/vlc/streaming.html"><strong>server to stream</strong></a>
   in unicast or <strong>multicast</strong> in IPv4 or
   <strong>IPv6</strong> on networks.</p>
-
+  
   <p> If you like VLC, please rate it on the <a href="http://freshmeat.net/projects/vlc/">Freshmeat</a>,
   <a href="http://www.versiontracker.com/dyn/moreinfo/macosx/10210434">versiontracker</a> or
   <a href="http://alternativeto.net/desktop/vlc-media-player/">AlternativeTo</a> entries!</p>

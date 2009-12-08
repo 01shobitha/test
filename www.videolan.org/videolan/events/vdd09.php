@@ -31,7 +31,7 @@ invite you to the multimedia open-source event of this end of year: <br />
 
 <p>Less technical events will be:</p>
 <ul>
-<li> Soir&eacute; &agrave; <strong>La Cantine</strong>, on Friday 19th night </li>
+<li> Soir&eacute;e &agrave; <strong>La Cantine</strong>, on Friday 19th night </li>
 <li> Meeting developers, on Saturday afternoons </li>
 </ul>
 

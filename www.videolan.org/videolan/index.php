@@ -113,7 +113,7 @@ with some <a href="/events">photos and stories</a>.</p>
   <?php panel_start("green"); ?>
   <h1>April</h1>
   <p>VideoLAN is a proud member of the <a href="http://april.org">April association</a></p>
-  <img src="/images/partners/april_logo.png" alt="April"/>
+  <a href="http://april.org"><img src="/images/partners/april_logo.png" alt="April"/></a>
   <?php panel_end(); ?>
 
   <?php panel_start("gray"); ?>

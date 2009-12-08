@@ -17,7 +17,8 @@ invite you to the multimedia open-source event of this end of year: <br />
 <strong>VideoLAN Dev Days '09</strong>.</p>
 <p>For the second time, people from the VideoLAN community will meet in <strong>Paris</strong> to gather, work, discuss and build a stronger community, on the <strong>18th, 19th and 20th of december 2009</strong>.</p>
 <p>Developers, designers and anonymous people around <a href="/vlc/">VLC</a>, <a href="/projects/dvblast.html">DVBlast</a>, VLMa, skin-designer or other multimedia projects will be there.</p>
-<p>There are <a href="#public">public</a> and <a href="#private">technical</a> events.</p>
+<p>There are <a href="#public">public</a> and <a href="#private">technical</a> events.<br />
+<a href="/videolan/events/vdd09.pdf"><strong>Full schedule</strong></a>.</p>
 
 <h1><a name="public">Public and OPEN events</a></h1>
 

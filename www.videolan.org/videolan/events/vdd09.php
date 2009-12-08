@@ -68,13 +68,13 @@ You can find the full schedule <a href="/videolan/events/vdd09.pdf">here</a>.
 <h2>Sponsors</h2>
 <p><a href="http://epitech.eu/"><img src="http://www.epitech.eu/images/design/logo-epitech.jpg" alt="epitech"/></a><br /> <a href="http://epitech.eu/">Epitech</a> is hosting most of the events and sponsoring some part of the event.</p>
 <br />
-<h1>Help us!</h1>
+<h2>Help us!</h2>
 <p><a href="/videolan/team">Your name here!</a></p>
 <p>Help us organizing the event!</p>
 <?php panel_end(); ?>
 
 <?php panel_start( "orange" ); ?>
-<h1>Program</h1>
+<h2>Program</h2>
 <a href="/videolan/events/vdd09.pdf"><strong>Full schedule</strong></a>.</p>
 
 <?php panel_end(); ?>

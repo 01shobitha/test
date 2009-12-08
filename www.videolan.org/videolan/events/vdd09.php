@@ -17,8 +17,9 @@ invite you to the multimedia open-source event of this end of year: <br />
 <strong>VideoLAN Dev Days '09</strong>.</p>
 <p>For the second time, people from the VideoLAN community will meet in <strong>Paris</strong> to gather, work, discuss and build a stronger community, on the <strong>18th, 19th and 20th of december 2009</strong>.</p>
 <p>Developers, designers and anonymous people around <a href="/vlc/">VLC</a>, <a href="/projects/dvblast.html">DVBlast</a>, VLMa, skin-designer or other multimedia projects will be there.</p>
+<p>There are <a href="#public">public</a> and <a href="#private">technical</a>events.</p>
 
-<h1>Public events</h1>
+<h1><a name="public">Public events</a></h1>
 
 <h2>Soirée à la Cantine</h2>
 <p>On <strong>Friday 18th december 2009 at 18h30</strong>, the VideoLAN project
@@ -29,7 +30,7 @@ Presentations about VideoLAN, the next version of VLC and new projects will be h
 <h3>Venue</h3>
 <iframe width="520" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=epitech+paris,+france&amp;sll=49.034267,2.592773&amp;sspn=3.129595,8.453979&amp;ie=UTF8&amp;hq=epitech&amp;hnear=Paris,+France&amp;ll=48.825401,2.36721&amp;spn=0.006139,0.016512&amp;z=14&amp;iwloc=A&amp;cid=7575941540416736667&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=epitech+paris,+france&amp;sll=49.034267,2.592773&amp;sspn=3.129595,8.453979&amp;ie=UTF8&amp;hq=epitech&amp;hnear=Paris,+France&amp;ll=48.825401,2.36721&amp;spn=0.006139,0.016512&amp;z=14&amp;iwloc=A&amp;cid=7575941540416736667" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 
-<h1> Technical discussions </h1>
+<h1><a name="public">Technical events and discussions</a></h1>
 
 <h2> Who? Where? When? What? </h2>
 <h3>Why? </h3>

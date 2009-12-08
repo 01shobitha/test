@@ -110,6 +110,11 @@ with some <a href="/events">photos and stories</a>.</p>
       material or even money. See the <a href="/contribute.html">contribution
      page</a> for more information.</p>
   <?php panel_end(); ?>
+  <?php panel_start("green"); ?>
+  <h1>April</h1>
+  <p>VideoLAN is a proud member of the <a href="http://april.org">April association</a></p>
+  <img src="/images/partners/april_logo.png" alt="April"/>
+  <?php panel_end(); ?>
 
   <?php panel_start("gray"); ?>
 <h1>Contacting us</h1>

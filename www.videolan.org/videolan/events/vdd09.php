@@ -19,7 +19,7 @@ invite you to the multimedia open-source event of this end of year: <br />
 <p>Developers, designers and anonymous people around <a href="/vlc/">VLC</a>, <a href="/projects/dvblast.html">DVBlast</a>, VLMa, skin-designer or other multimedia projects will be there.</p>
 <p>There are <a href="#public">public</a> and <a href="#private">technical</a> events.</p>
 
-<h1><a name="public">Public events</a></h1>
+<h1><a name="public">Public and OPEN events</a></h1>
 
 <h2>Soirée à la Cantine</h2>
 <p>On <strong>Friday 18th december 2009 at 18h30</strong>, the VideoLAN project
@@ -29,6 +29,10 @@ Presentations about VideoLAN, the next version of VLC and new projects will be h
 <p>Registration are <a href="http://lacantine.org/events/videolan-party">online</a> on the <a href="http://lacantine.org/events/videolan-party">la cantine</a> website.</p>
 <h3>Venue</h3>
 <iframe width="520" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=la+cantine,&amp;sll=48.869775,2.342577&amp;sspn=0.006133,0.016512&amp;ie=UTF8&amp;radius=0.38&amp;rq=1&amp;ev=zi&amp;hq=la+cantine,&amp;hnear=&amp;ll=48.869775,2.342577&amp;spn=0.006133,0.016512&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=la+cantine,&amp;sll=48.869775,2.342577&amp;sspn=0.006133,0.016512&amp;ie=UTF8&amp;radius=0.38&amp;rq=1&amp;ev=zi&amp;hq=la+cantine,&amp;hnear=&amp;ll=48.869775,2.342577&amp;spn=0.006133,0.016512" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+
+<h2>Open Afternoon and diner</h2>
+<p>For the French libre community and activists or technology-oriented people that are interested, there will be technical presentations about VLC on the <strong>Saturday 19th december 2009 at 17h30</strong> at Epitech.</p>
+<p>We will then go and eat together in a restaurant.</p>
 
 <h1><a name="private">Technical events and discussions</a></h1>
 

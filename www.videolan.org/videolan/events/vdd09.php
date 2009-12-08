@@ -27,7 +27,7 @@ invite you to the multimedia open-source event of this end of year: <br />
 invites you to come to <a href="http://lacantine.org">La Cantine</a> and discuss with the VideoLAN teams.<br />
 Presentations about VideoLAN, the next version of VLC and new projects will be held.</p>
 <h3>Registration</h3>
-<p>Registration are <a href="http://lacantine.org/events/videolan-party">online</a> on the <a href="http://lacantine.org/events/videolan-party">la cantine</a> website.</p>
+<p><a href="http://lacantine.org/events/videolan-party"><strong>Registration</strong></a> are <a href="http://lacantine.org/events/videolan-party">online</a> on the <a href="http://lacantine.org/events/videolan-party">la cantine</a> website.</p>
 <h3>Venue</h3>
 <iframe width="520" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=la+cantine,&amp;sll=48.869775,2.342577&amp;sspn=0.006133,0.016512&amp;ie=UTF8&amp;radius=0.38&amp;rq=1&amp;ev=zi&amp;hq=la+cantine,&amp;hnear=&amp;ll=48.869775,2.342577&amp;spn=0.006133,0.016512&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=la+cantine,&amp;sll=48.869775,2.342577&amp;sspn=0.006133,0.016512&amp;ie=UTF8&amp;radius=0.38&amp;rq=1&amp;ev=zi&amp;hq=la+cantine,&amp;hnear=&amp;ll=48.869775,2.342577&amp;spn=0.006133,0.016512" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 

@@ -18,6 +18,19 @@ invite you to the multimedia open-source event of this end of year: <br />
 <p>For the second time, people from the VideoLAN community will meet in <strong>Paris</strong> to gather, work, discuss and build a stronger community, on the <strong>18th, 19th and 20th of december 2009</strong>.</p>
 <p>Developers, designers and anonymous people around <a href="/vlc/">VLC</a>, <a href="/projects/dvblast.html">DVBlast</a>, VLMa, skin-designer or other multimedia projects will be there.</p>
 
+<h1>Public events</h1>
+
+<h2>Soirée à la Cantine</h2>
+<p>On <strong>Friday 18th december 2009 at 18h30</strong>, the VideoLAN project
+invites you to come to <a href="http://lacantine.org">La Cantine</a> and discuss with the VideoLAN teams.<br />
+Presentations about VideoLAN, the next version of VLC and new projects will be held.</p>
+<h3>Registration</h3>
+<p>Registration are <a href="http://lacantine.org/events/videolan-party">online</a> on the <a href="http://lacantine.org/events/videolan-party">la cantine</a> website.</p>
+<h3>Venue</h3>
+<iframe width="520" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=la+cantine,&amp;sll=48.869775,2.342577&amp;sspn=0.006133,0.016512&amp;ie=UTF8&amp;radius=0.38&amp;rq=1&amp;ev=zi&amp;hq=la+cantine,&amp;hnear=&amp;ll=48.869775,2.342577&amp;spn=0.006133,0.016512&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=la+cantine,&amp;sll=48.869775,2.342577&amp;sspn=0.006133,0.016512&amp;ie=UTF8&amp;radius=0.38&amp;rq=1&amp;ev=zi&amp;hq=la+cantine,&amp;hnear=&amp;ll=48.869775,2.342577&amp;spn=0.006133,0.016512" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+
+<h1> Technical discussions </h1>
+
 <h2> Who? Where? When? What? </h2>
 <h3>Why? </h3>
 <p>Those meetings are necessary to make the community around the cone to grow.<br />They cost us a lot of money to organise, but we need them to build the future of <a href="/vlc/">VLC</a> and other projects.</p>
@@ -53,7 +66,6 @@ You can find the full schedule <a href="/videolan/events/vdd09.pdf">here</a>.
 <iframe width="520" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=epitech+paris,+france&amp;sll=49.034267,2.592773&amp;sspn=3.129595,8.453979&amp;ie=UTF8&amp;hq=epitech&amp;hnear=Paris,+France&amp;ll=48.825401,2.36721&amp;spn=0.006139,0.016512&amp;z=14&amp;iwloc=A&amp;cid=7575941540416736667&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=epitech+paris,+france&amp;sll=49.034267,2.592773&amp;sspn=3.129595,8.453979&amp;ie=UTF8&amp;hq=epitech&amp;hnear=Paris,+France&amp;ll=48.825401,2.36721&amp;spn=0.006139,0.016512&amp;z=14&amp;iwloc=A&amp;cid=7575941540416736667" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 
 <h3>La Cantine</h3>
-<iframe width="520" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=la+cantine,&amp;sll=48.869775,2.342577&amp;sspn=0.006133,0.016512&amp;ie=UTF8&amp;radius=0.38&amp;rq=1&amp;ev=zi&amp;hq=la+cantine,&amp;hnear=&amp;ll=48.869775,2.342577&amp;spn=0.006133,0.016512&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=la+cantine,&amp;sll=48.869775,2.342577&amp;sspn=0.006133,0.016512&amp;ie=UTF8&amp;radius=0.38&amp;rq=1&amp;ev=zi&amp;hq=la+cantine,&amp;hnear=&amp;ll=48.869775,2.342577&amp;spn=0.006133,0.016512" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 
 </div>
 <div id="right">

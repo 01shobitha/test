@@ -64,6 +64,21 @@ You can find the full schedule <a href="/videolan/events/vdd09.pdf">here</a>.
 
 </div>
 <div id="right">
+<?php panel_start( "green" ); ?>
+<h2>Sponsors</h2>
+<p><a href="http://epitech.eu/"><img src="http://www.epitech.eu/images/design/logo-epitech.jpg" alt="epitech"/></a><br /> <a href="http://epitech.eu/">Epitech</a> is hosting most of the events and sponsoring some part of the event.</p>
+<br />
+<h1>Help us!</h1>
+<p><a href="/videolan/team">Your name here!</a></p>
+<p>Help us organizing the event!</p>
+<?php panel_end(); ?>
+
+<?php panel_start( "orange" ); ?>
+<h1>Program</h1>
+<a href="/videolan/events/vdd09.pdf"><strong>Full schedule</strong></a>.</p>
+
+<?php panel_end(); ?>
+
 <?php panel_start( "blue" ); ?>
 <h2>VideoLAN Dev Days '08</h2>
 <p class="center">
@@ -71,15 +86,6 @@ You can find the full schedule <a href="/videolan/events/vdd09.pdf">here</a>.
 </p>
 <?php panel_end(); ?>
 
-
-<?php panel_start( "green" ); ?>
-<h2>Sponsors</h2>
-<p><a href="http://epitech.eu/"><img src="http://www.epitech.eu/images/design/logo-epitech.jpg" alt="epitech"/></a><br /> <a href="http://epitech.eu/">Epitech</a> is hosting most of the events and sponsoring some part of the event.</p>
-<br />
-<h2>Help us!</h2>
-<p><a href="/videolan/team">Your name here!</a></p>
-<p>Help us organizing the event!</p>
-<?php panel_end(); ?>
 <?php panel_start( "blue" ); ?>
 <h2>VLC</h2>
 <p class="center">

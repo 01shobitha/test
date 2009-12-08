@@ -31,44 +31,34 @@ Presentations about VideoLAN, the next version of VLC and new projects will be h
 <h3>Venue</h3>
 <iframe width="520" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=la+cantine,&amp;sll=48.869775,2.342577&amp;sspn=0.006133,0.016512&amp;ie=UTF8&amp;radius=0.38&amp;rq=1&amp;ev=zi&amp;hq=la+cantine,&amp;hnear=&amp;ll=48.869775,2.342577&amp;spn=0.006133,0.016512&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=la+cantine,&amp;sll=48.869775,2.342577&amp;sspn=0.006133,0.016512&amp;ie=UTF8&amp;radius=0.38&amp;rq=1&amp;ev=zi&amp;hq=la+cantine,&amp;hnear=&amp;ll=48.869775,2.342577&amp;spn=0.006133,0.016512" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 
-<h2>Open Afternoon and diner</h2>
+<h2>Saturday Open Afternoon and dinner</h2>
 <p>For the French libre community and activists or technology-oriented people that are interested, there will be technical presentations about VLC on the <strong>Saturday 19th december 2009 at 17h30</strong> at Epitech.</p>
 <p>We will then go and eat together in a restaurant.</p>
 
 <h1><a name="private">Technical events and discussions</a></h1>
+<h2>What?</h2>
+<p>The VideoLAN community will meet during 3 days, in order to develop the community around the cone.<br />We want to build a better future of <a href="/vlc/">VLC</a> and other projects.</p>
 
-<h2> Who? Where? When? What? </h2>
-<h3>Why? </h3>
-<p>Those meetings are necessary to make the community around the cone to grow.<br />They cost us a lot of money to organise, but we need them to build the future of <a href="/vlc/">VLC</a> and other projects.</p>
-
-<h3>Who? </h3>
+<h2>Who can come? </h3>
 <p><strong>YOU</strong>.</p>
 <p><strong>Anyone</strong> that cares about some VideoLAN projects.<br /> If you are not a technical person, but an enthusiast, we recommend to come to the less technical events, especially at La Cantine.</p>
 
-<h3>When? </h3>
+<h2>When? </h2>
 <p>On the <strong>18th, 19th and 20th of december</strong> in <strong>Paris</strong>.</p>
 
-<p>Less technical events will be:</p>
-<ul>
-<li> Soir&eacute;e &agrave; <strong>La Cantine</strong>, on Friday 19th night </li>
-<li> Meeting developers, on Saturday afternoons </li>
-</ul>
-
-<h3>Where? </h3>
-Events will be at
-<a href="http://epitech.eu/">Epitech</a> and <a href="http://lacantine.org/">La Cantine</a> for most of them.
+<h2>Where? </h2>
+Technical events will be at <a href="http://epitech.eu/">Epitech</a>.
 
 <h2>Schedule</h2>
 You can find the full schedule <a href="/videolan/events/vdd09.pdf">here</a>.
 
-<h2>Register</h2>
+<h2>Registration for technical events</h2>
 <p>If you want to come to join us, please mail us for your registration.</p>
 <p>Note that the saturday conferences don't need registration.</p>
 <p><a href="http://events.linkedin.com/VideoLAN-Dev-Days/pub/120441">LinkedIn Event</a>.</p>
 <p><a href="http://www.facebook.com/event.php?eid=131958622787">Facebook Event</a>.</p>
 
-<h2>Venue</h2>
-<h3>Epitech</h3>
+<h2>Venue at Epitech</h2>
 <iframe width="520" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=epitech+paris,+france&amp;sll=49.034267,2.592773&amp;sspn=3.129595,8.453979&amp;ie=UTF8&amp;hq=epitech&amp;hnear=Paris,+France&amp;ll=48.825401,2.36721&amp;spn=0.006139,0.016512&amp;z=14&amp;iwloc=A&amp;cid=7575941540416736667&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=epitech+paris,+france&amp;sll=49.034267,2.592773&amp;sspn=3.129595,8.453979&amp;ie=UTF8&amp;hq=epitech&amp;hnear=Paris,+France&amp;ll=48.825401,2.36721&amp;spn=0.006139,0.016512&amp;z=14&amp;iwloc=A&amp;cid=7575941540416736667" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 
 

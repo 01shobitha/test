@@ -25,7 +25,8 @@ ftp://videolan.cs.pu.edu.tw/others/VideoLAN/|Providence University|Taiwan|tw|FTP
 #
 # Contact : erik at telia dot com (e-mail address doesn't work) - round robin 100Mbits Stockholm 100Mbits Gothenburg
 #Directory listing is disabled.
-http://ftp.endpoint.nu/pub/software/videolan/|Endpoint Corporation|Sweden|se|HTTP|200
+# Make sure all their server in the round robin have replicated before activating
+#http://ftp.endpoint.nu/pub/software/videolan/|Endpoint Corporation|Sweden|se|HTTP|200
 #
 # Contact : richard at flazdesk dot com - BW 100 Mbits - East coast
 #http://mirrors.optralan.com/videolan/|Optralan|USA|us|HTTP|100

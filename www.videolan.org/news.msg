@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|10 December 2009|VLC 1.0.4|The VLC development team is quite happy to introduce a new version of its 'Goldeneye' branch. This release is targetted at fixing bugs on the x11 platforms, fixing bugs especially for KDE, cairo-dock, XCB, v4l and FreeBSD compatibility. Binaries for Windows and Mac OS are not yet on the pipe.
+
 |1 December 2009|VideoLAN Dev Days '09|The <a href="/videolan/">VideoLAN non-profit organisation</a> is happy to invite you to the multimedia open-source event of this end of year: <br /><strong>VideoLAN Dev Days '09</strong>.</p>
 <p>For the second time, people from the VideoLAN community will meet in <strong>Paris</strong> to gather, work, discuss and build a stronger community, on the <strong>18th, 19th and 20th of december 2009</strong>.</p><p><a href="/videolan/events/vdd09.html">Details and program</a> are available.
 

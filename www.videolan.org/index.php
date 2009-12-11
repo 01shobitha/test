@@ -52,7 +52,7 @@
 
   <div id="right">
     <?php panel_start( "blue" ); ?>
-    <h1>VLC media player 1.0.4</h1>
+    <h1>VLC media player</h1>
     <table class="dl-table">
         <tr>
           <td style="width:64px;"><img src="images/dl-vlc.png" alt="Download VLC" /></td>

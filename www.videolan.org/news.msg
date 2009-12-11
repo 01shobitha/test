@@ -1,7 +1,7 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
-|11 December 2009|VideoLAN party next friday!|The VideoLAN organisation, the VLC, VLMa and DVBlast developers are inviting you to come and meet us, in Paris, France, on Friday 18th December 2009.<br /> Presentations about VideoLAN, next version of VLC and other cool projects will be held. This is a unique occasion to meet all the VLC developers!</p><p>Registration is <strong>MANDATORY</strong>. Details can be found on: <a href="http://lacantine.org/events/videolan-party">La Cantine's Website</a>.
+|11 December 2009|VideoLAN party next friday!|The VideoLAN organisation, the VLC, VLMa and DVBlast developers are inviting you to come and meet us, in Paris, France, on Friday 18th December 2009.<br /> Presentations about VideoLAN, next version of VLC and other cool projects will be held. This is a unique occasion to meet all the VLC developers!</p><p>Registration is <strong>MANDATORY</strong>. Details can be found on: <a href="http://lacantine.org/events/videolan-party">La Cantine's Website</a> and on our <a href="http://twitter.com/videolan">twitter</a> account.
 
 |10 December 2009|VLC 1.0.4|The VLC development team is quite happy to introduce a new version of its 'Goldeneye' branch. This release is targetted at fixing bugs on the x11 platforms, fixing bugs especially for KDE, cairo-dock, XCB, v4l and FreeBSD compatibility. Binaries for Windows and Mac OS are not yet on the pipe.
 

@@ -18,7 +18,7 @@ invite you to the multimedia open-source event of this end of year: <br />
 <p>For the second time, people from the VideoLAN community will meet in <strong>Paris</strong> to gather, work, discuss and build a stronger community, on the <strong>18th, 19th and 20th of december 2009</strong>.</p>
 <p>Developers, designers and anonymous people around <a href="/vlc/">VLC</a>, <a href="/projects/dvblast.html">DVBlast</a>, VLMa, skin-designer or other multimedia projects will be there.</p>
 <p>There are <a href="#public">public</a> and <a href="#private">technical</a> events.<br />
-<a href="/videolan/events/vdd09.pdf"><strong>Full schedule</strong></a>.</p>
+<a href="/videolan/events/vdd09.pdf"><strong>Full schedule (updated)</strong></a>.</p>
 
 <h1><a name="public">Public and OPEN events</a></h1>
 
@@ -50,7 +50,7 @@ Presentations about VideoLAN, the next version of VLC and new projects will be h
 Technical events will be at <a href="http://epitech.eu/">Epitech</a>.
 
 <h2>Schedule</h2>
-You can find the full schedule <a href="/videolan/events/vdd09.pdf">here</a>.
+You can find the full final schedule <a href="/videolan/events/vdd09.pdf">here</a>.
 
 <h2>Registration for technical events</h2>
 <p>If you want to come to join us, please mail us for your registration.</p>

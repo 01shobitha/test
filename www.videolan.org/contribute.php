@@ -19,7 +19,7 @@
       subscribe to the <a href="/support/lists.html">mailing-lists</a>, have
       a look at the <a href="http://trac.videolan.org/">bug-tracking system</a>,
       join the <a href="/support/">IRC channel</a> to start the code.</li>
-  <li><strong>Writers</strong>, to help improve the documentations, write release notes, and press releases</li>
+  <li><strong>Writers</strong>, to help improve the documentation</li>
   <li><strong>Translators</strong>, to <a href="/developers/i18n/">translate</a> VLC</li>
   <li><strong>Helpers</strong>, to answer on the <a href="http://forum.videolan.org">forums</a> and mailing lists</li>
   <li><strong>Designers</strong>, for this website and VLC</li>

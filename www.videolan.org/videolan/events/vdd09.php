@@ -66,6 +66,7 @@ You can find the full final schedule <a href="/videolan/events/vdd09.pdf">here</
 <div id="right">
 <?php panel_start( "green" ); ?>
 <h2>Sponsors</h2>
+<p><a href="http://anevia.com/"><img src="/images/partners/anevia.jpg" alt="AneVIA"/></a><br /> <a href="http://anevia.com/">Anevia</a> is sponsoring the party at La Cantine.</p>
 <p><a href="http://epitech.eu/"><img src="http://www.epitech.eu/images/design/logo-epitech.jpg" alt="epitech"/></a><br /> <a href="http://epitech.eu/">Epitech</a> is hosting most of the events and sponsoring some part of the event.</p>
 <br />
 <h2>Help us!</h2>

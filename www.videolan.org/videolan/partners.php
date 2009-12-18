@@ -43,7 +43,7 @@ for more information on his contributions).</p>
 <tr>
 <td><p class="center">
   <a href="http://www.anevia.com/">
-  <img src="http://images.videolan.org/images/partners/anevia.jpg" alt="Anevia" width="200" height="57" />
+  <img src="http://images.videolan.org/images/partners/anevia.jpg" alt="Anevia" width="200" />
   </a></p>
 </td>
 <td>French company founded by four members of the VideoLAN team (Brieuc

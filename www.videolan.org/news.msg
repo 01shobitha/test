@@ -1,7 +1,7 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
-|17 December 2009|VideoLAN Dev Days '09 J-1|The VideoLAN organisation, the VLC, VLMa and DVBlast developers are inviting <strong>you</strong> to come and meet us, in Paris, France, from Friday 18th to Sunday 20th December 2009.<br />Open Party will happen on Friday night at <a href="http://lacantine.org/events/videolan-party">La Cantine</a>.<br />Other events will happen during 3 days: <a href="/videolan/events/vdd09.html">program and details</a>. Free registration is mandatory!
+|17 December 2009|VideoLAN Dev Days '09 J-1|The VideoLAN organisation, the VLC, VLMa and DVBlast developers are inviting <strong>you</strong> to come and meet us, in Paris, France, from Friday 18th to Sunday 20th December 2009.<br />Open Party will happen on Friday night at <a href="http://lacantine.org/events/videolan-party">La Cantine</a>.<br />Other events will happen during 3 days: <a href="/videolan/events/vdd09.html">program and details</a>. Free registration is mandatory!</p><p>We would like to thanks our sponsors: <a href="http://epitech.eu/">Epitech</a> and <a href="http://www.anevia.com/">Anevia</a>.
 
 |11 December 2009|VideoLAN party next friday!|The VideoLAN organisation, the VLC, VLMa and DVBlast developers are inviting you to come and meet us, in Paris, France, on Friday 18th December 2009.<br /> Presentations about VideoLAN, next version of VLC and other cool projects will be held. This is a unique occasion to meet all the VLC developers!</p><p>Registration is <strong>MANDATORY</strong>. Details can be found on: <a href="http://lacantine.org/events/videolan-party">La Cantine's Website</a> and on our <a href="http://twitter.com/videolan">twitter</a> account.
 

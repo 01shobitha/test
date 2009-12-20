@@ -295,7 +295,6 @@ and licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/"
 <p><img src="http://images.videolan.org/images/goodies/videolan-community.png" alt="VideoLAN.org Community Member"/><br/><img src="http://images.videolan.org/images/goodies/videolan-community-small.png" alt="VideoLAN.org Community Member"/></p>
 <p>Get <a href="http://images.videolan.org/image/goodies/videolan-community.xcf">the sources</a>.</p>
 
-
 <p>An older banner:</p>
 <p><a href="/vlc/index.html"><img width="100" height="32"
       src="http://images.videolan.org/images/getvlcnow.png"
@@ -305,15 +304,6 @@ and licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/"
 
 <?php panel_end(); ?>
 
-
-<p>&nbsp;</p><p class="center">
-<a href="http://images.videolan.org/images/tshirts-big.jpg">
-  <img 
-	src="http://images.videolan.org/images/tshirts-small.jpg"
-	alt="VideoLAN T-Shirts"/>
-</a></p>
-
 </div>
-
 
 <?php footer('$Id: goodies.php  4462 2008-02-23 13:20 altglass$'); ?>

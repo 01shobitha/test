@@ -306,22 +306,6 @@ and licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/"
 <?php panel_end(); ?>
 
 
-<?php panel_start( "orange" ); ?>
-
-<h1>T-Shirts</h1>
-
-<p>VideoLAN T-Shirts are now available ! You can get one for
-every 12 euros or 16 USD you donate to the VideoLAN project.</p>
-
-<p>See the <a href="contribute.html#money">Contribute page</a> to
-make a donation to the VideoLAN project. Be sure to mention how many
-T-Shirts you want, the size (S, M, L or XL), the address you want them
-to be shipped to and an e-mail (just in case). (If you are using PayPal
-to make the donation, you can specify these informations in the note
-field.)</p>
-<p>See all design proposals on <a href="http://wiki.videolan.org/T-Shirt_Design_Contest">The VideoLAN T-Shirt design contest wiki page</a></p>
-
-<?php panel_end(); ?>
 <p>&nbsp;</p><p class="center">
 <a href="http://images.videolan.org/images/tshirts-big.jpg">
   <img 

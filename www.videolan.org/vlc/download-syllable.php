@@ -24,7 +24,7 @@ package register name
 </pre>
 </blockquote>
 
-<h2>Through Builder (for expenrienced users ONLY)</h2>
+<h2>Through Builder (for experienced users ONLY)</h2>
 <p>You can get VLC on Syllable via the Building system called Builder.
 From the terminal, just run:</p>
 <blockquote>

@@ -12,7 +12,8 @@
 <div id="left">
 
 
-<h2>Ubunty Karmic Koala 9.10
+<h2>Lucid Lynx 10.04 LTS,
+Ubunty Karmic Koala 9.10
 <br/>Ubuntu Jaunty Jackalope 9.04</h2>
 
 <h3>Graphical way</h3>

@@ -40,9 +40,7 @@ https://launchpad.net/~c-korn/+archive/vlc
 </pre>
 
 <h2>Ubuntu Intrepid Ibex 8.10,
-<br/>Ubuntu Hardy Heron LTS 8.04,
-</br>Ubuntu Gutsy Gibbon 7.10,
-<br/>Ubuntu Feisty Fawn 7.04</h2>
+<br/>Ubuntu Hardy Heron LTS 8.04</h2>
 
 <h3>Graphical way</h3>
 <p>Open Synaptic (System -&gt; Administration -&gt; Synaptic Package Manager).
@@ -59,20 +57,6 @@ in your /etc/apt/sources.list.</p>
 % sudo apt-get install vlc vlc-plugin-esd mozilla-plugin-vlc
 </pre>
 </blockquote>
-
-<h2>Ubuntu Dapper Drake LTS 6.06</h2>
-<p>Dapper will be supported until June 2009 by Canonical.
-However, its VLC version is very old, so use our packages to get the latest version.</p>
-<p>You can add our repository this way:</p>
-<p>
-Be sure to have a universe repository enabled.
-Type these commands in a terminal:
-</p>
-<pre>
-echo "deb ftp://ftp.videolan.org/pub/videolan/ubuntu dapper universe" &gt; /etc/apt/sources.list.d/vlc.list
-sudo apt-get update
-sudo apt-get install vlc vlc-plugin-esd mozilla-plugin-vlc libdvdcss2
-</pre>
 
 </div>
 

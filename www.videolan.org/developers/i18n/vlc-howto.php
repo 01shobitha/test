@@ -43,7 +43,7 @@ Copy the resulting <i>vlc.mo</i> file to <i>/usr/local/share/locale/&lt;LANG&gt;
 
 <p>If you do not have GNU gettext installed (you'd probably know if you had
 it :), you must download its binaries from our website : 
-<a href="http://download.videolan.org/pub/videolan/devtools/gettext-macosx.tar.gz">http://download.videolan.org/pub/videolan/devtools/gettext-macosx.tar.gz</a></p>
+<a href="http://download.videolan.org/pub/videolan/contrib/devtools/gettext-macosx.tar.gz">http://download.videolan.org/pub/videolan/devtools/gettext-macosx.tar.gz</a></p>
 
 <p>Extract them into the current directory : <kbd>tar xvzf gettext-macosx.tar.gz</kbd>.</p>
 

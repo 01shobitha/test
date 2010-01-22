@@ -85,7 +85,7 @@ http://ftp.free.org/mirrors/videolan/|Free|France|fr|HTTP|2000
 # Location: USA
 # Connection: 1000
 # shadowz shadowz __A__ beyond-innovation d0t org
-http://mirror.beyondi.org/vlc/|Beyond !nnovation|USA|us|HTTP|200
+## http://mirror.beyondi.org/vlc/|Beyond !nnovation|USA|us|HTTP|200
 #
 # Location: Ireland
 # Connection: 10Gbps

@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|31 January 2010|VLC 1.0.5|VideoLAN and the VLC developers are very proud to announce their latest release of VLC. This version is specially aimed towards Windows and Mac platforms, and <a href="http://www.videolan.org/developers/vlc-branch/NEWS">brings various fixes, speed improvements and translations updates.</a><br /> The Windows version benefits speed-ups from both an updated compiler (gcc 4.4.2) and codecs updates.<br />The Mac version brings support for the latest Apple Remote and updated codecs too.
+
 |21 December 2009|End of VideoLAN Dev Days '09|The second edition of the VideoLAN Dev Days is now finished and was a great success.<br />New project were presented, ideas about the future of VideoLAN and VLC were shared and technical issues could be discussed.</p><p>We would like to thank a lot everybody who participated to the event and, of course, our great sponsors without this event could not happen : <a href="http://www.epitech.eu/">Epitech</a>, <a href="http://www.iledefrance.fr/">région Île de France</a> and <a href="http://www.anevia.com/">Anevia</a>.
 
 |17 December 2009|VideoLAN Dev Days '09 J-1|The VideoLAN organisation, the VLC, VLMa and DVBlast developers are inviting <strong>you</strong> to come and meet us, in Paris, France, from Friday 18th to Sunday 20th December 2009.<br />Open Party will happen on Friday night at <a href="http://lacantine.org/events/videolan-party">La Cantine</a>.<br />Other events will happen during 3 days: <a href="/videolan/events/vdd09.html">program and details</a>. Free registration is mandatory!</p><p>We would like to thanks our sponsors: <a href="http://epitech.eu/">Epitech</a> and <a href="http://www.anevia.com/">Anevia</a>.

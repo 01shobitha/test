@@ -14,7 +14,7 @@ http://ftp.snt.utwente.nl/pub/software/videolan/|Twente University|Netherlands|n
 http://mirrors.ircam.fr/pub/videolan/|IRCAM|France|fr|HTTP|1000
 #
 # Contact : Emmanuel dot Blindauer at urs dot u-strasbg dot fr - BW : 1 GBit
-ftp://ftp.u-strasbg.fr/pub/videolan/|Université de Strasbourg|France|fr|FTP|1000
+#ftp://ftp.u-strasbg.fr/pub/videolan/|Université de Strasbourg|France|fr|FTP|1000
 #
 # Contact: #crans on irc.rezosup.net - 
 # Contact: roots at crans dot org
@@ -39,7 +39,7 @@ ftp://videolan.cs.pu.edu.tw/others/VideoLAN/|Providence University|Taiwan|tw|FTP
 http://videolan.kn.vutbr.cz/|Brno University of Technology|Czech Republic|cz|HTTP|1000
 #
 # Contact : juan dot mussini at pucpr dot br
-ftp://ftp.pucpr.br/videolan/|Pontifícia Universidade Católica do Paraná|Brazil|br|FTP|100
+#ftp://ftp.pucpr.br/videolan/|Pontifícia Universidade Católica do Paraná|Brazil|br|FTP|100
 #
 # Contact Dave Schroeder  das at doit dot wisc dot edu
 http://mirror.services.wisc.edu/mirrors/videolan/|University of Wisconsin - Madison|USA|us|HTTP|100
@@ -228,7 +228,7 @@ http://nervion.us.es/videolan/|University of Seville|Spain|es|HTTP|1000
 # Qtv
 # Switzerland 
 # Christian Wagner, @qtv.ch
-http://vlc.qtv.ch/|Ch. Wagner|Swiss|ch|HTTP|100
+#http://vlc.qtv.ch/|Ch. Wagner|Swiss|ch|HTTP|100
 # Faculdade de Engenharia da Universidade do Porto
 # Porto, Portugal
 # ilipec [AT] fe.up.pt
@@ -252,12 +252,12 @@ http://mirror.openwebster.com/videolan/|OpenWebster|USA|us|HTTP|100
 ## Default Route, Inc.
 ## DR NetOps (ops at defaultroute dot net) 
 ## Seattle and NY, USA
-http://vlc-1.defaultroute.net/|Default Route, Inc.|USA, West|us|HTTP|100
-http://vlc-2.defaultroute.net/|Default Route, Inc.|USA, East|us|HTTP|100
+#http://vlc-1.defaultroute.net/|Default Route, Inc.|USA, West|us|HTTP|100
+#http://vlc-2.defaultroute.net/|Default Route, Inc.|USA, East|us|HTTP|100
 ## Honesty Net Solutions (I) Pvt Ltd
 ## Ripunjay Bararia <ripunjay at hns dot net.in>
 ## Mumbai, India
-http://mirrors.hns.net.in/videolan/|Honesty Net Solutions (I) Pvt Ltd|India|in|HTTP|100 
+#http://mirrors.hns.net.in/videolan/|Honesty Net Solutions (I) Pvt Ltd|India|in|HTTP|100 
 ## SWITCH, the Swiss national research and education network
 ## switchmirror@switch.ch
 ## 10 Gbit/s (with Internet2 (US) and GEANT3 (Europe) connectivity)

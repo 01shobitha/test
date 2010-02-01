@@ -94,6 +94,63 @@ cooperation of our partners, on both technical and financial sides: </p>
     </td>
   </tr>
 
+  <tr><td colspan="2"><h2>Gandi</h2></td></tr>
+  <tr>
+    <td>
+        <p class="center"><a href="http://www.gandi.net/"><img
+        src="http://images.videolan.org/images/partners/gandi.png" alt="Gandi" /></a></p>
+    </td>
+    <td>
+     <p><a href="http://www.gandi.net">Gandi</a> is a one of most popular registar in 
+    France and in Europe. Founded in 1999, and based in Paris and in London, it has had a
+    long history of quality, proximity to people and decent prices.<br />
+    Gandi has always cultivated its difference and humanity and supports many projects
+    following the VideoLAN's ideals.</p>
+
+    <p>Gandi supports VideoLAN by managing their domain names and helping the VideoLAN
+    association in various administrative tasks.</p>
+
+  </tr>
+
+  <tr><td colspan="2"><h2> Epitech </h2></td></tr>
+  <tr>
+    <td>
+        <p class="center"><a href="http://epitech.fr/"><img
+        src="http://www.epitech.eu/images/logos/logo-EPITECH-fond-blanc.gif" width="150" alt="Epitech" /></a></p>
+    </td>
+    <td>
+
+    <p><a href="http://epitech.fr">EPITECH</a> is a French educationnal institution specialized in
+    computer science expertise. Founded in 1999, it is one of the best institution for computer science
+    in France and has seeded many very innovative companies.</p>
+    <p>
+       Epitech hosted and sponsored our second DevDays in December 2009.
+    </p>
+    </td>
+  </tr>
+
+ <tr>
+    <td colspan="2">
+        <h2> École Centrale Paris</h2>
+    </td>
+  </tr>
+  <tr>
+    <td>
+        <p class="center"><a href="http://www.ecp.fr/"><img
+        src="http://images.videolan.org/images/partners/logoECP.png" width="100" alt="ECP" height="80" /></a></p>
+    </td>
+    <td>
+
+        <p>The <a href="http://www.ecp.fr/">École Centrale Paris</a> and
+        it's <a href="http://www.msio.ecp.fr/">Master in Open Information
+        System</a> are historic partners of the project. The Master in Open
+        Information System aims to enable the student to acquire a real
+        competence in the field of Open Computing Systems and supports
+        VideoLAN as a key developement project. </p>
+
+    </td>
+  </tr>
+
   <tr><td colspan="2"><h2> CYBERVIA </h2></td></tr>
   <tr>
     <td>
@@ -116,45 +173,6 @@ cooperation of our partners, on both technical and financial sides: </p>
     </td>
   </tr>
 
-  <tr><td colspan="2"><h2>Gandi</h2></td></tr>
-  <tr>
-    <td>
-        <p class="center"><a href="http://www.gandi.net/"><img
-        src="http://images.videolan.org/images/partners/gandi.png" alt="Gandi" /></a></p>
-    </td>
-    <td>
-     <p><a href="http://www.gandi.net">Gandi</a> is a one of most popular registar in 
-    France and in Europe. Founded in 1999, and based in Paris and in London, it has had a
-    long history of quality, proximity to people and decent prices.<br />
-    Gandi has always cultivated its difference and humanity and supports many projects
-    following the VideoLAN's ideals.</p>
-
-    <p>Gandi supports VideoLAN by managing their domain names and helping the VideoLAN
-    association in various administrative tasks.</p>
-
-  </tr>
-
-  <tr>
-    <td colspan="2">
-        <h2> École Centrale Paris</h2>
-    </td>
-  </tr>
-  <tr>
-    <td>
-        <p class="center"><a href="http://www.ecp.fr/"><img
-        src="http://images.videolan.org/images/partners/logoECP.png" width="100" alt="ECP" height="80" /></a></p>
-    </td>
-    <td>
-
-        <p>The <a href="http://www.ecp.fr/">École Centrale Paris</a> and
-        it's <a href="http://www.msio.ecp.fr/">Master in Open Information
-        System</a> are historic partners of the project. The Master in Open
-        Information System aims to enable the student to acquire a real
-        competence in the field of Open Computing Systems and supports
-        VideoLAN as a key developement project. </p>
-
-    </td>
-  </tr>
 
 
   <tr>

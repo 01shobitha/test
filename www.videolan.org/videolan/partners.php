@@ -115,12 +115,12 @@ cooperation of our partners, on both technical and financial sides: </p>
   <tr><td colspan="2"><h2> Epitech </h2></td></tr>
   <tr>
     <td>
-        <p class="center"><a href="http://epitech.fr/"><img
+        <p class="center"><a href="http://epitech.eu/"><img
         src="http://www.epitech.eu/images/logos/logo-EPITECH-fond-blanc.gif" width="150" alt="Epitech" /></a></p>
     </td>
     <td>
 
-    <p><a href="http://epitech.fr">EPITECH</a> is a French educationnal institution specialized in
+    <p><a href="http://epitech.eu">EPITECH</a> is a French educationnal institution specialized in
     computer science expertise. Founded in 1999, it is one of the best institution for computer science
     in France and has seeded many very innovative companies.</p>
     <p>

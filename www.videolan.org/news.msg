@@ -1,7 +1,7 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
-|6-7 Feb 2010|VideoLAN at FOSDEM|The VideoLAN team will be at <a hreaf="http://www.fosdem.org/2010">FOSDEM</a> in Brussels. If you have some time we will be happy to welcome you on our booth. We will do some demonstration about some nice features on the road for the next major release like extensions.
+|6 Feb 2010|VideoLAN at FOSDEM|The VideoLAN team will be at <a href="http://www.fosdem.org/2010">FOSDEM</a> in Brussels. If you have some time we will be happy to welcome you on our booth. We will do some demonstration about some nice features on the road for the next major release like extensions.
 
 |31 January 2010|VLC 1.0.5|VideoLAN and the VLC developers are very proud to announce their latest release of VLC. After more than 51 million downloads of VLC 1.0.3, this version is specially aimed towards Windows and Mac platforms, and <a href="http://www.videolan.org/developers/vlc-branch/NEWS">brings various fixes, speed improvements and translations updates.</a><br /> The Windows version benefits speed-ups from both an updated compiler (gcc 4.4.2) and codecs updates.<br />The Mac version brings support for the latest Apple Remote and updated codecs too.</p><p><strong>Some antivirus have wrongly detected a virus in the Windows release</strong>, if you want the VideoLAN team can suggest better antivirus or operating sytem, on request.</p><p>Be careful, VLC 1.1 is on the road!
 

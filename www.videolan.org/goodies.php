@@ -236,7 +236,7 @@ href="http://images.videolan.org/images/goodies/lilo-videolan.tar.gz">lilo-video
 <p>You may freely use these VideoLAN logos using the following
 copyright:</p>
 
-<pre>Copyright (c) 1996-2008 VideoLAN. This logo or a modified version
+<pre>Copyright (c) 1996-2010 VideoLAN. This logo or a modified version
 may be used or modified by anyone to refer to the VideoLAN project
 or any product developed by the VideoLAN team, but does not indicate
 endorsement by the project.</pre>
@@ -293,7 +293,7 @@ and licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/"
 
 <p>And another one by snis:</p>
 <p><img src="http://images.videolan.org/images/goodies/videolan-community.png" alt="VideoLAN.org Community Member"/><br/><img src="http://images.videolan.org/images/goodies/videolan-community-small.png" alt="VideoLAN.org Community Member"/></p>
-<p>Get <a href="http://images.videolan.org/image/goodies/videolan-community.xcf">the sources</a>.</p>
+<p>Get <a href="http://images.videolan.org/images/goodies/videolan-community.xcf">the sources</a>.</p>
 
 <p>An older banner:</p>
 <p><a href="/vlc/index.html"><img width="100" height="32"

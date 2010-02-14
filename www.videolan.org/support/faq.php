@@ -105,7 +105,9 @@ programs for computers (...).
 <p>The VideoLAN project only provides software, i.e. &quot;programs for computers&quot;.
 Those are outside the scope of patentability.
 Hence there is not need to obtain any patent licenses
-for VideoLAN software <strong>within the European Union</strong>.
+for VideoLAN software <strong>within most of Europe</strong>
+(European Union, Croatia, Liechtenstein, Macedonia, Monaco, Norway,
+ San Marino, Switzerland and Turkey).
 In other venues, please check any applicable law.
 </p>
 <p>Please note however that the combination of software with hardware

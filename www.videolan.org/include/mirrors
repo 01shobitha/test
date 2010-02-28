@@ -231,9 +231,9 @@ http://nervion.us.es/videolan/|University of Seville|Spain|es|HTTP|1000
 http://vlc.qtv.ch/|Ch. Wagner|Swiss|ch|HTTP|100
 # Faculdade de Engenharia da Universidade do Porto
 # Porto, Portugal
-# ilipec [AT] fe.up.pt
+# Filipe Carvalho  filipec [AT] fe.up.pt
 # also ftp and ipv6
-http://neacm.fe.up.pt/pub/videolan/|Faculdade de Engenharia da Universidade do Porto|Portugal|pt|HTTP|1000
+http://mirrors.fe.up.pt/pub/videolan/|Faculdade de Engenharia da Universidade do Porto|Portugal|pt|HTTP|1000
 ## Nautile (ISP) - http://www.nautile.nc/
 ## Noumea, New Caledonia
 ## Bandwidth : 100Mbps

@@ -71,7 +71,7 @@ function ShowMirrors( start, stop )
 }
 function HideMirrors()
 {
-  <?php/* IE6 fails to set the page height correctly otherwise ... */?>
+  <?php /* IE6 fails to set the page height correctly otherwise ... */ ?>
   var i = 0;
   while( true )
   {

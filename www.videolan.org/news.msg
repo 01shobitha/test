@@ -1,6 +1,15 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|01 Mar 2010|Multicat 1.0|Multicat is a set of tools designed to easily and
+efficiently manipulate multicast streams in general, and MPEG-2
+Transport Streams in particular.<br />
+VideoLAN is glad to announce the first public release of this new software, released under the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GPL license</a>.
+Visit the <a href="http://www.videolan.org/projects/multicat.html">project page</a> or proceed to download <a href="http://downloads.videolan.org/pub/videolan/multicat/1.0/multicat-1.0.tar.bz2">Multicat</a>.
+
+|01 Mar 2010|DVBlast 1.2|The DVBlast team is happy to announce version 1.2 of DVBlast. DVBlast is a powerful and simple streaming application for DVB cards under Linux. In addition to numerous fixes, this new release also brings new features such as DVB-ASI or UDP/RTP inputs, and IPv6 support.<br />
+Visit the <a href="http://www.videolan.org/projects/dvblast.html">project page</a> or proceed to download <a href="http://downloads.videolan.org/pub/videolan/dvblast/1.2/dvblast-1.2.tar.bz2">DVBlast</a>. Please note that it requires <a href="http://www.videolan.org/developers/libdvbpsi.html">libdvbpsi</a>.
+
 |28 Feb 2010|VideoLAN security advisory 1001|<a href="http://www.videolan.org/security/sa1001.html">A bug in Clam AntiVirus</a> hinders use of VLC media player 1.0.5 for Windows.
 
 |6 Feb 2010|VideoLAN at FOSDEM|The VideoLAN team will be at <a href="http://www.fosdem.org/2010">FOSDEM</a> in Brussels. If you have some time we will be happy to welcome you on our booth. We will do some demonstration about some nice features on the road for the next major release like extensions.

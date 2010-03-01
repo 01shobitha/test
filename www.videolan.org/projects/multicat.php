@@ -61,8 +61,8 @@ href="ftp://ftp.videolan.org/pub/videolan/multicat/1.0/Multicat-1.0.tar.bz2">FTP
 
 <p> Hackers can participate to the development using <a
 href="http://wiki.videolan.org/Subversion">Subversion</a>.
-Code can be found at <code>svn://svn.videolan.org/multicat</code> and you can
-<a href="http://svn.videolan.org/listing.php?repname=multicat&path=%2F&sc=0">browse source online</a>.</p>
+The code can be found at <code>svn://svn.videolan.org/multicat</code> and you can
+<a href="http://svn.videolan.org/listing.php?repname=Multicat&path=%2F&sc=0">browse the source online</a>.</p>
 
 <p>User support is handled in the <a
 href="/support/lists.html">streaming</a>

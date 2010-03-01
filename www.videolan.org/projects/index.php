@@ -26,6 +26,9 @@ a Java application to manage multiple VLC instances through their telnet interfa
 <li><a href="/projects/dvblast.html">DVBlast</a>,
 a simple, fast, reliable and powerful streaming application for linux-dvb devices.</li>
 
+<li><a href="/projects/multicat.html">Multicat</a>,
+a set of tools to manipulate multicast streams and TS files.</li>
+
 <li><a href="/vlc/streaming.html">VLS (VideoLAN Server)</a>, our legacy
 streaming server, which is now mostly replaced by VLC.</li>
 

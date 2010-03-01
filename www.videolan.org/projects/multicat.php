@@ -21,7 +21,8 @@ and they feature only one thread of execution.</p>
 
 <p><code>multicat</code> itself is a 1 input/1 output application. Inputs and
 outputs can be network streams (unicast and multicast), files, character
-devices or FIFOs.</p>
+devices or FIFOs. It is thought to be a multicast equivalent of the
+popular netcat tool.</p>
 
 <p>Multicat tries to rebuild the internal clock of the input stream; but
 it wants to remain agnostic of what is transported, so in case of files

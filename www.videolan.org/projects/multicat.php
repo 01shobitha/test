@@ -35,6 +35,9 @@ the input clock is simply derived from the reception time of the packets.</p>
 reads the PCR values of the file, and builds the auxiliary file that is
 necessary for multicat.</p>
 
+<p> The combination of <code>ingests</code> and <code>multicat</code> makes
+a simple and efficient TS file streamer.</p>
+
 <h2>The <code>offsets</code> program</h2>
 
 <p><code>offsets</code> is another companion application to manipulate auxiliary files.

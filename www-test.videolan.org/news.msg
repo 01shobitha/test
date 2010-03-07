@@ -1,6 +1,26 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|01 Mar 2010|Multicat 1.0|Multicat is a set of tools designed to easily and
+efficiently manipulate multicast streams in general, and MPEG-2
+Transport Streams in particular.<br />
+VideoLAN is glad to announce the first public release of this new software, released under the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GPL license</a>.
+Visit the <a href="http://www.videolan.org/projects/multicat.html">project page</a> or proceed to download <a href="http://downloads.videolan.org/pub/videolan/multicat/1.0/multicat-1.0.tar.bz2">Multicat</a>.
+
+|01 Mar 2010|DVBlast 1.2|The DVBlast team is happy to announce version 1.2 of DVBlast. DVBlast is a powerful and simple streaming application for DVB cards under Linux. In addition to numerous fixes, this new release also brings new features such as DVB-ASI or UDP/RTP inputs, and IPv6 support.<br />
+Visit the <a href="http://www.videolan.org/projects/dvblast.html">project page</a> or proceed to download <a href="http://downloads.videolan.org/pub/videolan/dvblast/1.2/dvblast-1.2.tar.bz2">DVBlast</a>. Please note that it requires <a href="http://www.videolan.org/developers/libdvbpsi.html">libdvbpsi</a>.
+
+|28 Feb 2010|VideoLAN security advisory 1001|<a href="http://www.videolan.org/security/sa1001.html">A bug in Clam AntiVirus</a> hinders use of VLC media player 1.0.5 for Windows.
+
+|6 Feb 2010|VideoLAN at FOSDEM|The VideoLAN team will be at <a href="http://www.fosdem.org/2010">FOSDEM</a> in Brussels. If you have some time we will be happy to welcome you on our booth. We will do some demonstration about some nice features on the road for the next major release like extensions.
+
+|31 January 2010|VLC 1.0.5|VideoLAN and the VLC developers are very proud to announce their latest release of VLC. After more than 51 million downloads of VLC 1.0.3, this version is specially aimed towards Windows and Mac platforms, and <a href="http://www.videolan.org/developers/vlc-branch/NEWS">brings various fixes, speed improvements and translations updates.</a><br /> The Windows version benefits speed-ups from both an updated compiler (gcc 4.4.2) and codecs updates.<br />The Mac version brings support for the latest Apple Remote and updated codecs too.</p><p><strong>Some antivirus have wrongly detected a virus in the Windows release</strong>, if you want the VideoLAN team can suggest better antivirus or operating sytem, on request.</p><p>Be careful, VLC 1.1 is on the road!
+
+
+|21 December 2009|End of VideoLAN Dev Days '09|The second edition of the VideoLAN Dev Days is now finished and was a great success.<br />New project were presented, ideas about the future of VideoLAN and VLC were shared and technical issues could be discussed.</p><p>We would like to thank a lot everybody who participated to the event and, of course, our great sponsors without this event could not happen : <a href="http://www.epitech.eu/">Epitech</a>, <a href="http://www.iledefrance.fr/">région Île de France</a> and <a href="http://www.anevia.com/">Anevia</a>.
+
+|17 December 2009|VideoLAN Dev Days '09 J-1|The VideoLAN organisation, the VLC, VLMa and DVBlast developers are inviting <strong>you</strong> to come and meet us, in Paris, France, from Friday 18th to Sunday 20th December 2009.<br />Open Party will happen on Friday night at <a href="http://lacantine.org/events/videolan-party">La Cantine</a>.<br />Other events will happen during 3 days: <a href="/videolan/events/vdd09.html">program and details</a>. Free registration is mandatory!</p><p>We would like to thanks our sponsors: <a href="http://epitech.eu/">Epitech</a> and <a href="http://www.anevia.com/">Anevia</a>.
+
 |11 December 2009|VideoLAN party next friday!|The VideoLAN organisation, the VLC, VLMa and DVBlast developers are inviting you to come and meet us, in Paris, France, on Friday 18th December 2009.<br /> Presentations about VideoLAN, next version of VLC and other cool projects will be held. This is a unique occasion to meet all the VLC developers!</p><p>Registration is <strong>MANDATORY</strong>. Details can be found on: <a href="http://lacantine.org/events/videolan-party">La Cantine's Website</a> and on our <a href="http://twitter.com/videolan">twitter</a> account.
 
 |10 December 2009|VLC 1.0.4|The VLC development team is quite happy to introduce a new version of its 'Goldeneye' branch. This release is targetted at fixing bugs on the x11 platforms, fixing bugs especially for KDE, cairo-dock, XCB, v4l and FreeBSD compatibility. Binaries for Windows and Mac OS are not yet on the pipe.

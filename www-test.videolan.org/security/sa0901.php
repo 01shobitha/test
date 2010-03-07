@@ -55,7 +55,6 @@ from the official VLC source code repository 1.0-bugfix branch.
 <dt>VLC official GIT repository</dt>
 <dd><a href="http://git.videolan.org/?p=vlc.git;a=shortlog;h=1.0.2">http://git.videolan.org/?p=vlc.git</a>
 </dd>
-</dd>
 </dl>
 <h2>History</h2>
 <dl>

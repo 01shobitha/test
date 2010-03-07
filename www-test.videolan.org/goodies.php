@@ -236,7 +236,7 @@ href="http://images.videolan.org/images/goodies/lilo-videolan.tar.gz">lilo-video
 <p>You may freely use these VideoLAN logos using the following
 copyright:</p>
 
-<pre>Copyright (c) 1996-2008 VideoLAN. This logo or a modified version
+<pre>Copyright (c) 1996-2010 VideoLAN. This logo or a modified version
 may be used or modified by anyone to refer to the VideoLAN project
 or any product developed by the VideoLAN team, but does not indicate
 endorsement by the project.</pre>
@@ -293,8 +293,7 @@ and licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/"
 
 <p>And another one by snis:</p>
 <p><img src="http://images.videolan.org/images/goodies/videolan-community.png" alt="VideoLAN.org Community Member"/><br/><img src="http://images.videolan.org/images/goodies/videolan-community-small.png" alt="VideoLAN.org Community Member"/></p>
-<p>Get <a href="http://images.videolan.org/image/goodies/videolan-community.xcf">the sources</a>.</p>
-
+<p>Get <a href="http://images.videolan.org/images/goodies/videolan-community.xcf">the sources</a>.</p>
 
 <p>An older banner:</p>
 <p><a href="/vlc/index.html"><img width="100" height="32"
@@ -305,31 +304,6 @@ and licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/"
 
 <?php panel_end(); ?>
 
-
-<?php panel_start( "orange" ); ?>
-
-<h1>T-Shirts</h1>
-
-<p>VideoLAN T-Shirts are now available ! You can get one for
-every 12 euros or 16 USD you donate to the VideoLAN project.</p>
-
-<p>See the <a href="contribute.html#money">Contribute page</a> to
-make a donation to the VideoLAN project. Be sure to mention how many
-T-Shirts you want, the size (S, M, L or XL), the address you want them
-to be shipped to and an e-mail (just in case). (If you are using PayPal
-to make the donation, you can specify these informations in the note
-field.)</p>
-<p>See all design proposals on <a href="http://wiki.videolan.org/T-Shirt_Design_Contest">The VideoLAN T-Shirt design contest wiki page</a></p>
-
-<?php panel_end(); ?>
-<p>&nbsp;</p><p class="center">
-<a href="http://images.videolan.org/images/tshirts-big.jpg">
-  <img 
-	src="http://images.videolan.org/images/tshirts-small.jpg"
-	alt="VideoLAN T-Shirts"/>
-</a></p>
-
 </div>
-
 
 <?php footer('$Id: goodies.php  4462 2008-02-23 13:20 altglass$'); ?>

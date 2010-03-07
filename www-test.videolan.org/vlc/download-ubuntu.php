@@ -11,6 +11,27 @@
 
 <div id="left">
 
+
+<h2>Lucid Lynx 10.04 LTS,
+Ubunty Karmic Koala 9.10
+<br/>Ubuntu Jaunty Jackalope 9.04</h2>
+
+<h3>Graphical way</h3>
+<p>Open Synaptic (System -&gt; Administration -&gt; Synaptic Package Manager).
+In Settings -&gt; Repositories, make sure you have a &quot;multiverse&quot; 
+repository activated.</p>
+<p>Search for vlc and install it. You should also install vlc-plugin-pulse, mozilla-plugin-vlc (and libdvdcss2).</p>
+<p>If you are interrested in streaming or transcoding, you should also install libavcodec-extra-52.</p>
+<h3>Command line way</h3>
+<p>You need to check that a &quot;multiverse&quot; mirror is listed
+in your /etc/apt/sources.list.</p>
+<blockquote>
+<pre>
+% sudo apt-get update
+% sudo apt-get install vlc vlc-plugin-pulse mozilla-plugin-vlc
+</pre>
+</blockquote>
+
 <h2>1.0.0 on Jaunty Jackalope</h2>
 <p> In order to get the latest 1.0.0 on your latest ubuntu, you should use use a version from <a href="https://launchpad.net/ubuntu/+ppas">PPA</a>. There is an
 <a href="https://help.launchpad.net/Packaging/PPA#Installing software from a PPA">howto to use a ppa</a>.</p>
@@ -19,27 +40,8 @@ The version can be found on:
 https://launchpad.net/~c-korn/+archive/vlc
 </pre>
 
-
-<h2>Ubuntu Jaunty Jackalope 9.04,
-<br/>Ubuntu Intrepid Ibex 8.10,
+<h2>Ubuntu Intrepid Ibex 8.10,
 <br/>Ubuntu Hardy Heron LTS 8.04</h2>
-<p>Open Synaptic (System -&gt; Administration -&gt; Synaptic Package Manager).
-In Settings -&gt; Repositories, make sure you have a &quot;multiverse&quot; 
-repository activated.</p>
-<p>Search for vlc and install it. You should also install vlc-plugin-esd, mozilla-plugin-vlc (and libdvdcss2).</p>
-
-<h3>Command line way</h3>
-<p>You need to check that a &quot;multiverse&quot; mirror is listed
-in your /etc/apt/sources.list.</p>
-<blockquote>
-<pre>
-% sudo apt-get update
-% sudo apt-get install vlc vlc-plugin-esd mozilla-plugin-vlc
-</pre>
-</blockquote>
-
-<h2>Ubuntu Gutsy Gibbon 7.10,
-<br/>Ubuntu Feisty Fawn 7.04</h2>
 
 <h3>Graphical way</h3>
 <p>Open Synaptic (System -&gt; Administration -&gt; Synaptic Package Manager).
@@ -56,20 +58,6 @@ in your /etc/apt/sources.list.</p>
 % sudo apt-get install vlc vlc-plugin-esd mozilla-plugin-vlc
 </pre>
 </blockquote>
-
-<h2>Ubuntu Dapper Drake LTS 6.06</h2>
-<p>Dapper will be supported until June 2009 by Canonical.
-However, its VLC version is very old, so use our packages to get the latest version.</p>
-<p>You can add our repository this way:</p>
-<p>
-Be sure to have a universe repository enabled.
-Type these commands in a terminal:
-</p>
-<pre>
-echo "deb ftp://ftp.videolan.org/pub/videolan/ubuntu dapper universe" &gt; /etc/apt/sources.list.d/vlc.list
-sudo apt-get update
-sudo apt-get install vlc vlc-plugin-esd mozilla-plugin-vlc libdvdcss2
-</pre>
 
 </div>
 

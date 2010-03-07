@@ -33,7 +33,7 @@ ftp://videolan.cs.pu.edu.tw/others/VideoLAN/|Providence University|Taiwan|tw|FTP
 #
 # Contact : jason andrade - jason at aarnet dot edu dot au - BW 10Gbit (?)
 # Australian Academic and Research Network
-# http://mirror.aarnet.edu.au/pub/videolan/|AARNet|Australia|au|HTTP|10000
+http://mirror.aarnet.edu.au/pub/videolan/|AARNet|Australia|au|HTTP|10000
 #
 # Contact : zdenek bill - maser at kn dot vutbr dot cz - BW 1Gbit
 http://videolan.kn.vutbr.cz/|Brno University of Technology|Czech Republic|cz|HTTP|1000
@@ -85,13 +85,14 @@ http://ftp.free.org/mirrors/videolan/|Free|France|fr|HTTP|2000
 # Location: USA
 # Connection: 1000
 # shadowz shadowz __A__ beyond-innovation d0t org
-http://mirror.beyondi.org/vlc/|Beyond !nnovation|USA|us|HTTP|200
+# Desactivated as requested by owner. Don't reactivate unless ask by shadowz.
+## http://mirror.beyondi.org/vlc/|Beyond !nnovation|USA|us|HTTP|200
 #
 # Location: Ireland
 # Connection: 10Gbps
 # mirrors ___ ___ heanet.ie
 # Same for FTP exists.
-http://ftp.heanet.ie/pub/videolan/|HEAnet|Ireland|ie|HTTP|4000
+http://ftp.heanet.ie/pub/videolan/|HEAnet|Ireland|ie|HTTP|5000
 #
 # Location: GB
 # Connection: 100Mb/s
@@ -230,9 +231,9 @@ http://nervion.us.es/videolan/|University of Seville|Spain|es|HTTP|1000
 http://vlc.qtv.ch/|Ch. Wagner|Swiss|ch|HTTP|100
 # Faculdade de Engenharia da Universidade do Porto
 # Porto, Portugal
-# ilipec [AT] fe.up.pt
+# Filipe Carvalho  filipec [AT] fe.up.pt
 # also ftp and ipv6
-http://neacm.fe.up.pt/pub/videolan/|Faculdade de Engenharia da Universidade do Porto|Portugal|pt|HTTP|1000
+http://mirrors.fe.up.pt/pub/videolan/|Faculdade de Engenharia da Universidade do Porto|Portugal|pt|HTTP|1000
 ## Nautile (ISP) - http://www.nautile.nc/
 ## Noumea, New Caledonia
 ## Bandwidth : 100Mbps
@@ -247,7 +248,7 @@ http://mirror.netcologne.de/videolan.org/|NetCologne GmbH|Germany|de|HTTP|2000
 ## OpenWebster
 ## Mike T" <mtu 47 openwebster d0t com>
 ## Denver, Colorado, USA
-http://mirror.openwebster.com/videolan/|OpenWebster|USA|us|HTTP|100
+http://mirror.openwebster.com/videolan/|OpenWebster|USA|us|HTTP|50
 ## Default Route, Inc.
 ## DR NetOps (ops at defaultroute dot net) 
 ## Seattle and NY, USA
@@ -256,6 +257,11 @@ http://vlc-2.defaultroute.net/|Default Route, Inc.|USA, East|us|HTTP|100
 ## Honesty Net Solutions (I) Pvt Ltd
 ## Ripunjay Bararia <ripunjay at hns dot net.in>
 ## Mumbai, India
-http://mirrors.hns.net.in/videolan/|Honesty Net Solutions (I) Pvt Ltd|India|in|HTTP|100 
+#http://mirrors.hns.net.in/videolan/|Honesty Net Solutions (I) Pvt Ltd|India|in|HTTP|100 
+## SWITCH, the Swiss national research and education network
+## switchmirror@switch.ch
+## 10 Gbit/s (with Internet2 (US) and GEANT3 (Europe) connectivity)
+## FTP and HTTP
+http://mirror.switch.ch/ftp/mirror/videolan/|SWITCHmirror|Switzerland|ch|http|5000
 # Make sure to not leave a blank line at the end
 # EOF

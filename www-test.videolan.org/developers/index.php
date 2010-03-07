@@ -22,7 +22,7 @@ There is a <a href="http://wiki.videolan.org/Developers_Corner">Developer's Corn
 <h2>Getting Involved</h2>
 <p><b>We need you</b>, so if you can, - developer or not -, please 
 <a href="http://wiki.videolan.org/Help_VideoLAN">help us</a>.<br />
-Don't forget to see us on <a href="irc://irc.videolan.org#videolan">IRC</a> 
+Don't forget to see us on <a href="irc://irc.videolan.org/videolan">IRC</a> 
 or on the <a href="lists.html">Mailing-lists</a>.</p>
 
 

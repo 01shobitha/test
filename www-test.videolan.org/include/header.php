@@ -245,19 +245,4 @@ StartHtml( ereg_replace( "<[^>]*>" , "" , $title ), $additional_css, $additional
    </div>
 </div>
 
-  <?php panel_start( "blue" ); ?>
-  <table style="margin:5px;">
-  <tr>
-  	<td>
-  	<strong><big>VideoLAN Dev Days '09</big></strong>
-  	</td>
-  	<td>
-  	<a href="/videolan/events/vdd09.html" style="text-decoration: none">
-  		<b>Join us</b> in the open source multimedia event of the year. Don't miss it!
-  	</a>
-  	</td>
-  </tr>
-  </table>
-  <?php panel_end(); ?>
-
 <div id="maincontent" onmouseover="showSubMenu('<?php echo $menu[0];?>')">

@@ -12,13 +12,19 @@
 
 <div id="left">
 
-<?php/*
 <h2>Looking for more Mac OS X developers</h2>
-<p> We are currently looking for more developers for the Mac OS X port of VLC. Needed skills are C-knowledge and some experience in programming for Mac OS X by using Cocoa and Xcode. Know-how on programming A/V applications will probably make the work easier for you, but is not essential.</p><p>At present, one of our goals is to create a new more user-friendly preferences-window. Thus, if you have experience on this topic, any help will be appreciated, but there are also other subjects where we would be happy about another helping hand.</p>
-<p>If you would like to join the project, feel free to send us an e-mail to the <a href="/developers/lists.html">vlc-devel mailing list</a> or to contact us through our <a href="http://forum.videolan.org/viewtopic.php?t=3675&amp;start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">forum</a>. </p>
-*/?>
+<p> We are currently looking for more developers for the Mac OS X port of VLC.
+Needed skills are C-knowledge and some experience in programming for Mac OS X
+by using Cocoa and Xcode.
+Know-how on programming A/V applications will probably make the work easier
+for you, but is not essential.
+</p>
+<p>If you would like to join the project, feel free to send us an e-mail
+to the <a href="/developers/lists.html">vlc-devel mailing list</a>
+or to contact us through our <a href="http://forum.videolan.org/viewtopic.php?t=3675&amp;start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">forum</a>.
+</p>
 
-<?php $vlc_version = "1.0.3"; ?>
+<?php $vlc_version = "1.0.5"; ?>
 <h2>Latest Mac OS X package for 10.5 and later (release <?php echo $vlc_version; ?>)</h2>
 
 <?php pkgitem( "Universal Binary",
@@ -34,8 +40,9 @@
 <?php pkgitem( "Package for PowerPC-based Macs",
                "$vlc_version/macosx","vlc-$vlc_version-powerpc.dmg","vlc"); ?>
 
-<p>Note: VLC will not be available for 64-bits Intel-based Macs
-until further notice. You can safely use the 32-bits package instead.
+<p>Note: Owing to the forementioned shortage of developers,
+VLC will not be available for 64-bits Intel-based Macs until further notice.
+You can safely use the 32-bits package instead.
 </p>
 
 <h2>Latest Web browser plugins for 10.5 and later (release <?php echo $vlc_version; ?>)</h2>

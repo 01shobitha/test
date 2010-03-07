@@ -27,7 +27,8 @@
 
 <h2>Get libdvbcsa</h2>
 
-<p> <code>libdvbcsa</code> is available through <a href="http://wiki.videolan.org/Subversion">Subversion</a>
+<p> <code>libdvbcsa</code> is available through <a href="http://wiki.videolan.org/Subversion">Subversion</a> or
+by browsing the <a href="http://download.videolan.org/pub/videolan/libdvbcsa/">releases</a>.
 </p>
 
 <?php footer('$Id: libdvbcsa.php 4100 2007-01-24 20:51:17Z jb $'); ?>

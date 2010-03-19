@@ -1,5 +1,5 @@
 <?php
-   $title = "VideoLAN security informations";
+   $title = "VideoLAN security information";
    $lang = "en";
    $menu = array( "vlc" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
@@ -29,6 +29,13 @@ pub   1024D/AC3E0879 2006-03-01
 </dl>
 
 <h1>Past security advisories</h1>
+<h2>2010</h2>
+
+<dl>
+<dt>VideoLAN-SA-1001</dt>
+<dd>Clam AntiVirus input validation error <a href="sa1001.html">Details</a>
+</dd>
+</dl>
 <h2>2009</h2>
 
 <dl>

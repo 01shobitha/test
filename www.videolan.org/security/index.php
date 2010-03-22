@@ -33,7 +33,7 @@ pub   1024D/AC3E0879 2006-03-01
 
 <dl>
 <dt>VideoLAN-SA-1002</dt>
-<dd>Buffer overflow in ancient VLC media player <a href= sa1002.html">Details</a>
+<dd>Buffer overflow in ancient VLC media player <a href="sa1002.html">Details</a>
 </dd>
 <dt>VideoLAN-SA-1001</dt>
 <dd>Clam AntiVirus input validation error <a href="sa1001.html">Details</a>

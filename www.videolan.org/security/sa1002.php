@@ -19,8 +19,8 @@ CVE reference     : CVE-2010-0364
 <h2>Details</h2>
 <p>fl0 fl0w claims to have found a buffer overflow in SSA subtitles parsing 
 in VLC media player 0.8.6 to 0.8.6d. This is actually a subset of a collections
- of buffer overflows discovered and fixed in late 2007 - early 2008. 
-See our advisory <a href="http://http://www.videolan.org/security/sa0801.html">
+ of buffer overflows discovered and fixed in late 2007 - early 2008.</p> 
+<p>See our advisory <a href="http://www.videolan.org/security/sa0801.html">
 VideoLAN-SA-0801</a> for more informations.
 </p>
 <h2>Threat mitigation</h2>

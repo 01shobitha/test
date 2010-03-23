@@ -51,14 +51,22 @@ function writeInputFeatures() {
             <?php writefeature( "Video CD / VCD ", "yes", "yes", "yes", "no", "yes", "none" ); ?>
             <?php writefeature( 'SVCD <sup><a href="#input_notes">2</a></sup>', "part", "part", "part", "no", "part", "none" ); ?>
             <?php writefeature( "Audio CD (no DTS-CD)", "yes", "yes", "yes", "no", "yes", "none" ); ?>
-            <?php writefeature( "DVB (Satellite, <br/>Digital TV, Cable TV)", "yes", "no", "yes", "yes", "no", "none" ); ?>
-            <?php writefeature( 'MPEG encoder <sup><a href="#input_notes">3</a></sup>', "yes", "no", "yes", "no", "no", "none" ); ?>
+            <tr>
+            <td class="type">DVB (Satellite, <br/>Digital TV, Cable TV)</td>
+            <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
+            <td class="part"><img src="http://images.videolan.org/images/features/partial.png" alt="part" /> EyeTV <sup><a href="#input_notes">3</a></sup></td>
+            <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
+            <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
+            <td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
+            <td class="no">-</td>
+            </tr>
+            <?php writefeature( 'MPEG encoder <sup><a href="#input_notes">4</a></sup>', "yes", "no", "yes", "no", "no", "none" ); ?>
 
             <tr>
             <td class="type">Video acquisition</td>
             <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> Direct Show</td>
 
-            <td class="part"><img src="http://images.videolan.org/images/features/partial.png" alt="part" /> iSight, EyeTV <sup><a href="#input_notes">4</a></sup></td>
+            <td class="part"><img src="http://images.videolan.org/images/features/partial.png" alt="part" /> iSight <sup><a href="#input_notes">5</a></sup></td>
             <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> V4L, V4L2</td>
             <td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
             <td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
@@ -97,8 +105,9 @@ function writeInputFeatures() {
               (Volunteers for adding support are always welcome.). Handling still
               frames (often used in menus) and switching between different video
               formats is problematic.</li>
+              <li>On Mac OS X 10.4 or later, VLC is able to grab video and audio from EyeTV applications and therefore all EyeTV-compatible capture devices. The user needs to install a plugin to EyeTV.app in order to use this features. Guidance is provided in the User Interface. Requires VLC 0.9.0 or later.</li>
               <li>VLC for GNU/Linux supports V4L2 compatible encoding cards as well as two kinds of MPEG-2 encoding cards: Hauppauge WinTV-PVR-250/350 and Visiontech Kfir.</li>
-              <li>Starting with version 0.9.0, VLC supports iSight capturing and processing on Mac OS X 10.5 or later (video only). This is unsupported on 10.4. Additionally, on 10.4 or later, VLC is able to grab video and audio from EyeTV applications and therefore all EyeTV-compatible capture devices. The user needs to install a plugin to EyeTV.app in order to use this features. Guidance is provide in the User Interface.</li>
+              <li>VLC supports capturing video from internal iSights on Mac OS X 10.5 or later (video only). This is unsupported on 10.4. Requires VLC 0.9.0 or later.</li>
             </ol>
           </div>
         </div>
@@ -169,15 +178,7 @@ function writeAudioFeatures() {
             <?php writefeature( 'MLP / TrueHD <sup><a href="#audio_notes">3</a></sup>', "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "DTS", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "WMA 1/2", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <tr>
-            <td class="type">WMA 3</td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#audio_notes">1</a></sup></td>
-            <td class="no"><img src="/images/features/cross.png" alt="No" /> <sup><a href="#audio_notes">1</a></sup></td>
-            <td class="yes"><img src="/images/features/tick.png" alt="Yes" /> <sup><a href="#audio_notes">1</a></sup></td>
-            <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-            <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-            <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-            </tr>
+            <?php writefeature( "WMA 3 <sup><a href="#audio_notes">1</a>", "yes", "yes", "yes", "no", "no", "no" ); ?>
             <?php writefeature( "FLAC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "ALAC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "Speex", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
@@ -202,8 +203,8 @@ function writeAudioFeatures() {
 
         <div class="notes">
         <ol id="audio_notes">
-          <li>Windows DMO codecs can be used by VLC on 32-bit x86 platforms and 
-          allow WMV-3/WMA-3 decoding. This feature is untested on Intel-based Macs.</li>
+          <li>Playback supported by VLC 1.0.3 and later. Previous versions could use Windows DMO codecs on 32-bit x86 platforms and 
+          allow WMV-3/WMA-3 decoding. This feature was never tested on Intel-based Macs.</li>
           <li>Sipr codec playback is not supported.</li>
         </ol>
         </div>

@@ -1,6 +1,9 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|22 Mar 2010|Outdated security issue|So-called "Security" teams are spreading wrong information about an "unpatched" security issue in VLC.<br /><a href="http://xforce.iss.net/xforce/xfdb/55717">ISS/<a> and <a href="http://www.securityfocus.com/bid/37832">SecurityFocus</a> are presenting a security issue in versions of VLC, that are, in fact, more than 2 years old. This issue has been <a href="/security/">fixed</a> since a long time and since <strong>20 versions</strong> of VLC.</p><p>Of course, the latest version of VLC isn't affected.
+
+
 |01 Mar 2010|Multicat 1.0|Multicat is a set of tools designed to easily and
 efficiently manipulate multicast streams in general, and MPEG-2
 Transport Streams in particular.<br />

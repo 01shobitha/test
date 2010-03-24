@@ -178,7 +178,7 @@ function writeAudioFeatures() {
             <?php writefeature( 'MLP / TrueHD <sup><a href="#audio_notes">3</a></sup>', "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "DTS", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "WMA 1/2", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "WMA 3 <sup><a href="#audio_notes">1</a>", "yes", "yes", "yes", "no", "no", "no" ); ?>
+            <?php writefeature( 'WMA 3 <sup><a href="#audio_notes">1</a></sup>', "yes", "yes", "yes", "no", "no", "no" ); ?>
             <?php writefeature( "FLAC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "ALAC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "Speex", "yes", "yes", "yes", "unt", "yes", "unt" ); ?>
@@ -203,7 +203,7 @@ function writeAudioFeatures() {
 
         <div class="notes">
         <ol id="audio_notes">
-          <li>Playback supported by VLC 1.0.3 and later. Previous versions could use Windows DMO codecs on 32-bit x86 platforms and 
+          <li>Native playback supported by VLC 1.0.3 and later. Previous versions could use Windows DMO codecs on 32-bit x86 platforms and 
           allow WMV-3/WMA-3 decoding. This feature was never tested on Intel-based Macs.</li>
           <li>Sipr codec playback is not supported.</li>
         </ol>

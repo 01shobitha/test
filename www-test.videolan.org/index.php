@@ -1,5 +1,5 @@
 <?php
-   $title = "VideoLAN, Free streaming and multimedia solutions for all OS!";
+   $title = "VideoLAN, VLC: Free streaming and multimedia solutions for all OS!";
    $lang = "en";
    $menu = array( "project", "videolan" );
    $additional_js = array("/js/front.js");
@@ -15,105 +15,105 @@
 <div id="ieShadow"></div>
 <script type="text/javascript" language="javascript">
 function adapt() {
-	document.getElementById("ieShadow").style.height = document.getElementById("mainbox").offsetHeight+5;
-	document.getElementById("ieShadow").style.width = document.getElementById("mainbox").offsetWidth;
-	document.getElementById("ieShadow").style.top = document.getElementById("mainbox").offsetTop-5;
-	document.getElementById("ieShadow").style.left = document.getElementById("mainbox").offsetLeft-5;
+    document.getElementById("ieShadow").style.height = document.getElementById("mainbox").offsetHeight+5;
+    document.getElementById("ieShadow").style.width = document.getElementById("mainbox").offsetWidth;
+    document.getElementById("ieShadow").style.top = document.getElementById("mainbox").offsetTop-5;
+    document.getElementById("ieShadow").style.left = document.getElementById("mainbox").offsetLeft-5;
 
 }
 window.onload = function() {
-	adapt();
+    adapt();
 }
 window.onresize = function(evt) {
-	adapt();
+    adapt();
 }
 </script>
 <![endif]-->
 
 <div id="project_statement">
-	<h1 id="motto">VideoLAN: Free Multimedia</h1>
-	<table>
-		<tr>
-			<td>
-                <h2>Volunteers Organization</h2>
-				<p style="max-width: 320px">
-					<b>VideoLAN</b> is a project and a non-profit organization, led and composed by volunteers,
-                    that puts its efforts into developing and promoting
-					<a href="http://www.gnu.org/philosophy/free-sw.html" target="_blank">free</a> multimedia solutions.
-                    <span style="float: right; padding: 5px 10px 0 0;"><a href="/videolan/">More about VideoLAN</a>.</span>
-				</p>
-			</td>
-			<td>
-                <h2>Open Source Matters</h2>
-				<p style="max-width: 320px">
-					<b>VideoLAN</b> is a project and a non-profit organization, led and composed by volunteers,
-                    that puts its efforts into developing and promoting
-					<a href="http://www.gnu.org/philosophy/free-sw.html" target="_blank">free</a> multimedia solutions.
-                    <span style="float: right; padding: 5px 10px 0 0;"><a href="/videolan/">More about VideoLAN</a>.</span>
-				</p>
-			</td>
+    <h1 id="motto">VideoLAN: Free Multimedia Solutions</h1>
+    <table>
+        <tr>
             <td>
-				<h2>Contribute to the community</h2>
+                <h2>Volunteers Organization</h2>
+                <p style="max-width: 320px">
+                    <b>VideoLAN</b> is a project and a non-profit organization, led and composed by volunteers,
+                    that puts its efforts into developing and promoting
+                    <a href="http://www.gnu.org/philosophy/free-sw.html" target="_blank">free</a> multimedia solutions.
+                    <span style="float: right; padding: 5px 10px 0 0;"><a href="/videolan/">More about VideoLAN</a>.</span>
+                </p>
+            </td>
+            <td>
+                <h2>Open Source</h2>
+                <p style="max-width: 320px">
+                    Because you deserve to be able to trust your multimedia software and codecs, all <b>VideoLAN</b> projects are 
+                   <a href="http://www.gnu.org/philosophy/free-sw.html" target="_blank">free</a> and
+                   <a href="http://www.opensource.org/" target="_blank">open source</a>.
+                    <span style="float: right; padding: 5px 10px 0 0;"><a href="/videolan/">More about Open Source</a>.</span>
+                </p>
+            </td>
+            <td>
+                <h2>Contribute to the community</h2>
                 <h2>Donate</h2>
             </td>
-		</tr>
-	</table>
+        </tr>
+    </table>
 </div>
 <div id="mainbox">
-	<table>
-		<tr>
+    <table>
+        <tr>
         <td>
 
             <img src=images/screenshots/vlc-linux.jpg />
             </td>
-			<td>
-			<p style="float:left">
-				<img src="images/vlc64x64.png" alt="VLC cone logo"/>
-			</p>
-			<p>
-			<a href="vlc" class="product">VLC media player</a>
-			</p>
-			<p>
-			One player to read them all. One player to stream them all. And its free.
-			</p>
-			</td>
-			<td>
-			<p style="float:left">
-				<img src="images/x264_64.png" alt="x264 logo"/>
-			</p>
-			<p>
-			<a href="developers/x264.html" class="product">x264</a>
-			</p>
-			<p>
-			The award-winning MPEG4 H.264/AVC video encoder.
-			The number one encoder in the movie pirating scene!
-			</p>
-			</td>	
-			<td>
-			<p style="float:left;width:64px">
-			<big><strong>VLMa</strong></big>
-			</p>
-			<p>
-			<a href="projects/vlma">VideoLAN Manager</a>
-			</p>
-			<p>
-			Manage broadcasting of several sattelite or DVB TV channels and other streams.
-			</p>
-			</td>
-			<td>
-			<p style="float:left;width:64px">
-			<big><strong>DVBlast</strong></big>
-			</p>
-			<p>
-			<a href="projects/dvblast.html">DVBlast</a>
-			</p>
-			<p>
-				BAM! Blasts your DVB device on Linux.
-			</p>
-			</td>
+            <td>
+            <p style="float:left">
+                <img src="images/vlc64x64.png" alt="VLC cone logo"/>
+            </p>
+            <p>
+            <a href="vlc" class="product">VLC media player</a>
+            </p>
+            <p>
+            One player to read them all. One player to stream them all. And its free.
+            </p>
+            </td>
+            <td>
+            <p style="float:left">
+                <img src="images/x264_64.png" alt="x264 logo"/>
+            </p>
+            <p>
+            <a href="developers/x264.html" class="product">x264</a>
+            </p>
+            <p>
+            The award-winning MPEG4 H.264/AVC video encoder.
+            The number one encoder in the movie pirating scene!
+            </p>
+            </td>    
+            <td>
+            <p style="float:left;width:64px">
+            <big><strong>VLMa</strong></big>
+            </p>
+            <p>
+            <a href="projects/vlma">VideoLAN Manager</a>
+            </p>
+            <p>
+            Manage broadcasting of several sattelite or DVB TV channels and other streams.
+            </p>
+            </td>
+            <td>
+            <p style="float:left;width:64px">
+            <big><strong>DVBlast</strong></big>
+            </p>
+            <p>
+            <a href="projects/dvblast.html">DVBlast</a>
+            </p>
+            <p>
+                BAM! Blasts your DVB device on Linux.
+            </p>
+            </td>
 
-		</tr>
-	</table>
+        </tr>
+    </table>
 </div>
 <table class="fronttable">
 <tr>
@@ -143,7 +143,7 @@ window.onresize = function(evt) {
 <!--End news items -->
 <td>
     <?php
-	  define('MAGPIE_OUTPUT_ENCODING', 'UTF-8');
+      define('MAGPIE_OUTPUT_ENCODING', 'UTF-8');
       $rss = fetch_rss("http://planet.videolan.org/rss10.xml");
       $i = 0;
       $chars_per_entry = 240;

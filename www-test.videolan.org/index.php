@@ -136,7 +136,7 @@ window.onresize = function(evt) {
 <!--Begin news items -->
 <td colspan="2">
 <?php
-  shownews("full", 2); 
+  shownews("full", 4); 
 ?>
 </td>
 <!--End news items -->

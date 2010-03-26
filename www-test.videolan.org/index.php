@@ -33,8 +33,7 @@ window.onresize = function(evt) {
 <div id="project_statement">
     <h1 id="motto">VideoLAN: Free Multimedia Solutions</h1>
     <table>
-        <tr>
-            <td>
+        <tr><td>
                 <h2>Volunteers Organization</h2>
                 <p style="max-width: 320px">
                     <b>VideoLAN</b> is a project and a non-profit organization, led and composed by volunteers,
@@ -55,17 +54,14 @@ window.onresize = function(evt) {
             <td>
                 <h2>Contribute to the community</h2>
                 <h2>Donate</h2>
-            </td>
-        </tr>
+        </td></tr>
     </table>
 </div>
+
 <div id="mainbox">
     <table>
         <tr>
-        <td>
-
-            <img src=images/screenshots/vlc-linux.jpg />
-            </td>
+    <td><img src=images/screenshots/vlc-linux.jpg /></td>
             <td>
             <p style="float:left">
                 <img src="images/vlc64x64.png" alt="VLC cone logo"/>
@@ -115,6 +111,7 @@ window.onresize = function(evt) {
         </tr>
     </table>
 </div>
+
 <table class="fronttable">
 <tr>
   <td colspan="2">
@@ -137,9 +134,11 @@ window.onresize = function(evt) {
 </tr>
 <tr>
 <!--Begin news items -->
+<td colspan="2">
 <?php
-  shownews_mockup("full", 2); 
+  shownews("full", 2); 
 ?>
+</td>
 <!--End news items -->
 <td>
     <?php

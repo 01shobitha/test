@@ -126,10 +126,9 @@ hr {
 #submenucontainer ul li { display: inline; }
 #submenucontainer ul li a {
 	font-family: Geneva, Arial, Helvetica, sans-serif;
-	font-weight: normal; color: #2D58AE;font-size: 17px;
+font-weight: normal;    color: #2D58AE;font-size: 17px;
 	text-decoration: none;
 	float: left; padding: 14px 20px 10px 0;
-	text-transform: lowercase;
 }
 
 #submenucontainer ul li.selected a {
@@ -141,7 +140,6 @@ hr {
 	/*filter: Shadow(Color=#4D78CE, Direction=180, Strength=2), Shadow(Color=#4D78CE, Direction=150, Strength=1), Shadow(Color=#4D78CE, Direction=210, Strength=1);*/
 	/*margin-top: -1px;*/
 	float: left; padding: 14px 20px 10px 0;
-	text-transform: lowercase;
 	color: #FFFFFF;
 }
 

@@ -1,7 +1,7 @@
 <?php
    $title = "VideoLAN, Free streaming and multimedia solutions for all OS!";
    $lang = "en";
-   $menu = array( "vlc", "overview" );
+   $menu = array( "project", "videolan" );
    $additional_js = array("/js/front.js");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
@@ -10,6 +10,7 @@
    $tab = "vlc";
    if(isset($_GET['tab'])) $tab = $_GET['tab'];
 ?>
+
 <!--[if IE]>
 <div id="ieShadow"></div>
 <script type="text/javascript" language="javascript">
@@ -28,11 +29,13 @@ window.onresize = function(evt) {
 }
 </script>
 <![endif]-->
-<div id="mainbox">
+
+<div id="project_statement">
+	<h1 id="motto">VideoLAN: Free Multimedia</h1>
 	<table>
 		<tr>
 			<td>
-				<h1>What is VideoLAN?</h1>
+                <h2>Volunteers Organization</h2>
 				<p> 
 					The <b>VideoLAN organization</b> is a non-profit organization that puts its efforts into developing
 					<a href="http://www.gnu.org/philosophy/free-sw.html" target="_blank">free</a> multimedia solutions.
@@ -42,16 +45,26 @@ window.onresize = function(evt) {
 				</p>
 			</td>
 			<td>
-				<h1>Contribute to the community</h1>
+                <h2>Open Source Matters</h2>
   				<p>
 				    There are several ways <i>you</i> can contribute and become a part of the VideoLAN community.
 					Learn more about how you can do that on the <a href="contribute.html">contribute page</a>.
-				</p>		
+				</p>
 			</td>
+            <td>
+				<h2>Contribute to the community</h2>
+                <h2>Donate</h2>
+            </td>
 		</tr>
 	</table>
+</div>
+<div id="mainbox">
 	<table>
 		<tr>
+        <td>
+
+            <img src=images/screenshots/vlc-linux.jpg />
+            </td>
 			<td>
 			<p style="float:left">
 				<img src="images/vlc64x64.png" alt="VLC cone logo"/>

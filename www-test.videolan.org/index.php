@@ -36,19 +36,20 @@ window.onresize = function(evt) {
 		<tr>
 			<td>
                 <h2>Volunteers Organization</h2>
-				<p> 
-					The <b>VideoLAN organization</b> is a non-profit organization that puts its efforts into developing
+				<p style="max-width: 320px">
+					<b>VideoLAN</b> is a project and a non-profit organization, led and composed by volunteers,
+                    that puts its efforts into developing and promoting
 					<a href="http://www.gnu.org/philosophy/free-sw.html" target="_blank">free</a> multimedia solutions.
-				    It's a host to various open source projects, the most prominent being the VLC media player.
-					<br/><br/>
-					<a href="/videolan/">Learn more about VideoLAN.</a>
+                    <span style="float: right; padding: 5px 10px 0 0;"><a href="/videolan/">More about VideoLAN</a>.</span>
 				</p>
 			</td>
 			<td>
                 <h2>Open Source Matters</h2>
-  				<p>
-				    There are several ways <i>you</i> can contribute and become a part of the VideoLAN community.
-					Learn more about how you can do that on the <a href="contribute.html">contribute page</a>.
+				<p style="max-width: 320px">
+					<b>VideoLAN</b> is a project and a non-profit organization, led and composed by volunteers,
+                    that puts its efforts into developing and promoting
+					<a href="http://www.gnu.org/philosophy/free-sw.html" target="_blank">free</a> multimedia solutions.
+                    <span style="float: right; padding: 5px 10px 0 0;"><a href="/videolan/">More about VideoLAN</a>.</span>
 				</p>
 			</td>
             <td>

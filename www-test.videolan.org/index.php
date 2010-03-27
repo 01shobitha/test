@@ -2,7 +2,6 @@
    $title = "VideoLAN, VLC: Free streaming and multimedia solutions for all OS!";
    $lang = "en";
    $menu = array( "project", "videolan" );
-   $additional_js = array("/js/front.js");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");
@@ -78,7 +77,8 @@ window.onresize = function(evt) {
 <table>
   <tr><td>
      <img src="images/screenshots/vlc-linux.jpg" id="img_project" alt="screenshot" /></td>
-     <td style="width:100%;"><div style="border: 1px solid yellow; width: 100%;">
+     <td style="width:100%;">
+       <div style="border: 1px solid yellow; width: 100%;">
         <ul>
             <li style="display: inline;">
               <div style="float: left; ">

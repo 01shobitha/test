@@ -122,7 +122,8 @@ window.onresize = function(evt) {
     </div>
          </td></tr>
     </table>
-       <span style="float: right; "><button class="prev">&lt;&lt;</button>
+       <span style="float: right; ">Browse <a href="/projects">all projects</a>
+       <button class="prev">&lt;&lt;</button>
        <button class="next">&gt;&gt;</button></span
 </div>
 <script type="text/javascript">

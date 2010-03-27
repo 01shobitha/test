@@ -78,7 +78,7 @@ window.onresize = function(evt) {
   <tr><td>
      <img src="images/screenshots/vlc-linux.jpg" id="img_project" alt="screenshot" /></td>
      <td style="width:100%;">
-       <div style="border: 1px solid yellow; width: 100%;">
+       <div style="border: 0px solid yellow; width: 100%;">
         <ul>
             <li style="display: inline;">
               <div style="float: left; ">
@@ -89,9 +89,24 @@ window.onresize = function(evt) {
                 <p>One player to read them all. One player to stream them all. And its free.</p>
               </div>
             </li>
-            <li style="display: inline;">1</li>
-            <li style="display: inline;">1</li>
-            <li style="display: inline;">1</li>
+         <li style="display: inline;">
+              <div style="float: left; ">
+                <p style="float:left">
+                  <img src="images/vlc64x64.png" alt="VLC cone logo"/>
+                </p>
+                <h2><a href="vlc" class="product">VLC media player</a></h2>
+                <p>One player to read them all. One player to stream them all. And its free.</p>
+              </div>
+            </li>
+         <li style="display: inline;">
+              <div style="float: left; ">
+                <p style="float:left">
+                  <img src="images/vlc64x64.png" alt="VLC cone logo"/>
+                </p>
+                <h2><a href="vlc" class="product">VLC media player</a></h2>
+                <p>One player to read them all. One player to stream them all. And its free.</p>
+              </div>
+            </li>
         </ul>
 
     </div>

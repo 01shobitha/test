@@ -32,7 +32,7 @@ window.onresize = function(evt) {
 
 <div id="project_statement">
     <h1 id="motto">VideoLAN: Free Multimedia Solutions</h1>
-    <table>
+    <table class="fixed_table">
         <tr><td>
                 <h2>Volunteers Organization</h2>
                 <p style="max-width: 320px">
@@ -76,21 +76,27 @@ window.onresize = function(evt) {
 </div>
 
 <div id="mainbox">
-    <table>
-        <tr>
-    <td><img src=images/screenshots/vlc-linux.jpg /></td>
-            <td>
-            <p style="float:left">
-                <img src="images/vlc64x64.png" alt="VLC cone logo"/>
-            </p>
-            <p>
-            <a href="vlc" class="product">VLC media player</a>
-            </p>
-            <p>
-            One player to read them all. One player to stream them all. And its free.
-            </p>
-            </td>
-            <td>
+    <div style="display: inline; width: 300px; float: left;"><img src=images/screenshots/vlc-linux.jpg /></div>
+    <div style="border: 1px solid yellow; width: 100%;">
+        <ul>
+            <li style="display: inline;">
+              <div style="float: left; ">
+                <p style="float:left">
+                  <img src="images/vlc64x64.png" alt="VLC cone logo"/>
+                </p>
+                <h2><a href="vlc" class="product">VLC media player</a></h2>
+                <p>One player to read them all. One player to stream them all. And its free.</p>
+              </div>
+            </li>
+            <li style="display: inline;">1</li>
+            <li style="display: inline;">1</li>
+            <li style="display: inline;">1</li>
+        </ul>
+
+    </div>
+    <div style="clear: both;"> </div>
+
+<!--            <td>
             <p style="float:left">
                 <img src="images/x264_64.png" alt="x264 logo"/>
             </p>
@@ -126,7 +132,7 @@ window.onresize = function(evt) {
             </td>
 
         </tr>
-    </table>
+    </table>-->
 </div>
 
 <table class="fronttable">
@@ -157,14 +163,14 @@ window.onresize = function(evt) {
 ?>
 </td>
 <!--End news items -->
-<td>
+<td style="width: 33%;">
     <?php
       define('MAGPIE_OUTPUT_ENCODING', 'UTF-8');
       $rss = fetch_rss("http://planet.videolan.org/rss10.xml");
       $i = 0;
       $chars_per_entry = 240;
       $entries_per_column = 3;
-      $columns = 2;      
+      $columns = 1;      
       foreach($rss->items as $item) {
         echo "<p>";
         echo "<b>".htmlentities($item['title'])."</b></p>";
@@ -177,6 +183,9 @@ window.onresize = function(evt) {
         if($i%$entries_per_column==0) echo "</td><td>";
       }
     ?>
+  </td>
+  <td style="width: 17%">
+  test
   </td>
 </tr>
 </table>

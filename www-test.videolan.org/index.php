@@ -30,25 +30,23 @@ window.onresize = function(evt) {
 </script>
 <![endif]-->
 
+<?php /* */ ?>
 <div id="project_statement">
     <h1 id="motto">VideoLAN: Free Multimedia Solutions</h1>
     <table class="fixed_table">
         <tr><td>
                 <h2>Volunteers Organization</h2>
-                <p >
-                    <b>VideoLAN</b> is a project and a non-profit organization, led and composed by volunteers,
+                <p><b>VideoLAN</b> is a project and a non-profit organization, led and composed by volunteers,
                     that puts its efforts into developing and promoting
                     <a href="http://www.gnu.org/philosophy/free-sw.html">free</a> multimedia solutions.
-                    <span style="float: right; padding: 5px 10px 0 0;"><a href="/videolan/">More about VideoLAN</a>.</span>
-                </p>
+                    <span style="float: right; padding: 5px 10px 0 0;"><a href="/videolan/">More about VideoLAN</a>.</span></p>
             </td>
             <td>
                 <h2>Open Source</h2>
-                    Because you deserve to be able to trust your multimedia software and codecs, all <b>VideoLAN</b> projects are 
+                   <p>Because you deserve to be able to trust your multimedia software and codecs, all <b>VideoLAN</b> projects are 
                    <a href="http://www.gnu.org/philosophy/free-sw.html">free</a> and
                    <a href="http://www.opensource.org/">open source</a>.
-                    <span style="float: right; padding: 5px 10px 0 0;"><a href="/videolan/">More about Open Source</a>.</span>
-                </p>
+                    <span style="float: right; padding: 5px 10px 0 0;"><a href="/videolan/">More about Open Source</a>.</span></p>
             </td>
             <td>
                 <h2>Contribute</h2>
@@ -57,14 +55,14 @@ window.onresize = function(evt) {
                 <div>
                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
                     <div style="float: right;">
-                    <input name="cmd" value="_xclick" type="hidden"/>
-                    <input name="business" value="sponsor@videolan.org" type="hidden"/>
-                    <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
-                    <input name="no_note" value="0" type="hidden"/>
-                    <input name="currency_code" value="EUR" type="hidden"/>
-                    <input name="tax" value="0" type="hidden"/>
-                    <input src="/images/btn_donate.gif" name="submit" alt="Donate money to VideoLAN via PayPal" type="image"/>
-                    <span style="font-size: 10px;">€</span>
+                      <input name="cmd" value="_xclick" type="hidden"/>
+                      <input name="business" value="sponsor@videolan.org" type="hidden"/>
+                      <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
+                      <input name="no_note" value="0" type="hidden"/>
+                      <input name="currency_code" value="EUR" type="hidden"/>
+                      <input name="tax" value="0" type="hidden"/>
+                      <input src="/images/btn_donate.gif" name="submit" alt="Donate money to VideoLAN via PayPal" type="image"/>
+                      <span style="font-size: 10px;">€</span>
                     </div>
                  </form>
                 <p>VideoLAN's funding originates from your donations. <a href="">Help us!</a></p>
@@ -73,6 +71,7 @@ window.onresize = function(evt) {
     </table>
 </div>
 
+<?php /* */ ?>
 <div id="mainbox">
 <table>
   <tr>
@@ -136,6 +135,7 @@ $(function() {
 });
 </script>
 
+<?php /* */ ?>
 <table class="fronttable">
 <tr>
   <td >

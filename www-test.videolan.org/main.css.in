@@ -353,15 +353,7 @@ a.en {
   position: relative;
   top: -400px;
 }
-#mainbox .leftpart {
-  float:left;
-  width: 50%;
-  padding-right: 5px;
-}
-#mainbox .rightpart {
-  width: 50%;
-  padding-left: 5px;
-}
+
 #mainbox h1 {
   font-size: 16pt;
   font-weight: bold;
@@ -372,16 +364,7 @@ a.en {
   line-height: 16pt;
 }
 
-#mainbox h3 {
-  line-height: 15px;
-  padding:0px;
-}
-
 #mainbox table {
-  margin-bottom: 5px;
-}
-
-#mainbox p {
   margin-bottom: 5px;
 }
 
@@ -389,11 +372,17 @@ a.en {
   padding-left: 18px;
   background: url(images/frontpage/download.png) left center no-repeat;
 }
-
-a.product {
-  text-decoration: none;
-  font-weight: bold;
+#mainbox li {
+  display: inline;
 }
+#mainbox li div, p.image {
+  float: left;
+}
+#mainbox p {
+  line-height: 150%;
+  margin: 1em 0 1em 0;
+}
+
 
 ul.menu {
   list-style-type: none;
@@ -406,11 +395,6 @@ ul.menu a:link {
   text-decoration: none;
   color: #2D58AE;
 }
-#mainbox p {
-  line-height: 150%;
-  margin: 1em 0 1em 0;
-}
-
 
 /* Colored panels */
 .panel-orange {

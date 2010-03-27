@@ -56,21 +56,19 @@ window.onresize = function(evt) {
                 <p>VideoLAN lives because the community is active. You too <a href="/contribute.html">can help!</a></p>
                 <h3>Donations</h3>
                 <div><div style="float: right;">
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-            <input name="cmd" value="_xclick" type="hidden"/>
-            <input name="business" value="sponsor@videolan.org" type="hidden"/>
-            <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
-            <input name="no_note" value="0" type="hidden"/>
-            <input name="currency_code" value="EUR" type="hidden"/>
-            <input name="tax" value="0" type="hidden"/>
-            <input src="/images/btn_donate.gif" name="submit" alt="Donate money to VideoLAN via PayPal" type="image"/>
-            <span style="font-size: 10px;">€</span>
-            </form>
-            </div>
-
-                <p>VideoLAN's funding originates from your donations. <a href="">Help us!</a></p>
-
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input name="cmd" value="_xclick" type="hidden"/>
+                    <input name="business" value="sponsor@videolan.org" type="hidden"/>
+                    <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
+                    <input name="no_note" value="0" type="hidden"/>
+                    <input name="currency_code" value="EUR" type="hidden"/>
+                    <input name="tax" value="0" type="hidden"/>
+                    <input src="/images/btn_donate.gif" name="submit" alt="Donate money to VideoLAN via PayPal" type="image"/>
+                    <span style="font-size: 10px;">€</span>
+                    </form>
                 </div>
+                <p>VideoLAN's funding originates from your donations. <a href="">Help us!</a></p>
+             </div>
         </td></tr>
     </table>
 </div>
@@ -78,7 +76,7 @@ window.onresize = function(evt) {
 <div id="mainbox">
 <table>
   <tr><td>
-     <img src=images/screenshots/vlc-linux.jpg id="img_project" /></td>
+     <img src="images/screenshots/vlc-linux.jpg" id="img_project" alt="screenshot" /></td>
      <td style="width:100%;"><div style="border: 1px solid yellow; width: 100%;">
         <ul>
             <li style="display: inline;">

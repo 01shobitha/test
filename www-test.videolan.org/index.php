@@ -84,7 +84,7 @@ window.onresize = function(evt) {
               <span style="float: right;"><button class="prev">&lt;&lt;</button>
               <button class="next">&gt;&gt;</button></span>
           </div>
-       <div class="projects_car" style="border: 1px solid green; margin: 0 auto;">
+       <div class="projects_car" style="border: 0px solid green; margin: 0 auto;">
         <ul>
             <li>
               <div>

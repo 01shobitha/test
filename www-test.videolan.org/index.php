@@ -75,7 +75,7 @@ window.onresize = function(evt) {
 <div id="mainbox">
 <table>
   <tr>
-      <td><img src="images/screenshots/vlc-linux.jpg" id="img_project" alt="screenshot" /></td> 
+      <td style="width: 300px;"><img src="images/screenshots/vlc-linux.jpg" id="img_project" alt="screenshot" /></td> 
       <td>        <div>
               <span style="font-weight: bold; font-size: 2em;">Projects </span>
               See <a href="/projects">all projects</a>.

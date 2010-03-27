@@ -82,8 +82,8 @@ window.onresize = function(evt) {
           <div>
               <span style="font-weight: bold; font-size: 2em;">Projects </span>
               See <a href="/projects">all projects</a>.
-              <span style="float: right;"><button class="prev"><<</button>
-              <button class="next">>></button></span>
+              <span style="float: right;"><button class="prev">&lt;&lt;</button>
+              <button class="next">&gt;&gt;</button></span>
           </div>
        <div class="projects_car" style="border: 0px solid yellow; width: 100%;">
         <ul>

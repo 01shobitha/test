@@ -99,59 +99,28 @@ window.onresize = function(evt) {
             <li>
               <div>
                 <p class="image">
-                  <img src="images/vlc64x64.png" alt="VLC cone logo"/>
+                  <img src="/images/x264_64.png" alt="x264 logo"/>
                 </p>
-                <h2><a href="vlc" class="product">VLC media player</a></h2>
-                <p>One player to read them all. One player to stream them all. And its free.</p>
+                <h2><a href="/vlc/" class="product">x264</a></h2>
+            <p>The award-winning MPEG4 H.264/AVC video encoder.
+            The number one encoder in industry!</p>
               </div>
             </li>
            <li>
               <div>
                 <p class="image">
-                  <img src="images/vlc64x64.png" alt="VLC cone logo"/>
+                  DVBlast!
                 </p>
-                <h2><a href="vlc" class="product">VLC media player</a></h2>
-                <p>One player to read them all. One player to stream them all. And its free.</p>
+                <h2><a href="projects/dvblast.html">DVBlast</a></h2>
+                <p>
+                BAM! Blasts your DVB device on Linux.
+                </p>
               </div>
             </li>
         </ul>
 
     </div>
     <div class="clearfix"> </div>
-<!--            <td>
-            <p style="float:left">
-                <img src="images/x264_64.png" alt="x264 logo"/>
-            </p>
-            <p>
-            <a href="developers/x264.html" class="product">x264</a>
-            </p>
-            <p>
-            The award-winning MPEG4 H.264/AVC video encoder.
-            The number one encoder in the movie pirating scene!
-            </p>
-            </td>    
-            <td>
-            <p style="float:left;width:64px">
-            <big><strong>VLMa</strong></big>
-            </p>
-            <p>
-            <a href="projects/vlma">VideoLAN Manager</a>
-            </p>
-            <p>
-            Manage broadcasting of several sattelite or DVB TV channels and other streams.
-            </p>
-            </td>
-            <td>
-            <p style="float:left;width:64px">
-            <big><strong>DVBlast</strong></big>
-            </p>
-            <p>
-            <a href="projects/dvblast.html">DVBlast</a>
-            </p>
-            <p>
-                BAM! Blasts your DVB device on Linux.
-            </p>-->
-
          </td></tr>
     </table>
 </div>

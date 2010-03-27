@@ -192,6 +192,10 @@ window.onresize = function(evt) {
 
 <td style="width: 17%; text-align: right;">
   <p>Follow VideoLAN on Twitter <a href="http://www.twitter.com/videolan"><img src="http://twitter-badges.s3.amazonaws.com/twitter-a.png" alt="Follow videolan on Twitter"/></a></p>
+  <hr />
+  <p>Read developer' blogs on <a href="http://planet.videolan.org">planet VideoLAN</a>.</p>
+  <hr />
+  <p>Join our fans on <a href="http://planet.videolan.org">Facebook</a>.</p>
 </td>
 </tr>
 </table>

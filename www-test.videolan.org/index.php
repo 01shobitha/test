@@ -55,8 +55,9 @@ window.onresize = function(evt) {
                 <h2>Contribute</h2>
                 <p>VideoLAN lives because the community is active. You too <a href="/contribute.html">can help!</a></p>
                 <h3>Donations</h3>
-                <div><div style="float: right;">
+                <div>
                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <div style="float: right;">
                     <input name="cmd" value="_xclick" type="hidden"/>
                     <input name="business" value="sponsor@videolan.org" type="hidden"/>
                     <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
@@ -65,8 +66,8 @@ window.onresize = function(evt) {
                     <input name="tax" value="0" type="hidden"/>
                     <input src="/images/btn_donate.gif" name="submit" alt="Donate money to VideoLAN via PayPal" type="image"/>
                     <span style="font-size: 10px;">€</span>
-                    </form>
-                </div>
+                    </div>
+                 </form>
                 <p>VideoLAN's funding originates from your donations. <a href="">Help us!</a></p>
              </div>
         </td></tr>

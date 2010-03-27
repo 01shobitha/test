@@ -167,7 +167,7 @@ $(function() {
 <!--End news items -->
 
 <!--Begin planet items -->
-<td style="width: 33%;">
+<td style="width: 40%;">
     <?php
       define('MAGPIE_OUTPUT_ENCODING', 'UTF-8');
       $rss = fetch_rss("http://planet.videolan.org/rss10.xml");
@@ -191,7 +191,7 @@ $(function() {
 <!--End planet items -->
 
 
-<td style="width: 17%; text-align: right;">
+<td style="width: 10%; text-align: right;">
   <p>Follow VideoLAN on Twitter <a href="http://www.twitter.com/videolan"><img src="http://twitter-badges.s3.amazonaws.com/twitter-a.png" alt="Follow videolan on Twitter"/></a></p>
   <hr />
   <p>Read developer' blogs on <a href="http://planet.videolan.org">planet VideoLAN</a>.</p>

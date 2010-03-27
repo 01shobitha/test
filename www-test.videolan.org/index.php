@@ -38,7 +38,7 @@ window.onresize = function(evt) {
                 <p style="max-width: 320px">
                     <b>VideoLAN</b> is a project and a non-profit organization, led and composed by volunteers,
                     that puts its efforts into developing and promoting
-                    <a href="http://www.gnu.org/philosophy/free-sw.html" target="_blank">free</a> multimedia solutions.
+                    <a href="http://www.gnu.org/philosophy/free-sw.html">free</a> multimedia solutions.
                     <span style="float: right; padding: 5px 10px 0 0;"><a href="/videolan/">More about VideoLAN</a>.</span>
                 </p>
             </td>
@@ -46,7 +46,7 @@ window.onresize = function(evt) {
                 <h2>Open Source</h2>
                 <p style="max-width: 320px">
                     Because you deserve to be able to trust your multimedia software and codecs, all <b>VideoLAN</b> projects are 
-                   <a href="http://www.gnu.org/philosophy/free-sw.html" target="_blank">free</a> and
+                   <a href="http://www.gnu.org/philosophy/free-sw.html">free</a> and
                    <a href="http://www.opensource.org/" target="_blank">open source</a>.
                     <span style="float: right; padding: 5px 10px 0 0;"><a href="/videolan/">More about Open Source</a>.</span>
                 </p>

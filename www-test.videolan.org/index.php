@@ -79,7 +79,8 @@ window.onresize = function(evt) {
   <tr><td>
      <img src="images/screenshots/vlc-linux.jpg" id="img_project" alt="screenshot" /></td>
      <td style="width:100%;">
-       <div style="border: 0px solid yellow; width: 100%;">
+
+       <div class="projects_car" style="border: 0px solid yellow; width: 100%;">
         <ul>
             <li style="display: inline;">
               <div style="float:left; ">
@@ -112,7 +113,6 @@ window.onresize = function(evt) {
 
     </div>
     <div class="clearfix"> </div>
-
 <!--            <td>
             <p style="float:left">
                 <img src="images/x264_64.png" alt="x264 logo"/>
@@ -148,8 +148,23 @@ window.onresize = function(evt) {
             </p>-->
 
          </td></tr>
+        <tr><td></td><td>
+            <div style="text-align: right;">
+                See <a href="/projects">all projects</a>.
+                <button class="prev"><<</button>
+                <button class="next">>></button>
+            </div>
+        </td></tr>
     </table>
 </div>
+<script type="text/javascript">
+$(function() {
+    $(".projects_car").jCarouselLite({
+        btnNext: ".next",
+        btnPrev: ".prev"
+    });
+});
+</script>
 
 <table class="fronttable">
 <tr>

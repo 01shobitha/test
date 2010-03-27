@@ -136,7 +136,7 @@ window.onresize = function(evt) {
 
 <table class="fronttable">
 <tr>
-  <td colspan="2">
+  <td >
     <h1 style="position:relative">News
     <span style="position:absolute;right:0px;font-size:10pt">
     <a href="videolan-news.rss">RSS</a>
@@ -157,7 +157,7 @@ window.onresize = function(evt) {
 <tr>
 
 <!--Begin news items -->
-<td colspan="2">
+<td>
 <?php
   shownews("full", 4); 
 ?>

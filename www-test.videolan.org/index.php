@@ -72,20 +72,21 @@ window.onresize = function(evt) {
 </div>
 
 <?php /* */ ?>
-<div id="mainbox">
+<div id="mainbox" style="overflow: hidden;">
 <table>
   <tr>
       <td style="width: 300px;"><img src="images/screenshots/vlc-linux.jpg" id="img_project" alt="screenshot" /></td> 
-      <td>        <div>
-              <span style="font-weight: bold; font-size: 2em;">Projects </span>
+      <td><div style=" border-bottom: 1px solid #CCC;">
+             <span style="font-weight: bold; color: #2D58AE; font-size: 3em;">Projects</span>
               See <a href="/projects">all projects</a>.
               <span style="float: right;"><button class="prev">&lt;&lt;</button>
               <button class="next">&gt;&gt;</button></span>
           </div>
-       <div class="projects_car" style="border: 0px solid green; margin: 0 auto;">
+       <div class="projects_car" style="position: relative;">
         <ul>
+            <div>
             <li>
-              <div>
+              <div style="border: 0px solid green;" >
                 <p class="image">
                   <img src="images/vlc64x64.png" alt="VLC cone logo"/>
                 </p>
@@ -117,12 +118,12 @@ window.onresize = function(evt) {
             <li>
             Test2
             </li>
-        </ul>
 
+            </div>
+        </ul>
     </div>
-    <div class="clearfix"> </div>
          </td></tr>
-    </table> 
+    </table>
 </div>
 <script type="text/javascript">
 $(function() {

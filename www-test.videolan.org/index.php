@@ -146,11 +146,11 @@ window.onresize = function(evt) {
     </span></h1>
   </td>
   <td colspan="2">
-    <h1 style="position:relative">Planet VideoLAN
+    <h1 style="position:relative">Planet
     <span style="position:absolute;right:0px;font-size:10pt">
     <a href="http://planet.videolan.org/rss10.xml">RSS</a>
     &bull; 
-    <a href="http://planet.videolan.org">Read all developer's posts</a>
+    <a href="http://planet.videolan.org">Read all posts</a>
     </span>
     </h1>
   </td>

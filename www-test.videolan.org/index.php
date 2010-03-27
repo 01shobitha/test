@@ -76,16 +76,15 @@ window.onresize = function(evt) {
 
 <div id="mainbox">
 <table>
-  <tr><td>
-     <img src="images/screenshots/vlc-linux.jpg" id="img_project" alt="screenshot" /></td>
-     <td style="width:100%;">
-          <div>
+  <tr>
+      <td><img src="images/screenshots/vlc-linux.jpg" id="img_project" alt="screenshot" /></td> 
+      <td>        <div>
               <span style="font-weight: bold; font-size: 2em;">Projects </span>
               See <a href="/projects">all projects</a>.
               <span style="float: right;"><button class="prev">&lt;&lt;</button>
               <button class="next">&gt;&gt;</button></span>
           </div>
-       <div class="projects_car" style="border: 0px solid yellow; width: 100%;">
+       <div class="projects_car" style="border: 1px solid green; margin: 0 auto;">
         <ul>
             <li>
               <div>
@@ -117,12 +116,15 @@ window.onresize = function(evt) {
                 </p>
               </div>
             </li>
+            <li>
+            Test2
+            </li>
         </ul>
 
     </div>
     <div class="clearfix"> </div>
          </td></tr>
-    </table>
+    </table> 
 </div>
 <script type="text/javascript">
 $(function() {

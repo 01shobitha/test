@@ -2,6 +2,7 @@
    $title = "VideoLAN, VLC: Free streaming and multimedia solutions for all OS!";
    $lang = "en";
    $menu = array( "project", "videolan" );
+   $additional_js = array("http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js","/js/jcarousellite_1.0.1.min.js");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");
@@ -81,7 +82,7 @@ window.onresize = function(evt) {
        <div style="border: 0px solid yellow; width: 100%;">
         <ul>
             <li style="display: inline;">
-              <div style="float: left; ">
+              <div style="float:left; ">
                 <p style="float:left">
                   <img src="images/vlc64x64.png" alt="VLC cone logo"/>
                 </p>

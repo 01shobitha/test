@@ -47,7 +47,7 @@ window.onresize = function(evt) {
                 <p style="max-width: 320px">
                     Because you deserve to be able to trust your multimedia software and codecs, all <b>VideoLAN</b> projects are 
                    <a href="http://www.gnu.org/philosophy/free-sw.html">free</a> and
-                   <a href="http://www.opensource.org/" target="_blank">open source</a>.
+                   <a href="http://www.opensource.org/">open source</a>.
                     <span style="float: right; padding: 5px 10px 0 0;"><a href="/videolan/">More about Open Source</a>.</span>
                 </p>
             </td>

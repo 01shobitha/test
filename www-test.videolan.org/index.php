@@ -79,7 +79,12 @@ window.onresize = function(evt) {
   <tr><td>
      <img src="images/screenshots/vlc-linux.jpg" id="img_project" alt="screenshot" /></td>
      <td style="width:100%;">
-
+          <div>
+              <span>Projects</span>
+              See <a href="/projects">all projects</a>.
+              <button class="prev"><<</button>
+              <button class="next">>></button>
+          </div>
        <div class="projects_car" style="border: 0px solid yellow; width: 100%;">
         <ul>
             <li style="display: inline;">
@@ -148,13 +153,6 @@ window.onresize = function(evt) {
             </p>-->
 
          </td></tr>
-        <tr><td></td><td>
-            <div style="text-align: right;">
-                See <a href="/projects">all projects</a>.
-                <button class="prev"><<</button>
-                <button class="next">>></button>
-            </div>
-        </td></tr>
     </table>
 </div>
 <script type="text/javascript">

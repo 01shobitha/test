@@ -76,8 +76,10 @@ window.onresize = function(evt) {
 </div>
 
 <div id="mainbox">
-    <div style="display: inline; width: 300px; float: left;"><img src=images/screenshots/vlc-linux.jpg /></div>
-    <div style="border: 1px solid yellow; width: 100%;">
+<table>
+  <tr><td>
+     <img src=images/screenshots/vlc-linux.jpg id="img_project" /></td>
+     <td style="width:100%;"><div style="border: 1px solid yellow; width: 100%;">
         <ul>
             <li style="display: inline;">
               <div style="float: left; ">
@@ -94,7 +96,7 @@ window.onresize = function(evt) {
         </ul>
 
     </div>
-    <div style="clear: both;"> </div>
+    <div class="clearfix"> </div>
 
 <!--            <td>
             <p style="float:left">
@@ -128,11 +130,10 @@ window.onresize = function(evt) {
             </p>
             <p>
                 BAM! Blasts your DVB device on Linux.
-            </p>
-            </td>
+            </p>-->
 
-        </tr>
-    </table>-->
+         </td></tr>
+    </table>
 </div>
 
 <table class="fronttable">

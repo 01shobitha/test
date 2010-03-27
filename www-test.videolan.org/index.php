@@ -33,25 +33,24 @@ window.onresize = function(evt) {
 <div id="project_statement">
     <h1 id="motto">VideoLAN: Free Multimedia Solutions</h1>
     <table class="fixed_table">
-        <tr><td>
+        <tr><td style="padding: 10px 15px;">
                 <h2>Volunteers Organization</h2>
-                <p style="max-width: 320px">
+                <p >
                     <b>VideoLAN</b> is a project and a non-profit organization, led and composed by volunteers,
                     that puts its efforts into developing and promoting
                     <a href="http://www.gnu.org/philosophy/free-sw.html">free</a> multimedia solutions.
                     <span style="float: right; padding: 5px 10px 0 0;"><a href="/videolan/">More about VideoLAN</a>.</span>
                 </p>
             </td>
-            <td>
+            <td style="padding: 10px 15px;">
                 <h2>Open Source</h2>
-                <p style="max-width: 320px">
                     Because you deserve to be able to trust your multimedia software and codecs, all <b>VideoLAN</b> projects are 
                    <a href="http://www.gnu.org/philosophy/free-sw.html">free</a> and
                    <a href="http://www.opensource.org/">open source</a>.
                     <span style="float: right; padding: 5px 10px 0 0;"><a href="/videolan/">More about Open Source</a>.</span>
                 </p>
             </td>
-            <td>
+            <td style="padding: 10px 15px;">
                 <h2>Contribute</h2>
                 <p>VideoLAN lives because the community is active. You too <a href="/contribute.html">can help!</a></p>
                 <h3>Donations</h3>

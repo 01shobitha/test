@@ -80,10 +80,10 @@ window.onresize = function(evt) {
      <img src="images/screenshots/vlc-linux.jpg" id="img_project" alt="screenshot" /></td>
      <td style="width:100%;">
           <div>
-              <span>Projects</span>
+              <span style="font-weight: bold; font-size: 2em;">Projects </span>
               See <a href="/projects">all projects</a>.
-              <button class="prev"><<</button>
-              <button class="next">>></button>
+              <span style="float: right;"><button class="prev"><<</button>
+              <button class="next">>></button></span>
           </div>
        <div class="projects_car" style="border: 0px solid yellow; width: 100%;">
         <ul>
@@ -128,7 +128,9 @@ window.onresize = function(evt) {
 $(function() {
     $(".projects_car").jCarouselLite({
         btnNext: ".next",
-        btnPrev: ".prev"
+        btnPrev: ".prev",
+        scroll: 3,
+        visible: 3
     });
 });
 </script>

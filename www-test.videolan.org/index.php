@@ -157,6 +157,7 @@ window.onresize = function(evt) {
   </td>
 </tr>
 <tr>
+
 <!--Begin news items -->
 <td colspan="2">
 <?php
@@ -164,13 +165,15 @@ window.onresize = function(evt) {
 ?>
 </td>
 <!--End news items -->
+
+<!--Begin planet items -->
 <td style="width: 33%;">
     <?php
       define('MAGPIE_OUTPUT_ENCODING', 'UTF-8');
       $rss = fetch_rss("http://planet.videolan.org/rss10.xml");
       $i = 0;
       $chars_per_entry = 240;
-      $entries_per_column = 3;
+      $entries_per_column = 4;
       $columns = 1;      
       foreach($rss->items as $item) {
         echo "<p>";
@@ -184,10 +187,13 @@ window.onresize = function(evt) {
         if($i%$entries_per_column==0) echo "</td><td>";
       }
     ?>
-  </td>
-  <td style="width: 17%">
-  test
-  </td>
+</td>
+<!--End planet items -->
+
+
+<td style="width: 17%; text-align: right;">
+  <p>Follow VideoLAN on Twitter <a href="http://www.twitter.com/videolan"><img src="http://twitter-badges.s3.amazonaws.com/twitter-a.png" alt="Follow videolan on Twitter"/></a></p>
+</td>
 </tr>
 </table>
 <?php footer('$Id: index.php **** 2009-12-02 altglass$'); ?>

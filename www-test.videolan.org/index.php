@@ -79,8 +79,6 @@ window.onresize = function(evt) {
       <td><div style=" border-bottom: 1px solid #CCC;">
              <span style="font-weight: bold; color: #2D58AE; font-size: 3em;">Projects</span>
               See <a href="/projects">all projects</a>.
-              <span style="float: right;"><button class="prev">&lt;&lt;</button>
-              <button class="next">&gt;&gt;</button></span>
           </div>
        <div class="projects_car" style="position: relative;">
         <ul>
@@ -90,7 +88,7 @@ window.onresize = function(evt) {
                 <p class="image">
                   <img src="images/vlc64x64.png" alt="VLC cone logo"/>
                 </p>
-                <h2><a href="vlc" class="product">VLC media player</a></h2>
+                <h2><a href="/vlc/" class="product">VLC</a></h2>
                 <p>One player to read them all. One player to stream them all. And its free.</p>
               </div>
             </li>
@@ -124,6 +122,8 @@ window.onresize = function(evt) {
     </div>
          </td></tr>
     </table>
+       <span style="float: right; "><button class="prev">&lt;&lt;</button>
+       <button class="next">&gt;&gt;</button></span
 </div>
 <script type="text/javascript">
 $(function() {

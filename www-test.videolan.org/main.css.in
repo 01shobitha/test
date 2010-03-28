@@ -1,6 +1,7 @@
 /* Auto generated. Do not edit. */
 /* Auto generated. Do not edit. */
 /* Auto generated. Do not edit. */
+/* Auto generated. Do not edit. */
 /************************ CSS Hacks *************************/
 
 /* Clearing floats easily, for all browsers */
@@ -15,7 +16,7 @@
 /***************** General Styles *********************/
 
 * { border: 0; margin: 0; padding: 0; }
-html, body { width: 100%; min-width: 750px; max-width: 1600px; margin: 0 auto; }
+html, body { width: 100%; min-width: 750px; }
 
 body { background: #fff url(images/bg.png) repeat-x top;
     font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -129,7 +130,8 @@ hr { border: 1px solid #2D58AE; }
 
 /******************* Main page content - Global ***********************/
 
-#maincontent {clear: both; text-align: left; min-width: 780px; }
+#maincontent {clear: both; text-align: left; min-width: 780px;
+max-width: 1400px; margin: 0 auto; }
 
 .fixed_table { table-layout: fixed; }
 .fixed_table td { padding: 10px 15px;}
@@ -584,6 +586,52 @@ ul.menu a:link {
 .panel-green a:hover, .panel-green a:active { color: #000; }
 
 
+#maincontent table td.am
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/am.png) left no-repeat; }
+#maincontent table td.au
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/au.png) left no-repeat; }
+#maincontent table td.be
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/be.png) left no-repeat; }
+#maincontent table td.br
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/br.png) left no-repeat; }
+#maincontent table td.ca
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/ca.png) left no-repeat; }
+#maincontent table td.ch
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/ch.png) left no-repeat; }
+#maincontent table td.cz
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/cz.png) left no-repeat; }
+#maincontent table td.de
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/de.png) left no-repeat; }
+#maincontent table td.es
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/es.png) left no-repeat; }
+#maincontent table td.fr
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/fr.png) left no-repeat; }
+#maincontent table td.gb
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/gb.png) left no-repeat; }
+#maincontent table td.gr
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/gr.png) left no-repeat; }
+#maincontent table td.ie
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/ie.png) left no-repeat; }
+#maincontent table td.nc
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/nc.png) left no-repeat; }
+#maincontent table td.nl
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/nl.png) left no-repeat; }
+#maincontent table td.nz
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/nz.png) left no-repeat; }
+#maincontent table td.pt
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/pt.png) left no-repeat; }
+#maincontent table td.ru
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/ru.png) left no-repeat; }
+#maincontent table td.se
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/se.png) left no-repeat; }
+#maincontent table td.tw
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/tw.png) left no-repeat; }
+#maincontent table td.ua
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/ua.png) left no-repeat; }
+#maincontent table td.us
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/us.png) left no-repeat; }
+#maincontent table td.za
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/za.png) left no-repeat; }
 #maincontent table td.am
  { padding-left:2em; background: url(http://images.videolan.org/images/flags/am.png) left no-repeat; }
 #maincontent table td.au

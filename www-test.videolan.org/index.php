@@ -157,12 +157,13 @@ window.onresize = function(evt) { adapt(); }
              <h2><a href="/projects/dvblast.html" class="product">DVBlast!</a></h2>
              <h3>Simple but powerfull DVB streamer</h3>
              <p>
-                DVBlast is a simple but powerful MPEG-2/TS demux and streaming application
+                DVBlast is a <b>simple</b> but powerful MPEG-2/TS demux and <b>streaming application</b>
                 outputting unicast and multicast UDP/RTP streams.
              </p>
              <p>
-                It supports IPv6, configuration reloading, MMI and dvb-s2, while staying light and simple.
+                It supports <b>IPv6</b>, configuration reloading, MMI and dvb-s2, while staying <b>light</b> and simple.
              </p>
+            <p><a href="/projects/dvblast.html"><b>Get it</b></a> now!</p>
           </div>
           <?php /*
           <div class ="project">

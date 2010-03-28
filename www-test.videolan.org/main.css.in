@@ -29,7 +29,7 @@ ul.bullets {
 }
 
 form { padding: 4px 0;}
-table { border: none; width: 100%; margin-bottom: 10px; border-collapse: collapse; }
+table { border: none; width: 100%; margin-bottom: 5px; border-collapse: collapse; }
 a, a:link, a:visited { color: #2D58AE; }
 a:hover, a:active { color: #000;}
 
@@ -303,7 +303,6 @@ a.en {
 
 /**** New front page ****/
 #mainbox {
-    margin-top: 10px;
     height: auto;
     background: #FFF bottom center repeat-x url('/images/frontpage/background.png');
   -moz-border-radius: 5px;

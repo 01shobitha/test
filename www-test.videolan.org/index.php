@@ -60,8 +60,8 @@ window.onresize = function(evt) { adapt(); }
                       <input src="/images/btn_donate.gif" name="submit" alt="Donate money to VideoLAN via PayPal" type="image"/>
                       <span style="font-size: 10px;">€</span>
                     </div>
+                <p>VideoLAN fundings originates from your donations. <a href="">Help us!</a></p>
                  </form>
-                <p>VideoLAN's funding originates from your donations. <a href="">Help us!</a></p>
              </div>
         </td></tr>
     </table>

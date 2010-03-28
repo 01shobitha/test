@@ -90,7 +90,7 @@ window.onresize = function(evt) { adapt(); }
       </td>
       <td>
         <div style="border-bottom: 1px solid #CCC;">
-             <span style="font-weight: bold; color: #2D58AE; font-size: 3em;">Projects</span>
+             <span style="font-weight: bold; color: #2D58AE; font-size: 26px;">Projects</span>
               See <a href="/projects">all projects</a>.
         </div>
         <div class="projects_car">

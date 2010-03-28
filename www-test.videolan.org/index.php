@@ -149,11 +149,12 @@ window.onresize = function(evt) { adapt(); }
             <p>The award-winning MPEG4 H.264/AVC video encoder.
             The number one encoder in industry!</p>
           </div>
+        </div>
      </td></tr>
     </table>
        <span style="float: right; ">Browse <a href="/projects">all projects</a>
        <button class="prev">&lt;&lt;</button>
-       <button class="next">&gt;&gt;</button></span
+       <button class="next">&gt;&gt;</button></span>
 <script type="text/javascript">
 $(function() {
     $(".projects_car").jCarouselLite({

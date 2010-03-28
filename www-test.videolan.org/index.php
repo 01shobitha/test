@@ -105,42 +105,41 @@ window.onresize = function(evt) { adapt(); }
                VCD, and various streaming protocols.</p>
                <div class="dl-button">
                  <script type="text/javascript"><!--
-            if ( <?php echo $is_win32; ?> ) { <?php DoDL("Win32"); ?> }
-            else if( <?php echo $is_beos; ?> ) { <?php DoDL("BeOS"); ?> }
-            else if( <?php echo $is_linux; ?> )
-            {
-              if( <?php echo $is_ubuntu; ?> ) { <?php DoDL("Ubuntu"); ?> }
-              else if( <?php echo $is_fedora; ?> ) { <?php DoDL("Fedora"); ?>}
-              else if( <?php echo $is_suse; ?> ) { <?php DoDL("Suse"); ?> }
-              else if( <?php echo $is_debian; ?> ) { <?php DoDL("Debian"); ?> }
-              else if( <?php echo $is_mandriva; ?> ) { <?php DoDL("Mandriva"); ?> }
-              else if( <?php echo $is_redhat; ?> ) { <?php DoDL("RedHat"); ?> }
-              else if( <?php echo $is_gentoo; ?> ) { <?php DoDL("Gentoo"); ?> }
-              else { <?php DoDL("Linux"); ?> }
-            }
-            else if( <?php echo $is_freebsd; ?> ) { <?php DoDL("FreeBSD"); ?> }
-            else if( <?php echo $is_osx; ?> )
-            {
-              if( <?php echo $is_ppc; ?> ) { <?php DoDL("OSX-PPC"); ?> }
-              else if( <?php echo $is_mactel; ?> ) { <?php DoDL("OSX-Intel");?>}
-              else { <?php DoDL("OSX-PPC"); DoDL("OSX-Intel"); ?> }
-            }
-            else if( navigator.platform.indexOf("Mac") != -1 )
-            {
-            document.writeln( "<p>Haha Mac OS 9 is dead! (if you\\\'re not using Mac OS 9 ... please write us a mail so we can fix this OS detection script)</p>'" );
-            }
-            else
-            {
-            <?php DoDL("Win32"); DoDL("OSX-PPC"); DoDL("OSX-Intel"); ?>
-            }
-            --></script>
-            <noscript>
-              <?php DoDL("Win32",0);DoDL("OSX-PPC",0);DoDL("OSX-Intel",0); ?>
-            </noscript>
-            </div>
-            <div class="dl-other"><a href="/vlc/">Other Systems</a></div>
+                if ( <?php echo $is_win32; ?> ) { <?php DoDL("Win32"); ?> }
+                else if( <?php echo $is_beos; ?> ) { <?php DoDL("BeOS"); ?> }
+                else if( <?php echo $is_linux; ?> )
+                {
+                  if( <?php echo $is_ubuntu; ?> ) { <?php DoDL("Ubuntu"); ?> }
+                  else if( <?php echo $is_fedora; ?> ) { <?php DoDL("Fedora"); ?>}
+                  else if( <?php echo $is_suse; ?> ) { <?php DoDL("Suse"); ?> }
+                  else if( <?php echo $is_debian; ?> ) { <?php DoDL("Debian"); ?> }
+                  else if( <?php echo $is_mandriva; ?> ) { <?php DoDL("Mandriva"); ?> }
+                  else if( <?php echo $is_redhat; ?> ) { <?php DoDL("RedHat"); ?> }
+                  else if( <?php echo $is_gentoo; ?> ) { <?php DoDL("Gentoo"); ?> }
+                  else { <?php DoDL("Linux"); ?> }
+                }
+                else if( <?php echo $is_freebsd; ?> ) { <?php DoDL("FreeBSD"); ?> }
+                else if( <?php echo $is_osx; ?> )
+                {
+                  if( <?php echo $is_ppc; ?> ) { <?php DoDL("OSX-PPC"); ?> }
+                  else if( <?php echo $is_mactel; ?> ) { <?php DoDL("OSX-Intel");?>}
+                  else { <?php DoDL("OSX-PPC"); DoDL("OSX-Intel"); ?> }
+                }
+                else if( navigator.platform.indexOf("Mac") != -1 )
+                {
+                document.writeln( "<p>Haha Mac OS 9 is dead! (if you\\\'re not using Mac OS 9 ... please write us a mail so we can fix this OS detection script)</p>'" );
+                }
+                else
+                {
+                <?php DoDL("Win32"); DoDL("OSX-PPC"); DoDL("OSX-Intel"); ?>
+                }
+                --></script>
+                <noscript>
+                  <?php DoDL("Win32",0);DoDL("OSX-PPC",0);DoDL("OSX-Intel",0); ?>
+                </noscript>
+              </div>
+              <div class="dl-other"><a href="/vlc/">Other Systems</a></div>
           </div>
-
           <div class ="project">
                 <p class="image">
                   <img src="/images/x264_64.png" alt="x264 logo"/>
@@ -150,13 +149,11 @@ window.onresize = function(evt) { adapt(); }
             <p>The award-winning MPEG4 H.264/AVC video encoder.
             The number one encoder in industry!</p>
           </div>
-    </div>
-         </td></tr>
+     </td></tr>
     </table>
        <span style="float: right; ">Browse <a href="/projects">all projects</a>
        <button class="prev">&lt;&lt;</button>
        <button class="next">&gt;&gt;</button></span
-</div>
 <script type="text/javascript">
 $(function() {
     $(".projects_car").jCarouselLite({
@@ -167,6 +164,7 @@ $(function() {
     });
 });
 </script>
+</div>
 
 <?php /* Titles */ ?>
 <table class="fronttable">

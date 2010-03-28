@@ -47,7 +47,7 @@ window.onresize = function(evt) { adapt(); }
             <td>
                 <h2>Contribute</h2>
                 <p>VideoLAN lives because the community is active. You too <a href="/contribute.html">can help!</a></p>
-                <h2>Donations</h2>
+                <h4>Donations</h4>
                 <div>
                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
                     <div style="float: right;">

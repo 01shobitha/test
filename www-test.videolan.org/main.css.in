@@ -1,4 +1,5 @@
 /* Auto generated. Do not edit. */
+/* Auto generated. Do not edit. */
 /************************ CSS Hacks *************************/
 
 /* Clearing floats easily, for all browsers */
@@ -15,15 +16,12 @@
 * { border: 0; margin: 0; padding: 0; }
 html, body { width: 100%; min-width: 750px; }
 
-body {     background: #fff url(images/bg.png) repeat-x top;
+body { background: #fff url(images/bg.png) repeat-x top;
     font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 12px; color: #333; text-align: center;
-}
+    font-size: 12px; color: #333; text-align: center; }
 
 img { border: none;}
-
 ol, ul { list-style-type: none; }
-
 ul.bullets {
     list-style-type: disc;
     padding-left: 2.5em; margin-bottom: 1em;
@@ -48,7 +46,7 @@ h1 {
 #right h1 { border: none; }
 
 h2 { color: #2D58AE; font-weight: bold; font-size: 18px;
-     padding: 12px 0 4px; line-height: 19px;
+     padding: 12px 0 4px 0; line-height: 19px;
 }
 
 h2 a, h2 a:link, h2 a:visited {
@@ -133,6 +131,7 @@ hr { border: 1px solid #2D58AE; }
 #maincontent {clear: both; text-align: left; min-width: 780px; }
 
 .fixed_table { table-layout: fixed; }
+.fixed_table td { padding: 10px 15px;}
 
 th img { padding: 3px 0; vertical-align: middle; }
 
@@ -160,43 +159,19 @@ td {
 
 /* DL */
 
-.dl-table {
-    margin-bottom: 5px;
-    background: #edf2fd;
+a.download { font-size: 20px; text-decoration: none; font-weight: bold; }
+.dl-button { background: #C1D3F0; border: 1px #4976D0 solid;
+padding: 5px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius:  5px;
 }
-
-.dl-table td {
-    vertical-align: middle !important;    
-    background: none !important;
-}
-
-a.download {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.dl-info {
-    font-size: 12px;
-}
-.dl-other {
-    font-size: 10px;
-    font-style: italic;
-}
-
-.more {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 11px;text-align: right;
-}
-
+.dl-info { font-size: 12px; }
+.dl-other { font-size: 10px; font-style: italic; float: right; }
 .os { padding: 0 0 32px 15px; line-height: 20px; }
 .otheros, .mirror { padding: 0 0 35px 15px; line-height: 20px; }
-
-.os li, .otheros li {
-    background: url(http://images.videolan.org/images/12-em-down.png) left no-repeat;
-    padding-left: 25px;
-}
+.os li, .otheros li { padding-left: 25px;
+    background: url(http://images.videolan.org/images/12-em-down.png) left no-repeat;}
 
 .os1 { float:left; }
 .os2 { float:left;margin-left:3em; }
@@ -329,7 +304,7 @@ a.en {
 #mainbox {
     margin-top: 10px;
     height: auto;
-    background: #FFF bottom center repeat-x url('images/frontpage/background.png');
+    background: #FFF bottom center repeat-x url('/images/frontpage/background.png');
   -moz-border-radius: 5px;
   -webkit-border-radius:  5px;
   border-radius: 5px;
@@ -371,6 +346,10 @@ a.en {
   background: url(images/frontpage/download.png) left center no-repeat;
 }
 
+#mainbox li {
+border: 0px solid red;
+
+}
 #mainbox li div {
    padding: 10px;
    max-width: 220px;
@@ -379,9 +358,12 @@ p.image { float: left; padding: 5px; }
 
 #mainbox p {
   line-height: 150%;
-  margin: 1em 0 1em 0;
+  margin: 0.5em 0 0.5em 0;
 }
+div.project { width: 250px; float: left; }
 
+.fronttable td { padding: 0 14px; }
+div.project h3 { font-size: 1.1em; color: #666;padding: 0; border: 0; }
 
 ul.menu {
   list-style-type: none;
@@ -602,6 +584,52 @@ ul.menu a:link {
 .panel-green a:hover, .panel-green a:active { color: #000; }
 
 
+#maincontent table td.am
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/am.png) left no-repeat; }
+#maincontent table td.au
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/au.png) left no-repeat; }
+#maincontent table td.be
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/be.png) left no-repeat; }
+#maincontent table td.br
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/br.png) left no-repeat; }
+#maincontent table td.ca
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/ca.png) left no-repeat; }
+#maincontent table td.ch
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/ch.png) left no-repeat; }
+#maincontent table td.cz
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/cz.png) left no-repeat; }
+#maincontent table td.de
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/de.png) left no-repeat; }
+#maincontent table td.es
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/es.png) left no-repeat; }
+#maincontent table td.fr
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/fr.png) left no-repeat; }
+#maincontent table td.gb
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/gb.png) left no-repeat; }
+#maincontent table td.gr
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/gr.png) left no-repeat; }
+#maincontent table td.ie
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/ie.png) left no-repeat; }
+#maincontent table td.nc
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/nc.png) left no-repeat; }
+#maincontent table td.nl
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/nl.png) left no-repeat; }
+#maincontent table td.nz
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/nz.png) left no-repeat; }
+#maincontent table td.pt
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/pt.png) left no-repeat; }
+#maincontent table td.ru
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/ru.png) left no-repeat; }
+#maincontent table td.se
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/se.png) left no-repeat; }
+#maincontent table td.tw
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/tw.png) left no-repeat; }
+#maincontent table td.ua
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/ua.png) left no-repeat; }
+#maincontent table td.us
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/us.png) left no-repeat; }
+#maincontent table td.za
+ { padding-left:2em; background: url(http://images.videolan.org/images/flags/za.png) left no-repeat; }
 #maincontent table td.am
  { padding-left:2em; background: url(http://images.videolan.org/images/flags/am.png) left no-repeat; }
 #maincontent table td.au

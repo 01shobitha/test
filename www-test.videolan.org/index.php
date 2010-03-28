@@ -146,9 +146,18 @@ window.onresize = function(evt) { adapt(); }
                 </p>
                 <h2><a href="/developers/x264.html" class="product">x264</a></h2>
                 <h3>Perfect Encoding</h3>
-            <p>The award-winning MPEG4 H.264/AVC video encoder.
-            The number one encoder in industry!</p>
+            <p>The award-winning MPEG4 H.264/AVC video encoder.<br />
+            The <b>number one</b> encoder in industry!</p>
+            <p>Learn <a href="/developers/x264.html">more</a> about it.</p>
           </div>
+          <?php /*
+          <div class ="project">
+             <p class="image">
+               <img src="/images/project.png" alt="project logo"/>
+             </p>
+             <h2><a href="/link" class="product">Project</a></h2>
+             <h3>Project Motto</h3>
+         </div> */ ?>
         </div>
      </td></tr>
     </table>

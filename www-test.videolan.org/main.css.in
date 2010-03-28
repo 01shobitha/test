@@ -2,6 +2,7 @@
 /* Auto generated. Do not edit. */
 /* Auto generated. Do not edit. */
 /* Auto generated. Do not edit. */
+/* Auto generated. Do not edit. */
 /************************ CSS Hacks *************************/
 
 /* Clearing floats easily, for all browsers */
@@ -163,7 +164,7 @@ td {
 /* DL */
 
 a.download { font-size: 20px; text-decoration: none; font-weight: bold; }
-.dl-button { margin: 0 auto; width: 70%; background: #C1D3F0; border: 1px #4976D0 solid;
+.dl-button { margin: 12px auto 0; width: 70%;  background: #C1D3F0; border: 1px #4976D0 solid;
 padding: 5px;
 border-radius: 5px;
 -moz-border-radius: 5px;
@@ -348,7 +349,7 @@ a.en {
   background: url(images/frontpage/download.png) left center no-repeat;
 }
 
-p.image { float: left; padding: 5px; }
+p.image { float: left; padding: 14px 5px 0px 5px; }
 
 #mainbox p {
   line-height: 150%;

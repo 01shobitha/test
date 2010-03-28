@@ -358,7 +358,7 @@ div.project { width: 220px; float: left; margin: 0 5px; }
 div.project-large { width: 300px; float: left; margin: 0 5px; }
 
 .fronttable td { padding: 0 14px; }
-div.project h3 { font-size: 1.1em; color: #666;padding: 0; border: 0; }
+div.project h3, div.project-large h3 { font-size: 1.1em; color: #666;padding: 0; border: 0; }
 
 ul.menu {
   list-style-type: none;

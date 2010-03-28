@@ -2,7 +2,7 @@
    $title = "VideoLAN, VLC: Free streaming and multimedia solutions for all OS!";
    $lang = "en";
    $menu = array( "project", "videolan" );
-   $additional_js = array("http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js","/js/jcarousellite_1.0.1.min.js");
+   $additional_js = array("http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js","/js/jcarousellite_1.0.1.js");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");
@@ -11,6 +11,7 @@
    if(isset($_GET['tab'])) $tab = $_GET['tab'];
 ?>
 
+<?php /* Specific IE hack */?>
 <!--[if IE]>
 <div id="ieShadow"></div>
 <script type="text/javascript" language="javascript">
@@ -19,18 +20,13 @@ function adapt() {
     document.getElementById("ieShadow").style.width = document.getElementById("mainbox").offsetWidth;
     document.getElementById("ieShadow").style.top = document.getElementById("mainbox").offsetTop-5;
     document.getElementById("ieShadow").style.left = document.getElementById("mainbox").offsetLeft-5;
-
 }
-window.onload = function() {
-    adapt();
-}
-window.onresize = function(evt) {
-    adapt();
-}
+window.onload = function() { adapt(); }
+window.onresize = function(evt) { adapt(); }
 </script>
 <![endif]-->
 
-<?php /* */ ?>
+<?php /* Motto statements */ ?>
 <div id="project_statement">
     <h1 id="motto">VideoLAN: Free Multimedia Solutions</h1>
     <table class="fixed_table">
@@ -71,36 +67,90 @@ window.onresize = function(evt) {
     </table>
 </div>
 
-<?php /* */ ?>
+<?php /* Projects */ ?>
 <div id="mainbox" style="overflow: hidden;">
 <table>
   <tr>
-      <td style="width: 300px;"><img src="images/screenshots/vlc-linux.jpg" id="img_project" alt="screenshot" /></td> 
-      <td><div style=" border-bottom: 1px solid #CCC;">
+      <td style="width: 300px;">
+         <script type="text/javascript"><!--
+            if( <?php echo $is_win32; ?> )
+            { <?php Screenshot( "Win32" ); ?> }
+            else if( <?php echo $is_beos; ?> )
+            { <?php Screenshot( "BeOS" ); ?> }
+            else if( <?php echo $is_linux; ?> )
+            { <?php Screenshot( "Linux" ); ?> }
+            else if( <?php echo $is_osx; ?> )
+            { <?php Screenshot( "OSX" ); ?> }
+            else
+            { <?php Screenshot("Win32" ); ?> }
+        --></script>
+        <noscript><p class="center">
+         <img src="http://images.videolan.org/images/screenshots/vlc-win32.jpg" alt="VLC on Windows" />
+       </p></noscript>
+      </td>
+      <td>
+        <div style="border-bottom: 1px solid #CCC;">
              <span style="font-weight: bold; color: #2D58AE; font-size: 3em;">Projects</span>
               See <a href="/projects">all projects</a>.
-          </div>
-       <div class="projects_car" style="position: relative;">
-        <ul>
-            <div>
-            <li>
-              <div style="border: 0px solid green;" >
-                <p class="image">
+        </div>
+        <div class="projects_car">
+          <div class ="project">
+            <p class="image">
                   <img src="images/vlc64x64.png" alt="VLC cone logo"/>
-                </p>
-                <h2><a href="/vlc/" class="product">VLC</a></h2>
-                <p>One player to read them all. One player to stream them all. And its free.</p>
-              </div>
-            </li>
-            <li>
-              <div>
+            </p>
+            <h2><a href="/vlc/" class="product">VLC</a></h2>
+            <h3>Plays It All!</h3>
+            <p>VLC is a <b>free</b> cross-platform multimedia <b>player</b> and <b>framework</b>,
+               that reads most audio and video files as well as DVD, Audio CD,
+               VCD, and various streaming protocols.</p>
+               <div class="dl-button">
+                 <script type="text/javascript"><!--
+            if ( <?php echo $is_win32; ?> ) { <?php DoDL("Win32"); ?> }
+            else if( <?php echo $is_beos; ?> ) { <?php DoDL("BeOS"); ?> }
+            else if( <?php echo $is_linux; ?> )
+            {
+              if( <?php echo $is_ubuntu; ?> ) { <?php DoDL("Ubuntu"); ?> }
+              else if( <?php echo $is_fedora; ?> ) { <?php DoDL("Fedora"); ?>}
+              else if( <?php echo $is_suse; ?> ) { <?php DoDL("Suse"); ?> }
+              else if( <?php echo $is_debian; ?> ) { <?php DoDL("Debian"); ?> }
+              else if( <?php echo $is_mandriva; ?> ) { <?php DoDL("Mandriva"); ?> }
+              else if( <?php echo $is_redhat; ?> ) { <?php DoDL("RedHat"); ?> }
+              else if( <?php echo $is_gentoo; ?> ) { <?php DoDL("Gentoo"); ?> }
+              else { <?php DoDL("Linux"); ?> }
+            }
+            else if( <?php echo $is_freebsd; ?> ) { <?php DoDL("FreeBSD"); ?> }
+            else if( <?php echo $is_osx; ?> )
+            {
+              if( <?php echo $is_ppc; ?> ) { <?php DoDL("OSX-PPC"); ?> }
+              else if( <?php echo $is_mactel; ?> ) { <?php DoDL("OSX-Intel");?>}
+              else { <?php DoDL("OSX-PPC"); DoDL("OSX-Intel"); ?> }
+            }
+            else if( navigator.platform.indexOf("Mac") != -1 )
+            {
+            document.writeln( "<p>Haha Mac OS 9 is dead! (if you\\\'re not using Mac OS 9 ... please write us a mail so we can fix this OS detection script)</p>'" );
+            }
+            else
+            {
+            <?php DoDL("Win32"); DoDL("OSX-PPC"); DoDL("OSX-Intel"); ?>
+            }
+            --></script>
+            <noscript>
+              <?php DoDL("Win32",0);DoDL("OSX-PPC",0);DoDL("OSX-Intel",0); ?>
+            </noscript>
+            </div>
+            <div class="dl-other"><a href="/vlc/">Other Systems</a></div>
+          </div>
+
+          <div class ="project">
                 <p class="image">
                   <img src="/images/x264_64.png" alt="x264 logo"/>
                 </p>
-                <h2><a href="/vlc/" class="product">x264</a></h2>
+                <h2><a href="/developers/x264.html" class="product">x264</a></h2>
+                <h3>Perfect Encoding</h3>
             <p>The award-winning MPEG4 H.264/AVC video encoder.
             The number one encoder in industry!</p>
-              </div>
+          </div>
+          <!--></div>
             </li>
            <li>
               <div>
@@ -117,8 +167,7 @@ window.onresize = function(evt) {
             Test2
             </li>
 
-            </div>
-        </ul>
+        </ul>-->
     </div>
          </td></tr>
     </table>
@@ -137,7 +186,7 @@ $(function() {
 });
 </script>
 
-<?php /* */ ?>
+<?php /* Titles */ ?>
 <table class="fronttable">
 <tr>
   <td >
@@ -161,14 +210,14 @@ $(function() {
 <tr>
 
 <!--Begin news items -->
+<?php /* Begin planet items */ ?>
 <td>
 <?php
   shownews("full", 4); 
 ?>
 </td>
-<!--End news items -->
 
-<!--Begin planet items -->
+<?php /* Begin planet items */ ?>
 <td style="width: 40%;">
     <?php
       define('MAGPIE_OUTPUT_ENCODING', 'UTF-8');
@@ -190,14 +239,14 @@ $(function() {
       }
     ?>
 </td>
-<!--End planet items -->
 
-
+<?php /* Social and other BS */ ?>
 <td style="width: 10%; text-align: right;">
+<h3>Twitter</h3>
   <p>Follow VideoLAN on Twitter <a href="http://www.twitter.com/videolan"><img src="http://twitter-badges.s3.amazonaws.com/twitter-a.png" alt="Follow videolan on Twitter"/></a></p>
-  <hr />
+<h3>Planet</h3>
   <p>Read developer' blogs on <a href="http://planet.videolan.org">planet VideoLAN</a>.</p>
-  <hr />
+<h3>Facebook</h3>
   <p>Join our fans on <a href="http://planet.videolan.org">Facebook</a>.</p>
 </td>
 </tr>

@@ -94,7 +94,7 @@ window.onresize = function(evt) { adapt(); }
               See <a href="/projects">all projects</a>.
         </div>
         <div class="projects_car">
-          <div class ="project">
+          <div class ="project-large">
             <p class="image">
                   <img src="images/vlc64x64.png" alt="VLC cone logo"/>
             </p>

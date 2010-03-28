@@ -125,7 +125,7 @@ hr { border: 1px solid #2D58AE; }
     color: #2E3A6B;    text-decoration: underline;
 }
 
-#pagecontainer { min-width: 780px; width: 86%; height: 100%; margin: 0 auto; }
+#pagecontainer { min-width: 780px; width: 92%; height: 100%; margin: 0 auto; }
 
 
 /******************* Main page content - Global ***********************/
@@ -348,21 +348,14 @@ a.en {
   background: url(images/frontpage/download.png) left center no-repeat;
 }
 
-#mainbox li {
-border: 0px solid red;
-
-}
-#mainbox li div {
-   padding: 10px;
-   max-width: 220px;
-}
 p.image { float: left; padding: 5px; }
 
 #mainbox p {
   line-height: 150%;
   margin: 0.5em 0 0.5em 0;
 }
-div.project { width: 240px; float: left; margin: 0 5px; }
+div.project { width: 220px; float: left; margin: 0 5px; }
+div.project-large { width: 300px; float: left; margin: 0 5px; }
 
 .fronttable td { padding: 0 14px; }
 div.project h3 { font-size: 1.1em; color: #666;padding: 0; border: 0; }

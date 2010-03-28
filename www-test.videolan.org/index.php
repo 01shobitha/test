@@ -150,24 +150,6 @@ window.onresize = function(evt) { adapt(); }
             <p>The award-winning MPEG4 H.264/AVC video encoder.
             The number one encoder in industry!</p>
           </div>
-          <!--></div>
-            </li>
-           <li>
-              <div>
-                <p class="image">
-                  DVBlast!
-                </p>
-                <h2><a href="projects/dvblast.html">DVBlast</a></h2>
-                <p>
-                BAM! Blasts your DVB device on Linux.
-                </p>
-              </div>
-            </li>
-            <li>
-            Test2
-            </li>
-
-        </ul>-->
     </div>
          </td></tr>
     </table>

@@ -61,15 +61,15 @@ function DoDL( $os, $with_js=1 )
 
     if( $with_js == 1 )
     {
-        echo "document.writeln( '<a class=\"download\" " ;
+        echo "document.writeln( '<div><a class=\"download\" " ;
         echo "href=\"".$dl[$os][0]."\">Download VLC ".$version;
-        echo "</a><br /><span class=\"dl-info\">(".$dl[$os][1].")</span>');\n";
+        echo "</a></div><br /><span class=\"dl-info\">(".$dl[$os][1].")</span>');\n";
     }
     else
     {
-        echo "<a class=\"download\" " ;
+        echo "<div><a class=\"download\" " ;
         echo "href=\"".$dl[$os][0]."\">Download VLC";
-        echo "</a><br /><span class=\"dl-info\">(".$dl[$os][1].")</span>\n";
+        echo "</a></div><br /><span class=\"dl-info\">(".$dl[$os][1].")</span>\n";
     }
 }
 ?>

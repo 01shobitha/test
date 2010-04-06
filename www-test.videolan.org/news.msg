@@ -1,6 +1,10 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|01 Apr 2010|VideoLAN acquired by RealNetworks|VideoLAN is proud to announce that it has been acquired by <a href="http://www.real.com">RealNetworks</a>, the world's premiere provider of Internet media delivery tools.  RealNetworks will be working with VideoLAN over the next few months to leverage the powerful Real toolset to improve VLC media player and other VideoLAN software.  Accordingly, with the introduction of Real's superior solutions, we will be dropping all other encoders from the streaming component of VLC media player.  Additionally, to better serve our customers, we will be introducing a new VLC media player Pro application, with cutting edge streaming capabilities and the ability to play back and edit all Real video and audio formats.  This new application will be available for the low low price of $30/€30.  We hope you enjoy the new VLC media player! <br />
+<b>April Fools' !</b>
+
+
 |22 Mar 2010|Outdated security issue|So-called "Security" teams are spreading wrong information about an "unpatched" security issue in VLC.<br /><a href="http://xforce.iss.net/xforce/xfdb/55717">ISS</a> and <a href="http://www.securityfocus.com/bid/37832">SecurityFocus</a> are presenting a security issue in versions of VLC, that are, in fact, more than 2 years old. This issue has been <a href="/security/">fixed</a> since a long time and since <strong>20 versions</strong> of VLC.</p><p>Of course, the latest version of VLC <strong>isn't affected</strong>.
 
 

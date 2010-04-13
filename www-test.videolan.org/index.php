@@ -50,17 +50,17 @@ window.onresize = function(evt) { adapt(); }
                 <p>All fundings of the VideoLAN organization come from your donations. So please help!</p>
 				<div>
                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                    <div>
-                      <input name="cmd" value="_xclick" type="hidden"/>
-                      <input name="business" value="sponsor@videolan.org" type="hidden"/>
-                      <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
-                      <input name="no_note" value="0" type="hidden"/>
-                      <input name="currency_code" value="EUR" type="hidden"/>
-                      <input name="tax" value="0" type="hidden"/>
-                      <input name="submit" type="submit" alt="Donate money to VideoLAN via PayPal" value="Donate &euro;" class="grey-button" style="height:24px;font-weight:bold;font-size:10pt"/>
-                  </div>
-                 </form>
-             </div>
+						<div>
+						  <input name="cmd" value="_xclick" type="hidden"/>
+						  <input name="business" value="sponsor@videolan.org" type="hidden"/>
+						  <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
+						  <input name="no_note" value="0" type="hidden"/>
+						  <input name="currency_code" value="EUR" type="hidden"/>
+						  <input name="tax" value="0" type="hidden"/>
+						  <input name="submit" type="submit" alt="Donate money to VideoLAN via PayPal" value="Donate via PayPal(&euro;)" class="grey-button" style="height:24px;font-weight:bold;font-size:10pt"/>
+						</div>
+					</form>
+				</div>				
         </td></tr>
     </table>
 </div>
@@ -241,7 +241,7 @@ $(function() {
 	Social media
 	<span class="header-buttons">
 		<a href="http://www.twitter.com/videolan" target="_blank">twitter</a>
-		<a href="http://www.facebook.com/videolan" target="_blank">facebook</a>
+		<a href="http://www.facebook.com/vlc.media.player" target="_blank">facebook</a>
 	</span>
 	</h1>
 	<?php
@@ -255,7 +255,7 @@ $(function() {
 		echo date("Y-m-d h:i",strtotime($item['pubdate']));
 		echo "</p>";
         echo "<p style=\"border-bottom: 1px dashed #CCC;padding-bottom:5px;margin-bottom:5px\">";
-        echo str_replace("videolan:", "<b>videolan:</b>", $item['title']);
+        echo preg_replace('^(http://\S+)^is', '<a href="$1">$1</a>', str_replace("videolan:", "<b>videolan:</b>", $item['title']));
         echo "</p>";
         $i++;
         if($i>=$columns*$entries_per_column) break;

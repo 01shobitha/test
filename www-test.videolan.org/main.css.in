@@ -34,7 +34,7 @@ h1 {
     font-family: Helvetica, Verdana, Arial, sans-serif;
     /*font-family: Cambria, Fontin, serif;*/
     font-weight: bold;
-    color: #525252;
+    color: #333;
     font-size: 26px;
     padding: 35px 0 12px;
     line-height: 18px;
@@ -51,7 +51,6 @@ h1 {
 .header-buttons a, .grey-button{
 	background: #CCC;
 	color: #FFF;
-	height:16px;
 	padding: 2px !important;
 	margin: 0px !important;
 	text-decoration: none;
@@ -67,7 +66,7 @@ h1 {
 
 h2 { 
 	font-family: Helvetica, Verdana, Arial, sans-serif;
-	color: #525252;
+	color: #333;
 	font-weight: bold;
 	font-size: 18px;
     padding: 12px 0 4px 0;
@@ -83,7 +82,7 @@ h2 a:hover {color: #F60;}
 
 h3 { 
 	font-family: Helvetica, Verdana, Arial, sans-serif;
-    color: #525252;
+    color: #333;
 	font-weight: bold;
 	font-size: 15px;
     padding: 10px 0 4px;

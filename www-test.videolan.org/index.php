@@ -7,7 +7,6 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/magpierss/rss_fetch.inc");
-   include($_SERVER["DOCUMENT_ROOT"]."/include/twitter.php");
    $tab = "vlc";
    if(isset($_GET['tab'])) $tab = $_GET['tab'];
 ?>
@@ -254,11 +253,11 @@ $(function() {
       $entries_per_column = 4;
       $columns = 1;      
       foreach($rss->items as $item) {
+		echo "<p class=\"date\">";
+		echo date("Y-m-d H:i",strtotime($item['pubDate']));
+		echo "</p>";
         echo "<p style=\"border-bottom: 1px dashed #CCC;padding-bottom:5px;margin-bottom:5px\">";
         echo str_replace("videolan:", "<b>videolan:</b>", $item['title']);
-		echo "<br/><span style=\"color:#CCC;font-size:8pt\">";
-		echo date("Y-m-d H:i",strtotime($item['pubTime']));
-		echo "</span>";
         echo "</p>";
         $i++;
         if($i>=$columns*$entries_per_column) break;

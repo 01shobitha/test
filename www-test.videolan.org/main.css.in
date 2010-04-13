@@ -58,7 +58,7 @@ h1 {
 	-moz-border-radius: 5px;
 	-khtml-border-radius: 5px;
 	border-radius: 5px;
-	border: 1px solid #AAA;
+	border: 1px solid #BBB;
 }
 
 h2 { 

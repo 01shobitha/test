@@ -52,19 +52,13 @@ h1 {
 	background: #CCC;
 	color: #FFF;
 	height:16px;
-	padding: 0px !important;
+	padding: 2px !important;
 	margin: 0px !important;
-}
-.header-buttons a:before {
-	width: 6px;
-	height: 16px;
-	background-image: url("/images/header-button-left.png");
-}
-
-.header-buttons a:after {
-	width: 6px;
-	height: 16px;
-	background-image: url("/images/header-button-right.png");
+	text-decoration: none;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #AAA;
 }
 
 h2 { 

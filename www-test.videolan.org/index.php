@@ -248,7 +248,22 @@ $(function() {
 	</span>
 	</h1>
 	<?php
-		get_tweets("videolan",5);
+	  $rss = fetch_rss("http://twitter.com/statuses/user_timeline/88776463.rss");
+      $i = 0;
+      $chars_per_entry = 240;
+      $entries_per_column = 4;
+      $columns = 1;      
+      foreach($rss->items as $item) {
+        echo "<p style=\"border-bottom: 1px dashed #CCC;padding-bottom:5px;margin-bottom:5px\">";
+        echo str_replace("videolan:", "<b>videolan:</b">, $item['title']);
+		echo "<br/><span style=\"color:#CCC;font-size:8pt\">";
+		date("Y-m-d H:i",strtotime($item['pubTime']));
+		echo "</span>";
+        echo "</p>";
+        $i++;
+        if($i>=$columns*$entries_per_column) break;
+        if($i%$entries_per_column==0) echo "</td><td>";
+      }
 	?>
 </td>
 

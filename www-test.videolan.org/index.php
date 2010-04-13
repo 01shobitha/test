@@ -68,6 +68,7 @@ window.onresize = function(evt) { adapt(); }
 </div>
 
 <?php /* Projects */ ?>
+<h1>VideoLAN Projects</h1>
 <div id="mainbox" style="overflow: hidden;">
 <table>
   <tr>
@@ -85,14 +86,10 @@ window.onresize = function(evt) { adapt(); }
             { <?php Screenshot("Win32" ); ?> }
         --></script>
         <noscript><p class="center">
-         <img src="http://images.videolan.org/images/screenshots/vlc-win32.jpg" alt="VLC on Windows" />
+         <img src="http://images.videolan.org/images/screenshots/vlc-win32.jpg" alt="VLC on Windows"/>
        </p></noscript>
       </td>
       <td>
-        <div style="border-bottom: 1px solid #CCC;">
-             <span style="font-weight: bold; color: #2D58AE; font-size: 26px;">Projects</span>
-              See <a href="/projects">all projects</a>.
-        </div>
         <div class="projects_car">
           <div class ="project-large">
             <p class="image">

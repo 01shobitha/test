@@ -57,7 +57,7 @@ window.onresize = function(evt) { adapt(); }
                       <input name="no_note" value="0" type="hidden"/>
                       <input name="currency_code" value="EUR" type="hidden"/>
                       <input name="tax" value="0" type="hidden"/>
-                      <input name="submit" type="submit" alt="Donate money to VideoLAN via PayPal" value="Donate &euro;" class="grey-button"/>
+                      <input name="submit" type="submit" alt="Donate money to VideoLAN via PayPal" value="Donate &euro;" class="grey-button" style="height:24px;font-weight:bold;font-size:10pt"/>
                   </div>
                  </form>
              </div>
@@ -252,7 +252,7 @@ $(function() {
       $columns = 1;      
       foreach($rss->items as $item) {
 		echo "<p class=\"date\">";
-		echo $date("Y-m-d h:i",strtotime($item['pubdate']));
+		echo date("Y-m-d h:i",strtotime($item['pubdate']));
 		echo "</p>";
         echo "<p style=\"border-bottom: 1px dashed #CCC;padding-bottom:5px;margin-bottom:5px\">";
         echo str_replace("videolan:", "<b>videolan:</b>", $item['title']);

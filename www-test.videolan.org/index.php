@@ -47,19 +47,19 @@ window.onresize = function(evt) { adapt(); }
             <td>
                 <h2>Contribute</h2>
                 <p>VideoLAN lives because the community is active. You too <a href="/contribute.html">can help!</a></p>
-                <h4>Donations</h4>
-                <div>
+                <p>All fundings of the VideoLAN organization come from your donations. So please help!</p>
+				<div>
                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                    <div style="float: right;">
+                    <div>
                       <input name="cmd" value="_xclick" type="hidden"/>
                       <input name="business" value="sponsor@videolan.org" type="hidden"/>
                       <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
                       <input name="no_note" value="0" type="hidden"/>
                       <input name="currency_code" value="EUR" type="hidden"/>
                       <input name="tax" value="0" type="hidden"/>
-                      <input src="/images/btn_donate.gif" name="submit" alt="Donate money to VideoLAN via PayPal" type="image"/>
+                      <input name="submit" type="submit" alt="Donate money to VideoLAN via PayPal" value="Donate &euro" class="grey-button"/>
                       <span style="font-size: 10px;">€</span>
-                    </div>
+                  </div>
                 <p>VideoLAN fundings originates from your donations. <a href="">Help us!</a></p>
                  </form>
              </div>

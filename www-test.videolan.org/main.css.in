@@ -48,7 +48,7 @@ h1 {
 	position:absolute;right:0px;font-size:10pt;
 }
 
-.header-buttons a {
+.header-buttons a, .grey-button{
 	background: #CCC;
 	color: #FFF;
 	height:16px;
@@ -61,7 +61,7 @@ h1 {
 	border: 1px solid #BBB;
 }
 
-.header-buttons a:hover {
+.header-buttons a:hover, .grey-button:hover {
 	background: #BBB;
 }
 

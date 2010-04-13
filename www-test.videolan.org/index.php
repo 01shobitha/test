@@ -195,14 +195,14 @@ $(function() {
 <tr>
   <td>
     <h1 style="position:relative">News
-    <span class="header-tools">
+    <span class="header-buttons">
 		<a href="videolan-news.rss">rss</a>
 		<a href="news.html">read all news</a>
     </span></h1>
   </td>
   <td colspan="2">
     <h1 style="position:relative">Planet VideoLAN
-    <span style="position:absolute;right:0px;font-size:10pt">
+    <span class="header-buttons">
 		<a href="http://planet.videolan.org/rss10.xml">rss</a>
 		<a href="http://planet.videolan.org">read all posts</a>
     </span>
@@ -242,7 +242,7 @@ $(function() {
 	<?php /* Social and other BS */ ?>
 	<h1 style="position:relative">
 	Social media
-	<span style="position:absolute;right:0px;font-size:10pt">
+	<span class="header-buttons">
 		<a href="http://www.twitter.com/videolan" target="_blank">twitter</a>
 		<a href="http://www.facebook.com/videolan" target="_blank">facebook</a>
 	</span>

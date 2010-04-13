@@ -7,15 +7,16 @@ Version: 1.0.0
 
 /** Method to make twitter api call for the users timeline in XML */ 
 function twitter_status($twitter_id) {	
-	$c = curl_init();
+	/*$c = curl_init();
 	curl_setopt($c, CURLOPT_URL, "http://twitter.com/statuses/user_timeline/$twitter_id.xml");
 	curl_setopt($c, CURLOPT_RETURNTRANSFER, 1);
 	curl_setopt($c, CURLOPT_CONNECTTIMEOUT, 3);
 	curl_setopt($c, CURLOPT_TIMEOUT, 5);
 	$response = curl_exec($c);
-	$responseInfo = curl_getinfo($c);
-	curl_close($c);
-	if (intval($responseInfo['http_code']) == 200) {
+	$responseInfo = curl_getinfo($c);*/
+	$response = file_get_contents("http://twitter.com/statuses/user_timeline/$twitter_id.xml");
+	//curl_close($c);
+	if ($response!=null/*intval($responseInfo['http_code']) == 200*/) {
 		if (class_exists('SimpleXMLElement')) {
 			$xml = new SimpleXMLElement($response);
 			return $xml;

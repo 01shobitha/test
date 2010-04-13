@@ -44,6 +44,29 @@ h1 {
 
 #right h1 { border: none; }
 
+.header-buttons {
+	position:absolute;right:0px;font-size:10pt;
+}
+
+.header-buttons a {
+	background: #CCC;
+	color: #FFF;
+	height:16px;
+	padding: 0px !important;
+	margin: 0px !important;
+}
+.header-buttons a:before {
+	width: 6px;
+	height: 16px;
+	background-image: url("/images/header-button-left.png");
+}
+
+.header-buttons a:after {
+	width: 6px;
+	height: 16px;
+	background-image: url("/images/header-button-right.png");
+}
+
 h2 { 
 	font-family: Helvetica, Verdana, Arial, sans-serif;
 	color: #525252;

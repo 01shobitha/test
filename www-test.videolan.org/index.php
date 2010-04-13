@@ -1,12 +1,13 @@
 <?php
    $title = "VideoLAN, VLC: Free streaming and multimedia solutions for all OS!";
    $lang = "en";
-   $menu = array( "project", "videolan" );
+   $menu = array( "project", "home" );
    $additional_js = array("http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js","/js/jcarousellite_1.0.1.js");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/magpierss/rss_fetch.inc");
+   include($_SERVER["DOCUMENT_ROOT"]."/include/twitter.php");
    $tab = "vlc";
    if(isset($_GET['tab'])) $tab = $_GET['tab'];
 ?>
@@ -192,28 +193,25 @@ $(function() {
 <?php /* Titles */ ?>
 <table class="fronttable">
 <tr>
-  <td >
+  <td>
     <h1 style="position:relative">News
-    <span style="position:absolute;right:0px;font-size:10pt">
-    <a href="videolan-news.rss">RSS</a>
-    &bull; 
-    <a href="news.html">Read all news</a>
+    <span class="header-tools">
+		<a href="videolan-news.rss">rss</a>
+		<a href="news.html">read all news</a>
     </span></h1>
   </td>
   <td colspan="2">
-    <h1 style="position:relative">Planet
+    <h1 style="position:relative">Planet VideoLAN
     <span style="position:absolute;right:0px;font-size:10pt">
-    <a href="http://planet.videolan.org/rss10.xml">RSS</a>
-    &bull; 
-    <a href="http://planet.videolan.org">Read all posts</a>
+		<a href="http://planet.videolan.org/rss10.xml">rss</a>
+		<a href="http://planet.videolan.org">read all posts</a>
     </span>
     </h1>
   </td>
 </tr>
 <tr>
 
-<!--Begin news items -->
-<?php /* Begin planet items */ ?>
+<?php /* Begin news items */ ?>
 <td>
 <?php
   shownews("full", 4); 
@@ -241,17 +239,21 @@ $(function() {
         if($i%$entries_per_column==0) echo "</td><td>";
       }
     ?>
+	<?php /* Social and other BS */ ?>
+	<h1 style="position:relative">
+	Social media
+	<span style="position:absolute;right:0px;font-size:10pt">
+		<a href="http://www.twitter.com/videolan" target="_blank">twitter</a>
+		<a href="http://www.facebook.com/videolan" target="_blank">facebook</a>
+	</span>
+	</h1>
+	<?php
+		get_tweets("videolan",5);
+	?>
 </td>
 
-<?php /* Social and other BS */ ?>
-<td style="width: 10%; text-align: right;">
-<h3>Twitter</h3>
-  <p>Follow VideoLAN on Twitter <a href="http://www.twitter.com/videolan"><img src="http://twitter-badges.s3.amazonaws.com/twitter-a.png" alt="Follow videolan on Twitter"/></a></p>
-<h3>Planet</h3>
-  <p>Read developer' blogs on <a href="http://planet.videolan.org">planet VideoLAN</a>.</p>
-<h3>Facebook</h3>
-  <p>Join our fans on <a href="http://planet.videolan.org">Facebook</a>.</p>
-</td>
+
+
 </tr>
 </table>
 <?php footer('$Id: index.php **** 2009-12-02 altglass$'); ?>

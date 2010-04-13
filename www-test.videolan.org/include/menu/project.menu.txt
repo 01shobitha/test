@@ -1,3 +1,4 @@
+home;Home;/index.html
 news;News;/news.html
 videolan;Organisation;/videolan/
 team;Team;/videolan/team/

@@ -254,7 +254,7 @@ $(function() {
       $columns = 1;      
       foreach($rss->items as $item) {
 		echo "<p class=\"date\">";
-		echo date("Y-m-d H:i",strtotime($item['pubDate']));
+		echo $item['pubDate'];
 		echo "</p>";
         echo "<p style=\"border-bottom: 1px dashed #CCC;padding-bottom:5px;margin-bottom:5px\">";
         echo str_replace("videolan:", "<b>videolan:</b>", $item['title']);

@@ -48,19 +48,30 @@ window.onresize = function(evt) { adapt(); }
                 <h2>Contribute</h2>
                 <p>A community makes VideoLAN. You too <a href="/contribute.html">can help!</a></p>
                 <p>All funds come from your donations. So please donate!</p>
-				<div>
-                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-						<div>
-						  <input name="cmd" value="_xclick" type="hidden"/>
-						  <input name="business" value="sponsor@videolan.org" type="hidden"/>
-						  <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
-						  <input name="no_note" value="0" type="hidden"/>
-						  <input name="currency_code" value="EUR" type="hidden"/>
-						  <input name="tax" value="0" type="hidden"/>
-						  <input name="submit" type="submit" alt="Donate money to VideoLAN via PayPal" value="Donate via PayPal(&euro;)" class="grey-button" style="height:24px;font-weight:bold;font-size:10pt"/>
-						</div>
-					</form>
-				</div>				
+                <div style="float: right; padding-top: 10px;"><span  style="height:20px;font-weight:bold;font-size:9pt;height:100%;">Donate with Paypal:</span>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="display: inline;">
+                        <span>
+                          <input name="cmd" value="_xclick" type="hidden"/>
+                          <input name="business" value="sponsor@videolan.org" type="hidden"/>
+                          <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
+                          <input name="no_note" value="0" type="hidden"/>
+                          <input name="currency_code" value="EUR" type="hidden"/>
+                          <input name="tax" value="0" type="hidden"/>
+                          <input name="submit" type="submit" alt="Donate money to VideoLAN via PayPal" value="&euro;" class="grey-button" style="height:24px;font-weight:bold;font-size:10pt; height: 100%;"/>
+                        </span>
+                    </form>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="display: inline;">
+                        <span>
+                          <input name="cmd" value="_xclick" type="hidden"/>
+                          <input name="business" value="sponsor@videolan.org" type="hidden"/>
+                          <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
+                          <input name="no_note" value="0" type="hidden"/>
+                          <input name="currency_code" value="US" type="hidden"/>
+                          <input name="tax" value="0" type="hidden"/>
+                          <input name="submit" type="submit" alt="Donate money to VideoLAN via PayPal" value="$" class="grey-button" style="height:24px;font-weight:bold;font-size:10pt;height: 100%;"/>
+                        </span>
+                    </form>
+                </div>
         </td></tr>
     </table>
 </div>
@@ -193,15 +204,15 @@ $(function() {
   <td>
     <h1 style="position:relative">News
     <span class="header-buttons">
-		<a href="videolan-news.rss">rss</a>
-		<a href="news.html">read all news</a>
+        <a href="videolan-news.rss">rss</a>
+        <a href="news.html">read all news</a>
     </span></h1>
   </td>
   <td colspan="2">
     <h1 style="position:relative">Planet VideoLAN
     <span class="header-buttons">
-		<a href="http://planet.videolan.org/rss10.xml">rss</a>
-		<a href="http://planet.videolan.org">read all posts</a>
+        <a href="http://planet.videolan.org/rss10.xml">rss</a>
+        <a href="http://planet.videolan.org">read all posts</a>
     </span>
     </h1>
   </td>
@@ -236,24 +247,24 @@ $(function() {
         if($i%$entries_per_column==0) echo "</td><td>";
       }
     ?>
-	<?php /* Social and other BS */ ?>
-	<h1 style="position:relative">
-	Social media
-	<span class="header-buttons">
-		<a href="http://www.twitter.com/videolan" target="_blank">twitter</a>
-		<a href="http://www.facebook.com/vlc.media.player" target="_blank">facebook</a>
-	</span>
-	</h1>
-	<?php
-	  $rss = fetch_rss("http://twitter.com/statuses/user_timeline/88776463.rss");
+    <?php /* Social and other BS */ ?>
+    <h1 style="position:relative">
+    Social media
+    <span class="header-buttons">
+        <a href="http://www.twitter.com/videolan" target="_blank">twitter</a>
+        <a href="http://www.facebook.com/vlc.media.player" target="_blank">facebook</a>
+    </span>
+    </h1>
+    <?php
+      $rss = fetch_rss("http://twitter.com/statuses/user_timeline/88776463.rss");
       $i = 0;
       $chars_per_entry = 240;
       $entries_per_column = 4;
       $columns = 1;      
       foreach($rss->items as $item) {
-		echo "<p class=\"date\">";
-		echo date("Y-m-d h:i",strtotime($item['pubdate']));
-		echo "</p>";
+        echo "<p class=\"date\">";
+        echo date("Y-m-d h:i",strtotime($item['pubdate']));
+        echo "</p>";
         echo "<p style=\"border-bottom: 1px dashed #CCC;padding-bottom:5px;margin-bottom:5px\">";
         echo preg_replace('^(http://\S+)^is', '<a href="$1">$1</a>', str_replace("videolan:", "<b>videolan:</b>", $item['title']));
         echo "</p>";
@@ -261,7 +272,7 @@ $(function() {
         if($i>=$columns*$entries_per_column) break;
         if($i%$entries_per_column==0) echo "</td><td>";
       }
-	?>
+    ?>
 </td>
 
 

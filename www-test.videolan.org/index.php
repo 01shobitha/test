@@ -262,11 +262,8 @@ $(function() {
       $entries_per_column = 4;
       $columns = 1;      
       foreach($rss->items as $item) {
-        echo "<p class=\"date\">";
-        echo date("Y-m-d h:i",strtotime($item['pubdate']));
-        echo "</p>";
         echo "<p style=\"border-bottom: 1px dashed #CCC;padding-bottom:5px;margin-bottom:5px\">";
-        echo preg_replace('^(http://\S+)^is', '<a href="$1">$1</a>', str_replace("videolan:", "<b>videolan:</b>", $item['title']));
+        echo preg_replace('^(http://\S+)^is', '<a href="$1">$1</a>', str_replace("videolan:", "<b>".date("Y-m-d h:i",strtotime($item['pubdate']))."</b>", $item['title']));
         echo "</p>";
         $i++;
         if($i>=$columns*$entries_per_column) break;

@@ -16,14 +16,11 @@ html, body { width: 100%; min-width: 750px; }
 
 body { background: #fff url(images/bg.png) repeat-x top;
     font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 12px; color: #333; text-align: center; }
+    font-size: 12px; color: #222; text-align: center; }
 
 img { border: none;}
 ol, ul { list-style-type: none; }
-ul.bullets {
-    list-style-type: disc;
-    padding-left: 2.5em; margin-bottom: 1em;
-}
+ul.bullets { list-style-type: disc; padding-left: 2.5em; margin-bottom: 1em; }
 
 form { padding: 4px 0;}
 table { border: none; width: 100%; margin-bottom: 5px; border-collapse: collapse; }
@@ -32,21 +29,17 @@ a:hover, a:active { color: #000;}
 
 h1 {
     font-family: Helvetica, Verdana, Arial, sans-serif;
-    /*font-family: Cambria, Fontin, serif;*/
-    font-weight: bold;
+    font-weight: bold; font-size: 26px;
+    line-height: 16px;
     color: #333;
-    font-size: 26px;
     padding: 35px 0 12px;
-    line-height: 18px;
     border-bottom: 1px solid #CCC;
-	margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 #right h1 { border: none; }
 
-.header-buttons {
-	position:absolute;right:0px;font-size:10pt;
-}
+.header-buttons { position:absolute; right:0px; font-size:10pt; }
 
 .header-buttons a, .grey-button{
 	background: #CCC;
@@ -60,11 +53,9 @@ h1 {
 	border: 1px solid #BBB;
 }
 
-.header-buttons a:hover, .grey-button:hover {
-	background: #BBB;
-}
+.header-buttons a:hover, .grey-button:hover { background: #BBB; }
 
-h2 { 
+h2 {
 	font-family: Helvetica, Verdana, Arial, sans-serif;
 	color: #333;
 	font-weight: bold;
@@ -80,13 +71,12 @@ h2 a, h2 a:link, h2 a:visited {
 
 h2 a:hover {color: #F60;}
 
-h3 { 
-	font-family: Helvetica, Verdana, Arial, sans-serif;
+h3 {
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    font-weight: bold; font-size: 15px;
+    line-height: 16px;
     color: #333;
-	font-weight: bold;
-	font-size: 15px;
     padding: 10px 0 4px;
-	line-height: 19px;
     border-bottom: 2px dotted #E4E7E9;
 }
 
@@ -96,27 +86,22 @@ p.center { text-align:center; }
 img.center { display: block; margin: auto; }
 .hidden { display:none; }
 
-hr { 
-	border: 1px solid #2D58AE;
-}
+hr { border: 1px solid #2D58AE; }
+
+#pagecontainer { min-width: 780px; max-width: 1600px; width: 90%; height: 100%; margin: 0 auto; }
 
 /************************ Header ***********************/
 
 #navmenucontainer, #submenucontainer { width: 100%;}
 
 /* Main menu */
-
 #navmenucontainer { height: 28px; }
 
 #navmenu { float: left; padding: 4px 0;    vertical-align: middle;}
 #navmenu li { display: inline; margin: 0 16px 0 0; padding: 0; }
-#navmenu li a {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-weight: bold; font-size: 11px; text-decoration: none;color: #039;
-}
+#navmenu li a { font-weight: bold; font-size: 11px; text-decoration: none;color: #039; }
 
 #navmenu li.selected a {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 11px;
     text-decoration: none;
@@ -149,19 +134,14 @@ hr {
     color: #FFFFFF;
 }
 
-#submenu li a:hover, #submenu li a:active {
-    color: #2E3A6B;    text-decoration: underline;
-}
-
-#pagecontainer { min-width: 780px; width: 92%; height: 100%; margin: 0 auto; }
-
+#submenu li a:hover, #submenu li a:active { color: #2E3A6B; text-decoration: underline; }
 
 /******************* Main page content - Global ***********************/
 
 #maincontent {clear: both; text-align: left; min-width: 780px;
-max-width: 1100px; margin: 0 auto; }
+max-width: 1400px; margin: 0 auto; }
 
-.fixed_table { table-layout: fixed; }
+.fixed_table { table-layout: fixed;  }
 .fixed_table td { padding: 10px 15px;}
 
 th img { padding: 3px 0; vertical-align: middle; }
@@ -388,7 +368,6 @@ p.image { float: left; padding: 14px 5px 0px 5px; }
 div.project { width: 220px; float: left; margin: 0 5px; }
 div.project-large { width: 300px; float: left; margin: 0 5px; }
 
-.fronttable td { padding: 0 14px; }
 div.project h3, div.project-large h3 { font-size: 1.1em; color: #666;padding: 0; border: 0; }
 
 ul.menu {

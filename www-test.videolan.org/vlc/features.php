@@ -22,7 +22,6 @@ function writefeature_simple( $title, $windows, $mac, $linux, $beos, $bsd, $fam 
    writeonefeature( $linux );
    writeonefeature( $beos );
    writeonefeature( $bsd );
-   writeonefeature( $fam );
    echo "</tr>\n";
 }
 
@@ -58,7 +57,6 @@ function writeInputFeatures() {
             <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
             <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
             <td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
-            <td class="no">-</td>
             </tr>
             <?php writefeature( 'MPEG encoder <sup><a href="#input_notes">4</a></sup>', "yes", "no", "yes", "no", "no", "none" ); ?>
 
@@ -70,7 +68,6 @@ function writeInputFeatures() {
             <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> V4L, V4L2</td>
             <td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
             <td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
-            <td class="partial"><img src="http://images.videolan.org/images/features/untested.png" alt="Untested" />V4L, V4L2</td>
             </tr>
 
             <tr style="background:#D4E0F7 !important">
@@ -138,7 +135,6 @@ function writeVideoFeatures() {
           <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">1</a></sup></td>
 
           <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /> <sup><a href="#video_notes">1</a></sup></td>
-          <td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
           </tr>
 
             <?php writefeature( "Sorenson 1/3 (Quicktime)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
@@ -153,8 +149,6 @@ function writeVideoFeatures() {
           </table>
           <div class="notes">
           <ol id="video_notes">
-            <li>WMV-3 / WMV-9 / VC-1 playback is provided through the FFmpeg-library
-            starting with VLC 0.8.6.</li>
             <li>Windows DMO codecs can be used by VLC on 32-bit x86 platforms and
             allow WMV-3/WMA-3 decoding. This feature is untested on Intel-based Macs.</li>
 
@@ -267,7 +261,6 @@ function writeAVFeatures() {
           <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
           <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
           <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes">Qte/X11</td>
           </tr>
 
 	  <?php writefeature( "X11", "none", "unt", "yes", "none", "yes", "yes" ); ?>
@@ -289,7 +282,6 @@ function writeAVFeatures() {
           <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
           <td class="yes">OSS</td>
 
-          <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
           </tr>
 
           <tr>
@@ -300,7 +292,6 @@ function writeAVFeatures() {
           <td class="yes">OSS<br/>ALSA</td>
           <td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
           <td class="partial"><img src="http://images.videolan.org/images/features/untested.png" alt="Untested" /></td>
-          <td class="none">-</td>
 
           </tr>
 
@@ -312,7 +303,6 @@ function writeAVFeatures() {
 
           <td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
           <td class="partial"><img src="http://images.videolan.org/images/features/untested.png" alt="Untested" /></td>
-          <td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
           </tr>
 
           <tr>
@@ -322,7 +312,6 @@ function writeAVFeatures() {
           <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
           <td class="partial"><img src="http://images.videolan.org/images/features/untested.png" alt="Untested" /></td>
           <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
-          <td class="partial">Source Only</td>
           </tr>
 
 	  <?php writefeature( "PulseAudio", "none", "none", "yes", "none", "unt", "unt" ); ?>
@@ -377,7 +366,6 @@ function writeIntfFeatures() {
           <td class="yes">Qt4</td>
           <td class="yes">Native</td>
           <td class="yes">Qt4</td>
-          <td class="yes">GPE</td>
           </tr>
 
           <?php writefeature( "Qt4", "yes", "unt", "yes", "none", "unt", "none" ); ?>
@@ -406,10 +394,8 @@ function writeMiscFeatures() {
           <td class="partial"><img src="/images/features/partial.png" alt="Partial" /></td>
           <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
           <td class="partial"><img src="/images/features/partial.png" alt="Partial" /></td>
-          <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
           </tr>
           <tr><td class="type">Localization</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
           <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
           <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
           <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -422,7 +408,6 @@ function writeMiscFeatures() {
           <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
           <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
           <td class="partial"><img src="/images/features/partial.png" alt="Partial" /></td>
-          <td class="none">-</td>
           </tr>
           <tr><td class="type">CDDB CD info</td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
           <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -430,14 +415,12 @@ function writeMiscFeatures() {
           <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
 
           <td class="partial"><img src="/images/features/partial.png" alt="Partial" /></td>
-          <td class="none">-</td>
 
           </tr>
           <tr><td class="type">IGMPv3 <sup><a href="#bottom_notes">2</a></sup></td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
           <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
           <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
           <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
           <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
           </tr>
           <tr><td class="type">IPv6 <sup><a href="#bottom_notes">2</a></sup></td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
@@ -447,13 +430,11 @@ function writeMiscFeatures() {
           <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
           <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
 
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
           </tr>
           <tr><td class="type">MLDv2 <sup><a href="#bottom_notes">2</a></sup></td><td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
           <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
           <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
           <td class="no"><img src="/images/features/cross.png" alt="No" /></td>
-          <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
           <td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>
           </tr>
 
@@ -465,7 +446,6 @@ function writeMiscFeatures() {
           <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
           <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
           <td class="yes"><img src="http://images.videolan.org/images/features/tick.png" alt="Yes" /></td>
-          <td class="no"><img src="http://images.videolan.org/images/features/cross.png" alt="No" /></td>
           </tr>
           </table>
           <div class="notes">
@@ -508,10 +488,6 @@ function headers( $extra )
               <img src="http://images.videolan.org/images/icons/freebsd.png" alt="FreeBSD" width="32" height="32" />
 
               <img src="http://images.videolan.org/images/icons/openbsd.png" alt="OpenBSD" width="32" height="32" />
-            </a></th>
-            <th class="th-os"><a href="/vlc/download-familiar.html">
-              <img src="http://images.videolan.org/images/icons/familiar.png" alt="Familiar Linux"
-                   width="32" height="32" />
             </a></th>
           </tr>
 <?php

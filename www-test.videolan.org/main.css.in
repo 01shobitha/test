@@ -167,7 +167,7 @@ td {
 .date { color: #75818A; font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 10px; position: relative; top: -20px; float: right; }
 
-p.descr { margin: 1px 7px;}
+p.descr { margin: 3px 7px 5px 7px; }
 
 /************** Main page content - Specific styles ******************/
 
@@ -320,10 +320,6 @@ a.en {
   line-height: 16pt;
 }
 
-#mainbox table {
-  margin-bottom: 5px;
-}
-
 #mainbox .download {
   padding-left: 18px;
   background: url(images/frontpage/download.png) left center no-repeat;
@@ -333,10 +329,8 @@ p.image { float: left; padding: 14px 5px 0px 5px; }
 
 #project_statement p { color: #555;}
 #project_statement h2 { color: #444;}
-#mainbox p {
-  line-height: 150%;
-  margin: 0.5em 0 0.5em 0;
-}
+#mainbox p { line-height: 150%; margin: 0.5em 0 0.5em 0; }
+
 div.project { width: 220px; float: left; margin: 0 5px; }
 div.project-large { width: 300px; float: left; margin: 0 5px; }
 

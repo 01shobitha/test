@@ -165,7 +165,7 @@ td {
      padding: 0 0 10px 0; line-height: 135%;
 }
 .date { color: #75818A; font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 10px;}
+    font-size: 10px; position: relative;}
 
 
 /************** Main page content - Specific styles ******************/

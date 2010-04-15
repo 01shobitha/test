@@ -24,8 +24,10 @@ window.onresize = function(evt) {
 }
 </script>
 <![endif]-->
+
+<h1>VLC media player</h1>
+<h2>The cross-platform open-source multimedia framework, player and server</h2>
 <div id="mainbox">
-	<h1 style="font-size:30px;line-height:normal">Free your media!</h1>
 	<ul class="menu">
 		<li>Versatile media player</li>
 		<li><a href="#">Skinnable interface</a></li>
@@ -66,18 +68,18 @@ function addos( $name, $class, $url, $bold=false )
 
 <div id="left">
 
-  <h2>Download VLC</h2>
+  <h2>Get VLC now!</h2>
 
   <h3>Binaries</h3>
     <p>Select your operating system to download VLC binaries:</p>
 
-    <div class="os1">
+    <span class="os1">
       <ul class="os">
       <?php addos( "Windows", "windows", "download-windows.html", true );
       addos( "Mac&nbsp;OS&nbsp;X", "macosx", "download-macosx.html", true );
       ?>
       </ul>
-    </div>
+    </span>
     <div class="os2">
       <ul class="os">
 <?php
@@ -87,8 +89,8 @@ function addos( $name, $class, $url, $bold=false )
       </ul>
     </div>
 
-    <div class="clearme">
-      <h3>GNU/Linux</h3>
+    <div class="clearfix"></div>
+   <h3>GNU/Linux</h3>
 
     <div class="os1">
       <ul class="os">
@@ -110,7 +112,7 @@ function addos( $name, $class, $url, $bold=false )
 ?>
   </ul></div>
 
-<div class="clearme">
+<div class="clearfix"></div>
 
       <h3>Source and other operating systems</h3>
 <p>For the other operating systems supported, there are no precompiled
@@ -135,14 +137,13 @@ libraries and build them yourself:</p>
 ?>
   </ul>
 </div>
-<div class="clearme">
+<div class="clearfix"></div>
   <p>You can also directly get the <a href="download-sources.html">
   source code</a>.</p>
 
   <p>You couldn't find your OS / Distribution in this list but
   know where to find VLC media player builds elsewhere? Please <a
   href="/team/">Contact us</a> so we can add a link.</p>
-</div>
 </div>
 </div>
 

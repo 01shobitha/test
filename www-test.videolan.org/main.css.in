@@ -182,8 +182,7 @@ border-radius: 5px;
 }
 .dl-info { font-size: 12px; }
 .dl-other { font-size: 10px; font-style: italic; float: right; }
-.os { padding: 0 0 32px 15px; line-height: 20px; }
-.otheros, .mirror { padding: 0 0 35px 15px; line-height: 20px; }
+.os, .otheros, .mirror { padding: 0 0 12px 15px; line-height: 20px; }
 .os li, .otheros li { padding-left: 25px;
     background: url(http://images.videolan.org/images/12-em-down.png) left no-repeat;}
 

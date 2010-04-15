@@ -39,15 +39,15 @@ window.onresize = function(evt) { adapt(); }
             </td>
             <td>
                 <h2>Open Source</h2>
-                   <p>Trust your multimedia software and codecs, all <b>VideoLAN</b> projects are 
-                   <a href="http://www.gnu.org/philosophy/free-sw.html">free</a> and
-                   <a href="http://www.opensource.org/">open source</a>.
+                   <p><b>Trust</b> your multimedia software and codecs, all <b>VideoLAN</b> projects are 
+                   <a href="http://www.gnu.org/philosophy/free-sw.html"><b>free</b></a> and
+                   <a href="http://www.opensource.org/"><b>open source</b></a>.
                     <span style="float: right; padding: 5px 10px 0 0;"><a href="/videolan/">More about Open Source</a>.</span></p>
             </td>
             <td>
                 <h2>Contribute</h2>
-                <p>VideoLAN lives because the community is active. You too <a href="/contribute.html">can help!</a></p>
-                <p>All fundings of the VideoLAN organization come from your donations. So please help!</p>
+                <p>A community makes VideoLAN. You too <a href="/contribute.html">can help!</a></p>
+                <p>All funds come from your donations. So please donate!</p>
 				<div>
                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 						<div>

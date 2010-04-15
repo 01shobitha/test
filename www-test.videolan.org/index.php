@@ -221,7 +221,7 @@ $(function() {
 <tr>
 
 <?php /* Begin news items */ ?>
-<td>
+<td id="news">
 <?php
   shownews("full", 4); 
 ?>

@@ -379,6 +379,8 @@ a.en {
 
 p.image { float: left; padding: 14px 5px 0px 5px; }
 
+#project_statement p { color: #666;}
+#project_statement h2 { color: #444;}
 #mainbox p {
   line-height: 150%;
   margin: 0.5em 0 0.5em 0;

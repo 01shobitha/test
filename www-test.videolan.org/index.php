@@ -32,8 +32,8 @@ window.onresize = function(evt) { adapt(); }
     <table class="fixed_table">
         <tr><td>
                 <h2>Volunteers Organization</h2>
-                <p><b>VideoLAN</b> is a project and a non-profit organization, led and composed by volunteers,
-                    that puts its efforts into developing and promoting
+                <p><b>VideoLAN</b> is a project and a non-profit organization, composed of volunteers,
+                    that develops and promotes
                     <a href="http://www.gnu.org/philosophy/free-sw.html">free</a> multimedia solutions.
                     <span style="float: right; padding: 5px 10px 0 0;"><a href="/videolan/">More about VideoLAN</a>.</span></p>
             </td>

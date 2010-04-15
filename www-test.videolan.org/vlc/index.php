@@ -88,37 +88,36 @@ function addos( $name, $class, $url, $bold=false )
 ?>
       </ul>
     </div>
-
     <div class="clearfix"></div>
+
    <h3>GNU/Linux</h3>
 
     <div class="os1">
       <ul class="os">
-<?php
+      <?php
       addos( "Debian GNU/Linux", "debian", "download-debian.html" );
       addos( "Ubuntu", "ubuntu", "download-ubuntu.html" );
       addos( "Mandriva Linux", "mandrake", "download-mandriva.html" );
       addos( "Fedora", "fedora", "download-fedora.html" );
       addos( "openSUSE", "suse", "download-suse.html" );
-?>
-    </ul>
+     ?>
+     </ul>
     </div><div class="os2">
-<ul class="os">
-<?php
+    <ul class="os">
+    <?php
       addos( "Red Hat Enterprise Linux", "redhat", "download-redhat.html" );
       addos( "Slackware Linux", "slackware", "download-slackware.html" );
       addos( "ALT Linux", "altlinux", "download-altlinux.html" );
       addos( "Arch Linux", "archlinux", "download-archlinux.html" );
-?>
-  </ul></div>
+    ?>
+    </ul></div>
 
-<div class="clearfix"></div>
+    <div class="clearfix"></div>
 
       <h3>Source and other operating systems</h3>
 <p>For the other operating systems supported, there are no precompiled
 binaries. You will have to get the source code for VLC and its required
 libraries and build them yourself:</p>
-</div>
 <div class="os1">
   <ul class="otheros">
 <?php
@@ -138,13 +137,14 @@ libraries and build them yourself:</p>
   </ul>
 </div>
 <div class="clearfix"></div>
+
+<h3>Source</h3>
   <p>You can also directly get the <a href="download-sources.html">
   source code</a>.</p>
 
   <p>You couldn't find your OS / Distribution in this list but
   know where to find VLC media player builds elsewhere? Please <a
   href="/team/">Contact us</a> so we can add a link.</p>
-</div>
 </div>
 
 <div id="right">

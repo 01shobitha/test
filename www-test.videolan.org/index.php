@@ -234,7 +234,7 @@ $(function() {
       $i = 0;
       $chars_per_entry = 240;
       $entries_per_column = 4;
-      $columns = 1;      
+      $columns = 1;
       foreach($rss->items as $item) {
         echo "<p>";
         echo "<b>".htmlentities($item['title'])."</b></p>";

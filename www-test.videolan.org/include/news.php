@@ -55,7 +55,7 @@
 
                 echo ("<h3>".$title."</h3>\n" );
                 //echo "<div id=\"news-$count\">";
-                echo ("<p class=\"date\">".date("Y-m-d", strtotime( $date) )."</p>\n");
+                echo ("<span class=\"date\">".date("Y-m-d", strtotime( $date) )."</span>\n");
                 echo "<p class=\"descr\">".$short;
                 if( $remain )
                 {

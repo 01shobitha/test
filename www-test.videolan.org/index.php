@@ -209,7 +209,7 @@ $(function() {
     </span></h1>
   </td>
   <td colspan="2">
-    <h1 style="position:relative">Planet VideoLAN
+    <h1 style="position:relative">Developers Blog
     <span class="header-buttons">
         <a href="http://planet.videolan.org/rss10.xml">rss</a>
         <a href="http://planet.videolan.org">read all posts</a>

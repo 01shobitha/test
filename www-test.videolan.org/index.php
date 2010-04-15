@@ -208,7 +208,8 @@ $(function() {
         <a href="news.html">read all news</a>
     </span></h1>
   </td>
-  <td colspan="2">
+  <td></td>
+  <td>
     <h1 style="position:relative">Developers Blog
     <span class="header-buttons">
         <a href="http://planet.videolan.org/rss10.xml">rss</a>
@@ -225,7 +226,7 @@ $(function() {
   shownews("full", 4); 
 ?>
 </td>
-
+<td ></td>
 <?php /* Begin planet items */ ?>
 <td style="width: 40%;">
     <?php
@@ -271,8 +272,6 @@ $(function() {
       }
     ?>
 </td>
-
-
 
 </tr>
 </table>

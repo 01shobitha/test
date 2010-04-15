@@ -167,6 +167,7 @@ td {
 .date { color: #75818A; font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 10px; position: relative; top: -20px; float: right; }
 
+p.descr { margin: 1px 7px;}
 
 /************** Main page content - Specific styles ******************/
 

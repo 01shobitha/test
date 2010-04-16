@@ -142,7 +142,8 @@ window.onresize = function(evt) { adapt(); }
               </td>
       </tr>
       </table>
-    <hr />
+
+      <h2 style="border-bottom: 1px solid #CCC">Projects</h2>
           <div class ="project">
             <p class="image">
                   <img src="images/vlc64x64.png" alt="VLC cone logo"/>

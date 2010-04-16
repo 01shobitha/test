@@ -79,9 +79,8 @@ window.onresize = function(evt) { adapt(); }
 <?php /* Projects */ ?>
 <h1>VideoLAN Projects</h1>
 <div id="mainbox" style="overflow: hidden;">
-<table>
-  <tr>
-      <td style="width: 300px;">
+<table><tr>
+      <td style="width: 300px;" id="img">
          <script type="text/javascript"><!--
             if( <?php echo $is_win32; ?> )
             { <?php Screenshot( "Win32" ); ?> }
@@ -98,14 +97,8 @@ window.onresize = function(evt) { adapt(); }
          <img src="http://images.videolan.org/images/screenshots/vlc-win32.jpg" alt="VLC on Windows"/>
        </p></noscript>
       </td>
-      <td>
-        <div class="projects_car">
-          <div class ="project-large">
-            <p class="image">
-                  <img src="images/vlc64x64.png" alt="VLC cone logo"/>
-            </p>
-            <h2><a href="/vlc/" class="product">VLC</a></h2>
-            <h3>Plays It All!</h3>
+      <td id="project_desc">
+          <h3>Plays It All!</h3>
             <p>VLC is a <b>free</b> cross-platform multimedia <b>player</b> and <b>framework</b>,
                that reads most audio and video files as well as DVD, Audio CD,
                VCD, and various streaming protocols.</p>
@@ -145,6 +138,52 @@ window.onresize = function(evt) { adapt(); }
                 </noscript>
               </div>
               <div class="dl-other"><a href="/vlc/">Other Systems</a></div>
+
+              </td>
+      </tr>
+      </table>
+    <hr />
+          <div class ="project">
+            <p class="image">
+                  <img src="images/vlc64x64.png" alt="VLC cone logo"/>
+            </p>
+            <h2><a href="/vlc/" class="product">VLC</a></h2>
+           <h3>Plays It All!</h3>
+          </div>
+          <div class ="project">
+            <p class="image">
+                  <img src="images/vlc64x64.png" alt="VLC cone logo"/>
+            </p>
+            <h2><a href="/vlc/" class="product">VLC</a></h2>
+           <h3>Plays It All!</h3>
+          </div>
+          <div class ="project">
+            <p class="image">
+                  <img src="images/vlc64x64.png" alt="VLC cone logo"/>
+            </p>
+            <h2><a href="/vlc/" class="product">VLC</a></h2>
+           <h3>Plays It All!</h3>
+          </div>
+          <div class ="project">
+            <p class="image">
+                  <img src="images/vlc64x64.png" alt="VLC cone logo"/>
+            </p>
+            <h2><a href="/vlc/" class="product">VLC</a></h2>
+           <h3>Plays It All!</h3>
+          </div>
+          <div class ="project">
+            <p class="image">
+                  <img src="images/vlc64x64.png" alt="VLC cone logo"/>
+            </p>
+            <h2><a href="/vlc/" class="product">VLC</a></h2>
+           <h3>Plays It All!</h3>
+          </div>
+          <div class ="project">
+            <p class="image">
+                  <img src="images/vlc64x64.png" alt="VLC cone logo"/>
+            </p>
+            <h2><a href="/vlc/" class="product">VLC</a></h2>
+           <h3>Plays It All!</h3>
           </div>
           <div class ="project">
                 <p class="image">
@@ -152,9 +191,9 @@ window.onresize = function(evt) { adapt(); }
                 </p>
                 <h2><a href="/developers/x264.html" class="product">x264</a></h2>
                 <h3>Perfect Encoding</h3>
-            <p>The award-winning MPEG4 H.264/AVC video encoder.<br />
+<!--            <p>The award-winning MPEG4 H.264/AVC video encoder.<br />
             The <b>number one</b> encoder in industry!</p>
-            <p>Learn <a href="/developers/x264.html">more</a> about it.</p>
+            <p>Learn <a href="/developers/x264.html">more</a> about it.</p> -->
           </div>
           <div class ="project">
 <!--             <p class="image">
@@ -162,40 +201,17 @@ window.onresize = function(evt) { adapt(); }
              </p> -->
              <h2><a href="/projects/dvblast.html" class="product">DVBlast!</a></h2>
              <h3>Simple but powerfull DVB streamer</h3>
-             <p>
+<!--             <p>
                 DVBlast is a <b>simple</b> but powerful MPEG-2/TS demux and <b>streaming application</b>
                 outputting unicast and multicast UDP/RTP streams.
              </p>
              <p>
                 It supports <b>IPv6</b>, configuration reloading, MMI and dvb-s2, while staying <b>light</b> and simple.
              </p>
-            <p><a href="/projects/dvblast.html"><b>Get it</b></a> now!</p>
+            <p><a href="/projects/dvblast.html"><b>Get it</b></a> now!</p> -->
           </div>
-          <?php /*
-          <div class ="project">
-             <p class="image">
-               <img src="/images/project.png" alt="project logo"/>
-             </p>
-             <h2><a href="/link" class="product">Project</a></h2>
-             <h3>Project Motto</h3>
-         </div>
-         */ ?>
         </div>
-     </td></tr>
-    </table>
-       <span style="float: right; ">Browse <a href="/projects">all projects</a>
-       <button class="prev">&lt;&lt;</button>
-       <button class="next">&gt;&gt;</button></span>
-<script type="text/javascript">
-$(function() {
-    $(".projects_car").jCarouselLite({
-        btnNext: ".next",
-        btnPrev: ".prev",
-        scroll: 3,
-        visible: 3
-    });
-});
-</script>
+
 </div>
 
 <?php /* Titles */ ?>

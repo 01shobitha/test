@@ -17,12 +17,6 @@
 <li><?php pkgitem_nomirr("VLC source code tar.bz2", "1.0.6","vlc-1.0.6.tar.bz2","vlc"); ?></li>
 </ul>
 
-<p> Latest VLC source code tarball of the Grischenko branch (0.9.10): </p>
-
-<ul class="bullets">
-<li><?php pkgitem_nomirr("VLC source code tar.bz2", "0.9.10","vlc-0.9.10.tar.bz2","vlc"); ?></li>
-</ul>
-
 <?php
 /*
 <h2> Latest required libraries: </h2>

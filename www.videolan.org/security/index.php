@@ -32,6 +32,9 @@ pub   1024D/AC3E0879 2006-03-01
 <h2>2010</h2>
 
 <dl>
+<dt>VideoLAN-SA-1003</dt>
+<dd>Multiple vulnerabilities in VLC. <a href="sa1003.html">Details</a>
+</dd>
 <dt>VideoLAN-SA-1002</dt>
 <dd>Buffer overflow in ancient VLC media player <a href="sa1002.html">Details</a>
 </dd>

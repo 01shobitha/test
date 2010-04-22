@@ -165,10 +165,7 @@ window.onresize = function(evt) { adapt(); }
         <h2><a href="/projects/dvblast.html" class="product">DVBlast!</a></h2>
         <h3>Simple but powerfull DVB streamer</h3>
     </div>
-       <span style="float: right; padding: -5px 10px 0 0;vertical-align: bottom;">
-         <a href="/videolan/">More about VideoLAN</a>.</span>
-     </div>
-     <div class="dl-other"><a href="/vlc/">Other Systems</a></div>
+     <div class="dl-other"><a href="/projects/">All Projects</a></div>
 </div> <!-- #mainbox -->
 
     <script type="text/javascript">

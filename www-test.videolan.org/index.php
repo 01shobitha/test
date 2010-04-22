@@ -49,6 +49,7 @@ window.onresize = function(evt) { adapt(); }
                 <p>A community makes VideoLAN. You too <a href="/contribute.html">can help!</a></p>
                 <p>All funds come from your donations. So please donate!</p>
                 <div style="float: right; padding-top: 10px;"><span  style="height:20px;font-weight:bold;font-size:9pt;height:100%;">Donate with Paypal:</span>
+                <div> <?php /* Keep the $/€ together */ ?>
                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="display: inline;">
                         <span>
                           <input name="cmd" value="_xclick" type="hidden"/>
@@ -71,6 +72,7 @@ window.onresize = function(evt) { adapt(); }
                           <input name="submit" type="submit" alt="Donate money to VideoLAN via PayPal" value="$" class="grey-button" style="height:24px;font-weight:bold;font-size:10pt;height: 100%;"/>
                         </span>
                     </form>
+                    </div>
                 </div>
         </td></tr>
     </table>

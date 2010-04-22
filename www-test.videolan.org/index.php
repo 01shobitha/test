@@ -143,7 +143,7 @@ window.onresize = function(evt) { adapt(); }
       </tr>
       </table>
 
-      <h2 style="border-bottom: 1px solid #CCC">Projects</h2>
+      <h2 style="border-bottom: 1px solid #CCC"><a href="/projects/">Projects</a></h2>
           <div class ="project">
             <p class="image">
                   <img src="images/vlc64x64.png" alt="VLC cone logo"/>
@@ -211,7 +211,9 @@ window.onresize = function(evt) { adapt(); }
              </p>
             <p><a href="/projects/dvblast.html"><b>Get it</b></a> now!</p> -->
           </div>
+                    <span style="float: right; padding: -5px 10px 0 0;vertical-align: bottom;"><a href="/videolan/">More about VideoLAN</a>.</span></p>
         </div>
+              <div class="dl-other"><a href="/vlc/">Other Systems</a></div>
 
 </div>
 

@@ -146,6 +146,12 @@ window.onresize = function(evt) { adapt(); }
         <div class="panel" id="panel-dvblast" style="display:none;">
             DVBlast!
         </div>
+        <div class="panel" id="panel-libdvdcss" style="display:none;">
+             libdvdcss is a simple library designed for accessing DVDs like a block device without having to bother about the decryption.
+        </div>
+        <div class="panel" id="panel-vlma" style="display:none;">
+            VLMa is an application to manage broadcasts of TV channels, received through digital terrestrial or satellite ways. Its interface is provided as a web-site written in Java. It is also capable of streaming audio and video files. VLMa consists of a deamon (called VLMad) and a web interface (called VLMaw).
+        </div>
       </td></tr>
     </table>
 
@@ -165,6 +171,15 @@ window.onresize = function(evt) { adapt(); }
         <h2><a href="/projects/dvblast.html" class="product">DVBlast!</a></h2>
         <h3>Simple but powerfull DVB streamer</h3>
     </div>
+    <div class="project" id="project-libdvdcss">
+        <h2><a href="/developers/libdvdcss.html" class="product">libdvdcss</a></h2>
+        <h3>DVD decryption library</h3>
+    </div>
+    <div class="project" id="project-vlma">
+        <h2><a href="/projects/vlma/" class="product">VLMa</a></h2>
+        <h3>VideoLAN manager for VLC streamers</h3>
+    </div>
+
      <div class="dl-other"><a href="/projects/">All Projects</a></div>
 </div> <!-- #mainbox -->
 
@@ -182,6 +197,8 @@ window.onresize = function(evt) { adapt(); }
         registerPanel("project-vlc", "panel-vlc");
         registerPanel("project-x264", "panel-x264");
         registerPanel("project-dvblast", "panel-dvblast");
+        registerPanel("project-libdvdcss", "panel-libdvdcss");
+        registerPanel("project-vlma", "panel-vlma");
     </script>
 
 <?php /* Titles */ ?>

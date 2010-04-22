@@ -49,7 +49,6 @@ window.onresize = function(evt) { adapt(); }
                 <p>A community makes VideoLAN. You too <a href="/contribute.html">can help!</a></p>
                 <p>All funds come from your donations. So please donate!</p>
                 <div style="float: right; padding-top: 10px;"><span  style="height:20px;font-weight:bold;font-size:9pt;height:100%;">Donate with Paypal:</span>
-                <div> <?php /* Keep the $/€ together */ ?>
                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="display: inline;">
                         <span>
                           <input name="cmd" value="_xclick" type="hidden"/>
@@ -73,7 +72,6 @@ window.onresize = function(evt) { adapt(); }
                         </span>
                     </form>
                     </div>
-                </div>
         </td></tr>
     </table>
 </div>
@@ -215,7 +213,7 @@ window.onresize = function(evt) { adapt(); }
   </td>
   <td></td>
   <td>
-    <h1 style="position:relative">Developers Blog
+    <h1 style="position:relative">Dev' Blogs
     <span class="header-buttons">
         <a href="http://planet.videolan.org/rss10.xml">rss</a>
         <a href="http://planet.videolan.org">read all posts</a>
@@ -233,7 +231,7 @@ window.onresize = function(evt) { adapt(); }
 </td>
 <td ></td>
 <?php /* Begin planet items */ ?>
-<td style="width: 40%;">
+<td style="width: 42%;">
     <?php
       define('MAGPIE_OUTPUT_ENCODING', 'UTF-8');
       $rss = fetch_rss("http://planet.videolan.org/rss10.xml");

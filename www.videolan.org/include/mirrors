@@ -263,5 +263,9 @@ http://vlc-2.defaultroute.net/|Default Route, Inc.|USA, East|us|HTTP|100
 ## 10 Gbit/s (with Internet2 (US) and GEANT3 (Europe) connectivity)
 ## FTP and HTTP
 http://mirror.switch.ch/ftp/mirror/videolan/|SWITCHmirror|Switzerland|ch|http|5000
+## PyRoHoSt
+## Jesse Donohue VLC @ pyrohost . com . au
+## Brisbane, Australia
+http://vlc.pyrohost.com.au/|PyRoHoSt|Australia|au|HTTP|100
 # Make sure to not leave a blank line at the end
 # EOF

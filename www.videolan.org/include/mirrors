@@ -267,5 +267,8 @@ http://mirror.switch.ch/ftp/mirror/videolan/|SWITCHmirror|Switzerland|ch|HTTP|50
 ## Jesse Donohue VLC @ pyrohost . com . au
 ## Brisbane, Australia
 http://vlc.pyrohost.com.au/|PyRoHoSt|Australia|au|HTTP|100
+## Also in Arizona with less restriction on bandwidth usage
+http://vlc2.pyrohost.com.au/|PyRoHoSt|USA|us|HTTP|500
+
 # Make sure to not leave a blank line at the end
 # EOF

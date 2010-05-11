@@ -24,12 +24,13 @@ echo '<?xml version="1.0" encoding="utf-8" ?>';
 <head>
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
    <meta name="Generator" content="vim [GNU/Linux], GNU Emacs" />
-   <meta name="Author" content="videolan@videolan.org (VideoLAN)" />
-   <meta name="Keywords" content="DVD, MPEG, MPEG2, MPEG4, H264, DivX, VideoLAN,
-     VLC, VLS, x264, Windows, Linux, Unix, BeOS, BSD, MacOS, MacOS X, OSX, QNX, Streaming,
-     Familiar Linux, iPAQ, multicast, IPv6, media player, media converter" />
+   <meta name="Author" content="VideoLAN" />
+   <meta name="Keywords" content="DVD, MPEG, MPEG2, MPEG4, H264, DivX, VideoLAN, MKV, m2ts,
+     VLC, VLS, x264, Windows, Linux, Unix, BeOS, BSD, MacOS, MacOS X, OSX, Streaming,
+     video, video player, multimedia, multicast, IPv6, media player, media converter,
+     open source, free software" />
    <meta name="Description" content="<?php echo $title; ?>" />
-   <title><?php echo $title; ?></title>
+   <title>VideoLAN<?php echo $title; ?></title>
    <link rel="alternate" type="application/rss+xml" title="RSS - VideoLAN News" href="/videolan-news.rss" />
    <link rel="alternate" type="application/rss+xml" title="RSS - Developers' Planet" href="http://planet.videolan.org/rss20.xml" />
    <link rel="stylesheet" type="text/css" href="/main.css" />
@@ -52,7 +53,7 @@ echo '<?xml version="1.0" encoding="utf-8" ?>';
         foreach($additional_js as $js) {
           echo '<script src="'.$js.'" type="text/javascript"></script>';
         }
-      } 
+      }
       ?>
 <script type="text/javascript">
 // <![CDATA[
@@ -122,7 +123,7 @@ function DrawMenu( $file, $mod )
   else
   {
     echo "<li>&nbsp;</li>";
-  }  
+  }
 }
 
 function DrawSubMenus( $selcat, $mod )
@@ -161,7 +162,7 @@ function DrawSubMenus( $selcat, $mod )
 }
 
 function footer($tag) {
-   global $language; ?>
+   ?>
 
     </div> <!-- MAINCONTENT -->
 </div> <!-- PAGECONTAINER -->
@@ -175,11 +176,10 @@ function footer($tag) {
   </p>
   <p>
   All rights reserved to the VideoLAN team. -&nbsp;
-    <?php if($language=="fr") { } else { echo 'valid'; } ?>
+    valid
     <a href="http://validator.w3.org/check?uri=referer">XHTML 1.1</a>
     and 
     <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>
-    <?php if($language=="fr") { echo 'valides'; } else { } ?>
     - <a href="http://www.videolan.org/videolan-news.rss">RSS v1.0</a>
   </p>
 </div>

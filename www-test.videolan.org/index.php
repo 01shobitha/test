@@ -1,14 +1,11 @@
 <?php
-   $title = "VideoLAN, VLC: Free streaming and multimedia solutions for all OS!";
-   $lang = "en";
+   $title = ", VLC: Free streaming and multimedia solutions for all OS!";
    $menu = array( "project", "home" );
    $additional_js = array("http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js","/js/jcarousellite_1.0.1.js");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/magpierss/rss_fetch.inc");
-   $tab = "vlc";
-   if(isset($_GET['tab'])) $tab = $_GET['tab'];
 ?>
 
 <?php /* Specific IE hack */?>

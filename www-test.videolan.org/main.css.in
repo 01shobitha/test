@@ -27,9 +27,7 @@ table { border: none; width: 100%; margin-bottom: 5px; border-collapse: collapse
 a, a:link, a:visited { color: #2D58AE; }
 a:hover, a:active { color: #000;}
 
-h1 {
-    font-family: Helvetica, Verdana, Arial, sans-serif;
-    font-weight: bold; font-size: 26px;
+h1 { font-weight: bold; font-size: 22px;
     line-height: 16px;
     color: #333;
     padding: 35px 0 12px;

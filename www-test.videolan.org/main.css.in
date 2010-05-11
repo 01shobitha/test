@@ -291,8 +291,9 @@ a.en {
   padding: 10px;
   -moz-box-shadow: 0px 3px 5px #888;
   -webkit-box-shadow: 0px 3px 5px #888;
-  z-index: 999;  
+  z-index: 999;
   overflow:hidden;
+  margin-bottom: 10px;
 }
 #ieShadow {
   position: absolute;

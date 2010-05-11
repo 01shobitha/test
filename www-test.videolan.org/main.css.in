@@ -30,11 +30,11 @@ a:hover, a:active { color: #000;}
 h1 { font-weight: bold; font-size: 22px;
     line-height: 16px;
     color: #333;
-    padding: 35px 0 12px;
+    padding: 14px 0 12px;
     border-bottom: 1px solid #CCC;
     margin-bottom: 8px;
 }
-h1#motto { margin-bottom: 0px; }
+h1#motto { margin-bottom: 0px; padding-top: 33px; }
 #right h1 { border: none; }
 
 .header-buttons { position:absolute; right:0px; font-size:10pt; }

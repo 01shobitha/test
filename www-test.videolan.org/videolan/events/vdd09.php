@@ -2,7 +2,6 @@
    $title = "VideoLAN Dev Days 2009";
    $lang = "en";
    $menu = array( "project", "events" );
-   //$additional_js = array("/js/prototype.js","/js/scriptaculous.js","/js/features.js");
 
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>

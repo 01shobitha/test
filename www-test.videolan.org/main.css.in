@@ -36,7 +36,7 @@ h1 {
     border-bottom: 1px solid #CCC;
     margin-bottom: 8px;
 }
-
+h1#motto { margin-bottom: 0px; }
 #right h1 { border: none; }
 
 .header-buttons { position:absolute; right:0px; font-size:10pt; }
@@ -60,7 +60,7 @@ h2 {
 	color: #333;
 	font-weight: bold;
 	font-size: 18px;
-    padding: 12px 0 4px 0;
+    padding: 6px 0 4px 0;
 	line-height: 19px;
 }
 
@@ -141,8 +141,8 @@ hr { border: 1px solid #2D58AE; }
 #maincontent {clear: both; text-align: left; min-width: 780px;
 max-width: 1400px; margin: 0 auto; }
 
-.fixed_table { table-layout: fixed;  }
-.fixed_table td { padding: 10px 15px;}
+.fixed_table { table-layout: fixed; }
+.fixed_table td { padding: 0px 15px; border: 0px solid red;}
 
 .fronttable td { text-align: justify; line-height: 175%; }
 
@@ -326,8 +326,8 @@ a.en {
 
 p.image { float: left; padding: 14px 5px 0px 5px; }
 
-#project_statement p { color: #555;}
-#project_statement h2 { color: #444;}
+#project_statement p { color: #686868;}
+#project_statement h2 { color: #555;}
 #mainbox p { line-height: 150%; margin: 0.5em 0 0.5em 0; }
 
 div.project { width: 200px; float: left;  margin: 0 5px; height: 80px; }
@@ -550,5 +550,4 @@ ul.menu a:link {
 .panel-green p { margin: 0; padding: 0; }
 .panel-green a, .panel-green a:visited { color: #4e9a06; }
 .panel-green a:hover, .panel-green a:active { color: #000; }
-
 

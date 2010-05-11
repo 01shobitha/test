@@ -248,7 +248,7 @@ http://mirror.netcologne.de/videolan.org/|NetCologne GmbH|Germany|de|HTTP|2000
 ## OpenWebster
 ## Mike T" <mtu 47 openwebster d0t com>
 ## Denver, Colorado, USA
-http://mirror.openwebster.com/videolan/|OpenWebster|USA|us|HTTP|50
+#http://mirror.openwebster.com/videolan/|OpenWebster|USA|us|HTTP|50
 ## Default Route, Inc.
 ## DR NetOps (ops at defaultroute dot net) 
 ## Seattle and NY, USA
@@ -262,6 +262,12 @@ http://vlc-2.defaultroute.net/|Default Route, Inc.|USA, East|us|HTTP|100
 ## switchmirror@switch.ch
 ## 10 Gbit/s (with Internet2 (US) and GEANT3 (Europe) connectivity)
 ## FTP and HTTP
-http://mirror.switch.ch/ftp/mirror/videolan/|SWITCHmirror|Switzerland|ch|http|5000
+http://mirror.switch.ch/ftp/mirror/videolan/|SWITCHmirror|Switzerland|ch|HTTP|5000
+## PyRoHoSt
+## Jesse Donohue VLC @ pyrohost . com . au
+## Brisbane, Australia
+http://vlc.pyrohost.com.au/|PyRoHoSt|Australia|au|HTTP|50
+## Also in Arizona with less restriction on bandwidth usage
+http://vlc2.pyrohost.com.au/|PyRoHoSt|USA|us|HTTP|250
 # Make sure to not leave a blank line at the end
 # EOF

@@ -12,7 +12,7 @@
 /***************** General Styles *********************/
 
 * { border: 0; margin: 0; padding: 0; }
-html, body { width: 100%; min-width: 750px; }
+html, body { width: 100%; min-width: 750; }
 
 body { background: #fff url(images/bg.png) repeat-x top;
     font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -34,32 +34,32 @@ h1 { font-weight: bold; font-size: 22px;
     border-bottom: 1px solid #CCC;
     margin-bottom: 8px;
 }
-h1#motto { margin-bottom: 0px; padding-top: 33px; }
+h1#motto { margin-bottom: 0; padding-top: 33px; }
 #right h1 { border: none; }
 
-.header-buttons { position:absolute; right:0px; font-size:10pt; }
+.header-buttons { position:absolute; right:0; font-size:10pt; }
 
 .header-buttons a, .grey-button{
-	background: #CCC;
-	color: #FFF;
-	padding: 2px !important;
-	margin: 0px !important;
-	text-decoration: none;
-	-moz-border-radius: 5px;
-	-khtml-border-radius: 5px;
-	border-radius: 5px;
-	border: 1px solid #BBB;
+    background: #CCC;
+    color: #FFF;
+    padding: 2px !important;
+    margin: 0 !important;
+    text-decoration: none;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #BBB;
 }
 
 .header-buttons a:hover, .grey-button:hover { background: #BBB; }
 
 h2 {
-	font-family: Helvetica, Verdana, Arial, sans-serif;
-	color: #333;
-	font-weight: bold;
-	font-size: 18px;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
     padding: 6px 0 4px 0;
-	line-height: 19px;
+    line-height: 19px;
 }
 
 h2 a, h2 a:link, h2 a:visited {
@@ -73,7 +73,7 @@ h3 {
     font-family: Helvetica, Verdana, Arial, sans-serif;
     font-weight: bold; font-size: 15px;
     color: #333;
-    padding: 10px 0 4px 0;
+    padding: 10 0 4px 0;
     border-bottom: 2px dotted #E4E7E9;
     margin: 7px 0 3px 0;
 }
@@ -86,7 +86,7 @@ img.center { display: block; margin: auto; }
 
 hr { border: 1px solid #2D58AE; }
 
-#pagecontainer { min-width: 780px; max-width: 1600px; width: 90%; height: 100%; margin: 0 auto; }
+#pagecontainer { min-width: 780; max-width: 1600; width: 90%; height: 100%; margin: 0 auto; }
 
 /************************ Header ***********************/
 
@@ -104,7 +104,7 @@ hr { border: 1px solid #2D58AE; }
     font-size: 11px;
     text-decoration: none;
     color: #FFFFFF;
-    text-shadow: 0px 1px 1px #669;
+    text-shadow: 0 1px 1px #669;
 }
 
 #navmenu li a:hover { color: #004;text-decoration: none;}
@@ -117,7 +117,7 @@ hr { border: 1px solid #2D58AE; }
     font-family: Geneva, Arial, Helvetica, sans-serif;
     font-weight: normal; color: #2D58AE;font-size: 17px;
     text-decoration: none;
-    float: left; padding: 14px 20px 10px 0;
+    float: left; padding: 14px 20 10 0;
 }
 
 #submenucontainer ul li.selected a {
@@ -125,10 +125,10 @@ hr { border: 1px solid #2D58AE; }
     font-weight: normal; color: #2D58AE;font-size: 17px;
     text-decoration: none;
     /*font-style: italic;*/
-    text-shadow: 0px 1px 3px #2D58AE;
+    text-shadow: 0 1px 3px #2D58AE;
     /*filter: Shadow(Color=#4D78CE, Direction=180, Strength=2), Shadow(Color=#4D78CE, Direction=150, Strength=1), Shadow(Color=#4D78CE, Direction=210, Strength=1);*/
     /*margin-top: -1px;*/
-    float: left; padding: 14px 20px 10px 0;
+    float: left; padding: 14px 20 10 0;
     color: #FFFFFF;
 }
 
@@ -136,11 +136,11 @@ hr { border: 1px solid #2D58AE; }
 
 /******************* Main page content - Global ***********************/
 
-#maincontent {clear: both; text-align: left; min-width: 780px;
-max-width: 1400px; margin: 0 auto; }
+#maincontent {clear: both; text-align: left; min-width: 780;
+max-width: 1400; margin: 0 auto; }
 
 .fixed_table { table-layout: fixed; }
-.fixed_table td { padding: 0px 15px; border: 0px solid red;}
+.fixed_table td { padding: 0 15px; border: 0 solid red;}
 
 .fronttable td { text-align: justify; line-height: 175%; }
 
@@ -160,10 +160,10 @@ td {
 #fullwidth { padding-bottom: 55px; float:left; }
 
 #left p, #right p, #fullwidth p {
-     padding: 0 0 10px 0; line-height: 135%;
+     padding: 0 0 10 0; line-height: 135%;
 }
 .date { color: #75818A; font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 10px; position: relative; top: -20px; float: right; }
+    font-size: 10; position: relative; top: -20; float: right; }
 
 #news p { margin: 3px 7px 9px 7px; }
 
@@ -171,7 +171,7 @@ td {
 
 /* DL */
 
-a.download { font-size: 20px; text-decoration: none; font-weight: bold; }
+a.download { font-size: 20; text-decoration: none; font-weight: bold; }
 .dl-button { margin: 12px auto 0; width: 70%;  background: #C1D3F0; border: 1px #4976D0 solid;
 padding: 5px;
 border-radius: 5px;
@@ -179,8 +179,8 @@ border-radius: 5px;
 -webkit-border-radius:  5px;
 }
 .dl-info { font-size: 12px; }
-.dl-other { font-size: 10px; font-style: italic; float: right; }
-.os, .otheros, .mirror { padding: 0 0 12px 15px; line-height: 20px; }
+.dl-other { font-size: 10; font-style: italic; float: right; }
+.os, .otheros, .mirror { padding: 0 0 12px 15px; line-height: 20; }
 .os li, .otheros li { padding-left: 25px;
     background: url(http://images.videolan.org/images/12-em-down.png) left no-repeat;}
 
@@ -188,11 +188,11 @@ border-radius: 5px;
 .os2 { float:left;margin-left:3em; }
 
 /* Pictures */
-.videolan-logo { float: left; width: 120px; height: 45px; }
+.videolan-logo { float: left; width: 120; height: 45px; }
 
 .vlc-screenshot {
-    float: right; width: 300px; height: 200px;
-    margin-top: -25px; padding-left: 40px;
+    float: right; width: 300; height: 200;
+    margin-top: -25px; padding-left: 40;
 }
 
 .vlc-logo {
@@ -211,13 +211,13 @@ div.screenshot{
     float:left;
     margin-right: 3em;
     text-align:center;
-    width: 150px;
+    width: 150;
 }
 
 /* Misc */
 /* Feature pages */
 .notes { font-size: 9px; }
-.notes ol { list-style-type: decimal; padding-left: 30px; margin-bottom: 1em; }
+.notes ol { list-style-type: decimal; padding-left: 30; margin-bottom: 1em; }
 .notes li { line-height: 135%; padding: 0 0 4px 5px; list-style-position: outside; }
 
 .vlcversion { font-size: 16px; }
@@ -233,7 +233,7 @@ div.screenshot{
 
 .feature-icon li { display: inline;
     list-style-type: none;
-    padding-right: 20px; }
+    padding-right: 20; }
 
 #disclaimer { font-style: italic; }
 
@@ -259,7 +259,7 @@ a.en {
       text-decoration: none!important;
 }
 
-.blue-bullet { padding: 0 0 20px 0;line-height: 19px;}
+.blue-bullet { padding: 0 0 20 0;line-height: 19px;}
 .blue-bullet li {
     background: url(http://images.videolan.org/images/bullet-blue.png) left top no-repeat;
     padding: 0 0 4px 25px;
@@ -272,13 +272,13 @@ a.en {
 
 #footer {    color: #75818A;    background: #E4E7E9;
         font-size: 11px; text-align: center;
-        clear: both; height: 40px; padding: 15px;
+        clear: both; height: 40; padding: 15px;
         border-top: 1px solid #C8CDD0;
-        margin-top: 20px;
+        margin-top: 20;
 }
 #footer a { color: #75818A; text-decoration: underline; }
 #footer a:hover { color: #333; text-decoration: none; }
-#footer p { line-height: 20px; }
+#footer p { line-height: 20; }
 
 /**** New front page ****/
 #mainbox {
@@ -288,31 +288,31 @@ a.en {
   -webkit-border-radius:  5px;
   border-radius: 5px;
   border: 1px solid #F0F0F0;
-  padding: 10px;
-  -moz-box-shadow: 0px 3px 5px #888;
-  -webkit-box-shadow: 0px 3px 5px #888;
+  padding: 10;
+  -moz-box-shadow: 0 3px 5px #888;
+  -webkit-box-shadow: 0 3px 5px #888;
   z-index: 999;
   overflow:hidden;
-  margin-bottom: 10px;
+  margin-bottom: 10;
 }
 #ieShadow {
   position: absolute;
   text-align: center;
   background: #888;
   z-index: -999;
-  height: 420px;
+  height: 420;
   filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='5', MakeShadow='true', ShadowOpacity='0.50')
 }
 #ieMove {
   position: relative;
-  top: -400px;
+  top: -400;
 }
 
 #mainbox h1 {
   font-size: 16pt;
   font-weight: bold;
-  border: 0px;
-  padding: 0px;
+  border: 0;
+  padding: 0;
   padding-top: 5px;
   margin-bottom: 5px;
   line-height: 16pt;
@@ -323,13 +323,13 @@ a.en {
   background: url(images/frontpage/download.png) left center no-repeat;
 }
 
-p.image { float: left; padding: 14px 5px 0px 5px; }
+p.image { float: left; padding: 14px 5px 0 5px; }
 
 #project_statement p { color: #686868;}
 #project_statement h2 { color: #555;}
-#mainbox p { line-height: 150%; margin: 0.5em 0 0.5em 0; }
+#mainbox p { line-height: 150%; margin: 0.5em 0; }
 
-div.project { width: 200px; float: left;  margin: 0 5px; height: 80px; }
+div.project { width: 200; float: left;  margin: 0 5px; height: 80; }
 div.project h3, div.project-large h3 { font-size: 12px; color: #666; border: 5px 0 0 0; }
 
 ul.menu {
@@ -347,7 +347,7 @@ ul.menu a:link {
 /* Colored panels */
 .panel-orange {
     width: 100%; margin: 25px auto 0;
-    min-width: 200px;max-width: 792px;
+    min-width: 200;max-width: 792px;
     color:#C60;
 }
 .panel-orange .hd .c,
@@ -368,7 +368,7 @@ ul.menu a:link {
 }
 .panel-orange .bd .c {
     margin-right: -8px;
-    padding: 10px;
+    padding: 10;
     background: transparent url(http://images.videolan.org/images/panel-orange/mr.gif) repeat-y right;
 }
  
@@ -383,8 +383,8 @@ ul.menu a:link {
 
 .panel-orange-bullet {     padding: 0;line-height: 19px; }
 .panel-orange-bullet li {
-    background: url(http://images.videolan.org/images/bullet-orange.png) 0px 1px no-repeat;
-    padding: 0 0 0px 20px;
+    background: url(http://images.videolan.org/images/bullet-orange.png) 0 1px no-repeat;
+    padding: 0 0 0 20;
     margin-bottom: 4px;
 }
 
@@ -398,7 +398,7 @@ ul.menu a:link {
 
 .panel-blue {
     width: 100%;margin: 25px auto 0;
-    min-width: 200px;max-width: 792px;
+    min-width: 200;max-width: 792px;
     color: #039;
 }
 
@@ -420,7 +420,7 @@ ul.menu a:link {
 }
 .panel-blue .bd .c {
     margin-right: -8px;
-    padding: 10px;
+    padding: 10;
     background: transparent url(http://images.videolan.org/images/panel-blue/mr.gif) repeat-y right;
 }
 
@@ -433,10 +433,10 @@ ul.menu a:link {
     margin-right: -8px;
 }
 
-.panel-blue-bullet { padding: 0 0 20px 0;line-height: 19px;}
+.panel-blue-bullet { padding: 0 0 20 0;line-height: 19px;}
 .panel-blue-bullet li {
-    background: url(http://images.videolan.org/images/bullet-blue.png) 0px 1px no-repeat;
-    padding: 0 0 0px 20px;
+    background: url(http://images.videolan.org/images/bullet-blue.png) 0 1px no-repeat;
+    padding: 0 0 0 20;
     margin-bottom: 4px;
 }
 
@@ -450,7 +450,7 @@ ul.menu a:link {
 
 .panel-gray {
      width: 100%; margin: 25px auto 0;
-    min-width: 200px; max-width: 792px;
+    min-width: 200; max-width: 792px;
     color:#333;
 }
 
@@ -472,7 +472,7 @@ ul.menu a:link {
 }
 .panel-gray .bd .c {
     margin-right: -8px;
-    padding: 10px;
+    padding: 10;
     background: transparent url(http://images.videolan.org/images/panel-gray/mr.gif) repeat-y right;
 }
  
@@ -487,8 +487,8 @@ ul.menu a:link {
 
 .panel-gray-bullet { padding: 0; line-height: 19px; }
 .panel-gray-bullet li {
-    background: url(http://images.videolan.org/images/bullet-black.png) 0px 1px no-repeat;
-    padding: 0 0 0px 20px;
+    background: url(http://images.videolan.org/images/bullet-black.png) 0 1px no-repeat;
+    padding: 0 0 0 20;
     margin-bottom: 4px;
 }
 
@@ -501,7 +501,7 @@ ul.menu a:link {
 
 .panel-green {
     width: 100%; margin: 25px auto 0;
-    min-width: 200px;max-width: 792px;
+    min-width: 200;max-width: 792px;
     color:#4e9a06;
 }
 .panel-green hr { border: 1px solid #4e9a06; width: 80%; margin: 0 auto; }
@@ -523,7 +523,7 @@ ul.menu a:link {
 }
 .panel-green .bd .c {
     margin-right: -8px;
-    padding: 10px;
+    padding: 10;
     background: transparent url(http://images.videolan.org/images/panel-green/mr.gif) repeat-y right;
 }
  
@@ -538,8 +538,8 @@ ul.menu a:link {
 
 .panel-green-bullet {     padding: 0;line-height: 19px; }
 .panel-green-bullet li {
-    background: url(http://images.videolan.org/images/bullet-green.png) 0px 1px no-repeat;
-    padding: 0 0 0px 20px;
+    background: url(http://images.videolan.org/images/bullet-green.png) 0 1px no-repeat;
+    padding: 0 0 0 20;
     margin-bottom: 4px;
 }
 

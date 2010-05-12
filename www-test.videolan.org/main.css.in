@@ -34,7 +34,7 @@ h1 { font-weight: bold; font-size: 22px;
     border-bottom: 1px solid #CCC;
     margin-bottom: 8px;
 }
-h1#motto { margin-bottom: 3px; }
+h1#motto { margin-bottom: 0px; }
 #right h1 { border: none; }
 
 .header-buttons { position:absolute; right:0px; font-size:10pt; }
@@ -141,7 +141,7 @@ hr { border: 1px solid #2D58AE; }
 max-width: 1400px; margin: 0 auto; }
 
 .fixed_table { table-layout: fixed; }
-.fixed_table td { padding: 0px 18px; border: 0px solid red;}
+.fixed_table td { padding: 0px 15px; border: 0px solid red;}
 
 .fronttable td { text-align: justify; line-height: 175%; }
 
@@ -156,9 +156,43 @@ td {
     vertical-align: top;
 }
 
-#left { float:left;width: 56%; padding-bottom: 55px; }
-#right { float:right; width: 40%; padding-bottom: 55px; }
+#left, .left { float:left;width: 56%; padding-bottom: 55px; }
+#right, .right { float:right; width: 40%; padding-bottom: 55px; }
 #fullwidth { padding-bottom: 55px; float:left; }
+
+.dl-button2 { -moz-appearance:none;
+       -moz-border-radius:0.3em 0.3em 0.3em 0.3em;
+       -moz-box-shadow:0 -1px 0 rgba(0, 0, 0, 0.3), 1px 0 0 rgba(0, 0, 0, 0.3), 0 1px 0 rgba(0, 0, 0, 0.3), -1px 0 0 rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.5);
+       -moz-box-sizing:border-box;
+       -moz-user-select:none;
+       background-image:-moz-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.15) 50%, transparent 50%, rgba(0, 0, 0, 0.2));
+       border-color:rgba(255, 255, 255, 0.698) rgba(255, 255, 255, 0.2) -moz-use-text-color;
+       border-left:1px solid rgba(255, 255, 255, 0.2);
+       border-right:1px solid rgba(255, 255, 255, 0.2);
+       border-style:solid solid none;
+       border-width:1px 1px medium;
+
+       cursor:pointer;
+       display:inline-block;
+       overflow:hidden;
+       font:bold 1em/1em sans-serif;
+       text-align:center;
+       text-decoration:none;
+       text-shadow:-1px -1px 1px rgba(0, 0, 0, 0.3);
+
+      background-color:#408ACD;
+      color:#FFFFFF;
+      font-size:21px;
+
+      vertical-align:middle;
+      white-space:nowrap;
+
+      width:auto;
+      height:1.8em;
+      margin-top:-0.2em;
+      padding:0.36em 1em;
+
+}
 
 #left p, #right p, #fullwidth p {
      padding: 0 0 10px 0; line-height: 135%;
@@ -550,4 +584,3 @@ ul.menu a:link {
 .panel-green p { margin: 0; padding: 0; }
 .panel-green a, .panel-green a:visited { color: #4e9a06; }
 .panel-green a:hover, .panel-green a:active { color: #000; }
-

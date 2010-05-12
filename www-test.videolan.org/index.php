@@ -6,9 +6,8 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/magpierss/rss_fetch.inc");
-?>
 
-<?php /* Specific IE hack */?>
+/* Specific IE hack */?>
 <!--[if IE]>
 <div id="ieShadow"></div>
 <script type="text/javascript" language="javascript">
@@ -97,7 +96,7 @@ window.onresize = function(evt) { adapt(); }
       <td id="project_desc">
         <div class="panel" id="panel-vlc" style="display:block;">
           <h2 class="project_name">VLC</h2>
-          <h3>Plays It All!</h3>
+            <div class=left>
             <p>VLC is a <b>free</b> cross-platform multimedia <b>player</b> and <b>framework</b>,
                that reads most audio and video files as well as DVD, Audio CD,
                VCD, and various streaming protocols.</p>
@@ -137,6 +136,11 @@ window.onresize = function(evt) { adapt(); }
                 </noscript>
               </div>
               <div class="dl-other"><a href="/vlc/">Other Systems</a></div>
+            </div>
+            <div class="right">
+               <div class="dl-button2">Try it now!
+               </div>
+            </div>
         </div>
         <div class="panel" id="panel-x264" style="display:none;">
             x264

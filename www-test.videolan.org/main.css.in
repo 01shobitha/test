@@ -164,9 +164,11 @@ td {
      padding: 0 0 10px 0; line-height: 135%;
 }
 .date { color: #75818A; font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 10px; position: relative; top: -20px; float: right; }
+    font-size: 10px; position: relative; top: -20px; float: right; margin-bottom: -30px; }
 
-#news p { margin: 3px 7px 9px 7px; }
+
+#news p { margin: 3px 7px 12px 7px; font:12px/19px georgia !important; }
+#news br{ margin-bottom: 7px;}
 .item { padding: 2px 14px 0px; }
 
 /************** Main page content - Specific styles ******************/

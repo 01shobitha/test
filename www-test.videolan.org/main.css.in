@@ -175,6 +175,7 @@ td {
 a.download { font-size: 20px; text-decoration: none; font-weight: bold; }
 .dl-info { font-size: 12px; }
 .dl-other { font-size: 10px; font-style: italic; float: right; }
+.dl-button a { color: white; text-decoration: none; }
 .dl-button { -moz-appearance:none;
     border-radius: 0.3em;
     -moz-border-radius: 0.3em;
@@ -199,7 +200,6 @@ a.download { font-size: 20px; text-decoration: none; font-weight: bold; }
 
     cursor:pointer;
     overflow:hidden;
-    display:inline-block;
     font: bold 1em/1em sans-serif;
     text-align:center;
     text-decoration:none;
@@ -212,9 +212,10 @@ a.download { font-size: 20px; text-decoration: none; font-weight: bold; }
     vertical-align:middle;
     white-space:nowrap;
 
-    width:auto;
+    width: 13em;
     height:1.8em;
     padding:0.36em 1em;
+    margin: 0 auto;
 }
 
 .os, .otheros, .mirror { padding: 0 0 12px 15px; line-height: 20px; }

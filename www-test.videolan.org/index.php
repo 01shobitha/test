@@ -100,7 +100,9 @@ window.onresize = function(evt) { adapt(); }
             <p>VLC is a <b>free</b> cross-platform multimedia <b>player</b> and <b>framework</b>,
                that reads most audio and video files as well as DVD, Audio CD,
                VCD, and various streaming protocols.</p>
-               <div class="dl-button">
+               <br />
+
+               <div style="border: 0px red solid;">
                  <script type="text/javascript"><!--
                 if ( <?php echo $is_win32; ?> ) { <?php DoDL("Win32"); ?> }
                 else if( <?php echo $is_beos; ?> ) { <?php DoDL("BeOS"); ?> }
@@ -134,13 +136,13 @@ window.onresize = function(evt) { adapt(); }
                 <noscript>
                   <?php DoDL("Win32",0);DoDL("OSX-PPC",0);DoDL("OSX-Intel",0); ?>
                 </noscript>
-              </div>
+                </div>
               <div class="dl-other"><a href="/vlc/">Other Systems</a></div>
+
+
             </div>
             <div class="right">
-               <div class="dl-button2">Try it now!
-               </div>
-            </div>
+                           </div>
         </div>
         <div class="panel" id="panel-x264" style="display:none;">
             x264

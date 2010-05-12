@@ -167,6 +167,7 @@ td {
     font-size: 10px; position: relative; top: -20px; float: right; }
 
 #news p { margin: 3px 7px 9px 7px; }
+.item { padding: 2px 14px 0px; }
 
 /************** Main page content - Specific styles ******************/
 
@@ -333,7 +334,7 @@ a.en {
   z-index: 999;
   overflow:hidden;
   padding: 10px;
-  margin: 20px auto 30px;
+  margin: 24px auto 32px;
 }
 #ieShadow {
   position: absolute;

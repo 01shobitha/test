@@ -234,7 +234,7 @@ window.onresize = function(evt) { adapt(); }
 </td>
 <td ></td>
 <?php /* Begin planet items */ ?>
-<td style="width: 42%;">
+<td style="width: 42%; padding: 2px 12px;">
     <?php
       define('MAGPIE_OUTPUT_ENCODING', 'UTF-8');
       $rss = fetch_rss("http://planet.videolan.org/rss10.xml");

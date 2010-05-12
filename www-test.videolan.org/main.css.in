@@ -173,7 +173,8 @@ td {
         -moz-box-sizing:border-box;
         -webkit-box-sizing:border-box;
 
-        background-image:-moz-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.15) 50%, transparent 50%, rgba(0, 0, 0, 0.2));
+        background: -moz-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.15) 50%, transparent 50%, rgba(0, 0, 0, 0.2));
+        background: -webkit-gradient(linear, center top, center bottom, from(rgba(255, 255, 255, 0.5)), color-stop(50%, rgba(255, 255, 255, 0.15)), to(rgba(0, 0, 0, 0.2)));
 
        border-color:rgba(255, 255, 255, 0.698) rgba(255, 255, 255, 0.2) -moz-use-text-color;
        border-left:  1px solid rgba(255, 255, 255, 0.2);

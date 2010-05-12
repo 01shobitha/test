@@ -101,7 +101,7 @@ window.onresize = function(evt) { adapt(); }
                VCD, and various streaming protocols.</p>
                <br />
 
-               <div style="border: 0px red solid;">
+               <div style="border: 0px red solid; margin: 0 auto; font-size: 21px; width: 13em;">
                  <script type="text/javascript"><!--
                 if ( <?php echo $is_win32; ?> ) { <?php DoDL("Win32"); ?> }
                 else if( <?php echo $is_beos; ?> ) { <?php DoDL("BeOS"); ?> }
@@ -135,8 +135,8 @@ window.onresize = function(evt) { adapt(); }
                 <noscript>
                   <?php DoDL("Win32",0);DoDL("OSX-PPC",0);DoDL("OSX-Intel",0); ?>
                 </noscript>
-                </div>
               <div class="dl-other"><a href="/vlc/">Other Systems</a></div>
+                </div>
 
 
             </div>

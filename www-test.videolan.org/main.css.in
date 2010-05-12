@@ -326,12 +326,14 @@ a.en {
   -webkit-border-radius:  5px;
   border-radius: 5px;
   border: 1px solid #F0F0F0;
-  padding: 10px;
+
+  box-shadow: 0px 3px 5px #888;
   -moz-box-shadow: 0px 3px 5px #888;
   -webkit-box-shadow: 0px 3px 5px #888;
   z-index: 999;
   overflow:hidden;
-  margin-bottom: 10px;
+  padding: 10px;
+  margin-bottom: 30px;
 }
 #ieShadow {
   position: absolute;

@@ -73,7 +73,6 @@ window.onresize = function(evt) { adapt(); }
 </div>
 
 <?php /* Projects */ ?>
-<h1>Software Projects</h1>
 <div id="mainbox" style="overflow: hidden;">
     <table><tr>
       <td style="width: 300px;" id="img">

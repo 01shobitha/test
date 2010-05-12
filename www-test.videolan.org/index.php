@@ -140,7 +140,14 @@ window.onresize = function(evt) { adapt(); }
 
 
             </div>
+
             <div class="right">
+             <ul class="blue-bullet">
+              <li>Free</li>
+              <li>No spyware</li>
+              <li></li>
+              <li></li>
+              </ul>
                            </div>
         </div>
         <div class="panel" id="panel-x264" style="display:none;">

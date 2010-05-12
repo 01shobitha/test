@@ -96,6 +96,7 @@ window.onresize = function(evt) { adapt(); }
       </td>
       <td id="project_desc">
         <div class="panel" id="panel-vlc" style="display:block;">
+          <h2 class="project_name">VLC</h2>
           <h3>Plays It All!</h3>
             <p>VLC is a <b>free</b> cross-platform multimedia <b>player</b> and <b>framework</b>,
                that reads most audio and video files as well as DVD, Audio CD,

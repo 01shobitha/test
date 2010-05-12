@@ -34,7 +34,7 @@ h1 { font-weight: bold; font-size: 22px;
     border-bottom: 1px solid #CCC;
     margin-bottom: 8px;
 }
-h1#motto { margin-bottom: 0px; }
+h1#motto { margin-bottom: 3px; }
 #right h1 { border: none; }
 
 .header-buttons { position:absolute; right:0px; font-size:10pt; }
@@ -141,7 +141,7 @@ hr { border: 1px solid #2D58AE; }
 max-width: 1400px; margin: 0 auto; }
 
 .fixed_table { table-layout: fixed; }
-.fixed_table td { padding: 0px 15px; border: 0px solid red;}
+.fixed_table td { padding: 0px 18px; border: 0px solid red;}
 
 .fronttable td { text-align: justify; line-height: 175%; }
 

@@ -196,7 +196,7 @@ window.onresize = function(evt) { adapt(); }
     <script type="text/javascript">
 
         function registerPanel(buttonID, panelID) {
-            $("#" + buttonID).mouseover(function() {
+            $("#" + buttonID).click(function() {
                 $(".panel").each(function() {
                     $(this).hide();
                 });

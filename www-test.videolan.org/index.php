@@ -96,9 +96,9 @@ window.onresize = function(evt) { adapt(); }
         <div class="panel" id="panel-vlc" style="display:block;">
           <h2 class="project_name">VLC</h2>
             <div class="left">
-            <p>VLC is a <b>free</b> cross-platform multimedia <b>player</b> and <b>framework</b>,
-               that reads most audio and video files as well as DVD, Audio CD,
-               VCD, and various streaming protocols.</p>
+            <p>VLC is a <b>free</b> and <b>open source</b> cross-platform multimedia <b>player</b> and <b>framework</b>,
+               that plays most multimedias files as well as DVD, Audio CD, VCD, and various streaming protocols.</p>
+            <p>It is <b>simple</b>to use, yet very powerful and extendable.</p>
                <br />
 
                <div style="border: 0px red solid; margin: 0 auto; font-size: 21px; width: 13em;">

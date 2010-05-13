@@ -1,7 +1,7 @@
 <?php
    $title = ", VLC: Free streaming and multimedia solutions for all OS!";
    $menu = array( "project", "home" );
-   $additional_js = array("http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js");
+   $additional_js = array("/js/jquery.min.js");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");

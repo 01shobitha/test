@@ -45,8 +45,8 @@ window.onresize = function(evt) { adapt(); }
                 <p>A <b>community</b> makes VideoLAN. You too <a href="/contribute.html">can <b>help</b>!</a></p>
                 <p>All funds come from your donations. So please <b>donate</b>!</p>
                 <div style="float: right; padding-top: 10px;"><span id="donate" style="font-size: 14px;">Donate with Paypal:</span>
-                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="display: inline;">
                         <span>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="display: inline;">
                           <input name="cmd" value="_xclick" type="hidden"/>
                           <input name="business" value="sponsor@videolan.org" type="hidden"/>
                           <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
@@ -54,10 +54,10 @@ window.onresize = function(evt) { adapt(); }
                           <input name="currency_code" value="EUR" type="hidden"/>
                           <input name="tax" value="0" type="hidden"/>
                           <input name="submit" type="submit" alt="Donate money to VideoLAN via PayPal" value="&euro;" class="grey-button" style="height:24px;font-weight:bold;font-size:10pt; height: 100%;"/>
-                        </span>
                     </form>
-                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="display: inline;">
+                        </span>
                         <span>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="display: inline;">
                           <input name="cmd" value="_xclick" type="hidden"/>
                           <input name="business" value="sponsor@videolan.org" type="hidden"/>
                           <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
@@ -65,8 +65,8 @@ window.onresize = function(evt) { adapt(); }
                           <input name="currency_code" value="US" type="hidden"/>
                           <input name="tax" value="0" type="hidden"/>
                           <input name="submit" type="submit" alt="Donate money to VideoLAN via PayPal" value="$" class="grey-button" style="height:24px;font-weight:bold;font-size:10pt;height: 100%;"/>
-                        </span>
                     </form>
+                        </span>
                     </div>
         </td></tr>
     </table>
@@ -95,7 +95,7 @@ window.onresize = function(evt) { adapt(); }
       <td id="project_desc">
         <div class="panel" id="panel-vlc" style="display:block;">
           <h2 class="project_name">VLC</h2>
-            <div class=left>
+            <div class="left">
             <p>VLC is a <b>free</b> cross-platform multimedia <b>player</b> and <b>framework</b>,
                that reads most audio and video files as well as DVD, Audio CD,
                VCD, and various streaming protocols.</p>

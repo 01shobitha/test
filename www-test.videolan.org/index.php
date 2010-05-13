@@ -44,7 +44,7 @@ window.onresize = function(evt) { adapt(); }
                 <h2>Contribute</h2>
                 <p>A <b>community</b> makes VideoLAN. You too <a href="/contribute.html">can <b>help</b>!</a></p>
                 <p>All funds come from your donations. So please <b>donate</b>!</p>
-                <div style="float: right; padding-top: 10px;"><span id="donate" style="font-size: 16px;">Donate with Paypal:</span>
+                <div style="float: right; padding-top: 10px;"><span id="donate" style="font-size: 14px;">Donate with Paypal:</span>
                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="display: inline;">
                         <span>
                           <input name="cmd" value="_xclick" type="hidden"/>
@@ -245,6 +245,7 @@ window.onresize = function(evt) { adapt(); }
 <?php /* Begin planet items */ ?>
 <td style="width: 42%; padding: 2px 12px;">
     <?php
+      define('MAGPIE_INPUT_ENCODING', 'UTF-8');
       define('MAGPIE_OUTPUT_ENCODING', 'UTF-8');
       $rss = fetch_rss("http://planet.videolan.org/rss10.xml");
       $i = 0;
@@ -253,7 +254,7 @@ window.onresize = function(evt) { adapt(); }
       $columns = 1;
       foreach($rss->items as $item) {
         echo "<p>";
-        echo "<b>".htmlentities($item['title'])."</b></p>";
+        echo "<b>".htmlentities($item['title'],ENT_COMPAT,"UTF-8")."</b></p>";
         echo "<p style=\"border-bottom: 1px dashed #CCC;padding-bottom:5px;margin-bottom:5px\">";
         echo substr(strip_tags(html_entity_decode($item['content']['encoded'])),0,$chars_per_entry);
         echo "<a href=\"".$item['link']."\">[...]</a><br/>";

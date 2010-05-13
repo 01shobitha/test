@@ -100,7 +100,7 @@ hr { border: 1px solid #2D58AE; }
 #navmenu li { display: inline; margin: 0 16px 0 0; padding: 0; }
 #navmenu li a { font-weight: bold; font-size: 11px; text-decoration: none;color: #039; }
 
-#navmenu li.selected a {
+#navmenu .selected a {
     font-weight: bold;
     font-size: 11px;
     text-decoration: none;
@@ -121,7 +121,7 @@ hr { border: 1px solid #2D58AE; }
     float: left; padding: 14px 20px 10px 0;
 }
 
-#submenucontainer ul li.selected a {
+#submenucontainer .selected a {
     font-family: Geneva, Arial, Helvetica, sans-serif;
     font-weight: normal; color: #2D58AE;font-size: 17px;
     text-decoration: none;

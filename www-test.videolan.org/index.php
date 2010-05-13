@@ -205,6 +205,14 @@ window.onresize = function(evt) { adapt(); }
                 });
                 $("#" + panelID).show();
             });
+
+            $("#" + buttonID).mouseover(function() {
+                $(".project").each(function() {
+                    $(this).css("background","none");
+                });
+                $("#" + buttonID).css("background","#e8e8e8");
+            });
+
         }
 
         registerPanel("project-vlc", "panel-vlc");

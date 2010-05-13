@@ -1,7 +1,7 @@
 <?php
    $title = ", VLC: Free streaming and multimedia solutions for all OS!";
    $menu = array( "project", "home" );
-   $additional_js = array("http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js","/js/jcarousellite_1.0.1.js");
+   $additional_js = array("http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");
@@ -98,7 +98,7 @@ window.onresize = function(evt) { adapt(); }
             <div class="left">
             <p>VLC is a <b>free</b> and <b>open source</b> cross-platform multimedia <b>player</b> and <b>framework</b>,
                that plays most multimedias files as well as DVD, Audio CD, VCD, and various streaming protocols.</p>
-            <p>It is <b>simple</b>to use, yet very powerful and extendable.</p>
+            <p>It is <b>simple</b> to use, yet very powerful and extendable.</p>
                <br />
 
                <div style="border: 0px red solid; margin: 0 auto; font-size: 21px; width: 13em;">
@@ -135,7 +135,7 @@ window.onresize = function(evt) { adapt(); }
                 <noscript>
                   <?php DoDL("Win32",0);DoDL("OSX-PPC",0);DoDL("OSX-Intel",0); ?>
                 </noscript>
-              <div class="dl-other"><a href="/vlc/">Other Systems</a></div>
+              <div class="dl-other"><a href="/vlc/">Other Systems, Versions</a></div>
                 </div>
 
 

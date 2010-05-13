@@ -156,7 +156,7 @@ window.onresize = function(evt) { adapt(); }
         <div class="panel" id="panel-x264" style="display:none;">
           <h2 class="project_name">x264</h2>
             <div class="left">
-              <p>x264 is a <b>free software</b> library for encoding video streams into the <b>H.264/MPEG-4 AVC</b> format.<br />
+              <p>x264 is a <b>free software</b> <b>library</b> and <b>program</b> for encoding video streams into the <b>H.264/MPEG-4 AVC</b> format.<br />
               It is released under the terms of the GNU General Public License.</p>
               <p>It provides the <b>best in class</b> encoding, showing numerous settings and having won many quality awards.</p>
               <p style="font-size: 14px;"><a href="/developers/x264.html"><b>Know more</b> about x264</a> and <a href="/developers/x264.html"><b>Download</b></a>.</p>
@@ -168,8 +168,8 @@ window.onresize = function(evt) { adapt(); }
               <li>Interlaced Coding</li>
               <li>Quantization scaling matrices</li>
               <li>4:2:0 and 4:2:2 support</li>
-              <li>10bit</li>
-              <li></li>
+              <li>10bits depth support</li>
+              <li>Windows, Linux, Mac and Unix</li>
              </ul>
             </div>
 

@@ -69,7 +69,7 @@ function DoDL( $os, $with_js=1 )
     {
         echo "<div><div class=\"dl-button\"> <a " ;
         echo "href=\"".$dl[$os][0]."\">Download VLC";
-        echo "</a><div class=\"dl-info\">".$dl[$os][1]."</div></div>\n";
+        echo "</a></div><div class=\"dl-info\">".$dl[$os][1]."</div></div>\n";
     }
 }
 ?>

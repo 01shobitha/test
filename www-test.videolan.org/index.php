@@ -156,20 +156,26 @@ window.onresize = function(evt) { adapt(); }
         <div class="panel" id="panel-x264" style="display:none;">
           <h2 class="project_name">x264</h2>
             <div class="left">
-              <p>x264 is a <b>free software</b> <b>library</b> and <b>program</b> for encoding video streams into the <b>H.264/MPEG-4 AVC</b> format.<br />
+
+              <p>x264 is a <b>free software</b> <b>library</b> and <b>application</b> for encoding video streams into the <b>H.264/MPEG-4 AVC</b> format.<br />
               It is released under the terms of the GNU General Public License.</p>
-              <p>It provides the <b>best in class</b> encoding, showing numerous settings and having won many quality awards.</p>
+
+              <p>It provides <b>best-in-class</b> performance, compression, and features.<br />
+               <b>Performance-wise</b>, x264 can encode 4 or more 1080p streams in realtime on a single consumer-level computer.<br />
+               <b>Quality-wise</b>, x264 has the world's most advanced <b>psychovisual optimizations</b> and has won many awards,
+               mostly recently a <b>dramatic victory</b> in the <b>2010 MSU codec</b> comparison.<br />
+               <b>Feature-wise</b>, x264 supports features necessary for many different applications, such as <b>television broadcast</b>, <b>Blu-ray</b>,
+               low-latency video applications, and <b>web video</b>.
               <p style="font-size: 14px;"><a href="/developers/x264.html"><b>Know more</b> about x264</a> and <a href="/developers/x264.html"><b>Download</b></a>.</p>
             </div>
             <div class="right">
              <ul class="blue-bullet">
               <li>x86, Altivec, and ARMv7 SIMD</li>
               <li>Blu-Ray compliant</li>
-              <li>Interlaced Coding</li>
-              <li>Quantization scaling matrices</li>
-              <li>4:2:0 and 4:2:2 support</li>
-              <li>10bits depth support</li>
-              <li>Windows, Linux, Mac and Unix</li>
+              <li>Baseline, Main, and High Profile</li>
+              <li>1-pass, 2-pass, and constant quality encoding</li>
+              <li>Low-latency mode</li>
+              <li>Lossless compression support</li>
              </ul>
             </div>
 

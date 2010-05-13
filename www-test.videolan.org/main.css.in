@@ -40,26 +40,23 @@ h1#motto { margin-bottom: 0px; }
 .header-buttons { position:absolute; right:0px; font-size:10pt; }
 
 .header-buttons a, .grey-button{
-	background: #CCC;
-	color: #FFF;
-	padding: 2px !important;
-	margin: 0px !important;
-	text-decoration: none;
-	-moz-border-radius: 5px;
-	-khtml-border-radius: 5px;
-	border-radius: 5px;
-	border: 1px solid #BBB;
+    background: #CCC; color: #FFF;
+    padding: 2px !important; margin: 0px !important;
+    text-decoration: none;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #BBB;
 }
 
 .header-buttons a:hover, .grey-button:hover { background: #BBB; }
 
 h2, #donate{
-	font-family: Helvetica, Verdana, Arial, sans-serif;
-	color: #333;
-	font-weight: bold;
-	font-size: 18px;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    font-weight: bold; font-size: 18px;
     padding: 6px 0 4px 0;
-	line-height: 19px;
+    line-height: 19px;
+    color: #333;
 }
 
 h2 a, h2 a:link, h2 a:visited {
@@ -78,13 +75,13 @@ h3 {
     margin: 7px 0 3px 0;
 }
 
+hr { border: 1px solid #2D58AE; }
+
 code { font-family: Courier, monospace, fixed; }
 
 p.center { text-align:center; }
 img.center { display: block; margin: auto; }
 .hidden { display:none; }
-
-hr { border: 1px solid #2D58AE; }
 
 #pagecontainer { min-width: 780px; max-width: 1600px; width: 90%; height: 100%; margin: 0 auto; }
 

@@ -172,24 +172,24 @@ window.onresize = function(evt) { adapt(); }
     <h2 style="border-bottom: 1px solid #CCC"><a href="/projects/">Projects</a></h2>
     <div class ="project" id="project-vlc">
         <p class="image"><img src="images/vlc64x64.png" alt="VLC cone logo"/></p>
-        <h2><a href="/vlc/" class="product">VLC</a></h2>
+        <h2><a href="#" class="product">VLC</a></h2>
         <h3>Plays It All!</h3>
     </div>
     <div class ="project" id="project-x264">
         <p class="image"><img src="/images/x264_64.png" alt="x264 logo"/></p>
-        <h2><a href="/developers/x264.html" class="product">x264</a></h2>
+        <h2><a href="#" class="product">x264</a></h2>
         <h3>Perfect Encoding</h3>
     </div>
     <div class ="project" id="project-dvblast">
-        <h2><a href="/projects/dvblast.html" class="product">DVBlast!</a></h2>
+        <h2><a href="#" class="product">DVBlast!</a></h2>
         <h3>Simple but powerfull DVB streamer</h3>
     </div>
     <div class="project" id="project-libdvdcss">
-        <h2><a href="/developers/libdvdcss.html" class="product">libdvdcss</a></h2>
+        <h2><a href="#" class="product">libdvdcss</a></h2>
         <h3>DVD decryption library</h3>
     </div>
     <div class="project" id="project-vlma">
-        <h2><a href="/projects/vlma/" class="product">VLMa</a></h2>
+        <h2><a href="#" class="product">VLMa</a></h2>
         <h3>VideoLAN manager for VLC streamers</h3>
     </div>
 

@@ -165,7 +165,10 @@ window.onresize = function(evt) { adapt(); }
                <b>Quality-wise</b>, x264 has the world's most advanced <b>psychovisual optimizations</b> and has won many awards,
                <!-- mostly recently a <b>dramatic victory</b> in the <b>2010 MSU codec</b> comparison-->.<br />
                <b>Feature-wise</b>, x264 supports features necessary for many different applications, such as <b>television broadcast</b>, <b>Blu-ray</b>,
-               low-latency video applications, and <b>web video</b>.
+               low-latency video applications, and <b>web video</b>.</p>
+
+               <p>x264 forms the core of many web video services, such as <b>Youtube, Facebook, Vimeo, and Hulu</b>.
+                It is also used in television broadcast by companies such as Avail Media.</p>
               <p style="font-size: 14px;"><a href="/developers/x264.html"><b>Know more</b> about x264</a> and <a href="/developers/x264.html"><b>Download</b></a>.</p>
             </div>
             <div class="right">

@@ -238,6 +238,8 @@ window.onresize = function(evt) { adapt(); }
         registerPanel("project-dvblast", "panel-dvblast");
         registerPanel("project-libdvdcss", "panel-libdvdcss");
         registerPanel("project-vlma", "panel-vlma");
+
+        $("#project-vlc").css("background","#e8e8e8");
     </script>
 
 <?php /* Titles */ ?>

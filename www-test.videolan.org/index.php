@@ -157,8 +157,8 @@ window.onresize = function(evt) { adapt(); }
           <h2 class="project_name">x264</h2>
             <div class="left">
 
-              <p>x264 is a <b>free software</b> <b>library</b> and <b>application</b> for encoding video streams into the <b>H.264/MPEG-4 AVC</b> format.<br />
-              It is released under the terms of the GNU General Public License.</p>
+              <p>x264 is a <b>free software</b> <b>library</b> and <b>application</b> for encoding video streams into the <b>H.264/MPEG-4 AVC</b> format,
+              and is is released under the terms of the GNU General Public License.</p>
 
               <p>It provides <b>best-in-class</b> performance, compression, and features.<br />
                <b>Performance-wise</b>, x264 can encode 4 or more 1080p streams in realtime on a single consumer-level computer.<br />

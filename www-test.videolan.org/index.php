@@ -143,18 +143,36 @@ window.onresize = function(evt) { adapt(); }
 
             <div class="right">
              <ul class="blue-bullet">
-              <li><b>Simple</b>, powerfull and <b>Fast</b></li>
+              <li><b>Simple</b>, Powerfull and <b>Fast</b></li>
               <li>Plays everything, <b>Files</b>, <b>Discs</b> and <b>Streams</b></li>
               <li>No codec packs needed</li>
               <li>Completly <b>Free</b></li>
               <li>0 Spyware, Ads or User Tracking</li>
-              <li>Media <b>Converter</b> and <b>streamer</b></li>
-              <li>No installation required</li>
+              <li>Media <b>Converter</b> and <b>Streamer</b></li>
+              <li>Windows, Linux, Mac, Unix...</li>
              </ul>
             </div>
         </div>
         <div class="panel" id="panel-x264" style="display:none;">
-            x264
+          <h2 class="project_name">x264</h2>
+            <div class="left">
+              <p>x264 is a <b>free software</b> library for encoding video streams into the <b>H.264/MPEG-4 AVC</b> format.<br />
+              It is released under the terms of the GNU General Public License.</p>
+              <p>It provides the <b>best in class</b> encoding, showing numerous settings and having won many quality awards.</p>
+              <p style="font-size: 14px;"><a href="/developers/x264.html"><b>Know more</b> about x264</a> and <a href="/developers/x264.html"><b>Download</b></a>.</p>
+            </div>
+            <div class="right">
+             <ul class="blue-bullet">
+              <li>x86, Altivec, and ARMv7 SIMD</li>
+              <li>Blu-Ray compliant</li>
+              <li>Interlaced Coding</li>
+              <li>Quantization scaling matrices</li>
+              <li>4:2:0 and 4:2:2 support</li>
+              <li>10bit</li>
+              <li></li>
+             </ul>
+            </div>
+
         </div>
         <div class="panel" id="panel-dvblast" style="display:none;">
             DVBlast!
@@ -174,7 +192,7 @@ window.onresize = function(evt) { adapt(); }
     <div class ="project" id="project-vlc">
         <p class="image"><img src="images/vlc64x64.png" alt="VLC cone logo"/></p>
         <h2><a href="#" class="product">VLC</a></h2>
-        <h3>Plays It All!</h3>
+        <h3>The media player</h3>
     </div>
     <div class ="project" id="project-x264">
         <p class="image"><img src="/images/x264_64.png" alt="x264 logo"/></p>
@@ -183,7 +201,7 @@ window.onresize = function(evt) { adapt(); }
     </div>
     <div class ="project" id="project-dvblast">
         <h2><a href="#" class="product">DVBlast!</a></h2>
-        <h3>Simple but powerfull DVB streamer</h3>
+        <h3>Simple but powerful DVB streamer</h3>
     </div>
     <div class="project" id="project-libdvdcss">
         <h2><a href="#" class="product">libdvdcss</a></h2>

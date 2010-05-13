@@ -135,7 +135,7 @@ window.onresize = function(evt) { adapt(); }
                 <noscript>
                   <?php DoDL("Win32",0);DoDL("OSX-PPC",0);DoDL("OSX-Intel",0); ?>
                 </noscript>
-              <div class="dl-other"><a href="/vlc/">Other Systems, Versions</a></div>
+                 <div class="dl-other"><a href="/vlc/">Other Systems, Versions</a></div>
                 </div>
 
 
@@ -169,6 +169,7 @@ window.onresize = function(evt) { adapt(); }
     </table>
 
 <?php /* Project icons */ ?>
+    <div class="dl-other" style="padding-top: 10px;"><a href="/projects/">All Projects</a></div>
     <h2 style="border-bottom: 1px solid #CCC"><a href="/projects/">Projects</a></h2>
     <div class ="project" id="project-vlc">
         <p class="image"><img src="images/vlc64x64.png" alt="VLC cone logo"/></p>
@@ -193,7 +194,6 @@ window.onresize = function(evt) { adapt(); }
         <h3>VideoLAN manager for VLC streamers</h3>
     </div>
 
-     <div class="dl-other"><a href="/projects/">All Projects</a></div>
 </div> <!-- #mainbox -->
 
     <script type="text/javascript">

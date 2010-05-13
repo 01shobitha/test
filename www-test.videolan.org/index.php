@@ -44,7 +44,7 @@ window.onresize = function(evt) { adapt(); }
                 <h2>Contribute</h2>
                 <p>A <b>community</b> makes VideoLAN. You too <a href="/contribute.html">can <b>help</b>!</a></p>
                 <p>All funds come from your donations. So please <b>donate</b>!</p>
-                <div style="float: right; padding-top: 10px;"><span  style="height:20px;font-weight:bold;font-size:9pt;height:100%;">Donate with Paypal:</span>
+                <div style="float: right; padding-top: 10px;"><span id="donate" style="font-size: 16px;">Donate with Paypal:</span>
                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="display: inline;">
                         <span>
                           <input name="cmd" value="_xclick" type="hidden"/>

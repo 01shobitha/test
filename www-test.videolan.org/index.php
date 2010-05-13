@@ -133,7 +133,7 @@ window.onresize = function(evt) { adapt(); }
                 }
                 --></script>
                 <noscript>
-                  <?php DoDL("Win32",0);DoDL("OSX-PPC",0);DoDL("OSX-Intel",0); ?>
+                  <?php DoDL("Win32");DoDL("OSX-PPC");DoDL("OSX-Intel"); ?>
                 </noscript>
                  <div class="dl-other"><a href="/vlc/">Other Systems, Versions</a></div>
                 </div>

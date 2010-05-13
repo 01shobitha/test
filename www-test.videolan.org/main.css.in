@@ -177,7 +177,7 @@ td {
 
 a.download { font-size: 20px; text-decoration: none; font-weight: bold; }
 .dl-info { font-size: 12px; font-style: italic; color: #555 }
-.dl-other { font-size: 10px; font-style: italic; float: right; }
+.dl-other { font-size: 10px; font-style: italic; padding-top: 6px; float: right; }
 .dl-button a { color: white; text-decoration: none; }
 .dl-button { -moz-appearance:none;
     border-radius: 0.3em;

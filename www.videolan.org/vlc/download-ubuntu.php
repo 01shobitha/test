@@ -19,7 +19,7 @@
 <p>Open Synaptic (System -&gt; Administration -&gt; Synaptic Package Manager).
 In Settings -&gt; Repositories, make sure you have a &quot;universe&quot; 
 repository activated.</p>
-<p>Search for vlc and install it. You should also install vlc-plugin-pulse, mozilla-plugin-vlc (and libdvdcss2).</p>
+<p>Search for vlc and install it. You should also install vlc-plugin-pulse, mozilla-plugin-vlc.</p>
 <p>If you are interrested in streaming or transcoding, you should also install libavcodec-extra-52 from a &quot;multiverse&quot; repository. </p>
 <h3>Command line way</h3>
 <p>You need to check that a &quot;universe&quot; mirror is listed
@@ -47,7 +47,7 @@ https://launchpad.net/~c-korn/+archive/vlc
 <p>Open Synaptic (System -&gt; Administration -&gt; Synaptic Package Manager).
 In Settings -&gt; Repositories, make sure you have a &quot;multiverse&quot; 
 repository activated.</p>
-<p>Search for vlc and install it. You should also install vlc-plugin-esd, mozilla-plugin-vlc (and libdvdcss2).</p>
+<p>Search for vlc and install it. You should also install vlc-plugin-esd, mozilla-plugin-vlc.</p>
 
 <h3>Command line way</h3>
 <p>You need to check that a &quot;multiverse&quot; mirror is listed
@@ -73,7 +73,7 @@ in your /etc/apt/sources.list.</p>
 </ul>
 <?php panel_end(); ?>
 
-<?php panel_start( "orange" ); ?>
+<?php panel_start( "gray" ); ?>
 <h1>Kubuntu users</h1>
 <p>The instructions for Ubuntu also apply to Kubuntu. But you should:
 </p>
@@ -82,16 +82,10 @@ in your /etc/apt/sources.list.</p>
 <li>Install vlc-plugin-arts instead of vlc-plugin-esd</li>
 </ul>
 <?php panel_end(); ?>
-<?php /*
 <?php panel_start( "orange" ); ?>
-<h1>libdvdcss</h1>
-<p>Note: to get libdvdcss2 (DVD region free software), you'll need to add the following repository to synaptic: deb http://packages.freecontrib.org/ubuntu/plf/ edgy-plf free non-free. (replace "edgy" with your ubuntu version name)</p>
-
-<p>To install libdvdcss2 (DVD region free software) add "deb http://medibuntu.sos-sts.com/repo/ edgy free" to your /etc/apt/sources.list file and run:</p>
-<pre>
-  % sudo apt-get install libdvdcss2
-  </pre>*/?>
-
+<h1>Playing DVD (libdvdcss)</h1>
+<p>In order to be able to play region-locked DVD, you need install libdvdcss2. You can either follow this <a href="https://help.ubuntu.com/9.10/musicvideophotos/C/video-dvd.html">procedure</a> or add  &quot;<a href="http://medibuntu.org/">medibuntu</a>&quot; to your repositories and install libdvdcss2.</p>
+<?php panel_end(); ?>
 </div>
 
 <?php

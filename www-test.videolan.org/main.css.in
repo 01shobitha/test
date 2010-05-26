@@ -27,6 +27,8 @@ table { border: none; width: 100%; margin-bottom: 5px; border-collapse: collapse
 a, a:link, a:visited { color: #2D58AE; }
 a:hover, a:active { color: #000;}
 
+.clearme { clear:both; }
+
 h1 { font-weight: bold; font-size: 22px;
     line-height: 16px;
     color: #333;

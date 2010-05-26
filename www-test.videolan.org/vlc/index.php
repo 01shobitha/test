@@ -5,6 +5,7 @@
    $additional_js = array("/js/ffcounter.js");
    $body_onload = "getCount()";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
 ?>
 <!--[if IE]>
 <div id="ieShadow"></div>
@@ -30,16 +31,16 @@ window.onresize = function(evt) {
 <div id="mainbox">
 	<ul class="menu">
 		<li>Versatile media player</li>
-		<li><a href="#">Skinnable interface</a></li>
-		<li><a href="#">Full streaming server</a></li>
-		<li><a href="#">Powerful media converter</a></li>
+		<li><a href="/vlc/skins.php">Skinnable interface</a></li>
+		<li><a href="/vlc/streaming.html">Full streaming server</a></li>
+		<li>Powerful media converter</li>
 	</ul>
 	<div style="min-height:250px;" id="pres-content">
 		<p style="width:50%;float:right">
 			<img src="/images/formats.png" alt="selection of supported formats" title="Selection of supported formats"/><br/>
 			<small>All logos are copyrighted by their respective copyright holders.</small>
 		</p>
-		<h1>"It plays everything!"</h1>		
+		<h1>"It plays everything!"</h1>
 		<p>
 		The media player that fills all your needs. It can handle DVDs, (S)VCDs, Audio CDs, web streams, TV cards and much more.		
 		</p>
@@ -54,6 +55,43 @@ window.onresize = function(evt) {
 		<p>
 			<a href="features.html">View all supported formats.</a>
 		</p>
+             <div style="border: 0px red solid; margin: 0 auto; font-size: 21px; width: 13em; float: left;">
+                 <script type="text/javascript"><!--
+                if ( <?php echo $is_win32; ?> ) { <?php DoDL("Win32"); ?> }
+                else if( <?php echo $is_beos; ?> ) { <?php DoDL("BeOS"); ?> }
+                else if( <?php echo $is_linux; ?> )
+                {
+                  if( <?php echo $is_ubuntu; ?> ) { <?php DoDL("Ubuntu"); ?> }
+                  else if( <?php echo $is_fedora; ?> ) { <?php DoDL("Fedora"); ?>}
+                  else if( <?php echo $is_suse; ?> ) { <?php DoDL("Suse"); ?> }
+                  else if( <?php echo $is_debian; ?> ) { <?php DoDL("Debian"); ?> }
+                  else if( <?php echo $is_mandriva; ?> ) { <?php DoDL("Mandriva"); ?> }
+                  else if( <?php echo $is_redhat; ?> ) { <?php DoDL("RedHat"); ?> }
+                  else if( <?php echo $is_gentoo; ?> ) { <?php DoDL("Gentoo"); ?> }
+                  else { <?php DoDL("Linux"); ?> }
+                }
+                else if( <?php echo $is_freebsd; ?> ) { <?php DoDL("FreeBSD"); ?> }
+                else if( <?php echo $is_osx; ?> )
+                {
+                  if( <?php echo $is_ppc; ?> ) { <?php DoDL("OSX-PPC"); ?> }
+                  else if( <?php echo $is_mactel; ?> ) { <?php DoDL("OSX-Intel");?>}
+                  else { <?php DoDL("OSX-PPC"); DoDL("OSX-Intel"); ?> }
+                }
+                else if( navigator.platform.indexOf("Mac") != -1 )
+                {
+                document.writeln( "<p>Haha Mac OS 9 is dead! (if you\\\'re not using Mac OS 9 ... please write us a mail so we can fix this OS detection script)</p>'" );
+                }
+                else
+                {
+                <?php DoDL("Win32"); DoDL("OSX-PPC"); DoDL("OSX-Intel"); ?>
+                }
+                --></script>
+                <noscript>
+                  <?php DoDL("Win32",0);DoDL("OSX-PPC",0);DoDL("OSX-Intel",0); ?>
+                </noscript>
+                 <div class="dl-other"><a href="/vlc/">Other Systems, Versions</a></div>
+                </div>
+
 	</div>
 </div>
 

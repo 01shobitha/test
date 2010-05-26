@@ -7,9 +7,26 @@
 
 <h1>x264 - a free h264/avc encoder</h1>
 
-<p>x264 is a free library for encoding <a href="http://en.wikipedia.org/wiki/H.264">H264/AVC</a> video streams.</p>
-<p>The code is written from scratch by <a href="mailto:fenrir@videolan.org">Laurent Aimar</a>, <a href="mailto:pengvado@users.sourceforge.net">Loren Merritt</a>, <a href="mailto:titer@videolan.org">Eric Petit</a> (OS X), <a href="mailto:chenm001@163.com">Min Chen</a> (vfw/asm), Justin Clay (vfw), <a href="mailto:mru@mru.ath.cx">M&aring;ns Rullg&aring;rd</a>, Radek Czyz, Christian Heine (asm), Alex Izvorski, Alex Wright and <a href="mailto:darkshikari@gmail.com">Jason Garrett-Glaser</a>.
-<p>It is released under the terms of the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU GPL</a>.</p>
+    <p>x264 is a <b>free software</b> <b>library</b> and <b>application</b> for encoding video streams into the
+    <b><a href="http://en.wikipedia.org/wiki/H.264">H.264/MPEG-4 AVC</a></b> format,
+    and is is released under the terms of the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU GPL</a>.</p>
+
+    <p>The code is written from scratch by <a href="mailto:fenrir@videolan.org">Laurent Aimar</a>,
+    <a href="mailto:pengvado@users.sourceforge.net">Loren Merritt</a>, <a href="mailto:titer@videolan.org">Eric Petit</a> (OS X),
+    <a href="mailto:chenm001@163.com">Min Chen</a> (vfw/asm), Justin Clay (vfw), <a href="mailto:mru@mru.ath.cx">M&aring;ns Rullg&aring;rd</a>,
+    Radek Czyz, Christian Heine (asm), Alex Izvorski, Alex Wright and <a href="mailto:darkshikari@gmail.com">Jason Garrett-Glaser</a>.</p>
+
+
+<h2>x264 Overview</h2>
+    <p>It provides <b>best-in-class</b> performance, compression, and features.<br />
+    <b>Performance-wise</b>, x264 can encode 4 or more 1080p streams in realtime on a single consumer-level computer.<br />
+    <b>Quality-wise</b>, x264 has the world's most advanced <b>psychovisual optimizations</b> and has won many awards,
+    <!-- most recently a <b>dramatic victory</b> in the <b>2010 MSU codec</b> comparison-->.<br />
+    <b>Feature-wise</b>, x264 supports features necessary for many different applications, such as <b>television broadcast</b>, <b>Blu-ray</b>,
+    low-latency video applications, and <b>web video</b>.</p>
+
+    <p>x264 forms the core of many web video services, such as <b>Youtube, Facebook, Vimeo, and Hulu</b>.
+     It is also used in television broadcast by companies such as Avail Media.</p>
 
 <h2>Development status</h2>
 

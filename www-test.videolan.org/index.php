@@ -160,12 +160,7 @@ window.onresize = function(evt) { adapt(); }
               <p>x264 is a <b>free software</b> <b>library</b> and <b>application</b> for encoding video streams into the <b>H.264/MPEG-4 AVC</b> format,
               and is is released under the terms of the GNU General Public License.</p>
 
-              <p>It provides <b>best-in-class</b> performance, compression, and features.<br />
-               <b>Performance-wise</b>, x264 can encode 4 or more 1080p streams in realtime on a single consumer-level computer.<br />
-               <b>Quality-wise</b>, x264 has the world's most advanced <b>psychovisual optimizations</b> and has won many awards,
-               <!-- most recently a <b>dramatic victory</b> in the <b>2010 MSU codec</b> comparison-->.<br />
-               <b>Feature-wise</b>, x264 supports features necessary for many different applications, such as <b>television broadcast</b>, <b>Blu-ray</b>,
-               low-latency video applications, and <b>web video</b>.</p>
+              <p>It provides <b>best-in-class</b> performance, quality, compression, and features.</p>
 
                <p>x264 forms the core of many web video services, such as <b>Youtube, Facebook, Vimeo, and Hulu</b>.
                 It is also used in television broadcast by companies such as Avail Media.</p>

@@ -268,6 +268,10 @@ http://mirror.switch.ch/ftp/mirror/videolan/|SWITCHmirror|Switzerland|ch|HTTP|50
 ## Brisbane, Australia
 http://vlc.pyrohost.com.au/|PyRoHoSt|Australia|au|HTTP|50
 ## Also in Arizona with less restriction on bandwidth usage
-http://vlc2.pyrohost.com.au/|PyRoHoSt|USA|us|HTTP|250
+http://vlc2.pyrohost.com.au/|PyRoHoSt|USA|us|HTTP|500
+## WAIA (HTTP://www.waia.asn.au)
+## Joe Wooller joe@waia.asn.au or noc@waia.asn.au
+## Perth, Australia
+http://mirror.waia.asn.au/pub/videolan/|WAIA|Australia|au|HTTP|200
 # Make sure to not leave a blank line at the end
 # EOF

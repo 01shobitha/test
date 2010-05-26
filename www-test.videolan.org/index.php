@@ -179,13 +179,22 @@ window.onresize = function(evt) { adapt(); }
 
         </div>
         <div class="panel" id="panel-dvblast" style="display:none;">
-            DVBlast!
+          <h2 class="project_name">DVBlast!</h2>
+            <p>DVBlast is a simple and powerful MPEG-2/TS demux and streaming application with several input methods (udp/rtp, dvb and dvb-asi).<br />
+             DVBlast is written to be the core of a custom IRD, CID, or ASI gateway, based on a PC with a Linux-supported card.<br />
+             It is very lightweight and stable, designed for 24/7 operation.</p>
+            <p>DVBlast does not do any kind of processing on the elementary streams, such as transcoding, PID remapping or remultiplexing. If you were looking for these features, switch to VLC. It does not stream from plain files (have a look at multicat instead).</p>
+            <p style="font-size: 14px;"><a href="/projects/dvblast.html"><b>Know more</b> about DVBlast</a>.</p>
         </div>
         <div class="panel" id="panel-libdvdcss" style="display:none;">
+          <h2 class="project_name">libdvdcss</h2>
+            <p style="font-size: 14px;"><a href="/developers/libdvdcss.html"><b>Know more</b> about libdvdcs</a>.
              libdvdcss is a simple library designed for accessing DVDs like a block device without having to bother about the decryption.
         </div>
         <div class="panel" id="panel-vlma" style="display:none;">
+          <h2 class="project_name">VLMa</h2>
             VLMa is an application to manage broadcasts of TV channels, received through digital terrestrial or satellite ways. Its interface is provided as a web-site written in Java. It is also capable of streaming audio and video files. VLMa consists of a deamon (called VLMad) and a web interface (called VLMaw).
+            <p style="font-size: 14px;"><a href="/projects/vlma/"><b>Know more</b> about VLMa</a>.</p>
         </div>
       </td></tr>
     </table>

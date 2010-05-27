@@ -189,7 +189,7 @@ window.onresize = function(evt) { adapt(); }
         <div class="panel" id="panel-libdvdcss" style="display:none;">
           <h2 class="project_name">libdvdcss</h2>
             <p> libdvdcss is a simple library designed for accessing DVDs like a block device without having to bother about the decryption.</p>
-            <p style="font-size: 14px;"><a href="/developers/libdvdcss.html"><b>Know more</b> about libdvdcs</a>.
+            <p style="font-size: 14px;"><a href="/developers/libdvdcss.html"><b>Know more</b> about libdvdcs</a>.</p>
         </div>
         <div class="panel" id="panel-vlma" style="display:none;">
           <h2 class="project_name">VLMa</h2>
@@ -204,7 +204,7 @@ window.onresize = function(evt) { adapt(); }
     <h2 style="border-bottom: 1px solid #CCC"><a href="/projects/">Projects</a></h2>
     <div class ="project" id="project-vlc">
         <p class="image"><img src="images/vlc64x64.png" alt="VLC cone logo"/></p>
-        <h2><a href="#" class="product">VLC</a></h2>
+            <h2><a href="#" class="product">VLC</a></h2>
         <h3>The media player</h3>
     </div>
     <div class ="project" id="project-x264">

@@ -310,8 +310,8 @@ window.onresize = function(evt) { adapt(); }
     <h1 style="position:relative">
     Social media
     <span class="header-buttons">
-        <a href="http://www.twitter.com/videolan" target="_blank">twitter</a>
-        <a href="http://www.facebook.com/vlc.media.player" target="_blank">facebook</a>
+        <a href="http://www.twitter.com/videolan">twitter</a>
+        <a href="http://www.facebook.com/vlc.media.player">facebook</a>
     </span>
     </h1>
     <?php

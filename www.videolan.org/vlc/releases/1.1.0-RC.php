@@ -1,5 +1,5 @@
 <?php
-   $title = " - VLC 1.1.0 Release Candidate";
+   $title = " - VLC 1.1.0 Test Release Candidate";
    $lang = "en";
    $menu = array( "project", "news" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
@@ -143,6 +143,10 @@ function DoDL2( $os, $with_js=1 )
 Download VLC 1.1.0-RC</a></div></div>
     <br />
     <br />
+
+<h2>Issues</h2>
+<p>Please report issues on our <a href="http://forum.videolan.org">forum</a> in the <a href="http://forum.videolan.org/viewforum.php?f=34">1.1.0 section.</a> </p>
+    
 
 
 <?php footer('$Id: news.php 6098 2010-05-26 23:50:46Z jb $'); ?>

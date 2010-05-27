@@ -17,7 +17,7 @@ The VideoLAN community is a fast-evolving and ever-changing community and develo
 
 <img src="http://download.videolan.org/events/20081220/VDD/mq/img-11.jpg" alt="VDD'08 Group Picture" />
 
-<p><a href="/events/20081220/VDD/">More pictures.</a></p>
+<p><a href="/videolan/events/20081220/VDD/">More pictures.</a></p>
 <h2>23, 24 February 2008 - FOSDEM</h2>
 
 <p>Once again, a few of us attended <a href="http://www.fosdem.org/2008/">FOSDEM</a> this year. We didn't hold any presentation but it was a nice occasion for us developers to meet in real life and to discuss about VideoLAN future, especially the migration from SVN to GIT and the release of VLC 0.9.</p>
@@ -43,7 +43,7 @@ The VideoLAN community is a fast-evolving and ever-changing community and develo
 <tr>
 <td style="width: 50%; vertical-align: top;">
 <p>
-<a href="20050226/VideoLAN%20Booth/Other%20demo/IMG_1258.JPG"><img alt="IMG_1258.JPG (1600x1200)"
+<a href="/videolan/events/20050226/VideoLAN%20Booth/Other%20demo/IMG_1258.JPG"><img alt="IMG_1258.JPG (1600x1200)"
         width="120"
         height="90"
         src="20050226/VideoLAN%20Booth/Other%20demo/.xvpics/tn_IMG_1258.JPG.png" /><br />IMG_1258.JPG<br />1600x1200</a>
@@ -54,7 +54,7 @@ The VideoLAN community is a fast-evolving and ever-changing community and develo
 
 <td style="width: 50%; vertical-align: top;">
 <p>
-<a href="20050226/VideoLAN%20Booth/Walls/IMG_1205.JPG"><img alt="IMG_1205.JPG (1600x1200)"
+<a href="/videolan/events/20050226/VideoLAN%20Booth/Walls/IMG_1205.JPG"><img alt="IMG_1205.JPG (1600x1200)"
         width="120"
         height="90"
         src="20050226/VideoLAN%20Booth/Walls/.xvpics/tn_IMG_1205.JPG.png" /><br />IMG_1205.JPG<br />1600x1200</a>
@@ -67,7 +67,7 @@ The VideoLAN community is a fast-evolving and ever-changing community and develo
 <tr>
 <td style="width: 50%; vertical-align: top;">
 <p>
-<a href="20050226/VideoLAN%20Booth/Walls/IMG_1259.JPG"><img alt="IMG_1259.JPG (1600x1200)"
+<a href="/videolan/events/20050226/VideoLAN%20Booth/Walls/IMG_1259.JPG"><img alt="IMG_1259.JPG (1600x1200)"
         width="120"
         height="90"
         src="20050226/VideoLAN%20Booth/Walls/.xvpics/tn_IMG_1259.JPG.png" /><br />IMG_1259.JPG<br />1600x1200</a>
@@ -78,7 +78,7 @@ The VideoLAN community is a fast-evolving and ever-changing community and develo
 
 <td style="width: 50%; vertical-align: top;">
 <p>
-<a href="20050226/VideoLAN%20Booth/Walls/IMG_1211.JPG"><img alt="IMG_1211.JPG (1600x1200)"
+<a href="/videolan/events/20050226/VideoLAN%20Booth/Walls/IMG_1211.JPG"><img alt="IMG_1211.JPG (1600x1200)"
         width="120"
         height="90"
         src="20050226/VideoLAN%20Booth/Walls/.xvpics/tn_IMG_1211.JPG.png" /><br />IMG_1211.JPG<br />1600x1200</a>
@@ -89,7 +89,7 @@ The VideoLAN community is a fast-evolving and ever-changing community and develo
 </tr>
 </table>
 
-<p>Zorglub held a short presentation of VLC, you can <a href="20050226/fosdem2005.sxi">download it</a>  (OpenOffice format) if you want and there are pictures <a href="20050226/Lightning%20talk/">here</a>.</p>
+<p>Zorglub held a short presentation of VLC, you can <a href="/videolan/events/20050226/fosdem2005.sxi">download it</a>  (OpenOffice format) if you want and there are pictures <a href="/videolan/events/20050226/Lightning%20talk/">here</a>.</p>
 
 <p>All the photo's can be viewed <a href="20050226/">here</a>. There are also some shots made by other FOSDEM attendees. They were pulled from the <a href="http://fosdem.3ti.be/">FOSDEM picture site</a>. Copyright to the respective creators of the pictures, redistribution is not allowed. These files are for our own personal archive.</p>
 

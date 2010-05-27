@@ -15,7 +15,7 @@
 <p>
 The VideoLAN community is a fast-evolving and ever-changing community and development happens really fast. While this is fun, it is always difficult to meet and discuss with each other in person.</p>
 
-<img src="http://download.videolan.org/events/20081220/VDD/mq/img-11.jpg" alt="VDD'08 Group Picture" />
+<img src="/events/20081220/VDD/mq/img-11.jpg" alt="VDD'08 Group Picture" />
 
 <p><a href="/videolan/events/20081220/VDD/">More pictures.</a></p>
 <h2>23, 24 February 2008 - FOSDEM</h2>

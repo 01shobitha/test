@@ -143,7 +143,7 @@ window.onresize = function(evt) { adapt(); }
 
             <div class="right">
              <ul class="blue-bullet">
-              <li><b>Simple</b>, Powerfull and <b>Fast</b></li>
+              <li><b>Simple</b>, Powerful and <b>Fast</b></li>
               <li>Plays everything, <b>Files</b>, <b>Discs</b> and <b>Streams</b></li>
               <li>No codec packs needed</li>
               <li>Completely <b>Free</b></li>

@@ -13,9 +13,9 @@
 
 <img src="http://images.videolan.org/images/contribute-time.png" alt="" style="float: left; margin-right: 5px">
 <div>
-<p>If you have time, we are welcoming your help on various subjects</p>
+<p>If you have time, we welcome your help in various area</p>
 <ul>
-  <li><strong>Programmers</strong>, see the <a href="/developers/">developer documentations</a>,
+  <li><strong>Programmers</strong>, see the <a href="/developers/">developer documentation</a>,
       subscribe to the <a href="/support/lists.html">mailing-lists</a>, have
       a look at the <a href="http://trac.videolan.org/">bug-tracking system</a>,
       join the <a href="/support/">IRC channel</a> to start the code.</li>

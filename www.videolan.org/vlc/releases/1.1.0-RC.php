@@ -17,7 +17,7 @@ function DoDL2( $os, $with_js=1 )
     $dl["OSX-PPC"] = array("$start_url/macosx/vlc-$version-powerpc.dmg/download", "Mac OS X 10.5 (PowerPC), 19&nbsp;MB" );
     $dl["OSX-Intel"] = array( "$start_url/macosx/vlc-$version-intel.dmg/download","Mac OS X 10.5 or later (Intel 32bit), 19&nbsp;MB" );
     $dl["OSX-Intel64"] = array( "$start_url/macosx/vlc-$version-intel64.dmg/download","Mac OS X 10.5 or later (Intel 64bit), 19&nbsp;MB" );
-    $dl["Linux"] =array("/vlc/", "Linux and other OSes" );
+    $dl["Linux"] =array("$start_url/vlc-$version.tar.bz2/download", "Linux and other OSes" );
     $dl["Debian"] = array( "/vlc/download-debian.html", "Debian GNU/Linux" );
     $dl["Ubuntu"] = array( "/vlc/download-ubuntu.html", "Ubuntu Linux");
     $dl["Fedora"] = array( "/vlc/download-fedora.html", "Fedora Linux");
@@ -43,7 +43,7 @@ function DoDL2( $os, $with_js=1 )
 }
 ?>
 
-<h1>VLC 1.1.0 - Release Candidate </h1>
+<h1>VLC 1.1.0 'The luggage' - Release Candidate </h1>
 <h2>Get it now! - Free</h2>
 
 <div id="mainbox" style="overflow: hidden;">
@@ -115,21 +115,34 @@ function DoDL2( $os, $with_js=1 )
             <div class="right">
              <h2>New Features</h2>
              <ul class="blue-bullet">
-              <li><b>Simple</b>, Powerfull and <b>Fast</b></li>
-              <li>Plays everything, <b>Files</b>, <b>Discs</b> and <b>Streams</b></li>
-              <li>No codec packs needed</li>
+              <li><b>GPU</b> and <b>DSP</b> decoding, depending on the platform</li>
+              <li>Faster and more stable</li>
+              <li>New codecs and HD codecs enhancements</li>
+              <li>MKV, mp4 and avi improvements</li>
+              <li><b>Extensions</b></li>
+              <li>Important code cleanup and rewrite</li>
+              <li>Interface and playlist reworked</li>
               <li>Completly <b>Free</b></li>
-              <li>0 Spyware, Ads or User Tracking</li>
-              <li>Media <b>Converter</b> and <b>Streamer</b></li>
-              <li>Windows, Linux, Mac, Unix...</li>
              </ul>
             </div>
         </div>
     </td>
     </tr>
     </table>
+    <br />
+    <br />
 </div>
 
+<h2>Complete Changelog</h2
+<a href="/developers/vlc-branch/NEWS">Changelog for 1.1.0 </a>
+
+<h2>Source</h2>
+<div style="width:60%;">
+<div class="dl-button">
+<a href="http://sourceforge.net/projects/vlc/files/vlc-1.1.0-rc/vlc-1.1.0-rc.tar.bz2/download">
+Download VLC 1.1.0-RC</a></div></div>
+    <br />
+    <br />
 
 
 <?php footer('$Id: news.php 6098 2010-05-26 23:50:46Z jb $'); ?>

@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|27 May 2010|VLC 1.1.0 Release Candidate 1|VideoLAN and the VLC developers are proud to announce the first Release Candidate of the <b>1.1.0</b> version of VLC.<br />This test release, aimed at power-users is a major update on the current VLC 1.0.x branch. It includes numerous changes, modification and improvements, including GPU/DSP decoding, support for more formats and codecs and extensions.</p><p>Source, Binaries and full Changelog are <a href="/vlc/releases/1.1.0-RC.html">available now.</a>
+
 |25 Apr 2010|x264 achieves Blu-Ray Compatibility|The <a href="/developers/x264.html"><b>x264</b> project</a> has announced the first free software encoder to be able to generate Blu-ray compliant video. In addition, the announcement comes with a <a href="http://x264.nl/x264_Demo_Blu-ray.torrent">torrent</a> of an x264-encoded Blu-ray disc containing entirely free content, such as the Open Movie Project videos.<br /> While there are still no free software Blu-ray authoring tools, hopefully this will change now that video and audio are taken care of so that everyone will be able to make their own Blu-rays without expensive proprietary software. <b>Grab your <a href="http://x264.nl/x264_Demo_Blu-ray.torrent">torrent</a> now!</b>. <a href="http://x264dev.multimedia.cx/?p=328">Know more about this achievement!</a>
 
 |21 Apr 2010|VLC 1.0.6|The VLC development team is proud to introduce a new version of its 'Goldeneye' branch. This release bridges the gap between version 1.0.5 and the upcoming 1.1.0 VLC release. It fixes <a href="/security/sa1003.html">several vulnerabilities</a> which were uncovered during the development of VLC 1.1.0. It also introduces a number of additional stability and other fixes.

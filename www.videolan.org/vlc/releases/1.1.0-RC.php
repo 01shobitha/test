@@ -67,7 +67,7 @@ function DoDL2( $os, $with_js=1 )
       </td>
       <td id="project_desc">
         <div class="panel" id="panel-vlc" style="display:block;">
-          <h2 class="project_name">VLC</h2>
+          <h2 class="project_name">VLC <b>TESTING</b></h2>
             <div class="left">
             <p>VLC is a <b>free</b> and <b>open source</b> cross-platform multimedia <b>player</b> and <b>framework</b>,
                that plays most multimedias files as well as DVD, Audio CD, VCD, and various streaming protocols.</p>
@@ -76,7 +76,7 @@ function DoDL2( $os, $with_js=1 )
 
                <div style="border: 0px red solid; margin: 0 auto; font-size: 21px; width: 13em;">
                  <script type="text/javascript"><!--
-                if ( <?php echo $is_win32; ?> ) { <?php DoDL2("Win32"); DoDL2("Win32-7z"); ?> }
+                if ( <?php echo $is_win32; ?> ) { <?php DoDL2("Win32"); echo "<br />"; DoDL2("Win32-7z"); ?> }
                 else if( <?php echo $is_beos; ?> ) { <?php DoDL2("BeOS"); ?> }
                 else if( <?php echo $is_linux; ?> )
                 {

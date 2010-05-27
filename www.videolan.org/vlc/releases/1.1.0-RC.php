@@ -76,7 +76,7 @@ function DoDL2( $os, $with_js=1 )
 
                <div style="border: 0px red solid; margin: 0 auto; font-size: 21px; width: 13em;">
                  <script type="text/javascript"><!--
-                if ( <?php echo $is_win32; ?> ) { <?php DoDL2("Win32"); echo "<br />"; DoDL2("Win32-7z"); ?> }
+                if ( <?php echo $is_win32; ?> ) { <?php DoDL2("Win32"); DoDL2("Win32-7z"); ?> }
                 else if( <?php echo $is_beos; ?> ) { <?php DoDL2("BeOS"); ?> }
                 else if( <?php echo $is_linux; ?> )
                 {

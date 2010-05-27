@@ -15,7 +15,7 @@
 <p>
 The VideoLAN community is a fast-evolving and ever-changing community and development happens really fast. While this is fun, it is always difficult to meet and discuss with each other in person.</p>
 
-<img src="/events/20081220/VDD/mq/img-11.jpg" alt="VDD'08 Group Picture" />
+<img src="/videolan/events/20081220/VDD/mq/img-11.jpg" alt="VDD'08 Group Picture" />
 
 <p><a href="/videolan/events/20081220/VDD/">More pictures.</a></p>
 <h2>23, 24 February 2008 - FOSDEM</h2>
@@ -46,7 +46,7 @@ The VideoLAN community is a fast-evolving and ever-changing community and develo
 <a href="/videolan/events/20050226/VideoLAN%20Booth/Other%20demo/IMG_1258.JPG"><img alt="IMG_1258.JPG (1600x1200)"
         width="120"
         height="90"
-        src="20050226/VideoLAN%20Booth/Other%20demo/.xvpics/tn_IMG_1258.JPG.png" /><br />IMG_1258.JPG<br />1600x1200</a>
+        src="/videolan/events/20050226/VideoLAN%20Booth/Other%20demo/.xvpics/tn_IMG_1258.JPG.png" /><br />IMG_1258.JPG<br />1600x1200</a>
 </p>
 
 <p>Rotating OpenGL transparent cube shown in a transparent output window running on Mac OS X. Next to it Colored ASCII Art output with a text (marquee) and a logo filter running on FreeBSD.</p>
@@ -57,7 +57,7 @@ The VideoLAN community is a fast-evolving and ever-changing community and develo
 <a href="/videolan/events/20050226/VideoLAN%20Booth/Walls/IMG_1205.JPG"><img alt="IMG_1205.JPG (1600x1200)"
         width="120"
         height="90"
-        src="20050226/VideoLAN%20Booth/Walls/.xvpics/tn_IMG_1205.JPG.png" /><br />IMG_1205.JPG<br />1600x1200</a>
+        src="/videolan/events/20050226/VideoLAN%20Booth/Walls/.xvpics/tn_IMG_1205.JPG.png" /><br />IMG_1205.JPG<br />1600x1200</a>
 </p>
 
 <p>Then a demo of Firefox showing a html page with the VLC plugin embedded (3 times) showing 3 different movies on Linux</p>
@@ -70,7 +70,7 @@ The VideoLAN community is a fast-evolving and ever-changing community and develo
 <a href="/videolan/events/20050226/VideoLAN%20Booth/Walls/IMG_1259.JPG"><img alt="IMG_1259.JPG (1600x1200)"
         width="120"
         height="90"
-        src="20050226/VideoLAN%20Booth/Walls/.xvpics/tn_IMG_1259.JPG.png" /><br />IMG_1259.JPG<br />1600x1200</a>
+        src="/videolan/events/20050226/VideoLAN%20Booth/Walls/.xvpics/tn_IMG_1259.JPG.png" /><br />IMG_1259.JPG<br />1600x1200</a>
 </p>
 
 <p>On the left you see the VLC mosaic (picture in picture) filter showing a one movie transparent on within another movie and a textfilter. You also see the Wall filter showing how you can split up a movie into pieces on different monitors. It also shows the time and logo filters, as well as positioning of the text filter and uses caca output on a quarter of the wall.</p>
@@ -81,7 +81,7 @@ The VideoLAN community is a fast-evolving and ever-changing community and develo
 <a href="/videolan/events/20050226/VideoLAN%20Booth/Walls/IMG_1211.JPG"><img alt="IMG_1211.JPG (1600x1200)"
         width="120"
         height="90"
-        src="20050226/VideoLAN%20Booth/Walls/.xvpics/tn_IMG_1211.JPG.png" /><br />IMG_1211.JPG<br />1600x1200</a>
+        src="/videolan/events/20050226/VideoLAN%20Booth/Walls/.xvpics/tn_IMG_1211.JPG.png" /><br />IMG_1211.JPG<br />1600x1200</a>
 </p>
 
 <p>The last demo shows the rotate filter, the wall filter, UTF-8 (japanese) subtitles, and some text overlays</p>
@@ -133,7 +133,7 @@ Developers Conference in San Francisco and are taking the trophy
 back!</p>
 
 <p>
-<img src="20030625/.xvpics/mi_DSCN0783.JPG" alt="The Trophy"
+<img src="/videolan/events/20030625/.xvpics/mi_DSCN0783.JPG" alt="The Trophy"
      width="300" height="225" /></p>
 
 <p><a href="20030625/index.html">Pictures of the trophy</a></p>
@@ -162,9 +162,9 @@ to visit Paris !</p>
 
 <p>
 <a href="20030204/videolan29.jpg"><img
-src="20030204/videolan29-front.jpg" alt="VideoLAN booth at Linux Expo
+src="/videolan/events/20030204/videolan29-front.jpg" alt="VideoLAN booth at Linux Expo
 Paris 2003" width="400" height="300" /></a>
-<a href="20030204/team.jpg"><img src="20030204/mi_team.jpg"
+<a href="20030204/team.jpg"><img src="/videolan/events/20030204/mi_team.jpg"
 alt="Part of the VideoLAN team" width="400" height="300" /></a>
 </p>
 
@@ -192,7 +192,7 @@ by our friends of <a href="http://www.aldil.org">ALDIL</a>.</p>
 iPak port of VLC and on VLS, came to Paris and visited the French team  
 on this occasion!</p>                                                  
 
-<p><a href="20020720/jpsaman.jpg"><img src="20020720/jpsaman-small.jpg"
+<p><a href="20020720/jpsaman.jpg"><img src="/videolan/events/20020720/jpsaman-small.jpg"
 alt="Click to see a bigger picture" width="400" height="300" /></a></p>
 
 <p>From left to right: Jean-Paul Saman, Christophe Massiot (alias      

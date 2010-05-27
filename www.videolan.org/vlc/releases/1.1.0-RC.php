@@ -123,7 +123,7 @@ function DoDL2( $os, $with_js=1 )
               <li><b>Extensions</b></li>
               <li>Important code cleanup and rewrite</li>
               <li>Interface and playlist reworked</li>
-              <li>Completly <b>Free</b></li>
+              <li>Completely <b>Free</b></li>
              </ul>
             </div>
         </div>

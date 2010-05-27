@@ -117,8 +117,9 @@ function DoDL2( $os, $with_js=1 )
              <ul class="blue-bullet">
               <li><b>GPU</b> and <b>DSP</b> decoding, depending on the platform</li>
               <li>Faster and more stable</li>
-              <li>New codecs and HD codecs enhancements</li>
-              <li>MKV, mp4 and avi improvements</li>
+              <li>New codecs and <b>HD codecs</b> enhancements</li>
+              <li><b>Webm</b> and <b>VP8</b> support</li>
+              <li><b>MKV</b>, mp4 and avi improvements</li>
               <li><b>Extensions</b></li>
               <li>Important code cleanup and rewrite</li>
               <li>Interface and playlist reworked</li>

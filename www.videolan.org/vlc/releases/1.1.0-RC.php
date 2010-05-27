@@ -9,7 +9,7 @@
 
 
 <h1>VLC 1.1.0 - Release Candidate </h1>
-<h2>Download it</h2>
+<h2>Get it now! - Free</h2>
 
 <div id="mainbox" style="overflow: hidden;">
     <table><tr>
@@ -78,6 +78,7 @@
             </div>
 
             <div class="right">
+             <h2>New Features</h2>
              <ul class="blue-bullet">
               <li><b>Simple</b>, Powerfull and <b>Fast</b></li>
               <li>Plays everything, <b>Files</b>, <b>Discs</b> and <b>Streams</b></li>
@@ -92,9 +93,8 @@
     </td>
     </tr>
     </table>
+</div>
 
-
-<h2>Features</h2>
 
 
 <?php footer('$Id: news.php 6098 2010-05-26 23:50:46Z jb $'); ?>

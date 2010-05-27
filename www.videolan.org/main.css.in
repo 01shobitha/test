@@ -214,7 +214,7 @@ a.download { font-size: 20px; text-decoration: none; font-weight: bold; }
     vertical-align:middle;
     white-space:nowrap;
 
-    width: 13em;
+    width: 15em;
     height:1.8em;
     padding:0.36em 1em;
     margin: 0 auto;

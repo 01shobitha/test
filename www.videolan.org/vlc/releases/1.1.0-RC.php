@@ -6,7 +6,42 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
 ?>
 
+<?php
+function DoDL2( $os, $with_js=1 )
+{
+    $dl = array();
+    $version = '1.1.0-rc';
+    $start_url="http://sourceforge.net/projects/vlc/files/vlc-$version";
+    $dl["Win32"] = array("$start_url/win32/vlc-$version-win32.exe/download", "Windows install, 18&nbsp;MB" );
+    $dl["Win32-7z"] = array("$start_url/win32/vlc-$version-win32.7z/download", "Windows 7z, 16&nbsp;MB" );
+    $dl["OSX-PPC"] = array("$start_url/macosx/vlc-$version-powerpc.dmg/download", "Mac OS X 10.5 (PowerPC), 19&nbsp;MB" );
+    $dl["OSX-Intel"] = array( "$start_url/macosx/vlc-$version-intel.dmg/download","Mac OS X 10.5 or later (Intel 32bit), 19&nbsp;MB" );
+    $dl["OSX-Intel64"] = array( "$start_url/macosx/vlc-$version-intel64.dmg/download","Mac OS X 10.5 or later (Intel 64bit), 19&nbsp;MB" );
+    $dl["Linux"] =array("/vlc/", "Linux and other OSes" );
+    $dl["Debian"] = array( "/vlc/download-debian.html", "Debian GNU/Linux" );
+    $dl["Ubuntu"] = array( "/vlc/download-ubuntu.html", "Ubuntu Linux");
+    $dl["Fedora"] = array( "/vlc/download-fedora.html", "Fedora Linux");
+    $dl["RedHat"] = array( "/vlc/download-redhat.html", "RedHat Linux");
+    $dl["Mandriva"] = array( "/vlc/download-mandriva.html", "Mandriva Linux" );
+    $dl["Gentoo"] = array( "/vlc/download-gentoo.html", "Gentoo Linux" );
+    $dl["Suse"] = array ("/vlc/download-suse.html", "Suse Linux" );
+    $dl["BeOS"] =array ("/vlc/download-beos.html", "BeOS" );
+    $dl["FreeBSD" ] = array( "/vlc/download-freebsd.html", "FreeBSD" );
 
+    if( $with_js == 1 )
+    {
+        echo "document.writeln( '<div class=\"dl-button\"><a " ;
+        echo "href=\"".$dl[$os][0]."\">Download VLC ".$version;
+        echo "</a></div><span class=\"dl-info\">".$dl[$os][1]."</span> ');\n";
+    }
+    else
+    {
+        echo "<div><div class=\"dl-button\"> <a " ;
+        echo "href=\"".$dl[$os][0]."\">Download VLC ".$version;
+        echo "</a></div><div class=\"dl-info\">".$dl[$os][1]."</div></div>\n";
+    }
+}
+?>
 
 <h1>VLC 1.1.0 - Release Candidate </h1>
 <h2>Get it now! - Free</h2>
@@ -41,25 +76,25 @@
 
                <div style="border: 0px red solid; margin: 0 auto; font-size: 21px; width: 13em;">
                  <script type="text/javascript"><!--
-                if ( <?php echo $is_win32; ?> ) { <?php DoDL("Win32"); ?> }
-                else if( <?php echo $is_beos; ?> ) { <?php DoDL("BeOS"); ?> }
+                if ( <?php echo $is_win32; ?> ) { <?php DoDL2("Win32"); DoDL2("Win32-7z"); ?> }
+                else if( <?php echo $is_beos; ?> ) { <?php DoDL2("BeOS"); ?> }
                 else if( <?php echo $is_linux; ?> )
                 {
-                  if( <?php echo $is_ubuntu; ?> ) { <?php DoDL("Ubuntu"); ?> }
-                  else if( <?php echo $is_fedora; ?> ) { <?php DoDL("Fedora"); ?>}
-                  else if( <?php echo $is_suse; ?> ) { <?php DoDL("Suse"); ?> }
-                  else if( <?php echo $is_debian; ?> ) { <?php DoDL("Debian"); ?> }
-                  else if( <?php echo $is_mandriva; ?> ) { <?php DoDL("Mandriva"); ?> }
-                  else if( <?php echo $is_redhat; ?> ) { <?php DoDL("RedHat"); ?> }
-                  else if( <?php echo $is_gentoo; ?> ) { <?php DoDL("Gentoo"); ?> }
-                  else { <?php DoDL("Linux"); ?> }
+                  if( <?php echo $is_ubuntu; ?> ) { <?php DoDL2("Ubuntu"); ?> }
+                  else if( <?php echo $is_fedora; ?> ) { <?php DoDL2("Fedora"); ?>}
+                  else if( <?php echo $is_suse; ?> ) { <?php DoDL2("Suse"); ?> }
+                  else if( <?php echo $is_debian; ?> ) { <?php DoDL2("Debian"); ?> }
+                  else if( <?php echo $is_mandriva; ?> ) { <?php DoDL2("Mandriva"); ?> }
+                  else if( <?php echo $is_redhat; ?> ) { <?php DoDL2("RedHat"); ?> }
+                  else if( <?php echo $is_gentoo; ?> ) { <?php DoDL2("Gentoo"); ?> }
+                  else { <?php DoDL2("Linux"); ?> }
                 }
-                else if( <?php echo $is_freebsd; ?> ) { <?php DoDL("FreeBSD"); ?> }
+                else if( <?php echo $is_freebsd; ?> ) { <?php DoDL2("FreeBSD"); ?> }
                 else if( <?php echo $is_osx; ?> )
                 {
-                  if( <?php echo $is_ppc; ?> ) { <?php DoDL("OSX-PPC"); ?> }
-                  else if( <?php echo $is_mactel; ?> ) { <?php DoDL("OSX-Intel");?>}
-                  else { <?php DoDL("OSX-PPC"); DoDL("OSX-Intel"); ?> }
+                  if( <?php echo $is_ppc; ?> ) { <?php DoDL2("OSX-PPC"); ?> }
+                  else if( <?php echo $is_mactel; ?> ) { <?php DoDL2("OSX-Intel");?>}
+                  else { <?php DoDL2("OSX-PPC"); DoDL2("OSX-Intel"); ?> }
                 }
                 else if( navigator.platform.indexOf("Mac") != -1 )
                 {
@@ -67,11 +102,11 @@
                 }
                 else
                 {
-                <?php DoDL("Win32"); DoDL("OSX-PPC"); DoDL("OSX-Intel"); ?>
+                <?php DoDL2("Win32"); DoDL2("OSX-PPC"); DoDL2("OSX-Intel"); ?>
                 }
                 --></script>
                 <noscript>
-                  <?php DoDL("Win32",0);DoDL("OSX-PPC",0);DoDL("OSX-Intel",0); ?>
+                  <?php DoDL2("Win32",0);DoDL2("OSX-PPC",0);DoDL2("OSX-Intel",0); ?>
                 </noscript>
                  <div class="dl-other"><a href="/vlc/">Other Systems, Versions</a></div>
                 </div>

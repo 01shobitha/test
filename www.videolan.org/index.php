@@ -146,7 +146,7 @@ window.onresize = function(evt) { adapt(); }
               <li><b>Simple</b>, Powerfull and <b>Fast</b></li>
               <li>Plays everything, <b>Files</b>, <b>Discs</b> and <b>Streams</b></li>
               <li>No codec packs needed</li>
-              <li>Completly <b>Free</b></li>
+              <li>Completely <b>Free</b></li>
               <li>0 Spyware, Ads or User Tracking</li>
               <li>Media <b>Converter</b> and <b>Streamer</b></li>
               <li>Windows, Linux, Mac, Unix...</li>

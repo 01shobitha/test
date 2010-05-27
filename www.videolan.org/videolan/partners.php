@@ -120,8 +120,8 @@ cooperation of our partners, on both technical and financial sides: </p>
     </td>
     <td>
 
-    <p><a href="http://epitech.eu">EPITECH</a> is a French educationnal institution specialized in
-    computer science expertise. Founded in 1999, it is one of the best institution for computer science
+    <p><a href="http://epitech.eu">EPITECH</a> is a French educational institution specialized in
+    computer science expertise. Founded in 1999, it is one of the best institutions for computer science
     in France and has seeded many very innovative companies.</p>
     <p>
        Epitech hosted and sponsored our second DevDays in December 2009.
@@ -161,7 +161,7 @@ cooperation of our partners, on both technical and financial sides: </p>
 
     <p><a href="http://www.cybervia.com/">CYBERVIA</a> SAS is a young French company
     dedicated to the distribution and the selling of digital products for the
-    general public. In 2008 the company released its new product CYBERVIA.
+    general public. In 2008, the company released its new product CYBERVIA.
     CYBERVIA is the first personal HDTV media server accessible in local or
     remote. CYBERVIA gathers all digital home-life. CYBERVIA is at the same time
     a smart HDTV programs recorder, a personal server and a media center which

@@ -87,7 +87,7 @@ you want to speak about VideoLAN. Try to not write HTML mails, thanks.</p>
 <h1>The forums</h1>
 
 <p>Our <a href="http://forum.videolan.org">Web forums</a> can help you
-finding answers to your questions or problems. Please check that your
+find answers to your questions or problems. Please check that your
 question has not yet been answered before asking.</p>
 
 <?php panel_end(); ?>

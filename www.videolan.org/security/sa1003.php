@@ -18,7 +18,7 @@ Summary           : Heap buffer overflow vulnerability in A/52, DTS
 Date              : 19 April 2010
 Affected versions : VLC media player 1.0.5 down to 0.5.0
 ID                : VideoLAN-SA-1003
-CVE references    : N/A (at the time of writing)
+CVE references    : CVE-2010-1441 through CVE-2010-1445
 </pre>
 <h2>Details</h2>
 <p>VLC media player suffers from various vulnerabilities
@@ -54,6 +54,10 @@ while working on VLC 1.1.0.
 </dd>
 </dl>
 <h2>History</h2>
+<dl>
+<dt>28 April 2010</dt>
+<dd>CVE numbers assigned</dd>
+</dl>
 <dl>
 <dt>21 April 2010</dt>
 <dd>VLC 1.0.6 bugfix release</dd>

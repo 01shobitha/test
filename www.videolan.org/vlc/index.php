@@ -111,13 +111,13 @@ function addos( $name, $class, $url, $bold=false )
   <h3>Binaries</h3>
     <p>Select your operating system to download VLC binaries:</p>
 
-    <span class="os1">
+    <div class="os1">
       <ul class="os">
       <?php addos( "Windows", "windows", "download-windows.html", true );
       addos( "Mac&nbsp;OS&nbsp;X", "macosx", "download-macosx.html", true );
       ?>
       </ul>
-    </span>
+    </div>
     <div class="os2">
       <ul class="os">
 <?php

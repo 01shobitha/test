@@ -27,7 +27,7 @@ or on the <a href="lists.html">Mailing-lists</a>.</p>
 
 
 <h2>Help</h2>
-<p>If you need help, you can use a few means to get information:
+<p>If you need help, you can use a few means to get information:</p>
 <ul>
 <li><a href="http://wiki.videolan.org/Developers_Corner">Dev Wiki</a></li>
 <li><a href="http://forum.videolan.org">Forums</a></li>

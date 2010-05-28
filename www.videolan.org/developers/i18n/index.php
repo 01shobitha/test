@@ -16,7 +16,7 @@
 <h2>VLC media player internationalization</h2>
 
 <p>VLC media player is translated using <a
-href="http://www.gnu.org/software/gettext/gettext.html">GNU Gettext</a>.
+href="http://www.gnu.org/software/gettext/gettext.html">GNU Gettext</a>.</p>
 
 <p><a href="vlcstat.php">Stats for VLC localization</a></p>
 

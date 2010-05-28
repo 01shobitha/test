@@ -8,7 +8,7 @@
 <h1>VideoLAN Server</h1>
 
 <p><span style="color:red"><strong>VLS is deprecated and unmaintained.</strong></span> 
-Use <a href="vlc.html">VLC media player</a> instead.
+Use <a href="vlc.html">VLC media player</a> instead.</p>
 
 <p> See the <a href="/streaming/">streaming page</a> on
 www.videolan.org. </p>

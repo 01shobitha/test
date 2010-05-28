@@ -167,7 +167,7 @@ This page remains here for compatibility reasons.</p>
 </tr>
 
 <tr>
-  <td class="category">Win32 Cygwin Environment<br>and Compile HOWTO</td>
+  <td class="category">Win32 Cygwin Environment<br />and Compile HOWTO</td>
    <td class="yes">
      Up-to-date
    </td>
@@ -180,7 +180,7 @@ This page remains here for compatibility reasons.</p>
 </tr>
 
 <tr>
-  <td class="category">Win32 MSYS/MinGW Environment<br></td>
+  <td class="category">Win32 MSYS/MinGW Environment<br /></td>
    <td class="yes">
      Up-to-date
    </td>
@@ -222,7 +222,7 @@ This page remains here for compatibility reasons.</p>
   <td class="category">DirectFB plugin Compile HOWTO</td>
   <td class="yes">Up-to-date</td>   
   <td><a href="http://wiki.videolan.org/DirectFB_Compile">Wiki</a></td>
-  <td><a href="mailto:jpsaman_@_videolan_dot_org">Jean-Paul Saman</a>
+  <td><a href="mailto:jpsaman_@_videolan_dot_org">Jean-Paul Saman</a></td>
 </tr>
 
 </table>

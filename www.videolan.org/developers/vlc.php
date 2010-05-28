@@ -241,7 +241,7 @@ start.</p>
 <p>When making bugreports please beware of our bugreport <a href="http://www.videolan.org/support/bug-reporting.html">policy</a>. When you are an experienced user/developer and you are positive that it is a real bug that we are not yet aware of, please file it in <a href="http://trac.videolan.org/">Trac</a>.</p>
 <p>You'll find roadmaps and todo on <a href="http://trac.videolan.org">Trac</a>.</p>
 
-<h2 id="3rdparty">Third party libraries used by VLC</h2>
+<h2 id="thirdparty">Third party libraries used by VLC</h2>
 
 <p>You'll find a complete list on the <a href="http://wiki.videolan.org/Contrib_Status">wiki</a>.</p>
 <p>But, here are the most important libraries.</p>

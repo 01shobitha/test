@@ -34,7 +34,7 @@ echo "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n";
    <meta name="Description" content="<?php echo $title; ?>" />
    <title><?php echo $title; ?></title>
    <link rel="alternate" type="application/rss+xml" title="RSS - News" href="http://www.videolan.org/videolan-news.rss" />
-   <link rel="stylesheet" type="text/css" href="http://download.videolan.org/main.css" />
+   <link rel="stylesheet" type="text/css" href="http://images.videolan.org/main.css" />
 <!--[if lt IE 7]>
    <style type="text/css">
       @media screen{ body{behavior:url("/width.htc");} }

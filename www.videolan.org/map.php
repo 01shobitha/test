@@ -126,6 +126,7 @@
             <li><a href="http://www.videolan.org/support/lists.html">Mailing lists</a></li>
             <li><a href="http://forum.videolan.org">VideoLAN forums</a></li>
             <li><a href="http://wiki.videolan.org">VideoLAN wiki</a></li>
+        </ul>
      </td>
 
 </tr>

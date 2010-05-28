@@ -33,7 +33,7 @@ reviewing)</p>
 should contact him to coordinate help.</p>
 
 <p>If you want to make a translation for a new language, please read the
-<a href="vlc-howto.html">howto</a>
+<a href="vlc-howto.html">howto</a></p>
 
 <h3>List of translation maintainers</h3>
 

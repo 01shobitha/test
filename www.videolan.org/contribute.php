@@ -11,7 +11,7 @@
 
 <h2>Contribute time</h2>
 
-<img src="http://images.videolan.org/images/contribute-time.png" alt="" style="float: left; margin-right: 5px">
+<img src="http://images.videolan.org/images/contribute-time.png" alt="" style="float: left; margin-right: 5px" />
 <div>
 <p>If you have time, we welcome your help in various area</p>
 <ul>
@@ -29,12 +29,12 @@
 
 <h2>Contribute materials</h2>
 
-<img src="http://images.videolan.org/images/contribute-materials.png" alt="" style="float: left; margin-right: 5px">
+<img src="http://images.videolan.org/images/contribute-materials.png" alt="" style="float: left; margin-right: 5px" />
 <p> Your particular DVD, VCD or SVCD does not work with VLC?<br />
 You have a satellite card or an MPEG encoding card that is not supported by some VideoLAN software? </p>
 <p> You can donate it to the developers and it may motivate them to work on your suggestion! In any case, you do not have any
 warranty that your wish will be taken into account. </p>
-<p> If you want to donate materials, please  <a href="/videolan/">contact us.</a>
+<p> If you want to donate materials, please  <a href="/videolan/">contact us.</a></p>
 
 <h2>Donate money</h2>
 <a id="money"></a>

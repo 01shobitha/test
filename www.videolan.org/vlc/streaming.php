@@ -1,6 +1,3 @@
-<!--
- vim:tabstop=2
- -->
 <?php
    $title = "VideoLAN - The cross-platform streaming solution";
    $lang = "en";

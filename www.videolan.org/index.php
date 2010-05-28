@@ -164,7 +164,7 @@ window.onresize = function(evt) { adapt(); }
 
                <p>x264 forms the core of many web video services, such as <b>Youtube, Facebook, Vimeo, and Hulu</b>.
                 It is also used in television broadcast by companies such as Avail Media.</p>
-              <p style="font-size: 14px;"><a href="/developers/x264.html"><b>Know more</b> about x264</a> and <a href="/developers/x264.html"><b>Download</b></a>.</p>
+              <p style="font-size: 14px; text-align: center;"><a href="/developers/x264.html"><b>Know more</b> about x264</a> and <a href="/developers/x264.html"><b>Download</b></a>.</p>
             </div>
             <div class="right">
              <ul class="blue-bullet">
@@ -189,12 +189,12 @@ window.onresize = function(evt) { adapt(); }
         <div class="panel" id="panel-libdvdcss" style="display:none;">
           <h2 class="project_name">libdvdcss</h2>
             <p> libdvdcss is a simple library designed for accessing DVDs like a block device without having to bother about the decryption.</p>
-            <p style="font-size: 14px;"><a href="/developers/libdvdcss.html"><b>Know more</b> about libdvdcs</a>.</p>
+            <p style="font-size: 14px; text-align: center;"><a href="/developers/libdvdcss.html"><b>Know more</b> about libdvdcs</a>.</p>
         </div>
         <div class="panel" id="panel-vlma" style="display:none;">
           <h2 class="project_name">VLMa</h2>
             VLMa is an application to manage broadcasts of TV channels, received through digital terrestrial or satellite ways. Its interface is provided as a web-site written in Java. It is also capable of streaming audio and video files. VLMa consists of a deamon (called VLMad) and a web interface (called VLMaw).
-            <p style="font-size: 14px;"><a href="/projects/vlma/"><b>Know more</b> about VLMa</a>.</p>
+            <p style="font-size: 14px; text-align: center;"><a href="/projects/vlma/"><b>Know more</b> about VLMa</a>.</p>
         </div>
       </td></tr>
     </table>

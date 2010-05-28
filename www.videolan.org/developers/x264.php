@@ -64,7 +64,7 @@
 
 <p>Unofficial builds for Windows are available from <a href="http://x264.nl/">Jarod</a>,
 <a href="http://doom10.org/index.php?topic=3.0">techouse</a>, or
-<a href="http://forum.doom9.org/showthread.php?t=89979">Sharktooth</a>.
+<a href="http://forum.doom9.org/showthread.php?t=89979">Sharktooth</a>.</p>
 
 <h2>Support</h2>
 

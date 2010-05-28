@@ -109,6 +109,7 @@ cooperation of our partners, on both technical and financial sides: </p>
 
     <p>Gandi supports VideoLAN by managing their domain names and helping the VideoLAN
     association in various administrative tasks.</p>
+    </td>
 
   </tr>
 

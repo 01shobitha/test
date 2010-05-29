@@ -29,6 +29,8 @@ a:hover, a:active { color: #000;}
 
 .clearme { clear:both; }
 
+input { border: 1px solid #666; }
+
 h1 { font-weight: bold; font-size: 22px;
     line-height: 16px;
     color: #333;

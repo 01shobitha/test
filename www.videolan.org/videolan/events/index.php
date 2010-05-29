@@ -147,7 +147,7 @@ Centrale Paris.</p>
 
 <p><a href="20030321/index.html">Slides of the presentation (in french)</a></p>
 
-<p><a href="http://www.via.ecp.fr/membres/vie/journeevia-20030321-presentVL/">Pictures of the presentation</a></p>
+<p><a href="/videolan/events/journeevia-20030321-presentVL/">Pictures of the presentation</a></p>
 
 <h2>4-5-6 February 2003 - VideoLAN at Linux Expo Paris 2003</h2>
 

@@ -22,17 +22,17 @@ The VideoLAN community is a fast-evolving and ever-changing community and develo
 
 <p>Once again, a few of us attended <a href="http://www.fosdem.org/2008/">FOSDEM</a> this year. We didn't hold any presentation but it was a nice occasion for us developers to meet in real life and to discuss about VideoLAN future, especially the migration from SVN to GIT and the release of VLC 0.9.</p>
 
-<img src="http://download.videolan.org/events/20080223/crew.jpg" alt="FOSDEM 2008" />
+<img src="/videolan/events/20080223/crew.jpg" alt="FOSDEM 2008" />
 <p>From left to right: ivoire, LeJo, phytos, jpountz, jb, JPeg, jpsaman, dionoea and Remiii.</p>
 
-<p><a href="http://download.videolan.org/events/20080223">Here</a> you can find other photos of the VideoLAN team at this event thanks to ivoire and phytos.</p>
+<p><a href="/videolan/events/20080223">Here</a> you can find other photos of the VideoLAN team at this event thanks to ivoire and phytos.</p>
 
 
 <h2>30/31 January - 1 February 2007 - Solutions Linux</h2>
 
 <p>VideoLAN will attend the Solutions Linux expo in Paris. This year, we'll have a booth in the free associations area. Don't forget to drop by !</p>
 <p>
-<a href="http://www.solutionslinux.fr/fr/"><img src="http://troll3.parinux.org/~seyman/Linux-468x60.gif" alt="Solutions Linux 2007"/></a>
+<a href="http://www.solutionslinux.fr/"><img src="http://troll3.parinux.org/~seyman/Linux-468x60.gif" alt="Solutions Linux 2007"/></a>
 </p>
 
 <h2>26/27 February 2005 - VideoLAN is hot at FOSDEM</h2>

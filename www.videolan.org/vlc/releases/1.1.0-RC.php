@@ -141,16 +141,6 @@ Download VLC 1.1.0-RC</a></div></div>
 
 <h2>Direct links</h2>
 If you link to this release, please use the following links.
-<h3>Win32</h3>
-<a href="http://sourceforge.net/projects/vlc/files/vlc-1.1.0-rc/win32/vlc-1.1.0-rc-win32.exe/download">VLC installer download</a><br />
-<a href="http://sourceforge.net/projects/vlc/files/vlc-1.1.0-rc/win32/vlc-1.1.0-rc-win32.7z/download">VLC 7z (no-install) download</a><br />
-<a href="http://sourceforge.net/projects/vlc/files/vlc-1.1.0-rc/win32/vlc-1.1.0-rc-win32.zip/download">VLC zip (no-install) download</a><br />
-
-<h3>OS X</h3>
-<a href="http://sourceforge.net/projects/vlc/files/vlc-1.1.0-rc/macosx/vlc-1.1.0-rc-intel.dmg/download">VLC OSX (intel) download</a><br />
-<a href="http://sourceforge.net/projects/vlc/files/vlc-1.1.0-rc/macosx/vlc-1.1.0-rc-intel64.dmg/download">VLC OSX (intel64) download</a><br />
-<a href="http://sourceforge.net/projects/vlc/files/vlc-1.1.0-rc/macosx/vlc-1.1.0-rc-powerpc.dmg/download">VLC OSX PPC download</a><br />
-
 <h3>Source</h3>
 <a href="http://sourceforge.net/projects/vlc/files/vlc-1.1.0-rc/vlc-1.1.0-rc.tar.bz2/download">VLC Source download</a>
 

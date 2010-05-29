@@ -1,5 +1,5 @@
 <?php
-   $title = ", VLC: Free streaming and multimedia solutions for all OS!";
+   $title = "VLC: Free streaming and multimedia solutions for all OS!";
    $menu = array( "project", "home" );
    $additional_js = array("/js/jquery.min.js");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");

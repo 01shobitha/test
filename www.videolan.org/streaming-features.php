@@ -1,5 +1,5 @@
 <?php
-   $title = "VideoLAN Streaming - Features list";
+   $title = "Streaming Features list";
    $lang = "en";
    $menu = array( "streaming", "features" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");

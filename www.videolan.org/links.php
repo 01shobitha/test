@@ -1,5 +1,5 @@
 <?php
-   $title = "VideoLAN - links";
+   $title = "Links";
    $lang = "en";
    $menu = array( "home", "links" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");

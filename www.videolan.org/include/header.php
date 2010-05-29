@@ -30,7 +30,7 @@ echo '<?xml version="1.0" encoding="utf-8" ?>';
      video, video player, multimedia, multicast, IPv6, media player, media converter,
      open source, free software" />
    <meta name="Description" content="<?php echo $title; ?>" />
-   <title>VideoLAN<?php echo $title; ?></title>
+   <title>VideoLAN - <?php echo $title; ?></title>
    <link rel="alternate" type="application/rss+xml" title="RSS - VideoLAN News" href="/videolan-news.rss" />
    <link rel="alternate" type="application/rss+xml" title="RSS - Developers' Planet" href="http://planet.videolan.org/rss20.xml" />
    <link rel="stylesheet" type="text/css" href="/main.css" />

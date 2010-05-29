@@ -1,5 +1,5 @@
 <?php
-   $title = "VideoLAN - Free Software and Open Source video streaming solution for every OS!";
+   $title = "Free Software and Open Source video streaming solution for every OS!";
    $lang = "en";
    $menu = array( "project", "overview" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");

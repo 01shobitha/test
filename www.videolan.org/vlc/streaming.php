@@ -1,5 +1,5 @@
 <?php
-   $title = "VideoLAN - The cross-platform streaming solution";
+   $title = "The cross-platform streaming solution";
    $lang = "en";
    $menu = array( "vlc", "streaming" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");

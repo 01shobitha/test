@@ -1,5 +1,5 @@
 <?php
-   $title = "VideoLAN - News";
+   $title = "News";
    $lang = "en";
    $menu = array( "project", "news" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");

@@ -1,5 +1,5 @@
 <?php
-   $title = " - VLC 1.1.0 Test Release Candidate";
+   $title = "VLC 1.1.0 Test Release Candidate";
    $lang = "en";
    $menu = array( "project", "news" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
@@ -12,6 +12,8 @@ function DoDL2( $os, $with_js=1 )
     $dl = array();
     $version = '1.1.0-rc';
     $start_url="http://sourceforge.net/projects/vlc/files/vlc-$version";
+    $dl["Win32"] = array( "http://download.videolan.org/pub/testing/vlc-1.1.0-rc/win32/vlc-1.1.0-rc-win32.exe", "Windows install" );
+    $dl["Win32-7z"] = array( "http://download.videolan.org/pub/testing/vlc-1.1.0-rc/win32/vlc-1.1.0-rc-win32.exe", "Windows 7z" );
     $dl["Linux"] =array("$start_url/vlc-$version.tar.bz2/download", "Linux and other OSes" );
     $dl["Debian"] = array( "/vlc/download-debian.html", "Debian GNU/Linux" );
     $dl["Ubuntu"] = array( "/vlc/download-ubuntu.html", "Ubuntu Linux");

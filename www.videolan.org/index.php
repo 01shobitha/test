@@ -189,7 +189,7 @@ window.onresize = function(evt) { adapt(); }
         <div class="panel" id="panel-libdvdcss" style="display:none;">
           <h2 class="project_name">libdvdcss</h2>
             <p> libdvdcss is a simple library designed for accessing DVDs like a block device without having to bother about the decryption.</p>
-            <p style="font-size: 14px; text-align: center;"><a href="/developers/libdvdcss.html"><b>Know more</b> about libdvdcs</a>.</p>
+            <p style="font-size: 14px; text-align: center;"><a href="/developers/libdvdcss.html"><b>Know more</b> about libdvdcss</a>.</p>
         </div>
         <div class="panel" id="panel-vlma" style="display:none;">
           <h2 class="project_name">VLMa</h2>

@@ -168,7 +168,7 @@ http://mirror.its.uidaho.edu/pub/videolan/|University of Idaho|USA|us|HTTP|200
 # POP Internet
 #Location: Brazil
 # Vinicius Lage <vinilage @ gmail.com>
-http://vlc.pop.com.br/|POP Internet|Brazil|br|HTTP|1000
+#http://vlc.pop.com.br/|POP Internet|Brazil|br|HTTP|1000
 #
 #
 # CacheBoy CDN - This is a TEST

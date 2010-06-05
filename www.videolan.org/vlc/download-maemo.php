@@ -16,7 +16,7 @@
 <p> VLC 1.1 is available for Maemo 5 with the VLC Hildon interface.
 </p>
 
-<p><a href="http://ftp.videolan.org/pub/videolan/maemo/vlc.install"
+<p><a href="maemo/vlc.install"
  >Click here to install VLC with the Maemo package manager</a>.</p>
 
 <h2> Maemo 4 </h2>

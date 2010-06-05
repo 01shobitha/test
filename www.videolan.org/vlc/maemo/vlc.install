@@ -7,5 +7,5 @@ name = VideoLAN.org catalog
 name[en_GB] = VideoLAN.org catalogue
 name[de_DE] = VideoLAN.org Katalog
 name[de_DE] = Catalogue VideoLAN.org
-uri = http://ftp.videolan.org/pub/videolan/maemo
+uri = http://download.videolan.org/pub/videolan/maemo5/
 components = binary/

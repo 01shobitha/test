@@ -165,7 +165,7 @@ StartHtml( ereg_replace( "<[^>]*>" , "" , $title ) , $enable_live, $enable_map )
   </div>
 	<div id="submenucontainer">
 		<div class="videolan-logo">
-			<a href="/"><img src="http://download.videolan.org/images/videolan-logo.png" alt="VideoLAN" width="100" height="47"/></a>
+			<a href="/"><img src="http://images.videolan.org/images/videolan-logo.png" alt="VideoLAN" width="100" height="47"/></a>
 		</div>
 		<ul id="submenu">
 			<?php DrawMenu( $menu[0].".menu.txt", $menu[1] ); ?>

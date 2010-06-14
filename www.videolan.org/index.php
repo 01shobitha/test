@@ -62,7 +62,7 @@ window.onresize = function(evt) { adapt(); }
                           <input name="business" value="sponsor@videolan.org" type="hidden"/>
                           <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
                           <input name="no_note" value="0" type="hidden"/>
-                          <input name="currency_code" value="US" type="hidden"/>
+                          <input name="currency_code" value="USD" type="hidden"/>
                           <input name="tax" value="0" type="hidden"/>
                           <input name="submit" type="submit" alt="Donate money to VideoLAN via PayPal" value="$" class="grey-button" style="height:24px;font-weight:bold;font-size:10pt;height: 100%;"/>
                         </div>

@@ -40,7 +40,6 @@ function DoDL2( $os, $with_js=1 )
 }
 ?>
 
-
 <div id="mainbox" style="overflow: hidden; padding-bottom: 0px; ">
 <center>
 
@@ -49,7 +48,7 @@ function DoDL2( $os, $with_js=1 )
 </center>
     <table style="margin-bottom: 0"><tr>
       <td style="width: 300px;" id="img">
-         <script type="text/javascript"><!--
+<?php /*         <script type="text/javascript"><!--
             if( <?php echo $is_win32; ?> )
             { <?php Screenshot( "Win32" ); ?> }
             else if( <?php echo $is_beos; ?> )
@@ -61,15 +60,16 @@ function DoDL2( $os, $with_js=1 )
             else
             { <?php Screenshot("Win32" ); ?> }
         --></script>
-        <noscript><p class="center">
+        <noscript> */ ?>
+        <p class="center">
          <img src="http://images.videolan.org/images/screenshots/vlc-win32.jpg" alt="VLC on Windows"/>
-       </p></noscript>
+       </p><!--</noscript>-->
       </td>
       <td id="project_desc">
         <div class="panel" id="panel-vlc" style="display:block;">
             <div class="left">
 <center>
-<div style="margin: 20px 0 20px 20px; padding: 20px 0 30px 60px; background: url('http://www.videolan.org/images/vlc64x64.png') no-repeat left center;">
+<div style="margin: 20px 0 20px 20px; padding: 20px 0 30px 60px; background: url('http://images.videolan.org/images/vlc64x64.png') no-repeat left center;">
 <span style="padding-bottom: 60px; font-size:18px; font-weight: bold; line-height:19px;">The <b>new</b> cone. Always&nbsp;easy. Better.</span> </div>
                <div style="border: 0px red solid; margin: 0 auto; font-size: 21px; width: 13em;">
                  <script type="text/javascript"><!--
@@ -138,7 +138,8 @@ function DoDL2( $os, $with_js=1 )
 <li>Support for new codecs, like Blu-Ray subtitles, MPEG-4 lossless and VP8</li>
 </ul>
 <p><b>NB</b>: so far, on Windows, VideoLAN is quite sad to be forced to recommend nVidia® GPU, until ATI® fixes their drivers on
-Windows and until VideoLAN can access to some Intel Hardware supporting GPU decoding.</p>
+Windows, and until VLC developer get access to some Intel® hardware supporting GPU decoding.</p>
+<br />
 <h2>Extensions</h2>
 New add-ons and script framework so one can personalize its vlc.
 <ul class=blue-bullet>
@@ -173,7 +174,7 @@ New add-ons and script framework so one can personalize its vlc.
 <ul class=blue-bullet>
 <li>Faster decoding, with up to 40% speed-ups, in HD resolutions</li>
 <li>First part of the Video Output core rewrite</li>
-<li>Removal or rewrite of dozens of modules, code simplification and 10 of thousands of lines of code removed</li>
+<li>Removal or rewrite of dozens of modules, code simplification and tens of thousands of lines of code removed</li>
 <li>Some functionalities that are less used are now moved to extensions</li>
 <li>More assembly optimizatinons, especially SSSE3/SSE4 and ARM Neon</li>
 <li>Fewer threads used</li>

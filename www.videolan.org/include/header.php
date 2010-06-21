@@ -33,7 +33,7 @@ echo '<?xml version="1.0" encoding="utf-8" ?>';
    <title>VideoLAN - <?php echo $title; ?></title>
    <link rel="alternate" type="application/rss+xml" title="RSS - VideoLAN News" href="/videolan-news.rss" />
    <link rel="alternate" type="application/rss+xml" title="RSS - Developers' Planet" href="http://planet.videolan.org/rss20.xml" />
-   <link rel="stylesheet" type="text/css" href="http://images.videolan.org/main.css" />
+   <link rel="stylesheet" type="text/css" href="http://images.videolan.org/main.mini.css" />
    <?php if( isset($additional_css) ) {
            foreach($additional_css as $css) {
               echo  '<link rel="stylesheet" type="text/css" href="'.$css.'" />';

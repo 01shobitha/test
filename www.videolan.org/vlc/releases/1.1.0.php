@@ -128,6 +128,7 @@ function DoDL2( $os, $with_js=1 )
 
 <h1>What's new?</h1>
 
+<div style="float:left; width: 50%;">
 <h2>Ready for HD</h2>
 <ul class=blue-bullet>
 <li>GPU decoding on Windows Vista and 7, using DxVA2 for H.264, VC-1 and MPEG-2 </li>
@@ -142,10 +143,13 @@ Windows and until VideoLAN can access to some Intel Hardware supporting GPU deco
 <ul>
 <li></li>
 </ul>
-<h2>Faster, Leaner</h2>
+<h2>Web improvements</h2>
 <ul>
 <li></li>
 </ul>
+</div>
+
+<div style="float:right; width: 48%;">
 <h2>Better Audio experience</h2>
 <ul class=blue-bullet>
 <li>Integrated playlist in the Qt4 interface</li>
@@ -153,16 +157,24 @@ Windows and until VideoLAN can access to some Intel Hardware supporting GPU deco
 <li>Support for AMR-NB, Mpeg-4 ALS, Vorbis 6.1/7.1, FLAC 6.1/7.1 and WMAS</li>
 <li>CDDB and CD-Text works now on the Windows port when listening to CD-Audio</li>
 <li>Support for DVD-Audio files (.aob)</li>
+<li>Improved meta-data and album-art support</li>
 </ul>
-<h2>Web improvements</h2>
-<ul>
-<li></li>
+<h2>Faster, Leaner</h2>
+<ul class=blue-bullet>
+<li>Faster decoding, with up to 40% speed-ups, in HD resolutions</li>
+<li>Video Output core rewrite in progress</li>
+<li>Removal or rewrite of dozens of modules, code simplification and 10 of thousands of lines of code removed</li>
+<li>Some functionnalities that are less used are now moved to extensions</li>
+<li>More assembly code used, notably SSE3/SSE4 and Neon</li>
+<li>Less threads used</li>
 </ul>
 <h2>Better for developers</h2>
 <ul>
 <li></li>
 </ul>
+</div>
 
+<div style="clear:both;"></div>
 <h1></h1>
 <h2>Complete Changelog</h2
 <a href="/developers/vlc-branch/NEWS">Changelog for 1.1.0 </a>

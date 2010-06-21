@@ -7,10 +7,11 @@
 
 <div id="fullwidth">
 
-
+<div class="press">
 <h1>Press Release about Shoutcast Removal in VLC</h1>
 
-<p>
+<h2>Introduction</h2>
+
 SHOUTcast Radio is a web site which provides a directory of radio stations avalaible on the Internet.
 It provides categorizations of such stations, so it is easier to find one that matches your interest.
 According to users feedback, the integration of such directory inside VLC is one of the best features of the software.</p>
@@ -32,9 +33,9 @@ distributed as free software, open source software or similar licensing or distr
 that requires as a condition of use, modification or distribution that such software or other software
 incorporated into, derived from or distributed with such software: (1) be disclosed or distributed in
 source code form; (2) be licensed for the purpose of making derivative works; or (3) be
-redistributable at no charge."</blockquote>
+redistributable at no charge."</blockquote></p>
 
-Moreover, the license forces us to integrate the spyware and adware based Shoutcast Radio Toolbar inside your browser as stated at chapter 6.6:
+<p>Moreover, the license forces us to integrate the spyware and adware based Shoutcast Radio Toolbar inside your browser as stated at chapter 6.6:
 
 <blockquote>
 "Integrated Product.
@@ -56,15 +57,18 @@ and let the radio owner know about how AOL treats their content.</p>
 <p>We want to emphasise the fact that features like SHOUTcast or icecast browsing are now doable using our new extension framework and
 you will find user-contributed extensions on http://addons.videolan.org/</p>
 
+<h2>Contact AOL</h2>
 <p>Please direct your complaints about the removal of Shoutcast to the following responsible people from AOL Corporation:</p>
-Faisal Sultan <a href="mailto:faisal.sultan@corp.aol.com">faisal.sultan@corp.aol.com</a>
-Saran, Anurag <a href="mailto:anurag.saran@corp.aol.com">anurag.saran@corp.aol.com</a>
-Namerow, Lisa <a href="mailto:Lisa.Namerow@corp.aol.com">Lisa.Namerow@corp.aol.com</a>
-Wilson, Robert <a href="mailto:robert.wilson@corp.aol.com">robert.wilson@corp.aol.com</a>
+<ul>
+<li>Faisal Sultan <a href="mailto:faisal.sultan@corp.aol.com">faisal.sultan@corp.aol.com</a></li>
+<li>Saran Anurag <a href="mailto:anurag.saran@corp.aol.com">anurag.saran@corp.aol.com</a></li>
+<li>Lisa Namerow <a href="mailto:Lisa.Namerow@corp.aol.com">Lisa.Namerow@corp.aol.com</a></li>
+<li>Robert Wilson <a href="mailto:robert.wilson@corp.aol.com">robert.wilson@corp.aol.com</a></li>
+</ul>
 
 <p>To contact VideoLAN, see the contact page.</p>
 
-<p>The entire license can be found here: pdf</p>
+<p>The entire license can be found here: <a href="/press/LicenseAgreement_SHOUTcast.pdf">License in pdf</a></p>
 <p>
 References:
 </p>
@@ -73,6 +77,7 @@ References:
 <dd><a href="http://www.videolan.org/vlc/">http://www.videolan.org/vlc/</a>
 </dd>
 </dl>
+</div>
 
 </div>
 

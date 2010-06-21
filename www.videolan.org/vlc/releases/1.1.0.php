@@ -73,7 +73,7 @@ function DoDL2( $os, $with_js=1 )
 <span style="padding-bottom: 60px; font-size:18px; font-weight: bold; line-height:19px;">The <b>new</b> cone. Always&nbsp;easy. Better.</span> </div>
                <div style="border: 0px red solid; margin: 0 auto; font-size: 21px; width: 13em;">
                  <script type="text/javascript"><!--
-                if ( <?php echo $is_win32; ?> ) { <?php DoDL2("Win32"); DoDL2("Win32-7z"); ?> }
+                if ( <?php echo $is_win32; ?> ) { <?php DoDL2("Win32"); ?> }
                 else if( <?php echo $is_beos; ?> ) { <?php DoDL2("BeOS"); ?> }
                 else if( <?php echo $is_linux; ?> )
                 {

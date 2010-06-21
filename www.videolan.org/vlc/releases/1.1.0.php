@@ -117,7 +117,31 @@ function DoDL2( $os, $with_js=1 )
 
           <h2 class="project_name">Volunteer work! Help us!</h2>
            <p>VLC is done by a <b>small</b> team of volunteers.</p>
-           <p>Please, help us!</p>
+                           <div style="float: right; padding-top: 10px;"><span id="donate" style="font-size: 16px; color: #770088;">Donate with Paypal:</span>
+                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="display: inline;">
+                       <div style="display: inline;">
+                          <input name="cmd" value="_xclick" type="hidden"/>
+                          <input name="business" value="sponsor@videolan.org" type="hidden"/>
+                          <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
+                          <input name="no_note" value="0" type="hidden"/>
+                          <input name="currency_code" value="EUR" type="hidden"/>
+                          <input name="tax" value="0" type="hidden"/>
+                          <input name="submit" type="submit" alt="Donate money to VideoLAN via PayPal" value="&euro;" class="grey-button" style="height:24px;font-weight:bold;font-size:10pt; height: 100%;"/>
+                        </div>
+                    </form>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="display: inline;">
+                       <div style="display: inline;">
+                          <input name="cmd" value="_xclick" type="hidden"/>
+                          <input name="business" value="sponsor@videolan.org" type="hidden"/>
+                          <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
+                          <input name="no_note" value="0" type="hidden"/>
+                          <input name="currency_code" value="USD" type="hidden"/>
+                          <input name="tax" value="0" type="hidden"/>
+                          <input name="submit" type="submit" alt="Donate money to VideoLAN via PayPal" value="$" class="grey-button" style="height:24px;font-weight:bold;font-size:10pt;height: 100%;"/>
+                        </div>
+                    </form>
+                    </div>
+
         </div>
     </td>
     </tr>

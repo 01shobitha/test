@@ -103,7 +103,7 @@ function DoDL2( $os, $with_js=1 )
                 }
                 --></script>
                 <noscript>
-                  <?php DoDL2("Win32",0);DoDL2("OSX-PPC",0);DoDL2("OSX-Intel",0); ?>
+                  <?php DoDL2("Win32",0);/*DoDL2("OSX-PPC",0);DoDL2("OSX-Intel",0);*/ ?>
                 </noscript>
                  <div class="dl-other"><a href="/vlc/">Other Systems, Versions</a></div>
                 </div>

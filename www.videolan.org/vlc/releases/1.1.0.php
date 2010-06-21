@@ -1,5 +1,5 @@
 <?php
-   $title = "VLC 1.1.0 Test Release Candidate";
+   $title = "VLC 1.1.0 release";
    $lang = "en";
    $menu = array( "project", "news" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");

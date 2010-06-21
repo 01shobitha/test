@@ -1,7 +1,7 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
-|21 June 2010|VLC 1.1.0 removes SHOUTcast support|VideoLAN is sad to announce that, starting from VLC 1.1.0, the SHOUTcast module is not available on the distributed VLC any longer, because AOL Corporation is hindering Open Source Software.<br />AOL wants to force VLC to be relicensed to close-source and shipped with an adware software from them.<br />You can find <a href="/press/2010-1.html">more information</a>.
+|21 June 2010|VLC 1.1.0 removes SHOUTcast support|VideoLAN is sad to announce that, starting from VLC 1.1.0, the SHOUTcast module is not available on the distributed VLC any longer, because AOL Corporation is hindering Open Source Software.<br />AOL wants to force VLC to be relicensed to <b>close-source</b> and shipped with an <b>adware</b> software from them.<br />You can find <a href="/press/2010-1.html">more information</a>.
 
 |27 May 2010|VLC 1.1.0 Release Candidate 1|VideoLAN and the VLC developers are proud to announce the first Release Candidate of the <b>1.1.0</b> version of VLC.<br />This test release, aimed at power-users is a major update on the current VLC 1.0.x branch. It includes numerous changes, modification and improvements, including GPU/DSP decoding, support for more formats and codecs and extensions.</p><p>Source and full Changelog are <a href="/vlc/releases/1.1.0-RC.html">available now.</a>
 

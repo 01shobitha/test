@@ -38,9 +38,9 @@ source code form; (2) be licensed for the purpose of making derivative works; or
 redistributable at no charge."</blockquote></p>
 
 <h3>Forcing spyware and adware</h3>
-<p>Moreover, the license forces us to integrate the spyware and adware based Shoutcast Radio Toolbar inside your browser as stated at chapter 6.6:
+<p>Moreover, the license forces us to integrate the spyware and adware based Shoutcast Radio Toolbar inside your browser as stated at chapter 6.6:</p>
 
-<blockquote>
+<blockquote style="font-style: italic;">
 "Integrated Product.
 You agree to promote the SHOUTcast Radio toolbar on your web site and within the
 documentation of the Integrated Product subject to placement agreed to by You and Nullsoft in

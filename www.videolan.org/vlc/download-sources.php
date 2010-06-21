@@ -12,10 +12,12 @@
 <div id="left">
 <h2>Tarballs</h2>
 
-<p> Latest VLC source code tarball (1.0.6): </p>
+<p> Latest VLC source code tarball (1.1.0): </p>
 
 <ul class="bullets">
-<li><?php pkgitem_nomirr("VLC source code tar.bz2", "1.0.6","vlc-1.0.6.tar.bz2","vlc"); ?></li>
+
+<li><a href="http://sourceforge.net/projects/vlc/files/1.1.0/vlc-1.1.0.tar.bz2/download">VLC source code tar.bz2</a>
+<?php /* pkgitem_nomirr("VLC source code tar.bz2", "1.1.0","vlc-1.1.0.tar.bz2","vlc");*/ ?></li>
 </ul>
 
 <?php

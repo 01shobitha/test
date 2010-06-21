@@ -15,8 +15,8 @@
 
 <p>All mirrors include all the available languages.</p>
 
-<?php $vlc_version = '1.0.5'; ?>
-  <h2>Latest packages (<?php echo $vlc_version; ?>)</h2>
+<?php $vlc_version = '1.1.0'; ?>
+  <h2>Latest version - <?php echo $vlc_version; ?></h2>
 <p>This release only supports Windows 2000, XP, Vista and 7. </p>
 
 <?php

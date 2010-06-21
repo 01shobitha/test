@@ -48,7 +48,7 @@ function pkgitem($description,$version,$name,$top,$extradescription="")
   static $mirror_row = 0;
   pkgversion($top, $version);
 
-  echo "<p>$description <i>$extradescription</i> (".DownloadSize("{$_SERVER["DOCUMENT_ROOT"]}pub/videolan/$top/$version/$name").")</p>";
+  echo "<h3>$description <i>$extradescription</i> (".DownloadSize("{$_SERVER["DOCUMENT_ROOT"]}pub/videolan/$top/$version/$name").")</h3>";
 ?>
   <table>
     <tbody><tr>

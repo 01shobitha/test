@@ -325,7 +325,7 @@ a.en {
 /**** New front page ****/
 #mainbox {
     height: auto;
-    background: #FFF bottom center repeat-x url('/images/frontpage/background.png');
+background: #FFF bottom center repeat-x url('http://images.videolan.org/images/frontpage/background.png');
   -moz-border-radius: 5px;
   -webkit-border-radius:  5px;
   border-radius: 5px;

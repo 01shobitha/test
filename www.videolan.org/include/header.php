@@ -47,7 +47,7 @@ echo '<?xml version="1.0" encoding="utf-8" ?>';
         .DXImageTransformed { display: inline-block; }
       </style>
 <![endif]-->
-   <link rel="shortcut icon" type="image/x-icon" href="/images/icons/favicon.ico" />
+   <link rel="shortcut icon" type="image/x-icon" href="http://images.videolan.org/images/icons/favicon.ico" />
   <?php
       if( isset($additional_js) ) {
         foreach($additional_js as $js) {

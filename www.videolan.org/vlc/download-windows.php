@@ -22,9 +22,9 @@
 <?php
     pkgitem_sf( "Windows self-extracting package",
                    "$vlc_version/win32","vlc-$vlc_version-win32.exe","vlc");
-    pkgitem("Windows 7zip (No installer needed)",
+    pkgitem_sf("Windows 7zip (No installer needed)",
                   "$vlc_version/win32","vlc-$vlc_version-win32.7z","vlc");
-    pkgitem("Windows zip packages (No installer needed)",
+    pkgitem_sf("Windows zip packages (No installer needed)",
                   "$vlc_version/win32","vlc-$vlc_version-win32.zip","vlc");
 ?>
 

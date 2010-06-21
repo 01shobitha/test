@@ -25,7 +25,7 @@ asking us to either comply to a license not compatible with free software or rem
 
 <h3>Open source integral restriction</h3>
 <p>The license states at Chapter 4.4:</p>
-<blockquote style="text-style: italic;">
+<blockquote style="font-style: italic;">
 "When sold or distributed to End Users, the Integrated Product shall not [...] (c) incorporate any
 Publically Available Software, in whole or in part, in a manner that may subject SHOUTcast Radio or
 the SHOUTcast Radio Materials, in whole or in part, to all or part of the license obligations of any
@@ -47,7 +47,9 @@ documentation of the Integrated Product subject to placement agreed to by You an
 writing. If the Integrated Product is a software download, You agree to bundle the SHOUTcast
 Radio toolbar with the Integrated Product."
 </blockquote>
-
+<br />
+<br />
+<br />
 <h2>License incompatibility</h2>
 <p>
 Since it is obviously impossible for VLC to comply with such licensing terms, we had to remove the support from the default VLC.
@@ -63,7 +65,7 @@ you will find user-contributed extensions on http://addons.videolan.org/</p>
 
 <h2>Complain to AOL</h2>
 <p>Please direct your complaints about the removal of Shoutcast to the following responsible people from AOL Corporation:</p>
-<ul>
+<ul class="blue-bullet">
 <li>Faisal Sultan <a href="mailto:faisal.sultan@corp.aol.com">faisal.sultan@corp.aol.com</a></li>
 <li>Saran Anurag <a href="mailto:anurag.saran@corp.aol.com">anurag.saran@corp.aol.com</a></li>
 <li>Lisa Namerow <a href="mailto:Lisa.Namerow@corp.aol.com">Lisa.Namerow@corp.aol.com</a></li>

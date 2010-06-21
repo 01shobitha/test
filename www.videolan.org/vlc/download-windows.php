@@ -20,7 +20,7 @@
 <p>This release only supports Windows 2000, XP, Vista and 7. </p>
 
 <?php
-    pkgitem( "Windows self-extracting package",
+    pkgitem_sf( "Windows self-extracting package",
                    "$vlc_version/win32","vlc-$vlc_version-win32.exe","vlc");
     pkgitem("Windows 7zip (No installer needed)",
                   "$vlc_version/win32","vlc-$vlc_version-win32.7z","vlc");

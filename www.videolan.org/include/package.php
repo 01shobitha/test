@@ -15,7 +15,7 @@ function browse_old( $fold )
 
 function pkgversion($name,$version)
 {
-  $latest = array("vlc" => "0.9.10");
+  $latest = array("vlc" => "1.0.5");
 
   if (!$latest[$name])
     return;
@@ -41,6 +41,13 @@ function pkgitem_nomirr($description,$version,$name,$top,$extradescription="")
 {
   pkgversion($top, $version);
   echo "<p><a href=\"http://download.videolan.org/pub/videolan/$top/$version/$name\">$description</a> <i>$extradescription</i> (".DownloadSize("{$_SERVER["DOCUMENT_ROOT"]}pub/videolan/$top/$version/$name").")</p>";
+}
+
+function pkgitem_sf($description,$version,$name,$top,$extradescription="")
+{
+ pkgversion($top, $version);
+ echo "<h3>$description <i>$extradescription</i></h3>";
+ echo "<a href='http://sourceforge.net/projects/$top/files/$version/$name/download'>Download</a>";
 }
 
 function pkgitem($description,$version,$name,$top,$extradescription="")

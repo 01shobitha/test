@@ -127,7 +127,7 @@ function DoDL2( $os, $with_js=1 )
                           <input name="no_note" value="0" type="hidden"/>
                           <input name="currency_code" value="EUR" type="hidden"/>
                           <input name="tax" value="0" type="hidden"/>
-                          <input name="submit" type="submit" alt="Donate money to VideoLAN via PayPal" value="&euro;" class="grey-button" style="height:24px;font-weight:bold;font-size:10pt; height: 100%;color:#0033FF;border-color:#0033FF;"/>
+                          <input name="submit" type="submit" alt="Donate money to VideoLAN via PayPal" value="&euro;" class="grey-button" style="font-size:11pt;border-color:#0033FF;background:#6699FF;font-weight:bold"/>
                         </div>
                     </form>
                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="display: inline;">
@@ -138,7 +138,7 @@ function DoDL2( $os, $with_js=1 )
                           <input name="no_note" value="0" type="hidden"/>
                           <input name="currency_code" value="USD" type="hidden"/>
                           <input name="tax" value="0" type="hidden"/>
-                          <input name="submit" type="submit" alt="Donate money to VideoLAN via PayPal" value="$" class="grey-button" style="height:24px;font-weight:bold;font-size:10pt;height: 100%;border-color:#0033FF;color:#0033FF;"/>
+                          <input name="submit" type="submit" alt="Donate money to VideoLAN via PayPal" value="$" class="grey-button" style="font-size:11pt;border-color:#0033FF;background:#6699FF;font-weight:bold"/>
                         </div>
                     </form>
                     </div>

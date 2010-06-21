@@ -188,6 +188,7 @@ New add-ons and script framework so one can personnalize its vlc.
 </div>
 
 <div style="clear:both;"></div>
+
 <h1></h1>
 <h2>Complete Changelog</h2
 <a href="/developers/vlc-branch/NEWS">Changelog for 1.1.0 </a>
@@ -198,6 +199,83 @@ If you link to this release, please use the following links.
 <a href="http://sourceforge.net/projects/vlc/files/vlc-1.1.0/vlc-1.1.0.tar.bz2/download">VLC Source download</a>
 <h3>Win32</h3>
 <h3>MacOS</h3>
+
+<br />
+<br />
+
+<h1>Removal of SHOUTcast functionnality</h1>
+
+<div class="press">
+<h1>Press Release about Shoutcast Removal in VLC</h1>
+
+<h2>Introduction</h2>
+
+<p>SHOUTcast Radio is a web site which provides a directory of radio stations avalaible on the Internet.
+It provides categorizations of such stations, so it is easier to find one that matches your interest.
+According to users feedback, the integration of such directory inside VLC is one of the best features of the software.</p>
+
+<p>Starting from VLC 1.1.0, the SHOUTcast module is not available on the distributed VLC any longer, because AOL Corporation 
+is hindering Open Source Software.</p>
+
+<h2>What happened?</h2>
+<p>During the last year, the VLC developers have received several injunctions by e-mail from employees at AOL,
+asking us to either comply to a license not compatible with free software or remove the SHOUTcast capability in VLC.</p>
+
+<h3>Open source integral restriction</h3>
+<p>The license states at Chapter 4.4:</p>
+<blockquote style="font-style: italic;">
+"When sold or distributed to End Users, the Integrated Product shall not [...] (c) incorporate any
+Publically Available Software, in whole or in part, in a manner that may subject SHOUTcast Radio or
+the SHOUTcast Radio Materials, in whole or in part, to all or part of the license obligations of any
+Publically Available Software. As used herein, the term "Publicly Available Software" means any
+software that contains, or is derived in any manner (in whole or in part) from, any software that is
+distributed as free software, open source software or similar licensing or distribution models; and
+that requires as a condition of use, modification or distribution that such software or other software
+incorporated into, derived from or distributed with such software: (1) be disclosed or distributed in
+source code form; (2) be licensed for the purpose of making derivative works; or (3) be
+redistributable at no charge."</blockquote></p>
+
+<h3>Forcing spyware and adware</h3>
+<p>Moreover, the license forces us to integrate the spyware and adware based Shoutcast Radio Toolbar inside your browser as stated at chapter 6.6:</p>
+
+<blockquote style="font-style: italic;">
+"Integrated Product.
+You agree to promote the SHOUTcast Radio toolbar on your web site and within the
+documentation of the Integrated Product subject to placement agreed to by You and Nullsoft in
+writing. If the Integrated Product is a software download, You agree to bundle the SHOUTcast
+Radio toolbar with the Integrated Product."
+</blockquote>
+<br />
+<br />
+<br />
+<h2>License incompatibility</h2>
+<p>
+Since it is obviously impossible for VLC to comply with such licensing terms, we had to remove the support from the default VLC.
+Other free software multimedia players, like Amarok, are not able to comply with the license terms either and have therefore removed their 
+SHOUTcast support.</p>
+
+<p>However, we are providing a way to integrate the "icecast directory" that provides an open source equivalent to SHOUTcast.
+If you know and like a radio station currently listed on the SHOUTcast directory, please make sure this radio is also available on the icecast directory
+and let the radio owner know about how AOL treats their content.</p>
+
+<p>We want to emphasise the fact that features like SHOUTcast or icecast browsing are now doable using our new extension framework and
+you will find user-contributed extensions on http://addons.videolan.org/</p>
+
+<h2>Complain to AOL</h2>
+<p>Please direct your complaints about the removal of Shoutcast to the following responsible people from AOL Corporation:</p>
+<ul class="blue-bullet">
+<li>Faisal Sultan <a href="mailto:faisal.sultan@corp.aol.com">faisal.sultan@corp.aol.com</a></li>
+<li>Saran Anurag <a href="mailto:anurag.saran@corp.aol.com">anurag.saran@corp.aol.com</a></li>
+<li>Lisa Namerow <a href="mailto:Lisa.Namerow@corp.aol.com">Lisa.Namerow@corp.aol.com</a></li>
+<li>Robert Wilson <a href="mailto:robert.wilson@corp.aol.com">robert.wilson@corp.aol.com</a></li>
+</ul>
+
+<h2>Contact VideoLAN</h2>
+<p>To contact VideoLAN, see the contact page.</p>
+
+<h2>License text</h2>
+<p>The entire license can be found here: <a href="/press/LicenseAgreement_SHOUTcast.pdf">License in pdf</a></p>
+</div>
 
 
 <?php footer('$Id: news.php 6098 2010-05-26 23:50:46Z jb $'); ?>

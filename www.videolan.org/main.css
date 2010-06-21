@@ -301,7 +301,7 @@ a.en {
       text-decoration: none!important;
 }
 
-.blue-bullet { padding: 0 0 20px 0;line-height: 19px;}
+.blue-bullet { padding: 0; line-height: 19px;}
 .blue-bullet li {
     background: url(http://images.videolan.org/images/bullet-blue.png) left top no-repeat;
     padding: 0 0 4px 25px;

@@ -16,7 +16,7 @@ if( isset( $_POST["skin_id"] ) && isset( $_POST["rating"] ) )
  $title = "VLC media player - Skins";
  $lang = "en";
  $menu = array( "vlc", "skins" ); 
- $additional_css = array("/vlc/skins.css");
+ $additional_css = array("/vlc/skins.css","/panels.css");
  $additional_js = array("/js/skins.js");
  $body_onload = "initSkinBox()";
  require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");

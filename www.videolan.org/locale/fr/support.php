@@ -2,6 +2,7 @@
    $title = "VideoLAN - User support";
    $lang = "fr";
    $menu = array( "fr", "support" );
+   $additional_css = array("/panels.css");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php"); 
 ?>
 

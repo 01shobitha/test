@@ -2,6 +2,7 @@
    $title = "The cross-platform streaming solution";
    $lang = "en";
    $menu = array( "vlc", "streaming" );
+   $additional_css = array("/panels.css");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 

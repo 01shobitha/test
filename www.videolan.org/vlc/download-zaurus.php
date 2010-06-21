@@ -2,6 +2,7 @@
    $title = "VLC media player for Zaurus";
    $lang = "en";
    $menu = array( "vlc", "download" );
+   $additional_css = array("/panels.css");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 

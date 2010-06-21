@@ -2,6 +2,7 @@
    $title = "VLC media player source code";
    $lang = "en";
    $menu = array( "vlc", "download" );
+   $additional_css = array("/panels.css");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
 ?>

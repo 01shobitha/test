@@ -3,6 +3,7 @@
    $lang = "en";
    $menu = array( "vlc", "download" );
    $additional_js = array("/js/ffcounter.js");
+   $additional_css = array("/panels.css");
    $body_onload = "getCount()";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");

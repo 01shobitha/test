@@ -2,6 +2,7 @@
    $title = "Goodies";
    $lang = "en";
    $menu = array( "project", "goodies" );
+   $additional_css = array("/panels.css");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 

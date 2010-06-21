@@ -225,11 +225,11 @@ If you link to this release, please use the following links.
 <h3>Source</h3>
 <a href="http://sourceforge.net/projects/vlc/files/vlc-1.1.0/vlc-1.1.0.tar.bz2/download">VLC Source download</a>
 <h3>Win32</h3>
-<a href="https://sourceforge.net/projects/vlc/files/1.1.0/win32/vlc-1.1.0-win32.exe/download">VLC Win32 installer</a>
-<a href="https://sourceforge.net/projects/vlc/files/1.1.0/win32/vlc-1.1.0-win32.7z/download">VLC Win32 7zip (no install)</a>
-<a href="https://sourceforge.net/projects/vlc/files/1.1.0/win32/vlc-1.1.0-win32.zip/download">VLC Win32 zip (no install)</a>
+<a href="https://sourceforge.net/projects/vlc/files/1.1.0/win32/vlc-1.1.0-win32.exe/download">VLC Win32 installer</a><br />
+<a href="https://sourceforge.net/projects/vlc/files/1.1.0/win32/vlc-1.1.0-win32.7z/download">VLC Win32 7zip (no install)</a><br />
+<a href="https://sourceforge.net/projects/vlc/files/1.1.0/win32/vlc-1.1.0-win32.zip/download">VLC Win32 zip (no install)</a><br />
 <h3>MacOS</h3>
-
+The MacOS X binaries are uploading right now and will be available soon.
 <br />
 <br />
 

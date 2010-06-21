@@ -44,8 +44,8 @@ function DoDL2( $os, $with_js=1 )
 <div id="mainbox" style="overflow: hidden; padding-bottom: 0px; ">
 <center>
 
-<div style="color:#333333; font-family: Helvetica, Arial, sans-serif; font-size:40px; font-weight:bold; margin: 20px;">VLC 1.1.0</div>
-<h2>The luggage</h2>
+<div style="text-shadow: 4px 4px 3px #666666; color:#333333; font-family: Helvetica, Arial, sans-serif; font-size:40px; font-weight:bold; margin: 20px;">VLC 1.1.0</div>
+<h2 style="text-shadow: 2px 2px 1px #666666">The luggage</h2>
 </center>
     <table style="margin-bottom: 0"><tr>
       <td style="width: 300px;" id="img">
@@ -134,18 +134,28 @@ function DoDL2( $os, $with_js=1 )
 <li>GPU decoding on Windows Vista and 7, using DxVA2 for H.264, VC-1 and MPEG-2 </li>
 <li>GPU decoding on GNU/Linux, using VAAPI for H.264, VC-1 and MPEG-2</li>
 <li>DSP decoding using <a href="http://www.khronos.org/openmax/">OpenMax IL</a>, for compatible embedded devices</li>
-<li>Improved support for <b>MKV HD</b>, including seeking fixes, and 7.1 channels codecs</li>
+<li>Improved support for MKV HD, including seeking fixes, and 7.1 channels codecs</li>
 <li>Support for new codecs, like Blu-Ray subtitles, MPEG-4 lossless, Vorbis 7.1 and VP8</li>
 </ul>
 <p><b>NB</b>: so far, on Windows, VideoLAN is quite sad to be forced to recommend nVidia® GPU, until ATI® fixes its drivers on
 Windows and until VideoLAN can access to some Intel Hardware supporting GPU decoding.</p>
 <h2>Extensions</h2>
-<ul>
-<li></li>
+New add-ons and script framework so one can personnalize its vlc.
+<ul class=blue-bullet>
+<li>Written in lua</li>
+<li>2 main types of scripts:
+<ul class=blue-bullet>
+<li>content add-ons, integrated in the playlist</li>
+<li>functionnalities extensions, like metadata searching on the web, or subtitles look-ups</li>
+</ul>
+</li>
+<li>Very Simple</li>
 </ul>
 <h2>Web improvements</h2>
-<ul>
-<li></li>
+<ul class=blue-bullet>
+<li>Support for WebM decoding and encoding</li>
+<li>Improved web plugins</li>
+<li>Better streaming capabilities</li>
 </ul>
 </div>
 
@@ -169,7 +179,10 @@ Windows and until VideoLAN can access to some Intel Hardware supporting GPU deco
 <li>Less threads used</li>
 </ul>
 <h2>Better for developers</h2>
-<ul>
+<ul class=blue-bullet>
+<li>Simplified and improved libVLC, removal of exceptions for better C integration</li>
+<li>New phonon-backend for Qt applications, on all platforms</li>
+<li>New C++ bindings</li>
 <li></li>
 </ul>
 </div>
@@ -179,21 +192,12 @@ Windows and until VideoLAN can access to some Intel Hardware supporting GPU deco
 <h2>Complete Changelog</h2
 <a href="/developers/vlc-branch/NEWS">Changelog for 1.1.0 </a>
 
-<h2>Source</h2>
-<div style="width:60%;">
-<div class="dl-button">
-<a href="http://sourceforge.net/projects/vlc/files/vlc-1.1.0-rc/vlc-1.1.0-rc.tar.bz2/download">
-Download VLC 1.1.0-RC</a></div></div>
-    <br />
-    <br />
-
 <h2>Direct links</h2>
 If you link to this release, please use the following links.
 <h3>Source</h3>
-<a href="http://sourceforge.net/projects/vlc/files/vlc-1.1.0-rc/vlc-1.1.0-rc.tar.bz2/download">VLC Source download</a>
-
-<h2>Issues</h2>
-<p>Please report issues on our <a href="http://forum.videolan.org">forum</a> in the <a href="http://forum.videolan.org/viewforum.php?f=34">1.1.0 section.</a> </p>
+<a href="http://sourceforge.net/projects/vlc/files/vlc-1.1.0/vlc-1.1.0.tar.bz2/download">VLC Source download</a>
+<h3>Win32</h3>
+<h3>MacOS</h3>
 
 
 <?php footer('$Id: news.php 6098 2010-05-26 23:50:46Z jb $'); ?>

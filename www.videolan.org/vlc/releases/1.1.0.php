@@ -62,7 +62,7 @@ function DoDL2( $os, $with_js=1 )
         --></script>
         <noscript> */ ?>
         <p class="center">
-         <img src="http://images.videolan.org/images/screenshots/vlc-win32.jpg" alt="VLC on Windows"/>
+         <img src="http://images.videolan.org/images/screenshots/windows.jpg" alt="VLC on Windows"/>
        </p><!--</noscript>-->
       </td>
       <td id="project_desc">

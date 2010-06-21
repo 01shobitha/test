@@ -43,8 +43,8 @@ function DoDL2( $os, $with_js=1 )
 <div id="mainbox" style="overflow: hidden; padding-bottom: 0px; ">
 <center>
 
-<div style="text-shadow: 4px 4px 3px #666666; color:#333333; font-family: Helvetica, Arial, sans-serif; font-size:40px; font-weight:bold; margin: 20px;">VLC 1.1.0</div>
-<h2 style="text-shadow: 1px 1px 1px #666666">The luggage</h2>
+<div style="text-shadow: 0px 3px 4px #666666; color:#333333; font-family: Helvetica, Arial, sans-serif; font-size:40px; font-weight:bold; margin: 20px;">VLC 1.1.0</div>
+<h2 style="text-shadow: 0px 1px 1px #666666">The luggage</h2>
 </center>
     <table style="margin-bottom: 0"><tr>
       <td style="width: 300px;" id="img">
@@ -117,7 +117,8 @@ function DoDL2( $os, $with_js=1 )
 
           <h2 class="project_name">Volunteer work! Help us!</h2>
            <p>VLC is done by a <b>small</b> team of volunteers.</p>
-                           <div style="float: right; padding-top: 10px;"><span id="donate" style="font-size: 16px; color: #770088;">Donate with Paypal:</span>
+                     <div style="float: right; padding-top: 10px;">
+						<span id="donate" style="font-size: 16px; color: #0033FF;">Donate with Paypal:</span>
                      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="display: inline;">
                        <div style="display: inline;">
                           <input name="cmd" value="_xclick" type="hidden"/>
@@ -126,7 +127,7 @@ function DoDL2( $os, $with_js=1 )
                           <input name="no_note" value="0" type="hidden"/>
                           <input name="currency_code" value="EUR" type="hidden"/>
                           <input name="tax" value="0" type="hidden"/>
-                          <input name="submit" type="submit" alt="Donate money to VideoLAN via PayPal" value="&euro;" class="grey-button" style="height:24px;font-weight:bold;font-size:10pt; height: 100%;"/>
+                          <input name="submit" type="submit" alt="Donate money to VideoLAN via PayPal" value="&euro;" class="grey-button" style="height:24px;font-weight:bold;font-size:10pt; height: 100%;color:#0033FF;border-color:#0033FF;"/>
                         </div>
                     </form>
                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="display: inline;">
@@ -137,7 +138,7 @@ function DoDL2( $os, $with_js=1 )
                           <input name="no_note" value="0" type="hidden"/>
                           <input name="currency_code" value="USD" type="hidden"/>
                           <input name="tax" value="0" type="hidden"/>
-                          <input name="submit" type="submit" alt="Donate money to VideoLAN via PayPal" value="$" class="grey-button" style="height:24px;font-weight:bold;font-size:10pt;height: 100%;"/>
+                          <input name="submit" type="submit" alt="Donate money to VideoLAN via PayPal" value="$" class="grey-button" style="height:24px;font-weight:bold;font-size:10pt;height: 100%;border-color:#0033FF;color:#0033FF;"/>
                         </div>
                     </form>
                     </div>
@@ -194,7 +195,7 @@ New add-ons and script framework so one can personalize its vlc.
 <li>Support for DVD-Audio files (.aob)</li>
 <li>Improved meta-data and album-art support</li>
 </ul>
-<h2>Faster, Leaner</h2>
+<h2>Faster, Lighter</h2>
 <ul class=blue-bullet>
 <li>Faster decoding, with up to 40% speed-ups, in HD resolutions</li>
 <li>First part of the Video Output core rewrite</li>

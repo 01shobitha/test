@@ -12,18 +12,20 @@
 
 <h2>Introduction</h2>
 
-SHOUTcast Radio is a web site which provides a directory of radio stations avalaible on the Internet.
+<p>SHOUTcast Radio is a web site which provides a directory of radio stations avalaible on the Internet.
 It provides categorizations of such stations, so it is easier to find one that matches your interest.
 According to users feedback, the integration of such directory inside VLC is one of the best features of the software.</p>
 
 <p>Starting from VLC 1.1.0, the SHOUTcast module is not available on the distributed VLC any longer, because AOL Corporation 
 is hindering Open Source Software.</p>
 
+<h2>What happened?</h2>
 <p>During the last year, the VLC developers have received several injunctions by e-mail from employees at AOL,
 asking us to either comply to a license not compatible with free software or remove the SHOUTcast capability in VLC.</p>
 
+<h3>Open source integral restriction</h3>
 <p>The license states at Chapter 4.4:</p>
-<blockquote>
+<blockquote style="text-style: italic;">
 "When sold or distributed to End Users, the Integrated Product shall not [...] (c) incorporate any
 Publically Available Software, in whole or in part, in a manner that may subject SHOUTcast Radio or
 the SHOUTcast Radio Materials, in whole or in part, to all or part of the license obligations of any
@@ -35,6 +37,7 @@ incorporated into, derived from or distributed with such software: (1) be disclo
 source code form; (2) be licensed for the purpose of making derivative works; or (3) be
 redistributable at no charge."</blockquote></p>
 
+<h3>Forcing spyware and adware</h3>
 <p>Moreover, the license forces us to integrate the spyware and adware based Shoutcast Radio Toolbar inside your browser as stated at chapter 6.6:
 
 <blockquote>
@@ -45,6 +48,7 @@ writing. If the Integrated Product is a software download, You agree to bundle t
 Radio toolbar with the Integrated Product."
 </blockquote>
 
+<h2>License incompatibility</h2>
 <p>
 Since it is obviously impossible for VLC to comply with such licensing terms, we had to remove the support from the default VLC.
 Other free software multimedia players, like Amarok, are not able to comply with the license terms either and have therefore removed their 
@@ -57,7 +61,7 @@ and let the radio owner know about how AOL treats their content.</p>
 <p>We want to emphasise the fact that features like SHOUTcast or icecast browsing are now doable using our new extension framework and
 you will find user-contributed extensions on http://addons.videolan.org/</p>
 
-<h2>Contact AOL</h2>
+<h2>Complain to AOL</h2>
 <p>Please direct your complaints about the removal of Shoutcast to the following responsible people from AOL Corporation:</p>
 <ul>
 <li>Faisal Sultan <a href="mailto:faisal.sultan@corp.aol.com">faisal.sultan@corp.aol.com</a></li>
@@ -66,8 +70,10 @@ you will find user-contributed extensions on http://addons.videolan.org/</p>
 <li>Robert Wilson <a href="mailto:robert.wilson@corp.aol.com">robert.wilson@corp.aol.com</a></li>
 </ul>
 
+<h2>Contact VideoLAN</h2>
 <p>To contact VideoLAN, see the contact page.</p>
 
+<h2>License text</h2>
 <p>The entire license can be found here: <a href="/press/LicenseAgreement_SHOUTcast.pdf">License in pdf</a></p>
 <p>
 References:

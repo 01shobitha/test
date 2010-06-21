@@ -45,7 +45,7 @@ function DoDL2( $os, $with_js=1 )
 <center>
 
 <div style="text-shadow: 4px 4px 3px #666666; color:#333333; font-family: Helvetica, Arial, sans-serif; font-size:40px; font-weight:bold; margin: 20px;">VLC 1.1.0</div>
-<h2 style="text-shadow: 2px 2px 1px #666666">The luggage</h2>
+<h2 style="text-shadow: 1px 1px 1px #666666">The luggage</h2>
 </center>
     <table style="margin-bottom: 0"><tr>
       <td style="width: 300px;" id="img">
@@ -135,12 +135,12 @@ function DoDL2( $os, $with_js=1 )
 <li>GPU decoding on GNU/Linux, using VAAPI for H.264, VC-1 and MPEG-2</li>
 <li>DSP decoding using <a href="http://www.khronos.org/openmax/">OpenMax IL</a>, for compatible embedded devices</li>
 <li>Improved support for MKV HD, including seeking fixes, and 7.1 channels codecs</li>
-<li>Support for new codecs, like Blu-Ray subtitles, MPEG-4 lossless, Vorbis 7.1 and VP8</li>
+<li>Support for new codecs, like Blu-Ray subtitles, MPEG-4 lossless and VP8</li>
 </ul>
-<p><b>NB</b>: so far, on Windows, VideoLAN is quite sad to be forced to recommend nVidia® GPU, until ATI® fixes its drivers on
+<p><b>NB</b>: so far, on Windows, VideoLAN is quite sad to be forced to recommend nVidia® GPU, until ATI® fixes their drivers on
 Windows and until VideoLAN can access to some Intel Hardware supporting GPU decoding.</p>
 <h2>Extensions</h2>
-New add-ons and script framework so one can personnalize its vlc.
+New add-ons and script framework so one can personalize its vlc.
 <ul class=blue-bullet>
 <li>Written in lua</li>
 <li>2 main types of scripts:
@@ -172,11 +172,11 @@ New add-ons and script framework so one can personnalize its vlc.
 <h2>Faster, Leaner</h2>
 <ul class=blue-bullet>
 <li>Faster decoding, with up to 40% speed-ups, in HD resolutions</li>
-<li>Video Output core rewrite in progress</li>
+<li>First part of the Video Output core rewrite</li>
 <li>Removal or rewrite of dozens of modules, code simplification and 10 of thousands of lines of code removed</li>
-<li>Some functionnalities that are less used are now moved to extensions</li>
-<li>More assembly code used, notably SSE3/SSE4 and Neon</li>
-<li>Less threads used</li>
+<li>Some functionalities that are less used are now moved to extensions</li>
+<li>More assembly optimizatinons, especially SSSE3/SSE4 and ARM Neon</li>
+<li>Fewer threads used</li>
 </ul>
 <h2>Better for developers</h2>
 <ul class=blue-bullet>

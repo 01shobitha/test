@@ -10,7 +10,7 @@
 function DoDL2( $os, $with_js=1 )
 {
     $dl = array();
-    $version = '1.1.0-rc';
+    $version = '1.1.0';
     $start_url="http://sourceforge.net/projects/vlc/files/vlc-$version";
     $dl["Win32"] = array( "http://download.videolan.org/pub/testing/vlc-1.1.0-rc/win32/vlc-1.1.0-rc-win32.exe", "Windows install" );
     $dl["Win32-7z"] = array( "http://download.videolan.org/pub/testing/vlc-1.1.0-rc/win32/vlc-1.1.0-rc-win32.7z", "Windows 7z" );

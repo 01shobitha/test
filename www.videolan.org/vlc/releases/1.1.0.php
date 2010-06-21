@@ -69,7 +69,7 @@ function DoDL2( $os, $with_js=1 )
         <div class="panel" id="panel-vlc" style="display:block;">
             <div class="left">
 <center>
-<div style="margin: 20px 0 20px 20px; padding: 20px 0 30px 60px; background: url('http://images.videolan.org/images/vlc64x64.png') no-repeat left center;">
+<div style="margin: 20px 0 20px 20px; padding: 20px 0 30px 0px; ">
 <span style="padding-bottom: 60px; font-size:18px; font-weight: bold; line-height:19px;">The <b>new</b> cone. Always&nbsp;easy. Better.</span> </div>
                <div style="border: 0px red solid; margin: 0 auto; font-size: 21px; width: 13em;">
                  <script type="text/javascript"><!--

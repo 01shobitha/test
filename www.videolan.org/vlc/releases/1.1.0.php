@@ -89,9 +89,10 @@ function DoDL2( $os, $with_js=1 )
                 else if( <?php echo $is_freebsd; ?> ) { <?php DoDL2("FreeBSD"); ?> }
                 else if( <?php echo $is_osx; ?> )
                 {
-                  if( <?php echo $is_ppc; ?> ) { <?php DoDL2("OSX-PPC"); ?> }
+                    document.writeln( "<p>The MacOS X binaries are currently uploading and should be live soon.</p>");
+/*                  if( <?php echo $is_ppc; ?> ) { <?php DoDL2("OSX-PPC"); ?> }
                   else if( <?php echo $is_mactel; ?> ) { <?php DoDL2("OSX-Intel");?>}
-                  else { <?php DoDL2("OSX-PPC"); DoDL2("OSX-Intel"); ?> }
+                  else { <?php DoDL2("OSX-PPC"); DoDL2("OSX-Intel"); ?> } */
                 }
                 else if( navigator.platform.indexOf("Mac") != -1 )
                 {

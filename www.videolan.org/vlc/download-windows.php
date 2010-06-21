@@ -2,9 +2,11 @@
    $title = "VLC media player for Windows";
    $lang = "en";
    $menu = array( "vlc", "windows" );
+   $additional_css = array("/countries.css");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
 ?>
+
 
 <?php function pkgitemdev($version,$name) { ?><li><a href="http://downloads.videolan.org/pub/videolan/testing/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a></li><?php } ?>
 

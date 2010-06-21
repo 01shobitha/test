@@ -13,11 +13,11 @@
 <h1> VLC media player for Windows </h1>
 <div id="left">
 
-<p>All mirrors include all the available translations.</p>
+<p>All mirrors include all the available languages.</p>
 
 <?php $vlc_version = '1.0.5'; ?>
   <h2>Latest packages (<?php echo $vlc_version; ?>)</h2>
-<p>This release only supports Windows 2000 and later. Windows 95, 98 and Me users, please click <a href="#win98">here</a>.</p>
+<p>This release only supports Windows 2000, XP, Vista and 7. </p>
 
 <?php
     pkgitem( "Windows self-extracting package",
@@ -28,19 +28,9 @@
                   "$vlc_version/win32","vlc-$vlc_version-win32.zip","vlc");
 ?>
 
-  <h2><a id="win98"></a>Windows 95/98/Me</h2>
-<p>VLC 0.8.6 is the latest release with support for this operating system.</p>
-<p>Please note that these versions of Windows are not officially supported. No VideoLAN developer uses any of these systems, which makes them hard to support. VLC should mostly work with them, but some incompatibilities might appear. You might need to download <a href="http://www.microsoft.com.nsatc.net/globaldev/handson/dev/mslu_announce.mspx">The Microsoft Layer for Unicode on Windows 95/98/Me Systems</a>. The two MSLU files need to be put in the <code>C:\Windows\System\</code> folder.</p>
-<?php $vlc_version = '0.8.6i'; ?>
-<?php
-$nosource = true;
-    pkgitem( "Windows self-extracting package",
-                   "$vlc_version/win32","vlc-$vlc_version-win32.exe","vlc");
-    pkgitem("Windows 7zip (identical to the above but without the installer)",
-                  "$vlc_version/win32","vlc-$vlc_version-win32.7z","vlc");
-    pkgitem("Windows zip packages (identical to the above)",
-                  "$vlc_version/win32","vlc-$vlc_version-win32.zip","vlc");
-?>
+  <h2>Windows 95/98/Me</h2>
+  <p><a href="http://sourceforge.net/projects/kernelex/">Please install KernelEx</a> or take an old
+  version of VLC</p>
 
   <h2>Older versions</h2>
   <?php browse_old("vlc") ?>

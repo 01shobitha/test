@@ -47,7 +47,7 @@ function DoDL( $os, $with_js=1 )
     $version = '1.1.0';
     $version_back = '1.0.5';
     $dl["Win32"] = array("http://sourceforge.net/projects/vlc/files/$version/win32/vlc-$version-win32.exe/download", "Windows, 18&nbsp;MB" );
-    $dl["OSX-Intel"] = array( "http://sourceforge.net/projects/vlc/files/$version/macosx/vlc-$version.dmg/download","Mac OS X 10.5 or later (Intel 32bit), 19&nbsp;MB" );
+    $dl["OSX-Intel"] = array( "http://sourceforge.net/projects/vlc/files/$version/macosx/vlc-$version.dmg/download","Mac OS X 10.5 or later, 19&nbsp;MB" );
     $dl["OSX-PPC"] = array("/mirror-geo.php?file=vlc/$version_back/macosx/vlc-$version_back-powerpc.dmg", "Mac OS X 10.5 (PowerPC), 19&nbsp;MB" );
     $dl["Linux"] =array("/vlc/", "Linux and other OSes" );
     $dl["Debian"] = array( "/vlc/download-debian.html", "Debian GNU/Linux" );
@@ -63,7 +63,7 @@ function DoDL( $os, $with_js=1 )
     if( $with_js == 1 )
     {
         echo "document.writeln( '<div class=\"dl-button\"><a " ;
-        echo "href=\"".$dl[$os][0]."\">Download VLC ".$version;
+        echo "href=\"".$dl[$os][0]."\">Download VLC ";
         echo "</a></div><span class=\"dl-info\">".$dl[$os][1]."</span> ');\n";
     }
     else

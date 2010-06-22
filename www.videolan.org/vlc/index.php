@@ -76,7 +76,7 @@ window.onresize = function(evt) {
                 {
                   if( <?php echo $is_ppc; ?> ) { <?php DoDL("OSX-PPC"); ?> }
                   else if( <?php echo $is_mactel; ?> ) { <?php DoDL("OSX-Intel");?>}
-                  else { <?php DoDL("OSX-PPC"); DoDL("OSX-Intel"); ?> }
+                  else { <?php DoDL("OSX-Intel");  DoDL("OSX-PPC"); ?> }
                 }
                 else if( navigator.platform.indexOf("Mac") != -1 )
                 {
@@ -84,11 +84,11 @@ window.onresize = function(evt) {
                 }
                 else
                 {
-                <?php DoDL("Win32"); DoDL("OSX-PPC"); DoDL("OSX-Intel"); ?>
+                <?php DoDL("Win32"); DoDL("OSX-Intel"); DoDL("OSX-PPC");?>
                 }
                 --></script>
                 <noscript>
-                  <?php DoDL("Win32",0);DoDL("OSX-PPC",0);DoDL("OSX-Intel",0); ?>
+                  <?php DoDL("Win32",0); DoDL("OSX-Intel",0); DoDL("OSX-PPC",0);  ?>
                 </noscript>
                  <div class="dl-other"><a href="/vlc/">Other Systems, Versions</a></div>
                 </div>

@@ -90,8 +90,8 @@ function DoDL2( $os, $with_js=1 )
                 else if( <?php echo $is_freebsd; ?> ) { <?php DoDL2("FreeBSD"); ?> }
                 else if( <?php echo $is_osx; ?> )
                 {
-                  if( <?php echo $is_ppc; ?> ) {  <?php //DoDL2("OSX-PPC"); ?> }
-                  document.writeln( "PPC build is not yet ready. It will come soon." );
+                  if( <?php echo $is_ppc; ?> ) {  <?php //DoDL2("OSX-PPC"); ?> 
+                  document.writeln( "PPC build is not yet ready. It will come soon." );}
                   else if( <?php echo $is_mactel; ?> ) { <?php DoDL2("OSX-Intel");?>}
                   else { <?php DoDL2("OSX-Intel"); ?> }
                 }

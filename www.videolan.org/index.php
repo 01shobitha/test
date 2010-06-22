@@ -14,6 +14,7 @@ function DoDL2( $os, $with_js=1 )
     $start_url="http://sourceforge.net/projects/vlc/files/vlc-$version";
     $dl["Win32"] = array( "http://sourceforge.net/projects/vlc/files/1.1.0/win32/vlc-1.1.0-win32.exe/download", "Windows install" );
     $dl["Win32-7z"] = array( "http://download.videolan.org/pub/testing/vlc-1.1.0-rc/win32/vlc-1.1.0-rc-win32.7z", "Windows 7z" );
+    $dl["OSX-Intel"] = array( "http://sourceforge.net/projects/vlc/files/1.1.0/macosx/vlc-1.1.0.dmg/download", "Mac OS X Intel" );
     $dl["Linux"] =array("$start_url/vlc-$version.tar.bz2/download", "Linux and other OSes" );
     $dl["Debian"] = array( "/vlc/download-debian.html", "Debian GNU/Linux" );
     $dl["Ubuntu"] = array( "/vlc/download-ubuntu.html", "Ubuntu Linux");
@@ -89,10 +90,10 @@ function DoDL2( $os, $with_js=1 )
                 else if( <?php echo $is_freebsd; ?> ) { <?php DoDL2("FreeBSD"); ?> }
                 else if( <?php echo $is_osx; ?> )
                 {
-                    document.writeln( "<p>The MacOS X binaries are currently uploading and should be live soon.</p>");
-/*                  if( <?php echo $is_ppc; ?> ) { <?php DoDL2("OSX-PPC"); ?> }
+                  if( <?php echo $is_ppc; ?> ) {  <?php //DoDL2("OSX-PPC"); ?> 
+                  document.writeln( "PPC build is not yet ready. It will come soon." );}
                   else if( <?php echo $is_mactel; ?> ) { <?php DoDL2("OSX-Intel");?>}
-                  else { <?php DoDL2("OSX-PPC"); DoDL2("OSX-Intel"); ?> } */
+                  else { <?php DoDL2("OSX-Intel"); ?> }
                 }
                 else if( navigator.platform.indexOf("Mac") != -1 )
                 {
@@ -100,11 +101,11 @@ function DoDL2( $os, $with_js=1 )
                 }
                 else
                 {
-                <?php DoDL2("Win32"); DoDL2("OSX-PPC"); DoDL2("OSX-Intel"); ?>
+                <?php DoDL2("Win32"); /* DoDL2("OSX-PPC"); */ DoDL2("OSX-Intel"); ?>
                 }
                 --></script>
                 <noscript>
-                  <?php DoDL2("Win32",0);/*DoDL2("OSX-PPC",0);DoDL2("OSX-Intel",0);*/ ?>
+                  <?php DoDL2("Win32",0);/*DoDL2("OSX-PPC",0);*/DoDL2("OSX-Intel",0); ?>
                 </noscript>
                  <div class="dl-other"><a href="/vlc/">Other Systems, Versions</a></div>
                 </div>
@@ -230,7 +231,7 @@ If you link to this release, please use the following links.
 <a href="http://sourceforge.net/projects/vlc/files/1.1.0/win32/vlc-1.1.0-win32.7z/download">VLC Win32 7zip (no install)</a><br />
 <a href="http://sourceforge.net/projects/vlc/files/1.1.0/win32/vlc-1.1.0-win32.zip/download">VLC Win32 zip (no install)</a><br />
 <h3>MacOS</h3>
-The MacOS X binaries are uploading right now and will be available soon.
+<a href="http://sourceforge.net/projects/vlc/files/1.1.0/macosx/vlc-1.1.0.dmg/download">Universal Binaries for intel</a><br />
 <br />
 <br />
 

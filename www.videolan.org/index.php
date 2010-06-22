@@ -167,8 +167,9 @@ function DoDL2( $os, $with_js=1 )
 <li>Improved support for MKV HD, including seeking fixes, and 7.1 channels codecs</li>
 <li>Support for new codecs, like Blu-Ray subtitles, MPEG-4 lossless and VP8</li>
 </ul>
-<p><b>NB</b>: so far, on Windows, <b>for DxVA2 decoding</b>, VideoLAN is recommending nVidia® GPU, until ATI® drivers are working with VLC
-on Windows, and until VLC developer get access to some Intel® hardware supporting GPU decoding.</p>
+<p><b>NB</b>: so far, on Windows <b>for GPU decoding</b>, VideoLAN is recommending <a href="http://www.nvidia.com/">nVidia®</a> GPU,
+ until ATI® drivers are working with VLC architecture, and until the VLC developers get access to some Intel® hardware
+ supporting GPU decoding.</p>
 <br />
 <h2>Extensions</h2>
 New add-ons and script framework so one can personalize its vlc.

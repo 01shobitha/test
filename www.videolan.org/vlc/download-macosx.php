@@ -25,26 +25,18 @@ to the <a href="/developers/lists.html">vlc-devel mailing list</a>
 or to contact us through our <a href="http://forum.videolan.org/viewtopic.php?t=3675&amp;start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">forum</a>.
 </p>
 
-<?php $vlc_version = "1.0.5"; ?>
-<h2>Latest Mac OS X package for 10.5 and later (release <?php echo $vlc_version; ?>)</h2>
+<?php $vlc_version = "1.0.5";
+$vlc_version_intel = "1.1.0";
+?>
 
-<?php pkgitem( "Universal Binary",
-               "$vlc_version/macosx","vlc-$vlc_version.dmg","vlc"); ?>
+<h2>Latest version for 10.5 and later (release <?php echo $vlc_version; ?>)</h2>
 
-<h2>Latest platform specific packages for 10.5 and later (release <?php echo $vlc_version; ?>)</h2>
+<?php pkgitem_sf( "32/64 bits Package for Intel-based Macs",
+               "$vlc_version_intel/macosx","vlc-$vlc_version.dmg","vlc"); ?>
 
-<?php pkgitem( "32 bits Package for Intel-based Macs",
-               "$vlc_version/macosx","vlc-$vlc_version-intel.dmg","vlc"); ?>
-
-<?php #pkgitem( "64 bits Package for Intel-based Macs",
-      #         "$vlc_version/macosx","vlc-$vlc_version-intel64.dmg","vlc"); ?>
 <?php pkgitem( "Package for PowerPC-based Macs",
                "$vlc_version/macosx","vlc-$vlc_version-powerpc.dmg","vlc"); ?>
 
-<p>Note: Owing to the forementioned shortage of developers,
-VLC will not be available for 64-bits Intel-based Macs until further notice.
-You can safely use the 32-bits package instead.
-</p>
 
 <h2>Latest Web browser plugins for 10.5 and later (release <?php echo $vlc_version; ?>)</h2>
 

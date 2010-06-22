@@ -10,8 +10,8 @@
 <div class="press">
 <h1>Press Release about Shoutcast Removal in VLC</h1>
 
-<h2>Warning</h2>
-<p style="color: #B40404;">We are working with Shoutcast to solve the issue as soon as possible.</p>
+<h2>Update: Warning</h2>
+<p style="color: #B40404; font-size: 18px;">We are working with Shoutcast to solve the issue as soon as possible.</p>
 <h2>Introduction</h2>
 
 <p>SHOUTcast Radio is a web site which provides a directory of radio stations avalaible on the Internet.

@@ -240,7 +240,10 @@ If you link to this release, please use the following links.
 <a href="/videolan/team/">Contact infos</a>
 <br />
 
-<h1>Removal of SHOUTcast functionnality</h1>
+ <h1>Removal of SHOUTcast functionnality</h1>
+
+ <p>VideoLAN is in discussion with SHOUTcast to solve the current SHOUTcast issue. We'll keep you posted as soon as possible. </p>
+<?php /*
 
 <div class="press">
 <h1>Press Release about Shoutcast Removal in VLC</h1>
@@ -313,6 +316,6 @@ you will find user-contributed extensions on http://addons.videolan.org/</p>
 <h2>License text</h2>
 <p>The entire license can be found here: <a href="/press/LicenseAgreement_SHOUTcast.pdf">License in pdf</a></p>
 </div>
-
+*/?>
 
 <?php footer('$Id: news.php 6098 2010-05-26 23:50:46Z jb $'); ?>

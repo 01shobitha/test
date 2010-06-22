@@ -143,7 +143,7 @@ function DoDL2( $os, $with_js=1 )
                         </div>
                     </form>
                     </div>
-
+              <p><a href="http://digg.com/software/VLC_1_1_0_release">Digg it!</a></p>
         </div>
     </td>
     </tr>
@@ -220,14 +220,15 @@ New add-ons and script framework so one can personalize its vlc.
 <h2>Complete Changelog</h2
 <a href="/developers/vlc-branch/NEWS">Changelog for 1.1.0 </a>
 
+
 <h2>Direct links</h2>
 If you link to this release, please use the following links.
 <h3>Source</h3>
 <a href="http://sourceforge.net/projects/vlc/files/vlc-1.1.0/vlc-1.1.0.tar.bz2/download">VLC Source download</a>
 <h3>Win32</h3>
-<a href="https://sourceforge.net/projects/vlc/files/1.1.0/win32/vlc-1.1.0-win32.exe/download">VLC Win32 installer</a><br />
-<a href="https://sourceforge.net/projects/vlc/files/1.1.0/win32/vlc-1.1.0-win32.7z/download">VLC Win32 7zip (no install)</a><br />
-<a href="https://sourceforge.net/projects/vlc/files/1.1.0/win32/vlc-1.1.0-win32.zip/download">VLC Win32 zip (no install)</a><br />
+<a href="http://sourceforge.net/projects/vlc/files/1.1.0/win32/vlc-1.1.0-win32.exe/download">VLC Win32 installer</a><br />
+<a href="http://sourceforge.net/projects/vlc/files/1.1.0/win32/vlc-1.1.0-win32.7z/download">VLC Win32 7zip (no install)</a><br />
+<a href="http://sourceforge.net/projects/vlc/files/1.1.0/win32/vlc-1.1.0-win32.zip/download">VLC Win32 zip (no install)</a><br />
 <h3>MacOS</h3>
 The MacOS X binaries are uploading right now and will be available soon.
 <br />

@@ -25,14 +25,15 @@ to the <a href="/developers/lists.html">vlc-devel mailing list</a>
 or to contact us through our <a href="http://forum.videolan.org/viewtopic.php?t=3675&amp;start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">forum</a>.
 </p>
 
-<?php $vlc_version = "1.0.5";
+<?php
+$vlc_version = "1.0.5";
 $vlc_version_intel = "1.1.0";
 ?>
 
 <h2>Latest version for 10.5 and later (release <?php echo $vlc_version; ?>)</h2>
 
 <?php pkgitem_sf( "32/64 bits Package for Intel-based Macs",
-               "$vlc_version_intel/macosx","vlc-$vlc_version.dmg","vlc"); ?>
+               "$vlc_version_intel/macosx","vlc-$vlc_version_intel.dmg","vlc"); ?>
 
 <?php pkgitem( "Package for PowerPC-based Macs",
                "$vlc_version/macosx","vlc-$vlc_version-powerpc.dmg","vlc"); ?>

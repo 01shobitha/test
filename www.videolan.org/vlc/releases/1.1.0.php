@@ -225,7 +225,7 @@ New add-ons and script framework so one can personalize its vlc.
 <a href="/developers/vlc-branch/NEWS">Changelog for 1.1.0 </a>
 
 
-<h2>Direct links</h2>
+<h2>Direct links and press contact</h2>
 If you link to this release, please use the following links.
 <h3>Source</h3>
 <a href="http://sourceforge.net/projects/vlc/files/vlc-1.1.0/vlc-1.1.0.tar.bz2/download">VLC Source download</a>
@@ -236,6 +236,8 @@ If you link to this release, please use the following links.
 <h3>MacOS</h3>
 <a href="http://sourceforge.net/projects/vlc/files/1.1.0/macosx/vlc-1.1.0.dmg/download">Universal Binaries for intel</a><br />
 <br />
+<h3>Press contact</h3>
+<a href="/videolan/team/">Contact infos</a>
 <br />
 
 <h1>Removal of SHOUTcast functionnality</h1>

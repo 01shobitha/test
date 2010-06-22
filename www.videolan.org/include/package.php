@@ -47,7 +47,7 @@ function pkgitem_sf($description,$version,$name,$top,$extradescription="")
 {
  pkgversion($top, $version);
  echo "<h3>$description <i>$extradescription</i></h3>";
- echo "<a href='http://sourceforge.net/projects/$top/files/$version/$name/download'>Download</a>";
+ echo "<a href='http://sourceforge.net/projects/$top/files/$version/$name/download'>Download VLC $version</a>.";
 }
 
 function pkgitem($description,$version,$name,$top,$extradescription="")

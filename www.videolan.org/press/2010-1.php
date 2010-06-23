@@ -65,6 +65,7 @@ and let the radio owner know about how AOL treats their content.</p>
 <p>We want to emphasise the fact that features like SHOUTcast or icecast browsing are now doable using our new extension framework and
 you will find user-contributed extensions on http://addons.videolan.org/</p>
 
+<?php /*
 <h2>Complain to AOL</h2>
 <p>Please direct your complaints about the removal of Shoutcast to the following responsible people from AOL Corporation:</p>
 <ul class="blue-bullet">
@@ -72,7 +73,7 @@ you will find user-contributed extensions on http://addons.videolan.org/</p>
 <li>Saran Anurag <a href="mailto:anurag.saran@corp.aol.com">anurag.saran@corp.aol.com</a></li>
 <li>Lisa Namerow <a href="mailto:Lisa.Namerow@corp.aol.com">Lisa.Namerow@corp.aol.com</a></li>
 <li>Robert Wilson <a href="mailto:robert.wilson@corp.aol.com">robert.wilson@corp.aol.com</a></li>
-</ul>
+</ul>*/ ?>
 
 <h2>Contact VideoLAN</h2>
 <p>To contact VideoLAN, see the contact page.</p>

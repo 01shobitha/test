@@ -111,7 +111,7 @@ function DrawMenu( $file, $mod )
       else
       {
         list( $name, $text, $link ) =
-            split( "[\t;]+", $l );
+            preg_split( "[\t;]+", $l );
         if( $mod == $name )
                 echo '<li class="selected">';
         else
@@ -143,7 +143,7 @@ function DrawSubMenus( $selcat, $mod )
         else
         {
           list( $name, $text, $link ) =
-              split( "[\t;]+", $l );
+              preg_split( "[\t;]+", $l );
 
           if( $mod == $name && $cat==$selcat)
                   echo '<li class="selected">';
@@ -227,7 +227,7 @@ if(!isset($body_onunload)) $body_onunload = "";
 /* render the page */
 
 // HTML header
-StartHtml( ereg_replace( "<[^>]*>" , "" , $title ), $additional_css, $additional_js, $body_onload, $body_onunload ) ;
+StartHtml( preg_replace( "<[^>]*>" , "" , $title ), $additional_css, $additional_js, $body_onload, $body_onunload ) ;
 ?>
 <div id="header">
    <div id="navmenucontainer">

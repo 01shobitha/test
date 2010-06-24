@@ -160,7 +160,7 @@ function DoDL2( $os, $with_js=1 )
 
 <div style="float:left; width: 50%;">
 <h2>Ready for HD</h2>
-<ul class=blue-bullet>
+<ul class="blue-bullet">
 <li>GPU decoding on Windows Vista and 7, using DxVA2 for H.264, VC-1 and MPEG-2 </li>
 <li>GPU decoding on GNU/Linux, using VAAPI for H.264, VC-1 and MPEG-2</li>
 <li>DSP decoding using <a href="http://www.khronos.org/openmax/">OpenMax IL</a>, for compatible embedded devices</li>
@@ -173,10 +173,10 @@ function DoDL2( $os, $with_js=1 )
 <br />
 <h2>Extensions</h2>
 New add-ons and script framework so one can personalize its vlc.
-<ul class=blue-bullet>
+<ul class="blue-bullet">
 <li>Written in lua</li>
 <li>2 main types of scripts:
-<ul class=blue-bullet>
+<ul class="blue-bullet">
 <li>content add-ons, integrated in the playlist</li>
 <li>functionnalities extensions, like metadata searching on the web, or subtitles look-ups</li>
 </ul>
@@ -184,7 +184,7 @@ New add-ons and script framework so one can personalize its vlc.
 <li>Very Simple</li>
 </ul>
 <h2>Web improvements</h2>
-<ul class=blue-bullet>
+<ul class="blue-bullet">
 <li>Support for WebM decoding and encoding</li>
 <li>Improved web plugins</li>
 <li>Better streaming capabilities</li>
@@ -193,7 +193,7 @@ New add-ons and script framework so one can personalize its vlc.
 
 <div style="float:right; width: 48%;">
 <h2>Better Audio experience</h2>
-<ul class=blue-bullet>
+<ul class="blue-bullet">
 <li>Integrated playlist in the Qt4 interface</li>
 <li>Multiple views (like album art) in the playlist in the Qt4 interface</li>
 <li>Support for AMR-NB, Mpeg-4 ALS, Vorbis 6.1/7.1, FLAC 6.1/7.1 and WMAS</li>
@@ -202,7 +202,7 @@ New add-ons and script framework so one can personalize its vlc.
 <li>Improved meta-data and album-art support</li>
 </ul>
 <h2>Faster, Lighter</h2>
-<ul class=blue-bullet>
+<ul class="blue-bullet">
 <li>Faster decoding, with up to 40% speed-ups, in HD resolutions</li>
 <li>First part of the Video Output core rewrite</li>
 <li>Removal or rewrite of dozens of modules, code simplification and tens of thousands of lines of code removed</li>
@@ -211,7 +211,7 @@ New add-ons and script framework so one can personalize its vlc.
 <li>Fewer threads used</li>
 </ul>
 <h2>Better for developers</h2>
-<ul class=blue-bullet>
+<ul class="blue-bullet">
 <li>Simplified and improved libVLC, removal of exceptions for better C integration</li>
 <li>New phonon-backend for Qt applications, on all platforms</li>
 <li>New C++ bindings</li>
@@ -222,7 +222,7 @@ New add-ons and script framework so one can personalize its vlc.
 <div style="clear:both;"></div>
 
 <h1></h1>
-<h2>Complete Changelog</h2
+<h2>Complete Changelog</h2>
 <a href="/developers/vlc-branch/NEWS">Changelog for 1.1.0 </a>
 
 

@@ -227,7 +227,7 @@ if(!isset($body_onunload)) $body_onunload = "";
 /* render the page */
 
 // HTML header
-StartHtml( preg_replace( "<[^>]*>" , "" , $title ), $additional_css, $additional_js, $body_onload, $body_onunload ) ;
+StartHtml( preg_replace( "/<[^>]*>/", "" , $title ), $additional_css, $additional_js, $body_onload, $body_onunload ) ;
 ?>
 <div id="header">
    <div id="navmenucontainer">

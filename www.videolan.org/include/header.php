@@ -111,7 +111,7 @@ function DrawMenu( $file, $mod )
       else
       {
         list( $name, $text, $link ) =
-            preg_split( "[\t;]+", $l );
+            preg_split( "/[\t;]+/", $l );
         if( $mod == $name )
                 echo '<li class="selected">';
         else
@@ -143,7 +143,7 @@ function DrawSubMenus( $selcat, $mod )
         else
         {
           list( $name, $text, $link ) =
-              preg_split( "[\t;]+", $l );
+              preg_split( "/[\t;]+/", $l );
 
           if( $mod == $name && $cat==$selcat)
                   echo '<li class="selected">';

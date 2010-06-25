@@ -6,7 +6,7 @@ $file = $_GET["file"];
 if( !isset( $file ) ) { die; }
 if( strchr( $file, '<' ) or strchr( $file, '%' ) or strchr( $file, '>' ) ) die();
 
-if( file = strstr( $file, 'vlc/') )
+if( $file = strstr( $file, 'vlc/') )
 {
   header('Location: http://sourceforge.net/projects/vlc/files/'.$file.'/download');
 }

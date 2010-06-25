@@ -6,104 +6,109 @@ $file = $_GET["file"];
 if( !isset( $file ) ) { die; }
 if( strchr( $file, '<' ) or strchr( $file, '%' ) or strchr( $file, '>' ) ) die();
 
-if( !isset( $mirror_url ) )
+if( file = strstr( $file, 'vlc/') )
 {
-  require $_SERVER["DOCUMENT_ROOT"]."/include/continents.php";
-  require $_SERVER["DOCUMENT_ROOT"]."/include/mirrors.php";
-
-  $code = apache_note("GEOIP_COUNTRY_CODE");
-  $name = apache_note("GEOIP_COUNTRY_NAME");
-  $continent = $continents[$code];
-
-  /* Country */
-  $cbw = 0;    /* Available bandwidth in country */
-  $ccount = 0; /* Number of mirrors in country */
-
-  /* Continent */
-  $Cbw = 0;    /* Available bandwidth in continent */
-  $Ccount = 0; /* Number of mirrors in continent */
-
-  /* Total */
-  $tbw = 0;    /* Total available bandwidth */
-  $tcount = 0; /* Number of mirrors */
-
-  foreach( $mirrors as $mirror )
-  {
-    if( $mirror[4] != 'HTTP' ) continue;
-    $country_short = $mirror[3];
-    $bw = $mirror[5];
-    $COUNTRY_SHORT = strtoupper( $country_short );
-    if( $COUNTRY_SHORT == $code )
-    {
-      $cbw += $bw;
-      $ccount ++;
-    }
-    if( $continents[$COUNTRY_SHORT] == $continent )
-    {
-      $Cbw += $bw;
-      $Ccount ++;
-    }
-    $tcount ++;
-    $tbw += $bw;
-  }
-
-  $r = rand(0,1000000)/1000000.; /* Random value between 0 and 1 used to choose
-                                  * the mirror. */
-
-  $cweight = 50; /* Weight used for mirrors in the same country */
-  $Cweight = 10; /* Weight used for mirrors in the same continent */
-  $tweight = 1;  /* Weight used for other mirrors */
-
-  $threshold = 4; /* Number of mirrors needed in a given country or continent
-                   * before we discard all the other mirrors */
-  if( $ccount >= $threshold ) $Cweight = 0;
-  if( $Ccount >= $threshold ) $tweight = 0;
-
-  $dbw = $cweight * $cbw + $Cweight * ( $Cbw - $cbw ) + $tweight * ( $tbw - $cbw - $Cbw ); /* Weight adjusted bandwidth */ 
-
-  foreach( $mirrors as $mirror )
-  {
-    if( $mirror[4] != 'HTTP' ) continue;
-    $mirror_url = $mirror[0];
-    $mirror_name = $mirror[1];
-    $country = $mirror[2];
-    $country_short = $mirror[3];
-    $bw = $mirror[5];
-    $COUNTRY_SHORT = strtoupper( $country_short );
-
-    /* Get the current mirror's probability of being choosen */
-    if( $COUNTRY_SHORT == $code )
-    {
-      $p = $cweight * $bw / $dbw;
-    }
-    else if( $continents[$COUNTRY_SHORT] == $continent )
-    {
-      $p = $Cweight * $bw / $dbw;
-    }
-    else
-    {
-      $p = $tweight * $bw / $dbw;
-    }
-
-    /* Substract the mirror's probability to our random value. If we cross
-     * O then we've found our lucky winner */
-    $r -= $p;
-    if( $r <= 0 )
-    {
-      break;
-    }
-  }
+  header('Location: http://sourceforge.net/projects/vlc/files/'.$file.'/download');
 }
 else
 {
-  if( strchr( $mirror_url, '<' ) or strchr( $mirror_url, '%' ) or strchr( $mirror_url, '>' ) ) die();
-  /* TODO: we could get the mirror name and country but that requires parsing
-   * the mirrors list */
-  $mirror_name = "Forced mirror";
-  $country = "N/A";
-}
+  if( !isset( $mirror_url ) )
+  {
+    require $_SERVER["DOCUMENT_ROOT"]."/include/continents.php";
+    require $_SERVER["DOCUMENT_ROOT"]."/include/mirrors.php";
+  
+    $code = apache_note("GEOIP_COUNTRY_CODE");
+    $name = apache_note("GEOIP_COUNTRY_NAME");
+    $continent = $continents[$code];
+  
+    /* Country */
+    $cbw = 0;    /* Available bandwidth in country */
+    $ccount = 0; /* Number of mirrors in country */
+  
+    /* Continent */
+    $Cbw = 0;    /* Available bandwidth in continent */
+    $Ccount = 0; /* Number of mirrors in continent */
+  
+    /* Total */
+    $tbw = 0;    /* Total available bandwidth */
+    $tcount = 0; /* Number of mirrors */
+  
+    foreach( $mirrors as $mirror )
+    {
+      if( $mirror[4] != 'HTTP' ) continue;
+      $country_short = $mirror[3];
+      $bw = $mirror[5];
+      $COUNTRY_SHORT = strtoupper( $country_short );
+      if( $COUNTRY_SHORT == $code )
+      {
+        $cbw += $bw;
+        $ccount ++;
+      }
+      if( $continents[$COUNTRY_SHORT] == $continent )
+      {
+        $Cbw += $bw;
+        $Ccount ++;
+      }
+      $tcount ++;
+      $tbw += $bw;
+    }
+  
+    $r = rand(0,1000000)/1000000.; /* Random value between 0 and 1 used to choose
+                                    * the mirror. */
+  
+    $cweight = 50; /* Weight used for mirrors in the same country */
+    $Cweight = 10; /* Weight used for mirrors in the same continent */
+    $tweight = 1;  /* Weight used for other mirrors */
+  
+    $threshold = 4; /* Number of mirrors needed in a given country or continent
+                     * before we discard all the other mirrors */
+    if( $ccount >= $threshold ) $Cweight = 0;
+    if( $Ccount >= $threshold ) $tweight = 0;
+  
+    $dbw = $cweight * $cbw + $Cweight * ( $Cbw - $cbw ) + $tweight * ( $tbw - $cbw - $Cbw ); /* Weight adjusted bandwidth */ 
+  
+    foreach( $mirrors as $mirror )
+    {
+      if( $mirror[4] != 'HTTP' ) continue;
+      $mirror_url = $mirror[0];
+      $mirror_name = $mirror[1];
+      $country = $mirror[2];
+      $country_short = $mirror[3];
+      $bw = $mirror[5];
+      $COUNTRY_SHORT = strtoupper( $country_short );
+  
+      /* Get the current mirror's probability of being choosen */
+      if( $COUNTRY_SHORT == $code )
+      {
+        $p = $cweight * $bw / $dbw;
+      }
+      else if( $continents[$COUNTRY_SHORT] == $continent )
+      {
+        $p = $Cweight * $bw / $dbw;
+      }
+      else
+      {
+        $p = $tweight * $bw / $dbw;
+      }
+  
+      /* Substract the mirror's probability to our random value. If we cross
+       * O then we've found our lucky winner */
+      $r -= $p;
+      if( $r <= 0 )
+      {
+        break;
+      }
+    }
+  }
+  else
+  {
+    if( strchr( $mirror_url, '<' ) or strchr( $mirror_url, '%' ) or strchr( $mirror_url, '>' ) ) die();
+    /* TODO: we could get the mirror name and country but that requires parsing
+     * the mirrors list */
+    $mirror_name = "Forced mirror";
+    $country = "N/A";
+  }
 
-    header('Location: '.$mirror_url.$file);
 
     if( strrchr($file,'.') == '.asc' )
     {
@@ -132,4 +137,5 @@ $file = pg_escape_string($file);
 			    "current_date)");
     }
     pg_close($connect);
+}
 ?>

@@ -8,6 +8,7 @@ if( strchr( $file, '<' ) or strchr( $file, '%' ) or strchr( $file, '>' ) ) die()
 
 if( $file = strstr( $file, 'vlc/') )
 {
+  $file = substr( $file, 3, strlen( $file) -3 )
   header('Location: http://sourceforge.net/projects/vlc/files/'.$file.'/download');
 }
 else

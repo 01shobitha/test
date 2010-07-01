@@ -1,55 +1,82 @@
 <?php
-   $title = "VLC 1.1.0 release";
-   $lang = "en";
-   $menu = array( "project", "news" );
+   $title = "VLC: Free streaming and multimedia solutions for all OS!";
+   $menu = array( "project", "home" );
+   $additional_js = array("/js/jquery.min.js");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
-?>
+   include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");
+   include($_SERVER["DOCUMENT_ROOT"]."/include/magpierss/rss_fetch.inc");
 
-<?php
-function DoDL2( $os, $with_js=1 )
-{
-    $dl = array();
-    $version = '1.1.0';
-    $start_url="http://sourceforge.net/projects/vlc/files/vlc-$version";
-    $dl["Win32"] = array( "http://sourceforge.net/projects/vlc/files/1.1.0/win32/vlc-1.1.0-win32.exe/download", "Windows install" );
-    $dl["Win32-7z"] = array( "http://download.videolan.org/pub/testing/vlc-1.1.0-rc/win32/vlc-1.1.0-rc-win32.7z", "Windows 7z" );
-    $dl["OSX-Intel"] = array( "http://sourceforge.net/projects/vlc/files/1.1.0/macosx/vlc-1.1.0.dmg/download", "Mac OS X Intel" );
-    $dl["Linux"] =array("$start_url/vlc-$version.tar.bz2/download", "Linux and other OSes" );
-    $dl["Debian"] = array( "/vlc/download-debian.html", "Debian GNU/Linux" );
-    $dl["Ubuntu"] = array( "/vlc/download-ubuntu.html", "Ubuntu Linux");
-    $dl["Fedora"] = array( "/vlc/download-fedora.html", "Fedora Linux");
-    $dl["RedHat"] = array( "/vlc/download-redhat.html", "RedHat Linux");
-    $dl["Mandriva"] = array( "/vlc/download-mandriva.html", "Mandriva Linux" );
-    $dl["Gentoo"] = array( "/vlc/download-gentoo.html", "Gentoo Linux" );
-    $dl["Suse"] = array ("/vlc/download-suse.html", "Suse Linux" );
-    $dl["BeOS"] =array ("/vlc/download-beos.html", "BeOS" );
-    $dl["FreeBSD" ] = array( "/vlc/download-freebsd.html", "FreeBSD" );
-
-    if( $with_js == 1 )
-    {
-        echo "document.writeln( '<div class=\"dl-button\"><a " ;
-        echo "href=\"".$dl[$os][0]."\">Download VLC ".$version;
-        echo "</a></div><span class=\"dl-info\">".$dl[$os][1]."</span> ');\n";
-    }
-    else
-    {
-        echo "<div><div class=\"dl-button\"> <a " ;
-        echo "href=\"".$dl[$os][0]."\">Download VLC ".$version;
-        echo "</a></div><div class=\"dl-info\">".$dl[$os][1]."</div></div>\n";
-    }
+/* Specific IE hack */?>
+<!--[if IE]>
+<div id="ieShadow"></div>
+<script type="text/javascript" language="javascript">
+function adapt() {
+    document.getElementById("ieShadow").style.height = document.getElementById("mainbox").offsetHeight+5;
+    document.getElementById("ieShadow").style.width = document.getElementById("mainbox").offsetWidth;
+    document.getElementById("ieShadow").style.top = document.getElementById("mainbox").offsetTop-5;
+    document.getElementById("ieShadow").style.left = document.getElementById("mainbox").offsetLeft-5;
 }
-?>
+window.onload = function() { adapt(); }
+window.onresize = function(evt) { adapt(); }
+</script>
+<![endif]-->
 
-<div id="mainbox" style="overflow: hidden; padding-bottom: 0px; ">
-<center>
+<?php /* Motto statements */ ?>
+<div id="project_statement">
+    <h1 id="motto">VideoLAN: Free Multimedia Solutions</h1>
+    <table class="fixed_table">
+        <tr><td>
+                <h2>Volunteers Organization</h2>
+                <p><b>VideoLAN</b> is a project and a <b>non-profit organization</b>, composed of volunteers,
+                    developing and promoting
+                    <a href="http://www.gnu.org/philosophy/free-sw.html">free</a> <b>multimedia</b> solutions.
+                    <span style="float: right; padding: 5px 10px 0 0;"><a href="/videolan/">More about VideoLAN</a>.</span></p>
+            </td>
+            <td>
+                <h2>Open Source</h2>
+                   <p><b>Trust</b> your multimedia software and codecs, all <b>VideoLAN</b> projects are 
+                   <a href="http://www.gnu.org/philosophy/free-sw.html"><b>free</b></a> and
+                   <a href="http://www.opensource.org/"><b>open source</b></a>.
+                    <span style="float: right; padding: 5px 10px 0 0;"><a href="/videolan/">More about Open Source</a>.</span></p>
+            </td>
+            <td>
+                <h2>Contribute</h2>
+                <p>A <b>community</b> makes VideoLAN. You too <a href="/contribute.html">can <b>help</b>!</a></p>
+                <p>All funds come from your donations. So please <b>donate</b>!</p>
+                <div style="float: right; padding-top: 10px;"><span id="donate" style="font-size: 16px; color: #770088;">Donate with Paypal:</span>
+                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="display: inline;">
+                       <div style="display: inline;">
+                          <input name="cmd" value="_xclick" type="hidden"/>
+                          <input name="business" value="sponsor@videolan.org" type="hidden"/>
+                          <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
+                          <input name="no_note" value="0" type="hidden"/>
+                          <input name="currency_code" value="EUR" type="hidden"/>
+                          <input name="tax" value="0" type="hidden"/>
+                          <input name="submit" type="submit" alt="Donate money to VideoLAN via PayPal" value="&euro;" class="grey-button" style="height:24px;font-weight:bold;font-size:10pt; height: 100%;"/>
+                        </div>
+                    </form>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="display: inline;">
+                       <div style="display: inline;">
+                          <input name="cmd" value="_xclick" type="hidden"/>
+                          <input name="business" value="sponsor@videolan.org" type="hidden"/>
+                          <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
+                          <input name="no_note" value="0" type="hidden"/>
+                          <input name="currency_code" value="USD" type="hidden"/>
+                          <input name="tax" value="0" type="hidden"/>
+                          <input name="submit" type="submit" alt="Donate money to VideoLAN via PayPal" value="$" class="grey-button" style="height:24px;font-weight:bold;font-size:10pt;height: 100%;"/>
+                        </div>
+                    </form>
+                    </div>
+        </td></tr>
+    </table>
+</div>
 
-<div style="text-shadow: 0px 3px 4px #666666; color:#333333; font-family: Helvetica, Arial, sans-serif; font-size:40px; font-weight:bold; margin: 20px;">VLC 1.1.0</div>
-<h2 style="text-shadow: 0px 1px 1px #666666">The luggage</h2>
-</center>
-    <table style="margin-bottom: 0"><tr>
+<?php /* Projects */ ?>
+<div id="mainbox" style="overflow: hidden;">
+    <table><tr>
       <td style="width: 300px;" id="img">
-<?php /*         <script type="text/javascript"><!--
+         <script type="text/javascript"><!--
             if( <?php echo $is_win32; ?> )
             { <?php Screenshot( "Win32" ); ?> }
             else if( <?php echo $is_beos; ?> )
@@ -61,39 +88,40 @@ function DoDL2( $os, $with_js=1 )
             else
             { <?php Screenshot("Win32" ); ?> }
         --></script>
-        <noscript> */ ?>
-        <p class="center">
-         <img src="http://images.videolan.org/images/screenshots/windows-crade.jpg" alt="VLC on Windows"/>
-       </p><!--</noscript>-->
+        <noscript><p class="center">
+         <img src="http://images.videolan.org/images/screenshots/vlc-win32.jpg" alt="VLC on Windows"/>
+       </p></noscript>
       </td>
       <td id="project_desc">
         <div class="panel" id="panel-vlc" style="display:block;">
+          <h2 class="project_name">VLC</h2>
             <div class="left">
-<center>
-<div style="margin: 20px 0 20px 20px; padding: 20px 0 30px 0px; ">
-<span style="padding-bottom: 60px; font-size:18px; font-weight: bold; line-height:19px;">The <b>new</b> cone. Always&nbsp;easy. Better.</span> </div>
+            <p>VLC is a <b>free</b> and <b>open source</b> cross-platform multimedia <b>player</b> and <b>framework</b>,
+               that plays most multimedias files as well as DVD, Audio CD, VCD, and various streaming protocols.</p>
+            <p>It is <b>simple</b> to use, yet very powerful and extendable.</p>
+               <br />
+
                <div style="border: 0px red solid; margin: 0 auto; font-size: 21px; width: 13em;">
                  <script type="text/javascript"><!--
-                if ( <?php echo $is_win32; ?> ) { <?php DoDL2("Win32"); ?> }
-                else if( <?php echo $is_beos; ?> ) { <?php DoDL2("BeOS"); ?> }
+                if ( <?php echo $is_win32; ?> ) { <?php DoDL("Win32"); ?> }
+                else if( <?php echo $is_beos; ?> ) { <?php DoDL("BeOS"); ?> }
                 else if( <?php echo $is_linux; ?> )
                 {
-                  if( <?php echo $is_ubuntu; ?> ) { <?php DoDL2("Ubuntu"); ?> }
-                  else if( <?php echo $is_fedora; ?> ) { <?php DoDL2("Fedora"); ?>}
-                  else if( <?php echo $is_suse; ?> ) { <?php DoDL2("Suse"); ?> }
-                  else if( <?php echo $is_debian; ?> ) { <?php DoDL2("Debian"); ?> }
-                  else if( <?php echo $is_mandriva; ?> ) { <?php DoDL2("Mandriva"); ?> }
-                  else if( <?php echo $is_redhat; ?> ) { <?php DoDL2("RedHat"); ?> }
-                  else if( <?php echo $is_gentoo; ?> ) { <?php DoDL2("Gentoo"); ?> }
-                  else { <?php DoDL2("Linux"); ?> }
+                  if( <?php echo $is_ubuntu; ?> ) { <?php DoDL("Ubuntu"); ?> }
+                  else if( <?php echo $is_fedora; ?> ) { <?php DoDL("Fedora"); ?>}
+                  else if( <?php echo $is_suse; ?> ) { <?php DoDL("Suse"); ?> }
+                  else if( <?php echo $is_debian; ?> ) { <?php DoDL("Debian"); ?> }
+                  else if( <?php echo $is_mandriva; ?> ) { <?php DoDL("Mandriva"); ?> }
+                  else if( <?php echo $is_redhat; ?> ) { <?php DoDL("RedHat"); ?> }
+                  else if( <?php echo $is_gentoo; ?> ) { <?php DoDL("Gentoo"); ?> }
+                  else { <?php DoDL("Linux"); ?> }
                 }
-                else if( <?php echo $is_freebsd; ?> ) { <?php DoDL2("FreeBSD"); ?> }
+                else if( <?php echo $is_freebsd; ?> ) { <?php DoDL("FreeBSD"); ?> }
                 else if( <?php echo $is_osx; ?> )
                 {
-                  if( <?php echo $is_ppc; ?> ) {  <?php //DoDL2("OSX-PPC"); ?> 
-                  document.writeln( "PPC build is not yet ready. It will come soon." );}
-                  else if( <?php echo $is_mactel; ?> ) { <?php DoDL2("OSX-Intel");?>}
-                  else { <?php DoDL2("OSX-Intel"); ?> }
+                  if( <?php echo $is_ppc; ?> ) { <?php DoDL("OSX-PPC"); ?> }
+                  else if( <?php echo $is_mactel; ?> ) { <?php DoDL("OSX-Intel");?>}
+                  else { <?php DoDL("OSX-PPC"); DoDL("OSX-Intel"); ?> }
                 }
                 else if( navigator.platform.indexOf("Mac") != -1 )
                 {
@@ -101,222 +129,208 @@ function DoDL2( $os, $with_js=1 )
                 }
                 else
                 {
-                <?php DoDL2("Win32"); /* DoDL2("OSX-PPC"); */ DoDL2("OSX-Intel"); ?>
+                <?php DoDL("Win32"); DoDL("OSX-PPC"); DoDL("OSX-Intel"); ?>
                 }
                 --></script>
                 <noscript>
-                  <?php DoDL2("Win32",0);/*DoDL2("OSX-PPC",0);*/DoDL2("OSX-Intel",0); ?>
+                  <?php DoDL("Win32",0);DoDL("OSX-PPC",0);DoDL("OSX-Intel",0); ?>
                 </noscript>
                  <div class="dl-other"><a href="/vlc/">Other Systems, Versions</a></div>
                 </div>
+
+
             </div>
 
-           <div class="right" style="text-align: right; color: #666;">
-          <h2 class="project_name">VLC media player</h2>
-            <p>VLC is a <b>free</b> and <b>open source</b> cross-platform multimedia <b>player</b> and <b>framework</b>,
-               that plays most multimedias files, medias and streaming protocols.</p>
-            <p>It is <b>simple</b> to use, yet very powerful and extendable.</p>
-
-          <h2 class="project_name">Volunteer work! Help us!</h2>
-           <p>VLC is done by a <b>small</b> team of volunteers.</p>
-                     <div style="float: right; padding-top: 10px;">
-						<span id="donate" style="font-size: 16px; color: #0033FF;">Donate with Paypal:</span>
-                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="display: inline;">
-                       <div style="display: inline;">
-                          <input name="cmd" value="_xclick" type="hidden"/>
-                          <input name="business" value="sponsor@videolan.org" type="hidden"/>
-                          <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
-                          <input name="no_note" value="0" type="hidden"/>
-                          <input name="currency_code" value="EUR" type="hidden"/>
-                          <input name="tax" value="0" type="hidden"/>
-                          <input name="submit" type="submit" alt="Donate money to VideoLAN via PayPal" value="&euro;" class="grey-button" style="font-size:11pt;border-color:#0033FF;background:#6699FF;font-weight:bold"/>
-                        </div>
-                    </form>
-                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="display: inline;">
-                       <div style="display: inline;">
-                          <input name="cmd" value="_xclick" type="hidden"/>
-                          <input name="business" value="sponsor@videolan.org" type="hidden"/>
-                          <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
-                          <input name="no_note" value="0" type="hidden"/>
-                          <input name="currency_code" value="USD" type="hidden"/>
-                          <input name="tax" value="0" type="hidden"/>
-                          <input name="submit" type="submit" alt="Donate money to VideoLAN via PayPal" value="$" class="grey-button" style="font-size:11pt;border-color:#0033FF;background:#6699FF;font-weight:bold"/>
-                        </div>
-                    </form>
-                    </div>
+            <div class="right">
+             <ul class="blue-bullet">
+              <li><b>Simple</b>, Powerful and <b>Fast</b></li>
+              <li>Plays everything, <b>Files</b>, <b>Discs</b> and <b>Streams</b></li>
+              <li>No codec packs needed</li>
+              <li>Completely <b>Free</b></li>
+              <li>0 Spyware, Ads or User Tracking</li>
+              <li>Media <b>Converter</b> and <b>Streamer</b></li>
+              <li>Windows, Linux, Mac, Unix...</li>
+             </ul>
+            </div>
         </div>
-    </td>
-    </tr>
+        <div class="panel" id="panel-x264" style="display:none;">
+          <h2 class="project_name">x264</h2>
+            <div class="left">
+
+              <p>x264 is a <b>free software</b> <b>library</b> and <b>application</b> for encoding video streams into the <b>H.264/MPEG-4 AVC</b> format,
+              and is is released under the terms of the GNU General Public License.</p>
+
+              <p>It provides <b>best-in-class</b> performance, quality, compression, and features.</p>
+
+               <p>x264 forms the core of many web video services, such as <b>Youtube, Facebook, Vimeo, and Hulu</b>.
+                It is also used in television broadcast by companies such as Avail Media.</p>
+              <p style="font-size: 14px; text-align: center;"><a href="/developers/x264.html"><b>Know more</b> about x264</a> and <a href="/developers/x264.html"><b>Download</b></a>.</p>
+            </div>
+            <div class="right">
+             <ul class="blue-bullet">
+              <li>x86, Altivec, and ARMv7 SIMD</li>
+              <li>Blu-Ray compliant</li>
+              <li>Baseline, Main, and High Profile</li>
+              <li>1-pass, 2-pass, and constant quality encoding</li>
+              <li>Low-latency mode</li>
+              <li>Lossless compression support</li>
+             </ul>
+            </div>
+
+        </div>
+        <div class="panel" id="panel-dvblast" style="display:none;">
+          <h2 class="project_name">DVBlast!</h2>
+            <p>DVBlast is a simple and powerful MPEG-2/TS demux and streaming application with several input methods (udp/rtp, dvb and dvb-asi).<br />
+             DVBlast is written to be the core of a custom IRD, CID, or ASI gateway, based on a PC with a Linux-supported card.<br />
+             It is very lightweight and stable, designed for 24/7 operation.</p>
+            <p>DVBlast does not do any kind of processing on the elementary streams, such as transcoding, PID remapping or remultiplexing. If you were looking for these features, switch to VLC. It does not stream from plain files (have a look at multicat instead).</p>
+            <p style="font-size: 14px;"><a href="/projects/dvblast.html"><b>Know more</b> about DVBlast</a>.</p>
+        </div>
+        <div class="panel" id="panel-libdvdcss" style="display:none;">
+          <h2 class="project_name">libdvdcss</h2>
+            <p> libdvdcss is a simple library designed for accessing DVDs like a block device without having to bother about the decryption.</p>
+            <p style="font-size: 14px; text-align: center;"><a href="/developers/libdvdcss.html"><b>Know more</b> about libdvdcss</a>.</p>
+        </div>
+        <div class="panel" id="panel-vlma" style="display:none;">
+          <h2 class="project_name">VLMa</h2>
+            VLMa is an application to manage broadcasts of TV channels, received through digital terrestrial or satellite ways. Its interface is provided as a web-site written in Java. It is also capable of streaming audio and video files. VLMa consists of a deamon (called VLMad) and a web interface (called VLMaw).
+            <p style="font-size: 14px; text-align: center;"><a href="/projects/vlma/"><b>Know more</b> about VLMa</a>.</p>
+        </div>
+      </td></tr>
     </table>
-    <br />
-    <br />
-</div>
 
-<p><a href="http://twitter.com/#search?q=vlc">Twitter</a> <a href="http://digg.com/software/VLC_1_1_0_release">Digg it!</a>
-<a href="http://news.ycombinator.com/item?id=1450418">Hacker News</a> <a href="http://www.reddit.com/r/programming/comments/chkf3/vlc_110_is_released/">Reddit</a>
-<a href="http://www.facebook.com/vlc.media.player">Facebook page</a> <a href="http://twitter.com/videolan">Twitter page</a>
-</p>
-<h1>What's new?</h1>
+<?php /* Project icons */ ?>
+    <div class="dl-other" style="padding-top: 10px;"><a href="/projects/">All Projects</a></div>
+    <h2 style="border-bottom: 1px solid #CCC"><a href="/projects/">Projects</a></h2>
+    <div class ="project" id="project-vlc">
+        <p class="image"><img src="images/vlc64x64.png" alt="VLC cone logo"/></p>
+            <h2><a href="#" class="product">VLC</a></h2>
+        <h3>The media player</h3>
+    </div>
+    <div class ="project" id="project-x264">
+        <p class="image"><img src="/images/x264_64.png" alt="x264 logo"/></p>
+        <h2><a href="#" class="product">x264</a></h2>
+        <h3>Perfect Encoding</h3>
+    </div>
+    <div class ="project" id="project-dvblast">
+        <h2><a href="#" class="product">DVBlast!</a></h2>
+        <h3>Simple but powerful DVB streamer</h3>
+    </div>
+    <div class="project" id="project-libdvdcss">
+        <h2><a href="#" class="product">libdvdcss</a></h2>
+        <h3>DVD decryption library</h3>
+    </div>
+    <div class="project" id="project-vlma">
+        <h2><a href="#" class="product">VLMa</a></h2>
+        <h3>VideoLAN manager for VLC streamers</h3>
+    </div>
 
-<div style="float:left; width: 50%;">
-<h2>Ready for HD</h2>
-<ul class="blue-bullet">
-<li>GPU decoding on Windows Vista and 7, using DxVA2 for H.264, VC-1 and MPEG-2 </li>
-<li>GPU decoding on GNU/Linux, using VAAPI for H.264, VC-1 and MPEG-2</li>
-<li>DSP decoding using <a href="http://www.khronos.org/openmax/">OpenMax IL</a>, for compatible embedded devices</li>
-<li>Improved support for MKV HD, including seeking fixes, and 7.1 channels codecs</li>
-<li>Support for new codecs, like Blu-Ray subtitles, MPEG-4 lossless and VP8</li>
-</ul>
-<p><b>NB</b>: so far, on Windows <b>for GPU decoding</b>, VideoLAN is recommending <a href="http://www.nvidia.com/">nVidia®</a> GPU,
- until ATI® drivers are working with VLC architecture, and until the VLC developers get access to some Intel® hardware
- supporting GPU decoding.</p>
-<br />
-<h2>Extensions</h2>
-New add-ons and script framework so one can personalize its vlc.
-<ul class="blue-bullet">
-<li>Written in lua</li>
-<li>2 main types of scripts:
-<ul class="blue-bullet">
-<li>content add-ons, integrated in the playlist</li>
-<li>functionnalities extensions, like metadata searching on the web, or subtitles look-ups</li>
-</ul>
-</li>
-<li>Very Simple</li>
-</ul>
-<h2>Web improvements</h2>
-<ul class="blue-bullet">
-<li>Support for WebM decoding and encoding</li>
-<li>Improved web plugins</li>
-<li>Better streaming capabilities</li>
-</ul>
-</div>
+</div> <!-- #mainbox -->
 
-<div style="float:right; width: 48%;">
-<h2>Better Audio experience</h2>
-<ul class="blue-bullet">
-<li>Integrated playlist in the Qt4 interface</li>
-<li>Multiple views (like album art) in the playlist in the Qt4 interface</li>
-<li>Support for AMR-NB, Mpeg-4 ALS, Vorbis 6.1/7.1, FLAC 6.1/7.1 and WMAS</li>
-<li>CDDB and CD-Text works now on the Windows port when listening to CD-Audio</li>
-<li>Support for DVD-Audio files (.aob)</li>
-<li>Improved meta-data and album-art support</li>
-</ul>
-<h2>Faster, Lighter</h2>
-<ul class="blue-bullet">
-<li>Faster decoding, with up to 40% speed-ups, in HD resolutions</li>
-<li>First part of the Video Output core rewrite</li>
-<li>Removal or rewrite of dozens of modules, code simplification and tens of thousands of lines of code removed</li>
-<li>Some functionalities that are less used are now moved to extensions</li>
-<li>More assembly optimizatinons, especially SSSE3/SSE4 and ARM Neon</li>
-<li>Fewer threads used</li>
-</ul>
-<h2>Better for developers</h2>
-<ul class="blue-bullet">
-<li>Simplified and improved libVLC, removal of exceptions for better C integration</li>
-<li>New phonon-backend for Qt applications, on all platforms</li>
-<li>New C++ bindings</li>
-<li></li>
-</ul>
-</div>
+    <script type="text/javascript">
 
-<div style="clear:both;"></div>
+        function registerPanel(buttonID, panelID) {
+            $("#" + buttonID).click(function() {
+                $(".panel").each(function() {
+                    $(this).hide();
+                });
+                $("#" + panelID).show();
+            });
 
-<h1></h1>
-<h2>Complete Changelog</h2>
-<a href="/developers/vlc-branch/NEWS">Changelog for 1.1.0 </a>
+            $("#" + buttonID).mouseover(function() {
+                $(".project").each(function() {
+                    $(this).css("background","none");
+                });
+                $("#" + buttonID).css("background","#e8e8e8");
+            });
 
+        }
 
-<h2>Direct links and press contact</h2>
-If you link to this release, please use the following links.
-<h3>Source</h3>
-<a href="http://sourceforge.net/projects/vlc/files/vlc-1.1.0/vlc-1.1.0.tar.bz2/download">VLC Source download</a>
-<h3>Win32</h3>
-<a href="http://sourceforge.net/projects/vlc/files/1.1.0/win32/vlc-1.1.0-win32.exe/download">VLC Win32 installer</a><br />
-<a href="http://sourceforge.net/projects/vlc/files/1.1.0/win32/vlc-1.1.0-win32.7z/download">VLC Win32 7zip (no install)</a><br />
-<a href="http://sourceforge.net/projects/vlc/files/1.1.0/win32/vlc-1.1.0-win32.zip/download">VLC Win32 zip (no install)</a><br />
-<h3>MacOS</h3>
-<a href="http://sourceforge.net/projects/vlc/files/1.1.0/macosx/vlc-1.1.0.dmg/download">Universal Binaries for intel</a><br />
-<br />
-<h3>Press contact</h3>
-<a href="/videolan/team/">Contact infos</a>
-<br />
+        registerPanel("project-vlc", "panel-vlc");
+        registerPanel("project-x264", "panel-x264");
+        registerPanel("project-dvblast", "panel-dvblast");
+        registerPanel("project-libdvdcss", "panel-libdvdcss");
+        registerPanel("project-vlma", "panel-vlma");
 
- <h1>Removal of SHOUTcast functionnality</h1>
+        $("#project-vlc").css("background","#e8e8e8");
+    </script>
 
- <p>VideoLAN is in discussion with SHOUTcast to solve the current SHOUTcast issue. We'll keep you posted as soon as possible. </p>
-<?php /*
+<?php /* Titles */ ?>
+<table class="fronttable">
+<tr>
+  <td>
+    <h1 style="position:relative">News
+    <span class="header-buttons">
+        <a href="videolan-news.rss">rss</a>
+        <a href="news.html">read all news</a>
+    </span></h1>
+  </td>
+  <td></td>
+  <td>
+    <h1 style="position:relative">Dev' Blogs
+    <span class="header-buttons">
+        <a href="http://planet.videolan.org/rss10.xml">rss</a>
+        <a href="http://planet.videolan.org">read all posts</a>
+    </span>
+    </h1>
+  </td>
+</tr>
+<tr>
 
-<div class="press">
-<h1>Press Release about Shoutcast Removal in VLC</h1>
+<?php /* Begin news items */ ?>
+<td id="news">
+<?php
+  shownews("full", 4); 
+?>
+</td>
+<td ></td>
+<?php /* Begin planet items */ ?>
+<td style="width: 42%; padding: 2px 12px;">
+    <?php
+      define('MAGPIE_INPUT_ENCODING', 'UTF-8');
+      define('MAGPIE_OUTPUT_ENCODING', 'UTF-8');
+      $rss = fetch_rss("http://planet.videolan.org/rss10.xml");
+      $i = 0;
+      $chars_per_entry = 240;
+      $entries_per_column = 4;
+      $columns = 1;
+      foreach($rss->items as $item) {
+        echo "<p>";
+        echo "<b>".htmlentities($item['title'],ENT_COMPAT,"UTF-8")."</b></p>";
+        echo "<p style=\"border-bottom: 1px dashed #CCC;padding-bottom:5px;margin-bottom:5px\">";
+        echo substr(strip_tags(html_entity_decode($item['content']['encoded'])),0,$chars_per_entry);
+        echo "<a href=\"".$item['link']."\">[...]</a><br/>";
+        echo "</p>";
+        $i++;
+        if($i>=$columns*$entries_per_column) break;
+        if($i%$entries_per_column==0) echo "</td><td>";
+      }
+    ?>
+    <?php /* Social and other BS */ ?>
+    <h1 style="position:relative">
+    Social media
+    <span class="header-buttons">
+        <a href="http://www.twitter.com/videolan">twitter</a>
+        <a href="http://www.facebook.com/vlc.media.player">facebook</a>
+    </span>
+    </h1>
+    <?php
+      $rss = fetch_rss("http://twitter.com/statuses/user_timeline/88776463.rss");
+      $i = 0;
+      $chars_per_entry = 240;
+      $entries_per_column = 4;
+      $columns = 1;      
+      foreach($rss->items as $item) {
+        echo "<p style=\"border-bottom: 1px dashed #CCC;padding-bottom:5px;margin-bottom:5px\">";
+        echo preg_replace('^(http://\S+)^is', '<a href="$1">$1</a>', str_replace("videolan:", "<b>".date("Y-m-d h:i",strtotime($item['pubdate']))."</b>", $item['title']));
+        echo "</p>";
+        $i++;
+        if($i>=$columns*$entries_per_column) break;
+        if($i%$entries_per_column==0) echo "</td><td>";
+      }
+    ?>
+</td>
 
-<h2>Introduction</h2>
-
-<p>SHOUTcast Radio is a web site which provides a directory of radio stations avalaible on the Internet.
-It provides categorizations of such stations, so it is easier to find one that matches your interest.
-According to users feedback, the integration of such directory inside VLC is one of the best features of the software.</p>
-
-<p>Starting from VLC 1.1.0, the SHOUTcast module is not available on the distributed VLC any longer, because AOL Corporation 
-is hindering Open Source Software.</p>
-
-<h2>What happened?</h2>
-<p>During the last year, the VLC developers have received several injunctions by e-mail from employees at AOL,
-asking us to either comply to a license not compatible with free software or remove the SHOUTcast capability in VLC.</p>
-
-<h3>Open source integral restriction</h3>
-<p>The license states at Chapter 4.4:</p>
-<blockquote style="font-style: italic;">
-"When sold or distributed to End Users, the Integrated Product shall not [...] (c) incorporate any
-Publically Available Software, in whole or in part, in a manner that may subject SHOUTcast Radio or
-the SHOUTcast Radio Materials, in whole or in part, to all or part of the license obligations of any
-Publically Available Software. As used herein, the term "Publicly Available Software" means any
-software that contains, or is derived in any manner (in whole or in part) from, any software that is
-distributed as free software, open source software or similar licensing or distribution models; and
-that requires as a condition of use, modification or distribution that such software or other software
-incorporated into, derived from or distributed with such software: (1) be disclosed or distributed in
-source code form; (2) be licensed for the purpose of making derivative works; or (3) be
-redistributable at no charge."</blockquote></p>
-
-<h3>Forcing spyware and adware</h3>
-<p>Moreover, the license forces us to integrate the spyware and adware based Shoutcast Radio Toolbar inside your browser as stated at chapter 6.6:</p>
-
-<blockquote style="font-style: italic;">
-"Integrated Product.
-You agree to promote the SHOUTcast Radio toolbar on your web site and within the
-documentation of the Integrated Product subject to placement agreed to by You and Nullsoft in
-writing. If the Integrated Product is a software download, You agree to bundle the SHOUTcast
-Radio toolbar with the Integrated Product."
-</blockquote>
-<br />
-<br />
-<br />
-<h2>License incompatibility</h2>
-<p>
-Since it is obviously impossible for VLC to comply with such licensing terms, we had to remove the support from the default VLC.
-Other free software multimedia players, like Amarok, are not able to comply with the license terms either and have therefore removed their 
-SHOUTcast support.</p>
-
-<p>However, we are providing a way to integrate the "icecast directory" that provides an open source equivalent to SHOUTcast.
-If you know and like a radio station currently listed on the SHOUTcast directory, please make sure this radio is also available on the icecast directory
-and let the radio owner know about how AOL treats their content.</p>
-
-<p>We want to emphasise the fact that features like SHOUTcast or icecast browsing are now doable using our new extension framework and
-you will find user-contributed extensions on http://addons.videolan.org/</p>
-
-<h2>Complain to AOL</h2>
-<p>Please direct your complaints about the removal of Shoutcast to the following responsible people from AOL Corporation:</p>
-<ul class="blue-bullet">
-<li>Faisal Sultan <a href="mailto:faisal.sultan@corp.aol.com">faisal.sultan@corp.aol.com</a></li>
-<li>Saran Anurag <a href="mailto:anurag.saran@corp.aol.com">anurag.saran@corp.aol.com</a></li>
-<li>Lisa Namerow <a href="mailto:Lisa.Namerow@corp.aol.com">Lisa.Namerow@corp.aol.com</a></li>
-<li>Robert Wilson <a href="mailto:robert.wilson@corp.aol.com">robert.wilson@corp.aol.com</a></li>
-</ul>
-
-<h2>Contact VideoLAN</h2>
-<p>To contact VideoLAN, see the contact page.</p>
-
-<h2>License text</h2>
-<p>The entire license can be found here: <a href="/press/LicenseAgreement_SHOUTcast.pdf">License in pdf</a></p>
-</div>
-*/?>
-
-<?php footer('$Id: news.php 6098 2010-05-26 23:50:46Z jb $'); ?>
+</tr>
+</table>
+<?php footer('$Id: index.php **** 2009-12-02 altglass$'); ?>

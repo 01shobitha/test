@@ -53,6 +53,7 @@ h1#motto { margin-bottom: 0px; }
     border: 1px solid #BBB;
 }
 
+.grey-button {font-size: 11pt; border-color: rgb(0, 51, 255); background: none repeat scroll 0% 0% rgb(102, 153, 255); font-weight: bold; }
 .header-buttons a:hover, .grey-button:hover { background: #BBB; }
 
 h2, #donate{

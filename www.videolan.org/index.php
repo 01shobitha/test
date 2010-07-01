@@ -44,7 +44,7 @@ window.onresize = function(evt) { adapt(); }
                 <h2>Contribute</h2>
                 <p>A <b>community</b> makes VideoLAN. You too <a href="/contribute.html">can <b>help</b>!</a></p>
                 <p>All funds come from your donations. So please <b>donate</b>!</p>
-                <div style="float: right; padding-top: 10px;"><span id="donate" style="font-size: 16px; color: #770088;">Donate with Paypal:</span>
+                <div style="float: right; padding-top: 10px;"><span id="donate" style="font-size: 16px; color: rgb(0, 51, 255);">Donate with Paypal:</span>
                      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="display: inline;">
                        <div style="display: inline;">
                           <input name="cmd" value="_xclick" type="hidden"/>
@@ -53,7 +53,7 @@ window.onresize = function(evt) { adapt(); }
                           <input name="no_note" value="0" type="hidden"/>
                           <input name="currency_code" value="EUR" type="hidden"/>
                           <input name="tax" value="0" type="hidden"/>
-                          <input name="submit" type="submit" alt="Donate money to VideoLAN via PayPal" value="&euro;" class="grey-button" style="height:24px;font-weight:bold;font-size:10pt; height: 100%;"/>
+                          <input name="submit" type="submit" alt="Donate money to VideoLAN via PayPal" value="&euro;" class="grey-button" />
                         </div>
                     </form>
                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="display: inline;">
@@ -64,7 +64,7 @@ window.onresize = function(evt) { adapt(); }
                           <input name="no_note" value="0" type="hidden"/>
                           <input name="currency_code" value="USD" type="hidden"/>
                           <input name="tax" value="0" type="hidden"/>
-                          <input name="submit" type="submit" alt="Donate money to VideoLAN via PayPal" value="$" class="grey-button" style="height:24px;font-weight:bold;font-size:10pt;height: 100%;"/>
+                          <input name="submit" type="submit" alt="Donate money to VideoLAN via PayPal" value="$" class="grey-button" />
                         </div>
                     </form>
                     </div>

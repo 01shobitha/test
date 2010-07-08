@@ -4,8 +4,8 @@ vls;VLS;/developers/vls.html
 x264;x264;/developers/x264.html
 libdca;libdca;/developers/libdca.html
 libdvdcss;libdvdcss;/developers/libdvdcss.html
+libdvdcss;libbluray;/developers/libbluray.html
 libdvbpsi;libdvbpsi;/developers/libdvbpsi.html
-libdvdplay;libdvdplay;/developers/libdvdplay.html
 libdvbcsa;libdvbcsa;/developers/libdvbcsa.html
 i18n;Translations;/developers/i18n/
 trac;trac;http://trac.videolan.org/

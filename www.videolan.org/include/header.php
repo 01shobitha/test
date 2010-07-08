@@ -169,10 +169,10 @@ function footer($tag) {
 <div id="footer">
   <p> <a href="/">VideoLAN</a> &nbsp;-
   &nbsp;<a href="/map.html">Website Map</a>&nbsp;-
-  &nbsp;<a href="/videolan/team/">Contact</a>
+  &nbsp;<a href="/contact.html">Contact</a>
   </p>
   <p>
-  All rights reserved to the VideoLAN team. -&nbsp;
+  All rights reserved to VideoLAN. -&nbsp;
     valid
     <a href="http://validator.w3.org/check?uri=referer">XHTML 1.1</a>
     and 

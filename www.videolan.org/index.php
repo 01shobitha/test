@@ -219,7 +219,7 @@ motto( "VideoLAN: Free Multimedia Solutions", $array_motto ); ?>
     <tr><td>
     <div class ="project" id="project-dvblast">
         <h2><a href="#" class="product">DVBlast!</a></h2>
-        <h3>Simple but powerful DVB streamer</h3>
+        <h3>Simple but powerful DVB streamer</h3></div>
     </td><td>
     <div class="project" id="project-vlma">
         <h2><a href="#" class="product">VLMa</a></h2>

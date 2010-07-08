@@ -15,7 +15,7 @@ developers from <a href="http://www.doom9.org/">Doom9</a>.</p>
 <h2> Features </h2>
 
 <ul class="blue-bullet">
-  <li><b>Portability:</b> Currently supported platforms are GNU/Linux, Windows, MacOS X. Depencies are very limited.</li>
+  <li><b>Portability:</b> Currently supported platforms are GNU/Linux, Windows, MacOS X. Dependencies are very limited.</li>
   <li><b>Freedom:</b> <code>libbluray</code> is released under a Free Software license,
   ensuring it will stay free. </li>
   <li><b>Features:</b> the library integrates navigation, playlist parsing, menus and BD-J.</li>
@@ -40,6 +40,7 @@ et par le <a href="http://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid
 
 
 <h2>Documentation</h2>
+
 <?php /*
 <table border="0">
 <tr>

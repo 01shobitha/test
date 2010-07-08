@@ -20,13 +20,14 @@ hackers from <a href="http://www.doom9.org/">Doom9</a>.</p>
   ensuring it will stay free. </li>
   <li><b>Features:</b> the library integrates navigation, playlist parsing, menus and BD-J.</li>
   <li><b>Legal:</b> <code>libbluray</code> is DRM-circumvention free, and thus, safe to integrate in your software.</li>
-  <li><b>Fun:</b> <code>libbluray</code> is a fun to hack on project, in its starting phase.
+  <li><b>Fun:</b> <code>libbluray</code> is a fun to hack on project, in its starting phase.</li>
 </ul>
 
 <h2>Get libbluray</h2>
 
-<p> <code>libbluray</code> is available through <a href="http://wiki.videolan.org/Git">Git</a> at
+<p> <code>libbluray</code> is available through <a href="http://wiki.videolan.org/Git">Git</a> at:<br />
 <code>git clone git://git.videolan.org/libbluray.git</code>.</p>
+<p>You can browse the source code at  <a href="http://git.videolan.org/">git.videolan.org</a>.
 
 <h2>Légal</h2>
 <p><code>libbluray</code> est un projet de <b>recherche</b>, intégralement développé, sans spécifications

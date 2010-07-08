@@ -209,7 +209,7 @@ window.onresize = function(evt) { adapt(); }
     <div class="dl-other" style="padding-top: 0px; float: right;"><a href="/projects/">All Projects</a></div>
             </th></tr>
         <tr>
-          <td><div class ="project" id="project-vlc">
+          <td rowspan="2"><div class ="project" id="project-vlc">
               <p class="image"><img src="/images/vlc64x64.png" alt="VLC cone logo" height="32" /></p>
               <h2><a href="#" class="product">VLC</a></h2>
               <h3>The media player</h3>

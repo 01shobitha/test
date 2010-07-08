@@ -10,7 +10,7 @@
 <p> <code>libbluray</code> is an <b>open-source</b> library designed for Blu-Ray Discs
 playback for media players, like <a href="/vlc/">VLC</a> or MPlayer.</p>
 <p> This <b>research</b> project is developed by an international team of
-hackers from <a href="http://www.doom9.org/">Doom9</a>.</p>
+developers from <a href="http://www.doom9.org/">Doom9</a>.</p>
 
 <h2> Features </h2>
 
@@ -34,7 +34,9 @@ hackers from <a href="http://www.doom9.org/">Doom9</a>.</p>
 et sans aucune aide ou copie extérieur que ce soit. (<b>research</b> project, started from scratch, <b>without specifications</b> or external code).</p>
 <p><code>libbluray</code> ne contourne aucune mesure technique de protection <i>MTP</i> (doesn't include any DRM-circumvention tool).</p>
 <p><code>libbluray</code> s'inscrit dans le droit à l'interopérabilité, tel que décrit par
-<i>CE 10e et 9e sous­sect., 16 juillet 2008, n° 301843, APRIL</i> et par le <i>CPI 331-5</i>.</p>
+<a href="http://www.legifrance.gouv.fr/affichJuriAdmin.do?oldAction=rechJuriAdmin&idTexte=CETATEXT000019216315&fastReqId=1851277972&fastPos=1"><i>CE 10e et 9e sous­sect., 16 juillet 2008, n° 301843, APRIL</i></a>, par le
+<i><a href="http://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=257F3A2551AFEA654609264234C2CD43.tpdjo13v_3?cidTexte=LEGITEXT000006069414&idArticle=LEGIARTI000006278920&dateTexte=&categorieLien=cid">CPI 122-6-1</a></i>
+et par le <a href="http://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=257F3A2551AFEA654609264234C2CD43.tpdjo13v_3?cidTexte=LEGITEXT000006069414&idArticle=LEGIARTI000020740194&dateTexte=20100708&categorieLien=id#LEGIARTI000020740194"><i>CPI 331-5</i><a/>.</p>
 
 
 <h2>Documentation</h2>

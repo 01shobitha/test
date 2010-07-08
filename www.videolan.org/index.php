@@ -321,7 +321,7 @@ motto( "VideoLAN: Free Multimedia Solutions", $array_motto ); ?>
       $i = 0;
       $chars_per_entry = 240;
       $entries_per_column = 4;
-      $columns = 1;      
+      $columns = 1;
       foreach($rss->items as $item) {
         echo "<p style=\"border-bottom: 1px dashed #CCC;padding-bottom:5px;margin-bottom:5px\">";
         echo preg_replace('^(http://\S+)^is', '<a href="$1">$1</a>', str_replace("videolan:", "<b>".date("Y-m-d h:i",strtotime($item['pubdate']))."</b>", $item['title']));

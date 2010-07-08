@@ -2,6 +2,7 @@
    $title = "VLC: Free streaming and multimedia solutions for all OS!";
    $menu = array( "project", "home" );
    $additional_js = array("/js/jquery.min.js");
+   $additional_css = array("/main.css");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");
@@ -26,21 +27,21 @@ window.onresize = function(evt) { adapt(); }
 <div id="project_statement">
     <h1 id="motto">VideoLAN: Free Multimedia Solutions</h1>
     <table class="fixed_table">
-        <tr><td>
+        <tr><td class="highlight">
                 <h2>Volunteers Organization</h2>
                 <p><b>VideoLAN</b> is a project and a <b>non-profit organization</b>, composed of volunteers,
                     developing and promoting
                     <a href="http://www.gnu.org/philosophy/free-sw.html">free</a> <b>multimedia</b> solutions.
                     <span style="float: right; padding: 5px 10px 0 0;"><a href="/videolan/">More about VideoLAN</a>.</span></p>
             </td>
-            <td>
+            <td class="highlight">
                 <h2>Open Source</h2>
                    <p><b>Trust</b> your multimedia software and codecs, all <b>VideoLAN</b> projects are 
                    <a href="http://www.gnu.org/philosophy/free-sw.html"><b>free</b></a> and
                    <a href="http://www.opensource.org/"><b>open source</b></a>.
                     <span style="float: right; padding: 5px 10px 0 0;"><a href="/videolan/">More about Open Source</a>.</span></p>
             </td>
-            <td>
+            <td class="highlight">
                 <h2>Contribute</h2>
                 <p>A <b>community</b> makes VideoLAN. You too <a href="/contribute.html">can <b>help</b>!</a></p>
                 <p>All funds come from your donations. So please <b>donate</b>!</p>
@@ -200,30 +201,41 @@ window.onresize = function(evt) { adapt(); }
     </table>
 
 <?php /* Project icons */ ?>
-    <div class="dl-other" style="padding-top: 10px;"><a href="/projects/">All Projects</a></div>
-    <h2 style="border-bottom: 1px solid #CCC"><a href="/projects/">Projects</a></h2>
-    <div class ="project" id="project-vlc">
-        <p class="image"><img src="images/vlc64x64.png" alt="VLC cone logo"/></p>
-            <h2><a href="#" class="product">VLC</a></h2>
-        <h3>The media player</h3>
-    </div>
-    <div class ="project" id="project-x264">
-        <p class="image"><img src="/images/x264_64.png" alt="x264 logo"/></p>
+    <h2 style="border-bottom: 1px solid #CCC"></h2>
+    <table class="fixed_table" style="margin-top: 10px;">
+        <tr><th>Projects for <b>Everyone</b></th>
+            <th>Projects for <b>Video Profesionals</b></th>
+            <th>Projects for <b>Developers</b>
+    <div class="dl-other" style="padding-top: 0px; float: right;"><a href="/projects/">All Projects</a></div>
+            </th></tr>
+        <tr>
+          <td><div class ="project" id="project-vlc">
+              <p class="image"><img src="/images/vlc64x64.png" alt="VLC cone logo" height="32" /></p>
+              <h2><a href="#" class="product">VLC</a></h2>
+              <h3>The media player</h3>
+          </div></td>
+          <td><div class ="project" id="project-x264">
+              <p class="image"><img src="/images/x264_64.png" alt="VLC cone logo" height="32" /></p>
         <h2><a href="#" class="product">x264</a></h2>
         <h3>Perfect Encoding</h3>
-    </div>
+        </div>
+        </td>
+<td>    <div class="project" id="project-libdvdcss">
+        <h2><a href="#" class="product">libdvdcss</a></h2>
+        <h3>DVD decryption library</h3>
+    </div></td></tr>
+
+    <tr><td>
     <div class ="project" id="project-dvblast">
         <h2><a href="#" class="product">DVBlast!</a></h2>
         <h3>Simple but powerful DVB streamer</h3>
-    </div>
-    <div class="project" id="project-libdvdcss">
-        <h2><a href="#" class="product">libdvdcss</a></h2>
-        <h3>DVD decryption library</h3>
-    </div>
+    </td><td>
     <div class="project" id="project-vlma">
         <h2><a href="#" class="product">VLMa</a></h2>
         <h3>VideoLAN manager for VLC streamers</h3>
-    </div>
+    </div></td>
+    </tr>
+    </table>
 
 </div> <!-- #mainbox -->
 
@@ -253,6 +265,16 @@ window.onresize = function(evt) { adapt(); }
         registerPanel("project-vlma", "panel-vlma");
 
         $("#project-vlc").css("background","#e8e8e8");
+
+        /* */
+        function dimMottoPanel(){
+          $(".highlight").each( function() {
+              $(this).mouseout (function() { $(this).children( "p" ).css("color", "#888"); } );
+              $(this).mouseover(function() { $(this).children( "p" ).css("color", "#444"); } );
+              } );
+          $("#project_statement p").each( function() { $(this).css("color", "#888"); } );
+        }
+        dimMottoPanel();
     </script>
 
 <?php /* Titles */ ?>

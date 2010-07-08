@@ -59,7 +59,7 @@ h1#motto { margin-bottom: 0px; }
 h2, #donate{
     font-family: Helvetica, Verdana, Arial, sans-serif;
     font-weight: bold; font-size: 18px;
-    margin-top: 4px;
+    margin-top: 6px;
     padding: 6px 0 4px 0;
     line-height: 19px;
     color: #333;
@@ -374,7 +374,7 @@ p.image { float: left; padding: 14px 5px 0px 5px; }
 
 #project_statement p { color: #686868;}
 #project_statement h2 { margin-top: 0px; color: #555;}
-.project_name h2 { margin-top: 0; padding-top: 0;}
+h2.project_name { margin-top: 0; padding-top: 0;}
 #mainbox p { line-height: 150%; margin: 0.5em 0 0.5em 0; }
 
 div.project { padding: 0 5px 2px; cursor: pointer; }

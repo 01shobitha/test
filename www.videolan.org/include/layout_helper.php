@@ -7,6 +7,7 @@ function motto( $title, $array ) {
   foreach( $array as $ar ) {
     echo '<td class="highlight"><h2>'.$ar['title']."</h2>\n";
     echo $ar['text'];
+    echo '</td>';
   }
 
   echo '</tr></table></div>';

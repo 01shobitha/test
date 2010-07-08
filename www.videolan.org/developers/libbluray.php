@@ -27,14 +27,14 @@ hackers from <a href="http://www.doom9.org/">Doom9</a>.</p>
 
 <p> <code>libbluray</code> is available through <a href="http://wiki.videolan.org/Git">Git</a> at:<br />
 <code>git clone git://git.videolan.org/libbluray.git</code>.</p>
-<p>You can browse the source code at  <a href="http://git.videolan.org/">git.videolan.org</a>.
+<p>You can browse the source code at  <a href="http://git.videolan.org/">git.videolan.org</a>.</p>
 
 <h2>Légal</h2>
 <p><code>libbluray</code> est un projet de <b>recherche</b>, intégralement développé, sans spécifications
 et sans aucune aide ou copie extérieur que ce soit. (<b>research</b> project, started from scratch, <b>without specifications</b> or external code).</p>
 <p><code>libbluray</code> ne contourne aucune mesure technique de protection <i>MTP</i> (doesn't include any DRM-circumvention tool</i>).</p>
 <p><code>libbluray</code> s'inscrit dans le droit à l'interopérabilité, tel que décrit par
-<i>CE 10e et 9e sous­sect., 16 juillet 2008, n° 301843, APRIL</i> et par le <i>CPI 331-5</i>.
+<i>CE 10e et 9e sous­sect., 16 juillet 2008, n° 301843, APRIL</i> et par le <i>CPI 331-5</i>.</p>
 
 
 <h2>Documentation</h2>

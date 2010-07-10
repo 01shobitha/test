@@ -12,19 +12,25 @@
 
 <div id="left">
 
-
-<h2>Ubuntu Lucid Lynx 10.04 LTS,
-<br/>Ubunty Karmic Koala 9.10</h2>
+<h2>Ubuntu Maverick Meerkat 10.10</h2>
 
 <h3>Graphical way</h3>
 <p>Open Synaptic (System -&gt; Administration -&gt; Synaptic Package Manager).
-In Settings -&gt; Repositories, make sure you have a &quot;universe&quot; 
-repository activated.</p>
-<p>Search for vlc and install it. You should also install vlc-plugin-pulse, mozilla-plugin-vlc.</p>
-<p>If you are interrested in streaming or transcoding, you should also install libavcodec-extra-52 from a &quot;multiverse&quot; repository. </p>
+In Settings -&gt; Repositories, make sure you have an
+<code>universe</code> repository activated.
+</p>
+<p>Search for <kbd>vlc</kbd> and install it.
+You should install <kbd>vlc-plugin-pulse/<kbd>
+ and <kbd>mozilla-plugin-vlc</kbd> as well.</p>
+<p>If you are interested in streaming or transcoding,
+you should additionnally install <kbd>libavcodec-extra-52</kbd>
+from a <code>multiverse</code> repository.
+</p>
+
 <h3>Command line way</h3>
-<p>You need to check that a &quot;universe&quot; mirror is listed
-in your /etc/apt/sources.list.</p>
+<p>You need to check that a <code>universe</code> mirror is listed
+in your <code>/etc/apt/sources.list</code> file.
+</p>
 <blockquote>
 <pre>
 % sudo apt-get update
@@ -32,33 +38,27 @@ in your /etc/apt/sources.list.</p>
 </pre>
 </blockquote>
 
-<h2>1.0.0 on Jaunty Jackalope</h2>
-<p> In order to get the latest 1.0.0 on your Ubuntu Jaunty, you should use use a version from <a href="https://launchpad.net/ubuntu/+ppas">PPA</a>. There is an
-<a href="https://help.launchpad.net/Packaging/PPA#Installing software from a PPA">howto to use a ppa</a>.</p>
-The version can be found on:
-<pre>
-https://launchpad.net/~c-korn/+archive/vlc
-</pre>
+<h2>Ubuntu Lucid Lynx 10.04 LTS</h2>
+<p><strong>VLC version 1.0.6 in Ubuntu 10.04 is out-of-date.</strong>
+We recommend you install VLC 1.1.x manually.
+If you wish to install VLC 1.0.6 anyway,
+please refer to the instructions above for Ubuntu 10.10.
+Note that there will be some bugs; you are on your own.
+</p>
 
-<h2>Ubuntu Jaunty Jackalope 9.04,
-<br/>Ubuntu Intrepid Ibex 8.10,
+<h2>Ubunty Karmic Koala 9.10
+<br/>Ubuntu Jaunty Jackalope 9.04,
 <br/>Ubuntu Hardy Heron LTS 8.04</h2>
 
-<h3>Graphical way</h3>
-<p>Open Synaptic (System -&gt; Administration -&gt; Synaptic Package Manager).
-In Settings -&gt; Repositories, make sure you have a &quot;multiverse&quot; 
-repository activated.</p>
-<p>Search for vlc and install it. You should also install vlc-plugin-esd, mozilla-plugin-vlc.</p>
+<p><strong>VLC 1.0.2 in Ubuntu 9.10 has known security issues,
+as do older versions in older Ubuntu releases.</strong>
+We strongly recommend that you update to a newer Ubuntu release,
+install a newer VLC version manually, and/or
+demand proper security support for VLC from Ubuntu.
+</p>
 
-<h3>Command line way</h3>
-<p>You need to check that a &quot;multiverse&quot; mirror is listed
-in your /etc/apt/sources.list.</p>
-<blockquote>
-<pre>
-% sudo apt-get update
-% sudo apt-get install vlc vlc-plugin-esd mozilla-plugin-vlc
-</pre>
-</blockquote>
+<p>Note: on Ubuntu 8.04, you should install <kbd>vlc-plugin-esd</kbd>
+instead of <kbd>vlc-plugin-pulse</kbd>.
 
 </div>
 

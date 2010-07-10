@@ -46,7 +46,7 @@ please refer to the instructions above for Ubuntu 10.10.
 Note that there will be some bugs; you are on your own.
 </p>
 
-<h2>Ubunty Karmic Koala 9.10
+<h2>Ubunty Karmic Koala 9.10,
 <br/>Ubuntu Jaunty Jackalope 9.04,
 <br/>Ubuntu Hardy Heron LTS 8.04</h2>
 

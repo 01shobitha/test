@@ -9,10 +9,40 @@
 <div id="left">
 <h1> Documentation </h1>
 
-<p>The VLC documentation is available on the <a href='http://wiki.videolan.org/Documentation:Documentation'>VideoLAN wiki's Documentation section.</a></p>
+<p style="font-size:18px">The VLC documentation is available on the <a href='http://wiki.videolan.org/Documentation:Documentation'>VideoLAN wiki's Documentation section.</a></p>
 
-<h1> Outdated Documentation </h1>
+<br/><br/><br/>
 
+<h1> <u>Outdated</u> Documentation </h1>
+<ul>
+	<li>
+	<a href="/doc/play-howto/en/play-howto-en.html">VLC Play HowTo</a>
+	<p>
+		Complete user guide for the client aspects of VLC
+	</p>
+	</li>
+	<li>
+	<a href="/doc/streaming-howto/en/streaming-howto-en.html">VLC Streaming HowTo</a>
+	<p>
+		Complete user guide for the server aspects of VLC
+	</p>
+	</li>
+	<li>
+	<a href="/doc/vls-user-guide/en/vls-user-guide-en.html">VLS user guide</a>
+	<p>
+		User guide for VLS
+	</p>
+	</li>
+	<li>
+	<a href="/doc/faq/en/videolan-faq-en.html">VideoLAN FAQ</a>
+	<p>
+		Frequently Asked Questions about VideoLAN
+	</p>
+	</li>
+</ul>
+
+<?php
+/*
 <table border="0">
 
 <tr>
@@ -62,11 +92,11 @@
 <td>Complete user guide for the client aspects of VLC</td>
 <td class="yes">
 <a href="/doc/play-howto/en/play-howto-en.html">EN</a>
-<a href="/doc/play-howto/fr/play-howto-fr.html">FR</a>
+<a href="/doc/play-howto/fr/play-howto-fr.html"><dd>FR</dd></a>
 </td>
-<td class="yes">
+<td class="yes"><dd>
 <a href="/doc/play-howto/en/play-howto-en.html.zip">EN</a>
-<a href="/doc/play-howto/fr/play-howto-fr.html.zip">FR</a>
+<a href="/doc/play-howto/fr/play-howto-fr.html.zip">FR</a></dd>
 </td>
 <td class="yes">
 <a href="/doc/play-howto/en/play-howto-en.pdf">EN</a>
@@ -291,7 +321,8 @@
 </table>
 
 <p>DE = German, EN = English, ES = Spanish, FR = French, IT = Italian.</p>
-
+*/
+?>
 </div>
 
 <div id="right">

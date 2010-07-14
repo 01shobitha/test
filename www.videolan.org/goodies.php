@@ -20,6 +20,7 @@
 <a href="http://images.videolan.org/images/vlc-player.mp4">
 <img src="http://images.videolan.org/images/goodies/vlc-player-promo.png" alt="Adam Vian's movie"
  height="100" /></a>
+</li>
 </ul>
 
 <h2>Cones</h2>

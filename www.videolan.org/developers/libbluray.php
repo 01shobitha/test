@@ -19,9 +19,13 @@ developers from <a href="http://www.doom9.org/">Doom9</a>.</p>
   <li><b>Freedom:</b> <code>libbluray</code> is released under a Free Software license,
   ensuring it will stay free. </li>
   <li><b>Features:</b> the library integrates navigation, playlist parsing, menus and BD-J.</li>
-  <li><b>Legal:</b> <code>libbluray</code> is DRM-circumvention free, and thus, safe to integrate in your software.</li>
+  <li><b>Legal:</b> <code>libbluray</code> is <b>DRM-circumvention free</b>, and thus, safe to integrate in your software.</li>
   <li><b>Fun:</b> <code>libbluray</code> is a fun to hack on project, in its starting phase.</li>
 </ul>
+
+<p><b>NB:</b> Most commercial Blu-Ray are protected by <a href="http://www.aacsla.com/">AACS</a> or
+<a href="http://www.bdplusllc.com/">BD+</a> technologies</p> and this library is not enough to playback those discs.</p>
+
 
 <h2>Get libbluray</h2>
 

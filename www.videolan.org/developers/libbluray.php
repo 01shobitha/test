@@ -24,7 +24,7 @@ developers from <a href="http://www.doom9.org/">Doom9</a>.</p>
 </ul>
 
 <p><b>NB:</b> Most commercial Blu-Ray are protected by <a href="http://www.aacsla.com/">AACS</a> or
-<a href="http://www.bdplusllc.com/">BD+</a> technologies</p> and this library is not enough to playback those discs.</p>
+<a href="http://www.bdplusllc.com/">BD+</a> technologies and this library is not enough to playback those discs.</p>
 
 
 <h2>Get libbluray</h2>

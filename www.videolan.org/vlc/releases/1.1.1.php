@@ -157,6 +157,20 @@ function DoDL2( $os, $with_js=1 )
 <a href="http://news.ycombinator.com/item?id=1450418">Hacker News</a> <a href="http://www.reddit.com/r/programming/comments/chkf3/vlc_110_is_released/">Reddit</a>
 <a href="http://www.facebook.com/vlc.media.player">Facebook page</a> <a href="http://twitter.com/videolan">Twitter page</a>
 </p>-->
+<h1>What's new in 1.1.1 over 1.1.0</h1>
+<p>This is a release focused on numerous fixes and small improvements:</p>
+
+<ul class="blue-bullet">
+<li>Multiple libVLC improvements and fixes</li>
+<li>Windows video output fixes</li>
+<li>DxVA2 decoding on ATI GPU, with Catalyst 10.7</li>
+<li>Multiple fixes for interfaces</li>
+<li>Various decoders and demuxers fixes</li>
+<li>Updated translations</li>
+<li>Various crashes and errors fixed</li>
+</ul>
+
+
 <h1>What's new in 1.1.x releases?</h1>
 
 <div style="float:left; width: 50%;">

@@ -17,7 +17,7 @@
 
 <?php $vlc_version = '1.1.0'; ?>
   <h2>Latest version - <?php echo $vlc_version; ?></h2>
-<p>This release only supports Windows 2000, XP, Vista and 7. </p>
+<p>This release only supports Windows 2000 (SP4), XP, Vista and 7. </p>
 
 <?php
     pkgitem_sf( "Windows self-extracting package",

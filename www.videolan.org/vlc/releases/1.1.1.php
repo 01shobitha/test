@@ -152,13 +152,14 @@ function DoDL2( $os, $with_js=1 )
     <br />
 </div>
 
-<!--
-<p><a href="http://twitter.com/#search?q=vlc">Twitter</a> <a href="http://digg.com/software/VLC_1_1_0_release">Digg it!</a>
-<a href="http://news.ycombinator.com/item?id=1450418">Hacker News</a> <a href="http://www.reddit.com/r/programming/comments/chkf3/vlc_110_is_released/">Reddit</a>
+<p>
+<!--<a href="http://twitter.com/#search?q=vlc">Twitter</a> <a href="http://digg.com/software/VLC_1_1_0_release">Digg it!</a>
+<a href="http://news.ycombinator.com/item?id=1450418">Hacker News</a> <a href="http://www.reddit.com/r/programming/comments/chkf3/vlc_110_is_released/">Reddit</a> -->
 <a href="http://www.facebook.com/vlc.media.player">Facebook page</a> <a href="http://twitter.com/videolan">Twitter page</a>
-</p>-->
-<h1>What's new in 1.1.1 over 1.1.0</h1>
-<p>This is a release focused on numerous fixes and small improvements:</p>
+</p>
+<h1>What's new in 1.1.1</h1>
+<p>After more than 17million downloads of VLC 1.1.0 in one month, <br />
+this is a release focused on numerous fixes and small improvements:</p>
 
 <ul class="blue-bullet">
 <li>Multiple libVLC improvements and fixes</li>

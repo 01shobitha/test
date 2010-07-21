@@ -44,7 +44,7 @@ function DoDL2( $os, $with_js=1 )
 <div id="mainbox" style="overflow: hidden; padding-bottom: 0px; ">
 <center>
 
-<div style="text-shadow: 0px 3px 4px #666666; color:#333333; font-family: Helvetica, Arial, sans-serif; font-size:40px; font-weight:bold; margin: 20px;">VLC 1.1.0</div>
+<div style="text-shadow: 0px 3px 4px #666666; color:#333333; font-family: Helvetica, Arial, sans-serif; font-size:40px; font-weight:bold; margin: 20px;">VLC 1.1.1</div>
 <h2 style="text-shadow: 0px 1px 1px #666666">The luggage</h2>
 </center>
     <table style="margin-bottom: 0"><tr>
@@ -238,20 +238,20 @@ New add-ons and script framework so one can personalize its vlc.
 
 <h1></h1>
 <h2>Complete Changelog</h2>
-<a href="/developers/vlc-branch/NEWS">Changelog for 1.1.0 </a>
+<a href="/developers/vlc-branch/NEWS">Changelog for 1.1.1 </a>
 
 
 <h2>Direct links and press contact</h2>
 If you link to this release, please use the following links.
 <h3>Source</h3>
-<a href="http://sourceforge.net/projects/vlc/files/vlc-1.1.0/vlc-1.1.0.tar.bz2/download">VLC Source download</a>
+<a href="http://sourceforge.net/projects/vlc/files/vlc-1.1.1/vlc-1.1.1.tar.bz2/download">VLC Source download</a>
 <h3>Win32</h3>
-<a href="http://sourceforge.net/projects/vlc/files/1.1.0/win32/vlc-1.1.0-win32.exe/download">VLC Win32 installer</a><br />
-<a href="http://sourceforge.net/projects/vlc/files/1.1.0/win32/vlc-1.1.0-win32.7z/download">VLC Win32 7zip (no install)</a><br />
-<a href="http://sourceforge.net/projects/vlc/files/1.1.0/win32/vlc-1.1.0-win32.zip/download">VLC Win32 zip (no install)</a><br />
-<h3>MacOS</h3>
-<a href="http://sourceforge.net/projects/vlc/files/1.1.0/macosx/vlc-1.1.0.dmg/download">Universal Binaries for intel</a><br />
-<br />
+<a href="http://sourceforge.net/projects/vlc/files/1.1.1/win32/vlc-1.1.1-win32.exe/download">VLC Win32 installer</a><br />
+<a href="http://sourceforge.net/projects/vlc/files/1.1.1/win32/vlc-1.1.1-win32.7z/download">VLC Win32 7zip (no install)</a><br />
+<a href="http://sourceforge.net/projects/vlc/files/1.1.1/win32/vlc-1.1.1-win32.zip/download">VLC Win32 zip (no install)</a><br />
+<!-- <h3>MacOS</h3>
+<a href="http://sourceforge.net/projects/vlc/files/1.1.0/macosx/vlc-1.1.0.dmg/download">Universal Binaries for intel</a><br /> -->
+<br /> 
 <h3>Press contact</h3>
 <a href="/videolan/team/">Contact infos</a>
 <br />

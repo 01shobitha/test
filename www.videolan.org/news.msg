@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|21 July 2010|VLC 1.1.1|VideoLAN and the VLC development team are proud to present VLC 1.1.1, the first bugfix release of the VLC 1.1.x branch.<br />After almost one month and more than 17 million downloads of the VLC 1.1.0, this release introduces numerous fixes and small improvements over VLC 1.1.0.<br />Source code and binaries for Windows are available, other operating systems will come later.<br />See <a href="/vlc/releases/1.1.1.html">release notes</a> for more information.
+
 |17 July 2010|New project: libbluray|A new project is now hosted by VideoLAN: <a href="/developers/libbluray.html">libbluray</a>.<br /> Mostly made by developers from <a href="http://www.doom9.org">Doom9</a>, this library aims at integration of Blu-Ray movies playback into media players, like <a href="/vlc/">VLC</a> and VLC's competitors.<br /> <b>NB:</b> This library <b>does not</b> break any DRM.
 
 |02 July 2010|VLC 1.1.0 and GPU decoding on ATI|The latest released version of VLC, 1.1.0, that was out a week ago, and has been downloaded half-a-dozen millions times so far, has added GPU acceleration for HD decoding under Linux and Windows. On Windows, as already stated, the code isn't working correctly with AMD Radeon cards.<br />Therefore, we have been working with AMD on this topic and after common work, we are going to release a new version of VLC, versionned as 1.1.1, that will work with the upcoming ATI Catalyst 10.7 driver. AMD did provide us a beta of this driver and we have verified successfully that GPU acceleration works.<br /> Thanks for your understanding and your support.

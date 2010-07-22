@@ -15,19 +15,20 @@
 
 <p>All mirrors include all the available languages.</p>
 
-<?php $vlc_version = '1.1.0'; ?>
+<?php $vlc_version = '1.1.1'; ?>
   <h2>Latest version - <?php echo $vlc_version; ?></h2>
 <p>This release only supports Windows 2000 (SP4), XP, Vista and 7. </p>
 
 <?php
     pkgitem_sf( "Windows self-extracting package",
-                   "$vlc_version/win32","vlc-$vlc_version-win32.exe","vlc");
+                   "$vlc_version/win32","vlc-$vlc_version-win32.exe","vlc", "", "9d4526274a761c096afcaa9b57f19e35") ;
     pkgitem_sf("Windows 7zip (No installer needed)",
-                  "$vlc_version/win32","vlc-$vlc_version-win32.7z","vlc");
+                  "$vlc_version/win32","vlc-$vlc_version-win32.7z","vlc", "", "49a0748199482137c6281ea01fba3b33" );
     pkgitem_sf("Windows zip packages (No installer needed)",
-                  "$vlc_version/win32","vlc-$vlc_version-win32.zip","vlc");
+                  "$vlc_version/win32","vlc-$vlc_version-win32.zip","vlc", "", "3d486a6f0c02c5a974ed18480942a1c2" );
 ?>
 
+<br />
   <h2>Windows 95/98/Me</h2>
   <p><a href="http://sourceforge.net/projects/kernelex/">Please install KernelEx</a> or take an old
   version of VLC</p>

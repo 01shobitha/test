@@ -43,11 +43,12 @@ function pkgitem_nomirr($description,$version,$name,$top,$extradescription="")
   echo "<p><a href=\"http://download.videolan.org/pub/videolan/$top/$version/$name\">$description</a> <i>$extradescription</i> (".DownloadSize("{$_SERVER["DOCUMENT_ROOT"]}pub/videolan/$top/$version/$name").")</p>";
 }
 
-function pkgitem_sf($description,$version,$name,$top,$extradescription="")
+function pkgitem_sf($description,$version,$name,$top,$extradescription="",$md5="" )
 {
  pkgversion($top, $version);
  echo "<h3>$description <i>$extradescription</i></h3>";
  echo "<a href='http://sourceforge.net/projects/$top/files/$version/$name/download'>Download VLC</a>.";
+ echo "<em>MD5: $md5</em>";
 }
 
 function pkgitem($description,$version,$name,$top,$extradescription="")

@@ -336,15 +336,4 @@ motto( "VideoLAN: Free Multimedia Solutions", $array_motto ); ?>
 </tr>
 </table>
 
-    <script type="text/javascript">
-        function dimPanels(){
-          $(".highlight").each(function() {
-              $(this).mouseout (function() { $(this).children( "p" ).css("color", "#888"); } );
-              $(this).mouseover(function() { $(this).children( "p" ).css("color", "#444"); } );
-              } );
-          $("#project_statement p").each( function() { $(this).css("color", "#888"); } );
-        }
-        dimPanels();
-    </script>
-
 <?php footer('$Id: index.php **** 2009-12-02 altglass$'); ?>

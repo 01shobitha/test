@@ -11,6 +11,18 @@ function motto( $title, $array ) {
   }
 
   echo '</tr></table></div>';
+  echo
+    '<script type="text/javascript">
+        function dimPanels(){
+          $(".highlight").each(function() {
+              $(this).mouseout (function() { $(this).children( "p" ).css("color", "#888"); } );
+              $(this).mouseover(function() { $(this).children( "p" ).css("color", "#444"); } );
+              } );
+          $("#project_statement p").each( function() { $(this).css("color", "#888"); } );
+        }
+        dimPanels();
+    </script>';
+
 }
 
 ?>

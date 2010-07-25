@@ -5,6 +5,7 @@
    $additional_js = array("/js/ffcounter.js");
    $additional_css = array("/panels.css");
    $body_onload = "getCount()";
+   include($_SERVER["DOCUMENT_ROOT"]."/include/layout_helper.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
 ?>
@@ -27,7 +28,23 @@ window.onresize = function(evt) {
 </script>
 <![endif]-->
 
-<h1>VLC media player</h1>
+<?php
+
+$array_motto[] = array( 'title' => "VLC media player", 'text' =>
+     '<p>VLC is a powerful media player, playing most of the media codecs and video formats out there.</p>' );
+$array_motto[] = array( 'title' => "Open Source", 'text' =>
+     '<p><b>Trust</b> your multimedia software and codecs, all <b>VideoLAN</b> projects are 
+      <a href="http://www.gnu.org/philosophy/free-sw.html"><b>free</b></a> and
+      <a href="http://www.opensource.org/"><b>open source</b></a>.
+      <span style="float: right; padding: 5px 10px 0 0;"><a href="/videolan/">More about Open Source</a>.</span></p>' );
+$array_motto[] = array( 'title' => "Volunteers Organization", 'text' =>
+     '<p><b>VLC</b> and <b>VideoLAN</b> are projects, composed of volunteers,
+      developing and promoting
+      <a href="http://www.gnu.org/philosophy/free-sw.html">free</a> <b>multimedia</b> solutions.
+      <span style="float: right; padding: 5px 10px 0 0;"><a href="/videolan/">More about VideoLAN</a>.</span></p>' );
+motto( "VLC: open-source multimedia framework, player and server", $array_motto ); ?>
+
+
 <h2>The cross-platform open-source multimedia framework, player and server</h2>
 <div id="mainbox">
 	<ul class="menu">

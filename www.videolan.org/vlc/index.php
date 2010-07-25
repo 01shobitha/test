@@ -44,8 +44,6 @@ $array_motto[] = array( 'title' => "Volunteers Organization", 'text' =>
       <span style="float: right; padding: 5px 10px 0 0;"><a href="/videolan/">More about VideoLAN</a>.</span></p>' );
 motto( "VLC: open-source multimedia framework, player and server", $array_motto ); ?>
 
-
-<h2>The cross-platform open-source multimedia framework, player and server</h2>
 <div id="mainbox">
 	<ul class="menu">
 		<li>Versatile media player</li>

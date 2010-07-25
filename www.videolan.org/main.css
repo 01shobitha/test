@@ -65,6 +65,8 @@ h2, #donate{
     color: #333;
 }
 
+h2 { margin-top: 15px; }
+
 h2 a, h2 a:link, h2 a:visited {
     color: #2D58AE;
     text-decoration: none;
@@ -72,13 +74,12 @@ h2 a, h2 a:link, h2 a:visited {
 
 h2 a:hover {color: #F60;}
 
-h3 {
-    font-family: Helvetica, Verdana, Arial, sans-serif;
-    font-weight: bold; font-size: 15px;
-    color: #333;
-    padding: 10px 0 4px 0;
-    border-bottom: 2px dotted #E4E7E9;
-    margin: 7px 0 3px 0;
+h3 { font-family: Helvetica, Verdana, Arial, sans-serif;
+     font-weight: bold; font-size: 15px;
+     color: #333;
+     padding: 10px 0 4px 0;
+     border-bottom: 2px dotted #E4E7E9;
+     margin: 10px 0 3px 0;
 }
 
 hr { border: 1px solid #2D58AE; }

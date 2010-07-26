@@ -9,16 +9,14 @@
 <div id="left">
 <h1> Documentation </h1>
 
-<p style="font-size:18px">The VLC documentation is available on the <a href='http://wiki.videolan.org/Documentation:Documentation'>VideoLAN wiki's Documentation section.</a></p>
-
-<br/><br/><br/>
-
-<h1>Documentation</h1>
-<p> Due to lack of technical writers,
-we are unable to provide a proper up-to-date online documentation.
-Due to the lack of volunteers, we cannot provide any expected release date.
+<p> Due to lack of volunteer technical writers,
+we are unable to provide a proper up-to-date online documentation
+until further notice.
 </p>
 <p>Sorry for the inconvenience.</p>
+
+<p style="font-size:18px">Some VLC documentation is available on the <a href='http://wiki.videolan.org/Documentation:Documentation'>VideoLAN wiki's Documentation section.</a></p>
+
 <?php
 /*
 <ul>

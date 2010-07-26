@@ -13,7 +13,14 @@
 
 <br/><br/><br/>
 
-<h1> <u>Outdated</u> Documentation </h1>
+<h1>Documentation</h1>
+<p> Due to lack of technical writers,
+we are unable to provide a proper up-to-date online documentation.
+Due to the lack of volunteers, we cannot provide any expected release date.
+</p>
+<p>Sorry for the inconvenience.</p>
+<?php
+/*
 <ul>
 	<li>
 	<a href="/doc/play-howto/en/play-howto-en.html">VLC Play HowTo</a>
@@ -41,8 +48,6 @@
 	</li>
 </ul>
 
-<?php
-/*
 <table border="0">
 
 <tr>

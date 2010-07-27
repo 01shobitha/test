@@ -125,7 +125,7 @@ for Mac OS X:</p>
 
 <p>Transparent cone by Yvo Schaap</p>
 <p>
-<a href="http://images.videolan.org/images/goodies/cone-icon-transparent.png"><img src="http://images.videolan.org/images/goodies/cone-icon-transparent.png" /></a>
+<a href="http://images.videolan.org/images/goodies/cone-icon-transparent.png"><img src="http://images.videolan.org/images/goodies/cone-icon-transparent.png" width=200 /></a>
 </p>
 
 <p>All videolan background images can now be downloaded in one

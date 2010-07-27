@@ -123,6 +123,11 @@ for Mac OS X:</p>
 <a href="http://images.videolan.org/images/goodies/Cone-List-large.png"><img src="http://images.videolan.org/images/goodies/Cone-List-small.png" /></a>
 </p>
 
+<p>Transparent cone by Yvo Schaap</p>
+<p>
+<a href="http://images.videolan.org/images/goodies/cone-icon-transparent.png"><img src="http://images.videolan.org/images/goodies/cone-icon-transparent.png" /></a>
+</p>
+
 <p>All videolan background images can now be downloaded in one
 RPM package. The (relocatable) package has been built by <a
 href="http://www.jpsaman.org">Jean-Paul Saman</a> on RH 9.0,

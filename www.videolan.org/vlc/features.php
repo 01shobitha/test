@@ -168,8 +168,8 @@ function writeAudioFeatures() {
             <?php writefeature( "AAC - MPEG-4 part3", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "Vorbis", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "AC3 - A/52 (Dolby Digital)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( 'E-AC-3 (Dolby Digital Plus) <sup><a href="#audio_notes">3 </a></sup>', "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( 'MLP / TrueHD <sup><a href="#audio_notes">3</a></sup>', "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( 'E-AC-3 (Dolby Digital Plus) ', "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( 'MLP / TrueHD">3</a></sup>', "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "DTS", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "WMA 1/2", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( 'WMA 3 <sup><a href="#audio_notes">1</a></sup>', "yes", "yes", "yes", "no", "no", "no" ); ?>
@@ -185,7 +185,7 @@ function writeAudioFeatures() {
             <?php writefeature( 'Real Audio <sup><a href="#audio_notes">2</a></sup>', "part", "part", "part", "unt", "part", "no" ); ?>
             <?php writefeature( "Alaw/&micro;law", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "AMR (3GPP)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "MIDI", "yes", "unt", "yes", "no", "yes", "unt" ); ?>
+            <?php writefeature( 'MIDI <sup><a href="#audio_notes">3 </a></sup>', "yes", "unt", "yes", "no", "yes", "unt" ); ?>
             <?php writefeature( "LPCM", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "ADPCM", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
             <?php writefeature( "QCELP", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
@@ -200,6 +200,7 @@ function writeAudioFeatures() {
           <li>Native playback supported by VLC 1.0.3 and later. Previous versions could use Windows DMO codecs on 32-bit x86 platforms and 
           allow WMV-3/WMA-3 decoding. This feature was never tested on Intel-based Macs.</li>
           <li>Sipr codec playback is not supported.</li>
+          <li>Requires a .sf2 font, see <a href="http://wiki.videolan.org/Midi">our wiki</a>.</li>
         </ol>
         </div>
 

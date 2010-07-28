@@ -13,6 +13,7 @@
 
 <div id="left">
 
+<!--
 <h2>Looking for more Mac OS X developers</h2>
 <p> We are currently looking for more developers for the Mac OS X port of VLC.
 Needed skills are C-knowledge and some experience in programming for Mac OS X
@@ -24,18 +25,19 @@ for you, but is not essential.
 to the <a href="/developers/lists.html">vlc-devel mailing list</a>
 or to contact us through our <a href="http://forum.videolan.org/viewtopic.php?t=3675&amp;start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">forum</a>.
 </p>
+-->
 
 <?php
 $vlc_version = "1.0.5";
 $vlc_version_intel = "1.1.1";
 ?>
 
-<h2>Latest version for 10.5 and later (release <?php echo $vlc_version; ?>)</h2>
+<h2>Latest version for 10.5 and later</h2>
 
-<?php pkgitem_sf( "32/64 bits Package for Intel-based Macs",
-               "$vlc_version_intel/macosx","vlc-$vlc_version_intel.dmg","vlc"); ?>
+<?php pkgitem_sf( "32/64 bits Package for Intel-based Macs, 1.1.1",
+               "$vlc_version_intel/macosx","vlc-$vlc_version_intel.dmg","vlc", "9155c8a65c932ea166e8d828f9479a6d"); ?>
 
-<?php pkgitem( "Package for PowerPC-based Macs",
+<?php pkgitem( "Package for PowerPC-based Macs, 1.0.5",
                "$vlc_version/macosx","vlc-$vlc_version-powerpc.dmg","vlc"); ?>
 
 
@@ -80,8 +82,11 @@ $vlc_version_intel = "1.1.1";
 </ul>
 
 <h2>Older versions</h2>
-Use 0.8.4a for 10.2  and 0.7.0 for 10.1.
-<?php browse_old( "vlc" ); ?> 
+<p>Use VLC 0.8.4a for 10.2.</p>
+<p>Use 0.8.6i for 10.3.</p>
+<p>Use 0.7.0 for 10.1.</p>
+
+<?php browse_old( "vlc" ); ?>
 </div>
 
 <div id="right">

@@ -185,7 +185,7 @@ function writeAudioFeatures() {
             <?php writefeature( 'Real Audio <sup><a href="#audio_notes">2</a></sup>', "part", "part", "part", "unt", "part", "no" ); ?>
             <?php writefeature( "Alaw/&micro;law", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "AMR (3GPP)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
-            <?php writefeature( "MIDI", "no", "unt", "yes", "no", "yes", "unt" ); ?>
+            <?php writefeature( "MIDI", "yes", "unt", "yes", "no", "yes", "unt" ); ?>
             <?php writefeature( "LPCM", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "ADPCM", "yes", "yes", "yes", "yes", "yes", "unt" ); ?>
             <?php writefeature( "QCELP", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>

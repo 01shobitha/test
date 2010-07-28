@@ -200,7 +200,7 @@ function writeAudioFeatures() {
           <li>Native playback supported by VLC 1.0.3 and later. Previous versions could use Windows DMO codecs on 32-bit x86 platforms and 
           allow WMV-3/WMA-3 decoding. This feature was never tested on Intel-based Macs.</li>
           <li>Sipr codec playback is not supported.</li>
-          <li>Requires a .sf2 font, see <a href="http://wiki.videolan.org/Midi">our wiki</a>.</li>
+          <li>Requires a .sf2 soundfont, see <a href="http://wiki.videolan.org/Midi">our wiki</a>.</li>
         </ol>
         </div>
 

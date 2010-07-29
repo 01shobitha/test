@@ -1,9 +1,11 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|29 July 2010|VLC 1.1.2|VideoLAN and the VLC development team are proud to present VLC 1.1.2, the second bugfix release of the VLC 1.1.x branch.<br />After just ten days of 1.1.2, some more bugs were squashed, hence a new release. This release introduces small fixes and improvements over VLC 1.1.1, notably on Windows.<br />Source code and binaries for Windows and Mac (Intel) are available.<br />See the <a href="/vlc/releases/1.1.2.html">release notes</a> for more information.
+
 |24 July 2010|VLC 1.1.1 for Mac|This is just a short update to inform our users that VLC 1.1.1 binaries for Mac Intel have arrived. They should fix the Multi-Channel crashes of the 1.1.0.<br />See <a href="/vlc/releases/1.1.1.html">release notes</a> for more information.
 
-|21 July 2010|VLC 1.1.1|VideoLAN and the VLC development team are proud to present VLC 1.1.1, the first bugfix release of the VLC 1.1.x branch.<br />After almost one month and more than 17 million downloads of the VLC 1.1.0, this release introduces numerous fixes and small improvements over VLC 1.1.0.<br />Source code and binaries for Windows are available, other operating systems will come later.<br />See <a href="/vlc/releases/1.1.1.html">release notes</a> for more information.
+|21 July 2010|VLC 1.1.1|VideoLAN and the VLC development team are proud to present VLC 1.1.1, the first bugfix release of the VLC 1.1.x branch.<br />After almost one month and more than 17 million downloads of the VLC 1.1.0, this release introduces numerous fixes and small improvements over VLC 1.1.0.<br />Source code and binaries for Windows are available, other operating systems will come later.<br />See the <a href="/vlc/releases/1.1.1.html">release notes</a> for more information.
 
 |17 July 2010|New project: libbluray|A new project is now hosted by VideoLAN: <a href="/developers/libbluray.html">libbluray</a>.<br /> Mostly made by developers from <a href="http://www.doom9.org">Doom9</a>, this library aims at integration of Blu-Ray movies playback into media players, like <a href="/vlc/">VLC</a> and VLC's competitors.<br /> <b>NB:</b> This library <b>does not</b> break any DRM.
 

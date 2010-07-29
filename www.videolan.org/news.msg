@@ -1,7 +1,7 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
-|29 July 2010|VLC 1.1.2|VideoLAN and the VLC development team are proud to present VLC 1.1.2, the second bugfix release of the VLC 1.1.x branch.<br />After just ten days of 1.1.2, some more bugs were squashed, hence a new release. This release introduces small fixes and improvements over VLC 1.1.1, notably on Windows.<br />Source code and binaries for Windows and Mac (Intel) are available.<br />See the <a href="/vlc/releases/1.1.2.html">release notes</a> for more information.
+|29 July 2010|VLC 1.1.2|VideoLAN and the VLC development team are proud to present VLC 1.1.2, the second bugfix release of the VLC 1.1.x branch.<br />After just ten days of 1.1.1, some more bugs were squashed, hence a new release. This release introduces small fixes and improvements over VLC 1.1.1, notably on Windows.<br />Source code and binaries for Windows and Mac (Intel) are available.<br />See the <a href="/vlc/releases/1.1.2.html">release notes</a> for more information.
 
 |24 July 2010|VLC 1.1.1 for Mac|This is just a short update to inform our users that VLC 1.1.1 binaries for Mac Intel have arrived. They should fix the Multi-Channel crashes of the 1.1.0.<br />See <a href="/vlc/releases/1.1.1.html">release notes</a> for more information.
 

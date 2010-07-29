@@ -278,7 +278,7 @@ If you link to this release, please use the following links.
 <a href="http://sourceforge.net/projects/vlc/files/1.1.2/win32/vlc-1.1.2-win32.zip/download">VLC Win32 zip (no install)</a><br />
 <h3>MacOS</h3>
 <a href="http://sourceforge.net/projects/vlc/files/1.1.2/macosx/vlc-1.1.2.dmg/download">Universal Binaries for Intel</a><br />
-<a href="http://sourceforge.net/projects/vlc/files/1.1.2/macosx/vlc-1.1.2-intel32.dmg/download">Intel 32bits</a><br />
+<a href="http://sourceforge.net/projects/vlc/files/1.1.2/macosx/vlc-1.1.2-intel.dmg/download">Intel 32bits</a><br />
 <a href="http://sourceforge.net/projects/vlc/files/1.1.2/macosx/vlc-1.1.2-intel64.dmg/download">Intel 64bits</a><br />
 <br /> 
 <h3>Press contact</h3>

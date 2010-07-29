@@ -165,15 +165,18 @@ function DoDL2( $os, $with_js=1 )
 <li>TS and DVB demuxing fixes</li>
 <li>Audio filters fixes to solve the "mono" bug</li>
 <li>Fix of the direct3d output module that display nothing on older nVidia and ATI cards, when overlay was activated</li>
+</ul>
 </div>
+
 <div style="float:left; width: 50%;">
+<ul class="blue-bullet">
 <li>Extensions and scrips updates</li>
 <li>Miscellaneous fixes in interfaces</li>
 <li>Updated translations</li>
 <li>Various crashes and errors fixed</li>
 </ul>
 </div>
-
+<div style="clear: both;" />
 <h1>What was new in 1.1.1</h1>
 <p>After more than 17million downloads of VLC 1.1.0 in one month, <br />
 this is a release focused on numerous fixes and small improvements:</p>
@@ -193,6 +196,7 @@ this is a release focused on numerous fixes and small improvements:</p>
 <li>Updated translations</li>
 </ul>
 </div>
+<div style="clear: both;" />
 
 <h1>What's new in all 1.1.x releases?</h1>
 

@@ -160,31 +160,39 @@ function DoDL2( $os, $with_js=1 )
 <h1>What's new in 1.1.2</h1>
 <p>Quite soon after the 1.1.1, we were able to squash more annoying bugs, hence a new release for you!</p>
 
+<div style="float:right; width: 48%;">
 <ul class="blue-bullet">
 <li>TS and DVB demuxing fixes</li>
 <li>Audio filters fixes to solve the "mono" bug</li>
 <li>Fix of the direct3d output module that display nothing on older nVidia and ATI cards, when overlay was activated</li>
+</div>
+<div style="float:left; width: 50%;">
 <li>Extensions and scrips updates</li>
 <li>Miscellaneous fixes in interfaces</li>
 <li>Updated translations</li>
 <li>Various crashes and errors fixed</li>
 </ul>
-
+</div>
 
 <h1>What was new in 1.1.1</h1>
 <p>After more than 17million downloads of VLC 1.1.0 in one month, <br />
 this is a release focused on numerous fixes and small improvements:</p>
 
+<div style="float:right; width: 48%;">
 <ul class="blue-bullet">
 <li>Multiple libVLC improvements and fixes</li>
 <li>Windows video output fixes</li>
 <li>DxVA2 decoding on ATI GPU, with Catalyst 10.7</li>
+<li>Various crashes and errors fixed</li>
+</ul>
+</div>
+<div style="float:left; width: 50%;">
+<ul class="blue-bullet">
 <li>Multiple fixes for interfaces</li>
 <li>Various decoders and demuxers fixes</li>
 <li>Updated translations</li>
-<li>Various crashes and errors fixed</li>
 </ul>
-
+</div>
 
 <h1>What's new in all 1.1.x releases?</h1>
 

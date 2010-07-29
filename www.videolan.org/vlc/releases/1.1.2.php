@@ -153,9 +153,9 @@ function DoDL2( $os, $with_js=1 )
 </div>
 
 <p>
-<!--<a href="http://twitter.com/#search?q=vlc">Twitter</a> <a href="http://digg.com/software/VideoLAN_VLC_1_1_1_release">Digg it!</a>
-<a href="http://news.ycombinator.com/item?id=1536599">Hacker News</a> <a href="/">Reddit (not yet)</a>
-<a href="http://www.facebook.com/vlc.media.player">Facebook page</a> <a href="http://twitter.com/videolan">Twitter page</a> -->
+<a href="http://twitter.com/#search?q=vlc">Twitter</a> <a href="http://digg.com/software/VideoLAN_VLC_1_1_2_release">Digg it!</a>
+<!-- <a href="http://news.ycombinator.com/item?id=1536599">Hacker News</a> <a href="/">Reddit (not yet)</a> -->
+<a href="http://www.facebook.com/vlc.media.player">Facebook page</a> <a href="http://twitter.com/videolan">Twitter page</a>
 </p>
 <h1>What's new in 1.1.2</h1>
 <p>Quite soon after the 1.1.1, we were able to squash more annoying bugs, hence a new release for you!</p>

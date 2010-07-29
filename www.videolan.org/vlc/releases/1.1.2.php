@@ -171,7 +171,7 @@ function DoDL2( $os, $with_js=1 )
 </ul>
 
 
-<h1>What's new in 1.1.1</h1>
+<h1>What was new in 1.1.1</h1>
 <p>After more than 17million downloads of VLC 1.1.0 in one month, <br />
 this is a release focused on numerous fixes and small improvements:</p>
 
@@ -186,7 +186,7 @@ this is a release focused on numerous fixes and small improvements:</p>
 </ul>
 
 
-<h1>What's new in 1.1.x releases?</h1>
+<h1>What's new in all 1.1.x releases?</h1>
 
 <div style="float:left; width: 50%;">
 <h2>Ready for HD</h2>

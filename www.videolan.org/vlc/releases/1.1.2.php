@@ -1,5 +1,5 @@
 <?php
-   $title = "VLC 1.1.1 release";
+   $title = "VLC 1.1.2 release";
    $lang = "en";
    $menu = array( "project", "news" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
@@ -10,11 +10,11 @@
 function DoDL2( $os, $with_js=1 )
 {
     $dl = array();
-    $version = '1.1.1';
+    $version = '1.1.2';
     $start_url="http://sourceforge.net/projects/vlc/files/vlc-$version";
     $dl["Win32"] = array( "$start_url/win32/vlc-$version-win32.exe/download", "Windows install" );
-    $dl["Win32-7z"] = array( "http://download.videolan.org/pub/testing/vlc-1.1.1/win32/vlc-1.1.1-win32.7z", "Windows 7z" );
-    $dl["OSX-Intel"] = array( "http://sourceforge.net/projects/vlc/files/1.1.0/macosx/vlc-1.1.0.dmg/download", "Mac OS X Intel" );
+    $dl["Win32-7z"] = array( "$start_url/win32/vlc-$version-win32.7z/download", "Windows 7z" );
+    $dl["OSX-Intel"] = array( "$start_url/macosx/vlc-$version.dmg/download", "Mac OS X Intel" );
     $dl["Linux"] =array("$start_url/vlc-$version.tar.bz2/download", "Linux and other OSes" );
     $dl["Debian"] = array( "/vlc/download-debian.html", "Debian GNU/Linux" );
     $dl["Ubuntu"] = array( "/vlc/download-ubuntu.html", "Ubuntu Linux");
@@ -44,7 +44,7 @@ function DoDL2( $os, $with_js=1 )
 <div id="mainbox" style="overflow: hidden; padding-bottom: 0px; ">
 <center>
 
-<div style="text-shadow: 0px 3px 4px #666666; color:#333333; font-family: Helvetica, Arial, sans-serif; font-size:40px; font-weight:bold; margin: 20px;">VLC 1.1.1</div>
+<div style="text-shadow: 0px 3px 4px #666666; color:#333333; font-family: Helvetica, Arial, sans-serif; font-size:40px; font-weight:bold; margin: 20px;">VLC 1.1.2</div>
 <h2 style="text-shadow: 0px 1px 1px #666666">The luggage</h2>
 </center>
     <table style="margin-bottom: 0"><tr>
@@ -153,10 +153,24 @@ function DoDL2( $os, $with_js=1 )
 </div>
 
 <p>
-<a href="http://twitter.com/#search?q=vlc">Twitter</a> <a href="http://digg.com/software/VideoLAN_VLC_1_1_1_release">Digg it!</a>
+<!--<a href="http://twitter.com/#search?q=vlc">Twitter</a> <a href="http://digg.com/software/VideoLAN_VLC_1_1_1_release">Digg it!</a>
 <a href="http://news.ycombinator.com/item?id=1536599">Hacker News</a> <a href="/">Reddit (not yet)</a>
-<a href="http://www.facebook.com/vlc.media.player">Facebook page</a> <a href="http://twitter.com/videolan">Twitter page</a>
+<a href="http://www.facebook.com/vlc.media.player">Facebook page</a> <a href="http://twitter.com/videolan">Twitter page</a> -->
 </p>
+<h1>What's new in 1.1.2</h1>
+<p>Quite soon after the 1.1.1, we were able to squash more annoying bugs, hence a new release for you!</p>
+
+<ul class="blue-bullet">
+<li>TS and DVB demuxing fixes</li>
+<li>Audio filters fixes to solve the "mono" bug</li>
+<li>Fix of the direct3d output module that display nothing on older nVidia and ATI cards, when overlay was activated</li>
+<li>Extensions and scrips updates</li>
+<li>Miscellaneous fixes in interfaces</li>
+<li>Updated translations</li>
+<li>Various crashes and errors fixed</li>
+</ul>
+
+
 <h1>What's new in 1.1.1</h1>
 <p>After more than 17million downloads of VLC 1.1.0 in one month, <br />
 this is a release focused on numerous fixes and small improvements:</p>
@@ -245,13 +259,15 @@ New add-ons and script framework so one can personalize its vlc.
 <h2>Direct links and press contact</h2>
 If you link to this release, please use the following links.
 <h3>Source</h3>
-<a href="http://sourceforge.net/projects/vlc/files/vlc-1.1.1/vlc-1.1.1.tar.bz2/download">VLC Source download</a>
+<a href="http://sourceforge.net/projects/vlc/files/vlc-1.1.2/vlc-1.1.2.tar.bz2/download">VLC Source download</a>
 <h3>Win32</h3>
-<a href="http://sourceforge.net/projects/vlc/files/1.1.1/win32/vlc-1.1.1-win32.exe/download">VLC Win32 installer</a><br />
-<a href="http://sourceforge.net/projects/vlc/files/1.1.1/win32/vlc-1.1.1-win32.7z/download">VLC Win32 7zip (no install)</a><br />
-<a href="http://sourceforge.net/projects/vlc/files/1.1.1/win32/vlc-1.1.1-win32.zip/download">VLC Win32 zip (no install)</a><br />
-<!-- <h3>MacOS</h3>
-<a href="http://sourceforge.net/projects/vlc/files/1.1.0/macosx/vlc-1.1.0.dmg/download">Universal Binaries for intel</a><br /> -->
+<a href="http://sourceforge.net/projects/vlc/files/1.1.2/win32/vlc-1.1.2-win32.exe/download">VLC Win32 installer</a><br />
+<a href="http://sourceforge.net/projects/vlc/files/1.1.2/win32/vlc-1.1.2-win32.7z/download">VLC Win32 7zip (no install)</a><br />
+<a href="http://sourceforge.net/projects/vlc/files/1.1.2/win32/vlc-1.1.2-win32.zip/download">VLC Win32 zip (no install)</a><br />
+<h3>MacOS</h3>
+<a href="http://sourceforge.net/projects/vlc/files/1.1.2/macosx/vlc-1.1.2.dmg/download">Universal Binaries for Intel</a><br />
+<a href="http://sourceforge.net/projects/vlc/files/1.1.2/macosx/vlc-1.1.2-intel32.dmg/download">Intel 64bits</a><br />
+<a href="http://sourceforge.net/projects/vlc/files/1.1.2/macosx/vlc-1.1.2-intel64.dmg/download">Intel 32bits</a><br />
 <br /> 
 <h3>Press contact</h3>
 <a href="/videolan/team/">Contact infos</a>

@@ -265,21 +265,21 @@ New add-ons and script framework so one can personalize its vlc.
 
 <h1></h1>
 <h2>Complete Changelog</h2>
-<a href="/developers/vlc-branch/NEWS">Changelog for 1.1.1 </a>
+<a href="/developers/vlc-branch/NEWS">Changelog for 1.1.2 </a>
 
 
 <h2>Direct links and press contact</h2>
 If you link to this release, please use the following links.
 <h3>Source</h3>
-<a href="http://sourceforge.net/projects/vlc/files/vlc-1.1.2/vlc-1.1.2.tar.bz2/download">VLC Source download</a>
+<a href="http://sourceforge.net/projects/vlc/files/1.1.2/vlc-1.1.2.tar.bz2/download">VLC Source download</a>
 <h3>Win32</h3>
 <a href="http://sourceforge.net/projects/vlc/files/1.1.2/win32/vlc-1.1.2-win32.exe/download">VLC Win32 installer</a><br />
 <a href="http://sourceforge.net/projects/vlc/files/1.1.2/win32/vlc-1.1.2-win32.7z/download">VLC Win32 7zip (no install)</a><br />
 <a href="http://sourceforge.net/projects/vlc/files/1.1.2/win32/vlc-1.1.2-win32.zip/download">VLC Win32 zip (no install)</a><br />
 <h3>MacOS</h3>
 <a href="http://sourceforge.net/projects/vlc/files/1.1.2/macosx/vlc-1.1.2.dmg/download">Universal Binaries for Intel</a><br />
-<a href="http://sourceforge.net/projects/vlc/files/1.1.2/macosx/vlc-1.1.2-intel32.dmg/download">Intel 64bits</a><br />
-<a href="http://sourceforge.net/projects/vlc/files/1.1.2/macosx/vlc-1.1.2-intel64.dmg/download">Intel 32bits</a><br />
+<a href="http://sourceforge.net/projects/vlc/files/1.1.2/macosx/vlc-1.1.2-intel32.dmg/download">Intel 32bits</a><br />
+<a href="http://sourceforge.net/projects/vlc/files/1.1.2/macosx/vlc-1.1.2-intel64.dmg/download">Intel 64bits</a><br />
 <br /> 
 <h3>Press contact</h3>
 <a href="/videolan/team/">Contact infos</a>

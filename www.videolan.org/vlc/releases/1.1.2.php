@@ -11,7 +11,7 @@ function DoDL2( $os, $with_js=1 )
 {
     $dl = array();
     $version = '1.1.2';
-    $start_url="http://sourceforge.net/projects/vlc/files/vlc-$version";
+    $start_url="http://sourceforge.net/projects/vlc/files/$version";
     $dl["Win32"] = array( "$start_url/win32/vlc-$version-win32.exe/download", "Windows install" );
     $dl["Win32-7z"] = array( "$start_url/win32/vlc-$version-win32.7z/download", "Windows 7z" );
     $dl["OSX-Intel"] = array( "$start_url/macosx/vlc-$version.dmg/download", "Mac OS X Intel" );

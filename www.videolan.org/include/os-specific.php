@@ -44,7 +44,7 @@ function Screenshot( $os )
 function DoDL( $os, $with_js=1 )
 {
     $dl = array();
-    $version = '1.1.1';
+    $version = '1.1.2';
     $version_back = '1.0.5';
     $dl["Win32"] = array("http://sourceforge.net/projects/vlc/files/$version/win32/vlc-$version-win32.exe/download", "Windows, 18&nbsp;MB" );
     $dl["OSX-Intel"] = array( "http://sourceforge.net/projects/vlc/files/$version/macosx/vlc-$version.dmg/download","Mac OS X 10.5 or later, 40&nbsp;MB" );

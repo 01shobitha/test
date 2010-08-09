@@ -1,5 +1,6 @@
 <?php
-    $is_win32 = "navigator.platform.indexOf(\"Win32\") != -1";
+    $is_win32 = "navigator.platform.indexOf(\"Win32\") != -1 ||".
+               " navigator.platform.indexOf(\"Win64\") != -1";
 
     $is_ie = "navigator.userAgent.indexOf(\"MSIE\") != -1";
 

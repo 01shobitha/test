@@ -7,7 +7,7 @@
 
 <h1>libaacs</h1>
 
-<p> <code>libaacs</code> is a research project to implement the Advanced Access Content System
+<p> <code>libaacs</code> is a <b>research project</b> to implement the Advanced Access Content System
 <a href="http://www.aacsla.com/specifications/">specification</a>.<br />
 This research project provides, through an <b>open-source</b> library, a way to understand how
 the AACS works.</p>
@@ -34,18 +34,17 @@ copyrighted material.</p>
 <code>git clone git://git.videolan.org/libaacs.git</code>.</p>
 <p>You can browse the source code at  <a href="http://git.videolan.org/">git.videolan.org</a>.</p>
 
-<!--
-<h2>Légal</h2>
-<p><code>libbluray</code> est un projet de <b>recherche</b>, intégralement développé, sans spécifications
-et sans aucune aide ou copie extérieur que ce soit. (<b>research</b> project, started from scratch, <b>without specifications</b> or external code).</p>
-<p><code>libbluray</code> ne contourne aucune mesure technique de protection <i>MTP</i> (doesn't include any DRM-circumvention tool).</p>
-<p><code>libbluray</code> s'inscrit dans le droit à l'interopérabilité, tel que décrit par
+<h1>Légal</h1>
+<p><code>libaacs</code> est un projet de <b>recherche</b>, intégralement développé à partir de la
+spécification officielle et publique. (<b>research</b> project, started from scratch, based on the
+official public specification.</p>
+<p><code>libaacs</code> ne fournis aucune clé de décodage, et donc respecte le droit d'auteur. (No keys provided, hence copyright preserved).</p>
+<p><code>libaacs</code> s'inscrit dans le droit à l'interopérabilité, tel que décrit par
 <a href="http://www.legifrance.gouv.fr/affichJuriAdmin.do?oldAction=rechJuriAdmin&idTexte=CETATEXT000019216315&fastReqId=1851277972&fastPos=1"><i>CE 10e et 9e sous­sect., 16 juillet 2008, n° 301843, APRIL</i></a>, par le
 <i><a href="http://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=257F3A2551AFEA654609264234C2CD43.tpdjo13v_3?cidTexte=LEGITEXT000006069414&idArticle=LEGIARTI000006278920&dateTexte=&categorieLien=cid">CPI 122-6-1</a></i>
 et par le <a href="http://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=257F3A2551AFEA654609264234C2CD43.tpdjo13v_3?cidTexte=LEGITEXT000006069414&idArticle=LEGIARTI000020740194&dateTexte=20100708&categorieLien=id#LEGIARTI000020740194"><i>CPI 331-5</i><a/>.</p>
 
-
-<h2>Documentation</h2> -->
+<h2>Documentation</h2> 
 
 <?php /*
 <table border="0">
@@ -71,6 +70,7 @@ et par le <a href="http://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid
    </td>
 </tr>
 </table> */ ?>
+
 
 
 <?php footer('$Id: libaacs.php 6130 2010-05-28 19:12:07Z ivoire $'); ?>

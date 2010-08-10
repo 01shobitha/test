@@ -9,7 +9,7 @@
 
 <p> <code>libaacs</code> is a <b>research project</b> to implement the Advanced Access Content System
 <a href="http://www.aacsla.com/specifications/">specification</a>.<br />
-This research project provides, through an <b>open-source</b> library, a way to understand how
+This <b>research</b> project provides, through an <b>open-source</b> library, a way to understand how
 the AACS works.</p>
 
 <p> This <b>research</b> project is mainly developed by an international team of
@@ -37,7 +37,7 @@ copyrighted material.</p>
 <h1>Légal</h1>
 <p><code>libaacs</code> est un projet de <b>recherche</b>, intégralement développé à partir de la
 <b>spécification officielle et publique</b>. (<b>research</b> project, started from scratch, based on the
-official public specification.</p>
+official public specification).</p>
 <p><code>libaacs</code> ne fournit <b>aucune clé de décodage</b>, et donc respecte le droit d'auteur. (No keys provided, hence copyright preserved).</p>
 <p><code>libaacs</code> s'inscrit dans le <b>droit à l'interopérabilité</b>, tel que décrit par
 <a href="http://www.legifrance.gouv.fr/affichJuriAdmin.do?oldAction=rechJuriAdmin&idTexte=CETATEXT000019216315&fastReqId=1851277972&fastPos=1"><i>CE 10e et 9e sous­sect., 16 juillet 2008, n° 301843, APRIL</i></a>, par le

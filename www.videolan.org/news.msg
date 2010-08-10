@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|10 August 2010|New project: libaacs|A new project is now hosted by VideoLAN: <a href="/developers/libaacs.html">libaacs</a>.<br /> Mostly made by developers from <a href="http://www.doom9.org">Doom9</a>, this <b>research</b> project implement the public <a href="http://www.aacsla.com/specifications/">AACS specification</a>.<br /> <b>NB:</b> libaacs is a research project and does not distribute any key.
+
 |29 July 2010|VLC 1.1.2|VideoLAN and the VLC development team are proud to present VLC 1.1.2, the second bugfix release of the VLC 1.1.x branch.<br />After just ten days of 1.1.1, some more bugs were squashed, hence a new release. This release introduces small fixes and improvements over VLC 1.1.1, notably on Windows.<br />Source code and binaries for Windows and Mac (Intel) are available.<br />See the <a href="/vlc/releases/1.1.2.html">release notes</a> for more information.
 
 |24 July 2010|VLC 1.1.1 for Mac|This is just a short update to inform our users that VLC 1.1.1 binaries for Mac Intel have arrived. They should fix the Multi-Channel crashes of the 1.1.0.<br />See <a href="/vlc/releases/1.1.1.html">release notes</a> for more information.

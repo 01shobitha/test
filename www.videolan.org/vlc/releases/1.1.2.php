@@ -68,59 +68,60 @@ function DoDL2( $os, $with_js=1 )
       </td>
       <td id="project_desc">
         <div class="panel" id="panel-vlc" style="display:block;">
-            <div class="left">
-<center>
-<div style="margin: 20px 0 20px 20px; padding: 20px 0 30px 0px; ">
-<span style="padding-bottom: 60px; font-size:18px; font-weight: bold; line-height:19px;">The <b>new</b> cone. Always&nbsp;easy. Better.</span> </div>
-               <div style="border: 0px red solid; margin: 0 auto; font-size: 21px; width: 13em;">
+          <div class="left">
+            <center>
+              <div style="margin: 20px 0 20px 20px; padding: 20px 0 30px 0px; ">
+                <span style="padding-bottom: 60px; font-size:18px; font-weight: bold; line-height:19px;">The <b>new</b> cone. Always&nbsp;easy. Better.</span> </div>
+              <div style="border: 0px red solid; margin: 0 auto; font-size: 21px; width: 13em;">
                  <script type="text/javascript"><!--
-                if ( <?php echo $is_win32; ?> ) { <?php DoDL2("Win32"); ?> }
-                else if( <?php echo $is_beos; ?> ) { <?php DoDL2("BeOS"); ?> }
-                else if( <?php echo $is_linux; ?> )
-                {
-                  if( <?php echo $is_ubuntu; ?> ) { <?php DoDL2("Ubuntu"); ?> }
-                  else if( <?php echo $is_fedora; ?> ) { <?php DoDL2("Fedora"); ?>}
-                  else if( <?php echo $is_suse; ?> ) { <?php DoDL2("Suse"); ?> }
-                  else if( <?php echo $is_debian; ?> ) { <?php DoDL2("Debian"); ?> }
-                  else if( <?php echo $is_mandriva; ?> ) { <?php DoDL2("Mandriva"); ?> }
-                  else if( <?php echo $is_redhat; ?> ) { <?php DoDL2("RedHat"); ?> }
-                  else if( <?php echo $is_gentoo; ?> ) { <?php DoDL2("Gentoo"); ?> }
-                  else { <?php DoDL2("Linux"); ?> }
-                }
-                else if( <?php echo $is_freebsd; ?> ) { <?php DoDL2("FreeBSD"); ?> }
-                else if( <?php echo $is_osx; ?> )
-                {
-                  if( <?php echo $is_ppc; ?> ) {  <?php //DoDL2("OSX-PPC"); ?> 
-                  document.writeln( "PPC build is not yet ready. It will come soon." );}
-                  else if( <?php echo $is_mactel; ?> ) { <?php DoDL2("OSX-Intel");?>}
-                  else { <?php DoDL2("OSX-Intel"); ?> }
-                }
-                else if( navigator.platform.indexOf("Mac") != -1 )
-                {
-                document.writeln( "<p>Haha Mac OS 9 is dead! (if you\\\'re not using Mac OS 9 ... please write us a mail so we can fix this OS detection script)</p>'" );
-                }
-                else
-                {
-                <?php DoDL2("Win32"); /* DoDL2("OSX-PPC"); */ DoDL2("OSX-Intel"); ?>
-                }
-                --></script>
-                <noscript>
-                  <?php DoDL2("Win32",0);/*DoDL2("OSX-PPC",0);*/DoDL2("OSX-Intel",0); ?>
-                </noscript>
+                  if ( <?php echo $is_win32; ?> ) { <?php DoDL2("Win32"); ?> }
+                  else if( <?php echo $is_beos; ?> ) { <?php DoDL2("BeOS"); ?> }
+                  else if( <?php echo $is_linux; ?> )
+                  {
+                    if( <?php echo $is_ubuntu; ?> ) { <?php DoDL2("Ubuntu"); ?> }
+                    else if( <?php echo $is_fedora; ?> ) { <?php DoDL2("Fedora"); ?>}
+                    else if( <?php echo $is_suse; ?> ) { <?php DoDL2("Suse"); ?> }
+                    else if( <?php echo $is_debian; ?> ) { <?php DoDL2("Debian"); ?> }
+                    else if( <?php echo $is_mandriva; ?> ) { <?php DoDL2("Mandriva"); ?> }
+                    else if( <?php echo $is_redhat; ?> ) { <?php DoDL2("RedHat"); ?> }
+                    else if( <?php echo $is_gentoo; ?> ) { <?php DoDL2("Gentoo"); ?> }
+                    else { <?php DoDL2("Linux"); ?> }
+                  }
+                  else if( <?php echo $is_freebsd; ?> ) { <?php DoDL2("FreeBSD"); ?> }
+                  else if( <?php echo $is_osx; ?> )
+                  {
+                    if( <?php echo $is_ppc; ?> ) {  <?php //DoDL2("OSX-PPC"); ?> 
+                    document.writeln( "PPC build is not yet ready. It will come soon." );}
+                    else if( <?php echo $is_mactel; ?> ) { <?php DoDL2("OSX-Intel");?>}
+                    else { <?php DoDL2("OSX-Intel"); ?> }
+                  }
+                  else if( navigator.platform.indexOf("Mac") != -1 )
+                  {
+                  document.writeln( "<p>Haha Mac OS 9 is dead! (if you\\\'re not using Mac OS 9 ... please write us a mail so we can fix this OS detection script)</p>'" );
+                  }
+                  else
+                  {
+                  <?php DoDL2("Win32"); /* DoDL2("OSX-PPC"); */ DoDL2("OSX-Intel"); ?>
+                  }
+                  --></script>
+                  <noscript>
+                    <?php DoDL2("Win32",0);/*DoDL2("OSX-PPC",0);*/DoDL2("OSX-Intel",0); ?>
+                  </noscript>
                  <div class="dl-other"><a href="/vlc/">Other Systems, Versions</a></div>
-                </div>
-            </div>
+              </div>
+            </center>
+          </div> <!-- left -->
 
-           <div class="right" style="text-align: right; color: #666;">
-          <h2 class="project_name">VLC media player</h2>
+          <div class="right" style="text-align: right; color: #666;">
+            <h2 class="project_name">VLC media player</h2>
             <p>VLC is a <b>free</b> and <b>open source</b> cross-platform multimedia <b>player</b> and <b>framework</b>,
                that plays most multimedias files, medias and streaming protocols.</p>
             <p>It is <b>simple</b> to use, yet very powerful and extendable.</p>
 
-          <h2 class="project_name">Volunteer work! Help us!</h2>
-           <p>VLC is done by a <b>small</b> team of volunteers.</p>
-                     <div style="float: right; padding-top: 10px;">
-						<span id="donate" style="font-size: 16px; color: #0033FF;">Donate with Paypal:</span>
+            <h2 class="project_name">Volunteer work! Help us!</h2>
+            <p>VLC is done by a <b>small</b> team of volunteers.</p>
+            <div style="float: right; padding-top: 10px;">
+               <span id="donate" style="font-size: 16px; color: #0033FF;">Donate with Paypal:</span>
                      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="display: inline;">
                        <div style="display: inline;">
                           <input name="cmd" value="_xclick" type="hidden"/>
@@ -143,9 +144,10 @@ function DoDL2( $os, $with_js=1 )
                           <input name="submit" type="submit" alt="Donate money to VideoLAN via PayPal" value="$" class="grey-button" style="font-size:11pt;border-color:#0033FF;background:#6699FF;font-weight:bold"/>
                         </div>
                     </form>
-                    </div>
+            </div>
+          </div> <!-- right -->
         </div>
-    </td>
+      </td>
     </tr>
     </table>
     <br />

@@ -15,7 +15,7 @@ the <a href="http://en.wikipedia.org/wiki/Advanced_Access_Content_System">AACS</
 <p> This <b>research</b> project is mainly developed by an international team of
 developers from <a href="http://www.doom9.org/">Doom9</a>.</p>
 
-<p><b>NB:</b> this project <b>doesn't offer any key</b> that would make this project useful to decode
+<p><b>NB:</b> this project <b>doesn't offer any key or certificate</b> that could be harmful to
 copyrighted material.</p>
 
 <h2> Features </h2>

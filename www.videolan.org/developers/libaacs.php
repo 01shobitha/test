@@ -10,12 +10,12 @@
 <p> <code>libaacs</code> is a <b>research project</b> to implement the Advanced Access Content System
 <a href="http://www.aacsla.com/specifications/">specification</a>.<br />
 This <b>research</b> project provides, through an <b>open-source</b> library, a way to understand how
-the AACS works.</p>
+the <a href="http://en.wikipedia.org/wiki/Advanced_Access_Content_System">AACS</a> works.</p>
 
 <p> This <b>research</b> project is mainly developed by an international team of
 developers from <a href="http://www.doom9.org/">Doom9</a>.</p>
 
-<p><b>NB:</b> this project <b>doesn't offer any key</b> that makes this project usable to decode
+<p><b>NB:</b> this project <b>doesn't offer any key</b> that would make this project useful to decode
 copyrighted material.</p>
 
 <h2> Features </h2>

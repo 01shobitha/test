@@ -15,8 +15,8 @@ the <a href="http://en.wikipedia.org/wiki/Advanced_Access_Content_System">AACS</
 <p> This <b>research</b> project is mainly developed by an international team of
 developers from <a href="http://www.doom9.org/">Doom9</a>.</p>
 
-<p><b>NB:</b> this project <b>doesn't offer any key or certificate</b> that could be harmful to
-copyrighted material.</p>
+<p><b>NB:</b> this project <b>doesn't offer any key or certificate</b> that could be used to decode
+encrypted copyrighted material.</p>
 
 <h2> Features </h2>
 
@@ -24,7 +24,7 @@ copyrighted material.</p>
   <li><b>Portability:</b> Currently supported platforms are GNU/Linux, Windows, MacOS X. The main dependency is libgcrypt for all cryptographic functions.</li>
   <li><b>Freedom:</b> <code>libaacs</code> is released under a Free Software license,
   ensuring it will stay free. </li>
-  <li><b>Legal:</b> <code>libaacs</code> does not include any on key and respects copyright.</li>
+  <li><b>Legal:</b> <code>libaacs</code> does not include any key and respects copyright.</li>
   <li><b>Fun:</b> <code>libaacs</code> is a fun to hack on project, in its starting phase.</li>
 </ul>
 

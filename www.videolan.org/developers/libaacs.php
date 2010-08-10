@@ -24,7 +24,7 @@ encrypted copyrighted material.</p>
   <li><b>Portability:</b> Currently supported platforms are GNU/Linux, Windows, MacOS X. The main dependency is libgcrypt for all cryptographic functions.</li>
   <li><b>Freedom:</b> <code>libaacs</code> is released under a Free Software license,
   ensuring it will stay free. </li>
-  <li><b>Legal:</b> <code>libaacs</code> does not include any key and respects copyright.</li>
+  <li><b>Legal:</b> <code>libaacs</code> does not include any key or certificate and respects copyright.</li>
   <li><b>Fun:</b> <code>libaacs</code> is a fun to hack on project, in its starting phase.</li>
 </ul>
 

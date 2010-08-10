@@ -44,6 +44,10 @@ official public specification.</p>
 <i><a href="http://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=257F3A2551AFEA654609264234C2CD43.tpdjo13v_3?cidTexte=LEGITEXT000006069414&idArticle=LEGIARTI000006278920&dateTexte=&categorieLien=cid">CPI 122-6-1</a></i>
 et par le <a href="http://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=257F3A2551AFEA654609264234C2CD43.tpdjo13v_3?cidTexte=LEGITEXT000006069414&idArticle=LEGIARTI000020740194&dateTexte=20100708&categorieLien=id#LEGIARTI000020740194"><i>CPI 331-5</i><a/>.</p>
 
+<h3>Contact/DMCA</h3>
+<p>Si vous avez le moindre problème légal (If you have ANY issue with the legal part):
+<a href="/contact.html">Contact</a></p>
+
 <h2>Documentation</h2> 
 
 <?php /*

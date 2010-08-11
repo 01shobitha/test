@@ -32,6 +32,11 @@ pub   1024D/AC3E0879 2006-03-01
 <h2>2010</h2>
 
 <dl>
+<dt>VideoLAN-SA-1004 (CVE pending)</dt>
+<dd>Insufficient input validation VLC TagLib plugin.
+ <a href="sa1004.html">Details</a>
+</dd>
+
 <dt>VideoLAN-SA-1003 (CVE-2010-1441..5)</dt>
 <dd>Multiple vulnerabilities in VLC. <a href="sa1003.html">Details</a>
 </dd>

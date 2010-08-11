@@ -18,13 +18,6 @@ developers from <a href="http://www.doom9.org/">Doom9</a>.</p>
 <p><b>NB:</b> this project <b>doesn't offer any key or certificate</b> that could be used to decode
 encrypted copyrighted material.</p>
 
-<h2> Hello Slashdot !</h2>
-
-<p>Hello nice fellows of slashdot!</p>
-<p>I know it is not in the habits to RTFA, but still, before commenting on the legality of this library,
-   you should remember French law applies here...</p>
-
-
 <h2> Features </h2>
 
 <ul class="blue-bullet">
@@ -39,7 +32,10 @@ encrypted copyrighted material.</p>
 
 <p> <code>libaacs</code> is available through <a href="http://wiki.videolan.org/Git">Git</a> at:<br />
 <code>git clone git://git.videolan.org/libaacs.git</code>.</p>
-<p>You can browse the source code at  <a href="http://git.videolan.org/">git.videolan.org</a>.</p>
+<p>You can browse the source code at  <a href="http://git.videolan.org/?p=libaacs.git">git.videolan.org</a>.</p>
+
+<h2>Mailing list</h2>
+<p>You can discuss about libaacs on the <a href="http://mailman.videolan.org/listinfo/libaacs-devel">libaacs-devel mailing list</a>.</p>
 
 <h1>Légal</h1>
 <p><code>libaacs</code> est un projet de <b>recherche</b>, intégralement développé à partir de la

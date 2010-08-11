@@ -13,7 +13,7 @@ Summary           : Insufficient input validation in VLC TagLib plugin
 Date              : August 2011
 Affected versions : VLC media player versions 1.1.2 down to 0.9.0
 ID                : VideoLAN-SA-1004
-CVE reference     : N/A
+CVE reference     : CVE-2010-2937
 </pre>
 <h2>Details</h2>
 <p>VLC fails to perform sufficient input validation
@@ -71,8 +71,8 @@ from the corresponding official VLC source code repositories.
 <dd>Initial fix.</dd>
 <dt>11 August 2010</dt>
 <dd>Initial security advisory.</dd>
-<dd>Vendor patch for VLC 1.1.2 and 1.0.6 and development versions.
-</dd>
+<dd>Vendor patch for VLC 1.1.2 and 1.0.6 and development versions.</dd>
+<dd>CVE reference assigned.</dd>
 <dt>TBD</dt>
 <dd>VLC 1.1.3 release.</dd>
 </dl>

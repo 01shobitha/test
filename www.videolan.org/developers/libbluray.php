@@ -30,7 +30,7 @@ developers from <a href="http://www.doom9.org/">Doom9</a>.</p>
 <h2>Get libbluray</h2>
 
 <p> <code>libbluray</code> is available through <a href="http://wiki.videolan.org/Git">Git</a> at:<br />
-<code>git clone git://git.videolan.org/libbluray.git</code>.</p>
+<code>git clone git://git.videolan.org/libbluray.git</code></p>
 <p>You can browse the source code at  <a href="http://git.videolan.org/?p=libbluray.git">git.videolan.org</a>.</p>
 
 <h2>Mailing list</h2>

@@ -31,7 +31,7 @@ encrypted copyrighted material.</p>
 <h2>Get libaacs</h2>
 
 <p> <code>libaacs</code> is available through <a href="http://wiki.videolan.org/Git">Git</a> at:<br />
-<code>git clone git://git.videolan.org/libaacs.git</code>.</p>
+<code>git clone git://git.videolan.org/libaacs.git</code></p>
 <p>You can browse the source code at  <a href="http://git.videolan.org/?p=libaacs.git">git.videolan.org</a>.</p>
 
 <h2>Mailing list</h2>

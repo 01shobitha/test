@@ -46,7 +46,7 @@ Install <a href="http://download1.rpmfusion.org/free/fedora/rpmfusion-free-relea
 
 <br />
 <h1>VLC media player for (older) <a href="http://fedoraproject.org/">Fedora</a></h1>
-<p>Older version of Fedora are not supported anymore by the <a href="http://fedoraproject.org/">Fedora Project</a> (even for security bugfix).<br />
+<p>Older version of Fedora are not supported anymore by the <a href="http://fedoraproject.org/">Fedora Project</a> (even for security bugfix).</p><br />
 
 <h2>Fedora 8, 9, 10</h2>
 

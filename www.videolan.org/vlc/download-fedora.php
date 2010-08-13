@@ -44,10 +44,9 @@ Install <a href="http://download1.rpmfusion.org/free/fedora/rpmfusion-free-relea
     #> yum install mozilla-vlc (optionnal)
 </pre>
 
+<br />
 <h1>VLC media player for (older) <a href="http://fedoraproject.org/">Fedora</a></h1>
 <p>Older version of Fedora are not supported anymore by the <a href="http://fedoraproject.org/">Fedora Project</a> (even for security bugfix).<br />
-
-<b>BUT</b>, you can find VLC 0.8.6 for all the other flavours of fedora:</p>
 
 <h2>Fedora 8, 9, 10</h2>
 

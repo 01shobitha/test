@@ -17,11 +17,11 @@ You can also use this repository from distribution derived from <a href="http://
 <p>Please report "packaging bugs" on <a href="http://bugzilla.rpmfusion.org/">Bugzilla - RPM Fusion</a></p>
 
 
-<h2>Fedora 9 (Sulphur), Fedora 10 (Cambridge) and Fedora 11 (Leonidas) </h2>
+<h2>Fedora 11 (Leonidas), Fedora 12 (Constantine) and Fedora 13 (Goddard) </h2>
 
-<p>Use <a href="http://rpmfusion.org/Configuration/">RPM Fusion</a> for F9, F10 and F11 (available for x86, x86_64, ppc and ppc64)<br />
+<p>Use <a href="http://rpmfusion.org/Configuration/">RPM Fusion</a> for F11, F12 and F13 (available for x86, x86_64, ppc and ppc64)<br />
 
-Install <a href="http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm">rpmfusion-free-release-stable.noarch.rpm</a> for F9, F10 and F-11.</p>
+Install <a href="http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm">rpmfusion-free-release-stable.noarch.rpm</a> for F11, F12 and F13.</p>
 
 <pre>
     $> su -
@@ -49,11 +49,11 @@ Install <a href="http://download1.rpmfusion.org/free/fedora/rpmfusion-free-relea
 
 <b>BUT</b>, you can find VLC 0.8.6 for all the other flavours of fedora:</p>
 
-<h2>Fedora 8</h2>
+<h2>Fedora 8, 9, 10</h2>
 
-<p>Use <a href="http://rpmfusion.org/Configuration/">RPM Fusion</a> for F8 (available for x86, x86_64 and ppc)<br />
+<p>Use <a href="http://rpmfusion.org/Configuration/">RPM Fusion</a> for F8, F9 and F10 (available for x86, x86_64 and ppc)<br />
 
-Install <a href="http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm">rpmfusion-free-release-stable.noarch.rpm</a> for F8</p>
+Install <a href="http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm">rpmfusion-free-release-stable.noarch.rpm</a> for F8, F9 and F10</p>
 
 <pre>
     $> su -

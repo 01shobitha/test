@@ -10,7 +10,7 @@
 <h1>Security Advisory 1004</h1>
 <pre>
 Summary           : Insufficient input validation in VLC TagLib plugin
-Date              : August 2011
+Date              : August 2010
 Affected versions : VLC media player versions 1.1.2 down to 0.9.0
 ID                : VideoLAN-SA-1004
 CVE reference     : CVE-2010-2937

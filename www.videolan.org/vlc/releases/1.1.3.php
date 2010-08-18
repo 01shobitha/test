@@ -164,7 +164,7 @@ function DoDL2( $os, $with_js=1 )
 
 <div style="float:left; width: 48%;">
 <ul class="blue-bullet">
-<li>Taglib crash (CVE-2010-2937 / <a href="/security/">VideoLAN-SA-1004</a>)</li>
+<li>Taglib crash (CVE-2010-2937 / <a href="/security/sa1004.html">VideoLAN-SA-1004</a>)</li>
 <li>Fixes for FTP relative paths and directories</li>
 <li>Fixes for Podcast and DVD modules</li>
 <li>... and many other crashes and errors fixed</li>

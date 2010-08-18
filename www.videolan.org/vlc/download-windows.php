@@ -15,17 +15,17 @@
 
 <p>All mirrors include all the available languages.</p>
 
-<?php $vlc_version = '1.1.2'; ?>
+<?php $vlc_version = '1.1.3'; ?>
   <h2>Latest version - <?php echo $vlc_version; ?></h2>
 <p>This release only supports Windows 2000 (SP4+UR1), XP, Vista and 7. </p>
 
 <?php
     pkgitem_sf( "Windows self-extracting package",
-                   "$vlc_version/win32","vlc-$vlc_version-win32.exe","vlc", "", "a040d5820afc7fe23fb6a92758a9d455") ;
+                   "$vlc_version/win32","vlc-$vlc_version-win32.exe","vlc", "", "5466469f60441d61779ab049eebf4801") ;
     pkgitem_sf("Windows 7zip (No installer needed)",
-                  "$vlc_version/win32","vlc-$vlc_version-win32.7z","vlc", "", "5bb9fae45f823ec8f88d7958031f3f42" );
+                  "$vlc_version/win32","vlc-$vlc_version-win32.7z","vlc", "", "e001ffbd55e4c6a5bb49941ad852b3e2" );
     pkgitem_sf("Windows zip packages (No installer needed)",
-                  "$vlc_version/win32","vlc-$vlc_version-win32.zip","vlc", "", "5b0efaa0a748c49721232a67158b4778" );
+                  "$vlc_version/win32","vlc-$vlc_version-win32.zip","vlc", "", "0303588acfdb7e654b3f905abaa4848c" );
 ?>
 
 <br />

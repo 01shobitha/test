@@ -73,7 +73,7 @@ from the corresponding official VLC source code repositories.
 <dd>Initial security advisory.</dd>
 <dd>Vendor patch for VLC 1.1.2 and 1.0.6 and development versions.</dd>
 <dd>CVE reference assigned.</dd>
-<dt>TBD</dt>
+<dt>18 August 2010</dt>
 <dd>VLC 1.1.3 release.</dd>
 </dl>
 

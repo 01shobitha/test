@@ -172,7 +172,7 @@ function DoDL2( $os, $with_js=1 )
 
 <div style="float:left; width: 50%;">
 <ul class="blue-bullet">
-<li>Extensions and scrips updates</li>
+<li>Extensions and scripts updates</li>
 <li>Miscellaneous fixes in interfaces</li>
 <li>Updated translations</li>
 <li>Various crashes and errors fixed</li>

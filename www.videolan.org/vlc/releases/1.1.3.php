@@ -162,7 +162,7 @@ function DoDL2( $os, $with_js=1 )
 <h1>What's new in 1.1.3</h1>
 <p>A bit after the 1.1.2, we had to fix some important crashing bugs and you deserve a new release!</p>
 
-<div style="float:right; width: 48%;">
+<div style="float:left; width: 48%;">
 <ul class="blue-bullet">
 <li>Taglib crash (CVE-2010-2937 / <a href="/security/">VideoLAN-SA-1004</a>)</li>
 <li>Fixes for FTP relatives path and directories</li>
@@ -171,7 +171,7 @@ function DoDL2( $os, $with_js=1 )
 </ul>
 </div>
 
-<div style="float:left; width: 50%;">
+<div style="float:right; width: 50%;">
 <ul class="blue-bullet">
 <li>Extensions and scrips updates</li>
 <li>Miscellaneous fixes in interfaces</li>

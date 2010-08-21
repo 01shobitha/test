@@ -25,9 +25,12 @@ and a crash will ensure.
 <h2>Impact</h2>
 <p>In the failure case, VLC will dereference a memory address within
 the first page of its process virtual memory. In normal conditions,
-and on most operating systems, this will result in a segmentation fault
+this will result in a segmentation fault
 (a general protection fault on Windows), and the process will terminate
 abruptly.
+<strong>This vulnerability alone is not sufficient for an attacker to
+execute arbitraty code</strong> or otherwise alter the flow of execution
+other than to crash the process.
 </p>
 <p>In most usage scenarii, this will only cause user annoyance.
 </p>

@@ -34,7 +34,7 @@ pub   1024D/AC3E0879 2006-03-01
 <dl>
 <dt>VideoLAN-SA-1005 (CVE-2010-3124)</dt>
 <dd>DLL preloading vulnerability.
- <a href="sa1004.html">Details</a>
+ <a href="sa1005.html">Details</a>
 </dd>
 
 <dl>

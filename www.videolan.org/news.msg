@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|27 August 2010|VLC 1.1.4|VideoLAN and the VLC development team are proud to present VLC 1.1.4, the fourth bugfix release of the VLC 1.1.x branch.<br />An important class of security issues was discovered on Windows, and VLC and many other important applications on Windows are affected; see our <a href="/security/sa1005.html">security advisory</a>.<br />Source and Windows builds are available.<br />See the <a href="/vlc/releases/1.1.4.html">release notes</a> for more information.
+
 |18 August 2010|VLC 1.1.3|VideoLAN and the VLC development team are proud to present VLC 1.1.3, the third bugfix release of the VLC 1.1.x branch.<br />Some more bugs were squashed and a <a href="/security/sa1004.html">potential security issue</a> leading to a crash, was discovered. On top of that, this release introduces small fixes and improvements over VLC 1.1.2, for most platforms.<br />Source code and binaries for Windows and Mac (Intel) are available.<br />See the <a href="/vlc/releases/1.1.3.html">release notes</a> for more information.<br /><b>NB:</b> first Windows installer were corrupted, please use the updated ones.
 
 |10 August 2010|New project: libaacs|A new project is now hosted by VideoLAN: <a href="/developers/libaacs.html">libaacs</a>.<br /> Mostly made by developers from <a href="http://www.doom9.org">Doom9</a>, this <b>research</b> project implement the public <a href="http://www.aacsla.com/specifications/">AACS specification</a>.<br /> <b>NB:</b> libaacs is a research project and does not distribute any key.

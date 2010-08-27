@@ -168,6 +168,7 @@ Since security issues matters, here is a new release, targetted at Windows!</p>
 <div style="float:left; width: 48%;">
 <ul class="blue-bullet">
 <li>Windows Dll loading security issue, in Qt4 and dmo modules - <a href="/security/sa1005.html">VideoLAN-SA-1005</a>)</li>
+<li>Fix for folders opening issue on Windows</li>
 <li>Updated translations</li>
 </ul>
 </div>

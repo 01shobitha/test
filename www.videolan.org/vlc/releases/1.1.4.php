@@ -156,7 +156,7 @@ function DoDL2( $os, $with_js=1 )
 </div>
 
 <p>
-<a href="http://twitter.com/#search?q=vlc">Twitter</a> <a href="http://digg.com/software/VideoLAN_VLC_1.1.4_release">Digg it!</a>
+<a href="http://twitter.com/#search?q=vlc">Twitter</a> <a href="http://digg.com/news/technology/videolan_vlc_1_1_4_release">Digg it!</a>
 <a href="http://news.ycombinator.com/item?id=1638479">Hacker News</a> <a href="/">Reddit (not yet)</a>
 <a href="http://www.facebook.com/vlc.media.player">Facebook page</a> <a href="http://twitter.com/videolan">Twitter page</a>
 </p>
@@ -167,7 +167,7 @@ Since security issues matters, here is a new release, targetted at Windows!</p>
 
 <div style="float:left; width: 48%;">
 <ul class="blue-bullet">
-<li>Windows Dll loading security issue, in Qt4 and dmo modules - <a href="/security/sa1005.html">VideoLAN-SA-1005</a>)</li>
+<li>Windows Dll loading security issue, in Qt4 and dmo modules - <a href="/security/sa1005.html">VideoLAN-SA-1005</a></li>
 <li>Fix for folders opening issue on Windows</li>
 <li>Updated translations</li>
 </ul>

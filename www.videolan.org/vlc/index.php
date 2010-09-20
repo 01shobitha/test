@@ -178,6 +178,7 @@ libraries and build them yourself:</p>
       addos( "FreeBSD", "freebsd", "download-freebsd.html" );
       addos( "NetBSD", "netbsd", "download-sources.html" );
       addos( "OpenBSD", "openbsd", "download-sources.html" );
+      addos( "iOS", "ios", "download-ios.html" );
 ?>
   </ul>
 </div>

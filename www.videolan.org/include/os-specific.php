@@ -24,7 +24,7 @@
           "navigator.userAgent.indexOf(\"iPhone\") != -1 ||" .
           "( navigator.userAgent.indexOf(\"iPod\") != -1";
 
-    $is_osx = "(navigator.userAgent.indexOf(\"Mac OS X\") != -1 && $is_ios == -1) ||" .
+    $is_osx = "navigator.userAgent.indexOf(\"Mac OS X\") != -1 ||" .
           "navigator.userAgent.indexOf(\"MSIE 5.2\") != -1 ||" .
           "( navigator.userAgent.indexOf(\"Mac\")  &&" .
               "  navigator.userAgent.indexOf(\"Opera\") )";

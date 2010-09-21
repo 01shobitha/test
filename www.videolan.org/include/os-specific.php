@@ -42,6 +42,8 @@ function Screenshot( $os )
             "VLC on Linux", 300, 233 );
     $scr["OSX"] = array( "http://images.videolan.org/images/screenshots/vlc-osx.jpg" ,
             "VLC on Mac OS X", 300, 200 );
+    $scr["iOS"] = array( "http://images.videolan.org/images/screenshots/vlc-ios.jpg" ,
+            "VLC on Mac OS X", 300, 200 );
     echo "document.writeln('<img width=\"".$scr[$os][2]."\" height=\"".$scr[$os][3]."\" src=\"".$scr[$os][0]."\" alt=\"";
     echo $scr[$os][1]."\" />');";
 }

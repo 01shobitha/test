@@ -75,6 +75,8 @@ motto( "VideoLAN: Free Multimedia Solutions", $array_motto ); ?>
             { <?php Screenshot( "BeOS" ); ?> }
             else if( <?php echo $is_linux; ?> )
             { <?php Screenshot( "Linux" ); ?> }
+            else if( <?php echo $is_ios; ?> )
+            { <?php Screenshot( "iOS" ); ?> }
             else if( <?php echo $is_osx; ?> )
             { <?php Screenshot( "OSX" ); ?> }
             else

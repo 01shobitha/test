@@ -139,6 +139,7 @@ function addos( $name, $class, $url, $bold=false )
       <ul class="os">
 <?php
       addos( "Syllable", "syllable", "download-syllable.html" );
+      addos( "iOS", "ios", "download-ios.html" );
       //addos( "WinCE / PocketPC", "wince", "download-wince.html" );
 ?>
       </ul>
@@ -179,7 +180,6 @@ libraries and build them yourself:</p>
       addos( "FreeBSD", "freebsd", "download-freebsd.html" );
       addos( "NetBSD", "netbsd", "download-sources.html" );
       addos( "OpenBSD", "openbsd", "download-sources.html" );
-      addos( "iOS", "ios", "download-ios.html" );
 ?>
   </ul>
 </div>

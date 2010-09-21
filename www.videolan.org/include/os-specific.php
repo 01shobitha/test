@@ -20,10 +20,6 @@
     $is_freebsd = " navigator.userAgent.indexOf(\"freebsd\") != -1 ".
          "|| navigator.userAgent.indexOf(\"FreeBSD\") != -1" ;
 
-    $is_ios = "navigator.userAgent.indexOf(\"iPad\") != -1  ||" .
-          "navigator.userAgent.indexOf(\"iPhone\") != -1 ||" .
-          "( navigator.userAgent.indexOf(\"iPod\") != -1";
-
     $is_osx = "navigator.userAgent.indexOf(\"Mac OS X\") != -1 ||" .
           "navigator.userAgent.indexOf(\"MSIE 5.2\") != -1 ||" .
           "( navigator.userAgent.indexOf(\"Mac\")  &&" .
@@ -53,7 +49,6 @@ function DoDL( $os, $with_js=1 )
     $version_mac = '1.1.3';
     $version_back = '1.0.5';
     $dl["Win32"] = array("http://sourceforge.net/projects/vlc/files/$version/win32/vlc-$version-win32.exe/download", "Windows, 18&nbsp;MB" );
-    $dl["iOS"] = array( "http://itunes.apple.com/app/vlc-media-player/id390885556?mt=8","iOS 3.2 or later, 9&nbsp;MB" );
     $dl["OSX-Intel"] = array( "http://sourceforge.net/projects/vlc/files/$version_mac/macosx/vlc-$version_mac.dmg/download","Mac OS X 10.5 or later, 40&nbsp;MB" );
     $dl["OSX-PPC"] = array("/mirror-geo.php?file=vlc/$version_back/macosx/vlc-$version_back-powerpc.dmg", "Mac OS X 10.5 (PowerPC), 19&nbsp;MB" );
     $dl["Linux"] =array("/vlc/", "Linux and other OSes" );

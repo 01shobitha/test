@@ -109,7 +109,6 @@ motto( "VideoLAN: Free Multimedia Solutions", $array_motto ); ?>
                   else { <?php DoDL("Linux"); ?> }
                 }
                 else if( <?php echo $is_freebsd; ?> ) { <?php DoDL("FreeBSD"); ?> }
-                else if( <?php echo $is_ios; ?> ) { <?php DoDL("iOS"); ?> }
                 else if( <?php echo $is_osx; ?> )
                 {
                   if( <?php echo $is_ppc; ?> ) { <?php DoDL("OSX-PPC"); ?> }

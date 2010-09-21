@@ -15,7 +15,7 @@
 <h2> Source </h2>
 
 <p> You can find the source here:</p>
-<code>http://download.videolan.org/pub/videolan/testing/vlc-iOS/vlc-iOS-1.0.0-sources.zip</code>
+<code><a href="http://download.videolan.org/pub/videolan/testing/vlc-iOS/vlc-iOS-1.0.0-sources.zip">http://download.videolan.org/pub/videolan/testing/vlc-iOS/vlc-iOS-1.0.0-sources.zip</a></code>
 
 <h2> Binaries </h2>
 

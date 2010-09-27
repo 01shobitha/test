@@ -66,7 +66,7 @@ $(ROOT)/countries.css: $(ROOT)/include/mirrors $(ROOT)Makefile
 
 videolan-news.rss: news.html
 	@echo "Processing videolan-news.rss ..."
-	xsltproc --stringparam Base "http://www.videolan.org/" --stringparam Channel "http://www.videolan.org/videolan-news.rss" --stringparam Page "http://www.videolan.org/news.html" ~/etc/html2rss.xsl news.html >! videolan-news.rss
+	xsltproc --stringparam Base "http://www.videolan.org/" --stringparam Page "http://www.videolan.org/news.html" ~/etc/html2rss.xsl news.html >! videolan-news.rss
 
 .PHONY: clean all
 

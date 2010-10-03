@@ -22,7 +22,7 @@ In Settings -&gt; Repositories, make sure you have an
 </p>
 
 <p>Search for <kbd>vlc</kbd> and install it.
-You should install <kbd>vlc-plugin-pulse<kbd>
+You should install <kbd>vlc-plugin-pulse</kbd>
  and <kbd>mozilla-plugin-vlc</kbd> as well.</p>
 <p>If you are interested in streaming or transcoding,
 you should additionnally install <kbd>libavcodec-extra-52</kbd>

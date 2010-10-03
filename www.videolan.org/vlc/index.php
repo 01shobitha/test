@@ -9,6 +9,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
 ?>
+
 <!--[if IE]>
 <div id="ieShadow"></div>
 <script type="text/javascript" language="javascript">
@@ -152,19 +153,19 @@ function addos( $name, $class, $url, $bold=false )
       <ul class="os">
       <?php
       addos( "Debian GNU/Linux", "debian", "download-debian.html" );
-      addos( "Ubuntu", "ubuntu", "download-ubuntu.html" );
-      addos( "Mandriva Linux", "mandrake", "download-mandriva.html" );
-      addos( "Fedora", "fedora", "download-fedora.html" );
       addos( "openSUSE", "suse", "download-suse.html" );
+      addos( "Mandriva Linux", "mandrake", "download-mandriva.html" );
+      addos( "Arch Linux", "archlinux", "download-archlinux.html" );
+      addos( "Slackware Linux", "slackware", "download-slackware.html" );
      ?>
      </ul>
     </div><div class="os2">
     <ul class="os">
     <?php
+      addos( "Ubuntu", "ubuntu", "download-ubuntu.html" );
+      addos( "Fedora", "fedora", "download-fedora.html" );
       addos( "Red Hat Enterprise Linux", "redhat", "download-redhat.html" );
-      addos( "Slackware Linux", "slackware", "download-slackware.html" );
       addos( "ALT Linux", "altlinux", "download-altlinux.html" );
-      addos( "Arch Linux", "archlinux", "download-archlinux.html" );
     ?>
     </ul></div>
 

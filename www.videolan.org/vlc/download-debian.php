@@ -11,13 +11,14 @@
 
 <h2> Debian stable (lenny) </h2>
 
-<p> VLC is available in lenny, with a quite old version. Install
-vlc, mozilla-plugin-vlc, the usual way you do it. </p>
+<p> VLC is available in lenny, with a quite old version.<br />
+Install vlc, mozilla-plugin-vlc, the usual way you do it. </p>
+
 
 <h2> Debian testing (squeeze) </h2>
 
-<p> VLC is potentially available in testing. But due to the way testing works,
- we can't guarantee which version, if any, is currently available. Install
+<p> VLC is in testing.<br />
+ But due to the way testing works, we can't guarantee if the latest version is available.<br /> Install
 vlc, mozilla-plugin-vlc, the usual way you do it. </p>
 
 

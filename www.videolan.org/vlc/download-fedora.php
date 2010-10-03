@@ -45,10 +45,10 @@ Install <a href="http://download1.rpmfusion.org/free/fedora/rpmfusion-free-relea
 </pre>
 
 <br />
-<h1>VLC media player for (older) <a href="http://fedoraproject.org/">Fedora</a></h1>
-<p>Older version of Fedora are not supported anymore by the <a href="http://fedoraproject.org/">Fedora Project</a> (even for security bugfix).</p><br />
+<h2>VLC media player for (older) <a href="http://fedoraproject.org/">Fedora</a></h2>
+<p><strong>Older version of Fedora are not supported anymore by the <a href="http://fedoraproject.org/">Fedora Project</a> (even for security bugfix).</strong></p>
 
-<h2>Fedora 8, 9, 10</h2>
+<h3>Fedora 8, 9, 10</h3>
 
 <p>Use <a href="http://rpmfusion.org/Configuration/">RPM Fusion</a> for F8, F9 and F10 (available for x86, x86_64 and ppc)<br />
 
@@ -61,7 +61,7 @@ Install <a href="http://download1.rpmfusion.org/free/fedora/rpmfusion-free-relea
     #> yum install python-vlc mozilla-vlc (optionnals)
 </pre>
 
-<h2>Fedora 7</h2>
+<h3>Fedora 7</h3>
 
 <p>Use <a href="http://rpm.livna.org/">RPM - LIVNA</a> for F7 (available for x86, x86_64 and ppc)<br />
 
@@ -74,7 +74,7 @@ Install <a href="http://rpm.livna.org/livna-release-7.rpm">livna-release-7.rpm</
     #> yum install python-vlc mozilla-vlc (optionnal)
 </pre>
 
-<h2>Fedora Core 6</h2>
+<h3>Fedora Core 6</h3>
 
 <p>Use <a href="http://rpm.livna.org/">RPM - LIVNA</a> for F6 (available for x86, x86_64 and ppc)<br />
 
@@ -87,14 +87,14 @@ Install <a href="http://rpm.livna.org/livna-release-6.rpm">livna-release-6.rpm</
     #> yum install python-vlc mozilla-vlc (optionnal)
 </pre>
 
-<h2>Fedora Core 4 and 5</h2>
+<h3>Fedora Core 4 and 5</h3>
 <p>For those two versions, VLC 0.8.6 is not available. You can have 0.8.5 here 
 for FC 4 and 5 on <a href="http://freshrpms.net">FreshRPMs</a>.</p>
 
-<h2>Fedora Core 1, 2 and 3</h2>
+<h3>Fedora Core 1, 2 and 3</h3>
 <p>Use <a href="http://dag.wieers.com/rpm/packages/vlc/">Dag wieers</a> to have 0.8.6 for those old versions!</p>
 
-<h2>Other versions - Search</h2>
+<h3>Other versions - Search</h3>
 <p>Use <a href="http://rpm.pbone.net/">PBone.net</a> to search a lot of other versions of VLC for fedora or fedora compatible distributions.</p>
 
 <?php 

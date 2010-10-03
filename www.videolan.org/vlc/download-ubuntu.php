@@ -15,10 +15,12 @@
 <h2>Ubuntu Maverick Meerkat 10.10</h2>
 
 <h3>Graphical way</h3>
-<p>Open Synaptic (System -&gt; Administration -&gt; Synaptic Package Manager).
+<p>Open Synaptic application<br />
+Click on System -&gt; Administration -&gt; Synaptic Package Manager.<br />
 In Settings -&gt; Repositories, make sure you have an
 <code>universe</code> repository activated.
 </p>
+
 <p>Search for <kbd>vlc</kbd> and install it.
 You should install <kbd>vlc-plugin-pulse<kbd>
  and <kbd>mozilla-plugin-vlc</kbd> as well.</p>

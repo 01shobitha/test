@@ -126,7 +126,7 @@ function addos( $name, $class, $url, $bold=false )
 
   <h2>Get VLC now!</h2>
 
-  <h3>Binaries</h3>
+  <h3>Operating Systems with Binaries</h3>
     <p>Select your operating system to download VLC binaries:</p>
 
     <div class="os1">

@@ -20,12 +20,11 @@ In Settings -&gt; Repositories, make sure you have an
 <code>universe</code> repository activated.
 </p>
 <p>Search for <kbd>vlc</kbd> and install it.
-You should install <kbd>vlc-plugin-pulse/<kbd>
+You should install <kbd>vlc-plugin-pulse<kbd>
  and <kbd>mozilla-plugin-vlc</kbd> as well.</p>
 <p>If you are interested in streaming or transcoding,
 you should additionnally install <kbd>libavcodec-extra-52</kbd>
-from a <code>multiverse</code> repository.
-</p>
+from a <code>multiverse</code> repository.</p>
 
 <h3>Command line way</h3>
 <p>You need to check that a <code>universe</code> mirror is listed
@@ -40,14 +39,26 @@ in your <code>/etc/apt/sources.list</code> file.
 
 <h2>Ubuntu Lucid Lynx 10.04 LTS</h2>
 <p><strong>VLC version 1.0.6 in Ubuntu 10.04 is out-of-date.</strong>
-We recommend you install VLC 1.1.x manually.
-If you wish to install VLC 1.0.6 anyway,
+We recommend you install VLC 1.1.x manually.</p>
+<p>If you wish to install VLC 1.0.6 anyway,
 please refer to the instructions above for Ubuntu 10.10.
 Note that there will be some bugs; you are on your own.
 </p>
 
-<h2>Ubunty Karmic Koala 9.10,
-<br/>Ubuntu Jaunty Jackalope 9.04,
+<p>
+<strong>At your OWN risks, install VLC from PPA:</strong>
+</p>
+<h3>Command line way</h3>
+<blockquote>
+<pre>
+% sudo add-apt-repository ppa:lucid-bleed/ppa
+% sudo apt-get update
+% sudo apt-get install vlc vlc-plugin-pulse mozilla-plugin-vlc
+</pre>
+</blockquote>
+
+<h2>Ubunty Karmic Koala 9.10
+<br/>Ubuntu Jaunty Jackalope 9.04
 <br/>Ubuntu Hardy Heron LTS 8.04</h2>
 
 <p><strong>VLC 1.0.2 in Ubuntu 9.10 has known security issues,

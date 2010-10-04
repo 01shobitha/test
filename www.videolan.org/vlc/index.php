@@ -59,15 +59,14 @@ motto( "VLC: open-source multimedia framework, player and server", $array_motto 
 		</p>
 		<h1>"It plays everything!"</h1>
 		<p>
-		The media player that fills all your needs. It can handle DVDs, (S)VCDs, Audio CDs, web streams, TV cards and much more.		
+		The media player that fulfills all your needs. It handles DVDs, (S)VCDs, Audio CDs, web streams, TV cards and much more.		
 		</p>
 		<p>
-		You don't need to keep track of a dozen codec packs you need to have installed. VLC has all codecs built-in.
-		It comes with support for nearly all codec there is.
+		With VLC, there is no need to continually update many different codec packs. VLC comes with nearly every codec built in!
 		</p>
 		<p>
-		And what is more it can even play back the file or media if it is damaged! Missing or broken pieces are no stop to VLC,
-		it plays all the video and audio information that's still intact.
+        And whats more, VLC can play back your files, even if the media is damaged! Missing or broken pieces wont stop VLC.
+        All the video and audio information that remains can be played.
 		</p>
 		<p>
 			<a href="features.html">View all supported formats.</a>

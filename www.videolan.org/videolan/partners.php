@@ -78,22 +78,6 @@ cooperation of our partners, on both technical and financial sides: </p>
     </td>
   </tr>
 
-  <tr><td colspan="2"><h2> Uniways </h2></td></tr>
-  <tr>
-    <td>
-        <p class="center"><a href="http://uniways.fr/"><img
-        src="http://images.videolan.org/images/partners/uniways.png" width="150" alt="Uniways" height="88" /></a></p>
-    </td>
-    <td>
-
-    <p><a href="http://uniways.fr/">Uniways</a> is a leading company in
-        videosurveillance systems. They use VLC media player in some products
-        to send camera video to mobile devices.<br/>
-        They helped us porting VLC media player to Windows Mobile and sponsored our first DevDays in 2008.
-    </p>
-    </td>
-  </tr>
-
   <tr><td colspan="2"><h2>Gandi</h2></td></tr>
   <tr>
     <td>
@@ -113,6 +97,25 @@ cooperation of our partners, on both technical and financial sides: </p>
 
   </tr>
 
+  <tr><td colspan="2"><h2> Puget Systems </h2></td></tr>
+  <tr>
+    <td>
+        <p class="center"><a href="http://www.pugetsystems.com/"><img
+        src="http://images.videolan.org/images/partners/puget.jpg" width="150" alt="Uniways" height="88" /></a></p>
+    </td>
+    <td>
+
+    <p><a href="http://www.pugetsystems.com/">Puget Systems</a> donated an <a href="http://www.pugetsystems.com/nav/echo/II/customize.php">Echo II</a>
+       to the project to aid in development of GPU acceleration on Intel graphics.<br />
+       Puget Systems is well known for their <a href="http://www.pugetsystems.com/quiet.php">quiet computers</a>, exceptional <a href="http://www.pugetsystems.com/feedback.php">customer service</a>,
+       and the ever popular <a href="http://www.pugetsystems.com/aquarium-computer.php">Aquarium Computer</a>.
+       They offer custom built computers from <a href="http://www.pugetsystems.com/gaming.php">gaming</a> and <a href="http://www.pugetsystems.com/desktop.php">desktop</a>,
+       to <a href="http://www.pugetsystems.com/liquid.php">liquid cooled</a> and <a href=3D"http://www.pugetsystems.com/go/trading.php">trading computers</a>.
+    </p>
+    </td>
+  </tr>
+
+
   <tr><td colspan="2"><h2> Epitech </h2></td></tr>
   <tr>
     <td>
@@ -126,6 +129,22 @@ cooperation of our partners, on both technical and financial sides: </p>
     in France and has seeded many very innovative companies.</p>
     <p>
        Epitech hosted and sponsored our second DevDays in December 2009.
+    </p>
+    </td>
+  </tr>
+
+  <tr><td colspan="2"><h2> Uniways </h2></td></tr>
+  <tr>
+    <td>
+        <p class="center"><a href="http://uniways.fr/"><img
+        src="http://images.videolan.org/images/partners/uniways.png" width="150" alt="Uniways" height="88" /></a></p>
+    </td>
+    <td>
+
+    <p><a href="http://uniways.fr/">Uniways</a> is a leading company in
+        videosurveillance systems. They use VLC media player in some products
+        to send camera video to mobile devices.<br/>
+        They helped us porting VLC media player to Windows Mobile and sponsored our first DevDays in 2008.
     </p>
     </td>
   </tr>

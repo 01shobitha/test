@@ -101,7 +101,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   <tr>
     <td>
         <p class="center"><a href="http://www.pugetsystems.com/"><img
-        src="http://images.videolan.org/images/partners/puget.jpg" width="150" alt="Uniways" height="88" /></a></p>
+        src="http://images.videolan.org/images/partners/puget.jpg" width="189" alt="Puget" height="88" /></a></p>
     </td>
     <td>
 
@@ -110,7 +110,7 @@ cooperation of our partners, on both technical and financial sides: </p>
        Puget Systems is well known for their <a href="http://www.pugetsystems.com/quiet.php">quiet computers</a>, exceptional <a href="http://www.pugetsystems.com/feedback.php">customer service</a>,
        and the ever popular <a href="http://www.pugetsystems.com/aquarium-computer.php">Aquarium Computer</a>.
        They offer custom built computers from <a href="http://www.pugetsystems.com/gaming.php">gaming</a> and <a href="http://www.pugetsystems.com/desktop.php">desktop</a>,
-       to <a href="http://www.pugetsystems.com/liquid.php">liquid cooled</a> and <a href=3D"http://www.pugetsystems.com/go/trading.php">trading computers</a>.
+       to <a href="http://www.pugetsystems.com/liquid.php">liquid cooled</a> and <a href="http://www.pugetsystems.com/go/trading.php">trading computers</a>.
     </p>
     </td>
   </tr>

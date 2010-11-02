@@ -9,15 +9,15 @@
 
 <h1>Security Advisory 1006</h1>
 <pre>
-Summary           : Stack smashing in SAMBA access
+Summary           : Stack smashing in Samba access
 Date              : November 2010
 Affected versions : VLC media player for Windows, versions up to 1.1.4
 ID                : VideoLAN-SA-1006
 CVE reference     : N/A
 </pre>
 <h2>Details</h2>
-<p>Due to a mistake in calling convention declaration, VLC suffers from
-a stack smashing attack in the SAMBA network share access module.
+<p>Due to a mistake in the declaration of Windows calling conventions,
+VLC suffers from a stack smashing attack in the Samba network share access module.
 </p>
 <h2>Impact</h2>
 <p>If successful, the exploit can execute arbitrary code within the
@@ -25,8 +25,8 @@ context of VLC media player.
 </p>
 <h2>Workarounds</h2>
 <p>The user should refrain from opening files from untrusted third
-parties or accessing untrusted remote sites (network shares, USB keys).
-You can also delete the faulty file at 
+parties or accessing untrusted remote sites (network shares, USB keys).<br />
+The problem can also be prevented by deleting the faulty file at 
 C:\Program Files\VideoLAN\VLC\plugins\libaccess_smb_plugin.dll
 until the patch is applied.
 </p>

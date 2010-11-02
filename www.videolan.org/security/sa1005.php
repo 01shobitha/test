@@ -67,7 +67,7 @@ An exploit was posted on exploit-db by Vinay Katoch.
 <dt>26 August 2010</dt>
 <dd>Initial security advisory.</dd>
 <dd>CVE reference assigned.</dd>
-<dt>Upcoming</dt>
+<dt>27 August 2010</dt>
 <dd>VLC 1.1.4 release.</dd>
 </dl>
 

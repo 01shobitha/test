@@ -17,16 +17,15 @@
 
 <h2> Binaries </h2>
 
-<p> VLC is available on <a href="http://itunes.apple.com/app/vlc-media-player/id390885556">Apple's App Store</a>. </p>
-
-<p> Additionally, you can find the binary here:</p>
-<code><a href="http://download.videolan.org/pub/videolan/testing/vlc-iOS/vlc-iOS-1.0.0-zip">http://download.videolan.org/pub/videolan/testing/vlc-iOS/vlc-iOS-1.0.0-zip</a></code>
+<p> You can find the binary here:</p>
+<code><a href="http://download.videolan.org/pub/videolan/testing/vlc-iOS/1.1.0/vlc-iOS-1.1.0-zip">vlc-iOS-1.1.0-zip</a></code>
 
 
 <h2> Source </h2>
 
 <p> You can find the source here:</p>
-<code><a href="http://download.videolan.org/pub/videolan/testing/vlc-iOS/vlc-iOS-1.0.0-sources.zip">http://download.videolan.org/pub/videolan/testing/vlc-iOS/vlc-iOS-1.0.0-sources.zip</a></code>
+<code><a href="http://download.videolan.org/pub/videolan/testing/vlc-iOS/1.1.0/VLC-1.1.0-iOS.tar.bz2">VLC-iOS-1.1.0-sources</a></code>
+<code><a href="http://download.videolan.org/pub/videolan/testing/vlc-iOS/1.1.0/MediaLibraryKit-1.1.0.zip">MediaLibraryKit-1.1.0-sources</a></code>
 
 
 

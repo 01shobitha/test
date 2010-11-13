@@ -12,11 +12,11 @@
 <div id="left">
 <h2>Tarballs</h2>
 
-<p> Latest VLC source code tarball (1.1.4): </p>
+<p> Latest VLC source code tarball (1.1.5): </p>
 
 <ul class="bullets">
 
-<li><a href="http://sourceforge.net/projects/vlc/files/1.1.4/vlc-1.1.4.tar.bz2/download">VLC source code tar.bz2</a>
+<li><a href="http://sourceforge.net/projects/vlc/files/1.1.5/vlc-1.1.5.tar.bz2/download">VLC source code tar.bz2</a>
 <?php /* pkgitem_nomirr("VLC source code tar.bz2", "1.1.0","vlc-1.1.0.tar.bz2","vlc");*/ ?></li>
 </ul>
 
@@ -29,7 +29,7 @@
 <li><?php     pkgitem_nomirr("faac 1.24", "0.8.5/contrib","faac-1.24.tar.bz2","vlc","(AAC audio encoder)");?></li>
 <li><?php     pkgitem_nomirr("faad2", "0.8.5/contrib","faad2-20040923.tar.bz2","vlc","(AAC audio codec)");?></li>
 <li><?php     pkgitem_nomirr("ffmpeg 2005/11/26", "0.8.5/contrib","ffmpeg-20051126.tar.bz2", "vlc","(MPEG-4 and other video codecs)");?></li>
-<li><?php     pkgitem_nomirr("flac 1.1.4", "0.8.5/contrib","flac-1.1.4.tar.gz","vlc","(FLAC audio codec)");?></li>
+<li><?php     pkgitem_nomirr("flac 1.1.5", "0.8.5/contrib","flac-1.1.5.tar.gz","vlc","(FLAC audio codec)");?></li>
 <li><?php     pkgitem_nomirr("freetype 2.1.9", "0.8.5/contrib","freetype-2.1.9.tar.bz2","vlc","(Font engine)");?></li>
 <li><?php     pkgitem_nomirr("fribidi 0.10.4", "0.8.5/contrib","fribidi-0.10.4.tar.bz2","vlc","(Hebrew and arabic languages support library)");?></li>
 <li><?php     pkgitem_nomirr("gettext 0.14.1", "0.8.5/contrib","gettext-0.14.1.tar.gz","vlc","(Internationalization library)");?></li>
@@ -47,7 +47,7 @@
 <li><?php     pkgitem_nomirr("libmad 0.15.1b", "0.8.5/contrib","libmad-0.15.1b.tar.gz","vlc","(MP3 audio decoder)");?></li>
 <li><?php     pkgitem_nomirr("libmatroska 0.7.6", "0.8.5/contrib","libmatroska-0.7.6.tar.bz2","vlc","(A open source container format)");?></li>
 <li><?php     pkgitem_nomirr("libmodplug 0.7", "0.8.5/contrib","libmodplug-0.7.tar.gz","vlc","(A MOD demux and decoder)");?></li>
-<li><?php     pkgitem_nomirr("libogg 1.1.4", "0.8.5/contrib","libogg-1.1.4.tar.gz","vlc","(Ogg library)");?></li>
+<li><?php     pkgitem_nomirr("libogg 1.1.5", "0.8.5/contrib","libogg-1.1.5.tar.gz","vlc","(Ogg library)");?></li>
 <li><?php     pkgitem_nomirr("libpng 1.2.5", "0.8.5/contrib","libpng-1.2.5.tar.bz2","vlc","(PNG image library)");?></li>
 <li><?php     pkgitem_nomirr("libspeex 1.1.10", "0.8.5/contrib","libspeex-1.1.10.tar.gz","vlc","(Speex audio decoder)");?></li>
 <li><?php     pkgitem_nomirr("libtheora 1.0alpha5", "0.8.5/contrib","libtheora-1.0alpha5.tar.bz2","vlc","(Theora video codec)");?></li>

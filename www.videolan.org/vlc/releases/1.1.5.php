@@ -42,7 +42,7 @@ function DoDL2( $os, $with_js=1 )
 ?>
 
 <div id="mainbox" style="overflow: hidden; padding-bottom: 0px; ">
-<div style="margin: 0 auto;">
+<div style="margin: 0 auto; text-align: center;">
 <div style="text-shadow: 0px 3px 4px #666666; color:#333333; font-family: Helvetica, Arial, sans-serif; font-size:40px; font-weight:bold; margin: 20px;">VLC 1.1.5</div>
 <h2 style="text-shadow: 0px 1px 1px #666666">The luggage</h2>
 </div>
@@ -69,7 +69,7 @@ function DoDL2( $os, $with_js=1 )
       <td id="project_desc">
         <div class="panel" id="panel-vlc" style="display:block;">
           <div class="left">
-            <center>
+            <div style="margin: 0 auto; text-align: center;">
               <div style="margin: 20px 0 20px 20px; padding: 20px 0 30px 0px; ">
                 <span style="padding-bottom: 60px; font-size:18px; font-weight: bold; line-height:19px;">The <b>new</b> cone. Always&nbsp;easy. Better.</span> </div>
               <div style="border: 0px red solid; margin: 0 auto; font-size: 21px; width: 13em;">
@@ -109,7 +109,7 @@ function DoDL2( $os, $with_js=1 )
                   </noscript>
                  <div class="dl-other"><a href="/vlc/">Other Systems, Versions</a></div>
               </div>
-            </center>
+            </div>
           </div> <!-- left -->
 
           <div class="right" style="text-align: right; color: #666;">

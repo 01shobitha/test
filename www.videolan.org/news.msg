@@ -325,7 +325,7 @@ This is a bugfix release. VLC media player 0.8.6d and earlier versions suffer fr
 The full list of changes can be found <a href="http://wiki.videolan.org/Changelog/0.8.6c">here</a>.<br />We strongly recommend all users to update to this
 new version.
 
-|13 June 2007| VideoLAN won a Lut&egrave;ce d'or | VideoLAN was awarded a Lutèce d'Or during the latest <a href="http://www.paris-libre.org/">Paris Capitale du Libre</a> event, a technology event aimed to recognize achievements in open source development.<br /> VideoLAN received "The best Free Software development" prize for VLC media player, one year after the <a href="http://www.mozilla.org">Mozilla Foundation</a> received it for <a href="http://www.mozilla.org/firefox">Firefox</a>.
+|13 June 2007| VideoLAN won a Lutèce d'or | VideoLAN was awarded a Lutèce d'Or during the latest <a href="http://www.paris-libre.org/">Paris Capitale du Libre</a> event, a technology event aimed to recognize achievements in open source development.<br /> VideoLAN received "The best Free Software development" prize for VLC media player, one year after the <a href="http://www.mozilla.org">Mozilla Foundation</a> received it for <a href="http://www.mozilla.org/firefox">Firefox</a>.
 
 |24 April 2007| Windows Binaries for VLC 0.8.6b updated | The VLC 0.8.6b Windows binaries seemed to have a few problems with Unicode support and H.264 encoding.<br /> These issues have been fixed on our main FTP and our mirrors will follow soon.<br /> Sorry for the disturbance.
 

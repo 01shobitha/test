@@ -64,9 +64,9 @@ $(ROOT)/countries.css: $(ROOT)/include/mirrors $(ROOT)Makefile
 	rm -f $@
 	awk -F '|' '!/^#/ { print $$4; }' $<|sort|uniq|awk '{ print "#maincontent table td."$$1; print " { padding-left:2em; background: url(http://images.videolan.org/images/flags/"$$1".png) left no-repeat; }" }' >> $@
 
-videolan-news.rss: news.html
+videolan-news.rss: news.msg news-rss.html
 	@echo "Processing videolan-news.rss ..."
-	xsltproc --stringparam Base "http://www.videolan.org/" --stringparam Page "http://www.videolan.org/news.html" ~/etc/html2rss.xsl news.html >! videolan-news.rss
+	cp -f news-rss.html videolan-news.rss
 
 .PHONY: clean all
 

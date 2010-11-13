@@ -8,7 +8,7 @@
 
   //Setting the channel elements
   //Use wrapper functions for common channel elements
-  $TestFeed->setTitle('VideoLAN Open Multimedia project feed');
+  $TestFeed->setTitle('VideoLAN project - News feed');
   $TestFeed->setLink('http://www.videolan.org/news.rss');
   $TestFeed->setDescription('This is the main new feed from the VideoLAN project');
 

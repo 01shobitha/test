@@ -183,7 +183,7 @@ function DoDL2( $os, $with_js=1 )
 </div>
 <div style="clear: both;"></div>
 
-<h1>What's new in 1.1.4</h1>
+<h1>What was new in 1.1.4</h1>
 <p>A bit after the 1.1.3, an important security issue was discovery in
 <a href="http://www.corelan.be:8800/index.php/2010/08/25/dll-hijacking-kb-2269637-the-unofficial-list/">most windows applications</a>, and VLC is affected too.
 Since security issues matters, here is a new release, targeted for the Windows platform!</p>
@@ -198,7 +198,7 @@ Since security issues matters, here is a new release, targeted for the Windows p
 
 <div style="clear: both;"></div>
 
-<h1>What's new in 1.1.3</h1>
+<h1>What was new in 1.1.3</h1>
 <p>A bit after the 1.1.2, we had to fix some important crashing bugs and you deserve a new release!</p>
 
 <div style="float:left; width: 48%;">
@@ -219,7 +219,7 @@ Since security issues matters, here is a new release, targeted for the Windows p
 </div>
 <div style="clear: both;"></div>
 
-<h1>What's new in 1.1.2</h1>
+<h1>What was new in 1.1.2</h1>
 <p>Quite soon after the 1.1.1, we were able to squash more annoying bugs, hence a new release for you!</p>
 
 <div style="float:right; width: 48%;">

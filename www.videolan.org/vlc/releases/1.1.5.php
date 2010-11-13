@@ -181,7 +181,7 @@ function DoDL2( $os, $with_js=1 )
 <li>Codecs updates</li>
 </ul>
 </div>
-<div style="clear: both;" />
+<div style="clear: both;"></div>
 
 <h1>What's new in 1.1.4</h1>
 <p>A bit after the 1.1.3, an important security issue was discovery in
@@ -196,7 +196,7 @@ Since security issues matters, here is a new release, targeted for the Windows p
 </ul>
 </div>
 
-<div style="clear: both;" />
+<div style="clear: both;"></div>
 
 <h1>What's new in 1.1.3</h1>
 <p>A bit after the 1.1.2, we had to fix some important crashing bugs and you deserve a new release!</p>
@@ -217,7 +217,7 @@ Since security issues matters, here is a new release, targeted for the Windows p
 <li>Updated translations</li>
 </ul>
 </div>
-<div style="clear: both;" />
+<div style="clear: both;"></div>
 
 <h1>What's new in 1.1.2</h1>
 <p>Quite soon after the 1.1.1, we were able to squash more annoying bugs, hence a new release for you!</p>
@@ -238,7 +238,7 @@ Since security issues matters, here is a new release, targeted for the Windows p
 <li>Various crashes and errors fixed</li>
 </ul>
 </div>
-<div style="clear: both;" />
+<div style="clear: both;"></div>
 <h1>What was new in 1.1.1</h1>
 <p>After more than 17million downloads of VLC 1.1.0 in one month, <br />
 this is a release focused on numerous fixes and small improvements:</p>
@@ -258,7 +258,7 @@ this is a release focused on numerous fixes and small improvements:</p>
 <li>Updated translations</li>
 </ul>
 </div>
-<div style="clear: both;" />
+<div style="clear: both;"></div>
 
 <h1>What's new in all 1.1.x releases?</h1>
 
@@ -323,7 +323,7 @@ New add-ons and script framework so one can personalize its vlc.
 </ul>
 </div>
 
-<div style="clear:both;"></div>
+<div style="clear: both;"></div>
 
 <h1></h1>
 <h2>Complete Changelog</h2>

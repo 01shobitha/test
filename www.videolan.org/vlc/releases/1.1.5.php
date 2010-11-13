@@ -42,11 +42,11 @@ function DoDL2( $os, $with_js=1 )
 ?>
 
 <div id="mainbox" style="overflow: hidden; padding-bottom: 0px; ">
-<center>
-
+<div style="margin: 0 auto;">
 <div style="text-shadow: 0px 3px 4px #666666; color:#333333; font-family: Helvetica, Arial, sans-serif; font-size:40px; font-weight:bold; margin: 20px;">VLC 1.1.5</div>
 <h2 style="text-shadow: 0px 1px 1px #666666">The luggage</h2>
-</center>
+</div>
+
     <table style="margin-bottom: 0"><tr>
       <td style="width: 300px;" id="img">
 <?php /*         <script type="text/javascript"><!--
@@ -168,7 +168,7 @@ function DoDL2( $os, $with_js=1 )
 <li>1000 Web-shows listing integrated inside VLC's playlist, provided by <a href="channels.com">Channels.com</a></li>
 <li>New Game Music Emu (GME) support</li>
 <li>Windows SMB security issue - <a href="/security/sa1006.html">VideoLAN-SA-1006</a></li>
-<li>Major updates in translations, and new translations in Asturian, Armenian and Modern Greek<li>
+<li>Major updates in translations, and new translations in Asturian, Armenian and Modern Greek</li>
 <li>Mac/Power-PC port fixed in 1.1.4.1</li>
 </ul>
 </div>

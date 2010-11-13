@@ -1,5 +1,5 @@
 <?php
-   $title = "VLC 1.1.4 release";
+   $title = "VLC 1.1.5 release";
    $lang = "en";
    $menu = array( "project", "news" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
@@ -44,7 +44,7 @@ function DoDL2( $os, $with_js=1 )
 <div id="mainbox" style="overflow: hidden; padding-bottom: 0px; ">
 <center>
 
-<div style="text-shadow: 0px 3px 4px #666666; color:#333333; font-family: Helvetica, Arial, sans-serif; font-size:40px; font-weight:bold; margin: 20px;">VLC 1.1.4</div>
+<div style="text-shadow: 0px 3px 4px #666666; color:#333333; font-family: Helvetica, Arial, sans-serif; font-size:40px; font-weight:bold; margin: 20px;">VLC 1.1.5</div>
 <h2 style="text-shadow: 0px 1px 1px #666666">The luggage</h2>
 </center>
     <table style="margin-bottom: 0"><tr>
@@ -168,7 +168,7 @@ function DoDL2( $os, $with_js=1 )
 <li>1000 Web-shows listing integrated inside VLC's playlist, provided by <a href="channels.com">Channels.com</a></li>
 <li>New Game Music Emu (GME) support</li>
 <li>Windows SMB security issue - <a href="/security/sa1006.html">VideoLAN-SA-1006</a></li>
-<li>Major updates in translations, and new translation in Asturian and Modern Greek<li>
+<li>Major updates in translations, and new translations in Asturian, Armenian and Modern Greek<li>
 </ul>
 </div>
 
@@ -176,7 +176,7 @@ function DoDL2( $os, $with_js=1 )
 <ul class="blue-bullet">
 <li>live .webm streams support</li>
 <li>GPU decoding using Intel IGP on Windows, using DxVA2</li>
-<li>Miscellaneous fixes on Interfaces, Demuxers and Decoders modules</li>
+<li>Miscellaneous fixes on all Interfaces, Demuxers and Decoders modules</li>
 <li>Codecs updates</li>
 </ul>
 </div>
@@ -326,17 +326,18 @@ New add-ons and script framework so one can personalize its vlc.
 
 <h1></h1>
 <h2>Complete Changelog</h2>
-<a href="/developers/vlc-branch/NEWS">Changelog for 1.1.3 </a>
+<a href="/developers/vlc-branch/NEWS">Changelog for 1.1.5 </a>
 
 
 <h2>Direct links and press contact</h2>
 If you link to this release, please use the following links.
 <h3>Source</h3>
-<a href="http://sourceforge.net/projects/vlc/files/1.1.4/vlc-1.1.4.tar.bz2/download">VLC Source download</a>
+<a href="http://sourceforge.net/projects/vlc/files/1.1.5/vlc-1.1.5.tar.bz2/download">VLC Source download</a>
 <h3>Win32</h3>
-<a href="http://sourceforge.net/projects/vlc/files/1.1.4/win32/vlc-1.1.4-win32.exe/download">VLC Win32 installer</a><br />
-<a href="http://sourceforge.net/projects/vlc/files/1.1.4/win32/vlc-1.1.4-win32.7z/download">VLC Win32 7zip (no install)</a><br />
-<a href="http://sourceforge.net/projects/vlc/files/1.1.4/win32/vlc-1.1.4-win32.zip/download">VLC Win32 zip (no install)</a><br />
+<a href="http://sourceforge.net/projects/vlc/files/1.1.5/win32/vlc-1.1.5-win32.exe/download">VLC Win32 installer</a><br />
+<a href="http://sourceforge.net/projects/vlc/files/1.1.5/win32/vlc-1.1.5-win32.7z/download">VLC Win32 7zip (no install)</a><br />
+<a href="http://sourceforge.net/projects/vlc/files/1.1.5/win32/vlc-1.1.5-win32.zip/download">VLC Win32 zip (no install)</a><br />
+<h3>MacOSX</h3>
 <br /> 
 <h3>Press contact</h3>
 <a href="/videolan/team/">Contact infos</a>

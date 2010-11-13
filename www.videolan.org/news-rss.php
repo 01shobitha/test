@@ -42,7 +42,7 @@
                   $newItem->setTitle($title);
                   $newItem->setDate($date);
                   $newItem->setLink("http://www.videolan.org/news.html");
-                  $newItem->setDescription($short+$remain);
+                  $newItem->setDescription($short."<br />".$remain);
                   $TestFeed->addItem($newItem);
               }
           $msg="";

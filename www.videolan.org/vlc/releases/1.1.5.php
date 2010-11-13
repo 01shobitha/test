@@ -162,20 +162,21 @@ function DoDL2( $os, $with_js=1 )
 <h1>What's new in 1.1.5</h1>
 <p>Two and a half months after VLC 1.1.4, and after almost 50 million downloads of VLC 1.1.4, here is a minor release of VLC 1.1.5.</p>
 <p>Introducing small features and fixing important bug and a security issue, here is <b>VLC 1.1.5</b>.</p>
-
+<br />
 <div style="float:left; width: 48%;">
 <ul class="blue-bullet">
 <li>1000 Web-shows listing integrated inside VLC's playlist, provided by <a href="channels.com">Channels.com</a></li>
 <li>New Game Music Emu (GME) support</li>
 <li>Windows SMB security issue - <a href="/security/sa1006.html">VideoLAN-SA-1006</a></li>
 <li>Major updates in translations, and new translations in Asturian, Armenian and Modern Greek<li>
+<li>Mac/Power-PC port fixed in 1.1.4.1</li>
 </ul>
 </div>
 
 <div style="float:right; width: 50%;">
 <ul class="blue-bullet">
 <li>live .webm streams support</li>
-<li>GPU decoding using Intel IGP on Windows, using DxVA2</li>
+<li>GPU HD decoding using Intel IGP on Windows, using DxVA2</li>
 <li>Miscellaneous fixes on all Interfaces, Demuxers and Decoders modules</li>
 <li>Codecs updates</li>
 </ul>

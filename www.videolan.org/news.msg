@@ -1,7 +1,7 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
-|13 November 2010|VLC 1.1.5|VideoLAN and the VLC development team are proud to present VLC 1.1.5, the fifth bugfix release of the VLC 1.1.x branch.<br />Small new features, notably GME and live .webm support and an integrated listing of web-shows directly in the playlist are making this release. Many bugfixes, updated translations and <a href="/security/sa1006.html">security issue</a> are also part of this release.<br />Source and Windows builds are available.<br />See the <a href="/vlc/releases/1.1.5.html">release notes</a> for more information.
+|13 November 2010|VLC 1.1.5|VideoLAN and the VLC development team are proud to present VLC 1.1.5, the fifth bugfix release of the VLC 1.1.x branch.<br />Small new features, notably GME and live .webm support and an integrated listing of web-shows directly in the playlist are making this release. Many bugfixes, updated translations and <a href="/security/sa1006.html">security issue</a> are also part of this release.<br />Source and Windows and MacOSX builds are available.<br />See the <a href="/vlc/releases/1.1.5.html">release notes</a> for more information.
 
 |27 September 2010|VLC 1.1.4.1|VideoLAN and the VLC development team are happy to present VLC 1.1.4.1, a fourth bugfix release of the VLC 1.1.x branch.
 This release does only target PowerPC-based Macs. It is the first release of this branch for this platform and includes all the features, improvements and bug-fixes you have been waiting for.<br />This is a <b>security update</b>, so we recommend all users to update to this new version (CVE-2010-2937 / <a href="http://www.videolan.org/security/sa1004.html">VideoLAN-SA-1004</a>).

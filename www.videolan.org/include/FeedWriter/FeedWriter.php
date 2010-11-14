@@ -215,6 +215,7 @@
 			$out .= '<rss version="2.0"
 					xmlns:content="http://purl.org/rss/1.0/modules/content/"
 					xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+                                        xmlns:atom="http://www.w3.org/2005/Atom"
 				  >' . PHP_EOL;
 		}    
 		elseif($this->version == RSS1)
@@ -349,6 +350,10 @@
 			}
 			echo "</rdf:Seq>" . PHP_EOL . "</items>" . PHP_EOL . "</channel>" . PHP_EOL;
 		}
+                if($this->version == RSS2)
+                {
+                        echo '<atom:link href="'.$this->channels['link'].'videolan-news.rss" rel="self" type="application/rss+xml"  />'."\n";
+                }
 	}
 	
 	/**

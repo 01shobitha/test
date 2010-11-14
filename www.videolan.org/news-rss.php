@@ -4,12 +4,13 @@
   require("include/FeedWriter/FeedItem.php");
 
   //Creating an instance of FeedWriter class.
-  $TestFeed = new FeedWriter(ATOM);
+  $TestFeed = new FeedWriter(RSS2);
 
   //Setting the channel elements
   //Use wrapper functions for common channel elements
   $TestFeed->setTitle('VideoLAN project - News feed');
-  $TestFeed->setLink('http://www.videolan.org/videolan-news.rss');
+  $TestFeed->setLink('http://www.videolan.org/');
+  $TestFeed->setChannelElement('language','en');
   $TestFeed->setDescription('This is the main new feed from the VideoLAN project');
 
   //Image title and link must match with the 'title' and 'link' channel elements for valid RSS 2.0

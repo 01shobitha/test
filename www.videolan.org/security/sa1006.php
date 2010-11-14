@@ -16,12 +16,16 @@ ID                : VideoLAN-SA-1006
 CVE reference     : N/A
 </pre>
 <h2>Details</h2>
-<p>Due to a mistake in the declaration of Windows calling conventions,
-VLC suffers from a stack smashing attack in the Samba network share access module.
+<p>Due to an error in the declaration of code calling conventions,
+VLC for Windows suffers from a stack smashing attack
+in the Samba network share access module.
+</p>
+<p><strong>This issue affects only the Windows versions of VLC media player.
+</strong>
 </p>
 <h2>Impact</h2>
-<p>If successful, the exploit can execute arbitrary code within the
-context of VLC media player.
+<p>Successful exploitation could enable execution of arbitrary code
+within the context of VLC media player.
 </p>
 <h2>Workarounds</h2>
 <p>The user should refrain from opening files from untrusted third

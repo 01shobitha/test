@@ -169,7 +169,7 @@ function DoDL2( $os, $with_js=1 )
 <li>New Game Music Emu (GME) support</li>
 <li>Windows SMB security issue - <a href="/security/sa1006.html">VideoLAN-SA-1006</a></li>
 <li>Major updates in translations, and new translations in Asturian, Armenian and Modern Greek</li>
-<li>Mac/Power-PC port fixed in 1.1.4.1</li>
+<li>Mac/PowerPC port fixed in 1.1.4.1</li>
 </ul>
 </div>
 

@@ -30,7 +30,7 @@ or to contact us through our <a href="http://forum.videolan.org/viewtopic.php?t=
 <?php
 $vlc_version = "1.0.5";
 $vlc_version_ppc = "1.1.5";
-$vlc_version_intel = "1.5";
+$vlc_version_intel = "1.1.5";
 ?>
 
 <h2>Latest version for 10.5 and later</h2>

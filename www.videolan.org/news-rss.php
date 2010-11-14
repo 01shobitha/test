@@ -41,7 +41,7 @@
                   $newItem = $TestFeed->createNewItem();
                   $newItem->setTitle($title);
                   $newItem->setDate($date);
-                  $newItem->setLink("http://www.videolan.org/news.html");
+                  $newItem->setLink("http://www.videolan.org/news.html#news-".$count);
                   $newItem->setDescription($short."<br />".$remain);
                   $TestFeed->addItem($newItem);
               }

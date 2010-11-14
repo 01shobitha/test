@@ -4,7 +4,7 @@
   require("include/FeedWriter/FeedItem.php");
 
   //Creating an instance of FeedWriter class.
-  $TestFeed = new FeedWriter(RSS2);
+  $TestFeed = new FeedWriter(ATOM);
 
   //Setting the channel elements
   //Use wrapper functions for common channel elements

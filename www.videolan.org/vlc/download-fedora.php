@@ -27,7 +27,7 @@ Install <a href="http://download1.rpmfusion.org/free/fedora/rpmfusion-free-relea
     $> su -
     #> rpm -ivh http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm
     #> yum install vlc
-    #> yum install mozilla-vlc (optionnal)
+    #> yum install mozilla-vlc (optional)
 </pre>
 
 
@@ -41,7 +41,7 @@ Install <a href="http://download1.rpmfusion.org/free/fedora/rpmfusion-free-relea
     $> su -
     #> rpm -ivh http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-rawhide.noarch.rpm 
     #> yum install vlc
-    #> yum install mozilla-vlc (optionnal)
+    #> yum install mozilla-vlc (optional)
 </pre>
 
 <br />
@@ -58,7 +58,7 @@ Install <a href="http://download1.rpmfusion.org/free/fedora/rpmfusion-free-relea
     $> su -
     #> rpm -ivh http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm
     #> yum install vlc
-    #> yum install python-vlc mozilla-vlc (optionnals)
+    #> yum install python-vlc mozilla-vlc (optionals)
 </pre>
 
 <h3>Fedora 7</h3>
@@ -71,7 +71,7 @@ Install <a href="http://rpm.livna.org/livna-release-7.rpm">livna-release-7.rpm</
     $> su -
     #> rpm -ivh http://rpm.livna.org/livna-release-7.rpm
     #> yum install vlc
-    #> yum install python-vlc mozilla-vlc (optionnal)
+    #> yum install python-vlc mozilla-vlc (optional)
 </pre>
 
 <h3>Fedora Core 6</h3>
@@ -84,7 +84,7 @@ Install <a href="http://rpm.livna.org/livna-release-6.rpm">livna-release-6.rpm</
     $> su -
     #> rpm -ivh http://rpm.livna.org/livna-release-6.rpm
     #> yum install vlc
-    #> yum install python-vlc mozilla-vlc (optionnal)
+    #> yum install python-vlc mozilla-vlc (optional)
 </pre>
 
 <h3>Fedora Core 4 and 5</h3>

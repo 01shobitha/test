@@ -60,7 +60,7 @@ code repositories.
 <dt>02 November 2010</dt>
 <dd>Vendor patch for VLC 1.1.4.</dd>
 <dd>Initial security advisory.</dd>
-<dt>Upcoming</dt>
+<dt>13 November 2010</dt>
 <dd>VLC 1.1.5 release.</dd>
 </dl>
 

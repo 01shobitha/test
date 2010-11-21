@@ -28,7 +28,7 @@ ifneq ($(PHP_IGNORES),)
   PHP_FILES := $(filter-out $(PHP_IGNORES:%=%.php), $(PHP_FILES))
 endif
 
-TARGETS := $(PHP_FILES:%.php=%.html) $(ROOT)/include/mirrors.php $(ROOT)/countries.css $(ROOT)/videolan-news.rss
+TARGETS := $(PHP_FILES:%.php=%.html) $(ROOT)/include/mirrors.php $(ROOT)/countries.css $(ROOT)/videolan-news.rss news-rss.html
 
 real-all: $(TARGETS) all-recursive
 
@@ -63,6 +63,8 @@ $(ROOT)/countries.css: $(ROOT)/include/mirrors $(ROOT)Makefile
 	echo "/* Auto generated. Do not edit. */" > $@
 	rm -f $@
 	awk -F '|' '!/^#/ { print $$4; }' $<|sort|uniq|awk '{ print "#maincontent table td."$$1; print " { padding-left:2em; background: url(http://images.videolan.org/images/flags/"$$1".png) left no-repeat; }" }' >> $@
+
+news-rss.html: news.msg
 
 videolan-news.rss: news.msg news-rss.html
 	@echo "Processing videolan-news.rss ..."

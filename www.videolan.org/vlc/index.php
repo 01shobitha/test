@@ -140,6 +140,7 @@ function addos( $name, $class, $url, $bold=false )
 <?php
       addos( "Syllable", "syllable", "download-syllable.html" );
       addos( "iOS", "ios", "download-ios.html" );
+      addos( "OS/2" "os2", "http://hobbes.nmsu.edu/h-viewer.php?dir=/pub/os2/apps/mmedia/video/players&file=vlc-1.0.5-beta1.zip" );
       //addos( "WinCE / PocketPC", "wince", "download-wince.html" );
 ?>
       </ul>

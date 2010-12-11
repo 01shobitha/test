@@ -165,7 +165,7 @@ function DoDL2( $os, $with_js=1 )
 <br />
 <div style="float:left; width: 48%;">
 <ul class="blue-bullet">
-<li>1000 Web-shows listing integrated inside VLC's playlist, provided by <a href="http://channels.com">Channels.com</a></li>
+<li>1000 Web-shows listing integrated inside VLC's playlist, provided by <a href="http://metachannels.com">MetaChannels.com</a></li>
 <li>New Game Music Emu (GME) support</li>
 <li>Windows SMB security issue - <a href="/security/sa1006.html">VideoLAN-SA-1006</a></li>
 <li>Major updates in translations, and new translations in Asturian, Armenian and Modern Greek</li>

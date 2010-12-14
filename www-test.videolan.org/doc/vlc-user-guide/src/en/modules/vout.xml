@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<sect1><title>
+Video outputs
+</title>
+
+<para>
+Video outputs modules allow VLC to display video on your screen.
+When launched, VLC tries to guess the most suitable video output module for your system.
+However, if you want to force a specific module, use the following command line switch:
+--vout modulename
+</para>
+
+<sect2><title>directx</title>
+<para><emphasis>
+default enabled on win32
+</emphasis></para>
+<para><emphasis>
+For Windows only
+</emphasis></para>
+<para>
+This video output uses Microsoft Direct X libraries. 
+It is recommended for the win32 port.
+</para>
+<para>
+You may indicate the path to directX libraries and
+headers with the <command>--with-directx=PATH</command> switch, when
+running the configure script.
+</para>
+</sect2>
+
+<sect2><title>x11</title>
+&enabled;
+<para><emphasis>
+For Unix with X11 servers only
+</emphasis></para>
+<para>
+This is the basic X11 video output. It only requires a
+working X11 server. You will need xlibs headers to compile it
+(<emphasis>xlibs-dev</emphasis> package on Debian systems).
+</para>
+&options-st;
+<itemizedlist>
+<listitem>
+<para>--x11-display &lt;string&gt;
+X11 display name to use
+</para>
+</listitem>
+<listitem>
+<para><emphasis>--x11-altfullscreen, --no-x11-altfullscreen </emphasis> :
+use alternate fullscreen mode to bypass window managers (default disabled)
+</para>
+</listitem>
+<listitem>
+<para><emphasis>--x11-shm, --no-x11-shm </emphasis>:
+use x11 shared memory (default enabled)
+</para>
+</listitem>
+<listitem>
+<para><emphasis>--x11-xineramascreen &lt;integer&gt; </emphasis>:
+choose the screen to be used for fullscreen mode, when working with xinerama
+</para>
+</listitem>
+</itemizedlist>
+</sect2>
+
+<sect2><title>xvideo</title>
+&enabled;
+&linux-only;
+<para>
+It requires an xvideo compliant graphic card (it is the case for
+nearly all modern cards). It uses hardware acceleration for YUV
+transformation and rescaling.
+</para>
+&options-st;
+<itemizedlist>
+<listitem>
+<para><emphasis>--xvideo-display &lt;string&gt; </emphasis>:
+X11 display name to use
+</para>
+</listitem>
+<listitem>
+<para><emphasis>--xvideo-adaptor &lt;integer&gt; </emphasis>:
+xvideo adaptor number
+</para>
+</listitem>
+<listitem>
+<para><emphasis>--xvideo-altfullscreen, --no-xvideo-altfullscreen </emphasis>:
+use alternate fullscreen mode to bypass window
+managers (default disabled)
+</para>
+</listitem>
+<listitem>
+<para><emphasis>--xvideo-shm, --no-xvideo-shm </emphasis>:
+use x11 shared memory (default enabled)
+</para>
+</listitem>
+<listitem>
+<para><emphasis>--xvideo-xineramascreen &lt;integer&gt; </emphasis>:
+choose the screen to be used for fullscreen mode, when working with xinerama
+</para>
+</listitem>
+<listitem>
+<para><emphasis>--xvideo-chroma &lt;string&gt; </emphasis>:
+XVimage chroma format
+</para>
+</listitem>
+</itemizedlist>
+</sect2>
+
+<sect2><title>sdl</title>
+&enabled;
+<para>
+ This video output uses sdl libraries. You need at least
+version 1.1.6 of this libraries.
+</para>
+<para>
+You may indicate the path to the 
+<emphasis>sdl-config</emphasis> program with the <command>
+ --with-sdl-config-path=PATH </command> switch, when running 
+the configure script, if you intend to compile VLC.
+</para></sect2>
+
+
+<sect2><title>wingdi</title>
+<para><emphasis>
+default: enabled on win32
+</emphasis></para>
+<para><emphasis>
+For Windows only
+</emphasis></para>
+<para>
+This video output uses GDI. It is designed for users who
+don't have Direct X, but the perfs are very low. If you have DirectX installed on
+your system, do not use the wingdi video output
+</para>
+</sect2>
+
+<sect2><title>fb</title>
+<para><emphasis>
+default: enabled on GNU/Linux
+</emphasis></para>
+<para><emphasis>
+For GNU/Linux only
+</emphasis></para>
+<para>
+This is the frame buffer video output. Your
+kernel has to be compiled with frame buffer support.
+sein.
+</para>
+&options-st;
+<itemizedlist>
+<listitem>
+<para><emphasis>--fbdev &lt;string&gt; </emphasis>:
+framebuffer device (default is /dev/fb0)
+</para>
+</listitem>
+</itemizedlist>
+</sect2>
+
+<sect2><title>glide</title>
+&disabled;
+<para>
+This video output uses Glide libraries (hardware 
+acceleration for 3Dfx cards).
+</para>
+<para>
+You may indicate the path to the library with the
+<command>--with-glide=PATH</command> configure option, if you intend to compile VLC.
+</para></sect2>
+
+<sect2><title>mga</title>
+&disabled;
+<para><emphasis>
+For GNU/Linux only
+</emphasis></para>
+<para>
+This module provides hardware acceleration for Matrox
+cards under GNU/Linux.
+</para></sect2>
+
+<sect2><title>ggi</title>
+&disabled;
+</sect2>
+
+<sect2><title>caca</title>
+&disabled;
+<para>
+This is the Color ASCII Art Video Output. This video
+output uses the libcaca library to display video through Color ASCII art.
+It requires libcaca development headers (<emphasis>libcaca-dev</emphasis> package under Debian GNU/Linux) to compile.
+</para>
+</sect2>
+
+<sect2><title>aa</title>
+&disabled;
+<para>
+This is the ASCII Art Video Output. This video 
+output uses the aalib library to display video through ASCII art. 
+It requires aalib headers (<emphasis>aalib1-dev</emphasis> package
+ under Debian GNU/Linux) to compile.
+</para>
+</sect2>
+
+<sect2><title>svgalib</title>
+&disabled;
+<para><emphasis>
+For GNU/Linux only
+</emphasis></para><para>
+This is a video output for the SVGAlib library.
+</para></sect2>
+
+<sect2><title>qte</title>
+&disabled;
+<para><emphasis>
+For iPaq only
+</emphasis></para><para>
+This is a video output for QT Embedded, an
+ iPaq-specific graphical library.
+.</para> </sect2>
+
+</sect1>

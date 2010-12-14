@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="ipv6"><title id="tipv6">
+
+Streamen in IPv6
+</title>
+
+<sect1><title>
+
+Streamen in IPv6
+</title>
+
+<sect2><title>
+
+Voraussetzungen
+</title>
+<para> 
+
+</para>
+
+<para>
+
+Sie benötigen eine IPv6 kompatibles Betriebssystem, wie
+Linux 2.4 oder 2.6 mit geladenem <emphasis>ipv6</emphasis> Modul, 
+Windows 2000 mit dem IPv6 Stack, Windows XP Service Pack 1 oder
+Mac OS X Version 10.2 oder höher. Bitte schauen Sie auf die Features-Seiten
+auf der <ulink url="http://www.videolan.org">VideoLAN Website</ulink>, um
+den Status von IPv6 in VLC und VLS für jedes System zu erfahren.
+
+</para>
+
+<note><para>
+
+
+
+Unter Windows 2000 müssen Sie per Hand eine 
+standardmäßige IPv6-Route mit folgendem Befehl festlegen:
+
+</para>
+
+<screen>
+<prompt># </prompt><userinput>ipv6 rtu ff::/8 4</userinput>
+</screen>
+
+<para>
+
+
+
+wobei die letzte Nummer (<emphasis>4</emphasis> in
+diesem Beispiel) die Nummer Ihres echtes IPv6-Interfaces ist. Um eine Liste Ihrer
+IPv6-Interfaces zu erhalten, starten Sie den Befehl 
+<command>ipv6 if</command>.
+
+</para></note>
+
+<warning><para>
+
+
+
+Unter Windows XP können Sie Probleme mit einer
+verborgenen IPv6-Firewall haben. Um das Problem zu lösen, gehen Sie zur Liste
+der Windows-Dienste und stoppen Sie den IPv6-Firewall-Dienst.
+
+</para></warning>
+
+<warning><para>
+
+Wenn Sie VMware unter Linux benutzen, werden Sie
+VMware stoppen müssen und die VMware-Kernelmodule beenden, da wir bemerkt
+haben, das es IPv6-Streaming verhindert!
+</para></warning>
+
+</sect2>
+
+<sect2><title>
+
+Streamen mit VLC
+</title>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv video1.xyz --ipv6 --sout udp:[ff08::1] --ttl 12</userinput>
+</screen>
+
+<para>
+
+wobei:</para>
+
+<itemizedlist>
+
+<listitem><para><filename>video1.xyz</filename>
+
+ ist die Datei, die Sie streamen möchten (Sie können auch
+<command>dvdsimple:/dev/dvd</command> zum Streamen einer DVD
+benutzen)
+,</para></listitem>
+
+<listitem><para><emphasis>ff08::1</emphasis> 
+
+ist entweder 
+:</para>
+
+<itemizedlist>
+
+<listitem><para>
+
+die IPv6-Adresse des Rechners, den Sie via Unicast erreichen möchten
+;</para></listitem>
+
+<listitem><para>
+
+oder die Multicast-IPv6-Adresse.
+
+</para></listitem>
+
+</itemizedlist>
+
+</listitem>
+
+<listitem><para><emphasis>12</emphasis>
+
+ ist der Wert der TTL (Time To Live) Ihrer IP-Paket (was
+bedeutet, dass der Stream in der Lage sein wird, 11 Router zu 
+überqueren).
+
+</para></listitem>
+
+</itemizedlist>
+
+<note><para>
+
+Unter Unix/Linux müssen Sie eventuell die eckigen
+Klammern um die IPv6-Adresse schützen
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv video1.xyz --ipv6 --sout udp:\[ff08::1\] --ttl 12</userinput>
+</screen>
+
+</note>
+
+<note><para>
+
+Es ist möglich, dass Sie das Ausgabe-Netzwerkinterface
+angeben müssen:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv video1.xyz --ipv6 --sout udp:[ff08::1%eth0] --ttl 12</userinput>
+</screen>
+
+<para>
+
+wobei <emphasis>eth0</emphasis> der Name des
+Netzwerkinterfaces ist (unter Linux werden die Netzwerk-Interface'
+<emphasis>ethX</emphasis> genannt, unter Mac OSX <emphasis>enX
+</emphasis> und unter Windows <emphasis>X</emphasis>, wobei
+<emphasis>X</emphasis> die entsprechende Nummer ist).
+
+</para>
+
+</note>
+
+</sect2>
+
+<sect2><title>
+
+Streamen mit VLS
+</title>
+
+<para>
+
+Sie werden die Konfigurationsdatei benutzen müssen
+<filename>vls.cfg</filename>. Bitte schauen Sie in den 
+<ulink url="http://www.videolan.org/doc/">VLC-Userguide</ulink>, um zu
+erfahren, wie sie eine für IPv6-Streaming in Uni- oder Multicast 
+schreiben.
+
+</para>
+
+</sect2>
+</sect1>
+
+<sect1><title>
+
+Empfangen in IPv6
+</title>
+
+<sect2><title>
+
+Einen Unicast-Stream empfangen
+</title>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv --ipv6 udp:</userinput>
+</screen>
+
+</sect2>
+
+<sect2><title>
+
+Einen Multicast-Stream empfangen
+</title>
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv --ipv6 udp:@[ff08::1]</userinput>
+</screen>
+
+<note><para>
+
+Unter Unix/Linux kann es notwendig sein, dass Sie die
+Klammern um die IPv6-Adresse "beschützen" müssen
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv --ipv6 udp:@\[ff08::1\]</userinput>
+</screen>
+
+</note>
+
+<note><para>
+
+Es ist möglich, dass Sie das Ausgabe-Netzwerkinterface
+festlegen müssen:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv video1.xyz --ipv6 --sout udp:[ff08::1%eth0] --ttl 12</userinput>
+</screen>
+
+<para>
+
+wobei <emphasis>eth0</emphasis> der Name des
+Netzwerkinterfaces ist (unter Linux werden die Netzwerk-Interface'
+<emphasis>ethX</emphasis> genannt, unter Mac OSX <emphasis>enX
+</emphasis> und unter Windows <emphasis>X</emphasis>, wobei
+<emphasis>X</emphasis> die entsprechende Nummer ist).
+
+</para>
+
+</note>
+
+</sect2>
+
+</sect1>
+</chapter>

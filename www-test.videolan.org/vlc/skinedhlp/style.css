@@ -1,0 +1,72 @@
+body {
+	font-family: Calibri, Andale Sans, Verdana, Helvetica, Arial, sans-serif;
+	background: url('http://download.videolan.org/images/skinedhlp/bg.png') repeat-x;
+	font-size:12pt;
+}
+h1{
+	font-family: Cambria, Garamond, Times New Romans, serif;
+	color: #3465a4;
+	border-bottom: #3465a4 1px solid;
+	padding-bottom: 2px;	
+}
+h2, h3, h4, h5, h6{
+	font-family: Cambria, Garamond, Times New Romans, serif;
+	color: #3465a4;
+	border-top: #3465a4 1px solid;
+	padding-top: 2px;	
+}
+a:link{
+	text-decoration: none;
+	color: #3465a4;
+}
+a:visited {
+	text-decoration: none;
+	color: #729fcf;
+}
+a:hover {
+	text-decoration: none;
+	color: #204a87;
+}
+a:active {
+	text-decoration: none;
+	color: #cc0000;
+}
+p.see {
+	border-top: #3465a4 1px solid;
+	padding-top: 2px;	
+}
+p.license {
+	border-top: #3465a4 1px solid;
+	padding-top: 2px;	
+	font-size:10pt;
+}
+p.important {
+	color: #cc0000;
+	font-weight: bold;
+}
+p.footer {	
+	border-top: #3465a4 1px solid;
+	padding-top: 1px;
+	font-size:8pt;
+	color: #3465a4;	
+}
+div.header {
+	font-size:10px;
+	font-style: italic;
+	color: #555753;	
+}
+span.gui {
+	background: #d3d7cf;
+	border-top: 1px solid #eeeeec;
+	border-left: 1px solid #eeeeec;
+	border-bottom: 1px solid #babdb6;
+	border-right: 1px solid #babdb6;	
+}
+
+img {
+	margin: 5px;
+}
+
+span img {
+	margin: 0px;	
+}

@@ -1,0 +1,13 @@
+*.html
+*.pdf
+*.ps
+*.rtf
+*.txt
+*.zip
+*.jpg
+*.jpeg
+*.png
+*.eps
+~*
+*~
+.*

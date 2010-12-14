@@ -1,0 +1,8 @@
+home;Home;/index.html
+news;News;/news.html
+videolan;Organisation;/videolan/
+team;Team;/videolan/team/
+contribute;Contribute;/contribute.html
+partners;Partners;/videolan/partners.html
+events;Events;/videolan/events/
+goodies;Goodies;/goodies.html

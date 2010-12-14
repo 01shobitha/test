@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<sect1><title>
+Codec modules
+</title>
+
+<para>
+The following modules add codec (ie, compression
+formats) support.
+</para>
+
+<sect2><title>a52</title>
+&enabled;
+<para>
+This decoder uses liba52 (see the <ulink
+url="http://liba52.sourceforge.net/">liba52 web site</ulink>
+).</para></sect2>
+
+<sect2><title>cinepak</title>
+&enabled;
+<para>
+This codec decodes the Cinepak format.
+</para></sect2>
+
+<sect2><title>faad</title>
+&disabled;
+<para>
+Faad is an MPEG-4 audio decoder.
+</para></sect2>
+
+<sect2><title>ffmpeg</title>
+&enabled;
+<para>
+This is a free MPEG-4/DivX/OpenDivX/Xvid codec (see the
+<ulink url="http://ffmpeg.sourceforge.net/">ffmpeg web site</ulink>).
+</para>
+&options-st;
+<itemizedlist>
+<listitem>
+<para><emphasis>--ffmpeg-dr, --no-ffmpeg-dr </emphasis>:
+Enables or disables direct rendering (default enabled)
+</para></listitem>
+<listitem><para><emphasis>--ffmpeg-error-resilience </emphasis>:
+Integer to set the error resilience factor, from -1 to 99 
+(-1 means no resilience at all)
+</para></listitem>
+<listitem><para><emphasis>--ffmpeg-workaround-bugs </emphasis>:
+Try to fix some bugs. Add the values corresponding to the bugs you want to fix, and pass it as argument: 1 = autodetect, 2 = old msmpeg4, 4 = xvid interlaces, 8 = ump4, 16 = no padding, 32 = ac vlc, 64 = Qpel chroma
+</para></listitem>
+<listitem><para><emphasis>--ffmpeg-hurry-up, --no-ffmpeg-hurry-up </emphasis>:
+Allow the decoder to decode only partially or even to skip frames, if it is late. This can be useful with low end computers, but produces weird pictures.
+</para></listitem>
+<listitem><para><emphasis>--ffmpeg-truncated </emphasis>:
+Truncates the stream : -1=auto, 0=disabled, 1=enabled
+</para></listitem>
+<listitem><para><emphasis>--ffmpeg-pp-q </emphasis>:
+Postprocessing quality (integer between 0 and 6). A higher level requires more CPU power and will produce better pictures.
+</para></listitem>
+<listitem><para><emphasis>--ffmpeg-pp-name </emphasis>:
+Series of postprocessing filters
+</para></listitem>
+
+</itemizedlist>
+</sect2>
+
+<sect2><title>libmpeg2</title>
+&enabled;
+<para>
+This codec allows to read MPEG2 files.
+</para></sect2>
+
+<sect2><title>mad</title>
+&enabled;
+<para>
+This codec is a very smart MP3 decoder, that only
+uses integers. This allows its use for CPU which don't handle floating
+point numbers (on PDA, for example).
+</para>
+</sect2>
+
+<sect2><title>ogt</title>
+&enabled;
+<para>
+OGT handles the SVCD subtitles (Philips Overlay
+Graphics Text or OGT) and subtitles used by Chaoji VCDs (also known as
+CVD).
+</para>
+
+<para>
+A description of the format for these kinds
+of subtitles can be found in the vlc source
+in <filename>doc/subtitles/svcd-subtitles.txt</filename> and
+<filename>doc/subtitles/cvd-subtitles.txt</filename>
+werden</para>
+	 <para>
+  	 Use the option
+  	 <filename>--spu-channel</filename> <emphasis>number</emphasis>
+  	 to select a subtitle track to show. The number
+  	 should be -1, 0, 1, 2, or 3. The CVD and SVCD subtitle formats
+  	 allow for 4 subtitles. The value -1 deselects any subtitles
+  	    .</para>
+  	 </sect2>
+
+<sect2><title>spudec</title>
+&enabled;
+<para>
+spudec handles the DVD subtitles. At present
+full color subtitles and transparency are not handled.
+</para>
+
+<para>
+For a description of the format for these kinds of
+subtitles see
+<ulink url="http://sam.zoy.org/writings/dvd/subtitles">http://sam.zoy.org/writings/dvd/subtitles</ulink>.
+</para>
+</sect2>
+
+<sect2><title>tarkin</title>
+&disabled;
+<para>
+tarkin is a new codec (experimental) by the Ogg
+Project (see the <ulink url="http://www.vorbis.com">Ogg Vorbis web
+site</ulink>).
+</para></sect2>
+
+<sect2><title>theora</title>
+&disabled;
+<para>
+theora is a new codec (experimental) by the Ogg
+Project (see the <ulink url="http://www.vorbis.com">Ogg Vorbis web
+site</ulink>).
+</para></sect2>
+
+<sect2><title>tremor</title>
+&disabled;
+<para>
+This is an Ogg/Vorbis codec that only makes
+integer calculus, which allow its use on CPU which don't have floating
+point support (see the <ulink url="http://www.vorbis.com">Ogg Vorbis
+web site</ulink>).
+</para></sect2>
+
+<sect2><title>vorbis</title>
+&enabled;
+<para>
+This codec allows you to read the Vorbis (audio)
+encoded files.
+</para></sect2>
+
+<sect2><title>xvid</title>
+&disabled;
+<para>
+This codec allows you to read files encoded
+with Xvid via the xvidcore library (see <ulink url="http://www.xvid.org/">Xvid web site</ulink>).
+</para></sect2> 
+</sect1>

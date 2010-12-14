@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="iso8859-1"?>
+<!-- revision:1.2 -->
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1//EN" "/usr/share/sgml/docbook/dtd/xml/4.1.2/docbookx.dtd">
+<article id="videolan-faq">
+
+<articleinfo>
+
+<title>VideoLAN FAQ</title>
+
+<copyright>
+<year>2002 - 2004</year>
+<holder>il progetto VideoLAN
+
+</holder>
+</copyright>
+
+<abstract>
+
+<para>Le domande ricorrenti (FAQ) su VideoLAN.
+</para>
+
+
+</abstract>
+
+</articleinfo>
+
+<!-- Starting the Q & A -->
+
+<qandaset><title>VideoLAN FAQ</title>
+
+
+
+<qandadiv><title>VLC media player</title>
+
+
+<qandaentry><question><para>
+Dove posso scaricare VLC per Mac OS 9?
+
+</para></question>
+
+<answer>
+
+<para>Dov'è che avete letto che esiste un VLC per Mac OS 9? Non esiste, né mai esisterà, una versione per Mac OS 9.
+
+</para>
+
+</answer></qandaentry>
+
+
+<qandaentry><question><para>
+VLC supporta i DVD di tutte le zone?
+
+</para></question>
+
+<answer>
+
+<para>VLC utilizza la <emphasis>libdvdcss</emphasis> per
+leggere tutti i DVD, indipendentemente dalla zona. Tutte le zone sono
+quindi supportate, senza vincoli.
+
+</para>
+
+</answer></qandaentry>
+
+
+<qandaentry><question><para>
+Dove si trova il file di configurazione di VLC?
+
+</para></question>
+
+<answer>
+
+<para>Attualmente, un file di configurazione viene
+creato per ogni utilizzatore (non esiste un file globale). Quando le
+opzioni disponibili vengono modificate e salvate, VLC crea un file di
+configurazione nella directory personale dell'utilizzatore. Lindirizzo
+esatto del file dipende dal sistema operativo in uso:
+
+</para>
+
+<itemizedlist>
+
+<listitem><para>Linux / Unix:
+<filename moreinfo="none">$(HOME)/.vlc/vlcrc</filename></para></listitem>
+
+<listitem><para>Mac OS X:
+<filename moreinfo="none">HOME/Library/Preferences/VLC</filename></para></listitem>
+
+<listitem><para>Windows 95/98/ME: <filename moreinfo="none">C:\Windows\Application
+Data\vlc\vlcrc</filename></para></listitem>
+
+<listitem><para>Windows XP/2000: <filename moreinfo="none">C:\Documents
+and Settings\username\Application
+Data\vlc\vlcrc</filename></para></listitem>
+
+<listitem><para>BeOS:
+<filename moreinfo="none">config/settings/vlcrc</filename></para></listitem>
+
+</itemizedlist>
+
+</answer></qandaentry>
+
+
+<qandaentry><question><para>
+VLC si comporta in modo strano...
+
+</para></question>
+
+<answer>
+
+<para>La prima cosa da fare è cancellare il file di
+configurazione di VLC (vedi domanda precedente per trovarlo) e
+riavviare VLC; se non ci sono miglioramenti, leggere le domande che
+seguono!
+
+</para>
+
+</answer></qandaentry>
+
+
+<qandaentry><question><para>
+Non riesco a leggere i DVD!
+
+</para></question>
+
+<answer>
+
+<para>
+Verifica innanzitutto quanto segue:
+
+</para>
+
+<itemizedlist>
+
+<listitem><para>Hai installato il package <emphasis>libdvdcss</emphasis>?
+
+</para></listitem>
+
+<listitem><para>Hai accesso in scrittura al lettore DVD? Per
+esempio, sotto Unix:
+
+</para>
+
+<screen format="linespecific">
+<prompt moreinfo="none"># </prompt><userinput moreinfo="none">chmod 666 /dev/dvd</userinput>
+</screen>
+
+<para>dove <filename moreinfo="none">/dev/dvd</filename> è il device
+corrispondente al lettore DVD.
+
+</para>
+
+</listitem>
+
+</itemizedlist>
+
+</answer></qandaentry>
+
+
+<qandaentry><question><para>
+L'immagine video appare, ma è distorta.
+
+</para></question>
+
+<answer>
+
+<para>
+Si tratta probabilmente di un problema con il modulo
+di uscita video (output layer). Ci sono diverse soluzioni. Innanzitutto,
+prova un altro modulo di output:
+
+</para>
+
+<screen format="linespecific">
+<prompt moreinfo="none">% </prompt><userinput moreinfo="none">vlc -V sdl</userinput>
+<prompt moreinfo="none">% </prompt><userinput moreinfo="none">vlc -V x11</userinput>
+</screen>
+
+<para>Secondo, cambia la profondità o la risoluzione dello
+schermo, spesso serve. Alla fine, se in ambiente Unix, controlla il
+driver video XFree86.
+
+</para>
+
+</answer></qandaentry>
+
+
+<qandaentry><question><para>
+L'immagine non è fluida.
+
+</para></question>
+
+<answer>
+
+<para>Il tuo sistema è troppo lento per decodificare tutte
+le immagini. Forse il processore non è abbastanza rapido, semplicemente.
+Oppure il sistema è mal configurato o non aggiornato, per esempio
+capita con RedHat Linux. Ecco qualche consiglio per migliorare la
+velocità:
+
+</para>
+
+<itemizedlist>
+
+<listitem><para>
+Attiva DMA sul tuo lettore DVD, per esempio:
+
+</para>
+
+<itemizedlist>
+
+<listitem><para>
+Sotto Linux:
+
+</para>
+
+<screen format="linespecific">
+<prompt moreinfo="none"># </prompt><userinput moreinfo="none">hdparm -d1 /dev/dvd</userinput>
+</screen>
+
+</listitem>
+
+<listitem><para>Sotto Windows, vai nella sezione
+<emphasis>Sistema</emphasis> del <emphasis>Pannello di
+Controllo</emphasis>, apri la <emphasis>Gestione delle
+Periferiche</emphasis> (si trova talvolta in un'altra sezione,
+oppure nella sezione <emphasis>Opzioni avanzate</emphasis>).
+Dopodiché clicca due volte sul lettore DVD e attiva l'opzione
+<emphasis>DMA</emphasis>.
+
+</para></listitem>
+
+</itemizedlist>
+</listitem>
+
+<listitem><para>
+Aggiornate i diver della scheda video alla versione più recente.
+
+</para>
+
+<para>Se usi Linux, puoi anche provare ad aggiornare
+XFree86; se stai usando la versione più recente, verifica che il plug-in
+xvideo è in uso, con:
+
+</para>
+
+<screen format="linespecific"><prompt moreinfo="none">% </prompt><userinput moreinfo="none">vlc -vvvv</userinput></screen>
+
+</listitem>
+
+<listitem><para>
+Chiudi gli altri programmi eseguiti in background...
+
+</para></listitem>
+
+</itemizedlist>
+
+</answer></qandaentry>
+
+
+<qandaentry><question><para>
+Audio e video non sono sincronizzati
+
+</para></question>
+
+<answer>
+
+<para>Prova ad utilizzare un altro modulo di output e,
+sotto Unix, chiudi <emphasis>esd</emphasis> o <emphasis>artsd</emphasis>
+se sono in esecuzione.
+
+</para>
+
+</answer></qandaentry>
+
+
+<qandaentry><question><para>
+VLC pianta.
+
+</para></question>
+
+<answer>
+
+<para>Aumenta il livello di verbosità (tra le preferenze,
+oppure utilizzando l'opzione <command moreinfo="none">-vvvv</command> in linea di
+comando) e controlla i messaggi di debug (in console o nella finestra
+Messaggi).
+
+</para>
+
+<para>Se sei convinto che si tratta
+di un bug di VLC, dai una occhiata alla <ulink url="http://www.videolan.org/support/bug-reporting.html">pagina di
+segnalazione dei bug</ulink>.
+
+</para>
+
+</answer></qandaentry>
+
+<qandaentry><question><para>
+Come si fanno gli screenshot?
+
+</para></question>
+
+<answer>
+
+<para>Per fare uno screenshot dell'immagine video di
+VLC:
+
+</para>
+
+<itemizedlist>
+
+<listitem><para>
+</para></listitem>
+
+<listitem><para>Sotto Windows, usa l'opzione <command moreinfo="none">--nooverlay
+</command> in linea di comando.
+
+</para></listitem>
+
+</itemizedlist>
+
+</answer></qandaentry>
+
+
+</qandadiv>
+
+
+
+<qandadiv><title>
+Soluzioni di streaming VideoLAN
+
+</title>
+
+<qandaentry><question><para>
+</para></question>
+
+<answer>
+
+<para>
+
+
+
+<itemizedlist>
+
+<listitem><para>
+
+</para></listitem>
+
+<listitem><para>
+
+
+</para></listitem>
+
+</itemizedlist>
+
+</para>
+
+</answer></qandaentry>
+
+
+<qandaentry><question><para>
+VLC contro VLS
+
+</para></question>
+
+<answer>
+
+<para>Si, tutti e due i programmi possono essere
+utilizzati per lo streaming video, come spiegato nel <ulink url="http://www.videolan.org/doc/">VideoLAN HOWTO</ulink>. Le
+caratteristiche di streaming di ciascun programma sono illustrate nella
+<ulink url="http://www.videolan.org/streaming/features.html">pagina
+delle caratteristiche di streaming</ulink>.
+
+</para>
+
+<para>
+Tecnicamente, c'è una importante differenza:
+
+</para>
+
+<itemizedlist>
+
+<listitem><para>VLC apre tutti i layer di sistema del flusso in
+entrata, li rigenera tutti e poi ritrasmette il risultato in rete oppure
+lo scrive in un file. Per cui VLC è adatto a trasmettere delle sorgenti
+audio e/o video poco affidabili, come i file video trovati su Internet
+o prodotti da software non professionali. VLC implementa numerosi
+muxers/demuxers (ps, ts, avi, ogg, mp4...) e numerosi codecs, cosa
+che permette di convertire i formati o anche fare transcoding diretto
+dello stream in ingresso. VLC ha anche delle gradevoli interfacce
+grafiche.
+
+</para></listitem>
+
+<listitem><para>VLS apre soltanto i layer più alti dello stream
+in ingresso e dispone soltanto di demuxer PS e TS, per cui è adatto a
+diffondere video e/o audio affidabili in formato PS o TS, prodotti da
+hardware o software professionali come i DVD o i canali DVB (satellite
+e televisione digitale via etere). VLS si limita a rigenerare i layer
+di sistema strettamente necessari, e nient'altro. VLS è specialmente
+concepito per la diffusione di stream TS multiplexati, per esempio un
+transponder satellite DVB intero. VLS ha solo un muxer TS, non transcoda
+e non ha interfaccia grafica.
+
+</para></listitem>
+
+</itemizedlist>
+
+<para>Per essere un vero server di streaming, VLC dovrebbe
+essere in grado di leggere più di una sorgente input alla volta. VLS
+sa farlo fin dall'inizio del suo sviluppo, VLC per il momento no.
+Alcuni sviluppatori di VLC stanno lavorando ad una nuova versione
+dell'input di VLC, nota come "Input 4", che dovrebbe eliminare questa
+limitazione.
+
+</para>
+
+</answer></qandaentry>
+
+
+
+<qandaentry><question><para>
+Sviluppare entrambi i programmi non è una perdita di tempo.
+
+</para></question>
+
+<answer>
+
+<para>Per capire questa situazione, bisogna considerare
+la storia di VideoLAN. Prima dello stream output di VLC, c'erano due
+programmi molto diversi tra loro:
+
+</para>
+
+<itemizedlist>
+
+<listitem><para>VLS, un programma scritto in C++ per Linux e
+Windows, nient'altro che un motore di streaming MPEG TS, con una
+ridottissima interfaccia telnet, utilizzato come server.
+
+</para></listitem>
+
+<listitem><para>VLC, un programma multipiattaforma scritto in C, che
+implementa demuxers, codecs, output audio e video, interfacce grafiche,
+usato solo come client.
+
+</para></listitem>
+
+</itemizedlist>
+
+<para>In Settembre 2002 alcuni sviluppatori di VLC ebbero
+l'idea di sfruttare i codecs integrati a VLC per creare un modulo di
+streaming il cui scopo era in origine il transcoding. Il modulo di
+stream output per VLC fu scritto e pubblicato con la release 0.5.0
+nel gennaio del 2003. Stream Output comincia adesso a fare un po' di
+transcoding.
+
+</para>
+
+<para>Ma la cosa più importante è che gli sviluppatori di
+VLS e VLC non sono gli stessi, e che sono liberi di scrivere il software
+che preferiscono! Il software libero funziona cosi', e ha mostrato in
+passato che è un ottimo motore per l'innovazione.
+
+</para>
+
+</answer></qandaentry>
+
+</qandadiv>
+
+
+<qandadiv><title>
+Questioni giuridiche
+
+</title>
+
+<qandaentry><question><para>
+Posso usare il logo di VideoLAN?
+
+</para></question>
+
+<answer>
+
+<para>Puoi usare liberamente il logo di VideoLAN,
+utilizzando il copyright seguente:
+
+</para>
+
+<para><emphasis>
+   Copyright (c) 1996-2003 VideoLAN. Questo logo o una sua versione
+   modificata possono essere utilizzati o modificati da chiunque si
+   riferisca al progetto VideoLAN o ai prodotti sviluppati dal team
+   VideoLAN, ma non indica implicazione da parte del progetto.
+
+
+</emphasis></para>
+
+</answer></qandaentry>
+
+<qandaentry><question><para>
+Posso distribuire un programma VideoLAN?
+
+</para></question>
+
+<answer>
+
+<para>Puoi distribuire la versione originale o una
+versione modificata di un software VideoLAN se e solo se rispetti le
+clausole della sua licenza. Questa licenza à la GNU General Public
+License Version 2 (nel seguito: "GPL"), che puoi trovare nel file
+COPYING dei nostri prodotti. Il modo più semplice per essere conformi
+alla licenza GPL è di distribuire il prodotto insieme al suo codice
+sorgente. Per esempio, se vuoi distribuire i più recenti eseguibili
+di VLC, devi includere anche tutti i file elencati nella <ulink url="http://www.videolan.org/vlc/download-sources.html">pagina del
+codice sorgente di VLC</ulink>. Non sei tenuto a spiegare da dove i
+sorgenti vengano, ma devono essere esattamente quelli dell'eseguibile
+distribuito. Ci sono altri modi di adeguarsi alla GPL, ma questo è il
+più semplice poiché non richiede un contratto scritto.
+
+</para>
+
+<note><para>Non devi nemmeno chiedere il permesso al team
+VideoLAN per farlo!
+
+</para></note>
+
+</answer></qandaentry>
+
+<qandaentry><question><para>
+La libdvdcss è legale?
+
+
+</para></question>
+
+<answer>
+
+<para>L'uso e la distribuzione della libreria libdvdcss
+sono controversi in alcuni paesi come gli Stati Uniti a causa di una
+legge chiamata DMCA (Digital Millennium Copyright Act). Se non sei
+sicuro della legittimità d'uso e distribuzione della libdvdcss nel tuo
+paese, informati presso il tuo avvocato.
+
+</para>
+
+</answer></qandaentry>
+
+</qandadiv>
+
+
+
+<qandadiv><title>
+Varie
+
+</title>
+
+<qandaentry>
+
+<question><para>
+Come posso aiutare VideoLAN?
+
+</para></question>
+
+<answer><para>Puoi contribuire fornendo tempo,
+materiale o denaro. Abbiamo anche bisogno di traduttori.
+Puoi trovare tutte le informazioni necessarie sulla <ulink url="http://www.videolan.org/contribute.html">pagina dei
+contributi</ulink>.
+
+
+</para></answer></qandaentry>
+
+
+<qandaentry><question><para>Perché il vostro sito e le vostre mailing list sono
+in inglese?
+
+</para></question>
+
+<answer>
+
+<para>Gli sviluppatori di VideoLAN vengono da tutto il
+mondo e l'inglese è la sola lingua che permette loro di comunicare tutti
+insieme. Benché una grande attenzione sia data alla traduzione del VLC
+in varie lingue, mantenere una traduzione del sito web in più lingue ci
+costerebbe molto più tempo di quanto non ne possiamo impiegare.
+
+</para>
+
+</answer></qandaentry>
+
+</qandadiv>
+
+
+</qandaset>
+
+</article>

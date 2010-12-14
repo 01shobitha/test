@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="iso8859-1" ?>
+
+<chapter id="vlc"><title id="tvlc">
+<span xml:lang="en">VLC, the universal media player</span>
+<span xml:lang="fr">VLC, le lecteur multimédia universel</span>
+</title>
+
+<sect1><title>
+<span xml:lang="en">Installing VLC</span>
+<span xml:lang="fr">Installation de VLC</span>
+</title>
+
+  &install-vlc;
+
+</sect1>
+
+<sect1><title>
+<span xml:lang="en">Running VLC</span>
+<span xml:lang="fr">Utilisation de VLC</span>
+</title>
+
+
+<sect2><title>
+<span xml:lang="en">Read a file</span>
+<span xml:lang="fr">Lecture d'un fichier</span>
+</title>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv video1.xyz</userinput>
+</screen>
+
+<span xml:lang="en"><para>where <filename>video1.xyz</filename> is the name of the file you want to play.</para></span>
+<span xml:lang="fr"><para>où <filename>video1.xyz</filename> est le nom du fichier que vous désirez jouer.</para></span>
+
+</sect2>
+
+<sect2><title>
+<span xml:lang="en">Read a DVD or a VCD</span>
+<span xml:lang="fr">Lecture d'un DVD ou VCD</span>
+</title>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv dvd:/dev/dvd</userinput>
+</screen>
+
+<span xml:lang="en"><para>where <filename>/dev/dvd</filename> is the
+name of your drive (put <filename>D:</filename> under Windows if
+<filename>D</filename> is the letter of your DVD drive).</para></span>
+
+<span xml:lang="fr"><para>où <filename>/dev/dvd</filename> est le
+nom de votre lecteur (utiliser <filename>D:</filename> sous Windows
+si <filename>D</filename> est la lettre de votre lecteur de DVD, par
+exemple).</para></span>
+
+<note><span xml:lang="en"><para>If you are running Linux, you must have write access to the device corresponding to your DVD drive. For that, you should be in the <emphasis>disk</emphasis> or <emphasis>cdrom</emphasis> group (look at the permissions in <filename>/dev</filename>). If you're not, add yourself to the group :</para></span>
+
+<span xml:lang="fr"><para>Sous Linux, vous devez avoir un accès en écriture au périphérique correspondant à votre lecteur de DVD. Pour cela, vous devez être dans le groupe <emphasis>disk</emphasis> ou <emphasis>cdrom</emphasis> (regardez les persmissions dans <filename>/dev</filename>). Si vous n'y êtes pas, ajoutez-vous-y, en tapant:</para></span>
+
+<screen>
+<prompt># </prompt><userinput>adduser your_login disk_or_cdrom</userinput>
+</screen>
+
+<span xml:lang="en"><para>and then restart your session.</para></span>
+<span xml:lang="fr"><para>. Redémarrez ensuite votre session.</para></span>
+
+</note>
+
+</sect2>
+
+<sect2><title>
+<span xml:lang="en">Troubleshooting</span>
+<span xml:lang="fr">Dépannage</span>
+
+</title>
+
+<span xml:lang="en"><para>If VLC doesn't work for you, try to spot an
+error message in the logs that are printed in the terminal.</para>
+
+<para>Then, read the <ulink
+url="http://www.videolan.org/doc/">VideoLAN FAQ</ulink> and have a
+look at the <ulink url="http://bugzilla.videolan.org/">Bugzilla</ulink>
+to see if it is a known issue.</para>
+
+<para>If you can't find out the problem, explain it in English in the
+mailing-list <emphasis>vlc@videolan.org</emphasis> and copy-paste in
+your mail the messages of the message window.</para>
+</span>
+
+<span xml:lang="fr"><para>Si VLC ne fonctionne pas, essayez de trouver
+le message d'erreur en regardant les messages affichés dans votre
+fenêtre de terminal.</para>
+
+<para>Lisez ensuite la <ulink
+url="http://www.videolan.org/doc/">FAQ</ulink> et regardez sur
+<ulink url="http://bugzilla.videolan.org/">Bugzilla</ulink>
+afin de voir s'il s'agit d'un problème connu.</para>
+
+<para>Si vous ne pouvez pas résoudre le problème, merci de
+bien vouloir l'exposer, en anglais, sur la mailing-list
+<emphasis>vlc@videolan.org</emphasis>. Merci de copier-coller dans votre
+mail les messages de la fenêtre de messages.</para>
+</span>
+
+
+</sect2>
+</sect1>
+</chapter>

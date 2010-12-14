@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<chapter id="vlc-sap"><title id="tvlc-sap">
+<span xml:lang="en">Add a channel information service</span>
+<span xml:lang="fr">Ajoutez un service d'information</span>
+</title>
+
+<span xml:lang="en">
+<para>Typing multicast addresses is not very fun... that's why you need
+a channel information service ! VideoLAN has implemented a channel
+information service based on the SAP/SDP standard. VLC's stream output
+can send SAP announces when streaming (on the multicast address
+<emphasis>224.2.127.254</emphasis> reserved for this purpose). On the
+client side, VLCs receive these annouces and automatically add the
+programs announced to their playlist. </para>
+</span>
+
+<span xml:lang="fr">
+<para>Taper des adresses multicast n'est certainement pas très amusant,
+... et c'est tout l'interêt d'un système d'information ! La solution
+VideoLAN implémente un service d'information basé sur le protocole
+SAP/SDP. Le stream output du VLC peut envoyer des annonces SAP tout en
+diffusant (sur l'adresse multicast <emphasis>224.2.127.254</emphasis>,
+réservée à cet usage). Côté client, VLC reçoit ces annonces et ajoute
+automatiquement les programmes concernés à la liste de lecture</para>
+</span>
+
+<sect1><title>
+<span xml:lang="en">Send announces when streaming with VLC</span>
+<span xml:lang="fr">Envoyer des annonces pendant la diffusion avec VLC</span>
+</title>
+
+<para>
+<span xml:lang="en">To send announces with VLC, you need to use the complex syntax of
+VLC's stream output, like this:</span>
+<span xml:lang="fr">Pour envoyer des annonces avec VLC, vous devez utiliser la syntaxe
+complexe du stream output, ce qui donne, par exemple:</span>
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv video1.xyz --sout '#standard{access=udp,url=239.255.12.42,sap,name="Test Stream"}' --ttl 12</userinput>
+</screen>
+
+<span xml:lang="en">
+<para>where <filename>video1.xyz</filename> is the file you want
+to stream, <emphasis>239.255.12.42</emphasis> is the multicast IP
+address you want to stream on, <emphasis>Test Stream</emphasis> is
+the name that will be used for this program in the SAP announces and
+<emphasis>12</emphasis> is the value of the TTL (Time To Live) of the
+stream and of the SAP announces.</para>
+</span>
+
+<span xml:lang="fr">
+<para>où <filename>video1.xyz</filename> est le fichier que vous désirez
+diffuser, vers l'adresse multicast <emphasis>239.255.12.42</emphasis>.
+<emphasis>Test Stream</emphasis> est le nom qui sera utilisé pour ce
+programme, dans l'annonce SAP. <emphasis>12</emphasis> est la valeur du
+TTL du flux et de l'annonce SAP</para>
+</span>
+
+</sect1>
+
+<sect1><title>
+<span xml:lang="en">Start VLC(s) on the client(s)</span>
+<span xml:lang="fr">Lancer VLC sur le(s) client(s)</span>
+</title>
+
+<para>
+<span xml:lang="en">Start VLC with the <emphasis>sap</emphasis> interface:</span>
+<span xml:lang="fr">Lancer VLC avec l'interface <emphasis>sap</emphasis>:</span>
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv --extraintf sap</userinput>
+</screen>
+
+<span xml:lang="en">
+<para>Then open the playlist: you should see the names of the programs
+announced in SAP. When you double-click on the name of a program,
+VLC will subscribe to the multicast address and start to play the stream
+!</para>
+</span>
+
+<span xml:lang="fr">
+<para>Ouvrez ensuite la liste de lecture. Vous devriez voir les noms des
+programmes annoncés en SAP. Quand vous double-cliquez sur le nom d'un
+programme, VLC s'abonne à l'adresse multicast et commence à lire le
+flux</para>
+</span>
+
+</sect1>
+</chapter>

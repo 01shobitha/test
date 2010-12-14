@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="dvb"><title id="tdvb">
+Transmisión de un canal DVB (satélite o televisión digital
+terrestre)
+
+</title>
+
+<note><para>
+
+
+Esto sólo es posible bajo GNU/Linux
+
+
+.</para></note>
+
+<sect1><title>
+
+
+Instalar los drivers DVB
+
+</title>
+
+<para>
+
+
+Si se quiere transmitir desde una tarjeta DVB (tarjeta de satélite o de TV digital terrestre), se necesita instalar los drivers DVB:
+
+
+</para>
+
+<itemizedlist>
+
+<listitem><para>
+
+
+
+
+
+si se utiliza un kernel Linux 2.6.x, sólo se necesita compilar los módulos adecuados;
+
+
+
+</para></listitem>
+
+<listitem><para>
+
+
+
+
+
+si se está usando un kernel Linux 2.4.x, 
+se debe descargar la última versión de los drivers DVB desde la <ulink url="http://www.linuxtv.org/download/dvb/">página de descarga de drivers DVB
+</ulink> del proyecto <ulink url="http://www.linuxtv.org/">LinuxTV</ulink>
+Project.
+
+
+
+</para></listitem>
+
+</itemizedlist>
+
+
+
+<para>
+
+
+Descomprimir el tarball y seguir las instrucciones
+escritas en el fichero <filename>INSTALL</filename> para compilar e instalar
+los drivers
+
+
+.</para>
+
+</sect1>
+
+<sect1><title>
+
+
+Transmisión con VLS
+
+</title>
+
+<para>
+
+
+Crear un fichero <filename>.dvbrc</filename> que contenga 
+los canales DVB (canales de satélite o de televisión digital terrestre) que se 
+quieren transmitir en el directorio raiz (algunos de ellos se proporcionan en el
+tarball <emphasis>libdvb</emphasis> para canales de satélite)
+
+
+.</para>
+
+<para>
+
+
+Ejecutar VLS con la siguiente línea de comandos
+
+
+ :</para>
+
+<screen>
+<prompt>% </prompt><userinput>vls -vv -d udp:192.168.0.42 dvb:"EUROSPORT" --ttl 12</userinput>
+</screen>
+
+<para>
+
+ 
+donde
+
+:</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>"EUROSPORT"</emphasis>
+
+
+ es el canal que se quiere transmitir, como se ha descrito en el fichero
+<filename>~/.dvbrc</filename>
+
+,</para></listitem>
+
+<listitem><para><emphasis>192.168.0.42</emphasis>
+
+
+ es 
+
+:</para>
+
+<itemizedlist>
+<listitem><para>
+
+
+la dirección IP de la máquina a la que se quiere hacer unicast
+
+
+;</para></listitem>
+
+<listitem><para>
+
+
+o el DNS de la máquina a la que se quiere hacer unicast
+
+
+;</para></listitem>
+
+<listitem><para>
+
+
+o una dirección IP multicast
+
+
+.</para></listitem>
+
+
+</itemizedlist>
+
+</listitem>
+
+<listitem><para><emphasis>12</emphasis>
+
+
+ es el valor del TTL (Time To
+Live) de los paquetes IP (lo que significa que el stream será capaz
+de cruzar por 11 routers)
+
+
+.</para></listitem>
+
+</itemizedlist>
+
+</sect1>
+
+<sect1><title>
+
+
+Transmisión con VLC
+
+</title>
+
+<note><para>
+
+Para esto, se debería utilizar la versión SVN de VLC y compilarla
+con <command>./configure --enable-dvb</command> Esta característica debería
+ser considerada todavía como experimental.
+
+</para></note>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv --program 8211 dvb:12597000:0:3:27500000 --sout udp:192.168.0.12 --ttl 12</userinput>
+</screen>
+
+<para>
+
+
+donde
+
+ :</para>
+
+<itemizedlist>
+
+<listitem><para>
+
+<filename>8211</filename> es el PID del canal DVB
+que se quiere transmitir, expresado como un decimal
+
+
+;</para></listitem>
+
+<listitem><para>
+
+<filename>12597000</filename> es la frecuencia del
+transpondedor que se quiere transmitir, en Hz
+
+;</para></listitem>
+
+<listitem><para>
+
+<filename>0</filename> es la polarización (0 para
+vertical, 1 para horizontal)
+
+;</para></listitem>
+
+<listitem><para>
+
+<filename>3</filename> es el FEC (3 para 3/4, 9 para
+automático)
+
+;</para></listitem>
+
+<listitem><para>
+
+<filename>27500000</filename> es la tasa de
+símbolos (symbolrate) del transpondedor, en Hz
+
+;</para></listitem>
+
+<listitem><para><emphasis>192.168.0.12</emphasis>
+
+ es 
+
+:</para>
+
+<itemizedlist>
+
+<listitem><para>
+
+la dirección IP de la máquina a la que se quiere transmitir en unicast
+
+
+;</para></listitem>
+
+<listitem><para>
+
+o el nombre DNS de la máquina a la que se quiere transmitir en unicast
+
+
+;</para></listitem>
+
+<listitem><para>
+
+o la dirección IP multicast.
+
+</para></listitem>
+
+</itemizedlist>
+
+</listitem>
+
+<listitem><para>
+
+<emphasis>12</emphasis> es el valor del TTL (Time
+To Live) de los paquetes IP (lo que significa que el flujo es capaz de cruzar 11
+routers).
+
+</para></listitem>
+
+</itemizedlist>
+
+</sect1>
+</chapter>

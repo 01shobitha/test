@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="smc"><title id="tsmc">
+Diffusions, muxeurs et codecs</title>
+
+
+
+<sect1><title>Introduction</title>
+
+<sect2><title>Apperçu</title>
+<para>VideoLAN est une solution complète pour la lecture et la diffusion de vidéo par réseau, développée par des étudiants de l'<ulink url="http://www.ecp.fr">Ecole Centrale Paris</ulink> et des développeurs du monde entier, sous licence <ulink url="http://www.gnu.org/copyleft/gpl.html">GNU General Public License</ulink> (GPL). VideoLAN est concu pour diffuser des vidéos MPEG sur des réseaux haut débit.</para>
+<para>La solution de diffusion VideoLAN comprend :</para>
+<itemizedlist>
+<listitem><para>VLS (VideoLAN Server), qui peut diffuser des fichiers MPEG-1, MPEG-2 et MPEG-4, des DVDs, des chaines numériques satellite, des chaines de télévision numérique terrestre et des flux vidéos réseau en unicast ou multicast.</para></listitem>
+<listitem><para>VLC (à l'origine dénomé VideoLAN Client), qui peut être utilisé comme un serveur pour diffuser des fichiers MPEG-1, MPEG-é et MPEG-4, des DVDs et des flux vidéo réseau en unicast ou multicast ; ou comme un client pour recevoir, décoder et afficher des flux MPEG sous de nombreux systèmes d'exploitation.</para></listitem>
+</itemizedlist>
+<para>Voici une illustration de la solution de diffusion VideoLAN :</para>
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/global-diagram.jpg" format="JPG" />
+  </imageobject>
+  <textobject><para>Solution de diffusion VideoLAN</para></textobject>
+  <caption><para>Solution de diffusion VideoLAN</para></caption>
+</mediaobject>
+<para>Pour plus de détails sur le projet, veuillez consulter le <ulink url="http://www.videolan.org">site web de VideoLAN</ulink>.</para>
+</sect2>
+
+<sect2><title>Logiciels VideoLAN</title>
+<sect3><title>VLC media player</title>
+<para>VLC tourne sur de nombreux systèmes d'exploitation : Linux, Windows, Mac OS X, BeOS, *BSD, Solaris, Familiar Linux, Yopy/Linupy et QNX. Il peut lire :</para>
+<itemizedlist>
+<listitem><para>des fichiers MPEG-1, MPEG-2 et MPEG-4 / DivX depuis un disque dur, un lecteur de CD-ROM, ...</para></listitem>
+<listitem><para>des DVDs et VCDs</para></listitem>
+<listitem><para>depuis des cartes d'acquisition satellite (DVB-S)</para></listitem>
+<listitem><para>des flux MPEG-1, MPEG-2 et MPEG-4 reçu par le réseau et diffusés par des VLC ou le stream output de VLC</para></listitem>
+</itemizedlist>
+<para>VLC peut aussi être utilisé en temps que serveur pour diffuser :</para>
+<itemizedlist>
+<listitem><para>des fichiers MPEG-1, MPEG-2 et MPEG-4 / DivX</para></listitem>
+<listitem><para>des DVDs</para></listitem>
+<listitem><para>depuis une carte d'encodage MPEG</para></listitem>
+</itemizedlist>
+<para>vers :</para>
+<itemizedlist>
+<listitem><para>une machine (c'est a dire une addresse IP) : ceci est appelé <emphasis>unicast</emphasis></para></listitem>
+<listitem><para>un groupe dynamique de machines que les clients peuvent joindre ou quitter (par exemple une adresse IP multicast) : ceci est appelé <emphasis>multicast</emphasis></para></listitem>
+</itemizedlist>
+<para>en IPv4 ou IPv6</para>
+<para>Pour obtenir une liste complète des fonctionalités de VLC sur les différentes plateformes supportées, allez voir la <ulink url="http://www.videolan.org/vlc/features.html">VLC features page</ulink>.</para>
+<note><para>VLC ne fonctionne pas sous Mac OS 9.</para></note>
+</sect3>
+<sect3><title>Mini-SAP-server</title>
+<para>You can add a channel information service based on the SAP/SDP standard to the VideoLAN solution. The mini-SAP-server sends announces about the multicast programs on the network in IPv4 or IPv6, and VLCs receive these annouces and automatically add the programs announced to their playlist.</para>
+<para>The mini-SAP-server works under Linux and Mac OS X.</para>
+</sect3>
+</sect2>
+</sect1>
+
+<sect1><title>Muxers et codecs</title>
+<sect2><title>Qu'est-ce qu'un codec ?</title>
+<para>Pour bien comprendre la solution VideoLAN, vous devez comprendre la différence entre un <emphasis>codec</emphasis> et un <emphasis>conteneur</emphasis></para>
+<para>Un <emphasis>codec</emphasis> est un algorithme de compression utilisé pour réduire la taille d'un flux. Il y a des codecs audio et des codecs video. MPEG-1, MPEG-2, MPEG-4, Vorbis, DivX, etc. sont des codecs.</para>
+</sect2>
+<sect2><title>Qu'est-ce qu'un conteneur ? (ou muxeur)</title>
+<para>Pour commencer, considérez un <emphasis>conteneur</emphasis> comme l'emballage d'un colis. Vous recevez un colis par la poste et vous pensez "Chouette ! qu'est-ce qu'il y a à l'interieur ?" Vous ne vous souciez pas vraiment de la boite elle même, vous vous interessez plutot à son contenu. Le problème ? Vous ne pouvez pas voir à l'interieur de la boite. Que faites vous donc ? Vous prenez une paire de ciseaux et vous l'ouvrez.</para>
+<para>Un <emphasis>conteneur</emphasis> se base sur cette idée. Il contient une ou plusieurs flux déjà encodés à l'aide de codecs. Généralement, il y a un flux vidéo et un flux audio. AVI, Ogg, MOV, ASF, MP4 etc sont des conteneurs. Les flux contenus peuvent être encodés à l'aide de codecs différents. Dans un monde parfait, vous pourriez mettre n'importe quel codec dans n'importe quel conteneur. Malheureusement il y a quelques incompatibilités. Vous pouvez trouver une matrice des différents codecs et conteneurs possible sur la <ulink url="http://www.videolan.org/streaming/features.html">features page</ulink>.</para>
+</sect2>
+<sect2><title>Encoder une vidéo</title>
+<para>C'est la première étape lorsque vous créez votre colis.</para>
+<para>Vous devez tout d'abbord encoder votre fichier. Ceci veut dire qu'un fichier, que ce soit de l'audio ou de la vidéo, est compressé sous un autre format qui prend moins de place que le format précédent. Mes codecs généralement utilisés pour la vidéo sont DivX, MPEG-1, MPEG-2 et MPEG-4. Pour l'audio, il s'aggit de MP3 ou Vorbis.</para>
+<para>Vous devez ensuite mutilplexer. En gros, il s'aggit de prendre les flux séparés et de les grouper dans un seul fichier.</para>
+</sect2>
+<sect2><title>Lire une vidéo</title>
+<para>Maintenant que vous avez un colis, vous allez devoir l'ouvrir avant de pouvoir accéder à son contenu. C'est exactement ce que VLC va faire. Pour décoder un flux, VLC va tout d'abbord le <emphasis>démuxer</emphasis>. Il lit donc le conteneur et sépare l'audio, la vidéo et les sous-titres, s'ils existent. Démuxer des fichiers ne baisse pas la qualité de la vidéo ou de l'audio. Ca ne change pas du tout ces flux de données. Ca ne fait que les sauvegarder dans des fichiersdifférents, chacun contenant un élément du fichier original. Ensuite, chacun de ces flux sont passés à des <emphasis>décodeurs</emphasis> qui font les calculs mathématiques permettant de décompresser le flux.</para>
+<para>Il y a une particulatrité concernant MPEG :</para>
+<itemizedlist>
+<listitem><para>MPEG est un codec. Il y a plusieurs versions de ce codec appelées MPEG-1, MPEG-2, MPEG-4 ...</para></listitem>
+<listitem><para>MPEG est aussi un conteneur, parfois appelé MPEG System. Il y a plusieurs types de conteneurs MPEG : ES, PS et TS.</para>
+<para>Par exemple, quand vous lisez une vidéo MPEG sur un DVD, les flux MPEG sont en fait composés de plusieurs flux (appelés flux élémentaires, ES) : il y a un flux pour la vidéo, un pour l'audio, un autre pour les soustitres et ainsi de suite. Ces différents flux sont mélangés dans un seul Program Stream (PS). Ainsi, les fichiers .VOB que vous pouvez trouver sur un DVD sont en fait des fichiers MPEG-PS. Cependant, ce format PS n'est pas adapté à la diffusion de vidéo sur un réseau ou par satellite. Un autre format, appelé Transport Stream (TS) a donc été conçu pour diffuser du MPEG sur de tels dispositifs.</para></listitem>
+</itemizedlist>
+</sect2>
+</sect1>
+
+</chapter>

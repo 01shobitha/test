@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="install"><title id="tinstall">
+
+Installation de VLS
+
+</title>
+
+<sect1><title>
+
+Installation de VLS
+
+</title>
+&install-vls;
+</sect1>
+
+<sect1><title>
+
+Désinstallation de VLS
+
+</title>
+&uninstall-vls;
+</sect1>
+
+</chapter>

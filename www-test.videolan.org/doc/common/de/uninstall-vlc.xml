@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<sect2><title>Windows</title>
+
+<para>
+ Klicken Sie auf das <emphasis>Uninstall VLC</emphasis>-Icon, das während der Installation erzeugt wurde.
+
+</para>
+
+</sect2>
+
+<sect2><title>BeOS</title>
+
+<para>
+Löschen Sie das <filename>vlc-version</filename>
+Verzeichnis. Sie können außerdem die Konfigurationsdatei
+<filename>/boot/home/config/settings/vlcrc</filename> löschen.
+
+</para>
+
+</sect2>
+
+<sect2><title>Mac OS X</title>
+
+<para>
+Ziehen Sie das VLC-Programm auf Ihren Papierkorb.
+
+</para>
+
+</sect2>
+
+<sect2><title>Debian GNU/Linux</title>
+
+<para>
+Entfernen Sie die Pakete, die Sie installiert haben:</para>
+
+<screen>
+<prompt># </prompt><userinput>apt-get remove --purge vlc-gnome vlc-mad libdvdcss2 libdvbpsi1</userinput>
+</screen>
+
+</sect2>
+
+<sect2><title>GNU/Linux Redhat, Mandrake und SuSE</title>
+
+<para>
+Deinstallieren Sie die RPM-Pakete, die Sie installiert haben:</para>
+
+<screen>
+<prompt># </prompt><userinput>rpm -e vlc-version vlc-mad-version vlc-gnome-version
+libdvdcss2-version libdvdpsi1-version</userinput>
+</screen>
+
+</sect2>
+
+<sect2><title>
+Wenn Sie VLC aus den Quellen kompiliert haben
+</title>
+
+<para>
+Gehen Sie in das Verzeichnis, das die Quellen von VLC enthält und führen Sie aus:</para>
+
+<screen>
+<prompt># </prompt><userinput>make uninstall</userinput>
+</screen>
+
+<para>
+Danach können Sie die Quellen von VLC entfernen.
+
+</para>
+
+</sect2>

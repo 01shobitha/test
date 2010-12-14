@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<para>
+VLS kann MPEG-Dateien streamen, die zwei Kriterien entsprechen
+</para>
+
+<itemizedlist>
+
+<listitem><para>
+Die Datei muss entweder MPEG
+<emphasis>PS</emphasis> (Program Stream) oder MPEG
+<emphasis>TS</emphasis> (Transport Stream) sein, das gemultiplextes Bild
+und Ton enthält.VLS kann kein MPEG <emphasis>ES</emphasis>
+(Elementary Stream), d.h. eine Datei mit nur Ton oder Bild, streamen..
+
+</para>
+
+<para>
+Um zu erfahren, ob eine MPEG-Datei MPEG
+<emphasis>PS</emphasis>, MPEG <emphasis>TS</emphasis> oder MPEG
+<emphasis>ES</emphasis>, lesen Sie die Datei mit VLC und schauen Sie auf
+die Meldungen (im Meldungenfenster oder benutzen Sie die Befehlszeile
+<command>vlc -vvv</command>).
+
+</para>
+
+<itemizedlist>
+
+<listitem><para>
+Wenn Sie sehen:</para>
+
+<programlisting>
+[00000107] main module debug: using demux module "ts_dvbpsi"
+</programlisting>
+
+<para>
+ist die Datei MPEG TS.
+
+</para></listitem>
+
+
+<listitem><para>
+Wenn Sie sehen
+:</para>
+
+<programlisting>
+[00000109] main module debug: using demux module "ps"
+</programlisting>
+
+<para>
+ist die Datei MPEG PS.
+
+</para></listitem>
+
+<listitem><para>
+Wenn Sie sehen:</para>
+
+<programlisting>
+[00000109] main module debug: using demux module "es"
+</programlisting>
+
+<para>
+ist die Datei MPEG ES, was VLS nicht streamen kann.
+
+</para></listitem>
+
+
+</itemizedlist>
+
+</listitem>
+
+<listitem><para>
+Der Sequenz-Header des Videos muss sich selbst regelmäßig
+wiederholen, was bei MPEG-2 oft der Fall ist, jedoch selten bei MPEG-1. Es gibt keinen
+einfachen Weg zu erfahren, ob der Sequenz-Header regelmäßig wiederholt wird.
+Datei mit einem <emphasis>.vob</emphasis>-Suffix sind normalerweise
+MPEG-2 - Dateien und Datein mit dem <emphasis>.mpg.</emphasis> oder
+<emphasis>.mpeg</emphasis>-Suffix sind üblicherweise MPEG-1 - Dateien.
+
+</para>
+
+</listitem>
+</itemizedlist>
+
+<para>
+Sie können diese streambare MPEG-2 PS - Datei für Ihre
+Tests herunterladen: <ulink 
+url="ftp://ftp.videolan.org/pub/videolan/streams/presentation/presentation_short.vob">presentation_short.vob</ulink>.
+
+</para>

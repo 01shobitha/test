@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="config"><title id="tconfig">
+
+
+Konfiguration
+</title>
+
+<para>
+
+
+VLS liest seine Einstellungen aus der Konfigurationsdatei
+<filename>vls.cfg</filename>, welche im aktuellen Verzeichnis oder in
+<filename>SYSCONF_DIR/videolan/vls</filename> sein sollte (wobei
+<emphasis>SYSCONF_DIR</emphasis> <filename>/usr/local/etc</filename>,
+wenn Sie VLS von Hand erstellt und installiert haben, oder <filename>/etc</filename>
+ist, wenn Sie das binäre Debianpaket installiert haben.).
+
+</para>
+
+<para>
+
+
+
+
+Um eine <filename>vls.cfg</filename>-Datei zuschreiben, nehmen Sie
+am Besten die mit VLS mitgelieferte als Ausgangspunkt.
+
+
+
+</para>
+
+<sect1><title>
+
+
+Allgemeine Struktur
+</title>
+
+<para>
+
+
+Die Konfigurationsdatei <filename>vls.cfg</filename> ist in
+Sektionen aufgeteilt. Jede darf mehrere Variablen enthalten:</para>
+<programlisting>
+
+ 
+
+BEGIN "ErsteSektion"
+  Variable1 = "Wert1"
+  Variable2 = "Wert2"
+  [...]
+END
+
+BEGIN "ZweiteSektion"
+  Variable1 = "Wert1"
+  Variable3 = "Wert3"
+  [...]
+END
+
+[...]
+</programlisting>
+
+<para>
+
+
+Alle Sektionsnamen, Variablennamen und Werte sind nicht
+case-sensitive, d.h. sie werden unabhängig von Groß oder Kleinschreibung
+ausgewertet. Es darf leere Sektionen und Untersektionen geben. Kommentare müssen
+einem <keycap>#</keycap> folgen. Einige Variablen haben einen standardmäßigen
+Wert. Dies bedeutet, dass Sie die Deklaration dieser Variablen weglassen können. Dann
+wird diesen ihr Standardwert zugewiesen.
+
+</para>
+
+</sect1>
+
+<sect1><title>
+
+
+Schreiben einer <filename>vls.cfg</filename>-Datei
+</title>
+
+<para>
+
+
+Nun folgt eine Erklärung aller Sektionen, die in einer
+<filename>vls.cfg</filename>-Datei gefunden werden können:</para>
+
+<sect2><title>Section "VLS"</title>
+
+<para>
+
+
+Diese Sektion enthält programmweite Einstellungen.
+
+</para>
+
+<programlisting>
+LogFile = "name"
+</programlisting>
+
+<para>
+
+
+Der Name der VLS-Logdatei. Wenn er leer ("") gelassen
+wird, wird kein Protokoll in einer Datei gespeichert. Der Standardwert ist
+"vls.log".
+
+</para>
+
+<programlisting>
+SystemLog = "[disable|enable]"
+</programlisting>
+
+<para>
+
+
+Protokollierung im Log des Systems. Derzeit wird nur
+syslog unterstützt. Kompilieren SIe mit <command>./configure
+--enable-syslog</command>.
+
+</para>
+
+<caution><para>
+
+
+Wenn VLS durch <command>vlsd</command> gestartet
+wird, ist die folgende Konfiguration verbindlich:</para>
+
+<programlisting>
+BEGIN "Vls"
+  LogFile   = ""
+  SystemLog = "enabled"
+  ScreenLog = "disabled"
+END
+</programlisting>
+
+</caution>
+
+<programlisting>
+ScreenLog = "[disable|enable]"
+</programlisting>
+
+<para>
+
+
+Protokollierung in der Konsole.
+
+</para>
+
+<para>
+
+
+Beispiel:</para>
+
+<programlisting>
+BEGIN "Vls"
+  LogFile   = "vls.log"
+  SystemLog = "disable"
+  ScreenLog = "enable"
+END
+</programlisting>
+
+</sect2>
+
+<sect2><title>
+
+
+Sektion "Groups"
+</title>
+
+<para>
+
+
+In dieser Sektion können Sie Benutzergruppen
+und die Befehle, die diese ausführen dürfen, festlegen. Für jede Gruppe,
+die Sie festlegen möchten, müssen Sie eine Zeile im folgenden Format
+hinzufügen:</para>
+
+<programlisting>
+groupname = "command1|command2|..."
+</programlisting>
+
+<para>
+
+
+Diese fügt eine Gruppe "groupname" hinzu, deren
+Nutzern erlaubt ist, command1, command2 usw. auszuführen. Derzeit sind die
+verfügbaren Befehle help, browse, start, suspend, resume, forward, rewind, stop,
+shutdown und logout.
+
+</para>
+
+<para>
+
+
+Beispiel:</para>
+
+<programlisting>
+BEGIN "Groups"
+  monitor = "help|browse|logout"
+  master  = "help|browse|start|resume|suspend|forward|rewind|stop|shutdown|logout"
+END
+</programlisting>
+
+</sect2>
+
+<sect2><title>
+
+
+Sektion "Users"
+</title>
+
+<para>
+
+
+Diese Sektion enthält eine Liste von Benutzern, denen
+es gestattet ist, VLS durch ein Administrationsinterface zu steuern.
+Fügen Sie für jeden Benutzer eine Zeile im folgenden Format hinzu:</para>
+
+<programlisting>
+username = "password:groupname"
+</programlisting>
+
+<para>
+
+
+Dies fügt einen Benutzer "username" hinzu, der zur
+Gruppe "groupname" gehört, wie sie in der "Groups"-Sektion festgelegt wurde,
+und sich mit dem Passwort "password" anmelden kann.
+
+</para>
+
+<itemizedlist>
+
+<listitem><para>
+
+
+Unter Unix/Linux muss das Passwort mit einem Tool wie
+<command>mkpasswd</command> oder mit der Unix-Funktion "crypt"
+verschlüsselt werden.
+
+</para></listitem>
+
+<listitem><para>
+
+
+Unter Windows muss das Passwort in klaren Text sein.
+
+</para></listitem>
+
+</itemizedlist>
+
+<para>
+
+
+Beispiel für Unix/Linux:</para>
+
+<programlisting>
+BEGIN "Users"
+  monitor = "3BcKWoiQn0vi6:monitor"       # password is 'monitor'
+  admin   = "42BKiCguFAL/c:master"        # password is 'Vir4Gv5S'
+END
+</programlisting>
+
+</sect2>
+
+<sect2><title>
+
+
+Sektion "Telnet"
+</title>
+
+<para>
+
+
+In dieser Sektion können Sie das
+Telnetadministrationsinterface einstellen.
+
+</para>
+
+<programlisting>
+LocalPort = "port"
+</programlisting>
+
+<para>
+
+
+Legt fest, welcher Port für den Telnetserver benutzt
+werden wird. Der Standardport ist "9999".
+
+</para>
+
+<programlisting>
+Domain = "domain"
+</programlisting>
+
+<para>
+
+
+Entweder "inet4" oder "inet6" (der Standard ist "inet4").
+Wenn Sie IPv4-Adressen benutzen möchten, nehmen Sie "inet4". Wenn Sie
+IPv6 benutzen möchten, nehmen Sie "inet6".
+
+</para>
+
+<programlisting>
+LocalAddress = "IP address"
+</programlisting>
+
+<para>
+
+
+Legt fest, auf welcher IP-Adresse der Telnetserver
+nach Befehlen hören wird. Die Standardadresse ist "0.0.0.0" (oder "0::0" bei
+IPv6).
+
+</para>
+
+<para>
+
+
+Beispiel:</para>
+
+<programlisting>
+BEGIN "Telnet"
+  LocalPort = "9999"
+END
+</programlisting>
+</sect2>
+
+<sect2><title>
+
+
+Sektion "NativeAdmin"
+</title>
+
+<para>
+
+
+Die gleiche Syntax wie "Telnet". Wird noch nicht benutzt.
+
+</para>
+
+</sect2>
+
+<sect2><title>
+
+
+Sektion "Inputs"
+</title>
+
+<para>
+
+
+In dieser Sektion legen Sie fest, welche Inputs Sie benutzen
+möchten. Fügen Sie für jeden Input, den Sie benötigen, eine Zeile im folgenden
+Format hinzu:</para>
+
+<programlisting>
+InputName = "Type"
+</programlisting>
+
+<para>
+
+
+Dies fügt einen Input namens "InputName" hinzu, dessen
+Typ "Type" ist. Wie bereits erklärt, gibt es mehrere Arten von Inputs:</para>
+
+<itemizedlist>
+
+<listitem><para>
+
+
+
+"local", um einen Stream aus einer Datei oder einer
+DVD wiederzugeben
+,</para></listitem>
+
+<listitem><para>
+
+
+"video", um einen Stream einer MPEG-Kodierungskarte
+wiederzugeben
+,</para></listitem>
+
+<listitem><para>
+
+
+"dvb", um einen Stream einer DVB-Karte wiederzugeben
+,</para></listitem>
+
+<listitem><para>
+
+
+"v4l" um einen Stream eines Video4Linux-Gerätes
+wiederzugeben.
+
+</para></listitem>
+
+</itemizedlist>
+
+<para>
+
+
+Jeder Input muss in seiner eigenen Sektion konfiguriert werden
+(siehe den nächsten Abschnitt).
+
+</para>
+
+<para>
+
+
+Beispiel:</para>
+
+<programlisting>
+BEGIN "Inputs"
+  local1 = "local"
+  pvr    = "video"
+  dvb1   = "dvb"
+  tuner  = "v4l"
+END
+</programlisting>
+</sect2>
+
+<sect2><title>
+
+
+Konfiguration der Inputs
+</title>
+
+<para>
+
+
+Für jeden Input, der in der "Inputs"-Sektion deklariert
+wurde, müssen Sie, abgesehen von "local"-Inputs, eine Sektion mit dem gleichen
+Namen hinzufügen. Wenn Sie beispielsweise den Input "pvr" deklariert haben,
+sollte es auch eine Sektion namens "pvr" geben. Die Syntax solcher Sektionen
+hängt vom Typus des Inputs ab.
+
+</para>
+
+<para>
+
+
+Um einen lokalen Input zu konfigurieren, müssen Sie
+nichts tun, es sei denn, dass eine andere "trickplay"-Strategie benutzt werden
+muss:</para>
+
+<programlisting>
+BEGIN "Local1"
+  ProgramCount = "1"
+  TrickPlay    = "normal"
+END
+</programlisting>
+
+<para>
+
+
+"Local1" ist der Name des lokalen Inputs, den Sie
+konfigurieren möchten. "ProgramCount" ist die Anzahl von Programmen,
+die diesem Input zugewiesen worden sind. "TrickPlay" ist die trickplay-Strategie,
+die von diesem Input benutzt wird (standardmäßig "normal").
+
+</para>
+
+<para>
+
+
+Um einen Video-Input zu konfigurieren, fügen Sie eine
+Sektion im folgenden Format hinzu:</para>
+
+<programlisting>
+BEGIN "VideoInputName"
+  Device = "device"
+  Type   = "type"
+END
+</programlisting>
+
+<para>
+
+
+"VideoInputName" ist der Name des Video-Inputs, den
+Sie konfigurieren möchten. "Device" ist der Pfad der MPEG-Kodierungskarte, von
+der Sie lesen möchten (standardmäßig "/dev/video"). "Type" ist entweder
+"Mpeg2-PS" oder "Mpeg2-TS", entsprechend Ihrer Geräteinstellung
+(standardmäßig "Mpeg2-PS").
+
+</para>
+
+<para>
+
+
+Beispiel für eine Hauppauge WinTV-PVR-250 - Karte:</para>
+
+<programlisting>
+BEGIN "pvr"
+  Device = "/dev/video0"
+  Type   = "Mpeg2-PS"
+END
+</programlisting>
+
+<para>
+
+
+Um einen DVB-Input zu konfigurieren, fügen Sie eine
+Sektion im folgenden Format hinzu:</para>
+
+<programlisting>
+BEGIN "DvbInputName"
+  DeviceNumber = "devicenumber"
+  SendMethod   = "0"
+END
+</programlisting>
+
+<para>
+
+
+
+</para>
+
+<para>
+
+
+Beispiel:</para>
+
+<programlisting>
+BEGIN "dvb1"
+  DeviceNumber = "0"
+  TrickPlay = "normal"
+END
+</programlisting>
+
+</sect2>
+
+<sect2><title>
+
+
+Sektion "Channels"
+</title>
+
+<para>
+
+
+In dieser Sektion können Sie die Channel (Outputs),
+die Sie benutzen möchten, definieren. Fügen Sie pro Channel eine Zeile im
+folgenden Format hinzu:</para>
+
+<programlisting>
+ChannelName = "Type"
+</programlisting>
+
+<para>
+
+
+Dies fügt einen Channel namens "ChannelName" hinzu,
+dessen Typ "Type" ist. "Type" muss entweder "network" oder "file". Wie Inputs
+müssen Channel in ihrer eigenen Sektion konfiguriert werden.
+
+</para>
+
+<para>
+
+
+Beispiel:</para>
+
+<programlisting>
+BEGIN "Channels"
+  localhost  = "network"
+  client1    = "network"
+  client2    = "network"
+  multicast1 = "network"
+  multicast2 = "network"
+  localfile  = "file"
+END
+</programlisting>
+
+</sect2>
+
+<sect2><title>
+
+
+Konfiguration der Channel
+</title>
+
+<para>
+
+
+Für jeden in der "Channels"-Sektion deklarierten Channel
+müssen Sie eine Sektion mit dem gleichen Namen hinzufügen. Die Syntax einer
+solchen Sektion hängt vom Typus des entsprechenden Channels ab.
+
+</para>
+
+<para>
+
+
+Um einen network-Channel zu konfigurieren, fügen Sie
+eine Sektion im folgenden Format hinzu:</para>
+
+<programlisting>
+BEGIN "NetChannelName"
+  Domain    = "Domain"
+  Type      = "Type"
+  SrcHost   = "SourceHost"
+  SrcPort   = "SourcePort"
+  DstHost   = "DestHost"
+  DstPort   = "DestPort"
+  TTL       = "ttl"
+  Interface = "Interface"
+END
+</programlisting>
+
+<itemizedlist>
+
+<listitem><para>
+
+
+"NetChannelName" ist der Name des network-Channels,
+den Sie einstellen möchten.
+
+</para></listitem>
+
+<listitem><para>
+
+
+"Domain" ist entweder "inet4", wenn Sie IPv4-Adressen
+benutzen, oder "inet6", wenn Sie IPv6 benutzen (standardmäßig "inet4").
+
+</para></listitem>
+
+<listitem><para>
+
+
+"Type" ist entweder "unicast", "broadcast" oder
+"multicast" (standardmäßig "multicast"), abhängig von dem, was Sie
+machen möchten (und Ihrer "DstHost"-Adresse).
+
+</para></listitem>
+
+<listitem><para>
+
+
+"SourceHost" ist die IP-Adresse (oder der DNS-Name)
+von der VLS den Stream senden wird.
+
+</para></listitem>
+
+<listitem><para>
+
+
+"SourcePort" ist der UDP-Port von dem der Stream
+gesendet werden wird.
+
+</para></listitem>
+
+<listitem><para>
+
+
+"DestHost" ist die IP-Adresse (oder der DNS-Name),
+an den der Stream gesendet werden wird.
+
+</para></listitem>
+
+<listitem><para>
+
+
+"DestPort" ist der UDP-Port, an den der Stream
+gesendet werden wird (standardmäßig "1234").
+
+</para></listitem>
+
+<listitem><para>
+
+
+"TTL" ist nur dann eine nützliche Option, wenn
+"Type" "multicast" ist. Der Standardwert ist "0". Sie können ihn zur
+Erhöhung der TTL Ihrer Multicast-Pakete benutzen, wenn diese mehrere
+Router überqueren müssen.
+
+</para></listitem>
+
+<listitem><para>
+
+
+"Interface" ist eine nur unter GNU/Linux unterstützte
+Option, um das Senden des Streams über ein bestimmtes Netzwerk-Interface,
+beispielsweise "eth1", zu erzwingen. Zur Benutzung dieser Option benötigen
+Sie root-Rechte.
+
+</para></listitem>
+
+</itemizedlist>
+
+<note><para>
+
+
+"SrcHost" und "SrcPort" sind optional (wenn Sie sie nicht
+einstellen, wird VLS das Socket nicht "binden".
+
+</para></note>
+
+<para>
+
+
+Um einen file-Channel einzustellen, fügen Sie eine
+Sektion im folgenden Format hinzu:</para>
+
+<programlisting>
+BEGIN "FileChannelName"
+  FileName = "file"
+  Append   = "append"
+END
+</programlisting>
+
+<para>
+
+
+"FileChannelName" ist der Name des file-Channels,
+den Sie einstellen möchten. "file" ist der Name der Datei, in der Stream
+gespeichert werden wird (standardmäßig "fileout.ts"). "append" ist entweder
+"yes" oder "no" und legt fest, ob VLS den Stream an der Ende der Datei
+anhängen oder sie neu schreiben wird.
+
+</para>
+
+<para>
+
+
+Beispiel:</para>
+
+<programlisting>
+BEGIN "localhost"         # The client is on the same host as the server
+  DstHost = "localhost"
+  DstPort = "1234"
+END
+
+BEGIN "client1"           # unicast towards client1
+  DstHost = "192.168.1.2"
+  DstPort = "1234"
+END
+
+BEGIN "client2"           # unicast towards client2 in IPv6
+  Domain  = "inet6"
+  DstHost = "3ffe:ffff::2:12:42"
+  DstPort = "1234"
+END
+
+BEGIN "multicast1"         # multicast streaming
+  Type    = "multicast"
+  DstHost = "239.2.12.42"
+  DstPort = "1234"
+  TTL     = "2"
+END
+
+BEGIN "multicast2"         # multicast streaming in IPv6
+  Domain  = "inet6"
+  Type    = "multicast"
+  DstHost = "ff08::1"
+  DstPort = "1234"
+  TTL     = "12"
+END
+
+BEGIN "localfile"         # file output
+  FileName = "stream.ts"
+  Append   = "no"
+END
+</programlisting>
+
+<caution><para>
+
+
+Wenn Sie Windows benutzen, sollten Sie die "SrcHost"
+und "SrcPort" Werte festlegen. Zum Beispiel:</para>
+
+<programlisting>
+BEGIN "client1"         # The client is on the same host as the server
+  SrcHost = "192.168.1.1"  # IP of VLS
+  SrcPort = "1242"         # Source port : the value is not important
+  DstHost = "192.168.1.2"  # IP of the client
+  DstPort = "1234"
+END
+</programlisting>
+
+</caution>
+
+</sect2>
+
+<sect2><title>
+
+
+Konfiguration der Programme
+</title>
+
+<para>
+
+
+Wie bereits erklärt, müssen Sie die Programme definieren.
+Jedes ist ein MPEG-Stream (eine Datei beispielsweise). Um dies zu tun, müssen
+Sie eine "Input"-Sektion Ihrer <filename>vls.cfg</filename>-Datei hinzufügen.
+Jede "Input"-Sektion muss die folgende Syntax haben:</para>
+
+<programlisting>
+BEGIN "Input"
+  FilesPath    = "path"
+  ProgramCount = "count"
+END
+</programlisting>
+
+<para>
+
+
+"path" ist der Pfad, in dem Ihre MPEG-Dateien gespeichert
+sind (standardmäßig das aktuelle Verzeichnis). "count" ist die Anzahl von
+definierten Programmen (standardmäßig "0").
+
+</para>
+
+<para>
+
+
+Für jedes Programm, das Sie definieren möchten, müssen
+Sie eine Sektion im folgenden Format hinzufügen:</para>
+
+<programlisting>
+BEGIN "number"
+  Name     = "name"
+  Type     = "type"
+  FileName = "file"
+  Device   = "device"
+END
+</programlisting>
+
+<itemizedlist>
+
+<listitem><para>
+
+
+"number" ist die Programm-Nummer: das erste Programm
+hat die Nummer 1, das Zweite die Nummer 2, usw.
+</para></listitem>
+
+<listitem><para>
+
+
+"name" ist der Name des Programms, den Sie zum
+Start des Programms benutzen (siehe dazu das nächste Kapitel).
+
+</para></listitem>
+
+<listitem><para>
+
+
+"type" kann "Mpeg1-PS", "Mpeg2-PS", "Mpeg2-TS",
+oder "DVD" sein. Wenn Ihr Stream in einer MPEG-Datei (*.mpeg, *.mpg, *.vob,
+usw.) gespeichert ist, wird es wahrscheinlich im Mpeg1-PS oder
+Mpeg2-PS - Format sein.
+
+</para></listitem>
+
+<listitem><para>
+
+
+Falls "type" auf Mpeg1-PS", "Mpeg2-PS" oder
+"Mpeg2-TS" eingestellt, wird VLS annehmen, dass der Stream in der Datei
+"file" im Verzeichnis "path" gespeichert ist (die "path"-Variable wurde in der
+"Input"-Sektion festgelegt).
+
+</para></listitem>
+
+<listitem><para>
+
+
+Falls "type" "DVD" ist, wird die Variable "Device"
+anstatt von "FileName" benutzt werden (die Variable "FilesPath" wird nicht
+auf den Devicenamen angewendet!). Die Variable "Device" ist das Device
+Ihres DVD-Laufwerkes (beispielsweise "/dev/hdc" oder "/dev/cdrom"). Sie
+können auch eine auf eine Festplatte kopierte DVD wiedergeben. Dann ist
+"Device" das Verzeichnis, in dem die .vob-Dateien gespeichert sind
+(beispielsweise "/mnt/data/VIDEO_TS").
+
+</para></listitem>
+</itemizedlist>
+
+<note>
+&streamable-mpeg-file;
+</note>
+
+<note><para>
+
+
+Um DVDs wiedergeben zu können, müssen Sie VLS mit
+DVD-Unterstützung, die libdvdread und libdvdcss benutzt, kompilieren. Sie
+werden Lese- <emphasis>und</emphasis> Schreibzugriff auf das DVD-Device
+benötigen.
+
+</para></note>
+
+
+<para>
+
+
+Komplettes Beispiel:</para>
+
+<programlisting>
+BEGIN "Input"
+  FilesPath = "/home/videolan/streams"
+  ProgramCount = "4"
+END
+
+BEGIN "1"     # MPEG2 stream stored in /home/videolan/streams/Dolby.vob
+  Name     = "dolby"
+  FileName = "Dolby.vob"
+  Type     = "Mpeg2-PS"
+END
+
+BEGIN "2"     # another file
+  Name     = "canyon"
+  FileName = "Dolby_Canyon.vob"
+  Type     = "Mpeg2-PS"
+END
+
+BEGIN "3"     # DVD
+  Name     = "dvd"
+  Device   = "/dev/cdrom"
+  Type     = "Dvd"
+END
+
+BEGIN "4"     # DVD stored on a hard disk
+  Name     = "matrix"
+  Device   = "/mnt/data/matrix/VIDEO_TS"
+  Type     = "Dvd"
+END
+</programlisting>
+
+</sect2>
+</sect1>
+</chapter>

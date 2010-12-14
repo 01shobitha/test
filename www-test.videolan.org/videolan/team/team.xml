@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<markers>
+
+<marker username="dionoea"  fullname="Antoine Cellerier" location="Marly le Roi, France" blurb="" lat="48.874325" lon="2.07857" title="Developer" />
+
+<marker username="jpsaman"  fullname="Jean-Paul Saman" location="Helmond, The Netherlands" website="http://www.m2x.nl" blurb="" lat="51.461377" lon="5.620376" title="Developer" />
+
+<marker username="j-b" website="http://www.jbkempf.com" fullname="Jean-Baptiste Kempf" location="Paris, France" blurb="" lat="48.86836,2.39991" lon="0.006119,0.016512" title="Developer" />
+
+<marker username="feepk"  fullname="Felix Paul Kühne" location="Göttingen, Germany" blurb="" lat="51.315750" lon="9.554138" title="Developer" />
+
+<marker username="Xtophe" fullname="Christophe Mutricy" location="Bristol, England" title="Developer" lat="51.5015" lon="-2.6071" blurb="" website="http://people.nxtelevision.com/~xtophe" picture="http://people.nxtelevision.com/~xtophe/avatar.jpg" pic_width="100" pic_height="100" />
+
+<marker username="thresh" fullname="Pavlov Konstantin" location="Korolev, Russia" blurb="Пользуясь случаем, хочу передать привет маме." lat="55.923402" lon="37.843502" title="Developer" picture="http://img-fotki.yandex.ru/get/4600/strangestone.3e/0_3fad3_a50f92d1_orig" pic_width="100" pic_height="99" />
+
+<marker username="hartman" fullname="Derk-Jan Hartman" location="Enschede, The Netherlands" website="http://www.sidequest.org" blurb="" lat="52.241803" lon="6.846913" title="Developer" />
+
+<marker username="DJ"  fullname="David J LaBarre" location="Koloa Hi" blurb="" lat="21.897694" lon="-159.468972" title="Forum moderator" /> 
+
+<marker username="funman" fullname="Rafaël Carré" location="Helmond, The Netherlands" blurb="" lat="51.47871" lon="5.655041" title="Clown / Developer" />
+
+<marker username="courmisch" website="http://www.remlab.net/" fullname="Rémi Denis-Courmont" location="Espoo, Finland" blurb="" lat="60.177588" lon="24.800048" title="Developer" />
+
+<marker username="yoann" fullname="Yoann Peronneau" location="Antibes, France" blurb="" lat="43.5730" lon="7.0805" title="Developer" />
+
+<marker username="ipkiss" fullname="Olivier Teulière" location="Antibes, France" blurb="" lat="43.5792" lon="7.1058" title="Developer" />
+
+<marker username="sigmunau" fullname="Sigmund Augdal" location="Tromsø, Norway" blurb="" lat="69.655371" lon="18.967359" title="Developer" />
+
+<marker username="sam" fullname="Sam Hocevar" location="Paris, France" blurb="" lat="48.832556" lon="2.319684" title="Developer" />
+
+<marker username="bigben" fullname="Benjamin Pracht" location="Palo Alto, USA" blurb="" lat="37.443313" lon="-122.160416" title="Developer" />
+
+<marker username="Quovodis" fullname="Damien Fouilleul" location="Cork, Ireland" blurb="" lat="51.873921" lon="-8.470287" title="Developer" />
+
+<marker username="asmax" fullname="Cyril Deguet" location="Antibes, France" blurb="" lat="47.571133" lon="7.123345" title="Developer" />
+
+<marker username="h2g2bob" fullname="David Batley" location="Exeter, UK" blurb="" lat="50.749056" lon="-3.530045" title="Wiki sysop"/>
+
+<marker username="pdherbemont" fullname="Pierre d'Herbemont" location="Paris, France" blurb="" lat="48.85528" lon="2.359925" title="Developer" />
+
+<marker username="altglass" fullname="Daniel Dreibrodt" website="http://www.d-gfx.net.tc" location="Paderborn, Germany" blurb="" lat="51.722482" lon="8.728251" title="Skin Editor Developer and Designer"/>
+
+</markers>

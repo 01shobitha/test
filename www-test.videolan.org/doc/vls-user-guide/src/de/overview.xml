@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="overview"><title id="toverview">Überblick und grundlegende Konzepte</title>
+
+<sect1><title>Struktur von VLS</title>
+
+<para>
+Aus der Sicht eines Benutzer kann VLS in vier
+Hauptkomponenten aufgeteilt werden:</para>
+
+<itemizedlist>
+
+<listitem><para>
+ein <emphasis>Manager</emphasis>,</para></listitem>
+<listitem><para>
+<emphasis>
+Inputs
+</emphasis>,</para></listitem>
+<listitem><para><emphasis>
+Konverter
+</emphasis>,</para></listitem>
+<listitem><para>
+
+und <emphasis>Channel</emphasis> bzw. Ausgabekanäle.
+
+</para></listitem>
+
+</itemizedlist>
+
+<figure><title>Struktur von VLS</title>
+<mediaobject>
+  <imageobject>
+    <imagedata fileref="images/archi-vls.jpg" format="JPG" scalefit="1" scale="60"/>
+  </imageobject>
+</mediaobject>
+</figure>
+
+<simplesect><title>
+
+Die Inputs
+</title>
+
+<para>
+
+Die Role eines <emphasis>Inputs</emphasis> ist
+MPEG Streams aus einer gegebenen Quelle (Datei, DVD, DVB-Kate, Gerät...)
+zu lesen und die richtigen <emphasis>Konverter</emphasis> damit zu
+"füttern". Ein Input kann in der Lage sein mehrere Streams, <emphasis>
+Programme</emphasis> genannt, zu lesen. Es gibt mehrere Arten von
+Inputs:</para>
+
+<itemizedlist>
+
+<listitem><para>
+
+den <emphasis>local</emphasis>-Input, der Videos
+aus Dateien oder DVDs lesen kann,</para></listitem>
+
+<listitem><para>
+
+
+den <emphasis>Video</emphasis>-Input, der
+Videos aus MPEG-Kodierungskarten lesen kann,</para></listitem>
+
+<listitem><para>
+
+den <emphasis>DVB</emphasis>-Input, der Videos
+von DVB-Karten lesen kann,</para></listitem>
+
+<listitem><para>
+
+den <emphasis>v4l</emphasis>-Input, der Videos
+aus Zugangskarten lesen kann, die von den Video4Linux-Treibern unterstützt
+werden.
+
+</para></listitem>
+
+</itemizedlist>
+
+<para>
+
+Sie können gleichzeitig mehrere Inputs benutzen und
+mehrere Programme abspielen.
+
+</para>
+
+</simplesect>
+
+<simplesect><title>
+
+Die Konverter
+</title>
+
+<para>
+
+Die Rolle eines <emphasis>Konverters</emphasis>
+ist einen Stream von einem Input zu erhalten und ihn in das MPEG-TS-Format
+zu konvertieren. VLS ist in der Lage PS-Streams (beispielsweise von DVDs)
+in TS-Streams zu konvertieren (ps2ts-Konverter). Natürlich kann es auch
+TS-Streams lesen und sie reparieren, in dem Streamunterbrechungen
+berücksichtigt werden (ts2ts-Konverter)..
+
+</para>
+
+</simplesect>
+
+<simplesect><title>
+
+Die Channel
+</title>
+
+<para>
+
+
+
+Ein <emphasis>Channel</emphasis> erhält einen
+Stream von einem Konverter und sendet ihn an ein gegebenes Ziel
+(Netzwerk, Datei...). Wenn Sie möchten, können Sie einen "Channel" auch
+einen "Output" nennen. Dies ist das gleiche. Derzeit gibt es zwei unterstützte
+Arten von Channeln: <emphasis>network</emphasis> und 
+<emphasis>file</emphasis>. Beachten Sie das VLS derzeit nur einen
+Output pro Stream unterstützt. Sie können also nicht einen Streamen über
+das Netzwerk senden und ihn gleichzeitig in eine Datei speichern. Der
+Netzwerk-Output umfassend konfigurierbar. Sie können wählen, welches
+Netzwerk-Interface Sie benutzen, sowie Quell- und Ziel-IP-Adressen 
+angeben
+.
+
+</para>
+
+</simplesect>
+
+<simplesect><title>
+
+Der Manager
+</title>
+
+<para>
+
+Der <emphasis>Manager</emphasis> kontrolliert
+die gesendeten Streams. Durch ein <emphasis>Administrationsinterface
+</emphasis> können Sie dem Manager mitteilen, die verschiedenen
+Programme zu starten, stoppen, anzuhalten, wiederaufzunehmen, zu
+beschleunigen oder zu verlangsamen. Sie können auch eine Liste aller
+Programme erhalten. Der Manager liest diese aus der VLS-Konfigurationsdatei
+(<filename>vls.cfg</filename>), weshalb diese nicht geändert werden
+darf, nachdem VLS gestartet wurde. Derzeit können Sie den Manager nicht
+fragen, ob ein angebener Stream gesendet wird. Sie erhalten aber eine
+Fehlermeldung, wenn Sie versuchen einen Stream anzuhalten, der nicht
+gesendet wird
+.
+
+</para>
+
+</simplesect>
+</sect1>
+
+<sect1><title>
+
+Das Administrationsinterface
+</title>
+
+<para>
+
+Es gibt derzeit zwei Wege, das Streamen zu
+starten
+:</para>
+
+<itemizedlist>
+
+<listitem><para>
+
+Sie können die <emphasis>Befehlszeile</emphasis>
+benutzen, um Argumente beim Start zu übergeben 
+</para></listitem>
+
+<listitem><para>
+
+oder Sie können das <emphasis>Telnet-Interface</emphasis>
+benutzen, um das Streamen zu starten/anzuhalten/zu pausieren wann immer Sie
+möchten.
+
+</para></listitem>
+
+</itemizedlist>
+
+<para>
+
+Wenn Sie das Telnet-Interface benutzen, müssen
+Sie sich authentifizieren, bevor sie einen Befehl angeben, weil nicht jedem
+Benutzer erlaubt werden darf, einen Befehl auszuführen (dies kann in der
+Konfigurationsdatei <filename>vls.cfg</filename> eingestellt werden).
+
+</para>
+
+</sect1>
+</chapter>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<sect1><title>
+Demuxers
+</title>
+
+<para>
+In a video stream, the video signal and the audio
+one are always into "containers" formats. Demuxers extract the streams
+from it and pass it to the decoders.
+</para>
+
+<para>
+For example, an AVI file can contain a MPEG-4
+video, or an uncompressed video. AVI is only a storing format, not a
+compression format.
+</para>
+
+<sect2><title>avi</title>
+&always;
+<para>
+This module allows you to read
+<filename>.avi</filename> files.
+</para>
+&options-st;
+<itemizedlist>
+ <listitem>
+  <para><emphasis>--avi-interleaved, --no-avi-interleaved </emphasis>:
+   Enables or disables interlacing mode (default is disabled)
+  </para>
+ </listitem>
+ <listitem>
+  <para><emphasis>--avi-index, --no-avi-index </emphasis>:
+   Forces an index to be created. This can help for
+    buggy streams (default is disabled)
+  </para>
+ </listitem>
+</itemizedlist>
+</sect2>
+
+<sect2><title>asf, aac, ogg, aiff, au, wav, mp4</title>
+&always;
+<para>
+This module allows you to read
+<filename>.asf, .aac, .ogg, .aiff, .au, .wav, .mp4</filename> files.
+</para></sect2>
+
+<sect2><title>mkv</title>
+&enabled;
+<para>
+This module allows you to read files that use the
+Matroska format.
+</para>
+&options-st;  
+<itemizedlist>
+<listitem>
+<para><emphasis>--mkv-seek-percent, --no-mkv-seek-percent</emphasis> :
+    When this option is enabled (this is the default 
+	behaviour), seek is based on percentage and not on time
+</para>
+</listitem>
+</itemizedlist>
+</sect2>
+
+<sect2><title>mod</title>
+&enabled;
+<para>
+This module allows you to read MOD files (extensions mod, s3m, xm, it, 669,
+amf, ams, dbm, dmf, dsm, far, mdl, med, mtm, okt, ptm, stm, ult, umx,
+mt2, psm). MOD files are audio files used on AMIGA computers.
+</para>
+&options-st;
+<itemizedlist>
+<listitem>
+<para><emphasis>--mod-noisereduction, --no-mod-noisereduction</emphasis> : Default disabled. Add noise reduction to mod audio</para>
+</listitem>
+<listitem>
+<para><emphasis>--mod-reverb, --no-mod-reverb</emphasis> : Default disabled. Add reverberation to mod audio</para>
+</listitem>
+<listitem>
+<para><emphasis>--mod-reverb-level &lt;integer&gt;</emphasis> : Reverb level (0-100 defaults to 0)</para>
+</listitem>
+<listitem>
+<para><emphasis>--mod-reverb-delay &lt;integer&gt;</emphasis> : Reverb delay in ms, 0 to 1000 ms, default to 40. (usually 40-200ms).</para>
+</listitem>
+<listitem>
+<para><emphasis>--mod-megabass, --no-mod-megabass</emphasis> : Default disabled. Add megabass enhancements to mod audio.</para>
+</listitem>
+<listitem>
+<para><emphasis>--mod-megabass-level &lt;integer&gt;</emphasis> : Mega bass level (0-100 defaults to 0).</para>
+</listitem>
+<listitem>
+<para><emphasis>--mod-megabass-range &lt;integer&gt;</emphasis> : Mega bass cut-off (10-100 Hz defaults to 10).</para>
+</listitem>
+<listitem>
+<para><emphasis>--mod-surround, --no-mod-surround</emphasis> : Default disabled. Add surround enhancements to mod audio.</para>
+</listitem>
+<listitem>
+<para><emphasis>--mod-surround-level &lt;integer&gt;</emphasis> : Surround level (0-100 defaults to 0).</para>
+</listitem>
+<listitem>
+<para><emphasis>--mod-surround-level &lt;integer&gt;</emphasis> : Surround delay (0-1000 ms defaults to 5, usually 5-40ms).</para>
+</listitem>
+</itemizedlist>
+</sect2>
+
+<sect2><title>nsv</title>
+&enabled;
+<para>
+This module allows you to read NSV (Nullsoft Streaming Video) streams.
+Most NSV streams use the VP6 codec which is currently unsupported by VLC (VLC only supports VP1 and VP3 for the moment).
+</para>
+</sect2>
+
+<sect2><title>ps,ts</title>
+&always;
+<para>
+These modules allow you to read MPEG-2 Program Stream
+or Transport Stream files.
+</para>
+&options-st;  
+<itemizedlist>
+<listitem>
+<para><emphasis>--vls-backward-compat, --no-vls-backward-compat</emphasis> :
+    Enable this option if you want to read VLS &lt; 0.4
+   MPEG 2 TS streams.
+  </para></listitem>
+  <listitem><para><emphasis>--buggy-psi, --no-buggy-psi (ts module) </emphasis>:
+    Enable this option to help handling of files
+     with buggy PSI.
+  </para>
+ </listitem>
+</itemizedlist>
+</sect2>
+
+<sect2><title>pva</title>
+<para>
+This module allows you to read PVA files (.pva). PVA is a file format used by the software that comes with the TechnoTrend/Hauppauge/Siemens/Galaxis DVB cards.
+</para>
+</sect2>
+
+<sect2><title>real</title>
+&always;
+<para>
+This module allows you to read RealMedia (.rm) files.
+Note : Only very old audio codecs (rv10) are currently supported by VLC inside RealMedia files.
+</para>
+</sect2>
+
+<sect2><title>rawdv</title>
+&always;
+<para>
+This module allows you to read
+DV files
+</para></sect2>
+
+<sect2><title>dvbpsi</title>
+&enabled;
+<para>
+This module allows to demux streams from a satellite
+card.
+</para></sect2>
+
+<sect2><title>id3,m3u</title>
+&always;
+<para>
+These modules allow you to read M3U, B4S, PLS, and
+ASX playlists, and ID3 tags.
+</para></sect2>
+
+</sect1>

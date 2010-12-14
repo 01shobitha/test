@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="dvb"><title id="tdvb">
+
+Diffusez un flux DVB (satellite ou télévision
+numérique terrestre)
+
+
+</title>
+
+<note><para>
+
+Ceci n'est possible que sous GNU/Linux
+
+
+
+.</para></note>
+
+<sect1><title>
+
+Installez les drivers DVB
+
+
+</title>
+
+<para>
+
+Pour pouvoir streamer depuis une carte DVB (une carte satélite ou de télévision numérique terrestre), il est nécessire d'installer préalablement les drivers DVB :
+
+
+
+</para>
+
+<itemizedlist>
+
+<listitem><para>
+
+
+
+si vous utilisez un noyau Linux 2.6.x, il vous suffit de
+compiler les bons modules ;
+
+
+
+
+
+</para></listitem>
+
+<listitem><para>
+
+
+
+si vous utilisez un noyau Linux 2.4.x,
+vous devez télécharger la dernière version des drivers DVB depuis la
+<ulink url="http://www.linuxtv.org/download/dvb/">page de
+téléchargement des drivers DVB</ulink> du projet <ulink url="http://www.linuxtv.org/">LinuxTV</ulink>.
+
+
+
+
+
+</para></listitem>
+
+</itemizedlist>
+
+
+
+<para>
+
+Décompressez le fichier et suivez les instructions
+du fichier <filename moreinfo="none">INSTALL</filename> pour compiler et installer les
+drivers
+
+
+
+.</para>
+
+</sect1>
+
+<sect1><title>
+
+Diffusez avec VLS
+
+
+</title>
+
+<para>
+
+Mettez un fichier <filename moreinfo="none">.dvbrc</filename>
+contenant les chaînes DVB que vous désirez diffuser dans
+votre répertoire utilisateur (certains sont fournis dans
+<emphasis>libdvb</emphasis> pour les chaînes satellites)
+
+
+
+.</para>
+
+<para>
+
+Lancez VLS avec cette ligne de commande
+
+
+
+ :</para>
+
+<screen format="linespecific">
+<prompt moreinfo="none">% </prompt><userinput moreinfo="none">vls -vv -d udp:192.168.0.42 dvb:"EUROSPORT" --ttl 12</userinput>
+</screen>
+
+<para>
+
+où 
+
+
+:</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>"EUROSPORT"</emphasis>
+
+est la chaîne que vous désirez diffuser, comme
+décrit dans votre fichier <filename moreinfo="none">~/.dvbrc</filename>
+
+
+,</para></listitem>
+
+<listitem><para><emphasis>192.168.0.42</emphasis>
+
+ est soit 
+
+
+:</para>
+
+<itemizedlist>
+<listitem><para>
+
+l'adresse IP de la machine vers laquelle vous
+désirez diffuser en unicast
+
+
+;</para></listitem>
+
+<listitem><para>
+
+le nom DNS de la machine vers laquelle vous désirez
+envoyer en unicast
+
+
+;</para></listitem>
+
+<listitem><para>
+
+une adresse IP multicast
+
+
+
+.</para></listitem>
+
+
+</itemizedlist>
+
+</listitem>
+
+<listitem><para><emphasis>12</emphasis>
+
+ est la valeur du TTL (Time To Live) de vos paquets
+IP (cela signifie qu'ils pourront traverser 11 routeurs)
+
+
+
+.</para></listitem>
+
+</itemizedlist>
+
+</sect1>
+
+<sect1><title>
+
+Diffusez avec VLC
+
+
+</title>
+
+<note><para>
+
+
+
+</para></note>
+
+<screen format="linespecific">
+<prompt moreinfo="none">% </prompt><userinput moreinfo="none">vlc -vvv --program 8211 dvb:12597000:0:3:27500000 --sout udp:192.168.0.12 --ttl 12</userinput>
+</screen>
+
+<para>
+
+où
+
+
+ :</para>
+
+<itemizedlist>
+
+<listitem><para>
+
+
+
+
+;</para></listitem>
+
+<listitem><para>
+
+
+
+;</para></listitem>
+
+<listitem><para>
+
+
+
+;</para></listitem>
+
+<listitem><para>
+
+
+
+;</para></listitem>
+
+<listitem><para>
+
+
+
+;</para></listitem>
+
+<listitem><para><emphasis>192.168.0.12</emphasis>
+
+
+
+:</para>
+
+<itemizedlist>
+
+<listitem><para>
+
+
+
+;</para></listitem>
+
+<listitem><para>
+
+
+
+;</para></listitem>
+
+<listitem><para>
+
+
+
+</para></listitem>
+
+</itemizedlist>
+
+</listitem>
+
+<listitem><para>
+
+
+
+</para></listitem>
+
+</itemizedlist>
+
+</sect1>
+</chapter>

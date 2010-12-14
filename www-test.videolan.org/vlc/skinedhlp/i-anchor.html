@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+     "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>VLC Skin Editor - Online Help - Anchor</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+</head>
+<body>
+<div class="header">
+<a href="index.html">VLC Skin Editor - Online Help</a> &gt; Documentation &gt; Items &gt; Anchor
+</div>
+<h1>Anchor</h1>
+<p>
+Creates a "magnetic point" (or curve) in a layout. 
+If an Anchor of another window enters into the range of action of this Anchor, 
+the 2 anchors will automatically stick to each other, anchoring the two windows together. 
+Each Anchor has a priority and the Anchor with the highest priority is the "winner", 
+which means that when moving its window all the other anchored windows will move too. 
+To break the effect of 2 anchored windows you need to move the window whose Anchor has the lower priority.
+</p>
+<h3>Attributes</h3>
+<p>
+<b>x and y</b><br>
+The coordinates of the anchor in the Layout.
+</p>
+<p>
+<b>lefttop</b><br>
+Indicates to which corner of the Layout the top-left-hand corner of this Anchor is attached to, in case of resizing. 
+Possible values are 'lefttop', 'leftbottom', 'righttop' and 'rightbottom'.<br>
+Note that there is no "rightbottom" attribute for the Anchors (contrarily to normal controls), 
+because an Anchor is not resizable (even when the anchor is a Bezier curve).
+</p>
+<p>
+<b>priority</b><br>
+Priority of the Anchor. When the Anchor is moved, attatched Anchors with a lower priority will be moved along.
+All attachments to Anchors of a higher priority will be dropped.
+</p>
+<p>
+<b>points</b><br>
+Points defining the Bezier curve followed by the anchor. If you just want a punctual Anchor, like it is used in most cases, set the value to <i>(0,0)</i>.
+</p>
+<p>
+<b>range</b><br>
+The range of effect of the anchor in pixels. Other Anchors inside the range of effect will be attached to the Anchor.
+</p>
+<p>
+<p class="see">
+<b>See also:</b><br>
+<a href="bezier.html">Bezier curves</a>
+</p>
+<p class="footer">
+&copy; 2008 All rights reserved to the VideoLAN team.
+</p>
+</body>
+</html>

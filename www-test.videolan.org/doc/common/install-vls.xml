@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<sect2><title>Windows</title>
+
+<para>
+<span xml:lang="en">Download the ZIP file from the <ulink
+url="http://www.videolan.org/streaming/download-vls-windows.html">VLS
+Windows download page</ulink>, unzip-it and run
+<filename>setup.exe</filename></span>
+<span xml:lang="fr">Téléchargez le fichier Zip depuis <ulink
+url="http://www.videolan.org/streaming/download-vls-windows.html">la
+page de téléchargement de VLS pour Windows</ulink>, décompressez-le, et
+lancez <filename>setup.exe</filename></span>
+<span xml:lang="es">Descárgese el fichero ZIP de la <ulink
+url="http://www.videolan.org/streaming/download-vls-windows.html">página de
+decargas de VLS para Windows</ulink>, descomprímalo y ejecute
+<filename>setup.exe</filename></span>
+<span xml:lang="de">Laden Sie die ZIP-Datei von der <ulink
+url="http://www.videolan.org/streaming/download-vls-windows.html">VLS
+Windows Downloadseite</ulink> herunter, entzippen Sie sie und
+führen Sie <filename>setup.exe</filename>aus</span>
+.</para>
+
+</sect2>
+
+<sect2><title>GNULinux &amp; Mac OS X</title>
+
+<simplesect><title>
+<span xml:lang="en">Install the libraries</span>
+<span xml:lang="fr">Installez les librairies</span>
+<span xml:lang="es">Instalar las librerías</span>
+<span xml:lang="de">Installation der Bibliotheken/Libraries</span>
+</title>
+
+<para>
+<span xml:lang="en">Many libraries are needed for particular uses</span>
+<span xml:lang="fr">Plusieurs librairies sont requises</span>
+<span xml:lang="es">Son necesarias varias librerías</span>
+<span xml:lang="de">Viele Bibliotheken werden für bestimmte Zwecke benötigt</span>
+:</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>libdvbpsi</emphasis> 
+<span xml:lang="en">(always needed)</span>
+<span xml:lang="fr">(obligatoire)</span>
+<span xml:lang="es">(obligatoria)</span>
+<span xml:lang="de">(immer benötigt)</span>
+</para></listitem>
+
+<listitem><para><emphasis>libdvdcss</emphasis>
+<span xml:lang="en">if you want to be able to access encrypted DVDs</span>
+<span xml:lang="fr">pour lire des DVDs encryptés</span>
+<span xml:lang="es">para poder leer DVDs encriptados</span>
+<span xml:lang="de">wenn Sie auf verschlüsselte DVDs zugreifen möchten</span>
+,</para></listitem>
+
+<listitem><para><emphasis>libdvdread</emphasis>
+<span xml:lang="en">if you want to be able to stream DVDs</span>
+<span xml:lang="fr">pour diffuser des DVDs</span>
+<span xml:lang="es">para transmitir DVDs</span>
+<span xml:lang="de">wenn Sie in der Lage sein möchten, DVDs zu streamen</span>
+,</para></listitem>
+
+<listitem><para><emphasis>libdvb</emphasis>
+<span xml:lang="en"> if you want to be able to stream from a DVB card (a
+satellite card or a digital terrestial TV card)</span>
+<span xml:lang="fr">pour pouvoir diffuser depuis une carte DVB
+(satellite ou télévision numérique terrestre)</span>
+<span xml:lang="es"> para poder transmitir desde una tarjeta DVB
+(satélite o digital terrestre)</span>
+<span xml:lang="de">wenn Sie in der Lage sein möchten, von einer DVB-Karte
+streamen zu können (eine Satelliten- oder eine digitale terrestrische TV-Karte)</span>
+.</para></listitem>
+
+</itemizedlist>
+
+<para>
+<span xml:lang="en">Download the libraries from the <ulink
+url="http://www.videolan.org/streaming/download-vls-sources.html">VLS
+sources download page</ulink></span>
+<span xml:lang="fr">Téléchargez les librairies depuis la <ulink
+url="http://www.videolan.org/streaming/download-vls-sources.html">page
+des sources de VLS</ulink></span>
+<span xml:lang="es">Descárguese las librerías de la <ulink
+url="http://www.videolan.org/streaming/download-vls-sources.html">página del
+código fuente de VLS</ulink></span>
+<span xml:lang="de">Laden Sie die Bibliotheken von der <ulink
+url="http://www.videolan.org/streaming/download-vls-sources.html">VLS
+Quellen Downloadseite</ulink> herunter</span>
+.</para>
+
+<para>
+<span xml:lang="en">For each library, uncompress, configure
+(unless for <emphasis>libdvb</emphasis> which doesn't have a
+<emphasis>./configure</emphasis>), compile and install </span>
+<span xml:lang="fr">Pour chaque librairie, décompressez,
+configurez (sauf pour <emphasis>libdvb</emphasis> qui n'a pas de
+<emphasis>./configure</emphasis>), compilez et installez</span>
+<span xml:lang="es">Para cada librería, descomprima, configure, 
+(menos para <emphasis>libdvb</emphasis> que no tiene
+<emphasis>./configure</emphasis>), compile e instale</span>
+<span xml:lang="de">Dekomprimieren, konfigurieren (außer <emphasis>
+libdvb</emphasis>, welche kein <emphasis>./configure</emphasis> hat),
+kompilieren und installieren Sie jede Bibliothek</span>
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>tar xvzf library.tar.gz</userinput>
+<prompt>% </prompt><userinput>cd library</userinput>
+<prompt>% </prompt><userinput>./configure</userinput>
+<prompt>% </prompt><userinput>make</userinput>
+<prompt># </prompt><userinput>make install</userinput>
+</screen>
+
+<para>
+<span xml:lang="en">On GNU/Linux, check that the configuration file
+<filename>/etc/ld.so.conf</filename> contains the following line</span>
+<span xml:lang="fr">Sous GNU/Linux, vérifiez que le fichier de configuration
+<filename>/etc/ld.so.conf</filename> contient la ligne</span>
+<span xml:lang="es">Verifique que el fichero de configuración
+<filename>/etc/ld.so.conf</filename> contiene la siguiente línea</span>
+<span xml:lang="de">Überprüfen Sie unter GNU/Linux, ob die Konfigurationsdatei
+<filename>/etc/ld.so.conf</filename> die folgende Zeile enthält</span>
+ :</para>
+<programlisting>
+/usr/local/lib
+</programlisting>
+
+<para>
+<span xml:lang="en">If the line is not present, add-it and then run</span>
+<span xml:lang="fr">Dans le cas contraire, ajoutez-la, et lancez</span>
+<span xml:lang="es">Si la línea no está presente, añádela y ejecute</span>
+<span xml:lang="de">Wenn dies nicht der Fall ist, fügen Sie diese hinzu und
+starten Sie dann</span>
+ :</para>
+
+<screen>
+<prompt># </prompt><userinput>ldconfig</userinput>
+</screen>
+
+<para>
+<span xml:lang="en">On Mac OS X, run</span>
+<span xml:lang="fr">Sous Mac OS X, lancez</span>
+<span xml:lang="es">En Mac OS X, ejecute</span>
+<span xml:lang="de">Führen Sie unter Mac OS X aus</span>
+:</para>
+<screen>
+<prompt># </prompt><userinput>ranlib /usr/local/lib/*.a</userinput>
+</screen>
+
+
+</simplesect>
+
+<simplesect><title>
+<span xml:lang="en">Install VLS</span>
+<span xml:lang="fr">Installez VLS</span>
+<span xml:lang="es">Instalar VLS</span>
+<span xml:lang="de">Installation von VLS</span>
+</title>
+
+<para>
+<span xml:lang="en">Download the sources of the latest release : get
+the file <filename>vls-version.tar.gz</filename> from the <ulink
+url="http://www.videolan.org/streaming/download-vls-sources.html">VLS
+sources download page</ulink>. Uncompress-it and generate
+<emphasis>./configure</emphasis> </span>
+<span xml:lang="fr">Téléchargez les sources de la dernière version :
+récupérez le fichier <filename>vls-version.tar.gz</filename>de la <ulink
+url="http://www.videolan.org/streaming/download-vls-sources.html">page
+des sources de VLS</ulink>. Décompressez-la et générez
+<emphasis>./configure</emphasis> </span>
+<span xml:lang="es">Descárguese el código fuente de la última versión : consiga
+el fichero <filename>vls-version.tar.gz</filename> de la <ulink
+url="http://www.videolan.org/streaming/download-vls-sources.html">página
+del código fuente de VLS</ulink>. Descomprímalo y ejecute
+<emphasis>./configure</emphasis> </span>
+<span xml:lang="de">Laden Sie die Quellen der neuesten Version herunter:
+holen Sie sich die Datei <filename>vls-version.tar.gz</filename> von der
+<ulink url="http://www.videolan.org/streaming/download-vls-sources.html">
+VLS-Quellen Downloadseite</ulink>. Dekomprimieren Sie es und generieren Sie
+<emphasis>./configure</emphasis></span>
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>tar xvzf vls-version.tar.gz</userinput>
+<prompt>% </prompt><userinput>cd vls-version</userinput>
+</screen>
+
+<para>
+<span xml:lang="en">To get the list of configuration options, do</span>
+<span xml:lang="fr">Pour avoir la liste des options, faites</span>
+<span xml:lang="es">Para conseguir la lista de opciones de configuración, haga</span>
+<span xml:lang="de">Um die Liste der Konfigurationsoptionen, machen Sie
+folgendes</span>
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>./configure --help</userinput>
+</screen>
+
+<para>
+<span xml:lang="en">Then configure VLS </span>
+<span xml:lang="fr">Configurez ensuite VLS</span>
+<span xml:lang="es">Después configure VLS </span>
+<span xml:lang="de">Konfigurieren Sie dann VLS</span>
+:</para>
+
+<itemizedlist>
+
+<listitem><para>
+<span xml:lang="en">if you want a basic VLS without DVD support, do</span>
+<span xml:lang="fr">pour un VLS simple, sans support de DVD, faites</span>
+<span xml:lang="es">para un VLS simple, sin soporte para DVD, haga</span>
+<span xml:lang="de">wenn Sie ein einfaches VLS ohne DVD-Unterstützung
+möchten, machen Sie</span>
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>./configure --disable-dvd</userinput>
+</screen>
+
+</listitem>
+
+<listitem><para>
+<span xml:lang="en">if you want a VLS with DVD support, do</span>
+<span xml:lang="fr">pour un VLS avec support du DVD, faites</span>
+<span xml:lang="es">para un VLS con soporte para DVD, haga</span>
+<span xml:lang="de">wenn Sie ein VLS mit DVD-Unterstützung möchten,
+machen Sie</span>
+ :</para>
+
+<screen>
+<prompt>% </prompt><userinput>./configure</userinput>
+</screen>
+
+</listitem>
+
+<listitem><para>
+<span xml:lang="en">if you want a VLS with DVB support, do </span>
+<span xml:lang="fr">pour un VLS avec support du DVB, faites</span>
+<span xml:lang="es">para un VLS con soporte para DVB, haga</span>
+<span xml:lang="de">wenn Sie ein VLS mit DVB-Unterstützung möchten,
+machen Sie</span>
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>./configure --enable-dvb --with-dvb=PATH_TO_DVB_DRIVERS --with-libdvb=PATH_TO_LIBDVB</userinput>
+</screen>
+
+</listitem>
+
+</itemizedlist>
+
+<para>
+<span xml:lang="en">Then, compile and install</span>
+<span xml:lang="fr">Puis, compilez et installez</span>
+<span xml:lang="es">Después, compile e instale</span>
+<span xml:lang="de">Kompilieren und installieren Sie danach</span>
+ :</para>
+
+<screen>
+<prompt>% </prompt><userinput>make</userinput>
+<prompt># </prompt><userinput>make install</userinput>
+</screen>
+
+<para>
+<span xml:lang="en">You can also do a <command>make uninstall</command>,
+<command>make clean</command> or <command>make distclean</command> as needed</span>
+<span xml:lang="fr">Vous pouvez également faire <command>make
+uninstall</command>, <command>make clean</command> ou <command>make
+distclean</command></span>
+<span xml:lang="es">Puede ejecutar <command>make uninstall</command>,
+<command>make clean</command> o <command>make distclean</command> siempre
+que lo necesite</span>
+<span xml:lang="de">Sie können auch <command>make uninstall</command>,
+<command>make clean</command> oder <command>make distclean
+</command> nach Bedarf ausführen</span>
+.</para>
+
+</simplesect>
+
+</sect2>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<chapter id="install"><title id="tinstall">
+Installation von VLC
+</title>
+
+<sect1><title>
+Installation von VLC
+</title>
+&install-vlc;
+</sect1>
+
+<sect1><title>
+Deinstallation von VLC
+</title>
+&uninstall-vlc;
+</sect1>
+
+</chapter>

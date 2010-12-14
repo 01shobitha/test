@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="http"><title id="thttp">
+The HTTP interface
+</title>
+
+<sect1><title>Introduction</title>
+
+<para><emphasis>
+This page is incomplete.
+</emphasis></para>
+
+<sect2><title>Presentation</title>
+
+<para>
+VLC ships with a little HTTP server integrated.
+It is used both to stream using HTTP, and for the HTTP remote control
+interface.
+</para>
+
+<para>
+To start VLC with the HTTP interface, use:
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -I http (--http-src /directory/ --http-host host:port)</userinput>
+</screen>
+
+<para>
+The HTTP interface will start listening at host:port
+(localhost:8080 if omitted), and will reproduce the structure of
+/directory at http://host:port/ ( vlc_source_path/share/http if omitted
+).
+</para>
+
+<para>
+VLC is shipped with a set of files that should be
+enough for generic needs. The rest of this chapter will cover the ways
+to customize these pages.
+</para>
+
+<para>
+Some files are handled a bit specially
+
+ 
+:</para>
+
+<itemizedlist>
+
+<listitem><para>
+Files beginning with '.' are not exported.
+</para></listitem>
+<listitem><para>
+A '.access' file will be opened and the http
+interface will expect to find at the first line a login/password
+(written as login:password). This login/password will be used to
+protect all files in this directory. Be careful that only files in this
+directory will be protected. (sub-directories won't be protected.)
+</para></listitem>
+<listitem><para>
+The file &lt;dir&gt;/index.html will be exported ad
+&lt;dir&gt; and &lt;dir&gt;/ and not as index.html.
+</para></listitem>
+
+</itemizedlist>
+
+<para>
+The MIME type is set by looking at the file
+extension and cannot be specified nor modified for a specifi file.
+Unknown extensions will have "application/octet-stream" as MIME
+type.
+</para>
+
+<para>
+You should avoid exporting big files. Each file is
+indeed first loaded into the memory before being sent to the client, so
+please be careful.
+</para>
+
+</sect2>
+<sect2><title>
+VLC macros
+</title>
+<para> Each type a .html/.htm page is requested,
+it is parsed by VLC before being sent. The parser searchs for the VLC
+macros, and executes or substitutes them. Moreover, URL arguments
+received by the GET method can be interpreted
+
+
+
+
+ .</para>
+<para>
+A VLC macro looks like:
+<emphasis>&lt;vlc id="macro-name" param1="macro-parameters1"
+param2="macro-parameters2" /&gt;</emphasis>.
+</para>
+<para>
+ "id" is the only mandatory field, param1 and param2
+may or may not be present and depend on the value of "id".
+</para>
+
+<para>
+ You should take care that you _have to_ respect
+this syntax, VLC won't like invalid syntax. (It could easily leads to
+crashs).
+</para>
+
+<para>
+Examples
+
+
+:</para>
+<para>
+Correct: <emphasis>&lt;vlc id="value"
+param1="version" /&gt; </emphasis>
+
+</para>
+
+<para>
+Incorrect: <emphasis>&lt;vlc id="value"
+param1="version" &gt; </emphasis> (missing tag ending),
+<emphasis>&lt;vlc id=value param1="version" /&gt;</emphasis> (missing "" )
+
+</para>
+
+<para>
+Valid macros are:
+</para>
+
+<itemizedlist>
+
+<listitem><para>
+<emphasis>control</emphasis> (1 optional parameter)
+</para>
+</listitem>
+
+<listitem><para>
+<emphasis>get</emphasis> (2 parameters)
+</para>
+</listitem>
+
+<listitem><para>
+<emphasis>set</emphasis> (2 parameters)
+</para>
+</listitem>
+
+<listitem><para>
+<emphasis>rpn</emphasis> (1 parameter)
+</para>
+</listitem>
+
+<listitem><para>
+<emphasis>if</emphasis> (1 optional parameter)
+</para>
+</listitem>
+
+<listitem><para>
+<emphasis>else</emphasis> (no parameter)
+</para>
+</listitem>
+
+<listitem><para>
+<emphasis>end</emphasis> (no parameter)
+</para>
+</listitem>
+<listitem><para>
+<emphasis>value</emphasis> (1 optional parameter)
+</para>
+</listitem>
+
+<listitem><para>
+<emphasis>foreach</emphasis> (2 parameters)
+</para>
+</listitem>
+
+</itemizedlist>
+
+<para>
+For powerful macros, you may use these tools
+
+
+:</para>
+
+<itemizedlist>
+
+<listitem><para>
+RPN Evaluator (see part 2)
+</para></listitem>
+
+<listitem><para>
+Stacks: The stack is a place where you can push
+numbers and strings, and then pop them backs. It's used with the little
+RPN evaluator.
+</para></listitem>
+<listitem><para>
+Local variables: You can dynamically create
+new variables and changes their values. Some local variables are
+predefined:
+
+<itemizedlist>
+
+<listitem><para>
+<emphasis>url_value</emphasis>
+: parameter of the URL
+</para></listitem>
+
+<listitem><para>
+<emphasis>url_param</emphasis>
+: 1 if url_value isn't empty else 0
+</para></listitem>
+
+<listitem><para>
+<emphasis>version</emphasis>
+: the VLC version
+</para></listitem>
+
+<listitem><para>
+<emphasis>copyright</emphasis>
+: the VLC copyright
+</para></listitem>
+
+</itemizedlist>
+
+</para></listitem>
+
+</itemizedlist>
+
+<para>
+Remark: The stacks, and local variables context is
+resetted before the page is executed.
+</para>
+
+</sect2>
+
+</sect1>
+
+<sect1><title>
+The RPN evaluator
+</title>
+
+<para>
+RPN means Reverse Polish Notation
+</para>
+
+<sect2><title>
+Introduction
+</title>
+
+<para>
+ RPN could look strange but it's a fast and easy way
+to write expressions. It also avoids the use of ( and ).
+</para>
+
+<para>
+Instead of writing ( 1 + 2 ) * 5 you just use 1 2 +
+5 *.
+</para>
+
+<para>
+The idea beyond it is: if we have a number or a
+string (using ''), push it on the stack. If it is an operator (like +),
+pop the arguments from the stack, execute the operators and then push
+the result onto the stack. The result of the RPN sequence is the value
+on the top of the stack.
+</para>
+
+<para>
+<programlisting>
+ stack:      Word processed
+ empty      1                   1 is pushed on the stack
+ 1          2                   2 same things
+ 1 | 2      +                   +: remove 1 and 2 and write 3 on the stack
+ 3          5                   5 is pushed on the stack
+ 3 | 5      *                   *: remove 3 and 5 and write 15
+ 15                             &lt;- result
+</programlisting>
+</para>
+
+</sect2>
+
+<sect2><title>
+Operators
+</title>
+
+<para> Notation: ST(1) means the first stack
+element, ST(2) the second one ... and op the operator. 
+</para>
+
+<para>
+You have access to
+
+
+:</para>
+
+<itemizedlist>
+
+<listitem><para>
+Standard arithmetics operators: +, -, *, /, %:
+these ones push the result of ST(1) op ST(2) to the stack
+</para></listitem>
+
+<listitem><para>
+Binary operators: ! (push !ST(1)); ^, &amp;, |: push
+the result ST(1) op ST(2)
+</para></listitem>
+
+<listitem><para>
+test: =, &lt;, &lt;=, &gt;, &gt;=: execute ST(1) op
+ST(2) and push -1 if true else 0
+</para>
+</listitem>
+
+<listitem><para>
+string: strcat pushes the result of 'ST(1)ST(2)',
+strcmp compares ST(1) and ST(2), pushes -1 if ST(1)&lt;ST(2), 0 if
+equal, 1 else, strlen pushes the length of ST(1).
+</para>
+</listitem>
+
+<listitem><para>
+stack manipulation: dup duplicates ST(1), drop
+removes ST(1), swap exchanges ST(1) and ST(2), and flush empties the
+stack.
+</para>
+</listitem>
+
+<listitem><para>
+variables manipulation: store stores ST(2) in a
+local variable named ST(1), value pushes the value of the local variable
+named ST(1), url_extract pushes the value of the ST(1) part of the url
+parameters.
+</para></listitem>
+
+</itemizedlist>
+
+</sect2>
+
+</sect1>
+<sect1><title>
+The macros
+</title>
+
+<sect2><title>
+The <emphasis>control</emphasis> macro
+</title>
+
+<para>
+When asking for a page, you can pass
+arguments to it through the url. (eg using a &lt;form&gt;). Ex:
+http://host:port/page.html?var=value&amp;var2=value2&amp;... The "control" macro
+tells a page to parse these arguments and to execute the ones that are
+allowed. param1 of this macro says which commands are allowed. If empty,
+all commands will be permitted.
+</para>
+<para>
+Some commands require an argument that must be
+passed in the URL too.
+</para>
+<table frame="all">
+<title>
+URL commands
+</title>
+
+<tgroup cols="3">
+<thead>
+<row>
+ <entry>Name</entry>
+ <entry>Argument</entry>
+ <entry>
+    Description
+    
+    
+ </entry>
+</row>
+</thead>
+<tbody>
+<row>
+ <entry>play</entry>
+ <entry>
+    item (integer)
+    
+    
+ </entry>
+ <entry>
+    Play the specified playlist item
+    
+    
+ </entry>
+</row>
+<row>
+ <entry>stop</entry><entry/>
+ <entry>
+    Stop
+    
+    
+ </entry>
+</row>
+<row>
+ <entry>pause</entry><entry/>
+ <entry>Pause</entry>
+</row>
+<row>
+ <entry>next</entry><entry/>
+ <entry>
+    Go to next playlist item
+    
+    
+ </entry>
+</row>
+<row>
+ <entry>previous</entry><entry/>
+ <entry>
+    Go to previous playlist item
+    
+    
+ </entry>
+</row>
+<row>
+ <entry>add</entry>
+ <entry>
+    mrl (string)
+    
+    
+ </entry>
+ <entry>
+    Add a MRL (Media Resource Locator) to the playlist
+    
+    
+ </entry>
+</row>
+<row>
+ <entry>delete</entry>
+ <entry>
+    item (integer)
+    
+    
+ </entry>
+ <entry>
+    Delete the specified playlist item or list of playlist items
+    
+    
+ </entry>
+</row>
+<row>
+ <entry>empty</entry><entry/>
+ <entry>
+    Empty the playlist
+    
+    
+ </entry>
+</row>
+<row>
+ <entry>close</entry>
+    <entry>
+        id (hexa)
+        
+        
+    </entry>
+ <entry>
+    Close a specific connection
+    
+    
+ </entry>
+</row>
+<row>
+ <entry>shutdown</entry><entry/>
+ <entry>
+    Quit VLC
+    
+    
+ </entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<para>
+For example, you can restrict execution of the
+<command>shutdown</command> command to protected page (through a
+<emphasis>.access</emphasis> file), using the control macro in all
+unprotected pages.
+</para>
+</sect2>
+<sect2><title>
+The <emphasis>get</emphasis> macro
+</title>
+
+<para>
+This macro will be replaced by the value of the
+configuration variable which name is stored in param1 and which type is
+given by param2.
+</para>
+
+<para>
+param1 must be the name of an existing configuration
+variable. param2 must be the right type of the variable. It can be
+one of <emphasis>int</emphasis>, <emphasis>float</emphasis>, or
+<emphasis>string</emphasis>.
+
+ 
+</para>
+
+<para>
+Example: &lt;vlc id="get" param1="sout"
+param2="string" /&gt; will be replaced in the output page by the value
+of sout.
+</para>
+
+</sect2>
+<sect2><title>
+The <emphasis>set</emphasis> macro
+</title>
+
+<para>
+This macro allows to set the value of a
+configuration variable. The name is given by param1 and the type by
+param2 (like for get). The value is retrieved from the url using the
+name given in param1.
+</para>
+
+<para>
+For example, if player.html contains &lt;vlc
+id="set" param1="sout" param2="string" /&gt;, and if you browse at
+<emphasis> http://host:ip/player.html?sout=sout_value</emphasis>, the
+sout variable will be set to "sout_value". If the URL doesn't contain
+sout, nothing will be done.
+</para>
+
+</sect2>
+<sect2><title>
+The <emphasis>rpn</emphasis> macro
+</title>
+<para>
+This macro allows you to interpret RPN commands.
+(See II).
+</para>
+</sect2>
+
+<sect2><title>
+The <emphasis>if,else,end</emphasis> macro
+</title>
+
+<para>
+This macro allows you to control the parsing of the
+HTML page.
+</para>
+
+<para>
+If param1 isn't empty, it is first executed with the
+RPN evaluator. If the first element from the stack is not 0, the test
+value is true, else false..
+</para>
+
+<para>
+
+<programlisting> &lt;vlc id="if" param1="1 2 =" /&gt;
+    &lt;!-- Never reached --&gt;
+ &lt;vlc id="else" /&gt;
+    &lt;p&gt; Test succeed: 1 isn't equal to 2 &lt;/p&gt;
+ &lt;vlc id="end" /&gt;
+</programlisting>
+
+</para>
+
+<para>
+You can also just use "if" and "end".
+</para>
+
+</sect2>
+
+<sect2><title>
+The <emphasis>value</emphasis> macro
+</title>
+
+<para>
+If param1 isn't empty, it is first executed with the
+RPN evaluator. The macro is replaced with the value of the first element
+of the stack.
+</para>
+
+<para>
+Note: If the element is the name of a local
+variable, its value will be displayed instead of its name.
+</para>
+
+</sect2>
+
+<sect2><title>
+The <emphasis>foreach,end</emphasis> macro
+</title>
+
+<para>
+
+param1 is the name of the variable that will be used for the loop. param2 is the name of the set to be built:
+
+</para>
+<itemizedlist>
+
+<listitem><para>
+<emphasis>integer</emphasis>: take
+the first element from the stack to construct a set of
+integer. The stack element should be a string like:
+<emphasis>first:last[:step][,first2:last2[:step2][,...]</emphasis> (Ex:
+1:5:2,6:8:1 will be expanded into 1,3,5,6,7,8)
+</para></listitem>
+
+<listitem><para>
+<emphasis>directory</emphasis>: take the first
+element of the stack as the base directory and construct a set
+of filename and directly in it. Each element has the following
+fields:
+</para>
+
+<itemizedlist>
+
+<listitem><para>
+name: file/directory name
+</para></listitem>
+
+<listitem><para>
+type: "directory" or "file" or "unknown"
+</para></listitem>
+
+<listitem><para>
+size: size of the file
+</para></listitem>
+
+<listitem><para>
+date
+</para></listitem>
+
+</itemizedlist>
+
+</listitem>
+
+<listitem><para>
+playlist: set based on the playlist with fields:
+current is 1 if item is currently selected, 0 else. index is the index
+value, that can be used by the play or delete control command. name is the
+name of the item.
+</para></listitem>
+
+<listitem><para>
+"informations": Create informations for the current
+playing stream. name is the name of the category, value is its value,
+info is a new set that can be parsed with a new foreach (subfields of
+info are name and value).
+</para></listitem>
+
+<listitem><para>
+"hosts": Create the list of host we are listening.
+Contains the "id" (opaque id), host, ip and port fields.
+</para></listitem>
+
+<listitem><para>
+"urls": Create the list of urls currently
+available. Fields are id, stream (1 if we have a stream, 0 else), url,
+mime, protected (1 if protected, 0 else), used (is it currently used
+?).
+</para></listitem>
+
+<listitem><para>
+"connections": Create the list of current
+connections. Fields are: id, an opaque id that can be used in the close
+command, ip, url, and status (HTTP error code).
+</para></listitem>
+
+<listitem><para>
+the name of a foreach variable if it's a set of set
+of value.
+</para>
+
+<programlisting>;&lt;vlc id="foreach" param1="cat" param2="informations" /&gt;
+                &lt;p&gt; &lt;vlc id="value" param1="cat.name" /&gt;
+                &lt;ul&gt;
+                &lt;vlc id="foreach" param1="info" param2="cat.info" /&gt;
+                    &lt;li&gt;
+                    &lt;vlc id="value" param1="info.name" /&gt; :
+                            &lt;vlc id="value" param1="info.value" /&gt;
+                    &lt;/li&gt;
+                &lt;vlc id="end" /&gt;
+                &lt;/ul&gt;
+            &lt;vlc id="end" /&gt;
+</programlisting>
+
+</listitem>
+
+</itemizedlist>
+
+<para>For more details, have a look at the share/http
+directory of the VLC source tree...
+</para>
+
+</sect2>
+</sect1>
+
+</chapter>

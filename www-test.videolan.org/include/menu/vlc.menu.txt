@@ -1,0 +1,5 @@
+download;Download;/vlc/
+features;Features;/vlc/features.html
+screenshots;Screenshots;/vlc/screenshots.html
+streaming;Streaming;/vlc/streaming.html
+skins;Skins;/vlc/skins.html

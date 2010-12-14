@@ -1,0 +1,96 @@
+#maincontent table td {
+	margin:0px;
+	padding:0px;
+	border-top:0px;
+}
+ul.feature-icon {
+	padding-top: 10px;
+}
+.feature-table {	
+}
+.feature-table-lefttop {
+	background:url(http://images.videolan.org/images/features/feature-list-lefttop.jpg) no-repeat right bottom !important;
+	width: 150px;
+}
+.feature-table-top {
+	background:url(http://images.videolan.org/images/features/feature-list-top.jpg) repeat-x bottom !important;
+}
+.feature-table-righttop {
+	background:url(http://images.videolan.org/images/features/feature-list-righttop.jpg) no-repeat left bottom !important;
+	width: 2px;
+}
+.feature-table-leftbottom {
+	background:url(http://images.videolan.org/images/features/feature-list-leftbottom.jpg) no-repeat right top !important;
+}
+.feature-table-bottom {
+	background:url(http://images.videolan.org/images/features/feature-list-bottom.jpg) repeat-x top !important;
+}
+.feature-table-rightbottom {
+	background:url(http://images.videolan.org/images/features/feature-list-rightbottom.jpg) no-repeat left top !important;
+}
+.feature-table-right {
+	width:2px;
+	background:url(http://images.videolan.org/images/features/feature-list-right.jpg) repeat-y left !important;
+}
+.feature-cat-list {
+	background:url(http://images.videolan.org/images/features/feature-list-left.jpg) repeat-y right !important;
+	width: 150px;
+}
+.feature-cat {
+	cursor:pointer;
+	background:url(http://images.videolan.org/images/features/feature-cat.jpg) left no-repeat;
+	padding-left:5px;
+	padding-top:10px;
+	border-collapse: collapse;
+	border:none;
+	height:28px;
+	font-weight: bold;
+	color:#2D58AE;
+}
+.feature-cat-sel {
+	cursor:pointer;
+	background:url(http://images.videolan.org/images/features/feature-cat-sel.jpg) left no-repeat;
+	padding-left:5px;
+	padding-top:10px;
+	border-collapse: collapse;
+	border:none;
+	height:28px;
+	font-weight: bold;
+	color:#D4E0F7;
+}
+.feature-list {
+	background: #7499e0 !important;	
+}
+.feature-div {
+	margin: 5px;	
+}
+.feature-list-table {
+	background: #FFF;
+}
+#maincontent table.feature-list-table td {
+	border-top: 1px solid #D4E0F7;
+}
+.feature-cat a, .feature-cat-sel a {
+	text-decoration: none;
+}
+
+#maincontent table th.th-os {
+	white-space: nowrap;
+	overflow: hidden;
+	width: 10%;
+    text-align: center;
+}
+
+#maincontent table th.th-os:hover { overflow: visible; }
+#maincontent table td.yes { color: #333333; background: #EAF0FB; width: 10%; }
+#maincontent table td.no { color: #333333; background: #F3F6FD; width: 10%; }
+#maincontent table td.partial { color: #333333; background: #E1E9F9; width: 10%; }
+#maincontent table td.none { background: #F3F6FD; width: 10%; }
+#maincontent table td.type { background: #EAF0FB; width: 20%; }
+#maincontent table td.category { background: #F3F6FD; width: 10%; }
+td.yes, td.no, td.part, td.partial, td.none{ text-align: center; }
+
+#maincontent table th.type { width: 20%; }
+#maincontent table th.category { width: 10%; }
+
+

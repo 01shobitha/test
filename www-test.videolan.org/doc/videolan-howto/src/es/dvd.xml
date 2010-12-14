@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="dvd"><title id="tdvd">
+
+
+Transmitir un DVD
+
+</title>
+
+<note><para>
+
+
+
+Bajo Unix/Linux, debe tener permiso de escritura en el dispositivo que corresponda a su DVD. 
+Para ello, debería estar en el grupo del disco o cdrom (mire
+los permisos en <filename>/dev</filename>). Si no lo está, debe añadirse al grupo 
+
+:</para>
+
+<screen>
+<prompt># </prompt><userinput>adduser tu_login disco_o_cdrom</userinput>
+</screen>
+
+<para>
+
+
+y entonces reiniciar su sesión
+
+.</para></note>
+
+<sect1><title>
+
+
+Transmitir un DVD con VLC
+
+</title>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv dvdsimple:/dev/dvd --sout udp:192.168.0.12 --ttl 12</userinput>
+</screen>
+
+<para>
+
+
+donde 
+
+:</para>
+
+<itemizedlist>
+
+<listitem><para><filename>/dev/dvd</filename> 
+
+
+es el nombre de su lector de DVD (debe poner
+<filename>D:</filename> bajo Windows si <filename>D</filename> es
+la letra de su DVD) o el directorio donde copió un DVD
+
+,</para></listitem>
+
+<listitem><para><emphasis>192.168.0.42</emphasis>
+
+
+ es 
+
+:</para>
+
+<itemizedlist>
+
+<listitem><para>
+
+
+la dirección IP de la máquina a la que se quiere hacer unicast
+
+;</para></listitem>
+
+<listitem><para>
+
+
+o el nombre DNS de la máquina a la que se quiere hacer unicast
+
+;</para></listitem>
+
+<listitem><para>
+
+
+o una dirección IP multicast
+
+.</para></listitem>
+
+</itemizedlist>
+
+</listitem>
+
+<listitem><para><emphasis>12</emphasis>
+
+
+ es el valor TTL (Time To
+Live) de los paquetes IP (lo que significa que el flujo será capaz de pasar a través de 11 routers)
+
+.</para></listitem>
+</itemizedlist>
+
+
+<para>
+
+
+Si se quiere transmitir un DVD de forma ininterrumpida, añada la opción
+<emphasis>--loop</emphasis>
+
+.</para>
+
+
+</sect1>
+
+<sect1><title>
+
+
+Transmitir un DVD con VLS
+
+</title>
+
+<note><para>
+
+
+Esto sólo es posible bajo GNU/Linux
+
+.</para></note>
+
+<screen>
+<prompt>% </prompt><userinput>vls -vv -d udp:192.168.0.42 dvd:/dev/dvd --ttl 12</userinput>
+</screen>
+
+<para>
+
+donde
+
+:</para>
+
+
+<itemizedlist>
+
+<listitem><para><filename>/dev/dvd</filename>
+
+
+
+
+es el nombre de su lector de DVD
+ o el directorio donde copió un DVD
+ 
+
+,</para></listitem>
+
+<listitem><para><emphasis>192.168.0.42</emphasis>
+
+
+ es 
+
+:</para>
+
+<itemizedlist>
+<listitem><para>
+
+
+la dirección IP de la máquina a la que se quiere hacer unicast
+
+;</para></listitem>
+
+<listitem><para>
+
+
+o el nombre DNS de la máquina a la que se quiere hacer unicast
+
+;</para></listitem>
+
+<listitem><para>
+
+
+o una dirección IP multicast
+
+.</para></listitem>
+
+
+</itemizedlist>
+
+</listitem>
+
+<listitem><para><emphasis>12</emphasis>
+
+
+ es el valor TTL (Time To
+Live) de los paquetes (lo que significa que que el flujo será capaz de pasar a través de 11 routers)
+
+.</para></listitem>
+
+</itemizedlist>
+
+<para>
+
+
+Si se quiere transmitir un DVD de forma ininterrumpida, añada la opción
+<emphasis>--loop</emphasis>
+
+.</para>
+
+</sect1>
+
+</chapter>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<sect1><title>
+Modules de sortie vidéo
+</title>
+
+<para>
+Les modules de sortie vidéo permettent d'afficher de la vidéo sur votre
+écran. Au lancement, VLC essaie de deviner le module de sortie vidéo le plus adapté à votre
+système. Si vous désirez toutefois forcer un module particulier, lancez VLC avec l'option:
+--vout modulename
+</para>
+
+<sect2><title>directx</title>
+<para><emphasis>
+Activé par défaut sur Windows
+</emphasis></para>
+<para><emphasis>
+Pour Windows seulement
+</emphasis></para>
+<para>
+Cette sortie vidéo utilise les librairies Microsoft 
+Direct X. Elle est recommandée sous Windows.
+</para>
+<para>
+Vous pouvez indiquer le chemin des librairies et
+en-têtes DirectX, avec l'option <command>--with-directx=PATH</command>
+du script de configuration.
+</para>
+</sect2>
+
+<sect2><title>x11</title>
+&enabled;
+<para><emphasis>
+Seulement sur systèmes Unix avec serveur X11
+</emphasis></para>
+<para>
+Ceci est la sortie vidéo X11 basique.
+Elle ne requiert pour fonctionner qu'un serveur X11. Vous
+aurez besoin des en-têtes xlibs pour la compiler (paquetage
+<emphasis>xlibs-dev</emphasis> sur le système Debian GNU/Linux)
+</para>
+&options-st;
+<itemizedlist>
+<listitem>
+<para>--x11-display &lt;string&gt;
+nom du display X11 à utiliser
+</para>
+</listitem>
+<listitem>
+<para><emphasis>--x11-altfullscreen, --no-x11-altfullscreen </emphasis> :
+mode plein écran alternatif, pour surpasser les gestionnaires de fenêtres (désactivé par défaut)
+(standardmäßig deaktiviert)
+</para>
+</listitem>
+<listitem>
+<para><emphasis>--x11-shm, --no-x11-shm </emphasis>:
+utiliser la mémoire partagée (activé par défaut)
+</para>
+</listitem>
+<listitem>
+<para><emphasis>--x11-xineramascreen &lt;integer&gt; </emphasis>:
+permet de choisir l'écran qui sera utilisé en mode plein écran, en xinerama
+</para>
+</listitem>
+</itemizedlist>
+</sect2>
+
+<sect2><title>xvideo</title>
+&enabled;
+&linux-only;
+<para>
+Cette sortie vidéo, qui utilise l'accélération
+matérielle pour la transformation YUV et la mise à l'échelle, nécessite
+une carte vidéo supportant xvidéo. (C'est le cas de presque toutes les
+cartes modernes).
+</para>
+&options-st;
+<itemizedlist>
+<listitem>
+<para><emphasis>--xvideo-display &lt;string&gt; </emphasis>:
+nom du display X11 à utiliser
+</para>
+</listitem>
+<listitem>
+<para><emphasis>--xvideo-adaptor &lt;integer&gt; </emphasis>:
+numéro de l'adaptateur xvideo
+</para>
+</listitem>
+<listitem>
+<para><emphasis>--xvideo-altfullscreen, --no-xvideo-altfullscreen </emphasis>:
+mode plein écran alternatif, pour surpasser les gestionnaires
+de fenêtres (désactivé par défaut)
+</para>
+</listitem>
+<listitem>
+<para><emphasis>--xvideo-shm, --no-xvideo-shm </emphasis>:
+utiliser la mémoire partagée (activé par défaut)
+</para>
+</listitem>
+<listitem>
+<para><emphasis>--xvideo-xineramascreen &lt;integer&gt; </emphasis>:
+permet de choisir l'écran qui sera utilisé en mode plein écran, en xinerama
+</para>
+</listitem>
+<listitem>
+<para><emphasis>--xvideo-chroma &lt;string&gt; </emphasis>:
+format de chroma XVimage
+</para>
+</listitem>
+</itemizedlist>
+</sect2>
+
+<sect2><title>sdl</title>
+&enabled;
+<para>
+ Cette sortie vidéo utilise les librairies SDL. 
+Vous avez besoin d'une version supérieure ou égale à 1.1.6 de ces librairies
+</para>
+<para>
+Vous pouvez indiquer le chemin du programme
+<emphasis>sdl-config</emphasis>, avec l'option <command>
+ --with-sdl-config-path=PATH </command> du script de configuration,
+ si vous voulez compiler VLC.
+</para></sect2>
+
+
+<sect2><title>wingdi</title>
+<para><emphasis>
+Activé par défaut sur Windows
+</emphasis></para>
+<para><emphasis>
+Pour Windows seulement
+</emphasis></para>
+<para>
+Cette sortie vidéo utilise la bibliothèque GDI. Elle est connçue
+pour les utilisateurs n'ayant pas Direct X. Ses performances étant mauvaises, ne
+l'utilisez pas si vous pouvez utiliser DirectX.
+</para>
+</sect2>
+
+<sect2><title>fb</title>
+<para><emphasis>
+Activé par défaut sur GNU/Linux
+</emphasis></para>
+<para><emphasis>
+Pour GNU/Linux seulement
+</emphasis></para>
+<para>
+Cette sortie vidéo utilise le framebuffer. Vous
+devez activer le support du framebuffer dans votre noyau Linux pour l'utiliser.
+</para>
+&options-st;
+<itemizedlist>
+<listitem>
+<para><emphasis>--fbdev &lt;string&gt; </emphasis>:
+périphérique du framebuffer (la valeur par défaut est /dev/fb0)
+</para>
+</listitem>
+</itemizedlist>
+</sect2>
+
+<sect2><title>glide</title>
+&disabled;
+<para>
+Cette sortie vidéo utilise les librairies Glide, 
+qui fournissent une accélération matérielle pour les cartes 3Dfx).
+</para>
+<para>
+Vous pouvez indiquer le chemin de la librairie, avec
+l'option <command>--with-glide=PATH</command> du script de configuration si vous voulez compiler VLC.
+</para></sect2>
+
+<sect2><title>mga</title>
+&disabled;
+<para><emphasis>
+Pour GNU/Linux seulement
+</emphasis></para>
+<para>
+Ce module permet une accélération matérielle avec les 
+cartes Matrox sous GNU/Linux.
+</para></sect2>
+
+<sect2><title>ggi</title>
+&disabled;
+</sect2>
+
+<sect2><title>aa</title>
+&disabled;
+<para>
+Cette sortie vidéo affiche de l'ASCII art, en 
+utilisant la bibliothèque aalib. Vous avez besoin des en-têtes aalib
+(paquet <emphasis>aalib1-dev</emphasis> sous Debian GNU/Linux) pour
+la compilation.
+</para>
+</sect2>
+
+<sect2><title>svgalib</title>
+&disabled;
+<para><emphasis>
+Pour GNU/Linux seulement
+</emphasis></para><para>
+Cette sortie vidéo utilise la librairie SVGAlib.
+</para></sect2>
+
+<sect2><title>qte</title>
+&disabled;
+<para><emphasis>
+Pour iPaq seulement
+</emphasis></para><para>
+Cette sortie vidéo utilise QT Embedded, une 
+librairie graphique spécifique à l'iPaq.
+.</para> </sect2>
+
+</sect1>

@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<sect2><title>Description 
+du
+stream output</title>
+
+<para>
+Le stream output du VLC permet à ce dernier de
+servir de serveur de streaming et non de client, et possède des
+fonctionnalités très étendues
+:</para>
+
+<itemizedlist>
+
+<listitem><para>
+envoi en unicast et en multicast, en IPv4 ou en
+IPv6, tout ce que VLC est capable de lire, par UDP, RTP, ou HTTP
+;</para></listitem>
+
+<listitem><para>
+sauvegarde du flux d'entrée vers un fichier AVI, PS,
+TS ou OGG
+;</para></listitem>
+
+<listitem><para>
+transcodage du flux d'entrée et envoi
+.</para></listitem>
+
+</itemizedlist>
+
+<para>
+Pour connaître toutes les possibilités du stream output, merci de regarder la <ulink url="http://www.videolan.org/streaming/features.html">
+page de fonctionnalités de streaming</ulink>
+.</para>
+
+</sect2>
+
+<sect2><title>
+Architecture et syntaxe
+</title>
+
+<para>
+le stream output possède une puissante architecture
+qui utilise des modules. Chaque module apporte des fonctionnalités,
+et il est possible de <emphasis>chaîner</emphasis> les modules pour
+combiner ces possibilités
+.</para>
+
+<para>
+Voici la liste des modules disponibles
+:</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>standard</emphasis>
+"envoie" le flux grâce à un <emphasis>module de
+sortie</emphasis>: par exemple, UDP, fichier, HTTP, ... vous utiliserez
+probablement ce module à la fin de vos chaînes
+.</para></listitem>
+
+<listitem><para><emphasis>transcode</emphasis>
+
+
+ vous permet de transcoder à la volée l'audio 
+et la vidéo de votre flux d'entrée (si votre ordinateur dispose de 
+suffisament de puissance)
+.</para></listitem>
+
+<listitem><para><emphasis>duplicate</emphasis>
+ vous permet de créer une seconde chaîne dans
+laquelle le flux sera traité séparément
+.</para></listitem>
+
+<listitem><para><emphasis>display</emphasis> 
+vous permet d'afficher le flux d'entrée,
+comme VLC le ferait normalement. Utilisé avec le module
+<emphasis>duplicate</emphasis>, il vous permet de voir le flux en même
+temps que vous l'envoyez
+.</para></listitem>
+
+<listitem><para><emphasis>rtp</emphasis>
+envoie en RTP (un port UDP par flux ÈlÈmentaire)
+.</para></listitem>
+
+<listitem><para><emphasis>es</emphasis> 
+vous permet de séparer les flux élémentaires (ES)
+d'un flux d'entrée
+.</para></listitem>
+
+</itemizedlist>
+
+<para>
+Chaque module prend des options. Voici la syntaxe à
+utiliser
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc input_stream --sout '#module1{option1=...,option2=...}:module2{option1=...,option2=...}:...'</userinput>
+</screen>
+
+<para>
+Par exemple, pour transcoder et envoyer un flux
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc input_stream --sout '#transcode{options}:standard{options}'</userinput>
+</screen>
+
+</sect2>
+
+<sect2><title>
+Description des modules
+</title>
+
+<sect3><title>standard (alias std)</title>
+
+<para>
+Envoie un flux
+.</para>
+
+<para>Options:</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>access</emphasis>: 
+comment envoyer
+<emphasis>file</emphasis>, <emphasis>udp</emphasis>,
+<emphasis>rtp</emphasis>, <emphasis>http</emphasis>.</para></listitem>
+
+<listitem><para><emphasis>mux</emphasis>: 
+quel multiplexeur (format) utiliser ? Doit
+être:
+<emphasis>avi</emphasis>
+  (format AVI)
+<emphasis>ogg</emphasis> 
+  (format Ogg)
+<emphasis>ps</emphasis>
+  (format MPEG2-PS)
+<emphasis>ts</emphasis> 
+   (format MPEG2-TS)
+.</para></listitem>
+
+<listitem><para><emphasis>url</emphasis>: 
+Si vous utilisez l'access <emphasis>file</emphasis>, 
+l'emplacement du fichier, sinon, l'adresse IP multicast ou unicast
+.</para></listitem>
+
+<listitem><para><emphasis>sap</emphasis>: 
+si vous utilisez l'access <emphasis>udp</emphasis>
+ou <emphasis>rtp</emphasis>, utilisez ceci pour annoncer le flux
+par SAP/SDP. L'option contient le nom sous lequel le programme sera
+annoncé
+.</para></listitem>
+
+<listitem><para><emphasis>slp</emphasis>: 
+comme sap, en utilisant le protocole SLP. Vous 
+aurez besoin de libslp
+.</para></listitem>
+
+<listitem><para><emphasis>sap_ipv</emphasis>: 
+si vous utilisez <emphasis>sap</emphasis>, utilisez
+ceci pour spécifier si vous désirez envoyer les annonces SAP en IPv4
+-défaut- ou IPv6. La valeur à utiliser est <emphasis>4</emphasis> ou
+<emphasis>6</emphasis>
+.</para></listitem>
+
+</itemizedlist>
+
+<note><para>
+Si vous utilisez le multicast, vous pouvez utiliser
+l'option globale <command>--ttl 12</command> pour régler le TTL
+</para></note>
+
+</sect3>
+
+<sect3><title>display</title>
+
+<para>
+Affiche le flux
+.</para>
+
+<para>Options:</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>noaudio</emphasis>:
+Pas d'audio
+.</para></listitem>
+
+<listitem><para><emphasis>novideo</emphasis>:
+Pas de vidéo
+.</para></listitem>
+
+</itemizedlist>
+
+</sect3>
+
+<sect3><title>duplicate</title>
+
+<para>
+Duplique le flux vers une nouvelle chaîne
+.</para>
+
+<para>Options:</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>dst</emphasis>: 
+Une nouvelle chaîne de modules, comme décrit plus
+haut
+.</para></listitem>
+
+</itemizedlist>
+
+</sect3>
+
+<sect3><title>transcode</title>
+
+<para>
+Change le format de compression et/ou le taux de
+compression d'un flux
+.</para>
+
+<para>Options:</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>acodec</emphasis>: 
+Nouveau format audio. Peut être un de
+<emphasis>mpga</emphasis> (MPEG audio layer 2), <emphasis>a52</emphasis>
+or <emphasis>ac3</emphasis> (son AC3) ou <emphasis>vorb</emphasis>
+(Vorbis)
+</para>
+</listitem>
+
+<listitem><para><emphasis>ab</emphasis>: 
+taux de compression audio, en Kbps
+.</para></listitem>
+
+<!-- UNIMPLEMENTED for the moment 
+<listitem><para><emphasis>samplerate</emphasis>: audio encoding rate in Hz
+(44000 for a CD, for example).</para></listitem> -->
+
+<!-- UNIMPLMENETED <listitem><para><emphasis>channels</emphasis>: number of audio
+channels.</para></listitem>  -->
+
+<listitem><para><emphasis>vcodec</emphasis>: 
+Nouveau format vidéo. Peut être un de
+<emphasis>mp4v</emphasis> (MPEG4), <emphasis>mpgv</emphasis>
+(MPEG1), <emphasis>DIV1</emphasis>, <emphasis>DIV2</emphasis>,
+<emphasis>DIV3</emphasis> (DivX 1,2,3), <emphasis>H263</emphasis>
+(H263), <emphasis>I263</emphasis> (H263I), <emphasis>WMV1</emphasis>
+or <emphasis>WMV2</emphasis> (Windows Media Video 1 or 2),
+<emphasis>MJPG</emphasis> (MJPEG), <emphasis>MJPB</emphasis>
+(MJPEGB)
+.</para></listitem>
+
+<listitem><para><emphasis>width</emphasis>:
+largeur de la vidéo
+.</para></listitem>
+
+<listitem><para><emphasis>height</emphasis>:
+hauteur de la vidéo
+.</para></listitem>
+
+<listitem><para><emphasis>vb</emphasis>: 
+taux de compression vidéo, en Kbps
+.</para></listitem>
+
+<listitem><para><emphasis>vt</emphasis>: 
+tolérance sur le bitrate vidéo, en bps
+.</para></listitem>
+
+<listitem><para><emphasis>deinterlace</emphasis>: 
+active le désentrelacement
+.</para></listitem>
+
+<listitem><para><emphasis>croptop</emphasis>: 
+nombre de pixels rognés sur le haut de la vidéo
+.</para></listitem>
+
+<listitem><para><emphasis>cropbottom</emphasis>: 
+nombre de pixels rognés sur le bas de la vidéo
+.</para></listitem>
+
+<listitem><para><emphasis>cropleft</emphasis>: 
+nombre de pixels rognés sur la gauche de la vidéo
+.</para></listitem>
+
+<listitem><para><emphasis>cropright</emphasis>: 
+nombre de pixels rognés sur la droite de la vidéo
+.</para></listitem>
+
+<listitem><para><emphasis>hq</emphasis>: 
+Haute qualité (nécessite plus de puissance)
+.</para></listitem>
+
+<listitem><para><emphasis>qmin</emphasis>: 
+FIXME
+</para></listitem>
+
+<listitem><para><emphasis>qmax</emphasis>:
+FIXME
+.</para></listitem>
+
+</itemizedlist>
+
+</sect3>
+
+<sect3><title>rtp</title>
+<para>
+envoie un stream en RTP
+</para>
+
+<para>
+Options:
+</para>
+
+<itemizedlist>
+                                                                                
+<listitem><para><emphasis>dst</emphasis>:
+Addresse IP de destination (unicast ou multicast)
+.</para></listitem>
+
+<listitem><para><emphasis>port</emphasis>:
+port UDP de destination
+.</para></listitem>
+
+<listitem><para><emphasis>sdp</emphasis>:
+La façon d'envoyer le fichier sdp <emphasis>http://server_ip:server_port/path</emphasis> pour de l'http, ou <emphasis>rtsp://server_ip:server_port/path</emphasis> pour du rtsp, où <emphasis>server_ip</emphasis> est l'adresse d'une dezs interfaces du serveur, et <emphasis>path</emphasis> l'emplacement ou le fichier sdp sera accessible sur le serveur
+.</para>
+
+<note><para>
+Avec l'option <emphasis>sdp=rtsp</emphasis>, il est possible de ne pas donner d'adresse de destination. VLC enverra le flux à tout client se connectant au serveur
+.</para></note>
+
+</listitem>
+
+</itemizedlist>
+
+</sect3>
+
+<sect3><title>es</title>
+
+<para>
+Sépare les flux élémentaires
+.</para>
+
+<para>Options:</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>access_audio</emphasis>:
+Comment envoyer la piste audio :
+<emphasis>file</emphasis>, <emphasis>udp</emphasis>,
+<emphasis>rtp</emphasis> ou <emphasis>http</emphasis>
+.</para></listitem>
+
+<listitem><para><emphasis>access_video</emphasis>: 
+Comment envoyer la piste vidéo :
+<emphasis>file</emphasis>, <emphasis>udp</emphasis>,
+<emphasis>rtp</emphasis> ou <emphasis>http</emphasis>
+.</para></listitem>
+
+<listitem><para><emphasis>access</emphasis>:
+ si vous utilisez le même access pour l'audio et la
+vidéo, utilisez cette option au lieu des deux précédentes
+.</para></listitem>
+
+
+<listitem><para><emphasis>mux_audio</emphasis>: 
+quel multiplexeur (format) sera employé pour la
+piste audio ? Peut être un de <emphasis>avi</emphasis> (format AVI)
+<emphasis>ogg</emphasis> (format OGG), <emphasis>ps</emphasis> (format
+MPEG2-PS), <emphasis>ts</emphasis> (format MPEG2-TS)
+.</para></listitem>
+
+<listitem><para><emphasis>mux_video</emphasis>:
+quel multiplexeur (format) sera employé pour la
+piste vidéo ? Peut être un de <emphasis>avi</emphasis> (format AVI)
+<emphasis>ogg</emphasis> (format OGG), <emphasis>ps</emphasis> (format
+MPEG2-PS), <emphasis>ts</emphasis> (format MPEG2-TS)
+.</para></listitem>
+
+<listitem><para><emphasis>mux</emphasis>: 
+ si vous utilisez le même format pour l'audio et la
+vidéo, utilisez cette option au lieu des deux précédentes
+.</para></listitem>
+
+
+<listitem><para><emphasis>url_audio</emphasis>: 
+Si vous utilisez l'access <emphasis>file</emphasis>,
+l'emplacement du fichier de la piste audio, sinon, l'adresse IP
+multicast ou unicast
+.</para></listitem>
+
+<listitem><para><emphasis>url_video</emphasis>: 
+Si vous utilisez l'access <emphasis>file</emphasis>,
+l'emplacement du fichier de la piste vidéo, sinon, l'adresse IP
+multicast ou unicast
+.</para></listitem>
+
+<listitem><para><emphasis>url</emphasis>:
+ si vous utilisez la même addresse pour l'audio et la
+vidéo, utilisez cette option au lieu des deux précédentes
+.</para></listitem>
+
+</itemizedlist>
+
+<note><para>
+Dans les options <emphasis>url</emphasis>, si vous
+utilisez l'access <emphasis>file</emphasis>, vous pouvez utiliser ces
+macros dans le nom de fichier:
+</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>%n</emphasis> = 
+numéro de flux
+;</para></listitem>
+<listitem><para><emphasis>%c</emphasis> = FOURCC ;</para></listitem>
+<listitem><para><emphasis>%m</emphasis> = format</para></listitem>
+<listitem><para><emphasis>%a</emphasis> = access.</para></listitem>
+
+</itemizedlist>
+
+</note>
+
+</sect3>
+
+<sect3><title>
+Divers
+</title>
+
+<para>
+Voici quelques options globales supplémentaires
+</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>--no-sout-audio</emphasis>
+désactive le stream output audio
+.</para></listitem>
+
+<listitem><para><emphasis>--no-sout-video</emphasis> 
+désactive le stream output vidéo
+.</para></listitem>
+
+</itemizedlist>
+
+<para>
+Le stream output offre également une syntaxe
+simplifiée, qui ne vous permet que d'utiliser les options principales du
+module <emphasis>standard</emphasis>
+:</para>
+
+<screen>
+<prompt>% </prompt><userinput>vlc input_stream --sout access/mux:url</userinput>
+</screen>
+
+<para>
+où <emphasis>access</emphasis>,
+<emphasis>mux</emphasis> et <emphasis>url</emphasis> sont telles que
+définies plus haut dans les options du module standard
+.</para>
+
+</sect3>
+
+</sect2>
+
+<sect2><title>
+Exemples
+</title>
+
+<para>
+Pour comprendre pleinement la complexe syntaxe du
+stream output du VLC, veuillez voir les exemples d'utilisation, dans le
+VideoLAN Howto
+VideoLAN HOWTO
+.</para>
+
+</sect2>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<sect1><title>
+Access modules
+</title>
+
+<para>
+These modules allow VLC to read its streams from
+different sources. VLC tries to guess the most suitable module at runtime.
+If you want to force an input module lauch VLC with:
+<emphasis>--access modulename</emphasis></para>
+
+<sect2><title>cdda</title>
+&enabled;
+<para>This is the Audio CD input.  At present, if
+you are have a new enough libvcdinfo (from <ulink
+url="http://www.vcdimager.org/index.phtml">vcdimager</ulink>) and a new
+enough <ulink url="http://www.gnu.org/software/libcdio">libcdio</ulink>
+you will get the newer navigation-capable plugin. Eventually when libcdio is more
+mature and handles more OSs the older plugin will disapear. The file
+<filename>doc/intf-vcd.txt</filename> in the vlc source gives detailed information
+about this plugin.
+
+</para></sect2>
+
+<sect2><title>dvb</title>
+&disabled;
+<para><emphasis>
+For GNU/Linux only
+</emphasis></para>
+<para>
+This module allows to read from DVB-S, DVB-T,
+and DBC-C satellite, digital terrestrial, or cable cards. It uses
+the Video4Linux 2 API, that is only available in kernel 2.5.X and
+2.6.X.
+</para></sect2>
+
+<sect2><title>dvd</title>
+&enabled;
+<para>
+This is the old DVD input module. It uses
+<emphasis>libdvdcss</emphasis> for DVD decryption (see the
+<ulink url="http://developers.videolan.org/libdvdcss/">libdvdcss
+page</ulink>).
+</para></sect2>
+
+<sect2><title>dvdplay</title>
+&enabled;
+<para>
+This is the regular DVD input module. It will need
+<emphasis>libdvdcss</emphasis> for DVD decryption (see the <ulink
+url="http://developers.videolan.org/libdvdcss/">libdvdcss page</ulink>)
+and <emphasis>libdvdplay</emphasis> for DVD navigation (see the <ulink
+url="http://developers.videolan.org/libdvdplay/">libdvdplay</ulink>
+page).
+</para></sect2>
+
+<sect2><title>dvdread</title>
+&disabled;
+<para>
+This is an alternative to the previous ones. It uses
+<emphasis>libdvdread</emphasis> for DVD reading (see the <ulink
+url="http://www.dtek.chalmers.se/groups/dvd/downloads.shtml">Ogle
+download page</ulink>) and <emphasis>libdvdcss</emphasis>
+for DVD decryption (see the <ulink
+url="http://developers.videolan.org/libdvdcss/">libdvdcss
+page</ulink>).
+</para>
+</sect2>
+
+<sect2><title>dshow</title>
+&enabled;
+<para><emphasis>For Microsoft Windows only</emphasis></para>
+<para>
+This module allows VLC to read from input cards that have a DirectShow driver. Most common webcams and acquisitions boards have such a driver.
+</para>
+</sect2>
+
+<sect2><title>http,ftp,udp,file,directory,mms</title>
+&always;
+<para>
+These are standard input modules.
+The HTTP input can be used for Video On Demand.
+</para></sect2>
+
+<sect2><title>pvr</title>
+&disabled;
+<para><emphasis>
+For GNU/Linux only
+</emphasis></para>
+<para>
+This module allows to read from Hauppauge PVR cards.</para></sect2>
+
+<sect2><title>rstp/rtp/sdp (livedotcom)</title>
+&enabled;
+<para>
+This module allows you to read VOD streams using the RTSP protocol. It uses the liveMedia library from http://live.com/
+</para>
+</sect2>
+
+<sect2><title>satellite</title>
+&disabled;
+<para>
+This is an input module that allows to read directly
+from a Hauppauge WinTV Nova card under GNU/Linux. It requires drivers
+0.9.4 available from <ulink url="http://www.linuxtv.org/">linuxtv.org</ulink>.
+</para></sect2>
+
+<sect2><title>slp</title>
+&enabled;
+<para>
+This module allows to get the names and addresses
+for streams announced using the SLP protocol.
+</para></sect2>
+
+<sect2><title>v4l</title>
+&disabled;
+<para><emphasis>
+For GNU/Linux only
+</emphasis></para>
+<para>
+This module allows to read from Video4Linux devices.</para></sect2>
+
+
+<sect2><title>vcd</title>
+&enabled;
+<para>This is the VideoCD input. At present, if
+you are have a new enough libvcdinfo (from <ulink
+url="http://www.vcdimager.org/index.phtml">vcdimager</ulink>) and a new
+enough <ulink
+url="http://www.gnu.org/software/libcdio">libcdio</ulink> you will get
+the newer navigation-capable plugin. Eventually when libcdio is more
+mature and handles more OSs the older plugin will disapear. The file
+<filename>doc/intf-vcd.txt</filename> in the vlc source gives detailed
+information about this plugin.
+</para></sect2>
+
+</sect1>

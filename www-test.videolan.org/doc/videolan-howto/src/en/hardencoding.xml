@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter id="hardencoding"><title id="thardencoding">
+
+Stream from an MPEG encoding card
+</title>
+
+<note><para>
+This is possible under GNU/Linux only.
+</para></note><para>
+VideoLAN supports two kinds of MPEG-2 encoding cards:
+</para>
+
+<itemizedlist>
+
+<listitem><para>
+
+Hauppauge WinTV-PVR-250 and WinTV-PVR-350,
+
+</para></listitem>
+
+<listitem><para>Visiontech Kfir.</para></listitem>
+
+</itemizedlist>
+
+<para>
+The Hauppauge WinTV-PVR-250/350 gives much better
+results and is cheaper than the Visiontech Kfir.
+</para><sect1><title>
+Stream with the Hauppauge WinTV-PVR-250/350 card
+</title>
+
+<sect2><title>
+Install the drivers
+</title>
+
+<para>
+First, you will have to patch your kernel to support
+the v4l2 API (Video 4 Linux version 2). The patch is available on the
+<ulink url="http://bytesex.org/v4l/">Video4Linux HQ</ulink>.
+</para>
+
+<para>
+Once your kernel is ready, install the CVS version
+of the Linux drivers for the Hauppauge WinTV-PVR-250/350. They are hosted on
+<ulink url="http://ivtv.sourceforge.net/">ivtv.sourceforge.net</ulink>.
+Then, you will have to create the device and load the modules; for this,
+please refer to the documentation shipped with the drivers.
+</para>
+
+</sect2>
+
+<sect2><title>
+Stream with VLC
+</title>
+
+<note><para>
+You must add <command>--enable-pvr</command>
+to <command>./configure</command> to use this
+feature.
+</para></note>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv pvr:/dev/video0:norm=secam:size=720x576:frequency=576250:
+bitrate=3000000:maxbitrate=4000000 --sout udp:192.168.0.42 --ttl 12 --cr-average 1000</userinput>
+</screen>
+
+<para>
+where
+
+ 
+:
+</para>
+
+<itemizedlist>
+
+<listitem><para><emphasis>/dev/video0</emphasis> 
+is the device corresponding to the encoding card
+,</para></listitem>
+
+<listitem><para><emphasis>norm=secam</emphasis>
+ is name of the standard of the analogic signal
+(possible values are pal, secam, and ntsc)
+,</para></listitem>
+
+<listitem><para><emphasis>size=720x576</emphasis>
+is the size of the video you want to stream
+,</para></listitem>
+
+<listitem><para><emphasis>frequency=567250</emphasis>
+ is the frequency in kHz of the channel you want to
+stream
+,</para></listitem>
+
+<listitem><para><emphasis>bitrate=3000000</emphasis> 
+is the average bitrate of the stream
+,</para></listitem>
+
+<listitem><para><emphasis>maxbitrate=4000000</emphasis>
+is the maximum bitrate of the stream
+,</para></listitem>
+
+<listitem><para><emphasis>192.168.0.42</emphasis>
+ is either :
+</para>
+
+<itemizedlist>
+<listitem><para>
+the IP address of the machine you want to unicast
+to
+;</para></listitem>
+
+<listitem><para>
+or the DNS name the machine you want to unicast
+to
+;</para></listitem>
+
+<listitem><para>
+or a multicast IP address.
+</para></listitem>
+
+</itemizedlist>
+
+</listitem>
+
+<listitem><para><emphasis>12</emphasis>
+ is the value of the TTL (Time To
+Live) of your IP packets (which means that the stream will be
+able to cross 11 routers).
+</para></listitem>
+
+<listitem><para><emphasis>1000</emphasis>
+ is a secret value to work around a bug of the card.
+</para></listitem></itemizedlist>
+
+</sect2>
+
+<sect2><title>
+Stream with VLS
+</title>
+
+<para>
+You must use the SVN version of VLS.
+</para>
+
+<para>
+There is no command line interface for this input
+for the moment, so you will have to use the configuration file.
+</para>
+
+<para>
+Here is a typical configuration file
+<filename>vls.cfg</filename>to run VLS with a Hauppauge WinTV-PVR-250/350
+encoding card:
+</para>
+
+<programlisting>
+# vls.cfg (VLS configuration file)
+# Example of the VideoLAN HOWTO for Hauppauge WinTV-PVR-250/350 encoding cards
+
+begin "inputs"
+
+  pvr0       = "video"
+
+end
+
+begin "input"
+
+  trickplay = "normal"
+
+end
+
+begin "pvr0"
+
+  # This card is a Hauppauge WinTV-PVR-250/350
+  cardtype      = "pvr"
+
+  # Device name
+  device        = "/dev/video0"
+
+  # Stream type
+  type          = "mpeg2-ps"
+
+  # Norm : put "pal", "secam" or "ntsc"
+  norm          = "pal"
+
+  # Framerate : put "30" for NTSC and "25" for PAL and SECAM
+  framerate     = "25"
+
+  # Input number : put - "0" for Composite on S-video plug
+  #                    - "4" for tuner
+  #                    - "6" for S-video on S-video plug
+  inputnumber   = "4"
+
+  # If you use the tuner, put the frequency
+  frequency     = "567250"
+
+  # Image size : put "widthxheight" or "subqcif" (128x96) or "qsif" (160x120)
+  # or "qcif" (176x144) or "sif" (320x240) or "cif" (352x288) or "vga" (640x480)
+  size          = "720x576"
+
+  # Bitrate in Kbit/s
+  bitrate       = "7000"
+
+  # Maximum bitrate in Kbit/s
+  maxbitrate    = "9000"
+
+  # Bitrate mode : put "cbr" (constant bitrate) or "vbr" (variable bitrate)
+  bitratemode   = "vbr"
+
+end
+
+begin "channels"
+
+  channel1       = "network"
+
+end
+
+begin "channel1"
+
+  # Unicast or multicast IP address
+  dsthost = "192.168.0.42"
+
+  # Destination port
+  dstport = "1234"
+
+  # If it's a multicast IP address, uncomment the line below
+  #type    = "multicast"
+
+  # If it's a multicast IP address, set the "Time To Live" below
+  #ttl     = "12"
+
+end
+
+begin "launchonstartup"
+
+  command1 = "start video channel1 pvr0"
+
+end
+</programlisting>
+
+<para>
+Once you have adapted the configuration file above,
+run VLS:
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>vls -vv -f vls.cfg</userinput>
+</screen>
+
+</sect2>
+</sect1>
+
+<sect1><title>
+Stream with the Visiontech Kfir card
+</title>
+
+<sect2><title>
+Install the drivers
+</title>
+
+<para>
+If you want to be able to stream from a
+Visiontech Kfir card, you need to install its Linux drivers.
+Download the latest release of the drivers from the <ulink url="http://www.linuxtv.org/download/mpeg2/">drivers download
+page</ulink> of the <ulink url="http://www.linuxtv.org/">LinuxTV web
+site</ulink>.
+</para><para>
+Uncompress the tarball and follow the instructions
+written in the <filename>INSTALL</filename> file to compile and install
+the drivers.
+</para>
+
+<note><para>
+If you have a VIA chipset, you need to disable USB
+in the BIOS.
+</para></note>
+
+</sect2>
+
+<sect2><title>
+
+Stream with VLC
+</title>
+
+<screen>
+<prompt>% </prompt><userinput>vlc -vvv kfir:/dev/video --sout udp:192.168.0.42 --ttl 12</userinput>
+</screen>
+
+<para>where
+ :</para>
+
+<itemizedlist>
+
+<listitem><para><filename>/dev/video</filename>
+is the device corresponding to the Kfir card
+,</para></listitem>
+
+<listitem><para><emphasis>192.168.0.42</emphasis>
+ is either :
+</para>
+
+<itemizedlist>
+<listitem><para>
+the IP address of the machine you want to unicast
+to
+;</para></listitem>
+
+<listitem><para>
+or the DNS name the machine you want to unicast
+to
+;</para></listitem>
+
+<listitem><para>
+or a multicast IP address.
+</para></listitem>
+
+</itemizedlist>
+
+</listitem>
+
+<listitem><para><emphasis>12</emphasis>
+ is the value of the TTL (Time To
+Live) of your IP packets (which means that the stream will be
+able to cross 11 routers).
+</para></listitem>
+
+</itemizedlist>
+
+</sect2>
+
+<sect2><title>
+Stream with VLS
+</title>
+
+<para>
+There is no command line interface for this input
+for the moment, so you will have to use the configuration file.
+</para>
+
+<para>
+Here is a typical configuration file
+<filename>vls.cfg</filename>to run VLS with a VisionTech Kfir
+encoding card:
+</para><programlisting>
+# vls.cfg (VLS configuration file)
+# Example of the VideoLAN HOWTO for the Visiontech Kfir encoding card
+
+BEGIN "Inputs"
+
+  kfir       = "video"
+
+END
+
+BEGIN "kfir"
+
+  # Visiontech Kfir device
+  Device        = "/dev/video"
+
+  # Stream type (default is "Mpeg2-PS")
+  Type          = "Mpeg2-PS"
+
+END
+
+BEGIN "Channels"
+
+  channel1       = "network"
+
+END
+
+BEGIN "channel1"
+
+  # Unicast or multicast IP address
+  DstHost = "192.168.0.42"
+
+  # Destination port
+  DstPort = "1234"
+
+  # If it's a multicast IP address, uncomment the line below
+  #Type    = "multicast"
+
+  # If it's a multicast IP address, set the "Time To Live" below
+  #TTL     = "12"
+
+END
+
+BEGIN "LaunchOnStartUp"
+
+  command1 = "start video channel1 kfir"
+
+END
+</programlisting>
+
+<para>
+Once you have adapted the configuration file above,
+run VLS:
+</para>
+
+<screen>
+<prompt>% </prompt><userinput>vls -vv -f vls.cfg</userinput>
+</screen>
+
+</sect2>
+</sect1>
+</chapter>

@@ -53,6 +53,8 @@ RewriteRule ^news.msg$ /news.html [R=permanent,L]
 
 #################### VLC ###########################
 
+RewriteRule ^stats/(.*)$ /vlc/stats/$1 [R=permanent,L]
+
 # Misc
 RewriteRule ^packages(.*)$ /pub/vlc$1 [R=permanent,L]
 RewriteRule ^vlc/doc.html$ /vlc/index.html [R=permanent,L]

@@ -1,7 +1,7 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
-|16 December 2010|VLC users survey|The VideoLAN project and the VLC development team would love <b>VLC users</b> and <b>community</b> to help them in understanding the users and their needs.<br />Please <b>fill</b> the <a href="http://goo.gl/oTISI">VLC users survey</a>. It is quick and is completly anonymous.
+|16 December 2010|VLC users survey|The VideoLAN project and the VLC development team would love <b>VLC users</b> and <b>community</b> to help them in understanding the users and their needs.<br />Please <b>fill</b> the <a href="http://goo.gl/oTISI">VLC users survey</a>. It is quick and is completely anonymous.
 
 |22 November 2010|Google Code-In starts!|VideoLAN is one of the organization selected by <a href="http://code.google.com">Google</a> for the <a href="http://code.google.com/opensource/gci/2010-11/index.html">Google Code-In program</a>.<br /> If you are a student, between 13 and 18 years old, you can apply to help the VideoLAN project. <b>Tasks</b> include code and <b>not-code</b> short amount of work that will help greatly the VideoLAN project.<br /><a href="http://code.google.com/opensource/gci/2010-11/index.html">Join Now!</a>
 

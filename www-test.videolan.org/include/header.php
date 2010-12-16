@@ -134,6 +134,7 @@ function draw_menus()
 			<li><a href='/contact.html'>Contact</a></li>
 			<li><a href='/press/'>Press center</a></li>
 			<li><a href='/videolan/events/'>Events</a></li>
+			<li><a href='/security/'>Security center</a></li>
 		</ul>
 	</div>
 	<div class='link'>
@@ -167,7 +168,9 @@ function draw_menus()
 	<div class='link'>
 		<a href='/contribute.html'>Contribute</a>
 		<ul>
-			<li><a href='/goodies.html'>Goodies</a></li>
+			<li><a href='/contribute.html'>Donate money</a></li>
+			<li><a href='/contribute.html'>Donate time</a></li>
+			<li><a href='/goodies.html'>Get Goodies</a></li>
 		</ul>
 	</div>
 	<div class='link'>
@@ -183,7 +186,6 @@ function draw_menus()
 	<div class='link'>
 		<a href='/developers/'>Dev' Zone</a>
 	</div>
-
 </div>
 <?php
 }
@@ -193,7 +195,7 @@ function footer($tag = "") {
 	<div id='footer'>
 		<div style='background-image: url(images/divider.png); height: 15px; width: 100%;'></div>
 		<div style='margin: 0 auto; padding: 40px; padding-bottom: 10px; padding-left: 50px;'>
-        <a style='float: left; margin-right: 50px;' href='index.html'><?php image( 'videoLan.png', 'VideoLAN Foundation' ); ?>
+        <a style='float: left; margin-right: 50px;' href='index.html'><?php image( 'VideoLAN.png', 'Association VideoLAN' ); ?>
 			<div style='width: 170px; float: left;'>
 				<div class='footerHeading'>VLC Media Player</div>
 				<ul>

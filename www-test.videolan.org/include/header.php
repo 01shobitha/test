@@ -196,7 +196,7 @@ function footer($tag = "") {
       <div style='padding: 40px 40px 10px 50px;'>
            <a style='float: left; margin-right: 50px;' href='/'>
             <?php image( 'VideoLAN.png', 'Association VideoLAN' ); ?></a>
-         <div style='width: 170px; float: left;'>
+         <div class='footer_col'>
             <div class='footerHeading'>VLC media player</div>
             <ul>
               <li><a href='/vlc/'>VLC</a></li>
@@ -210,7 +210,7 @@ function footer($tag = "") {
               <li><a href='/vlc/screenshots.html'>Screenshots</a></li>
             </ul>
          </div>
-         <div style='width: 170px; float: left;'>
+         <div class='footer_col'>
             <div class='footerHeading'>Other Projects</div>
             <ul>
                  <li><a href='/vlmc/'>VideoLan Movie Creator</a></li>
@@ -219,7 +219,6 @@ function footer($tag = "") {
                  <li><a href='/projects/multicat.html'>Multicat</a></li>
                  <li><a href='/projects/vlma/'>VLMa</a></li>
                  <li><a href='/vlc/skineditor.html'>VLC Skin Editor</a></li>
-                    <hr />
                  <li><a href='/developers/libdvdcss.html'>libdvdcss</a></li>
                  <li><a href='/developers/libbluray.html'>libbluray</a></li>
                  <li><a href='/developers/libdvbpsi.html'>libdvbpsi</a></li>
@@ -227,7 +226,7 @@ function footer($tag = "") {
                  <li><a href='/developers/libdvbcsa.html'>libdvbcsa</a></li>
             </ul>
          </div>
-         <div style='width: 170px; float: left;'>
+         <div class='footer_col'>
             <div class='footerHeading'>Community</div>
             <ul>
                  <li><a href='http://wiki.videolan.org/'>Wiki</a></li>
@@ -239,14 +238,15 @@ function footer($tag = "") {
                  <li><a href='/goodies.html'>Get Goodies</a></li>
             </ul>
          </div>
-         <div style='width: 170px; float: left;'>
+         <div class='footer_col'>
             <div class='footerHeading'>About</div>
             <ul>
                  <li><a href='/videolan/'>About VideoLAN</a></li>
                  <li><a href='/videolan/team/'>VideoLAN Team</a></li>
                  <li><a href='/legal.html'>Legal</a></li>
                  <li><a href='/contribute.html'>Get Involved</a></li>
-                 <li><a href='/press/'>Press Center</a></li>
+                 <li><a href='/news.html'>News</a></li>
+                 <li><a href='/press/'>Press center</a></li>
                  <li><a href='/videolan/events/'>Events</a></li>
                  <li><a href='/security/'>Security center</a></li>
                  <li><a href='/contact.html'>Contact us </a></li>

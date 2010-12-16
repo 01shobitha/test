@@ -73,7 +73,7 @@ ul, li
 
 body
 {
-	background: #FFF url(images/background.png) repeat-x scroll top left;
+	background: #FFF url(/style/images/background.png) repeat-x scroll top left;
 	text-align: center;
 	font-family: Arial;
 }
@@ -132,7 +132,7 @@ p
 	padding-left: 10px;
 	padding-right: 10px;
 	margin-right: 10px;
-	background: #E7E7E7 url(images/donateBackground.png) repeat-x fixed top left;
+	background: #E7E7E7 url(/style/images/donateBackground.png) repeat-x fixed top left;
 	border: 1px solid #CCC;
 	-moz-border-radius: 12px;
 	-webkit-border-radius: 12px;
@@ -212,7 +212,7 @@ p
 
 #bodyInner
 {
-	background: transparent url(images/highlight.png) no-repeat scroll top left;
+	background: transparent url(/style/images/highlight.png) no-repeat scroll top left;
 	padding: 20px;
 	width: 980px;
 	padding-bottom: 40px;
@@ -448,10 +448,13 @@ p
 #footer
 {
 	background-color: white;
-	background-image: url(images/footerBackground.png);
+	background-image: url('/style/images/footerBackground.png');
 	background-repeat: repeat-x;
 }
-
+.footer_col
+{
+     width: 170px; float: left;
+ }
 .footerHeading
 {
 	color: #4D4D4D;
@@ -497,12 +500,12 @@ p
 .orange #downloadButton
 {
 	color: white;
-	background: #F48B00 url(images/downloadButtonGradientOrange.png) repeat-x;
+	background: #F48B00 url(/style/images/downloadButtonGradientOrange.png) repeat-x;
 }
 
 .orange #downloadButton:hover
 {
-	background: #F48B00 url(images/downloadButtonGradientOrangeBright.png) repeat-x;
+	background: #F48B00 url(/style/images/downloadButtonGradientOrangeBright.png) repeat-x;
 }
 
 /* RED */
@@ -527,12 +530,12 @@ p
 .red #downloadButton
 {
 	color: white;
-	background: #ED1C24 url(images/downloadButtonGradientRed.png) repeat-x;
+	background: #ED1C24 url(/style/images/downloadButtonGradientRed.png) repeat-x;
 }
 
 .red #downloadButton:hover
 {
-	background: #ED1C24 url(images/downloadButtonGradientRedBright.png) repeat-x;
+	background: #ED1C24 url(/style/images/downloadButtonGradientRedBright.png) repeat-x;
 }
 
 /* GREEN */
@@ -557,12 +560,12 @@ p
 .green #downloadButton
 {
 	color: white;
-	background: #39B549 url(images/downloadButtonGradientGreen.png) repeat-x;
+	background: #39B549 url(/style/images/downloadButtonGradientGreen.png) repeat-x;
 }
 
 .green #downloadButton:hover
 {
-	background: #39B549 url(images/downloadButtonGradientGreenBright.png) repeat-x;
+	background: #39B549 url(/style/images/downloadButtonGradientGreenBright.png) repeat-x;
 }
 
 /* BLUE */
@@ -587,12 +590,12 @@ p
 .blue #downloadButton
 {
 	color: white;
-	background: #0070BB url(images/downloadButtonGradientGreen.png) repeat-x;
+	background: #0070BB url(/style/images/downloadButtonGradientGreen.png) repeat-x;
 }
 
 .blue #downloadButton:hover
 {
-	background: #0070BB url(images/downloadButtonGradientGreenBright.png) repeat-x;
+	background: #0070BB url(/style/images/downloadButtonGradientGreenBright.png) repeat-x;
 }
 
 .blue .productName
@@ -622,12 +625,12 @@ p
 .pink #downloadButton
 {
 	color: white;
-	background: #D3135A url(images/downloadButtonGradientPink.png) repeat-x;
+	background: #D3135A url(/style/images/downloadButtonGradientPink.png) repeat-x;
 }
 
 .pink #downloadButton:hover
 {
-	background: #D3135A url(images/downloadButtonGradientPinkBright.png) repeat-x;
+	background: #D3135A url(/style/images/downloadButtonGradientPinkBright.png) repeat-x;
 }
 
 .pink .productName

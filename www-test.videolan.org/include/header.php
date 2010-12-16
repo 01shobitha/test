@@ -11,7 +11,7 @@ function FormatSize($size) {
 }
 
 function image( $src_img, $alt ) {
-    echo "<img src='http://static.videolan.org/images/".$src_img."' alt='".$alt."' />\n";
+    echo "<img src='/images/".$src_img."' alt='".$alt."' />\n";
 }
 
 /*
@@ -66,7 +66,7 @@ echo '<?xml version="1.0" encoding="utf-8" ?>';
 			
 			//Attempt to load the bright button gradient into cache for faster switching on mouse over (may not work on all browsers.)
 			var cache = new Image();
-			cache.src = 'style/images/downloadButtonGradientBright.png';
+			cache.src = '/style/images/downloadButtonGradientBright.png';
 			
 			$(document).ready(function () {
 				var OS="windows"; //Default
@@ -120,33 +120,65 @@ function draw_menus()
 ?>
 <div id='linkBar'>
 	<div class='link'>
-		<a href='index.html'>Home</a>
+		<a href='/'>Home</a>
 	</div>
-	<div class='link' style='position: relative;'>
-		<a href='products.html'>Products</a>
+	<div class='link'>
+		<a href='/news.html'>News</a>
+	</div>
+	<div class='link'>
+		<a href='/'>VideoLAN</a>
 		<ul>
-			<li><a href='VLCMediaPlayer.html'>VLC Media Player</a></li>
-			<li><a href='VLMC.html'>VLMC</a></li>
-			<li><a href='DVBlast.html'>DVBlast</a></li>
-			<li><a href='x264.html'>x264</a></li>
-			<li><a href='developers.html'>For Developers</a></li>
+			<li><a href='/videolan/'>VideoLAN Project and Organization</a></li>
+			<li><a href='/videolan/partners.html'>Partners</a></li>
+			<li><a href='/videolan/team/'>Team</a></li>
+			<li><a href='/contact.html'>Contact</a></li>
 		</ul>
 	</div>
 	<div class='link'>
-		<a href='#'>Downloads</a>
+		<a href='/vlc/'>VLC</a>
+		<ul>
+			<li><a href='/vlc/'>Download</a></li>
+			<li><a href='/vlc/skins.html'>Skins</a></li>
+			<li><a href='/vlc/skins.html'>Extensions</a></li>
+			<li><a href='/vlc/features.html'>Features</a></li>
+			<li><a href='/vlc/screenshots.html'>Screenshots</a></li>
+		</ul>
 	</div>
 	<div class='link'>
-		<a href='#'>Forums</a>
+		<a href='/projects/'>Projects</a>
+		<ul>
+			<li><a href='/vlc/'>VLC media player</a></li>
+			<li><a href='/vlmc/'>VideoLan Movie Creator</a></li>
+			<li><a href='/projects/dvblast.html'>DVBlast</a></li>
+			<li><a href='/developers/x264.html'>x264</a></li>
+			<li><a href='/projects/multicat.html'>Multicat</a></li>
+			<li><a href='/projects/vlma/'>VLMa</a></li>
+			<li><a href='/vlc/skineditor.html'>VLC Skin Editor</a></li>
+            <hr />
+			<li><a href='/developers/libdvdcss.html'>libdvdcss</a></li>
+			<li><a href='/developers/libbluray.html'>libbluray</a></li>
+			<li><a href='/developers/libdvbpsi.html'>libdvbpsi</a></li>
+			<li><a href='/developers/libaacs.html'>libaacs</a></li>
+			<li><a href='/developers/libdvbcsa.html'>libdvbcsa</a></li>
+		</ul>
 	</div>
 	<div class='link'>
-		<a href='#'>Contribute</a>
+		<a href='/contribute.html'>Contribute</a>
 	</div>
 	<div class='link'>
-		<a href='#'>Blog</a>
+		<a href='/support/'>Support</a>
+		<ul>
+			<li><a href='/support/faq.html'>FAQ</a></li>
+			<li><a href='/legal.html'>Legal</a></li>
+			<li><a href='http://wiki.videolan.org/'>Wiki</a></li>
+			<li><a href='http://forum.videolan.org/'>Forum</a></li>
+			<li><a href='/support/lists.php'>Mailing-Lists</a></li>
+		</ul>
 	</div>
 	<div class='link'>
-		<a href='#'>About Us</a>
+		<a href='/developers/'>Dev' Zone</a>
 	</div>
+
 </div>
 <?php
 }

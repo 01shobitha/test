@@ -97,7 +97,7 @@ function start_top()
 {
 ?>
     <a style='float: left;' href='/'><?php image( "logoOrange.png", "VideoLAN association"); ?></a>
-   <div style='float: left; color: #4D4D4D; font-size: 12px; padding: 10px; padding-left: 20px; line-height: 20px;'>
+   <div style='float: left; color: #4D4D4D; font-size: 12px; padding: 10px 10px 5px 20px; line-height: 20px;'>
       is a project and a non-profit organization, composed of volunteers<br />
       developing and promoting free, open-source multimedia solutions.
    </div>

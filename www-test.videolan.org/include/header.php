@@ -141,10 +141,10 @@ function draw_menus()
       <a href='/vlc/'>VLC</a>
       <ul>
          <li><a href='/vlc/'>Download</a></li>
-         <li><a href='/vlc/skins.html'>Skins</a></li>
-         <li><a href='/vlc/skins.html'>Extensions</a></li>
          <li><a href='/vlc/features.html'>Features</a></li>
          <li><a href='/vlc/screenshots.html'>Screenshots</a></li>
+         <li><a href='/vlc/skins.html'>Skins</a></li>
+         <li><a href='/vlc/skins.html'>Extensions</a></li>
       </ul>
    </div>
    <div class='link'>
@@ -157,7 +157,7 @@ function draw_menus()
          <li><a href='/projects/multicat.html'>Multicat</a></li>
          <li><a href='/projects/vlma/'>VLMa</a></li>
          <li><a href='/vlc/skineditor.html'>VLC Skin Editor</a></li>
-         <hr />
+         <li><hr /></li>
          <li><a href='/developers/libdvdcss.html'>libdvdcss</a></li>
          <li><a href='/developers/libbluray.html'>libbluray</a></li>
          <li><a href='/developers/libdvbpsi.html'>libdvbpsi</a></li>

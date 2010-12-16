@@ -63,17 +63,17 @@ echo '<?xml version="1.0" encoding="utf-8" ?>';
          var windowsDetails = {"name": "Windows", "size": "19 MB", "location": "http://www.videolan.org/vlc/download-windows.html"};
          var macDetails = {"name": "Mac OS X", "size": "19 MB", "location": "http://www.videolan.org/vlc/download-macosx.html"};
          var linuxDetails = {"name": "Linux", "size": "19 MB", "location": "http://www.videolan.org/vlc/"};  //A specific linux overview page might need to be added.
-         
+
          //Attempt to load the bright button gradient into cache for faster switching on mouse over (may not work on all browsers.)
          var cache = new Image();
          cache.src = '/style/images/downloadButtonGradientBright.png';
-         
+
          $(document).ready(function () {
             var OS="windows"; //Default
             if (navigator.appVersion.indexOf("Win")!=-1) OS="windows";
             if (navigator.appVersion.indexOf("Mac")!=-1) OS="mac";
             if (navigator.appVersion.indexOf("Linux")!=-1) OS="linux";
-            
+
             $('#downloadDetails').html("Version " + latestVersion + " &nbsp;&#8226;&nbsp; " + eval(OS+"Details.name") + " &nbsp;&#8226;&nbsp; " + eval(OS+"Details.size"));
             $('#downloadButton').attr('href',eval(OS+"Details.location"))
          });
@@ -188,6 +188,7 @@ function draw_menus()
       <a href='/developers/'>Dev' Zone</a>
    </div>
 </div>
+<div style="clear: both; margin-bottom: 30px;"></div>
 <?php
 }
 
@@ -309,4 +310,3 @@ StartHtml( preg_replace( "/<[^>]*>/", "" , $title ), $additional_css, $additiona
 start_top();
 draw_menus();
 ?>
-

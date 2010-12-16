@@ -7,7 +7,7 @@
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");
 ?>
 
-			<div style='clear: both; padding-top: 70px;'>
+            <div>
 				<img style='float: left; padding-left: 40px; padding-top: 10px; padding-right: 110px;' alt='Large Orange VLC Media Player Traffic Cone Logo' src='/images/largeVLC.png' />
 				<div style='float: left; width: 500px;'>
 					<h1 style='float: left; font-family: "Dagny OT"; font-size: 55px; padding-bottom: 10px; margin-left: -5px;'>VLC media player</h1>

@@ -8,7 +8,7 @@
 ?>
 
 			<div style='clear: both; padding-top: 70px;'>
-				<img style='float: left; padding-left: 40px; padding-top: 10px; padding-right: 110px;' alt='Large Orange VLC Media Player Traffic Cone Logo' src='images/largeVLC.png' />
+				<img style='float: left; padding-left: 40px; padding-top: 10px; padding-right: 110px;' alt='Large Orange VLC Media Player Traffic Cone Logo' src='/images/largeVLC.png' />
 				<div style='float: left; width: 500px;'>
 					<h1 style='float: left; font-family: "Dagny OT"; font-size: 55px; padding-bottom: 10px; margin-left: -5px;'>VLC media player</h1>
 					<div style='color: #4D4D4D; font-size: 15px; line-height: 24px; clear: both;'>
@@ -20,7 +20,7 @@
 					<a class='extraInfoLink' href='#'>Screenshots</a>
 					<a class='extraInfoLink' href='#'>Other Systems and Versions</a>
 					<a id='downloadButton' href='http://www.videolan.org/vlc/download-windows.html'>
-						<img style='position: absolute; top: -10px; left: -10px;' src='images/downloadVLC.png' alt='Download VLC icon' />
+						<img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
 						<div class='downloadText'>Download VLC</div>
 						<span id='downloadDetails' style='font-size: 12px; color: white;'>
 							Version 1.1.3 &nbsp;&#8226;&nbsp; Windows &nbsp;&#8226;&nbsp; 15 MB

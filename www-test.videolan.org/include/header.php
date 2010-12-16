@@ -1,13 +1,17 @@
 <?php
 
 function FormatSize($size) {
-  $sizes = Array('B', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB');
-  $ext = $sizes[0];
-  for ($i=1; (($i < count($sizes)) && ($size >= 1024)); $i++) {
-    $size = $size / 1024;
-    $ext  = $sizes[$i];
-  }
-  return round($size, 1).$ext;
+    $sizes = Array('B', 'KiB', 'MiB', 'GiB', 'TiB');
+    $ext = $sizes[0];
+    for ($i=1; (($i < count($sizes)) && ($size >= 1024)); $i++) {
+        $size = $size / 1024;
+        $ext  = $sizes[$i];
+    }
+    return round($size, 1).$ext;
+}
+
+function image( $src_img, $alt ) {
+    echo "<img src='http://static.videolan.org/images/".$src_img."' alt='".$alt."' />\n";
 }
 
 /*
@@ -19,21 +23,23 @@ echo '<?xml version="1.0" encoding="utf-8" ?>';
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
        "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
-   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-   <meta name="Generator" content="vim [GNU/Linux], GNU Emacs" />
-   <meta name="Author" content="VideoLAN" />
-   <meta name="Keywords" content="DVD, MPEG, MPEG2, MPEG4, H264, DivX, VideoLAN, MKV, m2ts,
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="en-us" />
+    <meta name="Author" content="VideoLAN" />
+    <meta name="Keywords" content="DVD, MPEG, MPEG2, MPEG4, H264, DivX, VideoLAN, MKV, m2ts,
      VLC, VLS, x264, Windows, Linux, Unix, BeOS, BSD, MacOS, MacOS X, OSX, Streaming,
      video, video player, multimedia, multicast, IPv6, media player, media converter,
      open source, free software" />
    <meta name="Description" content="<?php echo $title; ?>" />
+   <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
    <title>VideoLAN - <?php echo $title; ?></title>
    <link rel="alternate" type="application/rss+xml" title="RSS - VideoLAN News" href="/videolan-news.rss" />
    <link rel="alternate" type="application/rss+xml" title="RSS - Developers' Planet" href="http://planet.videolan.org/rss20.xml" />
-   <link rel="stylesheet" type="text/css" href="/main.css" />
+
+   <link rel="stylesheet" type="text/css" href="/style/style.css" />
    <?php if( isset($additional_css) ) {
            foreach($additional_css as $css) {
               echo  '<link rel="stylesheet" type="text/css" href="'.$css.'" />';
@@ -47,141 +53,175 @@ echo '<?xml version="1.0" encoding="utf-8" ?>';
         .DXImageTransformed { display: inline-block; }
       </style>
 <![endif]-->
-   <link rel="shortcut icon" type="image/x-icon" href="http://images.videolan.org/images/icons/favicon.ico" />
-  <?php
-      if( isset($additional_js) ) {
-        foreach($additional_js as $js) {
-          echo '<script src="'.$js.'" type="text/javascript"></script>';
-        }
-      }
-      ?>
-<script type="text/javascript">
-// <![CDATA[
-function ShowMirrors( start, stop )
-{
-  var i;
-  for( i = start; i < stop; i++ )
-  {
-    var e = document.getElementById('mirror_row_'+i);
-    if( e ) e.style.display = '';
-  }
-  var e = document.getElementById('mirror_row_random_'+start);
-  if( e ) e.style.display = 'none';
-  e = document.getElementById('mirror_row_show_'+stop);
-  if( e ) e.style.display = 'none';
-}
-function HideMirrors()
-{
-  var i = 0;
-  while( true )
-  {
-    var e = document.getElementById('mirror_row_'+i);
-    if( !e ) break;
-    e.style.display = 'none';
-    i++;
-  }
-}
-var submenuShown = "";
-function showSubMenu(cat) {
-  if(document.getElementById("submenu-"+cat)==null) return;
-  if(document.getElementById("submenu-"+submenuShown)!=null) document.getElementById("submenu-"+submenuShown).style.display="none";
-  submenuShown = cat;
-  if(document.getElementById("submenu-"+submenuShown)!=null) document.getElementById("submenu-"+submenuShown).style.display="block";
-}
 
-// ]]>
-</script>
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin' rel='stylesheet' type='text/css'>
+
+  		<script src='/scripts/jquery-1.4.3.min.js' type='text/javascript'></script>
+		<script type='text/javascript'>
+			//Editable details for the client side OS appropriate download detection.
+			var latestVersion = "1.1.4";
+			var windowsDetails = {"name": "Windows", "size": "19 MB", "location": "http://www.videolan.org/vlc/download-windows.html"};
+			var macDetails = {"name": "Mac OS X", "size": "19 MB", "location": "http://www.videolan.org/vlc/download-macosx.html"};
+			var linuxDetails = {"name": "Linux", "size": "19 MB", "location": "http://www.videolan.org/vlc/"};  //A specific linux overview page might need to be added.
+			
+			//Attempt to load the bright button gradient into cache for faster switching on mouse over (may not work on all browsers.)
+			var cache = new Image();
+			cache.src = 'style/images/downloadButtonGradientBright.png';
+			
+			$(document).ready(function () {
+				var OS="windows"; //Default
+				if (navigator.appVersion.indexOf("Win")!=-1) OS="windows";
+				if (navigator.appVersion.indexOf("Mac")!=-1) OS="mac";
+				if (navigator.appVersion.indexOf("Linux")!=-1) OS="linux";
+				
+				$('#downloadDetails').html("Version " + latestVersion + " &nbsp;&#8226;&nbsp; " + eval(OS+"Details.name") + " &nbsp;&#8226;&nbsp; " + eval(OS+"Details.size"));
+				$('#downloadButton').attr('href',eval(OS+"Details.location"))
+			});
+		</script>
+<?php
+             if( isset($additional_js) ) {
+                 foreach($additional_js as $js) {
+                     echo '<script src="'.$js.'" type="text/javascript"></script>';
+                 }
+             }
+?>
 
 </head>
-<body onload="<?php echo $body_onload;?>" onunload="<?php echo $body_onunload; ?>">
-  <div id="spacer"></div>
 
-  <div id="pagecontainer" class="clearfix">
+<body onload="<?php echo $body_onload;?>" onunload="<?php echo $body_onunload; ?>">
+    <div id='bodyInner' class='orange'>
 <?php
 }
 
-function DrawMenu( $file, $mod )
+function start_top()
 {
-  if( $m = @fopen( "menu/$file", "r", 1 ) )
-  {
-    while( $l = fgets( $m, 300 ) )
-    {
-      $l = rtrim( $l );
-      if( $l == "sep" ){}
-      else
-      {
-        list( $name, $text, $link ) =
-            preg_split( "/[\t;]+/", $l );
-        if( $mod == $name )
-                echo '<li class="selected">';
-        else
-                echo '<li>';
-        echo "<a href=\"$link\" onmouseover=\"showSubMenu('".$name."');\">$text</a></li>\n";
-      }
-    }
-  }
-  else
-  {
-    echo "<li>&nbsp;</li>";
-  }
+?>
+    <a style='float: left;' href='/'><?php image( "logoOrange.png", "VideoLAN association"); ?></a>
+	<div style='float: left; color: #4D4D4D; font-size: 12px; padding: 10px; padding-left: 20px; line-height: 20px;'>
+		is a project and a non-profit organization, composed of volunteers<br />
+		developing and promoting free, open-source multimedia solutions.
+	</div>
+    <a style='float: right; padding-top: 6px; padding-right: 20px;' href='http://madebyargon.com'>
+    <?php image( "madeByArgonOrange.png", 'Graphics & Website Made By Argon Designs' ); ?> </a>
+	<!--<div id='donate'>
+		<div style='font-size: 14px; color: #909090; float: left; padding-top: 5px;'>DONATE &nbsp;<a href='#'>(why?)</a></div>
+		<img src='images/paypal.png' style='float: right;' />
+		<form style='clear: both; padding-top: 10p;'>
+			<input class='text' type='text' value='$5.00' />
+			<button class='button' type='submit'>donate</button>
+		</form>
+	</div>-->
+	<div style='clear: both;'></div>
+<?php
 }
 
-function DrawSubMenus( $selcat, $mod )
+function draw_menus()
 {
-  $cats = array("developers", "doc", "fr", "project", "projects", "vlc", "vlma", "support");
-  foreach($cats as $cat) {
-    $file = $cat.".menu.txt";
-    echo "<ul class=\"submenu\" id=\"submenu-".$cat."\"";
-    if($cat!=$selcat) echo " style=\"display:none\"";
-    echo ">";
-    if( $m = @fopen( "menu/$file", "r", 1 ) )
-    {
-      while( $l = fgets( $m, 300 ) )
-      {
-        $l = rtrim( $l );
-        if( $l == "sep" ){}
-        else
-        {
-          list( $name, $text, $link ) =
-              preg_split( "/[\t;]+/", $l );
-
-          if( $mod == $name && $cat==$selcat)
-                  echo '<li class="selected">';
-          else
-                  echo '<li>';
-          echo "<a href=\"$link\">$text</a></li>\n";
-        }
-      }
-    }
-    else
-    {
-      echo "<li>&nbsp;</li>";
-    }
-    echo "</ul>";
-  }
-}
-
-function footer($tag) {
-   ?>
-
-    </div> <!-- MAINCONTENT -->
-</div> <!-- PAGECONTAINER -->
-<div id="footer">
-  <p> <a href="/">VideoLAN</a> &nbsp;-
-  &nbsp;<a href="/map.html">Website Map</a>&nbsp;-
-  &nbsp;<a href="/contact.html">Contact</a>
-  </p>
-  <p>
-  All rights reserved to VideoLAN. -&nbsp;
-    valid
-    <a href="http://validator.w3.org/check?uri=referer">XHTML 1.1</a>
-    and 
-    <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>
-    - <a href="http://www.videolan.org/videolan-news.rss">RSS v1.0</a>
-  </p>
+?>
+<div id='linkBar'>
+	<div class='link'>
+		<a href='index.html'>Home</a>
+	</div>
+	<div class='link' style='position: relative;'>
+		<a href='products.html'>Products</a>
+		<ul>
+			<li><a href='VLCMediaPlayer.html'>VLC Media Player</a></li>
+			<li><a href='VLMC.html'>VLMC</a></li>
+			<li><a href='DVBlast.html'>DVBlast</a></li>
+			<li><a href='x264.html'>x264</a></li>
+			<li><a href='developers.html'>For Developers</a></li>
+		</ul>
+	</div>
+	<div class='link'>
+		<a href='#'>Downloads</a>
+	</div>
+	<div class='link'>
+		<a href='#'>Forums</a>
+	</div>
+	<div class='link'>
+		<a href='#'>Contribute</a>
+	</div>
+	<div class='link'>
+		<a href='#'>Blog</a>
+	</div>
+	<div class='link'>
+		<a href='#'>About Us</a>
+	</div>
 </div>
+<?php
+}
 
-</body>
+function footer($tag = "") {
+?>
+	<div id='footer'>
+		<div style='background-image: url(images/divider.png); height: 15px; width: 100%;'></div>
+		<div style='margin: 0 auto; padding: 40px; padding-bottom: 10px; padding-left: 50px;'>
+        <a style='float: left; margin-right: 50px;' href='index.html'><?php image( 'videoLan.png', 'VideoLAN Foundation' ); ?>
+			<div style='width: 170px; float: left;'>
+				<div class='footerHeading'>VLC Media Player</div>
+				<ul>
+					<li><a href='#'>Features</a></li>
+					<li><a href='#'>Under the Hood</a></li>
+					<li><a href='#'>Security</a></li>
+					<li><a href='#'>Customization</a></li>
+					<li><a href='#'>Tips and Tricks</a></li>
+					<li><a href='#'>Videos</a></li>
+					<li><a href='#'>Release Notes</a></li>
+					<li><a href='#'>Other Version</a></li>
+					<li><a href='#'>Mobile</a></li>
+				</ul>
+			</div>
+			<div style='width: 170px; float: left;'>
+				<div class='footerHeading'>Other Projects</div>
+				<ul>
+					<li><a href='#'>For Professionals</a></li>
+					<li><a href='#'>For Developers</a></li>
+					<li><a href='#'>VLMC</a></li>
+					<li><a href='#'>DVBlast</a></li>
+					<li><a href='#'>x264</a></li>
+					<li><a href='#'>libdvdcss</a></li>
+					<li><a href='#'>libbluray</a></li>
+					<li><a href='#'>libdvdpsi</a></li>
+					<li><a href='#'>libdca</a></li>
+				</ul>
+			</div>
+			<div style='width: 170px; float: left;'>
+				<div class='footerHeading'>Community</div>
+				<ul>
+					<li><a href='#'>Support Forums</a></li>
+					<li><a href='#'>Discussion Boards</a></li>
+					<li><a href='#'>Press Center</a></li>
+					<li><a href='#'>Careers</a></li>
+					<li><a href='#'>Partnerships</a></li>
+					<li><a href='#'>Licensing</a></li>
+					<li><a href='#'>Blog</a></li>
+					<li><a href='#'>Logo Guide</a></li>
+					<li><a href='#'>Contact Us</a></li>
+				</ul>
+			</div>
+			<div style='width: 170px; float: left;'>
+				<div class='footerHeading'>About</div>
+				<ul>
+					<li><a href='#'>About VideoLAN</a></li>
+					<li><a href='#'>Get Involved</a></li>
+					<li><a href='#'>Press Center</a></li>
+					<li><a href='#'>Careers</a></li>
+					<li><a href='#'>Partnerships</a></li>
+					<li><a href='#'>Licensing</a></li>
+					<li><a href='#'>Blog</a></li>
+					<li><a href='#'>Logo Guide</a></li>
+					<li><a href='#'>Contact Us</a></li>
+				</ul>
+			</div>
+			<div style='clear: both; padding-bottom: 30px;'></div>
+			<div style='text-align: center; line-height: 17px; font-size: 12px; color: #999;'>
+				<a href='#'>Privacy Policy</a> | <a href='#'>Legal Notices</a> | <a href='#'>Report Trademark Abuse</a><br />
+				Icons for VLMC, DVBlast and x264 designed by <a href='http://cuberto.com/'>Roman Khramov</a>.<br />
+				Except where otherwise noted, content on this site is licensed under the Creative Commons Share-Alike License v3.0 or any later version.
+			</div>
+		</div>
+	</div>
+	</body>
 </html>
 <?php
 }
@@ -225,20 +265,7 @@ if(!isset($body_onunload)) $body_onunload = "";
 
 // HTML header
 StartHtml( preg_replace( "/<[^>]*>/", "" , $title ), $additional_css, $additional_js, $body_onload, $body_onunload ) ;
+start_top();
+draw_menus();
 ?>
-<div id="header">
-   <div id="navmenucontainer">
-      <ul id="navmenu">
-          <?php DrawMenu( "menu.txt", $menu[0] ); ?>
-      </ul>
-   </div>
-   <div id="submenucontainer">
-      <div class="videolan-logo">
-          <a href="/"><img src="http://images.videolan.org/images/videolan-logo.png" alt="VideoLAN" width="100" height="47"/></a>
-      </div>
-      <?php DrawSubMenus($menu[0], $menu[1]); ?>
-      <script type="text/javascript">showSubMenu('<?php echo $menu[0]; ?>');</script>
-   </div>
-</div>
 
-<div id="maincontent" onmouseover="showSubMenu('<?php echo $menu[0];?>')">

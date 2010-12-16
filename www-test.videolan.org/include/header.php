@@ -132,6 +132,8 @@ function draw_menus()
 			<li><a href='/videolan/partners.html'>Partners</a></li>
 			<li><a href='/videolan/team/'>Team</a></li>
 			<li><a href='/contact.html'>Contact</a></li>
+			<li><a href='/press/'>Press center</a></li>
+			<li><a href='/videolan/events/'>Events</a></li>
 		</ul>
 	</div>
 	<div class='link'>
@@ -164,6 +166,9 @@ function draw_menus()
 	</div>
 	<div class='link'>
 		<a href='/contribute.html'>Contribute</a>
+		<ul>
+			<li><a href='/goodies.html'>Goodies</a></li>
+		</ul>
 	</div>
 	<div class='link'>
 		<a href='/support/'>Support</a>

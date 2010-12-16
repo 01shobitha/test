@@ -157,6 +157,7 @@ function draw_menus()
          <li><a href='/projects/multicat.html'>Multicat</a></li>
          <li><a href='/projects/vlma/'>VLMa</a></li>
          <li><a href='/vlc/skineditor.html'>VLC Skin Editor</a></li>
+         <hr />
          <li><a href='/developers/libdvdcss.html'>libdvdcss</a></li>
          <li><a href='/developers/libbluray.html'>libbluray</a></li>
          <li><a href='/developers/libdvbpsi.html'>libdvbpsi</a></li>
@@ -175,6 +176,7 @@ function draw_menus()
    <div class='link'>
       <a href='/support/'>Support</a>
       <ul>
+         <li><a href='/support/'>Support center</a></li>
          <li><a href='/support/faq.html'>FAQ</a></li>
          <li><a href='/legal.html'>Legal</a></li>
          <li><a href='http://wiki.videolan.org/'>Wiki</a></li>

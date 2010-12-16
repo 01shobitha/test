@@ -1,0 +1,636 @@
+﻿@font-face {
+	font-family: 'Dagny OT';
+	src: url('dagnyot-thin-webfont.eot');
+	src: url('dagnyot-thin-webfont.woff') format('woff');
+	src: url('dagnyot-thin-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Franklin Gothic';
+	src: url('franklin-gothic-webfont.eot');
+	src: url('franklin-gothic-webfont.woff') format('woff');
+	src: url('franklin-gothic-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* =================================== CSS RESET =============================== */
+
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, code,
+del, dfn, em, img, q, dl, dt, dd, ol, ul, li,
+table, caption, tbody, tfoot, thead, tr, th, td ,hr{
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Get rid of the annoying blue outline in Safari */
+input[type=text]:focus,
+input:focus,
+input[type=password]:focus,
+textarea:focus {
+	outline: 0 none;
+}
+
+/* Stop Safari from allowing users to resize the text area controls. */
+textarea
+{
+	resize: none;
+}
+
+/* Turn off Firefox's ugly blue border around images inside links */
+a img
+{
+	border: none;
+}
+
+ul, li
+{
+	list-style-type: none;
+}
+
+
+/* =============================== TOP LEVEL STYLES ============================== */
+
+body
+{
+	background: #FFF url(images/background.png) repeat-x scroll top left;
+	text-align: center;
+	font-family: Arial;
+}
+
+a
+{
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+h1
+{
+	color: black;
+	font-size: 23px;
+}
+
+h2
+{
+	color: black;
+	font-size: 21px;
+}
+
+p
+{
+	color: #4D4D4D;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+.metaText
+{
+	font-size: 13px;
+	color: #7D7D7D;
+	padding-bottom: 10px;
+}
+
+/*Give this class to links that you don't want to underline on hover */
+.noUnderline:hover
+{
+	text-decoration: none;
+}
+
+/* ================================= DONATE BOX ================================== */
+
+#donate
+{
+	behavior: url(border-radius.htc);	
+	float: right;
+	padding: 7px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 10px;
+	background: #E7E7E7 url(images/donateBackground.png) repeat-x fixed top left;
+	border: 1px solid #CCC;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+}
+
+#donate form
+{
+	padding-top: 7px;
+}
+
+#donate .text
+{
+	border: 1px solid #CCC;
+	height: 25px;
+	float: left;
+	text-align: right;
+	padding-right: 10px;
+	color: #555;
+	font-size: 12px;
+	width: 100px;
+}
+
+#donate .button
+{
+	border: 1px solid black;
+	background-color: black;
+	padding-left: 5px;
+	margin-left: 5px;
+	padding-right: 5px;
+	color: white;
+	height: 27px;
+	float: left;
+	font-size: 12px;
+}
+
+/* =============================== SIDEBAR STYLE =============================== */
+
+#sidebar
+{
+	float: right;
+	padding-left: 40px;
+	width: 340px;
+}
+
+#sidebar h1
+{
+	font-size: 30px;
+	color: #0070BB;
+}
+
+.blueBox
+{
+	margin-bottom: 15px;
+	border: 1px solid #0070bb;
+	padding: 10px;
+	background-color: #bad9ea;
+}
+
+.redBox
+{
+	margin-bottom: 15px;
+	border: 1px solid #c1272c;
+	padding: 10px;
+	background-color: #f7d4d4;
+}
+
+.greenBox
+{
+	margin-bottom: 15px;
+	border: 1px solid #39b549;
+	padding: 10px;
+	background-color: #d0eed5;
+}
+
+/* =============================== PAGE STRUCTURES =============================== */
+
+#bodyInner
+{
+	background: transparent url(images/highlight.png) no-repeat scroll top left;
+	padding: 20px;
+	width: 980px;
+	padding-bottom: 40px;
+	text-align: left;
+	float: left;
+	padding-left: 50px;
+}
+
+#footer
+{
+	clear: both;
+	float: left;
+	width: 100%;
+	text-align: left;
+}
+
+#linkBar
+{
+	margin-top: 25px;
+	background-color: white;
+	border: 1px solid #F1F1F1;
+	float: left;
+}
+
+#linkBar .link
+{
+	position: relative;
+	display: block;
+	float: left;
+	font-size: 15px;
+	padding: 8px;
+	padding-left: 12px;
+	padding-right: 12px;
+	text-decoration: none;
+}
+
+#linkBar .link:hover
+{
+	position: relative;
+	display: block;
+	float: left;
+	background-color: black;
+	color: white;
+	font-size: 15px;
+	padding: 8px;
+	padding-left: 12px;
+	padding-right: 12px;
+	text-decoration: none;
+}
+
+#linkBar .link:hover a
+{
+	color: white;
+}
+
+#linkBar a:hover
+{
+	text-decoration: none;
+}
+
+#linkBar .link:hover ul
+{
+	display: block;
+}
+
+#linkBar ul
+{
+	display: none;
+	background-color: white;
+	border: 1px solid #CCC;
+	position: absolute;
+	top: 32px;
+	left: 0px;
+	width: 170px;
+	-webkit-box-shadow: 0px 0px 3px #DDD;
+	-moz-box-shadow: 0px 0px 3px #DDD;
+	box-shadow: 0px 0px 3px #DDD;
+}
+
+#linkBar ul li
+{
+	display: block;
+	padding-right: 10px;
+}
+
+#linkBar ul li a
+{
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 0px;
+	display: block;
+	width: 50px;
+}
+
+#linkBar .link:hover ul li a
+{
+	width: 100%;
+	color: black;
+}
+
+/* =================================== DOWNLOAD ELEMENTS ===================================== */
+
+.extraInfoLink
+{
+	float: left;
+	padding-right: 40px;
+	padding-top: 10px;
+	font-size: 13px;
+}
+
+.extraInfoLink:hover
+{
+	text-decoration: underline;
+	float: left;
+	padding-right: 40px;
+	padding-top: 10px;
+	font-size: 13px;
+}
+
+#downloadButton
+{
+	behavior:url(border-radius.htc);
+	height: 53px;
+	position: relative;
+	clear: both;
+	float: left;
+	margin-top: 30px;
+	padding: 15px;
+	padding-left: 90px;
+	background-color: black;
+	color: white;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+	border: 1px solid white;
+	-webkit-box-shadow: 0px 0px 10px #222;
+	-moz-box-shadow: 0px 0px 10px #222;
+	box-shadow: 0px 0px 10px #222;
+}
+
+#downloadButton:hover
+{
+	text-decoration: none;
+}
+
+#downloadDetails
+{
+	padding-left: 3px;
+	color: white;
+}
+
+.downloadText
+{
+	font-family: "Franklin Gothic";
+	font-size: 40px;
+	line-height: 27px;
+	padding-bottom: 8px;
+}
+
+/* =================================== HOMEPAGE DETAILS ======================================== */
+
+.audienceCallout
+{
+	color: #999999;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+.productName
+{
+	color: #4D4D4D;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.productDescription
+{
+	color: #4D4D4D;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+/* ======================================= RSS FEEDS =========================================== */
+
+.title
+{
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.date
+{
+	color: #999;
+	font-size: 12px;
+	padding-bottom: 10px;
+}
+
+.excerpt
+{
+	color: #999;
+	font-size: 13px;
+	padding-bottom: 5px;
+}
+
+.readMore
+{
+	display: block;
+	padding-right: 40px;
+	padding-top: 10px;
+	font-size: 13px;
+}
+
+.readMore:hover
+{
+	text-decoration: underline;
+	padding-right: 40px;
+	padding-top: 10px;
+	font-size: 13px;
+}
+
+.horizontalRule
+{
+	clear: both;
+	border-top: 1px solid #DDD;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+/* ======================================== FOOTER ============================================= */
+
+#footer
+{
+	background-color: white;
+	background-image: url(images/footerBackground.png);
+	background-repeat: repeat-x;
+}
+
+.footerHeading
+{
+	color: #4D4D4D;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+
+#footer ul a
+{
+	font-size: 12px;
+	color: #393938;
+}
+
+
+#footer a
+{
+	color: #999;
+}
+
+/* =================================== THEME RECOLORING RULES ====================================== */
+
+/* ORANGE */
+
+.orange a, .orange h1, .orange #linkBar a, .orange #linkBar .link:hover ul li a
+{
+	color: #F48B00;
+}
+
+.orange #linkBar .link:hover, .orange #linkBar .link:hover ul li a:hover
+{
+	color: white;
+	background-color: #F48B00;
+}
+
+.orange #donate .button
+{
+	background-color: #F48B00;
+	border: 1px solid #E47B00;
+}
+
+.orange #downloadButton
+{
+	color: white;
+	background: #F48B00 url(images/downloadButtonGradientOrange.png) repeat-x;
+}
+
+.orange #downloadButton:hover
+{
+	background: #F48B00 url(images/downloadButtonGradientOrangeBright.png) repeat-x;
+}
+
+/* RED */
+
+.red a, .red h1, .red #linkBar a, .red #linkBar .link:hover ul li a
+{
+	color: #ED1C24;
+}
+
+.red #linkBar .link:hover, .red #linkBar .link:hover ul li a:hover
+{
+	color: white;
+	background-color: #ED1C24;
+}
+
+.red #donate .button
+{
+	background-color: #ED1C24;
+	border: 1px solid #DD0C14;
+}
+
+.red #downloadButton
+{
+	color: white;
+	background: #ED1C24 url(images/downloadButtonGradientRed.png) repeat-x;
+}
+
+.red #downloadButton:hover
+{
+	background: #ED1C24 url(images/downloadButtonGradientRedBright.png) repeat-x;
+}
+
+/* GREEN */
+
+.green a, .green h1, .green #linkBar a, .green #linkBar .link:hover ul li a
+{
+	color: #39B549;
+}
+
+.green #linkBar .link:hover, .green #linkBar .link:hover ul li a:hover
+{
+	color: white;
+	background-color: #39B549;
+}
+
+.green #donate .button
+{
+	background-color: #39B549;
+	border: 1px solid #29A539;
+}
+
+.green #downloadButton
+{
+	color: white;
+	background: #39B549 url(images/downloadButtonGradientGreen.png) repeat-x;
+}
+
+.green #downloadButton:hover
+{
+	background: #39B549 url(images/downloadButtonGradientGreenBright.png) repeat-x;
+}
+
+/* BLUE */
+
+.blue a, .blue h1, .blue #linkBar a, .blue #linkBar .link:hover ul li a
+{
+	color: #0070BB;
+}
+
+.blue #linkBar .link:hover, .blue #linkBar .link:hover ul li a:hover
+{
+	color: white;
+	background-color: #0070BB;
+}
+
+.blue #donate .button
+{
+	background-color: #0070BB;
+	border: 1px solid #0060AB;
+}
+
+.blue #downloadButton
+{
+	color: white;
+	background: #0070BB url(images/downloadButtonGradientGreen.png) repeat-x;
+}
+
+.blue #downloadButton:hover
+{
+	background: #0070BB url(images/downloadButtonGradientGreenBright.png) repeat-x;
+}
+
+.blue .productName
+{
+	color: #0070BB;
+}
+
+/* PINK */
+
+.pink a, .pink h1, .pink #linkBar a, .pink #linkBar .link:hover ul li a, .pink h2
+{
+	color: #D3135A;
+}
+
+.pink #linkBar .link:hover, .pink #linkBar .link:hover ul li a:hover
+{
+	color: white;
+	background-color: #D3135A;
+}
+
+.pink #donate .button
+{
+	background-color: #D3135A;
+	border: 1px solid #C3034A;
+}
+
+.pink #downloadButton
+{
+	color: white;
+	background: #D3135A url(images/downloadButtonGradientPink.png) repeat-x;
+}
+
+.pink #downloadButton:hover
+{
+	background: #D3135A url(images/downloadButtonGradientPinkBright.png) repeat-x;
+}
+
+.pink .productName
+{
+	color: #D3135A;
+}

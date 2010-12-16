@@ -2,8 +2,8 @@
    $title = "VLC - Screenshots";
    $lang = "en";
    $menu = array( "vlc", "screenshots" );
+   $additional_css = array("/style/screenshots.css");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
-
 function screenshot($img,$thumb,$desc,$size){
 echo"    <div class=\"screenshot\"><a href='http://images1.videolan.org/vlc/screenshots/$img'><img
     src='http://images1.videolan.org/vlc/screenshots/$thumb' alt='VLC media player - $desc' width='150' /></a>

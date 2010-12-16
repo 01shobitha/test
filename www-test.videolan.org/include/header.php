@@ -128,10 +128,10 @@ function draw_menus()
    <div class='link'>
       <a href='/'>VideoLAN</a>
       <ul>
-         <li><a href='/videolan/'>VideoLAN Project and Organization</a></li>
-         <li><a href='/videolan/partners.html'>Partners</a></li>
+         <li><a href='/videolan/'>Project and Organization</a></li>
          <li><a href='/videolan/team/'>Team</a></li>
          <li><a href='/contact.html'>Contact us</a></li>
+         <li><a href='/videolan/partners.html'>Partners</a></li>
          <li><a href='/press/'>Press center</a></li>
          <li><a href='/videolan/events/'>Events</a></li>
          <li><a href='/security/'>Security center</a></li>

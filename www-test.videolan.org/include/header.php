@@ -19,7 +19,7 @@ function image( $src_img, $alt, $id = "" ) {
 /*
 *  starthtml: beginning of the page
 */
-function StartHtml( $title, $additional_css=array(), $additional_js=array(), $body_onload = "HideMirrors();", $body_onunload = "" ) {
+function StartHtml( $title, $color, $additional_css=array(), $additional_js=array(), $body_onload = "HideMirrors();", $body_onunload = "" ) {
 global $HTTP_GET_VARS;
 echo '<?xml version="1.0" encoding="utf-8" ?>';
 ?>
@@ -91,14 +91,18 @@ echo '<?xml version="1.0" encoding="utf-8" ?>';
 </head>
 
 <body onload="<?php echo $body_onload;?>" onunload="<?php echo $body_onunload; ?>">
-    <div id='bodyInner' class='orange'>
+<div id='bodyInner' class="<?php echo $color ?>">
 <?php
 }
 
-function start_top()
+function start_top( $body_color )
 {
+    switch( $body_color ){
+    case "red": $imgSrc = "logoRed.png"; break;
+    default: $imgSrc = "logoOrange.png"; break;
+    }
 ?>
-    <a style='float: left;' href='/'><?php image( "logoOrange.png", "VideoLAN association"); ?></a>
+    <a style='float: left;' href='/'><?php image( $imgSrc, "VideoLAN association"); ?></a>
    <div style='float: left; color: #4D4D4D; font-size: 12px; padding: 10px 10px 5px 20px; line-height: 20px;'>
       is a project and a non-profit organization, composed of volunteers<br />
       developing and promoting free, open-source multimedia solutions.
@@ -305,11 +309,12 @@ if(!isset($additional_css)) $additional_css = array();
 if(!isset($additional_js)) $additional_js = array();
 if(!isset($body_onload)) $body_onload = "HideMirrors();";
 if(!isset($body_onunload)) $body_onunload = "";
+if(!isset($body_color)) $body_color = "orange";
 
 /* render the page */
 
 // HTML header
-StartHtml( preg_replace( "/<[^>]*>/", "" , $title ), $additional_css, $additional_js, $body_onload, $body_onunload ) ;
-start_top();
+StartHtml( preg_replace( "/<[^>]*>/", "" , $title ), $body_color, $additional_css, $additional_js, $body_onload, $body_onunload ) ;
+start_top( $body_color );
 draw_menus();
 ?>

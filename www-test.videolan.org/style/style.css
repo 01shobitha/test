@@ -418,6 +418,7 @@ p
 {
     float: left;
     padding: 10px 110px 0px 40px;
+    width: 300px;
 }
 
 .projectDescription
@@ -551,6 +552,11 @@ p
 .orange #downloadButton:hover
 {
 	background: #F48B00 url(/style/images/downloadButtonGradientOrangeBright.png) repeat-x;
+}
+
+.orange .screenshot
+{
+    cursor: pointer; border: 1px solid #F48B00; width: 90px; height: 90px; margin: 5px; float: left;
 }
 
 /* RED */

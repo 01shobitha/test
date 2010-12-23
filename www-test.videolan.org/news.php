@@ -6,9 +6,12 @@
 ?>
 
 
-<div id="fullwidth">
-
 <h1> News archive </h1>
+
+<br />
+
+<div style="background-color: white; padding: 30px;">
+
 <?php
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");
    shownews("full",0);

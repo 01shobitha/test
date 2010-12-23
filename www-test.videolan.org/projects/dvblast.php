@@ -18,13 +18,13 @@
                 <a class='extraInfoLink' href='/vlc/features.html'>Features</a>
                 <a class='extraInfoLink' href='/vlc/screenshots.html'>Screenshots</a>
                 <a class='extraInfoLink' href='#'>Other Systems and Versions</a>
-                <a id='downloadButton' href='http://www.videolan.org/vlc/download-windows.html'>
-                    <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
-                    <div class='downloadText'>Download VLC</div>
-                    <span id='downloadDetails' style='font-size: 12px; color: white;'>
-                        Version 1.1.3 &nbsp;&#8226;&nbsp; Windows &nbsp;&#8226;&nbsp; 15 MB
-                    </span>
-                </a>
+                <a id='downloadButton' href='http://downloads.videolan.org/pub/videolan/dvblast/1.2/dvblast-1.2.tar.bz2'>
+					<img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadDVBlast.png' alt='Download DVBlast icon' />
+					<div class='downloadText'>Download DVBlast</div>
+					<span id='downloadDetails' style='font-size: 12px;'>
+						Version 1.2 &nbsp;&#8226;&nbsp; Linux &nbsp;&#8226;&nbsp; 2 MB
+					</span>
+				</a>
             </div>
         </div>
         <div style='clear: both; padding-top: 90px;'>

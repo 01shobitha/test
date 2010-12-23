@@ -17,7 +17,7 @@ CVE reference     : CVE-2008-5276
 </pre>
 <h2>Details</h2>
 <p>When parsing the header of an invalid Real Media file
-an integer overflow might occur then trigger a heap-based buffer overflows.
+an integer overflow might occur then trigger a heap-based buffer overflow.
 </p>
 <h2>Impact</h2>
 <p>If successful,

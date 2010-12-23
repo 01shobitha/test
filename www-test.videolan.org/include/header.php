@@ -10,8 +10,10 @@ function FormatSize($size) {
     return round($size, 1).$ext;
 }
 
-function image( $src_img, $alt ) {
-    echo "<img src='/images/".$src_img."' alt='".$alt."' />\n";
+function image( $src_img, $alt, $id = "" ) {
+    echo "<img src='/images/".$src_img."' alt='".$alt."'";
+    if( !empty( $id ) ) echo " id='$id'";
+    echo "' />\n";
 }
 
 /*

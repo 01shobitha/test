@@ -75,7 +75,6 @@
                 </ul>
 
                 <br />
-                <br />
                It outputs one or several RTP streams carrying transport streams with:<br />
                <ul class="panel-blue-bullet">
                    <li> hardware or software PID filtering</li>

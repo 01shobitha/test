@@ -1,5 +1,5 @@
 # Subdirectories to be preprocessed
-SUBDIR = doc security support vlc videolan projects developers locale press
+SUBDIR = doc security support vlc videolan projects developers locale press vlmc
 
 # Files to be preprocessed
 #PHP_FILES = # automatic

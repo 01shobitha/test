@@ -589,6 +589,11 @@ p
 	background: #ED1C24 url(/style/images/downloadButtonGradientRedBright.png) repeat-x;
 }
 
+.red .screenshot
+{
+    cursor: pointer; border: 1px solid #ED1C24; width: 90px; height: 90px; margin: 5px; float: left;
+}
+
 /* GREEN */
 
 .green a, .green h1, .green #linkBar a, .green #linkBar .link:hover ul li a

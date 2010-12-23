@@ -13,7 +13,7 @@
                 <div class='projectDescription'>
 						Are you looking for live streaming? Don't look any further!<br />
 						DVBlast is a simple and powerful MPEG-2/TS demux and streaming<br />
-						application with several input methods.
+						application.
                 </div>
                 <a class='extraInfoLink' href='/vlc/features.html'>Features</a>
                 <a class='extraInfoLink' href='/vlc/screenshots.html'>Screenshots</a>
@@ -29,6 +29,7 @@
         </div>
         <div style='clear: both; padding-top: 90px;'>
             <div style='float: left; width: 400px; color: #333333;'>
+                <a name="features"></a>
                 <h1 style='margin-bottom: 25px;' class='red'>Features</h1>
                 Lightweight program designed for extreme memory and CPU conditions<br />
                 <br />
@@ -46,45 +47,59 @@
                 UDP rather than RTP output for IPTBV STBs which don't support RTP
             </div>
             <div style='float: right; width: 450px; padding-left: 70px;'>
-                <h1 style='padding-left: 5px; margin-bottom: 25px;'>Screenshots</h1>
-                <div style='screenshot'></div>
-                <div class='screenshot'></div>
-                <div class='screenshot'></div>
-                <div class='screenshot'></div>
-                <div style='clear: left;'></div>
-                <div class='screenshot'></div>
-                <div class='screenshot'></div>
-                <div class='screenshot'></div>
-                <div class='screenshot'></div>
-                <div style='clear: left;'></div>
-                <div class='screenshot'></div>
-                <div class='screenshot'></div>
-                <div class='screenshot'></div>
-                <div class='screenshot'></div>
-                <div style='clear: both;'></div>
+
             </div>
         </div>
         <div class='tricolumn'>
             <div class="onecolumn">
-                <h1>Heading One</h1>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod commodo suscipit.<br />
+                <h1>High-Performance Streaming</h1>
+                <code>DVBlast</code> is written to be the core of a custom IRD, CID,
+                or ASI gateway, based on a PC with a Linux-supported card. It is very
+                lightweight and stable, designed for 24/7 operation.
                 <br />
-                Donec tempor accumsan massa in iaculis. Donec volutpat rutrum ipsum nec volutpat. Nullam egestas dignissim lorem, eu euismod ante gravida vitae. Sed feugiat porta libero, nec sagittis felis pulvinar ut. Integer ut tristique ante. In hendrerit, risus quis iaculis posuere, ipsum sapien congue nulla, in tristique neque urna sed nibh.<br />
                 <br />
-                Nulla ultrices nisl id turpis egestas fermentum. Nunc egestas lacus sit amet metus tincidunt imperdiet. Donec euismod scelerisque diam, a egestas quam pretium non. Phasellus auctor elit non diam facilisis luctus. Sed id justo quis felis aliquam ullamcorper.<br />
 
+                <code>DVBlast</code> does <strong>not</strong> do any kind of
+                processing on the elementary streams, such as transcoding, PID remapping
+                or remultiplexing. If you were looking for these features, switch to
+                <a href="/vlc/">VLC</a>. It does <strong>not</strong> stream from plain files (have a look
+                at multicat instead).
             </div>
             <div class="onecolumn">
-                <h1>Heading Two</h1>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod commodo suscipit.<br />
+                <h1>Inputs - Outputs</h1>
+                <code>DVBlast</code> supports several input methods:<br />
+                <ul class="panel-blue-bullet">
+                     <li> linux-dvb-supported cards (DVB-S, DVB-S2, DVB-C, DVB-T...) with or without CI interface</li>
+                     <li> DVB-ASI cards (from <a href="http://www.computermodules.com/"> Computer Modules</a>)</li>
+                     <li> UDP or RTP stream carrying a transport stream</li>
+                </ul>
+
                 <br />
-                Nulla ultrices nisl id turpis egestas fermentum. Nunc egestas lacus sit amet metus tincidunt imperdiet. Donec euismod scelerisque diam, a egestas quam pretium non. Phasellus auctor elit non diam facilisis luctus. Sed id justo quis felis aliquam ullamcorper.<br />
-                <br />Donec tempor accumsan massa in iaculis. Donec volutpat rutrum ipsum nec volutpat. Nunc ac urna a risus scelerisque commodo non in neque. Donec blandit eleifend placerat. Proin viverra semper nisi sit amet cursus. Suspendisse potenti. Nullam egestas dignissim lorem, eu euismod ante gravida vitae. Sed feugiat porta libero, nec sagittis felis pulvinar ut. Integer ut tristique ante. In hendrerit, risus quis iaculis posuere, ipsum sapien congue nulla, in tristique neque urna sed nibh.
+                <br />
+               It outputs one or several RTP streams carrying transport streams with:<br />
+               <ul class="panel-blue-bullet">
+                   <li> hardware or software PID filtering</li>
+                   <li> PID-based or service-based demultiplexing</li>
+                   <li> optional descrambling via CAM device</li>
+                   <li> EIT, SDT and TDT pass-through for EPG information</li>
+               </ul>
             </div>
             <div class='lastcolumn'>
-                <h1>Heading Three</h1>
-                Nulla ultrices nisl id turpis egestas fermentum. Nunc egestas lacus sit amet metus tincidunt imperdiet. Donec euismod scelerisque diam, a egestas quam pretium non. Phasellus auctor elit non diam facilisis luctus. Sed id justo quis felis aliquam ullamcorper.<br />
-                <br />Donec blandit eleifend placerat. Proin viverra semper nisi sit amet cursus. Suspendisse potenti. Nullam egestas dignissim lorem, eu euismod ante gravida vitae. Sed feugiat porta libero, nec sagittis felis pulvinar ut. Integer ut tristique ante. In hendrerit, risus quis iaculis posuere, ipsum sapien congue nulla, in tristique neque urna sed nibh.
+                <h1>Support</h1>
+                    User support is handled in the <a
+                    href="/support/lists.html">streaming</a>
+                    mailing-list.<br />
+                    <br />
+                    There is also a developer-oriented <a href="/developers/lists.html">mailing-list</a>.
+                <br />
+                <br />
+
+                <h1>Development</h1>
+                    Hackers can participate to the development using <a href="http://wiki.videolan.org/Subversion">Subversion</a>.<br />
+                    The code can be found at <code>svn://svn.videolan.org/dvblast</code> and
+                    you can <a href="http://svn.videolan.org/listing.php?repname=DVBlast&amp;path=%2F&amp;sc=0">browse the source online</a>.
+                    <br />
+
             </div>
         </div>
         <div style='clear: both;'></div>

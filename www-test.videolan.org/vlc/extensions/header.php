@@ -13,7 +13,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
 
 /* listing categories */
-$query_categories  = "SELECT categories.id_cat, categories.name as name, slug, count(skins.id) as count from skins INNER JOIN categories ON skins.category = categories.id_cat WHERE skins.accepted = true GROUP BY categories.id_cat, categories.name, categories.slug";
+$query_categories  = "SELECT categories.id_cat, categories.name as name, slug, count(skins.id) as count from skins RIGHT OUTER JOIN categories ON skins.category = categories.id_cat WHERE skins.accepted = true GROUP BY categories.id_cat, categories.name, categories.slug";
 $categories        = pg_query($connect,$query_categories);
 
 $categoriesList    = array();

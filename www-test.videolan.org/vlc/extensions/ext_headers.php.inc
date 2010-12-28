@@ -32,11 +32,11 @@ while ( $row_categories   = pg_fetch_array($categories) )
     /* This is useful to avoid one query to find the Name associated to the requested category */
     if(isset($getCat) && $getCat == $row_categories['slug'] && !$b_haveMainCategoryName) {
         $mainCategoryName = $row_categories['name'];
+        $mainCategoryId   = $row_categories['id_cat'];
         $b_haveMainCategoryName = true;
     }
 
 }
-pg_close( $connect );
 ?>
 
 <?php /* Prepare the search form */ ?>

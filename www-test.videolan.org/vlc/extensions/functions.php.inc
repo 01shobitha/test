@@ -108,6 +108,8 @@ if (!function_exists("getVariable")) {
 }
 
 function addArg($url,$arg,$value) {
+    if(!isset($value) or empty($value))
+        return $url;
     if( empty($url) )
         return "?$arg=$value";
     else

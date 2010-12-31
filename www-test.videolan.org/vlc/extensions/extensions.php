@@ -5,7 +5,7 @@ $title = "VLC media player - Extensions";
 $lang  = "en";
 require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
-require('functions.php.inc');
+require_once('functions.php.inc');
 
 /* Get params */
 getVariable('q','cat','sort','maxRows','page'/*,'when'*/);

@@ -12,7 +12,7 @@ getVariable('q','cat','sort','maxRows','page'/*,'when'*/);
 
 if(isset($getMaxRows) && is_numeric($getMaxRows) && ($getMaxRows>0)) $maxRows = $getMaxRows; else $maxRows = 20;
 if(isset($getPage) && is_numeric($getPage) && ($getPage>0)) $page = $getPage; else $page = 1;
-if(in_array($getSort, array('add-a','rev-d','rev-a','rat-d','rat-a','dwn-d','dwn-a'))) $sort = $getSort; else $sort = 'add-d';
+if(isset($getSort) && in_array($getSort, array('add-a','rev-d','rev-a','rat-d','rat-a','dwn-d','dwn-a'))) $sort = $getSort; else $sort = 'add-d';
 
 /*if(in_array($getWhen, array('tody','week','month','year'))) $when = $getWhen; else $when = 'all';
 
@@ -38,15 +38,20 @@ echo "<h1>VLC addons</h1>";
 require('ext_headers.php.inc');
 
 /* Narrowing query with search and category */
+$url_pre="extensions.php";
 if(isset($getQ)) {
     $query_suffix = ' WHERE skins.name LIKE '.GetSQLValueString('%'.$getQ.'%', "text");
-    if(isset($getCat))
-        $query_suffix = " AND category = $mainCategoryId";
     $h1title = "Search Result: <em>".htmlentities(urldecode($getQ), ENT_QUOTES).'</em>';
+    $url_pre.="?q=$getQ";
+    if(isset($getCat)) {
+        $query_suffix = " AND category = $mainCategoryId";
+        $url_pre.="&cat=$getCat";
+    }
 }
 elseif(isset($getCat)) {
     $query_suffix = " WHERE category = $mainCategoryId";
     $h1title = $mainCategoryName; 
+    $url_pre.="?cat=$getCat";
 }
 
 if( !isset($h1title) )
@@ -80,8 +85,8 @@ while ( $row_extensions   = pg_fetch_array($extensions) )
 pg_close( $connect );
 
 echo '<div class="pages">';
-if( $page < 1 ) echo '<a href="">Previous Page</a>';
-if( $count = $maxRows ) echo '<a href="">Next Page</a>';
+if( $page < 1 ) echo "<a href='$url_pre'>Previous Page</a>";
+if( $count = $maxRows ) echo "<a href='$url_pre'>Next Page</a>";
 echo '</div>';
 
 ?>

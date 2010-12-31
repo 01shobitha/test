@@ -40,7 +40,7 @@ while ( $row_categories   = pg_fetch_array($categories) )
 ?>
 
 <?php /* Prepare the search form */ ?>
-<div>
+<div class="search">
 <form action="extensions.php" method="get">
     <input type="text" name="q" value="<?php if(isset($getQ)) echo htmlentities(urldecode($getQ), ENT_QUOTES); ?>"  />
     <select name="cat">
@@ -58,11 +58,11 @@ while ( $row_categories   = pg_fetch_array($categories) )
 </div>
 
 <?php /* And the categories selection */ ?>
-<div>
-<h2>Categories</h2>
+<div class="cat">
 <ul>
+    <li>Categories</li>
     <li><a href="./extensions.php">All</a> (<?php echo $total_count; ?>)</li>
     <?php foreach($categoriesList as $categoriesIndi) {echo $categoriesIndi;} ?>
 </ul>
-<div>
+</div>
 

@@ -3,6 +3,7 @@
 /* Main header */
 $title = "VLC media player - Extensions";
 $lang  = "en";
+$additional_css=array('/style/extensions.css');
 require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
 require_once('functions.php.inc');
@@ -34,7 +35,7 @@ switch($when) {
     break;
 }*/
 
-echo "<h1>VLC addons</h1>";
+echo "<h1 class='bigtitle'>VLC addons</h1>";
 require('ext_headers.php.inc');
 
 /* Narrowing query with search and category */

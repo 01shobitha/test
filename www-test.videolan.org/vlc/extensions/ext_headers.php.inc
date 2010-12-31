@@ -49,8 +49,8 @@ while ( $row_categories   = pg_fetch_array($categories) )
     </select>
     <?php
     if($page!=0)         echo '<input name="page" type="hidden" value="'.$page.'" />';
-    if($when!='all')     echo '<input name="when" type="hidden" value="'.$when.'" />';
-    if($maxRows!=10)     echo '<input name="maxRows" type="hidden" value="'.$maxRows.'" />';
+//    if($when!='all')     echo '<input name="when" type="hidden" value="'.$when.'" />';
+    if($maxRows!=20)     echo '<input name="maxRows" type="hidden" value="'.$maxRows.'" />';
     if($sort!='add-d')   echo '<input name="sort" type="hidden" value="'.$sort.'" />';
     ?>
     <input type="submit" value="Search" />

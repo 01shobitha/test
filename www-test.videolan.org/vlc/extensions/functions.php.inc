@@ -106,4 +106,11 @@ if (!function_exists("getVariable")) {
         }
     }
 }
+
+function addArg($url,$arg,$value) {
+    if( empty($url) )
+        return "?$arg=$value";
+    else
+        return "$url&$arg=$value";
+}
 ?>

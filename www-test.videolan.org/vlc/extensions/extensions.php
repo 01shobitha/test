@@ -85,8 +85,8 @@ while ( $row_extensions   = pg_fetch_array($extensions) )
 pg_close( $connect );
 
 echo '<div class="pages">';
-if( $page < 1 ) echo "<a href='$url_pre'>Previous Page</a>";
-if( $count = $maxRows ) echo "<a href='$url_pre'>Next Page</a>";
+if( $page > 1 )  echo "<a href='$url_pre&page=".($page-1)."'>Previous Page</a>";
+if( $count = $maxRows ) echo "<a href='$url_pre&page=".($page+1)."'>Next Page</a>";
 echo '</div>';
 
 ?>

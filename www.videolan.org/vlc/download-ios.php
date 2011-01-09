@@ -18,7 +18,7 @@
 <h2> Binaries </h2>
 
 <p> You can find the binary here:</p>
-<code><a href="http://download.videolan.org/pub/videolan/testing/vlc-iOS/1.1.0/vlc-iOS-1.1.0-zip">vlc-iOS-1.1.0-zip</a></code>
+<code><a href="http://download.videolan.org/pub/videolan/testing/vlc-iOS/1.1.0/vlc-iOS-1.1.0.zip">vlc-iOS-1.1.0.zip</a></code>
 
 
 <h2> Source </h2>

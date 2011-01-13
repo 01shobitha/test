@@ -1,7 +1,7 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
-|9 January 2010|VLC for iOS removed from the AppStore|The VideoLAN project has been notified that the build of VLC for iOS that was submitted on the AppStore by the company Applidium has been removed by Apple from the iOS AppStore.<br />The VideoLAN non-profit organisation is a 3rd party in this matter and, while VideoLAN regrets the annoyance that could be caused to the users, VideoLAN is not responsible for this matter.<br />However, we are going to work and try to discuss with all the parties to find the best solution in the shortest time possible.
+|9 January 2011|VLC for iOS removed from the AppStore|The VideoLAN project has been notified that the build of VLC for iOS that was submitted on the AppStore by the company Applidium has been removed by Apple from the iOS AppStore.<br />The VideoLAN non-profit organisation is a 3rd party in this matter and, while VideoLAN regrets the annoyance that could be caused to the users, VideoLAN is not responsible for this matter.<br />However, we are going to work and try to discuss with all the parties to find the best solution in the shortest time possible.
 
 |16 December 2010|VLC users survey|The VideoLAN project and the VLC development team would love <b>VLC users</b> and <b>community</b> to help them in understanding the users and their needs.<br />Please <b>fill</b> the <a href="http://goo.gl/oTISI">VLC users survey</a>. It is quick and is completely anonymous.
 

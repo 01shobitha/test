@@ -8,6 +8,8 @@
 
 <h1 class="bigtitle">Multicat</h1>
 
+<div class="clearme"> </div>
+
 <h2>Simple and efficient multicast and transport stream manipulation</h2>
 
 <p>The multicat package contains a set of tools designed to easily and

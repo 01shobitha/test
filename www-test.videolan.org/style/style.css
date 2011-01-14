@@ -444,6 +444,7 @@ p
 .onecolumn { padding-right: 40px; }
 .tricolumn h1 { padding-bottom: 20px; }
 
+.doublecolumn { margin-left: 10px; width: 100%; margin-top: 30px; }
 .doublecolumn td { width: 35%; padding-right: 15%; padding-bottom: 20px;
     vertical-align: top; }
 /* ======================================= RSS FEEDS =========================================== */

@@ -30,7 +30,7 @@
 </ul>
 
         <div style="margin-top: 50px;" class="clearme"></div>
-        <table style='width: 100%; margin-left: 0px;' class="doublecolumn">
+        <table class="doublecolumn">
             <tr>
                 <td>
                     <h2>Open Source</h2>
@@ -75,32 +75,12 @@
                     <h2>Contact</h2>
                         <p>Please use and read the <a href="/contact.html">contact page</a> for
                           any query, question and remark.</p>
-                        <p>Although, here is the non-profit address:
-<pre  style="margin-left: 60px;">
-VideoLAN
-18, rue Charcot
-75013 Paris
-France
-</pre></p>                        </td>
+                       </td>
                     </tr>
                 </table>
             </div>
 
 </div>
 
-
-   <!--
-<h1>Contacting us</h1>
-
-<p>For VLC media player user-related questions,
-    please see our <a href="/support">Support section</a>
-    and the users <a href="/support/lists.html">Mailing-lists</a>.</p>
-<p>If you want to contact the VideoLAN team, about partnerships, legal aspects or any non-support related questions , please write to
-<a href="mailto:videolan@REMOVETHIS@videolan.org">videolan - at - videolan.org</a> in French or English.</p>
-<p>In case you write an article about VideoLAN, we would be very glad to
-have a copy of it to add to our press book. You can send us the article
-at the following address:</p>
-
-/pre>-->
 
 <?php footer('$Id: index.php 3765 2006-08-16 16:19:00Z dionoea $'); ?>

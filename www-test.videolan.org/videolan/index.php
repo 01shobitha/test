@@ -11,14 +11,14 @@
     <h1 class="bigtitle">VideoLAN</h1>
 
     <div class="projectDescription">
-     <div style="float: right;"><img src="/images/videolan-logo-big.png" style="border: 1px #D4E0F7 solid;" alt="VideoLAN"/></div>
       The VideoLAN project is a project,<br />
       lead and composed by a team of volunteers,<br />
       that believes in the power of open source<br />
       when dealing with multimedia.
     </div>
 
-    <div style='clear: both;'>
+    <div style='clear: both; margin-top: 40px;'>
+     <div style="float: right;"><img src="/images/videolan-logo-big.png" style="border: 1px #D4E0F7 solid;" alt="VideoLAN"/></div>
 <h2>The VideoLAN non-profit organisation</h2>
 <p>The VideoLAN project is backed up by the VideoLAN organisation, based in France.</p>
 <p>The VideoLAN non-profit organisation has a comittee and members that are part of the VideoLAN project.</p>
@@ -29,7 +29,7 @@
 <li>Secretary: Antoine Cellerier.</li>
 </ul>
 
-        <div style="padding-top: 40px;"></div>
+        <div style="margin-top: 50px;" class="clearme"></div>
         <table style='width: 100%; margin-left: 0px;' class="doublecolumn">
             <tr>
                 <td>

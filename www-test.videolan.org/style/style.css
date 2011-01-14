@@ -131,6 +131,7 @@ p
 	text-decoration: none;
 }
 
+.clearme { clear:both; }
 /* ================================= DONATE BOX ================================== */
 
 #donate

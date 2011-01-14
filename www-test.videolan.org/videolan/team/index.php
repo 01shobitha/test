@@ -10,7 +10,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-<div id="left">
+<div>
 <h1> Team / Contact </h1>
 
 
@@ -115,52 +115,10 @@ part with '@'. </p>
 
 ?>
 
-<h2>Legal contact</h2>
+<h2>Contacting us</h2>
 
-<p>Hosting for the VideoLAN project is provided by&nbsp;:</p>
-
-<pre style="margin-left: 60px;">
-VideoLAN
-18, rue Charcot
-75013 Paris
-France
-</pre>
-
-</div>
-
-<div id="right">
-
-<?php panel_start("blue"); ?>
-<h1>Contacting us</h1>
-
-<p>For VLC media player user-related questions, 
-please see our <a href="/support">Support
-section</a> and the users <a href="/support/lists.html">Mailing-lists</a>.</p>
-<p>Support questions for VLC media player should be mailed <a href="mailto:vlc@REMOVETHIS@videolan.org">vlc - at - videolan.org</a>.</p>
-<p>If you want to contact the VideoLAN team, about partnerships, legal aspects or any non-support related questions , please write to 
-<a href="mailto:videolan@REMOVETHIS@videolan.org">videolan - at - videolan.org</a> 
-in French or English.</p>
-
-<p> If you want to redistribute some VideoLAN software (VLC, VLS...)
-in a magazine for example, you don't need to ask us the permission !
-You can distribute an original or a modified version as long as you
-comply with its license terms, i.e. the GNU General Public License
-Version 2. The easiest way to conform to this licence is to accompany
-the software with its sources. For example, if you plan to distribute a
-binary version of VLC on a CD, you should also include on the same CD
-all the files listed on the VLC source code page.</p>
-
-<p>In case you write an article about VideoLAN, we would be very glad to
-have a copy of it to add to our press book. You can send us the article
-at the following address:</p>
-
-<pre  style="margin-left: 60px;">
-VideoLAN
-18, rue Charcot
-75013 Paris
-France
-</pre>
-<?php panel_end(); ?>
+<p>See the <a href="/contact.html">page</a>.
+</p>
 
 </div>
 

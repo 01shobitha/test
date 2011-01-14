@@ -99,10 +99,10 @@ function start_top( $body_color )
 {
     switch( $body_color ){
     case "red":   $imgSrc = "logoRed.png";    $imgArSrc = "madeByArgonRed.png";    break;
-    case "blue":  $imgSrc = "logoBlue.png";   $imgArSrc = "madeByAlogoBlue.png";   break;
-    case "green": $imgSrc = "logoGreen.png";  $imgArSrc = "madeByAlogoGreen.png";  break;
-    case "pink":  $imgSrc = "logoPink.png";   $imgArSrc = "madeByAlogoPink.png";   break;
-    default:      $imgSrc = "logoOrange.png"; $imgArSrc = "madeByAlogoOrange.png"; break;
+    case "blue":  $imgSrc = "logoBlue.png";   $imgArSrc = "madeByArgonBlue.png";   break;
+    case "green": $imgSrc = "logoGreen.png";  $imgArSrc = "madeByArgonGreen.png";  break;
+    case "pink":  $imgSrc = "logoPink.png";   $imgArSrc = "madeByArgonPink.png";   break;
+    default:      $imgSrc = "logoOrange.png"; $imgArSrc = "madeByArgonOrange.png"; break;
     }
 ?>
     <a style='float: left;' href='/'><?php image( $imgSrc, "VideoLAN association"); ?></a>

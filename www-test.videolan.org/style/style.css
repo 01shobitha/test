@@ -424,7 +424,7 @@ p
 .projectDescription
 {
     clear: both;
-    color: #4D4D4D;
+    color: rgb(77, 77, 77);
     font-size: 15px;
     line-height: 24px;
 }
@@ -442,6 +442,9 @@ p
 
 .onecolumn { padding-right: 40px; }
 .tricolumn h1 { padding-bottom: 20px; }
+
+.doublecolumn td { width: 35%; padding-right: 15%; padding-bottom: 20px;
+    vertical-align: top; }
 /* ======================================= RSS FEEDS =========================================== */
 
 .title
@@ -526,7 +529,7 @@ p
 
 /* ORANGE */
 
-.orange a, .orange h1, .orange #linkBar a, .orange #linkBar .link:hover ul li a
+.orange a, .orange h1, .orange #linkBar a, .orange #linkBar .link:hover ul li a, .orange h2
 {
 	color: #F48B00;
 }
@@ -561,7 +564,7 @@ p
 
 /* RED */
 
-.red a, .red h1, .red #linkBar a, .red #linkBar .link:hover ul li a
+.red a, .red h1, .red #linkBar a, .red #linkBar .link:hover ul li a, .red h2
 {
 	color: #ED1C24;
 }
@@ -596,7 +599,7 @@ p
 
 /* GREEN */
 
-.green a, .green h1, .green #linkBar a, .green #linkBar .link:hover ul li a
+.green a, .green h1, .green #linkBar a, .green #linkBar .link:hover ul li a, .green h2
 {
 	color: #39B549;
 }
@@ -626,7 +629,7 @@ p
 
 /* BLUE */
 
-.blue a, .blue h1, .blue #linkBar a, .blue #linkBar .link:hover ul li a
+.blue a, .blue h1, .blue #linkBar a, .blue #linkBar .link:hover ul li a, .blue h2
 {
 	color: #0070BB;
 }

@@ -20,7 +20,7 @@ if( isset( $_POST["skin_id"] ) && isset( $_POST["rating"] ) )
  $additional_js = array("/js/skins.js");
  $body_onload = "initSkinBox()";
  require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
- 
+
 function AddSkin( $id, $name, $author, $img, $url, $dl, $date, $date_mod, $rating, $count, /*$old_rating, $old_count,*/ $sign, $min_version, $size )
 {
   /*echo "<div class=\"skin\""; 

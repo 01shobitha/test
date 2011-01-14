@@ -1,13 +1,17 @@
 <?php
-   $title = " - VLC 1.1.0 Release Candidate";
+   $title = "Press center";
    $lang = "en";
-   $menu = array( "project", "news" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
-   require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
 ?>
 
-<h1>Press  Releases from VideoLAN</h1>
+<h1>Press Releases from VideoLAN</h1>
 
+<p><a href="/press/2005-1.html">2005-1</a></p>
+<p><a href="/press/2006-1.html">2006-1</a></p>
+<p><a href="/press/2006-2.html">2006-2</a></p>
+<p><a href="/press/2007-1.html">2007-1</a></p>
+<p><a href="/press/eucd.html">EUCD</a></p>
+<p><a href="/press/patents.html">Patents</a></p>
+<p><a href="/press/2010-1.html">2010-1</a></p>
 
-
-<?php footer('$Id: news.php 6098 2010-05-26 23:50:46Z jb $'); ?>
+<? footer(); ?>

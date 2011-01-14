@@ -117,8 +117,7 @@ part with '@'. </p>
 
 <h2>Contacting us</h2>
 
-<p>See the <a href="/contact.html">page</a>.
-</p>
+<p>See the <a href="/contact.html">contact page</a>.</p>
 
 </div>
 

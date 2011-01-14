@@ -93,7 +93,8 @@ a:hover
 h1
 {
 	color: black;
-	font-size: 23px;
+	font-size: 24px;
+    margin-top: 12px;
 }
 
 h1.bigtitle
@@ -125,6 +126,11 @@ p
 	color: #7D7D7D;
 	padding-bottom: 10px;
 }
+
+dt {
+	font-weight: bold;
+}
+dd { margin-bottom: 6px; }
 
 /*Give this class to links that you don't want to underline on hover */
 .noUnderline:hover

@@ -1,18 +1,15 @@
 <?php
    $title = "VideoLAN security information";
    $lang = "en";
-   $menu = array( "vlc" );
+   $body_color = "red";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-<div id="left">
-
 <h1>Security contacts</h1>
 
-<p> These are the current security contacts for the VideoLAN project:
-</p>
+<p> These are the current security contacts for the VideoLAN project:</p>
 <dl>
-<dt>R&eacute;mi Denis-Courmont</dt>
+<dt>Rémi Denis-Courmont</dt>
 <dd>rem at videolan dot org
 <pre>
 pub   1024D/DD6D12BD 2004-01-09
@@ -110,6 +107,5 @@ Real RTSP demuxer, Real Media demuxer, MP4 demuxer, Cinepak decoder. <a href="sa
 </dd>
 </dl>
 
-</div>
 
 <?php footer('$Id$'); ?>

@@ -494,6 +494,13 @@ p
 	width: 100%;
 }
 
+/* News and other pages with a lot of text */
+
+.longtext { background-color: white;
+  padding: 30px;
+  border-top: 1px solid #ccc;
+}
+
 /* ======================================== FOOTER ============================================= */
 
 #footer

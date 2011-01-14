@@ -10,7 +10,7 @@
 
 <br />
 
-<div style="background-color: white; padding: 30px; border-top: 1px solid #ccc;">
+<div class='longtext'>
 
 <?php
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");

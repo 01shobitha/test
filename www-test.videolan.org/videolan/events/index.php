@@ -7,8 +7,7 @@
 ?>
 
 <h1> Events </h1>
-
-<div id="fullwidth">
+<div class='longtext'>
 
 <h2>20, 21 December 2008 - First Dev Days '08</h2>
 

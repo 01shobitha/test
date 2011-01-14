@@ -2,10 +2,11 @@
    $title ="Multicat - the multicast swissknife";
    $lang = "en";
    $menu = array( "projects", "Multicat" );
+   $body_color = "pink";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-<h1>Multicat</h1>
+<h1 class="bigtitle">Multicat</h1>
 
 <h2>Simple and efficient multicast and transport stream manipulation</h2>
 

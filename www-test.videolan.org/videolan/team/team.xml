@@ -30,9 +30,9 @@
 
 <marker username="sam" fullname="Sam Hocevar" location="Paris, France" blurb="" lat="48.832556" lon="2.319684" title="Developer" />
 
-<marker username="bigben" fullname="Benjamin Pracht" location="Palo Alto, USA" blurb="" lat="37.443313" lon="-122.160416" title="Developer" />
+<!--marker username="bigben" fullname="Benjamin Pracht" location="Palo Alto, USA" blurb="" lat="37.443313" lon="-122.160416" title="Developer" /-->
 
-<marker username="Quovodis" fullname="Damien Fouilleul" location="Cork, Ireland" blurb="" lat="51.873921" lon="-8.470287" title="Developer" />
+<!--marker username="Quovodis" fullname="Damien Fouilleul" location="Cork, Ireland" blurb="" lat="51.873921" lon="-8.470287" title="Developer" /-->
 
 <marker username="asmax" fullname="Cyril Deguet" location="Antibes, France" blurb="" lat="47.571133" lon="7.123345" title="Developer" />
 

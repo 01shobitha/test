@@ -40,7 +40,8 @@
                 </td>
                 <td style='padding-bottom: 20px;'>
                     <h2>Hosted projects</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur<br /> adipiscing elit. Suspendisse euismod commodo</p>
+                    <p>VideoLAN hosts many open source projects, related or not to <a href="/vlc/">VLC</a>.<br />
+                       Check the list of <a href="/projects/">projects</a>.</p>
                 </td>
             </tr>
             <tr>

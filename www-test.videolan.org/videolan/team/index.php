@@ -1,10 +1,8 @@
 <?php
    $title = "the VideoLAN team";
    $lang = "en";
-   $menu = array( "project", "team" );
    $additional_js = array("http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAA4WikHyFOEHllsvHRH76zihTplTmqAEFCbK_xv5tRDy86xiE0jRSIeYAd6tv5hvmOt5X01c8BhPqAmg",
                           "map.js");
-   $additional_css = array("/panels.css");
    $body_onload = "load();";
    $body_onunload = "GUnload();";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
@@ -13,12 +11,11 @@
 <div>
 <h1> Team / Contact </h1>
 
-
 <p> The VideoLAN team is made up of developers
 from all over the world and former students of the <a
 href="http://www.ecp.fr/">École Centrale Paris</a>:</p>
 
-<div id="map" style="width: 100%; height: 500px" class="center"></div>
+<div id="map" style="width: 100%; height: 500px; z-index: -10;" class="center"></div>
 
 <h2>The developers</h2>
 

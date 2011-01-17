@@ -190,7 +190,7 @@ function draw_menus()
          <li><a href='/legal.html'>Legal</a></li>
          <li><a href='http://wiki.videolan.org/'>Wiki</a></li>
          <li><a href='http://forum.videolan.org/'>Forums</a></li>
-         <li><a href='/support/lists.php'>Mailing-Lists</a></li>
+         <li><a href='/support/lists.html'>Mailing-Lists</a></li>
       </ul>
    </div>
    <div class='link'>

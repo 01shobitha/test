@@ -85,7 +85,7 @@ cooperation of our partners, on both technical and financial sides: </p>
         src="http://images.videolan.org/images/partners/gandi.png" alt="Gandi" /></a></p>
     </td>
     <td>
-     <p><a href="http://www.gandi.net">Gandi</a> is a one of most popular registar in 
+     <p><a href="http://www.gandi.net">Gandi</a> is a one of most popular registar in
     France and in Europe. Founded in 1999, and based in Paris and in London, it has had a
     long history of quality, proximity to people and decent prices.<br />
     Gandi has always cultivated its difference and humanity and supports many projects
@@ -171,29 +171,6 @@ cooperation of our partners, on both technical and financial sides: </p>
     </td>
   </tr>
 
-  <tr><td colspan="2"><h2> CYBERVIA </h2></td></tr>
-  <tr>
-    <td>
-        <p class="center"><a href="http://www.cybervia.com/"><img
-        src="http://images.videolan.org/images/partners/cybervia.jpg" width="220" alt="Cybervia" /></a></p>
-    </td>
-    <td>
-
-    <p><a href="http://www.cybervia.com/">CYBERVIA</a> SAS is a young French company
-    dedicated to the distribution and the selling of digital products for the
-    general public. In 2008, the company released its new product CYBERVIA.
-    CYBERVIA is the first personal HDTV media server accessible in local or
-    remote. CYBERVIA gathers all digital home-life. CYBERVIA is at the same time
-    a smart HDTV programs recorder, a personal server and a media center which
-    provides the digital home-life convergence on every multimedia device.</p>
-
-    <p>CYBERVIA SAS supports VLC being a financial contributor to the hosting of
-    the VideoLAN development server (Skanda server).</p>
-
-    </td>
-  </tr>
-
-
 
   <tr>
     <td colspan="2">
@@ -225,9 +202,32 @@ cooperation of our partners, on both technical and financial sides: </p>
   </tr>
 </table>
 
+     <h1>Important Donators</h1>
+
+     <p>We would like to thank all the people who supported the VideoLAN project
+         through their remarks, bug reports or donations. We're particularly grateful
+         to the following people whose contributions made some important projects
+         possible. The <a href="/videolan/partners.html">partners</a> page also lists some
+     companies and institutions who helped VideoLAN.</p>
+
+     <ul class="bullets">
+         <li>The online magazine <a href="http://www.netzwelt.de"><strong>netzwelt.de</strong></a>, which is
+         one of the biggest Magazines in Germany, has made a 1&nbsp;000&euro; donation to the VideoLAN
+         project.</li>
+         <li>The Dutch website <a href="http://www.pepermunt.net" rel="nofollow"><strong>Pepermunt.net</strong></a>,
+         who made a 500 &euro; donation to the VideoLAN project.</li>
+         <li><strong>Julian Cain</strong>, who made a $1000 donation to the VideoLAN project</li>
+         <li>The French website <strong>MacBidouille</strong> gave 500
+         &euro; to help us buy a PowerMac G5</li>
+         <li>The French magazine <strong>à vos MAC</strong> gave 500 &euro; to
+         help us buy a PowerMac G5</li>
+         <li><strong>Freesecurity</strong>, who made a 540&euro; donation to the VideoLAN project</li>
+     </ul>
+
 <h1> Past Partners </h1>
 <h2> We would like to thank other companies that helped us in the past, on both technical and financial sides: </h2>
-
+<p><a href="http://www.cybervia.com/">Cybervia</a> has provided and paid for the hosting of one
+the VideoLAN development server (Skanda server) for a couple of years.</p>
 <p><a href="http://www.ibm.com">IBM</a> gave servers to <a href="http://www.via.ecp.fr/via/">VIA</a> to host VideoLAN services and
 awarded VideoLAN in the <a href="http://www-1.ibm.com/linux/news/ilsc.shtml">Linux Challenge</a>, an international challenge for opensource  projects developed by university students.</p>
 <p><a href="http://www.btplc.com/innovation/index.cfm">British Telecom Exact Technologie</a> developed an IPv6 port of the VideoLAN solution.</p>
@@ -236,6 +236,10 @@ awarded VideoLAN in the <a href="http://www-1.ibm.com/linux/news/ilsc.shtml">Lin
 <p><a href="http://www.idm.fr">I.D.M</a> hired Simon Latapie, a VLC developer, to work on enhancing VideoLAN.</p>
 <p><a href="http://www.lacie.com">Lacie</a> offered the team four DVD burners and a 1.6 Terabytes
 Hard Drive.</p>
+
+    </td>
+  </tr>
+
 
 
 </div>

@@ -51,6 +51,14 @@ hours or days, but is a necessary evil to avoid spam.
  The exception is the <code><b>videolan-announce</b></code> list,
  which is fully moderated.</p>
 
+<h2>Nota Bene 2</h2>
+<p>All the mailing-lists are in <strong>PUBLICLY archived</strong>
+which mean that your messages <strong>WILL be PUBLIC</strong>
+and mirrored in a way that <strong>we CANNOT remove</strong> the posts.</p>
+<p>If you want to stay private, use <a href="http://forum.videolan.org">our forum</a>.
+</p>
+
+
 </div>
 
 <?php footer('$Id$'); ?>

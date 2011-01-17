@@ -211,22 +211,23 @@ cooperation of our partners, on both technical and financial sides: </p>
      companies and institutions who helped VideoLAN.</p>
 
      <ul class="bullets">
-         <li><strong>Julian Cain</strong>, who made a $1000 donation to the VideoLAN project</li>
-         <li>The French website <strong>MacBidouille</strong> gave 500
-         euros to help us buy a PowerMac G5</li>
-         <li>The French magazine <strong>à vos MAC</strong> gave 500 euros to
-         help us buy a PowerMac G5</li>
-         <li><strong>Freesecurity</strong>, who made a 540&euro; donation to the VideoLAN project</li>
-         <li>The Dutch website <a href="http://www.pepermunt.net" rel="nofollow">Pepermunt.net</a>,
-         who made a 500 euros donation to the VideoLAN project.</li>
          <li>The online magazine <a href="http://www.netzwelt.de">netzwelt.de</a>, which is
          one of the biggest Magazines in Germany, has made a 1&nbsp;000&euro; donation to the VideoLAN
          project.</li>
+         <li>The Dutch website <a href="http://www.pepermunt.net" rel="nofollow">Pepermunt.net</a>,
+         who made a 500 &euro; donation to the VideoLAN project.</li>
+         <li><strong>Julian Cain</strong>, who made a $1000 donation to the VideoLAN project</li>
+         <li>The French website <strong>MacBidouille</strong> gave 500
+         &euro; to help us buy a PowerMac G5</li>
+         <li>The French magazine <strong>à vos MAC</strong> gave 500 &euro; to
+         help us buy a PowerMac G5</li>
+         <li><strong>Freesecurity</strong>, who made a 540&euro; donation to the VideoLAN project</li>
      </ul>
 
 <h1> Past Partners </h1>
 <h2> We would like to thank other companies that helped us in the past, on both technical and financial sides: </h2>
-
+<p><a href="http://www.cybervia.com/">Cybervia</a> has provided and paid for the hosting of one
+the VideoLAN development server (Skanda server) for a couple of years.</p>
 <p><a href="http://www.ibm.com">IBM</a> gave servers to <a href="http://www.via.ecp.fr/via/">VIA</a> to host VideoLAN services and
 awarded VideoLAN in the <a href="http://www-1.ibm.com/linux/news/ilsc.shtml">Linux Challenge</a>, an international challenge for opensource  projects developed by university students.</p>
 <p><a href="http://www.btplc.com/innovation/index.cfm">British Telecom Exact Technologie</a> developed an IPv6 port of the VideoLAN solution.</p>
@@ -235,8 +236,6 @@ awarded VideoLAN in the <a href="http://www-1.ibm.com/linux/news/ilsc.shtml">Lin
 <p><a href="http://www.idm.fr">I.D.M</a> hired Simon Latapie, a VLC developer, to work on enhancing VideoLAN.</p>
 <p><a href="http://www.lacie.com">Lacie</a> offered the team four DVD burners and a 1.6 Terabytes
 Hard Drive.</p>
-<p><a href="http://www.cybervia.com/">Cybervia</a> has provided and paid for the hosting of one
-the VideoLAN development server (Skanda server) for a couple of years.</p>
 
     </td>
   </tr>

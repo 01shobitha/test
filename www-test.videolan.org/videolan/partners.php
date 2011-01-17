@@ -5,7 +5,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-<div id="fullwidth">
+<div class="longtext">
 
 <h1> Consulting services </h1>
 <a id="consultants"></a>

@@ -23,16 +23,17 @@ require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
             <td>
                 <div>
-                    <p>If you have time, we welcome your help in various areas</p>
-                    <ul>
+                    <p>If you have time, we welcome your help in various areas:</p>
+                    <ul style="list-style-type: square">
                         <li><strong>Programmers</strong>, see the <a href="/developers/">developer documentation</a>,
                             subscribe to the <a href="/support/lists.html">mailing-lists</a>, have
                             a look at the <a href="http://trac.videolan.org/">bug-tracking system</a>,
                         join the <a href="/support/">IRC channel</a> to get help on how to start coding.</li>
-                        <li><strong>Writers</strong>, to help improve the documentation</li>
-                        <li><strong>Translators</strong>, to <a href="/developers/i18n/">translate</a> VLC</li>
-                        <li><strong>Helpers</strong>, to answer on the <a href="http://forum.videolan.org">forums</a> and mailing lists</li>
-                        <li><strong>Designers</strong>, for this website and VLC</li>
+                        <li><strong>Writers</strong>, to help improve the documentation.</li>
+                        <li><strong>Translators</strong>, to <a href="/developers/i18n/">translate</a>
+                         <a href="/vlc">VLC</a>, <a href="/vlmc/">VLMC</a> or other projects.</li>
+                        <li><strong>Moderators & Support</strong>, to answer on the <a href="http://forum.videolan.org">forums</a> and mailing lists.</li>
+                        <li><strong>Designers</strong>, for this website and VLC.</li>
                     </ul>
 
                 </div>

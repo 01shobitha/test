@@ -98,7 +98,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
                     PayPal Web site.<br />
                 You don't need to have a paypal account in order to make a donation.</p>
 
-                <div>
+                <div style="margin-left: 60px;">
                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
                         <p>
 
@@ -113,7 +113,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
                     </p></form>
 
                 </div>
-                <div>
+                <div style="margin-left: 60px;">
                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post"><p>
                             <span style="font-size: 10pt;"><strong>Dollars $</strong></span>
                             <input name="cmd" value="_xclick" type="hidden"/>

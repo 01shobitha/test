@@ -177,8 +177,8 @@ function draw_menus()
    <div class='link'>
       <a href='/contribute.html'>Contribute</a>
       <ul>
-         <li><a href='/contribute.html#money'>Donate money</a></li>
          <li><a href='/contribute.html'>Donate time</a></li>
+         <li><a href='/contribute.html#money'>Donate money</a></li>
          <li><a href='/goodies.html'>Get Goodies</a></li>
       </ul>
    </div>

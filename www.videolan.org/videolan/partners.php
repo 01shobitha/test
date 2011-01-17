@@ -171,29 +171,6 @@ cooperation of our partners, on both technical and financial sides: </p>
     </td>
   </tr>
 
-  <tr><td colspan="2"><h2> CYBERVIA </h2></td></tr>
-  <tr>
-    <td>
-        <p class="center"><a href="http://www.cybervia.com/"><img
-        src="http://images.videolan.org/images/partners/cybervia.jpg" width="220" alt="Cybervia" /></a></p>
-    </td>
-    <td>
-
-    <p><a href="http://www.cybervia.com/">CYBERVIA</a> SAS is a young French company
-    dedicated to the distribution and the selling of digital products for the
-    general public. In 2008, the company released its new product CYBERVIA.
-    CYBERVIA is the first personal HDTV media server accessible in local or
-    remote. CYBERVIA gathers all digital home-life. CYBERVIA is at the same time
-    a smart HDTV programs recorder, a personal server and a media center which
-    provides the digital home-life convergence on every multimedia device.</p>
-
-    <p>CYBERVIA SAS supports VLC being a financial contributor to the hosting of
-    the VideoLAN development server (Skanda server).</p>
-
-    </td>
-  </tr>
-
-
 
   <tr>
     <td colspan="2">
@@ -258,6 +235,12 @@ awarded VideoLAN in the <a href="http://www-1.ibm.com/linux/news/ilsc.shtml">Lin
 <p><a href="http://www.idm.fr">I.D.M</a> hired Simon Latapie, a VLC developer, to work on enhancing VideoLAN.</p>
 <p><a href="http://www.lacie.com">Lacie</a> offered the team four DVD burners and a 1.6 Terabytes
 Hard Drive.</p>
+<p><a href="http://www.cybervia.com/">Cybervia</a> has provided and paid for the hosting of one
+the VideoLAN development server (Skanda server) for a couple of years.</p>
+
+    </td>
+  </tr>
+
 
 
 </div>

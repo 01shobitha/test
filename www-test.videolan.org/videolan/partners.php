@@ -10,8 +10,8 @@
 <h1> Consulting services </h1>
 <a id="consultants"></a>
 <p>The following is a list of individuals and/or companies experienced with
-multimedia and VideoLAN solutions. You may contact them
-for professional services to order.</p>
+multimedia and VideoLAN solutions.<br />
+You may contact them for professional services to order.</p>
 
 <table>
 
@@ -19,7 +19,7 @@ for professional services to order.</p>
 <tr>
 <td><p class="center">
   <a href="http://www.m2x.nl/">
-  <img src="http://images.videolan.org/images/partners/m2x.png" alt="M2X" width="224" height="103" />
+  <img src="http://images.videolan.org/images/partners/m2x.png" alt="M2X" width="200" style="padding-right: 20px;" />
   </a></p>
 </td>
 <td>
@@ -46,11 +46,11 @@ for more information on his contributions).</p>
   <img src="http://images.videolan.org/images/partners/anevia.jpg" alt="Anevia" width="200" />
   </a></p>
 </td>
-<td>French company founded by four members of the VideoLAN team (Brieuc
+<td><p>French company founded by four members of the VideoLAN team (Brieuc
 Jeunhomme, Tristan Leteurtre, Damien Lucas and Alexis de Lattre - to
 know more about them, see the <a href="/team/">VideoLAN team page</a>).
 Anevia sells professional video servers and provides development and
-integration of high quality video streaming solutions.</td>
+integration of high quality video streaming solutions.</p></td>
 </tr>
 </table>
 

@@ -113,6 +113,13 @@ h2
     margin-top: 10px;
 }
 
+h3
+{
+	color: black;
+	font-size: 18px;
+    margin-top: 6px;
+}
+
 p
 {
 	color: #4D4D4D;
@@ -139,11 +146,14 @@ dd { margin-bottom: 6px; }
 }
 
 .clearme { clear:both; }
+
+ul.bullets { padding-left: 2.5em; margin-bottom: 1em; }
+ul.bullets li { list-style-type: square; padding-bottom: 3px; }
 /* ================================= DONATE BOX ================================== */
 
 #donate
 {
-	behavior: url(border-radius.htc);	
+	behavior: url(border-radius.htc);
 	float: right;
 	padding: 7px;
 	padding-left: 10px;

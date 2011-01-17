@@ -85,7 +85,7 @@ cooperation of our partners, on both technical and financial sides: </p>
         src="http://images.videolan.org/images/partners/gandi.png" alt="Gandi" /></a></p>
     </td>
     <td>
-     <p><a href="http://www.gandi.net">Gandi</a> is a one of most popular registar in 
+     <p><a href="http://www.gandi.net">Gandi</a> is a one of most popular registar in
     France and in Europe. Founded in 1999, and based in Paris and in London, it has had a
     long history of quality, proximity to people and decent prices.<br />
     Gandi has always cultivated its difference and humanity and supports many projects
@@ -224,6 +224,28 @@ cooperation of our partners, on both technical and financial sides: </p>
     </td>
   </tr>
 </table>
+
+     <h1>Important Donators</h1>
+
+     <p>We would like to thank all the people who supported the VideoLAN project
+         through their remarks, bug reports or donations. We're particularly grateful
+         to the following people whose contributions made some important projects
+         possible. The <a href="/videolan/partners.html">partners</a> page also lists some
+     companies and institutions who helped VideoLAN.</p>
+
+     <ul class="bullets">
+         <li><strong>Julian Cain</strong>, who made a $1000 donation to the VideoLAN project</li>
+         <li>The French website <strong>MacBidouille</strong> gave 500
+         euros to help us buy a PowerMac G5</li>
+         <li>The French magazine <strong>à vos MAC</strong> gave 500 euros to
+         help us buy a PowerMac G5</li>
+         <li><strong>Freesecurity</strong>, who made a 540&euro; donation to the VideoLAN project</li>
+         <li>The Dutch website <a href="http://www.pepermunt.net" rel="nofollow">Pepermunt.net</a>,
+         who made a 500 euros donation to the VideoLAN project.</li>
+         <li>The online magazine <a href="http://www.netzwelt.de">netzwelt.de</a>, which is
+         one of the biggest Magazines in Germany, has made a 1&nbsp;000&euro; donation to the VideoLAN
+         project.</li>
+     </ul>
 
 <h1> Past Partners </h1>
 <h2> We would like to thank other companies that helped us in the past, on both technical and financial sides: </h2>

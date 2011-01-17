@@ -407,6 +407,32 @@ ul.bullets li { list-style-type: square; padding-bottom: 3px; }
 	padding-bottom: 8px;
 }
 
+#normalButton
+{
+	behavior:url(border-radius.htc);
+	height: 26px;
+	position: relative;
+	float: left;
+	margin-top: 8px;
+	margin-left: 8px;
+	margin-bottom: 12px;
+	padding: 15px;
+	background-color: black;
+	color: white;
+	font-family: "Franklin Gothic";
+    font-size: 24px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+	border: 1px solid white;
+	-webkit-box-shadow: 0px 0px 10px #222;
+	-moz-box-shadow: 0px 0px 10px #222;
+	box-shadow: 0px 0px 10px #222;
+    min-width: 60px;
+    text-align: center;
+}
+
+
 /* =================================== HOMEPAGE DETAILS ======================================== */
 
 .audienceCallout
@@ -572,13 +598,13 @@ ul.bullets li { list-style-type: square; padding-bottom: 3px; }
 	border: 1px solid #E47B00;
 }
 
-.orange #downloadButton
+.orange #downloadButton, .orange #normalButton
 {
 	color: white;
 	background: #F48B00 url(/style/images/downloadButtonGradientOrange.png) repeat-x;
 }
 
-.orange #downloadButton:hover
+.orange #downloadButton:hover, .orange #normalButton:hover
 {
 	background: #F48B00 url(/style/images/downloadButtonGradientOrangeBright.png) repeat-x;
 }
@@ -607,13 +633,13 @@ ul.bullets li { list-style-type: square; padding-bottom: 3px; }
 	border: 1px solid #DD0C14;
 }
 
-.red #downloadButton
+.red #downloadButton, .red #normalButton
 {
 	color: white;
 	background: #ED1C24 url(/style/images/downloadButtonGradientRed.png) repeat-x;
 }
 
-.red #downloadButton:hover
+.red #downloadButton:hover, .red #normalButton:hover
 {
 	background: #ED1C24 url(/style/images/downloadButtonGradientRedBright.png) repeat-x;
 }

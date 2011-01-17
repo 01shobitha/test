@@ -14,7 +14,15 @@
 Developers are mostly <strong>volunteers</strong>.<br />
 Therefore, user support is provided by <strong>volunteers</strong>.</p>
 
+<p><strong>I need:</strong><br />
+<a id="normalButton" href="#documentation">Documentation</a>
+<a id="normalButton" href="#help">Help</a>
+<a id="normalButton" href="#bugs">Bugs</a>
+</p>
+<div class="clearme"></div>
+
 <h2>I need Documentation</h2>
+<a id="documentation"></a>
 
 <h3>FAQ</h3>
 <p>If you have any questions about VideoLAN, about VLC media player, you should
@@ -26,49 +34,29 @@ Therefore, user support is provided by <strong>volunteers</strong>.</p>
 about <a href="http://wiki.videolan.org/Documentation:Play_HowTo">VLC playback</a> and
 <a href="http://wiki.videolan.org/Documentation:Streaming_HowTo">VLC Streaming</a>.</p>
 
- <a href="http://wiki.videolan.org/Documentation:Documentation" id="downloadButton">
-<div class='downloadText'>Documentation</div><strong>wiki, in english</strong></a>,
-
 <h2>I need help</h2>
-<h3>HOW TO</h3>
-<p>If you have a question about how to do something with VLC media player or
-other VideoLAN software, you should:</p>
-<ul>
-<li> read the <a href="http://wiki.videolan.org/Documentation:Documentation">Documentation</a>,</li>
-<li>browse our <a href="http://wiki.videolan.org/">wiki</a> and its knowledge 
-database.</li>
-</ul>
-
+<a id="help"></a>
 <h3>Problems</h3>
-<p>If you are experimenting problems using our software, you should:</p>
-<ul>
-<li> read the <a href="http://wiki.videolan.org/Common_Problems">Common problems</a> page in our wiki.</li>
-<li> <a href="http://forum.videolan.org/search.php">search</a> the official 
+<p>If you have problems using our software, you should:</p>
+<ul class="bullets">
+<li>use the <a href="http://wiki.videolan.org/Common_Problems">troubleshouting guide</a>,</li>
+<li> <a href="http://forum.videolan.org/search.php">search</a> the official
 <a href="http://forum.videolan.org/">forum</a> for an answer.</li>
 </ul>
 
 <h3>Ask a question</h3>
-<p>If this is not enough, which can happen, ask a question. For that, you need
-to get information and prepare a correct report for people to help you. 
-The <a href="http://wiki.videolan.org/VLC_report">VLC report page</a> on our
-<a href="http://wiki.videolan.org">Wiki</a> will help you to do it.</p>
+<p>If this is not enough, ask a question.<br />
+For that, you <strong>need</strong> to prepare a <strong>correct report</strong>
+ using the <a href="http://wiki.videolan.org/VLC_report">VLC report page</a>.
 <p>Then ask your question, on:</p>
-<ul>
-<li>the <a href="http://forum.videolan.org">Forum</a>, in the correct section;</li>
-<li>the <a href="lists.html">users mailing-lists</a>, especially <a href="mailto:vlc@REMOVETHIS@videolan.org">vlc - at - videolan.org</a>;</li>
-<li>the IRC channel on the <a href="http://www.freenode.net">freenode</a> Network (<em>irc.videolan.org, #videolan</em>), for live answers.
-Use the web-based <a href="http://webchat.freenode.net/">Freenode IRCWeb</a> interface,
-if you need it.</li></ul>
+<ul class="bullets">
+<li>our <a href="http://forum.videolan.org">Forum</a>, in the correct section;</li>
+<li>our <a href="lists.html">users mailing-lists</a>, especially <a href="mailto:vlc@REMOVETHIS@videolan.org">vlc - at - videolan.org</a>;</li>
+<li>our IRC channel on the <a href="http://www.freenode.net">freenode</a> Network (<em>irc.videolan.org, #videolan</em>), for live answers. Use the <a href="http://webchat.freenode.net/">Freenode Web</a> interface, if necessary.</li>
+</ul>
 
-<h2>Developers and Reporting bugs</h2>
-
-<h3>Developers</h3>
-<p>You are a developer and you want to help the project or build a project around our software?</p>
-<p>Read the <a href="/developers/">developers</a> section of this website or go and finds lots of
-info on the <a href="http://wiki.videolan.org/Developers_Corner">Developer's corner</a>. You
-should also use the <a href="/developers/lists.html">developers mailing-lists</a> and IRC.</p>
-
-<h3>Report a bug</h3>
+<h2>Reporting bugs</h2>
+<a id="bugs"></a>
 <p> Read and conform yourself to our <a href="http://wiki.videolan.org/Report_bugs">Reporting Bugs</a>
  policy and look on our <a href="http://trac.videolan.org">Bugtracking</a>.</p>
 
@@ -81,10 +69,7 @@ some companies provide professionnal support on VideoLAN. They are
 listed on the <a href="/vlc/partners.html">consultants</a> page.</p>
 
 <h3>Contacting the team</h3>
-<p>If your matter is not answered yet, and you need to contact the <a href="/team/">team</a>,
-do it by IRC or <a href="mailto:videolan@REMOVETHIS@videolan.org">mail</a>, <em>But please prefer the users mailing-list first for support</em> .</p>
-<p>As we have a lot of spam and lots of e-mail, be sure to state in the subject that
-you want to speak about VideoLAN. Try to not write HTML mails, thanks.</p>
+See the <a href="/contact.html">contact page</a>.
 </div>
 
 <div id="right">

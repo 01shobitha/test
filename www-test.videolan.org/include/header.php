@@ -13,7 +13,7 @@ function FormatSize($size) {
 function image( $src_img, $alt, $id = "" ) {
     echo "<img src='/images/".$src_img."' alt='".$alt."'";
     if( !empty( $id ) ) echo " id='$id'";
-    echo "' />\n";
+    echo " />\n";
 }
 
 /*
@@ -111,7 +111,7 @@ function start_top( $body_color )
       developing and promoting free, open-source multimedia solutions.
    </div>
     <a style='float: right; padding-top: 6px; padding-right: 20px;' href='http://madebyargon.com'>
-    <?php image( $imgArSrc, 'Graphics & Website Made By Argon Designs' ); ?> </a>
+    <?php image( $imgArSrc, 'Graphics &amp; Website Made By Argon Designs' ); ?> </a>
    <!--<div id='donate'>
       <div style='font-size: 14px; color: #909090; float: left; padding-top: 5px;'>DONATE &nbsp;<a href='#'>(why?)</a></div>
       <img src='images/paypal.png' style='float: right;' />

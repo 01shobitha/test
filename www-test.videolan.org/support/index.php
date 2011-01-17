@@ -33,10 +33,11 @@ Therefore, user support is provided by <strong>volunteers</strong>.</p>
  <a href="http://wiki.videolan.org/Documentation:Documentation"> Documentation</a>,
 about <a href="http://wiki.videolan.org/Documentation:Play_HowTo">VLC playback</a> and
 <a href="http://wiki.videolan.org/Documentation:Streaming_HowTo">VLC Streaming</a>.</p>
+<hr style="margin: 20px; width:30%;" />
 
 <h2>I need help</h2>
 <a id="help"></a>
-<h3>Problems</h3>
+<h3>I have a Usage Problem</h3>
 <p>If you have problems using our software, you should:</p>
 <ul class="bullets">
 <li>use the <a href="http://wiki.videolan.org/Common_Problems">troubleshouting guide</a>,</li>
@@ -55,6 +56,7 @@ For that, you <strong>need</strong> to prepare a <strong>correct report</strong>
 <li>our IRC channel on the <a href="http://www.freenode.net">freenode</a> Network (<em>irc.videolan.org, #videolan</em>), for live answers. Use the <a href="http://webchat.freenode.net/">Freenode Web</a> interface, if necessary.</li>
 </ul>
 
+<hr style="margin: 20px; width:30%;" />
 <h2>Reporting bugs</h2>
 <a id="bugs"></a>
 <p> Read and conform yourself to our <a href="http://wiki.videolan.org/Report_bugs">Reporting Bugs</a>

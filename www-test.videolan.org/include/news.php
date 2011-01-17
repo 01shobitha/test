@@ -28,7 +28,7 @@
     <?php
 
     $file=fopen("news.msg","r");
-    $count = 0; $max0 = $max;
+    $count = 0;
 
     if(!$file)
       return(0);

@@ -211,10 +211,10 @@ cooperation of our partners, on both technical and financial sides: </p>
      companies and institutions who helped VideoLAN.</p>
 
      <ul class="bullets">
-         <li>The online magazine <a href="http://www.netzwelt.de">netzwelt.de</a>, which is
+         <li>The online magazine <a href="http://www.netzwelt.de"><strong>netzwelt.de</strong></a>, which is
          one of the biggest Magazines in Germany, has made a 1&nbsp;000&euro; donation to the VideoLAN
          project.</li>
-         <li>The Dutch website <a href="http://www.pepermunt.net" rel="nofollow">Pepermunt.net</a>,
+         <li>The Dutch website <a href="http://www.pepermunt.net" rel="nofollow"><strong>Pepermunt.net</strong></a>,
          who made a 500 &euro; donation to the VideoLAN project.</li>
          <li><strong>Julian Cain</strong>, who made a $1000 donation to the VideoLAN project</li>
          <li>The French website <strong>MacBidouille</strong> gave 500

@@ -11,20 +11,17 @@
             <div style='float: left; width: 500px;'>
                 <h1 class='bigtitle'>DVBlast</h1>
                 <div class='projectDescription'>
-						Are you looking for live streaming? Don't look any further!<br />
-						DVBlast is a simple and powerful MPEG-2/TS demux and streaming<br />
-						application.
+                        Are you looking for live streaming? Don't look any further!<br />
+                        DVBlast is a simple and powerful MPEG-2/TS demux and streaming<br />
+                        application.
                 </div>
-                <a class='extraInfoLink' href='/vlc/features.html'>Features</a>
-                <a class='extraInfoLink' href='/vlc/screenshots.html'>Screenshots</a>
-                <a class='extraInfoLink' href='#'>Other Systems and Versions</a>
                 <a id='downloadButton' href='http://downloads.videolan.org/pub/videolan/dvblast/1.2/dvblast-1.2.tar.bz2'>
-					<img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadDVBlast.png' alt='Download DVBlast icon' />
-					<div class='downloadText'>Download DVBlast</div>
-					<span id='downloadDetails' style='font-size: 12px;'>
-						Version 1.2 &nbsp;&#8226;&nbsp; Linux &nbsp;&#8226;&nbsp; 2 MB
-					</span>
-				</a>
+                    <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadDVBlast.png' alt='Download DVBlast icon' />
+                    <div class='downloadText'>Download DVBlast</div>
+                    <span id='downloadDetails' style='font-size: 12px;'>
+                        Version 1.2 &nbsp;&#8226;&nbsp; Linux &nbsp;&#8226;&nbsp; 2 MB
+                    </span>
+                </a>
             </div>
         </div>
         <div style='clear: both; padding-top: 90px;'>
@@ -45,6 +42,8 @@
                 IPv6 network support<br />
                 <br />
                 UDP rather than RTP output for IPTBV STBs which don't support RTP
+                <br />
+                Open Source: <strong>GPLv2</strong>
             </div>
             <div style='float: right; width: 450px; padding-left: 70px;'>
 

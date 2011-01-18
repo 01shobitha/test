@@ -149,6 +149,8 @@ dd { margin-bottom: 6px; }
 
 ul.bullets { padding-left: 2.5em; margin-bottom: 1em; }
 ul.bullets li { list-style-type: square; padding-bottom: 3px; }
+
+.largescreenshot { display:inline; }
 /* ================================= DONATE BOX ================================== */
 
 #donate

@@ -172,6 +172,8 @@ function draw_menus()
          <li><a href='/developers/libdvbpsi.html'>libdvbpsi</a></li>
          <li><a href='/developers/libaacs.html'>libaacs</a></li>
          <li><a href='/developers/libdvbcsa.html'>libdvbcsa</a></li>
+         <li><hr /></li>
+         <li><a href='/projects/'>All Projects</a></li>
       </ul>
    </div>
    <div class='link'>

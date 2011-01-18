@@ -1,8 +1,7 @@
 <?php
-   $title = "VideoLAN - User support and help";
+   $title = "User support and help";
    $lang = "en";
    $body_color = "red";
-   $menu = array( "support", "overview" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 

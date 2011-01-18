@@ -12,7 +12,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
         <tr align="left">
             <th colspan="2" >
-                <h2>Contribute time</h2>
+                <h2>Give time</h2>
             </th>
         </tr>
 

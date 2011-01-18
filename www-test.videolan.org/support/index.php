@@ -3,7 +3,6 @@
    $lang = "en";
    $body_color = "red";
    $menu = array( "support", "overview" );
-   $additional_css = array("/panels.css");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
@@ -14,18 +13,16 @@
 
 <p>VideoLAN is free and open source software; and is not backed by any company.
 Developers are mostly <strong>volunteers</strong>.<br />
-Therefore, user support is provided by <strong>volunteers</strong>.</p>
-        <strong>Please remember</strong> that everyone in here is
-        doing this in his free time. Don't come running in and demanding
-        an answer. Sometimes the persons there have no knowledge of that
-        particular subject. Sometimes simply no one is present. If you want
-        to be sure to get a REAL answer you can often better try the <a
-        href="lists.html">mailing-lists</a>.<br />
+Therefore, <strong>please remember</strong> that every user support
+is provided by <strong>volunteers</strong> doing it in their free time.<br />
+Noone owes you an answer to your question.</p>
+<div class="clearme" style="margin-bottom: 30px;"></div>
 
-<p><strong>I want:</strong><br />
+<p><strong>I am here for:</strong><br />
 <a id="normalButton" href="#documentation">Documentation</a>
 <a id="normalButton" href="#help">Help and support</a>
-<a id="normalButton" href="#bugs">To report a bug</a>
+<a id="normalButton" href="#bugs">Reporting a bug</a>
+<a id="normalButton" href="/contact.html">Contacting VideoLAN</a>
 </p>
 <div class="clearme" style="margin-bottom: 30px;"></div>
 
@@ -89,9 +86,9 @@ about <a href="http://wiki.videolan.org/Documentation:Play_HowTo">VLC playback</
         For other matters, see the <a href="/contact.html">contact page</a>.
     </div>
 </div>
-
+<div class="clearme" style="border-bottom: 1px solid #444; width: 30%; margin: 0 auto; padding-top: 40px;"></div>
 <div class="tricolumn" style="padding-top: 15px;">
-<h1>Means of support</h1>
+<h1>Means of communications</h1>
     <div class="onecolumn">
         <h2>The forums</h2>
 

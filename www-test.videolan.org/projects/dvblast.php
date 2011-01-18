@@ -25,7 +25,7 @@
             </div>
         </div>
         <div style='clear: both; padding-top: 90px;'>
-            <div style='float: left; width: 400px; color: #333333;'>
+            <div style='float: left; width: 800px; color: #333333;'>
                 <a name="features"></a>
                 <h1 style='margin-bottom: 25px;' class='red'>Features</h1>
                 Lightweight program designed for extreme memory and CPU conditions<br />
@@ -41,7 +41,7 @@
                 <br />
                 IPv6 network support<br />
                 <br />
-                UDP rather than RTP output for IPTBV STBs which don't support RTP
+                UDP rather than RTP output for IPTBV STBs which don't support RTP <br />
                 <br />
                 Open Source: <strong>GPLv2</strong>
             </div>

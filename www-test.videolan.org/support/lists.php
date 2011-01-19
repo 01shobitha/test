@@ -24,12 +24,11 @@
  function deflist( $name, $desc ) {
      echo '<li><a href="http://mailman.videolan.org/listinfo/'.$name.'">Mailing list for '.$desc.'</a></li>';
  }
-  deflist( "videolan-announce", "announces of new software");
+  deflist( "videolan-announce", "announces of new software releases");
   deflist( "vlc", "VLC users");
   deflist( "vlc-devel", "VLC development");
   deflist( "x264-devel", "x264 development");
   deflist( "vlmc-devel", "VLMC development");
-  deflist( "vlc", "VLC users");
 ?>
 </ul>
 

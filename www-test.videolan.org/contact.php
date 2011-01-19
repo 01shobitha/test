@@ -1,10 +1,8 @@
 <?php
-   $title = "VideoLAN - Free Software and Open Source video streaming solution for every OS!";
+   $title = "Contact";
    $lang = "en";
    $body_color = "blue";
-   $additional_css = array("/panels.css");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
-
 ?>
 
 <div>

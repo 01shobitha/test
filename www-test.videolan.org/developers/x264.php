@@ -2,14 +2,34 @@
    $title = "VideoLAN - x264";
    $lang = "en";
    $menu = array( "developers", "x264" );
+   $body_color = "green";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-<h1>x264 - a free h264/avc encoder</h1>
+        <div>
+            <?php image( 'x264-Icon.png', 'Large Green x264 Logo', 'projectImg' ); ?>
+            <div style='float: left; width: 500px;'>
+                <h1 class='bigtitle'>x264</h1>
+                <div class='projectDescription'>
+        <p>x264 is a <b>free software</b> <b>library</b> and <b>application</b> for encoding video streams into the
+        <b><a href="http://en.wikipedia.org/wiki/H.264">H.264/MPEG-4 AVC</a></b> format,
+        and is is released under the terms of the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU GPL</a>.</p>
 
-    <p>x264 is a <b>free software</b> <b>library</b> and <b>application</b> for encoding video streams into the
-    <b><a href="http://en.wikipedia.org/wiki/H.264">H.264/MPEG-4 AVC</a></b> format,
-    and is is released under the terms of the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU GPL</a>.</p>
+                </div>
+                <a class='extraInfoLink' href='#features'>Features</a>
+                <a class='extraInfoLink' href='#screens'>Screenshots</a>
+                <a id='downloadButton' href='http://www.videolan.org/vlc/download-windows.html'>
+                    <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadX264.png' alt='Download x264 icon' />
+                    <div class='downloadText'>Download x264</div>
+                    <span id='downloadDetails' style='font-size: 12px; color: white;'>
+                        master &nbsp;&#8226;&nbsp; Source &nbsp;&#8226;&nbsp; 15 MB
+                    </span>
+                </a>
+                <a class='extraInfoLink' href='#' style="padding-left: 100px;">Other Systems and Versions</a>
+            </div>
+        </div>
+
+<h1>x264 - a free h264/avc encoder</h1>
 
     <p>The code is written from scratch by <a href="mailto:fenrir@videolan.org">Laurent Aimar</a>,
     <a href="mailto:pengvado@users.sourceforge.net">Loren Merritt</a>, <a href="mailto:titer@videolan.org">Eric Petit</a> (OS X),

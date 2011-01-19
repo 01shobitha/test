@@ -55,7 +55,7 @@ integration of high quality video streaming solutions.</p></td>
 </table>
 
 
-<h1 style="top-margin: 30px;">Partners </h1>
+<h1 style="margin-top: 30px;">Partners </h1>
 
 <p> Such an experience would never have been born without the invaluable
 cooperation of our partners, on both technical and financial sides: </p>

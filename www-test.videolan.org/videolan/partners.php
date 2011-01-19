@@ -1,7 +1,7 @@
 <?php
-   $title = "VideoLAN - our partners";
+   $title = "Our partners";
    $lang = "en";
-   $menu = array( "project", "partners" );
+   $body_color = "pink";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
@@ -55,7 +55,7 @@ integration of high quality video streaming solutions.</p></td>
 </table>
 
 
-<h1> Partners </h1>
+<h1 style="top-margin: 30px;">Partners </h1>
 
 <p> Such an experience would never have been born without the invaluable
 cooperation of our partners, on both technical and financial sides: </p>

@@ -1,11 +1,11 @@
 <?php
-   $title = "VideoLAN - mailing-lists";
+   $title = "Mailing-lists";
    $lang = "en";
-   $menu = array( "support", "lists" );
+   $body_color = "red";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-<h1> User mailing-lists </h1>
+<h1 class="bigtitle"> User mailing-lists </h1>
 
 <div>
 

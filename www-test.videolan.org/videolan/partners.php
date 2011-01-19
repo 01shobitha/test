@@ -60,7 +60,7 @@ integration of high quality video streaming solutions.</p></td>
 <p> Such an experience would never have been born without the invaluable
 cooperation of our partners, on both technical and financial sides: </p>
 
-<table border="0" cellspacing="0">
+<table border="0" cellspacing="0" style="margin-left: 2Opx;">
 
 <tr><td colspan="2"><h2> Free </h2></td></tr>
   <tr>

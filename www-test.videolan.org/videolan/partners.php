@@ -13,7 +13,7 @@
 multimedia and VideoLAN solutions.<br />
 You may contact them for professional services to order.</p>
 
-<table>
+<table border="0" cellspacing="0" style="margin-left: 25px;">
 
 <tr><td colspan="2"><h2>M2X</h2></td></tr>
 <tr>
@@ -60,7 +60,7 @@ integration of high quality video streaming solutions.</p></td>
 <p> Such an experience would never have been born without the invaluable
 cooperation of our partners, on both technical and financial sides: </p>
 
-<table border="0" cellspacing="0" style="margin-left: 2Opx;">
+<table border="0" cellspacing="0" style="margin-left: 25px;">
 
 <tr><td colspan="2"><h2> Free </h2></td></tr>
   <tr>

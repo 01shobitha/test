@@ -157,6 +157,8 @@ div.largescreenshot {
     width: 150px;
 }
 
+img#floatImg { float: left; padding-right: 17px; }
+
 /* ================================= DONATE BOX ================================== */
 
 #donate

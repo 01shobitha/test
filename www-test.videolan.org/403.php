@@ -1,6 +1,7 @@
 <?php
    $title = "403 forbidden";
    $menu = array( "vlc", "" );
+   $body_color = "red";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
@@ -8,4 +9,7 @@
 
 <p>Nice try :-)</p>
 
+<center>
+  <?php image( "largeVLC.png", "VLC cone" ); ?>
+</center>
 <?php footer('$Id$'); ?>

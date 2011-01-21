@@ -1,22 +1,4 @@
-﻿@font-face {
-	font-family: 'Dagny OT';
-	src: url('dagnyot-thin-webfont.eot');
-	src: url('dagnyot-thin-webfont.woff') format('woff');
-	src: url('dagnyot-thin-webfont.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Franklin Gothic';
-	src: url('franklin-gothic-webfont.eot');
-	src: url('franklin-gothic-webfont.woff') format('woff');
-	src: url('franklin-gothic-webfont.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-/* =================================== CSS RESET =============================== */
+﻿/* =================================== CSS RESET =============================== */
 
 *
 {
@@ -99,11 +81,12 @@ h1
 
 h1.bigtitle
 {
-    font-family: "Dagny OT";
+    font-family: "Raleway";
     font-size: 55px;
     padding-bottom: 10px;
     margin-left: -5px;
     margin-top: 10px;
+    letter-spacing: -0.04em;
 }
 
 h2
@@ -412,10 +395,12 @@ img#floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 
 .downloadText
 {
-	font-family: "Franklin Gothic";
-	font-size: 40px;
+    font-family: 'Nobile', serif;
+	font-size: 36px;
 	line-height: 27px;
+    letter-spacing: -0.045em;
 	padding-bottom: 8px;
+    font-weight: 700;
 }
 
 #normalButton

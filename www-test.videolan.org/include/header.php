@@ -42,7 +42,8 @@ echo '<?xml version="1.0" encoding="utf-8" ?>';
    <link rel="alternate" type="application/rss+xml" title="RSS - VideoLAN News" href="/videolan-news.rss" />
    <link rel="alternate" type="application/rss+xml" title="RSS - Developers' Planet" href="http://planet.videolan.org/rss20.xml" />
 
-   <link href='http://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin' rel='stylesheet' type='text/css'>
+   <link href='//fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+   <link href="//fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css" >
    <link rel="stylesheet" type="text/css" href="/style/style.css" />
 
     <?php if( isset($additional_css) ) {
@@ -69,7 +70,7 @@ echo '<?xml version="1.0" encoding="utf-8" ?>';
 
 </head>
 
-<body onload="<?php echo $body_onload;?>" onunload="<?php echo $body_onunload; ?>">
+<body> <? /* onload="<?php echo $body_onload;?>" onunload="<?php echo $body_onunload; */ ?>
 <div id='bodyInner' class="<?php echo $color ?>">
 <?php
 }

@@ -16,7 +16,7 @@ is provided by <strong>volunteers</strong> doing it in their free time.<br />
 Noone owes you an answer to your question.</p>
 <div class="clearme" style="margin-bottom: 30px;"></div>
 
-<p><strong>I am here for:</strong><br />
+<p><strong>You are here for:</strong><br />
 <a id="normalButton" href="#documentation">Documentation</a>
 <a id="normalButton" href="#help">Help and support</a>
 <a id="normalButton" href="#bugs">Reporting a bug</a>
@@ -42,18 +42,18 @@ about <a href="http://wiki.videolan.org/Documentation:Play_HowTo">VLC playback</
 <h1>Help and Support</h1>
 <a id="help"></a>
 <div class="onecolumn" style="margin-bottom: 30px;">
-    <h3>I have a Usage Problem</h3>
+    <h3>You have a Usage Problem</h3>
     <p>If you have problems using our software, you should:</p>
     <ul class="bullets">
         <li>use the <a href="http://wiki.videolan.org/Common_Problems">troubleshouting guide</a>,</li>
         <li> <a href="http://forum.videolan.org/search.php">search</a> the official
-        <a href="http://forum.videolan.org/">forum</a> for an answer.</li>
-        <li>read the <a href="http://wiki.videolan.org">wiki</a></li>
+        <a href="http://forum.videolan.org/">forum</a> for an answer,</li>
+        <li>read the <a href="http://wiki.videolan.org">wiki</a>.</li>
     </ul>
 </div>
 
 <div>
-    <h3>Ask a question</h3>
+    <h3>You want to ask a question</h3>
     <p>To ask a question, you <strong>need</strong> to prepare a <strong>correct report</strong>
      using the <a href="http://wiki.videolan.org/VLC_report">VLC report page</a>.
     <p>Then ask your question, on:</p>

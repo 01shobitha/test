@@ -250,9 +250,8 @@ img#floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 #bodyInner
 {
 	background: transparent url(/style/images/highlight.png) no-repeat scroll top left;
-	padding: 20px;
+	padding: 20px 50px 40px;
 	width: 980px;
-	padding-bottom: 40px;
 	text-align: left;
 /*	float: left; */
 	padding-left: 50px;

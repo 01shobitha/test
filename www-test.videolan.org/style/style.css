@@ -704,13 +704,13 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 	border: 1px solid #0060AB;
 }
 
-.blue #downloadButton
+.blue #downloadButton, .blue .normalButton
 {
 	color: white;
 	background: #0070BB url(/style/images/downloadButtonGradientGreen.png) repeat-x;
 }
 
-.blue #downloadButton:hover
+.blue #downloadButton:hover, .blue .normalButton:hover
 {
 	background: #0070BB url(/style/images/downloadButtonGradientGreenBright.png) repeat-x;
 }

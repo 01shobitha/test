@@ -33,30 +33,30 @@
         <div class="clearme" style='padding-top: 60px;'>
             <div style='float: left; width: 400px; color: #333333;'>
                 <h1 style='margin-bottom: 25px;' class='red'>Features</h1>
-                Lightweight program designed for extreme memory and CPU conditions<br />
+                    <strong>Simple</strong>, Powerful and Fast
+                <br /><br />
+                    Plays <strong>everything</strong>, Files, Discs (DVD, CD, VCD), Devices and Streams
+                <br /><br />
+                    Plays most codecs with <b>no codec packs</b> needed
+                <br /><br />
+                    Completely <strong>Free</strong>, 0 Spyware, Ads or User Tracking
+                <br /><br />
+                    Best Mpeg2, x264, DivX player
+                <br /><br />
+                    Works on <strong>most platforms</strong>: Windows, Linux, Mac, Unix...
+                <br /><br />
+                    Media Converter and Streamer
                 <br />
-                Only one dependancy: libdvbpsi<br />
-                <br />
-                CAM menus (MMI) support via an external application<br />
-                <br />
-                The configuration file describing outputs can be reloaded without
-                losing a single packet<br />
-                <br />
-                Support for the new S2API of linux-dvb<br />
-                <br />
-                IPv6 network support<br />
-                <br />
-                UDP rather than RTP output for IPTBV STBs which don't support RTP
+                <a class='extraInfoLink' href='/vlc/features.html'>Discover all features</a>
             </div>
 
 <?php
 function vlcscreenshot($img,$thumb, $desc){
-echo"<div class='screenshot' style='overflow: hidden; width: 120px; ><a href='http://images1.videolan.org/vlc/screenshots/$img'><img
+    echo"<div class='screenshot' style='overflow: hidden; width: 120px; ><a href='http://images1.videolan.org/vlc/screenshots/$img'><img
     src='http://images1.videolan.org/vlc/screenshots/$thumb' alt='VLC media player - $desc' /></a>
     </div>";
 }
 ?>
-
 
             <div style='float: right; width: 450px; padding-left: 70px;'>
                 <h1 style='padding-left: 5px; margin-bottom: 25px;' class='red'>Screenshots</h1>
@@ -81,30 +81,55 @@ echo"<div class='screenshot' style='overflow: hidden; width: 120px; ><a href='ht
                             "Windows Vista - Qt Interface" );
                 ?>
                 <div style='clear: left;'></div>
-                <a class='red' style='display: block; padding-top: 10px; padding-left: 5px; font-size: 12px;' href='/vlc/screenshots.html'>view all screenshots</a>
+                <a class='red' style='display: block; padding-top: 10px; padding-left: 5px; font-size: 12px;' href='/vlc/screenshots.html'>View all screenshots</a>
             </div>
         </div>
-        <div class='tricolumn'>
-            <div class="onecolumn">
-                <h1>Heading One</h1>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod commodo suscipit.<br />
-                <br />
-                Donec tempor accumsan massa in iaculis. Donec volutpat rutrum ipsum nec volutpat. Nullam egestas dignissim lorem, eu euismod ante gravida vitae. Sed feugiat porta libero, nec sagittis felis pulvinar ut. Integer ut tristique ante. In hendrerit, risus quis iaculis posuere, ipsum sapien congue nulla, in tristique neque urna sed nibh.<br />
-                <br />
-                Nulla ultrices nisl id turpis egestas fermentum. Nunc egestas lacus sit amet metus tincidunt imperdiet. Donec euismod scelerisque diam, a egestas quam pretium non. Phasellus auctor elit non diam facilisis luctus. Sed id justo quis felis aliquam ullamcorper.<br />
 
-            </div>
+<?php
+function addos( $name, $class, $url, $bold=false )
+{
+    echo "<div class='$class'>Get VLC for <a href='$url'><strong>$name</strong></a></div>";
+}
+?>
+        <div class='tricolumn'>
+            <h1>Download VLC</h1>
             <div class="onecolumn">
-                <h1>Heading Two</h1>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod commodo suscipit.<br />
-                <br />
-                Nulla ultrices nisl id turpis egestas fermentum. Nunc egestas lacus sit amet metus tincidunt imperdiet. Donec euismod scelerisque diam, a egestas quam pretium non. Phasellus auctor elit non diam facilisis luctus. Sed id justo quis felis aliquam ullamcorper.<br />
-                <br />Donec tempor accumsan massa in iaculis. Donec volutpat rutrum ipsum nec volutpat. Nunc ac urna a risus scelerisque commodo non in neque. Donec blandit eleifend placerat. Proin viverra semper nisi sit amet cursus. Suspendisse potenti. Nullam egestas dignissim lorem, eu euismod ante gravida vitae. Sed feugiat porta libero, nec sagittis felis pulvinar ut. Integer ut tristique ante. In hendrerit, risus quis iaculis posuere, ipsum sapien congue nulla, in tristique neque urna sed nibh.
+               <h2>Windows</h2>
+                <?php addos( "Windows", "windows", "download-windows.html", true ); ?>
+               <h2>Mac OS X</h2>
+                <?php addos( "Mac&nbsp;OS&nbsp;X", "macosx", "download-macosx.html", true );
+                      addos( "iOS", "ios", "download-ios.html" ); ?>
+               <h2>Sources</h2>
+                  <p>You can also directly get the <strong><a href="download-sources.html">
+                  source code</a></strong>.</p>
             </div>
+
+            <div class="onecolumn">
+               <h2>GNU/Linux</h2>
+                <?php
+                  addos( "Debian GNU/Linux", "debian", "download-debian.html" );
+                  addos( "Ubuntu", "ubuntu", "download-ubuntu.html" );
+                  addos( "openSUSE", "suse", "download-suse.html" );
+                  addos( "Gentoo Linux", "gentoo", "download-gentoo.html" );
+                  addos( "Fedora", "fedora", "download-fedora.html" );
+                  addos( "Arch Linux", "archlinux", "download-archlinux.html" );
+                  addos( "Slackware Linux", "slackware", "download-slackware.html" );
+                  addos( "Mandriva Linux", "mandrake", "download-mandriva.html" );
+                  addos( "ALT Linux", "altlinux", "download-altlinux.html" );
+                  addos( "Red Hat Enterprise Linux", "redhat", "download-redhat.html" );
+                ?>
+            </div>
+
             <div class='lastcolumn'>
-                <h1>Heading Three</h1>
-                Nulla ultrices nisl id turpis egestas fermentum. Nunc egestas lacus sit amet metus tincidunt imperdiet. Donec euismod scelerisque diam, a egestas quam pretium non. Phasellus auctor elit non diam facilisis luctus. Sed id justo quis felis aliquam ullamcorper.<br />
-                <br />Donec blandit eleifend placerat. Proin viverra semper nisi sit amet cursus. Suspendisse potenti. Nullam egestas dignissim lorem, eu euismod ante gravida vitae. Sed feugiat porta libero, nec sagittis felis pulvinar ut. Integer ut tristique ante. In hendrerit, risus quis iaculis posuere, ipsum sapien congue nulla, in tristique neque urna sed nibh.
+                  <h2>Other OS</h2>
+               <?php
+                 addos( "FreeBSD", "freebsd", "download-freebsd.html" );
+                 addos( "NetBSD", "netbsd", "download-sources.html" );
+                 addos( "OpenBSD", "openbsd", "download-sources.html" );
+                 addos( "Solaris", "solaris", "download-sources.html" );
+                 addos( "QNX", "qnx", "download-sources.html" );
+                 addos( "Syllable", "syllable", "download-syllable.html" );
+                 addos( "OS/2", "os2", "http://hobbes.nmsu.edu/h-viewer.php?dir=/pub/os2/apps/mmedia/video/players&file=vlc-1.0.5-beta1.zip" ); ?>
             </div>
         </div>
         <div style='clear: both;'></div>

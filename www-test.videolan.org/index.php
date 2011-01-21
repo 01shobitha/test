@@ -83,11 +83,11 @@
             </div>
             <div style='float: left; padding-left: 30px; width: 180px;'>
                 <div class='audienceCallout'>For Developers</div>
-                <a href='/developers/libdvdcss.html' class='noUnderline'><span class='productName' style='padding-bottom: 20px;'>libdvdcss</span></a>
-                <a href='/developers/libdvbpsi.html' class='noUnderline'><span class='productName' style='padding-bottom: 20px;'>libdvdpsi</span></a>
-                <a href='/vlc/libvlc.html'           class='noUnderline'><span class='productName' style='padding-bottom: 20px;'>libVLC</span></a>
-                <a href='/developers/libbluray.html' class='noUnderline'><span class='productName' style='padding-bottom: 20px;'>libbluray</span></a>
-                <a href='/developers/libaacs.html'   class='noUnderline'><span class='productName' style='padding-bottom: 20px;'>libaacs</span></a>
+                <a href='/developers/libdvdcss.html' class='noUnderline'><span class='productName' style='padding-bottom: 16px;'>libdvdcss</span></a>
+                <a href='/developers/libdvbpsi.html' class='noUnderline'><span class='productName' style='padding-bottom: 16px;'>libdvdpsi</span></a>
+                <a href='/vlc/libvlc.html'           class='noUnderline'><span class='productName' style='padding-bottom: 16px;'>libVLC</span></a>
+                <a href='/developers/libbluray.html' class='noUnderline'><span class='productName' style='padding-bottom: 16px;'>libbluray</span></a>
+                <a href='/developers/libaacs.html'   class='noUnderline'><span class='productName' style='padding-bottom: 16px;'>libaacs</span></a>
                 <a href='/developers/libdca.html'    class='noUnderline'><span class='productName'>libdca</span></a>
             </div>
             <a href='/projects/' class='extraInfoLink' style='text-transform: uppercase; font-size: 13px; display: block; padding-top: 25px; clear: both;'>View All Projects</a>

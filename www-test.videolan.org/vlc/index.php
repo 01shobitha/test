@@ -48,17 +48,38 @@
                 <br />
                 UDP rather than RTP output for IPTBV STBs which don't support RTP
             </div>
+
+<?php
+function vlcscreenshot($img,$thumb, $desc){
+echo"<div class='screenshot' style='overflow: hidden; width: 120px; ><a href='http://images1.videolan.org/vlc/screenshots/$img'><img
+    src='http://images1.videolan.org/vlc/screenshots/$thumb' alt='VLC media player - $desc' /></a>
+    </div>";
+}
+?>
+
+
             <div style='float: right; width: 450px; padding-left: 70px;'>
                 <h1 style='padding-left: 5px; margin-bottom: 25px;' class='red'>Screenshots</h1>
-                <div class="screenshot"></div>
-                <div class="screenshot"></div>
-                <div class="screenshot"></div>
-                <div class="screenshot"></div>
-                <div style='clear: left;'></div>
-                <div class="screenshot"></div>
-                <div class="screenshot"></div>
-                <div class="screenshot"></div>
-                <div class="screenshot"></div>
+                <?php
+                vlcscreenshot( "1.0.0/VLC_Gnome.png",
+                            "1.0.0/tm_VLC_Gnome.png",
+                            "Linux - Gnome");
+                vlcscreenshot( "1.0.0/vlc_101_w7_2.jpg",
+                            "1.0.0/tm_vlc_101_w7_2.jpg",
+                            "Windows 7 - Qt Interface" );
+                vlcscreenshot( "1.0.0/vlc_101_w7_1.jpg",
+                            "1.0.0/tm_vlc_101_w7_1.jpg",
+                            "Windows 7 - Qt Interface" );
+                vlcscreenshot( "1.0.0/vlc_101_w7.jpg",
+                            "1.0.0/tm_vlc_101_w7.jpg",
+                            "Windows 7 - Qt Interface" );
+                vlcscreenshot( "1.0.0/VLC_Goldneye.jpg",
+                            "1.0.0/tm_VLC_Goldneye.jpg",
+                            "Windows Vista - Skins Interface" );
+                vlcscreenshot( "1.0.0/VLC_Qt4.jpg",
+                            "1.0.0/tm_VLC_Qt4.jpg",
+                            "Windows Vista - Qt Interface" );
+                ?>
                 <div style='clear: left;'></div>
                 <a class='red' style='display: block; padding-top: 10px; padding-left: 5px; font-size: 12px;' href='/vlc/screenshots.html'>view all screenshots</a>
             </div>

@@ -7,7 +7,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
     <div>
-        <div class="clearme" style='padding-top: 70px;'>
+        <div class="clearme" style='padding-top: 35px;'>
             <?php image( 'largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?>
             <div style='float: left; width: 500px;'>
                 <h1 class='bigtitle'>VLC media player</h1>
@@ -28,7 +28,7 @@
                 </a>
             </div>
         </div>
-        <div class="clearme" style='padding-top: 90px;'>
+        <div class="clearme" style='padding-top: 60px;'>
             <h1 style='margin-bottom: 25px;'>Other projects from VideoLAN</h1>
             <div style='float: left; width: 300px;'>
                 <div class='audienceCallout'>For Everyone</div>
@@ -91,7 +91,7 @@
             </div>
             <a href='/projects/' class='extraInfoLink' style='text-transform: uppercase; font-size: 13px; display: block; padding-top: 25px; clear: both;'>View All Projects</a>
         </div>
-        <div class="clearme" style='padding-top: 60px;'>
+        <div class="clearme" style='padding-top: 40px;'>
             <h1 style='margin-bottom: 25px;'>Help us out</h1>
             <div style='float: left; width: 330px;'>
                 <div class='audienceCallout'>Donate</div>

@@ -83,12 +83,12 @@
             </div>
             <div style='float: left; padding-left: 30px; width: 180px;'>
                 <div class='audienceCallout'>For Developers</div>
-                <a href='/developers/libdvdcss.html' class='noUnderline;'><div class='productName' style='padding-bottom: 20px;'>libdvdcss</div></a>
-                <a href='/developers/libdvbpsi.html' class='noUnderline;'><div class='productName' style='padding-bottom: 20px;'>libdvdpsi</div></a>
-                <a href='/vlc/libvlc.html'           class='noUnderline;'><div class='productName' style='padding-bottom: 20px;'>libVLC</div></a>
-                <a href='/developers/libbluray.html' class='noUnderline;'><div class='productName' style='padding-bottom: 20px;'>libbluray</div></a>
-                <a href='/developers/libaacs.html'   class='noUnderline;'><div class='productName' style='padding-bottom: 20px;'>libaacs</div></a>
-                <a href='/developers/libdca.html'    class='noUnderline;'><div class='productName'>libdca</div></a>
+                <a href='/developers/libdvdcss.html' class='noUnderline'><div class='productName' style='padding-bottom: 20px;'>libdvdcss</div></a>
+                <a href='/developers/libdvbpsi.html' class='noUnderline'><div class='productName' style='padding-bottom: 20px;'>libdvdpsi</div></a>
+                <a href='/vlc/libvlc.html'           class='noUnderline'><div class='productName' style='padding-bottom: 20px;'>libVLC</div></a>
+                <a href='/developers/libbluray.html' class='noUnderline'><div class='productName' style='padding-bottom: 20px;'>libbluray</div></a>
+                <a href='/developers/libaacs.html'   class='noUnderline'><div class='productName' style='padding-bottom: 20px;'>libaacs</div></a>
+                <a href='/developers/libdca.html'    class='noUnderline'><div class='productName'>libdca</div></a>
             </div>
             <a href='/projects/' class='extraInfoLink' style='text-transform: uppercase; font-size: 13px; display: block; padding-top: 25px; clear: both;'>View All Projects</a>
         </div>

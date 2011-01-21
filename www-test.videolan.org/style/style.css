@@ -140,8 +140,8 @@ div.largescreenshot {
     width: 150px;
 }
 
-img#floatImg { float: left; padding-right: 17px; }
-img#floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
+img.floatImg { float: left; padding-right: 17px; }
+img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 /* ================================= DONATE BOX ================================== */
 
 #donate
@@ -453,14 +453,14 @@ img#floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 	line-height: 18px;
 }
 
-#smallProjectImg
+.smallProjectImg
 {
     float: left;
     padding-left: 7px; padding-right: 23px;
 }
 
 /* ======================================= PROJECT PAGES ======================================= */
-#projectImg
+.projectImg
 {
     float: left;
     padding: 10px 110px 0px 40px;

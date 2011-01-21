@@ -12,7 +12,7 @@ function FormatSize($size) {
 
 function image( $src_img, $alt, $id = "" ) {
     echo "<img src='/images/".$src_img."' alt='".$alt."'";
-    if( !empty( $id ) ) echo " id='$id'";
+    if( !empty( $id ) ) echo " class='$id'";
     echo " />\n";
 }
 

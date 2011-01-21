@@ -33,7 +33,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
                         <li ><strong>Writers</strong>, to help improve the documentation.</li>
                         <li ><strong>Translators</strong>, to <a href="/developers/i18n/">translate</a>
                          <a href="/vlc">VLC</a>, <a href="/vlmc/">VLMC</a> or other projects.</li>
-                        <li ><strong>Moderators & Support</strong>, to answer on the <a href="http://forum.videolan.org">forums</a> and mailing lists.</li>
+                        <li ><strong>Moderators &amp; Support</strong>, to answer on the <a href="http://forum.videolan.org">forums</a> and mailing lists.</li>
                         <li ><strong>Designers</strong>, for this website and VLC.</li>
                     </ul>
 
@@ -127,11 +127,11 @@ require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
                     </p> </form>
                 </div>
 
-                <p> If you encounter problems or if you have questions, you can <a href="/contact.html">contact us</a>.
+                <p> If you encounter problems or if you have questions, you can <a href="/contact.html">contact us</a>.</p>
 
 
                 <h3>Donate to VideoLAN via Bank account</h3>
-                Please <a href="/contact.html">Contact us</a>.
+                <p>Please <a href="/contact.html">Contact us</a>.</p>
 
            </td>
         </tr>

@@ -44,7 +44,7 @@
     </table>
 
 <h2>E-mail</h2>
-<p>To contact us by e-mail, please use <a href="mailto:videolan@REMOVETHIS@videolan.org">videolan - at - videolan.org</a>
+<p>To contact us by e-mail, please use <a href="mailto:videolan@REMOVETHIS@videolan.org">videolan@<span style="display:none">null</span>videolan.org</span></a>
 and write in French or English.</p>
 <p>Any question about <strong>VLC usage</strong> will <strong>not be</strong> answered.
  See the <a href="/support">Support center</a> for these matters.</p>

@@ -288,7 +288,7 @@ function panel_end( )
  */
 
 /* default language and date */
-if( $language == "" ) { $language = "en"; }
+if(!isset($language) || $language == "" ) { $language = "en"; }
 
 if(!isset($additional_css)) $additional_css = array();
 if(!isset($additional_js)) $additional_js = array();

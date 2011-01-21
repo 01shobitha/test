@@ -55,7 +55,7 @@ about <a href="http://wiki.videolan.org/Documentation:Play_HowTo">VLC playback</
 <div>
     <h3>You want to ask a question</h3>
     <p>To ask a question, you <strong>need</strong> to prepare a <strong>correct report</strong>
-     using the <a href="http://wiki.videolan.org/VLC_report">VLC report page</a>.
+     using the <a href="http://wiki.videolan.org/VLC_report">VLC report page</a>.</p>
     <p>Then ask your question, on:</p>
     <ul class="bullets">
         <li>our <a href="http://forum.videolan.org">Forum</a>, in the correct section;</li>

@@ -115,7 +115,7 @@ function draw_menus()
       <a href='/news.html'>News</a>
    </div>
    <div class='link'>
-      <a href='/'>VideoLAN</a>
+      <a href='/videolan/'>VideoLAN</a>
       <ul>
          <li><a href='/videolan/'>Project and Organization</a></li>
          <li><a href='/videolan/team/'>Team</a></li>

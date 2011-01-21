@@ -7,7 +7,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
 <div id="fullwidth">
 
-    <h1> How to contribute to VideoLAN </h1>
+    <h1 class="bigtitle"> How to contribute to VideoLAN </h1>
     <table>
 
         <tr align="left">

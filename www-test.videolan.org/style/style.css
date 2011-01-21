@@ -707,12 +707,12 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 .blue #downloadButton, .blue .normalButton
 {
 	color: white;
-	background: #0070BB url(/style/images/downloadButtonGradientGreen.png) repeat-x;
+	background: #0070BB url(/style/images/downloadButtonGradientBlue.png) repeat-x;
 }
 
 .blue #downloadButton:hover, .blue .normalButton:hover
 {
-	background: #0070BB url(/style/images/downloadButtonGradientGreenBright.png) repeat-x;
+	background: #0070BB url(/style/images/downloadButtonGradientBlueBright.png) repeat-x;
 }
 
 .blue .productName

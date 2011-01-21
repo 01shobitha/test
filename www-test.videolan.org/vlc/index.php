@@ -5,7 +5,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-        <div>
+        <div class="clearme" style='padding-top: 35px;'>
             <?php image( 'largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?>
             <div style='float: left; width: 500px;'>
                 <h1 class='bigtitle'>VLC media player</h1>
@@ -26,7 +26,7 @@
                 <a class='extraInfoLink' href='#' style="padding-left: 100px;">Other Systems and Versions</a>
             </div>
         </div>
-        <div style='clear: both; padding-top: 90px;'>
+        <div class="clearme" style='padding-top: 60px;'>
             <div style='float: left; width: 400px; color: #333333;'>
                 <h1 style='margin-bottom: 25px;' class='red'>Features</h1>
                 Lightweight program designed for extreme memory and CPU conditions<br />

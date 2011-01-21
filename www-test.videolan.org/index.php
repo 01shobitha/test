@@ -17,7 +17,7 @@
                 </div>
                 <a class='extraInfoLink' href='/vlc/features.html'>Features</a>
                 <a class='extraInfoLink' href='/vlc/screenshots.html'>Screenshots</a>
-                <a class='extraInfoLink' href='/vlc/'>Other Systems and Versions</a>
+                <a class='extraInfoLink' href='/vlc/extensions/'>Extensions</a>
                 <a id='downloadButton' href='<?php echo $dlUrl; ?>'>
                     <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
                     <span class='downloadText'>Download VLC</span>
@@ -27,6 +27,7 @@
                     </span>
                 </a>
                 <?php replaceDLinfos(); ?>
+                <a class='extraInfoLink' href='#' style="padding-left: 100px;">Other Systems and Versions</a>
             </div>
         </div>
         <div class="clearme" style='padding-top: 60px;'>

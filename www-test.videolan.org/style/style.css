@@ -158,7 +158,7 @@ div.largescreenshot {
 }
 
 img#floatImg { float: left; padding-right: 17px; }
-
+img#floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 /* ================================= DONATE BOX ================================== */
 
 #donate
@@ -465,6 +465,12 @@ img#floatImg { float: left; padding-right: 17px; }
 	color: #4D4D4D;
 	font-size: 12px;
 	line-height: 18px;
+}
+
+#smallProjectImg
+{
+    float: left;
+    padding-left: 7px; padding-right: 23px;
 }
 
 /* ======================================= PROJECT PAGES ======================================= */

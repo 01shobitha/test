@@ -237,11 +237,6 @@ awarded VideoLAN in the <a href="http://www-1.ibm.com/linux/news/ilsc.shtml">Lin
 <p><a href="http://www.lacie.com">Lacie</a> offered the team four DVD burners and a 1.6 Terabytes
 Hard Drive.</p>
 
-    </td>
-  </tr>
-
-
-
 </div>
 
 <?php footer('$Id$'); ?>

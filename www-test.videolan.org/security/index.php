@@ -34,7 +34,6 @@ pub   1024D/AC3E0879 2006-03-01
  <a href="sa1005.html">Details</a>
 </dd>
 
-<dl>
 <dt>VideoLAN-SA-1004 (CVE-2010-2937)</dt>
 <dd>Insufficient input validation VLC TagLib plugin.
  <a href="sa1004.html">Details</a>
@@ -106,6 +105,5 @@ Real RTSP demuxer, Real Media demuxer, MP4 demuxer, Cinepak decoder. <a href="sa
 <dd>URL format string injection in CDDA and VCDX plugins. <a href="sa0701.html">Details</a>
 </dd>
 </dl>
-
 
 <?php footer('$Id$'); ?>

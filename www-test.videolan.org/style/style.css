@@ -254,8 +254,9 @@ img#floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 	width: 980px;
 	padding-bottom: 40px;
 	text-align: left;
-	float: left;
+/*	float: left; */
 	padding-left: 50px;
+    margin: 0 auto;
 }
 
 #footer

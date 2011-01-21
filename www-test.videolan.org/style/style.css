@@ -403,7 +403,7 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
     display: block;
 }
 
-#normalButton
+.normalButton
 {
 	behavior:url(border-radius.htc);
 	height: 26px;
@@ -603,13 +603,13 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 	border: 1px solid #E47B00;
 }
 
-.orange #downloadButton, .orange #normalButton
+.orange #downloadButton, .orange .normalButton
 {
 	color: white;
 	background: #F48B00 url(/style/images/downloadButtonGradientOrange.png) repeat-x;
 }
 
-.orange #downloadButton:hover, .orange #normalButton:hover
+.orange #downloadButton:hover, .orange .normalButton:hover
 {
 	background: #F48B00 url(/style/images/downloadButtonGradientOrangeBright.png) repeat-x;
 }
@@ -638,13 +638,13 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 	border: 1px solid #DD0C14;
 }
 
-.red #downloadButton, .red #normalButton
+.red #downloadButton, .red .normalButton
 {
 	color: white;
 	background: #ED1C24 url(/style/images/downloadButtonGradientRed.png) repeat-x;
 }
 
-.red #downloadButton:hover, .red #normalButton:hover
+.red #downloadButton:hover, .red .normalButton:hover
 {
 	background: #ED1C24 url(/style/images/downloadButtonGradientRedBright.png) repeat-x;
 }

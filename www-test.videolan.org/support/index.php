@@ -17,10 +17,10 @@ Noone owes you an answer to your question.</p>
 <div class="clearme" style="margin-bottom: 30px;"></div>
 
 <p><strong>You are here for:</strong><br />
-<a id="normalButton" href="#documentation">Documentation</a>
-<a id="normalButton" href="#help">Help and support</a>
-<a id="normalButton" href="#bugs">Reporting a bug</a>
-<a id="normalButton" href="/contact.html">Contacting VideoLAN</a>
+<a class="normalButton" href="#documentation">Documentation</a>
+<a class="normalButton" href="#help">Help and support</a>
+<a class="normalButton" href="#bugs">Reporting a bug</a>
+<a class="normalButton" href="/contact.html">Contacting VideoLAN</a>
 </p>
 <div class="clearme" style="margin-bottom: 30px;"></div>
 

@@ -3,6 +3,7 @@
    $lang = "en";
    $menu = array( "projects", "projects" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
 ?>
 
         <div class="clearme" style='padding-top: 35px;'>
@@ -16,13 +17,15 @@
                 </div>
                 <a class='extraInfoLink' href='/vlc/features.html'>Features</a>
                 <a class='extraInfoLink' href='/vlc/screenshots.html'>Screenshots</a>
-                <a id='downloadButton' href='http://www.videolan.org/vlc/download-windows.html'>
+                <a id='downloadButton' href='<?php echo $dlUrl; ?>'>
                     <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
                     <span class='downloadText'>Download VLC</span>
                     <span id='downloadDetails' style='font-size: 12px; color: white;'>
-                        Version 1.1.3 &nbsp;&#8226;&nbsp; Windows &nbsp;&#8226;&nbsp; 15 MB
+                    Version <span id='downloadVersion'><?php echo $version ?>
+                    </span>&nbsp;&#8226;&nbsp;<span id='downloadOS'>Windows</span>&nbsp;&#8226;&nbsp;<span id='downloadSize'>20MB</span>
                     </span>
                 </a>
+                <?php replaceDLinfos(); ?>
                 <a class='extraInfoLink' href='#' style="padding-left: 100px;">Other Systems and Versions</a>
             </div>
         </div>

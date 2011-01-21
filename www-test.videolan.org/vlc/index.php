@@ -1,7 +1,6 @@
 <?php
-   $title = "Free Software and Open Source video streaming solution for every OS!";
+   $title = "VLC media player, Open Source video framework for every OS!";
    $lang = "en";
-   $menu = array( "projects", "projects" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
 ?>

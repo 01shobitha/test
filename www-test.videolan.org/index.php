@@ -49,8 +49,8 @@
                         <?php image( 'VLMC-IconSmall.png', "VLMC icon", "smallProjectImg" ); ?>
                         <span class='productName'>VLMC</span>
                         <span class='productDescription'>
-                            VideoLAN Movie Creator is a non-<br/>
-                            linear editing software for video<br />
+                            VideoLAN Movie Creator is a
+                            non-linear editing software for video
                             creation.
                         </span>
                     </a>

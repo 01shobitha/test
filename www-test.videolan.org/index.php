@@ -20,7 +20,7 @@
                 <a class='extraInfoLink' href='/vlc/'>Other Systems and Versions</a>
                 <a id='downloadButton' href='<?php echo $dlUrl; ?>'>
                     <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
-                    <div class='downloadText'>Download VLC</div>
+                    <span class='downloadText'>Download VLC</span>
                     <span id='downloadDetails' style='font-size: 12px; color: white;'>
                     Version <span id='downloadVersion'><?php echo $version ?>
                     </span>&nbsp;&#8226;&nbsp;<span id='downloadOS'>Windows</span>&nbsp;&#8226;&nbsp;<span id='downloadSize'>20MB</span>
@@ -36,23 +36,23 @@
                 <div style='clear: both;'>
                     <a href='/vlc/' class='noUnderline'>
                         <?php image( 'VLC.png', "VLC icon", "smallProjectImg" ); ?>
-                        <div class='productName'>VLC media player</div>
-                        <div class='productDescription'>
+                        <span class='productName'>VLC media player</span>
+                        <span class='productDescription'>
                             VLC is a powerful media player<br />
                             playing most of the media codecs<br />
                             and video formats out there.
-                        </div>
+                        </span>
                     </a>
                 </div>
                 <div class="clearme" style='padding-top: 40px;'>
                     <a href='/vlmc/' class='noUnderline'>
                         <?php image( 'VLMC-IconSmall.png', "VLMC icon", "smallProjectImg" ); ?>
-                        <div class='productName'>VLMC</div>
-                        <div class='productDescription'>
+                        <span class='productName'>VLMC</span>
+                        <span class='productDescription'>
                             VideoLAN Movie Creator is a non-<br/>
                             linear editing software for video<br />
                             creation.
-                        </div>
+                        </span>
                     </a>
                 </div>
             </div>
@@ -61,35 +61,35 @@
                 <div class="clearme">
                     <a href='/projects/dvblast.html' class='noUnderline'>
                         <?php image( 'DVBlast-IconSmall.png', "DVBlast Icon", "smallProjectImg" ); ?>
-                        <div class='productName'>DVBlast</div>
-                        <div class='productDescription'>
+                        <span class='productName'>DVBlast</span>
+                        <span class='productDescription'>
                             DVBlast is a simple a powerful<br />
                             MPEG-2/TS demux and streaming<br />
                             application.
-                        </div>
+                        </span>
                     </a>
                 </div>
                 <div class="clearme" style='padding-top: 40px;'>
                     <a href='/developers/x264.html' class='noUnderline'>
                         <?php image( 'x264-IconSmall.png', "x264 Icon", "smallProjectImg" ); ?>
-                        <div class='productName'>x264</div>
-                        <div class='productDescription'>
+                        <span class='productName'>x264</span>
+                        <span class='productDescription'>
                             x264 is a free application for encoding<br />
                             video streams into the  H.264/MPEG-4<br />
                             AVC format.
-                        </div>
+                        </span>
                     </a>
                 </div>
             </div>
             <div style='float: left; padding-left: 30px; width: 180px;'>
                 <div class='audienceCallout'>For Developers</div>
-                <a href='/developers/libdvdcss.html' class='noUnderline'><div class='productName' style='padding-bottom: 20px;'>libdvdcss</div></a>
-                <a href='/developers/libdvbpsi.html' class='noUnderline'><div class='productName' style='padding-bottom: 20px;'>libdvdpsi</div></a>
-                <a href='/vlc/libvlc.html'           class='noUnderline'><div class='productName' style='padding-bottom: 20px;'>libVLC</div></a>
-                <a href='/developers/libbluray.html' class='noUnderline'><div class='productName' style='padding-bottom: 20px;'>libbluray</div></a>
-                <a href='/developers/libaacs.html'   class='noUnderline'><div class='productName' style='padding-bottom: 20px;'>libaacs</div></a>
-                <a href='/developers/libdca.html'    class='noUnderline'><div class='productName'>libdca</div></a>
-            </div>
+                <a href='/developers/libdvdcss.html' class='noUnderline'><span class='productName' style='padding-bottom: 20px;'>libdvdcss</span></a>
+                <a href='/developers/libdvbpsi.html' class='noUnderline'><span class='productName' style='padding-bottom: 20px;'>libdvdpsi</span></a>
+                <a href='/vlc/libvlc.html'           class='noUnderline'><span class='productName' style='padding-bottom: 20px;'>libVLC</span></a>
+                <a href='/developers/libbluray.html' class='noUnderline'><span class='productName' style='padding-bottom: 20px;'>libbluray</span></a>
+                <a href='/developers/libaacs.html'   class='noUnderline'><span class='productName' style='padding-bottom: 20px;'>libaacs</span></a>
+                <a href='/developers/libdca.html'    class='noUnderline'><span class='productName'>libdca</span></a>
+            </span>
             <a href='/projects/' class='extraInfoLink' style='text-transform: uppercase; font-size: 13px; display: block; padding-top: 25px; clear: both;'>View All Projects</a>
         </div>
         <div class="clearme" style='padding-top: 40px;'>

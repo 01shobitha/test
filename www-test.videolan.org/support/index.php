@@ -8,7 +8,6 @@
 <div id="left">
 
 <h1 class="bigtitle">Support and Help center</h1>
-<div class="clearme"></div>
 
 <p>VideoLAN is free and open source software; and is not backed by any company.
 Developers are mostly <strong>volunteers</strong>.<br />

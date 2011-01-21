@@ -7,7 +7,7 @@
 
 <h1 class="bigtitle"> User mailing-lists </h1>
 
-<div class="clearme">
+<div>
 
 <p>The VideoLAN user mailing-lists are dedicated to:</p>
 <ul class="bullets">

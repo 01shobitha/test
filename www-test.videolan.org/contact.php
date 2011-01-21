@@ -8,8 +8,6 @@
 <div>
     <h1 class="bigtitle">Contact</h1>
 
-    <div class="clearme"> </div>
-
     <p>Before contacting us, please be sure that you <b>actually</b> need to contact us!</p>
 
     <table class="doublecolumn">

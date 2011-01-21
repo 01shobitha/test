@@ -7,7 +7,7 @@
 
 ?>
 
-<h1>VideoLAN Projects</h1>
+<h1 class="bigtitle">VideoLAN Projects</h1>
 
     <div style='clear: both; padding-top: 40px;'>
         <div class='audienceCallout'>For Everyone</div>

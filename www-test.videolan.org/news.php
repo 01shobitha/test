@@ -6,9 +6,7 @@
 ?>
 
 
-<h1> News archive </h1>
-
-<br />
+<h1 class="bigtitle"> News archive </h1>
 
 <div class='longtext'>
 

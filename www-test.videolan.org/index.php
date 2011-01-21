@@ -141,7 +141,7 @@
 
 <?php /* Begin news items */ ?>
 <div style='width: 550px; padding-top: 60px; float: left;'>
-    <h1 style='margin-bottom: 25px;'>News & Updates</h1>
+    <h1 style='margin-bottom: 25px;'>News &amp; Updates</h1>
     <?php shownews("full", 4); ?>
 </div>
 <div style='width: 400px; padding-top: 60px; float: right;'>

@@ -38,7 +38,7 @@
                 <h2>Legal</h2>
                     <p>If you have a question regarding the use of a product, please check
                     the <a href="/legal.html">legal FAQ</a>.</p>
-                    <p>Any legal document must be sent to the <b>postal address</b>.
+                    <p>Any legal document must be sent to the <b>postal address</b>.</p>
             </td>
         </tr>
     </table>

@@ -1,6 +1,5 @@
 <?php
    $title = "VLC: Free streaming and multimedia solutions for all OS!";
-   $additional_js = array("/js/jquery.min.js");
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/magpierss/rss_fetch.inc");
@@ -19,13 +18,15 @@
                 <a class='extraInfoLink' href='/vlc/features.html'>Features</a>
                 <a class='extraInfoLink' href='/vlc/screenshots.html'>Screenshots</a>
                 <a class='extraInfoLink' href='/vlc/'>Other Systems and Versions</a>
-                <a id='downloadButton' href='http://www.videolan.org/vlc/download-windows.html'>
-                    <img style='position: absolute; top: -10px; left: -10px;' src='images/downloadVLC.png' alt='Download VLC icon' />
+                <a id='downloadButton' href='<?php echo $dlUrl; ?>'>
+                    <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
                     <div class='downloadText'>Download VLC</div>
                     <span id='downloadDetails' style='font-size: 12px; color: white;'>
-                        Version 1.1.3 &nbsp;&#8226;&nbsp; Windows &nbsp;&#8226;&nbsp; 15 MB
+                    Version <span id='downloadVersion'><?php echo $version ?>
+                    </span>&nbsp;&#8226;&nbsp;<span id='downloadOS'>Windows</span>&nbsp;&#8226;&nbsp;<span id='downloadSize'>20MB</span>
                     </span>
                 </a>
+                <?php replaceDLinfos(); ?>
             </div>
         </div>
         <div class="clearme" style='padding-top: 60px;'>

@@ -3,7 +3,6 @@
    $lang = "en";
    $menu = array( "developers", "i18n" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
-   require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
 ?>
 
 <h1>VideoLAN internationalization</h1>

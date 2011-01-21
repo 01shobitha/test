@@ -99,39 +99,6 @@ une librairie de navigation DVD.</li>
 
           <div class="download">
             <div class="vlc-logo"></div>
-	    <script type="text/javascript"><!--
-	    if ( <?php echo $is_win32; ?> ) { <?php DoDL("Win32"); ?> }
-	    else if( <?php echo $is_beos; ?> ) { <?php DoDL("BeOS"); ?> }
-	    else if( <?php echo $is_linux; ?> )
-	    {
-	      if( <?php echo $is_ubuntu; ?> ) { <?php DoDL("Ubuntu"); ?> }
-	      else if( <?php echo $is_fedora; ?> ) { <?php DoDL("Fedora"); ?>}
-	      else if( <?php echo $is_suse; ?> ) { <?php DoDL("Suse"); ?> }
-	      else if( <?php echo $is_debian; ?> ) { <?php DoDL("Debian"); ?> }
-	      else if( <?php echo $is_mandriva; ?> ) { <?php DoDL("Mandriva"); ?> }
-	      else if( <?php echo $is_redhat; ?> ) { <?php DoDL("RedHat"); ?> }
-	      else if( <?php echo $is_gentoo; ?> ) { <?php DoDL("Gentoo"); ?> }
-	      else { <?php DoDL("Linux"); ?> }
-	    }
-	    else if( <?php echo $is_freebsd; ?> ) { <?php DoDL("FreeBSD"); ?> }
-	    else if( <?php echo $is_osx; ?> )
-	    {
-	      if( <?php echo $is_ppc; ?> ) { <?php DoDL("OSX-PPC"); ?> }
-	      else if( <?php echo $is_mactel; ?> ) { <?php DoDL("OSX-Intel");?>}
-   	      else  { <?php DoDL("OSX-PPC"); DoDL("OSX-Intel"); ?> }
-	    }
-	    else if( navigator.platform.indexOf("Mac") != -1 )
-	    {	
-		document.writeln( "<p>Haha Mac OS 9 is dead! (if you\\\'re not using Mac OS 9 ... please write us a mail so we can fix this OS detection script)</p>'" );
-	    }
-	    else
-	    {	
-		<?php DoDL("Win32");DoDL("OSX-PPC"); DoDL("OSX-Intel"); ?>
-	    }
-	    --></script>
-	    <noscript>
-		<?php DoDL("Win32",0);DoDL("OSX-PPC",0);DoDL("OSX-Intel",0); ?>
-	    </noscript>
           </div>
           <div class="more"><a href="vlc.html">Autres Systèmes d'exploitation, en savoir plus</a></div>
     <?php panel_end(); ?>

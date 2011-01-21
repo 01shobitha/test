@@ -38,55 +38,34 @@ echo '<?xml version="1.0" encoding="utf-8" ?>';
    <meta name="Description" content="<?php echo $title; ?>" />
    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
    <title>VideoLAN - <?php echo $title; ?></title>
+
    <link rel="alternate" type="application/rss+xml" title="RSS - VideoLAN News" href="/videolan-news.rss" />
    <link rel="alternate" type="application/rss+xml" title="RSS - Developers' Planet" href="http://planet.videolan.org/rss20.xml" />
 
+   <link href='http://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin' rel='stylesheet' type='text/css'>
    <link rel="stylesheet" type="text/css" href="/style/style.css" />
-   <?php if( isset($additional_css) ) {
-           foreach($additional_css as $css) {
-              echo  '<link rel="stylesheet" type="text/css" href="'.$css.'" />';
-           }
-         }  ?>
-<!--[if lt IE 7]>
-   <style type="text/css">
-      @media screen{ body{behavior:url("/width.htc");} }
-        /* PNG support for IE */
-        img {  behavior: url("/png.htc");}
-        .DXImageTransformed { display: inline-block; }
-      </style>
-<![endif]-->
 
-    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin' rel='stylesheet' type='text/css'>
+    <?php if( isset($additional_css) ) {
+        foreach($additional_css as $css) {
+            echo  '<link rel="stylesheet" type="text/css" href="'.$css.'" />';
+        }
+    } ?>
 
-        <script src='/scripts/jquery-1.4.3.min.js' type='text/javascript'></script>
-      <script type='text/javascript'>
-         //Editable details for the client side OS appropriate download detection.
-         var latestVersion = "1.1.4";
-         var windowsDetails = {"name": "Windows", "size": "19 MB", "location": "http://www.videolan.org/vlc/download-windows.html"};
-         var macDetails = {"name": "Mac OS X", "size": "19 MB", "location": "http://www.videolan.org/vlc/download-macosx.html"};
-         var linuxDetails = {"name": "Linux", "size": "19 MB", "location": "http://www.videolan.org/vlc/"};  //A specific linux overview page might need to be added.
+    <!--[if lt IE 7]>
+       <style type="text/css">
+          @media screen{ body{behavior:url("/width.htc");} }
+            /* PNG support for IE */
+            img {  behavior: url("/png.htc");}
+            .DXImageTransformed { display: inline-block; }
+          </style>
+    <![endif]-->
 
-         //Attempt to load the bright button gradient into cache for faster switching on mouse over (may not work on all browsers.)
-         var cache = new Image();
-         cache.src = '/style/images/downloadButtonGradientBright.png';
-
-         $(document).ready(function () {
-            var OS="windows"; //Default
-            if (navigator.appVersion.indexOf("Win")!=-1) OS="windows";
-            if (navigator.appVersion.indexOf("Mac")!=-1) OS="mac";
-            if (navigator.appVersion.indexOf("Linux")!=-1) OS="linux";
-
-            $('#downloadDetails').html("Version " + latestVersion + " &nbsp;&#8226;&nbsp; " + eval(OS+"Details.name") + " &nbsp;&#8226;&nbsp; " + eval(OS+"Details.size"));
-            $('#downloadButton').attr('href',eval(OS+"Details.location"))
-         });
-      </script>
-<?php
-             if( isset($additional_js) ) {
-                 foreach($additional_js as $js) {
-                     echo '<script src="'.$js.'" type="text/javascript"></script>';
-                 }
-             }
-?>
+    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js' type='text/javascript'></script>
+    <?php if( isset($additional_js) ) {
+            foreach($additional_js as $js) {
+                echo '<script src="'.$js.'" type="text/javascript"></script>';
+            }
+        } ?>
 
 </head>
 
@@ -312,7 +291,7 @@ if( $language == "" ) { $language = "en"; }
 
 if(!isset($additional_css)) $additional_css = array();
 if(!isset($additional_js)) $additional_js = array();
-if(!isset($body_onload)) $body_onload = "HideMirrors();";
+if(!isset($body_onload)) $body_onload = "";
 if(!isset($body_onunload)) $body_onunload = "";
 if(!isset($body_color)) $body_color = "orange";
 

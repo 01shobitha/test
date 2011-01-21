@@ -50,15 +50,15 @@
             </div>
             <div style='float: right; width: 450px; padding-left: 70px;'>
                 <h1 style='padding-left: 5px; margin-bottom: 25px;' class='red'>Screenshots</h1>
-                <div style='cursor: pointer; border: 1px solid #F48B00; width: 90px; height: 90px; margin: 5px; float: left;'></div>
-                <div style='cursor: pointer; border: 1px solid #F48B00; width: 90px; height: 90px; margin: 5px; float: left;'></div>
-                <div style='cursor: pointer; border: 1px solid #F48B00; width: 90px; height: 90px; margin: 5px; float: left;'></div>
-                <div style='cursor: pointer; border: 1px solid #F48B00; width: 90px; height: 90px; margin: 5px; float: left;'></div>
+                <div class="screenshot"></div>
+                <div class="screenshot"></div>
+                <div class="screenshot"></div>
+                <div class="screenshot"></div>
                 <div style='clear: left;'></div>
-                <div style='cursor: pointer; border: 1px solid #F48B00; width: 90px; height: 90px; margin: 5px; float: left;'></div>
-                <div style='cursor: pointer; border: 1px solid #F48B00; width: 90px; height: 90px; margin: 5px; float: left;'></div>
-                <div style='cursor: pointer; border: 1px solid #F48B00; width: 90px; height: 90px; margin: 5px; float: left;'></div>
-                <div style='cursor: pointer; border: 1px solid #F48B00; width: 90px; height: 90px; margin: 5px; float: left;'></div>
+                <div class="screenshot"></div>
+                <div class="screenshot"></div>
+                <div class="screenshot"></div>
+                <div class="screenshot"></div>
                 <div style='clear: left;'></div>
                 <a class='red' style='display: block; padding-top: 10px; padding-left: 5px; font-size: 12px;' href='/vlc/screenshots.html'>view all screenshots</a>
             </div>

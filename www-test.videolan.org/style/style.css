@@ -410,13 +410,13 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 	position: relative;
 	float: left;
 	margin-top: 8px;
-	margin-left: 8px;
+	margin-left: 12px;
 	margin-bottom: 12px;
 	padding: 15px;
 	background-color: black;
 	color: white;
-	font-family: "Franklin Gothic";
-    font-size: 24px;
+    font-family: 'Nobile', serif;
+    font-size: 20px;
 	-moz-border-radius: 12px;
 	-webkit-border-radius: 12px;
 	border-radius: 12px;
@@ -428,6 +428,7 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
     text-align: center;
 }
 
+.normalButton:hover { text-decoration: none; }
 
 /* =================================== HOMEPAGE DETAILS ======================================== */
 

@@ -60,11 +60,6 @@
                 <div style='cursor: pointer; border: 1px solid #F48B00; width: 90px; height: 90px; margin: 5px; float: left;'></div>
                 <div style='cursor: pointer; border: 1px solid #F48B00; width: 90px; height: 90px; margin: 5px; float: left;'></div>
                 <div style='clear: left;'></div>
-                <div style='cursor: pointer; border: 1px solid #F48B00; width: 90px; height: 90px; margin: 5px; float: left;'></div>
-                <div style='cursor: pointer; border: 1px solid #F48B00; width: 90px; height: 90px; margin: 5px; float: left;'></div>
-                <div style='cursor: pointer; border: 1px solid #F48B00; width: 90px; height: 90px; margin: 5px; float: left;'></div>
-                <div style='cursor: pointer; border: 1px solid #F48B00; width: 90px; height: 90px; margin: 5px; float: left;'></div>
-                <div style='clear: both;'></div>
                 <a class='red' style='display: block; padding-top: 10px; padding-left: 5px; font-size: 12px;' href='/vlc/screenshots.html'>view all screenshots</a>
             </div>
         </div>

@@ -28,14 +28,14 @@ Noone owes you an answer to your question.</p>
 <a id="documentation"></a>
 
 <h3>FAQ</h3>
-<p>If you have any questions about VideoLAN, about VLC media player, you should
+<p>If you have any questions about VideoLAN or about VLC media player, you should
 <strong>always start</strong> by reading the <a href="faq.html">Official FAQ</a>.</p>
 
 <h3>Documentation</h3>
 <p>You can access our
- <a href="http://wiki.videolan.org/Documentation:Documentation"> Documentation</a>,
-about <a href="http://wiki.videolan.org/Documentation:Play_HowTo">VLC playback</a> and
-<a href="http://wiki.videolan.org/Documentation:Streaming_HowTo">VLC Streaming</a>.</p>
+ <a href="http://wiki.videolan.org/Documentation:Documentation">Documentation</a>,
+especially <a href="http://wiki.videolan.org/Documentation:Play_HowTo">VLC playback documentation</a> and
+<a href="http://wiki.videolan.org/Documentation:Streaming_HowTo">VLC Streaming documentation</a>.</p>
 
 <div style="margin: 40px;"></div>
 
@@ -60,7 +60,7 @@ about <a href="http://wiki.videolan.org/Documentation:Play_HowTo">VLC playback</
     <ul class="bullets">
         <li>our <a href="http://forum.videolan.org">Forum</a>, in the correct section;</li>
         <li>our <a href="lists.html">users mailing-lists</a>, especially <a href="mailto:vlc@REMOVETHIS@videolan.org">vlc@<span style="diplay:none">remove</span>videolan.org</a>;</li>
-        <li>our live-chat IRC channel on the <a href="http://www.freenode.net">freenode</a> Network (<em>irc.videolan.org, #videolan</em>), for live answers. Use the <a href="http://webchat.freenode.net/">Freenode Web</a> interface, if necessary.</li>
+        <li>our live-chat IRC channel on the <a href="http://www.freenode.net">freenode</a> Network (<em>irc.freenode.org, #videolan</em>), for live answers. Use the <a href="http://webchat.freenode.net/">Freenode Web</a> interface, if you don't have an IRC client at hand.</li>
     </ul>
 </div>
 
@@ -68,7 +68,7 @@ about <a href="http://wiki.videolan.org/Documentation:Play_HowTo">VLC playback</
     <div class="onecolumn">
         <h1>Reporting bugs</h1>
         <a id="bugs"></a>
-        <p> Read and conform yourself to our <a href="http://wiki.videolan.org/Report_bugs">Reporting Bugs</a>
+        <p> Read and conform to our <a href="http://wiki.videolan.org/Report_bugs">Reporting Bugs</a>
          policy and look on our <a href="http://trac.videolan.org">Bugtracking</a>.</p>
     </div>
 
@@ -76,7 +76,7 @@ about <a href="http://wiki.videolan.org/Documentation:Play_HowTo">VLC playback</
         <h1>Consulting services</h1>
 
         <p>If you are a professionnal, and need services around our products,
-        some companies provide professionnal support on VideoLAN. They are
+        some companies provide professionnal support. They are
         listed on the <a href="/vlc/partners.html">consultants</a> page.</p>
     </div>
 

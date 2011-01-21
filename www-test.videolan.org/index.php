@@ -89,7 +89,7 @@
                 <a href='/developers/libbluray.html' class='noUnderline'><span class='productName' style='padding-bottom: 20px;'>libbluray</span></a>
                 <a href='/developers/libaacs.html'   class='noUnderline'><span class='productName' style='padding-bottom: 20px;'>libaacs</span></a>
                 <a href='/developers/libdca.html'    class='noUnderline'><span class='productName'>libdca</span></a>
-            </span>
+            </div>
             <a href='/projects/' class='extraInfoLink' style='text-transform: uppercase; font-size: 13px; display: block; padding-top: 25px; clear: both;'>View All Projects</a>
         </div>
         <div class="clearme" style='padding-top: 40px;'>

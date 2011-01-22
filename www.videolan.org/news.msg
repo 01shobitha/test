@@ -1,6 +1,21 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|22 January 2011|End of support for VLC 1.0 series|The VideoLAN team ceases all form of support for VLC media player versions 1.0.x.
+
+Focusing maintenance efforts on the current VLC 1.1 versions,
+and further development on the upcoming VLC 1.2 series,
+the VideoLAN team will not deliver any further update for
+VLC versions 1.0.x (last release was 1.0.6),
+and VLC 0.9.x (last release was 0.9.10).
+
+VLC 1.1.6 will be released shortly.
+This release will introduce a few enhancements, fix a number bugs
+and adress several security vulnerabilities.
+Therefore all VLC users and LibVLC developer
+are strongly advised to upgrade to the 1.1 version series,
+if they have not already done so.
+
 |9 January 2011|VLC for iOS removed from the AppStore|The VideoLAN project has been notified that the build of VLC for iOS that was submitted on the AppStore by the company Applidium has been removed by Apple from the iOS AppStore.<br />The VideoLAN non-profit organisation is a 3rd party in this matter and, while VideoLAN regrets the annoyance that could be caused to the users, VideoLAN is not responsible for this matter.<br />However, we are going to work and try to discuss with all the parties to find the best solution in the shortest time possible.
 
 |16 December 2010|VLC users survey|The VideoLAN project and the VLC development team would love <b>VLC users</b> and <b>community</b> to help them in understanding the users and their needs.<br />Please <b>fill</b> the <a href="http://goo.gl/oTISI">VLC users survey</a>. It is quick and is completely anonymous.

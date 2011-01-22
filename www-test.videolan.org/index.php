@@ -36,7 +36,7 @@
                 <div class='audienceCallout'>For Everyone</div>
                 <div style='clear: both;'>
                     <a href='/vlc/' class='noUnderline'>
-                        <?php image( 'VLC.png', "VLC icon", "smallProjectImg" ); ?>
+                        <?php image( 'VLC-IconSmall.png', "VLC icon", "smallProjectImg" ); ?>
                         <span class='productName'>VLC media player</span>
                         <span class='productDescription'>
                             VLC is a powerful media player<br />

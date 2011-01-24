@@ -156,7 +156,7 @@ function DoDL2( $os, $with_js=1 )
 
 <p>
 <a href="http://twitter.com/#search?q=vlc">Twitter</a> <a href="http://digg.com/news/technology/videolan_vlc_1_1_6_release">Digg it!</a>
-<a href="http://news.ycombinator.com/item?id=1901438">Hacker News</a> <a href="/">Reddit (not yet)</a>
+<a href="http://news.ycombinator.com/item?id=2133758">Hacker News</a> <a href="/">Reddit (not yet)</a>
 <a href="http://www.facebook.com/vlc.media.player">Facebook page</a> <a href="http://twitter.com/videolan">Twitter page</a>
 </p>
 <h1>What's new in 1.1.6</h1>

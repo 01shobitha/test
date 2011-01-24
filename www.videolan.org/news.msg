@@ -1,17 +1,19 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|23 January 2011|VLC 1.1.6|VideoLAN and the VLC development team are proud to present VLC 1.1.6, the sixth bugfix release of the VLC 1.1.x branch.<br />Small new features, many bugfixes, updated translations and <a href="/security/sa1007.html">security issues</a> are making this release. Notable improvements include codecs, demuxers, Audio-CD support, subtitles, visualisation and platform integration.<br />Source and Windows and MacOSX builds are available.<br />See the <a href="/vlc/releases/1.1.6.html">release notes</a> for more information.
+
 |22 January 2011|End of support for VLC 1.0 series|The VideoLAN team ceases all form of support for VLC media player versions 1.0.x.
 
 Focusing maintenance efforts on the current VLC 1.1 versions,
 and further development on the upcoming VLC 1.2 series,
 the VideoLAN team will not deliver any further update for
 VLC versions 1.0.x (last release was 1.0.6),
-and VLC 0.9.x (last release was 0.9.10).
+and VLC 0.9.x (last release was 0.9.10).<br />
 
 VLC 1.1.6 will be released shortly.
 This release will introduce a few enhancements, fix a number bugs
-and adress several security vulnerabilities.
+and adress several security vulnerabilities.<br />
 Therefore all VLC users and LibVLC developer
 are strongly advised to upgrade to the 1.1 version series,
 if they have not already done so.

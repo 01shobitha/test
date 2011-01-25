@@ -1,24 +1,14 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
-|23 January 2011|VLC 1.1.6|VideoLAN and the VLC development team are proud to present VLC 1.1.6, the sixth bugfix release of the VLC 1.1.x branch.<br />Small new features, many bugfixes, updated translations and <a href="/security/sa1007.html">security issues</a> are making this release. Notable improvements include codecs, demuxers, Audio-CD support, subtitles, visualisation and platform integration.<br />Source and Windows and MacOSX builds are available.<br />See the <a href="/vlc/releases/1.1.6.html">release notes</a> for more information.
+|23 January 2011|VLC 1.1.6|VideoLAN and the VLC development team are proud to present VLC 1.1.6, the sixth bugfix release of the VLC 1.1.x branch.<br />Small new features, many bugfixes, updated translations and <a href="/security/sa1007.html">security issues</a> are making this release. Notable improvements include codecs, demuxers, Audio-CD support, subtitles, visualization and platform integration.<br />Source and Windows and MacOSX builds are available.<br />See the <a href="/vlc/releases/1.1.6.html">release notes</a> for more information.<br />
+<b>NB:</b> The first versions for Intel-based Macs (64bit and Universal Binary) included a rtsp streaming bug, which also hindered access to the Freebox. Please re-download.
 
-|22 January 2011|End of support for VLC 1.0 series|The VideoLAN team ceases all form of support for VLC media player versions 1.0.x.
+|22 January 2011|End of support for VLC 1.0 series|The VideoLAN team ceases all form of support for VLC media player versions 1.0.x. Focusing maintenance efforts on the current VLC 1.1 versions, and further development on the upcoming VLC 1.2 series, the VideoLAN team will not deliver any further update for VLC versions 1.0.x (last release was 1.0.6), and VLC 0.9.x (last release was 0.9.10).<br />
+VLC 1.1.6 will be released shortly. This release will introduce a few enhancements, fix a number of bugs and address several security vulnerabilities.<br />
+Therefore all VLC users and LibVLC developers are strongly advised to upgrade to the 1.1 version series, if they have not already done so.
 
-Focusing maintenance efforts on the current VLC 1.1 versions,
-and further development on the upcoming VLC 1.2 series,
-the VideoLAN team will not deliver any further update for
-VLC versions 1.0.x (last release was 1.0.6),
-and VLC 0.9.x (last release was 0.9.10).<br />
-
-VLC 1.1.6 will be released shortly.
-This release will introduce a few enhancements, fix a number bugs
-and adress several security vulnerabilities.<br />
-Therefore all VLC users and LibVLC developer
-are strongly advised to upgrade to the 1.1 version series,
-if they have not already done so.
-
-|9 January 2011|VLC for iOS removed from the AppStore|The VideoLAN project has been notified that the build of VLC for iOS that was submitted on the AppStore by the company Applidium has been removed by Apple from the iOS AppStore.<br />The VideoLAN non-profit organisation is a 3rd party in this matter and, while VideoLAN regrets the annoyance that could be caused to the users, VideoLAN is not responsible for this matter.<br />However, we are going to work and try to discuss with all the parties to find the best solution in the shortest time possible.
+|9 January 2011|VLC for iOS removed from the AppStore|The VideoLAN project has been notified that the build of VLC for iOS that was submitted on the AppStore by the company Applidium has been removed by Apple from the iOS AppStore.<br />The VideoLAN non-profit organization is a 3rd party in this matter and, while VideoLAN regrets the annoyance that could be caused to the users, VideoLAN is not responsible for this matter.<br />However, we are going to work and try to discuss with all the parties to find the best solution in the shortest time possible.
 
 |16 December 2010|VLC users survey|The VideoLAN project and the VLC development team would love <b>VLC users</b> and <b>community</b> to help them in understanding the users and their needs.<br />Please <b>fill</b> the <a href="http://goo.gl/oTISI">VLC users survey</a>. It is quick and is completely anonymous.
 
@@ -77,7 +67,7 @@ Visit the <a href="http://www.videolan.org/projects/dvblast.html">project page</
 
 |6 Feb 2010|VideoLAN at FOSDEM|The VideoLAN team will be at <a href="http://www.fosdem.org/2010">FOSDEM</a> in Brussels. If you have some time we will be happy to welcome you on our booth. We will do some demonstration about some nice features on the road for the next major release like extensions.
 
-|31 January 2010|VLC 1.0.5|VideoLAN and the VLC developers are very proud to announce their latest release of VLC. After more than 51 million downloads of VLC 1.0.3, this version is specially aimed towards Windows and Mac platforms, and <a href="http://www.videolan.org/developers/vlc-branch/NEWS">brings various fixes, speed improvements and translations updates.</a><br /> The Windows version benefits speed-ups from both an updated compiler (gcc 4.4.2) and codecs updates.<br />The Mac version brings support for the latest Apple Remote and updated codecs too.</p><p><strong>Some antivirus have wrongly detected a virus in the Windows release</strong>, if you want the VideoLAN team can suggest better antivirus or operating sytem, on request.</p><p>Be careful, VLC 1.1 is on the road!
+|31 January 2010|VLC 1.0.5|VideoLAN and the VLC developers are very proud to announce their latest release of VLC. After more than 51 million downloads of VLC 1.0.3, this version is specially aimed towards Windows and Mac platforms, and <a href="http://www.videolan.org/developers/vlc-branch/NEWS">brings various fixes, speed improvements and translations updates.</a><br /> The Windows version benefits speed-ups from both an updated compiler (gcc 4.4.2) and codecs updates.<br />The Mac version brings support for the latest Apple Remote and updated codecs too.</p><p><strong>Some antivirus have wrongly detected a virus in the Windows release</strong>, if you want the VideoLAN team can suggest better antivirus or operating system, on request.</p><p>Be careful, VLC 1.1 is on the road!
 
 
 |21 December 2009|End of VideoLAN Dev Days '09|The second edition of the VideoLAN Dev Days is now finished and was a great success.<br />New project were presented, ideas about the future of VideoLAN and VLC were shared and technical issues could be discussed.</p><p>We would like to thank a lot everybody who participated to the event and, of course, our great sponsors without this event could not happen : <a href="http://www.epitech.eu/">Epitech</a>, <a href="http://www.iledefrance.fr/">région Île de France</a> and <a href="http://www.anevia.com/">Anevia</a>.

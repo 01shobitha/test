@@ -37,11 +37,11 @@ $vlc_version_intel = "1.1.6";
 
 <?php
     pkgitem_sf( "32/64 bits Package for Intel-based Macs, 1.1.6",
-               "$vlc_version_intel/macosx","vlc-$vlc_version_intel.dmg","vlc", "",         "2cc15d306e9685ced7b2c32f1eadbb58");
+               "$vlc_version_intel/macosx","vlc-$vlc_version_intel.dmg","vlc", "",         "603a68fda4e67afe9cb7fb46fefdbd25");
     pkgitem_sf( "32 bits Package for Intel-based Macs, 1.1.6",
                "$vlc_version_intel/macosx","vlc-$vlc_version_intel-intel.dmg","vlc", "",   "fee9b86bc25a59f1442fb6c6481721de");
     pkgitem_sf( "64 bits Package for Intel-based Macs, 1.1.6",
-               "$vlc_version_intel/macosx","vlc-$vlc_version_intel-intel64.dmg","vlc", "", "9df0cf2930f87ebe0ab5de30dae49251");
+               "$vlc_version_intel/macosx","vlc-$vlc_version_intel-intel64.dmg","vlc", "", "9217b1c5963289df5e3ff9007c0ed280");
 
     pkgitem_sf( "Package for PowerPC-based Macs, 1.1.6",
                "$vlc_version_ppc/macosx","vlc-$vlc_version_ppc-powerpc.dmg","vlc", "",     "f27874ccab7f2af3c8d433c2f56b333d"); ?>

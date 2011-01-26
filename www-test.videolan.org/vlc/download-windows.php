@@ -13,37 +13,33 @@
 <h1 class="bigtitle"> VLC media player for Windows </h1>
 <div id="left">
 
-<p>All mirrors include all the available languages.</p>
-
 <?php $vlc_version = '1.1.6'; ?>
-  <h2>Latest version - <?php echo $vlc_version; ?></h2>
-<p>This release only supports Windows 2000 (SP4+UR1), XP, Vista and 7. </p>
+<h1>Latest binaries - <?php echo $vlc_version; ?></h2>
+<p>VLC currently supports <b>Windows 2000 (SP4+UR1), XP, Vista and 7</b>.</p>
 
 <?php
-    pkgitem_sf( "Windows self-extracting package",
-                   "$vlc_version/win32","vlc-$vlc_version-win32.exe","vlc", "", "b8f68f4af38638f846b437a26bad688e") ;
-    pkgitem_sf("Windows 7zip (No installer needed)",
-                  "$vlc_version/win32","vlc-$vlc_version-win32.7z","vlc", "",   "866419ecc4ae1b69efdbbf6cf46ebf59" );
-    pkgitem_sf("Windows zip packages (No installer needed)",
-                  "$vlc_version/win32","vlc-$vlc_version-win32.zip","vlc", "",  "0bfdee5e5cc460d21bc4bac9f5992adf" );
+    pkgitem_sf("Installer package",
+                   "$vlc_version/win32","vlc-$vlc_version-win32.exe","vlc", "Exe installer", "b8f68f4af38638f846b437a26bad688e") ;
+    pkgitem_sf("7zip package",
+                  "$vlc_version/win32","vlc-$vlc_version-win32.7z","vlc", "(No installer needed)",   "866419ecc4ae1b69efdbbf6cf46ebf59" );
+    pkgitem_sf("Zip package",
+                  "$vlc_version/win32","vlc-$vlc_version-win32.zip","vlc", "(No installer needed)",  "0bfdee5e5cc460d21bc4bac9f5992adf" );
 ?>
 
+   <div class="clearme"> </div>
+<h1>Latest source code</h2>
+
+<p>If you want, you can download the <a href="download-sources.html">source code</a> of VLC media player.</p>
+
 <br />
-  <h2>Windows 95/98/Me</h2>
-  <p><a href="http://sourceforge.net/projects/kernelex/">Please install KernelEx</a> or take an old
-  version of VLC</p>
+<br />
+<h2>Windows 95/98/Me</h1>
+<p><a href="http://sourceforge.net/projects/kernelex/">Please install KernelEx</a> or take an old
+version of VLC</p>
 
-  <h2>Older versions</h2>
-  <?php browse_old("vlc") ?>
+<h2>Older versions</h2>
+<?php browse_old("vlc") ?>
 
-</div> <!-- LEFT -->
-
-<div id="right">
-  <h2>Source code</h2>
-
-  <p>If you want, you can download the <a href="download-sources.html">source code</a> of VLC media player.</p>
-
-
-</div> <!-- RIGHT -->
+</div>
 
 <?php footer('$Id$'); ?>

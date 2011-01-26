@@ -15,7 +15,7 @@ function browse_old( $fold )
 
 function pkgversion($name,$version)
 {
-  $latest = array("vlc" => "1.0.5");
+  $latest = array("vlc" => "1.1.6");
 
   if (!$latest[$name])
     return;
@@ -45,10 +45,13 @@ function pkgitem_nomirr($description,$version,$name,$top,$extradescription="")
 
 function pkgitem_sf($description,$version,$name,$top,$extradescription="",$md5="" )
 {
- pkgversion($top, $version);
- echo "<h3>$description <i>$extradescription</i></h3>";
- echo "<a href='http://sourceforge.net/projects/$top/files/$version/$name/download'>Download VLC</a>.";
- echo "<br /><em>MD5: $md5</em>";
+    pkgversion($top, $version);
+    echo "<a id='downloadButton' href='http://sourceforge.net/projects/$top/files/$version/$name/download'>\n";
+    echo "<img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />\n";
+    echo "<span class='downloadText'>$description</span>";
+    echo "<span id='downloadDetails' style='font-size: 12px; color: white;'>$extradescription</span>";
+    echo "</a>";
+    echo "<a class='extraInfoLink clearme' style='padding-left: 100px;' href='#'><em>MD5: $md5</em></a>";
 }
 
 function pkgitem($description,$version,$name,$top,$extradescription="")

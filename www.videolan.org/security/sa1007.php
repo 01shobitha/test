@@ -68,7 +68,7 @@ from the official VLC source code repositories.
 <dd>Internal patches for VLC development and 1.1.x versions</dd>
 <dt>29 December 2010</dt>
 <dd>Security advisory published</dd>
-<dt>TBD</dt>
+<dt>23 January 2011</dt>
 <dd>VLC media player 1.1.6 released</dd>
 </dl>
 

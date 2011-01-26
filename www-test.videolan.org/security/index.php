@@ -1,6 +1,5 @@
 <?php
-   $title = "VideoLAN security information";
-   $lang = "en";
+   $title = "Security information";
    $body_color = "red";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
@@ -29,6 +28,22 @@ pub   1024D/AC3E0879 2006-03-01
 <h2>2010</h2>
 
 <dl>
+<dt>VideoLAN-SA-1107 (CVE-2011-0021)</dt>
+<dd>Heap corruption in CDG codec.
+ <a href="sa1101.html">Details</a>
+</dd>
+
+<dt>VideoLAN-SA-1007 (CVE-2010-3907)</dt>
+<dd>Buffer overflow in Real Media demuxer.
+ <a href="sa1007.html">Details</a>
+</dd>
+
+<dt>VideoLAN-SA-1006 (?)</dt>
+<dd>Stack smashing in SMB/CIFS access.
+ <a href="sa1006.html">Details</a>
+</dd>
+
+
 <dt>VideoLAN-SA-1005 (CVE-2010-3124)</dt>
 <dd>DLL preloading vulnerability.
  <a href="sa1005.html">Details</a>

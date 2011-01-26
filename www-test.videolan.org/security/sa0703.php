@@ -2,6 +2,7 @@
    $title = "VideoLAN security advisory 0703";
    $lang = "en";
    $menu = array( "vlc" );
+   $body_color = "red";
    require($_SERVER["DOCUMENT_ROOT"]."include/header.php");
 ?>
 

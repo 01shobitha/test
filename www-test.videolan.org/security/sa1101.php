@@ -1,5 +1,5 @@
 <?php
-   $title = "VideoLAN Security Advisory 1007";
+   $title = "VideoLAN Security Advisory 1101";
    $lang = "en";
    $menu = array( "vlc" );
    $body_color = "red";
@@ -8,17 +8,17 @@
 
 <div id="fullwidth">
 
-<h1>Security Advisory 1007</h1>
+<h1>Security Advisory 1101</h1>
 <pre>
-Summary           : Buffer overflow in Real demuxer
-Date              : December 2010
+Summary           : Heap corruption in CDG decoder
+Date              : January 2011
 Affected versions : VLC media player 1.1.5 and earlier
-ID                : VideoLAN-SA-1007
-CVE reference     : CVE-2010-3907
+ID                : VideoLAN-SA-1101
+CVE reference     : CVE-2011-0021
 </pre>
 <h2>Details</h2>
-<p>When parsing the header of an invalid Real Media file
-an integer overflow might occur then trigger a heap-based buffer overflow.
+<p>When parsing an invalid CDG file,
+insufficient boundary checks might lead to corruption of the heap.
 </p>
 <h2>Impact</h2>
 <p>If successful,
@@ -35,8 +35,8 @@ to explicitly open a specially crafted file.
 or accessing untrusted remote sites (or disable the VLC browser plugins),
 until the patch is applied.
 </p>
-<p>Alternatively, the Real demuxer plugin
-(<code>libreal_plugin.*</code>)
+<p>Alternatively, the CDG decoder plugin
+(<code>libcdg_plugin.*</code>)
 can be removed manually from the VLC plugin installation directory.
 </p>
 <h2>Solution</h2>
@@ -62,15 +62,16 @@ from the official VLC source code repositories.
 </dl>
 <h2>History</h2>
 <dl>
-<dt>14 December 2010</dt>
+<dt>7 January 2011</dt>
 <dd>Vendor notified</dd>
+<dt>11 January 2011</dt>
+<dd>Patches published</dd>
+<dt>20 January 2011</dt>
 <dd>CVE ID reserved</dd>
-<dt>15 December 2010</dt>
-<dd>Internal patches for VLC development and 1.1.x versions</dd>
-<dt>29 December 2010</dt>
-<dd>Security advisory published</dd>
 <dt>23 January 2011</dt>
 <dd>VLC media player 1.1.6 released</dd>
+<dt>25 January 2011</dt>
+<dd>Security advisory published</dd>
 </dl>
 
 <address>R&eacute;mi Denis-Courmont,<br />

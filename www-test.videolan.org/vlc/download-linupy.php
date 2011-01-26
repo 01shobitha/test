@@ -7,7 +7,7 @@
 
 <?php function pkgitem($version,$name) { ?><li><a href="http://download.videolan.org/pub/videolan/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a></li><?php } ?>
 
-<h1> VLC for YOPY/Linupy </h1>
+<h1 class="bigtitle"> VLC for YOPY/Linupy </h1>
 
 <div id="left">
 

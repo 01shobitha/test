@@ -6,8 +6,7 @@
 ?>
 
 <div id="fullwidth">
-
-<h1>VLC media player for <a href="http://www.archlinux.org/">Arch Linux</a></h1>
+<h1 class="bigtitle">VLC media player for <a href="http://www.archlinux.org/">Arch Linux</a></h1>
 
 Arch Linux  has a VLC package in its 'Extra' repository (see <a href='http://www.archlinux.org/packages/extra/i686/vlc/'>http://www.archlinux.org/packages/extra/i686/vlc/</a>).
 

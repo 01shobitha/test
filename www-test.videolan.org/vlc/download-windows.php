@@ -10,7 +10,7 @@
 
 <?php function pkgitemdev($version,$name) { ?><li><a href="http://downloads.videolan.org/pub/videolan/testing/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a></li><?php } ?>
 
-<h1> VLC media player for Windows </h1>
+<h1 class="bigtitle"> VLC media player for Windows </h1>
 <div id="left">
 
 <p>All mirrors include all the available languages.</p>

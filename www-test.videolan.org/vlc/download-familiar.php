@@ -7,7 +7,7 @@
 
 <div id="fullwidth">
 
-<h1> VLC media player for Familiar Linux </h1>
+<h1 class="bigtitle"> VLC media player for Familiar Linux </h1>
 
 <h2>Download Options</h2>
 

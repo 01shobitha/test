@@ -5,7 +5,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-<h1> VLC media player for <a href="http://www.maemo.org/">Maemo</a></h1>
+<h1 class="bigtitle"> VLC media player for <a href="http://www.maemo.org/">Maemo</a></h1>
 
 <h2> Maemo 6 </h2>
 

@@ -36,7 +36,7 @@
   }
 ?>
 
-<h1>Download skins</h1>
+<h1 class="bigtitle">Download skins</h1>
 
 <p><span style="color: red; font-weight: bold; font-size: 20pt;">This is the skins 1 download page. Current vlc versions use the <a href="download-skins2.html">skins2</a> interface.</span></p>
 

@@ -8,7 +8,7 @@
 
 <div id="fullwidth">
 
-<h1>VLC media player for <a href="http://www.syllable.org/">Syllable</a></h1>
+<h1 class="bigtitle">VLC media player for <a href="http://www.syllable.org/">Syllable</a></h1>
 
 <h2>Packages</h2>
 

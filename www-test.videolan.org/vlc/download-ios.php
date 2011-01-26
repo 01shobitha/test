@@ -5,7 +5,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-<h1> VLC media player for <a href="http://en.wikipedia.org/wiki/IOS_%28Apple%29">iOS</a> 3.2 and later</h1>
+<h1 class="bigtitle"> VLC media player for <a href="http://en.wikipedia.org/wiki/IOS_%28Apple%29">iOS</a> 3.2 and later</h1>
 
 <h2> Introduction </h2>
 <p>VLC for iOS is a bit different from the classic VLC.</p>

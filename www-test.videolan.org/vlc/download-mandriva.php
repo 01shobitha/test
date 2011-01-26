@@ -7,7 +7,7 @@
 
 <?php function pkgitem($version,$name,$comment) { ?><li><a href="http://download.videolan.org/pub/videolan/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a> <?php echo $comment; ?> </li><?php } ?>
 
-<h1>VLC media player for <a href="http://www.mandriva.com/">Mandriva Linux</a> x86</h1>
+<h1 class="bigtitle">VLC media player for <a href="http://www.mandriva.com/">Mandriva Linux</a> x86</h1>
 
 <div id="fullwidth">
 

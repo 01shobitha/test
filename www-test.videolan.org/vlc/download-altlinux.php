@@ -1,13 +1,12 @@
 <?php
    $title = "VLC media player for ALT Linux";
-   $lang = "en";
    $menu = array( "vlc", "download" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
 <div id="fullwidth">
 
-<h1>VLC media player for <a href="http://www.altlinux.com/">ALT Linux</a></h1>
+<h1 class="bigtitle">VLC media player for <a href="http://www.altlinux.com/">ALT Linux</a></h1>
 
 <h2>ALT Linux Sisyphus (unstable)</h2>
 <p>Sisyphus packages repository always contains one of the latest versions

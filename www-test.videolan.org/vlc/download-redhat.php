@@ -6,7 +6,7 @@
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
 ?>
 
-<h1>VLC media player for <a href="http://www.redhat.com/rhel/">Red Hat Enterprise Linux</a></h1>
+<h1 class="bigtitle">VLC media player for <a href="http://www.redhat.com/rhel/">Red Hat Enterprise Linux</a></h1>
 
 <div id="fullwidth">
 <h2> 0.9.9 Packages for RHEL 5, x86 and x86_64 on RPMforge</h2>

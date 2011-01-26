@@ -9,7 +9,7 @@
 <div id="fullwidth">
 
 
-<h1>VLC media player for <a href="http://fedoraproject.org/">Fedora</a></h1>
+<h1 class="bigtitle"> VLC media player for <a href="http://fedoraproject.org/">Fedora</a></h1>
 
 <p>Most of our packages for fedora can be found on RPM Fusion <a href="http://rpmfusion.org/">RPM Fusion</a><br />
 You can also use this repository from distribution derived from <a href="http://fedoraproject.org/">Fedora</a></p>

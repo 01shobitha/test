@@ -9,7 +9,7 @@
 
 <div id="fullwidth">
 
-<h1>VLC media player for <a href="http://crux.nu/">Crux Linux</a></h1>
+<h1 class="bigtitle">VLC media player for <a href="http://crux.nu/">Crux Linux</a></h1>
 
 <p>Thanks to Younès Hafri who maintains these packages !</p>
 

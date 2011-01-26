@@ -6,7 +6,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-<h1> VLC media player for <a href="http://debian.org">Debian GNU/Linux</a></h1>
+<h1 class="bigtitle"> VLC media player for <a href="http://debian.org">Debian GNU/Linux</a></h1>
 <div id="left">
 
 <h2> Debian stable (lenny) </h2>

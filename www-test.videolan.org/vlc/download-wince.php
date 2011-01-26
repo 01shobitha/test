@@ -7,7 +7,7 @@
 
 <?php function pkgitem($version,$name) { ?><li><a href="http://download.videolan.org/pub/videolan/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a></li><?php } ?>
 
-<h1> VLC media player for WinCE / PocketPC </h1>
+<h1 class="bigtitle"> VLC media player for WinCE / PocketPC </h1>
 
 <div id="fullwidth">
 

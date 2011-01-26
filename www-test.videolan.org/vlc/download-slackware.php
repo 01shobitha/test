@@ -6,7 +6,7 @@
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
 ?>
 
-<h1>VLC media player for <a href="http://slackware.com/">Slackware Linux</a></h1>
+<h1 class="bigtitle">VLC media player for <a href="http://slackware.com/">Slackware Linux</a></h1>
 
 <div id="fullwidth">
 

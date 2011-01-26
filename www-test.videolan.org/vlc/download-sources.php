@@ -7,7 +7,7 @@
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
 ?>
 
-<h1> VLC media player source code </h1>
+<h1 class="bigtitle"> VLC media player source code </h1>
 
 <div id="left">
 <h2>Tarballs</h2>

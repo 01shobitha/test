@@ -22,6 +22,6 @@ if( strpos( $url, "/" ) ) $url ="";
     pg_query( "UPDATE skins SET downloads=downloads+1 WHERE url='$url'" );
   }
   pg_close( $connect );
-?>          
+?>
   </body>
 </html>

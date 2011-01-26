@@ -1,6 +1,7 @@
 <?php
    $title = "Press center";
    $lang = "en";
+   $body_color = "green";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 

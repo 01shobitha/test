@@ -1,7 +1,7 @@
 <?php
    $title = "News";
    $lang = "en";
-   $menu = array( "project", "news" );
+   $body_color = "green";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 

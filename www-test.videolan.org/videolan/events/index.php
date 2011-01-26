@@ -1,9 +1,7 @@
 <?php
-   $title = "VideoLAN - the events";
-   $lang = "en";
-   $menu = array( "project", "events" );
-
-   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
+    $title = "the events";
+    $body_color = "green";
+    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
 <h1> Events </h1>

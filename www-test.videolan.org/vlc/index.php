@@ -26,7 +26,7 @@
                     </span>
                 </a>
                 <?php replaceDLinfos(); ?>
-                <a class='extraInfoLink' href='#' style="padding-left: 100px;">Other Systems and Versions</a>
+                <a class='extraInfoLink' href='#download' style="padding-left: 100px;">Other Systems and Versions</a>
             </div>
         </div>
         <div class="clearme" style='padding-top: 60px;'>
@@ -90,6 +90,7 @@ function addos( $name, $class, $url, $bold=false )
     echo "<div class='$class'>Get VLC for <a href='$url'><strong>$name</strong></a></div>";
 }
 ?>
+<a name="download" />
         <div class='tricolumn'>
             <h1>Download VLC</h1>
             <div class="onecolumn">

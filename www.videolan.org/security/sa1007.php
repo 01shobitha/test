@@ -23,7 +23,7 @@ an integer overflow might occur then trigger a heap-based buffer overflow.
 <p>If successful,
 it is unknown whether a malicious third party might be able
 to trigger execution of arbitrary code.
-Successful exploitation of this bug can crash the proces of the media player.
+Successful exploitation of this bug can crash the process of the media player.
 </p>
 <h2>Threat mitigation</h2>
 <p>Exploitation of this issue requires the user

@@ -90,8 +90,8 @@ function addos( $name, $class, $url, $bold=false )
     echo "<div class='$class'>Get VLC for <a href='$url'><strong>$name</strong></a></div>";
 }
 ?>
-<a name="download" />
         <div class='tricolumn'>
+            <a name="download" />
             <h1>Download VLC</h1>
             <div class="onecolumn">
                <h2>Windows</h2>

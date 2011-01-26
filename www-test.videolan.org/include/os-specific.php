@@ -1,37 +1,63 @@
 <?php
-    $is_win32 = "navigator.platform.indexOf(\"Win32\") != -1 ||".
-               " navigator.platform.indexOf(\"Win64\") != -1";
+$version = '1.1.6';
 
-    $is_ie = "navigator.userAgent.indexOf(\"MSIE\") != -1";
+$dlUrl = "http://sourceforge.net/projects/vlc/files/$version/win32/vlc-$version-win32.exe/download";
 
-    $is_beos = "navigator.platform.indexOf(\"BeOS\") != -1";
+function replaceDLinfos( )
+{
+    global $version;
+    echo "<script type='text/javascript'>\n";
 
-    $is_linux = "navigator.platform.indexOf(\"Linux\") != -1";
+    //Editable details for the client side OS appropriate download detection.
+    echo "var latestVersion  = '".$version."';";
+    echo "
+    var windowsDetails = {'name': 'Windows', 'size': '20&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$version/win32/vlc-$version-win32.exe/download'};
+    var osxDetails     = {'name': 'Mac OS X', 'size': '40&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$version/macosx/vlc-$version.dmg/download' };
+    var osxPPCDetails  = {'name': 'Mac OS X (PPC)', 'size': '24&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$version/macosx/vlc-$version-powerpc.dmg/download' };
+    var linuxDetails   = {'name': 'Linux', 'size': '', 'location': '/vlc/'};
+    var debianDetails  = {'name': 'Debian GNU/Linux', 'size': '', 'location': '/vlc/download-debian.html'};
+    var ubuntuDetails  = {'name': 'Ubuntu Linux', 'size': '', 'location': '/vlc/download-ubuntu.html'};
+    var fedoraDetails  = {'name': 'Fedora Linux', 'size': '', 'location': '/vlc/download-fedora.html'};
+    var redhatDetails  = {'name': 'RedHat Linux', 'size': '', 'location': '/vlc/download-redhat.html'};
+    var gentooDetails  = {'name': 'Gentoo Linux', 'size': '', 'location': '/vlc/download-gentoo.html'};
+    var suseDetails    = {'name': 'Suse Linux', 'size': '', 'location': '/vlc/download-suse.html'};
+    var mandrivaDetails  = {'name': 'Mandriva Linux', 'size': '', 'location': '/vlc/download-mandriva.html'};
+    var beosDetails  = {'name': 'BeOS', 'size': '', 'location': '/vlc/download-beos.html'};
+    var freebsdetails  = {'name': 'FreeBSD', 'size': '', 'location': '/vlc/download-freebsd.html'};
+    var iosdetails  = {'name': 'iOS 3.2+', 'size': '9&nbsp;MB', 'location': '/vlc/download-ios.html'};";
+?>
+    //Attempt to load the bright button gradient into cache for faster switching on mouse over (may not work on all browsers.)
+    var cache = new Image();
+    cache.src = '/style/images/downloadButtonGradientBright.png';
 
-    $is_ubuntu = "navigator.userAgent.indexOf(\"Ubuntu\") != -1 ||".
-         " navigator.userAgent.indexOf(\"ubuntu\") != -1 ";
-    $is_debian = "navigator.userAgent.indexOf(\"Debian\") != -1";
-    $is_mandriva = "navigator.userAgent.indexOf(\"Mandriva\") != -1";
-    $is_redhat = "navigator.userAgent.indexOf(\"Red Hat\") != -1";
-    $is_fedora = "navigator.userAgent.indexOf(\"Fedora\") != -1";
-    $is_suse = "navigator.userAgent.indexOf(\"SUSE\") != -1";
-    $is_gentoo = "navigator.userAgent.indexOf(\"gentoo\") != -1";
+    $(document).ready(function () {
+       var OS="windows"; //Default
 
-    $is_freebsd = " navigator.userAgent.indexOf(\"freebsd\") != -1 ".
-         "|| navigator.userAgent.indexOf(\"FreeBSD\") != -1" ;
+       if (navigator.appVersion.indexOf("Win")!=-1) OS="windows";
+       if (navigator.appVersion.indexOf("Mac")!=-1) OS="osx";
+       if (navigator.platform.indexOf("MacPPC")!= -1 || navigator.platform.indexOf("PowerPC") != -1 ) OS="osxPPC";
+       if (navigator.platform.indexOf("BeOS") !=-1) OS="beos";
+       if (navigator.platform.indexOf("Linux")!=-1) {
+            if((navigator.userAgent.indexOf("Ubuntu") != -1) ||
+                (navigator.userAgent.indexOf("ubuntu") != -1)) OS="ubuntu";
+            else if(navigator.userAgent.indexOf("Debian") != -1) OS="debian";
+            else if(navigator.userAgent.indexOf("Mandriva") != -1) OS="mandriva";
+            else if(navigator.userAgent.indexOf("Red Hat") != -1) OS="redhat";
+            else if(navigator.userAgent.indexOf("Fedora") != -1) OS="fedora";
+            else if(navigator.userAgent.indexOf("SUSE") != -1) OS="suse";
+            else if(navigator.userAgent.indexOf("Gentoo") != -1) OS="gentoo";
+            else OS="linux";
+       };
+       if (navigator.platform.indexOf("freebsd") != -1) OS="freebsd";
+       if (navigator.platform.indexOf("FreeBSD") != -1) OS="freebsd";
+       if (navigator.userAgent.indexOf("iPad") != -1  || navigator.userAgent.indexOf("iPhone") != -1 || navigator.userAgent.indexOf("iPod") != -1) OS ="ios";
 
-    $is_ios = "navigator.userAgent.indexOf(\"iPad\") != -1  ||" .
-          "navigator.userAgent.indexOf(\"iPhone\") != -1 ||" .
-          "navigator.userAgent.indexOf(\"iPod\") != -1";
-
-    $is_osx = "navigator.userAgent.indexOf(\"Mac OS X\") != -1 ||" .
-          "navigator.userAgent.indexOf(\"MSIE 5.2\") != -1 ||" .
-          "( navigator.userAgent.indexOf(\"Mac\")  &&" .
-              "  navigator.userAgent.indexOf(\"Opera\") )";
-
-    $is_ppc = "navigator.platform.indexOf(\"MacPPC\") != -1".
-        "|| navigator.platform.indexOf(\"PowerPC\") != -1";
-    $is_mactel = "navigator.platform.indexOf(\"Intel\") != -1";
+       $('#downloadDetails').html("Version " + latestVersion + " &nbsp;&#8226;&nbsp; " + eval(OS+"Details.name") + " &nbsp;&#8226;&nbsp; " + eval(OS+"Details.size"));
+       $('#downloadButton').attr('href',eval(OS+"Details.location"))
+    });
+    </script>
+<?php
+}
 
 function Screenshot( $os )
 {
@@ -48,36 +74,4 @@ function Screenshot( $os )
     echo $scr[$os][1]."\" />');";
 }
 
-function DoDL( $os, $with_js=1 )
-{
-    $dl = array();
-    $version = '1.1.6';
-    $dl["Win32"] = array("http://sourceforge.net/projects/vlc/files/$version/win32/vlc-$version-win32.exe/download", "Windows, 20&nbsp;MB" );
-    $dl["iOS"] = array( "/vlc/download-ios.html","iOS 3.2 or later, 9&nbsp;MB" );
-    $dl["OSX-Intel"] = array( "http://sourceforge.net/projects/vlc/files/$version/macosx/vlc-$version.dmg/download","Mac OS X 10.5 or later, 40&nbsp;MB" );
-    $dl["OSX-PPC"] = array("http://sourceforge.net/projects/vlc/files/$version/macosx/vlc-$version-powerpc.dmg/download", "Mac OS X 10.5 (PowerPC), 25&nbsp;MB" );
-    $dl["Linux"] =array("/vlc/", "Linux and other OSes" );
-    $dl["Debian"] = array( "/vlc/download-debian.html", "Debian GNU/Linux" );
-    $dl["Ubuntu"] = array( "/vlc/download-ubuntu.html", "Ubuntu Linux");
-    $dl["Fedora"] = array( "/vlc/download-fedora.html", "Fedora Linux");
-    $dl["RedHat"] = array( "/vlc/download-redhat.html", "RedHat Linux");
-    $dl["Mandriva"] = array( "/vlc/download-mandriva.html", "Mandriva Linux" );
-    $dl["Gentoo"] = array( "/vlc/download-gentoo.html", "Gentoo Linux" );
-    $dl["Suse"] = array ("/vlc/download-suse.html", "Suse Linux" );
-    $dl["BeOS"] =array ("/vlc/download-beos.html", "BeOS" );
-    $dl["FreeBSD" ] = array( "/vlc/download-freebsd.html", "FreeBSD" );
-
-    if( $with_js == 1 )
-    {
-        echo "document.writeln( '<div class=\"dl-button\"><a " ;
-        echo "href=\"".$dl[$os][0]."\">Download VLC ";
-        echo "</a></div><span class=\"dl-info\">".$dl[$os][1]."</span> ');\n";
-    }
-    else
-    {
-        echo "<div><div class=\"dl-button\"> <a " ;
-        echo "href=\"".$dl[$os][0]."\">Download VLC ".$version;
-        echo "</a></div><div class=\"dl-info\">".$dl[$os][1]."</div></div>\n";
-    }
-}
 ?>

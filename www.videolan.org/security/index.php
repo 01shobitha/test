@@ -29,14 +29,17 @@ pub   1024D/AC3E0879 2006-03-01
 </dl>
 
 <h1>Past security advisories</h1>
-<h2>2010</h2>
 
+<h2>2011</h2>
 <dl>
-<dt>VideoLAN-SA-1107 (CVE-2011-0021)</dt>
+<dt>VideoLAN-SA-1101 (CVE-2011-0021)</dt>
 <dd>Heap corruption in CDG codec.
  <a href="sa1101.html">Details</a>
 </dd>
+</dl>
 
+<h2>2010</h2>
+<dl>
 <dt>VideoLAN-SA-1007 (CVE-2010-3907)</dt>
 <dd>Buffer overflow in Real Media demuxer.
  <a href="sa1007.html">Details</a>

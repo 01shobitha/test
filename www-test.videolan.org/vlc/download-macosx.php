@@ -51,41 +51,21 @@ $vlc_version_intel = "1.1.6";
 <div class="clearme"> </div>
 <h2>Latest Web browser plugins for 10.5 and later (release <?php echo $vlc_version; ?>)</h2>
 
-<?php pkgitem( "Web Browser plugin for Intel-based Macs",
-               "$vlc_version/macosx","vlc-plugin-$vlc_version-intel.dmg","vlc"); ?>
+<?php pkgitem_sf( "Web plugin for Intel Mac",
+               "$vlc_version/macosx","vlc-plugin-$vlc_version-intel.dmg","vlc", "dmg package"); ?>
 
-<?php pkgitem( "Web Browser plugin for PowerPC-based Macs",
-               "$vlc_version/macosx","vlc-plugin-$vlc_version-powerpc.dmg","vlc"); ?>
+<?php pkgitem_sf( "Web plugin for PowerPC Mac",
+               "$vlc_version/macosx","vlc-plugin-$vlc_version-powerpc.dmg","vlc", "dmg package"); ?>
 
 <h2>Latest Mac OS X package for 10.4 (release 0.9.10)</h2>
-<p><b>We strongly recommend to use Mac OS X 10.4.7 or later.</b></p>
+<p><b>Mac OS X 10.4.7</b> or later, is <b>required</b>.</p>
 <?php $vlc_version = "0.9.10"; ?>
-<?php pkgitem( "Universal Binary",
-               "$vlc_version/macosx","vlc-$vlc_version.dmg","vlc"); ?>
-
-<h2>Web browser plugins for 10.3.9 and 10.4 (release 0.8.6i)</h2>
-<ul>
-<li>
-<?php $nosource = true; ?>
-<?php pkgitem_nomirr( "Web Browser plugin for Intel",
-               "0.8.6i/macosx","vlc-plugin-0.8.6i-intel.dmg","vlc"); ?>
-<?php pkgitem_nomirr( "Web Browser plugin for PowerPC",
-               "0.8.6i/macosx","vlc-plugin-0.8.6i-powerpc.dmg","vlc"); ?>
-</li>
-</ul>
-
-<h2>Last Mac OS X package for 10.3 (release 0.8.6i)</h2>
-<p><b>Requires QuickTime 7 or later</b></p>
-<ul>
-<li>
-<?php $nosource = true; ?>
-<?php pkgitem_nomirr( "Last Mac OS X package for 10.3 PowerPC (release 0.8.6i)", "0.8.6i/macosx","vlc-0.8.6i-powerpc.dmg","vlc"); ?>
-</li>
-</ul>
+<?php pkgitem_sf( "Universal Binary, 0.9.10",
+               "$vlc_version/macosx","vlc-$vlc_version.dmg","vlc", "dmg package"); ?>
 
 <h2>Older versions</h2>
-<p>Use VLC 0.8.4a for 10.2.</p>
 <p>Use 0.8.6i for 10.3.</p>
+<p>Use VLC 0.8.4a for 10.2.</p>
 <p>Use 0.7.0 for 10.1.</p>
 
 <?php browse_old( "vlc" ); ?>
@@ -101,13 +81,6 @@ $vlc_version_intel = "1.1.6";
   <code>.dmg</code> file, open it, and copy VLC to your hard drive
   (for instance the <code>/Applications</code> folder). Open VLC by
   double-clicking on it. </p>
-  <?php panel_end(); ?>
-
-  <?php panel_start( "gray" ); ?>
-  <h1>Platform specific packages</h1>
-  <p>These packages are provided to save download time and more importantly disk space. Installed, each of these is half as big as the Universal Binary. If you are unsure about your Mac's architecture, <a href="http://support.apple.com/kb/HT1531">click here</a>.</p>
-  <br />
-  <p><strong>Note:</strong> There is not, and there will never be, a version for Mac&nbsp;OS&nbsp;9.</p>
   <?php panel_end(); ?>
 
   <h2>Source code</h2>

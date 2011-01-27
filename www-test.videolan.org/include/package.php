@@ -15,21 +15,23 @@ function browse_old( $fold )
 
 function pkgversion($name,$version)
 {
-  $latest = array("vlc" => "1.1.6");
+    $latest = array("vlc" => "1.1.6");
 
-  if (!$latest[$name])
-    return;
-  /* Not quite a version comparison. It works as long as we have < 10 numbers.
-   * FIXME */
-  if (strcmp($version, $latest[$name]) >= 0)
-    return;
-?><p> <strong>Warning:</strong>
-  The following package is outdated, you may encounter important bugs or security holes.<br />
-<?php global $nosource; if( !$nosource ) { ?>
-  You may want to <a href="./download-sources.html">download source code</a> and compile the software yourself.
-<?php } ?>
-</p><?
-} 
+    if (!$latest[$name])
+        return;
+    /* Not quite a version comparison. It works as long as we have < 10 numbers.
+     * FIXME */
+    if (strcmp($version, $latest[$name]) >= 0)
+        return;
+
+    echo "<p> <strong>Warning:</strong>
+        The following package is outdated, you may encounter important bugs or security holes.<br />";
+    global $nosource;
+    if( !$nosource ) {
+        echo "You may want to <a href='/vlc/download-sources.html'>download source code</a> and compile the software yourself.";
+    }
+    echo "</p>";
+}
 
 function pkgitem_nomirr($description,$version,$name,$top,$extradescription="")
 {

@@ -33,7 +33,7 @@ $vlc_version_ppc = "1.1.6";
 $vlc_version_intel = "1.1.6";
 ?>
 
-<h2>Latest version for 10.5 and later</h2>
+<h1>Latest version for 10.5 and later</h1>
 
 <?php
     pkgitem_sf( "32/64 bits Intel Mac, 1.1.6",
@@ -49,12 +49,13 @@ $vlc_version_intel = "1.1.6";
 
 
 <div class="clearme"> </div>
-<h2>Web browser plugins for 10.5 and later (release <?php echo $vlc_version; ?>)</h2>
+<h1>Web browser plugins for 10.5 and later (release <?php echo $vlc_version; ?>)</h1>
 
 <?php pkgitem_sf( "Web plugin for Intel Mac",
-               "$vlc_version/macosx","vlc-plugin-$vlc_version-intel.dmg","vlc", "dmg package"); ?>
+               "$vlc_version/macosx","vlc-plugin-$vlc_version-intel.dmg","vlc", "dmg package");
 
-<?php pkgitem_sf( "Web plugin for PowerPC Mac",
+    echo '<div class="clearme"> </div>';
+    pkgitem_sf( "Web plugin for PowerPC Mac",
                "$vlc_version/macosx","vlc-plugin-$vlc_version-powerpc.dmg","vlc", "dmg package"); ?>
 
 <div class="clearme"> </div>
@@ -71,21 +72,8 @@ $vlc_version_intel = "1.1.6";
 <p>Use 0.7.0 for 10.1.</p>
 
 <?php browse_old( "vlc" ); ?>
-</div>
 
-<div id="right">
-
-
-  <?php panel_start( "orange" ); ?>
-  <h1>How to install</h1>
-
-  <p> VLC for Mac OS X is distributed as a disk image. Download the
-  <code>.dmg</code> file, open it, and copy VLC to your hard drive
-  (for instance the <code>/Applications</code> folder). Open VLC by
-  double-clicking on it. </p>
-  <?php panel_end(); ?>
-
-  <h2>Source code</h2>
+  <h1>Source code</h1>
 
   <p>If you want, you can download the <a href="download-sources.html">
   source code</a> of VLC media player.</p>

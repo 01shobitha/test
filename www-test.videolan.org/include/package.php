@@ -24,15 +24,9 @@ function pkgversion($name,$version)
   if (strcmp($version, $latest[$name]) >= 0)
     return;
 ?><p> <strong>Warning:</strong>
-  The following package is not up-to-date with the latest official version
-  of the software.
-  When using an out-of-date version, you may encounter important bugs
-  or security holes.
+  The following package is outdated, you may encounter important bugs or security holes.<br />
 <?php global $nosource; if( !$nosource ) { ?>
-  If you wish to use the latest version of the software,
-  you may need to <a href="./download-sources.html">download source code</a>
-  and compile the software manually,
-  or wait for someone else to do it.
+  You may want to <a href="./download-sources.html">download source code</a> and compile the software yourself.
 <?php } ?>
 </p><?
 } 

@@ -49,7 +49,7 @@ $vlc_version_intel = "1.1.6";
 
 
 <div class="clearme"> </div>
-<h2>Latest Web browser plugins for 10.5 and later (release <?php echo $vlc_version; ?>)</h2>
+<h2>Web browser plugins for 10.5 and later (release <?php echo $vlc_version; ?>)</h2>
 
 <?php pkgitem_sf( "Web plugin for Intel Mac",
                "$vlc_version/macosx","vlc-plugin-$vlc_version-intel.dmg","vlc", "dmg package"); ?>
@@ -57,12 +57,14 @@ $vlc_version_intel = "1.1.6";
 <?php pkgitem_sf( "Web plugin for PowerPC Mac",
                "$vlc_version/macosx","vlc-plugin-$vlc_version-powerpc.dmg","vlc", "dmg package"); ?>
 
+<div class="clearme"> </div>
 <h2>Latest Mac OS X package for 10.4 (release 0.9.10)</h2>
 <p><b>Mac OS X 10.4.7</b> or later, is <b>required</b>.</p>
 <?php $vlc_version = "0.9.10"; ?>
 <?php pkgitem_sf( "Universal Binary, 0.9.10",
                "$vlc_version/macosx","vlc-$vlc_version.dmg","vlc", "dmg package"); ?>
 
+<div class="clearme"> </div>
 <h2>Older versions</h2>
 <p>Use 0.8.6i for 10.3.</p>
 <p>Use VLC 0.8.4a for 10.2.</p>

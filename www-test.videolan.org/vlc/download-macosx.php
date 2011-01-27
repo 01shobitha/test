@@ -63,12 +63,6 @@ $vlc_version_intel = "1.1.6";
 <?php pkgitem( "Universal Binary",
                "$vlc_version/macosx","vlc-$vlc_version.dmg","vlc"); ?>
 
-<?php pkgitem( "Package for Intel-based Macs",
-               "$vlc_version/macosx","vlc-$vlc_version-intel.dmg","vlc"); ?>
-
-<?php pkgitem( "Package for PowerPC-based Macs",
-               "$vlc_version/macosx","vlc-$vlc_version-powerpc.dmg","vlc"); ?>
-
 <h2>Web browser plugins for 10.3.9 and 10.4 (release 0.8.6i)</h2>
 <ul>
 <li>

@@ -1,12 +1,11 @@
-<?php echo "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n"; ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-<!-- Location based randomisation -->
-<!--
 <?php
 
 $mirror_url = $_GET["mirror"];
 $file = $_GET["file"];
+
+
+   $title = "Downloading ".$file." !";
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
 if( !isset( $file ) ) { die; }
 if( strchr( $file, '<' ) or strchr( $file, '%' ) or strchr( $file, '>' ) ) die();
@@ -65,7 +64,7 @@ if( !isset( $mirror_url ) )
   if( $ccount >= $threshold ) $Cweight = 0;
   if( $Ccount >= $threshold ) $tweight = 0;
 
-  $dbw = $cweight * $cbw + $Cweight * ( $Cbw - $cbw ) + $tweight * ( $tbw - $cbw - $Cbw ); /* Weight adjusted bandwidth */ 
+  $dbw = $cweight * $cbw + $Cweight * ( $Cbw - $cbw ) + $tweight * ( $tbw - $cbw - $Cbw ); /* Weight adjusted bandwidth */
 
   foreach( $mirrors as $mirror )
   {
@@ -110,44 +109,36 @@ else
   $country = "N/A";
 }
 ?>
--->
 
 <!-- Web page -->
 
- <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>VideoLAN - Download from mirror</title>
-  <meta http-equiv="refresh" content="0; url=<?php echo $mirror_url.$file ?>" />
- </head>
- <body>
   <p>Downloading from <?php echo $mirror_name; ?>, <?php echo $country; ?>. Click <a href="<?php echo $mirror_url.$file ?>">here</a> if your download doesn't start. Refresh the page to download from another mirror.</p>
   <p>If you want to put a direct download link on your website, please use <?php echo "http://www.videolan.org/mirror-geo.php?file=$file"; ?> .<br />Please don't use a direct link. This script allows us to distribute the network load across our mirrors. Thanks. </p>
- </body>
-</html>
 
 <!-- Stats -->
 
 <?php
     if( $mirror_url == "http://downloads.videolan.org/pub/videolan/" )
     {
-	exit;
+       exit;
     }
 
     require '/home/videolan/etc/db.php';
     $connect = pg_connect( $connect_string );
-  
+
     if( !$connect )
    {
-	die;
+       die;
     }
 $mirror_url = pg_escape_string($mirror_url);
 $file = pg_escape_string($file);
-    
-    if( pg_affected_rows(pg_query($connect, "UPDATE mirrors SET number=number+1 WHERE address='$mirror_url' AND file='$file' AND date=current_date")) == 0 ) 
+
+    if( pg_affected_rows(pg_query($connect, "UPDATE mirrors SET number=number+1 WHERE address='$mirror_url' AND file='$file' AND date=current_date")) == 0 )
     {
-	pg_query($connect, "INSERT INTO mirrors (address, file, number,date)".
-	                    "VALUES ('" . $mirror_url . "', '" . $file . "', 1,".
-			    "current_date)");
+       pg_query($connect, "INSERT INTO mirrors (address, file, number,date)".
+                           "VALUES ('" . $mirror_url . "', '" . $file . "', 1,".
+                         "current_date)");
     }
     pg_close($connect);
-?>
+
+    footer(); ?>

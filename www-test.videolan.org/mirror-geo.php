@@ -7,7 +7,7 @@ $file = $_GET["file"];
    $title = "Downloading ".$file." !";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
-if( !isset( $file ) ) { die; }
+if( !isset( $file ) ) { footer(); die; }
 if( strchr( $file, '<' ) or strchr( $file, '%' ) or strchr( $file, '>' ) ) die();
 
 if( !isset( $mirror_url ) )

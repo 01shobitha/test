@@ -3,9 +3,8 @@
 $mirror_url = $_GET["mirror"];
 $file = $_GET["file"];
 
-
-   $title = "Downloading ".$file." !";
-   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
+$title = "Downloading ".$file." !";
+require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
 if( !isset( $file ) ) { footer(); die; }
 if( strchr( $file, '<' ) or strchr( $file, '%' ) or strchr( $file, '>' ) ) die();
@@ -53,14 +52,14 @@ if( !isset( $mirror_url ) )
   }
 
   $r = rand(0,1000000)/1000000.; /* Random value between 0 and 1 used to choose
-                                  * the mirror. */
+    * the mirror. */
 
   $cweight = 50; /* Weight used for mirrors in the same country */
   $Cweight = 10; /* Weight used for mirrors in the same continent */
   $tweight = 1;  /* Weight used for other mirrors */
 
   $threshold = 4; /* Number of mirrors needed in a given country or continent
-                   * before we discard all the other mirrors */
+    * before we discard all the other mirrors */
   if( $ccount >= $threshold ) $Cweight = 0;
   if( $Ccount >= $threshold ) $tweight = 0;
 
@@ -142,3 +141,4 @@ $file = pg_escape_string($file);
     pg_close($connect);
 
     footer(); ?>
+

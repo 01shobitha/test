@@ -70,6 +70,7 @@ RewriteRule ^vlc/download-linux.html$ /vlc/index.html [R=permanent,L]
 RewriteRule ^vlc/download-source.html$ /vlc/download-sources.html [R=permanent,L]
 Redirect /vlc/download-mandrake.html http://www.videolan.org/vlc/download-mandriva.php
 RewriteRule ^vlc/partners.html /videolan/partners.html [R=permanent,L]
+RewriteRule ^vlc/eyetv(.*)$ /vlc/download-eyetv.html [R=permanent,L]
 
 # Features
 #RewriteRule ^vlc/features(.*)$ http://wiki.videolan.org/VLCFeatures [R=permanent,L]

@@ -52,7 +52,7 @@ from the official VLC source code repositories.
 <dd><a href="http://www.videolan.org/">http://www.videolan.org/</a>
 </dd>
 <dt>VLC official GIT repository</dt>
-<dd><a href="http://git.videolan.org/?p=vlc.git;a=commitdiff;h=6568965770f906d34d4aef83237842a5376adb55;hp=403718957b551c3c27546b7f82b2ae9ba937652f">http://git.videolan.org/?p=vlc.git;a=commitdiff;h=6568965770f906d34d4aef83237842a5376adb55;hp=403718957b551c3c27546b7f82b2ae9ba937652f</a>
+<dd><a href="http://git.videolan.org/?p=vlc.git;a=commit;h=f9b664eac0e1a7bceed9d7b5854fd9fc351b4aab">http://git.videolan.org/?p=vlc.git;a=commit;h=f9b664eac0e1a7bceed9d7b5854fd9fc351b4aab</a>
 </dd>
 <dt>Dan Rosenberg, VSR</dt>
 <dd><a href="http://www.vsecurity.com/"

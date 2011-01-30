@@ -405,12 +405,11 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 
 .downloadText
 {
-    font-family: 'League Gothic', serif;
-	font-size: 28px;
-	line-height: 27px;
-    letter-spacing: -0.045em;
-	padding-bottom: 8px;
-    font-weight: 700;
+    font-family: 'League Gothic', sans-serif;
+	font-size: 40px;
+	line-height: 32px;
+    letter-spacing: 0.03em;
+	padding-bottom: 6px;
     display: block;
 }
 

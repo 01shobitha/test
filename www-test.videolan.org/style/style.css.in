@@ -425,8 +425,9 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 	padding: 15px;
 	background-color: black;
 	color: white;
-    font-family: 'League Gothic', serif;
-    font-size: 20px;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 26px;
+    letter-spacing: 0.03em;
 	-moz-border-radius: 12px;
 	-webkit-border-radius: 12px;
 	border-radius: 12px;

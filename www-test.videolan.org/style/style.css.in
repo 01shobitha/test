@@ -49,7 +49,12 @@ ul, li
 	list-style-type: none;
 }
 
-
+@font-face {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 100;
+    src: local("Raleway Thin"), local("Raleway-Thin"), url("http://themes.googleusercontent.com/font?kit=RJMlAoFXXQEzZoMSUteGWKCWcynf_cDxXwCLxiixG1c") format("truetype");
+}
 /* =============================== TOP LEVEL STYLES ============================== */
 
 body

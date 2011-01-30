@@ -55,6 +55,12 @@ ul, li
     font-weight: 100;
     src: local("Raleway Thin"), local("Raleway-Thin"), url("http://themes.googleusercontent.com/font?kit=RJMlAoFXXQEzZoMSUteGWKCWcynf_cDxXwCLxiixG1c") format("truetype");
 }
+
+@font-face {
+    font-family: "League Gothic";
+    font-style: normal;
+    src: local( "League Gothic"), url('/style/LeagueGothic.otf') format("opentype");
+}
 /* =============================== TOP LEVEL STYLES ============================== */
 
 body
@@ -399,7 +405,7 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 
 .downloadText
 {
-    font-family: 'Nobile', serif;
+    font-family: 'League Gothic', serif;
 	font-size: 28px;
 	line-height: 27px;
     letter-spacing: -0.045em;
@@ -420,7 +426,7 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 	padding: 15px;
 	background-color: black;
 	color: white;
-    font-family: 'Nobile', serif;
+    font-family: 'League Gothic', serif;
     font-size: 20px;
 	-moz-border-radius: 12px;
 	-webkit-border-radius: 12px;

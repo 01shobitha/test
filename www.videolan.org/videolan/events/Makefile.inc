@@ -1,1 +1,1 @@
-SUBDIRS = 10y
+SUBDIR = 10y

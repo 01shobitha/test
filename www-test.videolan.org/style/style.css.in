@@ -132,12 +132,13 @@ dt {
 }
 dd { margin-bottom: 6px; }
 
-/*Give this class to links that you don't want to underline on hover */
+/* Class for links with no underline on hover */
 .noUnderline:hover
 {
 	text-decoration: none;
 }
 
+/* Class for clearing everything above */
 .clearme { clear:both; }
 
 ul.bullets { padding-left: 2.5em; margin-bottom: 1em; }
@@ -266,6 +267,7 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 	background-color: white;
 	border: 1px solid #F1F1F1;
 	float: left;
+    margin-bottom: 40px;
 }
 
 #linkBar .link

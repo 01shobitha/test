@@ -1,7 +1,5 @@
 <?php
-   $title = "VLC media player for Ubuntu Linux";
-   $lang = "en";
-   $menu = array( "vlc", "download" );
+   $title = "VLC media player for Ubuntu";
    $additional_css = array("/panels.css");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>

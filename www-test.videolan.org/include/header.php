@@ -178,7 +178,7 @@ function draw_menus()
       <a href='/developers/'>Dev' Zone</a>
    </div>
 </div>
-<div style="clear: both; margin-bottom: 40px;"></div>
+<div class="clearme"></div>
 <?php
 }
 

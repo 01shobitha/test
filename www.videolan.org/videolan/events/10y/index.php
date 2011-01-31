@@ -6,11 +6,15 @@
 ?>
 
 <h1>10 years of Open Source</h1>
+<h2>Welcome to the Celebration of the 10 years</h2>
+<p>We are here to celebrate the 10 years of the open sourcing of VLC.</p>
+
 <div id="left">
-<h2> Welcome </h2>
+<h2>Day 1: a history</h2>
 </div>
 <div id="right">
 <?php panel_start( "green" ); ?>
+<h1>Day 1</h1>
 <?php panel_end(); ?>
 
 </div>

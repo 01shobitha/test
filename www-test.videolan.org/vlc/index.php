@@ -1,6 +1,5 @@
 <?php
    $title = "VLC media player, Open Source video framework for every OS!";
-   $lang = "en";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
 ?>
@@ -16,7 +15,7 @@
                 </div>
                 <a class='extraInfoLink' href='/vlc/features.html'>Features</a>
                 <a class='extraInfoLink' href='/vlc/screenshots.html'>Screenshots</a>
-                <a class='extraInfoLink' href='/vlc/extensions/'>Extensions</a>
+                <a class='extraInfoLink' href='http://addons.videolan.org/'>Extensions</a>
                 <a id='downloadButton' href='<?php echo $dlUrl; ?>'>
                     <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
                     <span class='downloadText'>Download VLC</span>

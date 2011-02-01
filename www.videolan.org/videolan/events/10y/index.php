@@ -49,13 +49,20 @@ indeed is from <b>1998</b>.</p>
 <h2>Since 2001</h2>
 <p>Afterward, the project has went on, with <b>students</b> and then <b>volunteers</b> from around the world.</p>
 <p>The project, has, of course, left the university and is a backed-up by a <b>volunteer non-profit organisation</b>.</p>
-<p>Today, VLC averages 24 million downloads per month (including two-third of updates) and the user-base is counted in dizains of million.</p>
+<p>Today, VLC averages 24 million downloads per month (including two-third of updates) and the user-base is counted in tens of million.</p>
 
 <h2>Support us</h2>
 <p>Since all the work on <a href="/vlc/">VLC</a> and other <a href="/projects">videolan projects</a> is done by <b>volunteers</b>
 in their <b>free time</b>, we welcome donations to help us manage the software.</p>
 <p><b>Donate <a href="/contribute.html">now!</a></b></p>
+
+<h3>Share</h3>
+<a href="http://digg.com/news/technology/videolan_10_years_of_open_source">Digg</a>
+<a href="http://www.facebook.com/vlc.media.player">Facebook</a>
+<a href="http://news.ycombinator.com/item?id=2165356">Hacker News</a>
+<a href="http://twitter.com/videolan">Twitter</a>
 </div>
+
 
 <div id="right">
 <?php panel_start( "grey" ); ?>

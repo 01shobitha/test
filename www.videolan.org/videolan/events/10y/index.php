@@ -10,6 +10,7 @@
 <p>We are here to celebrate the 10 years of the open sourcing of VideoLAN and VLC.</p>
 <p>10 days of surprises, ideas and stories will pop up here.</p>
 
+<img src="/images/10cones_small.png" alt="10 cones" />
 <div id="left">
 <h2>Day 1: a history</h2>
 </div>

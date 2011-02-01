@@ -9,7 +9,7 @@
 <h2>Welcome to the pages for the Celebration of our 10 years of open source</h2>
 <p>We are here to celebrate the 10 years of the open sourcing of VideoLAN and VLC.</p>
 <p><b>10 days</b> of surprises, ideas and stories will pop up here.</p>
-<img src="/images/10years.png" alt="10 cones" />
+<img src="http://images1.videolan.org/images/10years.jpg" alt="10 cones" />
 
 <br />
 <br />

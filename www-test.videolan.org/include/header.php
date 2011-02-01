@@ -179,7 +179,7 @@ function draw_menus()
    </div>
 </div>
 <div class="clearme"></div>
-<a href="/videolan/events/10y/"><img alt="10 cones" src="http://images1.videolan.org/images/10years.jpg" style="border: 2px solid rgb(61, 61, 61); margin-bottom: 18px;"></a>
+<a href="/videolan/events/10y/"><img alt="10 cones" src="http://images1.videolan.org/images/10years.jpg" style="border: 2px solid rgb(61, 61, 61); margin-bottom: 18px; height='120px'"></a>
 
 <?php
 }

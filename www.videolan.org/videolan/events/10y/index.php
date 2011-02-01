@@ -54,10 +54,10 @@ indeed is from <b>1998</b>.</p>
 <p>Afterward, the project has went on, with <b>students</b> and then <b>volunteers</b> from around the world.</p>
 <p>The project, has, of course, left the university and is a backed-up by a <b>volunteer non-profit organisation</b>.</p>
 
-<h3>Support us</h3>
+<h2>Support us</h2>
 <p>Since all the work on <a href="/vlc/">VLC</a> and other <a href="/projects">videolan projects</a> is done by <b>volunteers</b>
 in their <b>free time</b>, we welcome donations to help us manage the software.</p>
-<p>Donate <a href="/contribute.html">now!</a></p>
+<p><b>Donate <a href="/contribute.html">now!</a></b></p>
 </div>
 
 <div id="right">

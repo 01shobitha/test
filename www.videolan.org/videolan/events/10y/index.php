@@ -1,5 +1,5 @@
 <?php
-   $title = "VideoLAN 10years";
+   $title = "10 years of open source";
    $lang = "en";
    $menu = array( "project", "events" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
@@ -11,7 +11,6 @@
 <p><b>10 days</b> of surprises, ideas and stories will pop up here.</p>
 <img src="/images/10cones_small.png" alt="10 cones" />
 
-<br />
 <br />
 <br />
 <br />
@@ -42,13 +41,13 @@ at the condition that they could justify the need for a new network...</p>
 <p>And they restarted the project from scratch, in <b>1998</b>.<br />
 <p>But in the mind of <a href="http://www.opensource.org/">open source</a> and modularity.</p>
 <p>This is when the <a href="/vlc/">VLC media player</a> that you know of, was <i>born</i>.<br />
-If you look at the first commit of the repository, in August 1999, you'll see that the most copyright
+If you look at the <em>first commit</em> of the repository, in <b>August 1999</b>, you'll see that the most copyright
 indeed is from <b>1998</b>.</p>
 
 <h3>2001: Open Source</h3>
 <p>As <a href="/">VideoLAN</a> was a student project, the university had moral rights on the software produced.</p>
-<p>Thanks to the <b>students</b> and Professor <a href="http://fr.linkedin.com/pub/jean-philippe-rey/16/b19/95a">Jean-Philippe Rey
-</a>, the direction of the university allowed the switch of all code produced to GPL.</p>
+<p>Thanks to the <b>students</b> and Professor <a href="http://fr.linkedin.com/pub/jean-philippe-rey/16/b19/95a">Jean-Philippe Rey</a>,
+ the direction of the university allowed the switch of all code produced to GPL.</p>
 <p>The letter from Mr. Gourisse was signed on February 1<sup>st</sup>, <b>2001</b>.</p>
 
 <h2>Since 2001</h2>

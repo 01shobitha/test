@@ -241,4 +241,5 @@ StartHtml( preg_replace( "/<[^>]*>/", "" , $title ), $additional_css, $additiona
    </div>
 </div>
 
+<a href="/videolan/events/10y/"><img alt="10 cones" src="http://images1.videolan.org/images/10years.jpg" style="border: 2px solid #3d3d3d; margin-bottom: 18px;"></a>
 <div id="maincontent" onmouseover="showSubMenu('<?php echo $menu[0];?>')">

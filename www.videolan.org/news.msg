@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|1 February 2011|10 years of open source for VideoLAN|The VideoLAN project and organization are proud to celebrate with the community the <b>10<sup>th</sup> anniversary of open sourcing of all VideoLAN software, that happened exactly 10 years ago.</p><p>To celebrate, small infos, stories and goodies will be posted in the next ten days on <a href="/videolan/events/10y/">this site</a>.<br /><a href="/videolan/events/10y/">Day 1</a> speaks about the <a href="/videolan/events/10y/">early history of the project</a><br />Please <b>join</b> the celebration!
+
 |23 January 2011|VLC 1.1.6|VideoLAN and the VLC development team are proud to present VLC 1.1.6, the sixth bugfix release of the VLC 1.1.x branch.<br />Small new features, many bugfixes, updated translations and <a href="/security/sa1007.html">security issues</a> are making this release. Notable improvements include codecs, demuxers, Audio-CD support, subtitles, visualization and platform integration.<br />Source and Windows and MacOSX builds are available.<br />See the <a href="/vlc/releases/1.1.6.html">release notes</a> for more information.<br />
 <b>NB:</b> The first versions for Intel-based Macs (64bit and Universal Binary) included a rtsp streaming bug, which also hindered access to the Freebox. Please re-download.
 

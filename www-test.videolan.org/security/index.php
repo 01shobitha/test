@@ -28,6 +28,11 @@ pub   1024D/AC3E0879 2006-03-01
 
 <h2>2011</h2>
 <dl>
+<dt>VideoLAN-SA-1102 (?)</dt>
+<dd>Insufficient input validation in MKV demuxer.
+ <a href="sa1102.html">Details</a>
+</dd>
+
 <dt>VideoLAN-SA-1101 (CVE-2011-0021)</dt>
 <dd>Heap corruption in CDG codec.
  <a href="sa1101.html">Details</a>

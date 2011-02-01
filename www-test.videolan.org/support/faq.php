@@ -8,6 +8,7 @@
 
 <div id="left">
 
+<h1>FAQ</h1>
 <p>Permission is granted to copy, distribute and/or modify this document
 under the terms of the GNU General Public License
 as published by the Free Software Foundation;
@@ -20,43 +21,40 @@ The text of the license can be found on
 
 <h2>What is VideoLAN? What is the VideoLAN Team?</h2>
 
-<p>VideoLAN is a group of people, the VideoLAN Team,
-that produces free and open source software for video and multimedia purpose,
-released under the GNU General Public License.
-</p>
+<p>VideoLAN is a group of people, that produces and distributes
+free and open source software for video and multimedia purpose,
+released under Open Source licenses.</p>
 
 <p>It started as a student project at the French École Centrale Paris
-but is now a worldwide project with developers from 20 countries
-and millions of people using VideoLAN's software.
-</p>
+but is now a worldwide project with developers from everywhere
+and dozens of millions of people using VideoLAN's software.</p>
 
 <h2>What is the legal structure of VideoLAN?</h2>
+<p>VideoLAN is a French non-profit organization.<br />
+VideoLAN has its own bank account and is fully responsible of this website.</p>
 
-<p>The &quot;Club VideoLAN&quot; is a project of the association Centrale Réseaux,
-which is a French non-profit organization based at the École Centrale Paris.
-VideoLAN has its own bank account
-and is responsible of its finance in front of the board of Centrale Réseaux.
-</p>
-
-<h2>What is the differences between VLC, VLC media player, VideoLAN Client, VideoLAN Server and VideoLAN?</h2>
+<h2>What are the differences between VLC, VLC media player, VideoLAN Client, VideoLAN Server and VideoLAN?</h2>
 <p><b>VLC</b> is the official name of VideoLAN's main product, often named VLC.
-VideoLAN Client is an ancient name of this product.
-</p>
+VideoLAN Client is an ancient name of this product.</p>
 
-<p>VideoLAN Server is another product of VideoLAN, but is discontinued since {{VLC}} can do more.
-</p>
+<p>VideoLAN Server is another product of VideoLAN, but is discontinued since a long time.</p>
 
-<p>VideoLAN is <strong>not</strong> a software, see 1.1 of this FAQ.
-</p>
+<p>VideoLAN is <strong>not</strong> a software, see 1.1 of this FAQ.</p>
 
-<h2>How may I help VideoLAN?</h2>
+<h2>How can I contribute to VideoLAN?</h2>
 <p>You might either contribute time, material, or money. You <strong>don't need</strong> to be a programmer to help us.
-We are also always needing some translators.
+We are also always needing some translators and designers.<br />
 You will find all information you need on the
-<a href="http://www.videolan.org/contribute.html">contribution page</a>.
-</p>
+<a href="/contribute.html">contribution page</a>.</p>
 
-<hr />
+<h2>Why are your mailing-lists and your website in english?</h2>
+<p>VideoLAN's developers come from all around the world and english is the only language they can use to communicate together.
+ Although great care is given to the translation of VLC in various languages, maintaining translations of our website costs too much more time than we can afford.</p>
+
+<h2>What to do if I can't find an answer to my question here?</h2>
+<p>Read the other section of the <a href="/support/">Support center</a> </p>
+
+
 <h1>VLC media player</h1>
 
 <h2>Does VLC support DVDs from all regions?</h2>
@@ -238,26 +236,6 @@ In september 2002, some VLC developers had the idea of taking advantage of the m
 
 <p>But what is more important is that VLS and VLC developers were separate groups of people, and that they were free to write the software they prefer!
 That is how free software runs, and it has shown in the past that is was a good engine for innovation and enhancement.</p>
-
-<hr />
-<h1>Miscellaneous</h1>
-
-<h2>Why are your mailing-lists and your website in english?</h2>
-<p>VideoLAN's developers come from all around the world and english is the only language they can use to communicate together. Although great care is given to the translation of VLC in various languages, maintaining translations of our website costs too much more time than we can afford.</p>
-
-<h2>What to do if I can't find an answer to my question here?</h2>
-<p>Have a look at the <a href="http://wiki.videolan.org/">Wiki</a>.
-There is another FAQ, which answers more questions on using and compiling the VideoLAN applications.
-Technical terms on streaming and multimedia are discussed too.</p>
-
-<p>Search the <a href="http://forum.videolan.org/">forums</a> for your question.
-There are many solutions to problems on using our programs.</p>
-
-<p>If your question still was not answered, post it on the forums
-or mail an appropriate <a href="http://www.videolan.org/support/lists.html">mailing-list</a>.
-More informations on support provided by the project
-or consulting companies can be found on the <a href="http://www.videolan.org/support/">support page</a>.
-</p>
 
 </div>
 <?php footer('$Id$'); ?>

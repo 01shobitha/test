@@ -9,10 +9,6 @@
 <h2>Welcome to the pages for the Celebration of our 10 years of open source</h2>
 <p>We are here to celebrate the 10 years of the open sourcing of VideoLAN and VLC.</p>
 <p><b>10 days</b> of surprises, ideas and stories will pop up here.</p>
-<img src="http://images1.videolan.org/images/10years.jpg" alt="10 cones" />
-
-<br />
-<br />
 <br />
 <br />
 
@@ -34,7 +30,7 @@ VIA Centrale Réseaux</a>.</p>
 at the condition that they could justify the need for a new network...</p>
 <p>Therefore, they decided to push <b>Video</b> on the network...<br />
 <p>Remember, this is <b>1996</b>, were your average Pentium couldn't decode a DVD and when Youtube and Google didn't exist...</p>
-<p>This <b>student project</b> was a success in early 1998, and a new network came.</p>
+<p>This <b>student project</b> achieved his goals in early 1998, and a new network came.</p>
 
 <h3>1998: Second VideoLAN project</h3>
 <p>As it was successful, it was decided to go on the project.</p>
@@ -48,11 +44,12 @@ indeed is from <b>1998</b>.</p>
 <p>As <a href="/">VideoLAN</a> was a student project, the university had moral rights on the software produced.</p>
 <p>Thanks to the <b>students</b> and Professor <a href="http://fr.linkedin.com/pub/jean-philippe-rey/16/b19/95a">Jean-Philippe Rey</a>,
  the direction of the university allowed the switch of all code produced to GPL.</p>
-<p>The letter from Mr. Gourisse was signed on February 1<sup>st</sup>, <b>2001</b>.</p>
+<p>The <a href="http://images.videolan.org/images/paper.jpeg">letter</a> from Mr. Gourisse was signed on February 1<sup>st</sup>, <b>2001</b>.</p>
 
 <h2>Since 2001</h2>
 <p>Afterward, the project has went on, with <b>students</b> and then <b>volunteers</b> from around the world.</p>
 <p>The project, has, of course, left the university and is a backed-up by a <b>volunteer non-profit organisation</b>.</p>
+<p>Today, VLC averages 24 million downloads per month (including two-third of updates) and the user-base is counted in dizains of million.</p>
 
 <h2>Support us</h2>
 <p>Since all the work on <a href="/vlc/">VLC</a> and other <a href="/projects">videolan projects</a> is done by <b>volunteers</b>

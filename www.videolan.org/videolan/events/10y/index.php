@@ -11,6 +11,12 @@
 <p><b>10 days</b> of surprises, ideas and stories will pop up here.</p>
 <img src="/images/10cones_small.png" alt="10 cones" />
 
+<br />
+<br />
+<br />
+<br />
+<br />
+
 <div id="left">
 <h1>Day 1: a VideoLAN history</h1>
 <p>Most people know <a href="/vlc"/>VLC</a>, but they don't know the history of the <a href="/videolan/">VideoLAN project</a>.</p>
@@ -57,7 +63,16 @@ in their <b>free time</b>, we welcome donations to help us manage the software.<
 
 <div id="right">
 <?php panel_start( "grey" ); ?>
-<h1>Day 1</h1>
+<h1><a href="/videolan/events/10y/">Day 1</a></h1>
+<h1>Day 2</h1>
+<h1>Day 3</h1>
+<h1>Day 4</h1>
+<h1>Day 5</h1>
+<h1>Day 6</h1>
+<h1>Day 7</h1>
+<h1>Day 8</h1>
+<h1>Day 9</h1>
+<h1>Day 10</h1>
 <?php panel_end(); ?>
 
 </div>

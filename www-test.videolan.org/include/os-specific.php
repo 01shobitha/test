@@ -28,7 +28,7 @@ function replaceDLinfos( )
 ?>
     //Attempt to load the bright button gradient into cache for faster switching on mouse over (may not work on all browsers.)
     var cache = new Image();
-    cache.src = '/style/images/downloadButtonGradientBright.png';
+    cache.src = '/style/images/downloadButtonGradientOrangeBright.png';
 
     $(document).ready(function () {
        var OS="windows"; //Default

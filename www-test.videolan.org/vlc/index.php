@@ -60,7 +60,7 @@ function vlcscreenshot($img,$thumb, $desc){
                 <h1 style='padding-left: 5px; margin-bottom: 25px;' class='red'>Screenshots</h1>
                 <?php
                 vlcscreenshot( "1.0.0/VLC_Gnome.png",
-                            "1.0.0/tm_VLC_Gnome.png",
+                            "1.0.0/tm_VLC_Gnome.jpg",
                             "Linux - Gnome");
                 vlcscreenshot( "1.0.0/vlc_101_w7_2.jpg",
                             "1.0.0/tm_vlc_101_w7_2.jpg",

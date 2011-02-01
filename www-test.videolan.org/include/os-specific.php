@@ -1,5 +1,5 @@
 <?php
-$version = '1.1.6';
+$version = '1.1.7';
 
 $dlUrl = "http://sourceforge.net/projects/vlc/files/$version/win32/vlc-$version-win32.exe/download";
 

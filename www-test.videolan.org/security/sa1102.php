@@ -66,8 +66,10 @@ from the official VLC source code repositories.
 <dt>30 January 2011</dt>
 <dd>Patches published</dd>
 <dd>Security advisory published</dd>
-<dt>TBD</dt>
-<dd>VLC media player 1.1.7 released</dd>
+<dt>31 January 2011</dt>
+<dd>VLC media player 1.1.7 source released</dd>
+<dt>1 February 2011</dt>
+<dd>VLC media player 1.1.7 binaries released</dd>
 <dt>TBD</dt>
 <dd>CVE ID reserved</dd>
 </dl>

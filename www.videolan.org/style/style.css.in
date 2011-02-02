@@ -581,7 +581,7 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 }
 .footer_col
 {
-     width: 170px; float: left;
+     width: 150px; float: left;
  }
 .footerHeading
 {

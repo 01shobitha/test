@@ -35,7 +35,7 @@
             <h1 style='margin-bottom: 25px;'>Other projects from VideoLAN</h1>
             <div style='float: left; width: 300px;'>
                 <div class='audienceCallout'>For Everyone</div>
-                <div style='clear: both;'>
+                <div class="clearme">
                     <a href='/vlc/' class='noUnderline'>
                         <?php image( 'VLC-IconSmall.png', "VLC icon", "smallProjectImg" ); ?>
                         <span class='productName'>VLC media player</span>

@@ -10,48 +10,57 @@
 <h1 class="bigtitle">VideoLAN Projects</h1>
 
     <div style='clear: both; padding-top: 40px;'>
+    <div style='float: left; width: 450px;'>
         <div class='audienceCallout'>For Everyone</div>
-        <div style='float: left; width: 450px;'>
-            <div style='clear: both;'>
-                <a href='/vlc/' class='noUnderline'>
-                    <?php image( 'VLC.png', 'VLC Icon', "floatImg" ); ?>
-                    <div class='productName'>VLC media player</div>
-                    <div class='productDescription'>
-                    <p>VLC media player is the most well-known VideoLAN project: a complete and powerfull media player.</p>
-                    </div>
-                </a>
-            </div>
-            <div style='clear: both; padding-top: 40px; width: 400px;'>
-                <a href='/vlmc/' class='noUnderline'>
-                    <?php image( 'VLMC-IconSmall.png', 'VLMC Icon', "floatImg" ); ?>
-                    <div class='productName'>VLMC</div>
-                    <div class='productDescription'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod commodo suscipit. Nulla ultrices nisl id turpis egestas fermentum. Nunc egestas lacus sit amet metus tincidunt imperdiet.
-                    </div>
-                </a>
-            </div>
+        <div class="clearme">
+            <a href='/vlc/' class='noUnderline'>
+                <?php image( 'VLC-IconSmall.png', "VLC icon", "smallProjectImg" ); ?>
+                <span class='productName'>VLC media player</span>
+                <span class='productDescription'>
+                    VLC is a powerful media player<br />
+                    playing most of the media codecs<br />
+                    and video formats out there.
+                </span>
+            </a>
         </div>
-        <div style='float: left; padding-left: 30px; width: 450px;'>
-            <div style='clear: both;'>
-                <a href='/projects/dvblast.html' class='noUnderline'>
-                    <?php image( 'DVBlast-IconSmall.png', 'DVBlast Icon', "floatImg" ); ?>
-                    <div class='productName'>DVBlast</div>
-                    <div class='productDescription'>
-                    DVBlast is a simple, fast, reliable and powerful streaming application for linux-dvb devices.
-                    </div>
-                </a>
-            </div>
-            <div style='clear: both; padding-top: 40px;'>
-                <a href='/developers/x264.html' class='noUnderline'>
-                    <?php image( 'x264-IconSmall.png', 'x264 Icon', "floatImg" ); ?>
-                    <div class='productName'>x264</div>
-                    <div class='productDescription'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod commodo suscipit. Nulla ultrices nisl id turpis egestas fermentum. Nunc egestas lacus sit amet metus tincidunt imperdiet.
-                    </div>
-                </a>
-            </div>
+        <div class="clearme" style='padding-top: 40px;'>
+            <a href='/vlmc/' class='noUnderline'>
+                <?php image( 'VLMC-IconSmall.png', "VLMC icon", "smallProjectImg" ); ?>
+                <span class='productName'>VLMC</span>
+                <span class='productDescription'>
+                    VideoLAN Movie Creator is a
+                    non-linear editing software for video
+                    creation.
+                </span>
+            </a>
         </div>
     </div>
+    <div style='float: left; padding-left: 30px; width: 450px;'>
+        <div class='audienceCallout'>For Professionals</div>
+        <div class="clearme">
+            <a href='/projects/dvblast.html' class='noUnderline'>
+                <?php image( 'DVBlast-IconSmall.png', "DVBlast Icon", "smallProjectImg" ); ?>
+                <span class='productName'>DVBlast</span>
+                <span class='productDescription'>
+                    DVBlast is a simple a powerful<br />
+                    MPEG-2/TS demux and streaming<br />
+                    application.
+                </span>
+            </a>
+        </div>
+        <div class="clearme" style='padding-top: 40px;'>
+            <a href='/developers/x264.html' class='noUnderline'>
+                <?php image( 'x264-IconSmall.png', "x264 Icon", "smallProjectImg" ); ?>
+                <span class='productName'>x264</span>
+                <span class='productDescription'>
+                    x264 is a free application for encoding<br />
+                    video streams into the  H.264/MPEG-4<br />
+                    AVC format.
+                </span>
+            </a>
+        </div>
+    </div>
+
     <div style='clear: both; padding-top: 40px;'></div>
     <div class='audienceCallout'>For Developers</div>
     <div style='float: left; width: 180px; padding-right: 70px; color: #666; font-size: 14px; line-height: 20px;'>

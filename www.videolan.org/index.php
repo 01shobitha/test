@@ -172,8 +172,8 @@
     <h1 style="position:relative">
     Social media
     <span class="header-buttons">
-    <a href="http://www.twitter.com/videolan"><?php image( 'twitter.png', "Twitter" );?></a>
-        <a href="http://www.facebook.com/vlc.media.player">facebook</a>
+        <a href="http://www.twitter.com/videolan"><?php image( 'twitter.png', "Twitter" );?></a>
+        <a href="http://www.facebook.com/vlc.media.player"><?php image( 'facebook.png', "Facebook" );?></a>
     </span>
     </h1>
     <?php

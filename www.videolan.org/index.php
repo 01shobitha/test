@@ -28,7 +28,7 @@
                     </span>
                 </a>
                 <?php replaceDLinfos(); ?>
-                <a class='extraInfoLink' href='#' style="padding-left: 100px;">Other Systems and Versions</a>
+                <a class='extraInfoLink' href='/vlc/#download' style="padding-left: 100px;">Other Systems and Versions</a>
             </div>
         </div>
         <div class="clearme" style='padding-top: 40px;'>

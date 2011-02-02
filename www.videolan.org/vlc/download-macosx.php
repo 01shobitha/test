@@ -37,14 +37,14 @@ $vlc_version_intel = "1.1.7";
 
 <?php
     pkgitem_sf( "32/64 bits Package for Intel-based Macs, 1.1.7",
-               "$vlc_version_intel/macosx","vlc-$vlc_version_intel.dmg","vlc", "",         "603a68fda4e67afe9cb7fb46fefdbd25");
+               "$vlc_version_intel/macosx","vlc-$vlc_version_intel.dmg","vlc", "",         "15f928d919dffcbcad657790c0db8784");
     pkgitem_sf( "32 bits Package for Intel-based Macs, 1.1.7",
-               "$vlc_version_intel/macosx","vlc-$vlc_version_intel-intel.dmg","vlc", "",   "fee9b86bc25a59f1442fb6c6481721de");
+               "$vlc_version_intel/macosx","vlc-$vlc_version_intel-intel.dmg","vlc", "",   "cd5581e13076eeb1f12f2b495bf61654");
     pkgitem_sf( "64 bits Package for Intel-based Macs, 1.1.7",
-               "$vlc_version_intel/macosx","vlc-$vlc_version_intel-intel64.dmg","vlc", "", "9217b1c5963289df5e3ff9007c0ed280");
+               "$vlc_version_intel/macosx","vlc-$vlc_version_intel-intel64.dmg","vlc", "", "034360248f933d90cfdfd6c419bcce93");
 
     pkgitem_sf( "Package for PowerPC-based Macs, 1.1.7",
-               "$vlc_version_ppc/macosx","vlc-$vlc_version_ppc-powerpc.dmg","vlc", "",     "f27874ccab7f2af3c8d433c2f56b333d"); ?>
+               "$vlc_version_ppc/macosx","vlc-$vlc_version_ppc-powerpc.dmg","vlc", "",     "c231b05154d7426d12ad900cac86c171"); ?>
 
 
 <h2>Latest Web browser plugins for 10.5 and later (release <?php echo $vlc_version; ?>)</h2>

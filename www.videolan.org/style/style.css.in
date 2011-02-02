@@ -563,6 +563,8 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
   border-top: 1px solid #ccc;
 }
 
+.news-descr { text-align: justify; }
+
 /* ======================================== FOOTER ============================================= */
 
 #footer

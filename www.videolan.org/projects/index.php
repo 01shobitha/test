@@ -28,8 +28,8 @@
                 <?php image( 'VLMC-IconSmall.png', "VLMC icon", "smallProjectImg" ); ?>
                 <span class='productName'>VLMC</span>
                 <span class='productDescription'>
-                    VideoLAN Movie Creator is a
-                    non-linear editing software for video
+                    VideoLAN Movie Creator is a<br />
+                    non-linear editing software for video<br />
                     creation.
                 </span>
             </a>
@@ -66,25 +66,25 @@
     <div style='float: left; width: 180px; padding-right: 70px; color: #666; font-size: 14px; line-height: 20px;'>
         <div class='productName' style='padding-bottom: 5px;'>libdvdcss</div>
         <div class='productDescription'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod commodo suscipit. Nulla ultrices nisl id turpis egestas fermentum.
+            The reference open-source cross-platform library for DVD CSS decryption.
         </div>
     </div>
     <div style='float: left; width: 180px; padding-right: 70px;'>
         <div class='productName' style='padding-bottom: 5px;'>libbluray</div>
         <div class='productDescription'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod commodo suscipit. Nulla ultrices nisl id turpis egestas fermentum.
+            The reference open-source cross-platform library for Blu-Ray Discs access.
         </div>
     </div>
     <div style='float: left; width: 180px; padding-right: 70px;'>
         <div class='productName' style='padding-bottom: 5px;'>libdvdpsi</div>
         <div class='productDescription'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod commodo suscipit. Nulla ultrices nisl id turpis egestas fermentum.
+            Parse TS and DVB tables without headaches.
         </div>
     </div>
     <div style='float: left; width: 180px;'>
         <div class='productName' style='padding-bottom: 5px;'>libdca</div>
         <div class='productDescription'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod commodo suscipit. Nulla ultrices nisl id turpis egestas fermentum.
+            A cross-platform library to decode Dts Coherent Audio codec.
         </div>
     </div>
 </div>

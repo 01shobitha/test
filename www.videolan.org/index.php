@@ -31,7 +31,7 @@
                 <a class='extraInfoLink' href='#' style="padding-left: 100px;">Other Systems and Versions</a>
             </div>
         </div>
-        <div class="clearme" style='padding-top: 60px;'>
+        <div class="clearme" style='padding-top: 40px;'>
             <h1 style='margin-bottom: 25px;'>Other projects from VideoLAN</h1>
             <div style='float: left; width: 300px;'>
                 <div class='audienceCallout'>For Everyone</div>
@@ -94,7 +94,7 @@
             </div>
             <a href='/projects/' class='extraInfoLink' style='text-transform: uppercase; font-size: 13px; display: block; padding-top: 25px; clear: both;'>View All Projects</a>
         </div>
-        <div class="clearme" style='padding-top: 40px;'>
+        <div class="clearme" style='padding-top: 25px;'>
             <h1 style='margin-bottom: 25px;'>Help us out</h1>
             <div style='float: left; width: 330px;'>
                 <div class='audienceCallout'>Donate</div>
@@ -142,11 +142,11 @@
         <div class="clearme"></div>
 
 <?php /* Begin news items */ ?>
-<div style='width: 550px; padding-top: 60px; float: left;'>
+<div style='width: 550px; padding-top: 40px; float: left;'>
     <h1 style='margin-bottom: 25px;'>News &amp; Updates</h1>
     <?php shownews("full", 4); ?>
 </div>
-<div style='width: 400px; padding-top: 60px; float: right;'>
+<div style='width: 400px; padding-top: 40px; float: right;'>
     <h1 style='margin-bottom: 25px;'>Development Blog</h1>
     <?php
       define('MAGPIE_INPUT_ENCODING', 'UTF-8');

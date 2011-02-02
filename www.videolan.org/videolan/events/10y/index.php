@@ -10,7 +10,20 @@
 <br />
 <br />
 
-<div id="left">
+<div id="sidebar">
+<h1><a href="/videolan/events/10y/">Day 1</a></h1>
+<h1>Day 2</h1>
+<h1>Day 3</h1>
+<h1>Day 4</h1>
+<h1>Day 5</h1>
+<h1>Day 6</h1>
+<h1>Day 7</h1>
+<h1>Day 8</h1>
+<h1>Day 9</h1>
+<h1>Day 10</h1>
+</div>
+
+<div id="day1">
 <h1>Day 1: a VideoLAN history</h1>
 <p>Most people know <a href="/vlc"/>VLC</a>, but they don't know the history of the <a href="/videolan/">VideoLAN project</a>.</p>
 <p>Well, they don't even know what VideoLAN is, and that we are not a company...</p>
@@ -53,26 +66,12 @@ indeed is from <b>1998</b>.</p>
 <p>Since all the work on <a href="/vlc/">VLC</a> and other <a href="/projects">videolan projects</a> is done by <b>volunteers</b>
 in their <b>free time</b>, we welcome donations to help us manage the software.</p>
 <p><b>Donate <a href="/contribute.html">now!</a></b></p>
+</div>
 
 <h3>Share</h3>
 <a href="http://digg.com/news/technology/videolan_10_years_of_open_source">Digg</a>
 <a href="http://www.facebook.com/vlc.media.player">Facebook</a>
 <a href="http://news.ycombinator.com/item?id=2165356">Hacker News</a>
 <a href="http://twitter.com/videolan">Twitter</a>
-</div>
-
-
-<div id="sidebar">
-<h1><a href="/videolan/events/10y/">Day 1</a></h1>
-<h1>Day 2</h1>
-<h1>Day 3</h1>
-<h1>Day 4</h1>
-<h1>Day 5</h1>
-<h1>Day 6</h1>
-<h1>Day 7</h1>
-<h1>Day 8</h1>
-<h1>Day 9</h1>
-<h1>Day 10</h1>
-</div>
 
 <?php footer('$Id: index.php 5400 2009-07-19 15:37:21Z jb $'); ?>

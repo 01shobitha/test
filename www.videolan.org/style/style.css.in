@@ -104,6 +104,7 @@ h2
 	color: black;
 	font-size: 21px;
     margin-top: 10px;
+    margin-bottom: 2px;
 }
 
 h3
@@ -111,6 +112,7 @@ h3
 	color: black;
 	font-size: 18px;
     margin-top: 6px;
+    margin-bottom: 2px;
 }
 
 p
@@ -118,6 +120,8 @@ p
 	color: #4D4D4D;
 	font-size: 14px;
 	line-height: 25px;
+    text-align: justify;
+    margin-bottom: 1px;
 }
 
 .metaText

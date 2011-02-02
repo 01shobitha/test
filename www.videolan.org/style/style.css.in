@@ -251,7 +251,7 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 #bodyInner
 {
 	background: transparent url(http://images1.videolan.org/style/images/highlight.png) no-repeat scroll top left;
-	padding: 20px 10px 40px;
+	padding: 20px 0px 40px;
 	width: 980px;
 	text-align: left;
 /*	float: left; */
@@ -513,7 +513,7 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 .tricolumn h1 { padding-bottom: 20px; }
 
 .doublecolumn { margin-left: 10px; width: 100%; margin-top: 30px; }
-.doublecolumn td { width: 35%; padding-right: 15%; padding-bottom: 20px;
+.doublecolumn td { width: 35%; padding-right: 12%; padding-bottom: 20px;
     vertical-align: top; }
 /* ======================================= RSS FEEDS =========================================== */
 

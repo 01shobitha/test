@@ -71,10 +71,11 @@
                     echo "</a>');toggle( $count );\n--></script>";
                 }
                 echo "</p>\n</div>\n";
-                echo '<div class="horizontalRule"></div>';
+                $max--;
+                if($max != 0 ) echo '<div class="horizontalRule"></div>';
                 if( $mockup ) echo "</td>";
 
-                $max--; if($max == 0) return;
+                if($max == 0) return;
                 $msg="";
              }
             $msg.=" ".$line;

@@ -85,7 +85,7 @@ function start_top( $body_color )
 ?>
     <a style='float: left;' href='/'><?php image( $imgSrc, "VideoLAN association"); ?></a>
    <div style='float: left; color: #4D4D4D; font-size: 12px; padding: 10px 10px 5px 20px; line-height: 20px;'>
-      is a project and a <a href="/videolan/" class="noUnderline">non-profit organization</a>, composed of volunteers<br />
+      A project and a <a href="/videolan/" class="noUnderline">non-profit organization</a>, composed of volunteers<br />
       developing and promoting free, open-source multimedia solutions.
    </div>
     <a style='float: right; padding-top: 6px; padding-right: 20px;' href='http://madebyargon.com'>
@@ -178,7 +178,7 @@ function draw_menus()
    </div>
 </div>
 <div class="clearme"></div>
-<a href="/videolan/events/10y/"><img alt="10 cones" src="http://images1.videolan.org/images/10years.jpg" style="border: 2px solid rgb(61, 61, 61); margin-bottom: 18px; height: 120px;"></a>
+<a href="/videolan/events/10y/"><img alt="10 cones" src="http://images1.videolan.org/images/10years.jpg" style="border: 2px solid rgb(61, 61, 61); height: 120px;"></a>
 
 <?php
 }

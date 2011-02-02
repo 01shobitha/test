@@ -16,47 +16,26 @@
                 <a class='extraInfoLink' href='#features'>Features</a>
                 <a class='extraInfoLink' href='#screenshots'>Screenshots</a>
                 <a class='extraInfoLink' href='#'>Other Systems and Versions</a>
-                <a id='downloadButton' href='http://www.videolan.org/vlc/download-windows.html'>
-                    <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLMC.png' alt='Download VLMC icon' />
-                    <span class='downloadText'>Download VLMC</span>
-                    <span id='downloadDetails' style='font-size: 12px; color: white;'>
-                        Version 1.1.3 &nbsp;&#8226;&nbsp; Windows &nbsp;&#8226;&nbsp; 15 MB
-                    </span>
-                </a>
+                <h2>We are looking for contributors!</h2>
             </div>
         </div>
         <div style='clear: both; padding-top: 90px;'>
             <div style='float: left; width: 400px; color: #333333;'>
                 <a name="features"></a>
                 <h1 style='margin-bottom: 25px;' class='red'>Features</h1>
-                Lightweight program designed for extreme memory and CPU conditions<br />
+                Cross Platform program<br />
                 <br />
-                Only one dependancy: libdvbpsi<br />
+                Based on VLC<br />
                 <br />
-                CAM menus (MMI) support via an external application<br />
+                Read most file formats and can export to most formats<br />
                 <br />
-                The configuration file describing outputs can be reloaded without
-                losing a single packet<br />
+                Youtube upload integration<br />
                 <br />
-                Support for the new S2API of linux-dvb<br />
-                <br />
-                IPv6 network support<br />
-                <br />
-                UDP rather than RTP output for IPTBV STBs which don't support RTP
+                Simple to use, yet powerful<br />
             </div>
             <div style='float: right; width: 450px; padding-left: 70px;'>
                 <a name="screenshots"></a>
                 <h1 style='padding-left: 5px; margin-bottom: 25px;' class='red'>Screenshots</h1>
-                <div class='screenshot'></div>
-                <div class='screenshot'></div>
-                <div class='screenshot'></div>
-                <div class='screenshot'></div>
-                <div style='clear: left;'></div>
-                <div class='screenshot'></div>
-                <div class='screenshot'></div>
-                <div class='screenshot'></div>
-                <div class='screenshot'></div>
-                <div style='clear: left;'></div>
                 <div class='screenshot'></div>
                 <div class='screenshot'></div>
                 <div class='screenshot'></div>

@@ -90,11 +90,10 @@ function addos( $name, $class, $url, $bold=false )
 }
 ?>
         <div class='tricolumn'>
-            <a name="download" />
-            <h1>Download VLC</h1>
+            <h1><a name="download">Download VLC</a></h1>
             <div class="onecolumn">
                <h2>Windows</h2>
-                <?php addos( "Windows", "windows", "download-windows.html", true ); ?>
+                <?php addos( "Windows", "", "download-windows.html", true ); ?>
                <h2>Mac OS X</h2>
                 <?php addos( "Mac&nbsp;OS&nbsp;X", "macosx", "download-macosx.html", true );
                       addos( "iOS", "ios", "download-ios.html" ); ?>

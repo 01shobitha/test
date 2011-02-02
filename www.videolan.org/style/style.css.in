@@ -149,9 +149,10 @@ ul.bullets { padding-left: 2.5em; margin-bottom: 1em; }
 ul.bullets li { list-style-type: square; padding-bottom: 3px; }
 
 div.largescreenshot {
-    float:left;
+    float: left;
+    margin: 2px;
     margin-right: 3em;
-    text-align:center;
+    text-align: center;
     width: 150px;
 }
 

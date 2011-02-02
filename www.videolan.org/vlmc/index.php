@@ -16,6 +16,7 @@
                 <a class='extraInfoLink' href='#features'>Features</a>
                 <a class='extraInfoLink' href='#screenshots'>Screenshots</a>
                 <a class='extraInfoLink' href='#'>Other Systems and Versions</a>
+                <div class="clearme"> </div>
                 <h2>We are looking for contributors!</h2>
             </div>
         </div>

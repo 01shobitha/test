@@ -1,11 +1,9 @@
 <?php
    $title = "10 years of open source";
-   $lang = "en";
-   $menu = array( "project", "events" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-<h1>10 years of Open Source</h1>
+<h1 class="bigtitle">10 years of Open Source</h1>
 <h2>Welcome to the pages for the Celebration of our 10 years of open source</h2>
 <p>We are here to celebrate the 10 years of the open sourcing of VideoLAN and VLC.</p>
 <p><b>10 days</b> of surprises, ideas and stories will pop up here.</p>
@@ -64,8 +62,7 @@ in their <b>free time</b>, we welcome donations to help us manage the software.<
 </div>
 
 
-<div id="right">
-<?php panel_start( "grey" ); ?>
+<div id="sidebar">
 <h1><a href="/videolan/events/10y/">Day 1</a></h1>
 <h1>Day 2</h1>
 <h1>Day 3</h1>
@@ -76,8 +73,6 @@ in their <b>free time</b>, we welcome donations to help us manage the software.<
 <h1>Day 8</h1>
 <h1>Day 9</h1>
 <h1>Day 10</h1>
-<?php panel_end(); ?>
-
 </div>
 
 <?php footer('$Id: index.php 5400 2009-07-19 15:37:21Z jb $'); ?>

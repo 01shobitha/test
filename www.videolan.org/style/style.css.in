@@ -262,10 +262,9 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 {
 	clear: both;
 	float: left;
-	width: 80%;
+	width: 100%;
 	text-align: left;
     margin-top: 25px;
-    margin: 0 auto;
 }
 
 #linkBar

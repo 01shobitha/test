@@ -68,6 +68,13 @@ in their <b>free time</b>, we welcome donations to help us manage the software.<
 <p><b>Donate <a href="/contribute.html">now!</a></b></p>
 </div>
 
+<div id="day2">
+<h1>Day 2: a new website design</h1>
+<p>As you might have seen, we've change the design of the <a href="/">main website</a>.</p>
+<p>The website design was done by <a href="http://madebyargon.com/">Argon</a> and this project was sponsored by <a href="http://netzwelt.de">netzwelt.de</a>.</p>
+<p>It is still a work in progress, but we'll keep working on it with your help.</p>
+</div>
+
 <h3>Share</h3>
 <a href="http://digg.com/news/technology/videolan_10_years_of_open_source">Digg</a>
 <a href="http://www.facebook.com/vlc.media.player">Facebook</a>

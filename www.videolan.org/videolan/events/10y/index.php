@@ -11,16 +11,16 @@
 <br />
 
 <div id="sidebar">
-<h1><a href="/videolan/events/10y/">Day 1</a></h1>
-<h1>Day 2</h1>
-<h1>Day 3</h1>
-<h1>Day 4</h1>
-<h1>Day 5</h1>
-<h1>Day 6</h1>
-<h1>Day 7</h1>
-<h1>Day 8</h1>
-<h1>Day 9</h1>
-<h1>Day 10</h1>
+<h1><a href="#">Day 1</a></h1>
+<h1><a href="#">Day 2</a></h1>
+<h1><a href="#">Day 3</a></h1>
+<h1><a href="#">Day 4</a></h1>
+<h1><a href="#">Day 5</a></h1>
+<h1><a href="#">Day 6</a></h1>
+<h1><a href="#">Day 7</a></h1>
+<h1><a href="#">Day 8</a></h1>
+<h1><a href="#">Day 9</a></h1>
+<h1><a href="#">Day 10</a></h1>
 </div>
 
 <div id="day1">

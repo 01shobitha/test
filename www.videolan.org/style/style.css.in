@@ -251,7 +251,7 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 #bodyInner
 {
 	background: transparent url(http://images1.videolan.org/style/images/highlight.png) no-repeat scroll top left;
-	padding: 20px 0px 40px;
+	padding: 20px 10px 40px;
 	width: 980px;
 	text-align: left;
 /*	float: left; */
@@ -262,9 +262,10 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 {
 	clear: both;
 	float: left;
-	width: 100%;
+	width: 80%;
 	text-align: left;
     margin-top: 25px;
+    margin: 0 auto;
 }
 
 #linkBar

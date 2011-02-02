@@ -6,7 +6,7 @@
 
 function screenshot($img,$thumb,$desc,$size){
 echo"<div class='largescreenshot'><a href='http://images1.videolan.org/vlc/screenshots/$img'>
-    <img class='screenshot' src='http://images1.videolan.org/vlc/screenshots/$thumb' alt='VLC media player - $desc' width='150' /></a>
+    <img class='screenshot' style='width: 150px;' src='http://images1.videolan.org/vlc/screenshots/$thumb' alt='VLC media player - $desc' /></a>
     <br />  $desc<br />($size) </div>";
 }
 ?>

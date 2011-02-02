@@ -251,11 +251,10 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 #bodyInner
 {
 	background: transparent url(http://images1.videolan.org/style/images/highlight.png) no-repeat scroll top left;
-	padding: 20px 50px 40px;
+	padding: 20px 10px 40px;
 	width: 980px;
 	text-align: left;
 /*	float: left; */
-	padding-left: 50px;
     margin: 0 auto;
 }
 

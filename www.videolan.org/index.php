@@ -96,7 +96,7 @@
         </div>
         <div class="clearme" style='padding-top: 25px;'>
             <h1 style='margin-bottom: 25px;'>Help us out</h1>
-            <div style='float: left; width: 330px;'>
+            <div style='float: left; width: 320px;'>
                 <div class='audienceCallout'>Donate</div>
                 <div class='clearme'>
                     <?php image( "cash.png", "Donate to VLC", "floatSmallImg" ); ?>
@@ -110,7 +110,7 @@
                     </div>
                 </div>
             </div>
-            <div style='float: left; width: 310px;'>
+            <div style='float: left; width: 300px;'>
                 <div class='audienceCallout'>Contribute</div>
                 <div class='clearme'>
                     <?php image( "tools.png", "Contribute Work to VLC", "floatSmallImg" ); ?>
@@ -124,7 +124,7 @@
                     </div>
                 </div>
             </div>
-            <div style='float: left; width: 330px;'>
+            <div style='float: left; width: 320px;'>
                 <div class='audienceCallout'>Spread the Word</div>
                 <div class='clearme'>
                     <?php image( "heart.png", "Spread VLC", "floatSmallImg" ); ?>
@@ -142,7 +142,7 @@
         <div class="clearme"></div>
 
 <?php /* Begin news items */ ?>
-<div style='width: 550px; padding-top: 40px; float: left;'>
+<div style='width: 500px; padding-top: 40px; float: left;'>
     <h1 style='margin-bottom: 25px;'>News &amp; Updates</h1>
     <?php shownews("full", 4); ?>
 </div>

@@ -18,11 +18,11 @@
                 </div>
                 <a class='extraInfoLink' href='#features'>Features</a>
                 <a class='extraInfoLink' href='#screens'>Screenshots</a>
-                <a id='downloadButton' href='http://www.videolan.org/vlc/download-windows.html'>
+                <a id='downloadButton' href='ftp://ftp.videolan.org/pub/x264/snapshots/last_x264.tar.bz2'>
                     <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadX264.png' alt='Download x264 icon' />
                     <div class='downloadText'>Download x264</div>
                     <span id='downloadDetails' style='font-size: 12px; color: white;'>
-                        master &nbsp;&#8226;&nbsp; Source &nbsp;&#8226;&nbsp; 15 MB
+                        master &nbsp;&#8226;&nbsp; Source &nbsp;&#8226;&nbsp; 475kB
                     </span>
                 </a>
                 <a class='extraInfoLink' href='#' style="padding-left: 100px;">Other Systems and Versions</a>

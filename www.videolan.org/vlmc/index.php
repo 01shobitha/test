@@ -34,13 +34,22 @@
                 <br />
                 Simple to use, yet powerful<br />
             </div>
+<?php
+function vlmcscreenshot($img,$thumb, $desc){
+    echo"<div class='screenshot'><a href='http://images1.videolan.org/vlmc/screenshots/$img'><img
+    src='http://images1.videolan.org/vlmc/screenshots/$thumb' alt='VLMC - $desc' /></a>
+    </div>";
+}
+?>
             <div style='float: right; width: 450px; padding-left: 70px;'>
                 <a name="screenshots"></a>
-                <h1 style='padding-left: 5px; margin-bottom: 25px;' class='red'>Screenshots</h1>
-                <div class='screenshot'></div>
-                <div class='screenshot'></div>
-                <div class='screenshot'></div>
-                <div class='screenshot'></div>
+                <h1 style='padding-left: 5px; margin-bottom: 25px;'>Screenshots</h1>
+<?php
+                vlmcscreenshot('snapshot2.png', 'tm_snapshot2.png', "Screenshot" );
+                vlmcscreenshot('snapshot10.png', 'tm_snapshot10.png', "Screenshot" );
+                vlmcscreenshot('snapshot12.png', 'tm_snapshot12.png', "Screenshot" );
+                vlmcscreenshot('snapshot2.png', 'tm_snapshot2.png', "Screenshot" );
+?>
                 <div style='clear: both;'></div>
                 <a class='red' style='display: block; padding-top: 10px; padding-left: 5px; font-size: 12px;' href='/vlmc/screenshots.html'>view all screenshots</a>
             </div>

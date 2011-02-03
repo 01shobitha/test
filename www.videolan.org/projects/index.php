@@ -1,7 +1,5 @@
 <?php
-   $title = "VideoLAN - Free Software and Open Source video streaming solution for every OS!";
-   $lang = "en";
-   $menu = array( "projects", "projects" );
+   $title = "Free Software and Open Source video streaming solution for every OS!";
    $body_color = "blue";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
@@ -64,29 +62,50 @@
     <div style='clear: both; padding-top: 40px;'></div>
     <div class='audienceCallout'>For Developers</div>
     <div style='float: left; width: 180px; padding-right: 70px; color: #666; font-size: 14px; line-height: 20px;'>
-        <div class='productName' style='padding-bottom: 5px;'>libdvdcss</div>
+        <div class='productName'><a href="/developers/libdvdcss.html">libdvdcss</a></div>
         <div class='productDescription'>
             The reference open-source cross-platform library for DVD CSS decryption.
         </div>
     </div>
     <div style='float: left; width: 180px; padding-right: 70px;'>
-        <div class='productName' style='padding-bottom: 5px;'>libbluray</div>
+        <div class='productName'><a href="/developers/libbluray.html">libbluray</a></div>
         <div class='productDescription'>
             The reference open-source cross-platform library for Blu-Ray Discs access.
         </div>
     </div>
     <div style='float: left; width: 180px; padding-right: 70px;'>
-        <div class='productName' style='padding-bottom: 5px;'>libdvdpsi</div>
+        <div class='productName'><a href="/developers/libdvbpsi.html">libdvdpsi</a></div>
         <div class='productDescription'>
             Parse TS and DVB tables without headaches.
         </div>
     </div>
     <div style='float: left; width: 180px;'>
-        <div class='productName' style='padding-bottom: 5px;'>libdca</div>
+        <div class='productName'><a href="/vlc/libVLC.html">libVLC</a></div>
+        <div class='productDescription'>
+            The <b>Cross-Platform</b> multimedia framework. Bring VLC power into your app.
+        </div>
+    </div>
+
+    <div class='clearme' style="padding-top: 30px;" ></div>
+    <div style='float: left; width: 180px; padding-right: 70px;'>
+        <div class='productName'><a href="/developers/libaacs.html">libaacs</a></div>
+        <div class='productDescription'>
+            A research project for implementing the AACS standard.
+        </div>
+    </div>
+    <div style='float: left; width: 180px; padding-right: 70px;'>
+        <div class='productName'><a href="/developers/libdvbcsa.html">libdvbcsa</a></div>
+        <div class='productDescription'>
+            A cross-platform library to decrypt and encrypt using the DVB-CSA algorithm.
+        </div>
+    </div>
+    <div style='float: left; width: 180px;'>
+        <div class='productName'><a href="/developers/libdca.html">libdca</a></div>
         <div class='productDescription'>
             A cross-platform library to decode Dts Coherent Audio codec.
         </div>
     </div>
+
 </div>
 
 <?php footer('$Id: index.php 3765 2006-08-16 16:19:00Z dionoea $'); ?>

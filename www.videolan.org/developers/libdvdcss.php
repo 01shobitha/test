@@ -1,11 +1,9 @@
 <?php
-   $title ="VideoLAN developers - libdvdcss";
-   $lang = "en";
-   $menu = array( "developers", "libdvdcss" );
+   $title ="developers - libdvdcss";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-<h1>libdvdcss</h1>
+<h1 class="bigtitle">libdvdcss</h1>
 
 <p> <code>libdvdcss</code> is a simple library designed for accessing
 DVDs like a block device without having to bother about the decryption. </p>

@@ -1,11 +1,9 @@
 <?php
    $title ="libbluray";
-   $lang = "en";
-   $menu = array( "developers", "libbluray" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-<h1>libbluray</h1>
+<h1 class="bigtitle">libbluray</h1>
 
 <p> <code>libbluray</code> is an <b>open-source</b> library designed for Blu-Ray Discs
 playback for media players, like <a href="/vlc/">VLC</a> or MPlayer.</p>
@@ -14,7 +12,7 @@ developers from <a href="http://www.doom9.org/">Doom9</a>.</p>
 
 <h2> Features </h2>
 
-<ul class="blue-bullet">
+<ul class="bullets">
   <li><b>Portability:</b> Currently supported platforms are GNU/Linux, Windows, MacOS X. Dependencies are very limited.</li>
   <li><b>Freedom:</b> <code>libbluray</code> is released under a Free Software license,
   ensuring it will stay free. </li>

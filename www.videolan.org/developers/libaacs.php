@@ -1,11 +1,9 @@
 <?php
    $title ="libaacs";
-   $lang = "en";
-   $menu = array( "developers", "libaacs" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-<h1>libaacs</h1>
+<h1 class="bigtitle">libaacs</h1>
 
 <p> <code>libaacs</code> is a <b>research project</b> to implement the Advanced Access Content System
 <a href="http://www.aacsla.com/specifications/">specification</a>.<br />
@@ -20,7 +18,7 @@ encrypted copyrighted material.</p>
 
 <h2> Features </h2>
 
-<ul class="blue-bullet">
+<ul class="bullets">
   <li><b>Portability:</b> Currently supported platforms are GNU/Linux, Windows, MacOS X. The main dependency is libgcrypt for all cryptographic functions.</li>
   <li><b>Freedom:</b> <code>libaacs</code> is released under a Free Software license,
   ensuring it will stay free. </li>

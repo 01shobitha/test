@@ -1,11 +1,9 @@
 <?php
-   $title ="VideoLAN developers - libdvbpsi";
-   $lang = "en";
-   $menu = array( "developers", "libdvbpsi" );
+   $title ="developers - libdvbpsi";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-<h1>libdvbpsi</h1>
+<h1 class="bigtitle">libdvbpsi</h1>
 
 <p> <code>libdvbpsi</code> is a simple library designed for decoding and
 generation of MPEG TS and DVB PSI tables. </p>
@@ -15,7 +13,7 @@ should work on almost any platform. </p>
 
 <h2>Current features</h2>
 
-<ul>
+<ul class="bullets">
   <li> Program Association Table (PAT), decoder and generator. </li>
   <li> Program Map Table (PMT), decoder and generator. </li>
   <li> All MPEG 2 descriptors, decoders and generators. </li>

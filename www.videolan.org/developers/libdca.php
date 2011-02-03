@@ -1,7 +1,5 @@
 <?php
-   $title ="VideoLAN developers - libdca ";
-   $lang = "en";
-   $menu = array( "developers", "libdca" );
+   $title ="developers - libdca ";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
@@ -31,11 +29,11 @@
 
 <p><code># svn co svn://svn.videolan.org/libdca/trunk libdca</code></p>
 
-<p><b>Provisional Warning</b>: DTS Inc. claims that use of libdca        
-software, to decode DTS compressed sound data on a DVD could violate    
-DTS's patent rights. If you are unsure about the legality of using      
-and distributing this code in your country, in particular in the USA,   
-please consult your lawyer before downloading it</p>
+<p><b>Provisional Warning</b>: DTS Inc. claims that use of libdca
+software, to decode DTS compressed sound data on a DVD could violate
+DTS's patent rights. If you are unsure about the legality of using
+and distributing this code in your country, in particular in the USA,
+please consult your lawyer before downloading it.</p>
 
 <h2>Support</h2>
 

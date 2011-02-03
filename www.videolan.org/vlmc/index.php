@@ -17,7 +17,7 @@
                 <a class='extraInfoLink' href='#screenshots'>Screenshots</a>
                 <a class='extraInfoLink' href='#'>Other Systems and Versions</a>
                 <div class="clearme"> </div>
-                <h2>We are looking for contributors!</h2>
+                <h1>We are <a href="http://trac.videolan.org/vlmc/wiki/Contributing">looking for contributors!</a></h1>
             </div>
         </div>
         <div style='clear: both; padding-top: 90px;'>

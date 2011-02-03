@@ -80,7 +80,7 @@
         </div>
     </div>
     <div style='float: left; width: 180px;'>
-        <div class='productName'><a href="/vlc/libVLC.html">libVLC</a></div>
+        <div class='productName'><a href="/vlc/libvlc.html">libVLC</a></div>
         <div class='productDescription'>
             The <b>Cross-Platform</b> multimedia framework. Bring VLC power into your app.
         </div>

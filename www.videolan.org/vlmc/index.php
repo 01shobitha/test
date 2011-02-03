@@ -15,7 +15,7 @@
                 </div>
                 <a class='extraInfoLink' href='#features'>Features</a>
                 <a class='extraInfoLink' href='#screenshots'>Screenshots</a>
-                <a class='extraInfoLink' href='#'>Other Systems and Versions</a>
+<!--                <a class='extraInfoLink' href='#'>Other Systems and Versions</a> -->
                 <div class="clearme"> </div>
                 <h1>We are <a href="http://trac.videolan.org/vlmc/wiki/Contributing">looking for contributors!</a></h1>
             </div>

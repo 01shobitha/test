@@ -121,7 +121,6 @@ p
 	color: #4D4D4D;
 	font-size: 14px;
 	line-height: 25px;
-    text-align: justify;
     margin-bottom: 1px;
     padding: 1px 25px 4px 0;
 }

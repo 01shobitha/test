@@ -29,6 +29,9 @@ DVDs like a block device without having to bother about the decryption. </p>
 by browsing the <a href="http://www.videolan.org/pub/libdvdcss/">releases</a>.
 </p>
 
+<h3>Subversion checkout</h3>
+<p><code># svn co svn://svn.videolan.org/libdca/trunk libdca</code></p>
+
 <p> You can also see the <a href="libdvdcss/NEWS">release notes</a> and the <a
 href="libdvdcss/ChangeLog.html">ChangeLog</a>.</p>
 

@@ -29,4 +29,7 @@
 by browsing the <a href="http://download.videolan.org/pub/videolan/libdvbcsa/">releases</a>.
 </p>
 
+<h3>Subversion checkout</h3>
+<p><code># svn co svn://svn.videolan.org/libdvbcsa/trunk libdvbcsa</code></p>
+
 <?php footer('$Id: libdvbcsa.php 4100 2007-01-24 20:51:17Z jb $'); ?>

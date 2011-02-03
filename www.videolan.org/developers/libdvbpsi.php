@@ -21,9 +21,12 @@ should work on almost any platform. </p>
 
 <h2>Get libdvbpsi</h2>
 
-<p> <code>libdvbpsi</code> is available through <a href="http://wiki.videolan.org/Subversion">Subversion</a> or
-by browsing the <a href="http://www.videolan.org/pub/libdvbpsi/">releases</a>.
-</p>
+<p> <code>libdvbpsi</code> is available through <a href="http://wiki.videolan.org/git">git</a> at:<br />
+<code>git clone git://git.videolan.org/libdvbpsi.git</code></p>.
+<p>You can alsoby browsing the <a href="http://www.videolan.org/pub/libdvbpsi/"><b>releases</b></a>.</p>
+
+<p>you can browse the source code at  <a href="http://git.videolan.org/?p=libdvbpsi.git">git.videolan.org</a>.</p>
+
 
 <p> You can also see the <a href="libdvbpsi/ChangeLog.html">ChangeLog</a>.</p>
 

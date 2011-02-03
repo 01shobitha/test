@@ -36,7 +36,7 @@
             </div>
 <?php
 function vlmcscreenshot($img,$thumb, $desc){
-    echo"<div class='screenshot'><a href='http://images1.videolan.org/vlmc/screenshots/$img'><img
+    echo"<div class='screenshot' style='height: 70px;'><a href='http://images1.videolan.org/vlmc/screenshots/$img'><img
     src='http://images1.videolan.org/vlmc/screenshots/$thumb' alt='VLMC - $desc' /></a>
     </div>";
 }
@@ -50,8 +50,6 @@ function vlmcscreenshot($img,$thumb, $desc){
                 vlmcscreenshot('snapshot12.png', 'tm_snapshot12.png', "Screenshot" );
                 vlmcscreenshot('snapshot2.png', 'tm_snapshot2.png', "Screenshot" );
 ?>
-                <div style='clear: both;'></div>
-                <a class='red' style='display: block; padding-top: 10px; padding-left: 5px; font-size: 12px;' href='/vlmc/screenshots.html'>view all screenshots</a>
             </div>
         </div>
 <!--        <div class='tricolumn'>

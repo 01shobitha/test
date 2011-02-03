@@ -21,7 +21,7 @@ in their <b>free time</b>, we welcome donations to help us manage the software.<
 <div id="sidebar">
 <h1><a class="actionDay" id="link-day1">Day 1</a></h1>
 <h1><a class="actionDay" id="link-day2">Day 2</a></h1>
-<h1><a class="actionDay" id="link-day3">Day 3</a></h1>
+<h1><a class="actionDay" id="link-day3" style="font-weight: bold;">Day 3</a></h1>
 <h1>Day  4</h1>
 <h1>Day  5</h1>
 <h1>Day  6</h1>
@@ -80,7 +80,7 @@ in their <b>free time</b>, we welcome donations to help us manage the software.<
         <p>It is still a work in progress, but we'll keep working on it with your help.</p>
     </div>
 
-    <div id="day3" class="selected" style="font-weight: bold;">
+    <div id="day3" class="selected">
         <h1>Day 3: A cool video about VLC</h1>
         <p>For our 3<sup>rd</sup> day, we'd like to share a video that we think should </p>
         <iframe title="YouTube video player" width="640" height="390" src="http://www.youtube.com/embed/vVXGLPl3n7E" frameborder="0" allowfullscreen></iframe>

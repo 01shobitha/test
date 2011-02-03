@@ -18,7 +18,6 @@ if( isset( $_POST["skin_id"] ) && isset( $_POST["rating"] ) )
  $menu = array( "vlc", "skins" ); 
  $additional_css = array("/vlc/skins.css","/panels.css");
  $additional_js = array("/js/skins.js");
- $body_onload = "initSkinBox()";
  require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
 function AddSkin( $id, $name, $author, $img, $url, $dl, $date, $date_mod, $rating, $count, /*$old_rating, $old_count,*/ $sign, $min_version, $size )
@@ -57,6 +56,9 @@ $sp_dl = $r['downloads'];
 $sp_size = FormatSize( $r['size'] );
 
 ?>
+<script type='text/javascript'>
+   $(document).ready(function () { initSkinBox(); });
+</script>
 
 <h1>Skins</h1>
 <table>

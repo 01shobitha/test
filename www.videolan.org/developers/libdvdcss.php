@@ -12,16 +12,16 @@ DVDs like a block device without having to bother about the decryption. </p>
 
 <h2> Features </h2>
 
-<ul>
-  <li> Portability. Currently supported platforms are GNU/Linux,
+<ul class="bullets">
+  <li><b>Portability</b>. Currently supported platforms are GNU/Linux,
   FreeBSD, NetBSD, OpenBSD, BSD/OS, BeOS, Windows 95/98, Windows NT/2000,
   MacOS X, Solaris, and HP-UX. </li>
-  <li> Simplicity. There are currently 7 functions in the API, and we intend
+  <li><b> Simplicity</b>. There are currently 7 functions in the API, and we intend
   to keep this number low. </li>
-  <li> Freedom. <code>libdvdcss</code> is released under the General Public
+  <li> <b>Freedom</b>. <code>libdvdcss</code> is released under the General Public
   License, ensuring it will stay free, and used only for free software
   products. </li>
-  <li> Just better. Unlike most similar projects, <code>libdvdcss</code>
+  <li> <b>Just better</b>. Unlike most similar projects, <code>libdvdcss</code>
   doesn't require the region of your drive to be set. </li>
 </ul>
 

@@ -139,6 +139,8 @@ dt {
 }
 dd { margin-bottom: 6px; }
 
+code { font-family: Courier, monospace, fixed; }
+
 /* Class for links with no underline on hover */
 .noUnderline:hover
 {

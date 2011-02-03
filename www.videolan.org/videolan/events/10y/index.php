@@ -82,7 +82,8 @@ in their <b>free time</b>, we welcome donations to help us manage the software.<
 
     <div id="day3" class="selected">
         <h1>Day 3: A cool video about VLC</h1>
-        <p>For our 3<sup>rd</sup> day, we'd like to share a video that we think should </p>
+        <p>For our 3<sup>rd</sup> day, we'd like to share a video that we think should be more known.</p>
+        <p>Video created by Adam Vian.</p>
         <iframe title="YouTube video player" width="640" height="390" src="http://www.youtube.com/embed/vVXGLPl3n7E" frameborder="0" allowfullscreen></iframe>
     </div>
 

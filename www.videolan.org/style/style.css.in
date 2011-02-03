@@ -22,6 +22,8 @@ table, caption, tbody, tfoot, thead, tr, th, td ,hr{
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+    width: 100%;
+    margin-bottom: 5px;
 }
 
 /* Get rid of the annoying blue outline in Safari */

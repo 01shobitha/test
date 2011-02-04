@@ -16,7 +16,7 @@
             </div>
             <a id='downloadButton' href='ftp://ftp.videolan.org/pub/x264/snapshots/last_x264.tar.bz2'>
                 <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadX264.png' alt='Download x264 icon' />
-                <div class='downloadText'>Download x264</div>
+                <span class='downloadText'>Download x264</span>
                 <span id='downloadDetails' style='font-size: 12px; color: white;'>
                     master &nbsp;&#8226;&nbsp; Source &nbsp;&#8226;&nbsp; 475kB
                 </span>
@@ -63,9 +63,8 @@
 
     <p>You can <a href="http://git.videolan.org/?p=x264.git;a=summary">browse the source</a> on-line.</p>
 
-    <p>Unofficial builds for Windows are available from <a href="http://x264.nl/">Jarod</a>,
-    <a href="http://doom10.org/index.php?topic=3.0">techouse</a>, or
-    <a href="http://forum.doom9.org/showthread.php?t=89979">Sharktooth</a>.</p>
+    <p>Builds for Windows are available from <a href="http://doom10.org/index.php?topic=3.0">the list of unofficial builds</a>, or from <a href="http://x264.nl/">Jarod</a>.</p>
+
 </div>
 
 <div style="float: right; width: 350px;">
@@ -128,7 +127,7 @@
 
 <div class="clearme" style="padding-top: 20px;">
          <h2>Software using x264</h2>
-        <ul class="bullets">
+        <ul>
         <li><a href="http://avidemux.org/">Avidemux</a></li>
         <li><a href="http://www.funknmary.de/bergdichter/projekte/index.php?page=ELDER">ELDER</a></li>
         <li><a href="http://sourceforge.net/projects/ffdshow">ffdshow</a></li>

@@ -1,13 +1,13 @@
 <?php
    $title = "x264, the best H.264/AVC encoder";
    $body_color = "green";
+   $nobanner = true;
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
     <div>
-        <?php image( 'x264-Icon.png', 'Large Green x264 Logo', 'projectImg' ); ?>
-        <div style='float: left; width: 500px;'>
-            <h1 class='bigtitle'>x264</h1>
+        <div style='float: left; width: 450px;'>
+            <h1>x264</h1>
             <div class='projectDescription'>
                 <p>x264 is a <b>free software</b> <b>library</b> and <b>application</b> for encoding video streams into the
                 <b><a href="http://en.wikipedia.org/wiki/H.264">H.264/MPEG-4 AVC</a></b> format,
@@ -24,9 +24,7 @@
             </a>
 <!--            <a class='extraInfoLink' href='#' style="padding-left: 100px;">Other Systems and Versions</a>-->
         </div>
-    </div>
 
-    <div style='clear: both; padding-top: 40px;'>
         <div style='float: left; width: 400px; color: #333333;'>
             <a name="features"></a>
             <h1 style='margin-bottom: 25px;'>Features Overview</h1>
@@ -42,12 +40,12 @@
              It is widely used in television broadcast and by ISP.<br />
 <!--            <br />Has won so many awards.<br /> -->
         </div>
-        <div style='float: right; width: 450px; padding-left: 70px;'>
+<?php /*        <div style='float: right; width: 450px; padding-left: 70px;'>
                 <a name="screenshots"></a>
 <!--                <h1 style='padding-left: 5px; margin-bottom: 25px;'>Screenshots</h1> -->
 
             <?php image('x264/sixth_msu_conclusion.png', "x264 comparison"); ?>
-        </div>
+   </div> */?>
     </div>
 
 <div class="clearme"></div>
@@ -122,10 +120,12 @@
         <li><a href="http://www.planetdvb.net/staxrip/">StaxRip</a></li>
         <li><a href="http://tcvp.sourceforge.net/">TCVP</a></li>
         <li><a href="/vlc/">VLC media player</a></li>
+        <li>... and many more</li>
         </ul>
+        <p>If you use <b>x264</b> in another project, let <em>us know</em>!</p>
     </div>
 
-    <div class="onecolumn">
+<!--    <div class="onecolumn">
         <h2>People using x264</h2>
         <ul class="bullets">
         <li><a href="http://www.youtube.com/">Youtube</a></li>
@@ -138,8 +138,7 @@
         <li><a href="http://TASvideos.org/">TASvideos</a></li>
         </ul>
 
-        <p>If you use <b>x264</b> in another project, let <em>us know</em>!</p>
-    </div>
+    </div>!-->
 
     <div class="lastcolumn">
         <h2>Awards</h2>

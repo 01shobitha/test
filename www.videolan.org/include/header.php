@@ -102,7 +102,7 @@ function start_top( $body_color )
 <?php
 }
 
-function draw_menus()
+function draw_menus( $nobanner )
 {
 ?>
 <div id='linkBar'>
@@ -178,8 +178,10 @@ function draw_menus()
    </div>
 </div>
 <div class="clearme"></div>
-<a href="/videolan/events/10y/"><img alt="10 cones" src="http://images1.videolan.org/images/10years.png" ></a>
-
+<?php
+    if ( !$nobanner )
+        echo '<a href="/videolan/events/10y/"><img alt="10 cones" src="http://images1.videolan.org/images/10years.png" ></a>';
+?>
 <?php
 }
 
@@ -301,5 +303,5 @@ if(!isset($body_color)) $body_color = "orange";
 // HTML header
 StartHtml( preg_replace( "/<[^>]*>/", "" , $title ), $body_color, $additional_css, $additional_js, $body_onload, $body_onunload ) ;
 start_top( $body_color );
-draw_menus();
+draw_menus( $nobanner);
 ?>

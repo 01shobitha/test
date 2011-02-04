@@ -105,42 +105,49 @@
 <h2>Bugs</h2>
 <p>Please report any bugs to the <a href="/developers/lists.html">mailing list</a>. If it is a crash, then compile x264 with `./configure --enable-debug` and follow the <a href="http://ffmpeg.org/bugreports.html">ffmpeg bugreporting guidelines</a>.</p>
 
-<h2>Software using x264</h2>
+<div class="tricolumn">
+    <div class="onecolumn">
+        <h2>Software using x264</h2>
+        <ul class="bullets">
+        <li><a href="http://avidemux.org/">Avidemux</a></li>
+        <li><a href="http://www.funknmary.de/bergdichter/projekte/index.php?page=ELDER">ELDER</a></li>
+        <li><a href="http://sourceforge.net/projects/ffdshow">ffdshow</a></li>
+        <li><a href="http://ffmpeg.org/">ffmpeg</a></li>
+        <li><a href="http://gordianknot.sourceforge.net/">GordianKnot</a></li>
+        <li><a href="http://handbrake.m0k.org/">Handbrake</a></li>
+        <li><a href="http://lives.sourceforge.net/">LiVES</a></li>
+        <li><a href="http://forum.doom9.org/showthread.php?t=96032">MeGUI</a></li>
+        <li><a href="http://www.mplayerhq.hu/">MEncoder</a></li>
+        <li><a href="http://www.pspvideo9.com">pspVideo9</a></li>
+        <li><a href="http://www.detritus.qc.ca/">RealAnime</a></li>
+        <li><a href="http://www.planetdvb.net/staxrip/">StaxRip</a></li>
+        <li><a href="http://tcvp.sourceforge.net/">TCVP</a></li>
+        <li><a href="/vlc/">VLC media player</a></li>
+        </ul>
+    </div>
 
-<ul class="bullets">
-<li><a href="http://avidemux.org/">Avidemux</a></li>
-<li><a href="http://www.funknmary.de/bergdichter/projekte/index.php?page=ELDER">ELDER</a></li>
-<li><a href="http://sourceforge.net/projects/ffdshow">ffdshow</a></li>
-<li><a href="http://ffmpeg.org/">ffmpeg</a></li>
-<li><a href="http://gordianknot.sourceforge.net/">GordianKnot</a></li>
-<li><a href="http://handbrake.m0k.org/">Handbrake</a></li>
-<li><a href="http://lives.sourceforge.net/">LiVES</a></li>
-<li><a href="http://forum.doom9.org/showthread.php?t=96032">MeGUI</a></li>
-<li><a href="http://www.mplayerhq.hu/">MEncoder</a></li>
-<li><a href="http://www.pspvideo9.com">pspVideo9</a></li>
-<li><a href="http://www.detritus.qc.ca/">RealAnime</a></li>
-<li><a href="http://www.planetdvb.net/staxrip/">StaxRip</a></li>
-<li><a href="http://tcvp.sourceforge.net/">TCVP</a></li>
-<li><a href="/vlc/">VLC media player</a></li>
-</ul>
+    <div class="onecolumn">
+        <h2>People using x264</h2>
+        <ul class="bullets">
+        <li><a href="http://www.youtube.com/">Youtube</a></li>
+        <li><a href="http://www.facebook.com/">Facebook</a></li>
+        <li><a href="http://www.hulu.com/">Hulu</a></li>
+        <li><a href="http://www.bitsontherun.com/">Bits on the Run</a></li>
+        <li><a href="http://video.google.com/">Google Video</a></li>
+        <li><a href="http://www.cs.washington.edu/research/MobileASL/">MobileASL</a></li>
+        <li><a href="http://speeddemosarchive.com">Speed Demos Archive</a></li>
+        <li><a href="http://TASvideos.org/">TASvideos</a></li>
+        </ul>
 
-<h2>People using x264</h2>
-<ul>
-<li><a href="http://www.youtube.com/">Youtube</a></li>
-<li><a href="http://www.facebook.com/">Facebook</a></li>
-<li><a href="http://www.hulu.com/">Hulu</a></li>
-<li><a href="http://www.bitsontherun.com/">Bits on the Run</a></li>
-<li><a href="http://video.google.com/">Google Video</a></li>
-<li><a href="http://www.cs.washington.edu/research/MobileASL/">MobileASL</a></li>
-<li><a href="http://speeddemosarchive.com">Speed Demos Archive</a></li>
-<li><a href="http://TASvideos.org/">TASvideos</a></li>
-</ul>
+        <p>If you use <b>x264</b> in another project, let <em>us know</em>!</p>
+    </div>
 
-<p>If you use x264 in another project, let us know !</p>
-
-<h2>Awards</h2>
-<p>2010 May 25 -- x264 won <a href="http://www.compression.ru/video/codec_comparison/h264_2010/">Sixth MPEG-4 AVC/H.264 Video Codecs Comparison MSU</a>, ~24% better than second place.</p>
-<p>2005 December 26 -- x264 won <a href="http://www.doom9.org/index.html?/codecs-final-105-1.htm">Doom9's 2005 codec shoot-out</a>, passing Ateme by a hair.</p>
-<p>2005 December 12 -- x264 tied for 1st place (with Ateme) in the <a href="http://www.compression.ru/video/codec_comparison/mpeg-4_avc_h264_2005_en.html">second annual MSU MPEG-4 AVC/ H.264 codecs comparison</a>.</p>
+    <div class="lastcolumn">
+        <h2>Awards</h2>
+        <p><b>2010 May 25</b> -- x264 won <a href="http://www.compression.ru/video/codec_comparison/h264_2010/">MSU Sixth MPEG-4 AVC/H.264 Video Codecs Comparison</a>, ~24% better than second place.</p>
+        <p><b>2005 December 26</b> -- x264 won <a href="http://www.doom9.org/index.html?/codecs-final-105-1.htm">Doom9's 2005 codec shoot-out</a>, passing Ateme by a hair.</p>
+        <p><b>2005 December 12</b> -- x264 tied for 1st place (with Ateme) in the <a href="http://www.compression.ru/video/codec_comparison/mpeg-4_avc_h264_2005_en.html">second annual MSU MPEG-4 AVC/ H.264 codecs comparison</a>.</p>
+    </div>
+</div>
 
 <?php footer('$Id$'); ?>

@@ -14,7 +14,7 @@
                 and is is released under the terms of the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU GPL</a>.</p>
 
             </div>
-            <a class='extraInfoLink' href='#features'>Features</a>
+    <!-->        <a class='extraInfoLink' href='#features'>Features</a> -->
             <a id='downloadButton' href='ftp://ftp.videolan.org/pub/x264/snapshots/last_x264.tar.bz2'>
                 <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadX264.png' alt='Download x264 icon' />
                 <div class='downloadText'>Download x264</div>

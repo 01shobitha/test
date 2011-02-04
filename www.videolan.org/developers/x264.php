@@ -53,7 +53,7 @@
 
 <div class="clearme"></div>
 
-<h2>Getting x264</h2>
+<h1>Getting x264</h1>
 
 <p>The latest <b>x264 source code</b> can always be found by anonymous <a href="http://wiki.videolan.org/Git">git</a> repository:</p>
 
@@ -88,6 +88,7 @@
     <li> Psy optimizations for detail retention (adaptive quantization, psy-RD, psy-trellis)</li>
     <li> Zones for arbitrarily adjusting bitrate distribution</li>
 </ul>
+
 <h2>Authors</h2>
     <p>The code is written from scratch by <a href="mailto:fenrir@videolan.org">Laurent Aimar</a>,
     <a href="mailto:pengvado@users.sourceforge.net">Loren Merritt</a>, <a href="mailto:titer@videolan.org">Eric Petit</a> (OS X),
@@ -112,7 +113,7 @@
 <li><a href="http://sourceforge.net/projects/ffdshow">ffdshow</a></li>
 <li><a href="http://ffmpeg.org/">ffmpeg</a></li>
 <li><a href="http://gordianknot.sourceforge.net/">GordianKnot</a></li>
-<li><a href="http://handbrake.m0k.org/">Handbrake</a>: a multi-platform, multithreaded DVD to MPEG-4 ripper/converter.</li>
+<li><a href="http://handbrake.m0k.org/">Handbrake</a></li>
 <li><a href="http://lives.sourceforge.net/">LiVES</a></li>
 <li><a href="http://forum.doom9.org/showthread.php?t=96032">MeGUI</a></li>
 <li><a href="http://www.mplayerhq.hu/">MEncoder</a></li>
@@ -120,11 +121,14 @@
 <li><a href="http://www.detritus.qc.ca/">RealAnime</a></li>
 <li><a href="http://www.planetdvb.net/staxrip/">StaxRip</a></li>
 <li><a href="http://tcvp.sourceforge.net/">TCVP</a></li>
-<li><a href="http://www.videolan.org/">VLC media player</a>: a cross-platform video player and streaming solution.</li>
+<li><a href="/vlc/">VLC media player</a></li>
 </ul>
 
 <h2>People using x264</h2>
 <ul>
+<li><a href="http://www.youtube.com/">Youtube</a></li>
+<li><a href="http://www.facebook.com/">Facebook</a></li>
+<li><a href="http://www.hulu.com/">Hulu</a></li>
 <li><a href="http://www.bitsontherun.com/">Bits on the Run</a></li>
 <li><a href="http://video.google.com/">Google Video</a></li>
 <li><a href="http://www.cs.washington.edu/research/MobileASL/">MobileASL</a></li>
@@ -135,7 +139,7 @@
 <p>If you use x264 in another project, let us know !</p>
 
 <h2>Awards</h2>
-
+<p>2010 May 25 -- x264 won <a href="http://www.compression.ru/video/codec_comparison/h264_2010/">Sixth MPEG-4 AVC/H.264 Video Codecs Comparison MSU</a>, ~24% better than second place.</p>
 <p>2005 December 26 -- x264 won <a href="http://www.doom9.org/index.html?/codecs-final-105-1.htm">Doom9's 2005 codec shoot-out</a>, passing Ateme by a hair.</p>
 <p>2005 December 12 -- x264 tied for 1st place (with Ateme) in the <a href="http://www.compression.ru/video/codec_comparison/mpeg-4_avc_h264_2005_en.html">second annual MSU MPEG-4 AVC/ H.264 codecs comparison</a>.</p>
 

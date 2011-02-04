@@ -108,7 +108,7 @@
 
         <p>For support information and to ask questions, you have the following possibilities:</p>
 
-        <p>A mailing list (<a href="lists.html">x264-devel</a>), a forum (<a href="http://doom10.org/index.php?board=5.0">Doom10</a>),
+        <p>A mailing list (<a href="http://mailman.videolan.org/listinfo/x264-devel">x264-devel</a>), a forum (<a href="http://doom10.org/index.php?board=5.0">Doom10</a>),
          and IRC (<a href="irc://irc.freenode.net/x264">#x264@freenode</a> and <a href="irc://irc.freenode.net/x264dev">#x264dev@freenode</a>).</p>
     </div>
 

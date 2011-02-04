@@ -74,7 +74,7 @@
     <p><b>2005 December 12</b> -- x264 tied for 1st place (with Ateme) in the <a href="http://www.compression.ru/video/codec_comparison/mpeg-4_avc_h264_2005_en.html">second annual MSU MPEG-4 AVC/ H.264 codecs comparison</a>.</p>
 </div>
 
-<h2<a name="features">Encoder features</a></h2>
+<h2><a name="features">Encoder features</a></h2>
 <ul class="bullets">
     <li> 8x8 and 4x4 adaptive spatial transform</li>
     <li> Adaptive B-frame placement</li>

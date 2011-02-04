@@ -127,7 +127,7 @@
 </div>
 
 <div class="clearme" style="padding-top: 20px;">
-         <h2>Software using x264</h2>
+        <h2>Software using x264</h2>
         <ul class="soft_list">
         <li><a href="http://avidemux.org/">Avidemux</a></li>
         <li><a href="http://www.funknmary.de/bergdichter/projekte/index.php?page=ELDER">ELDER</a></li>

@@ -128,7 +128,7 @@
 
 <div class="clearme" style="padding-top: 20px;">
          <h2>Software using x264</h2>
-        <ul>
+        <ul class="soft_list">
         <li><a href="http://avidemux.org/">Avidemux</a></li>
         <li><a href="http://www.funknmary.de/bergdichter/projekte/index.php?page=ELDER">ELDER</a></li>
         <li><a href="http://sourceforge.net/projects/ffdshow">ffdshow</a></li>
@@ -142,6 +142,7 @@
         <li><a href="http://www.detritus.qc.ca/">RealAnime</a></li>
         <li><a href="http://staxmedia.sourceforge.net/">StaxRip</a></li>
         <li><a href="/vlc/">VLC media player</a></li>
+        <li><a href="http://tmpgenc.pegasys-inc.com/en/product/tvmw5.html" rel="nofollow">TMPGEnc Video Mastering Works 5</a></li>
         <li>... and many more</li>
         </ul>
         <p>If you use <b>x264</b> in another project, let <em>us know</em>!</p>

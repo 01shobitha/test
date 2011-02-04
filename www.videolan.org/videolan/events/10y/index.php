@@ -10,7 +10,7 @@
 <br />
 <h3>Support us</h3>
 <p>Since all the work on <a href="/vlc/">VLC</a> and other <a href="/projects">videolan projects</a> is done by <b>volunteers</b>
-in their <b>free time</b>, we welcome donations to help us manage the software.<b>Donate <a href="/contribute.html">now!</a></b></p>
+in their <b>free time</b>, we welcome donations to help us manage the software. <b>Donate <a href="/contribute.html">now!</a></b></p>
 <h3>Share</h3>
 <a href="http://digg.com/news/technology/videolan_10_years_of_open_source">Digg</a>
 <a href="http://www.facebook.com/vlc.media.player">Facebook</a>

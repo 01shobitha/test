@@ -21,8 +21,8 @@ in their <b>free time</b>, we welcome donations to help us manage the software.<
 <div id="sidebar">
 <h1><a class="actionDay" id="link-day1">Day 1</a></h1>
 <h1><a class="actionDay" id="link-day2">Day 2</a></h1>
-<h1><a class="actionDay" id="link-day3" style="font-weight: bold;">Day 3</a></h1>
-<h1>Day  4</h1>
+<h1><a class="actionDay" id="link-day3">Day 3</a></h1>
+<h1><a class="actionDay" id="link-day4" style="font-weight: bold;">Day 4</a></h1>
 <h1>Day  5</h1>
 <h1>Day  6</h1>
 <h1>Day  7</h1>
@@ -80,11 +80,35 @@ in their <b>free time</b>, we welcome donations to help us manage the software.<
         <p>It is still a work in progress, but we'll keep working on it with your help.</p>
     </div>
 
-    <div id="day3" class="selected">
+    <div id="day3" style="display: none;">
         <h1>Day 3: A cool video about VLC</h1>
         <p>For our 3<sup>rd</sup> day, we'd like to share a video that we think should be more known.</p>
         <p>Video created by Adam Vian.</p>
         <iframe title="YouTube video player" width="640" height="390" src="http://www.youtube.com/embed/vVXGLPl3n7E" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div id="day4" class="selected">
+        <h1>Day 4: The best skins for VLC</h1>
+        <br />
+        <p>For our 4<sup>th</sup> day, we'd like to share the <b>6 best skins</b> we've seen this year.</p>
+        <br />
+        <br />
+
+<?php
+function vlcskins($img,$thumb, $skin){
+    echo"<div style='width: 230px; font-size: 2em; float: left; text-align: center;'><div class='screenshot' style='overflow: hidden; width: 200px; height: 120px;'>"
+        ."<a href='http://images1.videolan.org/vlc/skins2/$img'><img
+        src='http://images1.videolan.org/vlc/skins2/$thumb' alt='VLC media player - $desc' /></a>
+    </div>";
+    echo "<a href='http://www1.videolan.org/vlc/download-skins2-go.php?url=$skin'>Get this skin!</a></div>";
+}
+        vlcskins('Preview.jpg', 'tm_Preview.jpg', 'eDark Vlc.vlt' );
+        vlcskins('screen_vlc_def_mod.jpg', 'tm_screen_vlc_def_mod.jpg', 'default_mod_mentalrey.vlt' );
+        vlcskins('ASkin.png', 'tm_ASkin.png', 'ASkin.vlt' );
+        vlcskins('vlc_skin.png', 'tm_vlc_skin.png', 'avs_0_95_beta.vlt' );
+        vlcskins('darklounge_preview.jpg', 'tm_darklounge_preview.jpg', 'darklounge_vlc_1.0.vlt' );
+        vlcskins('Alienware Darkstar.PNG', 'tm_Alienware Darkstar.PNG', 'Alienware Darkstar.vlt' );
+?>
     </div>
 
 </div>

@@ -1,57 +1,74 @@
 <?php
-   $title = "VideoLAN - x264";
-   $lang = "en";
-   $menu = array( "developers", "x264" );
+   $title = "x264, the best H.264/AVC encoder";
    $body_color = "green";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-        <div>
-            <?php image( 'x264-Icon.png', 'Large Green x264 Logo', 'projectImg' ); ?>
-            <div style='float: left; width: 500px;'>
-                <h1 class='bigtitle'>x264</h1>
-                <div class='projectDescription'>
-        <p>x264 is a <b>free software</b> <b>library</b> and <b>application</b> for encoding video streams into the
-        <b><a href="http://en.wikipedia.org/wiki/H.264">H.264/MPEG-4 AVC</a></b> format,
-        and is is released under the terms of the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU GPL</a>.</p>
+    <div>
+        <?php image( 'x264-Icon.png', 'Large Green x264 Logo', 'projectImg' ); ?>
+        <div style='float: left; width: 500px;'>
+            <h1 class='bigtitle'>x264</h1>
+            <div class='projectDescription'>
+                <p>x264 is a <b>free software</b> <b>library</b> and <b>application</b> for encoding video streams into the
+                <b><a href="http://en.wikipedia.org/wiki/H.264">H.264/MPEG-4 AVC</a></b> format,
+                and is is released under the terms of the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU GPL</a>.</p>
 
-                </div>
-                <a class='extraInfoLink' href='#features'>Features</a>
-                <a class='extraInfoLink' href='#screens'>Screenshots</a>
-                <a id='downloadButton' href='ftp://ftp.videolan.org/pub/x264/snapshots/last_x264.tar.bz2'>
-                    <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadX264.png' alt='Download x264 icon' />
-                    <div class='downloadText'>Download x264</div>
-                    <span id='downloadDetails' style='font-size: 12px; color: white;'>
-                        master &nbsp;&#8226;&nbsp; Source &nbsp;&#8226;&nbsp; 475kB
-                    </span>
-                </a>
-                <a class='extraInfoLink' href='#' style="padding-left: 100px;">Other Systems and Versions</a>
             </div>
+            <a class='extraInfoLink' href='#features'>Features</a>
+            <a class='extraInfoLink' href='#screens'>Screenshots</a>
+            <a id='downloadButton' href='ftp://ftp.videolan.org/pub/x264/snapshots/last_x264.tar.bz2'>
+                <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadX264.png' alt='Download x264 icon' />
+                <div class='downloadText'>Download x264</div>
+                <span id='downloadDetails' style='font-size: 12px; color: white;'>
+                    master &nbsp;&#8226;&nbsp; Source &nbsp;&#8226;&nbsp; 475kB
+                </span>
+            </a>
+<!--            <a class='extraInfoLink' href='#' style="padding-left: 100px;">Other Systems and Versions</a>-->
         </div>
+    </div>
 
-<h1>x264 - a free h264/avc encoder</h1>
+    <div style='clear: both; padding-top: 40px;'>
+        <div style='float: left; width: 400px; color: #333333;'>
+            <a name="features"></a>
+            <h1 style='margin-bottom: 25px;'>Features Overview</h1>
+            Provides <b>best-in-class</b> performance, compression, and features.<br />
+            <br />
+            Achieves dramatic <b>Performance</b>, encoding 4 or more 1080p streams in realtime on a single consumer-level computer.<br />
+            <br />
+            Gives the best <b>Quality</b>, having the most advanced <b>psychovisual optimizations</b>.<br />
+            <br />
+            Support <b>features</b> necessary for many different applications, such as <b>television broadcast</b>, <b>Blu-ray</b>,
+            low-latency video applications, and <b>web video</b>.<br />
+            <br />x264 forms the core of many web video services, such as <b>Youtube, Facebook, Vimeo, and Hulu</b>.
+             It is widely used in television <b>broadcast</b> and by <b>ISP</b>.<br />
+            <br />Has won so many awards.<br />
+        </div>
+        <div style='float: right; width: 450px; padding-left: 70px;'>
+                <a name="screenshots"></a>
+                <h1 style='padding-left: 5px; margin-bottom: 25px;'>Screenshots</h1>
 
-    <p>The code is written from scratch by <a href="mailto:fenrir@videolan.org">Laurent Aimar</a>,
-    <a href="mailto:pengvado@users.sourceforge.net">Loren Merritt</a>, <a href="mailto:titer@videolan.org">Eric Petit</a> (OS X),
-    <a href="mailto:chenm001@163.com">Min Chen</a> (vfw/asm), Justin Clay (vfw), <a href="mailto:mru@mru.ath.cx">M&aring;ns Rullg&aring;rd</a>,
-    Radek Czyz, Christian Heine (asm), Alex Izvorski, Alex Wright and <a href="mailto:darkshikari@gmail.com">Jason Garrett-Glaser</a>.</p>
+            <?php image('x264/sixth_msu_conclusion.png', "x264 comparison"); ?>
+        </div>
+    </div>
+
+<div class="clearme"></div>
+
+<h2>Getting x264</h2>
+
+<p>The latest <b>x264 source code</b> can always be found by anonymous <a href="http://wiki.videolan.org/Git">git</a> repository:</p>
+
+<p><code># git clone git://git.videolan.org/x264.git</code></p>
+
+<p>Or grab a <a href="ftp://ftp.videolan.org/pub/videolan/x264/snapshots/"><b>daily tarball</b></a>.</p>
+
+<p>You can <a href="http://git.videolan.org/?p=x264.git;a=summary">browse the source</a> on-line.</p>
+
+<p>Unofficial builds for <b>Windows</b> are available from <a href="http://x264.nl/">Jarod</a>,
+<a href="http://doom10.org/index.php?topic=3.0">techouse</a>, or
+<a href="http://forum.doom9.org/showthread.php?t=89979">Sharktooth</a>.</p>
 
 
-<h2>x264 Overview</h2>
-    <p>It provides <b>best-in-class</b> performance, compression, and features.<br />
-    <b>Performance-wise</b>, x264 can encode 4 or more 1080p streams in realtime on a single consumer-level computer.<br />
-    <b>Quality-wise</b>, x264 has the world's most advanced <b>psychovisual optimizations</b> and has won many awards,
-    <!-- most recently a <b>dramatic victory</b> in the <b>2010 MSU codec</b> comparison-->.<br />
-    <b>Feature-wise</b>, x264 supports features necessary for many different applications, such as <b>television broadcast</b>, <b>Blu-ray</b>,
-    low-latency video applications, and <b>web video</b>.</p>
-
-    <p>x264 forms the core of many web video services, such as <b>Youtube, Facebook, Vimeo, and Hulu</b>.
-     It is also used in television broadcast by companies such as Avail Media.</p>
-
-<h2>Development status</h2>
-
-<h3>Encoder features</h3>
-
+<h2>Encoder features</h2>
 <ul class="bullets">
     <li> 8x8 and 4x4 adaptive spatial transform</li>
     <li> Adaptive B-frame placement</li>
@@ -71,20 +88,12 @@
     <li> Psy optimizations for detail retention (adaptive quantization, psy-RD, psy-trellis)</li>
     <li> Zones for arbitrarily adjusting bitrate distribution</li>
 </ul>
+<h2>Authors</h2>
+    <p>The code is written from scratch by <a href="mailto:fenrir@videolan.org">Laurent Aimar</a>,
+    <a href="mailto:pengvado@users.sourceforge.net">Loren Merritt</a>, <a href="mailto:titer@videolan.org">Eric Petit</a> (OS X),
+    <a href="mailto:chenm001@163.com">Min Chen</a> (vfw/asm), Justin Clay (vfw), <a href="mailto:mru@mru.ath.cx">M&aring;ns Rullg&aring;rd</a>,
+    Radek Czyz, Christian Heine (asm), Alex Izvorski, Alex Wright and <a href="mailto:darkshikari@gmail.com">Jason Garrett-Glaser</a>.</p>
 
-<h2>Getting x264</h2>
-
-<p>The latest x264 source code can always be found by anonymous <a href="http://wiki.videolan.org/Git">Git</a> repository:</p>
-
-<p><code># git clone git://git.videolan.org/x264.git</code></p>
-
-<p>Or grab a <a href="ftp://ftp.videolan.org/pub/videolan/x264/snapshots/">daily tarball</a>.</p>
-
-<p>You can browse the source <a href="http://git.videolan.org/?p=x264.git;a=summary">on-line</a>.</p>
-
-<p>Unofficial builds for Windows are available from <a href="http://x264.nl/">Jarod</a>,
-<a href="http://doom10.org/index.php?topic=3.0">techouse</a>, or
-<a href="http://forum.doom9.org/showthread.php?t=89979">Sharktooth</a>.</p>
 
 <h2>Support</h2>
 

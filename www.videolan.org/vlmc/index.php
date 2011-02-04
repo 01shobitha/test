@@ -1,39 +1,37 @@
 <?php
-   $title = "Free Software and Open Source video streaming solution for every OS!";
-   $lang = "en";
-   $menu = array( "projects", "projects" );
+   $title = "VLMC, open source video editor";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-        <div>
-            <?php image( 'VLMC-Icon.png', 'Large Orange VLMC Logo', 'projectImg' ); ?>
-            <div style='float: left; width: 500px;'>
-                <h1 class='bigtitle'>VLMC</h1>
-                <div class='projectDescription'>
-                    VideoLAN Movie Creator is a non-linear editing software for video creation based on libVLC and running on Windows, Linux and Mac OS X!
-                    It is a free software distributed under the terms of the GPL v2.
-                </div>
-                <a class='extraInfoLink' href='#features'>Features</a>
-                <a class='extraInfoLink' href='#screenshots'>Screenshots</a>
+   <div>
+       <?php image( 'VLMC-Icon.png', 'Large Orange VLMC Logo', 'projectImg' ); ?>
+       <div style='float: left; width: 500px;'>
+           <h1 class='bigtitle'>VLMC</h1>
+           <div class='projectDescription'>
+               VideoLAN Movie Creator is a non-linear editing software for video creation based on libVLC and running on Windows, Linux and Mac OS X!
+               It is a free software distributed under the terms of the GPL v2.
+           </div>
+           <a class='extraInfoLink' href='#features'>Features</a>
+           <a class='extraInfoLink' href='#screenshots'>Screenshots</a>
 <!--                <a class='extraInfoLink' href='#'>Other Systems and Versions</a> -->
-                <div class="clearme"> </div>
-                <h1>We are <a href="http://trac.videolan.org/vlmc/wiki/Contributing">looking for contributors!</a></h1>
-            </div>
+            <div class="clearme"> </div>
+            <h1>We are <a href="http://trac.videolan.org/vlmc/wiki/Contributing">looking for contributors!</a></h1>
         </div>
-        <div style='clear: both; padding-top: 90px;'>
-            <div style='float: left; width: 400px; color: #333333;'>
-                <a name="features"></a>
-                <h1 style='margin-bottom: 25px;' class='red'>Features</h1>
-                Cross Platform program<br />
-                <br />
-                Based on VLC<br />
-                <br />
-                Read most file formats and can export to most formats<br />
-                <br />
-                Youtube upload integration<br />
-                <br />
-                Simple to use, yet powerful<br />
-            </div>
+    </div>
+    <div style='clear: both; padding-top: 90px;'>
+        <div style='float: left; width: 400px; color: #333333;'>
+            <a name="features"></a>
+            <h1 style='margin-bottom: 25px;' class='red'>Features</h1>
+            Cross Platform program<br />
+            <br />
+            Based on VLC<br />
+            <br />
+            Read most file formats and can export to most formats<br />
+            <br />
+            Youtube upload integration<br />
+            <br />
+            Simple to use, yet powerful<br />
+        </div>
 <?php
 function vlmcscreenshot($img,$thumb, $desc){
     echo"<div class='screenshot' style='height: 70px;'><a href='http://images1.videolan.org/vlmc/screenshots/$img'><img
@@ -41,7 +39,7 @@ function vlmcscreenshot($img,$thumb, $desc){
     </div>";
 }
 ?>
-            <div style='float: right; width: 450px; padding-left: 70px;'>
+        <div style='float: right; width: 450px; padding-left: 70px;'>
                 <a name="screenshots"></a>
                 <h1 style='padding-left: 5px; margin-bottom: 25px;'>Screenshots</h1>
 <?php
@@ -50,8 +48,8 @@ function vlmcscreenshot($img,$thumb, $desc){
                 vlmcscreenshot('snapshot12.png', 'tm_snapshot12.png', "Screenshot" );
                 vlmcscreenshot('snapshot2.png', 'tm_snapshot2.png', "Screenshot" );
 ?>
-            </div>
         </div>
+    </div>
 <!--        <div class='tricolumn'>
             <div class="onecolumn">
                 <h1>Heading One</h1>

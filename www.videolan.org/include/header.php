@@ -297,7 +297,7 @@ if(!isset($additional_js)) $additional_js = array();
 if(!isset($body_onload)) $body_onload = "";
 if(!isset($body_onunload)) $body_onunload = "";
 if(!isset($body_color)) $body_color = "orange";
-
+if(!isset($nobanner)) $nobanner = false;
 /* render the page */
 
 // HTML header

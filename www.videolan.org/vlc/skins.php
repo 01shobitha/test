@@ -102,13 +102,14 @@ $sp_size = FormatSize( $r['size'] );
 
 <?php
 $sort = ( isset($_GET["sort"]) )? $_GET["sort"] : "date_mod" ;
-$query='SELECT AVG(rating) as avg, COUNT(rating) as count, skins.id as id, name, author, downloads, date_added, date_modified, image, url, min_version, size FROM skins INNER JOIN "skins-rating" ON skins.id="skins-rating".skin_id WHERE skins.accepted=true GROUP BY skins.id, skins.name, skins.author, skins.downloads, skins.date_added, skins.date_modified, skins.image, skins.url, skins.min_version, skins.size';
+//$query='SELECT AVG(rating) as avg, COUNT(rating) as count, skins.id as id, name, author, downloads, date_added, date_modified, image, url, min_version, size FROM skins INNER JOIN "skins-rating" ON skins.id="skins-rating".skin_id WHERE skins.accepted=true GROUP BY skins.id, skins.name, skins.author, skins.downloads, skins.date_added, skins.date_modified, skins.image, skins.url, skins.min_version, skins.size';
   
+$query = 'SELECT skins.id as id, name, author, downloads, date_added, date_modified, image, url, min_version, size FROM skins WHERE skins.accepted=true GROUP BY skins.id, skins.name, skins.author, skins.downloads, skins.date_added, skins.date_modified, skins.image, skins.url, skins.min_version, skins.size';
 switch( $sort )
 {
-  case "rating":
+/*  case "rating":
     $query .= ' ORDER BY avg DESC, downloads DESC';
-    break;
+break;*/
   case "downloads":
     $query .= " ORDER BY downloads DESC, date_added DESC";
     break;

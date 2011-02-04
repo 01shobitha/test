@@ -15,7 +15,6 @@
 
             </div>
             <a class='extraInfoLink' href='#features'>Features</a>
-            <a class='extraInfoLink' href='#screens'>Screenshots</a>
             <a id='downloadButton' href='ftp://ftp.videolan.org/pub/x264/snapshots/last_x264.tar.bz2'>
                 <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadX264.png' alt='Download x264 icon' />
                 <div class='downloadText'>Download x264</div>
@@ -33,19 +32,19 @@
             <h1 style='margin-bottom: 25px;'>Features Overview</h1>
             Provides <b>best-in-class</b> performance, compression, and features.<br />
             <br />
-            Achieves dramatic <b>Performance</b>, encoding 4 or more 1080p streams in realtime on a single consumer-level computer.<br />
+            Achieves dramatic <b>performance</b>, encoding 4 or more 1080p streams in realtime on a single consumer-level computer.<br />
             <br />
-            Gives the best <b>Quality</b>, having the most advanced <b>psychovisual optimizations</b>.<br />
+            Gives the best <b>quality</b>, having the most advanced <b>psychovisual optimizations</b>.<br />
             <br />
             Support <b>features</b> necessary for many different applications, such as <b>television broadcast</b>, <b>Blu-ray</b>,
             low-latency video applications, and <b>web video</b>.<br />
             <br />x264 forms the core of many web video services, such as <b>Youtube, Facebook, Vimeo, and Hulu</b>.
-             It is widely used in television <b>broadcast</b> and by <b>ISP</b>.<br />
-            <br />Has won so many awards.<br />
+             It is widely used in television broadcast and by ISP.<br />
+<!--            <br />Has won so many awards.<br /> -->
         </div>
         <div style='float: right; width: 450px; padding-left: 70px;'>
                 <a name="screenshots"></a>
-                <h1 style='padding-left: 5px; margin-bottom: 25px;'>Screenshots</h1>
+<!--                <h1 style='padding-left: 5px; margin-bottom: 25px;'>Screenshots</h1> -->
 
             <?php image('x264/sixth_msu_conclusion.png', "x264 comparison"); ?>
         </div>
@@ -89,11 +88,11 @@
     <li> Zones for arbitrarily adjusting bitrate distribution</li>
 </ul>
 
-<h2>Authors</h2>
+<!-- <h2>Authors</h2>
     <p>The code is written from scratch by <a href="mailto:fenrir@videolan.org">Laurent Aimar</a>,
     <a href="mailto:pengvado@users.sourceforge.net">Loren Merritt</a>, <a href="mailto:titer@videolan.org">Eric Petit</a> (OS X),
     <a href="mailto:chenm001@163.com">Min Chen</a> (vfw/asm), Justin Clay (vfw), <a href="mailto:mru@mru.ath.cx">M&aring;ns Rullg&aring;rd</a>,
-    Radek Czyz, Christian Heine (asm), Alex Izvorski, Alex Wright and <a href="mailto:darkshikari@gmail.com">Jason Garrett-Glaser</a>.</p>
+    Radek Czyz, Christian Heine (asm), Alex Izvorski, Alex Wright and <a href="mailto:darkshikari@gmail.com">Jason Garrett-Glaser</a>.</p>-->
 
 
 <h2>Support</h2>

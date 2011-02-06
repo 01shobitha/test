@@ -23,7 +23,7 @@ in their <b>free time</b>, we welcome donations to help us manage the software. 
 <h1><a class="actionDay" id="link-day2">Day 2</a></h1>
 <h1><a class="actionDay" id="link-day3">Day 3</a></h1>
 <h1><a class="actionDay" id="link-day4" style="font-weight: bold;">Day 4</a></h1>
-<h1>Day  5</h1>
+<h1><a class="actionDay" id="link-day5" style="font-weight: bold;">Day 5</a></h1>
 <h1>Day  6</h1>
 <h1>Day  7</h1>
 <h1>Day  8</h1>
@@ -87,7 +87,7 @@ in their <b>free time</b>, we welcome donations to help us manage the software. 
         <iframe title="YouTube video player" width="640" height="390" src="http://www.youtube.com/embed/vVXGLPl3n7E" frameborder="0" allowfullscreen></iframe>
     </div>
 
-    <div id="day4" class="selected">
+    <div id="day4" style="display: none;">
         <h1>Day 4: The best skins for VLC</h1>
         <br />
         <p>For our 4<sup>th</sup> day, we'd like to share the <b>6 best skins</b> we've seen this year.</p>
@@ -109,6 +109,17 @@ function vlcskins($img,$thumb, $skin){
         vlcskins('darklounge_preview.jpg', 'tm_darklounge_preview.jpg', 'darklounge_vlc_1.0.vlt' );
         vlcskins('Alienware Darkstar.PNG', 'tm_Alienware Darkstar.PNG', 'Alienware Darkstar.vlt' );
 ?>
+    </div>
+
+    <div id="day5" class="selected">
+        <h1>Day 5: Small photo from the VideoLAN team from FOSDEM</h1>
+        <br />
+        <p>For our 5<sup>th</sup> day, we'd like to share a small <b>photo</b> we've done during the <a href="http://fosdem.org">FOSDEM</a>
+           conference, where some people from the <a href="/videolan/">VideoLAN team</a> met today, and tomorrow.</p>
+        <p>The picture is taken in front of the huge Brussels green cone.</a>
+        <br />
+        <img src="/videolan/events/10y/Brussels_VideoLAN.jpg" alt="VideoLAN in FOSDEM 2011" />
+        <br />
     </div>
 
 </div>

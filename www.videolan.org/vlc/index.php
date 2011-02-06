@@ -127,7 +127,7 @@ function addos( $name, $class, $url, $bold=false )
                  addos( "Solaris", "solaris", "download-sources.html" );
                  addos( "QNX", "qnx", "download-sources.html" );
                  addos( "Syllable", "syllable", "download-syllable.html" );
-                 addos( "OS/2", "os2", "http://hobbes.nmsu.edu/h-viewer.php?dir=/pub/os2/apps/mmedia/video/players&file=vlc-1.0.5-beta1.zip" ); ?>
+                 addos( "OS/2", "os2", "http://hobbes.nmsu.edu/h-search.php?sh=1&button=Search&key=vlc&stype=all&sort=date&dir=%2Fpub%2Fos2%2Fapps%2Fmmedia%2Fvideo%2Fplayers" ); ?>
             </div>
         </div>
         <div style='clear: both;'></div>

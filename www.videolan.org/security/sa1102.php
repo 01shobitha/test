@@ -13,7 +13,7 @@ Summary           : Insufficient input validation in MKV demuxer
 Date              : January 2011
 Affected versions : VLC media player 1.1.6.1 and earlier
 ID                : VideoLAN-SA-1102
-CVE reference     : Unassigned
+CVE reference     : CVE-2011-0531
 </pre>
 <h2>Details</h2>
 <p>When parsing an invalid MKV (Matroska or WebM) file,
@@ -70,8 +70,8 @@ from the official VLC source code repositories.
 <dd>VLC media player 1.1.7 source released</dd>
 <dt>1 February 2011</dt>
 <dd>VLC media player 1.1.7 binaries released</dd>
-<dt>TBD</dt>
-<dd>CVE ID reserved</dd>
+<dt>7 February 2011</dt>
+<dd>CVE ID released CVE-2011-0531</dd>
 </dl>
 
 <address>R&eacute;mi Denis-Courmont,<br />

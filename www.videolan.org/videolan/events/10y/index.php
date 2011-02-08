@@ -24,8 +24,8 @@ in their <b>free time</b>, we welcome donations to help us manage the software. 
 <h1><a class="actionDay" id="link-day3">Day 3</a></h1>
 <h1><a class="actionDay" id="link-day4">Day 4</a></h1>
 <h1><a class="actionDay" id="link-day5">Day 5</a></h1>
-<h1><a class="actionDay" id="link-day6" style="font-weight: bold;">Day 6</a></h1>
-<h1>Day  7</h1>
+<h1><a class="actionDay" id="link-day6">Day 6</a></h1>
+<h1><a class="actionDay" id="link-day7" style="font-weight: bold;">Day 7</a></h1>
 <h1>Day  8</h1>
 <h1>Day  9</h1>
 <h1>Day 10</h1>
@@ -152,6 +152,38 @@ function vlcskins($img,$thumb, $skin){
         <br />
         <p><em style="font-style: italic;">Sorry, but because of the FOSDEM event, this day 6, that was supposed to be out on sunday, went out on monday :D</em></p>
         <br />
+    </div>
+
+    <div id="day7" class="selected">
+        <h1>Day 7: Cool thing to do with VLC</h1>
+        <p>For our 7<sup>th</sup> day, we'd like to show out feature of VLC that you probably don't know about.</p>
+
+        <h2>Running with coloured text output</h2>
+        <p>One of the most useless feature of VLC is the <b>Colored ASCII</b> mode. To use it:<br />
+        - <code>vlc -Acaca</code>
+        - Preferences → Video → Change "output" to "Color ascii-art video output".
+        </p>
+
+        <h2>Running with no interface</h2>
+        <p>If you like the <b>MPlayer</b> usability, or if you want a VLC with no interaction, you should use the dummy interface:<br />
+        <code>vlc -Idummy</code> or <code>cvlc</code>.</p>
+        <p>You can also approach this mode with the Interface Preferences options: change to "minimal starting mode".</p>
+
+        <h2>Playback your screen</h2>
+        <p>Try this one:<br />
+        Media → Open Capture Device → Change "Capture mode" to "Desktop"<br />
+        Enjoy!</p>
+        <p>You can record, transcode and stream it too!</p>
+
+        <h2>Open a Youtube URL</h2>
+        <p>To open a Youtube video in VLC:<br />
+        Media → Open Network → Paste the complete Youtube URL, like <em style="font-style: italic;">http://www.youtube.com/watch?v=vVXGLPl3n7E</em><br />
+        Enjoy!</p>
+
+        <h2>Use the interactive zoom</h2>
+        <p>Did you know the interactive zoom filter in VLC?</p>
+        <p>To use it, play a video, then<br />Tools → Effects &amp; Filters → Video Effects → Geometry, tick "Magnification/Zoom".<br />
+        Use your mouse in the top left corner to have fun with it!</p>
     </div>
 
 </div>

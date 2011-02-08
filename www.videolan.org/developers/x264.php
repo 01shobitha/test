@@ -139,7 +139,7 @@
         <li><a href="http://forum.doom9.org/showthread.php?t=96032">MeGUI</a></li>
         <li><a href="http://www.mplayerhq.hu/">MEncoder</a></li>
         <li><a href="http://www.pspvideo9.com">pspVideo9</a></li>
-        <li><a href="http://www.detritus.qc.ca/">RealAnime</a></li>
+        <li><a href="http://www.detritus.qc.ca/">Bencos (formerly RealAnime)</a></li>
         <li><a href="http://staxmedia.sourceforge.net/">StaxRip</a></li>
         <li><a href="/vlc/">VLC media player</a></li>
         <li><a href="http://tmpgenc.pegasys-inc.com/en/product/tvmw5.html" rel="nofollow">TMPGEnc Video Mastering Works 5</a></li>

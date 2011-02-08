@@ -122,7 +122,7 @@ function vlcskins($img,$thumb, $skin){
         <br />
     </div>
 
-    <div id="day6" class="selected">
+    <div id="day6" style="display: none;">
         <h1>Day 6: Best extensions for VLC</h1>
         <br />
         <h2>VLC extensions</h2>

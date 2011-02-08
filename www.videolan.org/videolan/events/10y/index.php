@@ -22,9 +22,9 @@ in their <b>free time</b>, we welcome donations to help us manage the software. 
 <h1><a class="actionDay" id="link-day1">Day 1</a></h1>
 <h1><a class="actionDay" id="link-day2">Day 2</a></h1>
 <h1><a class="actionDay" id="link-day3">Day 3</a></h1>
-<h1><a class="actionDay" id="link-day4" style="font-weight: bold;">Day 4</a></h1>
-<h1><a class="actionDay" id="link-day5" style="font-weight: bold;">Day 5</a></h1>
-<h1>Day  6</h1>
+<h1><a class="actionDay" id="link-day4">Day 4</a></h1>
+<h1><a class="actionDay" id="link-day5">Day 5</a></h1>
+<h1><a class="actionDay" id="link-day6" style="font-weight: bold;">Day 6</a></h1>
 <h1>Day  7</h1>
 <h1>Day  8</h1>
 <h1>Day  9</h1>
@@ -111,7 +111,7 @@ function vlcskins($img,$thumb, $skin){
 ?>
     </div>
 
-    <div id="day5" class="selected">
+    <div id="day5" style="display: none;">
         <h1>Day 5: Small photo from the VideoLAN team from FOSDEM</h1>
         <br />
         <p>For our 5<sup>th</sup> day, we'd like to share a small <b>photo</b> we've done during the <a href="http://fosdem.org">FOSDEM</a>
@@ -119,6 +119,38 @@ function vlcskins($img,$thumb, $skin){
         <p>The picture is taken in front of the huge Brussels green cone.</a>
         <br />
         <img src="/videolan/events/10y/Brussels_VideoLAN.jpg" alt="VideoLAN in FOSDEM 2011" />
+        <br />
+    </div>
+
+    <div id="day6" class="selected">
+        <h1>Day 6: Best extensions for VLC</h1>
+        <br />
+        <h2>VLC extensions</h2>
+        <p>For our 6<sup>th</sup> day, we'd like to speak about <b>extensions</b> for VLC and provide a few.</p>
+        <p>Extensions in VLC are not very popular yet, because we are missing a few functionnalities.<br />
+            Still, some are already cool to use.</p>
+        <p>Extensions in VLC can add new features that we don't want to support in the main core, or that we cannot.</p>
+
+        <h2>Some extensions</h2>
+        <br />
+        <h3>VLC extension: subtitles downloader</h3>
+        <p>This small extension allows you to get subtitles directly from web databases<br />
+        <a href="http://anonym.to/?http://ale5000.altervista.org/vlc/extensions/subtitles-mod.lua">Download it now!</a></p>
+        <br />
+        <h3>VLC extensions: movie information</h3>
+        <p>These are, in fact, 4 extension to get more information about the movie currently playing:
+        <br /><a href="http://git.videolan.org/?p=vlc.git;a=blob_plain;f=share/lua/extensions/allocine-fr.lua;hb=HEAD">Allocine.fr extension</a>
+        <br /><a href="http://git.videolan.org/?p=vlc.git;a=blob_plain;f=share/lua/extensions/imdb.lua;hb=HEAD">IMDB.com extension</a>
+        <br /><a href="lua/moviedb.lua">themoviedb.org extension</a>
+        <br /><a href="lua/tvdb.lua">thetvdb.com extension</a></p>
+        <p><b>NB:</b> the legality of the use of these extension is not clear yet. If you have any info, please share with us.</p>
+        <br />
+        <h3>VLC extension: Add Similar files</h3>
+        <p>This extension will find the similar files in the same folder (like for TV shows)<br />
+           than the file playing and add them to the playlist.<br />
+        <a href="lua/addsimilar.lua">Download it now!</a></p>
+        <br />
+        <p><em style="font-style: italic;">Sorry, but because of the FOSDEM event, this day 6, that was supposed to be out on sunday, went out on monday :D</em></p>
         <br />
     </div>
 

@@ -160,14 +160,14 @@ function vlcskins($img,$thumb, $skin){
 
         <h2>Running with coloured text output</h2>
         <p>One of the most useless feature of VLC is the <b>Colored ASCII</b> mode. To use it:<br />
-        - <code>vlc -Acaca</code>
+        - <code>vlc -Acaca</code><br />
         - Preferences → Video → Change "output" to "Color ascii-art video output".
         </p>
 
         <h2>Running with no interface</h2>
         <p>If you like the <b>MPlayer</b> usability, or if you want a VLC with no interaction, you should use the dummy interface:<br />
         <code>vlc -Idummy</code> or <code>cvlc</code>.</p>
-        <p>You can also approach this mode with the Interface Preferences options: change to "minimal starting mode".</p>
+        <p>You can also approach this mode with the <b>Interface Preferences</b> options: change to "minimal starting mode".</p>
 
         <h2>Playback your screen</h2>
         <p>Try this one:<br />
@@ -181,7 +181,7 @@ function vlcskins($img,$thumb, $skin){
         Enjoy!</p>
 
         <h2>Use the interactive zoom</h2>
-        <p>Did you know the interactive zoom filter in VLC?</p>
+        <p>Did you know about the interactive zoom filter in VLC?</p>
         <p>To use it, play a video, then<br />Tools → Effects &amp; Filters → Video Effects → Geometry, tick "Magnification/Zoom".<br />
         Use your mouse in the top left corner to have fun with it!</p>
     </div>

@@ -25,8 +25,8 @@ in their <b>free time</b>, we welcome donations to help us manage the software. 
 <h1><a class="actionDay" id="link-day4">Day 4</a></h1>
 <h1><a class="actionDay" id="link-day5">Day 5</a></h1>
 <h1><a class="actionDay" id="link-day6">Day 6</a></h1>
-<h1><a class="actionDay" id="link-day7" style="font-weight: bold;">Day 7</a></h1>
-<h1>Day  8</h1>
+<h1><a class="actionDay" id="link-day7">Day 7</a></h1>
+<h1><a class="actionDay" id="link-day8" style="font-weight: bold;">Day 8</a></h1>
 <h1>Day  9</h1>
 <h1>Day 10</h1>
 </div>
@@ -154,7 +154,7 @@ function vlcskins($img,$thumb, $skin){
         <br />
     </div>
 
-    <div id="day7" class="selected">
+    <div id="day7"  style="display: none;">
         <h1>Day 7: Cool thing to do with VLC</h1>
         <p>For our 7<sup>th</sup> day, we'd like to show out feature of VLC that you probably don't know about.</p>
 
@@ -186,6 +186,33 @@ function vlcskins($img,$thumb, $skin){
         Use your mouse in the top left corner to have fun with it!</p>
     </div>
 
+    <div id="day8" class="selected">
+        <h1>Day 8: Cones</h1>
+        <p>For our 8<sup>th</sup> day, here is a small collection of nice cones.</p>
+<h2>New VLC cone, GCI-rendered, by Richard C. G. Øiestad</h2>
+<p>From the creator of the actual VLC icon, here is a new one.</p>
+<img src="vlc_new_cone.png" alt="VLC cone" />
+
+<h2>Some nice VLC cone</h2>
+<p>A small cone with a translucent film strip around it.</p>
+<img src="vlc_film.png" alt="VLC cone" />
+
+<h2>Funny cones</h2>
+<p>High-Quality Cone icons done by Tom Bigelajzen</p>
+<p><a href="http://images.videolan.org/images/goodies/Cone-Shortcuts-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Shortcuts-small.png" /></a>
+<a href="http://images.videolan.org/images/goodies/Cone-Subs-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Subs-small.png" /></a>
+
+<a href="http://images.videolan.org/images/goodies/Cone-Forum-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Forum-small.png" /></a>
+<a href="http://images.videolan.org/images/goodies/Cone-Video-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Video-small.png" /></a>
+</p>
+<p>
+<a href="http://images.videolan.org/images/goodies/Cone-Audio-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Audio-small.png" /></a>
+<a href="http://images.videolan.org/images/goodies/Cone-Input-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Input-small.png" /></a>
+<a href="http://images.videolan.org/images/goodies/Cone-Interface-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Interface-small.png" /></a>
+<a href="http://images.videolan.org/images/goodies/Cone-List-large.png"><img src="http://images.videolan.org/images/goodies/Cone-List-small.png" /></a>
+</p>
+
+    </div>
 </div>
 
 <script type='text/javascript'>

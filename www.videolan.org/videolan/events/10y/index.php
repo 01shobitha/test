@@ -26,8 +26,8 @@ in their <b>free time</b>, we welcome donations to help us manage the software. 
 <h1><a class="actionDay" id="link-day5">Day 5</a></h1>
 <h1><a class="actionDay" id="link-day6">Day 6</a></h1>
 <h1><a class="actionDay" id="link-day7">Day 7</a></h1>
-<h1><a class="actionDay" id="link-day8" style="font-weight: bold;">Day 8</a></h1>
-<h1>Day  9</h1>
+<h1><a class="actionDay" id="link-day8">Day 8</a></h1>
+<h1><a class="actionDay" id="link-day9" style="font-weight: bold;">Day 9</a></h1>
 <h1>Day 10</h1>
 </div>
 
@@ -154,7 +154,7 @@ function vlcskins($img,$thumb, $skin){
         <br />
     </div>
 
-    <div id="day7"  style="display: none;">
+    <div id="day7" style="display: none;">
         <h1>Day 7: Cool thing to do with VLC</h1>
         <p>For our 7<sup>th</sup> day, we'd like to show out feature of VLC that you probably don't know about.</p>
 
@@ -186,33 +186,72 @@ function vlcskins($img,$thumb, $skin){
         Use your mouse in the top left corner to have fun with it!</p>
     </div>
 
-    <div id="day8" class="selected">
+    <div id="day8" style="display: none;">
         <h1>Day 8: Cones</h1>
         <p>For our 8<sup>th</sup> day, here is a small collection of nice cones.</p>
-<h2>New VLC cone, GCI-rendered, by Richard C. G. Øiestad</h2>
-<p>From the creator of the actual VLC icon, here is a new one.</p>
-<img src="vlc_new_cone.png" alt="VLC cone" />
+        <h2>New VLC cone, GCI-rendered, by Richard C. G. Øiestad</h2>
+        <p>From the creator of the actual VLC icon, here is a new one.</p>
+        <img src="vlc_new_cone.png" alt="VLC cone" />
 
-<h2>Some nice VLC cone</h2>
-<p>A small cone with a translucent film strip around it.</p>
-<img src="vlc_film.png" alt="VLC cone" />
+        <h2>Some nice VLC cone</h2>
+        <p>A small cone with a translucent film strip around it.</p>
+        <img src="vlc_film.png" alt="VLC cone" />
 
-<h2>Funny cones</h2>
-<p>High-Quality Cone icons done by Tom Bigelajzen</p>
-<p><a href="http://images.videolan.org/images/goodies/Cone-Shortcuts-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Shortcuts-small.png" /></a>
-<a href="http://images.videolan.org/images/goodies/Cone-Subs-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Subs-small.png" /></a>
-
-<a href="http://images.videolan.org/images/goodies/Cone-Forum-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Forum-small.png" /></a>
-<a href="http://images.videolan.org/images/goodies/Cone-Video-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Video-small.png" /></a>
-</p>
-<p>
-<a href="http://images.videolan.org/images/goodies/Cone-Audio-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Audio-small.png" /></a>
-<a href="http://images.videolan.org/images/goodies/Cone-Input-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Input-small.png" /></a>
-<a href="http://images.videolan.org/images/goodies/Cone-Interface-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Interface-small.png" /></a>
-<a href="http://images.videolan.org/images/goodies/Cone-List-large.png"><img src="http://images.videolan.org/images/goodies/Cone-List-small.png" /></a>
-</p>
-
+        <h2>Funny cones</h2>
+        <p>High-Quality Cone icons done by Tom Bigelajzen</p>
+            <p><a href="http://images.videolan.org/images/goodies/Cone-Shortcuts-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Shortcuts-small.png" /></a>
+            <a href="http://images.videolan.org/images/goodies/Cone-Subs-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Subs-small.png" /></a>
+            <a href="http://images.videolan.org/images/goodies/Cone-Forum-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Forum-small.png" /></a>
+            <a href="http://images.videolan.org/images/goodies/Cone-Video-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Video-small.png" /></a>
+        </p>
+        <p>
+            <a href="http://images.videolan.org/images/goodies/Cone-Audio-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Audio-small.png" /></a>
+            <a href="http://images.videolan.org/images/goodies/Cone-Input-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Input-small.png" /></a>
+            <a href="http://images.videolan.org/images/goodies/Cone-Interface-large.png"><img src="http://images.videolan.org/images/goodies/Cone-Interface-small.png" /></a>
+            <a href="http://images.videolan.org/images/goodies/Cone-List-large.png"><img src="http://images.videolan.org/images/goodies/Cone-List-small.png" /></a>
+        </p>
     </div>
+
+    <div id="day9" class="selected">
+        <h1>Day 9: VLC community numbers</h1>
+        <p>For our 9<sup>th</sup> day, we'd like to speak about numbers.</p>
+
+        <h2>Commiters</h2>
+        <p>The <b>number of committers</b> metric is too often discarded, in open source projects.<br />
+        We believe this is a good way to mesure the popularity of a project.</p>
+        <h3>Official committers</h3>
+        <p>The <b>official commiters</b> are the ones who have or had write access.<br />
+        They are <b>48 of them</b>, but most of them are inactive, those days...</p>
+        <h3>External committers</h3>
+        <p>The <b>external commiters</b> are people from the community, who send patches.
+        There patches are then applied into the main repository, by other committers.<br />
+        They are more than <b>500 of them</b>, during the 10 years of the project duration.</p>
+
+        <h2>Downloads</h2>
+        <p>The <b>download numbers</b> are always inaccurate, because many downloads are not counted:<br />
+        <ul class="bullets">
+            <li>Linux numbers, because users download directly on their distributions;</li>
+            <li>Unofficial mirrors, and direct FTP accesses;</li>
+            <li>Websites like <b>download.com</b>, <b>CNET</b>, <b>01Net</b> or <b>softopedia</b>.</li>
+        </ul></p>
+
+        <h3>Numbers before sf.net</h3>
+        <p>When we mainly used our own set of mirrors, we had counted <b>439 522 210</b> direct downloads.</p>
+        <p>Those downloads were done between <em style="font-style: italic;">December 2004</em> and <em style="font-style: italic;">June 2010</em>
+        and did not include updates.</p>
+
+        <h3>Numbers since sf.net</h3>
+        <p>Since last june, we are using SourceForge for distribution, especially in order to have a 3<sup>rd</sup> party counting the downloads.</p>
+        <p>As you can see, VLC is already at <a href="http://sourceforge.net/top/topalltime.php?type=downloads">the 4<sup>th</sup> position</a>, on
+         the <a href="http://sourceforge.net/top/topalltime.php?type=downloads">Top Downloads, For all time of SF.net</a>.</p>
+        <p>The numbers are over <b>191 million</b>, but are including signatures and updates.<br />The actual numbers are thefore closer to <b>74 million</b>
+        direct downloads, over the last 7 and half months.</p>
+
+        <h2>Users</h2>
+        <p>As VLC is not phoning home when one uses it (for example, proprietary players like RealPlayer or DivX do), we cannot know exactly the exact userbase.</p>
+        <p>We can only guess from the download numbers... Do your own estimation then :D</p>
+    </div>
+
 </div>
 
 <script type='text/javascript'>

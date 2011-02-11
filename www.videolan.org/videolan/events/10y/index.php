@@ -247,12 +247,11 @@ function vlcskins($img,$thumb, $skin){
         <p>The numbers are over <b>191 million</b>, but are including signatures and updates.<br />The actual numbers are thefore closer to <b>74 million</b>
         direct downloads, over the last 7 and half months.</p>
         <br />
-        <br />
         <p>That would make the total at around <b>514 million</b> direct downloads.</p>
 
         <h2>Users</h2>
         <p>As VLC is not phoning home when one uses it (for example, proprietary players like RealPlayer or DivX do), we cannot know exactly the exact userbase.</p>
-        <p>We can only guess from the download numbers... Do your own estimation then :D</p>
+        <p>We can only <b>guess</b> from the download numbers... Do your own <b>estimation</b> then :D</p>
     </div>
 
 </div>

@@ -225,18 +225,18 @@ function vlcskins($img,$thumb, $skin){
         <h3>External committers</h3>
         <p>The <b>external commiters</b> are people from the community, who send patches.
         There patches are then applied into the main repository, by other committers.<br />
-        They are more than <b>500 of them</b>, during the 10 years of the project duration.</p>
+        They are more than <b>500 of them</b>, during the first 10 years of the project.</p>
 
         <h2>Downloads</h2>
         <p>The <b>download numbers</b> are always inaccurate, because many downloads are not counted:<br />
         <ul class="bullets">
             <li>Linux numbers, because users download directly on their distributions;</li>
             <li>Unofficial mirrors, and direct FTP accesses;</li>
-            <li>Websites like <b>download.com</b>, <b>CNET</b>, <b>01Net</b> or <b>softopedia</b>.</li>
+            <li>Websites like <em style="font-style: italic;">download.com</em>, <em style="font-style: italic;">CNET</em>, <em style="font-style: italic;">01Net</em> or <em style="font-style: italic;">softopedia</em>.</li>
         </ul></p>
 
         <h3>Numbers before sf.net</h3>
-        <p>When we mainly used our own set of mirrors, we had counted <b>439 522 210</b> direct downloads.</p>
+        <p>When we mainly used our own set of mirrors, we had counted <b>440 million</b> direct downloads.</p>
         <p>Those downloads were done between <em style="font-style: italic;">December 2004</em> and <em style="font-style: italic;">June 2010</em>
         and did not include updates.</p>
 
@@ -246,6 +246,9 @@ function vlcskins($img,$thumb, $skin){
          the <a href="http://sourceforge.net/top/topalltime.php?type=downloads">Top Downloads, For all time of SF.net</a>.</p>
         <p>The numbers are over <b>191 million</b>, but are including signatures and updates.<br />The actual numbers are thefore closer to <b>74 million</b>
         direct downloads, over the last 7 and half months.</p>
+        <br />
+        <br />
+        <p>That would make the total at around <b>514 million</b> direct downloads.</p>
 
         <h2>Users</h2>
         <p>As VLC is not phoning home when one uses it (for example, proprietary players like RealPlayer or DivX do), we cannot know exactly the exact userbase.</p>

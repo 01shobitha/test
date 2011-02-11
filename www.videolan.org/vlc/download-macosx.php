@@ -1,7 +1,5 @@
 <?php
    $title = "VLC media player for Mac OS X";
-   $lang = "en";
-   $menu = array( "vlc", "download" );
    $additional_css = array("/countries.css","/panels.css");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
@@ -58,7 +56,10 @@ pkgitem_sf( "PowerPC Mac, 1.1.7",
                "$vlc_version/macosx","vlc-plugin-$vlc_version-powerpc.dmg","vlc", "dmg package"); ?>
 
 <div class="clearme"> </div>
-<h2>Latest Mac OS X package for 10.4 (release 0.9.10)</h2>
+<br />
+<br />
+<br />
+<h2>Latest Mac OS X package for 10.4 Tiger (release 0.9.10)</h2>
 <p><b>Mac OS X 10.4.7</b> or later, is <b>required</b>.</p>
 <?php $vlc_version = "0.9.10"; ?>
 <?php pkgitem_sf( "Universal Binary, 0.9.10",
@@ -66,9 +67,9 @@ pkgitem_sf( "PowerPC Mac, 1.1.7",
 
 <div class="clearme"> </div>
 <h2>Older versions</h2>
-<p>Use 0.8.6i for 10.3.</p>
-<p>Use VLC 0.8.4a for 10.2.</p>
-<p>Use 0.7.0 for 10.1.</p>
+<p>Use VLC <b>0.8.6i</b> for 10.3 Panther.</p>
+<p>Use VLC <b>0.8.4a</b> for 10.2 Jaguar.</p>
+<p>Use VLC <b>0.7.0</b> for 10.1 Puma .</p>
 
 <?php browse_old( "vlc" ); ?>
 

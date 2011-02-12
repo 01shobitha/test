@@ -27,8 +27,8 @@ in their <b>free time</b>, we welcome donations to help us manage the software. 
 <h1><a class="actionDay" id="link-day6">Day 6</a></h1>
 <h1><a class="actionDay" id="link-day7">Day 7</a></h1>
 <h1><a class="actionDay" id="link-day8">Day 8</a></h1>
-<h1><a class="actionDay" id="link-day9" style="font-weight: bold;">Day 9</a></h1>
-<h1>Day 10</h1>
+<h1><a class="actionDay" id="link-day9">Day 9</a></h1>
+<h1><a class="actionDay" id="link-day10" style="font-weight: bold;">Day 10</a></h1>
 </div>
 
 <div id="days">
@@ -212,7 +212,7 @@ function vlcskins($img,$thumb, $skin){
         </p>
     </div>
 
-    <div id="day9" class="selected">
+    <div id="day9" style="display:none;">
         <h1>Day 9: VLC community numbers</h1>
         <p>For our 9<sup>th</sup> day, we'd like to speak about numbers.</p>
 
@@ -253,6 +253,15 @@ function vlcskins($img,$thumb, $skin){
         <p>As VLC is not phoning home when one uses it (for example, proprietary players like RealPlayer or DivX do), we cannot know exactly the exact userbase.</p>
         <p>We can only <b>guess</b> from the download numbers... Do your own <b>estimation</b> then :D</p>
     </div>
+
+    <div id="day10" class="selected">
+        <h1>Day 10: A short promotional video about VLC</h1>
+        <p>For our 10<sup>th</sup> (and last) day, we'd like to share a short promo video done for VLC.</p>
+        <p>This video was created and directed by a team of French students, realised by a group of technical volunteers
+           and shot and produced by <a href="http://holistic-productions.com/">Holistic Productions</a>.</p>
+        <iframe title="YouTube video player" width="640" height="390" src="http://www.youtube.com/embed/ZRM6-PrOfZE" frameborder="0" allowfullscreen></iframe>
+    </div>
+
 
 </div>
 

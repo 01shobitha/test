@@ -7,6 +7,9 @@
 <h1> Events </h1>
 <div class='longtext'>
 
+<h2>1 February 2011 - Ten years of open source</h2>
+<a href="/videolan/events/10y/"><img alt="10 cones" src="http://images1.videolan.org/images/10years.png" /></a>
+
 <h2>20, 21 December 2008 - First Dev Days '08</h2>
 
 <p>

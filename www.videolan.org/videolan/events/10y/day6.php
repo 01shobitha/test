@@ -246,7 +246,7 @@ function vlcskins($img,$thumb, $skin){
         <p>We can only <b>guess</b> from the download numbers... Do your own <b>estimation</b> then :D</p>
     </div>
 
-    <div id="day10" class="selected">
+    <div id="day10" style="display:none;">
         <h1>Day 10: A short promotional video about VLC</h1>
         <p>For our 10<sup>th</sup> (and last) day, we'd like to share a short promo video done for VLC.</p>
         <p>This video was created and directed by a team of French students, realised by a group of technical volunteers

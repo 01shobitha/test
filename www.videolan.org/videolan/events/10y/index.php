@@ -267,16 +267,16 @@ function vlcskins($img,$thumb, $skin){
 
 <div>
     <h1>Direct links to day pages</h1>
-    <span style="padding: 6px; font-size: 1.2em; font-weight: bold;"><a class="actionDay" id="link-day1" href="day1.php">Day 1</a></span>
-    <span style="padding: 6px; font-size: 1.2em; font-weight: bold;"><a class="actionDay" id="link-day2" href="day2.php">Day 2</a></span>
-    <span style="padding: 6px; font-size: 1.2em; font-weight: bold;"><a class="actionDay" id="link-day3" href="day3.php">Day 3</a></span>
-    <span style="padding: 6px; font-size: 1.2em; font-weight: bold;"><a class="actionDay" id="link-day4" href="day4.php">Day 4</a></span>
-    <span style="padding: 6px; font-size: 1.2em; font-weight: bold;"><a class="actionDay" id="link-day5" href="day5.php">Day 5</a></span>
-    <span style="padding: 6px; font-size: 1.2em; font-weight: bold;"><a class="actionDay" id="link-day6" href="day6.php">Day 6</a></span>
-    <span style="padding: 6px; font-size: 1.2em; font-weight: bold;"><a class="actionDay" id="link-day7" href="day7.php">Day 7</a></span>
-    <span style="padding: 6px; font-size: 1.2em; font-weight: bold;"><a class="actionDay" id="link-day8" href="day8.php">Day 8</a></span>
-    <span style="padding: 6px; font-size: 1.2em; font-weight: bold;"><a class="actionDay" id="link-day9" href="day9.php">Day 9</a></span>
-    <span style="padding: 6px; font-size: 1.2em; font-weight: bold;"><a class="actionDay" id="link-day10" href="day10.php">Day 10</a></span>
+    <span style="padding: 6px; font-size: 1.2em; font-weight: bold;"><a class="actionDay" id="link-day1" href="day1.html">Day 1</a></span>
+    <span style="padding: 6px; font-size: 1.2em; font-weight: bold;"><a class="actionDay" id="link-day2" href="day2.html">Day 2</a></span>
+    <span style="padding: 6px; font-size: 1.2em; font-weight: bold;"><a class="actionDay" id="link-day3" href="day3.html">Day 3</a></span>
+    <span style="padding: 6px; font-size: 1.2em; font-weight: bold;"><a class="actionDay" id="link-day4" href="day4.html">Day 4</a></span>
+    <span style="padding: 6px; font-size: 1.2em; font-weight: bold;"><a class="actionDay" id="link-day5" href="day5.html">Day 5</a></span>
+    <span style="padding: 6px; font-size: 1.2em; font-weight: bold;"><a class="actionDay" id="link-day6" href="day6.html">Day 6</a></span>
+    <span style="padding: 6px; font-size: 1.2em; font-weight: bold;"><a class="actionDay" id="link-day7" href="day7.html">Day 7</a></span>
+    <span style="padding: 6px; font-size: 1.2em; font-weight: bold;"><a class="actionDay" id="link-day8" href="day8.html">Day 8</a></span>
+    <span style="padding: 6px; font-size: 1.2em; font-weight: bold;"><a class="actionDay" id="link-day9" href="day9.html">Day 9</a></span>
+    <span style="padding: 6px; font-size: 1.2em; font-weight: bold;"><a class="actionDay" id="link-day10" href="day10.html">Day 10</a></span>
 </div>
 
 <script type='text/javascript'>

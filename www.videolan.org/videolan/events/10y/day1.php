@@ -10,17 +10,17 @@
 <br />
 
 <div id="sidebar">
-<h1><a class="actionDay" id="link-day1" href="day1.php" style="font-weight: bold;">Day 1</a></h1>
-<h1><a class="actionDay" id="link-day2" href="day2.php">Day 2</a></h1>
-<h1><a class="actionDay" id="link-day3" href="day3.php">Day 3</a></h1>
-<h1><a class="actionDay" id="link-day4" href="day4.php">Day 4</a></h1>
-<h1><a class="actionDay" id="link-day5" href="day5.php">Day 5</a></h1>
-<h1><a class="actionDay" id="link-day6" href="day6.php">Day 6</a></h1>
-<h1><a class="actionDay" id="link-day7" href="day7.php">Day 7</a></h1>
-<h1><a class="actionDay" id="link-day8" href="day8.php">Day 8</a></h1>
-<h1><a class="actionDay" id="link-day9" href="day9.php">Day 9</a></h1>
-<h1><a class="actionDay" id="link-day10" href="day10.php">Day 10</a></h1>
-<h1><a class="actionDay" id="link-day10" href="index.php">All days</a></h1>
+<h1><a class="actionDay" id="link-day1" href="day1.html" style="font-weight: bold;">Day 1</a></h1>
+<h1><a class="actionDay" id="link-day2" href="day2.html">Day 2</a></h1>
+<h1><a class="actionDay" id="link-day3" href="day3.html">Day 3</a></h1>
+<h1><a class="actionDay" id="link-day4" href="day4.html">Day 4</a></h1>
+<h1><a class="actionDay" id="link-day5" href="day5.html">Day 5</a></h1>
+<h1><a class="actionDay" id="link-day6" href="day6.html">Day 6</a></h1>
+<h1><a class="actionDay" id="link-day7" href="day7.html">Day 7</a></h1>
+<h1><a class="actionDay" id="link-day8" href="day8.html">Day 8</a></h1>
+<h1><a class="actionDay" id="link-day9" href="day9.html">Day 9</a></h1>
+<h1><a class="actionDay" id="link-day10" href="day10.html">Day 10</a></h1>
+<h1><a class="actionDay" id="link-day10" href="index.html">All days</a></h1>
 </div>
 
 <div id="days">

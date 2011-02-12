@@ -8,27 +8,19 @@
 <p>We are here to celebrate the 10 years of the open sourcing of VideoLAN and VLC.</p>
 <p><b>10 days</b> of surprises, ideas and stories will pop up here.</p>
 <br />
-<h3>Support us</h3>
-<p>Since all the work on <a href="/vlc/">VLC</a> and other <a href="/projects">videolan projects</a> is done by <b>volunteers</b>
-in their <b>free time</b>, we welcome donations to help us manage the software. <b>Donate <a href="/contribute.html">now!</a></b></p>
-<h3>Share</h3>
-<a href="http://digg.com/news/technology/videolan_10_years_of_open_source">Digg</a>
-<a href="http://www.facebook.com/vlc.media.player">Facebook</a>
-<a href="http://news.ycombinator.com/item?id=2165356">Hacker News</a>
-<a href="http://twitter.com/videolan">Twitter</a>
-<br />
 
 <div id="sidebar">
-<h1><a class="actionDay" id="link-day1">Day 1</a></h1>
-<h1><a class="actionDay" id="link-day2">Day 2</a></h1>
-<h1><a class="actionDay" id="link-day3">Day 3</a></h1>
-<h1><a class="actionDay" id="link-day4">Day 4</a></h1>
-<h1><a class="actionDay" id="link-day5">Day 5</a></h1>
-<h1><a class="actionDay" id="link-day6">Day 6</a></h1>
-<h1><a class="actionDay" id="link-day7">Day 7</a></h1>
-<h1><a class="actionDay" id="link-day8">Day 8</a></h1>
-<h1><a class="actionDay" id="link-day9">Day 9</a></h1>
-<h1><a class="actionDay" id="link-day10" style="font-weight: bold;">Day 10</a></h1>
+<h1><a class="actionDay" id="link-day1" href="day1.php">Day 1</a></h1>
+<h1><a class="actionDay" id="link-day2" href="day2.php">Day 2</a></h1>
+<h1><a class="actionDay" id="link-day3" href="day3.php">Day 3</a></h1>
+<h1><a class="actionDay" id="link-day4" href="day4.php">Day 4</a></h1>
+<h1><a class="actionDay" id="link-day5" href="day5.php">Day 5</a></h1>
+<h1><a class="actionDay" id="link-day6" href="day6.php">Day 6</a></h1>
+<h1><a class="actionDay" id="link-day7" href="day7.php">Day 7</a></h1>
+<h1><a class="actionDay" id="link-day8" href="day8.php" style="font-weight: bold;">Day 8</a></h1>
+<h1><a class="actionDay" id="link-day9" href="day9.php">Day 9</a></h1>
+<h1><a class="actionDay" id="link-day10" href="day10.php">Day 10</a></h1>
+<h1><a class="actionDay" id="link-day10" href="index.php">All days</a></h1>
 </div>
 
 <div id="days">
@@ -186,7 +178,7 @@ function vlcskins($img,$thumb, $skin){
         Use your mouse in the top left corner to have fun with it!</p>
     </div>
 
-    <div id="day8" style="display: none;">
+    <div id="day8">
         <h1>Day 8: Cones</h1>
         <p>For our 8<sup>th</sup> day, here is a small collection of nice cones.</p>
         <h2>New VLC cone, GCI-rendered, by Richard C. G. Øiestad</h2>
@@ -254,7 +246,7 @@ function vlcskins($img,$thumb, $skin){
         <p>We can only <b>guess</b> from the download numbers... Do your own <b>estimation</b> then :D</p>
     </div>
 
-    <div id="day10" class="selected">
+    <div id="day10" style="display:none;">
         <h1>Day 10: A short promotional video about VLC</h1>
         <p>For our 10<sup>th</sup> (and last) day, we'd like to share a short promo video done for VLC.</p>
         <p>This video was created and directed by a team of French students, realised by a group of technical volunteers
@@ -265,48 +257,15 @@ function vlcskins($img,$thumb, $skin){
 
 </div>
 
-<div>
-    <h1>Direct links to day pages</h1>
-    <span style="padding: 6px; font-size: 1.2em; font-weight: bold;"><a class="actionDay" id="link-day1" href="day1.php">Day 1</a></span>
-    <span style="padding: 6px; font-size: 1.2em; font-weight: bold;"><a class="actionDay" id="link-day2" href="day2.php">Day 2</a></span>
-    <span style="padding: 6px; font-size: 1.2em; font-weight: bold;"><a class="actionDay" id="link-day3" href="day3.php">Day 3</a></span>
-    <span style="padding: 6px; font-size: 1.2em; font-weight: bold;"><a class="actionDay" id="link-day4" href="day4.php">Day 4</a></span>
-    <span style="padding: 6px; font-size: 1.2em; font-weight: bold;"><a class="actionDay" id="link-day5" href="day5.php">Day 5</a></span>
-    <span style="padding: 6px; font-size: 1.2em; font-weight: bold;"><a class="actionDay" id="link-day6" href="day6.php">Day 6</a></span>
-    <span style="padding: 6px; font-size: 1.2em; font-weight: bold;"><a class="actionDay" id="link-day7" href="day7.php">Day 7</a></span>
-    <span style="padding: 6px; font-size: 1.2em; font-weight: bold;"><a class="actionDay" id="link-day8" href="day8.php">Day 8</a></span>
-    <span style="padding: 6px; font-size: 1.2em; font-weight: bold;"><a class="actionDay" id="link-day9" href="day9.php">Day 9</a></span>
-    <span style="padding: 6px; font-size: 1.2em; font-weight: bold;"><a class="actionDay" id="link-day10" href="day10.php">Day 10</a></span>
-</div>
+<h3>Support us</h3>
+<p>Since all the work on <a href="/vlc/">VLC</a> and other <a href="/projects">videolan projects</a> is done by <b>volunteers</b>
+in their <b>free time</b>, we welcome donations to help us manage the software. <b>Donate <a href="/contribute.html">now!</a></b></p>
+<h3>Share</h3>
+<a href="http://digg.com/news/technology/videolan_10_years_of_open_source">Digg</a>
+<a href="http://www.facebook.com/vlc.media.player">Facebook</a>
+<a href="http://news.ycombinator.com/item?id=2165356">Hacker News</a>
+<a href="http://twitter.com/videolan">Twitter</a>
+<br />
 
-<script type='text/javascript'>
-$(".actionDay").click( function() {
-    var target = $(this).attr("id").substr(8);
-    var current = $(".selected").attr("id").substr(3);
-
-    if (target == current)
-        return;
-
-    if (target > current) {
-        $("#day" + current).slideUp('slow');
-        $("#day" + target).show();
-
-    } else if (target < current) {
-        var divheight = $("#day" + target).height() + 100;
-        $("#day" + target).css("height", "0px");
-        $("#day" + target).show();
-        $("#day" + target).animate({
-            height: '+=' + divheight + 'px'
-        }, "slow", function() {
-            $("#day" + current).fadeOut();
-        });
-    }
-
-    $("#day" + current).removeClass("selected");
-    $("#day" + target).addClass("selected");
-    $(".actionDay").css("font-weight", "normal" );
-    $(this).css("font-weight", "bold" );
-});
-</script>
 
 <?php footer('$Id: index.php 5400 2009-07-19 15:37:21Z jb $'); ?>

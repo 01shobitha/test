@@ -260,6 +260,7 @@ function vlcskins($img,$thumb, $skin){
         <p>This video was created and directed by a team of French students, realised by a group of technical volunteers
            and shot and produced by <a href="http://holistic-productions.com/">Holistic Productions</a>.</p>
         <iframe title="YouTube video player" width="640" height="390" src="http://www.youtube.com/embed/ZRM6-PrOfZE" frameborder="0" allowfullscreen></iframe>
+        <p>Please share.</a>
     </div>
 
 

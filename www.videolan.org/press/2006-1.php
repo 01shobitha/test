@@ -51,7 +51,7 @@ a long time.
 
 <p>
 The VideoLAN project<br />
-<a href="mailto:videolan@REMOVETHIS@videolan.org">videolan - at - videolan.org</a>
+videolan<span style="display: none;">removethis</span>@videolan.org
 </p>
 
 <p>References&nbsp;:</p>

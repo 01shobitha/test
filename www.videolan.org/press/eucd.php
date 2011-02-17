@@ -36,7 +36,7 @@ is "obviously" aimed at illegal file sharing (except if it is "only"
 aimed at legal sharing). This amendment is nicknamed the
 <em>Vivendi-Universal Amendment</em>. Guess why...</p>
 
-<p><strong> VideoLAN is directly impacted, most notably for its        
+<p><strong> VideoLAN is directly impacted, most notably for its
 DVD reading capability</strong></p>
 
 <p>This means that VLC will be considered as illegal in France as soon
@@ -60,10 +60,10 @@ others</li>
 <li>...</li>
 </ul>
 
-<p>The French website <a                                                
-href="http://eucd.info/index.php?English-readers">eucd.info</a>         
-collects a large number of related articles and documentation, and has a 
-dedicated English-speaking section.</p> 
+<p>The French website <a
+href="http://eucd.info/index.php?English-readers">eucd.info</a>
+collects a large number of related articles and documentation, and has a
+dedicated English-speaking section.</p>
 
 <p>We would like to thank all the people who are working on spreading
 information about DADVSI, most notably EUCD.info.<br />
@@ -76,10 +76,10 @@ effects.</p>
 
 <p>
 
-La loi DADVSI (Droits d'Auteur et Droits Voisins dans la Société de     
-l'Information) est la transcription en droit français de la directive   
-EUCD (European Union Copyright Directive), qui est elle même inspirée   
-du DMCA (Digital Millenium Copyright Act) américain.<br />              
+La loi DADVSI (Droits d'Auteur et Droits Voisins dans la Société de
+l'Information) est la transcription en droit français de la directive
+EUCD (European Union Copyright Directive), qui est elle même inspirée
+du DMCA (Digital Millenium Copyright Act) américain.<br />
 
 L'effet principal de ce texte est de restreindre fortement les droits
 des particuliers achetant des produits culturels. DADVSI s'oppose ainsi
@@ -136,11 +136,11 @@ fichiers musicaux ou autres</li>
 </ul>
 
 
-<p> <strong>Vous</strong> pouvez aider les nombreuses associations      
-(d'artistes, de développeurs, d'enseignants, de consommateurs,          
-...) luttant contre cette proposition "liberticide", de <a               
-href="http://eucd.info/index.php?2005/11/16/182-appel-defendons-nos-dro 
-its-et-libertes">nombreuses façons différentes</a>. </p>                
+<p> <strong>Vous</strong> pouvez aider les nombreuses associations
+(d'artistes, de développeurs, d'enseignants, de consommateurs,
+...) luttant contre cette proposition "liberticide", de <a
+href="http://eucd.info/index.php?2005/11/16/182-appel-defendons-nos-dro
+its-et-libertes">nombreuses façons différentes</a>. </p>
 
 <p>L'initiative <a href="http://eucd.info">eucd.info</a> rassemble des
 informations détaillées sur ce problème et des dossiers complets.</p>

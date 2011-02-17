@@ -68,7 +68,7 @@ software's GNU GPL license.
 <p>
 Antoine Cellerier,<br/>
 Public Relations, the VideoLAN project, VIA Centrale Réseaux<br/>
-videolan@videolan.org
+videolan<span style="display: none;">removethis</span>@videolan.org
 </p>
 
 <p>

@@ -130,7 +130,7 @@ until further notice.</strong>
 <p>
 R&eacute;mi Denis-Courmont,<br/>
 on behalf of the VideoLAN project,<br/>
-videolan@videolan.org
+videolan<span style="display: none;">removethis</span>@videolan.org
 </p>
 
 <p>

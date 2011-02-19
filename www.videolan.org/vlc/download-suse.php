@@ -17,6 +17,9 @@ options (besides downloading and installing the RPMs manually).</p>
 <h2 style="float: clear">Installing VLC using <a href="http://en.opensuse.org/One_Click_Install/UserFAQ">1-click-installs</a></h2>
 <div>
 <div class="installbtn" style="float: left;">
+  <a href="http://download.videolan.org/pub/vlc/SuSE/11.4/vlc.ymp">VLC on 11.4</a>
+</div>
+<div class="installbtn" style="float: left;">
   <a href="http://download.videolan.org/pub/vlc/SuSE/11.3/vlc.ymp">VLC on 11.3</a>
 </div>
 <div class="installbtn" style="float: left;">
@@ -24,9 +27,6 @@ options (besides downloading and installing the RPMs manually).</p>
 </div>
 <div class="installbtn" style="float:left;">
   <a href="http://download.videolan.org/pub/vlc/SuSE/11.1/vlc.ymp">VLC on 11.1</a>
-</div>
-<div class="installbtn" style="float: left;">
-  <a href="http://download.videolan.org/pub/vlc/SuSE/11.0/vlc.ymp">VLC on 11.0</a>
 </div>
 </div>
 
@@ -47,10 +47,11 @@ Directory: /pub/videolan/vlc/SuSE/&lt;SUSE Version&gt;
 <p>Replace &lt;SUSE Version&gt; in the Directory above with your installed SuSE
 Version. Supported at this time are :</p>
 <p>
-11.0<br />
 11.1<br />
 11.2<br />
 11.3<br />
+11.4<br />
+Factory<br />
 </p>
 <p>Confirm the addition.<br />
 </p>

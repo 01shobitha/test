@@ -52,7 +52,6 @@
     <p><b>2011 Feb  7</b> -- The <a href="http://mailman.videolan.org/pipermail/x264-devel/2011-February/008251.html">x264 Development Newsletter: Volume 11</a> is out.</p>
     <p><b>2011 Jan 26</b> -- The <a href="http://mailman.videolan.org/pipermail/x264-devel/2011-January/008192.html">x264 Development Newsletter: Volume 10</a> is out.</p>
     <p><b>2011 Jan 10</b> -- The <a href="http://mailman.videolan.org/pipermail/x264-devel/2011-January/008132.html">x264 Development Newsletter: Volume 9</a> is out.</p>
-    <p><b>2010 Dec 15</b> -- The <a href="http://mailman.videolan.org/pipermail/x264-devel/2010-December/008070.html">x264 Development Newsletter: Volume 8</a> is out.</p>
 </div>
 
 

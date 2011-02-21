@@ -180,9 +180,7 @@ function draw_menus( $nobanner )
 <div class="clearme"></div>
 <?php
     if ( !$nobanner )
-        echo '<a href="/videolan/events/10y/"><img alt="10 cones" src="http://images1.videolan.org/images/10years.png" /></a>'.
-             '<h3>Hello <a href="http://www.reddit.com/r/reddit.com/comments/fnvw3/apparently_vlc_is_currently_celebrating_its_tenth/">redditors! You are awesome!</a></h3>'.
-             '<p>Thanks <b>a lot</b> for the support and the numerous donations!<br /> Btw, are you interested in a <a href="http://www.reddit.com/r/IAmA/">IAMA</a>, one day?</p>';
+        echo '<a href="/videolan/events/10y/"><img alt="10 cones" src="http://images1.videolan.org/images/10years.png" /></a>';
 ?>
 <?php
 }

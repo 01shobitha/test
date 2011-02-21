@@ -68,7 +68,7 @@
 
 </div>
 
-<div style="float: right; width: 350px;">
+<div style="clear: right; float: right; width: 350px;">
     <h2>Awards</h2>
     <p><b>2010 May 25</b> -- x264 won <a href="http://www.compression.ru/video/codec_comparison/h264_2010/">MSU Sixth MPEG-4 AVC/H.264 Video Codecs Comparison</a>, with ~24% better encoding than second place.</p>
     <p><b>2005 December 26</b> -- x264 won <a href="http://www.doom9.org/index.html?/codecs-final-105-1.htm">Doom9's 2005 codec shoot-out</a>, passing Ateme by a hair.</p>

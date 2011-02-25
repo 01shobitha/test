@@ -5,7 +5,7 @@
 
 <h1 class="bigtitle">libdvbcsa</h1>
 
-<p> <code>libdvbcsa</code> is a free implementation of the DVB Common Scrambling Algorithm with encryption and decryption capabilities.</p>
+<p> <code>libdvbcsa</code> is a free implementation of the <b>DVB Common Scrambling Algorithm</b> - DVB/CSA with encryption and decryption capabilities.</p>
 
 <h2> Features </h2>
 
@@ -31,5 +31,8 @@ by browsing the <a href="http://download.videolan.org/pub/videolan/libdvbcsa/">r
 
 <h3>Subversion checkout</h3>
 <p><code># svn co svn://svn.videolan.org/libdvbcsa/trunk libdvbcsa</code></p>
+
+<h3>Web source broswging</h3>
+<p>You can also <a href="http://svn.videolan.org/listing.php?repname=libdvbcsa">browse the code repository</a>.</p>
 
 <?php footer('$Id: libdvbcsa.php 4100 2007-01-24 20:51:17Z jb $'); ?>

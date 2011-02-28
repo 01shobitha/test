@@ -83,7 +83,7 @@ function writeInputFeatures() {
             <?php writefeature( "OGG / OGM / Annodex", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "Matroska (MKV)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "Real", "part", "part", "part", "part", "part", "part" ); ?>
-            <?php writefeature( "WAV (incuding DTS)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
+            <?php writefeature( "WAV (including DTS)", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "Raw Audio: DTS, AAC, AC3/A52", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "Raw DV", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>
             <?php writefeature( "FLAC", "yes", "yes", "yes", "yes", "yes", "yes" ); ?>

@@ -284,6 +284,6 @@ http://mirror.waia.asn.au/pub/videolan/|WAIA|Australia|au|HTTP|200
 #
 # LeaseWeb - Mirror Administrators <mirror@leaseweb.com>
 # The server has 2 Gigabit uplinks and is available on HTTP, FTP and RSYNC.
-http://mirror.de.leaseweb.net/videolan/
+http://mirror.de.leaseweb.net/videolan/|LeaseWeb|Germany|de|HTTP|2000
 # Make sure to not leave a blank line at the end
 # EOF

@@ -179,10 +179,9 @@ function draw_menus( $nobanner )
 </div>
 <div class="clearme"></div>
 <?php
-    if ( !$nobanner )
+/*    if ( !$nobanner )
         echo '<a href="/videolan/events/10y/"><img alt="10 cones" src="http://images1.videolan.org/images/10years.png" /></a>';
-?>
-<?php
+?><?php */
 }
 
 function footer($tag = "") {

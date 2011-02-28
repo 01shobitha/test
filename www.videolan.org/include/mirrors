@@ -279,5 +279,11 @@ http://mirror.waia.asn.au/pub/videolan/|WAIA|Australia|au|HTTP|200
 ## Also on FTP and RSYNC
 ## Soon with a 10 Gbot/s connection
 #http://ftp.halifax.rwth-aachen.de/videolan/|RWTH Aachen University|Germany|de|HTTP|2000
+#
+#
+#
+# LeaseWeb - Mirror Administrators <mirror@leaseweb.com>
+# The server has 2 Gigabit uplinks and is available on HTTP, FTP and RSYNC.
+http://mirror.de.leaseweb.net/videolan/
 # Make sure to not leave a blank line at the end
 # EOF

@@ -1,5 +1,5 @@
 <?php
-   $title = "VLC media player, Open Source video framework for every OS!";
+   $title = "Official page for VLC media player, the Open Source video framework!";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
 ?>
@@ -90,7 +90,7 @@ function addos( $name, $class, $url, $bold=false )
 }
 ?>
         <div class='tricolumn'>
-            <h1><a name="download">Download VLC</a></h1>
+            <h1><a name="download">Official Downloads of VLC media player </a></h1>
             <div class="onecolumn">
                <h2>Windows</h2>
                 <?php addos( "Windows", "windows", "download-windows.html", true ); ?>

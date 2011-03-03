@@ -1,11 +1,9 @@
 <?php
-   $title = "VLC media player for Mac OS X";
+   $title = "Official download of VLC media player for Mac OS X"
    $additional_css = array("/countries.css","/panels.css");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
 ?>
-
-<?php function pkgitemdev($version,$name) { ?><li><a href="http://download.videolan.org/pub/videolan/testing/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a></li><?php } ?>
 
 <h1 class="bigtitle"> VLC media player for Mac OS X </h1>
 
@@ -31,7 +29,7 @@ $vlc_version_ppc = "1.1.7";
 $vlc_version_intel = "1.1.7";
 ?>
 
-<h1>Latest version for 10.5 and later</h1>
+<h1>Download latest VLC for Mac OS X 10.5 and later</h1>
 
 <?php
 pkgitem_sf( "32/64 bits Intel Mac, 1.1.7",
@@ -59,14 +57,14 @@ pkgitem_sf( "PowerPC Mac, 1.1.7",
 <br />
 <br />
 <br />
-<h2>Latest Mac OS X package for 10.4 Tiger (release 0.9.10)</h2>
+<h2>Download VLC for Mac OS X 10.4 Tiger (release 0.9.10)</h2>
 <p><b>Mac OS X 10.4.7</b> or later, is <b>required</b>.</p>
 <?php $vlc_version = "0.9.10"; ?>
 <?php pkgitem_sf( "Universal Binary, 0.9.10",
                "$vlc_version/macosx","vlc-$vlc_version.dmg","vlc", "dmg package"); ?>
 
 <div class="clearme"> </div>
-<h2>Older versions</h2>
+<h2>Download older versions of VLC media player</h2>
 <p>Use VLC <b>0.8.6i</b> for 10.3 Panther.</p>
 <p>Use VLC <b>0.8.4a</b> for 10.2 Jaguar.</p>
 <p>Use VLC <b>0.7.0</b> for 10.1 Puma .</p>

@@ -1,8 +1,5 @@
 <?php
-   $title = "VLC media player for Windows";
-   $lang = "en";
-   $menu = array( "vlc", "windows" );
-   $additional_css = array("/countries.css");
+   $title = "Official download of VLC media player for Windows";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
 ?>
@@ -14,7 +11,7 @@
 <div id="left">
 
 <?php $vlc_version = '1.1.7'; ?>
-<h1>Latest binaries - <?php echo $vlc_version; ?></h2>
+<h1>Download latest VLC - <?php echo $vlc_version; ?></h2>
 <p>VLC currently supports <b>Windows 2000 (SP4+UR1), XP, Vista and 7</b>.</p>
 
 <?php
@@ -27,13 +24,13 @@
 ?>
 
    <div class="clearme"> </div>
-<h1>Latest source code</h2>
+<h1>Download latest VLC source code</h2>
 
 <p>If you want, you can download the <a href="download-sources.html">source code</a> of VLC media player.</p>
 
 <br />
 <br />
-<h2>Windows 95/98/Me</h1>
+<h2>Download VLC for Windows 95/98/Me</h1>
 <p><a href="http://sourceforge.net/projects/kernelex/">Please install KernelEx</a> or take an old
 version of VLC</p>
 

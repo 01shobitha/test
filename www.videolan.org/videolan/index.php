@@ -56,7 +56,7 @@
                     <h2>Events</h2>
                     <p>We regularly attend computing events, like FOSDEM (Free-software
                     and Open Source Developers European Meeting). We generally come back
-                    with some <a href="/events">photos and stories</a>.</p>
+                    with some <a href="/videolan/events">photos and stories</a>.</p>
                 </td>
             </tr>
             <tr>

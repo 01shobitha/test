@@ -59,11 +59,10 @@ VideoLAN
 France
 </pre>
 <h2>Phone</h2>
-<p>The phone will very rarely answer:</p>
+<p>The phone will very rarely answer and <b>strictly NOT</b> for user support:</p>
 <pre>+33 951 11 20 20</pre>
 <p>You can send faxes to us; except for legal issues, where faxes are not accepted :</p>
 <pre>+33 956 11 20 20</pre>
-
 
 </div>
 

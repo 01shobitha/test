@@ -453,6 +453,17 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 
 .normalButton:hover { text-decoration: none; }
 
+.installbtn {
+    float: right; width: 135px;  height: 38px;
+    text-align: center;
+    background: transparent url(http://images.videolan.org/images/inst_btn.png) no-repeat scroll top left;
+}
+
+.installbtn a {
+      display: block; height: 38px; line-height: 36px; margin-left: 25px;
+      text-decoration: none!important;
+}
+
 /* =================================== HOMEPAGE DETAILS ======================================== */
 
 .audienceCallout

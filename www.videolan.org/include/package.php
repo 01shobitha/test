@@ -47,7 +47,7 @@ function pkgitem_sf($description,$version,$name,$top,$extradescription="",$md5="
     echo "<span class='downloadText'>$description</span>";
     echo "<span id='downloadDetails' style='font-size: 12px; color: white;'>$extradescription</span>";
     echo "</a>";
-    echo "<a class='extraInfoLink clearme' style='padding-left: 100px;' href='#'><em>MD5: $md5</em></a>";
+    echo "<span class='extraInfo clearme' style='padding-left: 100px;'><em>MD5: $md5</em></span>";
 }
 
 function pkgitem($description,$version,$name,$top,$extradescription="")

@@ -13,10 +13,16 @@
 <h2>Download VLC for openSUSE</h2>
 
 <p>In order to install <a href="/vlc/">VLC</a> on an openSUSE, you have several
-options.</p>
+options:</p>
+<ul>
+<li><a href="#1click">Using 1-click install</a></li>
+<li><a href="#yast">Using YaST interface</a></li>
+<li><a href="#cli">Using Command Line</a></li>
+</ul>
+<br />
 
 <h2>Install VLC using
- <a href="http://en.opensuse.org/One_Click_Install/UserFAQ">1-click-installs</a></h2>
+ <a href="http://en.opensuse.org/One_Click_Install/UserFAQ">1-click install</a></h2>
 <div>
 <div class="installbtn" style="float: left;">
   <a href="http://download.videolan.org/pub/vlc/SuSE/11.4/vlc.ymp">VLC on 11.4</a>
@@ -34,8 +40,10 @@ options.</p>
 
 <br />
 <br />
+<br />
+<br />
 
-<h2>Install VLC using YaST</h2>
+<h2><a name="yast">Install VLC using YaST</a></h2>
 <h3>Add VideoLAN's repository</h3>
 <p>
 First, add a new repository (installation source) in YaST (YaST2 ->
@@ -80,7 +88,7 @@ You're done with the installation.
 Have a lot of Fun.
 </p>
 
-<h2>Install using command line</h2>
+<h2><a name="cli">Install using command line</h2>
 <pre>
 sudo zypper ar http://download.videolan.org/pub/vlc/SuSE/&lt;openSUSEversion&gt; VLC
 sudo zypper mr -r VLC

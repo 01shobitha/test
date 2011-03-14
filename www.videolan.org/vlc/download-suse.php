@@ -13,7 +13,9 @@
 <p>In order to install <a href="/vlc/">VLC</a> on an openSUSE, you have several
 options.</p>
 
-<h2 style="float: clear">Install VLC using
+<img style="float: left;" src="/images/icons/openSUSE.jpg" />
+
+<h2>Install VLC using
  <a href="http://en.opensuse.org/One_Click_Install/UserFAQ">1-click-installs</a></h2>
 <div>
 <div class="installbtn" style="float: left;">

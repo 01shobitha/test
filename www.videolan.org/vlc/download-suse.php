@@ -68,8 +68,8 @@ Factory<br />
 
 <h3>Security</h3>
 The repository is signed with a GPG Key 
-(gpg key C8DA93D2 fingerprint  BC8D 780D E330 8581 B2E0  7085 33DE 8FB7 C8DA 93D2).
-Accept this key in YaST and it will warn you in case there is something
+(gpg key C8DA93D2 fingerprint <code>BC8D 780D E330 8581 B2E0  7085 33DE 8FB7 C8DA 93D2</code>).
+<br />Accept this key in YaST and it will warn you in case there is something
 suspect with the repository.<br />
 
 Accept everything by clicking <b>Finish</b>.</p>

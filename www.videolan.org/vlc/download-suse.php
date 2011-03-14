@@ -8,12 +8,12 @@
 <?php function pkgitem($version,$name,$comment) { ?><li><a href="http://download.videolan.org/pub/videolan/<?php echo $version."/".$name; ?>"><code><?php echo $name; ?></code></a> <?php echo $comment; ?> </li><?php } ?>
 
 <h1 class="bigtitle">VLC media player for <a href="http://www.opensuse.org/">openSUSE</a></h1>
+<img src="/images/icons/openSUSE.jpg" style="float: right; border: 1px solid green;" alt="openSuSE logo" />
+
 <h2>Download VLC for openSUSE</h2>
 
 <p>In order to install <a href="/vlc/">VLC</a> on an openSUSE, you have several
 options.</p>
-
-<img style="float: right" src="/images/icons/openSUSE.jpg" />
 
 <h2>Install VLC using
  <a href="http://en.opensuse.org/One_Click_Install/UserFAQ">1-click-installs</a></h2>

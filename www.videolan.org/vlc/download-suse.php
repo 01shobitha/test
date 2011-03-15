@@ -25,16 +25,16 @@ options:</p>
  <a href="http://en.opensuse.org/One_Click_Install/UserFAQ">1-click install</a></h2>
 <div>
 <div class="installbtn" style="float: left;">
-  <a href="http://download.videolan.org/pub/vlc/SuSE/11.4/vlc.ymp">VLC on 11.4</a>
+  <a href="http://download.videolan.org/pub/vlc/SuSE/11.4/vlc.ymp">VLC for 11.4</a>
 </div>
 <div class="installbtn" style="float: left;">
-  <a href="http://download.videolan.org/pub/vlc/SuSE/11.3/vlc.ymp">VLC on 11.3</a>
+  <a href="http://download.videolan.org/pub/vlc/SuSE/11.3/vlc.ymp">VLC for 11.3</a>
 </div>
 <div class="installbtn" style="float: left;">
-  <a href="http://download.videolan.org/pub/vlc/SuSE/11.2/vlc.ymp">VLC on 11.2</a>
+  <a href="http://download.videolan.org/pub/vlc/SuSE/11.2/vlc.ymp">VLC for 11.2</a>
 </div>
 <div class="installbtn" style="float:left;">
-  <a href="http://download.videolan.org/pub/vlc/SuSE/11.1/vlc.ymp">VLC on 11.1</a>
+  <a href="http://download.videolan.org/pub/vlc/SuSE/11.1/vlc.ymp">VLC for 11.1</a>
 </div>
 </div>
 

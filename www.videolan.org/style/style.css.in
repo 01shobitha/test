@@ -453,14 +453,15 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 
 .normalButton:hover { text-decoration: none; }
 
+/* SUSE */
 .installbtn {
-    float: right; width: 135px;  height: 38px;
-    text-align: center;
+    float: right; width: 180px;  height: 60px;
     background: transparent url(http://images.videolan.org/images/inst_btn.png) no-repeat scroll top left;
 }
 
 .installbtn a {
-      display: block; height: 38px; line-height: 36px; margin-left: 25px;
+      display: block; line-height: 36px;
+      padding-left: 30px; padding-top: 30px;
       text-decoration: none!important;
 }
 

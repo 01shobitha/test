@@ -252,6 +252,7 @@ function footer($tag = "") {
          <div style='text-align: center; line-height: 17px; font-size: 12px; color: #999;'>
             <a href='/legal.html'>Privacy Policy</a> | <a href='/legal.html'>Legal Notices</a> | <a href='/contact.html'>Report Trademark Abuse</a><br />
             VideoLAN, VLC media player and x264 are trademarks registered (or in registration process) by the VideoLAN non-profit organization.<br />
+            The VLC cone icon was designed by Richard Øiestad.<br />
             Icons for VLMC, DVBlast and x264 designed by <a href='http://cuberto.com/'>Roman Khramov</a>.<br />
             Except where otherwise noted, content on this site is licensed under the Creative Commons Share-Alike License v3.0 or any later version.
          </div>

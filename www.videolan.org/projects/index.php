@@ -40,7 +40,7 @@
                 <?php image( 'DVBlast-IconSmall.png', "DVBlast Icon", "smallProjectImg" ); ?>
                 <span class='productName'>DVBlast</span>
                 <span class='productDescription'>
-                    DVBlast is a simple a powerful<br />
+                    DVBlast is a simple and powerful<br />
                     MPEG-2/TS demux and streaming<br />
                     application.
                 </span>

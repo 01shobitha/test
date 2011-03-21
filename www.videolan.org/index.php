@@ -1,5 +1,5 @@
 <?php
-   $title = "VLC: Free streaming and multimedia solutions for all OS!";
+   $title = "VLC: Official site - Free multimedia solutions for all OS!";
    $body_color = "blue";
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");

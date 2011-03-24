@@ -18,6 +18,7 @@
 <a href="/vlc/releases/1.1.5.html">VLC 1.1.5</a><br />
 <a href="/vlc/releases/1.1.6.html">VLC 1.1.6</a><br />
 <a href="/vlc/releases/1.1.7.html">VLC 1.1.7</a><br />
+<a href="/vlc/releases/1.1.8.html">VLC 1.1.8</a><br />
 
 
 <?php footer('$Id: news.php 6098 2010-05-26 23:50:46Z jb $'); ?>

@@ -25,22 +25,22 @@ or to contact us through our <a href="http://forum.videolan.org/viewtopic.php?t=
 
 <?php
 $vlc_version = "1.0.5";
-$vlc_version_ppc = "1.1.7";
-$vlc_version_intel = "1.1.7";
+$vlc_version_ppc = "1.1.8";
+$vlc_version_intel = "1.1.8";
 ?>
 
 <h1>Download latest VLC for Mac OS X 10.5 and later</h1>
 
 <?php
-pkgitem_sf( "32/64 bits Intel Mac, 1.1.7",
-    "$vlc_version_intel/macosx","vlc-$vlc_version_intel.dmg",        "vlc", "dmg package", "15f928d919dffcbcad657790c0db8784");
-pkgitem_sf( "32 bits Intel Mac, 1.1.7",
-    "$vlc_version_intel/macosx","vlc-$vlc_version_intel-intel.dmg",  "vlc", "dmg package", "cd5581e13076eeb1f12f2b495bf61654");
-pkgitem_sf( "64 bits Intel Mac, 1.1.7",
-    "$vlc_version_intel/macosx","vlc-$vlc_version_intel-intel64.dmg","vlc", "dmg package", "034360248f933d90cfdfd6c419bcce93");
+pkgitem_sf( "32/64 bits Intel Mac, 1.1.8",
+    "$vlc_version_intel/macosx","vlc-$vlc_version_intel.dmg",        "vlc", "dmg package", "efec9905c76276fb8803973c9ca3f950");
+pkgitem_sf( "32 bits Intel Mac, 1.1.8",
+    "$vlc_version_intel/macosx","vlc-$vlc_version_intel-intel.dmg",  "vlc", "dmg package", "7b3c66b0d539fbe6a179ce43647b9058");
+pkgitem_sf( "64 bits Intel Mac, 1.1.8",
+    "$vlc_version_intel/macosx","vlc-$vlc_version_intel-intel64.dmg","vlc", "dmg package", "aa4865f69761615c4147259b2e208ce6");
 
-pkgitem_sf( "PowerPC Mac, 1.1.7",
-    "$vlc_version_ppc/macosx","vlc-$vlc_version_ppc-powerpc.dmg",    "vlc", "dmg package", "c231b05154d7426d12ad900cac86c171"); ?>
+pkgitem_sf( "PowerPC Mac, 1.1.8",
+    "$vlc_version_ppc/macosx","vlc-$vlc_version_ppc-powerpc.dmg",    "vlc", "dmg package", "97df7bfa3e61ac90ef2ed44c0fe0a8ec"); ?>
 
 
 <div class="clearme"> </div>

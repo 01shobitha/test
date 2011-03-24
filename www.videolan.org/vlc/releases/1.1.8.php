@@ -31,8 +31,8 @@
             </div>
         </div>
 <p>
-<a href="http://twitter.com/#search?q=vlc">Twitter</a> <a href="http://digg.com/news/technology/videolan_vlc_1_1_8_release">Digg it!</a>
-<a href="http://news.ycombinator.com/item?id=2133758">Hacker News</a> <a href="/">Reddit (not yet)</a>
+<a href="http://twitter.com/#search?q=vlc">Twitter</a> <a href="http://digg.com/story/r/videolan_vlc_1_1_8_release">Digg it!</a>
+<a href="http://news.ycombinator.com/item?id=2362265">Hacker News</a> <a href="http://www.reddit.com/r/reddit.com/comments/ga4oo/vlc_media_player_118_is_out/">Reddit</a>
 <a href="http://www.facebook.com/vlc.media.player">Facebook page</a> <a href="http://twitter.com/videolan">Twitter page</a>
 </p>
 <h1>What's new in 1.1.8</h1>

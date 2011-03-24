@@ -42,7 +42,7 @@
 <br />
 <div style="float:left; width: 48%;">
 <ul class="blue-bullet">
-<li>Security update regarding video width concerning some demuxers</li>
+<li><a href="http://www.coresecurity.com/content/vlc-vulnerabilities-amv-nsv-files">Security update</a> regarding video width concerning some demuxers</li>
 <li>Support for a new Dirac encoder based on libschroedinger</li>
 <li>Package of the new VP8/Webm encoder 'Bali'</li>
 <li>Notable updates in .mp4, .ogg, .ape demuxers</li>

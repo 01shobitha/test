@@ -1,7 +1,7 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
-|23 March 2011|VLC 1.1.8|VideoLAN and the VLC development team present VLC 1.1.8, a minor release of the 1.1 branch.<br />Small new features, many bugfixes, updated translations and security issues are making this release too. Notable improvements include updated look on Mac, new Dirac encoder, new VP8/Webm encoder, and numerous fixes in codecs, demuxers, interface, subtitles auto-detection, protocols and platform integration.<br />Source and Windows and MacOSX builds are available.<br /><!-- See the <a href="/vlc/releases/1.1.8.html">release notes</a> for more information on 1.1.6.</p>-->
+|23 March 2011|VLC 1.1.8|VideoLAN and the VLC development team present VLC 1.1.8, a minor release of the 1.1 branch.<br />Small new features, many bugfixes, updated translations and security issues are making this release too. Notable improvements include updated look on Mac, new Dirac encoder, new VP8/Webm encoder, and numerous fixes in codecs, demuxers, interface, subtitles auto-detection, protocols and platform integration.<br />Source and Windows and MacOSX builds are available.<br />See the <a href="/vlc/releases/1.1.8.html">release notes</a> for more information on 1.1.8.</p>
 
 |28 February 2011|CeBit and 10 years of open source... |The VideoLAN project and organization would like to thank everyone for the support during this month for our <a href="/videolan/events/10y/">10 years</a><br />We'd like to invite you to meet us at the <a href="http://cebit.de">CeBIT</a>, starting from tomorrow, in the open source lounge, <b>Hall 2, Stand F44</b>.
 

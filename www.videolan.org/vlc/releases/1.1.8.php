@@ -36,7 +36,7 @@
 <a href="http://www.facebook.com/vlc.media.player">Facebook page</a> <a href="http://twitter.com/videolan">Twitter page</a>
 </p>
 <h1>What's new in 1.1.8</h1>
-<p>Two months after VLC 1.1.8, and after more than 50 million downloads of VLC 1.1.7, here is a minor release of VLC 1.1.8.</p>
+<p>Two months after VLC 1.1.6, and after more than 50 million downloads of VLC 1.1.7, here is a minor release of VLC 1.1.8.</p>
 <p>Introducing small features and fixing important bugs and a security issues, here is <b>VLC 1.1.8</b>.</p>
 
 <br />

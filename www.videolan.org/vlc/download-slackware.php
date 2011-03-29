@@ -31,7 +31,7 @@
     <h2>Packages on SlackPack</h2>
 
     <p>You can also find 32-bit Slackware packages on
-    <a href="http://sotirov-bg.net/slackpack/search.cgi?q=vlc">SlackPack/</a>.
+    <a href="http://sotirov-bg.net/slackpack/search.cgi?q=vlc">SlackPack</a>.
     The package is a dynamic build and all of the dependencies are
     available from the same site.</p>
 </div>

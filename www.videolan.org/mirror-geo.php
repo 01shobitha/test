@@ -1,6 +1,6 @@
 <?php
 
-$mirror_url = $_GET["mirror"];
+if( isset( $_GET["mirror"] ) ) $mirror_url = $_GET["mirror"];
 $file = $_GET["file"];
 
 $title = "Downloading ".$file." !";

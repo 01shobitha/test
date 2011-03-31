@@ -167,7 +167,7 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 
 #donate
 {
-	behavior: url(border-radius.htc);
+	behavior: url(http://images1.videolan.org/style/border-radius.htc);
 	float: right;
 	padding: 7px;
 	padding-left: 10px;
@@ -385,7 +385,7 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 
 #downloadButton
 {
-	behavior:url(border-radius.htc);
+	behavior:url(http://images1.videolan.org/style/border-radius.htc);
 	height: 53px;
 	position: relative;
 	clear: both;
@@ -427,7 +427,7 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 
 .normalButton
 {
-	behavior:url(border-radius.htc);
+	behavior:url(http://images1.videolan.org/style/border-radius.htc);
 	height: 26px;
 	position: relative;
 	float: left;

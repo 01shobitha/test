@@ -1,7 +1,5 @@
 <?php
    $title = "VLC - Screenshots";
-   $lang = "en";
-   $additional_css = array("/style/screenshots.css");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
 function screenshot($img,$thumb,$desc,$size){

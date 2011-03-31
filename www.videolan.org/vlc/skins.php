@@ -29,7 +29,7 @@ function AddSkin( $id, $name, $author, $img, $url, $dl, $date, $date_mod, $ratin
     echo ">";
       echo "<span class=\"skin-title-list\">".$name."</span>";
   echo "</div>";*/
-  $canvote = ($_COOKIE["skinrated_$id"] != $id);
+  $canvote = if(!isset($_COOKIE["skinrated_$id"])) || ($_COOKIE["skinrated_$id"] != $id);
   echo "<div class=\"skin-container\"";
   echo " onclick=\"showSkinBox(".$id.",'".$name."','".$author."','".$date_mod."','".$dl."','".$url."','".FormatSize( $size )."',".$rating.",".$count.",'http://images1.videolan.org/vlc/skins2/".$img."','".$canvote."','".$min_version."')\"";
   echo ">\n";

@@ -13,7 +13,6 @@
 <h2>Tarballs</h2>
 
 <p> Latest VLC source code tarball (1.1.8): </p>
-8
 <ul class="bullets">
 
 <li><a href="http://sourceforge.net/projects/vlc/files/1.1.8/vlc-1.1.8.tar.bz2/download">VLC source code tar.bz2</a>

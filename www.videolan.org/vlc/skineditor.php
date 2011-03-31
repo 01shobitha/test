@@ -4,8 +4,7 @@
    $menu = array( "vlc", "skins" );
    
    $additional_css = array("http://images.videolan.org/images/slimbox2/slimbox2.css");
-   $additional_js = array("/js/jquery.js", "/js/slimbox2.js");   
-   
+
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");  
       

@@ -26,6 +26,7 @@
 </ul>
 
 <h2>Get libdvbcsa</h2>
+<p>The latest <code>libdvbcsa</code> release is 1.1.0.</p>
 
 <p> <code>libdvbcsa</code> is available through <a href="http://wiki.videolan.org/Subversion">Subversion</a> or
 by browsing the <a href="http://download.videolan.org/pub/videolan/libdvbcsa/">releases</a>.

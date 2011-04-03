@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|3 April 2011|libdvbcsa 1.1.0 is now out!| libdvbcsa's new versions brings major speed improvements and optimizations of key schedules. It also fixes minor issues.<br />You can get it now on our <a href="ftp://ftp.videolan.org/pub/videolan/libdvbcsa/1.1.0/">FTP</a> or on the main <a href="/developers/libdvbcsa.html">libdvbcsa</a> page!
+
 |28 March 2011|A new year of Google Summer of Code|Instead of having a lousy student summer internship, why not working for VideoLAN and have an impact on millions of people world-wide?<br />The <a href="http://goo.gl/0hXjA">Google Summer of Code</a> program is starting soon and you should send your applications before April 8th 2011, 19:00 UTC, on the <a href="http://goo.gl/0hXjA">webapplication</a>. <br />You shouldn't wait for the last minute and we would like to remember that application can be modified afterwards and that you can submit multiple applications.<br /><a href="http://goo.gl/0hXjA"><b>Join the team now!</b></a>
 
 |25 March 2011|VLC 1.1.8 and anti-virus software|Yet again, broken anti-virus software flag the latest version of VLC on Windows as a malware. This is, once again, a <b>false positive</b>.<br />As some of the anti-virus makers plainly refuse to fix their code, we recommend to our users to stop using <b>Kaspersky</b>, <b>AVL</b>, <b>TheHacker</b> or <b>AVG</b>.<br />Users are advised to use the free <a href="http://www.avira.com/free" rel="nofollow">Antivir</a> or the new <a href="http://www.microsoft.com/security_essentials/" rel="nofollow">Microsoft Security Essential</a>.<br /><b>Moreover</b>, we advise users to download VLC <b>only</b> from <a href="/">videolan.org</a>, as very numerous scam websites have appeared lately.

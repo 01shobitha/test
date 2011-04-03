@@ -62,7 +62,7 @@ href="libdvdcss/ChangeLog.html">ChangeLog</a>.</p>
 </tr>
 </table>
 
-<h2>Additionnal information</h2>
+<h2>additional information</h2>
 
 If you want to read more on this subject, we publish a <a
 href="libdvdcss.txt">french non-technical description of libdvdcss</a>

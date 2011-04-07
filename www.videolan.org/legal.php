@@ -23,7 +23,7 @@ purpose.
 
 <p>Note: You do not need to ask the VideoLAN team the permission to do so! </p>
 
-<h3>How do I do comply with those terms?</h3>
+<h3>How do I redistribute a piece of VideoLAN ?</h3>
 
 <p>The easiest way to conform to the GPL is to accompany the product you want to distribute with its sources. 
 
@@ -40,17 +40,20 @@ There are other ways to comply with the GPL, but this should be the simplest one
 
 <p>VideoLAN est une association à but non lucratif, régie par la loi du 1er juillet 1901. Il s'agit donc d'un organisme bénévole sans aucune répartition des bénéfices, ni pour ses dirigeants, ni pour ses membres. VideoLAN, comme toute association, est une personne morale ayant sa propre capacité juridique, et sa responsabilité, distincte des personnes la dirigeant.</p>
 
-<p>Le bénévolat est la règle concernant l'association : tous les dons et recettes sont conservés et utilisés par la personne morale, sans aucune reversion aux dirigeants ou aux membres, malgré leur investissement personnel et leur travail.</p>
+<p>Le bénévolat est la règle concernant l'association : tous les dons et recettes sont conservés et utilisés par la personne morale, sans aucune répartition aux dirigeants ou aux membres, malgré leur travail et leur investissement.</p>
 
 <h2>Droit applicable</h2>
 
 <p>L'association VideoLAN est une association de droit français. Elle est domiciliée en France et exerce l'essentiel de la gestion de son activité dans ce pays. La loi applicable la concernant (ainsi que ses logiciels et services) est donc dans tous les cas la loi française, comme prévu par les articles 14 et 15 du Code civil.</p>
 
-<p>Compte tenu de la forme de ses produits et de leur contenu, l'association bénéficie d'une autorisation d'exportation de l'ANSSI (agence nationale de sécruité des systèmes d'information) depuis 2010.</p>
+<h2>Autorisation d'exportation</h2>
+
+<p>De par son contenu et sa large diffusion, le logiciel VLC media player bénéficie d'une autorisation d'exportation de l'<a href="http://www.ssi.gouv.fr/index.html">ANSSI</a> (agence nationale de sécurité des systèmes d'information) depuis 2010.</p>
+<p>Since 2010, <a href="http://www.ssi.gouv.fr/site_rubrique88.html">ANSSI</a> delivered an export authorization to VideoLAN regarding VLC media player software.</p>
 
 <h2>Licences et droit d'auteur</h2>
 
-<p>Les logiciels proposés par VideoLAN sont tous les logiciels open source, sous la licence GNU GPL2 (General Public License version 2). Cette licence autorise toutes les utilisations des logiciels et leur redistribution sous la même forme ou après modification, à condition que ces logiciels modifiés respectent les conditions de la licence, notamment la publication des codes source et l'autorisation de redistribution.</p>
+<p>Les logiciels proposés par VideoLAN sont tous des logiciels open source, sous les licences GNU GPL v2 ou LGPL. Ces licences autorisent toutes les utilisations des logiciels et leur redistribution sous la même forme ou après modification, à condition que ces logiciels modifiés respectent les conditions de la licence de base, notamment la publication des codes source et l'autorisation de redistribution.</p>
 
 <p><strong>NOTE :</strong> Toute redistribution doit d'abord être acceptée par l'équipe de VideoLAN.</p>
 
@@ -64,9 +67,9 @@ There are other ways to comply with the GPL, but this should be the simplest one
 
 <p>La marque "VideoLAN" est déposée et protégée par le droit des marques. AUCUNE UTILISATION DE LA DÉNOMINATION N'EST PERMISE, dans aucun des domaines touchés par l'association.</p>
 
-<h3>VLC Media Player</h3>
+<h3>VLC media player</h3>
 
-<p> La dénomination "VLC Media Player" est déposée et protégée par le droit des marques. L'utilisation de la marque est permise, notamment pour les redistributions conformes à la licence GPL.</p>
+<p> La dénomination "VLC media player" est déposée et protégée par le droit des marques. L'utilisation de la marque est permise, notamment pour les redistributions conformes à la licence GPL.</p>
 <p><strong>RESTRICTION :</strong> L'utilisation de la marque VLC Media Player est INTERDITE pour les redistributions sous Windows, totales ou partielles. Tout droit d'utilisation de la marque sous Windows doit être accordé par VideoLAN au préalable.
 
 <h3>x264</h3>
@@ -76,6 +79,10 @@ There are other ways to comply with the GPL, but this should be the simplest one
 <h2>Responsabilité d'utilisation des logiciels</h2>
 
 <p>VideoLAN élabore et fournit des logiciels audiovisuels. L'association décline toute responsabilité quand à une utilisation illégale de ces logiciels.</p>
+
+<h3>Plus d'informations à venir sur les produits libdvdcsa et libdvdcss...</h3>
+<h3>Coming soon : more information about libdvdcsa & libdvdcss...</h3>
+
 </div>
 
 <?php footer();?>

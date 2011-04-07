@@ -55,9 +55,7 @@ There are other ways to comply with the GPL, but this should be the simplest one
 
 <p>Les logiciels proposés par VideoLAN sont tous des logiciels open source, sous les licences GNU GPL v2 ou LGPL. Ces licences autorisent toutes les utilisations des logiciels et leur redistribution sous la même forme ou après modification, à condition que ces logiciels modifiés respectent les conditions de la licence de base, notamment la publication des codes source et l'autorisation de redistribution.</p>
 
-<p><strong>NOTE :</strong> Toute redistribution doit d'abord être acceptée par l'équipe de VideoLAN.</p>
-
-<p>Subsidiairement aux conditions de la license, le droit commun français de la propriété intellectuelle s'applique, notamment le droit d'auteur. VideoLAN et ses contributeurs doivent donc autoriser toute redistribution, avec ou sans transformation. De même, la provenance des logiciels, même partiellement réutilisés, doit toujours être visible par les utilisateurs.</p>
+<p>Subsidiairement aux conditions de la license, le droit commun français de la propriété intellectuelle s'applique, notamment le droit d'auteur. Tout changement de licence ou redistribution sous d'autres conditions est interdite. De même, la provenance des logiciels, même partiellement réutilisés, doit toujours être visible par les utilisateurs.</p>
 
 <h2>Marques déposées</h2>
 
@@ -80,8 +78,8 @@ There are other ways to comply with the GPL, but this should be the simplest one
 
 <p>VideoLAN élabore et fournit des logiciels audiovisuels. L'association décline toute responsabilité quand à une utilisation illégale de ces logiciels.</p>
 
-<h3>Plus d'informations à venir sur les produits libdvdcsa et libdvdcss...</h3>
-<h3>Coming soon : more information about libdvdcsa & libdvdcss...</h3>
+<h3>Plus d'informations à venir sur les produits libaacs et libdvdcss...</h3>
+<h3>Coming soon : more information about libaacs & libdvdcss...</h3>
 
 </div>
 

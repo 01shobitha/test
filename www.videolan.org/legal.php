@@ -6,16 +6,8 @@
 ?>
 
 <div>
-<h1>Legal concerns</h1>
+<h1>Legal concerns (work in progress)</h1>
 
-<h2>May I use the VideoLAN logo?</h2>
-<p>You may freely use the VideoLAN logo using the following copyright:
-</p>
-<blockquote><p>
-Copyright &copy; 1996-2009 VideoLAN.
-This logo or a modified version may be used or modified by anyone to refer to the VideoLAN project
-or any product developed by the VideoLAN team, but does not indicate endorsement by the project.
-</p></blockquote>
 
 <h2>What are the usage restrictions for VideoLAN software?</h2>
 <p>Short answer: there are none.</p>
@@ -25,132 +17,65 @@ for personal, educational, research, military, governmental and/or professional
 purpose.
 </p>
 
-<h2>Can I obtain VideoLAN software under different licensing terms?</h2>
-<p>You would need to negotiate a new copyright license
-with every single copyright holder of the affected piece of software.
-You may also need to relicense some underlying libraries.
-</p>
-<p>In other words, you practically cannot obtain our software
-under other licensing terms than normal open-source ones.
-</p>
-
-<h2>What about other licenses?</h2>
-<p>The binary packages from the VideoLAN website and mirrors
-are wholly licensed under their specified license
-(normally the GNU General Public License version 2).
-You do not need to obtain any separate copyright license.
-</p>
-
-<h3>What about patent licenses?</h3>
-<p>Regarding <cite>Patentable Inventions</cite>,
-the second paragraph
-of article 52
-of the European Patent Convention (EPC) states:
-</p>
-<blockquote><p>
-The following (..) shall not be regarded as [patentable] inventions:
-scientific theories and mathematical methods; (...)
-programs for computers (...).
-</p></blockquote>
-<p>The VideoLAN project only provides software, i.e. &quot;programs for computers&quot;.
-Those are outside the scope of patentability.
-Hence there is not need to obtain any patent licenses
-for VideoLAN software <strong>within most of Europe</strong>
-(European Union, Croatia, Liechtenstein, Macedonia, Monaco, Norway,
- San Marino, Switzerland and Turkey).
-In other venues, please check any applicable law.
-</p>
-<p>Please note however that the combination of software with hardware
-may yield something patentable.
-As such, if you do make a hardware product with VideoLAN software,
-you may conceivably need to obtain patent licenses for the hardware parts.
-</p>
-
 <h2>May I redistribute a piece of VideoLAN software?</h2>
-<p>
-Yes, you may distribute an original or a modified version of a piece of VideoLAN software as long as you comply with its license terms. It is the GNU General Public License Version 2 (referred herein as GPL), and it is in the file named COPYING in our products. 
-</p>
 
-<p><strong>Note</strong>: You do not need to ask the VideoLAN team the permission to do so!
-</p>
+<p>Yes, you may distribute an original or a modified version of a piece of VideoLAN software as long as you comply with its license terms. It is the GNU General Public License Version 2 (referred herein as GPL), and it is in the file named COPYING in our products.</p> 
+
+<p>Note: You do not need to ask the VideoLAN team the permission to do so! </p>
 
 <h3>How do I do comply with those terms?</h3>
-<p>The easiest way to conform to the GPL is to accompany the product you want to distribute with its sources.
-</p>
 
-<p>For example, if you plan to distribute the latest binary version of VLC on a DVD-ROM,
-you should also include the <a href="http://www.videolan.org/vlc/download-sources.html">VLC source code</a>
-and the source code for the underlying included libraries on the same media.
-</p>
+<p>The easiest way to conform to the GPL is to accompany the product you want to distribute with its sources. 
 
-<p>If you plan to distribute the latest binary version of VLC on a website,
-you should provide a link to the <a href="http://www.videolan.org/vlc/download-sources.html">VLC source code</a>.
-</p>
+For example, if you plan to distribute the latest binary version of VLC on a DVD-ROM, you should also include the VLC source code and the source code for the underlying included libraries on the same media. </p>
 
-<p>There are other ways to comply with the GPL,
-but this should be the simplest one as it does not rely on a contract.
-</p>
+<p>If you plan to distribute the latest binary version of VLC on a website, you should provide a link to the VLC source code. 
 
-<h2>Is libdvdcss legal?</h2>
-<p> The use and distribution of the libdvdcss library is controversial
-in some signatories countries
-of the <a href="http://www.wipo.int/">WIPO</a> Copyright Treaty,
-and the corresponding European Union Copyright Directive (EUCD) within the EU.
-For instance, the United States of America,
-it is implemented through the DMCA (Digital Millennium Copyright Act).
-</p>
-<p> Different countries implement subtly different restrictions
-on the use of anti-piracy counter-measures.
-If you are unsure about the legality of using and distributing this library
-in your country, please consult your lawyer.
-</p>
+There are other ways to comply with the GPL, but this should be the simplest one as it does not rely on a contract.</p> 
 
-<p><strong>Beware</strong>:
-VLC media player installers for Microsoft Windows and MacOS X
-are distributed with the libdvdcss library included.
-The VLC media player source code does <strong>not</strong> include libdvdcss.
-Also Linux VLC packages normally do not include libdvdcss.
-</p>
 
-<h2>Third parties are selling your software.
-<a name="sale">Is this legal?</a></h2>
-<p>Yes, absolutely.
-</p>
-<p>Our licensing terms explicitly allow selling or sublicensing our software.
-We allow that very much on purpose.
-For instance, we like computer magazines to include our software on their CDs,
-and we also like Linux distributions, PC manufacturers and storage device
-vendors to pre-install our software and make money out of it.
-For us, that is basically zero-cost advertisement.
-See also <a href="http://www.gnu.org/philosophy/selling.html">the rationale
-from the Free Software Foundation</a> (those who wrote our licensing terms).
-</p>
-<p>We reckon that certain form of sales, such as online commercial downloads,
-provide no value to us neither our customers.
-Many people consider those sales to be deceptive, if not outright fraudulent.
-As our software can be downloaded for free from our website and mirrors,
-<cite>there should be no need to pay</cite>.
-Unfortunately, it is impossible to differentiate good and bad sales,
-so we allow all of them.
-Besides, we are open-source enthusiasts, not lawyers.
-</p>
+<h1>Informations légales</h1>
 
-<h2>I bought your software.
-<a name="refund">How do I get a refund?</a></h2>
-<p>The VideoLAN project and its <kbd>videolan.org</kbd> website
-are in no way involved with retail or gross sale of any product.
-As a consequence, the VideoLAN project is unable to provide any refund.
-To put it bluntly, we did not get your money, so we cannot give it back.
-</p>
-<p>If you want a refund for software from the VideoLAN project,
-you must solicit it from the merchant that sold you the product.
-Depending on the applicable consumer protection laws and contractual terms
-you could have agreed to,
-you might consider turning to the financial intermediaries,
-and/or the competent administration for commercial fraud
-(e.g. the DGCCRF in France).
-</p>
+<h2>Forme de VideoLAN</h2>
 
+<p>VideoLAN est une association à but non lucratif, régie par la loi du 1er juillet 1901. Il s'agit donc d'un organisme bénévole sans aucune répartition des bénéfices, ni pour ses dirigeants, ni pour ses membres. VideoLAN, comme toute association, est une personne morale ayant sa propre capacité juridique, et sa responsabilité, distincte des personnes la dirigeant.</p>
+
+<p>Le bénévolat est la règle concernant l'association : tous les dons et recettes sont conservés et utilisés par la personne morale, sans aucune reversion aux dirigeants ou aux membres, malgré leur investissement personnel et leur travail.</p>
+
+<h2>Droit applicable</h2>
+
+<p>L'association VideoLAN est une association de droit français. Elle est domiciliée en France et exerce l'essentiel de la gestion de son activité dans ce pays. La loi applicable la concernant (ainsi que ses logiciels et services) est donc dans tous les cas la loi française, comme prévu par les articles 14 et 15 du Code civil.</p>
+
+<p>Compte tenu de la forme de ses produits et de leur contenu, l'association bénéficie d'une autorisation d'exportation de l'ANSSI (agence nationale de sécruité des systèmes d'information) depuis 2010.</p>
+
+<h2>Licences et droit d'auteur</h2>
+
+<p>Les logiciels proposés par VideoLAN sont tous les logiciels open source, sous la licence GNU GPL2 (General Public License version 2). Cette licence autorise toutes les utilisations des logiciels et leur redistribution sous la même forme ou après modification, à condition que ces logiciels modifiés respectent les conditions de la licence, notamment la publication des codes source et l'autorisation de redistribution.</p>
+
+<p><strong>NOTE :</strong> Toute redistribution doit d'abord être acceptée par l'équipe de VideoLAN.</p>
+
+<p>Subsidiairement aux conditions de la license, le droit commun français de la propriété intellectuelle s'applique, notamment le droit d'auteur. VideoLAN et ses contributeurs doivent donc autoriser toute redistribution, avec ou sans transformation. De même, la provenance des logiciels, même partiellement réutilisés, doit toujours être visible par les utilisateurs.</p>
+
+<h2>Marques déposées</h2>
+
+<p>Certains logiciels de VideoLAN correspondent à des marques déposées, ce qui entraîne des conséquences particulières pour leur redistribution. En revanche, ceci n'entraîne aucune conséquence pour l'utilisation normale des logiciels.</p>
+
+<h3>VideoLAN</h3>
+
+<p>La marque "VideoLAN" est déposée et protégée par le droit des marques. AUCUNE UTILISATION DE LA DÉNOMINATION N'EST PERMISE, dans aucun des domaines touchés par l'association.</p>
+
+<h3>VLC Media Player</h3>
+
+<p> La dénomination "VLC Media Player" est déposée et protégée par le droit des marques. L'utilisation de la marque est permise, notamment pour les redistributions conformes à la licence GPL.</p>
+<p><strong>RESTRICTION :</strong> L'utilisation de la marque VLC Media Player est INTERDITE pour les redistributions sous Windows, totales ou partielles. Tout droit d'utilisation de la marque sous Windows doit être accordé par VideoLAN au préalable.
+
+<h3>x264</h3>
+
+<p>La marque x264 est déposée et protégée par le droit des marques. Toute utilisation est autorisée, notamment pour la redistribution, SAUF INTÉGRÉE À UN LOGICIEL. Tout droit d'utilisation doit être accordé par VideoLAN au préalable.</p>
+
+<h2>Responsabilité d'utilisation des logiciels</h2>
+
+<p>VideoLAN élabore et fournit des logiciels audiovisuels. L'association décline toute responsabilité quand à une utilisation illégale de ces logiciels.</p>
 </div>
 
 <?php footer();?>

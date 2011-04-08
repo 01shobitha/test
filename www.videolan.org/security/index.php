@@ -28,7 +28,7 @@ pub   1024D/AC3E0879 2006-03-01
 
 <h2>2011</h2>
 <dl>
-<dt>VideoLAN-SA-1102 (?)</dt>
+<dt>VideoLAN-SA-1102 (CVE-2011-0531)</dt>
 <dd>Insufficient input validation in MKV demuxer.
  <a href="sa1102.html">Details</a>
 </dd>
@@ -46,7 +46,7 @@ pub   1024D/AC3E0879 2006-03-01
  <a href="sa1007.html">Details</a>
 </dd>
 
-<dt>VideoLAN-SA-1006 (?)</dt>
+<dt>VideoLAN-SA-1006</dt>
 <dd>Stack smashing in SMB/CIFS access.
  <a href="sa1006.html">Details</a>
 </dd>

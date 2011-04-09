@@ -26,6 +26,12 @@ pub   1024D/AC3E0879 2006-03-01
 
 <h1>Past security advisories</h1>
 
+<p><strong>Note well</strong>:
+The VideoLAN project does not issue security advisories
+for underlying third party libraries.
+Please refer to the concerned third parties as appropriate.
+</p>
+
 <dl>
 
 <dt>VideoLAN-SA-1103 (CVE-2011-XXXX)</dt>

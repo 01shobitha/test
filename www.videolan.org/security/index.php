@@ -26,8 +26,14 @@ pub   1024D/AC3E0879 2006-03-01
 
 <h1>Past security advisories</h1>
 
-<h2>2011</h2>
 <dl>
+
+<dt>VideoLAN-SA-1103 (CVE-2011-XXXX)</dt>
+<dd>Heap corruption in MP4 demuxer.
+ <a href="sa1103.html">Details</a>
+</dd>
+</dl>
+
 <dt>VideoLAN-SA-1102 (CVE-2011-0531)</dt>
 <dd>Insufficient input validation in MKV demuxer.
  <a href="sa1102.html">Details</a>
@@ -50,7 +56,6 @@ pub   1024D/AC3E0879 2006-03-01
 <dd>Stack smashing in SMB/CIFS access.
  <a href="sa1006.html">Details</a>
 </dd>
-
 
 <dt>VideoLAN-SA-1005 (CVE-2010-3124)</dt>
 <dd>DLL preloading vulnerability.

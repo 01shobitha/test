@@ -38,7 +38,6 @@ Please refer to the concerned third parties as appropriate.
 <dd>Heap corruption in MP4 demuxer.
  <a href="sa1103.html">Details</a>
 </dd>
-</dl>
 
 <dt>VideoLAN-SA-1102 (CVE-2011-0531)</dt>
 <dd>Insufficient input validation in MKV demuxer.

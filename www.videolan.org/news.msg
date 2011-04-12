@@ -1,7 +1,7 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
-|12 April 2011|VLC 1.1.9|VideoLAN and the VLC development team present VLC 1.1.9, a minor release of the 1.1 branch.<br />This release, not long after 1.1.8, was necessary because some security issues were found, and the VLC development team cares about security.<br />This release also brings updated translations and a lot of small Mac OS X fixes.<br />Source and binaries builds for Mac and Windows are available.<br />See the <a href="/vlc/releases/1.1.9.html">release notes</a> for more information on 1.1.9.
+|12 April 2011|VLC 1.1.9|VideoLAN and the VLC development team present VLC 1.1.9, a minor release of the 1.1 branch.<br />This release, not long after 1.1.8, was necessary because some security issues were found, and the VLC development team cares about security.<br />This release also brings updated translations and a lot of small Mac OS X fixes.<br />Source and binaries builds for Windows are available. Mac versions will follow soon.<br />See the <a href="/vlc/releases/1.1.9.html">release notes</a> for more information on 1.1.9.
 
 |3 April 2011|libdvbcsa 1.1.0 is now out!| libdvbcsa's new versions brings major speed improvements and optimizations of key schedules. It also fixes minor issues.<br />You can get it now on our <a href="ftp://ftp.videolan.org/pub/videolan/libdvbcsa/1.1.0/">FTP</a> or on the main <a href="/developers/libdvbcsa.html">libdvbcsa</a> page!
 

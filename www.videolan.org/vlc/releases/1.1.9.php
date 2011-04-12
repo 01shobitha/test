@@ -51,7 +51,7 @@
 <div style="float:right; width: 50%;">
 <ul class="blue-bullet">
 <li>Numerous updates and fixes on the interface and look of VLC for Mac OS X</li>
-<li>Growl on MacOS X is now bundled with VLC</li>
+<li>Growl is bundled with VLC on Mac OS X now</li>
 <li>Many miscellaneous fixes</li>
 </ul>
 </div>

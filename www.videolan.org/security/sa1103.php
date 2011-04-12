@@ -63,9 +63,10 @@ from the official VLC source code repositories.
 <dt>9 April 2011</dt>
 <dd>Patches published</dd>
 <dd>Security advisory published</dd>
+<dt>12 April 2011</dt>
+<dd>VLC media player 1.1.9 released</dd>
 <dt>TBD</dt>
 <dd>CVE ID reserved</dd>
-<dd>VLC media player 1.1.9 released</dd>
 </dl>
 
 <address>R&eacute;mi Denis-Courmont,<br />

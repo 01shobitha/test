@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|12 April 2011|VLC 1.1.9|VideoLAN and the VLC development team present VLC 1.1.9, a minor release of the 1.1 branch.<br />This release, not long after 1.1.8, was necessary because some security issues were found, and the VLC development team cares about security.<br />This release also brings updated translations and a lot of small Mac OS X fixes.<br />Source and binaries builds for Mac and Windows are available.<br />See the <a href="/vlc/releases/1.1.9.html">release notes</a> for more information on 1.1.9.
+
 |3 April 2011|libdvbcsa 1.1.0 is now out!| libdvbcsa's new versions brings major speed improvements and optimizations of key schedules. It also fixes minor issues.<br />You can get it now on our <a href="ftp://ftp.videolan.org/pub/videolan/libdvbcsa/1.1.0/">FTP</a> or on the main <a href="/developers/libdvbcsa.html">libdvbcsa</a> page!
 
 |28 March 2011|A new year of Google Summer of Code|Instead of having a lousy student summer internship, why not working for VideoLAN and have an impact on millions of people world-wide?<br />The <a href="http://goo.gl/0hXjA">Google Summer of Code</a> program is starting soon and you should send your applications before April 8th 2011, 19:00 UTC, on the <a href="http://goo.gl/0hXjA">webapplication</a>. <br />You shouldn't wait for the last minute and we would like to remember that application can be modified afterwards and that you can submit multiple applications.<br /><a href="http://goo.gl/0hXjA"><b>Join the team now!</b></a>

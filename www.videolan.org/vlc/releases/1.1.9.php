@@ -36,7 +36,7 @@
 <a href="http://www.facebook.com/vlc.media.player">Facebook page</a> <a href="http://twitter.com/videolan">Twitter page</a>
 </p>
 <h1>What's new in 1.1.9</h1>
-<p>Two weeks after VLC 1.1.9, here is a minor release of VLC.</p>
+<p>Two weeks after VLC 1.1.8, we present you a minor release of VLC.</p>
 <p>Fixing important bugs and security issues, here is <b>VLC 1.1.9</b>.</p>
 
 <br />
@@ -51,7 +51,7 @@
 <div style="float:right; width: 50%;">
 <ul class="blue-bullet">
 <li>Numerous updates and fixes on the interface and look of VLC for Mac OS X</li>
-<li>Growl on MacOS X is now bundlede</li>
+<li>Growl on MacOS X is now bundled with VLC</li>
 <li>Many miscellaneous fixes</li>
 </ul>
 </div>

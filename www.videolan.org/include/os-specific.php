@@ -1,7 +1,8 @@
 <?php
 $version = '1.1.9';
 
-$dlUrl = "http://sourceforge.net/projects/vlc/files/$version/win32/vlc-$version-win32.exe/download";
+$dlUrl = "http://downloads.videolan.org/vlc/$version/win32/vlc-$version-win32.exe";
+//$dlUrl = "http://downloads.videolan.org/vlc/$version/win32/vlc-$version-win32.exe/download";
 
 function replaceDLinfos( )
 {
@@ -11,9 +12,9 @@ function replaceDLinfos( )
     //Editable details for the client side OS appropriate download detection.
     echo "var latestVersion  = '".$version."';";
     echo "
-    var windowsDetails = {'name': 'Windows', 'size': '20&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$version/win32/vlc-$version-win32.exe/download'};
-    var osxDetails     = {'name': 'Mac OS X', 'size': '40&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$version/macosx/vlc-$version.dmg/download' };
-    var osxPPCDetails  = {'name': 'Mac OS X (PPC)', 'size': '24&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$version/macosx/vlc-$version-powerpc.dmg/download' };
+    var windowsDetails = {'name': 'Windows', 'size': '20&nbsp;MB', 'location': 'http://downloads.videolan.org/vlc/$version/win32/vlc-$version-win32.exe'};
+    var osxDetails     = {'name': 'Mac OS X', 'size': '40&nbsp;MB', 'location': 'http://downloads.videolan.org/vlc/$version/macosx/vlc-$version.dmg' };
+    var osxPPCDetails  = {'name': 'Mac OS X (PPC)', 'size': '24&nbsp;MB', 'location': 'http://downloads.videolan.org/vlc/$version/macosx/vlc-$version-powerpc.dmg' };
     var linuxDetails   = {'name': 'Linux', 'size': '', 'location': '/vlc/'};
     var debianDetails  = {'name': 'Debian GNU/Linux', 'size': '', 'location': '/vlc/download-debian.html'};
     var ubuntuDetails  = {'name': 'Ubuntu Linux', 'size': '', 'location': '/vlc/download-ubuntu.html'};

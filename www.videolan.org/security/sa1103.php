@@ -14,7 +14,7 @@ Summary           : Heap corruption in MP4 demultiplexer
 Date              : April 2011
 Affected versions : VLC media player 1.1.8 down to 1.0.0
 ID                : VideoLAN-SA-1103
-CVE reference     : Unassigned
+CVE reference     : CVE-2011-1684
 </pre>
 <h2>Details</h2>
 <p>When parsing some MP4 (MPEG-4 Part 14) files,
@@ -65,7 +65,7 @@ from the official VLC source code repositories.
 <dd>Security advisory published</dd>
 <dt>12 April 2011</dt>
 <dd>VLC media player 1.1.9 released</dd>
-<dt>TBD</dt>
+<dt>13 April 2011</dt>
 <dd>CVE ID reserved</dd>
 </dl>
 

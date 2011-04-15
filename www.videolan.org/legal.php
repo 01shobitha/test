@@ -95,11 +95,11 @@ purpose or any other way...</p>
 
 <h3>libdvdcss</h3>
 
-<p>Le logiciel libdvdcss a été élaboré sans accès au code source ou aux spécifications CSS. Pour lire un DVD, il peut être amené à rechercher des clés de décodage qui ont été publiées et sont accessibles à tous. Par conséquent, il respecte le droit relatif aux mesures techniques de protection, tel que prévu dans l'article <a href="http://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=257F3A2551AFEA654609264234C2CD43.tpdjo13v_3?cidTexte=LEGITEXT000006069414&idArticle=LEGIARTI000020740194&dateTexte=20100708&categorieLien=id#LEGIARTI000020740194">L 331-5 du code de la propriété intellectuelle</a> et précisé par la décision du Conseil d'Etat <a href="http://www.legifrance.gouv.fr/affichJuriAdmin.do?oldAction=rechJuriAdmin&idTexte=CETATEXT000019216315&fastReqId=1851277972&fastPos=1">CE 10e et 9e sous­sect., 16 juillet 2008, n° 301843</a>, dans un objectif d'interopérabilité.</p>
+<p>Le logiciel libdvdcss a été élaboré sans accès au code source ou ni aux spécifications CSS.<br />Pour lire un DVD sur toutes les plate-formes, il peut être amené à trouver des clés de décodage, dans un souci d'interopérabilité. Il respecte le droit relatif aux mesures techniques de protection, tel que prévu dans l'article <a href="http://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=257F3A2551AFEA654609264234C2CD43.tpdjo13v_3?cidTexte=LEGITEXT000006069414&idArticle=LEGIARTI000020740194&dateTexte=20100708&categorieLien=id#LEGIARTI000020740194">L 331-5 du code de la propriété intellectuelle</a> et précisé par la décision du Conseil d'Etat <a href="http://www.legifrance.gouv.fr/affichJuriAdmin.do?oldAction=rechJuriAdmin&idTexte=CETATEXT000019216315&fastReqId=1851277972&fastPos=1">CE 10e et 9e sous­sect., 16 juillet 2008, n° 301843</a>, dans un objectif d'interopérabilité.</p>
 
 <h3>libaacs</h3>
 
-<p>libaacs est un projet de recherche dans un but d'interopérabilité. Il a été élaboré à partir de la spécification officielle et publique de l'<a href="http://en.wikipedia.org/wiki/Advanced_Access_Content_System">AACS</a>. Il ne fournit aucune clé de décodage et ne porte ainsi atteinte à aucune mesure technique de protection.
+<p>libaacs est un projet de recherche dans un but d'interopérabilité. Il a été élaboré à partir de la spécification officielle et publique de l'<a href="http://en.wikipedia.org/wiki/Advanced_Access_Content_System">AACS</a>. Il ne fournit aucune clé de décodage et ne porte ainsi atteinte à aucune mesure technique de protection.</p>
 
 
 <h2>Responsabilité d'utilisation des logiciels</h2>

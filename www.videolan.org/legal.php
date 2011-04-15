@@ -37,9 +37,9 @@ There are other ways to comply with the GPL, but this should be the simplest one
 
 <h3>libdvdcss</h3>
 
-<p>libdvdcss provides the keys to decode DVD's DRM. These keys are published and widely available online and no one is decoded by lidvdcss, according to the french law decision <a href="http://www.legifrance.gouv.fr/affichJuriAdmin.do?oldAction=rechJuriAdmin&idTexte=CETATEXT000019216315&fastReqId=1851277972&fastPos=1">CE 10e et 9e sous­sect., 16 juillet 2008, n° 301843</a>
+<p>libdvdcss can possibly search and find keys to decode DVDs. These keys are published and widely available online and no one is decoded by lidvdcss, according to the french law decision <a href="http://www.legifrance.gouv.fr/affichJuriAdmin.do?oldAction=rechJuriAdmin&idTexte=CETATEXT000019216315&fastReqId=1851277972&fastPos=1">CE 10e et 9e sous­sect., 16 juillet 2008, n° 301843</a>
 
-about interoperability.</p>
+about interoperability. For US enforceable law about this, check out <a href="http://www.copyright.gov/1201/">here</a>.</p>
 
 <h3>libaacs</h3>
 
@@ -89,7 +89,7 @@ about interoperability.</p>
 
 <h3>libdvdcss</h3>
 
-<p>Le logiciel libdvdcss a été élaboré par rétro-ingénierie et fournit des clés de décodage qui ont été publiées et sont accessibles à tous. Par conséquent, il respecte le droit relatif aux mesures techniques de protection, tel que prévu dans l'article <a href="http://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=257F3A2551AFEA654609264234C2CD43.tpdjo13v_3?cidTexte=LEGITEXT000006069414&idArticle=LEGIARTI000020740194&dateTexte=20100708&categorieLien=id#LEGIARTI000020740194">L 331-5 du code de la propriété intellectuelle</a> et précisé par la décision du Conseil d'Etat <a href="http://www.legifrance.gouv.fr/affichJuriAdmin.do?oldAction=rechJuriAdmin&idTexte=CETATEXT000019216315&fastReqId=1851277972&fastPos=1">CE 10e et 9e sous­sect., 16 juillet 2008, n° 301843</a>, dans un objectif d'interopérabilité.</p>
+<p>Le logiciel libdvdcss a été élaboré sans accès au code source ou aux spécifications CSS. Pour lire un DVD, il peut être amené à rechercher des clés de décodage qui ont été publiées et sont accessibles à tous. Par conséquent, il respecte le droit relatif aux mesures techniques de protection, tel que prévu dans l'article <a href="http://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=257F3A2551AFEA654609264234C2CD43.tpdjo13v_3?cidTexte=LEGITEXT000006069414&idArticle=LEGIARTI000020740194&dateTexte=20100708&categorieLien=id#LEGIARTI000020740194">L 331-5 du code de la propriété intellectuelle</a> et précisé par la décision du Conseil d'Etat <a href="http://www.legifrance.gouv.fr/affichJuriAdmin.do?oldAction=rechJuriAdmin&idTexte=CETATEXT000019216315&fastReqId=1851277972&fastPos=1">CE 10e et 9e sous­sect., 16 juillet 2008, n° 301843</a>, dans un objectif d'interopérabilité.</p>
 
 <h3>libaacs</h3>
 

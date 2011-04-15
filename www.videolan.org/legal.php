@@ -1,6 +1,5 @@
 <?php
    $title = 'Legal';
-   $lang = 'en';
    $body_color = "green";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
@@ -10,40 +9,45 @@
 
 
 <h2>What are the usage restrictions for VideoLAN software?</h2>
-<p>Short answer: there are none.</p>
+<p><b>Short answer: there are none</b>.</p>
 
 <p>You can use the software in the way you want (within the boundary of law),
-for personal, educational, research, military, governmental and/or professional
-purpose.
-</p>
+for personal, educational, research, military, governmental, professional
+purpose or any other way...</p>
 
 <h2>May I redistribute a piece of VideoLAN software?</h2>
 
-<p>Yes, you may distribute an original or a modified version of a piece of VideoLAN software as long as you comply with its license terms. It is the GNU General Public License Version 2 (referred herein as GPL), and it is in the file named COPYING in our products.</p> 
+<p>Yes, you may distribute an original or a modified version of a piece of VideoLAN software
+   as long as you comply with its license terms.</p>
+<p>Most pieces of software from VideoLAN are licensed under the
+   <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU General Public License Version 2</a>
+   (referred herein as GPL).</p>
+<p>You will find a license file named COPYING in all our products.</p>
 
-<p>Note: You do not need to ask the VideoLAN team the permission to do so! </p>
+<p><b>Note:</b> You do not need to ask VideoLAN the permission to distribute VideoLAN software! </p>
 
 <h3>How do I redistribute a piece of VideoLAN ?</h3>
 
-<p>The easiest way to conform to the GPL is to accompany the product you want to distribute with its sources. 
+<p>You should refer to <a href="http://www.gnu.org/licenses/gpl-2.0.html#SEC3">the GPL license</a> to do so,
+   and notably its <b>3rd paragraph</b>.</p>
 
-For example, if you plan to distribute the latest binary version of VLC on a DVD-ROM, you should also include the VLC source code and the source code for the underlying included libraries on the same media. </p>
-
-<p>If you plan to distribute the latest binary version of VLC on a website, you should provide a link to the VLC source code. 
-
-There are other ways to comply with the GPL, but this should be the simplest one as it does not rely on a contract.</p> 
+<p>One of the easiest way to conform to the GPL is to accompany the product you want to distribute with its sources.<br />
+   For example, if you plan to distribute the latest binary version of VLC on a DVD-ROM, you should also include the VLC source
+   code and the source code for the underlying included libraries on the same media.</p>
 
 <h2>Are libdvdcss & libaacs legal ?</h2>
 
 <h3>libdvdcss</h3>
 
-<p>libdvdcss can possibly search and find keys to decode DVDs. These keys are published and widely available online and no one is decoded by lidvdcss, according to the french law decision <a href="http://www.legifrance.gouv.fr/affichJuriAdmin.do?oldAction=rechJuriAdmin&idTexte=CETATEXT000019216315&fastReqId=1851277972&fastPos=1">CE 10e et 9e sous­sect., 16 juillet 2008, n° 301843</a>
-
-about interoperability. For US enforceable law about this, check out <a href="http://www.copyright.gov/1201/">here</a>.</p>
+<p>libdvdcss is a library that can find and guess keys from a DVD in order to decrypt DVDs.<br />
+   This method is authorised by a French law decision <a href="http://www.legifrance.gouv.fr/affichJuriAdmin.do?oldAction=rechJuriAdmin&idTexte=CETATEXT000019216315&fastReqId=1851277972&fastPos=1">CE 10e et 9e sous­sect., 16 juillet 2008, n° 301843</a> about interoperability.</p>
+<p><b>NB:</b>In the USA, you should check out <a href="http://www.copyright.gov/1201/">the US Copyright Office decision</a>
+ that allows circumvention in some cases.<br /><b>VideoLAN is NOT</b> entitled to respect the US law, being based in France.</p>
 
 <h3>libaacs</h3>
 
-<p>libaacs is a research project in an interoperability purpose, which DOES NOT provide any key. It is based on the official public AACS specification only. So there is no copyright or DRM's protection infringement.</p>
+<p>libaacs is a research project and has an interoperability purpose (see above point).</p>
+<p>Moreover, libaacs DOES NOT provide any key. It is based on the official public AACS specification only.</p>
 
 <h1>Informations légales</h1>
 

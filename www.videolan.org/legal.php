@@ -39,10 +39,10 @@ purpose or any other way...</p>
 
 <h3>libdvdcss</h3>
 
-<p>libdvdcss is a library that can find and guess keys from a DVD in order to decrypt DVDs.<br />
-   This method is authorised by a French law decision <a href="http://www.legifrance.gouv.fr/affichJuriAdmin.do?oldAction=rechJuriAdmin&idTexte=CETATEXT000019216315&fastReqId=1851277972&fastPos=1">CE 10e et 9e sous­sect., 16 juillet 2008, n° 301843</a> about interoperability.</p>
-<p><b>NB:</b>In the USA, you should check out <a href="http://www.copyright.gov/1201/">the US Copyright Office decision</a>
- that allows circumvention in some cases.<br /><b>VideoLAN is NOT</b> entitled to respect the US law, being based in France.</p>
+<p>libdvdcss is a library that can find and guess keys from a DVD in order to decrypt it.<br />
+   This method is authorised by a French law decision <a href="http://www.legifrance.gouv.fr/affichJuriAdmin.do?oldAction=rechJuriAdmin&idTexte=CETATEXT000019216315&fastReqId=1851277972&fastPos=1">CE 10e et 9e sous­sect., 16 juillet 2008, n° 301843</a> on interoperability.</p>
+<p><b>NB:</b> In the USA, you should check out <a href="http://www.copyright.gov/1201/">the US Copyright Office decision</a>
+ that allows circumvention in some cases.<br />VideoLAN is <b>NOT</b> a US-based organization and is therefore <b>outside US juridiction</b>.</p>
 
 <h3>libaacs</h3>
 

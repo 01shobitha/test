@@ -7,6 +7,7 @@
 <div>
 <h1>Legal concerns</h1>
 
+<p>VideoLAN is a french based organization. So most of the following page is redacted in french and refers to french law, which is the only one to be applicable to it.</p>
 
 <h2>What are the usage restrictions for VideoLAN software?</h2>
 <p><b>Short answer: there are none</b>.</p>

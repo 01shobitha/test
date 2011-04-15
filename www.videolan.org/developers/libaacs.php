@@ -36,7 +36,7 @@ encrypted copyrighted material.</p>
 <p>You can discuss about libaacs on the <a href="http://mailman.videolan.org/listinfo/libaacs-devel">libaacs-devel mailing list</a>.</p>
 
 <h1>Legal</h1>
-<p><code>libaacs</code> does not infringe DRM's right or copyright. See more on our <a href="../legal.php">legal page</a>.</p>
+<p><code>libaacs</code> does not infringe DRM's right or copyright. See more on our <a href="/legal.html">legal page</a>.</p>
 
 <h3>Legal Contact</h3>
 <p>Si vous avez le moindre problème légal (If you have ANY issue with the legal part):

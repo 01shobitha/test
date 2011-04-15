@@ -68,6 +68,6 @@ If you want to read more on this subject, we publish a <a
 href="libdvdcss.txt">french non-technical description of libdvdcss</a>
 and we will try to translate it soon.
 
-<h3>For legal documentation, see our <a href="../legal.php">legal page</a></h3>
+<h3>For legal documentation, see our <a href="/legal.html">legal page</a></h3>
 
 <?php footer('$Id$'); ?>

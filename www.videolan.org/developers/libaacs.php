@@ -35,15 +35,8 @@ encrypted copyrighted material.</p>
 <h2>Mailing list</h2>
 <p>You can discuss about libaacs on the <a href="http://mailman.videolan.org/listinfo/libaacs-devel">libaacs-devel mailing list</a>.</p>
 
-<h1>Légal</h1>
-<p><code>libaacs</code> est un projet de <b>recherche</b>, intégralement développé à partir de la
-<b>spécification officielle et publique</b>. (<b>research</b> project, started from scratch, based on the
-official public specification).</p>
-<p><code>libaacs</code> ne fournit <b>aucune clé de décodage</b>, et donc respecte le droit d'auteur. (No keys provided, hence copyright respected).</p>
-<p><code>libaacs</code> s'inscrit dans le <b>droit à l'interopérabilité</b>, tel que décrit par
-<a href="http://www.legifrance.gouv.fr/affichJuriAdmin.do?oldAction=rechJuriAdmin&idTexte=CETATEXT000019216315&fastReqId=1851277972&fastPos=1"><i>CE 10e et 9e sous­sect., 16 juillet 2008, n° 301843, APRIL</i></a>, par le
-<i><a href="http://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=257F3A2551AFEA654609264234C2CD43.tpdjo13v_3?cidTexte=LEGITEXT000006069414&idArticle=LEGIARTI000006278920&dateTexte=&categorieLien=cid">CPI 122-6-1</a></i>
-et par le <a href="http://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=257F3A2551AFEA654609264234C2CD43.tpdjo13v_3?cidTexte=LEGITEXT000006069414&idArticle=LEGIARTI000020740194&dateTexte=20100708&categorieLien=id#LEGIARTI000020740194"><i>CPI 331-5</i></a>.</p>
+<h1>Legal</h1>
+<p><code>libaacs</code> does not infringe DRM's right or copyright. See more on our <a href="../legal.php">legal page</a>.</p>
 
 <h3>Legal Contact</h3>
 <p>Si vous avez le moindre problème légal (If you have ANY issue with the legal part):

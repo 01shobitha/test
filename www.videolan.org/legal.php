@@ -6,7 +6,7 @@
 ?>
 
 <div>
-<h1>Legal concerns (work in progress)</h1>
+<h1>Legal concerns</h1>
 
 
 <h2>What are the usage restrictions for VideoLAN software?</h2>
@@ -33,6 +33,17 @@ For example, if you plan to distribute the latest binary version of VLC on a DVD
 
 There are other ways to comply with the GPL, but this should be the simplest one as it does not rely on a contract.</p> 
 
+<h2>Are libdvdcss & libaacs legal ?</h2>
+
+<h3>libdvdcss</h3>
+
+<p>libdvdcss provides the keys to decode DVD's DRM. These keys are published and widely available online and no one is decoded by lidvdcss, according to the french law decision <a href="http://www.legifrance.gouv.fr/affichJuriAdmin.do?oldAction=rechJuriAdmin&idTexte=CETATEXT000019216315&fastReqId=1851277972&fastPos=1">CE 10e et 9e sous­sect., 16 juillet 2008, n° 301843</a>
+
+about interoperability.</p>
+
+<h3>libaacs</h3>
+
+<p>libaacs is a research project in an interoperability purpose, which DOES NOT provide any key. It is based on the official public AACS specification only. So there is no copyright or DRM's protection infringement.</p>
 
 <h1>Informations légales</h1>
 
@@ -74,13 +85,20 @@ There are other ways to comply with the GPL, but this should be the simplest one
 
 <p>La marque x264 est déposée et protégée par le droit des marques. Toute utilisation est autorisée, notamment pour la redistribution, SAUF INTÉGRÉE À UN LOGICIEL. Tout droit d'utilisation doit être accordé par VideoLAN au préalable.</p>
 
+<h2>Respect des mesures techniques de protection</h2>
+
+<h3>libdvdcss</h3>
+
+<p>Le logiciel libdvdcss a été élaboré par rétro-ingénierie et fournit des clés de décodage qui ont été publiées et sont accessibles à tous. Par conséquent, il respecte le droit relatif aux mesures techniques de protection, tel que prévu dans l'article <a href="http://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=257F3A2551AFEA654609264234C2CD43.tpdjo13v_3?cidTexte=LEGITEXT000006069414&idArticle=LEGIARTI000020740194&dateTexte=20100708&categorieLien=id#LEGIARTI000020740194">L 331-5 du code de la propriété intellectuelle</a> et précisé par la décision du Conseil d'Etat <a href="http://www.legifrance.gouv.fr/affichJuriAdmin.do?oldAction=rechJuriAdmin&idTexte=CETATEXT000019216315&fastReqId=1851277972&fastPos=1">CE 10e et 9e sous­sect., 16 juillet 2008, n° 301843</a>, dans un objectif d'interopérabilité.</p>
+
+<h3>libaacs</h3>
+
+<p>libaacs est un projet de recherche dans un but d'interopérabilité. Il a été élaboré à partir de la spécification officielle et publique de l'<a href="http://en.wikipedia.org/wiki/Advanced_Access_Content_System">AACS</a>. Il ne fournit aucune clé de décodage et ne porte ainsi atteinte à aucune mesure technique de protection.
+
+
 <h2>Responsabilité d'utilisation des logiciels</h2>
 
 <p>VideoLAN élabore et fournit des logiciels audiovisuels. L'association décline toute responsabilité quand à une utilisation illégale de ces logiciels.</p>
-
-<h3>Plus d'informations à venir sur les produits libaacs et libdvdcss...</h3>
-<h3>Coming soon : more information about libaacs & libdvdcss...</h3>
-
 </div>
 
 <?php footer();?>

@@ -68,13 +68,20 @@ purpose or any other way...</p>
 <p>De par son contenu et sa large diffusion, le logiciel VLC media player bénéficie d'une autorisation d'exportation de l'<a href="http://www.ssi.gouv.fr/index.html">ANSSI</a> (agence nationale de sécurité des systèmes d'information) depuis 2010.</p>
 <p>Since 2010, <a href="http://www.ssi.gouv.fr/site_rubrique88.html">ANSSI</a> delivered an export authorization to VideoLAN regarding VLC media player software.</p>
 
+<h2>Brevets</h2>
+
+<p>Selon l'article <a href="http://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000019298703&cidTexte=LEGITEXT000006069414&dateTexte=20110418&oldAction=rechCodeArticle">L 611-10 du Code de la propriété intellectuelle</a>, les brevets logiciels ne sont pas admis en droit français. Au niveau communautaire, l'<a href="http://www.epo.org/law-practice/legal-texts/html/epc/1973/f/ar52.html">article 52 de la Convention sur le brevet européen</a> a également exclu la protection des programmes d'ordinateur.
+Par conséquent, l'association VideoLAN ne peut violer aucun brevet logiciel, quelle que soit sa provenance.</p> 
+
+<p>Neither french law nor european conventions do resognize software as patentable. Therefor, no patent infringement can be done by VideoLAN.</p>
+
 <h2>Licences et droit d'auteur</h2>
 
 <p>Les logiciels proposés par VideoLAN sont tous des logiciels open source, sous les licences GNU GPL v2 ou LGPL. Ces licences autorisent toutes les utilisations des logiciels et leur redistribution sous la même forme ou après modification, à condition que ces logiciels modifiés respectent les conditions de la licence de base, notamment la publication des codes source et l'autorisation de redistribution.</p>
 
 <p>Subsidiairement aux conditions de la license, le droit commun français de la propriété intellectuelle s'applique, notamment le droit d'auteur. Tout changement de licence ou redistribution sous d'autres conditions est interdite. De même, la provenance des logiciels, même partiellement réutilisés, doit toujours être visible par les utilisateurs.</p>
 
-<h2>Marques déposées</h2>
+<!--<h2>Marques déposées</h2>
 
 <p>Certains logiciels de VideoLAN correspondent à des marques déposées, ce qui entraîne des conséquences particulières pour leur redistribution. En revanche, ceci n'entraîne aucune conséquence pour l'utilisation normale des logiciels.</p>
 
@@ -89,7 +96,7 @@ purpose or any other way...</p>
 
 <h3>x264</h3>
 
-<p>La marque x264 est déposée et protégée par le droit des marques. Toute utilisation est autorisée, notamment pour la redistribution, SAUF INTÉGRÉE À UN LOGICIEL. Tout droit d'utilisation doit être accordé par VideoLAN au préalable.</p>
+<p>La marque x264 est déposée et protégée par le droit des marques. Toute utilisation est autorisée, notamment pour la redistribution, SAUF INTÉGRÉE À UN LOGICIEL. Tout droit d'utilisation doit être accordé par VideoLAN au préalable.</p>-->
 
 <h2>Respect des mesures techniques de protection</h2>
 

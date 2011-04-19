@@ -42,16 +42,16 @@ purpose or any other way...</p>
 <h3>libdvdcss</h3>
 
 <p>libdvdcss is a library that can find and guess keys from a DVD in order to decrypt it.<br />
-   This method is authorised by a French law decision <a href="http://www.legifrance.gouv.fr/affichJuriAdmin.do?oldAction=rechJuriAdmin&idTexte=CETATEXT000019216315&fastReqId=1851277972&fastPos=1">CE 10e et 9e sous­sect., 16 juillet 2008, n° 301843</a> on interoperability.</p>
+   This method is <b>authorized</b> by a French law decision <a href="http://www.legifrance.gouv.fr/affichJuriAdmin.do?oldAction=rechJuriAdmin&idTexte=CETATEXT000019216315&fastReqId=1851277972&fastPos=1">CE 10e et 9e sous­sect., 16 juillet 2008, n° 301843</a> on interoperability.</p>
 <p><b>NB:</b> In the USA, you should check out <a href="http://www.copyright.gov/1201/">the US Copyright Office decision</a>
  that allows circumvention in some cases.<br />VideoLAN is <b>NOT</b> a US-based organization and is therefore <b>outside US juridiction</b>.</p>
 
 <h3>libaacs</h3>
 
 <p>libaacs is a research project and has an interoperability purpose (see above point).</p>
-<p>Moreover, libaacs DOES NOT provide any key. It is based on the official public AACS specification only.</p>
+<p>Moreover, libaacs <b>DOES NOT</b> provide any decryption key. It is based on the official public AACS specification only.</p>
 
-<h2>Patents and codec license</h2>
+<h2>Patents and codec licenses</h2>
 <p>Neither French law nor European conventions recognize software as patentable (see French section below).<br />
  Therefore, software patents licenses do not apply on VideoLAN software.</p>
 

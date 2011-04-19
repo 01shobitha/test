@@ -51,6 +51,11 @@ purpose or any other way...</p>
 <p>libaacs is a research project and has an interoperability purpose (see above point).</p>
 <p>Moreover, libaacs DOES NOT provide any key. It is based on the official public AACS specification only.</p>
 
+<h2>Patents and codec license</h2>
+<p>Neither French law nor European conventions recognize software as patentable (see French section below).<br />
+ Therefore, software patents licenses do not apply on VideoLAN software.</p>
+
+
 <h1>Informations légales</h1>
 
 <h2>Forme de VideoLAN</h2>
@@ -70,10 +75,8 @@ purpose or any other way...</p>
 
 <h2>Brevets</h2>
 
-<p>Selon l'article <a href="http://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000019298703&cidTexte=LEGITEXT000006069414&dateTexte=20110418&oldAction=rechCodeArticle">L 611-10 du Code de la propriété intellectuelle</a>, les brevets logiciels ne sont pas admis en droit français. Au niveau communautaire, l'<a href="http://www.epo.org/law-practice/legal-texts/html/epc/1973/f/ar52.html">article 52 de la Convention sur le brevet européen</a> a également exclu la protection des programmes d'ordinateur.
-Par conséquent, l'association VideoLAN ne peut violer aucun brevet logiciel, quelle que soit sa provenance.</p> 
-
-<p>Neither french law nor european conventions do resognize software as patentable. Therefor, no patent infringement can be done by VideoLAN.</p>
+<p>Selon l'article <a href="http://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000019298703&cidTexte=LEGITEXT000006069414&dateTexte=20110418&oldAction=rechCodeArticle">L 611-10 du Code de la propriété intellectuelle</a>, les brevets logiciels ne sont pas admis en droit français. Au niveau communautaire, l'<a href="http://www.epo.org/law-practice/legal-texts/html/epc/1973/f/ar52.html">article 52 de la Convention sur le brevet européen</a> a également exclu la protection des programmes d'ordinateur.<br />
+Par conséquent, les logiciels fournis par VideoLAN ne sont pas redevables à des licences sur n'importe quel brevet logiciel, quelle qu'en soit sa provenance.</p>
 
 <h2>Licences et droit d'auteur</h2>
 

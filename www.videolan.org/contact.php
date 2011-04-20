@@ -1,6 +1,5 @@
 <?php
    $title = "Contact";
-   $lang = "en";
    $body_color = "blue";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
@@ -29,7 +28,7 @@
             <td>
                 <h2>Press</h2>
                     <p>If you are a journalist or a blogger and need answers to questions,
-                    please check the <a href="/press/">press center</a> and use <b>e-mail</b></p>
+                    please check the <a href="/press/">press center</a> and use <b>e-mail</b>.</p>
                     <p>In case you write an article about VideoLAN, we would be very glad to
                     have a copy of it to add to our press book. You can send us the article
                     at the <b>postal address</b>.</p>
@@ -59,7 +58,7 @@ VideoLAN
 France
 </pre>
 <h2>Phone</h2>
-<p>The phone will very rarely answer and <b>strictly NOT</b> for user support:</p>
+<p>The phone will very rarely answer and is <b>strictly NOT</b> for user support:</p>
 <pre>+33 951 11 20 20</pre>
 <p>You can send faxes to us; except for legal issues, where faxes are not accepted :</p>
 <pre>+33 956 11 20 20</pre>

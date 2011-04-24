@@ -28,7 +28,7 @@ variables:</p>
 
 <pre>dvd ffmpeg mpeg mad wxwindows aac dts a52 ogg flac theora
 oggvorbis matroska freetype bidi xv svga gnutls stream vlm httpd cdda
-vcd cdio live</pre>
+vcd cdio live lua</pre>
 
 <p>You can set these variables for VLC by adding the line</p>
 

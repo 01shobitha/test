@@ -118,7 +118,6 @@ function start_top( $body_color )
                <button class='button' type='submit'>donate</button>
        </p></form>
    </div>
-   <div style='clear: both;'></div>
 <?php
 }
 

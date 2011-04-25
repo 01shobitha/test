@@ -99,7 +99,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
                 You don't need to have a paypal account in order to make a donation.</p>
 
                 <div style="margin-left: 60px;">
-                    <form action="https://www.paypal.com/en/cgi-bin/webscr" method="post">
+                    <form action="https://www.paypal.com/en_US/cgi-bin/webscr" method="post">
                         <p>
 
                             <span style="font-size: 10pt;"><strong>Euros &euro;</strong></span>
@@ -109,6 +109,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
                             <input name="no_note" value="0" type="hidden"/>
                             <input name="currency_code" value="EUR" type="hidden"/>
                             <input name="tax" value="0" type="hidden"/>
+                            <input name="lc" value="GB" type="hidden"/>
                             <input src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="Donate money to VideoLAN via PayPal" type="image"/>
                     </p></form>
 
@@ -122,7 +123,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
                             <input name="no_note" value="0" type="hidden"/>
                             <input name="currency_code" value="USD" type="hidden"/>
                             <input name="tax" value="0" type="hidden"/>
-
+                            <input name="lc" value="US" type="hidden"/>
                             <input src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="Donate money to VideoLAN via PayPal" type="image"/>
                     </p> </form>
                 </div>

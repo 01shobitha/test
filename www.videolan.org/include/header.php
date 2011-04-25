@@ -114,7 +114,7 @@ function start_top( $body_color )
                <input name="tax" value="0" type="hidden"/>
                <input name="lc" value="US" type="hidden"/>
                <input name="return" value="http://www.videolan.org/thank_you.html" type="hidden"/>
-               <input class='text' type='text' name="amount" value='10.00' />
+               <input id="dtext" class='text' type='text' name="amount" value='10.00' style='background: #fff url("/images/dollar.png") no-repeat 0 3px;' />
                <button class='button' type='submit'>donate</button>
        </p></form>
    </div>

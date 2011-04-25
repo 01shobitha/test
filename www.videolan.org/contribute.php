@@ -101,7 +101,6 @@ require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
                 <div style="margin-left: 60px;">
                     <form action="https://www.paypal.com/en_US/cgi-bin/webscr" method="post">
                         <p>
-
                             <span style="font-size: 10pt;"><strong>Euros &euro;</strong></span>
                             <input name="cmd" value="_xclick" type="hidden"/>
                             <input name="business" value="sponsor@videolan.org" type="hidden"/>

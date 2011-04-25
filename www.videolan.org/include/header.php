@@ -88,16 +88,23 @@ function start_top( $body_color )
       A project and a <a href="/videolan/" class="noUnderline">non-profit organization</a>, composed of volunteers<br />
       developing and promoting free, open-source multimedia solutions.
    </div>
-    <a style='float: right; padding-top: 6px; padding-right: 20px;' href='http://madebyargon.com'>
-    <?php image( $imgArSrc, 'Graphics &amp; Website Made By Argon Designs' ); ?> </a>
-   <!--<div id='donate'>
-      <div style='font-size: 14px; color: #909090; float: left; padding-top: 5px;'>DONATE &nbsp;<a href='#'>(why?)</a></div>
-      <img src='images/paypal.png' style='float: right;' />
-      <form style='clear: both; padding-top: 10p;'>
-         <input class='text' type='text' value='$5.00' />
-         <button class='button' type='submit'>donate</button>
-      </form>
-   </div>-->
+   <div id='donate'>
+      <div style='font-size: 14px; color: #909090; float: left; padding-top: 5px;'>DONATE &nbsp;<a href='/contribute.html#money'>(why?)</a></div>
+      <img src='/images/paypal.png' style='float: right;' />
+       <form style='clear: both; padding-top: 10p;' action="https://www.paypal.com/en_US/cgi-bin/webscr" method="post">
+           <p>
+               <input name="cmd" value="_xclick" type="hidden"/>
+               <input name="business" value="sponsor@videolan.org" type="hidden"/>
+               <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
+               <input name="no_note" value="0" type="hidden"/>
+               <input name="currency_code" value="EUR" type="hidden"/>
+               <input name="tax" value="0" type="hidden"/>
+               <input name="lc" value="GB" type="hidden"/>
+               <input name="return" value="http://www.videolan.org/thank_you.html" type="hidden"/>
+               <input class='text' type='text' name="amount" value='10.00'  />
+               <button class='button' type='submit'>donate</button>
+       </p></form>
+   </div>
    <div style='clear: both;'></div>
 <?php
 }

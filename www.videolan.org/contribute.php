@@ -74,11 +74,6 @@ require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
             </td>
 
             <td>
-                <h3>What is the legal structure of VideoLAN?</h3>
-
-                <p> VideoLAN is a non-profit organisation, under French law.
-                    VideoLAN has its own bank account and is responsible for running and maintaining the VideoLAN servers. </p>
-
                 <h3>What are the financial needs of VideoLAN?</h3>
 
                 <ul class="bullets">
@@ -86,6 +81,11 @@ require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
                     <li>Maintain the servers and hardware to run VideoLAN services.</li>
                     <li>Promote the project by organising or participating in events (FOSDEM, Linux Expo Paris, ...)</li>
                 </ul>
+
+                <h3>What is the legal structure of VideoLAN?</h3>
+
+                <p> VideoLAN is a non-profit organisation, under French law.
+                    VideoLAN has its own bank account and is responsible for running and maintaining the VideoLAN servers. </p>
 
                 <h3>Donate to VideoLAN via PayPal</h3>
                 <a id="paypal"></a>
@@ -99,7 +99,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
                 You don't need to have a paypal account in order to make a donation.</p>
 
                 <div style="margin-left: 60px;">
-                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <form action="https://www.paypal.com/en/cgi-bin/webscr" method="post">
                         <p>
 
                             <span style="font-size: 10pt;"><strong>Euros &euro;</strong></span>
@@ -114,7 +114,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
                 </div>
                 <div style="margin-left: 60px;">
-                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post"><p>
+                    <form action="https://www.paypal.com/en/cgi-bin/webscr" method="post"><p>
                             <span style="font-size: 10pt;"><strong>Dollars $</strong></span>
                             <input name="cmd" value="_xclick" type="hidden"/>
                             <input name="business" value="sponsor@videolan.org" type="hidden"/>

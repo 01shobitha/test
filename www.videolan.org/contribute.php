@@ -109,6 +109,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
                             <input name="currency_code" value="EUR" type="hidden"/>
                             <input name="tax" value="0" type="hidden"/>
                             <input name="lc" value="GB" type="hidden"/>
+                            <input name="return" value="http://www.videolan.org/thank_you.html" type="hidden"/>
                             <input src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="Donate money to VideoLAN via PayPal" type="image"/>
                     </p></form>
 
@@ -123,6 +124,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
                             <input name="currency_code" value="USD" type="hidden"/>
                             <input name="tax" value="0" type="hidden"/>
                             <input name="lc" value="US" type="hidden"/>
+                            <input name="return" value="http://www.videolan.org/thank_you.html" type="hidden"/>
                             <input src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="Donate money to VideoLAN via PayPal" type="image"/>
                     </p> </form>
                 </div>

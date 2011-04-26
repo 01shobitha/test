@@ -276,7 +276,8 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 	background-color: white;
 	border: 1px solid #F1F1F1;
 	float: left;
-    margin-bottom: 40px;
+	margin-bottom: 40px;
+    clear: left;
 }
 
 #linkBar .link

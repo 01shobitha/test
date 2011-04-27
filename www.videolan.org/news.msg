@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|27 April 2011|Phonon VLC 0.4.0|VideolAN would like to point out that the Phonon team has released <b>Phonon VLC 0.4.0</b>. The new version of the best backend for the Qt multimedia library features much improved stability, more video features and control as well as completely redone streaming input capabilities.<br /> You can read more on Phonon VLC 0.4.0 in the <a href="http://apachelog.wordpress.com/2011/04/26/phonon-vlc-0-4-0/">release announcement</a>!
+
 |12 April 2011|VLC 1.1.9|VideoLAN and the VLC development team present VLC 1.1.9, a minor release of the 1.1 branch.<br />This release, not long after 1.1.8, was necessary because some security issues were found, and the VLC development team cares about security.<br />This release also brings updated translations and a lot of small Mac OS X fixes.<br />Source and binaries builds for Windows and Mac are available.<br />See the <a href="/vlc/releases/1.1.9.html">release notes</a> for more information on 1.1.9.
 
 |3 April 2011|libdvbcsa 1.1.0 is now out!| libdvbcsa's new versions brings major speed improvements and optimizations of key schedules. It also fixes minor issues.<br />You can get it now on our <a href="ftp://ftp.videolan.org/pub/videolan/libdvbcsa/1.1.0/">FTP</a> or on the main <a href="/developers/libdvbcsa.html">libdvbcsa</a> page!

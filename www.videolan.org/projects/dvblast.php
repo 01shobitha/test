@@ -11,8 +11,8 @@
             <div style='float: left; width: 500px;'>
                 <h1 class='bigtitle'>DVBlast</h1>
                 <div class='projectDescription'>
-                        Are you looking for live streaming? Don't look any further!<br />
-                        DVBlast is a simple and powerful MPEG-2/TS demux and streaming<br />
+                        Are you looking for live streaming? Don't look any further!
+                        DVBlast is a simple and powerful MPEG-2/TS demux and streaming
                         application.
                 </div>
                 <a id='downloadButton' href='http://downloads.videolan.org/pub/videolan/dvblast/1.2/dvblast-1.2.tar.bz2'>

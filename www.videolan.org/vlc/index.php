@@ -9,8 +9,8 @@
             <div style='float: left; width: 500px;'>
                 <h1 class='bigtitle'>VLC media player</h1>
                 <div class='projectDescription'>
-                    VLC is a free and open source cross-platform multimedia player and<br />
-                    framework that plays most multimedia files as well as DVD, Audio CD,<br />
+                    VLC is a free and open source cross-platform multimedia player and
+                    framework that plays most multimedia files as well as DVD, Audio CD,
                     VCD, and various streaming protocols.
                 </div>
                 <a class='extraInfoLink' href='/vlc/features.html'>Features</a>

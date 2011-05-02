@@ -1,7 +1,7 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
-|27 April 2011|Phonon VLC 0.4.0|VideolAN would like to point out that the Phonon team has released <b>Phonon VLC 0.4.0</b>. The new version of the best backend for the Qt multimedia library features much improved stability, more video features and control as well as completely redone streaming input capabilities.<br /> You can read more on Phonon VLC 0.4.0 in the <a href="http://apachelog.wordpress.com/2011/04/26/phonon-vlc-0-4-0/">release announcement</a>!
+|27 April 2011|Phonon VLC 0.4.0|VideoLAN would like to point out that the Phonon team has released <b>Phonon VLC 0.4.0</b>. The new version of the best backend for the Qt multimedia library features much improved stability, more video features and control as well as completely redone streaming input capabilities.<br /> You can read more on Phonon VLC 0.4.0 in the <a href="http://apachelog.wordpress.com/2011/04/26/phonon-vlc-0-4-0/">release announcement</a>!
 
 |12 April 2011|VLC 1.1.9|VideoLAN and the VLC development team present VLC 1.1.9, a minor release of the 1.1 branch.<br />This release, not long after 1.1.8, was necessary because some security issues were found, and the VLC development team cares about security.<br />This release also brings updated translations and a lot of small Mac OS X fixes.<br />Source and binaries builds for Windows and Mac are available.<br />See the <a href="/vlc/releases/1.1.9.html">release notes</a> for more information on 1.1.9.
 
@@ -1250,7 +1250,7 @@ download.
 
 |5 mar 2002| Meuuh got his Ti!
 
-|jan 2002| Linux Challenge: VideoLAN wins | Videolan is one of
+|jan 2002| Linux Challenge: VideoLAN wins | VideoLAN is one of
 the 25 winners of the IBM Linux Challenge for opensource projects
 developed by university students. More information on the <a
 href="http://www-1.ibm.com/linux/news/ilsc.shtml"> IBM Linux

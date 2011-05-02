@@ -70,7 +70,9 @@ especially <a href="http://wiki.videolan.org/Documentation:Play_HowTo">VLC playb
         <a id="bugs"></a>
         <h2>and feature requests</h2>
         <p>Please read our <a href="http://wiki.videolan.org/Report_bugs">reporting bugs policy</a>.</p>
+        <h3>VLC bug tracker</h3>
         <p>Go to the <a href="https://trac.videolan.org/vlc/"><b>VLC</b> bug reporting site</a>.</p>
+        <h3>VLMC bug tracker</h3>
         <p>Go to the <a href="https://trac.videolan.org/vlmc/"><b>VLMC</b> bug reporting site</a>.</p>
     </div>
 

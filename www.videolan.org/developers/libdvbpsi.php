@@ -37,6 +37,9 @@ and ITU-T H.222.0.</p>
 <p>All releases can be found by browsing the <a href="http://www.videolan.org/pub/libdvbpsi/"><b>releases</b></a>.</p>
 <p>The source code can browsed at  <a href="http://git.videolan.org/?p=libdvbpsi.git">git.videolan.org</a>.</p>
 
+<h2>Mailing list</h2>
+<p>You can discuss about libdvbpsi on the <a href="http://mailman.videolan.org/listinfo/libdvbpsi-devel">libdvbpsi-devel mailing list</a>.</p>
+
 <h2>Documentation</h2>
 
 <table border="0">

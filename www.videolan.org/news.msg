@@ -1,7 +1,7 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
-|05 May 2011|libdvbpsi 0.2.0|The libdvbpsi development team <a href="ftp://ftp.videolan.org/pub/videolan/libdvbpsi/0.2.0"><b>release version 0.2.0</b></a> of their library for decoding and encoding MPEG-TS PSI information commonly found in DVB and MPEG transport streams. The version 0.2.0 marks a <b>license change from GPLv2 to LGPLv2.1</b>. For more information on features visit <a href="/developers/libdvbpsi.html">libdvbpsi main page</a>.!
+|05 May 2011|libdvbpsi 0.2.0|The libdvbpsi development team <a href="ftp://ftp.videolan.org/pub/videolan/libdvbpsi/0.2.0"><b>release version 0.2.0</b></a> of their library for decoding and encoding MPEG-TS PSI information commonly found in DVB and MPEG transport streams. The version 0.2.0 marks a <b>license change from GPLv2 to LGPLv2.1</b>. For more information on features visit <a href="/developers/libdvbpsi.html">libdvbpsi main page</a>.
 
 |27 April 2011|Phonon VLC 0.4.0|VideoLAN would like to point out that the Phonon team has released <b>Phonon VLC 0.4.0</b>. The new version of the best backend for the Qt multimedia library features much improved stability, more video features and control as well as completely redone streaming input capabilities.<br /> You can read more on Phonon VLC 0.4.0 in the <a href="http://apachelog.wordpress.com/2011/04/26/phonon-vlc-0-4-0/">release announcement</a>!
 

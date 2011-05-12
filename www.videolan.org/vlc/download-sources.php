@@ -19,6 +19,8 @@
 <?php /* pkgitem_nomirr("VLC source code tar.bz2", "1.1.0","vlc-1.1.0.tar.bz2","vlc");*/ ?></li>
 </ul>
 
+<h2> Required libraries: </h2>
+<a href="ftp://ftp.videolan.org/pub/videolan/contrib/">Contrib libraries tarballs</a>
 <?php
 /*
 <h2> Latest required libraries: </h2>

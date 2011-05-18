@@ -90,7 +90,7 @@ function start_top( $body_color )
    </div>
    <div id='donate'>
       <div style='font-size: 14px; color: #909090; float: left; padding-top: 5px;'>DONATE &nbsp;<a href='/contribute.html#money'>(why?)</a></div>
-      <img src='/images/paypal.png' style='float: right;' />
+      <img src='/images/paypal.png' style='float: right;' alt="paypal" />
        <form style='clear: both; padding-top: 10p;' action="https://www.paypal.com/en_US/cgi-bin/webscr" method="post">
            <p>
                <input name="cmd" value="_xclick" type="hidden"/>

@@ -37,7 +37,7 @@ purpose or any other way...</p>
    For example, if you plan to distribute the latest binary version of VLC on a DVD-ROM, you should also include the VLC source
    code and the source code for the underlying included libraries on the same media.</p>
 
-<h2>Are libdvdcss & libaacs legal ?</h2>
+<h2>Are libdvdcss and libaacs legal ?</h2>
 
 <h3>libdvdcss</h3>
 

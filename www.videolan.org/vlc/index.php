@@ -125,6 +125,7 @@ function addos( $name, $class, $url, $bold=false )
                  addos( "NetBSD", "netbsd", "download-sources.html" );
                  addos( "OpenBSD", "openbsd", "download-sources.html" );
                  addos( "Solaris", "solaris", "download-sources.html" );
+                 addos( "Android", "android", "download-android.html" );
                  addos( "QNX", "qnx", "download-sources.html" );
                  addos( "Syllable", "syllable", "download-syllable.html" );
                  addos( "OS/2", "os2", "http://hobbes.nmsu.edu/h-search.php?sh=1&button=Search&key=vlc&stype=all&sort=date&dir=%2Fpub%2Fos2%2Fapps%2Fmmedia%2Fvideo%2Fplayers" ); ?>

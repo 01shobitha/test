@@ -32,7 +32,7 @@
             <br />
             Gives the best quality, having the most advanced psychovisual optimizations.<br />
             <br />
-            Support features necessary for many different applications, such as television broadcast, Blu-ray,
+            Support features necessary for many different applications, such as television broadcast, <a href="http://www.x264bluray.com/">Blu-ray</a>
             low-latency video applications, and web video.<br />
             <br />x264 forms the core of many web video services, such as Youtube, Facebook, Vimeo, and Hulu.
              It is widely used in television broadcast and by ISP.<br />

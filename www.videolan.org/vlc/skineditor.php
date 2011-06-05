@@ -3,24 +3,27 @@
    $lang = "en";
    $menu = array( "vlc", "skins" );
 
-   
-
-   $additional_css = array("http://images.videolan.org/images/slimbox2/slimbox2.css");
-
 
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");  
 
       
-
-   $latestv = "0.8.5";
 ?>
 
 <h1>VLC media player Skin Editor</h1>
 
 
-<table>
+
+  <p>
+
+  The VLC Skin Editor aims at giving designers an easy opportunity to create skins for the VLC Media Player without having to know about the internal structure of VLC's skin files.
+
+  The skin editor is <a href="http://en.wikipedia.org/wiki/WYSIWYG" target="_blank" class="wiki">WYSIWYG</a> editor for VLC skins that helps designers to create skins faster and easier.
+
+  </p>
+  
+  <table>
 	<tr>
 		<td>
 			<a href="http://images.videolan.org/images/screenshots/skineditor/leopard_zoom.jpg" rel="lightbox-s" title="Editing the Crossover Leopard skin">
@@ -39,15 +42,6 @@
 		</td>
 	</tr>
 </table>
-  <p>
-
-  The VLC Skin Editor aims at giving designers an easy opportunity to create skins for the VLC Media Player.
-
-  Until now skin designers had to have knowledge of the VLC Skins2 XML System to create their skins.
-
-  Now they have an easy alternative: The <a href="http://en.wikipedia.org/wiki/WYSIWYG" target="_blank" class="wiki">WYSIWYG</a> VLC Skin Editor.
-
-  </p>
 
   <p>
 
@@ -57,7 +51,11 @@
 
   
 
-  <h2>Download the latest build</h2>
+  <h2>Download</h2>
+	
+  <p>
+  You can download the latest build at <b><a href="http://d-gfx.kognetwork.ch/VLC/skineditor/">the development page</a></b>.
+  </p>
 
   <p style="color:#ef2929;">
 
@@ -67,14 +65,11 @@
 
   </p> 
 
-  <p>
-  You can download the latest build at <a href="http://d-gfx.kognetwork.ch/VLC/skineditor/">the development page</a>.
-  </p>
 
 
   <h2>Features</h2>
 
-  <ul class="blue-bullet">
+  <ul>
 
       <li>Absolutely no XML knowledge required</li>
 
@@ -106,7 +101,9 @@
 
   <h2>How to support the project</h2>
 
-  <p>The project needs developers, but especially also testers who check the program for usability and identify bugs.<br/>
+  <p>The project needs developers and also testers who check the program for usability and identify bugs.</p>
+  
+  <p>
 
   If you have knowledge of Java feel free to join the developer team. Check the
 
@@ -117,4 +114,4 @@
 
 
 
-<?php footer('$Id: skineditor.php 2011-04-05 10:00 altglass$'); ?>
+<?php footer('$Id: skineditor.php 2011-06-05 14:30 altglass$'); ?>

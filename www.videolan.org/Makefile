@@ -71,9 +71,5 @@ $(ROOT)/style/style.css: $(ROOT)/style/style.css.in
 
 news-rss.html: news.msg
 
-videolan-news.rss: news.msg news-rss.html
-	@echo "Processing videolan-news.rss ..."
-	cp -f news-rss.html videolan-news.rss
-
 .PHONY: clean all
 

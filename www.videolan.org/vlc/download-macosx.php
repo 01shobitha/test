@@ -33,14 +33,14 @@ $vlc_version_intel = "1.1.10";
 
 <?php
 pkgitem_sf( "32/64 bits Intel Mac, $vlc_version_intel",
-    "$vlc_version_intel/macosx","vlc-$vlc_version_intel.dmg",        "vlc", "dmg package", "05e55a439f054068d7287c68cae53c27");
+    "$vlc_version_intel/macosx","vlc-$vlc_version_intel.dmg",        "vlc", "dmg package", "ccb3cd4eb2d57f54e640229af206a5cf");
 pkgitem_sf( "32 bits Intel Mac, $vlc_version_intel",
-    "$vlc_version_intel/macosx","vlc-$vlc_version_intel-intel.dmg",  "vlc", "dmg package", "88338092cb7f0a0f830c23f8db22f8fa");
+    "$vlc_version_intel/macosx","vlc-$vlc_version_intel-intel.dmg",  "vlc", "dmg package", "d359e6cfae9c0093c3b43cf885d6a64b");
 pkgitem_sf( "64 bits Intel Mac, $vlc_version_intel",
-    "$vlc_version_intel/macosx","vlc-$vlc_version_intel-intel64.dmg","vlc", "dmg package", "9edf9f1bf6d9d64b9a2526746bc580d8");
+    "$vlc_version_intel/macosx","vlc-$vlc_version_intel-intel64.dmg","vlc", "dmg package", "470964c5984c65b25dbf865fff1ccd14");
 
 pkgitem_sf( "PowerPC Mac, $vlc_version_intel",
-    "$vlc_version_ppc/macosx","vlc-$vlc_version_ppc-powerpc.dmg",    "vlc", "dmg package", "a1ecfd92b08750534dc51abf2ca71c27"); ?>
+    "$vlc_version_ppc/macosx","vlc-$vlc_version_ppc-powerpc.dmg",    "vlc", "dmg package", "878235d6f5e9b9cefc48bbbe09aa650c"); ?>
 
 
 <div class="clearme"> </div>

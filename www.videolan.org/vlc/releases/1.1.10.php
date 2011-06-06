@@ -31,8 +31,8 @@
             </div>
         </div>
 <p>
-<a href="http://twitter.com/#search?q=vlc">Twitter</a> <a href="http://digg.com/story/r/videolan_vlc_1_1_10_release">Digg it!</a>
-<a href="http://news.ycombinator.com/item?id=2437155">Hacker News</a> <a href="http://www.reddit.com/r/reddit.com/comments/go7iv/vlc_media_player_119_is_out/">Reddit</a>
+<a href="http://twitter.com/#search?q=vlc">Twitter</a> <a href="http://digg.com/news/technology/videolan_vlc_1_1_10_release">Digg it!</a>
+<a href="http://news.ycombinator.com/item?id=2624231">Hacker News</a> <a href="http://www.reddit.com/r/reddit.com/comments/hsql5/vlc_media_player_1110_is_here/">Reddit</a>
 <a href="http://www.facebook.com/vlc.media.player">Facebook page</a> <a href="http://twitter.com/videolan">Twitter page</a>
 </p>
 

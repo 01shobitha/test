@@ -15,13 +15,13 @@ function browse_old( $fold )
 
 function pkgversion($name,$version)
 {
-    $latest = array("vlc" => "1.1.8");
+    $latest = array("vlc" => "1.1.9");
 
     if (!$latest[$name])
         return;
     /* Not quite a version comparison. It works as long as we have < 10 numbers.
      * FIXME */
-    if (strcmp($version, $latest[$name]) >= 0)
+    if ( strlen($version) != strlen($latest[$name]) or strcmp($version, $latest[$name]) >= 0)
         return;
 
     echo "<p> <strong>Warning:</strong>

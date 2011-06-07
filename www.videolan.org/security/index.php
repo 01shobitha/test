@@ -36,7 +36,7 @@ Please refer to the concerned third parties as appropriate.
 
 <dt>VideoLAN-SA-1104 (CVE-2011-XXXX)</dt>
 <dd>Integer overflow in XSPF demuxer.
- <a href="sa1103.html">Details</a>
+ <a href="sa1104.html">Details</a>
 </dd>
 
 <dt>VideoLAN-SA-1103 (CVE-2011-1684)</dt>

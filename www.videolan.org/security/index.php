@@ -34,6 +34,11 @@ Please refer to the concerned third parties as appropriate.
 
 <dl>
 
+<dt>VideoLAN-SA-1104 (CVE-2011-XXXX)</dt>
+<dd>Integer overflow in XSPF demuxer.
+ <a href="sa1103.html">Details</a>
+</dd>
+
 <dt>VideoLAN-SA-1103 (CVE-2011-1684)</dt>
 <dd>Heap corruption in MP4 demuxer.
  <a href="sa1103.html">Details</a>

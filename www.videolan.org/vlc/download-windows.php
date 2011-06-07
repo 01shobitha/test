@@ -16,11 +16,11 @@
 
 <?php
     pkgitem_sf("Installer package",
-                   "$vlc_version/win32","vlc-$vlc_version-win32.exe","vlc", "Exe installer",         "349188e13a3b06b6d67122132ad64507") ;
+                   "$vlc_version/win32","vlc-$vlc_version-win32.exe","vlc", "Exe installer",         "926b2a1332775d6c23fd276351639a74") ;
     pkgitem_sf("7zip package",
-                  "$vlc_version/win32","vlc-$vlc_version-win32.7z",  "vlc", "(No installer needed)", "1d39628814f9a565b93ee669ece69b55" );
+                  "$vlc_version/win32","vlc-$vlc_version-win32.7z",  "vlc", "(No installer needed)", "c33836eaeacdd6dabf430c0af3f4c29c" );
     pkgitem_sf("Zip package",
-                  "$vlc_version/win32","vlc-$vlc_version-win32.zip", "vlc", "(No installer needed)", "eb5ef0d60e37616e2a793a032e95537d" );
+                  "$vlc_version/win32","vlc-$vlc_version-win32.zip", "vlc", "(No installer needed)", "23cc7acce4644cf34769b323c8deb257" );
 ?>
 
    <div class="clearme"> </div>

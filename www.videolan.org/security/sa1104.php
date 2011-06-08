@@ -40,13 +40,16 @@ This will however prevent use of any of all supported playlist file formats.
 and introduces further stability fixes.
 </p>
 <h2>Credits</h2>
-<p>This vulnerability were reported by <code>tecr0c</code>
-on the VLC bug tracker.
+<p>This vulnerability were reported by
+Rocco Calvi from stratsec on the VLC bug tracker.
 </p>
 <h2>References</h2>
 <dl>
 <dt>The VideoLAN Project</dt>
 <dd><a href="http://www.videolan.org/">http://www.videolan.org/</a>
+</dd>
+<dt>stratsec</dt>
+<dd><a href="http://www.stratsec.net/">http://www.stratsec.net/</a>
 </dd>
 </dl>
 <h2>History</h2>

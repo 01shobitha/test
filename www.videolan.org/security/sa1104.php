@@ -14,7 +14,7 @@ Summary           : Integer overflow in XSPF playlist parser
 Date              : 07 June 2011
 Affected versions : VLC media player 1.1.9 down to 0.8.5
 ID                : VideoLAN-SA-1104
-CVE references    : CVE-2011-XXXX
+CVE references    : CVE-2011-2194
 </pre>
 <h2>Details</h2>
 <p>VLC media player suffers from an integer overflow vulnerability
@@ -54,7 +54,7 @@ Rocco Calvi from stratsec on the VLC bug tracker.
 </dl>
 <h2>History</h2>
 <dl>
-<dt>T.B.D.</dt>
+<dt>08 June 2011</dt>
 <dd>CVE numbers assigned</dd>
 <dt>07 June 2011</dt>
 <dd>Initial advisory</dd>

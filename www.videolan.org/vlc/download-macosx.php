@@ -30,7 +30,7 @@ $vlc_version_intel = "1.1.10.1";
 ?>
 
 <h1>Download latest VLC for Mac OS X 10.5 and later</h1>
-<h2>64bit mode requires Mac OS X 10.6 or later</h2>
+<p>64bit mode requires Mac OS X 10.6 or later</p>
 
 <?php
 pkgitem_sf( "32/64 bits Intel Mac, $vlc_version_intel",

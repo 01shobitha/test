@@ -36,11 +36,11 @@ crafted malicious files.
 This will however prevent use of any of all supported playlist file formats.
 </p>
 <h2>Solution</h2>
-<p>VLC media player 1.1.10 addresses these issues
+<p>VLC media player 1.1.10 addresses this issue
 and introduces further stability fixes.
 </p>
 <h2>Credits</h2>
-<p>This vulnerability were reported by
+<p>This vulnerability was reported by
 Rocco Calvi from stratsec on the VLC bug tracker.
 </p>
 <h2>References</h2>
@@ -55,7 +55,7 @@ Rocco Calvi from stratsec on the VLC bug tracker.
 <h2>History</h2>
 <dl>
 <dt>08 June 2011</dt>
-<dd>CVE numbers assigned</dd>
+<dd>CVE identifer assigned</dd>
 <dt>07 June 2011</dt>
 <dd>Initial advisory</dd>
 <dt>06 June 2011</dt>

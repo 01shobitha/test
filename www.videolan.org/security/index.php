@@ -34,6 +34,16 @@ Please refer to the concerned third parties as appropriate.
 
 <h2>2011</h2>
 <dl>
+<dt>VideoLAN-SA-1106 (CVE-2011-2588)</dt>
+<dd>Heap buffer overflow in AVI demuxer.
+ <a href="sa1104.html">Details</a>
+</dd>
+
+<dt>VideoLAN-SA-1105 (CVE-2011-2587)</dt>
+<dd>Heap buffer overflow in RealMedia demuxer.
+ <a href="sa1103.html">Details</a>
+</dd>
+
 <dt>VideoLAN-SA-1104 (CVE-2011-2194)</dt>
 <dd>Integer overflow in XSPF demuxer.
  <a href="sa1104.html">Details</a>

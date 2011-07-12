@@ -51,7 +51,7 @@ and reported via Secunia.
 </dd>
 <dt>Source code patch</dt>
 <dd><a
- href="http://git.videolan.org/?p=vlc/vlc.git;a=commit;h=1bce40644cddee93b4b1877a94a6ce345f32852c"
+ href="http://git.videolan.org/?p=vlc.git;a=commit;h=1bce40644cddee93b4b1877a94a6ce345f32852c"
  >git commit 1bce40644cddee93b4b1877a94a6ce345f32852c</a>
 </dd>
 <dt>Secunia</dt>

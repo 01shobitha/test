@@ -27,10 +27,10 @@ There is absolutely NO SUPPORT for it from the VideoLAN Team.
                 <li class='windows'  style="font-weight:bold"><a href='/build/win32/?C=M;O=D'>Windows</a></li>
                 <li class='macosx'  style="font-weight:bold"><a href='/build/macosx/?C=M;O=D'>Mac&nbsp;OS&nbsp;X PowerPC</a></li>
                 <li class='macosx'  style="font-weight:bold"><a href='/build/macosx-intel/?C=M;O=D'>Mac&nbsp;OS&nbsp;X Intel</a></li>
+                <li class='debian' ><a href='#ubuntu'>Ubuntu Intrepid I386</a></li>
+                <li class='debian' ><a href='#ubuntu'>Ubuntu Intrepid AMD64</a></li>
                 <li class='debian' ><a href='#debian'>Debian Sid I386</a></li>
                 <li class='debian' ><a href='#debian'>Debian Sid AMD64</a></li>
-                <li class='debian' ><a href='#debian'>Ubuntu Intrepid I386</a></li>
-                <li class='debian' ><a href='#debian'>Ubuntu Intrepid AMD64</a></li>
         </ul>
 </div>
 <div class="os2">
@@ -45,8 +45,24 @@ There is absolutely NO SUPPORT for it from the VideoLAN Team.
         <h2>Source-code snapshots</h2>
         <p><a href="/build/source/?C=M;O=D">Download here</a> the tarballs (bz2) or use <a href="http://wiki.videolan.org/Git">Git</a> to get the latest source code.</p>
 
-        <h2><a id="debian">Debian and Ubuntu repositiories</a></h2>
-        <p>For Debian Sid I386 (unstable) add the following line to your sources.list:</p>
+        <h2><a id="ubuntu">Ubuntu PPA</a></h2>
+        <p>The nightly builds for Ubuntu are available
+          on <a href="http://launchpad.net/">Launchpad</a> from
+          the <a href="https://launchpad.net/~videolan/+archive/master-daily"
+          >VideoLAN team's <code>master-daily</code> PPA</a>.
+          Once you have activated the correct repository, you can simply
+          update the VLC (<code>vlc</code>) package.
+        </p>
+        <p>Those repositories contain a <code>vlc-dbg</code> package.
+          We recommend you install it so you can produce useful backtraces
+          if you need to report a bug.
+        </p>
+
+        <h2><a id="debian">Debian repositiories</a></h2>
+        <p>This service is discontinued for the time being.
+          Sorry for the inconvenience.
+        </p>
+        <!--p>For Debian Sid I386 (unstable) add the following line to your sources.list:</p>
         <pre>deb http://nightlies.videolan.org/build/sid-i386/arch ./</pre>
         <p>For Debian Sid AMD64 (unstable) add the following line to your sources.list:</p>
         <pre>deb http://nightlies.videolan.org/build/sid-amd64/arch ./</pre>
@@ -57,7 +73,7 @@ There is absolutely NO SUPPORT for it from the VideoLAN Team.
         <br />
         <p>Those repositories contain a <i>vlc-dbg</i> package that you
         can install so you can run <i>gdb</i> to provide usefull backtrace when reporting bugs.</p>
-        <br />
+        <br /-->
 
          <h2><a id='suse'>VLC SVN Snapshots for openSUSE</a></h2>
 <p>For openSUSE 10.2 and 10.3 we offer also RPMs from SVN snapshots. The packages are updated approximatively once per week.</p>

@@ -27,8 +27,8 @@ There is absolutely NO SUPPORT for it from the VideoLAN Team.
                 <li class='windows'  style="font-weight:bold"><a href='/build/win32/?C=M;O=D'>Windows</a></li>
                 <li class='macosx'  style="font-weight:bold"><a href='/build/macosx/?C=M;O=D'>Mac&nbsp;OS&nbsp;X PowerPC</a></li>
                 <li class='macosx'  style="font-weight:bold"><a href='/build/macosx-intel/?C=M;O=D'>Mac&nbsp;OS&nbsp;X Intel</a></li>
-                <li class='debian' ><a href='#ubuntu'>Ubuntu Intrepid I386</a></li>
-                <li class='debian' ><a href='#ubuntu'>Ubuntu Intrepid AMD64</a></li>
+                <li class='debian' ><a href='#ubuntu'>Ubuntu (i386)</a></li>
+                <li class='debian' ><a href='#ubuntu'>Ubuntu (amd64)</a></li>
                 <li class='debian' ><a href='#debian'>Debian Sid I386</a></li>
                 <li class='debian' ><a href='#debian'>Debian Sid AMD64</a></li>
         </ul>

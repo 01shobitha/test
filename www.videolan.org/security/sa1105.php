@@ -60,7 +60,7 @@ and reported via Secunia.
 </dl>
 <h2>History</h2>
 <dl>
-<dt>12 July 2011 (tentative)</dt>
+<dt>15 July 2011</dt>
 <dd>VLC 1.1.11 released</dd>
 <dt>12 July 2011</dt>
 <dd>Initial advisory</dd>

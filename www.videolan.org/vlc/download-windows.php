@@ -10,7 +10,7 @@
 <h1 class="bigtitle"> VLC media player for Windows </h1>
 <div id="left">
 
-<?php $vlc_version = '1.1.10'; ?>
+<?php $vlc_version = '1.1.11'; ?>
 <h1>Download latest VLC - <?php echo $vlc_version; ?></h2>
 <p>VLC currently supports <b>Windows 2000 (SP4+UR1), XP, Vista and 7</b>.</p>
 

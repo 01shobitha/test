@@ -32,7 +32,7 @@ crafted malicious files.
 <h2>Workarounds</h2>
 <p>The user may refrain from opening files from untrusted sources.
 </p>
-<p>Alternatively, the RealMedia plugin (demux/libavi_plugin.*) can be removed.
+<p>Alternatively, the AVI plugin (demux/libavi_plugin.*) can be removed.
 This will however prevent use of any of AVI media files.
 </p>
 <h2>Solution</h2>

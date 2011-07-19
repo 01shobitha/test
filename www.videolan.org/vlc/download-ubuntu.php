@@ -71,7 +71,7 @@ Note that there will be some bugs; you are on your own.
 </pre>
 </blockquote>
 
-<h2>Ubuntu Hardy Heron LTS 8.04</h2>
+<h2>Ubuntu Hardy Heron 8.04 LTS</h2>
 
 <p><strong>VLC 0.8.6 has known security issues.</strong>
 We strongly recommend that you update to a newer Ubuntu release.

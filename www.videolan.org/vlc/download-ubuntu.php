@@ -10,7 +10,9 @@
 
 <div id="left">
 
-<h2>Ubuntu Maverick Meerkat 10.10</h2>
+<h2>Ubuntu Oneiric Ocelot 11.10
+<br/>Ubuntu Natty Narwhal 11.04
+<br/>Ubuntu Maverick Meerkat 10.10</h2>
 
 <h3>Graphical way</h3>
 <p>Open Synaptic application<br />
@@ -19,9 +21,9 @@ In Settings -&gt; Repositories, make sure you have an
 <code>universe</code> repository activated.
 </p>
 
-<p>Search for <kbd>vlc</kbd> and install it.
-You should install <kbd>vlc-plugin-pulse</kbd>
- and <kbd>mozilla-plugin-vlc</kbd> as well.</p>
+<p>Search for <kbd>vlc</kbd> and install it,
+as well as <kbd>vlc-plugin-pulse</kbd>.
+You may also want to install <kbd>mozilla-plugin-vlc</kbd>.</p>
 <p>If you are interested in streaming or transcoding,
 you should additionnally install <kbd>libavcodec-extra-52</kbd>
 from a <code>multiverse</code> repository.</p>
@@ -36,6 +38,18 @@ in your <code>/etc/apt/sources.list</code> file.
 % sudo apt-get install vlc vlc-plugin-pulse mozilla-plugin-vlc
 </pre>
 </blockquote>
+
+<h3>Note</h3>
+<p>Ubuntu includes whichever VLC version was the latest
+at the time the Ubuntu release was <em>frozen</em>
+(typically about two months before the official Ubuntu upgrade).
+Afterward, you can still get security and critical bug fixes,
+but no further VLC version updates until the next Ubuntu release.
+</p>
+<p>Concretely, Ubuntu Natty has VLC version 1.1.9,
+Ubuntu Maverick has VLC version 1.1.4.
+If you need a more recent version, please consider upgrading Ubuntu.
+</p>
 
 <h2>Ubuntu Lucid Lynx 10.04 LTS</h2>
 <p><strong>VLC version 1.0.6 in Ubuntu 10.04 is out-of-date.</strong>
@@ -57,19 +71,11 @@ Note that there will be some bugs; you are on your own.
 </pre>
 </blockquote>
 
-<h2>Ubunty Karmic Koala 9.10
-<br/>Ubuntu Jaunty Jackalope 9.04
-<br/>Ubuntu Hardy Heron LTS 8.04</h2>
+<h2>Ubuntu Hardy Heron LTS 8.04</h2>
 
-<p><strong>VLC 1.0.2 in Ubuntu 9.10 has known security issues,
-as do older versions in older Ubuntu releases.</strong>
-We strongly recommend that you update to a newer Ubuntu release,
-install a newer VLC version manually, and/or
-demand proper security support for VLC from Ubuntu.
+<p><strong>VLC 0.8.6 has known security issues.</strong>
+We strongly recommend that you update to a newer Ubuntu release.
 </p>
-
-<p>Note: on Ubuntu 8.04, you should install <kbd>vlc-plugin-esd</kbd>
-instead of <kbd>vlc-plugin-pulse</kbd>.
 
 </div>
 

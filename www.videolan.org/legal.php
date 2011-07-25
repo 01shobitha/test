@@ -17,6 +17,17 @@
 for personal, educational, research, military, governmental, professional
 purpose or any other way...</p>
 
+<h2>Trademarks</h2>
+<p>VideoLAN, VLC, VLC media player and x264 are trademarks owned by VideoLAN.</p>
+
+<p>The full usage is detailed under, in the French section, but you should know
+that Those trademarks will not block any normal use and redistribution of the open source software
+from VideoLAN.</p>
+
+<p>However, you should know that it is STRICTLY forbidden to use the VideoLAN trademarks
+ to spread, distribute, advertise or sell software or hardware if the license is NOT
+<a href="http://www.opensource.org/licenses/alphabetical">open-source</a> (OSI meaning).</p>
+
 <h2>May I redistribute a piece of VideoLAN software?</h2>
 
 <p>Yes, you may distribute an original or a modified version of a piece of VideoLAN software
@@ -86,7 +97,11 @@ Par conséquent, les logiciels fournis par VideoLAN ne sont pas redevables à de
 
 <h2>Marques déposées</h2>
 
-<p>Certains logiciels de VideoLAN correspondent à des marques déposées, ce qui entraîne des conséquences particulières pour leur redistribution. En revanche, ceci n'entraîne aucune conséquence pour l'utilisation normale des logiciels.</p>
+<p>Certains logiciels de VideoLAN correspondent à des marques déposées, ce qui entraîne des conséquences particulières pour leur redistribution. En revanche, ceci n'entraîne aucune conséquence pour l'utilisation et la redistribution normale des logiciels.</p>
+
+<p>Il est cependant STRICTEMENT interdit d'utiliser les marques de VideoLAN pour
+ promouvoir, distribuer, vendre ou transmettre des logiciels ou du matériel dont la licence n'est pas
+<a href="http://www.opensource.org/licenses/alphabetical">open-source</a> (au sens de l'OSI).</p>
 
 <h3>VideoLAN</h3>
 
@@ -103,7 +118,7 @@ Par conséquent, les logiciels fournis par VideoLAN ne sont pas redevables à de
  conformes à la licence GPL.</p>
 <p>L'utilisation de la marque est permise pour nommer les vidéos encodées avec x264.</p>
 
-<p>Tout droit d'utilisation doit être accordé par VideoLAN au préalable.</p>
+<p>Tout autre droit d'utilisation doit être accordé par VideoLAN au préalable.</p>
 
 <h2>Respect des mesures techniques de protection</h2>
 

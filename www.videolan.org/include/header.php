@@ -100,6 +100,7 @@ function start_top( $body_color )
                <input name="currency_code" value="EUR" type="hidden"/>
                <input name="tax" value="0" type="hidden"/>
                <input name="lc" value="GB" type="hidden"/>
+               <input name="no_shipping" value="1" type="hidden"/>
                <input name="return" value="http://www.videolan.org/thank_you.html" type="hidden"/>
                <input class='text' type='text' name="amount" value='8.00' style='background: #fff url("/images/euro.png") no-repeat 65px 2px;' />
                <button class='button' type='submit'>donate</button>
@@ -113,6 +114,7 @@ function start_top( $body_color )
                <input name="currency_code" value="USD" type="hidden"/>
                <input name="tax" value="0" type="hidden"/>
                <input name="lc" value="US" type="hidden"/>
+               <input name="no_shipping" value="1" type="hidden"/>
                <input name="return" value="http://www.videolan.org/thank_you.html" type="hidden"/>
                <input id="dtext" class='text' type='text' name="amount" value='10.00' style='background: #fff url("/images/dollar.png") no-repeat 0 3px; padding-right: 10px; width: 75px;' />
                <button class='button' type='submit'>donate</button>

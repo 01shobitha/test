@@ -18,17 +18,6 @@
 for personal, educational, research, military, governmental, professional
 purpose or any other way...</p>
 
-<h2>Trademarks</h2>
-<p>VideoLAN, VLC, VLC media player and x264 are trademarks owned by VideoLAN.</p>
-
-<p>The full usage is detailed under, in the French section, but you should know
-that Those trademarks will not block any normal use and redistribution of the open source software
-from VideoLAN.</p>
-
-<p>However, you should know that it is STRICTLY forbidden to use the VideoLAN trademarks
- to spread, distribute, advertise or sell software or hardware if the license is NOT
-<a href="http://www.opensource.org/licenses/alphabetical">open-source</a> (OSI meaning).</p>
-
 <h2>May I redistribute a piece of VideoLAN software?</h2>
 
 <p>Yes, you may distribute an original or a modified version of a piece of VideoLAN software
@@ -48,6 +37,17 @@ from VideoLAN.</p>
 <p>One of the easiest way to conform to the GPL is to accompany the product you want to distribute with its sources.<br />
    For example, if you plan to distribute the latest binary version of VLC on a DVD-ROM, you should also include the VLC source
    code and the source code for the underlying included libraries on the same media.</p>
+
+<h2>Trademarks</h2>
+<p>VideoLAN, VLC, VLC media player and x264 are trademarks owned by VideoLAN.</p>
+
+<p>The full usage is detailed under, in the French section, but you should know
+that those trademarks will not block any normal use and redistribution of the open source software
+from VideoLAN.</p>
+
+<p>However, you should know that it is STRICTLY forbidden to use the VideoLAN trademarks
+ to spread, distribute, advertise or sell software or hardware if the license is NOT
+<a href="http://www.opensource.org/licenses/alphabetical">open-source</a> (OSI meaning).</p>
 
 <h2>Are libdvdcss and libaacs legal ?</h2>
 

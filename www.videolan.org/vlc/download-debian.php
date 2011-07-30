@@ -66,16 +66,13 @@ However, if you want libdvdcss (DVD decryption) support, you will need to add th
 
 </div>
 
-<div id="right">
+<!--div id="right">
 
-
-<!--  Commented until someone fix them. Or should we point to the launchpad nightlies ?
-<?php panel_start( "blue" ); ?>
+<?php //panel_start( "blue" ); ?>
 <h1>Development snapshots</h1>
 <p>Development snapshots are available on <a href="http://nightlies.videolan.org">nightlies.videolan.org</a>.</p>
-<?php panel_end(); ?>
--->
-</div>
+<?php //panel_end(); ?>
+</div -->
 
 <?php
   footer('$Id$');

@@ -8,6 +8,33 @@
 <h1> VideoLAN Dev Days 2011 </h1>
 <h3> A Multimedia Conference that frees the cone in you! </h3>
 
+<div id="sidebar">
+<?php panel_start( "green" ); ?>
+<h2>Sponsors</h2>
+<p><a href="http://anevia.com/"><img src="/images/partners/anevia.jpg" alt="AneVIA" width=200 /></a><br /> <a href="http://anevia.com/">Anevia</a> is sponsoring the party at La Cantine.</p>
+<p><a href="http://epitech.eu/"><img src="http://www.epitech.eu/images/design/logo-epitech.jpg" alt="epitech"/></a><br /> <a href="http://epitech.eu/">Epitech</a> is hosting most of the events and sponsoring some part of the event.</p>
+<br />
+<h2>Help us!</h2>
+<p><a href="/videolan/team">Your name here!</a></p>
+<p>Help us organizing the event!</p>
+<?php panel_end(); ?>
+
+<?php panel_start( "orange" ); ?>
+<h2>Program</h2>
+<a href="/videolan/events/vdd09.pdf"><strong>Full schedule</strong></a>.</p>
+
+<?php panel_end(); ?>
+
+<?php panel_start( "blue" ); ?>
+<h2>VideoLAN Dev Days '08</h2>
+<p class="center">
+         <img src="http://download.videolan.org/events/20081220/VDD/mq/img-11.jpg" alt="VDD 08" style="width:100%"/>
+</p>
+<?php panel_end(); ?>
+
+</div>
+
+
 <div id="left">
 
 <h2> Welcome </h2>
@@ -56,37 +83,4 @@ share a few good drinks.</p>
 <!-- You can find the full final schedule <a href="/videolan/events/vdd09.pdf">here</a>. -->
 
 </div>
-<div id="sidebar">
-<?php panel_start( "green" ); ?>
-<h2>Sponsors</h2>
-<p><a href="http://anevia.com/"><img src="/images/partners/anevia.jpg" alt="AneVIA" width=200 /></a><br /> <a href="http://anevia.com/">Anevia</a> is sponsoring the party at La Cantine.</p>
-<p><a href="http://epitech.eu/"><img src="http://www.epitech.eu/images/design/logo-epitech.jpg" alt="epitech"/></a><br /> <a href="http://epitech.eu/">Epitech</a> is hosting most of the events and sponsoring some part of the event.</p>
-<br />
-<h2>Help us!</h2>
-<p><a href="/videolan/team">Your name here!</a></p>
-<p>Help us organizing the event!</p>
-<?php panel_end(); ?>
-
-<?php panel_start( "orange" ); ?>
-<h2>Program</h2>
-<a href="/videolan/events/vdd09.pdf"><strong>Full schedule</strong></a>.</p>
-
-<?php panel_end(); ?>
-
-<?php panel_start( "blue" ); ?>
-<h2>VideoLAN Dev Days '08</h2>
-<p class="center">
-         <img src="http://download.videolan.org/events/20081220/VDD/mq/img-11.jpg" alt="VDD 08" style="width:100%"/>
-</p>
-<?php panel_end(); ?>
-
-<?php panel_start( "blue" ); ?>
-<h2>VLC</h2>
-<p class="center">
-         <img src="http://images.videolan.org/images/screenshots/vlc-win32.png" alt="VLC on Windows" />
-</p>
-<?php panel_end(); ?>
-
-</div>
-
 <?php footer('$Id: index.php 5400 2009-07-19 15:37:21Z jb $'); ?>

@@ -218,6 +218,8 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 	padding-left: 60px;
 	width: 220px;
 }
+#left { float: left; }
+#right { float: right; }
 
 #sidebar h1
 {

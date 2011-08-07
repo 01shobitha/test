@@ -1,6 +1,7 @@
 <?php
    $title = "VideoLAN Dev Days 2011";
    $additional_css = array("/panels.css");
+   $body_color = "green";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
@@ -55,7 +56,7 @@ share a few good drinks.</p>
 <!-- You can find the full final schedule <a href="/videolan/events/vdd09.pdf">here</a>. -->
 
 </div>
-<div id="right">
+<div id="sidebar">
 <?php panel_start( "green" ); ?>
 <h2>Sponsors</h2>
 <p><a href="http://anevia.com/"><img src="/images/partners/anevia.jpg" alt="AneVIA" width=200 /></a><br /> <a href="http://anevia.com/">Anevia</a> is sponsoring the party at La Cantine.</p>

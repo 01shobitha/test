@@ -38,7 +38,8 @@
 <h2> Welcome </h2>
 <p>The <a href="/videolan/">VideoLAN non-profit organisation</a> is happy to
 invite you to the multimedia open-source event of the end of summer: <br />
-<strong>VideoLAN Dev Days '11</strong>.</p>
+<span style="font-weight: bold; font-size: 1.3em"><center>VideoLAN Dev Days '11</center></span>.</p>
+
 <p>For the third time, people from the VideoLAN community will meet in <strong>Paris</strong> to gather, work, discuss and build a stronger community, on the <strong>3rd and 4th of September 2011</strong>.</p>
 <p>For the first time, though, an important number of developers from <a href="/developers/x264.html">x264</a>, <a href="http://www.ffmpeg.org/">FFmpeg</a> and <a href="http://libav.org/">Libav</a>, will join us!<br />
 Developers, designers and anonymous people around <a href="/vlc/">VLC</a>, <a href="/projects/dvblast.html">DVBlast</a>, VLMa, skin-designer or other multimedia projects will be there too.</p>

@@ -41,7 +41,7 @@
                 <br />
                 IPv6 network support<br />
                 <br />
-                UDP rather than RTP output for IPTBV STBs which don't support RTP <br />
+                UDP rather than RTP output for IPTV STBs which don't support RTP <br />
                 <br />
                 Open Source: <strong>GPLv2</strong>
             </div>

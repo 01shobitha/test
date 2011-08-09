@@ -38,7 +38,7 @@
 <h2> Welcome </h2>
 <p>The <a href="/videolan/">VideoLAN non-profit organisation</a> is happy to
 invite you to the multimedia open-source event of the end of summer: </p>
-<div style="font-weight: bold; font-size: 1.3em; margin: 10px 100px;">VideoLAN Dev Days '11</div>
+<div style="font-weight: bold; font-size: 1.8em; margin: 2px 100px 14px; color: green;">VideoLAN Dev Days '11</div>
 
 <p>For the third time, people from the VideoLAN community will meet in <strong>Paris</strong> to gather, work, discuss and build a stronger community, on the <strong>3rd and 4th of September 2011</strong>.</p>
 <p>For the first time, though, an important number of developers from <a href="/developers/x264.html">x264</a>, <a href="http://www.ffmpeg.org/">FFmpeg</a> and <a href="http://libav.org/">Libav</a>, will join us!<br />

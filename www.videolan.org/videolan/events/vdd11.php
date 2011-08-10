@@ -70,7 +70,26 @@ share a few good drinks.</p>
 
 <h2>Saturday morning talks</h2>
 <p>For the French libre community and activists or technology-oriented people that are interested,
- there will be technical talks and presentations about <b>VLC</b>, <b>x264</b>, <b>libavfilter</b> and <b>libavcodec</b>,
+ there will be technical talks and presentations.</p>
+
+<div class="item">
+<div class="title">Welcoming remarks</div>
+<div class="date">Saturday 10.30 - 11.40</div>
+<p class="news-descr">
+A few welcoming remarks, made by <i>Jean-Baptiste Kempf</i>, and some material informations,
+in order to be able to have the best week-end possible.</p>
+</div>
+
+<div class="item">
+<div class="title">What is in VLC 1.2.0?</div>
+<div class="date">Saturday 10.45 - 11.05</div>
+<p class="news-descr">
+This talk, made by <i>Jean-Baptiste Kempf</i> will show up what the VLC 1.2.0 release will be made of,
+ and what feature will be in it.</p>
+</p>
+</div>
+
+<p> about <b>VLC</b>, <b>x264</b>, <b>libavfilter</b> and <b>libavcodec</b>,
  on the <strong>Saturday 3rd, starting at 10h30</strong> at Telecom Paris.</p>
 
 <h2><a name="location">Venue at Telecom Paris</a> </h2>

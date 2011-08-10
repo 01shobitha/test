@@ -11,8 +11,8 @@
 <div id="sidebar">
 <?php panel_start( "green" ); ?>
 <h2>Sponsors</h2>
-<h3>Platinium Sponsor</h3>
 <a href="/videolan/">VideoLAN non-profit</a>
+<?php image( "logoGreen.png" , "VideoLAN association"); ?>
 <br />
 <h2>Help us!</h2>
 <p><a href="/contact.html">Your name here!</a></p>
@@ -26,7 +26,7 @@
 <?php panel_end();*/ ?>
 
 <?php panel_start( "blue" ); ?>
-<h2>VideoLAN Dev Days '08</h2>
+<h2>VDD '08</h2>
 <p class="center">
          <img src="http://images.videolan.org/videolan/events/20081220/VDD/mq/img-11.jpg" alt="VDD 08" style="width:100%"/>
 </p>

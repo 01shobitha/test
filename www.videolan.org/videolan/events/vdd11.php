@@ -11,8 +11,8 @@
 <div id="sidebar">
 <?php panel_start( "green" ); ?>
 <h2>Sponsors</h2>
+<?php image( "logoGrey.png" , "VideoLAN association"); ?>
 <a href="/videolan/">VideoLAN non-profit</a>
-<?php image( "logoGreen.png" , "VideoLAN association"); ?>
 <br />
 <h2>Help us!</h2>
 <p><a href="/contact.html">Your name here!</a></p>
@@ -46,19 +46,12 @@ Developers, designers and anonymous people around <a href="/vlc/">VLC</a>, <a hr
 <p>The schedule holds a mix of <a href="#public">public</a> and <a href="#private">technical</a> events.</p>
 <!--<a href="/videolan/events/vdd09.pdf"><strong>Full schedule (updated)</strong></a>.</p>-->
 
-<h1>When? </h1>
-<p>On the <strong>2nd, 3rd and 4th of September 2011</strong>.</p>
-
 <h1>Where? </h1>
 <p>Technical events will be held at <a href="http://www.telecom-paristech.fr/">Institut Telecom Paris</a> (<a href="#location">map</a>).</p>
 
 <h1>Who can come? </h1>
 <p><strong>Anyone</strong> that cares about open source multimedia.<br />
  If you are not a technical person, but an enthusiast, we recommend you to come to the less technical events, like in the evenings.</p>
-
-<h1>Registration</h1>
-<p>Except for the Friday Beer Event, <strong>Registration</strong> is <strong>mandatory</strong>.</p>
-<p>Registration should be done by e-mail, to <a href="mailto:videolan@REMOVETHIS@videolan.org">videolan @ videolan.org</a>.</p>
 
 <h1>Schedule</h1>
 
@@ -69,8 +62,8 @@ share a few good drinks.</p>
 <p>The bar location is not known yet.</p>
 
 <h2>Saturday morning talks</h2>
-<p>For the French libre community and activists or technology-oriented people that are interested,
- there will be technical talks and presentations.</p>
+<p>Opened for all the libre community, activists and technology-oriented people that are interested,
+ there will be technical talks and presentations about multimedia.</p>
 
 <div class="item">
 <div class="title">Welcoming remarks</div>
@@ -89,8 +82,24 @@ This talk, made by <i>Jean-Baptiste Kempf</i> will show up what the VLC 1.2.0 re
 </p>
 </div>
 
+<div class="item">
+<div class="title">An overview of DVBlast, BitStream and Multicat</div>
+<div class="date">Saturday 11.05 - 11.30</div>
+<p class="news-descr">
+This talk, made by <i>Christophe Massiot</i> will speak about the DVBlast and Multicat programs.<br />
+Concepts, use cases and examples of use of those programs will be shown; but also some presentations of the
+2.0 release.</p>
+</p>
+</div>
+
+<!-- 
 <p> about <b>VLC</b>, <b>x264</b>, <b>libavfilter</b> and <b>libavcodec</b>,
- on the <strong>Saturday 3rd, starting at 10h30</strong> at Telecom Paris.</p>
+ on the <strong>Saturday 3rd, starting at 10h30</strong> at Telecom Paris.</p> -->
+
+<h1>Registration</h1>
+<p>Except for the Friday Beer Event, <strong>Registration</strong> is <strong>mandatory</strong>.</p>
+<p>Registration should be done by e-mail, to <a href="mailto:videolan@REMOVETHIS@videolan.org">videolan @ videolan.org</a>.</p>
+
 
 <h2><a name="location">Venue at Telecom Paris</a> </h2>
 <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=institut+telecom+paris&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=40.27343,79.013672&amp;ie=UTF8&amp;hq=institut+telecom&amp;hnear=Paris,+%C3%8Ele-de-France,+France&amp;ll=48.837153,2.346268&amp;spn=0.158183,0.291824&amp;z=11&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=institut+telecom+paris&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=40.27343,79.013672&amp;ie=UTF8&amp;hq=institut+telecom&amp;hnear=Paris,+%C3%8Ele-de-France,+France&amp;ll=48.837153,2.346268&amp;spn=0.158183,0.291824&amp;z=11" style="color:#0000FF;text-align:left">View Larger Map</a></small>

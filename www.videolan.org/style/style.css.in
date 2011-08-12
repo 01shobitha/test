@@ -210,6 +210,14 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 	font-size: 12px;
 }
 
+/* ============================ SOCIAL BUTTONS STYLE =========================== */
+
+#plusone
+{
+    float: right;
+    padding: 7px;
+}
+
 /* =============================== SIDEBAR STYLE =============================== */
 
 #sidebar

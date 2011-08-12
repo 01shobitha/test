@@ -120,6 +120,9 @@ function start_top( $body_color )
                <button class='button' type='submit'>donate</button>
        </p></form>
    </div>
+   <div id='plusone'>
+      <g:plusone size="medium" href="http://www.videolan.org"></g:plusone>
+   </div>
 <?php
 }
 
@@ -280,6 +283,14 @@ function footer($tag = "") {
          </div>
       </div>
    </div>
+   <!-- plusone button -->
+   <script type="text/javascript">
+     (function() {
+       var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+       po.src = 'https://apis.google.com/js/plusone.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+     })();
+   </script>
    </body>
 </html>
 <?php

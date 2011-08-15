@@ -19,12 +19,12 @@
 <p>Help us organizing the event!</p>
 <?php panel_end(); ?>
 
-<?php panel_start( "orange" ); ?>
+<?php panel_start( "blue" ); ?>
 <h2>Register!</h2>
-<a href="/contact.html">Register <strong>now!</strong></a></p>
+<a href="/contact.html">Register <strong>now!</strong></a>
 <?php panel_end(); ?>
 
-<?php panel_start( "blue" ); ?>
+<?php panel_start( "green" ); ?>
 <h2>Past editions</h2>
 <a href="/videolan/events/">Past VDD</a>
 <p class="center">
@@ -53,7 +53,7 @@ Developers, designers and anonymous people around <a href="/vlc/">VLC</a>, <a hr
 
 <h1>Schedule</h1>
 
-<div id="schedule" style="margin: 10px 25px 0px; padding: 0 20px; border: 1px outset #4d4d4d; width: 600px";>
+<div id="schedule" style="margin: 10px 25px 0px; padding: 0 20px; border: 1px outset #4d4d4d; width: 600px;">
 <h2>Friday night Beers</h2>
 <p>On <strong>Friday 2nd September 2011 at 20h30</strong>, people are welcome to come and
 share a few good drinks.</p>

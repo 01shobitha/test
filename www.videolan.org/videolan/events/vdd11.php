@@ -1,12 +1,12 @@
 <?php
-   $title = "VideoLAN Dev Days 2011";
+   $title = "VideoLAN Dev Days 2011, Septembre 3-4, 2011";
    $additional_css = array("/panels.css");
    $body_color = "green";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-<h1> VideoLAN Dev Days 2011 </h1>
-<h3> A Multimedia Conference that frees the cone in you! </h3>
+<h1>VideoLAN Dev Days 2011 </h1>
+<h3>The Open Multimedia Conference that frees the cone in you! </h3>
 
 <div id="sidebar">
 <?php panel_start( "green" ); ?>
@@ -19,39 +19,37 @@
 <p>Help us organizing the event!</p>
 <?php panel_end(); ?>
 
-<?php/* panel_start( "orange" ); ?>
-<h2>Program</h2>
-<a href="/videolan/events/vdd09.pdf"><strong>Full schedule</strong></a>.</p>
-
-<?php panel_end();*/ ?>
+<?php panel_start( "orange" ); ?>
+<h2>Register!</h2>
+<a href="/contact.html">Register <strong>now!</strong></a></p>
+<?php panel_end(); ?>
 
 <?php panel_start( "blue" ); ?>
-<h2>VDD '08</h2>
+<h2>Past editions</h2>
+<a href="/videolan/events/">Past VDD</a>
 <p class="center">
-         <img src="http://images.videolan.org/videolan/events/20081220/VDD/mq/img-11.jpg" alt="VDD 08" style="width:100%"/>
+<img src="http://images.videolan.org/videolan/events/20081220/VDD/mq/img-11.jpg" alt="VDD 08" style="width:100%"/>
 </p>
 <?php panel_end(); ?>
 
 </div>
 
 
-<h2> Welcome </h2>
+<h2>What are the VideoLAN Dev Days?</h2>
 <p>The <a href="/videolan/">VideoLAN non-profit organisation</a> is happy to
 invite you to the multimedia open-source event of the end of summer: </p>
 <div style="font-weight: bold; font-size: 1.8em; margin: 2px 100px 14px; color: green;">VideoLAN Dev Days '11</div>
 
-<p>For the third time, people from the VideoLAN community will meet in <strong>Paris</strong> to gather, work, discuss and build a stronger community, on the <strong>3rd and 4th of September 2011</strong>.</p>
+<p>For its <b>third edition</b>, people from the VideoLAN community will meet in <strong>Paris</strong> to gather, work, discuss and meet, on the <strong>3rd and 4th of September 2011</strong>.</p>
 <p>For the first time, though, an important number of developers from <a href="/developers/x264.html">x264</a>, <a href="http://www.ffmpeg.org/">FFmpeg</a> and <a href="http://libav.org/">Libav</a>, will join us!<br />
 Developers, designers and anonymous people around <a href="/vlc/">VLC</a>, <a href="/projects/dvblast.html">DVBlast</a>, VLMa, skin-designer or other multimedia projects will be there too.</p>
-<p>The schedule holds a mix of <a href="#public">public</a> and <a href="#private">technical</a> events.</p>
-<!--<a href="/videolan/events/vdd09.pdf"><strong>Full schedule (updated)</strong></a>.</p>-->
-
-<h1>Where? </h1>
-<p>Technical events will be held at <a href="http://www.telecom-paristech.fr/">Institut Telecom Paris</a> (<a href="#location">map</a>).</p>
 
 <h1>Who can come? </h1>
 <p><strong>Anyone</strong> that cares about open source multimedia.<br />
  If you are not a technical person, but an enthusiast, we recommend you to come to the less technical events, like in the evenings.</p>
+
+<h1>Where? </h1>
+<p>Technical events will be held at <a href="http://www.telecom-paristech.fr/">Institut Telecom Paris</a> (<a href="#location">map</a>).</p>
 
 <h1>Schedule</h1>
 

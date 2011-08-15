@@ -143,7 +143,13 @@ Discussion about OpenSource and Multimedia... Undefined yet.</p>
 <p>Dinner will be held at a restaurant nearby.<br /> Details will be given to registered attendees.</p>
 
 <h2>Sunday: Un-Conference</h2>
-<p>Schedule will depend on the will of participants</p>
+<div class="item">
+<div class="title">Unconference</div>
+<div class="date">Sunday 10.00 - 18.00</div>
+<p class="news-descr">
+Schedule will depend on the will of participants.</p>
+</div>
+
 
 <div class="item">
 <div class="title">Association VideoLAN </div>

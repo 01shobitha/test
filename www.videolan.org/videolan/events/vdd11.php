@@ -55,7 +55,7 @@ Developers, designers and anonymous people around <a href="/vlc/">VLC</a>, <a hr
 
 <h1>Schedule</h1>
 
-<div id="schedule">
+<div id="schedule" style="margin: 10px 25px 0px; padding: 0 20px; border: 1px outset #4d4d4d; width: 600px";>
 <h2>Friday night Beers</h2>
 <p>On <strong>Friday 2nd September 2011 at 20h30</strong>, people are welcome to come and
 share a few good drinks.</p>

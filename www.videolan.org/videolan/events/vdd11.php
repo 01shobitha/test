@@ -62,6 +62,7 @@ share a few good drinks.</p>
 <h3>Venue</h3>
 <p>The bar location is not known yet.</p>
 
+<hr />
 <h2>Saturday morning talks</h2>
 <p>Opened for all the libre community, activists and technology-oriented people that are interested,
  there will be technical talks and presentations about multimedia.</p>
@@ -113,6 +114,7 @@ This talk, made by <i>Stefano Sabatini</i> will speak about the newly introduced
 </div>
 
 <p><b>More talks</b> will be added, later on.</p>
+<hr />
 
 <h2>Lunch</h2>
 <p>Lunch will be held in Telecom Paris, near the Entrance.</p>
@@ -141,6 +143,7 @@ Discussion about OpenSource and Multimedia... Undefined yet.</p>
 
 <h2>Dinner</h2>
 <p>Dinner will be held at a restaurant nearby.<br /> Details will be given to registered attendees.</p>
+<hr />
 
 <h2>Sunday: Un-Conference</h2>
 <div class="item">

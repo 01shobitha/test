@@ -84,8 +84,17 @@ This talk, made by <i>Jean-Baptiste Kempf</i> will show up what the VLC 1.2.0 re
 </div>
 
 <div class="item">
+<div class="title">About x264</div>
+<div class="date">Saturday 11.05 - 11.25</div>
+<p class="news-descr">
+This talk, made by <i>Jason Garrett-Glaser</i> will speak about the <a href="/developers/x264.html">x264</a> encoder and community.<br />
+<em>Details about this talk will follow</em>.
+</p>
+</div>
+
+<div class="item">
 <div class="title">An overview of DVBlast, BitStream and Multicat</div>
-<div class="date">Saturday 11.05 - 11.30</div>
+<div class="date">Saturday 11.25 - 11.45</div>
 <p class="news-descr">
 This talk, made by <i>Christophe Massiot</i> will speak about the DVBlast and Multicat programs.<br />
 Concepts, use cases and examples of use of those programs will be shown; but also some presentations of the
@@ -93,24 +102,55 @@ Concepts, use cases and examples of use of those programs will be shown; but als
 </p>
 </div>
 
+
 <div class="item">
-<div class="title">About x264</div>
-<div class="date">Saturday 11.35 - 12.00</div>
+<div class="title">Introduction to libavfilter</div>
+<div class="date">Saturday 11.45 - 12.05</div>
 <p class="news-descr">
-This talk, made by <i>Jason Garrett-Glaser</i> will speak about the <a href="/developers/x264.html">x264</a> encoder and community.<br />
+This talk, made by <i>Stefano Sabatini</i> will speak about the newly introduced libavfilter.<br />
 <em>Details about this talk will follow</em>.
 </p>
 </div>
 
+<p><b>More talks</b> will be added, later on.</p>
+
+<h2>Lunch</h2>
+<p>Lunch will be held in Telecom Paris, near the Entrance.</p>
+
+<h2>Saturday afternoon community discussions</h2>
 <div class="item">
-<div class="title">About x264</div>
-<div class="date">Saturday 11.35 - 12.00</div>
+<div class="title">VLC development technical points</div>
+<div class="date">Saturday 14.00 - 17.00</div>
 <p class="news-descr">
-This talk, made by <i>Jason Garrett-Glaser</i> will speak about the <a href="/developers/x264.html">x264</a> encoder and community.<br />
-<em>Details about this talk will follow</em>.
-</p>
+The usual discussion, workgroups and votes about technical issues in VLC.</p>
 </div>
 
+<div class="item">
+<div class="title">libav* development technical points</div>
+<div class="date">Saturday 14.00 - 17.00</div>
+<p class="news-descr">
+Developer discussion and workgroup on improving libav*.</p>
+</div>
+
+<div class="item">
+<div class="title">OpenSource multimedia/Unconference</div>
+<div class="date">Saturday 17.00 - 19.00</div>
+<p class="news-descr">
+Discussion about OpenSource and Multimedia... Undefined yet.</p>
+</div>
+
+<h2>Dinner</h2>
+<p>Dinner will be held at a restaurant nearby.<br /> Details will be given to registered attendees.</p>
+
+<h2>Sunday: Un-Conference</h2>
+<p>Schedule will depend on the will of participants</p>
+
+<div class="item">
+<div class="title">Association VideoLAN </div>
+<div class="date">Sunday 9:30 - 11:00</div>
+<p class="news-descr">
+Un point sur la situation. Assemblée générale ordinaire, extra-ordinaire et réunion ordinaire.</p>
+</div>
 
 </div>
 <!-- 

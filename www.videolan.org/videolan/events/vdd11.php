@@ -55,6 +55,7 @@ Developers, designers and anonymous people around <a href="/vlc/">VLC</a>, <a hr
 
 <h1>Schedule</h1>
 
+<div id="schedule">
 <h2>Friday night Beers</h2>
 <p>On <strong>Friday 2nd September 2011 at 20h30</strong>, people are welcome to come and
 share a few good drinks.</p>
@@ -92,6 +93,7 @@ Concepts, use cases and examples of use of those programs will be shown; but als
 </p>
 </div>
 
+</div>
 <!-- 
 <p> about <b>VLC</b>, <b>x264</b>, <b>libavfilter</b> and <b>libavcodec</b>,
  on the <strong>Saturday 3rd, starting at 10h30</strong> at Telecom Paris.</p> -->

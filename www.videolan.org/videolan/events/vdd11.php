@@ -75,7 +75,7 @@ in order to be able to have the best week-end possible.</p>
 </div>
 
 <div class="item">
-<div class="title">What is in VLC 1.2.0?</div>
+<div class="title">What's new in VLC 1.2.0?</div>
 <div class="date">Saturday 10.45 - 11.05</div>
 <p class="news-descr">
 This talk, made by <i>Jean-Baptiste Kempf</i> will show up what the VLC 1.2.0 release will be made of,
@@ -92,6 +92,25 @@ Concepts, use cases and examples of use of those programs will be shown; but als
 2.0 release.</p>
 </p>
 </div>
+
+<div class="item">
+<div class="title">About x264</div>
+<div class="date">Saturday 11.35 - 12.00</div>
+<p class="news-descr">
+This talk, made by <i>Jason Garrett-Glaser</i> will speak about the <a href="/developers/x264.html">x264</a> encoder and community.<br />
+<em>Details about this talk will follow</em>.
+</p>
+</div>
+
+<div class="item">
+<div class="title">About x264</div>
+<div class="date">Saturday 11.35 - 12.00</div>
+<p class="news-descr">
+This talk, made by <i>Jason Garrett-Glaser</i> will speak about the <a href="/developers/x264.html">x264</a> encoder and community.<br />
+<em>Details about this talk will follow</em>.
+</p>
+</div>
+
 
 </div>
 <!-- 

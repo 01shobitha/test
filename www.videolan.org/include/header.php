@@ -11,7 +11,7 @@ function FormatSize($size) {
 }
 
 function image( $src_img, $alt, $id = "" ) {
-    echo "<img src='http://images1.videolan.org/images/".$src_img."' alt='".$alt."'";
+    echo "<img src='//images1.videolan.org/images/".$src_img."' alt='".$alt."'";
     if( !empty( $id ) ) echo " class='$id'";
     echo " />\n";
 }

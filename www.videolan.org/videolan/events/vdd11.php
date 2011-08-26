@@ -170,8 +170,8 @@ Un point sur la situation. Assemblée générale ordinaire, extra-ordinaire et r
 
 
 <h2><a name="location">Venue at Telecom Paris</a> </h2>
-<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=institut+telecom+paris&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=40.27343,79.013672&amp;ie=UTF8&amp;hq=institut+telecom&amp;hnear=Paris,+%C3%8Ele-de-France,+France&amp;ll=48.837153,2.346268&amp;spn=0.158183,0.291824&amp;z=11&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=institut+telecom+paris&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=40.27343,79.013672&amp;ie=UTF8&amp;hq=institut+telecom&amp;hnear=Paris,+%C3%8Ele-de-France,+France&amp;ll=48.837153,2.346268&amp;spn=0.158183,0.291824&amp;z=11" style="color:#0000FF;text-align:left">View Larger Map</a></small>
- 
+<iframe width="562" height="314" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=&amp;sll=48.825761,2.345519&amp;sspn=0.001685,0.004128&amp;vpsrc=0&amp;ie=UTF8&amp;layer=c&amp;cbll=48.826212,2.345306&amp;panoid=Bb1mRTLgV8-SuYh6aWwGXg&amp;cbp=13,80.21,,0,7.19&amp;ll=48.825848,2.345447&amp;spn=0.000554,0.001507&amp;z=19&amp;output=svembed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=&amp;sll=48.825761,2.345519&amp;sspn=0.001685,0.004128&amp;vpsrc=0&amp;ie=UTF8&amp;layer=c&amp;cbll=48.826212,2.345306&amp;panoid=Bb1mRTLgV8-SuYh6aWwGXg&amp;cbp=13,80.21,,0,7.19&amp;ll=48.825848,2.345447&amp;spn=0.000554,0.001507&amp;z=19" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+
 <!--<h2>Schedule</h2> -->
 <!-- You can find the full final schedule <a href="/videolan/events/vdd09.pdf">here</a>. -->
 

@@ -67,7 +67,7 @@ share a few good drinks.</p>
 
 <div class="item">
 <div class="title">Welcoming remarks</div>
-<div class="date">Saturday 10.30 - 11.40</div>
+<div class="date">Saturday 10.30 - 10.40</div>
 <p class="news-descr">
 A few welcoming remarks, made by <i>Jean-Baptiste Kempf</i>, and some material informations,
 in order to be able to have the best week-end possible.</p>

@@ -49,7 +49,8 @@ Developers, designers and anonymous people around <a href="/vlc/">VLC</a>, <a hr
  If you are not a technical person, but an enthusiast, we recommend you to come to the less technical events, like in the evenings.</p>
 
 <h1>Where? </h1>
-<p>Technical events will be held at <a href="http://www.telecom-paristech.fr/">Institut Telecom Paris</a> (<a href="#location">map</a>).</p>
+<p>Technical events will be held at <a href="http://www.telecom-paristech.fr/telecom-paristech/adresses-acces-contacts.html">Institut Telecom Paris</a> (<a href="#location">map</a>).</p>
+<p>Be careful to enter by the <em>rue Vergniaud</em> entrance.</p>
 
 <h1>Schedule</h1>
 
@@ -111,7 +112,7 @@ This talk, made by <i>Stefano Sabatini</i> will speak about the newly introduced
 </p>
 </div>
 
-<p><b>More talks</b> will be added, later on.</p>
+<p><b>More talks</b> might be added, later on.</p>
 <hr />
 
 <h2>Lunch</h2>
@@ -168,6 +169,9 @@ Un point sur la situation. Assemblée générale ordinaire, extra-ordinaire et r
 <p>Except for the Friday Beer Event, <strong>Registration</strong> is <strong>mandatory</strong>.</p>
 <p>Registration should be done by e-mail, to <a href="mailto:videolan@REMOVETHIS@videolan.org">videolan @ videolan.org</a>.</p>
 
+<h1>Hotel</h1>
+<p>If you got an hotel reserved by the team, it will be
+ <a href="http://www.ibishotel.com/gb/hotel-5543-ibis-paris-avenue-d-italie-13eme/index.shtml">Hotel ibis Paris Avenue d'Italie 13ème</a>
 
 <h2><a name="location">Venue at Telecom Paris</a> </h2>
 <iframe width="562" height="314" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=&amp;sll=48.825761,2.345519&amp;sspn=0.001685,0.004128&amp;vpsrc=0&amp;ie=UTF8&amp;layer=c&amp;cbll=48.826212,2.345306&amp;panoid=Bb1mRTLgV8-SuYh6aWwGXg&amp;cbp=13,80.21,,0,7.19&amp;ll=48.825848,2.345447&amp;spn=0.000554,0.001507&amp;z=19&amp;output=svembed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=&amp;sll=48.825761,2.345519&amp;sspn=0.001685,0.004128&amp;vpsrc=0&amp;ie=UTF8&amp;layer=c&amp;cbll=48.826212,2.345306&amp;panoid=Bb1mRTLgV8-SuYh6aWwGXg&amp;cbp=13,80.21,,0,7.19&amp;ll=48.825848,2.345447&amp;spn=0.000554,0.001507&amp;z=19" style="color:#0000FF;text-align:left">View Larger Map</a></small>

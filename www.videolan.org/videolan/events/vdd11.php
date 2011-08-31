@@ -58,7 +58,7 @@ Developers, designers and anonymous people around <a href="/vlc/">VLC</a>, <a hr
 <p>On <strong>Friday 2nd September 2011 at 20h30</strong>, people are welcome to come and
 share a few good drinks.</p>
 <h3>Venue</h3>
-<p>The bar location is not known yet.</p>
+<a href="http://g.co/maps/veka">Map for the bar</a>
 
 <hr />
 <h2>Saturday morning talks</h2>

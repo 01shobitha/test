@@ -15,7 +15,7 @@
 <a href="/videolan/">VideoLAN non-profit</a>
 <br />
 <h2>Institut Telecom</h2>
-<p><img src="http://www.institut-telecom.fr/images/it10/logo.png" /></p>
+<p><a href="http://www.institut-telecom.fr/" alt="Institut Telecom"><img src="http://www.institut-telecom.fr/images/it10/logo.png" /></a></p>
 <?php panel_end(); ?>
 
 <?php panel_start( "blue" ); ?>

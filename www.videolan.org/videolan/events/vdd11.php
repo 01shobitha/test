@@ -14,9 +14,8 @@
 <?php image( "logoGrey.png" , "VideoLAN association"); ?>
 <a href="/videolan/">VideoLAN non-profit</a>
 <br />
-<h2>Help us!</h2>
-<p><a href="/contact.html">Your name here!</a></p>
-<p>Help us organizing the event!</p>
+<h2>Institut Telecom</h2>
+<p><img src="http://www.institut-telecom.fr/images/it10/logo.png" /></p>
 <?php panel_end(); ?>
 
 <?php panel_start( "blue" ); ?>
@@ -49,8 +48,8 @@ Developers, designers and anonymous people around <a href="/vlc/">VLC</a>, <a hr
  If you are not a technical person, but an enthusiast, we recommend you to come to the less technical events, like in the evenings.</p>
 
 <h1>Where? </h1>
-<p>Technical events will be held at <a href="http://www.institut-telecom.fr/p_fr_present_contact_1375.html">Institut Telecom</a> (<a href="#location">map</a>).</p>
-<p>Be careful to enter by the <em>rue Vergniaud</em> entrance.</p>
+<p>Technical events will be held at <a href="http://www.institut-telecom.fr/p_en_present_contact_1376.html">Institut Telecom</a> (<a href="#location">map</a>).</p>
+<p>Be careful to enter by the <em>49, rue Vergniaud</em> entrance.</p>
 
 <h1>Schedule</h1>
 
@@ -174,6 +173,7 @@ Un point sur la situation. Assemblée générale ordinaire, extra-ordinaire et r
  <a href="http://www.ibishotel.com/gb/hotel-5543-ibis-paris-avenue-d-italie-13eme/index.shtml">Hotel ibis Paris Avenue d'Italie 13ème</a>
 
 <h2><a name="location">Venue at Institut Telecom</a> </h2>
+<p>Be careful to enter by the <em>49, rue Vergniaud</em> entrance, as shown on the photo.</p>
 <iframe width="562" height="314" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=&amp;sll=48.825761,2.345519&amp;sspn=0.001685,0.004128&amp;vpsrc=0&amp;ie=UTF8&amp;layer=c&amp;cbll=48.826212,2.345306&amp;panoid=Bb1mRTLgV8-SuYh6aWwGXg&amp;cbp=13,80.21,,0,7.19&amp;ll=48.825848,2.345447&amp;spn=0.000554,0.001507&amp;z=19&amp;output=svembed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=&amp;sll=48.825761,2.345519&amp;sspn=0.001685,0.004128&amp;vpsrc=0&amp;ie=UTF8&amp;layer=c&amp;cbll=48.826212,2.345306&amp;panoid=Bb1mRTLgV8-SuYh6aWwGXg&amp;cbp=13,80.21,,0,7.19&amp;ll=48.825848,2.345447&amp;spn=0.000554,0.001507&amp;z=19" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 
 <!--<h2>Schedule</h2> -->

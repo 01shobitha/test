@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|01 September 2011|libdvbpsi 0.2.1|The libdvbpsi development team <a href="ftp://ftp.videolan.org/pub/videolan/libdvbpsi/0.2.1"><b>release version 0.2.1</b></a> of their library for decoding and encoding MPEG-TS PSI information commonly found in DVB and MPEG transport streams. The version 0.2.1 is a bugfix release which corrects minor issues in libdvbpsi. For more information on features visit <a href="/developers/libdvbpsi.html">libdvbpsi main page</a>.
+
 |15 August 2011|Invitation to VDD11|VideoLAN would like to invite you to join us at the VideoLAN Dev Days 2011.<br />This technical conference about open source multimedia, will see developers from VLC, libav, FFmpeg, x264, Phonon, DVBlast, PulseAudio, KDE, Gnome and other projects gather to discuss about open source development for multimedia projects.<br /> It will be held in Paris, France, on <b>September 3rd</b> and <b>4th</b>, 2011.<br />See more info, on the <a href="/videolan/events/vdd11.html">dedicated page.
 
 |15 July 2011|VLC 1.1.11|VideoLAN and the VLC development team present VLC 1.1.11, a security release with some other improvements.<br />This release was necessary due to two security issues in the <a href="/security/sa1105.html">real</a> and <a href="/security/sa1106.html">avi</a> demuxers. It also contains improvements in the fullscreen mode of the Win32 mozilla plugin, the MacOSX Media Key handling and Auhal audio output as well as bug fixes in GUI, decoders and demuxers..<br />Source and binaries builds for Windows and Mac are available.

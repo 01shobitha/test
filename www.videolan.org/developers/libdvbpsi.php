@@ -29,7 +29,7 @@ and ITU-T H.222.0.</p>
 
 <h2>Get libdvbpsi</h2>
 
-<p>The latest <code>libdvbpsi</code> LGPL v2.1 release is <a href="http://www.videolan.org/pub/libdvbpsi/0.2.0/"><b>version 0.2.0</b></a>.</p>
+<p>The latest <code>libdvbpsi</code> LGPL v2.1 release is <a href="http://www.videolan.org/pub/libdvbpsi/0.2.1/"><b>version 0.2.1</b></a>.</p>
 <p>The latest <code>libdvbpsi</code> GPL v2 release is <a href="http://www.videolan.org/pub/libdvbpsi/0.1.7/"><b>version 0.1.7</b></a>.</p>
 <p> <code>libdvbpsi</code> is available through <a href="http://wiki.videolan.org/git">git</a> at:<br />
 <code>git clone git://git.videolan.org/libdvbpsi.git</code></p>

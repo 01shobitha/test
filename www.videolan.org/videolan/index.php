@@ -25,8 +25,8 @@
 <p>The current board of VideoLAN is composed by:</p>
 <ul class="bullets">
 <li>Chairman: Jean-Baptiste Kempf,</li>
-<li>Treasurer: Rémi Duraffort,</li>
-<li>Secretary: Antoine Cellerier.</li>
+<li>Treasurer: Hugo Beauzee-Luyssen,</li>
+<li>Secretary: Jean-Paul Saman.</li>
 </ul>
 
         <div style="margin-top: 50px;" class="clearme"></div>

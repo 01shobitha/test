@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|07 September 2011|Changing the VLC engine license to LGPL|During the third <a href="/videolan/events/vdd11.html">VideoLAN Dev Days</a>, last weekend in Paris, numerous developers approved the process of changing the license of the VLC engine to <a href="http://www.gnu.org/licenses/lgpl-2.1.html">LGPL 2.1</a> (or later).<br />This is the beginning of the process and will require the authorization from all the past contributors.<br />See our <a href="/press/lgpl.html">press release</a> on this process.
+
 |01 September 2011|libdvbpsi 0.2.1|The libdvbpsi development team <a href="ftp://ftp.videolan.org/pub/videolan/libdvbpsi/0.2.1"><b>release version 0.2.1</b></a> of their library for decoding and encoding MPEG-TS PSI information commonly found in DVB and MPEG transport streams. The version 0.2.1 is a bugfix release which corrects minor issues in libdvbpsi. For more information on features visit <a href="/developers/libdvbpsi.html">libdvbpsi main page</a>.
 
 |15 August 2011|Invitation to VDD11|VideoLAN would like to invite you to join us at the VideoLAN Dev Days 2011.<br />This technical conference about open source multimedia, will see developers from VLC, libav, FFmpeg, x264, Phonon, DVBlast, PulseAudio, KDE, Gnome and other projects gather to discuss about open source development for multimedia projects.<br /> It will be held in Paris, France, on <b>September 3rd</b> and <b>4th</b>, 2011.<br />See more info, on the <a href="/videolan/events/vdd11.html">dedicated page.

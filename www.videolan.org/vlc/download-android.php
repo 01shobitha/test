@@ -9,8 +9,8 @@
 
 <h1> Android </h1>
 
-<p><a href="/vlc/">VLC</a> for Android is <span style="font-weight: bold; color: red;">NOT ready YET</span>.</p>
-<p>Please, stop asking until it is released.</p>
+<p><a href="/vlc/">VLC</a> for Android is in beta test.</p>
+<p>Please, fill <a href="http://goo.gl/gAUN0">this form</a>, to enter the program.</p>
 
 <?php
   footer('$Id$');

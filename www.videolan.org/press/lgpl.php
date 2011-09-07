@@ -4,9 +4,10 @@
 ?>
 
 <h1>Changing the VLC engine license to LGPL</h1>
+<br />
 
 <div class="longtext">
-<h3>Paris, 7. Sept. 2011</h3>
+<div class="date">Paris, 7. Sept. 2011</div>
 
 <p><b>During the third <a href="/videolan/events/vdd11.html">VideoLAN Dev Days</a>, last weekend in Paris, numerous developers approved the process of changing the license of the VLC engine to <a href="http://www.gnu.org/licenses/lgpl-2.1.html">LGPL</a>.</b></p>
 <p><a href="/vlc/">VLC</a> is a highly popular libre and open source media player and multimedia engine, used by a large number of individuals, professionals, companies and institutions. Using open source technologies and libraries, the VLC engine has been ported to most computing platforms, including GNU/Linux, Windows, Mac OS X, BSD, iOS and Android. VLC can play most multimedia files, discs, streams, allows playback from devices, and is able to convert to or stream in various formats. The VideoLAN project was started at the university <a href="http://ecp.fr">École Centrale Paris</a> who relicensed VLC under the GPLv2 license in February 2001. Since then, VLC has been downloaded close to one billion times.</p>

@@ -20,8 +20,10 @@
 <p>We would like to thank all the VLC copyright holders, developers and community. We would like to thank the École Centrale Paris for the support.</p>
 <p>For any questions, please <a href="/contact.html">contact us</a>.</p>
 
+<br />
 Jean-Baptiste Kempf, on behalf of the VideoLAN project.
 
+<br />
 <h2>FAQ:</h2>
 <p><b>Will this change anything to VLC's distribution?</b><br />
 No, not in any way.</p>

@@ -14,7 +14,7 @@
 <p>At first, the change will affect the VLC engine, also known as <a href="/vlc/libvlc.html">libVLC</a>, allowing applications or plugins based on the VLC engine to be built under non-GPL licenses. The libVLC bindings for other languages are also concerned.</p>
 <p>In a second pass, more parts of VLC will change license, in the same way: important plugins and modules will change license depending on the agreement of the copyright holders.</p>
 <p>The license of the VLC media player will continue to be GPLv2 or later. This will not impact normal users of VLC in any way.</p>
-<p>Since the beginning of the process, a few months ago, the vast majority of concerned developers were contacted by VideoLAN. So far the major 40 developers have agreed and more than 80% of the copyright holders on VLC's core have agreed to this change. So far, no contributor has objected to this change, but some of them are difficult to contact. Past contributors that have not been reached yet should contact us.</p>
+<p>Since the beginning of the process, a few months ago, the vast majority of concerned developers were contacted by VideoLAN. So far the major 40 developers have agreed and more than 80% of the copyright holders on VLC's core have agreed to this change. So far, no contributor has objected to this change, but some of them are difficult to contact. Past contributors that have not been reached yet should <a href="/contact.html">contact us</a>.</p>
 <p>We would like to thank all the VLC copyright holders, developers and community. We would like to thank the École Centrale Paris for the support.</p>
 <p>For any questions, please <a href="/contact.html">contact us</a>.</p>
 

@@ -39,3 +39,4 @@ See http://www.videolan.org/press/2007-1.html</p>
 <p><b>Will this license change allow VLC to be available on the Apple stores?</b><br />
 So far, we don't know if this will change anything.</p>
 </div>
+<?php footer('$Id: index.php 6894 2011-05-02 09:35:24Z jb $'); ?>

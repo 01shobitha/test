@@ -3,7 +3,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."include/header.php");
 ?>
 
-<div id="fullwidth">
+<div id="longtext">
 <h1>Changing the VLC engine license to LGPL</h1>
 <h3>Paris, 7. Sept. 2011</h3>
 

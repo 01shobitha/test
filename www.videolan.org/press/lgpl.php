@@ -29,7 +29,7 @@ No and no.</p>
 No, VideoLAN will stay a non-profit organization managed by volunteers.</p>
 <p><b>It's awesome! How can I help?</b><br />
 Help us find the remaining missing contributors.
-If you have resources that can help us, please share these too./<p>
+If you have resources that can help us, please share these too.</p>
 <p><b>What happens if you can't find all the right contributors?</b><br />
 Then, we will not change the license.</p>
 <p><b>When will it be ready?</b><br />

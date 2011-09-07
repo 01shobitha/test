@@ -4,7 +4,7 @@
 ?>
 
 <div id="fullwidth">
-<h1>VLC developers starting the process of changing the libVLC license</h1>
+<h1>Change of the libVLC license to LGPL</h1>
 <h3>Paris, 7. Sept. 2011</h3>
 
 <p><b>During the third <a href="/videolan/events/vdd11.html">VideoLAN Dev Days</a>, last weekend in Paris, numerous developers approved the process of changing the license of the VLC engine to <a href="http://www.gnu.org/licenses/lgpl-2.1.html">LGPL</a>.</b></p>

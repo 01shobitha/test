@@ -14,5 +14,6 @@
 <p><a href="/press/eucd.html">EUCD</a></p>
 <p><a href="/press/patents.html">Patents</a></p>
 <p><a href="/press/2010-1.html">2010-1</a></p>
+<p><a href="/press/lgpl.html">libVLC and LGPL</a></p>
 
 <? footer(); ?>

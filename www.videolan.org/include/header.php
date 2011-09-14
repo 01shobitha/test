@@ -68,7 +68,7 @@ echo '<?xml version="1.0" encoding="utf-8" ?>';
 
 </head>
 
-<body> <? /* onload="<?php echo $body_onload;?>" onunload="<?php echo $body_onunload; */ ?>
+<body> <?php /* onload="<?php echo $body_onload;?>" onunload="<?php echo $body_onunload; */ ?>
 <div id='bodyInner' class="<?php echo $color ?>">
 <?php
 }

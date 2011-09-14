@@ -62,7 +62,7 @@
                 processing on the elementary streams, such as transcoding, PID remapping
                 or remultiplexing. If you were looking for these features, switch to
                 <a href="/vlc/">VLC</a>. It does <strong>not</strong> stream from plain files (have a look
-                at multicat instead).
+                at <a href="/projects/multicat.html">multicat</a> instead).
             </div>
             <div class="onecolumn">
                 <h1>Inputs - Outputs</h1>
@@ -88,14 +88,15 @@
                     href="/support/lists.html">streaming</a>
                     mailing-list.<br />
                     <br />
-                    There is also a developer-oriented <a href="/developers/lists.html">mailing-list</a>.
+                    Development is handled in the <a href="/developers/lists.html">dvblast-devel</a>
+                    mailing-list.
                 <br />
                 <br />
 
                 <h1>Development</h1>
-                    Hackers can participate to the development using <a href="http://wiki.videolan.org/Subversion">Subversion</a>.<br />
-                    The code can be found at <code>svn://svn.videolan.org/dvblast</code> and
-                    you can <a href="http://svn.videolan.org/listing.php?repname=DVBlast&amp;path=%2F&amp;sc=0">browse the source online</a>.
+                    Hackers can participate to the development using <a href="http://wiki.videolan.org/Git">git</a>.
+                    The code is accessible from <code>git://git.videolan.org/dvblast.git</code> and
+                    you can <a href="http://git.videolan.org/?p=dvblast.git">browse the source online</a>.
                     <br />
 
             </div>

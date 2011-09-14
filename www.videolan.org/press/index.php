@@ -16,4 +16,4 @@
 <p><a href="/press/2010-1.html">2010-1</a></p>
 <p><a href="/press/lgpl.html">libVLC and LGPL</a></p>
 
-<? footer(); ?>
+<?php footer(); ?>

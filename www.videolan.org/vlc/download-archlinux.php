@@ -1,5 +1,5 @@
 <?php
-   $title = "VLC media player for ALT Linux";
+   $title = "VLC media player for ArchLinux";
    $lang = "en";
    $menu = array( "vlc", "download" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");

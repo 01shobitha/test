@@ -16,7 +16,7 @@
 <ul class="bullets">
 
 <li><?php /*<a href="http://sourceforge.net/projects/vlc/files/1.1.11/vlc-1.1.11.tar.bz2/download">VLC source code tar.bz2</a>*/ ?>
-<?php pkgitem_nomirr("VLC source code tar.xz", "1.1.0","vlc-1.1.0.tar.xz","vlc"); ?></li>
+<?php pkgitem_nomirr("VLC source code tar.xz", "1.1.12","vlc-1.1.12.tar.xz","vlc"); ?></li>
 </ul>
 
 <h2> Required libraries: </h2>

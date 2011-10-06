@@ -34,6 +34,11 @@ Please refer to the concerned third parties as appropriate.
 
 <h2>2011</h2>
 <dl>
+<dt>VideoLAN-SA-1107 (CVE-XXXX-XXXX)</dt>
+<dd>NULL dereference in HTTP and RTSP server.
+ <a href="sa1107.html">Details</a>
+</dd>
+
 <dt>VideoLAN-SA-1106 (CVE-2011-2588)</dt>
 <dd>Heap buffer overflow in AVI demuxer.
  <a href="sa1106.html">Details</a>

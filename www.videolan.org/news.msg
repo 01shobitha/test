@@ -1,6 +1,9 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|06 October 2011|VLC 1.1.12|VideoLAN and the VLC development team present VLC 1.1.12, a bug and security fix release with a improvements for audio output on MacOS and with PulseAudio.<br />This release was necessary due to a security issue in the HTTP and RTSP server components, though this does not affect standard usage of the player.
+<br />At this point in time, only source is available. MacOS binaries builds should follow as time permits.
+
 |07 September 2011|Changing the VLC engine license to LGPL|During the third <a href="/videolan/events/vdd11.html">VideoLAN Dev Days</a>, last weekend in Paris, numerous developers approved the process of changing the license of the VLC engine to <a href="http://www.gnu.org/licenses/lgpl-2.1.html">LGPL 2.1</a> (or later).<br />This is the beginning of the process and will require the authorization from all the past contributors.<br />See our <a href="/press/lgpl.html">press release</a> on this process.
 
 |01 September 2011|libdvbpsi 0.2.1|The libdvbpsi development team <a href="ftp://ftp.videolan.org/pub/videolan/libdvbpsi/0.2.1"><b>release version 0.2.1</b></a> of their library for decoding and encoding MPEG-TS PSI information commonly found in DVB and MPEG transport streams. The version 0.2.1 is a bugfix release which corrects minor issues in libdvbpsi. For more information on features visit <a href="/developers/libdvbpsi.html">libdvbpsi main page</a>.

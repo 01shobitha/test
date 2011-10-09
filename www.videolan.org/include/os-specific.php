@@ -7,6 +7,7 @@ $dlUrl = "http://sourceforge.net/projects/vlc/files/$version/win32/vlc-$version-
 function replaceDLinfos( )
 {
     global $version;
+    global $win32version;
     echo "<script type='text/javascript'>\n";
 
     //Editable details for the client side OS appropriate download detection.

@@ -14,7 +14,7 @@ Summary           : Heap overflow in AVI demuxer
 Date              : 06 October 2011
 Affected versions : VLC media player 1.1.11 and ealier
 ID                : VideoLAN-SA-1107
-CVE references    : N/A
+CVE references    : CVE-2011-3333
 </pre>
 <h2>Details</h2>
 <p>VLC media player suffers from a NULL dereference vulnerability
@@ -67,6 +67,8 @@ at the Finnish Communications Regulatory Authority (FICORA).
 </dl>
 <h2>History</h2>
 <dl>
+<dt>10 October 2011</dt>
+<dd>CVE ID assigned</dd>
 <dt>06 Octobery 2011</dt>
 <dd>VLC 1.1.12 released</dd>
 <dd>Initial advisory</dd>

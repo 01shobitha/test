@@ -1,4 +1,6 @@
-Afrikaans|af.po|Jonathan Carter| jonathan at ubuntu dot  com
+Acoli|ach.po|Alfred John|agwanta2004 at yahoo dot co dot uk
+Afrikaans|af.po|Jonathan Carter|jonathan at ubuntu dot com
+Amharic|am.po|Solomon Gizaw|solohavi at yahoo dot com
 Albanian|sq.po|Kola|eltonkola at gmail dot com
 Arabic|ar.po|Osama Khalid| osamak dot wfm at gmail dot com
 Armenian|hy.po|Eduard Babayan|edo248 at gmail dot com
@@ -6,7 +8,9 @@ Asturian|ast.po|Xuacu Saturio|xuacusk8 at gmail dot com
 Basque|eu.po|Aritz Erkiaga|puf86 at hotmail dot com
 Belarusian|be.po|Сергей Дарьичев|charnabog at rambler dot ru
 Bengali|bn.po|Jamil Ahmed|itsjamil at gmail dot com
+Breton|br.po|Denis Arnaud|denisarnuad at yahoo dot fr
 Brazilian Portuguese|pt_BR.po|Sidney Doria|ssdoria at gmail dot com
+Chiga|cgg.po|Florence Tushabe|tushabe at cit dot mak dot ac dot ug
 British|en_GB.po|Samuel Hocevar|sam at zoy dot org
 Bulgarian|bg.po|Ivo Ivanov|bestran at mail dot bg
 Burmese|my.po|Simos Xenitellis|simos74 at gmx dot net
@@ -20,15 +24,16 @@ Estonian|et.po|Eero|eerove at gmail dot com
 Finnish|fi.po|Otto Kekäläinen|otto at sange dot fi
 French|fr.po|Éric Lassauge|lassauge qt users dot sourceforge dot net
 Friulian|fur.po| A. Decorte|klenje at  adriacom dot it
-Irish|ga.po|Seanán Ó Coistín|seananoc at gmail dot com
 Galician|gl.po|Gonçalo Cordeiro|gzcordeiro at gmail dot com
-German|de.po|Felix Kühne|fkuehne at users dot sf dot net
+German|de.po|Mario Siegmann|Mario_Siegman at web dot de
 Georgian|ka.po|Alexander Didebulidze|alexander dot didebulidze at stusta dot mhn dot de
 Kazakh|kk.po|Kypchak Kypchak|kypchak at gmail dot com
 Hebrew|he.po|Yaron Shahrabani|sh dot yaron at gmail dot com
 Hindi|hi.po|L. Balasubramaniam|l.balasubramaniam at gmail dot com
 Hungarian|hu.po|Gabor Kelemen|kelemeng at gnome dot hu
+Icelandic|is.po|Andri Pálsson|palsson dot andri at gmail dot com
 Indonesian|id.po|Luqman Hakim|ovdl at rocketmail dot com
+Irish|ga.po|Seanán Ó Coistín|seananoc at gmail dot com
 Italian|it.po|Vincenzo Reale|smart2128 at baslug dot org
 Japanese|ja.po|Fumio Nakayama|fumio dot n6a at gmail dot com
 Kazakh|kk.po|Kypchak Kypchak|kypchak at gmail dot com
@@ -36,6 +41,7 @@ Khmer|km.po|Khoem Sokhem|khoemsokhem at khmeros dot info
 Korean|ko.po|Han HoJoong|0demon0 at paran dot com
 Kurmanji|kur.po|Omer Ensari|oensari at gmail dot com
 Lithuanian|lt.po|Mindaugas Baranauskas|embar at super dot lt
+Luganda|lg.po|James Olweny|sjolweny85 at yahoo dot co dot uk
 Latvian|lv.po|jogijs|e.blumbergs at gmail dot com
 Malay|ms.po|Mahrazi Mohd Kamal|mahrazi at gmail dot com
 Malayalam|ml.po|Sreejith P|sreejithpro at gmail dot com>
@@ -46,7 +52,8 @@ Nepali|ne.po|Simos Xenitellis|simos74 at gmx dot net
 Norwegian Bokmål|nb.po||
 Norwegian Nynorsk|nn.po|Eirik U. Birkeland|eirbir at gmail dot com
 Occitan|oc.po|Tòni Galhard|tony dot gaillard at supinfo dot com
-Pashto|ps.po| Zabeeh Khan|zabeehkhan at gmail dot com
+Pashto|ps.po|Zabeeh Khan|zabeehkhan at gmail dot com
+Peul|ff.po|Ibrahima Sarr|ibrahima dot sarr at pulaagu dot com
 Persian|fa.po|Farzaneh Sarafraz|farzaneh at farsiweb dot info
 Polish|pl.po|Michał Trzebiatowski|hippie_1968 at hotmail dot com
 Portuguese|pt_PT.po|Bruno Queirós|brunoqueiros at portugalmail dot com
@@ -70,3 +77,4 @@ Turkish|tr.po|Adem Gunes|xleopar at yahoo dot com
 Ukrainian|uk.po|Oleksandr Natalenko|pfactum at gmail dot com
 Vietnamese|vi.po|Anh Phan|ppanhh at gmail dot com
 Walloon|wa.po|Gaëtan Rousseaux|garousseau at voo dot be
+Zulu|zu.po|Sipho Sibiya|sipho at translate dot org dot za

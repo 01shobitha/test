@@ -37,8 +37,8 @@ function replaceDLinfos( )
 
        if (navigator.appVersion.indexOf("Win")!=-1){
          OS="windows";
-         var latestVersion = '1.1.11';
-    }
+         latestVersion = '1.1.11';
+       }
        if (navigator.appVersion.indexOf("Mac")!=-1) OS="osx";
        if (navigator.platform.indexOf("MacPPC")!= -1 || navigator.platform.indexOf("PowerPC") != -1 ) OS="osxPPC";
        if (navigator.platform.indexOf("BeOS") !=-1) OS="beos";

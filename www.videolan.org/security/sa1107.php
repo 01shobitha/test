@@ -10,7 +10,7 @@
 
 <h1>Security Advisory 1107</h1>
 <pre>
-Summary           : Heap overflow in AVI demuxer
+Summary           : NULL dereference vulnerability in HTTP and RSTP server
 Date              : 06 October 2011
 Affected versions : VLC media player 1.1.11 and ealier
 ID                : VideoLAN-SA-1107

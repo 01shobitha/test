@@ -433,6 +433,7 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
     letter-spacing: 0.03em;
 	padding-bottom: 6px;
     display: block;
+    font-family: "trebuchet MS, Arial, Sans-Serif";
 }
 
 .normalButton

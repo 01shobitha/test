@@ -61,7 +61,7 @@ ul, li
 @font-face {
     font-family: "League Gothic";
     font-style: normal;
-    src: local( "League Gothic"), url('http://images1.videolan.org/style/LeagueGothic.otf') format("opentype");
+    src: local( "League Gothic"), url('/style/LeagueGothic.otf') format("opentype");
 }
 /* =============================== TOP LEVEL STYLES ============================== */
 

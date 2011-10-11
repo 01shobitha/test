@@ -2,7 +2,7 @@
 $win32version = '1.1.11';
 $version = '1.1.12';
 
-$dlUrl = "http://sourceforge.net/projects/vlc/files/$version/win32/vlc-$version-win32.exe/download";
+$dlUrl = "http://sourceforge.net/projects/vlc/files/$win32version/win32/vlc-$win32version-win32.exe/download";
 
 function replaceDLinfos( )
 {

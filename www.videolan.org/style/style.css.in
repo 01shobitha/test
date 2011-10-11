@@ -428,7 +428,6 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 
 .downloadText
 {
-    font-family: 'League Gothic', sans-serif;
 	font-size: 40px;
 	line-height: 32px;
     letter-spacing: 0.03em;
@@ -448,7 +447,6 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 	padding: 15px;
 	background-color: black;
 	color: white;
-    font-family: 'League Gothic', sans-serif;
     font-size: 26px;
     letter-spacing: 0.03em;
 	-moz-border-radius: 12px;

@@ -59,7 +59,7 @@ echo '<?xml version="1.0" encoding="utf-8" ?>';
           </style>
     <![endif]-->
 
-    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js' type='text/javascript'></script>
+    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js' type='text/javascript'></script>
     <?php if( isset($additional_js) ) {
             foreach($additional_js as $js) {
                 echo '<script src="'.$js.'" type="text/javascript"></script>';

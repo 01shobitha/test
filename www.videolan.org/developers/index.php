@@ -52,7 +52,7 @@ the web site will be automatically updated a few minutes later.
 <p><a href="http://wiki.videolan.org/Subversion">Subversion</a></p>
 <p><a href="lists.html">Mailing lists</a></p>
 <p><a href="https://trac.videolan.org/">Trac - project management</a></p>
-<p><a href="https://www.mibbit.com/chat/?url=irc%3A%2F%2Firc.videolan.org%2F%23videolan">IRCWeb using Mibbit </a></p>
+<p><a href="http://webchat.freenode.net/">IRCWeb </a></p>
 <p><a href="http://nightlies.videolan.org/">Nightly Builds</a></p>
  <?php panel_end(); ?>
 </div>

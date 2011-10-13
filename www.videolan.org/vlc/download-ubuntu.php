@@ -10,12 +10,12 @@
 
 <div id="left">
 
-<h2>Ubuntu Oneiric Ocelot 11.10
-<br/>Ubuntu Natty Narwhal 11.04
-<br/>Ubuntu Maverick Meerkat 10.10</h2>
+<h2>Ubuntu 11.10 - Oneiric Ocelot
+<br/>Ubuntu 11.04 - Natty Narwhal
+<br/>Ubuntu 10.10 - Maverick Meerkat</h2>
 
 <h3>Graphical way</h3>
-<p>Open Synaptic application<br />
+<p>Open <b>Synaptic</b> application<br />
 Click on System -&gt; Administration -&gt; Synaptic Package Manager.<br />
 In Settings -&gt; Repositories, make sure you have an
 <code>universe</code> repository activated.
@@ -31,15 +31,15 @@ from a <code>multiverse</code> repository.</p>
 <h3>Command line way</h3>
 <p>You need to check that a <code>universe</code> mirror is listed
 in your <code>/etc/apt/sources.list</code> file.
-</p>
 <blockquote>
 <pre>
 % sudo apt-get update
 % sudo apt-get install vlc vlc-plugin-pulse mozilla-plugin-vlc
 </pre>
 </blockquote>
+</p>
 
-<h3>Note</h3>
+<h3>Nota Bene</h3>
 <p>Ubuntu includes whichever VLC version was the latest
 at the time the Ubuntu release was <em>frozen</em>
 (typically about two months before the official Ubuntu upgrade).
@@ -70,12 +70,6 @@ Note that there will be some bugs; you are on your own.
 % sudo apt-get install vlc vlc-plugin-pulse mozilla-plugin-vlc
 </pre>
 </blockquote>
-
-<h2>Ubuntu Hardy Heron 8.04 LTS</h2>
-
-<p><strong>VLC 0.8.6 has known security issues.</strong>
-We strongly recommend that you update to a newer Ubuntu release.
-</p>
 
 </div>
 

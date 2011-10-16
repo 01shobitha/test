@@ -33,15 +33,14 @@
                 <h1 style='margin-bottom: 25px;' class='red'>Features</h1>
                     <strong>Simple</strong>, Powerful and Fast
                 <br /><br />
-                    Plays <strong>everything</strong>, Files, Discs (DVD, CD, VCD), Devices and Streams
+                    Plays <strong>everything</strong>, Files, Discs (DVD, CD, VCD, Blu-Ray), Webcams and Streams
                 <br /><br />
-                    Plays most codecs with <b>no codec packs</b> needed
+                    Plays most codecs with <b>no codec packs</b> needed:<br />
+                    MPEG-2, H.264, DivX, MPEG-4, WebM, WMV player
                 <br /><br />
                     Completely <strong>Free</strong>, 0 Spyware, Ads or User Tracking
                 <br /><br />
-                    Best Mpeg2, x264, DivX player
-                <br /><br />
-                    Works on <strong>most platforms</strong>: Windows, Linux, Mac, Unix...
+                    Works on <strong>most platforms</strong>: Windows, Linux, Mac OS X, Unix...
                 <br /><br />
                     Media Converter and Streamer
                 <br />

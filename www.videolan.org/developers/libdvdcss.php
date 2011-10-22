@@ -33,10 +33,11 @@ by browsing the <a href="http://www.videolan.org/pub/libdvdcss/">releases</a>.
 <h3>Subversion checkout</h3>
 <p><code># svn co svn://svn.videolan.org/libdvdcss/trunk libdvdcss</code></p>
 
-<p> You can also see the <a href="libdvdcss/NEWS">release notes</a> and the <a
-href="libdvdcss/ChangeLog.html">ChangeLog</a>.</p>
+<p>You can also access the code <a href="http://svn.videolan.org/listing.php?repname=libdvdcss">online</a>.</p>
 
-<h2>Documentation</h2>
+<h2>Changelog and Documentation</h2>
+<p> You can see the <a href="libdvdcss/NEWS">release notes</a> and the
+<a href="libdvdcss/ChangeLog.html">ChangeLog</a>.</p>
 
 <table border="0">
 <tr>
@@ -64,9 +65,9 @@ href="libdvdcss/ChangeLog.html">ChangeLog</a>.</p>
 
 <h2>additional information</h2>
 
-If you want to read more on this subject, we publish a <a
+<p>If you want to read more on this subject, we publish a <a
 href="libdvdcss.txt">french non-technical description of libdvdcss</a>
-and we will try to translate it soon.
+and we will try to translate it soon.</p>
 
 <h3>For legal documentation, see our <a href="/legal.html">legal page</a></h3>
 

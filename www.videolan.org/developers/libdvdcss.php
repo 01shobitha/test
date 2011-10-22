@@ -31,7 +31,7 @@ by browsing the <a href="http://www.videolan.org/pub/libdvdcss/">releases</a>.
 </p>
 
 <h3>Subversion checkout</h3>
-<p><code># svn co svn://svn.videolan.org/libdvdcss/trunk libdvdcs</code></p>
+<p><code># svn co svn://svn.videolan.org/libdvdcss/trunk libdvdcss</code></p>
 
 <p> You can also see the <a href="libdvdcss/NEWS">release notes</a> and the <a
 href="libdvdcss/ChangeLog.html">ChangeLog</a>.</p>

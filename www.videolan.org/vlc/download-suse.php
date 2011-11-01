@@ -26,6 +26,9 @@ options:</p>
  <a href="http://en.opensuse.org/One_Click_Install/UserFAQ">1-click install</a></h2>
 <div>
 <div class="installbtn" style="float: left;">
+  <a href="http://download.videolan.org/pub/vlc/SuSE/12.1/vlc.ymp">VLC for 12.1</a>
+</div>
+<div class="installbtn" style="float: left;">
   <a href="http://download.videolan.org/pub/vlc/SuSE/11.4/vlc.ymp">VLC for 11.4</a>
 </div>
 <div class="installbtn" style="float: left;">
@@ -62,6 +65,7 @@ Version. Supported at this time are :</p>
 11.2<br />
 11.3<br />
 11.4<br />
+12.1<br />
 Factory<br />
 </p>
 <p>Finally, confirm the addition.<br />
@@ -96,7 +100,7 @@ sudo zypper mr -r VLC
 sudo zypper in vlc
 </pre>
 
-<p>openSUSEversion can be 11.1, 11.2, 11.3 or 11.4 </p>
+<p>openSUSEversion can be 11.1, 11.2, 11.3, 11.4 or 12.1 </p>
 
 
 <?php footer('$Id$'); ?>

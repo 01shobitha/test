@@ -1,5 +1,5 @@
 <?php
-   $title = "Free Software and Open Source video streaming solution for every OS!";
+   $title = "DVBlast - Open Source fast DVB/ASI network streamer!";
    $lang = "en";
    $menu = array( "projects", "projects" );
    $body_color = "red";

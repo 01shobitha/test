@@ -1,5 +1,5 @@
 <?php
-   $title = "VideoLAN - Press Release";
+   $title = "VideoLAN - Press Release 2005-1";
    $lang = "en";
    $menu = array( "vlc" );
    require($_SERVER["DOCUMENT_ROOT"]."include/header.php");

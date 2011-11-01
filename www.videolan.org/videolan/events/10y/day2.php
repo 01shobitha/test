@@ -1,5 +1,5 @@
 <?php
-   $title = "10 years of open source";
+   $title = "10 years of open source - day2";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 

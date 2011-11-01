@@ -1,5 +1,5 @@
 <?php
-   $title = "Free Software and Open Source video streaming solution for every OS!";
+   $title = "VideoLAN - Open Source projects for every OS!";
    $body_color = "blue";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 

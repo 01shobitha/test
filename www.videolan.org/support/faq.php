@@ -79,9 +79,10 @@ The precise location of this file depends on the Operating System you are runnin
 </p>
 <ul>
 <li>Linux / Unix: <code>$(HOME)/.config/vlc/vlcrc</code> (v0.9.0 and above), <code>$(HOME)/.vlc/vlcrc</code> (v0.8 and older)</li>
-<li>Mac OS X: <code>HOME/Library/Preferences/VLC</code></li>
+<li>Mac OS X: <code>HOME/Library/Preferences/org.videolan.vlc</code> <code>HOME/Library/Preferences/VLC</code> (v0.9 and older)</li>
 <li>Windows 95/98/ME: <code>C:\Windows\Application Data\vlc\vlcrc</code></li>
-<li>Windows XP/2000: <code>C:\Documents and Settings\%username%\Application Data\vlc\vlcrc</code></li>
+<li>Windows 2000/XP: <code>C:\Documents and Settings\%username%\Application Data\vlc\vlcrc</code></li>
+<li>Windows Vista/7: <code>C:\Users\%username%\Application Data\vlc\vlcrc</code></li>
 <li>BeOS: <code>config/settings/vlcrc</code></li>
 </ul>
 

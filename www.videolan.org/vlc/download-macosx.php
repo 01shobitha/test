@@ -1,5 +1,5 @@
 <?php
-   $title = "Official download of VLC media player for Mac OS X";
+   $title = "Official VLC media player for Mac OS X";
    $additional_css = array("/countries.css","/panels.css");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");

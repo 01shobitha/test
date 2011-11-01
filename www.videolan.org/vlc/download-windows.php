@@ -1,5 +1,5 @@
 <?php
-   $title = "Official download of VLC media player for Windows";
+   $title = "Official VLC media player for Windows";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
 ?>

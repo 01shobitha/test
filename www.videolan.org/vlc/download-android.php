@@ -7,7 +7,7 @@
 
 <h1 class="bigtitle"> VLC media player for <a href="http://android.com/">Android</a></h1>
 
-<h1> Android </h1>
+<h1> VLC for Android </h1>
 
 <p><a href="/vlc/">VLC</a> for Android is in development.</p>
 <p>Come later for more information.</p>

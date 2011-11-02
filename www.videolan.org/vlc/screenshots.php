@@ -14,7 +14,7 @@ echo"<div class='largescreenshot'><a href='http://images1.videolan.org/vlc/scree
 <div id="fullwidth" >
 
 
-<h2 class="clearme">Latest version: 1.0 - Goldeneye</h2>
+<h2 class="clearme">1.0 - Goldeneye</h2>
 <?php
 screenshot( "1.0.0/VLC_Gnome.png",
             "1.0.0/tm_VLC_Gnome.png",

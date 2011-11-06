@@ -27,10 +27,7 @@ There is absolutely NO SUPPORT for it from the VideoLAN Team.
                 <li class='windows'  style="font-weight:bold"><a href='/build/win32/?C=M;O=D'>Windows</a></li>
                 <li class='macosx'  style="font-weight:bold"><a href='/build/macosx/?C=M;O=D'>Mac&nbsp;OS&nbsp;X PowerPC</a></li>
                 <li class='macosx'  style="font-weight:bold"><a href='/build/macosx-intel/?C=M;O=D'>Mac&nbsp;OS&nbsp;X Intel</a></li>
-                <li class='debian' ><a href='#ubuntu'>Ubuntu (i386)</a></li>
-                <li class='debian' ><a href='#ubuntu'>Ubuntu (amd64)</a></li>
-                <li class='debian' ><a href='#debian'>Debian Sid I386</a></li>
-                <li class='debian' ><a href='#debian'>Debian Sid AMD64</a></li>
+                <li class='debian' ><a href='#ubuntu'>Ubuntu</a></li>
         </ul>
 </div>
 <div class="os2">
@@ -58,11 +55,11 @@ There is absolutely NO SUPPORT for it from the VideoLAN Team.
           if you need to report a bug.
         </p>
 
-        <h2><a id="debian">Debian repositiories</a></h2>
+        <!--p><h2><a id="debian">Debian repositiories</a></h2>
         <p>This service is discontinued for the time being.
           Sorry for the inconvenience.
         </p>
-        <!--p>For Debian Sid I386 (unstable) add the following line to your sources.list:</p>
+        For Debian Sid I386 (unstable) add the following line to your sources.list:</p>
         <pre>deb http://nightlies.videolan.org/build/sid-i386/arch ./</pre>
         <p>For Debian Sid AMD64 (unstable) add the following line to your sources.list:</p>
         <pre>deb http://nightlies.videolan.org/build/sid-amd64/arch ./</pre>

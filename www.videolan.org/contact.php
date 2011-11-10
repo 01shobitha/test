@@ -47,8 +47,8 @@
 and write in French or English.</p>
 <p>Any question about <strong>VLC usage</strong> will <strong>not be</strong> answered.
  See the <a href="/support">Support center</a> for these matters.</p>
-<p><strong>Remember</strong>, we are a <strong>volunteer non-profit organisation</strong>, and we don't offer job, and
-cannot sponsor 3rd party events.</p>
+<p><strong>Remember</strong>, we are a <strong>volunteer non-profit organisation</strong>, and we do not offer jobs and
+cannot sponsor third party events.</p>
 
 <h2>Postal Address</h2>
 <pre style="margin-left: 20px;">

@@ -29,6 +29,8 @@
   deflist( "vlc-devel", "VLC development");
   deflist( "x264-devel", "x264 development");
   deflist( "vlmc-devel", "VLMC development");
+  deflist( "dvblast-devel", "DVBlast development");
+  deflist( "libdvdcss-devel", "libdvdcss development");
 ?>
 </ul>
 

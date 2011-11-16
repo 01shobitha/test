@@ -122,7 +122,7 @@ requises et les assembler vous même:</p>
         <!-- main content goes here -->
         <p><span class="vlcversion">Téléchargements de VLC 0.8.6: <span id="vlccounter">Loading...</span></span></p>
         <p><span id="dlrate">Calcul en cours...</span> téléchargements par seconde.</p>
-        <div class="more"><a href="/stats/downloads.html">Statistiques complètes</a></div>
+        <div class="more"><a href="/vlc/stats/downloads.php">Statistiques complètes</a></div>
       </div>
     </div>
 

@@ -131,8 +131,9 @@ function addos( $name, $class, $url, $bold=false )
             </div>
         </div>
         <div style='clear: both;'></div>
-        <div style="margin-top: 30px;">
+<!--        <div style="margin-top: 30px;">
             <a href="/vlc/stats/downloads.php">VLC download statistics</a>
         </div>
+-->
 
 <?php footer(); ?>

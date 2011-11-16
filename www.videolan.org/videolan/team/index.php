@@ -17,7 +17,7 @@
 from all over the world and former students of the <a
 href="http://www.ecp.fr/">École Centrale Paris</a>:</p>
 
-<div id="map" style="width: 100%; height: 500px; z-index: -10;" class="center"></div>
+<div id="map" style="width: 100%; height: 500px" class="center"></div>
 
 <h2>The developers</h2>
 

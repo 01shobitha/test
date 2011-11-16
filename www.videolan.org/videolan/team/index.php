@@ -106,7 +106,15 @@ part with '@'. </p>
 
    $handle=opendir('.'); 
    while (false!=($f = readdir($handle))) { 
-      if(ereg("AUTHORS",$f)) {
+      if(ereg("AUTHORS.vlc", $f)) {
+        $file = file($f);
+        foreach( $file as $line ) {
+        ?><p><?php
+        echo $line;
+        ?></p><?php
+        }
+        }
+      else if(ereg("AUTHORS",$f)) {
          parselist(substr($f,8));
       } 
    }

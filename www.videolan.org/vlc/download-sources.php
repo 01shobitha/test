@@ -12,14 +12,12 @@
 <div id="left">
 <h2>Tarballs</h2>
 
-<p> Latest VLC source code tarball (1.1.12): </p>
-<ul class="bullets">
+<p> Latest VLC source code tarball (1.1.12):</p>
 
-<li><?php /*<a href="http://sourceforge.net/projects/vlc/files/1.1.11/vlc-1.1.11.tar.bz2/download">VLC source code tar.bz2</a>*/ ?>
-<?php pkgitem_sf("VLC source code tar.xz", "1.1.12","vlc-1.1.12.tar.xz","vlc", "source package", "56cb9975725a12da8c84882bc00fdce0"); ?></li>
-</ul>
+<?php /*<a href="http://sourceforge.net/projects/vlc/files/1.1.11/vlc-1.1.11.tar.bz2/download">VLC source code tar.bz2</a>*/ ?>
+<?php pkgitem_sf("VLC source code tar.xz", "1.1.12","vlc-1.1.12.tar.xz","vlc", "source package", "56cb9975725a12da8c84882bc00fdce0"); ?>
 
-<h2> Required libraries: </h2>
+<h2 style="clear: both;"> Required libraries: </h2>
 <a href="ftp://ftp.videolan.org/pub/videolan/contrib/">Contrib libraries tarballs</a>
 <?php
 /*

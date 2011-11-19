@@ -115,6 +115,23 @@ cooperation of our partners, on both technical and financial sides: </p>
     </td>
   </tr>
 
+  <tr>
+    <td colspan="2">
+        <h2> Panasonic </h2>
+    </td>
+  </tr>
+  <tr>
+    <td  style="text-align:-center">
+        <p class="center"><a href="http://www.panasonic.de"><img
+        src="../images/partners/panasonic.gif" alt="Panasonic" /></a></p>
+    </td>
+    <td>
+
+         <p>Panasonic Deutschland, a division of Panasonic
+Marketing Europe GmbH, borrowed us a SC-XH150 setup consisting of a S/PDIF input capable DVD player and a 5.1 speaker set, which allowed us to fix the optical audio output on OS X Lion.</p>
+
+    </td>
+  </tr>
 
   <tr><td colspan="2"><h2> Epitech </h2></td></tr>
   <tr>
@@ -197,24 +214,6 @@ cooperation of our partners, on both technical and financial sides: </p>
          HP laptop</a> at <a
          href=""
          >Journées du Libre</a>.</p>
-
-    </td>
-  </tr>
-
-  <tr>
-    <td colspan="2">
-        <h2> Panasonic </h2>
-    </td>
-  </tr>
-  <tr>
-    <td  style="text-align:-center">
-        <p class="center"><a href="http://www.panasonic.de"><img
-        src="../images/partners/panasonic.gif" alt="Panasonic" /></a></p>
-    </td>
-    <td>
-
-         <p>Panasonic Deutschland, a division of Panasonic
-Marketing Europe GmbH, borrowed us a SC-XH150 setup consisting of a S/PDIF input capable DVD player and a 5.1 speaker set, which allowed us to fix the optical audio output on OS X Lion.</p>
 
     </td>
   </tr>

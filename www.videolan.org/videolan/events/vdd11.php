@@ -166,7 +166,7 @@ Un point sur la situation. Assemblée générale ordinaire, extra-ordinaire et r
 
 <h1>Registration</h1>
 <p>Except for the Friday Beer Event, <strong>Registration</strong> is <strong>mandatory</strong>.</p>
-<p>Registration should be done by e-mail, to <a href="mailto:videolan@REMOVETHIS@videolan.org">videolan @ videolan.org</a>.</p>
+<p>Registration are now closed.</p>
 
 <h1>Hotel</h1>
 <p>If you got an hotel reserved by the team, it will be

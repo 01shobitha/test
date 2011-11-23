@@ -22,7 +22,6 @@ function motto( $title, $array ) {
         }
         dimPanels();
     </script>';
-
 }
 
 ?>

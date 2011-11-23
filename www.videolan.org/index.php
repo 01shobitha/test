@@ -1,5 +1,5 @@
 <?php
-   $title = "VLC: Official site - Free multimedia solutions for all OS!";
+   $title = _("VLC: Official site - Free multimedia solutions for all OS!");
    $body_color = "blue";
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");
@@ -12,9 +12,8 @@
             <div style='float: left; width: 500px;'>
                 <h1 class='bigtitle'>VLC media player</h1>
                 <div class='projectDescription'>
-                    VLC is a free and open source cross-platform multimedia player and
-                    framework that plays most multimedia files as well as DVD, Audio CD,
-                    VCD, and various streaming protocols.
+                   <?php echo
+                   _("VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."); ?>
                 </div>
                 <a class='extraInfoLink' href='/vlc/features.html'>Features</a>
                 <a class='extraInfoLink' href='/vlc/screenshots.html'>Screenshots</a>

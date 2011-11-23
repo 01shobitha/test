@@ -1,48 +1,50 @@
 <?php
 
-function FormatSize($size) {
-    $sizes = Array('B', 'KiB', 'MiB', 'GiB', 'TiB');
-    $ext = $sizes[0];
-    for ($i=1; (($i < count($sizes)) && ($size >= 1024)); $i++) {
-        $size = $size / 1024;
-        $ext  = $sizes[$i];
-    }
-    return round($size, 1).$ext;
-}
-
-function image( $src_img, $alt, $id = "" ) {
-    echo "<img src='//images1.videolan.org/images/".$src_img."' alt='".$alt."'";
-    if( !empty( $id ) ) echo " class='$id'";
-    echo " />\n";
-}
-
 /*
 *  starthtml: beginning of the page
 */
-function StartHtml( $title, $color, $additional_css=array(), $additional_js=array(), $body_onload = "HideMirrors();", $body_onunload = "" ) {
-global $HTTP_GET_VARS;
-echo '<?xml version="1.0" encoding="utf-8" ?>';
-?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-       "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+function StartHtml( $title, $color, $language,
+                    $additional_css=array(),
+                    $additional_js=array(),
+                    $body_onload = "HideMirrors();",
+                    $body_onunload = "" )
+{
+    global $HTTP_GET_VARS;
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="Content-Language" content="en-us" />
-    <meta name="Author" content="VideoLAN" />
-    <meta name="Keywords" content="DVD, MPEG, MPEG2, MPEG4, H264, DivX, VideoLAN, MKV, m2ts,
-     VLC, VLS, x264, Windows, Linux, Unix, BeOS, BSD, MacOS, MacOS X, OSX, Streaming,
-     video, video player, multimedia, multicast, IPv6, media player, media converter,
-     open source, free software" />
-   <meta name="Description" content="<?php echo $title; ?>" />
-   <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
-   <title>VideoLAN - <?php echo $title; ?></title>
+    if ($language != "en" ) {
+        switch ($language) {
+        case 'fr': $locale = "fr_FR.UTF-8"; break;
+        }
 
-   <link rel="alternate" type="application/rss+xml" title="RSS - VideoLAN News" href="/videolan-news.rss" />
-   <link rel="alternate" type="application/rss+xml" title="RSS - Developers' Planet" href="http://planet.videolan.org/rss20.xml" />
+        /* gettext stuff */
+        putenv("LANGUAGE=$locale");
+        setlocale(LC_ALL, $locale);
+        bindtextdomain("website", "./locale");
+        textdomain("website");
+    }
 
-   <link rel="stylesheet" type="text/css" href="/style/style.css" />
+    /* We love xml, right? */
+    echo '<?xml version="1.0" encoding="utf-8" ?>'; ?>
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+        "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Language" content="en-us" />
+        <meta name="Author" content="VideoLAN" />
+        <meta name="Keywords" content="DVD, MPEG, MPEG2, MPEG4, H264, DivX, VideoLAN, MKV, m2ts,
+        VLC, VLS, x264, Windows, Linux, Unix, BeOS, BSD, MacOS, MacOS X, OSX, Streaming,
+        video, video player, multimedia, multicast, IPv6, media player, media converter,
+        open source, free software" />
+        <meta name="Description" content="<?php echo $title; ?>" />
+        <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+        <title>VideoLAN - <?php echo $title; ?></title>
+
+        <link rel="alternate" type="application/rss+xml" title="RSS - VideoLAN News" href="/videolan-news.rss" />
+        <link rel="alternate" type="application/rss+xml" title="RSS - Developers' Planet" href="http://planet.videolan.org/rss20.xml" />
+
+        <link rel="stylesheet" type="text/css" href="/style/style.css" />
 
     <?php if( isset($additional_css) ) {
         foreach($additional_css as $css) {
@@ -61,18 +63,19 @@ echo '<?xml version="1.0" encoding="utf-8" ?>';
 
     <script src='//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js' type='text/javascript'></script>
     <?php if( isset($additional_js) ) {
-            foreach($additional_js as $js) {
-                echo '<script src="'.$js.'" type="text/javascript"></script>';
-            }
-        } ?>
+        foreach($additional_js as $js) {
+            echo '<script src="'.$js.'" type="text/javascript"></script>';
+        }
+    } ?>
 
-</head>
+    </head>
 
-<body> <?php /* onload="<?php echo $body_onload;?>" onunload="<?php echo $body_onunload; */ ?>
-<div id='bodyInner' class="<?php echo $color ?>">
-<?php
+    <body> <?php /* onload="<?php echo $body_onload;?>" onunload="<?php echo $body_onunload; */ ?>
+        <div id='bodyInner' class="<?php echo $color ?>">
+    <?php
 }
 
+/* Actual start of the body */
 function start_top( $body_color )
 {
     switch( $body_color ){
@@ -83,14 +86,17 @@ function start_top( $body_color )
     default:      $imgSrc = "logoOrange.png"; $imgArSrc = "madeByArgonOrange.png"; break;
     }
 ?>
-    <a style='float: left;' href='/'><?php image( $imgSrc, "VideoLAN association"); ?></a>
-   <div style='float: left; color: #4D4D4D; font-size: 12px; padding: 10px 10px 5px 20px; line-height: 20px;'>
-      A project and a <a href="/videolan/" class="noUnderline">non-profit organization</a>, composed of volunteers<br />
-      developing and promoting free, open-source multimedia solutions.
+   <a style='float: left;' href='/'><?php image( $imgSrc, "VideoLAN association"); ?></a>
+   <div style='float: left; color: #4D4D4D; font-size: 12px; padding: 10px 10px 5px 20px; line-height: 20px; width: 400px;'>
+
+   <?php
+    echo _('A project and a').' <a href="/videolan/" class="noUnderline">'._('non-profit organization').'</a>,'.
+         _('composed of volunteers, developing and promoting free, open-source multimedia solutions.');?>
    </div>
    <div id='donate'>
-      <div style='font-size: 14px; color: #909090; float: left; padding-top: 5px;'>DONATE &nbsp;<a href='/contribute.html#money'>(why?)</a></div>
-      <img src='/images/paypal.png' style='float: right;' alt="paypal" />
+       <div style='font-size: 14px; color: #909090; float: left; padding-top: 5px;'>
+           <?php echo _("DONATE");?> &nbsp;<a href='/contribute.html#money'>(<?php echo _("why?");?>)</a></div>
+       <img src='/images/paypal.png' style='float: right;' alt="paypal" />
        <form style='clear: both; padding-top: 10px;' action="https://www.paypal.com/en_US/cgi-bin/webscr" method="post">
            <p>
                <input name="cmd" value="_xclick" type="hidden"/>
@@ -103,7 +109,7 @@ function start_top( $body_color )
                <input name="no_shipping" value="1" type="hidden"/>
                <input name="return" value="http://www.videolan.org/thank_you.html" type="hidden"/>
                <input class='text' type='text' name="amount" value='5.00' style='background: #fff url("/images/euro.png") no-repeat 65px 2px;' />
-               <button class='button' type='submit'>donate</button>
+               <button class='button' type='submit'><?php echo _("donate"); ?></button>
        </p></form>
        <form style='clear: both; padding-top: 10px;' action="https://www.paypal.com/en_US/cgi-bin/webscr" method="post">
            <p>
@@ -117,7 +123,7 @@ function start_top( $body_color )
                <input name="no_shipping" value="1" type="hidden"/>
                <input name="return" value="http://www.videolan.org/thank_you.html" type="hidden"/>
                <input id="dtext" class='text' type='text' name="amount" value='7.00' style='background: #fff url("/images/dollar.png") no-repeat 0 3px; padding-right: 10px; width: 75px;' />
-               <button class='button' type='submit'>donate</button>
+               <button class='button' type='submit'><?php echo _("donate"); ?></button>
        </p></form>
    </div>
    <div id='plusone'>
@@ -126,6 +132,7 @@ function start_top( $body_color )
 <?php
 }
 
+/* Menus */
 function draw_menus( $nobanner )
 {
 ?>
@@ -209,6 +216,7 @@ function draw_menus( $nobanner )
 ?><?php */
 }
 
+/* Footer */
 function footer($tag = "") {
 ?>
 </div>
@@ -296,6 +304,7 @@ function footer($tag = "") {
 <?php
 }
 
+/* Create a colored panel */
 function panel_start( $color )
 { ?>
   <div class="panel-<?php echo $color; ?>"> <!-- begin panel -->
@@ -307,6 +316,8 @@ function panel_start( $color )
       <div class="c">
         <!-- main content goes here -->
 <?php }
+
+/* Finishes it */
 function panel_end( )
 { ?>
       </div>
@@ -318,6 +329,23 @@ function panel_end( )
   </div> <!-- end panel -->
 <?php }
 
+/* Format sizes for packages */
+function FormatSize($size) {
+    $sizes = Array('B', 'KiB', 'MiB', 'GiB', 'TiB');
+    $ext = $sizes[0];
+    for ($i=1; (($i < count($sizes)) && ($size >= 1024)); $i++) {
+        $size = $size / 1024;
+        $ext  = $sizes[$i];
+    }
+    return round($size, 1).$ext;
+}
+
+/* Image function to hit the start server */
+function image( $src_img, $alt, $id = "" ) {
+    echo "<img src='//images1.videolan.org/images/".$src_img."' alt='".$alt."'";
+    if( !empty( $id ) ) echo " class='$id'";
+    echo " />\n";
+}
 
 /*
  * the real code
@@ -335,7 +363,8 @@ if(!isset($nobanner)) $nobanner = false;
 /* render the page */
 
 // HTML header
-StartHtml( preg_replace( "/<[^>]*>/", "" , $title ), $body_color, $additional_css, $additional_js, $body_onload, $body_onunload ) ;
+StartHtml( preg_replace( "/<[^>]*>/", "" , $title ), $body_color, $language,
+           $additional_css, $additional_js, $body_onload, $body_onunload );
 start_top( $body_color );
 draw_menus( $nobanner);
 ?>

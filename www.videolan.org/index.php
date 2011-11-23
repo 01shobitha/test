@@ -83,7 +83,8 @@
                 <a href='/developers/libaacs.html'   class='noUnderline'><span class='productName' style='padding-bottom: 16px;'>libaacs</span></a>
                 <a href='/developers/libdca.html'    class='noUnderline'><span class='productName'>libdca</span></a>
             </div>
-            <a href='/projects/' class='extraInfoLink' style='text-transform: uppercase; font-size: 13px; display: block; padding-top: 25px; clear: both;'>View All Projects</a>
+            <a href='/projects/' class='extraInfoLink' style='text-transform: uppercase; font-size: 13px; display: block; padding-top: 25px; clear: both;'>
+                <?php echo _("View All Projects"); ?></a>
         </div>
         <div class="clearme" style='padding-top: 25px;'>
             <h1 style='margin-bottom: 25px;'><?php echo _("Help us out!"); ?></h1>
@@ -94,7 +95,8 @@
                     <div class='productDescription'>
                         <?php echo _("VideoLAN is a non-profit organization.")."<br />";
                          echo _(" All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."); ?><br />
-                        <a href='/contribute.html' class='extraInfoLink' style='text-transform: uppercase; font-size: 13px; display: block; padding-top: 10px;'>Learn More</a>
+                        <a href='/contribute.html' class='extraInfoLink' style='text-transform: uppercase; font-size: 13px; display: block; padding-top: 10px;'>
+                          <?php echo _("Learn More"); ?></a>
                     </div>
                 </div>
             </div>
@@ -105,7 +107,8 @@
                     <div class='productDescription'>
                         <?php echo _("VideoLAN is open-source software.")."<br />";
                         echo _("This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"); ?><br />
-                        <a href='/contribute.html' class='extraInfoLink' style='text-transform: uppercase; font-size: 13px; display: block; padding-top: 10px;'>Learn More</a>
+                        <a href='/contribute.html' class='extraInfoLink' style='text-transform: uppercase; font-size: 13px; display: block; padding-top: 10px;'>
+                          <?php echo _("Learn More"); ?></a>
                     </div>
                 </div>
             </div>
@@ -115,7 +118,8 @@
                     <?php image( "heart.png", "Spread VLC", "floatSmallImg" ); ?>
                     <div class='productDescription'>
                         <?php echo _("We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."); ?><br />
-                        <a href='/contribute.html' class='extraInfoLink' style='text-transform: uppercase; font-size: 13px; display: block; padding-top: 10px;'>Learn More</a>
+                        <a href='/contribute.html' class='extraInfoLink' style='text-transform: uppercase; font-size: 13px; display: block; padding-top: 10px;'>
+                          <?php echo _("Learn More"); ?></a>
                     </div>
                 </div>
             </div>
@@ -151,7 +155,7 @@
     ?>
     <?php /* Social and other BS */ ?>
     <h1 style="position:relative">
-    Social media
+    <?php echo _("Social media"); ?>
     <span style="float: right; padding-right: 20px;">
         <a href="http://www.twitter.com/videolan"><?php image( 'twitter.png', "Twitter" );?></a>
         <a href="http://www.facebook.com/vlc.media.player"><?php image( 'facebook.png', "Facebook" );?></a>

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VideoLAN's websites\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-11-23 16:58+0100\n"
+"POT-Creation-Date: 2011-11-23 17:12+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -109,7 +109,7 @@ msgstr ""
 msgid "All Projects"
 msgstr ""
 
-#: include/header.php:190 index.php:102
+#: include/header.php:190 index.php:104
 msgid "Contribute"
 msgstr ""
 
@@ -206,50 +206,62 @@ msgstr ""
 msgid "For Developers"
 msgstr ""
 
-#: index.php:89
+#: index.php:87
+msgid "View All Projects"
+msgstr ""
+
+#: index.php:90
 msgid "Help us out!"
 msgstr ""
 
-#: index.php:91
+#: index.php:92
 msgid "Donate"
 msgstr ""
 
-#: index.php:95
+#: index.php:96
 msgid "VideoLAN is a non-profit organization."
 msgstr ""
 
-#: index.php:96
+#: index.php:97
 msgid ""
 " All our costs are met by donations we receive from our users. If you enjoy "
 "using a VideoLAN product, please donate to support us."
 msgstr ""
 
-#: index.php:106
+#: index.php:99 index.php:111 index.php:122
+msgid "Learn More"
+msgstr ""
+
+#: index.php:108
 msgid "VideoLAN is open-source software."
 msgstr ""
 
-#: index.php:107
+#: index.php:109
 msgid ""
 "This means that if you have the skill and the desire to improve one of our "
 "products, your contributions are welcome"
 msgstr ""
 
-#: index.php:113
+#: index.php:116
 msgid "Spread the Word"
 msgstr ""
 
-#: index.php:117
+#: index.php:120
 msgid ""
 "We feel that VideoLAN has the best video software available at the best "
 "price: free. If you agree please help spread the word about our software."
 msgstr ""
 
-#: index.php:127
+#: index.php:131
 msgid "News &amp; Updates"
 msgstr ""
 
-#: index.php:131
+#: index.php:135
 msgid "Development Blogs"
+msgstr ""
+
+#: index.php:158
+msgid "Social media"
 msgstr ""
 
 #: vlc/index.php:45

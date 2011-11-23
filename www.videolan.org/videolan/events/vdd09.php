@@ -2,7 +2,7 @@
    $title = "VideoLAN Dev Days 2009";
    $lang = "en";
    $menu = array( "project", "events" );
-   $additional_css = array("/panels.css");
+   $additional_css = array("/style/panels.css");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 

@@ -1,7 +1,7 @@
 <?php
    $title ="VideoLAN developers";
    $lang = "en";
-   $additional_css = array("/panels.css");
+   $additional_css = array("/style/panels.css");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 

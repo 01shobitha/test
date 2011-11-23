@@ -2,7 +2,7 @@
    $title = "VLC media player for Windows";
    $lang = "fr";
    $menu = array( "fr", "windows" );
-   $additional_css = array("/panels.css");
+   $additional_css = array("/style/panels.css");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
 ?>

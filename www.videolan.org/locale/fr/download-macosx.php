@@ -2,7 +2,7 @@
    $title = "VLC media player for Mac OS X";
    $lang = "en";
    $menu = array( "fr", "download" );
-   $additional_css = array("/panels.css");
+   $additional_css = array("/style/panels.css");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
 ?>

@@ -1,7 +1,7 @@
 <?php
    $title = "VLC media player for Debian GNU/Linux";
    $lang = "en";
-   $additional_css = array("/panels.css");
+   $additional_css = array("/style/panels.css");
    $menu = array( "vlc", "download" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>

@@ -2,7 +2,7 @@
    $title = "VideoLAN - Documentation";
    $lang = "fr";
    $menu = array( "fr" );
-   $additional_css = array("/panels.css");
+   $additional_css = array("/style/panels.css");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 

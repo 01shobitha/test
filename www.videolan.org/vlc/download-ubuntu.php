@@ -1,6 +1,6 @@
 <?php
    $title = "VLC media player for Ubuntu";
-   $additional_css = array("/panels.css");
+   $additional_css = array("/style/panels.css");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 

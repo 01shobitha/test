@@ -1,6 +1,6 @@
 <?php
    $title = "VideoLAN Dev Days 2011, Septembre 3-4, 2011";
-   $additional_css = array("/panels.css");
+   $additional_css = array("/style/panels.css");
    $body_color = "green";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>

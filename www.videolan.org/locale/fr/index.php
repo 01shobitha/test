@@ -2,7 +2,7 @@
    $title = "VideoLAN - Free Software and Open Source video streaming solution for every OS!";
    $lang = "fr";
    $menu = array( "fr", "overview" );
-   $additional_css = array("/panels.css");
+   $additional_css = array("/style/panels.css");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
 ?>

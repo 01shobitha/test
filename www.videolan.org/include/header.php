@@ -27,22 +27,23 @@ function StartHtml( $title, $color, $language,
     echo '<?xml version="1.0" encoding="utf-8" ?>'; ?>
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
         "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $language?>" lang="<?php echo $language?>">
 
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta http-equiv="Content-Language" content="en-us" />
+        <meta http-equiv="Content-Language" content="<?php echo $language?>" />
         <meta name="Author" content="VideoLAN" />
-        <meta name="Keywords" content="DVD, MPEG, MPEG2, MPEG4, H264, DivX, VideoLAN, MKV, m2ts,
-        VLC, VLS, x264, Windows, Linux, Unix, BeOS, BSD, MacOS, MacOS X, OSX, Streaming,
-        video, video player, multimedia, multicast, IPv6, media player, media converter,
-        open source, free software" />
+        <meta name="Keywords" content="VideoLAN, VLC, VLC player, VLC media player, download, 
+        media player, player download, codec, encoder, media converter, video, video player, multimedia, multicast,
+        VLC, x264, DVBlast, Windows, Linux, Unix, BeOS, BSD, MacOS, MacOS X, OSX, Streaming,
+        DVD, Matroska, Blu-Ray, FLV, Xvid, MPEG, MPEG2, MPEG4, H264, DivX, VideoLAN, MKV, m2ts,
+        open source, free software, floss, free" />
         <meta name="Description" content="<?php echo $title; ?>" />
         <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
         <title>VideoLAN - <?php echo $title; ?></title>
 
         <link rel="alternate" type="application/rss+xml" title="RSS - VideoLAN News" href="/videolan-news.rss" />
-        <link rel="alternate" type="application/rss+xml" title="RSS - Developers' Planet" href="http://planet.videolan.org/rss20.xml" />
+        <link rel="alternate" type="application/rss+xml" title="RSS - Developers Blog" href="http://planet.videolan.org/rss20.xml" />
 
         <link rel="stylesheet" type="text/css" href="/style/style.css" />
 
@@ -61,6 +62,7 @@ function StartHtml( $title, $color, $language,
           </style>
     <![endif]-->
 
+    <?php /* Get the one in the Google CDN to get cached */ ?>
     <script src='//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js' type='text/javascript'></script>
     <?php if( isset($additional_js) ) {
         foreach($additional_js as $js) {
@@ -88,7 +90,6 @@ function start_top( $body_color )
 ?>
    <a style='float: left;' href='/'><?php image( $imgSrc, "VideoLAN association"); ?></a>
    <div style='float: left; color: #4D4D4D; font-size: 12px; padding: 10px 10px 5px 20px; line-height: 20px; width: 400px;'>
-
    <?php
     echo _('A project and a').' <a href="/videolan/" class="noUnderline">'._('non-profit organization').'</a>,'.
          _('composed of volunteers, developing and promoting free, open-source multimedia solutions.');?>
@@ -138,35 +139,35 @@ function draw_menus( $nobanner )
 ?>
 <div id='linkBar'>
    <div class='link'>
-      <a href='/'>Home</a>
+      <a href='/'><?php echo _("Home");?></a>
    </div>
    <div class='link'>
-      <a href='/news.html'>News</a>
+      <a href='/news.html'><?php echo _("News");?></a>
    </div>
    <div class='link'>
       <a href='/videolan/'>VideoLAN</a>
       <ul>
-         <li><a href='/videolan/'>Project and Organization</a></li>
-         <li><a href='/videolan/team/'>Team</a></li>
-         <li><a href='/contact.html'>Contact us</a></li>
-         <li><a href='/videolan/partners.html'>Partners</a></li>
-         <li><a href='/press/'>Press center</a></li>
-         <li><a href='/videolan/events/'>Events</a></li>
-         <li><a href='/security/'>Security center</a></li>
+         <li><a href='/videolan/'><?php echo _("Project and Organization"); ?></a></li>
+         <li><a href='/videolan/team/'><?php echo _("Team"); ?></a></li>
+         <li><a href='/contact.html'><?php echo _("Contact us"); ?></a></li>
+         <li><a href='/videolan/partners.html'><?php echo _("Partners"); ?></a></li>
+         <li><a href='/press/'><?php echo _("Press center"); ?></a></li>
+         <li><a href='/videolan/events/'><?php echo _("Events"); ?></a></li>
+         <li><a href='/security/'><?php echo _("Security center"); ?></a></li>
       </ul>
    </div>
    <div class='link'>
       <a href='/vlc/'>VLC</a>
       <ul>
-         <li><a href='/vlc/'>Download</a></li>
-         <li><a href='/vlc/features.html'>Features</a></li>
-         <li><a href='/vlc/screenshots.html'>Screenshots</a></li>
-         <li><a href='/vlc/skins.html'>Skins</a></li>
-         <li><a href='/vlc/skins.html'>Extensions</a></li>
+         <li><a href='/vlc/'><?php echo _("Download"); ?></a></li>
+         <li><a href='/vlc/features.html'><?php echo _("Features"); ?></a></li>
+         <li><a href='/vlc/screenshots.html'><?php echo _("Screenshots"); ?></a></li>
+         <li><a href='/vlc/skins.html'><?php echo _("Skins"); ?></a></li>
+         <li><a href='/vlc/skins.html'><?php echo _("Extensions"); ?></a></li>
       </ul>
    </div>
    <div class='link'>
-      <a href='/projects/'>Projects</a>
+      <a href='/projects/'><?php echo _("Projects"); ?></a>
       <ul>
          <li><a href='/vlc/'>VLC media player</a></li>
          <li><a href='/vlmc/'>VideoLan Movie Creator</a></li>
@@ -182,23 +183,23 @@ function draw_menus( $nobanner )
          <li><a href='/developers/libaacs.html'>libaacs</a></li>
          <li><a href='/developers/libdvbcsa.html'>libdvbcsa</a></li>
          <li><hr /></li>
-         <li><a href='/projects/'>All Projects</a></li>
+         <li><a href='/projects/'><?php echo _("All Projects"); ?></a></li>
       </ul>
    </div>
    <div class='link'>
-      <a href='/contribute.html'>Contribute</a>
+      <a href='/contribute.html'><?php echo _("Contribute"); ?></a>
       <ul>
-         <li><a href='/contribute.html'>Donate time</a></li>
-         <li><a href='/contribute.html#money'>Donate money</a></li>
-         <li><a href='/goodies.html'>Get Goodies</a></li>
+         <li><a href='/contribute.html'><?php echo _("Donate time"); ?></a></li>
+         <li><a href='/contribute.html#money'><?php echo _("Donate money"); ?></a></li>
+         <li><a href='/goodies.html'><?php echo _("Get Goodies"); ?></a></li>
       </ul>
    </div>
    <div class='link'>
-      <a href='/support/'>Support</a>
+      <a href='/support/'><?php echo _("Support"); ?></a>
       <ul>
-         <li><a href='/support/'>Support center</a></li>
+         <li><a href='/support/'><?php echo _("Support center"); ?></a></li>
          <li><a href='/support/faq.html'>FAQ</a></li>
-         <li><a href='/legal.html'>Legal</a></li>
+         <li><a href='/legal.html'><?php echo _("Legal"); ?></a></li>
          <li><a href='http://wiki.videolan.org/'>Wiki</a></li>
          <li><a href='http://forum.videolan.org/'>Forums</a></li>
          <li><a href='/support/lists.html'>Mailing-Lists</a></li>
@@ -206,11 +207,13 @@ function draw_menus( $nobanner )
       </ul>
    </div>
    <div class='link'>
-      <a href='/developers/'>Dev' Zone</a>
+      <a href='/developers/'><?php echo _("Dev' Zone"); ?></a>
    </div>
 </div>
 <div class="clearme"></div>
+
 <?php
+/* Event banner */
 /*    if ( !$nobanner )
         echo '<a href="/videolan/events/10y/"><img alt="10 cones" src="http://images1.videolan.org/images/10years.png" /></a>';
 ?><?php */
@@ -233,10 +236,10 @@ function footer($tag = "") {
               <li><a href='/vlc/download-macosx.html'>VLC for MacOS X</a></li>
               <li><a href='/vlc/download-ubuntu.html'>VLC for Ubuntu</a></li>
               <li><a href='/vlc/download-fedora.html'>VLC for Fedora</a></li>
-              <li><a href='/vlc/skins.html'>Skins</a></li>
-              <li><a href='/vlc/skins.html'>Extensions</a></li>
-              <li><a href='/vlc/features.html'>Features</a></li>
-              <li><a href='/vlc/screenshots.html'>Screenshots</a></li>
+              <li><a href='/vlc/skins.html'><?php echo _("Skins"); ?></a></li>
+              <li><a href='/vlc/skins.html'><?php echo _("Extensions"); ?></a></li>
+              <li><a href='/vlc/features.html'><?php echo _("Features"); ?></a></li>
+              <li><a href='/vlc/screenshots.html'><?php echo _("Screenshots"); ?></a></li>
             </ul>
          </div>
          <div class='footer_col'>
@@ -256,15 +259,15 @@ function footer($tag = "") {
             </ul>
          </div>
          <div class='footer_col'>
-            <div class='footerHeading'>Community</div>
+            <div class='footerHeading'><?php echo _("Community"); ?></div>
             <ul>
                  <li><a href='http://wiki.videolan.org/'>Wiki</a></li>
                  <li><a href='http://forum.videolan.org/'>Forums</a></li>
-                 <li><a href='/support/lists.php'>Mailing-Lists</a></li>
+                 <li><a href='/support/lists.php'><?php echo _("Mailing-Lists"); ?></a></li>
                  <li><a href='/support/faq.html'>FAQ</a></li>
-                 <li><a href='/contribute.html'>Donate money</a></li>
-                 <li><a href='/contribute.html'>Donate time</a></li>
-                 <li><a href='/goodies.html'>Get Goodies</a></li>
+                 <li><a href='/contribute.html'><?php echo _("Donate money"); ?></a></li>
+                 <li><a href='/contribute.html'><?php echo _("Donate time"); ?></a></li>
+                 <li><a href='/goodies.html'><?php echo _("Get Goodies"); ?></a></li>
             </ul>
          </div>
          <div class='footer_col'>
@@ -286,7 +289,7 @@ function footer($tag = "") {
             <a href='/legal.html'>Privacy Policy</a> | <a href='/legal.html'>Legal Notices</a> | <a href='/contact.html'>Report Trademark Abuse</a><br />
             VideoLAN, VLC media player and x264 are trademarks registered (or in registration process) by the VideoLAN non-profit organization.<br />
             Software are licensed under the GNU General License<br />
-            Except where otherwise noted, icons and design of this site is licensed under the Creative Commons Share-Alike License v3.0 or any later version. This <b>IS not</b> for software.<br />
+            Some icons and design on this site are licensed under the Creative Commons Share-Alike License v3.0 or any later version. This <b>IS not</b> for software.<br />
             The VLC cone icon was designed by Richard Øiestad. Icons for VLMC, DVBlast and x264 designed by <a href='http://cuberto.com/'>Roman Khramov</a>.<br />
          </div>
       </div>

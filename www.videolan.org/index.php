@@ -15,33 +15,31 @@
                    <?php echo
                    _("VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."); ?>
                 </div>
-                <a class='extraInfoLink' href='/vlc/features.html'>Features</a>
-                <a class='extraInfoLink' href='/vlc/screenshots.html'>Screenshots</a>
-                <a class='extraInfoLink' href='/vlc/skins.php'>Skins</a>
+                <a class='extraInfoLink' href='/vlc/features.html'><?php echo _("Features"); ?></a>
+                <a class='extraInfoLink' href='/vlc/screenshots.html'><?php echo _("Screenshots"); ?></a>
+                <a class='extraInfoLink' href='/vlc/skins.php'><?php echo _("Skins"); ?></a>
                 <a id='downloadButton' href='<?php echo $dlUrl; ?>'>
                     <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
-                    <span class='downloadText'>Download VLC</span>
+                    <span class='downloadText'><?php echo _("Download VLC"); ?></span>
                     <span id='downloadDetails' style='font-size: 12px; color: white;'>
                     Version <span id='downloadVersion'><?php echo $win32version ?>
                     </span>&nbsp;&#8226;&nbsp;<span id='downloadOS'>Windows</span>&nbsp;&#8226;&nbsp;<span id='downloadSize'>20MB</span>
                     </span>
                 </a>
                 <?php replaceDLinfos(); ?>
-                <a class='extraInfoLink' href='/vlc/#download' style="padding-left: 100px;">Other Systems and Versions</a>
+                <a class='extraInfoLink' href='/vlc/#download' style="padding-left: 100px;"><?php echo _("Other Systems and Versions");?></a>
             </div>
         </div>
         <div class="clearme" style='padding-top: 40px;'>
-            <h1 style='margin-bottom: 25px;'>Other projects from VideoLAN</h1>
+            <h1 style='margin-bottom: 25px;'><?php echo _("Other projects from VideoLAN");?></h1>
             <div style='float: left; width: 300px;'>
-                <div class='audienceCallout'>For Everyone</div>
+                <div class='audienceCallout'><?php echo _("For Everyone");?></div>
                 <div class="clearme">
                     <a href='/vlc/' class='noUnderline'>
                         <?php image( 'VLC-IconSmall.png', "VLC icon", "smallProjectImg" ); ?>
                         <span class='productName'>VLC media player</span>
-                        <span class='productDescription'>
-                            VLC is a powerful media player
-                            playing most of the media codecs
-                            and video formats out there.
+                        <span class='productDescription'><?php echo
+                            _("VLC is a powerful media player playing most of the media codecs and video formats out there."); ?>
                         </span>
                     </a>
                 </div>
@@ -50,23 +48,19 @@
                         <?php image( 'VLMC-IconSmall.png', "VLMC icon", "smallProjectImg" ); ?>
                         <span class='productName'>VLMC</span>
                         <span class='productDescription'>
-                            VideoLAN Movie Creator is a
-                            non-linear editing software for video
-                            creation.
+                            <?php echo _("VideoLAN Movie Creator is a non-linear editing software for video creation."); ?>
                         </span>
                     </a>
                 </div>
             </div>
             <div style='float: left; padding-left: 30px; width: 350px;'>
-                <div class='audienceCallout'>For Professionals</div>
+                <div class='audienceCallout'><?php echo _("For Professionals"); ?></div>
                 <div class="clearme">
                     <a href='/projects/dvblast.html' class='noUnderline'>
                         <?php image( 'DVBlast-IconSmall.png', "DVBlast Icon", "smallProjectImg" ); ?>
                         <span class='productName'>DVBlast</span>
                         <span class='productDescription'>
-                            DVBlast is a simple and powerful<br />
-                            MPEG-2/TS demux and streaming<br />
-                            application.
+                            <?php echo _("DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."); ?>
                         </span>
                     </a>
                 </div>
@@ -75,15 +69,13 @@
                         <?php image( 'x264-IconSmall.png', "x264 Icon", "smallProjectImg" ); ?>
                         <span class='productName'>x264</span>
                         <span class='productDescription'>
-                            x264 is a free application for encoding<br />
-                            video streams into the  H.264/MPEG-4<br />
-                            AVC format.
+                            <?php echo _("x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."); ?>
                         </span>
                     </a>
                 </div>
             </div>
             <div style='float: left; padding-left: 30px; width: 180px;'>
-                <div class='audienceCallout'>For Developers</div>
+                <div class='audienceCallout'><?php echo _("For Developers"); ?></div>
                 <a href='/developers/libdvdcss.html' class='noUnderline'><span class='productName' style='padding-bottom: 16px;'>libdvdcss</span></a>
                 <a href='/developers/libdvbpsi.html' class='noUnderline'><span class='productName' style='padding-bottom: 16px;'>libdvdpsi</span></a>
                 <a href='/vlc/libvlc.html'           class='noUnderline'><span class='productName' style='padding-bottom: 16px;'>libVLC</span></a>
@@ -94,45 +86,35 @@
             <a href='/projects/' class='extraInfoLink' style='text-transform: uppercase; font-size: 13px; display: block; padding-top: 25px; clear: both;'>View All Projects</a>
         </div>
         <div class="clearme" style='padding-top: 25px;'>
-            <h1 style='margin-bottom: 25px;'>Help us out</h1>
+            <h1 style='margin-bottom: 25px;'><?php echo _("Help us out!"); ?></h1>
             <div style='float: left; width: 320px;'>
-                <div class='audienceCallout'>Donate</div>
+                <div class='audienceCallout'><?php echo _("Donate"); ?></div>
                 <div class='clearme'>
                     <?php image( "cash.png", "Donate to VLC", "floatSmallImg" ); ?>
                     <div class='productDescription'>
-                        VideoLAN is a non-profit organization.<br />
-                        All our costs are met by donations we<br />
-                        receive from our loyal users. If you<br />
-                        enjoy using a VideoLAN product,<br />
-                        please donate to support us.<br />
+                        <?php echo _("VideoLAN is a non-profit organization.")."<br />";
+                         echo _(" All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."); ?><br />
                         <a href='/contribute.html' class='extraInfoLink' style='text-transform: uppercase; font-size: 13px; display: block; padding-top: 10px;'>Learn More</a>
                     </div>
                 </div>
             </div>
             <div style='float: left; width: 300px;'>
-                <div class='audienceCallout'>Contribute</div>
+                <div class='audienceCallout'><?php echo _("Contribute"); ?></div>
                 <div class='clearme'>
                     <?php image( "tools.png", "Contribute Work to VLC", "floatSmallImg" ); ?>
                     <div class='productDescription'>
-                        VideoLAN is open-source software.<br />
-                        This means that if you have the<br />
-                        skill and the desire to improve one<br />
-                        of our products or add new features<br />
-                        you can do so.<br />
+                        <?php echo _("VideoLAN is open-source software.")."<br />";
+                        echo _("This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"); ?><br />
                         <a href='/contribute.html' class='extraInfoLink' style='text-transform: uppercase; font-size: 13px; display: block; padding-top: 10px;'>Learn More</a>
                     </div>
                 </div>
             </div>
             <div style='float: left; width: 320px;'>
-                <div class='audienceCallout'>Spread the Word</div>
+                <div class='audienceCallout'><?php echo _("Spread the Word"); ?></div>
                 <div class='clearme'>
                     <?php image( "heart.png", "Spread VLC", "floatSmallImg" ); ?>
                     <div class='productDescription'>
-                        We feel that VideoLAN has the best<br />
-                        video software available at the<br />
-                        best price: free. If you agree please<br />
-                        help spread the word about our<br />
-                        software.<br />
+                        <?php echo _("We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."); ?><br />
                         <a href='/contribute.html' class='extraInfoLink' style='text-transform: uppercase; font-size: 13px; display: block; padding-top: 10px;'>Learn More</a>
                     </div>
                 </div>
@@ -142,11 +124,11 @@
 
 <?php /* Begin news items */ ?>
 <div style='width: 500px; padding-top: 40px; float: left;'>
-    <h1 style='margin-bottom: 25px;'><a href="/news.html"> News &amp; Updates</a></h1>
+    <h1 style='margin-bottom: 25px;'><a href="/news.html"><?php echo _("News &amp; Updates"); ?></a></h1>
     <?php shownews("full", 4); ?>
 </div>
 <div style='width: 400px; padding-top: 40px; float: right;'>
-    <h1 style='margin-bottom: 25px;'><a href="http://planet.videolan.org">Development Blogs</a></h1>
+    <h1 style='margin-bottom: 25px;'><a href="http://planet.videolan.org"><?php echo _("Development Blogs"); ?></a></h1>
     <?php
       define('MAGPIE_INPUT_ENCODING', 'UTF-8');
       define('MAGPIE_OUTPUT_ENCODING', 'UTF-8');

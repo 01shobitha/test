@@ -9,28 +9,26 @@
             <div style='float: left; width: 500px;'>
                 <h1 class='bigtitle'>VLC media player</h1>
                 <div class='projectDescription'>
-                    VLC is a free and open source cross-platform multimedia player and
-                    framework that plays most multimedia files as well as DVD, Audio CD,
-                    VCD, and various streaming protocols.
+                   <?php echo _("VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."); ?>
                 </div>
-                <a class='extraInfoLink' href='/vlc/features.html'>Features</a>
-                <a class='extraInfoLink' href='/vlc/screenshots.html'>Screenshots</a>
-                <a class='extraInfoLink' href='/vlc/skins.php'>Skins</a>
+                <a class='extraInfoLink' href='/vlc/features.html'><?php echo _("Features"); ?></a>
+                <a class='extraInfoLink' href='/vlc/screenshots.html'><?php echo _("Screenshots"); ?></a>
+                <a class='extraInfoLink' href='/vlc/skins.php'><?php echo _("Skins"); ?></a>
                 <a id='downloadButton' href='<?php echo $dlUrl; ?>'>
                     <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
-                    <span class='downloadText'>Download VLC</span>
+                    <span class='downloadText'><?php echo _("Download VLC"); ?></span>
                     <span id='downloadDetails' style='font-size: 12px; color: white;'>
                     Version <span id='downloadVersion'><?php echo $win32version ?>
                     </span>&nbsp;&#8226;&nbsp;<span id='downloadOS'>Windows</span>&nbsp;&#8226;&nbsp;<span id='downloadSize'>20MB</span>
                     </span>
                 </a>
                 <?php replaceDLinfos(); ?>
-                <a class='extraInfoLink' href='#download' style="padding-left: 100px;">Other Systems and Versions</a>
+                <a class='extraInfoLink' href='#download' style="padding-left: 100px;"><?php echo _("Other Systems and Versions");?></a>
             </div>
         </div>
         <div class="clearme" style='padding-top: 60px;'>
             <div style='float: left; width: 400px; color: #333333;'>
-                <h1 style='margin-bottom: 25px;' class='red'>Features</h1>
+                <h1 style='margin-bottom: 25px;' class='red'><?php echo _("Features"); ?></h1>
                     <strong>Simple</strong>, Powerful and Fast
                 <br /><br />
                     Plays <strong>everything</strong>, Files, Discs (DVD, CD, VCD, Blu-Ray), Webcams and Streams
@@ -44,7 +42,7 @@
                 <br /><br />
                     Media Converter and Streamer
                 <br />
-                <a class='extraInfoLink' href='/vlc/features.html'>Discover all features</a>
+                <a class='extraInfoLink' href='/vlc/features.html'><?php echo _("Discover all features"); ?></a>
             </div>
 
 <?php
@@ -56,7 +54,7 @@ function vlcscreenshot($img,$thumb, $desc){
 ?>
 
             <div style='float: right; width: 450px; padding-left: 70px;'>
-                <h1 style='padding-left: 5px; margin-bottom: 25px;' class='red'>Screenshots</h1>
+                <h1 style='padding-left: 5px; margin-bottom: 25px;' class='red'><?php echo _("Screenshots"); ?></h1>
                 <?php
                 vlcscreenshot( "1.0.0/VLC_Gnome.png",
                             "1.0.0/tm_VLC_Gnome.jpg",
@@ -78,7 +76,7 @@ function vlcscreenshot($img,$thumb, $desc){
                             "Windows Vista - Qt Interface" );
                 ?>
                 <div style='clear: left;'></div>
-                <a class='red' style='display: block; padding-top: 10px; padding-left: 5px; font-size: 12px;' href='/vlc/screenshots.html'>View all screenshots</a>
+                <a class='red' style='display: block; padding-top: 10px; padding-left: 5px; font-size: 12px;' href='/vlc/screenshots.html'><?php echo _("View all screenshots"); ?></a>
             </div>
         </div>
 
@@ -89,16 +87,16 @@ function addos( $name, $class, $url, $bold=false )
 }
 ?>
         <div class='tricolumn'>
-            <h1><a name="download">Official Downloads of VLC media player </a></h1>
+            <h1><a name="download"><?php echo _("Official Downloads of VLC media player"); ?> </a></h1>
             <div class="onecolumn">
                <h2>Windows</h2>
                 <?php addos( "Windows", "windows", "download-windows.html", true ); ?>
                <h2>Mac OS X</h2>
                 <?php addos( "Mac&nbsp;OS&nbsp;X", "macosx", "download-macosx.html", true );
                       addos( "iOS", "ios", "download-ios.html" ); ?>
-               <h2>Sources</h2>
-                  <p>You can also directly get the <strong><a href="download-sources.html">
-                  source code</a></strong>.</p>
+               <h2><?php echo _("Sources"); ?></h2>
+                  <p><?php echo _("You can also directly get the").' <strong><a href="download-sources.html">'
+                  ._("source code").'</a></strong>.</p>'; ?>
             </div>
 
             <div class="onecolumn">
@@ -118,7 +116,7 @@ function addos( $name, $class, $url, $bold=false )
             </div>
 
             <div class='lastcolumn'>
-                  <h2>Other OS</h2>
+                  <h2><?php echo _("Other OS"); ?></h2>
                <?php
                  addos( "FreeBSD", "freebsd", "download-freebsd.html" );
                  addos( "NetBSD", "netbsd", "download-sources.html" );

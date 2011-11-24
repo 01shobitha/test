@@ -1,0 +1,311 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-11-23 17:12+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jean-Baptiste Kempf <jb@videolan.org>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: include/header.php:94
+msgid "A project and a"
+msgstr "Un projet et une"
+
+#: include/header.php:94
+msgid "non-profit organization"
+msgstr "association loi 1901"
+
+#: include/header.php:95
+msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
+msgstr "composée de bénévoles, developpant et faisant la promotion de solutions libres pour le multimédia."
+
+#: include/header.php:99
+msgid "DONATE"
+msgstr "DONNEZ"
+
+#: include/header.php:99
+msgid "why?"
+msgstr "Pourquoi ?"
+
+#: include/header.php:113
+#: include/header.php:127
+msgid "donate"
+msgstr "donner"
+
+#: include/header.php:142
+msgid "Home"
+msgstr "Accueil"
+
+#: include/header.php:145
+msgid "News"
+msgstr "Nouveautés"
+
+#: include/header.php:150
+msgid "Project and Organization"
+msgstr "Projet et Organisation"
+
+#: include/header.php:151
+msgid "Team"
+msgstr "Équipe"
+
+#: include/header.php:152
+msgid "Contact us"
+msgstr "Contactez-nous"
+
+#: include/header.php:153
+msgid "Partners"
+msgstr "Partenaires"
+
+#: include/header.php:154
+msgid "Press center"
+msgstr "Presse"
+
+#: include/header.php:155
+msgid "Events"
+msgstr "Événements"
+
+#: include/header.php:156
+msgid "Security center"
+msgstr "Sécurité"
+
+#: include/header.php:162
+msgid "Download"
+msgstr "Télécharger"
+
+#: include/header.php:163
+#: include/header.php:241
+#: index.php:18
+#: vlc/index.php:14
+#: vlc/index.php:31
+msgid "Features"
+msgstr "Fonctionnalités"
+
+#: include/header.php:164
+#: include/header.php:242
+#: index.php:19
+#: vlc/index.php:15
+#: vlc/index.php:57
+msgid "Screenshots"
+msgstr "Aperçus"
+
+#: include/header.php:165
+#: include/header.php:239
+#: index.php:20
+#: vlc/index.php:16
+msgid "Skins"
+msgstr "Thêmes"
+
+#: include/header.php:166
+#: include/header.php:240
+msgid "Extensions"
+msgstr "Extensions"
+
+#: include/header.php:170
+msgid "Projects"
+msgstr "Projets"
+
+#: include/header.php:186
+msgid "All Projects"
+msgstr "Tous les projets"
+
+#: include/header.php:190
+#: index.php:104
+msgid "Contribute"
+msgstr "Contribuer"
+
+#: include/header.php:192
+#: include/header.php:269
+msgid "Donate time"
+msgstr "Faire un don de temps"
+
+#: include/header.php:193
+#: include/header.php:268
+msgid "Donate money"
+msgstr "Faire un don d'argent"
+
+#: include/header.php:194
+#: include/header.php:270
+msgid "Get Goodies"
+msgstr "Obtenir des goodies"
+
+#: include/header.php:198
+msgid "Support"
+msgstr "Support"
+
+#: include/header.php:200
+msgid "Support center"
+msgstr "Support"
+
+#: include/header.php:202
+msgid "Legal"
+msgstr "Légal"
+
+#: include/header.php:210
+msgid "Dev' Zone"
+msgstr "Dev' Zone"
+
+#: include/header.php:262
+msgid "Community"
+msgstr "Communauté"
+
+#: include/header.php:266
+msgid "Mailing-Lists"
+msgstr "Mailing-Lists"
+
+#: index.php:2
+msgid "VLC: Official site - Free multimedia solutions for all OS!"
+msgstr "VLC: Site officiel - Des solutions multimédias libres pour tous les OS !"
+
+#: index.php:16
+#: vlc/index.php:12
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
+msgstr "VLC est un lecteur multimédia gratuit et libre et un systême capable de lire la plupart des fichiers multimédias ainsi que des DVD, des CD Audio, des VCD, et divers protocoles de streaming."
+
+#: index.php:23
+#: vlc/index.php:19
+msgid "Download VLC"
+msgstr "Télécharger VLC"
+
+#: index.php:30
+#: vlc/index.php:26
+msgid "Other Systems and Versions"
+msgstr "Autre systèmes et versions"
+
+#: index.php:34
+msgid "Other projects from VideoLAN"
+msgstr "Autres projets de VideoLAN"
+
+#: index.php:36
+msgid "For Everyone"
+msgstr "Pour tous"
+
+#: index.php:42
+msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
+msgstr "VLC est un lecteur multimdia puissant capable de lire la plupart des codecs mdia et des formats vido."
+
+#: index.php:51
+msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
+msgstr "VideoLAN Movie Creator est un logiciel d'dition de vidos non-linaire."
+
+#: index.php:57
+msgid "For Professionals"
+msgstr "Pour les Professionnels"
+
+#: index.php:63
+msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
+msgstr "DVBlast est un serveur de streaming Mpeg-2/TS simple et puissant."
+
+#: index.php:72
+msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
+msgstr "x264 est une application libre permettant d'encoder des flux vidéo dans le format H.264/MPEG-4 AVC."
+
+#: index.php:78
+msgid "For Developers"
+msgstr "Pour les dévelopeurs"
+
+#: index.php:87
+msgid "View All Projects"
+msgstr "Tous les projets"
+
+#: index.php:90
+msgid "Help us out!"
+msgstr "Aidez-nous!"
+
+#: index.php:92
+msgid "Donate"
+msgstr "Faire un don"
+
+#: index.php:96
+msgid "VideoLAN is a non-profit organization."
+msgstr "VideoLAN est une association loi 1901."
+
+#: index.php:97
+msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
+msgstr "Tous nos frais sont couverts par les dons que nous recevons de nos utilisateurs. Si vous apréciez notre travail, contribuez!"
+
+#: index.php:99
+#: index.php:111
+#: index.php:122
+msgid "Learn More"
+msgstr "En Savoir Plus"
+
+#: index.php:108
+msgid "VideoLAN is open-source software."
+msgstr "VideoLAN dévelope des logiciels libres."
+
+#: index.php:109
+msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
+msgstr "Si vous avez les compétences et le désir d'améliorer un de nos produits ou d'ajouter des nouvelles fonctionnalités, vous le pouvez."
+
+#: index.php:116
+msgid "Spread the Word"
+msgstr "Faites passer le mot"
+
+#: index.php:120
+msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
+msgstr "Nous pensons que VideoLAN offre des logiciels gratuites d'excellente qualité. Si vous êtes d'accord merci de nous aider à faire passer le mot sur notre logiciel."
+
+#: index.php:131
+msgid "News &amp; Updates"
+msgstr "Nouveautés et Mises à  jours"
+
+#: index.php:135
+msgid "Development Blogs"
+msgstr "Blogs de développeurs"
+
+#: index.php:158
+msgid "Social media"
+msgstr "Médias sociaux"
+
+#: vlc/index.php:45
+msgid "Discover all features"
+msgstr "Découvrez toutes les fonctionnalités"
+
+#: vlc/index.php:79
+msgid "View all screenshots"
+msgstr "Voir toutes les captures d'écrans"
+
+#: vlc/index.php:90
+msgid "Official Downloads of VLC media player"
+msgstr "Téléchargements officiels de VLC média player"
+
+#: vlc/index.php:97
+msgid "Sources"
+msgstr "Sources"
+
+#: vlc/index.php:98
+msgid "You can also directly get the"
+msgstr "Vous pouvez aussi récupérer le"
+
+#: vlc/index.php:99
+msgid "source code"
+msgstr "code source"
+
+#: vlc/index.php:119
+msgid "Other OS"
+msgstr "Autres systèmes"
+
+#~ msgid "FAQ"
+#~ msgstr "FAQ"
+
+#~ msgid "Wiki"
+#~ msgstr "Wiki"
+
+#~ msgid "Forums"
+#~ msgstr "Forums"
+
+#~ msgid "Report a bug"
+#~ msgstr "Rapporter un bug"
+
+#~ msgid "Privacy policy"
+#~ msgstr "Politique de confidentialit"
+
+#~ msgid "Legal notice"
+#~ msgstr "Mentions lgales"
+
+#~ msgid "Report Trademark Abuse"
+#~ msgstr "Rapporter un abus d'utilisation de la marque dpose"

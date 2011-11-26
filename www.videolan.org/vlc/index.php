@@ -89,21 +89,22 @@ function addos( $name, $class, $url, $bold=false )
         <div class='tricolumn'>
             <h1><a name="download"><?php echo _("Official Downloads of VLC media player"); ?> </a></h1>
             <div class="onecolumn">
-               <h2>Windows</h2>
+              <h2>Windows</h2>
                 <?php addos( "Windows", "windows", "download-windows.html", true ); ?>
-               <h2>Mac OS X</h2>
+              <h2>Mac OS X</h2>
                 <?php addos( "Mac&nbsp;OS&nbsp;X", "macosx", "download-macosx.html", true );
                       addos( "iOS", "ios", "download-ios.html" ); ?>
-               <h2><?php echo _("Sources"); ?></h2>
-                  <p><?php echo _("You can also directly get the").' <strong><a href="download-sources.html">'
+              <h2><?php echo _("Sources"); ?></h2>
+                <p><?php echo _("You can also directly get the").' <strong><a href="download-sources.html">'
                   ._("source code").'</a></strong>.</p>'; ?>
             </div>
 
             <div class="onecolumn">
-               <h2>GNU/Linux</h2>
+              <h2>GNU/Linux</h2>
                 <?php
                   addos( "Debian GNU/Linux", "debian", "download-debian.html" );
                   addos( "Ubuntu", "ubuntu", "download-ubuntu.html" );
+                  addos( "Mint", "mint", "http://community.linuxmint.com/software/view/vlc" );
                   addos( "openSUSE", "suse", "download-suse.html" );
                   addos( "Gentoo Linux", "gentoo", "download-gentoo.html" );
                   addos( "Fedora", "fedora", "download-fedora.html" );
@@ -116,19 +117,21 @@ function addos( $name, $class, $url, $bold=false )
             </div>
 
             <div class='lastcolumn'>
-                  <h2><?php echo _("Other OS"); ?></h2>
-               <?php
-                 addos( "FreeBSD", "freebsd", "download-freebsd.html" );
-                 addos( "NetBSD", "netbsd", "download-sources.html" );
-                 addos( "OpenBSD", "openbsd", "download-sources.html" );
-                 addos( "Solaris", "solaris", "download-sources.html" );
-                 addos( "Android", "android", "download-android.html" );
-                 addos( "QNX", "qnx", "download-sources.html" );
-                 addos( "Syllable", "syllable", "download-syllable.html" );
-                 addos( "OS/2", "os2", "http://hobbes.nmsu.edu/h-search.php?sh=1&button=Search&key=vlc&stype=all&sort=date&dir=%2Fpub%2Fos2%2Fapps%2Fmmedia%2Fvideo%2Fplayers" ); ?>
+              <h2><?php echo _("Other OS"); ?></h2>
+                <?php
+                  addos( "FreeBSD", "freebsd", "download-freebsd.html" );
+                  addos( "NetBSD", "netbsd", "download-sources.html" );
+                  addos( "OpenBSD", "openbsd", "download-sources.html" );
+                  addos( "Solaris", "solaris", "download-sources.html" );
+                  addos( "Android", "android", "download-android.html" );
+                  addos( "QNX", "qnx", "download-sources.html" );
+                  addos( "Syllable", "syllable", "download-syllable.html" );
+                  addos( "OS/2", "os2", "http://hobbes.nmsu.edu/h-search.php?sh=1&button=Search&key=vlc&stype=all&sort=date&dir=%2Fpub%2Fos2%2Fapps%2Fmmedia%2Fvideo%2Fplayers" );
+                ?>
             </div>
         </div>
         <div style='clear: both;'></div>
+
 <!--        <div style="margin-top: 30px;">
             <a href="/vlc/stats/downloads.php">VLC download statistics</a>
         </div>

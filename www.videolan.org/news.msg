@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|30 November 2011|libbluray 0.2.1|VideoLAN and the libbluray developers would like to present the <em>first official</em> release of their library to help playback of Blu-Ray for open source systems.<br /><code>libbluray</code> <b>0.2.1</b> source code can be <a href="ftp://ftp.videolan.org/pub/videolan/libbluray/0.2.1/libbluray-0.2.1.tar.bz2">downloaded</a> on the <a href="ftp://ftp.videolan.org/pub/videolan/libbluray/0.2.1/libbluray-0.2.1.tar.bz2">VideoLAN ftp</a>.
+
 |06 October 2011|VLC 1.1.12|VideoLAN and the VLC development team present VLC 1.1.12, a bug and security fix release with improvements for audio output on Mac OS X and with PulseAudio.<br />This release was necessary due to a security issue in the HTTP and RTSP server components, though this does not affect standard usage of the player.
 <br />Binaries for Mac OS X and sources are available.
 

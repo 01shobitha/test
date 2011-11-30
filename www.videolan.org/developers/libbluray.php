@@ -7,8 +7,9 @@
 
 <p> <code>libbluray</code> is an <b>open-source</b> library designed for Blu-Ray Discs
 playback for media players, like <a href="/vlc/">VLC</a> or MPlayer.</p>
-<p> This <b>research</b> project is developed by an international team of
+<p>This <b>research</b> project is developed by an international team of
 developers from <a href="http://www.doom9.org/">Doom9</a>.</p>
+<p>Latest release is <b>libbluray 0.2.1</b>.</p>
 
 <h2> Features </h2>
 
@@ -27,7 +28,10 @@ developers from <a href="http://www.doom9.org/">Doom9</a>.</p>
 
 <h2>Get libbluray</h2>
 
-<p> <code>libbluray</code> is available through <a href="http://wiki.videolan.org/git">git</a> at:<br />
+<p>You can get <code>libbluray</code> latest release on our ftp:
+ <a href="ftp://ftp.videolan.org/pub/videolan/libbluray/0.2.1/libbluray-0.2.1.tar.bz2">libbluray 0.2.1</a>.</p>
+
+<p><code>libbluray</code> is also available through <a href="http://wiki.videolan.org/git">git</a> at:<br />
 <code>git clone git://git.videolan.org/libbluray.git</code></p>
 <p>you can browse the source code at  <a href="http://git.videolan.org/?p=libbluray.git">git.videolan.org</a>.</p>
 

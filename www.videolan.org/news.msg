@@ -532,7 +532,7 @@ after upgrading from a previous version.
 
 |31 May 2005| New HP webserver| The VideoLAN website is now running on a HP DL 385 server with two AMD opteron 2.4 GHz CPUs and 8 GB RAM. The developers, forum, trac and wiki websites will be moved to this new server shortly. The VideoLAN team would like to thank Jean-Marie Verdun from HP France for this nice donation. It will hopefully fix the many problems we've been having durring the last year concerning website avaibility. (Photos of the new webserver will be uploaded shortly)
 
-|27 May 2005| VideoLAN wins award at Trophées du Libre| The VideoLAN team won the first prize in the « Multimedia » category at international free software contest <a href="http://www.tropheesdulibre.org">Trophées du Libre</a> (<a href="http://www.tropheesdulibre.org/article.php3?id_article=47">awards list</a>). We thus got a brand new HP laptop and a nice trophy. The laptop is already making friends in the cone community (<a href="http://download.videolan.org/images/sirius1.png">cones watching</a> <a href="http://download.videolan.org/images/sirius2.png">Roland Garros</a>).
+|27 May 2005| VideoLAN wins award at Trophées du Libre| The VideoLAN team won the first prize in the « Multimedia » category at international free software contest <a href="http://www.tropheesdulibre.org">Trophées du Libre</a> (<a href="http://www.tropheesdulibre.org/article.php3?id_article=47">awards list</a>). We thus got a brand new HP laptop and a nice trophy. The laptop is already making friends in the cone community (<a href="http://images.videolan.org/images/news/sirius1.png">cones watching</a> <a href="http://images.videolan.org/images/news/sirius2.png">Roland Garros</a>).
 
 |26 May 2005| VideoLAN T-Shirts now available| VideoLAN T-Shirts are now available for download on <a href="/goodies.html">the goodies page</a> ! Thanks to Lorenzo Milito for the winning design. Use a standard inkjet printer to get one ... You can also get one if you donate 12 EUR or 16 USD to the VideoLAN project. More info is available on <a href="/goodies.html">the goodies page</a>.
 
@@ -677,10 +677,10 @@ and sunday.
 |1 April 2004| Previews of next release | The new version of VLC is
 coming up, and we thought we'd show you some pictures of the stuff
 we have been working on. First of all VLC will now be able to play
-all <a href="http://download.videolan.org/images/real.jpg">Real</a>
-and <a href="http://download.videolan.org/images/wmv3.jpg">Windows
+all <a href="http://images.videolan.org/images/news/real.jpg">Real</a>
+and <a href="http://images.videolan.org/images/news/wmv3.jpg">Windows
 Media Video 3</a> content. A <a
-href="http://download.videolan.org/images/vlc-os9.png">Mac
+href="http://images.videolan.org/images/news/vlc-os9.png">Mac
 OS 9</a> version is now available as well, and
 there is a new plugin to stream video to the <a
 href="http://members.tripod.com/~annie43/spa/sp29.gif">Spirit

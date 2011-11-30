@@ -104,7 +104,7 @@ function writeInputFeatures() {
               formats is problematic.</li>
               <li value="3">On Mac OS X 10.4 or later, VLC is able to grab video and audio from EyeTV applications and therefore all EyeTV-compatible capture devices. The user needs to install a plugin to EyeTV.app in order to use this feature. Guidance is provided in the User Interface. Requires VLC 0.9.0 or later.</li>
               <li value="4">VLC for GNU/Linux supports V4L2 compatible encoding cards as well as two kinds of MPEG-2 encoding cards: Hauppauge WinTV-PVR-250/350 and Visiontech Kfir.</li>
-              <li value="5">VLC can capture video from internal iSights on Mac OS X 10.5 or later (video only) since version 0.9.0. VLC 1.2 adds enables capturing from all devices supported by QTKit.</li>
+              <li value="5">VLC can capture video from internal iSights on Mac OS X 10.5 or later (video only) since version 0.9.0. VLC 1.2 adds capturing from all devices supported by QTKit. It also enables audio capturing support on Mac OS X 10.6 and later.</li>
             </ol>
           </div>
         </div>

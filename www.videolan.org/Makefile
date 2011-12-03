@@ -28,7 +28,7 @@ ifneq ($(PHP_IGNORES),)
   PHP_FILES := $(filter-out $(PHP_IGNORES:%=%.php), $(PHP_FILES))
 endif
 
-TARGETS := $(PHP_FILES:%.php=%.html) $(ROOT)/include/mirrors.php $(ROOT)/style/countries.css $(ROOT)/news-rss.html $(ROOT)/style/style.css
+TARGETS := $(PHP_FILES:%.php=%.html) $(ROOT)/include/mirrors.php $(ROOT)/style/countries.css $(ROOT)/news-rss.html $(ROOT)/style/style.css locales
 
 real-all: $(TARGETS) all-recursive
 
@@ -53,6 +53,13 @@ clean: clean-recursive
 	@$(STRIP_HEADERS) < $@.tmp > $@.tmp2
 	@mv -v $@.tmp2 $@
 	@rm -f $@.tmp $@.tmp2
+
+locales: $(ROOT)/index.bg.php $(ROOT)/index.by.php $(ROOT)/index.de.php $(ROOT)/index.dk.php $(ROOT)/index.es.php $(ROOT)/index.fr.php $(ROOT)/index.gr.php $(ROOT)/index.hi.php $(ROOT)/index.mkd.php $(ROOT)/index.pl.php $(ROOT)/index.ro.php $(ROOT)/index.ru.php $(ROOT)/index.tr.php
+
+index.%.php: index.php
+	rm -f $@
+	sed -e "s/language = \"\"/language = \"$*\"/" index.php > $@;
+	msgfmt -c -v -o locale/$*/LC_MESSAGES/website.mo locale/$*/LC_MESSAGES/website.po
 
 $(ROOT)/include/mirrors.php: $(ROOT)/include/mirrors $(ROOT)Makefile
 	@echo "Processing $< ..."

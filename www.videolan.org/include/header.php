@@ -13,7 +13,17 @@ function StartHtml( $title, $color, $language,
 
     if ($language != "en" ) {
         switch ($language) {
-        case 'fr': $locale = "fr_FR.UTF-8"; break;
+        case 'bg': $locale = "bg_BG"; break;
+        case 'by': $locale = "by_BY"; break;
+        case 'de': $locale = "de_DE"; break;
+        case 'dk': $locale = "dk_DK"; break;
+        case 'fr': $locale = "fr_FR"; break;
+        case 'gr': $locale = "gr_FR"; break;
+        case 'hi': $locale = "hi_HI"; break;
+        case 'pl': $locale = "pl_PL"; break;
+        case 'ro': $locale = "ro_RO"; break;
+        case 'ru': $locale = "ru_RU"; break;
+        case 'tr': $locale = "tr_TR"; break;
         }
 
         /* gettext stuff */

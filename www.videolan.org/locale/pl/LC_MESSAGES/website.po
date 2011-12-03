@@ -262,8 +262,7 @@ msgid ""
 "price: free. If you agree please help spread the word about our software."
 msgstr ""
 "Uważamy, że VideoLAN ma najlepsze oprogramowanie wideo dostępne w najlepszej "
-"cenie: za darmo. Jeśli zgadzasz się z naszą opinią, wspomóż nas w promocji naszych 
-produktów."
+"cenie: za darmo. Jeśli zgadzasz się z naszą opinią, wspomóż nas w promocji naszych produktów."
 
 #: index.php:131
 msgid "News &amp; Updates"

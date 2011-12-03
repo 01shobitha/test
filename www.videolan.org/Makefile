@@ -34,6 +34,7 @@ real-all: $(TARGETS) all-recursive
 
 clean: clean-recursive
 	rm -f $(TARGETS) $(TARGETS:%=%.tmp)
+	rm -rf index.*.php
 
 %-recursive:
 	@for d in $(SUBDIR) ; do \

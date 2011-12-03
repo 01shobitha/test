@@ -40,7 +40,7 @@ msgstr "DONEAZĂ"
 
 #: include/header.php:99
 msgid "why?"
-msgstr "de ce?\n"
+msgstr "de ce?"
 
 #: include/header.php:113 include/header.php:127
 msgid "donate"

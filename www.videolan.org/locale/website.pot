@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VideoLAN's websites\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-11-23 17:12+0100\n"
+"POT-Creation-Date: 2011-12-03 02:40+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -83,17 +83,17 @@ msgstr ""
 msgid "Download"
 msgstr ""
 
-#: include/header.php:163 include/header.php:241 index.php:18 vlc/index.php:14
+#: include/header.php:163 include/header.php:241 index.php:19 vlc/index.php:14
 #: vlc/index.php:31
 msgid "Features"
 msgstr ""
 
-#: include/header.php:164 include/header.php:242 index.php:19 vlc/index.php:15
+#: include/header.php:164 include/header.php:242 index.php:20 vlc/index.php:15
 #: vlc/index.php:57
 msgid "Screenshots"
 msgstr ""
 
-#: include/header.php:165 include/header.php:239 index.php:20 vlc/index.php:16
+#: include/header.php:165 include/header.php:239 index.php:21 vlc/index.php:16
 msgid "Skins"
 msgstr ""
 
@@ -109,7 +109,7 @@ msgstr ""
 msgid "All Projects"
 msgstr ""
 
-#: include/header.php:190 index.php:104
+#: include/header.php:190 index.php:105
 msgid "Contribute"
 msgstr ""
 
@@ -153,114 +153,114 @@ msgstr ""
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
 msgstr ""
 
-#: index.php:16 vlc/index.php:12
+#: index.php:17 vlc/index.php:12
 msgid ""
 "VLC is a free and open source cross-platform multimedia player and framework "
 "that plays most multimedia files as well as DVD, Audio CD, VCD, and various "
 "streaming protocols."
 msgstr ""
 
-#: index.php:23 vlc/index.php:19
+#: index.php:24 vlc/index.php:19
 msgid "Download VLC"
 msgstr ""
 
-#: index.php:30 vlc/index.php:26
+#: index.php:31 vlc/index.php:26
 msgid "Other Systems and Versions"
 msgstr ""
 
-#: index.php:34
+#: index.php:35
 msgid "Other projects from VideoLAN"
 msgstr ""
 
-#: index.php:36
+#: index.php:37
 msgid "For Everyone"
 msgstr ""
 
-#: index.php:42
+#: index.php:43
 msgid ""
 "VLC is a powerful media player playing most of the media codecs and video "
 "formats out there."
 msgstr ""
 
-#: index.php:51
+#: index.php:52
 msgid ""
 "VideoLAN Movie Creator is a non-linear editing software for video creation."
 msgstr ""
 
-#: index.php:57
+#: index.php:58
 msgid "For Professionals"
 msgstr ""
 
-#: index.php:63
+#: index.php:64
 msgid ""
 "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
 msgstr ""
 
-#: index.php:72
+#: index.php:73
 msgid ""
 "x264 is a free application for encoding video streams into the H.264/MPEG-4 "
 "AVC format."
 msgstr ""
 
-#: index.php:78
+#: index.php:79
 msgid "For Developers"
 msgstr ""
 
-#: index.php:87
+#: index.php:88
 msgid "View All Projects"
 msgstr ""
 
-#: index.php:90
+#: index.php:91
 msgid "Help us out!"
 msgstr ""
 
-#: index.php:92
+#: index.php:93
 msgid "Donate"
 msgstr ""
 
-#: index.php:96
+#: index.php:97
 msgid "VideoLAN is a non-profit organization."
 msgstr ""
 
-#: index.php:97
+#: index.php:98
 msgid ""
 " All our costs are met by donations we receive from our users. If you enjoy "
 "using a VideoLAN product, please donate to support us."
 msgstr ""
 
-#: index.php:99 index.php:111 index.php:122
+#: index.php:100 index.php:112 index.php:123
 msgid "Learn More"
 msgstr ""
 
-#: index.php:108
+#: index.php:109
 msgid "VideoLAN is open-source software."
 msgstr ""
 
-#: index.php:109
+#: index.php:110
 msgid ""
 "This means that if you have the skill and the desire to improve one of our "
 "products, your contributions are welcome"
 msgstr ""
 
-#: index.php:116
+#: index.php:117
 msgid "Spread the Word"
 msgstr ""
 
-#: index.php:120
+#: index.php:121
 msgid ""
 "We feel that VideoLAN has the best video software available at the best "
 "price: free. If you agree please help spread the word about our software."
 msgstr ""
 
-#: index.php:131
+#: index.php:132
 msgid "News &amp; Updates"
 msgstr ""
 
-#: index.php:135
+#: index.php:136
 msgid "Development Blogs"
 msgstr ""
 
-#: index.php:158
+#: index.php:159
 msgid "Social media"
 msgstr ""
 
@@ -288,6 +288,6 @@ msgstr ""
 msgid "source code"
 msgstr ""
 
-#: vlc/index.php:119
+#: vlc/index.php:120
 msgid "Other OS"
 msgstr ""

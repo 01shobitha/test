@@ -141,9 +141,6 @@ msgstr "हमें मदद करो"
 msgid "VideoLAN is a non-profit organization. All our costs are met by donations we receive from our loyal users. If you<brenjoy using a VideoLAN product, please donate to support us."
 msgstr "VideoLAN एक गैर लाभ संगठन है. हमारे सभी लागत हम हमारे वफादार उपयोगकर्ताओं के द्वारा दान से प्राप्त करते हैं. यदि आप एक VideoLAN उत्पाद के उपयोग का आनंद लेते हैं, तो कृपया हमें दान करके समर्थन करें.         "
 
-msgid "Contribute"
-msgstr "योगदान करें"
-
 msgid "Learn more"
 msgstr "अधिक जानें"
 

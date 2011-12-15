@@ -11,15 +11,15 @@
             <div style='float: left; width: 500px;'>
                 <h1 class='bigtitle'>DVBlast</h1>
                 <div class='projectDescription'>
-                        Are you looking for live streaming? Don't look any further!
-                        DVBlast is a simple and powerful MPEG-2/TS demux and streaming
-                        application.
+                     Are you looking for live streaming? Don't look any further!
+                     DVBlast is a simple and powerful MPEG-2/TS demux and streaming
+                     application.
                 </div>
-                <a id='downloadButton' href='http://downloads.videolan.org/pub/videolan/dvblast/1.2/dvblast-1.2.tar.bz2'>
+                <a id='downloadButton' href='http://downloads.videolan.org/pub/videolan/dvblast/2.0/dvblast-2.0.tar.bz2'>
                     <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadDVBlast.png' alt='Download DVBlast icon' />
                     <div class='downloadText'>Download DVBlast</div>
                     <span id='downloadDetails' style='font-size: 12px;'>
-                        Version 1.2 &nbsp;&#8226;&nbsp; Linux &nbsp;&#8226;&nbsp; 2 MB
+                        Version 2.0 &nbsp;&#8226;&nbsp; Linux &nbsp;&#8226;&nbsp; 2 MB
                     </span>
                 </a>
             </div>
@@ -30,7 +30,7 @@
                 <h1 style='margin-bottom: 25px;' class='red'>Features</h1>
                 Lightweight program designed for extreme memory and CPU conditions<br />
                 <br />
-                Only one dependancy: libdvbpsi<br />
+                Only one dependancy: biTStream<br />
                 <br />
                 CAM menus (MMI) support via an external application<br />
                 <br />
@@ -68,9 +68,9 @@
                 <h1>Inputs - Outputs</h1>
                 <code>DVBlast</code> supports several input methods:<br />
                 <ul class="panel-blue-bullet">
-                     <li> linux-dvb-supported cards (DVB-S, DVB-S2, DVB-C, DVB-T...) with or without CI interface</li>
+                     <li> DVB cards (DVB-S, DVB-S2, DVB-C, DVB-T...) with or without CI interface</li>
                      <li> DVB-ASI cards (from <a href="http://www.computermodules.com/"> Computer Modules</a>)</li>
-                     <li> UDP or RTP stream carrying a transport stream</li>
+                     <li> UDP or RTP, unicast or multicast, streams carrying a transport stream</li>
                 </ul>
 
                 <br />

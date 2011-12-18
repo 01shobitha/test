@@ -15,8 +15,7 @@ developers from <a href="http://www.doom9.org/">Doom9</a>.</p>
 
 <ul class="bullets">
   <li><b>Portability:</b> Currently supported platforms are GNU/Linux, Windows, MacOS X. Dependencies are very limited.</li>
-  <li><b>Freedom:</b> <code>libbluray</code> is released under a Free Software license,
-  ensuring it will stay free. </li>
+  <li><b>Freedom:</b> <code>libbluray</code> is released under a Free Software license, LGPL, ensuring it will stay free. </li>
   <li><b>Features:</b> the library integrates navigation, playlist parsing, menus and BD-J.</li>
   <li><b>Legal:</b> <code>libbluray</code> is <b>DRM-circumvention free</b>, and thus, safe to integrate in your software.</li>
   <li><b>Fun:</b> <code>libbluray</code> is a fun to hack on project, in its starting phase.</li>
@@ -24,7 +23,7 @@ developers from <a href="http://www.doom9.org/">Doom9</a>.</p>
 
 <p><b>NB:</b> Most commercial Blu-Ray are protected by <a href="http://www.aacsla.com/">AACS</a> or
 <a href="http://www.bdplusllc.com/">BD+</a> technologies and this library is not enough to playback those discs.</p>
-
+<p>People interested in AACS technologies should have a look at <a href="/developers/libaacs.html">libaacs</a>.</p>
 
 <h2>Get libbluray</h2>
 

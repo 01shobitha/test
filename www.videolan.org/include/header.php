@@ -239,7 +239,7 @@ function footer($tag = "") {
 </div>
    <div id='footer'>
       <div style='background-image: url( "/images/divider.png" ); height: 15px; width: 100%;'></div>
-      <div style='padding: 40px 10px 40px; width: 900px; margin: 0 auto;'>
+      <div style='padding: 40px 10px 40px; width: 950px; margin: 0 auto;'>
            <a style='float: left; margin-right: 50px;' href='/'>
             <?php image( 'logoGrey.png', 'Association VideoLAN' ); ?></a>
          <div class='footer_col'>

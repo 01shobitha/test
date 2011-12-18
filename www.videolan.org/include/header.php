@@ -144,7 +144,7 @@ function start_top( $body_color )
       <div style="float: right;">
             <a href="http://www.twitter.com/videolan"><?php image( 'twitter.png', "Twitter" );?></a>
             <a href="http://www.facebook.com/vlc.media.player"><?php image( 'facebook.png', "Facebook" );?></a>
-      </span>
+      </div>
    </div>
 <?php
 }

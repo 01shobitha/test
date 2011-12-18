@@ -212,7 +212,7 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 
 /* ============================ SOCIAL BUTTONS STYLE =========================== */
 
-#plusone
+#social
 {
     float: right;
     padding: 7px;
@@ -285,7 +285,7 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
     background-color: white;
     border: 1px solid #F1F1F1;
     float: left;
-    margin-bottom: 22px;
+    margin-bottom: 18px;
     margin-top: 10px;
     clear: left;
 }

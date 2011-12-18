@@ -137,8 +137,10 @@ function start_top( $body_color )
                <button class='button' type='submit'><?php echo _("donate"); ?></button>
        </p></form>
    </div>
-   <div id='plusone'>
-      <g:plusone size="medium" href="http://www.videolan.org"></g:plusone>
+   <div id='social'>
+      <div id='plusone'>
+         <g:plusone size="medium" href="http://www.videolan.org"></g:plusone>
+      </div>
    </div>
 <?php
 }

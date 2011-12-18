@@ -31,7 +31,7 @@
                 <a class='extraInfoLink' href='/vlc/#download' style="padding-left: 100px;"><?php echo _("Other Systems and Versions");?></a>
             </div>
         </div>
-        <div class="clearme" style='padding-top: 40px;'>
+        <div class="clearme" style='padding-top: 35px;'>
             <h1 style='margin-bottom: 25px;'><?php echo _("Other projects from VideoLAN");?></h1>
             <div style='float: left; width: 300px;'>
                 <div class='audienceCallout'><?php echo _("For Everyone");?></div>
@@ -87,7 +87,7 @@
             <a href='/projects/' class='extraInfoLink' style='text-transform: uppercase; font-size: 13px; display: block; padding-top: 25px; clear: both;'>
                 <?php echo _("View All Projects"); ?></a>
         </div>
-        <div class="clearme" style='padding-top: 25px;'>
+        <div class="clearme" style='padding-top: 20px;'>
             <h1 style='margin-bottom: 25px;'><?php echo _("Help us out!"); ?></h1>
             <div style='float: left; width: 320px;'>
                 <div class='audienceCallout'><?php echo _("Donate"); ?></div>
@@ -128,11 +128,11 @@
         <div class="clearme"></div>
 
 <?php /* Begin news items */ ?>
-<div style='width: 500px; padding-top: 40px; float: left;'>
+<div style='width: 500px; padding-top: 25px; float: left;'>
     <h1 style='margin-bottom: 25px;'><a href="/news.html"><?php echo _("News &amp; Updates"); ?></a></h1>
     <?php shownews("full", 4); ?>
 </div>
-<div style='width: 400px; padding-top: 40px; float: right;'>
+<div style='width: 400px; padding-top: 25px; float: right;'>
     <h1 style='margin-bottom: 25px;'><a href="http://planet.videolan.org"><?php echo _("Development Blogs"); ?></a></h1>
     <?php
       define('MAGPIE_INPUT_ENCODING', 'UTF-8');

@@ -141,6 +141,10 @@ function start_top( $body_color )
       <div id='plusone'>
          <g:plusone size="medium" href="http://www.videolan.org"></g:plusone>
       </div>
+      <div style="float: right;">
+            <a href="http://www.twitter.com/videolan"><?php image( 'twitter.png', "Twitter" );?></a>
+            <a href="http://www.facebook.com/vlc.media.player"><?php image( 'facebook.png', "Facebook" );?></a>
+      </span>
    </div>
 <?php
 }

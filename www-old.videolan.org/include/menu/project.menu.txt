@@ -1,7 +1,0 @@
-videolan;VideoLAN;/videolan/
-news;News;/news.html
-events;Events;/videolan/events/
-partners;Partners;/videolan/partners.html
-team;Team;/videolan/team/
-contribute;Contribute;/contribute.html
-goodies;Goodies;/goodies.html

@@ -1,3 +1,0 @@
-Documentation;Documentation;http://www.videolan.org/doc/
-Wiki;Wiki;http://wiki.videolan.org/
-Support;Support;http://www.videolan.org/support/

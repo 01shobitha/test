@@ -1,3 +1,0 @@
-overview;Overview;/support
-faq;FAQ;/support/faq.html
-lists;Mailing lists;/support/lists.php

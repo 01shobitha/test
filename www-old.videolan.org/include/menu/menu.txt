@@ -1,7 +1,0 @@
-project;VideoLAN Project;/videolan/
-vlc;VLC media player;/
-projects;Software Projects;/projects/
-support;Doc/Support;/support/
-wiki;Wiki;http://wiki.videolan.org/
-forum;Forum;http://forum.videolan.org/
-developers;Developers;/developers/

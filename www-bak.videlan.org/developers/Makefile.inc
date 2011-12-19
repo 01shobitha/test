@@ -1,1 +1,0 @@
-SUBDIR = i18n

@@ -256,7 +256,7 @@ endorsement by the project.</pre>
 <h1>Banners</h1>
 
 <p class="center"><a href="http://www.videolan.org/vlc" title="Get VLC media player - It plays, it streams, it kills WiMPs!!">
-<img  src="http://images.videolan.org/images/buttons/GetVLC_110.png" width="110" height="45" alt="Get VLC media player" /></a></p>
+<img  src="http://images.videolan.org/images/goodies/buttons_getVLC/GetVLC_110.png" width="110" height="45" alt="Get VLC media player" /></a></p>
 <p>
 Use the following code to include this banner in your site:</p>
 <pre>
@@ -265,23 +265,23 @@ Use the following code to include this banner in your site:</p>
         It plays, it streams, it kills WiMPs!!"&gt;
 &lt;img
  src="http://www.videolan.org/images/
-buttons/GetVLC_110.png" width="110"
+goodies/GetVLC_110.png" width="110"
 height="45" alt="Get VLC media player" /&gt;&lt;/a&gt;
 </pre>
 <p>
 The following sizes are available:</p>
 <ul class="bullets">
 <li>
-<a href="http://images.videolan.org/images/buttons/GetVLC_110.png"
+<a href="http://images.videolan.org/images/goodies/buttons_getVLC/GetVLC_110.png"
 >Small banner</a></li>
 <li>
-<a href="http://images.videolan.org/images/buttons/GetVLC_120.png"
+<a href="http://images.videolan.org/images/goodies/buttons_getVLC/GetVLC_120.png"
 >Medium banner</a></li>
-<li><a href="http://images.videolan.org/images/buttons/GetVLC_150.png"
+<li><a href="http://images.videolan.org/images/goodies/buttons_getVLC/GetVLC_150.png"
 >Large banner</a></li>
-<li><a href="http://images.videolan.org/images/buttons/GetVLC.png"
+<li><a href="http://images.videolan.org/images/goodies/buttons_getVLC/GetVLC.png"
 >Supersized banner</a></li>
-<li><a href="http://images.videolan.org/images/buttons/GetVLC.psd"
+<li><a href="http://images.videolan.org/images/goodies/buttons_getVLC/GetVLC.psd"
 >Original Photoshop document</a></li>
 </ul>
 
@@ -293,7 +293,7 @@ and licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/"
 
 <p>Another banner made by Gen:</p>
 <p><a href="/vlc/index.html"><img width="80" height="15"
-      src="http://images.videolan.org/images/getvlc.png" class="nofix"
+      src="http://images.videolan.org/images/goodies/getvlc.png" class="nofix"
       style="vertical-align: middle; border-width: 0px;"
       alt="get VLC !" /></a>
 </p>
@@ -304,7 +304,7 @@ and licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/"
 
 <p>An older banner:</p>
 <p><a href="/vlc/index.html"><img width="100" height="32"
-      src="http://images.videolan.org/images/getvlcnow.png"
+      src="http://images.videolan.org/images/goodies/getvlcnow.png"
       style="vertical-align: middle; border-width: 0px;"
       alt="get VLC NOW!" /></a>
 </p>

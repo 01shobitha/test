@@ -211,11 +211,11 @@ href="http://images.videolan.org/images/videolan-backgrounds-base-2-1.src.rpm">h
 
 <div>
   <img src="http://images.videolan.org/images/goodies/videolan-wikingsoft.png" alt="Background" width="251" height="188" /><br />
-<a href="http://images.videolan.org/images/VideoLAN.png">Image 640x480</a> (188 kB)
+<a href="http://images.videolan.org/images/goodies/videolan.png">Image 640x480</a> (188 kB)
 </div>
 <div>
-  <img src="http://images.videolan.org/images/videolan-wikingsoft2.png" alt="Background" width="251" height="188" /><br />
-<a href="http://images.videolan.org/images/videolan-wikingsoft2.png">Image 1024x768</a> (56 kB)
+  <img src="http://images.videolan.org/images/goodies/videolan-wikingsoft2.png" alt="Background" width="251" height="188" /><br />
+<a href="http://images.videolan.org/images/goodies/videolan-wikingsoft2.png">Image 1024x768</a> (56 kB)
 </div>
 
 <p>This background image was made by <a href="http://www.xtremestuff.net">Asim Siddiqui</a>:</p>

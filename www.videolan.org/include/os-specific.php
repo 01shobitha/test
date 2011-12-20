@@ -18,7 +18,7 @@ function replaceDLinfos( )
     var osx32Details   = {'name': 'Mac OS X (32bit)', 'size': '24&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$version/macosx/vlc-$version-intel.dmg/download' };
     var osx64Details   = {'name': 'Mac OS X (64bit)', 'size': '24&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$version/macosx/vlc-$version-intel64.dmg/download' };
     var osxPPCDetails  = {'name': 'Mac OS X (PPC)', 'size': '21&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$version/macosx/vlc-$version-powerpc.dmg/download' };
-    var linuxDetails   = {'name': 'Linux', 'size': '', 'location': '/vlc/'};
+    var linuxDetails   = {'name': 'Linux', 'size': '', 'location': '/vlc/#download'};
     var debianDetails  = {'name': 'Debian GNU/Linux', 'size': '', 'location': '/vlc/download-debian.html'};
     var ubuntuDetails  = {'name': 'Ubuntu Linux', 'size': '', 'location': '/vlc/download-ubuntu.html'};
     var fedoraDetails  = {'name': 'Fedora Linux', 'size': '', 'location': '/vlc/download-fedora.html'};

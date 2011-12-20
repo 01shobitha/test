@@ -1,5 +1,6 @@
 <?php
 $win32version = '1.1.11';
+$macosxversion = '1.1.12';
 $version = '1.1.13';
 
 $dlUrl = "http://sourceforge.net/projects/vlc/files/$win32version/win32/vlc-$win32version-win32.exe/download";
@@ -8,16 +9,17 @@ function replaceDLinfos( )
 {
     global $version;
     global $win32version;
+    global $macosxversion;
     echo "<script type='text/javascript'>\n";
 
     //Editable details for the client side OS appropriate download detection.
     echo "var latestVersion  = '".$version."';";
     echo "
     var windowsDetails = {'name': 'Windows', 'size': '20&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$win32version/win32/vlc-$win32version-win32.exe/download'};
-    var osxDetails     = {'name': 'Mac OS X', 'size': '34&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$version/macosx/vlc-$version.dmg/download' };
-    var osx32Details   = {'name': 'Mac OS X (32bit)', 'size': '24&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$version/macosx/vlc-$version-intel.dmg/download' };
-    var osx64Details   = {'name': 'Mac OS X (64bit)', 'size': '24&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$version/macosx/vlc-$version-intel64.dmg/download' };
-    var osxPPCDetails  = {'name': 'Mac OS X (PPC)', 'size': '21&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$version/macosx/vlc-$version-powerpc.dmg/download' };
+    var osxDetails     = {'name': 'Mac OS X', 'size': '34&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$macosxversion/macosx/vlc-$macosxversion.dmg/download' };
+    var osx32Details   = {'name': 'Mac OS X (32bit)', 'size': '24&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$macosxversion/macosx/vlc-$macosxversion-intel.dmg/download' };
+    var osx64Details   = {'name': 'Mac OS X (64bit)', 'size': '24&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$macosxversion/macosx/vlc-$macosxversion-intel64.dmg/download' };
+    var osxPPCDetails  = {'name': 'Mac OS X (PPC)', 'size': '21&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$macosxversion/macosx/vlc-$macosxversion-powerpc.dmg/download' };
     var linuxDetails   = {'name': 'Linux', 'size': '', 'location': '/vlc/#download'};
     var debianDetails  = {'name': 'Debian GNU/Linux', 'size': '', 'location': '/vlc/download-debian.html'};
     var ubuntuDetails  = {'name': 'Ubuntu Linux', 'size': '', 'location': '/vlc/download-ubuntu.html'};

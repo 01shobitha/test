@@ -34,6 +34,11 @@ Please refer to the concerned third parties as appropriate.
 
 <h2>2011</h2>
 <dl>
+<dt>VideoLAN-SA-1108 (CVE-2011-XXXX)</dt>
+<dd>Heap corruption in TiVo demuxer.
+ <a href="sa1108.html">Details</a>
+</dd>
+
 <dt>VideoLAN-SA-1107 (CVE-2011-3333)</dt>
 <dd>NULL dereference in HTTP and RTSP server.
  <a href="sa1107.html">Details</a>

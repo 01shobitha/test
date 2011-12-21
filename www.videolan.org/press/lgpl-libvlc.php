@@ -18,7 +18,7 @@ Some libVLC bindings for other languages have already changed license too.</p>
 <p>The license of the VLC media player will continue to be GPLv2 or later. This will not impact normal users of VLC in any way.</p>
 <p>All the developers have agreed to the relicensing, but a famous one, who refused to answer. His code was therefore rewritten.</p>
 <p>During the last few months, <a href="/developers/libdvbpsi.html">libdvbpsi</a>, <a href="/developers/libaacs.html">libaacs</a> and <a href="/developers/libbluray.html">libbluray</a> have moved to the same <b>LGPL</b> license. At the same time, <a href="http://git.videolan.org/?p=bitstream.git;a=summary">biTStream</a> has moved to a MIT license.</p>
-<p>Later on, more parts of VLC might follow the same path: important plugins and modules might change license depending on the agreement of the copyright holders.</p>
+<p>Later on, other parts of VLC might follow the same path: important plugins and modules might change license in the same way.</p>
 <p>We would like to thank all the VLC copyright holders, developers and community. We would like to thank the <a href="http://www.ecp.fr">École Centrale Paris</a> for the support.</p>
 <p>For any questions, please <a href="/contact.html">contact us</a>.</p>
 
@@ -40,7 +40,7 @@ Yes. Please check the legality of the distribution.</p>
 <p><b>Can I use "VLC" name for another application than VLC?</b><br />
 <b>NO</b>.</p>
 <p><b>I am interested in using libVLC or libVLCcore. Where can I contact you?</b><br />
-<a href="http://www.videolan.org/contact.html">Contact us</a>.</p>
+See how to <a href="http://www.videolan.org/contact.html">contact us</a>.</p>
 <p><b>Why did you choose LGPLv2 instead of (L)GPLv3?</b><br />
 See http://www.videolan.org/press/2007-1.html</p>
 <p><b>Will this license change allow VLC to be available on the Apple stores?</b><br />

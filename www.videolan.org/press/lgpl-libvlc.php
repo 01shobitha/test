@@ -45,5 +45,7 @@ See how to <a href="http://www.videolan.org/contact.html">contact us</a>.</p>
 See http://www.videolan.org/press/2007-1.html</p>
 <p><b>Will this license change allow VLC to be available on the Apple stores?</b><br />
 So far, we don't know if this will change anything.</p>
+<p><b>Will this affect previous releases of libVLC?</b><br />
+No, this will only concern VLC 1.2 and later.</p>
 </div>
 <?php footer('$Id: index.php 6894 2011-05-02 09:35:24Z jb $'); ?>

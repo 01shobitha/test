@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|21 December 2011|VLC engine relicensed to LGPL|As <a href="/press/lgpl.html">previously stated</a>, VideoLAN worked on the relicensing of libVLC and libVLCcore: the VLC engine.<br />We are glad to announce that this process is <a href="/press/lgpl-libvlc.html">now complete</a>. Thanks a lot for the support.
+
 |20 December 2011|VLC 1.1.13|VideoLAN and the VLC development team present VLC 1.1.13, a bug and security fix release.<br />This release was necessary due to a <a href="http://www.videolan.org/security/sa1108.html">security issue in the TiVo demuxer</a>.<br />Source code is available.
 
 |15 December 2011|DVBlast 2.0 and biTStream 1.0|VideoLAN is happy to announce DVBlast 2.0, the fourth major release of <a href="http://www.videolan.org/projects/dvblast.html">DVBlast</a>. It fixes a number of issues, such as packet bursts and CAM communication problems, adds more configuration options, and improves dvblastctl with stream information. It also gets rid of the runtime dependency on libdvbpsi thanks to biTStream.<br />VideoLAN is also happy to introduce the first public release of <b>biTStream</b>, a set of C headers allowing a simpler access (read and write) to binary structures such as specified by MPEG, DVB, IETF, etc... It is released under the MIT license to avoid readability concerns being shadowed by license issues. It already has a pretty decent support of MPEG systems packet structures, MPEG PSI, DVB SI, DVB simulcast and IETF RTP.

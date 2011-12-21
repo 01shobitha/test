@@ -28,7 +28,7 @@ ifneq ($(PHP_IGNORES),)
   PHP_FILES := $(filter-out $(PHP_IGNORES:%=%.php), $(PHP_FILES))
 endif
 
-TARGETS := $(PHP_FILES:%.php=%.html) $(ROOT)/include/mirrors.php $(ROOT)/style/countries.css $(ROOT)/news-rss.html $(ROOT)/style/style.css locales
+TARGETS := $(PHP_FILES:%.php=%.html) $(ROOT)/include/mirrors.php $(ROOT)/style/countries.css $(ROOT)/news-rss.html $(ROOT)/style/style.css 
 
 real-all: $(TARGETS) all-recursive
 

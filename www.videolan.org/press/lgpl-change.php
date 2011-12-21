@@ -3,7 +3,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."include/header.php");
 ?>
 
-<h1>Changing the VLC engine license to LGPL</h1>
+<h1>VLC engine relicensed to LGPL</h1>
 <br />
 
 <div class="longtext">
@@ -38,7 +38,7 @@ Yes. Please check the legality of the re-distribution.</p>
 <p><b>Can I build non open-source VLC plugins?</b><br />
 Yes. Please check the legality of the distribution.</p>
 <p><b>Can I use "VLC" name for another application than VLC?</b><br />
-NO.</p>
+<b>NO</b>.</p>
 <p><b>I am interested in using libVLC or libVLCcore. Where can I contact you?</b><br />
 <a href="http://www.videolan.org/contact.html">Contact us</a>.</p>
 <p><b>Why did you choose LGPLv2 instead of (L)GPLv3?</b><br />

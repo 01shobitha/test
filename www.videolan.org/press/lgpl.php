@@ -1,5 +1,5 @@
 <?php
-   $title = "VideoLAN - Press Release on LGPL";
+   $title = "Press Release on LGPL";
    require($_SERVER["DOCUMENT_ROOT"]."include/header.php");
 ?>
 

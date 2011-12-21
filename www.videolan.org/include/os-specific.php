@@ -10,16 +10,16 @@ function replaceDLinfos( )
     global $version;
     global $win32version;
     global $macosxversion;
-    echo "<script type='text/javascript'>\n";
-
+    ?><script type='text/javascript'>
     //Editable details for the client side OS appropriate download detection.
-    echo "var latestVersion  = '".$version."';";
+    var latestVersion  = '<?php echo "$version"; ?>';
+    <?php
     echo "
     var windowsDetails = {'name': 'Windows', 'size': '20&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$win32version/win32/vlc-$win32version-win32.exe/download'};
     var osxDetails     = {'name': 'Mac OS X', 'size': '34&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$macosxversion/macosx/vlc-$macosxversion.dmg/download' };
     var osx32Details   = {'name': 'Mac OS X (32bit)', 'size': '24&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$macosxversion/macosx/vlc-$macosxversion-intel.dmg/download' };
     var osx64Details   = {'name': 'Mac OS X (64bit)', 'size': '24&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$macosxversion/macosx/vlc-$macosxversion-intel64.dmg/download' };
-    var osxPPCDetails  = {'name': 'Mac OS X (PPC)', 'size': '21&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$macosxversion/macosx/vlc-$macosxversion-powerpc.dmg/download' };
+    var osxPPCDetails  = {'name': 'Mac OS X (PPC)', 'size': '21&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$macosxversion/macosx/vlc-$macosxversion-powerpc.dmg/download' };"; ?>
     var linuxDetails   = {'name': 'Linux', 'size': '', 'location': '/vlc/#download'};
     var debianDetails  = {'name': 'Debian GNU/Linux', 'size': '', 'location': '/vlc/download-debian.html'};
     var ubuntuDetails  = {'name': 'Ubuntu Linux', 'size': '', 'location': '/vlc/download-ubuntu.html'};
@@ -31,7 +31,7 @@ function replaceDLinfos( )
     var beosDetails  = {'name': 'BeOS', 'size': '', 'location': '/vlc/download-beos.html'};
     var freebsdetails  = {'name': 'FreeBSD', 'size': '', 'location': '/vlc/download-freebsd.html'};
     var iosdetails  = {'name': 'iOS 3.2+', 'size': '9&nbsp;MB', 'location': '/vlc/download-ios.html'};";
-?>
+
     //Attempt to load the bright button gradient into cache for faster switching on mouse over (may not work on all browsers.)
     var cache = new Image();
     cache.src = '/style/images/downloadButtonGradientOrangeBright.png';
@@ -41,9 +41,10 @@ function replaceDLinfos( )
 
        if (navigator.appVersion.indexOf("Win")!=-1){
          OS="windows";
-         latestVersion = '1.1.11';
+         latestVersion = '<?php echo "$win32version"; ?>';
        }
        if (navigator.appVersion.indexOf("Mac")!=-1) {
+          latestVersion = '<?php echo "$macosxversion"; ?>';
           if (navigator.platform.indexOf("MacPPC")!= -1 || navigator.platform.indexOf("PowerPC") != -1 ) OS="osxPPC";
           else if (navigator.userAgent.indexOf("OS X 10.5")!=-1) OS="osx32";
           else if (navigator.userAgent.indexOf("OS X 10.6")!=-1) OS="osx64";
@@ -61,7 +62,7 @@ function replaceDLinfos( )
             else if(navigator.userAgent.indexOf("SUSE") != -1) OS="suse";
             else if(navigator.userAgent.indexOf("Gentoo") != -1) OS="gentoo";
             else OS="linux";
-       };
+       }
        if (navigator.platform.indexOf("freebsd") != -1) OS="freebsd";
        if (navigator.platform.indexOf("FreeBSD") != -1) OS="freebsd";
        if (navigator.userAgent.indexOf("iPad") != -1  || navigator.userAgent.indexOf("iPhone") != -1 || navigator.userAgent.indexOf("iPod") != -1) OS ="ios";

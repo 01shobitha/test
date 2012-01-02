@@ -10,8 +10,8 @@
 
 <h1>Security Advisory 1108</h1>
 <pre>
-Summary           : Buffer overflow in VLC TiVo demuxer
-Date              : Decemder 2011
+Summary           : Heap corruption in VLC TiVo demuxer
+Date              : December 2011
 Affected versions : VLC media player 1.1.12 down to 0.9.0
 ID                : VideoLAN-SA-1108
 CVE reference     : unassigned

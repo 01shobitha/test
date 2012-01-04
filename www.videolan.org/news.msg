@@ -1,6 +1,10 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|4 January 2012|multicat 2.0|VideoLAN is happy to announce the second major release of <a href="http://www.videolan.org/projects/multicat.html">multicat</a>. It brings numerous new features, such as recording chunks of a stream in a directory, and supporting TCP socket and IPv6, as well as bug fixes. Also aggregaRTP was extended to support retransmission of lost packets.
+
+|4 January 2012|DVBlast 2.1|VideoLAN is happy to announce version 2.1 of <a href="http://www.videolan.org/projects/dvblast.html">DVBlast</a>. It is a bugfix release, fixing in particular a problem with MMI menus present in 2.0.
+
 |21 December 2011|VLC engine relicensed to LGPL|As <a href="/press/lgpl.html">previously stated</a>, VideoLAN worked on the relicensing of libVLC and libVLCcore: the VLC engine.<br />We are glad to announce that this process is <a href="/press/lgpl-libvlc.html">now complete</a> for VLC 1.2. Thanks a lot for the support.
 
 |20 December 2011|VLC 1.1.13|VideoLAN and the VLC development team present VLC 1.1.13, a bug and security fix release.<br />This release was necessary due to a <a href="http://www.videolan.org/security/sa1108.html">security issue in the TiVo demuxer</a>.<br />Source code is available.

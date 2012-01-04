@@ -8,7 +8,7 @@
 <h1 class="bigtitle">VideoLAN Projects</h1>
 
     <div style='clear: both; padding-top: 40px;'>
-    <div style='float: left; width: 450px;'>
+    <div style='float: left; width: 350px;'>
         <div class='audienceCallout'>For Everyone</div>
         <div class="clearme">
             <a href='/vlc/' class='noUnderline'>
@@ -33,7 +33,7 @@
             </a>
         </div>
     </div>
-    <div style='float: left; padding-left: 30px; width: 450px;'>
+    <div style='float: left; padding-left: 30px; width: 350px;'>
         <div class='audienceCallout'>For Professionals</div>
         <div class="clearme">
             <a href='/projects/dvblast.html' class='noUnderline'>
@@ -54,6 +54,19 @@
                     x264 is a free application for encoding<br />
                     video streams into the  H.264/MPEG-4<br />
                     AVC format.
+                </span>
+            </a>
+        </div>
+    </div>
+    <div style='float: left; width: 200px;'>
+        <div class='audienceCallout'>&nbsp;</div>
+        <div class="clearme">
+            <a href='/projects/multicat.html' class='noUnderline'>
+                <span class='productName'>multicat</span>
+                <span class='productDescription'>
+                    multicat is a set of tools designed to<br />
+                    easily and efficiently manipulate<br />
+                    multicast streams and TS.
                 </span>
             </a>
         </div>
@@ -99,10 +112,16 @@
             A cross-platform library to decrypt and encrypt using the DVB-CSA algorithm.
         </div>
     </div>
-    <div style='float: left; width: 180px;'>
+    <div style='float: left; width: 180px; padding-right: 70px;'>
         <div class='productName'><a href="/developers/libdca.html">libdca</a></div>
         <div class='productDescription'>
             A cross-platform library to decode Dts Coherent Audio codec.
+        </div>
+    </div>
+    <div style='float: left; width: 180px;'>
+        <div class='productName'><a href="/developers/bitstream.html">biTStream</a></div>
+        <div class='productDescription'>
+            A cross-platform development library to abstract access to binary structures such as found in MPEG or DVB.
         </div>
     </div>
 

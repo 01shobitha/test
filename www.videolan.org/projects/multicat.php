@@ -21,9 +21,12 @@ and they feature only one thread of execution.</p>
 <h2>The <code>multicat</code> program</h2>
 
 <p><code>multicat</code> itself is a 1 input/1 output application. Inputs and
-outputs can be network streams (unicast and multicast), files, character
+outputs can be network streams (unicast and multicast), files, directories, character
 devices or FIFOs. It is thought to be a multicast equivalent of the
-popular netcat tool.</p>
+popular netcat tool. Typical applications are recording
+live transport streams, or playing out TS files without modification.
+Also it is able to record a continuous stream into a directory, rotate
+the files periodically, and make seamless extracts from it.</p>
 
 <p>Multicat tries to rebuild the internal clock of the input stream; but
 it wants to remain agnostic of what is transported, so in case of files
@@ -40,29 +43,21 @@ necessary for multicat.</p>
 <p> The combination of <code>ingests</code> and <code>multicat</code> makes
 a simple and efficient TS file streamer.</p>
 
-<h2>The <code>offsets</code> program</h2>
+<h2>The <code>aggregartp</code> and <code>reordertp</code> programs</h2>
 
-<p><code>offsets</code> is another companion application to manipulate auxiliary files.
-Given an offset in time from the beginning of the file, it returns the offset
-of the position in number of packets.</p>
+<p><code>aggregartp</code> splits a single RTP stream (for instance a high-bitrate signal) to several contribution links with load balancing.</p>
 
-<h2>The <code>aggregartp</code> and <code>desaggregartp</code> programs</h2>
-
-<p><code>aggregartp</code> splits a single RTP stream to several contribution
-links with load balancing.</p>
-
-<p><code>desaggregartp</code> reorders incoming packets and reconstitutes the original
-RTP stream.</p>
-
-<p>These programs can be used to carry a high-bitrate signal over several contribution links.</p>
+<p><code>reordertp</code> takes one or multiple inputs (from <code>aggregartp</code> or another source known to reorder and/or add jitter to packets) and smoothes them out to output the original stream in correct order.</p>
 
 <h2>Get Multicat</h2>
 
 <p> The latest official version of <code>Multicat</code>
-is numbered 1.0, and is available via <a
-href="http://downloads.videolan.org/pub/videolan/multicat/1.0/multicat-1.0.tar.bz2">HTTP</a>
+is numbered 2.0, and is available via <a
+href="http://downloads.videolan.org/pub/videolan/multicat/2.0/multicat-2.0.tar.bz2">HTTP</a>
 or <a
-href="ftp://ftp.videolan.org/pub/videolan/multicat/1.0/Multicat-1.0.tar.bz2">FTP</a>.</p>
+href="ftp://ftp.videolan.org/pub/videolan/multicat/2.0/multicat-2.0.tar.bz2">FTP</a>.</p>
+
+<p><a href="/developers/bitstream.html">biTStream</a> needs to be installed at build-time.</p>
 
 <p> Hackers can participate to the development using <a
 href="http://wiki.videolan.org/Subversion">Subversion</a>.

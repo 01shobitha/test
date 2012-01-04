@@ -187,7 +187,7 @@ function draw_menus( $nobanner )
          <li><a href='/vlmc/'>VideoLan Movie Creator</a></li>
          <li><a href='/projects/dvblast.html'>DVBlast</a></li>
          <li><a href='/developers/x264.html'>x264</a></li>
-         <li><a href='/projects/multicat.html'>Multicat</a></li>
+         <li><a href='/projects/multicat.html'>multicat</a></li>
          <li><a href='/projects/vlma/'>VLMa</a></li>
          <li><a href='/vlc/skineditor.html'>VLC Skin Editor</a></li>
          <li><hr /></li>
@@ -196,6 +196,7 @@ function draw_menus( $nobanner )
          <li><a href='/developers/libdvbpsi.html'>libdvbpsi</a></li>
          <li><a href='/developers/libaacs.html'>libaacs</a></li>
          <li><a href='/developers/libdvbcsa.html'>libdvbcsa</a></li>
+         <li><a href='/developers/bitstream.html'>biTStream</a></li>
          <li><hr /></li>
          <li><a href='/projects/'><?php echo _("All Projects"); ?></a></li>
       </ul>
@@ -262,7 +263,7 @@ function footer($tag = "") {
                  <li><a href='/vlmc/'>VideoLan Movie Creator</a></li>
                  <li><a href='/projects/dvblast.html'>DVBlast</a></li>
                  <li><a href='/developers/x264.html'>x264</a></li>
-                 <li><a href='/projects/multicat.html'>Multicat</a></li>
+                 <li><a href='/projects/multicat.html'>multicat</a></li>
                  <li><a href='/projects/vlma/'>VLMa</a></li>
                  <li><a href='/vlc/skineditor.html'>VLC Skin Editor</a></li>
                  <li><a href='/developers/libdvdcss.html'>libdvdcss</a></li>
@@ -270,6 +271,7 @@ function footer($tag = "") {
                  <li><a href='/developers/libdvbpsi.html'>libdvbpsi</a></li>
                  <li><a href='/developers/libaacs.html'>libaacs</a></li>
                  <li><a href='/developers/libdvbcsa.html'>libdvbcsa</a></li>
+                 <li><a href='/developers/bitstream.html'>biTStream</a></li>
             </ul>
          </div>
          <div class='footer_col'>

@@ -33,7 +33,7 @@
         </div>
         <div class="clearme" style='padding-top: 35px;'>
             <h1 style='margin-bottom: 25px;'><?php echo _("Other projects from VideoLAN");?></h1>
-            <div style='float: left; width: 300px;'>
+            <div style='float: left; width: 350px;'>
                 <div class='audienceCallout'><?php echo _("For Everyone");?></div>
                 <div class="clearme">
                     <a href='/vlc/' class='noUnderline'>
@@ -75,18 +75,49 @@
                     </a>
                 </div>
             </div>
-            <div style='float: left; padding-left: 30px; width: 180px;'>
-                <div class='audienceCallout'><?php echo _("For Developers"); ?></div>
-                <a href='/developers/libdvdcss.html' class='noUnderline'><span class='productName' style='padding-bottom: 16px;'>libdvdcss</span></a>
-                <a href='/developers/libdvbpsi.html' class='noUnderline'><span class='productName' style='padding-bottom: 16px;'>libdvdpsi</span></a>
-                <a href='/vlc/libvlc.html'           class='noUnderline'><span class='productName' style='padding-bottom: 16px;'>libVLC</span></a>
-                <a href='/developers/libbluray.html' class='noUnderline'><span class='productName' style='padding-bottom: 16px;'>libbluray</span></a>
-                <a href='/developers/libaacs.html'   class='noUnderline'><span class='productName' style='padding-bottom: 16px;'>libaacs</span></a>
-                <a href='/developers/libdca.html'    class='noUnderline'><span class='productName'>libdca</span></a>
+            <div style='float: left; width: 200px;'>
+                <div class='audienceCallout'>&nbsp;</div>
+                <div class="clearme">
+                    <a href='/projects/multicat.html' class='noUnderline'>
+                        <span class='productName'>multicat</span>
+                        <span class='productDescription'>
+                            <?php echo _("multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."); ?>
+                        </span>
+                    </a>
+                </div>
             </div>
-            <a href='/projects/' class='extraInfoLink' style='text-transform: uppercase; font-size: 13px; display: block; padding-top: 25px; clear: both;'>
-                <?php echo _("View All Projects"); ?></a>
         </div>
+
+        <div style='clear: both; padding-top: 40px;'></div>
+        <div class='audienceCallout'>For Developers</div>
+        <div style='float: left; width: 60px; padding-right: 60px; color: #666; font-size: 14px; line-height: 20px;'>
+            <div class='productName'><a href="/developers/libdvdcss.html">libdvdcss</a></div>
+        </div>
+        <div style='float: left; width: 60px; padding-right: 60px;'>
+            <div class='productName'><a href="/developers/libbluray.html">libbluray</a></div>
+        </div>
+        <div style='float: left; width: 60px; padding-right: 60px;'>
+            <div class='productName'><a href="/developers/libdvbpsi.html">libdvdpsi</a></div>
+        </div>
+        <div style='float: left; width: 60px; padding-right: 60px;'>
+            <div class='productName'><a href="/vlc/libvlc.html">libVLC</a></div>
+        </div>
+        <div style='float: left; width: 60px; padding-right: 60px;'>
+            <div class='productName'><a href="/developers/libaacs.html">libaacs</a></div>
+        </div>
+        <div style='float: left; width: 60px; padding-right: 60px;'>
+            <div class='productName'><a href="/developers/libdvbcsa.html">libdvbcsa</a></div>
+        </div>
+        <div style='float: left; width: 60px; padding-right: 60px;'>
+            <div class='productName'><a href="/developers/libdca.html">libdca</a></div>
+        </div>
+        <div style='float: left; width: 60px;'>
+            <div class='productName'><a href="/developers/bitstream.html">biTStream</a></div>
+        </div>
+
+        <a href='/projects/' class='extraInfoLink' style='text-transform: uppercase; font-size: 13px; display: block; padding-top: 25px; clear: both;'>
+            <?php echo _("View All Projects"); ?></a>
+
         <div class="clearme" style='padding-top: 20px;'>
             <h1 style='margin-bottom: 12px;'><?php echo _("Help us out!"); ?></h1>
             <div style='float: left; width: 320px;'>

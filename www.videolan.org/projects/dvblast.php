@@ -15,11 +15,11 @@
                      DVBlast is a simple and powerful MPEG-2/TS demux and streaming
                      application.
                 </div>
-                <a id='downloadButton' href='http://downloads.videolan.org/pub/videolan/dvblast/2.0/dvblast-2.0.0.tar.bz2'>
+                <a id='downloadButton' href='http://downloads.videolan.org/pub/videolan/dvblast/2.1/dvblast-2.1.0.tar.bz2'>
                     <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadDVBlast.png' alt='Download DVBlast icon' />
                     <div class='downloadText'>Download DVBlast</div>
                     <span id='downloadDetails' style='font-size: 12px;'>
-                        Version 2.0 &nbsp;&#8226;&nbsp; Linux &nbsp;&#8226;&nbsp; 2 MB
+                        Version 2.1 &nbsp;&#8226;&nbsp; Linux &nbsp;&#8226;&nbsp; 70 KiB
                     </span>
                 </a>
             </div>
@@ -30,7 +30,7 @@
                 <h1 style='margin-bottom: 25px;' class='red'>Features</h1>
                 Lightweight program designed for extreme memory and CPU conditions<br />
                 <br />
-                Only one dependancy: biTStream<br />
+                No runtime dependancy, one build dependancy (<a href="/developers/bitstream.html">biTStream</a>)<br />
                 <br />
                 CAM menus (MMI) support via an external application<br />
                 <br />
@@ -68,7 +68,7 @@
                 <h1>Inputs - Outputs</h1>
                 <code>DVBlast</code> supports several input methods:<br />
                 <ul class="panel-blue-bullet">
-                     <li> DVB cards (DVB-S, DVB-S2, DVB-C, DVB-T...) with or without CI interface</li>
+                     <li> linux-dvb-supported cards (DVB-S, DVB-S2, DVB-C, DVB-T...) with or without CI interface</li>
                      <li> DVB-ASI cards (from <a href="http://www.computermodules.com/"> Computer Modules</a>)</li>
                      <li> UDP or RTP, unicast or multicast, streams carrying a transport stream</li>
                 </ul>
@@ -79,7 +79,7 @@
                    <li> hardware or software PID filtering</li>
                    <li> PID-based or service-based demultiplexing</li>
                    <li> optional descrambling via CAM device</li>
-                   <li> EIT, SDT and TDT pass-through for EPG information</li>
+                   <li> optional DVB tables </li>
                </ul>
             </div>
             <div class='lastcolumn'>

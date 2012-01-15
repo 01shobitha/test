@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|15 January 2012|VideoLAN at SCALE 10x|VideoLAN will have a booth (#74) at the <a href="http://www.socallinuxexpo.org/scale10x">Southern California Linux Expo</a> at the Hilton Los Angeles Airport Hotel next week-end. The event will take place from Friday throughout Sunday. We will happily show you the latest developments and our forthcoming major VLC update.
+
 |4 January 2012|multicat 2.0|VideoLAN is happy to announce the second major release of <a href="http://www.videolan.org/projects/multicat.html">multicat</a>. It brings numerous new features, such as recording chunks of a stream in a directory, and supporting TCP socket and IPv6, as well as bug fixes. Also aggregaRTP was extended to support retransmission of lost packets.
 
 |4 January 2012|DVBlast 2.1|VideoLAN is happy to announce version 2.1 of <a href="http://www.videolan.org/projects/dvblast.html">DVBlast</a>. It is a bugfix release, fixing in particular a problem with MMI menus present in 2.0.

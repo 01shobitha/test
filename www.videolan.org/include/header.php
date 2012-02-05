@@ -177,7 +177,7 @@ function draw_menus( $nobanner )
          <li><a href='/vlc/features.html'><?php echo _("Features"); ?></a></li>
          <li><a href='/vlc/screenshots.html'><?php echo _("Screenshots"); ?></a></li>
          <li><a href='/vlc/skins.html'><?php echo _("Skins"); ?></a></li>
-         <li><a href='/vlc/skins.html'><?php echo _("Extensions"); ?></a></li>
+         <li><a href='http://addons.videolan.org/index.php?xcontentmode=903'><?php echo _("Extensions"); ?></a></li>
       </ul>
    </div>
    <div class='link'>

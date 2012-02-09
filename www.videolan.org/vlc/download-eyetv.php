@@ -31,7 +31,12 @@
 <?php panel_start( "orange" ); ?>
 <h1>Screenshots</h1>
 <div class="screenshot"><a href='http://images.videolan.org/vlc/screenshots/0.9.2/osx-0.9.2-teletext.jpg'>
-    <img src='http://images.videolan.org/vlc/screenshots/0.9.2/osx-0.9.2-teletext.jpg' alt='Teletext within a TV stream' width='150' /></a>
+    <img src='http://images.videolan.org/vlc/screenshots/0.9.2/tm_osx-0.9.2-teletext.jpg' alt='Teletext within a TV stream' width='150' /></a>
+    <p>Teletext within a TV stream</p>
+</div>
+<div class="screenshot"><a href='http://images.videolan.org/vlc/screenshots/eyetv/eyetv_and_vlc.jpg'>
+    <img src='http://images.videolan.org/vlc/screenshots/eyetv/tn_eyetv_and_vlc.jpg' alt='Teletext within a TV stream' width='150' /></a>
+    <p>Choosing a TV channel within VLC</p>
 </div>
 <?php panel_end(); ?>
 

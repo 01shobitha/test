@@ -22,7 +22,7 @@
 
   <h2>Download</h2>
   <?php pkgitem_sf( "VLC Plugin for EyeTV",
-               "../files/eyetv","eyetv_vlcplugin_installer.zip","vlc"); ?>
+               "../files/eyetv","eyetv_vlcplugin_installer-1.5.zip","vlc", "zip archive", "d1b02fb78ee25d91e44e4f9ac8300e73" ); ?>
 
 </div> <!-- div left -->
 
@@ -34,6 +34,7 @@
     <img src='http://images.videolan.org/vlc/screenshots/0.9.2/tm_osx-0.9.2-teletext.jpg' alt='Teletext within a TV stream' width='150' /></a>
     <p>Teletext within a TV stream</p>
 </div>
+<br />
 <div class="screenshot"><a href='http://images.videolan.org/vlc/screenshots/eyetv/eyetv_and_vlc.jpg'>
     <img src='http://images.videolan.org/vlc/screenshots/eyetv/tn_eyetv_and_vlc.jpg' alt='Teletext within a TV stream' width='150' /></a>
     <p>Choosing a TV channel within VLC</p>

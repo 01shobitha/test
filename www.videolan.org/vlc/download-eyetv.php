@@ -21,8 +21,8 @@
   </div>
 
   <h2>Download</h2>
-  <?php pkgitem( "VLC plugin for EyeTV",
-               "eyetv","eyetv_vlcplugin_installer.zip","vlc"); ?>
+  <?php pkgitem_sf( "VLC Plugin for EyeTV",
+               "../eyetv","eyetv_vlcplugin_installer.zip","vlc"); ?>
 
 </div> <!-- div left -->
 

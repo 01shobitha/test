@@ -30,9 +30,8 @@
 
 <?php panel_start( "orange" ); ?>
 <h1>Screenshots</h1>
-<div class="screenshot"><a href='http://download.videolan.org/vlc/screenshots/eyetv/eyetv_and_vlc.jpg'>
-    <img src='http://download.videolan.org/vlc/screenshots/eyetv/tn_eyetv_and_vlc.jpg' alt='Selecting an EyeTV channel before recording' width='150' /></a>
-    <p>Selecting an EyeTV channel before recording</p>
+<div class="screenshot"><a href='http://images.videolan.org/vlc/screenshots/0.9.2/osx-0.9.2-teletext.jpg'>
+    <img src='http://images.videolan.org/vlc/screenshots/0.9.2/osx-0.9.2-teletext.jpg' alt='Teletext within a TV stream' width='150' /></a>
 </div>
 <?php panel_end(); ?>
 

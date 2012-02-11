@@ -34,7 +34,7 @@
 
         <div class="clearme" style='padding-top: 35px;'>
             <h1 style='margin-bottom: 25px;'><?php echo _("Other projects from VideoLAN");?></h1>
-            <div style='float: left; width: 320px;'>
+            <div style='float: left; width: 330px;'>
                 <div class='audienceCallout'><?php echo _("For Everyone");?></div>
                 <div class="clearme">
                     <a href='/vlc/' class='noUnderline'>
@@ -56,7 +56,7 @@
                 </div>
             </div>
 
-            <div style='float: left; padding-left: 30px; width: 320px;'>
+            <div style='float: left; padding-left: 30px; width: 310px;'>
                 <div class='audienceCallout'><?php echo _("For Professionals"); ?></div>
                 <div class="clearme">
                     <a href='/projects/dvblast.html' class='noUnderline'>
@@ -67,7 +67,7 @@
                         </span>
                     </a>
                 </div>
-                <div class="clearme">
+                <div>
                     <a href='/projects/multicat.html' class='noUnderline'>
                         <span class='productName'>multicat</span>
                         <span class='productDescription'>

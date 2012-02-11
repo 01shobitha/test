@@ -228,10 +228,10 @@ function draw_menus( $nobanner )
 <div class="clearme"></div>
 
 <?php
-/* Event banner */
-/*    if ( !$nobanner )
-        echo '<a href="/videolan/events/10y/"><img alt="10 cones" src="http://images1.videolan.org/images/10years.png" /></a>';
-?><?php */
+    /* Event banner */
+    if ( !$nobanner )
+        echo '<a href="https://packliberte.org/"><img alt="Pack Liberté" src="http://images1.videolan.org/images/events/banniere_packliberte-468x60-vlc.png" /></a>';
+    ?><?php
 }
 
 /* Footer */

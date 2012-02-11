@@ -132,7 +132,7 @@ msgstr "Подршка"
 
 #: include/header.php:200
 msgid "Support center"
-msgstr Центар за подршку"
+msgstr "Центар за подршку"
 
 #: include/header.php:202
 msgid "Legal"

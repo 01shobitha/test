@@ -301,7 +301,7 @@ function footer($tag = "") {
             </ul>
          </div>
          <div style='clear: both; padding-bottom: 30px;'></div>
-         <div style='text-align: center; line-height: 17px; font-size: 12px; color: #999;'>
+         <div style='text-align: center; line-height: 14px; font-size: 9px; color: #999;'>
             <p>
             <a href='/legal.html'>Legal Notices</a> | <a href='/contact.html'>Report Trademark Abuse</a><br />
             VideoLAN, VLC, VLC media player and x264 are trademarks internationnaly registered by the VideoLAN non-profit organization.<br />

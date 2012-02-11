@@ -30,7 +30,7 @@ msgid ""
 "composed of volunteers, developing and promoting free, open-source "
 "multimedia solutions."
 msgstr "compuesto por voluntarios, el desarrollo y promocion libre, de codigo abierto"
-msgstr "soluciones multimedia."
+"soluciones multimedia."
 
 #: include/header.php:99
 msgid "DONATE"
@@ -159,9 +159,7 @@ msgid ""
 "VLC is a free and open source cross-platform multimedia player and framework "
 "that plays most multimedia files as well as DVD, Audio CD, VCD, and various "
 "streaming protocols."
-msgstr "VLC es un gratuito y de codigo abierto multiplataforma reproductor multimedia y estructura
-que reproduce la mayoria de archivos multimedia, asi como DVD, audio CD, VCD, y diversas
-protocolos de transmision"
+msgstr "VLC es un gratuito y de codigo abierto multiplataforma reproductor multimedia y estructura que reproduce la mayoria de archivos multimedia, asi como DVD, audio CD, VCD, y diversas protocolos de transmision"
 
 #: index.php:23 vlc/index.php:19
 msgid "Download VLC"
@@ -183,8 +181,7 @@ msgstr "Para Todos"
 msgid ""
 "VLC is a powerful media player playing most of the media codecs and video "
 "formats out there."
-msgstr "VLC es un potente reproductor multimedia reproduce la mayoría de los medios y los codecs de video
-formatos existentes."
+msgstr "VLC es un potente reproductor multimedia reproduce la mayoría de los medios y los codecs de video formatos existentes."
 
 #: index.php:51
 msgid ""
@@ -204,8 +201,7 @@ msgstr "DVBlast es una sencilla y potente desmultiplexar MPEG-2/TS y aplicacion 
 msgid ""
 "x264 is a free application for encoding video streams into the H.264/MPEG-4 "
 "AVC format."
-msgstr "x 264 es una aplicacion gratuita para codificar vídeo en H.264 y MPEG-4
-formato de AVC."
+msgstr "x 264 es una aplicacion gratuita para codificar vídeo en H.264 y MPEG-4 formato de AVC."
 
 #: index.php:78
 msgid "For Developers"
@@ -231,8 +227,7 @@ msgstr "VideoLAN es una organizacion sin fines de lucro."
 msgid ""
 " All our costs are met by donations we receive from our users. If you enjoy "
 "using a VideoLAN product, please donate to support us."
-msgstr "Todos nuestros costos se cubren con donaciones que recibimos de nuestros usuarios. Si te gusta
-utilizar un producto de VideoLAN, por favor done para apoyarnos."
+msgstr "Todos nuestros costos se cubren con donaciones que recibimos de nuestros usuarios. Si te gusta utilizar un producto de VideoLAN, por favor done para apoyarnos."
 
 #: index.php:99 index.php:111 index.php:122
 msgid "Learn More"
@@ -246,8 +241,7 @@ msgstr "VideoLAN es software de codigo abierto."
 msgid ""
 "This means that if you have the skill and the desire to improve one of our "
 "products, your contributions are welcome"
-msgstr "Esto significa que si usted tiene la habilidad y el deseo de mejorar uno de nuestros
-productos, sus contribuciones son bienvenidas"
+msgstr "Esto significa que si usted tiene la habilidad y el deseo de mejorar uno de nuestros productos, sus contribuciones son bienvenidas"
 
 #: index.php:116
 msgid "Spread the Word"
@@ -257,8 +251,7 @@ msgstr "Corra la voz"
 msgid ""
 "We feel that VideoLAN has the best video software available at the best "
 "price: free. If you agree please help spread the word about our software."
-msgstr "Creemos que VideoLAN tiene el mejor software de vídeo disponibles en el mejor de los
-precio: gratis. Si esta de acuerdo por favor ayudar a difundir la palabra acerca de nuestro software."
+msgstr "Creemos que VideoLAN tiene el mejor software de vídeo disponibles en el mejor de los precio: gratis. Si esta de acuerdo por favor ayudar a difundir la palabra acerca de nuestro software."
 
 #: index.php:131
 msgid "News &amp; Updates"
@@ -299,3 +292,4 @@ msgstr "Codigo fuente"
 #: vlc/index.php:119
 msgid "Other OS"
 msgstr "Otros sistemas operativos"
+

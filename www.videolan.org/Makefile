@@ -55,7 +55,7 @@ clean: clean-recursive
 	@mv -v $@.tmp2 $@
 	@rm -f $@.tmp $@.tmp2
 
-locales: $(ROOT)/index.bg.php $(ROOT)/index.by.php $(ROOT)/index.de.php $(ROOT)/index.fr.php $(ROOT)/index.gr.php $(ROOT)/index.hi.php $(ROOT)/index.mkd.php $(ROOT)/index.pl.php $(ROOT)/index.ro.php $(ROOT)/index.ru.php $(ROOT)/index.tr.php
+locales: $(ROOT)/index.bg.php $(ROOT)/index.by.php $(ROOT)/index.de.php $(ROOT)/index.es.php $(ROOT)/index.fr.php $(ROOT)/index.gr.php $(ROOT)/index.hi.php $(ROOT)/index.mkd.php $(ROOT)/index.pl.php $(ROOT)/index.ro.php $(ROOT)/index.ru.php $(ROOT)/index.tr.php
 
 index.%.php: index.php
 	rm -f $@

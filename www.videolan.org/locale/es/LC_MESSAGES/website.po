@@ -181,12 +181,12 @@ msgstr "Para Todos"
 msgid ""
 "VLC is a powerful media player playing most of the media codecs and video "
 "formats out there."
-msgstr "VLC es un potente reproductor multimedia reproduce la mayoría de los medios y los codecs de video formatos existentes."
+msgstr "VLC es un potente reproductor multimedia reproduce la mayoria de los medios y los codecs de video formatos existentes."
 
 #: index.php:51
 msgid ""
 "VideoLAN Movie Creator is a non-linear editing software for video creation."
-msgstr "VideoLAN Movie Creator es un software de edicion no lineal para la creacion de vídeo."
+msgstr "VideoLAN Movie Creator es un software de edicion no lineal para la creacion de video."
 
 #: index.php:57
 msgid "For Professionals"
@@ -201,7 +201,7 @@ msgstr "DVBlast es una sencilla y potente desmultiplexar MPEG-2/TS y aplicacion 
 msgid ""
 "x264 is a free application for encoding video streams into the H.264/MPEG-4 "
 "AVC format."
-msgstr "x 264 es una aplicacion gratuita para codificar vídeo en H.264 y MPEG-4 formato de AVC."
+msgstr "x 264 es una aplicacion gratuita para codificar video en H.264 y MPEG-4 formato de AVC."
 
 #: index.php:78
 msgid "For Developers"
@@ -251,7 +251,7 @@ msgstr "Corra la voz"
 msgid ""
 "We feel that VideoLAN has the best video software available at the best "
 "price: free. If you agree please help spread the word about our software."
-msgstr "Creemos que VideoLAN tiene el mejor software de vídeo disponibles en el mejor de los precio: gratis. Si esta de acuerdo por favor ayudar a difundir la palabra acerca de nuestro software."
+msgstr "Creemos que VideoLAN tiene el mejor software de video disponibles en el mejor de los precio: gratis. Si esta de acuerdo por favor ayudar a difundir la palabra acerca de nuestro software."
 
 #: index.php:131
 msgid "News &amp; Updates"

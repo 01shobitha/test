@@ -262,7 +262,7 @@ function footer($tag = "") {
             </ul>
          </div>
          <div class='footer_col'>
-            <div class='footerHeading'>Other Projects</div>
+            <div class='footerHeading'><?php echo _("All Projects"); ?></div>
             <ul>
                  <li><a href='/vlmc/'>VideoLan Movie Creator</a></li>
                  <li><a href='/projects/dvblast.html'>DVBlast</a></li>

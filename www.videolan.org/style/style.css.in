@@ -631,6 +631,13 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
     color: #999;
 }
 
+#footer p
+{
+    font-size: 10px;
+    line-height: 12px;
+}
+
+
 /* =================================== THEME RECOLORING RULES ====================================== */
 
 /* ORANGE */

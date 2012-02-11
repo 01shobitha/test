@@ -161,7 +161,7 @@ msgstr "Mailing-Lists"
 
 #: include/header.php:221
 msgid "Report a bug"
-msgstr "Rapporter un bug"
+msgstr "Signaler un bug"
 
 #: include/header.php:225
 msgid "Dev' Zone"

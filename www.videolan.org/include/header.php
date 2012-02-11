@@ -13,17 +13,17 @@ function StartHtml( $title, $color, $language,
 
     if ($language != "en" ) {
         switch ($language) {
-        case 'bg': $locale = "bg_BG"; break;
-        case 'by': $locale = "by_BY"; break;
-        case 'de': $locale = "de_DE"; break;
-        case 'dk': $locale = "dk_DK"; break;
-        case 'fr': $locale = "fr_FR"; break;
-        case 'gr': $locale = "gr_FR"; break;
-        case 'hi': $locale = "hi_HI"; break;
-        case 'pl': $locale = "pl_PL"; break;
-        case 'ro': $locale = "ro_RO"; break;
-        case 'ru': $locale = "ru_RU"; break;
-        case 'tr': $locale = "tr_TR"; break;
+        case 'bg': $locale = "bg_BG.UTF-8"; break;
+        case 'by': $locale = "by_BY.UTF-8"; break;
+        case 'de': $locale = "de_DE.UTF-8"; break;
+        case 'dk': $locale = "dk_DK.UTF-8"; break;
+        case 'fr': $locale = "fr_FR.UTF-8"; break;
+        case 'gr': $locale = "gr_GR.UTF-8"; break;
+        case 'hi': $locale = "hi_HI.UTF-8"; break;
+        case 'pl': $locale = "pl_PL.UTF-8"; break;
+        case 'ro': $locale = "ro_RO.UTF-8"; break;
+        case 'ru': $locale = "ru_RU.UTF-8"; break;
+        case 'tr': $locale = "tr_TR.UTF-8"; break;
         }
 
         /* gettext stuff */
@@ -217,8 +217,8 @@ function draw_menus( $nobanner )
          <li><a href='/legal.html'><?php echo _("Legal"); ?></a></li>
          <li><a href='http://wiki.videolan.org/'>Wiki</a></li>
          <li><a href='http://forum.videolan.org/'>Forums</a></li>
-         <li><a href='/support/lists.html'>Mailing-Lists</a></li>
-         <li><a href='/support/#bugs'>Report a bug</a></li>
+         <li><a href='/support/lists.html'><?php echo _("Mailing-Lists"); ?></a></li>
+         <li><a href='/support/#bugs'><?php echo _("Report a bug"); ?></a></li>
       </ul>
    </div>
    <div class='link'>
@@ -289,21 +289,22 @@ function footer($tag = "") {
          <div class='footer_col'>
             <div class='footerHeading'>About</div>
             <ul>
-                 <li><a href='/videolan/'>About VideoLAN</a></li>
-                 <li><a href='/videolan/team/'>VideoLAN Team</a></li>
-                 <li><a href='/legal.html'>Legal</a></li>
-                 <li><a href='/contribute.html'>Get Involved</a></li>
-                 <li><a href='/news.html'>News</a></li>
-                 <li><a href='/press/'>Press center</a></li>
-                 <li><a href='/videolan/events/'>Events</a></li>
-                 <li><a href='/security/'>Security center</a></li>
-                 <li><a href='/contact.html'>Contact us </a></li>
+                 <li><a href='/videolan/'><?php echo _("Project and Organization"); ?></a></li>
+                 <li><a href='/videolan/team/'><?php echo _("Team"); ?></a></li>
+                 <li><a href='/legal.html'><?php echo _("Legal"); ?></a></li>
+                 <li><a href='/contact.html'><?php echo _("Contact us"); ?></a></li>
+                 <li><a href='/videolan/partners.html'><?php echo _("Partners"); ?></a></li>
+                 <li><a href='/press/'><?php echo _("Press center"); ?></a></li>
+                 <li><a href='/videolan/events/'><?php echo _("Events"); ?></a></li>
+                 <li><a href='/security/'><?php echo _("Security center"); ?></a></li>
+                 <li><a href='/contribute.html'><?php echo _("Get Involved"); ?></a></li>
+                 <li><a href='/news.html'><?php echo _("News");?></a></li>
             </ul>
          </div>
          <div style='clear: both; padding-bottom: 30px;'></div>
          <div style='text-align: center; line-height: 14px; font-size: 9px; color: #999;'>
             <p>
-            <a href='/legal.html'>Legal Notices</a> | <a href='/contact.html'>Report Trademark Abuse</a><br />
+            <a href='/legal.html'><?php echo _("Legal"); ?></a> | <a href='/contact.html'>Report Trademark Abuse</a><br />
             VideoLAN, VLC, VLC media player and x264 are trademarks internationnaly registered by the VideoLAN non-profit organization.<br />
             Software are licensed under open-source licenses. Use and distribution are strictly defined by each software license.</p>
             <p>Design of the website was done by <a href="http://www.madebyargon.com">Made By Argon</a><br />.

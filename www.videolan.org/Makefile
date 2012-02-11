@@ -79,6 +79,9 @@ $(ROOT)/style/style.css: $(ROOT)/style/style.css.in
 
 news-rss.html: news.msg
 
+clean-locale:
+	rm -fv  $(ROOT)/index.*.php $(ROOT)/index.*.html
+
 update-po:
 	xgettext -f locale/POTFILES -o locale/website.pot -L PHP --foreign-user --copyright-holder=jb --package-name=VideoLAN\'s\ websites
 

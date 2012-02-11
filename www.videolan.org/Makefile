@@ -57,7 +57,7 @@ clean: clean-recursive
 
 locales: $(ROOT)/index.bg.php $(ROOT)/index.by.php $(ROOT)/index.de.php $(ROOT)/index.dk.php $(ROOT)/index.el.php $(ROOT)/index.es.php $(ROOT)/index.fi.php $(ROOT)/index.fr.php $(ROOT)/index.ge.php $(ROOT)/index.hi.php $(ROOT)/index.mk.php $(ROOT)/index.pl.php $(ROOT)/index.ro.php $(ROOT)/index.ru.php $(ROOT)/index.sr.php $(ROOT)/index.tr.php
 
-index.%.php: index.php
+index.%.php: index.php locale/%/LC_MESSAGES/website.po
 	rm -f $@
 	sed -e "s/language = \"\"/language = \"$*\"/" index.php > $@;
 	msgfmt -c -v -o locale/$*/LC_MESSAGES/website.mo locale/$*/LC_MESSAGES/website.po
@@ -80,7 +80,7 @@ $(ROOT)/style/style.css: $(ROOT)/style/style.css.in
 news-rss.html: news.msg
 
 clean-locale:
-	rm -fv  $(ROOT)/index.*.php $(ROOT)/index.*.html
+	rm -fv $(ROOT)/index.*.php $(ROOT)/index.*.html
 
 update-po:
 	xgettext -f locale/POTFILES -o locale/website.pot -L PHP --foreign-user --copyright-holder=jb --package-name=VideoLAN\'s\ websites

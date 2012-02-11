@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VideoLAN's websites\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-12-03 02:40+0100\n"
+"POT-Creation-Date: 2012-02-11 17:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,136 +17,144 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: include/header.php:94
+#: include/header.php:104
 msgid "A project and a"
 msgstr ""
 
-#: include/header.php:94
+#: include/header.php:104
 msgid "non-profit organization"
 msgstr ""
 
-#: include/header.php:95
+#: include/header.php:105
 msgid ""
 "composed of volunteers, developing and promoting free, open-source "
 "multimedia solutions."
 msgstr ""
 
-#: include/header.php:99
+#: include/header.php:109
 msgid "DONATE"
 msgstr ""
 
-#: include/header.php:99
+#: include/header.php:109
 msgid "why?"
 msgstr ""
 
-#: include/header.php:113 include/header.php:127
+#: include/header.php:123 include/header.php:137
 msgid "donate"
 msgstr ""
 
-#: include/header.php:142
+#: include/header.php:156
 msgid "Home"
 msgstr ""
 
-#: include/header.php:145
+#: include/header.php:159 include/header.php:301
 msgid "News"
 msgstr ""
 
-#: include/header.php:150
+#: include/header.php:164 include/header.php:292
 msgid "Project and Organization"
 msgstr ""
 
-#: include/header.php:151
+#: include/header.php:165 include/header.php:293
 msgid "Team"
 msgstr ""
 
-#: include/header.php:152
+#: include/header.php:166 include/header.php:295
 msgid "Contact us"
 msgstr ""
 
-#: include/header.php:153
+#: include/header.php:167 include/header.php:296
 msgid "Partners"
 msgstr ""
 
-#: include/header.php:154
+#: include/header.php:168 include/header.php:297
 msgid "Press center"
 msgstr ""
 
-#: include/header.php:155
+#: include/header.php:169 include/header.php:298
 msgid "Events"
 msgstr ""
 
-#: include/header.php:156
+#: include/header.php:170 include/header.php:299
 msgid "Security center"
 msgstr ""
 
-#: include/header.php:162
+#: include/header.php:176
 msgid "Download"
 msgstr ""
 
-#: include/header.php:163 include/header.php:241 index.php:19 vlc/index.php:14
+#: include/header.php:177 include/header.php:256 index.php:19 vlc/index.php:14
 #: vlc/index.php:31
 msgid "Features"
 msgstr ""
 
-#: include/header.php:164 include/header.php:242 index.php:20 vlc/index.php:15
+#: include/header.php:178 include/header.php:257 index.php:20 vlc/index.php:15
 #: vlc/index.php:57
 msgid "Screenshots"
 msgstr ""
 
-#: include/header.php:165 include/header.php:239 index.php:21 vlc/index.php:16
+#: include/header.php:179 include/header.php:254 index.php:21 vlc/index.php:16
 msgid "Skins"
 msgstr ""
 
-#: include/header.php:166 include/header.php:240
+#: include/header.php:180 include/header.php:255
 msgid "Extensions"
 msgstr ""
 
-#: include/header.php:170
+#: include/header.php:184
 msgid "Projects"
 msgstr ""
 
-#: include/header.php:186
+#: include/header.php:201
 msgid "All Projects"
 msgstr ""
 
-#: include/header.php:190 index.php:105
+#: include/header.php:205 index.php:119
 msgid "Contribute"
 msgstr ""
 
-#: include/header.php:192 include/header.php:269
+#: include/header.php:207 include/header.php:285
 msgid "Donate time"
 msgstr ""
 
-#: include/header.php:193 include/header.php:268
+#: include/header.php:208 include/header.php:284
 msgid "Donate money"
 msgstr ""
 
-#: include/header.php:194 include/header.php:270
+#: include/header.php:209 include/header.php:286
 msgid "Get Goodies"
 msgstr ""
 
-#: include/header.php:198
+#: include/header.php:213
 msgid "Support"
 msgstr ""
 
-#: include/header.php:200
+#: include/header.php:215
 msgid "Support center"
 msgstr ""
 
-#: include/header.php:202
+#: include/header.php:217 include/header.php:294 include/header.php:307
 msgid "Legal"
 msgstr ""
 
-#: include/header.php:210
+#: include/header.php:220 include/header.php:282
+msgid "Mailing-Lists"
+msgstr ""
+
+#: include/header.php:221
+msgid "Report a bug"
+msgstr ""
+
+#: include/header.php:225
 msgid "Dev' Zone"
 msgstr ""
 
-#: include/header.php:262
+#: include/header.php:278
 msgid "Community"
 msgstr ""
 
-#: include/header.php:266
-msgid "Mailing-Lists"
+#: include/header.php:300
+msgid "Get Involved"
 msgstr ""
 
 #: index.php:2
@@ -168,99 +176,105 @@ msgstr ""
 msgid "Other Systems and Versions"
 msgstr ""
 
-#: index.php:35
+#: index.php:36
 msgid "Other projects from VideoLAN"
 msgstr ""
 
-#: index.php:37
+#: index.php:38
 msgid "For Everyone"
 msgstr ""
 
-#: index.php:43
+#: index.php:44
 msgid ""
 "VLC is a powerful media player playing most of the media codecs and video "
 "formats out there."
 msgstr ""
 
-#: index.php:52
+#: index.php:53
 msgid ""
 "VideoLAN Movie Creator is a non-linear editing software for video creation."
 msgstr ""
 
-#: index.php:58
+#: index.php:60
 msgid "For Professionals"
 msgstr ""
 
-#: index.php:64
+#: index.php:66
 msgid ""
 "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
 msgstr ""
 
-#: index.php:73
+#: index.php:74
+msgid ""
+"multicat is a set of tools designed to easily and efficiently manipulate "
+"multicast streams and TS."
+msgstr ""
+
+#: index.php:83
 msgid ""
 "x264 is a free application for encoding video streams into the H.264/MPEG-4 "
 "AVC format."
 msgstr ""
 
-#: index.php:79
+#: index.php:91
 msgid "For Developers"
 msgstr ""
 
-#: index.php:88
+#: index.php:102
 msgid "View All Projects"
 msgstr ""
 
-#: index.php:91
+#: index.php:105
 msgid "Help us out!"
 msgstr ""
 
-#: index.php:93
+#: index.php:107
 msgid "Donate"
 msgstr ""
 
-#: index.php:97
+#: index.php:111
 msgid "VideoLAN is a non-profit organization."
 msgstr ""
 
-#: index.php:98
+#: index.php:112
 msgid ""
 " All our costs are met by donations we receive from our users. If you enjoy "
 "using a VideoLAN product, please donate to support us."
 msgstr ""
 
-#: index.php:100 index.php:112 index.php:123
+#: index.php:114 index.php:126 index.php:137
 msgid "Learn More"
 msgstr ""
 
-#: index.php:109
+#: index.php:123
 msgid "VideoLAN is open-source software."
 msgstr ""
 
-#: index.php:110
+#: index.php:124
 msgid ""
 "This means that if you have the skill and the desire to improve one of our "
 "products, your contributions are welcome"
 msgstr ""
 
-#: index.php:117
+#: index.php:131
 msgid "Spread the Word"
 msgstr ""
 
-#: index.php:121
+#: index.php:135
 msgid ""
 "We feel that VideoLAN has the best video software available at the best "
 "price: free. If you agree please help spread the word about our software."
 msgstr ""
 
-#: index.php:132
+#: index.php:146
 msgid "News &amp; Updates"
 msgstr ""
 
-#: index.php:136
+#: index.php:150
 msgid "Development Blogs"
 msgstr ""
 
-#: index.php:159
+#: index.php:173
 msgid "Social media"
 msgstr ""
 

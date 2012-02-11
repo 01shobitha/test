@@ -1,7 +1,7 @@
 # Translation of the main page to Danish.
 # Copyright (C) 2011 jb
 # This file is distributed under the same license as the PACKAGE package.
-# Thomas Grástein <thomasgrastein@gmail.com>, 2011.
+# Thomas GrÃ¡stein <thomasgrastein@gmail.com>, 2011.
 #
 #, fuzzy
 msgid ""
@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-23 17:12+0100\n"
 "PO-Revision-Date: 2011-11-30 14:33+0100\n"
-"Last-Translator: Thomas Grástein <thomasgrastein@gmail.com>\n"
+"Last-Translator: Thomas GrÃ¡stein <thomasgrastein@gmail.com>\n"
 "Language-Team: Danish <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -29,11 +29,11 @@ msgstr "non-profit organisation"
 msgid ""
 "composed of volunteers, developing and promoting free, open-source "
 "multimedia solutions."
-msgstr "sammensat af frivillige som udvikler og forfremmer frie open-source multimedieløsninger."
+msgstr "sammensat af frivillige som udvikler og forfremmer frie open-source multimedielÃ¸sninger."
 
 #: include/header.php:99
 msgid "DONATE"
-msgstr "DONÉR"
+msgstr "DONÃ‰R"
 
 #: include/header.php:99
 msgid "why?"
@@ -41,7 +41,7 @@ msgstr "hvorfor?"
 
 #: include/header.php:113 include/header.php:127
 msgid "donate"
-msgstr "donér"
+msgstr "donÃ©r"
 
 #: include/header.php:142
 msgid "Home"
@@ -91,7 +91,7 @@ msgstr "Funktioner"
 #: include/header.php:164 include/header.php:242 index.php:19 vlc/index.php:15
 #: vlc/index.php:57
 msgid "Screenshots"
-msgstr "Skærmbilleder"
+msgstr "SkÃ¦rmbilleder"
 
 #: include/header.php:165 include/header.php:239 index.php:20 vlc/index.php:16
 msgid "Skins"
@@ -115,15 +115,15 @@ msgstr "Medvirk"
 
 #: include/header.php:192 include/header.php:269
 msgid "Donate time"
-msgstr "Donér tid"
+msgstr "DonÃ©r tid"
 
 #: include/header.php:193 include/header.php:268
 msgid "Donate money"
-msgstr "Donér penge"
+msgstr "DonÃ©r penge"
 
 #: include/header.php:194 include/header.php:270
 msgid "Get Goodies"
-msgstr "Få Goodies"
+msgstr "FÃ¥ Goodies"
 
 #: include/header.php:198
 msgid "Support"
@@ -143,7 +143,7 @@ msgstr "Udviklerzone"
 
 #: include/header.php:262
 msgid "Community"
-msgstr "Fælleskab"
+msgstr "FÃ¦lleskab"
 
 #: include/header.php:266
 msgid "Mailing-Lists"
@@ -151,14 +151,14 @@ msgstr "Mailliste"
 
 #: index.php:2
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
-msgstr "VLC: Officiel side - Frie multimedieløsninger til alle styresystemer!"
+msgstr "VLC: Officiel side - Frie multimedielÃ¸sninger til alle styresystemer!"
 
 #: index.php:16 vlc/index.php:12
 msgid ""
 "VLC is a free and open source cross-platform multimedia player and framework "
 "that plays most multimedia files as well as DVD, Audio CD, VCD, and various "
 "streaming protocols."
-msgstr "VLC er et frit og open-source cross-platform multimedieafspiller og framework der afspiller de fleste multimediefiler så vel som DVD, LydCD, VCD og forskellige streamingprotokoller"
+msgstr "VLC er et frit og open-source cross-platform multimedieafspiller og framework der afspiller de fleste multimediefiler sÃ¥ vel som DVD, LydCD, VCD og forskellige streamingprotokoller"
 
 #: index.php:23 vlc/index.php:19
 msgid "Download VLC"
@@ -185,7 +185,7 @@ msgstr "VLC er kraftfuld medieafspiller som afspiller de fleste mediekodekser og
 #: index.php:51
 msgid ""
 "VideoLAN Movie Creator is a non-linear editing software for video creation."
-msgstr "VideoLAN Moviee Creator er et ikke-linæert redigeringsprogram til at lave videoer i."
+msgstr "VideoLAN Moviee Creator er et ikke-linÃ¦ert redigeringsprogram til at lave videoer i."
 
 #: index.php:57
 msgid "For Professionals"
@@ -212,11 +212,11 @@ msgstr "Vis Alle Projekter"
 
 #: index.php:90
 msgid "Help us out!"
-msgstr "Hjælp os!"
+msgstr "HjÃ¦lp os!"
 
 #: index.php:92
 msgid "Donate"
-msgstr "Donér"
+msgstr "DonÃ©r"
 
 #: index.php:96
 msgid "VideoLAN is a non-profit organization."
@@ -226,11 +226,11 @@ msgstr "VideoLAN er en non-profit organisation"
 msgid ""
 " All our costs are met by donations we receive from our users. If you enjoy "
 "using a VideoLAN product, please donate to support us."
-msgstr "Alle vores omkostninger er betalt ved de donationer vi modtager fra brugerne. Hvis du kan lide at bruge et VideoLAN produkt, donér venligst for at støtte os."
+msgstr "Alle vores omkostninger er betalt ved de donationer vi modtager fra brugerne. Hvis du kan lide at bruge et VideoLAN produkt, donÃ©r venligst for at stÃ¸tte os."
 
 #: index.php:99 index.php:111 index.php:122
 msgid "Learn More"
-msgstr "Lær Mere"
+msgstr "LÃ¦r Mere"
 
 #: index.php:108
 msgid "VideoLAN is open-source software."
@@ -240,7 +240,7 @@ msgstr "VideoLAN er et open-source program."
 msgid ""
 "This means that if you have the skill and the desire to improve one of our "
 "products, your contributions are welcome"
-msgstr "Dette betyder at hvis du har talent, og du ønsker at forbedre en af vores produkter, er dine bidragelser velkommen."
+msgstr "Dette betyder at hvis du har talent, og du Ã¸nsker at forbedre en af vores produkter, er dine bidragelser velkommen."
 
 #: index.php:116
 msgid "Spread the Word"
@@ -250,7 +250,7 @@ msgstr "Spred Ordet"
 msgid ""
 "We feel that VideoLAN has the best video software available at the best "
 "price: free. If you agree please help spread the word about our software."
-msgstr "Vi føler at VideoLAN har det bedste videoprogram tilgængeligt, til den bedste pris: gratis. Hvis du er enig, så hjælp venligst med at sprede ordet om vores program."
+msgstr "Vi fÃ¸ler at VideoLAN har det bedste videoprogram tilgÃ¦ngeligt, til den bedste pris: gratis. Hvis du er enig, sÃ¥ hjÃ¦lp venligst med at sprede ordet om vores program."
 
 #: index.php:131
 msgid "News &amp; Updates"
@@ -270,7 +270,7 @@ msgstr "Oplev alle funktioner"
 
 #: vlc/index.php:79
 msgid "View all screenshots"
-msgstr "Se alle skærmbilleder"
+msgstr "Se alle skÃ¦rmbilleder"
 
 #: vlc/index.php:90
 msgid "Official Downloads of VLC media player"
@@ -282,7 +282,7 @@ msgstr "Kilder"
 
 #: vlc/index.php:98
 msgid "You can also directly get the"
-msgstr "Du kan også direkte hente"
+msgstr "Du kan ogsÃ¥ direkte hente"
 
 #: vlc/index.php:99
 msgid "source code"

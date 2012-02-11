@@ -32,7 +32,7 @@
             </div>
         </div>
 
-        <div class="clearme" style='padding-top: 35px;'>
+        <div class="clearme" style='padding-top: 30px;'>
             <h1 style='margin-bottom: 25px;'><?php echo _("Other projects from VideoLAN");?></h1>
             <div style='float: left; width: 330px;'>
                 <div class='audienceCallout'><?php echo _("For Everyone");?></div>
@@ -56,7 +56,7 @@
                 </div>
             </div>
 
-            <div style='float: left; padding-left: 30px; width: 310px;'>
+            <div style='float: left; padding-left: 30px; width: 320px;'>
                 <div class='audienceCallout'><?php echo _("For Professionals"); ?></div>
                 <div class="clearme">
                     <a href='/projects/dvblast.html' class='noUnderline'>
@@ -67,7 +67,7 @@
                         </span>
                     </a>
                 </div>
-                <div>
+                <div style='padding-top: 10px; padding-left: 124px;'>
                     <a href='/projects/multicat.html' class='noUnderline'>
                         <span class='productName'>multicat</span>
                         <span class='productDescription'>
@@ -75,7 +75,7 @@
                         </span>
                     </a>
                 </div>
-                <div class="clearme" style='padding-top: 40px;'>
+                <div class="clearme" style='padding-top: 10px;'>
                     <a href='/developers/x264.html' class='noUnderline'>
                         <?php image( 'x264-IconSmall.png', "x264 Icon", "smallProjectImg" ); ?>
                         <span class='productName'>x264</span>
@@ -98,7 +98,7 @@
             <a href='/developers/bitstream.html' class='noUnderline'><span class='productName'>biTStream</span></a>
         </div>
 
-        <a href='/projects/' class='extraInfoLink' style='text-transform: uppercase; font-size: 13px; display: block; padding-top: 25px; clear: both;'>
+        <a href='/projects/' class='extraInfoLink' style='text-transform: uppercase; font-size: 13px; display: block; padding-top: 10px; clear: both'>
             <?php echo _("View All Projects"); ?></a>
 
         <div class="clearme" style='padding-top: 20px;'>

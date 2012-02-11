@@ -230,7 +230,7 @@ function draw_menus( $nobanner )
 <?php
     /* Event banner */
     if ( !$nobanner )
-        echo '<a href="https://packliberte.org/"><img alt="Pack Liberté" src="http://images1.videolan.org/images/events/banniere_packliberte-468x60-vlc.png" /></a>';
+        echo '<center><a href="https://packliberte.org/"><img alt="Pack Liberté" src="http://images1.videolan.org/images/events/animated_packliberte.gif" /></a></center>';
     ?><?php
 }
 

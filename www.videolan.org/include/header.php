@@ -103,7 +103,7 @@ function start_top( $body_color )
     }
 ?>
    <a style='float: left;' href='/'><?php image( $imgSrc, "VideoLAN association"); ?></a>
-   <div style='float: left; color: #4D4D4D; font-size: 12px; padding: 10px 10px 5px 20px; line-height: 20px; width: 400px;'>
+   <div style='float: left; color: #4D4D4D; font-size: 12px; padding: 10px 10px 5px 20px; line-height: 20px; width: 396px;'>
    <?php
     echo _('A project and a').' <a href="/videolan/" class="noUnderline">'._('non-profit organization').'</a>, '.
          _('composed of volunteers, developing and promoting free, open-source multimedia solutions.');?>

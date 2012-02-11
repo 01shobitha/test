@@ -21,7 +21,7 @@ msgstr "association loi 1901"
 
 #: include/header.php:105
 msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
-msgstr "composée de bénévoles, developpant et faisant la promotion de solutions libres pour le multimédia."
+msgstr "composée de bénévoles, développant et faisant la promotion de solutions libres pour le multimédia."
 
 #: include/header.php:109
 msgid "DONATE"
@@ -182,7 +182,7 @@ msgstr "VLC: Site officiel - Des solutions multimédias libres pour tous les OS 
 #: index.php:17
 #: vlc/index.php:12
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
-msgstr "VLC est un lecteur multimédia gratuit et libre et un systême capable de lire la plupart des fichiers multimédias ainsi que des DVD, des CD Audio, des VCD, et divers protocoles de streaming."
+msgstr "VLC est un lecteur multimédia gratuit et libre et un système capable de lire la plupart des fichiers multimédias ainsi que des DVD, des CD Audio, des VCD, et divers protocoles de streaming."
 
 #: index.php:24
 #: vlc/index.php:19
@@ -204,11 +204,11 @@ msgstr "Pour tous"
 
 #: index.php:44
 msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
-msgstr "VLC est un lecteur multimdia puissant capable de lire la plupart des codecs mdia et des formats vido."
+msgstr "VLC est un lecteur multimédia puissant capable de lire la plupart des codecs mdia et des formats vido."
 
 #: index.php:53
 msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
-msgstr "VideoLAN Movie Creator est un logiciel d'dition de vidos non-linaire."
+msgstr "VideoLAN Movie Creator est un logiciel d'édition de vidéos non-linéaire."
 
 #: index.php:60
 msgid "For Professionals"
@@ -248,7 +248,7 @@ msgstr "VideoLAN est une association loi 1901."
 
 #: index.php:112
 msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
-msgstr "Tous nos frais sont couverts par les dons que nous recevons de nos utilisateurs. Si vous apréciez notre travail, contribuez!"
+msgstr "Tous nos frais sont couverts par les dons que nous recevons de nos utilisateurs. Si vous appréciez notre travail, contribuez!"
 
 #: index.php:114
 #: index.php:126

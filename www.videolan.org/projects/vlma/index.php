@@ -79,7 +79,7 @@ and a web interface (called VLMaw).</p>
 
           <h1>Screenshot</h1>
           <div>
-            <a href="http://download.videolan.org/projects/vlma/screenshot/0.2.0/channellist.png"><img style="width:100%; border: 1px solid #ccc;" alt="DTT channel list" src="http://download.videolan.org/projects/vlma/screenshot/0.2.0/channellist.png" /></a>
+            <a href="http://images.videolan.org/projects/vlma/screenshot/0.2.0/channellist.png"><img style="width:100%; border: 1px solid #ccc;" alt="DTT channel list" src="http://images.videolan.org/projects/vlma/screenshot/0.2.0/channellist.png" /></a>
 
           </div>
 

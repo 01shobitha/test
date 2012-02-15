@@ -9,10 +9,10 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
     <div>
-        <div class="clearme" style='padding-top: 35px;'>
+        <div class="clearme" style='padding-top: 30px;'>
             <?php image( 'largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?>
             <div style='float: left; width: 500px;'>
-                <h1 class='bigtitle'>VLC media player</h1>
+                <h1 class='bigtitle'>VLC <b>2.0</b></h1>
                 <div class='projectDescription'>
                    <?php echo
                    _("VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."); ?>
@@ -22,14 +22,13 @@
                 <a class='extraInfoLink' href='/vlc/skins.php'><?php echo _("Skins"); ?></a>
                 <a id='downloadButton' href='<?php echo $dlUrl; ?>'>
                     <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
-                    <span class='downloadText'><?php echo _("Download VLC"); ?></span>
+                    <span class='downloadText'><?php echo _("Get VLC"); ?></span>
                     <span id='downloadDetails' style='font-size: 12px; color: white;'>
                     Version <span id='downloadVersion'><?php echo $win32version ?>
                     </span>&nbsp;&#8226;&nbsp;<span id='downloadOS'>Windows</span>&nbsp;&#8226;&nbsp;<span id='downloadSize'>20MB</span>
                     </span>
                 </a>
                 <?php replaceDLinfos(); ?>
-                <a class='extraInfoLink' href='/vlc/#download' style="padding-left: 100px;"><?php echo _("Other Systems and Versions");?></a>
             </div>
         </div>
 

@@ -44,7 +44,7 @@ and a web interface (called VLMaw).</p>
 <div id="right">
 
   <div class="panel-blue">
-    <img style="border: 1px solid #bbb; padding: 1px" class="center" alt="VLMa logo" src="http://download.videolan.org/projects/vlma/VLMa.png" />
+    <img style="border: 1px solid #bbb; padding: 1px" class="center" alt="VLMa logo" src="http://images.videolan.org/images/VLMa.png" />
   </div>
 
   <div class="panel-orange"> <!-- begin panel -->

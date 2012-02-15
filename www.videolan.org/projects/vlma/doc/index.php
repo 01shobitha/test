@@ -21,7 +21,7 @@ syntax / way of sending commands), clients do not have to run VLC but any media
 player that is able to read UDP (or HTTP in case of a network that does not
 support multicast) streams.</p>
 
-<img style="border: 1px solid #ccc; padding:5px" class="center" alt="VLMa typical installation" src="http://download.videolan.org/projects/vlma/vlma-arch.png" />
+<img style="border: 1px solid #ccc; padding:5px" class="center" alt="VLMa typical installation" src="http://images.videolan.org/images/vlma-arch.png" />
 
 <h2>Generalities</h2>
 

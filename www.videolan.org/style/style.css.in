@@ -767,7 +767,7 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 
 .blue #downloadButton:hover, .blue .normalButton:hover
 {
-    background: #0070BB url(http://images1.videolan.org/style/images/downloadButtonGradientBlueBright.png) repeat-x;
+    background: #0070BB url(http://images1.videolan.org/style/images/downloadButtonGradientBlue.png) repeat-x;
 }
 
 .blue .productName

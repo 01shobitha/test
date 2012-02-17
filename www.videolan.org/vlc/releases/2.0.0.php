@@ -1,6 +1,6 @@
 <?php
-   $title = _("VLC 2.0");
-   $body_color = "blue";
+   $title = _("VLC 2.0 Twoflower");
+   $body_color = "red";
    $language = "";
    $nobanner = true;
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
@@ -37,9 +37,10 @@
         </div>
 
         <div class="clearme" style='padding-top: 20px;'>
-            <h1 style='margin-bottom: 12px;'><?php echo _("Help us out!"); ?></h1>
-            <div style='float: left; width: 320px;'>
-                <div class='audienceCallout'><?php echo _("Donate"); ?></div>
+            <h1 style='margin-bottom: 12px;'><?php echo _("Features"); ?></h1>
+
+            <div style='float: left; width: 480px;'>
+                <div class='audienceCallout'><?php echo _("Video"); ?></div>
                 <div class='clearme'>
                     <?php image( "cash.png", "Donate to VLC", "floatSmallImg" ); ?>
                     <div class='productDescription'>
@@ -50,8 +51,8 @@
                     </div>
                 </div>
             </div>
-            <div style='float: left; width: 300px;'>
-                <div class='audienceCallout'><?php echo _("Contribute"); ?></div>
+            <div style='float: left; width: 480x;'>
+                <div class='audienceCallout'><?php echo _("Audio"); ?></div>
                 <div class='clearme'>
                     <?php image( "tools.png", "Contribute Work to VLC", "floatSmallImg" ); ?>
                     <div class='productDescription'>
@@ -62,18 +63,8 @@
                     </div>
                 </div>
             </div>
-            <div style='float: left; width: 320px;'>
-                <div class='audienceCallout'><?php echo _("Spread the Word"); ?></div>
-                <div class='clearme'>
-                    <?php image( "heart.png", "Spread VLC", "floatSmallImg" ); ?>
-                    <div class='productDescription'>
-                        <?php echo _("We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."); ?><br />
-                        <a href='/contribute.html' class='extraInfoLink' style='text-transform: uppercase; font-size: 13px; display: block; padding-top: 10px;'>
-                          <?php echo _("Learn More"); ?></a>
-                    </div>
-                </div>
-            </div>
         </div>
+
         <div class="clearme"></div>
 
 

@@ -15,15 +15,16 @@
                 <h1 class='bigtitle'>VLC gets <b>2.0</b></h1>
                 <div class='projectDescription'>
                     <div>VLC 2.0 "Twoflower" is a major new version of our popular media player.</div>
-                    <div>Faster multithreaded</div>
-                    <div>Better quality</div>
-                    <div>Stronger</div>
-                    <div>Lighter</div>
-                    <div>More stable</div>
+                    <div>Faster when decoding, using multi-cores, GPU and mobile hardware,<br />
+                         bringing support for more codecs, notably professional, HD and 10bits codecs, <br />
+                         VLC 2.0 is a major change in VLC.</div>
+                    <div>Twoflower has a new rendering pipeline for video, with higher quality subtitles,<br />
+                         and new video filters to enhance your videos.</div>
+                    <div>It also brings many new audio improvements including better resampling.</div>
+                    <div>There are completely reworked Mac and Web interfaces, and improvements on the other ones.</div>
+                    <div>Twoflower fixes a thousands of bugs, in more than 7000 commits from 160 contributors.</div>
                 </div>
-                <a class='extraInfoLink' href='/vlc/features.html'><?php echo _("Features"); ?></a>
-                <a class='extraInfoLink' href='/vlc/screenshots.html'><?php echo _("Screenshots"); ?></a>
-                <a class='extraInfoLink' href='/vlc/skins.php'><?php echo _("Skins"); ?></a>
+                <a class='extraInfoLink' href='#features.html'><?php echo _("Features"); ?></a>
                 <a id='downloadButton' href='<?php echo $dlUrl; ?>'>
                     <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
                     <span class='downloadText'><?php echo _("Get VLC now!"); ?></span>
@@ -51,7 +52,7 @@
                     </div>
                 </div>
             </div>
-            <div style='float: left; width: 480x;'>
+            <div style='float: left; width: 480px;'>
                 <div class='audienceCallout'><?php echo _("Audio"); ?></div>
                 <div class='clearme'>
                     <?php image( "tools.png", "Contribute Work to VLC", "floatSmallImg" ); ?>

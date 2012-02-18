@@ -242,7 +242,7 @@ function vlcscreenshot($img,$thumb, $desc){
 
         <div class="clearme"></div>
         <h1>Contact</h1>
-        <p>For any questions related to this release, please <a href="/contact.html">contact us</a></p>
+        <p>For any questions related to this release, please <a href="/contact.html">contact us</a>.</p>
 
 </div>
    <script>

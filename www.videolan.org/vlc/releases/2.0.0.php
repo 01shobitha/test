@@ -173,7 +173,21 @@
 
         <div class="clearme"></div>
         <a name="download" id="getit"></a>
-        <h1>Screenshots</h1>
+<?php
+function vlcscreenshot($img,$thumb, $desc){
+    echo"<div class='screenshot' style='overflow: hidden; width: 120px;'><a href='http://images1.videolan.org/vlc/screenshots/$img'><img
+    src='http://images1.videolan.org/vlc/screenshots/$thumb' alt='VLC media player - $desc' /></a>
+    </div>";
+}
+?>
+
+            <div style='float: right; width: 450px; padding-left: 70px;'>
+                <h1>Screenshots</h1>
+                <?php
+                vlcscreenshot( "1.0.0/VLC_Gnome.png",
+                            "1.0.0/tm_VLC_Gnome.jpg",
+                            "Linux - Gnome");?>
+            </div>
 
         <h1>Download VLC</h1>
 

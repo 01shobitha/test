@@ -184,9 +184,25 @@ function vlcscreenshot($img,$thumb, $desc){
             <div style='float: right; width: 450px; padding-left: 70px;'>
                 <h1>Screenshots</h1>
                 <?php
-                vlcscreenshot( "1.0.0/VLC_Gnome.png",
-                            "1.0.0/tm_VLC_Gnome.jpg",
-                            "Linux - Gnome");?>
+                vlcscreenshot( "2.0.0/vlc-2.0-macosx.jpg",
+                               "2.0.0/tm_vlc-2.0-macosx.jpg",
+                               "Mac OS X.6");
+                vlcscreenshot( "2.0.0/vlc-2.0-gnome3-debian.jpg",
+                               "2.0.0/tm_vlc-2.0-gnome3-debian.jpg",
+                               "Mac OS X.6");
+                vlcscreenshot( "2.0.0/vlc-2.0-win7.jpg",
+                               "2.0.0/tm_vlc-2.0-win7.jpg",
+                               "Mac OS X.6");
+                vlcscreenshot( "2.0.0/vlc-2.0-gnome2-mandriva.jpg",
+                               "2.0.0/tm_vlc-2.0-gnome2-mandriva.jpg",
+                               "Mac OS X.6");
+                vlcscreenshot( "2.0.0/vlc-2.0-poney.jpg",
+                               "2.0.0/tm_vlc-2.0-poney.jpg",
+                               "Mac OS X.6");
+                vlcscreenshot( "2.0.0/vlc-2.0-gnome3-open.jpg",
+                               "2.0.0/tm_vlc-2.0-gnome3-open.jpg",
+                               "Mac OS X.6");
+               ?>
             </div>
 
         <h1>Download VLC</h1>

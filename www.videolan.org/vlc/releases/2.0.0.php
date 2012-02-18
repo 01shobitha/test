@@ -209,6 +209,14 @@ function vlcscreenshot($img,$thumb, $desc){
             </div>
 
         <div class="clearme"></div>
+        <h1>Spread the news</h1>
+        <p><a href="http://www.reddit.com/r/technology/comments/pvh6t/vlc_200_twoflower_is_out/">Reddit</a>
+           <a href="https://www.facebook.com/vlc.media.player/posts/249766805097687">Facebook</a>
+           <a href="http://news.ycombinator.com/item?id=3607350">Hacker News</a>
+           <a href="https://twitter.com/#!/videolan/status/170943829774577664">Twitter</a>
+        </p>
+
+        <div class="clearme"></div>
         <h1>Download VLC</h1>
         <h2>Windows</h2>
            <a id='downloadButton' href='<?php echo $dlUrl; ?>' class="sourceforge_accelerator_link">
@@ -243,6 +251,7 @@ function vlcscreenshot($img,$thumb, $desc){
         </div>
         <h2 style="margin-top: 30px;">Sources</h2>
         <a href="/vlc/download-sources.html">Get the source!</a>
+
 
         <div class="clearme"></div>
         <h1>Contact</h1>

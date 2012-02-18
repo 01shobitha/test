@@ -10,7 +10,7 @@
 
 ?>
     <div>
-            <center><h1 class='bigtitle'>VLC <b>2.0</b></h1>
+            <center><h1 class='bigtitle'>VLC reaches <b>2.0</b></h1>
             <div style="padding-top: 10px;">VLC 2.0 "Twoflower" is a major new version of our popular media player.</div>
             </center>
 

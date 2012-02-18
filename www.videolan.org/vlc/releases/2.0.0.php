@@ -9,7 +9,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
     <div>
-            <center><h1 class='bigtitle'>VLC gets <b>2.0</b></h1>
+            <center><h1 class='bigtitle'>VLC <b>2.0</b></h1>
             <div style="padding-top: 10px;">VLC 2.0 "Twoflower" is a major new version of our popular media player.</div>
             </center>
 
@@ -43,7 +43,7 @@
                 $("#downloadButton").click(function() {
                      $('html, body').animate({
                          scrollTop: $("#getit").offset().top
-                     }, 3000);
+                     }, 2000);
                 });
                 </script>
 
@@ -59,10 +59,10 @@
                     <div class='productDescription'>
                         <ul>
                            <li>Rewritten video output core and modules, allowing subpicture blending in GPU.</li>
-                           <li>Shader support in the OpenGL output, for chroma conversion, including 10bits.</li>
+                           <li>Shader support in the OpenGL output, for colorspace conversion, including 10bits.</li>
                            <li>New video outputs for Windows 7, Android, iOS and OS/2.</li>
                            <li>New debanding, grain, denoising and anti-flickering filters.</li>
-                           <li>New deinterlacing filter, including an inverse telecine algorithm.</li>
+                           <li>New deinterlacing filter, including an Inverse Telecine algorithm.</li>
                         </ul>
                     </div>
                 </div>
@@ -72,9 +72,9 @@
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>Simplification of the audio core for faster processing.</li>
                            <li>New resamplers for higher quality audio.</li>
                            <li>New dynamic range compressor and karaoke filters.</li> 
+                           <li>Simplification of the audio core for faster processing.</li>
                            <li>New audio outputs for iOS, Android and OS/2.</li>
                         </ul>
                     </div>
@@ -86,11 +86,11 @@
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>Multi-threaded decoding for H.264, Mpeg-4/Xvid and Webm.</li>
+                           <li>Multi-threaded decoding for H.264, MPEG-4/Xvid and WebM.</li>
                            <li>Support for 10bits codecs, WMV image and some other codecs.</li>
                            <li>Rewritten support for images, including jpeg, png, xcf, bmp...</li>
                            <li>Important changes in RealVideo and Real Format support.</li>
-                           <li>CrystalHD cards and Android OpenMAL support for hardware decoding.</li>
+                           <li>CrystalHD cards and Android OpenMAX support for hardware decoding.</li>
                         </ul>
                     </div>
                 </div>
@@ -115,11 +115,11 @@
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>Completly new interface, based on one single Window.<br />
+                           <li>Completely new, single window interface:<br />
                             - Available in 2 colors: Lion grey and QTX black.<br />
-                            - Supporting extensions and better integrated in Lion.</li>
+                            - Extensions support and better Lion integration.</li>
                            <li>Support for all QTKit devices through qtcapture and qtsound modules.</li>
-                           <li>Still supporting OS X 10.5 and PowerPC-based computers.</li>
+                           <li>Continued support for X 10.5 and PPC users (1080p and ProRes on Dual-G5!).</li>
                         </ul>
                     </div>
                 </div>
@@ -162,7 +162,7 @@
                            <li>New libVLC examples are available: media player, photobooth and mediainfo clones.</li>
                            <li>New JSON requests on the web interface to control running VLC instances.</li>
                            <li>Implementation of the <a href="http://www.mpris.org/">MPRIS2</a> interface to control media players.</li>
-                           <li>Upgraded webplugins of VLC, to be more stable and integrated in all browsers.</li>
+                           <li>VLC's web plugins have been rewritten for better integration and stability in all browsers.</li>
                         </ul>
                     </div>
                 </div>
@@ -217,7 +217,7 @@ function vlcscreenshot($img,$thumb, $desc){
         <div class="clearme"></div>
         <h2 style="margin-top: 30px;">Mac OS X</h2>
         <div>
-        <h3>Mac OS X 10.6 & 10.7</h3>
+        <h3>Mac OS X 10.6 &amp; 10.7</h3>
            <a id='downloadButton' href='<?php echo $dlUrl; ?>'>
                <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
                <span class='downloadText'><?php echo _("VLC for Mac OS X 10.6+"); ?></span>

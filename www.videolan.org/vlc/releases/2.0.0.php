@@ -3,10 +3,11 @@
    $body_color = "red";
    $language = "";
    $nobanner = true;
+   $additional_js = array("/js/slimbox2.js");
+   $additional_css= array("/js/css/slimbox2.css");
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
-   include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");
-   include($_SERVER["DOCUMENT_ROOT"]."/include/magpierss/rss_fetch.inc");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
+
 ?>
     <div>
             <center><h1 class='bigtitle'>VLC <b>2.0</b></h1>
@@ -30,7 +31,8 @@
                     <div style="padding-bottom: 8px;">Completely reworked Mac and Web interfaces and improvements in 
                   the other interfaces make VLC easier than ever to use.</div>
 
-                    <div>Finally, Twoflower fixes hundreds of bugs, in more than 7000 commits from 160 contributors.</div>
+                    <div>Twoflower fixes hundreds of bugs, in more than 7000 commits from 160 volunteers.</div>
+
                 </div>
                 <a id='downloadButton' href='#download'>
                     <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
@@ -173,9 +175,10 @@
 
         <div class="clearme"></div>
         <a name="download" id="getit"></a>
+
 <?php
 function vlcscreenshot($img,$thumb, $desc){
-    echo"<div class='screenshot' style='overflow: hidden; width: 150px; height: 97px;'><a href='http://images1.videolan.org/vlc/screenshots/$img'><img
+    echo"<div class='screenshot' style='overflow: hidden; width: 150px; height: 97px;'><a href='http://images1.videolan.org/vlc/screenshots/$img' rel='lightbox-vlc'><img
     src='http://images1.videolan.org/vlc/screenshots/$thumb' alt='VLC media player - $desc' /></a>
     </div>";
 }

@@ -43,7 +43,7 @@
                 $("#downloadButton").click(function() {
                      $('html, body').animate({
                          scrollTop: $("#getit").offset().top
-                     }, 2000);
+                     }, 4000);
                 });
                 </script>
 
@@ -100,6 +100,10 @@
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
+                           <li>Experimental support for BluRay discs: <br />
+                               - Menu are deactivated in this release (will come soon).<br />
+                               - <a href="/developers/libaacs.html" style="color: #4D4D4D;">AACS</a> and BD+ DRM libraries and keys are not shipped, for legal reasons.</li>
+                           <li>Support for SDI capture cards and QTKit devices.</li>
                            <li>Support for new adaptive streaming protocols, like HLS and DASH.</li>
                         </ul>
                     </div>
@@ -111,9 +115,9 @@
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>Completly new interface, based on one single Window.</li>
-                           <li> - Available in 2 colors: Lion grey and QTX black.</li>
-                           <li> - Supporting extensions and better integrated in Lion.</li>
+                           <li>Completly new interface, based on one single Window.<br />
+                            - Available in 2 colors: Lion grey and QTX black.<br />
+                            - Supporting extensions and better integrated in Lion.</li>
                            <li>Support for all QTKit devices through qtcapture and qtsound modules.</li>
                            <li>Still supporting X.5 and G5 computers.</li>
                         </ul>
@@ -128,7 +132,7 @@
                            <li>Vastly improved MKV demuxer.</li>
                            <li>Rewritten linked segments and ordered chapter files support.</li>
                            <li>Correct support for FLAC, RV and Hi10p in MKV.</li>
-                           <li>Rewritten Seeking support.</li>
+                           <li>Rewritten seeking support in cue files.</li>
                            <li>Various ASS subtitles improvements.</li>
                         </ul>
                     </div>
@@ -154,7 +158,11 @@
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>Simplification of the audio core for faster processing.</li>
+                           <li>libVLC, libVLCcore and libcompat have switched from GPL to <a href="/press/lgpl-libvlc.html">LGPLv2.1+</a>.</li>
+                           <li>New libVLC examples are available: media player, photobooth and mediainfo clones.</li>
+                           <li>New JSON requests on the web interface to control running VLC instances.</li>
+                           <li>Implementation of the <a href="http://www.mpris.org/">MPRIS2</a> interface to control media players.</li>
+                           <li>Upgraded webplugins of VLC, to be more stable and integrated in all browsers.</li>
                         </ul>
                     </div>
                 </div>
@@ -164,9 +172,9 @@
         </div>
 
         <div class="clearme"></div>
+        <a name="download" id="getit"></a>
         <h1>Screenshots</h1>
 
-        <a name="download" id="getit"></a>
         <h1>Download VLC</h1>
 
               

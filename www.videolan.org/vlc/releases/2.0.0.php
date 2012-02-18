@@ -43,7 +43,7 @@
                 $("#downloadButton").click(function() {
                      $('html, body').animate({
                          scrollTop: $("#getit").offset().top
-                     }, 4000);
+                     }, 3000);
                 });
                 </script>
 
@@ -207,7 +207,35 @@ function vlcscreenshot($img,$thumb, $desc){
 
         <div class="clearme"></div>
         <h1>Download VLC</h1>
-
+        <h2>Windows</h2>
+           <a id='downloadButton' href='<?php echo $dlUrl; ?>'>
+               <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
+               <span class='downloadText'><?php echo _("VLC for Windows"); ?></span>
+               <span id='downloadDetails' style='font-size: 12px; color: white;'>
+               Version <span id='downloadVersion'><?php echo $win32version ?>
+           </a>
+        <div class="clearme"></div>
+        <h2 style="margin-top: 30px;">Mac OS X</h2>
+        <div>
+        <h3>Mac OS X.6 & X.7</h3>
+           <a id='downloadButton' href='<?php echo $dlUrl; ?>'>
+               <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
+               <span class='downloadText'><?php echo _("VLC for Mac OS X.6+"); ?></span>
+               <span id='downloadDetails' style='font-size: 12px; color: white;'>
+               Version <span id='downloadVersion'><?php echo $win32version ?>
+           </a>
+        </div>
+        <div style="float: right; width: 400px;">
+        <h3>Mac OS X.5 intel</h3>
+        <h3>Mac OS X.5 PPC</h3>
+        </div>
+        <div class="clearme"></div>
+        <div style="float: right; width: 400px; margin-top: 15px;">
+         <h2>Linux</h2>
+         <p>Ask your favorite packager for VLC 2.0!</p>
+        </div>
+        <h2 style="margin-top: 30px;">Sources</h2>
+        <a href="/vlc/download-sources.html">Get the source!</a>
               
 </div>
 <?php footer('$Id: index.php 7173 2012-02-11 00:58:09Z jb $'); ?>

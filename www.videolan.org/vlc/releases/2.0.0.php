@@ -21,14 +21,14 @@
                     <div style="padding-bottom: 8px;">With faster decoding on multi-core, GPU, and mobile hardware and the ability to open more
                   formats, notably professional, HD and 10bits codecs, 2.0 is a major upgrade for VLC.
                          </div>
-                
+
                     <div style="padding-bottom: 8px;">Twoflower has a new rendering pipeline for video, with higher quality subtitles,
                          and new video filters to enhance your videos.</div>
 
                     <div style="padding-bottom: 8px;">It supports many new devices and BluRay Discs (experimental).
                         </div>
 
-                    <div style="padding-bottom: 8px;">Completely reworked Mac and Web interfaces and improvements in 
+                    <div style="padding-bottom: 8px;">Completely reworked Mac and Web interfaces and improvements in
                   the other interfaces make VLC easier than ever to use.</div>
 
                     <div>Twoflower fixes hundreds of bugs, in more than 7000 commits from 160 volunteers.</div>
@@ -75,7 +75,7 @@
                     <div class='productDescription'>
                         <ul>
                            <li>New resamplers for higher quality audio.</li>
-                           <li>New dynamic range compressor and karaoke filters.</li> 
+                           <li>New dynamic range compressor and karaoke filters.</li>
                            <li>Simplification of the audio core for faster processing.</li>
                            <li>New audio outputs for iOS, Android and OS/2.</li>
                         </ul>
@@ -211,7 +211,7 @@ function vlcscreenshot($img,$thumb, $desc){
         <div class="clearme"></div>
         <h1>Download VLC</h1>
         <h2>Windows</h2>
-           <a id='downloadButton' href='<?php echo $dlUrl; ?>'>
+           <a id='downloadButton' href='<?php echo $dlUrl; ?>' class="sourceforge_accelerator_link">
                <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
                <span class='downloadText'><?php echo _("VLC for Windows"); ?></span>
                <span id='downloadDetails' style='font-size: 12px; color: white;'>
@@ -239,6 +239,15 @@ function vlcscreenshot($img,$thumb, $desc){
         </div>
         <h2 style="margin-top: 30px;">Sources</h2>
         <a href="/vlc/download-sources.html">Get the source!</a>
-              
+
 </div>
+   <script>
+   (function() {
+       var script = document.createElement('script');
+       script.src = '//sourceforge.net/accelerator/js?partner_id=60';
+       script.defer = true;
+       var s = document.getElementsByTagName('script')[0];
+       s.parentNode.insertBefore(script, s);
+   })();
+   </script>
 <?php footer('$Id: index.php 7173 2012-02-11 00:58:09Z jb $'); ?>

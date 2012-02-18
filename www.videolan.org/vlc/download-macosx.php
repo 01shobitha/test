@@ -25,8 +25,8 @@ or to contact us through our <a href="http://forum.videolan.org/viewtopic.php?t=
 
 <?php
 $vlc_version = "1.0.5";
-$vlc_version_ppc = "1.1.12";
-$vlc_version_intel = "1.1.12";
+$vlc_version_ppc = "2.0.0";
+$vlc_version_intel = "2.0.0";
 ?>
 
 <h1>Download latest VLC for Mac OS X 10.5 and later</h1>

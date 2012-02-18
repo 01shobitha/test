@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|18 February 2012|VLC 2.0.0|After 485 million downloads of VLC 1.1.x versions, VideoLAN and the VLC development team present VLC 2.0.0 "Twoflower", a major new release.<br />With faster decoding on multi-core, GPU, and mobile hardware and the ability to open more formats, notably professional, HD and 10bits codecs, 2.0 is a major upgrade for VLC.<br /> Twoflower has a new rendering pipeline for video, with higher quality subtitles, and new video filters to enhance your videos. <br />It supports many new devices and BluRay Discs (experimental). <br />It features a completely reworked Mac and Web interfaces and improvements in the other interfaces make VLC easier than ever to use.<br /> Twoflower fixes several hundreds of bugs, in more than 7000 commits from 160 volunteers.<br />More info on <a href="/vlc/releases/2.0.0.html">the release notes</a>.
+
 |15 January 2012|VideoLAN at SCALE 10x|VideoLAN will have a booth (#74) at the <a href="http://www.socallinuxexpo.org/scale10x">Southern California Linux Expo</a> at the Hilton Los Angeles Airport Hotel next week-end. The event will take place from Friday throughout Sunday. We will happily show you the latest developments and our forthcoming major VLC update.
 
 |4 January 2012|multicat 2.0|VideoLAN is happy to announce the second major release of <a href="http://www.videolan.org/projects/multicat.html">multicat</a>. It brings numerous new features, such as recording chunks of a stream in a directory, and supporting TCP socket and IPv6, as well as bug fixes. Also aggregaRTP was extended to support retransmission of lost packets.

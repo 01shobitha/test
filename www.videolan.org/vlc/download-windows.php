@@ -10,17 +10,17 @@
 <h1 class="bigtitle"> VLC media player for Windows </h1>
 <div id="left">
 
-<?php $vlc_version = '1.1.11'; ?>
+<?php $vlc_version = '2.0.0'; ?>
 <h1>Download latest VLC - <?php echo $vlc_version; ?></h2>
-<p>VLC currently supports <b>Windows 2000 (SP4+UR1), XP, Vista and 7</b>.</p>
+<p>VLC currently supports <b>Windows XP SP2, Vista and 7</b>.</p>
 
 <?php
     pkgitem_sf("Installer package",
-                   "$vlc_version/win32","vlc-$vlc_version-win32.exe","vlc", "Exe installer",         "11b9f1e66ee67f0c765c5895a99755dd") ;
+                   "$vlc_version/win32","vlc-$vlc_version-win32.exe","vlc", "Exe installer",         "28073d35e0d46226e8d39e36a2f3f0c6") ;
     pkgitem_sf("7zip package",
-                  "$vlc_version/win32","vlc-$vlc_version-win32.7z",  "vlc", "(No installer needed)", "80f02f05015d6eb2efeaa7a7b6b532b7" );
+                  "$vlc_version/win32","vlc-$vlc_version-win32.7z",  "vlc", "(No installer needed)", "ab384ff67ff2e0b510c76cc9affd590a" );
     pkgitem_sf("Zip package",
-                  "$vlc_version/win32","vlc-$vlc_version-win32.zip", "vlc", "(No installer needed)", "9dc2647f5694f3fb331dc1bccd921cf7" );
+                  "$vlc_version/win32","vlc-$vlc_version-win32.zip", "vlc", "(No installer needed)", "4652b2a1bc9ebd094bf1005988a99315" );
 ?>
 
    <div class="clearme"> </div>

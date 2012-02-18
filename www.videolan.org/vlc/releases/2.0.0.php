@@ -174,7 +174,6 @@
         </div>
 
         <div class="clearme"></div>
-        <a name="download" id="getit"></a>
 
 <?php
 function vlcscreenshot($img,$thumb, $desc){
@@ -185,6 +184,7 @@ function vlcscreenshot($img,$thumb, $desc){
 ?>
 
             <div>
+        <a name="download" id="getit"></a>
                 <h1>Screenshots</h1>
                 <?php
                 vlcscreenshot( "2.0.0/vlc-2.0-macosx.jpg",

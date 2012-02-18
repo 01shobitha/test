@@ -103,7 +103,7 @@
                     <div class='productDescription'>
                         <ul>
                            <li>Experimental support for BluRay discs: <br />
-                               - Menu are deactivated in this release (will come soon).<br />
+                               - Menus are deactivated in this release (will come soon).<br />
                                - <a href="/developers/libaacs.html" style="color: #4D4D4D;">AACS</a> and BD+ DRM libraries and keys are not shipped, for legal reasons.</li>
                            <li>Support for SDI capture cards and QTKit devices.</li>
                            <li>Support for new adaptive streaming protocols, like HLS and DASH.</li>

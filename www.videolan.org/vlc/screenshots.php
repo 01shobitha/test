@@ -15,22 +15,22 @@ echo"<div class='largescreenshot'><a href='http://images1.videolan.org/vlc/scree
 
 <h2 class="clearme">2.0 - Twoflower</h2>
                 <?php
-                vlcscreenshot( "2.0.0/vlc-2.0-macosx.jpg",
+                screenshot( "2.0.0/vlc-2.0-macosx.jpg",
                                "2.0.0/tm_vlc-2.0-macosx.jpg",
                                "Mac OS X 10.6");
-                vlcscreenshot( "2.0.0/vlc-2.0-gnome3-debian.jpg",
+                screenshot( "2.0.0/vlc-2.0-gnome3-debian.jpg",
                                "2.0.0/tm_vlc-2.0-gnome3-debian.jpg",
                                "Gnome 3 on Debian");
-                vlcscreenshot( "2.0.0/vlc-2.0-win7.jpg",
+                screenshot( "2.0.0/vlc-2.0-win7.jpg",
                                "2.0.0/tm_vlc-2.0-win7.jpg",
                                "Windows 6");
-                vlcscreenshot( "2.0.0/vlc-2.0-gnome2-mandriva.jpg",
+                screenshot( "2.0.0/vlc-2.0-gnome2-mandriva.jpg",
                                "2.0.0/tm_vlc-2.0-gnome2-mandriva.jpg",
                                "Gnome 2 on Mandriva");
-                vlcscreenshot( "2.0.0/vlc-2.0-poney.jpg",
+                screenshot( "2.0.0/vlc-2.0-poney.jpg",
                                "2.0.0/tm_vlc-2.0-poney.jpg",
                                "Mac OS X.6");
-                vlcscreenshot( "2.0.0/vlc-2.0-gnome3-open.jpg",
+                screenshot( "2.0.0/vlc-2.0-gnome3-open.jpg",
                                "2.0.0/tm_vlc-2.0-gnome3-open.jpg",
                                "Gnome 3");
                ?>

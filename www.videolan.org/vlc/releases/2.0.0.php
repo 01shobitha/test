@@ -31,7 +31,7 @@
                     <div style="padding-bottom: 8px;">Completely reworked Mac and Web interfaces and improvements in
                   the other interfaces make VLC easier than ever to use.</div>
 
-                    <div>Twoflower fixes hundreds of bugs, in more than 7000 commits from 160 volunteers.</div>
+                    <div>Twoflower fixes several hundreds of bugs, in more than 7000 commits from 160 volunteers.</div>
 
                 </div>
                 <a id='downloadButton' href='#download'>
@@ -239,6 +239,10 @@ function vlcscreenshot($img,$thumb, $desc){
         </div>
         <h2 style="margin-top: 30px;">Sources</h2>
         <a href="/vlc/download-sources.html">Get the source!</a>
+
+        <div class="clearme"></div>
+        <h1>Contact</h1>
+        <p>For any questions related to this release, please <a href="/contact.html">contact us</a></p>
 
 </div>
    <script>

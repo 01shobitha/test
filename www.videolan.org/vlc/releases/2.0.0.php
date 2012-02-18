@@ -119,7 +119,7 @@
                             - Available in 2 colors: Lion grey and QTX black.<br />
                             - Supporting extensions and better integrated in Lion.</li>
                            <li>Support for all QTKit devices through qtcapture and qtsound modules.</li>
-                           <li>Still supporting X.5 and G5 computers.</li>
+                           <li>Still supporting OS X 10.5 and PowerPC-based computers.</li>
                         </ul>
                     </div>
                 </div>
@@ -186,22 +186,22 @@ function vlcscreenshot($img,$thumb, $desc){
                 <?php
                 vlcscreenshot( "2.0.0/vlc-2.0-macosx.jpg",
                                "2.0.0/tm_vlc-2.0-macosx.jpg",
-                               "Mac OS X.6");
+                               "Mac OS X 10.6");
                 vlcscreenshot( "2.0.0/vlc-2.0-gnome3-debian.jpg",
                                "2.0.0/tm_vlc-2.0-gnome3-debian.jpg",
-                               "Mac OS X.6");
+                               "Gnome 3 on Debian");
                 vlcscreenshot( "2.0.0/vlc-2.0-win7.jpg",
                                "2.0.0/tm_vlc-2.0-win7.jpg",
-                               "Mac OS X.6");
+                               "Windows 6");
                 vlcscreenshot( "2.0.0/vlc-2.0-gnome2-mandriva.jpg",
                                "2.0.0/tm_vlc-2.0-gnome2-mandriva.jpg",
-                               "Mac OS X.6");
+                               "Gnome 2 on Mandriva");
                 vlcscreenshot( "2.0.0/vlc-2.0-poney.jpg",
                                "2.0.0/tm_vlc-2.0-poney.jpg",
                                "Mac OS X.6");
                 vlcscreenshot( "2.0.0/vlc-2.0-gnome3-open.jpg",
                                "2.0.0/tm_vlc-2.0-gnome3-open.jpg",
-                               "Mac OS X.6");
+                               "Gnome 3");
                ?>
             </div>
 
@@ -217,17 +217,17 @@ function vlcscreenshot($img,$thumb, $desc){
         <div class="clearme"></div>
         <h2 style="margin-top: 30px;">Mac OS X</h2>
         <div>
-        <h3>Mac OS X.6 & X.7</h3>
+        <h3>Mac OS X 10.6 & 10.7</h3>
            <a id='downloadButton' href='<?php echo $dlUrl; ?>'>
                <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
-               <span class='downloadText'><?php echo _("VLC for Mac OS X.6+"); ?></span>
+               <span class='downloadText'><?php echo _("VLC for Mac OS X 10.6+"); ?></span>
                <span id='downloadDetails' style='font-size: 12px; color: white;'>
                Version <span id='downloadVersion'><?php echo $win32version ?>
            </a>
         </div>
         <div style="float: right; width: 400px;">
-        <h3>Mac OS X.5 intel</h3>
-        <h3>Mac OS X.5 PPC</h3>
+        <h3>Mac OS X 10.5 Intel</h3>
+        <h3>Mac OS X 10.5 PowerPC</h3>
         </div>
         <div class="clearme"></div>
         <div style="float: right; width: 400px; margin-top: 15px;">

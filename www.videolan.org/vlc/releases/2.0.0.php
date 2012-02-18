@@ -175,13 +175,13 @@
         <a name="download" id="getit"></a>
 <?php
 function vlcscreenshot($img,$thumb, $desc){
-    echo"<div class='screenshot' style='overflow: hidden; width: 120px;'><a href='http://images1.videolan.org/vlc/screenshots/$img'><img
+    echo"<div class='screenshot' style='overflow: hidden; width: 150px; height: 97px;'><a href='http://images1.videolan.org/vlc/screenshots/$img'><img
     src='http://images1.videolan.org/vlc/screenshots/$thumb' alt='VLC media player - $desc' /></a>
     </div>";
 }
 ?>
 
-            <div style='float: right; width: 450px; padding-left: 70px;'>
+            <div>
                 <h1>Screenshots</h1>
                 <?php
                 vlcscreenshot( "2.0.0/vlc-2.0-macosx.jpg",
@@ -205,6 +205,7 @@ function vlcscreenshot($img,$thumb, $desc){
                ?>
             </div>
 
+        <div class="clearme"></div>
         <h1>Download VLC</h1>
 
               

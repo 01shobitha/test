@@ -77,7 +77,7 @@ function StartHtml( $title, $color, $language,
     <![endif]-->
 
     <?php /* Get the one in the Google CDN to get cached */ ?>
-    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js' type='text/javascript'></script>
+    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js' type='text/javascript'></script>
     <?php if( isset($additional_js) ) {
         foreach($additional_js as $js) {
             echo '<script src="'.$js.'" type="text/javascript"></script>';

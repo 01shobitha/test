@@ -216,6 +216,8 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 {
     float: right;
     padding: 7px;
+    height: 85px;
+    width: 90px;
 }
 
 /* =============================== SIDEBAR STYLE =============================== */

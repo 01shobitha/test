@@ -15,7 +15,7 @@
 <p> Latest VLC source code tarball (2.0.0):</p>
 
 <?php /*<a href="http://sourceforge.net/projects/vlc/files/2.0.0/vlc-2.0.0.tar.xz/download">VLC source code tar.bz2</a>*/ ?>
-<?php pkgitem_nomirr("VLC source code tar.xz", "2.0.0","vlc-2.0.0.tar.bz2","vlc", "source package", "8806bff2ea9c76791123d444a92f708c"); ?>
+<?php pkgitem_nomirr("VLC source code tar.xz", "2.0.0","vlc-2.0.0.tar.xz","vlc", "source package", "8806bff2ea9c76791123d444a92f708c"); ?>
 
 <h2 style="clear: both;"> Required libraries: </h2>
 <a href="ftp://ftp.videolan.org/pub/videolan/contrib/">Contrib libraries tarballs</a>

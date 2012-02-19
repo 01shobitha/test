@@ -23,18 +23,25 @@ echo"<div class='largescreenshot'><a href='http://images1.videolan.org/vlc/scree
                                "Gnome 3 on Debian");
                 screenshot( "2.0.0/vlc-2.0-win7.jpg",
                                "2.0.0/tm_vlc-2.0-win7.jpg",
-                               "Windows 6");
+                               "Windows 7");
                 screenshot( "2.0.0/vlc-2.0-gnome2-mandriva.jpg",
                                "2.0.0/tm_vlc-2.0-gnome2-mandriva.jpg",
                                "Gnome 2 on Mandriva");
+echo '<p class="clearme"></p>';
+                screenshot( "2.0.0/vlc-2.0-lion-black.jpg",
+                               "2.0.0/tm_vlc-2.0-lion-black.jpg",
+                               "Mac OS X 10.7 Lion");
                 screenshot( "2.0.0/vlc-2.0-poney.jpg",
                                "2.0.0/tm_vlc-2.0-poney.jpg",
-                               "Mac OS X.6");
+                               "Gnome 3 on debian");
                 screenshot( "2.0.0/vlc-2.0-gnome3-open.jpg",
                                "2.0.0/tm_vlc-2.0-gnome3-open.jpg",
                                "Gnome 3");
+                screenshot( "2.0.0/vlc-2.0-lion.jpg",
+                               "2.0.0/tm_vlc-2.0-lion.jpg",
+                               "Mac OS X 10.7 Lion");
                ?>
- 
+
 <h2 class="clearme">1.0 - Goldeneye</h2>
 <?php
 screenshot( "1.0.0/VLC_Gnome.png",

@@ -190,15 +190,15 @@ function vlcscreenshot($img,$thumb, $desc){
                 vlcscreenshot( "2.0.0/vlc-2.0-macosx.jpg",
                                "2.0.0/tm_vlc-2.0-macosx.jpg",
                                "Mac OS X 10.6");
-                vlcscreenshot( "2.0.0/vlc-2.0-gnome3-debian.jpg",
-                               "2.0.0/tm_vlc-2.0-gnome3-debian.jpg",
-                               "Gnome 3 on Debian");
                 vlcscreenshot( "2.0.0/vlc-2.0-win7.jpg",
                                "2.0.0/tm_vlc-2.0-win7.jpg",
                                "Windows 7");
                 vlcscreenshot( "2.0.0/vlc-2.0-gnome2-mandriva.jpg",
                                "2.0.0/tm_vlc-2.0-gnome2-mandriva.jpg",
                                "Gnome 2 on Mandriva");
+                vlcscreenshot( "2.0.0/vlc-2.0-lion-black.jpg",
+                               "2.0.0/tm_vlc-2.0-lion-black.jpg",
+                               "Mac OS X 10.7 Lion");
                 vlcscreenshot( "2.0.0/vlc-2.0-poney.jpg",
                                "2.0.0/tm_vlc-2.0-poney.jpg",
                                "Gnome 3 on debian");

@@ -36,7 +36,7 @@ echo '<p class="clearme"></p>';
                                "Gnome 3 on debian","1000x690");
                 screenshot( "2.0.0/vlc-2.0-gnome3-open.jpg",
                                "2.0.0/tm_vlc-2.0-gnome3-open.jpg",
-                               "Gnome 3");
+                               "Gnome 3", "940x719");
                 screenshot( "2.0.0/vlc-2.0-lion.jpg",
                                "2.0.0/tm_vlc-2.0-lion.jpg",
                                "Mac OS X 10.7 Lion", "1024x490");

@@ -195,13 +195,13 @@ function vlcscreenshot($img,$thumb, $desc){
                                "Gnome 3 on Debian");
                 vlcscreenshot( "2.0.0/vlc-2.0-win7.jpg",
                                "2.0.0/tm_vlc-2.0-win7.jpg",
-                               "Windows 6");
+                               "Windows 7");
                 vlcscreenshot( "2.0.0/vlc-2.0-gnome2-mandriva.jpg",
                                "2.0.0/tm_vlc-2.0-gnome2-mandriva.jpg",
                                "Gnome 2 on Mandriva");
                 vlcscreenshot( "2.0.0/vlc-2.0-poney.jpg",
                                "2.0.0/tm_vlc-2.0-poney.jpg",
-                               "Mac OS X.6");
+                               "Gnome 3 on debian");
                 vlcscreenshot( "2.0.0/vlc-2.0-gnome3-open.jpg",
                                "2.0.0/tm_vlc-2.0-gnome3-open.jpg",
                                "Gnome 3");

@@ -61,7 +61,7 @@ from the official VLC source code repository vlc-1.1.git.
 <dd>Vendor notification.</dd>
 <dd>Patch for VLC development version, 1.2 and 1.1 trees.</dd>
 <dd>Initial security advisory.</dd>
-<dt>TBD</dt>
+<dt>20 Decemer 2011</dt>
 <dd>VLC media player 1.1.13 released.</dd>
 </dl>
 

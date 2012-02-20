@@ -42,6 +42,9 @@
                     </span>
                 </a>
                 <script>
+                $(document).ready(function() {
+                    $("#downloadButton").removeAttr('href');
+                });
                 $("#downloadButton").click(function() {
                      $('html, body').animate({
                          scrollTop: $("#getit").offset().top

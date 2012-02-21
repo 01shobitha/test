@@ -150,7 +150,7 @@
                     <div class='productDescription'>
                         <ul>
                            <li>Support for ProRes 422 and 4444, AVC/Intra.</li>
-                           <li>Support for Jpeg-2000 and DNxHD/VC-3 in 10bits.</li>
+                           <li>Support for Jpeg-2000, Dirac and DNxHD/VC-3 in 10bits.</li>
                            <li>Support for EBU subtitles (stl) and EIA-608.</li>
                            <li>SDI and HD-SDI card support for input on Linux.</li>
                            <li>New Dirac/VC-2 encoder, faster than the previous one.</li>

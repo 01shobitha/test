@@ -781,6 +781,12 @@ list-style-type: circle;
     color: #0070BB;
 }
 
+.blue .screenshot
+{
+    cursor: pointer; border: 1px solid #0070BB; width: 90px; height: 90px; margin: 5px; float: left;
+}
+
+
 /* PINK */
 
 .pink a, .pink h1, .pink #linkBar a, .pink #linkBar .link:hover ul li a, .pink h2

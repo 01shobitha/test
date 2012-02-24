@@ -1,5 +1,10 @@
 <?php
    $title = "Official page for VLC media player, the Open Source video framework!";
+   $language = "";
+
+   $additional_js = array("/js/slimbox2.js");
+   $additional_css= array("/js/css/slimbox2.css");
+
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
 ?>
@@ -47,7 +52,7 @@
 
 <?php
 function vlcscreenshot($img,$thumb, $desc){
-    echo"<div class='screenshot' style='overflow: hidden; width: 120px;'><a href='http://images1.videolan.org/vlc/screenshots/$img'><img
+    echo"<div class='screenshot' style='overflow: hidden; width: 120px;'><a href='http://images1.videolan.org/vlc/screenshots/$img' rel='lightbox-vlc'><img
     src='http://images1.videolan.org/vlc/screenshots/$thumb' alt='VLC media player - $desc' /></a>
     </div>";
 }

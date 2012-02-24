@@ -33,7 +33,7 @@ Noone owes you an answer to your question.</p>
 
 <h3>Documentation</h3>
 <p>You can access our
- <a href="http://wiki.videolan.org/Documentation:Documentation">Documentation</a>,
+ <a href="http://wiki.videolan.org/Documentation">Documentation</a>,
 especially <a href="http://wiki.videolan.org/Documentation:Play_HowTo">VLC playback documentation</a> and
 <a href="http://wiki.videolan.org/Documentation:Streaming_HowTo">VLC Streaming documentation</a>.</p>
 

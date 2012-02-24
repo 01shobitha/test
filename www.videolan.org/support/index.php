@@ -24,8 +24,8 @@ Noone owes you an answer to your question.</p>
 </p>
 <div class="clearme" style="margin-bottom: 30px;"></div>
 
-<h1>Documentation</h1>
 <a id="documentation"></a>
+<h1>Documentation</h1>
 
 <h3>FAQ</h3>
 <p>If you have any questions about VideoLAN or about VLC media player, you should
@@ -39,8 +39,8 @@ especially <a href="http://wiki.videolan.org/Documentation:Play_HowTo">VLC playb
 
 <div style="margin: 40px;"></div>
 
-<h1>Help and Support</h1>
 <a id="help"></a>
+<h1>Help and Support</h1>
 <div class="onecolumn" style="margin-bottom: 30px;">
     <h3>You have a Usage Problem</h3>
     <p>If you have problems using our software, you should:</p>
@@ -66,8 +66,8 @@ especially <a href="http://wiki.videolan.org/Documentation:Play_HowTo">VLC playb
 
 <div class="tricolumn" style="padding-top: 10px;">
     <div class="onecolumn">
-        <h1>Reporting bugs</h1>
         <a id="bugs"></a>
+        <h1>Reporting bugs</h1>
         <h2>and feature requests</h2>
         <p>Please read our <a href="http://wiki.videolan.org/Report_bugs">reporting bugs policy</a>.</p>
         <h3>VLC bug tracker</h3>

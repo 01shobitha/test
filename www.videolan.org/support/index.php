@@ -16,7 +16,7 @@ is provided by <strong>volunteers</strong> doing it in their free time.<br />
 Noone owes you an answer to your question.</p>
 <div class="clearme" style="margin-bottom: 30px;"></div>
 
-<p><strong>You are here for:</strong><br />
+<h2>You are here for:</h2>
 <a class="normalButton" href="#documentation">Documentation</a>
 <a class="normalButton" href="#help">Help and support</a>
 <a class="normalButton" href="#bugs">Reporting a bug</a>

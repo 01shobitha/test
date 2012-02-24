@@ -395,6 +395,16 @@ function vlcscreenshot($img,$thumb, $desc){
         <h2 style="margin-top: 30px;">Sources</h2>
         <a href="/vlc/download-sources.html">Get the source!</a>
 
+   <script>
+   (function() {
+       var script = document.createElement('script');
+       script.src = '//sourceforge.net/accelerator/js?partner_id=60';
+       script.defer = true;
+       var s = document.getElementsByTagName('script')[0];
+       s.parentNode.insertBefore(script, s);
+   })();
+   </script>
+
 
 <?php /* Begin news items */ ?>
         <div class="clearme"></div>

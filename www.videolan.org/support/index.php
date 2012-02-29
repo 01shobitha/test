@@ -45,7 +45,7 @@ especially <a href="http://wiki.videolan.org/Documentation:Play_HowTo">VLC playb
     <h3>You have a Usage Problem</h3>
     <p>If you have problems using our software, you should:</p>
     <ul class="bullets">
-        <li>use the <a href="http://wiki.videolan.org/Common_Problems">troubleshouting guide</a>,</li>
+        <li>use the <a href="http://wiki.videolan.org/Common_Problems">troubleshooting guide</a>,</li>
         <li> <a href="http://forum.videolan.org/search.php">search</a> the official
         <a href="http://forum.videolan.org/">forum</a> for an answer,</li>
         <li>read the <a href="http://wiki.videolan.org">wiki</a>.</li>

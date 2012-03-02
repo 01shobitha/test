@@ -29,6 +29,9 @@ options:</p>
   <a href="http://download.videolan.org/pub/vlc/SuSE/12.1/vlc.ymp">VLC for 12.1</a>
 </div>
 <div class="installbtn" style="float: left;">
+  <a href="http://download.videolan.org/pub/vlc/SuSE/Tumbleweed/vlc.ymp">VLC for Tumbleweed</a>
+</div>
+<div class="installbtn" style="float: left;">
   <a href="http://download.videolan.org/pub/vlc/SuSE/11.4/vlc.ymp">VLC for 11.4</a>
 </div>
 <div class="installbtn" style="float: left;">
@@ -66,6 +69,7 @@ Version. Supported at this time are :</p>
 11.3<br />
 11.4<br />
 12.1<br />
+Tumbleweed<br />
 Factory<br />
 </p>
 <p>Finally, confirm the addition.<br />

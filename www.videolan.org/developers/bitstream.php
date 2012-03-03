@@ -76,6 +76,6 @@ or fix bugs in current structures, you'd be very nice to contribute them
 (again, there is no point in concealing this). Thanks.</p>
 
 <h2>Mailing list</h2>
-<p>There is no mailing-list dedicated to biTStream at present. For the moment you can discuss about biTStream on the <a href="http://www.videolan.org/press/2007-1.html">dvblast-devel mailing list</a>.</p>
+<p>There is no mailing-list dedicated to biTStream at present. For the moment you can discuss about biTStream on the <a href="/developers/lists.html">dvblast-devel</a> mailing list.</p>
 
 <?php footer('$Id: bitstream.php 7045 2011-11-03 13:48:50Z jpsaman $'); ?>

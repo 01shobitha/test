@@ -36,7 +36,7 @@ function pkgversion($name,$version)
 function pkgitem_nomirr($description,$version,$name,$top,$extradescription="")
 {
   pkgversion($top, $version);
-  echo "<p><a href=\"http://download.videolan.org/pub/videolan/$top/$version/$name\">$description</a> <i>$extradescription</i> (".DownloadSize("{$_SERVER["DOCUMENT_ROOT"]}pub/videolan/$top/$version/$name").")</p>";
+  echo "<p><a href=\"http://download.videolan.org/pub/videolan/$top/$version/$name\">$description</a> <i>$extradescription</i> (".DownloadSize("/opt/ftp/pub/videolan/$top/$version/$name").")</p>";
 }
 
 function pkgitem_sf($description,$version,$name,$top,$extradescription="",$md5="" )

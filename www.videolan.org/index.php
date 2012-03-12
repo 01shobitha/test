@@ -11,7 +11,7 @@
    include($_SERVER["DOCUMENT_ROOT"]."/include/magpierss/rss_fetch.inc");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
-   /* Main page
+   /* Main page */
 ?>
     <div>
         <div class="clearme" style='padding-top: 35px;'>
@@ -147,7 +147,7 @@
         </div>
         <div class="clearme"></div>
 
-   End normal page */ ?>
+<?/*   End normal page  ?>
 
     <div>
             <center><h1 class='bigtitle'>VLC reaches <b>2.0</b></h1>

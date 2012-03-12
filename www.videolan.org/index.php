@@ -1,15 +1,15 @@
 <?php
+   $language = "";
    $title = _("VLC: Official site - Free multimedia solutions for all OS!");
    $body_color = "blue";
-   $language = "";
 
    $additional_js = array("/js/slimbox2.js");
    $additional_css= array("/js/css/slimbox2.css");
 
+   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/news.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/magpierss/rss_fetch.inc");
-   require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
    /* Main page */
 ?>

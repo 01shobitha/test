@@ -1,6 +1,6 @@
 <?php
-   $title = "Official page for VLC media player, the Open Source video framework!";
    $language = "";
+   $title = _("Official page for VLC media player, the Open Source video framework!");
 
    $additional_js = array("/js/slimbox2.js");
    $additional_css= array("/js/css/slimbox2.css");
@@ -9,7 +9,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
 ?>
 
-        <div class="clearme" style='padding-top: 35px;'>
+        <div class="clearme" style='padding-top: 26px;'>
             <?php image( 'largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?>
             <div style='float: left; width: 500px;'>
                 <h1 class='bigtitle'>VLC media player</h1>

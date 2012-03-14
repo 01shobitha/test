@@ -143,4 +143,7 @@ function addos( $name, $class, $url, $bold=false )
         </div>
 -->
 
-<?php footer(); ?>
+<?php footer();
+sf_money();
+ ?>
+

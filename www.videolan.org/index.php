@@ -464,6 +464,5 @@ function vlcscreenshot($img,$thumb, $desc){
 
 </div>
 <?php footer('$Id$');
-
 sf_money();
 ?>

@@ -39,16 +39,8 @@ function pkgitem_nomirr($description,$version,$name,$top,$extradescription="")
   echo "<p><a href=\"http://download.videolan.org/pub/videolan/$top/$version/$name\">$description</a> <i>$extradescription</i> (".DownloadSize("/opt/ftp/pub/videolan/$top/$version/$name").")</p>";
 }
 
-function pkgitem_sf($description,$version,$name,$top,$extradescription="",$md5="" )
+function sf_money()
 {
-    pkgversion($top, $version);
-    echo "<a id='downloadButton' href='http://sourceforge.net/projects/$top/files/$version/$name/download' class='sourceforge_accelerator_link'>\n";
-    echo "<img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />\n";
-    echo "<span class='downloadText'>$description</span>";
-    echo "<span id='downloadDetails' style='font-size: 12px; color: white;'>$extradescription</span>";
-    echo "</a>";
-    echo "<span class='extraInfoLink clearme' style='padding-left: 100px; margin-bottom: 12px;'><em>MD5: $md5</em></span>";
-
     echo "
    <script>
    (function() {
@@ -59,7 +51,18 @@ function pkgitem_sf($description,$version,$name,$top,$extradescription="",$md5="
        s.parentNode.insertBefore(script, s);
    })();
    </script>";
+}
 
+function pkgitem_sf($description,$version,$name,$top,$extradescription="",$md5="" )
+{
+    pkgversion($top, $version);
+    echo "<a id='downloadButton' href='http://sourceforge.net/projects/$top/files/$version/$name/download' class='sourceforge_accelerator_link'>\n";
+    echo "<img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />\n";
+    echo "<span class='downloadText'>$description</span>";
+    echo "<span id='downloadDetails' style='font-size: 12px; color: white;'>$extradescription</span>";
+    echo "</a>";
+    echo "<span class='extraInfoLink clearme' style='padding-left: 100px; margin-bottom: 12px;'><em>MD5: $md5</em></span>";
+    sf_money();
 }
 
 function pkgitem($description,$version,$name,$top,$extradescription="")

@@ -54,6 +54,7 @@ function StartHtml( $title, $color, $language,
         open source, free software, floss, free" />
         <meta name="Description" content="<?php echo $title; ?>" />
         <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+        <link href="https://plus.google.com/104597325891170264649" rel="publisher" />
         <title>VideoLAN - <?php echo $title; ?></title>
 
         <link rel="alternate" type="application/rss+xml" title="RSS - VideoLAN News" href="/videolan-news.rss" />

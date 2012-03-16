@@ -25,6 +25,20 @@ for underlying third party libraries.
 Please refer to the concerned third parties as appropriate.
 </p>
 
+<h2>2012</h2>
+<dl>
+
+<dt>VideoLAN-SA-1202 (CVE-2012-XXXX)</dt>
+<dd>Heap overflows in Real RTPS protocol
+ <a href="sa1202.html">Details</a>
+</dd>
+
+<dt>VideoLAN-SA-1201 (CVE-2012-XXXX)</dt>
+<dd>Stack overflow in MMS protocol
+ <a href="sa1201.html">Details</a>
+</dd>
+
+
 <h2>2011</h2>
 <dl>
 <dt>VideoLAN-SA-1108 (CVE-2011-XXXX)</dt>

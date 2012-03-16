@@ -10,7 +10,7 @@
 
 <h1>Security Advisory 1201</h1>
 <pre>
-Summary           : Stack overflow in VLC
+Summary           : Stack overflow in VLC MMS support
 Date              : March 2012
 Affected versions : VLC media player all versions up to 2.0.1
 ID                : VideoLAN-SA-1201
@@ -33,12 +33,12 @@ to explicitly open a specially crafted file.
 or accessing untrusted remote sites (or disable the VLC browser plugins),
 until the patch is applied.
 </p>
-<?php /*<p>Alternatively, the TY demux plugin (<code>libty_plugin.*</code>)
+<p>Alternatively, the MMS access plugin (<code>libaccess_mms_plugin.*</code>)
 can be removed manually from the VLC plugin installation directory.
-This will prevent opening of TiVo files. */ ?>
+This will prevent opening of MMS:// streams.
 </p>
 <h2>Solution</h2>
-<p>VLC media player 2.0.1 will address this issue.
+<p>VLC media player 2.0.1 addresses this issue.
 Patches for older versions will be available through the git repositories
 </p>
 <h2>Credits</h2>
@@ -60,6 +60,10 @@ Patches for older versions will be available through the git repositories
 <dd>Vendor notification.</dd>
 <dd>Private patch for VLC development version, 2.0 and 1.1 trees.</dd>
 <dd>Initial security advisory.</dd>
+
+<dt>15 March 2012</dt>
+<dd>Official patch merged in VLC development version, 2.0 and 1.1 trees.</dd>
+
 </dl>
 
 <address>Jean-Baptiste Kempf,<br />

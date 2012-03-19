@@ -214,12 +214,46 @@ function vlcscreenshot($img,$thumb, $desc){
             </div>
 
         <div class="clearme"></div>
+        <h1>2.0.1 specific changes</h1>
+
+            <div style='float: left; width: 480px;'>
+                <div class='audienceCallout'><?php echo _("2.0.1"); ?></div>
+                <div class='clearme'>
+                    <div class='productDescription'>
+                        <ul>
+                           <li>Support for MxPEG files and streams</li>
+                           <li>New features in the Mac OS X interface for more customization.</li>
+                           <li>Numerous fixes in the Qt, the Mac OS and the skins interfaces.</li>
+                           <li>Fixes for HTTP Live Streaming, CDDB, UDP/RTP support.</li>
+                           <li>Security issues <a href="/security/sa1201.html">SA-1201</a> and <a href="/security/sa1202.html">SA-1202</a>.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div style='float: left; width: 480px;'>
+                <div class='audienceCallout'><?php echo _("2.0.1"); ?></div>
+                <div class='clearme'>
+                    <div class='productDescription'>
+                        <ul>
+                           <li>Limited support for Bluray discs menus.</li>
+                           <li>Numerous fixes for MKV support.</li>
+                           <li>Fix for splitted RAR files playback.</li>
+                           <li>Numerous fixes for more than 120 bugs.</li>
+                           <li>Codec and 3rd party libraries security updates.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+
+<?php /*        <div class="clearme"></div>
         <h1>Spread the news</h1>
         <p><a href="http://www.reddit.com/r/technology/comments/pvh6t/vlc_200_twoflower_is_out/">Reddit</a>
            <a href="https://www.facebook.com/vlc.media.player/posts/249766805097687">Facebook</a>
            <a href="http://news.ycombinator.com/item?id=3607350">Hacker News</a>
            <a href="https://twitter.com/#!/videolan/status/170943829774577664">Twitter</a>
-        </p>
+           </p> */ ?>
 
         <div class="clearme"></div>
         <h1>Download VLC</h1>

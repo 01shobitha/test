@@ -1,5 +1,5 @@
 <?php
-   $title = _("VLC 2.0 Twoflower");
+   $title = _("VLC 2.0.1 Twoflower");
    $body_color = "red";
    $language = "";
    $nobanner = true;
@@ -8,8 +8,8 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
-   $macosxversion = "2.0.0";
-   $win32version = "2.0.0";
+   $macosxversion = "2.0.1";
+   $win32version = "2.0.1";
 ?>
     <div>
             <center><h1 class='bigtitle'>VLC reaches <b>2.0</b></h1>
@@ -40,7 +40,7 @@
                     <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
                     <span class='downloadText'><?php echo _("Get VLC now!"); ?></span>
                     <span id='downloadDetails' style='font-size: 12px; color: white;'>
-                    Version <span id='downloadVersion'>2.0.0</span>
+                    Version <span id='downloadVersion'>2.0.1</span>
                     </span>
                 </a>
                 <script>
@@ -244,10 +244,10 @@ function vlcscreenshot($img,$thumb, $desc){
         <div style="float: right; width: 400px;">
         <h3>Mac OS X 10.5 Intel</h3>
         <a href='<?php echo "http://sourceforge.net/projects/vlc/files/$macosxversion/macosx/vlc-$macosxversion-intel32.dmg/download"; ?>' class="sourceforge_accelerator_link">
-        VLC 2.0.0 for Mac OS X.5 (intel)</a>
+        VLC 2.0.1 for Mac OS X.5 (intel)</a>
         <h3>Mac OS X 10.5 PowerPC</h3>
         <a href='<?php echo "http://sourceforge.net/projects/vlc/files/$macosxversion/macosx/vlc-$macosxversion-powerpc.dmg/download"; ?>' class="sourceforge_accelerator_link">
-        VLC 2.0.0 for Mac OS X.5 (powerpc)</a>
+        VLC 2.0.1 for Mac OS X.5 (powerpc)</a>
         </div>
         <div class="clearme"></div>
         <div style="float: right; width: 400px; margin-top: 15px;">

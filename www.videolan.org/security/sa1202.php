@@ -14,7 +14,7 @@ Summary           : Heap overflows in VLC Real RTSP support.
 Date              : March 2012
 Affected versions : VLC media player all versions up to 2.0.1
 ID                : VideoLAN-SA-1202
-CVE reference     : unassigned
+CVE reference     : CVE-2012-1776
 </pre>
 
 <h2>Details</h2>

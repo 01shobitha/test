@@ -14,7 +14,7 @@ Summary           : Stack overflow in VLC MMS support
 Date              : March 2012
 Affected versions : VLC media player all versions up to 2.0.1
 ID                : VideoLAN-SA-1201
-CVE reference     : unassigned
+CVE reference     : CVE-2012-1775
 </pre>
 
 <h2>Details</h2>

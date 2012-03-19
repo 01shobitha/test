@@ -1,4 +1,4 @@
-URI: index
+URI: index.var
 
 URI: index.fr.html
 Content-type: text/html
@@ -7,3 +7,7 @@ Content-language: fr
 URI: index.ru.html
 Content-type: text/html
 Content-language: ru
+
+URI: index.html
+Content-type: text/html
+Content-language: en

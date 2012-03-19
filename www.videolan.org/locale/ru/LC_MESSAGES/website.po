@@ -22,7 +22,7 @@ msgstr "Проект и"
 
 #: include/header.php:94
 msgid "non-profit organization"
-msgstr "некоммерческая организация,"
+msgstr "некоммерческая организация"
 
 #: include/header.php:95
 msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."

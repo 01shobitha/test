@@ -28,12 +28,12 @@ Please refer to the concerned third parties as appropriate.
 <h2>2012</h2>
 <dl>
 
-<dt>VideoLAN-SA-1202 (CVE-2012-XXXX)</dt>
+<dt>VideoLAN-SA-1202 (CVE-2012-1776)</dt>
 <dd>Heap overflows in Real RTPS protocol
  <a href="sa1202.html">Details</a>
 </dd>
 
-<dt>VideoLAN-SA-1201 (CVE-2012-XXXX)</dt>
+<dt>VideoLAN-SA-1201 (CVE-2012-1775)</dt>
 <dd>Stack overflow in MMS protocol
  <a href="sa1201.html">Details</a>
 </dd>

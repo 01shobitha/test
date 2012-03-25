@@ -30,6 +30,11 @@
 
 <br />
 <br />
+<h2>Download VLC for Windows x64</h1>
+<p><a href="http://download.videolan.org/pub/videolan/vlc/last/win64/">Experimental</a> version for Windows 64 bits.</p>
+
+<br />
+<br />
 <h2>Download VLC for Windows 95/98/Me</h1>
 <p><a href="http://sourceforge.net/projects/kernelex/">Please install KernelEx</a> or take an old
 version of VLC</p>

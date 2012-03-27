@@ -57,9 +57,9 @@ clean: clean-recursive
 
 
 index.%.php: index.php $(ROOT)/locale/%/LC_MESSAGES/website.po
-	rm -f $@
-	sed -e "s/language = \"\"/language = \"$*\"/" index.php > $@;
-	msgfmt -c -v -o locale/$*/LC_MESSAGES/website.mo locale/$*/LC_MESSAGES/website.po
+	rm -f ./$@
+	sed -e "s/language = \"\"/language = \"$*\"/" index.php > ./$@;
+	msgfmt -c -v -o $(ROOT)/locale/$*/LC_MESSAGES/website.mo $(ROOT)/locale/$*/LC_MESSAGES/website.po
 
 clean-locale:
 	rm -fv index.*.php index.*.html

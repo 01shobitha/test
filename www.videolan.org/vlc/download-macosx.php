@@ -34,7 +34,7 @@ $vlc_version_intel = "2.0.1";
 
 <?php
 pkgitem_sf( "32/64 bits Intel Mac, $vlc_version_intel",
-    "$vlc_version_intel/macosx","vlc-$vlc_version_intel.dmg",        "vlc", "dmg package", "3df254e74be6479917d0763671a93fdb");
+    "$vlc_version_intel/macosx","vlc-$vlc_version_intel.dmg",        "vlc", "dmg package", "afd3f48b10f7be68666f48719647a2b2");
 pkgitem_sf( "32 bits Intel Mac, $vlc_version_intel",
     "$vlc_version_intel/macosx","vlc-$vlc_version_intel-intel32.dmg","vlc", "dmg package", "06b91a3871179ce973c9233f5e2bb952");
 pkgitem_sf( "64 bits Intel Mac, $vlc_version_intel",

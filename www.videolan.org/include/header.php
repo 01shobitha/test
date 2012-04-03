@@ -33,7 +33,7 @@ function StartHtml( $title, $color, $language,
         /* gettext stuff */
         putenv("LANGUAGE=$locale");
         setlocale(LC_ALL, $locale);
-        bindtextdomain("website", "./locale");
+        bindtextdomain("website", $_SERVER["DOCUMENT_ROOT"]."/locale");
         textdomain("website");
     }
 

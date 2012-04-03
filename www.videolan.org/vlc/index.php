@@ -89,7 +89,7 @@ function vlcscreenshot($img,$thumb, $desc){
 <?php
 function addos( $name, $class, $url, $bold=false )
 {
-    echo "<div class='$class'>Get VLC for <a href='$url'><strong>$name</strong></a></div>";
+    echo "<div class='$class'>"._("Get VLC for ")."<a href='$url'><strong>$name</strong></a></div>";
 }
 ?>
         <div class='tricolumn'>

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VideoLAN's websites\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-03 15:21+0200\n"
+"POT-Creation-Date: 2012-04-03 15:34+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -280,6 +280,30 @@ msgstr ""
 
 #: vlc/index.php:3
 msgid "Official page for VLC media player, the Open Source video framework!"
+msgstr ""
+
+#: vlc/index.php:38
+msgid "Simple, fast and powerful media player"
+msgstr ""
+
+#: vlc/index.php:40
+msgid "Plays everything: Files, Discs, Webcams, Devices and Streams"
+msgstr ""
+
+#: vlc/index.php:42
+msgid "Plays most codecs with <b>no codec packs</b> needed:"
+msgstr ""
+
+#: vlc/index.php:45
+msgid "Runs on all platforms:"
+msgstr ""
+
+#: vlc/index.php:47
+msgid "Completely <b>Free</b>, 0 Spyware, 0 Ads and no User Tracking"
+msgstr ""
+
+#: vlc/index.php:49
+msgid "Can do Media Convertion and Streaming"
 msgstr ""
 
 #: vlc/index.php:51

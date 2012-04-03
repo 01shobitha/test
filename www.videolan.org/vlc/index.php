@@ -32,21 +32,21 @@
                 <a class='extraInfoLink' href='#download' style="padding-left: 100px;"><?php echo _("Other Systems and Versions");?></a>
             </div>
         </div>
-        <div class="clearme" style='padding-top: 60px;'>
+        <div class="clearme" style='padding-top: 45px;'>
             <div style='float: left; width: 400px; color: #333333;'>
                 <h1 style='margin-bottom: 25px;' class='red'><?php echo _("Features"); ?></h1>
-                    <strong>Simple</strong>, Powerful and Fast
+                    <?php echo _("Simple, fast and powerful media player"); ?>
                 <br /><br />
-                    Plays <strong>everything</strong>, Files, Discs (DVD, CD, VCD, Blu-Ray), Webcams and Streams
+                    <?php echo _("Plays everything: Files, Discs, Webcams, Devices and Streams"); ?>
                 <br /><br />
-                    Plays most codecs with <b>no codec packs</b> needed:<br />
-                    MPEG-2, H.264, DivX, MPEG-4, WebM, WMV player
+                    <?php echo _("Plays most codecs with <b>no codec packs</b> needed:")."<br />
+                    MPEG-2, H.264, DivX, MKV, MPEG-4, WebM, WMV, DTS, MP3..."; ?>
                 <br /><br />
-                    Completely <strong>Free</strong>, 0 Spyware, Ads or User Tracking
+                    <?php echo _("Runs on all platforms:")." Windows, Linux, Mac OS X, Unix..."; ?>
                 <br /><br />
-                    Works on <strong>most platforms</strong>: Windows, Linux, Mac OS X, Unix...
+                    <?php echo _("Completely <b>Free</b>, 0 Spyware, 0 Ads and no User Tracking"); ?>
                 <br /><br />
-                    Media Converter and Streamer
+                    <?php echo _("Can do Media Convertion and Streaming"); ?>
                 <br />
                 <a class='extraInfoLink' href='/vlc/features.html'><?php echo _("Discover all features"); ?></a>
             </div>

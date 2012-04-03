@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VideoLAN's websites\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-03 15:15+0200\n"
+"POT-Creation-Date: 2012-04-03 15:21+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Jean-Baptiste Kempf <jb@videolan.org>\n"
 "Language-Team: \n"
@@ -298,7 +298,7 @@ msgid "View all screenshots"
 msgstr "Voir toutes les captures d'écrans"
 
 #: vlc/index.php:92
-msgid "Get VLC for "
+msgid "Get VLC for"
 msgstr "Télécharger VLC pour"
 
 #: vlc/index.php:96

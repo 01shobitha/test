@@ -1,4 +1,5 @@
 <?php
+   $language = "";
    $title = "Download official VLC media player for Windows";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");

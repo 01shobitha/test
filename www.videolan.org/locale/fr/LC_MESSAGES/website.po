@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VideoLAN's websites\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-03 15:46+0200\n"
+"POT-Creation-Date: 2012-04-03 15:48+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Jean-Baptiste Kempf <jb@videolan.org>\n"
 "Language-Team: \n"
@@ -290,12 +290,12 @@ msgid "Official page for VLC media player, the Open Source video framework!"
 msgstr "Page officielle de VLC media player, le lecteur vidéo Open Source!"
 
 #: vlc/index.php:38
-msgid "Simple, fast and powerful media player"
-msgstr "Lecteur multimédia simple, rapide et puissant"
+msgid "Simple, fast and powerful media player."
+msgstr "Lecteur multimédia simple, rapide et puissant."
 
 #: vlc/index.php:40
-msgid "Plays everything: Files, Discs, Webcams, Devices and Streams"
-msgstr "Joue tous les médias : Fichiers, Disques, Webcams, Périphériques et Flux réseaux"
+msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
+msgstr "Joue tous les médias : Fichiers, Disques, Webcams, Périphériques et Flux réseaux."
 
 #: vlc/index.php:42
 msgid "Plays most codecs with no codec packs needed:"
@@ -306,12 +306,12 @@ msgid "Runs on all platforms:"
 msgstr "Fonctionne sur toutes les plateformes :"
 
 #: vlc/index.php:47
-msgid "Completely Free, 0 spyware, 0 ads and no user tracking"
-msgstr "Complètement Gratuit et libre, 0 Spyware, 0 pub et pas de tracking utilisateur"
+msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
+msgstr "Complètement Gratuit et libre, 0 Spyware, 0 pub et pas de tracking utilisateur."
 
 #: vlc/index.php:49
-msgid "Can do Media Convertion and Streaming"
-msgstr "Permet de convertir des fichiers et de streamer"
+msgid "Can do Media Convertion and Streaming."
+msgstr "Permet de convertir des fichiers et de streamer."
 
 #: vlc/index.php:51
 msgid "Discover all features"

@@ -35,18 +35,18 @@
         <div class="clearme" style='padding-top: 45px;'>
             <div style='float: left; width: 400px; color: #333333;'>
                 <h1 style='margin-bottom: 25px;' class='red'><?php echo _("Features"); ?></h1>
-                    <?php echo _("Simple, fast and powerful media player"); ?>
+                    <?php echo _("Simple, fast and powerful media player."); ?>
                 <br /><br />
-                    <?php echo _("Plays everything: Files, Discs, Webcams, Devices and Streams"); ?>
+                    <?php echo _("Plays everything: Files, Discs, Webcams, Devices and Streams."); ?>
                 <br /><br />
                     <?php echo _("Plays most codecs with no codec packs needed:")."<br />
                     MPEG-2, DivX, H.264, MKV, WebM, WMV, MP3..."; ?>
                 <br /><br />
                     <?php echo _("Runs on all platforms:")." Windows, Linux, Mac OS X, Unix..."; ?>
                 <br /><br />
-                    <?php echo _("Completely Free, 0 spyware, 0 ads and no user tracking"); ?>
+                    <?php echo _("Completely Free, 0 spyware, 0 ads and no user tracking."); ?>
                 <br /><br />
-                    <?php echo _("Can do Media Convertion and Streaming"); ?>
+                    <?php echo _("Can do Media Convertion and Streaming."); ?>
                 <br />
                 <a class='extraInfoLink' href='/vlc/features.html'><?php echo _("Discover all features"); ?></a>
             </div>

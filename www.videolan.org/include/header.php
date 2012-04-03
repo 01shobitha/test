@@ -292,7 +292,7 @@ function footer($tag = "") {
             </ul>
          </div>
          <div class='footer_col'>
-            <div class='footerHeading'>About</div>
+            <div class='footerHeading'>VideoLAN</div>
             <ul>
                  <li><a href='/videolan/'><?php echo _("Project and Organization"); ?></a></li>
                  <li><a href='/videolan/team/'><?php echo _("Team"); ?></a></li>

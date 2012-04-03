@@ -39,12 +39,12 @@
                 <br /><br />
                     <?php echo _("Plays everything: Files, Discs, Webcams, Devices and Streams"); ?>
                 <br /><br />
-                    <?php echo _("Plays most codecs with <b>no codec packs</b> needed:")."<br />
-                    MPEG-2, H.264, DivX, MKV, MPEG-4, WebM, WMV, DTS, MP3..."; ?>
+                    <?php echo _("Plays most codecs with no codec packs needed:")."<br />
+                    MPEG-2, DivX, H.264, MKV, WebM, WMV, MP3..."; ?>
                 <br /><br />
                     <?php echo _("Runs on all platforms:")." Windows, Linux, Mac OS X, Unix..."; ?>
                 <br /><br />
-                    <?php echo _("Completely <b>Free</b>, 0 Spyware, 0 Ads and no User Tracking"); ?>
+                    <?php echo _("Completely Free, 0 spyware, 0 ads and no user tracking"); ?>
                 <br /><br />
                     <?php echo _("Can do Media Convertion and Streaming"); ?>
                 <br />

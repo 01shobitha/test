@@ -31,6 +31,11 @@
                 <?php replaceDLinfos(); ?>
                 <a class='extraInfoLink' href='#download' style="padding-left: 100px;"><?php echo _("Other Systems and Versions");?></a>
             </div>
+            <?php
+             if ($language == "fr")
+             { echo '<div>
+                    </div>';
+             } ?>
         </div>
         <div class="clearme" style='padding-top: 45px;'>
             <div style='float: left; width: 400px; color: #333333;'>

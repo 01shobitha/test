@@ -32,7 +32,7 @@
                 <a class='extraInfoLink' href='#download' style="padding: 12px 40px 0px 100px;"><?php echo _("Other Systems and Versions");?></a>
             </div>
                 <?php
-                if ( 0 && $language == "fr") /* 01net temporary HACK*/
+                if ( $language == "fr") /* 01net temporary HACK*/
                 {
                     echo '<style type="text/css">
                             #cssbubble, #cssbubble2 {
@@ -49,10 +49,12 @@
                                position: relative; top: -8px; left: 326px;
                                border-radius: 0px 0px 10px 10px;
                                padding: 0; 
-                             }
+                            }
+                            #cssbubble a { border: 1px solid #aaa; background: #fff; }
+                            #cssbubble a:hover { color: white; background: #F48B00; }
                         </style>';
                     function link01net($href,$texte){
-                    echo "<a href='$href' style='border: 1px solid #aaa; background: #ddd; margin: 4px 6px; padding: 4px; border-radius: 3px; text-decoration: none; '>$texte</a>"; }
+                    echo "<a href='$href' style='margin: 4px 6px; padding: 4px; border-radius: 3px; text-decoration: none; '>$texte</a>"; }
 
                     echo '<div id="01net" style="clear: both; margin-left:450px; font-size: 16px; padding-top: 35px;">';
                     echo '<div id="cssbubble">';

@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Tom???? Chv??tal <tomas.chvatal@gmail.com>, 2012.
+# Tomáš Chvátal <tomas.chvatal@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: vlc-trans\n"
 "Report-Msgid-Bugs-To: https://github.com/yarons/vlc-heb/issues\n"
 "POT-Creation-Date: 2012-04-03 15:48+0200\n"
 "PO-Revision-Date: 2012-04-08 08:29+0000\n"
-"Last-Translator: Tom???? Chv??tal <tomas.chvatal@gmail.com>\n"
+"Last-Translator: Tomáš Chvátal <tomas.chvatal@gmail.com>\n"
 "Language-Team: Czech (http://www.transifex.net/projects/p/vlc-trans/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,29 +24,29 @@ msgstr "Projekt a"
 
 #: include/header.php:109
 msgid "non-profit organization"
-msgstr "neziskov?? organizace"
+msgstr "nezisková organizace"
 
 #: include/header.php:110
 msgid ""
 "composed of volunteers, developing and promoting free, open-source "
 "multimedia solutions."
-msgstr "skl??daj??c?? se z dobrovoln??k?? vyv??jej??c??ch, a propaguj??c??ch, svobodn?? (s otev??en??m k??dem) multimedi??ln?? ??e??en??."
+msgstr "skládající se z dobrovolníků vyvíjejících, a propagujících, svobodná (s otevřeným kódem) multimediální řešení."
 
 #: include/header.php:114
 msgid "DONATE"
-msgstr "P??ISP??T"
+msgstr "PŘISPĚT"
 
 #: include/header.php:114
 msgid "why?"
-msgstr "pro???"
+msgstr "proč?"
 
 #: include/header.php:128 include/header.php:142
 msgid "donate"
-msgstr "p??isp??t"
+msgstr "přispět"
 
 #: include/header.php:161
 msgid "Home"
-msgstr "Dom??"
+msgstr "Domů"
 
 #: include/header.php:164 include/header.php:306
 msgid "News"
@@ -58,31 +58,31 @@ msgstr "Projekt a organizace"
 
 #: include/header.php:170 include/header.php:298
 msgid "Team"
-msgstr "T??m"
+msgstr "Tým"
 
 #: include/header.php:171 include/header.php:300
 msgid "Contact us"
-msgstr "Kontaktujte n??s"
+msgstr "Kontaktujte nás"
 
 #: include/header.php:172 include/header.php:301
 msgid "Partners"
-msgstr "Partne??i"
+msgstr "Partneři"
 
 #: include/header.php:173 include/header.php:302
 msgid "Press center"
-msgstr "Tiskov?? centrum"
+msgstr "Tiskové centrum"
 
 #: include/header.php:174 include/header.php:303
 msgid "Events"
-msgstr "Ud??losti"
+msgstr "Události"
 
 #: include/header.php:175 include/header.php:304
 msgid "Security center"
-msgstr "Bezpe??nostn?? centrum"
+msgstr "Bezpečnostní centrum"
 
 #: include/header.php:181
 msgid "Download"
-msgstr "St??hnout"
+msgstr "Stáhnout"
 
 #: include/header.php:182 include/header.php:261 index.php:26 vlc/index.php:20
 #: vlc/index.php:37
@@ -92,15 +92,15 @@ msgstr "Vlastnosti"
 #: include/header.php:183 include/header.php:262 index.php:27 vlc/index.php:21
 #: vlc/index.php:63
 msgid "Screenshots"
-msgstr "Sn??mky obrazovky"
+msgstr "Snímky obrazovky"
 
 #: include/header.php:184 include/header.php:259 index.php:28 vlc/index.php:22
 msgid "Skins"
-msgstr "Roz??????en?? vzhledu"
+msgstr "Rozšíření vzhledu"
 
 #: include/header.php:185 include/header.php:260
 msgid "Extensions"
-msgstr "Roz??????en??"
+msgstr "Rozšíření"
 
 #: include/header.php:189
 msgid "Projects"
@@ -108,23 +108,23 @@ msgstr "Projekty"
 
 #: include/header.php:206 include/header.php:266
 msgid "All Projects"
-msgstr "V??echny projekty"
+msgstr "Všechny projekty"
 
 #: include/header.php:210 index.php:126
 msgid "Contribute"
-msgstr "P??isp??vejte"
+msgstr "Přispívejte"
 
 #: include/header.php:212 include/header.php:290
 msgid "Donate time"
-msgstr "Darovat ??as"
+msgstr "Darovat čas"
 
 #: include/header.php:213 include/header.php:289
 msgid "Donate money"
-msgstr "Darovat pen??ze"
+msgstr "Darovat peníze"
 
 #: include/header.php:214 include/header.php:291
 msgid "Get Goodies"
-msgstr "Z??skat dobroty"
+msgstr "Získat dobroty"
 
 #: include/header.php:218
 msgid "Support"
@@ -136,19 +136,19 @@ msgstr "Centrum podpory"
 
 #: include/header.php:222 include/header.php:299 include/header.php:312
 msgid "Legal"
-msgstr "Pr??vn?? informace"
+msgstr "Právní informace"
 
 #: include/header.php:225 include/header.php:287
 msgid "Mailing-Lists"
-msgstr "E-mailov?? konference"
+msgstr "E-mailová konference"
 
 #: include/header.php:226
 msgid "Report a bug"
-msgstr "Nahl??sit chybu"
+msgstr "Nahlásit chybu"
 
 #: include/header.php:230
 msgid "Dev' Zone"
-msgstr "V??voj????sk?? z??na"
+msgstr "Vývojářská zóna"
 
 #: include/header.php:283
 msgid "Community"
@@ -156,116 +156,116 @@ msgstr "Komunita"
 
 #: include/header.php:305
 msgid "Get Involved"
-msgstr "P??idejte se"
+msgstr "Přidejte se"
 
 #: index.php:3
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
-msgstr "VLC: ofici??ln?? str??nka - svobodn?? multimedi??ln?? ??e??en?? pro v??echny OS!"
+msgstr "VLC: oficiální stránka - svobodná multimediální řešení pro všechny OS!"
 
 #: index.php:24 vlc/index.php:18
 msgid ""
 "VLC is a free and open source cross-platform multimedia player and framework"
 " that plays most multimedia files as well as DVD, Audio CD, VCD, and various"
 " streaming protocols."
-msgstr "VLC je svobodn?? multiplatformn?? multimedi??ln?? p??ehr??va?? a framework s otev??en??m zdrojov??m k??dem, kter?? p??ehraje v??t??inu multimedi??ln??ch soubor??, DVD, Zvukov??ch CD, VCD a r??zn??ch proudov??ch protokol??."
+msgstr "VLC je svobodný multiplatformní multimediální přehrávač a framework s otevřeným zdrojovým kódem, který přehraje většinu multimediálních souborů, DVD, Zvukových CD, VCD a různých proudových protokolů."
 
 #: index.php:31 vlc/index.php:25
 msgid "Download VLC"
-msgstr "St??hnout VLC"
+msgstr "Stáhnout VLC"
 
 #: index.php:38 vlc/index.php:32
 msgid "Other Systems and Versions"
-msgstr "Jin?? syst??my a verze"
+msgstr "Jiné systémy a verze"
 
 #: index.php:43
 msgid "Other projects from VideoLAN"
-msgstr "Dal???? projekty od VideoLAN"
+msgstr "Další projekty od VideoLAN"
 
 #: index.php:45
 msgid "For Everyone"
-msgstr "Pro ka??d??ho"
+msgstr "Pro každého"
 
 #: index.php:51
 msgid ""
 "VLC is a powerful media player playing most of the media codecs and video "
 "formats out there."
-msgstr "VLC je v??konn?? p??ehr??va?? vide??, kter?? zvl??dne p??ehr??t v??t??inu zn??m??ch kodek?? a video form??t??."
+msgstr "VLC je výkonný přehrávač videí, který zvládne přehrát většinu známých kodeků a video formátů."
 
 #: index.php:60
 msgid ""
 "VideoLAN Movie Creator is a non-linear editing software for video creation."
-msgstr "VideoLAN Movie Creator je neline??rn?? edita??n?? software pro tvorbu vide??."
+msgstr "VideoLAN Movie Creator je nelineární editační software pro tvorbu videí."
 
 #: index.php:67
 msgid "For Professionals"
-msgstr "Pro profesion??ly"
+msgstr "Pro profesionály"
 
 #: index.php:73
 msgid ""
 "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
-msgstr "DVBlast je jednoduch?? a v??kon?? demultiplexer MPEG-2/TS a proudov?? aplikace."
+msgstr "DVBlast je jednoduchý a výkoný demultiplexer MPEG-2/TS a proudová aplikace."
 
 #: index.php:81
 msgid ""
 "multicat is a set of tools designed to easily and efficiently manipulate "
 "multicast streams and TS."
-msgstr "multicat je sada n??stroj?? vytvo??en?? pro jednoduchou a efektivn?? manipulaci s multicasty, proudy, a TS."
+msgstr "multicat je sada nástrojů vytvořená pro jednoduchou a efektivní manipulaci s multicasty, proudy, a TS."
 
 #: index.php:90
 msgid ""
 "x264 is a free application for encoding video streams into the H.264/MPEG-4 "
 "AVC format."
-msgstr "x264 je svobodn?? aplikace pro k??dov??n?? video proud?? do form??tu H.264/MPEG-4 AVC."
+msgstr "x264 je svobodná aplikace pro kódování video proudů do formátu H.264/MPEG-4 AVC."
 
 #: index.php:98
 msgid "For Developers"
-msgstr "Pro v??voj????e"
+msgstr "Pro vývojáře"
 
 #: index.php:109
 msgid "View All Projects"
-msgstr "Zobrazit v??echny projekty"
+msgstr "Zobrazit všechny projekty"
 
 #: index.php:112
 msgid "Help us out!"
-msgstr "Pomo??te n??m!"
+msgstr "Pomožte nám!"
 
 #: index.php:114
 msgid "Donate"
-msgstr "P??isp??t"
+msgstr "Přispět"
 
 #: index.php:118
 msgid "VideoLAN is a non-profit organization."
-msgstr "VideoLAN je neziskov?? organizace."
+msgstr "VideoLAN je nezisková organizace."
 
 #: index.php:119
 msgid ""
 " All our costs are met by donations we receive from our users. If you enjoy "
 "using a VideoLAN product, please donate to support us."
-msgstr " V??echny na??e v??daje jsou pokryty p????sp??vky, kter?? dost??v??me od na??ich u??ivatel??. Pokud r??di pou????v??te libovoln?? produkt VideoLAN, p??isp??jte na rozvoj."
+msgstr " Všechny naše výdaje jsou pokryty příspěvky, které dostáváme od našich uživatelů. Pokud rádi používáte libovolný produkt VideoLAN, přispějte na rozvoj."
 
 #: index.php:121 index.php:133 index.php:144
 msgid "Learn More"
-msgstr "V??ce informac??"
+msgstr "Více informací"
 
 #: index.php:130
 msgid "VideoLAN is open-source software."
-msgstr "VideoLAN je software s otev??en??m zdrojov??m k??dem."
+msgstr "VideoLAN je software s otevřeným zdrojovým kódem."
 
 #: index.php:131
 msgid ""
 "This means that if you have the skill and the desire to improve one of our "
 "products, your contributions are welcome"
-msgstr "To znamen??, ??e pokud m??te schopnosti a touhu vylep??ovat jeden z na??ich produkt??, tak jsou Va??e p????sp??vky v??t??ny"
+msgstr "To znamená, že pokud máte schopnosti a touhu vylepšovat jeden z našich produktů, tak jsou Vaše příspěvky vítány"
 
 #: index.php:138
 msgid "Spread the Word"
-msgstr "Roz??????it pov??dom??"
+msgstr "Rozšířit povědomí"
 
 #: index.php:142
 msgid ""
 "We feel that VideoLAN has the best video software available at the best "
 "price: free. If you agree please help spread the word about our software."
-msgstr "Mysl??me, ??e VideoLAN m?? nejlep???? dostupn?? software na pr??ci s videem za nejlep???? cenu: zdarma. Pokud souhlas??te pomozte n??m ??????en??m informac?? o na??em software."
+msgstr "Myslíme, že VideoLAN má nejlepší dostupný software na práci s videem za nejlepší cenu: zdarma. Pokud souhlasíte pomozte nám šířením informací o našem software."
 
 #: index.php:414
 msgid "News &amp; Updates"
@@ -273,55 +273,55 @@ msgstr "Novinky &amp; Aktualizace"
 
 #: index.php:418
 msgid "Development Blogs"
-msgstr "Blogy v??voj??????"
+msgstr "Blogy vývojářů"
 
 #: index.php:441
 msgid "Social media"
-msgstr "Soci??ln?? s??t??"
+msgstr "Sociální sítě"
 
 #: vlc/index.php:3
 msgid "Official page for VLC media player, the Open Source video framework!"
-msgstr "Ofici??ln?? str??nka p??ehr??va??e VLC, video frameworku s otev??en??m zdrojov??m k??dem!"
+msgstr "Oficiální stránka přehrávače VLC, video frameworku s otevřeným zdrojovým kódem!"
 
 #: vlc/index.php:38
 msgid "Simple, fast and powerful media player."
-msgstr "Jednoduch??, rychl??, a v??konn?? p??ehr??va??."
+msgstr "Jednoduchý, rychlý, a výkonný přehrávač."
 
 #: vlc/index.php:40
 msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
-msgstr "P??ehraje v??e: soubory, disky, webkamery, za????zen?? a proudy."
+msgstr "Přehraje vše: soubory, disky, webkamery, zařízení a proudy."
 
 #: vlc/index.php:42
 msgid "Plays most codecs with no codec packs needed:"
-msgstr "P??ehraje v??t??inu kodek?? bez pot??eby softwaru t??et??ch stran: "
+msgstr "Přehraje většinu kodeků bez potřeby softwaru třetích stran: "
 
 #: vlc/index.php:45
 msgid "Runs on all platforms:"
-msgstr "Funguje na v??ech platform??ch:"
+msgstr "Funguje na všech platformách:"
 
 #: vlc/index.php:47
 msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
-msgstr "Absolutn?? zdarma, ????dn?? spyware, bez reklam a bez sledov??n?? u??ivatele."
+msgstr "Absolutně zdarma, žádný spyware, bez reklam a bez sledování uživatele."
 
 #: vlc/index.php:49
 msgid "Can do Media Convertion and Streaming."
-msgstr "M????e p??ev??d??t m??dia a odes??lat proudy."
+msgstr "Může převádět média a odesílat proudy."
 
 #: vlc/index.php:51
 msgid "Discover all features"
-msgstr "Prozkoumat v??echny vlastnosti"
+msgstr "Prozkoumat všechny vlastnosti"
 
 #: vlc/index.php:85
 msgid "View all screenshots"
-msgstr "Zobrazit v??echny sn??mky obrazovky"
+msgstr "Zobrazit všechny snímky obrazovky"
 
 #: vlc/index.php:92
 msgid "Get VLC for"
-msgstr "Z??skat VLC pro"
+msgstr "Získat VLC pro"
 
 #: vlc/index.php:96
 msgid "Official Downloads of VLC media player"
-msgstr "Ofici??ln?? sta??en?? p??ehr??va??e VLC"
+msgstr "Oficiální stažení přehrávače VLC"
 
 #: vlc/index.php:103
 msgid "Sources"
@@ -329,13 +329,13 @@ msgstr "Zdroje"
 
 #: vlc/index.php:104
 msgid "You can also directly get the"
-msgstr "Tak?? m????ete st??hnout"
+msgstr "Také můžete stáhnout"
 
 #: vlc/index.php:105
 msgid "source code"
-msgstr "zdrojov?? k??d"
+msgstr "zdrojový kód"
 
 #: vlc/index.php:126
 msgid "Other OS"
-msgstr "Jin?? OS"
+msgstr "Jiný OS"
 

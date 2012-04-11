@@ -288,7 +288,7 @@ msgstr "Einfacher, schneller und leistungsstarker Multimediaplayer."
 
 #: vlc/index.php:40
 msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
-msgstr "Spielt Alles: Multimediadateien, DVDs, Audio-CDs, VCD, Webcams und Streams."
+msgstr "Spielt alles: Multimediadateien, DVDs, Audio-CDs, VCD, Webcams und Streams."
 
 #: vlc/index.php:42
 msgid "Plays most codecs with no codec packs needed:"

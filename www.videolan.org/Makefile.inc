@@ -28,5 +28,5 @@ style/countries.css: include/mirrors
 	rm -f $@
 	awk -F '|' '!/^#/ { print $$4; }' $<|sort|uniq|awk '{ print "#maincontent table td."$$1; print " { padding-left:2em; background: url(http://images.videolan.org/images/flags/"$$1".png) left no-repeat; }" }' >> $@
 
-locales: index.bg.php index.by.php index.de.php index.dk.php index.el.php index.es.php index.fi.php index.fr.php index.ge.php index.hi.php index.mk.php index.pl.php index.ro.php index.ru.php index.sr.php index.tr.php 
+locales: index.bg.php index.by.php index.de.php index.dk.php index.el.php index.es.php index.fi.php index.fr.php index.ge.php index.hi.php index.mk.php index.pl.php index.ro.php index.ru.php index.sr.php index.tr.php index.cs.php
 

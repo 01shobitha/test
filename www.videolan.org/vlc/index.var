@@ -15,3 +15,16 @@ Content-language: en
 URI: index.de.html
 Content-type: text/html
 Content-language: de
+
+URI: index.tr.html
+Content-type: text/html
+Content-language: tr
+
+URI: index.cs.html
+Content-type: text/html
+Content-language: cs
+
+URI: index.hi.html
+Content-type: text/html
+Content-language: hi
+

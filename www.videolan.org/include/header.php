@@ -89,11 +89,13 @@ function StartHtml( $title, $color, $language,
 
     </head>
 
-    <body> <?php
-        echo "<div id='bodyInner' class='$color'";
-        if ($language == "he")
-            echo ' style="text-align: right;"';
-        echo ">";
+<?php
+        if ($language != "he")
+            echo '<body>';
+        else
+            echo '<body style="text-align: right; direction: rtl;">';
+
+        echo "<div id='bodyInner' class='$color'>";
 }
 
 /* Actual start of the body */

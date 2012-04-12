@@ -89,9 +89,11 @@ function StartHtml( $title, $color, $language,
 
     </head>
 
-    <body> <?php /* onload="<?php echo $body_onload;?>" onunload="<?php echo $body_onunload; */ ?>
-        <div id='bodyInner' class="<?php echo $color ?>">
-    <?php
+    <body> <?php
+        echo "<div id='bodyInner' class='$color'";
+        if ($language == "he")
+            echo ' style="text-align: right;"';
+        echo ">";
 }
 
 /* Actual start of the body */

@@ -602,7 +602,7 @@ list-style-type: circle;
   border-top: 1px solid #ccc;
 }
 
-.news-descr { text-align: justify; }
+.news-descr { text-align: justify; direction: ltr; }
 
 /* ======================================== FOOTER ============================================= */
 

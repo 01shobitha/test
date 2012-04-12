@@ -28,3 +28,6 @@ URI: index.hi.html
 Content-type: text/html
 Content-language: hi
 
+URI: index.he.html
+Content-type: text/html
+Content-language: he

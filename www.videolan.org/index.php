@@ -425,17 +425,17 @@ function vlcscreenshot($img,$thumb, $desc){
       $entries_per_column = 4;
       $columns = 1;
       foreach($rss->items as $item) {
-        echo "<p>";
-        echo "<b><a href=\"".$item['link'].'" style="color: black;">'.htmlentities($item['title'],ENT_COMPAT,"UTF-8")."</a></b></p>";
-        echo "<p style=\"border-bottom: 1px dashed #CCC;padding-bottom:5px;margin-bottom:5px\">";
-        echo substr(strip_tags(html_entity_decode($item['content']['encoded'],ENT_COMPAT,"UTF-8")),0,$chars_per_entry);
-        echo "<a href=\"".$item['link']."\">[...]</a><br/>";
-        echo "</p>";
-        $i++;
-        if($i>=$columns*$entries_per_column) break;
-        if($i%$entries_per_column==0) echo "</td><td>";
+          echo "<p style='direction:ltr; text-align:left;'>";
+          echo "<b><a href=\"".$item['link'].'" style="color: black;">'.htmlentities($item['title'],ENT_COMPAT,"UTF-8")."</a></b></p>";
+          echo '<p style="border-bottom: 1px dashed #CCC;padding-bottom:5px;margin-bottom:5px;direction:ltr; text-align:left;">';
+          echo substr(strip_tags(html_entity_decode($item['content']['encoded'],ENT_COMPAT,"UTF-8")),0,$chars_per_entry);
+          echo "<a href=\"".$item['link']."\">[...]</a><br/>";
+          echo "</p>";
+          $i++;
+          if($i>=$columns*$entries_per_column) break;
+          if($i%$entries_per_column==0) echo "</td><td>";
       }
-    ?>
+?>
     <?php /* Social and other BS */ ?>
     <h1 style="position:relative">
     <?php echo _("Social media"); ?>
@@ -451,7 +451,7 @@ function vlcscreenshot($img,$thumb, $desc){
       $entries_per_column = 4;
       $columns = 1;
       foreach($rss->items as $item) {
-        echo '<p style="border-bottom: 1px dashed #CCC;padding-bottom:5px;margin-bottom:5px;direction:ltr:">';
+        echo '<p style="border-bottom: 1px dashed #CCC;padding-bottom:5px;margin-bottom:5px;direction:ltr;">';
         echo preg_replace('^(http://\S+)^is', '<a href="$1">$1</a>', str_replace("videolan:", "<b>".date("Y-m-d h:i",strtotime($item['pubdate']))."</b>", $item['title']));
         echo "</p>";
         $i++;

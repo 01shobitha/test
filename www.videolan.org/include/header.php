@@ -24,6 +24,7 @@ function StartHtml( $title, $color, $language,
         case 'fr': $locale = "fr_FR.UTF-8"; break;
         case 'ge': $locale = "ge_GE.UTF-8"; break;
         case 'gr': $locale = "gr_GR.UTF-8"; break;
+        case 'he': $locale = "he_IL.UTF-8"; break;
         case 'hi': $locale = "hi_IN.UTF-8"; break;
         case 'pl': $locale = "pl_PL.UTF-8"; break;
         case 'ro': $locale = "ro_RO.UTF-8"; break;

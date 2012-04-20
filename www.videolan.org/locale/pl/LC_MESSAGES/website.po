@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Micha?? Trzebiatowski, 2012
+# Michał Trzebiatowski, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
@@ -30,7 +30,7 @@ msgstr "organizacja non-profit"
 msgid ""
 "composed of volunteers, developing and promoting free, open-source "
 "multimedia solutions."
-msgstr "z??o??ona z ochotnik??w, produkuj??ca i promuj??ca darmowe, otwarte rozwi??zania multimedialne."
+msgstr "złożona z ochotników, produkująca i promująca darmowe, otwarte rozwiązania multimedialne."
 
 #: include/header.php:114
 msgid "DONATE"
@@ -46,11 +46,11 @@ msgstr "wesprzyj"
 
 #: include/header.php:161
 msgid "Home"
-msgstr "Strona g????wna"
+msgstr "Strona główna"
 
 #: include/header.php:164 include/header.php:306
 msgid "News"
-msgstr "Aktualno??ci"
+msgstr "Aktualności"
 
 #: include/header.php:169 include/header.php:297
 msgid "Project and Organization"
@@ -58,7 +58,7 @@ msgstr "Projekt i Organizacja"
 
 #: include/header.php:170 include/header.php:298
 msgid "Team"
-msgstr "Zesp????"
+msgstr "Zespół"
 
 #: include/header.php:171 include/header.php:300
 msgid "Contact us"
@@ -70,7 +70,7 @@ msgstr "Partnerzy"
 
 #: include/header.php:173 include/header.php:302
 msgid "Press center"
-msgstr "Dla medi??w"
+msgstr "Dla mediów"
 
 #: include/header.php:174 include/header.php:303
 msgid "Events"
@@ -78,7 +78,7 @@ msgstr "Wydarzenia"
 
 #: include/header.php:175 include/header.php:304
 msgid "Security center"
-msgstr "Centrum bezpiecze??stwa"
+msgstr "Centrum bezpieczeństwa"
 
 #: include/header.php:181
 msgid "Download"
@@ -87,7 +87,7 @@ msgstr "Pobierz"
 #: include/header.php:182 include/header.php:261 index.php:26 vlc/index.php:20
 #: vlc/index.php:37
 msgid "Features"
-msgstr "Funkcjonalno????"
+msgstr "Funkcjonalność"
 
 #: include/header.php:183 include/header.php:262 index.php:27 vlc/index.php:21
 #: vlc/index.php:63
@@ -96,7 +96,7 @@ msgstr "Zrzuty ekranu"
 
 #: include/header.php:184 include/header.php:259 index.php:28 vlc/index.php:22
 msgid "Skins"
-msgstr "Sk??rki"
+msgstr "Skórki"
 
 #: include/header.php:185 include/header.php:260
 msgid "Extensions"
@@ -112,19 +112,19 @@ msgstr "Wszystkie projekty"
 
 #: include/header.php:210 index.php:126
 msgid "Contribute"
-msgstr "Wspom????"
+msgstr "Wspomóż"
 
 #: include/header.php:212 include/header.php:290
 msgid "Donate time"
-msgstr "Po??wi???? czas"
+msgstr "Poświęć czas"
 
 #: include/header.php:213 include/header.php:289
 msgid "Donate money"
-msgstr "Wspom???? finansowo"
+msgstr "Wspomóż finansowo"
 
 #: include/header.php:214 include/header.php:291
 msgid "Get Goodies"
-msgstr "Gad??ety"
+msgstr "Gadżety"
 
 #: include/header.php:218
 msgid "Support"
@@ -144,7 +144,7 @@ msgstr "Listy mailingowe"
 
 #: include/header.php:226
 msgid "Report a bug"
-msgstr "Zg??o?? b????d"
+msgstr "Zgłoś błąd"
 
 #: include/header.php:230
 msgid "Dev' Zone"
@@ -152,22 +152,22 @@ msgstr "Strefa dewelopera"
 
 #: include/header.php:283
 msgid "Community"
-msgstr "Spo??eczno????"
+msgstr "Społeczność"
 
 #: include/header.php:305
 msgid "Get Involved"
-msgstr "Zaanga??uj si??"
+msgstr "Zaangażuj się"
 
 #: index.php:3
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
-msgstr "VLC: oficjalna strona - wieloplatformowe darmowe rozwi??zania multimedialne!"
+msgstr "VLC: oficjalna strona - wieloplatformowe darmowe rozwiązania multimedialne!"
 
 #: index.php:24 vlc/index.php:18
 msgid ""
 "VLC is a free and open source cross-platform multimedia player and framework"
 " that plays most multimedia files as well as DVD, Audio CD, VCD, and various"
 " streaming protocols."
-msgstr "VLC jest darmowym i otwarty, wieloplatformowym odtwarzaczem multimedialnym i frameworkiem, kt??ry odtwarza wi??kszo???? plik??w multimedialnych, jak DVD, Audio CD, VCD i r????nego rodzaju strumienie."
+msgstr "VLC jest darmowym i otwarty, wieloplatformowym odtwarzaczem multimedialnym i frameworkiem, który odtwarza większość plików multimedialnych, jak DVD, Audio CD, VCD i różnego rodzaju strumienie."
 
 #: index.php:31 vlc/index.php:25
 msgid "Download VLC"
@@ -183,51 +183,51 @@ msgstr "Inne projekty od VideoLAN"
 
 #: index.php:45
 msgid "For Everyone"
-msgstr "Dla ka??dego"
+msgstr "Dla każdego"
 
 #: index.php:51
 msgid ""
 "VLC is a powerful media player playing most of the media codecs and video "
 "formats out there."
-msgstr "VLC jest funkcjonalnym odtwarzaczem multimedialnym, obs??uguj??cym wi??kszo???? istniej??cych kodek??w i format??w wideo."
+msgstr "VLC jest funkcjonalnym odtwarzaczem multimedialnym, obsługującym większość istniejących kodeków i formatów wideo."
 
 #: index.php:60
 msgid ""
 "VideoLAN Movie Creator is a non-linear editing software for video creation."
-msgstr "VideoLAN Movie Creator jest nieliniowym programew do tworzenia plik??w wideo."
+msgstr "VideoLAN Movie Creator jest nieliniowym programew do tworzenia plików wideo."
 
 #: index.php:67
 msgid "For Professionals"
-msgstr "Dla profesjonalist??w"
+msgstr "Dla profesjonalistów"
 
 #: index.php:73
 msgid ""
 "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
-msgstr "DVBlast jest prostym i posiadaj??cym du??e mo??liwo??ci dekoderem i aplikacj?? strumieniow??."
+msgstr "DVBlast jest prostym i posiadającym duże możliwości dekoderem i aplikacją strumieniową."
 
 #: index.php:81
 msgid ""
 "multicat is a set of tools designed to easily and efficiently manipulate "
 "multicast streams and TS."
-msgstr "multicat to zestaw narz??dzi przeznaczonych do ??atwego i skutecznego manipulowania strumieni multiemisji i TS."
+msgstr "multicat to zestaw narzędzi przeznaczonych do łatwego i skutecznego manipulowania strumieni multiemisji i TS."
 
 #: index.php:90
 msgid ""
 "x264 is a free application for encoding video streams into the H.264/MPEG-4 "
 "AVC format."
-msgstr "x264 jest darmow?? aplikacj?? s??u????c?? do kodowania strumieni wideo na format H.264/MPEG-4 AVC."
+msgstr "x264 jest darmową aplikacją służącą do kodowania strumieni wideo na format H.264/MPEG-4 AVC."
 
 #: index.php:98
 msgid "For Developers"
-msgstr "Dla deweloper??w"
+msgstr "Dla deweloperów"
 
 #: index.php:109
 msgid "View All Projects"
-msgstr "Poka?? wszystkie projekty"
+msgstr "Pokaż wszystkie projekty"
 
 #: index.php:112
 msgid "Help us out!"
-msgstr "Pom???? nam!"
+msgstr "Pomóż nam!"
 
 #: index.php:114
 msgid "Donate"
@@ -235,17 +235,17 @@ msgstr "Wesprzyj"
 
 #: index.php:118
 msgid "VideoLAN is a non-profit organization."
-msgstr "VideoLAN jest organizacj?? non-profit."
+msgstr "VideoLAN jest organizacją non-profit."
 
 #: index.php:119
 msgid ""
 " All our costs are met by donations we receive from our users. If you enjoy "
 "using a VideoLAN product, please donate to support us."
-msgstr "Wszystkie koszty s?? pokrywane z darowizn, kt??re otrzymuje od naszych u??ytkownik??w. Je??li u??ywasz produkt??w VideoLAN z u??miechem na twarzy i chcesz nam pom??c, wesprzyj nas."
+msgstr "Wszystkie koszty są pokrywane z darowizn, które otrzymuje od naszych użytkowników. Jeśli używasz produktów VideoLAN z uśmiechem na twarzy i chcesz nam pomóc, wesprzyj nas."
 
 #: index.php:121 index.php:133 index.php:144
 msgid "Learn More"
-msgstr "Dowiedz si?? wi??cej"
+msgstr "Dowiedz się więcej"
 
 #: index.php:130
 msgid "VideoLAN is open-source software."
@@ -255,7 +255,7 @@ msgstr "VideoLAN jest otwartym oprogramowaniem."
 msgid ""
 "This means that if you have the skill and the desire to improve one of our "
 "products, your contributions are welcome"
-msgstr "Oznacza to, ??e je??eli posiadasz umiej??tno???? i ch??ci, aby poprawi?? nasze produkty, przyjmiemy Ci?? z otwartymi ramionami."
+msgstr "Oznacza to, że jeżeli posiadasz umiejętność i chęci, aby poprawić nasze produkty, przyjmiemy Cię z otwartymi ramionami."
 
 #: index.php:138
 msgid "Spread the Word"
@@ -265,19 +265,19 @@ msgstr "Promuj nas"
 msgid ""
 "We feel that VideoLAN has the best video software available at the best "
 "price: free. If you agree please help spread the word about our software."
-msgstr "Uwa??amy, ??e VideoLAN ma najlepsze oprogramowanie wideo dost??pne w najlepszej cenie: za darmo. Je??li zgadzasz si?? z nasz?? opini??, wspom???? nas w promocji naszych produkt??w."
+msgstr "Uważamy, że VideoLAN ma najlepsze oprogramowanie wideo dostępne w najlepszej cenie: za darmo. Jeśli zgadzasz się z naszą opinią, wspomóż nas w promocji naszych produktów."
 
 #: index.php:414
 msgid "News &amp; Updates"
-msgstr "Nowo??ci i aktualno??ci"
+msgstr "Nowości i aktualności"
 
 #: index.php:418
 msgid "Development Blogs"
-msgstr "Blogi deweloper??w"
+msgstr "Blogi deweloperów"
 
 #: index.php:441
 msgid "Social media"
-msgstr "Serwisy spo??eczno??ciowe"
+msgstr "Serwisy społecznościowe"
 
 #: vlc/index.php:3
 msgid "Official page for VLC media player, the Open Source video framework!"
@@ -289,27 +289,27 @@ msgstr "Prosty, szybki i wydajny odtwarzacz multimedialny."
 
 #: vlc/index.php:40
 msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
-msgstr "Odtwarza wszystko: pliki, p??yty, kamery internetowe, urz??dzenia i strumienie."
+msgstr "Odtwarza wszystko: pliki, płyty, kamery internetowe, urządzenia i strumienie."
 
 #: vlc/index.php:42
 msgid "Plays most codecs with no codec packs needed:"
-msgstr "Odtwarza wi??kszo???? kodek??w bez potrzebnych pakiet??w kodeka:"
+msgstr "Odtwarza większość kodeków bez potrzebnych pakietów kodeka:"
 
 #: vlc/index.php:45
 msgid "Runs on all platforms:"
-msgstr "Dzia??a na wszystkich platformach:"
+msgstr "Działa na wszystkich platformach:"
 
 #: vlc/index.php:47
 msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
-msgstr "Ca??kowicie za darmo, 0 oprogramowania szpieguj??cego 0 reklam i bez ??ledzenia u??ytkownika."
+msgstr "Całkowicie za darmo, 0 oprogramowania szpiegującego 0 reklam i bez śledzenia użytkownika."
 
 #: vlc/index.php:49
 msgid "Can do Media Convertion and Streaming."
-msgstr "Potrafi konwersowa?? multimedia i transmisje strumieniowe."
+msgstr "Potrafi konwersować multimedia i transmisje strumieniowe."
 
 #: vlc/index.php:51
 msgid "Discover all features"
-msgstr "Odkryj wszystkie mo??liwo??ci"
+msgstr "Odkryj wszystkie możliwości"
 
 #: vlc/index.php:85
 msgid "View all screenshots"
@@ -325,15 +325,15 @@ msgstr "Oficjalne wydania odtwarzacza VLC"
 
 #: vlc/index.php:103
 msgid "Sources"
-msgstr "??r??d??a"
+msgstr "Źródła"
 
 #: vlc/index.php:104
 msgid "You can also directly get the"
-msgstr "Mo??esz r??wnie?? bezpo??rednio pobra??"
+msgstr "Możesz również bezpośrednio pobrać"
 
 #: vlc/index.php:105
 msgid "source code"
-msgstr "kod ??r??d??owy"
+msgstr "kod źródłowy"
 
 #: vlc/index.php:126
 msgid "Other OS"

@@ -2,15 +2,14 @@
 # Copyright (C) YEAR jb
 # This file is distributed under the same license as the PACKAGE package.
 # 
-# Translators:
-# Michał Trzebiatowski, 2012
+# Translators: Michał Trzebiatowski, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: https://github.com/yarons/vlc-heb/issues\n"
 "POT-Creation-Date: 2012-04-03 15:48+0200\n"
-"PO-Revision-Date: 2012-04-19 21:45+0000\n"
-"Last-Translator: M T <michtrz@googlemail.com>\n"
+"PO-Revision-Date: 2012-04-20 23:35+0000\n"
+"Last-Translator: Michał Trzebiatowski <michtrz@googlemail.com>\n"
 "Language-Team: Polish (http://www.transifex.net/projects/p/vlc-trans/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -96,7 +95,7 @@ msgstr "Zrzuty ekranu"
 
 #: include/header.php:184 include/header.php:259 index.php:28 vlc/index.php:22
 msgid "Skins"
-msgstr "Skórki"
+msgstr "Skóry"
 
 #: include/header.php:185 include/header.php:260
 msgid "Extensions"
@@ -167,7 +166,7 @@ msgid ""
 "VLC is a free and open source cross-platform multimedia player and framework"
 " that plays most multimedia files as well as DVD, Audio CD, VCD, and various"
 " streaming protocols."
-msgstr "VLC jest darmowym i otwarty, wieloplatformowym odtwarzaczem multimedialnym i frameworkiem, który odtwarza większość plików multimedialnych, jak DVD, Audio CD, VCD i różnego rodzaju strumienie."
+msgstr "VLC to darmowy i otwarty, wieloplatformowy odtwarzacz multimedialny i także framework, który odtwarza większość plików multimedialnych, jak również płyty DVD, Audio CD, VCD i różnego rodzaju strumienie."
 
 #: index.php:31 vlc/index.php:25
 msgid "Download VLC"
@@ -179,7 +178,7 @@ msgstr "Inne systemy i wersje"
 
 #: index.php:43
 msgid "Other projects from VideoLAN"
-msgstr "Inne projekty od VideoLAN"
+msgstr "Inne projekty VideoLAN"
 
 #: index.php:45
 msgid "For Everyone"
@@ -194,7 +193,7 @@ msgstr "VLC jest funkcjonalnym odtwarzaczem multimedialnym, obsługującym więk
 #: index.php:60
 msgid ""
 "VideoLAN Movie Creator is a non-linear editing software for video creation."
-msgstr "VideoLAN Movie Creator jest nieliniowym programew do tworzenia plików wideo."
+msgstr "VideoLAN Movie Creator jest nieliniowym programem do tworzenia plików wideo."
 
 #: index.php:67
 msgid "For Professionals"
@@ -209,7 +208,7 @@ msgstr "DVBlast jest prostym i posiadającym duże możliwości dekoderem i apli
 msgid ""
 "multicat is a set of tools designed to easily and efficiently manipulate "
 "multicast streams and TS."
-msgstr "multicat to zestaw narzędzi przeznaczonych do łatwego i skutecznego manipulowania strumieni multiemisji i TS."
+msgstr "multicat jest zestawem narzędzi przeznaczonych do łatwego i skutecznego manipulowania strumieni multiemisji i TS."
 
 #: index.php:90
 msgid ""
@@ -241,7 +240,7 @@ msgstr "VideoLAN jest organizacją non-profit."
 msgid ""
 " All our costs are met by donations we receive from our users. If you enjoy "
 "using a VideoLAN product, please donate to support us."
-msgstr "Wszystkie koszty są pokrywane z darowizn, które otrzymuje od naszych użytkowników. Jeśli używasz produktów VideoLAN z uśmiechem na twarzy i chcesz nam pomóc, wesprzyj nas."
+msgstr "Wszystkie koszty pokrywane są z darowizn, które otrzymujemy od naszych użytkowników. Jeśli używasz produktów VideoLAN z uśmiechem na twarzy i chcesz nam pomóc, wesprzyj nas."
 
 #: index.php:121 index.php:133 index.php:144
 msgid "Learn More"
@@ -293,7 +292,7 @@ msgstr "Odtwarza wszystko: pliki, płyty, kamery internetowe, urządzenia i stru
 
 #: vlc/index.php:42
 msgid "Plays most codecs with no codec packs needed:"
-msgstr "Odtwarza większość kodeków bez potrzebnych pakietów kodeka:"
+msgstr "Odtwarza większość kodeków bez potrzebnych pakietów:"
 
 #: vlc/index.php:45
 msgid "Runs on all platforms:"
@@ -301,7 +300,7 @@ msgstr "Działa na wszystkich platformach:"
 
 #: vlc/index.php:47
 msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
-msgstr "Całkowicie za darmo, 0 oprogramowania szpiegującego 0 reklam i bez śledzenia użytkownika."
+msgstr "Całkowicie za darmo, 0 oprogramowania szpiegującego, 0 reklam i żadnego śledzenia użytkownika."
 
 #: vlc/index.php:49
 msgid "Can do Media Convertion and Streaming."

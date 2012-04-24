@@ -205,7 +205,7 @@ msgstr "Pour tous"
 
 #: index.php:51
 msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
-msgstr "VLC est un lecteur multimédia puissant capable de lire la plupart des codecs mdia et des formats vido."
+msgstr "VLC est un lecteur multimédia puissant capable de lire la plupart des codecs multimédia et des formats vidéo."
 
 #: index.php:60
 msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."

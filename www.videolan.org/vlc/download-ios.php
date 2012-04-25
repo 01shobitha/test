@@ -19,7 +19,7 @@
 <p> We do not provide binary packages at this point.</p>
 
 <h2> Source </h2>
-<p> You can find the source here for the last release here:</p>
+<p> You can find the source code for the last release here:</p>
 <code><a href="http://download.videolan.org/pub/videolan/testing/vlc-iOS/1.1.0/VLC-1.1.0-iOS.tar.bz2">VLC-iOS-1.1.0-sources</a></code><br />
 <code><a href="http://download.videolan.org/pub/videolan/testing/vlc-iOS/1.1.0/MediaLibraryKit-1.1.0.zip">MediaLibraryKit-1.1.0-sources</a></code><br />
 <code><a href="http://download.videolan.org/pub/videolan/testing/vlc-iOS/1.1.0/MobileVLC-1.1.0.tar.gz">MobileVLC-1.1.0-sources</a></code>

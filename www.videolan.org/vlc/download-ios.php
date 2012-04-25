@@ -13,7 +13,7 @@
    However, the interface works in a slightly different way, that is more suited to this OS.</p>
 
 <h2> Devices and version </h2>
-<p>VLC for iOS requires an an iPad (any generation), an iPhone 3GS or a 3rd generation iPod touch running iOS 3.2 or later.</p>
+<p>VLC for iOS requires at least an iPhone 3GS or a 3rd generation iPod touch or an iPad (any generation) running iOS 3.2 or later.</p>
 
 <h2> Binaries </h2>
 <p> We do not provide binary packages at this point.</p>

@@ -14,6 +14,8 @@
 <p> VLC is available in squeeze, with a quite old version.<br />
 Install <code>vlc</code>, <code>mozilla-plugin-vlc</code>, the usual way you do it. </p>
 
+<p> If you want a more recent version of <a href="/vlc/">VLC</a>, please take the version from testing.<br />
+
 
 <h2> Debian testing (wheezy) </h2>
 

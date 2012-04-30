@@ -68,10 +68,14 @@ function StartHtml( $title, $color, $language,
         <link rel="alternate" type="application/rss+xml" title="RSS - Developers Blog" href="http://planet.videolan.org/rss20.xml" />
 
     <?php if( isset($alternate_lang) ) {
+        $root_filename = explode('.', $_SERVER['SCRIPT_FILENAME'] );
+        echo "<!-- ".$root_filename[0]." -->";
         foreach($alternate_lang as $lang) {
-            echo  '<link rel="alternate" hreflang="'.$lang.'" href="index.'.$lang.'.html" />'."\n";
+            if( $lang == "en" )
+                echo  '<link rel="alternate" hreflang="'.$lang.'" href="/'.$root_filename[0].'.html" />'."\n"; 
+            else
+                echo  '<link rel="alternate" hreflang="'.$lang.'" href="/'.$root_filename[0].'.'.$lang.'.html" />'."\n";
         }
-        echo "<!-- $_SERVER['PHP_SELF'] -->";
     } ?>
 
         <link rel="stylesheet" type="text/css" href="/style/style.css" />

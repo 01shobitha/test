@@ -6,6 +6,7 @@
 function StartHtml( $title, $color, $language,
                     $additional_css=array(),
                     $additional_js=array(),
+                    $alternate_lang=array(),
                     $body_onload = "HideMirrors();",
                     $body_onunload = "" )
 {
@@ -41,7 +42,7 @@ function StartHtml( $title, $color, $language,
     }
 
     /* We love xml, right? */
-    echo '<?xml version="1.0" encoding="utf-8" ?>'; ?>
+    echo '<?xml version="1.0" encoding="utf-8" ?>'."\n"; ?>
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
         "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
     <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $language?>" lang="<?php echo $language?>">
@@ -65,7 +66,7 @@ function StartHtml( $title, $color, $language,
 
     <?php if( isset($alternate_lang) ) {
         foreach($alternate_lang as $lang) {
-            echo  '<link rel="alternate" hreflang="'.$lang.'" href="index.'.$lang.'html" />';
+            echo  '<link rel="alternate" hreflang="'.$lang.'" href="index.'.$lang.'.html" />'."\n";
         }
     } ?>
 
@@ -400,6 +401,7 @@ if(!isset($language) || $language == "" ) { $language = "en"; }
 
 if(!isset($additional_css)) $additional_css = array();
 if(!isset($additional_js)) $additional_js = array();
+if(!isset($alternate_lang)) $alternate_lang = array();
 if(!isset($body_onload)) $body_onload = "";
 if(!isset($body_onunload)) $body_onunload = "";
 if(!isset($body_color)) $body_color = "orange";
@@ -408,7 +410,7 @@ if(!isset($nobanner)) $nobanner = false;
 
 // HTML header
 StartHtml( preg_replace( "/<[^>]*>/", "" , $title ), $body_color, $language,
-           $additional_css, $additional_js, $body_onload, $body_onunload );
+           $additional_css, $additional_js, $alternate_lang, $body_onload, $body_onunload );
 start_top( $body_color );
 draw_menus( $nobanner);
 ?>

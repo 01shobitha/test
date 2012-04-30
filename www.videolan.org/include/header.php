@@ -50,16 +50,19 @@ function StartHtml( $title, $color, $language,
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta http-equiv="Content-Language" content="<?php echo $language?>" />
+
         <meta name="Author" content="VideoLAN" />
         <meta name="Keywords" content="VideoLAN, VLC, VLC player, VLC media player, download, 
         media player, player download, codec, encoder, media converter, video, video player, multimedia, multicast,
         VLC, x264, DVBlast, Windows, Linux, Unix, BeOS, BSD, MacOS, MacOS X, OSX, Streaming,
         DVD, Matroska, Blu-Ray, FLV, Xvid, MPEG, MPEG2, MPEG4, H264, DivX, VideoLAN, MKV, m2ts,
         open source, free software, floss, free" />
+
         <meta name="Description" content="<?php echo $title; ?>" />
+        <title>VideoLAN - <?php echo $title; ?></title>
+
         <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
         <link href="https://plus.google.com/104597325891170264649" rel="publisher" />
-        <title>VideoLAN - <?php echo $title; ?></title>
 
         <link rel="alternate" type="application/rss+xml" title="RSS - VideoLAN News" href="/videolan-news.rss" />
         <link rel="alternate" type="application/rss+xml" title="RSS - Developers Blog" href="http://planet.videolan.org/rss20.xml" />
@@ -68,6 +71,7 @@ function StartHtml( $title, $color, $language,
         foreach($alternate_lang as $lang) {
             echo  '<link rel="alternate" hreflang="'.$lang.'" href="index.'.$lang.'.html" />'."\n";
         }
+        echo "<!-- $_SERVER['PHP_SELF'] -->";
     } ?>
 
         <link rel="stylesheet" type="text/css" href="/style/style.css" />

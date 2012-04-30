@@ -63,6 +63,12 @@ function StartHtml( $title, $color, $language,
         <link rel="alternate" type="application/rss+xml" title="RSS - VideoLAN News" href="/videolan-news.rss" />
         <link rel="alternate" type="application/rss+xml" title="RSS - Developers Blog" href="http://planet.videolan.org/rss20.xml" />
 
+    <?php if( isset($alternate_lang) ) {
+        foreach($alternate_lang as $lang) {
+            echo  '<link rel="alternate" hreflang="'.$lang.'" href="index.'.$lang.'html" />';
+        }
+    } ?>
+
         <link rel="stylesheet" type="text/css" href="/style/style.css" />
 
     <?php if( isset($additional_css) ) {

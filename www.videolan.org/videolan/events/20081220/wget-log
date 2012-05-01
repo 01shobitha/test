@@ -1,0 +1,15 @@
+--18:58:07--  http://127.0.0.1:1234/jpg/image.jpg
+           => `live.jpg.temp'
+Connecting to 127.0.0.1:1234... connected.
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+Retrying.
+
+--19:13:08--  http://127.0.0.1:1234/jpg/image.jpg
+  (try: 2) => `live.jpg.temp'
+Connecting to 127.0.0.1:1234... connected.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+Retrying.
+
+--19:13:59--  http://127.0.0.1:1234/jpg/image.jpg
+  (try: 3) => `live.jpg.temp'
+Connecting to 127.0.0.1:1234... failed: Connection refused.

@@ -1,0 +1,14 @@
+
+VLC - plugins d'interface
+GUI
+Unix: Gtk, GNOME, Qt, KDE
+Windows: Gtk
+BeOS, MacOS X: API native
+UI non-graphiques
+ligne de commande
+commande infra-rouge
+Fonctionnalités
+sélection de chaîne, programme, chapitre
+sélection de la piste audio
+sélection des sous-titres
+Intégration maximale au système

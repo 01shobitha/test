@@ -1,0 +1,13 @@
+
+Les utilisateurs de VideoLAN
+Les institutions
+VIA Centrale Réseau
+télévision sur le réseau en multicast
+Motorola
+démo de charge sur réseau IPv6
+Philips
+Utilisation de VideoLAN pour leurs projets de recherche
+Université de Stanford
+utilise VLC comme client pour bornes de stockage et de retransmission vidéo sur réseau
+D'autres campus (INT Evry...)
+

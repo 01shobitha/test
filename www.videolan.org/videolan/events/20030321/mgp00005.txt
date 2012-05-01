@@ -1,0 +1,14 @@
+
+Organisation du projet
+Structure
+projet de l'ECP
+club de l'association VIA
+formations - transmission du savoir
+contributeurs extérieurs
+une trentaine de développeurs extérieurs
+une dizaine de nationalités différentes
+Entreprises partenaires
+
+Outils de développement
+CVS, Web, FTP, mailing-lists, IRC
+

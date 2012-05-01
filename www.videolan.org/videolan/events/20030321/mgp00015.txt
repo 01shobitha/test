@@ -1,0 +1,13 @@
+
+Formats supportés (3/4)
+Formats de compression vidéo
+MPEG-1
+MPEG-2
+MPEG-4/DivX
+DV
+WMV1
+Sorenson1
+Cinepak
+Tarkin
+Theora
+

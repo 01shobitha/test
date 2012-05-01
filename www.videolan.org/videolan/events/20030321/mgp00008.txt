@@ -1,0 +1,15 @@
+
+VLC - présentation
+Un player multimédia universel
+support de nombreux systèmes d'exploitations
+support de nombreux formats
+lecture des flux streamés
+Historique
+1998: développement initial sous Linux
+1999: portage en interne sous FreeBSD et Solaris
+2000: portage en interne sous BeOS
+2001: distribution en GPL
+2001: portages Windows, QNX, MacOS X, OpenBSD, BSD/I, AIX, HP-UX
+2002: support du multicast et du MPEG-4
+2003: stream output, menus DVDs et plugin Mozilla
+

@@ -1,0 +1,13 @@
+
+VLC - un lecteur multi-plateformes
+Systèmes grand public
+Windows 95, 98, 2000, ME, XP
+MacOS X
+BeOS
+Un*x
+FreeBSD, OpenBSD, NetBSD, BSD/I
+Linux
+Solaris, AIX, HP-UX
+OS embarqués
+QNX
+Familiar Linux (iPAQ)

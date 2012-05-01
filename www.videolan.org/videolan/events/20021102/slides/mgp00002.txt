@@ -1,0 +1,11 @@
+
+Bref historique
+1996
+objectif : diffusion sur la résidence de l'ECP
+septembre : lancement du projet
+2001
+février : licence GPL
+octobre : support du satellite et de l'encodage MPEG-2 temps-réel
+2002
+janvier : support du multicast
+mai : test multicast avec 5O0 élèves à l'ECP

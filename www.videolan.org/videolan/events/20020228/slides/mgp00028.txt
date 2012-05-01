@@ -1,0 +1,15 @@
+
+Les utilisateurs de VideoLAN - 3/3
+Les utilisateurs de composants de VideoLAN
+NetStream2000
+utilise VLS sous Windows
+InfoSat
+utilise VLC pour le développement en interne
+un grand constructeur automobile français
+utilise la version QNX de VLC pour un prototype de vidéo embarquée
+Université de Stanford, Californie
+utilise VLC comme client pour bornes de stockage et de retransmission vidéo sur réseau
+Université de Vrije, Pays-Bas
+utilise VLC en cluster pour l'affichage de murs d'images
+
+. . .

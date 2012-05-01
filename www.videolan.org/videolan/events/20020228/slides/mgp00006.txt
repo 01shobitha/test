@@ -1,0 +1,15 @@
+
+Bref historique
+1996
+objectif : diffusion sur la résidence de l'ECP
+septembre : lancement du projet
+1998
+octobre : première diffusion de MPEG-2
+1999
+tests de diffusion DVD, 20 à 30 testeurs
+2001
+février : licence GPL
+octobre : support d'une carte satellite et d'une carte d'encodage MPEG-2
+novembre : tests à grande échelle, 200 testeurs
+2002
+janvier : support du multicast

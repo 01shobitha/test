@@ -1,0 +1,16 @@
+
+VideoLAN Client
+un lecteur modulaire :
+140 plugins externes: 160000 lignes de code
+un lecteur multi-plateformes
+Systèmes grand public
+Windows 95, 98, ME, 2000, XP
+MacOS X
+BeOS
+Un*x
+Linux
+FreeBSD, OpenBSD, NetBSD, BSD/I
+Solaris, AIX, HP-UX
+OS embarqués
+QNX
+Familiar Linux (iPAQ)

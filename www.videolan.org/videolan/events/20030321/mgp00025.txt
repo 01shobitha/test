@@ -1,0 +1,11 @@
+
+VLC stream output
+Objectifs
+S'affranchir des limites du VLS
+Support de nouveaux formats
+Ré-encodage
+Simplicité d'utilisation
+Entrées supportées
+Fichiers MPEG-1, MPEG-2, MPEG-4
+DVD
+

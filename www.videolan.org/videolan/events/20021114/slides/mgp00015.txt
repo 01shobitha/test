@@ -1,0 +1,16 @@
+
+Le VLS - Fonctionalités
+
+Input :
+MPEG 1 et 2
+Carte d'encodage MPEG 2 temps-réel
+DVD
+Carte Satellite (DVB)
+
+Output :
+format MPEG2-TS dans UDP/IP (avec ou sans RTP)
+unicast
+multicast
+fichier
+
+

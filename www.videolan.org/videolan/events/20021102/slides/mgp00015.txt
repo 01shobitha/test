@@ -1,0 +1,16 @@
+
+Les développements à venir
+Architecture globale
+Manager
+Embedded et Wireless
+e-learning
+Client et Serveur
+Description des programmes (SAP/SDP)
+VOD (RTP/RTSP)
+VLC
+Stream Output (réencodage, remultiplexage)
+Nouveaux formats : OggMux, Xvid
+Portage Windows CE
+VLS
+Télévision Numérique Terrestre
+

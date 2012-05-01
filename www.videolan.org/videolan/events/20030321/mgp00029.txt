@@ -1,0 +1,12 @@
+
+Manager
+
+Solution actuelle :
+Administration séparée des streamers répartis sur plusieurs machines
+Dispersion des informations sur les flux
+
+Rôle du manager :
+Administration de la totalité des streamers (via RTSP)
+Centralisation des informations sur les flux diffusés
+Interface unique
+

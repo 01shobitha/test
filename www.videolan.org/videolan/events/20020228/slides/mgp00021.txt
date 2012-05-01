@@ -1,0 +1,6 @@
+
+Le VideoLAN Channel Server
+Solution VLANs
+
+Broadcast dans chaque VLAN
+VLCS interagit sur le matériel (SNMP)

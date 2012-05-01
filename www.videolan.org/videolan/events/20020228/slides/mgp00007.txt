@@ -1,0 +1,13 @@
+
+Organisation du projet
+Pourquoi la licence GPL ?
+
+Outils de développement du projet
+CVS, ftp , web, mailing-list, IRC 
+
+Structure
+projet de l'ECP
+association indépendante
+formations - transmission du savoir
+contributeurs extérieurs
+Entreprises partenaires

@@ -1,0 +1,8 @@
+
+VLC - le futur tel que nous l'envisageons aujourd'hui...
+Input IV : multi-input
+Implémentation complète du RTP et du MPEG-4
+Lecture simultanée et synchronisée de plusieurs flux
+Nouvelles API drivers DVB
+Utilisation de nouvelles librairies
+

@@ -1,0 +1,13 @@
+
+Le VideoLAN Server
+Input :
+MPEG 1 et 2
+DVD
+Carte Satellite
+Carte d'encodage MPEG 2 temps-réel
+Output :
+unicast
+multicast
+fichier
+format MPEG2-TS dans UDP/IP (avec ou sans RTP)
+

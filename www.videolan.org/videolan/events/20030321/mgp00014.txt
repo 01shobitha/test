@@ -1,0 +1,16 @@
+
+Formats supportés (2/4)
+Formats d'entrée
+DVD
+VCD
+MPEG-1
+MPEG-2 (PS/TS)
+MP3
+AVI
+MP4/MOV
+ASF/WMV/WMA
+DV
+OGG/OGM
+AAC
+WAV
+

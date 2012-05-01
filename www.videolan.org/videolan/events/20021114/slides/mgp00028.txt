@@ -1,0 +1,8 @@
+
+Les problèmes juridiques
+Pour VideoLAN et ses utilisateurs
+MPEG LA (brevets sur MPEG 1-2-4)
+DVD CCA (décryptage des DVDs)
+Reverse engineering (DVD, WMA, Real...)
+DMCA - InfoSoc
+

@@ -1,0 +1,11 @@
+
+VLC - un lecteur modulaire
+Un coeur minimaliste: 20000 lignes de code
+fonctions bas-niveau: threads, timing, bitstream
+fonctions haut-niveau: playlist, mixage audio
+Portage du coeur rendu très facile
+200 à 300 lignes seulement dépendent de l'architecture
+70 plugins externes: 100000 lignes de code
+20 complètement portables (décodeurs, effets)
+25 dépendant de l'OS (interfaces, plugins d'output)
+25 dépendant du processeur (plugins de calcul)

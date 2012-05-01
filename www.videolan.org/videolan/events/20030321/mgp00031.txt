@@ -1,0 +1,13 @@
+
+VideoLAN et le E-learning
+
+Idée de départ
+Les cours aujourd'hui
+Synchroniser video / son / slides
+
+Objectif de réalisation
+Support des présentations PowerPoint et OpenOffice
+Support d'un format ouvert basé sur XML
+Diffusion en VOD et en direct
+Clients Windows, Linux et Mac OS X
+

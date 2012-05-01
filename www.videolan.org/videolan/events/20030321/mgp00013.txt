@@ -1,0 +1,12 @@
+
+Formats supportés (1/4)
+Apport de la communauté Opensource
+ffmpeg (DivX)
+XviD
+a52
+mad
+faac
+Vorbis
+Theora
+flac
+

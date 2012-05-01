@@ -1,0 +1,14 @@
+
+VLC - présentation
+Partie de la solution VideoLAN
+décodeur MPEG-2 totalement développé en interne
+lecture des flux envoyés par VLS
+interaction avec VLCS
+Lecteur multimédia multi-plateformes autonome
+structure modulaire
+Historique
+1998: développement initial sous Linux
+1999: portage en interne sous FreeBSD et Solaris
+2000: portage en interne sous BeOS
+2001: distribution en GPL
+2001: portages Windows, QNX, MacOS X, OpenBSD, BSD/I, AIX, HP-UX

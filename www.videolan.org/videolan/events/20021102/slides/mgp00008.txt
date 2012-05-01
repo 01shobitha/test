@@ -1,0 +1,15 @@
+
+VLC - plugins de sortie
+Plugins vidéo
+Unix : X11, XVideo, SDL
+Unix embarqué : Qt Embedded
+Windows : DirectX, SDL
+BeOS, QNX, MacOS X : API native
+Plugins audio
+Unix : OSS, ALSA, esd, aRts
+Windows : DirectX
+BeOS, QNX, MacOS X : natif
+Plugins de filtrage
+désentrelacement
+mur d'images
+effets visuels : rotation, symétrie, négatif...

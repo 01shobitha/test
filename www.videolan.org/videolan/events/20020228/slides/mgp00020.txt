@@ -1,0 +1,5 @@
+
+Le VideoLAN Channel Server
+Solution Multicast
+
+Le VLCS est la structure centrale

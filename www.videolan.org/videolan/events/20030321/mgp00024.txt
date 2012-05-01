@@ -1,0 +1,14 @@
+
+VLS - Fonctionnalités
+
+Entrées supportées
+Fichiers MPEG-1, MPEG-2, MPEG-4
+DVD
+Carte Satellite
+Carte Télévision Numérique Terrestre
+Carte d'encodage MPEG-2 temps-réel
+Périphérique Video4Linux (encodage MPEG-4 en soft)
+O.S. supportés
+Linux
+Mac OS X
+

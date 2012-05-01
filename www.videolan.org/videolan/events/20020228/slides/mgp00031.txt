@@ -1,0 +1,15 @@
+
+Notre projet de site pilote - 1/5
+Objectifs
+tester le multicast en production à grande échelle
+utilisateurs : 1000 élèves de l'École Centrale connectés
+VLC sous Windows, Linux et Mac OS X
+à plus long terme : diffuser sur le MBone !
+
+Sur le futur réseau de VIA (Mars 2002)...
+réseau Extreme Networks
+backbone Gigabit Ethernet redondant
+périphérie : Switchs 100Mbit/s Full Layer 3
+réseau entièrement routé !
+
+. . .

@@ -1,0 +1,16 @@
+
+Bref historique
+1996
+objectif : diffusion sur la résidence de l'ECP
+septembre : lancement du projet
+1998
+octobre : première diffusion de MPEG-2
+2001
+février : licence GPL
+octobre : support du satellite
+2002
+mai : tests en multicast avec 500 élèves à l'ECP
+novembre : support de la télévision numérique terrestre
+2003
+janvier : support du streaming MPEG-4
+mars : support de l'encodage MPEG-4 temps-réel

@@ -1,0 +1,16 @@
+
+Les utilisateurs de VideoLAN - 2/3
+Les utilisateurs et développeurs de VLC
+AT&T
+réalisation du support multicast de VLC
+British Telecom
+réalisation du support IPv6 de VLC
+Philips
+participation au portage iPAQ de VLC
+VTHR
+utilisation de VLC pour la réception de flux satellite
+support satellite de VLC
+désentrelacement logiciel
+MPEG-2 haute résolution et haute qualité
+
+. . .

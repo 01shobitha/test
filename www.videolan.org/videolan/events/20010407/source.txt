@@ -1,0 +1,229 @@
+# -----------------------------------------------------------------------------
+# SOURCE TEXT FOR SLIDES.SH
+# ADAPT THE VARIABLES BELOW AS APPROPRIATE
+# !!!!! PLEASE DON'T PUT ANY BLANK LINES IN THE SOURCE !!!!!
+# ----- DIRECTORIES AND FILES -------------------------------------------------
+destination_dir=dest         # you can also use the command line argument -d
+images_dir=../images         # you can also use the command line argument -i
+prefix=slide                 # of the HTML file
+suffix=html                  # or "htm"
+index_name=index             # or "homepage"
+# ----- MISCELLANEOUS ---------------------------------------------------------
+table_height=80              # height (in percentage) of central table / page
+table_width_std=95           # width (in percentage) central table / std page
+table_width_toc=60           # width (in percentage) central table / page for 
+                             # table of contents
+font_face="Arial,Helvetica"  # of the document's characters
+table_of_contents=no         # you can also use the cmd line argument -t (yes)
+max_line_contents=12         # max lines by page for table of contents
+table_of_contents_text="Table of contents"
+table_of_contents_cont="(continued)"
+background_color="#ffffff"
+#background_img="my_background.gif"
+auto_pull_wait=0             # a value > 0 make an auto slideshow with "value"
+                             # secondes wait
+# ----- NAVIGATION LINE -------------------------------------------------------
+color="#ffffcc"
+start_img_presence=yes        # yes enable "Start" Button (link to first slide)
+start_img_alt="Start"
+previous_img_alt="Previous"
+next_img_alt="Next"
+# ----- HTML HEADER and ELEMENT for PAGE 1 ------------------------------------
+author="Samuel Hocevar &lt;sam@videolan.org&gt;<br>Henri Fallon &lt;henri@videolan.org&gt;<br><br>les Samedis du Libre, 7 avril 2001"   # META name="author" and element page 1
+keywords="DVD MPEG VideoLAN"     # META name="keywords"
+charset="iso-8859-1"
+# ----- HTML FOOTER -----------------------------------------------------------
+ruler_width=580
+#tel_text="Telephone"
+#fax_text="Fax"
+email_text="Email"
+organization="Les Samedis du Libre - 7 avril 2001"
+#adr1="My address"
+#adr2="My town"
+email="sam@videolan.org, henri@videolan.org"
+#tel="+33 1 02 03 04 05"
+#fax="+33 1 02 03 04 06"
+logo_img=linux.gif
+logo_alt="GNU/Linux"
+logo_height=30
+logo_width=28
+# -----------------------------------------------------------------------------
+# DON'T MODIFY THE "--" SEPARATOR !
+# THE FIRST LINE AFTER IS THE PRESENTATION TITLE. DON'T PUT A COMMENT !
+--
+Vidéo et DVDs sous OS alternatifs : le projet VideoLAN
+::
+Partie 1 : les DVD§Partie 1 : les DVD
+	à quoi ressemble un DVD ?
+	avantages du DVD
+	pourquoi vouloir lire des DVD sur un ordinateur ?
+	contraintes techniques
+	contraintes légales
+::
+À quoi ressemble un DVD ?§À quoi ressemble un DVD ?
+	similaire au CD-Rom
+	vidéo
+		MPEG-2
+	son
+		MPEG-2
+		Dolby AC3
+		autres (DTS, LPCM)
+	sous-titres
+	fonctionnalités supplémentaires
+		multi-langue
+		multi-angle
+		menus
+::
+Avantages du DVD§Avantages du DVD
+	capacité
+	qualité
+	confort
+		pas de rembobinage
+		choix des sous-titres, de la langue à la volée
+::
+Pourquoi vouloir lire des DVD sur un ordinateur ?§Pourquoi vouloir lire des DVD sur un ordinateur ?
+	qualité du décodage
+		vitesse
+		algorithmes de lissage
+	qualité des écrans
+	menus
+::
+Contraintes techniques§Contraintes techniques
+	processeur
+		vitesse
+		fonctions avancées (MMX, SSE, AltiVec, 3DNow...)
+	carte graphique
+		vitesse
+		fonctions avancées (iDCT, overlay, scaling, ...)
+::
+Contraintes légales§Contraintes légales
+	connaissance des formats standards
+		MPEG-2
+		Dolby AC3
+		Dolby DTS
+	décryptage: le mythe DeCSS
+	les secrets du DVD
+		navigation
+		sous-titres
+		menus
+::
+Partie 2: VideoLAN§Partie 2: VideoLAN
+	Un projet scientifique libre
+	Une solution multimédia complète
+	Structure du client
+	Fonctionnalités
+	Démonstration
+::
+Un projet scientifique libre§Un projet scientifique libre
+	un projet de scientifique depuis 1996
+	depuis février 2001, un projet libre
+::
+Une solution multimédia complète§Une solution multimédia complète
+	architecture client/serveur
+	outils réseau
+::
+Structure du client§Structure du client
+	threads multiples
+		le thread principal: l'interface
+		input
+		décodeurs
+		outputs 
+	synchronisation auto-adaptative
+	système de modules
+		modules "built-in"
+		modules "plugins"
+		autodétection
+			hardware
+			format des données
+			préférences utilisateur
+		changement de module à la volée
+::
+Fonctionnalités§Fonctionnalités
+	portabilité aisée
+		GNU/Linux (toutes architectures)
+		Solaris
+		BeOS
+		en finition: FreeBSD, OpenBSD, GNU/Hurd
+		en cours: QNX-RTP, MacOS X
+	interfaces
+		Gtk+
+		Gnome
+		Qt
+		KDE (en préparation)
+		BeOS
+		texte
+	video output
+		X11 (Xshm, Xv)
+		SDL
+		framebuffer
+	audio output
+		OSS
+		ALSA
+::
+Démonstration§Démonstration
+	interface
+	fichier MPEG
+		pause
+		vitesse
+		seek
+	DVD
+		navigation
+		sélection de la langue
+		sélection des sous-titres
+	sélection des plugins
+		interface
+		video output
+::
+Partie 3: Essayer, utiliser, améliorer VideoLAN§Partie 3: Essayer, utiliser, améliorer VideoLAN
+	Utilisateurs
+	Développeurs
+::
+Utilisateurs§Utilisateurs
+	le site web: http://www.videolan.org/
+	les téléchargements
+		sources
+		packages
+		snapshots CVS
+	les mailing-lists
+::
+Développeurs§Développeurs
+	le CVS
+	les mailing-lists
+	la TODO list
+::
+Le futur§Le futur
+	correction de bugs
+	support plus complet des menus DVD
+	rajout de fonctionnalités manquantes
+		sous-titres
+		décodage hardware (AC3, video)
+	portages
+		MacOS X
+		Win32
+	nouveaux formats
+		mp3
+		Ogg
+		MPEG-4
+::
+Partie 4: Autres solutions§Partie 4: Autres solutions
+	Lecteurs libres
+	Lecteurs non libres
+::
+Lecteurs libres§Lecteurs libres
+	Xine: http://xine.sourceforge.net/
+		développement très actif
+		performances comparables à vlc
+		fonctionnalités intéressantes
+		un très sérieux concurrent
+	OMS: http://www.linuxvideo.org/
+		développement peu actif
+		beaucoup de fonctionnalités manquantes
+	XMovie: http://heroinewarrior.com/xmovie.php3
+		développement fermé mais actif
+		problèmes de performances
+	Autres: MPlayer, mpeg2dec, XMMS
+::
+Lecteurs non libres§Lecteurs non libres
+	PowerDVD
+	LinDVD
+::

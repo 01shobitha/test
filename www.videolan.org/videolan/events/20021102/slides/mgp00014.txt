@@ -1,0 +1,11 @@
+
+Les développements en attente de release
+VLC 0.5.0
+Audio : Ogg/Vorbis, WMA, AAC, WAV
+Video : DV, ASF, Sorenson v1, Cinepak
+Nouvel audio output
+Navigation DVD
+VLC comme plugin pour navigateurs web (Mozilla, IE)
+VLS
+Utilisation de la nouvelle API DVB
+Diffusion des chaînes câblées

@@ -1,0 +1,14 @@
+
+Manager
+
+Fonctions
+Démarrage / arrêt / programmation des diffusions
+Gestion centralisée des flux disponibles en VOD
+Gestion centralisée des adresses multicast
+Gestion des annonces
+Répartition de la charge entre les streamers
+Redondance entre les streamers
+Remontée des alertes
+Contrôle d'accès
+Interface Web
+

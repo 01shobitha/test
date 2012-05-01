@@ -1,0 +1,15 @@
+
+Le VideoLAN Server
+Multiplateforme
+Unix : Linux & BSD
+Mac OS X
+Windows
+Conception modulaire
+Modules d'input et d'output
+Module d'administration par Telnet
+Configuration matérielle
+Peu gourmand en CPU
+Dimensionner disque dur
+Dimensionner le réseau
+
+

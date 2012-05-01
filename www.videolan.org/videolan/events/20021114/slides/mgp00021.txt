@@ -1,0 +1,15 @@
+
+Nos concurrents
+QuickTime d'Apple
+client propriétaire et gratuit et serveur OpenSource
+Microsoft Windows Media
+solution 100% propriétaire, gratuite mais liée à Windows
+RealNetworks de RealSystem
+solution 100% propriétaire et serveur payant
+
+Avantages de VideoLAN
+client porté sous de très nombreuses plateformes
+client moins gourmand en ressources CPU
+spécialisation haute qualité
+licence GPL
+

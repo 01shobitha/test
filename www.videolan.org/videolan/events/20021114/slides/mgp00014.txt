@@ -1,0 +1,9 @@
+
+Le VLS - VideoLAN Server
+Conception modulaire
+Modules d'input, d'output et d'administration
+
+Configuration matérielle
+Peu gourmand en CPU
+
+

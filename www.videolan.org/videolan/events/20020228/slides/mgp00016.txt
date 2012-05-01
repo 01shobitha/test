@@ -1,0 +1,13 @@
+
+VLC - le futur
+Nouveaux plugins
+décodeurs MPEG-4, DivX, Ogg...
+utilisation de cartes de décompression
+interface native Windows
+Nouvelles fonctionnalités
+menus DVD
+support du multicast sur toutes les architectures
+meilleurs algorithmes de désentrelacement
+Extension des domaines d'utilisation
+Streaming
+VLC comme plugin pour navigateur web

@@ -1,0 +1,6 @@
+
+Solution dans son ensemble
+Trois parties de développement :
+le VideoLAN Server - VLS
+le VideoLAN Channel Server - VLCS
+le VideoLAN Client - VLC

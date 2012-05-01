@@ -1,0 +1,13 @@
+
+La licence GPL
+
+Qu'est ce que la licence GPL ?
+
+Les 4 libertés fondamentales
+liberté d'exécution
+liberté de modification
+liberté de redistribution
+liberté d'amélioration
+
+Pourquoi avoir choisi la licence GPL ?
+

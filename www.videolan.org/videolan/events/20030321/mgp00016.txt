@@ -1,0 +1,11 @@
+
+Formats supportés (4/4)
+Formats de compression audio
+MPEG layer 1/2/3
+AC3
+AAC
+WMA 1/2
+Vorbis
+LPCM
+ADPCM
+

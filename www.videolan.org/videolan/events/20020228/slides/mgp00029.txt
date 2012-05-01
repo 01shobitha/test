@@ -1,0 +1,14 @@
+
+Les futurs utilisateurs de VideoLAN
+ENS Lyon
+diffusion de conférences sur le réseau local de l'ENS
+SNCF
+VOD à la place pour les passagers
+O'Nomad
+VOD avec des tablettes graphiques pour les malades
+Sun 
+intégration de VLC à GNOME 2.0
+Philips
+intégration de composants de VideoLAN à leurs projets de recherche
+
+. . .

@@ -1,0 +1,15 @@
+
+Découverte de services
+L'intérêt de la découverte de services
+Facilité d'utilisation
+Interactivité
+
+Utilisation de standards implémentés - SAP-SDP, SLP
+Compatibilité et interopérabilité
+Moins de développement, réutilisation possible
+
+Implémentation "maison" - VideoLAN Channel Server
+Design et développement rapides
+Intégration aisée
+
+

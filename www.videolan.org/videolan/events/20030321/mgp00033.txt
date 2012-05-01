@@ -1,0 +1,12 @@
+
+Flux video hiérarchisés
+Problématique des réseaux sans-fil
+Bande passante partagée donc fluctuante
+Puissance de décodage variées
+Solutions
+Stream-switching
+Scalable Video Streaming
+Développement
+Plusieurs équipes de chercheurs en France
+Collaboration au sein de VideoLAN ?
+

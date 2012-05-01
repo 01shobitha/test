@@ -1,0 +1,12 @@
+
+Les projets d'utilisation de VideoLAN
+Les institutions
+VTHR
+Réception de flux satellite haute qualité avec VLC
+SNCF
+VOD à la place pour les passagers
+ENS Lyon
+Diffusion de conférences sur le réseau et le satellite
+VIA Centrale Réseau
+Banque de formations en VOD
+

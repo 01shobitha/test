@@ -1,0 +1,15 @@
+
+VLC - plugins d'entrée
+Plugins d'input
+réseau : UDP, RTP, HTTP, multicast, IPv6
+device : fichier, VCD, DVD
+carte d'encodage, carte satellite
+Plugins de décodage
+MPEG audio : mp3, VCD, DVD...
+MPEG vidéo : MPEG 1, 2 et 4 (DivX)
+Dolby AC3 et LPCM
+pass-through : AC3, LPCM, vidéo...
+Plugins d'accélération
+décodage audio et vidéo (DCT, downmix, motion)
+accélération MMX, 3D Now!, MMX EXT, SSE, AltiVec
+utilisation du maximum des capacités de l'architecture

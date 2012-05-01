@@ -1,0 +1,17 @@
+
+VLC - plugins d'interface
+Interfaces graphiques
+Windows: Interface classique ou interface à thèmes
+MacOS X et BeOS: interfaces natives
+Unix: Gtk, GNOME, Qt, KDE
+WxWindows
+Interfaces non-graphiques
+ligne de commande
+commande infra-rouge
+Fonctionnalités
+sélection de chaîne, programme, chapitre
+activation des menus DVD
+sélection de la piste audio / sous-titres
+réglage des préférences
+Intégration maximale au système
+

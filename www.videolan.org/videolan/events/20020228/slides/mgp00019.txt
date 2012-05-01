@@ -1,0 +1,9 @@
+
+Le VideoLAN Server
+
+Input : MPEG - DVB
+Output : MPEG2-TS
+Conception modulaire
+Administration Telnet
+Peu gourmand en ressources
+

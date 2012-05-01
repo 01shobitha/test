@@ -1,0 +1,14 @@
+
+... et ce qui a été fait :
+Nouveaux plugins
+FAIT : décodeurs MPEG-4, DivX, Ogg...
+NON FAIT : utilisation de cartes de décompression
+FAIT : interface native Windows
+Nouvelles fonctionnalités
+FAIT : menus DVD
+FAIT : support du multicast sur toutes les architectures
+FAIT : meilleurs algorithmes de désentrelacement
+Extension des domaines d'utilisation
+FAIT : Streaming
+FAIT (pour Linux uniquement) : VLC comme plugin pour navigateur web
+

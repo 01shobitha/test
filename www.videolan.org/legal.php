@@ -9,7 +9,7 @@
 
 <p>VideoLAN is an organization based in <b>France</b>.<br />Therefore, most of the following page is redacted in French and refers to French law, which is the only one to be applicable to VideoLAN.</p>
 <p>To help you, some parts are translated in English. However, if in any way, the French and English
- section show some conflict, the French section will prevail.</p>
+ section show some conflict, the French section <b>will prevail</b>.</p>
 
 <h2>What are the usage restrictions for VideoLAN software?</h2>
 <p><b>Short answer: there are none</b>.</p>
@@ -49,14 +49,14 @@ from VideoLAN.</p>
  to spread, distribute, advertise or sell software or hardware if the license is NOT
 <a href="http://www.opensource.org/licenses/alphabetical">open-source</a> (OSI meaning).</p>
 
-<h2>Are libdvdcss and libaacs legal ?</h2>
+<h2>Are libdvdcss and libaacs legal?</h2>
 
 <h3>libdvdcss</h3>
 
 <p>libdvdcss is a library that can find and guess keys from a DVD in order to decrypt it.<br />
    This method is <b>authorized</b> by a French law decision <a href="http://www.legifrance.gouv.fr/affichJuriAdmin.do?oldAction=rechJuriAdmin&idTexte=CETATEXT000019216315&fastReqId=1851277972&fastPos=1">CE 10e et 9e sous­sect., 16 juillet 2008, n° 301843</a> on interoperability.</p>
 <p><b>NB:</b> In the USA, you should check out <a href="http://www.copyright.gov/1201/">the US Copyright Office decision</a>
- that allows circumvention in some cases.<br />VideoLAN is <b>NOT</b> a US-based organization and is therefore <b>outside US juridiction</b>.</p>
+ that allows circumvention in some cases.<br />VideoLAN is <b>NOT</b> a US-based organization and is therefore <b>outside US jurisdiction</b>.</p>
 
 <h3>libaacs</h3>
 
@@ -66,6 +66,8 @@ from VideoLAN.</p>
 <h2>Patents and codec licenses</h2>
 <p>Neither French law nor European conventions recognize software as patentable (see French section below).<br />
  Therefore, software patents licenses do not apply on VideoLAN software.</p>
+
+<p><b>NB:</b>libaacs is not shipped in VLC.</p>
 
 
 <h1>Informations légales</h1>

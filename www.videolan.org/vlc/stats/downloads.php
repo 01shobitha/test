@@ -113,7 +113,7 @@
     }
 
     $maxtotal = $wintotal + $mactotal + $srctotal;
-    echo "<tr><td class=\"category\" style=\"text-align: right;\"><strong>Total</strong></td>\n";
+    echo "<br /><tr><td class=\"category\" style=\"text-align: right;\"><strong>Total</strong></td>\n";
     f($wintotal);
     f($mactotal);
     f($srctotal);

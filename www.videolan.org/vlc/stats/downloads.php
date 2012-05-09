@@ -74,6 +74,15 @@
         f($versiontotal);
         echo "</tr>\n";
     }
+
+    /* Sourceforge Downloads, from the json auth section
+        https://sourceforge.net/projects/vlc/files/1.1.0/win32/stats/json?start_date=2010-06-21&end_date=2012-12-30
+        https://sourceforge.net/projects/vlc/files/1.1.0/macosx/stats/json?start_date=2010-06-21&end_date=2012-12-30
+        https://sourceforge.net/projects/vlc/files/1.1.0/json?start_date=2010-06-21&end_date=2012-12-30 */
+    $table = array( "1.1.0"  => array( "Windows" => 6555854, "Macintosh" => 1043554, "Total" => 17940200 ));
+
+    echo $table['1.1.0']['Windows'];
+
     $maxtotal = $wintotal + $mactotal + $srctotal;
     echo "<tr><td class=\"category\" style=\"text-align: right;\"><strong>Total</strong></td>\n";
     f($wintotal);

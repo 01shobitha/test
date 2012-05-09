@@ -87,7 +87,14 @@
 
     foreach( $table as $t )
     {
-        echo $t["Windows"];
+        echo "<tr><td class=\"category\" style=\"text-align: right;\"><strong></strong></td>\n";
+        $wintotal += $t["Windows"];
+        $mactotal += $t["Macintosh"];
+        $srctotal += ( $t["Total"] - $t["Windows"] - $t["Macintosh"] );
+        f($t["Windows"]);
+        f($t["Macintosh"]);
+        f($t["Total"]);
+        echo "</tr>\n";
     }
 
     $maxtotal = $wintotal + $mactotal + $srctotal;

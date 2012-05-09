@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|9 May 2012|1 billion thank you!|VideoLAN would like to thank VLC users 1 billion times, since VLC has now been downloaded more than 1 billion times from our servers, since 2005!<br /><a href="http://www.videolan.org/vlc/stats/downloads.html">Get the numbers</a>!
+
 |19 March 2012|VLC 2.0.1|After 15 million downloads of VLC 2.0.0 versions, VideoLAN and the VLC development team present the second version of "Twoflower", a bugfix release.<br />Support for MxPEG files, new features in the Mac OS X interface are part of this release, in addition to faster decoding and fixes for hundred of bugs and regression, notably for HLS, MKV, RAR, Ogg, Bluray discs and many other things.<br />This is also a <a href="/security">security update</a>.<br />More info on <a href="/vlc/releases/2.0.1.html">the release notes</a>.
 
 |18 February 2012|VLC 2.0.0|After 485 million downloads of VLC 1.1.x versions, VideoLAN and the VLC development team present VLC 2.0.0 "Twoflower", a major new release.<br />With faster decoding on multi-core, GPU, and mobile hardware and the ability to open more formats, notably professional, HD and 10bits codecs, 2.0 is a major upgrade for VLC.<br /> Twoflower has a new rendering pipeline for video, with higher quality subtitles, and new video filters to enhance your videos. <br />It supports many new devices and BluRay Discs (experimental). <br />It features a completely reworked Mac and Web interfaces and improvements in the other interfaces make VLC easier than ever to use.<br /> Twoflower fixes several hundreds of bugs, in more than 7000 commits from 160 volunteers.<br />More info on <a href="/vlc/releases/2.0.0.html">the release notes</a>.

@@ -16,6 +16,7 @@
     <p>We don't show Linux download statistics as most downloads for this
        OS are made through distributions.</p>
 
+    <?php    image( 'events/1billion.png', '1 billion downloads', 'projectImg' ); ?>
     <h1>Downloads by version and by OS</h1>
     <table border="0">
     <tr>

@@ -93,6 +93,7 @@
         $srctotal += ( $t["Total"] - $t["Windows"] - $t["Macintosh"] );
         f($t["Windows"]);
         f($t["Macintosh"]);
+        f($t["Total"] - $t["Windows"] - $t["Macintosh"]);
         f($t["Total"]);
         echo "</tr>\n";
     }

@@ -1,5 +1,5 @@
 PHP_IGNORES = download-skins2 download-skins2-go skins skins_upload skins_old
-SUBDIR = contest releases
+SUBDIR = contest releases stats
 
 PHP_FILES := download-* index features libvlc screenshots skineditor skineditor_update \
              skins skins_upload streaming \

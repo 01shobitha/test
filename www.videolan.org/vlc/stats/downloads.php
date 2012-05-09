@@ -79,14 +79,22 @@
         https://sourceforge.net/projects/vlc/files/1.1.0/win32/stats/json?start_date=2010-06-21&end_date=2012-12-30
         https://sourceforge.net/projects/vlc/files/1.1.0/macosx/stats/json?start_date=2010-06-21&end_date=2012-12-30
         https://sourceforge.net/projects/vlc/files/1.1.0/json?start_date=2010-06-21&end_date=2012-12-30 */
-    $table = array( "1.1.0"  => array( "Windows" => 15352734, "Macintosh" => 2538263, "Total" => 17940200 ),
-                    "1.1.1"  => array( "Windows" => 5396669 , "Macintosh" => 536578 , "Total" => 5946075 ),
-                    "1.1.2"  => array( "Windows" => 11420722, "Macintosh" => 1630259, "Total" => 13089561 ),
-                    "1.1.3"  => array( "Windows" => 6606436,  "Macintosh" => 5940497, "Total" => 12561243 ),
-                    "1.1.4"  => array( "Windows" => 48708500, "Macintosh" => 212793,  "Total" => 48819569 + 220447 ),
-                    "1.1.5"  => array( "Windows" => 55022112, "Macintosh" => 5276078, "Total" => 60408042 ),
-                    "1.1.6"  => array( "Windows" => 9346195,  "Macintosh" => 1488555, "Total" => 10846854 ),
-                    "1.1.7"  => array( "Windows" => 28829751, "Macintosh" => 3956196, "Total" => 32855945 ),
+    $table = array( "1.1.0"   => array( "Windows" => 15352734, "Macintosh" => 2538263, "Total" => 17940200 ),
+                    "1.1.1"   => array( "Windows" => 5396669 , "Macintosh" => 536578 , "Total" => 5946075 ),
+                    "1.1.2"   => array( "Windows" => 11420722, "Macintosh" => 1630259, "Total" => 13089561 ),
+                    "1.1.3"   => array( "Windows" => 6606436,  "Macintosh" => 5940497, "Total" => 12561243 ),
+                    "1.1.4"   => array( "Windows" => 48708500, "Macintosh" => 212793,  "Total" => 48819569 + 220447 ),
+                    "1.1.5"   => array( "Windows" => 55022112, "Macintosh" => 5276078, "Total" => 60408042 ),
+                    "1.1.6"   => array( "Windows" => 9346195,  "Macintosh" => 1488555, "Total" => 10846854 ),
+                    "1.1.7"   => array( "Windows" => 28829751, "Macintosh" => 3956196, "Total" => 32855945 ),
+                    "1.1.8"   => array( "Windows" => 14805029, "Macintosh" => 2064280, "Total" => 16883848 ),
+                    "1.1.9"   => array( "Windows" => 33103808, "Macintosh" => 4045759, "Total" => 37350178 ),
+                    "1.1.10"  => array( "Windows" => 31185756, "Macintosh" => 1627838, "Total" => 32872363 ),
+                    "1.1.11"  => array( "Windows" => 181422477,"Macintosh" => 7084265, "Total" => 188865441),
+                    "1.1.12"  => array( "Windows" => 0        ,"Macintosh" => 8870000, "Total" => 8952539  ),
+                    "1.1.13"  => array( "Windows" => 0        ,"Macintosh" => 0, "Total" => 598  ),
+                    "2.0.0"   => array( "Windows" => 14411719 ,"Macintosh" => 1935724, "Total" => 16364533 ),
+                    "2.0.1"   => array( "Windows" => 50333816 ,"Macintosh" => 5258075, "Total" => 55619021 ),
     );
 
     foreach( $table as $key => $t )

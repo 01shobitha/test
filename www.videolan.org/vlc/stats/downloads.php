@@ -79,9 +79,16 @@
         https://sourceforge.net/projects/vlc/files/1.1.0/win32/stats/json?start_date=2010-06-21&end_date=2012-12-30
         https://sourceforge.net/projects/vlc/files/1.1.0/macosx/stats/json?start_date=2010-06-21&end_date=2012-12-30
         https://sourceforge.net/projects/vlc/files/1.1.0/json?start_date=2010-06-21&end_date=2012-12-30 */
-    $table = array( "1.1.0"  => array( "Windows" => 6555854, "Macintosh" => 1043554, "Total" => 17940200 ));
+    $table = array( "1.1.0"  => array( "Windows" => 15352734, "Macintosh" => 2538263, "Total" => 17940200 ),
+                    "1.1.1"  => array( "Windows" => 5396669 , "Macintosh" => 536578 , "Total" => 5946075 ),
+                    "1.1.2"  => array( "Windows" => 11420722, "Macintosh" => 1630259, "Total" => 13089561 ),
+                    "1.1.3"  => array( "Windows" => 12561243, "Macintosh" => 6606436, "Total" => 5940497 ),
+    );
 
-    echo $table['1.1.0']['Windows'];
+    foreach( $table as $t )
+    {
+        echo $t["Windows"];
+    }
 
     $maxtotal = $wintotal + $mactotal + $srctotal;
     echo "<tr><td class=\"category\" style=\"text-align: right;\"><strong>Total</strong></td>\n";

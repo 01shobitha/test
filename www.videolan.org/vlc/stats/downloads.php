@@ -97,7 +97,6 @@
                     "2.0.1"   => array( "Windows" => 50333816 ,"Macintosh" => 5258075, "Total" => 55619021 ),
     );
 
-    $sf_count = 0;
     foreach( $table as $key => $t )
     {
         echo "<tr><td class=\"category\" style=\"text-align: right;\"><strong>$key</strong></td>\n";
@@ -109,7 +108,6 @@
         f($t["Total"] - $t["Windows"] - $t["Macintosh"]);
         f($t["Total"]);
         echo "</tr>\n";
-        $sf_count += $t["Total"]
     }
 
     $maxtotal = $wintotal + $mactotal + $srctotal;
@@ -121,8 +119,6 @@
     echo "</tr>\n";
 
     echo "</table>";
-
-echo $sf_count;
 
     pg_close($connect);
 

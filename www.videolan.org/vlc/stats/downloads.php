@@ -89,7 +89,7 @@
                     "1.1.7"   => array( "Windows" => 28829751, "Macintosh" => 3956196, "Total" => 32855945 ),
                     "1.1.8"   => array( "Windows" => 14805029, "Macintosh" => 2064280, "Total" => 16883848 ),
                     "1.1.9"   => array( "Windows" => 33103808, "Macintosh" => 4045759, "Total" => 37350178 ),
-                    "1.1.10"  => array( "Windows" => 31185756, "Macintosh" => 1627838, "Total" => 32872363 ),
+                    "1.1.10"  => array( "Windows" => 31185756, "Macintosh" => 1627838 + 2679108, "Total" => 32872363 + 2679108 ),
                     "1.1.11"  => array( "Windows" => 181422477,"Macintosh" => 7084265, "Total" => 188865441),
                     "1.1.12"  => array( "Windows" => 0        ,"Macintosh" => 8870000, "Total" => 8952539  ),
                     "1.1.13"  => array( "Windows" => 0        ,"Macintosh" => 0, "Total" => 598  ),

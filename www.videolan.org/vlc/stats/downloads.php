@@ -127,6 +127,7 @@
 
     pg_close($connect);
 
+    echo "<center><img src='//images1.videolan.org/images/events/1billion.png' alt='1 billion downloads' class='' /></center>";
     echo "<p>Page generated on ".date("r").".</p>";
 ?>
 

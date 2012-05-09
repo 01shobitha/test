@@ -50,28 +50,28 @@
     {
         $versiontotal= 0;
         echo "<tr><td class=\"category\" style=\"text-align: right;\"><strong>$v</strong></td>\n";
-	$winrequest = pg_query( $connect, "select sum(number) from (select * from mirrors where file like '%$v%win32%' union all select * from mirrors_archive where file like '%$v%win32%') as allmirrors;");
+        $winrequest = pg_query( $connect, "select sum(number) from (select * from mirrors where file like '%$v%win32%' union all select * from mirrors_archive where file like '%$v%win32%') as allmirrors;");
         if( $row  =pg_fetch_array( $winrequest ) )
-	{
-	    $versiontotal += $row[0];
-	    $wintotal += $row[0];
-	    f($row[0]);
-	}
-	$macrequest = pg_query( $connect, "select sum(number) from (select * from mirrors where file like '%$v%dmg%' union all select * from mirrors_archive where file like '%$v%dmg%') as allmirrors;" );
+        {
+            $versiontotal += $row[0];
+            $wintotal += $row[0];
+            f($row[0]);
+        }
+        $macrequest = pg_query( $connect, "select sum(number) from (select * from mirrors where file like '%$v%dmg%' union all select * from mirrors_archive where file like '%$v%dmg%') as allmirrors;" );
         if( $row  =pg_fetch_array( $macrequest ) )
-	{
-	    $versiontotal += $row[0];
-	    $mactotal += $row[0];
-	    f($row[0]);
-	}
-	$srcrequest = pg_query( $connect, "select sum(number) from (select * from mirrors where file like '%$v%tar%' union all select * from mirrors_archive where file like '%$v%tar%') as allmirrors;" );
+        {
+            $versiontotal += $row[0];
+            $mactotal += $row[0];
+            f($row[0]);
+        }
+        $srcrequest = pg_query( $connect, "select sum(number) from (select * from mirrors where file like '%$v%tar%' union all select * from mirrors_archive where file like '%$v%tar%') as allmirrors;" );
         if( $row  =pg_fetch_array( $srcrequest ) )
-	{
-	    $versiontotal += $row[0];
-	    $srctotal += $row[0];
-	    f($row[0]);
-	}
-	f($versiontotal);
+        {
+            $versiontotal += $row[0];
+            $srctotal += $row[0];
+            f($row[0]);
+        }
+        f($versiontotal);
         echo "</tr>\n";
     }
     $maxtotal = $wintotal + $mactotal + $srctotal;

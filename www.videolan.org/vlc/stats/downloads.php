@@ -83,6 +83,10 @@
                     "1.1.1"  => array( "Windows" => 5396669 , "Macintosh" => 536578 , "Total" => 5946075 ),
                     "1.1.2"  => array( "Windows" => 11420722, "Macintosh" => 1630259, "Total" => 13089561 ),
                     "1.1.3"  => array( "Windows" => 6606436,  "Macintosh" => 5940497, "Total" => 12561243 ),
+                    "1.1.4"  => array( "Windows" => 48708500, "Macintosh" => 212793,  "Total" => 48819569 + 220447 ),
+                    "1.1.5"  => array( "Windows" => 55022112, "Macintosh" => 5276078, "Total" => 60408042 ),
+                    "1.1.6"  => array( "Windows" => 9346195,  "Macintosh" => 1488555, "Total" => 10846854 ),
+                    "1.1.7"  => array( "Windows" => 28829751, "Macintosh" => 3956196, "Total" => 32855945 ),
     );
 
     foreach( $table as $key => $t )

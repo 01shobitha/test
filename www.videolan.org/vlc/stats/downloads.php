@@ -16,7 +16,7 @@
     <p>We don't show Linux download statistics as most downloads for this
        OS are made through distributions.</p>
 
-<?php    echo "<center><img src='//images1.videolan.org/images/events/1billion.png' alt='1 billion downloads' class='' /></center>"; ?>
+<?php    echo "<center><img src='//images1.videolan.org/images/events/1billion.png' alt='1 billion downloads' class='' style='box-shadow: 0px 0px 10px 5px #FFF;' /></center>"; ?>
 
     <h1>Downloads by version and by OS</h1>
     <table border="0">

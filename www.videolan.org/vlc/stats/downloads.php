@@ -16,6 +16,8 @@
     <p>We don't show Linux download statistics as most downloads for this
        OS are made through distributions.</p>
 
+<?php    echo "<center><img src='//images1.videolan.org/images/events/1billion.png' alt='1 billion downloads' class='' /></center>"; ?>
+
     <h1>Downloads by version and by OS</h1>
     <table border="0">
     <tr>
@@ -126,7 +128,6 @@
 
     pg_close($connect);
 
-    echo "<center><img src='//images1.videolan.org/images/events/1billion.png' alt='1 billion downloads' class='' /></center>";
     echo "<p>Page generated on ".date("r").".</p>";
 ?>
 

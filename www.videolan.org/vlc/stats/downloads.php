@@ -80,9 +80,9 @@
     }
 
     /* Sourceforge Downloads, from the json auth section
-        https://sourceforge.net/projects/vlc/files/1.1.0/win32/stats/json?start_date=2010-06-21&end_date=2012-12-30
-        https://sourceforge.net/projects/vlc/files/1.1.0/macosx/stats/json?start_date=2010-06-21&end_date=2012-12-30
-        https://sourceforge.net/projects/vlc/files/1.1.0/json?start_date=2010-06-21&end_date=2012-12-30 */
+      https://sourceforge.net/projects/vlc/files/2.0.1/stats/json?start_date=2010-06-21&end_date=2012-12-30
+      https://sourceforge.net/projects/vlc/files/2.0.1/macosx/stats/json?start_date=2010-06-21&end_date=2012-12-30
+      https://sourceforge.net/projects/vlc/files/2.0.1/win32/stats/json?start_date=2010-06-21&end_date=2012-12-30 */
     $table = array( "1.1.0"   => array( "Windows" => 15352734, "Macintosh" => 2538263, "Total" => 17940200 ),
                     "1.1.1"   => array( "Windows" => 5396669 , "Macintosh" => 536578 , "Total" => 5946075 ),
                     "1.1.2"   => array( "Windows" => 11420722, "Macintosh" => 1630259, "Total" => 13089561 ),
@@ -98,7 +98,7 @@
                     "1.1.12"  => array( "Windows" => 0        ,"Macintosh" => 8870000, "Total" => 8952539  ),
                     "1.1.13"  => array( "Windows" => 0        ,"Macintosh" => 0, "Total" => 598  ),
                     "2.0.0"   => array( "Windows" => 14411719 ,"Macintosh" => 1935724, "Total" => 16364533 ),
-                    "2.0.1"   => array( "Windows" => 50333816 ,"Macintosh" => 5258075, "Total" => 55619021 ),
+                    "2.0.1"   => array( "Windows" => 50833134 ,"Macintosh" => 5294568, "Total" => 56155075 ),
     );
 
     foreach( $table as $key => $t )

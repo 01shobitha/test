@@ -117,6 +117,23 @@ cooperation of our partners, on both technical and financial sides: </p>
 
   <tr>
     <td colspan="2">
+        <h2> ZF Friedrichshafen </h2>
+    </td>
+  </tr>
+  <tr>
+    <td  style="text-align:-center">
+        <p class="center"><a href="http://www.zf.com"><img
+        src="../images/partners/zf.jpg" alt="ZF" /></a></p>
+    </td>
+    <td>
+
+         <p><a href="http://www.zf.com">ZF Friedrichshafen AG</a> and its subsidary <a href="http://www.cherrycorp.com">ZF Electronics GmbH</a> donated five "Cherry" branded keyboards to improve the media hotkey integration in VLC's Mac OS X port.</p>
+
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="2">
         <h2> Panasonic </h2>
     </td>
   </tr>

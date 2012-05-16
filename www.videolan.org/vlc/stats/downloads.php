@@ -21,7 +21,7 @@
     <h1>Downloads by version and by OS</h1>
     <table border="0">
     <tr>
-    <th style="text-align: right;">Version</th>
+    <th style="text-align: left; width: 60px;">Version</th>
     <th class="os" style="text-align: right;"><img src="http://images.videolan.org/images/icons/winvista.png" alt="Windows" width="32" height="32" />
     </th>
     <th class="os" style="text-align: right;"><img src="/images/icons/macosx.png" alt="Mac OS X" width="32" height="32" />
@@ -53,7 +53,7 @@
     foreach( $requests as $v )
     {
         $versiontotal= 0;
-        echo "<tr><td class=\"category\" style=\"text-align: right;\"><strong>$v</strong></td>\n";
+        echo "<tr><td class=\"category\" style=\"text-align: left;\"><strong>$v</strong></td>\n";
         $winrequest = pg_query( $connect, "select sum(number) from (select * from mirrors where file like '%$v%win32%' union all select * from mirrors_archive where file like '%$v%win32%') as allmirrors;");
         if( $row  =pg_fetch_array( $winrequest ) )
         {

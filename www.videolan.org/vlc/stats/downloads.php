@@ -103,7 +103,7 @@
 
     foreach( $table as $key => $t )
     {
-        echo "<tr><td class=\"category\" style=\"text-align: right;\"><strong>$key</strong></td>\n";
+        echo "<tr><td class=\"category\" style=\"text-align: left;\"><strong>$key</strong></td>\n";
         $wintotal += $t["Windows"];
         $mactotal += $t["Macintosh"];
         $srctotal += ( $t["Total"] - $t["Windows"] - $t["Macintosh"] );
@@ -117,7 +117,7 @@
     $maxtotal = $wintotal + $mactotal + $srctotal;
     echo "
 <tr><td> &nbsp;</td></tr>
-<tr><td class=\"category\" style=\"text-align: right;\"><strong>Total</strong></td>\n";
+<tr><td class=\"category\" style=\"text-align: left;\"><strong>Total</strong></td>\n";
     f($wintotal);
     f($mactotal);
     f($srctotal);

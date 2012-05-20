@@ -87,7 +87,7 @@
         </div>
     </div>
     <div style='float: left; width: 180px; padding-right: 70px;'>
-        <div class='productName'><a href="/developers/libdvbpsi.html">libdvdpsi</a></div>
+        <div class='productName'><a href="/developers/libdvbpsi.html">libdvbpsi</a></div>
         <div class='productDescription'>
             Parse TS and DVB tables without headaches.
         </div>

@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|21 May 2012|VideoLAN at LinuxTag|We will presenting VLC and other VideoLAN projects at <a href="http://www.linuxtag.org/2012/en.html">LinuxTag</a>, booth #167 in hall 7.2a. Come around and have a look at our latest developments! Of course, we will also be present during LinuxNacht, in case that you prefer to share a beer with us. 
+
 |9 May 2012|1 billion thank you!|VideoLAN would like to thank VLC users 1 billion times, since VLC has now been downloaded more than 1 billion times from our servers, since 2005!<br /><a href="http://www.videolan.org/vlc/stats/downloads.html">Get the numbers</a>!
 
 |19 March 2012|VLC 2.0.1|After 15 million downloads of VLC 2.0.0 versions, VideoLAN and the VLC development team present the second version of "Twoflower", a bugfix release.<br />Support for MxPEG files, new features in the Mac OS X interface are part of this release, in addition to faster decoding and fixes for hundred of bugs and regression, notably for HLS, MKV, RAR, Ogg, Bluray discs and many other things.<br />This is also a <a href="/security">security update</a>.<br />More info on <a href="/vlc/releases/2.0.1.html">the release notes</a>.

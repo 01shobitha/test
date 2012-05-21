@@ -1,7 +1,7 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
-|21 May 2012|VideoLAN at LinuxTag|We will presenting VLC and other VideoLAN projects at <a href="http://www.linuxtag.org/2012/en.html">LinuxTag</a>, booth #167 in hall 7.2a. Come around and have a look at our latest developments! Of course, we will also be present during LinuxNacht, in case that you prefer to share a beer with us. 
+|21 May 2012|VideoLAN at LinuxTag|We will presenting VLC and other VideoLAN projects at <a href="http://www.linuxtag.org/2012/en.html">LinuxTag</a> in Berlin this week (booth #167, hall 7.2a). Come around and have a look at our latest developments! Of course, we will also be present during LinuxNacht, in case that you prefer to share a beer with us. 
 
 |9 May 2012|1 billion thank you!|VideoLAN would like to thank VLC users 1 billion times, since VLC has now been downloaded more than 1 billion times from our servers, since 2005!<br /><a href="http://www.videolan.org/vlc/stats/downloads.html">Get the numbers</a>!
 

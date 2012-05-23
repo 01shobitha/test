@@ -43,3 +43,7 @@ Content-language: pl
 URI: index.wa.html
 Content-type: text/html
 Content-language: wa
+
+URI: index.gd.html
+Content-type: text/html
+Content-language: gd

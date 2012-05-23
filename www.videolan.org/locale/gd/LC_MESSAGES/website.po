@@ -1,0 +1,340 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR jb
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Michael Bauer <fios@akerbeltz.org>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: VLC - Trans\n"
+"Report-Msgid-Bugs-To: https://github.com/yarons/vlc-heb/issues\n"
+"POT-Creation-Date: 2012-04-03 15:48+0200\n"
+"PO-Revision-Date: 2012-05-22 21:00+0000\n"
+"Last-Translator: Michael Bauer <fios@akerbeltz.org>\n"
+"Language-Team: Gaelic, Scottish (http://www.transifex.net/projects/p/vlc-trans/language/gd/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: gd\n"
+"Plural-Forms: nplurals=3; plural=n < 2 ? 0 : n == 2 ? 1 : 2\n"
+
+#: include/header.php:109
+msgid "A project and a"
+msgstr "Pròiseact agus"
+
+#: include/header.php:109
+msgid "non-profit organization"
+msgstr "buidheann nach eil a chum prothaid"
+
+#: include/header.php:110
+msgid ""
+"composed of volunteers, developing and promoting free, open-source "
+"multimedia solutions."
+msgstr "a tha ga ruith le saor-thoilich a leasaicheas is a bhrosnaicheas fuasglaidhean ioma-mheadhan le còd fosgailte."
+
+#: include/header.php:114
+msgid "DONATE"
+msgstr "THOIR TABHARTAS"
+
+#: include/header.php:114
+msgid "why?"
+msgstr "carson?"
+
+#: include/header.php:128 include/header.php:142
+msgid "donate"
+msgstr "thoir tabhartas"
+
+#: include/header.php:161
+msgid "Home"
+msgstr "Dhachaigh"
+
+#: include/header.php:164 include/header.php:306
+msgid "News"
+msgstr "Naidheachdan"
+
+#: include/header.php:169 include/header.php:297
+msgid "Project and Organization"
+msgstr "Am pròiseact 's am buidheann"
+
+#: include/header.php:170 include/header.php:298
+msgid "Team"
+msgstr "An sgioba"
+
+#: include/header.php:171 include/header.php:300
+msgid "Contact us"
+msgstr "Cuir fios"
+
+#: include/header.php:172 include/header.php:301
+msgid "Partners"
+msgstr "Com-pàirtichean"
+
+#: include/header.php:173 include/header.php:302
+msgid "Press center"
+msgstr "Aonad luchd-naidheachd"
+
+#: include/header.php:174 include/header.php:303
+msgid "Events"
+msgstr "Tachartasan"
+
+#: include/header.php:175 include/header.php:304
+msgid "Security center"
+msgstr "Aonad na tèarainteachd"
+
+#: include/header.php:181
+msgid "Download"
+msgstr "Luchdaich a-nuas"
+
+#: include/header.php:182 include/header.php:261 index.php:26 vlc/index.php:20
+#: vlc/index.php:37
+msgid "Features"
+msgstr "Feartan"
+
+#: include/header.php:183 include/header.php:262 index.php:27 vlc/index.php:21
+#: vlc/index.php:63
+msgid "Screenshots"
+msgstr "Glacaidhean-sgrìn"
+
+#: include/header.php:184 include/header.php:259 index.php:28 vlc/index.php:22
+msgid "Skins"
+msgstr "Craicnean"
+
+#: include/header.php:185 include/header.php:260
+msgid "Extensions"
+msgstr "Leudachain"
+
+#: include/header.php:189
+msgid "Projects"
+msgstr "Pròiseactan"
+
+#: include/header.php:206 include/header.php:266
+msgid "All Projects"
+msgstr "A h-uile pròiseact"
+
+#: include/header.php:210 index.php:126
+msgid "Contribute"
+msgstr "Gabh pàirt"
+
+#: include/header.php:212 include/header.php:290
+msgid "Donate time"
+msgstr "Com-pàirteachas ama"
+
+#: include/header.php:213 include/header.php:289
+msgid "Donate money"
+msgstr "Com-pàirteachas airigid"
+
+#: include/header.php:214 include/header.php:291
+msgid "Get Goodies"
+msgstr "Faigh siùcaran"
+
+#: include/header.php:218
+msgid "Support"
+msgstr "Taic"
+
+#: include/header.php:220
+msgid "Support center"
+msgstr "Aonad na taice"
+
+#: include/header.php:222 include/header.php:299 include/header.php:312
+msgid "Legal"
+msgstr "Nòtaichean laghail"
+
+#: include/header.php:225 include/header.php:287
+msgid "Mailing-Lists"
+msgstr "Liostaichean-puist"
+
+#: include/header.php:226
+msgid "Report a bug"
+msgstr "Dèan aithris air buga"
+
+#: include/header.php:230
+msgid "Dev' Zone"
+msgstr "Luchd-leasachaidh"
+
+#: include/header.php:283
+msgid "Community"
+msgstr "A' choimhearsnachd"
+
+#: include/header.php:305
+msgid "Get Involved"
+msgstr "Gabh pàirt ann"
+
+#: index.php:3
+msgid "VLC: Official site - Free multimedia solutions for all OS!"
+msgstr "VLC: An làrach oifigeach - Fuasglaidhean ioma-mheadhanach airson gach OS!"
+
+#: index.php:24 vlc/index.php:18
+msgid ""
+"VLC is a free and open source cross-platform multimedia player and framework"
+" that plays most multimedia files as well as DVD, Audio CD, VCD, and various"
+" streaming protocols."
+msgstr "Tha VLC 'na chluicheadair is beirt-deilbh ioma-mheadhanach a dh'obraicheas air gach siostam-obrach agus a chluicheas cha mòr faidhle meadhain, DVD, CD fuaime, VCD is pròtacal ruthaidh sam bith."
+
+#: index.php:31 vlc/index.php:25
+msgid "Download VLC"
+msgstr "Luchdaich a-nuas VLC"
+
+#: index.php:38 vlc/index.php:32
+msgid "Other Systems and Versions"
+msgstr "Siostaman is tionndaidhean eile"
+
+#: index.php:43
+msgid "Other projects from VideoLAN"
+msgstr "Pròiseactan eile aig VideoLAN"
+
+#: index.php:45
+msgid "For Everyone"
+msgstr "Airson a h-uile duine"
+
+#: index.php:51
+msgid ""
+"VLC is a powerful media player playing most of the media codecs and video "
+"formats out there."
+msgstr "Tha VLC 'na chluicheadair mheadhanan a chluicheas cha mhòr codec meadhain is fòrmar video sam bith a tha a-muigh an-siud."
+
+#: index.php:60
+msgid ""
+"VideoLAN Movie Creator is a non-linear editing software for video creation."
+msgstr "Tha cruthaiche filmichean VideoLAN 'na bhathar-bog neo-loidhneach a chum cruthachadh video."
+
+#: index.php:67
+msgid "For Professionals"
+msgstr "Airson proifeiseantaich"
+
+#: index.php:73
+msgid ""
+"DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
+msgstr "Tha DVBlast 'na aplacaid shimplidh is chumhachdach airson sruthadh is MPEG-2/TS demux."
+
+#: index.php:81
+msgid ""
+"multicat is a set of tools designed to easily and efficiently manipulate "
+"multicast streams and TS."
+msgstr "Tha multicat 'na shreath de dh'innealan a chaidh a dhealbhadh a chum làimhseachadh furasta is èifeachdadh de shruthan multicast is TS."
+
+#: index.php:90
+msgid ""
+"x264 is a free application for encoding video streams into the H.264/MPEG-4 "
+"AVC format."
+msgstr "Tha x264 'na aplacaid shaor airson còdachadh de shruthan video dhan fhòrmat H.264/MPEG-4 AVC."
+
+#: index.php:98
+msgid "For Developers"
+msgstr "Airson luchd-leasachaidh"
+
+#: index.php:109
+msgid "View All Projects"
+msgstr "Seall a h-uile pròiseact"
+
+#: index.php:112
+msgid "Help us out!"
+msgstr "Cuidich leinn!"
+
+#: index.php:114
+msgid "Donate"
+msgstr "Thoir tabhartas"
+
+#: index.php:118
+msgid "VideoLAN is a non-profit organization."
+msgstr "'S e buidheann neo-phrothaideach a tha ann an VideoLAN."
+
+#: index.php:119
+msgid ""
+" All our costs are met by donations we receive from our users. If you enjoy "
+"using a VideoLAN product, please donate to support us."
+msgstr " Tha sinn a' paigheadh nan cosgaisean uile againn le tabhartasan a gheibh sinn on luchd-chleachdaidh againn. Ma tha bathar VideoLAN a' còrdadh ribh, nach cuir sibh taic rinn le tabhartas?"
+
+#: index.php:121 index.php:133 index.php:144
+msgid "Learn More"
+msgstr "Barrachd fiosrachaidh"
+
+#: index.php:130
+msgid "VideoLAN is open-source software."
+msgstr "Tha VideoLAN 'na bhathar-bog le còd fosgailte."
+
+#: index.php:131
+msgid ""
+"This means that if you have the skill and the desire to improve one of our "
+"products, your contributions are welcome"
+msgstr "'S ciall dha seo gu bheil sinn a' cur fàilte air do chom-pàirteachas ma tha na sgilean ceart agad is ma tha thusa deiseil is deònach."
+
+#: index.php:138
+msgid "Spread the Word"
+msgstr "Sgaoil am facal"
+
+#: index.php:142
+msgid ""
+"We feel that VideoLAN has the best video software available at the best "
+"price: free. If you agree please help spread the word about our software."
+msgstr "Tha sinne dhen bheachd gur e VideoLAN am bathar-bog as fhearr a tha ann agus aig deagh phrìs: saor an-asgaidh. Mas e sin do bheachd-sa cuideachd, nach innis thu do dhaoine eile gu bheil seo ann?"
+
+#: index.php:414
+msgid "News &amp; Updates"
+msgstr "Naidheachdan ┐ Ùrachaidhean"
+
+#: index.php:418
+msgid "Development Blogs"
+msgstr "Blogaichean an luchd-leasachaidh"
+
+#: index.php:441
+msgid "Social media"
+msgstr "Na meadhanan sòisealta"
+
+#: vlc/index.php:3
+msgid "Official page for VLC media player, the Open Source video framework!"
+msgstr "An duilleag oifigeach aig cluicheadair mheadhanan VLC, am beart-deilbh video le còd fosgailte!"
+
+#: vlc/index.php:38
+msgid "Simple, fast and powerful media player."
+msgstr "Cluicheadair mheadhanan a tha simplidh, luath is cumhachdach."
+
+#: vlc/index.php:40
+msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
+msgstr "Cluichidh e rud sam bith: Faidhlichean, camarathan-lìn, uidheaman is sruthan."
+
+#: vlc/index.php:42
+msgid "Plays most codecs with no codec packs needed:"
+msgstr "Cluichidh e a' chuid as motha dhe na codecs gun fheum air pacaidean codec:"
+
+#: vlc/index.php:45
+msgid "Runs on all platforms:"
+msgstr "Ag obair air ùrlar sam bith:"
+
+#: vlc/index.php:47
+msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
+msgstr "Gu tur an-asgaidh, gun dad a bhathar-foill, sanasachd no lorgadh chleachdaichean."
+
+#: vlc/index.php:49
+msgid "Can do Media Convertion and Streaming."
+msgstr "Nì e iompachadh mheadhanan is sruthadh."
+
+#: vlc/index.php:51
+msgid "Discover all features"
+msgstr "Fàs eòlach air gach feart"
+
+#: vlc/index.php:85
+msgid "View all screenshots"
+msgstr "Seall a h-uile glacadh-sgrìn"
+
+#: vlc/index.php:92
+msgid "Get VLC for"
+msgstr "Faigh VLC airson"
+
+#: vlc/index.php:96
+msgid "Official Downloads of VLC media player"
+msgstr "Far am faigh thu tionndaidhean oifigeach de chluicheadair mheadhanan VLC"
+
+#: vlc/index.php:103
+msgid "Sources"
+msgstr "Tùsan"
+
+#: vlc/index.php:104
+msgid "You can also directly get the"
+msgstr "Gheibh thu greim air"
+
+#: vlc/index.php:105
+msgid "source code"
+msgstr "an còd tùsail cuideachd"
+
+#: vlc/index.php:126
+msgid "Other OS"
+msgstr "OS eile"

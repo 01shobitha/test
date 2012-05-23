@@ -1,0 +1,339 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR jb
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: VLC - Trans\n"
+"Report-Msgid-Bugs-To: https://github.com/yarons/vlc-heb/issues\n"
+"POT-Creation-Date: 2012-04-03 15:48+0200\n"
+"PO-Revision-Date: 2012-05-01 15:54+0000\n"
+"Last-Translator: Gaytan <gaytan@skynet.be>\n"
+"Language-Team: Walloon (http://www.transifex.net/projects/p/vlc-trans/language/wa/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: wa\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+
+#: include/header.php:109
+msgid "A project and a"
+msgstr "On pordjet et ene"
+
+#: include/header.php:109
+msgid "non-profit organization"
+msgstr "soce nén recwårlante"
+
+#: include/header.php:110
+msgid ""
+"composed of volunteers, developing and promoting free, open-source "
+"multimedia solutions."
+msgstr "compôzêye di volontaires ki diswalpèt et fijhèt li reclame di rexhowes multimedia libes"
+
+#: include/header.php:114
+msgid "DONATE"
+msgstr "DINER"
+
+#: include/header.php:114
+msgid "why?"
+msgstr "pocwè?"
+
+#: include/header.php:128 include/header.php:142
+msgid "donate"
+msgstr "dinez"
+
+#: include/header.php:161
+msgid "Home"
+msgstr "Måjhon"
+
+#: include/header.php:164 include/header.php:306
+msgid "News"
+msgstr "Noveles"
+
+#: include/header.php:169 include/header.php:297
+msgid "Project and Organization"
+msgstr "Pordjet et Organizåcion"
+
+#: include/header.php:170 include/header.php:298
+msgid "Team"
+msgstr "Ekipe"
+
+#: include/header.php:171 include/header.php:300
+msgid "Contact us"
+msgstr "Atôtchîz nos"
+
+#: include/header.php:172 include/header.php:301
+msgid "Partners"
+msgstr "Soçons"
+
+#: include/header.php:173 include/header.php:302
+msgid "Press center"
+msgstr "Cinte di presse"
+
+#: include/header.php:174 include/header.php:303
+msgid "Events"
+msgstr "Evenmints"
+
+#: include/header.php:175 include/header.php:304
+msgid "Security center"
+msgstr "Cinte di såvrité"
+
+#: include/header.php:181
+msgid "Download"
+msgstr "Aberweter"
+
+#: include/header.php:182 include/header.php:261 index.php:26 vlc/index.php:20
+#: vlc/index.php:37
+msgid "Features"
+msgstr "Fonccionålités"
+
+#: include/header.php:183 include/header.php:262 index.php:27 vlc/index.php:21
+#: vlc/index.php:63
+msgid "Screenshots"
+msgstr "Waitroûlêyes"
+
+#: include/header.php:184 include/header.php:259 index.php:28 vlc/index.php:22
+msgid "Skins"
+msgstr "Peas"
+
+#: include/header.php:185 include/header.php:260
+msgid "Extensions"
+msgstr "Rawetes"
+
+#: include/header.php:189
+msgid "Projects"
+msgstr "Pordjets"
+
+#: include/header.php:206 include/header.php:266
+msgid "All Projects"
+msgstr "Tos les pordjets"
+
+#: include/header.php:210 index.php:126
+msgid "Contribute"
+msgstr "Contribouwer"
+
+#: include/header.php:212 include/header.php:290
+msgid "Donate time"
+msgstr "Diner do tins"
+
+#: include/header.php:213 include/header.php:289
+msgid "Donate money"
+msgstr "Diner des cwårs"
+
+#: include/header.php:214 include/header.php:291
+msgid "Get Goodies"
+msgstr "Aveur des goodies"
+
+#: include/header.php:218
+msgid "Support"
+msgstr "Sopoirt"
+
+#: include/header.php:220
+msgid "Support center"
+msgstr "Cinte do sopoirt"
+
+#: include/header.php:222 include/header.php:299 include/header.php:312
+msgid "Legal"
+msgstr "Legål"
+
+#: include/header.php:225 include/header.php:287
+msgid "Mailing-Lists"
+msgstr "Djåspinreyes"
+
+#: include/header.php:226
+msgid "Report a bug"
+msgstr "Fijhoz on rapoirt di bug"
+
+#: include/header.php:230
+msgid "Dev' Zone"
+msgstr "Dev' Zone"
+
+#: include/header.php:283
+msgid "Community"
+msgstr "Cominålté"
+
+#: include/header.php:305
+msgid "Get Involved"
+msgstr "Soeyoz  egadjî"
+
+#: index.php:3
+msgid "VLC: Official site - Free multimedia solutions for all OS!"
+msgstr "VLC: Site oficir - Des rexhowes multimedia libes po tos les SO!"
+
+#: index.php:24 vlc/index.php:18
+msgid ""
+"VLC is a free and open source cross-platform multimedia player and framework"
+" that plays most multimedia files as well as DVD, Audio CD, VCD, and various"
+" streaming protocols."
+msgstr "VLC est on djouweu multimedia po rén et libe et on sistinme ki pout djouwer li pupårt des fitchîs multimedia ossu bén ki des DVD, des CD odio, des VCD et sacwants protocoles di streaming."
+
+#: index.php:31 vlc/index.php:25
+msgid "Download VLC"
+msgstr "Aberweter VLC"
+
+#: index.php:38 vlc/index.php:32
+msgid "Other Systems and Versions"
+msgstr "Ôtes sistinmes et modêyes"
+
+#: index.php:43
+msgid "Other projects from VideoLAN"
+msgstr "Ôtes pordjets da VideoLAN"
+
+#: index.php:45
+msgid "For Everyone"
+msgstr "Po tertos"
+
+#: index.php:51
+msgid ""
+"VLC is a powerful media player playing most of the media codecs and video "
+"formats out there."
+msgstr "VLC est on roed djouweu d' media ki pout lére li pupårt des codecs et des cognes videyo."
+
+#: index.php:60
+msgid ""
+"VideoLAN Movie Creator is a non-linear editing software for video creation."
+msgstr "VideoLAN Movie Creator est programe d' aspougnaedje nén lineyåre po l' ahivaedje di videyo."
+
+#: index.php:67
+msgid "For Professionals"
+msgstr "Po les professionels"
+
+#: index.php:73
+msgid ""
+"DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
+msgstr "DVBlast est ene aplicåcion di streaming et di dismultiplecsaedje MPEG-2/TS simpe et roede."
+
+#: index.php:81
+msgid ""
+"multicat is a set of tools designed to easily and efficiently manipulate "
+"multicast streams and TS."
+msgstr "multicat est ene ustireye po apougnî åjheymint et eficacemint des floûs multicast et TS."
+
+#: index.php:90
+msgid ""
+"x264 is a free application for encoding video streams into the H.264/MPEG-4 "
+"AVC format."
+msgstr "x264 est ene aplicåcion libe po l' ecôdaedje des floûs videyo dins l' cogne H.264/MPEG-4 AVC."
+
+#: index.php:98
+msgid "For Developers"
+msgstr "Po les diswalpeus"
+
+#: index.php:109
+msgid "View All Projects"
+msgstr "Vey tos les pordjets"
+
+#: index.php:112
+msgid "Help us out!"
+msgstr "Aidîz nos!"
+
+#: index.php:114
+msgid "Donate"
+msgstr "Diner"
+
+#: index.php:118
+msgid "VideoLAN is a non-profit organization."
+msgstr "VideoLAN est ene soce nén recwårlante."
+
+#: index.php:119
+msgid ""
+" All our costs are met by donations we receive from our users. If you enjoy "
+"using a VideoLAN product, please donate to support us."
+msgstr " Totes nos costindjes sont covierts pa les dons ki nos riçuvans da nos uzeus. Si vos préjhîz eployî on produt VideoLAN, si vos plait fijhoz on don po nos sopoirter."
+
+#: index.php:121 index.php:133 index.php:144
+msgid "Learn More"
+msgstr "Kinoxhe pus"
+
+#: index.php:130
+msgid "VideoLAN is open-source software."
+msgstr "VideoLAN est on programe libe."
+
+#: index.php:131
+msgid ""
+"This means that if you have the skill and the desire to improve one of our "
+"products, your contributions are welcome"
+msgstr "Çouci vout dire ki si vos avoz les competinces et l' rafiya po-z amidrer onk di nos produts, vosse contribucion est l' bénvnowe."
+
+#: index.php:138
+msgid "Spread the Word"
+msgstr "Fijhoz passer l' mot"
+
+#: index.php:142
+msgid ""
+"We feel that VideoLAN has the best video software available at the best "
+"price: free. If you agree please help spread the word about our software."
+msgstr "Nos pinsans ki VideoLAN a l' meyeu programe videyo disponibe å meyeu pris: po rén. Si vos estoz d' acoird, si vos plait aidî a fé passer l' mot åd fwait di nosse programe."
+
+#: index.php:414
+msgid "News &amp; Updates"
+msgstr "Noveatés et metaedjes a djoû"
+
+#: index.php:418
+msgid "Development Blogs"
+msgstr "Blogs di diswalpaedje"
+
+#: index.php:441
+msgid "Social media"
+msgstr "Media sociå"
+
+#: vlc/index.php:3
+msgid "Official page for VLC media player, the Open Source video framework!"
+msgstr "Pådje oficire do djouweu d' media VLC, l' evironmint videyo libe."
+
+#: vlc/index.php:38
+msgid "Simple, fast and powerful media player."
+msgstr "Simpe, rade et roed djouweu d' media."
+
+#: vlc/index.php:40
+msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
+msgstr "Djouwe totafwait: fitchîs, plakes, waibcams, éndjins et floûs."
+
+#: vlc/index.php:42
+msgid "Plays most codecs with no codec packs needed:"
+msgstr "Djouwe li pupårt des codecs sans aveur mezåjhe di pakets d' codec:"
+
+#: vlc/index.php:45
+msgid "Runs on all platforms:"
+msgstr "Enonde so totes les platfômes"
+
+#: vlc/index.php:47
+msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
+msgstr "Totafwait po rén, 0 spyware, 0 reclames et nén d' shuvaedje des uzeus."
+
+#: vlc/index.php:49
+msgid "Can do Media Convertion and Streaming."
+msgstr "Pout kivierser des medias et fé do streaming."
+
+#: vlc/index.php:51
+msgid "Discover all features"
+msgstr "Discovri totes les fonccionålités"
+
+#: vlc/index.php:85
+msgid "View all screenshots"
+msgstr "Vey totes les waitroûlêyes"
+
+#: vlc/index.php:92
+msgid "Get VLC for"
+msgstr "Aveur VLC po"
+
+#: vlc/index.php:96
+msgid "Official Downloads of VLC media player"
+msgstr "Aberwetaedjes oficirs do djouweu d' media VLC"
+
+#: vlc/index.php:103
+msgid "Sources"
+msgstr "Sourdants"
+
+#: vlc/index.php:104
+msgid "You can also directly get the"
+msgstr "Vos ploz eto aveur direk li"
+
+#: vlc/index.php:105
+msgid "source code"
+msgstr "côde sourdant"
+
+#: vlc/index.php:126
+msgid "Other OS"
+msgstr "Ôtes SO"

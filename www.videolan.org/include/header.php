@@ -32,6 +32,7 @@ function StartHtml( $title, $color, $language,
         case 'ro': $locale = "ro_RO.UTF-8"; break;
         case 'ru': $locale = "ru_RU.UTF-8"; break;
         case 'tr': $locale = "tr_TR.UTF-8"; break;
+        case 'wa': $locale = "wa_BE.UTF-8"; break;
         }
 
         /* gettext stuff */

@@ -98,7 +98,7 @@
                     "1.1.12"  => array( "Windows" => 0        , "Macintosh" => 8870000, "Total" => 8952539  ),
                     "1.1.13"  => array( "Windows" => 0        , "Macintosh" => 0,       "Total" => 598  ),
                     "2.0.0"   => array( "Windows" => 14411719 , "Macintosh" => 1935724, "Total" => 16364533 ),
-                    "2.0.1"   => array( "Windows" => 58098409,  "Macintosh" => 5970425, "Total" => 64100828 ),
+                    "2.0.1"   => array( "Windows" => 61438573,  "Macintosh" => 6250545, "Total" => 67723301 ),
     );
 
     foreach( $table as $key => $t )

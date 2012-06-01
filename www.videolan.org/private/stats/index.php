@@ -11,7 +11,25 @@
 
 <h1>Web Statistics</h1>
 
-<?php include( $_SERVER["DOCUMENT_ROOT"]."/private/stats/web.inc" ); ?>
+<?php
+
+$directory = $_SERVER["DOCUMENT_ROOT"]."/private/stats/";
+$files = glob($directory . "*");
+
+foreach($files as $file)
+{
+    if(is_dir($file))
+    {
+        $handle = str_replace($directory, '', $file);
+        if( strlen($handle) == 6)
+        {
+            $date = new DateTime($handle."01");
+            echo "<a href='/private/stats/$handle/'>".$date->format('F Y')."</a><br />\n";
+        }
+    }
+}
+
+?>
 
 <h1>Download statistics</h1>
 

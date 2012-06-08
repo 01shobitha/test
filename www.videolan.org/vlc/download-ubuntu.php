@@ -10,9 +10,14 @@
 
 <div id="left">
 
-<h2>Ubuntu 11.10 - Oneiric Ocelot
-<br/>Ubuntu 11.04 - Natty Narwhal
-<br/>Ubuntu 10.10 - Maverick Meerkat</h2>
+<h2>
+Ubuntu 12.04 <span style='font-size: smaller'>(precise)</span><br />
+Ubuntu 11.10 <span style='font-size: smaller'>(oneiric)</span><br />
+Ubuntu 11.04 <span style='font-size: smaller'>(natty)  </span><br />
+Ubuntu 10.10 <span style='font-size: smaller'>(maverick)</span>  </h2>
+
+<h3>Quick install</h3>
+<a href="apt://vlc"><img src="http://developer.ubuntu.com/wp-content/uploads/2012/06/downloadonubuntubutton.png"  title="Download for Ubuntu" alt="Download for Ubuntu button" width="122" height="49" /></a>
 
 <h3>Graphical way</h3>
 <p>Open <b>Synaptic</b> application<br />

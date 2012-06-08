@@ -42,6 +42,7 @@ function replaceDLinfos( )
        if (navigator.appVersion.indexOf("Win")!=-1){
          OS="windows";
          latestVersion = '<?php echo "$win32version"; ?>';
+         $("#downloadButton").addClass('sourceforge_accelerator_link');
        }
        if (navigator.appVersion.indexOf("Mac")!=-1) {
           latestVersion = '<?php echo "$macosxversion"; ?>';
@@ -50,6 +51,8 @@ function replaceDLinfos( )
           else if (navigator.userAgent.indexOf("OS X 10.6")!=-1) OS="osx64";
           else if (navigator.userAgent.indexOf("OS X 10.7")!=-1) OS="osx64";
           else OS="osx";
+
+         $("#downloadButton").addClass('sourceforge_accelerator_link');
        }
        if (navigator.platform.indexOf("BeOS") !=-1) OS="beos";
        if (navigator.platform.indexOf("Linux")!=-1) {
@@ -77,7 +80,7 @@ function replaceDLinfos( )
 function downloadButton()
 {
 ?>
-     <a id='downloadButton' href='<?php echo $dlUrl; ?>' class="sourceforge_accelerator_link">
+     <a id='downloadButton' href='<?php echo $dlUrl; ?>'>
          <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
          <span class='downloadText'><?php echo _("Download VLC"); ?></span>
          <span id='downloadDetails' style='font-size: 12px; color: white;'>

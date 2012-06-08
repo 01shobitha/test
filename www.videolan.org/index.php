@@ -28,16 +28,7 @@
                 <a class='extraInfoLink' href='/vlc/features.html'><?php echo _("Features"); ?></a>
                 <a class='extraInfoLink' href='/vlc/screenshots.html'><?php echo _("Screenshots"); ?></a>
                 <a class='extraInfoLink' href='/vlc/skins.php'><?php echo _("Skins"); ?></a>
-                <a id='downloadButton' href='<?php echo $dlUrl; ?>' class="sourceforge_accelerator_link">
-                    <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
-                    <span class='downloadText'><?php echo _("Download VLC"); ?></span>
-                    <span id='downloadDetails' style='font-size: 12px; color: white;'>
-                    Version <span id='downloadVersion'><?php echo $win32version ?>
-                    </span>&nbsp;&#8226;&nbsp;<span id='downloadOS'>Windows</span>&nbsp;&#8226;&nbsp;<span id='downloadSize'>20MB</span>
-                    </span>
-                </a>
-                <?php replaceDLinfos(); ?>
-                <a class='extraInfoLink' href='/vlc/#download' style="padding-left: 100px;"><?php echo _("Other Systems and Versions");?></a>
+                <?php downloadButton(); ?>
             </div>
                 <?php
                 if ( $language == "fr") /* 01net temporary HACK*/

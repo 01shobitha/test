@@ -514,6 +514,15 @@ list-style-type: circle;
 }
 
 /* ======================================= PROJECT PAGES ======================================= */
+
+.projectMain {
+    padding-top: 26px;
+    clear: both;
+}
+.projectLeft {
+    float: left;
+    width: 500px;
+}
 .projectImg
 {
     float: left;

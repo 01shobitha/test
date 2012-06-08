@@ -17,9 +17,9 @@
    /* Main page */
 ?>
     <div>
-        <div class="clearme" style='padding-top: 26px;'>
+        <div class="projectMain">
             <?php image( 'largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?>
-            <div style='float: left; width: 500px;'>
+            <div class="projectLeft">
                 <h1 class='bigtitle'>VLC media player</h1>
                 <div class='projectDescription'>
                    <?php echo

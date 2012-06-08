@@ -14,7 +14,7 @@
 Ubuntu 12.04 <span style='font-size: smaller'>(precise)</span><br />
 Ubuntu 11.10 <span style='font-size: smaller'>(oneiric)</span><br />
 Ubuntu 11.04 <span style='font-size: smaller'>(natty)  </span><br />
-Ubuntu 10.10 <span style='font-size: smaller'>(maverick)</span>  </h2>
+</h2>
 
 <h3>Quick install</h3>
 <a href="apt://vlc"><img src="http://developer.ubuntu.com/wp-content/uploads/2012/06/downloadonubuntubutton.png"  title="Download for Ubuntu" alt="Download for Ubuntu button" width="122" height="49" /></a>
@@ -47,17 +47,15 @@ in your <code>/etc/apt/sources.list</code> file.
 <h3>Nota Bene</h3>
 <p>Ubuntu includes whichever VLC version was the latest
 at the time the Ubuntu release was <em>frozen</em>
-(typically about two months before the official Ubuntu upgrade).
+(typically about two months before the official Ubuntu upgrade).<br />
 Afterward, you can still get security and critical bug fixes,
 but no further VLC version updates until the next Ubuntu release.
 </p>
-<p>Concretely, Ubuntu Natty has VLC version 1.1.9,
-Ubuntu Maverick has VLC version 1.1.4.
-If you need a more recent version, please consider upgrading Ubuntu.
+<p>If you need a more recent version, please consider upgrading Ubuntu.
 </p>
 
-<h2>Ubuntu Lucid Lynx 10.04 LTS</h2>
-<p><strong>VLC version 1.0.6 in Ubuntu 10.04 is out-of-date.</strong>
+<h2>Ubuntu 10.04 LTS <span style='font-size: smaller'>(lucid)</h2>
+<p><strong>VLC version 1.0.6 in Ubuntu 10.04 is severely out-of-date.</strong>
 We recommend you install VLC 1.1.x manually.</p>
 <p>If you wish to install VLC 1.0.6 anyway,
 please refer to the instructions above for Ubuntu 10.10.
@@ -90,15 +88,6 @@ Note that there will be some bugs; you are on your own.
 </ul>
 <?php panel_end(); ?>
 
-<?php panel_start( "gray" ); ?>
-<h1>Kubuntu users</h1>
-<p>The instructions for Ubuntu also apply to Kubuntu. But you should:
-</p>
-<ul>
-<li>Use Adept instead of Synaptic;</li>
-<li>Install vlc-plugin-arts instead of vlc-plugin-esd</li>
-</ul>
-<?php panel_end(); ?>
 <?php panel_start( "orange" ); ?>
 <h1>Playing DVD (libdvdcss)</h1>
 <p>In order to be able to play region-locked DVD, you need install libdvdcss2. You can either follow this <a href="https://help.ubuntu.com/9.10/musicvideophotos/C/video-dvd.html">procedure</a> or add  &quot;<a href="http://medibuntu.org/">medibuntu</a>&quot; to your repositories and install libdvdcss2.</p>
@@ -108,3 +97,4 @@ Note that there will be some bugs; you are on your own.
 <?php
   footer('$Id$');
 ?>
+

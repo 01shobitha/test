@@ -1,5 +1,5 @@
 <?php
-   $title = "VideoLAN Dev Days 2012, Septembre 1-2, 2012";
+   $title = "VideoLAN Dev Days 2012, September 1-2, 2012";
    $additional_css = array("/style/panels.css");
    $body_color = "green";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
@@ -13,7 +13,7 @@
 <h2>Sponsors</h2>
 <a href="/videolan/"><?php image( "logoGrey.png" , "VideoLAN association"); ?></a>
 <br />
-<p>Your Name Here :)</p>
+<p><a href=/contact.html><h2>Your Name Here :)</h2></p>
 <h2>Host</h2>
 <p><a href="http://www.institut-telecom.fr/" alt="Institut Telecom"><img src="http://www.mines-telecom.fr/images/imt12/logo.png" /></a></p>
 <?php panel_end(); ?>
@@ -40,8 +40,9 @@
 invite you to the multimedia open-source event of the end of summer: </p>
 <div style="font-weight: bold; font-size: 1.8em; margin: 2px 100px 14px; color: green;">VideoLAN Dev Days '12</div>
 
-<p>For its <b>fourth edition</b>, people from the VideoLAN community will meet in <strong>Paris</strong> to gather, work, discuss and meet, on the <strong>1st and 2nd of September 2012</strong>.</p>
-<p>This technical event is focused on technical discussions and decisions, and is focused to a technical crowd.</p>
+<p>For its <b>fourth edition</b>, people from the VideoLAN and open source multimedia community will meet in
+ <strong>Paris</strong> to gather, work, discuss and meet, on the <strong>1st and 2nd of September 2012</strong>.</p>
+<p>This technical event is focused on technical discussions and decisions about <b>multimedia</b>, and is focused to a technical crowd.</p>
 <p>Like the previous years, an important number of developers from <a href="/developers/x264.html">x264</a>, <a href="http://www.ffmpeg.org/">FFmpeg</a>, <a href="http://libav.org/">Libav</a> and KDE will join us!<br />
 Developers, designers and anonymous people around <a href="/vlc/">VLC</a>, <a href="/projects/dvblast.html">DVBlast</a>, VLMa, skin-designer or other multimedia projects will be there too.</p>
 
@@ -57,6 +58,8 @@ Developers, designers and anonymous people around <a href="/vlc/">VLC</a>, <a hr
 <p>The cost for attendance is free.</p>
 <p>Like previous years, active developers can get a full sponsorship covering all the costs for the venue.</p>
 
+<h1>FOMS</h1>
+<p><a href="http://www.foms-workshop.org/foms2012/">FOMS 2012</a> will take place just after the VDD, on the <b>3rd and 4th of september</b>.</p>
 
 <h1>Schedule</h1>
 <p>To be defined</p>

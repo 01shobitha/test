@@ -11,10 +11,10 @@
 <div id="sidebar">
 <?php panel_start( "green" ); ?>
 <h2>Sponsors</h2>
-<a href="/videolan/"><?php image( "logoGrey.png" , "VideoLAN association"); ?>
-</a>
+<a href="/videolan/"><?php image( "logoGrey.png" , "VideoLAN association"); ?></a>
 <br />
-<h2>Institut Telecom</h2>
+<p>Your Name Here :)</p>
+<h2>Host</h2>
 <p><a href="http://www.institut-telecom.fr/" alt="Institut Telecom"><img src="http://www.mines-telecom.fr/images/imt12/logo.png" /></a></p>
 <?php panel_end(); ?>
 
@@ -53,7 +53,13 @@ Developers, designers and anonymous people around <a href="/vlc/">VLC</a>, <a hr
 <p>Technical events will be held at <a href="http://www.institut-telecom.fr/p_en_present_contact_1376.html">Institut Telecom</a> (<a href="#location">map</a>).</p>
 <p>Be careful to enter by the <em>49, rue Vergniaud</em> entrance.</p>
 
+<h1>Cost and sponsorship </h1>
+<p>The cost for attendance is free.</p>
+<p>Like previous years, active developers can get a full sponsorship covering all the costs for the venue.</p>
+
+
 <h1>Schedule</h1>
+<p>To be defined</p>
 
 <?php /*
 <div id="schedule" style="margin: 10px 25px 0px; padding: 0 20px; border: 1px outset #4d4d4d; width: 600px;">
@@ -170,7 +176,7 @@ Un point sur la situation. Assemblée générale ordinaire, extra-ordinaire et r
 
 <h1>Registration</h1>
 <p>Except for the Friday Beer Event, <strong>Registration</strong> is <strong>mandatory</strong>.</p>
-<p>Registration are now closed.</p>
+<p>Registration are not opened yet.</p>
 
 <h1>Hotel</h1>
 <p>If you got an hotel reserved by the team, it will be

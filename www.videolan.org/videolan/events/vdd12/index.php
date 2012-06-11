@@ -40,8 +40,9 @@
 invite you to the multimedia open-source event of the end of summer: </p>
 <div style="font-weight: bold; font-size: 1.8em; margin: 2px 100px 14px; color: green;">VideoLAN Dev Days '12</div>
 
-<p>For its <b>third edition</b>, people from the VideoLAN community will meet in <strong>Paris</strong> to gather, work, discuss and meet, on the <strong>3rd and 4th of September 2011</strong>.</p>
-<p>For the first time, though, an important number of developers from <a href="/developers/x264.html">x264</a>, <a href="http://www.ffmpeg.org/">FFmpeg</a> and <a href="http://libav.org/">Libav</a>, will join us!<br />
+<p>For its <b>fourth edition</b>, people from the VideoLAN community will meet in <strong>Paris</strong> to gather, work, discuss and meet, on the <strong>1st and 2nd of September 2012</strong>.</p>
+<p>This technical event is focused on technical discussions and decisions, and is focused to a technical crowd.</p>
+<p>Like the previous years, an important number of developers from <a href="/developers/x264.html">x264</a>, <a href="http://www.ffmpeg.org/">FFmpeg</a>, <a href="http://libav.org/">Libav</a> and KDE will join us!<br />
 Developers, designers and anonymous people around <a href="/vlc/">VLC</a>, <a href="/projects/dvblast.html">DVBlast</a>, VLMa, skin-designer or other multimedia projects will be there too.</p>
 
 <h1>Who can come? </h1>
@@ -54,6 +55,7 @@ Developers, designers and anonymous people around <a href="/vlc/">VLC</a>, <a hr
 
 <h1>Schedule</h1>
 
+<?php /*
 <div id="schedule" style="margin: 10px 25px 0px; padding: 0 20px; border: 1px outset #4d4d4d; width: 600px;">
 <h2>Friday night Beers</h2>
 <p>On <strong>Friday 2nd September 2011 at 20h30</strong>, people are welcome to come and
@@ -164,6 +166,7 @@ Un point sur la situation. Assemblée générale ordinaire, extra-ordinaire et r
 <!-- 
 <p> about <b>VLC</b>, <b>x264</b>, <b>libavfilter</b> and <b>libavcodec</b>,
  on the <strong>Saturday 3rd, starting at 10h30</strong> at Institut Telecom.</p> -->
+ */ ?>
 
 <h1>Registration</h1>
 <p>Except for the Friday Beer Event, <strong>Registration</strong> is <strong>mandatory</strong>.</p>

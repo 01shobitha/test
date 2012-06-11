@@ -1,1 +1,1 @@
-SUBDIR = 10y
+SUBDIR = 10y vdd12

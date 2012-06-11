@@ -35,7 +35,6 @@
 </div>
 
 
-<h2>What are the VideoLAN Dev Days?</h2>
 <p>The <a href="/videolan/">VideoLAN non-profit organisation</a> is happy to
 invite you to the multimedia open-source event of the end of summer: </p>
 <div style="font-weight: bold; font-size: 1.8em; margin: 2px 100px 14px; color: green;">VideoLAN Dev Days '12</div>

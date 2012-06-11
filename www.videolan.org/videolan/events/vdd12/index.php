@@ -50,7 +50,7 @@ Developers, designers and anonymous people around <a href="/vlc/">VLC</a>, <a hr
  If you are not a technical person, but an enthusiast, we recommend you to come to the less technical events, like in the evenings.</p>
 
 <h1>Where? </h1>
-<p>Technical events will be held at <a href="http://www.institut-telecom.fr/p_en_present_contact_1376.html">Institut Telecom</a> (<a href="#location">map</a>).</p>
+<p>Technical events will be held at <a href="http://www.mines-telecom.fr/p_en_imt_contact_38.html">Institut Mines-Telecom</a> (<a href="#location">map</a>).</p>
 <p>Be careful to enter by the <em>49, rue Vergniaud</em> entrance.</p>
 
 <h1>Cost and sponsorship </h1>

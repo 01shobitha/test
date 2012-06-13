@@ -15,7 +15,7 @@
 <br />
 <p><a href=/contact.html><h2>Your Name Here :)</h2></p>
 <h2>Host</h2>
-<p><a href="http://www.institut-telecom.fr/" alt="Institut Telecom"><img src="http://www.mines-telecom.fr/images/imt12/logo.png" /></a></p>
+<p><a href="http://www.mines-telecom.fr/en_accueil.html" alt="Institut Mines Telecom"><img src="http://www.mines-telecom.fr/images/imt12/logo.png" /></a></p>
 <?php panel_end(); ?>
 
 <?php /*

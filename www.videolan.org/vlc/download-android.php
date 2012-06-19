@@ -64,10 +64,14 @@
 <p>If you are a phone manufacturer or have spare phones, please send them to us :)</p>
 <p><a href="/contact.html">Contact us</a>.</p>
 
-<!--
-<h1>Performance on phones</h1>
+<h1>Software performance on phones</h1>
+<p>This table is a <b>rough idea</b> of what one can hope to play with VLC on Android, for now.</p>
+<p>Performance is likely to improve in the future.</p>
+<table>
+<th><td></td><td>480p</td><td>576p</td><td>720p</td><td>MKV 720p + ASS</td></th>
 
--->
+</table>
+
 <h1>Recommended phones</h1>
     <div class='productDescription'>
         <ul>

@@ -64,11 +64,44 @@
 <p>If you are a phone manufacturer or have spare phones, please send them to us :)</p>
 <p><a href="/contact.html">Contact us</a>.</p>
 
+<?php 
+function writeonefeature( $a )
+{
+    if ( $a == "yes" )
+       echo '<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>';
+    else if ($a == "no" )
+       echo '<td class="no"><img src="/images/features/cross.png" alt="No" /></td>';
+    else if ( $a == "part" )
+       echo '<td class="partial"><img src="/images/features/partial.png" alt="Partial" /></td>';
+    else if ( $a == "unt" )
+       echo '<td class="partial"><img src="/images/features/untested.png" alt="Untested" /></td>';
+    else if ($a == "none" )
+       echo '<td class="none">-</td>';
+    echo "\n";
+}
+
+function writefeature_simple( $title, $sd, $sd2, $hd, $hd2 )
+{
+   echo '<tr><td class="type">'.$title.'</td>';
+   writeonefeature( $sd );
+   writeonefeature( $sd2 );
+   writeonefeature( $hd );
+   writeonefeature( $hd2 );
+   echo "</tr>\n";
+}
+?>
+
 <h1>Software performance on phones</h1>
 <p>This table is a <b>rough idea</b> of what one can hope to play with VLC on Android, for now.</p>
 <p>Performance is likely to improve in the future.</p>
 <table>
-<th><td></td><td>480p</td><td>576p</td><td>720p</td><td>MKV 720p + ASS</td></th>
+<th><td> Name </td><td>480p</td><td>576p</td><td>720p</td><td>MKV 720p + ASS</td></th>
+<?php writefeature_simple( "HTC One X", "yes", "yes", "yes", "yes" ); ?>
+<?php writefeature_simple( "Samsung Galaxy S3", "yes", "yes", "yes", "yes" ); ?>
+<?php writefeature_simple( "Galaxy Nexus", "yes", "yes", "yes", "unt" ); ?>
+<?php writefeature_simple( "Samsung Galaxy S2", "yes", "yes", "unt", "unt" ); ?>
+<?php writefeature_simple( "HTC Desire HD", "yes", "unt", "no", "no" ); ?>
+<?php writefeature_simple( "Nexus One", "yes", "no", "no", "no" ); ?>
 
 </table>
 

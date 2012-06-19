@@ -91,8 +91,8 @@ function writefeature_simple( $title, $sd, $sd2, $hd, $hd2 )
 }
 ?>
 
-<h1>Software performance on phones</h1>
-<p>This table is a <b>rough idea</b> of what one can hope to play with VLC on Android, for now.</p>
+<h1>Software performance on phones for H.264</h1>
+<p>This table is a <b>rough idea</b> of what one can hope to play with VLC on Android, for now, using the <b>software</b> decoder.</p>
 <p>Performance is likely to improve in the future.</p>
 <table>
 <tr><th><b>Name</b></th><th><b>480p</b></th><th><b>576p</b></th><th><b>720p</b></th><th><b>MKV 720p + ASS</b></th></tr>

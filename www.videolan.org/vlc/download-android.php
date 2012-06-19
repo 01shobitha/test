@@ -60,14 +60,26 @@
     </div>
 
 
-<!--
 <h2>Send us phones</h2>
+<p>If you are a phone manufacturer or have spare phones, please send them to us :)</p>
+<p><a href="/contact.html">Contact us</a>.</p>
 
+<!--
 <h1>Performance on phones</h1>
 
-<h1>Recommended phones</h1>
-
 -->
+<h1>Recommended phones</h1>
+    <div class='productDescription'>
+        <ul>
+            <li>Galaxy Nexus; (OMAP 4460)</li>
+            <li>HTC One X; (Tegra 3)</li>
+            <li>Samsung Galaxy S3; (Exynos 4 Quad)</li>
+            <li>Motorola Defy; (OMAP 3610)</li>
+            <li>HTC Desire; (QSD8250 Snapdragon)</li>
+            <li>Nexus one. (QSD8250 Snapdragon)</li>
+        </ul>
+    </div>
+
 <?php
   footer('$Id$');
 ?>

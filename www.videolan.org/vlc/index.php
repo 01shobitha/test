@@ -83,7 +83,7 @@
                 <br /><br />
                     <?php echo _("Completely Free, 0 spyware, 0 ads and no user tracking."); ?>
                 <br /><br />
-                    <?php echo _("Can do Media Conversion and Streaming."); ?>
+                    <?php echo _("Can do media conversion and streaming."); ?>
                 <br />
                 <a class='extraInfoLink' href='/vlc/features.html'><?php echo _("Discover all features"); ?></a>
             </div>

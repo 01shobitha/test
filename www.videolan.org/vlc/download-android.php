@@ -95,7 +95,7 @@ function writefeature_simple( $title, $sd, $sd2, $hd, $hd2 )
 <p>This table is a <b>rough idea</b> of what one can hope to play with VLC on Android, for now.</p>
 <p>Performance is likely to improve in the future.</p>
 <table>
-<th><td> Name </td><td>480p</td><td>576p</td><td>720p</td><td>MKV 720p + ASS</td></th>
+<tr><th> Name </th><th>480p</th><th>576p</th><th>720p</th><th>MKV 720p + ASS</th></tr>
 <?php writefeature_simple( "HTC One X", "yes", "yes", "yes", "yes" ); ?>
 <?php writefeature_simple( "Samsung Galaxy S3", "yes", "yes", "yes", "yes" ); ?>
 <?php writefeature_simple( "Galaxy Nexus", "yes", "yes", "yes", "unt" ); ?>

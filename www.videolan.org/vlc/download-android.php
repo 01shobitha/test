@@ -43,20 +43,20 @@
    </div>
 
 
-<h1>Help us!</h1>
+<h1 class='clearme'>Help us!</h1>
 <h2>Test it</h2>
 <p>We need help to test VLC under a variety of devices.</p>
 <p>Please join us on our <a href="http://forum.videolan.org/viewforum.php?f=35">forum</a>.</p>
 
 <h2>Kickstart us!</h2>
     <div class='productDescription'>
-<p>We need funding to:
+<p>We need funding to:</p>
         <ul>
-            <li>Buy or rent the large variety of devices.</li>
-            <li>Fund some developers and support people to fix bugs.</li>
+            <li>Buy or rent the large variety of devices;</li>
+            <li>Fund some developers and support people to fix bugs;</li>
             <li>Buy various tools to speed-up development.</li>
         </ul>
-so VLC works perfectly on Android phones and tablets.</p>
+<p>so VLC works perfectly on Android phones and tablets.</p>
     </div>
 
 

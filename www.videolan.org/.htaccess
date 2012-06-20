@@ -137,7 +137,8 @@ RewriteRule ^doc/faq/videolan-faq.html$ /doc/faq/ [R=permanent,L]
 
 ####################### Moved to developers #########################
 
-Redirect /cgi-bin(.*)$ http://webchat.freenode.net/ [R=permanent,L]
+Redirect permanent /cgi-bin http://webchat.freenode.net/
+Redirect permanent /cvs http://wiki.videolan.org/Subversion
 
 RewriteRule ^dtsdec.html /developers/libdca.html [R=permanent,L]
 RewriteRule ^x264.html /developers/x264.html [R=permanent,L]
@@ -155,14 +156,11 @@ RewriteRule ^libdvbpsi.* /developers/libdvbpsi.html [R=permanent,L]
 RewriteRule ^libdvdplay/download.html http://www.videolan.org/pub/videolan/libdvdplay/ [R=permanent,L]
 RewriteRule ^libdvdplay.* /developers/libdvdplay.html [R=permanent,L]
 
-Redirect permanent /cvs http://wiki.videolan.org/Subversion
-
 ###################### Images ############################
 
 RewriteRule ^images/([^/]*)bri7x(.*)$ /images/goodies/$1bri7x$2 [R=permanent,L]
 RewriteRule ^images/videolan_org(.*)$ /images/goodies/videolan_org$1 [R=permanent,L]
 RewriteRule ^images/cone-soppera(.*)$ images/goodies/cone-soppera$1 [R=permanent,L]
-RewriteRule ^/images/buttons/(.*)$ images/goodies/buttons_getVLC/$1 [R=permanent,L]
 
 
 ############### Security advisories ######################

@@ -1,4 +1,6 @@
 RewriteEngine on
+RewriteRule ^buttons/(.*)$ /images/goodies/buttons_getVLC/$1 [R=permanent,L]
+
 RewriteCond %{HTTP_USER_AGENT} !^CoralWebPrx
 RewriteCond %{QUERY_STRING} !^coral-no-serve
 RewriteRule ^/(.*)$ http://www.videolan.org.nyud.net:8090/$1 [R,L]

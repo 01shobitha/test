@@ -206,6 +206,7 @@ Marketing Europe GmbH, borrowed us a SC-XH150 setup consisting of a S/PDIF input
   </tr>
 
 
+<!--
   <tr>
     <td colspan="2">
         <h2> HP </h2>
@@ -233,7 +234,7 @@ Marketing Europe GmbH, borrowed us a SC-XH150 setup consisting of a S/PDIF input
          >Journées du Libre</a>.</p>
 
     </td>
-  </tr>
+  </tr> -->
 </table>
 
      <h1>Important Donators</h1>

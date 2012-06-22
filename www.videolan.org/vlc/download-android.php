@@ -21,9 +21,9 @@
                <ul>
                   <li>Plays all files, in all formats, like the classic VLC.</li>
                   <li>Audio and video media library, with full search.</li>
-                  <li>Supports Android from 2.1 up to 4.0.</li>
-                  <li>Support for network streams.</li>
-                  <li>Gestures, headphones control.</li>
+                  <li>Support for network streams, including HLS.</li>
+                  <li>Supports Android from version 2.1 (platform-7).</li>
+                  <li>Supports ARMv6, ARMv7 and ARMv7+NEON.</li>
                </ul>
            </div>
        </div>
@@ -37,6 +37,7 @@
                   <li>Multi audio or subtitles tracks selection.</li>
                   <li>Multi-core decoding, for Cortex-A7 A9 and A15 chips.</li>
                   <li>Experimental hardware decoding.</li>
+                  <li>Gestures, headphones control.</li>
                </ul>
            </div>
        </div>

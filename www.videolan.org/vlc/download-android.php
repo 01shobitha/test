@@ -121,10 +121,10 @@ function writefeature_simple( $title, $sd, $sd2, $hd, $hd2 )
 <h1>Thanks</h1>
 <p>
 We would like to thanks people who helped us.<br />
-<?php image( 'partners/android/SL.png', 'SolutionLinux', '' ); ?>
-<?php image( 'partners/android/dojocrea.jpg', 'Dojocrea', '' ); ?>
-<?php image( 'partners/android/jbmm.png', 'JBMM', '' ); ?>
-<?php image( 'partners/android/asus.jpg', 'Asus', '' ); ?>
+<a href="http://www.solutionslinux.fr/"><?php image( 'partners/android/SL.png', 'SolutionLinux', '' ); ?></a>
+<a href="http://www.dojocrea.fr/"><?php image( 'partners/android/dojocrea.jpg', 'Dojocrea', '' ); ?></a>
+<a href="http://www.jbmm.fr/"><?php image( 'partners/android/jbmm.png', 'JBMM', '' ); ?></a>
+<a href="http://fr.asus.com/"><?php image( 'partners/android/asus.jpg', 'Asus France', '' ); ?></a>
 </p>
 <?php
   footer('$Id$');

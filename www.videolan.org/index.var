@@ -47,3 +47,7 @@ Content-language: wa
 URI: index.gd.html
 Content-type: text/html
 Content-language: gd
+
+URI: index.nb.html
+Content-type: text/html
+Content-language: nb

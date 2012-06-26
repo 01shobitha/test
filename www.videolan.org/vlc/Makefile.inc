@@ -4,15 +4,17 @@ SUBDIR = contest releases stats
 PHP_FILES := download-* index features libvlc screenshots skineditor skineditor_update \
              skins skins_upload streaming \
              index.fr index.de index.ru index.tr index.hi index.cs index.he \
-             index.ja index.pl index.wa index.gd index.zh \
+             index.ja index.pl index.wa index.gd index.zh index.nb \
              download-windows.fr download-windows.de download-windows.ru \
              download-windows.tr download-windows.hi download-windows.cs \
              download-windows.he download-windows.ja download-windows.pl \
              download-windows.wa download-windows.gd download-windows.zh \
+             download-windows.nb \
              download-macosx.fr download-macosx.de download-macosx.ru \
              download-macosx.tr download-macosx.hi download-macosx.cs \
              download-macosx.he download-macosx.ja download-macosx.pl \
-             download-macosx.wa download-windows.gd download-macosx.zh
+             download-macosx.wa download-windows.gd download-macosx.zh \
+             download-macosx.nb
 
 download-windows.%.php: download-windows.php $(ROOT)/locale/%/LC_MESSAGES/website.po
 	rm -f ./$@ && sed -e "s/language = \"\"/language = \"$*\"/" download-windows.php > ./$@;

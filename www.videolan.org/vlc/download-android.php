@@ -1,16 +1,18 @@
 <?php
-   $title = "VLC media player for Android";
+   $title = "VLC media player for Android&trade;";
    $lang = "en";
    $menu = array( "vlc", "download" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-<h1 class="bigtitle"> VLC media player for <a href="http://android.com/">Android</a></h1>
+<h1 class="bigtitle"> VLC media player for <a href="http://android.com/">Android</a>&trade;</h1>
 
-<h1>VLC for Android beta</h1>
+<h1>VLC for Android&trade; beta</h1>
 
-<p><a href="/vlc/">VLC</a> for Android is in beta stage.</p>
-<p>Packages on the <i>Play Store</i> should be available in the next few days.</p>
+<p><a href="/vlc/">VLC</a> for Android&trade; is in beta stage.</p><br/>
+<div style="margin-left:auto;margin-right:auto;width:172px;">
+    <a href="https://play.google.com/store/search?q=VLC+Mobile+Team"><img src="/images/get_it_on_play_logo_large.png" border="0" /></a>
+</div>
 
    <h1 style='margin-bottom: 12px;'><?php echo _("Features"); ?></h1>
 

@@ -23,7 +23,8 @@
                     <div style="padding-bottom: 8px;"><b>2.0.2</b> is a major update that fixes a lot of regressions of the 2.0.x branch of VLC.</b>
 
                     <div style="padding-bottom: 8px;"><b>2.0.2</b> introduces an important number of features for the MacOS platform, notably
-                        improving the interface, to be on-par with the classic VLC interface, better performance and removal of font cache.</div>
+                        improving the interface, to be on-par with the classic VLC interface, better performance, removal of font cache and 
+                        Retina display support.</div>
 
                     <div style="padding-bottom: 8px;"><b>2.0.2</b> fixes playback on older platforms, like old drivers on Windows XP,
                         PowerPC on OSX or GMA950 on Intel OSX.</div>
@@ -219,11 +220,13 @@ function vlcscreenshot($img,$thumb, $desc){
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>Support for MxPEG files and streams</li>
-                           <li>New features in the Mac OS X interface for more customization.</li>
-                           <li>Numerous fixes in the Qt, the Mac OS and the skins interfaces.</li>
-                           <li>Fixes for HTTP Live Streaming, CDDB, UDP/RTP support.</li>
-                           <li>Security issues <a href="/security/sa1201.html">SA-1201</a> and <a href="/security/sa1202.html">SA-1202</a>.</li>
+                           <li>Rework of the Mac OS X interface</li>
+                           <li>Fix video output for old graphic cards on Windows XP, which are using DirectX</li>
+                           <li>Fix video output on old Macs, notably PowerPC and GMA950 intel Macs.</li>
+                           <li>Support for HiDPI, aka Retina Display</li>
+                           <li>Support for H264 v4l2 devices on Linux</li>
+                           <li>Translations updates and new Scottish Gaelic translation</li>
+
                         </ul>
                     </div>
                 </div>
@@ -233,11 +236,11 @@ function vlcscreenshot($img,$thumb, $desc){
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>Limited support for Bluray discs menus.</li>
-                           <li>Numerous fixes for MKV support.</li>
-                           <li>Fix for splitted RAR files playback.</li>
-                           <li>Numerous fixes for more than 120 bugs.</li>
-                           <li>Codec and 3rd party libraries security updates.</li>
+                            <li>Fixes for splitted RAR, MKV segmented, mp4 and Real media files playback.</li>
+                            <li>Rewrite of the Digital TV module on Windows</li>
+                            <li>Enhancements in HLS, Blu-Ray and various codecs support</li>
+                            <li>Fixes for subtitles auto-detection</li>
+                            <li>Fixes on Qt, skins2 and web interfaces</li>
                         </ul>
                     </div>
                 </div>

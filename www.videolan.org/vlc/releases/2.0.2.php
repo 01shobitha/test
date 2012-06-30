@@ -20,20 +20,18 @@
             <?php image( 'largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?>
             <div style='float: left; width: 500px;'>
                 <div class='projectDescription'>
+                    <div style="padding-bottom: 8px;"><b>2.0.2</b> is a major update that fixes a lot of regressions of the 2.0.x branch of VLC.</b>
+
+                    <div style="padding-bottom: 8px;"><b>2.0.2</b> introduces an important number of features for the MacOS platform, notably
+                        improving the interface, to be on-par with the classic VLC interface, better performance and removal of font cache.</div>
+
+                    <div style="padding-bottom: 8px;"><b>2.0.2</b> fixes playback on older platforms, like old drivers on Windows XP,
+                        PowerPC on OSX or GMA950 on Intel OSX.</div>
+
                     <div style="padding-bottom: 8px;">With faster decoding on multi-core, GPU, and mobile hardware and the ability to open more
-                  formats, notably professional, HD and 10bits codecs, 2.0 is a major upgrade for VLC.
-                         </div>
+                  formats, notably professional, HD and 10bits codecs, 2.0 was a major upgrade for VLC. </div>
 
-                    <div style="padding-bottom: 8px;">Twoflower has a new rendering pipeline for video, with higher quality subtitles,
-                         and new video filters to enhance your videos.</div>
-
-                    <div style="padding-bottom: 8px;">It supports many new devices and BluRay Discs (experimental).
-                        </div>
-
-                    <div style="padding-bottom: 8px;">Completely reworked Mac and Web interfaces and improvements in
-                  the other interfaces make VLC easier than ever to use.</div>
-
-                    <div>Twoflower fixes several hundreds of bugs, in more than 7000 commits from 160 volunteers.</div>
+                    <div>2.0.2 fixes a couple of hundreds of bugs, and adds more than 500 commits on top of 2.0.1.</div>
 
                 </div>
                 <a id='downloadButton' href='#download'>

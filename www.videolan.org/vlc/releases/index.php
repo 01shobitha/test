@@ -24,6 +24,6 @@
 <a href="/vlc/releases/1.1.11.html">VLC 1.1.11</a><br />
 <a href="/vlc/releases/2.0.0.html">VLC 2.0.0</a><br />
 <a href="/vlc/releases/2.0.1.html">VLC 2.0.1</a><br />
-
+<a href="/vlc/releases/2.0.2.html">VLC 2.0.2</a><br />
 
 <?php footer('$Id: news.php 6098 2010-05-26 23:50:46Z jb $'); ?>

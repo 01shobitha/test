@@ -30,42 +30,6 @@
                 <a class='extraInfoLink' href='/vlc/skins.php'><?php echo _("Skins"); ?></a>
                 <?php downloadButton(); ?>
             </div>
-                <?php
-                if ( $language == "fr") /* 01net temporary HACK*/
-                {
-                    echo '<style type="text/css">
-                            #cssbubble, #cssbubble2 {
-                               text-align: center;
-                               width: 420px; height: 35px;
-                               padding: 15px 0px 0px 6px;
-                               background: #eee;
-                               border-color: grey;
-                               border-radius: 10px;
-                               box-shadow: 1px 2px 3px #ccc;
-                            }
-                            #cssbubble2 {
-                               width: 100px; height: 30px;
-                               position: relative; top: -8px; left: 326px;
-                               border-radius: 0px 0px 10px 10px;
-                               padding: 0; 
-                            }
-                            #cssbubble a { border: 1px solid #aaa; background: #fff; }
-                            #cssbubble a:hover { color: white; background: #F48B00; }
-                        </style>';
-                    function link01net($href,$texte){
-                    echo "<a href='$href' style='margin: 4px 6px; padding: 4px; border-radius: 3px; text-decoration: none; '>$texte</a>"; }
-
-                    echo '<div id="01net" style="clear: both; margin-left:450px; font-size: 16px; padding-top: 35px;">';
-                    echo '<div id="cssbubble">';
-                    link01net("http://www.01net.com/motscles/22728/astuce-vlc/","Trucs et Astuces");
-                    link01net("http://www.01net.com/editorial/561076/vlc-2-0-le-grand-guide-en-video/", "Guide Vidéo");
-                    link01net("http://www.01net.com/motscles/23148/video-vlc/","Tutoriels Vidéos");
-                    echo '</div>';
-                    echo '<div id="cssbubble2"><p style="padding: 4px 10px">';
-                    image( "logo01net.png", "01net" ); echo '</p></div>';
-                    echo '</div>';
-                } ?>
-
         </div>
 
         <div class="clearme" style='padding-top: 30px;'>

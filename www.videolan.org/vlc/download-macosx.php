@@ -11,24 +11,10 @@
 
 <div id="left">
 
-<!--
-<h2>Looking for more Mac OS X developers</h2>
-<p> We are currently looking for more developers for the Mac OS X port of VLC.
-Needed skills are C-knowledge and some experience in programming for Mac OS X
-by using Cocoa and Xcode.
-Know-how on programming A/V applications will probably make the work easier
-for you, but is not essential.
-</p>
-<p>If you would like to join the project, feel free to send us an e-mail
-to the <a href="/developers/lists.html">vlc-devel mailing list</a>
-or to contact us through our <a href="http://forum.videolan.org/viewtopic.php?t=3675&amp;start=0&amp;postdays=0&amp;postorder=asc&amp;highlight=">forum</a>.
-</p>
--->
-
 <?php
 $vlc_version = "1.0.5";
-$vlc_version_ppc = "2.0.1";
-$vlc_version_intel = "2.0.1";
+$vlc_version_ppc = "2.0.2";
+$vlc_version_intel = "2.0.2";
 ?>
 
 <h1>Download latest VLC for Mac OS X 10.5 and later</h1>
@@ -36,14 +22,13 @@ $vlc_version_intel = "2.0.1";
 
 <?php
 pkgitem_sf( "32/64 bits Intel Mac, $vlc_version_intel",
-    "$vlc_version_intel/macosx","vlc-$vlc_version_intel.dmg",        "vlc", "dmg package", "afd3f48b10f7be68666f48719647a2b2");
+    "$vlc_version_intel/macosx","vlc-$vlc_version_intel.dmg",        "vlc", "dmg package", "23e1b5cdc751043352eada27b94263fc");
 pkgitem_sf( "32 bits Intel Mac, $vlc_version_intel",
-    "$vlc_version_intel/macosx","vlc-$vlc_version_intel-intel32.dmg","vlc", "dmg package", "06b91a3871179ce973c9233f5e2bb952");
+    "$vlc_version_intel/macosx","vlc-$vlc_version_intel-intel32.dmg","vlc", "dmg package", "b4ce589cbc9c6a37b5b2be6658be332c");
 pkgitem_sf( "64 bits Intel Mac, $vlc_version_intel",
-    "$vlc_version_intel/macosx","vlc-$vlc_version_intel-intel64.dmg","vlc", "dmg package", "791d347824f8b36bcb9506a285175d16");
-
+    "$vlc_version_intel/macosx","vlc-$vlc_version_intel-intel64.dmg","vlc", "dmg package", "e1b62f9e93650b300192a71ea3524cb9");
 pkgitem_sf( "PowerPC Mac, $vlc_version_intel",
-    "$vlc_version_ppc/macosx","vlc-$vlc_version_ppc-powerpc.dmg",    "vlc", "dmg package", "6314062fea0e1c36112fbe7c8a97ae72"); ?>
+    "$vlc_version_ppc/macosx","vlc-$vlc_version_ppc-powerpc.dmg",    "vlc", "dmg package", "5cc96f3f21486fd53abe2f57a0669f54"); ?>
 
 
 <div class="clearme"> </div>

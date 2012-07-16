@@ -1,17 +1,17 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR jb
+# Czech translation
+# Copyright (C) 2012 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
 # Tomáš Chvátal <tomas.chvatal@gmail.com>, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: vlc-trans\n"
-"Report-Msgid-Bugs-To: https://github.com/yarons/vlc-heb/issues\n"
+"Project-Id-Version: VLC - Trans\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-04-03 15:48+0200\n"
-"PO-Revision-Date: 2012-04-08 08:29+0000\n"
+"PO-Revision-Date: 2012-06-01 18:58+0000\n"
 "Last-Translator: Tomáš Chvátal <tomas.chvatal@gmail.com>\n"
-"Language-Team: Czech (http://www.transifex.net/projects/p/vlc-trans/language/cs/)\n"
+"Language-Team: Czech (http://www.transifex.com/projects/p/vlc-trans/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -30,11 +30,11 @@ msgstr "nezisková organizace"
 msgid ""
 "composed of volunteers, developing and promoting free, open-source "
 "multimedia solutions."
-msgstr "skládající se z dobrovolníků vyvíjejících, a propagujících, svobodná (s otevřeným kódem) multimediální řešení."
+msgstr "skládající se z dobrovolníků vyvíjejících a propagujících svobodná (s otevřeným kódem) multimediální řešení."
 
 #: include/header.php:114
 msgid "DONATE"
-msgstr "PŘISPĚT"
+msgstr "DAROVAT"
 
 #: include/header.php:114
 msgid "why?"
@@ -42,7 +42,7 @@ msgstr "proč?"
 
 #: include/header.php:128 include/header.php:142
 msgid "donate"
-msgstr "přispět"
+msgstr "darovat"
 
 #: include/header.php:161
 msgid "Home"
@@ -112,7 +112,7 @@ msgstr "Všechny projekty"
 
 #: include/header.php:210 index.php:126
 msgid "Contribute"
-msgstr "Přispívejte"
+msgstr "Přispívat"
 
 #: include/header.php:212 include/header.php:290
 msgid "Donate time"
@@ -167,7 +167,7 @@ msgid ""
 "VLC is a free and open source cross-platform multimedia player and framework"
 " that plays most multimedia files as well as DVD, Audio CD, VCD, and various"
 " streaming protocols."
-msgstr "VLC je svobodný multiplatformní multimediální přehrávač a framework s otevřeným zdrojovým kódem, který přehraje většinu multimediálních souborů, DVD, Zvukových CD, VCD a různých proudových protokolů."
+msgstr "VLC je svobodný multiplatformní multimediální přehrávač a framework s otevřeným zdrojovým kódem, který přehraje většinu multimediálních souborů, DVD, zvukových CD, VCD a různých proudových protokolů."
 
 #: index.php:31 vlc/index.php:25
 msgid "Download VLC"
@@ -231,7 +231,7 @@ msgstr "Pomožte nám!"
 
 #: index.php:114
 msgid "Donate"
-msgstr "Přispět"
+msgstr "Darovat"
 
 #: index.php:118
 msgid "VideoLAN is a non-profit organization."
@@ -255,7 +255,7 @@ msgstr "VideoLAN je software s otevřeným zdrojovým kódem."
 msgid ""
 "This means that if you have the skill and the desire to improve one of our "
 "products, your contributions are welcome"
-msgstr "To znamená, že pokud máte schopnosti a touhu vylepšovat jeden z našich produktů, tak jsou Vaše příspěvky vítány"
+msgstr "To znamená, že pokud máte schopnosti a touhu vylepšovat jeden z našich produktů, tak jsou Vaše příspěvky vítány."
 
 #: index.php:138
 msgid "Spread the Word"
@@ -338,4 +338,3 @@ msgstr "zdrojový kód"
 #: vlc/index.php:126
 msgid "Other OS"
 msgstr "Jiný OS"
-

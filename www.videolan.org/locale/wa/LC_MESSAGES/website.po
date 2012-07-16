@@ -1,16 +1,16 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR jb
+# Walloon translation
+# Copyright (C) 2012 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
-"Report-Msgid-Bugs-To: https://github.com/yarons/vlc-heb/issues\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-04-03 15:48+0200\n"
 "PO-Revision-Date: 2012-05-01 15:54+0000\n"
 "Last-Translator: Gaytan <gaytan@skynet.be>\n"
-"Language-Team: Walloon (http://www.transifex.net/projects/p/vlc-trans/language/wa/)\n"
+"Language-Team: Walloon (http://www.transifex.com/projects/p/vlc-trans/language/wa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -143,7 +143,7 @@ msgstr "Djåspinreyes"
 
 #: include/header.php:226
 msgid "Report a bug"
-msgstr "Fijhoz on rapoirt di bug"
+msgstr "Fijhoz on rapoirt di bug"
 
 #: include/header.php:230
 msgid "Dev' Zone"
@@ -159,7 +159,7 @@ msgstr "Soeyoz  egadjî"
 
 #: index.php:3
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
-msgstr "VLC: Site oficir - Des rexhowes multimedia libes po tos les SO!"
+msgstr "VLC: Site oficir - Des rexhowes multimedia libes po tos les SO!"
 
 #: index.php:24 vlc/index.php:18
 msgid ""
@@ -244,7 +244,7 @@ msgstr " Totes nos costindjes sont covierts pa les dons ki nos riçuvans da nos 
 
 #: index.php:121 index.php:133 index.php:144
 msgid "Learn More"
-msgstr "Kinoxhe pus"
+msgstr "Kinoxhe pus"
 
 #: index.php:130
 msgid "VideoLAN is open-source software."
@@ -280,7 +280,7 @@ msgstr "Media sociå"
 
 #: vlc/index.php:3
 msgid "Official page for VLC media player, the Open Source video framework!"
-msgstr "Pådje oficire do djouweu d' media VLC, l' evironmint videyo libe."
+msgstr "Pådje oficire do djouweu d' media VLC, l' evironmint videyo libe."
 
 #: vlc/index.php:38
 msgid "Simple, fast and powerful media player."
@@ -300,7 +300,7 @@ msgstr "Enonde so totes les platfômes"
 
 #: vlc/index.php:47
 msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
-msgstr "Totafwait po rén, 0 spyware, 0 reclames et nén d' shuvaedje des uzeus."
+msgstr "Totafwait po rén, 0 spyware, 0 reclames et nén d' shuvaedje des uzeus."
 
 #: vlc/index.php:49
 msgid "Can do Media Convertion and Streaming."
@@ -332,8 +332,8 @@ msgstr "Vos ploz eto aveur direk li"
 
 #: vlc/index.php:105
 msgid "source code"
-msgstr "côde sourdant"
+msgstr "côde sourdant"
 
 #: vlc/index.php:126
 msgid "Other OS"
-msgstr "Ôtes SO"
+msgstr "Ôtes SO"

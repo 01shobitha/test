@@ -1,66 +1,61 @@
-      Description peu technique de libdvdcss (v2.1)
+      Non-technical description of libdvdcss (v2.1)
 
 
-   libdvdcss est une bibliothèque de fonctions. Un programme peut
- utiliser libdvdcss pour exploiter le contenu d'un DVD.
+   libdvdcss is a library that computer programs can use to access the
+contents of a DVD.
 
 
-    1/ Les « zones » DVD
+    1/ DVD zones
 
-   Tous les DVD et tous les lecteurs distribués dans le commerce
- comportent une information de « zone ». Ces informations combinées
- visent à limiter les pays dans lesquels peuvent être utilisés ces DVD
- et ces lecteurs. Il faut que les zones correspondent entre DVD et
- lecteur.
-
-
-    2/ Le CSS
-
-   Le CSS (Content Scrambling System, système de brouillage du contenu)
- protège la grande majorité des DVD du commerce.
-   Les éditeurs de logiciels de lecture de DVD achètent au DVD CCA (DVD
- Copy Control Association) des clés leur permettant de décrypter le
- CSS. Ils obtiennent en même temps les instructions d'utilisation du
- CSS, tenues secrètes.
-   À l'aide de sa clé, et durant toute la lecture du DVD, un logiciel
- dialogue avec le lecteur de DVD pour obtenir les informations de
- décryptage.
+   All DVDs and commercially distributed readers include some information
+about their zone. When a DVD is put into a DVD reader, the information is
+compared, in order to limit the number of countries where they can be used.
+The DVD zone and the reader's zone should match.
 
 
-    3/ La copie de DVD
+    2/ CSS
 
-   Les systèmes présentés ne protègent pas de la copie de DVD. À l'aide
- d'un équipement adéquat on peut réaliser une copie physique du média
- (souvent appelée « bit à bit ») qui sera exploitable de la même façon.
-   De plus, puisque le média doit être décrypté par le logiciel de
- lecture pour être affiché à l'écran, le contenu décrypté du média sera
- accessible durant la lecture - quel que soit le système employé.
-
-
-    4/ Les faiblesses de CSS
-
-   CSS a été l'objet d'études universitaires qui ont, par
- rétro-analyse, découvert son fonctionnement ainsi que l'algorithme de
- brouillage employé.
-   Ces études ont ensuite montré que les clés utilisées par CSS sont
- très faibles sur le plan cryptographique, ce qui a conduit à des
- algorithmes plus efficaces de décryptage et de découverte des clés. Il
- est possible d'en obtenir une liste exhaustive en quelques minutes sur
- un ordinateur de bureau moderne.
+   CSS (Content Scrambling System) protects most commercial DVDs.  Writers
+of DVD reader programs obtain keys by purchasing them from the DVD CCA (DVD
+Copy Control Association) which will permit them to decrypt CSS-protected
+DVDs. They also get instructions on how to use CSS, which are kept secret
+under a confidentiality agreement.  When a program reads a DVD, it
+communicates with the DVD reader all the while, in order to get the
+decryption information with the help of the key.
 
 
-    5/ Le fonctionnement de libdvdcss
+    3/ Copying DVDs
 
-   La liste des clés du CSS est donc parfaitement connue, et un
- échantillon de celle-ci est distribué avec libdvdcss.
-   libdvdcss adopte le même comportement qu'un logiciel de lecture de
- DVD en utilisant une clé de cet échantillon. Si toutes les clés de
- l'échantillon échouent, libdvdcss cherche mathématiquement l'ensemble
- des clés et les essaye.
+   The present systems do not prevent the copying of DVDs. With the right
+equipment, a perfect physical copy of the media can be made (often called a
+'bit by bit') which will be possible to exploit in the same way.
+Furthermore, since the media must be decrypted by the reading program in
+order to appear on the screen, the decrypted content of the media will be
+accessible while it is being viewed - whatever the equipment used.
 
-   Il est possible que tout cela échoue, en particulier dans le cas
- où DVD et lecteur ne sont pas dans la même zone. En dernier recours,
- libdvdcss passe outre l'intégralité du système et décrypte le flux
- brouillé directement en exploitant la faiblesse cryptographique de CSS.
+
+    4/ Weaknesses of CSS
+
+   CSS has been the subject of academic studies which have, through reverse
+engineering, uncovered how it works and the encryption algorithm it uses.
+These studies also show that the keys used by CSS are extremely weak from a
+cryptographic (code-breaking) approach, which has led to more effective
+decryption algorithms and the discovery of keys.  It is possible to obtain
+a complete list of keys in a few minutes on an ordinary desktop computer.
+
+
+    5/ How libdvdcss works
+
+   The list of CSS keys is therefore perfectly well known, and a sample of
+these keys is distributed with libdvdcss.  The libdvdcss library operates
+in a similar manner to a DVD reader program, by using a key to decode the
+contents, except that libdvdcss uses a key from the sample. If all of the
+sample keys fail, then libdvdcss computes the rest of the key set and tries
+each of them.
+
+   This might still not work, particularly if the DVD and the reader are
+not from the same zone. As a last resort, libdvdcss will step outside of
+the whole DVD/reader system and will decrypt the encoded stream directly,
+exploiting weaknesses in the CSS encryption.
 
 

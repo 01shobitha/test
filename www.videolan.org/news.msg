@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|19 July 2012|VLC 2.0.3|VideoLAN and the VLC development are proud to present a minor update adding support for OS X Mountain Lion as well as improving VLC's overall stability on OS X. Additionally, this version includes updates for 18 translations and adds support for Uzbek and Marathi. For MS Windows, VLC 2.0.2 remains the latest release.
+
 |1 July 2012|VLC 2.0.2|After more than 100 million downloads of VLC 2.0 versions, VideoLAN and the VLC development team present the third version of "Twoflower", a major update that fixes a lot of regressions in this branch.<br />It introduces an important number of features for the Mac OS X platform, notably interface improvements to be on-par with the classic VLC interface, better performance and Retina Display support. VLC 2.0.2 fixes the video playback on older devices both on MS Windows and Mac OS X, includes overall performance improvements and fixes for a couple of hundreds of bugs.<br />More info in <a href="/vlc/releases/2.0.2.html">the release notes</a>.
 
 |4 June 2012|World IPv6 Launch|The VideoLAN organization is taking part in the <a href="http://www.worldipv6launch.org">World IPv6 launch</a> on June 6. All services including the website, the forums, the bugtracker and the git server are now accessible via IPv6.

@@ -12,9 +12,9 @@
 <div id="left">
 <h2>Tarballs</h2>
 
-<p> Latest VLC source code tarball (2.0.2):</p>
+<p> Latest VLC source code tarball (2.0.3):</p>
 
-<?php pkgitem_nomirr("VLC source code tar.xz", "2.0.2","vlc-2.0.2.tar.xz","vlc", "source package", "93e729cc970a4535b3213dbef0e69528"); ?>
+<?php pkgitem_nomirr("VLC source code tar.xz", "2.0.3","vlc-2.0.3.tar.xz","vlc", "source package", "a7e79565e3df07dcf9abc6cad3ac26bb"); ?>
 
 <h2 style="clear: both;"> Required libraries: </h2>
 <a href="ftp://ftp.videolan.org/pub/videolan/contrib/">Contrib libraries tarballs</a>

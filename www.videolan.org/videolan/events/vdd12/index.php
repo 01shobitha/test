@@ -18,12 +18,12 @@
 <p><a href="http://www.mines-telecom.fr/en_accueil.html" alt="Institut Mines Telecom"><img src="http://www.mines-telecom.fr/images/imt12/logo.png" /></a></p>
 <?php panel_end(); ?>
 
-<?php /*
+<?php
 <?php panel_start( "blue" ); ?>
 <h2>Register!</h2>
-<a href="/contact.html">Register <strong>now!</strong></a>
+<a href="http://goo.gl/QRMsb">Register <strong>now!</strong></a>
 <?php panel_end(); ?>
- */ ?>
+
 <?php panel_start( "green" ); ?>
 <h2>Past editions</h2>
 <a href="/videolan/events/">Past VDD</a>
@@ -178,7 +178,7 @@ Un point sur la situation. Assemblée générale ordinaire, extra-ordinaire et r
 
 <h1>Registration</h1>
 <p>Except for the Friday Beer Event, <strong>Registration</strong> is <strong>mandatory</strong>.</p>
-<p>Registration are not opened yet.</p>
+<a href="http://goo.gl/QRMsb">Register now!</a>
 
 <h1>Hotel</h1>
 <p>If you got an hotel reserved by the team, it will be

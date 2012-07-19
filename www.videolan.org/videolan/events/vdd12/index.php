@@ -18,7 +18,6 @@
 <p><a href="http://www.mines-telecom.fr/en_accueil.html" alt="Institut Mines Telecom"><img src="http://www.mines-telecom.fr/images/imt12/logo.png" /></a></p>
 <?php panel_end(); ?>
 
-<?php
 <?php panel_start( "blue" ); ?>
 <h2>Register!</h2>
 <a href="http://goo.gl/QRMsb">Register <strong>now!</strong></a>

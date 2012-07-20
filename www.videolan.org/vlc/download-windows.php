@@ -12,17 +12,17 @@
 <h1 class="bigtitle"> VLC media player for Windows </h1>
 <div id="left">
 
-<?php $vlc_version = '2.0.2'; ?>
+<?php $vlc_version = '2.0.3'; ?>
 <h1>Download latest VLC - <?php echo $vlc_version; ?></h2>
 <p>VLC currently supports <b>Windows XP SP2, Vista and 7</b>.</p>
 
 <?php
     pkgitem_sf("Installer package",
-                   "$vlc_version/win32","vlc-$vlc_version-win32.exe","vlc", "Exe installer",         "fa2aeb6e70b6c6bb576c7576179b64ff") ;
+                   "$vlc_version/win32","vlc-$vlc_version-win32.exe","vlc", "Exe installer",         "ba39d5def71d5193ade6bfb24672a487") ;
     pkgitem_sf("7zip package",
-                  "$vlc_version/win32","vlc-$vlc_version-win32.7z",  "vlc", "(No installer needed)", "1d1ac0907121d293cf286fd9e6f1f325" );
+                  "$vlc_version/win32","vlc-$vlc_version-win32.7z",  "vlc", "(No installer needed)", "6663305708646ed7177d14dc48238f6e" );
     pkgitem_sf("Zip package",
-                  "$vlc_version/win32","vlc-$vlc_version-win32.zip", "vlc", "(No installer needed)", "9f6cd95968bc656273f0ef2748bc81e6" );
+                  "$vlc_version/win32","vlc-$vlc_version-win32.zip", "vlc", "(No installer needed)", "e6faf4f33b32688ef9fbe8d6d71f7a8f" );
 ?>
 
    <div class="clearme"> </div>

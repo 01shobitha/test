@@ -1,7 +1,7 @@
 <?php
-$win32version = '2.0.2';
+$win32version = '2.0.3';
 $macosxversion = '2.0.3';
-$version = '2.0.2';
+$version = '2.0.3';
 
 $dlUrl = "http://sourceforge.net/projects/vlc/files/$win32version/win32/vlc-$win32version-win32.exe/download";
 

@@ -5,7 +5,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-<h1>VideoLAN Dev Days 2012 </h1>
+<h1>VideoLAN Dev Days 2012 </h1><br/>
 <h3>The Open Multimedia Conference that frees the cone in you! </h3>
 
 <div id="sidebar">
@@ -34,14 +34,13 @@
 </div>
 
 
-<p>The <a href="/videolan/">VideoLAN non-profit organisation</a> is happy to
-invite you to the multimedia open-source event of the end of summer: </p>
-<div style="font-weight: bold; font-size: 1.8em; margin: 2px 100px 14px; color: green;">VideoLAN Dev Days '12</div>
+<p><b>The <a href="/videolan/">VideoLAN non-profit organisation</a> is happy to
+invite you to the multimedia open-source event of the end of summer!</b></p><br/>
 
 <p>For its <b>fourth edition</b>, people from the VideoLAN and open source multimedia community will meet in
- <strong>Paris</strong> to gather, work, discuss and meet, on the <strong>1st and 2nd of September 2012</strong>.</p>
+ <strong>Paris, France</strong> to gather, work, discuss and meet, on the <strong>1st and 2nd of September 2012</strong>.</p>
 <p>This technical event is focused on technical discussions and decisions about <b>multimedia</b>, and is focused to a technical crowd.</p>
-<p>Like the previous years, an important number of developers from <a href="/developers/x264.html">x264</a>, <a href="http://www.ffmpeg.org/">FFmpeg</a>, <a href="http://libav.org/">Libav</a> and KDE will join us!<br />
+<p>Like the previous years, an important number of developers from <a href="/developers/x264.html">x264</a>, <a href="http://www.ffmpeg.org/">FFmpeg</a>, <a href="http://libav.org/">Libav</a> and KDE will join us!
 Developers, designers and anonymous people around <a href="/vlc/">VLC</a>, <a href="/projects/dvblast.html">DVBlast</a>, VLMa, skin-designer or other multimedia projects will be there too.</p>
 
 <h1>Who can come? </h1>
@@ -53,7 +52,7 @@ Developers, designers and anonymous people around <a href="/vlc/">VLC</a>, <a hr
 <p>Be careful to enter by the <em>49, rue Vergniaud</em> entrance.</p>
 
 <h1>Cost and sponsorship </h1>
-<p>The cost for attendance is free.</p>
+<p>The cost for attendance is <b>free</b>.</p>
 <p>Like previous years, active developers can get a full sponsorship covering all the costs for the venue.</p>
 
 <h1>FOMS</h1>
@@ -176,14 +175,14 @@ Un point sur la situation. Assemblée générale ordinaire, extra-ordinaire et r
  */ ?>
 
 <h1>Registration</h1>
-<p>Except for the Friday Beer Event, <strong>Registration</strong> is <strong>mandatory</strong>.</p>
-<a href="http://goo.gl/QRMsb">Register now!</a>
+<p>Except for the Friday Beer Event, <strong>registration</strong> is <strong>mandatory</strong>!</p>
+&#10149; <a href="http://goo.gl/QRMsb">Register here and now</a>
 
 <h1>Hotel</h1>
 <p>If you got an hotel reserved by the team, it will be
  <a href="http://www.ibishotel.com/gb/hotel-5543-ibis-paris-avenue-d-italie-13eme/index.shtml">Hotel ibis Paris Avenue d'Italie 13ème</a>
 
-<h2><a name="location">Venue at Institut Telecom</a> </h2>
+<h1><a name="location">Venue at Institut Telecom</a> </h1>
 <p>Be careful to enter by the <em>49, rue Vergniaud</em> entrance, as shown on the photo.</p>
 <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?q=49+rue+vergniaud+75013+paris&amp;layer=c&amp;sll=48.826545,2.345471&amp;cbp=13,101.2,,0,6.74&amp;cbll=48.826434,2.345356&amp;hl=fr&amp;sspn=0.005382,0.016512&amp;ie=UTF8&amp;hq=&amp;hnear=49+Rue+Vergniaud,+75013+Paris,+%C3%8Ele-de-France,+France&amp;ll=48.826545,2.345388&amp;spn=0.006738,0.016512&amp;z=14&amp;vpsrc=0&amp;panoid=BdbmgzcvtEf0pvAUmsfh9g&amp;source=embed&amp;output=svembed"></iframe><br /><small><a href="http://maps.google.com/maps?q=49+rue+vergniaud+75013+paris&amp;layer=c&amp;sll=48.826545,2.345471&amp;cbp=13,101.2,,0,6.74&amp;cbll=48.826434,2.345356&amp;hl=fr&amp;sspn=0.005382,0.016512&amp;ie=UTF8&amp;hq=&amp;hnear=49+Rue+Vergniaud,+75013+Paris,+%C3%8Ele-de-France,+France&amp;ll=48.826545,2.345388&amp;spn=0.006738,0.016512&amp;z=14&amp;vpsrc=0&amp;panoid=BdbmgzcvtEf0pvAUmsfh9g&amp;source=embed" style="color:#0000FF;text-align:left">Agrandir le plan</a></small>
 

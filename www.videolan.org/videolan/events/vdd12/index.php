@@ -183,6 +183,13 @@ Un point sur la situation. Assemblée générale ordinaire, extra-ordinaire et r
  <a href="http://www.ibishotel.com/gb/hotel-5543-ibis-paris-avenue-d-italie-13eme/index.shtml">Hotel ibis Paris Avenue d'Italie 13ème</a>
 
 <h1><a name="location">Venue at Institut Telecom</a> </h1>
+<p>Public transportation:
+<ul>
+<li><img src="http://images.videolan.org/images/subway-paris.png"/> <b>7</b>: Tolbiac</li>
+<li><img src="http://images.videolan.org/images/subway-paris.png"/> <b>6</b>: Corvisart</li>
+<li><img src="http://images.videolan.org/images/rer-paris.png"/> <b>B</b>: Cité Universitaire</li>
+</ul>
+</p>
 <p>Be careful to enter by the <em>49, rue Vergniaud</em> entrance, as shown on the photo.</p>
 <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?q=49+rue+vergniaud+75013+paris&amp;layer=c&amp;sll=48.826545,2.345471&amp;cbp=13,101.2,,0,6.74&amp;cbll=48.826434,2.345356&amp;hl=fr&amp;sspn=0.005382,0.016512&amp;ie=UTF8&amp;hq=&amp;hnear=49+Rue+Vergniaud,+75013+Paris,+%C3%8Ele-de-France,+France&amp;ll=48.826545,2.345388&amp;spn=0.006738,0.016512&amp;z=14&amp;vpsrc=0&amp;panoid=BdbmgzcvtEf0pvAUmsfh9g&amp;source=embed&amp;output=svembed"></iframe><br /><small><a href="http://maps.google.com/maps?q=49+rue+vergniaud+75013+paris&amp;layer=c&amp;sll=48.826545,2.345471&amp;cbp=13,101.2,,0,6.74&amp;cbll=48.826434,2.345356&amp;hl=fr&amp;sspn=0.005382,0.016512&amp;ie=UTF8&amp;hq=&amp;hnear=49+Rue+Vergniaud,+75013+Paris,+%C3%8Ele-de-France,+France&amp;ll=48.826545,2.345388&amp;spn=0.006738,0.016512&amp;z=14&amp;vpsrc=0&amp;panoid=BdbmgzcvtEf0pvAUmsfh9g&amp;source=embed" style="color:#0000FF;text-align:left">Agrandir le plan</a></small>
 

@@ -16,10 +16,10 @@ function replaceDLinfos( )
     <?php
     echo "
     var windowsDetails = {'name': 'Windows', 'size': '22&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$win32version/win32/vlc-$win32version-win32.exe/download'};
-    var osxDetails     = {'name': 'Mac OS X', 'size': '41&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$macosxversion/macosx/vlc-$macosxversion.dmg/download' };
-    var osx32Details   = {'name': 'Mac OS X (32bit)', 'size': '25&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$macosxversion/macosx/vlc-$macosxversion-intel.dmg/download' };
-    var osx64Details   = {'name': 'Mac OS X (64bit)', 'size': '26&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$macosxversion/macosx/vlc-$macosxversion-intel64.dmg/download' };
-    var osxPPCDetails  = {'name': 'Mac OS X (PPC)', 'size': '24&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$macosxversion/macosx/vlc-$macosxversion-powerpc.dmg/download' };"; ?>
+    var osxDetails     = {'name': 'Mac OS X', 'size': '43&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$macosxversion/macosx/vlc-$macosxversion.dmg/download' };
+    var osx32Details   = {'name': 'Mac OS X (32bit)', 'size': '26&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$macosxversion/macosx/vlc-$macosxversion-intel.dmg/download' };
+    var osx64Details   = {'name': 'Mac OS X (64bit)', 'size': '27&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$macosxversion/macosx/vlc-$macosxversion-intel64.dmg/download' };
+    var osxPPCDetails  = {'name': 'Mac OS X (PPC)', 'size': '25&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$macosxversion/macosx/vlc-$macosxversion-powerpc.dmg/download' };"; ?>
     var linuxDetails   = {'name': 'Linux', 'size': '', 'location': '/vlc/#download'};
     var debianDetails  = {'name': 'Debian GNU/Linux', 'size': '', 'location': '/vlc/download-debian.html'};
     var ubuntuDetails  = {'name': 'Ubuntu Linux', 'size': '', 'location': 'apt://vlc'};

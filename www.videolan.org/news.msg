@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|1 August 2012|Updated 2.0.3 builds for Mac OS X|A small number of users on specific setups experienced audio issues with the latest version of VLC media player for Mac OS X. If you are affected, please download VLC again and replace the existing installation. If you're not, there is nothing to do.
+
 |19 July 2012|VideoLAN at FISL|Next week, we will give <a href="http://fisl.org.br/13/papers_ng/public/fast_grid?event_id=3">two talks</a> about VideoLAN and VLC media player at the <a href="http://softwarelivre.org/fisl13">13° Fórum Internacional Software Livre</a> in Porto Alegre, Brazil. This is the first time VideoLAN members attend a conference in South America. We are looking forward to it and hope to see you around.
 
 |19 July 2012|VLC 2.0.3|VideoLAN and the VLC development are proud to present a minor update adding support for OS X Mountain Lion as well as improving VLC's overall stability on OS X. Additionally, this version includes updates for 18 translations and adds support for Uzbek and Marathi. For MS Windows, you can update manually if you need the translation updates.

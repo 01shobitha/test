@@ -97,21 +97,25 @@ cooperation of our partners, on both technical and financial sides: </p>
 
   </tr>
 
-  <tr><td colspan="2"><h2> Puget Systems </h2></td></tr>
+ <tr>
+    <td colspan="2">
+        <h2> École Centrale Paris</h2>
+    </td>
+  </tr>
   <tr>
     <td>
-        <p class="center"><a href="http://www.pugetsystems.com/"><img
-        src="http://images.videolan.org/images/partners/puget.jpg" width="189" alt="Puget" height="88" /></a></p>
+        <p class="center"><a href="http://www.ecp.fr/"><img
+        src="http://images.videolan.org/images/partners/logoECP.png" width="100" alt="ECP" height="80" /></a></p>
     </td>
     <td>
 
-    <p><a href="http://www.pugetsystems.com/">Puget Systems</a> donated an <a href="http://www.pugetsystems.com/nav/echo/II/customize.php">Echo II</a>
-       to the project to aid in development of GPU acceleration on Intel graphics.<br />
-       Puget Systems is well known for their <a href="http://www.pugetsystems.com/quiet.php">quiet computers</a>, exceptional <a href="http://www.pugetsystems.com/feedback.php">customer service</a>,
-       and the ever popular <a href="http://www.pugetsystems.com/aquarium-computer.php">Aquarium Computer</a>.
-       They offer custom built computers from <a href="http://www.pugetsystems.com/gaming.php">gaming</a> and <a href="http://www.pugetsystems.com/desktop.php">desktop</a>,
-       to <a href="http://www.pugetsystems.com/liquid.php">liquid cooled</a> and <a href="http://www.pugetsystems.com/go/trading.php">trading computers</a>.
-    </p>
+        <p>The <a href="http://www.ecp.fr/">École Centrale Paris</a> and
+        it's <a href="http://www.msio.ecp.fr/">Master in Open Information
+        System</a> are historic partners of the project. The Master in Open
+        Information System aims to enable the student to acquire a real
+        competence in the field of Open Computing Systems and supports
+        VideoLAN as a key developement project. </p>
+
     </td>
   </tr>
 
@@ -150,6 +154,24 @@ Marketing Europe GmbH, borrowed us a SC-XH150 setup consisting of a S/PDIF input
     </td>
   </tr>
 
+  <tr><td colspan="2"><h2> Puget Systems </h2></td></tr>
+  <tr>
+    <td>
+        <p class="center"><a href="http://www.pugetsystems.com/"><img
+        src="http://images.videolan.org/images/partners/puget.jpg" width="189" alt="Puget" height="88" /></a></p>
+    </td>
+    <td>
+
+    <p><a href="http://www.pugetsystems.com/">Puget Systems</a> donated an <a href="http://www.pugetsystems.com/nav/echo/II/customize.php">Echo II</a>
+       to the project to aid in development of GPU acceleration on Intel graphics.<br />
+       Puget Systems is well known for their <a href="http://www.pugetsystems.com/quiet.php">quiet computers</a>, exceptional <a href="http://www.pugetsystems.com/feedback.php">customer service</a>,
+       and the ever popular <a href="http://www.pugetsystems.com/aquarium-computer.php">Aquarium Computer</a>.
+       They offer custom built computers from <a href="http://www.pugetsystems.com/gaming.php">gaming</a> and <a href="http://www.pugetsystems.com/desktop.php">desktop</a>,
+       to <a href="http://www.pugetsystems.com/liquid.php">liquid cooled</a> and <a href="http://www.pugetsystems.com/go/trading.php">trading computers</a>.
+    </p>
+    </td>
+  </tr>
+
   <tr><td colspan="2"><h2> Epitech </h2></td></tr>
   <tr>
     <td>
@@ -180,28 +202,6 @@ Marketing Europe GmbH, borrowed us a SC-XH150 setup consisting of a S/PDIF input
         to send camera video to mobile devices.<br/>
         They helped us porting VLC media player to Windows Mobile and sponsored our first DevDays in 2008.
     </p>
-    </td>
-  </tr>
-
- <tr>
-    <td colspan="2">
-        <h2> École Centrale Paris</h2>
-    </td>
-  </tr>
-  <tr>
-    <td>
-        <p class="center"><a href="http://www.ecp.fr/"><img
-        src="http://images.videolan.org/images/partners/logoECP.png" width="100" alt="ECP" height="80" /></a></p>
-    </td>
-    <td>
-
-        <p>The <a href="http://www.ecp.fr/">École Centrale Paris</a> and
-        it's <a href="http://www.msio.ecp.fr/">Master in Open Information
-        System</a> are historic partners of the project. The Master in Open
-        Information System aims to enable the student to acquire a real
-        competence in the field of Open Computing Systems and supports
-        VideoLAN as a key developement project. </p>
-
     </td>
   </tr>
 

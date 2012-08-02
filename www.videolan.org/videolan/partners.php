@@ -189,22 +189,6 @@ Marketing Europe GmbH, borrowed us a SC-XH150 setup consisting of a S/PDIF input
     </td>
   </tr>
 
-  <tr><td colspan="2"><h2> Uniways </h2></td></tr>
-  <tr>
-    <td>
-        <p class="center"><a href="http://uniways.fr/"><img
-        src="http://images.videolan.org/images/partners/uniways.png" width="150" alt="Uniways" height="88" /></a></p>
-    </td>
-    <td>
-
-    <p><a href="http://uniways.fr/">Uniways</a> is a leading company in
-        videosurveillance systems. They use VLC media player in some products
-        to send camera video to mobile devices.<br/>
-        They helped us porting VLC media player to Windows Mobile and sponsored our first DevDays in 2008.
-    </p>
-    </td>
-  </tr>
-
 
 <!--
   <tr>
@@ -271,6 +255,8 @@ awarded VideoLAN in the <a href="http://www-1.ibm.com/linux/news/ilsc.shtml">Lin
 <p><a href="http://www.idm.fr">I.D.M</a> hired Simon Latapie, a VLC developer, to work on enhancing VideoLAN.</p>
 <p><a href="http://www.lacie.com">Lacie</a> offered the team four DVD burners and a 1.6 Terabytes
 Hard Drive.</p>
+<p><a href="http://uniways.fr/">Uniways</a> was a videosurveillance systems company.
+They helped us porting VLC media player to Windows Mobile and sponsored our first DevDays in 2008.</p>
 
 </div>
 

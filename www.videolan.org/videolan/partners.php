@@ -221,7 +221,7 @@ Marketing Europe GmbH, borrowed us a SC-XH150 setup consisting of a S/PDIF input
   </tr> -->
 </table>
 
-     <h1>Important Donators</h1>
+     <h1>Respected Generous Donators</h1>
 
      <p>We would like to thank all the people who supported the VideoLAN project
          through their remarks, bug reports or donations. We're particularly grateful
@@ -230,6 +230,8 @@ Marketing Europe GmbH, borrowed us a SC-XH150 setup consisting of a S/PDIF input
      companies and institutions who helped VideoLAN.</p>
 
      <ul class="bullets">
+         <li>The global <a href="http://www.aoemedia.de/e-commerce/magento-commerce.html">Magento provider</a> and Open Source company AOE media for donating $500 to the VideoLAN project.</li>
+         <li><strong>Freesecurity</strong>, who made a 540&euro; donation to the VideoLAN project</li>
          <li>The online magazine <a href="http://www.netzwelt.de"><strong>netzwelt.de</strong></a>, which is
          one of the biggest Magazines in Germany, has made a 1&nbsp;000&euro; donation to the VideoLAN
          project.</li>
@@ -240,7 +242,6 @@ Marketing Europe GmbH, borrowed us a SC-XH150 setup consisting of a S/PDIF input
          &euro; to help us buy a PowerMac G5</li>
          <li>The French magazine <strong>à vos MAC</strong> gave 500 &euro; to
          help us buy a PowerMac G5</li>
-         <li><strong>Freesecurity</strong>, who made a 540&euro; donation to the VideoLAN project</li>
      </ul>
 
 <h1> Past Partners </h1>

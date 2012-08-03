@@ -51,3 +51,15 @@ Content-language: gd
 URI: index.nb.html
 Content-type: text/html
 Content-language: nb
+
+URI: index.gl.html
+Content-type: text/html
+Content-language: gl
+
+URI: index.km.html
+Content-type: text/html
+Content-language: km
+
+URI: index.mr.html
+Content-type: text/html
+Content-language: mr

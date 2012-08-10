@@ -11,7 +11,7 @@
 
 <p><a href="/vlc/">VLC</a> for Android&trade; is in beta stage.</p><br/>
 <div style="margin-left:auto;margin-right:auto;width:172px;">
-    <a href="https://play.google.com/store/search?q=VLC+beta"><img src="/images/get_it_on_play_logo_large.png" border="0" /></a>
+    <a href="https://play.google.com/store/apps/details?id=org.videolan.vlc.betav7neon"><img src="/images/get_it_on_play_logo_large.png" border="0" /></a>
 </div>
 
    <h1 style='margin-bottom: 12px;'><?php echo _("Features"); ?></h1>

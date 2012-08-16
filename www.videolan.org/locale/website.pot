@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VideoLAN's websites\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-31 17:43+0200\n"
+"POT-Creation-Date: 2012-08-16 16:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,143 +17,143 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: include/header.php:139
+#: include/header.php:142
 msgid "A project and a"
 msgstr ""
 
-#: include/header.php:139
+#: include/header.php:142
 msgid "non-profit organization"
 msgstr ""
 
-#: include/header.php:140
+#: include/header.php:143
 msgid ""
 "composed of volunteers, developing and promoting free, open-source "
 "multimedia solutions."
 msgstr ""
 
-#: include/header.php:144
+#: include/header.php:147
 msgid "DONATE"
 msgstr ""
 
-#: include/header.php:144
+#: include/header.php:147
 msgid "why?"
 msgstr ""
 
-#: include/header.php:158 include/header.php:172
+#: include/header.php:161 include/header.php:175
 msgid "donate"
 msgstr ""
 
-#: include/header.php:191
+#: include/header.php:194
 msgid "Home"
 msgstr ""
 
-#: include/header.php:194 include/header.php:336
+#: include/header.php:197 include/header.php:339
 msgid "News"
 msgstr ""
 
-#: include/header.php:199 include/header.php:327
+#: include/header.php:202 include/header.php:330
 msgid "Project and Organization"
 msgstr ""
 
-#: include/header.php:200 include/header.php:328
+#: include/header.php:203 include/header.php:331
 msgid "Team"
 msgstr ""
 
-#: include/header.php:201 include/header.php:330
+#: include/header.php:204 include/header.php:333
 msgid "Contact us"
 msgstr ""
 
-#: include/header.php:202 include/header.php:331
+#: include/header.php:205 include/header.php:334
 msgid "Partners"
 msgstr ""
 
-#: include/header.php:203 include/header.php:332
+#: include/header.php:206 include/header.php:335
 msgid "Press center"
 msgstr ""
 
-#: include/header.php:204 include/header.php:333
+#: include/header.php:207 include/header.php:336
 msgid "Events"
 msgstr ""
 
-#: include/header.php:205 include/header.php:334
+#: include/header.php:208 include/header.php:337
 msgid "Security center"
 msgstr ""
 
-#: include/header.php:211
+#: include/header.php:214
 msgid "Download"
 msgstr ""
 
-#: include/header.php:212 include/header.php:291 index.php:28 vlc/index.php:22
+#: include/header.php:215 include/header.php:294 index.php:28 vlc/index.php:22
 #: vlc/index.php:39
 msgid "Features"
 msgstr ""
 
-#: include/header.php:213 include/header.php:292 index.php:29 vlc/index.php:23
+#: include/header.php:216 include/header.php:295 index.php:29 vlc/index.php:23
 #: vlc/index.php:65
 msgid "Screenshots"
 msgstr ""
 
-#: include/header.php:214 include/header.php:289 index.php:30 vlc/index.php:24
+#: include/header.php:217 include/header.php:292 index.php:30 vlc/index.php:24
 msgid "Skins"
 msgstr ""
 
-#: include/header.php:215 include/header.php:290
+#: include/header.php:218 include/header.php:293
 msgid "Extensions"
 msgstr ""
 
-#: include/header.php:219
+#: include/header.php:222
 msgid "Projects"
 msgstr ""
 
-#: include/header.php:236 include/header.php:296
+#: include/header.php:239 include/header.php:299
 msgid "All Projects"
 msgstr ""
 
-#: include/header.php:240 index.php:119
+#: include/header.php:243 index.php:119
 msgid "Contribute"
 msgstr ""
 
-#: include/header.php:242 include/header.php:320
+#: include/header.php:245 include/header.php:323
 msgid "Donate time"
 msgstr ""
 
-#: include/header.php:243 include/header.php:319
+#: include/header.php:246 include/header.php:322
 msgid "Donate money"
 msgstr ""
 
-#: include/header.php:244 include/header.php:321
+#: include/header.php:247 include/header.php:324
 msgid "Get Goodies"
 msgstr ""
 
-#: include/header.php:248
+#: include/header.php:251
 msgid "Support"
 msgstr ""
 
-#: include/header.php:250
+#: include/header.php:253
 msgid "Support center"
 msgstr ""
 
-#: include/header.php:252 include/header.php:329 include/header.php:342
+#: include/header.php:255 include/header.php:332 include/header.php:345
 msgid "Legal"
 msgstr ""
 
-#: include/header.php:255 include/header.php:317
+#: include/header.php:258 include/header.php:320
 msgid "Mailing-Lists"
 msgstr ""
 
-#: include/header.php:256
+#: include/header.php:259
 msgid "Report a bug"
 msgstr ""
 
-#: include/header.php:260
+#: include/header.php:263
 msgid "Dev' Zone"
 msgstr ""
 
-#: include/header.php:313
+#: include/header.php:316
 msgid "Community"
 msgstr ""
 
-#: include/header.php:335
+#: include/header.php:338
 msgid "Get Involved"
 msgstr ""
 

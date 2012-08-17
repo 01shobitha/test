@@ -1,281 +1,281 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR jb
+# Turkish translation
+# Copyright (C) 2012 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
 # Kaya Zeren <kayazeren@gmail.com>, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: vlc-trans\n"
-"Report-Msgid-Bugs-To: https://github.com/yarons/vlc-heb/issues\n"
-"POT-Creation-Date: 2012-04-03 15:48+0200\n"
-"PO-Revision-Date: 2012-04-06 20:40+0000\n"
+"Project-Id-Version: VLC - Trans\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-31 17:43+0200\n"
+"PO-Revision-Date: 2012-08-02 14:37+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
-"Language-Team: Turkish (http://www.transifex.net/projects/p/vlc-trans/language/tr/)\n"
+"Language-Team: Turkish (http://www.transifex.com/projects/p/vlc-trans/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: tr\n"
 "Plural-Forms: nplurals=1; plural=0\n"
 
-#: include/header.php:109
+#: include/header.php:139
 msgid "A project and a"
 msgstr "Bir proje ve"
 
-#: include/header.php:109
+#: include/header.php:139
 msgid "non-profit organization"
 msgstr "kar amacı gütmeyen bir kuruluştur"
 
-#: include/header.php:110
+#: include/header.php:140
 msgid ""
 "composed of volunteers, developing and promoting free, open-source "
 "multimedia solutions."
 msgstr "gönüllülerden oluşmuş, ücretsiz geliştirilen ve dağıtılan açık kaynaklı çoklu ortam çözümleri.                                                                     "
 
-#: include/header.php:114
+#: include/header.php:144
 msgid "DONATE"
 msgstr "Bağış Yapın"
 
-#: include/header.php:114
+#: include/header.php:144
 msgid "why?"
 msgstr "neden?"
 
-#: include/header.php:128 include/header.php:142
+#: include/header.php:158 include/header.php:172
 msgid "donate"
 msgstr "bağış yapın"
 
-#: include/header.php:161
+#: include/header.php:191
 msgid "Home"
 msgstr "Ana Sayfa"
 
-#: include/header.php:164 include/header.php:306
+#: include/header.php:194 include/header.php:336
 msgid "News"
 msgstr "Haberler"
 
-#: include/header.php:169 include/header.php:297
+#: include/header.php:199 include/header.php:327
 msgid "Project and Organization"
 msgstr "Proje ve Organizasyon"
 
-#: include/header.php:170 include/header.php:298
+#: include/header.php:200 include/header.php:328
 msgid "Team"
 msgstr "Ekip"
 
-#: include/header.php:171 include/header.php:300
+#: include/header.php:201 include/header.php:330
 msgid "Contact us"
 msgstr "İletişim"
 
-#: include/header.php:172 include/header.php:301
+#: include/header.php:202 include/header.php:331
 msgid "Partners"
 msgstr "Ortaklar"
 
-#: include/header.php:173 include/header.php:302
+#: include/header.php:203 include/header.php:332
 msgid "Press center"
 msgstr "Basın Merkezi"
 
-#: include/header.php:174 include/header.php:303
+#: include/header.php:204 include/header.php:333
 msgid "Events"
 msgstr "Etkinlikler"
 
-#: include/header.php:175 include/header.php:304
+#: include/header.php:205 include/header.php:334
 msgid "Security center"
 msgstr "Güvenlik Merkezi"
 
-#: include/header.php:181
+#: include/header.php:211
 msgid "Download"
 msgstr "İndir"
 
-#: include/header.php:182 include/header.php:261 index.php:26 vlc/index.php:20
-#: vlc/index.php:37
+#: include/header.php:212 include/header.php:291 index.php:28 vlc/index.php:22
+#: vlc/index.php:39
 msgid "Features"
 msgstr "Özellikler"
 
-#: include/header.php:183 include/header.php:262 index.php:27 vlc/index.php:21
-#: vlc/index.php:63
+#: include/header.php:213 include/header.php:292 index.php:29 vlc/index.php:23
+#: vlc/index.php:65
 msgid "Screenshots"
 msgstr "Ekran Görüntüleri"
 
-#: include/header.php:184 include/header.php:259 index.php:28 vlc/index.php:22
+#: include/header.php:214 include/header.php:289 index.php:30 vlc/index.php:24
 msgid "Skins"
 msgstr "Temalar"
 
-#: include/header.php:185 include/header.php:260
+#: include/header.php:215 include/header.php:290
 msgid "Extensions"
 msgstr "Eklentiler"
 
-#: include/header.php:189
+#: include/header.php:219
 msgid "Projects"
 msgstr "Projeler"
 
-#: include/header.php:206 include/header.php:266
+#: include/header.php:236 include/header.php:296
 msgid "All Projects"
 msgstr "Tüm Projeler"
 
-#: include/header.php:210 index.php:126
+#: include/header.php:240 index.php:119
 msgid "Contribute"
 msgstr "Katkıda Bulunun"
 
-#: include/header.php:212 include/header.php:290
+#: include/header.php:242 include/header.php:320
 msgid "Donate time"
 msgstr "Bağış zamanı"
 
-#: include/header.php:213 include/header.php:289
+#: include/header.php:243 include/header.php:319
 msgid "Donate money"
 msgstr "Bağış yapmak"
 
-#: include/header.php:214 include/header.php:291
+#: include/header.php:244 include/header.php:321
 msgid "Get Goodies"
 msgstr "Ürünlerden Alın"
 
-#: include/header.php:218
+#: include/header.php:248
 msgid "Support"
 msgstr "Destek"
 
-#: include/header.php:220
+#: include/header.php:250
 msgid "Support center"
 msgstr "Destek Merkezi"
 
-#: include/header.php:222 include/header.php:299 include/header.php:312
+#: include/header.php:252 include/header.php:329 include/header.php:342
 msgid "Legal"
 msgstr "Yasal Koşullar"
 
-#: include/header.php:225 include/header.php:287
+#: include/header.php:255 include/header.php:317
 msgid "Mailing-Lists"
 msgstr "E-posta Listeleri"
 
-#: include/header.php:226
+#: include/header.php:256
 msgid "Report a bug"
 msgstr "Hata bildirin"
 
-#: include/header.php:230
+#: include/header.php:260
 msgid "Dev' Zone"
 msgstr "Geliştiriciler"
 
-#: include/header.php:283
+#: include/header.php:313
 msgid "Community"
 msgstr "Topluluk"
 
-#: include/header.php:305
+#: include/header.php:335
 msgid "Get Involved"
 msgstr "Katkıda Bulunun"
+
+#: include/os-specific.php:85 vlc/index.php:27
+msgid "Download VLC"
+msgstr "VLC İndirin"
+
+#: include/os-specific.php:91 vlc/index.php:34
+msgid "Other Systems and Versions"
+msgstr "Diğer Sistem ve Sürümler"
 
 #: index.php:3
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
 msgstr "VLC: Resmi sitesi - Tüm işletim sisteleri için ücretsiz multimedia oynatıcı."
 
-#: index.php:24 vlc/index.php:18
+#: index.php:26 vlc/index.php:20
 msgid ""
 "VLC is a free and open source cross-platform multimedia player and framework"
 " that plays most multimedia files as well as DVD, Audio CD, VCD, and various"
 " streaming protocols."
 msgstr "VLC, özgür ve açık kaynak kodlu, platformlar arası, bir ortam oynatıcı ve çatısıdır. Çeşitli DVD, CD, VCD ortamları ile hemen hemen tüm ortam dosyaları ve akış protokollerini oynatabilir."
 
-#: index.php:31 vlc/index.php:25
-msgid "Download VLC"
-msgstr "VLC İndirin"
-
-#: index.php:38 vlc/index.php:32
-msgid "Other Systems and Versions"
-msgstr "Diğer Sistem ve Sürümler"
-
-#: index.php:43
+#: index.php:36
 msgid "Other projects from VideoLAN"
 msgstr "Diğer VideoLAN projeleri"
 
-#: index.php:45
+#: index.php:38
 msgid "For Everyone"
 msgstr "Herkes için"
 
-#: index.php:51
+#: index.php:44
 msgid ""
 "VLC is a powerful media player playing most of the media codecs and video "
 "formats out there."
 msgstr "VLC, hemen hemen tüm ortam kodeklerini ve görüntü biçimlerini oynatabilen güçlü bir media oynatıcıdır. "
 
-#: index.php:60
+#: index.php:53
 msgid ""
 "VideoLAN Movie Creator is a non-linear editing software for video creation."
 msgstr "VideoLAN Movie Creator doğrusal olmayan bir görüntü oluşturma ve düzenleme yazılımıdır."
 
-#: index.php:67
+#: index.php:60
 msgid "For Professionals"
 msgstr "Profesyoneller İçin"
 
-#: index.php:73
+#: index.php:66
 msgid ""
 "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
 msgstr "DVBlast basit ve güçlü, MPEG-2/TS tekleme ve akış uygulamasıdır."
 
-#: index.php:81
+#: index.php:74
 msgid ""
 "multicat is a set of tools designed to easily and efficiently manipulate "
 "multicast streams and TS."
 msgstr "multicat, multicast ve aktarılan akışları, kolay ve etkili bir şekilde yönetebilmek için tasarlanmış bir araç takımıdır."
 
-#: index.php:90
+#: index.php:83
 msgid ""
 "x264 is a free application for encoding video streams into the H.264/MPEG-4 "
 "AVC format."
 msgstr "x264, H.264/MPEG-4 görüntü akışlarını AVC biçiminde kodlayan, özgür bir uygulamadır."
 
-#: index.php:98
+#: index.php:91
 msgid "For Developers"
 msgstr "Geliştiriciler İçin"
 
-#: index.php:109
+#: index.php:102
 msgid "View All Projects"
 msgstr "Tüm Projeleri Göster"
 
-#: index.php:112
+#: index.php:105
 msgid "Help us out!"
 msgstr "Bize yardımcı olun!"
 
-#: index.php:114
+#: index.php:107
 msgid "Donate"
 msgstr "Bağış Yapın"
 
-#: index.php:118
+#: index.php:111
 msgid "VideoLAN is a non-profit organization."
 msgstr "VideoLAN kar amacı gütmeyen bir kuruluştur."
 
-#: index.php:119
+#: index.php:112
 msgid ""
 " All our costs are met by donations we receive from our users. If you enjoy "
 "using a VideoLAN product, please donate to support us."
 msgstr "Bütün giderlerimiz kullanıcılarımızdan gelen bağışlarla karşılanıyor. Bir VideoLAN ürününü beğendiyseniz, lütfen bağış yaparak bize destek olun."
 
-#: index.php:121 index.php:133 index.php:144
+#: index.php:114 index.php:126 index.php:137
 msgid "Learn More"
 msgstr "Ayrıntılı Bilgi"
 
-#: index.php:130
+#: index.php:123
 msgid "VideoLAN is open-source software."
 msgstr "VideoLAN açık kaynak kodlu bir yazılımdır."
 
-#: index.php:131
+#: index.php:124
 msgid ""
 "This means that if you have the skill and the desire to improve one of our "
 "products, your contributions are welcome"
 msgstr "Yani, bilginiz ve isteğiniz yeterliyse, uygulamalarımızdan birini geliştirerek yeni özellikler ekleyebilirsiniz."
 
-#: index.php:138
+#: index.php:131
 msgid "Spread the Word"
 msgstr "Duymayan Kalmasın"
 
-#: index.php:142
+#: index.php:135
 msgid ""
 "We feel that VideoLAN has the best video software available at the best "
 "price: free. If you agree please help spread the word about our software."
 msgstr "Bizce, VideoLAN en iyi fiyata (ücretsiz) alınabileceken iyi görüntü yazılımı. Aynı fikirdeyseniz, yazılımlarımızı kullanmaları için arkadaşlarınıza önerin."
 
-#: index.php:414
+#: index.php:407
 msgid "News &amp; Updates"
 msgstr "Haber ve Güncellemeler"
 
-#: index.php:418
+#: index.php:411
 msgid "Development Blogs"
 msgstr "Geliştirici Blogları"
 
-#: index.php:441
+#: index.php:434
 msgid "Social media"
 msgstr "Sosyal Medya"
 
@@ -283,59 +283,58 @@ msgstr "Sosyal Medya"
 msgid "Official page for VLC media player, the Open Source video framework!"
 msgstr "Resmi VLC ortam oynatıcı sayfası, Açık Kaynaklı görüntü çatısı!"
 
-#: vlc/index.php:38
+#: vlc/index.php:40
 msgid "Simple, fast and powerful media player."
 msgstr "Basit, hızlı ve güçlü ortam oynatıcı"
 
-#: vlc/index.php:40
+#: vlc/index.php:42
 msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
 msgstr "Her şeyi oynatır: Dosyalar, diskler, web kameraları, aygıtlar ve akışlar."
 
-#: vlc/index.php:42
+#: vlc/index.php:44
 msgid "Plays most codecs with no codec packs needed:"
 msgstr "Kodek paketine gerek duymadan pek çok kodeği oynatabilir:"
 
-#: vlc/index.php:45
+#: vlc/index.php:47
 msgid "Runs on all platforms:"
 msgstr "Tüm platformlarda çalışır:"
 
-#: vlc/index.php:47
+#: vlc/index.php:49
 msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
 msgstr "Tamamen ücretsiz, ajan ya da reklam yazılımı içermez ve kullanıcı işlemlerini izlemez."
 
-#: vlc/index.php:49
-msgid "Can do Media Convertion and Streaming."
-msgstr "Ortam dönüştürme ve akışı yapabilir."
-
 #: vlc/index.php:51
+msgid "Can do media conversion and streaming."
+msgstr "Ortam dönüşümü ve akışı yapabilir."
+
+#: vlc/index.php:53
 msgid "Discover all features"
 msgstr "Tüm özelliklerini keşfedin"
 
-#: vlc/index.php:85
+#: vlc/index.php:87
 msgid "View all screenshots"
 msgstr "Tüm ekran görüntüleri"
 
-#: vlc/index.php:92
+#: vlc/index.php:94
 msgid "Get VLC for"
 msgstr "VLC platformunuz"
 
-#: vlc/index.php:96
+#: vlc/index.php:98
 msgid "Official Downloads of VLC media player"
 msgstr "Resmi VLC ortam oynatıcının indirmeleri"
 
-#: vlc/index.php:103
+#: vlc/index.php:105
 msgid "Sources"
 msgstr "Kaynaklar"
 
-#: vlc/index.php:104
+#: vlc/index.php:106
 msgid "You can also directly get the"
 msgstr "Ayrıca doğrudan edinebileceğiniz"
 
-#: vlc/index.php:105
+#: vlc/index.php:107
 msgid "source code"
 msgstr "kaynak kodu"
 
-#: vlc/index.php:126
+#: vlc/index.php:128
 msgid "Other OS"
 msgstr "Diğer İşletim Sistemleri"
-

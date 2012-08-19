@@ -11,10 +11,11 @@
 
 <h2> Debian stable (squeeze) </h2>
 
-<p> VLC is available in squeeze, with a quite old version.<br />
-Install <code>vlc</code>, <code>mozilla-plugin-vlc</code>, the usual way you do it. </p>
+<p> It is highly recommended that you get a recent version of <a href="/vlc/">VLC</a> on squeeze by installing the version from <b>squeeze-backports</b>.<br />
+Add the <a href="http://backports-master.debian.org/Instructions/#index2h2">squeeze-backports repository</a> and install VLC: <code>sudo apt-get -t squeeze-backports install vlc</code>
+</p>
 
-<p> If you want a more recent version of <a href="/vlc/">VLC</a>, please take the version from testing.<br />
+<p> Without backports, you will end up with the very old version of VLC in vanilla squeeze (install vlc and mozilla-plugin-vlc as usual).</p>
 
 
 <h2> Debian testing (wheezy) </h2>

@@ -13,10 +13,10 @@
 <h2>Sponsors</h2>
 <a href="/videolan/"><?php image( "logoGrey.png" , "VideoLAN association"); ?></a>
 <br />
-<p><a href=/contact.html><h2>Your Name Here :)</h2></p>
+<p><a href=/contact.html>Your Name Here :)</p>
 <h2>Host</h2>
-<p><a href="http://www.mines-telecom.fr/en_accueil.html" alt="Institut Mines Telecom"><img src="http://www.mines-telecom.fr/images/imt12/logo.png" /></a></p>
-<p><a href="http://www.dernierbar.com"><img src="http://images.videolan.org/videolan/events/dernierbar.png" alt="Le dernier bar avant la fin du monde" /></a></p>
+<p><a href="http://www.mines-telecom.fr/en_accueil.html"><img src="http://www.mines-telecom.fr/images/imt12/logo.png" alt="Institut Mines Telecom" /></a></p>
+<p><a href="http://www.dernierbar.com"><img src="http://images.videolan.org/images/events/dernierbar.png" alt="Le dernier bar avant la fin du monde" /></a></p>
 <?php panel_end(); ?>
 
 <?php panel_start( "blue" ); ?>

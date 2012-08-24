@@ -52,6 +52,7 @@ Developers, designers and anonymous people around <a href="/vlc/">VLC</a>, <a hr
 <h1>Where? </h1>
 <h2>Friday</h2>
 <p>The beer event will take place at &laquo;&nbsp;<a href="http://www.dernierbar.com">Le dernier bar avant la fin du monde</a>&nbsp;&raquo; starting at 6:30 PM.</p>
+<p>Our dedicated room is named "singularity" and is located in the basement of the bar.</p>
 <h2>Saturday / Sunday</h2>
 <p>Technical events will be held at <a href="http://www.mines-telecom.fr/p_en_imt_contact_38.html">Institut Mines-Telecom</a> (<a href="#location">map</a>).</p>
 <p>Be careful to enter by the <em>49, rue Vergniaud</em> entrance.</p>

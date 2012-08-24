@@ -21,7 +21,8 @@
 
 <?php panel_start( "blue" ); ?>
 <h2>Register!</h2>
-<a href="http://goo.gl/QRMsb">Register <strong>now!</strong></a>
+<b>Registration is now closed.</b>
+<!-- <a href="http://goo.gl/QRMsb">Register <strong>now!</strong></a> -->
 <?php panel_end(); ?>
 
 <?php panel_start( "green" ); ?>
@@ -176,8 +177,11 @@ Un point sur la situation. Assemblée générale ordinaire, extra-ordinaire et r
  */ ?>
 
 <h1>Registration</h1>
+<p><b>Registration is now closed.</b></p>
+<!--
 <p>Except for the Friday Beer Event, <strong>registration</strong> is <strong>mandatory</strong>!</p>
 &#10149; <a href="http://goo.gl/QRMsb">Register here and now</a>
+-->
 
 <h1>Hotel</h1>
 <p>If you got an hotel reserved by the team, it will be

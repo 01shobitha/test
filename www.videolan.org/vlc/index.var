@@ -63,3 +63,7 @@ Content-language: km
 URI: index.mr.html
 Content-type: text/html
 Content-language: mr
+
+URI: index.bs.html  
+Content-type: text/html
+Content-language: bs

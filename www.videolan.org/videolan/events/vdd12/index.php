@@ -15,8 +15,8 @@
 <br />
 <p><a href=/contact.html>Your Name Here :)</p>
 <h2>Host</h2>
-<p><a href="http://www.mines-telecom.fr/en_accueil.html"><img src="http://www.mines-telecom.fr/images/imt12/logo.png" alt="Institut Mines Telecom" /></a></p>
-<p><a href="http://www.dernierbar.com"><img src="http://images.videolan.org/images/events/dernierbar.png" alt="Le dernier bar avant la fin du monde" /></a></p>
+<p style="text-align: center"><a href="http://www.mines-telecom.fr/en_accueil.html"><img src="http://www.mines-telecom.fr/images/imt12/logo.png" alt="Institut Mines Telecom" /></a></p>
+<p style="text-align: center"><a href="http://www.dernierbar.com"><img src="http://images.videolan.org/images/events/dernierbar.png" alt="Le dernier bar avant la fin du monde" /></a></p>
 <?php panel_end(); ?>
 
 <?php panel_start( "blue" ); ?>

@@ -1,340 +1,340 @@
-# Bosnian translation
+# Dutch; Flemish translation
 # Copyright (C) 2012 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Adnan Memija <sream_92@live.com>, 2012.
+# Thomas De Rocker <thomasderocker@hotmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-17 14:56+0200\n"
-"PO-Revision-Date: 2012-08-26 22:29+0000\n"
-"Last-Translator: Adnan Memija <sream_92@live.com>\n"
-"Language-Team: Bosnian (http://www.transifex.com/projects/p/vlc-trans/language/bs/)\n"
+"PO-Revision-Date: 2012-08-27 09:53+0000\n"
+"Last-Translator: Thomas De Rocker <thomasderocker@hotmail.com>\n"
+"Language-Team: Dutch (http://www.transifex.com/projects/p/vlc-trans/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: bs\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"Language: nl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: include/header.php:142
 msgid "A project and a"
-msgstr "Projekat i"
+msgstr "Een project een een"
 
 #: include/header.php:142
 msgid "non-profit organization"
-msgstr "neprofitabilna organizacija"
+msgstr "non-profit organisatie"
 
 #: include/header.php:143
 msgid ""
 "composed of volunteers, developing and promoting free, open-source "
 "multimedia solutions."
-msgstr "sastavljeni od volontera, koji razvjijaju i unaprijeđuju besplatna, multimedijalna rješenja otvorenog-koda"
+msgstr "opgebouwd uit vrijwilligers, die gratis, open source multimedia-oplossingen ontwikkelen en promoten."
 
 #: include/header.php:147
 msgid "DONATE"
-msgstr "DONIRAJ"
+msgstr "DONEREN"
 
 #: include/header.php:147
 msgid "why?"
-msgstr "zašto?"
+msgstr "waarom?"
 
 #: include/header.php:161 include/header.php:175
 msgid "donate"
-msgstr "doniraj"
+msgstr "doneren"
 
 #: include/header.php:194
 msgid "Home"
-msgstr "Početna"
+msgstr "Home"
 
 #: include/header.php:197 include/header.php:339
 msgid "News"
-msgstr "Novosti"
+msgstr "Nieuws"
 
 #: include/header.php:202 include/header.php:330
 msgid "Project and Organization"
-msgstr "Projekat i organizacija"
+msgstr "Project en organisatie"
 
 #: include/header.php:203 include/header.php:331
 msgid "Team"
-msgstr "Tim"
+msgstr "Team"
 
 #: include/header.php:204 include/header.php:333
 msgid "Contact us"
-msgstr "Kontakt"
+msgstr "Contacteer ons"
 
 #: include/header.php:205 include/header.php:334
 msgid "Partners"
-msgstr "Partneri"
+msgstr "Partners"
 
 #: include/header.php:206 include/header.php:335
 msgid "Press center"
-msgstr "Centar za štampu"
+msgstr "Perscentrum"
 
 #: include/header.php:207 include/header.php:336
 msgid "Events"
-msgstr "Događaji"
+msgstr "Gebeurtenissen"
 
 #: include/header.php:208 include/header.php:337
 msgid "Security center"
-msgstr "Centar za sigurnost"
+msgstr "Veiligheidscentrum"
 
 #: include/header.php:214
 msgid "Download"
-msgstr "Preuzmi"
+msgstr "Downloaden"
 
 #: include/header.php:215 include/header.php:294 index.php:28 vlc/index.php:22
 #: vlc/index.php:39
 msgid "Features"
-msgstr "Mogućnosti"
+msgstr "Functies"
 
 #: include/header.php:216 include/header.php:295 index.php:29 vlc/index.php:23
 #: vlc/index.php:65
 msgid "Screenshots"
-msgstr "Slikovni prikazi"
+msgstr "Screenshots"
 
 #: include/header.php:217 include/header.php:292 index.php:30 vlc/index.php:24
 msgid "Skins"
-msgstr "Skinovi"
+msgstr "Skins"
 
 #: include/header.php:218 include/header.php:293
 msgid "Extensions"
-msgstr "Proširenja"
+msgstr "Extensies"
 
 #: include/header.php:222
 msgid "Projects"
-msgstr "Projekti"
+msgstr "Projecten"
 
 #: include/header.php:239 include/header.php:299
 msgid "All Projects"
-msgstr "Svi projekti"
+msgstr "Alle projecten"
 
 #: include/header.php:243 index.php:119
 msgid "Contribute"
-msgstr "Doprinesi"
+msgstr "Bijdragen"
 
 #: include/header.php:245 include/header.php:323
 msgid "Donate time"
-msgstr "Uloži vrijeme"
+msgstr "Tijd doneren"
 
 #: include/header.php:246 include/header.php:322
 msgid "Donate money"
-msgstr "Doniraj "
+msgstr "Geld doneren"
 
 #: include/header.php:247 include/header.php:324
 msgid "Get Goodies"
-msgstr "Dobijte podobnosti"
+msgstr "Goodies verkrijgen"
 
 #: include/header.php:251
 msgid "Support"
-msgstr "Podrška"
+msgstr "Ondersteuning"
 
 #: include/header.php:253
 msgid "Support center"
-msgstr "Centar za podršku"
+msgstr "Ondersteuningscentrum"
 
 #: include/header.php:255 include/header.php:332 include/header.php:345
 msgid "Legal"
-msgstr "Pravno"
+msgstr "Rechten"
 
 #: include/header.php:258 include/header.php:320
 msgid "Mailing-Lists"
-msgstr "Lista za pošiljke"
+msgstr "Maillijsten"
 
 #: include/header.php:259
 msgid "Report a bug"
-msgstr "Prijavi kvar"
+msgstr "Een bug rapporteren"
 
 #: include/header.php:263
 msgid "Dev' Zone"
-msgstr "Programerska zona"
+msgstr "Dev' Zone"
 
 #: include/header.php:316
 msgid "Community"
-msgstr "Udruženje"
+msgstr "Gemeenschap"
 
 #: include/header.php:338
 msgid "Get Involved"
-msgstr "Uključi se"
+msgstr "Raak betrokken"
 
 #: include/os-specific.php:85 vlc/index.php:27
 msgid "Download VLC"
-msgstr "Preuzmi VLC"
+msgstr "VLC downloaden"
 
 #: include/os-specific.php:91 vlc/index.php:34
 msgid "Other Systems and Versions"
-msgstr "Drugi sistemi i verzije"
+msgstr "Andere systemen en versies"
 
 #: index.php:3
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
-msgstr "VLC: Oficijelna stranica - Besplatno multimedijalno rješenje za sve OS-e!"
+msgstr "VLC: Officiële site - Gratis multimedia-oplossingen voor alle besturingssystemen!"
 
 #: index.php:26 vlc/index.php:20
 msgid ""
 "VLC is a free and open source cross-platform multimedia player and framework"
 " that plays most multimedia files as well as DVD, Audio CD, VCD, and various"
 " streaming protocols."
-msgstr "VLC je besplatan i više-platformski izvođač otvorenog koda za sve medije i okruženje koje izvodi većinu multimedijalnih datoteka kao što su DVD, zvučni CD, VCD, i različiti protokoli za strujanje."
+msgstr "VLC is een gratis en open source cross-platform multimediaspeler en framework. Het speelt de meeste multimedia-bestanden en ook dvd, audio-cd, vcd en verschillende streaming-protocols af."
 
 #: index.php:36
 msgid "Other projects from VideoLAN"
-msgstr "Drugi projekti od VideoLAN-a"
+msgstr "Andere projecten van VideoLAN"
 
 #: index.php:38
 msgid "For Everyone"
-msgstr "Za sve"
+msgstr "Voor iedereen"
 
 #: index.php:44
 msgid ""
 "VLC is a powerful media player playing most of the media codecs and video "
 "formats out there."
-msgstr "VLC je moćan medijski izvođač koji producira većinu medijskih kodeka i video formata koji postoje."
+msgstr "VLC is een krachtige mediaspeler die de meeste bestaande mediacodecs en videoformaten afspeelt."
 
 #: index.php:53
 msgid ""
 "VideoLAN Movie Creator is a non-linear editing software for video creation."
-msgstr "VideoLAN Movie Creator je nelinearni softver za uređivanje video kreacija."
+msgstr "VideoLAN Movie Creator is niet-lineaire bewerkingssoftware voor video-creatie."
 
 #: index.php:60
 msgid "For Professionals"
-msgstr "Za profesionalce"
+msgstr "Voor professionals"
 
 #: index.php:66
 msgid ""
 "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
-msgstr "DVBlast je jednostavan i moćan MPEG-2/TS demukser i aplikacija za strujanje."
+msgstr "DVBlast is een simpele en krachtige MPEG-2/TS demux- en streaming-applicatie"
 
 #: index.php:74
 msgid ""
 "multicat is a set of tools designed to easily and efficiently manipulate "
 "multicast streams and TS."
-msgstr "multicat je komplet alata koji su dizajnirani za jednostavno i efikasno manipuliranje multicast strujanja i TS-a."
+msgstr "multicat is een aantal tools die ontwikkeld zijn om gemakkelijk en efficiënt multicast-streams en TS te manipuleren."
 
 #: index.php:83
 msgid ""
 "x264 is a free application for encoding video streams into the H.264/MPEG-4 "
 "AVC format."
-msgstr "x264 je besplatna aplikacija za kodiranje video strujanja u H.264/MPEG-4 AVC formatu."
+msgstr "x264 is een gratis applicatie om videostreams te coderen in het H.264/MPEG-4 AVC-formaat."
 
 #: index.php:91
 msgid "For Developers"
-msgstr "Za programere"
+msgstr "Voor ontwikkelaars"
 
 #: index.php:102
 msgid "View All Projects"
-msgstr "Pogledaj sve projekte"
+msgstr "Alle projecten weergeven"
 
 #: index.php:105
 msgid "Help us out!"
-msgstr "Pomozi nam!"
+msgstr "Help ons!"
 
 #: index.php:107
 msgid "Donate"
-msgstr "Doniraj"
+msgstr "Doneren"
 
 #: index.php:111
 msgid "VideoLAN is a non-profit organization."
-msgstr "VideoLAN je neprofitabilna organizacija."
+msgstr " VideoLAN is een non-profit organisatie"
 
 #: index.php:112
 msgid ""
 " All our costs are met by donations we receive from our users. If you enjoy "
 "using a VideoLAN product, please donate to support us."
-msgstr "Svi naši troškovi su pokriveni sa donacijama koje primamo od naših korisnika. Ako uživaš koristeći VideoLAN proizvod, molimo da doniraš kako bi nas podržao."
+msgstr "All onze kosten worden tegemoetgekomen door donaties die we ontvangen door onze gebruikers. Als u het gebruik van een VideoLAN-product aangenaam vindt, kunt u doneren om ons te ondersteunen."
 
 #: index.php:114 index.php:126 index.php:137
 msgid "Learn More"
-msgstr "Nauči više"
+msgstr "Meer informatie"
 
 #: index.php:123
 msgid "VideoLAN is open-source software."
-msgstr "VideoLAN je softver otvorenog-koda."
+msgstr "VideoLAN is opensource-software"
 
 #: index.php:124
 msgid ""
 "This means that if you have the skill and the desire to improve one of our "
 "products, your contributions are welcome"
-msgstr "To znači ako posjeduješ vještinu i želju da napreduješ jedan od naših proizvoda, tvoji doprinosi su dobrodošli"
+msgstr "Dit betekent dat als u de kwaliteiten en het verlangen heeft om een van onze producten te verbeteren, uw bijdragen welkom zijn"
 
 #: index.php:131
 msgid "Spread the Word"
-msgstr "Širi riječ"
+msgstr "Verspreid het woord"
 
 #: index.php:135
 msgid ""
 "We feel that VideoLAN has the best video software available at the best "
 "price: free. If you agree please help spread the word about our software."
-msgstr "Mi smo ubjeđeni da VideoLAN ima najbolji video softver dostupan za najbolju cijenu: besplatno. Ako se slažeš molimo da širiš riječi o našem softveru."
+msgstr "We voelen dat VideoLAN de beste software beschikbaar heeft voor de beste prijs: gratis. Als u het daarmee akkoord bent, verspreid dan het woord over onze software."
 
 #: index.php:407
 msgid "News &amp; Updates"
-msgstr "Novosti i ažuriranja"
+msgstr "Nieuws &amp; updates"
 
 #: index.php:411
 msgid "Development Blogs"
-msgstr "Blogovi za razvoj"
+msgstr "Ontwikkelingsblogs"
 
 #: index.php:434
 msgid "Social media"
-msgstr "Socijalni mediji"
+msgstr "Sociale media"
 
 #: vlc/index.php:3
 msgid "Official page for VLC media player, the Open Source video framework!"
-msgstr "Oficijelna stranica za VLC medijski izvođač, video okruženje otvorenog koda!"
+msgstr "Officiële pagina voor VLC media player, het open source video-framework"
 
 #: vlc/index.php:40
 msgid "Simple, fast and powerful media player."
-msgstr "Jednostavan, brz i moćan medijski izvođač."
+msgstr "Simpele, snelle en krachtige mediaspeler"
 
 #: vlc/index.php:42
 msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
-msgstr "Izvodi sve: datoteke, diskove, kamere, uređaje i strujanja."
+msgstr "Speelt alles: bestanden, schijfjes, webcams, apparaten en streams."
 
 #: vlc/index.php:44
 msgid "Plays most codecs with no codec packs needed:"
-msgstr "Izvodi većinu kodeka bez potrebe za kodek paketima:"
+msgstr "Speelt de meeste codecs zonder de nood aan codec packs:"
 
 #: vlc/index.php:47
 msgid "Runs on all platforms:"
-msgstr "Pokreće na svim platformama:"
+msgstr "Draait op alle platforms:"
 
 #: vlc/index.php:49
 msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
-msgstr "Kompletno besplatno, 0 špijunskih programa, 0 reklama i bez praćenja korisnika."
+msgstr "Volledig gratis, geen spyware, geen reclame en geen user tracking."
 
 #: vlc/index.php:51
 msgid "Can do media conversion and streaming."
-msgstr "Može konvertovati medije i strujati."
+msgstr "Kan mediaconversie en streaming doen."
 
 #: vlc/index.php:53
 msgid "Discover all features"
-msgstr "Otkrij sve mogućnosti"
+msgstr "Ontdek alle functies"
 
 #: vlc/index.php:87
 msgid "View all screenshots"
-msgstr "Vidi sve slikovne prikaze"
+msgstr "Alle screenshots weergeven"
 
 #: vlc/index.php:94
 msgid "Get VLC for"
-msgstr "Dobij VLC za"
+msgstr "VLC verkrijgen voor"
 
 #: vlc/index.php:98
 msgid "Official Downloads of VLC media player"
-msgstr "Oficijelna preuzimanja VLC medijskog izvođača"
+msgstr "Officiële downloads van VLC media player"
 
 #: vlc/index.php:105
 msgid "Sources"
-msgstr "Izvori"
+msgstr "Bronnen"
 
 #: vlc/index.php:106
 msgid "You can also directly get the"
-msgstr "Možeš također direktno dobiti"
+msgstr "U kunt ook rechtstreeks de"
 
 #: vlc/index.php:107
 msgid "source code"
-msgstr "izvorni kod"
+msgstr "broncode verkrijgen"
 
 #: vlc/index.php:128
 msgid "Other OS"
-msgstr "Drugi OS-i"
+msgstr "Andere besturingssystemen"

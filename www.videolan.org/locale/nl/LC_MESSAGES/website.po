@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-17 14:56+0200\n"
-"PO-Revision-Date: 2012-08-27 09:53+0000\n"
+"PO-Revision-Date: 2012-08-28 10:26+0000\n"
 "Last-Translator: Thomas De Rocker <thomasderocker@hotmail.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/projects/p/vlc-trans/language/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: include/header.php:142
 msgid "A project and a"
-msgstr "Een project een een"
+msgstr "Een project en een"
 
 #: include/header.php:142
 msgid "non-profit organization"
@@ -194,7 +194,7 @@ msgstr "VLC is een krachtige mediaspeler die de meeste bestaande mediacodecs en 
 #: index.php:53
 msgid ""
 "VideoLAN Movie Creator is a non-linear editing software for video creation."
-msgstr "VideoLAN Movie Creator is niet-lineaire bewerkingssoftware voor video-creatie."
+msgstr "VideoLAN Movie Creator is niet-lineaire bewerkingssoftware voor videocreatie."
 
 #: index.php:60
 msgid "For Professionals"
@@ -235,13 +235,13 @@ msgstr "Doneren"
 
 #: index.php:111
 msgid "VideoLAN is a non-profit organization."
-msgstr " VideoLAN is een non-profit organisatie"
+msgstr " VideoLAN is een non-profit organisatie."
 
 #: index.php:112
 msgid ""
 " All our costs are met by donations we receive from our users. If you enjoy "
 "using a VideoLAN product, please donate to support us."
-msgstr "All onze kosten worden tegemoetgekomen door donaties die we ontvangen door onze gebruikers. Als u het gebruik van een VideoLAN-product aangenaam vindt, kunt u doneren om ons te ondersteunen."
+msgstr "Aan al onze kosten wordt voldaan door donaties die we ontvangen van onze gebruikers. Als u het gebruik van een VideoLAN-product aangenaam vindt, kunt u doneren om ons te ondersteunen."
 
 #: index.php:114 index.php:126 index.php:137
 msgid "Learn More"
@@ -249,13 +249,13 @@ msgstr "Meer informatie"
 
 #: index.php:123
 msgid "VideoLAN is open-source software."
-msgstr "VideoLAN is opensource-software"
+msgstr "VideoLAN is opensource-software."
 
 #: index.php:124
 msgid ""
 "This means that if you have the skill and the desire to improve one of our "
 "products, your contributions are welcome"
-msgstr "Dit betekent dat als u de kwaliteiten en het verlangen heeft om een van onze producten te verbeteren, uw bijdragen welkom zijn"
+msgstr "Dit betekent dat als u de kwaliteiten en het verlangen heeft om een van onze producten te verbeteren, uw bijdragen welkom zijn."
 
 #: index.php:131
 msgid "Spread the Word"
@@ -289,7 +289,7 @@ msgstr "Simpele, snelle en krachtige mediaspeler"
 
 #: vlc/index.php:42
 msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
-msgstr "Speelt alles: bestanden, schijfjes, webcams, apparaten en streams."
+msgstr "Speelt alles: bestanden, disks, webcams, apparaten en streams."
 
 #: vlc/index.php:44
 msgid "Plays most codecs with no codec packs needed:"
@@ -317,7 +317,7 @@ msgstr "Alle screenshots weergeven"
 
 #: vlc/index.php:94
 msgid "Get VLC for"
-msgstr "VLC verkrijgen voor"
+msgstr "VLC voor"
 
 #: vlc/index.php:98
 msgid "Official Downloads of VLC media player"

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-17 14:56+0200\n"
-"PO-Revision-Date: 2012-08-28 10:26+0000\n"
+"PO-Revision-Date: 2012-08-30 08:32+0000\n"
 "Last-Translator: Thomas De Rocker <thomasderocker@hotmail.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/projects/p/vlc-trans/language/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -175,7 +175,7 @@ msgid ""
 "VLC is a free and open source cross-platform multimedia player and framework"
 " that plays most multimedia files as well as DVD, Audio CD, VCD, and various"
 " streaming protocols."
-msgstr "VLC is een gratis en open source cross-platform multimediaspeler en framework. Het speelt de meeste multimedia-bestanden en ook dvd, audio-cd, vcd en verschillende streaming-protocols af."
+msgstr "VLC is een gratis en open source cross-platform multimediaspeler en framework. Het speelt de meeste multimedia-bestanden en ook dvd, audio-cd, vcd en verschillende streaming-protocollen af."
 
 #: index.php:36
 msgid "Other projects from VideoLAN"
@@ -209,13 +209,13 @@ msgstr "DVBlast is een simpele en krachtige MPEG-2/TS demux- en streaming-applic
 msgid ""
 "multicat is a set of tools designed to easily and efficiently manipulate "
 "multicast streams and TS."
-msgstr "multicat is een aantal tools die ontwikkeld zijn om gemakkelijk en efficiënt multicast-streams en TS te manipuleren."
+msgstr "multicat is een verzameling gereedschappen die ontwikkeld zijn om gemakkelijk en efficiënt multicast-streams en TS te manipuleren."
 
 #: index.php:83
 msgid ""
 "x264 is a free application for encoding video streams into the H.264/MPEG-4 "
 "AVC format."
-msgstr "x264 is een gratis applicatie om videostreams te coderen in het H.264/MPEG-4 AVC-formaat."
+msgstr "x264 is een vrije toepassing om videostreams te coderen in het H.264/MPEG-4 AVC-formaat."
 
 #: index.php:91
 msgid "For Developers"
@@ -241,7 +241,7 @@ msgstr " VideoLAN is een non-profit organisatie."
 msgid ""
 " All our costs are met by donations we receive from our users. If you enjoy "
 "using a VideoLAN product, please donate to support us."
-msgstr "Aan al onze kosten wordt voldaan door donaties die we ontvangen van onze gebruikers. Als u het gebruik van een VideoLAN-product aangenaam vindt, kunt u doneren om ons te ondersteunen."
+msgstr "Al onze kosten worden gedekt door donaties die we ontvangen van onze gebruikers. Als u plezier heeft in het gebruik van een VideoLAN-product, kunt u doneren om ons te ondersteunen."
 
 #: index.php:114 index.php:126 index.php:137
 msgid "Learn More"
@@ -259,13 +259,13 @@ msgstr "Dit betekent dat als u de kwaliteiten en het verlangen heeft om een van 
 
 #: index.php:131
 msgid "Spread the Word"
-msgstr "Verspreid het woord"
+msgstr "Vertel het verder"
 
 #: index.php:135
 msgid ""
 "We feel that VideoLAN has the best video software available at the best "
 "price: free. If you agree please help spread the word about our software."
-msgstr "We voelen dat VideoLAN de beste software beschikbaar heeft voor de beste prijs: gratis. Als u het daarmee akkoord bent, verspreid dan het woord over onze software."
+msgstr "We vinden dat VideoLAN de beste software beschikbaar heeft voor de beste prijs: gratis. Als u het daarmee akkoord bent, vertel dan verder over onze software."
 
 #: index.php:407
 msgid "News &amp; Updates"
@@ -293,7 +293,7 @@ msgstr "Speelt alles: bestanden, disks, webcams, apparaten en streams."
 
 #: vlc/index.php:44
 msgid "Plays most codecs with no codec packs needed:"
-msgstr "Speelt de meeste codecs zonder de nood aan codec packs:"
+msgstr "Speelt de meeste codecs zonder noodzaak voor codec packs:"
 
 #: vlc/index.php:47
 msgid "Runs on all platforms:"

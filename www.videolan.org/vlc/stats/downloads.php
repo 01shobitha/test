@@ -99,8 +99,8 @@
                     "1.1.13"  => array( "Windows" => 0        , "Macintosh" => 0,       "Total" => 598  ),
                     "2.0.0"   => array( "Windows" => 14411719 , "Macintosh" => 1935724, "Total" => 16364533 ),
                     "2.0.1"   => array( "Windows" => 79744711,  "Macintosh" => 7756114, "Total" => 87552039 ),
-                    "2.0.2"   => array( "Windows" => 24679241,  "Macintosh" => 2918382, "Total" => 27631778 ),
-                    "2.0.3"   => array( "Windows" => 6713724 ,  "Macintosh" => 3148361, "Total" => 9873903  ),
+                    "2.0.2"   => array( "Windows" => 33934177,  "Macintosh" => 2972830, "Total" => 36952276 ),
+                    "2.0.3"   => array( "Windows" => 14560945,  "Macintosh" => 5265059, "Total" => 19861680 ),
     );
 
     foreach( $table as $key => $t )

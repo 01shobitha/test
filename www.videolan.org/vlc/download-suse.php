@@ -97,12 +97,12 @@ Have a lot of Fun.
 
 <h2><a name="cli">Install using command line</a></h2>
 <pre>
-sudo zypper ar http://download.videolan.org/pub/vlc/SuSE/&lt;openSUSEversion&gt; VLC
+sudo zypper ar http://download.videolan.org/pub/vlc/SuSE/&lt;SUSE version&gt; VLC
 sudo zypper mr -r VLC
 sudo zypper in vlc
 </pre>
 
-<p>openSUSEversion can be 11.1, 11.4, 12.1 or 12.2</p>
+<p>&lt;SUSE version&gt; can be 11.1, 11.4, 12.1 or 12.2, Tumbleweed, Factory</p>
 
 
 <?php footer('$Id$'); ?>

@@ -93,7 +93,7 @@ You're done with the installation.
 Have a lot of Fun.
 </p>
 
-<h2><a name="cli">Install using command line</h2>
+<h2><a name="cli">Install using command line</a></h2>
 <pre>
 sudo zypper ar http://download.videolan.org/pub/vlc/SuSE/&lt;openSUSEversion&gt; VLC
 sudo zypper mr -r VLC

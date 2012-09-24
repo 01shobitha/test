@@ -61,12 +61,14 @@ Directory: /pub/videolan/vlc/SuSE/&lt;SUSE Version&gt;
 <p>Replace &lt;SUSE Version&gt; in the Directory above with your installed SuSE
 Version. Supported at this time are :</p>
 <p>
-11.1<br />
-11.4<br />
-12.1<br />
-12.2<br />
-Tumbleweed<br />
-Factory<br />
+<ul>
+<li>12.2</li>
+<li>12.1</li>
+<li>11.4</li>
+<li>11.1</li>
+<li>Tumbleweed</li>
+<li>Factory</li>
+</ul>
 </p>
 <p>Finally, confirm the addition.<br />
 </p>

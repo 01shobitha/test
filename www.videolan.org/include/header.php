@@ -61,7 +61,7 @@ function StartHtml( $title, $color, $language,
         <meta http-equiv="Content-Language" content="<?php echo $language?>" />
 
         <meta name="Author" content="VideoLAN" />
-        <meta name="Keywords" content="VideoLAN, VLC, VLC player, VLC media player, download, 
+        <meta name="Keywords" content="VideoLAN, VLC, VLC player, VLC media player, download,
         media player, player download, codec, encoder, media converter, video, video player, multimedia, multicast,
         VLC, x264, DVBlast, Windows, Linux, Unix, BeOS, BSD, MacOS, MacOS X, OSX, Streaming,
         DVD, Matroska, Blu-Ray, FLV, Xvid, MPEG, MPEG2, MPEG4, H264, DivX, VideoLAN, MKV, m2ts,
@@ -81,7 +81,7 @@ function StartHtml( $title, $color, $language,
         echo "<!-- ".$root_filename[0]." -->";
         foreach($alternate_lang as $lang) {
             if( $lang == "en" )
-                echo  '<link rel="alternate" hreflang="'.$lang.'" href="/'.$root_filename[0].'.html" />'."\n"; 
+                echo  '<link rel="alternate" hreflang="'.$lang.'" href="/'.$root_filename[0].'.html" />'."\n";
             else
                 echo  '<link rel="alternate" hreflang="'.$lang.'" href="/'.$root_filename[0].'.'.$lang.'.html" />'."\n";
         }
@@ -188,7 +188,7 @@ function start_top( $body_color )
 }
 
 /* Menus */
-function draw_menus( $nobanner )
+function draw_menus( $nobanner, $alternate_lang )
 {
 ?>
 <div id='linkBar'>
@@ -265,6 +265,23 @@ function draw_menus( $nobanner )
       <a href='/developers/'><?php echo _("Dev' Zone"); ?></a>
    </div>
 </div>
+
+
+<div style="display: none;">
+<?php
+    if( isset($alternate_lang) ) {
+        $root_filename = explode('.', $_SERVER['SCRIPT_FILENAME'] );
+        foreach($alternate_lang as $lang) {
+            if( $lang == "en" )
+                echo  '<a href="/'.$root_filename[0].'.html">'.$lang.'</a>'."\n";
+            else
+                echo  '<a href="/'.$root_filename[0].'.'.$lang.'.html">'.$lang.'</a>'."\n";
+        }
+    }
+?>
+</div>
+
+
 <div class="clearme"></div>
 
 <?php
@@ -429,5 +446,5 @@ if(!isset($nobanner)) $nobanner = false;
 StartHtml( preg_replace( "/<[^>]*>/", "" , $title ), $body_color, $language,
            $additional_css, $additional_js, $alternate_lang, $body_onload, $body_onunload );
 start_top( $body_color );
-draw_menus( $nobanner);
+draw_menus( $nobanner, $alternate_lang );
 ?>

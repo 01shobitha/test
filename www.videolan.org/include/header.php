@@ -287,7 +287,7 @@ function draw_menus( $nobanner, $alternate_lang )
 <?php
     /* Event banner */
     if ( !$nobanner )
-    ;//    echo '<center><a href="https://packliberte.org/"><img alt="Pack Liberté" src="http://images1.videolan.org/images/events/animated_packliberte.gif" /></a></center>';
+    ;//    echo '<center><a href="https://packliberte.org/"><img alt="Pack Liberté" src="http://images.videolan.org/images/events/animated_packliberte.gif" /></a></center>';
     ?><?php
 }
 
@@ -421,7 +421,7 @@ function FormatSize($size) {
 
 /* Image function to hit the start server */
 function image( $src_img, $alt, $id = "" ) {
-    echo "<img src='//images1.videolan.org/images/".$src_img."' alt='".$alt."'";
+    echo "<img src='//images.videolan.org/images/".$src_img."' alt='".$alt."'";
     if( !empty( $id ) ) echo " class='$id'";
     echo " />\n";
 }

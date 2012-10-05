@@ -230,6 +230,7 @@ Marketing Europe GmbH, borrowed us a SC-XH150 setup consisting of a S/PDIF input
      companies and institutions who helped VideoLAN.</p>
 
      <ul class="bullets">
+         <li>La société <a href="http://www.nicolas-chevallier.fr/">GNI MEDIA SARL</a> for gave 500&euro; for the project.</li>
          <li>The global <a href="http://www.aoemedia.de/e-commerce/magento-commerce.html">Magento provider</a> and Open Source company <strong>AOE media</strong> for donating $500 to the VideoLAN project.</li>
          <li><strong>Freesecurity</strong>, who made a 540&euro; donation to the VideoLAN project</li>
          <li>The online magazine <a href="http://www.netzwelt.de"><strong>netzwelt.de</strong></a>, which is

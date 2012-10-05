@@ -29,10 +29,11 @@ There is absolutely NO SUPPORT for it from the VideoLAN Team.
                 <li class='macosx'  style="font-weight:bold"><a href='/build/macosx/?C=M;O=D'>Mac&nbsp;OS&nbsp;X PowerPC</a></li>
                 <li class='macosx'  style="font-weight:bold"><a href='/build/macosx-intel/?C=M;O=D'>Mac&nbsp;OS&nbsp;X Intel</a></li>
                 <li class='debian' ><a href='#ubuntu'>Ubuntu</a></li>
-                <li class='android' style="font-weight:bold"><a href='/build/android-v6-fpu/'>Android (ARMv6 with FPU)</a></li>
-                <li class='android' style="font-weight:bold"><a href='/build/android-v6-nofpu/'>Android (ARMv6 without FPU)</a></li>
-                <li class='android' style="font-weight:bold"><a href='/build/android-v7-neon/'>Android (Cortex-A8 with NEON)</a></li>
-                <li class='android' style="font-weight:bold"><a href='/build/android-v7-tegra2/'>Android (Cortex-A9 without NEON)</a></li>
+                <li class='android' style="font-weight:bold"><a href='/build/armv6-android-fpu/'>Android (ARMv6 with FPU)</a></li>
+                <li class='android' style="font-weight:bold"><a href='/build/armv6-android-nofpu/'>Android (ARMv6 without FPU)</a></li>
+                <li class='android' style="font-weight:bold"><a href='/build/armv7-android-neon/'>Android (Cortex-A8 with NEON)</a></li>
+                <li class='android' style="font-weight:bold"><a href='/build/armv7-android-tegra2/'>Android (Cortex-A9 without NEON)</a></li>
+                <li class='android' style="font-weight:bold"><a href='/build/x86-android/'>Android (x86)</a></li>
         </ul>
 </div>
 <div class="os2">

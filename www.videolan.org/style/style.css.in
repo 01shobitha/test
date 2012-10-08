@@ -55,7 +55,7 @@ ul, li
     font-family: "Raleway";
     font-style: normal;
     font-weight: 100;
-    src: local("Raleway Thin"), local("Raleway-Thin"), url("http://themes.googleusercontent.com/font?kit=RJMlAoFXXQEzZoMSUteGWKCWcynf_cDxXwCLxiixG1c") format("truetype");
+    src: local("Raleway Thin"), local("Raleway-Thin"), url("//themes.googleusercontent.com/font?kit=RJMlAoFXXQEzZoMSUteGWKCWcynf_cDxXwCLxiixG1c") format("truetype");
 }
 
 @font-face {
@@ -67,7 +67,7 @@ ul, li
 
 body
 {
-    background: #FFF url(http://images.videolan.org/style/images/background.png) repeat-x scroll top left;
+    background: #FFF url(//images.videolan.org/style/images/background.png) repeat-x scroll top left;
     text-align: center;
     font-family: Arial;
 }
@@ -167,13 +167,13 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 
 #donate
 {
-    behavior: url('://images.videolan.org/style/border-radius.htc');
+    behavior: url('//images.videolan.org/style/border-radius.htc');
     float: right;
     padding: 7px;
     padding-left: 10px;
     padding-right: 10px;
     margin-right: 10px;
-    background: #E7E7E7 url('://images.videolan.org/style/images/donateBackground.png') repeat-x fixed top left;
+    background: #E7E7E7 url('//images.videolan.org/style/images/donateBackground.png') repeat-x fixed top left;
     border: 1px solid #CCC;
     -moz-border-radius: 12px;
     -webkit-border-radius: 12px;
@@ -265,7 +265,7 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 
 #bodyInner
 {
-    background: transparent url(http://images.videolan.org/style/images/highlight.png) no-repeat scroll top left;
+    background: transparent url(//images.videolan.org/style/images/highlight.png) no-repeat scroll top left;
     padding: 12px 10px 40px;
     width: 980px;
     text-align: left;
@@ -398,7 +398,7 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 
 #downloadButton
 {
-    behavior:url(http://images.videolan.org/style/border-radius.htc);
+    behavior:url(//images.videolan.org/style/border-radius.htc);
     height: 53px;
     position: relative;
     clear: both;
@@ -440,7 +440,7 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 
 .normalButton
 {
-    behavior:url(http://images.videolan.org/style/border-radius.htc);
+    behavior:url(//images.videolan.org/style/border-radius.htc);
     height: 26px;
     position: relative;
     float: left;
@@ -468,7 +468,7 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 /* SUSE */
 .installbtn {
     float: right; width: 180px;  height: 60px;
-    background: transparent url(http://images.videolan.org/images/inst_btn.png) no-repeat scroll top left;
+    background: transparent url(//images.videolan.org/images/inst_btn.png) no-repeat scroll top left;
 }
 
 .installbtn a {
@@ -618,7 +618,7 @@ list-style-type: circle;
 #footer
 {
     background-color: white;
-    background-image: url('http://images.videolan.org/style/images/footerBackground.png');
+    background-image: url('//images.videolan.org/style/images/footerBackground.png');
     background-repeat: repeat-x;
 }
 .footer_col
@@ -677,12 +677,12 @@ list-style-type: circle;
 .orange #downloadButton, .orange .normalButton
 {
     color: white;
-    background: #F48B00 url(http://images.videolan.org/style/images/downloadButtonGradientOrange.png) repeat-x;
+    background: #F48B00 url(//images.videolan.org/style/images/downloadButtonGradientOrange.png) repeat-x;
 }
 
 .orange #downloadButton:hover, .orange .normalButton:hover
 {
-    background: #F48B00 url(http://images.videolan.org/style/images/downloadButtonGradientOrangeBright.png) repeat-x;
+    background: #F48B00 url(//images.videolan.org/style/images/downloadButtonGradientOrangeBright.png) repeat-x;
 }
 
 .orange .screenshot
@@ -712,12 +712,12 @@ list-style-type: circle;
 .red #downloadButton, .red .normalButton
 {
     color: white;
-    background: #ED1C24 url(http://images.videolan.org/style/images/downloadButtonGradientRed.png) repeat-x;
+    background: #ED1C24 url(//images.videolan.org/style/images/downloadButtonGradientRed.png) repeat-x;
 }
 
 .red #downloadButton:hover, .red .normalButton:hover
 {
-    background: #ED1C24 url(http://images.videolan.org/style/images/downloadButtonGradientRedBright.png) repeat-x;
+    background: #ED1C24 url(//images.videolan.org/style/images/downloadButtonGradientRedBright.png) repeat-x;
 }
 
 .red .screenshot
@@ -747,12 +747,12 @@ list-style-type: circle;
 .green #downloadButton
 {
     color: white;
-    background: #39B549 url(http://images.videolan.org/style/images/downloadButtonGradientGreen.png) repeat-x;
+    background: #39B549 url(//images.videolan.org/style/images/downloadButtonGradientGreen.png) repeat-x;
 }
 
 .green #downloadButton:hover
 {
-    background: #39B549 url(http://images.videolan.org/style/images/downloadButtonGradientGreenBright.png) repeat-x;
+    background: #39B549 url(//images.videolan.org/style/images/downloadButtonGradientGreenBright.png) repeat-x;
 }
 
 /* BLUE */
@@ -777,12 +777,12 @@ list-style-type: circle;
 .blue #downloadButton, .blue .normalButton
 {
     color: white;
-    background: #0070BB url(http://images.videolan.org/style/images/downloadButtonGradientBlue.png) repeat-x;
+    background: #0070BB url(//images.videolan.org/style/images/downloadButtonGradientBlue.png) repeat-x;
 }
 
 .blue #downloadButton:hover, .blue .normalButton:hover
 {
-    background: #0070BB url(http://images.videolan.org/style/images/downloadButtonGradientBlueBright.png) repeat-x;
+    background: #0070BB url(//images.videolan.org/style/images/downloadButtonGradientBlueBright.png) repeat-x;
 }
 
 .blue .productName
@@ -818,12 +818,12 @@ list-style-type: circle;
 .pink #downloadButton
 {
     color: white;
-    background: #D3135A url(http://images.videolan.org/style/images/downloadButtonGradientPink.png) repeat-x;
+    background: #D3135A url(//images.videolan.org/style/images/downloadButtonGradientPink.png) repeat-x;
 }
 
 .pink #downloadButton:hover
 {
-    background: #D3135A url(http://images.videolan.org/style/images/downloadButtonGradientPinkBright.png) repeat-x;
+    background: #D3135A url(//images.videolan.org/style/images/downloadButtonGradientPinkBright.png) repeat-x;
 }
 
 .pink .productName

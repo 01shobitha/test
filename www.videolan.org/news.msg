@@ -1,7 +1,7 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
-|18 Octoner 2012|VLC 2.0.4|VideoLAN and the VLC development team present the fifth version of "Twoflower", a major update that fixes a lot of regressions, issues and security issues in this branch.<br />It introduces Opus support, improves Youtube, Vimeo streams and Blu-Ray dics support. It also fixes many issues in playback, notably on Ogg and MKV playback and audio device selections and a hundred of other bugs.<br />More info in <a href="/vlc/releases/2.0.4.html">the release notes</a>.
+|18 October 2012|VLC 2.0.4|VideoLAN and the VLC development team present the fifth version of "Twoflower", a major update that fixes a lot of regressions, issues and security issues in this branch.<br />It introduces Opus support, improves Youtube, Vimeo streams and Blu-Ray dics support. It also fixes many issues in playback, notably on Ogg and MKV playback and audio device selections and a hundred of other bugs.<br />More info in <a href="/vlc/releases/2.0.4.html">the release notes</a>.
 
 |4 June 2012|World IPv6 Launch|The VideoLAN organization is taking part in the <a href="http://www.worldipv6launch.org">World IPv6 launch</a> on June 6. All services including the website, the forums, the bugtracker and the git server are now accessible via IPv6.
 |1 August 2012|Updated 2.0.3 builds for Mac OS X|A small number of users on specific setups experienced audio issues with the latest version of VLC media player for Mac OS X. If you are affected, please download VLC again and replace the existing installation. If you're not, there is nothing to do.

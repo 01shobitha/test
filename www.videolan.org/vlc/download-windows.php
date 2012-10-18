@@ -18,16 +18,16 @@
 </div>
 <div id="left">
 
-<?php $vlc_version = '2.0.3'; ?>
+<?php $vlc_version = '2.0.4'; ?>
 <h1>Download latest VLC - <?php echo $vlc_version; ?></h2>
 <p>VLC currently supports <b>Windows XP SP2 or later</b>.</p>
 <?php
     pkgitem_sf("Installer package",
-                   "$vlc_version/win32","vlc-$vlc_version-win32.exe","vlc", "Exe installer",         "ba39d5def71d5193ade6bfb24672a487") ;
+                   "$vlc_version/win32","vlc-$vlc_version-win32.exe","vlc", "Exe installer",         "e03f2f24bca457a35e1e26732afe4a2f") ;
     pkgitem_sf("7zip package",
-                  "$vlc_version/win32","vlc-$vlc_version-win32.7z",  "vlc", "(No installer needed)", "6663305708646ed7177d14dc48238f6e" );
+                  "$vlc_version/win32","vlc-$vlc_version-win32.7z",  "vlc", "(No installer needed)", "847c420643be12bc767731e94ddb9855" );
     pkgitem_sf("Zip package",
-                  "$vlc_version/win32","vlc-$vlc_version-win32.zip", "vlc", "(No installer needed)", "e6faf4f33b32688ef9fbe8d6d71f7a8f" );
+                  "$vlc_version/win32","vlc-$vlc_version-win32.zip", "vlc", "(No installer needed)", "abe55b0389c467f83eeaeab9895c842b" );
 ?>
 
 <div class="clearme"> </div>

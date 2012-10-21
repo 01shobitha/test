@@ -14,6 +14,7 @@ function StartHtml( $title, $color, $language,
 
     if ($language != "en" ) {
         switch ($language) {
+        case 'ast': $locale = "ast.UTF-8"; break;        
         case 'bg': $locale = "bg_BG.UTF-8"; break;
         case 'bs': $locale = "bs_BA.UTF-8"; break;
         case 'by': $locale = "by_BY.UTF-8"; break;

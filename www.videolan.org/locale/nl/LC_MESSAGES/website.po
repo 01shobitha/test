@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-17 14:56+0200\n"
-"PO-Revision-Date: 2012-08-30 08:32+0000\n"
+"PO-Revision-Date: 2012-08-30 10:07+0000\n"
 "Last-Translator: Thomas De Rocker <thomasderocker@hotmail.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/projects/p/vlc-trans/language/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -203,7 +203,7 @@ msgstr "Voor professionals"
 #: index.php:66
 msgid ""
 "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
-msgstr "DVBlast is een simpele en krachtige MPEG-2/TS demux- en streaming-applicatie"
+msgstr "DVBlast is een simpele en krachtige MPEG-2/TS demux- en streaming-toepassing"
 
 #: index.php:74
 msgid ""
@@ -215,7 +215,7 @@ msgstr "multicat is een verzameling gereedschappen die ontwikkeld zijn om gemakk
 msgid ""
 "x264 is a free application for encoding video streams into the H.264/MPEG-4 "
 "AVC format."
-msgstr "x264 is een vrije toepassing om videostreams te coderen in het H.264/MPEG-4 AVC-formaat."
+msgstr "x264 is een gratis toepassing om videostreams te coderen in het H.264/MPEG-4 AVC-formaat."
 
 #: index.php:91
 msgid "For Developers"
@@ -297,7 +297,7 @@ msgstr "Speelt de meeste codecs zonder noodzaak voor codec packs:"
 
 #: vlc/index.php:47
 msgid "Runs on all platforms:"
-msgstr "Draait op alle platforms:"
+msgstr "Draait op alle besturingssystemen:"
 
 #: vlc/index.php:49
 msgid "Completely Free, 0 spyware, 0 ads and no user tracking."

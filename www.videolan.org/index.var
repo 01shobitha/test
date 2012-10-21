@@ -75,3 +75,7 @@ Content-language: nl
 URI: index.ast.html
 Content-type: text/html
 Content-language: ast
+
+URI: index.pt.html
+Content-type: text/html
+Content-language: pt

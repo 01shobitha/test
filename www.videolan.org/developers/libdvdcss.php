@@ -25,7 +25,7 @@ DVDs like a block device without having to bother about the decryption. </p>
 
 <h2>Get libdvdcss</h2>
 
-<p> Last version of <code>libdvdcss</code> is <b>1.2.11</b>. </p>
+<p> Last version of <code>libdvdcss</code> is <b>1.2.12</b>. </p>
 <p> <code>libdvdcss</code> is available through <a href="http://wiki.videolan.org/Subversion">Subversion</a> or
 by browsing the <a href="http://www.videolan.org/pub/libdvdcss/">releases</a>.
 </p>

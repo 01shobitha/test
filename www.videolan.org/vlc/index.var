@@ -64,11 +64,11 @@ URI: index.mr.html
 Content-type: text/html
 Content-language: mr
 
-URI: index.bs.html  
+URI: index.bs.html
 Content-type: text/html
 Content-language: bs
 
-URI: index.nl.html  
+URI: index.nl.html
 Content-type: text/html
 Content-language: nl
 
@@ -79,3 +79,7 @@ Content-language: ast
 URI: index.pt.html
 Content-type: text/html
 Content-language: pt
+
+URI: index.pt_BR.html
+Content-type: text/html
+Content-language: pt-PT

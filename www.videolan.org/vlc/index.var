@@ -80,6 +80,6 @@ URI: index.pt.html
 Content-type: text/html
 Content-language: pt
 
-URI: index.pt-br.html
+URI: index.pt_BR.html
 Content-type: text/html
 Content-language: pt-br

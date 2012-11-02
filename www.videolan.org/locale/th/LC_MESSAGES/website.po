@@ -1,0 +1,342 @@
+# Thai translation
+# Copyright (C) 2012 VideoLAN
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# AriesAnywhere Anywhere <ariesanywhere@gmail.com>, 2012.
+#   <jaideejung007@gmail.com>, 2012.
+#   <jernghan@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: VLC - Trans\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-17 14:56+0200\n"
+"PO-Revision-Date: 2012-10-09 03:02+0000\n"
+"Last-Translator: jaideejung007 <jaideejung007@gmail.com>\n"
+"Language-Team: Thai (http://www.transifex.com/projects/p/vlc-trans/language/th/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: th\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: include/header.php:142
+msgid "A project and a"
+msgstr "หนึ่งโครงการและหนึ่ง"
+
+#: include/header.php:142
+msgid "non-profit organization"
+msgstr "องค์กรไม่แสวงผลกำไร"
+
+#: include/header.php:143
+msgid ""
+"composed of volunteers, developing and promoting free, open-source "
+"multimedia solutions."
+msgstr "ประกอบไปด้วยกลุ่มอาสาสมัครเสรีในการพัฒนาและการประชาสัมพันธ์ การเข้าใช้สื่อประสมด้วยโอเพนซอร์ส"
+
+#: include/header.php:147
+msgid "DONATE"
+msgstr "บริจาค"
+
+#: include/header.php:147
+msgid "why?"
+msgstr "ทำไม?"
+
+#: include/header.php:161 include/header.php:175
+msgid "donate"
+msgstr "บริจาค"
+
+#: include/header.php:194
+msgid "Home"
+msgstr "หน้าเริ่มต้น"
+
+#: include/header.php:197 include/header.php:339
+msgid "News"
+msgstr "ข่าว"
+
+#: include/header.php:202 include/header.php:330
+msgid "Project and Organization"
+msgstr "โครงการและองค์กร"
+
+#: include/header.php:203 include/header.php:331
+msgid "Team"
+msgstr "ทีมงาน"
+
+#: include/header.php:204 include/header.php:333
+msgid "Contact us"
+msgstr "ติดต่อพวกเรา"
+
+#: include/header.php:205 include/header.php:334
+msgid "Partners"
+msgstr "หุ้นส่วน"
+
+#: include/header.php:206 include/header.php:335
+msgid "Press center"
+msgstr "ศูนย์ข่าวสาร"
+
+#: include/header.php:207 include/header.php:336
+msgid "Events"
+msgstr "กิจกรรม"
+
+#: include/header.php:208 include/header.php:337
+msgid "Security center"
+msgstr "ศูนย์รักษาความปลอดภัย"
+
+#: include/header.php:214
+msgid "Download"
+msgstr "ดาวน์โหลด"
+
+#: include/header.php:215 include/header.php:294 index.php:28 vlc/index.php:22
+#: vlc/index.php:39
+msgid "Features"
+msgstr "คุณสมบัติ"
+
+#: include/header.php:216 include/header.php:295 index.php:29 vlc/index.php:23
+#: vlc/index.php:65
+msgid "Screenshots"
+msgstr "ภาพตัวอย่าง"
+
+#: include/header.php:217 include/header.php:292 index.php:30 vlc/index.php:24
+msgid "Skins"
+msgstr "หน้ากาก"
+
+#: include/header.php:218 include/header.php:293
+msgid "Extensions"
+msgstr "ส่วนขยาย"
+
+#: include/header.php:222
+msgid "Projects"
+msgstr "โครงการ"
+
+#: include/header.php:239 include/header.php:299
+msgid "All Projects"
+msgstr "โครงการทั้งหมด"
+
+#: include/header.php:243 index.php:119
+msgid "Contribute"
+msgstr "สมทบทุน"
+
+#: include/header.php:245 include/header.php:323
+msgid "Donate time"
+msgstr "สละเวลา"
+
+#: include/header.php:246 include/header.php:322
+msgid "Donate money"
+msgstr "บริจาคเงิน"
+
+#: include/header.php:247 include/header.php:324
+msgid "Get Goodies"
+msgstr "บริจาคสิ่งของ"
+
+#: include/header.php:251
+msgid "Support"
+msgstr "การบริการ"
+
+#: include/header.php:253
+msgid "Support center"
+msgstr "ศูนย์การบริการ"
+
+#: include/header.php:255 include/header.php:332 include/header.php:345
+msgid "Legal"
+msgstr "ข้อตกลงทางกฎหมาย"
+
+#: include/header.php:258 include/header.php:320
+msgid "Mailing-Lists"
+msgstr "อีเมลข่าวสาร"
+
+#: include/header.php:259
+msgid "Report a bug"
+msgstr "รายงานบั๊ก"
+
+#: include/header.php:263
+msgid "Dev' Zone"
+msgstr "นักพัฒฯ"
+
+#: include/header.php:316
+msgid "Community"
+msgstr "ชุมชน"
+
+#: include/header.php:338
+msgid "Get Involved"
+msgstr "เข้าร่วม"
+
+#: include/os-specific.php:85 vlc/index.php:27
+msgid "Download VLC"
+msgstr "ดาวน์โหลด VLC"
+
+#: include/os-specific.php:91 vlc/index.php:34
+msgid "Other Systems and Versions"
+msgstr "รุ่นและระบบปฏิบัติการอื่นๆ"
+
+#: index.php:3
+msgid "VLC: Official site - Free multimedia solutions for all OS!"
+msgstr "VLC:  เว็บไซต์  - การเข้าใช้สื่อประสมโดยไม่เสียต่าใช้จ่าย ทุกระบบปฏิบัติการ! "
+
+#: index.php:26 vlc/index.php:20
+msgid ""
+"VLC is a free and open source cross-platform multimedia player and framework"
+" that plays most multimedia files as well as DVD, Audio CD, VCD, and various"
+" streaming protocols."
+msgstr "VLC ฟรีและเป็นโปรแกรมโอเพนซอร์สในการเล่นสื่อประสม ข้ามแพลตฟอร์ม และยังสามารถเล่นทุกแฟ้มสื่อประสมได้เป็นอย่างดี เช่น DVD, CD เสียง, VCD  และโปรโตคอลทำแสข้อมูลต่างๆ "
+
+#: index.php:36
+msgid "Other projects from VideoLAN"
+msgstr "โครงการอื่นๆ ของ VideoLAN"
+
+#: index.php:38
+msgid "For Everyone"
+msgstr "สำหรับผู้ใช้ทั่วไป"
+
+#: index.php:44
+msgid ""
+"VLC is a powerful media player playing most of the media codecs and video "
+"formats out there."
+msgstr "VLC คือ โปรแกรมเล่นสื่ออันทรงประสิทธิภาพ ซึ่งเล่นได้กับทุกตัวถอด/ลงรหัส และสื่อวีดิทัศน์รูปแบบต่าง ๆ"
+
+#: index.php:53
+msgid ""
+"VideoLAN Movie Creator is a non-linear editing software for video creation."
+msgstr "โปรแกรมสร้างภาพยนตร์ VideoLAN คือ ซอร์ฟแวร์แทรกลำดับแก้ไข สำหรับการสร้างวีดิทัศน์"
+
+#: index.php:60
+msgid "For Professionals"
+msgstr "สำหรับผู้ใช้ชำนาญการ"
+
+#: index.php:66
+msgid ""
+"DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
+msgstr "DVBlast คือ โปรแกรมทำกระกระแสและรวมกระแส MPEG-2/TS อันทรงประสิทธิภาพ และเรียบง่ายต่อการใช้งาน"
+
+#: index.php:74
+msgid ""
+"multicat is a set of tools designed to easily and efficiently manipulate "
+"multicast streams and TS."
+msgstr "multicat คือชุดของเครื่องมือที่ออกแบบมาเพื่อให้ง่ายต่อการจัดการและมีประสิทธิภาพในการใช้กระแสของ multicast และ TS"
+
+#: index.php:83
+msgid ""
+"x264 is a free application for encoding video streams into the H.264/MPEG-4 "
+"AVC format."
+msgstr "x264 คือ โปรแกรมฟรี สำหรับการลงรหัสกระแสวีดิทัศน์ให้เป็นรูปแบบ H.264/MPEG-4 AVC"
+
+#: index.php:91
+msgid "For Developers"
+msgstr "สำหรับนักพัฒนา"
+
+#: index.php:102
+msgid "View All Projects"
+msgstr "ดูโครงการทั้งหมด"
+
+#: index.php:105
+msgid "Help us out!"
+msgstr "ช่วยพวกเราที!"
+
+#: index.php:107
+msgid "Donate"
+msgstr "บริจาค"
+
+#: index.php:111
+msgid "VideoLAN is a non-profit organization."
+msgstr "VideoLAN เป็นองค์กรไม่แสวงหากำไร"
+
+#: index.php:112
+msgid ""
+" All our costs are met by donations we receive from our users. If you enjoy "
+"using a VideoLAN product, please donate to support us."
+msgstr "ค่าใช้จ่ายทั้งหมดของพวกเรา ใช้จ่ายด้วยการบริจาคซึ่งมาจากผู้ใช้ของพวกเรา หากคุณพึงพอใจในผลิตภัณฑ์ของ VideoLAN โปรดบริจาคเพื่อสนับสนุนพวกเรา"
+
+#: index.php:114 index.php:126 index.php:137
+msgid "Learn More"
+msgstr "เรียนรู้เพิ่มเติม"
+
+#: index.php:123
+msgid "VideoLAN is open-source software."
+msgstr "VideoLAN เป็นซอฟท์แวร์แบบโอเพนซอร์ส"
+
+#: index.php:124
+msgid ""
+"This means that if you have the skill and the desire to improve one of our "
+"products, your contributions are welcome"
+msgstr "นั่นหมายความว่าหากคุณมีทักษะ และต้องการพัฒนาหนึ่งในผลิตภัณฑ์ของพวกเรา ๆ ยินดีตอนรับการสนับสนุนจากคุณ"
+
+#: index.php:131
+msgid "Spread the Word"
+msgstr "บอกต่อ"
+
+#: index.php:135
+msgid ""
+"We feel that VideoLAN has the best video software available at the best "
+"price: free. If you agree please help spread the word about our software."
+msgstr "พวกเราเห็นว่า VideoLAN มีซอฟต์แวร์ด้านวีดิทัศน์ในราคาที่เหมาะสมที่สุด: คือไม่เสียค่าใช้จ่าย ถ้าคุณเห็นด้วย กรุณาบอกต่อเกี่ยวกับซอฟต์แวร์ของพวกเรา"
+
+#: index.php:407
+msgid "News &amp; Updates"
+msgstr "ข่าว &amp; การปรับรุ่น"
+
+#: index.php:411
+msgid "Development Blogs"
+msgstr "บล็อกข่าวการพัฒนา"
+
+#: index.php:434
+msgid "Social media"
+msgstr "สังคมออนไลน์"
+
+#: vlc/index.php:3
+msgid "Official page for VLC media player, the Open Source video framework!"
+msgstr "หน้าเว็บอย่างเป็นทางการของ VLC media player เฟรมเวิร์กสำหรับวีดีโอแบบเปิดเผยซอร์สโค้ด"
+
+#: vlc/index.php:40
+msgid "Simple, fast and powerful media player."
+msgstr "โปรแกรมเล่นสื่อที่เรียบง่าย รวดเร็ว และทรงพลัง"
+
+#: vlc/index.php:42
+msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
+msgstr "เล่นได้กับทุกๆ : แฟ้ม แผ่นดิสก์ เว็บแคม อุปกรณ์ และกระแสข้อมูล"
+
+#: vlc/index.php:44
+msgid "Plays most codecs with no codec packs needed:"
+msgstr "เล่นได้กับตัวถอด/ลงรหัสส่วนมาก โดยไม่จำเป็นต้องลงชุดตัวถอด/ลงรหัส:"
+
+#: vlc/index.php:47
+msgid "Runs on all platforms:"
+msgstr "เล่นได้ทุกแพลตฟอร์ม "
+
+#: vlc/index.php:49
+msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
+msgstr "ฟรีอย่างแท้จริง สปายแวร์รวมถึงโฆษณาเป็น 0 และไม่จัดเก็บพฤติกรรมการใช้งานของผู้ใช้"
+
+#: vlc/index.php:51
+msgid "Can do media conversion and streaming."
+msgstr "สามารถแปลงและทำกระแสสื่อได้"
+
+#: vlc/index.php:53
+msgid "Discover all features"
+msgstr "ศึกษาความสามารถทั้งหมด"
+
+#: vlc/index.php:87
+msgid "View all screenshots"
+msgstr "ชมภาพตัวอย่างทั้งหมด"
+
+#: vlc/index.php:94
+msgid "Get VLC for"
+msgstr "เลือก VLC สำหรับ"
+
+#: vlc/index.php:98
+msgid "Official Downloads of VLC media player"
+msgstr "การดาวน์โหลดต่างๆ ของโปรแกรมเล่นสื่อ VLC อย่างเป็นทางการ"
+
+#: vlc/index.php:105
+msgid "Sources"
+msgstr "ข้อมูลต้นฉบับ"
+
+#: vlc/index.php:106
+msgid "You can also directly get the"
+msgstr "คุณสามารถรับ"
+
+#: vlc/index.php:107
+msgid "source code"
+msgstr "ซอร์สโค้ด"
+
+#: vlc/index.php:128
+msgid "Other OS"
+msgstr "OS อื่น"

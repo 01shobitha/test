@@ -83,3 +83,15 @@ Content-language: pt
 URI: index.pt_BR.html
 Content-type: text/html
 Content-language: pt-br
+
+URI: index.bn_IN.html
+Content-type: text/html
+Content-language: bn-in
+
+URI: index.gu_IN.html
+Content-type: text/html
+Content-language: gu-in
+
+URI: index.th.html
+Content-type: text/html
+Content-language: th

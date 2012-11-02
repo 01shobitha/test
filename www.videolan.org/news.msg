@@ -1,6 +1,12 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|02 November 2012|VideoLAN Security Advisory 1203|VLC media player versions 2.0.3 and older suffer from a critical buffer overflow vulnerability.
+<a href="http://www.videolan.org/security/sa1203.html">Refer to our advisory</a>
+for technical details.
+A fix for this issue is already available in VLC 2.0.4.
+We strongly recommend all users to update to this new version.
+
 |18 October 2012|VLC 2.0.4|VideoLAN and the VLC development team present the fifth version of "Twoflower", a major update that fixes a lot of regressions, issues and security issues in this branch.<br />It introduces Opus support, improves Youtube, Vimeo streams and Blu-Ray dics support. It also fixes many issues in playback, notably on Ogg and MKV playback and audio device selections and a hundred of other bugs.<br />More info in <a href="/vlc/releases/2.0.4.html">the release notes</a>.
 
 |4 June 2012|World IPv6 Launch|The VideoLAN organization is taking part in the <a href="http://www.worldipv6launch.org">World IPv6 launch</a> on June 6. All services including the website, the forums, the bugtracker and the git server are now accessible via IPv6.

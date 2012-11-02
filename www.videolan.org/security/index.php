@@ -28,6 +28,11 @@ Please refer to the concerned third parties as appropriate.
 <h2>2012</h2>
 <dl>
 
+<dt>VideoLAN-SA-1203 (CVE-2012-5470)</dt>
+<dd>Overflow in PNG decoder
+ <a href="sa1203.html">Details</a>
+</dd>
+
 <dt>VideoLAN-SA-1202 (CVE-2012-1776)</dt>
 <dd>Heap overflows in Real RTPS protocol
  <a href="sa1202.html">Details</a>

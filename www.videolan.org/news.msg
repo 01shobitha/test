@@ -265,7 +265,7 @@ We would like to thank the four companies that sponsor us: <a href="http://www.a
 
 |08 December 2008| VLC 0.9.8a binaries for Windows and Mac OS|VLC media player 0.9.8a binaries for <a href="http://www.videolan.org/vlc/download-windows.html">Windows</a> and <a href="http://www.videolan.org/vlc/download-macosx.html">MacOS</a> are now available.<br />
 We strongly recommend all users to update to this new version.
-|03 December 2008| VideoLAN Security Advisory 0811 | VLC media player versions 0.9.8 and older suffer from a critical buffer overflow vulnerabilities.
+|03 December 2008| VideoLAN Security Advisory 0811 | VLC media player versions 0.9.8 and older suffer from a critical buffer overflow vulnerability.
 <a href="http://www.videolan.org/security/sa0811.html">Refer to our advisory</a>
 for technical details.
 Fixes for this issue is available in VLC 0.9.8a.

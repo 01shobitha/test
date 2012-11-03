@@ -22,8 +22,11 @@ a buffer overflow might occur.
 </p>
 <h2>Impact</h2>
 <p>If successful,
-a malicious third party could trigger execution of arbitrary code
-within the context of the VLC media player.
+a malicious third party could trigger an invalid memory access,
+leading to a crash of the process of the VLC media player.
+</p>
+<p>Because the overflow occurs while reading a buffer, rather than writing,
+it is believed that this issue cannot lead to arbitrary code execution.
 </p>
 <h2>Threat mitigation</h2>
 <p>Exploitation of this issue requires the user
@@ -64,6 +67,8 @@ from the official VLC source code repository 2.0 and 1.1 branches.
 <dt>2 November 2012</dt>
 <dd>Security advisory published.</dd>
 <dd>CVE reference.</dd>
+<dt>3 November 2012</dt>
+<dd>Security advisory updated.</dd>
 </dl>
 
 <address>R&eacute;mi Denis-Courmont,<br />

@@ -62,7 +62,7 @@ from the official VLC source code repository 2.0 and 1.1 branches.
 <dl>
 <dt>14 October 2012</dt>
 <dd>Patch for VLC development version.</dd>
-<dt>15 October 2008</dt>
+<dt>15 October 2012</dt>
 <dd>VLC media player 2.0.4 released.</dd>
 <dt>2 November 2012</dt>
 <dd>Security advisory published.</dd>

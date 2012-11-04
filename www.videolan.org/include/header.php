@@ -16,6 +16,7 @@ function StartHtml( $title, $color, $language,
         switch ($language) {
         case 'ast': $locale = "ast_ES.utf8"; break;
         case 'bg': $locale = "bg_BG.UTF-8"; break;
+        case 'bn': $locale = "bn_IN"; break;
         case 'bs': $locale = "bs_BA.UTF-8"; break;
         case 'by': $locale = "by_BY.UTF-8"; break;
         case 'cs': $locale = "cs_CZ.UTF-8"; break;
@@ -29,6 +30,7 @@ function StartHtml( $title, $color, $language,
         case 'ge': $locale = "ge_GE.UTF-8"; break;
         case 'gl': $locale = "gl_ES.UTF-8"; break;
         case 'gr': $locale = "gr_GR.UTF-8"; break;
+        case 'gu': $locale = "gu_IN"; break;
         case 'he': $locale = "he_IL.UTF-8"; break;
         case 'hi': $locale = "hi_IN.UTF-8"; break;
         case 'ja': $locale = "ja_JP.UTF-8"; break;
@@ -41,6 +43,7 @@ function StartHtml( $title, $color, $language,
         case 'pt': $locale = "pt_PT.UTF-8"; break;
         case 'ro': $locale = "ro_RO.UTF-8"; break;
         case 'ru': $locale = "ru_RU.UTF-8"; break;
+        case 'th': $locale = "th_TH.UTF-8"; break;
         case 'tr': $locale = "tr_TR.UTF-8"; break;
         case 'wa': $locale = "wa_BE.UTF-8"; break;
         case 'zh': $locale = "zh_CN.UTF-8"; break;

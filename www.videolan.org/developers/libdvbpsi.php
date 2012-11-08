@@ -22,6 +22,7 @@ and ITU-T H.222.0.</p>
   <li> Splice Information Section Table (SIS), decoder and generator. </li>
   <li> TOT Table (TOT), decoder and generator. </li>
   <li> All MPEG 2 descriptors, decoders and generators. </li>
+  <li> ATSC EIT, ETT, MGT, STT and VCT decoders.</li>
   <li> Supported platforms GNU/Linux, *BSD, Windows and MacOS X. </li>
   <li> Version 0.2.0 and up have LGPL v2.1 license for easy integration in applications. </li>
   <li> Versions prior to 0.2.0 are released under GPLv2. </li>
@@ -29,7 +30,7 @@ and ITU-T H.222.0.</p>
 
 <h2>Get libdvbpsi</h2>
 
-<p>A pre-release of <code>libdvbpsi</code> (LGPL v2.1) is available with <a href="http://www.videolan.org/pub/libdvbpsi/1.0.0/"><b>version 1.0.0_pre2</b></a>.</p>
+<p>A pre-release of <code>libdvbpsi</code> (LGPL v2.1) is available with <a href="http://www.videolan.org/pub/libdvbpsi/1.0.0/"><b>version 1.0.0_pre3</b></a>.</p>
 <p>The latest <code>libdvbpsi</code> LGPL v2.1 release is <a href="http://www.videolan.org/pub/libdvbpsi/0.2.2/"><b>version 0.2.2</b></a>.</p>
 <p>The latest <code>libdvbpsi</code> GPL v2 release is <a href="http://www.videolan.org/pub/libdvbpsi/0.1.7/"><b>version 0.1.7</b></a>.</p>
 <p> <code>libdvbpsi</code> is available through <a href="http://wiki.videolan.org/git">git</a> at:<br />

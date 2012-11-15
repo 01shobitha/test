@@ -31,7 +31,7 @@ There is absolutely NO SUPPORT for it from the VideoLAN Team.
                 <li class='debian' ><a href='#ubuntu'>Ubuntu</a></li>
                 <li class='android' style="font-weight:bold"><a href='/build/armv6-android-fpu/'>Android (ARMv6 with FPU)</a></li>
                 <li class='android' style="font-weight:bold"><a href='/build/armv6-android-nofpu/'>Android (ARMv6 without FPU)</a></li>
-                <li class='android' style="font-weight:bold"><a href='/build/armv7-android-neon/'>Android (Cortex-A8 or more recent)</a></li>
+                <li class='android' style="font-weight:bold"><a href='/build/armv7-android-neon/'>Android (ARMv7-A)</a></li>
                 <li class='android' style="font-weight:bold"><a href='/build/x86-android/'>Android (x86)</a></li>
         </ul>
 </div>

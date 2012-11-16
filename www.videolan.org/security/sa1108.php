@@ -14,7 +14,7 @@ Summary           : Heap corruption in VLC TiVo demuxer
 Date              : December 2011
 Affected versions : VLC media player 1.1.12 down to 0.9.0
 ID                : VideoLAN-SA-1108
-CVE reference     : unassigned
+CVE reference     : CVE-2012-0023
 </pre>
 <h2>Details</h2>
 <p>When parsing the header of an invalid TY file, the heap might be corrupted.

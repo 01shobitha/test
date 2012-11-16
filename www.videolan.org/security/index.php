@@ -46,7 +46,7 @@ Please refer to the concerned third parties as appropriate.
 
 <h2>2011</h2>
 <dl>
-<dt>VideoLAN-SA-1108 (CVE-2011-XXXX)</dt>
+<dt>VideoLAN-SA-1108 (CVE-2012-0023)</dt>
 <dd>Heap corruption in TiVo demuxer.
  <a href="sa1108.html">Details</a>
 </dd>

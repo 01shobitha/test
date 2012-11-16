@@ -3,21 +3,21 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-#   <khoemsokhem@khmeros.info>, 2012.
 # Khoem Sokhem <khoemsokhem@khmeros.info>, 2012.
+#   <sokhem@open.org.kh>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-17 14:56+0200\n"
-"PO-Revision-Date: 2012-08-27 02:41+0000\n"
-"Last-Translator: khoemsokhem <khoemsokhem@khmeros.info>\n"
+"PO-Revision-Date: 2012-11-07 03:06+0000\n"
+"Last-Translator: khoemsokhem <sokhem@open.org.kh>\n"
 "Language-Team: Khmer (http://www.transifex.com/projects/p/vlc-trans/language/km/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: km\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: include/header.php:142
 msgid "A project and a"
@@ -125,7 +125,7 @@ msgstr "​ឧបត្ថម្ភ​ជា​​ថវិកា"
 
 #: include/header.php:247 include/header.php:324
 msgid "Get Goodies"
-msgstr "យក​របស់​របរ​"
+msgstr "យក​ធាតុ​ផ្សេងៗ"
 
 #: include/header.php:251
 msgid "Support"
@@ -286,7 +286,7 @@ msgstr "ទំព័រ​ផ្លូវការ​សម្រាប់​ម
 
 #: vlc/index.php:40
 msgid "Simple, fast and powerful media player."
-msgstr "កម្មវិធី​ចាក់​មេឌៀ​សាមញ្ញ លឿឿន ិង​មាន​អនុភាព ។."
+msgstr "កម្មវិធី​ចាក់​មេឌៀ​សាមញ្ញ លឿន និង​​មាន​អនុភាព ។"
 
 #: vlc/index.php:42
 msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."

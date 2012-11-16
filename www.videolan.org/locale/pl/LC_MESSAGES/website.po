@@ -307,7 +307,7 @@ msgstr "Całkowicie za darmo, 0 oprogramowania szpiegującego, 0 reklam i żadne
 
 #: vlc/index.php:51
 msgid "Can do media conversion and streaming."
-msgstr "Potrafi konwersować multimedia i transmisje strumieniowe."
+msgstr "Potrafi konwertować multimedia i transmisje strumieniowe."
 
 #: vlc/index.php:53
 msgid "Discover all features"

@@ -80,9 +80,9 @@
     }
 
     /* Sourceforge Downloads, from the json auth section
-      https://sourceforge.net/projects/vlc/files/2.0.1/stats/json?start_date=2010-06-21&end_date=2012-12-30
-      https://sourceforge.net/projects/vlc/files/2.0.1/macosx/stats/json?start_date=2010-06-21&end_date=2012-12-30
-      https://sourceforge.net/projects/vlc/files/2.0.1/win32/stats/json?start_date=2010-06-21&end_date=2012-12-30 */
+      https://sourceforge.net/projects/vlc/files/2.0.4/stats/json?start_date=2010-06-21&end_date=2012-12-30
+      https://sourceforge.net/projects/vlc/files/2.0.4/macosx/stats/json?start_date=2010-06-21&end_date=2012-12-30
+      https://sourceforge.net/projects/vlc/files/2.0.4/win32/stats/json?start_date=2010-06-21&end_date=2012-12-30 */
     $table = array( "1.1.0"   => array( "Windows" => 15352734,  "Macintosh" => 2538263, "Total" => 17940200 ),
                     "1.1.1"   => array( "Windows" => 5396669 ,  "Macintosh" => 536578 , "Total" => 5946075 ),
                     "1.1.2"   => array( "Windows" => 11420722,  "Macintosh" => 1630259, "Total" => 13089561 ),
@@ -98,9 +98,10 @@
                     "1.1.12"  => array( "Windows" => 0        , "Macintosh" => 8870000, "Total" => 8952539  ),
                     "1.1.13"  => array( "Windows" => 0        , "Macintosh" => 0,       "Total" => 598  ),
                     "2.0.0"   => array( "Windows" => 14411719 , "Macintosh" => 1935724, "Total" => 16364533 ),
-                    "2.0.1"   => array( "Windows" => 79744711,  "Macintosh" => 7756114, "Total" => 87552039 ),
-                    "2.0.2"   => array( "Windows" => 33934177,  "Macintosh" => 2972830, "Total" => 36952276 ),
-                    "2.0.3"   => array( "Windows" => 14560945,  "Macintosh" => 5265059, "Total" => 19861680 ),
+                    "2.0.1"   => array( "Windows" => 80222282,  "Macintosh" => 7768126, "Total" => 88042742 ),
+                    "2.0.2"   => array( "Windows" => 45125602,  "Macintosh" => 3051816, "Total" => 48239203 ),
+                    "2.0.3"   => array( "Windows" => 23382860,  "Macintosh" => 7090157, "Total" => 30539419 ),
+                    "2.0.4"   => array( "Windows" => 19317197,  "Macintosh" => 3753780, "Total" => 23102038 ),
     );
 
     foreach( $table as $key => $t )

@@ -15,7 +15,7 @@
 <p>This change of license was an initiative started by some of VLC's main developers and is a move from the current license (GPLv2 or later) to the <a href="http://www.gnu.org/licenses/lgpl-2.1.html">LGPLv2.1</a> or later license. This change was motivated to match the evolution of the video industry and to spread the VLC engine as a multi-platform open-source multimedia engine and library. The <a href="/videolan/">VideoLAN non-profit</a> organisation helped this initiative.</p>
 <p>The modification affects the VLC engine, also known as <a href="/vlc/libvlc.html">libVLC</a> (and libVLCcore), allowing applications or plugins based on the VLC engine to be built under non-GPL licenses.
 Some libVLC bindings for other languages have already changed license too.</p>
-<p>The license of the VLC media player will continue to be GPLv2 or later. This will not impact normal users of VLC in any way.</p>
+<p>The license of VLC media player will continue to be GPLv2 or later. This will not impact normal users of VLC in any way.</p>
 <p>All the developers have agreed to the relicensing, but a famous one, who refused to answer. His code was therefore rewritten.</p>
 <p>During the last few months, <a href="/developers/libdvbpsi.html">libdvbpsi</a>, <a href="/developers/libaacs.html">libaacs</a> and <a href="/developers/libbluray.html">libbluray</a> have moved to the same <b>LGPL</b> license. At the same time, <a href="http://git.videolan.org/?p=bitstream.git;a=summary">biTStream</a> has moved to a MIT license.</p>
 <p>Later on, other parts of VLC might follow the same path: important plugins and modules might change license in the same way.</p>

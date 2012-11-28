@@ -95,3 +95,7 @@ Content-language: gu-in
 URI: index.th.html
 Content-type: text/html
 Content-language: th
+
+URI: index.sk.html  
+Content-type: text/html
+Content-language: sk

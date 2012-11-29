@@ -17,5 +17,6 @@
 <p><a href="/press/lgpl.html">libVLC and LGPL</a></p>
 <p><a href="/press/lgpl-libvlc.html">libVLC relicensed to LGPL</a></p>
 <p><a href="/press/lgpl-modules.html">VLC playback modules relicensed to LGPL</a></p>
+<p><a href="/press/win8ks.html">VLC for the new Windows 8 User Experience fundraiser</a></p>
 
 <?php footer(); ?>

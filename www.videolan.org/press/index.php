@@ -16,6 +16,6 @@
 <p><a href="/press/2010-1.html">2010-1</a></p>
 <p><a href="/press/lgpl.html">libVLC and LGPL</a></p>
 <p><a href="/press/lgpl-libvlc.html">libVLC relicensed to LGPL</a></p>
-<p><a href="/press/lgpl-modules.html">VLC playbck modules relicensed to LGPL</a></p>
+<p><a href="/press/lgpl-modules.html">VLC playback modules relicensed to LGPL</a></p>
 
 <?php footer(); ?>

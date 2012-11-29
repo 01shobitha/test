@@ -26,7 +26,7 @@ We want to allow users to get access to VLC from the Start screen and Metro expe
 
 <p>Porting VLC to Metro by relying on volunteers during their spare time would take a long time, just as how VLC for Android has. This is why we decided to run this fundraiser. If successful, it will allow two developers to work on this project full time. Donors will get access to a broad range of goodies and users will benefit from quality software. The project is projected to be published early next year.</p>
 
-<p>Running a fundraiser is something the VideoLAN project has never done before. While the donations received through the VideoLAN association (a French non-profit organization) allow us to purchase testing devices, attend and prepare conferences and pay for servers, employing developers on a contract base would be beyond its current capabilities. This Kickstarter program will make it possible to do such contracts.</p>
+<p>Running a fundraiser is something the VideoLAN project has never done before. While the donations received through the VideoLAN association (a French non-profit organization) allow us to purchase testing devices, attend and prepare conferences, and pay for servers, employing developers on a contract base would be beyond its current capabilities. This Kickstarter program will make it possible to do such contracts.</p>
 
 <p>We hope that you like our idea as much as we do and we are looking forward to answer any question you might have.
 </p>

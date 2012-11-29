@@ -14,10 +14,10 @@
 <p><b>Today, some VideoLAN team members launched a fundraiser on Kickstarter to support a port to the new User Experience on Windows 8 (aka "Metro") and Windows RT.</b></p>
 
 <p>VLC for Windows is widely used since a few years now and it is by far the dominant platform for VLC according to our user base numbers. Installation numbers are estimated as followed:<br />
-<li>100,000,000 on Windows</li>
-<li>10,000,000 on Mac OS X</li>
-<li>2,000,000 on Android</li>
-<li>countless on GNU/Linux, BSD and OS/2</li></p>
+<p>∙ 100,000,000 on Windows</p>
+<p>∙ 10,000,000 on Mac OS X</p>
+<p>∙ 2,000,000 on Android</p>
+<p>∙ countless on GNU/Linux, BSD and OS/2</p>
 
 <p>The current version of VLC is able to run on Windows 8, that was launched last month. However, VLC is now limited to the desktop experience, which is hidden together with other classical programs, behind one of the tiles (interface element of the Start screen).
 We want to allow users to get access to VLC from the Start screen and Metro experience too.</p>

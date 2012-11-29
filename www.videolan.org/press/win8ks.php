@@ -11,7 +11,7 @@
 <div class="longtext">
 <div class="date">Paris, 29. Nov. 2012</div>
 
-<p><b>Today, some VideoLAN team members launched a fundraiser on Kickstarter to support a port to the new User Experience on Windows 8 (aka "Metro") and Windows RT.</b></p>
+<p><b>Today, some VideoLAN team members launched a fundraiser on <a href="http://www.kickstarter.com/projects/1061646928/vlc-for-the-new-windows-8-user-experience-metro">Kickstarter</a> to support a port to the new User Experience on Windows 8 (aka "Metro") and Windows RT.</b></p>
 
 <p>VLC for Windows is widely used since a few years now and it is by far the dominant platform for VLC according to our user base numbers. Installation numbers are estimated as followed:<br />
 <p>∙ 100,000,000 on Windows</p>
@@ -30,6 +30,9 @@ We want to allow users to get access to VLC from the Start screen and Metro expe
 
 <p>We hope that you like our idea as much as we do and we are looking forward to answer any question you might have.
 </p>
+
+<h2>Links</h2>
+<p><a href="http://www.kickstarter.com/projects/1061646928/vlc-for-the-new-windows-8-user-experience-metro">Fundraiser on Kickstarter</a></p>
 
 <h2>Contact</h2>
 <p>Felix Paul Kühne, <a href="mailto:fkuehne@videolan.org">fkuehne at videolan dot org</a></p>

@@ -5,12 +5,13 @@
    require($_SERVER["DOCUMENT_ROOT"]."include/header.php");
 ?>
 
-<div id="fullwidth">
-
-<div class="press">
 <h1>VLC for the new Windows 8 User Experience fundraiser</h1>
+<br />
 
-<p>Today, some VideoLAN team members launched a fundraiser on Kickstarter to support a port to the new User Experience on Windows 8 (aka "Metro") and Windows RT.</p>
+<div class="longtext">
+<div class="date">Paris, 29. Nov. 2012</div>
+
+<p><b>Today, some VideoLAN team members launched a fundraiser on Kickstarter to support a port to the new User Experience on Windows 8 (aka "Metro") and Windows RT.</b></p>
 
 <p>VLC for Windows is widely used since a few years now and it is by far the dominant platform for VLC according to our user base numbers. Installation numbers are estimated as followed:<br />
 <li>100,000,000 on Windows</li>
@@ -33,8 +34,6 @@ We want to allow users to get access to VLC from the Start screen and Metro expe
 <h2>Contact</h2>
 <p>Felix Paul Kühne, <a href="mailto:fkuehne@videolan.org">fkuehne at videolan dot org</a></p>
 <p>Jean-Baptiste Kempf, <a href="mailto:jb@videolan.org">jb at videolan dot org</a></p>
-
-</div>
 
 </div>
 

@@ -19,12 +19,12 @@
 <p>∙ 2,000,000 on Android</p>
 <p>∙ countless on GNU/Linux, BSD and OS/2</p>
 
-<p>The current version of VLC is able to run on Windows 8, that was launched last month. However, VLC is now limited to the desktop experience, which is hidden together with other classical programs, behind one of the tiles (interface element of the Start screen).
+<p>The current version of VLC is able to run on Windows 8 which was launched last month. However, VLC is currently limited to the desktop experience, which is hidden by default along with other classic applications, behind one of the tiles (interface element of the Start screen).
 We want to allow users to get access to VLC from the Start screen and Metro experience too.</p>
 
-<p>To run within Metro, important parts of VLC need to be re-written or ported and an entirely new interface needs to be created. This is very time-consuming and considering our current Windows design, we need professional designers to adapt the interface to Metro. Additionally, we would like to have it in the hands of our Windows 8 users as soon as possible.</p>
+<p>To run in Metro, important parts of VLC need to be re-written or ported and an entirely new interface needs to be created. This is very time-consuming and considering our current Windows design, we need professional designers to adapt the interface to Metro. Additionally, we would like to have it in the hands of our Windows 8 users as soon as possible.</p>
 
-<p>Porting VLC to Metro relying only on volunteers working on it during  their spare time would make this port very slow to happen, like for VLC on Android. This is why we decided to run this fundraiser. If successful, it will allow two of us to work on this project full time, funders will get access to a broad range of goodies and users will benefit from quality software, which is going to be published early next year.</p>
+<p>Porting VLC to Metro by relying on volunteers during their spare time would take a long time, just as how VLC for Android has. This is why we decided to run this fundraiser. If successful, it will allow two developers to work on this project full time. Donors will get access to a broad range of goodies and users will benefit from quality software. The project is projected to be published early next year.</p>
 
 <p>Running a fundraiser is something the VideoLAN project has never done before. While the donations received through the VideoLAN association (a French non-profit organization) allow us to purchase testing devices, attend and prepare conferences and pay for servers, employing developers on a contract base would be beyond its current capabilities. This Kickstarter program will make it possible to do such contracts.</p>
 

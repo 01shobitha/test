@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-17 14:56+0200\n"
-"PO-Revision-Date: 2012-10-09 03:02+0000\n"
-"Last-Translator: jaideejung007 <jaideejung007@gmail.com>\n"
+"PO-Revision-Date: 2012-11-29 09:39+0000\n"
+"Last-Translator: jerng <jernghan@gmail.com>\n"
 "Language-Team: Thai (http://www.transifex.com/projects/p/vlc-trans/language/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: include/header.php:142
 msgid "A project and a"
-msgstr "หนึ่งโครงการและหนึ่ง"
+msgstr "หนึ่งในโครงการและ"
 
 #: include/header.php:142
 msgid "non-profit organization"
@@ -32,7 +32,7 @@ msgstr "องค์กรไม่แสวงผลกำไร"
 msgid ""
 "composed of volunteers, developing and promoting free, open-source "
 "multimedia solutions."
-msgstr "ประกอบไปด้วยกลุ่มอาสาสมัครเสรีในการพัฒนาและการประชาสัมพันธ์ การเข้าใช้สื่อประสมด้วยโอเพนซอร์ส"
+msgstr "ประกอบไปด้วยกลุ่มจิตอาสาในการพัฒนา และส่งเสริมการใช้งานมัลติมีเดียด้วยโอเพนซอร์ส"
 
 #: include/header.php:147
 msgid "DONATE"
@@ -80,7 +80,7 @@ msgstr "กิจกรรม"
 
 #: include/header.php:208 include/header.php:337
 msgid "Security center"
-msgstr "ศูนย์รักษาความปลอดภัย"
+msgstr "ศูนย์ความปลอดภัย"
 
 #: include/header.php:214
 msgid "Download"
@@ -114,7 +114,7 @@ msgstr "โครงการทั้งหมด"
 
 #: include/header.php:243 index.php:119
 msgid "Contribute"
-msgstr "สมทบทุน"
+msgstr "เข้าร่วม"
 
 #: include/header.php:245 include/header.php:323
 msgid "Donate time"
@@ -126,15 +126,15 @@ msgstr "บริจาคเงิน"
 
 #: include/header.php:247 include/header.php:324
 msgid "Get Goodies"
-msgstr "บริจาคสิ่งของ"
+msgstr "รับของที่ระลึก"
 
 #: include/header.php:251
 msgid "Support"
-msgstr "การบริการ"
+msgstr "การช่วยเหลือ"
 
 #: include/header.php:253
 msgid "Support center"
-msgstr "ศูนย์การบริการ"
+msgstr "ศูนย์การช่วยเหลือ"
 
 #: include/header.php:255 include/header.php:332 include/header.php:345
 msgid "Legal"
@@ -170,14 +170,14 @@ msgstr "รุ่นและระบบปฏิบัติการอื่
 
 #: index.php:3
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
-msgstr "VLC:  เว็บไซต์  - การเข้าใช้สื่อประสมโดยไม่เสียต่าใช้จ่าย ทุกระบบปฏิบัติการ! "
+msgstr "VLC:  เว็บไซต์  -สามารถใช้ใช้งานมัลติมีเดีย ได้ทุก OS! "
 
 #: index.php:26 vlc/index.php:20
 msgid ""
 "VLC is a free and open source cross-platform multimedia player and framework"
 " that plays most multimedia files as well as DVD, Audio CD, VCD, and various"
 " streaming protocols."
-msgstr "VLC ฟรีและเป็นโปรแกรมโอเพนซอร์สในการเล่นสื่อประสม ข้ามแพลตฟอร์ม และยังสามารถเล่นทุกแฟ้มสื่อประสมได้เป็นอย่างดี เช่น DVD, CD เสียง, VCD  และโปรโตคอลทำแสข้อมูลต่างๆ "
+msgstr "VLC ฟรี ทั้งยังเป็นโปรมแกรมเล่นมัลติมีเดียแบบโอเพนซอร์สและข้ามแพลตฟอร์ม สามารถเล่นแฟ้มมัลติมีเดียส่วนมากเป็นอย่างดี เช่น DVD, CD เสียง, VCD  และโปรโตคอลทำกระแสข้อมูลต่างๆ "
 
 #: index.php:36
 msgid "Other projects from VideoLAN"
@@ -191,12 +191,12 @@ msgstr "สำหรับผู้ใช้ทั่วไป"
 msgid ""
 "VLC is a powerful media player playing most of the media codecs and video "
 "formats out there."
-msgstr "VLC คือ โปรแกรมเล่นสื่ออันทรงประสิทธิภาพ ซึ่งเล่นได้กับทุกตัวถอด/ลงรหัส และสื่อวีดิทัศน์รูปแบบต่าง ๆ"
+msgstr "VLC เป็นโปรแกรมเล่นสื่อทรงประสิทธิภาพ ซึ่งสามารถใช้งานกับ ตัวถอด/ลงรหัสและสื่อวีดิทัศน์ส่วนมากได้เป็นอย่างดี"
 
 #: index.php:53
 msgid ""
 "VideoLAN Movie Creator is a non-linear editing software for video creation."
-msgstr "โปรแกรมสร้างภาพยนตร์ VideoLAN คือ ซอร์ฟแวร์แทรกลำดับแก้ไข สำหรับการสร้างวีดิทัศน์"
+msgstr "โปรแกรมสร้างภาพยนตร์ VideoLAN เป็นซอร์ฟแวร์แทรกลำดับแก้ไข สำหรับการสร้างวีดิทัศน์"
 
 #: index.php:60
 msgid "For Professionals"
@@ -205,19 +205,19 @@ msgstr "สำหรับผู้ใช้ชำนาญการ"
 #: index.php:66
 msgid ""
 "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
-msgstr "DVBlast คือ โปรแกรมทำกระกระแสและรวมกระแส MPEG-2/TS อันทรงประสิทธิภาพ และเรียบง่ายต่อการใช้งาน"
+msgstr "DVBlast เป็นโปรแกรมทำกระแสและรวมกระแส MPEG-2/TS อันทรงประสิทธิภาพ และเรียบง่ายต่อการใช้งาน"
 
 #: index.php:74
 msgid ""
 "multicat is a set of tools designed to easily and efficiently manipulate "
 "multicast streams and TS."
-msgstr "multicat คือชุดของเครื่องมือที่ออกแบบมาเพื่อให้ง่ายต่อการจัดการและมีประสิทธิภาพในการใช้กระแสของ multicast และ TS"
+msgstr "multicat เป็นชุดของเครื่องมือที่ออกแบบมาเพื่อให้ง่ายต่อการจัดการและมีประสิทธิภาพในการใช้กระแสของ multicast และ TS"
 
 #: index.php:83
 msgid ""
 "x264 is a free application for encoding video streams into the H.264/MPEG-4 "
 "AVC format."
-msgstr "x264 คือ โปรแกรมฟรี สำหรับการลงรหัสกระแสวีดิทัศน์ให้เป็นรูปแบบ H.264/MPEG-4 AVC"
+msgstr "x264 เป็นโปรแกรมฟรี สำหรับการลงรหัสกระแสวีดิทัศน์ให้เป็นรูปแบบ H.264/MPEG-4 AVC"
 
 #: index.php:91
 msgid "For Developers"
@@ -243,7 +243,7 @@ msgstr "VideoLAN เป็นองค์กรไม่แสวงหากำ
 msgid ""
 " All our costs are met by donations we receive from our users. If you enjoy "
 "using a VideoLAN product, please donate to support us."
-msgstr "ค่าใช้จ่ายทั้งหมดของพวกเรา ใช้จ่ายด้วยการบริจาคซึ่งมาจากผู้ใช้ของพวกเรา หากคุณพึงพอใจในผลิตภัณฑ์ของ VideoLAN โปรดบริจาคเพื่อสนับสนุนพวกเรา"
+msgstr "ค่าใช้จ่ายทั้งหมดของพวกเรา มาจากการบริจาคทางผู้ใช้ของพวกเรา หากคุณพึงพอใจในผลิตภัณฑ์ของ VideoLAN โปรดบริจาคเพื่อสนับสนุนพวกเรา"
 
 #: index.php:114 index.php:126 index.php:137
 msgid "Learn More"
@@ -267,7 +267,7 @@ msgstr "บอกต่อ"
 msgid ""
 "We feel that VideoLAN has the best video software available at the best "
 "price: free. If you agree please help spread the word about our software."
-msgstr "พวกเราเห็นว่า VideoLAN มีซอฟต์แวร์ด้านวีดิทัศน์ในราคาที่เหมาะสมที่สุด: คือไม่เสียค่าใช้จ่าย ถ้าคุณเห็นด้วย กรุณาบอกต่อเกี่ยวกับซอฟต์แวร์ของพวกเรา"
+msgstr "พวกเราเห็นว่า VideoLAN ตั้งราคาซอฟต์แวร์ด้านวีดิทัศน์ได้เหมาะสมที่สุด: นั่นคือฟรี ถ้าคุณเห็นด้วย กรุณาบอกต่อเกี่ยวกับซอฟต์แวร์ของพวกเรา"
 
 #: index.php:407
 msgid "News &amp; Updates"
@@ -283,7 +283,7 @@ msgstr "สังคมออนไลน์"
 
 #: vlc/index.php:3
 msgid "Official page for VLC media player, the Open Source video framework!"
-msgstr "หน้าเว็บอย่างเป็นทางการของ VLC media player เฟรมเวิร์กสำหรับวีดีโอแบบเปิดเผยซอร์สโค้ด"
+msgstr "หน้าเว็บหลักของโปรแกรมเล่นสื่อ VLC เฟรมเวิร์กสำหรับวีดีโอแบบโอเพนซอร์ส"
 
 #: vlc/index.php:40
 msgid "Simple, fast and powerful media player."
@@ -303,7 +303,7 @@ msgstr "เล่นได้ทุกแพลตฟอร์ม "
 
 #: vlc/index.php:49
 msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
-msgstr "ฟรีอย่างแท้จริง สปายแวร์รวมถึงโฆษณาเป็น 0 และไม่จัดเก็บพฤติกรรมการใช้งานของผู้ใช้"
+msgstr "ฟรีอย่างแท้จริง ปราศจากสปายแวร์รวมถึงโฆษณา และไม่จัดเก็บพฤติกรรมการใช้งานของผู้ใช้"
 
 #: vlc/index.php:51
 msgid "Can do media conversion and streaming."

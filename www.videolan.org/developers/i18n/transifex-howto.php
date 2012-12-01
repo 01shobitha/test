@@ -40,12 +40,16 @@ it won't let me delete wrong lines. That's why I request you
 to set a full name before starting translating.
 It only recognizes lines that follow a certain format:<br />
 
+<br />
 <kbd># Some Name &lt;email@address.com&gt;, 2008, 2012<br />
 # Different Longer Name &lt;address@email.com&gt;, 2009-2012.<br /></kbd>
+<br />
 
 So the user information needs to be between "#" and "," and the line must end in
 a year (the period is optional). You don't have to list each year, 
-something like <kbd> ,2004, 2008-2012 </kbd> will work, too.</p>
+something like <br />
+<kbd> ,2004, 2008-2012 </kbd> <br />
+will work, too.</p>
 
 <p>It took me quite some time to figure this out (and to get support for
 YEAR-YEAR), and you really don't have to spend that much time on it. 
@@ -62,6 +66,7 @@ This might be useful if you want to have your new translations reviewed before
 uploading.<br />
 The file needs to be complete (with regards to the specs), though.</p>
 
+<br />
 <h4>po files</h4>
 
 <p>For po files you will need the header (remove all the comments starting with #")
@@ -69,6 +74,7 @@ that typically ends short after the
 <kbd>"Plural-Forms:"</kbd> line and, for everything you want to translate the usual pair of
 msgid and msgstr.</p>
 
+<br />
 <h4>xml files</h4>
 
 <p>For the xml it will be<br />
@@ -77,6 +83,7 @@ msgid and msgstr.</p>
 The translated resources HERE<br />
 &lt;/resources&gt;<kbd></p>
 
+<br />
 <p>Note:<br />
 This will overwrite the translations currently stored at transifex. It won't
 touch the ones that are empty in your patch file, but there will be no warning
@@ -95,16 +102,16 @@ so you best download a backup version every now and then.
 (I don't think the old translations are lost forever, but I am sure you don't
 want to check the translation history for several hundreds of messages.)
 You might get "join requests" to your team you need to handle yourself (I
-usually won't modify your translation or your team)<p>
+usually won't modify your translation or your team).<p>
 
 
 <h3>Benefits:</h3>
-<p>If the strings change in the git the current version will show up automatically
+<p>If the strings changes in the git the current version will show up automatically
 (within a day), so you won't have to take care of that yourself.</p>
 <p>You can upload whenever you got something translated and don't need to email you
 progress and I will upload them to git at release time.</p>
 <p>You can have several translators (maybe as reviewers) in your team.</p>
-<p>It's less likely you updates are overlooked. At the moment, updating existing translations for VLC for Android&trade; and the website is almost automated</p>
+<p>It's less likely your updates are overlooked. At the moment, updating existing translations for VLC for Android&trade; and the website is almost automated</p>
 
 
 

@@ -99,3 +99,7 @@ Content-language: th
 URI: index.sk.html  
 Content-type: text/html
 Content-language: sk
+
+URI: index.et.html
+Content-type: text/html
+Content-language: et

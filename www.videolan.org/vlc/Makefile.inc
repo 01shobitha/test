@@ -7,7 +7,7 @@ PHP_FILES := download-* index features libvlc screenshots skineditor skineditor_
              index.ja index.pl index.wa index.gd index.zh index.nb \
              index.gl index.km index.mr index.bs index.nl index.ast \
              index.pt index.pt_BR index.bn_IN index.gu_IN index.th \
-             index.sk \
+             index.sk index.et \
              download-windows.fr download-windows.de download-windows.ru \
              download-windows.tr download-windows.hi download-windows.cs \
              download-windows.he download-windows.ja download-windows.pl \
@@ -16,7 +16,7 @@ PHP_FILES := download-* index features libvlc screenshots skineditor skineditor_
              download-windows.mr download-windows.bs download-windows.nl \
              download-windows.ast download-windows.pt download-windows.pt_BR \
              download-windows.bn_IN download-windows.gu_IN download-windows.th \
-             download-windows.sk \
+             download-windows.sk download-windows.et \
              download-macosx.fr download-macosx.de download-macosx.ru \
              download-macosx.tr download-macosx.hi download-macosx.cs \
              download-macosx.he download-macosx.ja download-macosx.pl \
@@ -25,7 +25,7 @@ PHP_FILES := download-* index features libvlc screenshots skineditor skineditor_
              download-macosx.mr download-macosx.bs download-macosx.nl \
              download-macosx.ast download-macosx.pt download-macosx.pt_BR \
              download-macosx.bn_IN download-macosx.gu_IN download-macosx.th \
-             download-macosx.sk
+             download-macosx.sk download-macosx.et
 
 download-windows.%.php: download-windows.php $(ROOT)/locale/%/LC_MESSAGES/website.po
 	rm -f ./$@ && sed -e "s/language = \"\"/language = \"$*\"/" download-windows.php > ./$@;

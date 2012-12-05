@@ -181,7 +181,7 @@ Please, for the clueless people arguing that it doesn't work, include the inform
 <ul>
 <li>Windows: <code>My Documents\My Pictures\</code></li>
 <li>Linux / Unix: <code>$(HOME)/.vlc/</code></li>
-<li>Mac OS X: <code>Desktop/</code></li>
+<li>Mac OS X: <code>Pictures</code></li>
 </ul>
 <p>To change it, go to <em>Preferences -&gt; Video -&gt; Video snapshot directory</em>.
 </p>

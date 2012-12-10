@@ -243,6 +243,8 @@ Marketing Europe GmbH, borrowed us a SC-XH150 setup consisting of a S/PDIF input
          &euro; to help us buy a PowerMac G5</li>
          <li>The French magazine <strong>à vos MAC</strong> gave 500 &euro; to
          help us buy a PowerMac G5</li>
+         <li>The <a href="http://www.psw.net/">PSW Group</a> who made a 1&nbps;000&euro donation to the project</li>
+         <li>The Dutch company <a href="http://www.netoda.nl">Netoda</a> who made a 500&euro donation to the project</li>
      </ul>
 
 <h1> Past Partners </h1>

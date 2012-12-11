@@ -12,6 +12,11 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
 ?>
 
+        <div class="clearme" style="padding-top: 26px; width: 800px; height: 120px; margin-left: auto; margin-right: auto;">
+            <a href="http://www.kickstarter.com/projects/1061646928/vlc-for-the-new-windows-8-user-experience-metro">
+                <?php image( 'vlc-win8-banner.png', 'Banner for the Windows 8 fundraiser' ); ?>
+            </a>
+        </div>
         <div class="clearme" style='padding-top: 26px;'>
             <?php image( 'largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?>
             <div style='float: left; width: 500px;'>

@@ -11,7 +11,7 @@
 
 <h1 class="bigtitle"> VLC media player for Windows </h1>
 <div class="clearme" style="padding-top: 26px; padding-bottom: 20px; width: 800px; height: 120px;">
-    <a href="http://www.kickstarter.com/projects/1061646928/vlc-for-the-new-windows-8-user-experience-metro">
+    <a href="http://www.kickstarter.com/projects/1061646928/vlc-for-the-new-windows-8-user-experience-metro" target="_blank">
         <?php image( 'vlc-win8-banner.png', 'Banner for the Windows 8 fundraiser' ); ?>
     </a>
 </div>

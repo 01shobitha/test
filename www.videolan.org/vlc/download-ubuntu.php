@@ -17,7 +17,7 @@ Ubuntu 11.10 <span style='font-size: smaller'>(oneiric)</span><br />
 </h2>
 
 <h3>Quick install</h3>
-This is the recommended way for installing VLC
+<p>This is the recommended way for installing VLC.</p>
 <a href="apt://vlc"><img src="http://developer.ubuntu.com/wp-content/uploads/2012/06/downloadonubuntubutton.png"  title="Download for Ubuntu" alt="Download for Ubuntu button" width="122" height="49" /></a>
 
 <h3>Graphical way</h3>

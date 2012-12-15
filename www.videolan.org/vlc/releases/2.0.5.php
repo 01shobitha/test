@@ -278,10 +278,10 @@ function vlcscreenshot($img,$thumb, $desc){
         <div style="float: right; width: 400px;">
         <h3>Mac OS X 10.5 Intel</h3>
         <a href='<?php echo "http://sourceforge.net/projects/vlc/files/$macosxversion/macosx/vlc-$macosxversion-intel32.dmg/download"; ?>' class="sourceforge_accelerator_link">
-        VLC 2.0.5 for Mac OS X.5 (intel)</a>
+        VLC 2.0.5 for Mac OS X 10.5 (Intel)</a>
         <h3>Mac OS X 10.5 PowerPC</h3>
         <a href='<?php echo "http://sourceforge.net/projects/vlc/files/$macosxversion/macosx/vlc-$macosxversion-powerpc.dmg/download"; ?>' class="sourceforge_accelerator_link">
-        VLC 2.0.5 for Mac OS X.5 (powerpc)</a>
+        VLC 2.0.5 for Mac OS X 10.5 (PowerPC)</a>
         </div>
         <div class="clearme"></div>
         <div style="float: right; width: 400px; margin-top: 15px;">

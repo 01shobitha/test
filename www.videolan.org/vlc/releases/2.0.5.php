@@ -11,6 +11,12 @@
    $macosxversion = "2.0.5";
    $win32version = "2.0.5";
 ?>
+       <div class="clearme" style="padding-top: 26px; width: 800px; height: 120px; margin-left: auto; margin-right: auto;">
+            <a href="http://www.kickstarter.com/projects/1061646928/vlc-for-the-new-windows-8-user-experience-metro" target="_blank">
+                <?php image( 'vlc-win8-banner.png', 'Banner for the Windows 8 fundraiser' ); ?>
+            </a>
+        </div>
+
     <div>
             <center><h1 class='bigtitle'>VLC reaches <b>2.0.5</b></h1>
             <div style="padding-top: 10px;">VLC 2.0.5 "Twoflower" is an important update to our 2.0 media player.</div>
@@ -20,20 +26,17 @@
             <?php image( 'largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?>
             <div style='float: left; width: 500px;'>
                 <div class='projectDescription'>
-                    <div style="padding-bottom: 8px;"><b>2.0.5</b> is a major update that fixes a lot of regressions of the 2.0.x branch of VLC.</b>
+                    <div style="padding-bottom: 8px;"><b>2.0.5</b> is an important update that fixes some regressions of the 2.0.x branch of VLC.</b>
 
-                    <div style="padding-bottom: 8px;"><b>2.0.5</b> introduces an important number of fixes and improvements for all playback, notably
-                        for Blu-Ray, DVD, HLS, Ogg and MKV files; but also for Youtube, Vimeo, Koreus and Soundcloud.</div>
+                    <div style="padding-bottom: 8px;"><b>2.0.5</b> introduces an important number of fixes for MKV, SWF, AIFF, RTSP, subtitles and encoding.</div>
 
-                    <div style="padding-bottom: 8px;"><b>2.0.5</b> adds Opus codec support, including multichannel ones and streams, and MSS playback through DMO libraries.</div>
-
-                    <div style="padding-bottom: 8px;"><b>2.0.5</b> fixes numerous issues, including audio device selection, Qt and Mac OS interface, security issues and Windows wallpaper mode...
+                    <div style="padding-bottom: 8px;"><b>2.0.5</b> also improves the Mac OS interface, some video filters and Pulseaudio synchronization.
 </div>
 
                     <div style="padding-bottom: 8px;">With faster decoding on multi-core, GPU, and mobile hardware and the ability to open more
                   formats, notably professional, HD and 10bits codecs, 2.0 was a major upgrade for VLC. </div>
 
-                    <div>2.0.5 fixes around a hundreds of bugs, and adds more than 300 commits on top of 2.0.3.</div>
+                    <div>2.0.5 fixes around a hundreds of bugs, and adds around 100 commits on top of 2.0.4, fixing 50 bugs.</div>
 
                 </div>
                 <a id='downloadButton' href='#download'>
@@ -221,12 +224,10 @@ function vlcscreenshot($img,$thumb, $desc){
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>Rework of the Mac OS X interface</li>
-                           <li>Fix video output for old graphic cards on Windows XP, which are using DirectX</li>
-                           <li>Fix video output on old Macs, notably PowerPC and GMA950 intel Macs.</li>
-                           <li>Support for HiDPI, aka Retina Display</li>
-                           <li>Support for H264 v4l2 devices on Linux</li>
-                           <li>Translations updates and new Scottish Gaelic translation</li>
+                           <li>Rework and fixes of the Mac OS X interface</li>
+                           <li>Fix Pulseaudio initial synchronization</li>
+                           <li>Fix MKV, SWF, AIFF and subtitles demuxer crashes</li>
+                           <li>Translations updates and new Welsh translation</li>
 
                         </ul>
                     </div>
@@ -237,11 +238,9 @@ function vlcscreenshot($img,$thumb, $desc){
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                            <li>Fixes for splitted RAR, MKV segmented, mp4 and Real media files playback.</li>
-                            <li>Rewrite of the Digital TV module on Windows</li>
-                            <li>Enhancements in HLS, Blu-Ray and various codecs support</li>
-                            <li>Fixes for subtitles auto-detection</li>
-                            <li>Fixes on Qt, skins2 and web interfaces</li>
+                            <li>DVB-S delivery system detection</li>
+                            <li>Fix audio and video track selection through libVLC</li>
+                            <li>Fix system sleep issue on Mac OS X 10.5</li>
                         </ul>
                     </div>
                 </div>

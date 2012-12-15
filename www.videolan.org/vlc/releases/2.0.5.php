@@ -1,5 +1,5 @@
 <?php
-   $title = _("VLC 2.0.4 Twoflower");
+   $title = _("VLC 2.0.5 Twoflower");
    $body_color = "red";
    $language = "";
    $nobanner = true;
@@ -8,39 +8,39 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
-   $macosxversion = "2.0.4";
-   $win32version = "2.0.4";
+   $macosxversion = "2.0.5";
+   $win32version = "2.0.5";
 ?>
     <div>
-            <center><h1 class='bigtitle'>VLC reaches <b>2.0.4</b></h1>
-            <div style="padding-top: 10px;">VLC 2.0.4 "Twoflower" is an important update to our 2.0 media player.</div>
+            <center><h1 class='bigtitle'>VLC reaches <b>2.0.5</b></h1>
+            <div style="padding-top: 10px;">VLC 2.0.5 "Twoflower" is an important update to our 2.0 media player.</div>
             </center>
 
         <div class="clearme" style='padding-top: 30px;'>
             <?php image( 'largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?>
             <div style='float: left; width: 500px;'>
                 <div class='projectDescription'>
-                    <div style="padding-bottom: 8px;"><b>2.0.4</b> is a major update that fixes a lot of regressions of the 2.0.x branch of VLC.</b>
+                    <div style="padding-bottom: 8px;"><b>2.0.5</b> is a major update that fixes a lot of regressions of the 2.0.x branch of VLC.</b>
 
-                    <div style="padding-bottom: 8px;"><b>2.0.4</b> introduces an important number of fixes and improvements for all playback, notably
+                    <div style="padding-bottom: 8px;"><b>2.0.5</b> introduces an important number of fixes and improvements for all playback, notably
                         for Blu-Ray, DVD, HLS, Ogg and MKV files; but also for Youtube, Vimeo, Koreus and Soundcloud.</div>
 
-                    <div style="padding-bottom: 8px;"><b>2.0.4</b> adds Opus codec support, including multichannel ones and streams, and MSS playback through DMO libraries.</div>
+                    <div style="padding-bottom: 8px;"><b>2.0.5</b> adds Opus codec support, including multichannel ones and streams, and MSS playback through DMO libraries.</div>
 
-                    <div style="padding-bottom: 8px;"><b>2.0.4</b> fixes numerous issues, including audio device selection, Qt and Mac OS interface, security issues and Windows wallpaper mode...
+                    <div style="padding-bottom: 8px;"><b>2.0.5</b> fixes numerous issues, including audio device selection, Qt and Mac OS interface, security issues and Windows wallpaper mode...
 </div>
 
                     <div style="padding-bottom: 8px;">With faster decoding on multi-core, GPU, and mobile hardware and the ability to open more
                   formats, notably professional, HD and 10bits codecs, 2.0 was a major upgrade for VLC. </div>
 
-                    <div>2.0.4 fixes around a hundreds of bugs, and adds more than 300 commits on top of 2.0.3.</div>
+                    <div>2.0.5 fixes around a hundreds of bugs, and adds more than 300 commits on top of 2.0.3.</div>
 
                 </div>
                 <a id='downloadButton' href='#download'>
                     <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
                     <span class='downloadText'><?php echo _("Get VLC now!"); ?></span>
                     <span id='downloadDetails' style='font-size: 12px; color: white;'>
-                    Version <span id='downloadVersion'>2.0.4</span>
+                    Version <span id='downloadVersion'>2.0.5</span>
                     </span>
                 </a>
                 <script>
@@ -214,10 +214,10 @@ function vlcscreenshot($img,$thumb, $desc){
             </div>
 
         <div class="clearme"></div>
-        <h1>2.0.4 specific changes</h1>
+        <h1>2.0.5 specific changes</h1>
 
             <div style='float: left; width: 480px;'>
-                <div class='audienceCallout'><?php echo _("2.0.4"); ?></div>
+                <div class='audienceCallout'><?php echo _("2.0.5"); ?></div>
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
@@ -233,7 +233,7 @@ function vlcscreenshot($img,$thumb, $desc){
                 </div>
             </div>
             <div style='float: left; width: 480px;'>
-                <div class='audienceCallout'><?php echo _("2.0.4"); ?></div>
+                <div class='audienceCallout'><?php echo _("2.0.5"); ?></div>
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
@@ -280,10 +280,10 @@ function vlcscreenshot($img,$thumb, $desc){
         <div style="float: right; width: 400px;">
         <h3>Mac OS X 10.5 Intel</h3>
         <a href='<?php echo "http://sourceforge.net/projects/vlc/files/$macosxversion/macosx/vlc-$macosxversion-intel32.dmg/download"; ?>' class="sourceforge_accelerator_link">
-        VLC 2.0.4 for Mac OS X.5 (intel)</a>
+        VLC 2.0.5 for Mac OS X.5 (intel)</a>
         <h3>Mac OS X 10.5 PowerPC</h3>
         <a href='<?php echo "http://sourceforge.net/projects/vlc/files/$macosxversion/macosx/vlc-$macosxversion-powerpc.dmg/download"; ?>' class="sourceforge_accelerator_link">
-        VLC 2.0.4 for Mac OS X.5 (powerpc)</a>
+        VLC 2.0.5 for Mac OS X.5 (powerpc)</a>
         </div>
         <div class="clearme"></div>
         <div style="float: right; width: 400px; margin-top: 15px;">

@@ -1,8 +1,9 @@
 PHP_IGNORES = download-skins2 download-skins2-go skins skins_upload skins_old
 SUBDIR = contest releases stats
 
-PHP_FILES := download-* index features libvlc screenshots skineditor skineditor_update \
+PHP_FILES := index features libvlc screenshots skineditor skineditor_update \
              skins skins_upload streaming \
+             download-altlinux download-android download-archlinux download-beos download-crux download-debian download-eyetv download-familiar download-fedora download-freebsd download-gentoo download-ios download-linupy download-macosx download-maemo download-mandriva download-redhat download-skins2-go download-skins download-slackware download-sources download-suse download-syllable download-ubuntu download-wince download-windows \
              index.ast    download-windows.ast    download-macosx.ast   \
              index.bn_IN  download-windows.bn_IN  download-macosx.bn_IN \
              index.bs     download-windows.bs     download-macosx.bs    \

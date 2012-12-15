@@ -20,19 +20,12 @@
             <?php image( 'largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?>
             <div style='float: left; width: 500px;'>
                 <div class='projectDescription'>
-                    <div style="padding-bottom: 8px;"><b>2.0.3</b> is a major update that fixes a lot of regressions of the 2.0.x branch of VLC.</b>
+                    <div style="padding-bottom: 8px;"><b>2.0.3</b> is a major update that introduces Mac OS X 10.8 support.</b>
 
-                    <div style="padding-bottom: 8px;"><b>2.0.3</b> introduces an important number of features for the MacOS platform, notably
-                        improving the interface, to be on-par with the classic VLC interface, better performance, removal of font cache and 
-                        Retina display support.</div>
-
-                    <div style="padding-bottom: 8px;"><b>2.0.3</b> fixes playback on older platforms, like old drivers on Windows XP,
-                        PowerPC on OSX or GMA950 on Intel OSX.</div>
+                    <div style="padding-bottom: 8px;"><b>2.0.3</b> introduces a few fixes with flv files.</div>
 
                     <div style="padding-bottom: 8px;">With faster decoding on multi-core, GPU, and mobile hardware and the ability to open more
                   formats, notably professional, HD and 10bits codecs, 2.0 was a major upgrade for VLC. </div>
-
-                    <div>2.0.3 fixes a couple of hundreds of bugs, and adds more than 500 commits on top of 2.0.1.</div>
 
                 </div>
                 <a id='downloadButton' href='#download'>
@@ -220,13 +213,8 @@ function vlcscreenshot($img,$thumb, $desc){
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>Rework of the Mac OS X interface</li>
-                           <li>Fix video output for old graphic cards on Windows XP, which are using DirectX</li>
-                           <li>Fix video output on old Macs, notably PowerPC and GMA950 intel Macs.</li>
-                           <li>Support for HiDPI, aka Retina Display</li>
-                           <li>Support for H264 v4l2 devices on Linux</li>
+                           <li>Mac OS X 10.8 support, including GateKeeper</li>
                            <li>Translations updates and new Scottish Gaelic translation</li>
-
                         </ul>
                     </div>
                 </div>
@@ -236,11 +224,7 @@ function vlcscreenshot($img,$thumb, $desc){
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                            <li>Fixes for splitted RAR, MKV segmented, mp4 and Real media files playback.</li>
-                            <li>Rewrite of the Digital TV module on Windows</li>
-                            <li>Enhancements in HLS, Blu-Ray and various codecs support</li>
-                            <li>Fixes for subtitles auto-detection</li>
-                            <li>Fixes on Qt, skins2 and web interfaces</li>
+                            <li>Fixes on flv playback</li>
                         </ul>
                     </div>
                 </div>
@@ -268,7 +252,7 @@ function vlcscreenshot($img,$thumb, $desc){
         <div class="clearme"></div>
         <h2 style="margin-top: 30px;">Mac OS X</h2>
         <div>
-        <h3>Mac OS X 10.6 &amp; 10.7</h3>
+        <h3>Mac OS X 10.6, 10.7 &amp; 10.8</h3>
         <a id='downloadButton' href='<?php echo "http://sourceforge.net/projects/vlc/files/$macosxversion/macosx/vlc-$macosxversion-intel64.dmg/download"; ?>' class="sourceforge_accelerator_link">
                <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
                <span class='downloadText'><?php echo _("VLC for Mac OS X 10.6+"); ?></span>

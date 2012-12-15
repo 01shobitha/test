@@ -267,7 +267,7 @@ function vlcscreenshot($img,$thumb, $desc){
         <div class="clearme"></div>
         <h2 style="margin-top: 30px;">Mac OS X</h2>
         <div>
-        <h3>Mac OS X 10.6 &amp; 10.7</h3>
+        <h3>Mac OS X 10.6, 10.7 &amp; 10.8</h3>
         <a id='downloadButton' href='<?php echo "http://sourceforge.net/projects/vlc/files/$macosxversion/macosx/vlc-$macosxversion-intel64.dmg/download"; ?>' class="sourceforge_accelerator_link">
                <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
                <span class='downloadText'><?php echo _("VLC for Mac OS X 10.6+"); ?></span>

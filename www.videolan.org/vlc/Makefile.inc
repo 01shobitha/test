@@ -8,6 +8,7 @@ PHP_FILES := download-* index features libvlc screenshots skineditor skineditor_
              index.gl index.km index.mr index.bs index.nl index.ast \
              index.pt index.pt_BR index.bn_IN index.gu_IN index.th \
              index.sk index.et \
+             download-windows \
              download-windows.fr download-windows.de download-windows.ru \
              download-windows.tr download-windows.hi download-windows.cs \
              download-windows.he download-windows.ja download-windows.pl \
@@ -17,7 +18,7 @@ PHP_FILES := download-* index features libvlc screenshots skineditor skineditor_
              download-windows.ast download-windows.pt download-windows.pt_BR \
              download-windows.bn_IN download-windows.gu_IN download-windows.th \
              download-windows.sk download-windows.et \
-             download-macosx.fr download-macosx.de download-macosx.ru \
+             download-macosx download-macosx.fr download-macosx.de download-macosx.ru \
              download-macosx.tr download-macosx.hi download-macosx.cs \
              download-macosx.he download-macosx.ja download-macosx.pl \
              download-macosx.wa download-macosx.gd download-macosx.zh \

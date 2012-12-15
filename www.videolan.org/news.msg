@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|15 December 2012|VLC 2.0.5|VideoLAN and the VLC development team present the sixth version of "Twoflower", a minor update that improves the overall stability.<br />Notable changes include improved reliability for MKV file playback, fixed MPEG2 audio and video encoding and resolved potential security issues in HTML subtitle parser and AIFF demuxer.
+
 |29 November 2012|VLC for the new Windows 8 User Experience fundraiser|Today, some <a href="/videolan/team">VideoLAN</a> team members launched a <a href="http://www.kickstarter.com/projects/1061646928/vlc-for-the-new-windows-8-user-experience-metro">fundraiser on Kickstarter</a> to support a port to the new User Experience on Windows 8 (aka "Metro") and Windows RT. <a href="http://www.videolan.org/press/win8ks.html">Find out more</a>.
 
 |02 November 2012|VideoLAN Security Advisory 1203|VLC media player versions 2.0.3 and older suffer from a critical buffer overflow vulnerability.

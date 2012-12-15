@@ -3,30 +3,33 @@ SUBDIR = contest releases stats
 
 PHP_FILES := download-* index features libvlc screenshots skineditor skineditor_update \
              skins skins_upload streaming \
-             index.fr index.de index.ru index.tr index.hi index.cs index.he \
-             index.ja index.pl index.wa index.gd index.zh index.nb \
-             index.gl index.km index.mr index.bs index.nl index.ast \
-             index.pt index.pt_BR index.bn_IN index.gu_IN index.th \
-             index.sk index.et \
-             download-windows \
-             download-windows.fr download-windows.de download-windows.ru \
-             download-windows.tr download-windows.hi download-windows.cs \
-             download-windows.he download-windows.ja download-windows.pl \
-             download-windows.wa download-windows.gd download-windows.zh \
-             download-windows.nb download-windows.gl download-windows.km \
-             download-windows.mr download-windows.bs download-windows.nl \
-             download-windows.ast download-windows.pt download-windows.pt_BR \
-             download-windows.bn_IN download-windows.gu_IN download-windows.th \
-             download-windows.sk download-windows.et \
-             download-macosx download-macosx.fr download-macosx.de download-macosx.ru \
-             download-macosx.tr download-macosx.hi download-macosx.cs \
-             download-macosx.he download-macosx.ja download-macosx.pl \
-             download-macosx.wa download-macosx.gd download-macosx.zh \
-             download-macosx.nb download-macosx.gl download-macosx.km \
-             download-macosx.mr download-macosx.bs download-macosx.nl \
-             download-macosx.ast download-macosx.pt download-macosx.pt_BR \
-             download-macosx.bn_IN download-macosx.gu_IN download-macosx.th \
-             download-macosx.sk download-macosx.et
+             index.ast    download-windows.ast    download-macosx.ast   \
+             index.bn_IN  download-windows.bn_IN  download-macosx.bn_IN \
+             index.bs     download-windows.bs     download-macosx.bs    \
+             index.cs     download-windows.cs     download-macosx.cs    \
+             index.de     download-windows.de     download-macosx.de    \
+             index.et     download-windows.et     download-macosx.et    \
+             index.fr     download-windows.fr     download-macosx.fr    \
+             index.gd     download-windows.gd     download-macosx.gd    \
+             index.gl     download-windows.gl     download-macosx.gl    \
+             index.gu_IN  download-windows.gu_IN  download-macosx.gu_IN \
+             index.he     download-windows.he     download-macosx.he    \
+             index.hi     download-windows.hi     download-macosx.hi    \
+             index.ja     download-windows.ja     download-macosx.ja    \
+             index.km     download-windows.km     download-macosx.km    \
+             index.mr     download-windows.mr     download-macosx.mr    \
+             index.nb     download-windows.nb     download-macosx.nb    \
+             index.nl     download-windows.nl     download-macosx.nl    \
+             index.pl     download-windows.pl     download-macosx.pl    \
+             index.pt_BR  download-windows.pt_BR  download-macosx.pt_BR \
+             index.pt     download-windows.pt     download-macosx.pt    \
+             index.ru     download-windows.ru     download-macosx.ru    \
+             index.sk     download-windows.sk     download-macosx.sk    \
+             index.th     download-windows.th     download-macosx.th    \
+             index.tr     download-windows.tr     download-macosx.tr    \
+             index.wa     download-windows.wa     download-macosx.wa    \
+             index.zh     download-windows.zh     download-macosx.zh    \
+                          download-windows        download-macosx            
 
 download-windows.%.php: download-windows.php $(ROOT)/locale/%/LC_MESSAGES/website.po
 	rm -f ./$@ && sed -e "s/language = \"\"/language = \"$*\"/" download-windows.php > ./$@;

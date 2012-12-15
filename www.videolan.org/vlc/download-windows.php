@@ -23,7 +23,7 @@
 </div>
 <div id="left">
 
-<?php $vlc_version = '2.0.4'; ?>
+<?php $vlc_version = '2.0.5'; ?>
 <h1>Download latest VLC - <?php echo $vlc_version; ?></h2>
 <p>VLC currently supports <b>Windows XP SP2 or later</b>.</p>
 <?php

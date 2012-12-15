@@ -6,7 +6,7 @@
 # $Id: phpcgi.sh 1960 2004-11-01 16:52:30Z dionoea $
 
 # It won't work if you call the PHP CLI usually in /usr/bin or /usr/local/bin
-PHP=/usr/lib/cgi-bin/php5
+PHP=/usr/bin/php
 
 # CGI/1.1 interface variables
 export SERVER_SOFTWARE="Shell CGI/0.1"

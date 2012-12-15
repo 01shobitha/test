@@ -42,7 +42,7 @@ function pkgitem_nomirr($description,$version,$name,$top,$extradescription="")
 function sf_money()
 {
     echo "
-   <script>
+   <script type='text/javascript'>
    (function() {
        var script = document.createElement('script');
        script.src = '//sourceforge.net/accelerator/js?partner_id=60';

@@ -30,8 +30,7 @@
 
                     <div style="padding-bottom: 8px;"><b>2.0.5</b> introduces an important number of fixes for MKV, SWF, AIFF, RTSP, subtitles and encoding.</div>
 
-                    <div style="padding-bottom: 8px;"><b>2.0.5</b> also improves the Mac OS interface, some video filters and Pulseaudio synchronization.
-</div>
+                    <div style="padding-bottom: 8px;"><b>2.0.5</b> also improves the Mac OS interface, some video filters and Pulseaudio synchronization.</div>
 
                     <div style="padding-bottom: 8px;">With faster decoding on multi-core, GPU, and mobile hardware and the ability to open more
                   formats, notably professional, HD and 10bits codecs, 2.0 was a major upgrade for VLC. </div>
@@ -297,6 +296,7 @@ function vlcscreenshot($img,$thumb, $desc){
         <h1>Contact</h1>
         <p>For any questions related to this release, please <a href="/contact.html">contact us</a>.</p>
 
+</div>
 </div>
    <script>
    (function() {

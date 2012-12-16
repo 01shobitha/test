@@ -124,14 +124,22 @@ translations for VLC for Android&trade; and the website is almost automated</p>
 VLC media player (2.0.X), translations for the website (only some pages), 
 VLC for Android&trade; (beta) and for VideoLAN Movie Creator.</p>
 
-<p>Here you can find the files for translation for 
-<a href="http://people.videolan.org/~etix/transifex/vlc-android/strings.xml">VLC for Android&trade; (beta)</a>, for the
-<a href="http://svn.videolan.org/dl.php?repname=VideoLAN+Websites&path=%2Fwww.videolan.org%2Flocale%2Fwebsite.pot">videolan website</a> and
-<a href="http://git.videolan.org/?p=vlmc.git;a=blob_plain;f=ts/template.ts;hb=HEAD">VideoLAN Movie Creator</a>.</p>
 
-<p>Some languages already have a (partial) translation, browsing is possible for 
-<a href="http://svn.videolan.org/listing.php?repname=VideoLAN+Websites&path=%2Fwww.videolan.org%2Flocale%2F&rev=head">the website</a> and in 
-the git for <a href=http://git.videolan.org/?p=vlmc.git;a=tree;f=ts;hb=HEAD">VideoLAN Movie Creator</a> or 
-<a href="http://git.videolan.org/?p=vlc-ports/android.git;a=tree;f=vlc-android/res;hb=HEAD">VLC for Android&trade; (beta)</a>.</p>
-
+<h3>Here you can find the files for translation or browse to see if your language already has a (partial) translation:</h3>
+<table>
+  <tr>
+    <th>VLC for Android&trade; (beta)</th>
+    <th>VideoLAN website</th>
+    <th>VideoLAN Movie Creator</th>
+  </tr>
+  <tr>
+    <td><a href="http://people.videolan.org/~etix/transifex/vlc-android/strings.xml">strings.xml</a></td>
+    <td><a href="http://svn.videolan.org/dl.php?repname=VideoLAN+Websites&path=%2Fwww.videolan.org%2Flocale%2Fwebsite.pot">website.pot</a></td>
+    <td><a href="http://git.videolan.org/?p=vlmc.git;a=blob_plain;f=ts/template.ts;hb=HEAD">template.ts</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://git.videolan.org/?p=vlc-ports/android.git;a=tree;f=vlc-android/res;hb=HEAD">browse git repo</a></td>
+    <td><a href="http://svn.videolan.org/listing.php?repname=VideoLAN+Websites&path=%2Fwww.videolan.org%2Flocale%2F&rev=head">browse svn</a></td>
+    <td><a href="http://git.videolan.org/?p=vlmc.git;a=tree;f=ts;hb=HEAD">browse git repo</a></td>
+  </tr>
 <p><i>Written by Christoph Miebach &lt;christoph dot miebach at web dot de&gt;</i></p>

@@ -28,11 +28,11 @@
 <p>VLC currently supports <b>Windows XP SP2 or later</b>.</p>
 <?php
     pkgitem_sf("Installer package",
-                   "$vlc_version/win32","vlc-$vlc_version-win32.exe","vlc", "Exe installer",         "e03f2f24bca457a35e1e26732afe4a2f") ;
+                   "$vlc_version/win32","vlc-$vlc_version-win32.exe","vlc", "Exe installer",         "e563a65baea25cef8f49fb0228cb8555") ;
     pkgitem_sf("7zip package",
-                  "$vlc_version/win32","vlc-$vlc_version-win32.7z",  "vlc", "(No installer needed)", "847c420643be12bc767731e94ddb9855" );
+                  "$vlc_version/win32","vlc-$vlc_version-win32.7z",  "vlc", "(No installer needed)", "2ca6ca11ef2a8ac102702dc673eb8d01" );
     pkgitem_sf("Zip package",
-                  "$vlc_version/win32","vlc-$vlc_version-win32.zip", "vlc", "(No installer needed)", "abe55b0389c467f83eeaeab9895c842b" );
+                  "$vlc_version/win32","vlc-$vlc_version-win32.zip", "vlc", "(No installer needed)", "3386854def844b62f19a88aed920c431" );
 ?>
 
 <div class="clearme"> </div>

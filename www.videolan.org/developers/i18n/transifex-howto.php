@@ -124,7 +124,6 @@ translations for VLC for Android&trade; and the website is almost automated</p>
 VLC media player (2.0.X), translations for the website (only some pages), 
 VLC for Android&trade; (beta) and for VideoLAN Movie Creator.</p>
 
-
 <h3>Here you can find the files for translation or browse to see if your language already has a (partial) translation:</h3>
 <table>
   <tr>
@@ -142,4 +141,5 @@ VLC for Android&trade; (beta) and for VideoLAN Movie Creator.</p>
     <td><a href="http://svn.videolan.org/listing.php?repname=VideoLAN+Websites&path=%2Fwww.videolan.org%2Flocale%2F&rev=head">browse svn</a></td>
     <td><a href="http://git.videolan.org/?p=vlmc.git;a=tree;f=ts;hb=HEAD">browse git repo</a></td>
   </tr>
+</table>
 <p><i>Written by Christoph Miebach &lt;christoph dot miebach at web dot de&gt;</i></p>

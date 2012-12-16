@@ -108,10 +108,11 @@ usually won't modify your translation or your team).<p>
 <h3>Benefits:</h3>
 <p>If the strings changes in the git the current version will show up automatically
 (within a day), so you won't have to take care of that yourself.</p>
-<p>You can upload whenever you got something translated and don't need to email you
+<p>You can upload whenever you got something translated and don't need to email your
 progress and I will upload them to git at release time.</p>
 <p>You can have several translators (maybe as reviewers) in your team.</p>
-<p>It's less likely your updates are overlooked. At the moment, updating existing translations for VLC for Android&trade; and the website is almost automated</p>
+<p>It's less likely your updates are overlooked. At the moment, updating existing 
+translations for VLC for Android&trade; and the website is almost automated</p>
 
 
 
@@ -119,8 +120,18 @@ progress and I will upload them to git at release time.</p>
 
 <p>The other suggestions still apply (i.e.: contact current maintainer before starting with the work).</p>
 
-<p>This <a href="https://www.transifex.com/projects/p/vlc-trans/">transifex project</a> currently contains VLC media player (2.0.X), translations for the website (only some pages), 
+<p>This <a href="https://www.transifex.com/projects/p/vlc-trans/">transifex project</a> currently contains 
+VLC media player (2.0.X), translations for the website (only some pages), 
 VLC for Android&trade; (beta) and for VideoLAN Movie Creator.</p>
 
+<p>Here you can find the files for translation for 
+<a href="http://people.videolan.org/~etix/transifex/vlc-android/strings.xml">VLC for Android&trade; (beta)</a>, for the
+<a href="http://svn.videolan.org/dl.php?repname=VideoLAN+Websites&path=%2Fwww.videolan.org%2Flocale%2Fwebsite.pot">videolan website</a> and
+<a href="http://git.videolan.org/?p=vlmc.git;a=blob_plain;f=ts/template.ts;hb=HEAD">VideoLAN Movie Creator</a>.</p>
+
+<p>Some languages already have a (partial) translation, browsing is possible for 
+<a href="http://svn.videolan.org/listing.php?repname=VideoLAN+Websites&path=%2Fwww.videolan.org%2Flocale%2F&rev=head">the website</a> and in 
+the git for <a href=http://git.videolan.org/?p=vlmc.git;a=tree;f=ts;hb=HEAD">VideoLAN Movie Creator</a> or 
+<a href="http://git.videolan.org/?p=vlc-ports/android.git;a=tree;f=vlc-android/res;hb=HEAD">VLC for Android&trade; (beta)</a>.</p>
 
 <p><i>Written by Christoph Miebach &lt;christoph dot miebach at web dot de&gt;</i></p>

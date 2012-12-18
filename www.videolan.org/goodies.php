@@ -30,53 +30,75 @@
 <ul>
 
 <li>
+<a href="//images.videolan.org/images/goodies/cone-26xPG.png">
 <img src="//images.videolan.org/images/goodies/cone-26xPG.png" alt="made by Nirzar" width="300" />
+</a>
 <p>made by <a href="http://twitter.com/nirzardp">Nirzar</a></p>
 </li>
 
 <li>
+<a href="//images.videolan.org/images/goodies/snowman.png">
 <img src="//images.videolan.org/images/goodies/snowman.png" alt="made by Cory Simmons" width="300" />
+</a>
 <p>made by <a href="http://mscns.com">Cory Simmons</a></p>
 </li>
 
 <li>
+<a href="//images.videolan.org/images/goodies/cone-i2Es.png">
 <img src="//images.videolan.org/images/goodies/cone-i2Es.png" alt="made by Mr. Lee" width="300" />
+</a>
 <p>made by <a href="http://www.design-fu.co.uk">Mr. Lee</a></p>
 </li>
 
 <li>
+<a href="//images.videolan.org/images/goodies/cone-buB2.png">
 <img src="//images.videolan.org/images/goodies/cone-buB2.png" alt="made by Joel Shaw" width="300" />
+</a>
 <p>made by Joel Shaw</p>
 </li>
 
 <li>
+<a href="//images.videolan.org/images/goodies/cone-eT5x.png">
 <img src="//images.videolan.org/images/goodies/cone-eT5x.png" alt="made by Gautham aka Gapo" width="300" />
+</a>
 <p>made by Gautham aka Gapo</p>
 </li>
 
 <li>
+<a href="//images.videolan.org/images/goodies/cone-raGi.png">
 <img src="//images.videolan.org/images/goodies/cone-raGi.png" alt="made by Nick Pierno" width="300" />
+</a>
+<a href="//images.videolan.org/images/goodies/cone-RNF1.png">
 <img src="//images.videolan.org/images/goodies/cone-RNF1.png" alt="made by Nick Pierno" width="300" />
+</a>
 <p>made by <a href="http://www.topdraw.com">Nick Pierno</a></p>
 </li>
 
 <li>
+<a href="//images.videolan.org/images/goodies/cone-gA4v.png">
 <img src="//images.videolan.org/images/goodies/cone-gA4v.png" alt="made by SavTheCoder" width="300" />
+</a>
 <p>made by SavTheCoder</p>
 </li>
 
 <li>
+<a href="//images.videolan.org/images/goodies/cone-FQCw.png">
 <img src="//images.videolan.org/images/goodies/cone-FQCw.png" alt="made by digoncreative" width="300" />
+</a>
 <p>made by digoncreative</p>
 </li>
 
 <li>
+<a href="//images.videolan.org/images/goodies/cone-8oPi.png">
 <img src="//images.videolan.org/images/goodies/cone-8oPi.png" alt="made by TheBDutchman" width="300" />
+</a>
 <p>made by TheBDutchman</p>
 </li>
 
 <li>
+<a href="//images.videolan.org/images/goodies/cone-f9my.png">
 <img src="//images.videolan.org/images/goodies/cone-f9my.png" alt="made by mishnak" width="300" />
+</a>
 <p>(joke) made by <a href="http://www.reddit.com/user/mishnak">mishnak</a></p>
 </li>
 

@@ -30,6 +30,57 @@
 <ul>
 
 <li>
+<img src="//images.videolan.org/images/goodies/cone-26xPG.png" alt="made by Nirzar" width="300" />
+<p>made by <a href="http://twitter.com/nirzardp">Nirzar</a></p>
+</li>
+
+<li>
+<img src="//images.videolan.org/images/goodies/snowman.png" alt="made by Cory Simmons" width="300" />
+<p>made by <a href="http://mscns.com">Cory Simmons</a></p>
+</li>
+
+<li>
+<img src="//images.videolan.org/images/goodies/cone-i2Es.png" alt="made by Mr. Lee" width="300" />
+<p>made by <a href="http://www.design-fu.co.uk">Mr. Lee</a></p>
+</li>
+
+<li>
+<img src="//images.videolan.org/images/goodies/cone-buB2.png" alt="made by Joel Shaw" width="300" />
+<p>made by Joel Shaw</p>
+</li>
+
+<li>
+<img src="//images.videolan.org/images/goodies/cone-eT5x.png" alt="made by Gautham aka Gapo" width="300" />
+<p>made by Gautham aka Gapo</p>
+</li>
+
+<li>
+<img src="//images.videolan.org/images/goodies/cone-raGi.png" alt="made by Nick Pierno" width="300" />
+<img src="//images.videolan.org/images/goodies/cone-RFN1.png" alt="made by Nick Pierno" width="300" />
+<p>made by <a href="http://www.topdraw.com">Nick Pierno</a></p>
+</li>
+
+<li>
+<img src="//images.videolan.org/images/goodies/cone-gA4v.png" alt="made by SavTheCoder" width="300" />
+<p>made by SavTheCoder</p>
+</li>
+
+<li>
+<img src="//images.videolan.org/images/goodies/cone-FQCw.png" alt="made by digoncreative" width="300" />
+<p>made by digoncreative</p>
+</li>
+
+<li>
+<img src="//images.videolan.org/images/goodies/cone-8oPi.png" alt="made by TheBDutchman" width="300" />
+<p>made by TheBDutchman</p>
+</li>
+
+<li>
+<img src="//images.videolan.org/images/goodies/cone-f9my.png" alt="made by mishnak" width="300" />
+<p>(joke) made by <a href="http://www.reddit.com/user/mishnak">mishnak</a></p>
+</li>
+
+<li>
 
 <p>The version made by Stephane Soppera (with Blender):</p>
 <a href="http://images.videolan.org/images/goodies/cone-soppera10.png">

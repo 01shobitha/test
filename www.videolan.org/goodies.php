@@ -56,7 +56,7 @@
 
 <li>
 <img src="//images.videolan.org/images/goodies/cone-raGi.png" alt="made by Nick Pierno" width="300" />
-<img src="//images.videolan.org/images/goodies/cone-RFN1.png" alt="made by Nick Pierno" width="300" />
+<img src="//images.videolan.org/images/goodies/cone-RNF1.png" alt="made by Nick Pierno" width="300" />
 <p>made by <a href="http://www.topdraw.com">Nick Pierno</a></p>
 </li>
 

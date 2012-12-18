@@ -23,7 +23,7 @@
             </a>
         </div>
         <div class="projectMain">
-            <?php image( 'goodies/cone-eT5x.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?>
+            <?php image( 'largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?>
             <div class="projectLeft">
                 <h1 class='bigtitle'>VLC media player</h1>
                 <div class='projectDescription'>

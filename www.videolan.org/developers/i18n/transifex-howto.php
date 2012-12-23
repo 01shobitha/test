@@ -114,7 +114,10 @@ progress and I will upload them to git at release time.</p>
 <p>It's less likely your updates are overlooked. At the moment, updating existing 
 translations for VLC for Android&trade; and the website is almost automated</p>
 
-
+<p>It's possible to get the translation of a similar language displayed when using 
+the translation web frontend</p>
+<p>Not transifex related news: We are going to enable every translation (upon request) 
+for the nightly builds. This is different to the normal releases.</p>
 
 <h2>Start work</h2>
 

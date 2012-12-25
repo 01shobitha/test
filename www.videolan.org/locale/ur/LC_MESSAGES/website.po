@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-12-15 12:40+0100\n"
-"PO-Revision-Date: 2012-12-23 00:07+0000\n"
+"PO-Revision-Date: 2012-12-24 17:24+0000\n"
 "Last-Translator: slk <sliaquat@cern.ch>\n"
 "Language-Team: Urdu (http://www.transifex.com/projects/p/vlc-trans/language/ur/)\n"
 "MIME-Version: 1.0\n"
@@ -30,7 +30,7 @@ msgstr " غیر منافع بخش تنظیم"
 msgid ""
 "composed of volunteers, developing and promoting free, open-source "
 "multimedia solutions."
-msgstr " رضاکاروں پر مشتمل ہے، جو مفت، اوپن سورس ملٹی میڈیا حل کوبنا اور فروغ دے رہے ہيں."
+msgstr " رضاکاروں پر مشتمل ہے، جو مفت، اوپن سورس ملٹی میڈیا پروگرام کوبنا اور فروغ دے رہے ہيں."
 
 #: include/header.php:157
 msgid "DONATE"
@@ -46,7 +46,7 @@ msgstr "عطيہ"
 
 #: include/header.php:204
 msgid "Home"
-msgstr "ہوم بيج"
+msgstr "ہوم پيج"
 
 #: include/header.php:207 include/header.php:366
 msgid "News"
@@ -66,7 +66,7 @@ msgstr "رابطہ کريں"
 
 #: include/header.php:215 include/header.php:361
 msgid "Partners"
-msgstr "ساتھى"
+msgstr "شراکت دار"
 
 #: include/header.php:216 include/header.php:362
 msgid "Press center"
@@ -96,7 +96,7 @@ msgstr "سکرين کى تصاوير"
 
 #: include/header.php:227 include/header.php:319 index.php:35 vlc/index.php:29
 msgid "Skins"
-msgstr "کھال"
+msgstr "جلد"
 
 #: include/header.php:228 include/header.php:320
 msgid "Extensions"
@@ -148,11 +148,11 @@ msgstr "بگ کى خبر ديں"
 
 #: include/header.php:273
 msgid "Dev' Zone"
-msgstr "ڈویلپر کا زون"
+msgstr "ڈویلپر زون"
 
 #: include/header.php:343
 msgid "Community"
-msgstr "کمیونٹی"
+msgstr "برادری"
 
 #: include/header.php:365
 msgid "Get Involved"
@@ -160,7 +160,7 @@ msgstr "شموليت اختيار کريں"
 
 #: include/os-specific.php:85 vlc/index.php:32
 msgid "Download VLC"
-msgstr " VLC ڈاؤن لوڈ کريں"
+msgstr " وىـى ـ ايل ـ سى ـ ڈاؤن لوڈ کريں"
 
 #: include/os-specific.php:91 vlc/index.php:39
 msgid "Other Systems and Versions"
@@ -168,14 +168,14 @@ msgstr "ديگر سسٹم اور ورژن"
 
 #: index.php:3
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
-msgstr "VLC: سرکاری سائٹ - تمام OS کے لئے مفت ملٹی میڈیا حل!"
+msgstr "وىـى ـ ايل ـ سى ـ سرکاری سائٹ - تمام آپريٹنگ سسٹمز کے لئے مفت ملٹی میڈیا پروگرام!"
 
 #: index.php:31 vlc/index.php:25
 msgid ""
 "VLC is a free and open source cross-platform multimedia player and framework"
 " that plays most multimedia files as well as DVD, Audio CD, VCD, and various"
 " streaming protocols."
-msgstr "VLC ایک مفت اور اوپن سورس کراس پلیٹ فارم ملٹی میڈیا پلیئر اور فریم ورک ہے جو سب سے زیادہ ملٹی میڈیا فائلوں کو چلاتا ہے، اس کے ساتھ ساتھ ڈی وی ڈی، آڈیو سی ڈی، VCD، اور مختلف سٹريمنگ پروٹوکول کو بھى چلاتا ہے."
+msgstr "وىـى ـ ايل ـ سى ـ ایک مفت اور اوپن سورس کراس پلیٹ فارم ملٹی میڈیا پلیئر اور فریم ورک ہے جو سب سے زیادہ ملٹی میڈیا فائلوں کو چلاتا ہے، اس کے ساتھ ساتھ ڈی وی ڈی، آڈیو سی ڈی، وى سى ڈى، اور مختلف سٹريمنگ پروٹوکول کو بھى چلاتا ہے."
 
 #: index.php:41
 msgid "Other projects from VideoLAN"
@@ -189,12 +189,12 @@ msgstr "سب کے ليے"
 msgid ""
 "VLC is a powerful media player playing most of the media codecs and video "
 "formats out there."
-msgstr "VLC ایک طاقتور میڈیا پليئر ہے جو کہ زيادہ ترمیڈیا کوڈيک اور ویڈیو فارمیٹس چلاتا ہے ـ"
+msgstr "وىـى ـ ايل ـ سى ـ ایک طاقتور میڈیا پليئر ہے جو کہ زيادہ ترمیڈیا کوڈيک اور ویڈیو فارمیٹ چلاتا ہے ـ"
 
 #: index.php:58
 msgid ""
 "VideoLAN Movie Creator is a non-linear editing software for video creation."
-msgstr " ‏VideoLAN Movie Creator ایک غیر لکیری  ويڈيو کى ترمیم کا سافٹ ویئر ہے ـ"
+msgstr "ويڈيو لين مووى کرى ايٹر ایک غیر لکیری ويڈيو کى ترمیم کا سافٹ ویئر ہے ـ"
 
 #: index.php:65
 msgid "For Professionals"
@@ -203,19 +203,19 @@ msgstr "پروفیشنلز کے لئے"
 #: index.php:71
 msgid ""
 "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
-msgstr "DVBlast ايک آسان اور طاقتور MPEG-2/TS demux اور سٹريمنگ کا پروگرام ہےـ"
+msgstr "ڈى وى بلاسٹ ايک آسان اور طاقتور ايم پيگ-٢/ٹى ايس ڈيمکسر اور سٹريمنگ کا پروگرام ہےـ"
 
 #: index.php:79
 msgid ""
 "multicat is a set of tools designed to easily and efficiently manipulate "
 "multicast streams and TS."
-msgstr "multicat  آسانی سے اور مؤثر طریقے سے کثیر نشریات اسٹریمز اور TS جوڑتوڑ ڈیزائن کے ٹولز کا ایک سیٹ ہے."
+msgstr "ملٹى کيٹ  آسانی سے اور مؤثر طریقے سے کثیر نشریات اسٹریمز اور ٹى ايس جوڑتوڑ ڈیزائن کے ٹولز کا ایک سیٹ ہے."
 
 #: index.php:88
 msgid ""
 "x264 is a free application for encoding video streams into the H.264/MPEG-4 "
 "AVC format."
-msgstr "x264  ويڈيو اسٹریمزکو H.264/MPEG-4 AVC کی شکل میں انکوڈنگ کے لئے ایک مفت پروگرام ہےـ"
+msgstr "ايکس - ٢٦٤ ويڈيو اسٹریمزکو ايچ ـ ٢٦٤ / ايم پيگ - ٤ اے ـ وى ـ سى ـ  کی شکل میں انکوڈنگ کرنے کے لئے ایک مفت پروگرام ہےـ"
 
 #: index.php:96
 msgid "For Developers"
@@ -235,13 +235,13 @@ msgstr "عطيہ ديں"
 
 #: index.php:116
 msgid "VideoLAN is a non-profit organization."
-msgstr "VideoLAN  ایک غیر منافع بخش تنظیم ہےـ"
+msgstr "ويڈيو لين ایک غیر منافع بخش تنظیم ہےـ"
 
 #: index.php:117
 msgid ""
 " All our costs are met by donations we receive from our users. If you enjoy "
 "using a VideoLAN product, please donate to support us."
-msgstr "ہمارے تمام اخراجات ہمارے صارفین کی طرف سے موصول ہونے والے عطیات  سے مل رہے ہیں. اگر آپ VideoLAN مصنوعات ميں سے کوئى ایک بھى استعمال کا لطف حاصل کر رہے ہيں، براہ مہربانی ہماری مدد کے ليے عطیہ دیں."
+msgstr "ہمارے تمام اخراجات ہمارے صارفین کی طرف سے موصول ہونے والے عطیات  سے مل رہے ہیں. اگر آپ ويڈيو لين کى مصنوعات ميں سے کوئى ایک بھى استعمال کا لطف حاصل کر رہے ہيں تو براہ مہربانی ہماری مدد کے ليے عطیہ دیں ـ"
 
 #: index.php:119 index.php:131 index.php:142
 msgid "Learn More"
@@ -249,23 +249,23 @@ msgstr "مزید معلومات حاصل کریں"
 
 #: index.php:128
 msgid "VideoLAN is open-source software."
-msgstr "VideoLAN اوپن سورس سافٹ ویئر ہے ـ"
+msgstr "ويڈيو لين اوپن سورس سافٹ ویئر ہے ـ"
 
 #: index.php:129
 msgid ""
 "This means that if you have the skill and the desire to improve one of our "
 "products, your contributions are welcome"
-msgstr "اس کا مطلب یہ ہے کہ اگر آپ کو مہارت اور ہماری مصنوعات میں سےکسى ایک کو بہتر بنانے کی خواہش ہے تو ہم آپ کى شراکت کا استقبال کرتے ہيں"
+msgstr "اس کا مطلب یہ ہے کہ اگر آپ کوہمارى مہارت اور ہماری مصنوعات میں سےکسى ایک کو بہتر بنانے کی خواہش ہے تو ہم آپ کى شراکت کا استقبال کرتے ہيں"
 
 #: index.php:136
 msgid "Spread the Word"
-msgstr "بات کی اشاعت کريں"
+msgstr "ويڈيو لين کى خبر پھيلائيں"
 
 #: index.php:140
 msgid ""
 "We feel that VideoLAN has the best video software available at the best "
 "price: free. If you agree please help spread the word about our software."
-msgstr "ہمیں لگتا ہے کہ VideoLAN بہترین ویڈیو بہترین قیمت پر دستیاب سافٹ ویئر ہے: مفت. اگر آپ اس بات پر راضی ہیں تو براہ مہربانی ہمارے سافٹ ویئر کے بارے میں لفظ پھیلانے میں مدد کریں."
+msgstr "ہمیں لگتا ہے کہ ويڈيو لين بہترین قیمت پر دستیاب ویڈیوسافٹ ویئر ہے: مفت. اگر آپ اس بات پر راضی ہیں تو براہ مہربانی ہمارے سافٹ ویئر کے بارے میں لفظ پھیلانے میں مدد کریں."
 
 #: index.php:412
 msgid "News &amp; Updates"
@@ -273,7 +273,7 @@ msgstr "خبریں اور تازہ ترین معلومات"
 
 #: index.php:416
 msgid "Development Blogs"
-msgstr "ڈيويلپمنٹ کى تازہ ترین خبريں - بلاگ"
+msgstr "ڈيولپمنٹ کى تازہ ترین خبريں - بلاگ"
 
 #: index.php:439
 msgid "Social media"
@@ -281,7 +281,7 @@ msgstr "سوشل میڈیا"
 
 #: vlc/index.php:3
 msgid "Official page for VLC media player, the Open Source video framework!"
-msgstr "VLC میڈیا پلیئر، اوپن سورس ویڈیو فریم ورک کے لئے باضابطہ صفحے!"
+msgstr "وى ـ ايل ـ سى ـ میڈیا پلیئر، اوپن سورس ویڈیو فریم ورک کے لئے باضابطہ صفحے!"
 
 #: vlc/index.php:45
 msgid "Simple, fast and powerful media player."
@@ -293,7 +293,7 @@ msgstr "فائلیں، ڈسکس، ویب کیمرے، آلات اور سٹريم
 
 #: vlc/index.php:49
 msgid "Plays most codecs with no codec packs needed:"
-msgstr "زيادہ طر کوڈىيک ب‏غير کسى بھى کوڈيک پيک کے بغير چلاتا ہے:"
+msgstr "زيادہ طر کوڈىيک کسى بھى کوڈيک پيک کے بغير چلاتا ہے:"
 
 #: vlc/index.php:52
 msgid "Runs on all platforms:"
@@ -301,7 +301,7 @@ msgstr "تمام پلیٹ فارم پر چلتا ہے:"
 
 #: vlc/index.php:54
 msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
-msgstr "مکمل طور پر مفت، صفر سپائیویئر، صفراشتھارات اور کسى صارف کے ٹريکنگ نہيں کى جاتى ـ"
+msgstr "مکمل طور پر مفت، صفر سپائویئر، صفراشتھارات اور کسى صارف کى ٹريکنگ نہيں کى جاتى ـ"
 
 #: vlc/index.php:56
 msgid "Can do media conversion and streaming."
@@ -317,11 +317,11 @@ msgstr "سکرين کى تمام تصاوير ديکھيے"
 
 #: vlc/index.php:99
 msgid "Get VLC for"
-msgstr "کے لئے VLC حاصل:"
+msgstr " وى ـ ايل ـ سى ـ حاصل کريں:"
 
 #: vlc/index.php:103
 msgid "Official Downloads of VLC media player"
-msgstr "VLC میڈیا پلیئر کے سرکاری ڈا‎ؤنلوڈ "
+msgstr "وى ـ ايل ـ سى ـ میڈیا پلیئر کے سرکاری ڈا‎ؤنلوڈ "
 
 #: vlc/index.php:110
 msgid "Sources"
@@ -329,7 +329,7 @@ msgstr "ذرائع - سورس کوڈ"
 
 #: vlc/index.php:111
 msgid "You can also directly get the"
-msgstr "آپ براہ راست بھی حاصل کر سکتے ہیں:"
+msgstr "آپ براہ راست بھی حاصل کر سکتے ہیں"
 
 #: vlc/index.php:112
 msgid "source code"
@@ -337,4 +337,4 @@ msgstr "سورس کوڈ"
 
 #: vlc/index.php:133
 msgid "Other OS"
-msgstr "ديگر OS"
+msgstr "ديگر آپريٹنگ سسٹم"

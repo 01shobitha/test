@@ -26,7 +26,7 @@ We will perform detailed scheduling early next month and reach out to major IT c
 <p>The project funded through this campaign includes support for Windows RT and Windows Phone 8.</p>
 <br />
 <p><b>Windows 8</b> is the latest release of Microsoft's Windows operating system, for use on personal computers, tablets, and home theater PCs. The operating system was released for general availability on October 26, 2012 and introduced the Modern UI a.k.a. Metro experience known from Windows Phone 7. With <b>Windows RT</b>, this major release adds support for the ARM platform.</p>
-<p><b>Windows Phone 8</b> is the latest release of Windows for mobile devices featuring the Modern UI. It was published on October 29, 2012 and features major improvements over the previous version, which allow us to port VLC to this platform. This is the third major mobile platform supported by VLC following iOS and Android.</p>
+<p><b>Windows Phone 8</b> is the latest release of Windows for mobile devices featuring the Modern UI. It was published on October 29, 2012 and includes major improvements over the previous version, which allow us to port VLC to this platform. This is the third major mobile platform supported by VLC following iOS and Android.</p>
 
 <h2>Links</h2>
 <p><a href="http://www.videolan.org/press/win8ks.html">VideoLAN press statement on fundraising campaign for Windows 8 and RT (Nov 29)</a></p>

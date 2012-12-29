@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|29 December 2012|VLC fundraiser for Windows 8, RT and Phone ended|Today, the <a href="http://www.kickstarter.com/projects/1061646928/vlc-for-the-new-windows-8-user-experience-metro">fundraising campaign</a> for for Windows 8, RT and Phone run by some <a href="/videolan/team">VideoLAN</a> team members ended. Their goal was successfully reached and they announced to start working on the new ports right away. <a href="http://www.videolan.org/press/win8ks.html">Find out more</a>.
+
 |15 December 2012|VLC 2.0.5|VideoLAN and the VLC development team are happy to present the sixth version of "Twoflower", a minor update that improves the overall stability.<br />Notable changes include improved reliability for MKV file playback, fixed MPEG2 audio and video encoding, pulseaudio synchronization, Mac OS interface, and other fixes. It also resolves potential security issues in HTML subtitle parser, freetype renderer, AIFF demuxer and SWF demuxer.<br />More info in <a href="/vlc/releases/2.0.5.html">the release notes</a>.<br />We would like to remind our users that some VideoLAN team members are trying to raise money for <a href="http://www.kickstarter.com/projects/1061646928/vlc-for-the-new-windows-8-user-experience-metro">VLC for Windows Metro on Kickstarter</a>.
 
 |29 November 2012|VLC for the new Windows 8 User Experience fundraiser|Today, some <a href="/videolan/team">VideoLAN</a> team members launched a <a href="http://www.kickstarter.com/projects/1061646928/vlc-for-the-new-windows-8-user-experience-metro">fundraiser on Kickstarter</a> to support a port to the new User Experience on Windows 8 (aka "Metro") and Windows RT. <a href="http://www.videolan.org/press/win8ks.html">Find out more</a>.

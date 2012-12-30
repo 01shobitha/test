@@ -17,13 +17,8 @@
    /* Main page */
 ?>
     <div>
-        <div class="clearme" style="padding-top: 26px; width: 800px; height: 120px; margin-left: auto; margin-right: auto;">
-            <a href="http://www.kickstarter.com/projects/1061646928/vlc-for-the-new-windows-8-user-experience-metro" target="_blank">
-                <?php image( 'vlc-win8-banner.png', 'Banner for the Windows 8 fundraiser' ); ?>
-            </a>
-        </div>
         <div class="projectMain">
-            <?php image( 'goodies/cone-eT5x.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?>
+            <?php image( 'largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?>
             <div class="projectLeft">
                 <h1 class='bigtitle'>VLC media player</h1>
                 <div class='projectDescription'>

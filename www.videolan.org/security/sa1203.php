@@ -1,5 +1,5 @@
 <?php
-   $title = "VideoLAN Security Advisory 0809";
+   $title = "VideoLAN Security Advisory 1203";
    $lang = "en";
    $menu = array( "vlc" );
    $body_color = "red";

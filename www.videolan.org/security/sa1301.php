@@ -73,3 +73,4 @@ on behalf of the VideoLAN project</address>
 
 </div>
 
+<?php footer('$Id$'); ?>

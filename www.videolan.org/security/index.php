@@ -25,6 +25,15 @@ for underlying third party libraries.
 Please refer to the concerned third parties as appropriate.
 </p>
 
+<h2>2013</h2>
+<dl>
+
+<dt>VideoLAN-SA-1301 (CVE-xxxx-xxxx)</dt>
+<dd>Overflow in subtitles decoder
+ <a href="sa1301.html">Details</a>
+</dd>
+
+
 <h2>2012</h2>
 <dl>
 

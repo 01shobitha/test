@@ -82,8 +82,8 @@ There is absolutely NO SUPPORT for it from the VideoLAN Team.
 <p>In order to test it, follow the usual instructions to install VLC as described on <a href="http://www.videolan.org/vlc/download-suse.html">http://www.videolan.org/vlc/download-suse.html</a>, but replace the packagename <b>vlc</b> with <b>vlc-beta</b>. <i>You can only install one version, so either vlc OR vlc-beta. They conflict each other. </i></p>
 
         <h2><a id='gentoo'>VLC Git Ebuild for Gentoo</a></h2>
-<p>Alexis Ballier maintains Ebuilds for both the <a href='http://sources.gentoo.org/viewcvs.py/gentoo-x86/media-video/vlc/vlc-9999.ebuild?rev=1.1&amp;view=log'>master (vlc-9999.ebuild)</a> and <a href='http://sources.gentoo.org/viewcvs.py/gentoo-x86/media-video/vlc/vlc-0.9.9999.ebuild?rev=1.1&amp;view=log'>0.9-bugfix (vlc-0.9.9999.ebuild)</a> Git branches in the Portage tree.</p>
-As they are live ebuilds they come without any keyword so you'll have to put a '**' entry for them in package.keywords in order to be able to install it and when appropriate an entry in package.unmask .
+<p>Alexis Ballier maintains Ebuild for the <a href='http://sources.gentoo.org/viewcvs.py/gentoo-x86/media-video/vlc/vlc-9999.ebuild?rev=1.1&amp;view=log'>master (vlc-9999.ebuild)</a> Git branch in the Portage tree.</p>
+As it is a live ebuild it comes without any keyword so you'll have to put a '**' entry for it in package.keywords in order to be able to install it and, when appropriate, an entry in package.unmask .
 </div>
 <br />
 

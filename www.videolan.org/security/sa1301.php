@@ -45,7 +45,7 @@ Patches for older versions are available
 from the official VLC source code repository 2.0.
 </p>
 <h2>Credits</h2>
-<p>This vulnerability was reported by Kaveh Ghaemmaghami(coolkaveh).
+<p>This vulnerability was reported by Aliz Hammond.
 </p>
 <h2>References</h2>
 <dl>

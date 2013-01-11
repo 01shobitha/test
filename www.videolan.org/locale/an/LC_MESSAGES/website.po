@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-12-15 12:40+0100\n"
-"PO-Revision-Date: 2013-01-10 00:40+0000\n"
+"PO-Revision-Date: 2013-01-11 11:33+0000\n"
 "Last-Translator: chesus <xuxinho7@gmail.com>\n"
 "Language-Team: Aragonese (http://www.transifex.com/projects/p/vlc-trans/language/an/)\n"
 "MIME-Version: 1.0\n"
@@ -100,7 +100,7 @@ msgstr "Apariencia"
 
 #: include/header.php:228 include/header.php:320
 msgid "Extensions"
-msgstr "ExtensionsP"
+msgstr "Extensions"
 
 #: include/header.php:232
 msgid "Projects"
@@ -112,7 +112,7 @@ msgstr "Totz os prochectos"
 
 #: include/header.php:253 index.php:124
 msgid "Contribute"
-msgstr "Colaborar"
+msgstr "Colaborar-ie"
 
 #: include/header.php:255 include/header.php:350
 msgid "Donate time"
@@ -317,7 +317,7 @@ msgstr "Amostrar todas as capturas"
 
 #: vlc/index.php:99
 msgid "Get VLC for"
-msgstr "Aconsiga VLC ta "
+msgstr "Aconseguir o VLC ta "
 
 #: vlc/index.php:103
 msgid "Official Downloads of VLC media player"

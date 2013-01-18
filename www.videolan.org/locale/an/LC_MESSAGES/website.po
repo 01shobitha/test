@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Chesús Daniel Trigo <xuxinho7@gmail.com>, 2013.
+#   <xuxinho7@gmail.com>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-12-15 12:40+0100\n"
-"PO-Revision-Date: 2013-01-11 11:33+0000\n"
+"PO-Revision-Date: 2013-01-17 12:11+0000\n"
 "Last-Translator: chesus <xuxinho7@gmail.com>\n"
 "Language-Team: Aragonese (http://www.transifex.com/projects/p/vlc-trans/language/an/)\n"
 "MIME-Version: 1.0\n"
@@ -24,13 +24,13 @@ msgstr "Un prochecto y una"
 
 #: include/header.php:152
 msgid "non-profit organization"
-msgstr "organización sin fins de lucro"
+msgstr "organización sin animo de lucro"
 
 #: include/header.php:153
 msgid ""
 "composed of volunteers, developing and promoting free, open-source "
 "multimedia solutions."
-msgstr "formada por voluntarios, desembolicando y promovendo solucions multimedia de gufanya y de codigo ubierto."
+msgstr "formada por voluntarios, desembolicando y empentando solucions multimedia gratuitas y de codigo ubierto."
 
 #: include/header.php:157
 msgid "DONATE"
@@ -82,7 +82,7 @@ msgstr "Centro de seguranza"
 
 #: include/header.php:224
 msgid "Download"
-msgstr "Baixadas"
+msgstr "Descargas"
 
 #: include/header.php:225 include/header.php:321 index.php:33 vlc/index.php:27
 #: vlc/index.php:44
@@ -148,7 +148,7 @@ msgstr "Informar d'un error"
 
 #: include/header.php:273
 msgid "Dev' Zone"
-msgstr "Desembolicamiento"
+msgstr "Desembolique"
 
 #: include/header.php:343
 msgid "Community"
@@ -160,7 +160,7 @@ msgstr "Embrecar-se-ie"
 
 #: include/os-specific.php:85 vlc/index.php:32
 msgid "Download VLC"
-msgstr "Baixar o VLC"
+msgstr "Descargar o VLC"
 
 #: include/os-specific.php:91 vlc/index.php:39
 msgid "Other Systems and Versions"
@@ -168,14 +168,14 @@ msgstr "Atros sistemas y versions"
 
 #: index.php:3
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
-msgstr "VLC: puesto oficial - Solucions multimedia de gufanya y libres ta totz os SO!"
+msgstr "VLC: puesto oficial - Solucions multimedia gratuitas y libres ta totz os SO!"
 
 #: index.php:31 vlc/index.php:25
 msgid ""
 "VLC is a free and open source cross-platform multimedia player and framework"
 " that plays most multimedia files as well as DVD, Audio CD, VCD, and various"
 " streaming protocols."
-msgstr "VLC ye un reproductor de gufanya, de codigo ubierto y multiplataforma que ye compatible con quasi totz os archivos multimedia, formatos de DVD, Audio CD, VCD y quantos protocolos de fluxo de datos."
+msgstr "VLC ye un reproductor gratuito, de codigo ubierto y multiplataforma que ye compatible con quasi totz os archivos multimedia, formatos de DVD, Audio CD, VCD y quantos protocolos de fluxo de datos."
 
 #: index.php:41
 msgid "Other projects from VideoLAN"
@@ -189,7 +189,7 @@ msgstr "Ta totz"
 msgid ""
 "VLC is a powerful media player playing most of the media codecs and video "
 "formats out there."
-msgstr "VLC ye un reproductor muit potent, compatible con a mayoría d'os codecs y formatos de video que i ha."
+msgstr "VLC ye un reproductor muit potent, compatible con a mayoría d'os codecs y formatos de video que n'i ha."
 
 #: index.php:58
 msgid ""
@@ -209,13 +209,13 @@ msgstr "DVBlast ye un demultiplexor MPEG-2/TS simple y potent."
 msgid ""
 "multicat is a set of tools designed to easily and efficiently manipulate "
 "multicast streams and TS."
-msgstr "multicat ye un chuego de ferramientas que permiten chestionar facilment y efectiva fluxos multicast y TS."
+msgstr "multicat ye un conchunto de ferramientas que permiten chestionar de traza facil y efectiva fluxos multicast y TS."
 
 #: index.php:88
 msgid ""
 "x264 is a free application for encoding video streams into the H.264/MPEG-4 "
 "AVC format."
-msgstr "x264 ye una aplicación de gufanya ta codificar fluxos de video en o formato H.264/MPEG-4 AVC."
+msgstr "x264 ye una aplicación gratuita ta codificar fluxos de video en o formato H.264/MPEG-4 AVC."
 
 #: index.php:96
 msgid "For Developers"
@@ -235,7 +235,7 @@ msgstr "Donar"
 
 #: index.php:116
 msgid "VideoLAN is a non-profit organization."
-msgstr "VideoLAN ye una organización sin fins de lucro."
+msgstr "VideoLAN ye una organización sin animo de lucro."
 
 #: index.php:117
 msgid ""
@@ -255,7 +255,7 @@ msgstr "VideoLan ye un software de codigo ubierto."
 msgid ""
 "This means that if you have the skill and the desire to improve one of our "
 "products, your contributions are welcome"
-msgstr "Ixo significa que si tien a capacidat y o deseyo d'amillorar bell un d'os nuestros productos, a suya colaboración ye bienplegada"
+msgstr "Ixo significa que si tien a capacidat y o deseyo d'amillorar belún d'os nuestros productos, a suya colaboración ye bienplegada"
 
 #: index.php:136
 msgid "Spread the Word"
@@ -273,7 +273,7 @@ msgstr "Noticias y actualizacions"
 
 #: index.php:416
 msgid "Development Blogs"
-msgstr "Blogs de desembolicamiento"
+msgstr "Blogs de desembolique"
 
 #: index.php:439
 msgid "Social media"
@@ -301,7 +301,7 @@ msgstr "S'executa en todas as plataformas:"
 
 #: vlc/index.php:54
 msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
-msgstr "De gufanya de raso, no en i ha, de programas espia, de anuncios ni se sigue o bayo de l'usuario.  "
+msgstr "Gratis de raso, no en i ha, de programas espia, de anuncios ni se sigue o bayo de l'usuario.  "
 
 #: vlc/index.php:56
 msgid "Can do media conversion and streaming."
@@ -321,7 +321,7 @@ msgstr "Aconseguir o VLC ta "
 
 #: vlc/index.php:103
 msgid "Official Downloads of VLC media player"
-msgstr "Baixadas oficials d'o reproductor VLC"
+msgstr "Descargas oficials d'o reproductor VLC"
 
 #: vlc/index.php:110
 msgid "Sources"

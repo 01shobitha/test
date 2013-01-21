@@ -18,24 +18,28 @@ CVE reference     : CVE-XXXX-XXXX
 </pre>
 <h2>Details</h2>
 <p>When parsing a specially crafted ASF movie,a buffer overflow might occur.</p>
+
 <h2>Impact</h2>
-<p>If successful,a malicious third party could trigger an invalid memory access, leading to 
-a crash of the process of the VLC media player. In some cases attackers might exploit this issue 
-to execute arbitrary code within the context of the application but its not confirmed.</p>
+<p>If successful, a malicious third party could trigger an invalid memory access, leading to
+a crash of the process of the VLC media player. In some cases attackers might exploit this issue
+to execute arbitrary code within the context of the application but this information is not confirmed.</p>
 
 <h2>Threat mitigation</h2>
 <p>Exploitation of this issue requires the user to explicitly open a specially crafted ASF movie </p>
 
 <h2>Workarounds</h2>
-<p>The user should refrain from opening files from untrusted third parties or accessing untrusted 
+<p>The user should refrain from opening files from untrusted third parties or accessing untrusted
 remote sites (or disable the VLC browser plugins), until the patch is applied.</p>
 
-<p>Alternatively, the ASF demuxer (<code>libasf_plugin.*</code>) can be removed/rename manually 
-from the VLC plugin installation directory. This will prevent playing ASF movies.
-</p>
+<p>Alternatively, the ASF demuxer (<code>libasf_plugin.*</code>) can be removed/rename manually
+from the VLC plugin installation directory. This will prevent playing ASF movies.</p>
+
 <h2>Solution</h2>
-<p>This issue is addressed in VLC media player 2.0.5 source code repository by replacing 
-macro with static inline and improving bounds checking</p>
+<p>This issue is addressed in VLC media player 2.0.x source code repository by replacing
+macro with static inline and improving bounds checking.</p>
+<p>This patch is included in the future VLC 2.0.6 release.</p>
+
+<p>Windows and Mac OS X builds can be found on the VideoLAN nightlies website.</p>
 
 <h2>Credits</h2>
 <p>This vulnerability was reported by Debasish Mandal.</p>
@@ -52,8 +56,14 @@ macro with static inline and improving bounds checking</p>
 <h2>History</h2>
 
 <dl>
+<dt>xx Jan 2013</dt>
+<dd>VLC media player 2.0.6 release.</dd>
 <dt>17 Jan 2013</dt>
-<dd>Patch for VLC media player 2.0.5 source code repository</dd>
+<dd>Nightly builds version of VLC 2.0.6 released for test purpose.</dd>
+<dt>17 Jan 2013</dt>
+<dd>Patch for VLC media player commited to the source code repository, and to the stable branch.</dd>
+<dt>11 Jan 2013</dt>
+<dd>Crash reported to the VLC project.</dd>
 </dl>
 </div>
 

@@ -1,6 +1,7 @@
 <?php
 $url = $_GET["url"];
 if( strpos( $url, "/" ) ) $url ="";
+if( strpos( $url, " " ) ) $url ="";
 ?>
 <html>
   <head>

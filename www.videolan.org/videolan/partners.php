@@ -148,7 +148,7 @@ cooperation of our partners, on both technical and financial sides: </p>
     </td>
     <td>
 
-         <p>Panasonic Deutschland, a division of Panasonic
+         <p><a href="http://www.panasonic.de">Panasonic Deutschland</a>, a division of Panasonic
 Marketing Europe GmbH, lent us a SC-XH150 setup consisting of a S/PDIF input capable DVD player and a 5.1 speaker set, which allowed us to fix the optical audio output on OS X Lion.</p>
 
     </td>
@@ -183,7 +183,7 @@ Marketing Europe GmbH, lent us a SC-XH150 setup consisting of a S/PDIF input cap
     </td>
     <td>
 
-         <p>TASCAM, a division of TEAC Europe GmbH, lent us a US-144 MKII MIDI interface, which allowed us to add support for multi-buffer audio output devices to VLC's Mac OS X port. This improvement will be part of VLC 2.1.</p>
+         <p><a href="http://www.tascam.eu/en/">TASCAM, a division of TEAC Europe GmbH</a>, lent us a US-144 MKII MIDI interface, which allowed us to add support for multi-buffer audio output devices to VLC's Mac OS X port. This improvement will be part of VLC 2.1.</p>
 
     </td>
   </tr>

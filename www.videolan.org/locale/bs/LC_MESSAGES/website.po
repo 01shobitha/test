@@ -1,168 +1,168 @@
 # Bosnian translation
-# Copyright (C) 2012 VideoLAN
+# Copyright (C) 2013 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Adnan Memija <sream_92@live.com>, 2012.
+# Adnan Memija <sream_92@live.com>, 2012-2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-17 14:56+0200\n"
-"PO-Revision-Date: 2012-08-26 22:29+0000\n"
+"POT-Creation-Date: 2012-12-15 12:40+0100\n"
+"PO-Revision-Date: 2013-02-07 02:55+0000\n"
 "Last-Translator: Adnan Memija <sream_92@live.com>\n"
 "Language-Team: Bosnian (http://www.transifex.com/projects/p/vlc-trans/language/bs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: bs\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: include/header.php:142
+#: include/header.php:152
 msgid "A project and a"
 msgstr "Projekat i"
 
-#: include/header.php:142
+#: include/header.php:152
 msgid "non-profit organization"
 msgstr "neprofitabilna organizacija"
 
-#: include/header.php:143
+#: include/header.php:153
 msgid ""
 "composed of volunteers, developing and promoting free, open-source "
 "multimedia solutions."
 msgstr "sastavljeni od volontera, koji razvjijaju i unaprijeđuju besplatna, multimedijalna rješenja otvorenog-koda"
 
-#: include/header.php:147
+#: include/header.php:157
 msgid "DONATE"
 msgstr "DONIRAJ"
 
-#: include/header.php:147
+#: include/header.php:157
 msgid "why?"
 msgstr "zašto?"
 
-#: include/header.php:161 include/header.php:175
+#: include/header.php:171 include/header.php:185
 msgid "donate"
 msgstr "doniraj"
 
-#: include/header.php:194
+#: include/header.php:204
 msgid "Home"
 msgstr "Početna"
 
-#: include/header.php:197 include/header.php:339
+#: include/header.php:207 include/header.php:366
 msgid "News"
 msgstr "Novosti"
 
-#: include/header.php:202 include/header.php:330
+#: include/header.php:212 include/header.php:357
 msgid "Project and Organization"
 msgstr "Projekat i organizacija"
 
-#: include/header.php:203 include/header.php:331
+#: include/header.php:213 include/header.php:358
 msgid "Team"
 msgstr "Tim"
 
-#: include/header.php:204 include/header.php:333
+#: include/header.php:214 include/header.php:360
 msgid "Contact us"
 msgstr "Kontakt"
 
-#: include/header.php:205 include/header.php:334
+#: include/header.php:215 include/header.php:361
 msgid "Partners"
 msgstr "Partneri"
 
-#: include/header.php:206 include/header.php:335
+#: include/header.php:216 include/header.php:362
 msgid "Press center"
 msgstr "Centar za štampu"
 
-#: include/header.php:207 include/header.php:336
+#: include/header.php:217 include/header.php:363
 msgid "Events"
 msgstr "Događaji"
 
-#: include/header.php:208 include/header.php:337
+#: include/header.php:218 include/header.php:364
 msgid "Security center"
 msgstr "Centar za sigurnost"
 
-#: include/header.php:214
+#: include/header.php:224
 msgid "Download"
 msgstr "Preuzmi"
 
-#: include/header.php:215 include/header.php:294 index.php:28 vlc/index.php:22
-#: vlc/index.php:39
+#: include/header.php:225 include/header.php:321 index.php:33 vlc/index.php:27
+#: vlc/index.php:44
 msgid "Features"
 msgstr "Mogućnosti"
 
-#: include/header.php:216 include/header.php:295 index.php:29 vlc/index.php:23
-#: vlc/index.php:65
+#: include/header.php:226 include/header.php:322 index.php:34 vlc/index.php:28
+#: vlc/index.php:70
 msgid "Screenshots"
 msgstr "Slikovni prikazi"
 
-#: include/header.php:217 include/header.php:292 index.php:30 vlc/index.php:24
+#: include/header.php:227 include/header.php:319 index.php:35 vlc/index.php:29
 msgid "Skins"
 msgstr "Skinovi"
 
-#: include/header.php:218 include/header.php:293
+#: include/header.php:228 include/header.php:320
 msgid "Extensions"
 msgstr "Proširenja"
 
-#: include/header.php:222
+#: include/header.php:232
 msgid "Projects"
 msgstr "Projekti"
 
-#: include/header.php:239 include/header.php:299
+#: include/header.php:249 include/header.php:326
 msgid "All Projects"
 msgstr "Svi projekti"
 
-#: include/header.php:243 index.php:119
+#: include/header.php:253 index.php:124
 msgid "Contribute"
 msgstr "Doprinesi"
 
-#: include/header.php:245 include/header.php:323
+#: include/header.php:255 include/header.php:350
 msgid "Donate time"
 msgstr "Uloži vrijeme"
 
-#: include/header.php:246 include/header.php:322
+#: include/header.php:256 include/header.php:349
 msgid "Donate money"
 msgstr "Doniraj "
 
-#: include/header.php:247 include/header.php:324
+#: include/header.php:257 include/header.php:351
 msgid "Get Goodies"
 msgstr "Dobijte podobnosti"
 
-#: include/header.php:251
+#: include/header.php:261
 msgid "Support"
 msgstr "Podrška"
 
-#: include/header.php:253
+#: include/header.php:263
 msgid "Support center"
 msgstr "Centar za podršku"
 
-#: include/header.php:255 include/header.php:332 include/header.php:345
+#: include/header.php:265 include/header.php:359 include/header.php:372
 msgid "Legal"
 msgstr "Pravno"
 
-#: include/header.php:258 include/header.php:320
+#: include/header.php:268 include/header.php:347
 msgid "Mailing-Lists"
 msgstr "Lista za pošiljke"
 
-#: include/header.php:259
+#: include/header.php:269
 msgid "Report a bug"
 msgstr "Prijavi kvar"
 
-#: include/header.php:263
+#: include/header.php:273
 msgid "Dev' Zone"
 msgstr "Programerska zona"
 
-#: include/header.php:316
+#: include/header.php:343
 msgid "Community"
 msgstr "Udruženje"
 
-#: include/header.php:338
+#: include/header.php:365
 msgid "Get Involved"
 msgstr "Uključi se"
 
-#: include/os-specific.php:85 vlc/index.php:27
+#: include/os-specific.php:85 vlc/index.php:32
 msgid "Download VLC"
 msgstr "Preuzmi VLC"
 
-#: include/os-specific.php:91 vlc/index.php:34
+#: include/os-specific.php:91 vlc/index.php:39
 msgid "Other Systems and Versions"
 msgstr "Drugi sistemi i verzije"
 
@@ -170,171 +170,171 @@ msgstr "Drugi sistemi i verzije"
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
 msgstr "VLC: Oficijelna stranica - Besplatno multimedijalno rješenje za sve OS-e!"
 
-#: index.php:26 vlc/index.php:20
+#: index.php:31 vlc/index.php:25
 msgid ""
 "VLC is a free and open source cross-platform multimedia player and framework"
 " that plays most multimedia files as well as DVD, Audio CD, VCD, and various"
 " streaming protocols."
 msgstr "VLC je besplatan i više-platformski izvođač otvorenog koda za sve medije i okruženje koje izvodi većinu multimedijalnih datoteka kao što su DVD, zvučni CD, VCD, i različiti protokoli za strujanje."
 
-#: index.php:36
+#: index.php:41
 msgid "Other projects from VideoLAN"
 msgstr "Drugi projekti od VideoLAN-a"
 
-#: index.php:38
+#: index.php:43
 msgid "For Everyone"
 msgstr "Za sve"
 
-#: index.php:44
+#: index.php:49
 msgid ""
 "VLC is a powerful media player playing most of the media codecs and video "
 "formats out there."
 msgstr "VLC je moćan medijski izvođač koji producira većinu medijskih kodeka i video formata koji postoje."
 
-#: index.php:53
+#: index.php:58
 msgid ""
 "VideoLAN Movie Creator is a non-linear editing software for video creation."
 msgstr "VideoLAN Movie Creator je nelinearni softver za uređivanje video kreacija."
 
-#: index.php:60
+#: index.php:65
 msgid "For Professionals"
 msgstr "Za profesionalce"
 
-#: index.php:66
+#: index.php:71
 msgid ""
 "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
 msgstr "DVBlast je jednostavan i moćan MPEG-2/TS demukser i aplikacija za strujanje."
 
-#: index.php:74
+#: index.php:79
 msgid ""
 "multicat is a set of tools designed to easily and efficiently manipulate "
 "multicast streams and TS."
 msgstr "multicat je komplet alata koji su dizajnirani za jednostavno i efikasno manipuliranje multicast strujanja i TS-a."
 
-#: index.php:83
+#: index.php:88
 msgid ""
 "x264 is a free application for encoding video streams into the H.264/MPEG-4 "
 "AVC format."
 msgstr "x264 je besplatna aplikacija za kodiranje video strujanja u H.264/MPEG-4 AVC formatu."
 
-#: index.php:91
+#: index.php:96
 msgid "For Developers"
 msgstr "Za programere"
 
-#: index.php:102
+#: index.php:107
 msgid "View All Projects"
 msgstr "Pogledaj sve projekte"
 
-#: index.php:105
+#: index.php:110
 msgid "Help us out!"
 msgstr "Pomozi nam!"
 
-#: index.php:107
+#: index.php:112
 msgid "Donate"
 msgstr "Doniraj"
 
-#: index.php:111
+#: index.php:116
 msgid "VideoLAN is a non-profit organization."
 msgstr "VideoLAN je neprofitabilna organizacija."
 
-#: index.php:112
+#: index.php:117
 msgid ""
 " All our costs are met by donations we receive from our users. If you enjoy "
 "using a VideoLAN product, please donate to support us."
 msgstr "Svi naši troškovi su pokriveni sa donacijama koje primamo od naših korisnika. Ako uživaš koristeći VideoLAN proizvod, molimo da doniraš kako bi nas podržao."
 
-#: index.php:114 index.php:126 index.php:137
+#: index.php:119 index.php:131 index.php:142
 msgid "Learn More"
 msgstr "Nauči više"
 
-#: index.php:123
+#: index.php:128
 msgid "VideoLAN is open-source software."
 msgstr "VideoLAN je softver otvorenog-koda."
 
-#: index.php:124
+#: index.php:129
 msgid ""
 "This means that if you have the skill and the desire to improve one of our "
 "products, your contributions are welcome"
-msgstr "To znači ako posjeduješ vještinu i želju da napreduješ jedan od naših proizvoda, tvoji doprinosi su dobrodošli"
+msgstr "To znači ako posjeduješ vještinu i želju da napreduješ jedan od naših proizvoda, tvoji doprinosi su dobrodošli."
 
-#: index.php:131
+#: index.php:136
 msgid "Spread the Word"
 msgstr "Širi riječ"
 
-#: index.php:135
+#: index.php:140
 msgid ""
 "We feel that VideoLAN has the best video software available at the best "
 "price: free. If you agree please help spread the word about our software."
 msgstr "Mi smo ubjeđeni da VideoLAN ima najbolji video softver dostupan za najbolju cijenu: besplatno. Ako se slažeš molimo da širiš riječi o našem softveru."
 
-#: index.php:407
+#: index.php:412
 msgid "News &amp; Updates"
 msgstr "Novosti i ažuriranja"
 
-#: index.php:411
+#: index.php:416
 msgid "Development Blogs"
 msgstr "Blogovi za razvoj"
 
-#: index.php:434
+#: index.php:439
 msgid "Social media"
-msgstr "Socijalni mediji"
+msgstr "Društveni mediji"
 
 #: vlc/index.php:3
 msgid "Official page for VLC media player, the Open Source video framework!"
 msgstr "Oficijelna stranica za VLC medijski izvođač, video okruženje otvorenog koda!"
 
-#: vlc/index.php:40
+#: vlc/index.php:45
 msgid "Simple, fast and powerful media player."
 msgstr "Jednostavan, brz i moćan medijski izvođač."
 
-#: vlc/index.php:42
-msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
-msgstr "Izvodi sve: datoteke, diskove, kamere, uređaje i strujanja."
-
-#: vlc/index.php:44
-msgid "Plays most codecs with no codec packs needed:"
-msgstr "Izvodi većinu kodeka bez potrebe za kodek paketima:"
-
 #: vlc/index.php:47
+msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
+msgstr "Producira sve: datoteke, diskove, kamere, uređaje i strujanja."
+
+#: vlc/index.php:49
+msgid "Plays most codecs with no codec packs needed:"
+msgstr "Producira većinu kodeka bez potrebe za kodek paketima:"
+
+#: vlc/index.php:52
 msgid "Runs on all platforms:"
 msgstr "Pokreće na svim platformama:"
 
-#: vlc/index.php:49
+#: vlc/index.php:54
 msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
 msgstr "Kompletno besplatno, 0 špijunskih programa, 0 reklama i bez praćenja korisnika."
 
-#: vlc/index.php:51
+#: vlc/index.php:56
 msgid "Can do media conversion and streaming."
 msgstr "Može konvertovati medije i strujati."
 
-#: vlc/index.php:53
+#: vlc/index.php:58
 msgid "Discover all features"
 msgstr "Otkrij sve mogućnosti"
 
-#: vlc/index.php:87
+#: vlc/index.php:92
 msgid "View all screenshots"
 msgstr "Vidi sve slikovne prikaze"
 
-#: vlc/index.php:94
+#: vlc/index.php:99
 msgid "Get VLC for"
-msgstr "Dobij VLC za"
+msgstr "Preuzmi VLC za"
 
-#: vlc/index.php:98
+#: vlc/index.php:103
 msgid "Official Downloads of VLC media player"
 msgstr "Oficijelna preuzimanja VLC medijskog izvođača"
 
-#: vlc/index.php:105
+#: vlc/index.php:110
 msgid "Sources"
 msgstr "Izvori"
 
-#: vlc/index.php:106
+#: vlc/index.php:111
 msgid "You can also directly get the"
 msgstr "Možeš također direktno dobiti"
 
-#: vlc/index.php:107
+#: vlc/index.php:112
 msgid "source code"
 msgstr "izvorni kod"
 
-#: vlc/index.php:128
+#: vlc/index.php:133
 msgid "Other OS"
 msgstr "Drugi OS-i"

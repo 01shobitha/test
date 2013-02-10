@@ -35,7 +35,7 @@ by browsing the <a href="http://download.videolan.org/pub/videolan/libdvbcsa/">r
 <h3>Subversion checkout</h3>
 <p><code># svn co svn://svn.videolan.org/libdvbcsa/trunk libdvbcsa</code></p>
 
-<h3>Web source broswging</h3>
+<h3>Web source browsing</h3>
 <p>You can also <a href="http://svn.videolan.org/listing.php?repname=libdvbcsa">browse the code repository</a>.</p>
 
 <h2>Legal</h2>

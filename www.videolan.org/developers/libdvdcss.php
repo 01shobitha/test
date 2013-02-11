@@ -26,14 +26,14 @@ DVDs like a block device without having to bother about the decryption. </p>
 <h2>Get libdvdcss</h2>
 
 <p> Last version of <code>libdvdcss</code> is <b>1.2.12</b>. </p>
-<p> <code>libdvdcss</code> is available through <a href="http://wiki.videolan.org/Subversion">Subversion</a> or
+<p> <code>libdvdcss</code> is available through <a href="http://wiki.videolan.org/Git">Git</a> or
 by browsing the <a href="http://www.videolan.org/pub/libdvdcss/">releases</a>.
 </p>
 
-<h3>Subversion checkout</h3>
-<p><code># svn co svn://svn.videolan.org/libdvdcss/trunk libdvdcss</code></p>
+<h3>Git checkout</h3>
+<p><code># git clone git://git.videolan.org/libdvdcss</code></p>
 
-<p>You can also access the code <a href="http://svn.videolan.org/listing.php?repname=libdvdcss">online</a>.</p>
+<p>You can also access the code <a href="http://git.videolan.org/?p=libdvdcss.git">online</a>.</p>
 
 <h2>Changelog and Documentation</h2>
 <p> You can see the <a href="libdvdcss/NEWS">release notes</a> and the

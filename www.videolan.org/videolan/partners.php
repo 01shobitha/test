@@ -18,12 +18,12 @@ You may contact them for professional services to order.</p>
 <tr><td colspan="2"><h2>M2X</h2></td></tr>
 <tr>
 <td><p class="center">
-  <a href="http://www.m2x.nl/">
+  <a href="http://www.m2x.eu/">
   <img src="http://images.videolan.org/images/partners/m2x.png" alt="M2X" width="200" style="padding-right: 20px;" />
   </a></p>
 </td>
 <td>
-<p><a href="http://www.m2x.nl/">M2X</a> is an ICT company that is specialized in using Open Source software
+<p><a href="http://www.m2x.eu/">M2X</a> is an ICT company that is specialized in using Open Source software
 for providing solutions to IT problem areas of Networking (wired or
  wireless), Embedded and Multimedia. The founder of the company is a
 VideoLAN developer <a href="http://jpsaman.org">Jean-Paul Saman</a> (see the <a href="/team/">VideoLAN team page</a>

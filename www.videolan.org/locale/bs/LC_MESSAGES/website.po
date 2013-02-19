@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-12-15 12:40+0100\n"
-"PO-Revision-Date: 2013-02-07 02:55+0000\n"
+"PO-Revision-Date: 2013-02-09 00:39+0000\n"
 "Last-Translator: Adnan Memija <sream_92@live.com>\n"
 "Language-Team: Bosnian (http://www.transifex.com/projects/p/vlc-trans/language/bs/)\n"
 "MIME-Version: 1.0\n"
@@ -329,7 +329,7 @@ msgstr "Izvori"
 
 #: vlc/index.php:111
 msgid "You can also directly get the"
-msgstr "Možeš također direktno dobiti"
+msgstr "Možeš također direktno preuzeti"
 
 #: vlc/index.php:112
 msgid "source code"

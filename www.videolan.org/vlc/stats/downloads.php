@@ -102,7 +102,7 @@
                     "2.0.2"   => array( "Windows" => 45125602,  "Macintosh" => 3051816, "Total" => 48239203 ),
                     "2.0.3"   => array( "Windows" => 23382860,  "Macintosh" => 7090157, "Total" => 30539419 ),
                     "2.0.4"   => array( "Windows" => 51413377,  "Macintosh" => 5806887, "Total" => 57334261 ),
-                    "2.0.5"   => array( "Windows" => 45839094,  "Macintosh" => 6455173, "Total" => 57334261 ),
+                    "2.0.5"   => array( "Windows" => 45839094,  "Macintosh" => 6455173, "Total" => 52823865 ),
     );
 
     foreach( $table as $key => $t )

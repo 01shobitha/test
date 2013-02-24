@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-12-15 12:40+0100\n"
-"PO-Revision-Date: 2013-02-22 06:41+0000\n"
+"PO-Revision-Date: 2013-02-24 08:40+0000\n"
 "Last-Translator: Kanhu <holmessherlock21@gmail.com>\n"
 "Language-Team: Oriya (India) (http://www.transifex.com/projects/p/vlc-trans/language/or_IN/)\n"
 "MIME-Version: 1.0\n"
@@ -120,7 +120,7 @@ msgstr "ସମୟ ଦାନ କରନ୍ତୁ"
 
 #: include/header.php:256 include/header.php:349
 msgid "Donate money"
-msgstr "ଟଙ୍କା ଦାନ କରନ୍ତୁ"
+msgstr "ଅର୍ଥ ଦାନ କରନ୍ତୁ"
 
 #: include/header.php:257 include/header.php:351
 msgid "Get Goodies"
@@ -198,7 +198,7 @@ msgstr "VideoLAN Movie Creator ହେଉଛି ଭିଡ଼ିଓ ନିର୍�
 
 #: index.php:65
 msgid "For Professionals"
-msgstr "ପେସାଦାରଙ୍କ ପାଇଁ"
+msgstr "ପେସାଦାରମାନଙ୍କ ପାଇଁ"
 
 #: index.php:71
 msgid ""

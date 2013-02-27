@@ -4,19 +4,6 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-<h1>Security contacts</h1>
-
-<p> These are the current security contacts for the <a href="/videolan/">VideoLAN project</a>:</p>
-<dl>
-<dt>Christophe Mutricy</dt>
-<dd>xtophe at videolan dot org
-<pre>
-pub   1024D/AC3E0879 2006-03-01
-      Key fingerprint = 2303 8592 A6B1 A39D 7B22  D2D3 FD21 BC3B AC3E 0879
-</pre>
-</dd>
-</dl>
-
 <h1>Past security advisories</h1>
 
 <p><strong>Note well</strong>:

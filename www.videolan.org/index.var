@@ -103,3 +103,7 @@ Content-language: sk
 URI: index.et.html
 Content-type: text/html
 Content-language: et
+
+URI: index.or.html
+Content-type: text/html
+Content-language: or_IN

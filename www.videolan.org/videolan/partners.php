@@ -265,7 +265,7 @@ Marketing Europe GmbH, lent us a SC-XH150 setup consisting of a S/PDIF input cap
 
 <h1> Past Partners </h1>
 <h2> We would like to thank other companies that helped us in the past, on both technical and financial sides: </h2>
-<p><a href="http://www.cybervia.com/">Cybervia</a> has provided and paid for the hosting of one
+<p>Cybervia has provided and paid for the hosting of one
 the VideoLAN development server (Skanda server) for a couple of years.</p>
 <p><a href="http://www.ibm.com">IBM</a> gave servers to <a href="http://www.via.ecp.fr/via/">VIA</a> to host VideoLAN services and
 awarded VideoLAN in the <a href="http://www-1.ibm.com/linux/news/ilsc.shtml">Linux Challenge</a>, an international challenge for opensource  projects developed by university students.</p>

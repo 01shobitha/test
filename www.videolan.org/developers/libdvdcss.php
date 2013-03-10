@@ -64,8 +64,7 @@ by browsing the <a href="http://www.videolan.org/pub/libdvdcss/">releases</a>.
 <h2>additional information</h2>
 
 <p>If you want to read more on this subject, we publish a <a
-href="libdvdcss.txt">french non-technical description of libdvdcss</a>
-and we will try to translate it soon.</p>
+href="libdvdcss.txt">non-technical description of libdvdcss</a>.</p>
 
 <h3>For legal documentation, see our <a href="/legal.html">legal page</a></h3>
 

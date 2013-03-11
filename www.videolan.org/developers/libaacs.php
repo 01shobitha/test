@@ -13,7 +13,7 @@ the <a href="http://en.wikipedia.org/wiki/Advanced_Access_Content_System">AACS</
 <p> This <b>research</b> project is mainly developed by an international team of
 developers from <a href="http://www.doom9.org/">Doom9</a>.</p>
 
-<p>Latest release is <b>libaacs 0.5.0</b>.</p>
+<p>Latest release is <b>libaacs 0.6.0</b>.</p>
 
 <p><b>NB:</b> this project <b>doesn't offer any key or certificate</b> that could be used to decode
 encrypted copyrighted material.</p>
@@ -31,7 +31,7 @@ encrypted copyrighted material.</p>
 <h2>Get libaacs</h2>
 
 <p>You can get <code>libaacs</code> latest release on our ftp:
- <a href="ftp://ftp.videolan.org/pub/videolan/libaacs/0.5.0/libaacs-0.5.0.tar.bz2">libaacs 0.5.0</a>.</p>
+ <a href="ftp://ftp.videolan.org/pub/videolan/libaacs/0.6.0/libaacs-0.6.0.tar.bz2">libaacs 0.6.0</a>.</p>
 
 <p> <code>libaacs</code> is also available through <a href="http://wiki.videolan.org/Git">Git</a> at:<br />
 <code>git clone git://git.videolan.org/libaacs.git</code></p>

@@ -29,10 +29,10 @@ options:</p>
   <a href="http://download.videolan.org/pub/vlc/SuSE/12.3/vlc.ymp">VLC for 12.3</a>
 </div>
 <div class="installbtn" style="float: left;">
-  <a href="http://download.videolan.org/pub/vlc/SuSE/12.2/vlc.ymp">VLC for 12.2</a>
+  <a href="http://download.videolan.org/pub/vlc/SuSE/Tumbleweed/vlc.ymp">VLC for Tumbleweed</a>
 </div>
 <div class="installbtn" style="float: left;">
-  <a href="http://download.videolan.org/pub/vlc/SuSE/Tumbleweed/vlc.ymp">VLC for Tumbleweed</a>
+  <a href="http://download.videolan.org/pub/vlc/SuSE/12.2/vlc.ymp">VLC for 12.2</a>
 </div>
 <div class="installbtn" style="float: left;">
   <a href="http://download.videolan.org/pub/vlc/SuSE/12.1/vlc.ymp">VLC for 12.1</a>

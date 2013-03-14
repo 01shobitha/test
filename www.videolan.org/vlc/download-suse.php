@@ -47,10 +47,8 @@ options:</p>
 
 <br />
 <br />
-<br />
-<br />
 
-<h2><a name="yast">Install VLC using YaST</a></h2>
+<h2 class='clearme'><a name="yast">Install VLC using YaST</a></h2>
 <h3>Add VideoLAN's repository</h3>
 <p>
 First, add a new repository (installation source) in YaST (YaST2 ->

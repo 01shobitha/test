@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-12-15 12:40+0100\n"
-"PO-Revision-Date: 2013-03-16 20:36+0000\n"
+"PO-Revision-Date: 2013-03-22 21:38+0000\n"
 "Last-Translator: Андрій Бандура <andriykopanytsia@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/projects/p/vlc-trans/language/uk/)\n"
 "MIME-Version: 1.0\n"
@@ -301,7 +301,7 @@ msgstr "Працює на всіх платформах:"
 
 #: vlc/index.php:54
 msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
-msgstr "Повністю вільний, 0 шпигунів, 0 реклами і немає стеження за користувачами."
+msgstr "Повністю вільний, без шпигунів, без реклами і без стеження за користувачами."
 
 #: vlc/index.php:56
 msgid "Can do media conversion and streaming."

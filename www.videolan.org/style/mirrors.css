@@ -1,0 +1,33 @@
+#countrylist {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+table.mirrortable tr.heading {
+    background-color: #ddd;
+    font-weight: bold;
+}
+
+table.mirrortable tr.heading th {
+    padding-left: 5px;
+}
+
+table.mirrortable tr {
+    border-bottom: 1px solid #ddd;
+}
+
+table.mirrortable td {
+    padding: 10px 25px;
+    line-height: 54px;
+}
+
+table.mirrortable td img {
+    vertical-align: middle;
+}
+
+#generated {
+    text-align: center;
+    font-style: italic;
+    font-size: 0.8em;
+    color: #888;
+}

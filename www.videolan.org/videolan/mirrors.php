@@ -7,24 +7,45 @@
 
    /* Build mirror list */
 
+   $timestamp_tmp = '/tmp/lastmirrorscheck';
+   $refresh_min_interval = 30;
+
    // Sort the list by country
    function sortList($a, $b)
    {
         return strcmp($a['country'], $b['country']);
    }
 
-   // Fetch the mirrors list
-   $content = file_get_contents("http://get.videolan.org/mirror-list.php");
-   if ($http_response_header[0] == "HTTP/1.1 200 OK")
+   // Check the last time we fetched the mirror list
+   // to avoid DOSing the server.
+   $timestamp = 0;
+   $ts = @fopen($timestamp_tmp, 'a+');
+   if ($ts)
+        $timestamp = fread($ts, 16);
+
+   // Try to fetch the mirrors list
+   if (time() - $timestamp > $refresh_min_interval)
    {
-        $f = fopen("mirrors.txt", 'w');
-        if ($f)
-        {
-             fwrite($f, date('r')."\n");
-             fwrite($f, $content);
-             fclose($f);
-        }
+           $content = file_get_contents("http://get.videolan.org/mirror-list.php");
+           if ($http_response_header[0] == "HTTP/1.1 200 OK")
+           {
+                $f = fopen("mirrors.txt", 'w');
+                if ($f)
+                {
+                     fwrite($f, date('r')."\n");
+                     fwrite($f, $content);
+                     fclose($f);
+                     if ($ts)
+                     {
+                        @ftruncate($ts, 0);
+                        fwrite($ts, time());
+                     }
+                }
+           }
    }
+
+   if ($ts)
+        fclose($ts);
 
    $mirrors = array();
 
@@ -54,7 +75,7 @@
         usort($mirrors, 'sortList');
    }
 
-   // Generate the shorcuts
+   // Generate the shortcuts
    $country = $shortcuts = "";
    foreach($mirrors as $mirror)
    {

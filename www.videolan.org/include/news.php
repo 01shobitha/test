@@ -56,7 +56,7 @@
                        echo ("<div class='item'>\n");
                 }
                 else { echo ("<div class='item-really-old'>\n"); }
-                echo "<a id='news-$count' href=\"/news.html#news-$count\"></a>";
+                echo "<a id='news-$count' href=\"/news.html?$count#news-$count\"></a>";
 
                 echo ("<div class='title'>".$title."</div>\n" );
                 //echo "<div id=\"news-$count\">";

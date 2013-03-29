@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>http://www.videolan.org/</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/index.fr.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/index.ru.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/index.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/index.de.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/index.gd.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/index.tr.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/index.cs.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/index.hi.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/index.he.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/index.ja.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/index.pl.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/index.wa.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/contribute.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/news.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/team/</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/contact.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/partners.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/press/</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/press/win8ks-ended.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/press/win8ks.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/press/lgpl.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/press/lgpl-libvlc.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/press/2010-1.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/press/2007-1.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/press/2006-2.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/press/2006-1.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/press/2005-1.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/press/eucd.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/press/patents.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/press/lgpl-modules.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/security/</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/security/sa1301.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/security/sa1203.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/security/sa1202.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/security/sa1201.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/security/sa1107.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/security/sa1103.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/security/sa1101.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/security/sa1002.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/security/sa0805.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/security/sa0804.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/security/sa1108.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/security/sa1105.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/security/sa1106.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/security/sa1104.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/security/sa1102.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/security/sa1007.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/security/sa1006.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/security/sa1004.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/security/sa1005.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/security/sa1003.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/security/sa1001.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/security/sa0901.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/security/sa0811.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/security/sa0810.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/security/sa0809.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/security/sa0807.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/security/sa0806.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/security/sa0803.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/security/sa0801.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/security/sa0802.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/security/sa0703.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/security/sa0702.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/security/sa0701.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/features.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/screenshots.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/skins.php</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/projects/</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlmc/</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/projects/dvblast.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/developers/x264.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/projects/multicat.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/projects/vlma/</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/skineditor.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/developers/libdvdcss.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/developers/libbluray.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/developers/libdvbpsi.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/developers/libaacs.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/developers/libdvbcsa.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/developers/bitstream.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/goodies.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/support/</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/support/faq.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/legal.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/support/lists.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/developers/</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/libvlc.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/developers/libdca.html</loc>
+</url>
+<url>
+    <loc>http://www.videolan.org/news.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/releases/2.0.5.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/releases/2.0.4.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/download-windows.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/download-macosx.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/download-ubuntu.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/download-fedora.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/support/lists.php</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/developers/i18n/</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/releases/2.0.2.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/stats/downloads.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/releases/2.0.1.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/releases/2.0.0.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/vdd11.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/releases/1.1.10.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/releases/1.1.9.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/releases/1.1.8.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/10y/</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/10y/day6.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/10y/day7.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/10y/day8.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/10y/day9.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/10y/day10.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/10y/day1.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/10y/day2.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/10y/day3.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/10y/day4.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/10y/day5.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/releases/1.1.6.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/releases/1.1.5.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/releases/1.1.4.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/releases/1.1.3.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/releases/1.1.2.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/releases/1.1.1.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/releases/1.1.0.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/releases/1.1.0-RC.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/vdd09.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/contest/</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/download-sources.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/projects/vlma/download.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/skineditor.php</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/streaming.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/doc/</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/index.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/doc/vlc-user-guide/en/vlc-user-guide-en.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/screenshots/</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/removed/freedvd.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/team/index.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/20081220/VDD/</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/20080223/</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/20050226/Lightning%20talk/</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/20050226/</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/20050226/Saturday%20Evening/</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/20050201/index.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/20040222/</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/20030625/index.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/20030321/index.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/journeevia-20030321-presentVL/</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/20030204/index.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/20021102/slides/index.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/20021102/pictures/index.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/20020520/index.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/20020529/index.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/20020529/team.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/20020423/index.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/20020228/slides/index.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/20020228/photos/index.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/20020130/</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/20020201/</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/videolan/events/20010407/index.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/download-ios.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/download-debian.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/download-suse.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/download-gentoo.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/download-archlinux.html</loc>
+</url>
+<url>
+  <loc>http://www.videolan.org/vlc/download-slackware.html</loc>
+</url>
+</urlset>

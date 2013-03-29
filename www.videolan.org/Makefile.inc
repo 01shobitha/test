@@ -3,7 +3,7 @@ SUBDIR = doc security support vlc videolan projects developers locale press vlmc
 
 # Files to be preprocessed
 #PHP_FILES = # automatic
-PHP_IGNORES = mirror mirror-geo retrieve get_count mirror-geo-redirect
+PHP_IGNORES =
 
 # Additionnal dependencies
 

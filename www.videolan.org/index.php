@@ -418,7 +418,7 @@ function vlcscreenshot($img,$thumb, $desc){
       $entries_per_column = 4;
       $columns = 1;
       foreach($rss->items as $item) {
-          if( isset($item['link']) {
+          if( isset($item['link'])) {
               echo "<p style='direction:ltr; text-align:left;'>";
               echo "<b><a href=\"".$item['link'].'" style="color: black;">'.htmlentities($item['title'],ENT_COMPAT,"UTF-8")."</a></b></p>";
               echo '<p style="border-bottom: 1px dashed #CCC;padding-bottom:5px;margin-bottom:5px;direction:ltr; text-align:left;">';

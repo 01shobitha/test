@@ -83,78 +83,82 @@ function StartHtml( $title, $color, $language,
         <meta name="Description" content="<?php echo $title; ?>" />
         <title>VideoLAN - <?php echo $title; ?></title>
 
+        <?php /* Favicon */ ?>
         <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
         <link href="https://plus.google.com/104597325891170264649" rel="publisher" />
 
+        <?php /* RSS */ ?>
         <link rel="alternate" type="application/rss+xml" title="RSS - VideoLAN News" href="/videolan-news.rss" />
         <link rel="alternate" type="application/rss+xml" title="RSS - Developers Blog" href="http://planet.videolan.org/rss20.xml" />
 
-    <?php if( isset($alternate_lang) ) {
-        $root_filename = explode('.', $_SERVER['SCRIPT_FILENAME'] );
-        echo "<!-- ".$root_filename[0]." -->";
-        foreach($alternate_lang as $lang) {
-            if( $lang == "en" )
-                echo  '<link rel="alternate" hreflang="'.$lang.'" href="/'.$root_filename[0].'.html" />'."\n";
-            else
-                echo  '<link rel="alternate" hreflang="'.$lang.'" href="/'.$root_filename[0].'.'.$lang.'.html" />'."\n";
-        }
-    } ?>
+        <?php /* Alternate */ ?>
+        <?php if( isset($alternate_lang) ) {
+            $root_filename = explode('.', $_SERVER['SCRIPT_FILENAME'] );
+            echo "<!-- ".$root_filename[0]." -->";
+            foreach($alternate_lang as $lang) {
+                if( $lang == "en" )
+                    echo  '<link rel="alternate" hreflang="'.$lang.'" href="/'.$root_filename[0].'.html" />'."\n";
+                else
+                    echo  '<link rel="alternate" hreflang="'.$lang.'" href="/'.$root_filename[0].'.'.$lang.'.html" />'."\n";
+            }
+        } ?>
 
+        <?php /* CSS */ ?>
         <link rel="stylesheet" type="text/css" href="/style/style.css" />
 
-    <?php if( isset($additional_css) ) {
-        foreach($additional_css as $css) {
-            echo  '<link rel="stylesheet" type="text/css" href="'.$css.'" />';
-        }
-    } ?>
+        <?php if( isset($additional_css) ) {
+            foreach($additional_css as $css) {
+                echo  '<link rel="stylesheet" type="text/css" href="'.$css.'" />';
+            }
+        } ?>
 
-    <!--[if lt IE 7]>
-       <style type="text/css">
-          @media screen{ body{behavior:url("/width.htc");} }
-            /* PNG support for IE */
-            img {  behavior: url("/png.htc");}
-            .DXImageTransformed { display: inline-block; }
-          </style>
-    <![endif]-->
+        <!--[if lt IE 7]>
+           <style type="text/css">
+              @media screen{ body{behavior:url("/width.htc");} }
+                /* PNG support for IE */
+                img {  behavior: url("/png.htc");}
+                .DXImageTransformed { display: inline-block; }
+              </style>
+        <![endif]-->
 
-    <?php /* Get the one in the Google CDN to get cached */ ?>
-    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js' type='text/javascript'></script>
-    <?php if( isset($additional_js) ) {
-        foreach($additional_js as $js) {
-            echo '<script src="'.$js.'" type="text/javascript"></script>';
-        }
-    } ?>
 
-    <!-- analytics -->
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-38853043-1']);
-      _gaq.push(['_trackPageview']);
-      (function() {
-          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
+        <?php /* jQuery */ ?>
+        <?php /* Get the one in the Google CDN to get cached */ ?>
+        <script src='//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js' type='text/javascript'></script>
+        <?php if( isset($additional_js) ) {
+            foreach($additional_js as $js) {
+                echo '<script src="'.$js.'" type="text/javascript"></script>';
+            }
+        } ?>
 
+        <?php /* Analytics */ ?>
+        <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-38853043-1']);
+          _gaq.push(['_trackPageview']);
+          (function() {
+              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+              ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
     </head>
-
 <?php
-        if ( ($language != "he") && ($language != "ur") )
-        {
-            echo '<body>';
-            echo "<div id='bodyInner' class='$color'>";
-        }
-        else
-        {
-            echo '<body style="text-align: right; direction: rtl;">';
-            echo "<div id='bodyInner' class='$color' style='text-align: right;'>";
-        }
 }
 
 /* Actual start of the body */
-function start_top( $body_color )
+function start_top( $body_color, $language )
 {
+    if ( ($language != "he") && ($language != "ur") )
+    {
+        echo '<body>';
+        echo "<div id='bodyInner' class='$color'>";
+    }
+    else
+    {
+        echo '<body style="text-align: right; direction: rtl;">';
+        echo "<div id='bodyInner' class='$color' style='text-align: right;'>";
+    }
     switch( $body_color ){
     case "red":   $imgSrc = "logoRed.png";    $imgArSrc = "madeByArgonRed.png";    break;
     case "blue":  $imgSrc = "logoBlue.png";   $imgArSrc = "madeByArgonBlue.png";   break;
@@ -471,6 +475,6 @@ if(!isset($nobanner)) $nobanner = false;
 // HTML header
 StartHtml( preg_replace( "/<[^>]*>/", "" , $title ), $body_color, $language,
            $additional_css, $additional_js, $alternate_lang, $body_onload, $body_onunload );
-start_top( $body_color );
+start_top( $body_color, $language );
 draw_menus( $nobanner, $alternate_lang );
 ?>

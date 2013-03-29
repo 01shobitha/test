@@ -458,6 +458,7 @@ function vlcscreenshot($img,$thumb, $desc){
 </div>
 
 </div>
-<?php footer('$Id$', $alternate_lang );
+<?php
+footer('$Id$', $alternate_lang );
 sf_money();
 ?>

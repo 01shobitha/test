@@ -5,7 +5,7 @@
    $additional_js = array("/js/slimbox2.js");
    $additional_css= array("/js/css/slimbox2.css");
 
-   $alternate_lang = array( "fr", "ru", "en", "de", "gd", "tr", "cs", "hi", "he", "ja", "pl", "wa" );
+   $alternate_lang = array( "ast", "bn_IN", "bs", "cs", "de", "es", "et", "fr", "gd", "gl", "gu",  "hi", "he", "ja","km", "mr", "nb", "nl", "or", "pl", "pt", "pt_BR", "ru", "sk", "th", "tr", "uk", "wa"  );
 
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
@@ -145,7 +145,8 @@ function addos( $name, $class, $url, $bold=false )
         </div>
 -->
 
-<?php footer();
+<?php
+footer( "$Id", $alternate_lang);
 sf_money();
- ?>
+?>
 

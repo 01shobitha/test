@@ -64,7 +64,7 @@
                 //echo "<div id=\"news-$count\">";
                 echo ("<div class='date'>".date("Y-m-d", strtotime( $date) )."</div>\n");
                 echo "<p class='news-descr'>".$short;
-                if( $remain )
+                if( isset($remain) )
                 {
                     echo "<span id=\"news-span-$count\">$remain</span> ";
                     echo "<script type=\"text/javascript\"><!--\n";

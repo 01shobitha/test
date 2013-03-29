@@ -152,12 +152,12 @@ function start_top( $body_color, $language )
     if ( ($language != "he") && ($language != "ur") )
     {
         echo '<body>';
-        echo "<div id='bodyInner' class='$color'>";
+        echo "<div id='bodyInner' class='$body_color'>";
     }
     else
     {
         echo '<body style="text-align: right; direction: rtl;">';
-        echo "<div id='bodyInner' class='$color' style='text-align: right;'>";
+        echo "<div id='bodyInner' class='$body_color' style='text-align: right;'>";
     }
     switch( $body_color ){
     case "red":   $imgSrc = "logoRed.png";    $imgArSrc = "madeByArgonRed.png";    break;

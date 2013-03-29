@@ -292,20 +292,6 @@ function draw_menus( $nobanner, $alternate_lang )
 </div>
 
 
-<div style="display: none;">
-<?php
-    if( isset($alternate_lang) ) {
-        $root_filename = explode('.', $_SERVER['SCRIPT_FILENAME'] );
-        foreach($alternate_lang as $lang) {
-            if( $lang == "en" )
-                echo  '<a href="/'.$root_filename[0].'.html">'.$lang.'</a>'."\n";
-            else
-                echo  '<a href="/'.$root_filename[0].'.'.$lang.'.html">'.$lang.'</a>'."\n";
-        }
-    }
-?>
-</div>
-
 
 <div class="clearme"></div>
 
@@ -382,6 +368,21 @@ function footer($tag = "") {
                  <li><a href='/contribute.html'><?php echo _("Get Involved"); ?></a></li>
                  <li><a href='/news.html'><?php echo _("News");?></a></li>
             </ul>
+         </div>
+         <div style='clear: both; padding-bottom: 30px;'></div>
+         <div>
+            <div class='footerHeading'>Traductions</div>
+            <?php
+                if( isset($alternate_lang) ) {
+                    $root_filename = explode('.', $_SERVER['SCRIPT_FILENAME'] );
+                    foreach($alternate_lang as $lang) {
+                        if( $lang == "en" )
+                            echo  '<a href="/'.$root_filename[0].'.html">'.$lang.'</a>'."\n";
+                        else
+                            echo  '<a href="/'.$root_filename[0].'.'.$lang.'.html">'.$lang.'</a>'."\n";
+                    }
+                }
+            ?>
          </div>
          <div style='clear: both; padding-bottom: 30px;'></div>
          <div style='text-align: center; line-height: 14px; font-size: 9px; color: #999; direction: ltr;'>

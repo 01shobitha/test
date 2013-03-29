@@ -28,7 +28,7 @@ ifneq ($(PHP_IGNORES),)
   PHP_FILES := $(filter-out $(PHP_IGNORES:%=%.php), $(PHP_FILES))
 endif
 
-TARGETS := $(PHP_FILES:%.php=%.html) $(ROOT)/include/mirrors.php $(ROOT)/style/countries.css $(ROOT)/news-rss.html $(ROOT)/style/style.css 
+TARGETS := $(PHP_FILES:%.php=%.html) $(ROOT)/style/countries.css $(ROOT)/news-rss.html $(ROOT)/style/style.css 
 
 real-all: $(TARGETS) all-recursive
 
@@ -42,7 +42,7 @@ clean: clean-recursive
 			HERE=$(HERE)$$d/ || exit $$? ; \
 	done
 
-%.html: %.php $(ROOT)Makefile $(ROOT)/include/*.php $(ROOT)/include/*.php $(ROOT)/include/mirrors.php $(ROOT)/include/menu/*
+%.html: %.php $(ROOT)Makefile $(ROOT)/include/*.php 
 	@echo "Preprocessing $@ ..."
 	@rm -f $@.tmp
 	@cd $(ROOT) || exit 1 ; \

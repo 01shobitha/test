@@ -140,7 +140,7 @@ function StartHtml( $title, $color, $language,
     </head>
 
 <?php
-        if ($language != "he")
+        if ( ($language != "he") && ($language != "ur") )
         {
             echo '<body>';
             echo "<div id='bodyInner' class='$color'>";

@@ -112,6 +112,10 @@ URI: index.uk.html
 Content-type: text/html
 Content-language: uk
 
+URI: index.ur.html  
+Content-type: text/html
+Content-language: ur
+
 URI: index.wa.html
 Content-type: text/html
 Content-language: wa

@@ -4,6 +4,10 @@ URI: index.html
 Content-type: text/html
 Content-language: en
 
+URI: index.an.html
+Content-type: text/html
+Content-language: an
+
 URI: index.ast.html
 Content-type: text/html
 Content-language: ast
@@ -19,6 +23,10 @@ Content-language: bs
 URI: index.cs.html
 Content-type: text/html
 Content-language: cs
+
+URI: index.da.html
+Content-type: text/html
+Content-language: da
 
 URI: index.de.html
 Content-type: text/html
@@ -100,6 +108,10 @@ URI: index.sk.html
 Content-type: text/html
 Content-language: sk
 
+URI: index.sr.html
+Content-type: text/html
+Content-language: sr
+
 URI: index.th.html
 Content-type: text/html
 Content-language: th
@@ -119,3 +131,7 @@ Content-language: ur
 URI: index.wa.html
 Content-type: text/html
 Content-language: wa
+
+URI: index.zh.html
+Content-type: text/html
+Content-language: zh

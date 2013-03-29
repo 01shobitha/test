@@ -1,60 +1,64 @@
 URI: index.var
 
-URI: index.fr.html
-Content-type: text/html
-Content-language: fr
-
-URI: index.ru.html
-Content-type: text/html
-Content-language: ru
-
 URI: index.html
 Content-type: text/html
 Content-language: en
 
-URI: index.de.html
+URI: index.ast.html
 Content-type: text/html
-Content-language: de
+Content-language: ast
 
-URI: index.tr.html
+URI: index.bn_IN.html
 Content-type: text/html
-Content-language: tr
+Content-language: bn-in
+
+URI: index.bs.html
+Content-type: text/html
+Content-language: bs
 
 URI: index.cs.html
 Content-type: text/html
 Content-language: cs
 
-URI: index.hi.html
+URI: index.de.html
 Content-type: text/html
-Content-language: hi
+Content-language: de
 
-URI: index.he.html
+URI: index.es.html
 Content-type: text/html
-Content-language: he
+Content-language: es
 
-URI: index.ja.html
+URI: index.et.html
 Content-type: text/html
-Content-language: ja
+Content-language: et
 
-URI: index.pl.html
+URI: index.fr.html
 Content-type: text/html
-Content-language: pl
-
-URI: index.wa.html
-Content-type: text/html
-Content-language: wa
+Content-language: fr
 
 URI: index.gd.html
 Content-type: text/html
 Content-language: gd
 
-URI: index.nb.html
-Content-type: text/html
-Content-language: nb
-
 URI: index.gl.html
 Content-type: text/html
 Content-language: gl
+
+URI: index.gu.html
+Content-type: text/html
+Content-language: gu
+
+URI: index.he.html
+Content-type: text/html
+Content-language: he
+
+URI: index.hi.html
+Content-type: text/html
+Content-language: hi
+
+URI: index.ja.html
+Content-type: text/html
+Content-language: ja
 
 URI: index.km.html
 Content-type: text/html
@@ -64,17 +68,21 @@ URI: index.mr.html
 Content-type: text/html
 Content-language: mr
 
-URI: index.bs.html
+URI: index.nb.html
 Content-type: text/html
-Content-language: bs
+Content-language: nb
 
 URI: index.nl.html
 Content-type: text/html
 Content-language: nl
 
-URI: index.ast.html
+URI: index.or.html
 Content-type: text/html
-Content-language: ast
+Content-language: or
+
+URI: index.pl.html
+Content-type: text/html
+Content-language: pl
 
 URI: index.pt.html
 Content-type: text/html
@@ -84,30 +92,26 @@ URI: index.pt_BR.html
 Content-type: text/html
 Content-language: pt-br
 
-URI: index.bn_IN.html
+URI: index.ru.html
 Content-type: text/html
-Content-language: bn-in
-
-URI: index.gu.html
-Content-type: text/html
-Content-language: gu
-
-URI: index.th.html
-Content-type: text/html
-Content-language: th
+Content-language: ru
 
 URI: index.sk.html  
 Content-type: text/html
 Content-language: sk
 
-URI: index.et.html
+URI: index.th.html
 Content-type: text/html
-Content-language: et
+Content-language: th
 
-URI: index.or.html
+URI: index.tr.html
 Content-type: text/html
-Content-language: or
+Content-language: tr
 
 URI: index.uk.html
 Content-type: text/html
 Content-language: uk
+
+URI: index.wa.html
+Content-type: text/html
+Content-language: wa

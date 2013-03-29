@@ -29,6 +29,7 @@
 
     $file=fopen("news.msg","r");
     $count = 0;
+    $msg = "";
 
     if(!$file)
       return(0);
@@ -47,7 +48,8 @@
                 $date = $ex[1];
                 $title = $ex[2];
                 $short = $ex[3];
-                $remain = $ex[4];
+                if( count($ex) > 4)
+                    $remain = $ex[4];
 
                 if( $count ++ < 15 ) {
                    if( $mockup )

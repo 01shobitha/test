@@ -60,9 +60,19 @@ RewriteRule ^vlc/doc.html$ /vlc/index.html [R=permanent,L]
 RewriteRule ^screenshots(.*)$ /vlc/screenshots$1 [R=permanent,L]
 RewriteRule ^live.(.*)$ /vlc/index.html [R=permanent,L]
 
-# Downloads
+# Downloads Mirroring
 Redirect /mirror.html http://www.videolan.org/mirror.php
 
+RewriteCond %{QUERY_STRING} file=(.*)
+RewriteRule ^mirror-geo-redirect.php$ http://get.videolan.org/%1? [R=301,L]
+RewriteCond %{QUERY_STRING} file=(.*)
+RewriteRule ^mirror-geo.php$ http://get.videolan.org/%1? [R=301,L]
+RewriteCond %{QUERY_STRING} file=(.*)
+RewriteRule ^mirror.php$ http://get.videolan.org/%1? [R=301,L]
+#Last one get
+RewriteRule ^mirror.*.php$ / [R=301,L]
+
+# Downloads
 RewriteRule ^vlc/download.html$ /vlc/index.html [R=permanent,L]
 RewriteRule ^download.html$ /vlc/index.html [R=permanent,L]
 RewriteRule ^vlc/bsd.html$ /vlc/features.html [R=permanent,L]

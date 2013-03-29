@@ -303,7 +303,7 @@ function draw_menus( $nobanner, $alternate_lang )
 }
 
 /* Footer */
-function footer($tag = "") {
+function footer($tag = "", $alternate_lang=array()) {
 ?>
 </div>
    <div id='footer'>

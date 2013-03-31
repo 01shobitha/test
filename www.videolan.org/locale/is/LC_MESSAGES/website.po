@@ -1,0 +1,340 @@
+# Icelandic translation
+# Copyright (C) 2013 VideoLAN
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Sveinn í Felli <sveinki@nett.is>, 2012-2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: VLC - Trans\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-12-15 12:40+0100\n"
+"PO-Revision-Date: 2013-03-31 10:29+0000\n"
+"Last-Translator: Sveinn í Felli <sveinki@nett.is>\n"
+"Language-Team: Icelandic (http://www.transifex.com/projects/p/vlc-trans/language/is/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: is\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: include/header.php:152
+msgid "A project and a"
+msgstr "Þróunarverkefni og"
+
+#: include/header.php:152
+msgid "non-profit organization"
+msgstr "samtök án hagnaðarmarkmiða"
+
+#: include/header.php:153
+msgid ""
+"composed of volunteers, developing and promoting free, open-source "
+"multimedia solutions."
+msgstr "byggð á sjálfboðaliðum sem hanna og kynna frjálsar og opnar margmiðlunarlausnir."
+
+#: include/header.php:157
+msgid "DONATE"
+msgstr "STYÐJA"
+
+#: include/header.php:157
+msgid "why?"
+msgstr "af hverju?"
+
+#: include/header.php:171 include/header.php:185
+msgid "donate"
+msgstr "styðja"
+
+#: include/header.php:204
+msgid "Home"
+msgstr "Heim"
+
+#: include/header.php:207 include/header.php:366
+msgid "News"
+msgstr "Fréttir"
+
+#: include/header.php:212 include/header.php:357
+msgid "Project and Organization"
+msgstr "Verkefni og skipulag"
+
+#: include/header.php:213 include/header.php:358
+msgid "Team"
+msgstr "Teymi"
+
+#: include/header.php:214 include/header.php:360
+msgid "Contact us"
+msgstr "Hafa samband"
+
+#: include/header.php:215 include/header.php:361
+msgid "Partners"
+msgstr "Samstarfsaðilar"
+
+#: include/header.php:216 include/header.php:362
+msgid "Press center"
+msgstr "Fjölmiðlar"
+
+#: include/header.php:217 include/header.php:363
+msgid "Events"
+msgstr "Atburðir"
+
+#: include/header.php:218 include/header.php:364
+msgid "Security center"
+msgstr "Öryggismál"
+
+#: include/header.php:224
+msgid "Download"
+msgstr "Sækja"
+
+#: include/header.php:225 include/header.php:321 index.php:33 vlc/index.php:27
+#: vlc/index.php:44
+msgid "Features"
+msgstr "Eiginleikar"
+
+#: include/header.php:226 include/header.php:322 index.php:34 vlc/index.php:28
+#: vlc/index.php:70
+msgid "Screenshots"
+msgstr "Skjámyndir"
+
+#: include/header.php:227 include/header.php:319 index.php:35 vlc/index.php:29
+msgid "Skins"
+msgstr "Skinn"
+
+#: include/header.php:228 include/header.php:320
+msgid "Extensions"
+msgstr "Viðbætur"
+
+#: include/header.php:232
+msgid "Projects"
+msgstr "Verkefni"
+
+#: include/header.php:249 include/header.php:326
+msgid "All Projects"
+msgstr "Öll verkefni"
+
+#: include/header.php:253 index.php:124
+msgid "Contribute"
+msgstr "Taka þátt"
+
+#: include/header.php:255 include/header.php:350
+msgid "Donate time"
+msgstr "Gefa tíma"
+
+#: include/header.php:256 include/header.php:349
+msgid "Donate money"
+msgstr "Gefa peninga"
+
+#: include/header.php:257 include/header.php:351
+msgid "Get Goodies"
+msgstr "Ná í aukadót"
+
+#: include/header.php:261
+msgid "Support"
+msgstr "Aðstoð"
+
+#: include/header.php:263
+msgid "Support center"
+msgstr "Hjálparmiðstöð"
+
+#: include/header.php:265 include/header.php:359 include/header.php:372
+msgid "Legal"
+msgstr "Lagalegt"
+
+#: include/header.php:268 include/header.php:347
+msgid "Mailing-Lists"
+msgstr "Póstlistar"
+
+#: include/header.php:269
+msgid "Report a bug"
+msgstr "Tilkynna um villu"
+
+#: include/header.php:273
+msgid "Dev' Zone"
+msgstr "Hakkarasvæði"
+
+#: include/header.php:343
+msgid "Community"
+msgstr "Samfélag"
+
+#: include/header.php:365
+msgid "Get Involved"
+msgstr "Vera með"
+
+#: include/os-specific.php:85 vlc/index.php:32
+msgid "Download VLC"
+msgstr "Ná í VLC"
+
+#: include/os-specific.php:91 vlc/index.php:39
+msgid "Other Systems and Versions"
+msgstr "Önnur stýrikerfi og útgáfur"
+
+#: index.php:3
+msgid "VLC: Official site - Free multimedia solutions for all OS!"
+msgstr "VLC: Opinber vefur verkefnisins - Frjálsar margmiðlunarlausnir fyrir öll stýrikerfi!"
+
+#: index.php:31 vlc/index.php:25
+msgid ""
+"VLC is a free and open source cross-platform multimedia player and framework"
+" that plays most multimedia files as well as DVD, Audio CD, VCD, and various"
+" streaming protocols."
+msgstr "VLC er frjáls og opinn margmiðlunarspilari og bakvinnskukerfi sem spilar flestar gerðir margmiðlunarskráa, DVD, CD-hljóðdiska, VCD, auk ýmissa tegunda streymis. "
+
+#: index.php:41
+msgid "Other projects from VideoLAN"
+msgstr "Önnur verkefni á vegum VideoLAN"
+
+#: index.php:43
+msgid "For Everyone"
+msgstr "Fyrir alla"
+
+#: index.php:49
+msgid ""
+"VLC is a powerful media player playing most of the media codecs and video "
+"formats out there."
+msgstr "VLC er öflugur margmiðlunarspilari sem ræður við flestar þær gerðir kóðunarlykla (codecs) og vídeósniða sem finnast."
+
+#: index.php:58
+msgid ""
+"VideoLAN Movie Creator is a non-linear editing software for video creation."
+msgstr "VideoLAN Movie Creator er hugbúnaður fyrir ólínulega vinnslu myndskeiða."
+
+#: index.php:65
+msgid "For Professionals"
+msgstr "Fyrir atvinnumenn"
+
+#: index.php:71
+msgid ""
+"DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
+msgstr "DVBlast er einfalt og öflugt forrit fyrir MPEG-2/TS demux og streymi."
+
+#: index.php:79
+msgid ""
+"multicat is a set of tools designed to easily and efficiently manipulate "
+"multicast streams and TS."
+msgstr "multicat er verkfærasett sem hannað er til að meðhöndla skilvirkt á einfaldan hátt multicast strauma og TS."
+
+#: index.php:88
+msgid ""
+"x264 is a free application for encoding video streams into the H.264/MPEG-4 "
+"AVC format."
+msgstr "x264 er frjálst forrit til að kóða vídeóstrauma yfir á H.264/MPEG-4 AVC snið."
+
+#: index.php:96
+msgid "For Developers"
+msgstr "Fyrir forritara"
+
+#: index.php:107
+msgid "View All Projects"
+msgstr "Skoða öll verkefni"
+
+#: index.php:110
+msgid "Help us out!"
+msgstr "Réttu okkur hjálparhönd!"
+
+#: index.php:112
+msgid "Donate"
+msgstr "Gefa"
+
+#: index.php:116
+msgid "VideoLAN is a non-profit organization."
+msgstr "VideoLAN eru samtök án hagnaðarmarkmiða."
+
+#: index.php:117
+msgid ""
+" All our costs are met by donations we receive from our users. If you enjoy "
+"using a VideoLAN product, please donate to support us."
+msgstr "Öllum kostnaði er mætt með gjafafé sem við fáum frá notendum. Ef VLC-hugbúnaður kemur þér að góðu gagni, endilega gefðu eitthvað til að styðja okkur."
+
+#: index.php:119 index.php:131 index.php:142
+msgid "Learn More"
+msgstr "Vita meira"
+
+#: index.php:128
+msgid "VideoLAN is open-source software."
+msgstr "VideoLAN er opinn og frjáls hugbúnaður."
+
+#: index.php:129
+msgid ""
+"This means that if you have the skill and the desire to improve one of our "
+"products, your contributions are welcome"
+msgstr "Það þýðir að langi þig til og hafir kunnáttu til að bæta eitthvað í verkefnunum okkar, þá eru framlög þín meira en velkomin"
+
+#: index.php:136
+msgid "Spread the Word"
+msgstr "Láttu orð út ganga"
+
+#: index.php:140
+msgid ""
+"We feel that VideoLAN has the best video software available at the best "
+"price: free. If you agree please help spread the word about our software."
+msgstr "Okkur finnst að VideoLAN sé með besta vídeómeðhöndlunarhugbúnaðinn sem fáanlegur er fyrir besta verðið: ókeypis. Ef þú ert sammála, endilega láttu vita hvað þér finnst um hugbúnaðinn okkar í kringum þig."
+
+#: index.php:412
+msgid "News &amp; Updates"
+msgstr "Fréttir og uppfærslur"
+
+#: index.php:416
+msgid "Development Blogs"
+msgstr "Blogg varðandi forritaþróunina"
+
+#: index.php:439
+msgid "Social media"
+msgstr "Samfélagsmiðlar"
+
+#: vlc/index.php:3
+msgid "Official page for VLC media player, the Open Source video framework!"
+msgstr "Opinber vefsíða VLC margmiðlunarspilarans, opna/frjálsa vídeómeðhöndlunarkerfisins!"
+
+#: vlc/index.php:45
+msgid "Simple, fast and powerful media player."
+msgstr "Einfaldur, hraðvirkur og öflugur margmiðlunarspilari."
+
+#: vlc/index.php:47
+msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
+msgstr "Spilar allt: skrár, diska, vefmyndavélar, inntakstæki og strauma."
+
+#: vlc/index.php:49
+msgid "Plays most codecs with no codec packs needed:"
+msgstr "Spilar flesta kóðunarlykla (codecs) án þess að þurfa auka-kóðunarlyklapakka:"
+
+#: vlc/index.php:52
+msgid "Runs on all platforms:"
+msgstr "Keyrir á öllum kerfum:"
+
+#: vlc/index.php:54
+msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
+msgstr "Algerlega frjálst/ókeypis, 0 njósnaforrit, 0 auglýsingar og ekki fylgst með notkun þess á neinn hátt."
+
+#: vlc/index.php:56
+msgid "Can do media conversion and streaming."
+msgstr "Getur umbreytt og streymt flestum miðlum."
+
+#: vlc/index.php:58
+msgid "Discover all features"
+msgstr "Skoða alla eiginleika"
+
+#: vlc/index.php:92
+msgid "View all screenshots"
+msgstr "Skoða allar skjámyndir"
+
+#: vlc/index.php:99
+msgid "Get VLC for"
+msgstr "Ná í VLC fyrir"
+
+#: vlc/index.php:103
+msgid "Official Downloads of VLC media player"
+msgstr "Opinber niðurhöl VLC margmiðlunarspilarans"
+
+#: vlc/index.php:110
+msgid "Sources"
+msgstr "Grunnkóði"
+
+#: vlc/index.php:111
+msgid "You can also directly get the"
+msgstr "Þú getur líka komist beint í"
+
+#: vlc/index.php:112
+msgid "source code"
+msgstr "grunnkóðann"
+
+#: vlc/index.php:133
+msgid "Other OS"
+msgstr "Önnur stýrikerfi"

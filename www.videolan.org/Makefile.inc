@@ -18,7 +18,9 @@ style/style.css: style/style.css.in
 	yui-compressor --type css $< > $@.tmp || cp $< $@.tmp
 	rm -f $@ && mv $@.tmp $@
 
-locales: index.an.php index.ast.php index.bg.php index.bn_IN.php index.bs.php index.by.php index.cs.php index.da.php index.de.php \
+locales: index.an.php index.ast.php index.bg.php index.bn_IN.php index.bs.php index.by.php \
+         index.ca.php \
+         index.cs.php index.da.php index.de.php \
          index.el.php index.es.php index.et.php index.fi.php index.fr.php index.gd.php index.ge.php index.gl.php index.gu.php \
          index.he.php index.hi.php \
          index.is.php \

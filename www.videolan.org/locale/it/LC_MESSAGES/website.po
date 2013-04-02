@@ -4,13 +4,14 @@
 # 
 # Translators:
 # Francesco Marinucci <franzmari@chakra-project.it>, 2013.
+# Vincenzo Reale <vinx.reale@gmail.com>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-12-15 12:40+0100\n"
-"PO-Revision-Date: 2013-04-01 10:46+0000\n"
-"Last-Translator: FranzMari <franzmari@chakra-project.it>\n"
+"PO-Revision-Date: 2013-04-02 07:55+0000\n"
+"Last-Translator: Vincenzo Reale <vinx.reale@gmail.com>\n"
 "Language-Team: Italian (http://www.transifex.com/projects/p/vlc-trans/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -54,11 +55,11 @@ msgstr "Notizie"
 
 #: include/header.php:212 include/header.php:357
 msgid "Project and Organization"
-msgstr "Progetto e Organizzazione"
+msgstr "Progetto e organizzazione"
 
 #: include/header.php:213 include/header.php:358
 msgid "Team"
-msgstr "Team"
+msgstr "Squadra"
 
 #: include/header.php:214 include/header.php:360
 msgid "Contact us"
@@ -66,7 +67,7 @@ msgstr "Contattaci"
 
 #: include/header.php:215 include/header.php:361
 msgid "Partners"
-msgstr "Partners"
+msgstr "Collaboratori"
 
 #: include/header.php:216 include/header.php:362
 msgid "Press center"
@@ -92,7 +93,7 @@ msgstr "Caratteristiche"
 #: include/header.php:226 include/header.php:322 index.php:34 vlc/index.php:28
 #: vlc/index.php:70
 msgid "Screenshots"
-msgstr "Screenshots"
+msgstr "Schermate"
 
 #: include/header.php:227 include/header.php:319 index.php:35 vlc/index.php:29
 msgid "Skins"
@@ -124,7 +125,7 @@ msgstr "Dona soldi"
 
 #: include/header.php:257 include/header.php:351
 msgid "Get Goodies"
-msgstr "Contenuti extra"
+msgstr "Scarica contenuti extra"
 
 #: include/header.php:261
 msgid "Support"
@@ -144,7 +145,7 @@ msgstr "Mailing-list"
 
 #: include/header.php:269
 msgid "Report a bug"
-msgstr "Segnala un errore"
+msgstr "Segnala un bug"
 
 #: include/header.php:273
 msgid "Dev' Zone"
@@ -175,7 +176,7 @@ msgid ""
 "VLC is a free and open source cross-platform multimedia player and framework"
 " that plays most multimedia files as well as DVD, Audio CD, VCD, and various"
 " streaming protocols."
-msgstr "VLC è un riproduttore ed un framework multimediale multi-piattaforma gratuito e open-source , che riproduce moltissimi file multimediali così come DVD, CD audio, VCD e diversi protocolli di streaming."
+msgstr "VLC è un riproduttore multimediale ed un framework multi-piattaforma, gratuito e open-source, che riproduce moltissimi file multimediali così come DVD, CD audio, VCD e diversi protocolli di streaming."
 
 #: index.php:41
 msgid "Other projects from VideoLAN"
@@ -189,12 +190,12 @@ msgstr "Per tutti"
 msgid ""
 "VLC is a powerful media player playing most of the media codecs and video "
 "formats out there."
-msgstr "VLC è un potente riproduttore multimediale che supporta gran parte dei codec e dei formati video esistenti."
+msgstr "VLC è un potente riproduttore multimediale che supporta gran parte dei codificatori e dei formati video esistenti."
 
 #: index.php:58
 msgid ""
 "VideoLAN Movie Creator is a non-linear editing software for video creation."
-msgstr "VideoLAN Movie Creator è un software di editing non lineare per la realizzazione di video. "
+msgstr "VideoLAN Movie Creator è un software di elaborazione non lineare per la realizzazione di video. "
 
 #: index.php:65
 msgid "For Professionals"
@@ -215,7 +216,7 @@ msgstr "multicat è un insieme di strumenti realizzato per manipolare in maniera
 msgid ""
 "x264 is a free application for encoding video streams into the H.264/MPEG-4 "
 "AVC format."
-msgstr "x264 è un'applicazione gratuita per convertire flussi video in formato H.264/MPEG-4 AVC."
+msgstr "x264 è un'applicazione gratuita per codificare flussi video in formato H.264/MPEG-4 AVC."
 
 #: index.php:96
 msgid "For Developers"
@@ -255,7 +256,7 @@ msgstr "VideoLAN è software open-source."
 msgid ""
 "This means that if you have the skill and the desire to improve one of our "
 "products, your contributions are welcome"
-msgstr "Questo significa che se hai le capacità ed il desiderio di migliorare uno dei nostri prodotti, il tuo contributo è ben accetto"
+msgstr "Questo significa che se hai le capacità ed il desiderio di migliorare uno dei nostri prodotti, il tuo contributo è ben accetto."
 
 #: index.php:136
 msgid "Spread the Word"
@@ -265,11 +266,11 @@ msgstr "Diffondi la notizia"
 msgid ""
 "We feel that VideoLAN has the best video software available at the best "
 "price: free. If you agree please help spread the word about our software."
-msgstr "Crediamo che VideoLAN offra il software per video migliore disponibile al miglior prezzo: gratis. Se sei d'accordo, aiutaci a diffondere le informazioni sul nostro software."
+msgstr "Crediamo che VideoLAN offra il miglior software per video disponibile, al miglior prezzo: gratis. Se sei d'accordo, aiutaci a diffondere le informazioni sul nostro software."
 
 #: index.php:412
 msgid "News &amp; Updates"
-msgstr "Notizie & aggiornamenti"
+msgstr "Notizie e aggiornamenti"
 
 #: index.php:416
 msgid "Development Blogs"
@@ -281,7 +282,7 @@ msgstr "Social network"
 
 #: vlc/index.php:3
 msgid "Official page for VLC media player, the Open Source video framework!"
-msgstr "Pagina ufficiale di VLC media player, il framework video Open Surce!"
+msgstr "Pagina ufficiale di VLC media player, il framework video Open Source!"
 
 #: vlc/index.php:45
 msgid "Simple, fast and powerful media player."
@@ -293,7 +294,7 @@ msgstr "Riproduce tutto: file, dischi, webcam, periferiche e flussi."
 
 #: vlc/index.php:49
 msgid "Plays most codecs with no codec packs needed:"
-msgstr "Riproduce la maggior parte dei codec senza bisogno di codec pack:"
+msgstr "Riproduce la maggior parte dei codificatori senza bisogno di codec pack:"
 
 #: vlc/index.php:52
 msgid "Runs on all platforms:"
@@ -305,7 +306,7 @@ msgstr "Completamente gratuito, 0 spyware, 0 pubblicità e nessun tracciamento d
 
 #: vlc/index.php:56
 msgid "Can do media conversion and streaming."
-msgstr "Supporta lo streaming e la conversione dei file multimediali. "
+msgstr "Supporta la trasmissione e la conversione dei file multimediali. "
 
 #: vlc/index.php:58
 msgid "Discover all features"
@@ -313,7 +314,7 @@ msgstr "Scopri tutte le caratteristiche"
 
 #: vlc/index.php:92
 msgid "View all screenshots"
-msgstr "Vedi tutti gli screenshot"
+msgstr "Vedi tutte le schermate"
 
 #: vlc/index.php:99
 msgid "Get VLC for"

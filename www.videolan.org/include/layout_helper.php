@@ -43,25 +43,4 @@ function image( $src_img, $alt, $id = "" ) {
     echo " />\n";
 }
 
-/*
- * the real code
- */
-
-/* default language and date */
-if(!isset($language) || $language == "" ) { $language = "en"; }
-
-if(!isset($additional_css)) $additional_css = array();
-if(!isset($additional_js)) $additional_js = array();
-if(!isset($alternate_lang)) $alternate_lang = array();
-if(!isset($body_onload)) $body_onload = "";
-if(!isset($body_onunload)) $body_onunload = "";
-if(!isset($body_color)) $body_color = "orange";
-if(!isset($nobanner)) $nobanner = false;
-/* render the page */
-
-// HTML header
-start_head( preg_replace( "/<[^>]*>/", "" , $title ), $body_color, $language,
-           $additional_css, $additional_js, $alternate_lang, $body_onload, $body_onunload );
-start_body( $body_color, $language );
-draw_menus( $nobanner, $alternate_lang );
 ?>

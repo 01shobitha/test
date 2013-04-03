@@ -45,15 +45,15 @@ $lgfile="languages";
 $file_id=fopen($lgfile,"r");
 $contents = fread ($file_id, filesize($lgfile) );
 fclose ($file_id );
-     
+
 $langs = explode( "\n", $contents );
 
-for($i=0;$i<count($langs) -1;$i++ )
+for($i=0; $i < count($langs)-1; $i++ )
 {
-  list($lang,$po,$maint,$mail) = explode('|',$langs[$i]);
+    list($lang,$po,$maint,$mail) = explode('|', $langs[$i]);
 
-  echo "<tr><td class=\"category\">$lang</td>
-            <td><a href=\"mailto:$mail\">$maint</a></td></tr>\n";
+    echo "<tr><td class=\"category\">$lang</td>
+        <td><a href=\"mailto:$mail\">$maint</a></td></tr>\n";
 }
 
 ?>

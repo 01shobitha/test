@@ -75,13 +75,10 @@ part with '@'. </p>
       if( !$dude ) return'';
       if( $email ) $email = str_replace("@","-replacewith@-",$email);
       if( $email ) $dude = '<a href="mailto:'.$email.'">'.$dude.'</a>';
-      if( $cvs ) $dude .= " (SVN login: <code>$cvs</code>)";
       if( !$job ) return $dude;
       while (list ($key, $val) = each ($job)) {
          $dude .= "<br /> - $val";
       }
-
-      $dude .= $description;
 
       return($dude);
    }

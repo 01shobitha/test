@@ -14,7 +14,7 @@ endif
 PHPCGI := $(ROOT)bin/php-cgi.sh
 STRIP_HEADERS := $(ROOT)bin/strip-headers.sh
 
-all: real-all locales
+all: real-all
 
 include Makefile.inc
 
@@ -56,7 +56,7 @@ clean: clean-recursive
 	@rm -f $@.tmp $@.tmp2
 
 
-index.%.php: index.php $(ROOT)/locale/%/LC_MESSAGES/website.po
+index.%.php: index.php $(ROOT)/locale/%/LC_MESSAGES/website.po $(ROOT)/index.var $(ROOT)/include/*.php
 	rm -f ./$@
 	sed -e "s/language = \"\"/language = \"$*\"/" index.php > ./$@;
 	msgfmt -c -v -o $(ROOT)/locale/$*/LC_MESSAGES/website.mo $(ROOT)/locale/$*/LC_MESSAGES/website.po

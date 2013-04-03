@@ -79,6 +79,8 @@ function replaceDLinfos( )
 
 function downloadButton()
 {
+    global $dlUrl;
+    global $win32version;
 ?>
      <a id='downloadButton' href='<?php echo $dlUrl; ?>'>
          <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />

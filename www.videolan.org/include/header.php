@@ -58,7 +58,7 @@ function getLocaleFromLanguage( $language )
 /*
 *  starthtml: beginning of the page
 */
-function StartHtml( $title, $color, $language,
+function start_head( $title, $color, $language,
                     $additional_css=array(),
                     $additional_js=array(),
                     $alternate_lang=array(),
@@ -160,7 +160,7 @@ function StartHtml( $title, $color, $language,
 }
 
 /* Actual start of the body */
-function start_top( $body_color, $language )
+function start_body( $body_color, $language )
 {
     if ( ($language != "he") && ($language != "ur") )
     {
@@ -486,8 +486,8 @@ if(!isset($nobanner)) $nobanner = false;
 /* render the page */
 
 // HTML header
-StartHtml( preg_replace( "/<[^>]*>/", "" , $title ), $body_color, $language,
+start_head( preg_replace( "/<[^>]*>/", "" , $title ), $body_color, $language,
            $additional_css, $additional_js, $alternate_lang, $body_onload, $body_onunload );
-start_top( $body_color, $language );
+start_body( $body_color, $language );
 draw_menus( $nobanner, $alternate_lang );
 ?>

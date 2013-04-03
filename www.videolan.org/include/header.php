@@ -59,12 +59,14 @@ function getLocaleFromLanguage( $language )
 /*
 *  starthtml: beginning of the page
 */
-function start_head( $title, $color, $language,
-                    $additional_css=array(),
-                    $additional_js=array(),
-                    $alternate_lang=array(),
-                    $body_onload = "HideMirrors();",
-                    $body_onunload = "" )
+function start_head( $title,
+                     $color,
+                     $language,
+                     $additional_css = array(),
+                     $additional_js  = array(),
+                     $alternate_lang = array(),
+                     $body_onload    = "",
+                     $body_onunload  = "" )
 {
     global $HTTP_GET_VARS;
 
@@ -161,7 +163,7 @@ function start_head( $title, $color, $language,
 }
 
 /* Actual start of the body */
-function start_body( $body_color, $language )
+function start_body( $body_color, $language, $b_show_donate = true )
 {
     if ( ($language != "he") && ($language != "ur") )
     {
@@ -187,6 +189,8 @@ function start_body( $body_color, $language )
     echo _('A project and a').' <a href="/videolan/" class="noUnderline">'._('non-profit organization').'</a>, '.
          _('composed of volunteers, developing and promoting free, open-source multimedia solutions.');?>
    </div>
+
+   <?php if ($b_show_donate != true ) return; ?>
    <div id='donate'>
        <div style='font-size: 14px; color: #909090; float: left; padding-top: 5px;'>
            <?php echo _("DONATE");?> &nbsp;<a href='/contribute.html#money'>(<?php echo _("why?");?>)</a></div>
@@ -429,21 +433,20 @@ function footer($tag = "", $alternate_lang=array()) {
  * the real code
  */
 
-/* default language and date */
+/* Default configuration options taken from the file */
 if(!isset($language) || $language == "" ) { $language = "en"; }
-
 if(!isset($additional_css)) $additional_css = array();
-if(!isset($additional_js)) $additional_js = array();
+if(!isset($additional_js))  $additional_js  = array();
 if(!isset($alternate_lang)) $alternate_lang = array();
-if(!isset($body_onload)) $body_onload = "";
-if(!isset($body_onunload)) $body_onunload = "";
-if(!isset($body_color)) $body_color = "orange";
-if(!isset($nobanner)) $nobanner = false;
-/* render the page */
+if(!isset($body_onload))    $body_onload    = "";
+if(!isset($body_onunload))  $body_onunload  = "";
+if(!isset($body_color))     $body_color     = "orange";
+if(!isset($nobanner))       $nobanner       = false;
+if(!isset($show_donate))    $show_donate    = true;
 
-// HTML header
+/* render the page */
 start_head( preg_replace( "/<[^>]*>/", "" , $title ), $body_color, $language,
            $additional_css, $additional_js, $alternate_lang, $body_onload, $body_onunload );
-start_body( $body_color, $language );
+start_body( $body_color, $language, $show_donate );
 draw_menus( $nobanner, $alternate_lang );
 ?>

@@ -146,7 +146,7 @@ function addos( $name, $class, $url, $bold=false )
 -->
 
 <?php
-footer( "$Id", $alternate_lang);
+footer( '$Id', $alternate_lang);
 sf_money();
 ?>
 

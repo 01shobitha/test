@@ -14,7 +14,7 @@ endif
 PHPCGI := $(ROOT)bin/php-cgi.sh
 STRIP_HEADERS := $(ROOT)bin/strip-headers.sh
 
-all: real-all
+all: real-all locales
 
 include Makefile.inc
 
@@ -28,7 +28,7 @@ ifneq ($(PHP_IGNORES),)
   PHP_FILES := $(filter-out $(PHP_IGNORES:%=%.php), $(PHP_FILES))
 endif
 
-TARGETS := $(PHP_FILES:%.php=%.html) $(ROOT)/style/countries.css $(ROOT)/news-rss.html $(ROOT)/style/style.css 
+TARGETS := $(PHP_FILES:%.php=%.html) $(ROOT)/style/countries.css $(ROOT)/news-rss.html $(ROOT)/style/style.css
 
 real-all: $(TARGETS) all-recursive
 

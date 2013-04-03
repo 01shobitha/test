@@ -387,9 +387,9 @@ function footer($tag = "", $alternate_lang=array()) {
          </div>
          <div style='clear: both; padding-bottom: 30px;'></div>
          <div>
-            <div class='footerHeading'>Traductions</div>
             <?php
                 if( isset($alternate_lang) ) {
+            echo "<div class='footerHeading'>Traductions</div>";
                     $root_filename = explode('.', $_SERVER['SCRIPT_FILENAME'] );
                     foreach($alternate_lang as $lang) {
                         if( $lang == "en" )

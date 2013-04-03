@@ -309,8 +309,6 @@ function draw_menus( $nobanner, $alternate_lang )
    </div>
 </div>
 
-
-
 <div class="clearme"></div>
 
 <?php

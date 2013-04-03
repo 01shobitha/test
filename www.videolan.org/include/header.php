@@ -102,7 +102,7 @@ function start_head( $title, $color, $language,
         <link href="https://plus.google.com/104597325891170264649" rel="publisher" />
 
         <?php /* RSS */ ?>
-        <link rel="alternate" type="application/rss+xml" title="RSS - VideoLAN News" href="/videolan-news.rss" />
+        <link rel="alternate" type="application/rss+xml" title="RSS - VideoLAN News" href="//images.videolan.org/videolan-news.rss" />
         <link rel="alternate" type="application/rss+xml" title="RSS - Developers Blog" href="http://planet.videolan.org/rss20.xml" />
 
         <?php /* Alternate */ ?>
@@ -118,7 +118,7 @@ function start_head( $title, $color, $language,
         } ?>
 
         <?php /* CSS */ ?>
-        <link rel="stylesheet" type="text/css" href="/style/style.css" />
+        <link rel="stylesheet" type="text/css" href="//images.videolan.org/style/style.css" />
 
         <?php if( isset($additional_css) ) {
             foreach($additional_css as $css) {

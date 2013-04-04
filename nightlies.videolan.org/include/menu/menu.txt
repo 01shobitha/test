@@ -1,6 +1,0 @@
-vlc;VLC media player;http://www.videolan.org/;cone.gif;18,24
-project;Project and Community;http://www.videolan.org/videolan;home.gif;24;24
-doc;Documentation/Support;http://www.videolan.org/doc/;doc.gif;31;24
-wiki;Wiki;http://wiki.videolan.org/;cone.gif;18,24
-forum;Forum;http://forum.videolan.org/;cone.gif;18,24
-developers;Developers;http://www.videolan.org/developers/;tool.gif;24;24

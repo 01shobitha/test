@@ -1,4 +1,0 @@
-nightlies;Nightly builds;/
-stable;Download latest stable release;http://www.videolan.org/vlc/
-support;Support;http://www.videolan.org/support/index.html
-projects;Other projects;/projects.html

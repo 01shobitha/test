@@ -41,7 +41,7 @@ clean: clean-recursive
 			HERE=$(HERE)$$d/ || exit $$? ; \
 	done
 
-%.html: %.php $(ROOT)Makefile $(ROOT)/include/*.php $(ROOT)/include/*.php $(ROOT)/include/menu/*
+%.html: %.php $(ROOT)Makefile $(ROOT)/include/*.php
 	@echo "Preprocessing $@ ..."
 	@rm -f $@.tmp
 	@cd $(ROOT) || exit 1 ; \

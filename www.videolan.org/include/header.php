@@ -108,7 +108,7 @@ function start_head( $title,
         } ?>
 
         <?php /* Favicon */ ?>
-        <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+        <link rel="shortcut icon" type="image/x-icon" href="//images.videolan.org/images/favicon.ico" />
         <link href="https://plus.google.com/104597325891170264649" rel="publisher" />
 
         <?php /* RSS */ ?>

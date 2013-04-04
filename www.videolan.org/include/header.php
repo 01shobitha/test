@@ -64,6 +64,7 @@ function start_head( $title,
                      $language,
                      $additional_css = array(),
                      $additional_js  = array(),
+                     $additional_meta= array(),
                      $alternate_lang = array(),
                      $body_onload    = "",
                      $body_onunload  = "" )
@@ -98,6 +99,13 @@ function start_head( $title,
 
         <meta name="Description" content="<?php echo $title; ?>" />
         <title>VideoLAN - <?php echo $title; ?></title>
+
+        <?php /* Additional Meta */
+            if( isset($additional_meta) ) {
+            foreach($additional_meta as $meta) {
+                echo  "<meta $meta />";
+            }
+        } ?>
 
         <?php /* Favicon */ ?>
         <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
@@ -437,6 +445,7 @@ function footer($tag = "", $alternate_lang=array()) {
 if(!isset($language) || $language == "" ) { $language = "en"; }
 if(!isset($additional_css)) $additional_css = array();
 if(!isset($additional_js))  $additional_js  = array();
+if(!isset($additional_meta)) $additional_meta = array();
 if(!isset($alternate_lang)) $alternate_lang = array();
 if(!isset($body_onload))    $body_onload    = "";
 if(!isset($body_onunload))  $body_onunload  = "";
@@ -446,7 +455,7 @@ if(!isset($show_donate))    $show_donate    = true;
 
 /* render the page */
 start_head( preg_replace( "/<[^>]*>/", "" , $title ), $body_color, $language,
-           $additional_css, $additional_js, $alternate_lang, $body_onload, $body_onunload );
+           $additional_css, $additional_js, $additional_meta, $alternate_lang, $body_onload, $body_onunload );
 start_body( $body_color, $language, $show_donate );
 draw_menus( $nobanner, $alternate_lang );
 ?>

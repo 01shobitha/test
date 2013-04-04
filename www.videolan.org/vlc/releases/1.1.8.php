@@ -4,6 +4,7 @@
    $menu = array( "project", "news" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
 ?>
 
         <div class="clearme" style='padding-top: 35px;'>
@@ -266,11 +267,11 @@ New add-ons and script framework so one can personalize its vlc.
 <h2>Direct links and press contact</h2>
 If you link to this release, please use the following links.
 <h3>Source</h3>
-<a href="<?php getDownloadLink("vlc", "1.1.8", "vlc-1.1.6.tar.bz2"); ?>">VLC Source download</a>
+<a href="<?php echo getDownloadLink("vlc", "1.1.8", "vlc-1.1.8.tar.bz2"); ?>">VLC Source download</a>
 <h3>Win32</h3>
-<a href="<?php getDownloadLink("vlc", "1.1.8", "vlc-1.1.6-win32.exe"); ?>">VLC Win32 installer</a><br />
-<a href="<?php getDownloadLink("vlc", "1.1.8", "vlc-1.1.6-win32.7z"); ?>">VLC Win32 7zip (no install)</a><br />
-<a href="<?php getDownloadLink("vlc", "1.1.8", "vlc-1.1.6-win32.zip"); ?>">VLC Win32 zip (no install)</a><br />
+<a href="<?php echo getDownloadLink("vlc", "1.1.8", "vlc-1.1.8-win32.exe"); ?>">VLC Win32 installer</a><br />
+<a href="<?php echo getDownloadLink("vlc", "1.1.8", "vlc-1.1.8-win32.7z"); ?>">VLC Win32 7zip (no install)</a><br />
+<a href="<?php echo getDownloadLink("vlc", "1.1.8", "vlc-1.1.8-win32.zip"); ?>">VLC Win32 zip (no install)</a><br />
 <h3>MacOSX</h3>
 <br />
 <h3>Press contact</h3>

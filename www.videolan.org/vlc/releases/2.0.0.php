@@ -224,7 +224,7 @@ function vlcscreenshot($img,$thumb, $desc){
         <div class="clearme"></div>
         <h1>Download VLC</h1>
         <h2>Windows</h2>
-           <a id='downloadButton' href='<?php echo $dlUrl; ?>' class="sourceforge_accelerator_link">
+           <a id='downloadButton' href='<?php echo getDownloadLink("vlc", "2.0.0", "win32/vlc-2.0.0-win32.exe"); ?>' >
                <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
                <span class='downloadText'><?php echo _("VLC for Windows"); ?></span>
                <span id='downloadDetails' style='font-size: 12px; color: white;'>
@@ -234,7 +234,7 @@ function vlcscreenshot($img,$thumb, $desc){
         <h2 style="margin-top: 30px;">Mac OS X</h2>
         <div>
         <h3>Mac OS X 10.6 &amp; 10.7</h3>
-        <a id='downloadButton' href='<?php echo "http://sourceforge.net/projects/vlc/files/$macosxversion/macosx/vlc-$macosxversion-intel64.dmg/download"; ?>' class="sourceforge_accelerator_link">
+        <a id='downloadButton' href='<?php echo getDownloadLink("vlc", "2.0.0", "macosx/vlc-$macosxversion-intel64.dmg" ); ?>' >
                <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
                <span class='downloadText'><?php echo _("VLC for Mac OS X 10.6+"); ?></span>
                <span id='downloadDetails' style='font-size: 12px; color: white;'>
@@ -243,10 +243,10 @@ function vlcscreenshot($img,$thumb, $desc){
         </div>
         <div style="float: right; width: 400px;">
         <h3>Mac OS X 10.5 Intel</h3>
-        <a href='<?php echo "http://sourceforge.net/projects/vlc/files/$macosxversion/macosx/vlc-$macosxversion-intel32.dmg/download"; ?>' class="sourceforge_accelerator_link">
+        <a href='<?php echo getDownloadLink("vlc", "2.0.0", "macosx/vlc-$macosxversion-intel64.dmg" ); ?>' >
         VLC 2.0.0 for Mac OS X.5 (intel)</a>
         <h3>Mac OS X 10.5 PowerPC</h3>
-        <a href='<?php echo "http://sourceforge.net/projects/vlc/files/$macosxversion/macosx/vlc-$macosxversion-powerpc.dmg/download"; ?>' class="sourceforge_accelerator_link">
+        <a href='<?php echo getDownloadLink("vlc", "2.0.0", "macosx/vlc-$macosxversion-powerpc.dmg" ); ?>' >
         VLC 2.0.0 for Mac OS X.5 (powerpc)</a>
         </div>
         <div class="clearme"></div>
@@ -263,13 +263,4 @@ function vlcscreenshot($img,$thumb, $desc){
         <p>For any questions related to this release, please <a href="/contact.html">contact us</a>.</p>
 
 </div>
-   <script>
-   (function() {
-       var script = document.createElement('script');
-       script.src = '//sourceforge.net/accelerator/js?partner_id=60';
-       script.defer = true;
-       var s = document.getElementsByTagName('script')[0];
-       s.parentNode.insertBefore(script, s);
-   })();
-   </script>
 <?php footer('$Id: index.php 7173 2012-02-11 00:58:09Z jb $'); ?>

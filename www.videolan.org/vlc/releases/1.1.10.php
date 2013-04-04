@@ -4,6 +4,7 @@
    $menu = array( "project", "news" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
 ?>
 
         <div class="clearme" style='padding-top: 35px;'>

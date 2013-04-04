@@ -13,6 +13,11 @@ function browse_old( $fold )
  echo "<a href=\"http://download.videolan.org/pub/videolan/$fold\">our FTP archive</a></p>";
 }
 
+
+function getDownloadLink($project, $version, $name) {
+    return "http://get.videolan.org/$project/$version/$name";
+}
+
 function pkgversion($name,$version)
 {
     $latest = array("vlc" => "2.0.5");

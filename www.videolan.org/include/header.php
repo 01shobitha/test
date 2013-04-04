@@ -400,8 +400,8 @@ function footer($tag = "", $alternate_lang=array()) {
          <div style='clear: both; padding-bottom: 30px;'></div>
          <div>
             <?php
-                if( isset($alternate_lang) ) {
-            echo "<div class='footerHeading'>Translations</div>";
+                if( isset($alternate_lang) && count($alternate_lang) > 0 ) {
+                    echo "<div class='footerHeading'>Translations</div>";
                     $root_filename = explode('.', $_SERVER['SCRIPT_FILENAME'] );
                     foreach($alternate_lang as $lang) {
                         if( $lang == "en" )

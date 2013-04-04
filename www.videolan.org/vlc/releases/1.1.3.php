@@ -11,11 +11,11 @@ function DoDL2( $os, $with_js=1 )
 {
     $dl = array();
     $version = '1.1.3';
-    $start_url="http://sourceforge.net/projects/vlc/files/$version";
-    $dl["Win32"] = array( "$start_url/win32/vlc-$version-win32.exe/download", "Windows install" );
-    $dl["Win32-7z"] = array( "$start_url/win32/vlc-$version-win32.7z/download", "Windows 7z" );
-    $dl["OSX-Intel"] = array( "$start_url/macosx/vlc-$version.dmg/download", "Mac OS X Intel" );
-    $dl["Linux"] =array("$start_url/vlc-$version.tar.bz2/download", "Linux and other OSes" );
+    $start_url="http://get.videolan.org/vlc/$version";
+    $dl["Win32"] = array( "$start_url/win32/vlc-$version-win32.exe", "Windows install" );
+    $dl["Win32-7z"] = array( "$start_url/win32/vlc-$version-win32.7z", "Windows 7z" );
+    $dl["OSX-Intel"] = array( "$start_url/macosx/vlc-$version.dmg", "Mac OS X Intel" );
+    $dl["Linux"] =array("$start_url/vlc-$version.tar.bz2", "Linux and other OSes" );
     $dl["Debian"] = array( "/vlc/download-debian.html", "Debian GNU/Linux" );
     $dl["Ubuntu"] = array( "/vlc/download-ubuntu.html", "Ubuntu Linux");
     $dl["Fedora"] = array( "/vlc/download-fedora.html", "Fedora Linux");
@@ -90,7 +90,7 @@ function DoDL2( $os, $with_js=1 )
                   else if( <?php echo $is_freebsd; ?> ) { <?php DoDL2("FreeBSD"); ?> }
                   else if( <?php echo $is_osx; ?> )
                   {
-                    if( <?php echo $is_ppc; ?> ) {  <?php //DoDL2("OSX-PPC"); ?> 
+                    if( <?php echo $is_ppc; ?> ) {  <?php //DoDL2("OSX-PPC"); ?>
                     document.writeln( "PPC build is not yet ready. It will come soon." );}
                     else if( <?php echo $is_mactel; ?> ) { <?php DoDL2("OSX-Intel");?>}
                     else { <?php DoDL2("OSX-Intel"); ?> }
@@ -294,16 +294,16 @@ New add-ons and script framework so one can personalize its vlc.
 <h2>Direct links and press contact</h2>
 If you link to this release, please use the following links.
 <h3>Source</h3>
-<a href="http://sourceforge.net/projects/vlc/files/1.1.3/vlc-1.1.3.tar.bz2/download">VLC Source download</a>
+<a href="<?php echo getDownloadLink("vlc", "1.1.3", "vlc-1.1.3.tar.bz2"); ?>">VLC Source download</a>
 <h3>Win32</h3>
-<a href="http://sourceforge.net/projects/vlc/files/1.1.3/win32/vlc-1.1.3-win32.exe/download">VLC Win32 installer</a><br />
-<a href="http://sourceforge.net/projects/vlc/files/1.1.3/win32/vlc-1.1.3-win32.7z/download">VLC Win32 7zip (no install)</a><br />
-<a href="http://sourceforge.net/projects/vlc/files/1.1.3/win32/vlc-1.1.3-win32.zip/download">VLC Win32 zip (no install)</a><br />
+<a href="<?php echo getDownloadLink("vlc", "1.1.3", "win32/vlc-1.1.3-win32.exe"); ?>">VLC Win32 installer</a><br />
+<a href="<?php echo getDownloadLink("vlc", "1.1.3", "win32/vlc-1.1.3-win32.7z"); ?>">VLC Win32 7zip (no install)</a><br />
+<a href="<?php echo getDownloadLink("vlc", "1.1.3", "win32/vlc-1.1.3-win32.zip"); ?>">VLC Win32 zip (no install)</a><br />
 <h3>MacOS</h3>
-<a href="http://sourceforge.net/projects/vlc/files/1.1.3/macosx/vlc-1.1.3.dmg/download">Universal Binaries for Intel</a><br />
-<a href="http://sourceforge.net/projects/vlc/files/1.1.3/macosx/vlc-1.1.3-intel.dmg/download">Intel 32bits</a><br />
-<a href="http://sourceforge.net/projects/vlc/files/1.1.3/macosx/vlc-1.1.3-intel64.dmg/download">Intel 64bits</a><br />
-<br /> 
+<a href="<?php echo getDownloadLink("vlc", "1.1.3", "macosx/vlc-1.1.3.dmg"); ?>">Universal Binaries for Intel</a><br />
+<a href="<?php echo getDownloadLink("vlc", "1.1.3", "macosx/vlc-1.1.3-intel.dmg"); ?>">Intel 32bits</a><br />
+<a href="<?php echo getDownloadLink("vlc", "1.1.3", "macosx/vlc-1.1.3-intel64.dmg"); ?>">Intel 64bits</a><br />
+<br />
 <h3>Press contact</h3>
 <a href="/videolan/team/">Contact infos</a>
 <br />
@@ -322,7 +322,7 @@ If you link to this release, please use the following links.
 It provides categorizations of such stations, so it is easier to find one that matches your interest.
 According to users feedback, the integration of such directory inside VLC is one of the best features of the software.</p>
 
-<p>Starting from VLC 1.1.0, the SHOUTcast module is not available on the distributed VLC any longer, because AOL Corporation 
+<p>Starting from VLC 1.1.0, the SHOUTcast module is not available on the distributed VLC any longer, because AOL Corporation
 is hindering Open Source Software.</p>
 
 <h2>What happened?</h2>
@@ -359,7 +359,7 @@ Radio toolbar with the Integrated Product."
 <h2>License incompatibility</h2>
 <p>
 Since it is obviously impossible for VLC to comply with such licensing terms, we had to remove the support from the default VLC.
-Other free software multimedia players, like Amarok, are not able to comply with the license terms either and have therefore removed their 
+Other free software multimedia players, like Amarok, are not able to comply with the license terms either and have therefore removed their
 SHOUTcast support.</p>
 
 <p>However, we are providing a way to integrate the "icecast directory" that provides an open source equivalent to SHOUTcast.

@@ -11,11 +11,11 @@ function DoDL2( $os, $with_js=1 )
 {
     $dl = array();
     $version = '1.1.2';
-    $start_url="http://sourceforge.net/projects/vlc/files/$version";
-    $dl["Win32"] = array( "$start_url/win32/vlc-$version-win32.exe/download", "Windows install" );
-    $dl["Win32-7z"] = array( "$start_url/win32/vlc-$version-win32.7z/download", "Windows 7z" );
-    $dl["OSX-Intel"] = array( "$start_url/macosx/vlc-$version.dmg/download", "Mac OS X Intel" );
-    $dl["Linux"] =array("$start_url/vlc-$version.tar.bz2/download", "Linux and other OSes" );
+    $start_url="http://get.videolan.org/vlc/$version";
+    $dl["Win32"] = array( "$start_url/win32/vlc-$version-win32.exe", "Windows install" );
+    $dl["Win32-7z"] = array( "$start_url/win32/vlc-$version-win32.7z", "Windows 7z" );
+    $dl["OSX-Intel"] = array( "$start_url/macosx/vlc-$version.dmg", "Mac OS X Intel" );
+    $dl["Linux"] =array("$start_url/vlc-$version.tar.bz2", "Linux and other OSes" );
     $dl["Debian"] = array( "/vlc/download-debian.html", "Debian GNU/Linux" );
     $dl["Ubuntu"] = array( "/vlc/download-ubuntu.html", "Ubuntu Linux");
     $dl["Fedora"] = array( "/vlc/download-fedora.html", "Fedora Linux");
@@ -273,15 +273,15 @@ New add-ons and script framework so one can personalize its vlc.
 <h2>Direct links and press contact</h2>
 If you link to this release, please use the following links.
 <h3>Source</h3>
-<a href="http://sourceforge.net/projects/vlc/files/1.1.2/vlc-1.1.2.tar.bz2/download">VLC Source download</a>
+<a href="<?php echo getDownloadLink("vlc", "1.1.2", "vlc-1.1.2.tar.bz2"); ?>">VLC Source download</a>
 <h3>Win32</h3>
-<a href="http://sourceforge.net/projects/vlc/files/1.1.2/win32/vlc-1.1.2-win32.exe/download">VLC Win32 installer</a><br />
-<a href="http://sourceforge.net/projects/vlc/files/1.1.2/win32/vlc-1.1.2-win32.7z/download">VLC Win32 7zip (no install)</a><br />
-<a href="http://sourceforge.net/projects/vlc/files/1.1.2/win32/vlc-1.1.2-win32.zip/download">VLC Win32 zip (no install)</a><br />
+<a href="<?php echo getDownloadLink("vlc", "1.1.2", "win32/vlc-1.1.2-win32.exe"); ?>">VLC Win32 installer</a><br />
+<a href="<?php echo getDownloadLink("vlc", "1.1.2", "win32/vlc-1.1.2-win32.7z"); ?>">VLC Win32 7zip (no install)</a><br />
+<a href="<?php echo getDownloadLink("vlc", "1.1.2", "win32/vlc-1.1.2-win32.zip"); ?>">VLC Win32 zip (no install)</a><br />
 <h3>MacOS</h3>
-<a href="http://sourceforge.net/projects/vlc/files/1.1.2/macosx/vlc-1.1.2.dmg/download">Universal Binaries for Intel</a><br />
-<a href="http://sourceforge.net/projects/vlc/files/1.1.2/macosx/vlc-1.1.2-intel.dmg/download">Intel 32bits</a><br />
-<a href="http://sourceforge.net/projects/vlc/files/1.1.2/macosx/vlc-1.1.2-intel64.dmg/download">Intel 64bits</a><br />
+<a href="<?php echo getDownloadLink("vlc", "1.1.2", "macosx/vlc-1.1.2-win32.exe"); ?>">VLC Win32 installer</a><br />
+<a href="<?php echo getDownloadLink("vlc", "1.1.2", "macosx/vlc-1.1.2-win32.7z"); ?>">VLC Win32 7zip (no install)</a><br />
+<a href="<?php echo getDownloadLink("vlc", "1.1.2", "macosx/vlc-1.1.2-win32.zip"); ?>">VLC Win32 zip (no install)</a><br />
 <br /> 
 <h3>Press contact</h3>
 <a href="/videolan/team/">Contact infos</a>

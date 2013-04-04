@@ -7,6 +7,7 @@
    $additional_css= array("/js/css/slimbox2.css");
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
 
    $macosxversion = "2.0.2";
    $win32version = "2.0.2";

@@ -3,7 +3,8 @@ $win32version = '2.0.5';
 $macosxversion = '2.0.5';
 $version = '2.0.5';
 
-$dlUrl = "http://get.videolan.org/vlc/$win32version/win32/vlc-$win32version-win32.exe";
+$dlBase = "http://get.videolan.org/vlc/";
+$dlUrl = "$dlBase/$win32version/win32/vlc-$win32version-win32.exe";
 
 function replaceDLinfos( )
 {
@@ -15,11 +16,11 @@ function replaceDLinfos( )
     var latestVersion  = '<?php echo "$version"; ?>';
     <?php
     echo "
-    var windowsDetails = {'name': 'Windows', 'size': '22&nbsp;MB', 'location': 'http://get.videolan.org/vlc/$win32version/win32/vlc-$win32version-win32.exe'};
-    var osxDetails     = {'name': 'Mac OS X', 'size': '43&nbsp;MB', 'location': 'http://get.videolan.org/vlc/$macosxversion/macosx/vlc-$macosxversion.dmg' };
-    var osx32Details   = {'name': 'Mac OS X (32bit)', 'size': '26&nbsp;MB', 'location': 'http://get.videolan.org/vlc/$macosxversion/macosx/vlc-$macosxversion-intel.dmg' };
-    var osx64Details   = {'name': 'Mac OS X (64bit)', 'size': '27&nbsp;MB', 'location': 'http://get.videolan.org/vlc/$macosxversion/macosx/vlc-$macosxversion-intel64.dmg' };
-    var osxPPCDetails  = {'name': 'Mac OS X (PPC)', 'size': '25&nbsp;MB', 'location': 'http://get.videolan.org/vlc/$macosxversion/macosx/vlc-$macosxversion-powerpc.dmg' };"; ?>
+    var windowsDetails = {'name': 'Windows', 'size': '22&nbsp;MB', 'location':          '$dlBase/$win32version/win32/vlc-$win32version-win32.exe'};
+    var osxDetails     = {'name': 'Mac OS X', 'size': '43&nbsp;MB', 'location':         '$dlBase/$macosxversion/macosx/vlc-$macosxversion.dmg' };
+    var osx32Details   = {'name': 'Mac OS X (32bit)', 'size': '26&nbsp;MB', 'location': '$dlBase/$macosxversion/macosx/vlc-$macosxversion-intel.dmg' };
+    var osx64Details   = {'name': 'Mac OS X (64bit)', 'size': '27&nbsp;MB', 'location': '$dlBase/$macosxversion/macosx/vlc-$macosxversion-intel64.dmg' };
+    var osxPPCDetails  = {'name': 'Mac OS X (PPC)', 'size': '25&nbsp;MB', 'location':   '$dlBase/$macosxversion/macosx/vlc-$macosxversion-powerpc.dmg' };"; ?>
     var linuxDetails   = {'name': 'Linux', 'size': '', 'location': '/vlc/#download'};
     var debianDetails  = {'name': 'Debian GNU/Linux', 'size': '', 'location': '/vlc/download-debian.html'};
     var ubuntuDetails  = {'name': 'Ubuntu Linux', 'size': '', 'location': 'apt://vlc'};
@@ -42,7 +43,6 @@ function replaceDLinfos( )
        if (navigator.appVersion.indexOf("Win")!=-1){
          OS="windows";
          latestVersion = '<?php echo "$win32version"; ?>';
-         $("#downloadButton").addClass('sourceforge_accelerator_link');
        }
        if (navigator.appVersion.indexOf("Mac")!=-1) {
           latestVersion = '<?php echo "$macosxversion"; ?>';
@@ -52,7 +52,6 @@ function replaceDLinfos( )
           else if (navigator.userAgent.indexOf("OS X 10.7")!=-1) OS="osx64";
           else OS="osx";
 
-         $("#downloadButton").addClass('sourceforge_accelerator_link');
        }
        if (navigator.platform.indexOf("BeOS") !=-1) OS="beos";
        if (navigator.platform.indexOf("Linux")!=-1) {

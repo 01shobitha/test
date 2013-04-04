@@ -318,7 +318,7 @@ function draw_menus( $nobanner, $alternate_lang )
 <?php
     /* Event banner */
     if ( !$nobanner )
-    ;//    echo '<center><a href="https://packliberte.org/"><img alt="Pack Liberté" src="http://images.videolan.org/images/events/animated_packliberte.gif" /></a></center>';
+    ;//    echo '<center><a href="https://packliberte.org/"><img alt="Pack Liberté" src="//images.videolan.org/images/events/animated_packliberte.gif" /></a></center>';
     ?><?php
 }
 
@@ -327,7 +327,7 @@ function footer($tag = "", $alternate_lang=array()) {
 ?>
 </div>
    <div id='footer'>
-      <div style='background-image: url( "/images/divider.png" ); height: 15px; width: 100%;'></div>
+      <div style='background-image: url( "//images.videolan.org/images/divider.png" ); height: 15px; width: 100%;'></div>
       <div style='padding: 40px 10px 40px; width: 950px; margin: 0 auto;'>
            <a style='float: left; margin-right: 50px;' href='/'>
             <?php image( 'logoGrey.png', 'Association VideoLAN' ); ?></a>

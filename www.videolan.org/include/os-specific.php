@@ -11,6 +11,8 @@ function replaceDLinfos( )
     global $version;
     global $win32version;
     global $macosxversion;
+    global $dlBase;
+
     ?><script type='text/javascript'>
     //Editable details for the client side OS appropriate download detection.
     var latestVersion  = '<?php echo "$version"; ?>';

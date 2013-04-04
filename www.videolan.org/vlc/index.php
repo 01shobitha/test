@@ -22,7 +22,7 @@
                 <a class='extraInfoLink' href='/vlc/features.html'><?php echo _("Features"); ?></a>
                 <a class='extraInfoLink' href='/vlc/screenshots.html'><?php echo _("Screenshots"); ?></a>
                 <a class='extraInfoLink' href='/vlc/skins.php'><?php echo _("Skins"); ?></a>
-                <a id='downloadButton' href='<?php echo $dlUrl; ?>' class="sourceforge_accelerator_link">
+                <a id='downloadButton' href='<?php echo $dlUrl; ?>'>
                     <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
                     <span class='downloadText'><?php echo _("Download VLC"); ?></span>
                     <span id='downloadDetails' style='font-size: 12px; color: white;'>

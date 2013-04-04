@@ -134,7 +134,7 @@ p
     padding-bottom: 10px;
 }
 
-dt {
+#bodyInner dt {
     font-weight: bold;
 }
 dd { margin-bottom: 6px; }

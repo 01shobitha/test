@@ -1,5 +1,5 @@
 <?php
-   $title = "VideoLAN, VLC media player continuous nightly builds";
+   $title = "VLC media player continuous nightly builds";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 

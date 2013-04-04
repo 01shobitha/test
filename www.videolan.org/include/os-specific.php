@@ -3,7 +3,7 @@ $win32version = '2.0.5';
 $macosxversion = '2.0.5';
 $version = '2.0.5';
 
-$dlUrl = "http://sourceforge.net/projects/vlc/files/$win32version/win32/vlc-$win32version-win32.exe/download";
+$dlUrl = "http://get.videolan.org/vlc/$win32version/win32/vlc-$win32version-win32.exe";
 
 function replaceDLinfos( )
 {
@@ -15,11 +15,11 @@ function replaceDLinfos( )
     var latestVersion  = '<?php echo "$version"; ?>';
     <?php
     echo "
-    var windowsDetails = {'name': 'Windows', 'size': '22&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$win32version/win32/vlc-$win32version-win32.exe/download'};
-    var osxDetails     = {'name': 'Mac OS X', 'size': '43&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$macosxversion/macosx/vlc-$macosxversion.dmg/download' };
-    var osx32Details   = {'name': 'Mac OS X (32bit)', 'size': '26&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$macosxversion/macosx/vlc-$macosxversion-intel.dmg/download' };
-    var osx64Details   = {'name': 'Mac OS X (64bit)', 'size': '27&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$macosxversion/macosx/vlc-$macosxversion-intel64.dmg/download' };
-    var osxPPCDetails  = {'name': 'Mac OS X (PPC)', 'size': '25&nbsp;MB', 'location': 'http://sourceforge.net/projects/vlc/files/$macosxversion/macosx/vlc-$macosxversion-powerpc.dmg/download' };"; ?>
+    var windowsDetails = {'name': 'Windows', 'size': '22&nbsp;MB', 'location': 'http://get.videolan.org/vlc/$win32version/win32/vlc-$win32version-win32.exe'};
+    var osxDetails     = {'name': 'Mac OS X', 'size': '43&nbsp;MB', 'location': 'http://get.videolan.org/vlc/$macosxversion/macosx/vlc-$macosxversion.dmg' };
+    var osx32Details   = {'name': 'Mac OS X (32bit)', 'size': '26&nbsp;MB', 'location': 'http://get.videolan.org/vlc/$macosxversion/macosx/vlc-$macosxversion-intel.dmg' };
+    var osx64Details   = {'name': 'Mac OS X (64bit)', 'size': '27&nbsp;MB', 'location': 'http://get.videolan.org/vlc/$macosxversion/macosx/vlc-$macosxversion-intel64.dmg' };
+    var osxPPCDetails  = {'name': 'Mac OS X (PPC)', 'size': '25&nbsp;MB', 'location': 'http://get.videolan.org/vlc/$macosxversion/macosx/vlc-$macosxversion-powerpc.dmg' };"; ?>
     var linuxDetails   = {'name': 'Linux', 'size': '', 'location': '/vlc/#download'};
     var debianDetails  = {'name': 'Debian GNU/Linux', 'size': '', 'location': '/vlc/download-debian.html'};
     var ubuntuDetails  = {'name': 'Ubuntu Linux', 'size': '', 'location': 'apt://vlc'};

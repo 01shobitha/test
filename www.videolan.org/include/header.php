@@ -194,14 +194,14 @@ function start_body( $body_color, $language, $b_show_donate = true )
    <a style='float: left;' href='/'><?php image( $imgSrc, "VideoLAN association"); ?></a>
    <div style='float: left; color: #4D4D4D; font-size: 12px; padding: 10px 10px 5px 20px; line-height: 20px; width: 396px;'>
    <?php
-    echo _('A project and a').' <a href="/videolan/" class="noUnderline">'._('non-profit organization').'</a>, '.
+    echo _('A project and a').' <a href="//www.videolan.org/videolan/" class="noUnderline">'._('non-profit organization').'</a>, '.
          _('composed of volunteers, developing and promoting free, open-source multimedia solutions.');?>
    </div>
 
    <?php if ($b_show_donate != true ) return; ?>
    <div id='donate'>
        <div style='font-size: 14px; color: #909090; float: left; padding-top: 5px;'>
-           <?php echo _("DONATE");?> &nbsp;<a href='/contribute.html#money'>(<?php echo _("why?");?>)</a></div>
+           <?php echo _("DONATE");?> &nbsp;<a href='//www.videolan.org/contribute.html#money'>(<?php echo _("why?");?>)</a></div>
        <img src='/images/paypal.png' style='float: right;' alt="paypal" />
        <form style='clear: both; padding-top: 10px;' action="https://www.paypal.com/en_US/cgi-bin/webscr" method="post">
            <p>
@@ -248,76 +248,76 @@ function draw_menus( $nobanner, $alternate_lang )
 ?>
 <div id='linkBar'>
    <div class='link'>
-      <a href='/'><?php echo _("Home");?></a>
+      <a href='//www.videolan.org/'><?php echo _("Home");?></a>
    </div>
    <div class='link'>
-      <a href='/news.html'><?php echo _("News");?></a>
+      <a href='//www.videolan.org/news.html'><?php echo _("News");?></a>
    </div>
    <div class='link'>
-      <a href='/videolan/'>VideoLAN</a>
+      <a href='//www.videolan.org/videolan/'>VideoLAN</a>
       <ul>
-         <li><a href='/videolan/'><?php echo _("Project and Organization"); ?></a></li>
-         <li><a href='/videolan/team/'><?php echo _("Team"); ?></a></li>
-         <li><a href='/contact.html'><?php echo _("Contact us"); ?></a></li>
-         <li><a href='/videolan/partners.html'><?php echo _("Partners"); ?></a></li>
-         <li><a href='/press/'><?php echo _("Press center"); ?></a></li>
-         <li><a href='/videolan/events/'><?php echo _("Events"); ?></a></li>
-         <li><a href='/security/'><?php echo _("Security center"); ?></a></li>
+         <li><a href='//www.videolan.org/videolan/'><?php echo _("Project and Organization"); ?></a></li>
+         <li><a href='//www.videolan.org/videolan/team/'><?php echo _("Team"); ?></a></li>
+         <li><a href='//www.videolan.org/contact.html'><?php echo _("Contact us"); ?></a></li>
+         <li><a href='//www.videolan.org/videolan/partners.html'><?php echo _("Partners"); ?></a></li>
+         <li><a href='//www.videolan.org/press/'><?php echo _("Press center"); ?></a></li>
+         <li><a href='//www.videolan.org/videolan/events/'><?php echo _("Events"); ?></a></li>
+         <li><a href='//www.videolan.org/security/'><?php echo _("Security center"); ?></a></li>
       </ul>
    </div>
    <div class='link'>
-      <a href='/vlc/'>VLC</a>
+      <a href='//www.videolan.org/vlc/'>VLC</a>
       <ul>
-         <li><a href='/vlc/'><?php echo _("Download"); ?></a></li>
-         <li><a href='/vlc/features.html'><?php echo _("Features"); ?></a></li>
-         <li><a href='/vlc/screenshots.html'><?php echo _("Screenshots"); ?></a></li>
-         <li><a href='/vlc/skins.html'><?php echo _("Skins"); ?></a></li>
+         <li><a href='//www.videolan.org/vlc/'><?php echo _("Download"); ?></a></li>
+         <li><a href='//www.videolan.org/vlc/features.html'><?php echo _("Features"); ?></a></li>
+         <li><a href='//www.videolan.org/vlc/screenshots.html'><?php echo _("Screenshots"); ?></a></li>
+         <li><a href='//www.videolan.org/vlc/skins.html'><?php echo _("Skins"); ?></a></li>
          <li><a href='http://addons.videolan.org/index.php?xcontentmode=903'><?php echo _("Extensions"); ?></a></li>
       </ul>
    </div>
    <div class='link'>
-      <a href='/projects/'><?php echo _("Projects"); ?></a>
+      <a href='//www.videolan.org/projects/'><?php echo _("Projects"); ?></a>
       <ul>
-         <li><a href='/vlc/'>VLC media player</a></li>
-         <li><a href='/vlmc/'>VideoLan Movie Creator</a></li>
-         <li><a href='/projects/dvblast.html'>DVBlast</a></li>
-         <li><a href='/developers/x264.html'>x264</a></li>
-         <li><a href='/projects/multicat.html'>multicat</a></li>
-         <li><a href='/projects/vlma/'>VLMa</a></li>
-         <li><a href='/vlc/skineditor.html'>VLC Skin Editor</a></li>
+         <li><a href='//www.videolan.org/vlc/'>VLC media player</a></li>
+         <li><a href='//www.videolan.org/vlmc/'>VideoLan Movie Creator</a></li>
+         <li><a href='//www.videolan.org/projects/dvblast.html'>DVBlast</a></li>
+         <li><a href='//www.videolan.org/developers/x264.html'>x264</a></li>
+         <li><a href='//www.videolan.org/projects/multicat.html'>multicat</a></li>
+         <li><a href='//www.videolan.org/projects/vlma/'>VLMa</a></li>
+         <li><a href='//www.videolan.org/vlc/skineditor.html'>VLC Skin Editor</a></li>
          <li><hr /></li>
-         <li><a href='/developers/libdvdcss.html'>libdvdcss</a></li>
-         <li><a href='/developers/libbluray.html'>libbluray</a></li>
-         <li><a href='/developers/libdvbpsi.html'>libdvbpsi</a></li>
-         <li><a href='/developers/libaacs.html'>libaacs</a></li>
-         <li><a href='/developers/libdvbcsa.html'>libdvbcsa</a></li>
-         <li><a href='/developers/bitstream.html'>biTStream</a></li>
+         <li><a href='//www.videolan.org/developers/libdvdcss.html'>libdvdcss</a></li>
+         <li><a href='//www.videolan.org/developers/libbluray.html'>libbluray</a></li>
+         <li><a href='//www.videolan.org/developers/libdvbpsi.html'>libdvbpsi</a></li>
+         <li><a href='//www.videolan.org/developers/libaacs.html'>libaacs</a></li>
+         <li><a href='//www.videolan.org/developers/libdvbcsa.html'>libdvbcsa</a></li>
+         <li><a href='//www.videolan.org/developers/bitstream.html'>biTStream</a></li>
          <li><hr /></li>
-         <li><a href='/projects/'><?php echo _("All Projects"); ?></a></li>
+         <li><a href='//www.videolan.org/projects/'><?php echo _("All Projects"); ?></a></li>
       </ul>
    </div>
    <div class='link'>
-      <a href='/contribute.html'><?php echo _("Contribute"); ?></a>
+      <a href='//www.videolan.org/contribute.html'><?php echo _("Contribute"); ?></a>
       <ul>
-         <li><a href='/contribute.html'><?php echo _("Donate time"); ?></a></li>
-         <li><a href='/contribute.html#money'><?php echo _("Donate money"); ?></a></li>
-         <li><a href='/goodies.html'><?php echo _("Get Goodies"); ?></a></li>
+         <li><a href='//www.videolan.org/contribute.html'><?php echo _("Donate time"); ?></a></li>
+         <li><a href='//www.videolan.org/contribute.html#money'><?php echo _("Donate money"); ?></a></li>
+         <li><a href='//www.videolan.org/goodies.html'><?php echo _("Get Goodies"); ?></a></li>
       </ul>
    </div>
    <div class='link'>
-      <a href='/support/'><?php echo _("Support"); ?></a>
+      <a href='//www.videolan.org/support/'><?php echo _("Support"); ?></a>
       <ul>
-         <li><a href='/support/'><?php echo _("Support center"); ?></a></li>
-         <li><a href='/support/faq.html'>FAQ</a></li>
-         <li><a href='/legal.html'><?php echo _("Legal"); ?></a></li>
+         <li><a href='//www.videolan.org/support/'><?php echo _("Support center"); ?></a></li>
+         <li><a href='//www.videolan.org/support/faq.html'>FAQ</a></li>
+         <li><a href='//www.videolan.org/legal.html'><?php echo _("Legal"); ?></a></li>
          <li><a href='http://wiki.videolan.org/'>Wiki</a></li>
          <li><a href='http://forum.videolan.org/'>Forums</a></li>
-         <li><a href='/support/lists.html'><?php echo _("Mailing-Lists"); ?></a></li>
-         <li><a href='/support/#bugs'><?php echo _("Report a bug"); ?></a></li>
+         <li><a href='//www.videolan.org/support/lists.html'><?php echo _("Mailing-Lists"); ?></a></li>
+         <li><a href='//www.videolan.org/support/#bugs'><?php echo _("Report a bug"); ?></a></li>
       </ul>
    </div>
    <div class='link'>
-      <a href='/developers/'><?php echo _("Dev' Zone"); ?></a>
+      <a href='//www.videolan.org/developers/'><?php echo _("Dev' Zone"); ?></a>
    </div>
 </div>
 

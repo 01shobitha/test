@@ -145,8 +145,6 @@ Download VLC 1.1.0-RC</a></div></div>
 <h2>Direct links</h2>
 If you link to this release, please use the following links.
 <h3>Source</h3>
-<a href="http://sourceforge.net/projects/vlc/files/vlc-1.1.0-rc/vlc-1.1.0-rc.tar.bz2/download">VLC Source download</a>
-<h3>Source</h3>
 <a href="<?php echo getDownloadLink("vlc", "1.1.9", "vlc-1.1.9.tar.bz2"); ?>">VLC Source download</a>
 <h3>Win32</h3>
 <a href="<?php echo getDownloadLink("vlc", "1.1.9", "win32/vlc-1.1.9-win32.exe"); ?>">VLC Win32 installer</a><br />

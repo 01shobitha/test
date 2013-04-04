@@ -4,6 +4,7 @@
    $menu = array( "project", "news" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
 ?>
 
 <?php
@@ -11,10 +12,10 @@ function DoDL2( $os, $with_js=1 )
 {
     $dl = array();
     $version = '1.1.0-rc';
-    $start_url="http://sourceforge.net/projects/vlc/files/vlc-$version";
+    $start_url="http://download.videolan.org/pub/testing/vlc-1.1.0-rc/";
     $dl["Win32"] = array( "http://download.videolan.org/pub/testing/vlc-1.1.0-rc/win32/vlc-1.1.0-rc-win32.exe", "Windows install" );
     $dl["Win32-7z"] = array( "http://download.videolan.org/pub/testing/vlc-1.1.0-rc/win32/vlc-1.1.0-rc-win32.7z", "Windows 7z" );
-    $dl["Linux"] =array("$start_url/vlc-$version.tar.bz2/download", "Linux and other OSes" );
+    $dl["Linux"] =array("$start_url/vlc-$version.tar.bz2", "Linux and other OSes" );
     $dl["Debian"] = array( "/vlc/download-debian.html", "Debian GNU/Linux" );
     $dl["Ubuntu"] = array( "/vlc/download-ubuntu.html", "Ubuntu Linux");
     $dl["Fedora"] = array( "/vlc/download-fedora.html", "Fedora Linux");
@@ -136,7 +137,7 @@ function DoDL2( $os, $with_js=1 )
 <h2>Source</h2>
 <div style="width:60%;">
 <div class="dl-button">
-<a href="http://sourceforge.net/projects/vlc/files/vlc-1.1.0-rc/vlc-1.1.0-rc.tar.bz2/download">
+<a href="http://download.videolan.org/pub/testing/vlc-1.1.0-rc/vlc-1.1.0-rc.tar.bz2">
 Download VLC 1.1.0-RC</a></div></div>
     <br />
     <br />
@@ -145,6 +146,12 @@ Download VLC 1.1.0-RC</a></div></div>
 If you link to this release, please use the following links.
 <h3>Source</h3>
 <a href="http://sourceforge.net/projects/vlc/files/vlc-1.1.0-rc/vlc-1.1.0-rc.tar.bz2/download">VLC Source download</a>
+<h3>Source</h3>
+<a href="<?php echo getDownloadLink("vlc", "1.1.9", "vlc-1.1.9.tar.bz2"); ?>">VLC Source download</a>
+<h3>Win32</h3>
+<a href="<?php echo getDownloadLink("vlc", "1.1.9", "win32/vlc-1.1.9-win32.exe"); ?>">VLC Win32 installer</a><br />
+<a href="<?php echo getDownloadLink("vlc", "1.1.9", "win32/vlc-1.1.9-win32.7z"); ?>">VLC Win32 7zip (no install)</a><br />
+<a href="<?php echo getDownloadLink("vlc", "1.1.9", "win32/vlc-1.1.9-win32.zip"); ?>">VLC Win32 zip (no install)</a><br />
 
 <h2>Issues</h2>
 <p>Please report issues on our <a href="http://forum.videolan.org">forum</a> in the <a href="http://forum.videolan.org/viewforum.php?f=34">1.1.0 section.</a> </p>

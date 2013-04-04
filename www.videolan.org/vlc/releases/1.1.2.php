@@ -4,6 +4,7 @@
    $menu = array( "project", "news" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
+   require($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
 ?>
 
 <?php
@@ -279,9 +280,9 @@ If you link to this release, please use the following links.
 <a href="<?php echo getDownloadLink("vlc", "1.1.2", "win32/vlc-1.1.2-win32.7z"); ?>">VLC Win32 7zip (no install)</a><br />
 <a href="<?php echo getDownloadLink("vlc", "1.1.2", "win32/vlc-1.1.2-win32.zip"); ?>">VLC Win32 zip (no install)</a><br />
 <h3>MacOS</h3>
-<a href="<?php echo getDownloadLink("vlc", "1.1.2", "macosx/vlc-1.1.2-win32.exe"); ?>">VLC Win32 installer</a><br />
-<a href="<?php echo getDownloadLink("vlc", "1.1.2", "macosx/vlc-1.1.2-win32.7z"); ?>">VLC Win32 7zip (no install)</a><br />
-<a href="<?php echo getDownloadLink("vlc", "1.1.2", "macosx/vlc-1.1.2-win32.zip"); ?>">VLC Win32 zip (no install)</a><br />
+<a href="<?php echo getDownloadLink("vlc", "1.1.2", "macosx/vlc-1.1.2.dmg"); ?>">Universal Binaries for Intel</a><br />
+<a href="<?php echo getDownloadLink("vlc", "1.1.2", "macosx/vlc-1.1.2-intel.dmg"); ?>">Intel 32bits</a><br />
+<a href="<?php echo getDownloadLink("vlc", "1.1.2", "macosx/vlc-1.1.2-intel64.dmg"); ?>">Intel 64bits</a><br />
 <br /> 
 <h3>Press contact</h3>
 <a href="/videolan/team/">Contact infos</a>

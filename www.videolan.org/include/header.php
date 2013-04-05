@@ -201,7 +201,7 @@ function start_body( $body_color, $language, $b_show_donate = true )
    <?php if ($b_show_donate != true ) return; ?>
    <div id='donate'>
        <div style='font-size: 14px; color: #909090; float: left; padding-top: 5px;'>
-           <?php echo _("DONATE");?> &nbsp;<a href='//www.videolan.org/contribute.html#money'>(<?php echo _("why?");?>)</a></div>
+           <?php echo strtoupper( _("donate") );?> &nbsp;<a href='//www.videolan.org/contribute.html#money'>(<?php echo _("why?");?>)</a></div>
        <img src='/images/paypal.png' style='float: right;' alt="paypal" />
        <form style='clear: both; padding-top: 10px;' action="https://www.paypal.com/en_US/cgi-bin/webscr" method="post">
            <p>

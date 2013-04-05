@@ -64,6 +64,10 @@ URI: index.hi.html
 Content-type: text/html
 Content-language: hi
 
+URI: index.hr.html
+Content-type: text/html
+Content-language: hr
+
 URI: index.is.html
 Content-type: text/html
 Content-language: is

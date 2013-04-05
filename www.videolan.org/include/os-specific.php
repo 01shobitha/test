@@ -25,7 +25,7 @@ function replaceDLinfos( )
     var osxPPCDetails  = {'name': 'Mac OS X (PPC)', 'size': '25&nbsp;MB', 'location':   '$dlBase/$macosxversion/macosx/vlc-$macosxversion-powerpc.dmg' };"; ?>
     var linuxDetails   = {'name': 'Linux', 'size': '', 'location': '/vlc/#download'};
     var debianDetails  = {'name': 'Debian GNU/Linux', 'size': '', 'location': '/vlc/download-debian.html'};
-    var ubuntuDetails  = {'name': 'Ubuntu Linux', 'size': '', 'location': 'apt://vlc'};
+    var ubuntuDetails  = {'name': 'Ubuntu', 'size': '', 'location': 'apt://vlc'};
     var fedoraDetails  = {'name': 'Fedora Linux', 'size': '', 'location': '/vlc/download-fedora.html'};
     var redhatDetails  = {'name': 'RedHat Linux', 'size': '', 'location': '/vlc/download-redhat.html'};
     var gentooDetails  = {'name': 'Gentoo Linux', 'size': '', 'location': '/vlc/download-gentoo.html'};

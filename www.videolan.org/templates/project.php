@@ -16,7 +16,7 @@
                 </div>
                 <a class='extraInfoLink' href='/vlc/features.html'>Features</a>
                 <a class='extraInfoLink' href='/vlc/screenshots.html'>Screenshots</a>
-                <a class='extraInfoLink' href='#'>Other Systems and Versions</a>
+                <a class='extraInfoLink' href='#'>Other Systems</a>
                 <a id='downloadButton' href='http://www.videolan.org/vlc/download-windows.html'>
                     <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
                     <div class='downloadText'>Download VLC</div>

@@ -21,7 +21,7 @@
                     master &nbsp;&#8226;&nbsp; Source &nbsp;&#8226;&nbsp; 475kB
                 </span>
             </a>
-<!--            <a class='extraInfoLink' href='#' >Other Systems and Versions</a>-->
+<!--            <a class='extraInfoLink' href='#' >Other Systems</a>-->
         </div>
 
         <div style='float: left; width: 400px; color: #333333; margin-left: 60px;'>

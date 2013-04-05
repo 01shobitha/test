@@ -31,7 +31,7 @@
                     </span>
                 </a>
                 <?php replaceDLinfos(); ?>
-                <a class='extraInfoLink' href='#download' style="padding: 12px 40px 0px 100px;"><?php echo _("Other Systems and Versions");?></a>
+                <a class='extraInfoLink' href='#download' style="padding: 12px 40px 0px 100px;"><?php echo _("Other Systems");?></a>
             </div>
         </div>
         <div class="clearme" style='padding-top: 45px;'>
@@ -125,7 +125,7 @@ function addos( $name, $class, $url, $bold=false )
             </div>
 
             <div class='lastcolumn'>
-              <h2><?php echo _("Other OS"); ?></h2>
+              <h2><?php echo _("Other Systems"); ?></h2>
                 <?php
                   addos( "FreeBSD", "freebsd", "download-freebsd.html" );
                   addos( "NetBSD", "netbsd", "download-sources.html" );

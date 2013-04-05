@@ -104,7 +104,7 @@
         <div class="clearme" style='padding-top: 20px;'>
             <h1 style='margin-bottom: 12px;'><?php echo _("Help us out!"); ?></h1>
             <div style='float: left; width: 320px;'>
-                <div class='audienceCallout'><?php echo _("Donate"); ?></div>
+                <div class='audienceCallout'><?php echo _("donate"); ?></div>
                 <div class='clearme'>
                     <?php image( "cash.png", "Donate to VLC", "floatSmallImg" ); ?>
                     <div class='productDescription'>

@@ -1,5 +1,5 @@
 <?php
-$url = $_GET["url"];
+$url = urldecode( $_GET["url"] );
 if( strpos( $url, "/" ) ) $url ="";
 if( strpos( $url, " " ) ) $url ="";
 if( strpos( $url, '"' ) ) $url ="";
@@ -24,6 +24,7 @@ if( strpos( $url, "'" ) ) $url ="";
       }
       else
       {
+          $url = pg_escape_string($url);
           pg_query( "UPDATE skins SET downloads=downloads+1 WHERE url='$url'" );
       }
       pg_close( $connect );

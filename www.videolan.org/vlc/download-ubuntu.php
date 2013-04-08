@@ -11,7 +11,7 @@
 <div id="left">
 
 <h2>
-Ubuntu 12.10 <span style='font-size: smaller'>(precise)</span><br />
+Ubuntu 12.10 <span style='font-size: smaller'>(quantal)</span><br />
 Ubuntu 12.04 <span style='font-size: smaller'>(precise)</span><br />
 Ubuntu 11.10 <span style='font-size: smaller'>(oneiric)</span><br />
 </h2>

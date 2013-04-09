@@ -8,9 +8,10 @@
 <div>
     <h1 class="bigtitle">libVLC</h1>
 <div class="projectDescription">
-<p><b>libVLC</b> is the interface to the core of <a href="/vlc/">VLC media player</a> that allows
-developers to create application using the <a href="/vlc/">VLC</a>
- <a href="/vlc/features.html">features</a>.</p>
+<p><b>libVLC</b> is the core engine and the interface to the multimedia framework
+on which <a href="/vlc/">VLC media player</a> is based.<br />
+It allows developers to create a wide range of multimedia applications 
+using the <a href="/vlc/">VLC</a> <a href="/vlc/features.html">features</a>.</p>
 </div>
 
 <h2>Technical Diagram</h2>

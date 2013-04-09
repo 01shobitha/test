@@ -16,6 +16,7 @@
 <!--                <a class='extraInfoLink' href='#'>Other Systems</a> -->
             <div class="clearme"> </div>
             <h1>We are <a href="http://trac.videolan.org/vlmc/wiki/Contributing">looking for contributors!</a></h1>
+            <h2>Stable downloads are not available, for now! Sorry for the issue!</a></h1>
         </div>
     </div>
     <div style='clear: both; padding-top: 90px;'>

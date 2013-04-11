@@ -12,10 +12,9 @@
    $macosxversion = "2.0.6";
    $win32version = "2.0.6";
 ?>
-    <div>
-            <center><h1 class='bigtitle'>VLC reaches <b>2.0.6</b></h1>
-            <div style="padding-top: 10px;">VLC 2.0.6 "Twoflower" is an important update to our 2.0 media player.</div>
-            </center>
+    <center><h1 class='bigtitle'>VLC reaches <b>2.0.6</b></h1>
+    <div style="padding-top: 10px;">VLC 2.0.6 "Twoflower" is an important update to our 2.0 media player.</div>
+    </center>
 
         <div class="clearme" style='padding-top: 30px;'>
             <?php image( 'largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?>

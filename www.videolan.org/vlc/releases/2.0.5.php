@@ -12,15 +12,9 @@
    $macosxversion = "2.0.5";
    $win32version = "2.0.5";
 ?>
-       <div class="clearme" style="padding-top: 26px; width: 800px; height: 120px; margin-left: auto; margin-right: auto;">
-            <a href="http://www.kickstarter.com/projects/1061646928/vlc-for-the-new-windows-8-user-experience-metro" target="_blank">
-                <?php image( 'vlc-win8-banner.png', 'Banner for the Windows 8 fundraiser' ); ?>
-            </a>
-        </div>
-
-            <center><h1 class='bigtitle'>VLC reaches <b>2.0.5</b></h1>
-            <div style="padding-top: 10px;">VLC 2.0.5 "Twoflower" is an important update to our 2.0 media player.</div>
-            </center>
+    <center><h1 class='bigtitle'>VLC reaches <b>2.0.5</b></h1>
+    <div style="padding-top: 10px;">VLC 2.0.5 "Twoflower" is an important update to our 2.0 media player.</div>
+    </center>
 
         <div class="clearme" style='padding-top: 30px;'>
             <?php image( 'largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?>

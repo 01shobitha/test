@@ -25,9 +25,7 @@
 
                     <div style="padding-bottom: 8px;"><b>2.0.6</b> introduces support for Matroska v4 files.</div>
 
-                    <div style="padding-bottom: 8px;"><b>2.0.6</b> also introduces an important number of fixes for MKV, Ogg, AVI, WMV, HTTPS and subtitles support.</div>
-
-                    <div style="padding-bottom: 8px;"><b>2.0.6</b> also fixes FLAC 6.1/7.1, ALAC, and Intel HD 2000/3000 GPU decoding on Windows.</div>
+                    <div style="padding-bottom: 8px;"><b>2.0.6</b> also introduces an important number of fixes for MKV, Ogg, AVI, WMV, HTTPS and subtitles support.<br />Fixes FLAC 6.1/7.1, ALAC, and Intel HD 2000/3000 GPU decoding on Windows.</div>
 
                     <div style="padding-bottom: 8px;"><b>2.0.6</b> also improves the Mac OS interface, the D-Bus and MPRIS2 interfaces.</div>
 
@@ -35,8 +33,6 @@
 
                     <div style="padding-bottom: 8px;">With faster decoding on multi-core, GPU, and mobile hardware and the ability to open more
                   formats, notably professional, HD and 10bits codecs, 2.0 was a major upgrade for VLC. </div>
-
-                    <div>2.0.6 fixes around a hundreds of bugs, and adds around 100 commits on top of 2.0.4, fixing 50 bugs.</div>
 
                 </div>
                 <a id='downloadButton' href='#download'>

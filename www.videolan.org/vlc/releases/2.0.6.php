@@ -25,9 +25,9 @@
 
                     <div style="padding-bottom: 8px;"><b>2.0.6</b> introduces support for Matroska v4 files.</div>
 
-                    <div style="padding-bottom: 8px;"><b>2.0.6</b> also introduces an important number of fixes for MKV, Ogg, AVI, WMV, HTTPS and subtitles support.<br />Fixes FLAC 6.1/7.1, ALAC, and Intel HD 2000/3000 GPU decoding on Windows.</div>
+                    <div style="padding-bottom: 8px;"><b>2.0.6</b> also introduces an important number of fixes for MKV, Ogg, AVI, WMV, HTTPS and subtitles support. Fixes FLAC 6.1/7.1, ALAC, and Intel HD 2000/3000 GPU decoding on Windows are also present.</div>
 
-                    <div style="padding-bottom: 8px;"><b>2.0.6</b> also improves the Mac OS interface, the D-Bus and MPRIS2 interfaces.</div>
+                    <div style="padding-bottom: 8px;"><b>2.0.6</b> also improves the Mac OS X, the D-Bus and MPRIS2 interfaces.</div>
 
                     <div style="padding-bottom: 8px;"><b>2.0.6</b> uses a new compiler for Windows version, done by the <a href="http://mingw-w64.sourceforge.net/">MinGW-w64</a> project.</div>
 

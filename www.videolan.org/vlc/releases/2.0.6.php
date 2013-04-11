@@ -238,7 +238,7 @@ function vlcscreenshot($img,$thumb, $desc){
                             <li>Fix ALAC decoding</li>
                             <li>Fix FLAC 6.1 and 7.1 channel order</li>
                             <li>Fix the vimeo parser</li>
-                            <li>Numerous D-Bus and MRPIS2 improvements</li>
+                            <li>Numerous D-Bus and MPRIS2 improvements</li>
 
                         </ul>
                     </div>

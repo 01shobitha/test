@@ -56,7 +56,6 @@ function pkgitem_sf($description,$version,$name,$top,$extradescription="",$md5="
     echo "<span class='downloadText'>$description</span>";
     echo "<span id='downloadDetails' style='font-size: 12px; color: white;'>$extradescription</span>";
     echo "</a>";
-    echo "<span class='extraInfoLink clearme' style='padding-left: 100px; margin-bottom: 12px;'><em>MD5: $md5</em></span>";
     sf_money();
 }
 

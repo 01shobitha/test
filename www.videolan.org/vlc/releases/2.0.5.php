@@ -18,7 +18,6 @@
             </a>
         </div>
 
-    <div>
             <center><h1 class='bigtitle'>VLC reaches <b>2.0.5</b></h1>
             <div style="padding-top: 10px;">VLC 2.0.5 "Twoflower" is an important update to our 2.0 media player.</div>
             </center>

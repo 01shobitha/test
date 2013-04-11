@@ -12,7 +12,6 @@
    $macosxversion = "2.0.4";
    $win32version = "2.0.4";
 ?>
-    <div>
             <center><h1 class='bigtitle'>VLC reaches <b>2.0.4</b></h1>
             <div style="padding-top: 10px;">VLC 2.0.4 "Twoflower" is an important update to our 2.0 media player.</div>
             </center>

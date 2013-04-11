@@ -277,7 +277,7 @@ function vlcscreenshot($img,$thumb, $desc){
         </div>
         <div style="float: right; width: 400px;">
         <h3>Mac OS X 10.5 Intel</h3>
-        <a href='<?php echo getDownloadLink("vlc", $macosxversion, "macosx/vlc-$macosxversion-intel64.dmg" ); ?>' >
+        <a href='<?php echo getDownloadLink("vlc", $macosxversion, "macosx/vlc-$macosxversion-intel32.dmg" ); ?>' >
         VLC 2.0.6 for Mac OS X 10.5 (Intel)</a>
         <h3>Mac OS X 10.5 PowerPC</h3>
         <a href='<?php echo getDownloadLink("vlc", $macosxversion, "macosx/vlc-$macosxversion-powerpc.dmg" ); ?>' >

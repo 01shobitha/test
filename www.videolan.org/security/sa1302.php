@@ -37,7 +37,7 @@ from the VLC plugin installation directory. This will prevent ASF movie playback
 <h2>Solution</h2>
 <p>This issue is addressed in VLC media player 2.0.x source code repository by replacing a
 macro with a static inline and improved bounds checking.</p>
-<p>This patch is included in VLC's future 2.0.6 release.</p>
+<p>This patch is included in VLC's 2.0.6 release.</p>
 
 <p>Windows and Mac OS X builds can be found on the VideoLAN nightlies website.</p>
 
@@ -56,7 +56,7 @@ macro with a static inline and improved bounds checking.</p>
 <h2>History</h2>
 
 <dl>
-<dt>xx Jan 2013</dt>
+<dt>11 Apr 2013</dt>
 <dd>VLC media player 2.0.6 release.</dd>
 <dt>17 Jan 2013</dt>
 <dd>Nightly builds version of VLC 2.0.6 released for testing purposes.</dd>

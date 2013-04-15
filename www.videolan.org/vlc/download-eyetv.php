@@ -22,7 +22,7 @@
 
   <h2>Download</h2>
   <?php pkgitem_sf( "VLC Plugin for EyeTV version 1.5",
-               "../files/eyetv","eyetv_vlcplugin_installer-1.5.zip","vlc", "zip archive", "d1b02fb78ee25d91e44e4f9ac8300e73" ); ?>
+               "eyetv","eyetv_vlcplugin_installer-1.5.zip","vlc", "zip archive", "d1b02fb78ee25d91e44e4f9ac8300e73" ); ?>
 
 </div> <!-- div left -->
 

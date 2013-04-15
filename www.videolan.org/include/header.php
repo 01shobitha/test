@@ -260,6 +260,7 @@ function draw_menus( $nobanner, $alternate_lang )
          <li><a href='//www.videolan.org/videolan/team/'><?php echo _("Team"); ?></a></li>
          <li><a href='//www.videolan.org/contact.html'><?php echo _("Contact us"); ?></a></li>
          <li><a href='//www.videolan.org/videolan/partners.html'><?php echo _("Partners"); ?></a></li>
+         <li><a href='//www.videolan.org/videolan/mirrors.html'><?php echo _("Mirrors"); ?></a></li>
          <li><a href='//www.videolan.org/press/'><?php echo _("Press center"); ?></a></li>
          <li><a href='//www.videolan.org/videolan/events/'><?php echo _("Events"); ?></a></li>
          <li><a href='//www.videolan.org/security/'><?php echo _("Security center"); ?></a></li>
@@ -390,6 +391,7 @@ function footer($tag = "", $alternate_lang=array()) {
                  <li><a href='//www.videolan.org/legal.html'><?php echo _("Legal"); ?></a></li>
                  <li><a href='//www.videolan.org/contact.html'><?php echo _("Contact us"); ?></a></li>
                  <li><a href='//www.videolan.org/videolan/partners.html'><?php echo _("Partners"); ?></a></li>
+                 <li><a href='//www.videolan.org/videolan/mirrors.html'><?php echo _("Mirrors"); ?></a></li>
                  <li><a href='//www.videolan.org/press/'><?php echo _("Press center"); ?></a></li>
                  <li><a href='//www.videolan.org/videolan/events/'><?php echo _("Events"); ?></a></li>
                  <li><a href='//www.videolan.org/security/'><?php echo _("Security center"); ?></a></li>

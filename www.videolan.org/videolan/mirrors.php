@@ -97,7 +97,7 @@
         The VideoLAN projects rely on several mirrors distributed<br />
         around the globe in order to provide faster downloads for<br />
         everyone. These servers are kindly operated by sponsors.<br/>
-        To be part of our mirror infrastructure please <a href="mailto:roots[@]videolan[.]org">contact us</a>.
+        To be part of our mirror infrastructure please <a href="mailto:mirrors[@]videolan[.]org">contact us</a>.
     </div>
 
     <div style='clear: both; margin-top: 40px;'>

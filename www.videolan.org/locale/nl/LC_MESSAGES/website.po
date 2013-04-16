@@ -1,22 +1,22 @@
-# Dutch; Flemish translation
-# Copyright (C) 2012 VideoLAN
+# Dutch translation
+# Copyright (C) 2013 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
-# Thomas De Rocker <thomasderocker@hotmail.com>, 2012.
+# Thomas De Rocker <thomasderocker@hotmail.com>, 2012-2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-17 14:56+0200\n"
-"PO-Revision-Date: 2012-08-30 10:07+0000\n"
+"PO-Revision-Date: 2013-04-11 07:38+0000\n"
 "Last-Translator: Thomas De Rocker <thomasderocker@hotmail.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/projects/p/vlc-trans/language/nl/)\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: nl\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: include/header.php:142
 msgid "A project and a"
@@ -27,9 +27,7 @@ msgid "non-profit organization"
 msgstr "non-profit organisatie"
 
 #: include/header.php:143
-msgid ""
-"composed of volunteers, developing and promoting free, open-source "
-"multimedia solutions."
+msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
 msgstr "opgebouwd uit vrijwilligers, die gratis, open source multimedia-oplossingen ontwikkelen en promoten."
 
 #: include/header.php:147
@@ -163,18 +161,16 @@ msgid "Download VLC"
 msgstr "VLC downloaden"
 
 #: include/os-specific.php:91 vlc/index.php:34
+#, fuzzy
 msgid "Other Systems and Versions"
-msgstr "Andere systemen en versies"
+msgstr "Andere systemen"
 
 #: index.php:3
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
 msgstr "VLC: Officiële site - Gratis multimedia-oplossingen voor alle besturingssystemen!"
 
 #: index.php:26 vlc/index.php:20
-msgid ""
-"VLC is a free and open source cross-platform multimedia player and framework"
-" that plays most multimedia files as well as DVD, Audio CD, VCD, and various"
-" streaming protocols."
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
 msgstr "VLC is een gratis en open source cross-platform multimediaspeler en framework. Het speelt de meeste multimedia-bestanden en ook dvd, audio-cd, vcd en verschillende streaming-protocollen af."
 
 #: index.php:36
@@ -186,14 +182,11 @@ msgid "For Everyone"
 msgstr "Voor iedereen"
 
 #: index.php:44
-msgid ""
-"VLC is a powerful media player playing most of the media codecs and video "
-"formats out there."
+msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
 msgstr "VLC is een krachtige mediaspeler die de meeste bestaande mediacodecs en videoformaten afspeelt."
 
 #: index.php:53
-msgid ""
-"VideoLAN Movie Creator is a non-linear editing software for video creation."
+msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
 msgstr "VideoLAN Movie Creator is niet-lineaire bewerkingssoftware voor videocreatie."
 
 #: index.php:60
@@ -201,20 +194,15 @@ msgid "For Professionals"
 msgstr "Voor professionals"
 
 #: index.php:66
-msgid ""
-"DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
+msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
 msgstr "DVBlast is een simpele en krachtige MPEG-2/TS demux- en streaming-toepassing"
 
 #: index.php:74
-msgid ""
-"multicat is a set of tools designed to easily and efficiently manipulate "
-"multicast streams and TS."
+msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
 msgstr "multicat is een verzameling gereedschappen die ontwikkeld zijn om gemakkelijk en efficiënt multicast-streams en TS te manipuleren."
 
 #: index.php:83
-msgid ""
-"x264 is a free application for encoding video streams into the H.264/MPEG-4 "
-"AVC format."
+msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
 msgstr "x264 is een gratis toepassing om videostreams te coderen in het H.264/MPEG-4 AVC-formaat."
 
 #: index.php:91
@@ -230,17 +218,16 @@ msgid "Help us out!"
 msgstr "Help ons!"
 
 #: index.php:107
+#, fuzzy
 msgid "Donate"
-msgstr "Doneren"
+msgstr "doneren"
 
 #: index.php:111
 msgid "VideoLAN is a non-profit organization."
 msgstr " VideoLAN is een non-profit organisatie."
 
 #: index.php:112
-msgid ""
-" All our costs are met by donations we receive from our users. If you enjoy "
-"using a VideoLAN product, please donate to support us."
+msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
 msgstr "Al onze kosten worden gedekt door donaties die we ontvangen van onze gebruikers. Als u plezier heeft in het gebruik van een VideoLAN-product, kunt u doneren om ons te ondersteunen."
 
 #: index.php:114 index.php:126 index.php:137
@@ -252,9 +239,7 @@ msgid "VideoLAN is open-source software."
 msgstr "VideoLAN is opensource-software."
 
 #: index.php:124
-msgid ""
-"This means that if you have the skill and the desire to improve one of our "
-"products, your contributions are welcome"
+msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
 msgstr "Dit betekent dat als u de kwaliteiten en het verlangen heeft om een van onze producten te verbeteren, uw bijdragen welkom zijn."
 
 #: index.php:131
@@ -262,9 +247,7 @@ msgid "Spread the Word"
 msgstr "Vertel het verder"
 
 #: index.php:135
-msgid ""
-"We feel that VideoLAN has the best video software available at the best "
-"price: free. If you agree please help spread the word about our software."
+msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
 msgstr "We vinden dat VideoLAN de beste software beschikbaar heeft voor de beste prijs: gratis. Als u het daarmee akkoord bent, vertel dan verder over onze software."
 
 #: index.php:407
@@ -336,5 +319,6 @@ msgid "source code"
 msgstr "broncode verkrijgen"
 
 #: vlc/index.php:128
+#, fuzzy
 msgid "Other OS"
-msgstr "Andere besturingssystemen"
+msgstr "Andere systemen"

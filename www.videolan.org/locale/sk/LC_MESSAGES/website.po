@@ -1,21 +1,21 @@
 # Slovak translation
-# Copyright (C) 2012 VideoLAN
+# Copyright (C) 2013 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
-#   <mhikanik@users.sourceforge.net>, 2012.
+# Marián Hikaník <mhikanik@users.sourceforge.net>, 2012-2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-17 14:56+0200\n"
-"PO-Revision-Date: 2012-12-01 15:35+0000\n"
+"PO-Revision-Date: 2013-04-13 17:06+0000\n"
 "Last-Translator: mhikanik <mhikanik@users.sourceforge.net>\n"
 "Language-Team: Slovak (http://www.transifex.com/projects/p/vlc-trans/language/sk/)\n"
+"Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sk\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #: include/header.php:142
@@ -27,9 +27,7 @@ msgid "non-profit organization"
 msgstr "nezisková organizácia"
 
 #: include/header.php:143
-msgid ""
-"composed of volunteers, developing and promoting free, open-source "
-"multimedia solutions."
+msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
 msgstr "tvorená dobrovoľníkmi vyvíjajúcimi a propagujúcimi voľne šíriteľné multimediálne riešenia s otvoreným zdrojovým kódom."
 
 #: include/header.php:147
@@ -163,18 +161,16 @@ msgid "Download VLC"
 msgstr "Stiahnuť VLC"
 
 #: include/os-specific.php:91 vlc/index.php:34
+#, fuzzy
 msgid "Other Systems and Versions"
-msgstr "Iné operačné systémy a verzie"
+msgstr "Iné systémy"
 
 #: index.php:3
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
 msgstr "VLC: Oficiálna stránka – voľne šíriteľné multimediálne riešenia pre všetky operačné systémy!"
 
 #: index.php:26 vlc/index.php:20
-msgid ""
-"VLC is a free and open source cross-platform multimedia player and framework"
-" that plays most multimedia files as well as DVD, Audio CD, VCD, and various"
-" streaming protocols."
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
 msgstr "Program VLC je voľne šíriteľným, multi-platformovým multimediálnym prehrávačom s otvoreným zdrojovým kódom. Súčasne ide o ucelené prostredie na prehrávanie väčšiny multimediálnych súborov, ako aj diskov DVD, Audio CD, VCD a umožňuje aj prácu s rôznymi protokolmi na vysielanie dátových tokov (streamovanie)."
 
 #: index.php:36
@@ -186,14 +182,11 @@ msgid "For Everyone"
 msgstr "Pre každého"
 
 #: index.php:44
-msgid ""
-"VLC is a powerful media player playing most of the media codecs and video "
-"formats out there."
+msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
 msgstr "VLC je výkonným prehrávačom médií, ktorý dokáže prehrávať väčšinu kodekov a formátov videa."
 
 #: index.php:53
-msgid ""
-"VideoLAN Movie Creator is a non-linear editing software for video creation."
+msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
 msgstr "VideoLAN Movie Creator je nelineárny editačný softvér na tvorbu videa."
 
 #: index.php:60
@@ -201,20 +194,15 @@ msgid "For Professionals"
 msgstr "Pre profesionálov"
 
 #: index.php:66
-msgid ""
-"DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
+msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
 msgstr "DVBlast je jednoduchý a výkonný program na demuxovanie MPEG-2/TS a vysielanie súvislého toku dát (streamovanie)."
 
 #: index.php:74
-msgid ""
-"multicat is a set of tools designed to easily and efficiently manipulate "
-"multicast streams and TS."
+msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
 msgstr "multicat je súprava nástrojov určených na ľahké a efektívne manipulovanie s dátovými tokmi multicast a TS."
 
 #: index.php:83
-msgid ""
-"x264 is a free application for encoding video streams into the H.264/MPEG-4 "
-"AVC format."
+msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
 msgstr "x264 je voľne šíriteľný program na kódovanie dátových tokov s videom do formátu H.264/MPEG-4 AVC"
 
 #: index.php:91
@@ -230,17 +218,16 @@ msgid "Help us out!"
 msgstr "Pomôžte nám!"
 
 #: index.php:107
+#, fuzzy
 msgid "Donate"
-msgstr "Darovanie"
+msgstr "darovať"
 
 #: index.php:111
 msgid "VideoLAN is a non-profit organization."
 msgstr "VideoLAN je neziskovou organizáciou."
 
 #: index.php:112
-msgid ""
-" All our costs are met by donations we receive from our users. If you enjoy "
-"using a VideoLAN product, please donate to support us."
+msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
 msgstr " Všetky naše náklady sú hradené z darov, ktoré dostaneme od používateľov našich programov. Ak radi používate niektorý produkt od tímu VideoLAN a páči sa Vám, prosím prispejte a podporte nás."
 
 #: index.php:114 index.php:126 index.php:137
@@ -252,9 +239,7 @@ msgid "VideoLAN is open-source software."
 msgstr "VideoLAN je softvér s otvoreným zdrojovým kódom."
 
 #: index.php:124
-msgid ""
-"This means that if you have the skill and the desire to improve one of our "
-"products, your contributions are welcome"
+msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
 msgstr "To znamená, že ak máte potrebné znalosti a chcete vylepšiť niektorý z našich produktov, Vaša pomoc je vítaná."
 
 #: index.php:131
@@ -262,9 +247,7 @@ msgid "Spread the Word"
 msgstr "Šírte informácie"
 
 #: index.php:135
-msgid ""
-"We feel that VideoLAN has the best video software available at the best "
-"price: free. If you agree please help spread the word about our software."
+msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
 msgstr "Máme pocit, že tím VideoLAN vytvoril ten najlepší softvér na prácu s videom, ktorý je dostupný za tú najlepšiu cenu: zadarmo. Ak s tým súhlasíte, prosím pomôžte nám šíriť informácie o našom softvéri."
 
 #: index.php:407
@@ -336,5 +319,6 @@ msgid "source code"
 msgstr "zdrojový kód programu"
 
 #: vlc/index.php:128
+#, fuzzy
 msgid "Other OS"
-msgstr "Iné operačné systémy"
+msgstr "Iné systémy"

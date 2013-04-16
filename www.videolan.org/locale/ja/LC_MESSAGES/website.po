@@ -1,22 +1,21 @@
 # Japanese translation
-# Copyright (C) 2012 VideoLAN
+# Copyright (C) 2013 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
-#   <fumio.n6a@gmail.com>, 2012.
-# Fumio Nakayama <fumio.n6a@gmail.com>, 2012.
+# Fumio Nakayama <fumio.n6a@gmail.com>, 2012-2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-17 14:56+0200\n"
-"PO-Revision-Date: 2012-09-22 06:37+0000\n"
+"PO-Revision-Date: 2013-04-14 13:54+0000\n"
 "Last-Translator: Fumio Nakayama <fumio.n6a@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/vlc-trans/language/ja/)\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: include/header.php:142
@@ -28,9 +27,7 @@ msgid "non-profit organization"
 msgstr "非営利の組織は"
 
 #: include/header.php:143
-msgid ""
-"composed of volunteers, developing and promoting free, open-source "
-"multimedia solutions."
+msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
 msgstr "ボランティアにより構成され、オープンソースのマルチメディアソリューションの開発とプロモーションを行っています。"
 
 #: include/header.php:147
@@ -164,18 +161,16 @@ msgid "Download VLC"
 msgstr "VLCのダウンロード"
 
 #: include/os-specific.php:91 vlc/index.php:34
+#, fuzzy
 msgid "Other Systems and Versions"
-msgstr "他のシステム、バージョン"
+msgstr "その他のシステム"
 
 #: index.php:3
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
 msgstr "VLC: オフィシャルサイト - すべてのOSにフリーなマルチメディアソリューションを!"
 
 #: index.php:26 vlc/index.php:20
-msgid ""
-"VLC is a free and open source cross-platform multimedia player and framework"
-" that plays most multimedia files as well as DVD, Audio CD, VCD, and various"
-" streaming protocols."
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
 msgstr "VLCはフリーなマルチプラットフォーム対応のマルチメディアプレイヤーであり、DVD、オーディオCD、VCDや様々なストリーミングプロトコルを再生可能なフレームワークです。"
 
 #: index.php:36
@@ -187,14 +182,11 @@ msgid "For Everyone"
 msgstr "すべての方へ"
 
 #: index.php:44
-msgid ""
-"VLC is a powerful media player playing most of the media codecs and video "
-"formats out there."
+msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
 msgstr "VLCはほとんどのメディアコーデックとビデオフォーマットに対応したパワフルなメディアプレイヤーです。"
 
 #: index.php:53
-msgid ""
-"VideoLAN Movie Creator is a non-linear editing software for video creation."
+msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
 msgstr "VideoLANムービークリエーターはビデオ作成用のノンリニア編集ソフトウェアです。"
 
 #: index.php:60
@@ -202,20 +194,15 @@ msgid "For Professionals"
 msgstr "プロフェッショナルな方へ"
 
 #: index.php:66
-msgid ""
-"DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
+msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
 msgstr "DVBlastはシンプルでパワフルなMPEG-2/TSのデマルチプレクスとストリーミングアプリケーションです。"
 
 #: index.php:74
-msgid ""
-"multicat is a set of tools designed to easily and efficiently manipulate "
-"multicast streams and TS."
+msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
 msgstr "multicatは簡単かつ効果的にマルチキャストストリームとTSを操作するためにデザインされたツールセットです。"
 
 #: index.php:83
-msgid ""
-"x264 is a free application for encoding video streams into the H.264/MPEG-4 "
-"AVC format."
+msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
 msgstr "x264はH.264/MPEG-4 AVCフォーマットにビデオストリームをエンコーディングするためのフリーなアプリケーションです。"
 
 #: index.php:91
@@ -231,6 +218,7 @@ msgid "Help us out!"
 msgstr "ご支援のお願い"
 
 #: index.php:107
+#, fuzzy
 msgid "Donate"
 msgstr "寄付"
 
@@ -239,9 +227,7 @@ msgid "VideoLAN is a non-profit organization."
 msgstr "VideoLANは非営利の組織で運営されています。"
 
 #: index.php:112
-msgid ""
-" All our costs are met by donations we receive from our users. If you enjoy "
-"using a VideoLAN product, please donate to support us."
+msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
 msgstr "ユーザーの皆様からの寄付ですべての運営を賄っています。VideoLANのソフトウェアを利用しておられるのであれば、私たちをサポートするために寄付をお願いします。"
 
 #: index.php:114 index.php:126 index.php:137
@@ -253,9 +239,7 @@ msgid "VideoLAN is open-source software."
 msgstr "VideoLANはオープンソースソフトウェアです。"
 
 #: index.php:124
-msgid ""
-"This means that if you have the skill and the desire to improve one of our "
-"products, your contributions are welcome"
+msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
 msgstr "あなたが私たちのソフトウェアを改善したいと思い、スキルを持っておられるのであれば、ぜひご協力をお願いします。"
 
 #: index.php:131
@@ -263,9 +247,7 @@ msgid "Spread the Word"
 msgstr "口コミ"
 
 #: index.php:135
-msgid ""
-"We feel that VideoLAN has the best video software available at the best "
-"price: free. If you agree please help spread the word about our software."
+msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
 msgstr "私たちはVideoLANが最も優れた価格: フリーで入手可能な最高のビデオソフトウェアだと思っています。この考えに同意頂けるのであれば、ぜひ私たちのソフトウェアを口コミで拡げてください。"
 
 #: index.php:407
@@ -337,5 +319,6 @@ msgid "source code"
 msgstr "ソースコード"
 
 #: vlc/index.php:128
+#, fuzzy
 msgid "Other OS"
-msgstr "その他のOS"
+msgstr "その他のシステム"

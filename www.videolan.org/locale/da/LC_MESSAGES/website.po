@@ -1,7 +1,7 @@
 # Danish translation
 # Copyright (C) 2013 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Aputsiaĸ Niels Janussen <aj@isit.gl>, 2013.
 msgid ""
@@ -9,13 +9,13 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-12-15 12:40+0100\n"
-"PO-Revision-Date: 2013-03-09 15:20+0000\n"
+"PO-Revision-Date: 2013-04-07 23:44+0000\n"
 "Last-Translator: Aputsiaĸ Niels Janussen <aj@isit.gl>\n"
 "Language-Team: Danish (http://www.transifex.com/projects/p/vlc-trans/language/da/)\n"
+"Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: da\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: include/header.php:152
@@ -27,9 +27,7 @@ msgid "non-profit organization"
 msgstr "velgørende organisation"
 
 #: include/header.php:153
-msgid ""
-"composed of volunteers, developing and promoting free, open-source "
-"multimedia solutions."
+msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
 msgstr "bestående af frivillige, der udvikler og reklamerer for frie, open source multimedie-løsninger."
 
 #: include/header.php:157
@@ -163,18 +161,16 @@ msgid "Download VLC"
 msgstr "Hent VLC"
 
 #: include/os-specific.php:91 vlc/index.php:39
+#, fuzzy
 msgid "Other Systems and Versions"
-msgstr "Andre systemer og versioner"
+msgstr "Andre systemer"
 
 #: index.php:3
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
 msgstr "VLC: Officielt sted - Frie multimedie-løsninger til alle OS'er!"
 
 #: index.php:31 vlc/index.php:25
-msgid ""
-"VLC is a free and open source cross-platform multimedia player and framework"
-" that plays most multimedia files as well as DVD, Audio CD, VCD, and various"
-" streaming protocols."
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
 msgstr "VLC er en fri og open source multimedie-afspiller til alle platforme, samt et rammeværktøj som afspiller de fleste multimedia-filer, såvel som dvd, lyd-cd, vcd og forskellige strøm-protokoller."
 
 #: index.php:41
@@ -186,14 +182,11 @@ msgid "For Everyone"
 msgstr "For alle"
 
 #: index.php:49
-msgid ""
-"VLC is a powerful media player playing most of the media codecs and video "
-"formats out there."
+msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
 msgstr "VLC er en stærk medieafspiller, der afspiller de fleste mediekodninger og videoformater, som findes derude."
 
 #: index.php:58
-msgid ""
-"VideoLAN Movie Creator is a non-linear editing software for video creation."
+msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
 msgstr "Filmskaberen, VideoLAN Movie Creator er et ikke-lineært redigeringspogram til at skabe videoer med."
 
 #: index.php:65
@@ -201,20 +194,15 @@ msgid "For Professionals"
 msgstr "For professionelle"
 
 #: index.php:71
-msgid ""
-"DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
+msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
 msgstr "DVBlast er en simpel og effektiv MPEG-2/TS-demultiplekser og strømme-program."
 
 #: index.php:79
-msgid ""
-"multicat is a set of tools designed to easily and efficiently manipulate "
-"multicast streams and TS."
+msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
 msgstr "multicat er et sæt af værktøjer, designet til nem og effektiv manipulering af multicast-strømme og TS."
 
 #: index.php:88
-msgid ""
-"x264 is a free application for encoding video streams into the H.264/MPEG-4 "
-"AVC format."
+msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
 msgstr "x264 er et frit program, der indkoder videostrømme til formatet H.264/MPEG-4 AVC."
 
 #: index.php:96
@@ -230,17 +218,16 @@ msgid "Help us out!"
 msgstr "Hjælp os!"
 
 #: index.php:112
+#, fuzzy
 msgid "Donate"
-msgstr "Donér"
+msgstr "donér"
 
 #: index.php:116
 msgid "VideoLAN is a non-profit organization."
 msgstr "VideoLAN er en velgørende organisation"
 
 #: index.php:117
-msgid ""
-" All our costs are met by donations we receive from our users. If you enjoy "
-"using a VideoLAN product, please donate to support us."
+msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
 msgstr "Alle vores udgifter dækkes gennem donationer, som vi modtgaer fra vores brugere. Hvis du føler glæde gennem brugen af et produkt fra VideoLAN, så donér venligst til os."
 
 #: index.php:119 index.php:131 index.php:142
@@ -252,9 +239,7 @@ msgid "VideoLAN is open-source software."
 msgstr "VideoLAN er open source-software"
 
 #: index.php:129
-msgid ""
-"This means that if you have the skill and the desire to improve one of our "
-"products, your contributions are welcome"
+msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
 msgstr "Dette betyder at du, hvis du har evnen og ønsket om at forbedre ét af vores produkter, kan yde et kærkomment bidrag."
 
 #: index.php:136
@@ -262,9 +247,7 @@ msgid "Spread the Word"
 msgstr "Spred budskabet"
 
 #: index.php:140
-msgid ""
-"We feel that VideoLAN has the best video software available at the best "
-"price: free. If you agree please help spread the word about our software."
+msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
 msgstr "Vi synes at VideoLAN er den bedste video-software, der er tilgængelig til den bedste pris: fri og gratis. Hvis du er enig, så hjælp os ved at sprede budskabet om vores software."
 
 #: index.php:412
@@ -336,5 +319,6 @@ msgid "source code"
 msgstr "kildekode"
 
 #: vlc/index.php:133
+#, fuzzy
 msgid "Other OS"
-msgstr "Andre operativsystemer"
+msgstr "Andre systemer"

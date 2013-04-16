@@ -1,7 +1,7 @@
 # Serbian translation
 # Copyright (C) 2013 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Đorđe Vasiljević <theranchcowboy@gmail.com>, 2013.
 msgid ""
@@ -9,13 +9,13 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-12-15 12:40+0100\n"
-"PO-Revision-Date: 2013-02-16 02:16+0000\n"
+"PO-Revision-Date: 2013-04-16 16:12+0000\n"
 "Last-Translator: Rancher <theranchcowboy@gmail.com>\n"
 "Language-Team: Serbian (http://www.transifex.com/projects/p/vlc-trans/language/sr/)\n"
+"Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sr\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: include/header.php:152
@@ -27,9 +27,7 @@ msgid "non-profit organization"
 msgstr "непрофитна организација"
 
 #: include/header.php:153
-msgid ""
-"composed of volunteers, developing and promoting free, open-source "
-"multimedia solutions."
+msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
 msgstr "састављена од добровољаца који развијају и промовишу слободна мултимедијална решења отвореног кода."
 
 #: include/header.php:157
@@ -163,18 +161,16 @@ msgid "Download VLC"
 msgstr "Преузми VLC"
 
 #: include/os-specific.php:91 vlc/index.php:39
+#, fuzzy
 msgid "Other Systems and Versions"
-msgstr "Други системи и верзије"
+msgstr "Други системи"
 
 #: index.php:3
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
 msgstr "Званичан сајт VLC-а — слободна решења за све оперативне системе!"
 
 #: index.php:31 vlc/index.php:25
-msgid ""
-"VLC is a free and open source cross-platform multimedia player and framework"
-" that plays most multimedia files as well as DVD, Audio CD, VCD, and various"
-" streaming protocols."
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
 msgstr "VLC је слободно развојно окружење и мултимедијални плејер отвореног кода који пушта већину медијских датотека, као и аудио и видео дискове и разне протоколе за емитовање токова аудио и видео садржаја."
 
 #: index.php:41
@@ -186,14 +182,11 @@ msgid "For Everyone"
 msgstr "За све"
 
 #: index.php:49
-msgid ""
-"VLC is a powerful media player playing most of the media codecs and video "
-"formats out there."
+msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
 msgstr "VLC је моћан медијски плејер који подржава већину медијских кодека и видео-формата."
 
 #: index.php:58
-msgid ""
-"VideoLAN Movie Creator is a non-linear editing software for video creation."
+msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
 msgstr "VideoLAN Movie Creator је нелинеарни софтвер за стварање и уређивање видео-снимака."
 
 #: index.php:65
@@ -201,20 +194,15 @@ msgid "For Professionals"
 msgstr "За професионалце"
 
 #: index.php:71
-msgid ""
-"DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
+msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
 msgstr "DVBlast је једноставан и моћан програм за MPEG-2/TS демултиплексирање и пуштање токова."
 
 #: index.php:79
-msgid ""
-"multicat is a set of tools designed to easily and efficiently manipulate "
-"multicast streams and TS."
+msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
 msgstr "multicat је скуп алатки за лакше и ефикасније управљање токовима са усмеравањем на више адреса и TS-ом."
 
 #: index.php:88
-msgid ""
-"x264 is a free application for encoding video streams into the H.264/MPEG-4 "
-"AVC format."
+msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
 msgstr "x264 је бесплатан програм за кодирање видео-токова у H.264/MPEG-4 AVC формат."
 
 #: index.php:96
@@ -230,17 +218,16 @@ msgid "Help us out!"
 msgstr "Помозите нам!"
 
 #: index.php:112
+#, fuzzy
 msgid "Donate"
-msgstr "Прилози"
+msgstr "приложи"
 
 #: index.php:116
 msgid "VideoLAN is a non-profit organization."
 msgstr "VideoLAN је непрофитна организација."
 
 #: index.php:117
-msgid ""
-" All our costs are met by donations we receive from our users. If you enjoy "
-"using a VideoLAN product, please donate to support us."
+msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
 msgstr "Све наше трошкове покривају прилози које добијамо од корисника. Ако вам се свиђа производ VideoLAN-а, подржите нас новчаним прилогом."
 
 #: index.php:119 index.php:131 index.php:142
@@ -252,9 +239,7 @@ msgid "VideoLAN is open-source software."
 msgstr "VideoLAN је софтвер отвореног кода."
 
 #: index.php:129
-msgid ""
-"This means that if you have the skill and the desire to improve one of our "
-"products, your contributions are welcome"
+msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
 msgstr "То значи да, ако имате жељу и знање да побољшате један од наших производа, можете то учинити"
 
 #: index.php:136
@@ -262,9 +247,7 @@ msgid "Spread the Word"
 msgstr "Ширите вест"
 
 #: index.php:140
-msgid ""
-"We feel that VideoLAN has the best video software available at the best "
-"price: free. If you agree please help spread the word about our software."
+msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
 msgstr "Мислимо да VideoLAN поседује најбољи видео-софтвер на тржишту по најповољнијој цени — бесплатно. Ако се слажете с овом тврдњом, ширите вест о нашем програму."
 
 #: index.php:412
@@ -336,5 +319,9 @@ msgid "source code"
 msgstr "изворни кôд"
 
 #: vlc/index.php:133
+#, fuzzy
 msgid "Other OS"
-msgstr "Други ОС"
+msgstr "Други системи"
+
+#~ msgid "Mirrors"
+#~ msgstr "Пресликани сервери"

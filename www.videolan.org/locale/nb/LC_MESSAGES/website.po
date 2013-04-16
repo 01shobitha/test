@@ -1,22 +1,22 @@
-#  translation
-# Copyright (C) 2012 VideoLAN
+# Norwegian Bokmål translation
+# Copyright (C) 2013 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
-# Stian Jørgensrud <stianahj@gmail.com>, 2012.
+# Stian Jørgensrud <stianahj@gmail.com>, 2012-2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-07-31 17:43+0200\n"
-"PO-Revision-Date: 2012-08-16 13:25+0000\n"
+"PO-Revision-Date: 2013-04-15 15:43+0000\n"
 "Last-Translator: Stian Jørgensrud <stianahj@gmail.com>\n"
 "Language-Team: Norwegian Bokmål (Norway) (http://www.transifex.com/projects/p/vlc-trans/language/nb_NO/)\n"
+"Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: nb_NO\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: include/header.php:139
 msgid "A project and a"
@@ -27,9 +27,7 @@ msgid "non-profit organization"
 msgstr "ideell (nonprofitt) organisasjon"
 
 #: include/header.php:140
-msgid ""
-"composed of volunteers, developing and promoting free, open-source "
-"multimedia solutions."
+msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
 msgstr "bestående av frivillige, utviklings- og reklamefri, åpen-kildekode multimedialøsninger."
 
 #: include/header.php:144
@@ -163,18 +161,16 @@ msgid "Download VLC"
 msgstr "Last ned VLC"
 
 #: include/os-specific.php:91 vlc/index.php:34
+#, fuzzy
 msgid "Other Systems and Versions"
-msgstr "Andre systemer og versjoner"
+msgstr "Andre OS"
 
 #: index.php:3
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
 msgstr "VLC: Offisiell side - Gratis multimedialøsninger for alle OS!"
 
 #: index.php:26 vlc/index.php:20
-msgid ""
-"VLC is a free and open source cross-platform multimedia player and framework"
-" that plays most multimedia files as well as DVD, Audio CD, VCD, and various"
-" streaming protocols."
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
 msgstr "VLC er en gratis og åpen-kildekode plattform multimediaspiller og et rammeverk som er kompatibel med de fleste multimediafiler, samt DVD, Audio CD, VCD og forskjellige strømnings-protokoller."
 
 #: index.php:36
@@ -186,14 +182,11 @@ msgid "For Everyone"
 msgstr "For alle"
 
 #: index.php:44
-msgid ""
-"VLC is a powerful media player playing most of the media codecs and video "
-"formats out there."
+msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
 msgstr "VLC er en kraftig mediespiller som spiller av det meste av media- og videoformater der ute."
 
 #: index.php:53
-msgid ""
-"VideoLAN Movie Creator is a non-linear editing software for video creation."
+msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
 msgstr "VideoLan Movie Creator er et ikke-lineært redigeringsprogram for video."
 
 #: index.php:60
@@ -201,20 +194,15 @@ msgid "For Professionals"
 msgstr "For profesjonelle"
 
 #: index.php:66
-msgid ""
-"DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
+msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
 msgstr "DVBlast er en enkel og kraftig MPEG-2/TS DEMUX og strømnings-applikasjon."
 
 #: index.php:74
-msgid ""
-"multicat is a set of tools designed to easily and efficiently manipulate "
-"multicast streams and TS."
+msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
 msgstr "multicat er et sett av verktøy laget for enkelt og effektivt å manipulere multicast-strømmer og TS"
 
 #: index.php:83
-msgid ""
-"x264 is a free application for encoding video streams into the H.264/MPEG-4 "
-"AVC format."
+msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
 msgstr "x264 er en gratis applikasjon for koding av videostrømmer til H.264/MPEG-4 AVC formatet."
 
 #: index.php:91
@@ -230,17 +218,16 @@ msgid "Help us out!"
 msgstr "Hjelp oss!"
 
 #: index.php:107
+#, fuzzy
 msgid "Donate"
-msgstr "Donér"
+msgstr "donere"
 
 #: index.php:111
 msgid "VideoLAN is a non-profit organization."
 msgstr "VideoLan er en ideell (nonprofitt) organisasjon."
 
 #: index.php:112
-msgid ""
-" All our costs are met by donations we receive from our users. If you enjoy "
-"using a VideoLAN product, please donate to support us."
+msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
 msgstr "Alle våre kostnader dekkes av donasjoner vi får fra våre brukere. Hvis du liker å bruke VideoLAN produkter, vennligst vurder å donere for å støtte oss"
 
 #: index.php:114 index.php:126 index.php:137
@@ -252,9 +239,7 @@ msgid "VideoLAN is open-source software."
 msgstr "VideoLAN er åpen-kildekode programvare."
 
 #: index.php:124
-msgid ""
-"This means that if you have the skill and the desire to improve one of our "
-"products, your contributions are welcome"
+msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
 msgstr "Dette betyr at hvis du har ferdighetene og et ønske om å forbedre et av våre produkter, er ditt bidrag velkommen"
 
 #: index.php:131
@@ -262,9 +247,7 @@ msgid "Spread the Word"
 msgstr "Spre budskapet"
 
 #: index.php:135
-msgid ""
-"We feel that VideoLAN has the best video software available at the best "
-"price: free. If you agree please help spread the word about our software."
+msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
 msgstr "Vi føler at VideoLAN har den beste programvaren inne film tilgjengelig til den beste prisen: gratis. Hvis du er enig, så spre budskapet om vår programvare."
 
 #: index.php:407
@@ -281,7 +264,7 @@ msgstr "Sosiale medier"
 
 #: vlc/index.php:3
 msgid "Official page for VLC media player, the Open Source video framework!"
-msgstr "Offisiell side for VLC media player, det åpne-kildekode rammerverket!"
+msgstr "Offisiell side for VLC media player, den åpne kildekode videorammerverket!"
 
 #: vlc/index.php:40
 msgid "Simple, fast and powerful media player."
@@ -336,5 +319,6 @@ msgid "source code"
 msgstr "kildekoden"
 
 #: vlc/index.php:128
+#, fuzzy
 msgid "Other OS"
 msgstr "Andre OS"

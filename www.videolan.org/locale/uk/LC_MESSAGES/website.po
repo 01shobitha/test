@@ -1,7 +1,7 @@
 # Ukrainian translation
 # Copyright (C) 2013 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Андрій Бандура <andriykopanytsia@gmail.com>, 2013.
 msgid ""
@@ -9,13 +9,13 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-12-15 12:40+0100\n"
-"PO-Revision-Date: 2013-03-22 21:38+0000\n"
+"PO-Revision-Date: 2013-04-10 15:16+0000\n"
 "Last-Translator: Андрій Бандура <andriykopanytsia@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/projects/p/vlc-trans/language/uk/)\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: uk\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: include/header.php:152
@@ -27,9 +27,7 @@ msgid "non-profit organization"
 msgstr "неприбуткова організація"
 
 #: include/header.php:153
-msgid ""
-"composed of volunteers, developing and promoting free, open-source "
-"multimedia solutions."
+msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
 msgstr "створені добровольцями, які розробляють і розповсюджують вільні, з відкритим вихідним кодом мультимедійні рішення."
 
 #: include/header.php:157
@@ -163,18 +161,16 @@ msgid "Download VLC"
 msgstr "Завантажити VLC"
 
 #: include/os-specific.php:91 vlc/index.php:39
+#, fuzzy
 msgid "Other Systems and Versions"
-msgstr "Інші системи та версії"
+msgstr "Інші Системи"
 
 #: index.php:3
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
 msgstr "VLC: Офіційний сайт - безкоштовні мультимедійні рішення для всіх ОС!"
 
 #: index.php:31 vlc/index.php:25
-msgid ""
-"VLC is a free and open source cross-platform multimedia player and framework"
-" that plays most multimedia files as well as DVD, Audio CD, VCD, and various"
-" streaming protocols."
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
 msgstr "VLC є безкоштовним з відкритим  вихідним кодом  багатоплатформним мультимедійним програвачем та середовищем, яке відтворює більшість мультимедійних файлів, а також DVD, аудіо CD, VCD та різноманітні потокові протоколи."
 
 #: index.php:41
@@ -186,14 +182,11 @@ msgid "For Everyone"
 msgstr "Для кожного"
 
 #: index.php:49
-msgid ""
-"VLC is a powerful media player playing most of the media codecs and video "
-"formats out there."
+msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
 msgstr "VLC - це потужний медіапрогравач, який відтворює більшість існуючих медіа-кодеків та форматів відео."
 
 #: index.php:58
-msgid ""
-"VideoLAN Movie Creator is a non-linear editing software for video creation."
+msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
 msgstr "VideoLAN Movie Creator - це нелінійний редактор для створення відео."
 
 #: index.php:65
@@ -201,20 +194,15 @@ msgid "For Professionals"
 msgstr "Для професіоналів"
 
 #: index.php:71
-msgid ""
-"DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
+msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
 msgstr "DVBlast - це простий і потужний MPEG-2/TS демультиплексор і потокова програма."
 
 #: index.php:79
-msgid ""
-"multicat is a set of tools designed to easily and efficiently manipulate "
-"multicast streams and TS."
+msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
 msgstr "multicat - це набір інструментів, призначених для легкого і ефективного управління багатоадресними і транспортними потоками."
 
 #: index.php:88
-msgid ""
-"x264 is a free application for encoding video streams into the H.264/MPEG-4 "
-"AVC format."
+msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
 msgstr "x264 - це безкоштовна програма для кодування відеопотоків у форматі H.264/MPEG-4 AVC."
 
 #: index.php:96
@@ -230,17 +218,16 @@ msgid "Help us out!"
 msgstr "Допоможіть нам!"
 
 #: index.php:112
+#, fuzzy
 msgid "Donate"
-msgstr "Пожертва"
+msgstr "пожертва"
 
 #: index.php:116
 msgid "VideoLAN is a non-profit organization."
 msgstr "VideoLAN - це неприбуткова організація."
 
 #: index.php:117
-msgid ""
-" All our costs are met by donations we receive from our users. If you enjoy "
-"using a VideoLAN product, please donate to support us."
+msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
 msgstr "Всі наші витрати покриваються за рахунок пожертвувань, які ми отримуємо від наших користувачів. Якщо вам подобається користуватися програмою від VideoLAN, будь ласка, пожертвуйте, щоб підтримати нас."
 
 #: index.php:119 index.php:131 index.php:142
@@ -252,9 +239,7 @@ msgid "VideoLAN is open-source software."
 msgstr "VideoLAN - це відкрите програмне забезпечення."
 
 #: index.php:129
-msgid ""
-"This means that if you have the skill and the desire to improve one of our "
-"products, your contributions are welcome"
+msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
 msgstr "Це означає, що якщо у вас є навички і бажання поліпшити один з наших продуктів, то ваш внесок вітається"
 
 #: index.php:136
@@ -262,9 +247,7 @@ msgid "Spread the Word"
 msgstr "Розкажіть про нас"
 
 #: index.php:140
-msgid ""
-"We feel that VideoLAN has the best video software available at the best "
-"price: free. If you agree please help spread the word about our software."
+msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
 msgstr "Ми вважаємо, що VideoLAN має найкраще програмне забезпечення для відео, доступне за найкращою ціною: безкоштовне. Якщо ви згідні з нами, то допоможіть поширити інформацію про наше програмне забезпечення."
 
 #: index.php:412
@@ -336,5 +319,6 @@ msgid "source code"
 msgstr "джерельний код"
 
 #: vlc/index.php:133
+#, fuzzy
 msgid "Other OS"
-msgstr "Інші ОС"
+msgstr "Інші Системи"

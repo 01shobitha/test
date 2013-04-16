@@ -1,7 +1,7 @@
 # Catalan translation
 # Copyright (C) 2013 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 #   <joan@montane.cat>, 2013.
 # marti reig <marti.reig@gmail.com>, 2013.
@@ -12,13 +12,13 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-12-15 12:40+0100\n"
-"PO-Revision-Date: 2013-04-02 07:42+0000\n"
-"Last-Translator: naxei <xenia.alba@gmail.com>\n"
+"PO-Revision-Date: 2013-04-08 16:32+0000\n"
+"Last-Translator: martirj <marti.reig@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/projects/p/vlc-trans/language/ca/)\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: include/header.php:152
@@ -30,9 +30,7 @@ msgid "non-profit organization"
 msgstr "organització sense ànim de lucre"
 
 #: include/header.php:153
-msgid ""
-"composed of volunteers, developing and promoting free, open-source "
-"multimedia solutions."
+msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
 msgstr "formada per voluntaris, desenvolupant i promovent solucions multmèdia gratuïtes, de codi obert."
 
 #: include/header.php:157
@@ -95,7 +93,7 @@ msgstr "Funcionalitats"
 #: include/header.php:226 include/header.php:322 index.php:34 vlc/index.php:28
 #: vlc/index.php:70
 msgid "Screenshots"
-msgstr "Captures de pantalles"
+msgstr "Captures de pantalla"
 
 #: include/header.php:227 include/header.php:319 index.php:35 vlc/index.php:29
 msgid "Skins"
@@ -131,11 +129,11 @@ msgstr "Obteniu regals"
 
 #: include/header.php:261
 msgid "Support"
-msgstr "Suport"
+msgstr "Assistència"
 
 #: include/header.php:263
 msgid "Support center"
-msgstr "Centre de suport"
+msgstr "Centre d'assistència"
 
 #: include/header.php:265 include/header.php:359 include/header.php:372
 msgid "Legal"
@@ -166,19 +164,17 @@ msgid "Download VLC"
 msgstr "Baixa el VLC"
 
 #: include/os-specific.php:91 vlc/index.php:39
+#, fuzzy
 msgid "Other Systems and Versions"
-msgstr "Altres sistemes i versions"
+msgstr "Altres sistemes"
 
 #: index.php:3
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
-msgstr "VLC: lloc oficial - Solucions multimèdia gratuïtes i lliures per a tots els SO!"
+msgstr "VLC: lloc web oficial - Solucions multimèdia gratuïtes i lliures per a tots els SO!"
 
 #: index.php:31 vlc/index.php:25
-msgid ""
-"VLC is a free and open source cross-platform multimedia player and framework"
-" that plays most multimedia files as well as DVD, Audio CD, VCD, and various"
-" streaming protocols."
-msgstr "VLC és un reproductor multimèdia multi-plataforma, lliure, i de codi font obert. Reprodueix la majoria de fitxers multimèdia així com DVD, Àudio CD, VCD, i diversos protocols de transmissió de dades."
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
+msgstr "VLC és un reproductor multimèdia multi-plataforma, gratuït i de codi font obert. Reprodueix la majoria de fitxers multimèdia així com DVD, àudio CD, VCD, i protocols diversos de transmissió de dades."
 
 #: index.php:41
 msgid "Other projects from VideoLAN"
@@ -189,36 +185,28 @@ msgid "For Everyone"
 msgstr "Per a tothom"
 
 #: index.php:49
-msgid ""
-"VLC is a powerful media player playing most of the media codecs and video "
-"formats out there."
+msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
 msgstr "VLC és un potent reproductor multimèdia que reprodueix la majoria de còdecs multimèdia i formats de vídeo que existeixen."
 
 #: index.php:58
-msgid ""
-"VideoLAN Movie Creator is a non-linear editing software for video creation."
-msgstr "VideoLan Movie Creator és un software per a la creació  i edició no-lineal de vídeo."
+msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
+msgstr "VideoLan Movie Creator és un programa per a la creació  i edició no-lineal de vídeo."
 
 #: index.php:65
 msgid "For Professionals"
 msgstr "Per a professionals"
 
 #: index.php:71
-msgid ""
-"DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
-msgstr "DVBlast és una simple i potent aplicació per a flux de dades i desmultiplezar MPEG-2/TS."
+msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
+msgstr "DVBlast és una aplicació simple i potent per a flux de dades i descodificar MPEG-2/TS."
 
 #: index.php:79
-msgid ""
-"multicat is a set of tools designed to easily and efficiently manipulate "
-"multicast streams and TS."
-msgstr "multicat és un conjunt d'èines dissenyades per manipular fàcilment i eficiencment seqüencies de multidifusió i TS."
+msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
+msgstr "multicat és un conjunt d'eines dissenyades per manipular fàcilment i eficientment seqüencies de multidifusió i TS."
 
 #: index.php:88
-msgid ""
-"x264 is a free application for encoding video streams into the H.264/MPEG-4 "
-"AVC format."
-msgstr "x264 és una aplicació lliure per a la codificació de seqüència de vídeo en format H.264/MPEG-4 AVC."
+msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
+msgstr "x264 és una aplicació lliure per a la codificació de seqüències de vídeo en format H.264/MPEG-4 AVC."
 
 #: index.php:96
 msgid "For Developers"
@@ -230,20 +218,19 @@ msgstr "Mostra tots els projectes"
 
 #: index.php:110
 msgid "Help us out!"
-msgstr "Ajuda'ns!"
+msgstr "Ajudeu-nos!"
 
 #: index.php:112
+#, fuzzy
 msgid "Donate"
-msgstr "Donatius"
+msgstr "feu un donatiu"
 
 #: index.php:116
 msgid "VideoLAN is a non-profit organization."
 msgstr "VideoLAN és una organtizació sense ànim de lucre."
 
 #: index.php:117
-msgid ""
-" All our costs are met by donations we receive from our users. If you enjoy "
-"using a VideoLAN product, please donate to support us."
+msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
 msgstr "Totes les despeses les cobrim amb els donatius que rebem dels nostres usuaris. Si gaudiu usant un producte VideoLAN, feu un donatiu per donar-nos suport."
 
 #: index.php:119 index.php:131 index.php:142
@@ -255,20 +242,16 @@ msgid "VideoLAN is open-source software."
 msgstr "VideoLAN és programari de codi obert."
 
 #: index.php:129
-msgid ""
-"This means that if you have the skill and the desire to improve one of our "
-"products, your contributions are welcome"
+msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
 msgstr "Això significa que si teniu la capacitat i el desig de millorar algun dels nostres productes, la vostra col·laboració és benvinguda"
 
 #: index.php:136
 msgid "Spread the Word"
-msgstr "Difon la paraula"
+msgstr "Difoneu la paraula"
 
 #: index.php:140
-msgid ""
-"We feel that VideoLAN has the best video software available at the best "
-"price: free. If you agree please help spread the word about our software."
-msgstr "Creiem que VideoLAN és el millor programa de vídeo disponible i al millor preu: gratuït. Si hi esteu d'acord, ajudeu-nos a difondre'l. "
+msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
+msgstr "Creiem que el VideoLAN és el millor programa de vídeo disponible i al millor preu: gratuït. Si hi esteu d'acord, ajudeu-nos a difondre'l. "
 
 #: index.php:412
 msgid "News &amp; Updates"
@@ -292,7 +275,7 @@ msgstr "Un reproductor multimèdia potent, ràpid i simple."
 
 #: vlc/index.php:47
 msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
-msgstr "Ho reprodueix tot: fitxers, discs, càmeres web, dispositius i fluxs"
+msgstr "Ho reprodueix tot: fitxers, discos, càmeres web, dispositius i fluxos."
 
 #: vlc/index.php:49
 msgid "Plays most codecs with no codec packs needed:"
@@ -304,7 +287,7 @@ msgstr "S'executa en totes les plataformes:"
 
 #: vlc/index.php:54
 msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
-msgstr "Totalment debades, sense spyware, sense anuncis i sense fer seguiment de l'usuari."
+msgstr "Totalment gratuït, sense spyware, sense anuncis i sense fer seguiment de l'usuari."
 
 #: vlc/index.php:56
 msgid "Can do media conversion and streaming."
@@ -332,12 +315,13 @@ msgstr "Fonts"
 
 #: vlc/index.php:111
 msgid "You can also directly get the"
-msgstr "També podeu baixar el"
+msgstr "També podeu baixar directament el"
 
 #: vlc/index.php:112
 msgid "source code"
 msgstr "codi font"
 
 #: vlc/index.php:133
+#, fuzzy
 msgid "Other OS"
-msgstr "Altres SO"
+msgstr "Altres sistemes"

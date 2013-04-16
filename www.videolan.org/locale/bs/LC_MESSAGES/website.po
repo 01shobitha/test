@@ -1,7 +1,7 @@
 # Bosnian translation
 # Copyright (C) 2013 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Adnan Memija <sream_92@live.com>, 2012-2013.
 msgid ""
@@ -9,13 +9,13 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-12-15 12:40+0100\n"
-"PO-Revision-Date: 2013-02-09 00:39+0000\n"
+"PO-Revision-Date: 2013-04-07 19:03+0000\n"
 "Last-Translator: Adnan Memija <sream_92@live.com>\n"
 "Language-Team: Bosnian (http://www.transifex.com/projects/p/vlc-trans/language/bs/)\n"
+"Language: bs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: bs\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: include/header.php:152
@@ -27,9 +27,7 @@ msgid "non-profit organization"
 msgstr "neprofitabilna organizacija"
 
 #: include/header.php:153
-msgid ""
-"composed of volunteers, developing and promoting free, open-source "
-"multimedia solutions."
+msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
 msgstr "sastavljeni od volontera, koji razvjijaju i unaprijeđuju besplatna, multimedijalna rješenja otvorenog-koda"
 
 #: include/header.php:157
@@ -163,18 +161,16 @@ msgid "Download VLC"
 msgstr "Preuzmi VLC"
 
 #: include/os-specific.php:91 vlc/index.php:39
+#, fuzzy
 msgid "Other Systems and Versions"
-msgstr "Drugi sistemi i verzije"
+msgstr "Drugi sistemi"
 
 #: index.php:3
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
 msgstr "VLC: Oficijelna stranica - Besplatno multimedijalno rješenje za sve OS-e!"
 
 #: index.php:31 vlc/index.php:25
-msgid ""
-"VLC is a free and open source cross-platform multimedia player and framework"
-" that plays most multimedia files as well as DVD, Audio CD, VCD, and various"
-" streaming protocols."
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
 msgstr "VLC je besplatan i više-platformski izvođač otvorenog koda za sve medije i okruženje koje izvodi većinu multimedijalnih datoteka kao što su DVD, zvučni CD, VCD, i različiti protokoli za strujanje."
 
 #: index.php:41
@@ -186,14 +182,11 @@ msgid "For Everyone"
 msgstr "Za sve"
 
 #: index.php:49
-msgid ""
-"VLC is a powerful media player playing most of the media codecs and video "
-"formats out there."
+msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
 msgstr "VLC je moćan medijski izvođač koji producira većinu medijskih kodeka i video formata koji postoje."
 
 #: index.php:58
-msgid ""
-"VideoLAN Movie Creator is a non-linear editing software for video creation."
+msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
 msgstr "VideoLAN Movie Creator je nelinearni softver za uređivanje video kreacija."
 
 #: index.php:65
@@ -201,20 +194,15 @@ msgid "For Professionals"
 msgstr "Za profesionalce"
 
 #: index.php:71
-msgid ""
-"DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
+msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
 msgstr "DVBlast je jednostavan i moćan MPEG-2/TS demukser i aplikacija za strujanje."
 
 #: index.php:79
-msgid ""
-"multicat is a set of tools designed to easily and efficiently manipulate "
-"multicast streams and TS."
+msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
 msgstr "multicat je komplet alata koji su dizajnirani za jednostavno i efikasno manipuliranje multicast strujanja i TS-a."
 
 #: index.php:88
-msgid ""
-"x264 is a free application for encoding video streams into the H.264/MPEG-4 "
-"AVC format."
+msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
 msgstr "x264 je besplatna aplikacija za kodiranje video strujanja u H.264/MPEG-4 AVC formatu."
 
 #: index.php:96
@@ -230,17 +218,16 @@ msgid "Help us out!"
 msgstr "Pomozi nam!"
 
 #: index.php:112
+#, fuzzy
 msgid "Donate"
-msgstr "Doniraj"
+msgstr "doniraj"
 
 #: index.php:116
 msgid "VideoLAN is a non-profit organization."
 msgstr "VideoLAN je neprofitabilna organizacija."
 
 #: index.php:117
-msgid ""
-" All our costs are met by donations we receive from our users. If you enjoy "
-"using a VideoLAN product, please donate to support us."
+msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
 msgstr "Svi naši troškovi su pokriveni sa donacijama koje primamo od naših korisnika. Ako uživaš koristeći VideoLAN proizvod, molimo da doniraš kako bi nas podržao."
 
 #: index.php:119 index.php:131 index.php:142
@@ -252,9 +239,7 @@ msgid "VideoLAN is open-source software."
 msgstr "VideoLAN je softver otvorenog-koda."
 
 #: index.php:129
-msgid ""
-"This means that if you have the skill and the desire to improve one of our "
-"products, your contributions are welcome"
+msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
 msgstr "To znači ako posjeduješ vještinu i želju da napreduješ jedan od naših proizvoda, tvoji doprinosi su dobrodošli."
 
 #: index.php:136
@@ -262,9 +247,7 @@ msgid "Spread the Word"
 msgstr "Širi riječ"
 
 #: index.php:140
-msgid ""
-"We feel that VideoLAN has the best video software available at the best "
-"price: free. If you agree please help spread the word about our software."
+msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
 msgstr "Mi smo ubjeđeni da VideoLAN ima najbolji video softver dostupan za najbolju cijenu: besplatno. Ako se slažeš molimo da širiš riječi o našem softveru."
 
 #: index.php:412
@@ -336,5 +319,6 @@ msgid "source code"
 msgstr "izvorni kod"
 
 #: vlc/index.php:133
+#, fuzzy
 msgid "Other OS"
-msgstr "Drugi OS-i"
+msgstr "Drugi sistemi"

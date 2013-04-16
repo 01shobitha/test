@@ -1,21 +1,21 @@
 # Icelandic translation
 # Copyright (C) 2013 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
-# Sveinn í Felli <sveinki@nett.is>, 2012-2013.
+# Sveinn í Felli  <sveinki@nett.is>, 2012-2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-12-15 12:40+0100\n"
-"PO-Revision-Date: 2013-03-31 10:29+0000\n"
+"PO-Revision-Date: 2013-04-10 06:05+0000\n"
 "Last-Translator: Sveinn í Felli <sveinki@nett.is>\n"
-"Language-Team: Icelandic (http://www.transifex.com/projects/p/vlc-trans/language/is/)\n"
+"Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
+"Language: is\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: is\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: include/header.php:152
@@ -27,9 +27,7 @@ msgid "non-profit organization"
 msgstr "samtök án hagnaðarmarkmiða"
 
 #: include/header.php:153
-msgid ""
-"composed of volunteers, developing and promoting free, open-source "
-"multimedia solutions."
+msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
 msgstr "byggð á sjálfboðaliðum sem hanna og kynna frjálsar og opnar margmiðlunarlausnir."
 
 #: include/header.php:157
@@ -163,19 +161,17 @@ msgid "Download VLC"
 msgstr "Ná í VLC"
 
 #: include/os-specific.php:91 vlc/index.php:39
+#, fuzzy
 msgid "Other Systems and Versions"
-msgstr "Önnur stýrikerfi og útgáfur"
+msgstr "Önnur stýrikerfi"
 
 #: index.php:3
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
 msgstr "VLC: Opinber vefur verkefnisins - Frjálsar margmiðlunarlausnir fyrir öll stýrikerfi!"
 
 #: index.php:31 vlc/index.php:25
-msgid ""
-"VLC is a free and open source cross-platform multimedia player and framework"
-" that plays most multimedia files as well as DVD, Audio CD, VCD, and various"
-" streaming protocols."
-msgstr "VLC er frjáls og opinn margmiðlunarspilari og bakvinnskukerfi sem spilar flestar gerðir margmiðlunarskráa, DVD, CD-hljóðdiska, VCD, auk ýmissa tegunda streymis. "
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
+msgstr "VLC er frjáls og opinn margmiðlunarspilari og bakvinnslukerfi sem spilar flestar gerðir margmiðlunarskráa, DVD, CD-hljóðdiska, VCD, auk ýmissa tegunda streymis. "
 
 #: index.php:41
 msgid "Other projects from VideoLAN"
@@ -186,14 +182,11 @@ msgid "For Everyone"
 msgstr "Fyrir alla"
 
 #: index.php:49
-msgid ""
-"VLC is a powerful media player playing most of the media codecs and video "
-"formats out there."
+msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
 msgstr "VLC er öflugur margmiðlunarspilari sem ræður við flestar þær gerðir kóðunarlykla (codecs) og vídeósniða sem finnast."
 
 #: index.php:58
-msgid ""
-"VideoLAN Movie Creator is a non-linear editing software for video creation."
+msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
 msgstr "VideoLAN Movie Creator er hugbúnaður fyrir ólínulega vinnslu myndskeiða."
 
 #: index.php:65
@@ -201,20 +194,15 @@ msgid "For Professionals"
 msgstr "Fyrir atvinnumenn"
 
 #: index.php:71
-msgid ""
-"DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
+msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
 msgstr "DVBlast er einfalt og öflugt forrit fyrir MPEG-2/TS demux og streymi."
 
 #: index.php:79
-msgid ""
-"multicat is a set of tools designed to easily and efficiently manipulate "
-"multicast streams and TS."
+msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
 msgstr "multicat er verkfærasett sem hannað er til að meðhöndla skilvirkt á einfaldan hátt multicast strauma og TS."
 
 #: index.php:88
-msgid ""
-"x264 is a free application for encoding video streams into the H.264/MPEG-4 "
-"AVC format."
+msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
 msgstr "x264 er frjálst forrit til að kóða vídeóstrauma yfir á H.264/MPEG-4 AVC snið."
 
 #: index.php:96
@@ -230,17 +218,16 @@ msgid "Help us out!"
 msgstr "Réttu okkur hjálparhönd!"
 
 #: index.php:112
+#, fuzzy
 msgid "Donate"
-msgstr "Gefa"
+msgstr "styðja"
 
 #: index.php:116
 msgid "VideoLAN is a non-profit organization."
 msgstr "VideoLAN eru samtök án hagnaðarmarkmiða."
 
 #: index.php:117
-msgid ""
-" All our costs are met by donations we receive from our users. If you enjoy "
-"using a VideoLAN product, please donate to support us."
+msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
 msgstr "Öllum kostnaði er mætt með gjafafé sem við fáum frá notendum. Ef VLC-hugbúnaður kemur þér að góðu gagni, endilega gefðu eitthvað til að styðja okkur."
 
 #: index.php:119 index.php:131 index.php:142
@@ -252,9 +239,7 @@ msgid "VideoLAN is open-source software."
 msgstr "VideoLAN er opinn og frjáls hugbúnaður."
 
 #: index.php:129
-msgid ""
-"This means that if you have the skill and the desire to improve one of our "
-"products, your contributions are welcome"
+msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
 msgstr "Það þýðir að langi þig til og hafir kunnáttu til að bæta eitthvað í verkefnunum okkar, þá eru framlög þín meira en velkomin"
 
 #: index.php:136
@@ -262,10 +247,8 @@ msgid "Spread the Word"
 msgstr "Láttu orð út ganga"
 
 #: index.php:140
-msgid ""
-"We feel that VideoLAN has the best video software available at the best "
-"price: free. If you agree please help spread the word about our software."
-msgstr "Okkur finnst að VideoLAN sé með besta vídeómeðhöndlunarhugbúnaðinn sem fáanlegur er fyrir besta verðið: ókeypis. Ef þú ert sammála, endilega láttu vita hvað þér finnst um hugbúnaðinn okkar í kringum þig."
+msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
+msgstr "Okkur finnst að VideoLAN sé með besta vídeómeðhöndlunarhugbúnaðinn sem fáanlegur er fyrir besta verðið: ókeypis. Ef þú ert sammála, endilega láttu fólk í kringum þig vita hvað þér finnst um hugbúnaðinn okkar."
 
 #: index.php:412
 msgid "News &amp; Updates"
@@ -301,7 +284,7 @@ msgstr "Keyrir á öllum kerfum:"
 
 #: vlc/index.php:54
 msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
-msgstr "Algerlega frjálst/ókeypis, 0 njósnaforrit, 0 auglýsingar og ekki fylgst með notkun þess á neinn hátt."
+msgstr "Algerlega frjálst/ókeypis, 0 njósnaforrit, 0 auglýsingar og ekki fylgst með notendum þess á neinn hátt."
 
 #: vlc/index.php:56
 msgid "Can do media conversion and streaming."
@@ -336,5 +319,6 @@ msgid "source code"
 msgstr "grunnkóðann"
 
 #: vlc/index.php:133
+#, fuzzy
 msgid "Other OS"
 msgstr "Önnur stýrikerfi"

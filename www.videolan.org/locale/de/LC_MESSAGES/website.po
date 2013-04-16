@@ -164,7 +164,6 @@ msgid "Download VLC"
 msgstr "VLC herunterladen"
 
 #: include/os-specific.php:94 vlc/index.php:34 vlc/index.php:128
-#, fuzzy
 msgid "Other Systems"
 msgstr "Andere Systeme"
 
@@ -316,8 +315,8 @@ msgstr "Sie können auch direkt den"
 msgid "source code"
 msgstr "Quellcode herunterladen"
 
-#~ msgid "DONATE"
-#~ msgstr "SPENDEN"
+msgid "DONATE"
+msgstr "SPENDEN"
 
 #, fuzzy
 #~ msgid "Donate"

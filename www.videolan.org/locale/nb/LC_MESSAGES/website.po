@@ -3,12 +3,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Stian Jørgensrud <stianahj@gmail.com>, 2012-2013.
+# Stian Jørgensrud <stianahj@gmail.com>, 2012-2013
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-31 17:43+0200\n"
+"POT-Creation-Date: 2013-04-15 22:15+0200\n"
 "PO-Revision-Date: 2013-04-15 15:43+0000\n"
 "Last-Translator: Stian Jørgensrud <stianahj@gmail.com>\n"
 "Language-Team: Norwegian Bokmål (Norway) (http://www.transifex.com/projects/p/vlc-trans/language/nb_NO/)\n"
@@ -18,151 +18,151 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: include/header.php:139
+#: include/header.php:197
 msgid "A project and a"
 msgstr "Et prosjekt og en"
 
-#: include/header.php:139
+#: include/header.php:197
 msgid "non-profit organization"
 msgstr "ideell (nonprofitt) organisasjon"
 
-#: include/header.php:140
+#: include/header.php:198
 msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
 msgstr "bestående av frivillige, utviklings- og reklamefri, åpen-kildekode multimedialøsninger."
 
-#: include/header.php:144
-msgid "DONATE"
-msgstr "DONÉR"
-
-#: include/header.php:144
-msgid "why?"
-msgstr "Hvorfor?"
-
-#: include/header.php:158 include/header.php:172
+#: include/header.php:204 include/header.php:218 include/header.php:232
+#: index.php:107
 msgid "donate"
 msgstr "donere"
 
-#: include/header.php:191
+#: include/header.php:204
+msgid "why?"
+msgstr "Hvorfor?"
+
+#: include/header.php:251
 msgid "Home"
 msgstr "Hjem"
 
-#: include/header.php:194 include/header.php:336
+#: include/header.php:254 include/header.php:399
 msgid "News"
 msgstr "Nyheter"
 
-#: include/header.php:199 include/header.php:327
+#: include/header.php:259 include/header.php:389
 msgid "Project and Organization"
 msgstr "Prosjekt og Organisasjon"
 
-#: include/header.php:200 include/header.php:328
+#: include/header.php:260 include/header.php:390
 msgid "Team"
 msgstr "Team"
 
-#: include/header.php:201 include/header.php:330
+#: include/header.php:261 include/header.php:392
 msgid "Contact us"
 msgstr "Kontakt oss"
 
-#: include/header.php:202 include/header.php:331
+#: include/header.php:262 include/header.php:393
 msgid "Partners"
 msgstr "Partnere"
 
-#: include/header.php:203 include/header.php:332
+#: include/header.php:263 include/header.php:394
+msgid "Mirrors"
+msgstr ""
+
+#: include/header.php:264 include/header.php:395
 msgid "Press center"
 msgstr "Pressesenter"
 
-#: include/header.php:204 include/header.php:333
+#: include/header.php:265 include/header.php:396
 msgid "Events"
 msgstr "Begivenheter"
 
-#: include/header.php:205 include/header.php:334
+#: include/header.php:266 include/header.php:397
 msgid "Security center"
 msgstr "Sikkerhetssenter"
 
-#: include/header.php:211
+#: include/header.php:272
 msgid "Download"
 msgstr "Last ned"
 
-#: include/header.php:212 include/header.php:291 index.php:28 vlc/index.php:22
+#: include/header.php:273 include/header.php:353 index.php:28 vlc/index.php:22
 #: vlc/index.php:39
 msgid "Features"
 msgstr "Funksjoner"
 
-#: include/header.php:213 include/header.php:292 index.php:29 vlc/index.php:23
+#: include/header.php:274 include/header.php:354 index.php:29 vlc/index.php:23
 #: vlc/index.php:65
 msgid "Screenshots"
 msgstr "Skjermbilder"
 
-#: include/header.php:214 include/header.php:289 index.php:30 vlc/index.php:24
+#: include/header.php:275 include/header.php:351 index.php:30 vlc/index.php:24
 msgid "Skins"
 msgstr "Skall"
 
-#: include/header.php:215 include/header.php:290
+#: include/header.php:276 include/header.php:352
 msgid "Extensions"
 msgstr "Utvidelser"
 
-#: include/header.php:219
+#: include/header.php:280
 msgid "Projects"
 msgstr "Prosjekter"
 
-#: include/header.php:236 include/header.php:296
+#: include/header.php:297 include/header.php:358
 msgid "All Projects"
 msgstr "Alle prosjekter"
 
-#: include/header.php:240 index.php:119
+#: include/header.php:301 index.php:119
 msgid "Contribute"
 msgstr "Bidra"
 
-#: include/header.php:242 include/header.php:320
+#: include/header.php:303 include/header.php:382
 msgid "Donate time"
 msgstr "Donér tid"
 
-#: include/header.php:243 include/header.php:319
+#: include/header.php:304 include/header.php:381
 msgid "Donate money"
 msgstr "Donér penger"
 
-#: include/header.php:244 include/header.php:321
+#: include/header.php:305 include/header.php:383
 msgid "Get Goodies"
 msgstr "Få godbiter"
 
-#: include/header.php:248
+#: include/header.php:309
 msgid "Support"
 msgstr "Støtte"
 
-#: include/header.php:250
+#: include/header.php:311
 msgid "Support center"
 msgstr "Støttesenter"
 
-#: include/header.php:252 include/header.php:329 include/header.php:342
+#: include/header.php:313 include/header.php:391 include/header.php:420
 msgid "Legal"
 msgstr "Juridisk"
 
-#: include/header.php:255 include/header.php:317
+#: include/header.php:316 include/header.php:379
 msgid "Mailing-Lists"
 msgstr "E-post-lister"
 
-#: include/header.php:256
+#: include/header.php:317
 msgid "Report a bug"
 msgstr "Rapporter en feil"
 
-#: include/header.php:260
+#: include/header.php:321
 msgid "Dev' Zone"
 msgstr "Utvikl. Sone"
 
-#: include/header.php:313
+#: include/header.php:375
 msgid "Community"
 msgstr "Samfunn"
 
-#: include/header.php:335
+#: include/header.php:398
 msgid "Get Involved"
 msgstr "Bli involvert"
 
-#: include/os-specific.php:85 vlc/index.php:27
+#: include/os-specific.php:88 vlc/index.php:27
 msgid "Download VLC"
 msgstr "Last ned VLC"
 
-#: include/os-specific.php:91 vlc/index.php:34
-#, fuzzy
-msgid "Other Systems and Versions"
+#: include/os-specific.php:94 vlc/index.php:34 vlc/index.php:128
+msgid "Other Systems"
 msgstr "Andre OS"
 
 #: index.php:3
@@ -217,11 +217,6 @@ msgstr "Vis alle prosjekter"
 msgid "Help us out!"
 msgstr "Hjelp oss!"
 
-#: index.php:107
-#, fuzzy
-msgid "Donate"
-msgstr "donere"
-
 #: index.php:111
 msgid "VideoLAN is a non-profit organization."
 msgstr "VideoLan er en ideell (nonprofitt) organisasjon."
@@ -250,15 +245,15 @@ msgstr "Spre budskapet"
 msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
 msgstr "Vi føler at VideoLAN har den beste programvaren inne film tilgjengelig til den beste prisen: gratis. Hvis du er enig, så spre budskapet om vår programvare."
 
-#: index.php:407
+#: index.php:147
 msgid "News &amp; Updates"
 msgstr "Nyheter &amp; Oppdateringer"
 
-#: index.php:411
+#: index.php:151
 msgid "Development Blogs"
 msgstr "Utviklernes blogger"
 
-#: index.php:434
+#: index.php:176
 msgid "Social media"
 msgstr "Sosiale medier"
 
@@ -318,7 +313,14 @@ msgstr "Du kan også direkte få"
 msgid "source code"
 msgstr "kildekoden"
 
-#: vlc/index.php:128
-#, fuzzy
-msgid "Other OS"
-msgstr "Andre OS"
+#~ msgid "DONATE"
+#~ msgstr "DONÉR"
+
+#~ msgid "Other Systems and Versions"
+#~ msgstr "Andre systemer og versjoner"
+
+#~ msgid "Donate"
+#~ msgstr "Donér"
+
+#~ msgid "Other OS"
+#~ msgstr "Andre OS"

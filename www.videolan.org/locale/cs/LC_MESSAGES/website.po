@@ -3,12 +3,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Tomáš Chvátal <tomas.chvatal@gmail.com>, 2012-2013.
+# Tomáš Chvátal <tomas.chvatal@gmail.com>, 2012-2013
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-31 17:43+0200\n"
+"POT-Creation-Date: 2013-04-15 22:15+0200\n"
 "PO-Revision-Date: 2013-04-09 13:57+0000\n"
 "Last-Translator: Tomáš Chvátal <tomas.chvatal@gmail.com>\n"
 "Language-Team: Czech (http://www.transifex.com/projects/p/vlc-trans/language/cs/)\n"
@@ -18,151 +18,151 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
-#: include/header.php:139
+#: include/header.php:197
 msgid "A project and a"
 msgstr "Projekt a"
 
-#: include/header.php:139
+#: include/header.php:197
 msgid "non-profit organization"
 msgstr "nezisková organizace"
 
-#: include/header.php:140
+#: include/header.php:198
 msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
 msgstr "skládající se z dobrovolníků vyvíjejících a propagujících svobodná (s otevřeným kódem) multimediální řešení."
 
-#: include/header.php:144
-msgid "DONATE"
-msgstr "DAROVAT"
-
-#: include/header.php:144
-msgid "why?"
-msgstr "proč?"
-
-#: include/header.php:158 include/header.php:172
+#: include/header.php:204 include/header.php:218 include/header.php:232
+#: index.php:107
 msgid "donate"
 msgstr "darovat"
 
-#: include/header.php:191
+#: include/header.php:204
+msgid "why?"
+msgstr "proč?"
+
+#: include/header.php:251
 msgid "Home"
 msgstr "Domů"
 
-#: include/header.php:194 include/header.php:336
+#: include/header.php:254 include/header.php:399
 msgid "News"
 msgstr "Novinky"
 
-#: include/header.php:199 include/header.php:327
+#: include/header.php:259 include/header.php:389
 msgid "Project and Organization"
 msgstr "Projekt a organizace"
 
-#: include/header.php:200 include/header.php:328
+#: include/header.php:260 include/header.php:390
 msgid "Team"
 msgstr "Tým"
 
-#: include/header.php:201 include/header.php:330
+#: include/header.php:261 include/header.php:392
 msgid "Contact us"
 msgstr "Kontaktujte nás"
 
-#: include/header.php:202 include/header.php:331
+#: include/header.php:262 include/header.php:393
 msgid "Partners"
 msgstr "Partneři"
 
-#: include/header.php:203 include/header.php:332
+#: include/header.php:263 include/header.php:394
+msgid "Mirrors"
+msgstr ""
+
+#: include/header.php:264 include/header.php:395
 msgid "Press center"
 msgstr "Tiskové centrum"
 
-#: include/header.php:204 include/header.php:333
+#: include/header.php:265 include/header.php:396
 msgid "Events"
 msgstr "Události"
 
-#: include/header.php:205 include/header.php:334
+#: include/header.php:266 include/header.php:397
 msgid "Security center"
 msgstr "Bezpečnostní centrum"
 
-#: include/header.php:211
+#: include/header.php:272
 msgid "Download"
 msgstr "Stáhnout"
 
-#: include/header.php:212 include/header.php:291 index.php:28 vlc/index.php:22
+#: include/header.php:273 include/header.php:353 index.php:28 vlc/index.php:22
 #: vlc/index.php:39
 msgid "Features"
 msgstr "Vlastnosti"
 
-#: include/header.php:213 include/header.php:292 index.php:29 vlc/index.php:23
+#: include/header.php:274 include/header.php:354 index.php:29 vlc/index.php:23
 #: vlc/index.php:65
 msgid "Screenshots"
 msgstr "Snímky obrazovky"
 
-#: include/header.php:214 include/header.php:289 index.php:30 vlc/index.php:24
+#: include/header.php:275 include/header.php:351 index.php:30 vlc/index.php:24
 msgid "Skins"
 msgstr "Rozšíření vzhledu"
 
-#: include/header.php:215 include/header.php:290
+#: include/header.php:276 include/header.php:352
 msgid "Extensions"
 msgstr "Rozšíření"
 
-#: include/header.php:219
+#: include/header.php:280
 msgid "Projects"
 msgstr "Projekty"
 
-#: include/header.php:236 include/header.php:296
+#: include/header.php:297 include/header.php:358
 msgid "All Projects"
 msgstr "Všechny projekty"
 
-#: include/header.php:240 index.php:119
+#: include/header.php:301 index.php:119
 msgid "Contribute"
 msgstr "Přispívat"
 
-#: include/header.php:242 include/header.php:320
+#: include/header.php:303 include/header.php:382
 msgid "Donate time"
 msgstr "Darovat čas"
 
-#: include/header.php:243 include/header.php:319
+#: include/header.php:304 include/header.php:381
 msgid "Donate money"
 msgstr "Darovat peníze"
 
-#: include/header.php:244 include/header.php:321
+#: include/header.php:305 include/header.php:383
 msgid "Get Goodies"
 msgstr "Získat dobroty"
 
-#: include/header.php:248
+#: include/header.php:309
 msgid "Support"
 msgstr "Podpora"
 
-#: include/header.php:250
+#: include/header.php:311
 msgid "Support center"
 msgstr "Centrum podpory"
 
-#: include/header.php:252 include/header.php:329 include/header.php:342
+#: include/header.php:313 include/header.php:391 include/header.php:420
 msgid "Legal"
 msgstr "Právní informace"
 
-#: include/header.php:255 include/header.php:317
+#: include/header.php:316 include/header.php:379
 msgid "Mailing-Lists"
 msgstr "E-mailová konference"
 
-#: include/header.php:256
+#: include/header.php:317
 msgid "Report a bug"
 msgstr "Nahlásit chybu"
 
-#: include/header.php:260
+#: include/header.php:321
 msgid "Dev' Zone"
 msgstr "Vývojářská zóna"
 
-#: include/header.php:313
+#: include/header.php:375
 msgid "Community"
 msgstr "Komunita"
 
-#: include/header.php:335
+#: include/header.php:398
 msgid "Get Involved"
 msgstr "Přidejte se"
 
-#: include/os-specific.php:85 vlc/index.php:27
+#: include/os-specific.php:88 vlc/index.php:27
 msgid "Download VLC"
 msgstr "Stáhnout VLC"
 
-#: include/os-specific.php:91 vlc/index.php:34
-#, fuzzy
-msgid "Other Systems and Versions"
+#: include/os-specific.php:94 vlc/index.php:34 vlc/index.php:128
+msgid "Other Systems"
 msgstr "Další systémy"
 
 #: index.php:3
@@ -217,11 +217,6 @@ msgstr "Zobrazit všechny projekty"
 msgid "Help us out!"
 msgstr "Pomožte nám!"
 
-#: index.php:107
-#, fuzzy
-msgid "Donate"
-msgstr "darovat"
-
 #: index.php:111
 msgid "VideoLAN is a non-profit organization."
 msgstr "VideoLAN je nezisková organizace."
@@ -250,15 +245,15 @@ msgstr "Rozšířit povědomí"
 msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
 msgstr "Myslíme, že VideoLAN má nejlepší dostupný software na práci s videem za nejlepší cenu: zdarma. Pokud souhlasíte pomozte nám šířením informací o našem software."
 
-#: index.php:407
+#: index.php:147
 msgid "News &amp; Updates"
 msgstr "Novinky &amp; Aktualizace"
 
-#: index.php:411
+#: index.php:151
 msgid "Development Blogs"
 msgstr "Blogy vývojářů"
 
-#: index.php:434
+#: index.php:176
 msgid "Social media"
 msgstr "Sociální sítě"
 
@@ -318,7 +313,14 @@ msgstr "Také můžete stáhnout"
 msgid "source code"
 msgstr "zdrojový kód"
 
-#: vlc/index.php:128
-#, fuzzy
-msgid "Other OS"
-msgstr "Další systémy"
+#~ msgid "DONATE"
+#~ msgstr "DAROVAT"
+
+#~ msgid "Other Systems and Versions"
+#~ msgstr "Jiné systémy a verze"
+
+#~ msgid "Donate"
+#~ msgstr "Darovat"
+
+#~ msgid "Other OS"
+#~ msgstr "Jiný OS"

@@ -3,12 +3,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Андрій Бандура <andriykopanytsia@gmail.com>, 2013.
+# Андрій Бандура <andriykopanytsia@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-12-15 12:40+0100\n"
+"POT-Creation-Date: 2013-04-15 22:15+0200\n"
 "PO-Revision-Date: 2013-04-10 15:16+0000\n"
 "Last-Translator: Андрій Бандура <andriykopanytsia@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/projects/p/vlc-trans/language/uk/)\n"
@@ -18,247 +18,242 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: include/header.php:152
+#: include/header.php:197
 msgid "A project and a"
 msgstr "Проект та"
 
-#: include/header.php:152
+#: include/header.php:197
 msgid "non-profit organization"
 msgstr "неприбуткова організація"
 
-#: include/header.php:153
+#: include/header.php:198
 msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
 msgstr "створені добровольцями, які розробляють і розповсюджують вільні, з відкритим вихідним кодом мультимедійні рішення."
 
-#: include/header.php:157
-msgid "DONATE"
-msgstr "ПОЖЕРТВА"
-
-#: include/header.php:157
-msgid "why?"
-msgstr "чому?"
-
-#: include/header.php:171 include/header.php:185
+#: include/header.php:204 include/header.php:218 include/header.php:232
+#: index.php:107
 msgid "donate"
 msgstr "пожертва"
 
 #: include/header.php:204
+msgid "why?"
+msgstr "чому?"
+
+#: include/header.php:251
 msgid "Home"
 msgstr "Головна"
 
-#: include/header.php:207 include/header.php:366
+#: include/header.php:254 include/header.php:399
 msgid "News"
 msgstr "Новини"
 
-#: include/header.php:212 include/header.php:357
+#: include/header.php:259 include/header.php:389
 msgid "Project and Organization"
 msgstr "Проект та організація"
 
-#: include/header.php:213 include/header.php:358
+#: include/header.php:260 include/header.php:390
 msgid "Team"
 msgstr "Команда"
 
-#: include/header.php:214 include/header.php:360
+#: include/header.php:261 include/header.php:392
 msgid "Contact us"
 msgstr "Зв'яжіться з нами"
 
-#: include/header.php:215 include/header.php:361
+#: include/header.php:262 include/header.php:393
 msgid "Partners"
 msgstr "Партнери"
 
-#: include/header.php:216 include/header.php:362
+#: include/header.php:263 include/header.php:394
+msgid "Mirrors"
+msgstr ""
+
+#: include/header.php:264 include/header.php:395
 msgid "Press center"
 msgstr "Прес-релізи"
 
-#: include/header.php:217 include/header.php:363
+#: include/header.php:265 include/header.php:396
 msgid "Events"
 msgstr "Події"
 
-#: include/header.php:218 include/header.php:364
+#: include/header.php:266 include/header.php:397
 msgid "Security center"
 msgstr "Центр безпеки"
 
-#: include/header.php:224
+#: include/header.php:272
 msgid "Download"
 msgstr "Завантажити"
 
-#: include/header.php:225 include/header.php:321 index.php:33 vlc/index.php:27
-#: vlc/index.php:44
+#: include/header.php:273 include/header.php:353 index.php:28 vlc/index.php:22
+#: vlc/index.php:39
 msgid "Features"
 msgstr "Функції"
 
-#: include/header.php:226 include/header.php:322 index.php:34 vlc/index.php:28
-#: vlc/index.php:70
+#: include/header.php:274 include/header.php:354 index.php:29 vlc/index.php:23
+#: vlc/index.php:65
 msgid "Screenshots"
 msgstr "Знімки екрану"
 
-#: include/header.php:227 include/header.php:319 index.php:35 vlc/index.php:29
+#: include/header.php:275 include/header.php:351 index.php:30 vlc/index.php:24
 msgid "Skins"
 msgstr "Обкладинки"
 
-#: include/header.php:228 include/header.php:320
+#: include/header.php:276 include/header.php:352
 msgid "Extensions"
 msgstr "Розширення"
 
-#: include/header.php:232
+#: include/header.php:280
 msgid "Projects"
 msgstr "Проекти"
 
-#: include/header.php:249 include/header.php:326
+#: include/header.php:297 include/header.php:358
 msgid "All Projects"
 msgstr "Усі проекти"
 
-#: include/header.php:253 index.php:124
+#: include/header.php:301 index.php:119
 msgid "Contribute"
 msgstr "Співпраця"
 
-#: include/header.php:255 include/header.php:350
+#: include/header.php:303 include/header.php:382
 msgid "Donate time"
 msgstr "Пожертвуйте час"
 
-#: include/header.php:256 include/header.php:349
+#: include/header.php:304 include/header.php:381
 msgid "Donate money"
 msgstr "Пожертвуйте гроші"
 
-#: include/header.php:257 include/header.php:351
+#: include/header.php:305 include/header.php:383
 msgid "Get Goodies"
 msgstr "Отримати смаколики"
 
-#: include/header.php:261
+#: include/header.php:309
 msgid "Support"
 msgstr "Підтримка"
 
-#: include/header.php:263
+#: include/header.php:311
 msgid "Support center"
 msgstr "Центр підтримки"
 
-#: include/header.php:265 include/header.php:359 include/header.php:372
+#: include/header.php:313 include/header.php:391 include/header.php:420
 msgid "Legal"
 msgstr "Правова інформація"
 
-#: include/header.php:268 include/header.php:347
+#: include/header.php:316 include/header.php:379
 msgid "Mailing-Lists"
 msgstr "Поштові розсилки"
 
-#: include/header.php:269
+#: include/header.php:317
 msgid "Report a bug"
 msgstr "Повідомити про помилку"
 
-#: include/header.php:273
+#: include/header.php:321
 msgid "Dev' Zone"
 msgstr "Розробникам"
 
-#: include/header.php:343
+#: include/header.php:375
 msgid "Community"
 msgstr "Спільнота"
 
-#: include/header.php:365
+#: include/header.php:398
 msgid "Get Involved"
 msgstr "Допомогти у розробці"
 
-#: include/os-specific.php:85 vlc/index.php:32
+#: include/os-specific.php:88 vlc/index.php:27
 msgid "Download VLC"
 msgstr "Завантажити VLC"
 
-#: include/os-specific.php:91 vlc/index.php:39
-#, fuzzy
-msgid "Other Systems and Versions"
+#: include/os-specific.php:94 vlc/index.php:34 vlc/index.php:128
+msgid "Other Systems"
 msgstr "Інші Системи"
 
 #: index.php:3
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
 msgstr "VLC: Офіційний сайт - безкоштовні мультимедійні рішення для всіх ОС!"
 
-#: index.php:31 vlc/index.php:25
+#: index.php:26 vlc/index.php:20
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
 msgstr "VLC є безкоштовним з відкритим  вихідним кодом  багатоплатформним мультимедійним програвачем та середовищем, яке відтворює більшість мультимедійних файлів, а також DVD, аудіо CD, VCD та різноманітні потокові протоколи."
 
-#: index.php:41
+#: index.php:36
 msgid "Other projects from VideoLAN"
 msgstr "Інші проекти від VideoLAN"
 
-#: index.php:43
+#: index.php:38
 msgid "For Everyone"
 msgstr "Для кожного"
 
-#: index.php:49
+#: index.php:44
 msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
 msgstr "VLC - це потужний медіапрогравач, який відтворює більшість існуючих медіа-кодеків та форматів відео."
 
-#: index.php:58
+#: index.php:53
 msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
 msgstr "VideoLAN Movie Creator - це нелінійний редактор для створення відео."
 
-#: index.php:65
+#: index.php:60
 msgid "For Professionals"
 msgstr "Для професіоналів"
 
-#: index.php:71
+#: index.php:66
 msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
 msgstr "DVBlast - це простий і потужний MPEG-2/TS демультиплексор і потокова програма."
 
-#: index.php:79
+#: index.php:74
 msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
 msgstr "multicat - це набір інструментів, призначених для легкого і ефективного управління багатоадресними і транспортними потоками."
 
-#: index.php:88
+#: index.php:83
 msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
 msgstr "x264 - це безкоштовна програма для кодування відеопотоків у форматі H.264/MPEG-4 AVC."
 
-#: index.php:96
+#: index.php:91
 msgid "For Developers"
 msgstr "Для розробників"
 
-#: index.php:107
+#: index.php:102
 msgid "View All Projects"
 msgstr "Переглянути усі проекти"
 
-#: index.php:110
+#: index.php:105
 msgid "Help us out!"
 msgstr "Допоможіть нам!"
 
-#: index.php:112
-#, fuzzy
-msgid "Donate"
-msgstr "пожертва"
-
-#: index.php:116
+#: index.php:111
 msgid "VideoLAN is a non-profit organization."
 msgstr "VideoLAN - це неприбуткова організація."
 
-#: index.php:117
+#: index.php:112
 msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
 msgstr "Всі наші витрати покриваються за рахунок пожертвувань, які ми отримуємо від наших користувачів. Якщо вам подобається користуватися програмою від VideoLAN, будь ласка, пожертвуйте, щоб підтримати нас."
 
-#: index.php:119 index.php:131 index.php:142
+#: index.php:114 index.php:126 index.php:137
 msgid "Learn More"
 msgstr "Дізнатися більше"
 
-#: index.php:128
+#: index.php:123
 msgid "VideoLAN is open-source software."
 msgstr "VideoLAN - це відкрите програмне забезпечення."
 
-#: index.php:129
+#: index.php:124
 msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
 msgstr "Це означає, що якщо у вас є навички і бажання поліпшити один з наших продуктів, то ваш внесок вітається"
 
-#: index.php:136
+#: index.php:131
 msgid "Spread the Word"
 msgstr "Розкажіть про нас"
 
-#: index.php:140
+#: index.php:135
 msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
 msgstr "Ми вважаємо, що VideoLAN має найкраще програмне забезпечення для відео, доступне за найкращою ціною: безкоштовне. Якщо ви згідні з нами, то допоможіть поширити інформацію про наше програмне забезпечення."
 
-#: index.php:412
+#: index.php:147
 msgid "News &amp; Updates"
 msgstr "Новини і оновлення"
 
-#: index.php:416
+#: index.php:151
 msgid "Development Blogs"
 msgstr "Блог розробників"
 
-#: index.php:439
+#: index.php:176
 msgid "Social media"
 msgstr "Соціальні мережі"
 
@@ -266,59 +261,66 @@ msgstr "Соціальні мережі"
 msgid "Official page for VLC media player, the Open Source video framework!"
 msgstr "Офіційна сторінка VLC медіапрогравача, середовища для відео з відкритим вихідним кодом!"
 
-#: vlc/index.php:45
+#: vlc/index.php:40
 msgid "Simple, fast and powerful media player."
 msgstr "Простий, швидкий і потужний медіапрогравач."
 
-#: vlc/index.php:47
+#: vlc/index.php:42
 msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
 msgstr "Відтворює усе: файли, диски, веб-камери, пристрої і мережні потоки."
 
-#: vlc/index.php:49
+#: vlc/index.php:44
 msgid "Plays most codecs with no codec packs needed:"
 msgstr "Відтворює більшість кодеків без необхідності встановлення додаткових пакунків кодеків:"
 
-#: vlc/index.php:52
+#: vlc/index.php:47
 msgid "Runs on all platforms:"
 msgstr "Працює на всіх платформах:"
 
-#: vlc/index.php:54
+#: vlc/index.php:49
 msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
 msgstr "Повністю вільний, без шпигунів, без реклами і без стеження за користувачами."
 
-#: vlc/index.php:56
+#: vlc/index.php:51
 msgid "Can do media conversion and streaming."
 msgstr "Може  перетворювати відео і передавати потік."
 
-#: vlc/index.php:58
+#: vlc/index.php:53
 msgid "Discover all features"
 msgstr "Дізнатися про всі можливості"
 
-#: vlc/index.php:92
+#: vlc/index.php:87
 msgid "View all screenshots"
 msgstr "Переглянути усі знімки екрану"
 
-#: vlc/index.php:99
+#: vlc/index.php:94
 msgid "Get VLC for"
 msgstr "Отримати VLC для"
 
-#: vlc/index.php:103
+#: vlc/index.php:98
 msgid "Official Downloads of VLC media player"
 msgstr "Офіційні завантаження медіапрогравача VLC"
 
-#: vlc/index.php:110
+#: vlc/index.php:105
 msgid "Sources"
 msgstr "Вихідний код"
 
-#: vlc/index.php:111
+#: vlc/index.php:106
 msgid "You can also directly get the"
 msgstr "Ви також можете отримати"
 
-#: vlc/index.php:112
+#: vlc/index.php:107
 msgid "source code"
 msgstr "джерельний код"
 
-#: vlc/index.php:133
-#, fuzzy
-msgid "Other OS"
-msgstr "Інші Системи"
+#~ msgid "DONATE"
+#~ msgstr "ПОЖЕРТВА"
+
+#~ msgid "Other Systems and Versions"
+#~ msgstr "Інші системи та версії"
+
+#~ msgid "Donate"
+#~ msgstr "Пожертва"
+
+#~ msgid "Other OS"
+#~ msgstr "Інші ОС"

@@ -4,13 +4,12 @@
 #
 # Translators:
 # Khoem Sokhem <khoemsokhem@khmeros.info>, 2012.
-# Sokhem Khoem <sokhem@open.org.kh>, 2013.
-#   <sokhem@open.org.kh>, 2012.
+# khoemsokhem <sokhem@open.org.kh>, 2012-2013
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-12-15 12:40+0100\n"
+"POT-Creation-Date: 2013-04-15 22:15+0200\n"
 "PO-Revision-Date: 2013-04-10 02:20+0000\n"
 "Last-Translator: khoemsokhem <sokhem@open.org.kh>\n"
 "Language-Team: Khmer (http://www.transifex.com/projects/p/vlc-trans/language/km/)\n"
@@ -20,247 +19,242 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: include/header.php:152
+#: include/header.php:197
 msgid "A project and a"
 msgstr "ជា​គម្រោង និង​​ជា"
 
-#: include/header.php:152
+#: include/header.php:197
 msgid "non-profit organization"
 msgstr "អង្គការ​មិន​រក​ប្រាក់​ចំណេញ"
 
-#: include/header.php:153
+#: include/header.php:198
 msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
 msgstr "មាន​អ្នក​ស្ម័គ្រ​ចិត្ត ដែល​កំពុង​អភិវឌ្ឍ និង​ផ្សព្វផ្សាយ​កម្មវិធី​ចាក់​មេឌៀ​កូដ​ចំហ ។"
 
-#: include/header.php:157
-msgid "DONATE"
-msgstr "ឧបត្ថម្ភ"
-
-#: include/header.php:157
-msgid "why?"
-msgstr "ហេតុ​អ្វី ?"
-
-#: include/header.php:171 include/header.php:185
+#: include/header.php:204 include/header.php:218 include/header.php:232
+#: index.php:107
 msgid "donate"
 msgstr "ឧបត្ថម្ភ"
 
 #: include/header.php:204
+msgid "why?"
+msgstr "ហេតុ​អ្វី ?"
+
+#: include/header.php:251
 msgid "Home"
 msgstr "ដើម"
 
-#: include/header.php:207 include/header.php:366
+#: include/header.php:254 include/header.php:399
 msgid "News"
 msgstr "ព័ត៌មាន​"
 
-#: include/header.php:212 include/header.php:357
+#: include/header.php:259 include/header.php:389
 msgid "Project and Organization"
 msgstr "គម្រោង និង​អង្គការ"
 
-#: include/header.php:213 include/header.php:358
+#: include/header.php:260 include/header.php:390
 msgid "Team"
 msgstr "ក្រុម"
 
-#: include/header.php:214 include/header.php:360
+#: include/header.php:261 include/header.php:392
 msgid "Contact us"
 msgstr "ទាក់ទង​យើង​ខ្ញុំ"
 
-#: include/header.php:215 include/header.php:361
+#: include/header.php:262 include/header.php:393
 msgid "Partners"
 msgstr "ដៃគូ"
 
-#: include/header.php:216 include/header.php:362
+#: include/header.php:263 include/header.php:394
+msgid "Mirrors"
+msgstr ""
+
+#: include/header.php:264 include/header.php:395
 msgid "Press center"
 msgstr "មជ្ឈមណ្ឌល​ព័ត៌មាន"
 
-#: include/header.php:217 include/header.php:363
+#: include/header.php:265 include/header.php:396
 msgid "Events"
 msgstr "ព្រឹត្តិការណ៍"
 
-#: include/header.php:218 include/header.php:364
+#: include/header.php:266 include/header.php:397
 msgid "Security center"
 msgstr "មជ្ឈមណ្ឌល​សុវត្ថិភាព"
 
-#: include/header.php:224
+#: include/header.php:272
 msgid "Download"
 msgstr "ទាញយក"
 
-#: include/header.php:225 include/header.php:321 index.php:33 vlc/index.php:27
-#: vlc/index.php:44
+#: include/header.php:273 include/header.php:353 index.php:28 vlc/index.php:22
+#: vlc/index.php:39
 msgid "Features"
 msgstr "លក្ខណៈ"
 
-#: include/header.php:226 include/header.php:322 index.php:34 vlc/index.php:28
-#: vlc/index.php:70
+#: include/header.php:274 include/header.php:354 index.php:29 vlc/index.php:23
+#: vlc/index.php:65
 msgid "Screenshots"
 msgstr "រូបថត​អេក្រង់"
 
-#: include/header.php:227 include/header.php:319 index.php:35 vlc/index.php:29
+#: include/header.php:275 include/header.php:351 index.php:30 vlc/index.php:24
 msgid "Skins"
 msgstr "រូបរាង"
 
-#: include/header.php:228 include/header.php:320
+#: include/header.php:276 include/header.php:352
 msgid "Extensions"
 msgstr "ផ្នែក​បន្ថែម"
 
-#: include/header.php:232
+#: include/header.php:280
 msgid "Projects"
 msgstr "គម្រោង"
 
-#: include/header.php:249 include/header.php:326
+#: include/header.php:297 include/header.php:358
 msgid "All Projects"
 msgstr "គម្រោង​ទាំងអស់"
 
-#: include/header.php:253 index.php:124
+#: include/header.php:301 index.php:119
 msgid "Contribute"
 msgstr "ចូលរួម"
 
-#: include/header.php:255 include/header.php:350
+#: include/header.php:303 include/header.php:382
 msgid "Donate time"
 msgstr "​ឧបត្ថម្ភ​ជា​ពេលវេលា"
 
-#: include/header.php:256 include/header.php:349
+#: include/header.php:304 include/header.php:381
 msgid "Donate money"
 msgstr "​ឧបត្ថម្ភ​ជា​​ថវិកា"
 
-#: include/header.php:257 include/header.php:351
+#: include/header.php:305 include/header.php:383
 msgid "Get Goodies"
 msgstr "យក​ធាតុ​ផ្សេងៗ"
 
-#: include/header.php:261
+#: include/header.php:309
 msgid "Support"
 msgstr "គាំទ្រ"
 
-#: include/header.php:263
+#: include/header.php:311
 msgid "Support center"
 msgstr "មជ្ឈមណ្ឌល​គាំទ្រ"
 
-#: include/header.php:265 include/header.php:359 include/header.php:372
+#: include/header.php:313 include/header.php:391 include/header.php:420
 msgid "Legal"
 msgstr "ស្រប​ច្បាប់"
 
-#: include/header.php:268 include/header.php:347
+#: include/header.php:316 include/header.php:379
 msgid "Mailing-Lists"
 msgstr "បញ្ជី​សំបុត្រ​រួម"
 
-#: include/header.php:269
+#: include/header.php:317
 msgid "Report a bug"
 msgstr "រាយការណ៍​កំហុស"
 
-#: include/header.php:273
+#: include/header.php:321
 msgid "Dev' Zone"
 msgstr "តំបន់​អភិវឌ្ឍន៍"
 
-#: include/header.php:343
+#: include/header.php:375
 msgid "Community"
 msgstr "សហគមន៍"
 
-#: include/header.php:365
+#: include/header.php:398
 msgid "Get Involved"
 msgstr "ចូល​រួម"
 
-#: include/os-specific.php:85 vlc/index.php:32
+#: include/os-specific.php:88 vlc/index.php:27
 msgid "Download VLC"
 msgstr "ទាញ​យក VLC"
 
-#: include/os-specific.php:91 vlc/index.php:39
-#, fuzzy
-msgid "Other Systems and Versions"
+#: include/os-specific.php:94 vlc/index.php:34 vlc/index.php:128
+msgid "Other Systems"
 msgstr "ប្រព័ន្ធ​ផ្សេង"
 
 #: index.php:3
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
 msgstr "VLC ៖ តំបន់​បណ្ដាញ​ផ្លូវការ - កម្មវិធី​ចាក់​ពហុ​មេឌៀ​ដោយ​គិត​ថ្លៃ​សម្រាប់​គ្រប់​ប្រព័ន្ធ​ប្រតិបត្តិការ!"
 
-#: index.php:31 vlc/index.php:25
+#: index.php:26 vlc/index.php:20
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
 msgstr "VLC គឺ​ជា​កម្មវិធី​ចាក់​ពហុ​មេឌៀ​​​កូដ​ចំហ និង​ឥត​គិត​ថ្លៃ​ដំណើរការ​លើ​ប្រព័ន្ធ​ប្រតិបត្តិការ​ជា​ច្រើន ហើយ​គ្រោងការណ៍​ដែល​ចាក់​ឯកសារ​ពហុ​មេឌៀ​ច្រើន ព្រម​ទាំង​ឌីវីឌី ស៊ីឌី​អូឌីយ៉ូ និង​ពិធីការ​ស្ទ្រីម​ផ្សេងៗ​ជា​ច្រើន ​ទៀត ។"
 
-#: index.php:41
+#: index.php:36
 msgid "Other projects from VideoLAN"
 msgstr "គម្រោង​ផ្សេង​ទៀត​ពី VideoLAN"
 
-#: index.php:43
+#: index.php:38
 msgid "For Everyone"
 msgstr "សម្រាប់​អ្នក​រាល់​គ្នា"
 
-#: index.php:49
+#: index.php:44
 msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
 msgstr "VLC ជា​កម្មវិធី​ចាក់​មេឌៀ​ដ៏​មាន​អានុភាព ដែល​ចាក់​កូឌិក​មេឌៀ​ភាគ​ច្រើន និង​​ទ្រង់ទ្រាយ​វីដេអូ​ជា​ច្រើន​ ។"
 
-#: index.php:58
+#: index.php:53
 msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
 msgstr "កម្មវិធី​បង្កើត​ភាពយន្ត VideoLAN គឺ​ជា​កម្មវិធី​កែសម្រួល​សម្រាប់ការ​បង្កើត​វីដេអូ ។"
 
-#: index.php:65
+#: index.php:60
 msgid "For Professionals"
 msgstr "សម្រាប់​អ្នក​ជំនាញ"
 
-#: index.php:71
+#: index.php:66
 msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
 msgstr "DVBlast គឺជា​ MPEG-2/TS demux សាមញ្ញ​ និង​ដ៏​មាន​អានុភាព ព្រម​ទាំង​ជា​កម្មវិធី​ស្ទ្រីម ។"
 
-#: index.php:79
+#: index.php:74
 msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
 msgstr "multicat គឺ​ជា​បណ្ដុំ​កម្មវិធី​ ដែល​បាន​រចនា​ ដើម្បី​គណនា​ស្ទ្រីម​ម៉ាល់ទីខាស និង TS ​យ៉ាង​ងាយស្រួល និង​មាន​ប្រសិទ្ធភាព ។"
 
-#: index.php:88
+#: index.php:83
 msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
 msgstr "x264 គឺ​ជា​កម្មវិធី​ឥត​គិត​ថ្លៃ​សម្រាប់​អ៊ីនកូដ​ស្ទ្រីម​វីដេអូ​ទៅ​ជា​​ទ្រង់ទ្រាយ H.264/MPEG-4 AVC ។"
 
-#: index.php:96
+#: index.php:91
 msgid "For Developers"
 msgstr "សម្រាប់​អ្នក​អភិវឌ្ឍន៍"
 
-#: index.php:107
+#: index.php:102
 msgid "View All Projects"
 msgstr "មើល​គម្រោង​ទាំងអស់"
 
-#: index.php:110
+#: index.php:105
 msgid "Help us out!"
 msgstr "ជួយ​យើង !"
 
-#: index.php:112
-#, fuzzy
-msgid "Donate"
-msgstr "ឧបត្ថម្ភ"
-
-#: index.php:116
+#: index.php:111
 msgid "VideoLAN is a non-profit organization."
 msgstr "VideoLAN គឺ​ជា​អង្គការ​មិន​រក​ប្រាក់​ចំណេញ ។"
 
-#: index.php:117
+#: index.php:112
 msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
 msgstr " តម្លៃ​របស់​យើង​ទាំងអស់​បំពេញ​តាម​ការ​ឧបត្ថម្ភ ដែល​យើង​បាន​ទទួល​ពី​អ្នកប្រើប្រាស់​របស់​យើង ។ ប្រសិន​បើ​អ្នក​រីករាយ​ប្រើ​ផលិតផល VideoLAN សូម​ជួយ​ឧបត្ថម្ភ​យើង​​ខ្ញុំ ។"
 
-#: index.php:119 index.php:131 index.php:142
+#: index.php:114 index.php:126 index.php:137
 msgid "Learn More"
 msgstr "ស្វែងយល់​បន្ថែម"
 
-#: index.php:128
+#: index.php:123
 msgid "VideoLAN is open-source software."
 msgstr "VideoLAN គឺ​ជា​កម្មវិធី​កូដ​ចំហ"
 
-#: index.php:129
+#: index.php:124
 msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
 msgstr "នេះ​មាន​ន័យ​ថា ប្រសិន​បើ​​អ្នក​មាន​ជំនាញ និង​ចង់​បង្កើន​ផលិតផល​មួយ​ក្នុង​ចំណោម​ផលិតផល​របស់​យើង សូម​ស្វាគមន៍​ការ​ចូលរួម​របស់​អ្នក"
 
-#: index.php:136
+#: index.php:131
 msgid "Spread the Word"
 msgstr "ចែកចាយ​ទូទាំង​ពិភពលោក"
 
-#: index.php:140
+#: index.php:135
 msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
 msgstr "យើង​មាន​អាម្មណ៍​ថា VideoLAN មាន​កម្មវិធី​សម្រាប់​ចាក់​វីដេអូ​ដ៏​ល្អ​បំផុត ដោយ​មិនគិត​ថ្លៃ ។ ប្រសិនបើ​អ្នក​យល់ព្រម សូម​ជួយ​ចែកចាយ​កម្មវិធី​របស់​យើង​ទូទាំង​ពិភព​លោក ។"
 
-#: index.php:412
+#: index.php:147
 msgid "News &amp; Updates"
 msgstr "ព័ត៌មាន &amp; បច្ចុប្បន្នភាព"
 
-#: index.php:416
+#: index.php:151
 msgid "Development Blogs"
 msgstr "កំណត់​ហេតុ​បណ្ដាញ​អភិវឌ្ឍន៍"
 
-#: index.php:439
+#: index.php:176
 msgid "Social media"
 msgstr "មេឌៀ​សង្គម"
 
@@ -268,59 +262,66 @@ msgstr "មេឌៀ​សង្គម"
 msgid "Official page for VLC media player, the Open Source video framework!"
 msgstr "ទំព័រ​ផ្លូវការ​សម្រាប់​ម្មវិធី​ចាក់​មេឌៀ VLC គ្រោងការណ៍​វីដេអូ​កម្មវិធី​កូដ​ចំហ !"
 
-#: vlc/index.php:45
+#: vlc/index.php:40
 msgid "Simple, fast and powerful media player."
 msgstr "កម្មវិធី​ចាក់​មេឌៀ​សាមញ្ញ លឿន និង​​មាន​អនុភាព ។"
 
-#: vlc/index.php:47
+#: vlc/index.php:42
 msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
 msgstr "ចាក់​អ្វីៗ​គ្រប់យ៉ាង ៖ ឯកសារ ថាស វិបខេម ឧបករណ៍ និង​ស្ទ្រីម​ ។"
 
-#: vlc/index.php:49
+#: vlc/index.php:44
 msgid "Plays most codecs with no codec packs needed:"
 msgstr "ចាក់​កូឌិក​ភាគ​ច្រើន​ដោយ​មិន​ចាំបាច់​ត្រូវការ​កញ្ចប់​កូឌិក ៖"
 
-#: vlc/index.php:52
+#: vlc/index.php:47
 msgid "Runs on all platforms:"
 msgstr "ដំណើរការ​គ្រប់​ប្រព័ន្ធ​ប្រតិបត្តិការ ៖"
 
-#: vlc/index.php:54
+#: vlc/index.php:49
 msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
 msgstr "ប្រើដោយ​គិត​ថ្លៃ គ្មាន​កម្មវិធី​រំខាន គ្មានការ​ផ្សាយ​ពាណិជ្ជកម្ម និង​គ្មាន​កា​រតាមដាន​អ្នកប្រើ ។"
 
-#: vlc/index.php:56
+#: vlc/index.php:51
 msgid "Can do media conversion and streaming."
 msgstr "អាច​បម្លែង​មេឌៀ​ និង​ស្ទ្រីម"
 
-#: vlc/index.php:58
+#: vlc/index.php:53
 msgid "Discover all features"
 msgstr "មើល​​គ្រប់លក្ខណៈ"
 
-#: vlc/index.php:92
+#: vlc/index.php:87
 msgid "View all screenshots"
 msgstr "មើល​រូបថត​អេក្រង់​ទាំងអស់"
 
-#: vlc/index.php:99
+#: vlc/index.php:94
 msgid "Get VLC for"
 msgstr "យក​ VLC សម្រាប់"
 
-#: vlc/index.php:103
+#: vlc/index.php:98
 msgid "Official Downloads of VLC media player"
 msgstr "ទាញយក​កម្មវិធី​ចាក់​មេឌៀ VLC ជា​ផ្លូវការ"
 
-#: vlc/index.php:110
+#: vlc/index.php:105
 msgid "Sources"
 msgstr "ប្រភព"
 
-#: vlc/index.php:111
+#: vlc/index.php:106
 msgid "You can also directly get the"
 msgstr "អ្នក​ក៏​អាច​យក​ដោយ​ផ្ទាល់នូវ"
 
-#: vlc/index.php:112
+#: vlc/index.php:107
 msgid "source code"
 msgstr "កូដ​ប្រភព"
 
-#: vlc/index.php:133
-#, fuzzy
-msgid "Other OS"
-msgstr "ប្រព័ន្ធ​ផ្សេង"
+#~ msgid "DONATE"
+#~ msgstr "ឧបត្ថម្ភ"
+
+#~ msgid "Other Systems and Versions"
+#~ msgstr "កំណែ និង​ប្រព័ន្ធ​ប្រតិបត្តិការ​ផ្សេង"
+
+#~ msgid "Donate"
+#~ msgstr "ឧបត្ថម្ភ"
+
+#~ msgid "Other OS"
+#~ msgstr "ប្រព័ន្ធ​ប្រតបត្តិកា​រផ្សេង"

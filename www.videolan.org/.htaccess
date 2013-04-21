@@ -42,6 +42,7 @@ RewriteRule ^support/bug-reporting.* /support/index.html [R=permanent,L]
 RewriteRule ^vlc/bug-reporting.html$ /support/bug-reporting.html [R=permanent,L]
 
 # Contribute
+RewriteRule ^contribute/ /contribute.html [R=permanent,L]
 RewriteRule ^project/contribute.html$ /contribute.html [R=permanent,L]
 
 # Press

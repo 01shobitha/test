@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-04-15 22:15+0200\n"
-"PO-Revision-Date: 2013-04-14 13:54+0000\n"
+"PO-Revision-Date: 2013-04-24 14:54+0000\n"
 "Last-Translator: Fumio Nakayama <fumio.n6a@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/vlc-trans/language/ja/)\n"
 "Language: ja\n"
@@ -65,7 +65,7 @@ msgstr "パートナー"
 
 #: include/header.php:263 include/header.php:394
 msgid "Mirrors"
-msgstr ""
+msgstr "ミラー"
 
 #: include/header.php:264 include/header.php:395
 msgid "Press center"

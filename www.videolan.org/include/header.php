@@ -309,10 +309,10 @@ function draw_menus( $nobanner, $alternate_lang )
       <a href='//www.videolan.org/support/'><?php echo _("Support"); ?></a>
       <ul>
          <li><a href='//www.videolan.org/support/'><?php echo _("Support center"); ?></a></li>
-         <li><a href='//www.videolan.org/support/faq.html'>FAQ</a></li>
+         <li><a href='//www.videolan.org/support/faq.html'><?php echo _("FAQ"); ?></a></li>
          <li><a href='//www.videolan.org/legal.html'><?php echo _("Legal"); ?></a></li>
          <li><a href='http://wiki.videolan.org/'>Wiki</a></li>
-         <li><a href='http://forum.videolan.org/'>Forums</a></li>
+         <li><a href='http://forum.videolan.org/'><?php echo _("Forums"); ?></a></li>
          <li><a href='//www.videolan.org/support/lists.html'><?php echo _("Mailing-Lists"); ?></a></li>
          <li><a href='//www.videolan.org/support/#bugs'><?php echo _("Report a bug"); ?></a></li>
       </ul>

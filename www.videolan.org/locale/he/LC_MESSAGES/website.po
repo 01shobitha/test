@@ -1,180 +1,184 @@
 # Hebrew translation
-# Copyright (C) 2012 VideoLAN
+# Copyright (C) 2013 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
-# Yaron Shahrabani <sh.yaron@gmail.com>, 2012.
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2012-2013
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-31 17:43+0200\n"
-"PO-Revision-Date: 2012-08-10 07:28+0000\n"
+"POT-Creation-Date: 2013-04-25 16:06+0200\n"
+"PO-Revision-Date: 2013-04-25 14:17+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/projects/p/vlc-trans/language/he/)\n"
+"Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: he\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: include/header.php:139
+#: include/header.php:197
 msgid "A project and a"
 msgstr "מיזם"
 
-#: include/header.php:139
+#: include/header.php:197
 msgid "non-profit organization"
 msgstr "ועמותה ללא מטרות רווח"
 
-#: include/header.php:140
-msgid ""
-"composed of volunteers, developing and promoting free, open-source "
-"multimedia solutions."
+#: include/header.php:198
+msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
 msgstr "המורכבים ממתנדבים המפתחים ומקדמים פתרונות מולטימדיה חופשיים ובקוד פתוח."
 
-#: include/header.php:144
-msgid "DONATE"
-msgstr "תרומה"
-
-#: include/header.php:144
-msgid "why?"
-msgstr "למה?"
-
-#: include/header.php:158 include/header.php:172
+#: include/header.php:204 include/header.php:218 include/header.php:232
+#: index.php:107
 msgid "donate"
 msgstr "תרומה"
 
-#: include/header.php:191
+#: include/header.php:204
+msgid "why?"
+msgstr "למה?"
+
+#: include/header.php:251
 msgid "Home"
 msgstr "דף הבית"
 
-#: include/header.php:194 include/header.php:336
+#: include/header.php:254 include/header.php:399
 msgid "News"
 msgstr "חדשות"
 
-#: include/header.php:199 include/header.php:327
+#: include/header.php:259 include/header.php:389
 msgid "Project and Organization"
 msgstr "המיזם והעמותה"
 
-#: include/header.php:200 include/header.php:328
+#: include/header.php:260 include/header.php:390
 msgid "Team"
 msgstr "הצוות"
 
-#: include/header.php:201 include/header.php:330
+#: include/header.php:261 include/header.php:392
 msgid "Contact us"
 msgstr "יצירת קשר"
 
-#: include/header.php:202 include/header.php:331
+#: include/header.php:262 include/header.php:393
 msgid "Partners"
 msgstr "שותפים"
 
-#: include/header.php:203 include/header.php:332
+#: include/header.php:263 include/header.php:394
+msgid "Mirrors"
+msgstr "אתרי מראה"
+
+#: include/header.php:264 include/header.php:395
 msgid "Press center"
 msgstr "מרכז העיתונות"
 
-#: include/header.php:204 include/header.php:333
+#: include/header.php:265 include/header.php:396
 msgid "Events"
 msgstr "אירועים"
 
-#: include/header.php:205 include/header.php:334
+#: include/header.php:266 include/header.php:397
 msgid "Security center"
 msgstr "מרכז האבטחה"
 
-#: include/header.php:211
+#: include/header.php:272
 msgid "Download"
 msgstr "הורדה"
 
-#: include/header.php:212 include/header.php:291 index.php:28 vlc/index.php:22
+#: include/header.php:273 include/header.php:353 index.php:28 vlc/index.php:22
 #: vlc/index.php:39
 msgid "Features"
 msgstr "תכונות"
 
-#: include/header.php:213 include/header.php:292 index.php:29 vlc/index.php:23
+#: include/header.php:274 include/header.php:354 index.php:29 vlc/index.php:23
 #: vlc/index.php:65
 msgid "Screenshots"
 msgstr "צילומי מסך"
 
-#: include/header.php:214 include/header.php:289 index.php:30 vlc/index.php:24
+#: include/header.php:275 include/header.php:351 index.php:30 vlc/index.php:24
 msgid "Skins"
 msgstr "ערכות עיצוב"
 
-#: include/header.php:215 include/header.php:290
+#: include/header.php:276 include/header.php:352
 msgid "Extensions"
 msgstr "הרחבות"
 
-#: include/header.php:219
+#: include/header.php:280
 msgid "Projects"
 msgstr "מיזמים"
 
-#: include/header.php:236 include/header.php:296
+#: include/header.php:297 include/header.php:358
 msgid "All Projects"
 msgstr "כל המיזמים"
 
-#: include/header.php:240 index.php:119
+#: include/header.php:301 index.php:119
 msgid "Contribute"
 msgstr "התנדבות"
 
-#: include/header.php:242 include/header.php:320
+#: include/header.php:303 include/header.php:382
 msgid "Donate time"
 msgstr "התנדבות"
 
-#: include/header.php:243 include/header.php:319
+#: include/header.php:304 include/header.php:381
 msgid "Donate money"
 msgstr "תרומת כסף"
 
-#: include/header.php:244 include/header.php:321
+#: include/header.php:305 include/header.php:383
 msgid "Get Goodies"
 msgstr "קבלת פינוקים"
 
-#: include/header.php:248
+#: include/header.php:309
 msgid "Support"
 msgstr "תמיכה"
 
-#: include/header.php:250
+#: include/header.php:311
 msgid "Support center"
 msgstr "מרכז התמיכה"
 
-#: include/header.php:252 include/header.php:329 include/header.php:342
+#: include/header.php:312
+msgid "FAQ"
+msgstr "שו״ת"
+
+#: include/header.php:313 include/header.php:391 include/header.php:420
 msgid "Legal"
 msgstr "מידע משפטי"
 
-#: include/header.php:255 include/header.php:317
+#: include/header.php:315
+msgid "Forums"
+msgstr "פורומים"
+
+#: include/header.php:316 include/header.php:379
 msgid "Mailing-Lists"
 msgstr "רשימות דיוור"
 
-#: include/header.php:256
+#: include/header.php:317
 msgid "Report a bug"
 msgstr "דיווח על תקלה"
 
-#: include/header.php:260
+#: include/header.php:321
 msgid "Dev' Zone"
 msgstr "אזור המפתחים"
 
-#: include/header.php:313
+#: include/header.php:375
 msgid "Community"
 msgstr "קהילה"
 
-#: include/header.php:335
+#: include/header.php:398
 msgid "Get Involved"
 msgstr "מעורבות בפעילות"
 
-#: include/os-specific.php:85 vlc/index.php:27
+#: include/os-specific.php:88 vlc/index.php:27
 msgid "Download VLC"
 msgstr "הורדת VLC"
 
-#: include/os-specific.php:91 vlc/index.php:34
-msgid "Other Systems and Versions"
-msgstr "מערכות וגרסאות שונות"
+#: include/os-specific.php:94 vlc/index.php:34 vlc/index.php:128
+msgid "Other Systems"
+msgstr "מערכות אחרות"
 
 #: index.php:3
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
 msgstr "VLC: האתר הרשמי - פתרונות מולטימדיה חופשיים עבור כל מערכות ההפעלה!"
 
 #: index.php:26 vlc/index.php:20
-msgid ""
-"VLC is a free and open source cross-platform multimedia player and framework"
-" that plays most multimedia files as well as DVD, Audio CD, VCD, and various"
-" streaming protocols."
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
 msgstr "VLC הנו נגן מולטימדיה בקוד פתוח המיועד למגוון של מערכות הפעלה וגם תשתית המאפשרת נגינה של רוב קובצי המולטימדיה לרבות תקליטורי DVD, שמע, VCD ומגוון פרוטוקולים של הזרמת מדיה."
 
 #: index.php:36
@@ -186,14 +190,11 @@ msgid "For Everyone"
 msgstr "לכולם"
 
 #: index.php:44
-msgid ""
-"VLC is a powerful media player playing most of the media codecs and video "
-"formats out there."
+msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
 msgstr "VLC הנו נגן מדיה רב עצמה המסוגל לנגן את רוב מקודדי המדיה וסוגי הווידאו הקיימים."
 
 #: index.php:53
-msgid ""
-"VideoLAN Movie Creator is a non-linear editing software for video creation."
+msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
 msgstr "יוצר הסרטים של VideLAN הנו פתרון עריכה בלתי לינארית ליצירת וידאו."
 
 #: index.php:60
@@ -201,20 +202,15 @@ msgid "For Professionals"
 msgstr "למקצוענים"
 
 #: index.php:66
-msgid ""
-"DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
+msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
 msgstr "DVBlast הנו יישום פשוט ורב עצמה לפילוג והזרמה של MPEG-2/TS."
 
 #: index.php:74
-msgid ""
-"multicat is a set of tools designed to easily and efficiently manipulate "
-"multicast streams and TS."
+msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
 msgstr "multicast הנה חבילת כלים שייעודה הוא לעבוד מול זרמי multicast באופן פשוט ויעיל."
 
 #: index.php:83
-msgid ""
-"x264 is a free application for encoding video streams into the H.264/MPEG-4 "
-"AVC format."
+msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
 msgstr "x264 הנו יישום חופשית לקידוד של זרמי וידאו לתצורת H.264/MPEG-4 AVC."
 
 #: index.php:91
@@ -229,18 +225,12 @@ msgstr "צפייה בכל המיזמים"
 msgid "Help us out!"
 msgstr "בואו לסייע!"
 
-#: index.php:107
-msgid "Donate"
-msgstr "תרומה"
-
 #: index.php:111
 msgid "VideoLAN is a non-profit organization."
 msgstr "VideoLAN הנה עמותה ללא מטרות רווח."
 
 #: index.php:112
-msgid ""
-" All our costs are met by donations we receive from our users. If you enjoy "
-"using a VideoLAN product, please donate to support us."
+msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
 msgstr " כל העלויות שלנו מכוסות על ידי התרומות שאנו מקבלים מהמשתמשים שלנו. אם נהנית מהשימוש במוצר של VideoLAN אולי מוטב לשקול תרומה כספית לשם הבעת תמיכה."
 
 #: index.php:114 index.php:126 index.php:137
@@ -252,9 +242,7 @@ msgid "VideoLAN is open-source software."
 msgstr "VideoLAN הנה תכנה בקוד פתוח."
 
 #: index.php:124
-msgid ""
-"This means that if you have the skill and the desire to improve one of our "
-"products, your contributions are welcome"
+msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
 msgstr "משמעות הדבר היא שאם יש לך את המיומנויות לפיתוח המוצרים שלנו אז תרומותיך יתקבלו בברכה"
 
 #: index.php:131
@@ -262,20 +250,18 @@ msgid "Spread the Word"
 msgstr "הפצת הרעיון"
 
 #: index.php:135
-msgid ""
-"We feel that VideoLAN has the best video software available at the best "
-"price: free. If you agree please help spread the word about our software."
+msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
 msgstr "אנו סבורים ש־VideoLAN היא תכנת הווידאו הטובה ביותר הקיימת במחיר הטוב ביותר: חינם. אם הסברה מקובלת עליך אולי מוטב שתמיכתך תהיה בצורת הפצת התכנה ברבים."
 
-#: index.php:407
+#: index.php:147
 msgid "News &amp; Updates"
 msgstr "חדשות ועדכונים"
 
-#: index.php:411
+#: index.php:151
 msgid "Development Blogs"
 msgstr "בלוגים של מפתחים"
 
-#: index.php:434
+#: index.php:176
 msgid "Social media"
 msgstr "מדיה חברתית"
 
@@ -335,6 +321,14 @@ msgstr "כמו כן, ניתן להוריד ישירות את"
 msgid "source code"
 msgstr "קוד המקור"
 
-#: vlc/index.php:128
-msgid "Other OS"
-msgstr "מערכת הפעלה אחרת"
+#~ msgid "DONATE"
+#~ msgstr "תרומה"
+
+#~ msgid "Other Systems and Versions"
+#~ msgstr "מערכות וגרסאות שונות"
+
+#~ msgid "Donate"
+#~ msgstr "תרומה"
+
+#~ msgid "Other OS"
+#~ msgstr "מערכת הפעלה אחרת"

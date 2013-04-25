@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-15 22:15+0200\n"
-"PO-Revision-Date: 2013-04-20 15:19+0000\n"
+"POT-Creation-Date: 2013-04-25 16:06+0200\n"
+"PO-Revision-Date: 2013-04-25 18:09+0000\n"
 "Last-Translator: Thomas De Rocker <thomasderocker@hotmail.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/projects/p/vlc-trans/language/nl/)\n"
 "Language: nl\n"
@@ -133,9 +133,17 @@ msgstr "Ondersteuning"
 msgid "Support center"
 msgstr "Ondersteuningscentrum"
 
+#: include/header.php:312
+msgid "FAQ"
+msgstr "FAQ"
+
 #: include/header.php:313 include/header.php:391 include/header.php:420
 msgid "Legal"
 msgstr "Rechten"
+
+#: include/header.php:315
+msgid "Forums"
+msgstr "Forums"
 
 #: include/header.php:316 include/header.php:379
 msgid "Mailing-Lists"

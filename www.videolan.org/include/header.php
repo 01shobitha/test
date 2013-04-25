@@ -375,9 +375,9 @@ function footer($tag = "", $alternate_lang=array()) {
             <div class='footerHeading'><?php echo _("Community"); ?></div>
             <ul>
                  <li><a href='http://wiki.videolan.org/'>Wiki</a></li>
-                 <li><a href='http://forum.videolan.org/'>Forums</a></li>
+                 <li><a href='http://forum.videolan.org/'><?php echo _("Forums"); ?></a></li>
                  <li><a href='//www.videolan.org/support/lists.php'><?php echo _("Mailing-Lists"); ?></a></li>
-                 <li><a href='//www.videolan.org/support/faq.html'>FAQ</a></li>
+                 <li><a href='//www.videolan.org/support/faq.html'><?php echo _("FAQ"); ?></a></li>
                  <li><a href='//www.videolan.org/contribute.html'><?php echo _("Donate money"); ?></a></li>
                  <li><a href='//www.videolan.org/contribute.html'><?php echo _("Donate time"); ?></a></li>
                  <li><a href='//www.videolan.org/goodies.html'><?php echo _("Get Goodies"); ?></a></li>

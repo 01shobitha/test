@@ -97,8 +97,8 @@ function start_head( $title,
         DVD, Matroska, Blu-Ray, FLV, Xvid, MPEG, MPEG2, MPEG4, H264, DivX, VideoLAN, MKV, m2ts,
         open source, free software, floss, free" />
 
-        <meta name="Description" content="<?php echo $title; ?>" />
-        <title>VideoLAN - <?php echo $title; ?></title>
+        <meta name="Description" content="<?php echo _( $title ); ?>" />
+        <title>VideoLAN - <?php echo _( $title ); ?></title>
 
         <?php /* Additional Meta */
             if( isset($additional_meta) ) {

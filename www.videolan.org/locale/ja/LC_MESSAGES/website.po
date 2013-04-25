@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-15 22:15+0200\n"
-"PO-Revision-Date: 2013-04-24 14:54+0000\n"
+"POT-Creation-Date: 2013-04-25 16:06+0200\n"
+"PO-Revision-Date: 2013-04-25 14:28+0000\n"
 "Last-Translator: Fumio Nakayama <fumio.n6a@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/vlc-trans/language/ja/)\n"
 "Language: ja\n"
@@ -133,9 +133,17 @@ msgstr "サポート"
 msgid "Support center"
 msgstr "サポートセンター"
 
+#: include/header.php:312
+msgid "FAQ"
+msgstr "FAQ"
+
 #: include/header.php:313 include/header.php:391 include/header.php:420
 msgid "Legal"
 msgstr "利用条件"
+
+#: include/header.php:315
+msgid "Forums"
+msgstr "フォーラム"
 
 #: include/header.php:316 include/header.php:379
 msgid "Mailing-Lists"

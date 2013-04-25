@@ -15,7 +15,7 @@ function browse_old( $fold )
 
 
 function getDownloadLink($project, $version, $name) {
-    return "http://get.videolan.org/$project/$version/$name";
+    return "//get.videolan.org/$project/$version/$name";
 }
 
 function pkgversion($name,$version)
@@ -51,7 +51,7 @@ function sf_money()
 function pkgitem_sf($description,$version,$name,$top,$extradescription="",$md5="" )
 {
     pkgversion($top, $version);
-    echo "<a id='downloadButton' href='http://get.videolan.org/$top/$version/$name'>\n";
+    echo "<a id='downloadButton' href='//get.videolan.org/$top/$version/$name'>\n";
     echo "<img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />\n";
     echo "<span class='downloadText'>$description</span>";
     echo "<span id='downloadDetails' style='font-size: 12px; color: white;'>$extradescription</span>";
@@ -62,6 +62,6 @@ function pkgitem_sf($description,$version,$name,$top,$extradescription="",$md5="
 function pkgitem($description,$version,$name,$top,$extradescription="")
 {
   pkgversion($top, $version);
-  echo "<p><a href=\"http://get.videolan.org/$top/$version/$name\">$description</a> <i>$extradescription</i> (".DownloadSize("/opt/ftp/pub/videolan/$top/$version/$name").")</p>";
+  echo "<p><a href=\"//get.videolan.org/$top/$version/$name\">$description</a> <i>$extradescription</i> (".DownloadSize("/opt/ftp/pub/videolan/$top/$version/$name").")</p>";
 }
 ?>

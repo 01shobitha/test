@@ -3,7 +3,7 @@ $win32version = '2.0.6';
 $macosxversion = '2.0.6';
 $version = '2.0.6';
 
-$dlBase = "http://get.videolan.org/vlc";
+$dlBase = "//get.videolan.org/vlc";
 $dlUrl = "$dlBase/$win32version/win32/vlc-$win32version-win32.exe";
 
 function replaceDLinfos( )

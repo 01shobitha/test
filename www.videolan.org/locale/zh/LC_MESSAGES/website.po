@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-15 22:15+0200\n"
-"PO-Revision-Date: 2013-04-14 14:04+0000\n"
+"POT-Creation-Date: 2013-04-25 16:06+0200\n"
+"PO-Revision-Date: 2013-04-26 08:12+0000\n"
 "Last-Translator: Dean Lee <xslidian@gmail.com>\n"
 "Language-Team: Chinese (China) <vlc@lidian.info>\n"
 "Language: zh_CN\n"
@@ -65,7 +65,7 @@ msgstr "合作伙伴"
 
 #: include/header.php:263 include/header.php:394
 msgid "Mirrors"
-msgstr ""
+msgstr "镜像列表"
 
 #: include/header.php:264 include/header.php:395
 msgid "Press center"
@@ -133,9 +133,17 @@ msgstr "支持"
 msgid "Support center"
 msgstr "支持中心"
 
+#: include/header.php:312
+msgid "FAQ"
+msgstr "常见问题"
+
 #: include/header.php:313 include/header.php:391 include/header.php:420
 msgid "Legal"
 msgstr "法律"
+
+#: include/header.php:315
+msgid "Forums"
+msgstr "论坛"
 
 #: include/header.php:316 include/header.php:379
 msgid "Mailing-Lists"

@@ -6,13 +6,14 @@
 # Christoph Miebach <christoph.miebach@web.de>, 2012-2013
 # Daniel Klischies <daniel.klischies@freenet.de>, 2011
 # Felix Paul Kühne <fkuehne@videolan.org>, 2012
+# Mario Siegmann <mario_siegmann@web.de>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-15 22:15+0200\n"
-"PO-Revision-Date: 2013-04-06 11:21+0000\n"
-"Last-Translator: Christoph Miebach <christoph.miebach@web.de>\n"
+"POT-Creation-Date: 2013-04-25 16:06+0200\n"
+"PO-Revision-Date: 2013-04-26 18:46+0000\n"
+"Last-Translator: Mario Siegmann <mario_siegmann@web.de>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/vlc-trans/language/de/)\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -67,7 +68,7 @@ msgstr "Partner"
 
 #: include/header.php:263 include/header.php:394
 msgid "Mirrors"
-msgstr ""
+msgstr "Spiegel-Server"
 
 #: include/header.php:264 include/header.php:395
 msgid "Press center"
@@ -135,9 +136,17 @@ msgstr "Hilfe"
 msgid "Support center"
 msgstr "Hilfezentrum"
 
+#: include/header.php:312
+msgid "FAQ"
+msgstr "FAQ"
+
 #: include/header.php:313 include/header.php:391 include/header.php:420
 msgid "Legal"
 msgstr "Rechtliches"
+
+#: include/header.php:315
+msgid "Forums"
+msgstr "Foren"
 
 #: include/header.php:316 include/header.php:379
 msgid "Mailing-Lists"

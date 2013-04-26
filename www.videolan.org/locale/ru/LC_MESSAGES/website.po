@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Alexander Lakhin <exclusion@gmail.com>, 2013.
+# Alexander Lakhin <exclusion@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-15 22:15+0200\n"
-"PO-Revision-Date: 2013-04-15 17:12+0000\n"
+"POT-Creation-Date: 2013-04-25 16:06+0200\n"
+"PO-Revision-Date: 2013-04-26 14:49+0000\n"
 "Last-Translator: law <exclusion@gmail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/vlc-trans/language/ru/)\n"
 "Language: ru\n"
@@ -65,7 +65,7 @@ msgstr "Партнёры"
 
 #: include/header.php:263 include/header.php:394
 msgid "Mirrors"
-msgstr ""
+msgstr "Зеркала"
 
 #: include/header.php:264 include/header.php:395
 msgid "Press center"
@@ -133,9 +133,17 @@ msgstr "Поддержка"
 msgid "Support center"
 msgstr "Центр поддержки"
 
+#: include/header.php:312
+msgid "FAQ"
+msgstr "ЧаВо"
+
 #: include/header.php:313 include/header.php:391 include/header.php:420
 msgid "Legal"
 msgstr "Правовая информация"
+
+#: include/header.php:315
+msgid "Forums"
+msgstr "Форумы"
 
 #: include/header.php:316 include/header.php:379
 msgid "Mailing-Lists"

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-15 22:15+0200\n"
-"PO-Revision-Date: 2013-04-07 23:44+0000\n"
+"POT-Creation-Date: 2013-04-25 16:06+0200\n"
+"PO-Revision-Date: 2013-04-26 00:50+0000\n"
 "Last-Translator: Aputsiaĸ Niels Janussen <aj@isit.gl>\n"
 "Language-Team: Danish (http://www.transifex.com/projects/p/vlc-trans/language/da/)\n"
 "Language: da\n"
@@ -65,7 +65,7 @@ msgstr "Partnere"
 
 #: include/header.php:263 include/header.php:394
 msgid "Mirrors"
-msgstr ""
+msgstr "Spejlservere"
 
 #: include/header.php:264 include/header.php:395
 msgid "Press center"
@@ -133,9 +133,17 @@ msgstr "Brugerhjælp"
 msgid "Support center"
 msgstr "Brugerhjælp-center"
 
+#: include/header.php:312
+msgid "FAQ"
+msgstr "O.S.S."
+
 #: include/header.php:313 include/header.php:391 include/header.php:420
 msgid "Legal"
 msgstr "Juridisk"
+
+#: include/header.php:315
+msgid "Forums"
+msgstr "Fora"
 
 #: include/header.php:316 include/header.php:379
 msgid "Mailing-Lists"

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-15 22:15+0200\n"
-"PO-Revision-Date: 2013-04-07 19:03+0000\n"
+"POT-Creation-Date: 2013-04-25 16:06+0200\n"
+"PO-Revision-Date: 2013-04-27 20:19+0000\n"
 "Last-Translator: Adnan Memija <sream_92@live.com>\n"
 "Language-Team: Bosnian (http://www.transifex.com/projects/p/vlc-trans/language/bs/)\n"
 "Language: bs\n"
@@ -65,7 +65,7 @@ msgstr "Partneri"
 
 #: include/header.php:263 include/header.php:394
 msgid "Mirrors"
-msgstr ""
+msgstr "Linkovi"
 
 #: include/header.php:264 include/header.php:395
 msgid "Press center"
@@ -133,9 +133,17 @@ msgstr "Podrška"
 msgid "Support center"
 msgstr "Centar za podršku"
 
+#: include/header.php:312
+msgid "FAQ"
+msgstr "Česta pitanja"
+
 #: include/header.php:313 include/header.php:391 include/header.php:420
 msgid "Legal"
 msgstr "Pravno"
+
+#: include/header.php:315
+msgid "Forums"
+msgstr "Forumi"
 
 #: include/header.php:316 include/header.php:379
 msgid "Mailing-Lists"

@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# David González <pico.dev@gmail.com>, 2012-2013.
+# David González <pico.dev@gmail.com>, 2012-2013
 # Enrique Cabrera <ecabrera9@ymail.com>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-15 22:15+0200\n"
-"PO-Revision-Date: 2013-04-15 08:27+0000\n"
+"POT-Creation-Date: 2013-04-25 16:06+0200\n"
+"PO-Revision-Date: 2013-04-27 02:50+0000\n"
 "Last-Translator: picodotdev <pico.dev@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/vlc-trans/language/es/)\n"
 "Language: es\n"
@@ -66,7 +66,7 @@ msgstr "Socios"
 
 #: include/header.php:263 include/header.php:394
 msgid "Mirrors"
-msgstr ""
+msgstr "Réplicas"
 
 #: include/header.php:264 include/header.php:395
 msgid "Press center"
@@ -134,9 +134,17 @@ msgstr "Soporte"
 msgid "Support center"
 msgstr "Centro de soporte"
 
+#: include/header.php:312
+msgid "FAQ"
+msgstr "Preguntas frecuentes"
+
 #: include/header.php:313 include/header.php:391 include/header.php:420
 msgid "Legal"
 msgstr "Legal"
+
+#: include/header.php:315
+msgid "Forums"
+msgstr "Foros"
 
 #: include/header.php:316 include/header.php:379
 msgid "Mailing-Lists"

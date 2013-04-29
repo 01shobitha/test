@@ -109,7 +109,6 @@ function start_head( $title,
 
         <?php /* Favicon */ ?>
         <link rel="shortcut icon" type="image/x-icon" href="//images.videolan.org/images/favicon.ico" />
-        <link href="https://plus.google.com/104597325891170264649" rel="publisher" />
 
         <?php /* RSS */ ?>
         <link rel="alternate" type="application/rss+xml" title="RSS - VideoLAN News" href="//images.videolan.org/videolan-news.rss" />
@@ -129,6 +128,10 @@ function start_head( $title,
 
         <?php /* CSS */ ?>
         <link rel="stylesheet" type="text/css" href="//images.videolan.org/style/style.css" />
+
+        <?php /* Misc */ ?>
+        <link rel="dns-prefetch" href="//get.videolan.org" />
+        <link href="https://plus.google.com/104597325891170264649" rel="publisher" />
 
         <?php if( isset($additional_css) ) {
             foreach($additional_css as $css) {

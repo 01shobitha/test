@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-15 22:15+0200\n"
-"PO-Revision-Date: 2013-04-10 06:05+0000\n"
+"POT-Creation-Date: 2013-04-25 16:06+0200\n"
+"PO-Revision-Date: 2013-04-29 07:49+0000\n"
 "Last-Translator: Sveinn í Felli <sveinki@nett.is>\n"
 "Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
 "Language: is\n"
@@ -65,7 +65,7 @@ msgstr "Samstarfsaðilar"
 
 #: include/header.php:263 include/header.php:394
 msgid "Mirrors"
-msgstr ""
+msgstr "Speglar"
 
 #: include/header.php:264 include/header.php:395
 msgid "Press center"
@@ -133,9 +133,17 @@ msgstr "Aðstoð"
 msgid "Support center"
 msgstr "Hjálparmiðstöð"
 
+#: include/header.php:312
+msgid "FAQ"
+msgstr "Algengar spurningar - FAQ"
+
 #: include/header.php:313 include/header.php:391 include/header.php:420
 msgid "Legal"
 msgstr "Lagalegt"
+
+#: include/header.php:315
+msgid "Forums"
+msgstr "Spjallsvæði"
 
 #: include/header.php:316 include/header.php:379
 msgid "Mailing-Lists"

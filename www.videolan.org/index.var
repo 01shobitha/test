@@ -88,6 +88,10 @@ URI: index.mr.html
 Content-type: text/html
 Content-language: mr
 
+URI: index.my.html
+Content-type: text/html
+Content-language: my
+
 URI: index.nb.html
 Content-type: text/html
 Content-language: nb

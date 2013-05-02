@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-15 22:15+0200\n"
-"PO-Revision-Date: 2013-04-13 17:06+0000\n"
+"POT-Creation-Date: 2013-04-25 16:06+0200\n"
+"PO-Revision-Date: 2013-05-02 18:08+0000\n"
 "Last-Translator: mhikanik <mhikanik@users.sourceforge.net>\n"
 "Language-Team: Slovak (http://www.transifex.com/projects/p/vlc-trans/language/sk/)\n"
 "Language: sk\n"
@@ -65,7 +65,7 @@ msgstr "Partneri"
 
 #: include/header.php:263 include/header.php:394
 msgid "Mirrors"
-msgstr ""
+msgstr "Zrkadlové servery"
 
 #: include/header.php:264 include/header.php:395
 msgid "Press center"
@@ -133,9 +133,17 @@ msgstr "Podpora"
 msgid "Support center"
 msgstr "Centrum podpory"
 
+#: include/header.php:312
+msgid "FAQ"
+msgstr "Najčastejšie kladené otázky"
+
 #: include/header.php:313 include/header.php:391 include/header.php:420
 msgid "Legal"
 msgstr "Právne informácie"
+
+#: include/header.php:315
+msgid "Forums"
+msgstr "Fóra"
 
 #: include/header.php:316 include/header.php:379
 msgid "Mailing-Lists"

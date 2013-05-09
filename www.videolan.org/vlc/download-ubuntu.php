@@ -11,9 +11,10 @@
 <div id="left">
 
 <h2>
-Ubuntu 12.10 <span style='font-size: smaller'>(quantal)</span><br />
-Ubuntu 12.04 <span style='font-size: smaller'>(precise)</span><br />
-Ubuntu 11.10 <span style='font-size: smaller'>(oneiric)</span><br />
+Ubuntu 13.10 <span style='font-size: smaller'>(Saucy Salamander)</span><br />
+Ubuntu 13.04 <span style='font-size: smaller'>(Raring Ringtail)</span><br />
+Ubuntu 12.10 <span style='font-size: smaller'>(Quantal Quetzal)</span><br />
+Ubuntu 12.04 LTS <span style='font-size: smaller'>(Precise Pangolin)</span><br />
 </h2>
 
 <h3>Quick install</h3>
@@ -29,10 +30,9 @@ In Settings -&gt; Repositories, make sure you have an
 
 <p>Search for <kbd>vlc</kbd> and install it,
 as well as <kbd>vlc-plugin-pulse</kbd>.
-You may also want to install <kbd>mozilla-plugin-vlc</kbd>.</p>
+You may also want to install <kbd>browser-plugin-vlc</kbd>.</p>
 <p>If you are interested in streaming or transcoding,
-you should additionnally install <kbd>libavcodec-extra-52</kbd>
-from a <code>multiverse</code> repository.</p>
+you should additionnally install <kbd>libavcodec-extra-53</kbd>.</p>
 
 <h3>Command line way</h3>
 <p>You need to check that a <code>universe</code> mirror is listed
@@ -40,7 +40,7 @@ in your <code>/etc/apt/sources.list</code> file.
 <blockquote>
 <pre>
 % sudo apt-get update
-% sudo apt-get install vlc vlc-plugin-pulse mozilla-plugin-vlc
+% sudo apt-get install vlc vlc-plugin-pulse browser-plugin-vlc
 </pre>
 </blockquote>
 </p>
@@ -50,30 +50,10 @@ in your <code>/etc/apt/sources.list</code> file.
 at the time the Ubuntu release was <em>frozen</em>
 (typically about two months before the official Ubuntu upgrade).<br />
 Afterward, you can still get security and critical bug fixes,
-but no further VLC version updates until the next Ubuntu release.
+but no further major VLC version updates until the next Ubuntu release.
 </p>
 <p>If you need a more recent version, please consider upgrading Ubuntu.
 </p>
-
-<h2>Ubuntu 10.04 LTS <span style='font-size: smaller'>(lucid)</h2>
-<p><strong>VLC version 1.0.6 in Ubuntu 10.04 is severely out-of-date.</strong>
-We recommend you install VLC 1.1.x manually.</p>
-<p>If you wish to install VLC 1.0.6 anyway,
-please refer to the instructions above for Ubuntu 10.10.
-Note that there will be some bugs; you are on your own.
-</p>
-
-<p>
-<strong>At your OWN risks, install VLC from PPA:</strong>
-</p>
-<h3>Command line way</h3>
-<blockquote>
-<pre>
-% sudo add-apt-repository ppa:lucid-bleed/ppa
-% sudo apt-get update
-% sudo apt-get install vlc vlc-plugin-pulse mozilla-plugin-vlc
-</pre>
-</blockquote>
 
 </div>
 

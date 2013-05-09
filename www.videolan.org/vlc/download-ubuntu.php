@@ -22,9 +22,7 @@ Ubuntu 12.04 LTS <span style='font-size: smaller'>&ldquo;Precise Pangolin&rdquo;
 <a href="apt://vlc"><img src="http://developer.ubuntu.com/wp-content/uploads/2012/06/downloadonubuntubutton.png"  title="Download for Ubuntu" alt="Download for Ubuntu button" width="122" height="49" /></a>
 
 <h3>Graphical way</h3>
-<p>Open <b>Synaptic</b> application<br />
-Click on System -&gt; Administration -&gt; Synaptic Package Manager.<br />
-In Settings -&gt; Repositories.
+<p>Open <b>Synaptic</b> application (click on System -&gt; Administration -&gt; Synaptic Package Manager).
 </p>
 
 <p>Search for <kbd>vlc</kbd> and install it.

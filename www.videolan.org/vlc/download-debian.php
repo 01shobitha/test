@@ -15,14 +15,14 @@
 Add the <a href="http://backports-master.debian.org/Instructions/#index2h2">squeeze-backports repository</a> and install VLC: <code>sudo apt-get -t squeeze-backports install vlc</code>
 </p>
 
-<p> Without backports, you will end up with the very old version of VLC in vanilla squeeze (install vlc and mozilla-plugin-vlc as usual).</p>
+<p> Without backports, you will end up with the very old version of VLC in vanilla squeeze (install vlc and browser-plugin-vlc as usual).</p>
 
 
 <h2> Debian testing (wheezy) </h2>
 
 <p> VLC is in testing.<br />
 But due to the way testing works, we can't guarantee if the latest version is available.<br /> Install
-<code>vlc</code>, <code>mozilla-plugin-vlc</code>, the usual way you do it. </p>
+<code>vlc</code>, <code>browser-plugin-vlc</code>, the usual way you do it. </p>
 
 
 <h2> Debian unstable (sid) </h2>

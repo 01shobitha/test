@@ -11,10 +11,10 @@
 <div id="left">
 
 <h2>
-Ubuntu 13.10 <span style='font-size: smaller'>(Saucy Salamander)</span><br />
-Ubuntu 13.04 <span style='font-size: smaller'>(Raring Ringtail)</span><br />
-Ubuntu 12.10 <span style='font-size: smaller'>(Quantal Quetzal)</span><br />
-Ubuntu 12.04 LTS <span style='font-size: smaller'>(Precise Pangolin)</span><br />
+Ubuntu 13.10 <span style='font-size: smaller'>&ldquo;Saucy Salamander&rdquo;</span><br />
+Ubuntu 13.04 <span style='font-size: smaller'>&ldquo;Raring Ringtail&rdquo;</span><br />
+Ubuntu 12.10 <span style='font-size: smaller'>&ldquo;Quantal Quetzal&rdquo;</span><br />
+Ubuntu 12.04 LTS <span style='font-size: smaller'>&ldquo;Precise Pangolin&rdquo;</span><br />
 </h2>
 
 <h3>Quick install</h3>

@@ -4,13 +4,14 @@
 #
 # Translators:
 # Aputsiaĸ Niels Janussen <aj@isit.gl>, 2013
+# Kasper Tvede <kasper@webmasteren.eu>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-04-25 16:06+0200\n"
-"PO-Revision-Date: 2013-04-26 00:50+0000\n"
-"Last-Translator: Aputsiaĸ Niels Janussen <aj@isit.gl>\n"
+"PO-Revision-Date: 2013-05-06 22:57+0000\n"
+"Last-Translator: kasper Tvede <kasper@webmasteren.eu>\n"
 "Language-Team: Danish (http://www.transifex.com/projects/p/vlc-trans/language/da/)\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
@@ -203,7 +204,7 @@ msgstr "For professionelle"
 
 #: index.php:66
 msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
-msgstr "DVBlast er en simpel og effektiv MPEG-2/TS-demultiplekser og strømme-program."
+msgstr "DVBlast er et simpel og effektiv MPEG-2/TS-demultiplekser og strømme-program."
 
 #: index.php:74
 msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
@@ -231,7 +232,7 @@ msgstr "VideoLAN er en velgørende organisation"
 
 #: index.php:112
 msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
-msgstr "Alle vores udgifter dækkes gennem donationer, som vi modtgaer fra vores brugere. Hvis du føler glæde gennem brugen af et produkt fra VideoLAN, så donér venligst til os."
+msgstr "Alle vores udgifter dækkes gennem donationer, som vi modtager fra vores brugere. Hvis du føler glæde gennem brugen af et produkt fra VideoLAN, så donér venligst til os."
 
 #: index.php:114 index.php:126 index.php:137
 msgid "Learn More"

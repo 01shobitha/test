@@ -14,7 +14,7 @@ Summary           : Buffer Overflow in ASF Demuxer
 Date              : January 2013
 Affected versions : VLC media player 2.0.5 and earlier
 ID                : VideoLAN-SA-1302
-CVE reference     : CVE-XXXX-XXXX
+CVE reference     : CVE-2013-1954
 </pre>
 <h2>Details</h2>
 <p>When parsing a specially crafted ASF movie, a buffer overflow might occur.</p>

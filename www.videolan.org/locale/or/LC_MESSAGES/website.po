@@ -3,14 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Kanhu <holmessherlock21@gmail.com>, 2013
-# Prasannajit Acharya <holmessherlock21@gmail.com>, 2013.
+# Prasannajit Acharya <holmessherlock21@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-15 22:15+0200\n"
-"PO-Revision-Date: 2013-04-22 11:04+0000\n"
+"POT-Creation-Date: 2013-04-25 16:06+0200\n"
+"PO-Revision-Date: 2013-05-25 07:02+0000\n"
 "Last-Translator: Kanhu <holmessherlock21@gmail.com>\n"
 "Language-Team: Oriya (India) (http://www.transifex.com/projects/p/vlc-trans/language/or_IN/)\n"
 "Language: or_IN\n"
@@ -134,9 +133,17 @@ msgstr "ସମର୍ଥନ"
 msgid "Support center"
 msgstr "ସମର୍ଥନ କେନ୍ଦ୍ର"
 
+#: include/header.php:312
+msgid "FAQ"
+msgstr "ବାରମ୍ବାର ପଚରାଯାଉଥିବା ପ୍ରଶ୍ନ"
+
 #: include/header.php:313 include/header.php:391 include/header.php:420
 msgid "Legal"
 msgstr "କାନୁନୀ"
+
+#: include/header.php:315
+msgid "Forums"
+msgstr "ବିଚାର ମଂଚ"
 
 #: include/header.php:316 include/header.php:379
 msgid "Mailing-Lists"

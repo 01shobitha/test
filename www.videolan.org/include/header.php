@@ -12,6 +12,7 @@ function getLocaleFromLanguage( $language )
     case 'by': $locale = "by_BY.UTF-8"; break;
     case 'ca': $locale = "ca_ES.utf8"; break;
     case 'cs': $locale = "cs_CZ.UTF-8"; break;
+    case 'cy': $locale = "cy_GB.utf8"; break;
     case 'da': $locale = "da_DK.utf8"; break;
     case 'de': $locale = "de_DE.UTF-8"; break;
     case 'dk': $locale = "da_DK.UTF-8"; break;

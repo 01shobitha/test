@@ -29,7 +29,11 @@ locales: index.an.php index.ast.php index.bg.php index.bn_IN.php index.bs.php in
          index.hr.php \
          index.is.php \
          index.it.php \
-         index.ja.php index.km.php index.mk.php index.mr.php \
+         index.ja.php \
+         index.km.php \
+         index.kn.php \
+         index.mk.php \
+         index.mr.php \
          index.my.php \
          index.nb.php index.nl.php index.or.php \
          index.pl.php index.pt.php index.pt_BR.php index.ro.php index.ru.php index.sk.php index.sr.php index.th.php index.tr.php \

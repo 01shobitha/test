@@ -1,0 +1,322 @@
+# Kannada translation
+# Copyright (C) 2013 VideoLAN
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# yogi <yogesh@karnatakaeducation.org.in>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: VLC - Trans\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-25 16:06+0200\n"
+"PO-Revision-Date: 2013-05-25 21:23+0000\n"
+"Last-Translator: yogi <yogesh@karnatakaeducation.org.in>\n"
+"Language-Team: Kannada (http://www.transifex.com/projects/p/vlc-trans/language/kn/)\n"
+"Language: kn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: include/header.php:197
+msgid "A project and a"
+msgstr "ಒಂದು ಯೋಜನೆ ಹಾಗೂ"
+
+#: include/header.php:197
+msgid "non-profit organization"
+msgstr "ಲಾಭರಹಿತ ಸಂಸ್ಥೆ"
+
+#: include/header.php:198
+msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
+msgstr "ಸ್ವಯಂಸೇವಕರನ್ನೊಳಗೊಂಡ ಸ್ವತಂತ್ರ, ಮುಕ್ತ ಬಹುಮಾಧ್ಯಮ ಪರಿಹಾರಗಳನ್ನು ಅಭಿವೃದ್ಧಿ ಹಾಗೂ ಪ್ರವರ್ತಿಸುತ್ತದೆ."
+
+#: include/header.php:204 include/header.php:218 include/header.php:232
+#: index.php:107
+msgid "donate"
+msgstr "ದೇಣಿಗೆ"
+
+#: include/header.php:204
+msgid "why?"
+msgstr "ಏಕೆ?"
+
+#: include/header.php:251
+msgid "Home"
+msgstr "ಮುಖಪುಟ"
+
+#: include/header.php:254 include/header.php:399
+msgid "News"
+msgstr "ಸುದ್ದಿ"
+
+#: include/header.php:259 include/header.php:389
+msgid "Project and Organization"
+msgstr "ಯೋಜನೆ ಹಾಗೂ ಸಂಸ್ಥೆ"
+
+#: include/header.php:260 include/header.php:390
+msgid "Team"
+msgstr "ತಂಡ"
+
+#: include/header.php:261 include/header.php:392
+msgid "Contact us"
+msgstr "ಸಂಪರ್ಕಿಸಿ"
+
+#: include/header.php:262 include/header.php:393
+msgid "Partners"
+msgstr "ಪಾಲುದಾರರು"
+
+#: include/header.php:263 include/header.php:394
+msgid "Mirrors"
+msgstr "ಡೌನ್ಲೋಡ್ ಕನ್ನಡಿಗಳು"
+
+#: include/header.php:264 include/header.php:395
+msgid "Press center"
+msgstr "ಪತ್ರಿಕಾ ಕೇಂದ್ರ"
+
+#: include/header.php:265 include/header.php:396
+msgid "Events"
+msgstr "ಕಾರ್ಯಕ್ರಮಗಳು"
+
+#: include/header.php:266 include/header.php:397
+msgid "Security center"
+msgstr "ಭದ್ರತಾ ಕೇಂದ್ರ"
+
+#: include/header.php:272
+msgid "Download"
+msgstr "ಡೌನ್ಲೋಡ್"
+
+#: include/header.php:273 include/header.php:353 index.php:28 vlc/index.php:22
+#: vlc/index.php:39
+msgid "Features"
+msgstr "ವೈಶಿಷ್ಟ್ಯಗಳು"
+
+#: include/header.php:274 include/header.php:354 index.php:29 vlc/index.php:23
+#: vlc/index.php:65
+msgid "Screenshots"
+msgstr "ತೆರೆಚಿತ್ರಗಳು"
+
+#: include/header.php:275 include/header.php:351 index.php:30 vlc/index.php:24
+msgid "Skins"
+msgstr "ಸ್ಕಿನ್ಸ್"
+
+#: include/header.php:276 include/header.php:352
+msgid "Extensions"
+msgstr "ವಿಸ್ತರಣೆಗಳು"
+
+#: include/header.php:280
+msgid "Projects"
+msgstr "ಯೋಜನೆಗಳು"
+
+#: include/header.php:297 include/header.php:358
+msgid "All Projects"
+msgstr "ಎಲ್ಲಾ ಯೋಜನೆಗಳು"
+
+#: include/header.php:301 index.php:119
+msgid "Contribute"
+msgstr "ಕೊಡುಗೆ"
+
+#: include/header.php:303 include/header.php:382
+msgid "Donate time"
+msgstr "ಸಮಯ ನೀಡಿ"
+
+#: include/header.php:304 include/header.php:381
+msgid "Donate money"
+msgstr "ಧನ ಸಹಾಯ"
+
+#: include/header.php:305 include/header.php:383
+msgid "Get Goodies"
+msgstr "ಉಡುಗೊರೆ ಪಡೆಯಿರಿ"
+
+#: include/header.php:309
+msgid "Support"
+msgstr "ಬೆಂಬಲ"
+
+#: include/header.php:311
+msgid "Support center"
+msgstr "ನೆರವು ಕೇಂದ್ರ"
+
+#: include/header.php:312
+msgid "FAQ"
+msgstr "ತುಂಬಾ ಕೇಳಲಾಗುವ ಪ್ರಶ್ನೆಗಳು"
+
+#: include/header.php:313 include/header.php:391 include/header.php:420
+msgid "Legal"
+msgstr "ಕಾನೂನಿಗೆ ಸಂಬಂಧಿಸಿದ"
+
+#: include/header.php:315
+msgid "Forums"
+msgstr "ಚರ್ಚಾ ವೇದಿಕೆಗಳು"
+
+#: include/header.php:316 include/header.php:379
+msgid "Mailing-Lists"
+msgstr "ಮೇಲಿಂಗ್ - ಪಟ್ಟಿ"
+
+#: include/header.php:317
+msgid "Report a bug"
+msgstr "ದೋಷವನ್ನು ವರದಿಮಾಡಿ"
+
+#: include/header.php:321
+msgid "Dev' Zone"
+msgstr "ಅಭಿವೃದ್ಧಿಕಾರರ ವಲಯ"
+
+#: include/header.php:375
+msgid "Community"
+msgstr "ಸಮುದಾಯ"
+
+#: include/header.php:398
+msgid "Get Involved"
+msgstr "ತೊಡಗಿಸಿಕೊಳ್ಳಿ"
+
+#: include/os-specific.php:88 vlc/index.php:27
+msgid "Download VLC"
+msgstr "ವಿ ಲ್ ಸಿ ಡೌನ್ಲೋಡ್ ಮಾಡಿ"
+
+#: include/os-specific.php:94 vlc/index.php:34 vlc/index.php:128
+msgid "Other Systems"
+msgstr "ಇತರೆ ವ್ಯವಸ್ಥೆಗಳು"
+
+#: index.php:3
+msgid "VLC: Official site - Free multimedia solutions for all OS!"
+msgstr "ವಿ ಎಲ್ ಸಿ: ಅಧಿಕೃತ ಜಾಲತಾಣ - ಎಲ್ಲಾ ಕಾರ್ಯಾಚರಣಾ ವ್ಯವಸ್ಥೆಗಳಿಗೆ ಸ್ವಾತಂತ್ರ್ಯ ಬಹುಮಾಧ್ಯಮ ಪರಿಹಾರ!"
+
+#: index.php:26 vlc/index.php:20
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
+msgstr "ವಿ ಲ್ ಸಿ  ಬಹುತೇಕ ಬಹುಮಾಧ್ಯಮ ಕಡತಗಳನ್ನು ಹಾಗೂ ಡಿವಿಡಿ, ಆಡಿಯೋ ಸಿಡಿ, ವಿಸಿಡಿಗಳನ್ನು ಆಡಿಸಬಲ್ಲ ಒಂದು ಸ್ವತಂತ್ರ್ಯ ಮತ್ತು ಮುಕ್ತ, ಮಿಶ್ರ ವೇದಿಕೆಯಲ್ಲಿ ಬಳಸಬಲ್ಲ ತಂತ್ರಾಂಶ."
+
+#: index.php:36
+msgid "Other projects from VideoLAN"
+msgstr "ವಿಡಿಯೊ ಲ್ಯಾನ್ ನಿಂದ ಇತರೆ ಯೋಜನೆಗಳು"
+
+#: index.php:38
+msgid "For Everyone"
+msgstr "ಎಲ್ಲಾರಿಗಾಗಿ"
+
+#: index.php:44
+msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
+msgstr "VLC ಯು ಎಲ್ಲಾ ತರಹದ ಮೀಡಿಯಾ ಕೋಡೆಕ್ ಗಳನ್ನು  ಹಾಗೂ ವೀಡಿಯೋಗಳನ್ನು ಹಾಡಿಸಬಲ್ಲ ಒಂದು ಶಕ್ತಿಶಾಲಿ ತಂತ್ರಾಶವಾಗಿದೆ."
+
+#: index.php:53
+msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
+msgstr "ವಿಡಿಯೋ ಲ್ಯಾನ್ ಚಲನಚಿತ್ರ ತಯಾರಿಕೆ ತಂತ್ರಾಶವು ವೀಡಿಯೋ ತಯಾರಿಕೆಯ ರೇಖಾತ್ಮಕವಲ್ಲದ ಸಂಪಾದಿಸುವ ತಂತ್ರಾಂಶವಾಗಿದೆ."
+
+#: index.php:60
+msgid "For Professionals"
+msgstr "ವೃತ್ತಿಪರರಿಗಾಗಿ"
+
+#: index.php:66
+msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
+msgstr "DVBlast ಅನ್ನುವುದು ಒಂದು ಸರಳ ಹಾಗೂ ಶಕ್ತಿಶಾಲಿ MPEG-2/TS ಡಿಮಕ್ಸ್ ಹಾಗೂ ಸ್ಟ್ರೀಮಿಂಗ್ ತಂತ್ರಾಶವಾಗಿದೆ."
+
+#: index.php:74
+msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
+msgstr "multicat ಅನ್ನುವುದು ಸರಳವಾಗಿ ಹಾಗೂ ಉತ್ತಮವಾಗಿ multicast ಸ್ಟ್ರೀಮಿಂಗಳನ್ನು ಮತ್ತು TS ಅನ್ನು ಕುಶಲತೆಯಿಂದ ನಿರ್ವಹಿಸಲು ಬೇಕಾದ ಪರಿಕರಣಗಳ ಒಂದು ಗಣ. "
+
+#: index.php:83
+msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
+msgstr "x264 ಅನ್ನುವುದು ವೀಡಿಯೋ  ಸ್ಟ್ರೀಮಿಂಗಳನ್ನು H.264/MPEG-4 AVC format ಗೆ ಎನ್ಕೋಡಿಂಗ್ ಮಾಡಲು ಬಳಸುವ ಒಂದು ಉಚಿತ ತಂತ್ರಾಶ."
+
+#: index.php:91
+msgid "For Developers"
+msgstr "ಅಭಿವೃದ್ಧಿ ಪಡಿಸುವವರಿಗಾಗಿ"
+
+#: index.php:102
+msgid "View All Projects"
+msgstr "ಎಲ್ಲ ಯೋಜನೆಗಳನ್ನು ನೋಡಿ"
+
+#: index.php:105
+msgid "Help us out!"
+msgstr "ನಮಗೆ ಸಹಾಯ ಮಾಡಿ!"
+
+#: index.php:111
+msgid "VideoLAN is a non-profit organization."
+msgstr "ವಿಡಿಯೋ ಲ್ಯಾನ್ ಒಂದು ಲಾಭರಹಿತ ಸಂಸ್ಥೆ."
+
+#: index.php:112
+msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
+msgstr "ಎಲ್ಲಾ ಕರ್ಚು-ವೆಚ್ಚಗಳು ಬಳಕೆದಾರರ ಕೊಡುಗೆಗಳಿಂದ ಪೂರೈಸಲಾಗುತ್ತದೆ. ನಿಮಗೆ ವಿಡಿಯೋ ಲ್ಯಾನ್ ತಂತ್ರಾಶ ಖುಷಿ ಕೊಟ್ಟರೆ, ದಯವಿಟ್ಟು ಇಲ್ಲಿ ದೇಣಿಗೆ ನೀಡಿ"
+
+#: index.php:114 index.php:126 index.php:137
+msgid "Learn More"
+msgstr "ಹೆಚ್ಚು ತಿಳಿದುಕೊಳ್ಳಿ"
+
+#: index.php:123
+msgid "VideoLAN is open-source software."
+msgstr "ವಿಡಿಯೋ ಲ್ಯಾನ್ ಒಂದು ಮುಕ್ತ ತಂತ್ರಾಶ."
+
+#: index.php:124
+msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
+msgstr "ಇದರರ್ಥ, ನಿಮಗೆ ಕೌಶಲ್ಯ ಹಾಗೂ ಈಚ್ಚೆ ಇದ್ದರೆ ನಮ್ಮ ತಂತ್ರಾಶವನ್ನು ಅಭಿವೃದ್ಧಿ ಪಡಿಸಲು ನಿಮಗೂ ಸ್ವಾಗತ."
+
+#: index.php:131
+msgid "Spread the Word"
+msgstr "ಎಲ್ಲರಿಗೂ ಹೇಳಿ"
+
+#: index.php:135
+msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
+msgstr "ನಮಗೆ ವಿಡಿಯೋ ಲ್ಯಾನ್ ಹತ್ತಿರ ಮುಕ್ತವಾದ ಅತ್ಯುತ್ತಮ ವಿಡಿಯೋ ತಂತ್ರಾವಿದೆಯೆನಿಸುತ್ತದೆ. ನಿಮಗೂ ಒಪ್ಪಿಗೆಯಾದರೆ, ದಯವಿಟ್ಟು ಇದರ ಬಗ್ಗೆ ಎಲ್ಲರಿಗೂ ಹೇಳಿ."
+
+#: index.php:147
+msgid "News &amp; Updates"
+msgstr "ಸುದ್ಧಿ ಮತ್ತು ನವೀಕರಣಗಳು"
+
+#: index.php:151
+msgid "Development Blogs"
+msgstr "ತಂತ್ರಾಶ ಅಭಿವೃದ್ಧಿಗಳ ಬ್ಲಾಗ್"
+
+#: index.php:176
+msgid "Social media"
+msgstr "ಸಮೂಹ ಮಾಧ್ಯಮ"
+
+#: vlc/index.php:3
+msgid "Official page for VLC media player, the Open Source video framework!"
+msgstr "VLC ತಂತ್ರಾಶದ ಅಧೀಕೃತ ತಾಣ, ಮುಕ್ತ ವಿಡಿಯೋ ಚೌಕಟ್ಟನ್ನಿಲ್ಲಿ!"
+
+#: vlc/index.php:40
+msgid "Simple, fast and powerful media player."
+msgstr "ಸರಳ, ವೇಗವಾದ ಹಾಗೂ ಶಕ್ತಿಶಾಲಿಯಾದ ಮೀಡಿಯಾ ತಂತ್ರಾಶ."
+
+#: vlc/index.php:42
+msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
+msgstr "ಎಲ್ಲವನ್ನೂ ಹಾಡಿಸುತ್ತದೆ: ಕಡತಗಳು, ಡಿಸ್ಕ್ ಗಳು, ವೆಬ್ ಕ್ಯಾಮರಗಳು ಹಾಗೂ ಸ್ಟ್ರೀಂಗಳು."
+
+#: vlc/index.php:44
+msgid "Plays most codecs with no codec packs needed:"
+msgstr "ಯಾವುದೆ ಕೋಡೆಕ್ ಪ್ಯಾಕ್ ಇಲ್ಲದೆ, ಎಲ್ಲಾ ಕೋಡೆಕ್ ಗಳನ್ನು  ಹಾಡಿಸುತ್ತದೆ."
+
+#: vlc/index.php:47
+msgid "Runs on all platforms:"
+msgstr "ಎಲ್ಲಾ ಪ್ಲಾಟ್ ಫಾರ್ಮಗಳಲ್ಲೂ ನೆಡೆಯುತ್ತದೆ."
+
+#: vlc/index.php:49
+msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
+msgstr "ಪೂರ್ಣವಾಗಿ ಉಚಿತವಾಗಿದೆ, 0 ಜಾಹೀರಾತುಗಳು, 0 ಗೂಢಚಾರಿಣಿ ತಂತ್ರಾಶಗಳು ಹಾಗೂ ಬಳಕೆದಾರರ ಮೇಲೆ ನಿಗಾವಿಡುವಿದಿಲ್ಲ."
+
+#: vlc/index.php:51
+msgid "Can do media conversion and streaming."
+msgstr "ಮೀಡಿಯ ಪರಿವರ್ತನೆ ಹಾಗೂ ಸ್ಟ್ರೀಮಿಂಗ್ ಮಾಡುತ್ತದೆ."
+
+#: vlc/index.php:53
+msgid "Discover all features"
+msgstr "ಎಲ್ಲಾ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಅನ್ವೇಷಿಸಿ"
+
+#: vlc/index.php:87
+msgid "View all screenshots"
+msgstr "ಎಲ್ಲಾ ತೆರೆಚಿತ್ರಗಳನ್ನು ವೀಕ್ಷಿಸಿ"
+
+#: vlc/index.php:94
+msgid "Get VLC for"
+msgstr "VLCಯನ್ನು ಪಡೆಯಿರಿ"
+
+#: vlc/index.php:98
+msgid "Official Downloads of VLC media player"
+msgstr "VLC ಮೀಡಿಯಾ ಪ್ಲೇಯರ್ ಅಧಿಕೃತ ಡೌನ್ಲೋಡ್ಗಳು"
+
+#: vlc/index.php:105
+msgid "Sources"
+msgstr "ಮೂಲಗಳು"
+
+#: vlc/index.php:106
+msgid "You can also directly get the"
+msgstr "ನೀವು ನೇರವಾಗಿಯೂ"
+
+#: vlc/index.php:107
+msgid "source code"
+msgstr "ಸೋರ್ಸ್ ಕೋಡ್ ಪಡೆಯಬಹುದು"

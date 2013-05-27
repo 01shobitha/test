@@ -2,7 +2,7 @@
    $language = "";
    $title = "Download official VLC media player for Mac OS X";
    $additional_css = array("/style/countries.css","/style/panels.css");
-   $alternate_lang = array( "fr", "ru", "en", "de", "tr", "cs", "hi", "he", "ja", "pl", "wa" );
+   $alternate_lang = array( "an", "ast", "bn_IN", "bs", "cs", "da", "de", "en", "es", "et", "fr", "gd", "gl", "gu", "he", "hi", "hr", "is", "it", "ja", "km", "kn", "mr", "my", "nb", "nl", "or", "pl", "pt", "pt_BR", "ru", "sk", "sr", "th", "tr", "uk", "ur", "wa", "zh" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
 ?>

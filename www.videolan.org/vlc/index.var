@@ -84,6 +84,10 @@ URI: index.km.html
 Content-type: text/html
 Content-language: km
 
+URI: index.kn.html
+Content-type: text/html
+Content-language: kn
+
 URI: index.mr.html
 Content-type: text/html
 Content-language: mr

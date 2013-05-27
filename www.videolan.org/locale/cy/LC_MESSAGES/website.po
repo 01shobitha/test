@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-04-25 16:06+0200\n"
-"PO-Revision-Date: 2013-05-26 01:24+0000\n"
-"Last-Translator: Aled Powell <aled@aledpowell.com>\n"
+"PO-Revision-Date: 2013-05-26 21:55+0000\n"
+"Last-Translator: Cymrodor <cymrodor@gmail.com>\n"
 "Language-Team: Welsh (http://www.transifex.com/projects/p/vlc-trans/language/cy/)\n"
 "Language: cy\n"
 "MIME-Version: 1.0\n"
@@ -29,7 +29,7 @@ msgstr "sefydliad di-elw"
 
 #: include/header.php:198
 msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
-msgstr "o wirfoddolwyr yn datblygu a'n hybu rhaglenni amlgyfrwng cod agored."
+msgstr "o wirfoddolwyr yn datblygu ac yn hybu rhaglenni amlgyfrwng cod agored"
 
 #: include/header.php:204 include/header.php:218 include/header.php:232
 #: index.php:107
@@ -38,7 +38,7 @@ msgstr "cyfrannu"
 
 #: include/header.php:204
 msgid "why?"
-msgstr "pam?"
+msgstr "Pam?"
 
 #: include/header.php:251
 msgid "Home"
@@ -87,7 +87,7 @@ msgstr "Lawrlwytho"
 #: include/header.php:273 include/header.php:353 index.php:28 vlc/index.php:22
 #: vlc/index.php:39
 msgid "Features"
-msgstr "Nodweddau"
+msgstr "Nodweddion"
 
 #: include/header.php:274 include/header.php:354 index.php:29 vlc/index.php:23
 #: vlc/index.php:65
@@ -108,7 +108,7 @@ msgstr "Prosiectau"
 
 #: include/header.php:297 include/header.php:358
 msgid "All Projects"
-msgstr "Holl Prosiectau"
+msgstr "Holl Brosiectau"
 
 #: include/header.php:301 index.php:119
 msgid "Contribute"
@@ -116,11 +116,11 @@ msgstr "Cyfrannu"
 
 #: include/header.php:303 include/header.php:382
 msgid "Donate time"
-msgstr "Cyfrannu amser"
+msgstr "Rhoi amser"
 
 #: include/header.php:304 include/header.php:381
 msgid "Donate money"
-msgstr "Cyfrannu arian"
+msgstr "Rhoi arian"
 
 #: include/header.php:305 include/header.php:383
 msgid "Get Goodies"
@@ -148,7 +148,7 @@ msgstr "Fforymau"
 
 #: include/header.php:316 include/header.php:379
 msgid "Mailing-Lists"
-msgstr "Rhestrau bostio"
+msgstr "Rhestrau post"
 
 #: include/header.php:317
 msgid "Report a bug"
@@ -180,7 +180,7 @@ msgstr "VLC: Gwefan swyddogol - Rhaglenni amlgyfrwng am ddim ar gyfer pob OS!"
 
 #: index.php:26 vlc/index.php:20
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
-msgstr "Chwaraewr a fframwaith amlgyfrwng cod agored ac am ddim yw VLC. Mae ar gael ar ystod eang o systemau ac yn chwarae'r rhan fwyaf o ffeiliau amlgyfrwng yn ogystal â DVDs, CDs sain, VCDs, a gwahanol brotocolau ffrydio."
+msgstr "Chwaraewr a fframwaith amlgyfrwng yw VLC, sy'n cod agored ac am ddim. Mae ar gael ar gyfer nifer o systemau ac yn chwarae bron pob math o ffeiliau fideo a sain yn ogystal â DVD, CD, VCD a gwahanol brotocolau ffrydio."
 
 #: index.php:36
 msgid "Other projects from VideoLAN"
@@ -192,7 +192,7 @@ msgstr "I Bawb"
 
 #: index.php:44
 msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
-msgstr "Mae VLC yn chwaraewr cyfryngau pwerus sy'n chwarae'r rhan fwyaf o'r fformatau a chodecs fideo sy'n bodoli."
+msgstr "Mae VLC yn chwaraewr cyfryngau pwerus sy'n chwarae bron pob fformat a chodec fideo sy'n bodoli."
 
 #: index.php:53
 msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
@@ -200,11 +200,11 @@ msgstr "Rhaglen golygu ar gyfer creu fideo yw VideoLAN Movie Creator."
 
 #: index.php:60
 msgid "For Professionals"
-msgstr "I Weithwyr Proffessiynol"
+msgstr "I Rai Profiadol"
 
 #: index.php:66
 msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
-msgstr "Rhaglen syml a pwerus sy'n ffrydio a'n gwahanu signal amlblecs MPEG-2/TS yw DVBlast."
+msgstr "Rhaglen syml a phwerus sy'n ffrydio ac yn gwahanu signal amlbleth MPEG-2/TS yw DVBlast."
 
 #: index.php:74
 msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
@@ -232,7 +232,7 @@ msgstr "Sefydliad di-elw yw VideoLAN."
 
 #: index.php:112
 msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
-msgstr "Rhoddion gan ddefnyddwyr sy'n talu ein holl gostau. Os ydych yn mwynhau defnyddio cynnyrch gan VideoLAN, cefnogwch ni gan roddi os gwelwch yn dda."
+msgstr "Rhoddion gan ddefnyddwyr sy'n talu ein holl gostau. Os ydych yn mwynhau defnyddio cynnyrch gan VideoLAN, gwnewch rodd i'n cefnogi os gwelwch yn dda."
 
 #: index.php:114 index.php:126 index.php:137
 msgid "Learn More"
@@ -244,7 +244,7 @@ msgstr "Mae VideoLAN yn feddalwedd cod agored."
 
 #: index.php:124
 msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
-msgstr "Golygai hyn fod croeso i chi gyfrannu os ydych gyda'r gallu a'r awydd i wella un o'n cynnyrch."
+msgstr "Mae hyn yn golygu fod croeso i chi gyfrannu os ydych gyda'r gallu a'r awydd i wella un o'n cynnyrch."
 
 #: index.php:131
 msgid "Spread the Word"
@@ -252,11 +252,11 @@ msgstr "Rhoi'r Gair ar Led"
 
 #: index.php:135
 msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
-msgstr "Rydym yn teimlo fod gan VideoLAN y meddalwedd fideo gorau ar gael am y pris gorau: am ddim. Os ydych yn cytuno, helpwch roi'r gair ar led am ein meddalwedd."
+msgstr "Rydym yn teimlo fod gan VideoLAN y meddalwedd fideo gorau ar gael ac am y pris gorau: am ddim. Os ydych yn cytuno, helpwch roi'r gair ar led am ein meddalwedd."
 
 #: index.php:147
 msgid "News &amp; Updates"
-msgstr "Newyddion &amp; Diweddariadau"
+msgstr "Newyddion a Diweddariadau"
 
 #: index.php:151
 msgid "Development Blogs"
@@ -272,23 +272,23 @@ msgstr "Tudalen swyddogol ar gyfer chwaraewr VLC, y fframwaith fideo cod agored!
 
 #: vlc/index.php:40
 msgid "Simple, fast and powerful media player."
-msgstr "Chwaraewr cyfryngau syml, cyflym a phwerus."
+msgstr "Mae'n chwaraewr cyfryngau syml, cyflym a phwerus."
 
 #: vlc/index.php:42
 msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
-msgstr "Mae'n chwarae popeth: Ffeiliau, Disgiau, Gwe-gamerau, Dyfeisiau a Ffrydiau."
+msgstr "Mae'n chwarae popeth: ffeiliau, disgiau, gwe-gamerau, dyfeisiau a ffrydiau."
 
 #: vlc/index.php:44
 msgid "Plays most codecs with no codec packs needed:"
-msgstr "Mae'n rhedeg ar y rhan fwyaf o systemau:"
+msgstr "Mae'n chwarae pob codec cyffredin heb angen pecynnau codecs:"
 
 #: vlc/index.php:47
 msgid "Runs on all platforms:"
-msgstr "Mae'n rhedeg ar pob system:"
+msgstr "Mae'n rhedeg ar bob system:"
 
 #: vlc/index.php:49
 msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
-msgstr "Yn gyfan gwbl am ddim, 0 ysbïwedd, 0 hysbysebion a dim cofnodi defnydd."
+msgstr "Mae'n gyfan gwbl am ddim: dim hysbysebion, dim ysbïwedd na dim cofnodi defnydd."
 
 #: vlc/index.php:51
 msgid "Can do media conversion and streaming."
@@ -304,11 +304,11 @@ msgstr "Gweld yr holl sgrinluniau"
 
 #: vlc/index.php:94
 msgid "Get VLC for"
-msgstr "Cael VLC am"
+msgstr "VLC ar gyfer"
 
 #: vlc/index.php:98
 msgid "Official Downloads of VLC media player"
-msgstr "Lawrlwythi Swyddogol o chwaraewr VLC"
+msgstr "Lawrlwythi swyddogol o chwaraewr VLC"
 
 #: vlc/index.php:105
 msgid "Sources"

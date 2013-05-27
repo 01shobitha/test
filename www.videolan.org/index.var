@@ -24,6 +24,10 @@ URI: index.cs.html
 Content-type: text/html
 Content-language: cs
 
+URI: index.cy.html
+Content-type: text/html
+Content-language: cy
+
 URI: index.da.html
 Content-type: text/html
 Content-language: da

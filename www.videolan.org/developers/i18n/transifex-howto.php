@@ -21,6 +21,12 @@ easier if you provide your name in a way I can use in AUTHORS.</p>
 <p>Please set this before doing any translations on the transifex website (or
 uploading any files there).</p>
 
+<p>Update: Now there is a setting to not show your email address. Hide your address, if you prefer to not 
+publish a spam free address. It's not neccessary to set a real name any more. Instead, send me 
+(Christoph Miebach, you don't have to find me, I'll find you) your name and 
+the email address that shall be used and I will replace your user name with this data on merging your translation.
+In fact, easiest will be, if you only appear with one spelling, not with a mixed form of user name/real name.</p>
+
 <h2>Existing translations</h2>
 
 <p>Don't start again with an empty translation if you already started translating somewhere else (local po file for example)!</p>
@@ -110,6 +116,8 @@ usually won't modify your translation or your team).<p>
 (within a day), so you won't have to take care of that yourself.</p>
 <p>You can upload whenever you got something translated and don't need to email your
 progress and I will upload them to git at release time.</p>
+<p>Even better: Some of the nightly builds fetch the current translations, so you can see 
+them live within a day.</p>
 <p>You can have several translators (maybe as reviewers) in your team.</p>
 <p>It's less likely your updates are overlooked. At the moment, updating existing 
 translations for VLC for Android&trade; and the website is almost automated</p>
@@ -121,10 +129,11 @@ for the nightly builds. This is different to the normal releases.</p>
 
 <h2>Start work</h2>
 
-<p>The other suggestions still apply (i.e.: contact current maintainer before starting with the work).</p>
+<p>The other suggestions still apply (i.e.: contact current maintainer before starting with the work, subscribe to the 
+<a href="http://mailman.videolan.org/listinfo/translators/">translators mailing list</a>: translators@videolan.org).</p>
 
 <p>This <a href="https://www.transifex.com/projects/p/vlc-trans/">transifex project</a> currently contains 
-VLC media player (2.0.X), translations for the website (only some pages), 
+VLC media player (2.0.X and 2.1.X), translations for the website (only some pages), 
 VLC for Android&trade; (beta) and for VideoLAN Movie Creator.</p>
 
 <h3>Here you can find the files for translation or browse to see if your language already has a (partial) translation:</h3>

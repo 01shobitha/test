@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-04-25 16:06+0200\n"
-"PO-Revision-Date: 2013-05-26 19:19+0000\n"
+"PO-Revision-Date: 2013-05-28 03:05+0000\n"
 "Last-Translator: yogi <yogesh@karnatakaeducation.org.in>\n"
 "Language-Team: Kannada (http://www.transifex.com/projects/p/vlc-trans/language/kn/)\n"
 "Language: kn\n"
@@ -303,7 +303,7 @@ msgstr "ಎಲ್ಲಾ ತೆರೆಚಿತ್ರಗಳನ್ನು ವೀ�
 
 #: vlc/index.php:94
 msgid "Get VLC for"
-msgstr "ಗೆ ವಿ ಎಲ್ ಸಿ ಯನ್ನು ಪಡೆಯಿರಿ"
+msgstr "ವಿ ಎಲ್ ಸಿ ಯನ್ನು ಪಡೆಯಿರಿ"
 
 #: vlc/index.php:98
 msgid "Official Downloads of VLC media player"

@@ -8,15 +8,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-15 22:15+0200\n"
-"PO-Revision-Date: 2013-04-08 17:34+0000\n"
+"POT-Creation-Date: 2013-04-25 16:06+0200\n"
+"PO-Revision-Date: 2013-05-30 05:10+0000\n"
 "Last-Translator: Michael Bauer <fios@akerbeltz.org>\n"
 "Language-Team: Gaelic, Scottish (http://www.transifex.com/projects/p/vlc-trans/language/gd/)\n"
 "Language: gd\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n < 2 ? 0 : n == 2 ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : (n > 2 && n < 20) ? 2 : 3;\n"
 
 #: include/header.php:197
 msgid "A project and a"
@@ -65,7 +65,7 @@ msgstr "Com-pàirtichean"
 
 #: include/header.php:263 include/header.php:394
 msgid "Mirrors"
-msgstr ""
+msgstr "Sgàthanan"
 
 #: include/header.php:264 include/header.php:395
 msgid "Press center"
@@ -133,9 +133,17 @@ msgstr "Taic"
 msgid "Support center"
 msgstr "Aonad na taice"
 
+#: include/header.php:312
+msgid "FAQ"
+msgstr "CÀBHA"
+
 #: include/header.php:313 include/header.php:391 include/header.php:420
 msgid "Legal"
 msgstr "Nòtaichean laghail"
+
+#: include/header.php:315
+msgid "Forums"
+msgstr "Fòraman"
 
 #: include/header.php:316 include/header.php:379
 msgid "Mailing-Lists"

@@ -4,13 +4,14 @@
 #
 # Translators:
 # Rajnikant Kumbhar <rajnikant.kumbhar@gmail.com>, 2012-2013
+# Suraj Kawade <suraj.kawade@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-15 22:15+0200\n"
-"PO-Revision-Date: 2013-04-14 18:52+0000\n"
-"Last-Translator: Rajnikant Kumbhar <rajnikant.kumbhar@gmail.com>\n"
+"POT-Creation-Date: 2013-04-25 16:06+0200\n"
+"PO-Revision-Date: 2013-06-03 11:27+0000\n"
+"Last-Translator: suraj.kawade\n"
 "Language-Team: Marathi (http://www.transifex.com/projects/p/vlc-trans/language/mr/)\n"
 "Language: mr\n"
 "MIME-Version: 1.0\n"
@@ -65,7 +66,7 @@ msgstr "जोडीदार"
 
 #: include/header.php:263 include/header.php:394
 msgid "Mirrors"
-msgstr ""
+msgstr "मिरर"
 
 #: include/header.php:264 include/header.php:395
 msgid "Press center"
@@ -133,9 +134,17 @@ msgstr "पाठींबा"
 msgid "Support center"
 msgstr "पाठींबा केंद्र"
 
+#: include/header.php:312
+msgid "FAQ"
+msgstr "एफएक्यू "
+
 #: include/header.php:313 include/header.php:391 include/header.php:420
 msgid "Legal"
 msgstr "कायदेशीर"
+
+#: include/header.php:315
+msgid "Forums"
+msgstr "फोरम"
 
 #: include/header.php:316 include/header.php:379
 msgid "Mailing-Lists"

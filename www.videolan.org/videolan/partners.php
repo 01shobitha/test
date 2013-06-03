@@ -261,7 +261,7 @@ Marketing Europe GmbH, lent us a SC-XH150 setup consisting of a S/PDIF input cap
          help us buy a PowerMac G5</li>
          <li>The <a href="http://www.psw.net/">PSW Group</a> who made a 1&nbsp;000&euro; donation to the project</li>
          <li>The Dutch company <a href="http://www.netoda.nl">Netoda</a> who made a 500&euro; donation to the project</li>
-         <li>The German company <a href="http://www.hitmeister.de">HitMeister</a> who made 650&euro; donation to the project</li>
+         <li>The German company <a href="http://www.hitmeister.de">Hitmeister</a> who made 650&euro; donation to the project</li>
      </ul>
 
 <h1> Past Partners </h1>

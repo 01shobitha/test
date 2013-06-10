@@ -20,7 +20,7 @@ function getDownloadLink($project, $version, $name) {
 
 function pkgversion($name,$version)
 {
-    $latest = array("vlc" => "2.0.5");
+    $latest = array("vlc" => "2.0.7");
 
     if (!$latest[$name])
         return;

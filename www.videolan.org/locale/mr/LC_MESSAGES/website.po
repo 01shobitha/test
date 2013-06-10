@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-04-25 16:06+0200\n"
-"PO-Revision-Date: 2013-06-03 11:27+0000\n"
+"PO-Revision-Date: 2013-06-04 13:30+0000\n"
 "Last-Translator: suraj.kawade\n"
 "Language-Team: Marathi (http://www.transifex.com/projects/p/vlc-trans/language/mr/)\n"
 "Language: mr\n"
@@ -29,12 +29,12 @@ msgstr "ना नफा संस्था"
 
 #: include/header.php:198
 msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
-msgstr "स्वयंसेवकांनी बनलेली,मोफत ,उघड स्त्रोत मल्टीमेडिया सोलूशन विकसित आणि पुरस्कृत करणारी. "
+msgstr "स्वयंसेवकांनी बनलेली, मोफत, खुली-स्त्रोत मल्टीमीडिया सोलूशन विकसित आणि पुरस्कृत करणारी. "
 
 #: include/header.php:204 include/header.php:218 include/header.php:232
 #: index.php:107
 msgid "donate"
-msgstr "देणगी"
+msgstr "देणगी द्या"
 
 #: include/header.php:204
 msgid "why?"
@@ -58,11 +58,11 @@ msgstr "संघ"
 
 #: include/header.php:261 include/header.php:392
 msgid "Contact us"
-msgstr "संपर्क करा"
+msgstr "आम्हाला संपर्क करा"
 
 #: include/header.php:262 include/header.php:393
 msgid "Partners"
-msgstr "जोडीदार"
+msgstr "भागीदार"
 
 #: include/header.php:263 include/header.php:394
 msgid "Mirrors"
@@ -70,7 +70,7 @@ msgstr "मिरर"
 
 #: include/header.php:264 include/header.php:395
 msgid "Press center"
-msgstr "पत्रकार केंद्र"
+msgstr "प्रसिद्धी केंद्र"
 
 #: include/header.php:265 include/header.php:396
 msgid "Events"
@@ -87,7 +87,7 @@ msgstr "डाऊनलोड"
 #: include/header.php:273 include/header.php:353 index.php:28 vlc/index.php:22
 #: vlc/index.php:39
 msgid "Features"
-msgstr "सोयी"
+msgstr "वैशिष्ट्ये"
 
 #: include/header.php:274 include/header.php:354 index.php:29 vlc/index.php:23
 #: vlc/index.php:65

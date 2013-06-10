@@ -24,7 +24,7 @@
 
                     <div style="padding-bottom: 8px;"><b>2.0.7</b> fixes track selection for PowerPC machines.</div>
 
-                    <div style="padding-bottom: 8px;"><b>2.0.7</b> also fixes and important regression in decoding numerous audio file formats and when encoding in MP3 and AAC.</div>
+                    <div style="padding-bottom: 8px;"><b>2.0.7</b> also fixes an important regression in decoding numerous audio file formats and when encoding in MP3 and AAC.</div>
 
                     <div style="padding-bottom: 8px;"><b>2.0.7</b> closes a couple of security issues and fixes regression in our ActiveX plugin for Internet Explorer.</div>
 

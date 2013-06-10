@@ -175,8 +175,8 @@
 
 <?php
 function vlcscreenshot($img,$thumb, $desc){
-    echo"<div class='screenshot' style='overflow: hidden; width: 150px; height: 97px;'><a href='http://images1.videolan.org/vlc/screenshots/$img' rel='lightbox-vlc'><img
-    src='http://images1.videolan.org/vlc/screenshots/$thumb' alt='VLC media player - $desc' /></a>
+    echo"<div class='screenshot' style='overflow: hidden; width: 150px; height: 97px;'><a href='//images1.videolan.org/vlc/screenshots/$img' rel='lightbox-vlc'><img
+    src='//images1.videolan.org/vlc/screenshots/$thumb' alt='VLC media player - $desc' /></a>
     </div>";
 }
 ?>

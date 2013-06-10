@@ -245,9 +245,9 @@ function vlcscreenshot($img,$thumb, $desc){
         <div class="clearme"></div>
         <h1>Spread the news</h1>
         <p>
-           <a href="http://www.facebook.com/vlc.media.player/posts/10151512218286245">Facebook</a>
-           <a href="https://plus.google.com/104597325891170264649/posts/jLdfHbd2aQc">Google Plus</a>
-           <a href="https://twitter.com/videolan/status/322321743387701248">Twitter</a>
+           <a href="https://www.facebook.com/vlc.media.player/posts/10151594070196245">Facebook</a>
+           <a href="https://plus.google.com/b/104597325891170264649/+vlc/posts/9dxTddPHFyh">Google Plus</a>
+           <a href="https://twitter.com/videolan/status/344046214582505475">Twitter</a>
            </p>
         <div class="clearme"></div>
         <h1>Download VLC</h1>

@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-04-25 16:06+0200\n"
-"PO-Revision-Date: 2013-05-27 23:06+0000\n"
+"PO-Revision-Date: 2013-06-14 12:44+0000\n"
 "Last-Translator: Cymrodor <cymrodor@gmail.com>\n"
 "Language-Team: Welsh (http://www.transifex.com/projects/p/vlc-trans/language/cy/)\n"
 "Language: cy\n"
@@ -204,7 +204,7 @@ msgstr "I Rai Profiadol"
 
 #: index.php:66
 msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
-msgstr "Rhaglen syml a phwerus sy'n ffrydio ac yn gwahanu signal amlbleth MPEG-2/TS yw DVBlast."
+msgstr "Rhaglen syml a phwerus sy'n ffrydio ac yn datblethu signalau MPEG-2/TS yw DVBlast."
 
 #: index.php:74
 msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."

@@ -52,6 +52,7 @@ function getLocaleFromLanguage( $language )
     case 'tr': $locale = "tr_TR.UTF-8"; break;
     case 'uk': $locale = "uk_UA.utf8"; break;
     case 'ur': $locale = "ur_PK"; break;
+    case 'vi': $locale = "vi_VN"; break;
     case 'wa': $locale = "wa_BE.UTF-8"; break;
     case 'zh': $locale = "zh_CN.UTF-8"; break;
     }

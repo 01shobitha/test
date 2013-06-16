@@ -1,0 +1,322 @@
+# Vietnamese translation
+# Copyright (C) 2013 VideoLAN
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Anh Phan <ppanhh@gmail.com>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: VLC - Trans\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-25 16:06+0200\n"
+"PO-Revision-Date: 2013-06-16 20:59+0000\n"
+"Last-Translator: ppanhh <ppanhh@gmail.com>\n"
+"Language-Team: Vietnamese (http://www.transifex.com/projects/p/vlc-trans/language/vi/)\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: include/header.php:197
+msgid "A project and a"
+msgstr "Một dự án và một"
+
+#: include/header.php:197
+msgid "non-profit organization"
+msgstr "tổ chức phi lợi nhuận"
+
+#: include/header.php:198
+msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
+msgstr "bao gồm nhiều tình nguyện viên, đem đến một môi trường phát triển miễn phí, mã nguồn mở cho các giải pháp thuộc lãnh vực truyền thông đa phương tiện."
+
+#: include/header.php:204 include/header.php:218 include/header.php:232
+#: index.php:107
+msgid "donate"
+msgstr "ủng hộ"
+
+#: include/header.php:204
+msgid "why?"
+msgstr "tại sao ư?"
+
+#: include/header.php:251
+msgid "Home"
+msgstr "Trang chủ"
+
+#: include/header.php:254 include/header.php:399
+msgid "News"
+msgstr "Tin tức"
+
+#: include/header.php:259 include/header.php:389
+msgid "Project and Organization"
+msgstr "Dự án và Tổ Chức"
+
+#: include/header.php:260 include/header.php:390
+msgid "Team"
+msgstr "Nhóm"
+
+#: include/header.php:261 include/header.php:392
+msgid "Contact us"
+msgstr "Liên hệ với chúng tôi"
+
+#: include/header.php:262 include/header.php:393
+msgid "Partners"
+msgstr "Đối tác"
+
+#: include/header.php:263 include/header.php:394
+msgid "Mirrors"
+msgstr "Trang liên kết phụ"
+
+#: include/header.php:264 include/header.php:395
+msgid "Press center"
+msgstr "Trung tâm Truyền Thông"
+
+#: include/header.php:265 include/header.php:396
+msgid "Events"
+msgstr "Sự kiện"
+
+#: include/header.php:266 include/header.php:397
+msgid "Security center"
+msgstr "Trung Tâm An Ninh"
+
+#: include/header.php:272
+msgid "Download"
+msgstr "Tải xuống"
+
+#: include/header.php:273 include/header.php:353 index.php:28 vlc/index.php:22
+#: vlc/index.php:39
+msgid "Features"
+msgstr "Tính năng"
+
+#: include/header.php:274 include/header.php:354 index.php:29 vlc/index.php:23
+#: vlc/index.php:65
+msgid "Screenshots"
+msgstr "Giao diện mẫu"
+
+#: include/header.php:275 include/header.php:351 index.php:30 vlc/index.php:24
+msgid "Skins"
+msgstr "Giao Diện Tùy Chỉnh"
+
+#: include/header.php:276 include/header.php:352
+msgid "Extensions"
+msgstr "Phần mở rộng"
+
+#: include/header.php:280
+msgid "Projects"
+msgstr "Dự án"
+
+#: include/header.php:297 include/header.php:358
+msgid "All Projects"
+msgstr "Tất cả dự án"
+
+#: include/header.php:301 index.php:119
+msgid "Contribute"
+msgstr "Đóng góp"
+
+#: include/header.php:303 include/header.php:382
+msgid "Donate time"
+msgstr "Ủng hộ Thời Gian"
+
+#: include/header.php:304 include/header.php:381
+msgid "Donate money"
+msgstr "Ủng hộ Tài Chính"
+
+#: include/header.php:305 include/header.php:383
+msgid "Get Goodies"
+msgstr "Quà Tặng"
+
+#: include/header.php:309
+msgid "Support"
+msgstr "Hỗ Trợ"
+
+#: include/header.php:311
+msgid "Support center"
+msgstr "Trung Tâm Hỗ Trợ"
+
+#: include/header.php:312
+msgid "FAQ"
+msgstr "Các câu hỏi thường gặp"
+
+#: include/header.php:313 include/header.php:391 include/header.php:420
+msgid "Legal"
+msgstr "Pháp Lý"
+
+#: include/header.php:315
+msgid "Forums"
+msgstr "Diễn Đàn"
+
+#: include/header.php:316 include/header.php:379
+msgid "Mailing-Lists"
+msgstr "Danh Sách Email"
+
+#: include/header.php:317
+msgid "Report a bug"
+msgstr "Báo Cáo Lỗi"
+
+#: include/header.php:321
+msgid "Dev' Zone"
+msgstr "Khu Vực Phát Triển"
+
+#: include/header.php:375
+msgid "Community"
+msgstr "Cộng đồng"
+
+#: include/header.php:398
+msgid "Get Involved"
+msgstr "Tham gia"
+
+#: include/os-specific.php:88 vlc/index.php:27
+msgid "Download VLC"
+msgstr "Tải về VLC"
+
+#: include/os-specific.php:94 vlc/index.php:34 vlc/index.php:128
+msgid "Other Systems"
+msgstr "Các Hệ điều hành khác"
+
+#: index.php:3
+msgid "VLC: Official site - Free multimedia solutions for all OS!"
+msgstr "VLC: Trang WEB chính thức - Giải pháp truyền thông đa phương tiện dành cho mọi Hệ Điều Hành!"
+
+#: index.php:26 vlc/index.php:20
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
+msgstr "VLC là một chương trình truyền thông đa phương tiện, đa nền tảng cũng như sử dụng các framework đa tính năng, có thể thỏa mãn nhu cầu xem mọi loại file audio/video cũng như DVD, Audio CD, VCD cùng nhiều phương thức streaming khác"
+
+#: index.php:36
+msgid "Other projects from VideoLAN"
+msgstr "Các dự án khác của VideoLAN"
+
+#: index.php:38
+msgid "For Everyone"
+msgstr "Dành cho mọi người"
+
+#: index.php:44
+msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
+msgstr "VLC là một chương trình giải trí đa phương tiện có thể đọc được mọi định dạng tập tin media và video hiện có."
+
+#: index.php:53
+msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
+msgstr "VideoLAN Movie Creator là một chương trình chỉnh sửa video hoàn hảo."
+
+#: index.php:60
+msgid "For Professionals"
+msgstr "Dành cho người dùng Pro"
+
+#: index.php:66
+msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
+msgstr "DVBlast là một chương trình streaming và demux định dạng MPEG-2/TS."
+
+#: index.php:74
+msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
+msgstr "multicat là một tập hợp các công cụ được thiết kế nhằm tạo sự dễ dàng cùng hữu dụng trong việc thao tác với các luồng dữ liệu multicast và TS."
+
+#: index.php:83
+msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
+msgstr "x264 là một ứng dụng miễn phí nhằm mã hóa luồn video thành định dạng H.264/MPEG-4 AVC."
+
+#: index.php:91
+msgid "For Developers"
+msgstr "Dành cho Nhà Phát Triển"
+
+#: index.php:102
+msgid "View All Projects"
+msgstr "Xem tất cả các dự án"
+
+#: index.php:105
+msgid "Help us out!"
+msgstr "Hãy giúp chúng tôi!"
+
+#: index.php:111
+msgid "VideoLAN is a non-profit organization."
+msgstr "VideoLAN là một tổ chức phi lợi nhuận."
+
+#: index.php:112
+msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
+msgstr "Tất cả mọi chi phí vận hành dự án đều đến từ những ủng hội từ phía người dùng. Nếu bạn cảm thấy thích thú với những sản phẩm của dự án chúng tôi, hãy ủng hộ chúng tôi về cả mặt tài chính, sức lực và sự đóng góp từ phía các bạn."
+
+#: index.php:114 index.php:126 index.php:137
+msgid "Learn More"
+msgstr "Tìm hiểu thêm"
+
+#: index.php:123
+msgid "VideoLAN is open-source software."
+msgstr "VideoLAN là một phần mềm mã nguồn mở."
+
+#: index.php:124
+msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
+msgstr "Điều này có nghĩa rằng nếu bạn có kỹ năng cũng như khát khao nhằm hoàn thiện các sản phẩm của chúng tôi, thì mọi sự đóng góp của các bạn đều luôn được chào đón."
+
+#: index.php:131
+msgid "Spread the Word"
+msgstr "Hãy giúp VLC nổi tiếng hơn"
+
+#: index.php:135
+msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
+msgstr "Chúng tôi nhận thấy rằng VideoLAN hiện là phần mềm video tốt nhất vì chúng tôi hoàn toàn cung cấp sản phẩm của mình với giá thành miễn phí. Nếu bạn đồng ý với điều đó, hãy giới thiệu phần mềm này với mọi người xung quanh và giúp VideoLAN trở nên phổ biến nhé!"
+
+#: index.php:147
+msgid "News &amp; Updates"
+msgstr "Tin Tức &amp; Cập Nhật"
+
+#: index.php:151
+msgid "Development Blogs"
+msgstr "Trang tin dành cho Nhà Phát Triển"
+
+#: index.php:176
+msgid "Social media"
+msgstr "Truyền thông xã hội"
+
+#: vlc/index.php:3
+msgid "Official page for VLC media player, the Open Source video framework!"
+msgstr "Trang WEB chính thức của chương trình VLC, sử dụng framework dành cho video mã nguồn mở!"
+
+#: vlc/index.php:40
+msgid "Simple, fast and powerful media player."
+msgstr "Một chương trình đơn giản, nhanh nhạy và đầy sức mạnh."
+
+#: vlc/index.php:42
+msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
+msgstr "Có thể đọc được mọi thứ: Tập tin, đĩa, webcam, các thiết bị đa phương tiện và phân luồng dữ liệu."
+
+#: vlc/index.php:44
+msgid "Plays most codecs with no codec packs needed:"
+msgstr "Đọc được hầu hết các mã âm thanh mà không cần gói mã âm thanh bổ trợ:"
+
+#: vlc/index.php:47
+msgid "Runs on all platforms:"
+msgstr "Chạy trên mọi nền tảng:"
+
+#: vlc/index.php:49
+msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
+msgstr "Hoàn toàn miễn phí, không hề có phần mềm gián điệp và không hề có quảng cáo cũng như theo dõi người dùng kèm theo."
+
+#: vlc/index.php:51
+msgid "Can do media conversion and streaming."
+msgstr "Có thể chuyển đổi mọi loại tập tin và phân luồng dữ liệu"
+
+#: vlc/index.php:53
+msgid "Discover all features"
+msgstr "Khám phá các tính năng"
+
+#: vlc/index.php:87
+msgid "View all screenshots"
+msgstr "Xem mọi hình ảnh về chương trình"
+
+#: vlc/index.php:94
+msgid "Get VLC for"
+msgstr "Tải VLC cho"
+
+#: vlc/index.php:98
+msgid "Official Downloads of VLC media player"
+msgstr "Tải xuống phiên bản VLC chính thức"
+
+#: vlc/index.php:105
+msgid "Sources"
+msgstr "Nguồn"
+
+#: vlc/index.php:106
+msgid "You can also directly get the"
+msgstr "Bạn có thể trực tiếp tải"
+
+#: vlc/index.php:107
+msgid "source code"
+msgstr "mã nguồn"

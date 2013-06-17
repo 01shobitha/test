@@ -99,6 +99,21 @@ cooperation of our partners, on both technical and financial sides: </p>
 
  <tr>
     <td colspan="2">
+        <h2>Andrew Beveridge</h2>
+    </td>
+  </tr>
+  <tr>
+    <td>
+        <p class="center"><a href="http://www.andrewbeveridge.co.uk"><img 
+        src="http://images.videolan.org/images/partners/ab.png" width="100" alt="AB" height="80" /></a></p>
+    </td>
+    <td>
+<a href="http://www.andrewbeveridge.co.uk" title="Freelance Web Developer, UK">Andrew Beveridge is a freelance web developer</a> based in Scotland, UK. He donated a virtual server to the project to help with building each release, as a way of giving something back to his media player of choice for a decade.
+    </td>
+  </tr>
+
+ <tr>
+    <td colspan="2">
         <h2> École Centrale Paris</h2>
     </td>
   </tr>

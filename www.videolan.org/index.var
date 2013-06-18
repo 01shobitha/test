@@ -152,6 +152,10 @@ URI: index.ur.html
 Content-type: text/html
 Content-language: ur
 
+URI: index.vi.html     
+Content-type: text/html
+Content-language: vi
+
 URI: index.wa.html
 Content-type: text/html
 Content-language: wa

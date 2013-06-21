@@ -92,6 +92,10 @@ URI: index.kn.html
 Content-type: text/html
 Content-language: kn
 
+URI: index.lt.html
+Content-type: text/html
+Content-language: lt
+
 URI: index.mr.html
 Content-type: text/html
 Content-language: mr

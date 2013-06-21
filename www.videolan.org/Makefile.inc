@@ -32,6 +32,7 @@ locales: index.an.php index.ast.php index.bg.php index.bn_IN.php index.bs.php in
          index.ja.php \
          index.km.php \
          index.kn.php \
+         index.lt.php \
          index.mk.php \
          index.mr.php \
          index.my.php \

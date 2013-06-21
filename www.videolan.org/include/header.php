@@ -35,6 +35,7 @@ function getLocaleFromLanguage( $language )
     case 'ja': $locale = "ja_JP.UTF-8"; break;
     case 'km': $locale = "km_KH.UTF-8"; break;
     case 'kn': $locale = "kn_IN"; break;
+    case 'lt': $locale = "lt_LT.utf8"; break;
     case 'mk': $locale = "mk_MK.UTF-8"; break;
     case 'mr': $locale = "mr_IN.UTF-8"; break;
     case 'my': $locale = "my_MM"; break;

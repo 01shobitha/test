@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-04-25 16:06+0200\n"
-"PO-Revision-Date: 2013-06-16 20:59+0000\n"
+"PO-Revision-Date: 2013-06-23 15:23+0000\n"
 "Last-Translator: ppanhh <ppanhh@gmail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/projects/p/vlc-trans/language/vi/)\n"
 "Language: vi\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: include/header.php:197
 msgid "A project and a"
-msgstr "Một dự án và một"
+msgstr "Một dự án và là một"
 
 #: include/header.php:197
 msgid "non-profit organization"
@@ -28,7 +28,7 @@ msgstr "tổ chức phi lợi nhuận"
 
 #: include/header.php:198
 msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
-msgstr "bao gồm nhiều tình nguyện viên, đem đến một môi trường phát triển miễn phí, mã nguồn mở cho các giải pháp thuộc lãnh vực truyền thông đa phương tiện."
+msgstr "bao gồm sự góp sức từ nhiều tình nguyện viên, đem đến một môi trường phát triển miễn phí, mã nguồn mở cho các giải pháp thuộc lãnh vực truyền thông đa phương tiện."
 
 #: include/header.php:204 include/header.php:218 include/header.php:232
 #: index.php:107
@@ -179,7 +179,7 @@ msgstr "VLC: Trang WEB chính thức - Giải pháp truyền thông đa phương
 
 #: index.php:26 vlc/index.php:20
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
-msgstr "VLC là một chương trình truyền thông đa phương tiện, đa nền tảng cũng như sử dụng các framework đa tính năng, có thể thỏa mãn nhu cầu xem mọi loại file audio/video cũng như DVD, Audio CD, VCD cùng nhiều phương thức streaming khác"
+msgstr "VLC là một chương trình truyền thông đa phương tiện, đa nền tảng cũng như sử dụng các framework đa tính năng, có thể thỏa mãn nhu cầu xem mọi loại file audio/video cũng như DVD, Audio CD, VCD cùng nhiều phương thức streaming khác."
 
 #: index.php:36
 msgid "Other projects from VideoLAN"
@@ -191,7 +191,7 @@ msgstr "Dành cho mọi người"
 
 #: index.php:44
 msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
-msgstr "VLC là một chương trình giải trí đa phương tiện có thể đọc được mọi định dạng tập tin media và video hiện có."
+msgstr "VLC là một chương trình giải trí đa phương tiện, miễn phí và mã nguồn mở, có thể đọc được mọi định dạng tập tin media và video hiện có."
 
 #: index.php:53
 msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
@@ -199,7 +199,7 @@ msgstr "VideoLAN Movie Creator là một chương trình chỉnh sửa video ho�
 
 #: index.php:60
 msgid "For Professionals"
-msgstr "Dành cho người dùng Pro"
+msgstr "Dành cho người dùng chuyên nghiệp"
 
 #: index.php:66
 msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."

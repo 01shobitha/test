@@ -38,7 +38,7 @@
 invite you to the multimedia open-source event of the end of summer!</b></p><br/>
 
 <p>For its <b>fifth edition</b>, people from the VideoLAN and open source multimedia community will meet in
- <strong>Paris, France</strong> to gather, work, discuss and meet, on the <strong>31st September and 1st of September 2013</strong>.</p>
+ <strong>Paris, France</strong> to gather, work, discuss and meet, on the <strong>31st August and 1st of September 2013</strong>.</p>
 <p>This technical event is focused on technical discussions and decisions about <b>multimedia</b>, and is focused to a technical crowd.</p>
 <p>Like the previous years, an important number of developers from <a href="/developers/x264.html">x264</a>, <a href="http://www.ffmpeg.org/">FFmpeg</a>, <a href="http://libav.org/">Libav</a> and KDE will join us!
 Developers, designers and anonymous people around <a href="/vlc/">VLC</a>, <a href="/projects/dvblast.html">DVBlast</a>, VLMa, skin-designer or other multimedia projects will be there too.</p>

@@ -1,7 +1,7 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
-|10 June 2013|VLC 2.0.7|VideoLAN and the VLC development team are happy to present the eighth version of "Twoflower", a minor update that improves the overall stability.<br />Notable changes include fixes for audio decoding, audio encoding, small security issues, regressions fixes for PowerPC, MacOS X and new translations.<br />More info in <a href="/vlc/releases/2.0.7.html">the release notes</a>.
+|10 June 2013|VLC 2.0.7|VideoLAN and the VLC development team are happy to present the eighth version of "Twoflower", a minor update that improves the overall stability.<br />Notable changes include fixes for audio decoding, audio encoding, small security issues, regressions, fixes for PowerPC, Mac OS X and new translations.<br />More info in <a href="/vlc/releases/2.0.7.html">the release notes</a>.
 
 |11 April 2013|VLC 2.0.6|VideoLAN and the VLC development team are happy to present the seventh version of "Twoflower", a minor update that improves the overall stability.<br />Notable changes include support for Matroska v4, improved reliability for ASF, Ogg, ASF and srt support, fixed GPU decoding on Windows on Intel GPU, fixed ALAC and FLAC decoding, and a new <a href="http://mingw-w64.sourceforge.net/">compiler</a> for Windows release.<br />More info in <a href="/vlc/releases/2.0.6.html">the release notes</a>.
 

@@ -1,5 +1,5 @@
 <?php
-   $title = "VideoLAN - Free Software and Open Source video streaming solution for every OS!";
+   $title = "Free Software and Open Source video streaming solution for every OS!";
    $lang = "en";
    $body_color = "red";
    $additional_css = array("/style/panels.css", "/style/mirrors.css");

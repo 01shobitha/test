@@ -64,7 +64,7 @@
 
     <p>You can <a href="http://git.videolan.org/?p=x264.git;a=summary">browse the source</a> on-line.</p>
 
-    <p>Builds for Windows are available from <a href="http://doom10.org/index.php?topic=3.0">the list of unofficial builds</a>.</p>
+    <p>Official builds for Windows, Linux, and MacOSX are available from <a href="http://download.videolan.org/pub/x264/binaries">here</a>.</p>
 
 </div>
 

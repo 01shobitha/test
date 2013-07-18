@@ -29,8 +29,8 @@ You can synchronize media to your device using WiFi Upload, iTunes, Dropbox, or 
   <li>Support for network streams, including HLS, MMS or RTSP.</li>
   <li>Include video filters, playback speed manipulation, and fine seeking.</li>
   <li>A video media library, with WiFi Upload, Dropbox integration and optional passcode lock.</li>
-  <li>Has integration for bluetooth headsets and AirPlay.</li>
-  <li>Support iOS 5.1 or later including the first iPad.</li>
+  <li>Integration for bluetooth headsets and AirPlay.</li>
+  <li>Supports iOS 5.1 or later including the first iPad.</li>
   <li>Completely free, libre and open source.</li>
 </ul>
 </p>

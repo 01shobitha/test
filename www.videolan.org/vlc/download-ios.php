@@ -25,6 +25,13 @@
 <p> VLC for iOS is bi-licensed under the <a href="http://opensource.org/licenses/MPL-2.0">Mozilla Public License Version 2</a> as well as the <a href="http://opensource.org/licenses/GPL-2.0">GNU General Public License Version 2 or later</a>. You can modify or redistribute its sources under the conditions of these licenses. Note that additional terms apply for trademarks owned by the VideoLAN association.</p>
 
 <h2> Appearance </h2>
+<?php
+function vlcscreenshot($img,$thumb, $desc){
+    echo"<div class='screenshot' style='overflow: hidden; width: 300px;'><a href='//images1.videolan.org/vlc/screenshots/$img' rel='lightbox-vlc'><img
+    src='//images1.videolan.org/vlc/screenshots/$thumb' alt='VLC for iOS - $desc' /></a>
+    </div>";
+}
+?>
 <div style='float: right; width: 450px; padding-left: 70px;'>
     <?php
     vlcscreenshot( "ios2/ipadblackplayback.png",

@@ -12,16 +12,21 @@
 <h1 class="bigtitle"> VLC for iOS 2.0</h1>
 
 <h2> Introduction </h2>
-<p>VLC for iOS can play all your movies and shows in most formats directly without conversion. You can synchronize media to your device using iTunes, WiFi Upload, Dropbox, or direct downloads from the web.</p>
+<p>VLC for iOS can play all your movies and shows in most formats directly without conversion.<br />
+You can synchronize media to your device using WiFi Upload, iTunes, WDropbox, or direct downloads from the web.<br />
+</p>
 
 <h2> Features </h2>
 <p>
 <ul class="productDescription">
-  <li>Plays all files, in all formats, like VLC media player for desktops.</li>
+  <li>Play all files, in all formats, including exotic ones, like classic VLC media player.</li>
+  <li>Play MKV, multiple audio tracks (including 5.1), and subtitles tracks (including SSA!)</li>
+  <li>Support for network streams, including HLS, MMS or RTSP.</li>
+  <li>Include video filters, playback speed manipulation, and fine seeking.</li>
   <li>A video media library, with WiFi Upload, Dropbox integration and optional passcode lock.</li>
-  <li>Support for network streams, including HLS.</li>
-  <li>Supports iOS 5.1 or later including the first iPad.</li>
-  <li>Includes video filters, playback speed manipulation, and full subtitles support.</li>
+  <li>Has integration for bluetooth headsets and AirPlay.</li>
+  <li>Support iOS 5.1 or later including the first iPad.</li>
+  <li>Completely free, libre and open source.</li>
 </ul>
 </p>
 

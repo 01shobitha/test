@@ -1,7 +1,11 @@
 <?php
-   $title = "VLC media player for iOS";
+   $title = "VLC for iOS";
    $lang = "en";
    $menu = array( "vlc", "download" );
+   
+   $additional_js = array("/js/slimbox2.js");
+   $additional_css= array("/js/css/slimbox2.css");
+   
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 

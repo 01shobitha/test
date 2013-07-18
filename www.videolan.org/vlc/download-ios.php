@@ -15,9 +15,9 @@
 <p>VLC for iOS can play all your movies and shows in most formats directly without conversion. You can synchronize media to your device using iTunes, WiFi Upload, Dropbox, or direct downloads from the web.</p>
 
 <h2> Features </h2>
-<p class="productDescription">
-<ul>
-  <li>Plays all files, in all formats, like VLC media player for Desktops.</li>
+<p>
+<ul class="productDescription">
+  <li>Plays all files, in all formats, like VLC media player for desktops.</li>
   <li>A video media library, with WiFi Upload, Dropbox integration and optional passcode lock.</li>
   <li>Support for network streams, including HLS.</li>
   <li>Supports iOS 5.1 or later including the first iPad.</li>

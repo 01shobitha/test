@@ -33,7 +33,7 @@ function replaceDLinfos( )
     var mandrivaDetails  = {'name': 'Mandriva Linux', 'size': '', 'location': '/vlc/download-mandriva.html'};
     var beosDetails  = {'name': 'BeOS', 'size': '', 'location': '/vlc/download-beos.html'};
     var freebsdetails  = {'name': 'FreeBSD', 'size': '', 'location': '/vlc/download-freebsd.html'};
-    var iosdetails  = {'name': 'iOS 3.2+', 'size': '9&nbsp;MB', 'location': '/vlc/download-ios.html'};
+    var iosdetails  = {'name': 'iOS 5.1+', 'size': '17&nbsp;MB', 'location': '/vlc/download-ios.html'};
 
     //Attempt to load the bright button gradient into cache for faster switching on mouse over (may not work on all browsers.)
     var cache = new Image();
@@ -53,7 +53,6 @@ function replaceDLinfos( )
           else if (navigator.userAgent.indexOf("OS X 10.6")!=-1) OS="osx64";
           else if (navigator.userAgent.indexOf("OS X 10.7")!=-1) OS="osx64";
           else OS="osx";
-
        }
        if (navigator.platform.indexOf("BeOS") !=-1) OS="beos";
        if (navigator.platform.indexOf("Linux")!=-1) {
@@ -69,7 +68,7 @@ function replaceDLinfos( )
        }
        if (navigator.platform.indexOf("freebsd") != -1) OS="freebsd";
        if (navigator.platform.indexOf("FreeBSD") != -1) OS="freebsd";
-       if (navigator.userAgent.indexOf("iPad") != -1  || navigator.userAgent.indexOf("iPhone") != -1 || navigator.userAgent.indexOf("iPod") != -1) OS ="ios";
+       if (navigator.userAgent.indexOf("iPad") != -1 || navigator.userAgent.indexOf("iPhone") != -1 || navigator.userAgent.indexOf("iPod") != -1) OS="ios";
 
        $('#downloadDetails').html("Version " + latestVersion + " &nbsp;&#8226;&nbsp; " + eval(OS+"Details.name") + " &nbsp;&#8226;&nbsp; " + eval(OS+"Details.size"));
        $('#downloadButton').attr('href',eval(OS+"Details.location"))

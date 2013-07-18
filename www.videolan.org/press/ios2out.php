@@ -1,5 +1,5 @@
 <?php
-   $title = "VideoLAN - Press Release - Windows 8 Fundraiser";
+   $title = "VideoLAN - Press Release - VLC for iOS 2.0";
    $lang = "en";
    $menu = array( "vlc" );
    require($_SERVER["DOCUMENT_ROOT"]."include/header.php");

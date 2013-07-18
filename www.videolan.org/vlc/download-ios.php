@@ -24,7 +24,6 @@
 <h2> License </h2>
 <p> VLC for iOS is bi-licensed under the <a href="http://opensource.org/licenses/MPL-2.0">Mozilla Public License Version 2</a> as well as the <a href="http://opensource.org/licenses/GPL-2.0">GNU General Public License Version 2 or later</a>. You can modify or redistribute its sources under the conditions of these licenses. Note that additional terms apply for trademarks owned by the VideoLAN association.</p>
 
-<h2> Appearance </h2>
 <?php
 function vlcscreenshot($img,$thumb, $desc){
     echo"<div class='screenshot' style='overflow: hidden; width: 300px;'><a href='//images1.videolan.org/vlc/screenshots/$img' rel='lightbox-vlc'><img
@@ -34,17 +33,17 @@ function vlcscreenshot($img,$thumb, $desc){
 ?>
 <div style='float: right; width: 450px; padding-left: 70px;'>
     <?php
-    vlcscreenshot( "ios2/ipadblackplayback.png",
-                "ios2/ipadblackplayback-small.png",
+    vlcscreenshot( "ios2/ipadblackplayback.jpg",
+                "ios2/ipadblackplayback-small.jpg",
                 "Playback on iPad");
-    vlcscreenshot( "ios2/ipadwhitelibrary.png",
-                "ios2/ipadwhitelibrary-small.png",
+    vlcscreenshot( "ios2/ipadwhitelibrary.jpg",
+                "ios2/ipadwhitelibrary-small.jpg",
                 "iPad Library" );
-    vlcscreenshot( "ios2/iphoneblackplayback.png",
-                "ios2/iphoneblackplayback-small.png",
+    vlcscreenshot( "ios2/iphoneblackplayback.jpg",
+                "ios2/iphoneblackplayback-small.jpg",
                 "Playback on iPhone" );
-    vlcscreenshot( "ios2/iphoneblacklibrary.png",
-                "ios2/iphoneblacklibrary-small.png",
+    vlcscreenshot( "ios2/iphoneblacklibrary.jpg",
+                "ios2/iphoneblacklibrary-small.jpg",
                 "Library on iPhone" );
     ?>
 </div>

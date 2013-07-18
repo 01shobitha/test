@@ -68,7 +68,7 @@ function vlcscreenshot($img,$thumb, $desc){
 
 <h2> Binary </h2>
 <p> You can also get the binary from our servers instead of the App Store. Note that it probably won't run on your device.<br />
-<code><a href="http://download.videolan.org/pub/videolan/vlc-iOS/2.0.1/VLC-2.0.1-iOS-binary.zip">VLC for iOS 2.0.1 binary</a></code>
+<code><a href="http://download.videolan.org/pub/videolan/vlc-iOS/2.0.1/vlc-iOS-2.0.1.ipa">VLC for iOS 2.0.1 binary</a></code>
 </p>
 
 <h2> License </h2>

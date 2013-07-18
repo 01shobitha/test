@@ -73,8 +73,8 @@ function vlcscreenshot($img,$thumb, $desc){
 <p> Additionally, the latest code is always available on our <a href="http://git.videolan.org/?p=vlc-ports/ios.git;a=summary">git repositories</a>.</p>
 
 <h2> Developers </h2>
-<p> VLC for iOS 2.0 is quite new and developed by volunteers! We therefore welcome all the contributions.<br />
-You can see the <a href="//wiki.videolan.org/iOSCompile">instructions to buid</a> on our <a href="//wiki.videolan.org">Wiki</a>.
+<p> VLC for iOS 2.0 is quite new and developed by volunteers! We therefore welcome all contributions.<br />
+You can see the <a href="//wiki.videolan.org/iOSCompile">instructions to build</a> on our <a href="//wiki.videolan.org">Wiki</a>.
 </p>
 
 <h2> Binary </h2>

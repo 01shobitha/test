@@ -15,6 +15,7 @@
 <p>VLC for iOS can play all your movies and shows in most formats directly without conversion. You can synchronize media to your device using iTunes, WiFi Upload, Dropbox, or direct downloads from the web.</p>
 
 <h2> Features </h2>
+<p class="productDescription">
 <ul>
   <li>Plays all files, in all formats, like VLC media player for Desktops.</li>
   <li>A video media library, with WiFi Upload, Dropbox integration and optional passcode lock.</li>
@@ -22,6 +23,7 @@
   <li>Supports iOS 5.1 or later including the first iPad.</li>
   <li>Includes video filters, playback speed manipulation, and full subtitles support.</li>
 </ul>
+</p>
 
 <div style="margin-left:auto;margin-right:auto;width:172px;">
 <p><a href="https://itunes.apple.com/app/id650377962"><img src="../images/appstoredownload-en.png" border="0" /></a>
@@ -59,9 +61,9 @@ function vlcscreenshot($img,$thumb, $desc){
 
 <h2> Source </h2>
 <p> You can find the source code for the last release here:</p>
-<code><a href="http://download.videolan.org/pub/videolan/vlc-iOS/2.0.1/VLC-2.0.1-iOS.tar.bz2">VLC for iOS 2.0.1 source code</a></code><br />
-<code><a href="http://download.videolan.org/pub/videolan/vlc-iOS/2.0.1/MediaLibraryKit-2.0.0.zip">MediaLibraryKit 2.0.0 source code</a></code><br />
-<code><a href="http://download.videolan.org/pub/videolan/vlc-iOS/2.0.1/MobileVLCKit-2.1.0-pre1.tar.gz">MobileVLCKit 2.1.0-pre1 source code</a></code><br />
+<code><a href="http://download.videolan.org/pub/videolan/vlc-iOS/2.0.1/vlc-iOS-2.0.1.tar.gz">VLC for iOS 2.0.1 source code</a></code><br />
+<code><a href="http://download.videolan.org/pub/videolan/vlc-iOS/2.0.1/MediaLibrary-2.0.tar.gz">MediaLibraryKit 2.0.0 source code</a></code><br />
+<code><a href="http://download.videolan.org/pub/videolan/vlc-iOS/2.0.1/VLCKit-2.1.0-pre1.tar.gz">MobileVLCKit 2.1.0-pre1 source code</a></code><br />
 <p> Additionally, the latest code is always available on our <a href="http://git.videolan.org">git repositories</a>.</p>
 
 <h2> Binary </h2>

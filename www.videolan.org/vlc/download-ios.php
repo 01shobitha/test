@@ -17,10 +17,15 @@ You can synchronize media to your device using WiFi Upload, iTunes, WDropbox, or
 </p>
 
 <h2> Features </h2>
+
+<div style="margin-left: 0;margin-right:150px; width:172px; float: right;">
+<p><a href="https://itunes.apple.com/app/id650377962"><img src="../images/appstoredownload-en.png" border="0" /></a>
+</div>
+
 <p>
 <ul class="productDescription">
   <li>Play all files, in all formats, including exotic ones, like classic VLC media player.</li>
-  <li>Play MKV, multiple audio tracks (including 5.1), and subtitles tracks (including SSA!)</li>
+  <li>Play MKV, multiple audio tracks (including 5.1), and subtitles tracks (including SSA!).</li>
   <li>Support for network streams, including HLS, MMS or RTSP.</li>
   <li>Include video filters, playback speed manipulation, and fine seeking.</li>
   <li>A video media library, with WiFi Upload, Dropbox integration and optional passcode lock.</li>
@@ -29,10 +34,6 @@ You can synchronize media to your device using WiFi Upload, iTunes, WDropbox, or
   <li>Completely free, libre and open source.</li>
 </ul>
 </p>
-
-<div style="margin-left:auto;margin-right:auto;width:172px;">
-<p><a href="https://itunes.apple.com/app/id650377962"><img src="../images/appstoredownload-en.png" border="0" /></a>
-</div>
 
 <?php
 function vlcscreenshot($img,$thumb, $desc){

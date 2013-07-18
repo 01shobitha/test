@@ -72,16 +72,15 @@ function vlcscreenshot($img,$thumb, $desc){
 <code><a href="http://download.videolan.org/pub/videolan/vlc-iOS/2.0.1/VLCKit-2.1.0-pre1.tar.gz">MobileVLCKit 2.1.0-pre1 source code</a></code><br />
 <p> Additionally, the latest code is always available on our <a href="http://git.videolan.org/?p=vlc-ports/ios.git;a=summary">git repositories</a>.</p>
 
-<h2> Binary </h2>
-<p> You can also get the binary from our servers instead of the App Store. Note that it probably won't run on your device.<br />
-<code><a href="http://download.videolan.org/pub/videolan/vlc-iOS/2.0.1/vlc-iOS-2.0.1.ipa">VLC for iOS 2.0.1 binary</a></code>
-</p>
-
 <h2> Developers </h2>
 <p> VLC for iOS 2.0 is quite new and developed by volunteers! We therefore welcome all the contributions.<br />
 You can see the <a href="//wiki.videolan.org/iOSCompile">instructions to buid</a> on our <a href="//wiki.videolan.org">Wiki</a>.
 </p>
 
+<h2> Binary </h2>
+<p> You can also get the binary from our servers instead of the App Store.br />
+<code><a href="http://download.videolan.org/pub/videolan/vlc-iOS/2.0.1/vlc-iOS-2.0.1.ipa">VLC for iOS 2.0.1 binary</a></code>
+</p>
 
 <h2> License </h2>
 <p> VLC for iOS is bi-licensed under the <a href="http://opensource.org/licenses/MPL-2.0">Mozilla Public License Version 2</a> as well as the <a href="http://opensource.org/licenses/GPL-2.0">GNU General Public License Version 2 or later</a>. You can modify or redistribute its sources under the conditions of these licenses. Note that additional terms apply for trademarks owned by the VideoLAN association.</p>

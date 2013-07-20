@@ -19,7 +19,7 @@ You can synchronize media to your device using WiFi Upload, iTunes, Dropbox, or 
 <h2> Features </h2>
 
 <div style="margin-left: 0;margin-right:150px; width:172px; float: right;">
-<p><a href="https://itunes.apple.com/app/id650377962"><img src="../images/appstoredownload-en.png" border="0" /></a>
+<p><a href="https://itunes.apple.com/app/vlc-ios/id650377962"><img src="../images/appstoredownload-en.png" border="0" /></a>
 </div>
 
 <p>

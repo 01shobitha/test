@@ -11,11 +11,11 @@
 
 <h2> Debian stable (wheezy) </h2>
 
-<p> It is highly recommended that you get a recent version of <a href="/vlc/">VLC</a> on squeeze by installing the version from <b>squeeze-backports</b>.<br />
-Add the <a href="http://backports-master.debian.org/Instructions/#index2h2">squeeze-backports repository</a> and install VLC: <code>sudo apt-get -t squeeze-backports install vlc</code>
+<p> It is highly recommended that you get a recent version of <a href="/vlc/">VLC</a> on wheezy by installing the version from <b>wheezy-backports</b>.<br />
+Add the <a href="http://backports-master.debian.org/Instructions/#index2h2">wheezy-backports repository</a> and install VLC: <code>sudo apt-get -t wheezy-backports install vlc</code>
 </p>
 
-<p> Without backports, you will end up with the very old version of VLC in vanilla squeeze (install vlc and browser-plugin-vlc as usual).</p>
+<p> Without backports, you will end up with the very old version of VLC in vanilla wheezy (install vlc and browser-plugin-vlc as usual).</p>
 
 
 <h2> Debian testing (jessie) </h2>

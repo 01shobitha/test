@@ -20,7 +20,7 @@
 
 <?php panel_start( "blue" ); ?>
 <h2>Register!</h2>
-<b>Registration is not open yet.</b>
+<b><a href="http://goo.gl/mUEER">Register <strong>now!</strong></a></b>
 <?php panel_end(); ?>
 
 <?php panel_start( "green" ); ?>
@@ -174,7 +174,7 @@ Un point sur la situation. Assemblée générale ordinaire, extra-ordinaire et r
  */ ?>
 
 <h1>Registration</h1>
-<p><b>Registration is not open yet.</b></p>
+<p>Please fill out the <b><a href="http://goo.gl/mUEER">registration form</a></b>.</p>
 
 <h1>Hotel</h1>
 <p>To be defined&hellip;</p>

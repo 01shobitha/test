@@ -49,7 +49,9 @@ Developers, designers and anonymous people around <a href="/vlc/">VLC</a>, <a hr
 
 <h1>Where? </h1>
 <h2>Friday 30th September</h2>
-<p>To be defined&hellip;</p>
+<p>This year we'll do a full day community bonding at <a href="http://www.parcasterix.fr/en">Parc Asterix</a>!<br/>
+The VideoLAN organization will pay for the transportation and the amusement park tickets.<br/>
+<b>To participate you'll need to be in Paris Friday at 8am!</b> Please plan an extra night if you can't make it.</p>
 <h2>Saturday / Sunday</h2>
 <p>To be defined&hellip;</p>
 

@@ -48,7 +48,7 @@ Developers, designers and anonymous people around <a href="/vlc/">VLC</a>, <a hr
  If you are not a technical person, but an enthusiast, we recommend you to come to the less technical events, like in the evenings.</p>
 
 <h1>Where? </h1>
-<h2>Friday 30th September</h2>
+<h2>Friday 30th August</h2>
 <p>This year we'll do a full day community bonding at <a href="http://www.parcasterix.fr/en">Parc Asterix</a>!<br/>
 The VideoLAN organization will pay for the transportation and the amusement park tickets.<br/>
 <b>To participate you'll need to be in Paris Friday at 8am!</b> Please plan an extra night if you can't make it.</p>

@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|29 July 2013|VLC 2.0.8 and 2.1.0-pre2 |VideoLAN and the VLC development team are happy to present VLC 2.0.8, a security update to the "Twoflower" family, and VLC 2.1.0-pre2, the second pre-version of VLC 2.1.0. <br />You can find info about 2.0.8 in <a href="/vlc/releases/2.0.8.html">the release notes</a>.<br />VLC 2.1.0-pre2 is a test version of the next major version of VLC, named "Rincewind", intended for advanced users. If you're brave, you can <a href="http://download.videolan.org/pub/videolan/testing/vlc-2.1.0-pre2/">try it now!</a>
+
 |10 June 2013|VLC 2.0.7|VideoLAN and the VLC development team are happy to present the eighth version of "Twoflower", a minor update that improves the overall stability.<br />Notable changes include fixes for audio decoding, audio encoding, small security issues, regressions, fixes for PowerPC, Mac OS X and new translations.<br />More info in <a href="/vlc/releases/2.0.7.html">the release notes</a>.
 
 |11 April 2013|VLC 2.0.6|VideoLAN and the VLC development team are happy to present the seventh version of "Twoflower", a minor update that improves the overall stability.<br />Notable changes include support for Matroska v4, improved reliability for ASF, Ogg, ASF and srt support, fixed GPU decoding on Windows on Intel GPU, fixed ALAC and FLAC decoding, and a new <a href="http://mingw-w64.sourceforge.net/">compiler</a> for Windows release.<br />More info in <a href="/vlc/releases/2.0.6.html">the release notes</a>.

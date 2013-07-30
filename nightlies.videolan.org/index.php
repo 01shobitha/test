@@ -30,10 +30,10 @@
             <li class='macosx'  style="font-weight:bold"><a href='/build/macosx/?C=M;O=D'>Mac&nbsp;OS&nbsp;X PowerPC</a></li>
             <li class='macosx'  style="font-weight:bold"><a href='/build/macosx-intel/?C=M;O=D'>Mac&nbsp;OS&nbsp;X Intel</a></li>
             <li class='debian' ><a href='#ubuntu'>Ubuntu</a></li>
-            <li class='android' style="font-weight:bold"><a href='/build/armv6-android-fpu/'>Android (ARMv6 with FPU)</a></li>
-            <li class='android' style="font-weight:bold"><a href='/build/armv6-android-nofpu/'>Android (ARMv6 without FPU)</a></li>
-            <li class='android' style="font-weight:bold"><a href='/build/armv7-android/'>Android (ARMv7-A)</a></li>
-            <li class='android' style="font-weight:bold"><a href='/build/x86-android/'>Android (x86)</a></li>
+            <li class='android' style="font-weight:bold"><a href='/build/android-armv6-fpu/'>Android (ARMv6 with FPU)</a></li>
+            <li class='android' style="font-weight:bold"><a href='/build/android-armv6-nofpu/'>Android (ARMv6 without FPU)</a></li>
+            <li class='android' style="font-weight:bold"><a href='/build/android-armv7/'>Android (ARMv7-A)</a></li>
+            <li class='android' style="font-weight:bold"><a href='/build/android-x86/'>Android (x86)</a></li>
         </ul>
     </div>
     <div class="os2">

@@ -14,7 +14,7 @@
 
 <p> Latest VLC source code tarball (2.0.8a):</p>
 
-<?php pkgitem_nomirr("VLC source code tar.xz", "2.0.8a","vlc-2.0.8a.tar.xz","vlc", "source package"); ?>
+<?php pkgitem_nomirr("VLC source code tar.xz", "2.0.8","vlc-2.0.8a.tar.xz","vlc", "source package"); ?>
 
 <h2 style="clear: both;"> Required libraries: </h2>
 <a href="ftp://ftp.videolan.org/pub/videolan/">Contrib libraries tarballs</a>

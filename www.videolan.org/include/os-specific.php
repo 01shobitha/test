@@ -12,7 +12,7 @@ function replaceDLinfos( )
     global $version;
     global $win32version;
     global $macosxversion;
-    global $iosversion
+    global $iosversion;
     global $dlBase;
 
     ?><script type='text/javascript'>

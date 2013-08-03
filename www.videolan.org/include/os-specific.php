@@ -54,6 +54,9 @@ function replaceDLinfos( )
           else if (navigator.userAgent.indexOf("OS X 10.5")!=-1) OS="osx32";
           else if (navigator.userAgent.indexOf("OS X 10.6")!=-1) OS="osx64";
           else if (navigator.userAgent.indexOf("OS X 10.7")!=-1) OS="osx64";
+          else if (navigator.userAgent.indexOf("OS X 10_7")!=-1) OS="osx64";
+          else if (navigator.userAgent.indexOf("OS X 10_8")!=-1) OS="osx64";
+          else if (navigator.userAgent.indexOf("OS X 10_9")!=-1) OS="osx64";
           else OS="osx";
        }
        if (navigator.platform.indexOf("BeOS") !=-1) OS="beos";

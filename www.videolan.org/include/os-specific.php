@@ -2,6 +2,7 @@
 $win32version = '2.0.8';
 $macosxversion = '2.0.8';
 $version = '2.0.8';
+$iosversion = '2.0.2';
 
 $dlBase = "//get.videolan.org/vlc";
 $dlUrl = "$dlBase/$win32version/win32/vlc-$win32version-win32.exe";
@@ -11,6 +12,7 @@ function replaceDLinfos( )
     global $version;
     global $win32version;
     global $macosxversion;
+    global $iosversion
     global $dlBase;
 
     ?><script type='text/javascript'>
@@ -22,7 +24,8 @@ function replaceDLinfos( )
     var osxDetails     = {'name': 'Mac OS X', 'size': '43&nbsp;MB', 'location':         '$dlBase/$macosxversion/macosx/vlc-$macosxversion.dmg' };
     var osx32Details   = {'name': 'Mac OS X (32bit)', 'size': '26&nbsp;MB', 'location': '$dlBase/$macosxversion/macosx/vlc-$macosxversion-intel.dmg' };
     var osx64Details   = {'name': 'Mac OS X (64bit)', 'size': '27&nbsp;MB', 'location': '$dlBase/$macosxversion/macosx/vlc-$macosxversion-intel64.dmg' };
-    var osxPPCDetails  = {'name': 'Mac OS X (PPC)', 'size': '25&nbsp;MB', 'location':   '$dlBase/$macosxversion/macosx/vlc-$macosxversion-powerpc.dmg' };"; ?>
+    var osxPPCDetails  = {'name': 'Mac OS X (PPC)', 'size': '25&nbsp;MB', 'location':   '$dlBase/$macosxversion/macosx/vlc-$macosxversion-powerpc.dmg' };
+    var iosdetails     = {'name': 'iOS 5.1+', 'size': '17&nbsp;MB', 'location': '/vlc/download-ios.html'};"; ?>
     var linuxDetails   = {'name': 'Linux', 'size': '', 'location': '/vlc/#download'};
     var debianDetails  = {'name': 'Debian GNU/Linux', 'size': '', 'location': '/vlc/download-debian.html'};
     var ubuntuDetails  = {'name': 'Ubuntu', 'size': '', 'location': 'apt://vlc'};
@@ -33,7 +36,6 @@ function replaceDLinfos( )
     var mandrivaDetails  = {'name': 'Mandriva Linux', 'size': '', 'location': '/vlc/download-mandriva.html'};
     var beosDetails  = {'name': 'BeOS', 'size': '', 'location': '/vlc/download-beos.html'};
     var freebsdetails  = {'name': 'FreeBSD', 'size': '', 'location': '/vlc/download-freebsd.html'};
-    var iosdetails  = {'name': 'iOS 5.1+', 'size': '17&nbsp;MB', 'location': '/vlc/download-ios.html'};
 
     //Attempt to load the bright button gradient into cache for faster switching on mouse over (may not work on all browsers.)
     var cache = new Image();
@@ -42,7 +44,7 @@ function replaceDLinfos( )
     $(document).ready(function () {
        var OS="windows"; //Default
 
-       if (navigator.appVersion.indexOf("Win")!=-1){
+       if (navigator.appVersion.indexOf("Win")!=-1) {
          OS="windows";
          latestVersion = '<?php echo "$win32version"; ?>';
        }
@@ -68,7 +70,10 @@ function replaceDLinfos( )
        }
        if (navigator.platform.indexOf("freebsd") != -1) OS="freebsd";
        if (navigator.platform.indexOf("FreeBSD") != -1) OS="freebsd";
-       if (navigator.userAgent.indexOf("iPad") != -1 || navigator.userAgent.indexOf("iPhone") != -1 || navigator.userAgent.indexOf("iPod") != -1) OS="ios";
+       if (navigator.userAgent.indexOf("iPad") != -1 || navigator.userAgent.indexOf("iPhone") != -1 || navigator.userAgent.indexOf("iPod") != -1) {
+            OS="ios";
+            latestVersion = '<?php echo "$iosversion"; ?>';
+       }
 
        $('#downloadDetails').html("Version " + latestVersion + " &nbsp;&#8226;&nbsp; " + eval(OS+"Details.name") + " &nbsp;&#8226;&nbsp; " + eval(OS+"Details.size"));
        $('#downloadButton').attr('href',eval(OS+"Details.location"))

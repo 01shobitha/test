@@ -25,7 +25,7 @@ function replaceDLinfos( )
     var osx32Details   = {'name': 'Mac OS X (32bit)', 'size': '26&nbsp;MB', 'location': '$dlBase/$macosxversion/macosx/vlc-$macosxversion-intel.dmg' };
     var osx64Details   = {'name': 'Mac OS X (64bit)', 'size': '27&nbsp;MB', 'location': '$dlBase/$macosxversion/macosx/vlc-$macosxversion-intel64.dmg' };
     var osxPPCDetails  = {'name': 'Mac OS X (PPC)', 'size': '25&nbsp;MB', 'location':   '$dlBase/$macosxversion/macosx/vlc-$macosxversion-powerpc.dmg' };
-    var iosdetails     = {'name': 'iOS 5.1+', 'size': '17&nbsp;MB', 'location': '/vlc/download-ios.html'};"; ?>
+    var iosDetails     = {'name': 'iOS', 'size': '17&nbsp;MB', 'location': '/vlc/download-ios.html'};"; ?>
     var linuxDetails   = {'name': 'Linux', 'size': '', 'location': '/vlc/#download'};
     var debianDetails  = {'name': 'Debian GNU/Linux', 'size': '', 'location': '/vlc/download-debian.html'};
     var ubuntuDetails  = {'name': 'Ubuntu', 'size': '', 'location': 'apt://vlc'};
@@ -35,7 +35,7 @@ function replaceDLinfos( )
     var suseDetails    = {'name': 'Suse Linux', 'size': '', 'location': '/vlc/download-suse.html'};
     var mandrivaDetails  = {'name': 'Mandriva Linux', 'size': '', 'location': '/vlc/download-mandriva.html'};
     var beosDetails  = {'name': 'BeOS', 'size': '', 'location': '/vlc/download-beos.html'};
-    var freebsdetails  = {'name': 'FreeBSD', 'size': '', 'location': '/vlc/download-freebsd.html'};
+    var freebsdDetails  = {'name': 'FreeBSD', 'size': '', 'location': '/vlc/download-freebsd.html'};
 
     //Attempt to load the bright button gradient into cache for faster switching on mouse over (may not work on all browsers.)
     var cache = new Image();

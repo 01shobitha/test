@@ -101,8 +101,10 @@
                     "2.0.1"   => array( "Windows" => 80222282,  "Macintosh" => 7768126, "Total" => 88042742 ),
                     "2.0.2"   => array( "Windows" => 45125602,  "Macintosh" => 3051816, "Total" => 48239203 ),
                     "2.0.3"   => array( "Windows" => 23382860,  "Macintosh" => 7090157, "Total" => 30539419 ),
-                    "2.0.4"   => array( "Windows" => 51413377,  "Macintosh" => 5806887, "Total" => 57334261 ),
-                    "2.0.5"   => array( "Windows" => 45839094,  "Macintosh" => 6455173, "Total" => 52823865 ),
+                    "2.0.4"   => array( "Windows" => 51860245,  "Macintosh" => 5806887, "Total" => 57798695 ),
+                    "2.0.5"   => array( "Windows" => 119023921, "Macintosh" => 8356166, "Total" => 119023921),
+                    "2.0.6"   => array( "Windows" => 2152979,   "Macintosh" => 43216  , "Total" => 2308198  ),
+                    "2.0.6"   => array( "Windows" => 2152979,   "Macintosh" => 43216  , "Total" => 2308198  ),
     );
 
     foreach( $table as $key => $t )

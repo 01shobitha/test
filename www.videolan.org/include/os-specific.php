@@ -27,6 +27,7 @@ function replaceDLinfos( )
     var osxPPCDetails  = {'name': 'Mac OS X (PPC)', 'size': '25&nbsp;MB', 'location':   '$dlBase/$macosxversion/macosx/vlc-$macosxversion-powerpc.dmg' };
     var iosDetails     = {'name': 'iOS', 'size': '17&nbsp;MB', 'location': '/vlc/download-ios.html'};"; ?>
     var linuxDetails   = {'name': 'Linux', 'size': '', 'location': '/vlc/#download'};
+    var androidDetails = {'name': 'Android', 'size': '', 'location': '/vlc/download-android.html'};
     var debianDetails  = {'name': 'Debian GNU/Linux', 'size': '', 'location': '/vlc/download-debian.html'};
     var ubuntuDetails  = {'name': 'Ubuntu', 'size': '', 'location': 'apt://vlc'};
     var fedoraDetails  = {'name': 'Fedora Linux', 'size': '', 'location': '/vlc/download-fedora.html'};
@@ -34,8 +35,9 @@ function replaceDLinfos( )
     var gentooDetails  = {'name': 'Gentoo Linux', 'size': '', 'location': '/vlc/download-gentoo.html'};
     var suseDetails    = {'name': 'Suse Linux', 'size': '', 'location': '/vlc/download-suse.html'};
     var mandrivaDetails  = {'name': 'Mandriva Linux', 'size': '', 'location': '/vlc/download-mandriva.html'};
-    var beosDetails  = {'name': 'BeOS', 'size': '', 'location': '/vlc/download-beos.html'};
-    var freebsdDetails  = {'name': 'FreeBSD', 'size': '', 'location': '/vlc/download-freebsd.html'};
+    var beosDetails    = {'name': 'BeOS', 'size': '', 'location': '/vlc/download-beos.html'};
+    var freebsdetails  = {'name': 'FreeBSD', 'size': '', 'location': '/vlc/download-freebsd.html'};
+    var iosdetails     = {'name': 'iOS 5.1+', 'size': '17&nbsp;MB', 'location': '/vlc/download-ios.html'};
 
     //Attempt to load the bright button gradient into cache for faster switching on mouse over (may not work on all browsers.)
     var cache = new Image();
@@ -52,20 +54,14 @@ function replaceDLinfos( )
           latestVersion = '<?php echo "$macosxversion"; ?>';
           if (navigator.platform.indexOf("MacPPC")!= -1 || navigator.platform.indexOf("PowerPC") != -1 ) OS="osxPPC";
           else if (navigator.userAgent.indexOf("OS X 10.5")!=-1) OS="osx32";
-          else if (navigator.userAgent.indexOf("OS X 10.6")!=-1) OS="osx64";
-          else if (navigator.userAgent.indexOf("OS X 10.7")!=-1) OS="osx64";
-          else if (navigator.userAgent.indexOf("OS X 10.8")!=-1) OS="osx64";
-          else if (navigator.userAgent.indexOf("OS X 10.9")!=-1) OS="osx64";
-          else if (navigator.userAgent.indexOf("OS X 10_7")!=-1) OS="osx64";
-          else if (navigator.userAgent.indexOf("OS X 10_8")!=-1) OS="osx64";
-          else if (navigator.userAgent.indexOf("OS X 10_9")!=-1) OS="osx64";
-          else OS="osx";
+          else OS="osx64";
        }
        if (navigator.platform.indexOf("BeOS") !=-1) OS="beos";
        if (navigator.platform.indexOf("Linux")!=-1) {
             if((navigator.userAgent.indexOf("Ubuntu") != -1) ||
                 (navigator.userAgent.indexOf("ubuntu") != -1)) OS="ubuntu";
             else if(navigator.userAgent.indexOf("Debian") != -1) OS="debian";
+            else if(navigator.userAgent.indexOf("Android") != -1) OS="android";
             else if(navigator.userAgent.indexOf("Mandriva") != -1) OS="mandriva";
             else if(navigator.userAgent.indexOf("Red Hat") != -1) OS="redhat";
             else if(navigator.userAgent.indexOf("Fedora") != -1) OS="fedora";

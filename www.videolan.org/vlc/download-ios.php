@@ -79,7 +79,7 @@ You can see the <a href="//wiki.videolan.org/iOSCompile">instructions to build</
 
 <h2> Binary </h2>
 <p> You can also get the binary from our servers instead of the App Store:
-<code><a href="http://download.videolan.org/pub/videolan/vlc-iOS/2.0.2/vlc-iOS-2.0.2.ipa">VLC for iOS 2.022 binary</a></code>.
+<code><a href="http://download.videolan.org/pub/videolan/vlc-iOS/2.0.2/vlc-iOS-2.0.2.ipa">VLC for iOS 2.0.2 binary</a></code>.
 </p>
 
 <h2> License </h2>

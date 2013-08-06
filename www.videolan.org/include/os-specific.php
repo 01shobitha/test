@@ -37,7 +37,6 @@ function replaceDLinfos( )
     var mandrivaDetails  = {'name': 'Mandriva Linux', 'size': '', 'location': '/vlc/download-mandriva.html'};
     var beosDetails    = {'name': 'BeOS', 'size': '', 'location': '/vlc/download-beos.html'};
     var freebsdetails  = {'name': 'FreeBSD', 'size': '', 'location': '/vlc/download-freebsd.html'};
-    var iosdetails     = {'name': 'iOS 5.1+', 'size': '17&nbsp;MB', 'location': '/vlc/download-ios.html'};
 
     //Attempt to load the bright button gradient into cache for faster switching on mouse over (may not work on all browsers.)
     var cache = new Image();

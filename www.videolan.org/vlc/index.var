@@ -36,6 +36,10 @@ URI: index.de.html
 Content-type: text/html
 Content-language: de
 
+URI: index.el.html     
+Content-type: text/html
+Content-language: el
+
 URI: index.es.html
 Content-type: text/html
 Content-language: es

@@ -1,4 +1,4 @@
-# Chinese translation
+# Simplified Chinese translation
 # Copyright (C) 2013 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
 #
@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-04-25 16:06+0200\n"
-"PO-Revision-Date: 2013-04-26 08:12+0000\n"
+"PO-Revision-Date: 2013-07-20 11:03+0000\n"
 "Last-Translator: Dean Lee <xslidian@gmail.com>\n"
 "Language-Team: Chinese (China) <vlc@lidian.info>\n"
 "Language: zh_CN\n"
@@ -251,11 +251,11 @@ msgstr "帮助宣传"
 
 #: index.php:135
 msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
-msgstr "我们觉得 VideoLAN 拥有市面上最棒的视频软件，其价位也最为合理：免费。如果您同意我们的观点，请帮忙宣传我们的软件。"
+msgstr "我们认为 VideoLAN 拥有市面上最棒的视频软件，其价位也最为合理：免费。如果您同意我们的观点，请帮忙宣传我们的软件。"
 
 #: index.php:147
 msgid "News &amp; Updates"
-msgstr "新闻 &amp; 更新"
+msgstr "新闻 &amp; 动态"
 
 #: index.php:151
 msgid "Development Blogs"

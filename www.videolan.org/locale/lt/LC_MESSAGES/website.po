@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Mindaugas Baranauskas <embar@super.lt>, 2013
+# Baltix kūrėjas <mantas@akl.lt>, 2013
+# Mindaugas <embar@super.lt>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-04-25 16:06+0200\n"
-"PO-Revision-Date: 2013-06-21 13:52+0000\n"
-"Last-Translator: Mindaugas <embar@super.lt>\n"
+"PO-Revision-Date: 2013-08-06 08:28+0000\n"
+"Last-Translator: Baltix kūrėjas <mantas@akl.lt>\n"
 "Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -179,7 +180,7 @@ msgstr "VLC: oficiali svetainė – nemokami įvairialypės terpės sprendimai v
 
 #: index.php:26 vlc/index.php:20
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
-msgstr "VLC yra atviro kodo nemokama kūrinių leistuvė, skirta įvairiausioms platformoms, galinti groti daugumą įvairialypės terpės rinkmenų, DVD, garso CD, VCD ir palaikanti įvairiausius srautų protokolus."
+msgstr "VLC yra laisva, atvirojo kodo vaizdo ir garso kūrinių leistuvė bei komponentai programoms, veikianti daugumoje operacinių sistemų. Su VLC galite žiūrėti bei klausytis daugumą įvairialypės terpės failų, taip pat DVD, garso CD, VideoCD ir  kūrinius iš įvairiausių tinklo srautų protokolų."
 
 #: index.php:36
 msgid "Other projects from VideoLAN"
@@ -275,7 +276,7 @@ msgstr "Paprasta, greita ir galinga kūrinių leistuvė."
 
 #: vlc/index.php:42
 msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
-msgstr "Groja viską: rinkmenas, diskus, internetines kameras, įrenginius ir srautus."
+msgstr "Atkuria viską: failus, diskus, internetines kameras, įrenginius ir srautus."
 
 #: vlc/index.php:44
 msgid "Plays most codecs with no codec packs needed:"

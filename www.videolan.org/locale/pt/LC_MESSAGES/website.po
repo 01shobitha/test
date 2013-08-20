@@ -1,182 +1,187 @@
 # Portuguese translation
-# Copyright (C) 2012 VideoLAN
+# Copyright (C) 2013 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
-# Manuela Silva <manuela.silva@sky.com>, 2012.
-# Ricardo Perdigão <ricardofonseca1977@gmail.com>, 2012.
+# glrs <goncaloluisilva@gmail.com>, 2013
+# alfalb_mansil <manuela.silva@sky.com>, 2012
+# Ricardo Perdigão <ricardofonseca1977@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-17 14:56+0200\n"
-"PO-Revision-Date: 2012-10-29 16:07+0000\n"
-"Last-Translator: Ricardo Perdigão <ricardofonseca1977@gmail.com>\n"
+"POT-Creation-Date: 2013-04-25 16:06+0200\n"
+"PO-Revision-Date: 2013-08-03 10:20+0000\n"
+"Last-Translator: glrs <goncaloluisilva@gmail.com>\n"
 "Language-Team: Portuguese (Portugal) (http://www.transifex.com/projects/p/vlc-trans/language/pt_PT/)\n"
+"Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pt_PT\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: include/header.php:142
+#: include/header.php:197
 msgid "A project and a"
-msgstr "Um projeto e"
+msgstr "Um projeto e uma"
 
-#: include/header.php:142
+#: include/header.php:197
 msgid "non-profit organization"
-msgstr "Organização Sem Fins Lucrativos"
+msgstr "organização sem fins lucrativos"
 
-#: include/header.php:143
-msgid ""
-"composed of volunteers, developing and promoting free, open-source "
-"multimedia solutions."
-msgstr "Composta por voluntários, programadores e criadores, e promoção gratuita de soluções multimédia."
+#: include/header.php:198
+msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
+msgstr "composta por voluntários, programadores e criadores, e promoção gratuita de soluções multimédia."
 
-#: include/header.php:147
-msgid "DONATE"
-msgstr "DOAR"
-
-#: include/header.php:147
-msgid "why?"
-msgstr "proquê?"
-
-#: include/header.php:161 include/header.php:175
+#: include/header.php:204 include/header.php:218 include/header.php:232
+#: index.php:107
 msgid "donate"
 msgstr "doar"
 
-#: include/header.php:194
+#: include/header.php:204
+msgid "why?"
+msgstr "porquê?"
+
+#: include/header.php:251
 msgid "Home"
 msgstr "Início"
 
-#: include/header.php:197 include/header.php:339
+#: include/header.php:254 include/header.php:399
 msgid "News"
 msgstr "Novidades"
 
-#: include/header.php:202 include/header.php:330
+#: include/header.php:259 include/header.php:389
 msgid "Project and Organization"
-msgstr "Novidades"
+msgstr "Projeto e organização"
 
-#: include/header.php:203 include/header.php:331
+#: include/header.php:260 include/header.php:390
 msgid "Team"
 msgstr "Equipa"
 
-#: include/header.php:204 include/header.php:333
+#: include/header.php:261 include/header.php:392
 msgid "Contact us"
 msgstr "Contacte-nos"
 
-#: include/header.php:205 include/header.php:334
+#: include/header.php:262 include/header.php:393
 msgid "Partners"
-msgstr "Contacte-nos"
+msgstr "Parceiros"
 
-#: include/header.php:206 include/header.php:335
+#: include/header.php:263 include/header.php:394
+msgid "Mirrors"
+msgstr "Espelhos"
+
+#: include/header.php:264 include/header.php:395
 msgid "Press center"
 msgstr "Centro de Imprensa"
 
-#: include/header.php:207 include/header.php:336
+#: include/header.php:265 include/header.php:396
 msgid "Events"
 msgstr "Eventos"
 
-#: include/header.php:208 include/header.php:337
+#: include/header.php:266 include/header.php:397
 msgid "Security center"
 msgstr "Centro de Segurança"
 
-#: include/header.php:214
+#: include/header.php:272
 msgid "Download"
 msgstr "Transferir"
 
-#: include/header.php:215 include/header.php:294 index.php:28 vlc/index.php:22
+#: include/header.php:273 include/header.php:353 index.php:28 vlc/index.php:22
 #: vlc/index.php:39
 msgid "Features"
 msgstr "Caraterísticas"
 
-#: include/header.php:216 include/header.php:295 index.php:29 vlc/index.php:23
+#: include/header.php:274 include/header.php:354 index.php:29 vlc/index.php:23
 #: vlc/index.php:65
 msgid "Screenshots"
 msgstr "Imagens de Ecrã"
 
-#: include/header.php:217 include/header.php:292 index.php:30 vlc/index.php:24
+#: include/header.php:275 include/header.php:351 index.php:30 vlc/index.php:24
 msgid "Skins"
 msgstr "Máscaras"
 
-#: include/header.php:218 include/header.php:293
+#: include/header.php:276 include/header.php:352
 msgid "Extensions"
 msgstr "Extensões"
 
-#: include/header.php:222
+#: include/header.php:280
 msgid "Projects"
 msgstr "Projetos"
 
-#: include/header.php:239 include/header.php:299
+#: include/header.php:297 include/header.php:358
 msgid "All Projects"
-msgstr "Todos os Projetos"
+msgstr "Todos os projetos"
 
-#: include/header.php:243 index.php:119
+#: include/header.php:301 index.php:119
 msgid "Contribute"
 msgstr "Contribuir"
 
-#: include/header.php:245 include/header.php:323
+#: include/header.php:303 include/header.php:382
 msgid "Donate time"
-msgstr "Doar Tempo"
+msgstr "Doar tempo"
 
-#: include/header.php:246 include/header.php:322
+#: include/header.php:304 include/header.php:381
 msgid "Donate money"
-msgstr "Doar Dinheiro"
+msgstr "Doar dinheiro"
 
-#: include/header.php:247 include/header.php:324
+#: include/header.php:305 include/header.php:383
 msgid "Get Goodies"
 msgstr "Obter Goodies"
 
-#: include/header.php:251
+#: include/header.php:309
 msgid "Support"
 msgstr "Suporte"
 
-#: include/header.php:253
+#: include/header.php:311
 msgid "Support center"
 msgstr "Centro de Suporte"
 
-#: include/header.php:255 include/header.php:332 include/header.php:345
+#: include/header.php:312
+msgid "FAQ"
+msgstr "FAQ"
+
+#: include/header.php:313 include/header.php:391 include/header.php:420
 msgid "Legal"
 msgstr "Legal"
 
-#: include/header.php:258 include/header.php:320
+#: include/header.php:315
+msgid "Forums"
+msgstr "Fóruns"
+
+#: include/header.php:316 include/header.php:379
 msgid "Mailing-Lists"
 msgstr "Listas de Endereços (Correio)"
 
-#: include/header.php:259
+#: include/header.php:317
 msgid "Report a bug"
-msgstr "Reportar um Erro"
+msgstr "Reportar um bug"
 
-#: include/header.php:263
+#: include/header.php:321
 msgid "Dev' Zone"
 msgstr "Zona de Desenvolvimento"
 
-#: include/header.php:316
+#: include/header.php:375
 msgid "Community"
 msgstr "Comunidade"
 
-#: include/header.php:338
+#: include/header.php:398
 msgid "Get Involved"
 msgstr "Participe"
 
-#: include/os-specific.php:85 vlc/index.php:27
+#: include/os-specific.php:88 vlc/index.php:27
 msgid "Download VLC"
 msgstr "Transferir o VLC"
 
-#: include/os-specific.php:91 vlc/index.php:34
-msgid "Other Systems and Versions"
-msgstr "Outros Sistemas e Versões"
+#: include/os-specific.php:94 vlc/index.php:34 vlc/index.php:128
+msgid "Other Systems"
+msgstr "Outros sistemas"
 
 #: index.php:3
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
 msgstr "Site Oficial do VLC - Soluções multimédia gratuitas para todos os SO!"
 
 #: index.php:26 vlc/index.php:20
-msgid ""
-"VLC is a free and open source cross-platform multimedia player and framework"
-" that plays most multimedia files as well as DVD, Audio CD, VCD, and various"
-" streaming protocols."
-msgstr "VLC é um reprodutor multimédia livre e de código aberto multi-plataforma que suporta a maioria dos ficheiros multimédia, bem como de DVD, CD de Áudio, VCD e vários protocolos de streaming."
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
+msgstr "O VLC é um reprodutor multimédia gratuito e de código aberto multi-plataforma que suporta a maioria dos ficheiros multimédia, bem como de DVD, CD de Áudio, VCD e vários protocolos de streaming."
 
 #: index.php:36
 msgid "Other projects from VideoLAN"
@@ -184,17 +189,14 @@ msgstr "Outros projetos da VideoLAN"
 
 #: index.php:38
 msgid "For Everyone"
-msgstr "Para Toda a Gente"
+msgstr "Para todos"
 
 #: index.php:44
-msgid ""
-"VLC is a powerful media player playing most of the media codecs and video "
-"formats out there."
-msgstr "VLC é um poderoso reprodutor multimédia que suporta a maioria dos codecs e formatos de vídeo existentes."
+msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
+msgstr "O VLC é um poderoso reprodutor multimédia que suporta a maioria dos codecs e formatos de vídeo existentes."
 
 #: index.php:53
-msgid ""
-"VideoLAN Movie Creator is a non-linear editing software for video creation."
+msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
 msgstr "O VideoLAN Movie Creator é um software de edição/criação de vídeo não linear."
 
 #: index.php:60
@@ -202,21 +204,16 @@ msgid "For Professionals"
 msgstr "Para Profissionais"
 
 #: index.php:66
-msgid ""
-"DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
-msgstr "DVBlast é um simples e poderosa aplicação de streaming e demux de MPEG-2/TS"
+msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
+msgstr "O DVBlast é uma simples e poderosa aplicação de streaming e demux de MPEG-2/TS."
 
 #: index.php:74
-msgid ""
-"multicat is a set of tools designed to easily and efficiently manipulate "
-"multicast streams and TS."
-msgstr "Multicast é um conjunto de ferramentas desenhadas para uma fácil e eficiente manipulação de streams multicast e TS."
+msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
+msgstr "O multicast é um conjunto de ferramentas desenhadas para uma fácil e eficiente manipulação de streams multicast e TS."
 
 #: index.php:83
-msgid ""
-"x264 is a free application for encoding video streams into the H.264/MPEG-4 "
-"AVC format."
-msgstr "x264 é uma aplicação gratuita para codificação de vídeo no formato H.264/MPEG-4 AVC."
+msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
+msgstr "O x264 é uma aplicação gratuita para codificação de vídeo no formato H.264/MPEG-4 AVC."
 
 #: index.php:91
 msgid "For Developers"
@@ -224,25 +221,19 @@ msgstr "Para os Programadores/Criadores"
 
 #: index.php:102
 msgid "View All Projects"
-msgstr "Ver Todos os Projetos"
+msgstr "Ver todos os projetos"
 
 #: index.php:105
 msgid "Help us out!"
 msgstr "Ajude-nos!"
-
-#: index.php:107
-msgid "Donate"
-msgstr "Doar"
 
 #: index.php:111
 msgid "VideoLAN is a non-profit organization."
 msgstr "A VideoLAN é uma organização sem fins lucrativos"
 
 #: index.php:112
-msgid ""
-" All our costs are met by donations we receive from our users. If you enjoy "
-"using a VideoLAN product, please donate to support us."
-msgstr "Todos os nossos custos são cobertos por doações dos utilizadores. Se gosta de utilizar o VídeoLAN, por favor apoio-nos e faça uma doação."
+msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
+msgstr "Todos os nossos custos são cobertos por doações dos utilizadores. Se gosta de utilizar um produto da VideoLAN, por favor faça uma doação para nos suportar."
 
 #: index.php:114 index.php:126 index.php:137
 msgid "Learn More"
@@ -253,30 +244,26 @@ msgid "VideoLAN is open-source software."
 msgstr "VídeoLAN é um software em código aberto."
 
 #: index.php:124
-msgid ""
-"This means that if you have the skill and the desire to improve one of our "
-"products, your contributions are welcome"
-msgstr "Isto significa que se você tem a habilidade e o desejo de melhorar um dos nosso productos, as suas contribuições serão bem-vindas."
+msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
+msgstr "Isto significa que se você tiver a habilidade e o desejo de melhorar um dos nossos produtos, as suas contribuições serão bem-vindas."
 
 #: index.php:131
 msgid "Spread the Word"
 msgstr "Divulgue!"
 
 #: index.php:135
-msgid ""
-"We feel that VideoLAN has the best video software available at the best "
-"price: free. If you agree please help spread the word about our software."
-msgstr "Sentimos que o VídeoLAN tem o melhor software de vídeo disponível ao melhor preço: gratuito. Se concorda, por favor ajude a divulgar o nosso software."
+msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
+msgstr "Nós sentimos que a VideoLAN tem o melhor software de vídeo disponível ao melhor preço: gratuito. Se concorda, por favor ajude a divulgar o nosso software."
 
-#: index.php:407
+#: index.php:147
 msgid "News &amp; Updates"
 msgstr "Novidades &amp; Atualizações"
 
-#: index.php:411
+#: index.php:151
 msgid "Development Blogs"
 msgstr "Blogues dos Programadores/Criadores"
 
-#: index.php:434
+#: index.php:176
 msgid "Social media"
 msgstr "Multimédia social"
 
@@ -290,11 +277,11 @@ msgstr "Um leitor multimédia, simples, rápido e poderoso."
 
 #: vlc/index.php:42
 msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
-msgstr "Reproduz tudo: Ficheiros, Discos, Webcams, Dispositivos e Streams"
+msgstr "Reproduz tudo: ficheiros, discos, webcams, dispositivos e streams"
 
 #: vlc/index.php:44
 msgid "Plays most codecs with no codec packs needed:"
-msgstr "Reproduz a maioria dos codecs sem necessidade de pacotes de codecs"
+msgstr "Reproduz a maioria dos codecs sem necessidade de pacotes de codecs:"
 
 #: vlc/index.php:47
 msgid "Runs on all platforms:"
@@ -302,7 +289,7 @@ msgstr "Funciona em todas as plataformas:"
 
 #: vlc/index.php:49
 msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
-msgstr "Completamente gratuito, 0 spyware, 0 anúncios e não rastreamento do utilizador."
+msgstr "Completamente gratuito, 0 spyware, 0 anúncios e sem rastreamento do utilizador."
 
 #: vlc/index.php:51
 msgid "Can do media conversion and streaming."
@@ -310,7 +297,7 @@ msgstr "Pode converter e transmitir media."
 
 #: vlc/index.php:53
 msgid "Discover all features"
-msgstr "Descubra todas as caraterísticas"
+msgstr "Descubra todos os recursos"
 
 #: vlc/index.php:87
 msgid "View all screenshots"
@@ -322,7 +309,7 @@ msgstr "Obter o VLC para"
 
 #: vlc/index.php:98
 msgid "Official Downloads of VLC media player"
-msgstr "Transferências Oficiais do VLC media player"
+msgstr "Transferências oficiais do VLC media player"
 
 #: vlc/index.php:105
 msgid "Sources"
@@ -330,12 +317,20 @@ msgstr "Fontes"
 
 #: vlc/index.php:106
 msgid "You can also directly get the"
-msgstr "Também pode obter directamente o"
+msgstr "Também pode obter diretamente o"
 
 #: vlc/index.php:107
 msgid "source code"
-msgstr "Código Fonte (Source code)"
+msgstr "código fonte"
 
-#: vlc/index.php:128
-msgid "Other OS"
-msgstr "Outros Sistemas Operativos"
+#~ msgid "DONATE"
+#~ msgstr "DOAR"
+
+#~ msgid "Other Systems and Versions"
+#~ msgstr "Outros Sistemas e Versões"
+
+#~ msgid "Donate"
+#~ msgstr "Doar"
+
+#~ msgid "Other OS"
+#~ msgstr "Outros Sistemas Operativos"

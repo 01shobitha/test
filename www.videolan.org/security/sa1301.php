@@ -9,7 +9,7 @@
 
 <div id="fullwidth">
 
-<h1>Security Advisory 1203</h1>
+<h1>Security Advisory 1301</h1>
 <pre>
 Summary           : Buffer overflows in freetype renderer and HTML subtitle parser
 Date              : January 2013

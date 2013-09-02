@@ -116,8 +116,9 @@ If you are the only team member, you could pick me. This is just to have someone
 VLC media player (2.0.X and 2.1.X), translations for the website (only some pages), 
 VLC for Android&trade; (beta) and for VideoLAN Movie Creator.</p>
 
+<h3>Additional remarks</h3>
 <ul>
-<li>VLMC is not going to be released soon. Translating the current state probably is a waste of time.</li>
+<li>VideoLAN Movie Creator is <strong>not</strong> going to be released soon. Translating the current state probably is a waste of time.</li>
 <li>For the smaller projects (website, Android, iOS) I usually start including your translation 
 when it reaches 100%, so you probably want to finish the first one before starting the next.</li>
 </ul>

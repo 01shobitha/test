@@ -9,23 +9,25 @@
 
 <h2>Do you have to use transifex?</h2>
 
-<p>Use transifex only if you like, you don't have to. <em>If</em> you want to use transifex, please note:</p>
+<p>Use transifex only if you like, you don't have to. It is easier for me to keep track of updates. <em>If</em> you want to use transifex, please note:</p>
 
 <h2>Email address and name</h2>
 
-<p>The email address used for your account will be visible in the header (of the po
-files). So will the full name set in your profile.
-While I don't want to force anyone to set the full name there, it makes my life
-easier if you provide your name in a way I can use in AUTHORS.</p>
+<p>The email address used for your account will be visible in some files (for example in the header of the po
+files). So will the full name set in your profile.</p>
 
-<p>Please set this before doing any translations on the transifex website (or
-uploading any files there).</p>
+<p>There is a setting to not show your email address. Hide your address, if you prefer to not 
+publish a spam free address. Without a visible email, the only way to contact you will be the internal messages.</p>
 
-<p>Update: Now there is a setting to not show your email address. Hide your address, if you prefer to not 
-publish a spam free address. It's not neccessary to set a real name any more. Instead, send me 
-(Christoph Miebach, you don't have to find me, I'll find you) your name and 
-the email address that shall be used and I will replace your user name with this data on merging your translation.
-In fact, easiest will be, if you only appear with one spelling, not with a mixed form of user name/real name.</p>
+<p>If you want to have your name in the AUTHORS file, you will have to sent me (username: Christoph_Miebach, email: see below) a message. Useful information will be:
+<ul>
+  <li>Transifex username</li>
+  <li>Real name</li>
+  <li>Language(s) you are working at</li>
+</ul>
+I am hardly able to keep track of all the translators and as some of them prefer to be anonymous, 
+I would consider myself spamming if I asked them for their names over and over again.
+</p>
 
 <h2>Existing translations</h2>
 
@@ -33,36 +35,7 @@ In fact, easiest will be, if you only appear with one spelling, not with a mixed
 
 <p>Do not throw away the work already done for your language. If you already have
 some translations (typically there is a po file for your language),
-it is possible to upload them and continue work from there.</p>
-
-<p>Now, there are some problems here. If you don't like to solve them yourself,
-just ask me to upload your translation for you.</p>
-
-
-<h3>Use empty (or cleared) headers for file uploads</h3>
-
-<p>Transifex recognizes (and adds) copyright lines in the headers of po files, but
-it won't let me delete wrong lines. That's why I request you 
-to set a full name before starting translating.
-It only recognizes lines that follow a certain format:<br />
-
-<br />
-<kbd># Some Name &lt;email@address.com&gt;, 2008, 2012<br />
-# Different Longer Name &lt;address@email.com&gt;, 2009-2012.<br /></kbd>
-<br />
-
-So the user information needs to be between "#" and "," and the line must end in
-a year (the period is optional). You don't have to list each year, 
-something like <br />
-<kbd> ,2004, 2008-2012 </kbd> <br />
-will work, too.</p>
-
-<p>It took me quite some time to figure this out (and to get support for
-YEAR-YEAR), and you really don't have to spend that much time on it. 
-You can simply remove the credit lines from the header before uploading. You
-won't have to worry about the header if you downloaded the file from transifex
-as it already has the right format.</p>
-
+it is possible to upload them and continue work from there. Reviewing translations is much faster than starting from scratch usually.</p>
 
 <h3>Uploading "patches"</h3>
 
@@ -75,7 +48,7 @@ The file needs to be complete (with regards to the specs), though.</p>
 <br />
 <h4>po files</h4>
 
-<p>For po files you will need the header (remove all the comments starting with #")
+<p>For po files you will need the header starting with <kbd>msgid ""</kbd>
 that typically ends short after the 
 <kbd>"Plural-Forms:"</kbd> line and, for everything you want to translate the usual pair of
 msgid and msgstr.</p>
@@ -101,18 +74,18 @@ on overwriting.</p>
 <p>Depends. Besides the trouble with the translator's names it seems to work.</p>
 
 <p>If you already have a good workflow and maybe 100% translated you probably don't
-need this as it only means extra work.
+need this as it only means extra work, but using it as an uploading service is a good idea (instead of emailing the file to me).
 While having some help with the translation usually is a good thing, a careless
 or evil translator can do some harm to your translation, 
 so you best download a backup version every now and then. 
-(I don't think the old translations are lost forever, but I am sure you don't
+(I don't think the old translations are lost forever, but you certainly don't
 want to check the translation history for several hundreds of messages.)
 You might get "join requests" to your team you need to handle yourself (I
 usually won't modify your translation or your team).<p>
 
 
 <h3>Benefits:</h3>
-<p>If the strings changes in the git the current version will show up automatically
+<p>If the strings change in the git, the current version will show up automatically
 (within a day), so you won't have to take care of that yourself.</p>
 <p>You can upload whenever you got something translated and don't need to email your
 progress and I will upload them to git at release time.</p>
@@ -154,4 +127,10 @@ VLC for Android&trade; (beta) and for VideoLAN Movie Creator.</p>
     <td><a href="http://git.videolan.org/?p=vlmc.git;a=tree;f=ts;hb=HEAD">browse git repo</a></td>
   </tr>
 </table>
+
+<h2>Stopping or pausing work as maintainer</h2>
+<p>Please pick an additional maintainer for your language when you expect not having time any more (or for a longer while). 
+If you are the only team member, you could pick me. This is just to have someone care for new join requests.
+</p>
+
 <p><i>Written by Christoph Miebach &lt;christoph dot miebach at web dot de&gt;</i></p>

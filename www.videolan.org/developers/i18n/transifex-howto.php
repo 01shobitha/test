@@ -19,12 +19,13 @@ files). So will the full name set in your profile.</p>
 <p>There is a setting to not show your email address. Hide your address, if you prefer to not 
 publish a spam free address. Without a visible email, the only way to contact you will be the internal messages.</p>
 
-<p>If you want to have your name in the AUTHORS file, you will have to sent me (username: Christoph_Miebach, email: see below) a message. Useful information will be:
+<p>If you want to have your name in the AUTHORS file, you will have to sent me (username: Christoph_Miebach, email: see below) a message. Useful information will be:</p>
 <ul>
   <li>Transifex username</li>
   <li>Real name</li>
   <li>Language(s) you are working at</li>
 </ul>
+<p>
 I am hardly able to keep track of all the translators and as some of them prefer to be anonymous, 
 I would consider myself spamming if I asked them for their names over and over again.
 </p>
@@ -100,6 +101,12 @@ the translation web frontend</p>
 <p>Not transifex related news: We are going to enable every translation (upon request) 
 for the nightly builds. This is different to the normal releases.</p>
 
+<h2>Stopping or pausing work as maintainer</h2>
+
+<p>Please pick an additional maintainer for your language when you expect not having time any more (or for a longer while). 
+If you are the only team member, you could pick me. This is just to have someone care for new join requests.
+</p>
+
 <h2>Start work</h2>
 
 <p>The other suggestions still apply (i.e.: contact current maintainer before starting with the work, subscribe to the 
@@ -108,6 +115,12 @@ for the nightly builds. This is different to the normal releases.</p>
 <p>This <a href="https://www.transifex.com/projects/p/vlc-trans/">transifex project</a> currently contains 
 VLC media player (2.0.X and 2.1.X), translations for the website (only some pages), 
 VLC for Android&trade; (beta) and for VideoLAN Movie Creator.</p>
+
+<ul>
+<li>VLMC is not going to be released soon. Translating the current state probably is a waste of time.</li>
+<li>For the smaller projects (website, Android, iOS) I usually start including your translation 
+when it reaches 100%, so you probably want to finish the first one before starting the next.</li>
+</ul>
 
 <h3>Here you can find the files for translation or browse to see if your language already has a (partial) translation:</h3>
 <table>
@@ -127,10 +140,5 @@ VLC for Android&trade; (beta) and for VideoLAN Movie Creator.</p>
     <td><a href="http://git.videolan.org/?p=vlmc.git;a=tree;f=ts;hb=HEAD">browse git repo</a></td>
   </tr>
 </table>
-
-<h2>Stopping or pausing work as maintainer</h2>
-<p>Please pick an additional maintainer for your language when you expect not having time any more (or for a longer while). 
-If you are the only team member, you could pick me. This is just to have someone care for new join requests.
-</p>
 
 <p><i>Written by Christoph Miebach &lt;christoph dot miebach at web dot de&gt;</i></p>

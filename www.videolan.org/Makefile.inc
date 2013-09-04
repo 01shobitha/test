@@ -37,7 +37,9 @@ locales: index.an.php index.ast.php index.bg.php index.bn_IN.php index.bs.php in
          index.mr.php \
          index.my.php \
          index.nb.php index.nl.php index.or.php \
-         index.pl.php index.pt.php index.pt_BR.php index.ro.php index.ru.php index.sk.php index.sr.php index.th.php index.tr.php \
+         index.pl.php index.pt.php index.pt_BR.php index.ro.php index.ru.php index.sk.php index.sr.php \
+         index.sv.php \
+         index.th.php index.tr.php \
          index.uk.php index.ur.php \
          index.vi.php \
          index.wa.php index.zh.php include/header.php

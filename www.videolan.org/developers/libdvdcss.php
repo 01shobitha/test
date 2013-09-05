@@ -28,8 +28,8 @@ DVDs like a block device without having to bother about the decryption. </p>
 <p> Last version of <code>libdvdcss</code> is <b>1.2.13</b>. </p>
 
 <p> Our Debian/Ubuntu repository can be accessed by adding the following content to /etc/apt/sources.list<p>
-<p><code>deb http://download.videolan.org/pub/debian/raring/ /</code></p>
-<p><code>deb-src http://download.videolan.org/pub/debian/raring/ /</code></p>
+<p><code>deb http://download.videolan.org/pub/debian/stable/ /</code></p>
+<p><code>deb-src http://download.videolan.org/pub/debian/stable/ /</code></p>
 <p>And by running<p>
 <p><code>wget -O - http://download.videolan.org/pub/debian/videolan-apt.asc|sudo apt-key add -</code></p>
 

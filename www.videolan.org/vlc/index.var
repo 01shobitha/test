@@ -144,6 +144,10 @@ URI: index.sr.html
 Content-type: text/html
 Content-language: sr
 
+URI: index.sv.html
+Content-type: text/html
+Content-language: sv
+
 URI: index.th.html
 Content-type: text/html
 Content-language: th

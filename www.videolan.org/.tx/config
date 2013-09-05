@@ -1,0 +1,36 @@
+[main]
+host = https://www.transifex.com
+
+[vlc-trans.vlc-android]
+file_filter = android/transifex/values-<lang>/strings.xml
+lang_map = nb_NO:nb, zh_CN:zh-rCN, zh_TW:zh-rTW, bn_IN:bn-rIN, or_IN:or, pt_PT:pt, my_MM:my
+source_lang = en
+
+[vlc-trans.vlc_website]
+file_filter = transifex/<lang>.po
+lang_map = gu_IN:gu, my_MM:my, nb_NO:nb, or_IN:or, pt_PT:pt, zh_CN:zh
+source_lang = en
+
+[vlc-trans.vlc-21]
+file_filter = vlc-2.1/transifex/<lang>.po
+source_lang = en
+lang_map = nb_NO:nb, mn_MN:mn, gu_IN:gu, my_MM:my, ne_NP:ne, or_IN:or
+
+# TODO
+#[vlc-trans.vlmc]
+#file_filter = translations/vlc-trans.vlmc/<lang>.ts
+#source_lang = en
+
+# Outdated?! since this refers to vlc-2.0
+#[vlc-trans.vlc_head]
+#file_filter = translations/vlc-trans.vlc_head/<lang>.po
+#source_lang = en
+
+[vlc-trans.ios-settings-20]
+file_filter = translations/vlc-trans.ios-settings-20/<lang>.strings
+source_lang = en
+
+[vlc-trans.ios-20]
+file_filter = translations/vlc-trans.ios-20/<lang>.strings
+source_lang = en
+

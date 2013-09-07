@@ -9,7 +9,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-<h1 class="bigtitle"> VLC for iOS 2.0</h1>
+<h1 class="bigtitle"> VLC for iOS 2.1</h1>
 
 <h2> Introduction </h2>
 <p>VLC for iOS can play all your movies and shows in most formats directly without conversion.<br />
@@ -73,7 +73,7 @@ function vlcscreenshot($img,$thumb, $desc){
 <p> Additionally, the latest code is always available on our <a href="http://git.videolan.org/?p=vlc-ports/ios.git;a=summary">git repositories</a>.</p>
 
 <h2> Developers </h2>
-<p> VLC for iOS 2.0 is quite new and developed by volunteers! We therefore welcome all contributions.<br />
+<p> VLC for iOS is quite new and developed by volunteers! We therefore welcome all contributions.<br />
 You can see the <a href="//wiki.videolan.org/iOSCompile">instructions to build</a> on our <a href="//wiki.videolan.org">Wiki</a>.
 </p>
 

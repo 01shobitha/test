@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-04-25 16:06+0200\n"
-"PO-Revision-Date: 2013-09-06 22:04+0000\n"
+"PO-Revision-Date: 2013-09-06 22:19+0000\n"
 "Last-Translator: DolphinPhoenix <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish (http://www.transifex.com/projects/p/vlc-trans/language/sv/)\n"
 "Language: sv\n"
@@ -123,7 +123,7 @@ msgstr "Donera pengar"
 
 #: include/header.php:305 include/header.php:383
 msgid "Get Goodies"
-msgstr "Få godsaker"
+msgstr "Hämta godsaker"
 
 #: include/header.php:309
 msgid "Support"
@@ -163,7 +163,7 @@ msgstr "Gemenskap"
 
 #: include/header.php:398
 msgid "Get Involved"
-msgstr "Bli engagerad"
+msgstr "Engagera dig"
 
 #: include/os-specific.php:88 vlc/index.php:27
 msgid "Download VLC"
@@ -303,7 +303,7 @@ msgstr "Visa alla skärmdumpar"
 
 #: vlc/index.php:94
 msgid "Get VLC for"
-msgstr "Hämta VLC till"
+msgstr "Hämta VLC för"
 
 #: vlc/index.php:98
 msgid "Official Downloads of VLC media player"

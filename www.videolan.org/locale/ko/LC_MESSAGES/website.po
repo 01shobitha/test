@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-04-25 16:06+0200\n"
-"PO-Revision-Date: 2013-09-08 07:56+0000\n"
+"PO-Revision-Date: 2013-09-10 09:46+0000\n"
 "Last-Translator: sheppaul <sheppaul@naver.com>\n"
 "Language-Team: Korean (http://www.transifex.com/projects/p/vlc-trans/language/ko/)\n"
 "Language: ko\n"
@@ -34,7 +34,7 @@ msgstr "자유롭게 개발하고 진행하는 지원자들로 구성되어 있�
 #: include/header.php:204 include/header.php:218 include/header.php:232
 #: index.php:107
 msgid "donate"
-msgstr "기부"
+msgstr "기부하기"
 
 #: include/header.php:204
 msgid "why?"
@@ -100,7 +100,7 @@ msgstr "스킨"
 
 #: include/header.php:276 include/header.php:352
 msgid "Extensions"
-msgstr "확장"
+msgstr "확장 기능"
 
 #: include/header.php:280
 msgid "Projects"
@@ -116,15 +116,15 @@ msgstr "기부하기"
 
 #: include/header.php:303 include/header.php:382
 msgid "Donate time"
-msgstr "시간 기부"
+msgstr "시간 기부하기"
 
 #: include/header.php:304 include/header.php:381
 msgid "Donate money"
-msgstr "돈 기부"
+msgstr "돈 기부하기"
 
 #: include/header.php:305 include/header.php:383
 msgid "Get Goodies"
-msgstr "Get Goodies"
+msgstr "로고, 아이콘"
 
 #: include/header.php:309
 msgid "Support"
@@ -156,7 +156,7 @@ msgstr "버그 리포트"
 
 #: include/header.php:321
 msgid "Dev' Zone"
-msgstr "개발자 구역"
+msgstr "개발자센터"
 
 #: include/header.php:375
 msgid "Community"
@@ -188,7 +188,7 @@ msgstr "VideoLAN 파생 프로젝트"
 
 #: index.php:38
 msgid "For Everyone"
-msgstr "For Everyone"
+msgstr "일반 사용자용"
 
 #: index.php:44
 msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
@@ -240,7 +240,7 @@ msgstr "더 보기"
 
 #: index.php:123
 msgid "VideoLAN is open-source software."
-msgstr "VideoLAN은 오픈 소스 소프트웨어입니다."
+msgstr "VideoLAN은 오픈 소스입니다."
 
 #: index.php:124
 msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
@@ -276,19 +276,19 @@ msgstr "간편하고, 빠르고 강력한 미디어 재생기."
 
 #: vlc/index.php:42
 msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
-msgstr "모든 것을 재생: 파일, 디스크, 웹캠, 장치와 스트림."
+msgstr "모든 것 재생: 파일, 디스크, 웹캠, 장치와 스트림."
 
 #: vlc/index.php:44
 msgid "Plays most codecs with no codec packs needed:"
-msgstr "코덱 팩 없이 대부분의 미디어를 재생합니다:"
+msgstr "코덱 팩 없이 대부분의 코덱을 재생합니다:"
 
 #: vlc/index.php:47
 msgid "Runs on all platforms:"
-msgstr "모든 플랫폼에서 동작합니다:"
+msgstr "모든 플랫폼 지원:"
 
 #: vlc/index.php:49
 msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
-msgstr "스파이웨어, 광고와 사용자 추적이 전혀 없이 완전 무료."
+msgstr "스파이웨어, 광고와 사용자 추적이 전혀 없는 완전 무료."
 
 #: vlc/index.php:51
 msgid "Can do media conversion and streaming."
@@ -304,7 +304,7 @@ msgstr "모드 스크린샷 보기"
 
 #: vlc/index.php:94
 msgid "Get VLC for"
-msgstr "VLC 얻기:"
+msgstr "VLC 다운:"
 
 #: vlc/index.php:98
 msgid "Official Downloads of VLC media player"

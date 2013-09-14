@@ -46,8 +46,8 @@ for i in $( ls *po ); do
     TRANS_DONE=`sed -n "s/^\([0-9]*\) translated.*/\1/ p" <last_item.txt`
     REMAINING=`sed -n "s/.* \([0-9]*\) untranslated.*/\1/ p" <last_item.txt`
       
-    # if [ $TRANS_DONE -le 60 ]
-    if grep -q "untrans" last_item.txt
+    if [ $TRANS_DONE -le 39 ]
+    # if grep -q "untrans" last_item.txt
     #I promised to pull complete translations, so here I ignore everything else
     then
       echo "$i is incomplete. $REMAINING missing. Skipping..."

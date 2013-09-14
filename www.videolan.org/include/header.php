@@ -30,12 +30,14 @@ function getLocaleFromLanguage( $language )
     case 'he': $locale = "he_IL.UTF-8"; break;
     case 'hi': $locale = "hi_IN.UTF-8"; break;
     case 'hr': $locale = "hr_HR.utf8"; break;
+    case 'id': $locale = "id_ID.utf8"; break;
     case 'is': $locale = "is_IS.utf8"; break;
     case 'it': $locale = "it_IT.utf8"; break;
     case 'ja': $locale = "ja_JP.UTF-8"; break;
     case 'km': $locale = "km_KH.UTF-8"; break;
     case 'kn': $locale = "kn_IN"; break;
     case 'ko': $locale = "ko_KR.utf8"; break;
+    case 'ky': $locale = "ky_KG"; break;
     case 'lt': $locale = "lt_LT.utf8"; break;
     case 'mk': $locale = "mk_MK.UTF-8"; break;
     case 'mr': $locale = "mr_IN.UTF-8"; break;
@@ -52,10 +54,12 @@ function getLocaleFromLanguage( $language )
     case 'sl': $locale = "sl_SI.utf8"; break;
     case 'sr': $locale = "sr_RS"; break;
     case 'sv': $locale = "sv_SE.utf8"; break; 
+    case 'te': $locale = "te_IN"; break;
     case 'th': $locale = "th_TH.UTF-8"; break;
     case 'tr': $locale = "tr_TR.UTF-8"; break;
     case 'uk': $locale = "uk_UA.utf8"; break;
     case 'ur': $locale = "ur_PK"; break;
+    case 'uz': $locale = "uz_UZ"; break;
     case 'vi': $locale = "vi_VN"; break;
     case 'wa': $locale = "wa_BE.UTF-8"; break;
     case 'zh': $locale = "zh_CN.UTF-8"; break;

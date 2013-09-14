@@ -41,12 +41,14 @@ locales: index.an.php \
          index.he.php \
          index.hi.php \
          index.hr.php \
+         index.id.php \
          index.is.php \
          index.it.php \
          index.ja.php \
          index.km.php \
          index.kn.php \
          index.ko.php \
+         index.ky.php \
          index.lt.php \
          index.mk.php \
          index.mr.php \
@@ -63,10 +65,12 @@ locales: index.an.php \
          index.sl.php \
          index.sr.php \
          index.sv.php \
+         index.te.php \
          index.th.php \
          index.tr.php \
          index.uk.php \
          index.ur.php \
+         index.uz.php \
          index.vi.php \
          index.wa.php \
          index.zh.php \

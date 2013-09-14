@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-04-25 16:06+0200\n"
-"PO-Revision-Date: 2013-09-06 22:19+0000\n"
+"PO-Revision-Date: 2013-09-14 09:57+0000\n"
 "Last-Translator: DolphinPhoenix <anton_r_3@hotmail.com>\n"
 "Language-Team: Swedish (http://www.transifex.com/projects/p/vlc-trans/language/sv/)\n"
 "Language: sv\n"
@@ -207,7 +207,7 @@ msgstr "DVBlast är en enkel och kraftfull MPEG-2/TS-demux och strömningsapplik
 
 #: index.php:74
 msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
-msgstr "multicat är en uppsättning verktyg för att enkelt och effektivt kunna hantera flersändning- och transportströmmar."
+msgstr "multicat är en uppsättning verktyg byggda för att enkelt och effektivt kunna hantera flersändnings- och transportströmmar."
 
 #: index.php:83
 msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
@@ -267,7 +267,7 @@ msgstr "Sociala medier"
 
 #: vlc/index.php:3
 msgid "Official page for VLC media player, the Open Source video framework!"
-msgstr "Officiell sida för VLC media player, videoframework med öppen källa"
+msgstr "Officiell sida för VLC media player, videoframework med öppen källa!"
 
 #: vlc/index.php:40
 msgid "Simple, fast and powerful media player."

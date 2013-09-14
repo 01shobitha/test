@@ -1,296 +1,333 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR jb
+# Finnish translation
+# Copyright (C) 2013 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: VideoLAN's websites\n"
+"Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-11-23 17:12+0100\n"
-"PO-Revision-Date: 2011-12-05 16:49+0530\n"
-"Last-Translator: \n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2013-04-25 16:06+0200\n"
+"PO-Revision-Date: 2013-08-28 11:06+0000\n"
+"Last-Translator: Christoph Miebach <christoph.miebach@web.de>\n"
+"Language-Team: Finnish (http://www.transifex.com/projects/p/vlc-trans/language/fi/)\n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: include/header.php:94
+#: include/header.php:197
 msgid "A project and a"
 msgstr "Projekti ja"
 
-#: include/header.php:94
+#: include/header.php:197
 msgid "non-profit organization"
 msgstr "voittoa tavoittelematon järjestö"
 
-#: include/header.php:95
+#: include/header.php:198
 msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
 msgstr "koostuu vapaaehtoisista, kehittää ja edistää vapaata avoimen lähdekoodin multimediaratkaisuja."
 
-#: include/header.php:99
-msgid "DONATE"
-msgstr "LUOVUTA"
-
-#: include/header.php:99
-msgid "why?"
-msgstr "miksi?"
-
-#: include/header.php:113
-#: include/header.php:127
+#: include/header.php:204 include/header.php:218 include/header.php:232
+#: index.php:107
 msgid "donate"
 msgstr "lahjoittaa"
 
-#: include/header.php:142
+#: include/header.php:204
+msgid "why?"
+msgstr "miksi?"
+
+#: include/header.php:251
 msgid "Home"
 msgstr "Etusivu"
 
-#: include/header.php:145
+#: include/header.php:254 include/header.php:399
 msgid "News"
 msgstr "Uutiset"
 
-#: include/header.php:150
+#: include/header.php:259 include/header.php:389
 msgid "Project and Organization"
 msgstr "Projekti ja organisaatio"
 
-#: include/header.php:151
+#: include/header.php:260 include/header.php:390
 msgid "Team"
 msgstr "joukkue"
 
-#: include/header.php:152
+#: include/header.php:261 include/header.php:392
 msgid "Contact us"
 msgstr "Ota yhteyttä"
 
-#: include/header.php:153
+#: include/header.php:262 include/header.php:393
 msgid "Partners"
 msgstr "Yhteistyökumppanit"
 
-#: include/header.php:154
+#: include/header.php:263 include/header.php:394
+msgid "Mirrors"
+msgstr ""
+
+#: include/header.php:264 include/header.php:395
 msgid "Press center"
 msgstr "Lehdistökeskus"
 
-#: include/header.php:155
+#: include/header.php:265 include/header.php:396
 msgid "Events"
 msgstr "Tapahtumat"
 
-#: include/header.php:156
+#: include/header.php:266 include/header.php:397
 msgid "Security center"
 msgstr "Tietoturvakeskus"
 
-#: include/header.php:162
+#: include/header.php:272
 msgid "Download"
 msgstr "Download"
 
-#: include/header.php:163
-#: include/header.php:241
-#: index.php:18
-#: vlc/index.php:14
-#: vlc/index.php:31
+#: include/header.php:273 include/header.php:353 index.php:28 vlc/index.php:22
+#: vlc/index.php:39
 msgid "Features"
 msgstr "ominaisuudet"
 
-#: include/header.php:164
-#: include/header.php:242
-#: index.php:19
-#: vlc/index.php:15
-#: vlc/index.php:57
+#: include/header.php:274 include/header.php:354 index.php:29 vlc/index.php:23
+#: vlc/index.php:65
 msgid "Screenshots"
 msgstr "Screenshots"
 
-#: include/header.php:165
-#: include/header.php:239
-#: index.php:20
-#: vlc/index.php:16
+#: include/header.php:275 include/header.php:351 index.php:30 vlc/index.php:24
 msgid "Skins"
 msgstr "Skins"
 
-#: include/header.php:166
-#: include/header.php:240
+#: include/header.php:276 include/header.php:352
 msgid "Extensions"
 msgstr "laajennukset"
 
-#: include/header.php:170
+#: include/header.php:280
 msgid "Projects"
 msgstr "Projektit"
 
-#: include/header.php:186
+#: include/header.php:297 include/header.php:358
 msgid "All Projects"
 msgstr "Kaikki projektit"
 
-#: include/header.php:190
-#: index.php:104
+#: include/header.php:301 index.php:119
 msgid "Contribute"
 msgstr "Osallistu"
 
-#: include/header.php:192
-#: include/header.php:269
+#: include/header.php:303 include/header.php:382
 msgid "Donate time"
 msgstr "Lahjoita aikaa"
 
-#: include/header.php:193
-#: include/header.php:268
+#: include/header.php:304 include/header.php:381
 msgid "Donate money"
 msgstr "Lahjoita rahaa"
 
-#: include/header.php:194
-#: include/header.php:270
+#: include/header.php:305 include/header.php:383
 msgid "Get Goodies"
 msgstr "Hanki Goodies"
 
-#: include/header.php:198
+#: include/header.php:309
 msgid "Support"
 msgstr "tuki"
 
-#: include/header.php:200
+#: include/header.php:311
 msgid "Support center"
 msgstr "Tukikeskus"
 
-#: include/header.php:202
+#: include/header.php:312
+msgid "FAQ"
+msgstr ""
+
+#: include/header.php:313 include/header.php:391 include/header.php:420
 msgid "Legal"
 msgstr "oikeudellinen"
 
-#: include/header.php:210
-msgid "Dev' Zone"
-msgstr "Dev-Zone"
+#: include/header.php:315
+msgid "Forums"
+msgstr ""
 
-#: include/header.php:262
-msgid "Community"
-msgstr "yhteisön"
-
-#: include/header.php:266
+#: include/header.php:316 include/header.php:379
 msgid "Mailing-Lists"
 msgstr "Mailing-listat"
 
-#: index.php:2
-msgid "VLC: Official site - Free multimedia solutions for all OS!"
-msgstr "VLC: Virallinen sivusto - Ilmainen multimediaratkaisut kaikki OS!"
+#: include/header.php:317
+msgid "Report a bug"
+msgstr ""
 
-#: index.php:16
-#: vlc/index.php:12
-msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
-msgstr "VLC on ilmainen ja avoimen lähdekoodin cross-platform multimediasoitin ja puitteet, joka toistaa useimmat multimedia tiedostot sekä DVD, Audio CD, VCD, ja eri streamingprotokollia."
+#: include/header.php:321
+msgid "Dev' Zone"
+msgstr "Dev-Zone"
 
-#: index.php:23
-#: vlc/index.php:19
+#: include/header.php:375
+msgid "Community"
+msgstr "yhteisön"
+
+#: include/header.php:398
+msgid "Get Involved"
+msgstr ""
+
+#: include/os-specific.php:88 vlc/index.php:27
 msgid "Download VLC"
 msgstr "Lataa VLC"
 
-#: index.php:30
-#: vlc/index.php:26
-msgid "Other Systems and Versions"
-msgstr "Muut järjestelmät ja versiot"
+#: include/os-specific.php:94 vlc/index.php:34 vlc/index.php:128
+msgid "Other Systems"
+msgstr ""
 
-#: index.php:34
+#: index.php:3
+msgid "VLC: Official site - Free multimedia solutions for all OS!"
+msgstr "VLC: Virallinen sivusto - Ilmainen multimediaratkaisut kaikki OS!"
+
+#: index.php:26 vlc/index.php:20
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
+msgstr "VLC on ilmainen ja avoimen lähdekoodin cross-platform multimediasoitin ja puitteet, joka toistaa useimmat multimedia tiedostot sekä DVD, Audio CD, VCD, ja eri streamingprotokollia."
+
+#: index.php:36
 msgid "Other projects from VideoLAN"
 msgstr "Muita hankkeita VideoLAN"
 
-#: index.php:36
+#: index.php:38
 msgid "For Everyone"
 msgstr "For Everyone"
 
-#: index.php:42
+#: index.php:44
 msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
 msgstr "VLC on tehokas mediasoitin pelissä useimmat koodekkeja ja videoformaatteja siellä."
 
-#: index.php:51
+#: index.php:53
 msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
 msgstr "VideoLAN Movie Creator on epälineaarinen editointi ohjelmisto videoiden luomiseen."
 
-#: index.php:57
+#: index.php:60
 msgid "For Professionals"
 msgstr "ammattilaisille"
 
-#: index.php:63
+#: index.php:66
 msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
 msgstr "DVBlast on yksinkertainen ja tehokas MPEG-2/TS demux ja streaming sovellus."
 
-#: index.php:72
+#: index.php:74
+msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
+msgstr ""
+
+#: index.php:83
 msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
 msgstr "x264 on ilmainen sovellus koodaus videokuvan osaksi H.264/MPEG-4 AVC-muodossa."
 
-#: index.php:78
+#: index.php:91
 msgid "For Developers"
 msgstr "Kehittäjille"
 
-#: index.php:87
+#: index.php:102
 msgid "View All Projects"
 msgstr "Näytä kaikki projektit"
 
-#: index.php:90
+#: index.php:105
 msgid "Help us out!"
 msgstr "Auta meitä!"
 
-#: index.php:92
-msgid "Donate"
-msgstr "lahjoittaa"
-
-#: index.php:96
+#: index.php:111
 msgid "VideoLAN is a non-profit organization."
 msgstr "VideoLAN on voittoa tavoittelematon organisaatio."
 
-#: index.php:97
+#: index.php:112
 msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
 msgstr "  Kaikki kustannukset täyttyvät lahjoituksilla saamme käyttäjiä. Jos nautit VideoLAN tuote, lahjoita tukea meitä."
 
-#: index.php:99
-#: index.php:111
-#: index.php:122
+#: index.php:114 index.php:126 index.php:137
 msgid "Learn More"
 msgstr "Lue lisää"
 
-#: index.php:108
+#: index.php:123
 msgid "VideoLAN is open-source software."
 msgstr "VideoLAN on avoimen lähdekoodin ohjelmisto."
 
-#: index.php:109
+#: index.php:124
 msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
 msgstr "Tämä tarkoittaa, että jos sinulla on taito ja halu parantaa jonkin tuotteistamme, sinunmaksut ovat tervetulleita"
 
-#: index.php:116
+#: index.php:131
 msgid "Spread the Word"
 msgstr "Levittämään sanaa"
 
-#: index.php:120
+#: index.php:135
 msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
 msgstr "Mielestämme VideoLAN on paras video-ohjelmisto saatavilla paras hinta: ilmainen. Jos olet samaa mieltä Auttakaa levittämään tietoa ohjelmistomme."
 
-#: index.php:131
+#: index.php:147
 msgid "News &amp; Updates"
 msgstr "Uutiset ja päivitykset"
 
-#: index.php:135
+#: index.php:151
 msgid "Development Blogs"
 msgstr "kehittäminen Blogit"
 
-#: index.php:158
+#: index.php:176
 msgid "Social media"
 msgstr "sosiaalinen media"
 
-#: vlc/index.php:45
+#: vlc/index.php:3
+msgid "Official page for VLC media player, the Open Source video framework!"
+msgstr ""
+
+#: vlc/index.php:40
+msgid "Simple, fast and powerful media player."
+msgstr ""
+
+#: vlc/index.php:42
+msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
+msgstr ""
+
+#: vlc/index.php:44
+msgid "Plays most codecs with no codec packs needed:"
+msgstr ""
+
+#: vlc/index.php:47
+msgid "Runs on all platforms:"
+msgstr ""
+
+#: vlc/index.php:49
+msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
+msgstr ""
+
+#: vlc/index.php:51
+msgid "Can do media conversion and streaming."
+msgstr ""
+
+#: vlc/index.php:53
 msgid "Discover all features"
 msgstr "Discover kaikki ominaisuudet"
 
-#: vlc/index.php:79
+#: vlc/index.php:87
 msgid "View all screenshots"
 msgstr "Näytä kaikki kuvakaappauksia"
 
-#: vlc/index.php:90
+#: vlc/index.php:94
+msgid "Get VLC for"
+msgstr ""
+
+#: vlc/index.php:98
 msgid "Official Downloads of VLC media player"
 msgstr "Virallinen Lataukset VLC media player"
 
-#: vlc/index.php:97
+#: vlc/index.php:105
 msgid "Sources"
 msgstr "lähteet"
 
-#: vlc/index.php:98
+#: vlc/index.php:106
 msgid "You can also directly get the"
 msgstr "Voit myös suoraan saada"
 
-#: vlc/index.php:99
+#: vlc/index.php:107
 msgid "source code"
 msgstr "lähdekoodin"
 
-#: vlc/index.php:119
-msgid "Other OS"
-msgstr "Muut käyttöjärjestelmät"
+#~ msgid "DONATE"
+#~ msgstr "LUOVUTA"
 
+#~ msgid "Other Systems and Versions"
+#~ msgstr "Muut järjestelmät ja versiot"
+
+#~ msgid "Donate"
+#~ msgstr "lahjoittaa"
+
+#~ msgid "Other OS"
+#~ msgstr "Muut käyttöjärjestelmät"

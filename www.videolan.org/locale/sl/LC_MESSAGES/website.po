@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-04-25 16:06+0200\n"
-"PO-Revision-Date: 2013-08-22 12:59+0000\n"
-"Last-Translator: anthonmanix <anthon.manix@gmail.com>\n"
+"PO-Revision-Date: 2013-09-11 19:12+0000\n"
+"Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian (http://www.transifex.com/projects/p/vlc-trans/language/sl/)\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
@@ -124,7 +124,7 @@ msgstr "Podari denar"
 
 #: include/header.php:305 include/header.php:383
 msgid "Get Goodies"
-msgstr ""
+msgstr "Prenesi priboljške"
 
 #: include/header.php:309
 msgid "Support"

@@ -1,181 +1,185 @@
 # Bengali (India) translation
-# Copyright (C) 2012 VideoLAN
+# Copyright (C) 2013 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
-# BIRAJ KARMAKAR <brnet00@gmail.com>, 2012.
-# Umesh Agarwal <umesh.agarwal1@gmail.com>, 2012.
+# Biraj Karmakar <brnet00@gmail.com>, 2012
+# Umesh Agarwal <umesh.agarwal1@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-17 14:56+0200\n"
-"PO-Revision-Date: 2012-08-28 13:54+0000\n"
-"Last-Translator: BIRAJ KARMAKAR <brnet00@gmail.com>\n"
+"POT-Creation-Date: 2013-04-25 16:06+0200\n"
+"PO-Revision-Date: 2013-04-25 14:11+0000\n"
+"Last-Translator: Christoph Miebach <christoph.miebach@web.de>\n"
 "Language-Team: Bengali (India) (http://www.transifex.com/projects/p/vlc-trans/language/bn_IN/)\n"
+"Language: bn_IN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: bn_IN\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: include/header.php:142
+#: include/header.php:197
 msgid "A project and a"
 msgstr "একটি প্রকল্প এবং একটি"
 
-#: include/header.php:142
+#: include/header.php:197
 msgid "non-profit organization"
 msgstr "অলাভজনক সংস্থা"
 
-#: include/header.php:143
-msgid ""
-"composed of volunteers, developing and promoting free, open-source "
-"multimedia solutions."
+#: include/header.php:198
+msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
 msgstr "স্বেচ্ছাসেবকদের গঠিত, উন্নয়নশীল এবং বিনামূল্যে, ওপেন সোর্স মাল্টিমিডিয়া সমাধান প্রচার."
 
-#: include/header.php:147
-msgid "DONATE"
-msgstr "দান করা"
-
-#: include/header.php:147
-msgid "why?"
-msgstr "কেন?"
-
-#: include/header.php:161 include/header.php:175
+#: include/header.php:204 include/header.php:218 include/header.php:232
+#: index.php:107
 msgid "donate"
 msgstr "দান করা"
 
-#: include/header.php:194
+#: include/header.php:204
+msgid "why?"
+msgstr "কেন?"
+
+#: include/header.php:251
 msgid "Home"
 msgstr "ঘর"
 
-#: include/header.php:197 include/header.php:339
+#: include/header.php:254 include/header.php:399
 msgid "News"
 msgstr "সংবাদ"
 
-#: include/header.php:202 include/header.php:330
+#: include/header.php:259 include/header.php:389
 msgid "Project and Organization"
 msgstr "প্রকল্প এবং সংস্থা"
 
-#: include/header.php:203 include/header.php:331
+#: include/header.php:260 include/header.php:390
 msgid "Team"
 msgstr "দল"
 
-#: include/header.php:204 include/header.php:333
+#: include/header.php:261 include/header.php:392
 msgid "Contact us"
 msgstr "যোগাযোগ আমাদেরকে"
 
-#: include/header.php:205 include/header.php:334
+#: include/header.php:262 include/header.php:393
 msgid "Partners"
 msgstr "সঙ্গী"
 
-#: include/header.php:206 include/header.php:335
+#: include/header.php:263 include/header.php:394
+msgid "Mirrors"
+msgstr ""
+
+#: include/header.php:264 include/header.php:395
 msgid "Press center"
 msgstr "প্রেস মধ্য"
 
-#: include/header.php:207 include/header.php:336
+#: include/header.php:265 include/header.php:396
 msgid "Events"
 msgstr "ঘটনাবলী"
 
-#: include/header.php:208 include/header.php:337
+#: include/header.php:266 include/header.php:397
 msgid "Security center"
 msgstr "নিরাপত্তা মধ্য"
 
-#: include/header.php:214
+#: include/header.php:272
 msgid "Download"
 msgstr "ডাউনলোড করুন"
 
-#: include/header.php:215 include/header.php:294 index.php:28 vlc/index.php:22
+#: include/header.php:273 include/header.php:353 index.php:28 vlc/index.php:22
 #: vlc/index.php:39
 msgid "Features"
 msgstr "বৈশিষ্ট্য"
 
-#: include/header.php:216 include/header.php:295 index.php:29 vlc/index.php:23
+#: include/header.php:274 include/header.php:354 index.php:29 vlc/index.php:23
 #: vlc/index.php:65
 msgid "Screenshots"
 msgstr "স্ক্রীনশট"
 
-#: include/header.php:217 include/header.php:292 index.php:30 vlc/index.php:24
+#: include/header.php:275 include/header.php:351 index.php:30 vlc/index.php:24
 msgid "Skins"
 msgstr "স্কিনস"
 
-#: include/header.php:218 include/header.php:293
+#: include/header.php:276 include/header.php:352
 msgid "Extensions"
 msgstr "এক্সটেনশানগুলি"
 
-#: include/header.php:222
+#: include/header.php:280
 msgid "Projects"
 msgstr "প্রকল্প"
 
-#: include/header.php:239 include/header.php:299
+#: include/header.php:297 include/header.php:358
 msgid "All Projects"
 msgstr "সমস্ত প্রকল্প"
 
-#: include/header.php:243 index.php:119
+#: include/header.php:301 index.php:119
 msgid "Contribute"
 msgstr "কাজে লাগা"
 
-#: include/header.php:245 include/header.php:323
+#: include/header.php:303 include/header.php:382
 msgid "Donate time"
 msgstr " সময় দান করা"
 
-#: include/header.php:246 include/header.php:322
+#: include/header.php:304 include/header.php:381
 msgid "Donate money"
 msgstr "টাকা দান করা "
 
-#: include/header.php:247 include/header.php:324
+#: include/header.php:305 include/header.php:383
 msgid "Get Goodies"
 msgstr "Goodies পান"
 
-#: include/header.php:251
+#: include/header.php:309
 msgid "Support"
 msgstr "সমর্থন"
 
-#: include/header.php:253
+#: include/header.php:311
 msgid "Support center"
 msgstr "সমর্থন মধ্য"
 
-#: include/header.php:255 include/header.php:332 include/header.php:345
+#: include/header.php:312
+msgid "FAQ"
+msgstr ""
+
+#: include/header.php:313 include/header.php:391 include/header.php:420
 msgid "Legal"
 msgstr "আইনগত"
 
-#: include/header.php:258 include/header.php:320
+#: include/header.php:315
+msgid "Forums"
+msgstr ""
+
+#: include/header.php:316 include/header.php:379
 msgid "Mailing-Lists"
 msgstr "মেলিং তালিকা"
 
-#: include/header.php:259
+#: include/header.php:317
 msgid "Report a bug"
 msgstr "একটি বাগ রিপোর্ট করুন"
 
-#: include/header.php:263
+#: include/header.php:321
 msgid "Dev' Zone"
 msgstr "দেব 'অঞ্চল"
 
-#: include/header.php:316
+#: include/header.php:375
 msgid "Community"
 msgstr "সম্প্রদায়"
 
-#: include/header.php:338
+#: include/header.php:398
 msgid "Get Involved"
 msgstr "জড়িত হন"
 
-#: include/os-specific.php:85 vlc/index.php:27
+#: include/os-specific.php:88 vlc/index.php:27
 msgid "Download VLC"
 msgstr "VLC ডাউনলোড করুন"
 
-#: include/os-specific.php:91 vlc/index.php:34
-msgid "Other Systems and Versions"
-msgstr "অন্যান্য সিস্টেম এবং সংস্করণ"
+#: include/os-specific.php:94 vlc/index.php:34 vlc/index.php:128
+msgid "Other Systems"
+msgstr ""
 
 #: index.php:3
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
 msgstr "VLC: অফিসিয়াল সাইট - ফ্রি সকল OS এর জন্য মাল্টিমিডিয়া সমাধান!"
 
 #: index.php:26 vlc/index.php:20
-msgid ""
-"VLC is a free and open source cross-platform multimedia player and framework"
-" that plays most multimedia files as well as DVD, Audio CD, VCD, and various"
-" streaming protocols."
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
 msgstr "VLC একটি মুক্ত এবং মুক্ত উৎ‍স cross-platform মাল্টিমিডিয়া চালক এবং কাঠামো যে মাল্টিমিডিয়া ফাইল ও ডিভিডি, অডিও সিডি, ভিসিডি সর্বাপেক্ষা চালায়, এবং বিভিন্ন স্ট্রীমিং প্রোটোকল।"
 
 #: index.php:36
@@ -187,14 +191,11 @@ msgid "For Everyone"
 msgstr "প্রত্যের জন্য"
 
 #: index.php:44
-msgid ""
-"VLC is a powerful media player playing most of the media codecs and video "
-"formats out there."
+msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
 msgstr "VLC মিডিয়া কোডেক এবং ভিডিও বিন্যাস বাইরে সেখানের একটি ক্ষমতাশালী মিডিয়া চালক চালানো হচ্ছে সর্বাপেক্ষা।"
 
 #: index.php:53
-msgid ""
-"VideoLAN Movie Creator is a non-linear editing software for video creation."
+msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
 msgstr "VideoLAN চলচ্চিত্র সৃষ্টিকারী ভিডিও সৃষ্টির জন্য একটি non-linear সম্পাদন সফটওয়্যার।"
 
 #: index.php:60
@@ -202,20 +203,15 @@ msgid "For Professionals"
 msgstr "পেশাদারদের জন্য"
 
 #: index.php:66
-msgid ""
-"DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
+msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
 msgstr "DVBlast একটি সহজ এবং ক্ষমতাশালী MPEG-2/TS ডিমিউক্স এবং স্ট্রীমিং অ্যাপলিকেশন।"
 
 #: index.php:74
-msgid ""
-"multicat is a set of tools designed to easily and efficiently manipulate "
-"multicast streams and TS."
+msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
 msgstr " সহজভাবেতে সরঞ্জামের একটি সেট পরিকল্পনা করে এবং মাল্টিকাস্ট স্ট্রীম এবং TS efficiently নিপুণভাবে ব্যবহার করে।ast streams and TS."
 
 #: index.php:83
-msgid ""
-"x264 is a free application for encoding video streams into the H.264/MPEG-4 "
-"AVC format."
+msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
 msgstr "x২৬৪ H 264/MPEG-4 AVC ফরম্যাটের দিকে ভিডিও স্ট্রীম এনকোডিং করার জন্য একটি মুক্ত অ্যাপলিকেশন।"
 
 #: index.php:91
@@ -230,18 +226,12 @@ msgstr "দেখা সমস্ত প্রকল্প"
 msgid "Help us out!"
 msgstr "আমাদের কে সহায়তা করুন!"
 
-#: index.php:107
-msgid "Donate"
-msgstr "দান করা"
-
 #: index.php:111
 msgid "VideoLAN is a non-profit organization."
 msgstr "VideoLAN একটি অলাভজনক সংস্থা."
 
 #: index.php:112
-msgid ""
-" All our costs are met by donations we receive from our users. If you enjoy "
-"using a VideoLAN product, please donate to support us."
+msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
 msgstr "সমস্ত আমাদের খরচ আমাদের ব্যবহারকারী থেকে donations আমাদের মধ্যে দেখা করা হয় গ্রহন করা হয়। যদি আপনি একটি VideoLAN দ্রব্য ব্যবহার করে উপভোগ করেন, দয়া করে আমাদেরকে সমর্থন করতে দান করুন"
 
 #: index.php:114 index.php:126 index.php:137
@@ -253,9 +243,7 @@ msgid "VideoLAN is open-source software."
 msgstr "VideoLAN হয় ওপেন সোর্স সফ্টওয়্যার."
 
 #: index.php:124
-msgid ""
-"This means that if you have the skill and the desire to improve one of our "
-"products, your contributions are welcome"
+msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
 msgstr "এইটি অভিপ্রায় কর সেটায় যদি আপনার দক্ষতা রয়েছে এবং আমাদের দ্রব্যের একটি উন্নতি করতে আকাঙ্খা, আপনার অবদানসমূহ স্বাগত আছে"
 
 #: index.php:131
@@ -263,20 +251,18 @@ msgid "Spread the Word"
 msgstr "শব্দ ছড়িয়ে দিন"
 
 #: index.php:135
-msgid ""
-"We feel that VideoLAN has the best video software available at the best "
-"price: free. If you agree please help spread the word about our software."
+msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
 msgstr "আমরা অনুভব করি যে VideoLANএর সর্বোত্তম দামে সর্বোত্তম ভিডিও সফটওয়্যার প্রাপ্তিসাধ্য রয়েছে: মুক্ত। যদি আপনি আমাদের সফটওয়্যারের সম্বন্ধে দয়া করে কথা সম্মত হন সাহায্য করেন প্রসারিত হন।"
 
-#: index.php:407
+#: index.php:147
 msgid "News &amp; Updates"
 msgstr "সংবাদ আপডেট"
 
-#: index.php:411
+#: index.php:151
 msgid "Development Blogs"
 msgstr "ডেভেলপমেন্ট ব্লগ"
 
-#: index.php:434
+#: index.php:176
 msgid "Social media"
 msgstr "সামাজিক মিডিয়া"
 
@@ -336,6 +322,14 @@ msgstr "আপনি ও সরাসরিভাবে পেতে পার�
 msgid "source code"
 msgstr "উৎ‍স কোড"
 
-#: vlc/index.php:128
-msgid "Other OS"
-msgstr "অন্যান্য অপারেটিং সিস্টেম"
+#~ msgid "DONATE"
+#~ msgstr "দান করা"
+
+#~ msgid "Other Systems and Versions"
+#~ msgstr "অন্যান্য সিস্টেম এবং সংস্করণ"
+
+#~ msgid "Donate"
+#~ msgstr "দান করা"
+
+#~ msgid "Other OS"
+#~ msgstr "অন্যান্য অপারেটিং সিস্টেম"

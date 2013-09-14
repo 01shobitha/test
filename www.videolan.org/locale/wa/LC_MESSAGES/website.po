@@ -1,180 +1,184 @@
 # Walloon translation
-# Copyright (C) 2012 VideoLAN
+# Copyright (C) 2013 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
-#   <gaytan@skynet.be>, 2012.
+# Gaytan <gaytan@skynet.be>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-17 14:56+0200\n"
-"PO-Revision-Date: 2012-09-01 09:43+0000\n"
-"Last-Translator: Gaytan <gaytan@skynet.be>\n"
+"POT-Creation-Date: 2013-04-25 16:06+0200\n"
+"PO-Revision-Date: 2013-04-25 14:11+0000\n"
+"Last-Translator: Christoph Miebach <christoph.miebach@web.de>\n"
 "Language-Team: Walloon (http://www.transifex.com/projects/p/vlc-trans/language/wa/)\n"
+"Language: wa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: wa\n"
-"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: include/header.php:142
+#: include/header.php:197
 msgid "A project and a"
 msgstr "On pordjet et ene"
 
-#: include/header.php:142
+#: include/header.php:197
 msgid "non-profit organization"
 msgstr "soce nén recwårlante"
 
-#: include/header.php:143
-msgid ""
-"composed of volunteers, developing and promoting free, open-source "
-"multimedia solutions."
+#: include/header.php:198
+msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
 msgstr "compôzêye di volontaires ki diswalpèt et fijhèt li reclame di rexhowes multimedia libes"
 
-#: include/header.php:147
-msgid "DONATE"
-msgstr "DINER"
-
-#: include/header.php:147
-msgid "why?"
-msgstr "pocwè?"
-
-#: include/header.php:161 include/header.php:175
+#: include/header.php:204 include/header.php:218 include/header.php:232
+#: index.php:107
 msgid "donate"
 msgstr "dinez"
 
-#: include/header.php:194
+#: include/header.php:204
+msgid "why?"
+msgstr "pocwè?"
+
+#: include/header.php:251
 msgid "Home"
 msgstr "Måjhon"
 
-#: include/header.php:197 include/header.php:339
+#: include/header.php:254 include/header.php:399
 msgid "News"
 msgstr "Noveles"
 
-#: include/header.php:202 include/header.php:330
+#: include/header.php:259 include/header.php:389
 msgid "Project and Organization"
 msgstr "Pordjet et Organizåcion"
 
-#: include/header.php:203 include/header.php:331
+#: include/header.php:260 include/header.php:390
 msgid "Team"
 msgstr "Ekipe"
 
-#: include/header.php:204 include/header.php:333
+#: include/header.php:261 include/header.php:392
 msgid "Contact us"
 msgstr "Atôtchîz nos"
 
-#: include/header.php:205 include/header.php:334
+#: include/header.php:262 include/header.php:393
 msgid "Partners"
 msgstr "Soçons"
 
-#: include/header.php:206 include/header.php:335
+#: include/header.php:263 include/header.php:394
+msgid "Mirrors"
+msgstr ""
+
+#: include/header.php:264 include/header.php:395
 msgid "Press center"
 msgstr "Cinte di presse"
 
-#: include/header.php:207 include/header.php:336
+#: include/header.php:265 include/header.php:396
 msgid "Events"
 msgstr "Evenmints"
 
-#: include/header.php:208 include/header.php:337
+#: include/header.php:266 include/header.php:397
 msgid "Security center"
 msgstr "Cinte di såvrité"
 
-#: include/header.php:214
+#: include/header.php:272
 msgid "Download"
 msgstr "Aberweter"
 
-#: include/header.php:215 include/header.php:294 index.php:28 vlc/index.php:22
+#: include/header.php:273 include/header.php:353 index.php:28 vlc/index.php:22
 #: vlc/index.php:39
 msgid "Features"
 msgstr "Fonccionålités"
 
-#: include/header.php:216 include/header.php:295 index.php:29 vlc/index.php:23
+#: include/header.php:274 include/header.php:354 index.php:29 vlc/index.php:23
 #: vlc/index.php:65
 msgid "Screenshots"
 msgstr "Waitroûlêyes"
 
-#: include/header.php:217 include/header.php:292 index.php:30 vlc/index.php:24
+#: include/header.php:275 include/header.php:351 index.php:30 vlc/index.php:24
 msgid "Skins"
 msgstr "Peas"
 
-#: include/header.php:218 include/header.php:293
+#: include/header.php:276 include/header.php:352
 msgid "Extensions"
 msgstr "Rawetes"
 
-#: include/header.php:222
+#: include/header.php:280
 msgid "Projects"
 msgstr "Pordjets"
 
-#: include/header.php:239 include/header.php:299
+#: include/header.php:297 include/header.php:358
 msgid "All Projects"
 msgstr "Tos les pordjets"
 
-#: include/header.php:243 index.php:119
+#: include/header.php:301 index.php:119
 msgid "Contribute"
 msgstr "Contribouwer"
 
-#: include/header.php:245 include/header.php:323
+#: include/header.php:303 include/header.php:382
 msgid "Donate time"
 msgstr "Diner do tins"
 
-#: include/header.php:246 include/header.php:322
+#: include/header.php:304 include/header.php:381
 msgid "Donate money"
 msgstr "Diner des cwårs"
 
-#: include/header.php:247 include/header.php:324
+#: include/header.php:305 include/header.php:383
 msgid "Get Goodies"
 msgstr "Aveur des goodies"
 
-#: include/header.php:251
+#: include/header.php:309
 msgid "Support"
 msgstr "Sopoirt"
 
-#: include/header.php:253
+#: include/header.php:311
 msgid "Support center"
 msgstr "Cinte do sopoirt"
 
-#: include/header.php:255 include/header.php:332 include/header.php:345
+#: include/header.php:312
+msgid "FAQ"
+msgstr ""
+
+#: include/header.php:313 include/header.php:391 include/header.php:420
 msgid "Legal"
 msgstr "Legål"
 
-#: include/header.php:258 include/header.php:320
+#: include/header.php:315
+msgid "Forums"
+msgstr ""
+
+#: include/header.php:316 include/header.php:379
 msgid "Mailing-Lists"
 msgstr "Djåspinreyes"
 
-#: include/header.php:259
+#: include/header.php:317
 msgid "Report a bug"
 msgstr "Fijhoz on rapoirt di bug"
 
-#: include/header.php:263
+#: include/header.php:321
 msgid "Dev' Zone"
 msgstr "Dev' Zone"
 
-#: include/header.php:316
+#: include/header.php:375
 msgid "Community"
 msgstr "Cominålté"
 
-#: include/header.php:338
+#: include/header.php:398
 msgid "Get Involved"
 msgstr "Soeyoz  egadjî"
 
-#: include/os-specific.php:85 vlc/index.php:27
+#: include/os-specific.php:88 vlc/index.php:27
 msgid "Download VLC"
 msgstr "Aberweter VLC"
 
-#: include/os-specific.php:91 vlc/index.php:34
-msgid "Other Systems and Versions"
-msgstr "Ôtes sistinmes et modêyes"
+#: include/os-specific.php:94 vlc/index.php:34 vlc/index.php:128
+msgid "Other Systems"
+msgstr ""
 
 #: index.php:3
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
 msgstr "VLC: Site oficir - Des rexhowes multimedia libes po tos les SO!"
 
 #: index.php:26 vlc/index.php:20
-msgid ""
-"VLC is a free and open source cross-platform multimedia player and framework"
-" that plays most multimedia files as well as DVD, Audio CD, VCD, and various"
-" streaming protocols."
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
 msgstr "VLC est on djouweu multimedia po rén et libe et on sistinme ki pout djouwer li pupårt des fitchîs multimedia ossu bén ki des DVD, des CD odio, des VCD et sacwants protocoles di streaming."
 
 #: index.php:36
@@ -186,14 +190,11 @@ msgid "For Everyone"
 msgstr "Po tertos"
 
 #: index.php:44
-msgid ""
-"VLC is a powerful media player playing most of the media codecs and video "
-"formats out there."
+msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
 msgstr "VLC est on roed djouweu d' media ki pout lére li pupårt des codecs et des cognes videyo."
 
 #: index.php:53
-msgid ""
-"VideoLAN Movie Creator is a non-linear editing software for video creation."
+msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
 msgstr "VideoLAN Movie Creator est programe d' aspougnaedje nén lineyåre po l' ahivaedje di videyo."
 
 #: index.php:60
@@ -201,20 +202,15 @@ msgid "For Professionals"
 msgstr "Po les professionels"
 
 #: index.php:66
-msgid ""
-"DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
+msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
 msgstr "DVBlast est ene aplicåcion di streaming et di dismultiplecsaedje MPEG-2/TS simpe et roede."
 
 #: index.php:74
-msgid ""
-"multicat is a set of tools designed to easily and efficiently manipulate "
-"multicast streams and TS."
+msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
 msgstr "multicat est ene ustireye po apougnî åjheymint et eficacemint des floûs multicast et TS."
 
 #: index.php:83
-msgid ""
-"x264 is a free application for encoding video streams into the H.264/MPEG-4 "
-"AVC format."
+msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
 msgstr "x264 est ene aplicåcion libe po l' ecôdaedje des floûs videyo dins l' cogne H.264/MPEG-4 AVC."
 
 #: index.php:91
@@ -229,18 +225,12 @@ msgstr "Vey tos les pordjets"
 msgid "Help us out!"
 msgstr "Aidîz nos!"
 
-#: index.php:107
-msgid "Donate"
-msgstr "Diner"
-
 #: index.php:111
 msgid "VideoLAN is a non-profit organization."
 msgstr "VideoLAN est ene soce nén recwårlante."
 
 #: index.php:112
-msgid ""
-" All our costs are met by donations we receive from our users. If you enjoy "
-"using a VideoLAN product, please donate to support us."
+msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
 msgstr " Totes nos costindjes sont covierts pa les dons ki nos riçuvans da nos uzeus. Si vos préjhîz eployî on produt VideoLAN, si vos plait fijhoz on don po nos sopoirter."
 
 #: index.php:114 index.php:126 index.php:137
@@ -252,9 +242,7 @@ msgid "VideoLAN is open-source software."
 msgstr "VideoLAN est on programe libe."
 
 #: index.php:124
-msgid ""
-"This means that if you have the skill and the desire to improve one of our "
-"products, your contributions are welcome"
+msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
 msgstr "Çouci vout dire ki si vos avoz les competinces et l' rafiya po-z amidrer onk di nos produts, vosse contribucion est l' bénvnowe."
 
 #: index.php:131
@@ -262,20 +250,18 @@ msgid "Spread the Word"
 msgstr "Fijhoz passer l' mot"
 
 #: index.php:135
-msgid ""
-"We feel that VideoLAN has the best video software available at the best "
-"price: free. If you agree please help spread the word about our software."
+msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
 msgstr "Nos pinsans ki VideoLAN a l' meyeu programe videyo disponibe å meyeu pris: po rén. Si vos estoz d' acoird, si vos plait aidî a fé passer l' mot åd fwait di nosse programe."
 
-#: index.php:407
+#: index.php:147
 msgid "News &amp; Updates"
 msgstr "Noveatés et metaedjes a djoû"
 
-#: index.php:411
+#: index.php:151
 msgid "Development Blogs"
 msgstr "Blogs di diswalpaedje"
 
-#: index.php:434
+#: index.php:176
 msgid "Social media"
 msgstr "Media sociå"
 
@@ -335,6 +321,14 @@ msgstr "Vos ploz eto aveur direk li"
 msgid "source code"
 msgstr "côde sourdant"
 
-#: vlc/index.php:128
-msgid "Other OS"
-msgstr "Ôtes SO"
+#~ msgid "DONATE"
+#~ msgstr "DINER"
+
+#~ msgid "Other Systems and Versions"
+#~ msgstr "Ôtes sistinmes et modêyes"
+
+#~ msgid "Donate"
+#~ msgstr "Diner"
+
+#~ msgid "Other OS"
+#~ msgstr "Ôtes SO"

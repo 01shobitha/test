@@ -20,10 +20,10 @@ style/style.css: style/style.css.in
 
 locales: index.an.php \
          index.ast.php \
+         index.be.php \
          index.bg.php \
          index.bn_IN.php \
          index.bs.php \
-         index.by.php \
          index.ca.php \
          index.cs.php \
          index.cy.php \
@@ -35,7 +35,6 @@ locales: index.an.php \
          index.fi.php \
          index.fr.php \
          index.gd.php \
-         index.ge.php \
          index.gl.php \
          index.gu.php \
          index.he.php \
@@ -45,6 +44,7 @@ locales: index.an.php \
          index.is.php \
          index.it.php \
          index.ja.php \
+         index.ka.php \
          index.km.php \
          index.kn.php \
          index.ko.php \

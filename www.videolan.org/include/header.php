@@ -6,27 +6,23 @@ function getLocaleFromLanguage( $language )
     switch ($language) {
     case 'an': $locale = "an_ES.utf8"; break;
     case 'ast': $locale = "ast_ES.utf8"; break;
+    case 'be': $locale = "be_BY.utf8"; break;
     case 'bg': $locale = "bg_BG.UTF-8"; break;
     case 'bn_IN': $locale = "bn_IN"; break;
     case 'bs': $locale = "bs_BA.UTF-8"; break;
-    case 'by': $locale = "by_BY.UTF-8"; break;
     case 'ca': $locale = "ca_ES.utf8"; break;
     case 'cs': $locale = "cs_CZ.UTF-8"; break;
     case 'cy': $locale = "cy_GB.utf8"; break;
     case 'da': $locale = "da_DK.utf8"; break;
     case 'de': $locale = "de_DE.UTF-8"; break;
-    case 'dk': $locale = "da_DK.UTF-8"; break;
+    case 'el': $locale = "el_GR.UTF-8"; break;
     case 'es': $locale = "es_ES.UTF-8"; break;
     case 'et': $locale = "et_EE.utf8"; break;
-    case 'el': $locale = "el_GR.UTF-8"; break;
     case 'fi': $locale = "fi_FI.UTF-8"; break;
     case 'fr': $locale = "fr_FR.UTF-8"; break;
     case 'gd': $locale = "gd_GB.UTF-8"; break;
-    case 'ge': $locale = "ge_GE.UTF-8"; break;
     case 'gl': $locale = "gl_ES.UTF-8"; break;
-    case 'gr': $locale = "gr_GR.UTF-8"; break;
     case 'gu': $locale = "gu_IN"; break;
-    case 'gu_IN': $locale = "gu_IN"; break;
     case 'he': $locale = "he_IL.UTF-8"; break;
     case 'hi': $locale = "hi_IN.UTF-8"; break;
     case 'hr': $locale = "hr_HR.utf8"; break;
@@ -34,6 +30,7 @@ function getLocaleFromLanguage( $language )
     case 'is': $locale = "is_IS.utf8"; break;
     case 'it': $locale = "it_IT.utf8"; break;
     case 'ja': $locale = "ja_JP.UTF-8"; break;
+    case 'ka': $locale = "ka_GE.utf8"; break;
     case 'km': $locale = "km_KH.UTF-8"; break;
     case 'kn': $locale = "kn_IN"; break;
     case 'ko': $locale = "ko_KR.utf8"; break;

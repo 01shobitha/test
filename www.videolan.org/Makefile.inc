@@ -51,6 +51,7 @@ locales: index.an.php \
          index.ky.php \
          index.lt.php \
          index.mk.php \
+         index.mn_MN.php \
          index.mr.php \
          index.my.php \
          index.nb.php \

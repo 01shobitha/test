@@ -6,7 +6,7 @@
 # Probably way too long script for this easy task
 
 #LANGUAGE=en
-LANG=en
+LANG=en_GB.utf8
 ISO639="/home/christoph/videolan/locale_iso-639.def"
 SVNDATA="/home/christoph/videolan/www.videolan.org/locale"
 TXLANGNAMES="/home/christoph/videolan/language_names_transifex"

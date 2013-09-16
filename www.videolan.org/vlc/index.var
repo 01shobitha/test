@@ -100,6 +100,10 @@ URI: index.ko.html
 Content-type: text/html
 Content-language: ko
 
+URI: index.ky.html
+Content-type: text/html
+Content-language: ky
+
 URI: index.lt.html
 Content-type: text/html
 Content-language: lt

@@ -20,6 +20,10 @@ URI: index.bs.html
 Content-type: text/html
 Content-language: bs
 
+URI: index.ca.html
+Content-type: text/html
+Content-language: ca
+
 URI: index.cs.html
 Content-type: text/html
 Content-language: cs

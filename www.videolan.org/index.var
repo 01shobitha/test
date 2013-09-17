@@ -156,6 +156,10 @@ URI: index.sv.html
 Content-type: text/html
 Content-language: sv
 
+URI: index.te.html
+Content-type: text/html
+Content-language: te
+
 URI: index.th.html
 Content-type: text/html
 Content-language: th

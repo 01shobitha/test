@@ -8,6 +8,10 @@ URI: index.an.html
 Content-type: text/html
 Content-language: an
 
+URI: index.ar.html
+Content-type: text/html
+Content-language: ar
+
 URI: index.ast.html
 Content-type: text/html
 Content-language: ast

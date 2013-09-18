@@ -61,11 +61,11 @@ for i in $( ls *po ); do
 
     diff -Naur $SVNDATA/${i%%.po}/LC_MESSAGES/website.po current_file.po |if grep -q "\+msgstr" ; then
       if [ -f $SVNDATA/${i%%.po}/LC_MESSAGES/website.po ] ; then
-	echo -e "WORK: Please update this language soon: ${red}$i${NC}"
-	echo "WORK: Please update this language soon: $i" >>translation-todo.txt
+	echo -e "WORK: Please update this language ($TRANS_DONE done) soon: ${red}$i${NC}"
+	echo "WORK: Please update this language ($TRANS_DONE done) soon: $i" >>translation-todo.txt
       else
-	echo -e "WORK: Please create this file soon: ${red}$i${NC}"
-	echo "WORK: Please create this file soon: $i" >>translation-todo.txt
+	echo -e "WORK: Please create this file ($TRANS_DONE done) soon: ${red}$i${NC}"
+	echo "WORK: Please create this file ($TRANS_DONE done) soon: $i" >>translation-todo.txt
       fi
 
       diff -Naur $SVNDATA/${i%%.po}/LC_MESSAGES/website.po $TXWEBSITE/$i >> log_diff.txt

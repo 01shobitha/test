@@ -4,6 +4,9 @@
 # The -x might help to debug if you add it to the first line
 # christoph.miebach@web.de
 
+# create a subfolder transifex and configure tx to store the po files there
+cd /home/christoph/videolan/www.videolan.org/transifex
+
 # Nobody will care about line numbers in the pot file
 # So, I create an current pot file and only alert if there are new msgids
 # This will reduce the diff of updates a lot

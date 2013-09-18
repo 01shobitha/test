@@ -19,6 +19,7 @@ style/style.css: style/style.css.in
 	rm -f $@ && mv $@.tmp $@
 
 locales: index.an.php \
+         index.ar.php \
          index.ast.php \
          index.be.php \
          index.bg.php \

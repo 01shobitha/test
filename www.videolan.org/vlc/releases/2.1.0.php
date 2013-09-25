@@ -330,11 +330,11 @@
         <div class="clearme"></div>
         <div style="float: right; width: 400px;">
         <h1>Spread the news</h1>
-        <p><a href="http://www.reddit.com/r/technology/comments/pvh6t/vlc_200_twoflower_is_out/"><img src='//www.reddit.com/static/blog_snoo.png' /></a>
-           <a href="http://www.facebook.com/vlc.media.player" style="padding-top: 10px;"><img src='//images.videolan.org/images/facebook.png' alt='Facebook' />
-</a>
-           <a href="http://news.ycombinator.com/item?id=3607350"><img src='//images.videolan.org/images/hackernews.png'></a>
-           <a href="https://www.twitter.com/videolan"><img src='//images.videolan.org/images/twitter.png' alt='Twitter' /></a>
+        <p><a href="http://www.reddit.com/r/technology/comments/1n516l/vlc_new_major_release_210_is_out/"><img src='//www.reddit.com/static/blog_snoo.png' /></a>
+           <a href="http://www.facebook.com/vlc.media.player/posts/10151780004361245" style="padding-top: 10px;"><img src='//images.videolan.org/images/facebook.png' alt='Facebook' /></a>
+           <a href="https://news.ycombinator.com/item?id=6447978"><img src='//images.videolan.org/images/hackernews.png'></a>
+           <a href="https://twitter.com/videolan/status/383008727626174465"><img src='//images.videolan.org/images/twitter.png' alt='Twitter' /></a>
+           <a href="https://plus.google.com/104597325891170264649/posts/c8vjPpy8RxC"><img src='//images.videolan.org/images/gplus.png'></a>
         </p>
         </div>
 
@@ -349,7 +349,7 @@
         <div class="clearme"></div>
         <h2 style="margin-top: 30px;">Mac OS X</h2>
         <div>
-        <a id='downloadButton' href='<?php echo getDownloadLink("vlc", $macosxversion, "macosx/vlc-$macosxversion-intel64.dmg" ); ?>' >
+        <a id='downloadButton' href='<?php echo getDownloadLink("vlc", $macosxversion, "macosx/vlc-$macosxversion.dmg" ); ?>' >
                <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
                <span class='downloadText'><?php echo _("VLC for Mac OS X"); ?></span>
                <span id='downloadDetails' style='font-size: 12px; color: white;'>

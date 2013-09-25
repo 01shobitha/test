@@ -18,7 +18,7 @@
 </div>
 <div id="left">
 
-<?php $vlc_version = '2.0.8'; ?>
+<?php $vlc_version = '2.1.0'; ?>
 <h1>Download latest VLC - <?php echo $vlc_version; ?></h2>
 <p>VLC currently supports <b>Windows XP SP2 or later</b>.</p>
 <?php
@@ -38,7 +38,7 @@
 <br />
 <br />
 <h2>Download VLC for Windows x64</h1>
-<p><a href="http://download.videolan.org/pub/videolan/vlc/last/win64/">Experimental</a> version for Windows 64 bits.</p>
+<p><a href="http://download.videolan.org/pub/videolan/vlc/last/win64/">VLC 64bits</a> version for Windows 64 bits.</p>
 
 <br />
 <br />

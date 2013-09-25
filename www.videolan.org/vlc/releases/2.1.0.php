@@ -140,7 +140,7 @@
         <div style="width: 940px; margin: 0 auto;">
           <div id="slides" style="margin: 0 auto;">
                 <img src="/vlc/releases/2.1.0/VLC-2.1-MacOS.png">
-                <img src="http://placehold.it/940x340">
+                <img src="/vlc/releases/2.1.0/VLC_audio.png">
                 <img src="/vlc/releases/2.1.0/VLC_Subtitles.png">
                 <img src="/vlc/releases/2.1.0/VLC_iOS.png">
                 <img src="/vlc/releases/2.1.0/LGPL.png">
@@ -152,7 +152,7 @@
         <h2 class="subtext" style="display: none;" id="text_5">libVLC LGPL</h2>
         </div>
 
-                <a id='downloadButton' href='#download' style="margin-left: 300px;">
+                <a id='downloadButton' href='#download' style="margin-left: 300px; margin-top: 0px;">
                     <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
                     <span class='downloadText'><?php echo _("Get VLC now!"); ?></span>
                     <span id='downloadDetails' style='font-size: 12px; color: white;'>

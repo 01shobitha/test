@@ -1,7 +1,8 @@
 <?php
-$win32version = '2.0.8';
-$macosxversion = '2.0.8';
-$version = '2.0.8';
+$win32version = '2.1.0';
+$macosxversion = '2.1.0';
+$oldmacosxversion = '2.0.8';
+$version = '2.1.0';
 $iosversion = '2.1.1';
 
 $dlBase = "//get.videolan.org/vlc";
@@ -12,6 +13,7 @@ function replaceDLinfos( )
     global $version;
     global $win32version;
     global $macosxversion;
+    global $oldmacosxversion;
     global $iosversion;
     global $dlBase;
 
@@ -21,10 +23,9 @@ function replaceDLinfos( )
     <?php
     echo "
     var windowsDetails = {'name': 'Windows', 'size': '22&nbsp;MB', 'location':          '$dlBase/$win32version/win32/vlc-$win32version-win32.exe'};
-    var osxDetails     = {'name': 'Mac OS X', 'size': '43&nbsp;MB', 'location':         '$dlBase/$macosxversion/macosx/vlc-$macosxversion.dmg' };
-    var osx32Details   = {'name': 'Mac OS X (32bit)', 'size': '26&nbsp;MB', 'location': '$dlBase/$macosxversion/macosx/vlc-$macosxversion-intel.dmg' };
-    var osx64Details   = {'name': 'Mac OS X (64bit)', 'size': '27&nbsp;MB', 'location': '$dlBase/$macosxversion/macosx/vlc-$macosxversion-intel64.dmg' };
-    var osxPPCDetails  = {'name': 'Mac OS X (PPC)', 'size': '25&nbsp;MB', 'location':   '$dlBase/$macosxversion/macosx/vlc-$macosxversion-powerpc.dmg' };
+    var osxDetails     = {'name': 'Mac OS X', 'size': '30&nbsp;MB', 'location':         '$dlBase/$macosxversion/macosx/vlc-$macosxversion.dmg' };
+    var osx32Details   = {'name': 'Mac OS X (32bit)', 'size': '26&nbsp;MB', 'location': '$dlBase/$oldmacosxversion/macosx/vlc-$oldmacosxversion-intel.dmg' };
+    var osxPPCDetails  = {'name': 'Mac OS X (PPC)', 'size': '25&nbsp;MB', 'location':   '$dlBase/$oldmacosxversion/macosx/vlc-$oldmacosxversion-powerpc.dmg' };
     var iosDetails     = {'name': 'iOS', 'size': '17&nbsp;MB', 'location': '/vlc/download-ios.html'};"; ?>
     var linuxDetails   = {'name': 'Linux', 'size': '', 'location': '/vlc/#download'};
     var androidDetails = {'name': 'Android', 'size': '', 'location': '/vlc/download-android.html'};
@@ -53,7 +54,7 @@ function replaceDLinfos( )
           latestVersion = '<?php echo "$macosxversion"; ?>';
           if (navigator.platform.indexOf("MacPPC")!= -1 || navigator.platform.indexOf("PowerPC") != -1 ) OS="osxPPC";
           else if (navigator.userAgent.indexOf("OS X 10.5")!=-1) OS="osx32";
-          else OS="osx64";
+          else OS="osx";
        }
        if (navigator.platform.indexOf("BeOS") !=-1) OS="beos";
        if (navigator.platform.indexOf("Linux")!=-1) {

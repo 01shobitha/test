@@ -20,9 +20,14 @@ $vlc_version_intel = "2.1.0";
 <h1>Download latest VLC for Mac OS X 10.6 and later</h1>
 
 <?php
-pkgitem_sf( "Mac OS X 10.6+, $vlc_version_intel",
-    "$vlc_version_intel/macosx","vlc-$vlc_version_intel.dmg",        "vlc", "dmg package", "4b9ff700342cf783af8d6b0a4accf26b");
+pkgitem_sf( "VLC for OS X $vlc_version_intel",
+    "$vlc_version_intel/macosx","vlc-$vlc_version_intel.dmg",        "vlc", "64 bits dmg package", "4b9ff700342cf783af8d6b0a4accf26b");
 ?>
+
+<div class="clearme"> </div>
+<br />
+<br />
+<br />
 
 <h2>Download VLC for Mac OS X 10.5 Leopard (release 2.0.8)</h2>
 <?php

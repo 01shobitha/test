@@ -13,8 +13,8 @@
    $win32version = "2.1.0";
 ?>
     <div>
-            <center><h1 class='bigtitle'>VLC gets <b>2.1</b></h1>
-            <div style="padding-top: 10px; padding-bottom: 10px; color: grey;">VLC 2.1 "Rincewind" is a major new version of our popular media player.</div>
+            <center><h1 class='bigtitle' style="padding-bottom: 3px;">VLC gets <b>2.1</b></h1>
+            <div style="padding-top: 0px; padding-bottom: 10px; color: grey;">VLC 2.1 "Rincewind" is a major new version of our popular media player.</div>
             </center>
 
             <style>
@@ -25,10 +25,11 @@
 
     #slides {
       display: none
+      border: 1px solid red;
     }
 
     #slides .slidesjs-navigation {
-      margin-top:3px;
+      margin-top: 5px;
     }
 
     a.slidesjs-next,
@@ -43,7 +44,7 @@
       overflow: hidden;
       text-indent: -9999px;
       float: left;
-      margin-right:5px;
+      margin-left: 10px;
     }
 
     a.slidesjs-next {
@@ -61,24 +62,6 @@
 
     a:hover.slidesjs-previous {
       background-position: 0 -18px;
-    }
-
-    a.slidesjs-play {
-      width:15px;
-      background-position: -25px 0;
-    }
-
-    a:hover.slidesjs-play {
-      background-position: -25px -18px;
-    }
-
-    a.slidesjs-stop {
-      width:18px;
-      background-position: -41px 0;
-    }
-
-    a:hover.slidesjs-stop {
-      background-position: -41px -18px;
     }
 
     .slidesjs-pagination {
@@ -122,12 +105,14 @@
       color: #9e2020
     }
 
+    .subtext { position: relative; top: -20px; left:300px; width: 300px; text-align: center; } 
+
 </style>
             <script>
               $(function(){
                 $("#slides").slidesjs({
                   width: 940,
-                  height: 320,
+                  height: 340,
                   navigation: {
                         active: true,
                         effect: "slide"
@@ -140,18 +125,32 @@
                          swap: true,
                          pauseOnHover: true,
                          restartDelay: 3000
+                 },
+                 callback: {
+                         complete: function(number) { 
+                                var selector = "#text_" + number;
+                                $(".subtext").css("display", "none");
+                                $(selector).css("display", "block");
+                         }
                  } 
                 });
               });
             </script>
 
-          <div id="slides">
-                <img src="http://placehold.it/940x320">
-                <img src="http://placehold.it/940x320">
-                <img src="http://placehold.it/940x320">
-                <img src="http://placehold.it/940x320">
-                <img src="http://placehold.it/940x320">
+        <div style="width: 940px; margin: 0 auto;">
+          <div id="slides" style="margin: 0 auto;">
+                <img src="/vlc/releases/2.1.0/VLC-2.1-MacOS.png">
+                <img src="http://placehold.it/940x340">
+                <img src="/vlc/releases/2.1.0/VLC_Subtitles.png">
+                <img src="/vlc/releases/2.1.0/VLC_iOS.png">
+                <img src="/vlc/releases/2.1.0/LGPL.png">
          </div>
+        <h2 class="subtext" id="text_1">Faster Video decoding</h2>
+        <h2 class="subtext" style="display: none;" id="text_2">New Audio Core</h2>
+        <h2 class="subtext" style="display: none;" id="text_3">Subtitles</h2>
+        <h2 class="subtext" style="display: none;" id="text_4">Mobile ports</h2>
+        <h2 class="subtext" style="display: none;" id="text_5">libVLC LGPL</h2>
+        </div>
 
                 <a id='downloadButton' href='#download' style="margin-left: 300px;">
                     <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
@@ -172,32 +171,30 @@
                 </script>
 
         <div class="clearme" style='padding-top: 30px;'>
-            <?php image( 'largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?>
             <div style='float: left; width: 500px;'>
+            <h1 style='margin-bottom: 12px;'><?php echo _("2.1.0 Highlights"); ?></h1>
                 <div class='projectDescription'>
-                    <div style="padding-bottom: 8px;">With faster decoding on multi-core, GPU, and mobile hardware and the ability to open more
-                  formats, notably professional, HD and 10bits codecs, 2.0 is a major upgrade for VLC.
+                    <div style="padding-bottom: 8px;">With a new audio core, hardware decoding and encoding, port to mobile platforms,
+                     preparation for Ultra-HD video and a special care to support more formats, 2.1 is a major upgrade for VLC.
                          </div>
 
-                    <div style="padding-bottom: 8px;">Twoflower has a new rendering pipeline for video, with higher quality subtitles,
-                         and new video filters to enhance your videos.</div>
+                    <div style="padding-bottom: 8px;">Rincewind has a new rendering pipeline for audio, with better effiency, volume and device management,
+                         to improve VLC audio support.</div>
 
-                    <div style="padding-bottom: 8px;">It supports many new devices and BluRay Discs (experimental).
+                    <div style="padding-bottom: 8px;">It supports many new devices inputs, formats, metadata and improves most of the current ones, preparing for the next-gen codecs.
                         </div>
 
-                    <div style="padding-bottom: 8px;">Completely reworked Mac and Web interfaces and improvements in
-                  the other interfaces make VLC easier than ever to use.</div>
-
-                    <div>Twoflower fixes several hundreds of bugs, in more than 7000 commits from 160 volunteers.</div>
+                    <div>Rincewind fixes around a thousand bugs, in more than 7000 commits from 140 volunteers.</div>
 
                 </div>
             </div>
+            <?php image( 'largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?>
         </div>
 
         <div class="clearme" style='padding-top: 20px;'>
             <h1 style='margin-bottom: 12px;'><?php echo _("Features"); ?></h1>
 
-            <div style='float: left; width: 480px; margin-bottom: 40px;'>
+            <div style='float: left; width: 480px; margin-bottom: 25px;'>
                 <div class='audienceCallout'><?php echo _("Audio"); ?></div>
                 <div class='clearme'>
                     <div class='productDescription'>
@@ -208,6 +205,7 @@
                            <li>New audio outputs for Windows Vista, Android, iOS, OpenBSD and OSSv4.</li>
                            <li>New remapping, gain, stereo widening, downmixing effects.</li>
                            <li>Higher samplerate, precision, live configuration in the core.</li>
+                           <li>Numerous new audio metadata format supported.</li>
                         </ul>
                     </div>
                 </div>
@@ -237,9 +235,10 @@
                            <li>Add hardware decoding for OS X using VDADecoder.</li>
                            <li>Add hardware decoding for Android using MediaCodec.</li>
                            <li>Add hardware decoding for GNU/Linux using VDPAU.</li>
+                           <li>Add hardware encoding for Windows using Intel QuickSyncVideo.</li>
                            <li>Support for G2M4, MSS1, MSS2, TSCC2, CDXL, Ut, VBLE video codecs.</li>
                            <li>Support for Ulead DV audio, Indeo Audio Coder, RealAudio Lossless audio.</li>
-                           <li>Support for SCTE-27 subtitles.</li>
+                           <li>Support for SCTE-27 and complete EIA-608 subtitles.</li>
                         </ul>
                     </div>
                 </div>
@@ -249,26 +248,28 @@
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>Experimental support for BluRay discs: <br />
-                               - Menus are deactivated in this release (will come soon).<br />
-                               - <a href="/developers/libaacs.html" style="color: #4D4D4D;">AACS</a> and BD+ DRM libraries and keys are not shipped, for legal reasons.</li>
-                           <li>Support for SDI capture cards and QTKit devices.</li>
-                           <li>Support for new adaptive streaming protocols, like HLS and DASH.</li>
+                           <li>Support for fragmented MP4, Wave/RF64 files.</li>
+                           <li>Extended metadata tags and cover art support in Ogg, AVI, MP4 and MKV.</li>
+                           <li>Support FLAC, Atrac, ADPCM, DV Type 1, 12bits DV audio in AVI.</li>
+                           <li>Extended support for AVI, MKV and MJPEG streams.</li>
+                           <li>Better recording of AVI and MKV format.</li>
+                           <li>Audio fingerprinting using AcoustID.</li>
                         </ul>
                     </div>
                 </div>
             </div>
 
             <div class="clearme" style='float: left; width: 480px; margin-bottom: 20px;'>
-                <div class='audienceCallout'><?php echo _("For Mac Users"); ?></div>
+                <div class='audienceCallout'><?php echo _("Input and Devices")?></div>
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>Completely new, single window interface:<br />
-                            - Available in 2 colors: Lion grey and QTX black.<br />
-                            - Extensions support and better Lion integration.</li>
-                           <li>Support for all QTKit devices through qtcapture and qtsound modules.</li>
-                           <li>Continued support for X 10.5 and PPC users (1080p and ProRes on Dual-G5!).</li>
+                           <li>Support for screen input on OSX Lion and later.</li>
+                           <li>Support for Microsoft Smooth Streaming, developed by <a href="http://viotech.net">Viotech.net</a></li>
+                           <li>New RTMP input module, using libavformat!</li>
+                           <li>Support for VNC/rfb and Remote Desktop view-only modes.</li>
+                           <li>Important improvements on Blu-Ray, Dash, v4l2 and HTTP inputs.</li>
+                           <li>New AVFoundation OS X and shm framebuffer inputs.</li>
                         </ul>
                     </div>
                 </div>
@@ -278,10 +279,11 @@
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>Vastly improved MKV demuxer.</li>
-                           <li>Rewritten linked segments and ordered chapter files support.</li>
-                           <li>Correct support for FLAC, RV and Hi10p in MKV.</li>
-                           <li>Rewritten seeking support in cue files.</li>
+                           <li>New 6.1 downmixer to 5.1 and Stereo from MKV/Flac 6.1.</li>
+                           <li>Correct YUV->RGB color matrix in the OpenGL shaders.</li>
+                           <li>Improved MKV support for seeking, and resiliancy.</li>
+                           <li>Editions support in MKV.</li>
+                           <li>Better subtitles and metadata support from MKV.</li>
                            <li>Various ASS subtitles improvements.</li>
                         </ul>
                     </div>
@@ -289,15 +291,16 @@
             </div>
 
             <div class="clearme" style='float: left; width: 480px;'>
-                <div class='audienceCallout'><?php echo _("For professional Users"); ?></div>
+                <div class='audienceCallout'><?php echo _("For Mobile"); ?></div>
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>Support for ProRes 422 and 4444, AVC/Intra.</li>
-                           <li>Support for Jpeg-2000, Dirac and DNxHD/VC-3 in 10bits.</li>
-                           <li>Support for EBU subtitles (stl) and EIA-608.</li>
-                           <li>SDI and HD-SDI card support for input on Linux.</li>
-                           <li>New Dirac/VC-2 encoder, faster than the previous one.</li>
+                           <li>Port to Android, from 2.1 to 4.3, on ARMv6, ARMv7, x86 and MIPS.</li>
+                           <li>New port to iOS, from iOS 5 to 7, on all iPads and iPhones after 3GS.</li>
+                           <li>Partial port to WinRT, for Windows 8, 8.1 and WP8.</li>
+                           <li>OpenGL ES optimized outputs.</li>
+                           <li>Improvements of OpenMAX IL decoders, encoders and renderers.</li>
+                           <li>New audio, video outputs and interfaces for mobiles.</li>
                         </ul>
                     </div>
                 </div>
@@ -307,11 +310,11 @@
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>libVLC, libVLCcore and libcompat have switched from GPL to <a href="/press/lgpl-libvlc.html">LGPLv2.1+</a>.</li>
-                           <li>New libVLC examples are available: media player, photobooth and mediainfo clones.</li>
-                           <li>New JSON requests on the web interface to control running VLC instances.</li>
-                           <li>Implementation of the <a href="http://www.mpris.org/">MPRIS2</a> interface to control media players.</li>
-                           <li>VLC's web plugins have been rewritten for better integration and stability in all browsers.</li>
+                           <li>libVLC and most modules are now <a href="/press/lgpl-libvlc.html">LGPLv2.1+</a>.</li>
+                           <li>libVLC media framework can now be used in all types of applications.</li>
+                           <li>libVLC SDK packages now exists, in addition to more examples.</li>
+                           <li>Improved libVLC API, for better control.</li>
+                           <li>VLC's web plugins now support windowless mode, for smoother integration with HTML elements.</li>
                         </ul>
                     </div>
                 </div>
@@ -325,14 +328,16 @@
         <a name="download" id="getit"></a>
 
         <div class="clearme"></div>
+        <div style="float: right; width: 400px;">
         <h1>Spread the news</h1>
-        <p><a href="http://www.reddit.com/r/technology/comments/pvh6t/vlc_200_twoflower_is_out/">Reddit</a>
-           <a href="https://www.facebook.com/vlc.media.player/posts/249766805097687">Facebook</a>
-           <a href="http://news.ycombinator.com/item?id=3607350">Hacker News</a>
-           <a href="https://twitter.com/#!/videolan/status/170943829774577664">Twitter</a>
+        <p><a href="http://www.reddit.com/r/technology/comments/pvh6t/vlc_200_twoflower_is_out/"><img src='//www.reddit.com/static/blog_snoo.png' /></a>
+           <a href="http://www.facebook.com/vlc.media.player" style="padding-top: 10px;"><img src='//images.videolan.org/images/facebook.png' alt='Facebook' />
+</a>
+           <a href="http://news.ycombinator.com/item?id=3607350"><img src='//images.videolan.org/images/hackernews.png'></a>
+           <a href="https://www.twitter.com/videolan"><img src='//images.videolan.org/images/twitter.png' alt='Twitter' /></a>
         </p>
+        </div>
 
-        <div class="clearme"></div>
         <h1>Download VLC</h1>
         <h2>Windows</h2>
            <a id='downloadButton' href='<?php echo getDownloadLink("vlc", $win32version, "win32/vlc-$win32version-win32.exe"); ?>' >

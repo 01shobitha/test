@@ -13,22 +13,23 @@
 
 <?php
 $vlc_version = "1.0.5";
-$vlc_version_ppc = "2.0.8";
-$vlc_version_intel = "2.0.8";
+$vlc_version_old = "2.0.8";
+$vlc_version_intel = "2.1.0";
 ?>
 
-<h1>Download latest VLC for Mac OS X 10.5 and later</h1>
-<p>64bit mode requires Mac OS X 10.6 or later</p>
+<h1>Download latest VLC for Mac OS X 10.6 and later</h1>
 
 <?php
-pkgitem_sf( "32/64 bits Intel Mac, $vlc_version_intel",
+pkgitem_sf( "Mac OS X 10.6+, $vlc_version_intel",
     "$vlc_version_intel/macosx","vlc-$vlc_version_intel.dmg",        "vlc", "dmg package", "4b9ff700342cf783af8d6b0a4accf26b");
+?>
+
+<h2>Download VLC for Mac OS X 10.5 Leopard (release 2.0.8)</h2>
+<?php
 pkgitem_sf( "32 bits Intel Mac, $vlc_version_intel",
-    "$vlc_version_intel/macosx","vlc-$vlc_version_intel-intel32.dmg","vlc", "dmg package", "5b3aedda97e06500c7954c56f0902cb3");
-pkgitem_sf( "64 bits Intel Mac, $vlc_version_intel",
-    "$vlc_version_intel/macosx","vlc-$vlc_version_intel-intel64.dmg","vlc", "dmg package", "e2c6e632b6949a9f5bd9fcf74317399e");
-pkgitem_sf( "PowerPC Mac, $vlc_version_intel",
-    "$vlc_version_ppc/macosx","vlc-$vlc_version_ppc-powerpc.dmg",    "vlc", "dmg package", "4e4c956647ba6ed948f9fd89f250c999"); ?>
+    "$vlc_version_old/macosx","vlc-$vlc_version_old-intel32.dmg","vlc", "dmg package", "5b3aedda97e06500c7954c56f0902cb3");
+pkgitem_sf( "PowerPC Mac, $vlc_version_old",
+    "$vlc_version_ppc/macosx","vlc-$vlc_version_old-powerpc.dmg",    "vlc", "dmg package", "4e4c956647ba6ed948f9fd89f250c999"); ?>
 
 
 <div class="clearme"> </div>

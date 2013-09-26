@@ -139,11 +139,11 @@
 
         <div style="width: 940px; margin: 0 auto;">
           <div id="slides" style="margin: 0 auto;">
-                <img src="/vlc/releases/2.1.0/VLC-2.1-MacOS.png">
-                <img src="/vlc/releases/2.1.0/VLC_audio.png">
-                <img src="/vlc/releases/2.1.0/VLC_Subtitles.png">
-                <img src="/vlc/releases/2.1.0/VLC_iOS.png">
-                <img src="/vlc/releases/2.1.0/LGPL.png">
+                <img src="/vlc/releases/2.1.0/VLC-2.1-MacOS.gif">
+                <img src="/vlc/releases/2.1.0/VLC_audio.gif">
+                <img src="/vlc/releases/2.1.0/VLC_Subtitles.gif">
+                <img src="/vlc/releases/2.1.0/VLC_iOS.gif">
+                <img src="/vlc/releases/2.1.0/LGPL.gif">
          </div>
         <h2 class="subtext" id="text_1">Faster Video decoding</h2>
         <h2 class="subtext" style="display: none;" id="text_2">New Audio Core</h2>

@@ -364,6 +364,7 @@
         </div>
         <h2 style="margin-top: 30px;">Sources</h2>
         <a href="/vlc/download-sources.html">Get the source!</a>
+        <h2 style="margin-top: 10px;">Changelog</h2>
         <a href="/developers/vlc-branch/NEWS">Changelog</a>
 
 

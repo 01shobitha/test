@@ -147,9 +147,9 @@
          </div>
         <h2 class="subtext" id="text_1">Faster Video decoding</h2>
         <h2 class="subtext" style="display: none;" id="text_2">New Audio Core</h2>
-        <h2 class="subtext" style="display: none;" id="text_3">Subtitles</h2>
-        <h2 class="subtext" style="display: none;" id="text_4">Mobile ports</h2>
-        <h2 class="subtext" style="display: none;" id="text_5">libVLC LGPL</h2>
+        <h2 class="subtext" style="display: none;" id="text_3">Advanced Subtitles</h2>
+        <h2 class="subtext" style="display: none;" id="text_4">Android and iOS ports</h2>
+        <h2 class="subtext" style="display: none;" id="text_5">libVLC sdk is now LGPL!</h2>
         </div>
 
                 <a id='downloadButton' href='#download' style="margin-left: 300px; margin-top: 0px;">

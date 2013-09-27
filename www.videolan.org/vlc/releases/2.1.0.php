@@ -13,7 +13,7 @@
    $win32version = "2.1.0";
 ?>
     <div>
-            <center><h1 class='bigtitle' style="padding-bottom: 3px;">VLC gets <b>2.1</b></h1>
+            <center><h1 class='bigtitle' style="padding-bottom: 3px;">VLC reaches <b>2.1</b></h1>
             <div style="padding-top: 0px; padding-bottom: 10px; color: grey;">VLC 2.1 "Rincewind" is a major new version of our popular media player.</div>
             </center>
 
@@ -178,7 +178,7 @@
                      preparation for Ultra-HD video and a special care to support more formats, 2.1 is a major upgrade for VLC.
                          </div>
 
-                    <div style="padding-bottom: 8px;">Rincewind has a new rendering pipeline for audio, with better effiency, volume and device management,
+                    <div style="padding-bottom: 8px;">Rincewind has a new rendering pipeline for audio, with better efficiency, volume and device management,
                          to improve VLC audio support.</div>
 
                     <div style="padding-bottom: 8px;">It supports many new devices inputs, formats, metadata and improves most of the current ones, preparing for the next-gen codecs.

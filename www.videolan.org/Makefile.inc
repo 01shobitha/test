@@ -63,6 +63,7 @@ locales: index.an.php \
          index.pt_BR.php \
          index.ro.php \
          index.ru.php \
+         index.si.php \
          index.sk.php \
          index.sl.php \
          index.sr.php \

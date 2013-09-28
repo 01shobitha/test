@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-25 16:06+0200\n"
-"PO-Revision-Date: 2013-04-25 14:11+0000\n"
-"Last-Translator: Christoph Miebach <christoph.miebach@web.de>\n"
+"POT-Creation-Date: 2013-08-20 11:35+0200\n"
+"PO-Revision-Date: 2013-09-28 09:10+0000\n"
+"Last-Translator: geniushkg <geniushkg@gmail.com>\n"
 "Language-Team: Gujarati (India) (http://www.transifex.com/projects/p/vlc-trans/language/gu_IN/)\n"
 "Language: gu_IN\n"
 "MIME-Version: 1.0\n"
@@ -17,160 +17,160 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: include/header.php:197
+#: include/header.php:205
 msgid "A project and a"
 msgstr "પ્રોજેક્ટ અને "
 
-#: include/header.php:197
+#: include/header.php:205
 msgid "non-profit organization"
 msgstr "બિન નફો સંસ્થા"
 
-#: include/header.php:198
+#: include/header.php:206
 msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
 msgstr "સ્વયંસેવકો બનેલા વિકાસશીલ અને મફત, ઓપન સોર્સ મલ્ટીમીડિયા ઉકેલો પ્રોત્સાહન આપે છે."
 
-#: include/header.php:204 include/header.php:218 include/header.php:232
+#: include/header.php:212 include/header.php:226 include/header.php:240
 #: index.php:107
 msgid "donate"
 msgstr "દાન કરો"
 
-#: include/header.php:204
+#: include/header.php:212
 msgid "why?"
 msgstr "કેમ ?"
 
-#: include/header.php:251
+#: include/header.php:259
 msgid "Home"
 msgstr "હોમ"
 
-#: include/header.php:254 include/header.php:399
+#: include/header.php:262 include/header.php:407
 msgid "News"
 msgstr "સમાચાર"
 
-#: include/header.php:259 include/header.php:389
+#: include/header.php:267 include/header.php:397
 msgid "Project and Organization"
 msgstr "પ્રોજેક્ટ અને સંસ્થા"
 
-#: include/header.php:260 include/header.php:390
+#: include/header.php:268 include/header.php:398
 msgid "Team"
 msgstr "ટીમ"
 
-#: include/header.php:261 include/header.php:392
+#: include/header.php:269 include/header.php:400
 msgid "Contact us"
 msgstr "અમારો સંપર્ક કરો"
 
-#: include/header.php:262 include/header.php:393
+#: include/header.php:270 include/header.php:401
 msgid "Partners"
 msgstr "ભાગીદારો"
 
-#: include/header.php:263 include/header.php:394
+#: include/header.php:271 include/header.php:402
 msgid "Mirrors"
-msgstr ""
+msgstr "આબે હું નકલો Mirror"
 
-#: include/header.php:264 include/header.php:395
+#: include/header.php:272 include/header.php:403
 msgid "Press center"
 msgstr "મીડિયા કેન્દ્ર"
 
-#: include/header.php:265 include/header.php:396
+#: include/header.php:273 include/header.php:404
 msgid "Events"
 msgstr "ઘટનાઓ"
 
-#: include/header.php:266 include/header.php:397
+#: include/header.php:274 include/header.php:405
 msgid "Security center"
 msgstr "સુરક્ષા કેન્દ્ર"
 
-#: include/header.php:272
+#: include/header.php:280
 msgid "Download"
 msgstr "ડાઉનલોડ કરો"
 
-#: include/header.php:273 include/header.php:353 index.php:28 vlc/index.php:22
+#: include/header.php:281 include/header.php:361 index.php:28 vlc/index.php:22
 #: vlc/index.php:39
 msgid "Features"
 msgstr "લક્ષણો"
 
-#: include/header.php:274 include/header.php:354 index.php:29 vlc/index.php:23
+#: include/header.php:282 include/header.php:362 index.php:29 vlc/index.php:23
 #: vlc/index.php:65
 msgid "Screenshots"
 msgstr "સ્ક્રીનશોટ્સ"
 
-#: include/header.php:275 include/header.php:351 index.php:30 vlc/index.php:24
+#: include/header.php:283 include/header.php:359 index.php:30 vlc/index.php:24
 msgid "Skins"
 msgstr "સ્કિન્સ"
 
-#: include/header.php:276 include/header.php:352
+#: include/header.php:284 include/header.php:360
 msgid "Extensions"
 msgstr "વિસ્તરણ"
 
-#: include/header.php:280
+#: include/header.php:288
 msgid "Projects"
 msgstr "પ્રોજેક્ટ્સ"
 
-#: include/header.php:297 include/header.php:358
+#: include/header.php:305 include/header.php:366
 msgid "All Projects"
 msgstr "બધા પ્રોજેક્ટ્સ"
 
-#: include/header.php:301 index.php:119
+#: include/header.php:309 index.php:119
 msgid "Contribute"
 msgstr "ફાળો આપો"
 
-#: include/header.php:303 include/header.php:382
+#: include/header.php:311 include/header.php:390
 msgid "Donate time"
 msgstr "દાન કરવાનો સમય"
 
-#: include/header.php:304 include/header.php:381
+#: include/header.php:312 include/header.php:389
 msgid "Donate money"
 msgstr "નાણાંનું દાન કરો"
 
-#: include/header.php:305 include/header.php:383
+#: include/header.php:313 include/header.php:391
 msgid "Get Goodies"
 msgstr "ગુડીઝ મેળવો"
 
-#: include/header.php:309
+#: include/header.php:317
 msgid "Support"
 msgstr "આધારો"
 
-#: include/header.php:311
+#: include/header.php:319
 msgid "Support center"
 msgstr "આધાર કેન્દ્ર"
 
-#: include/header.php:312
+#: include/header.php:320 include/header.php:388
 msgid "FAQ"
-msgstr ""
+msgstr "રોજ્બરોજી પ્રશ્નો FAQ"
 
-#: include/header.php:313 include/header.php:391 include/header.php:420
+#: include/header.php:321 include/header.php:399 include/header.php:428
 msgid "Legal"
 msgstr "કાનૂની"
 
-#: include/header.php:315
+#: include/header.php:323 include/header.php:386
 msgid "Forums"
-msgstr ""
+msgstr "વાર્તાલાપ સ્તળ Forum"
 
-#: include/header.php:316 include/header.php:379
+#: include/header.php:324 include/header.php:387
 msgid "Mailing-Lists"
 msgstr "મેઇલિંગની-યાદી "
 
-#: include/header.php:317
+#: include/header.php:325
 msgid "Report a bug"
 msgstr "બગની જાણ કરો"
 
-#: include/header.php:321
+#: include/header.php:329
 msgid "Dev' Zone"
 msgstr "'દેવ ઝોન"
 
-#: include/header.php:375
+#: include/header.php:383
 msgid "Community"
 msgstr "સમુદાય"
 
-#: include/header.php:398
+#: include/header.php:406
 msgid "Get Involved"
 msgstr "સામેલ થાઓ"
 
-#: include/os-specific.php:88 vlc/index.php:27
+#: include/os-specific.php:92 vlc/index.php:27
 msgid "Download VLC"
 msgstr "VLC ડાઉનલોડ કરો"
 
-#: include/os-specific.php:94 vlc/index.php:34 vlc/index.php:128
+#: include/os-specific.php:98 vlc/index.php:34 vlc/index.php:127
 msgid "Other Systems"
-msgstr ""
+msgstr "બીજી વ્યવસ્થા other systems"
 
 #: index.php:3
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
@@ -308,15 +308,15 @@ msgstr "VLC મેળવો "
 msgid "Official Downloads of VLC media player"
 msgstr "VLC મીડિયા પ્લેયર સત્તાવાર ડાઉનલોડ"
 
-#: vlc/index.php:105
+#: vlc/index.php:104
 msgid "Sources"
 msgstr "સ્ત્રોતો"
 
-#: vlc/index.php:106
+#: vlc/index.php:105
 msgid "You can also directly get the"
 msgstr "તમે ડાઈરેકટ પણ મેળવી શકો છો"
 
-#: vlc/index.php:107
+#: vlc/index.php:106
 msgid "source code"
 msgstr "સ્ત્રોત કોડ"
 

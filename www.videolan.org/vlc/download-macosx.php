@@ -38,6 +38,10 @@ pkgitem_sf( "PowerPC Mac",
 
 
 <div class="clearme"> </div>
+<br />
+<br />
+<br />
+
 <h2>Web browser plugins Mac OS X 10.5 Leopard (release <?php echo $vlc_version; ?>)</h2>
 <p>These plugins <b>will not</b> run on 10.6 or later.</p>
 

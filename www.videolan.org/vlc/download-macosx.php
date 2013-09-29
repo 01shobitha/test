@@ -38,7 +38,8 @@ pkgitem_sf( "PowerPC Mac",
 
 
 <div class="clearme"> </div>
-<h1>Web browser plugins for 10.5 and later (release <?php echo $vlc_version; ?>)</h1>
+<h2>Web browser plugins Mac OS X 10.5 Leopard (release <?php echo $vlc_version; ?>)</h2>
+<p>These plugins <b>will not</b> run on 10.6 or later.</p>
 
 <?php pkgitem_sf( "Web plugin for Intel Mac",
                "$vlc_version/macosx","vlc-plugin-$vlc_version-intel.dmg","vlc", "dmg package");
@@ -51,14 +52,10 @@ pkgitem_sf( "PowerPC Mac",
 <br />
 <br />
 <br />
-<h2>Download VLC for Mac OS X 10.4 Tiger (release 0.9.10)</h2>
-<p><b>Mac OS X 10.4.7</b> or later, is <b>required</b>.</p>
-<?php $vlc_version = "0.9.10"; ?>
-<?php pkgitem_sf( "Universal Binary, 0.9.10",
-               "$vlc_version/macosx","vlc-$vlc_version.dmg","vlc", "dmg package"); ?>
 
 <div class="clearme"> </div>
 <h2>Download older versions of VLC media player</h2>
+<p>Use VLC <b>0.9.10</b> for 10.4 Tiger. <b>Mac OS X 10.4.7</b> or later, is <b>required</b>.</p>
 <p>Use VLC <b>0.8.6i</b> for 10.3 Panther.</p>
 <p>Use VLC <b>0.8.4a</b> for 10.2 Jaguar.</p>
 <p>Use VLC <b>0.7.0</b> for 10.1 Puma .</p>

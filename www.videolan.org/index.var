@@ -44,7 +44,7 @@ URI: index.de.html
 Content-type: text/html
 Content-language: de
 
-URI: index.el.html     
+URI: index.el.html
 Content-type: text/html
 Content-language: el
 
@@ -152,7 +152,11 @@ URI: index.ru.html
 Content-type: text/html
 Content-language: ru
 
-URI: index.sk.html  
+URI: index.si.html
+Content-type: text/html
+Content-language: si
+
+URI: index.sk.html
 Content-type: text/html
 Content-language: sk
 
@@ -180,11 +184,11 @@ URI: index.uk.html
 Content-type: text/html
 Content-language: uk
 
-URI: index.ur.html  
+URI: index.ur.html
 Content-type: text/html
 Content-language: ur
 
-URI: index.vi.html     
+URI: index.vi.html
 Content-type: text/html
 Content-language: vi
 

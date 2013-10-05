@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-25 16:06+0200\n"
-"PO-Revision-Date: 2013-06-14 12:44+0000\n"
+"POT-Creation-Date: 2013-08-20 11:35+0200\n"
+"PO-Revision-Date: 2013-10-04 09:17+0000\n"
 "Last-Translator: Cymrodor <cymrodor@gmail.com>\n"
 "Language-Team: Welsh (http://www.transifex.com/projects/p/vlc-trans/language/cy/)\n"
 "Language: cy\n"
@@ -19,158 +19,158 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3;\n"
 
-#: include/header.php:197
+#: include/header.php:205
 msgid "A project and a"
 msgstr "Prosiect a"
 
-#: include/header.php:197
+#: include/header.php:205
 msgid "non-profit organization"
 msgstr "sefydliad di-elw"
 
-#: include/header.php:198
+#: include/header.php:206
 msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
 msgstr "o wirfoddolwyr yn datblygu ac yn hybu rhaglenni amlgyfrwng cod agored"
 
-#: include/header.php:204 include/header.php:218 include/header.php:232
+#: include/header.php:212 include/header.php:226 include/header.php:240
 #: index.php:107
 msgid "donate"
 msgstr "cyfrannu"
 
-#: include/header.php:204
+#: include/header.php:212
 msgid "why?"
 msgstr "Pam?"
 
-#: include/header.php:251
+#: include/header.php:259
 msgid "Home"
 msgstr "Hafan"
 
-#: include/header.php:254 include/header.php:399
+#: include/header.php:262 include/header.php:407
 msgid "News"
 msgstr "Newyddion"
 
-#: include/header.php:259 include/header.php:389
+#: include/header.php:267 include/header.php:397
 msgid "Project and Organization"
 msgstr "Prosiect a Sefydliad"
 
-#: include/header.php:260 include/header.php:390
+#: include/header.php:268 include/header.php:398
 msgid "Team"
 msgstr "Tîm"
 
-#: include/header.php:261 include/header.php:392
+#: include/header.php:269 include/header.php:400
 msgid "Contact us"
 msgstr "Cysylltu â ni"
 
-#: include/header.php:262 include/header.php:393
+#: include/header.php:270 include/header.php:401
 msgid "Partners"
 msgstr "Partneriaid"
 
-#: include/header.php:263 include/header.php:394
+#: include/header.php:271 include/header.php:402
 msgid "Mirrors"
 msgstr "Drychau"
 
-#: include/header.php:264 include/header.php:395
+#: include/header.php:272 include/header.php:403
 msgid "Press center"
 msgstr "Canolfan y wasg"
 
-#: include/header.php:265 include/header.php:396
+#: include/header.php:273 include/header.php:404
 msgid "Events"
 msgstr "Digwyddiadau"
 
-#: include/header.php:266 include/header.php:397
+#: include/header.php:274 include/header.php:405
 msgid "Security center"
 msgstr "Canolfan diogelwch"
 
-#: include/header.php:272
+#: include/header.php:280
 msgid "Download"
 msgstr "Lawrlwytho"
 
-#: include/header.php:273 include/header.php:353 index.php:28 vlc/index.php:22
+#: include/header.php:281 include/header.php:361 index.php:28 vlc/index.php:22
 #: vlc/index.php:39
 msgid "Features"
 msgstr "Nodweddion"
 
-#: include/header.php:274 include/header.php:354 index.php:29 vlc/index.php:23
+#: include/header.php:282 include/header.php:362 index.php:29 vlc/index.php:23
 #: vlc/index.php:65
 msgid "Screenshots"
 msgstr "Sgrinluniau"
 
-#: include/header.php:275 include/header.php:351 index.php:30 vlc/index.php:24
+#: include/header.php:283 include/header.php:359 index.php:30 vlc/index.php:24
 msgid "Skins"
 msgstr "Crwyn"
 
-#: include/header.php:276 include/header.php:352
+#: include/header.php:284 include/header.php:360
 msgid "Extensions"
 msgstr "Estyniadau"
 
-#: include/header.php:280
+#: include/header.php:288
 msgid "Projects"
 msgstr "Prosiectau"
 
-#: include/header.php:297 include/header.php:358
+#: include/header.php:305 include/header.php:366
 msgid "All Projects"
 msgstr "Holl Brosiectau"
 
-#: include/header.php:301 index.php:119
+#: include/header.php:309 index.php:119
 msgid "Contribute"
 msgstr "Cyfrannu"
 
-#: include/header.php:303 include/header.php:382
+#: include/header.php:311 include/header.php:390
 msgid "Donate time"
 msgstr "Rhoi amser"
 
-#: include/header.php:304 include/header.php:381
+#: include/header.php:312 include/header.php:389
 msgid "Donate money"
 msgstr "Rhoi arian"
 
-#: include/header.php:305 include/header.php:383
+#: include/header.php:313 include/header.php:391
 msgid "Get Goodies"
 msgstr "Cael Pethau"
 
-#: include/header.php:309
+#: include/header.php:317
 msgid "Support"
 msgstr "Cymorth"
 
-#: include/header.php:311
+#: include/header.php:319
 msgid "Support center"
 msgstr "Canolfan gymorth"
 
-#: include/header.php:312
+#: include/header.php:320 include/header.php:388
 msgid "FAQ"
 msgstr "FAQ"
 
-#: include/header.php:313 include/header.php:391 include/header.php:420
+#: include/header.php:321 include/header.php:399 include/header.php:428
 msgid "Legal"
 msgstr "Cyfreithiol"
 
-#: include/header.php:315
+#: include/header.php:323 include/header.php:386
 msgid "Forums"
 msgstr "Fforymau"
 
-#: include/header.php:316 include/header.php:379
+#: include/header.php:324 include/header.php:387
 msgid "Mailing-Lists"
 msgstr "Rhestrau post"
 
-#: include/header.php:317
+#: include/header.php:325
 msgid "Report a bug"
 msgstr "Rhoi gwybod am wall"
 
-#: include/header.php:321
+#: include/header.php:329
 msgid "Dev' Zone"
 msgstr "Parth Datblygwyr"
 
-#: include/header.php:375
+#: include/header.php:383
 msgid "Community"
 msgstr "Cymuned"
 
-#: include/header.php:398
+#: include/header.php:406
 msgid "Get Involved"
 msgstr "Cymryd Rhan"
 
-#: include/os-specific.php:88 vlc/index.php:27
+#: include/os-specific.php:92 vlc/index.php:27
 msgid "Download VLC"
 msgstr "Lawrlwytho VLC"
 
-#: include/os-specific.php:94 vlc/index.php:34 vlc/index.php:128
+#: include/os-specific.php:98 vlc/index.php:34 vlc/index.php:127
 msgid "Other Systems"
 msgstr "Systemau Eraill"
 
@@ -192,7 +192,7 @@ msgstr "I Bawb"
 
 #: index.php:44
 msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
-msgstr "Mae VLC yn chwaraewr cyfryngau pwerus sy'n chwarae bron pob fformat a chodec fideo sy'n bodoli."
+msgstr "Chwaraewr cyfryngau pwerus yw VLC; mae'n chwarae bron pob fformat a chodec fideo sy'n bodoli."
 
 #: index.php:53
 msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
@@ -310,14 +310,14 @@ msgstr "VLC ar gyfer"
 msgid "Official Downloads of VLC media player"
 msgstr "Lawrlwythi swyddogol o chwaraewr VLC"
 
-#: vlc/index.php:105
+#: vlc/index.php:104
 msgid "Sources"
 msgstr "Ffynonellau"
 
-#: vlc/index.php:106
+#: vlc/index.php:105
 msgid "You can also directly get the"
 msgstr "Gallwch hefyd cael yn uniongyrchol y"
 
-#: vlc/index.php:107
+#: vlc/index.php:106
 msgid "source code"
 msgstr "côd gwreiddiol"

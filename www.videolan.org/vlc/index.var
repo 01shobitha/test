@@ -16,6 +16,10 @@ URI: index.ast.html
 Content-type: text/html
 Content-language: ast
 
+URI: index.be.html
+Content-type: text/html
+Content-language: be
+
 URI: index.bn_IN.html
 Content-type: text/html
 Content-language: bn-in

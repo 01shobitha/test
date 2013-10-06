@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-08-20 11:35+0200\n"
-"PO-Revision-Date: 2013-10-05 12:21+0000\n"
+"PO-Revision-Date: 2013-10-05 23:13+0000\n"
 "Last-Translator: nesterow <nestserau@me.com>\n"
 "Language-Team: Belarusian (http://www.transifex.com/projects/p/vlc-trans/language/be/)\n"
 "Language: be\n"
@@ -50,7 +50,7 @@ msgstr "Навіны"
 
 #: include/header.php:267 include/header.php:397
 msgid "Project and Organization"
-msgstr "Праект і арганізація"
+msgstr "Праект і арганізацыя"
 
 #: include/header.php:268 include/header.php:398
 msgid "Team"
@@ -58,7 +58,7 @@ msgstr "Каманда"
 
 #: include/header.php:269 include/header.php:400
 msgid "Contact us"
-msgstr "Звяжыцеся з намі"
+msgstr "Кантакт"
 
 #: include/header.php:270 include/header.php:401
 msgid "Partners"
@@ -112,7 +112,7 @@ msgstr "Усе праекты"
 
 #: include/header.php:309 index.php:119
 msgid "Contribute"
-msgstr "Унесці ўклад"
+msgstr "Зрабіць унёсак"
 
 #: include/header.php:311 include/header.php:390
 msgid "Donate time"
@@ -136,7 +136,7 @@ msgstr "Цэнтр падтрымкі"
 
 #: include/header.php:320 include/header.php:388
 msgid "FAQ"
-msgstr "ЧАП"
+msgstr "ПіА"
 
 #: include/header.php:321 include/header.php:399 include/header.php:428
 msgid "Legal"
@@ -212,7 +212,7 @@ msgstr "multicat — гэта набор інструментаў, спраек�
 
 #: index.php:83
 msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
-msgstr "x264 — гэта бясплатная праграма для кадавання відэапатокаў у фармаце H.264/MPEG-4 AVC."
+msgstr "x264 — гэта бясплатная праграма для кадавання відэаплыняў у фармаце H.264/MPEG-4 AVC."
 
 #: index.php:91
 msgid "For Developers"
@@ -236,7 +236,7 @@ msgstr "Усе нашыя выдаткі пакрываюцца ахвярава
 
 #: index.php:114 index.php:126 index.php:137
 msgid "Learn More"
-msgstr "Пазнаць больш"
+msgstr "Падрабязней"
 
 #: index.php:123
 msgid "VideoLAN is open-source software."
@@ -268,7 +268,7 @@ msgstr "Сацыяльные сеткі"
 
 #: vlc/index.php:3
 msgid "Official page for VLC media player, the Open Source video framework!"
-msgstr "Афіцыйная старонка для мультымедыя-плэера VLC, відэа-фрэймворка з адкрытым кодам!"
+msgstr "Афіцыйная старонка для мультымедыя-плэера VLC — відэа-фрэймворка з адкрытым кодам!"
 
 #: vlc/index.php:40
 msgid "Simple, fast and powerful media player."
@@ -296,19 +296,19 @@ msgstr "Займаецца канвертацыяй і перадачай мед
 
 #: vlc/index.php:53
 msgid "Discover all features"
-msgstr "Даведацца аб ўсіх магчымасцях"
+msgstr "Даведацца пра ўсе магчымасці"
 
 #: vlc/index.php:87
 msgid "View all screenshots"
-msgstr "Праглядзець усе экраны"
+msgstr "Глядзець усе экраны"
 
 #: vlc/index.php:94
 msgid "Get VLC for"
-msgstr "Дастаць VLC для"
+msgstr "Спампаваць VLC для"
 
 #: vlc/index.php:98
 msgid "Official Downloads of VLC media player"
-msgstr "Афіцыяльныя спампоўкі медыя-плэера VLC"
+msgstr "Афіцыйныя спампоўкі медыя-плэера VLC"
 
 #: vlc/index.php:104
 msgid "Sources"

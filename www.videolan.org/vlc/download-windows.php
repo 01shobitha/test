@@ -19,7 +19,7 @@
 <div id="left">
 
 <?php $vlc_version = '2.1.0'; ?>
-<h1>Download latest VLC - <?php echo $vlc_version; ?></h2>
+<h1>Download latest VLC - <?php echo $vlc_version; ?></h1>
 <p>VLC currently supports <b>Windows XP SP2 or later</b>.</p>
 <?php
     pkgitem_sf("Installer package",

@@ -203,3 +203,7 @@ Content-language: wa
 URI: index.zh.html
 Content-type: text/html
 Content-language: zh
+
+URI: index.zh_TW.html
+Content-type: text/html
+Content-language: zh-tw

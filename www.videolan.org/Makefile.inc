@@ -77,5 +77,6 @@ locales: index.an.php \
          index.vi.php \
          index.wa.php \
          index.zh.php \
+         index.zh_TW.php \
          include/header.php
 

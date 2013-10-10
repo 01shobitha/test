@@ -63,6 +63,7 @@ function getLocaleFromLanguage( $language )
     case 'vi': $locale = "vi_VN"; break;
     case 'wa': $locale = "wa_BE.UTF-8"; break;
     case 'zh': $locale = "zh_CN.UTF-8"; break;
+    case 'zh_TW': $locale = "zh_TW.utf8"; break;
     }
 
     return $locale;

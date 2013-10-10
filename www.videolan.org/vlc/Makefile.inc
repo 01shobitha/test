@@ -63,7 +63,8 @@ PHP_FILES := index features libvlc screenshots skineditor skineditor_update \
              index.vi     download-windows.vi     download-macosx.vi    \
              index.wa     download-windows.wa     download-macosx.wa    \
              index.zh     download-windows.zh     download-macosx.zh    \
-                          download-windows        download-macosx            
+             index.zh_TW  download-windows.zh_TW  download-macosx.zh_TW \
+                          download-windows        download-macosx
 
 download-windows.%.php: download-windows.php $(ROOT)/locale/%/LC_MESSAGES/website.po
 	rm -f ./$@ && sed -e "s/language = \"\"/language = \"$*\"/" download-windows.php > ./$@;

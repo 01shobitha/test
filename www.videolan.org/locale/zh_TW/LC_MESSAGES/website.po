@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-08-20 11:35+0200\n"
-"PO-Revision-Date: 2013-10-10 12:45+0000\n"
-"Last-Translator: taijuin lee <taijuin@gmail.com>\n"
+"PO-Revision-Date: 2013-10-10 15:15+0000\n"
+"Last-Translator: Frank Chao <frank0624@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/vlc-trans/language/zh_TW/)\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
@@ -93,7 +93,7 @@ msgstr "功能"
 #: include/header.php:282 include/header.php:362 index.php:29 vlc/index.php:23
 #: vlc/index.php:65
 msgid "Screenshots"
-msgstr "螢幕節圖"
+msgstr "螢幕截圖"
 
 #: include/header.php:283 include/header.php:359 index.php:30 vlc/index.php:24
 msgid "Skins"
@@ -301,7 +301,7 @@ msgstr "探索所有功能"
 
 #: vlc/index.php:87
 msgid "View all screenshots"
-msgstr "檢視所有螢幕擷圖"
+msgstr "檢視所有畫面截圖"
 
 #: vlc/index.php:94
 msgid "Get VLC for"

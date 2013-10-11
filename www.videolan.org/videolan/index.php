@@ -24,9 +24,9 @@
 <p>The VideoLAN non-profit organisation has a comittee and members that are part of the VideoLAN project.</p>
 <p>The current board of VideoLAN is composed by:</p>
 <ul class="bullets">
-<li>President: Jean-Baptiste Kempf,</li>
-<li>Treasurer: Hugo Beauzee-Luyssen,</li>
-<li>Secretary: Jean-Paul Saman.</li>
+<li>President: Jean-Baptiste Kempf</li>
+<li>Treasurer: Ludovic Fauvet</li>
+<li>Secretary: Felix Paul Kühne</li>
 </ul>
 
         <div style="margin-top: 50px;" class="clearme"></div>

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-25 16:06+0200\n"
-"PO-Revision-Date: 2013-04-25 14:17+0000\n"
+"POT-Creation-Date: 2013-08-20 11:35+0200\n"
+"PO-Revision-Date: 2013-10-19 22:30+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/projects/p/vlc-trans/language/he/)\n"
 "Language: he\n"
@@ -18,158 +18,158 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: include/header.php:197
+#: include/header.php:205
 msgid "A project and a"
 msgstr "מיזם"
 
-#: include/header.php:197
+#: include/header.php:205
 msgid "non-profit organization"
 msgstr "ועמותה ללא מטרות רווח"
 
-#: include/header.php:198
+#: include/header.php:206
 msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
 msgstr "המורכבים ממתנדבים המפתחים ומקדמים פתרונות מולטימדיה חופשיים ובקוד פתוח."
 
-#: include/header.php:204 include/header.php:218 include/header.php:232
+#: include/header.php:212 include/header.php:226 include/header.php:240
 #: index.php:107
 msgid "donate"
 msgstr "תרומה"
 
-#: include/header.php:204
+#: include/header.php:212
 msgid "why?"
 msgstr "למה?"
 
-#: include/header.php:251
+#: include/header.php:259
 msgid "Home"
 msgstr "דף הבית"
 
-#: include/header.php:254 include/header.php:399
+#: include/header.php:262 include/header.php:407
 msgid "News"
 msgstr "חדשות"
 
-#: include/header.php:259 include/header.php:389
+#: include/header.php:267 include/header.php:397
 msgid "Project and Organization"
 msgstr "המיזם והעמותה"
 
-#: include/header.php:260 include/header.php:390
+#: include/header.php:268 include/header.php:398
 msgid "Team"
 msgstr "הצוות"
 
-#: include/header.php:261 include/header.php:392
+#: include/header.php:269 include/header.php:400
 msgid "Contact us"
 msgstr "יצירת קשר"
 
-#: include/header.php:262 include/header.php:393
+#: include/header.php:270 include/header.php:401
 msgid "Partners"
 msgstr "שותפים"
 
-#: include/header.php:263 include/header.php:394
+#: include/header.php:271 include/header.php:402
 msgid "Mirrors"
 msgstr "אתרי מראה"
 
-#: include/header.php:264 include/header.php:395
+#: include/header.php:272 include/header.php:403
 msgid "Press center"
-msgstr "מרכז העיתונות"
+msgstr "מרכז העתונות"
 
-#: include/header.php:265 include/header.php:396
+#: include/header.php:273 include/header.php:404
 msgid "Events"
 msgstr "אירועים"
 
-#: include/header.php:266 include/header.php:397
+#: include/header.php:274 include/header.php:405
 msgid "Security center"
 msgstr "מרכז האבטחה"
 
-#: include/header.php:272
+#: include/header.php:280
 msgid "Download"
 msgstr "הורדה"
 
-#: include/header.php:273 include/header.php:353 index.php:28 vlc/index.php:22
+#: include/header.php:281 include/header.php:361 index.php:28 vlc/index.php:22
 #: vlc/index.php:39
 msgid "Features"
 msgstr "תכונות"
 
-#: include/header.php:274 include/header.php:354 index.php:29 vlc/index.php:23
+#: include/header.php:282 include/header.php:362 index.php:29 vlc/index.php:23
 #: vlc/index.php:65
 msgid "Screenshots"
 msgstr "צילומי מסך"
 
-#: include/header.php:275 include/header.php:351 index.php:30 vlc/index.php:24
+#: include/header.php:283 include/header.php:359 index.php:30 vlc/index.php:24
 msgid "Skins"
 msgstr "ערכות עיצוב"
 
-#: include/header.php:276 include/header.php:352
+#: include/header.php:284 include/header.php:360
 msgid "Extensions"
 msgstr "הרחבות"
 
-#: include/header.php:280
+#: include/header.php:288
 msgid "Projects"
 msgstr "מיזמים"
 
-#: include/header.php:297 include/header.php:358
+#: include/header.php:305 include/header.php:366
 msgid "All Projects"
 msgstr "כל המיזמים"
 
-#: include/header.php:301 index.php:119
+#: include/header.php:309 index.php:119
 msgid "Contribute"
-msgstr "התנדבות"
+msgstr "הרתמות למטרה"
 
-#: include/header.php:303 include/header.php:382
+#: include/header.php:311 include/header.php:390
 msgid "Donate time"
 msgstr "התנדבות"
 
-#: include/header.php:304 include/header.php:381
+#: include/header.php:312 include/header.php:389
 msgid "Donate money"
 msgstr "תרומת כסף"
 
-#: include/header.php:305 include/header.php:383
+#: include/header.php:313 include/header.php:391
 msgid "Get Goodies"
 msgstr "קבלת פינוקים"
 
-#: include/header.php:309
+#: include/header.php:317
 msgid "Support"
 msgstr "תמיכה"
 
-#: include/header.php:311
+#: include/header.php:319
 msgid "Support center"
 msgstr "מרכז התמיכה"
 
-#: include/header.php:312
+#: include/header.php:320 include/header.php:388
 msgid "FAQ"
 msgstr "שו״ת"
 
-#: include/header.php:313 include/header.php:391 include/header.php:420
+#: include/header.php:321 include/header.php:399 include/header.php:428
 msgid "Legal"
 msgstr "מידע משפטי"
 
-#: include/header.php:315
+#: include/header.php:323 include/header.php:386
 msgid "Forums"
 msgstr "פורומים"
 
-#: include/header.php:316 include/header.php:379
+#: include/header.php:324 include/header.php:387
 msgid "Mailing-Lists"
 msgstr "רשימות דיוור"
 
-#: include/header.php:317
+#: include/header.php:325
 msgid "Report a bug"
 msgstr "דיווח על תקלה"
 
-#: include/header.php:321
+#: include/header.php:329
 msgid "Dev' Zone"
 msgstr "אזור המפתחים"
 
-#: include/header.php:375
+#: include/header.php:383
 msgid "Community"
 msgstr "קהילה"
 
-#: include/header.php:398
+#: include/header.php:406
 msgid "Get Involved"
 msgstr "מעורבות בפעילות"
 
-#: include/os-specific.php:88 vlc/index.php:27
+#: include/os-specific.php:92 vlc/index.php:27
 msgid "Download VLC"
 msgstr "הורדת VLC"
 
-#: include/os-specific.php:94 vlc/index.php:34 vlc/index.php:128
+#: include/os-specific.php:98 vlc/index.php:34 vlc/index.php:127
 msgid "Other Systems"
 msgstr "מערכות אחרות"
 
@@ -309,15 +309,15 @@ msgstr "הורדת VLC לסביבת"
 msgid "Official Downloads of VLC media player"
 msgstr "הורדות רשמיות של נגן המדיה VLC"
 
-#: vlc/index.php:105
+#: vlc/index.php:104
 msgid "Sources"
 msgstr "מקורות"
 
-#: vlc/index.php:106
+#: vlc/index.php:105
 msgid "You can also directly get the"
 msgstr "כמו כן, ניתן להוריד ישירות את"
 
-#: vlc/index.php:107
+#: vlc/index.php:106
 msgid "source code"
 msgstr "קוד המקור"
 

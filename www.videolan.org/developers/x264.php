@@ -21,7 +21,7 @@
                     master &nbsp;&#8226;&nbsp; Source &nbsp;&#8226;&nbsp; 475kB
                 </span>
             </a>
-<!--            <a class='extraInfoLink' href='#' >Other Systems</a>-->
+            <a class='extraInfoLink' href='http://download.videolan.org/pub/videolan/x264/binaries/' >Binaries</a>
         </div>
 
         <div style='float: left; width: 400px; color: #333333; margin-left: 60px;'>
@@ -57,6 +57,7 @@
 
 
     <h1>Getting x264</h1>
+    <h2>Source</h2>
     <p>The latest x264 source code can always be found by anonymous <a href="http://wiki.videolan.org/Git">git</a> repository:</p>
 
     <p><code># git clone git://git.videolan.org/x264.git</code></p>
@@ -65,7 +66,8 @@
 
     <p>You can <a href="http://git.videolan.org/?p=x264.git;a=summary">browse the source</a> on-line.</p>
 
-    <p>Official builds for Windows, Linux, and MacOSX are available from <a href="http://download.videolan.org/pub/x264/binaries">here</a>.</p>
+    <h2>Application binaries</h2>
+    <p>Official builds for Windows, Linux, and MacOSX are available from <a href="http://download.videolan.org/pub/x264/binaries/">here</a>.</p>
 
 </div>
 

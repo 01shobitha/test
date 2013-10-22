@@ -21,7 +21,7 @@
                     master &nbsp;&#8226;&nbsp; Source &nbsp;&#8226;&nbsp; 475kB
                 </span>
             </a>
-            <a class='extraInfoLink' href='http://download.videolan.org/pub/videolan/x264/binaries/' >Binaries</a>
+            <a class='extraInfoLink' style="padding-left: 100px;" href='http://download.videolan.org/pub/videolan/x264/binaries/' >Binaries</a>
         </div>
 
         <div style='float: left; width: 400px; color: #333333; margin-left: 60px;'>

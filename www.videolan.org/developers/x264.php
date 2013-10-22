@@ -10,7 +10,7 @@
             <h1>x264</h1>
             <div class='projectDescription'>
                 <p>x264 is a <b>free software</b> <b>library</b> and <b>application</b> for encoding video streams into the
-                <b><a href="http://en.wikipedia.org/wiki/H.264">H.264/MPEG-4 AVC</a></b> format,
+                <b><a href="http://en.wikipedia.org/wiki/H.264">H.264/MPEG-4 AVC</a></b> compression format,
                 and is released under the terms of the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU GPL</a>.</p>
 
             </div>
@@ -34,24 +34,25 @@
             <br />
             Support features necessary for many different applications, such as television broadcast, <a href="http://www.x264bluray.com/">Blu-ray</a>
             low-latency video applications, and web video.<br />
-            <br />x264 forms the core of many web video services, such as Youtube, Facebook, Vimeo, and Hulu.
-             It is widely used in television broadcast and by ISP.<br />
+            <br />
+            x264 forms the core of many web video services, such as Youtube, Facebook, Vimeo, and Hulu.
+            It is widely used by television broadcasters and ISPs.<br />
         </div>
-<?php /*        <div style='float: right; width: 450px; padding-left: 70px;'>
-                <a name="screenshots"></a>
-<!--                <h1 style='padding-left: 5px; margin-bottom: 25px;'>Screenshots</h1> -->
-
-            <?php image('x264/sixth_msu_conclusion.png', "x264 comparison"); ?>
-   </div> */?>
     </div>
 
 <div class="clearme" style="margin-bottom: 40px; padding-top: 20px;">
 <div style="float: right; width: 350px; padding-top: 20px;">
     <h2>News</h2>
+    <p><b>2013 August 23</b> -- The <a href="https://mailman.videolan.org/pipermail/x264-devel/2013-August/010211.html">x264 Development Newsletter: Volume 39</a> is out.</p>
+    <p><b>2013 July 4</b> -- The <a href="https://mailman.videolan.org/pipermail/x264-devel/2013-July/010170.html">x264 Development Newsletter: Volume 38</a> is out.</p>
+    <p><b>2013 May 20</b> -- The <a href="https://mailman.videolan.org/pipermail/x264-devel/2013-May/010083.html">x264 Development Newsletter: Volume 37</a> is out.</p>
+    <p><b>2013 May 4</b> -- The <a href="https://mailman.videolan.org/pipermail/x264-devel/2013-May/010049.html">x264 Development Newsletter: Volume 36</a> is out.</p>
+<?php
+ /* <p><b>2011 May 12</b> -- The <a href="http://mailman.videolan.org/pipermail/x264-devel/2011-May/008508.html">x264 Development Newsletter: Volume 16</a> is out.</p>
     <p><b>2011 May 12</b> -- The <a href="http://mailman.videolan.org/pipermail/x264-devel/2011-May/008508.html">x264 Development Newsletter: Volume 16</a> is out.</p>
     <p><b>2011 April 26</b> -- The <a href="http://mailman.videolan.org/pipermail/x264-devel/2011-April/008442.html">x264 Development Newsletter: Volume 15</a> is out.</p>
     <p><b>2011 April 13</b> -- The <a href="http://mailman.videolan.org/pipermail/x264-devel/2011-April/008388.html">x264 Development Newsletter: Volume 14</a> is out.</p>
-    <p><b>2011 March 24</b> -- The <a href="http://mailman.videolan.org/pipermail/x264-devel/2011-March/008353.html">x264 Development Newsletter: Volume 13</a> is out.</p>
+    <p><b>2011 March 24</b> -- The <a href="http://mailman.videolan.org/pipermail/x264-devel/2011-March/008353.html">x264 Development Newsletter: Volume 13</a> is out.</p> */ ?>
 </div>
 
 

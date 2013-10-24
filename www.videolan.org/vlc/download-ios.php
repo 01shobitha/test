@@ -9,7 +9,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-<h1 class="bigtitle"> VLC for iOS 2.1.2</h1>
+<h1 class="bigtitle"> VLC for iOS 2.1.3</h1>
 
 <h2> Introduction </h2>
 <p>VLC for iOS can play all your movies and shows in most formats directly without conversion.<br />
@@ -68,8 +68,8 @@ function vlcscreenshot($img,$thumb, $desc){
 
 <h2> Source </h2>
 <p> You can find the source code for the last release here:</p>
-<code><a href="http://download.videolan.org/pub/videolan/vlc-iOS/2.1.2/vlc-iOS-2.1.2.tar.gz">VLC for iOS 2.1.2 source code</a></code><br />
-<code><a href="http://download.videolan.org/pub/videolan/vlc-iOS/2.1.2/MediaLibraryKit-2.1.2.tar.gz">MediaLibraryKit 2.1.2 source code</a></code><br />
+<code><a href="http://download.videolan.org/pub/videolan/vlc-iOS/2.1.3/vlc-iOS-2.1.3.tar.gz">VLC for iOS 2.1.3 source code</a></code><br />
+<code><a href="http://download.videolan.org/pub/videolan/vlc-iOS/2.1.3/MediaLibraryKit-2.1.3.tar.gz">MediaLibraryKit 2.1.3 source code</a></code><br />
 <code><a href="http://download.videolan.org/pub/videolan/vlc-iOS/2.1.2/VLCKit-2.1.0.tar.gz">MobileVLCKit 2.1.0 source code</a></code><br />
 <p> Additionally, the latest code is always available on our <a href="http://git.videolan.org/?p=vlc-ports/ios.git;a=summary">git repositories</a>.</p>
 
@@ -80,7 +80,7 @@ You can see the <a href="//wiki.videolan.org/iOSCompile">instructions to build</
 
 <h2> Binary </h2>
 <p> You can also get the binary from our servers instead of the App Store:
-<code><a href="http://download.videolan.org/pub/videolan/vlc-iOS/2.1.2/vlc-iOS-2.1.2.ipa">VLC for iOS 2.1.2 binary</a></code>.
+<code><a href="http://download.videolan.org/pub/videolan/vlc-iOS/2.1.3/vlc-iOS-2.1.3.ipa">VLC for iOS 2.1.3 binary</a></code>.
 </p>
 
 <h2> License </h2>

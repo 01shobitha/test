@@ -1,0 +1,322 @@
+# Hungarian translation
+# Copyright (C) 2013 VideoLAN
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# kajla <adamradovits12@hotmail.com>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: VLC - Trans\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-20 11:35+0200\n"
+"PO-Revision-Date: 2013-10-24 23:14+0000\n"
+"Last-Translator: kajla <adamradovits12@hotmail.com>\n"
+"Language-Team: Hungarian (http://www.transifex.com/projects/p/vlc-trans/language/hu/)\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: include/header.php:205
+msgid "A project and a"
+msgstr "A projekt és a"
+
+#: include/header.php:205
+msgid "non-profit organization"
+msgstr "non-profit szervezet"
+
+#: include/header.php:206
+msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
+msgstr "önkéntesekből áll, a fejlesztése és támogatása ingyen folyik, nyílt forráskódú multimédiás megoldások."
+
+#: include/header.php:212 include/header.php:226 include/header.php:240
+#: index.php:107
+msgid "donate"
+msgstr "adományozás"
+
+#: include/header.php:212
+msgid "why?"
+msgstr "miért?"
+
+#: include/header.php:259
+msgid "Home"
+msgstr "Kezdőlap"
+
+#: include/header.php:262 include/header.php:407
+msgid "News"
+msgstr "Hírek"
+
+#: include/header.php:267 include/header.php:397
+msgid "Project and Organization"
+msgstr "Projekt és szervezet"
+
+#: include/header.php:268 include/header.php:398
+msgid "Team"
+msgstr "Csapat"
+
+#: include/header.php:269 include/header.php:400
+msgid "Contact us"
+msgstr "Kapcsolat"
+
+#: include/header.php:270 include/header.php:401
+msgid "Partners"
+msgstr "Partnerek"
+
+#: include/header.php:271 include/header.php:402
+msgid "Mirrors"
+msgstr "Tükrök"
+
+#: include/header.php:272 include/header.php:403
+msgid "Press center"
+msgstr "Sajtóközpont"
+
+#: include/header.php:273 include/header.php:404
+msgid "Events"
+msgstr "Események"
+
+#: include/header.php:274 include/header.php:405
+msgid "Security center"
+msgstr "Biztonsági központ"
+
+#: include/header.php:280
+msgid "Download"
+msgstr "Letöltés"
+
+#: include/header.php:281 include/header.php:361 index.php:28 vlc/index.php:22
+#: vlc/index.php:39
+msgid "Features"
+msgstr "Tulajdonságok"
+
+#: include/header.php:282 include/header.php:362 index.php:29 vlc/index.php:23
+#: vlc/index.php:65
+msgid "Screenshots"
+msgstr "Képernyőmentések"
+
+#: include/header.php:283 include/header.php:359 index.php:30 vlc/index.php:24
+msgid "Skins"
+msgstr "Kinézetek"
+
+#: include/header.php:284 include/header.php:360
+msgid "Extensions"
+msgstr "Kiegészítők"
+
+#: include/header.php:288
+msgid "Projects"
+msgstr "Projektek"
+
+#: include/header.php:305 include/header.php:366
+msgid "All Projects"
+msgstr "Összes projekt"
+
+#: include/header.php:309 index.php:119
+msgid "Contribute"
+msgstr "Hozzájárulás"
+
+#: include/header.php:311 include/header.php:390
+msgid "Donate time"
+msgstr "Idő adományozása"
+
+#: include/header.php:312 include/header.php:389
+msgid "Donate money"
+msgstr "Pénz adományozása"
+
+#: include/header.php:313 include/header.php:391
+msgid "Get Goodies"
+msgstr "Nyalánkság elérése"
+
+#: include/header.php:317
+msgid "Support"
+msgstr "Támogatás"
+
+#: include/header.php:319
+msgid "Support center"
+msgstr "Támogatási központ"
+
+#: include/header.php:320 include/header.php:388
+msgid "FAQ"
+msgstr "GYIK"
+
+#: include/header.php:321 include/header.php:399 include/header.php:428
+msgid "Legal"
+msgstr "Jog"
+
+#: include/header.php:323 include/header.php:386
+msgid "Forums"
+msgstr "Fórumok"
+
+#: include/header.php:324 include/header.php:387
+msgid "Mailing-Lists"
+msgstr "Levelező listák"
+
+#: include/header.php:325
+msgid "Report a bug"
+msgstr "Hiba jelentése"
+
+#: include/header.php:329
+msgid "Dev' Zone"
+msgstr "Fejlesztői zóna"
+
+#: include/header.php:383
+msgid "Community"
+msgstr "Közösség"
+
+#: include/header.php:406
+msgid "Get Involved"
+msgstr "Vegyél részt"
+
+#: include/os-specific.php:92 vlc/index.php:27
+msgid "Download VLC"
+msgstr "VLC letöltése"
+
+#: include/os-specific.php:98 vlc/index.php:34 vlc/index.php:127
+msgid "Other Systems"
+msgstr "Egyéb rendszerek"
+
+#: index.php:3
+msgid "VLC: Official site - Free multimedia solutions for all OS!"
+msgstr "VLC: Hivatalos weboldal - Ingyenes multimédia megoldás minden OS-nek!"
+
+#: index.php:26 vlc/index.php:20
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
+msgstr "A VLC egy ingyenes és nyílforráskódú platformfüggetlen multimédia lejátszó és keretrendszer, ami lejátssza a legelterjedtebb multimédiás fájlokat valamint DVD-ket, Audió CD-ket, VCD-ket és különféle közvetítő protokollokat."
+
+#: index.php:36
+msgid "Other projects from VideoLAN"
+msgstr "Egyéb projektek a VideoLAN-tól"
+
+#: index.php:38
+msgid "For Everyone"
+msgstr "Mindenkinek"
+
+#: index.php:44
+msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
+msgstr "VLC egy nagyszerű médialejátszó, ami lejátssza a legtöbb média kodeket és videó formátumot. "
+
+#: index.php:53
+msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
+msgstr "VideoLAN Film készítő egy nemlineáris szerkesztő szoftver a videókészítéshez."
+
+#: index.php:60
+msgid "For Professionals"
+msgstr "Szakembereknek"
+
+#: index.php:66
+msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
+msgstr "a DVBlast egy egyszerű és nagyszerű MPEF-2/S demux és műsorszóró alkalmazás."
+
+#: index.php:74
+msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
+msgstr "a multicat egy eszközkészlet, ami a könnyen és hatékonyan manipulálja a multicast és TS műsorszórásokat."
+
+#: index.php:83
+msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
+msgstr "az x264 egy ingyenes alkalmazás, ami a kódolt videószórást H.264/MPEG-4 AVC formátumba teszi lehetővé."
+
+#: index.php:91
+msgid "For Developers"
+msgstr "Fejlesztőknek"
+
+#: index.php:102
+msgid "View All Projects"
+msgstr "Összes projekt megnézése"
+
+#: index.php:105
+msgid "Help us out!"
+msgstr "Segíts!"
+
+#: index.php:111
+msgid "VideoLAN is a non-profit organization."
+msgstr "A VideoLAN egy non-profit szervezet."
+
+#: index.php:112
+msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
+msgstr "Az összes költséget a felhasználók adományaiból álljuk. Ha tetszik a VideoLAN termék, akkor kérjük adományoddal támogasd azt."
+
+#: index.php:114 index.php:126 index.php:137
+msgid "Learn More"
+msgstr "További információk"
+
+#: index.php:123
+msgid "VideoLAN is open-source software."
+msgstr "A VideoLAN egy nyílt forráskódú szoftver."
+
+#: index.php:124
+msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
+msgstr "Ez azt jelenti hogyha van szakismereted és vágyad tökéletesíteni az egyik terméket a négy közül, akkor a közreműködésedet várjuk"
+
+#: index.php:131
+msgid "Spread the Word"
+msgstr "Terjeszd az igét!"
+
+#: index.php:135
+msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
+msgstr "Úgy érezzük a VideoLAN a legjobb áron elérhető videó szoftver: ingyen. Ha egyetértesz, kérjük segíts terjeszteni az igét ami erről a szoftverről szól."
+
+#: index.php:147
+msgid "News &amp; Updates"
+msgstr "Hírek és frissítések"
+
+#: index.php:151
+msgid "Development Blogs"
+msgstr "Fejlesztői blogok"
+
+#: index.php:176
+msgid "Social media"
+msgstr "Közösségi média"
+
+#: vlc/index.php:3
+msgid "Official page for VLC media player, the Open Source video framework!"
+msgstr "VLC médialejátszó hivatalos oldala, a nyílforráskódú videó keretrendszer."
+
+#: vlc/index.php:40
+msgid "Simple, fast and powerful media player."
+msgstr "Egyszerű, gyors és hatékony médialejátszó."
+
+#: vlc/index.php:42
+msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
+msgstr "Mindent lejátszik: fájlokat, lemezeket, webkamerákat, eszközöket és közvetítéseket."
+
+#: vlc/index.php:44
+msgid "Plays most codecs with no codec packs needed:"
+msgstr "Lejátssza a legelterjedtebb kodekeket külön kodek-csomag nélkül:"
+
+#: vlc/index.php:47
+msgid "Runs on all platforms:"
+msgstr "Összes platformon fut:"
+
+#: vlc/index.php:49
+msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
+msgstr "Teljesen ingyenes, 0 kémprogram, 0 hirdetés és nincs felhasználó figyelés."
+
+#: vlc/index.php:51
+msgid "Can do media conversion and streaming."
+msgstr "Média átalakítást és közvetítést is tud."
+
+#: vlc/index.php:53
+msgid "Discover all features"
+msgstr "Fedezd fel az összes funkcióját"
+
+#: vlc/index.php:87
+msgid "View all screenshots"
+msgstr "Összes képernyőmentés megnézése"
+
+#: vlc/index.php:94
+msgid "Get VLC for"
+msgstr "VLC beszerzése:"
+
+#: vlc/index.php:98
+msgid "Official Downloads of VLC media player"
+msgstr "VLC médialejátszó hivatalos letöltései"
+
+#: vlc/index.php:104
+msgid "Sources"
+msgstr "Források"
+
+#: vlc/index.php:105
+msgid "You can also directly get the"
+msgstr "Közvetlenül megtudod szerezni a"
+
+#: vlc/index.php:106
+msgid "source code"
+msgstr "forrás kódot"

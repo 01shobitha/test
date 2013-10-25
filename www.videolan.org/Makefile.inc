@@ -41,6 +41,7 @@ locales: index.an.php \
          index.he.php \
          index.hi.php \
          index.hr.php \
+         index.hu.php \
          index.id.php \
          index.is.php \
          index.it.php \

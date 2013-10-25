@@ -27,6 +27,7 @@ PHP_FILES := index features libvlc screenshots skineditor skineditor_update \
              index.he     download-windows.he     download-macosx.he    \
              index.hi     download-windows.hi     download-macosx.hi    \
              index.hr     download-windows.hr     download-macosx.hr    \
+             index.hu     download-windows.hu     download-macosx.hu    \
              index.id     download-windows.id     download-macosx.id    \
              index.is     download-windows.is     download-macosx.is    \
              index.it     download-windows.it     download-macosx.it    \

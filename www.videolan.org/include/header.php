@@ -27,6 +27,7 @@ function getLocaleFromLanguage( $language )
     case 'he': $locale = "he_IL.UTF-8"; break;
     case 'hi': $locale = "hi_IN.UTF-8"; break;
     case 'hr': $locale = "hr_HR.utf8"; break;
+    case 'hu': $locale = "hu_HU.utf8"; break;
     case 'id': $locale = "id_ID.utf8"; break;
     case 'is': $locale = "is_IS.utf8"; break;
     case 'it': $locale = "it_IT.utf8"; break;

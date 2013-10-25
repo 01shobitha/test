@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-08-20 11:35+0200\n"
-"PO-Revision-Date: 2013-10-20 10:52+0000\n"
+"PO-Revision-Date: 2013-10-25 16:41+0000\n"
 "Last-Translator: roentgen <arthur.titeica@gmail.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/projects/p/vlc-trans/language/ro/)\n"
 "Language: ro\n"
@@ -282,7 +282,7 @@ msgstr "Rulează orice: fișiere, discuri, camere web, dispozitive și fluxuri."
 
 #: vlc/index.php:44
 msgid "Plays most codecs with no codec packs needed:"
-msgstr "Rulează majoritatea codorilor fără a necesita un pachete codor:"
+msgstr "Rulează majoritatea codorilor fără a necesita pachete codor:"
 
 #: vlc/index.php:47
 msgid "Runs on all platforms:"

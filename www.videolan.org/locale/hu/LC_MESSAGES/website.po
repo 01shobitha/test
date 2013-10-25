@@ -4,13 +4,14 @@
 #
 # Translators:
 # kajla <adamradovits12@hotmail.com>, 2013
+# kelemeng <kelemeng@gnome.hu>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-08-20 11:35+0200\n"
-"PO-Revision-Date: 2013-10-25 10:40+0000\n"
-"Last-Translator: kajla <adamradovits12@hotmail.com>\n"
+"PO-Revision-Date: 2013-10-25 16:20+0000\n"
+"Last-Translator: kelemeng <kelemeng@gnome.hu>\n"
 "Language-Team: Hungarian (http://www.transifex.com/projects/p/vlc-trans/language/hu/)\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -179,7 +180,7 @@ msgstr "VLC: Hivatalos weboldal - Ingyenes multimédia megoldás minden OS-nek!"
 
 #: index.php:26 vlc/index.php:20
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
-msgstr "A VLC egy ingyenes és nyílforráskódú platformfüggetlen multimédia lejátszó és keretrendszer, ami lejátssza a legelterjedtebb multimédiás fájlokat valamint DVD-ket, Audió CD-ket, VCD-ket és különféle közvetítő protokollokat."
+msgstr "A VLC egy ingyenes és nyílt forráskódú platformfüggetlen multimédia lejátszó és keretrendszer, amely lejátssza a legelterjedtebb multimédiás fájlokat valamint DVD-ket, audio CD-ket, VCD-ket és különféle műsorszórási protokollokat."
 
 #: index.php:36
 msgid "Other projects from VideoLAN"

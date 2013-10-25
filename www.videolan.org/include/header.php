@@ -191,7 +191,7 @@ function start_head( $title,
 /* Actual start of the body */
 function start_body( $body_color, $language, $b_show_donate = true )
 {
-    if ( ($language != "he") && ($language != "ur") && ($language != "ar") )
+    if ( ($language != "he") && ($language != "ur") && ($language != "ar") && ($language != "fa") )
     {
         echo '<body>';
         echo "<div id='bodyInner' class='$body_color'>";

@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-08-20 11:35+0200\n"
-"PO-Revision-Date: 2013-10-25 15:37+0000\n"
-"Last-Translator: Arshad <hossein.arshad@gmail.com>\n"
+"PO-Revision-Date: 2013-10-25 17:01+0000\n"
+"Last-Translator: EmadNavy <tiptopland@gmail.com>\n"
 "Language-Team: Persian (http://www.transifex.com/projects/p/vlc-trans/language/fa/)\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
@@ -59,7 +59,7 @@ msgstr "تیم"
 
 #: include/header.php:269 include/header.php:400
 msgid "Contact us"
-msgstr "ارتباط با ما"
+msgstr "تماس با ما"
 
 #: include/header.php:270 include/header.php:401
 msgid "Partners"
@@ -67,7 +67,7 @@ msgstr "همکاران"
 
 #: include/header.php:271 include/header.php:402
 msgid "Mirrors"
-msgstr "آینه ها"
+msgstr "سرورهای پشتیبان"
 
 #: include/header.php:272 include/header.php:403
 msgid "Press center"
@@ -75,7 +75,7 @@ msgstr "مرکز خبری"
 
 #: include/header.php:273 include/header.php:404
 msgid "Events"
-msgstr "وقایع"
+msgstr "رویدادها"
 
 #: include/header.php:274 include/header.php:405
 msgid "Security center"
@@ -93,7 +93,7 @@ msgstr "امکانات"
 #: include/header.php:282 include/header.php:362 index.php:29 vlc/index.php:23
 #: vlc/index.php:65
 msgid "Screenshots"
-msgstr "تصاویر صفحه نمایش"
+msgstr "شات های تصویری"
 
 #: include/header.php:283 include/header.php:359 index.php:30 vlc/index.php:24
 msgid "Skins"
@@ -113,15 +113,15 @@ msgstr "تمام پروژه ها"
 
 #: include/header.php:309 index.php:119
 msgid "Contribute"
-msgstr "کمک"
+msgstr "مشارکت"
 
 #: include/header.php:311 include/header.php:390
 msgid "Donate time"
-msgstr "زمان اهدا"
+msgstr "وقت خود را هدیه کنید"
 
 #: include/header.php:312 include/header.php:389
 msgid "Donate money"
-msgstr "اهدای پول"
+msgstr "کمک مالی"
 
 #: include/header.php:313 include/header.php:391
 msgid "Get Goodies"
@@ -149,7 +149,7 @@ msgstr "انجمن ها"
 
 #: include/header.php:324 include/header.php:387
 msgid "Mailing-Lists"
-msgstr "فهرست پستی"
+msgstr "فهرست های پستی"
 
 #: include/header.php:325
 msgid "Report a bug"
@@ -157,7 +157,7 @@ msgstr "گزارش خطا"
 
 #: include/header.php:329
 msgid "Dev' Zone"
-msgstr "منطقه توسعه"
+msgstr "محیط توسعه دهندگان"
 
 #: include/header.php:383
 msgid "Community"
@@ -165,11 +165,11 @@ msgstr "انجمن"
 
 #: include/header.php:406
 msgid "Get Involved"
-msgstr "وارد عرصه شوید"
+msgstr "مشارکت کنید"
 
 #: include/os-specific.php:92 vlc/index.php:27
 msgid "Download VLC"
-msgstr "دریافت VLC"
+msgstr "دانلود VLC"
 
 #: include/os-specific.php:98 vlc/index.php:34 vlc/index.php:127
 msgid "Other Systems"
@@ -177,7 +177,7 @@ msgstr "سیستم های دیگر"
 
 #: index.php:3
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
-msgstr "VLC: سایت رسمی - راه حل های چندرسانه ای رایگان برای تمام سیستم عامل ها!"
+msgstr "VLC: سایت رسمی - راه کارهای چندرسانه ای رایگان برای تمامی سیستم های عامل"
 
 #: index.php:26 vlc/index.php:20
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
@@ -237,7 +237,7 @@ msgstr "تمام مخارج ما توسط کمک های مالی دریافتی 
 
 #: index.php:114 index.php:126 index.php:137
 msgid "Learn More"
-msgstr "بیشتر بیاموزید"
+msgstr "بیشتر بدانید"
 
 #: index.php:123
 msgid "VideoLAN is open-source software."
@@ -245,11 +245,11 @@ msgstr "VideoLAN نرم افزاری متن باز است."
 
 #: index.php:124
 msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
-msgstr "این بدین معنی است که اگر شما مهارت و اشتیاق کافی برای بهبود یکی از محصولات ما دارید، شرکت شما مورد استقبال ما می باشد."
+msgstr "این بدین معنی است که اگر شما مهارت و اشتیاق کافی برای بهبود یکی از محصولات ما دارید، مشارکت شما مورد استقبال ما می باشد."
 
 #: index.php:131
 msgid "Spread the Word"
-msgstr "کلمه را گسترش بدهید"
+msgstr "به گوش همه برسانید"
 
 #: index.php:135
 msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
@@ -257,11 +257,11 @@ msgstr "ما احساس می کنیم که VideoLAN بهترین نرم افزا
 
 #: index.php:147
 msgid "News &amp; Updates"
-msgstr "اخبار ;amp& بروزرسانی ها"
+msgstr "اخبار و بروزرسانی ها"
 
 #: index.php:151
 msgid "Development Blogs"
-msgstr "بلاگ های توسعه"
+msgstr "وبلاگ توسعه دهندگان"
 
 #: index.php:176
 msgid "Social media"
@@ -269,7 +269,7 @@ msgstr "رسانه‌ی اجتماعی"
 
 #: vlc/index.php:3
 msgid "Official page for VLC media player, the Open Source video framework!"
-msgstr "صفحه رسمی پلیر چندرسانه ای VLC، فریم ورک متن باز ویدیو!"
+msgstr "صفحه رسمی مدیا پلیر VLC، سیستم پخش ویدیویی متن باز!"
 
 #: vlc/index.php:40
 msgid "Simple, fast and powerful media player."
@@ -289,7 +289,7 @@ msgstr "قابل اجرا روی تمام پلتفرم ها:"
 
 #: vlc/index.php:49
 msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
-msgstr "کاملا رایگان، 0 نرم افزار جاسوسی، 0 تبلیغات و بدون ردیابی کاربران."
+msgstr "کاملا رایگان، عاری از هر بدافزار، بدون نمایش هیچ تبلیغ و اسکریپت ردگیری کاربران."
 
 #: vlc/index.php:51
 msgid "Can do media conversion and streaming."
@@ -301,7 +301,7 @@ msgstr "با تمام قابلیت ها آشنا شوید"
 
 #: vlc/index.php:87
 msgid "View all screenshots"
-msgstr "دیدن تمام تصاویر صفحه"
+msgstr "نمایش تمامی شات های تصویری"
 
 #: vlc/index.php:94
 msgid "Get VLC for"
@@ -309,7 +309,7 @@ msgstr "دریافت VLC برای"
 
 #: vlc/index.php:98
 msgid "Official Downloads of VLC media player"
-msgstr "دریافت های رسمی پلیر چندرسانه ای VLC"
+msgstr "دانلود رسمی پلیر چندرسانه ای VLC"
 
 #: vlc/index.php:104
 msgid "Sources"

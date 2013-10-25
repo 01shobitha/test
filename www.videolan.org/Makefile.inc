@@ -33,6 +33,7 @@ locales: index.an.php \
          index.el.php \
          index.es.php \
          index.et.php \
+         index.fa.php \
          index.fi.php \
          index.fr.php \
          index.gd.php \

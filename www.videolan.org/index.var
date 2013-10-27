@@ -88,6 +88,10 @@ URI: index.hr.html
 Content-type: text/html
 Content-language: hr
 
+URI: index.hu.html
+Content-type: text/html
+Content-language: hu
+
 URI: index.is.html
 Content-type: text/html
 Content-language: is

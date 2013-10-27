@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-08-20 11:35+0200\n"
-"PO-Revision-Date: 2013-10-25 16:20+0000\n"
-"Last-Translator: kelemeng <kelemeng@gnome.hu>\n"
+"PO-Revision-Date: 2013-10-26 00:04+0000\n"
+"Last-Translator: kajla <adamradovits12@hotmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/projects/p/vlc-trans/language/hu/)\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -116,15 +116,15 @@ msgstr "Hozzájárulás"
 
 #: include/header.php:311 include/header.php:390
 msgid "Donate time"
-msgstr "Idő adományozása"
+msgstr "\"Idő\" adomány"
 
 #: include/header.php:312 include/header.php:389
 msgid "Donate money"
-msgstr "Pénz adományozása"
+msgstr "Pénzadomány"
 
 #: include/header.php:313 include/header.php:391
 msgid "Get Goodies"
-msgstr "Nyalánkság elérése"
+msgstr "Rajongói munkák"
 
 #: include/header.php:317
 msgid "Support"
@@ -140,7 +140,7 @@ msgstr "GYIK"
 
 #: include/header.php:321 include/header.php:399 include/header.php:428
 msgid "Legal"
-msgstr "Jog"
+msgstr "Jogi információk"
 
 #: include/header.php:323 include/header.php:386
 msgid "Forums"
@@ -148,7 +148,7 @@ msgstr "Fórumok"
 
 #: include/header.php:324 include/header.php:387
 msgid "Mailing-Lists"
-msgstr "Levelező listák"
+msgstr "Levelezőlisták"
 
 #: include/header.php:325
 msgid "Report a bug"
@@ -164,7 +164,7 @@ msgstr "Közösség"
 
 #: include/header.php:406
 msgid "Get Involved"
-msgstr "Vegyél részt"
+msgstr "Vegyél részt!"
 
 #: include/os-specific.php:92 vlc/index.php:27
 msgid "Download VLC"
@@ -176,7 +176,7 @@ msgstr "Egyéb rendszerek"
 
 #: index.php:3
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
-msgstr "VLC: Hivatalos weboldal - Ingyenes multimédia megoldás minden OS-nek!"
+msgstr "VLC: Hivatalos oldal - Ingyenes multimédia megoldások minden OS-nek!"
 
 #: index.php:26 vlc/index.php:20
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
@@ -236,15 +236,15 @@ msgstr "Az összes költséget a felhasználók adományaiból álljuk. Ha tetsz
 
 #: index.php:114 index.php:126 index.php:137
 msgid "Learn More"
-msgstr "További információk"
+msgstr "Tudj meg többet!"
 
 #: index.php:123
 msgid "VideoLAN is open-source software."
-msgstr "A VideoLAN egy nyílt forráskódú szoftver."
+msgstr "A VideoLAN nyílt forráskódú szoftver."
 
 #: index.php:124
 msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
-msgstr "Ez azt jelenti hogyha van szakismereted és vágyad tökéletesíteni az egyik terméket a négy közül, akkor a közreműködésedet várjuk"
+msgstr "Ha van szakismereted és kedved tökéletesíteni az egyik termékünket, akkor hozzájárulásodat szívesen várjuk!"
 
 #: index.php:131
 msgid "Spread the Word"
@@ -252,7 +252,7 @@ msgstr "Terjeszd az igét!"
 
 #: index.php:135
 msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
-msgstr "Úgy érezzük a VideoLAN a legjobb áron elérhető videó szoftver: ingyen. Ha egyetértesz, kérjük segíts terjeszteni az igét ami erről a szoftverről szól."
+msgstr "Úgy érezzük a VideoLAN a legjobb áron elérhető videó szoftver: ingyen. Ha egyetértesz, akkor kérjük segíts terjeszteni a szoftver jó hírét."
 
 #: index.php:147
 msgid "News &amp; Updates"
@@ -264,7 +264,7 @@ msgstr "Fejlesztői blogok"
 
 #: index.php:176
 msgid "Social media"
-msgstr "Közösségi média"
+msgstr "Szociális média"
 
 #: vlc/index.php:3
 msgid "Official page for VLC media player, the Open Source video framework!"
@@ -280,7 +280,7 @@ msgstr "Mindent lejátszik: fájlokat, lemezeket, webkamerákat, eszközöket é
 
 #: vlc/index.php:44
 msgid "Plays most codecs with no codec packs needed:"
-msgstr "Lejátssza a legelterjedtebb kodekeket külön kodek-csomag nélkül:"
+msgstr "Lejátssza a legtöbb kodeket kodek-csomagok nélkül:"
 
 #: vlc/index.php:47
 msgid "Runs on all platforms:"
@@ -296,7 +296,7 @@ msgstr "Média átalakítást és közvetítést is tud."
 
 #: vlc/index.php:53
 msgid "Discover all features"
-msgstr "Fedezd fel az összes funkcióját"
+msgstr "Fedezd fel az összes funkcióját!"
 
 #: vlc/index.php:87
 msgid "View all screenshots"
@@ -304,7 +304,7 @@ msgstr "Összes képernyőmentés megnézése"
 
 #: vlc/index.php:94
 msgid "Get VLC for"
-msgstr "VLC beszerzése:"
+msgstr "VLC letölt. erre:"
 
 #: vlc/index.php:98
 msgid "Official Downloads of VLC media player"
@@ -316,7 +316,7 @@ msgstr "Források"
 
 #: vlc/index.php:105
 msgid "You can also directly get the"
-msgstr "Közvetlenül megtudod szerezni a"
+msgstr "Szerezd meg közvetlenül a"
 
 #: vlc/index.php:106
 msgid "source code"

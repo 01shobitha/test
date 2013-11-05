@@ -1,7 +1,7 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
-|5 Nov 2013|VLC 2.0.9|VideoLAN and the VLC development team are glad to present a new minor version of the VLC 2.0.x branch.<br />Mostly focused on fixing a few important bugs and security issues, this version is mostly needed for MacOS X, notably for PPC and Intel32 platforms that cannot upgrade to 2.1.0.
+|5 Nov 2013|VLC 2.0.9|VideoLAN and the VLC development team are glad to present a new minor version of the VLC 2.0.x branch.<br />Mostly focused on fixing a few important bugs and security issues, this version is mostly needed for Mac OS X, notably for PowerPC and Intel32 platforms that cannot upgrade to 2.1.0.
 
 |26 Sep 2013|VLC 2.1.0|VideoLAN and the VLC development team are glad to present the new major version of VLC, 2.1.0, named <i>Rincewind</i><br /> With a new audio core, hardware decoding and encoding, port to mobile platforms, preparation for Ultra-HD video and a special care to support more formats, 2.1 is a major upgrade for VLC.<br /> Rincewind has a new rendering pipeline for audio, with better effiency, volume and device management, to improve VLC audio support.<br />It supports many new devices inputs, formats, metadata and improves most of the current ones, preparing for the next-gen codecs.<br />More info on our <a href="http://www.videolan.org/vlc/releases/2.1.0.html">release page</a>.
 

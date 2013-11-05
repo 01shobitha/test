@@ -74,7 +74,7 @@ cooperation of our partners, on both technical and financial sides: </p>
   servers in one of their datacenters near Paris.<br />
     Free is also using VLC for their FreePlayer project.
     </p>
-    <p>Free hosted and sponsored our first DevDays in 2008.</p>
+    <p>Free hosted and sponsored our first DevDays in 2008 and also in 2013</p>
     </td>
   </tr>
 

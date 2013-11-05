@@ -13,7 +13,7 @@
 
 <?php
 $vlc_version = "1.0.5";
-$vlc_version_old = "2.0.8";
+$vlc_version_old = "2.0.9";
 $vlc_version_intel = "2.1.0";
 ?>
 
@@ -29,7 +29,7 @@ pkgitem_sf( "VLC for OS X $vlc_version_intel",
 <br />
 <br />
 
-<h2>Download VLC for Mac OS X 10.5 Leopard (release 2.0.8)</h2>
+<h2>Download VLC for Mac OS X 10.5 Leopard </h2>
 <?php
 pkgitem_sf( "32 bits Intel Mac",
     "$vlc_version_old/macosx","vlc-$vlc_version_old-intel32.dmg","vlc", "dmg package", "5b3aedda97e06500c7954c56f0902cb3");

@@ -156,7 +156,7 @@
                     <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
                     <span class='downloadText'><?php echo _("Get VLC now!"); ?></span>
                     <span id='downloadDetails' style='font-size: 12px; color: white;'>
-                    Version <span id='downloadVersion'>2.1.0</span>
+                    Version <span id='downloadVersion'>2.1.1</span>
                     </span>
                 </a>
                 <script>

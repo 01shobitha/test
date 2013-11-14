@@ -1,8 +1,8 @@
 <?php
-$win32version = '2.1.0';
-$macosxversion = '2.1.0';
+$win32version = '2.1.1';
+$macosxversion = '2.1.1';
 $oldmacosxversion = '2.0.9';
-$version = '2.1.0';
+$version = '2.1.1';
 $iosversion = '2.1.3';
 
 $dlBase = "//get.videolan.org/vlc";

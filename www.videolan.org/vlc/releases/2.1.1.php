@@ -176,10 +176,10 @@
                 <div class='projectDescription'>
                     <div style="padding-bottom: 8px;">With the capabilities of "RinceWind", 2.1.1 allows experimental decoding of HEVC and Webm/VP9 (depending on the platform).
                          </div>
-
-                    <div>2.1.1 fixes around a hundred of bugs, notably numerous regressions introduced in "RinceWind".<br />
-                         Important fixes involve Speex, WMV3, Alac and AVI decoding, but also numerous Mac OS X crashes
+                    <div>2.1.1 fixes around a hundred of bugs, notably numerous regressions introduced in "RinceWind".</div>
+                    <div>Important fixes involve Speex, WMV3, Alac and AVI decoding, but also numerous Mac OS X crashes
                          and GPU decoding on Windows.</div>
+                    <div>2.1.1 also improves the Windows installer and updates most translations.</div>
 
                 </div>
             </div>

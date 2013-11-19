@@ -89,7 +89,7 @@ function downloadButton()
     global $win32version;
 ?>
      <a id='downloadButton' href='<?php echo $dlUrl; ?>'>
-         <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
+         <img style='position: absolute; top: -10px; left: -10px;' src='//images.videolan.org/images/downloadVLC.png' alt='Download VLC icon' />
          <span class='downloadText'><?php echo _("Download VLC"); ?></span>
          <span id='downloadDetails' style='font-size: 12px; color: white;'>
          Version <span id='downloadVersion'><?php echo $win32version ?>

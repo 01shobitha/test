@@ -52,7 +52,7 @@ function pkgitem_sf($description,$version,$name,$top,$extradescription="",$md5="
 {
     pkgversion($top, $version);
     echo "<a id='downloadButton' href='//get.videolan.org/$top/$version/$name'>\n";
-    echo "<img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />\n";
+    echo "<img style='position: absolute; top: -10px; left: -10px;' src='//images.videolan.org/images/downloadVLC.png' alt='Download VLC icon' />\n";
     echo "<span class='downloadText'>$description</span>";
     echo "<span id='downloadDetails' style='font-size: 12px; color: white;'>$extradescription</span>";
     echo "</a>";

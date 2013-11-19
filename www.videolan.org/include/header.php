@@ -220,7 +220,7 @@ function start_body( $body_color, $language, $b_show_donate = true )
    <div id='donate'>
        <div style='font-size: 14px; color: #909090; float: left; padding-top: 5px;'>
            <span style='text-transform: uppercase;'><?php echo _("donate"); ?></span> &nbsp;<a href='//www.videolan.org/contribute.html#money'>(<?php echo _("why?");?>)</a></div>
-       <img src='/images/paypal.png' style='float: right;' alt="paypal" />
+       <img src='//images.videolan.org/images/paypal.png' style='float: right;' alt="paypal" />
        <form style='clear: both; padding-top: 10px;' action="https://www.paypal.com/en_US/cgi-bin/webscr" method="post">
            <p>
                <input name="cmd" value="_xclick" type="hidden"/>

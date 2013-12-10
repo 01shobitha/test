@@ -1,5 +1,5 @@
 <?php
-   $title = _("VLC 2.1 Rincewind");
+   $title = _("VLC 2.1.2 Rincewind");
    $body_color = "red";
    $language = "";
    $nobanner = true;
@@ -325,11 +325,9 @@
         <div class="clearme"></div>
         <div style="float: right; width: 400px;">
         <h1>Spread the news</h1>
-        <p><a href="http://www.reddit.com/r/technology/comments/1n516l/vlc_new_major_release_210_is_out/"><img src='//www.reddit.com/static/blog_snoo.png' /></a>
-           <a href="http://www.facebook.com/vlc.media.player/posts/10151780004361245" style="padding-top: 10px;"><img src='//images.videolan.org/images/facebook.png' alt='Facebook' /></a>
-           <a href="https://news.ycombinator.com/item?id=6447978"><img src='//images.videolan.org/images/hackernews.png'></a>
-           <a href="https://twitter.com/videolan/status/383008727626174465"><img src='//images.videolan.org/images/twitter.png' alt='Twitter' /></a>
-           <a href="https://plus.google.com/104597325891170264649/posts/c8vjPpy8RxC"><img src='//images.videolan.org/images/gplus.png'></a>
+           <a href="https://www.facebook.com/vlc.media.player/posts/10151929441541245" style="padding-top: 10px;"><img src='//images.videolan.org/images/facebook.png' alt='Facebook' /></a>
+           <a href="https://twitter.com/videolan/status/410342891127443456"><img src='//images.videolan.org/images/twitter.png' alt='Twitter' /></a>
+           <a href="https://plus.google.com/+vlc/posts/cBirqNhCkCn"><img src='//images.videolan.org/images/gplus.png'></a>
         </p>
         </div>
 

@@ -345,7 +345,7 @@ function draw_menus( $nobanner, $alternate_lang )
 <?php
     /* Event banner */
     if ( !$nobanner )
-    ;//    echo '<center><a href="https://packliberte.org/"><img alt="Pack Liberté" src="//images.videolan.org/images/events/animated_packliberte.gif" /></a></center>';
+        echo '<center><a href="https://fsfe.org/donate/"><img alt="Donate to FSFE" src="//images.videolan.org/images/events/fsfe-728x90.png" /></a></center>';
     ?><?php
 }
 

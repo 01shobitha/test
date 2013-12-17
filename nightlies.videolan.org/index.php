@@ -27,7 +27,6 @@
         <ul class="os" style="padding-bottom:10px">
             <li class='windows'  style="font-weight:bold"><a href='/build/win32/?C=M;O=D'>Windows (32 bits)</a></li>
             <li class='windows'  style="font-weight:bold"><a href='/build/win64/?C=M;O=D'>Windows (64 bits)</a></li>
-            <li class='macosx'  style="font-weight:bold"><a href='/build/macosx/?C=M;O=D'>Mac&nbsp;OS&nbsp;X PowerPC</a></li>
             <li class='macosx'  style="font-weight:bold"><a href='/build/macosx-intel/?C=M;O=D'>Mac&nbsp;OS&nbsp;X Intel</a></li>
             <li class='debian' ><a href='#ubuntu'>Ubuntu</a></li>
             <li class='android' style="font-weight:bold"><a href='/build/android-armv6-fpu/'>Android (ARMv6 with FPU)</a></li>

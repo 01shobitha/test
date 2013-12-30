@@ -172,6 +172,10 @@ URI: index.sk.html
 Content-type: text/html
 Content-language: sk
 
+URI: index.sl.html
+Content-type: text/html
+Content-language: sl
+
 URI: index.sr.html
 Content-type: text/html
 Content-language: sr

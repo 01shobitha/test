@@ -1,0 +1,322 @@
+# Malayalam translation
+# Copyright (C) 2013 VideoLAN
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# niyasc <niyasmonc@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: VLC - Trans\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-20 11:35+0200\n"
+"PO-Revision-Date: 2014-01-18 09:12+0000\n"
+"Last-Translator: niyasc <niyasmonc@gmail.com>\n"
+"Language-Team: Malayalam (http://www.transifex.com/projects/p/vlc-trans/language/ml/)\n"
+"Language: ml\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: include/header.php:205
+msgid "A project and a"
+msgstr "ഒരു പദ്ധതിയും ഒരു"
+
+#: include/header.php:205
+msgid "non-profit organization"
+msgstr "ലാഭേച്ഛയില്ലാതെ പ്രവര്‍ത്തിക്കുന്ന പ്രസ്ഥാനം"
+
+#: include/header.php:206
+msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
+msgstr "സ്വയം സേവന സന്നദ്ധരാല്‍ നിറഞ്ഞതും, സ്വതന്ത്രവും സൌജന്യവുമായ ബഹു-മീഡിയ സംരഭത്തിന്റെ വികസനവും പ്രോത്സാഹനവും ലക്ഷ്യമിടുന്നതും"
+
+#: include/header.php:212 include/header.php:226 include/header.php:240
+#: index.php:107
+msgid "donate"
+msgstr "സംഭാവന ചെയ്യൂ"
+
+#: include/header.php:212
+msgid "why?"
+msgstr "എന്തു കൊണ്ട്?"
+
+#: include/header.php:259
+msgid "Home"
+msgstr "ഭവനം"
+
+#: include/header.php:262 include/header.php:407
+msgid "News"
+msgstr "വാര്‍ത്തകള്‍"
+
+#: include/header.php:267 include/header.php:397
+msgid "Project and Organization"
+msgstr "പദ്ധതിയും പ്രസ്ഥാനവും"
+
+#: include/header.php:268 include/header.php:398
+msgid "Team"
+msgstr "കൂട്ടായ്മ"
+
+#: include/header.php:269 include/header.php:400
+msgid "Contact us"
+msgstr "ഞങ്ങളുമായി ബന്ധപ്പെടൂ."
+
+#: include/header.php:270 include/header.php:401
+msgid "Partners"
+msgstr "പങ്കാളികള്‍"
+
+#: include/header.php:271 include/header.php:402
+msgid "Mirrors"
+msgstr "സദ്യശ്യ കണ്ണാടികള്‍"
+
+#: include/header.php:272 include/header.php:403
+msgid "Press center"
+msgstr "വാര്‍ത്താ വിതരണ കേന്ദ്രം"
+
+#: include/header.php:273 include/header.php:404
+msgid "Events"
+msgstr "പരിപാടികള്‍"
+
+#: include/header.php:274 include/header.php:405
+msgid "Security center"
+msgstr "സുരക്ഷാ കേന്ദ്രം"
+
+#: include/header.php:280
+msgid "Download"
+msgstr "ഡൌണ്‍ലോ‍ഡ്"
+
+#: include/header.php:281 include/header.php:361 index.php:28 vlc/index.php:22
+#: vlc/index.php:39
+msgid "Features"
+msgstr "സവിശേഷതകള്‍"
+
+#: include/header.php:282 include/header.php:362 index.php:29 vlc/index.php:23
+#: vlc/index.php:65
+msgid "Screenshots"
+msgstr "സ്ക്രീന്‍ ചിത്രങ്ങള്‍"
+
+#: include/header.php:283 include/header.php:359 index.php:30 vlc/index.php:24
+msgid "Skins"
+msgstr "ദൃശ്യ ചര്‍മങ്ങള്‍"
+
+#: include/header.php:284 include/header.php:360
+msgid "Extensions"
+msgstr "അനുബന്ധങ്ങള്‍"
+
+#: include/header.php:288
+msgid "Projects"
+msgstr "പദ്ധതികള്‍"
+
+#: include/header.php:305 include/header.php:366
+msgid "All Projects"
+msgstr "എല്ലാ പദ്ധതികളും"
+
+#: include/header.php:309 index.php:119
+msgid "Contribute"
+msgstr "സഹായിക്കൂ"
+
+#: include/header.php:311 include/header.php:390
+msgid "Donate time"
+msgstr "സംഭാവനാ സമയം"
+
+#: include/header.php:312 include/header.php:389
+msgid "Donate money"
+msgstr "പണം സംഭാവന ചെയ്യൂ"
+
+#: include/header.php:313 include/header.php:391
+msgid "Get Goodies"
+msgstr "വസ്തു വകകള്‍ കരസ്ഥമാക്കൂ"
+
+#: include/header.php:317
+msgid "Support"
+msgstr "പിന്തുണ"
+
+#: include/header.php:319
+msgid "Support center"
+msgstr "പിന്തുണാ കേന്ദ്രം"
+
+#: include/header.php:320 include/header.php:388
+msgid "FAQ"
+msgstr "സാധാരണ സംശയങ്ങള്‍"
+
+#: include/header.php:321 include/header.php:399 include/header.php:428
+msgid "Legal"
+msgstr "നിയമപരം"
+
+#: include/header.php:323 include/header.php:386
+msgid "Forums"
+msgstr "ചോദ്യോത്തര വേദി"
+
+#: include/header.php:324 include/header.php:387
+msgid "Mailing-Lists"
+msgstr "എഴുത്തു കിട്ടേണ്ടവര്‍"
+
+#: include/header.php:325
+msgid "Report a bug"
+msgstr "ഒരു പ്രശ്നം ശ്രദ്ധയില്‍ പെടുത്തൂ"
+
+#: include/header.php:329
+msgid "Dev' Zone"
+msgstr "വികാസകരുടെ മേഖല"
+
+#: include/header.php:383
+msgid "Community"
+msgstr "സന്നദ്ധ സേവക സമൂഹം"
+
+#: include/header.php:406
+msgid "Get Involved"
+msgstr "പങ്കെടുക്കൂ"
+
+#: include/os-specific.php:92 vlc/index.php:27
+msgid "Download VLC"
+msgstr "വി.എല്‍.സി ഡൌണ്‍ലോ‍ഡ് ചെയ്യുക"
+
+#: include/os-specific.php:98 vlc/index.php:34 vlc/index.php:127
+msgid "Other Systems"
+msgstr "മറ്റു സംവിധാനങ്ങള്‍"
+
+#: index.php:3
+msgid "VLC: Official site - Free multimedia solutions for all OS!"
+msgstr "വി.എല്‍.സി: ഔദ്യോഗിക സൈറ്റ് -എല്ലാ ഒ.എസിനുമുള്ള ബഹുമാധ്യമ സംവിധാനം"
+
+#: index.php:26 vlc/index.php:20
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
+msgstr "വി.എല്‍.സി എന്നത് മിക്കവാറും എല്ലാ ബഹുമാധ്യമ ഫയലുകളെയും അതു പോലെ ഡിവിഡി, ഓഡിയോ സിഡി, വിസിഡി , വിവിധ ഒഴുക്കന്‍ സംവിധാനങ്ങളെയും പിന്തുണക്കുന്ന, സൌജന്യവും സ്വതന്ത്രവുമായ വിവിധ പ്ലേറ്റഫോമുകളില്‍ പ്രവര്‍ത്തിക്കുന്ന ബഹുമാധ്യമ പ്ലെയറും ചട്ടക്കൂടുമാണ്"
+
+#: index.php:36
+msgid "Other projects from VideoLAN"
+msgstr "വീഡിയോലാനിന്റെ മറ്റു പദ്ധതികള്‍"
+
+#: index.php:38
+msgid "For Everyone"
+msgstr "എല്ലാവര്‍ക്കും"
+
+#: index.php:44
+msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
+msgstr "നിലവിലുള്ള മിക്കവാറും എല്ലാ മീഡിയ ഫോര്‍മാറ്റുകളെയും പിന്തുണക്കുന്ന ഒരു അത്യുഗ്രന്‍ മീഡിയ പ്ലെയറാണു വി.എല്‍.സി"
+
+#: index.php:53
+msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
+msgstr "വീഡിയോലാന്‍ ചലചിത്ര നിര്‍മാണി വീഡിയോ നിര്‍മാണത്തിനായുള്ള ഒരു അരേഖാ തിരുത്തല്‍ സോഫ്റ്റ്‍വെയര്‍ ആണ്."
+
+#: index.php:60
+msgid "For Professionals"
+msgstr "സാങ്കേതിക വിദഗ്ദര്‍ക്ക്"
+
+#: index.php:66
+msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
+msgstr "ഡിവിബ്ലാസ്റ്റ് ഒരു ലളിതവും ശക്തവുമായ എം.പി.ഇ.ജി-2/ടി.എസ് വേര്‍തിരിക്കല്‍ ഒഴുക്കല്‍ സംവിധാനമാണ്"
+
+#: index.php:74
+msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
+msgstr "മള്‍ടികാസ്റ്റ് എന്നത് അനായാസകരവും കാര്യക്ഷമവുമായി മള്‍ടികാസ്റ്റ് ഒഴുക്കുകളും ടി.എസും കൈകാര്യം ചെയ്യാനുമുള്ള ഉപകരണങ്ങളുടെ ശേഖരമാണ്."
+
+#: index.php:83
+msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
+msgstr "എക്സ്264 എന്നത് വീഡിയോ ഒഴുക്കുകള്‍ എച്ച്.264/എം.പി.ഇ.ജി-4 എ.വി.സി ഫോര്‍മാറ്റിലേക്ക് കൂട്ടാനുള്ള ഒരു സ്വതന്ത്ര സംവിധാനമാണ്"
+
+#: index.php:91
+msgid "For Developers"
+msgstr "വികസന പ്രവര്‍ത്തകര്‍ക്ക്"
+
+#: index.php:102
+msgid "View All Projects"
+msgstr "എല്ലാ പദ്ധതികളും കാണൂ"
+
+#: index.php:105
+msgid "Help us out!"
+msgstr "ഞങ്ങളെ സഹായിക്കൂ"
+
+#: index.php:111
+msgid "VideoLAN is a non-profit organization."
+msgstr "വീഡിയോലാന്‍ ലാഭേച്ഛയില്ലാതെ പ്രവര്‍ത്തിക്കുന്ന പ്രസ്ഥാനമാണ്"
+
+#: index.php:112
+msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
+msgstr "ഉപയോക്താക്കളില്‍ നിന്ന് ലഭിക്കുന്ന സംഭാനയാണ് ഞങ്ങളുടെ എല്ലാ ചിലവുകള്‍ക്കുമുള്ള പണം. നിങ്ങള്‍ വീഡിയോലാന്‍ ഉല്‍പന്നങ്ങള്‍ ആസ്വദിക്കുന്നുവെങ്കില്‍, ദയവായി ഞങ്ങളെ സാമ്പത്തിക സംഭാവന കൊണ്ട് പിന്തുണക്കൂ"
+
+#: index.php:114 index.php:126 index.php:137
+msgid "Learn More"
+msgstr "കൂടുതല്‍ മനസ്സിലാക്കൂ"
+
+#: index.php:123
+msgid "VideoLAN is open-source software."
+msgstr "വീഡിയോലാന്‍ സ്വതന്ത്ര സോഫ്റ്റ്‍വെയര്‍ ആണ്."
+
+#: index.php:124
+msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
+msgstr "അതായത് നിങ്ങള്‍ക്ക് ‍ഞങ്ങളുടെ ഏതെങ്കിലും ഒരു ഉല്‍പന്നം മെച്ചപ്പെടുത്താനുള്ള കഴിവും താല്‍പര്യവുണ്ടെങ്കില്‍, നിങ്ങളുടെ സംഭാവനകള്‍ സ്വാഗതം ചെയ്യപ്പെടുന്നു"
+
+#: index.php:131
+msgid "Spread the Word"
+msgstr "ഇത് പ്രചരിപ്പിക്കൂ"
+
+#: index.php:135
+msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
+msgstr "ഏറ്റവും മികച്ച വിലയില്‍ അതായത് സൌജന്യമായി ലഭിക്കുന്ന ഏറ്റവും മികച്ച വീഡിയോ സോഫ്റ്റ്‍വെയറുകള്‍ വീഡിയോലാനിനുള്ളതായി ഞങ്ങള്‍ കരുത്തുന്നു. അത് ശരിയെന്ന് നിങ്ങള്‍ക്ക് തോന്നുന്നുവെങ്കില്‍ ഞങ്ങളുടെ സോഫ്റ്റ്‍വെയറുകള്‍ക്ക് പ്രചാരം നല്‍കൂ"
+
+#: index.php:147
+msgid "News &amp; Updates"
+msgstr "വാര്‍ത്തകളും പുതുക്കങ്ങളും"
+
+#: index.php:151
+msgid "Development Blogs"
+msgstr "വികസന ബ്ലോഗുകള്‍"
+
+#: index.php:176
+msgid "Social media"
+msgstr "സാമൂഹിക മാധ്യമം"
+
+#: vlc/index.php:3
+msgid "Official page for VLC media player, the Open Source video framework!"
+msgstr "സ്വതന്ത്ര വീഡിയോ ചട്ടക്കൂടായ വി.എല്‍.സി മീഡിയ പ്ലെയറിന്റെ ഔദ്യോഗിക താള്‍"
+
+#: vlc/index.php:40
+msgid "Simple, fast and powerful media player."
+msgstr "ലളിതവും വേഗതയേറിയതും ശക്തിയുള്ളതുമായ മീഡിയ പ്ലയര്‍"
+
+#: vlc/index.php:42
+msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
+msgstr "എല്ലാം പ്ലേ ചെയ്യുന്നു: ഫയലുകള്‍, ഡിസ്ക്കുകള്‍, വെബ്ക്യാമുകള്‍, ഉപകരണങ്ങള്‍, ഒഴുക്കുകള്‍"
+
+#: vlc/index.php:44
+msgid "Plays most codecs with no codec packs needed:"
+msgstr "പ്രത്യേക ഫോര്‍മാറ്റിംഗ് കൂട്ടങ്ങളില്ലാതെ മിക്കവാറും എല്ലാ ഫോര്‍മാറ്റുകളെയും പിന്തുണക്കുന്നു"
+
+#: vlc/index.php:47
+msgid "Runs on all platforms:"
+msgstr "എല്ലാ പ്ലേറ്റ്ഫോമുകളിലും പ്രവര്‍ത്തിക്കുന്നു"
+
+#: vlc/index.php:49
+msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
+msgstr "പൂര്‍ണമായും മുക്തം, 0 രഹസ്യം ചോര്‍ത്തില്‍ പ്രോഗ്രാമുകളില്‍ നിന്ന്, 0 പരസ്യങ്ങളിലല്‍ നിന്നും"
+
+#: vlc/index.php:51
+msgid "Can do media conversion and streaming."
+msgstr "മീഡിയാ രൂപാന്തരണവും സ്ട്രീമിംഗും ചെയ്യാന്‍ കഴിയും"
+
+#: vlc/index.php:53
+msgid "Discover all features"
+msgstr "എല്ലാ സവിശേഷതകളും കണ്ടെത്തൂ"
+
+#: vlc/index.php:87
+msgid "View all screenshots"
+msgstr "എല്ലാ സ്ക്രീന്‍ ചിത്രങ്ങളും കാണൂ"
+
+#: vlc/index.php:94
+msgid "Get VLC for"
+msgstr "വി.എല്‍.സി നേടൂ"
+
+#: vlc/index.php:98
+msgid "Official Downloads of VLC media player"
+msgstr "വി.എല്‍.സി മീഡിയാ പ്ലെയറിന്റെ ഔദ്യോഗിക ഡൌണ്‍ലോഡുകള്‍"
+
+#: vlc/index.php:104
+msgid "Sources"
+msgstr "ഉറവിടങ്ങള്‍"
+
+#: vlc/index.php:105
+msgid "You can also directly get the"
+msgstr "നിങ്ങള്‍ നേരിട്ടും കിട്ടാം"
+
+#: vlc/index.php:106
+msgid "source code"
+msgstr "അടിസ്ഥാന കോഡ്"

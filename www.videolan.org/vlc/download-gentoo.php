@@ -38,7 +38,7 @@ bidi xv svga gnutls stream vlm httpd cdda vcd cdio live</pre>
 
 <p>to the file <i>"/etc/portage/package.use"</i>. This will give you a
 fully functioning VLC. Be very careful if you decide to disable some of
-these USE flags. You can loose more functionality than you might expect.
+these USE flags. You can lose more functionality than you might expect.
 </p>
 
   <h2>Older versions</h2>

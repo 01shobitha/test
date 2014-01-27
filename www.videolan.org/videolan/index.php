@@ -12,8 +12,8 @@
     <h1 class="bigtitle">VideoLAN</h1>
 
     <div class="projectDescription" style="clear: left;">
-      The VideoLAN project is a project,<br />
-      lead and composed by a team of volunteers,<br />
+      The VideoLAN project is lead and<br />
+      composed of a team of volunteers,<br />
       that believes in the power of open source<br />
       when dealing with multimedia.
     </div>

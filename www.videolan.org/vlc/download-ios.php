@@ -31,7 +31,7 @@ You can synchronize media to your device using WiFi Upload, iTunes, Dropbox, or 
   <li>A video media library, with WiFi Upload, Dropbox integration and optional passcode lock.</li>
   <li>Integration for bluetooth headsets and AirPlay.</li>
   <li>Local Network service discovery with UPnP</li>
-  <li>Supports iOS 5.1 or later including the first iPad.</li>
+  <li>Supports iOS 6.1 or later</li>
   <li>Completely free, libre and open source.</li>
 </ul>
 </p>
@@ -61,16 +61,16 @@ function vlcscreenshot($img,$thumb, $desc){
 </div>
 
 <h2> Devices and iOS version </h2>
-<p>VLC for iOS requires iOS 5.1 or later. It runs on any iPhone, iPad, or iPod touch, including the first iPad.</p>
+<p>VLC for iOS requires iOS 6.1 or later. It runs on any iPhone, iPad, or iPod touch, including the first iPad.</p>
 
 <h2> Support </h2>
 <p> You need help with VLC for iOS? Be sure to check <a href="http://forum.videolan.org/viewforum.php?f=12">our forum</a>.</p>
 
 <h2> Source </h2>
 <p> You can find the source code for the last release here:</p>
-<code><a href="http://download.videolan.org/pub/videolan/vlc-iOS/2.1.3/vlc-iOS-2.1.3.tar.gz">VLC for iOS 2.1.3 source code</a></code><br />
-<code><a href="http://download.videolan.org/pub/videolan/vlc-iOS/2.1.3/MediaLibraryKit-2.1.3.tar.gz">MediaLibraryKit 2.1.3 source code</a></code><br />
-<code><a href="http://download.videolan.org/pub/videolan/vlc-iOS/2.1.2/VLCKit-2.1.0.tar.gz">MobileVLCKit 2.1.0 source code</a></code><br />
+<code><a href="http://download.videolan.org/pub/videolan/vlc-iOS/2.2.0/vlc-iOS-2.2.0.tar.gz">VLC for iOS 2.2.0 source code</a></code><br />
+<code><a href="http://download.videolan.org/pub/videolan/vlc-iOS/2.2.0/MediaLibraryKit-2.2.0.tar.gz">MediaLibraryKit 2.2.0 source code</a></code><br />
+<code><a href="http://download.videolan.org/pub/videolan/vlc-iOS/2.2.0/VLCKit-2.2.0-pre1.tar.gz">MobileVLCKit 2.2.0-pre1 source code</a></code><br />
 <p> Additionally, the latest code is always available on our <a href="http://git.videolan.org/?p=vlc-ports/ios.git;a=summary">git repositories</a>.</p>
 
 <h2> Developers </h2>
@@ -80,7 +80,7 @@ You can see the <a href="//wiki.videolan.org/iOSCompile">instructions to build</
 
 <h2> Binary </h2>
 <p> You can also get the binary from our servers instead of the App Store:
-<code><a href="http://download.videolan.org/pub/videolan/vlc-iOS/2.1.3/vlc-iOS-2.1.3.ipa">VLC for iOS 2.1.3 binary</a></code>.
+<code><a href="http://download.videolan.org/pub/videolan/vlc-iOS/2.2.0/vlc-iOS-2.2.0.ipa">VLC for iOS 2.2.0 binary</a></code>.
 </p>
 
 <h2> License </h2>

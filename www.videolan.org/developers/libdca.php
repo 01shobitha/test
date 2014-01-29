@@ -64,5 +64,5 @@ please consult your lawyer before downloading it.</p>
 
 <h2>Where to find DTS Coherent Acoustics samples</h2>
 
-<p>Some very good samples are available on the <a href="http://www.sr.se/multikanal/english/e_index.stm">swedish radio website</a>.</p>
+<p>Some very good samples are available on the <a href="https://web.archive.org/web/20030427153003/http://www.sr.se/multikanal/english/e_index.stm">swedish radio website</a>.</p>
 <?php footer('$Id$'); ?>

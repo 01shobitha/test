@@ -38,13 +38,10 @@ options:</p>
   <a href="http://download.videolan.org/pub/vlc/SuSE/12.2/vlc.ymp">VLC for 12.2</a>
 </div>
 <div class="installbtn" style="float: left;">
-  <a href="http://download.videolan.org/pub/vlc/SuSE/12.1/vlc.ymp">VLC for 12.1</a>
-</div>
-<div class="installbtn" style="float: left;">
   <a href="http://download.videolan.org/pub/vlc/SuSE/11.4/vlc.ymp">VLC for 11.4</a>
 </div>
 <div class="installbtn" style="float:left;">
-  <a href="http://download.videolan.org/pub/vlc/SuSE/11.1/vlc.ymp">VLC for 11.1</a>
+  <a href="http://download.videolan.org/pub/vlc/SuSE/11.2/vlc.ymp">VLC for 11.2</a>
 </div>
 </div>
 
@@ -69,9 +66,8 @@ Version. Supported at this time are :</p>
 <li>13.1</li>
 <li>12.3</li>
 <li>12.2</li>
-<li>12.1</li>
 <li>11.4</li>
-<li>11.1</li>
+<li>11.2</li>
 <li>Tumbleweed</li>
 <li>Factory</li>
 </ul>
@@ -108,7 +104,7 @@ sudo zypper mr -r VLC
 sudo zypper in vlc
 </pre>
 
-<p>&lt;SUSE version&gt; can be 11.1, 11.4, 12.1, 12.2, 12.3 or 13.1, Tumbleweed, Factory</p>
+<p>&lt;SUSE version&gt; can be 11.2, 11.4, 12.2, 12.3 or 13.1, Tumbleweed, Factory</p>
 
 
 <?php footer('$Id$'); ?>

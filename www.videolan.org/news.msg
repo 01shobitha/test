@@ -1,9 +1,11 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|4 Feb 2013|VLC 2.1.3|VideoLAN and the VLC development team are happy to present a new minor version of the VLC 2.1.x branch.<br />Fixing multiple bugs and regressions introduced in 2.1.0, 2.1.1 and 2.1.2, notably on audio and video outputs, decoders and demuxers<br />More info on our <a href="http://www.videolan.org/vlc/releases/2.1.3.html">release page</a>
+
 |24 Dec 2013|libbluray, libaacs and libbdplus release|Several Blu-Ray related libraries have been released: <a href="http://www.videolan.org/developers/libbluray.html">libbluray 0.5.0</a>, <a href="http://www.videolan.org/developers/libaacs.html">libaacs 0.7.0</a> and the new <a href="http://www.videolan.org/developers/libbdplus.html">libbdplus</a> library.
 
-|10 Dec 2013|VLC 2.1.2|VideoLAN and the VLC development team are proud to present the second minor version of the VLC 2.1.x branch.<br />Fixing a numerous number of bugs and regressions introduced in 2.1.0, notably on audio device management and SPDIF/HDMI pass-thru.<br />More info on our <a href="http://www.videolan.org/vlc/releases/2.1.2.html">release page</a>
+|10 Dec 2013|VLC 2.1.2|VideoLAN and the VLC development team are proud to present the second minor version of the VLC 2.1.x branch.<br />Fixing many bugs and regressions introduced in 2.1.0, notably on audio device management and SPDIF/HDMI pass-thru.<br />More info on our <a href="http://www.videolan.org/vlc/releases/2.1.2.html">release page</a>
 
 |14 Nov 2013|VLC 2.1.1|VideoLAN and the VLC development team are proud to present the first minor version of the VLC 2.1.x branch.<br />Fixing a numerous number of bugs and regressions introduced in 2.1.0, it also adds experimental HEVC and VP9 decoding and improves VLC installer on Windows.<br />More info on our <a href="http://www.videolan.org/vlc/releases/2.1.1.html">release page</a>
 

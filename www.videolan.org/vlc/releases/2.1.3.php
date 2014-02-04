@@ -324,9 +324,9 @@
         <div class="clearme"></div>
         <div style="float: right; width: 400px;">
         <h1>Spread the news</h1>
-           <a href="https://www.facebook.com/vlc.media.player/posts/10151929441541245" style="padding-top: 10px;"><img src='//images.videolan.org/images/facebook.png' alt='Facebook' /></a>
-           <a href="https://twitter.com/videolan/status/410342891127443456"><img src='//images.videolan.org/images/twitter.png' alt='Twitter' /></a>
-           <a href="https://plus.google.com/+vlc/posts/cBirqNhCkCn"><img src='//images.videolan.org/images/gplus.png'></a>
+           <a href="https://www.facebook.com/vlc.media.player/posts/10203127913417945" style="padding-top: 10px;"><img src='//images.videolan.org/images/facebook.png' alt='Facebook' /></a>
+           <a href="https://twitter.com/videolan/status/430813648332660736"><img src='//images.videolan.org/images/twitter.png' alt='Twitter' /></a>
+           <a href="https://plus.google.com/+vlc/posts/9i6gqyAUwJq"><img src='//images.videolan.org/images/gplus.png'></a>
         </p>
         </div>
 

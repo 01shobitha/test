@@ -14,14 +14,14 @@
                 and is released under the terms of the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU GPL</a>.</p>
 
             </div>
-            <a id='downloadButton' href='ftp://ftp.videolan.org/pub/x265/snapshots/last_x265.tar.bz2'>
-                <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadx265.png' alt='Download x265 icon' />
+            <a id='downloadButton' href='ftp://ftp.videolan.org/pub/x265/snapshots/last.tar.bz2'>
+                <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download x265 icon' />
                 <span class='downloadText'>Download x265</span>
                 <span id='downloadDetails' style='font-size: 12px; color: white;'>
                     master &nbsp;&#8226;&nbsp; Source &nbsp;&#8226;&nbsp; 475kB
                 </span>
             </a>
-            <a class='extraInfoLink' style="padding-left: 100px;" href='http://download.videolan.org/pub/videolan/x265/binaries/' >Binaries</a>
+<!--            <a class='extraInfoLink' style="padding-left: 100px;" href='http://download.videolan.org/pub/videolan/x265/binaries/' >Binaries</a> -->
         </div>
 
         <div style='float: left; width: 400px; color: #333333; margin-left: 60px;'>
@@ -36,7 +36,7 @@
         </div>
     </div>
 
-<div class="clearme" style="margin-bottom: 40px; padding-top: 20px;">
+<div class="clearme" style="margin-bottom: 40px; padding-top: 20px;" />
 <?php
    /*
 
@@ -50,13 +50,13 @@
     <p><b>2011 May 12</b> -- The <a href="http://mailman.videolan.org/pipermail/x265-devel/2011-May/008508.html">x265 Development Newsletter: Volume 16</a> is out.</p>
     <p><b>2011 April 26</b> -- The <a href="http://mailman.videolan.org/pipermail/x265-devel/2011-April/008442.html">x265 Development Newsletter: Volume 15</a> is out.</p>
     <p><b>2011 April 13</b> -- The <a href="http://mailman.videolan.org/pipermail/x265-devel/2011-April/008388.html">x265 Development Newsletter: Volume 14</a> is out.</p>
-    <p><b>2011 March 24</b> -- The <a href="http://mailman.videolan.org/pipermail/x265-devel/2011-March/008353.html">x265 Development Newsletter: Volume 13</a> is out.</p> */ ?>
+    <p><b>2011 March 24</b> -- The <a href="http://mailman.videolan.org/pipermail/x265-devel/2011-March/008353.html">x265 Development Newsletter: Volume 13</a> is out.</p>
 </div>
 
-
+*/ ?>
     <h1>Getting x265</h1>
     <h2>Source</h2>
-    <p>The latest x265 source code can always be found by anonymous <b>hg</a> repository:</p>
+    <p>The latest x265 source code can always be found by anonymous <b>hg</b> repository:</p>
 
     <p><code># hg clone hg://hg.videolan.org/x265</code></p>
 
@@ -72,6 +72,7 @@
     <p><b>2005 December 26</b> -- x265 won <a href="http://www.doom9.org/index.html?/codecs-final-105-1.htm">Doom9's 2005 codec shoot-out</a>, passing Ateme by a hair.</p>
     <p><b>2005 December 12</b> -- x265 tied for 1st place (with Ateme) in the <a href="http://www.compression.ru/video/codec_comparison/mpeg-4_avc_h264_2005_en.html">second annual MSU MPEG-4 AVC/ H.264 codecs comparison</a>.</p>
     </div> */
+?>
 
 <h2>Encoder features</h2>
 <a name="features"></a>

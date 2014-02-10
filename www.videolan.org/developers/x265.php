@@ -1,5 +1,5 @@
 <?php
-   $title = "x265, the best H.265/HEVC encoder";
+   $title = "x265, the free H.265/HEVC encoder";
    $body_color = "green";
    $nobanner = true;
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
@@ -26,23 +26,20 @@
 
         <div style='float: left; width: 400px; color: #333333; margin-left: 60px;'>
             <h1 style='margin-bottom: 25px;'>Features Overview</h1>
-            Provides best-in-class performance, compression, and features.<br />
+            Provides next-generation compression and codec.<br />
             <br />
-            Achieves dramatic performance, encoding 4 or more 1080p streams in realtime on a single consumer-level computer.<br />
+            Fast and excellent quality.<br />
             <br />
-            Gives the best quality, having the most advanced psychovisual optimizations.<br />
+            Completly free and libre software, ensuring freedom for everyone.<br />
             <br />
-            Support features necessary for many different applications, such as television broadcast, <a href="http://www.x265bluray.com/">Blu-ray</a>
-            low-latency video applications, and web video.<br />
-            <br />
-            x265 forms the core of many web video services, such as Youtube, Facebook, Vimeo, and Hulu.
-            It is widely used by television broadcasters and ISPs.<br />
+            The APIs are similar to <a href="/developers/x264.html">x264 APIs</a>
         </div>
     </div>
+
+<div class="clearme" style="margin-bottom: 40px; padding-top: 20px;">
 <?php
    /*
 
-<div class="clearme" style="margin-bottom: 40px; padding-top: 20px;">
 <div style="float: right; width: 350px; padding-top: 20px;">
     <h2>News</h2>
     <p><b>2013 August 23</b> -- The <a href="https://mailman.videolan.org/pipermail/x265-devel/2013-August/010211.html">x265 Development Newsletter: Volume 39</a> is out.</p>
@@ -59,25 +56,22 @@
 
     <h1>Getting x265</h1>
     <h2>Source</h2>
-    <p>The latest x265 source code can always be found by anonymous <a href="http://wiki.videolan.org/Git">git</a> repository:</p>
+    <p>The latest x265 source code can always be found by anonymous <b>hg</a> repository:</p>
 
-    <p><code># git clone git://git.videolan.org/x265.git</code></p>
+    <p><code># hg clone hg://hg.videolan.org/x265</code></p>
 
-    <p>Or grab a <a href="ftp://ftp.videolan.org/pub/videolan/x265/snapshots/">daily tarball</a>.</p>
-
-    <p>You can <a href="http://git.videolan.org/?p=x265.git;a=summary">browse the source</a> on-line.</p>
-
-    <h2>Application binaries</h2>
-    <p>Official builds for Windows, Linux, and MacOSX are available from <a href="http://download.videolan.org/pub/x265/binaries/">here</a>.</p>
+    <p>You can <a href="http://hg.videolan.org/x265/">browse the source</a> on-line.</p>
 
 </div>
 
+
+<?php /*
 <div style="clear: right; float: right; width: 350px;">
     <h2>Awards</h2>
     <p><b>2010 May 25</b> -- x265 won <a href="http://www.compression.ru/video/codec_comparison/h264_2010/">MSU Sixth MPEG-4 AVC/H.264 Video Codecs Comparison</a>, with ~24% better encoding than second place.</p>
     <p><b>2005 December 26</b> -- x265 won <a href="http://www.doom9.org/index.html?/codecs-final-105-1.htm">Doom9's 2005 codec shoot-out</a>, passing Ateme by a hair.</p>
     <p><b>2005 December 12</b> -- x265 tied for 1st place (with Ateme) in the <a href="http://www.compression.ru/video/codec_comparison/mpeg-4_avc_h264_2005_en.html">second annual MSU MPEG-4 AVC/ H.264 codecs comparison</a>.</p>
-</div>
+    </div> */
 
 <h2>Encoder features</h2>
 <a name="features"></a>
@@ -113,7 +107,7 @@
 
         <p>For support information and to ask questions, you have the following possibilities:</p>
 
-        <p>A mailing list (<a href="http://mailman.videolan.org/listinfo/x265-devel">x265-devel</a>), a forum (<a href="http://doom10.org/index.php?board=5.0">Doom10</a>),
+        <p>A mailing list (<a href="http://mailman.videolan.org/listinfo/x265-devel">x265-devel</a>),
          and IRC (<a href="irc://irc.freenode.net/x265">#x265@freenode</a> and <a href="irc://irc.freenode.net/x265dev">#x265dev@freenode</a>).</p>
     </div>
 

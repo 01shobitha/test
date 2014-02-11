@@ -28,7 +28,7 @@ You can synchronize media to your device using WiFi Upload, iTunes, Dropbox, or 
   <li>Play MKV, multiple audio tracks (including 5.1), and subtitles tracks (including SSA!).</li>
   <li>Support for network streams, including HLS, MMS or RTSP.</li>
   <li>Include video filters, playback speed manipulation, and fine seeking.</li>
-  <li>A video media library, with WiFi Upload, Dropbox integration and optional passcode lock.</li>
+  <li>A media library, with WiFi Upload, Dropbox & Google Drive integration and optional passcode lock.</li>
   <li>Integration for bluetooth headsets and AirPlay.</li>
   <li>Local Network service discovery with UPnP</li>
   <li>Supports iOS 6.1 or later</li>
@@ -61,7 +61,7 @@ function vlcscreenshot($img,$thumb, $desc){
 </div>
 
 <h2> Devices and iOS version </h2>
-<p>VLC for iOS requires iOS 6.1 or later. It runs on any iPhone, iPad, or iPod touch, including the first iPad.</p>
+<p>VLC for iOS requires iOS 6.1 or later. It runs on any iPhone, iPad, or iPod touch. For iOS 5.1, an older version is still available.</p>
 
 <h2> Support </h2>
 <p> You need help with VLC for iOS? Be sure to check <a href="http://forum.videolan.org/viewforum.php?f=12">our forum</a>.</p>

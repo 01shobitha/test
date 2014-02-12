@@ -145,6 +145,10 @@ require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
                 <h3>Donate to VideoLAN using Bitcoins</h3>
                 <p>Use the following address: <b>131sGMNPQCgQhUzezY1mjDKc7atieUuStK</b></p>
+                <p>Or the QR-Code:</p>
+                <div style="margin-left: 60px;">
+                    <img src="//images.videolan.org/images/bitcoin-address.png" alt="Bitcoin QR-Code" />
+                </div>
            </td>
         </tr>
 

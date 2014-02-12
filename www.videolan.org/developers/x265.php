@@ -58,7 +58,7 @@
     <h2>Source</h2>
     <p>The latest x265 source code can always be found by anonymous <b>hg</b> repository:</p>
 
-    <p><code># hg clone hg://hg.videolan.org/x265</code></p>
+    <p><code># hg clone http://hg.videolan.org/x265</code></p>
 
     <p>You can <a href="http://hg.videolan.org/x265/">browse the source</a> on-line.</p>
 

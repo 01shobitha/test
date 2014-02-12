@@ -133,8 +133,18 @@ require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
 
                 <h3>Donate to VideoLAN via Bank account</h3>
-                <p>Please <a href="/contact.html">Contact us</a>.</p>
+                <div style="margin-left: 60px;">
+                    <p><b>
+                    VIDEOLAN<br/>
+                    IBAN: FR76 3000 3034 3000 1506 8853 588<br/>
+                    BIC/SWIFT: SOGEFRPP<br/>
+                    FRANCE<br/>
+                    </b></p>
+                </div>
 
+
+                <h3>Donate to VideoLAN using Bitcoins</h3>
+                <p>Use the following address: <b>131sGMNPQCgQhUzezY1mjDKc7atieUuStK</b></p>
            </td>
         </tr>
 

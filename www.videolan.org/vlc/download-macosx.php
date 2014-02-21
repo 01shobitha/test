@@ -13,8 +13,8 @@
 
 <?php
 $vlc_version = "1.0.5";
-$vlc_version_old = "2.0.9";
-$vlc_version_intel = "2.1.3";
+$vlc_version_old = "2.0.10";
+$vlc_version_intel = "2.1.4";
 ?>
 
 <h1>Download latest VLC for Mac OS X 10.6 and later</h1>

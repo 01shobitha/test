@@ -1,7 +1,7 @@
 <?php
 $win32version = '2.1.3';
-$macosxversion = '2.1.3';
-$oldmacosxversion = '2.0.9';
+$macosxversion = '2.1.4';
+$oldmacosxversion = '2.0.10';
 $version = '2.1.3';
 $iosversion = '2.2.2';
 
@@ -23,7 +23,7 @@ function replaceDLinfos( )
     <?php
     echo "
     var windowsDetails = {'name': 'Windows', 'size': '22&nbsp;MB', 'location':          '$dlBase/$win32version/win32/vlc-$win32version-win32.exe'};
-    var osxDetails     = {'name': 'Mac OS X', 'size': '30&nbsp;MB', 'location':         '$dlBase/$macosxversion/macosx/vlc-$macosxversion.dmg' };
+    var osxDetails     = {'name': 'Mac OS X', 'size': '33&nbsp;MB', 'location':         '$dlBase/$macosxversion/macosx/vlc-$macosxversion.dmg' };
     var osx32Details   = {'name': 'Mac OS X (32bit)', 'size': '26&nbsp;MB', 'location': '$dlBase/$oldmacosxversion/macosx/vlc-$oldmacosxversion-intel.dmg' };
     var osxPPCDetails  = {'name': 'Mac OS X (PPC)', 'size': '25&nbsp;MB', 'location':   '$dlBase/$oldmacosxversion/macosx/vlc-$oldmacosxversion-powerpc.dmg' };
     var iosDetails     = {'name': 'iOS', 'size': '37&nbsp;MB', 'location': '/vlc/download-ios.html'};"; ?>

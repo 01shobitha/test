@@ -1,18 +1,18 @@
 # Portuguese translation
-# Copyright (C) 2013 VideoLAN
+# Copyright (C) 2014 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Bruno Queiros <bqueiros@gmail.com>, 2013
+# Bruno Queiros <bqueiros@gmail.com>, 2013-2014
 # glrs <goncaloluisilva@gmail.com>, 2013
-# alfalb_mansil <manuela.silva@sky.com>, 2012
+# alfalb_mansil <manuela.silva@sky.com>, 2014
 # Ricardo Perdigão <ricardofonseca1977@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-08-20 11:35+0200\n"
-"PO-Revision-Date: 2013-11-11 09:47+0000\n"
+"PO-Revision-Date: 2014-01-28 16:04+0000\n"
 "Last-Translator: Bruno Queiros <bqueiros@gmail.com>\n"
 "Language-Team: Portuguese (Portugal) (http://www.transifex.com/projects/p/vlc-trans/language/pt_PT/)\n"
 "Language: pt_PT\n"
@@ -31,7 +31,7 @@ msgstr "organização sem fins lucrativos"
 
 #: include/header.php:206
 msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
-msgstr "composta por voluntários, desenvolvendo e promovendo soluções de multimédia livres e open-source."
+msgstr "composta por voluntários, desenvolvendo e promovendo soluções de multimédia livres e código aberto."
 
 #: include/header.php:212 include/header.php:226 include/header.php:240
 #: index.php:107
@@ -94,7 +94,7 @@ msgstr "Caraterísticas"
 #: include/header.php:282 include/header.php:362 index.php:29 vlc/index.php:23
 #: vlc/index.php:65
 msgid "Screenshots"
-msgstr "Imagens de Ecrã"
+msgstr "Capturas de Ecrã"
 
 #: include/header.php:283 include/header.php:359 index.php:30 vlc/index.php:24
 msgid "Skins"
@@ -206,15 +206,15 @@ msgstr "Para Profissionais"
 
 #: index.php:66
 msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
-msgstr "O DVBlast é uma simples e poderosa aplicação de streaming e demux de MPEG-2/TS."
+msgstr "O DVBlast é uma aplicação simples e poderosa de transmissão e multiplexador de MPEG-2/TS."
 
 #: index.php:74
 msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
-msgstr "O multicast é um conjunto de ferramentas desenhadas para uma fácil e eficiente manipulação de streams multicast e TS."
+msgstr "O \"multicast\" é um conjunto de ferramentas concebidas para uma manipulação fácil e eficiente das transmissões \"multicast\" e TS."
 
 #: index.php:83
 msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
-msgstr "O x264 é uma aplicação gratuita para codificação de vídeo no formato H.264/MPEG-4 AVC."
+msgstr "x264 é uma aplicação gratuita para codificação transmissões de vídeo no formato H.264/MPEG-4 AVC."
 
 #: index.php:91
 msgid "For Developers"
@@ -278,7 +278,7 @@ msgstr "Um leitor multimédia, simples, rápido e poderoso."
 
 #: vlc/index.php:42
 msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
-msgstr "Reproduz tudo: ficheiros, discos, webcams, dispositivos e streams"
+msgstr "Reproduz tudo: Ficheiros, Discos, Webcams, Dispositivos e Streams"
 
 #: vlc/index.php:44
 msgid "Plays most codecs with no codec packs needed:"
@@ -302,7 +302,7 @@ msgstr "Descubra todas as caraterísticas"
 
 #: vlc/index.php:87
 msgid "View all screenshots"
-msgstr "Ver todas as imagens de ecrã"
+msgstr "Ver todas as capturas de ecrã"
 
 #: vlc/index.php:94
 msgid "Get VLC for"
@@ -323,15 +323,3 @@ msgstr "Também pode obter diretamente o"
 #: vlc/index.php:106
 msgid "source code"
 msgstr "código fonte"
-
-#~ msgid "DONATE"
-#~ msgstr "DOAR"
-
-#~ msgid "Other Systems and Versions"
-#~ msgstr "Outros Sistemas e Versões"
-
-#~ msgid "Donate"
-#~ msgstr "Doar"
-
-#~ msgid "Other OS"
-#~ msgstr "Outros Sistemas Operativos"

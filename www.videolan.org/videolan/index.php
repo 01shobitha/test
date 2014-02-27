@@ -19,9 +19,9 @@
     </div>
 
     <div style='clear: both; margin-top: 40px;'>
-<h2>The VideoLAN non-profit organisation</h2>
-<p>The VideoLAN project is backed up by the VideoLAN organisation, based in France.</p>
-<p>The VideoLAN non-profit organisation has a comittee and members that are part of the VideoLAN project.</p>
+<h2>The VideoLAN non-profit organization</h2>
+<p>The VideoLAN project is backed up by the VideoLAN organization, based in France.</p>
+<p>The VideoLAN non-profit organization has a committee and members that are part of the VideoLAN project.</p>
 <p>The current board of VideoLAN is composed by:</p>
 <ul class="bullets">
 <li>President: Jean-Baptiste Kempf</li>
@@ -68,8 +68,8 @@
   of the École Centrale Paris, in 2001.</p>
   <p>The project started to open up to developers outside of the École.
   It is now a worldwide project with <a href="/videolan/team/">developers</a> from 20 countries.</p>
-  <p>Since 2009, the project is completly separated from École Centrale Paris,
-  and is backed up by an autonomous non-profit organisation.</p>
+  <p>Since 2009, the project is completely separated from École Centrale Paris,
+  and is backed up by an autonomous non-profit organization.</p>
 
                 </td>
                 <td>

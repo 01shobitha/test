@@ -77,24 +77,20 @@
 <h2>Encoder features</h2>
 <a name="features"></a>
 <ul class="bullets">
-    <li> 8x8 and 4x4 adaptive spatial transform</li>
+    <li> Full prediction and transform quad-tree recursion supported</li>
     <li> Adaptive B-frame placement</li>
     <li> B-frames as references / arbitrary frame order</li>
-    <li> CAVLC/CABAC entropy coding</li>
-    <li> Custom quantization matrices</li>
-    <li> Intra: all macroblock types (16x16, 8x8, 4x4, and PCM with all predictions)</li>
-    <li> Inter P: all partitions (from 16x16 down to 4x4)</li>
-    <li> Inter B: partitions from 16x16 down to 8x8 (including skip/direct)</li>
-    <li> Interlacing (MBAFF)</li>
+    <li> CABAC entropy coding</li>
+    <li> Intra: all block types (32x32, 16x16, 8x8, 4x4, and PCM with all predictions)</li>
+    <li> Inter P: all partitions (from 64x64 down to 8x4)</li>
+    <li> Inter B: partitions from 64x64 down to 8x4 (including all merge modes</li>
+    <li> and biprediction)</li>
+    <li> Weighted prediction for P slices</li>
     <li> Multiple reference frames</li>
-    <li> Ratecontrol: constant quantizer, constant quality, single or multipass ABR, optional VBV</li>
+    <li> Ratecontrol: constant quantizer, constant quality, single pass ABR, optional VBV</li>
     <li> Scenecut detection</li>
-    <li> Spatial and temporal direct mode in B-frames, adaptive mode selection</li>
-    <li> Parallel encoding on multiple CPUs</li>
-    <li> Predictive lossless mode</li>
-    <li> Psy optimizations for detail retention (adaptive quantization, psy-RD, psy-trellis)</li>
-    <li> Zones for arbitrarily adjusting bitrate distribution</li>
-</ul>
+    <li> Parallel encoding on multiple CPUs, both frame-level and wavefront parallelism</li>
+</ul></li>
 
 <?php /*!-- <h2>Authors</h2>
     <p>The code is written from scratch by <a href="mailto:fenrir@videolan.org">Laurent Aimar</a>,

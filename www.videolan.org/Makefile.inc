@@ -53,6 +53,7 @@ locales: index.an.php \
          index.ko.php \
          index.ky.php \
          index.lt.php \
+         index.lv.php \
          index.mk.php \
          index.ml.php \
          index.mn_MN.php \

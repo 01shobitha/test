@@ -124,6 +124,10 @@ URI: index.lt.html
 Content-type: text/html
 Content-language: lt
 
+URI: index.lv.html
+Content-type: text/html
+Content-language: lv
+
 URI: index.ml.html
 Content-type: text/html
 Content-language: ml

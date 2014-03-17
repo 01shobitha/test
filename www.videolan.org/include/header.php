@@ -304,6 +304,7 @@ function draw_menus( $nobanner, $alternate_lang )
          <li><a href='//www.videolan.org/vlmc/'>VideoLan Movie Creator</a></li>
          <li><a href='//www.videolan.org/projects/dvblast.html'>DVBlast</a></li>
          <li><a href='//www.videolan.org/developers/x264.html'>x264</a></li>
+         <li><a href='//www.videolan.org/developers/x265.html'>x265</a></li>
          <li><a href='//www.videolan.org/projects/multicat.html'>multicat</a></li>
          <li><a href='//www.videolan.org/projects/vlma/'>VLMa</a></li>
          <li><a href='//www.videolan.org/vlc/skineditor.html'>VLC Skin Editor</a></li>
@@ -381,6 +382,7 @@ function footer($tag = "", $alternate_lang=array()) {
                  <li><a href='//www.videolan.org/vlmc/'>VideoLan Movie Creator</a></li>
                  <li><a href='//www.videolan.org/projects/dvblast.html'>DVBlast</a></li>
                  <li><a href='//www.videolan.org/developers/x264.html'>x264</a></li>
+                 <li><a href='//www.videolan.org/developers/x265.html'>x265</a></li>
                  <li><a href='//www.videolan.org/projects/multicat.html'>multicat</a></li>
                  <li><a href='//www.videolan.org/projects/vlma/'>VLMa</a></li>
                  <li><a href='//www.videolan.org/vlc/skineditor.html'>VLC Skin Editor</a></li>

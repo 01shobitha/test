@@ -28,6 +28,10 @@ You can create a localization for an unsupported language, help
 the translators of one given language (either by translating or by
 reviewing)</p>
 
+<p>Since most of the translation work has moved to transifex, you will
+probably want to check out <a href="transifex-howto.html">the current information</a> instead
+of the following, slightly deprecated information.</p>
+
 <p>For each existing language, there is a translation maintainer. You
 should contact him to coordinate help.</p>
 

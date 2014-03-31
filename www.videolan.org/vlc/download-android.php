@@ -9,10 +9,11 @@
 
 <h1>VLC for Android&trade; beta</h1>
 
-<p><a href="/vlc/">VLC</a> for Android&trade; is in beta stage.</p><br/>
+<p><a href="/vlc/">VLC</a> for Android&trade; is in beta stage. The current version if 0.9.0.</p><br/>
 <div style="margin-left:auto;margin-right:auto;width:172px;">
     <a href="https://play.google.com/store/apps/details?id=org.videolan.vlc.betav7neon"><img src="/images/get_it_on_play_logo_large.png" border="0" /></a>
 </div>
+<p>or download the <a href="http://get.videolan.org/vlc-android">APK package</a> from our mirrors.</p>
 
    <h1 style='margin-bottom: 12px;'><?php echo _("Features"); ?></h1>
 
@@ -26,6 +27,7 @@
                   <li>Support for network streams, including HLS.</li>
                   <li>Supports Android from version 2.1 (platform-7).</li>
                   <li>Supports ARMv6, ARMv7 and ARMv7+NEON.</li>
+                  <li>Supports secondary display.</li>
                </ul>
            </div>
        </div>
@@ -38,8 +40,9 @@
                   <li>Subtitles support, embedded and external, including ASS and DVD subtitles.</li>
                   <li>Multi audio or subtitles tracks selection.</li>
                   <li>Multi-core decoding, for Cortex-A7 A9 and A15 chips.</li>
-                  <li>Experimental hardware decoding.</li>
+                  <li>Supports full hardware decoding.</li>
                   <li>Gestures, headphones control.</li>
+                  <li>Audio equalizer</li>
                </ul>
            </div>
        </div>
@@ -67,58 +70,14 @@
 <p>If you are a phone manufacturer or have spare phones, please send them to us :)</p>
 <p><a href="/contact.html">Contact us</a>.</p>
 
-<?php 
-function writeonefeature( $a )
-{
-    if ( $a == "yes" )
-       echo '<td class="yes"><img src="/images/features/tick.png" alt="Yes" /></td>';
-    else if ($a == "no" )
-       echo '<td class="no"><img src="/images/features/cross.png" alt="No" /></td>';
-    else if ( $a == "part" )
-       echo '<td class="partial"><img src="/images/features/partial.png" alt="Partial" /></td>';
-    else if ( $a == "unt" )
-       echo '<td class="partial"><img src="/images/features/untested.png" alt="Untested" /></td>';
-    else if ($a == "none" )
-       echo '<td class="none">-</td>';
-    echo "\n";
-}
 
-function writefeature_simple( $title, $sd, $sd2, $hd, $hd2 )
-{
-   echo '<tr><td class="type">'.$title.'</td>';
-   writeonefeature( $sd );
-   writeonefeature( $sd2 );
-   writeonefeature( $hd );
-   writeonefeature( $hd2 );
-   echo "</tr>\n";
-}
-?>
+<h1>Decoding performance</h1>
 
-<h1>Software performance on phones for H.264</h1>
-<p>This table is a <b>rough idea</b> of what one can hope to play with VLC on Android, for now, using the <b>software</b> decoder.</p>
-<p>Performance is likely to improve in the future.</p>
-<table>
-<tr><th><b>Name</b></th><th><b>480p</b></th><th><b>576p</b></th><th><b>720p</b></th><th><b>MKV 720p + ASS</b></th></tr>
-<?php writefeature_simple( "HTC One X", "yes", "yes", "yes", "yes" ); ?>
-<?php writefeature_simple( "Samsung Galaxy S3", "yes", "yes", "yes", "yes" ); ?>
-<?php writefeature_simple( "Galaxy Nexus", "yes", "yes", "yes", "unt" ); ?>
-<?php writefeature_simple( "Samsung Galaxy S2", "yes", "yes", "unt", "unt" ); ?>
-<?php writefeature_simple( "HTC Desire HD", "yes", "unt", "no", "no" ); ?>
-<?php writefeature_simple( "Nexus One", "yes", "no", "no", "no" ); ?>
+<p>VLC can decode video in sofware and hardware mode. Hardware decoding often provides better performance but is not supported on all devices. If your device Android version is below 4.3, software decoding may be the only working option for you. 
 
-</table>
+<h1>Documentation</h1>
 
-<h1>Recommended phones</h1>
-    <div class='productDescription'>
-        <ul>
-            <li>Galaxy Nexus; (OMAP 4460)</li>
-            <li>HTC One X; (Tegra 3)</li>
-            <li>Samsung Galaxy S3; (Exynos 4 Quad)</li>
-            <li>Motorola Defy; (OMAP 3610)</li>
-            <li>HTC Desire; (QSD8250 Snapdragon)</li>
-            <li>Nexus one. (QSD8250 Snapdragon)</li>
-        </ul>
-    </div>
+<p>See <a href="https://wiki.videolan.org/Documentation:Android/">here</a> for additional documentation.
 
 <h1>Thanks</h1>
 <p>

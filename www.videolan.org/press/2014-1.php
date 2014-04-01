@@ -15,6 +15,7 @@
 <p>The multimedia world evolves <em>quickly</em>, new codecs need more and more processing power to achieve higher compression rates with better quality.<br />
  Yet tablets and smartphones are too small to go to the <b>Ultra-HD level</b>, and some old computers shouldn't be sent to trash just to see Hi-Quality videos.</p>
 
+<img src="//images.videolan.org/images/largeVLC.png" style="float: right;" />
 <p>Seeing that VLC counts dozens of million of users around the world and that many PC where it runs have a lot of unused computing power, the VideoLAN Team has finished its work on a distributed codec named <b>"CloudCodet"</b> that could allow our most privileged users to help the other users decode their video. Imagine millions of computers all working together to make multimedia contents available to everyone!</p>
 
 <p>Of course, we won't push CPU and electric load on our beloved users for nothing!</p>

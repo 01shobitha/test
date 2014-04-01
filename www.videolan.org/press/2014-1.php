@@ -13,16 +13,16 @@
 <h2>VLC starts a distributed codec and a new currency</h2>
 
 <p>The multimedia world evolves <em>quickly</em>, new codecs need more and more processing power to achieve higher compression rates with better quality.<br />
- Yet tablets and smartphones are too small to go to the <b>Ultra-HD level</b>, and some old computers shouldn't be sent to trash just to see Hi-Quality videos.</p>
+ Yet tablets and smartphones are too small to go to the <b>Ultra-HD level</b>, and some old computers shouldn't be sent to trash just to see High-Quality videos.</p>
 
 <img src="//images.videolan.org/images/largeVLC.png" style="float: right;" />
-<p>Seeing that VLC counts dozens of million of users around the world and that many PC where it runs have a lot of unused computing power, the VideoLAN Team has finished its work on a distributed codec named <b>"CloudCodet"</b> that could allow our most privileged users to help the other users decode their video. Imagine millions of computers all working together to make multimedia contents available to everyone!</p>
+<p>Seeing that VLC counts dozens of millions of users around the world and that many PC on which it runs have a lot of unused computing power, the VideoLAN Team has finished its work on a distributed codec named <b>"CloudCodet"</b> that could allow our most privileged users to help the other users decode their video. Imagine millions of computers all working together to make multimedia contents available to everyone!</p>
 
-<p>Of course, we won't push CPU and electric load on our beloved users for nothing!</p>
+<p>Of course, we won't push CPU load and electrical power on our beloved users for nothing!</p>
 
-<p>As a non-profit organisation, VideoLAN is unable to pay you real money, which is why, following the latest trend, the team is proud to introduce its own electronic money: <b>ConeCoins</b>!</p>
+<p>As a non-profit organisation, VideoLAN is unable to pay you real money, which is why, following the latest trends, the team is proud to introduce its own electronic money: <b>ConeCoins</b>!</p>
 
-<p>Every CPU cycle used to help other people decode their video and audio will be counted as <em>"mining"</em> and will earn you these ConeCoins. We will soon introduce a shop to exchange these coins for goodies like T-shirt, mugs, cones and chocolates!</p>
+<p>Every CPU cycle used to help other people decode their video and audio will be counted as <em>"mining"</em> and will earn you those ConeCoins. We will soon introduce a shop to exchange coins for goodies like T-shirts, mugs, traffic cones and chocolates!</p>
 
 <p>If everybody helps, we can make this connected world a more equal one! See you soon on the <b>ConeMarket</b>!</p>
 

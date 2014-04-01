@@ -12,9 +12,10 @@
 
 <h2>VLC starts a distributed decoding offer</h2>
 
-<p>The multimedia evolves quickly, new codecs need more and more processing power to achieve higher compression rates with better quality. Yet computer are expensive and some people cannot afford to buy new one just to see videos.</p>
+<p>The multimedia world evolves <em>quickly</em>, new codecs need more and more processing power to achieve higher compression rates with better quality.<br />
+ Yet tablets and smartphones are too small to go to the <b>Ultra-HD level</b>, and some old computers shouldn't be sent to trash just to see Hi-Quality videos.</p>
 
-<p>Seeing that VLC counts millions of users throughout the world and that many PC where it runs have a lot of unused computing power, the VideoLAN Team started to work on a distributed decoder that could allow our most privileged users to help the other decode their video. Imagine millions of computers all working together to make multimedia contents available to everyone!</p>
+<p>Seeing that VLC counts dozens of million of users around the world and that many PC where it runs have a lot of unused computing power, the VideoLAN Team has finished its work on a distributed decoder that could allow our most privileged users to help the other users decode their video. Imagine millions of computers all working together to make multimedia contents available to everyone!</p>
 
 <p>Of course, we won't push CPU and electric load on our beloved users for nothing!</p>
 

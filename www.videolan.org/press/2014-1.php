@@ -1,5 +1,5 @@
 <?php
-   $title = "VideoLAN - Press Release - ConeCoin";
+   $title = "Press Release - ConeCoin";
    $lang = "en";
    $menu = array( "vlc" );
    require($_SERVER["DOCUMENT_ROOT"]."include/header.php");

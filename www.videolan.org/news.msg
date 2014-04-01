@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|1 April 2014|VideoLAN announces distributed codec and conecoins!|VideoLAN and the VLC development team are happy to present their new distributed codec, named <b>CloudCodet</b>! To help smartphones users, this codec allows powerful computers to decode for other devices and the CPU-sharers will mine some <b>conecoin</b>, a new cone-shaped crypto-currency, in reward.<br />More info on our <a href="http://www.videolan.org/press/2014-1.html">press page</a>
+
 |21 Feb 2014|VLC 2.1.4 and 2.0.10|VideoLAN and the VLC development team are happy to present two updates for Mac OS X today.<br />Version 2.1.4 solves an important DVD playback regression, while 2.0.10 accumulates a number of small improvements and bugfixes for older Macs based on PowerPC or 32-bit Intel CPUs running OS X 10.5.
 
 |4 Feb 2014|VLC 2.1.3|VideoLAN and the VLC development team are happy to present a new minor version of the VLC 2.1.x branch.<br />Fixing multiple bugs and regressions introduced in 2.1.0, 2.1.1 and 2.1.2, notably on audio and video outputs, decoders and demuxers<br />More info on our <a href="http://www.videolan.org/vlc/releases/2.1.3.html">release page</a>

@@ -8,9 +8,9 @@
 <div id="fullwidth">
 
 <div class="press">
-<h1>Press Release about VLC distributed decoding and codecoin</h1>
+<h1>Press Release about VLC distributed decoding and conecoin</h1>
 
-<h2>VLC starts a distributed decoding offer</h2>
+<h2>VLC starts a distributed codec and a new currency</h2>
 
 <p>The multimedia world evolves <em>quickly</em>, new codecs need more and more processing power to achieve higher compression rates with better quality.<br />
  Yet tablets and smartphones are too small to go to the <b>Ultra-HD level</b>, and some old computers shouldn't be sent to trash just to see Hi-Quality videos.</p>

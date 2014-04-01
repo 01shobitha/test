@@ -25,6 +25,9 @@
 
 <p>If everybody helps, we can make this connected world a more equal one! See you soon on the <b>ConeMarket</b>!</p>
 
+<h2>More info</h2>
+<p>You can find more info about this currency <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0">on this video</a>.</p>
+
 <b>The VideoLAN Team</b>
 
 <h2>Contact VideoLAN</h2>

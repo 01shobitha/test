@@ -204,6 +204,10 @@ URI: index.tr.html
 Content-type: text/html
 Content-language: tr
 
+URI: index.tt.html
+Content-type: text/html
+Content-language: tt
+
 URI: index.uk.html
 Content-type: text/html
 Content-language: uk

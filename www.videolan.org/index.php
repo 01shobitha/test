@@ -6,7 +6,7 @@
    $additional_js = array("/js/slimbox2.js");
    $additional_css= array("/js/css/slimbox2.css");
 
-   $alternate_lang = array( "an", "ar", "ast", "be", "bn_IN", "bs", "ca", "cs", "cy", "da", "de", "el", "en", "es", "et", "fr", "gd", "gl", "gu", "he", "hi", "hr", "hu", "is", "it", "ja", "km", "kn", "ko", "ky", "lt", "lv", "ml", "mr", "my", "nb", "nl", "or", "pl", "pt", "pt_BR", "ro", "ru", "si", "sk", "sl", "sr", "sv", "te", "th", "tr", "uk", "ur", "vi", "wa", "zh", "zh_TW" );
+   $alternate_lang = array( "an", "ar", "ast", "be", "bn_IN", "bs", "ca", "cs", "cy", "da", "de", "el", "en", "es", "et", "fr", "gd", "gl", "gu", "he", "hi", "hr", "hu", "is", "it", "ja", "km", "kn", "ko", "ky", "lt", "lv", "ml", "mr", "my", "nb", "nl", "or", "pl", "pt", "pt_BR", "ro", "ru", "si", "sk", "sl", "sr", "sv", "te", "th", "tr", "tt", "uk", "ur", "vi", "wa", "zh", "zh_TW" );
 
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");

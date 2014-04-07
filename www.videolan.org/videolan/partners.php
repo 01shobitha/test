@@ -207,7 +207,7 @@ Marketing Europe GmbH, lent us a SC-XH150 setup consisting of a S/PDIF input cap
   <tr>
     <td>
         <p class="center"><a href="http://epitech.eu/"><img
-        src="http://www.epitech.eu/images/logos/logo-EPITECH-fond-blanc.gif" width="150" alt="Epitech" /></a></p>
+        src="http://images.videolan.org/images/partners/epitech.jpg" width="190" alt="Epitech" /></a></p>
     </td>
     <td>
 

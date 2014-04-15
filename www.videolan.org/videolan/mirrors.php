@@ -116,7 +116,7 @@
              }
 
              echo "<tr><td width=\"100%\"><a href=\"{$mirror['url']}\">{$mirror['name']}</a></td>"
-                 ."<td><a href=\"{$mirror['url']}\"><img src=\"{$mirror['logo']}\" /></a></td></tr>";
+                 ."<td><a href=\"{$mirror['url']}\">".(empty($mirror['logo']) ? "":"<img src=\"{$mirror['logo']}\" />")."</a></td></tr>";
 
         }
 

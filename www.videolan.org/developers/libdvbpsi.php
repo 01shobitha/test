@@ -35,7 +35,7 @@ and ITU-T H.222.0.</p>
 <p> <code>libdvbpsi</code> source code is available through <a href="http://wiki.videolan.org/git">git</a> at:<br />
 <code>git clone git://git.videolan.org/libdvbpsi.git</code><br />
 The stable release source code archive is available through:<br />
-<code>git checkout -t origin/branch/1.1.0-bugfix</code>
+<code>git checkout -t origin/branch/1.2.0-bugfix</code>
 </p>
 
 <p>All releases can be found by browsing the <a href="http://www.videolan.org/pub/libdvbpsi/"><b>releases</b></a>.</p>

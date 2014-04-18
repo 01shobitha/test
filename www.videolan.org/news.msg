@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|18 April 2014|VLC for iOS 2.3|VideoLAN and the VLC development team are happy to present a new release for iOS today. It adds support for folders to group media, more options to customize playback, improved network interaction in various regards, many small but noticeable improvements as well as 3 new translations. More info in the <a href="http://git.videolan.org/?p=vlc-ports/ios.git;a=blob_plain;f=NEWS;hb=HEAD">release notes</a>.
+
 |1 April 2014|VideoLAN announces distributed codec and conecoins!|VideoLAN and the VLC development team are happy to present their new distributed codec, named <b>CloudCodet</b>! To help smartphones users, this codec allows powerful computers to decode for other devices and the CPU-sharers will mine some <b>conecoin</b>, a new cone-shaped crypto-currency, in reward.<br />More info on our <a href="http://www.videolan.org/press/2014-1.html">press page</a>
 
 |21 Feb 2014|VLC 2.1.4 and 2.0.10|VideoLAN and the VLC development team are happy to present two updates for Mac OS X today.<br />Version 2.1.4 solves an important DVD playback regression, while 2.0.10 accumulates a number of small improvements and bugfixes for older Macs based on PowerPC or 32-bit Intel CPUs running OS X 10.5.

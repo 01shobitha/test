@@ -74,8 +74,8 @@ function vlcscreenshot($img,$thumb, $desc){
 
 <?php
    echo "<code><a href='http://download.videolan.org/pub/videolan/vlc-iOS/$version/vlc-iOS-$version.tar.gz'>VLC for iOS $version source code</a></code><br />"; ?>
-<code><a href="http://download.videolan.org/pub/videolan/vlc-iOS/2.2.1/MediaLibraryKit-2.2.1.tar.gz">MediaLibraryKit 2.2.1 source code</a></code><br />
-<code><a href="http://download.videolan.org/pub/videolan/vlc-iOS/2.2.2/VLCKit-2.2.0-pre3.tar.gz">MobileVLCKit 2.2.0-pre3 source code</a></code><br />
+<code><a href="http://download.videolan.org/pub/videolan/vlc-iOS/2.3.0/MediaLibraryKit-2.3.0.tar.gz">MediaLibraryKit 2.3.0 source code</a></code><br />
+<code><a href="http://download.videolan.org/pub/videolan/vlc-iOS/2.2.2/VLCKit-2.2.0-rc1.tar.gz">MobileVLCKit 2.2.0-rc1 source code</a></code><br />
 
 <p> Additionally, the latest code is always available on our <a href="http://git.videolan.org/?p=vlc-ports/ios.git;a=summary">git repositories</a>.</p>
 

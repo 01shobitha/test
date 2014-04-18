@@ -64,7 +64,7 @@ function vlcscreenshot($img,$thumb, $desc){
 </div>
 
 <h2> Devices and iOS version </h2>
-<p>VLC for iOS requires iOS 6.1 or later. It runs on any iPhone, iPad, or iPod touch. For iOS 5.1, an older version is still available.</p>
+<p>VLC for iOS requires iOS 6.1 or later. It runs on any iPhone, iPad, or iPod touch. For iOS 5.1, an older version is <a href="https://wiki.videolan.org/Documentation:IOS/#Installation_on_iOS_5.1">still available</a>.</p>
 
 <h2> Support </h2>
 <p> You need help with VLC for iOS? Be sure to check <a href="http://forum.videolan.org/viewforum.php?f=12">our forum</a>.</p>

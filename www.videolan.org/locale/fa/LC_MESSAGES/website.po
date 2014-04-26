@@ -1,18 +1,19 @@
 # Persian translation
-# Copyright (C) 2013 VideoLAN
+# Copyright (C) 2014 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
 # EmadNavy <tiptopland@gmail.com>, 2013
 # Arshad <hossein.arshad@gmail.com>, 2013
+# imni <if90@chmail.ir>, 2014
 # M.Hossein Mojtahedi <Mhm5000@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-08-20 11:35+0200\n"
-"PO-Revision-Date: 2013-10-25 19:42+0000\n"
-"Last-Translator: Arshad <hossein.arshad@gmail.com>\n"
+"PO-Revision-Date: 2014-04-26 10:26+0000\n"
+"Last-Translator: imni <if90@chmail.ir>\n"
 "Language-Team: Persian (http://www.transifex.com/projects/p/vlc-trans/language/fa/)\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +23,7 @@ msgstr ""
 
 #: include/header.php:205
 msgid "A project and a"
-msgstr "یک پروژه و یک"
+msgstr "پروژه و یک"
 
 #: include/header.php:205
 msgid "non-profit organization"
@@ -67,7 +68,7 @@ msgstr "همکاران"
 
 #: include/header.php:271 include/header.php:402
 msgid "Mirrors"
-msgstr "سرورهای پشتیبان"
+msgstr "آیینه‌ها"
 
 #: include/header.php:272 include/header.php:403
 msgid "Press center"
@@ -93,23 +94,23 @@ msgstr "امکانات"
 #: include/header.php:282 include/header.php:362 index.php:29 vlc/index.php:23
 #: vlc/index.php:65
 msgid "Screenshots"
-msgstr "شات های تصویری"
+msgstr "تصاویر"
 
 #: include/header.php:283 include/header.php:359 index.php:30 vlc/index.php:24
 msgid "Skins"
-msgstr "پوسته ها"
+msgstr "پوسته‌ها"
 
 #: include/header.php:284 include/header.php:360
 msgid "Extensions"
-msgstr "اضافات"
+msgstr "افزودنی‌ها"
 
 #: include/header.php:288
 msgid "Projects"
-msgstr "پروژه ها"
+msgstr "پروژه‌ها"
 
 #: include/header.php:305 include/header.php:366
 msgid "All Projects"
-msgstr "تمام پروژه ها"
+msgstr "تمام پروژه‌ها"
 
 #: include/header.php:309 index.php:119
 msgid "Contribute"
@@ -145,11 +146,11 @@ msgstr "قانونی"
 
 #: include/header.php:323 include/header.php:386
 msgid "Forums"
-msgstr "انجمن ها"
+msgstr "انجمن‌ها"
 
 #: include/header.php:324 include/header.php:387
 msgid "Mailing-Lists"
-msgstr "فهرست های پستی"
+msgstr "فهرست‌های پستی"
 
 #: include/header.php:325
 msgid "Report a bug"
@@ -157,11 +158,11 @@ msgstr "گزارش خطا"
 
 #: include/header.php:329
 msgid "Dev' Zone"
-msgstr "محیط توسعه دهندگان"
+msgstr "محیط توسعه‌دهندگان"
 
 #: include/header.php:383
 msgid "Community"
-msgstr "انجمن"
+msgstr "جامعه"
 
 #: include/header.php:406
 msgid "Get Involved"
@@ -169,19 +170,19 @@ msgstr "مشارکت کنید"
 
 #: include/os-specific.php:92 vlc/index.php:27
 msgid "Download VLC"
-msgstr "دانلود VLC"
+msgstr "دانلود وی‌ال‌سی"
 
 #: include/os-specific.php:98 vlc/index.php:34 vlc/index.php:127
 msgid "Other Systems"
-msgstr "سیستم های دیگر"
+msgstr "سیستم‌های دیگر"
 
 #: index.php:3
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
-msgstr "VLC: سایت رسمی - راه کارهای چندرسانه ای رایگان برای تمامی سیستم های عامل"
+msgstr "وی‌ال‌سی: تارنمای رسمی - راهکارهای چندرسانه‌ای رایگان برای تمامی سیستم‌های عامل!"
 
 #: index.php:26 vlc/index.php:20
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
-msgstr "VLC یک پلیر رایگان، متن باز و قابل اجرا روی سیستم های گوناگون است که قادر به اجرای اکثر فایل های چندرسانه ای از جمله VCD, Audio CD, DVD و چندین پروتکل استریمینگ می باشد."
+msgstr "وی‌ال‌سی یک پخش‌کننده صدا و تصویر رایگان، متن باز و قابل اجرا روی سیستم‌های گوناگون است که قادر به اجرای اکثر پرونده‌های چندرسانه‌ای از جمله وی‌سی‌دی، سی‌دی صوتی، دی‌وی‌دی و پروتکل‌های متنوع برای کار با جریان می باشد."
 
 #: index.php:36
 msgid "Other projects from VideoLAN"
@@ -193,27 +194,27 @@ msgstr "برای همه"
 
 #: index.php:44
 msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
-msgstr "VLC یک پلیر چندرسانه ای قدرتمند است که قادر به اجرای اکثر کدهای رسانه ای و فرمت های ویدیو می باشد."
+msgstr "وی‌ال‌سی پخش‌کننده چندرسانه‌ای قدرتمندی است که قادر به اجرای اکثر کدک‌های رسانه‌ای و قالب‌های ویدیویی می‌باشد."
 
 #: index.php:53
 msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
-msgstr "برنامه VideoLAN Movie Creator یک نرم افزار ویرایشگر غیرخطی برای ساخت ویدیو است."
+msgstr "برنامه VideoLAN Movie Creator ویرایشگری غیرخطی برای ساخت ویدیو است."
 
 #: index.php:60
 msgid "For Professionals"
-msgstr "برای متخصصین"
+msgstr "برای متخصصان"
 
 #: index.php:66
 msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
-msgstr "DVBlast یک نرم افزار کاربردی ساده و قدرتمند برای استریمینگ و دی مالتی پلکس کردن MPEG-2/TS است."
+msgstr "DVBlast نرم‌افزاری کاربردی، ساده و قدرتمند برای کار با جریان و واتافتن MPEG-2/TS است."
 
 #: index.php:74
 msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
-msgstr "multicast دسته ای از ابزارها است که شما را قادر می سازد تا استریم های multicast و TS را به سادگی و به طور موثر اداره کنید."
+msgstr "multicast دسته‌ای از ابزارها است که با آنها می‌توانید جریان‌های multicast و TS را به سادگی و به طور موثر اداره کنید."
 
 #: index.php:83
 msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
-msgstr "X264 نرم افزار کاربردی رایگانی برای کد کردن استریم های ویدیو به فرمت H.264/MPEG-4 AVC است."
+msgstr "x264 نرم‌افزاری رایگان برای کدگذاری جریان‌های ویدیویی به قالب H.264/MPEG-4 AVC است."
 
 #: index.php:91
 msgid "For Developers"
@@ -221,7 +222,7 @@ msgstr "برای توسعه‌دهندگان"
 
 #: index.php:102
 msgid "View All Projects"
-msgstr "نمایش تمام پروژه ها"
+msgstr "نمایش همه پروژه‌ها"
 
 #: index.php:105
 msgid "Help us out!"
@@ -229,11 +230,11 @@ msgstr "ما را یاری کنید!"
 
 #: index.php:111
 msgid "VideoLAN is a non-profit organization."
-msgstr "VideoLAN یک موسسه غیرانتفاعی است."
+msgstr "VideoLAN سازمانی غیرانتفاعی است."
 
 #: index.php:112
 msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
-msgstr "تمام مخارج ما توسط کمک های مالی دریافتی از کاربران تامین می گردد. اگر شما از استفاده ی یکی از محصولات VideoLAN لذت می برید لطفا برای حمایت از ما کمک مالی کنید."
+msgstr "تمام مخارج ما از طریق کمک‌های مالی کاربران تامین می‌شود. اگر یکی از محصولات VideoLAN برایتان سودمند است، لطفا برای حمایت از ما کمک مالی کنید."
 
 #: index.php:114 index.php:126 index.php:137
 msgid "Learn More"
@@ -241,11 +242,11 @@ msgstr "بیشتر بدانید"
 
 #: index.php:123
 msgid "VideoLAN is open-source software."
-msgstr "VideoLAN نرم افزاری متن باز است."
+msgstr "VideoLAN نرم‌افزاری متن باز است."
 
 #: index.php:124
 msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
-msgstr "این بدین معنی است که اگر شما مهارت و اشتیاق کافی برای بهبود یکی از محصولات ما دارید، مشارکت شما مورد استقبال ما می باشد."
+msgstr "این بدین معنی است که اگر شما مهارت و اشتیاق کافی برای بهبود یکی از محصولات ما دارید، از همیاری شما خوشحال می‌شویم."
 
 #: index.php:131
 msgid "Spread the Word"
@@ -253,15 +254,15 @@ msgstr "به گوش همه برسانید"
 
 #: index.php:135
 msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
-msgstr "ما احساس می کنیم که VideoLAN بهترین نرم افزار پخش ویدیو را با بهترین قیمت در اختیار دارد: رایگان. اگر شما هم موافق این هستید کمک کنید تا نام نرم افزارهای ما گسترش یابد."
+msgstr "به نظر ما VideoLAN بهترین نرم‌افزار پخش ویدیو را در اختیار دارد؛ با بهترین قیمت: رایگان. اگر با هم‌عقیده‌اید کمک کنید تا نام نرم‌افزار ما گسترش یابد."
 
 #: index.php:147
 msgid "News &amp; Updates"
-msgstr "اخبار و بروزرسانی ها"
+msgstr "اخبار و بروزرسانی‌ها"
 
 #: index.php:151
 msgid "Development Blogs"
-msgstr "وبلاگ توسعه دهندگان"
+msgstr "وبلاگ توسعه‌دهندگان"
 
 #: index.php:176
 msgid "Social media"
@@ -269,56 +270,56 @@ msgstr "رسانه‌ی اجتماعی"
 
 #: vlc/index.php:3
 msgid "Official page for VLC media player, the Open Source video framework!"
-msgstr "صفحه رسمی مدیا پلیر VLC، سیستم پخش ویدیویی متن باز!"
+msgstr "صفحه رسمی پخش‌کننده چندرسانه‌ای وی‌ال‌سی؛ سیستم پخش ویدیویی متن‌باز!"
 
 #: vlc/index.php:40
 msgid "Simple, fast and powerful media player."
-msgstr "مدیا پلیر ساده ، سریع و قدرتمند."
+msgstr "پخش‌کننده‌ی ساده ، سریع و قدرتمند."
 
 #: vlc/index.php:42
 msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
-msgstr "همه چیز را اجرا می کند: فایل ها، دیسک ها، وب کم ها، دستگاه ها و استریم ها."
+msgstr "همه چیز را پخش می‌کند: پرونده‌ها، دیسک‌ها، وبکم‌ها، دستگاه‌ها و جریان‌ها."
 
 #: vlc/index.php:44
 msgid "Plays most codecs with no codec packs needed:"
-msgstr "قابلیت اجرای اکثر Codec ها بدون احتیاج به دانلود پک مربوطه :"
+msgstr "قابلیت اجرای بیشتر کُدک‌ها بدون نیاز به دانلود بسته‌ی کُدک‌ها:"
 
 #: vlc/index.php:47
 msgid "Runs on all platforms:"
-msgstr "قابل اجرا روی تمام پلتفرم ها:"
+msgstr "قابل اجرا روی تمام سیستم‌ها:"
 
 #: vlc/index.php:49
 msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
-msgstr "کاملا رایگان، عاری از هر بدافزار، بدون نمایش هیچ تبلیغ و اسکریپت ردگیری کاربران."
+msgstr "کاملا رایگان، عاری از بدافزار، بدون نمایش تبلیغات و عدم ردگیری کاربران."
 
 #: vlc/index.php:51
 msgid "Can do media conversion and streaming."
-msgstr "قابلیت تبدیل ، پخش و استریمینگ انواع مدیا."
+msgstr "قابلیت تبدیل و کار با جریان انواع رسانه."
 
 #: vlc/index.php:53
 msgid "Discover all features"
-msgstr "با تمام قابلیت ها آشنا شوید"
+msgstr "با تمام قابلیت‌ها آشنا شوید"
 
 #: vlc/index.php:87
 msgid "View all screenshots"
-msgstr "نمایش تمامی شات های تصویری"
+msgstr "نمایش تمامی تصاویر"
 
 #: vlc/index.php:94
 msgid "Get VLC for"
-msgstr "دریافت VLC برای"
+msgstr "دریافت وی‌ال‌سی برای"
 
 #: vlc/index.php:98
 msgid "Official Downloads of VLC media player"
-msgstr "دانلود رسمی پلیر چندرسانه ای VLC"
+msgstr "دانلود نسخه‌های رسمی پخش‌کننده چندرسانه‌ای وی‌ال‌سی"
 
 #: vlc/index.php:104
 msgid "Sources"
-msgstr "سورس"
+msgstr "منابع"
 
 #: vlc/index.php:105
 msgid "You can also directly get the"
-msgstr "همچنین می توانید به طور مستقیم بگیرید"
+msgstr "همچنین می‌توانید به طور مستقیم بگیرید: "
 
 #: vlc/index.php:106
 msgid "source code"
-msgstr "سورس کد"
+msgstr "کد منبع"

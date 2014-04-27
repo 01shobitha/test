@@ -60,6 +60,10 @@ URI: index.et.html
 Content-type: text/html
 Content-language: et
 
+URI: index.fa.html
+Content-type: text/html
+Content-language: fa
+
 URI: index.fr.html
 Content-type: text/html
 Content-language: fr

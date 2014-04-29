@@ -1,16 +1,17 @@
 # Malayalam translation
-# Copyright (C) 2013 VideoLAN
+# Copyright (C) 2014 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
 # niyasc <niyasmonc@gmail.com>, 2014
+# Sreejith P <sreejithpro@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-08-20 11:35+0200\n"
-"PO-Revision-Date: 2014-01-18 20:28+0000\n"
-"Last-Translator: niyasc <niyasmonc@gmail.com>\n"
+"PO-Revision-Date: 2014-04-29 11:37+0000\n"
+"Last-Translator: Sreejith P <sreejithpro@gmail.com>\n"
 "Language-Team: Malayalam (http://www.transifex.com/projects/p/vlc-trans/language/ml/)\n"
 "Language: ml\n"
 "MIME-Version: 1.0\n"
@@ -115,7 +116,7 @@ msgstr "സഹായിക്കൂ"
 
 #: include/header.php:311 include/header.php:390
 msgid "Donate time"
-msgstr "സംഭാവനാ സമയം"
+msgstr "സമയം സംഭാവന ചെയ്യൂ. "
 
 #: include/header.php:312 include/header.php:389
 msgid "Donate money"
@@ -163,7 +164,7 @@ msgstr "സന്നദ്ധ സേവക സമൂഹം"
 
 #: include/header.php:406
 msgid "Get Involved"
-msgstr "പങ്കെടുക്കൂ"
+msgstr "പങ്കാളികൾ ആവുക "
 
 #: include/os-specific.php:92 vlc/index.php:27
 msgid "Download VLC"

@@ -13,7 +13,7 @@
 <div style="margin-left:auto;margin-right:auto;width:172px;">
     <a href="https://play.google.com/store/apps/details?id=org.videolan.vlc.betav7neon"><img src="/images/get_it_on_play_logo_large.png" border="0" /></a>
 </div>
-<p>or download the <a href="http://downloads.videolan.org/videolan/vlc-android/">APK package</a> from our mirror.</p>
+<p>or download the <a href="//get.videolan.org/vlc-android/">APK package</a> from our mirror.</p>
 
    <h1 style='margin-bottom: 12px;'><?php echo _("Features"); ?></h1>
 

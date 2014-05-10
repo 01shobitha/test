@@ -1,18 +1,21 @@
 # Traditional Chinese translation
-# Copyright (C) 2013 VideoLAN
+# Copyright (C) 2014 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
+# Frank Chao <frank0624@gmail.com>, 2012
 # Frank Chao <frank0624@gmail.com>, 2012-2013
 # hanklu <hankbox@gmail.com>, 2013
+# Frank Chao <frank0624@gmail.com>, 2013
 # taijuin lee <taijuin@gmail.com>, 2013
+# xatier 同學@提不起勁 <xatierlike@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-08-20 11:35+0200\n"
-"PO-Revision-Date: 2013-10-10 15:15+0000\n"
-"Last-Translator: Frank Chao <frank0624@gmail.com>\n"
+"PO-Revision-Date: 2014-05-09 17:07+0000\n"
+"Last-Translator: xatier 同學@提不起勁 <xatierlike@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/vlc-trans/language/zh_TW/)\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
@@ -125,7 +128,7 @@ msgstr "捐獻金錢"
 
 #: include/header.php:313 include/header.php:391
 msgid "Get Goodies"
-msgstr "獲取素材"
+msgstr "獲取超值服務"
 
 #: include/header.php:317
 msgid "Support"

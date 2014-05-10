@@ -8,7 +8,7 @@ source_lang = en
 
 [vlc-trans.vlc_website]
 file_filter = transifex/<lang>.po
-lang_map = gu_IN:gu, my_MM:my, nb_NO:nb, or_IN:or, pt_PT:pt, zh_CN:zh
+lang_map = bn_BD:bn, gu_IN:gu, my_MM:my, nb_NO:nb, or_IN:or, pt_PT:pt, zh_CN:zh
 source_lang = en
 
 [vlc-trans.vlc-21]

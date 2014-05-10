@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-08-20 11:35+0200\n"
-"PO-Revision-Date: 2014-03-30 08:33+0000\n"
+"PO-Revision-Date: 2014-05-10 06:47+0000\n"
 "Last-Translator: Christoph Miebach <christoph.miebach@web.de>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/vlc-trans/language/de/)\n"
 "Language: de\n"
@@ -73,7 +73,7 @@ msgstr "Spiegel-Server"
 
 #: include/header.php:272 include/header.php:403
 msgid "Press center"
-msgstr "Presse-Bereich"
+msgstr "Pressebereich"
 
 #: include/header.php:273 include/header.php:404
 msgid "Events"
@@ -159,7 +159,7 @@ msgstr "Einen Fehler melden"
 
 #: include/header.php:329
 msgid "Dev' Zone"
-msgstr "Entwickler-Bereich"
+msgstr "Entwicklerbereich"
 
 #: include/header.php:383
 msgid "Community"

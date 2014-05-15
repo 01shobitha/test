@@ -23,6 +23,7 @@ locales: index.an.php \
          index.ast.php \
          index.be.php \
          index.bg.php \
+         index.bn.php \
          index.bn_IN.php \
          index.bs.php \
          index.ca.php \

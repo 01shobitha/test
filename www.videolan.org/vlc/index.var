@@ -52,6 +52,10 @@ URI: index.el.html
 Content-type: text/html
 Content-language: el
 
+URI: index.en_GB.html
+Content-type: text/html
+Content-language: en-gb
+
 URI: index.es.html
 Content-type: text/html
 Content-language: es

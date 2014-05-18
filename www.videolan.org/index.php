@@ -6,7 +6,7 @@
    $additional_js = array("/js/slimbox2.js");
    $additional_css= array("/js/css/slimbox2.css");
 
-   $alternate_lang = array( "an", "ar", "ast", "be", "bn_IN", "bs", "ca", "cs", "cy", "da", "de", "el", "en", "es", "et", "fa", "fr", "gd", "gl", "gu", "he", "hi", "hr", "hu", "is", "it", "ja", "km", "kn", "ko", "ky", "lt", "lv", "ml", "mr", "my", "nb", "nl", "or", "pl", "pt", "pt_BR", "ro", "ru", "si", "sk", "sl", "sr", "sv", "te", "th", "tr", "tt", "uk", "ur", "vi", "wa", "zh", "zh_TW" );
+   $alternate_lang = array( "an", "ar", "ast", "be", "bn_IN", "bs", "ca", "cs", "cy", "da", "de", "el", "en", "en_GB", "es", "et", "fa", "fr", "gd", "gl", "gu", "he", "hi", "hr", "hu", "is", "it", "ja", "km", "kn", "ko", "ky", "lt", "lv", "ml", "mr", "my", "nb", "nl", "or", "pl", "pt", "pt_BR", "ro", "ru", "si", "sk", "sl", "sr", "sv", "te", "th", "tr", "tt", "uk", "ur", "vi", "wa", "zh", "zh_TW" );
 
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/os-specific.php");
@@ -23,7 +23,7 @@
                 <h1 class='bigtitle'>VLC media player</h1>
                 <div class='projectDescription'>
                    <?php echo
-                   _("VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."); ?>
+                   _("VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."); ?>
                 </div>
                 <a class='extraInfoLink' href='/vlc/features.html'><?php echo _("Features"); ?></a>
                 <a class='extraInfoLink' href='/vlc/screenshots.html'><?php echo _("Screenshots"); ?></a>

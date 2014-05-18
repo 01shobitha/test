@@ -179,7 +179,7 @@ msgid "VLC: Official site - Free multimedia solutions for all OS!"
 msgstr "VLC: Gwefan swyddogol - Rhaglenni amlgyfrwng am ddim ar gyfer pob OS!"
 
 #: index.php:26 vlc/index.php:20
-msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
 msgstr "Chwaraewr a fframwaith amlgyfrwng sy'n god agored ac am ddim yw VLC. Mae ar gael ar gyfer nifer o systemau ac yn chwarae bron pob math o ffeil fideo a sain yn ogystal â DVDs, CDs, VCDs a gwahanol brotocolau ffrydio."
 
 #: index.php:36
@@ -287,7 +287,7 @@ msgid "Runs on all platforms:"
 msgstr "Mae'n rhedeg ar bob system:"
 
 #: vlc/index.php:49
-msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
+msgid "Completely Free, no spyware, no ads and no user tracking."
 msgstr "Mae'n gyfan gwbl am ddim: dim hysbysebion, dim ysbïwedd na dim cofnodi defnydd."
 
 #: vlc/index.php:51

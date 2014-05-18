@@ -183,7 +183,7 @@ msgid "VLC: Official site - Free multimedia solutions for all OS!"
 msgstr "VLC：官方網站 - 用於所有操作系統的自由軟體之多媒體解決方案！"
 
 #: index.php:26 vlc/index.php:20
-msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
 msgstr "VLC 是一個自由和開源的跨平台多媒體播放器和框架，可以播放大多數多媒體檔案，以及 DVD、音樂CD、VCD 和各種串流協定。"
 
 #: index.php:36
@@ -291,7 +291,7 @@ msgid "Runs on all platforms:"
 msgstr "可在所有平台運行："
 
 #: vlc/index.php:49
-msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
+msgid "Completely Free, no spyware, no ads and no user tracking."
 msgstr "完全免費，無間諜軟件，無廣告，無跟踪用戶的行為。"
 
 #: vlc/index.php:51

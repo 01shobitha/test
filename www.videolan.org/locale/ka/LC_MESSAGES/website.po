@@ -167,7 +167,7 @@ msgstr "VLC: ოფიციალური საიტი - უფასო �
 
 #: index.php:16
 #: vlc/index.php:12
-msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
 msgstr "VLC არის თავისუფალი და ღია წყაროებიდან cross-პლატფორმა მულტიმედიურიplayer და ფარგლებში რომ უკრავს ყველაზე მულტიმედია ფაილები ასევე DVD,აუდიო CD, VCD, და სხვადასხვა Streaming ოქმები."
 
 #: index.php:23

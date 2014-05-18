@@ -178,7 +178,7 @@ msgid "VLC: Official site - Free multimedia solutions for all OS!"
 msgstr "وىـى ـ ايل ـ سى ـ سرکاری سائٹ - تمام آپريٹنگ سسٹمز کے لئے مفت ملٹی میڈیا پروگرام!"
 
 #: index.php:26 vlc/index.php:20
-msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
 msgstr "وىـى ـ ايل ـ سى ـ ایک مفت اور اوپن سورس کراس پلیٹ فارم ملٹی میڈیا پلیئر اور فریم ورک ہے جو سب سے زیادہ ملٹی میڈیا فائلوں کو چلاتا ہے، اس کے ساتھ ساتھ ڈی وی ڈی، آڈیو سی ڈی، وى سى ڈى، اور مختلف سٹريمنگ پروٹوکول کو بھى چلاتا ہے."
 
 #: index.php:36
@@ -286,7 +286,7 @@ msgid "Runs on all platforms:"
 msgstr "تمام پلیٹ فارم پر چلتا ہے:"
 
 #: vlc/index.php:49
-msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
+msgid "Completely Free, no spyware, no ads and no user tracking."
 msgstr "مکمل طور پر مفت، صفر سپائویئر، صفراشتھارات اور کسى صارف کى ٹريکنگ نہيں کى جاتى ـ"
 
 #: vlc/index.php:51

@@ -178,7 +178,7 @@ msgid "VLC: Official site - Free multimedia solutions for all OS!"
 msgstr "VLC: Επίσημη σελίδα - Δωρεάν λύσεις πολυμέσων για όλα τα λειτουργικά συστήματα!"
 
 #: index.php:26 vlc/index.php:20
-msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
 msgstr "Το VLC είναι ένας δωρεάν και ανοικτού κώδικα πολλαπλών πλατφορμών παίκτης πολυμέσων και ένα πλαίσιο που παίζει τα περισσότερα αρχεία πολυμέσων όπως επίσης και DVD, Audio CD, VCD, και διάφορα πρωτόκολλα streaming."
 
 #: index.php:36
@@ -286,7 +286,7 @@ msgid "Runs on all platforms:"
 msgstr "Δουλεύει σε όλες τις πλατφόρμες:"
 
 #: vlc/index.php:49
-msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
+msgid "Completely Free, no spyware, no ads and no user tracking."
 msgstr "Τελείως δωρεάν, 0 spyware, 0 διαφημίσεις και καμία παρακολούθηση των χρηστών."
 
 #: vlc/index.php:51

@@ -179,7 +179,7 @@ msgid "VLC: Official site - Free multimedia solutions for all OS!"
 msgstr "വി.എല്‍.സി: ഔദ്യോഗിക സൈറ്റ് -എല്ലാ ഒ.എസിനുമുള്ള ബഹുമാധ്യമ സംവിധാനം"
 
 #: index.php:26 vlc/index.php:20
-msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
 msgstr "വി.എല്‍.സി എന്നത് മിക്കവാറും എല്ലാ ബഹുമാധ്യമ ഫയലുകളെയും അതു പോലെ ഡിവിഡി, ഓഡിയോ സിഡി, വിസിഡി , വിവിധ ഒഴുക്കന്‍ സംവിധാനങ്ങളെയും പിന്തുണക്കുന്ന, സൌജന്യവും സ്വതന്ത്രവുമായ വിവിധ പ്ലേറ്റഫോമുകളില്‍ പ്രവര്‍ത്തിക്കുന്ന ബഹുമാധ്യമ പ്ലെയറും ചട്ടക്കൂടുമാണ്"
 
 #: index.php:36
@@ -287,7 +287,7 @@ msgid "Runs on all platforms:"
 msgstr "എല്ലാ പ്ലേറ്റ്ഫോമുകളിലും പ്രവര്‍ത്തിക്കുന്നു"
 
 #: vlc/index.php:49
-msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
+msgid "Completely Free, no spyware, no ads and no user tracking."
 msgstr "പൂര്‍ണമായും മുക്തം, 0 രഹസ്യം ചോര്‍ത്തില്‍ പ്രോഗ്രാമുകളില്‍ നിന്ന്, 0 പരസ്യങ്ങളിലല്‍ നിന്നും"
 
 #: vlc/index.php:51

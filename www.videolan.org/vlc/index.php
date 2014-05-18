@@ -17,7 +17,7 @@
             <div style='float: left; width: 500px;'>
                 <h1 class='bigtitle'>VLC media player</h1>
                 <div class='projectDescription'>
-                   <?php echo _("VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."); ?>
+                   <?php echo _("VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."); ?>
                 </div>
                 <a class='extraInfoLink' href='/vlc/features.html'><?php echo _("Features"); ?></a>
                 <a class='extraInfoLink' href='/vlc/screenshots.html'><?php echo _("Screenshots"); ?></a>
@@ -46,7 +46,7 @@
                 <br /><br />
                     <?php echo _("Runs on all platforms:")." Windows, Linux, Mac OS X, Unix..."; ?>
                 <br /><br />
-                    <?php echo _("Completely Free, 0 spyware, 0 ads and no user tracking."); ?>
+                    <?php echo _("Completely Free, no spyware, no ads and no user tracking."); ?>
                 <br /><br />
                     <?php echo _("Can do media conversion and streaming."); ?>
                 <br />

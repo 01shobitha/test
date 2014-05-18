@@ -179,7 +179,7 @@ msgid "VLC: Official site - Free multimedia solutions for all OS!"
 msgstr "VLC ៖ តំបន់​បណ្ដាញ​ផ្លូវការ - កម្មវិធី​ចាក់​ពហុ​មេឌៀ​ដោយ​គិត​ថ្លៃ​សម្រាប់​គ្រប់​ប្រព័ន្ធ​ប្រតិបត្តិការ!"
 
 #: index.php:26 vlc/index.php:20
-msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
 msgstr "VLC គឺ​ជា​កម្មវិធី​ចាក់​ពហុ​មេឌៀ​​​កូដ​ចំហ និង​ឥត​គិត​ថ្លៃ​ដំណើរការ​លើ​ប្រព័ន្ធ​ប្រតិបត្តិការ​ជា​ច្រើន ហើយ​គ្រោងការណ៍​ដែល​ចាក់​ឯកសារ​ពហុ​មេឌៀ​ច្រើន ព្រម​ទាំង​ឌីវីឌី ស៊ីឌី​អូឌីយ៉ូ និង​ពិធីការ​ស្ទ្រីម​ផ្សេងៗ​ជា​ច្រើន ​ទៀត ។"
 
 #: index.php:36
@@ -287,7 +287,7 @@ msgid "Runs on all platforms:"
 msgstr "ដំណើរការ​គ្រប់​ប្រព័ន្ធ​ប្រតិបត្តិការ ៖"
 
 #: vlc/index.php:49
-msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
+msgid "Completely Free, no spyware, no ads and no user tracking."
 msgstr "ប្រើដោយ​គិត​ថ្លៃ គ្មាន​កម្មវិធី​រំខាន គ្មានការ​ផ្សាយ​ពាណិជ្ជកម្ម និង​គ្មាន​កា​រតាមដាន​អ្នកប្រើ ។"
 
 #: vlc/index.php:51

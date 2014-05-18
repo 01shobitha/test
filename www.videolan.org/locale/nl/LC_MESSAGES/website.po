@@ -178,7 +178,7 @@ msgid "VLC: Official site - Free multimedia solutions for all OS!"
 msgstr "VLC: Officiële site - Gratis multimedia-oplossingen voor alle besturingssystemen!"
 
 #: index.php:26 vlc/index.php:20
-msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
 msgstr "VLC is een gratis en open source cross-platform multimediaspeler en framework. Het speelt de meeste multimedia-bestanden en ook dvd, audio-cd, vcd en verschillende streaming-protocollen af."
 
 #: index.php:36
@@ -286,7 +286,7 @@ msgid "Runs on all platforms:"
 msgstr "Draait op alle besturingssystemen:"
 
 #: vlc/index.php:49
-msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
+msgid "Completely Free, no spyware, no ads and no user tracking."
 msgstr "Volledig gratis, geen spyware, geen reclame en geen user tracking."
 
 #: vlc/index.php:51

@@ -178,7 +178,7 @@ msgid "VLC: Official site - Free multimedia solutions for all OS!"
 msgstr "VLC: האתר הרשמי - פתרונות מולטימדיה חופשיים עבור כל מערכות ההפעלה!"
 
 #: index.php:26 vlc/index.php:20
-msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
 msgstr "VLC הנו נגן מולטימדיה בקוד פתוח המיועד למגוון של מערכות הפעלה וגם תשתית המאפשרת נגינה של רוב קובצי המולטימדיה לרבות תקליטורי DVD, שמע, VCD ומגוון פרוטוקולים של הזרמת מדיה."
 
 #: index.php:36
@@ -286,7 +286,7 @@ msgid "Runs on all platforms:"
 msgstr "רץ על כל מערכות ההפעלה:"
 
 #: vlc/index.php:49
-msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
+msgid "Completely Free, no spyware, no ads and no user tracking."
 msgstr "חינם לגמרי, ללא רוגלות, ללא פרסומות וללא מעקב אחר המשתמש."
 
 #: vlc/index.php:51

@@ -179,7 +179,7 @@ msgid "VLC: Official site - Free multimedia solutions for all OS!"
 msgstr "VLC: 공식 사이트 - 모든 OS의 무료 멀티미디어 솔루션!"
 
 #: index.php:26 vlc/index.php:20
-msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
 msgstr "VLC는 DVD, 오디오 CD, VCD 와 다양한 스트리밍 프로토콜뿐 아니라 대부분의 멀티미디어 파일을 재생할 수 있는 무료 오픈 소스 크로스 플랫폼 멀티미디어 재생기이자 프레임워크입니다."
 
 #: index.php:36
@@ -287,7 +287,7 @@ msgid "Runs on all platforms:"
 msgstr "모든 플랫폼 지원:"
 
 #: vlc/index.php:49
-msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
+msgid "Completely Free, no spyware, no ads and no user tracking."
 msgstr "스파이웨어, 광고와 사용자 추적이 전혀 없는 완전 무료."
 
 #: vlc/index.php:51

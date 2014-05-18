@@ -4,13 +4,14 @@
 #
 # Translators:
 # Andi Chandler <andi@gowling.com>, 2014
+# kierank <kieran@kunhya.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-08-20 11:35+0200\n"
-"PO-Revision-Date: 2014-05-08 13:01+0000\n"
-"Last-Translator: Andi Chandler <andi@gowling.com>\n"
+"PO-Revision-Date: 2014-05-17 22:22+0000\n"
+"Last-Translator: kierank <kieran@kunhya.com>\n"
 "Language-Team: English (United Kingdom) (http://www.transifex.com/projects/p/vlc-trans/language/en_GB/)\n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
@@ -287,7 +288,7 @@ msgstr "Runs on all platforms:"
 
 #: vlc/index.php:49
 msgid "Completely Free, 0 spyware, 0 ads and no user tracking."
-msgstr "Completely Free, 0 spyware, 0 ads and no user tracking."
+msgstr "Completely Free, no spyware, no ads and no user tracking."
 
 #: vlc/index.php:51
 msgid "Can do media conversion and streaming."

@@ -34,6 +34,7 @@ locales: index.an.php \
          index.el.php \
          index.en_GB.php \
          index.es.php \
+         index.es_MX.php \
          index.et.php \
          index.fa.php \
          index.fi.php \

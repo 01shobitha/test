@@ -353,7 +353,7 @@ function draw_menus( $nobanner, $alternate_lang )
 <?php
     /* Event banner */
     if ( !$nobanner )
-        echo '<center><a href="https://www.gandi.net/tshirts/"><img alt="Get a VLC T-shirt made by Gandi.net!" src="//images.videolan.org/images/partners/gandi_banner.png" /></a></center>';
+        ;//echo '<center><a href="https://www.gandi.net/tshirts/"><img alt="Get a VLC T-shirt made by Gandi.net!" src="//images.videolan.org/images/partners/gandi_banner.png" /></a></center>';
     ?><?php
 }
 

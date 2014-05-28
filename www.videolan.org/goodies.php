@@ -483,4 +483,6 @@ and licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/">t
             <img width="180" height="180" src="http://www.unixstickers.com/image/cache/data/stickers/vlc/vlc_bumper.sh-180x180.png" alt="VLC Stickers">
 
 
+            <p>Another set of stickers is provided by <a href="http://www.it2l.com/videolan-vlc-d-31.html">it2l</a> (shipping only to France)</p>
+
 <?php footer('$Id: goodies.php  4462 2008-02-23 13:20 altglass$'); ?>

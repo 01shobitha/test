@@ -317,24 +317,24 @@ images to a new location on e.g: SuSE systems.</li>
 
 <p>Emmanuel Puig (alias Karibu) made these VideoLAN logos:</p>
 <div style="float:both;">
-  <img src="//images.videolan.org/images/goodies/vl1_250x188.jpg" alt="Logo 1" height="188" width="250"><br>
+  <img src="//images.videolan.org/images/goodies/videolan/vl1_250x188.jpg" alt="Logo 1" height="188" width="250"><br>
     <a href="http://images.videolan.org/images/goodies/videolan/vl1_1600x1200.jpg">Image 1600x1200</a> (136 kB)<br>
     <a href="http://images.videolan.org/images/goodies/videolan/vl1_1024x768.jpg">Image 1024x768</a> (85 kB)
 </div>
 <div style="float:left;">
-  <img src="//images.videolan.org/images/goodies/vl2_250x177.jpg" alt="Logo 2" height="177" width="250">
+  <img src="//images.videolan.org/images/goodies/videolan/vl2_250x177.jpg" alt="Logo 2" height="177" width="250">
 <br><a href="http://images.videolan.org/images/goodies/videolan/vl2_1600x1131.jpg">Image 1600x1131</a> (106 kB)<br>
 <a href="http://images.videolan.org/images/goodies/videolan/vl2_1024x724.jpg">Image 1024x724</a> (67 kB)
 </div>
 <div>
-  <img src="//images.videolan.org/images/goodies/vl3_250x188.jpg" alt="Logo 3" height="188" width="250">
+  <img src="//images.videolan.org/images/goodies/videolan/vl3_250x188.jpg" alt="Logo 3" height="188" width="250">
 <br><a href="http://images.videolan.org/images/goodies/videolan/vl3_1600x1200.jpg">Image 1600x1200</a> (75 kB)<br>
 <a href="http://images.videolan.org/images/goodies/videolan/vl3_1024x768.jpg">Image 1024x768</a> (47 kB)
 </div>
 
 <p>Simon Latapie (alias Garf) made this VideoLAN logo:</p>
 <div>
-  <img src="//images.videolan.org/images/goodies/vl4_251x188.jpg" alt="Logo 4" height="188" width="251">
+  <img src="//images.videolan.org/images/goodies/videolan/vl4_251x188.jpg" alt="Logo 4" height="188" width="251">
 <br>
 <a href="http://images.videolan.org/images/goodies/videolan/vl4_2872x2154.jpg">Image 2872x2154</a> (379 kB)<br>
 <a href="http://images.videolan.org/images/goodies/videolan/vl4_1600x1200.jpg">Image 1600x1200</a> (99 kB)<br>
@@ -406,7 +406,7 @@ images to a new location on e.g: SuSE systems.</li>
 <?php panel_start("blue" ); ?>
 
 <p class="center"><a href="http://www.videolan.org/vlc" title="Get VLC media player - It plays, it streams, it kills WiMPs!!">
-<img src="//images.videolan.org/images/goodies/GetVLC_110.png" alt="Get VLC media player" height="45" width="110"></a></p>
+<img src="//images.videolan.org/images/goodies/buttons_getVLC/GetVLC_110.png" alt="Get VLC media player" height="45" width="110"></a></p>
 <p>
 Use the following code to include this banner in your site:</p>
 <pre>&lt;a href="http://www.videolan.org/vlc"
@@ -439,7 +439,7 @@ and licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/">t
 </p>
 
 <p>And another one by snis:</p>
-<p><img src="//images.videolan.org/images/goodies/videolan-community.png" alt="VideoLAN.org Community Member"><br><img src="//images/goodies/videolan-community-small.png" alt="VideoLAN.org Community Member"></p>
+<p><img src="//images.videolan.org/images/goodies/videolan-community.png" alt="VideoLAN.org Community Member"><br><img src="//images.videolan.org/images/goodies/videolan-community-small.png" alt="VideoLAN.org Community Member"></p>
 <p>Get <a href="http://images.videolan.org/images/goodies/videolan-community.xcf">the sources</a>.</p>
 
 <p>An older banner:</p>

@@ -9,7 +9,7 @@
 
 <h1>VLC for Android&trade; beta</h1>
 
-<p><a href="/vlc/">VLC</a> for Android&trade; is in beta stage. The current version if 0.9.0.</p><br/>
+<p><a href="/vlc/">VLC</a> for Android&trade; is in beta stage. The current version is 0.9.3.</p><br/>
 <div style="margin-left:auto;margin-right:auto;width:172px;">
     <a href="https://play.google.com/store/apps/details?id=org.videolan.vlc.betav7neon"><img src="/images/get_it_on_play_logo_large.png" border="0" /></a>
 </div>

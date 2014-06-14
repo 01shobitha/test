@@ -3,17 +3,19 @@
    $lang = "en";
    $menu = array( "vlc", "download" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
+
+   $android_version = "0.9.5";
 ?>
 
 <h1 class="bigtitle"> VLC media player for <a href="http://android.com/">Android</a>&trade;</h1>
 
 <h1>VLC for Android&trade; beta</h1>
 
-<p><a href="/vlc/">VLC</a> for Android&trade; is in beta stage. The current version is 0.9.4.</p><br/>
+<p><a href="/vlc/">VLC</a> for Android&trade; is in beta stage. The current version is <?php echo $android_version; ?>.</p><br/>
 <div style="margin-left:auto;margin-right:auto;width:172px;">
     <a href="https://play.google.com/store/apps/details?id=org.videolan.vlc.betav7neon"><img src="/images/get_it_on_play_logo_large.png" border="0" /></a>
 </div>
-<p>or download the <a href="//get.videolan.org/vlc-android/">APK package</a> from our mirror.</p>
+<p>or download the <a href="//get.videolan.org/vlc-android/<?php echo $android_version; ?>">APK package</a> from our mirrors.</p>
 
    <h1 style='margin-bottom: 12px;'><?php echo _("Features"); ?></h1>
 

@@ -4,14 +4,15 @@
 #
 # Translators:
 # Enrique Cabrera <ecabrera9@ymail.com>, 2011
-# Jorge Retamoza <jorgeartware@gmail.com>, 2014
+# Jorge Arturo <jorgeartware@gmail.com>, 2014
+# Yair Alejandro García Meza <yairacount@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-18 08:05-0400\n"
-"PO-Revision-Date: 2014-05-19 10:16+0000\n"
-"Last-Translator: Jorge Retamoza <jorgeartware@gmail.com>\n"
+"PO-Revision-Date: 2014-07-04 20:39+0000\n"
+"Last-Translator: Yair Alejandro García Meza <yairacount@gmail.com>\n"
 "Language-Team: Spanish (Mexico) (http://www.transifex.com/projects/p/vlc-trans/language/es_MX/)\n"
 "Language: es_MX\n"
 "MIME-Version: 1.0\n"
@@ -96,7 +97,7 @@ msgstr "Capturas de pantalla"
 
 #: include/header.php:299 include/header.php:376 index.php:30 vlc/index.php:24
 msgid "Skins"
-msgstr "Pieles"
+msgstr "Aspectos"
 
 #: include/header.php:300 include/header.php:377
 msgid "Extensions"

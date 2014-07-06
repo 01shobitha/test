@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|6 July 2014|VLC for Android 0.9.7|VideoLAN and the VLC development team are happy to present a new release for Android today. It improves a lot DVD menus and navigation, adds compatibility with Android L, fixes a few UI crashes and updates the translations.<br />More info in the <a href="http://git.videolan.org/?p=vlc-ports/android.git;a=blob_plain;f=NEWS;hb=HEAD">release notes</a>.
+
 |13 June 2014|VLC for Android 0.9.5|VideoLAN and the VLC development team are happy to present a new release for Android today. It adds support for DVD menus, a new VLC icon, tutorials and numerous fixes for crashes.<br />More info in the <a href="http://git.videolan.org/?p=vlc-ports/android.git;a=blob_plain;f=NEWS;hb=HEAD">release notes</a>.
 
 |18 April 2014|VLC for iOS 2.3|VideoLAN and the VLC development team are happy to present a new release for iOS today. It adds support for folders to group media, more options to customize playback, improved network interaction in various regards, many small but noticeable improvements as well as 3 new translations. More info in the <a href="http://git.videolan.org/?p=vlc-ports/ios.git;a=blob_plain;f=NEWS;hb=HEAD">release notes</a>.

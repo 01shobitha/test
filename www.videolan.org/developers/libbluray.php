@@ -1,6 +1,8 @@
 <?php
    $title ="libbluray";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
+
+   $libbluray_version = "0.6.0";
 ?>
 
 <h1 class="bigtitle">libbluray</h1>
@@ -9,7 +11,10 @@
 playback for media players, like <a href="/vlc/">VLC</a> or MPlayer.</p>
 <p>This <b>research</b> project is developed by an international team of
 developers from <a href="http://www.doom9.org/">Doom9</a>.</p>
-<p>Latest release is <b>libbluray 0.5.0</b>.</p>
+
+<?php
+echo "<p>Latest release is <b>libbluray $libbluray_version</b>.</p>";
+?>
 
 <h2> Features </h2>
 
@@ -29,7 +34,9 @@ developers from <a href="http://www.doom9.org/">Doom9</a>.</p>
 <h2>Get libbluray</h2>
 
 <p>You can get <code>libbluray</code> latest release on our ftp:
- <a href="ftp://ftp.videolan.org/pub/videolan/libbluray/0.5.0/libbluray-0.5.0.tar.bz2">libbluray 0.5.0</a>.</p>
+<?php
+echo "<a href='ftp://ftp.videolan.org/pub/videolan/libbluray/$libbluray_version/libbluray-$libbluray_version.tar.bz2'>libbluray $libbluray_version</a>.</p>";
+?>
 
 <p><code>libbluray</code> is also available through <a href="http://wiki.videolan.org/git">git</a> at:<br />
 <code>git clone git://git.videolan.org/libbluray.git</code></p>

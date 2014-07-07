@@ -56,7 +56,7 @@
                 </div>
             </div>
 
-            <div style='float: left; padding-left: 30px; width: 320px;'>
+            <div style='float: left; margin-left: 50px; width: 320px;'>
                 <div class='audienceCallout'><?php echo _("For Professionals"); ?></div>
                 <div class="clearme">
                     <a href='/projects/dvblast.html' class='noUnderline'>
@@ -87,7 +87,7 @@
             </div>
         </div>
 
-        <div style='float: left; padding-left: 30px; width: 180px;'>
+        <div style='float: left; margin-left: 50px; width: 180px;'>
             <div class='audienceCallout'><?php echo _("For Developers"); ?></div>
             <a href='/developers/libdvdcss.html' class='noUnderline'><span class='productName' style='padding-bottom: 16px;'>libdvdcss</span></a>
             <a href='/developers/libdvbpsi.html' class='noUnderline'><span class='productName' style='padding-bottom: 16px;'>libdvdpsi</span></a>

@@ -427,7 +427,7 @@ function footer($tag = "", $alternate_lang=array()) {
             </ul>
          </div>
          <div style='clear: both; padding-bottom: 30px;'></div>
-         <div>
+         <div id='translation' style="font-size: 9px;">
             <?php
                 if( isset($alternate_lang) && count($alternate_lang) > 0 ) {
                     echo "<div class='footerHeading'>Translations</div>";

@@ -636,7 +636,7 @@ list-style-type: circle;
 
 #footer ul a
 {
-    font-size: 12px;
+    font-size: 11px;
     color: #393938;
 }
 
@@ -648,7 +648,7 @@ list-style-type: circle;
 
 #footer p
 {
-    font-size: 10px;
+    font-size:  9px;
     line-height: 12px;
 }
 

@@ -363,7 +363,7 @@ function footer($tag = "", $alternate_lang=array()) {
 </div>
    <div id='footer'>
       <div style='background-image: url( "//images.videolan.org/images/divider.png" ); height: 15px; width: 100%;'></div>
-      <div style='padding: 40px 10px 40px; width: 950px; margin: 0 auto;'>
+      <div style='padding: 20px 10px 40px; width: 950px; margin: 0 auto;'>
            <a style='float: left; margin-right: 50px;' href='/'>
             <?php image( 'logoGrey.png', 'Association VideoLAN' ); ?></a>
          <div class='footer_col'>
@@ -378,6 +378,7 @@ function footer($tag = "", $alternate_lang=array()) {
               <li><a href='http://addons.videolan.org/index.php?xcontentmode=903'><?php echo _("Extensions"); ?></a></li>
               <li><a href='//www.videolan.org/vlc/features.html'><?php echo _("Features"); ?></a></li>
               <li><a href='//www.videolan.org/vlc/screenshots.html'><?php echo _("Screenshots"); ?></a></li>
+              <li><a href='//www.videolan.org/vlc/skineditor.html'>VLC Skin Editor</a></li>
             </ul>
          </div>
          <div class='footer_col'>
@@ -389,7 +390,6 @@ function footer($tag = "", $alternate_lang=array()) {
                  <li><a href='//www.videolan.org/developers/x265.html'>x265</a></li>
                  <li><a href='//www.videolan.org/projects/multicat.html'>multicat</a></li>
                  <li><a href='//www.videolan.org/projects/vlma/'>VLMa</a></li>
-                 <li><a href='//www.videolan.org/vlc/skineditor.html'>VLC Skin Editor</a></li>
                  <li><a href='//www.videolan.org/developers/libdvdcss.html'>libdvdcss</a></li>
                  <li><a href='//www.videolan.org/developers/libbluray.html'>libbluray</a></li>
                  <li><a href='//www.videolan.org/developers/libdvbpsi.html'>libdvbpsi</a></li>

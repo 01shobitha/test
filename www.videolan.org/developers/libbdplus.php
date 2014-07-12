@@ -10,7 +10,7 @@
 This <b>research</b> project provides, through an <b>open-source</b> library, a way to understand how
 the <a href="http://en.wikipedia.org/wiki/BD+">BD+</a> works.</p>
 
-<p>Latest release is <b>libbdplus 0.1.0</b>.</p>
+<p>Latest release is <b>libbdplus 0.1.1</b>.</p>
 
 <p><b>NB:</b> this project <b>doesn't offer any key, configuration file or certificate</b> that could be used to decode
 encrypted copyrighted material.</p>
@@ -27,7 +27,7 @@ encrypted copyrighted material.</p>
 <h2>Get libbdplus</h2>
 
 <p>You can get <code>libbdplus</code> latest release on our ftp:
- <a href="ftp://ftp.videolan.org/pub/videolan/libbdplus/0.1.0/libbdplus-0.1.0.tar.bz2">libbdplus 0.1.0</a>.</p>
+ <a href="ftp://ftp.videolan.org/pub/videolan/libbdplus/0.1.1/libbdplus-0.1.1.tar.bz2">libbdplus 0.1.1</a>.</p>
 
 <p> <code>libbdplus</code> is also available through <a href="http://wiki.videolan.org/Git">Git</a> at:<br />
 <code>git clone git://git.videolan.org/libbdplus.git</code></p>

@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|13 July 2014|libbluray, libaacs and libbdplus release|The 3 VideoLAN Blu-Ray libraries have been released: <a href="http://www.videolan.org/developers/libbluray.html">libbluray 0.6.0</a>, <a href="http://www.videolan.org/developers/libaacs.html">libaacs 0.7.1</a> and <a href="http://www.videolan.org/developers/libbdplus.html">libbdplus 0.1.1</a> library.<br />Those releases notably add correct support for <b>BD-J</b>, the Java interactivity layer of Blu-Ray Discs.
+
 |6 July 2014|VLC for Android 0.9.7|VideoLAN and the VLC development team are happy to present a new release for Android today. It improves a lot DVD menus and navigation, adds compatibility with Android L, fixes a few UI crashes and updates the translations.<br />More info in the <a href="http://git.videolan.org/?p=vlc-ports/android.git;a=blob_plain;f=NEWS;hb=HEAD">release notes</a>.
 
 |13 June 2014|VLC for Android 0.9.5|VideoLAN and the VLC development team are happy to present a new release for Android today. It adds support for DVD menus, a new VLC icon, tutorials and numerous fixes for crashes.<br />More info in the <a href="http://git.videolan.org/?p=vlc-ports/android.git;a=blob_plain;f=NEWS;hb=HEAD">release notes</a>.

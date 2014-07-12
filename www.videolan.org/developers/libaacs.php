@@ -29,7 +29,7 @@ encrypted copyrighted material.</p>
   <li><b>Freedom:</b> <code>libaacs</code> is released under a Free Software license,
   ensuring it will stay free. </li>
   <li><b>Legal:</b> <code>libaacs</code> does not include any key or certificate and respects copyright.</li>
-  <li><b>Fun:</b> <code>libaacs</code> is a fun project to hack on, because it is in its starting phase.</li>
+  <li><b>Fun:</b> <code>libaacs</code> is a fun project to hack on, because it is DRM and crypto-related.</li>
 </ul>
 
 <h2>Get libaacs</h2>

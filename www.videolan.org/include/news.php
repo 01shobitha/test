@@ -59,9 +59,9 @@
                 }
                 else { echo ("<div class='item-really-old'>\n"); }
                 $postdate = date("Y-m-d", strtotime( $date) );
-                echo "<a id='news-$postdate' href=\"/news.html?$count#news-$count\"></a>";
+                echo "<a id='news-$postdate' name='news-$postdate'></a>";
 
-                echo ("<div class='title'>".$title."</div>\n" );
+                echo ("<div class='title'><a href=\"/news.html#news-$postdate\">".$title."</a></div>\n" );
                 //echo "<div id=\"news-$count\">";
                 echo ("<div class='date'>".$postdate."</div>\n");
                 echo "<p class='news-descr'>".$short;

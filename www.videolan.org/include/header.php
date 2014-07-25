@@ -153,7 +153,7 @@ function start_head( $title,
 
         <?php /* Misc */ ?>
         <link rel="dns-prefetch" href="//get.videolan.org" />
-        <link href="https://plus.google.com/104597325891170264649" rel="publisher" />
+        <link href="https://plus.google.com/+vlc" rel="publisher" />
 
         <?php if( isset($additional_css) ) {
             foreach($additional_css as $css) {
@@ -258,8 +258,8 @@ function start_body( $body_color, $language, $b_show_donate = true )
        </p></form>
    </div>
    <div id='social'>
-      <div id='plusone'>
-         <g:plusone size="medium" href="http://www.videolan.org"></g:plusone>
+      <div id='plusone' style="text-align: right; padding: 3px 10px;">
+         <g:plusone size="medium" annotation="none" href="http://www.videolan.org"></g:plusone>
       </div>
       <div style="text-align: right; padding: 3px 14px;"><a href="http://www.facebook.com/vlc.media.player" style="padding-top: 10px;"><?php image( 'facebook.png', "Facebook" );?></a></div>
       <div style="text-align: right; padding: 2px 12px;"><a href="http://www.twitter.com/videolan"><?php image( 'twitter.png', "Twitter" );?></a></div>

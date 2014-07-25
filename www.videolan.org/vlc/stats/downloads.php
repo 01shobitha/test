@@ -31,54 +31,58 @@
     <th style="text-align: right;">Total</th>
     </tr>
 
-    <?php
-    require '/home/videolan/etc/db.php';
-
-    $connect = pg_connect( $connect_string );
-
-    if( !$connect )
-    {
-        die;
-    }
-
-    $requests = array(  "0.7.2" , "0.8.0","0.8.1","0.8.2", "0.8.4", "0.8.5", "0.8.6", "0.9.2", "0.9.3", "0.9.4", "0.9.5", "0.9.6", "0.9.8a", "0.9.9", "0.9.10", "1.0.0", "1.0.1", "1.0.2", "1.0.3", "1.0.4", "1.0.5", "1.0.6" );
-    $wintotal = 0;
-    $mactotal = 0;
-    $srctotal = 0;
-
+<?php
     function f( $n )
     {
         echo "<td style='text-align: right;'>".number_format($n,0,"."," ")."</td>";
     }
-    foreach( $requests as $v )
-    {
-        $versiontotal= 0;
-        echo "<tr><td class=\"category\" style=\"text-align: left;\"><strong>$v</strong></td>\n";
-        $winrequest = pg_query( $connect, "select sum(number) from (select * from mirrors where file like '%$v%win32%' union all select * from mirrors_archive where file like '%$v%win32%') as allmirrors;");
-        if( $row  =pg_fetch_array( $winrequest ) )
-        {
-            $versiontotal += $row[0];
-            $wintotal += $row[0];
-            f($row[0]);
-        }
-        $macrequest = pg_query( $connect, "select sum(number) from (select * from mirrors where file like '%$v%dmg%' union all select * from mirrors_archive where file like '%$v%dmg%') as allmirrors;" );
-        if( $row  =pg_fetch_array( $macrequest ) )
-        {
-            $versiontotal += $row[0];
-            $mactotal += $row[0];
-            f($row[0]);
-        }
-        $srcrequest = pg_query( $connect, "select sum(number) from (select * from mirrors where file like '%$v%tar%' union all select * from mirrors_archive where file like '%$v%tar%') as allmirrors;" );
-        if( $row  =pg_fetch_array( $srcrequest ) )
-        {
-            $versiontotal += $row[0];
-            $srctotal += $row[0];
-            f($row[0]);
-        }
-        f($versiontotal);
-        echo "</tr>\n";
-    }
 
+    $filenamedb = '/home/videolan/etc/db.php';
+    if( is_readable( $filenamedb ) ) {
+        require '/home/videolan/etc/db.php';
+
+        $connect = pg_connect( $connect_string );
+
+        if( !$connect )
+        {
+            die;
+        }
+
+        $requests = array(  "0.7.2" , "0.8.0","0.8.1","0.8.2", "0.8.4", "0.8.5", "0.8.6", "0.9.2", "0.9.3", "0.9.4", "0.9.5", "0.9.6", "0.9.8a", "0.9.9", "0.9.10", "1.0.0", "1.0.1", "1.0.2", "1.0.3", "1.0.4", "1.0.5", "1.0.6" );
+        $wintotal = 0;
+        $mactotal = 0;
+        $srctotal = 0;
+
+        foreach( $requests as $v )
+        {
+            $versiontotal= 0;
+            echo "<tr><td class=\"category\" style=\"text-align: left;\"><strong>$v</strong></td>\n";
+            $winrequest = pg_query( $connect, "select sum(number) from (select * from mirrors where file like '%$v%win32%' union all select * from mirrors_archive where file like '%$v%win32%') as allmirrors;");
+            if( $row  =pg_fetch_array( $winrequest ) )
+            {
+                $versiontotal += $row[0];
+                $wintotal += $row[0];
+                f($row[0]);
+            }
+            $macrequest = pg_query( $connect, "select sum(number) from (select * from mirrors where file like '%$v%dmg%' union all select * from mirrors_archive where file like '%$v%dmg%') as allmirrors;" );
+            if( $row  =pg_fetch_array( $macrequest ) )
+            {
+                $versiontotal += $row[0];
+                $mactotal += $row[0];
+                f($row[0]);
+            }
+            $srcrequest = pg_query( $connect, "select sum(number) from (select * from mirrors where file like '%$v%tar%' union all select * from mirrors_archive where file like '%$v%tar%') as allmirrors;" );
+            if( $row  =pg_fetch_array( $srcrequest ) )
+            {
+                $versiontotal += $row[0];
+                $srctotal += $row[0];
+                f($row[0]);
+            }
+            f($versiontotal);
+            echo "</tr>\n";
+        }
+        pg_close($connect);
+    }
     /* Sourceforge Downloads, from the json auth section
       https://sourceforge.net/projects/vlc/files/2.0.4/stats/json?start_date=2010-06-21&end_date=2013-03-30
       https://sourceforge.net/projects/vlc/files/2.0.4/macosx/stats/json?start_date=2010-06-21&end_date=2013-03-30
@@ -132,7 +136,6 @@
 
     echo "</table>";
 
-    pg_close($connect);
 
     echo "<p>Page generated on ".date("r").".</p>";
 ?>

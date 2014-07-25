@@ -138,6 +138,7 @@
     echo "</table>";
 
 
+    date_default_timezone_set('Europe/Paris');
     echo "<p>Page generated on ".date("r").".</p>";
 ?>
 

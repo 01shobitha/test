@@ -14,7 +14,7 @@
 ?>
     <div>
             <center><h1 class='bigtitle' style="padding-bottom: 3px;">VLC reaches <b>2.1.5</b></h1>
-            <div style="padding-top: 0px; padding-bottom: 10px; color: grey;">VLC 2.1.5 is the third minor version of our popular media player "Rincewind".</div>
+            <div style="padding-top: 0px; padding-bottom: 10px; color: grey;">VLC 2.1.5 is the fifth minor update of our popular media player "Rincewind".</div>
             </center>
 
             <style>
@@ -174,10 +174,10 @@
             <div style='float: left; width: 500px;'>
             <h1 style='margin-bottom: 12px;'><?php echo _("2.1.5 Highlights"); ?></h1>
                 <div class='projectDescription'>
-                    <div style="padding-bottom: 8px;">With the capabilities of "RinceWind", 2.1.5 fixes numerous bugs, and improves decoders, notably for the new formats (HEVC and VP9)</div>
-                    <div>2.1.5 fixes numerous bugs, notably numerous regressions introduced in "RinceWind" and 2.1.2.</div>
-                    <div>Important fixes involve Audio and Video output management on most platforms.</div>
-                    <div>2.1.5 also improves the demuxer and decoders for most formats, and the various interfaces.</div>
+                    <div style="padding-bottom: 8px;">With the capabilities of "RinceWind", 2.1.5 fixes a few bugs, and important security issues</div>
+                    <div>2.1.5 fixes a few decoding bugs, on MP3, MKV, and hardware decoding on Windows.</div>
+                    <div>It also fixes QTsound capture and audio channel orders for OS X.</div>
+                    <div>2.1.5 also ships with updated GnuTLS and libpng libraries, because of security issues.</div>
                     <div style="float: right;">Read the <a href="http://www.videolan.org/developers/vlc-branch/NEWS">Changelog</a></div>
 
                 </div>

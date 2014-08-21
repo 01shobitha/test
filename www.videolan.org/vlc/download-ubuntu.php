@@ -56,9 +56,8 @@ but no further major VLC version updates until the next Ubuntu release.
 <?php panel_start( "orange" ); ?>
 <h1>Playing DVD (libdvdcss)</h1>
 <p>In order to be able to play region-locked DVD, you need install libdvdcss2.
-You can either follow this <a href="https://help.ubuntu.com/community/RestrictedFormats/PlayingDVDs">procedure</a>
-or add &quot;<a href="http://medibuntu.org/">medibuntu</a>&quot;
-to your repositories and install libdvdcss2.</p>
+You should follow this <a href="https://help.ubuntu.com/community/RestrictedFormats/PlayingDVDs">procedure</a>
+to install libdvdcss2.</p>
 <?php panel_end(); ?>
 </div>
 

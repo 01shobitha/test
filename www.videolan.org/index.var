@@ -128,6 +128,10 @@ URI: index.ky.html
 Content-type: text/html
 Content-language: ky
 
+URI: index.lb.html
+Content-type: text/html
+Content-language: lb
+
 URI: index.lt.html
 Content-type: text/html
 Content-language: lt

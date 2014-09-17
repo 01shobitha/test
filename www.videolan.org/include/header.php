@@ -63,6 +63,7 @@ function getLocaleFromLanguage( $language )
     case 'sl': $locale = "sl_SI.utf8"; break;
     case 'sr': $locale = "sr_RS"; break;
     case 'sv': $locale = "sv_SE.utf8"; break;
+    case 'ta': $locale = "ta_IN"; break;
     case 'te': $locale = "te_IN"; break;
     case 'th': $locale = "th_TH.UTF-8"; break;
     case 'tr': $locale = "tr_TR.UTF-8"; break;

@@ -77,6 +77,7 @@ locales: index.an.php \
          index.sl.php \
          index.sr.php \
          index.sv.php \
+         index.ta.php \
          index.te.php \
          index.th.php \
          index.tr.php \

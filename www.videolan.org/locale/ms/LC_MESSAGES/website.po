@@ -4,13 +4,14 @@
 #
 # Translators:
 # abuyop <abuyop@gmail.com>, 2013-2014
+# Mahrazi Mohd Kamal <mahrazi@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-18 08:05-0400\n"
-"PO-Revision-Date: 2014-06-11 06:15+0000\n"
-"Last-Translator: abuyop <abuyop@gmail.com>\n"
+"PO-Revision-Date: 2014-09-01 07:07+0000\n"
+"Last-Translator: Mahrazi Mohd Kamal <mahrazi@gmail.com>\n"
 "Language-Team: Malay (http://www.transifex.com/projects/p/vlc-trans/language/ms/)\n"
 "Language: ms\n"
 "MIME-Version: 1.0\n"
@@ -111,15 +112,15 @@ msgstr "Semua Projek"
 
 #: include/header.php:326 index.php:119
 msgid "Contribute"
-msgstr "Sumbangan"
+msgstr "Sumbang"
 
 #: include/header.php:328 include/header.php:408
 msgid "Donate time"
-msgstr "Sumbang masa"
+msgstr "Derma masa"
 
 #: include/header.php:329 include/header.php:407
 msgid "Donate money"
-msgstr "Sumbang wang"
+msgstr "Derma wang"
 
 #: include/header.php:330 include/header.php:409
 msgid "Get Goodies"
@@ -251,7 +252,7 @@ msgstr "Hebahkan Kata-kata"
 
 #: index.php:135
 msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
-msgstr "Kami rasakan yang VideoLAN memiliki perisian video terbaik yang ada pada harga terbaik: iaitu percuma. Jika anda setuju sila bantu menyebarkannya tentang perisian kami."
+msgstr "Kami rasakan yang VideoLAN memiliki perisian video terbaik yang ada pada harga terbaik: iaitu percuma. Jika anda setuju sila bantu menyebarkan tentang perisian kami."
 
 #: index.php:147
 msgid "News &amp; Updates"
@@ -315,7 +316,7 @@ msgstr "Sumber"
 
 #: vlc/index.php:105
 msgid "You can also directly get the"
-msgstr "Anda boleh dapatkan"
+msgstr "Anda boleh juga mendapatkan secara terus"
 
 #: vlc/index.php:106
 msgid "source code"

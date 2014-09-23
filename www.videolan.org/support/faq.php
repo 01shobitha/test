@@ -21,7 +21,7 @@ The text of the license can be found on
 
 <h2>What is VideoLAN? What is the VideoLAN Team?</h2>
 
-<p>VideoLAN is a group of people, that produces and distributes
+<p>VideoLAN is a <a href="../videolan">non-profit organization</a>, that produces and distributes
 free and open source software for video and multimedia purpose,
 released under Open Source licenses.</p>
 
@@ -87,10 +87,7 @@ The precise location of this file depends on the Operating System you are runnin
 </ul>
 
 <h2>VLC has a strange behavior...</h2>
-<p>The first thing to do is to reset the VLC preferences in the preferences dialog of the application and restart VLC.
-If VLC doesn't even start anymore, delete VLC's configuration file (see the previous question to know about its location).
-Then restart VLC.
-If it does not get any better, read the following questions!
+<p> Please consider the <a href="https://wiki.videolan.org/Reset_Settings/">Reset preferences</a> section in our Wiki for a variety of possible solutions.<br />
 </p>
 
 <h2>Videos are too dark</h2>
@@ -112,16 +109,6 @@ If the videos now play with proper lighting, then deinstalling and reinstalling 
 where <code>/dev/dvd</code> is the device corresponding to your DVD drive. 
 </li>
 </ul>
-
-<h2>The video runs but the picture is distorted</h2>
-<p>There is probably a problem with the output layer.
-There are several ways of troubleshooting it.
-First, try with another output plugin, for instance:</p>
-<pre>% vlc -V sdl
-% vlc -V x11</pre>
-<p>Second, change your screen depth and/or definition.
-It quite often helps.
-Lastly, if running Unix, have a look at your X.Org video driver.</p>
 
 <h2>Video is choppy</h2>
 <p>Your system might be too slow to decode all pictures. It might be that your CPU basically is not fast enough. It can also be that the subsystem is misconfigured/misdriven, this happens for example under Redhat Linux. Here are some elements to improve speed:</p>
@@ -176,6 +163,7 @@ Please, for the clueless people arguing that it doesn't work, include the inform
 </p>
 <p>To change the snapshot format or directory, go to <em>Preferences -&gt; Video</em>.
 </p>
+
 <h2>Where are my screenshots?</h2>
 <p>If you haven't changed the snapshot directory in your preferences, your screenshots should go to:</p>
 <ul>
@@ -185,11 +173,9 @@ Please, for the clueless people arguing that it doesn't work, include the inform
 </ul>
 <p>To change it, go to <em>Preferences -&gt; Video -&gt; Video snapshot directory</em>.
 </p>
+
 <h2>My file doesn't seem to work!</h2>
 <p>Are you sure VLC supports the file? Try checking the <a href="http://www.videolan.org/vlc/features.html">features page</a>. If it supported and you compiled VLC yourself, check if you have downloaded and installed all the codecs correctly. If it is not supported, then you are out of luck for now.</p>
-
-<p><strong>Note</strong>: At present, especially WMV3, the most recent Real Player, and the most recent Indeo Video ("IV50", etc.) files are not supported by VLC and are not going to be in the near future.
-</p>
 
 <h2>VLC doesn't display all subtitles</h2>
 <p>If VLC has autodetected your subtitles file, or if you opened it manually, but VLC only diplays some subtitles from time to time, you will need to change the subtitles file encoding.</p>
@@ -199,44 +185,26 @@ Please, for the clueless people arguing that it doesn't work, include the inform
 <p>See this reference: <a href="http://alis.isoc.org/codage/iso8859/jeuxiso.en.htm">ISO Standard for various characters sets</a>.
 </p>
 
-<h2>Why is my video purple? (a.k.a. the smurf effect)</h2>
-<p>Not sure. But many people have fixed this problem by changing their video output module.</p>
-
 <p>Go to <em>Preferences -&gt; Video -&gt; Output modules</em>, and set <em>Video output module</em> to something different, like <em>DirectX video output</em>. Be sure you have advanced options enabled to be able to access this option.
 Also, you might need to disable the &quot;YUV -&gt; RGB&quot; checkbox in <em>DirectX</em> section of <em>Preferences -&gt; Video -&gt; Output modules</em>.
 </p>
 
-<hr />
-<h1>VideoLAN streaming solution</h1>
+<h2>Why is my ip permanently banned from the forum?</h2>
 
-<h2>Do I need a &quot;streaming server&quot;?</h2>
-<p>Well, there are in fact two kinds of streaming: passive streaming in which a movie is sent by a server and watched by one or several client, and Video On Demand (VOD) in which each client asks for its own stream.</p>
-<ul>
-<li>In passive streaming, the client has no control upon the server, and must subscribe for instance to a multicast group to receive the stream. This kind of streaming needs a server able to send data on a network with a protocol such as UDP multicast or RTP, for instance VLS or VLC stream output. The client side needs a player supporting such protocols, as VLC does.</li> 
-<li>In Video On Demand, no specific "streaming server" is required, but the  client must be able to read the stream in real time, instead of just dowloading the whole video before one can start viewing it. A simple protocol such as HTTP is sufficient for Video On Demand, so you just  have to put your movie on a web server, and use a clever player to view it in real time, VLC for instance ;-) However of course you will not be able to view movies in real time if your network is too slow, so you MUST check that the average bandwith of your network link is higher than the average bandwith of your movie (size / duration). If it is not the case, VLC will try to keep in real time as much as possible, so you will probably get only the audio track and no video.</li>
-</ul>
+<p>Probably your IP address was banned, but it is not necessarily your fault.<br />
+- If you are at home, your dynamic IP was probably previously abused by a spammer.<br />
+- If you are at work/school, other users on your network may have caused the blacklisting.<br />
+Try to go through the list of blacklists presented to you on https://forum.videolan.org/403.html and remove yourself, if you are listed.
+Finally, don't forget to ensure that your computer and web browser are free of trojans/malware, and failing everything wait for a new dynamic IP.<p>
 
-<h2>VLC vs. VLS</h2>
-<p>Yes, both programs can be used to stream video, as explained in the <a href="http://www.videolan.org/doc/">VideoLAN HOWTO</a>.
-The streaming features of each program are described on the <a href="http://www.videolan.org/streaming/features.html">streaming features</a> page.</p>
+<h2>Will VLC be available on Windows Phone?</h2>
 
-<p>Technically, there is an important difference:</p>
-<ul>
-<li>VLC opens all the system layers of the input stream, regenerate them all and then stream the result on the network or write it to a file. So VLC is good at streaming untrusted video and/or audio sources, like the video files found on the Internet and/or produced by non-professionnal software. VLC implements many muxers/demuxers (ps, ts, avi, ogg, mp4, ...) and many codecs, which allows to convert encapsulation formats and/or transcode an input stream on-the-fly ! VLC also has nice graphical interfaces.</li> 
-<li>VLS only opens the highest system layers of the input stream and only has PS and TS demuxers. So VLS is good at streaming from trusted video and/or audio sources in PS or TS format produced by professional software or hardware like DVDs and DVB channels (satellite or digital terrestial TV) because it only regenerate the system layers that need to be regenerated, and no more. VLS is specially well designed to stream multiplexed TS streams, for instance a whole DVB transponder. VLS only has a TS muxer, doesn't do transcoding and doesn't have graphical interfaces.</li>
-</ul>
+<p>We're currently working on it. Since development for Windows Phone is harder in comparison to other mobile platforms, we can't estimate the time needed to release a version for Windows Phone. 
+The latest updates can be received by following us on twitter or subscribing to our RSS feed.</p>
 
-<h2>Is it not a waste of time to develop both?</h2>
-<p>To understand this situation, you must consider the history of VideoLAN. Before VLC's stream output, we had two very different programs:</p>
-<ul>
-<li>VLS, a program written in C++ running under Linux, Mac OS X and Windows only, that is basically a MPEG Transport Stream engine, with a very basic telnet interface, which was used as a server. You'll note VLS is not maintained anymore.</li>
+<h2>When will VLC be able to stream to Chromecast?</h2>
 
-<li>VLC, a multi-platform program written in C, that implements demuxers, codecs, video and audio outputs and graphical interfaces, which was used as a client only.
-In september 2002, some VLC developers had the idea of taking advantage of the multiple demuxers and codecs implemented in VLC to build a Stream Output whose ultimate goal was to be able to do transcoding. They wrote a stream output for VLC, that was released with VLC 0.5.0 in late January 2003. Introduced with the 0.8.0 release, VLC is able to transcode to any format it can read. Furthermore, starting with the 0.7.x series, VLC is able to stream multiple sources with one instance. This can be controlled with the VideoLAN (Media) Manager (VLM), which can be accessed through a telnet interface and a http interface.</li>
-</ul>
-
-<p>But what is more important is that VLS and VLC developers were separate groups of people, and that they were free to write the software they prefer!
-That is how free software runs, and it has shown in the past that is was a good engine for innovation and enhancement.</p>
+<p>We're currently working on it but can't give a release date. </p>
 
 </div>
 <?php footer('$Id$'); ?>

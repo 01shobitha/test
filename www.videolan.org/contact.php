@@ -7,7 +7,7 @@
 <div>
     <h1 class="bigtitle">Contact</h1>
 
-    <p>Before contacting us, please be sure that you <b>actually</b> need to contact us!</p>
+    <p>Before contacting us, please check the <a href="/support/faq.html">FAQ</a> first to be sure that you <b>actually</b> need to contact us!</p>
 
     <table class="doublecolumn">
         <tr>

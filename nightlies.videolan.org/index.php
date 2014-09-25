@@ -11,7 +11,7 @@
     <div id="description">
         <h2>Welcome!</h2>
 
-        <p>Here you can download experimental versions of VLC that are daily generated from the VLC code that is currently in development.<br/>Several issues that existed in previous versions of VLC might be fixed here, but since this version of VLC is not yet finished, you should expect other problems and issues.<br />If you are searching for nightly builds of other VideoLAN projects, have a look <a href="/projects.html">here</a>.</p>
+        <p>Here you can download experimental versions of VLC that are daily generated from the VLC code that is currently in development.<br/>Several issues that existed in previous versions of VLC might be fixed here, but since this version of VLC is not yet finished, you should expect other problems and issues.<br /></p>
     </div>
 
     <span style="color: #ff0000; font-size: 16px;">WARNING: The nightly builds are UNSTABLE and may not work at all.

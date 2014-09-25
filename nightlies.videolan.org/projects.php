@@ -19,14 +19,7 @@ There is absolutely NO SUPPORT for it from the VideoLAN Team.
 
 <h2>Download nightly builds</h2>
 
-<!--<ul style="padding-left: 10px">
-  <li><a href="http://nightlies.videolan.org/x264/">x264</a></li>
-  <li><a href="http://nightlies.videolan.org/vlma/?C=M;O=D">VLMa</a></li>
-</ul>-->
-
 <a href="http://nightlies.videolan.org/x264/"><img style="margin: 10px" alt="x264 snapshots" src="/x264_logo.jpg" /></a>
-
-<a href="http://nightlies.videolan.org/vlma/?C=M;O=D"><img style="margin: 10px" alt="VLMa nightly builds" src="http://download.videolan.org/vlma/VLMa.png" /></a>
 
 </div> <!-- MAINCONTENT -->
 

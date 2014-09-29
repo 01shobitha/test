@@ -117,7 +117,7 @@ function start_head( $title,
         <meta name="Author" content="VideoLAN" />
         <meta name="Keywords" content="VideoLAN, VLC, VLC player, VLC media player, download,
         media player, player download, codec, encoder, media converter, video, video player, multimedia, multicast,
-        VLC, x264, DVBlast, Windows, Linux, Unix, BeOS, BSD, MacOS, MacOS X, OSX, Streaming,
+        VLC, x262, x264, x265, DVBlast, Windows, Linux, Unix, BeOS, BSD, MacOS, MacOS X, OSX, Streaming,
         DVD, Matroska, Blu-Ray, FLV, Xvid, MPEG, MPEG2, MPEG4, H264, DivX, VideoLAN, MKV, m2ts,
         open source, free software, floss, free" />
 
@@ -310,6 +310,7 @@ function draw_menus( $nobanner, $alternate_lang )
          <li><a href='//www.videolan.org/vlmc/'>VideoLan Movie Creator</a></li>
          <li><a href='//www.videolan.org/projects/dvblast.html'>DVBlast</a></li>
          <li><a href='//www.videolan.org/developers/x264.html'>x264</a></li>
+         <li><a href='//www.videolan.org/developers/x262.html'>x262</a></li>
          <li><a href='//www.videolan.org/developers/x265.html'>x265</a></li>
          <li><a href='//www.videolan.org/projects/multicat.html'>multicat</a></li>
          <li><a href='//www.videolan.org/projects/vlma/'>VLMa</a></li>
@@ -389,6 +390,7 @@ function footer($tag = "", $alternate_lang=array()) {
                  <li><a href='//www.videolan.org/vlmc/'>VideoLan Movie Creator</a></li>
                  <li><a href='//www.videolan.org/projects/dvblast.html'>DVBlast</a></li>
                  <li><a href='//www.videolan.org/developers/x264.html'>x264</a></li>
+                 <li><a href='//www.videolan.org/developers/x262.html'>x262</a></li>
                  <li><a href='//www.videolan.org/developers/x265.html'>x265</a></li>
                  <li><a href='//www.videolan.org/projects/multicat.html'>multicat</a></li>
                  <li><a href='//www.videolan.org/projects/vlma/'>VLMa</a></li>

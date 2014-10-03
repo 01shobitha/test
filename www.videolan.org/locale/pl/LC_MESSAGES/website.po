@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Gootector <gootector@o2.pl>, 2013
+# Grzegorz Pruchniakowski <gootector@o2.pl>, 2013
 # M T <michtrz@gmail.com>, 2012-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-18 08:05-0400\n"
-"PO-Revision-Date: 2014-05-18 23:30+0000\n"
+"PO-Revision-Date: 2014-09-26 10:21+0000\n"
 "Last-Translator: M T <michtrz@gmail.com>\n"
 "Language-Team: Polish (http://www.transifex.com/projects/p/vlc-trans/language/pl/)\n"
 "Language: pl\n"
@@ -180,7 +180,7 @@ msgstr "VLC: oficjalna strona - wieloplatformowe darmowe rozwiązania multimedia
 
 #: index.php:26 vlc/index.php:20
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
-msgstr "VLC jest darmowym i otwarty, wieloplatformowym odtwarzaczem multimedialnym i frameworkiem, który odtwarza większość plików multimedialnych oraz płyty DVD, Audio CD, VCD i różnego rodzaju strumienie."
+msgstr "VLC jest darmowym i otwartym, wieloplatformowym odtwarzaczem multimedialnym i frameworkiem, który odtwarza większość plików multimedialnych oraz płyty DVD, Audio CD, VCD i różnego rodzaju strumienie."
 
 #: index.php:36
 msgid "Other projects from VideoLAN"

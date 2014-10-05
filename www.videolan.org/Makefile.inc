@@ -31,6 +31,7 @@ locales: index.an.php \
          index.cy.php \
          index.da.php \
          index.de.php \
+         index.de_LU.php \
          index.el.php \
          index.en_GB.php \
          index.es.php \
@@ -55,7 +56,6 @@ locales: index.an.php \
          index.kn.php \
          index.ko.php \
          index.ky.php \
-         index.lb.php \
          index.lt.php \
          index.lv.php \
          index.mk.php \

@@ -1,4 +1,4 @@
-# Luxembourgish; Letzeburgesch translation
+# Luxembourgish translation
 # Copyright (C) 2014 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
 #

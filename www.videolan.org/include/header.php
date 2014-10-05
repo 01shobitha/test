@@ -17,6 +17,7 @@ function getLocaleFromLanguage( $language )
     case 'cy': $locale = "cy_GB.utf8"; break;
     case 'da': $locale = "da_DK.utf8"; break;
     case 'de': $locale = "de_DE.UTF-8"; break;
+    case 'de_LU': $locale = "de_LU.utf8"; break;
     case 'el': $locale = "el_GR.UTF-8"; break;
     case 'en_GB': $locale = "en_GB.utf8"; break;
     case 'es': $locale = "es_ES.UTF-8"; break;
@@ -41,7 +42,6 @@ function getLocaleFromLanguage( $language )
     case 'kn': $locale = "kn_IN"; break;
     case 'ko': $locale = "ko_KR.utf8"; break;
     case 'ky': $locale = "ky_KG"; break;
-    case 'lb': $locale = "de_LU.utf8"; break;
     case 'lt': $locale = "lt_LT.utf8"; break;
     case 'lv': $locale = "lv_LV.utf8"; break;
     case 'mk': $locale = "mk_MK.UTF-8"; break;

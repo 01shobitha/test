@@ -14,7 +14,7 @@
 
         <div class="clearme" style='padding-top: 26px;'>
             <?php image( 'largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?>
-            <div style='float: left; width: 500px;'>
+            <div class="ltrLeft" style='width: 500px;'>
                 <h1 class='bigtitle'>VLC media player</h1>
                 <div class='projectDescription'>
                    <?php echo _("VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."); ?>
@@ -35,7 +35,7 @@
             </div>
         </div>
         <div class="clearme" style='padding-top: 45px;'>
-            <div style='float: left; width: 400px; color: #333333;'>
+            <div class="ltrLeft" style='width: 400px; color: #333333;'>
                 <h1 style='margin-bottom: 25px;' class='red'><?php echo _("Features"); ?></h1>
                     <?php echo _("Simple, fast and powerful media player."); ?>
                 <br /><br />
@@ -131,7 +131,7 @@ function addos( $name, $class, $url, $bold=false )
                   addos( "OpenBSD", "openbsd", "download-sources.html" );
                   addos( "Solaris", "solaris", "download-sources.html" );
                   addos( "Android", "android", "download-android.html" );
-                  addos( "iOS", "ios", "download-ios.html" ); 
+                  addos( "iOS", "ios", "download-ios.html" );
                   addos( "QNX", "qnx", "download-sources.html" );
                   addos( "Syllable", "syllable", "download-syllable.html" );
                   addos( "OS/2", "os2", "http://hobbes.nmsu.edu/h-search.php?sh=1&button=Search&key=vlc&stype=all&sort=date&dir=%2Fpub%2Fos2%2Fapps%2Fmmedia%2Fvideo%2Fplayers" );

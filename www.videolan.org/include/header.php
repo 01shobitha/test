@@ -80,6 +80,13 @@ function getLocaleFromLanguage( $language )
     return $locale;
 }
 
+function isRTL( $language ) {
+    return ($language == "ar")
+        || ($language == "fa")
+        || ($language == "he")
+        || ($language == "ur");
+}
+
 /*
 *  starthtml: beginning of the page
 */
@@ -108,8 +115,17 @@ function start_head( $title,
     echo '<?xml version="1.0" encoding="utf-8" ?>'."\n"; ?>
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
         "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $language?>" lang="<?php echo $language?>">
 
+<?php
+    if ( isRTL( $language ) )
+    {
+        echo '<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $language?>" lang="<?php echo $language?>" dir="rtl">';
+    }
+    else
+    {
+        echo '<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $language?>" lang="<?php echo $language?>">';
+    }
+ ?>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta http-equiv="Content-Language" content="<?php echo $language?>" />
@@ -200,16 +216,9 @@ function start_head( $title,
 /* Actual start of the body */
 function start_body( $body_color, $language, $b_show_donate = true )
 {
-    if ( ($language != "he") && ($language != "ur") && ($language != "ar") && ($language != "fa") )
-    {
         echo '<body>';
         echo "<div id='bodyInner' class='$body_color'>";
-    }
-    else
-    {
-        echo '<body style="text-align: right; direction: rtl;">';
-        echo "<div id='bodyInner' class='$body_color' style='text-align: right;'>";
-    }
+
     switch( $body_color ){
     case "red":   $imgSrc = "logoRed.png";    $imgArSrc = "madeByArgonRed.png";    break;
     case "blue":  $imgSrc = "logoBlue.png";   $imgArSrc = "madeByArgonBlue.png";   break;
@@ -218,18 +227,19 @@ function start_body( $body_color, $language, $b_show_donate = true )
     default:      $imgSrc = "logoOrange.png"; $imgArSrc = "madeByArgonOrange.png"; break;
     }
 ?>
-   <a style='float: left;' href='/'><?php image( $imgSrc, "VideoLAN association"); ?></a>
-   <div style='float: left; color: #4D4D4D; font-size: 12px; padding: 10px 10px 5px 20px; line-height: 20px; width: 396px;'>
+   <a class="ltrLeft" href='/'><?php image( $imgSrc, "VideoLAN association"); ?></a>
+   <div class="ltrLeft" id="nonprofitOrganizationDiv">
    <?php
     echo _('A project and a').' <a href="//www.videolan.org/videolan/" class="noUnderline">'._('non-profit organization').'</a>, '.
          _('composed of volunteers, developing and promoting free, open-source multimedia solutions.');?>
    </div>
 
    <?php if ($b_show_donate != true ) return; ?>
+<!-- LTR: check the padding entry below next to dollar.png -->
    <div id='donate'>
-       <div style='font-size: 14px; color: #909090; float: left; padding-top: 5px;'>
+       <div class="ltrLeft" style='font-size: 14px; color: #909090; padding-top: 5px;'>
            <span style='text-transform: uppercase;'><?php echo _("donate"); ?></span> &nbsp;<a href='//www.videolan.org/contribute.html#money'>(<?php echo _("why?");?>)</a></div>
-       <img src='//images.videolan.org/images/paypal.png' style='float: right;' alt="paypal" />
+       <img src='//images.videolan.org/images/paypal.png' class="ltrRight" alt="paypal" />
        <form style='clear: both; padding-top: 10px;' action="https://www.paypal.com/en_US/cgi-bin/webscr" method="post">
            <p>
                <input name="cmd" value="_xclick" type="hidden"/>
@@ -260,11 +270,11 @@ function start_body( $body_color, $language, $b_show_donate = true )
        </p></form>
    </div>
    <div id='social'>
-      <div id='plusone' style="text-align: right; padding: 3px 10px;">
+      <div id='plusone' style="padding: 3px 10px;">
          <g:plusone size="medium" annotation="none" href="http://www.videolan.org"></g:plusone>
       </div>
-      <div style="text-align: right; padding: 3px 14px;"><a href="http://www.facebook.com/vlc.media.player" style="padding-top: 10px;"><?php image( 'facebook.png', "Facebook" );?></a></div>
-      <div style="text-align: right; padding: 2px 12px;"><a href="http://www.twitter.com/videolan"><?php image( 'twitter.png', "Twitter" );?></a></div>
+      <div style="padding: 3px 14px;"><a href="http://www.facebook.com/vlc.media.player" style="padding-top: 10px;"><?php image( 'facebook.png', "Facebook" );?></a></div>
+      <div style="padding: 2px 12px;"><a href="http://www.twitter.com/videolan"><?php image( 'twitter.png', "Twitter" );?></a></div>
    </div>
 <?php
 }
@@ -367,7 +377,7 @@ function footer($tag = "", $alternate_lang=array()) {
    <div id='footer'>
       <div style='background-image: url( "//images.videolan.org/images/divider.png" ); height: 15px; width: 100%;'></div>
       <div style='padding: 20px 10px 40px; width: 950px; margin: 0 auto;'>
-           <a style='float: left; margin-right: 50px;' href='/'>
+           <a class="ltrLeft" style='margin-right: 50px;' href='/'>
             <?php image( 'logoGrey.png', 'Association VideoLAN' ); ?></a>
          <div class='footer_col'>
             <div class='footerHeading'>VLC media player</div>

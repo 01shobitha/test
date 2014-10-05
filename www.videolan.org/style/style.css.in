@@ -830,3 +830,71 @@ list-style-type: circle;
 {
     color: #D3135A;
 }
+
+/* LTR vs. RTL */
+
+.ltrLeft {
+    float: left;
+}
+
+html[dir="rtl"] .ltrLeft {
+    float: right;
+}
+
+.ltrRight {
+    float: right;
+}
+
+html[dir="rtl"] .ltrRight {
+    float: left;
+}
+
+#nonprofitOrganizationDiv {
+  color: #4D4D4D;
+  font-size: 12px;
+  padding: 10px 10px 5px 20px;
+  line-height: 20px;
+  width: 396px;
+}
+
+html[dir="rtl"] #nonprofitOrganizationDiv {
+  padding: 10px 10px 20px 5px;
+}
+
+html[dir="rtl"] #linkBar {
+  float: right;
+}
+
+html[dir="rtl"] #linkBar .link {
+  text-align: right;
+  float: right;
+}
+
+html[dir="rtl"] #linkBar .link:hover ul li a {
+  float: left;
+}
+
+html[dir="rtl"] #linkBar ul li a {
+  padding-left:   0px;
+  padding-right: 10px;
+}
+
+html[dir="rtl"] #bodyInner {
+  text-align: right;
+}
+
+#social div {
+  text-align: right;
+}
+
+html[dir="rtl"] #social {
+  float: left;
+}
+
+html[dir="rtl"] #social div {
+  text-align: left;
+}
+
+html[dir="rtl"] #donate {
+  float: left;
+}

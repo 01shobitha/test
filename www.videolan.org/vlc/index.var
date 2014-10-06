@@ -48,6 +48,10 @@ URI: index.de.html
 Content-type: text/html
 Content-language: de
 
+URI: index.de_LU.html
+Content-type: text/html
+Content-language: lb
+
 URI: index.el.html
 Content-type: text/html
 Content-language: el

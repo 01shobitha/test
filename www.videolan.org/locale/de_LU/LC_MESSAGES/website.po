@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-18 08:05-0400\n"
-"PO-Revision-Date: 2014-08-22 09:23+0000\n"
+"PO-Revision-Date: 2014-10-06 16:36+0000\n"
 "Last-Translator: Thierry Yves Gaston Stein\n"
 "Language-Team: Luxembourgish (http://www.transifex.com/projects/p/vlc-trans/language/lb/)\n"
 "Language: lb\n"
@@ -191,7 +191,7 @@ msgstr "Fir jiddereen"
 
 #: index.php:44
 msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
-msgstr "De VLC ass e leeschtungsstaarken Media Player den déi meeschten Media-C odecen a Video-Formaten ofspille kann."
+msgstr "De VLC ass e leeschtungsstaarken Media Player den déi meeschten Media-Codecen a Video-Formaten ofspille kann."
 
 #: index.php:53
 msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
@@ -203,11 +203,11 @@ msgstr "fir professionell Benotzung"
 
 #: index.php:66
 msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
-msgstr "Den DVBlast ass eng einfach a leeschtungsstaark MPEG-2/TS Demux- a Straming-Applicatioun."
+msgstr "Den DVBlast ass eng einfach a leeschtungsstaark MPEG-2/TS Demux- a Streaming-Applicatioun."
 
 #: index.php:74
 msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
-msgstr "multicat ass en Tool-Set  fir einfach an effektiv Multicast-Stramen an Transport-Streamen ze beaarbechten."
+msgstr "multicat ass en Tool-Set  fir einfach an effektiv Multicast-Streamen an Transport-Streamen ze beaarbechten."
 
 #: index.php:83
 msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
@@ -271,7 +271,7 @@ msgstr "Offiziell Säit zum VLC media Player, dem Open-Source Video-Bezuchssyste
 
 #: vlc/index.php:40
 msgid "Simple, fast and powerful media player."
-msgstr "Einfache, schnellen a leeschtungsstaarken Multimedia Player"
+msgstr "Einfachen, schnellen a leeschtungsstaarken Multimedia Player"
 
 #: vlc/index.php:42
 msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
@@ -287,7 +287,7 @@ msgstr "Leeft op alle Plattformen:"
 
 #: vlc/index.php:49
 msgid "Completely Free, no spyware, no ads and no user tracking."
-msgstr "Komplett gratis a fräi, keng Spyware, keng Publicitéiten a keng Notzer Verfolgung."
+msgstr "Komplett gratis a fräi, keng Spyware, keng Publicitéiten a keng Notzer-Verfolgung."
 
 #: vlc/index.php:51
 msgid "Can do media conversion and streaming."

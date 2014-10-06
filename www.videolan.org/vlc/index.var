@@ -50,7 +50,7 @@ Content-language: de
 
 URI: index.de_LU.html
 Content-type: text/html
-Content-language: lb
+Content-language: de-lu
 
 URI: index.el.html
 Content-type: text/html
@@ -132,7 +132,7 @@ URI: index.ky.html
 Content-type: text/html
 Content-language: ky
 
-URI: index.lb.html
+URI: index.de_LU.html
 Content-type: text/html
 Content-language: lb
 

@@ -277,7 +277,7 @@ function start_body( $body_color, $language, $b_show_donate = true )
 function draw_menus( $nobanner, $alternate_lang )
 {
 ?>
-<div id='linkBar'>
+<div id='nav'>
    <div class='link'>
       <a href='//www.videolan.org/'><?php echo _("Home");?></a>
    </div>

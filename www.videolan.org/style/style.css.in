@@ -282,7 +282,7 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
     margin-top: 25px;
 }
 
-#linkBar
+#nav
 {
     background-color: white;
     border: 1px solid #F1F1F1;
@@ -292,7 +292,7 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
     clear: left;
 }
 
-#linkBar .link
+#nav .link
 {
     position: relative;
     display: block;
@@ -305,7 +305,7 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
     z-index: 9999;
 }
 
-#linkBar .link:hover
+#nav .link:hover
 {
     position: relative;
     display: block;
@@ -319,22 +319,22 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
     text-decoration: none;
 }
 
-#linkBar .link:hover a
+#nav .link:hover a
 {
     color: white;
 }
 
-#linkBar a:hover
+#nav a:hover
 {
     text-decoration: none;
 }
 
-#linkBar .link:hover ul
+#nav .link:hover ul
 {
     display: block;
 }
 
-#linkBar ul
+#nav ul
 {
     display: none;
     background-color: white;
@@ -348,13 +348,13 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
     box-shadow: 0px 0px 3px #DDD;
 }
 
-#linkBar ul li
+#nav ul li
 {
     display: block;
     padding-right: 10px;
 }
 
-#linkBar hr
+#nav hr
 {
     background: #CCC;
     border: none;
@@ -362,7 +362,7 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
     width: 100%;
 }
 
-#linkBar ul li a
+#nav ul li a
 {
     padding: 5px;
     padding-left: 10px;
@@ -371,7 +371,7 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
     width: 50px;
 }
 
-#linkBar .link:hover ul li a
+#nav .link:hover ul li a
 {
     width: 100%;
     color: black;
@@ -657,12 +657,12 @@ list-style-type: circle;
 
 /* ORANGE */
 
-.orange a, .orange h1, .orange #linkBar a, .orange #linkBar .link:hover ul li a, .orange h2
+.orange a, .orange h1, .orange #nav a, .orange #nav .link:hover ul li a, .orange h2
 {
     color: #F48B00;
 }
 
-.orange #linkBar .link:hover, .orange #linkBar .link:hover ul li a:hover
+.orange #nav .link:hover, .orange #nav .link:hover ul li a:hover
 {
     color: white;
     background-color: #F48B00;
@@ -692,12 +692,12 @@ list-style-type: circle;
 
 /* RED */
 
-.red a, .red h1, .red #linkBar a, .red #linkBar .link:hover ul li a, .red h2
+.red a, .red h1, .red #nav a, .red #nav .link:hover ul li a, .red h2
 {
     color: #ED1C24;
 }
 
-.red #linkBar .link:hover, .red #linkBar .link:hover ul li a:hover
+.red #nav .link:hover, .red #nav .link:hover ul li a:hover
 {
     color: white;
     background-color: #ED1C24;
@@ -727,12 +727,12 @@ list-style-type: circle;
 
 /* GREEN */
 
-.green a, .green h1, .green #linkBar a, .green #linkBar .link:hover ul li a, .green h2
+.green a, .green h1, .green #nav a, .green #nav .link:hover ul li a, .green h2
 {
     color: #39B549;
 }
 
-.green #linkBar .link:hover, .green #linkBar .link:hover ul li a:hover
+.green #nav .link:hover, .green #nav .link:hover ul li a:hover
 {
     color: white;
     background-color: #39B549;
@@ -757,12 +757,12 @@ list-style-type: circle;
 
 /* BLUE */
 
-.blue a, .blue h1, .blue #linkBar a, .blue #linkBar .link:hover ul li a, .blue h2
+.blue a, .blue h1, .blue #nav a, .blue #nav .link:hover ul li a, .blue h2
 {
     color: #0070BB;
 }
 
-.blue #linkBar .link:hover, .blue #linkBar .link:hover ul li a:hover
+.blue #nav .link:hover, .blue #nav .link:hover ul li a:hover
 {
     color: white;
     background-color: #0070BB;
@@ -798,12 +798,12 @@ list-style-type: circle;
 
 /* PINK */
 
-.pink a, .pink h1, .pink #linkBar a, .pink #linkBar .link:hover ul li a, .pink h2
+.pink a, .pink h1, .pink #nav a, .pink #nav .link:hover ul li a, .pink h2
 {
     color: #D3135A;
 }
 
-.pink #linkBar .link:hover, .pink #linkBar .link:hover ul li a:hover
+.pink #nav .link:hover, .pink #nav .link:hover ul li a:hover
 {
     color: white;
     background-color: #D3135A;
@@ -861,20 +861,20 @@ html[dir="rtl"] #nonprofitOrganizationDiv {
   padding: 10px 10px 20px 5px;
 }
 
-html[dir="rtl"] #linkBar {
+html[dir="rtl"] #nav {
   float: right;
 }
 
-html[dir="rtl"] #linkBar .link {
+html[dir="rtl"] #nav .link {
   text-align: right;
   float: right;
 }
 
-html[dir="rtl"] #linkBar .link:hover ul li a {
+html[dir="rtl"] #nav .link:hover ul li a {
   float: left;
 }
 
-html[dir="rtl"] #linkBar ul li a {
+html[dir="rtl"] #nav ul li a {
   padding-left:   0px;
   padding-right: 10px;
 }

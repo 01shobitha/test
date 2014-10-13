@@ -30,6 +30,20 @@ open source flexible video framework <a href="http://upipe.org/">Upipe</a>.</p>
 </td>
 </tr>
 
+<tr><td colspan="2"><h2>Videolabs</h2></td></tr>
+<tr>
+<td><p class="center">
+  <a href="http://videolabs.io/">
+  <img src="http://images.videolan.org/images/partners/videolabs.png" alt="Videolabs" width="200">
+  </a></p>
+</td>
+<td>
+<p><a href="http://videolabs.io/">Videolabs</a> is a french company founded by two VideoLAN members and focused
+on Open-Source multimedia development for various platforms including Windows, Linux, iOS and Android. We can
+help you to define, design and implement the best solution for your current and future projects.</p>
+</td>
+</tr>
+
 <tr><td colspan="2"><h2>M2X</h2></td></tr>
 <tr>
 <td><p class="center">

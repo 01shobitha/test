@@ -15,6 +15,21 @@ You may contact them for professional services to order.</p>
 
 <table border="0" cellspacing="0" style="margin-left: 25px;">
 
+<tr><td colspan="2"><h2>OpenHeadEnd</h2></td></tr>
+<tr>
+<td><p class="center">
+  <a href="http://openheadend.tv/">
+  <img src="http://images.videolan.org/images/partners/openheadend.png" alt="OpenHeadEnd" width="200">
+  </a></p>
+</td>
+<td>
+<p><a href="http://openheadend.tv/">OpenHeadend</a> was founded by VLC co-founder and DVBlast and multicat main
+developer Christophe Massiot, and provides the broadcast industry with a modular platform allowing video stream
+reception, processing and recording. It also provides consulting services, and is the working force behind the
+open source flexible video framework <a href="http://upipe.org/">Upipe</a>.</p>
+</td>
+</tr>
+
 <tr><td colspan="2"><h2>M2X</h2></td></tr>
 <tr>
 <td><p class="center">

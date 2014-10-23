@@ -32,6 +32,7 @@ locales: index.an.php \
          index.da.php \
          index.de.php \
          index.de_LU.php \
+         index.dv.php \
          index.el.php \
          index.en_GB.php \
          index.es.php \

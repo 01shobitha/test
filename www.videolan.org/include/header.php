@@ -18,6 +18,7 @@ function getLocaleFromLanguage( $language )
     case 'da': $locale = "da_DK.utf8"; break;
     case 'de': $locale = "de_DE.UTF-8"; break;
     case 'de_LU': $locale = "de_LU.utf8"; break;
+    case 'dv': $locale = "dv_MV"; break;
     case 'el': $locale = "el_GR.UTF-8"; break;
     case 'en_GB': $locale = "en_GB.utf8"; break;
     case 'es': $locale = "es_ES.UTF-8"; break;
@@ -83,6 +84,7 @@ function getLocaleFromLanguage( $language )
 
 function isRTL( $language ) {
     return ($language == "ar")
+        || ($language == "dv")
         || ($language == "fa")
         || ($language == "he")
         || ($language == "ur");

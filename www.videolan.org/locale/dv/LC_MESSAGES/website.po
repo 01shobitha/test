@@ -1,0 +1,322 @@
+# Dhivehi translation
+# Copyright (C) 2014 VideoLAN
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Yoosuf Moosa <7465188@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: VLC - Trans\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-05-18 08:05-0400\n"
+"PO-Revision-Date: 2014-10-23 17:23+0000\n"
+"Last-Translator: Yoosuf Moosa <7465188@gmail.com>\n"
+"Language-Team: Divehi (http://www.transifex.com/projects/p/vlc-trans/language/dv/)\n"
+"Language: dv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: include/header.php:221
+msgid "A project and a"
+msgstr "މިއީ ޕްރޮޖެކްޓެއް އަދި"
+
+#: include/header.php:221
+msgid "non-profit organization"
+msgstr "މަދަނީ ޖަމިއްޔާއެއް"
+
+#: include/header.php:222
+msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
+msgstr "އެކުލެވިގެން ވަނީ ނިރުބަވެރިންގެ މައްޗަށް، މަޤުސަދަކީ މަލްޓިމީޑިއާގެ ވަސީލަތްތައް ހިލޭ ބޭނުން ފޯރުކޮށްދިނުން."
+
+#: include/header.php:228 include/header.php:242 include/header.php:256
+#: index.php:107
+msgid "donate"
+msgstr "އެހީ"
+
+#: include/header.php:228
+msgid "why?"
+msgstr "ކީއްވެ؟"
+
+#: include/header.php:275
+msgid "Home"
+msgstr "މައިސަފުހާ"
+
+#: include/header.php:278 include/header.php:425
+msgid "News"
+msgstr "ޚަބަރު"
+
+#: include/header.php:283 include/header.php:415
+msgid "Project and Organization"
+msgstr "ޕްރޮޖެކްޓް ރާވާ ހިންގުން"
+
+#: include/header.php:284 include/header.php:416
+msgid "Team"
+msgstr "ޓީމް"
+
+#: include/header.php:285 include/header.php:418
+msgid "Contact us"
+msgstr "ގުޅުއްވުން"
+
+#: include/header.php:286 include/header.php:419
+msgid "Partners"
+msgstr "ހިއްސާދާރުން"
+
+#: include/header.php:287 include/header.php:420
+msgid "Mirrors"
+msgstr "ލިބެންހުރި ތަންތަން"
+
+#: include/header.php:288 include/header.php:421
+msgid "Press center"
+msgstr "ޚަބަރު މާލަން"
+
+#: include/header.php:289 include/header.php:422
+msgid "Events"
+msgstr "ހަރަކާތްތައް"
+
+#: include/header.php:290 include/header.php:423
+msgid "Security center"
+msgstr "ސެކިއުރިޓީ މަރުކަޒު"
+
+#: include/header.php:296
+msgid "Download"
+msgstr "ޑައުންލޯޑް"
+
+#: include/header.php:297 include/header.php:378 index.php:28 vlc/index.php:22
+#: vlc/index.php:39
+msgid "Features"
+msgstr "ސިފަތައް"
+
+#: include/header.php:298 include/header.php:379 index.php:29 vlc/index.php:23
+#: vlc/index.php:65
+msgid "Screenshots"
+msgstr "ސްކްރީންފޮޓޯތައް"
+
+#: include/header.php:299 include/header.php:376 index.php:30 vlc/index.php:24
+msgid "Skins"
+msgstr "ކަވަރުތައް"
+
+#: include/header.php:300 include/header.php:377
+msgid "Extensions"
+msgstr "އެކްސްޓެންޝަންތައް"
+
+#: include/header.php:304
+msgid "Projects"
+msgstr "ޕްރޮޖެކްޓްތައް"
+
+#: include/header.php:322 include/header.php:383
+msgid "All Projects"
+msgstr "ހުރިހާ ޕްރޮޖެކްޓެއް"
+
+#: include/header.php:326 index.php:119
+msgid "Contribute"
+msgstr "ބައިވެރިވުން"
+
+#: include/header.php:328 include/header.php:408
+msgid "Donate time"
+msgstr "ވަގުތު ދިނުން"
+
+#: include/header.php:329 include/header.php:407
+msgid "Donate money"
+msgstr "ފައިސާގެ އެހީ"
+
+#: include/header.php:330 include/header.php:409
+msgid "Get Goodies"
+msgstr "އެހެނިހެންތަކެތި"
+
+#: include/header.php:334
+msgid "Support"
+msgstr "އެހީތެރިކަން"
+
+#: include/header.php:336
+msgid "Support center"
+msgstr "އެހީދޭތަން"
+
+#: include/header.php:337 include/header.php:406
+msgid "FAQ"
+msgstr "އކސ"
+
+#: include/header.php:338 include/header.php:417 include/header.php:446
+msgid "Legal"
+msgstr "ގާނޫނީ"
+
+#: include/header.php:340 include/header.php:404
+msgid "Forums"
+msgstr "ފޯރަމްތައް"
+
+#: include/header.php:341 include/header.php:405
+msgid "Mailing-Lists"
+msgstr "މެއިލްފޮނުވާ ލިސްޓް"
+
+#: include/header.php:342
+msgid "Report a bug"
+msgstr "މައްސަލައެއް ހުށަހެޅުން"
+
+#: include/header.php:346
+msgid "Dev' Zone"
+msgstr "ތަރައްޤީކުރާ ތަން"
+
+#: include/header.php:401
+msgid "Community"
+msgstr "މުޖުތަމައު"
+
+#: include/header.php:424
+msgid "Get Involved"
+msgstr "ބައިވެރިވުން"
+
+#: include/os-specific.php:93 vlc/index.php:27
+msgid "Download VLC"
+msgstr "ވީ.އެލް.ސީ ޑައުންލޯޑް ކުރޭ"
+
+#: include/os-specific.php:99 vlc/index.php:34 vlc/index.php:127
+msgid "Other Systems"
+msgstr "އެހެނިހެން ނިޒާމުތައް"
+
+#: index.php:3
+msgid "VLC: Official site - Free multimedia solutions for all OS!"
+msgstr "ވީ.އެލް.ސީ: ރަސްމީ ވެބްސައިޓް - މަލްޓިމީޑިއާގެ ވަސީލަތްތައް ހުރިހާ އޯއެސްތަކަށް"
+
+#: index.php:26 vlc/index.php:20
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
+msgstr "ވީ.އެލް.ސީ އަކީ ހިލޭ ބޭނުންކުރެވޭ، ހުރިހާ ޕްލެޓްފޯމަކަށްވެސް ސަޕޯޓްކުރާ އަދި ގިނަ ވައްތަރުތަކުގެ މީޑިއާ ފައިލް ޕްލޭކުރެވޭ ގޮތަށް ހަދާފައިވާ އެއްޗެއް. އޭގެ ތެރޭގައި ޑީ.ވީ.ޑީ ތަކާއި އޯޑިއޯ ސީ.ޑީ ތަކާއި ވީ.ސީ.ޑީ ތައް ހިމެނޭ"
+
+#: index.php:36
+msgid "Other projects from VideoLAN"
+msgstr "ވީޑިއޯލޭންގެ އެހެން ޕްރޮޖެކްޓްތައް"
+
+#: index.php:38
+msgid "For Everyone"
+msgstr "ހުރިހާ އެންމެނަށް"
+
+#: index.php:44
+msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
+msgstr "ވީ.އެލް.ސީ އަކީ ގިނަ ކޯޑެކްތައް ޕްލޭކުރުމުގެ ކުޅަދާނަކަން ލިބިގެންވާ ބާރުގަދަ މީޑިއާ ޕްލެޔަރެއް"
+
+#: index.php:53
+msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
+msgstr "ވީޑިއޯލޭންގެ މޫވީ ކްރިއޭޓާއިން ވީޑިއޯތަކަށް ނޮން-ލީނިއާ އެޑިޓިން ހެދޭނެ"
+
+#: index.php:60
+msgid "For Professionals"
+msgstr "ތަޖުރިބާކާރުންނަށް ޚާއްސަ"
+
+#: index.php:66
+msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
+msgstr "ޑީ.ވީބްލާސްޓް އަކީ އާދައިގެ ނަމަވެސް ބާރުގަދަ  އެމް.ޕީ.އީ.ޖީ-2/ޓީ.އެސް ޑިމަކްސް އަދި ސްޓްރީމް ކުރެވޭ އެޕްލީކޭޝަނެއް."
+
+#: index.php:74
+msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
+msgstr "މަލްޓިކާސްޓަކީ  ފަސޭހަކާމާއި އަވަސްކަމާއެކު މަލްޓިކާސްޓް ސްޓްރީމްތަކާއި ޓީ،އެސް ތަކަށް ގޮތްގޮތް ހެދޭ ގޮތަށް ޑިޒައިން ކޮށްފައިވާ ޓޫލް ސެޓެއް"
+
+#: index.php:83
+msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
+msgstr "އެކްސް264 އަކީ ވީޑިއޯ ސްޓްރީމްތައް  އެޗް.264/އެމް.ޕީ.އީ.ޖީ-4 ފޯމެޓަށް އެންކޯޑް ކުރެވޭ، ހިލޭލިބޭ އެޕްލިކޭޝަނެއް"
+
+#: index.php:91
+msgid "For Developers"
+msgstr "ތަރައްޤީ ކުރާފަރާތްތަކަށް ޚާއްސަ"
+
+#: index.php:102
+msgid "View All Projects"
+msgstr "ހުރިހާ ޕްރޮޖެކްޓެއް ދައްކާ"
+
+#: index.php:105
+msgid "Help us out!"
+msgstr "އަޅުގަނޑުމެންނަށް އެހީތެރިވެދެއްވާ!"
+
+#: index.php:111
+msgid "VideoLAN is a non-profit organization."
+msgstr "ވީޑިއޯލޭން އަކީ މަދަނީ ޖަމިއްޔާއެއް"
+
+#: index.php:112
+msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
+msgstr "އަޅުގަނޑުމެންގެ ހުރިހާ އުފެއްދުމަކަށް ހިނގާ ހުރިހާ ޚަރަދަކީވެސް އަޅުގަނޑުމެންނަށް އެކި ފަރާތްތަކުން ދެއްވާ ދީލަތި އެހީގައި ކުރެވޭ ޚަރަދެއް. އަޅުގަނޑުމެންގެ އުފެއްދުމެއް ތިބާ ބަލައިގަންނަ ނަމަ، އަޅުގަނޑުމެންނަށް އެހީތެރިވެދެއްވާ"
+
+#: index.php:114 index.php:126 index.php:137
+msgid "Learn More"
+msgstr "އިތުރަށް ދަސްކުރުން"
+
+#: index.php:123
+msgid "VideoLAN is open-source software."
+msgstr "ވީޑިއޯލޭން އަކީ ހުޅުވާލެވިފައިވާ ސޮފްޓްވެއާއެއް"
+
+#: index.php:124
+msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
+msgstr "މީގެ މާނައަކީ، އަޅުގަނޑުމެންގެ ސޮފްޓްވެއާއެއް ތަރައްޤީ ކުރުމަށްޓަކައި ބޭނުންވާ ހުނަރު ހުރިނަމަ، އަޅުގަނޑުމެން މަރުހަބާ ކިޔާނަމޭ"
+
+#: index.php:131
+msgid "Spread the Word"
+msgstr "ވާހަކަ ފަތުރާ"
+
+#: index.php:135
+msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
+msgstr "އަޅުގަނޑުމެން ދެކެނީ ވީޑިއޯލޭންގެ ސޮފްޓްވެއާއަކީ އެންމެ ފުރިހަމަ އަދި އެންމެ ހެޔޮ އަގުގައި ލިބެން ހުރި ވީޑިއޯ ސޮފްޓްވެއާ ކަމަށް: މުޅިން ހިލޭ، މިކަން ޤަބޫލު ކުރައްވާނަމަ މި ސޮފްޓްވެއާ ޕްރޮމޯޓް ކުރުމަށްޓަކައި އެހީތެރިވެދެއްވާ"
+
+#: index.php:147
+msgid "News &amp; Updates"
+msgstr "ޚަބަރު އަދި އަޕްޑޭޓްތައް"
+
+#: index.php:151
+msgid "Development Blogs"
+msgstr "ތަރައްޤީކުރުމާބެހޭ ބްލޮގްތައް"
+
+#: index.php:176
+msgid "Social media"
+msgstr "ސޯޝަލް މީޑިއާ"
+
+#: vlc/index.php:3
+msgid "Official page for VLC media player, the Open Source video framework!"
+msgstr "ވީ.އެލް.ސީ މީޑިއާ ޕްލެއާގެ ރަސްމީ ސަފުހާ - ހުޅުވާލެވިފައިވާ ވީޑިއޯ ފްރޭމްވޯކް"
+
+#: vlc/index.php:40
+msgid "Simple, fast and powerful media player."
+msgstr "ކުޑަ، އަވަސް އަދި ބާރުގަދަ މީޑިއާ ޕްލެޔަރެއް"
+
+#: vlc/index.php:42
+msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
+msgstr "ހުރިހާ އެއްޗެއް ޕްލޭ ކުރެވޭ: ފައިލްތައް، ޑިސްކްތައް، ވެބްކެމް، ޑިވައިސްތަކާއި ސްޓްރީމްތައް"
+
+#: vlc/index.php:44
+msgid "Plays most codecs with no codec packs needed:"
+msgstr "އިތުރު ކޯޑެކް ބޭނުން ނުކޮށް ގިނަ ކޯޑެކްތައް ޕްލޭ ކުރެވޭ:"
+
+#: vlc/index.php:47
+msgid "Runs on all platforms:"
+msgstr "ހުރިހާ ޕްލެޓްފޯމެއްގައިވެސް ބޭނުން ކުރެވޭ"
+
+#: vlc/index.php:49
+msgid "Completely Free, no spyware, no ads and no user tracking."
+msgstr "މުޅިން ހިލޭ، އެއްވެސް ކަހަލަ ސްޕައިވެއާއެއް، އިޝްތިހާރެއް އަދި ގެންގުޅޭ ފަރާތްތައް ހޯދުމެއްވެސް ނުހިމެނޭ"
+
+#: vlc/index.php:51
+msgid "Can do media conversion and streaming."
+msgstr "މީޑިއާ ބަދަލު ކުރެވޭ އަދި ސްޓްރީމްވެސް ކުރެވޭ"
+
+#: vlc/index.php:53
+msgid "Discover all features"
+msgstr "ހުރިހާ ކަންތައްތަކެއް ބެލުމަށް"
+
+#: vlc/index.php:87
+msgid "View all screenshots"
+msgstr "ހުރިހާ ސްކްރީންފޮޓޯތައް ދައްކާ"
+
+#: vlc/index.php:94
+msgid "Get VLC for"
+msgstr "ވީ.އެލް.ސީ ބޭނުންވަނީ"
+
+#: vlc/index.php:98
+msgid "Official Downloads of VLC media player"
+msgstr "ވީ.އެލް.ސީ މީޑިއާ ޕްލެޔާގެ ރަސްމީ ޑައުންލޯޑްތައް"
+
+#: vlc/index.php:104
+msgid "Sources"
+msgstr "ސޯސްތައް"
+
+#: vlc/index.php:105
+msgid "You can also directly get the"
+msgstr "ސީދާކޮށްވެސް ލިބިދާނެ"
+
+#: vlc/index.php:106
+msgid "source code"
+msgstr "ސޯސްކޯޑް"

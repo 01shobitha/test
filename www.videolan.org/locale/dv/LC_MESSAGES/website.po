@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-18 08:05-0400\n"
-"PO-Revision-Date: 2014-10-23 17:23+0000\n"
+"PO-Revision-Date: 2014-10-23 20:18+0000\n"
 "Last-Translator: Yoosuf Moosa <7465188@gmail.com>\n"
 "Language-Team: Divehi (http://www.transifex.com/projects/p/vlc-trans/language/dv/)\n"
 "Language: dv\n"
@@ -28,7 +28,7 @@ msgstr "މަދަނީ ޖަމިއްޔާއެއް"
 
 #: include/header.php:222
 msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
-msgstr "އެކުލެވިގެން ވަނީ ނިރުބަވެރިންގެ މައްޗަށް، މަޤުސަދަކީ މަލްޓިމީޑިއާގެ ވަސީލަތްތައް ހިލޭ ބޭނުން ފޯރުކޮށްދިނުން."
+msgstr "އެކުލެވިގެން ވަނީ ދަރުމަވެރިންގެ މައްޗަށް، މަޤުސަދަކީ މަލްޓިމީޑިއާގެ ވަސީލަތްތައް ހިލޭ  ފޯރުކޮށްދިނުން."
 
 #: include/header.php:228 include/header.php:242 include/header.php:256
 #: index.php:107
@@ -81,7 +81,7 @@ msgstr "ސެކިއުރިޓީ މަރުކަޒު"
 
 #: include/header.php:296
 msgid "Download"
-msgstr "ޑައުންލޯޑް"
+msgstr "ނެގުމަށް"
 
 #: include/header.php:297 include/header.php:378 index.php:28 vlc/index.php:22
 #: vlc/index.php:39
@@ -167,7 +167,7 @@ msgstr "ބައިވެރިވުން"
 
 #: include/os-specific.php:93 vlc/index.php:27
 msgid "Download VLC"
-msgstr "ވީ.އެލް.ސީ ޑައުންލޯޑް ކުރޭ"
+msgstr "ވީ.އެލް.ސީ ނަގާ"
 
 #: include/os-specific.php:99 vlc/index.php:34 vlc/index.php:127
 msgid "Other Systems"
@@ -215,7 +215,7 @@ msgstr "އެކްސް264 އަކީ ވީޑިއޯ ސްޓްރީމްތައް  އެޗް
 
 #: index.php:91
 msgid "For Developers"
-msgstr "ތަރައްޤީ ކުރާފަރާތްތަކަށް ޚާއްސަ"
+msgstr "ތަރައްޤީކުރާ ފަރާތްތަކަށް ޚާއްސަ"
 
 #: index.php:102
 msgid "View All Projects"
@@ -307,7 +307,7 @@ msgstr "ވީ.އެލް.ސީ ބޭނުންވަނީ"
 
 #: vlc/index.php:98
 msgid "Official Downloads of VLC media player"
-msgstr "ވީ.އެލް.ސީ މީޑިއާ ޕްލެޔާގެ ރަސްމީ ޑައުންލޯޑްތައް"
+msgstr "ވީ.އެލް.ސީ މީޑިއާ ޕްލެޔާ ރަސްމީކޮށް ލިބެންހުރި ތަންތަން"
 
 #: vlc/index.php:104
 msgid "Sources"

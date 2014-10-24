@@ -4,7 +4,7 @@
    $menu = array( "vlc", "download" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
-   $android_version = "0.9.9";
+   $android_version = "0.9.10";
 ?>
 
 <h1 class="bigtitle"> VLC media player for <a href="http://android.com/">Android</a>&trade;</h1>
@@ -28,7 +28,7 @@
                   <li>Audio and video media library, with full search.</li>
                   <li>Support for network streams, including HLS.</li>
                   <li>Supports Android from version 2.1 (platform-7).</li>
-                  <li>Supports ARMv6, ARMv7 and ARMv7+NEON.</li>
+                  <li>Supports ARMv6, ARMv7, MIPS and x86.</li>
                   <li>Supports secondary display.</li>
                </ul>
            </div>
@@ -41,7 +41,7 @@
                <ul>
                   <li>Subtitles support, embedded and external, including ASS and DVD subtitles.</li>
                   <li>Multi audio or subtitles tracks selection.</li>
-                  <li>Multi-core decoding, for Cortex-A7 A9 and A15 chips.</li>
+                  <li>Multi-core decoding.</li>
                   <li>Supports full hardware decoding.</li>
                   <li>Gestures, headphones control.</li>
                   <li>Audio equalizer</li>

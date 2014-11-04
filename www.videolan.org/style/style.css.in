@@ -179,6 +179,11 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
     -webkit-border-radius: 12px;
     border-radius: 12px;
 }
+html[dir="rtl"] #donate {
+    float: left;
+    margin-right: 0px;
+    margin-left: 10px;
+}
 
 #donate form
 {
@@ -208,6 +213,10 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
     height: 27px;
     float: left;
     font-size: 12px;
+}
+html[dir="rtl"] #donate .button {
+    margin-left: 0px;
+    margin-right: 5px;
 }
 
 /* ============================ SOCIAL BUTTONS STYLE =========================== */
@@ -513,6 +522,12 @@ list-style-type: circle;
     padding-left: 7px; padding-right: 23px;
 }
 
+html[dir="rtl"] .smallProjectImg
+{
+    float: right;
+    padding-right: 7px; padding-left: 23px;
+}
+
 /* ======================================= PROJECT PAGES ======================================= */
 
 .projectMain {
@@ -523,6 +538,10 @@ list-style-type: circle;
     float: left;
     width: 500px;
 }
+html[dir="rtl"] .projectLeft {
+    float: right;
+}
+
 .projectImg
 {
     float: left;
@@ -652,6 +671,10 @@ list-style-type: circle;
     line-height: 12px;
 }
 
+.screenshot
+{
+    cursor: pointer; width: 90px; height: 90px; margin: 5px; float: left;
+}
 
 /* =================================== THEME RECOLORING RULES ====================================== */
 
@@ -687,7 +710,7 @@ list-style-type: circle;
 
 .orange .screenshot
 {
-    cursor: pointer; border: 1px solid #F48B00; width: 90px; height: 90px; margin: 5px; float: left;
+    border: 1px solid #F48B00;
 }
 
 /* RED */
@@ -722,7 +745,7 @@ list-style-type: circle;
 
 .red .screenshot
 {
-    cursor: pointer; border: 1px solid #ED1C24; width: 90px; height: 90px; margin: 5px; float: left;
+    border: 1px solid #ED1C24;
 }
 
 /* GREEN */
@@ -792,7 +815,7 @@ list-style-type: circle;
 
 .blue .screenshot
 {
-    cursor: pointer; border: 1px solid #0070BB; width: 90px; height: 90px; margin: 5px; float: left;
+    border: 1px solid #0070BB;
 }
 
 
@@ -833,68 +856,183 @@ list-style-type: circle;
 
 /* LTR vs. RTL */
 
-.ltrLeft {
+.ltrFloatLeft
+{
     float: left;
 }
 
-html[dir="rtl"] .ltrLeft {
+html[dir="rtl"] .ltrFloatLeft
+{
     float: right;
 }
 
-.ltrRight {
+.ltrFloatRight
+{
     float: right;
 }
 
-html[dir="rtl"] .ltrRight {
+html[dir="rtl"] .ltrFloatRight
+{
     float: left;
 }
 
-#nonprofitOrganizationDiv {
-  color: #4D4D4D;
-  font-size: 12px;
-  padding: 10px 10px 5px 20px;
-  line-height: 20px;
-  width: 396px;
+.ltrClearLeft
+{
+    clear: left;
 }
 
-html[dir="rtl"] #nonprofitOrganizationDiv {
-  padding: 10px 10px 20px 5px;
+.ltrMarginLeft50
+{
+    margin-left: 50px;
 }
 
-html[dir="rtl"] #nav {
-  float: right;
+html[dir="rtl"] .ltrMarginLeft50
+{
+    margin-left: 0px;
+    margin-right: 50px;
 }
 
-html[dir="rtl"] #nav .link {
-  text-align: right;
-  float: right;
+.ltrPaddingLeft124
+{
+    padding-left: 124px;
 }
 
-html[dir="rtl"] #nav .link:hover ul li a {
-  float: left;
+html[dir="rtl"] .ltrPaddingLeft124
+{
+    padding-left: 0px;
+    padding-right: 124px;
 }
 
-html[dir="rtl"] #nav ul li a {
-  padding-left:   0px;
-  padding-right: 10px;
+html[dir="rtl"] .ltrClearLeft
+{
+    clear: right;
 }
 
-html[dir="rtl"] #bodyInner {
-  text-align: right;
+html[dir="rtl"] p
+{
+    padding-left: 25px;
+    padding-right: 0;
 }
 
-#social div {
-  text-align: right;
+#nonprofitOrganizationDiv
+{
+    color: #4D4D4D;
+    font-size: 12px;
+    padding: 10px 10px 5px 20px;
+    line-height: 20px;
+    width: 396px;
 }
 
-html[dir="rtl"] #social {
-  float: left;
+html[dir="rtl"] #nonprofitOrganizationDiv
+{
+    padding: 10px 20px 5px 10px;
 }
 
-html[dir="rtl"] #social div {
-  text-align: left;
+html[dir="rtl"] #nav
+{
+    float: right;
+    clear: right;
 }
 
-html[dir="rtl"] #donate {
-  float: left;
+html[dir="rtl"] #nav .link
+{
+    text-align: right;
+    float: right;
+}
+
+html[dir="rtl"] #nav .link:hover ul li a
+{
+    float: left;
+}
+
+html[dir="rtl"] #nav ul li a
+{
+    padding-left:   0px;
+    padding-right: 10px;
+}
+
+html[dir="rtl"] #bodyInner
+{
+    text-align: right;
+}
+
+html[dir="rtl"] #footer
+{ 
+    text-align: right;
+}
+
+#social div
+{
+    text-align: right;
+}
+
+html[dir="rtl"] #social
+{
+    float: left;
+}
+
+html[dir="rtl"] #social div
+{
+    text-align: left;
+}
+
+html[dir="rtl"] .footer_col
+{
+    float: right;
+}
+
+.margin-ltrRight50
+{
+    margin-right: 50px;
+}
+
+html[dir="rtl"] .margin-ltrRight50
+{
+    margin-left: 50px;
+}
+
+html[dir="rtl"] .screenshot
+{
+    float: right;
+}
+
+html[dir="rtl"] .projectImg
+{
+    float: right;
+    padding: 10px 40px 0px 110px;
+}
+
+html[dir="rtl"] .extraInfoLink
+{
+    float: right;
+    padding-right: 0px;
+    padding-left: 40px;
+}
+
+html[dir="rtl"] .extraInfoLink:hover
+{
+    float: right;
+    padding-right: 0px;
+    padding-left: 40px;
+}
+
+
+html[dir="rtl"] #downloadButton
+{
+    float: right;
+}
+
+html[dir="rtl"] img.floatSmallImg
+{
+    float: right;
+    padding-right: 0px;
+    padding-left: 25px;
+}
+
+
+/* I don't want to modify include/os-specific.php as well...*/
+html[dir="rtl"] a.extraInfoLink[style]
+{
+    clear: right;
+    float: right;
 }

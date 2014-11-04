@@ -223,8 +223,8 @@ function start_body( $body_color, $language, $b_show_donate = true )
     default:      $imgSrc = "logoOrange.png"; $imgArSrc = "madeByArgonOrange.png"; break;
     }
 ?>
-   <a class="ltrLeft" href='/'><?php image( $imgSrc, "VideoLAN association"); ?></a>
-   <div class="ltrLeft" id="nonprofitOrganizationDiv">
+   <a class="ltrFloatLeft" href='/'><?php image( $imgSrc, "VideoLAN association"); ?></a>
+   <div class="ltrFloatLeft" id="nonprofitOrganizationDiv">
    <?php
     echo _('A project and a').' <a href="//www.videolan.org/videolan/" class="noUnderline">'._('non-profit organization').'</a>, '.
          _('composed of volunteers, developing and promoting free, open-source multimedia solutions.');?>
@@ -233,9 +233,9 @@ function start_body( $body_color, $language, $b_show_donate = true )
    <?php if ($b_show_donate != true ) return; ?>
 <!-- LTR: check the padding entry below next to dollar.png -->
    <div id='donate'>
-       <div class="ltrLeft" style='font-size: 14px; color: #909090; padding-top: 5px;'>
+       <div class="ltrFloatLeft" style='font-size: 14px; color: #909090; padding-top: 5px;'>
            <span style='text-transform: uppercase;'><?php echo _("donate"); ?></span> &nbsp;<a href='//www.videolan.org/contribute.html#money'>(<?php echo _("why?");?>)</a></div>
-       <img src='//images.videolan.org/images/paypal.png' class="ltrRight" alt="paypal" />
+       <img src='//images.videolan.org/images/paypal.png' class="ltrFloatRight" alt="paypal" />
        <form style='clear: both; padding-top: 10px;' action="https://www.paypal.com/en_US/cgi-bin/webscr" method="post">
            <p>
                <input name="cmd" value="_xclick" type="hidden"/>
@@ -373,7 +373,7 @@ function footer($tag = "", $alternate_lang=array()) {
    <div id='footer'>
       <div style='background-image: url( "//images.videolan.org/images/divider.png" ); height: 15px; width: 100%;'></div>
       <div style='padding: 20px 10px 40px; width: 950px; margin: 0 auto;'>
-           <a class="ltrLeft" style='margin-right: 50px;' href='/'>
+           <a class="ltrFloatLeft margin-ltrRight50" href='/'>
             <?php image( 'logoGrey.png', 'Association VideoLAN' ); ?></a>
          <div class='footer_col'>
             <div class='footerHeading'>VLC media player</div>

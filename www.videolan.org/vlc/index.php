@@ -14,7 +14,7 @@
 
         <div class="clearme" style='padding-top: 26px;'>
             <?php image( 'largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?>
-            <div class="ltrLeft" style='width: 500px;'>
+            <div class="ltrFloatLeft" style='width: 500px;'>
                 <h1 class='bigtitle'>VLC media player</h1>
                 <div class='projectDescription'>
                    <?php echo _("VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."); ?>
@@ -35,7 +35,7 @@
             </div>
         </div>
         <div class="clearme" style='padding-top: 45px;'>
-            <div class="ltrLeft" style='width: 400px; color: #333333;'>
+            <div class="ltrFloatLeft" style='width: 400px; color: #333333;'>
                 <h1 style='margin-bottom: 25px;' class='red'><?php echo _("Features"); ?></h1>
                     <?php echo _("Simple, fast and powerful media player."); ?>
                 <br /><br />
@@ -83,7 +83,8 @@ function vlcscreenshot($img,$thumb, $desc){
                             "1.0.0/tm_VLC_Qt4.jpg",
                             "Windows Vista - Qt Interface" );
                 ?>
-                <div style='clear: left;'></div>
+                <div class="ltrClearLeft">
+                </div>
                 <a class='red' style='display: block; padding-top: 10px; padding-left: 5px; font-size: 12px;' href='/vlc/screenshots.html'><?php echo _("View all screenshots"); ?></a>
             </div>
         </div>

@@ -34,7 +34,7 @@
 
         <div class="clearme" style='padding-top: 30px;'>
             <h1 style='margin-bottom: 25px;'><?php echo _("Other projects from VideoLAN");?></h1>
-            <div style='float: left; width: 330px;'>
+            <div class="ltrFloatLeft" style='width: 330px;'>
                 <div class='audienceCallout'><?php echo _("For Everyone");?></div>
                 <div class="clearme">
                     <a href='/vlc/' class='noUnderline'>
@@ -56,7 +56,7 @@
                 </div>
             </div>
 
-            <div style='float: left; margin-left: 50px; width: 320px;'>
+            <div class="ltrFloatLeft ltrMarginLeft50" style='width: 320px;'>
                 <div class='audienceCallout'><?php echo _("For Professionals"); ?></div>
                 <div class="clearme">
                     <a href='/projects/dvblast.html' class='noUnderline'>
@@ -67,7 +67,7 @@
                         </span>
                     </a>
                 </div>
-                <div style='padding-top: 10px; padding-left: 124px;'>
+                <div class="ltrPaddingLeft124" style='padding-top: 10px;'>
                     <a href='/projects/multicat.html' class='noUnderline'>
                         <span class='productName'>multicat</span>
                         <span class='productDescription'>
@@ -87,7 +87,7 @@
             </div>
         </div>
 
-        <div style='float: left; margin-left: 50px; width: 180px;'>
+        <div class="ltrFloatLeft ltrMarginLeft50" style='width: 180px;'>
             <div class='audienceCallout'><?php echo _("For Developers"); ?></div>
             <a href='/developers/libdvdcss.html' class='noUnderline'><span class='productName' style='padding-bottom: 16px;'>libdvdcss</span></a>
             <a href='/developers/libdvbpsi.html' class='noUnderline'><span class='productName' style='padding-bottom: 16px;'>libdvdpsi</span></a>
@@ -103,37 +103,37 @@
 
         <div class="clearme" style='padding-top: 20px;'>
             <h1 style='margin-bottom: 12px;'><?php echo _("Help us out!"); ?></h1>
-            <div style='float: left; width: 320px;'>
+            <div class="ltrFloatLeft" style='width: 320px;'>
                 <div class='audienceCallout'><?php echo _("donate"); ?></div>
                 <div class='clearme'>
                     <?php image( "cash.png", "Donate to VLC", "floatSmallImg" ); ?>
                     <div class='productDescription'>
                         <?php echo _("VideoLAN is a non-profit organization.")."<br />";
                          echo _(" All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."); ?><br />
-                        <a href='/contribute.html' class='extraInfoLink' style='text-transform: uppercase; font-size: 13px; display: block; padding-top: 10px;'>
+                        <a href='/contribute.html' class='extraInfoLink' style='text-transform: uppercase; font-size: 13px; display: block; padding-top: 10px; clear: none'>
                           <?php echo _("Learn More"); ?></a>
                     </div>
                 </div>
             </div>
-            <div style='float: left; width: 300px;'>
+            <div class="ltrFloatLeft" style='width: 300px;'>
                 <div class='audienceCallout'><?php echo _("Contribute"); ?></div>
                 <div class='clearme'>
                     <?php image( "tools.png", "Contribute Work to VLC", "floatSmallImg" ); ?>
                     <div class='productDescription'>
                         <?php echo _("VideoLAN is open-source software.")."<br />";
                         echo _("This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"); ?><br />
-                        <a href='/contribute.html' class='extraInfoLink' style='text-transform: uppercase; font-size: 13px; display: block; padding-top: 10px;'>
+                        <a href='/contribute.html' class='extraInfoLink' style='text-transform: uppercase; font-size: 13px; display: block; padding-top: 10px; clear: none'>
                           <?php echo _("Learn More"); ?></a>
                     </div>
                 </div>
             </div>
-            <div style='float: left; width: 320px;'>
+            <div class="ltrFloatLeft" style='width: 320px;'>
                 <div class='audienceCallout'><?php echo _("Spread the Word"); ?></div>
                 <div class='clearme'>
                     <?php image( "heart.png", "Spread VLC", "floatSmallImg" ); ?>
                     <div class='productDescription'>
                         <?php echo _("We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."); ?><br />
-                        <a href='/contribute.html' class='extraInfoLink' style='text-transform: uppercase; font-size: 13px; display: block; padding-top: 10px;'>
+                        <a href='/contribute.html' class='extraInfoLink' style='text-transform: uppercase; font-size: 13px; display: block; padding-top: 10px; clear: none'>
                           <?php echo _("Learn More"); ?></a>
                     </div>
                 </div>

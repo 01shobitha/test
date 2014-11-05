@@ -40,6 +40,7 @@ locales: index.an.php \
          index.et.php \
          index.fa.php \
          index.fi.php \
+         index.fo.php \
          index.fr.php \
          index.gd.php \
          index.gl.php \
@@ -91,4 +92,3 @@ locales: index.an.php \
          index.zh.php \
          index.zh_TW.php \
          include/header.php
-

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-18 08:05-0400\n"
-"PO-Revision-Date: 2014-10-29 15:09+0000\n"
+"PO-Revision-Date: 2014-11-06 20:41+0000\n"
 "Last-Translator: Sigmund Jørgensen <sigmund@systemlyklar.fo>\n"
 "Language-Team: Faroese (http://www.transifex.com/projects/p/vlc-trans/language/fo/)\n"
 "Language: fo\n"
@@ -24,11 +24,11 @@ msgstr "Ein verkætlan og ein"
 
 #: include/header.php:221
 msgid "non-profit organization"
-msgstr "felagsskapur við ongum vinningi,"
+msgstr "felagsskapur við ongum vinningi"
 
 #: include/header.php:222
 msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
-msgstr "sum er sett saman av sjálvbodnum, ið framleiða og lýsa fyri einki, umframt open-source margmiðlaloysnir."
+msgstr "sum er samskipað av sjálvbodnum, ið framleiða og virka fyri ókeypis, open-source margmiðlaloysnum."
 
 #: include/header.php:228 include/header.php:242 include/header.php:256
 #: index.php:107
@@ -135,7 +135,7 @@ msgstr "Hjálpardepil"
 
 #: include/header.php:337 include/header.php:406
 msgid "FAQ"
-msgstr "OSP"
+msgstr "OSS"
 
 #: include/header.php:338 include/header.php:417 include/header.php:446
 msgid "Legal"
@@ -179,7 +179,7 @@ msgstr "VLC: Almenna síðan - Ókeypis margmiðlaloysnir til allar stýriskipan
 
 #: index.php:26 vlc/index.php:20
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
-msgstr "VLC er ein ókeypist og open-source tvørpals margmiðlaspælari, bygdur til at spæla flestu margmiðlafílur, umframt DVD, ljóð- og videofløgur og eisini ymsar stoymitænastur."
+msgstr "VLC er ein ókeypist og open-source tvørpals-margmiðlaspælari, bygdur til at spæla flestu margmiðlafílur, umframt DVD, ljóð- og videofløgur og eisini ymsar stroymitænastur."
 
 #: index.php:36
 msgid "Other projects from VideoLAN"
@@ -207,7 +207,7 @@ msgstr "DVBlast er eitt einfalt og máttmikið MPEG-2/TS demux- og stroymiforrit
 
 #: index.php:74
 msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
-msgstr "multicat er ein amboðskassi, sum er ætlaður at viðgera fjølbroyttari stroyming og TS lættliga og dygdargótt. "
+msgstr "multicat er ein amboðskassi, sum er ætlaður at viðgera fjølbroyttari stroyming og TS lættliga og dygdargott. "
 
 #: index.php:83
 msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
@@ -227,7 +227,7 @@ msgstr "Hjálp okkum!"
 
 #: index.php:111
 msgid "VideoLAN is a non-profit organization."
-msgstr "VideoLAN er ein felagsskapur við ongum vinningi"
+msgstr "VideoLAN er ein felagsskapur við ongum vinningi."
 
 #: index.php:112
 msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
@@ -255,7 +255,7 @@ msgstr "Vit meta, at VideoLAN hevur besta video-forritið á marknaðinum í mun
 
 #: index.php:147
 msgid "News &amp; Updates"
-msgstr "Tíðingi &amp; Dagføringar"
+msgstr "Tíðindi &amp; Dagføringar"
 
 #: index.php:151
 msgid "Development Blogs"
@@ -287,7 +287,7 @@ msgstr "Koyrir á øllum pallum:"
 
 #: vlc/index.php:49
 msgid "Completely Free, no spyware, no ads and no user tracking."
-msgstr "Fullkomilig ókeypis, einki spyware, ongar lýsingar og brúkari fær frið."
+msgstr "Fullkomilig ókeypis, einki spyware, ongar lýsingar og brúkarin fær frið."
 
 #: vlc/index.php:51
 msgid "Can do media conversion and streaming."

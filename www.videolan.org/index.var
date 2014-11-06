@@ -72,6 +72,10 @@ URI: index.fa.html
 Content-type: text/html
 Content-language: fa
 
+URI: index.fo.html
+Content-type: text/html
+Content-language: fo
+
 URI: index.fr.html
 Content-type: text/html
 Content-language: fr

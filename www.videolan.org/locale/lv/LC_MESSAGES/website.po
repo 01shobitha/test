@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-18 08:05-0400\n"
-"PO-Revision-Date: 2014-10-30 23:03+0000\n"
+"PO-Revision-Date: 2014-11-06 09:31+0000\n"
 "Last-Translator: Ojārs Spriņķis <ojars.sprinkis@inbox.lv>\n"
 "Language-Team: Latvian (http://www.transifex.com/projects/p/vlc-trans/language/lv/)\n"
 "Language: lv\n"
@@ -184,7 +184,7 @@ msgstr "VLC: Oficiālā vietne - bezmaksas multivides risinājumi visām operēt
 
 #: index.php:26 vlc/index.php:20
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
-msgstr "VLC ir bezmaksas un atvērtā pirmkoda platformneatkarīga multimediju atskaņošanas sistēma, kas atskaņo lielāko daļu multivides failu, kā arī DVD, audio CD, VCD un dažādus straumēšanas protokolus."
+msgstr "VLC ir bezmaksas un atvērtā pirmkoda platformneatkarīgs multivides atskaņotājs un platforma. Tas atskaņo lielāko daļu multivides failu, kā arī DVD, audio CD, VCD un dažādus straumēšanas protokolus."
 
 #: index.php:36
 msgid "Other projects from VideoLAN"

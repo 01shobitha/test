@@ -38,7 +38,7 @@
     <div class="os2">
         <ul class="os" style="padding-bottom:10px">
             <li style="background:none">The packages for the following operating systems<br /> are <b>not</b> automatically built every night:</li>
-            <li class='suse'><a href='#suse'>openSuse 10.2 and 10.3</a></li>
+            <li class='suse'><a href='#suse'>openSUSE</a></li>
             <li class='gentoo'><a href='#gentoo'>Gentoo</a></li>
         </ul>
     </div>
@@ -78,7 +78,7 @@
         <br /-->
 
         <h2><a id='suse'>VLC SVN Snapshots for openSUSE</a></h2>
-        <p>For openSUSE 10.2 and 10.3 we offer also RPMs from SVN snapshots. The packages are updated approximatively once per week.</p>
+        <p>For openSUSE 11.4, 12.3, 13.1, 13.2 and Tumbleweed we offer also RPMs from SVN snapshots. The packages are updated approximatively once per week.</p>
         <p>In order to test it, follow the usual instructions to install VLC as described on <a href="http://www.videolan.org/vlc/download-suse.html">http://www.videolan.org/vlc/download-suse.html</a>,
          but replace the packagename <b>vlc</b> with <b>vlc-beta</b>. <i>You can only install one version, so either vlc OR vlc-beta. They conflict each other. </i></p>
 

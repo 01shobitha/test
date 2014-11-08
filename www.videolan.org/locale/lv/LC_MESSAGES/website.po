@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-18 08:05-0400\n"
-"PO-Revision-Date: 2014-11-06 09:31+0000\n"
+"PO-Revision-Date: 2014-11-08 03:43+0000\n"
 "Last-Translator: Ojārs Spriņķis <ojars.sprinkis@inbox.lv>\n"
 "Language-Team: Latvian (http://www.transifex.com/projects/p/vlc-trans/language/lv/)\n"
 "Language: lv\n"
@@ -33,7 +33,7 @@ msgstr "bezpeļņas organizācija"
 
 #: include/header.php:222
 msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
-msgstr "sastāv no brīvprātīgajiem, izstrādājot un veicinot brīvus, atvērtā pirmkoda multivides risinājumus."
+msgstr "kas sastāv no brīvprātīgiem dalībniekiem, izstrādā un veicina brīvus, atvērtā pirmkoda multivides risinājumus."
 
 #: include/header.php:228 include/header.php:242 include/header.php:256
 #: index.php:107
@@ -252,11 +252,11 @@ msgstr "Tas nozīmē, ka, ja jums ir prasme un vēlme uzlabot kādu no mūsu izs
 
 #: index.php:131
 msgid "Spread the Word"
-msgstr "Izplatiet vārdu"
+msgstr "Pastāstiet citiem"
 
 #: index.php:135
 msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
-msgstr "Mēs uzskatām, ka VideoLAN ir vislabākā video programmatūra kas ir pieejama par labāko cenu: bezmaksas. Ja jūs piekrītat, lūdzu palīdziet izplatīt vārdu par mūsu programmatūru."
+msgstr "Mēs uzskatām, ka VideoLAN ir vislabākā video programmatūra kas ir pieejama par labāko cenu: bezmaksas. Ja jūs piekrītat, tad lūdzu, pastāstiet arī citiem par mūsu programmatūru."
 
 #: index.php:147
 msgid "News &amp; Updates"

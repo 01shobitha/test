@@ -11,34 +11,34 @@ DVDs like a block device without having to bother about the decryption. </p>
 <h2> Features </h2>
 
 <ul class="bullets">
-  <li><b>Portability</b>. Currently supported platforms are GNU/Linux,
-  FreeBSD, NetBSD, OpenBSD, BSD/OS, BeOS, Windows 95/98, Windows NT/2000,
-  MacOS X, Solaris, and HP-UX. </li>
-  <li><b> Simplicity</b>. There are currently 7 functions in the API, and we intend
-  to keep this number low. </li>
+  <li><b>Portability</b>. Currently supported platforms are GNU/Linux, FreeBSD,
+  NetBSD, OpenBSD, Haiku, Mac OS X, Solaris, QNX, OS/2, and Windows NT 4.0 SP4
+  (with IE 5.0) or later.</li>
+  <li><b> Simplicity</b>. A DVD player can be built around the
+  <code>libdvdcss</code> API using no more than 4 or 5 library calls.</li>
   <li> <b>Freedom</b>. <code>libdvdcss</code> is released under the General Public
   License, ensuring it will stay free, and used only for free software
   products. </li>
   <li> <b>Just better</b>. Unlike most similar projects, <code>libdvdcss</code>
-  doesn't require the region of your drive to be set. </li>
+  does not require the region of your drive to be set. </li>
 </ul>
 
 <h2>Get libdvdcss</h2>
 
-<p> Last version of <code>libdvdcss</code> is <b>1.3.0</b>. </p>
+<p> The latest version of <code>libdvdcss</code> is <b>1.3.0</b>. </p>
 
-<p> Our Debian/Ubuntu repository can be accessed by adding the following content to /etc/apt/sources.list<p>
+<p> Our Debian/Ubuntu repository can be accessed by adding the following lines to /etc/apt/sources.list<p>
 <p><code>deb http://download.videolan.org/pub/debian/stable/ /</code></p>
 <p><code>deb-src http://download.videolan.org/pub/debian/stable/ /</code></p>
 <p>And by running<p>
-<p><code>wget -O - http://download.videolan.org/pub/debian/videolan-apt.asc|sudo apt-key add -</code></p>
+<p><code>wget -O - http://download.videolan.org/pub/debian/videolan-apt.asc | sudo apt-key add -</code></p>
 
 <p> <code>libdvdcss</code> is available through <a href="http://wiki.videolan.org/Git">Git</a> or
 by browsing the <a href="http://www.videolan.org/pub/libdvdcss/">releases</a>.
 </p>
 
 <h3>Git checkout</h3>
-<p><code># git clone git://git.videolan.org/libdvdcss</code></p>
+<p><code>$ git clone git://git.videolan.org/libdvdcss</code></p>
 
 <p>You can also access the code <a href="http://git.videolan.org/?p=libdvdcss.git">online</a>.</p>
 
@@ -68,11 +68,11 @@ by browsing the <a href="http://www.videolan.org/pub/libdvdcss/">releases</a>.
 </tr>
 </table>
 
-<h2>additional information</h2>
+<h2>Additional Information</h2>
 
 <p>If you want to read more on this subject, we publish a <a
 href="libdvdcss.txt">non-technical description of libdvdcss</a>.</p>
 
-<h3>For legal documentation, see our <a href="/legal.html">legal page</a></h3>
+<h3>For legal information, see our <a href="/legal.html">legal page</a></h3>.
 
 <?php footer('$Id$'); ?>

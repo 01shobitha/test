@@ -9,8 +9,8 @@ contents of a DVD.
 
    All DVDs and commercially distributed readers include some information
 about their zone. When a DVD is put into a DVD reader, the information is
-compared, in order to limit the number of countries where they can be used.
-The DVD zone and the reader's zone should match.
+compared, in order to limit the number of countries where the DVD can be
+used. The DVD zone and the reader's zone should match.
 
 
     2/ CSS
@@ -20,7 +20,7 @@ of DVD reader programs obtain keys by purchasing them from the DVD CCA (DVD
 Copy Control Association) which will permit them to decrypt CSS-protected
 DVDs. They also get instructions on how to use CSS, which are kept secret
 under a confidentiality agreement.  When a program reads a DVD, it
-communicates with the DVD reader all the while, in order to get the
+communicates with the DVD reader all the time, in order to get the
 decryption information with the help of the key.
 
 
@@ -37,9 +37,9 @@ accessible while it is being viewed - whatever the equipment used.
     4/ Weaknesses of CSS
 
    CSS has been the subject of academic studies which have, through reverse
-engineering, uncovered how it works and the encryption algorithm it uses.
+engineering, uncovered how it works and what encryption algorithm it uses.
 These studies also show that the keys used by CSS are extremely weak from a
-cryptographic (code-breaking) approach, which has led to more effective
+cryptographic (code-breaking) perspective, which has led to more effective
 decryption algorithms and the discovery of keys.  It is possible to obtain
 a complete list of keys in a few minutes on an ordinary desktop computer.
 
@@ -49,7 +49,7 @@ a complete list of keys in a few minutes on an ordinary desktop computer.
    The list of CSS keys is therefore perfectly well known, and a sample of
 these keys is distributed with libdvdcss.  The libdvdcss library operates
 in a similar manner to a DVD reader program, by using a key to decode the
-contents, except that libdvdcss uses a key from the sample. If all of the
+content, except that libdvdcss uses a key from the sample.  If all of the
 sample keys fail, then libdvdcss computes the rest of the key set and tries
 each of them.
 
@@ -57,5 +57,3 @@ each of them.
 not from the same zone. As a last resort, libdvdcss will step outside of
 the whole DVD/reader system and will decrypt the encoded stream directly,
 exploiting weaknesses in the CSS encryption.
-
-

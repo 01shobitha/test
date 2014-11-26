@@ -4,14 +4,14 @@
 #
 # Translators:
 # Aputsiaĸ Niels Janussen <aj@isit.gl>, 2013-2014
-# kasper Tvede <kasper@webmasteren.eu>, 2013
-# ulrik, 2013
+# Kasper Tvede <kasper@webmasteren.eu>, 2013
+# Ulrik Johansen, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-18 08:05-0400\n"
-"PO-Revision-Date: 2014-05-21 13:53+0000\n"
+"PO-Revision-Date: 2014-11-26 10:59+0000\n"
 "Last-Translator: Aputsiaĸ Niels Janussen <aj@isit.gl>\n"
 "Language-Team: Danish (http://www.transifex.com/projects/p/vlc-trans/language/da/)\n"
 "Language: da\n"
@@ -205,7 +205,7 @@ msgstr "For professionelle"
 
 #: index.php:66
 msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
-msgstr "DVBlast er et simpel og effektiv MPEG-2/TS-demultiplekser og strømme-program."
+msgstr "DVBlast er en simpel og effektiv MPEG-2/TS-demultiplekser og strømme-program."
 
 #: index.php:74
 msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."

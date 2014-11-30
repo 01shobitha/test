@@ -180,10 +180,10 @@
     </span>
     </h1>
     <?php
-      $rss = fetch_rss("http://twitter.com/statuses/user_timeline/88776463.rss");
+      $rss = fetch_rss("http://www.videolan.org/_twitter/userrss.php?xrt=0&xrp=1&c=40");
       $i = 0;
       $chars_per_entry = 240;
-      $entries_per_column = 4;
+      $entries_per_column = 5;
       $columns = 1;
       foreach($rss->items as $item) {
         echo '<p style="border-bottom: 1px dashed #CCC;padding-bottom:5px;margin-bottom:5px;direction:ltr; text-align: left;">';

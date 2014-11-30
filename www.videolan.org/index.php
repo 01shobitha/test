@@ -174,7 +174,7 @@
     <?php /* Social and other BS */ ?>
     <h1 style="position:relative">
     <?php echo _("Social media"); ?>
-    <span class="ltrFloatRight" style="padding-right: 20px;">
+    <span class="ltrFloatRight" <?php if ( isRTL( $language ) ) { echo ' style="padding-left: 20px;"'; } else { echo ' style="padding-right: 20px;"'; } ?>>
         <a href="http://www.twitter.com/videolan"><?php image( 'twitter.png', "Twitter" );?></a>
         <a href="http://www.facebook.com/vlc.media.player"><?php image( 'facebook.png', "Facebook" );?></a>
     </span>

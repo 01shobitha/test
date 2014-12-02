@@ -66,9 +66,9 @@
                     </a>
                 </div>
                 <div class="clearme" style='padding-top: 40px;'>
-                    <a href="#stationary" class='noUnderline'>
+                    <a href="#stationery" class='noUnderline'>
                         <img src='//images.videolan.org/images/VLC-IconSmall.png' alt='VLC icon' class='smallProjectImg' />
-                        <span class='productName'>Stationary</span>
+                        <span class='productName'>Stationery</span>
                         <span class='productDescription'>VLC Lights and stickers</span>
                     </a>
                 </div>
@@ -474,8 +474,8 @@ and licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/">t
 
         <div class="clearme" style='padding-top: 30px;'></div>
 
-        <a name="stationary"></a>
-        <h2>Stationaries</h2>
+        <a name="stationery"></a>
+        <h2>Stationeries</h2>
 
             <h3>VLC Stickers and Bumpers</h3>
 

@@ -96,7 +96,8 @@
     <div class="projectDescription" style="clear: left;">
         The VideoLAN projects rely on several mirrors distributed<br />
         around the globe in order to provide faster downloads for<br />
-        everyone. These servers are kindly operated by sponsors.<br/>
+        everyone. These servers are kindly operated by sponsors<br/>
+        and managed by <a href="https://github.com/etix/mirrorbits">Mirrorbits</a>.<br/>
         To be part of our mirror infrastructure please <a href="mailto:mirrors[@]videolan[.]org">contact us</a>.
     </div>
 

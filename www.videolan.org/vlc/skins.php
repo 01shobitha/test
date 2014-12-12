@@ -42,7 +42,7 @@ function AddSkin( $id, $name, $author, $img, $url, $dl, $date, $date_mod, $ratin
   else {
     for( $i=0; $i<5; $i++ ) {
       $v = round(min(1,max(0,$rating-$i)),1)*10;
-      echo "<img alt='".($v>0?'+':'-')."' src='http://images1.videolan.org/vlc/skins2/cone-$v.png' />";
+      echo "<img alt='".($v>0?'+':'-')."' src='http://images1.videolan.org/images/skins/cone-$v.png' />";
     }
   }
   echo "  </div>\n";

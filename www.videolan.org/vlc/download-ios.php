@@ -73,9 +73,9 @@ function vlcscreenshot($img,$thumb, $desc){
 <p> You can find the source code for the last release here:</p>
 
 <?php
-   echo "<code><a href='http://download.videolan.org/pub/videolan/vlc-iOS/$version/vlc-iOS-$version.tar.gz'>VLC for iOS $version source code</a></code><br />"; ?>
-<code><a href="http://download.videolan.org/pub/videolan/vlc-iOS/2.3.0/MediaLibraryKit-2.3.0.tar.gz">MediaLibraryKit 2.3.0 source code</a></code><br />
-<code><a href="http://download.videolan.org/pub/videolan/vlc-iOS/2.3.0/VLCKit-2.2.0-rc1.tar.gz">MobileVLCKit 2.2.0-rc1 source code</a></code><br />
+   echo "<code><a href='http://get.videolan.org/vlc-iOS/$version/vlc-iOS-$version.tar.gz'>VLC for iOS $version source code</a></code><br />"; ?>
+<code><a href="http://get.videolan.org/vlc-iOS/2.3.0/MediaLibraryKit-2.3.0.tar.gz">MediaLibraryKit 2.3.0 source code</a></code><br />
+<code><a href="http://get.videolan.org/vlc-iOS/2.3.0/VLCKit-2.2.0-rc1.tar.gz">MobileVLCKit 2.2.0-rc1 source code</a></code><br />
 
 <p> Additionally, the latest code is always available on our <a href="http://git.videolan.org/?p=vlc-ports/ios.git;a=summary">git repositories</a>.</p>
 
@@ -88,7 +88,8 @@ You can see the <a href="//wiki.videolan.org/iOSCompile">instructions to build</
 <p> You can also get the binary from our servers instead of the App Store:
 
 <?php
-   echo "<code><a href='http://download.videolan.org/pub/videolan/vlc-iOS/$version/vlc-iOS-$version.ipa'>VLC for iOS $version binary</a></code>."; ?>
+   echo "<code><a href='http://get.videolan.org/vlc-iOS/$version/vlc-iOS-$version.ipa'>VLC for iOS $version binary</a></code>."; ?>
+   <br/>A binary version of MobileVLCKit is available through <a href="http://cocoapods.org">CocoaPods</a>.
 </p>
 
 <h2> License </h2>

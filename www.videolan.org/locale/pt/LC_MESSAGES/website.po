@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-18 08:05-0400\n"
-"PO-Revision-Date: 2014-06-15 14:53+0000\n"
+"PO-Revision-Date: 2014-12-19 20:36+0000\n"
 "Last-Translator: Gonçalo Silva <goncaloluisilva@gmail.com>\n"
 "Language-Team: Portuguese (Portugal) (http://www.transifex.com/projects/p/vlc-trans/language/pt_PT/)\n"
 "Language: pt_PT\n"
@@ -182,7 +182,7 @@ msgstr "Site Oficial do VLC - Soluções de multimédia gratuitas para todos os 
 
 #: index.php:26 vlc/index.php:20
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
-msgstr "O VLC é um reprodutor de media e framework gratuito, de código aberto e multi-plataforma que reproduz a maioria dos ficheiros multimédia bem como DVDs, CDs de Áudio, VCDs e vários protocolos de transmição."
+msgstr "O VLC é um reprodutor multimédia e framework gratuitos, de código aberto e multi-plataforma que reproduz a maioria dos ficheiros multimédia bem como DVD's, CD's de Áudio, VCD's e vários protocolos de transmissão."
 
 #: index.php:36
 msgid "Other projects from VideoLAN"

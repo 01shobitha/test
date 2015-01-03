@@ -1,16 +1,16 @@
 # Welsh translation
-# Copyright (C) 2014 VideoLAN
+# Copyright (C) 2015 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Aled Powell <cymrodor@gmail.com>, 2013-2014
-# huwwaters <huwwaters@gmail.com>, 2012
+# Aled Powell <cymrodor@gmail.com>, 2013-2015
+# Huw Waters <huwwaters@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-18 08:05-0400\n"
-"PO-Revision-Date: 2014-05-19 15:43+0000\n"
+"PO-Revision-Date: 2015-01-03 17:18+0000\n"
 "Last-Translator: Aled Powell <cymrodor@gmail.com>\n"
 "Language-Team: Welsh (http://www.transifex.com/projects/p/vlc-trans/language/cy/)\n"
 "Language: cy\n"
@@ -180,7 +180,7 @@ msgstr "VLC: Gwefan swyddogol - Rhaglenni amlgyfrwng am ddim ar gyfer pob OS!"
 
 #: index.php:26 vlc/index.php:20
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
-msgstr "Mae VLC yn chwaraewr a fframwaith amlgyfrwng, cod agored ac am ddim. Mae ar gael ar gyfer nifer o systemau ac yn chwarae bron pob math o ffeiliau fideo a sain yn ogystal â DVD, CD, VCD a gwahanol brotocolau ffrydio."
+msgstr "Mae VLC yn chwaraeydd a fframwaith amlgyfrwng, cod agored ac am ddim. Mae ar gael ar gyfer nifer o systemau ac yn chwarae bron pob math o ffeiliau fideo a sain yn ogystal â DVD, CD, VCD a gwahanol brotocolau ffrydio."
 
 #: index.php:36
 msgid "Other projects from VideoLAN"
@@ -192,7 +192,7 @@ msgstr "I Bawb"
 
 #: index.php:44
 msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
-msgstr "Chwaraewr cyfryngau pwerus yw VLC; mae'n chwarae bron pob fformat a chodec fideo sy'n bodoli."
+msgstr "Chwaraeydd cyfryngau pwerus yw VLC; mae'n chwarae bron pob fformat a chodec fideo sy'n bodoli."
 
 #: index.php:53
 msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
@@ -268,11 +268,11 @@ msgstr "Cyfryngau cymdeithasol"
 
 #: vlc/index.php:3
 msgid "Official page for VLC media player, the Open Source video framework!"
-msgstr "Tudalen swyddogol ar gyfer chwaraewr VLC, y fframwaith fideo cod agored!"
+msgstr "Tudalen swyddogol ar gyfer chwaraeydd VLC - y fframwaith fideo cod agored!"
 
 #: vlc/index.php:40
 msgid "Simple, fast and powerful media player."
-msgstr "Mae'n chwaraewr cyfryngau syml, cyflym a phwerus."
+msgstr "Mae'n chwaraeydd cyfryngau syml, cyflym a phwerus."
 
 #: vlc/index.php:42
 msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
@@ -308,7 +308,7 @@ msgstr "VLC ar gyfer"
 
 #: vlc/index.php:98
 msgid "Official Downloads of VLC media player"
-msgstr "Lawrlwythi swyddogol o chwaraewr VLC"
+msgstr "Lawrlwythi swyddogol o chwaraeydd VLC"
 
 #: vlc/index.php:104
 msgid "Sources"

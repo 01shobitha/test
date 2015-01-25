@@ -254,13 +254,13 @@ for Mac OS X:</p>
 
 
 <p>PlaysItAll made by <a href="http://www.xtremestuff.net/">Asim Siddiqui</a>: </p>
-<img src="//images.videolan.org/images/goodies/vlc_playsitall.png"><img src="//images/goodies/cone_blue_strip_bluetriangle.png">
+<img src="//images.videolan.org/images/goodies/vlc_playsitall.png"><img src="//images.videolan.org/images/goodies/cone_blue_strip_bluetriangle.png">
 
 <p>Cone Icons with blue strip made by <a href="http://www.xtremestuff.net/">Asim Siddiqui</a>: </p>
 
-<img src="//images.videolan.org/images/goodies/cone_blue_strip_orangeround.png"><img src="//images/goodies/cone_blue_strip.png">
+<img src="//images.videolan.org/images/goodies/cone_blue_strip_orangeround.png"><img src="//images.videolan.org/images/goodies/cone_blue_strip.png">
 
-<img src="//images.videolan.org/images/goodies/cone_blue_strip-audio64.png"><img src="//images/goodies/cone_blue_strip-video64.png"><img src="//images/goodies//cone_blue_strip-dvd64.png">
+<img src="//images.videolan.org/images/goodies/cone_blue_strip-audio64.png"><img src="//images.videolan.org/images/goodies/cone_blue_strip-video64.png"><img src="//images.videolan.org/images/goodies/cone_blue_strip-dvd64.png">
 
 <h3>Funny cones for VLC preferences</h3>
 <p>High-Quality Cone icons done by Tom Bigelajzen</p>

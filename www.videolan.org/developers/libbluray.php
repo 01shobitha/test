@@ -2,7 +2,7 @@
    $title ="libbluray";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
-   $libbluray_version = "0.6.0";
+   $libbluray_version = "0.7.0";
 ?>
 
 <h1 class="bigtitle">libbluray</h1>

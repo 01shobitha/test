@@ -1,7 +1,7 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
-|27 January 2014|libbluray 0.7.0, libaacs 0.8.0 and libbdplus 0.1.2 released|The 3 VideoLAN Blu-Ray libraries have been released: <a href="http://www.videolan.org/developers/libbluray.html">libbluray 0.7.0</a>, <a href="http://www.videolan.org/developers/libaacs.html">libaacs 0.8.0</a> and <a href="http://www.videolan.org/developers/libbdplus.html">libbdplus 0.1.2</a> library.<br />Those releases notably improves BD-J support, fonts support and file-system access.
+|27 January 2015|libbluray 0.7.0, libaacs 0.8.0 and libbdplus 0.1.2 released|The 3 VideoLAN Blu-Ray libraries have been released: <a href="http://www.videolan.org/developers/libbluray.html">libbluray 0.7.0</a>, <a href="http://www.videolan.org/developers/libaacs.html">libaacs 0.8.0</a> and <a href="http://www.videolan.org/developers/libbdplus.html">libbdplus 0.1.2</a> library.<br />Those releases notably improves BD-J support, fonts support and file-system access.
 
 |5 September 2014|VLC for Android 0.9.9|VideoLAN and the VLC development team are happy to present a new release for Android. This focuses on fixing crashes, better decoding and update of translations.<br />More info in the <a href="http://git.videolan.org/?p=vlc-ports/android.git;a=blob_plain;f=NEWS;hb=HEAD">release notes</a> and <a href="https://www.videolan.org/vlc/download-android.html">download page</a>.
 

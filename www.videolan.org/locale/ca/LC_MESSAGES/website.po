@@ -1,12 +1,11 @@
 # Catalan translation
-# Copyright (C) 2014 VideoLAN
+# Copyright (C) 2015 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
+# Gos Groc <gosgroc@gmail.com>, 2015
 # jmontane <joan@montane.cat>, 2013
-# jmontane <joan@montane.cat>, 2013
-# martirj <marti.reig@gmail.com>, 2013-2014
-# Pau Iranzo <paugnu@gmail.com>, 2013
+# marti reig <marti.reig@gmail.com>, 2013-2014
 # Pau Iranzo <paugnu@gmail.com>, 2013
 # naxei <xenia.alba@gmail.com>, 2013
 msgid ""
@@ -14,8 +13,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-18 08:05-0400\n"
-"PO-Revision-Date: 2014-05-24 15:00+0000\n"
-"Last-Translator: martirj <marti.reig@gmail.com>\n"
+"PO-Revision-Date: 2015-01-27 14:59+0000\n"
+"Last-Translator: Gos Groc <gosgroc@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/projects/p/vlc-trans/language/ca/)\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -184,7 +183,7 @@ msgstr "VLC: lloc web oficial - Solucions multimèdia gratuïtes i lliures per a
 
 #: index.php:26 vlc/index.php:20
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
-msgstr "VLC és un reproductor multimèdia lliure, multi-plataforma, gratuït i de codi font obert. Reprodueix la majoria de fitxers multimèdia així com DVD, àudio CD, VCD, i protocols diversos de transmissió de dades."
+msgstr "VLC és un reproductor multimèdia lliure, multiplataforma, gratuït i de codi font obert. Reprodueix la majoria de fitxers multimèdia així com DVD, àudio CD, VCD, i protocols diversos de transmissió de dades."
 
 #: index.php:36
 msgid "Other projects from VideoLAN"

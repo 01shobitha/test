@@ -13,6 +13,22 @@ echo"<div class='largescreenshot'><a href='http://images1.videolan.org/vlc/scree
 
 <div id="fullwidth" >
 
+<h2 class="clearme">2.2 - Twoflower</h2>
+                <?php
+                screenshot( "2.2.0/vlc-2.2-macosx-continue-playback.jpg",
+                               "2.2.0/tm_vlc-2.2-macosx-continue-playback.jpg",
+                               "Mac OS X 10.10", "940x340");
+                screenshot( "2.2.0/vlc-ios-2.4-ipad-library.jpg",
+                               "2.2.0/tm_vlc-ios-2.4-ipad-library.jpg",
+                               "iOS 8.1", "2503*1766");
+                screenshot( "2.2.0/vlc-ios-2.4-iphone-library.jpg",
+                               "2.2.0/tm_vlc-ios-2.4-iphone-library.jpg",
+                               "iOS 8.1", "750x1334");
+                screenshot( "2.2.0/vlc-ios-2.4-iphone-playback.jpg",
+                               "2.2.0/tm_vlc-ios-2.4-iphone-playback.jpg",
+                               "iOS 8.1", "1104x621");
+               ?>
+
 <h2 class="clearme">2.0 - Twoflower</h2>
                 <?php
                 screenshot( "2.0.0/vlc-2.0-macosx.jpg",

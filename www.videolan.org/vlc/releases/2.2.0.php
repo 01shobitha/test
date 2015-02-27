@@ -140,16 +140,18 @@
         <div style="width: 940px; margin: 0 auto;">
           <div id="slides" style="margin: 0 auto;">
                 <img src="/vlc/releases/2.2.0/vlc-2.2-mac.gif">
-                <img src="/vlc/releases/2.2.0/VLC_audio.png">
+                <img src="/vlc/releases/2.2.0/VVS.jpg">
                 <img src="/vlc/releases/2.2.0/winrt.jpg">
                 <img src="/vlc/releases/2.2.0/ios-2.4.1-phone.gif">
-                <img src="/vlc/releases/2.2.0/LGPL.gif">
+                <img src="/vlc/releases/2.2.0/android.jpg">
+                <img src="/vlc/releases/2.2.0/addons.png">
          </div>
         <h2 class="subtext" id="text_1">Restart where you left off</h2>
         <h2 class="subtext" style="display: none;" id="text_2">Fight the Vertical Video Syndrome</h2>
         <h2 class="subtext" style="display: none;" id="text_3">Windows Phone and Windows RT</h2>
         <h2 class="subtext" style="display: none;" id="text_4">VLC is back on iOS!</h2>
         <h2 class="subtext" style="display: none;" id="text_5">Material update for Android</h2>
+        <h2 class="subtext" style="display: none;" id="text_6">Addons download from VLC</h2>
         </div>
 
                 <a id='downloadButton' href='#download' style="margin-left: 300px; margin-top: 0px;">

@@ -394,7 +394,7 @@
         <div>
         <a id='downloadButton' href='<?php echo getDownloadLink("vlc", $macosxversion, "macosx/vlc-$macosxversion.dmg" ); ?>' >
                <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
-               <span class='downloadText'><?php echo _("VLC for Mac OS X"); ?></span>
+               <span class='downloadText'><?php echo _("VLC for OS X"); ?></span>
                <span id='downloadDetails' style='font-size: 12px; color: white;'>
                Version <span id='downloadVersion'><?php echo $macosxversion ?></span> - 64bits</span>
            </a>

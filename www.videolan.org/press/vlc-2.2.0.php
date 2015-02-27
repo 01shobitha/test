@@ -63,7 +63,6 @@ VideoLAN and the VLC development teams are proud to publish a major new release 
 <h2>Quotes</h2>
 <h3>Jean-Baptiste Kempf, president of the VideoLAN non-profit:</h3>
 "I'm&nbsp; very happy about those releases. Moving VLC to the mobile world was&nbsp; difficult, but the difficult is done. VLC runs everywhere, plays&nbsp; everything. We're working on many new features for VLC 3.0.0 to finish&nbsp; what we've started here."<br
-/><br
 />"We're quite happy to see that libVLC&nbsp; and the libVLC SDK on all platforms are now demonstrating that this&nbsp; framework is now ready for production."<br
 /><br
 /><h3>Felix Paul Kühne, secretary of the VideoLAN non-profit and iOS Lead Developer</h3>
@@ -79,13 +78,14 @@ VideoLAN is a non-profit organization,&nbsp; with no employees, that supports th
 />There is no business model under VLC usage,&nbsp; and VLC is completely free: we don't use any ads, any spyware or other&nbsp; mis-features, that could be deceptive to the users.<br
 />
 <h2>Links</h2>
-VLC <a href="http://www.videolan.org/vlc/">http://www.videolan.org/vlc/</a><br
+VLC: <a href="http://www.videolan.org/vlc/">http://www.videolan.org/vlc/</a><br />
+VLC 2.2.0 <a href="/vlc/releases/2.2.0.html">http://www.videolan.org/vlc/releases/2.2.0.html</a><br
 />VLC for Android and Android TV:<br
 /><a href="https://play.google.com/store/apps/details?id=org.videolan.vlc">https://play.google.com/store/apps/details?id=org.videolan.vlc</a><br
 />VLC for iOS:<br
 /><a href="https://itunes.apple.com/app/vlc-ios/id650377962">https://itunes.apple.com/app/vlc-ios/id650377962</a><br
 />VLC for Windows Phone:<br
-/>link to come<br
+/><a href="http://www.windowsphone.com/s?appid=44fa83f7-a98d-4647-b9d4-c35ed729d0c9">http://www.windowsphone.com/s?appid=44fa83f7-a98d-4647-b9d4-c35ed729d0c9</a><br
 />VLC for Windows RT:<br
 /><a href="http://apps.microsoft.com/windows/en-us/app/vlc-for-windows-8/c527ff2d-b5d0-45b6-bfc3-92fb7357ef72">http://apps.microsoft.com/windows/en-us/app/vlc-for-windows-8/c527ff2d-b5d0-45b6-bfc3-92fb7357ef72</a><br
 /><br

@@ -9,7 +9,7 @@
 <h1>VLC media player 2.2.0 and VLC mobile port releases</h1>
 <br />
 
-<div class="longtext">
+<div class="longtext productDescription">
  <div class="date"><b>Paris, Feb 27 2015</b></div>
 
 <h2>New VLC releases</h2>
@@ -39,11 +39,12 @@ VideoLAN and the VLC development teams are proud to publish a major new release 
 ><li>On Android, we rewrote most of the UI to match Google Material Design.</li
 ><li>This is the first public beta releases for Windows Phone, Windows RT and Android TV.</li
 ><li>It is also the first non-beta release on Android.</li
-><li><br/></li></ul
->This&nbsp; is made possible through a lot of improvements of the VLC engine, the&nbsp; libVLC library, which starts showing its maturity and solidity.<br
-/><br
-/>Therefore, today, we release:<br
-/><ul><li>VLC media player 2.2.0</li
+><li><br/></li></ul>
+
+<p>This&nbsp; is made possible through a lot of improvements of the VLC engine, the&nbsp; libVLC library, which starts showing its maturity and solidity.</p>
+
+<p>Therefore, today, we release:</p>
+<ul><li>VLC media player 2.2.0</li
 ><li>VLC for iOS 2.4.1</li
 ><li>VLC for Android 1.1.0</li
 ><li>VLC for Android TV 1.1.0</li
@@ -54,21 +55,21 @@ VideoLAN and the VLC development teams are proud to publish a major new release 
 /><br
 />
 <h2>Quotes</h2>
-Jean-Baptiste Kempf, president of the VideoLAN non-profit:<br
+<h3>Jean-Baptiste Kempf, president of the VideoLAN non-profit:</h3>
 />"I'm&nbsp; very happy about those releases. Moving VLC to the mobile world was&nbsp; difficult, but the difficult is done. VLC runs everywhere, plays&nbsp; everything. We're working on many new features for VLC 3.0.0 to finish&nbsp; what we've started here."<br
 /><br
 />"We're quite happy to see that libVLC&nbsp; and the libVLC SDK on all platforms are now demonstrating that this&nbsp; framework is now ready for production."<br
 /><br
-/>Felix Paul Kühne, secretary of the VideoLAN non-profit and iOS Lead Developer<br
+/><h3>Felix Paul Kühne, secretary of the VideoLAN non-profit and iOS Lead Developer</h3>
 />"Synchronizing&nbsp; the release leads to an unprecedented level of run-time stability and&nbsp; future innovation. We are excited about sharing further results from&nbsp; that work later this year."<br
 /><br
 />
 <h2>Notes on 3.0.0</h2>
-/>So&nbsp; far, the development on VLC 3.0.0, which will be released later this&nbsp; year, brings hardware decoding and acceleration to more platforms, a&nbsp; better support for mp4, adaptive streaming and TS streams and a partial&nbsp; ChromeCast integration.<br
+So&nbsp; far, the development on VLC 3.0.0, which will be released later this&nbsp; year, brings hardware decoding and acceleration to more platforms, a&nbsp; better support for mp4, adaptive streaming and TS streams and a partial&nbsp; ChromeCast integration.<br
 /><br
       />
 <h2>About VideoLAN</h2>
-/>VideoLAN is a non-profit organization,&nbsp; with no employees, that supports the development of free and open source&nbsp; multimedia solutions.<br
+VideoLAN is a non-profit organization,&nbsp; with no employees, that supports the development of free and open source&nbsp; multimedia solutions.<br
 />There is no business model under VLC usage,&nbsp; and VLC is completely free: we don't use any ads, any spyware or other&nbsp; mis-features, that could be deceptive to the users.<br
 />
 <h2>Links</h2>

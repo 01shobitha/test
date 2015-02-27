@@ -30,16 +30,13 @@ VideoLAN and the VLC development teams are proud to publish a major new release 
 ><li>Extensions: supported since a long time, we now feature an in-app downloader for the desktop, like Firefox</li
 ><li>Subtitles downloading extension</li
 ><li>Compatibility with a very large number of unusual codecs</li
-><li><br/></li
 ><li>Vastly improved compatibility for problematic files in Ogg, MP4, and WMV.</li
 ><li>Support for Digital Cinema Package to play native movie theater formats.</li
-><li><br/></li
 ><li>Experimental support of Interactive Menus of BluRays: BD-J</li
 ><li>On OS X, we've updated the interface for Yosemite compatibility.</li
 ><li>On Android, we rewrote most of the UI to match Google Material Design.</li
 ><li>This is the first public beta releases for Windows Phone, Windows RT and Android TV.</li
-><li>It is also the first non-beta release on Android.</li
-><li><br/></li></ul>
+><li>It is also the first non-beta release on Android.</li></ul>
 
 <p>This&nbsp; is made possible through a lot of improvements of the VLC engine, the&nbsp; libVLC library, which starts showing its maturity and solidity.</p>
 
@@ -50,18 +47,17 @@ VideoLAN and the VLC development teams are proud to publish a major new release 
 ><li>VLC for Android TV 1.1.0</li
 ><li>VLC for WinRT 1.1.0</li
 ><li>VLC for Windows RT 1.1.0 Beta</li
-><li>VLC for Windows Phone 1.1.0 Beta</li></ul
->We hope that you like our new release as much as we do and we are looking forward to answer any question you might have.<br
-/><br
-/>
+><li>VLC for Windows Phone 1.1.0 Beta</li></ul>
+<p>We hope that you like our new release as much as we do and we are looking forward to answer any question you might have.</p>
+
 <h2>Quotes</h2>
 <h3>Jean-Baptiste Kempf, president of the VideoLAN non-profit:</h3>
-/>"I'm&nbsp; very happy about those releases. Moving VLC to the mobile world was&nbsp; difficult, but the difficult is done. VLC runs everywhere, plays&nbsp; everything. We're working on many new features for VLC 3.0.0 to finish&nbsp; what we've started here."<br
+"I'm&nbsp; very happy about those releases. Moving VLC to the mobile world was&nbsp; difficult, but the difficult is done. VLC runs everywhere, plays&nbsp; everything. We're working on many new features for VLC 3.0.0 to finish&nbsp; what we've started here."<br
 /><br
 />"We're quite happy to see that libVLC&nbsp; and the libVLC SDK on all platforms are now demonstrating that this&nbsp; framework is now ready for production."<br
 /><br
 /><h3>Felix Paul Kühne, secretary of the VideoLAN non-profit and iOS Lead Developer</h3>
-/>"Synchronizing&nbsp; the release leads to an unprecedented level of run-time stability and&nbsp; future innovation. We are excited about sharing further results from&nbsp; that work later this year."<br
+"Synchronizing&nbsp; the release leads to an unprecedented level of run-time stability and&nbsp; future innovation. We are excited about sharing further results from&nbsp; that work later this year."<br
 /><br
 />
 <h2>Notes on 3.0.0</h2>

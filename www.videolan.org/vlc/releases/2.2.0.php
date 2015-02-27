@@ -368,7 +368,7 @@
 
 
         </div>
-
+ -->
         <div class="clearme"></div>
 
         <a name="download" id="getit"></a>
@@ -380,7 +380,6 @@
            <a href="https://twitter.com/videolan/status/430813648332660736"><img src='//images.videolan.org/images/twitter.png' alt='Twitter' /></a>
            <a href="https://plus.google.com/+vlc/posts/9i6gqyAUwJq"><img src='//images.videolan.org/images/gplus.png'></a>
         </p>
-        </div>-->
 
         <h1>Download VLC</h1>
         <h2>Windows</h2>

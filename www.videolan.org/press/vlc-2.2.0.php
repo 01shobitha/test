@@ -12,6 +12,7 @@
 <div class="longtext">
  <div class="date"><b>Paris, Feb 27 2015</b></div>
 
+<h2>New VLC releases</h2>
 <p>
 VideoLAN and the VLC development teams are proud to publish a major new release of VLC.<br
 /><br
@@ -19,9 +20,9 @@ VideoLAN and the VLC development teams are proud to publish a major new release 
 /><br
 />Those&nbsp; releases are the result of more than one year of volunteer work, add&nbsp; numerous new features, fix more than one thousand bugs and improves&nbsp; the scope of the formats supported.<br
 />The releases on all the platforms share the same core to support video and audio formats, named libVLC:<i> VLC plays everything!</i><br
-/><br
-/>So, what's new in VLC 2.2.0, codename WeatherWax?<br
-/><ul><li>Fight&nbsp; the popular vertical video syndrome! VLC automatically detects rotated&nbsp; videos and rotates them using hardware acceleration (on compatible&nbsp; platforms)!</li
+/>
+<h2>So, what's new in VLC 2.2.0, codename WeatherWax?</h2>
+<ul><li>Fight&nbsp; the popular vertical video syndrome! VLC automatically detects rotated&nbsp; videos and rotates them using hardware acceleration (on compatible&nbsp; platforms)!</li
 ><li>This is supported for MP4/MOV, MKV and raw H264.</li
 ><li>Resume playback&nbsp; where you left off. Supported on all the mobile versions of VLC for&nbsp; quite some time, it is now available on the desktop.</li
 ><li>Vastly improved support for UltraHD video codecs like VP9 and H265, including encoding.</li

@@ -177,7 +177,7 @@
             <h1 style='margin-bottom: 12px;'><?php echo _("2.2.0 Highlights"); ?></h1>
                 <div class='projectDescription'>
                     <div style="padding-bottom: 8px;">VLC 2.2.0 "Weatherwax" is a major update of VLC</div>
-                    <div>VLC 2.2.0 auto-rotate the videos taken from phones, to fight VVS!</div>
+                    <div>VLC 2.2.0 auto-rotate the videos taken from phones, to fight <a href="https://www.youtube.com/watch?v=Bt9zSfinwFA">VVS!</a></div>
                     <div>More support for Ultra HD codecs, VP9 and H.265/HEVC, including for encoding.</div>
                     <div>Extensions are now downloadable from within the application.</div>
                     <div>VLSub extension can download subtitles from the application.</div>

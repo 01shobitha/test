@@ -105,7 +105,7 @@
       color: #9e2020
     }
 
-    .subtext { position: relative; top: -20px; left:200px; width: 400px; text-align: center; } 
+    .subtext { position: relative; top: -20px; left:250px; width: 400px; text-align: center; }
 
 </style>
             <script>
@@ -116,7 +116,7 @@
                   navigation: {
                         active: true,
                         effect: "slide"
-                  }, 
+                  },
                   play: {
                          active: false,
                          effect: "slide",
@@ -127,12 +127,12 @@
                          restartDelay: 3000
                  },
                  callback: {
-                         complete: function(number) { 
+                         complete: function(number) {
                                 var selector = "#text_" + number;
                                 $(".subtext").css("display", "none");
                                 $(selector).css("display", "block");
                          }
-                 } 
+                 }
                 });
               });
             </script>
@@ -187,7 +187,7 @@
             </div>
             <?php image( 'largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?>
         </div>
-<!-- 
+<!--
 <p>So, what's new in <b>VLC 2.2.0</b>, codename <i>WeatherWax</i>?</p>
 <ul><li>Fight&nbsp; the popular vertical video syndrome! VLC automatically detects rotated&nbsp; videos and rotates them using hardware acceleration (on compatible&nbsp; platforms)!</li
 ><li>This is supported for MP4/MOV, MKV and raw H264.</li

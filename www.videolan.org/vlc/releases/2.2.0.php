@@ -411,6 +411,13 @@
             <h2  style="margin-top: 30px;">Windows Phone</h2>
             <a href="http://www.windowsphone.com/s?appid=44fa83f7-a98d-4647-b9d4-c35ed729d0c9"><img src="/images/badges/WPS_cyan.png" /></a>
         </div>
+
+        <div class="clearme"></div>
+        <div>
+            <h2  style="margin-top: 30px;">iOS</h2>
+            <a href="http://itunes.apple.com/app/vlc-ios/id650377962"><img src="/images/appstoredownload-en.png" /></a>
+        </div>
+
         <div class="clearme"></div>
         <div style="float: right; width: 400px; margin-top: 15px;">
          <h2>Linux</h2>

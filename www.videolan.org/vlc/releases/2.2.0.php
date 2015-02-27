@@ -383,6 +383,7 @@
             <a href="https://www.reddit.com/r/technology/comments/2xd2wu/vlc_220_multirelease/">Reddit</a>
         </p>
 
+        <div>
         <h1>Download VLC</h1>
         <h2>Windows</h2>
            <a id='downloadButton' href='<?php echo getDownloadLink("vlc", $win32version, "win32/vlc-$win32version-win32.exe"); ?>' >
@@ -391,9 +392,9 @@
                <span id='downloadDetails' style='font-size: 12px; color: white;'>
                Version <span id='downloadVersion'><?php echo $win32version ?></span>
            </a>
-        <div></div>
-        <h2 style="margin-top: 30px;">OS X</h2>
+        </div>
         <div>
+        <h2 style="margin-top: 30px;">OS X</h2>
         <a id='downloadButton' href='<?php echo getDownloadLink("vlc", $macosxversion, "macosx/vlc-$macosxversion.dmg" ); ?>' >
                <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
                <span class='downloadText'><?php echo _("VLC for OS X"); ?></span>

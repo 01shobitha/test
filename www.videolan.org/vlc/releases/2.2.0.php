@@ -140,16 +140,16 @@
         <div style="width: 940px; margin: 0 auto;">
           <div id="slides" style="margin: 0 auto;">
                 <img src="/vlc/releases/2.2.0/vlc-2.2-mac.gif">
-                <img src="/vlc/releases/2.1.0/VLC_audio.png">
+                <img src="/vlc/releases/2.2.0/VLC_audio.png">
                 <img src="/vlc/releases/2.2.0/winrt.jpg">
-                <img src="/vlc/releases/2.1.0/VLC_iOS.gif">
-                <img src="/vlc/releases/2.1.0/LGPL.gif">
+                <img src="/vlc/releases/2.2.0/ios-2.4.1-phone.gif">
+                <img src="/vlc/releases/2.2.0/LGPL.gif">
          </div>
         <h2 class="subtext" id="text_1">Restart where you left off</h2>
-        <h2 class="subtext" style="display: none;" id="text_2">New Audio Core</h2>
+        <h2 class="subtext" style="display: none;" id="text_2">Fight the Vertical Video Syndrome</h2>
         <h2 class="subtext" style="display: none;" id="text_3">Windows Phone and Windows RT</h2>
-        <h2 class="subtext" style="display: none;" id="text_4">New iOS release</h2>
-        <h2 class="subtext" style="display: none;" id="text_5">Material update for VLC on Android</h2>
+        <h2 class="subtext" style="display: none;" id="text_4">VLC is back on iOS!</h2>
+        <h2 class="subtext" style="display: none;" id="text_5">Material update for Android</h2>
         </div>
 
                 <a id='downloadButton' href='#download' style="margin-left: 300px; margin-top: 0px;">
@@ -174,19 +174,70 @@
             <div style='float: left; width: 500px;'>
             <h1 style='margin-bottom: 12px;'><?php echo _("2.2.0 Highlights"); ?></h1>
                 <div class='projectDescription'>
-                    <div style="padding-bottom: 8px;">With the capabilities of "RinceWind", 2.2.0 fixes a few bugs, and important security issues</div>
-                    <div>2.2.0 fixes a few decoding bugs, on MP3, MKV, and hardware decoding on Windows.</div>
-                    <div>It also fixes QTsound capture and audio channel orders for OS X.</div>
-                    <div>2.2.0 also ships with updated GnuTLS and libpng libraries, because of security issues.</div>
-                    <div style="float: right;">Read the <a href="http://www.videolan.org/developers/vlc-branch/NEWS">Changelog</a></div>
-
+                    <div style="padding-bottom: 8px;">VLC 2.2.0 "Weatherwax" is a major update of VLC</div>
+                    <div>VLC 2.2.0 auto-rotate the videos taken from phones, to fight VVS!</div>
+                    <div>It has more support for Ultra HD codecs, VP9 and H.265, including encoding.</div>
+                    <div>Extensions are now downloadable from within the application.</div>
+                    <div>New version for iOS, Android, Windows Phone and Windows RT.</div>
+                    <div>New beta s are now downloadable from within the application.</div>
+                    <div style="float: right;">Read the <a href="/press/vlc-2.2.0.html">Press release</a></div>
                 </div>
             </div>
             <?php image( 'largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?>
         </div>
+<!-- 
+<p>So, what's new in <b>VLC 2.2.0</b>, codename <i>WeatherWax</i>?</p>
+<ul><li>Fight&nbsp; the popular vertical video syndrome! VLC automatically detects rotated&nbsp; videos and rotates them using hardware acceleration (on compatible&nbsp; platforms)!</li
+><li>This is supported for MP4/MOV, MKV and raw H264.</li
+><li>Resume playback&nbsp; where you left off. Supported on all the mobile versions of VLC for&nbsp; quite some time, it is now available on the desktop.</li
+><li>Vastly improved support for UltraHD video codecs like VP9 and H265, including encoding.</li
+><li>New&nbsp; hardware acceleration mechanism, GPU 0-copy decoding, faster and&nbsp; implementations for Linux, Android, and Raspberry Pi. (Other OSes will&nbsp; have it in 3.0.0)</li
+><li>Extensions: supported since a long time, we now feature an in-app downloader for the desktop, like Firefox</li
+><li>Subtitles downloading extension</li
+><li>Compatibility with a very large number of unusual codecs</li
+><li>Vastly improved compatibility for problematic files in Ogg, MP4, and WMV.</li
+><li>Support for Digital Cinema Package to play native movie theater formats.</li
+><li>Experimental support of Interactive Menus of BluRays: BD-J</li
+><li>On OS X, we've updated the interface for Yosemite compatibility.</li
+><li>On Android, we rewrote most of the UI to match Google Material Design.</li
+><li>This is the first public beta releases for Windows Phone, Windows RT and Android TV.</li
+><li>It is also the first non-beta release on Android.</li></ul>
 
+<p>This&nbsp; is made possible through a lot of improvements of the VLC engine, the&nbsp; libVLC library, which starts showing its maturity and solidity.</p>
+-->
         <div class="clearme" style='padding-top: 20px;'>
-            <h1 style='margin-bottom: 12px;'> 2.1.0 <?php echo _("Features"); ?></h1>
+            <h1 style='margin-bottom: 12px;'> 2.2.0 <?php echo _("Features"); ?></h1>
+
+            <div style='float: left; width: 480px; margin-bottom: 25px;'>
+                <div class='audienceCallout'><?php echo _("Audio"); ?></div>
+                <div class='clearme'>
+                    <div class='productDescription'>
+<p>Therefore, today, we release:</p>
+<ul><li>VLC media player 2.2.0</li
+><li>VLC for iOS 2.4.1</li
+><li>VLC for Android 1.1.0</li
+><li>VLC for Android TV 1.1.0</li
+><li>VLC for WinRT 1.1.0</li
+><li>VLC for Windows RT 1.1.0 Beta</li
+><li>VLC for Windows Phone 1.1.0 Beta</li></ul>
+<p>We hope that you like our new release as much as we do and we are looking forward to answer any question you might have.</p>
+                    </div>
+                </div>
+ <!--
+<h2>Quotes</h2>
+<h3>Jean-Baptiste Kempf, president of the VideoLAN non-profit:</h3>
+"I'm&nbsp; very happy about those releases. Moving VLC to the mobile world was&nbsp; difficult, but the difficult is done. VLC runs everywhere, plays&nbsp; everything. We're working on many new features for VLC 3.0.0 to finish&nbsp; what we've started here."<br
+/>"We're quite happy to see that libVLC&nbsp; and the libVLC SDK on all platforms are now demonstrating that this&nbsp; framework is now ready for production."<br
+/><br
+/><h3>Felix Paul Kühne, secretary of the VideoLAN non-profit and iOS Lead Developer:</h3>
+"Synchronizing&nbsp; the release leads to an unprecedented level of run-time stability and&nbsp; future innovation. We are excited about sharing further results from&nbsp; that work later this year."<br
+/><br
+/><h3>Ludovic Fauvet, treasurer of the VideoLAN non-profit:</h3>
+"The VideoLAN community shows this time again an unprecedented level of professionalism in releasing VLC media player 2.2.0 simultaneously on all supported platforms. This is a groundbreaking change that any contributor can be proud of."<br
+/><br
+/
+        <div class="clearme" style='padding-top: 20px;'>
+            <h1 style='margin-bottom: 12px;'> 2.2.0 <?php echo _("Features"); ?></h1>
 
             <div style='float: left; width: 480px; margin-bottom: 25px;'>
                 <div class='audienceCallout'><?php echo _("Audio"); ?></div>
@@ -328,7 +379,7 @@
            <a href="https://twitter.com/videolan/status/430813648332660736"><img src='//images.videolan.org/images/twitter.png' alt='Twitter' /></a>
            <a href="https://plus.google.com/+vlc/posts/9i6gqyAUwJq"><img src='//images.videolan.org/images/gplus.png'></a>
         </p>
-        </div>
+        </div>-->
 
         <h1>Download VLC</h1>
         <h2>Windows</h2>

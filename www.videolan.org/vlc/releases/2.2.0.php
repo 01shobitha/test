@@ -139,17 +139,17 @@
 
         <div style="width: 940px; margin: 0 auto;">
           <div id="slides" style="margin: 0 auto;">
-                <img src="/vlc/releases/2.1.0/VLC-2.1-MacOS.gif">
+                <img src="/vlc/releases/2.2.0/vlc-2.2-mac.gif">
                 <img src="/vlc/releases/2.1.0/VLC_audio.png">
-                <img src="/vlc/releases/2.1.0/VLC_Subtitles.gif">
+                <img src="/vlc/releases/2.2.0/winrt.jpg">
                 <img src="/vlc/releases/2.1.0/VLC_iOS.gif">
                 <img src="/vlc/releases/2.1.0/LGPL.gif">
          </div>
-        <h2 class="subtext" id="text_1">Faster Video decoding</h2>
+        <h2 class="subtext" id="text_1">Restart where you left off</h2>
         <h2 class="subtext" style="display: none;" id="text_2">New Audio Core</h2>
-        <h2 class="subtext" style="display: none;" id="text_3">Advanced Subtitles</h2>
-        <h2 class="subtext" style="display: none;" id="text_4">Android and iOS ports</h2>
-        <h2 class="subtext" style="display: none;" id="text_5">libVLC sdk is now LGPL!</h2>
+        <h2 class="subtext" style="display: none;" id="text_3">Windows Phone and Windows RT</h2>
+        <h2 class="subtext" style="display: none;" id="text_4">New iOS release</h2>
+        <h2 class="subtext" style="display: none;" id="text_5">Material update for VLC on Android</h2>
         </div>
 
                 <a id='downloadButton' href='#download' style="margin-left: 300px; margin-top: 0px;">

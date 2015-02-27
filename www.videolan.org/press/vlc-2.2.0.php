@@ -65,8 +65,11 @@ VideoLAN and the VLC development teams are proud to publish a major new release 
 "I'm&nbsp; very happy about those releases. Moving VLC to the mobile world was&nbsp; difficult, but the difficult is done. VLC runs everywhere, plays&nbsp; everything. We're working on many new features for VLC 3.0.0 to finish&nbsp; what we've started here."<br
 />"We're quite happy to see that libVLC&nbsp; and the libVLC SDK on all platforms are now demonstrating that this&nbsp; framework is now ready for production."<br
 /><br
-/><h3>Felix Paul Kühne, secretary of the VideoLAN non-profit and iOS Lead Developer</h3>
+/><h3>Felix Paul Kühne, secretary of the VideoLAN non-profit and iOS Lead Developer:</h3>
 "Synchronizing&nbsp; the release leads to an unprecedented level of run-time stability and&nbsp; future innovation. We are excited about sharing further results from&nbsp; that work later this year."<br
+/><br
+/><h3>Ludovic Fauvet, treasurer of the VideoLAN non-profit:</h3>
+"The VideoLAN community shows this time again an unprecedented level of professionalism in releasing VLC media player 2.2.0 simultaneously on all supported platforms. This is a groundbreaking change that any contributor can be proud of."<br
 /><br
 />
 <h2>Notes on 3.0.0</h2>

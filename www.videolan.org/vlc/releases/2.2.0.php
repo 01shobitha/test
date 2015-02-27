@@ -1,5 +1,5 @@
 <?php
-   $title = _("VLC 2.1.5 Rincewind");
+   $title = _("VLC 2.2.0 Weatherwax");
    $body_color = "red";
    $language = "";
    $nobanner = true;
@@ -9,12 +9,12 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
 
-   $macosxversion = "2.1.5";
-   $win32version = "2.1.5";
+   $macosxversion = "2.2.0";
+   $win32version = "2.2.0";
 ?>
     <div>
-            <center><h1 class='bigtitle' style="padding-bottom: 3px;">VLC reaches <b>2.1.5</b></h1>
-            <div style="padding-top: 0px; padding-bottom: 10px; color: grey;">VLC 2.1.5 is the fifth minor update of our popular media player "Rincewind".</div>
+            <center><h1 class='bigtitle' style="padding-bottom: 3px;">VLC <b>2.2.0</b> multi-releases</h1>
+            <div style="padding-top: 0px; padding-bottom: 10px; color: grey;">VLC 2.2.0 is the first version of "Weatherwax" branch of our popular media player.</div>
             </center>
 
             <style>
@@ -156,7 +156,7 @@
                     <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
                     <span class='downloadText'><?php echo _("Get VLC now!"); ?></span>
                     <span id='downloadDetails' style='font-size: 12px; color: white;'>
-                    Version <span id='downloadVersion'>2.1.5</span>
+                    Version <span id='downloadVersion'>2.2.0</span>
                     </span>
                 </a>
                 <script>
@@ -172,12 +172,12 @@
 
         <div class="clearme" style='padding-top: 30px;'>
             <div style='float: left; width: 500px;'>
-            <h1 style='margin-bottom: 12px;'><?php echo _("2.1.5 Highlights"); ?></h1>
+            <h1 style='margin-bottom: 12px;'><?php echo _("2.2.0 Highlights"); ?></h1>
                 <div class='projectDescription'>
-                    <div style="padding-bottom: 8px;">With the capabilities of "RinceWind", 2.1.5 fixes a few bugs, and important security issues</div>
-                    <div>2.1.5 fixes a few decoding bugs, on MP3, MKV, and hardware decoding on Windows.</div>
+                    <div style="padding-bottom: 8px;">With the capabilities of "RinceWind", 2.2.0 fixes a few bugs, and important security issues</div>
+                    <div>2.2.0 fixes a few decoding bugs, on MP3, MKV, and hardware decoding on Windows.</div>
                     <div>It also fixes QTsound capture and audio channel orders for OS X.</div>
-                    <div>2.1.5 also ships with updated GnuTLS and libpng libraries, because of security issues.</div>
+                    <div>2.2.0 also ships with updated GnuTLS and libpng libraries, because of security issues.</div>
                     <div style="float: right;">Read the <a href="http://www.videolan.org/developers/vlc-branch/NEWS">Changelog</a></div>
 
                 </div>
@@ -339,7 +339,7 @@
                Version <span id='downloadVersion'><?php echo $win32version ?></span>
            </a>
         <div class="clearme"></div>
-        <h2 style="margin-top: 30px;">Mac OS X</h2>
+        <h2 style="margin-top: 30px;">OS X</h2>
         <div>
         <a id='downloadButton' href='<?php echo getDownloadLink("vlc", $macosxversion, "macosx/vlc-$macosxversion.dmg" ); ?>' >
                <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
@@ -352,7 +352,7 @@
         <div class="clearme"></div>
         <div style="float: right; width: 400px; margin-top: 15px;">
          <h2>Linux</h2>
-         <p>Ask your favorite packager for VLC 2.1!</p>
+         <p>Ask your favorite packager for VLC 2.2!</p>
         </div>
         <h2 style="margin-top: 30px;">Sources</h2>
         <a href="/vlc/download-sources.html">Get the source!</a>

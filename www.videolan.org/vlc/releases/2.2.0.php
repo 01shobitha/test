@@ -206,10 +206,9 @@
 <p>This&nbsp; is made possible through a lot of improvements of the VLC engine, the&nbsp; libVLC library, which starts showing its maturity and solidity.</p>
 -->
         <div class="clearme" style='padding-top: 20px;'>
-            <h1 style='margin-bottom: 12px;'> 2.2.0 Releases</h1>
+            <h1 style='margin-bottom: 12px;'> 2.2.0 multiple releases</h1>
 
             <div style='float: left; width: 480px; margin-bottom: 25px;'>
-                <div class='audienceCallout'><?php echo _("Audio"); ?></div>
                 <div class='clearme'>
                     <div class='productDescription'>
 <p>Therefore, today, we release:</p>

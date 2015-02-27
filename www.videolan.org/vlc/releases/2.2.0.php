@@ -178,8 +178,9 @@
                 <div class='projectDescription'>
                     <div style="padding-bottom: 8px;">VLC 2.2.0 "Weatherwax" is a major update of VLC</div>
                     <div>VLC 2.2.0 auto-rotate the videos taken from phones, to fight VVS!</div>
-                    <div>It has vastly better support for Ultra HD codecs, VP9 and H.265, including for encoding.</div>
+                    <div>More support for Ultra HD codecs, VP9 and H.265, including for encoding.</div>
                     <div>Extensions are now downloadable from within the application.</div>
+                    <div>VLSub extension can download subtitles from the application.</div>
                     <div>New version for iOS, Android, Windows Phone and Windows RT.</div>
                     <div>New beta s are now downloadable from within the application.</div>
                     <div style="float: right;">Read the <a href="/press/vlc-2.2.0.html">Press release</a></div>
@@ -376,10 +377,11 @@
         <div class="clearme"></div>
         <div style="float: right; width: 400px;">
         <h1>Spread the news</h1>
+           <a href="https://www.facebook.com/vlc.media.player/posts/10203127913417945" style="padding-top: 10px;"><img src='//images.videolan.org/images/facebook.png' alt='Facebook' /></a>
+           <a href="https://twitter.com/videolan/status/430813648332660736"><img src='//images.videolan.org/images/twitter.png' alt='Twitter' /></a>
+           <a href="https://plus.google.com/+vlc/posts/9i6gqyAUwJq"><img src='//images.videolan.org/images/gplus.png'></a>
             <a href="https://news.ycombinator.com/item?id=9119587">Hacker News</a>
             <a href="https://www.reddit.com/r/technology/comments/2xd2wu/vlc_220_multirelease/">Reddit</a>
-            <a href="https://plus.google.com/+vlc">Google+</a>
-            <a href="https://www.facebook.com/vlc.media.player">Facebook</a>
         </p>
 
         <h1>Download VLC</h1>

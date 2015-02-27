@@ -21,7 +21,8 @@ VideoLAN and the VLC development teams are proud to publish a major new release 
 />Those&nbsp; releases are the result of more than one year of volunteer work, add&nbsp; numerous new features, fix more than one thousand bugs and improves&nbsp; the scope of the formats supported.<br
 />The releases on all the platforms share the same core to support video and audio formats, named libVLC:<i> VLC plays everything!</i><br
 />
-<h2>So, what's new in VLC 2.2.0, codename WeatherWax?</h2>
+<h2>News</h2>
+<p>So, what's new in <b>VLC 2.2.0</b>, codename <i>WeatherWax</i>?</p>
 <ul><li>Fight&nbsp; the popular vertical video syndrome! VLC automatically detects rotated&nbsp; videos and rotates them using hardware acceleration (on compatible&nbsp; platforms)!</li
 ><li>This is supported for MP4/MOV, MKV and raw H264.</li
 ><li>Resume playback&nbsp; where you left off. Supported on all the mobile versions of VLC for&nbsp; quite some time, it is now available on the desktop.</li

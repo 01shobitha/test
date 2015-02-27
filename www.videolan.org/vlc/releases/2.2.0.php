@@ -105,7 +105,7 @@
       color: #9e2020
     }
 
-    .subtext { position: relative; top: -20px; left:300px; width: 300px; text-align: center; } 
+    .subtext { position: relative; top: -20px; left:200px; width: 400px; text-align: center; } 
 
 </style>
             <script>

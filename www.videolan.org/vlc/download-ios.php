@@ -8,7 +8,7 @@
 
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
-   $version = "2.3.0";
+   $version = "2.4.1";
 ?>
 
     <h1 class="bigtitle"> VLC for iOS <?php echo $version; ?></h1>
@@ -30,9 +30,10 @@ You can synchronize media to your device using WiFi Upload, iTunes, Dropbox, or 
   <li>Play MKV, multiple audio tracks (including 5.1), and subtitles tracks (including SSA!).</li>
   <li>Support for network streams, including HLS, MMS or RTSP.</li>
   <li>Include video filters, playback speed manipulation, and fine seeking.</li>
-  <li>A media library, with WiFi Upload, Dropbox & Google Drive integration and optional passcode lock.</li>
+  <li>A media library, with WiFi Uploads & Downloads, Dropbox & Google Drive integration and optional passcode lock.</li>
   <li>Integration for bluetooth headsets and AirPlay.</li>
-  <li>Local Network service discovery with UPnP</li>
+  <li>Local Network service discovery with UPnP and native support for Plex</li>
+  <li>On-the-fly audio and subtitles track synchronization</li>
   <li>Supports iOS 6.1 or later</li>
   <li>Full 64bit support on latest iPhone and latest iPad</li>
   <li>Completely free, libre and open source.</li>
@@ -64,7 +65,7 @@ function vlcscreenshot($img,$thumb, $desc){
 </div>
 
 <h2> Devices and iOS version </h2>
-<p>VLC for iOS requires iOS 6.1 or later. It runs on any iPhone, iPad, or iPod touch. For iOS 5.1, an older version is <a href="https://wiki.videolan.org/Documentation:IOS/#Installation_on_iOS_5.1">still available</a>.</p>
+<p>VLC for iOS requires iOS 6.1 or later. It runs on any iPhone, iPad, or iPod touch.</p>
 
 <h2> Support </h2>
 <p> You need help with VLC for iOS? Be sure to check <a href="http://forum.videolan.org/viewforum.php?f=12">our forum</a>.</p>
@@ -74,10 +75,8 @@ function vlcscreenshot($img,$thumb, $desc){
 
 <?php
    echo "<code><a href='http://get.videolan.org/vlc-iOS/$version/vlc-iOS-$version.tar.gz'>VLC for iOS $version source code</a></code><br />"; ?>
-<code><a href="http://get.videolan.org/vlc-iOS/2.3.0/MediaLibraryKit-2.3.0.tar.gz">MediaLibraryKit 2.3.0 source code</a></code><br />
-<code><a href="http://get.videolan.org/vlc-iOS/2.3.0/VLCKit-2.2.0-rc1.tar.gz">MobileVLCKit 2.2.0-rc1 source code</a></code><br />
-
-<p> Additionally, the latest code is always available on our <a href="http://git.videolan.org/?p=vlc-ports/ios.git;a=summary">git repositories</a>.</p>
+<code><a href="http://get.videolan.org/vlc-iOS/2.4.0/MediaLibraryKit-2.4.0.tar.gz">MediaLibraryKit 2.4.0 source code</a></code><br />
+<code><a href="http://get.videolan.org/vlc-iOS/2.4.0/VLCKit-2.2.0.tar.gz">MobileVLCKit 2.2.0 source code</a></code><br />
 
 <h2> Developers </h2>
 <p> VLC for iOS is quite new and developed by volunteers! We therefore welcome all contributions.<br />

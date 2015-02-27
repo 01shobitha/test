@@ -245,13 +245,13 @@
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>Rewritten audio core, allowing better volume and device management.</li>
-                           <li>Rewrite of the audio modules, to adapt to the new core.</li>
-                           <li>Correct support for multi-channel layouts in all formats: 5.1, 6.1 and 7.1</li>
-                           <li>New audio outputs for Windows Vista, Android, iOS, OpenBSD and OSSv4.</li>
-                           <li>New remapping, gain, stereo widening, downmixing effects.</li>
-                           <li>Higher samplerate, precision, live configuration in the core.</li>
-                           <li>Numerous new audio metadata format supported.</li>
+                           <li>Device notifications for WASAPI.</li>
+                           <li>Improved SPDIF passthru support.</li>
+                           <li></li>
+                           <li></li>
+                           <li></li>
+                           <li></li>
+                           <li></li>
                         </ul>
                     </div>
                 </div>
@@ -261,13 +261,13 @@
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>Port the OpenGL output to OpenGL ES.</li>
-                           <li>Support color conversion shaders in glsl on Android and iOS.</li>
-                           <li>New outputs for OpenMax IL on mobile and Decklink Blackmagic.</li>
-                           <li>New video outputs for iOS using OpenGL ES2.</li>
-                           <li>Support for deinterlacing for higher bit depth and XYZ colorspace.</li>
-                           <li>New anaglyph filter for side-by-side 3D.</li>
-                           <li>4K-ready :)</li>
+                           <li>GPU accelerated auto-rotation using streams metadata.</li>
+                           <li>Direct rendering for VDPAU and Mediacodec hardware acceleration.</li>
+                           <li>MMAL video output for RaspberryPi.</li>
+                           <li>OpenGL video output for Android.</li>
+                           <li>HLSL shaders in Direct3D video output.</li>
+                           <li></li>
+                           <li></li>
                         </ul>
                     </div>
                 </div>
@@ -278,13 +278,12 @@
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>Add hardware decoding for OS X using VDADecoder.</li>
-                           <li>Add hardware decoding for Android using MediaCodec.</li>
-                           <li>Add hardware decoding for GNU/Linux using VDPAU.</li>
-                           <li>Add hardware encoding for Windows using Intel QuickSyncVideo.</li>
-                           <li>Support for G2M4, MSS1, MSS2, TSCC2, CDXL, Ut, VBLE video codecs.</li>
-                           <li>Support for Ulead DV audio, Indeo Audio Coder, RealAudio Lossless audio.</li>
-                           <li>Support for SCTE-27 and complete EIA-608 subtitles.</li>
+                           <li>Media Foundation transform audio and video decoder.</li>
+                           <li>Libvpx decoder for VP8 and VP9.</li>
+                           <li></li>
+                           <li></li>
+                           <li>New jpeg, SVG and tx3g decoders.</li>
+                           <li>Support for MSN audio, Atrac3+, VP7, Bink, TAK, On2 AVC, DK3, DK4, IMC, Vivo g723.1, Smacker, FIC, Auravision, Canopus Lossless</li>
                         </ul>
                     </div>
                 </div>
@@ -294,12 +293,13 @@
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>Support for fragmented MP4, Wave/RF64 files.</li>
-                           <li>Extended metadata tags and cover art support in Ogg, AVI, MP4 and MKV.</li>
-                           <li>Support FLAC, Atrac, ADPCM, DV Type 1, 12bits DV audio in AVI.</li>
-                           <li>Extended support for AVI, MKV and MJPEG streams.</li>
-                           <li>Better recording of AVI and MKV format.</li>
-                           <li>Audio fingerprinting using AcoustID.</li>
+                           <li>Basic support for WebVTT.</li>
+                           <li>Support for Core Audio Format (CAF).</li>
+                           <li>Support for Opus in MKV and VP8 in OGG.</li>
+                           <li>Support for DCP and encrypted DCP with KDM.</li>
+                           <li>HEVC raw packetizer and demuxer.</li>
+                           <li></li>
+                           <li></li>
                         </ul>
                     </div>
                 </div>
@@ -310,27 +310,27 @@
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>Support for screen input on OSX Lion and later.</li>
-                           <li>Support for Microsoft Smooth Streaming, developed by <a href="http://viotech.net">Viotech.net</a></li>
-                           <li>New RTMP input module, using libavformat!</li>
-                           <li>Support for VNC/rfb and Remote Desktop view-only modes.</li>
-                           <li>Important improvements on Blu-Ray, Dash, v4l2 and HTTP inputs.</li>
-                           <li>New AVFoundation OS X and shm framebuffer inputs.</li>
+                           <li>Overlays and BD-J navigation support for Blu-Ray</li>
+                           <li></li>
+                           <li></li>
+                           <li></li>
+                           <li></li>
+                           <li></li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div style='float: left; width: 480px;'>
-                <div class='audienceCallout'><?php echo _("For Anime Fans"); ?></div>
+                <div class='audienceCallout'><?php echo _("User Interface"); ?></div>
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>New 6.1 downmixer to 5.1 and Stereo from MKV/Flac 6.1.</li>
-                           <li>Correct YUV->RGB color matrix in the OpenGL shaders.</li>
-                           <li>Improved MKV support for seeking, and resiliancy.</li>
-                           <li>Editions support in MKV.</li>
-                           <li>Better subtitles and metadata support from MKV.</li>
-                           <li>Various ASS subtitles improvements.</li>
+                           <li>New extensions manager to download and install plugins.</li>
+                           <li>Resume playback where you left off.</li>
+                           <li></li>
+                           <li></li>
+                           <li></li>
+                           <li></li>
                         </ul>
                     </div>
                 </div>
@@ -341,12 +341,12 @@
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>Port to Android, from 2.1 to 4.3, on ARMv6, ARMv7, x86 and MIPS.</li>
-                           <li>New port to iOS, from iOS 5 to 7, on all iPads and iPhones after 3GS.</li>
-                           <li>Partial port to WinRT, for Windows 8, 8.1 and WP8.</li>
-                           <li>OpenGL ES optimized outputs.</li>
-                           <li>Improvements of OpenMAX IL decoders, encoders and renderers.</li>
-                           <li>New audio, video outputs and interfaces for mobiles.</li>
+                           <li></li>
+                           <li></li>
+                           <li></li>
+                           <li></li>
+                           <li></li>
+                           <li></li>
                         </ul>
                     </div>
                 </div>
@@ -356,11 +356,12 @@
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>libVLC and most modules are now <a href="/press/lgpl-libvlc.html">LGPLv2.1+</a>.</li>
-                           <li>libVLC media framework can now be used in all types of applications.</li>
-                           <li>libVLC SDK packages now exists, in addition to more examples.</li>
-                           <li>Improved libVLC API, for better control.</li>
-                           <li>VLC's web plugins now support windowless mode, for smoother integration with HTML elements.</li>
+                           <li>Add equalizer API to libVLC.</li>
+                           <li>Relicensing of many modules from GPLv2+ to LGPLv2.1+</li>
+                           <li></li>
+                           <li></li>
+                           <li></li>
+                           <li></li>
                         </ul>
                     </div>
                 </div>

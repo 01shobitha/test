@@ -393,8 +393,8 @@
                Version <span id='downloadVersion'><?php echo $win32version ?></span>
            </a>
         </div>
-        <h2 style="margin-top: 30px;">OS X</h2>
         <div class="clearme"></div>
+        <h2 style="margin-top: 30px;">OS X</h2>
         <div>
         <a id='downloadButton' href='<?php echo getDownloadLink("vlc", $macosxversion, "macosx/vlc-$macosxversion.dmg" ); ?>' >
                <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />

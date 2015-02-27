@@ -176,7 +176,7 @@
                 <div class='projectDescription'>
                     <div style="padding-bottom: 8px;">VLC 2.2.0 "Weatherwax" is a major update of VLC</div>
                     <div>VLC 2.2.0 auto-rotate the videos taken from phones, to fight VVS!</div>
-                    <div>It has more support for Ultra HD codecs, VP9 and H.265, including encoding.</div>
+                    <div>It has vastly better support for Ultra HD codecs, VP9 and H.265, including for encoding.</div>
                     <div>Extensions are now downloadable from within the application.</div>
                     <div>New version for iOS, Android, Windows Phone and Windows RT.</div>
                     <div>New beta s are now downloadable from within the application.</div>
@@ -206,7 +206,7 @@
 <p>This&nbsp; is made possible through a lot of improvements of the VLC engine, the&nbsp; libVLC library, which starts showing its maturity and solidity.</p>
 -->
         <div class="clearme" style='padding-top: 20px;'>
-            <h1 style='margin-bottom: 12px;'> 2.2.0 <?php echo _("Features"); ?></h1>
+            <h1 style='margin-bottom: 12px;'> 2.2.0 Releases</h1>
 
             <div style='float: left; width: 480px; margin-bottom: 25px;'>
                 <div class='audienceCallout'><?php echo _("Audio"); ?></div>
@@ -215,9 +215,9 @@
 <p>Therefore, today, we release:</p>
 <ul><li>VLC media player 2.2.0</li
 ><li>VLC for iOS 2.4.1</li
-><li>VLC for Android 1.1.0</li
-><li>VLC for Android TV 1.1.0</li
 ><li>VLC for WinRT 1.1.0</li
+><li>VLC for Android 1.1.0 Test</li
+><li>VLC for Android TV 1.1.0</li
 ><li>VLC for Windows RT 1.1.0 Beta</li
 ><li>VLC for Windows Phone 1.1.0 Beta</li></ul>
 <p>We hope that you like our new release as much as we do and we are looking forward to answer any question you might have.</p>

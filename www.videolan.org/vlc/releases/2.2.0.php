@@ -419,6 +419,8 @@
         <ul>
             <li><a href="https://news.ycombinator.com/item?id=9119587">Hacker News</a></li>
             <li><a href="https://www.reddit.com/r/technology/comments/2xd2wu/vlc_220_multirelease/">Reddit</a></li>
+            <li><a href="https://plus.google.com/+vlc">Google+</a></li>
+            <li><a href="https://www.facebook.com/vlc.media.player">Facebook</a></li>
         </ul>
 
 

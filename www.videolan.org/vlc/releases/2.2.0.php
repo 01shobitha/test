@@ -393,8 +393,9 @@
                Version <span id='downloadVersion'><?php echo $win32version ?></span>
            </a>
         </div>
-        <div class="clearme">
         <h2 style="margin-top: 30px;">OS X</h2>
+        <div class="clearme"></div>
+        <div>
         <a id='downloadButton' href='<?php echo getDownloadLink("vlc", $macosxversion, "macosx/vlc-$macosxversion.dmg" ); ?>' >
                <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
                <span class='downloadText'><?php echo _("VLC for OS X"); ?></span>
@@ -404,8 +405,9 @@
         </div>
 
 
-        <div class="clearme">
-            <h2>Windows Phone</h2>
+        <div class="clearme"></div>
+        <div>
+            <h2  style="margin-top: 30px;">Windows Phone</h2>
             <a href="http://www.windowsphone.com/s?appid=44fa83f7-a98d-4647-b9d4-c35ed729d0c9"><img src="/images/badges/WPS_cyan.png" /></a>
         </div>
         <div class="clearme"></div>

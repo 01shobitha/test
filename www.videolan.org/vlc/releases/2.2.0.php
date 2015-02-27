@@ -415,6 +415,14 @@
 
 
         <div class="clearme"></div>
+        <h1>Related links</h1>
+        <ul>
+            <li><a href="https://news.ycombinator.com/item?id=9119587">Hacker News</a></li>
+            <li><a href="https://www.reddit.com/r/technology/comments/2xd2wu/vlc_220_multirelease/">Reddit</a></li>
+        </ul>
+
+
+        <div class="clearme"></div>
         <h1>Contact</h1>
         <p>For any questions related to this release, please <a href="/contact.html">contact us</a>.</p>
 

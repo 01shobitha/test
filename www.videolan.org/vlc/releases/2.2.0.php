@@ -406,8 +406,10 @@
          <h2>Linux</h2>
          <p>Ask your favorite packager for VLC 2.2!</p>
         </div>
+        <div class="clearme"></div>
         <h2 style="margin-top: 30px;">Sources</h2>
         <a href="/vlc/download-sources.html">Get the source!</a>
+        <div class="clearme"></div>
         <h2 style="margin-top: 10px;">Changelog</h2>
         <a href="/developers/vlc-branch/NEWS">Changelog</a>
 

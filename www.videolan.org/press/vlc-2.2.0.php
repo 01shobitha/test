@@ -12,6 +12,7 @@ p { font-size:14px; line-height: 22px; }
     .subtext { position: relative; top: -20px; left:300px; width: 300px; text-align: center; } 
 .productDescription li { margin-left: 20px; }
 
+h3 { color: #999; font-size: 16px; }
 </style>
 
 <h1>VLC media player 2.2.0 and VLC mobile port releases</h1>

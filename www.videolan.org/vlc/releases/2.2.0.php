@@ -307,23 +307,25 @@
                     </div>
                 </div>
             </div>
-            <!--
 
-            <div class="clearme" style='float: left; width: 480px; margin-bottom: 20px;'>
-                <div class='audienceCallout'><?php echo _("Input and Devices")?></div>
+            <div style='float: left; width: 480px;'>
+                <div class='audienceCallout'><?php echo _("Platform integration")?></div>
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li></li>
-                           <li></li>
-                           <li></li>
-                           <li></li>
-                           <li></li>
+                           <li>Port of the interface to Yosemite</li>
+                           <li>Support drag'n drop in the skins2 interface</li>
+                           <li>New TLS module on OS X and iOS, using the central store</li>
+                           <li>Signature of the Windows binaries</li>
+                           <li>Improvement of audio device detections on OS X and Windows</li>
+                           <li>Support of audio ducking in various audio outputs</li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div style='float: left; width: 480px;'>
+
+            <!--
+            <div class="clearme" style='float: left; width: 480px; margin-bottom: 20px;'>
                 <div class='audienceCallout'><?php echo _("User Interface"); ?></div>
                 <div class='clearme'>
                     <div class='productDescription'>

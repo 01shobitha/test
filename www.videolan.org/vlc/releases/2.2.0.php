@@ -292,26 +292,22 @@
                 </div>
             </div>
 
-            <!--
-
-
-        <div class="clearme" style='padding-top: 20px;'>
-            <h1 style='margin-bottom: 12px;'> 2.2.0 multiple releases</h1>
-
-            <div style='float: left; width: 480px; margin-bottom: 25px;'>
+            <div class="clearme" style='float: left; width: 480px; margin-bottom: 20px;'>
+                <div class='audienceCallout'><?php echo _("Mobile Versions"); ?></div>
                 <div class='clearme'>
                     <div class='productDescription'>
-<p>Therefore, today, we release:</p>
-<ul><li>VLC media player 2.2.0</li
-><li>VLC for iOS 2.4.1</li
-><li>VLC for WinRT 1.1.0</li
-><li>VLC for Android 1.1.0 Test</li
-><li>VLC for Android TV 1.1.0</li
-><li>VLC for Windows RT 1.1.0 Beta</li
-><li>VLC for Windows Phone 1.1.0 Beta</li></ul>
-<p>We hope that you like our new release as much as we do and we are looking forward to answer any question you might have.</p>
+                        <ul>
+                           <li>VLC for iOS 2.4.1 release is out</li>
+                           <li>VLC for Windows Phone 1.1.0 public beta is out</li>
+                           <li>VLC for WinRT 1.1.0, x86 and ARM</li>
+                           <li>VLC for Android TV 1.1.0</li>
+                           <li>VLC for Android 1.1.0 beta</li>
+                           <li>VLC for iOS 2.5.0 is in testing</li>
+                        </ul>
                     </div>
                 </div>
+            </div>
+            <!--
 
             <div class="clearme" style='float: left; width: 480px; margin-bottom: 20px;'>
                 <div class='audienceCallout'><?php echo _("Input and Devices")?></div>

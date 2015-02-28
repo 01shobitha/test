@@ -242,14 +242,14 @@
                 </div>
             </div>
             <div style='float: left; width: 480px;'>
-                <div class='audienceCallout'><?php echo _("Format"); ?></div>
+                <div class='audienceCallout'><?php echo _("Formats"); ?></div>
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
                            <li>Support for BD-Java menus and overlay in Blu-Ray</li>
                            <li>Acceleration of VP9 and H.265/HEVC decoders</li>
                            <li>Support for encoding in H.265, Opus and VP9</li>
-                           <li>Rewritten support for WMV, Ogg, MP4 and MP4</li>
+                           <li>Rewritten support for WMV, Ogg, MP4 and AVI, notably for seeking</li>
                            <li>Support for WebVTT, Ogg/VP8, Opus/MKV</li>
                            <li>Support for DCP and encrypted DCP with KDM</li>
                            <li>Support for THP, Renderware videogames files</li>
@@ -257,6 +257,41 @@
                     </div>
                 </div>
             </div>
+
+            <div class="clearme" style='float: left; width: 480px; margin-bottom: 20px;'>
+                <div class='audienceCallout'><?php echo _("Acceleration"); ?></div>
+                <div class='clearme'>
+                    <div class='productDescription'>
+                        <ul>
+                           <li>GPU 0-copy decoding-rendering for Android using MediaCodec</li>
+                           <li>GPU accelerated auto-rotation, in OpenGL, Direct3D and Mediacodec</li>
+                           <li>GPU 0-copy decoding-rendering for Linux using VDPAU</li>
+                           <li>Support for HLSL shaders in Direct3D video output</li>
+                           <li>Media Foundation Transform audio and video decoder for Windows Vista+</li>
+                           <li>GPU 0-copy decoding-rendering for RaspberryPi using MMAL</li>
+                           <li>OpenMAX IL improvements for Android, Linux and rPi</li>
+                        </ul>
+                    </div>
+                </div>
+            </div> <!--
+            <div style='float: left; width: 480px;'>
+                <div class='audienceCallout'><?php echo _("Formats"); ?></div>
+                <div class='clearme'>
+                    <div class='productDescription'>
+                        <ul>
+                          <li>HEVC raw packetizer and demuxer.</li>
+                           <li>Libvpx decoder for VP8 and VP9.</li>
+                           <li></li>
+                           <li></li>
+                           <li>New jpeg, SVG and tx3g decoders.</li>
+                           <li>Support for MSN audio, Atrac3+, VP7, Bink, TAK, On2 AVC, DK3, DK4, IMC, Vivo g723.1, Smacker, FIC, Auravision, Canopus Lossless</li>
+                           <li></li>
+                           <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
 
         <div class="clearme" style='padding-top: 20px;'>
             <h1 style='margin-bottom: 12px;'> 2.2.0 multiple releases</h1>
@@ -275,40 +310,6 @@
 <p>We hope that you like our new release as much as we do and we are looking forward to answer any question you might have.</p>
                     </div>
                 </div>
-
-<!--
-            <div class="clearme" style='float: left; width: 480px; margin-bottom: 20px;'>
-                <div class='audienceCallout'><?php echo _("Codecs"); ?></div>
-                <div class='clearme'>
-                    <div class='productDescription'>
-                        <ul>
-                           <li>GPU accelerated auto-rotation using streams metadata.</li>
-                           <li>Direct rendering for VDPAU and Mediacodec hardware acceleration.</li>
-                           <li>MMAL video output for RaspberryPi.</li>
-                           <li>OpenGL video output for Android.</li>
-                           <li>HLSL shaders in Direct3D video output.</li>
-                           <li>Media Foundation transform audio and video decoder.</li>
-                           <li>Libvpx decoder for VP8 and VP9.</li>
-                           <li></li>
-                           <li></li>
-                           <li>New jpeg, SVG and tx3g decoders.</li>
-                           <li>Support for MSN audio, Atrac3+, VP7, Bink, TAK, On2 AVC, DK3, DK4, IMC, Vivo g723.1, Smacker, FIC, Auravision, Canopus Lossless</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div style='float: left; width: 480px;'>
-                <div class='audienceCallout'><?php echo _("Formats"); ?></div>
-                <div class='clearme'>
-                    <div class='productDescription'>
-                        <ul>
-                          <li>HEVC raw packetizer and demuxer.</li>
-                           <li></li>
-                           <li></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
 
             <div class="clearme" style='float: left; width: 480px; margin-bottom: 20px;'>
                 <div class='audienceCallout'><?php echo _("Input and Devices")?></div>

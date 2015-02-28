@@ -237,27 +237,46 @@
 "The VideoLAN community shows this time again an unprecedented level of professionalism in releasing VLC media player 2.2.0 simultaneously on all supported platforms. This is a groundbreaking change that any contributor can be proud of."<br
 /><br
 /
+-->
         <div class="clearme" style='padding-top: 20px;'>
             <h1 style='margin-bottom: 12px;'> 2.2.0 <?php echo _("Features"); ?></h1>
 
             <div style='float: left; width: 480px; margin-bottom: 25px;'>
-                <div class='audienceCallout'><?php echo _("Audio"); ?></div>
+                <div class='audienceCallout'><?php echo _("Core"); ?></div>
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>Device notifications for WASAPI.</li>
-                           <li>Improved SPDIF passthru support.</li>
-                           <li></li>
-                           <li></li>
-                           <li></li>
-                           <li></li>
-                           <li></li>
+                           <li>Auto-rotation of phone movies, to fight Vertical Video Syndrome</li>
+                           <li>Resume playback where you left off</li>
+                           <li>Extensions API and repository to download extensions directly from the application</li>
+                           <li>GPU 0-copy support for decoding and displaying using hardware</li>
+                           <li>Subtitles download from the web, using OpenSubtitles</li>
+                           <li>Audio core upgrade, notably to support short samples</li>
+                           <li>Improved support for UltraHD codecs, H.265 and VP9</li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div style='float: left; width: 480px;'>
-                <div class='audienceCallout'><?php echo _("Video"); ?></div>
+                <div class='audienceCallout'><?php echo _("Format"); ?></div>
+                <div class='clearme'>
+                    <div class='productDescription'>
+                        <ul>
+                           <li>Support for BD-Java menus and overlay in Blu-Ray</li>
+                           <li>Acceleration of VP9 and H.265/HEVC decoders</li>
+                           <li>Support for encoding in H.265, Opus and VP9</li>
+                           <li>Rewritten support for WMV, Ogg, MP4 and MP4</li>
+                           <li>Support for WebVTT, Ogg/VP8, Opus/MKV</li>
+                           <li>Support for DCP and encrypted DCP with KDM</li>
+                           <li>Support for THP, Renderware videogames files</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+<!--
+            <div class="clearme" style='float: left; width: 480px; margin-bottom: 20px;'>
+                <div class='audienceCallout'><?php echo _("Codecs"); ?></div>
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
@@ -266,18 +285,6 @@
                            <li>MMAL video output for RaspberryPi.</li>
                            <li>OpenGL video output for Android.</li>
                            <li>HLSL shaders in Direct3D video output.</li>
-                           <li></li>
-                           <li></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="clearme" style='float: left; width: 480px; margin-bottom: 20px;'>
-                <div class='audienceCallout'><?php echo _("Codecs"); ?></div>
-                <div class='clearme'>
-                    <div class='productDescription'>
-                        <ul>
                            <li>Media Foundation transform audio and video decoder.</li>
                            <li>Libvpx decoder for VP8 and VP9.</li>
                            <li></li>
@@ -293,11 +300,7 @@
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>Basic support for WebVTT.</li>
-                           <li>Support for Core Audio Format (CAF).</li>
-                           <li>Support for Opus in MKV and VP8 in OGG.</li>
-                           <li>Support for DCP and encrypted DCP with KDM.</li>
-                           <li>HEVC raw packetizer and demuxer.</li>
+                          <li>HEVC raw packetizer and demuxer.</li>
                            <li></li>
                            <li></li>
                         </ul>
@@ -310,7 +313,6 @@
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>Overlays and BD-J navigation support for Blu-Ray</li>
                            <li></li>
                            <li></li>
                            <li></li>
@@ -326,7 +328,6 @@
                     <div class='productDescription'>
                         <ul>
                            <li>New extensions manager to download and install plugins.</li>
-                           <li>Resume playback where you left off.</li>
                            <li></li>
                            <li></li>
                            <li></li>

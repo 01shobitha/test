@@ -251,7 +251,7 @@
                            <li>Support for encoding in H.265, Opus and VP9</li>
                            <li>Rewritten support for WMV, Ogg, MP4 and AVI, notably for seeking</li>
                            <li>Support for WebVTT, Ogg/VP8, Opus/MKV</li>
-                           <li>Support for DCP and encrypted DCP with KDM</li>
+                           <li>Support for Digital Cinema Packages and encrypted DCP with KDM</li>
                            <li>Support for THP, Renderware videogames files</li>
                         </ul>
                     </div>
@@ -270,27 +270,29 @@
                            <li>Media Foundation Transform audio and video decoder for Windows Vista+</li>
                            <li>GPU 0-copy decoding-rendering for RaspberryPi using MMAL</li>
                            <li>OpenMAX IL improvements for Android, Linux and rPi</li>
-                        </ul>
-                    </div>
-                </div>
-            </div> <!--
-            <div style='float: left; width: 480px;'>
-                <div class='audienceCallout'><?php echo _("Formats"); ?></div>
-                <div class='clearme'>
-                    <div class='productDescription'>
-                        <ul>
-                          <li>HEVC raw packetizer and demuxer.</li>
-                           <li>Libvpx decoder for VP8 and VP9.</li>
-                           <li></li>
-                           <li></li>
-                           <li>New jpeg, SVG and tx3g decoders.</li>
-                           <li>Support for MSN audio, Atrac3+, VP7, Bink, TAK, On2 AVC, DK3, DK4, IMC, Vivo g723.1, Smacker, FIC, Auravision, Canopus Lossless</li>
-                           <li></li>
-                           <li></li>
+                           <li>Support GStreamer codecs</li>
                         </ul>
                     </div>
                 </div>
             </div>
+            <div style='float: left; width: 480px;'>
+                <div class='audienceCallout'><?php echo _("Codecs / Protocols"); ?></div>
+                <div class='clearme'>
+                    <div class='productDescription'>
+                        <ul>
+                           <li>Support for MMS split streams for audio selection (European Parliament)</li>
+                           <li>Support FTPS (FTP/TLS) protocol</li>
+                           <li>New decoder for VP8 and VP9 using libvpx for Linux distributions without avcodec</li>
+                           <li>Improvements on Teletext, Subrip, and Tx3g subtitles</li>
+                           <li>Support for MSN audio, Atrac3+, VP7, Bink, TAK, On2 AVC, DK3, DK4 </li>
+                           <li>Support for IMC, Vivo g723.1, Smacker, FIC, Auravision, Canopus Lossless</li>
+                           <li>Support x264 and FFv1 codecs RGB modes </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!--
 
 
         <div class="clearme" style='padding-top: 20px;'>

@@ -173,16 +173,17 @@
                 </script>
 
         <div class="clearme" style='padding-top: 30px;'>
-            <div style='float: left; width: 500px;'>
+            <div style='float: left; width: 600px;'>
             <h1 style='margin-bottom: 12px;'><?php echo _("2.2.0 Highlights"); ?></h1>
                 <div class='projectDescription'>
-                    <div style="padding-bottom: 8px;">VLC 2.2.0 "Weatherwax" is a major update of VLC</div>
-                    <div>VLC 2.2.0 auto-rotate the videos taken from phones, to fight <a href="https://www.youtube.com/watch?v=Bt9zSfinwFA">VVS!</a></div>
-                    <div>More support for Ultra HD codecs, VP9 and H.265/HEVC, including for encoding.</div>
+                    <div style="padding-bottom: 8px;">VLC 2.2.0 "Weatherwax" is a new major update of VLC.</div>
+                    <div>VLC 2.2.0 auto-rotates the videos taken from phones, to fight <a href="https://www.youtube.com/watch?v=Bt9zSfinwFA">Vertical Video Syndrome!</a></div>
+                    <div>VLC now resumes where you left off in all versions</div>
+                    <div>Improves support for new HD codecs, VP9, opus and H.265/HEVC, for decoding and for encoding.</div>
                     <div>Extensions are now downloadable from within the application.</div>
                     <div>VLSub extension can download subtitles from the application.</div>
-                    <div>New version and beta for iOS, Android, Windows Phone and Windows RT are available.</div>
-                    <div style="float: right;">Read the <a href="/press/vlc-2.2.0.html">Press release</a>.</div>
+                    <div>We release at the same time, new versions and betas for iOS, Android, Windows Phone, Android TV and Windows RT.</div>
+                    <div style="float: right;">Read the <a href="/press/vlc-2.2.0.html">Press release</a> and the <a href="/developers/vlc/NEWS"/>Changelog</a>.</div>
                 </div>
             </div>
             <?php image( 'largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?>

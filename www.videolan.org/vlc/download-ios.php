@@ -75,8 +75,8 @@ function vlcscreenshot($img,$thumb, $desc){
 
 <?php
    echo "<code><a href='http://get.videolan.org/vlc-iOS/$version/vlc-iOS-$version.tar.gz'>VLC for iOS $version source code</a></code><br />"; ?>
-<code><a href="http://get.videolan.org/vlc-iOS/2.4.0/MediaLibraryKit-2.4.0.tar.gz">MediaLibraryKit 2.4.0 source code</a></code><br />
-<code><a href="http://get.videolan.org/vlc-iOS/2.4.0/VLCKit-2.2.0.tar.gz">MobileVLCKit 2.2.0 source code</a></code><br />
+<code><a href="http://get.videolan.org/vlc-iOS/2.4.1/MediaLibraryKit-2.4.0.tar.gz">MediaLibraryKit 2.4.0 source code</a></code><br />
+<code><a href="http://get.videolan.org/vlc-iOS/2.4.1/VLCKit-2.2.0.tar.gz">MobileVLCKit 2.2.0 source code</a></code><br />
 
 <h2> Developers </h2>
 <p> VLC for iOS is quite new and developed by volunteers! We therefore welcome all contributions.<br />

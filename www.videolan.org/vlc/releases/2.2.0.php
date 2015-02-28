@@ -175,7 +175,7 @@
         <div class="clearme" style='padding-top: 30px;'>
             <div style='float: left; width: 600px;'>
             <h1 style='margin-bottom: 12px;'><?php echo _("2.2.0 Highlights"); ?></h1>
-                <div class='projectDescription'>
+                <div class='projectDescription' style="width: 600px;">
                     <div style="padding-bottom: 8px;">VLC 2.2.0 "Weatherwax" is a new major update of VLC.</div>
                     <div>VLC 2.2.0 auto-rotates the videos taken from phones, to fight <a href="https://www.youtube.com/watch?v=Bt9zSfinwFA">Vertical Video Syndrome!</a></div>
                     <div>VLC now resumes where you left off in all versions</div>
@@ -186,7 +186,7 @@
                     <div style="float: right;">Read the <a href="/press/vlc-2.2.0.html">Press release</a> and the <a href="/developers/vlc/NEWS"/>Changelog</a>.</div>
                 </div>
             </div>
-            <?php image( 'largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?>
+            <div style='float: left; width: 200px;'><?php image( 'largeVLC.png', 'Large Orange VLC media player Traffic Cone Logo', 'projectImg' ); ?></div>
         </div>
 <!--
 <p>So, what's new in <b>VLC 2.2.0</b>, codename <i>WeatherWax</i>?</p>

@@ -387,6 +387,7 @@
             <a href="https://news.ycombinator.com/item?id=9119587">Hacker News</a>
             <a href="https://www.reddit.com/r/technology/comments/2xd2wu/vlc_220_multirelease/">Reddit</a>
         </p>
+	</div>
 
         <div>
         <h1>Download VLC</h1>

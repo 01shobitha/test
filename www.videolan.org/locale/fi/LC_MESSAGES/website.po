@@ -1,17 +1,17 @@
 # Finnish translation
-# Copyright (C) 2014 VideoLAN
+# Copyright (C) 2015 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
 # Olli <ollinpostit@gmail.com>, 2013
 # Rikkokiri <pilvi.rajala@gmail.com>, 2014
-# Vesa Nilakari, 2014
+# Vesa Nilakari, 2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-18 08:05-0400\n"
-"PO-Revision-Date: 2014-07-08 03:19+0000\n"
+"PO-Revision-Date: 2015-03-03 21:11+0000\n"
 "Last-Translator: Vesa Nilakari\n"
 "Language-Team: Finnish (http://www.transifex.com/projects/p/vlc-trans/language/fi/)\n"
 "Language: fi\n"
@@ -55,7 +55,7 @@ msgstr "Projekti ja organisaatio"
 
 #: include/header.php:284 include/header.php:416
 msgid "Team"
-msgstr "joukkue"
+msgstr "Tiimi"
 
 #: include/header.php:285 include/header.php:418
 msgid "Contact us"
@@ -141,7 +141,7 @@ msgstr "UKK"
 
 #: include/header.php:338 include/header.php:417 include/header.php:446
 msgid "Legal"
-msgstr "oikeudellinen"
+msgstr "Lailliset"
 
 #: include/header.php:340 include/header.php:404
 msgid "Forums"
@@ -157,11 +157,11 @@ msgstr "Raportoi ongelmasta"
 
 #: include/header.php:346
 msgid "Dev' Zone"
-msgstr "Dev-Zone"
+msgstr "Kehittäjien alue"
 
 #: include/header.php:401
 msgid "Community"
-msgstr "yhteisön"
+msgstr "Yhteisö"
 
 #: include/header.php:424
 msgid "Get Involved"
@@ -213,7 +213,7 @@ msgstr "multicat on sarja työkaluja jotka on suunniteltu multicast-streamien ja
 
 #: index.php:83
 msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
-msgstr "x264 on ilmainen sovellus koodaus videokuvan osaksi H.264/MPEG-4 AVC-muodossa."
+msgstr "x264 on ilmainen sovellus videovirtautusten koodaamiseksi H.264/MPEG-4 AVC-muodossa."
 
 #: index.php:91
 msgid "For Developers"
@@ -237,7 +237,7 @@ msgstr "  Kaikki kustannukset täyttyvät lahjoituksilla saamme käyttäjiä. Jo
 
 #: index.php:114 index.php:126 index.php:137
 msgid "Learn More"
-msgstr "Lue lisää"
+msgstr "Opi lisää"
 
 #: index.php:123
 msgid "VideoLAN is open-source software."
@@ -245,11 +245,11 @@ msgstr "VideoLAN on avoimen lähdekoodin ohjelmisto."
 
 #: index.php:124
 msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
-msgstr "Tämä tarkoittaa, että jos sinulla on taito ja halu parantaa jonkin tuotteistamme, sinunmaksut ovat tervetulleita"
+msgstr "Tämä tarkoittaa, että jos sinulla on taito ja halu parantaa jotakin tuotteistamme, osallistumisesi on tervetullutta"
 
 #: index.php:131
 msgid "Spread the Word"
-msgstr "Levittämään sanaa"
+msgstr "Levitä sanaa"
 
 #: index.php:135
 msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
@@ -261,11 +261,11 @@ msgstr "Uutiset ja päivitykset"
 
 #: index.php:151
 msgid "Development Blogs"
-msgstr "kehittäminen Blogit"
+msgstr "Kehitysblogit"
 
 #: index.php:176
 msgid "Social media"
-msgstr "sosiaalinen media"
+msgstr "Sosiaalinen media"
 
 #: vlc/index.php:3
 msgid "Official page for VLC media player, the Open Source video framework!"
@@ -309,15 +309,15 @@ msgstr "Hanki VLC"
 
 #: vlc/index.php:98
 msgid "Official Downloads of VLC media player"
-msgstr "Viralliset VLC-mediatoistimen lataukset"
+msgstr "VLC-mediatoistimen viralliset ladattavat tiedostot"
 
 #: vlc/index.php:104
 msgid "Sources"
-msgstr "lähteet"
+msgstr "Lähteet"
 
 #: vlc/index.php:105
 msgid "You can also directly get the"
-msgstr "Voit myös suoraan saada"
+msgstr "Voit myös suoraan hankkia"
 
 #: vlc/index.php:106
 msgid "source code"

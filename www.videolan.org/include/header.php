@@ -4,6 +4,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/include/layout_helper.php");
 function getLocaleFromLanguage( $language )
 {
     switch ($language) {
+    case 'af': $locale = "af_ZA.utf8"; break;
     case 'an': $locale = "an_ES.utf8"; break;
     case 'ar': $locale = "ar_EG.utf8"; break;
     case 'ast': $locale = "ast_ES.utf8"; break;

@@ -1,0 +1,322 @@
+# Afrikaans translation
+# Copyright (C) 2015 VideoLAN
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Gideon Wentink <gjwentink@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: VLC - Trans\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-05-18 08:05-0400\n"
+"PO-Revision-Date: 2015-03-04 12:59+0000\n"
+"Last-Translator: Gideon Wentink <gjwentink@gmail.com>\n"
+"Language-Team: Afrikaans (http://www.transifex.com/projects/p/vlc-trans/language/af/)\n"
+"Language: af\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: include/header.php:221
+msgid "A project and a"
+msgstr "’n Projek en ’n"
+
+#: include/header.php:221
+msgid "non-profit organization"
+msgstr "nie-winsgewende organisasie"
+
+#: include/header.php:222
+msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
+msgstr "bestaande uit vrywilligers wat gratis, oopbron multimediaprogrammatuur ontwikkel en bevorder."
+
+#: include/header.php:228 include/header.php:242 include/header.php:256
+#: index.php:107
+msgid "donate"
+msgstr "skenk"
+
+#: include/header.php:228
+msgid "why?"
+msgstr "hoekom?"
+
+#: include/header.php:275
+msgid "Home"
+msgstr "Tuis"
+
+#: include/header.php:278 include/header.php:425
+msgid "News"
+msgstr "Nuus"
+
+#: include/header.php:283 include/header.php:415
+msgid "Project and Organization"
+msgstr "Projek en Organisasie"
+
+#: include/header.php:284 include/header.php:416
+msgid "Team"
+msgstr "Span"
+
+#: include/header.php:285 include/header.php:418
+msgid "Contact us"
+msgstr "Kontak ons"
+
+#: include/header.php:286 include/header.php:419
+msgid "Partners"
+msgstr "Vennote"
+
+#: include/header.php:287 include/header.php:420
+msgid "Mirrors"
+msgstr "Spieëls"
+
+#: include/header.php:288 include/header.php:421
+msgid "Press center"
+msgstr "Perssentrum"
+
+#: include/header.php:289 include/header.php:422
+msgid "Events"
+msgstr "Gebeure"
+
+#: include/header.php:290 include/header.php:423
+msgid "Security center"
+msgstr "Sekuriteitsentrum"
+
+#: include/header.php:296
+msgid "Download"
+msgstr "Laai af"
+
+#: include/header.php:297 include/header.php:378 index.php:28 vlc/index.php:22
+#: vlc/index.php:39
+msgid "Features"
+msgstr "Kenmerke"
+
+#: include/header.php:298 include/header.php:379 index.php:29 vlc/index.php:23
+#: vlc/index.php:65
+msgid "Screenshots"
+msgstr "Skermgrepe"
+
+#: include/header.php:299 include/header.php:376 index.php:30 vlc/index.php:24
+msgid "Skins"
+msgstr "Velle"
+
+#: include/header.php:300 include/header.php:377
+msgid "Extensions"
+msgstr "Uitbreidings"
+
+#: include/header.php:304
+msgid "Projects"
+msgstr "Projekte"
+
+#: include/header.php:322 include/header.php:383
+msgid "All Projects"
+msgstr "Alle Projekte"
+
+#: include/header.php:326 index.php:119
+msgid "Contribute"
+msgstr "Dra By"
+
+#: include/header.php:328 include/header.php:408
+msgid "Donate time"
+msgstr "Skenk tyd"
+
+#: include/header.php:329 include/header.php:407
+msgid "Donate money"
+msgstr "Skenk geld"
+
+#: include/header.php:330 include/header.php:409
+msgid "Get Goodies"
+msgstr "Kry Lekkernye"
+
+#: include/header.php:334
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: include/header.php:336
+msgid "Support center"
+msgstr "Ondersteuningsentrum"
+
+#: include/header.php:337 include/header.php:406
+msgid "FAQ"
+msgstr "Gereelde Vrae"
+
+#: include/header.php:338 include/header.php:417 include/header.php:446
+msgid "Legal"
+msgstr "Wetlik"
+
+#: include/header.php:340 include/header.php:404
+msgid "Forums"
+msgstr "Forums"
+
+#: include/header.php:341 include/header.php:405
+msgid "Mailing-Lists"
+msgstr "E-poslyste"
+
+#: include/header.php:342
+msgid "Report a bug"
+msgstr "Rapporteer ’n fout"
+
+#: include/header.php:346
+msgid "Dev' Zone"
+msgstr "Ontw’sone"
+
+#: include/header.php:401
+msgid "Community"
+msgstr "Gemeenskap"
+
+#: include/header.php:424
+msgid "Get Involved"
+msgstr "Raak Betrokke"
+
+#: include/os-specific.php:93 vlc/index.php:27
+msgid "Download VLC"
+msgstr "Laai VLC Af"
+
+#: include/os-specific.php:99 vlc/index.php:34 vlc/index.php:127
+msgid "Other Systems"
+msgstr "Ander Stelsels"
+
+#: index.php:3
+msgid "VLC: Official site - Free multimedia solutions for all OS!"
+msgstr "VLC: Amptelike blad - Gratis multimediaprogrammatuur vir alle BS’e!"
+
+#: index.php:26 vlc/index.php:20
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
+msgstr "VLC is ’n gratis en oopbron kruisplatform multimediaspeler en raamwerk wat die meeste multimedialêers asook DVD’s, klank-CD’s, VCD’s en verskeie stroomprotokolle afspeel."
+
+#: index.php:36
+msgid "Other projects from VideoLAN"
+msgstr "Ander projekte van VideoLAN"
+
+#: index.php:38
+msgid "For Everyone"
+msgstr "Vir Almal"
+
+#: index.php:44
+msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
+msgstr "VLC is ’n kragtige mediaspeler wat die meeste bestaande mediakodeks en videoformate kan speel."
+
+#: index.php:53
+msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
+msgstr "VideoLAN Movie Creator is nie-lineëre redigeringsprogrammatuur vir videoskepping."
+
+#: index.php:60
+msgid "For Professionals"
+msgstr "Vir Professionele"
+
+#: index.php:66
+msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
+msgstr "DVBlast is ’n eenvoudige en kragtige MPEG-2/TS demuks- en stromingstoepassing."
+
+#: index.php:74
+msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
+msgstr "multicat is ’n stel nutsmiddels wat ontwerp is om multisendstrome en TS maklik en effektief te manipuleer"
+
+#: index.php:83
+msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
+msgstr "x264 is ’n gratis toepassing om videostrome in die H.264/MPEG-4 AVC-formaat te enkodeer."
+
+#: index.php:91
+msgid "For Developers"
+msgstr "Vir Ontwikkelaars"
+
+#: index.php:102
+msgid "View All Projects"
+msgstr "Bekyk Alle Projekte"
+
+#: index.php:105
+msgid "Help us out!"
+msgstr "Help ons!"
+
+#: index.php:111
+msgid "VideoLAN is a non-profit organization."
+msgstr "VideoLAN is ’n nie-winsgewende organisasie."
+
+#: index.php:112
+msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
+msgstr "Al ons onkoste word deur donasies vanaf gebruikers gedek. Indien u ’n VideoLAN-produk gebruik en geniet, skenk asb. iets ter ondersteuning."
+
+#: index.php:114 index.php:126 index.php:137
+msgid "Learn More"
+msgstr "Leer Meer"
+
+#: index.php:123
+msgid "VideoLAN is open-source software."
+msgstr "VideoLAN is oopbronprogrammatuur."
+
+#: index.php:124
+msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
+msgstr "Dit beteken dat indien u die vaardighede en die lus het om van ons produkte te verbeter, u bydraes verwelkom word"
+
+#: index.php:131
+msgid "Spread the Word"
+msgstr "Verkondig die boodskap"
+
+#: index.php:135
+msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
+msgstr "Ons voel dat VideoLAN die beste videoprogrammatuur bied teen die beste prys: verniet. Indien u saamstem, verkondig asb. die boodskap van ons programmatuur."
+
+#: index.php:147
+msgid "News &amp; Updates"
+msgstr "Nuus &amp; Opdaterings"
+
+#: index.php:151
+msgid "Development Blogs"
+msgstr "Ontwikkelingswoernale"
+
+#: index.php:176
+msgid "Social media"
+msgstr "Sosiale media"
+
+#: vlc/index.php:3
+msgid "Official page for VLC media player, the Open Source video framework!"
+msgstr "Amptelike blad vir VLC mediaspeler, die Oopbron videoraamwerk!"
+
+#: vlc/index.php:40
+msgid "Simple, fast and powerful media player."
+msgstr "’n Eenvoudige, vinnige en kragtige mediaspeler."
+
+#: vlc/index.php:42
+msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
+msgstr "Speel alles: Lêers, skywe, Webkamera’s, Toestelle en Strome."
+
+#: vlc/index.php:44
+msgid "Plays most codecs with no codec packs needed:"
+msgstr "Speel meeste kodeks sonder dat kodekpakette nodig is:"
+
+#: vlc/index.php:47
+msgid "Runs on all platforms:"
+msgstr "Loop op alle platforms:"
+
+#: vlc/index.php:49
+msgid "Completely Free, no spyware, no ads and no user tracking."
+msgstr "Heeltemal Gratis, geen loerprogramme, geen advertensies en geen gebruikersporing nie."
+
+#: vlc/index.php:51
+msgid "Can do media conversion and streaming."
+msgstr "Kan media-omskakeling en -stroming doen."
+
+#: vlc/index.php:53
+msgid "Discover all features"
+msgstr "Ontdek alle kenmerke"
+
+#: vlc/index.php:87
+msgid "View all screenshots"
+msgstr "Bekyk alle skermgrepe"
+
+#: vlc/index.php:94
+msgid "Get VLC for"
+msgstr "Kry VLC vir"
+
+#: vlc/index.php:98
+msgid "Official Downloads of VLC media player"
+msgstr "Amptelike Aflaaie van VLC mediaspeler"
+
+#: vlc/index.php:104
+msgid "Sources"
+msgstr "Bronne"
+
+#: vlc/index.php:105
+msgid "You can also directly get the"
+msgstr "U kan ook die"
+
+#: vlc/index.php:106
+msgid "source code"
+msgstr "bronkode kry"

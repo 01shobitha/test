@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-18 08:05-0400\n"
-"PO-Revision-Date: 2015-03-04 12:59+0000\n"
+"PO-Revision-Date: 2015-03-06 08:14+0000\n"
 "Last-Translator: Gideon Wentink <gjwentink@gmail.com>\n"
 "Language-Team: Afrikaans (http://www.transifex.com/projects/p/vlc-trans/language/af/)\n"
 "Language: af\n"
@@ -24,7 +24,7 @@ msgstr "’n Projek en ’n"
 
 #: include/header.php:221
 msgid "non-profit organization"
-msgstr "nie-winsgewende organisasie"
+msgstr "niewinsgewende organisasie"
 
 #: include/header.php:222
 msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
@@ -227,7 +227,7 @@ msgstr "Help ons!"
 
 #: index.php:111
 msgid "VideoLAN is a non-profit organization."
-msgstr "VideoLAN is ’n nie-winsgewende organisasie."
+msgstr "VideoLAN is ’n niewinsgewende organisasie."
 
 #: index.php:112
 msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."

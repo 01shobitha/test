@@ -46,5 +46,5 @@ echo "cd transifex     ./into_svn.sh mr.po"
 echo 'svn ci -m "Adding po files for gl (Galician), km (Khmer), mr (Marathi)"'
 
 echo "modify Makefile.inc, vlc/Makefile.inc and include/header.php and make sure http://www.videolan.org/index.mr.html exists."
-echo "let translators do a review, modify index.var = vlc/index.var and alternate_lang in index.php + vlc/index.php when it is done"
+echo "let translators do a review, modify index.var = vlc/index.var and alternate_lang in include/language.php when it is done"
 echo "RTL is done in include/header.php"

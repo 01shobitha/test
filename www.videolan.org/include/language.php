@@ -1,8 +1,6 @@
 <?php
 $alternate_lang = array(
-    "an",
     "ar",
-    "ast",
     "be",
     "bg",
     "bn_IN",
@@ -61,7 +59,6 @@ $alternate_lang = array(
     "uk",
     "ur",
     "vi",
-    "wa",
     "zh",
     "zh_TW"
 );

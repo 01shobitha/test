@@ -1,7 +1,8 @@
 <?php
    $language = "";
    $title = "Download official VLC media player for Windows";
-   $alternate_lang = array( "an", "ast", "bn_IN", "bs", "cs", "da", "de", "en", "es", "et", "fr", "gd", "gl", "gu", "he", "hi", "hr", "is", "it", "ja", "km", "kn", "mr", "my", "nb", "nl", "or", "pl", "pt", "pt_BR", "ru", "sk", "sr", "th", "tr", "uk", "ur", "wa", "zh" );
+
+   require($_SERVER["DOCUMENT_ROOT"]."/include/language.php");
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
    include($_SERVER["DOCUMENT_ROOT"]."/include/package.php");
 ?>

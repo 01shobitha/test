@@ -143,11 +143,11 @@
 
 <?php /* Begin news items */ ?>
 
-<div style='width: 500px; padding-top: 25px; float: left;'>
+<div style='width: 500px; padding-top: 25px;' class="ltrFloatLeft">
     <h1 style='margin-bottom: 13px;'><a href="/news.html"><?php echo _("News &amp; Updates"); ?></a></h1>
     <?php shownews("full", 5); ?>
 </div>
-<div style='width: 400px; padding-top: 25px; float: right;'>
+<div style='width: 400px; padding-top: 25px;' class="ltrFloatRight">
     <h1 style='margin-bottom: 13px;'><a href="http://planet.videolan.org"><?php echo _("Development Blogs"); ?></a></h1>
     <?php
       define('MAGPIE_INPUT_ENCODING', 'UTF-8');

@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-18 08:05-0400\n"
-"PO-Revision-Date: 2015-03-11 16:38+0000\n"
+"PO-Revision-Date: 2015-03-12 01:38+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/projects/p/vlc-trans/language/da/)\n"
 "Language: da\n"
@@ -274,7 +274,7 @@ msgstr "Officiel side til VLC media player, open source video-rammeværktøjet!"
 
 #: vlc/index.php:40
 msgid "Simple, fast and powerful media player."
-msgstr "Simpel, hurtig og kraftfuld medieafspiller."
+msgstr "Enkel, hurtig og kraftfuld medieafspiller."
 
 #: vlc/index.php:42
 msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."

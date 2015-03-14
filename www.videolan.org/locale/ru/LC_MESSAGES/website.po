@@ -1,16 +1,16 @@
 # Russian translation
-# Copyright (C) 2014 VideoLAN
+# Copyright (C) 2015 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# law <exclusion@gmail.com>, 2013-2014
+# Alexander Lakhin <exclusion@gmail.com>, 2013-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-18 08:05-0400\n"
-"PO-Revision-Date: 2014-05-23 03:44+0000\n"
-"Last-Translator: law <exclusion@gmail.com>\n"
+"PO-Revision-Date: 2015-03-14 06:17+0000\n"
+"Last-Translator: Alexander Lakhin <exclusion@gmail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/vlc-trans/language/ru/)\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -191,7 +191,7 @@ msgstr "Для всех"
 
 #: index.php:44
 msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
-msgstr "VLC - это мощный мультимедиа проигрыватель, который воспроизводит большинство существующих медиа-кодеков и форматов видео."
+msgstr "VLC - это мощный медиапроигрыватель, который воспроизводит большинство существующих мультимедийных кодеков и форматов."
 
 #: index.php:53
 msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
@@ -271,7 +271,7 @@ msgstr "Официальная страница медиаплеера VLC, ви
 
 #: vlc/index.php:40
 msgid "Simple, fast and powerful media player."
-msgstr "Простой, быстрый и мощный мультимедиа проигрыватель."
+msgstr "Простой, быстрый и мощный медиапроигрыватель."
 
 #: vlc/index.php:42
 msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
@@ -307,7 +307,7 @@ msgstr "Скачать VLC для"
 
 #: vlc/index.php:98
 msgid "Official Downloads of VLC media player"
-msgstr "Официальные загрузки медиа-проигрывателя VLC"
+msgstr "Официальные загрузки медиапроигрывателя VLC"
 
 #: vlc/index.php:104
 msgid "Sources"

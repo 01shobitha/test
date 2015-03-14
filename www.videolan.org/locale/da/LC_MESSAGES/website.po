@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-18 08:05-0400\n"
-"PO-Revision-Date: 2015-03-12 01:38+0000\n"
+"PO-Revision-Date: 2015-03-13 17:43+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/projects/p/vlc-trans/language/da/)\n"
 "Language: da\n"
@@ -242,11 +242,11 @@ msgstr "Få mere at vide"
 
 #: index.php:123
 msgid "VideoLAN is open-source software."
-msgstr "VideoLAN er open source-software"
+msgstr "VideoLAN er open source-software."
 
 #: index.php:124
 msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
-msgstr "Dette betyder at du, hvis du har evnen og ønsket om at forbedre ét af vores produkter, er dine bidrag kærkomment."
+msgstr "Det betyder at hvis du har evnen og ønsket om at forbedre et af vores produkter, er dine bidrag kærkomment"
 
 #: index.php:131
 msgid "Spread the Word"

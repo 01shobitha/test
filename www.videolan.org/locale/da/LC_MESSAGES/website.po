@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-18 08:05-0400\n"
-"PO-Revision-Date: 2015-03-13 17:43+0000\n"
+"PO-Revision-Date: 2015-03-20 18:57+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/projects/p/vlc-trans/language/da/)\n"
 "Language: da\n"
@@ -56,7 +56,7 @@ msgstr "Projekt og organisation"
 
 #: include/header.php:284 include/header.php:416
 msgid "Team"
-msgstr "Holdet"
+msgstr "Team"
 
 #: include/header.php:285 include/header.php:418
 msgid "Contact us"
@@ -68,7 +68,7 @@ msgstr "Partnere"
 
 #: include/header.php:287 include/header.php:420
 msgid "Mirrors"
-msgstr "Spejlservere"
+msgstr "Mirrors"
 
 #: include/header.php:288 include/header.php:421
 msgid "Press center"
@@ -98,7 +98,7 @@ msgstr "Skærmbilleder"
 
 #: include/header.php:299 include/header.php:376 index.php:30 vlc/index.php:24
 msgid "Skins"
-msgstr "Udseender"
+msgstr "Skins"
 
 #: include/header.php:300 include/header.php:377
 msgid "Extensions"
@@ -130,11 +130,11 @@ msgstr "Hent lækkerier"
 
 #: include/header.php:334
 msgid "Support"
-msgstr "Brugerhjælp"
+msgstr "Support"
 
 #: include/header.php:336
 msgid "Support center"
-msgstr "Brugerhjælp-center"
+msgstr "Supportcenter"
 
 #: include/header.php:337 include/header.php:406
 msgid "FAQ"
@@ -182,7 +182,7 @@ msgstr "VLC: Officielt websted - Frie multimedieløsninger til alle styresysteme
 
 #: index.php:26 vlc/index.php:20
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
-msgstr "VLC er en fri og open source multimedieafspiller, der fungerer på flere platforme, samt et rammeværktøj, der afspiller de fleste multimediefiler, såvel som dvd'er, lyd-cd'er, vcd'er og forskellige strømprotokoller."
+msgstr "VLC er en fri og open source multimedieafspiller, der fungerer på flere platforme, samt et framework, der afspiller de fleste multimediefiler, såvel som DVD'er, lyd-CD'er, VCD'er og forskellige strømprotokoller."
 
 #: index.php:36
 msgid "Other projects from VideoLAN"
@@ -194,7 +194,7 @@ msgstr "For alle"
 
 #: index.php:44
 msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
-msgstr "VLC er en stærk medieafspiller, der afspiller de fleste mediekodninger og videoformater, som findes derude."
+msgstr "VLC er en stærk medieafspiller, der afspiller de fleste medie-codecs og videoformater, som findes derude."
 
 #: index.php:53
 msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
@@ -206,7 +206,7 @@ msgstr "For professionelle"
 
 #: index.php:66
 msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
-msgstr "DVBlast er en simpel og effektiv MPEG-2/TS-demultiplekser og strømme-program."
+msgstr "DVBlast er en simpel og stærk MPEG-2/TS-demultiplekser og strømme-program."
 
 #: index.php:74
 msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
@@ -270,11 +270,11 @@ msgstr "Sociale medier"
 
 #: vlc/index.php:3
 msgid "Official page for VLC media player, the Open Source video framework!"
-msgstr "Officiel side til VLC media player, open source video-rammeværktøjet!"
+msgstr "Officiel side til VLC media player, open source video framework!"
 
 #: vlc/index.php:40
 msgid "Simple, fast and powerful media player."
-msgstr "Enkel, hurtig og kraftfuld medieafspiller."
+msgstr "Enkel, hurtig og stærk medieafspiller."
 
 #: vlc/index.php:42
 msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
@@ -282,7 +282,7 @@ msgstr "Afspiller alt: Filer, diske, webkameraer, enheder og strømme."
 
 #: vlc/index.php:44
 msgid "Plays most codecs with no codec packs needed:"
-msgstr "Afspiller de fleste kodninger uden behov for kodningspakker:"
+msgstr "Afspiller de fleste codecs uden behov for codec-pakker:"
 
 #: vlc/index.php:47
 msgid "Runs on all platforms:"
@@ -294,11 +294,11 @@ msgstr "Fuldstændig fri, ingen spyware, ingen reklamer og ingen overvågning af
 
 #: vlc/index.php:51
 msgid "Can do media conversion and streaming."
-msgstr "Kan foretage mediekonvertering og streaming."
+msgstr "Kan konvertere medier og streame."
 
 #: vlc/index.php:53
 msgid "Discover all features"
-msgstr "Opdag alle funktioner"
+msgstr "Se alle funktionerne"
 
 #: vlc/index.php:87
 msgid "View all screenshots"
@@ -314,7 +314,7 @@ msgstr "Officielle downloads af VLC media player"
 
 #: vlc/index.php:104
 msgid "Sources"
-msgstr "Kildekode"
+msgstr "Kildekoden"
 
 #: vlc/index.php:105
 msgid "You can also directly get the"
@@ -322,7 +322,7 @@ msgstr "Du har også direkte adgang til"
 
 #: vlc/index.php:106
 msgid "source code"
-msgstr "kildekode"
+msgstr "kildekoden"
 
 #~ msgid "DONATE"
 #~ msgstr "DONÉR"

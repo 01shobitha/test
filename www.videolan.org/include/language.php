@@ -52,6 +52,7 @@ $alternate_lang = array(
     "sl",
     "sr",
     "sv",
+    "ta",
     "te",
     "th",
     "tr",

@@ -20,13 +20,16 @@ echo"<div class='largescreenshot'><a href='http://images1.videolan.org/vlc/scree
                                "Mac OS X 10.10", "940x340");
                 screenshot( "2.2.0/vlc-ios-2.4-ipad-library.jpg",
                                "2.2.0/tm_vlc-ios-2.4-ipad-library.jpg",
-                               "iOS 8.1", "2503*1766");
+                               "iOS 8.1", "2503x1766");
                 screenshot( "2.2.0/vlc-ios-2.4-iphone-library.jpg",
                                "2.2.0/tm_vlc-ios-2.4-iphone-library.jpg",
                                "iOS 8.1", "750x1334");
                 screenshot( "2.2.0/vlc-ios-2.4-iphone-playback.jpg",
                                "2.2.0/tm_vlc-ios-2.4-iphone-playback.jpg",
                                "iOS 8.1", "1104x621");
+                screenshot( "2.2.0/vlc-ios-2.5-equalizer.jpg",
+                               "2.2.0/tm_vlc-ios-2.5-equalizer.jpg",
+                               "iOS 8.1", "1136x640");
                ?>
 
 <h2 class="clearme">2.0 - Twoflower</h2>

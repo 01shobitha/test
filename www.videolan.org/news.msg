@@ -3,7 +3,7 @@
 #
 |27 March 2015|VLC for Android 1.2.1, for WinRT & Windows Phone 1.2.1 and for iOS 2.5.0|VideoLAN and the VLC development team are happy to release updates for all three mobile platforms today.<br/>
 VLC for Android received support for audio playlists, improved audio quality, improvements to the material design interface, including the black theme and switch to audio mode. Further, it is a major update for Android TV adding support for media discovery via UPnP, with improvements for recommendations and gamepads.<br/>
-VLC for Windows Phone and WinRT received partial hardware accelerated decoding allowing playback of HD contents of certain formats as well as further iterations on the user interface.
+VLC for Windows Phone and WinRT received partial hardware accelerated decoding allowing playback of HD contents of certain formats as well as further iterations on the user interface.<br/>
 For VLC for iOS, we focused on improved cloud integration adding support for iCloud Drive, OneDrive and Box.com, a 10-band equalizer as well as sharing of the media library on the local network alongside an improved playback experience.<br/>
 All updates will be available on the respective stores later today. We hope you like these them as much as we do.
 

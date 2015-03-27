@@ -1,6 +1,12 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|27 March 2015|VLC for Android 1.2.1, for WinRT & Windows Phone 1.2.1 and for iOS 2.5.0|VideoLAN and the VLC development team are happy to release updates for all three mobile platforms today.<br/>
+VLC for Android received support for audio playlists, improved audio quality, improvements to the material design interface, including the black theme and switch to audio mode. Further, it is a major update for Android TV adding support for media discovery via UPnP, with improvements for recommendations and gamepads.<br/>
+VLC for Windows Phone and WinRT received partial hardware accelerated decoding allowing playback of HD contents of certain formats as well as further iterations on the user interface.
+For VLC for iOS, we focused on improved cloud integration adding support for iCloud Drive, OneDrive and Box.com, a 10-band equalizer as well as sharing of the media library on the local network alongside an improved playback experience.<br/>
+All updates will be available on the respective stores later today. We hope you like these them as much as we do.
+
 |27 February 2015|VLC 2.2.0|VideoLAN and the VLC development team are releasing VLC 2.2.0 for most OSes. We're releasing the desktop version for Linux, Windows, OS X, BSD, and at the same time, Android, iOS, Windows RT and Windows Phone versions.<br />More info on our <a href="http://www.videolan.org/vlc/releases/2.2.0.html">release page</a> and <a href="/press/vlc-2.2.0.html">press release</a>.
 
 |27 January 2015|libbluray 0.7.0, libaacs 0.8.0 and libbdplus 0.1.2 released|The 3 VideoLAN Blu-Ray libraries have been released: <a href="http://www.videolan.org/developers/libbluray.html">libbluray 0.7.0</a>, <a href="http://www.videolan.org/developers/libaacs.html">libaacs 0.8.0</a> and <a href="http://www.videolan.org/developers/libbdplus.html">libbdplus 0.1.2</a> library.<br />Those releases notably improves BD-J support, fonts support and file-system access.
@@ -15,7 +21,7 @@
 
 |13 June 2014|VLC for Android 0.9.5|VideoLAN and the VLC development team are happy to present a new release for Android today. It adds support for DVD menus, a new VLC icon, tutorials and numerous fixes for crashes.<br />More info in the <a href="http://git.videolan.org/?p=vlc-ports/android.git;a=blob_plain;f=NEWS;hb=HEAD">release notes</a>.
 
-|18 April 2014|VLC for iOS 2.3|VideoLAN and the VLC development team are happy to present a new release for iOS today. It adds support for folders to group media, more options to customize playback, improved network interaction in various regards, many small but noticeable improvements as well as 3 new translations. More info in the <a href="http://git.videolan.org/?p=vlc-ports/ios.git;a=blob_plain;f=NEWS;hb=HEAD">release notes</a>.
+|18 April 2014|VLC for iOS 2.3.0|VideoLAN and the VLC development team are happy to present a new release for iOS today. It adds support for folders to group media, more options to customize playback, improved network interaction in various regards, many small but noticeable improvements as well as 3 new translations. More info in the <a href="http://git.videolan.org/?p=vlc-ports/ios.git;a=blob_plain;f=NEWS;hb=HEAD">release notes</a>.
 
 |1 April 2014|VideoLAN announces distributed codec and conecoins!|VideoLAN and the VLC development team are happy to present their new distributed codec, named <b>CloudCodet</b>! To help smartphones users, this codec allows powerful computers to decode for other devices and the CPU-sharers will mine some <b>conecoin</b>, a new cone-shaped crypto-currency, in reward.<br />More info on our <a href="http://www.videolan.org/press/2014-1.html">press page</a>
 

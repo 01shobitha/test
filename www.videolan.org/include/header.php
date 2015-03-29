@@ -225,7 +225,7 @@ function start_body( $body_color, $language, $b_show_donate = true )
     default:      $imgSrc = "logoOrange.png"; $imgArSrc = "madeByArgonOrange.png"; break;
     }
 ?>
-    <div class="header">
+    <div class="header clearfix">
        <a class="ltrFloatLeft" href='/'><?php image( $imgSrc, "VideoLAN association"); ?></a>
        <div class="ltrFloatLeft" id="nonprofitOrganizationDiv">
        <?php
@@ -277,7 +277,6 @@ function start_body( $body_color, $language, $b_show_donate = true )
             <div style="padding: 3px 14px;"><a href="http://www.facebook.com/vlc.media.player" style="padding-top: 10px;"><?php image( 'facebook.png', "Facebook" );?></a></div>
             <div style="padding: 2px 12px;"><a href="http://www.twitter.com/videolan"><?php image( 'twitter.png', "Twitter" );?></a></div>
         </div>
-    </div> <!-- header -->
 <?php
 }
 
@@ -362,6 +361,7 @@ function draw_menus( $nobanner, $alternate_lang )
       <a href='//www.videolan.org/developers/'><?php echo _("Dev' Zone"); ?></a>
    </div>
 </div>
+</div> <!-- header -->
 
 <?php
     /* Event banner */

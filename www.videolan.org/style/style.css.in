@@ -287,10 +287,9 @@ html[dir="rtl"] #donate .button {
 #bodyInner
 {
     background: transparent url(//images.videolan.org/style/images/highlight.png) no-repeat scroll top left;
-    padding: 12px 10px 40px;
+    padding: 6px 10px 20px;
     width: 980px;
     text-align: left;
-/*    float: left; */
     margin: 0 auto;
 }
 

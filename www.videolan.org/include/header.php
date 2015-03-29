@@ -373,7 +373,7 @@ function draw_menus( $nobanner, $alternate_lang )
 /* Footer */
 function footer($tag = "", $alternate_lang=array()) {
 ?>
-</div>
+</div> <!-- BodyInner -->
    <div id='footer'>
       <div style='background-image: url( "//images.videolan.org/images/divider.png" ); height: 15px; width: 100%;'></div>
       <div style='padding: 20px 10px 40px; width: 950px; margin: 0 auto;'>

@@ -181,7 +181,7 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 {
     behavior: url('//images.videolan.org/style/border-radius.htc');
     float: right;
-    padding: 4px 8px 4px 12px;
+    padding: 4px 8px 5px 12px;
     margin-right: 8px;
     background: #E7E7E7 url('//images.videolan.org/style/images/donateBackground.png') repeat-x fixed top left;
     border: 1px solid #CCC;
@@ -300,7 +300,7 @@ html[dir="rtl"] #donate .button {
     background-color: white;
     border: 1px solid #F1F1F1;
     float: left;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     margin-top: 4px;
     clear: left;
 }

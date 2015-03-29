@@ -253,7 +253,7 @@ function start_body( $body_color, $language, $b_show_donate = true )
                     <input class='text' type='text' name="amount" value='4.00' style='background: #fff url("//images.videolan.org/images/euro.png") no-repeat 65px 2px;' />
                     <button class='button' type='submit'><?php echo _("donate"); ?></button>
             </p></form>
-            <form style='clear: both; padding-top: 10px;' action="https://www.paypal.com/en_US/cgi-bin/webscr" method="post">
+            <form style='clear: both; padding-top: 6px;' action="https://www.paypal.com/en_US/cgi-bin/webscr" method="post">
                 <p>
                     <input name="cmd" value="_xclick" type="hidden"/>
                     <input name="business" value="sponsor@videolan.org" type="hidden"/>

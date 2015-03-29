@@ -150,6 +150,18 @@ code { font-family: Courier, monospace, fixed; }
 /* Class for clearing everything above */
 .clearme { clear:both; }
 
+/* Clearfix class */
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
 ul.bullets { padding-left: 2.5em; margin-bottom: 1em; }
 ul.bullets li { list-style-type: square; padding-bottom: 3px; }
 

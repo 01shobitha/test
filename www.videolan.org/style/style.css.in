@@ -308,8 +308,8 @@ html[dir="rtl"] #donate .button {
     background-color: white;
     border: 1px solid #F1F1F1;
     float: left;
-    margin-bottom: 18px;
-    margin-top: 10px;
+    margin-bottom: 12px;
+    margin-top: 4px;
     clear: left;
 }
 

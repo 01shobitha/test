@@ -225,12 +225,13 @@ function start_body( $body_color, $language, $b_show_donate = true )
     default:      $imgSrc = "logoOrange.png"; $imgArSrc = "madeByArgonOrange.png"; break;
     }
 ?>
-   <a class="ltrFloatLeft" href='/'><?php image( $imgSrc, "VideoLAN association"); ?></a>
-   <div class="ltrFloatLeft" id="nonprofitOrganizationDiv">
-   <?php
-    echo _('A project and a').' <a href="//www.videolan.org/videolan/" class="noUnderline">'._('non-profit organization').'</a>, '.
-         _('composed of volunteers, developing and promoting free, open-source multimedia solutions.');?>
-   </div>
+    <div class="header">
+       <a class="ltrFloatLeft" href='/'><?php image( $imgSrc, "VideoLAN association"); ?></a>
+       <div class="ltrFloatLeft" id="nonprofitOrganizationDiv">
+       <?php
+        echo _('A project and a').' <a href="//www.videolan.org/videolan/" class="noUnderline">'._('non-profit organization').'</a>, '.
+             _('composed of volunteers, developing and promoting free, open-source multimedia solutions.');?>
+       </div>
 
    <?php if ($b_show_donate != true ) return; ?>
 <!-- LTR: check the padding entry below next to dollar.png -->

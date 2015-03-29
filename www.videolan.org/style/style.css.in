@@ -181,10 +181,8 @@ img.floatSmallImg { float: left; padding-bottom: 50px; padding-right: 25px; }
 {
     behavior: url('//images.videolan.org/style/border-radius.htc');
     float: right;
-    padding: 7px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-right: 10px;
+    padding: 4px 8px 4px 12px;
+    margin-right: 8px;
     background: #E7E7E7 url('//images.videolan.org/style/images/donateBackground.png') repeat-x fixed top left;
     border: 1px solid #CCC;
     -moz-border-radius: 12px;
@@ -195,11 +193,6 @@ html[dir="rtl"] #donate {
     float: left;
     margin-right: 0px;
     margin-left: 10px;
-}
-
-#donate form
-{
-    padding-top: 7px;
 }
 
 #donate .text

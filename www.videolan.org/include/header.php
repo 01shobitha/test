@@ -233,48 +233,51 @@ function start_body( $body_color, $language, $b_show_donate = true )
              _('composed of volunteers, developing and promoting free, open-source multimedia solutions.');?>
        </div>
 
-   <?php if ($b_show_donate != true ) return; ?>
-<!-- LTR: check the padding entry below next to dollar.png -->
-   <div id='donate'>
-       <div class="ltrFloatLeft" style='font-size: 14px; color: #909090; padding-top: 5px;'>
-           <span style='text-transform: uppercase;'><?php echo _("donate"); ?></span> &nbsp;<a href='//www.videolan.org/contribute.html#money'>(<?php echo _("why?");?>)</a></div>
-       <img src='//images.videolan.org/images/paypal.png' class="ltrFloatRight" alt="paypal" />
-       <form style='clear: both; padding-top: 10px;' action="https://www.paypal.com/en_US/cgi-bin/webscr" method="post">
-           <p>
-               <input name="cmd" value="_xclick" type="hidden"/>
-               <input name="business" value="sponsor@videolan.org" type="hidden"/>
-               <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
-               <input name="no_note" value="0" type="hidden"/>
-               <input name="currency_code" value="EUR" type="hidden"/>
-               <input name="tax" value="0" type="hidden"/>
-               <input name="lc" value="GB" type="hidden"/>
-               <input name="no_shipping" value="1" type="hidden"/>
-               <input name="return" value="http://www.videolan.org/thank_you.html" type="hidden"/>
-               <input class='text' type='text' name="amount" value='4.00' style='background: #fff url("//images.videolan.org/images/euro.png") no-repeat 65px 2px;' />
-               <button class='button' type='submit'><?php echo _("donate"); ?></button>
-       </p></form>
-       <form style='clear: both; padding-top: 10px;' action="https://www.paypal.com/en_US/cgi-bin/webscr" method="post">
-           <p>
-               <input name="cmd" value="_xclick" type="hidden"/>
-               <input name="business" value="sponsor@videolan.org" type="hidden"/>
-               <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
-               <input name="no_note" value="0" type="hidden"/>
-               <input name="currency_code" value="USD" type="hidden"/>
-               <input name="tax" value="0" type="hidden"/>
-               <input name="lc" value="US" type="hidden"/>
-               <input name="no_shipping" value="1" type="hidden"/>
-               <input name="return" value="http://www.videolan.org/thank_you.html" type="hidden"/>
-               <input id="dtext" class='text' type='text' name="amount" value='5.00' style='background: #fff url("//images.videolan.org/images/dollar.png") no-repeat 0 3px; padding-right: 10px; width: 75px;' />
-               <button class='button' type='submit'><?php echo _("donate"); ?></button>
-       </p></form>
-   </div>
-   <div id='social'>
-      <div id='plusone' style="padding: 3px 10px;">
-         <g:plusone size="medium" annotation="none" href="http://www.videolan.org"></g:plusone>
-      </div>
-      <div style="padding: 3px 14px;"><a href="http://www.facebook.com/vlc.media.player" style="padding-top: 10px;"><?php image( 'facebook.png', "Facebook" );?></a></div>
-      <div style="padding: 2px 12px;"><a href="http://www.twitter.com/videolan"><?php image( 'twitter.png', "Twitter" );?></a></div>
-   </div>
+       <?php if ($b_show_donate == true ) {  ?>
+       <!-- LTR: check the padding entry below next to dollar.png -->
+        <div id='donate'>
+            <div class="ltrFloatLeft" style='font-size: 14px; color: #909090; padding-top: 5px;'>
+                <span style='text-transform: uppercase;'><?php echo _("donate"); ?></span> &nbsp;<a href='//www.videolan.org/contribute.html#money'>(<?php echo _("why?");?>)</a></div>
+            <img src='//images.videolan.org/images/paypal.png' class="ltrFloatRight" alt="paypal" />
+            <form style='clear: both; padding-top: 10px;' action="https://www.paypal.com/en_US/cgi-bin/webscr" method="post">
+                <p>
+                    <input name="cmd" value="_xclick" type="hidden"/>
+                    <input name="business" value="sponsor@videolan.org" type="hidden"/>
+                    <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
+                    <input name="no_note" value="0" type="hidden"/>
+                    <input name="currency_code" value="EUR" type="hidden"/>
+                    <input name="tax" value="0" type="hidden"/>
+                    <input name="lc" value="GB" type="hidden"/>
+                    <input name="no_shipping" value="1" type="hidden"/>
+                    <input name="return" value="http://www.videolan.org/thank_you.html" type="hidden"/>
+                    <input class='text' type='text' name="amount" value='4.00' style='background: #fff url("//images.videolan.org/images/euro.png") no-repeat 65px 2px;' />
+                    <button class='button' type='submit'><?php echo _("donate"); ?></button>
+            </p></form>
+            <form style='clear: both; padding-top: 10px;' action="https://www.paypal.com/en_US/cgi-bin/webscr" method="post">
+                <p>
+                    <input name="cmd" value="_xclick" type="hidden"/>
+                    <input name="business" value="sponsor@videolan.org" type="hidden"/>
+                    <input name="item_name" value="Development and communication of VideoLAN" type="hidden"/>
+                    <input name="no_note" value="0" type="hidden"/>
+                    <input name="currency_code" value="USD" type="hidden"/>
+                    <input name="tax" value="0" type="hidden"/>
+                    <input name="lc" value="US" type="hidden"/>
+                    <input name="no_shipping" value="1" type="hidden"/>
+                    <input name="return" value="http://www.videolan.org/thank_you.html" type="hidden"/>
+                    <input id="dtext" class='text' type='text' name="amount" value='5.00' style='background: #fff url("//images.videolan.org/images/dollar.png") no-repeat 0 3px; padding-right: 10px; width: 75px;' />
+                    <button class='button' type='submit'><?php echo _("donate"); ?></button>
+            </p></form>
+        </div>
+        <?php } ?>
+
+        <div id='social'>
+            <div id='plusone' style="padding: 3px 10px;">
+                <g:plusone size="medium" annotation="none" href="http://www.videolan.org"></g:plusone>
+            </div>
+            <div style="padding: 3px 14px;"><a href="http://www.facebook.com/vlc.media.player" style="padding-top: 10px;"><?php image( 'facebook.png', "Facebook" );?></a></div>
+            <div style="padding: 2px 12px;"><a href="http://www.twitter.com/videolan"><?php image( 'twitter.png', "Twitter" );?></a></div>
+        </div>
+    </div> <!-- header -->
 <?php
 }
 

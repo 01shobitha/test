@@ -78,6 +78,7 @@ locales: index.af.php \
          index.si.php \
          index.sk.php \
          index.sl.php \
+         index.sq.php \
          index.sr.php \
          index.sv.php \
          index.ta.php \

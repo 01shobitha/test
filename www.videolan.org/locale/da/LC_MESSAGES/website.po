@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-18 08:05-0400\n"
-"PO-Revision-Date: 2015-04-02 06:09+0000\n"
+"PO-Revision-Date: 2015-04-02 10:49+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/projects/p/vlc-trans/language/da/)\n"
 "Language: da\n"
@@ -234,7 +234,7 @@ msgstr "VideoLAN er en nonprofitorganisation."
 
 #: index.php:112
 msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
-msgstr "Alle vores udgifter dækkes gennem donationer, som vi modtager fra vores brugere. Hvis du er glad for at bruge et produkt fra VideoLAN, så støt os venligst ved at donere."
+msgstr " Alle vores udgifter dækkes af de donationer vi modtager fra vores brugere. Hvis du er glad for at bruge et VideoLAN-produkt, så støt os venligst ved at donere."
 
 #: index.php:114 index.php:126 index.php:137
 msgid "Learn More"

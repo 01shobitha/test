@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-18 08:05-0400\n"
-"PO-Revision-Date: 2015-03-20 18:57+0000\n"
+"PO-Revision-Date: 2015-04-02 06:09+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/projects/p/vlc-trans/language/da/)\n"
 "Language: da\n"
@@ -222,7 +222,7 @@ msgstr "For udviklere"
 
 #: index.php:102
 msgid "View All Projects"
-msgstr "Se alle projekter"
+msgstr "Vis alle projekter"
 
 #: index.php:105
 msgid "Help us out!"
@@ -258,7 +258,7 @@ msgstr "Vi synes at VideoLAN er det bedste video-software, der er tilgængelig t
 
 #: index.php:147
 msgid "News &amp; Updates"
-msgstr "Nyheder &amp; opdateringer"
+msgstr "Nyheder og opdateringer"
 
 #: index.php:151
 msgid "Development Blogs"
@@ -302,7 +302,7 @@ msgstr "Se alle funktionerne"
 
 #: vlc/index.php:87
 msgid "View all screenshots"
-msgstr "Se alle skærmbilleder"
+msgstr "Vis alle skærmbilleder"
 
 #: vlc/index.php:94
 msgid "Get VLC for"

@@ -50,6 +50,7 @@ $alternate_lang = array(
     "si",
     "sk",
     "sl",
+    "sq",
     "sr",
     "sv",
     "ta",

@@ -4,13 +4,13 @@
 #
 # Translators:
 # Ardit Dani <ardit.dani@gmail.com>, 2014
-# Emmanuel Malaj <emmanuelmalaj@gmail.com>, 2015
+# Emmanuel Malaj <emmanuelmalaj@outlook.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-18 08:05-0400\n"
-"PO-Revision-Date: 2015-04-02 07:25+0000\n"
+"PO-Revision-Date: 2015-04-03 08:00+0000\n"
 "Last-Translator: Emmanuel Malaj <emmanuelmalaj@outlook.com>\n"
 "Language-Team: Albanian (http://www.transifex.com/projects/p/vlc-trans/language/sq/)\n"
 "Language: sq\n"
@@ -29,7 +29,7 @@ msgstr "organizatë jo-fitimprurëse"
 
 #: include/header.php:222
 msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
-msgstr "përbërë nga vullnetarë, zhvillimin dhe promovimin e lirë, burim të hapur multimedial zgjidhje."
+msgstr "përbërë nga vullnetarë, duke zhvilluar dhe promovuar falas, zgjidhje multimediash, open-source."
 
 #: include/header.php:228 include/header.php:242 include/header.php:256
 #: index.php:107
@@ -140,7 +140,7 @@ msgstr "FAQ"
 
 #: include/header.php:338 include/header.php:417 include/header.php:446
 msgid "Legal"
-msgstr "Ligjshëm"
+msgstr "Ligjshmëria"
 
 #: include/header.php:340 include/header.php:404
 msgid "Forums"
@@ -180,7 +180,7 @@ msgstr "VLC: Faqja zyrtare - Zgjidhje multimediash falas per te gjitha sistemet 
 
 #: index.php:26 vlc/index.php:20
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
-msgstr ""
+msgstr "VLC eshte nje multimedia player falas, open source, disa platformesh qe suporton shumicen e dokumenteve multimedia si dhe DVD, CD Audio, VCD dhe protokolle te ndryshme transmetimi."
 
 #: index.php:36
 msgid "Other projects from VideoLAN"
@@ -196,7 +196,7 @@ msgstr "VLC eshte nje media player i fuqishem duke luajtur shumicen e kodeve te 
 
 #: index.php:53
 msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
-msgstr "VideoLAN Krijuesi Filmave është një program jo-linear montimi për krijim videove."
+msgstr "VideoLAN Krijuesi Filmave është një program jo-linear për montimin dhe krijimin e videove."
 
 #: index.php:60
 msgid "For Professionals"
@@ -204,15 +204,15 @@ msgstr "Për Profesionalë"
 
 #: index.php:66
 msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
-msgstr "DVBlast është e thjeshtë dhe e fuqishme MPEG-2/TS aplikacion demux dhe transmetues."
+msgstr "DVBlast është një program i thjeshtë dhe i fuqishëm MPEG-2/TS demux dhe transmetues."
 
 #: index.php:74
 msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
-msgstr "multicat eshte nje paketa me mjete te dizenjuara per te manipuluar thjeshte dhe ne menyre eficente transmetimet multicast dhe TS. "
+msgstr "multicat eshte nje paketa me mjete te dizenjuara për të manipuluar thjeshte dhe ne menyre eficente transmetimet multicast dhe TS. "
 
 #: index.php:83
 msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
-msgstr "x264 është një aplikacion falas për kodimin video transmetues në formatin H.264/MPEG-4 AVC."
+msgstr "x264 është një aplikacion falas për kodimin e transmetimeve te videove në formatin H.264/MPEG-4 AVC."
 
 #: index.php:91
 msgid "For Developers"
@@ -220,7 +220,7 @@ msgstr "Për Zhvillues"
 
 #: index.php:102
 msgid "View All Projects"
-msgstr "Vështro Të gjithë Projektet"
+msgstr "ShikoTë gjithë Projektet"
 
 #: index.php:105
 msgid "Help us out!"
@@ -232,7 +232,7 @@ msgstr "VideoLAN është një organizatë jo-fitimprurëse."
 
 #: index.php:112
 msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
-msgstr "Të gjitha shpenzimet tona janë plotësuar nga donacionet që marrim nga përdoruesit tanë. Nëse ju pëlqeni përdorimin një produkt VideoLAN, ju lutemi dhuroni për të na mbështetur."
+msgstr "Të gjitha shpenzimet tona janë plotësuar nga donacionet që marrim nga përdoruesit tanë. Nëse ju pëlqeni përdorimin një produkti të VideoLAN, ju lutemi dhuroni për të na mbështetur."
 
 #: index.php:114 index.php:126 index.php:137
 msgid "Learn More"
@@ -252,7 +252,7 @@ msgstr "Shpërndani Fjalën"
 
 #: index.php:135
 msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
-msgstr "Ne mendojmë se VideoLAN ka më të mirë e programit video në dispozicion me çmim të mirë: falas. Nëse jeni dakord ju lutem ndihmoni në përhapjen e fjalës në lidhje me programin tonë."
+msgstr "Ne mendojmë se VideoLAN ka programin me te mirë për video në dispozicion me çmimim më të mirë: falas. Nëse jeni dakord ju lutem ndihmoni në përhapjen e fjalës në lidhje me programin tonë."
 
 #: index.php:147
 msgid "News &amp; Updates"
@@ -268,11 +268,11 @@ msgstr "Media sociale"
 
 #: vlc/index.php:3
 msgid "Official page for VLC media player, the Open Source video framework!"
-msgstr "Faqja zyrtare per VLC media player,  bashkpunimi Open Source per video!"
+msgstr "Faqja zyrtare për VLC media player,  bashkpunimi Open Source per video!"
 
 #: vlc/index.php:40
 msgid "Simple, fast and powerful media player."
-msgstr "Thjeshtë, shpejtë dhe i fuqishëm aparat media."
+msgstr "Media player i thjeshtë, i shpejtë dhe i fuqishëm."
 
 #: vlc/index.php:42
 msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
@@ -284,7 +284,7 @@ msgstr "Luan shumicen e kodimeve pa nevojen e paketave te kodeve:"
 
 #: vlc/index.php:47
 msgid "Runs on all platforms:"
-msgstr "Punon në të gjithë platformat:"
+msgstr "Punon në të gjitha platformat:"
 
 #: vlc/index.php:49
 msgid "Completely Free, no spyware, no ads and no user tracking."
@@ -292,7 +292,7 @@ msgstr "Krejtesisht Falas, pa spyware, pa reklama dhe pa gjurmim perdoruesi."
 
 #: vlc/index.php:51
 msgid "Can do media conversion and streaming."
-msgstr ""
+msgstr "Mund te beje konvertim dhe transmetim mediash."
 
 #: vlc/index.php:53
 msgid "Discover all features"
@@ -320,4 +320,4 @@ msgstr "Ju gjithashtu mund të merrni direkt"
 
 #: vlc/index.php:106
 msgid "source code"
-msgstr "kod burimi"
+msgstr "kodin burim"

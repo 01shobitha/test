@@ -241,7 +241,6 @@ function start_body( $body_color, $language, $b_show_donate = true )
        </div>
 
        <?php if ($b_show_donate == true ) {  ?>
-       /* LTR: check the padding entry below next to dollar.png */
         <div id='donate'>
             <div class="ltrFloatLeft" style='font-size: 14px; color: #909090; padding-top: 5px;'>
                 <span style='text-transform: uppercase;'><?php echo _("donate"); ?></span> &nbsp;<a href='//www.videolan.org/contribute.html#money'>(<?php echo _("why?");?>)</a></div>

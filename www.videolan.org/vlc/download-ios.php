@@ -75,9 +75,9 @@ function vlcscreenshot($img,$thumb, $desc){
 <p> You can find the source code for the last release here:</p>
 
 <?php
-   echo "<code><a href='http://get.videolan.org/vlc-iOS/$version/vlc-iOS-$version.tar.gz'>VLC for iOS $version source code</a></code><br />"; ?>
-<code><a href="http://get.videolan.org/vlc-iOS/2.4.1/MediaLibraryKit-2.4.0.tar.gz">MediaLibraryKit 2.4.0 source code</a></code><br />
-<code><a href="http://get.videolan.org/vlc-iOS/2.4.1/VLCKit-2.2.0.tar.gz">MobileVLCKit 2.2.0 source code</a></code><br />
+   echo "<code><a href='http://get.videolan.org/vlc-iOS/2.5.0/vlc-ios-$version.tar.gz'>VLC for iOS $version source code</a></code><br />"; ?>
+<code><a href="http://get.videolan.org/vlc-iOS/2.5.0/MediaLibraryKit-2.5.0.tar.gz">MediaLibraryKit 2.5.0 source code</a></code><br />
+<code><a href="http://get.videolan.org/vlc-iOS/2.5.0/VLCKit-2.2.1-pre1.tar.gz">MobileVLCKit 2.2.1-pre1 source code</a></code><br />
 
 <h2> Developers </h2>
 <p> VLC for iOS is quite new and developed by volunteers! We therefore welcome all contributions.<br />
@@ -88,7 +88,7 @@ You can see the <a href="//wiki.videolan.org/iOSCompile">instructions to build</
 <p> You can also get the binary from our servers instead of the App Store:
 
 <?php
-   echo "<code><a href='http://get.videolan.org/vlc-iOS/$version/vlc-iOS-$version.ipa'>VLC for iOS $version binary</a></code>."; ?>
+   echo "<code><a href='http://get.videolan.org/vlc-iOS/2.5.0/vlc-ios-$version.ipa'>VLC for iOS $version binary</a></code>."; ?>
    <br/>A binary version of MobileVLCKit is available through <a href="http://cocoapods.org">CocoaPods</a>.
 </p>
 

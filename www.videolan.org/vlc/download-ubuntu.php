@@ -19,7 +19,7 @@ Ubuntu 12.04 LTS <span style='font-size: smaller'>&ldquo;Precise Pangolin&rdquo;
 
 <h3>Quick install</h3>
 <p>This is the recommended way for installing VLC.</p>
-<a href="apt://vlc"><img src="http://developer.ubuntu.com/wp-content/uploads/2012/06/downloadonubuntubutton.png"  title="Download for Ubuntu" alt="Download for Ubuntu button" width="122" height="49" /></a>
+<a href="apt://vlc"><img src="https://apps.ubuntu.com/assets/images/scbutton-free-200px.png" title="Download for Ubuntu" alt="Download for Ubuntu button" /></a>
 
 <h3>Graphical way</h3>
 <p>Open <b>Synaptic</b> application (click on System -&gt; Administration -&gt; Synaptic Package Manager).

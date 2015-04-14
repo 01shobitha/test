@@ -455,14 +455,16 @@ function footer($tag = "", $alternate_lang=array()) {
          <div id='translation' style="font-size: 9px;">
             <?php
                 if( isset($alternate_lang) && count($alternate_lang) > 0 ) {
-                    echo "<div class='footerHeading'>Translations</div>";
+                    echo "<div class='footerHeading'>Translations :";
+                    echo '<select ONCHANGE="location = this.options[this.selectedIndex].value;">';
                     $root_filename = explode('.', $_SERVER['SCRIPT_FILENAME'] );
                     foreach($alternate_lang as $lang) {
                         if( $lang == "en" )
-                            echo  '<a href="/'.$root_filename[0].'.html">'.$lang.'</a>'."\n";
+                            echo  '<option value="/'.$root_filename[0].'.html">'.$lang.'</option>'."\n";
                         else
-                            echo  '<a href="/'.$root_filename[0].'.'.$lang.'.html">'.$lang.'</a>'."\n";
+                            echo  '<option value="/'.$root_filename[0].'.'.$lang.'.html">'.$lang.'</option>'."\n";
                     }
+                    echo "</select></div>";
                 }
             ?>
          </div>

@@ -318,6 +318,7 @@ function draw_menus( $nobanner, $alternate_lang )
          <li><a href='//www.videolan.org/vlc/screenshots.html'><?php echo _("Screenshots"); ?></a></li>
          <li><a href='//www.videolan.org/vlc/skins.html'><?php echo _("Skins"); ?></a></li>
          <li><a href='http://addons.videolan.org/index.php?xcontentmode=903'><?php echo _("Extensions"); ?></a></li>
+         <li><hr /></li>
          <li><a href='//www.videolan.org/vlc/download-windows.html'>VLC for Windows</a></li>
          <li><a href='//www.videolan.org/vlc/download-macosx.html'>VLC for Mac OS X</a></li>
          <li><a href='//www.videolan.org/vlc/download-android.html'>VLC for Android</a></li>

@@ -21,9 +21,9 @@ CVE reference     : CVE-2014-9630, CVE-2014-9629, CVE-2014-9625, CVE-2014-9626, 
 <h2>Details</h2>
 <p>This is a collection of crashes, of low to medium impact, that affect several components of VLC.</p>
 <p>A heap overflow in the decomp stream filter, for Unix.</p>
-<p>A buffer overflow in the schroedinger module, for Dirac streams.(CVE-2014-9629)</p>
+<p>A buffer overflow in the schroedinger module, for Dirac streams. (CVE-2014-9629)</p>
 <p>Buffer overflows when parsing string boxes in mp4 demuxer. (CVE-2014-9626, 9627, 9628)</p>
-<p>A integer overflow in the SRTP module (only shipped on Unix, Windows not affected).<p>
+<p>A integer overflow in the SRTP module (only shipped on Unix, Windows not affected).</p>
 <p>A read overflow in the Ogg demuxer.</p>
 <p>A potential buffer overflow in the update module. (CVE-2014-9625)</p>
 <p>A possible RTP streaming invalid memory access. (CVE-2014-9630)</p>

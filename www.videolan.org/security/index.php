@@ -20,7 +20,7 @@ Please refer to the concerned third parties as appropriate.
 <dl>
 
 <dt>VideoLAN-SA-1501</dt>
-<dd>Multiple head and buffer overflows
+<dd>Multiple heap and buffer overflows
  <a href="sa1501.html">Details</a>
 </dd>
 

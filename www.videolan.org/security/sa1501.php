@@ -15,16 +15,18 @@ Summary           : Multiple buffer and heap overflows in VLC modules and update
 Date              : February 2015
 Affected versions : VLC media player 2.1.5 and earlier
 ID                : VideoLAN-SA-1501
-CVE reference     : CVE-2014-9630, CVE-2014-9629, CVE-2014-9625, CVE-2014-9626, CVE-2014-9627, CVE-2014-962
+CVE reference     : CVE-2014-9630, CVE-2014-9629, CVE-2014-9625, CVE-2014-9626, CVE-2014-9627, CVE-2014-9628
 </pre>
 
 <h2>Details</h2>
 <p>This is a collection of crashes, of low to medium impact, that affect several components of VLC.</p>
 <p>A heap overflow in the decomp stream filter, for Unix.</p>
-<p>A buffer overflow in the schroedinger module, for Dirac streams.</p>
-<p>Buffer overflows when parsing string boxes in mp4 demuxer.</p>
-<p>A integer overflow in the SRTP module (only shipped on Unix).<p>
-<p>A read overflow in the Ogg demuxer</p>
+<p>A buffer overflow in the schroedinger module, for Dirac streams.(CVE-2014-9629)</p>
+<p>Buffer overflows when parsing string boxes in mp4 demuxer. (CVE-2014-9626, 9627, 9628)</p>
+<p>A integer overflow in the SRTP module (only shipped on Unix, Windows not affected).<p>
+<p>A read overflow in the Ogg demuxer.</p>
+<p>A potential buffer overflow in the update module. (CVE-2014-9625)</p>
+<p>A possible RTP streaming invalid memory access. (CVE-2014-9630)</p>
 
 <h2>Impact</h2>
 <p>If successful, a malicious third party could trigger either nothing, or an invalid memory access,
@@ -42,8 +44,10 @@ until the patch is applied.
 </p>
 
 <h2>Solution</h2>
-<p>VLC media player 2.1.6 and 2.2.0 address all those issues.
+<p>VLC media player <b>2.1.6</b> addresses all those issues.
 Patches for older versions are available from the official VLC source code repository 2.1.
+</p>
+<p>VLC media player <b>2.2.0</b> addresses all those issues, and more, except (CVE-2014-9629), that is fixed in <b>2.2.1</b>.
 </p>
 <h2>References</h2>
 <dl>

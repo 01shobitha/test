@@ -318,6 +318,10 @@ function draw_menus( $nobanner, $alternate_lang )
          <li><a href='//www.videolan.org/vlc/screenshots.html'><?php echo _("Screenshots"); ?></a></li>
          <li><a href='//www.videolan.org/vlc/skins.html'><?php echo _("Skins"); ?></a></li>
          <li><a href='http://addons.videolan.org/index.php?xcontentmode=903'><?php echo _("Extensions"); ?></a></li>
+         <li><a href='//www.videolan.org/vlc/download-windows.html'>VLC for Windows</a></li>
+         <li><a href='//www.videolan.org/vlc/download-macosx.html'>VLC for Mac OS X</a></li>
+         <li><a href='//www.videolan.org/vlc/download-android.html'>VLC for Android</a></li>
+         <li><a href='//www.videolan.org/vlc/download-ios.html'>VLC for iOS</a></li>
       </ul>
    </div>
    <div class='link'>
@@ -390,9 +394,10 @@ function footer($tag = "", $alternate_lang=array()) {
             <ul>
               <li><a href='//www.videolan.org/vlc/'>VLC</a></li>
               <li><a href='//www.videolan.org/vlc/download-windows.html'>VLC for Windows</a></li>
-              <li><a href='//www.videolan.org/vlc/download-macosx.html'>VLC for MacOS X</a></li>
+              <li><a href='//www.videolan.org/vlc/download-macosx.html'>VLC for Mac OS X</a></li>
               <li><a href='//www.videolan.org/vlc/download-ubuntu.html'>VLC for Ubuntu</a></li>
-              <li><a href='//www.videolan.org/vlc/download-fedora.html'>VLC for Fedora</a></li>
+              <li><a href='//www.videolan.org/vlc/download-android.html'>VLC for Android</a></li>
+              <li><a href='//www.videolan.org/vlc/download-ios.html'>VLC for iOS</a></li>
               <li><a href='//www.videolan.org/vlc/skins.html'><?php echo _("Skins"); ?></a></li>
               <li><a href='http://addons.videolan.org/index.php?xcontentmode=903'><?php echo _("Extensions"); ?></a></li>
               <li><a href='//www.videolan.org/vlc/features.html'><?php echo _("Features"); ?></a></li>

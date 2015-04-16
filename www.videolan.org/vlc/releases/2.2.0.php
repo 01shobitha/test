@@ -379,7 +379,7 @@
         <a name="download" id="getit"></a>
 
         <div class="clearme"></div>
-        <div style="float: right; width: 400px;">
+        <div style="float: right; width: 50%;">
             <h1>Spread the news</h1>
                <a href="https://www.facebook.com/vlc.media.player/posts/10152764178381245" style="padding-top: 10px;"><img src='//images.videolan.org/images/facebook.png' alt='Facebook' /></a>
                <a href="https://twitter.com/videolan/status/430813648332660736"><img src='//images.videolan.org/images/twitter.png' alt='Twitter' /></a>
@@ -399,8 +399,8 @@
            </a>
         </div>
         <div class="clearme"></div>
+        <div style="width: 50%; float: left;">
         <h2 style="margin-top: 30px;">OS X</h2>
-        <div>
         <a id='downloadButton' href='<?php echo getDownloadLink("vlc", $macosxversion, "macosx/vlc-$macosxversion.dmg" ); ?>' >
                <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
                <span class='downloadText'><?php echo _("VLC for OS X"); ?></span>
@@ -408,49 +408,49 @@
                Version <span id='downloadVersion'><?php echo $macosxversion ?></span> - 64bits</span>
            </a>
         </div>
-
-        <div class="clearme"></div>
-        <div>
-            <h2  style="margin-top: 30px;">Windows RT and Windows Metro</h2>
-            <a href="http://apps.microsoft.com/windows/en-us/app/vlc-for-windows-8/c527ff2d-b5d0-45b6-bfc3-92fb7357ef72"><img src="/images/badges/WS_green.png" /></a>
+        <div style="width: 45%; float: left;">
+            <h2  style="margin-top: 30px; margin-bottom: 30px;">iOS</h2>
+            <a href="http://itunes.apple.com/app/vlc-ios/id650377962"><img src="/images/appstoredownload-en.png" /></a>
         </div>
 
 
         <div class="clearme"></div>
-        <div>
-            <h2  style="margin-top: 30px;">Windows Phone</h2>
+        <div style="width: 50%; float: left;">
+            <h2  style="margin-top: 30px; margin-bottom: 10px;">Windows RT and Windows Metro</h2>
+            <a href="http://apps.microsoft.com/windows/en-us/app/vlc-for-windows-8/c527ff2d-b5d0-45b6-bfc3-92fb7357ef72"><img src="/images/badges/WS_green.png" /></a>
+        </div>
+
+        <div style="width: 45%; float: left;">
+            <h2  style="margin-top: 30px; margin-bottom: 10px;">Windows Phone</h2>
             <a href="http://www.windowsphone.com/s?appid=44fa83f7-a98d-4647-b9d4-c35ed729d0c9"><img src="/images/badges/WPS_cyan.png" /></a>
         </div>
 
         <div class="clearme"></div>
-        <div>
-            <h2  style="margin-top: 30px;">iOS</h2>
-            <a href="http://itunes.apple.com/app/vlc-ios/id650377962"><img src="/images/appstoredownload-en.png" /></a>
+        <div style="width: 50%; float: left;">
+         <h2>Android</h2>
+         <p>Ask your favorite packager for VLC 2.2!</p>
         </div>
-
-        <div class="clearme"></div>
-        <div style="float: right; width: 400px; margin-top: 15px;">
+        <div style="width: 45%; float: left;">
          <h2>Linux</h2>
          <p>Ask your favorite packager for VLC 2.2!</p>
         </div>
 
         <div class="clearme"></div>
-        <h2 style="margin-top: 30px;">Sources</h2>
+        <div style="width: 50%; float: left;">
+        <h2 style="margin-top: 20px;">Sources</h2>
         <a href="/vlc/download-sources.html">Get the source!</a>
-        <div class="clearme"></div>
-        <h2 style="margin-top: 10px;">Changelog</h2>
-        <a href="/developers/vlc-branch/NEWS">Changelog</a>
-
+        </div>
 
         <div class="clearme"></div>
         <h1>Related links</h1>
         <ul>
-           </ul>
-
+            <li><a href="/developers/vlc-branch/NEWS">Changelog</a></li>
+        </ul>
 
         <div class="clearme"></div>
         <h1>Contact</h1>
         <p>For any questions related to this release, please <a href="/contact.html">contact us</a>.</p>
+        </div>
 
 </div>
 <?php footer('$Id: index.php 7173 2012-02-11 00:58:09Z jb $'); ?>

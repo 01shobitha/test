@@ -463,6 +463,10 @@
         <h1>Related links</h1>
         <ul>
             <li><a href="/developers/vlc-branch/NEWS">Changelog</a></li>
+            <li><a href="http://video.fosdem.org/2015/devroom-open_media/vlc.mp4">FOSDEM talk about VLC 2.2.0</a></li>
+            <li><a href="http://feepk.net/2015/02/27/vlc-media-player-for-mac-os-x-2-2-0/">VLC media player for Mac OS X 2.2.0</a></li>
+            <li><a href="http://feepk.net/2015/03/27/vlc-for-ios-2-5-0/">VLC for iOS 2.5.0</a></li>
+            <li><a href="https://blog.l0cal.com/2015/02/27/vlc-2.2.0-weatherwax/">VLC 2.2.0 WeatherWax</a></li>
         </ul>
 
         <div class="clearme"></div>

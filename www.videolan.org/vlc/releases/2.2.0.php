@@ -234,9 +234,9 @@
                            <li>Resume playback where you left off</li>
                            <li>Extensions API and repository to download extensions directly from the application</li>
                            <li>GPU 0-copy support for decoding and displaying using hardware</li>
+                           <li>Improved support for UltraHD codecs, notably H.265 and VP9</li>
                            <li>Subtitles download from the web, using OpenSubtitles</li>
                            <li>Audio core upgrade, notably to support short samples</li>
-                           <li>Improved support for UltraHD codecs, H.265 and VP9</li>
                         </ul>
                     </div>
                 </div>
@@ -248,11 +248,11 @@
                         <ul>
                            <li>Support for BD-Java menus and overlay in Blu-Ray</li>
                            <li>Acceleration of VP9 and H.265/HEVC decoders</li>
-                           <li>Support for encoding in H.265, Opus and VP9</li>
                            <li>Rewritten support for WMV, Ogg, MP4 and AVI, notably for seeking</li>
-                           <li>Support for WebVTT, Ogg/VP8, Opus/MKV</li>
-                           <li>Support for Digital Cinema Packages and encrypted DCP with KDM</li>
-                           <li>Support for THP, Renderware videogames files</li>
+                           <li>Support for encoding in H.265, Opus and VP9</li>
+                           <li>Support for WebVTT, Ogg/VP8, Opus/MKV, CAF</li>
+                           <li>Support for THP, Renderware and Escape Replay videogames files</li>
+                           <li>Support for SRT language detection</li>
                         </ul>
                     </div>
                 </div>
@@ -267,10 +267,10 @@
                            <li>GPU accelerated auto-rotation, in OpenGL, Direct3D and Mediacodec</li>
                            <li>GPU 0-copy decoding-rendering for Linux using VDPAU</li>
                            <li>Support for HLSL shaders in Direct3D video output</li>
-                           <li>Media Foundation Transform audio and video decoder for Windows Vista+</li>
+                           <li>Media Foundation Transform audio and video decoder for Windows Vista/7</li>
                            <li>GPU 0-copy decoding-rendering for RaspberryPi using MMAL</li>
                            <li>OpenMAX IL improvements for Android, Linux and rPi</li>
-                           <li>Support GStreamer codecs</li>
+                           <li>Support GStreamer codecs on Linux</li>
                         </ul>
                     </div>
                 </div>
@@ -287,22 +287,23 @@
                            <li>Support for MSN audio, Atrac3+, VP7, Bink, TAK, On2 AVC, DK3, DK4 </li>
                            <li>Support for IMC, Vivo g723.1, Smacker, FIC, Auravision, Canopus Lossless</li>
                            <li>Support x264 and FFv1 codecs RGB modes </li>
+                           <li>Fixes for DVD, Audio-CD, M2TS LPCM audio, Speex
                         </ul>
                     </div>
                 </div>
             </div>
 
             <div class="clearme" style='float: left; width: 480px; margin-bottom: 20px;'>
-                <div class='audienceCallout'><?php echo _("Mobile Versions"); ?></div>
+                <div class='audienceCallout'><?php echo _("Professional"); ?></div>
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>VLC for iOS 2.4.1 release is out</li>
-                           <li>VLC for Windows Phone 1.1.0 public beta is out</li>
-                           <li>VLC for WinRT 1.1.0, x86 and ARM</li>
-                           <li>VLC for Android TV 1.1.0</li>
-                           <li>VLC for Android 1.1.0 beta</li>
-                           <li>VLC for iOS 2.5.0 is in testing</li>
+                           <li>Support for Digital Cinema Packages and encrypted DCP with KDM</li>
+                           <li>HEVC encoding and muxing in MP4 and TS</li>
+                           <li>Support VP8 encoding inside Ogg</li>
+                           <li>Improvements of audio bar graph, for speed and resiliance</li>
+                           <li>Support MPEG-2 video encoding through x262</li>
+                           <li>Large improvements of teletext rendering, for speed and alignments</li>
                         </ul>
                     </div>
                 </div>
@@ -324,56 +325,40 @@
                 </div>
             </div>
 
-            <!--
+
             <div class="clearme" style='float: left; width: 480px; margin-bottom: 20px;'>
-                <div class='audienceCallout'><?php echo _("User Interface"); ?></div>
+                <div class='audienceCallout'><?php echo _("Mobile Versions"); ?></div>
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>New extensions manager to download and install plugins.</li>
-                           <li></li>
-                           <li></li>
-                           <li></li>
-                           <li></li>
+                           <li>VLC for iOS 2.4.1 release is out</li>
+                           <li>VLC for Windows Phone 1.1.0 public beta is out</li>
+                           <li>VLC for WinRT 1.1.0, x86 and ARM</li>
+                           <li>VLC for Android TV 1.1.0</li>
+                           <li>VLC for Android 1.1.0 beta</li>
+                           <li>VLC for iOS 2.5.0 is in testing</li>
                         </ul>
                     </div>
                 </div>
             </div>
 
-            <div class="clearme" style='float: left; width: 480px;'>
-                <div class='audienceCallout'><?php echo _("For Mobile"); ?></div>
-                <div class='clearme'>
-                    <div class='productDescription'>
-                        <ul>
-                           <li></li>
-                           <li></li>
-                           <li></li>
-                           <li></li>
-                           <li></li>
-                           <li></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
             <div style='float: left; width: 480px;'>
-                <div class='audienceCallout'><?php echo _("For Developers"); ?></div>
+                <div class='audienceCallout'><?php echo _("For developers")?></div>
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>Add equalizer API to libVLC.</li>
-                           <li>Relicensing of many modules from GPLv2+ to LGPLv2.1+</li>
-                           <li></li>
-                           <li></li>
-                           <li></li>
-                           <li></li>
+                           <li>Add equalizer API for libVLC</li>
+                           <li>Add functions for scrambling detection</li>
+                           <li>Experimental new C++11 libVLC library: libvlcpp</li>
+                           <li>New Android buildsystem and Java SDK</li>
+                           <li>New WinRT library component for libVLC: libVLCX</li>
+                           <li>Improvements for iOS/OSX VLCKit: Swift support and ARC</li>
                         </ul>
                     </div>
                 </div>
             </div>
 
-
-        </div>
- -->
+<!-- Downloads -->
         <div class="clearme"></div>
 
         <a name="download" id="getit"></a>

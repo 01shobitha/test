@@ -388,8 +388,8 @@
                <a href="https://www.reddit.com/r/technology/comments/2xd2wu/vlc_220_multirelease/">Reddit</a>
         </div>
 
-        <div>
         <h1>Download VLC</h1>
+        <div style="width: 50%;">
         <h2>Windows</h2>
            <a id='downloadButton' href='<?php echo getDownloadLink("vlc", $win32version, "win32/vlc-$win32version-win32.exe"); ?>' >
                <img style='position: absolute; top: -10px; left: -10px;' src='/images/downloadVLC.png' alt='Download VLC icon' />
@@ -397,6 +397,10 @@
                <span id='downloadDetails' style='font-size: 12px; color: white;'>
                Version <span id='downloadVersion'><?php echo $win32version ?></span>
            </a>
+        </div>
+        <div style="width: 40%; float: left; margin-left: 96px; margin-top:10px;">
+         <h2>Android</h2>
+            <a href="https://play.google.com/store/apps/details?id=org.videolan.vlc"><img src="/images/get_it_on_play_logo_large.png" border="0" /></a>
         </div>
         <div class="clearme"></div>
         <div style="width: 50%; float: left;">
@@ -427,19 +431,14 @@
 
         <div class="clearme"></div>
         <div style="width: 50%; float: left;">
-         <h2>Android</h2>
-         <p>Ask your favorite packager for VLC 2.2!</p>
+        <h2 style="margin-top: 20px;">Sources</h2>
+        <a href="/vlc/download-sources.html">Get the source!</a>
         </div>
         <div style="width: 45%; float: left;">
          <h2>Linux</h2>
          <p>Ask your favorite packager for VLC 2.2!</p>
         </div>
 
-        <div class="clearme"></div>
-        <div style="width: 50%; float: left;">
-        <h2 style="margin-top: 20px;">Sources</h2>
-        <a href="/vlc/download-sources.html">Get the source!</a>
-        </div>
 
         <div class="clearme"></div>
         <h1>Related links</h1>

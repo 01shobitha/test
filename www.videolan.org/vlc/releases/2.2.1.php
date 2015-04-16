@@ -343,7 +343,7 @@
                 </div>
             </div>
 
-            <div style='float: left; width: 480px;'>
+            <div style='float: left; width: 480px; margin-bottom: 10px;'>
                 <div class='audienceCallout'><?php echo _("For developers")?></div>
                 <div class='clearme'>
                     <div class='productDescription'>

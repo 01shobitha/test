@@ -333,12 +333,11 @@
                 <div class='clearme'>
                     <div class='productDescription'>
                         <ul>
-                           <li>VLC for iOS 2.4.1 release is out</li>
-                           <li>VLC for Windows Phone 1.1.0 public beta is out</li>
-                           <li>VLC for WinRT 1.1.0, x86 and ARM</li>
-                           <li>VLC for Android TV 1.1.0</li>
-                           <li>VLC for Android 1.1.0 beta</li>
-                           <li>VLC for iOS 2.5.0 is in testing</li>
+                           <li>VLC for iOS 2.5.0 release is out</li>
+                           <li>VLC for Windows Phone 1.2.0 public beta is out</li>
+                           <li>VLC for WinRT 1.2.0, x86 and ARM</li>
+                           <li>VLC for Android TV 1.2.6</li>
+                           <li>VLC for Android 1.2.6</li>
                         </ul>
                     </div>
                 </div>
@@ -359,6 +358,39 @@
                     </div>
                 </div>
             </div>
+
+            <div class="clearme" style='float: left; width: 480px; margin-bottom: 20px;'>
+                <div class='audienceCallout'><?php echo _("Android"); ?></div>
+                <div class='clearme'>
+                    <div class='productDescription'>
+                        <ul>
+                            <li>Complete switch to Material design, including black theme</li>
+                            <li>Support for Audio playlists and modtracker files</li>
+                            <li>Support for AC-3 Passthrough and 5.1/7.1 audio</li>
+                            <li>Support switch to background video playback</li>
+                            <li>Large improvements on the first Android TV release</li>
+                            <li>Support chapter selections</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div style='float: left; width: 480px;'>
+                <div class='audienceCallout'><?php echo _("iOS")?></div>
+                <div class='clearme'>
+                    <div class='productDescription'>
+                        <ul>
+                            <li>Support for iCloud, box.com and OneDrive</li>
+                            <li>Support 10-band equalizer</li>
+                            <li>Support sharing media between devices</li>
+                            <li>Support Chapters and Title selections</li>
+                            <li>New player design</li>
+                            <li>Add media information dialog and timer for playback </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
 
 <!-- Downloads -->
         <div class="clearme"></div>

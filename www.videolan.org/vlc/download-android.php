@@ -4,14 +4,14 @@
    $menu = array( "vlc", "download" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
-   $android_version = "0.9.10";
+   $android_version = "1.2.6";
 ?>
 
 <h1 class="bigtitle"> VLC media player for <a href="http://android.com/">Android</a>&trade;</h1>
 
 <h1>VLC for Android&trade;</h1>
 
-<p><a href="/vlc/">VLC</a> for Android&trade; is still in stage. The current version is <?php echo $android_version; ?>.</p><br/>
+<p><a href="/vlc/">VLC</a> for Android&trade; is still under heavy development. The current version is <?php echo $android_version; ?>.</p><br/>
 <div style="margin-left:auto;margin-right:auto;width:172px;">
     <a href="https://play.google.com/store/apps/details?id=org.videolan.vlc"><img src="/images/get_it_on_play_logo_large.png" border="0" /></a>
 </div>

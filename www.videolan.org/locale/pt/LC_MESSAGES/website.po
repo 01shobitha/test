@@ -1,19 +1,19 @@
 # Portuguese translation
-# Copyright (C) 2014 VideoLAN
+# Copyright (C) 2015 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Bruno Queiros <bqueiros@gmail.com>, 2013-2014
+# Bruno Queiros <bqueiros@gmail.com>, 2013-2015
 # Gonçalo Silva <goncaloluisilva@gmail.com>, 2013-2014
-# Manuela Silva <manuela.silva@sky.com>, 2012,2014
+# alfalb_mansil, 2012, 2014
 # Ricardo Perdigão <ricardofonseca1977@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-18 08:05-0400\n"
-"PO-Revision-Date: 2014-12-19 20:36+0000\n"
-"Last-Translator: Gonçalo Silva <goncaloluisilva@gmail.com>\n"
+"PO-Revision-Date: 2015-04-08 09:57+0000\n"
+"Last-Translator: Bruno Queiros <bqueiros@gmail.com>\n"
 "Language-Team: Portuguese (Portugal) (http://www.transifex.com/projects/p/vlc-trans/language/pt_PT/)\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
@@ -182,7 +182,7 @@ msgstr "Site Oficial do VLC - Soluções de multimédia gratuitas para todos os 
 
 #: index.php:26 vlc/index.php:20
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
-msgstr "O VLC é um reprodutor multimédia e framework gratuitos, de código aberto e multi-plataforma que reproduz a maioria dos ficheiros multimédia bem como DVD's, CD's de Áudio, VCD's e vários protocolos de transmissão."
+msgstr "O VLC é um reprodutor de media e framework gratuito, de código aberto e multi-plataforma que reproduz a maioria dos ficheiros multimédia bem como DVDs, CDs de Áudio, VCDs e vários protocolos de transmição."
 
 #: index.php:36
 msgid "Other projects from VideoLAN"

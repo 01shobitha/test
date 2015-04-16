@@ -400,7 +400,7 @@
         <div class="clearme"></div>
         <div style="float: right; width: 50%;">
             <h1>Spread the news</h1>
-               <a href="https://www.facebook.com/vlc.media.player/posts/10152764178381245" style="padding-top: 10px;"><img src='//images.videolan.org/images/facebook.png' alt='Facebook' /></a>
+               <a href="https://www.facebook.com/vlc.media.player/posts/10152878439401245" style="padding-top: 10px;"><img src='//images.videolan.org/images/facebook.png' alt='Facebook' /></a>
                <a href="https://twitter.com/videolan/status/588711970179837952"><img src='//images.videolan.org/images/twitter.png' alt='Twitter' /></a>
                <a href="https://plus.google.com/+vlc/posts/bUh23Z873ri"><img src='//images.videolan.org/images/gplus.png'></a>
                <a href="https://news.ycombinator.com/item?id=9119587">Hacker News</a>

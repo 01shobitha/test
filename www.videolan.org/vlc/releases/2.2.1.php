@@ -403,8 +403,8 @@
                <a href="https://www.facebook.com/vlc.media.player/posts/10152878439401245" style="padding-top: 10px;"><img src='//images.videolan.org/images/facebook.png' alt='Facebook' /></a>
                <a href="https://twitter.com/videolan/status/588711970179837952"><img src='//images.videolan.org/images/twitter.png' alt='Twitter' /></a>
                <a href="https://plus.google.com/+vlc/posts/bUh23Z873ri"><img src='//images.videolan.org/images/gplus.png'></a>
-               <a href="https://news.ycombinator.com/item?id=9119587">Hacker News</a>
-               <a href="https://www.reddit.com/r/technology/comments/2xd2wu/vlc_220_multirelease/">Reddit</a>
+               <a href="https://news.ycombinator.com/item?id=9388245">Hacker News</a>
+               <a href="https://www.reddit.com/r/technology/comments/32t62a/vlc_221_named_terry_pratchett_release/">Reddit</a>
         </div>
 
         <h1>Download VLC</h1>

@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|16 April 2015|VLC 2.2.1|VideoLAN and the VLC development team are releasing today VLC 2.2.1, named "Terry Pratchett".<br />This first stable release of the "WeatherWax" version of VLC fixes most of the important bugs reported of VLC 2.2.0.<br /> VLC 2.2.0, a major version of VLC, introduced accelerated auto-rotation of videos, 0-copy hardware acceleration, support for UHD codecs, playback resume, integrated extensions and more than 1000 bugs and improvements.<br />2.2.0 release was the first release to have versions for all operating systems, including mobiles (iOS, Android, WinRT). <br />More info on our <a href="http://www.videolan.org/vlc/releases/2.2.1.html">release page</a>
+
 |27 March 2015|VLC for Android 1.2.1, for WinRT & Windows Phone 1.2.1 and for iOS 2.5.0|VideoLAN and the VLC development team are happy to release updates for all three mobile platforms today.<br/>
 VLC for Android received support for audio playlists, improved audio quality, improvements to the material design interface, including the black theme and switch to audio mode. Further, it is a major update for Android TV adding support for media discovery via UPnP, with improvements for recommendations and gamepads.<br/>
 VLC for Windows Phone and WinRT received partial hardware accelerated decoding allowing playback of HD contents of certain formats as well as further iterations on the user interface.<br/>

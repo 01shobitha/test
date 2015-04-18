@@ -29,6 +29,18 @@ pkgitem_sf( "VLC for OS X $vlc_version_intel",
 <br />
 <br />
 
+<h2>Web browser plugins (release <?php echo $vlc_version_intel; ?>)</h2>
+
+<?php
+pkgitem_sf( "VLC for OS X web plugin $vlc_version_intel",
+    "$vlc_version_intel/macosx","VLC-webplugin-$vlc_version_intel.dmg",        "vlc", "32 & 64 bits Universal Binary dmg package", "1821442e0d18740cb14680f9341945b6");
+    ?>
+
+<div class="clearme"> </div>
+<br />
+<br />
+<br />
+
 <h2>Download VLC for Mac OS X 10.5 Leopard (release <?php echo $vlc_version_old; ?>)</h2>
 <?php
 pkgitem_sf( "32 bits Intel Mac",
@@ -36,21 +48,6 @@ pkgitem_sf( "32 bits Intel Mac",
 pkgitem_sf( "PowerPC Mac",
     "$vlc_version_old/macosx","vlc-$vlc_version_old-powerpc.dmg","vlc", "dmg package", "4e4c956647ba6ed948f9fd89f250c999"); ?>
 
-
-<div class="clearme"> </div>
-<br />
-<br />
-<br />
-
-<h2>Web browser plugins Mac OS X 10.5 Leopard (release <?php echo $vlc_version; ?>)</h2>
-<p>These plugins <b>will not</b> run on 10.6 or later.</p>
-
-<?php pkgitem_sf( "Web plugin for Intel Mac",
-               "$vlc_version/macosx","vlc-plugin-$vlc_version-intel.dmg","vlc", "dmg package");
-
-    echo '<div class="clearme"> </div>';
-    pkgitem_sf( "Web plugin for PowerPC Mac",
-               "$vlc_version/macosx","vlc-plugin-$vlc_version-powerpc.dmg","vlc", "dmg package"); ?>
 
 <div class="clearme"> </div>
 <br />

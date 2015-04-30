@@ -4,7 +4,7 @@
    $menu = array( "vlc", "download" );
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
-   $android_version = "1.2.6";
+   $android_version = "1.3.2";
 ?>
 
 <h1 class="bigtitle"> VLC media player for <a href="http://android.com/">Android</a>&trade;</h1>

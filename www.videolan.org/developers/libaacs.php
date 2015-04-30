@@ -2,7 +2,7 @@
    $title ="libaacs";
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
-   $libaacs_version = "0.8.0";
+   $libaacs_version = "0.8.1";
 ?>
 
 <h1 class="bigtitle">libaacs</h1>

@@ -6,6 +6,7 @@ $alternate_lang = array(
     "bn_IN",
     "bs",
     "ca",
+    "co",
     "cs",
     "cy",
     "da",

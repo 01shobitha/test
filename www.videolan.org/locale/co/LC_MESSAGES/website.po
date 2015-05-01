@@ -1,0 +1,321 @@
+# Corsican translation
+# Copyright (C) 2015 VideoLAN
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: VLC - Trans\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-05-18 08:05-0400\n"
+"PO-Revision-Date: 2015-05-01 09:17+0000\n"
+"Last-Translator: Patriccollu <Patrick.Santa-Maria@laposte.net>\n"
+"Language-Team: Corsican (http://www.transifex.com/projects/p/vlc-trans/language/co/)\n"
+"Language: co\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: include/header.php:221
+msgid "A project and a"
+msgstr "Un prughjettu è un"
+
+#: include/header.php:221
+msgid "non-profit organization"
+msgstr "urganismu senza prufittu"
+
+#: include/header.php:222
+msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
+msgstr "cumposti da vuluntarii, sviluppendu è prumuvendu suluzioni libere per u multimedia."
+
+#: include/header.php:228 include/header.php:242 include/header.php:256
+#: index.php:107
+msgid "donate"
+msgstr "rigalà"
+
+#: include/header.php:228
+msgid "why?"
+msgstr "perchè ?"
+
+#: include/header.php:275
+msgid "Home"
+msgstr "Accolta"
+
+#: include/header.php:278 include/header.php:425
+msgid "News"
+msgstr "Nutizie"
+
+#: include/header.php:283 include/header.php:415
+msgid "Project and Organization"
+msgstr "Prughjettu è Urganismu"
+
+#: include/header.php:284 include/header.php:416
+msgid "Team"
+msgstr "Squadra"
+
+#: include/header.php:285 include/header.php:418
+msgid "Contact us"
+msgstr "Cuntattatecci"
+
+#: include/header.php:286 include/header.php:419
+msgid "Partners"
+msgstr "Cumpagni"
+
+#: include/header.php:287 include/header.php:420
+msgid "Mirrors"
+msgstr "Spechji"
+
+#: include/header.php:288 include/header.php:421
+msgid "Press center"
+msgstr "Centru di stampa"
+
+#: include/header.php:289 include/header.php:422
+msgid "Events"
+msgstr "Evvenimenti"
+
+#: include/header.php:290 include/header.php:423
+msgid "Security center"
+msgstr "Centru di Sicurità"
+
+#: include/header.php:296
+msgid "Download"
+msgstr "Telecaricà"
+
+#: include/header.php:297 include/header.php:378 index.php:28 vlc/index.php:22
+#: vlc/index.php:39
+msgid "Features"
+msgstr "Funzioni"
+
+#: include/header.php:298 include/header.php:379 index.php:29 vlc/index.php:23
+#: vlc/index.php:65
+msgid "Screenshots"
+msgstr "Catture di Screnu"
+
+#: include/header.php:299 include/header.php:376 index.php:30 vlc/index.php:24
+msgid "Skins"
+msgstr "Vestitoghje"
+
+#: include/header.php:300 include/header.php:377
+msgid "Extensions"
+msgstr "Stinzioni"
+
+#: include/header.php:304
+msgid "Projects"
+msgstr "Prughjetti"
+
+#: include/header.php:322 include/header.php:383
+msgid "All Projects"
+msgstr "Tutti i Prughjetti"
+
+#: include/header.php:326 index.php:119
+msgid "Contribute"
+msgstr "Cuntribuì"
+
+#: include/header.php:328 include/header.php:408
+msgid "Donate time"
+msgstr "Rigalà u so tempu"
+
+#: include/header.php:329 include/header.php:407
+msgid "Donate money"
+msgstr "Rigalà i soldi"
+
+#: include/header.php:330 include/header.php:409
+msgid "Get Goodies"
+msgstr "Ottene Rigali"
+
+#: include/header.php:334
+msgid "Support"
+msgstr "Supportu"
+
+#: include/header.php:336
+msgid "Support center"
+msgstr "Centru di supportu"
+
+#: include/header.php:337 include/header.php:406
+msgid "FAQ"
+msgstr "FAQ"
+
+#: include/header.php:338 include/header.php:417 include/header.php:446
+msgid "Legal"
+msgstr "Infurmazioni Legale"
+
+#: include/header.php:340 include/header.php:404
+msgid "Forums"
+msgstr "Fori"
+
+#: include/header.php:341 include/header.php:405
+msgid "Mailing-Lists"
+msgstr "Liste di Diffusione"
+
+#: include/header.php:342
+msgid "Report a bug"
+msgstr "Riferisce un prublemu"
+
+#: include/header.php:346
+msgid "Dev' Zone"
+msgstr "Locu di Sviluppu"
+
+#: include/header.php:401
+msgid "Community"
+msgstr "Cumunità"
+
+#: include/header.php:424
+msgid "Get Involved"
+msgstr "Implicassi"
+
+#: include/os-specific.php:93 vlc/index.php:27
+msgid "Download VLC"
+msgstr "Telecaricà VLC"
+
+#: include/os-specific.php:99 vlc/index.php:34 vlc/index.php:127
+msgid "Other Systems"
+msgstr "Altri Sistemi"
+
+#: index.php:3
+msgid "VLC: Official site - Free multimedia solutions for all OS!"
+msgstr "VLC : Situ ufficiale - Suluzioni libere di multimedia per tutti i sistemi !"
+
+#: index.php:26 vlc/index.php:20
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
+msgstr "VLC hè un sunatore multimedia liberu è 'open source' per tutti i sistemi è una struttura chì suna guasi tutti i schedarii multimedia ma dinù DVD, CD Audio, VCD, è parechji protocolli di lettura di cuntinuu."
+
+#: index.php:36
+msgid "Other projects from VideoLAN"
+msgstr "Altri prughjetti da VideoLAN"
+
+#: index.php:38
+msgid "For Everyone"
+msgstr "Per Tutti"
+
+#: index.php:44
+msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
+msgstr "VLC hè un sunatore multimedia putente chì suna guasi tutti i codecs media è e forme video chì esistenu."
+
+#: index.php:53
+msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
+msgstr "VideoLAN Movie Creator hè un prugramma non-lineare di mudificazione per e creazioni video."
+
+#: index.php:60
+msgid "For Professionals"
+msgstr "Per i Prufessiunali"
+
+#: index.php:66
+msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
+msgstr "DVBlast hè un appiecazione simplice è putente per a trasfurmazione 'demux' è a lettura di cuntinuu di MPEG-2/TS."
+
+#: index.php:74
+msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
+msgstr "multicat hè un inseme d'attrezzi creati per manighjà facilmente è efficentemente i flussi multicast è i TS."
+
+#: index.php:83
+msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
+msgstr "x264 hè un appiecazione libera per trasfurmà i flussi video streams in a forma H.264/MPEG-4 AVC."
+
+#: index.php:91
+msgid "For Developers"
+msgstr "Per i Sviluppatori"
+
+#: index.php:102
+msgid "View All Projects"
+msgstr "Affissà Tutti i Prughjetti"
+
+#: index.php:105
+msgid "Help us out!"
+msgstr "Aiutatecci !"
+
+#: index.php:111
+msgid "VideoLAN is a non-profit organization."
+msgstr "VideoLAN hè un urganismu senza prufittu."
+
+#: index.php:112
+msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
+msgstr " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
+
+#: index.php:114 index.php:126 index.php:137
+msgid "Learn More"
+msgstr "Per Sapene di Più"
+
+#: index.php:123
+msgid "VideoLAN is open-source software."
+msgstr "VideoLAN hè un prugramma 'open-source'."
+
+#: index.php:124
+msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
+msgstr "Vole si dì chì s'è voi avete a cumpetenza è a vuluntà di megliurà unu di i nostri prudutti, i vostri cuntribuzioni sò i benvenuti."
+
+#: index.php:131
+msgid "Spread the Word"
+msgstr "Sparghje Dapertuttu"
+
+#: index.php:135
+msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
+msgstr "Secondu à noi VideoLAN hà u più bellu prugramma video à u più bellu prezzu : gratisi. S'è voi site d'accunsentu, aiutateci à sparghje dapertuttu apprupositu di u nostru prugramma."
+
+#: index.php:147
+msgid "News &amp; Updates"
+msgstr "Nutizie &amp; Rinnovi"
+
+#: index.php:151
+msgid "Development Blogs"
+msgstr "Blogs di Sviluppu"
+
+#: index.php:176
+msgid "Social media"
+msgstr "Media Suciale"
+
+#: vlc/index.php:3
+msgid "Official page for VLC media player, the Open Source video framework!"
+msgstr "Pagina ufficiale di VLC media player, a struttura video in Open Source !"
+
+#: vlc/index.php:40
+msgid "Simple, fast and powerful media player."
+msgstr "Sunatore multimedia simplice, prontu è putente."
+
+#: vlc/index.php:42
+msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
+msgstr "Suna tuttu : Schedarii, Dischetti, Webcams, Apparechji (Periferichi) è Flussi."
+
+#: vlc/index.php:44
+msgid "Plays most codecs with no codec packs needed:"
+msgstr "Suna guasi tutti i codec senza bisognu di 'pack' :"
+
+#: vlc/index.php:47
+msgid "Runs on all platforms:"
+msgstr "Funziona nantu à tutti i sistemi :"
+
+#: vlc/index.php:49
+msgid "Completely Free, no spyware, no ads and no user tracking."
+msgstr "Interamente gratisi è liberu, senza spia, senza publicità è senza seguità l'utilizatori."
+
+#: vlc/index.php:51
+msgid "Can do media conversion and streaming."
+msgstr "Pò fà a cunversione di media è a lettura di cuntinuu."
+
+#: vlc/index.php:53
+msgid "Discover all features"
+msgstr "Scuprite tutte e funzioni"
+
+#: vlc/index.php:87
+msgid "View all screenshots"
+msgstr "Affissà tutte e catture di screnu"
+
+#: vlc/index.php:94
+msgid "Get VLC for"
+msgstr "Ottene VLC per"
+
+#: vlc/index.php:98
+msgid "Official Downloads of VLC media player"
+msgstr "Telecaricamenti ufficiale di VLC media player"
+
+#: vlc/index.php:104
+msgid "Sources"
+msgstr "Surghjenti"
+
+#: vlc/index.php:105
+msgid "You can also directly get the"
+msgstr "Pudete dinù ottene subitu u"
+
+#: vlc/index.php:106
+msgid "source code"
+msgstr "codice surghjente"

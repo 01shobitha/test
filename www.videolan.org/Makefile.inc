@@ -28,6 +28,7 @@ locales: index.af.php \
          index.bn_IN.php \
          index.bs.php \
          index.ca.php \
+         index.co.php \
          index.cs.php \
          index.cy.php \
          index.da.php \

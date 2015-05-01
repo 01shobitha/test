@@ -157,7 +157,6 @@ function start_head( $title,
         <?php if( isset($alternate_lang) ) {
             $root_filename = explode('.', $_SERVER['SCRIPT_FILENAME'] );
             echo "<!-- ".$root_filename[0]." -->";
-            echo  '<link rel="alternate" hreflang="x-default" href="/'.$root_filename[0].'.html" />'."\n";
 
             foreach($alternate_lang as $lang) {
                 if( $lang == "en" )

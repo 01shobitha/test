@@ -28,7 +28,7 @@ Ubuntu 12.04 LTS <span style='font-size: smaller'>&ldquo;Precise Pangolin&rdquo;
 <p>Search for <kbd>vlc</kbd> and install it.
 You may also want to install <kbd>browser-plugin-vlc</kbd>.</p>
 <p>If you are interested in streaming or transcoding,
-you should additionnally install <kbd>libavcodec-extra-53</kbd>.</p>
+you should additionally install <kbd>libavcodec-extra-53</kbd>.</p>
 
 <h3>Command line way</h3>
 <p><blockquote>

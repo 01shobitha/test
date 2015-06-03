@@ -1,17 +1,18 @@
 # Turkish translation
-# Copyright (C) 2014 VideoLAN
+# Copyright (C) 2015 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Caner BAŞARAN <basaran.caner@gmail.com>, 2013
+# Caner Başaran <basaran.caner@gmail.com>, 2013
 # Kaya Zeren <kayazeren@gmail.com>, 2012-2014
+# Ozancan Karataş <ozancankaratas96@outlook.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-18 08:05-0400\n"
-"PO-Revision-Date: 2014-05-21 06:35+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
+"PO-Revision-Date: 2015-06-02 19:07+0000\n"
+"Last-Translator: Ozancan Karataş <ozancankaratas96@outlook.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/projects/p/vlc-trans/language/tr/)\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -34,7 +35,7 @@ msgstr "gönüllüler tarafından, özgürce geliştirilip dağıtılan, açık 
 #: include/header.php:228 include/header.php:242 include/header.php:256
 #: index.php:107
 msgid "donate"
-msgstr "BAĞIŞ YAPIN"
+msgstr "Bağış Yapın"
 
 #: include/header.php:228
 msgid "why?"
@@ -42,7 +43,7 @@ msgstr "neden?"
 
 #: include/header.php:275
 msgid "Home"
-msgstr "Anasayfa"
+msgstr "Ana Sayfa"
 
 #: include/header.php:278 include/header.php:425
 msgid "News"
@@ -58,7 +59,7 @@ msgstr "Ekip"
 
 #: include/header.php:285 include/header.php:418
 msgid "Contact us"
-msgstr "İletişim"
+msgstr "Bize ulaşın"
 
 #: include/header.php:286 include/header.php:419
 msgid "Partners"
@@ -116,7 +117,7 @@ msgstr "Katkıda Bulunun"
 
 #: include/header.php:328 include/header.php:408
 msgid "Donate time"
-msgstr "Zaman bağışlayın"
+msgstr "Zamanınızı bağışlayın"
 
 #: include/header.php:329 include/header.php:407
 msgid "Donate money"
@@ -124,7 +125,7 @@ msgstr "Para bağışlayın"
 
 #: include/header.php:330 include/header.php:409
 msgid "Get Goodies"
-msgstr "Ürünlerden alın"
+msgstr "Ürünlerden Alın"
 
 #: include/header.php:334
 msgid "Support"
@@ -156,7 +157,7 @@ msgstr "Hata bildirin"
 
 #: include/header.php:346
 msgid "Dev' Zone"
-msgstr "Geliştiriciler"
+msgstr "Geliştirici Alanı"
 
 #: include/header.php:401
 msgid "Community"
@@ -176,7 +177,7 @@ msgstr "Diğer Sistemler"
 
 #: index.php:3
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
-msgstr "VLC: Resmi sitesi - Tüm işletim sistemleri için özgür çoklu ortam oynatıcı."
+msgstr "VLC: Resmi sitesi - Tüm işletim sistemleri için özgür çoklu ortam çözümleri!"
 
 #: index.php:26 vlc/index.php:20
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
@@ -200,7 +201,7 @@ msgstr "VideoLAN Movie Creator doğrusal olmayan bir görüntü oluşturma ve d�
 
 #: index.php:60
 msgid "For Professionals"
-msgstr "Profesyoneller İçin"
+msgstr "Profesyoneller için"
 
 #: index.php:66
 msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
@@ -216,7 +217,7 @@ msgstr "x264, H.264/MPEG-4 görüntü akışlarını AVC biçiminde kodlayan, ö
 
 #: index.php:91
 msgid "For Developers"
-msgstr "Geliştiriciler İçin"
+msgstr "Geliştiriciler için"
 
 #: index.php:102
 msgid "View All Projects"
@@ -256,7 +257,7 @@ msgstr "Bizce, VideoLAN en iyi fiyata (ücretsiz) alınabilecek en iyi görünt�
 
 #: index.php:147
 msgid "News &amp; Updates"
-msgstr "Haber ve Güncellemeler"
+msgstr "Haberler &amp; Güncellemeler"
 
 #: index.php:151
 msgid "Development Blogs"
@@ -264,7 +265,7 @@ msgstr "Geliştirici Blogları"
 
 #: index.php:176
 msgid "Social media"
-msgstr "Sosyal Medya"
+msgstr "Toplumsal ortam"
 
 #: vlc/index.php:3
 msgid "Official page for VLC media player, the Open Source video framework!"
@@ -288,7 +289,7 @@ msgstr "Tüm platformlarda çalışır:"
 
 #: vlc/index.php:49
 msgid "Completely Free, no spyware, no ads and no user tracking."
-msgstr "Tamamen ücretsiz, ajan ya da reklam yazılımı içermez ve kullanıcı işlemlerini izlemez."
+msgstr "Tamamen ücretsiz, ajan ya da reklam içermez ve kullanıcı işlemlerini izlemez."
 
 #: vlc/index.php:51
 msgid "Can do media conversion and streaming."

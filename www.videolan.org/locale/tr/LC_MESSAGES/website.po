@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-18 08:05-0400\n"
-"PO-Revision-Date: 2015-06-02 19:07+0000\n"
+"PO-Revision-Date: 2015-06-24 19:44+0000\n"
 "Last-Translator: Ozancan Karataş <ozancankaratas96@outlook.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/projects/p/vlc-trans/language/tr/)\n"
 "Language: tr\n"
@@ -26,16 +26,16 @@ msgstr "projesi"
 
 #: include/header.php:221
 msgid "non-profit organization"
-msgstr "kar amacı gütmeyen bir kuruluştur"
+msgstr "kâr amacı gütmeyen bir kuruluştur"
 
 #: include/header.php:222
 msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
-msgstr "gönüllüler tarafından, özgürce geliştirilip dağıtılan, açık kaynaklı çoklu ortam çözümleri sunar.                                                                     "
+msgstr "gönüllüler tarafından, özgürce geliştirilip dağıtılan, açık kaynaklı çoklu ortam çözümleri sunar."
 
 #: include/header.php:228 include/header.php:242 include/header.php:256
 #: index.php:107
 msgid "donate"
-msgstr "Bağış Yapın"
+msgstr "bağış yapın"
 
 #: include/header.php:228
 msgid "why?"
@@ -55,7 +55,7 @@ msgstr "Proje ve Organizasyon"
 
 #: include/header.php:284 include/header.php:416
 msgid "Team"
-msgstr "Ekip"
+msgstr "Takım"
 
 #: include/header.php:285 include/header.php:418
 msgid "Contact us"
@@ -169,7 +169,7 @@ msgstr "Katılım"
 
 #: include/os-specific.php:93 vlc/index.php:27
 msgid "Download VLC"
-msgstr "VLC İndirin"
+msgstr "VLC'yi İndirin"
 
 #: include/os-specific.php:99 vlc/index.php:34 vlc/index.php:127
 msgid "Other Systems"
@@ -193,7 +193,7 @@ msgstr "Herkes için"
 
 #: index.php:44
 msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
-msgstr "VLC, hemen hemen tüm ortam kodlayıcı/çözücülerini ve görüntü biçimlerini kullanabilen güçlü bir ortam oynatıcıdır. "
+msgstr "VLC, hemen hemen tüm ortam kodlayıcı/çözücülerini ve görüntü biçimlerini kullanabilen güçlü bir ortam oynatıcıdır."
 
 #: index.php:53
 msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
@@ -265,7 +265,7 @@ msgstr "Geliştirici Blogları"
 
 #: index.php:176
 msgid "Social media"
-msgstr "Toplumsal ortam"
+msgstr "Toplumsal ortamlar"
 
 #: vlc/index.php:3
 msgid "Official page for VLC media player, the Open Source video framework!"

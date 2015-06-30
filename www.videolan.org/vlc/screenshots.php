@@ -30,6 +30,15 @@ echo"<div class='largescreenshot'><a href='http://images1.videolan.org/vlc/scree
                 screenshot( "2.2.0/vlc-ios-2.5-equalizer.jpg",
                                "2.2.0/tm_vlc-ios-2.5-equalizer.jpg",
                                "iOS 8.1", "1136x640");
+                screenshot( "2.2.0/vlc-ios-2.6-watch-list.jpg",
+                               "2.2.0/tm_vlc-ios-2.6-watch-list.jpg",
+                               "watchOS 1.0", "552x630");
+                screenshot( "2.2.0/vlc-ios-2.6-watch-detail.jpg",
+                               "2.2.0/tm_vlc-ios-2.6-watch-detail.jpg",
+                               "watchOS 1.0", "552x630");
+                screenshot( "2.2.0/vlc-ios-2.6-watch-force-touch.jpg",
+                               "2.2.0/tm_vlc-ios-2.6-watch-force-touch.jpg",
+                               "watchOS 1.0", "552x630");
                ?>
 
 <h2 class="clearme">2.0 - Twoflower</h2>

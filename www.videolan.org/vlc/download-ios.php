@@ -8,7 +8,7 @@
 
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 
-   $version = "2.6.0";
+   $version = "2.6.1";
 ?>
 
     <h1 class="bigtitle"> VLC for iOS <?php echo $version; ?></h1>
@@ -76,14 +76,14 @@ function vlcscreenshot($img,$thumb, $desc){
 
 <?php
    echo "<code><a href='http://get.videolan.org/vlc-iOS/$version/vlc-ios-$version.tar.gz'>VLC for iOS $version source code</a></code><br />"; ?>
-<code><a href="http://get.videolan.org/vlc-iOS/2.6.0/MediaLibraryKit-2.5.1.tar.gz">MediaLibraryKit 2.5.1 source code</a></code><br />
+<code><a href="http://get.videolan.org/vlc-iOS/2.6.1/MediaLibraryKit-2.5.2.tar.gz">MediaLibraryKit 2.5.2 source code</a></code><br />
 <code><a href="http://get.videolan.org/vlc-iOS/2.6.0/VLCKit-2.2.2-pre1.tar.gz">MobileVLCKit 2.2.2-pre1 source code</a></code><br />
 
 <h2> Binary </h2>
 <p> You can also get the binary from our servers instead of the App Store:
 
 <?php
-   echo "<code><a href='http://get.videolan.org/vlc-iOS/2.6.0/vlc-ios-$version.ipa'>VLC for iOS $version binary</a></code>."; ?>
+   echo "<code><a href='http://get.videolan.org/vlc-iOS/$version/vlc-ios-$version.ipa'>VLC for iOS $version binary</a></code>."; ?>
    <br/>A binary version of MobileVLCKit is available through <a href="http://cocoapods.org">CocoaPods</a>.
 </p>
 

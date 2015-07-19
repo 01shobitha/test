@@ -116,7 +116,7 @@
     <div class="lastcolumn">
         <h2>Licensing</h2>
         <p>In addition to being free to use under the <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU GPL</a>,
-         x265 is also available under a commercial license from <a href="http://x265.com">MultiWareCore Inc</a>.
+         x265 is also available under a commercial license from <a href="http://x265.com">MulticoreWare Inc</a>.
 .</p>
     </div>
 

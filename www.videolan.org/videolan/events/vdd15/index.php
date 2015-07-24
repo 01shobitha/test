@@ -54,16 +54,17 @@ Developers, designers and anonymous people around <a href="/vlc/">VLC</a>, all o
 <h1>Schedule</h1>
 <div id="schedule" style="margin: 10px 25px 0px; padding: 0 20px; border: 0px outset #4d4d4d; width: 600px;">
 
-<h2>Friday 18th September</h2>
-<p>This year we'll do a full community bonding day at <a href="http://www.disneylandparis.com">Disneyland Paris</a>!<br/>
+<h2>Friday 18th September, Community Bonding Day</h2>
+<p>This year we'll do a community bonding day at <a href="http://www.disneylandparis.com">Disneyland Paris</a>!<br/>
 The VideoLAN organization will pay for the amusement park tickets.<br/>
-<b>To participate you'll need to be in Paris Friday at 8am!</b> Please plan an extra night if you can't make it.</p>
-<h2>Saturday / Sunday</h2>
-<p>To be announced.</p>
+<b>To participate you'll need to be in Paris Friday at 8AM!</b>Please plan an extra night if you can't make it.</p>
 
-<h2>Café Event</h2>
+<h2>Friday 18th September, Café Event</h2>
 <p>On <strong>Friday 18th September 2015 at 20h30</strong>, people are welcome to come and
 share a few good drinks.</p>
+
+<h2>Saturday / Sunday</h2>
+<p>To be announced.</p>
 </div>
 
 <h1>Registration</h1>
@@ -72,8 +73,5 @@ share a few good drinks.</p>
 
 <h1><a name="location">Location</a> </h1>
 <p>To be announced.</p>
-
-<!--<h2>Schedule</h2> -->
-<!-- You can find the full final schedule <a href="/videolan/events/vdd09.pdf">here</a>. -->
 
 <?php footer('$Id: index.php 5400 2009-07-19 15:37:21Z jb $'); ?>

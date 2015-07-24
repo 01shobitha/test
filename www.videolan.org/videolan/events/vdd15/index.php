@@ -46,7 +46,7 @@ Developers, designers and anonymous people around <a href="/vlc/">VLC</a>, all o
 <p>If you are representing a <b>company</b> caring about open-source multimedia software, we would be <b>very interested</b> if you could co-sponsor the event.</p>
 
 <h1>Where? </h1>
-<p>The venue will be announced at a later point.</p>
+<p>The venue is in Paris. The precise location will be announced at a later point.</p>
 
 <h1>Cost and sponsorship </h1>
 <p>The cost for attendance is <b>free</b>.</p>

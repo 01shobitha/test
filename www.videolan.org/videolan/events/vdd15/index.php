@@ -34,8 +34,9 @@
 <p><b>The <a href="/videolan/">VideoLAN non-profit organisation</a> is happy to
 invite you to the multimedia open-source event of the end of summer!</b></p><br/>
 
-<p>For its <b>seventh edition</b>, people from the VideoLAN and open source multimedia communities will meet in
- <strong>Paris, France</strong> to gather, work, discuss and meet, on the <strong>19th and 20th of September 2015</strong>.</p>
+<p>For its <b>seventh edition</b>, people from the VideoLAN and open source multimedia communities will meet in<br/>
+ <h4><strong>Paris, France</strong></h4>to gather, work, discuss and meet, on the<br/>
+ <h4><strong>19th and 20th of September 2015</strong>.</p></h4>
 <p>This event is focused on technical discussions and decisions about <b>multimedia</b>, and targets a technical crowd.</p>
 <p>Like in previous years, an important number of developers from <a href="/developers/x264.html">x264</a>, <a href="http://www.ffmpeg.org/">FFmpeg</a>, <a href="http://libav.org/">Libav</a> and KDE will join us as well as major industry partners!
 Developers, designers and anonymous people around <a href="/vlc/">VLC</a>, all of its ports to desktop, web browser environments and mobile operating systems, <a href="/projects/dvblast.html">DVBlast</a> or other multimedia projects will be there too.</p>
@@ -57,7 +58,7 @@ Developers, designers and anonymous people around <a href="/vlc/">VLC</a>, all o
 <h2>Friday 18th September, Community Bonding Day</h2>
 <p>This year we'll do a community bonding day at <a href="http://www.disneylandparis.com">Disneyland Paris</a>!<br/>
 The VideoLAN organization will pay for the amusement park tickets.<br/>
-<b>To participate you'll need to be in Paris Friday at 8AM!</b>Please plan an extra night if you can't make it.</p>
+<b>To participate you'll need to be in Paris Friday at 8AM!</b><br/>Please plan an extra night if you can't make it.</p>
 
 <h2>Friday 18th September, Café Event</h2>
 <p>On <strong>Friday 18th September 2015 at 20h30</strong>, people are welcome to come and

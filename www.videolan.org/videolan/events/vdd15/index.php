@@ -25,8 +25,7 @@
 
 <?php panel_start( "blue" ); ?>
 <h2>Register!</h2>
-<b>Registration will open shortly</b>
-<!--<b><a href="http://goo.gl/mUEER">Register <strong>now!</strong></a></b>-->
+<b><a href="http://goo.gl/forms/SlVMveWSIV">Register <strong>now!</strong></a></b>
 <?php panel_end(); ?>
 
 </div>
@@ -69,8 +68,7 @@ share a few good drinks.</p>
 </div>
 
 <h1>Registration</h1>
-<p>Registration will open shortly.</p>
-<!--<p>Please fill out the <b><a href="http://goo.gl/mUEER">registration form</a></b>.</p>-->
+<p>Please fill out the <b><a href="http://goo.gl/forms/SlVMveWSIV">registration form</a></b>.
 
 <h1><a name="location">Location</a> </h1>
 <p>To be announced.</p>

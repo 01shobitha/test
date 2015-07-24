@@ -5,10 +5,11 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-<h1>VideoLAN Dev Days 2015</h1><br/>
-<h3>The Open Multimedia Conference that frees the cone in you!</h3>
-
 <p><?php image( "events/vdd14.jpg" , "VDD14 Group picture"); ?></p>
+
+<h1>VideoLAN Dev Days 2015</h1><br/>
+
+<h3>The Open Multimedia Conference that frees the cone in you!</h3>
 
 <div id="sidebar">
 <?php panel_start( "green" ); ?>
@@ -51,7 +52,7 @@ Developers, designers and anonymous people around <a href="/vlc/">VLC</a>, all o
 <p>Like previous years, active developers can get a full sponsorship covering travel costs. We will also provide accomodation.</p>
 
 <h1>Schedule</h1>
-<div id="schedule" style="margin: 10px 25px 0px; padding: 0 20px; border: 1px outset #4d4d4d; width: 600px;">
+<div id="schedule" style="margin: 10px 25px 0px; padding: 0 20px; border: 0px outset #4d4d4d; width: 600px;">
 
 <h2>Friday 18th September</h2>
 <p>This year we'll do a full community bonding day at <a href="http://www.disneylandparis.com">Disneyland Paris</a>!<br/>

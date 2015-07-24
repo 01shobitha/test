@@ -15,7 +15,7 @@
 <p><?php image( "events/vdd14.jpg" , "VideoLAN association"); ?></p>
 
 <h2>1, 2 September 2013 - Fifth Dev Days</h2>
-<p><a href="/videolan/events/vdd13/index.html">For the fourth time</a>, people from the VideoLAN community will meet in Paris to gather, work, discuss and build a stronger community.</p>
+<p><a href="/videolan/events/vdd13/index.html">For the fifth time</a>, people from the VideoLAN community will meet in Paris to gather, work, discuss and build a stronger community.</p>
 <p><?php image( "events/vdd13.jpg" , "VideoLAN association"); ?></p>
 
 <h2>1, 2 September 2012 - Fourth Dev Days</h2>
@@ -24,25 +24,19 @@
 
 <h2>3, 4 September 2011 - Third Dev Days</h2>
 <p><a href="/videolan/events/vdd11.html">For the third time</a>, people from the VideoLAN community will meet in Paris to gather, work, discuss and build a stronger community.</p>
-<p><?php image( "events/vdd11.jpg" , "VideoLAN association"); ?></p>
 
 <h2>1 February 2011 - Ten years of open source</h2>
 <a href="/videolan/events/10y/"><img alt="10 cones" src="http://images1.videolan.org/images/10years.png" /></a>
 
 <h2>18, 19, 20 December 2009 - Second Dev Days</h2>
-
 <p><a href="/videolan/events/vdd09.html">For the second time</a>, people from the VideoLAN community will meet in Paris to gather, work, discuss and build a stronger community.</p>
 
 <h2>20, 21 December 2008 - First Dev Days '08</h2>
-
-<p>
-The VideoLAN community is a fast-evolving and ever-changing community and development happens really fast. While this is fun, it is always difficult to meet and discuss with each other in person.</p>
-
-<img src="/videolan/events/20081220/VDD/mq/img-11.jpg" alt="VDD'08 Group Picture" />
-
+<p>The VideoLAN community is a fast-evolving and ever-changing community and development happens really fast. While this is fun, it is always difficult to meet and discuss with each other in person.</p>
+<p><?php image( "events/vdd08.jpg" , "VideoLAN association"); ?></p>
 <p><a href="/videolan/events/20081220/VDD/">More pictures.</a></p>
-<h2>23, 24 February 2008 - FOSDEM</h2>
 
+<h2>23, 24 February 2008 - FOSDEM</h2>
 <p>Once again, a few of us attended <a href="http://www.fosdem.org/2008/">FOSDEM</a> this year. We didn't hold any presentation but it was a nice occasion for us developers to meet in real life and to discuss about VideoLAN future, especially the migration from SVN to GIT and the release of VLC 0.9.</p>
 
 <img src="/videolan/events/20080223/crew.jpg" alt="FOSDEM 2008" />

@@ -15,6 +15,7 @@
 <h2>Sponsors</h2>
 <a href="/videolan/"><?php image( "logoGrey.png" , "VideoLAN association"); ?></a>
 <br />
+<br />
 <p style="text-align: center"><a href="http://videolabs.io">Videolabs SAS</p>
 <br />
 <p style="text-align: center"><a href=/contact.html>Your Name Here</p>
@@ -29,7 +30,7 @@
 
 </div>
 
-<p style="margin: 10px 0;"><b>The <a href="/videolan/">VideoLAN non-profit organisation</a> is happy to
+<p style="margin: 10px 0;"><b><br/>The <a href="/videolan/">VideoLAN non-profit organisation</a> is happy to
 invite you to the multimedia open-source event of the end of summer!</b></p>
 
 <p>For its <b>seventh edition</b>, people from the VideoLAN and open source multimedia communities will meet in</p>
@@ -40,8 +41,7 @@ invite you to the multimedia open-source event of the end of summer!</b></p>
 Developers, designers and anonymous people around <a href="/vlc/">VLC</a>, all of its ports to desktop, web browser environments and mobile operating systems, <a href="/projects/dvblast.html">DVBlast</a> or other multimedia projects will be there too.</p>
 
 <h1>Who can come? </h1>
-<p><strong>Anyone</strong> who cares about open source multimedia technologies and development.<br />
- If you are not a technical person, but an enthusiast, we recommend you to come to the less technical events, like in the evenings.</p>
+<p><strong>Anyone</strong> who cares about open source multimedia technologies and development.<br />If you are representing a company deploying open-source multimedia software in commercial environments, we would be excited if you co-sponsored the event.</p>
 
 <h1>Where? </h1>
 <p>The venue will be announced at a later point.
@@ -71,5 +71,11 @@ share a few good drinks.</p>
 
 <h1><a name="location">Location</a> </h1>
 <p>To be announced.</p>
+
+<h1><a name="coc">Code of Conduct</a> </h1>
+<p>This community activity is running under the <a href="https://wiki.videolan.org/CoC/">VideoLAN Code of Conduct</a>. We expect all attendees to respect our <a href="https://wiki.videolan.org/VideoLAN_Values/">Shared Values</a>.</p>
+
+<h1><a name="contact">Contact</a> </h1>
+<p>The VideoLAN Dev Days are organized by the board members of the VideoLAN non-profit organization, Jean-Baptiste Kempf, Felix Paul Kühne and Ludovic Fauvet. You can reach us at <span style="color: #d0eed5">board@videolan.org</span>.</p>
 
 <?php footer('$Id: index.php 5400 2009-07-19 15:37:21Z jb $'); ?>

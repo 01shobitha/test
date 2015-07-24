@@ -5,7 +5,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-<p><?php image( "events/vdd14.jpg" , "VDD14 Group picture"); ?></p>
+<p style="margin-top: -15px"><?php image( "events/vdd14.jpg" , "VDD14 Group picture"); ?></p>
 
 <h1>VideoLAN Dev Days 2015</h1><br/>
 

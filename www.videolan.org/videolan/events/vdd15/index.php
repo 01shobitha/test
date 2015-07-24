@@ -18,7 +18,7 @@
 <br />
 <p style="text-align: center"><a href="http://videolabs.io">Videolabs SAS</p>
 <br />
-<p style="text-align: center"><a href=/contact.html>Your Name Here</p>
+<p style="text-align: center"><a href=#contact>Your Name Here</p>
 <h2>Host</h2>
 <p style="text-align: center">To be announced</a></p>
 <?php panel_end(); ?>

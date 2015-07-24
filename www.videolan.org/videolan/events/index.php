@@ -8,14 +8,14 @@
 <div class='longtext'>
 
 <h2>19, 20 September 2015 - Seventh Dev Days</h2>
-<p><a href="/videolan/events/vdd15/index.html">For the seventh time</a>, people from the VideoLAN community will meet to gather, work, discuss and build a stronger community in Paris, France.</p>
+<p><a href="/videolan/events/vdd15/">For the seventh time</a>, people from the VideoLAN community will meet to gather, work, discuss and build a stronger community in Paris, France.</p>
 
 <h2>18, 19 September 2014 - Sixth Dev Days</h2>
 <p>For the sixth time, people from the VideoLAN community will meet to gather, work, discuss and build a stronger community. For the first time outside Paris, in Dublin, Ireland.</p>
 <p><?php image( "events/vdd14.jpg" , "VideoLAN association"); ?></p>
 
 <h2>1, 2 September 2013 - Fifth Dev Days</h2>
-<p><a href="/videolan/events/vdd13/index.html">For the fifth time</a>, people from the VideoLAN community will meet in Paris to gather, work, discuss and build a stronger community.</p>
+<p><a href="/videolan/events/vdd13/">For the fifth time</a>, people from the VideoLAN community will meet in Paris to gather, work, discuss and build a stronger community.</p>
 <p><?php image( "events/vdd13.jpg" , "VideoLAN association"); ?></p>
 
 <h2>1, 2 September 2012 - Fourth Dev Days</h2>

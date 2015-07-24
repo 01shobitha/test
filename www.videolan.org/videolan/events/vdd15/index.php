@@ -29,8 +29,8 @@
 
 </div>
 
-<p><b>The <a href="/videolan/">VideoLAN non-profit organisation</a> is happy to
-invite you to the multimedia open-source event of the end of summer!</b></p><br/>
+<p style="margin: 10px 0;"><b>The <a href="/videolan/">VideoLAN non-profit organisation</a> is happy to
+invite you to the multimedia open-source event of the end of summer!</b></p>
 
 <p>For its <b>seventh edition</b>, people from the VideoLAN and open source multimedia communities will meet in</p>
 <p style="text-align: center"><strong>Paris, France</strong></p><p>to gather, work, discuss and meet, on the<br/>

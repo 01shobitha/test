@@ -32,7 +32,7 @@ The VideoLAN community is a fast-evolving and ever-changing community and develo
 
 <p>VideoLAN will attend the Solutions Linux expo in Paris. This year, we'll have a booth in the free associations area. Don't forget to drop by !</p>
 <p>
-<a href="http://www.solutionslinux.fr/"><img src="http://troll3.parinux.org/~seyman/Linux-468x60.gif" alt="Solutions Linux 2007"/></a>
+<a href="http://www.solutionslinux.fr/">Solutions Linux</a>
 </p>
 
 <h2>26/27 February 2005 - VideoLAN is hot at FOSDEM</h2>
@@ -46,7 +46,7 @@ The VideoLAN community is a fast-evolving and ever-changing community and develo
 <a href="/videolan/events/20050226/VideoLAN%20Booth/Other%20demo/IMG_1258.JPG"><img alt="IMG_1258.JPG (1600x1200)"
         width="120"
         height="90"
-        src="/videolan/events/20050226/VideoLAN%20Booth/Other%20demo/.xvpics/tn_IMG_1258.JPG.png" /><br />IMG_1258.JPG<br />1600x1200</a>
+        src="https://images.videolan.org/images/events/fosdem-2005/IMG_1258.JPG" /><br />IMG_1258.JPG<br />1600x1200</a>
 </p>
 
 <p>Rotating OpenGL transparent cube shown in a transparent output window running on Mac OS X. Next to it Colored ASCII Art output with a text (marquee) and a logo filter running on FreeBSD.</p>
@@ -57,7 +57,7 @@ The VideoLAN community is a fast-evolving and ever-changing community and develo
 <a href="/videolan/events/20050226/VideoLAN%20Booth/Walls/IMG_1205.JPG"><img alt="IMG_1205.JPG (1600x1200)"
         width="120"
         height="90"
-        src="/videolan/events/20050226/VideoLAN%20Booth/Walls/.xvpics/tn_IMG_1205.JPG.png" /><br />IMG_1205.JPG<br />1600x1200</a>
+        src="https://images.videolan.org/images/events/fosdem-2005/IMG_1205.JPG" /><br />IMG_1205.JPG<br />1600x1200</a>
 </p>
 
 <p>Then a demo of Firefox showing a html page with the VLC plugin embedded (3 times) showing 3 different movies on Linux</p>
@@ -70,7 +70,7 @@ The VideoLAN community is a fast-evolving and ever-changing community and develo
 <a href="/videolan/events/20050226/VideoLAN%20Booth/Walls/IMG_1259.JPG"><img alt="IMG_1259.JPG (1600x1200)"
         width="120"
         height="90"
-        src="/videolan/events/20050226/VideoLAN%20Booth/Walls/.xvpics/tn_IMG_1259.JPG.png" /><br />IMG_1259.JPG<br />1600x1200</a>
+        src="https://images.videolan.org/images/events/fosdem-2005/IMG_1259.JPG" /><br />IMG_1259.JPG<br />1600x1200</a>
 </p>
 
 <p>On the left you see the VLC mosaic (picture in picture) filter showing a one movie transparent on within another movie and a textfilter. You also see the Wall filter showing how you can split up a movie into pieces on different monitors. It also shows the time and logo filters, as well as positioning of the text filter and uses caca output on a quarter of the wall.</p>
@@ -81,7 +81,7 @@ The VideoLAN community is a fast-evolving and ever-changing community and develo
 <a href="/videolan/events/20050226/VideoLAN%20Booth/Walls/IMG_1211.JPG"><img alt="IMG_1211.JPG (1600x1200)"
         width="120"
         height="90"
-        src="/videolan/events/20050226/VideoLAN%20Booth/Walls/.xvpics/tn_IMG_1211.JPG.png" /><br />IMG_1211.JPG<br />1600x1200</a>
+        src="https://images.videolan.org/images/events/fosdem-2005/IMG_1211.JPG" /><br />IMG_1211.JPG<br />1600x1200</a>
 </p>
 
 <p>The last demo shows the rotate filter, the wall filter, UTF-8 (japanese) subtitles, and some text overlays</p>
@@ -124,7 +124,6 @@ FOSDEM picture site</a>. Copyright to the respective creators of the pictures,
 redistribution is not allowed. These files are for our own personal archive.
 </p>
 
-
 <h2>25 June 2003 - VLC runner up for Apple Design Award 2003</h2>
 
 <p>VLC 0.5.3 is runner up (i.e. second) for Apple Design Award 2003.
@@ -132,9 +131,7 @@ Colin Delacroix and Mathieu Poumeyrol where there at the Worldwide
 Developers Conference in San Francisco and are taking the trophy
 back!</p>
 
-<p>
-<img src="/videolan/events/20030625/.xvpics/mi_DSCN0783.JPG" alt="The Trophy"
-     width="300" height="225" /></p>
+<p><?php image( "events/apple-design-award-2003.jpg" , "ADA 2003"); ?></p>
 
 <p><a href="20030625/index.html">Pictures of the trophy</a></p>
 

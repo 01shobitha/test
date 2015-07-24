@@ -5,7 +5,7 @@
    require($_SERVER["DOCUMENT_ROOT"]."/include/header.php");
 ?>
 
-<p style="margin-top: -15px"><?php image( "events/vdd14.jpg" , "VDD14 Group picture"); ?></p>
+<p><?php image( "events/vdd14.jpg" , "VDD14 Group picture"); ?></p>
 
 <h1>VideoLAN Dev Days 2015</h1>
 <h3 style="color: #4D4D4D">The Open Multimedia Conference that frees the cone in you!</h3>
@@ -31,7 +31,7 @@
 </div>
 
 <p style="margin: 10px 0;"><b><br/>The <a href="/videolan/">VideoLAN non-profit organisation</a> is happy to
-invite you to the multimedia open-source event of the end of summer!</b></p>
+invite you to the multimedia open-source event of the summer!</b></p>
 
 <p>For its <b>seventh edition</b>, people from the VideoLAN and open source multimedia communities will meet on the</p>
 <p style="text-align: center"><strong>19th and 20th of September 2015</strong>,</p>

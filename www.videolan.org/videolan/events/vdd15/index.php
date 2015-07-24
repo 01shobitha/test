@@ -16,9 +16,9 @@
 <a href="/videolan/"><?php image( "logoGrey.png" , "VideoLAN association"); ?></a>
 <br />
 <br />
-<p style="text-align: center"><a href="http://videolabs.io">Videolabs SAS</p>
+<p style="text-align: center"><a href="http://videolabs.io">Videolabs SAS</a></p>
 <br />
-<p style="text-align: center"><a href=#contact>Your Name Here</p>
+<p style="text-align: center"><a href=#contact>Your Name Here</a></p>
 <h2>Host</h2>
 <p style="text-align: center">To be announced</a></p>
 <?php panel_end(); ?>

@@ -76,6 +76,6 @@ share a few good drinks.</p>
 <p>This community activity is running under the <a href="https://wiki.videolan.org/CoC/">VideoLAN Code of Conduct</a>. We expect all attendees to respect our <a href="https://wiki.videolan.org/VideoLAN_Values/">Shared Values</a>.</p>
 
 <h1><a name="contact">Contact</a> </h1>
-<p>The VideoLAN Dev Days are organized by the board members of the VideoLAN non-profit organization, Jean-Baptiste Kempf, Felix Paul Kühne and Ludovic Fauvet. You can reach us at <span style="color: #d0eed5">board@videolan.org</span>.</p>
+<p>The VideoLAN Dev Days are organized by the board members of the VideoLAN non-profit organization, Jean-Baptiste Kempf, Felix Paul Kühne and Ludovic Fauvet. You can reach us at <span style="color: #39b549">board@videolan.org</span>.</p>
 
 <?php footer('$Id: index.php 5400 2009-07-19 15:37:21Z jb $'); ?>

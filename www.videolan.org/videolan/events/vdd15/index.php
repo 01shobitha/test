@@ -8,7 +8,7 @@
 <p style="margin-top: -15px"><?php image( "events/vdd14.jpg" , "VDD14 Group picture"); ?></p>
 
 <h1>VideoLAN Dev Days 2015</h1>
-<h3>The Open Multimedia Conference that frees the cone in you!</h3>
+<h3 style="color: #4D4D4D">The Open Multimedia Conference that frees the cone in you!</h3>
 
 <div id="sidebar">
 <?php panel_start( "green" ); ?>

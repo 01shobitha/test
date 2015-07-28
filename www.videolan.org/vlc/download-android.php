@@ -12,7 +12,7 @@
 <h1>VLC for Android&trade;</h1>
 
 <p><a href="/vlc/">VLC</a> for Android&trade; is still under heavy development. The current version is <?php echo $android_version; ?>.</p><br/>
-<div style="margin-left:auto;margin-right:auto;width:350px;">
+<div style="margin-left:auto;margin-right:auto;width:360px;">
     <a href="https://play.google.com/store/apps/details?id=org.videolan.vlc"><img src="/images/get_it_on_play_logo_large.png" border="0" /></a>
     <a href="http://www.amazon.com/VLC-Mobile-Team-for-Fire/dp/B00U65KQMQ"><img src="/images/badges/Amazon-apps-black.png" height="60px" /></a>
 </div>

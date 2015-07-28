@@ -137,6 +137,7 @@ function start_head( $title,
         open source, free software, floss, free" />
 
         <meta name="Description" content="<?php echo _( $title ); ?>" />
+        <meta name="apple-itunes-app" content="app-id=650377962"/>
         <title>VideoLAN - <?php echo _( $title ); ?></title>
 
         <?php /* Additional Meta */

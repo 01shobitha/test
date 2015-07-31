@@ -3,7 +3,7 @@ $win32version = '2.2.1';
 $macosxversion = '2.2.1';
 $oldmacosxversion = '2.0.10';
 $version = '2.2.1';
-$iosversion = '2.6.2';
+$iosversion = '2.6.3';
 
 $dlBase = "//get.videolan.org/vlc";
 $dlUrl = "$dlBase/$win32version/win32/vlc-$win32version-win32.exe";

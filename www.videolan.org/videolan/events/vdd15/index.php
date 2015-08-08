@@ -13,7 +13,7 @@
 <div id="sidebar">
 <?php panel_start( "green" ); ?>
 <h2>Sponsors</h2>
-<a href="http://www.google.com/"><?php image( "partners/google.png" , "Google"); ?></a>
+<a href="http://www.google.com/"><?php image( "partners/google.png" , "Google", "", 180); ?></a>
 <br />
 <a href="/videolan/"><?php image( "logoGrey.png" , "VideoLAN association"); ?></a>
 <br />

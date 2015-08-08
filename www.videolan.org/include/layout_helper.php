@@ -37,9 +37,10 @@ function FormatSize($size) {
 }
 
 /* Image function to hit the start server */
-function image( $src_img, $alt, $id = "" ) {
+function image( $src_img, $alt, $id = "", $width = "") {
     echo "<img src='//images.videolan.org/images/".$src_img."' alt='".$alt."'";
     if( !empty( $id ) ) echo " class='$id'";
+    if( !empty( $width ) ) echo " width='$width'";
     echo " />\n";
 }
 

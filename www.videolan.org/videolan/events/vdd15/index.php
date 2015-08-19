@@ -21,7 +21,7 @@
 <br />
 <p style="text-align: center"><a href=#contact>Your Name Here</a></p>
 <h2>Host</h2>
-<p style="text-align: center">To be announced</a></p>
+<a href="http://www.criteo.fr/"><?php image( "partners/criteo.png" , "Criteo", "", 180); ?></a>
 <?php panel_end(); ?>
 
 <?php panel_start( "blue" ); ?>

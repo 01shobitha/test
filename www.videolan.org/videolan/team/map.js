@@ -36,7 +36,7 @@ function load()
       {
         // Generate the pin image and its proper color.
         icon = new GIcon();
-        icon.image = "http://www.videolan.org/favicon.ico";
+        icon.image = "//www.videolan.org/favicon.ico";
         icon.iconSize = new GSize(16, 16);
         icon.iconAnchor = new GPoint(8, 8);
         icon.infoWindowAnchor = new GPoint(8, 8)
@@ -54,7 +54,7 @@ function load()
         }
         else
         {
-          pintext += "<td width='100' nowrap='nowrap' valign='top' rowspan='2' class='imgTD'><img src='http://images.videolan.org/images/cone-soppera10.png' width='60px' height='80px' /></td>";
+          pintext += "<td width='100' nowrap='nowrap' valign='top' rowspan='2' class='imgTD'><img src='//images.videolan.org/images/goodies/cone-soppera10.png' width='60px' height='80px' /></td>";
         }
 
         pintext += "<td valign='top' class='contentTD'>"

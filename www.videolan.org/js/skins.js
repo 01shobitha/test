@@ -133,7 +133,7 @@ function showSkinBox(id, name, author, date, downloads, file, size, rating, vote
 		    
     caption  = "<span class=\"skin-title\">"+name+"</span> by "+author+" - <span class=\"skin-date\">Last updated on "+date+"</span><br>"; 
     caption += "<i>Requires VLC "+minv+" or later</i><br>";
-    caption += "<a class=\"skin-dl\" href=\"http://www1.videolan.org/vlc/download-skins2-go.php?url="+file+"\">Download</a> ("+size+") - <span class=\"skin-dls\">"+downloads+" Downloads</span><br>";
+    caption += "<a class=\"skin-dl\" href=\"http://www.videolan.org/vlc/download-skins2-go.php?url="+file+"\">Download</a> ("+size+") - <span class=\"skin-dls\">"+downloads+" Downloads</span><br>";
     caption += "<br>Rating: ";
         
     for( i=0; i<5; i++ )   {      

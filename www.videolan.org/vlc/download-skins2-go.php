@@ -1,17 +1,18 @@
 <?php
 $url = urldecode( $_GET["url"] );
 if( strpos( $url, "/" ) ) $url ="";
-if( strpos( $url, " " ) ) $url ="";
+#if( strpos( $url, " " ) ) $url ="";
 if( strpos( $url, '"' ) ) $url ="";
 if( strpos( $url, "'" ) ) $url ="";
+echo $url;
 ?>
 <html>
   <head>
     <title>VideoLAN - Download skin</title>
-    <meta http-equiv="refresh" content="0; url=http://www1.videolan.org/vlc/skins2/<?php echo $url; ?>" />
+    <meta http-equiv="refresh" content="0; url=http://www.videolan.org/vlc/skins2/<?php echo $url; ?>" />
   </head>
   <body>
-    <p>Click <a href="http://www1.videolan.org/vlc/skins2/<?php echo $url; ?>">here</a> if your download doesn't start.</p>
+    <p>Click <a href="http://www.videolan.org/vlc/skins2/<?php echo $url; ?>">here</a> if your download doesn't start.</p>
 <?php
   if( $url != "" )
   { 

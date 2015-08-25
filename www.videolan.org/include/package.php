@@ -20,7 +20,7 @@ function getDownloadLink($project, $version, $name) {
 
 function pkgversion($name,$version)
 {
-    $latest = array("vlc" => "2.0.7");
+    $latest = array("vlc" => "2.2.1");
 
     if (!$latest[$name])
         return;
@@ -41,7 +41,9 @@ function pkgversion($name,$version)
 function pkgitem_nomirr($description,$version,$name,$top,$extradescription="")
 {
   pkgversion($top, $version);
-  echo "<p><a href=\"http://get.videolan.org/$top/$version/$name\">$description</a> <i>$extradescription</i> (".DownloadSize("/opt/ftp/pub/videolan/$top/$version/$name").")</p>";
+  echo "<p><a href=\"http://get.videolan.org/$top/$version/$name\">$description</a> <i>$extradescription</i></p>";
+  // website no longer has access to FTP 25.08.2015
+  // (".DownloadSize("/opt/ftp/pub/videolan/$top/$version/$name").")</p>";
 }
 
 function sf_money()

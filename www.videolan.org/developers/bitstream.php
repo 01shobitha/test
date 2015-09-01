@@ -24,7 +24,7 @@ and specifications.</p>
 <ul class="bullets">
   <li> ISO/IEC 13818-1 (MPEG-2 systems) </li>
   <li> ETSI EN 300 468 (Service Information in DVB systems) </li>
-  <li> IETF RFC 2550 (Real Time Protocol) </li>
+  <li> IETF RFC 3550 (Real Time Protocol) </li>
   <li> ETSI EN 50 221 (Common Interface Specification) </li>
   <li> ETSI TS 103 194 (DVB Simulcrypt) </li>
 </ul>

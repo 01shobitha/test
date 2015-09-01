@@ -1,23 +1,24 @@
 # Traditional Chinese translation
-# Copyright (C) 2014 VideoLAN
+# Copyright (C) 2015 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
 # Frank Chao <frank0624@gmail.com>, 2012
 # Frank Chao <frank0624@gmail.com>, 2012-2013
-# hanklu <hankbox@gmail.com>, 2013
+# Hank Lu <hankbox@gmail.com>, 2013
 # Frank Chao <frank0624@gmail.com>, 2013
+# Ruei-Yuan Lu <rueiyuan.lu@gmail.com>, 2015
 # taijuin lee <taijuin@gmail.com>, 2013
-# xatier 同學@提不起勁 <xatierlike@gmail.com>, 2014
-# 柏諺 黃 <s8321414@gmail.com>, 2014
+# x4r <xatierlike@gmail.com>, 2014
+# Jeff Huang <s8321414@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-18 08:05-0400\n"
-"PO-Revision-Date: 2014-05-18 12:53+0000\n"
-"Last-Translator: 柏諺 黃 <s8321414@gmail.com>\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/vlc-trans/language/zh_TW/)\n"
+"PO-Revision-Date: 2015-08-25 01:57+0000\n"
+"Last-Translator: Ruei-Yuan Lu <rueiyuan.lu@gmail.com>\n"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.com/yaron/vlc-trans/language/zh_TW/)\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -181,7 +182,7 @@ msgstr "其他系統"
 
 #: index.php:3
 msgid "VLC: Official site - Free multimedia solutions for all OS!"
-msgstr "VLC：官方網站 - 用於所有操作系統的自由軟體之多媒體解決方案！"
+msgstr "VLC：官方網站 - 用於所有作業系統的自由軟體之多媒體解決方案！"
 
 #: index.php:26 vlc/index.php:20
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
@@ -201,7 +202,7 @@ msgstr "VLC 是一款能播放目前大多數媒體及影片格式的強大媒�
 
 #: index.php:53
 msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
-msgstr "VideoLAN Movie Creator 是一款非線性影片創作編輯軟件。"
+msgstr "VideoLAN Movie Creator 是一款用於影片創作的非線性剪輯軟體。"
 
 #: index.php:60
 msgid "For Professionals"
@@ -233,7 +234,7 @@ msgstr "幫助我們！"
 
 #: index.php:111
 msgid "VideoLAN is a non-profit organization."
-msgstr "VideoLAN 是一個非營利性的組織。"
+msgstr "VideoLAN 是一個非營利組織。"
 
 #: index.php:112
 msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
@@ -285,15 +286,15 @@ msgstr "可播放任何媒體：檔案、光碟、網路攝影機、裝置和串
 
 #: vlc/index.php:44
 msgid "Plays most codecs with no codec packs needed:"
-msgstr "可播放大多數影音檔，而無需安裝解碼器軟體包："
+msgstr "可播放大多數影音檔，無需安裝編解碼器套件："
 
 #: vlc/index.php:47
 msgid "Runs on all platforms:"
-msgstr "可在所有平台運行："
+msgstr "可在所有平台運作："
 
 #: vlc/index.php:49
 msgid "Completely Free, no spyware, no ads and no user tracking."
-msgstr "完全免費，沒有間諜軟體，無廣告，不會跟蹤使用者的行為。"
+msgstr "完全免費、沒有間諜軟體、無廣告、不會跟蹤使用者的行為。"
 
 #: vlc/index.php:51
 msgid "Can do media conversion and streaming."
@@ -309,7 +310,7 @@ msgstr "檢視所有畫面截圖"
 
 #: vlc/index.php:94
 msgid "Get VLC for"
-msgstr "獲取 VLC 為"
+msgstr "執行 VLC 的系統為"
 
 #: vlc/index.php:98
 msgid "Official Downloads of VLC media player"
@@ -321,7 +322,7 @@ msgstr "來源"
 
 #: vlc/index.php:105
 msgid "You can also directly get the"
-msgstr "您也可以直接獲取"
+msgstr "您也可以直接取得"
 
 #: vlc/index.php:106
 msgid "source code"

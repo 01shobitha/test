@@ -1,8 +1,9 @@
 # Spanish (Mexico) translation
-# Copyright (C) 2014 VideoLAN
+# Copyright (C) 2015 VideoLAN
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
+# Alejandra Marin, 2015
 # Enrique Cabrera <ecabrera9@ymail.com>, 2011
 # Jorge Arturo <jorgeartware@gmail.com>, 2014
 # Yair Alejandro García Meza <yairacount@gmail.com>, 2014
@@ -11,9 +12,9 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-18 08:05-0400\n"
-"PO-Revision-Date: 2014-07-04 20:39+0000\n"
-"Last-Translator: Yair Alejandro García Meza <yairacount@gmail.com>\n"
-"Language-Team: Spanish (Mexico) (http://www.transifex.com/projects/p/vlc-trans/language/es_MX/)\n"
+"PO-Revision-Date: 2015-08-25 01:07+0000\n"
+"Last-Translator: Alejandra Marin\n"
+"Language-Team: Spanish (Mexico) (http://www.transifex.com/yaron/vlc-trans/language/es_MX/)\n"
 "Language: es_MX\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,7 +27,7 @@ msgstr "Un proyecto y una"
 
 #: include/header.php:221
 msgid "non-profit organization"
-msgstr "organización sin ánimo de lucro"
+msgstr "organización sin fines de lucro"
 
 #: include/header.php:222
 msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
@@ -125,7 +126,7 @@ msgstr "Donar dinero"
 
 #: include/header.php:330 include/header.php:409
 msgid "Get Goodies"
-msgstr "Obtener golosinas"
+msgstr "Obtener artículos"
 
 #: include/header.php:334
 msgid "Support"
@@ -181,7 +182,7 @@ msgstr "VLC: Sitio oficial - ¡Soluciones multimedia libres para todos los siste
 
 #: index.php:26 vlc/index.php:20
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
-msgstr "VLC es un reproductor y «framework» multimedia libre y de código abierto multiplataforma que reproduce la mayoría de archivos multimedia, así como DVD, Audio CD, VCD y diversos protocolos de transmisión."
+msgstr "VLC es un sistema multiplataforma de código abierto de reproducción multimedia que reproduce la mayoría de archivos multimedia, así como DVD, Audio CD, VCD y diversos protocolos de transmisión."
 
 #: index.php:36
 msgid "Other projects from VideoLAN"
@@ -233,7 +234,7 @@ msgstr "VideoLAN es una organización sin ánimo de lucro."
 
 #: index.php:112
 msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
-msgstr "Todos nuestros costos se cubren con donaciones que recibimos de nuestros usuarios. Si te gusta utilizar un producto de VideoLAN, por favor done para apoyarnos."
+msgstr "Todos nuestros costos se cubren con donaciones que recibimos de nuestros usuarios. Si disfruta el usar un producto de VideoLAN, por favor done para apoyarnos."
 
 #: index.php:114 index.php:126 index.php:137
 msgid "Learn More"
@@ -241,7 +242,7 @@ msgstr "Aprender más"
 
 #: index.php:123
 msgid "VideoLAN is open-source software."
-msgstr "VideoLAN es software de código abierto."
+msgstr "VideoLAN es un software de código abierto."
 
 #: index.php:124
 msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
@@ -269,7 +270,7 @@ msgstr "Medios sociales"
 
 #: vlc/index.php:3
 msgid "Official page for VLC media player, the Open Source video framework!"
-msgstr "Página oficial del Reproductor multimedia VLC, el «framework» de código abierto de vídeo!"
+msgstr "Página oficial del Reproductor multimedia VLC, el sistema de código abierto de vídeo!"
 
 #: vlc/index.php:40
 msgid "Simple, fast and powerful media player."

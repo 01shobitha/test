@@ -74,7 +74,7 @@ share a few good drinks.</p>
 <p>Please fill out the <b><a href="http://goo.gl/forms/Kdi5LSu1u9">registration form</a></b>.
 
 <h1>Accommodation</h1>
-<p>For active members of the open-source communities who registered until August 18, we provide accommodation at the <a href="http://www.timhotel.com/en/our-hotels-details/21-timhotel-berthier-paris-17-3.htm">Timhotel Berthier Paris 17</a> near Porte de Clichy.<br />
+<p>For active members of the open-source communities who registered until August 18, we provide accommodation at the <a href="http://www.timhotel.com/en/our-hotels-details/21-timhotel-berthier-paris-17-3.htm#tab-presentation">Timhotel Berthier Paris 17</a> near Porte de Clichy.<br />
 4, boulevard Berthier, 75017 Paris.</p>
 
 <h1><a name="coc">Code of Conduct</a> </h1>

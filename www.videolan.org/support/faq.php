@@ -188,7 +188,7 @@ Please, for the clueless people arguing that it doesn't work, include the inform
 <h2><span id="Crash">VLC crashes</h2>
 <p>Increase the verbosity level (either in the preferences or with a <code>-vv</code> command line option) and look at the debug messages (in the terminal or in the Messages window).</p>
 
-<p>If you are convinced that it is a bug in VLC, have a look at the <a href="http://www.videolan.org/support/bug-reporting.html">bug reporting page</a>.</p>
+<p>If you are convinced that it is a bug in VLC, have a look at the <a href="https://wiki.videolan.org/Report_bugs">bug reporting page</a>.</p>
 
 <h2><span id="Screenshot">How can I take screenshots?</h2>
 <p>To take a snapshot of the video displayed by VLC, you just need to press the pre-defined snapshot hotkey:</p>

@@ -13,9 +13,9 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-18 08:05-0400\n"
-"PO-Revision-Date: 2015-06-15 10:51+0000\n"
-"Last-Translator: Gonçalo Matos <gcorreiamatos@gmail.com>\n"
-"Language-Team: Portuguese (Portugal) (http://www.transifex.com/projects/p/vlc-trans/language/pt_PT/)\n"
+"PO-Revision-Date: 2015-09-14 14:51+0000\n"
+"Last-Translator: Bruno Queiros <bqueiros@gmail.com>\n"
+"Language-Team: Portuguese (Portugal) (http://www.transifex.com/yaron/vlc-trans/language/pt_PT/)\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,11 +28,11 @@ msgstr "Um projeto e uma"
 
 #: include/header.php:221
 msgid "non-profit organization"
-msgstr "organização sem fins lucrativos"
+msgstr "organização sem fins lucrativos,"
 
 #: include/header.php:222
 msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
-msgstr "composta por voluntários, desenvolvendo e promovendo soluções de multimédia livres e código aberto."
+msgstr "composta por voluntários, que desenvolve e promove soluções gratuitas e open source."
 
 #: include/header.php:228 include/header.php:242 include/header.php:256
 #: index.php:107
@@ -183,7 +183,7 @@ msgstr "Site oficial do VLC - Soluções de multimédia gratuitas para todos os 
 
 #: index.php:26 vlc/index.php:20
 msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
-msgstr "O VLC é um reprodutor de ficheiros e uma framework, open source e gratuito, que reproduz a maioria dos ficheiros multimédia, além de DVDs, CDs, VCDs e vários protocolos de transmissão."
+msgstr "O VLC é um reprodutor de multimédia e framework gratuito, de código aberto e multiplataforma que suporta a maioria dos ficheiros de multimédia, bem como DVD, CD de Áudio, VCD e vários protocolos de transmissão."
 
 #: index.php:36
 msgid "Other projects from VideoLAN"
@@ -251,7 +251,7 @@ msgstr "Isto significa que se tiver a habilidade e o desejo de melhorar um dos n
 
 #: index.php:131
 msgid "Spread the Word"
-msgstr "Divulgue"
+msgstr "Divulgar"
 
 #: index.php:135
 msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
@@ -263,15 +263,15 @@ msgstr "Novidades e atualizações"
 
 #: index.php:151
 msgid "Development Blogs"
-msgstr "Blogues dos Programadores"
+msgstr "Blogues dos programadores"
 
 #: index.php:176
 msgid "Social media"
-msgstr "Média social"
+msgstr "Redes sociais"
 
 #: vlc/index.php:3
 msgid "Official page for VLC media player, the Open Source video framework!"
-msgstr "Página oficial do VLC media player, a estrutura de vídeo em código aberto!"
+msgstr "Página oficial do VLC"
 
 #: vlc/index.php:40
 msgid "Simple, fast and powerful media player."

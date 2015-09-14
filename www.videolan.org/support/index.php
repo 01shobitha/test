@@ -59,7 +59,6 @@ especially <a href="http://wiki.videolan.org/Documentation:Play_HowTo">VLC playb
     <p>Then ask your question, on:</p>
     <ul class="bullets">
         <li>our <a href="http://forum.videolan.org">Forum</a>, in the correct section;</li>
-        <li>our <a href="lists.html">users mailing-lists</a>, especially <a href="mailto:vlc@REMOVETHIS@videolan.org">vlc@<span style="diplay:none">remove</span>videolan.org</a>;</li>
         <li>our live-chat IRC channel on the <a href="http://www.freenode.net">freenode</a> Network (<em>irc.freenode.org, #videolan</em>), for live answers. Use the <a href="http://webchat.freenode.net/">Freenode Web</a> interface, if you don't have an IRC client at hand.</li>
     </ul>
 </div>

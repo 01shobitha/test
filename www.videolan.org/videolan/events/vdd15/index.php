@@ -165,7 +165,7 @@ share a few good drinks. The location will be announced shortly.</p>
   </tr>
   <tr>
     <td style="width:20%; color: #4D4D4D"><b>16:00 - 16:15</b></td>
-    <td style="color: #4D4D4D"><b>Opening remarks</b> by Jean-Baptiste Kempf <i>(VideoLAN)</i></td>
+    <td style="color: #4D4D4D"><b>Closing remarks</b> by Jean-Baptiste Kempf <i>(VideoLAN)</i></td>
   </tr>
   <tr>
     <td style="width:20%; color: #4D4D4D"><b>16:15 - 18:00</b></td>

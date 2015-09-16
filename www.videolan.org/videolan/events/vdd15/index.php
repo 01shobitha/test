@@ -173,7 +173,7 @@ share a few good drinks. The location will be announced shortly.</p>
   </tr>
 </table>
 </p>
-<p>The conference schedule is subject to change. For live updates, check the <a href="https://wiki.videolan.org/VDD15">designated page on the wiki</>. 
+<p>The conference schedule is subject to changes. For live updates, check the <a href="https://wiki.videolan.org/VDD15">designated page on the wiki</a></p>. 
 </div>
 
 <h1>Registration</h1>

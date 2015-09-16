@@ -133,6 +133,7 @@ share a few good drinks. The location will be announced shortly.</p>
 </p>
 
 <h2>Sunday</h2>
+<p>
 <table style="width:100%">
   <tr>
     <td style="width:20%"><b>09:30 - 10:00</b></td>
@@ -171,6 +172,8 @@ share a few good drinks. The location will be announced shortly.</p>
     <td><b>Break-out sessions and after-hours</b></td>
   </tr>
 </table>
+</p>
+<p>The conference schedule is subject to change. For live updates, check the <a href="https://wiki.videolan.org/VDD15">designated page on the wiki</>. 
 </div>
 
 <h1>Registration</h1>

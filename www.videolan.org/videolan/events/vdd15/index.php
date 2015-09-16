@@ -42,17 +42,9 @@ invite you to the multimedia open-source event of the summer!</b></p>
 <p>Like in previous years, an important number of developers from <a href="/developers/x264.html">x264</a>, <a href="http://www.ffmpeg.org/">FFmpeg</a>, <a href="http://libav.org/">Libav</a> and <a href="http://kde.org/">KDE</a> will join us as well as major industry partners!
 Developers, designers and anonymous people around <a href="/vlc/">VLC</a>, all of its ports to desktop, web browser environments and mobile operating systems, <a href="/projects/dvblast.html">DVBlast</a> or other multimedia projects will be there too.</p>
 
-<h1>Who can come? </h1>
-<p><strong>Anyone</strong> who cares about open source multimedia technologies and development. Remember that it targets a technical crowd!</p>
-<p>If you are representing a <b>company</b> caring about open-source multimedia software, we would be <b>very interested</b> if you could co-sponsor the event.</p>
-
 <h1>Where? </h1>
 <p>The venue is in Paris, 9th district, near St Lazare.<br />
 Criteo, 32 rue Blanche, 75009 Paris.</p>
-
-<h1>Cost and sponsorship </h1>
-<p>The cost for attendance is <b>free</b>.</p>
-<p>Like previous years, active developers can get a full sponsorship covering travel costs. We will also provide accomodation.</p>
 
 <h1>Schedule</h1>
 <div id="schedule" style="margin: 10px 25px 0px; padding: 0 20px; border: 0px outset #4d4d4d; width: 600px;">
@@ -151,6 +143,14 @@ share a few good drinks. The location will be announced shortly.</p>
 </p>
 <p>The conference schedule is subject to changes. For live updates, check the <a href="https://wiki.videolan.org/VDD15">designated page on the wiki</a></p>. 
 </div>
+
+<h1>Who can come? </h1>
+<p><strong>Anyone</strong> who cares about open source multimedia technologies and development. Remember that it targets a technical crowd!</p>
+<p>If you are representing a <b>company</b> caring about open-source multimedia software, we would be <b>very interested</b> if you could co-sponsor the event.</p>
+
+<h1>Cost and sponsorship </h1>
+<p>The cost for attendance is <b>free</b>.</p>
+<p>Like previous years, active developers can get a full sponsorship covering travel costs. We will also provide accomodation.</p>
 
 <h1>Registration</h1>
 <p>Please fill out the <b><a href="http://goo.gl/forms/Kdi5LSu1u9">registration form</a></b>.

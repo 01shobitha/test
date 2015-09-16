@@ -127,7 +127,7 @@ share a few good drinks. The location will be announced shortly.</p>
   </tr>
   <tr>
     <td style="width:20%; color: #4D4D4D"><b>15:30 - 18:00</b></td>
-    <td style="color: #4D4D4D"><b>Break-out sessions</b></td>
+    <td style="color: #4D4D4D"><b>Unconference</b></td>
   </tr>
 </table>
 </p>
@@ -144,32 +144,8 @@ share a few good drinks. The location will be announced shortly.</p>
     <td>&#8193; </td>
   </tr>
   <tr>
-    <td style="width:20%; color: #4D4D4D"><b>10:00 - 10:10</b></td>
-    <td style="color: #4D4D4D"><b>Opening remarks</b> by Jean-Baptiste Kempf <i>(VideoLAN)</i></td>
-  </tr>
-  <tr>
-    <td style="width:20%; color: #4D4D4D"><b>10:15 - 10:30</b></td>
-    <td style="color: #4D4D4D"><b>FFmpeg and libav metrics</b> by Ronald Bultje</td>
-  </tr>
-  <tr>
-    <td style="width:20%; color: #4D4D4D"><b>10:30 - 12:30</b></td>
-    <td style="color: #4D4D4D"><b>Break-out sessions</b></td>
-  </tr>
-  <tr>
-    <td style="width:20%">&#8193;</td>
-    <td>&#8193;</td>
-  </tr>
-  <tr>
-    <td style="width:20%; color: #4D4D4D"><b>14:00 - 16:00</b></td>
-    <td style="color: #4D4D4D"><b>Break-out sessions</b></td>
-  </tr>
-  <tr>
-    <td style="width:20%; color: #4D4D4D"><b>16:00 - 16:15</b></td>
-    <td style="color: #4D4D4D"><b>Closing remarks</b> by Jean-Baptiste Kempf <i>(VideoLAN)</i></td>
-  </tr>
-  <tr>
-    <td style="width:20%; color: #4D4D4D"><b>16:15 - 18:00</b></td>
-    <td style="color: #4D4D4D"><b>Break-out sessions and after-hours</b></td>
+    <td style="width:20%; color: #4D4D4D"><b>10:00 - 18:00</b></td>
+    <td style="color: #4D4D4D"><b>Unconference</b></td>
   </tr>
 </table>
 </p>

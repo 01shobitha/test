@@ -207,6 +207,7 @@ function start_head( $title,
         <script type="text/javascript">
           var _gaq = _gaq || [];
           _gaq.push(['_setAccount', 'UA-38853043-1']);
+          _gaq.push(['_setDomainName', 'videolan.org']);
           _gaq.push(['_trackPageview']);
           (function() {
               var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;

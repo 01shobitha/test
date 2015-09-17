@@ -97,7 +97,7 @@ share a few good drinks. The location will be announced shortly.</p>
   </tr>
   <tr>
     <td style="width:20%; color: #4D4D4D; height:30px"><b>12:40 - 12:45</b></td>
-    <td style="color: #4D4D4D"><b>Spice</b> by Julien Navas <i>(Vodkaster)</i></td>
+    <td style="color: #4D4D4D"><b>Spice</b> by Lord Julien Navas <i>(Vodkaster)</i></td>
   </tr>
   <tr>
     <td style="width:20%">&#8193;</td>

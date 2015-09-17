@@ -46,6 +46,7 @@ Criteo, 32 rue Blanche, 75009 Paris.</p>
 
 <h1>Schedule</h1>
 <div id="schedule" style="margin: 10px 25px 0px; padding: 0 20px; border: 0px outset #4d4d4d; width: 600px;">
+<p>Download a printable copy <a href="http://images.videolan.org/images/events/VDD15.pdf">here</a></p>
 
 <h2>Friday 18th September, Community Bonding Day</h2>
 <p>This year we'll do a community bonding day at <a href="http://www.disneylandparis.com">Disneyland Paris</a>!<br/>

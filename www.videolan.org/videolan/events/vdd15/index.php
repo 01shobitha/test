@@ -17,7 +17,7 @@
 <br />
 <a href="/videolan/"><?php image( "logoGrey.png" , "VideoLAN association"); ?></a>
 <br />
-<p style="text-align: center"><a href="http://videolabs.io">Videolabs SAS</a></p>
+<a href="http://videolabs.io"><?php image( "partners/videolabs-transparent.png" , "Videolabs SAS", "", 180); ?></a>
 <h2>Host</h2>
 <a href="http://www.criteo.fr/"><?php image( "partners/criteo.png" , "Criteo", "", 180); ?></a>
 <?php panel_end(); ?>

@@ -1,0 +1,323 @@
+# Lao translation
+# Copyright (C) 2015 VideoLAN
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Toukta Sundara <toukta.sundara@gmail.com>, 2015
+# Vongdeuan <dchanhthachack@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: VLC - Trans\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-05-18 08:05-0400\n"
+"PO-Revision-Date: 2015-09-17 08:04+0000\n"
+"Last-Translator: Vongdeuan <dchanhthachack@gmail.com>\n"
+"Language-Team: Lao (http://www.transifex.com/yaron/vlc-trans/language/lo/)\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: include/header.php:221
+msgid "A project and a"
+msgstr "A project and a"
+
+#: include/header.php:221
+msgid "non-profit organization"
+msgstr "ອົງການທີ່ບໍ່ສະແຫວງຫາຜົນກຳໄລ"
+
+#: include/header.php:222
+msgid "composed of volunteers, developing and promoting free, open-source multimedia solutions."
+msgstr "composed of volunteers, developing and promoting free, open-source multimedia solutions."
+
+#: include/header.php:228 include/header.php:242 include/header.php:256
+#: index.php:107
+msgid "donate"
+msgstr "ບໍລິຈາກ"
+
+#: include/header.php:228
+msgid "why?"
+msgstr "ເປັນຫຍັງ?"
+
+#: include/header.php:275
+msgid "Home"
+msgstr "ໜ້າຫຼັກ"
+
+#: include/header.php:278 include/header.php:425
+msgid "News"
+msgstr "ຂ່າວ"
+
+#: include/header.php:283 include/header.php:415
+msgid "Project and Organization"
+msgstr "ໂຄງການ ແລະ ອົງການ"
+
+#: include/header.php:284 include/header.php:416
+msgid "Team"
+msgstr "ທີມ"
+
+#: include/header.php:285 include/header.php:418
+msgid "Contact us"
+msgstr "ຕິດຕໍ່ພວກເຮົາ"
+
+#: include/header.php:286 include/header.php:419
+msgid "Partners"
+msgstr "ຄູ່ຮ່ວມງານ"
+
+#: include/header.php:287 include/header.php:420
+msgid "Mirrors"
+msgstr "ແວ່ນ"
+
+#: include/header.php:288 include/header.php:421
+msgid "Press center"
+msgstr "ສູນຂ່າວ"
+
+#: include/header.php:289 include/header.php:422
+msgid "Events"
+msgstr "ເຫດການ"
+
+#: include/header.php:290 include/header.php:423
+msgid "Security center"
+msgstr "ສູນຮັກສາຄວາມປອດໄພ"
+
+#: include/header.php:296
+msgid "Download"
+msgstr "ດາວໂຫຼດ"
+
+#: include/header.php:297 include/header.php:378 index.php:28 vlc/index.php:22
+#: vlc/index.php:39
+msgid "Features"
+msgstr "ຄຸນສົມບັດ"
+
+#: include/header.php:298 include/header.php:379 index.php:29 vlc/index.php:23
+#: vlc/index.php:65
+msgid "Screenshots"
+msgstr "ພາບຫນ້າຈໍ"
+
+#: include/header.php:299 include/header.php:376 index.php:30 vlc/index.php:24
+msgid "Skins"
+msgstr "Skins"
+
+#: include/header.php:300 include/header.php:377
+msgid "Extensions"
+msgstr "ສ່ວນຂະຫຍາຍ"
+
+#: include/header.php:304
+msgid "Projects"
+msgstr "ໂຄງການ"
+
+#: include/header.php:322 include/header.php:383
+msgid "All Projects"
+msgstr "ໂຄງການທັງໝົດ"
+
+#: include/header.php:326 index.php:119
+msgid "Contribute"
+msgstr "ການປະກອບສ່ວນ"
+
+#: include/header.php:328 include/header.php:408
+msgid "Donate time"
+msgstr "Donate time"
+
+#: include/header.php:329 include/header.php:407
+msgid "Donate money"
+msgstr "ເງິນບໍລິຈາກ"
+
+#: include/header.php:330 include/header.php:409
+msgid "Get Goodies"
+msgstr "Get Goodies"
+
+#: include/header.php:334
+msgid "Support"
+msgstr "ສະໜັບສະໜູນ"
+
+#: include/header.php:336
+msgid "Support center"
+msgstr "ສູນໃຫ້ການສະໜັບສະໜູນ"
+
+#: include/header.php:337 include/header.php:406
+msgid "FAQ"
+msgstr "FAQ"
+
+#: include/header.php:338 include/header.php:417 include/header.php:446
+msgid "Legal"
+msgstr "ກົດຫມາຍ"
+
+#: include/header.php:340 include/header.php:404
+msgid "Forums"
+msgstr "Forums"
+
+#: include/header.php:341 include/header.php:405
+msgid "Mailing-Lists"
+msgstr "ຈົດໝາຍ-ລາຍການ"
+
+#: include/header.php:342
+msgid "Report a bug"
+msgstr "ລາຍງານຄວາມຜິດພາດ"
+
+#: include/header.php:346
+msgid "Dev' Zone"
+msgstr "Dev' Zone"
+
+#: include/header.php:401
+msgid "Community"
+msgstr "ປະຊາຄົມ"
+
+#: include/header.php:424
+msgid "Get Involved"
+msgstr "ການມີສ່ວນຮ່ວມ"
+
+#: include/os-specific.php:93 vlc/index.php:27
+msgid "Download VLC"
+msgstr "ດາວໂຫຼດ VLC"
+
+#: include/os-specific.php:99 vlc/index.php:34 vlc/index.php:127
+msgid "Other Systems"
+msgstr "ລະບົບອຶ່ນໆ"
+
+#: index.php:3
+msgid "VLC: Official site - Free multimedia solutions for all OS!"
+msgstr "VLC: ເວັບໄຊທີ່ເປັນທາງການ - ວິທີແກ້ໄຂ multimedia ຟຣີສໍາລັບ OS ທັງຫມົດ!"
+
+#: index.php:26 vlc/index.php:20
+msgid "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
+msgstr "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols."
+
+#: index.php:36
+msgid "Other projects from VideoLAN"
+msgstr "ໂຄງການອຶ່ນໆຈາກ VideoLAN"
+
+#: index.php:38
+msgid "For Everyone"
+msgstr "ສຳລັບທຸກຄົນ"
+
+#: index.php:44
+msgid "VLC is a powerful media player playing most of the media codecs and video formats out there."
+msgstr "VLC is a powerful media player playing most of the media codecs and video formats out there."
+
+#: index.php:53
+msgid "VideoLAN Movie Creator is a non-linear editing software for video creation."
+msgstr "VideoLAN Movie Creator is a non-linear editing software for video creation."
+
+#: index.php:60
+msgid "For Professionals"
+msgstr "ສຳລັບຜູ້ຊ່ຽວຊານສະເພາະດ້ານ"
+
+#: index.php:66
+msgid "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
+msgstr "DVBlast is a simple and powerful MPEG-2/TS demux and streaming application."
+
+#: index.php:74
+msgid "multicat is a set of tools designed to easily and efficiently manipulate multicast streams and TS."
+msgstr "multicat ແມ່ນຊຸດຂອງເຄື່ອງມືການອອກແບບມາແບບງ່າຍໆ ແລະ ປະສິດທິພາບໃນການຈັດການຂໍ້ມູນ TS ໄດ້."
+
+#: index.php:83
+msgid "x264 is a free application for encoding video streams into the H.264/MPEG-4 AVC format."
+msgstr "x264 ເປັນໂປຣແກຣມຟຮີສຳລັບການເຂົ້າລະຫັດ Video Stream ໃນຮູບແບບ H.264/MPEG-4 AVC."
+
+#: index.php:91
+msgid "For Developers"
+msgstr "ສຳລັບນັກພັດທະນາ"
+
+#: index.php:102
+msgid "View All Projects"
+msgstr "ເບີ່ງໂຄງການທັງໝົດ"
+
+#: index.php:105
+msgid "Help us out!"
+msgstr "ຊ່ວຍທາງອອກໃຫ້ເຮົາ!"
+
+#: index.php:111
+msgid "VideoLAN is a non-profit organization."
+msgstr "VideoLAN ເປັນອົງການທີ່ບໍ່ສະແຫວງຫາຜົນກຳໄລ."
+
+#: index.php:112
+msgid " All our costs are met by donations we receive from our users. If you enjoy using a VideoLAN product, please donate to support us."
+msgstr "ຄ່າໃຊ້ຈ່າຍທັງໝົດຂອງພວກເຮົາແມ່ນໄດ້ຈາກການຮັບບໍລິຈາກໂດຍຜູ້ໃຊ້. ຖ້າຫາກທ່ານມີຄວາມສຸກການນໍາໃຊ້ຜະລິດຕະພັນ VideoLAN, ກະລຸນາບໍລິຈາກເພື່ອສະຫນັບສະຫນູນພວກເຮົາ."
+
+#: index.php:114 index.php:126 index.php:137
+msgid "Learn More"
+msgstr "ຮຽນຮູ້ເພີ່ມເຕີມ"
+
+#: index.php:123
+msgid "VideoLAN is open-source software."
+msgstr "VideoLAN ເປັນຊອບແວທີ່ເປັນ open-source."
+
+#: index.php:124
+msgid "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
+msgstr "This means that if you have the skill and the desire to improve one of our products, your contributions are welcome"
+
+#: index.php:131
+msgid "Spread the Word"
+msgstr "ການແຜ່ກະຈາຍຂອງຄໍາສັບຕ່າງໆ"
+
+#: index.php:135
+msgid "We feel that VideoLAN has the best video software available at the best price: free. If you agree please help spread the word about our software."
+msgstr "ພວກເຮົາຮູ້ສຶກວ່າ VideoLAN ມີຊອບແວວິດີໂອທີ່ດີທີ່ສຸດໃນລາຄາທີ່ດີທີ່ສຸດ: ຟຣີ. ຖ້າຫາກວ່າທ່ານຕົກລົງເຫັນດີກະລຸນາຊ່ວຍເຜີຍແຜ່ຄໍາກ່ຽວກັບຊອບແວຂອງພວກເຮົາ."
+
+#: index.php:147
+msgid "News &amp; Updates"
+msgstr "ຂ່າວ &amp; ອັບເດຣດ"
+
+#: index.php:151
+msgid "Development Blogs"
+msgstr "Development Blogs"
+
+#: index.php:176
+msgid "Social media"
+msgstr "ສື່ອອນໄລ"
+
+#: vlc/index.php:3
+msgid "Official page for VLC media player, the Open Source video framework!"
+msgstr "ຫນ້າທີ່ເປັນທາງການສໍາລັບ VLC media player, ໂຄງປະກອບວິດີໂອເປັນ Open Source!"
+
+#: vlc/index.php:40
+msgid "Simple, fast and powerful media player."
+msgstr "ເຄື່ອງຫຼິ້ນ VLC media player ງ່າຍ, ໄວ ແລະ ມີປະສິດທິພາບ."
+
+#: vlc/index.php:42
+msgid "Plays everything: Files, Discs, Webcams, Devices and Streams."
+msgstr "ຫຼິ້ນທຸກຢ່າງ: Files, Discs, Webcams, Devices and Streams."
+
+#: vlc/index.php:44
+msgid "Plays most codecs with no codec packs needed:"
+msgstr "ຫຼິ້ນໂຕປ່ຽນສັນຍານສ່ວນໃຫຍ່ບໍ່ມີໂຕປ່ຽນສັນຍານທີ່ຕ້ອງໃຊ້:"
+
+#: vlc/index.php:47
+msgid "Runs on all platforms:"
+msgstr "ເຮັດວຽກໃນ platform ທັງໝົດ:"
+
+#: vlc/index.php:49
+msgid "Completely Free, no spyware, no ads and no user tracking."
+msgstr "ຫຼິ້ນສໍາເລັດ, ແບບທີ່ບໍ່ມີການໂຄສະນາ ແລະ ບໍ່ມີການຕິດຕາມຜູ້ໃຊ້."
+
+#: vlc/index.php:51
+msgid "Can do media conversion and streaming."
+msgstr "ສາມາດດັດແປງສື່ ແລະ ສະຕິມມິ່ງ."
+
+#: vlc/index.php:53
+msgid "Discover all features"
+msgstr "ຄົ້ນພົບຄຸນສົມບັດທັງໝົດ"
+
+#: vlc/index.php:87
+msgid "View all screenshots"
+msgstr "ເບີ່ງພາບໜ້າຈໍທັງໝົດ"
+
+#: vlc/index.php:94
+msgid "Get VLC for"
+msgstr "VLC ສຳລັບ"
+
+#: vlc/index.php:98
+msgid "Official Downloads of VLC media player"
+msgstr "ດາວໂຫຼດຢ່າງເປັນທາງການຂອງເຄື່ອງຫຼິ້ນ VLC media player"
+
+#: vlc/index.php:104
+msgid "Sources"
+msgstr "ແຫຼ່ງທີ່ມາ"
+
+#: vlc/index.php:105
+msgid "You can also directly get the"
+msgstr "ທ່ານຍັງສາມາດໄດ້ຮັບໂດຍກົງ"
+
+#: vlc/index.php:106
+msgid "source code"
+msgstr "source code"

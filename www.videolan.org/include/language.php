@@ -34,6 +34,7 @@ $alternate_lang = array(
     "kn",
     "ko",
     "ky",
+    "lo",
     "lt",
     "lv",
     "ml",

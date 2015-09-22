@@ -29,6 +29,7 @@ pkgitem_sf( "VLC for OS X $vlc_version_intel",
 <br />
 
 <h2>Web browser plugins</h2>
+<p>Compatible with Safari 5.0 (or later) and Mozilla Firefox 3.6 (or later).<br/>Regrettably, <b>no longer</b> compatible with Google Chrome as its manufacturer removed support for this kind of plugin.</p>
 
 <?php
 pkgitem_sf( "VLC for OS X web plugin $vlc_version_intel",

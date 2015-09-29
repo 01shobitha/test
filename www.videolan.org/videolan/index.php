@@ -25,8 +25,8 @@
 <p>The current board of VideoLAN is composed by:</p>
 <ul class="bullets">
 <li>President: Jean-Baptiste Kempf</li>
-<li>Treasurer: Ludovic Fauvet</li>
-<li>Secretary: Felix Paul Kühne</li>
+<li>Treasurer: Felix Paul Kühne</li>
+<li>Secretary: Hugo Beauzée-Luyssen</li>
 </ul>
 
         <div style="margin-top: 50px;" class="clearme"></div>

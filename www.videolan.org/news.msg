@@ -1,6 +1,8 @@
 # Comments begin with a #
 # New topics begin with a "|"
 #
+|4 October 2015|libbluray 0.9.0|VideoLAN and the libbluray team are releasing today libbluray 0.9.0. Adding numerous features, notably to better support BD-J menus and embedded subtitles files, it also fixes a few important issues, like font-caching. See more on <a href="/developers/libbluray.html">libbluray page</a>
+
 |30 June 2015|VLC for iOS 2.6.0|VideoLAN and the VLC development team are excited to announce a major version of VLC for iOS today, which adds support for Apple Watch to remote control and browse the library on iPhone, a mini player and large number of improvements through-out the app.</br>It will be available on the App Store shortly.
 
 |30 April 2015|libbluray 0.8.0, libaacs 0.8.1 released|The 2 VideoLAN Blu-Ray libraries have been released: <a href="http://www.videolan.org/developers/libbluray.html">libbluray 0.8.0</a>, <a href="http://www.videolan.org/developers/libaacs.html">libaacs 0.8.1</a>.<br />These releases add support for ISO files, BD-J JSM and virtual devices.

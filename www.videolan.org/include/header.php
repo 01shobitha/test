@@ -173,7 +173,7 @@ function start_head( $title,
         } ?>
 
         <?php /* CSS */ ?>
-        <link rel="stylesheet" type="text/css" href="/style/style.css" />
+        <link rel="stylesheet" type="text/css" href="//images.videolan.org/style/style.css" />
 
         <?php /* Misc */ ?>
         <link rel="dns-prefetch" href="//get.videolan.org" />
